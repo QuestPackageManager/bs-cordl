@@ -25,26 +25,27 @@ MARK_REF_PTR_T(::System::ComponentModel::NotifyCollectionChangedEventArgs);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11789))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11789))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11790))
 // CS Name: ::System.ComponentModel::NotifyCollectionChangedEventArgs*
 class CORDL_TYPE NotifyCollectionChangedEventArgs : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Action>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__Action_k__BackingField, put = __set__Action_k__BackingField))::System::ComponentModel::NotifyCollectionChangedAction _Action_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Action_k__BackingField,
+                      put = __cordl_internal_set__Action_k__BackingField))::System::ComponentModel::NotifyCollectionChangedAction _Action_k__BackingField;
 
   /// @brief Field <NewItems>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__NewItems_k__BackingField, put = __set__NewItems_k__BackingField))::System::Collections::IList* _NewItems_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__NewItems_k__BackingField, put = __cordl_internal_set__NewItems_k__BackingField))::System::Collections::IList* _NewItems_k__BackingField;
 
   /// @brief Field <NewStartingIndex>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __get__NewStartingIndex_k__BackingField, put = __set__NewStartingIndex_k__BackingField)) int32_t _NewStartingIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__NewStartingIndex_k__BackingField, put = __cordl_internal_set__NewStartingIndex_k__BackingField)) int32_t _NewStartingIndex_k__BackingField;
 
   /// @brief Field <OldItems>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__OldItems_k__BackingField, put = __set__OldItems_k__BackingField))::System::Collections::IList* _OldItems_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__OldItems_k__BackingField, put = __cordl_internal_set__OldItems_k__BackingField))::System::Collections::IList* _OldItems_k__BackingField;
 
   /// @brief Field <OldStartingIndex>k__BackingField, offset 0x30, size 0x4
-  __declspec(property(get = __get__OldStartingIndex_k__BackingField, put = __set__OldStartingIndex_k__BackingField)) int32_t _OldStartingIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__OldStartingIndex_k__BackingField, put = __cordl_internal_set__OldStartingIndex_k__BackingField)) int32_t _OldStartingIndex_k__BackingField;
 
   __declspec(property(get = get_Action, put = set_Action))::System::ComponentModel::NotifyCollectionChangedAction Action;
 
@@ -56,35 +57,35 @@ public:
 
   __declspec(property(get = get_OldStartingIndex, put = set_OldStartingIndex)) int32_t OldStartingIndex;
 
-  constexpr ::System::ComponentModel::NotifyCollectionChangedAction& __get__Action_k__BackingField();
+  constexpr ::System::ComponentModel::NotifyCollectionChangedAction& __cordl_internal_get__Action_k__BackingField();
 
-  constexpr ::System::ComponentModel::NotifyCollectionChangedAction const& __get__Action_k__BackingField() const;
+  constexpr ::System::ComponentModel::NotifyCollectionChangedAction const& __cordl_internal_get__Action_k__BackingField() const;
 
-  constexpr void __set__Action_k__BackingField(::System::ComponentModel::NotifyCollectionChangedAction value);
+  constexpr void __cordl_internal_set__Action_k__BackingField(::System::ComponentModel::NotifyCollectionChangedAction value);
 
-  constexpr ::System::Collections::IList*& __get__NewItems_k__BackingField();
+  constexpr ::System::Collections::IList*& __cordl_internal_get__NewItems_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get__NewItems_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__NewItems_k__BackingField() const;
 
-  constexpr void __set__NewItems_k__BackingField(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set__NewItems_k__BackingField(::System::Collections::IList* value);
 
-  constexpr int32_t& __get__NewStartingIndex_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__NewStartingIndex_k__BackingField();
 
-  constexpr int32_t const& __get__NewStartingIndex_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__NewStartingIndex_k__BackingField() const;
 
-  constexpr void __set__NewStartingIndex_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__NewStartingIndex_k__BackingField(int32_t value);
 
-  constexpr ::System::Collections::IList*& __get__OldItems_k__BackingField();
+  constexpr ::System::Collections::IList*& __cordl_internal_get__OldItems_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get__OldItems_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__OldItems_k__BackingField() const;
 
-  constexpr void __set__OldItems_k__BackingField(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set__OldItems_k__BackingField(::System::Collections::IList* value);
 
-  constexpr int32_t& __get__OldStartingIndex_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__OldStartingIndex_k__BackingField();
 
-  constexpr int32_t const& __get__OldStartingIndex_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__OldStartingIndex_k__BackingField() const;
 
-  constexpr void __set__OldStartingIndex_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__OldStartingIndex_k__BackingField(int32_t value);
 
   /// @brief Method get_Action, addr 0x263dc04, size 0x8, virtual false, abstract: false, final false
   inline ::System::ComponentModel::NotifyCollectionChangedAction get_Action();

@@ -41,20 +41,20 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12988)), TypeDefinitionIndex(TypeDefinitionIndex(12978))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12978)), TypeDefinitionIndex(TypeDefinitionIndex(12988))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12979))
 // CS Name: ::StandardScoreSyncStateDeltaNetSerializable*
 class CORDL_TYPE StandardScoreSyncStateDeltaNetSerializable : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _delta, offset 0x10, size 0x14
-  __declspec(property(get = __get__delta, put = __set__delta))::GlobalNamespace::StandardScoreSyncState _delta;
+  __declspec(property(get = __cordl_internal_get__delta, put = __cordl_internal_set__delta))::GlobalNamespace::StandardScoreSyncState _delta;
 
   /// @brief Field <baseId>k__BackingField, offset 0x24, size 0x1
-  __declspec(property(get = __get__baseId_k__BackingField, put = __set__baseId_k__BackingField))::GlobalNamespace::SyncStateId _baseId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__baseId_k__BackingField, put = __cordl_internal_set__baseId_k__BackingField))::GlobalNamespace::SyncStateId _baseId_k__BackingField;
 
   /// @brief Field <timeOffsetMs>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__timeOffsetMs_k__BackingField, put = __set__timeOffsetMs_k__BackingField)) int32_t _timeOffsetMs_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__timeOffsetMs_k__BackingField, put = __cordl_internal_set__timeOffsetMs_k__BackingField)) int32_t _timeOffsetMs_k__BackingField;
 
   __declspec(property(get = get_baseId, put = set_baseId))::GlobalNamespace::SyncStateId baseId;
 
@@ -81,23 +81,23 @@ public:
   constexpr ::GlobalNamespace::ISyncStateDeltaSerializable_1<::GlobalNamespace::StandardScoreSyncState>*
   i___GlobalNamespace__ISyncStateDeltaSerializable_1___GlobalNamespace__StandardScoreSyncState_() noexcept;
 
-  constexpr ::GlobalNamespace::StandardScoreSyncState& __get__delta();
+  constexpr ::GlobalNamespace::StandardScoreSyncState& __cordl_internal_get__delta();
 
-  constexpr ::GlobalNamespace::StandardScoreSyncState const& __get__delta() const;
+  constexpr ::GlobalNamespace::StandardScoreSyncState const& __cordl_internal_get__delta() const;
 
-  constexpr void __set__delta(::GlobalNamespace::StandardScoreSyncState value);
+  constexpr void __cordl_internal_set__delta(::GlobalNamespace::StandardScoreSyncState value);
 
-  constexpr ::GlobalNamespace::SyncStateId& __get__baseId_k__BackingField();
+  constexpr ::GlobalNamespace::SyncStateId& __cordl_internal_get__baseId_k__BackingField();
 
-  constexpr ::GlobalNamespace::SyncStateId const& __get__baseId_k__BackingField() const;
+  constexpr ::GlobalNamespace::SyncStateId const& __cordl_internal_get__baseId_k__BackingField() const;
 
-  constexpr void __set__baseId_k__BackingField(::GlobalNamespace::SyncStateId value);
+  constexpr void __cordl_internal_set__baseId_k__BackingField(::GlobalNamespace::SyncStateId value);
 
-  constexpr int32_t& __get__timeOffsetMs_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__timeOffsetMs_k__BackingField();
 
-  constexpr int32_t const& __get__timeOffsetMs_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__timeOffsetMs_k__BackingField() const;
 
-  constexpr void __set__timeOffsetMs_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__timeOffsetMs_k__BackingField(int32_t value);
 
   /// @brief Method get_pool, addr 0xe5a870, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::IPacketPool_1<::GlobalNamespace::StandardScoreSyncStateDeltaNetSerializable*>* get_pool();

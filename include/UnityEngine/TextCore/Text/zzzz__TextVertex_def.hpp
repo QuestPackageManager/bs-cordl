@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::TextVertex);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13698))
 // CS Name: ::UnityEngine.TextCore.Text::TextVertex
 struct CORDL_TYPE TextVertex {

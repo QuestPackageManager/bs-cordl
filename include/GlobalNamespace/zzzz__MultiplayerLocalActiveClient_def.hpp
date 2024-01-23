@@ -65,83 +65,85 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalActiveClient);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5147))
 // CS Name: ::MultiplayerLocalActiveClient*
 class CORDL_TYPE MultiplayerLocalActiveClient : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _playerTransforms, offset 0x18, size 0x8
-  __declspec(property(get = __get__playerTransforms, put = __set__playerTransforms))::GlobalNamespace::PlayerTransforms* _playerTransforms;
+  __declspec(property(get = __cordl_internal_get__playerTransforms, put = __cordl_internal_set__playerTransforms))::UnityW<::GlobalNamespace::PlayerTransforms> _playerTransforms;
 
   /// @brief Field _audioTimeSyncController, offset 0x20, size 0x8
-  __declspec(property(get = __get__audioTimeSyncController, put = __set__audioTimeSyncController))::GlobalNamespace::AudioTimeSyncController* _audioTimeSyncController;
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
+                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
   /// @brief Field _scoreSyncStateManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__scoreSyncStateManager, put = __set__scoreSyncStateManager))::GlobalNamespace::IScoreSyncStateManager* _scoreSyncStateManager;
+  __declspec(property(get = __cordl_internal_get__scoreSyncStateManager, put = __cordl_internal_set__scoreSyncStateManager))::GlobalNamespace::IScoreSyncStateManager* _scoreSyncStateManager;
 
   /// @brief Field _nodePoseSyncStateManager, offset 0x30, size 0x8
-  __declspec(property(get = __get__nodePoseSyncStateManager, put = __set__nodePoseSyncStateManager))::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
+  __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
+                      put = __cordl_internal_set__nodePoseSyncStateManager))::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
 
   /// @brief Field _rpcManager, offset 0x38, size 0x8
-  __declspec(property(get = __get__rpcManager, put = __set__rpcManager))::GlobalNamespace::IGameplayRpcManager* _rpcManager;
+  __declspec(property(get = __cordl_internal_get__rpcManager, put = __cordl_internal_set__rpcManager))::GlobalNamespace::IGameplayRpcManager* _rpcManager;
 
   /// @brief Field _beatmapObjectManager, offset 0x40, size 0x8
-  __declspec(property(get = __get__beatmapObjectManager, put = __set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
   /// @brief Field _scoreController, offset 0x48, size 0x8
-  __declspec(property(get = __get__scoreController, put = __set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
+  __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
 
   /// @brief Field _comboController, offset 0x50, size 0x8
-  __declspec(property(get = __get__comboController, put = __set__comboController))::GlobalNamespace::ComboController* _comboController;
+  __declspec(property(get = __cordl_internal_get__comboController, put = __cordl_internal_set__comboController))::UnityW<::GlobalNamespace::ComboController> _comboController;
 
-  constexpr ::GlobalNamespace::PlayerTransforms*& __get__playerTransforms();
+  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms>& __cordl_internal_get__playerTransforms();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerTransforms*> const& __get__playerTransforms() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms> const& __cordl_internal_get__playerTransforms() const;
 
-  constexpr void __set__playerTransforms(::GlobalNamespace::PlayerTransforms* value);
+  constexpr void __cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms> value);
 
-  constexpr ::GlobalNamespace::AudioTimeSyncController*& __get__audioTimeSyncController();
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& __get__audioTimeSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value);
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  constexpr ::GlobalNamespace::IScoreSyncStateManager*& __get__scoreSyncStateManager();
+  constexpr ::GlobalNamespace::IScoreSyncStateManager*& __cordl_internal_get__scoreSyncStateManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreSyncStateManager*> const& __get__scoreSyncStateManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreSyncStateManager*> const& __cordl_internal_get__scoreSyncStateManager() const;
 
-  constexpr void __set__scoreSyncStateManager(::GlobalNamespace::IScoreSyncStateManager* value);
+  constexpr void __cordl_internal_set__scoreSyncStateManager(::GlobalNamespace::IScoreSyncStateManager* value);
 
-  constexpr ::GlobalNamespace::INodePoseSyncStateManager*& __get__nodePoseSyncStateManager();
+  constexpr ::GlobalNamespace::INodePoseSyncStateManager*& __cordl_internal_get__nodePoseSyncStateManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INodePoseSyncStateManager*> const& __get__nodePoseSyncStateManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INodePoseSyncStateManager*> const& __cordl_internal_get__nodePoseSyncStateManager() const;
 
-  constexpr void __set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
+  constexpr void __cordl_internal_set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
 
-  constexpr ::GlobalNamespace::IGameplayRpcManager*& __get__rpcManager();
+  constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__rpcManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __get__rpcManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __cordl_internal_get__rpcManager() const;
 
-  constexpr void __set__rpcManager(::GlobalNamespace::IGameplayRpcManager* value);
+  constexpr void __cordl_internal_set__rpcManager(::GlobalNamespace::IGameplayRpcManager* value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __get__beatmapObjectManager();
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __get__beatmapObjectManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  constexpr ::GlobalNamespace::IScoreController*& __get__scoreController();
+  constexpr ::GlobalNamespace::IScoreController*& __cordl_internal_get__scoreController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __get__scoreController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __cordl_internal_get__scoreController() const;
 
-  constexpr void __set__scoreController(::GlobalNamespace::IScoreController* value);
+  constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  constexpr ::GlobalNamespace::ComboController*& __get__comboController();
+  constexpr ::UnityW<::GlobalNamespace::ComboController>& __cordl_internal_get__comboController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ComboController*> const& __get__comboController() const;
+  constexpr ::UnityW<::GlobalNamespace::ComboController> const& __cordl_internal_get__comboController() const;
 
-  constexpr void __set__comboController(::GlobalNamespace::ComboController* value);
+  constexpr void __cordl_internal_set__comboController(::UnityW<::GlobalNamespace::ComboController> value);
 
   /// @brief Method Start, addr 0x23d8948, size 0x6e0, virtual false, abstract: false, final false
   inline void Start();
@@ -196,10 +198,10 @@ protected:
 
 public:
   /// @brief Field _playerTransforms, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerTransforms* ____playerTransforms;
+  ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
 
   /// @brief Field _audioTimeSyncController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::AudioTimeSyncController* ____audioTimeSyncController;
+  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
   /// @brief Field _scoreSyncStateManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IScoreSyncStateManager* ____scoreSyncStateManager;
@@ -217,7 +219,7 @@ public:
   ::GlobalNamespace::IScoreController* ____scoreController;
 
   /// @brief Field _comboController, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::ComboController* ____comboController;
+  ::UnityW<::GlobalNamespace::ComboController> ____comboController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

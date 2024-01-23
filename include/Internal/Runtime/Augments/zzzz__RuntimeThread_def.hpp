@@ -24,25 +24,25 @@ MARK_REF_PTR_T(::Internal::Runtime::Augments::RuntimeThread);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Internal::Runtime::Augments {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2308))
 // CS Name: ::Internal.Runtime.Augments::RuntimeThread*
 class CORDL_TYPE RuntimeThread : public ::System::Object {
 public:
   // Declarations
   /// @brief Field thread, offset 0x10, size 0x8
-  __declspec(property(get = __get_thread, put = __set_thread))::System::Threading::Thread* thread;
+  __declspec(property(get = __cordl_internal_get_thread, put = __cordl_internal_set_thread))::System::Threading::Thread* thread;
 
   /// @brief Field OptimalMaxSpinWaitsPerSpinIteration, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_OptimalMaxSpinWaitsPerSpinIteration, put = setStaticF_OptimalMaxSpinWaitsPerSpinIteration)) int32_t OptimalMaxSpinWaitsPerSpinIteration;
 
   __declspec(property(put = set_IsBackground)) bool IsBackground;
 
-  constexpr ::System::Threading::Thread*& __get_thread();
+  constexpr ::System::Threading::Thread*& __cordl_internal_get_thread();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __get_thread() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get_thread() const;
 
-  constexpr void __set_thread(::System::Threading::Thread* value);
+  constexpr void __cordl_internal_set_thread(::System::Threading::Thread* value);
 
   static inline void setStaticF_OptimalMaxSpinWaitsPerSpinIteration(int32_t value);
 

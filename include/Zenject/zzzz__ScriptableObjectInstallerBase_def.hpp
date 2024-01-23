@@ -27,14 +27,14 @@ MARK_REF_PTR_T(::Zenject::ScriptableObjectInstallerBase);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11154))
 // CS Name: ::Zenject::ScriptableObjectInstallerBase*
 class CORDL_TYPE ScriptableObjectInstallerBase : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _container, offset 0x18, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   __declspec(property(get = get_Container))::Zenject::DiContainer* Container;
 
@@ -46,11 +46,11 @@ public:
   /// @brief Convert to "::Zenject::IInstaller"
   constexpr ::Zenject::IInstaller* i___Zenject__IInstaller() noexcept;
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
   /// @brief Method get_Container, addr 0x2ef5740, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();

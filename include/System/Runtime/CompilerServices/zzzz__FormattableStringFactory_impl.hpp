@@ -14,12 +14,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x24db164;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(), ".ctor",
-                                    std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24db190;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(),
@@ -48,7 +48,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24db198;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(),
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x24db1a0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(),
@@ -81,7 +81,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x24db1bc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(),
@@ -97,7 +97,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x24db1ec;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(),
@@ -105,39 +105,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::__get__format() {
+constexpr ::StringW& System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::__cordl_internal_get__format() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____format;
 }
-constexpr ::StringW const& System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::__get__format() const {
+constexpr ::StringW const& System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::__cordl_internal_get__format() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____format;
 }
-constexpr void System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::__set__format(::StringW value) {
+constexpr void System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::__cordl_internal_set__format(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____format)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::__get__arguments() {
+constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::__cordl_internal_get__arguments() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arguments;
 }
-constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::__get__arguments() const {
+constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const&
+System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::__cordl_internal_get__arguments() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arguments;
 }
-constexpr void System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::__set__arguments(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value) {
+constexpr void
+System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::__cordl_internal_set__arguments(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____arguments)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*
 System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::New_ctor(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>(format, arguments));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>(format, arguments));
 }
 inline void System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::_ctor(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, format, arguments);
 }
 inline ::StringW System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString::get_Format() {
@@ -180,19 +183,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x24db084;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::FormattableStringFactory*>::get(), "Create", std::vector<Il2CppClass*>{},
-                                   ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::FormattableStringFactory*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
     return ___internal_method;
   }
 };
 inline ::System::FormattableString* System::Runtime::CompilerServices::FormattableStringFactory::Create(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::FormattableStringFactory*>::get(), "Create", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::FormattableStringFactory*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::FormattableString*, false>(nullptr, ___internal_method, format, arguments);
 }
 // Ctor Parameters []

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_normalizedStringV1Compat);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11627))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11627))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11653))
 // CS Name: ::System.Xml.Schema::Datatype_normalizedStringV1Compat*
 class CORDL_TYPE Datatype_normalizedStringV1Compat : public ::System::Xml::Schema::Datatype_string {

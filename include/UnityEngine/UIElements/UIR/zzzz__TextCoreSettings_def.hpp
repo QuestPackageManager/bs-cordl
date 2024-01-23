@@ -30,7 +30,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::TextCoreSettings);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7415))
 // CS Name: ::UnityEngine.UIElements.UIR::TextCoreSettings
 struct CORDL_TYPE TextCoreSettings {

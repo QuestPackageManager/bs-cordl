@@ -20,24 +20,24 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::RaycasterManager);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13208))
 // CS Name: ::UnityEngine.EventSystems::RaycasterManager*
 class CORDL_TYPE RaycasterManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_Raycasters, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Raycasters, put = setStaticF_s_Raycasters))::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseRaycaster*>* s_Raycasters;
+  static __declspec(property(get = getStaticF_s_Raycasters, put = setStaticF_s_Raycasters))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* s_Raycasters;
 
-  static inline void setStaticF_s_Raycasters(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseRaycaster*>* value);
+  static inline void setStaticF_s_Raycasters(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* value);
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseRaycaster*>* getStaticF_s_Raycasters();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* getStaticF_s_Raycasters();
 
   /// @brief Method AddRaycaster, addr 0x2d9fdc4, size 0x114, virtual false, abstract: false, final false
   static inline void AddRaycaster(::UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);
 
   /// @brief Method GetRaycasters, addr 0x2d9fed8, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::BaseRaycaster*>* GetRaycasters();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::EventSystems::BaseRaycaster>>* GetRaycasters();
 
   /// @brief Method RemoveRaycasters, addr 0x2d9ff30, size 0xd0, virtual false, abstract: false, final false
   static inline void RemoveRaycasters(::UnityEngine::EventSystems::BaseRaycaster* baseRaycaster);

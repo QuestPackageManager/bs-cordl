@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerScoreDiffText);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5130))
 // CS Name: ::MultiplayerScoreDiffText::HorizontalPosition
 struct CORDL_TYPE __MultiplayerScoreDiffText__HorizontalPosition {
@@ -102,7 +102,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerScoreDiffText__Horizontal
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5131))
 // CS Name: ::MultiplayerScoreDiffText::State
 struct CORDL_TYPE __MultiplayerScoreDiffText__State {
@@ -160,7 +160,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerScoreDiffText__State, val
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5131)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5131)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5132))
 // CS Name: ::MultiplayerScoreDiffText*
 class CORDL_TYPE MultiplayerScoreDiffText : public ::UnityEngine::MonoBehaviour {
@@ -171,112 +171,112 @@ public:
   using HorizontalPosition = ::GlobalNamespace::__MultiplayerScoreDiffText__HorizontalPosition;
 
   /// @brief Field _activeTextColor, offset 0x18, size 0x10
-  __declspec(property(get = __get__activeTextColor, put = __set__activeTextColor))::UnityEngine::Color _activeTextColor;
+  __declspec(property(get = __cordl_internal_get__activeTextColor, put = __cordl_internal_set__activeTextColor))::UnityEngine::Color _activeTextColor;
 
   /// @brief Field _normalBackgroundColor, offset 0x28, size 0x10
-  __declspec(property(get = __get__normalBackgroundColor, put = __set__normalBackgroundColor))::UnityEngine::Color _normalBackgroundColor;
+  __declspec(property(get = __cordl_internal_get__normalBackgroundColor, put = __cordl_internal_set__normalBackgroundColor))::UnityEngine::Color _normalBackgroundColor;
 
   /// @brief Field _leadingBackgroundColor, offset 0x38, size 0x10
-  __declspec(property(get = __get__leadingBackgroundColor, put = __set__leadingBackgroundColor))::UnityEngine::Color _leadingBackgroundColor;
+  __declspec(property(get = __cordl_internal_get__leadingBackgroundColor, put = __cordl_internal_set__leadingBackgroundColor))::UnityEngine::Color _leadingBackgroundColor;
 
   /// @brief Field _useAutomaticLeadPlayerSelection, offset 0x48, size 0x1
-  __declspec(property(get = __get__useAutomaticLeadPlayerSelection, put = __set__useAutomaticLeadPlayerSelection)) bool _useAutomaticLeadPlayerSelection;
+  __declspec(property(get = __cordl_internal_get__useAutomaticLeadPlayerSelection, put = __cordl_internal_set__useAutomaticLeadPlayerSelection)) bool _useAutomaticLeadPlayerSelection;
 
   /// @brief Field _onPlatformText, offset 0x50, size 0x8
-  __declspec(property(get = __get__onPlatformText, put = __set__onPlatformText))::TMPro::TextMeshPro* _onPlatformText;
+  __declspec(property(get = __cordl_internal_get__onPlatformText, put = __cordl_internal_set__onPlatformText))::UnityW<::TMPro::TextMeshPro> _onPlatformText;
 
   /// @brief Field _backgroundSpriteRenderer, offset 0x58, size 0x8
-  __declspec(property(get = __get__backgroundSpriteRenderer, put = __set__backgroundSpriteRenderer))::UnityEngine::SpriteRenderer* _backgroundSpriteRenderer;
+  __declspec(property(get = __cordl_internal_get__backgroundSpriteRenderer, put = __cordl_internal_set__backgroundSpriteRenderer))::UnityW<::UnityEngine::SpriteRenderer> _backgroundSpriteRenderer;
 
   /// @brief Field _tweeningManager, offset 0x60, size 0x8
-  __declspec(property(get = __get__tweeningManager, put = __set__tweeningManager))::Tweening::TimeTweeningManager* _tweeningManager;
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
   /// @brief Field _connectedPlayer, offset 0x68, size 0x8
-  __declspec(property(get = __get__connectedPlayer, put = __set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
   /// @brief Field _leadPlayerProvider, offset 0x70, size 0x8
-  __declspec(property(get = __get__leadPlayerProvider, put = __set__leadPlayerProvider))::GlobalNamespace::MultiplayerLeadPlayerProvider* _leadPlayerProvider;
+  __declspec(property(get = __cordl_internal_get__leadPlayerProvider, put = __cordl_internal_set__leadPlayerProvider))::UnityW<::GlobalNamespace::MultiplayerLeadPlayerProvider> _leadPlayerProvider;
 
   /// @brief Field _currentBackgroundColor, offset 0x78, size 0x10
-  __declspec(property(get = __get__currentBackgroundColor, put = __set__currentBackgroundColor))::UnityEngine::Color _currentBackgroundColor;
+  __declspec(property(get = __cordl_internal_get__currentBackgroundColor, put = __cordl_internal_set__currentBackgroundColor))::UnityEngine::Color _currentBackgroundColor;
 
   /// @brief Field _state, offset 0x88, size 0x4
-  __declspec(property(get = __get__state, put = __set__state))::GlobalNamespace::__MultiplayerScoreDiffText__State _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::GlobalNamespace::__MultiplayerScoreDiffText__State _state;
 
   /// @brief Field _onPlatformTextAlphaTween, offset 0x90, size 0x8
-  __declspec(property(get = __get__onPlatformTextAlphaTween, put = __set__onPlatformTextAlphaTween))::Tweening::FloatTween* _onPlatformTextAlphaTween;
+  __declspec(property(get = __cordl_internal_get__onPlatformTextAlphaTween, put = __cordl_internal_set__onPlatformTextAlphaTween))::Tweening::FloatTween* _onPlatformTextAlphaTween;
 
-  constexpr ::UnityEngine::Color& __get__activeTextColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__activeTextColor();
 
-  constexpr ::UnityEngine::Color const& __get__activeTextColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__activeTextColor() const;
 
-  constexpr void __set__activeTextColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__activeTextColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__normalBackgroundColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__normalBackgroundColor();
 
-  constexpr ::UnityEngine::Color const& __get__normalBackgroundColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__normalBackgroundColor() const;
 
-  constexpr void __set__normalBackgroundColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__normalBackgroundColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__leadingBackgroundColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__leadingBackgroundColor();
 
-  constexpr ::UnityEngine::Color const& __get__leadingBackgroundColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__leadingBackgroundColor() const;
 
-  constexpr void __set__leadingBackgroundColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__leadingBackgroundColor(::UnityEngine::Color value);
 
-  constexpr bool& __get__useAutomaticLeadPlayerSelection();
+  constexpr bool& __cordl_internal_get__useAutomaticLeadPlayerSelection();
 
-  constexpr bool const& __get__useAutomaticLeadPlayerSelection() const;
+  constexpr bool const& __cordl_internal_get__useAutomaticLeadPlayerSelection() const;
 
-  constexpr void __set__useAutomaticLeadPlayerSelection(bool value);
+  constexpr void __cordl_internal_set__useAutomaticLeadPlayerSelection(bool value);
 
-  constexpr ::TMPro::TextMeshPro*& __get__onPlatformText();
+  constexpr ::UnityW<::TMPro::TextMeshPro>& __cordl_internal_get__onPlatformText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshPro*> const& __get__onPlatformText() const;
+  constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__onPlatformText() const;
 
-  constexpr void __set__onPlatformText(::TMPro::TextMeshPro* value);
+  constexpr void __cordl_internal_set__onPlatformText(::UnityW<::TMPro::TextMeshPro> value);
 
-  constexpr ::UnityEngine::SpriteRenderer*& __get__backgroundSpriteRenderer();
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer>& __cordl_internal_get__backgroundSpriteRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SpriteRenderer*> const& __get__backgroundSpriteRenderer() const;
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__backgroundSpriteRenderer() const;
 
-  constexpr void __set__backgroundSpriteRenderer(::UnityEngine::SpriteRenderer* value);
+  constexpr void __cordl_internal_set__backgroundSpriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  constexpr ::Tweening::TimeTweeningManager*& __get__tweeningManager();
+  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& __get__tweeningManager() const;
+  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
-  constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager* value);
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __get__connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __get__connectedPlayer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  constexpr ::GlobalNamespace::MultiplayerLeadPlayerProvider*& __get__leadPlayerProvider();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLeadPlayerProvider>& __cordl_internal_get__leadPlayerProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLeadPlayerProvider*> const& __get__leadPlayerProvider() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLeadPlayerProvider> const& __cordl_internal_get__leadPlayerProvider() const;
 
-  constexpr void __set__leadPlayerProvider(::GlobalNamespace::MultiplayerLeadPlayerProvider* value);
+  constexpr void __cordl_internal_set__leadPlayerProvider(::UnityW<::GlobalNamespace::MultiplayerLeadPlayerProvider> value);
 
-  constexpr ::UnityEngine::Color& __get__currentBackgroundColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__currentBackgroundColor();
 
-  constexpr ::UnityEngine::Color const& __get__currentBackgroundColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__currentBackgroundColor() const;
 
-  constexpr void __set__currentBackgroundColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__currentBackgroundColor(::UnityEngine::Color value);
 
-  constexpr ::GlobalNamespace::__MultiplayerScoreDiffText__State& __get__state();
+  constexpr ::GlobalNamespace::__MultiplayerScoreDiffText__State& __cordl_internal_get__state();
 
-  constexpr ::GlobalNamespace::__MultiplayerScoreDiffText__State const& __get__state() const;
+  constexpr ::GlobalNamespace::__MultiplayerScoreDiffText__State const& __cordl_internal_get__state() const;
 
-  constexpr void __set__state(::GlobalNamespace::__MultiplayerScoreDiffText__State value);
+  constexpr void __cordl_internal_set__state(::GlobalNamespace::__MultiplayerScoreDiffText__State value);
 
-  constexpr ::Tweening::FloatTween*& __get__onPlatformTextAlphaTween();
+  constexpr ::Tweening::FloatTween*& __cordl_internal_get__onPlatformTextAlphaTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __get__onPlatformTextAlphaTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get__onPlatformTextAlphaTween() const;
 
-  constexpr void __set__onPlatformTextAlphaTween(::Tweening::FloatTween* value);
+  constexpr void __cordl_internal_set__onPlatformTextAlphaTween(::Tweening::FloatTween* value);
 
   /// @brief Method Start, addr 0x23d6fe8, size 0x158, virtual false, abstract: false, final false
   inline void Start();
@@ -340,19 +340,19 @@ public:
   bool ____useAutomaticLeadPlayerSelection;
 
   /// @brief Field _onPlatformText, offset: 0x50, size: 0x8, def value: None
-  ::TMPro::TextMeshPro* ____onPlatformText;
+  ::UnityW<::TMPro::TextMeshPro> ____onPlatformText;
 
   /// @brief Field _backgroundSpriteRenderer, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::SpriteRenderer* ____backgroundSpriteRenderer;
+  ::UnityW<::UnityEngine::SpriteRenderer> ____backgroundSpriteRenderer;
 
   /// @brief Field _tweeningManager, offset: 0x60, size: 0x8, def value: None
-  ::Tweening::TimeTweeningManager* ____tweeningManager;
+  ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
   /// @brief Field _connectedPlayer, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
 
   /// @brief Field _leadPlayerProvider, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLeadPlayerProvider* ____leadPlayerProvider;
+  ::UnityW<::GlobalNamespace::MultiplayerLeadPlayerProvider> ____leadPlayerProvider;
 
   /// @brief Field _currentBackgroundColor, offset: 0x78, size: 0x10, def value: None
   ::UnityEngine::Color ____currentBackgroundColor;

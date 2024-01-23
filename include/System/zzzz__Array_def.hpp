@@ -121,20 +121,20 @@ MARK_VAL_T(::System::__Array__SorterObjectArray);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2530))
 // CS Name: ::Array::ArrayEnumerator*
 class CORDL_TYPE __Array__ArrayEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _array, offset 0x10, size 0x8
-  __declspec(property(get = __get__array, put = __set__array))::System::Array* _array;
+  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::System::Array* _array;
 
   /// @brief Field _index, offset 0x18, size 0x4
-  __declspec(property(get = __get__index, put = __set__index)) int32_t _index;
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
   /// @brief Field _endIndex, offset 0x1c, size 0x4
-  __declspec(property(get = __get__endIndex, put = __set__endIndex)) int32_t _endIndex;
+  __declspec(property(get = __cordl_internal_get__endIndex, put = __cordl_internal_set__endIndex)) int32_t _endIndex;
 
   __declspec(property(get = get_Current))::System::Object* Current;
 
@@ -150,23 +150,23 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::System::Array*& __get__array();
+  constexpr ::System::Array*& __cordl_internal_get__array();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Array*> const& __get__array() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Array*> const& __cordl_internal_get__array() const;
 
-  constexpr void __set__array(::System::Array* value);
+  constexpr void __cordl_internal_set__array(::System::Array* value);
 
-  constexpr int32_t& __get__index();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr int32_t const& __get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __set__index(int32_t value);
+  constexpr void __cordl_internal_set__index(int32_t value);
 
-  constexpr int32_t& __get__endIndex();
+  constexpr int32_t& __cordl_internal_get__endIndex();
 
-  constexpr int32_t const& __get__endIndex() const;
+  constexpr int32_t const& __cordl_internal_get__endIndex() const;
 
-  constexpr void __set__endIndex(int32_t value);
+  constexpr void __cordl_internal_set__endIndex(int32_t value);
 
   static inline ::System::__Array__ArrayEnumerator* New_ctor(::System::Array* array);
 
@@ -224,38 +224,38 @@ static_assert(offsetof(::System::__Array__ArrayEnumerator, ____endIndex) == 0x1c
 // SizeInfo { instance_size: 40, native_size: 24, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2531))
 // CS Name: ::Array::RawData*
 class CORDL_TYPE __Array__RawData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Bounds, offset 0x10, size 0x8
-  __declspec(property(get = __get_Bounds, put = __set_Bounds)) void* Bounds;
+  __declspec(property(get = __cordl_internal_get_Bounds, put = __cordl_internal_set_Bounds)) void* Bounds;
 
   /// @brief Field Count, offset 0x18, size 0x8
-  __declspec(property(get = __get_Count, put = __set_Count)) void* Count;
+  __declspec(property(get = __cordl_internal_get_Count, put = __cordl_internal_set_Count)) void* Count;
 
   /// @brief Field Data, offset 0x20, size 0x1
-  __declspec(property(get = __get_Data, put = __set_Data)) uint8_t Data;
+  __declspec(property(get = __cordl_internal_get_Data, put = __cordl_internal_set_Data)) uint8_t Data;
 
-  constexpr void*& __get_Bounds();
+  constexpr void*& __cordl_internal_get_Bounds();
 
-  constexpr void* const& __get_Bounds() const;
+  constexpr void* const& __cordl_internal_get_Bounds() const;
 
-  constexpr void __set_Bounds(void* value);
+  constexpr void __cordl_internal_set_Bounds(void* value);
 
-  constexpr void*& __get_Count();
+  constexpr void*& __cordl_internal_get_Count();
 
-  constexpr void* const& __get_Count() const;
+  constexpr void* const& __cordl_internal_get_Count() const;
 
-  constexpr void __set_Count(void* value);
+  constexpr void __cordl_internal_set_Count(void* value);
 
-  constexpr uint8_t& __get_Data();
+  constexpr uint8_t& __cordl_internal_get_Data();
 
-  constexpr uint8_t const& __get_Data() const;
+  constexpr uint8_t const& __cordl_internal_get_Data() const;
 
-  constexpr void __set_Data(uint8_t value);
+  constexpr void __cordl_internal_set_Data(uint8_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "__Array__RawData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -298,7 +298,7 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2532))
 // CS Name: ::Array::InternalEnumerator`1<T>
 struct CORDL_TYPE __Array__InternalEnumerator_1 {
@@ -370,7 +370,7 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2533))
 // CS Name: ::Array::EmptyInternalEnumerator`1<T>*
 class CORDL_TYPE __Array__EmptyInternalEnumerator_1 : public ::System::Object {
@@ -447,7 +447,7 @@ public:
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2534))
 // CS Name: ::Array::SorterObjectArray
 struct CORDL_TYPE __Array__SorterObjectArray {
@@ -521,7 +521,7 @@ static_assert(offsetof(::System::__Array__SorterObjectArray, comparer) == 0x10, 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2535))
 // CS Name: ::Array::SorterGenericArray
 struct CORDL_TYPE __Array__SorterGenericArray {
@@ -593,7 +593,7 @@ static_assert(offsetof(::System::__Array__SorterGenericArray, comparer) == 0x10,
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2536))
 // CS Name: ::System::Array*
 class CORDL_TYPE Array : public ::System::Object {

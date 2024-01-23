@@ -29,56 +29,57 @@ MARK_REF_PTR_T(::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4592))
 // CS Name: ::SonyOnGoingToBackgroundSaveHandler*
 class CORDL_TYPE SonyOnGoingToBackgroundSaveHandler : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _localLeaderboardModel, offset 0x18, size 0x8
-  __declspec(property(get = __get__localLeaderboardModel, put = __set__localLeaderboardModel))::GlobalNamespace::LocalLeaderboardsModel* _localLeaderboardModel;
+  __declspec(property(get = __cordl_internal_get__localLeaderboardModel, put = __cordl_internal_set__localLeaderboardModel))::UnityW<::GlobalNamespace::LocalLeaderboardsModel> _localLeaderboardModel;
 
   /// @brief Field _mainSettingsModel, offset 0x20, size 0x8
-  __declspec(property(get = __get__mainSettingsModel, put = __set__mainSettingsModel))::GlobalNamespace::MainSettingsModelSO* _mainSettingsModel;
+  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
   /// @brief Field _playerDataModel, offset 0x28, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _saveData, offset 0x30, size 0x8
-  __declspec(property(get = __get__saveData, put = __set__saveData))::GlobalNamespace::ISaveData* _saveData;
+  __declspec(property(get = __cordl_internal_get__saveData, put = __cordl_internal_set__saveData))::GlobalNamespace::ISaveData* _saveData;
 
   /// @brief Field _sonyBackgroundExecutionHelper, offset 0x38, size 0x8
-  __declspec(property(get = __get__sonyBackgroundExecutionHelper, put = __set__sonyBackgroundExecutionHelper))::GlobalNamespace::SonyBackgroundExecutionHelper* _sonyBackgroundExecutionHelper;
+  __declspec(property(get = __cordl_internal_get__sonyBackgroundExecutionHelper,
+                      put = __cordl_internal_set__sonyBackgroundExecutionHelper))::GlobalNamespace::SonyBackgroundExecutionHelper* _sonyBackgroundExecutionHelper;
 
-  constexpr ::GlobalNamespace::LocalLeaderboardsModel*& __get__localLeaderboardModel();
+  constexpr ::UnityW<::GlobalNamespace::LocalLeaderboardsModel>& __cordl_internal_get__localLeaderboardModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LocalLeaderboardsModel*> const& __get__localLeaderboardModel() const;
+  constexpr ::UnityW<::GlobalNamespace::LocalLeaderboardsModel> const& __cordl_internal_get__localLeaderboardModel() const;
 
-  constexpr void __set__localLeaderboardModel(::GlobalNamespace::LocalLeaderboardsModel* value);
+  constexpr void __cordl_internal_set__localLeaderboardModel(::UnityW<::GlobalNamespace::LocalLeaderboardsModel> value);
 
-  constexpr ::GlobalNamespace::MainSettingsModelSO*& __get__mainSettingsModel();
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsModelSO*> const& __get__mainSettingsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
 
-  constexpr void __set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO* value);
+  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::GlobalNamespace::ISaveData*& __get__saveData();
+  constexpr ::GlobalNamespace::ISaveData*& __cordl_internal_get__saveData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& __get__saveData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& __cordl_internal_get__saveData() const;
 
-  constexpr void __set__saveData(::GlobalNamespace::ISaveData* value);
+  constexpr void __cordl_internal_set__saveData(::GlobalNamespace::ISaveData* value);
 
-  constexpr ::GlobalNamespace::SonyBackgroundExecutionHelper*& __get__sonyBackgroundExecutionHelper();
+  constexpr ::GlobalNamespace::SonyBackgroundExecutionHelper*& __cordl_internal_get__sonyBackgroundExecutionHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyBackgroundExecutionHelper*> const& __get__sonyBackgroundExecutionHelper() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyBackgroundExecutionHelper*> const& __cordl_internal_get__sonyBackgroundExecutionHelper() const;
 
-  constexpr void __set__sonyBackgroundExecutionHelper(::GlobalNamespace::SonyBackgroundExecutionHelper* value);
+  constexpr void __cordl_internal_set__sonyBackgroundExecutionHelper(::GlobalNamespace::SonyBackgroundExecutionHelper* value);
 
   /// @brief Method Initialize, addr 0x2369be8, size 0xb8, virtual false, abstract: false, final false
   inline void Initialize();
@@ -109,13 +110,13 @@ protected:
 
 public:
   /// @brief Field _localLeaderboardModel, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::LocalLeaderboardsModel* ____localLeaderboardModel;
+  ::UnityW<::GlobalNamespace::LocalLeaderboardsModel> ____localLeaderboardModel;
 
   /// @brief Field _mainSettingsModel, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MainSettingsModelSO* ____mainSettingsModel;
+  ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
 
   /// @brief Field _playerDataModel, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _saveData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::ISaveData* ____saveData;

@@ -54,26 +54,26 @@ MARK_REF_PTR_T(::System::Xml::Linq::__XContainer___Nodes_d__18);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15435))
 // CS Name: ::XContainer::<Nodes>d__18*
 class CORDL_TYPE __XContainer___Nodes_d__18 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Xml::Linq::XNode* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Xml::Linq::XNode* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::System::Xml::Linq::XContainer* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Xml::Linq::XContainer* __4__this;
 
   /// @brief Field <n>5__2, offset 0x30, size 0x8
-  __declspec(property(get = __get__n_5__2, put = __set__n_5__2))::System::Xml::Linq::XNode* _n_5__2;
+  __declspec(property(get = __cordl_internal_get__n_5__2, put = __cordl_internal_set__n_5__2))::System::Xml::Linq::XNode* _n_5__2;
 
   __declspec(
       property(get = System_Collections_Generic_IEnumerator_System_Xml_Linq_XNode__get_Current))::System::Xml::Linq::XNode* System_Collections_Generic_IEnumerator_System_Xml_Linq_XNode__Current;
@@ -110,35 +110,35 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Xml::Linq::XNode*& __get___2__current();
+  constexpr ::System::Xml::Linq::XNode*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XNode*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XNode*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Xml::Linq::XNode* value);
+  constexpr void __cordl_internal_set___2__current(::System::Xml::Linq::XNode* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::System::Xml::Linq::XContainer*& __get___4__this();
+  constexpr ::System::Xml::Linq::XContainer*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XContainer*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XContainer*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::System::Xml::Linq::XContainer* value);
+  constexpr void __cordl_internal_set___4__this(::System::Xml::Linq::XContainer* value);
 
-  constexpr ::System::Xml::Linq::XNode*& __get__n_5__2();
+  constexpr ::System::Xml::Linq::XNode*& __cordl_internal_get__n_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XNode*> const& __get__n_5__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XNode*> const& __cordl_internal_get__n_5__2() const;
 
-  constexpr void __set__n_5__2(::System::Xml::Linq::XNode* value);
+  constexpr void __cordl_internal_set__n_5__2(::System::Xml::Linq::XNode* value);
 
   static inline ::System::Xml::Linq::__XContainer___Nodes_d__18* New_ctor(int32_t __1__state);
 
@@ -215,7 +215,7 @@ static_assert(offsetof(::System::Xml::Linq::__XContainer___Nodes_d__18, ____n_5_
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15453))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15453))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15436))
 // CS Name: ::System.Xml.Linq::XContainer*
 class CORDL_TYPE XContainer : public ::System::Xml::Linq::XNode {
@@ -224,15 +224,15 @@ public:
   using _Nodes_d__18 = ::System::Xml::Linq::__XContainer___Nodes_d__18;
 
   /// @brief Field content, offset 0x28, size 0x8
-  __declspec(property(get = __get_content, put = __set_content))::System::Object* content;
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::System::Object* content;
 
   __declspec(property(get = get_LastNode))::System::Xml::Linq::XNode* LastNode;
 
-  constexpr ::System::Object*& __get_content();
+  constexpr ::System::Object*& __cordl_internal_get_content();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_content() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_content() const;
 
-  constexpr void __set_content(::System::Object* value);
+  constexpr void __cordl_internal_set_content(::System::Object* value);
 
   static inline ::System::Xml::Linq::XContainer* New_ctor();
 

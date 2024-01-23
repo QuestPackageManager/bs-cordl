@@ -41,17 +41,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TimeStampRequest);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1606))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1606))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1764))
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampRequest*
 class CORDL_TYPE TimeStampRequest : public ::Org::BouncyCastle::X509::X509ExtensionBase {
 public:
   // Declarations
   /// @brief Field req, offset 0x10, size 0x8
-  __declspec(property(get = __get_req, put = __set_req))::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* req;
+  __declspec(property(get = __cordl_internal_get_req, put = __cordl_internal_set_req))::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* req;
 
   /// @brief Field extensions, offset 0x18, size 0x8
-  __declspec(property(get = __get_extensions, put = __set_extensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
 
   __declspec(property(get = get_Version)) int32_t Version;
 
@@ -67,17 +67,17 @@ public:
 
   __declspec(property(get = get_HasExtensions)) bool HasExtensions;
 
-  constexpr ::Org::BouncyCastle::Asn1::Tsp::TimeStampReq*& __get_req();
+  constexpr ::Org::BouncyCastle::Asn1::Tsp::TimeStampReq*& __cordl_internal_get_req();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Tsp::TimeStampReq*> const& __get_req() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Tsp::TimeStampReq*> const& __cordl_internal_get_req() const;
 
-  constexpr void __set_req(::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* value);
+  constexpr void __cordl_internal_set_req(::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __get_extensions();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_extensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __get_extensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __cordl_internal_get_extensions() const;
 
-  constexpr void __set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
+  constexpr void __cordl_internal_set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampRequest* New_ctor(::Org::BouncyCastle::Asn1::Tsp::TimeStampReq* req);
 

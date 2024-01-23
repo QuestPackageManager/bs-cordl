@@ -31,7 +31,7 @@ MARK_VAL_T(::System::IntPtr);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2603))
 // CS Name: ::System::IntPtr
 struct CORDL_TYPE IntPtr {

@@ -29,22 +29,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::PasswordRecipientInformation);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(671))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(671))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(683))
 // CS Name: ::Org.BouncyCastle.Cms::PasswordRecipientInformation*
 class CORDL_TYPE PasswordRecipientInformation : public ::Org::BouncyCastle::Cms::RecipientInformation {
 public:
   // Declarations
   /// @brief Field info, offset 0x30, size 0x8
-  __declspec(property(get = __get_info, put = __set_info))::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info;
+  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info;
 
   __declspec(property(get = get_KeyDerivationAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* KeyDerivationAlgorithm;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo*& __get_info();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo*& __cordl_internal_get_info();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo*> const& __get_info() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo*> const& __cordl_internal_get_info() const;
 
-  constexpr void __set_info(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* value);
+  constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* value);
 
   static inline ::Org::BouncyCastle::Cms::PasswordRecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::PasswordRecipientInfo* info,
                                                                                  ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);

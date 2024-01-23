@@ -25,32 +25,34 @@ MARK_REF_PTR_T(::MS::Internal::Xml::Cache::XPathNodeInfoAtom);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::Cache {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11772))
 // CS Name: ::MS.Internal.Xml.Cache::XPathNodeInfoAtom*
 class CORDL_TYPE XPathNodeInfoAtom : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _localName, offset 0x10, size 0x8
-  __declspec(property(get = __get__localName, put = __set__localName))::StringW _localName;
+  __declspec(property(get = __cordl_internal_get__localName, put = __cordl_internal_set__localName))::StringW _localName;
 
   /// @brief Field _namespaceUri, offset 0x18, size 0x8
-  __declspec(property(get = __get__namespaceUri, put = __set__namespaceUri))::StringW _namespaceUri;
+  __declspec(property(get = __cordl_internal_get__namespaceUri, put = __cordl_internal_set__namespaceUri))::StringW _namespaceUri;
 
   /// @brief Field _prefix, offset 0x20, size 0x8
-  __declspec(property(get = __get__prefix, put = __set__prefix))::StringW _prefix;
+  __declspec(property(get = __cordl_internal_get__prefix, put = __cordl_internal_set__prefix))::StringW _prefix;
 
   /// @brief Field _pageParent, offset 0x28, size 0x8
-  __declspec(property(get = __get__pageParent, put = __set__pageParent))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> _pageParent;
+  __declspec(property(get = __cordl_internal_get__pageParent,
+                      put = __cordl_internal_set__pageParent))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> _pageParent;
 
   /// @brief Field _pageSibling, offset 0x30, size 0x8
-  __declspec(property(get = __get__pageSibling, put = __set__pageSibling))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> _pageSibling;
+  __declspec(property(get = __cordl_internal_get__pageSibling,
+                      put = __cordl_internal_set__pageSibling))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> _pageSibling;
 
   /// @brief Field _doc, offset 0x38, size 0x8
-  __declspec(property(get = __get__doc, put = __set__doc))::System::Xml::XPath::XPathDocument* _doc;
+  __declspec(property(get = __cordl_internal_get__doc, put = __cordl_internal_set__doc))::System::Xml::XPath::XPathDocument* _doc;
 
   /// @brief Field _pageInfo, offset 0x40, size 0x8
-  __declspec(property(get = __get__pageInfo, put = __set__pageInfo))::MS::Internal::Xml::Cache::XPathNodePageInfo* _pageInfo;
+  __declspec(property(get = __cordl_internal_get__pageInfo, put = __cordl_internal_set__pageInfo))::MS::Internal::Xml::Cache::XPathNodePageInfo* _pageInfo;
 
   __declspec(property(get = get_PageInfo))::MS::Internal::Xml::Cache::XPathNodePageInfo* PageInfo;
 
@@ -66,47 +68,47 @@ public:
 
   __declspec(property(get = get_Document))::System::Xml::XPath::XPathDocument* Document;
 
-  constexpr ::StringW& __get__localName();
+  constexpr ::StringW& __cordl_internal_get__localName();
 
-  constexpr ::StringW const& __get__localName() const;
+  constexpr ::StringW const& __cordl_internal_get__localName() const;
 
-  constexpr void __set__localName(::StringW value);
+  constexpr void __cordl_internal_set__localName(::StringW value);
 
-  constexpr ::StringW& __get__namespaceUri();
+  constexpr ::StringW& __cordl_internal_get__namespaceUri();
 
-  constexpr ::StringW const& __get__namespaceUri() const;
+  constexpr ::StringW const& __cordl_internal_get__namespaceUri() const;
 
-  constexpr void __set__namespaceUri(::StringW value);
+  constexpr void __cordl_internal_set__namespaceUri(::StringW value);
 
-  constexpr ::StringW& __get__prefix();
+  constexpr ::StringW& __cordl_internal_get__prefix();
 
-  constexpr ::StringW const& __get__prefix() const;
+  constexpr ::StringW const& __cordl_internal_get__prefix() const;
 
-  constexpr void __set__prefix(::StringW value);
+  constexpr void __cordl_internal_set__prefix(::StringW value);
 
-  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& __get__pageParent();
+  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& __cordl_internal_get__pageParent();
 
-  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> const& __get__pageParent() const;
+  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> const& __cordl_internal_get__pageParent() const;
 
-  constexpr void __set__pageParent(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value);
+  constexpr void __cordl_internal_set__pageParent(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value);
 
-  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& __get__pageSibling();
+  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& __cordl_internal_get__pageSibling();
 
-  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> const& __get__pageSibling() const;
+  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> const& __cordl_internal_get__pageSibling() const;
 
-  constexpr void __set__pageSibling(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value);
+  constexpr void __cordl_internal_set__pageSibling(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value);
 
-  constexpr ::System::Xml::XPath::XPathDocument*& __get__doc();
+  constexpr ::System::Xml::XPath::XPathDocument*& __cordl_internal_get__doc();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XPath::XPathDocument*> const& __get__doc() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XPath::XPathDocument*> const& __cordl_internal_get__doc() const;
 
-  constexpr void __set__doc(::System::Xml::XPath::XPathDocument* value);
+  constexpr void __cordl_internal_set__doc(::System::Xml::XPath::XPathDocument* value);
 
-  constexpr ::MS::Internal::Xml::Cache::XPathNodePageInfo*& __get__pageInfo();
+  constexpr ::MS::Internal::Xml::Cache::XPathNodePageInfo*& __cordl_internal_get__pageInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::MS::Internal::Xml::Cache::XPathNodePageInfo*> const& __get__pageInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::MS::Internal::Xml::Cache::XPathNodePageInfo*> const& __cordl_internal_get__pageInfo() const;
 
-  constexpr void __set__pageInfo(::MS::Internal::Xml::Cache::XPathNodePageInfo* value);
+  constexpr void __cordl_internal_set__pageInfo(::MS::Internal::Xml::Cache::XPathNodePageInfo* value);
 
   /// @brief Method get_PageInfo, addr 0x28eb820, size 0x8, virtual false, abstract: false, final false
   inline ::MS::Internal::Xml::Cache::XPathNodePageInfo* get_PageInfo();

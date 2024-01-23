@@ -38,23 +38,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::DsaDigestSigner);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1124))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::DsaDigestSigner*
 class CORDL_TYPE DsaDigestSigner : public ::System::Object {
 public:
   // Declarations
   /// @brief Field dsa, offset 0x10, size 0x8
-  __declspec(property(get = __get_dsa, put = __set_dsa))::Org::BouncyCastle::Crypto::IDsa* dsa;
+  __declspec(property(get = __cordl_internal_get_dsa, put = __cordl_internal_set_dsa))::Org::BouncyCastle::Crypto::IDsa* dsa;
 
   /// @brief Field digest, offset 0x18, size 0x8
-  __declspec(property(get = __get_digest, put = __set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
 
   /// @brief Field encoding, offset 0x20, size 0x8
-  __declspec(property(get = __get_encoding, put = __set_encoding))::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding;
+  __declspec(property(get = __cordl_internal_get_encoding, put = __cordl_internal_set_encoding))::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding;
 
   /// @brief Field forSigning, offset 0x28, size 0x1
-  __declspec(property(get = __get_forSigning, put = __set_forSigning)) bool forSigning;
+  __declspec(property(get = __cordl_internal_get_forSigning, put = __cordl_internal_set_forSigning)) bool forSigning;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -64,29 +64,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDsa*& __get_dsa();
+  constexpr ::Org::BouncyCastle::Crypto::IDsa*& __cordl_internal_get_dsa();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDsa*> const& __get_dsa() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDsa*> const& __cordl_internal_get_dsa() const;
 
-  constexpr void __set_dsa(::Org::BouncyCastle::Crypto::IDsa* value);
+  constexpr void __cordl_internal_set_dsa(::Org::BouncyCastle::Crypto::IDsa* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_digest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_digest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
 
-  constexpr void __set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*& __get_encoding();
+  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*& __cordl_internal_get_encoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*> const& __get_encoding() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*> const& __cordl_internal_get_encoding() const;
 
-  constexpr void __set_encoding(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* value);
+  constexpr void __cordl_internal_set_encoding(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* value);
 
-  constexpr bool& __get_forSigning();
+  constexpr bool& __cordl_internal_get_forSigning();
 
-  constexpr bool const& __get_forSigning() const;
+  constexpr bool const& __cordl_internal_get_forSigning() const;
 
-  constexpr void __set_forSigning(bool value);
+  constexpr void __cordl_internal_set_forSigning(bool value);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::DsaDigestSigner* New_ctor(::Org::BouncyCastle::Crypto::IDsa* dsa, ::Org::BouncyCastle::Crypto::IDigest* digest);
 

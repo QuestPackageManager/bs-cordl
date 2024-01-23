@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TOut>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4291))
 // CS Name: ::DataItemConvertor`1<TOut>*
 class CORDL_TYPE DataItemConvertor_1 : public ::System::Object {

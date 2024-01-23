@@ -26,40 +26,40 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::UserAttributeSubpacket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(599))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(599)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(528))
 // CS Name: ::Org.BouncyCastle.Bcpg::UserAttributeSubpacket*
 class CORDL_TYPE UserAttributeSubpacket : public ::System::Object {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __get_type, put = __set_type))::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type;
 
   /// @brief Field longLength, offset 0x14, size 0x1
-  __declspec(property(get = __get_longLength, put = __set_longLength)) bool longLength;
+  __declspec(property(get = __cordl_internal_get_longLength, put = __cordl_internal_set_longLength)) bool longLength;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
 
   __declspec(property(get = get_SubpacketType))::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag SubpacketType;
 
-  constexpr ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag& __get_type();
+  constexpr ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag& __cordl_internal_get_type();
 
-  constexpr ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag const& __get_type() const;
+  constexpr ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag value);
+  constexpr void __cordl_internal_set_type(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag value);
 
-  constexpr bool& __get_longLength();
+  constexpr bool& __cordl_internal_get_longLength();
 
-  constexpr bool const& __get_longLength() const;
+  constexpr bool const& __cordl_internal_get_longLength() const;
 
-  constexpr void __set_longLength(bool value);
+  constexpr void __cordl_internal_set_longLength(bool value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_data();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_data();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_data() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* New_ctor(::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag type, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 

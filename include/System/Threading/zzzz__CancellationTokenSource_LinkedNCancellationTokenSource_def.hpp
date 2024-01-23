@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::System::Threading::__CancellationTokenSource__LinkedNCancellati
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2688))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2688))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2687))
 // CS Name: ::CancellationTokenSource::LinkedNCancellationTokenSource*
 class CORDL_TYPE __CancellationTokenSource__LinkedNCancellationTokenSource : public ::System::Threading::CancellationTokenSource {

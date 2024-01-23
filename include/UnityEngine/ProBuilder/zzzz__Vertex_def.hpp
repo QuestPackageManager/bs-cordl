@@ -54,38 +54,38 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Vertex);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12166)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(12166))] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(12218)) CS Name: ::UnityEngine.ProBuilder::Vertex*
 class CORDL_TYPE Vertex : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Position, offset 0x10, size 0xc
-  __declspec(property(get = __get_m_Position, put = __set_m_Position))::UnityEngine::Vector3 m_Position;
+  __declspec(property(get = __cordl_internal_get_m_Position, put = __cordl_internal_set_m_Position))::UnityEngine::Vector3 m_Position;
 
   /// @brief Field m_Color, offset 0x1c, size 0x10
-  __declspec(property(get = __get_m_Color, put = __set_m_Color))::UnityEngine::Color m_Color;
+  __declspec(property(get = __cordl_internal_get_m_Color, put = __cordl_internal_set_m_Color))::UnityEngine::Color m_Color;
 
   /// @brief Field m_Normal, offset 0x2c, size 0xc
-  __declspec(property(get = __get_m_Normal, put = __set_m_Normal))::UnityEngine::Vector3 m_Normal;
+  __declspec(property(get = __cordl_internal_get_m_Normal, put = __cordl_internal_set_m_Normal))::UnityEngine::Vector3 m_Normal;
 
   /// @brief Field m_Tangent, offset 0x38, size 0x10
-  __declspec(property(get = __get_m_Tangent, put = __set_m_Tangent))::UnityEngine::Vector4 m_Tangent;
+  __declspec(property(get = __cordl_internal_get_m_Tangent, put = __cordl_internal_set_m_Tangent))::UnityEngine::Vector4 m_Tangent;
 
   /// @brief Field m_UV0, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_UV0, put = __set_m_UV0))::UnityEngine::Vector2 m_UV0;
+  __declspec(property(get = __cordl_internal_get_m_UV0, put = __cordl_internal_set_m_UV0))::UnityEngine::Vector2 m_UV0;
 
   /// @brief Field m_UV2, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_UV2, put = __set_m_UV2))::UnityEngine::Vector2 m_UV2;
+  __declspec(property(get = __cordl_internal_get_m_UV2, put = __cordl_internal_set_m_UV2))::UnityEngine::Vector2 m_UV2;
 
   /// @brief Field m_UV3, offset 0x58, size 0x10
-  __declspec(property(get = __get_m_UV3, put = __set_m_UV3))::UnityEngine::Vector4 m_UV3;
+  __declspec(property(get = __cordl_internal_get_m_UV3, put = __cordl_internal_set_m_UV3))::UnityEngine::Vector4 m_UV3;
 
   /// @brief Field m_UV4, offset 0x68, size 0x10
-  __declspec(property(get = __get_m_UV4, put = __set_m_UV4))::UnityEngine::Vector4 m_UV4;
+  __declspec(property(get = __cordl_internal_get_m_UV4, put = __cordl_internal_set_m_UV4))::UnityEngine::Vector4 m_UV4;
 
   /// @brief Field m_Attributes, offset 0x78, size 0x4
-  __declspec(property(get = __get_m_Attributes, put = __set_m_Attributes))::UnityEngine::ProBuilder::MeshArrays m_Attributes;
+  __declspec(property(get = __cordl_internal_get_m_Attributes, put = __cordl_internal_set_m_Attributes))::UnityEngine::ProBuilder::MeshArrays m_Attributes;
 
   __declspec(property(get = get_position, put = set_position))::UnityEngine::Vector3 position;
 
@@ -127,59 +127,59 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::Vertex*>"
   constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::Vertex*>* i___System__IEquatable_1___UnityEngine__ProBuilder__Vertex__() noexcept;
 
-  constexpr ::UnityEngine::Vector3& __get_m_Position();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_Position();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_Position() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_Position() const;
 
-  constexpr void __set_m_Position(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_Position(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Color& __get_m_Color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_Color();
 
-  constexpr ::UnityEngine::Color const& __get_m_Color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_Color() const;
 
-  constexpr void __set_m_Color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_Color(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_Normal();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_Normal();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_Normal() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_Normal() const;
 
-  constexpr void __set_m_Normal(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_Normal(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector4& __get_m_Tangent();
+  constexpr ::UnityEngine::Vector4& __cordl_internal_get_m_Tangent();
 
-  constexpr ::UnityEngine::Vector4 const& __get_m_Tangent() const;
+  constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_m_Tangent() const;
 
-  constexpr void __set_m_Tangent(::UnityEngine::Vector4 value);
+  constexpr void __cordl_internal_set_m_Tangent(::UnityEngine::Vector4 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_UV0();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_UV0();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_UV0() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_UV0() const;
 
-  constexpr void __set_m_UV0(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_UV0(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_UV2();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_UV2();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_UV2() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_UV2() const;
 
-  constexpr void __set_m_UV2(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_UV2(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector4& __get_m_UV3();
+  constexpr ::UnityEngine::Vector4& __cordl_internal_get_m_UV3();
 
-  constexpr ::UnityEngine::Vector4 const& __get_m_UV3() const;
+  constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_m_UV3() const;
 
-  constexpr void __set_m_UV3(::UnityEngine::Vector4 value);
+  constexpr void __cordl_internal_set_m_UV3(::UnityEngine::Vector4 value);
 
-  constexpr ::UnityEngine::Vector4& __get_m_UV4();
+  constexpr ::UnityEngine::Vector4& __cordl_internal_get_m_UV4();
 
-  constexpr ::UnityEngine::Vector4 const& __get_m_UV4() const;
+  constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_m_UV4() const;
 
-  constexpr void __set_m_UV4(::UnityEngine::Vector4 value);
+  constexpr void __cordl_internal_set_m_UV4(::UnityEngine::Vector4 value);
 
-  constexpr ::UnityEngine::ProBuilder::MeshArrays& __get_m_Attributes();
+  constexpr ::UnityEngine::ProBuilder::MeshArrays& __cordl_internal_get_m_Attributes();
 
-  constexpr ::UnityEngine::ProBuilder::MeshArrays const& __get_m_Attributes() const;
+  constexpr ::UnityEngine::ProBuilder::MeshArrays const& __cordl_internal_get_m_Attributes() const;
 
-  constexpr void __set_m_Attributes(::UnityEngine::ProBuilder::MeshArrays value);
+  constexpr void __cordl_internal_set_m_Attributes(::UnityEngine::ProBuilder::MeshArrays value);
 
   /// @brief Method get_position, addr 0x2b80d24, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();

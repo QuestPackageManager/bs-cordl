@@ -42,21 +42,21 @@ MARK_REF_PTR_T(::System::ComponentModel::NullableConverter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9480))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9480))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9443))
 // CS Name: ::System.ComponentModel::NullableConverter*
 class CORDL_TYPE NullableConverter : public ::System::ComponentModel::TypeConverter {
 public:
   // Declarations
   /// @brief Field <NullableType>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__NullableType_k__BackingField, put = __set__NullableType_k__BackingField))::System::Type* _NullableType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__NullableType_k__BackingField, put = __cordl_internal_set__NullableType_k__BackingField))::System::Type* _NullableType_k__BackingField;
 
   /// @brief Field <UnderlyingType>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__UnderlyingType_k__BackingField, put = __set__UnderlyingType_k__BackingField))::System::Type* _UnderlyingType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__UnderlyingType_k__BackingField, put = __cordl_internal_set__UnderlyingType_k__BackingField))::System::Type* _UnderlyingType_k__BackingField;
 
   /// @brief Field <UnderlyingTypeConverter>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__UnderlyingTypeConverter_k__BackingField,
-                      put = __set__UnderlyingTypeConverter_k__BackingField))::System::ComponentModel::TypeConverter* _UnderlyingTypeConverter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__UnderlyingTypeConverter_k__BackingField,
+                      put = __cordl_internal_set__UnderlyingTypeConverter_k__BackingField))::System::ComponentModel::TypeConverter* _UnderlyingTypeConverter_k__BackingField;
 
   __declspec(property(get = get_NullableType))::System::Type* NullableType;
 
@@ -64,23 +64,23 @@ public:
 
   __declspec(property(get = get_UnderlyingTypeConverter))::System::ComponentModel::TypeConverter* UnderlyingTypeConverter;
 
-  constexpr ::System::Type*& __get__NullableType_k__BackingField();
+  constexpr ::System::Type*& __cordl_internal_get__NullableType_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__NullableType_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__NullableType_k__BackingField() const;
 
-  constexpr void __set__NullableType_k__BackingField(::System::Type* value);
+  constexpr void __cordl_internal_set__NullableType_k__BackingField(::System::Type* value);
 
-  constexpr ::System::Type*& __get__UnderlyingType_k__BackingField();
+  constexpr ::System::Type*& __cordl_internal_get__UnderlyingType_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__UnderlyingType_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__UnderlyingType_k__BackingField() const;
 
-  constexpr void __set__UnderlyingType_k__BackingField(::System::Type* value);
+  constexpr void __cordl_internal_set__UnderlyingType_k__BackingField(::System::Type* value);
 
-  constexpr ::System::ComponentModel::TypeConverter*& __get__UnderlyingTypeConverter_k__BackingField();
+  constexpr ::System::ComponentModel::TypeConverter*& __cordl_internal_get__UnderlyingTypeConverter_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::TypeConverter*> const& __get__UnderlyingTypeConverter_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::TypeConverter*> const& __cordl_internal_get__UnderlyingTypeConverter_k__BackingField() const;
 
-  constexpr void __set__UnderlyingTypeConverter_k__BackingField(::System::ComponentModel::TypeConverter* value);
+  constexpr void __cordl_internal_set__UnderlyingTypeConverter_k__BackingField(::System::ComponentModel::TypeConverter* value);
 
   static inline ::System::ComponentModel::NullableConverter* New_ctor(::System::Type* type);
 

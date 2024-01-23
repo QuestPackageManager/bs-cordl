@@ -51,33 +51,33 @@ MARK_REF_PTR_T(::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolu
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4663))
 // CS Name: ::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePair*
 class CORDL_TYPE __RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _previewLevel, offset 0x10, size 0x8
-  __declspec(property(get = __get__previewLevel, put = __set__previewLevel))::GlobalNamespace::PreviewBeatmapLevelSO* _previewLevel;
+  __declspec(property(get = __cordl_internal_get__previewLevel, put = __cordl_internal_set__previewLevel))::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO> _previewLevel;
 
   /// @brief Field _relativeSfxVolume, offset 0x18, size 0x4
-  __declspec(property(get = __get__relativeSfxVolume, put = __set__relativeSfxVolume)) float_t _relativeSfxVolume;
+  __declspec(property(get = __cordl_internal_get__relativeSfxVolume, put = __cordl_internal_set__relativeSfxVolume)) float_t _relativeSfxVolume;
 
   __declspec(property(get = get_levelId))::StringW levelId;
 
   __declspec(property(get = get_relativeSfxVolume)) float_t relativeSfxVolume;
 
-  constexpr ::GlobalNamespace::PreviewBeatmapLevelSO*& __get__previewLevel();
+  constexpr ::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>& __cordl_internal_get__previewLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PreviewBeatmapLevelSO*> const& __get__previewLevel() const;
+  constexpr ::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO> const& __cordl_internal_get__previewLevel() const;
 
-  constexpr void __set__previewLevel(::GlobalNamespace::PreviewBeatmapLevelSO* value);
+  constexpr void __cordl_internal_set__previewLevel(::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO> value);
 
-  constexpr float_t& __get__relativeSfxVolume();
+  constexpr float_t& __cordl_internal_get__relativeSfxVolume();
 
-  constexpr float_t const& __get__relativeSfxVolume() const;
+  constexpr float_t const& __cordl_internal_get__relativeSfxVolume() const;
 
-  constexpr void __set__relativeSfxVolume(float_t value);
+  constexpr void __cordl_internal_set__relativeSfxVolume(float_t value);
 
   /// @brief Method get_levelId, addr 0x23732f0, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW get_levelId();
@@ -105,7 +105,7 @@ protected:
 
 public:
   /// @brief Field _previewLevel, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::PreviewBeatmapLevelSO* ____previewLevel;
+  ::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO> ____previewLevel;
 
   /// @brief Field _relativeSfxVolume, offset: 0x18, size: 0x4, def value: None
   float_t ____relativeSfxVolume;
@@ -124,7 +124,7 @@ static_assert(offsetof(::GlobalNamespace::__RelativeSfxVolumePerLevelSO__Relativ
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4664))
 // CS Name: ::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePerPackPair::<>c*
 class CORDL_TYPE __RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair____c : public ::System::Object {
@@ -176,7 +176,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__RelativeSfxVo
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4665))
 // CS Name: ::RelativeSfxVolumePerLevelSO::RelativeSfxVolumePerPackPair*
 class CORDL_TYPE __RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair : public ::System::Object {
@@ -185,26 +185,27 @@ public:
   using __c = ::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair____c;
 
   /// @brief Field _previewLevelCollection, offset 0x10, size 0x8
-  __declspec(property(get = __get__previewLevelCollection, put = __set__previewLevelCollection))::GlobalNamespace::PreviewBeatmapLevelCollectionSO* _previewLevelCollection;
+  __declspec(property(get = __cordl_internal_get__previewLevelCollection,
+                      put = __cordl_internal_set__previewLevelCollection))::UnityW<::GlobalNamespace::PreviewBeatmapLevelCollectionSO> _previewLevelCollection;
 
   /// @brief Field _relativeSfxVolume, offset 0x18, size 0x4
-  __declspec(property(get = __get__relativeSfxVolume, put = __set__relativeSfxVolume)) float_t _relativeSfxVolume;
+  __declspec(property(get = __cordl_internal_get__relativeSfxVolume, put = __cordl_internal_set__relativeSfxVolume)) float_t _relativeSfxVolume;
 
   __declspec(property(get = get_relativeSfxVolume)) float_t relativeSfxVolume;
 
   __declspec(property(get = get_levelIds))::ArrayW<::StringW, ::Array<::StringW>*> levelIds;
 
-  constexpr ::GlobalNamespace::PreviewBeatmapLevelCollectionSO*& __get__previewLevelCollection();
+  constexpr ::UnityW<::GlobalNamespace::PreviewBeatmapLevelCollectionSO>& __cordl_internal_get__previewLevelCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PreviewBeatmapLevelCollectionSO*> const& __get__previewLevelCollection() const;
+  constexpr ::UnityW<::GlobalNamespace::PreviewBeatmapLevelCollectionSO> const& __cordl_internal_get__previewLevelCollection() const;
 
-  constexpr void __set__previewLevelCollection(::GlobalNamespace::PreviewBeatmapLevelCollectionSO* value);
+  constexpr void __cordl_internal_set__previewLevelCollection(::UnityW<::GlobalNamespace::PreviewBeatmapLevelCollectionSO> value);
 
-  constexpr float_t& __get__relativeSfxVolume();
+  constexpr float_t& __cordl_internal_get__relativeSfxVolume();
 
-  constexpr float_t const& __get__relativeSfxVolume() const;
+  constexpr float_t const& __cordl_internal_get__relativeSfxVolume() const;
 
-  constexpr void __set__relativeSfxVolume(float_t value);
+  constexpr void __cordl_internal_set__relativeSfxVolume(float_t value);
 
   /// @brief Method get_relativeSfxVolume, addr 0x237331c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_relativeSfxVolume();
@@ -232,7 +233,7 @@ protected:
 
 public:
   /// @brief Field _previewLevelCollection, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::PreviewBeatmapLevelCollectionSO* ____previewLevelCollection;
+  ::UnityW<::GlobalNamespace::PreviewBeatmapLevelCollectionSO> ____previewLevelCollection;
 
   /// @brief Field _relativeSfxVolume, offset: 0x18, size: 0x4, def value: None
   float_t ____relativeSfxVolume;
@@ -251,7 +252,7 @@ static_assert(offsetof(::GlobalNamespace::__RelativeSfxVolumePerLevelSO__Relativ
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4666))
 // CS Name: ::RelativeSfxVolumePerLevelSO*
 class CORDL_TYPE RelativeSfxVolumePerLevelSO : public ::UnityEngine::ScriptableObject {
@@ -262,14 +263,15 @@ public:
   using RelativeSfxVolumePair = ::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair;
 
   /// @brief Field _relativeSfxVolumePerPack, offset 0x18, size 0x8
-  __declspec(property(get = __get__relativeSfxVolumePerPack,
-                      put = __set__relativeSfxVolumePerPack))::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*,
-                                                                      ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>*> _relativeSfxVolumePerPack;
+  __declspec(
+      property(get = __cordl_internal_get__relativeSfxVolumePerPack,
+               put = __cordl_internal_set__relativeSfxVolumePerPack))::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*,
+                                                                              ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>*> _relativeSfxVolumePerPack;
 
   /// @brief Field _relativeSfxVolumePerLevel, offset 0x20, size 0x8
-  __declspec(property(get = __get__relativeSfxVolumePerLevel,
-                      put = __set__relativeSfxVolumePerLevel))::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*,
-                                                                       ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>*> _relativeSfxVolumePerLevel;
+  __declspec(property(get = __cordl_internal_get__relativeSfxVolumePerLevel,
+                      put = __cordl_internal_set__relativeSfxVolumePerLevel))::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*,
+                                                                                      ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>*> _relativeSfxVolumePerLevel;
 
   __declspec(property(get = get_relativeSfxVolumePerLevel))::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*,
                                                                     ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>*> relativeSfxVolumePerLevel;
@@ -278,21 +280,21 @@ public:
                                                                    ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>*> relativeSfxVolumePerPack;
 
   constexpr ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>*>&
-  __get__relativeSfxVolumePerPack();
+  __cordl_internal_get__relativeSfxVolumePerPack();
 
   constexpr ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>*> const&
-  __get__relativeSfxVolumePerPack() const;
+  __cordl_internal_get__relativeSfxVolumePerPack() const;
 
-  constexpr void __set__relativeSfxVolumePerPack(
+  constexpr void __cordl_internal_set__relativeSfxVolumePerPack(
       ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>*> value);
 
   constexpr ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>*>&
-  __get__relativeSfxVolumePerLevel();
+  __cordl_internal_get__relativeSfxVolumePerLevel();
 
   constexpr ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>*> const&
-  __get__relativeSfxVolumePerLevel() const;
+  __cordl_internal_get__relativeSfxVolumePerLevel() const;
 
-  constexpr void __set__relativeSfxVolumePerLevel(
+  constexpr void __cordl_internal_set__relativeSfxVolumePerLevel(
       ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>*> value);
 
   /// @brief Method get_relativeSfxVolumePerLevel, addr 0x23732d8, size 0x8, virtual false, abstract: false, final false

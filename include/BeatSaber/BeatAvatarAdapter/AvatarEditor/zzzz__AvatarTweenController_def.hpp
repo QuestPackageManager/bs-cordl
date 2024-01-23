@@ -70,29 +70,29 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenContro
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15262))
 // CS Name: ::AvatarTweenController::<>c__DisplayClass54_0*
 class CORDL_TYPE __AvatarTweenController____c__DisplayClass54_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field partTransform, offset 0x10, size 0x8
-  __declspec(property(get = __get_partTransform, put = __set_partTransform))::UnityEngine::Transform* partTransform;
+  __declspec(property(get = __cordl_internal_get_partTransform, put = __cordl_internal_set_partTransform))::UnityW<::UnityEngine::Transform> partTransform;
 
   /// @brief Field originalScale, offset 0x18, size 0xc
-  __declspec(property(get = __get_originalScale, put = __set_originalScale))::UnityEngine::Vector3 originalScale;
+  __declspec(property(get = __cordl_internal_get_originalScale, put = __cordl_internal_set_originalScale))::UnityEngine::Vector3 originalScale;
 
-  constexpr ::UnityEngine::Transform*& __get_partTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_partTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_partTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_partTransform() const;
 
-  constexpr void __set_partTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_partTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Vector3& __get_originalScale();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_originalScale();
 
-  constexpr ::UnityEngine::Vector3 const& __get_originalScale() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_originalScale() const;
 
-  constexpr void __set_originalScale(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_originalScale(::UnityEngine::Vector3 value);
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController____c__DisplayClass54_0* New_ctor();
 
@@ -117,7 +117,7 @@ protected:
 
 public:
   /// @brief Field partTransform, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___partTransform;
+  ::UnityW<::UnityEngine::Transform> ___partTransform;
 
   /// @brief Field originalScale, offset: 0x18, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___originalScale;
@@ -136,23 +136,23 @@ static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTwe
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15263))
 // CS Name: ::AvatarTweenController::<AppearAnimation>d__55*
 class CORDL_TYPE __AvatarTweenController___AppearAnimation_d__55 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> __4__this;
 
   /// @brief Field <waitYieldInstruction>5__2, offset 0x28, size 0x8
-  __declspec(property(get = __get__waitYieldInstruction_5__2, put = __set__waitYieldInstruction_5__2))::UnityEngine::WaitForSeconds* _waitYieldInstruction_5__2;
+  __declspec(property(get = __cordl_internal_get__waitYieldInstruction_5__2, put = __cordl_internal_set__waitYieldInstruction_5__2))::UnityEngine::WaitForSeconds* _waitYieldInstruction_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -176,29 +176,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController*& __get___4__this();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController*> const& __get___4__this() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> value);
 
-  constexpr ::UnityEngine::WaitForSeconds*& __get__waitYieldInstruction_5__2();
+  constexpr ::UnityEngine::WaitForSeconds*& __cordl_internal_get__waitYieldInstruction_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::WaitForSeconds*> const& __get__waitYieldInstruction_5__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::WaitForSeconds*> const& __cordl_internal_get__waitYieldInstruction_5__2() const;
 
-  constexpr void __set__waitYieldInstruction_5__2(::UnityEngine::WaitForSeconds* value);
+  constexpr void __cordl_internal_set__waitYieldInstruction_5__2(::UnityEngine::WaitForSeconds* value);
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___AppearAnimation_d__55* New_ctor(int32_t __1__state);
 
@@ -241,7 +241,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController* _____4__this;
+  ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> _____4__this;
 
   /// @brief Field <waitYieldInstruction>5__2, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::WaitForSeconds* ____waitYieldInstruction_5__2;
@@ -264,20 +264,20 @@ static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTwe
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15264))
 // CS Name: ::AvatarTweenController::<DisappearAnimation>d__60*
 class CORDL_TYPE __AvatarTweenController___DisappearAnimation_d__60 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -301,23 +301,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController*& __get___4__this();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController*> const& __get___4__this() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> value);
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController___DisappearAnimation_d__60* New_ctor(int32_t __1__state);
 
@@ -360,7 +360,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController* _____4__this;
+  ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarTweenController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -378,7 +378,7 @@ static_assert(offsetof(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTwe
 // SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 328, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15265))
 // CS Name: ::BeatSaber.BeatAvatarAdapter.AvatarEditor::AvatarTweenController*
 class CORDL_TYPE AvatarTweenController : public ::UnityEngine::MonoBehaviour {
@@ -391,382 +391,386 @@ public:
   using __c__DisplayClass54_0 = ::BeatSaber::BeatAvatarAdapter::AvatarEditor::__AvatarTweenController____c__DisplayClass54_0;
 
   /// @brief Field _avatarTransform, offset 0x18, size 0x8
-  __declspec(property(get = __get__avatarTransform, put = __set__avatarTransform))::UnityEngine::Transform* _avatarTransform;
+  __declspec(property(get = __cordl_internal_get__avatarTransform, put = __cordl_internal_set__avatarTransform))::UnityW<::UnityEngine::Transform> _avatarTransform;
 
   /// @brief Field _headParent, offset 0x20, size 0x8
-  __declspec(property(get = __get__headParent, put = __set__headParent))::UnityEngine::Transform* _headParent;
+  __declspec(property(get = __cordl_internal_get__headParent, put = __cordl_internal_set__headParent))::UnityW<::UnityEngine::Transform> _headParent;
 
   /// @brief Field _leftHandTransform, offset 0x28, size 0x8
-  __declspec(property(get = __get__leftHandTransform, put = __set__leftHandTransform))::UnityEngine::Transform* _leftHandTransform;
+  __declspec(property(get = __cordl_internal_get__leftHandTransform, put = __cordl_internal_set__leftHandTransform))::UnityW<::UnityEngine::Transform> _leftHandTransform;
 
   /// @brief Field _rightHandTransform, offset 0x30, size 0x8
-  __declspec(property(get = __get__rightHandTransform, put = __set__rightHandTransform))::UnityEngine::Transform* _rightHandTransform;
+  __declspec(property(get = __cordl_internal_get__rightHandTransform, put = __cordl_internal_set__rightHandTransform))::UnityW<::UnityEngine::Transform> _rightHandTransform;
 
   /// @brief Field _bodyTransform, offset 0x38, size 0x8
-  __declspec(property(get = __get__bodyTransform, put = __set__bodyTransform))::UnityEngine::Transform* _bodyTransform;
+  __declspec(property(get = __cordl_internal_get__bodyTransform, put = __cordl_internal_set__bodyTransform))::UnityW<::UnityEngine::Transform> _bodyTransform;
 
   /// @brief Field _headInnerTransform, offset 0x40, size 0x8
-  __declspec(property(get = __get__headInnerTransform, put = __set__headInnerTransform))::UnityEngine::Transform* _headInnerTransform;
+  __declspec(property(get = __cordl_internal_get__headInnerTransform, put = __cordl_internal_set__headInnerTransform))::UnityW<::UnityEngine::Transform> _headInnerTransform;
 
   /// @brief Field _leftHandInnerTransform, offset 0x48, size 0x8
-  __declspec(property(get = __get__leftHandInnerTransform, put = __set__leftHandInnerTransform))::UnityEngine::Transform* _leftHandInnerTransform;
+  __declspec(property(get = __cordl_internal_get__leftHandInnerTransform, put = __cordl_internal_set__leftHandInnerTransform))::UnityW<::UnityEngine::Transform> _leftHandInnerTransform;
 
   /// @brief Field _rightHandInnerTransform, offset 0x50, size 0x8
-  __declspec(property(get = __get__rightHandInnerTransform, put = __set__rightHandInnerTransform))::UnityEngine::Transform* _rightHandInnerTransform;
+  __declspec(property(get = __cordl_internal_get__rightHandInnerTransform, put = __cordl_internal_set__rightHandInnerTransform))::UnityW<::UnityEngine::Transform> _rightHandInnerTransform;
 
   /// @brief Field _bodyInnerTransform, offset 0x58, size 0x8
-  __declspec(property(get = __get__bodyInnerTransform, put = __set__bodyInnerTransform))::UnityEngine::Transform* _bodyInnerTransform;
+  __declspec(property(get = __cordl_internal_get__bodyInnerTransform, put = __cordl_internal_set__bodyInnerTransform))::UnityW<::UnityEngine::Transform> _bodyInnerTransform;
 
   /// @brief Field _popDuration, offset 0x60, size 0x4
-  __declspec(property(get = __get__popDuration, put = __set__popDuration)) float_t _popDuration;
+  __declspec(property(get = __cordl_internal_get__popDuration, put = __cordl_internal_set__popDuration)) float_t _popDuration;
 
   /// @brief Field _popEaseType, offset 0x64, size 0x4
-  __declspec(property(get = __get__popEaseType, put = __set__popEaseType))::GlobalNamespace::EaseType _popEaseType;
+  __declspec(property(get = __cordl_internal_get__popEaseType, put = __cordl_internal_set__popEaseType))::GlobalNamespace::EaseType _popEaseType;
 
   /// @brief Field _headPopAmount, offset 0x68, size 0x4
-  __declspec(property(get = __get__headPopAmount, put = __set__headPopAmount)) float_t _headPopAmount;
+  __declspec(property(get = __cordl_internal_get__headPopAmount, put = __cordl_internal_set__headPopAmount)) float_t _headPopAmount;
 
   /// @brief Field _handsPopAmount, offset 0x6c, size 0x4
-  __declspec(property(get = __get__handsPopAmount, put = __set__handsPopAmount)) float_t _handsPopAmount;
+  __declspec(property(get = __cordl_internal_get__handsPopAmount, put = __cordl_internal_set__handsPopAmount)) float_t _handsPopAmount;
 
   /// @brief Field _clothesPopAmount, offset 0x70, size 0x4
-  __declspec(property(get = __get__clothesPopAmount, put = __set__clothesPopAmount)) float_t _clothesPopAmount;
+  __declspec(property(get = __cordl_internal_get__clothesPopAmount, put = __cordl_internal_set__clothesPopAmount)) float_t _clothesPopAmount;
 
   /// @brief Field _allPopAmount, offset 0x74, size 0x4
-  __declspec(property(get = __get__allPopAmount, put = __set__allPopAmount)) float_t _allPopAmount;
+  __declspec(property(get = __cordl_internal_get__allPopAmount, put = __cordl_internal_set__allPopAmount)) float_t _allPopAmount;
 
   /// @brief Field _appearDuration, offset 0x78, size 0x4
-  __declspec(property(get = __get__appearDuration, put = __set__appearDuration)) float_t _appearDuration;
+  __declspec(property(get = __cordl_internal_get__appearDuration, put = __cordl_internal_set__appearDuration)) float_t _appearDuration;
 
   /// @brief Field _appearSpacing, offset 0x7c, size 0x4
-  __declspec(property(get = __get__appearSpacing, put = __set__appearSpacing)) float_t _appearSpacing;
+  __declspec(property(get = __cordl_internal_get__appearSpacing, put = __cordl_internal_set__appearSpacing)) float_t _appearSpacing;
 
   /// @brief Field _appearHeight, offset 0x80, size 0x4
-  __declspec(property(get = __get__appearHeight, put = __set__appearHeight)) float_t _appearHeight;
+  __declspec(property(get = __cordl_internal_get__appearHeight, put = __cordl_internal_set__appearHeight)) float_t _appearHeight;
 
   /// @brief Field _squashFactor, offset 0x84, size 0xc
-  __declspec(property(get = __get__squashFactor, put = __set__squashFactor))::UnityEngine::Vector3 _squashFactor;
+  __declspec(property(get = __cordl_internal_get__squashFactor, put = __cordl_internal_set__squashFactor))::UnityEngine::Vector3 _squashFactor;
 
   /// @brief Field _disappearDuration, offset 0x90, size 0x4
-  __declspec(property(get = __get__disappearDuration, put = __set__disappearDuration)) float_t _disappearDuration;
+  __declspec(property(get = __cordl_internal_get__disappearDuration, put = __cordl_internal_set__disappearDuration)) float_t _disappearDuration;
 
   /// @brief Field _disappearHeight, offset 0x94, size 0x4
-  __declspec(property(get = __get__disappearHeight, put = __set__disappearHeight)) float_t _disappearHeight;
+  __declspec(property(get = __cordl_internal_get__disappearHeight, put = __cordl_internal_set__disappearHeight)) float_t _disappearHeight;
 
   /// @brief Field _disappearSquash, offset 0x98, size 0xc
-  __declspec(property(get = __get__disappearSquash, put = __set__disappearSquash))::UnityEngine::Vector3 _disappearSquash;
+  __declspec(property(get = __cordl_internal_get__disappearSquash, put = __cordl_internal_set__disappearSquash))::UnityEngine::Vector3 _disappearSquash;
 
   /// @brief Field _disappearScaleEase, offset 0xa4, size 0x4
-  __declspec(property(get = __get__disappearScaleEase, put = __set__disappearScaleEase))::GlobalNamespace::EaseType _disappearScaleEase;
+  __declspec(property(get = __cordl_internal_get__disappearScaleEase, put = __cordl_internal_set__disappearScaleEase))::GlobalNamespace::EaseType _disappearScaleEase;
 
   /// @brief Field _disappearPositionEase, offset 0xa8, size 0x4
-  __declspec(property(get = __get__disappearPositionEase, put = __set__disappearPositionEase))::GlobalNamespace::EaseType _disappearPositionEase;
+  __declspec(property(get = __cordl_internal_get__disappearPositionEase, put = __cordl_internal_set__disappearPositionEase))::GlobalNamespace::EaseType _disappearPositionEase;
 
   /// @brief Field _tweeningManager, offset 0xb0, size 0x8
-  __declspec(property(get = __get__tweeningManager, put = __set__tweeningManager))::Tweening::TimeTweeningManager* _tweeningManager;
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
   /// @brief Field _sharedCoroutineStarter, offset 0xb8, size 0x8
-  __declspec(property(get = __get__sharedCoroutineStarter, put = __set__sharedCoroutineStarter))::GlobalNamespace::ICoroutineStarter* _sharedCoroutineStarter;
+  __declspec(property(get = __cordl_internal_get__sharedCoroutineStarter, put = __cordl_internal_set__sharedCoroutineStarter))::GlobalNamespace::ICoroutineStarter* _sharedCoroutineStarter;
 
   /// @brief Field _popHeadTween, offset 0xc0, size 0x8
-  __declspec(property(get = __get__popHeadTween, put = __set__popHeadTween))::Tweening::Tween_1<float_t>* _popHeadTween;
+  __declspec(property(get = __cordl_internal_get__popHeadTween, put = __cordl_internal_set__popHeadTween))::Tweening::Tween_1<float_t>* _popHeadTween;
 
   /// @brief Field _popLeftHandTween, offset 0xc8, size 0x8
-  __declspec(property(get = __get__popLeftHandTween, put = __set__popLeftHandTween))::Tweening::Tween_1<float_t>* _popLeftHandTween;
+  __declspec(property(get = __cordl_internal_get__popLeftHandTween, put = __cordl_internal_set__popLeftHandTween))::Tweening::Tween_1<float_t>* _popLeftHandTween;
 
   /// @brief Field _popRightHandTween, offset 0xd0, size 0x8
-  __declspec(property(get = __get__popRightHandTween, put = __set__popRightHandTween))::Tweening::Tween_1<float_t>* _popRightHandTween;
+  __declspec(property(get = __cordl_internal_get__popRightHandTween, put = __cordl_internal_set__popRightHandTween))::Tweening::Tween_1<float_t>* _popRightHandTween;
 
   /// @brief Field _popClothesTween, offset 0xd8, size 0x8
-  __declspec(property(get = __get__popClothesTween, put = __set__popClothesTween))::Tweening::Tween_1<float_t>* _popClothesTween;
+  __declspec(property(get = __cordl_internal_get__popClothesTween, put = __cordl_internal_set__popClothesTween))::Tweening::Tween_1<float_t>* _popClothesTween;
 
   /// @brief Field _appearHeadPositionTween, offset 0xe0, size 0x8
-  __declspec(property(get = __get__appearHeadPositionTween, put = __set__appearHeadPositionTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _appearHeadPositionTween;
+  __declspec(property(get = __cordl_internal_get__appearHeadPositionTween, put = __cordl_internal_set__appearHeadPositionTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _appearHeadPositionTween;
 
   /// @brief Field _appearHeadScaleTween, offset 0xe8, size 0x8
-  __declspec(property(get = __get__appearHeadScaleTween, put = __set__appearHeadScaleTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _appearHeadScaleTween;
+  __declspec(property(get = __cordl_internal_get__appearHeadScaleTween, put = __cordl_internal_set__appearHeadScaleTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _appearHeadScaleTween;
 
   /// @brief Field _appearBodyPositionTween, offset 0xf0, size 0x8
-  __declspec(property(get = __get__appearBodyPositionTween, put = __set__appearBodyPositionTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _appearBodyPositionTween;
+  __declspec(property(get = __cordl_internal_get__appearBodyPositionTween, put = __cordl_internal_set__appearBodyPositionTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _appearBodyPositionTween;
 
   /// @brief Field _appearBodyScaleTween, offset 0xf8, size 0x8
-  __declspec(property(get = __get__appearBodyScaleTween, put = __set__appearBodyScaleTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _appearBodyScaleTween;
+  __declspec(property(get = __cordl_internal_get__appearBodyScaleTween, put = __cordl_internal_set__appearBodyScaleTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _appearBodyScaleTween;
 
   /// @brief Field _appearRightHandPositionTween, offset 0x100, size 0x8
-  __declspec(property(get = __get__appearRightHandPositionTween, put = __set__appearRightHandPositionTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _appearRightHandPositionTween;
+  __declspec(property(get = __cordl_internal_get__appearRightHandPositionTween,
+                      put = __cordl_internal_set__appearRightHandPositionTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _appearRightHandPositionTween;
 
   /// @brief Field _appearRightHandScaleTween, offset 0x108, size 0x8
-  __declspec(property(get = __get__appearRightHandScaleTween, put = __set__appearRightHandScaleTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _appearRightHandScaleTween;
+  __declspec(property(get = __cordl_internal_get__appearRightHandScaleTween,
+                      put = __cordl_internal_set__appearRightHandScaleTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _appearRightHandScaleTween;
 
   /// @brief Field _appearLeftHandPositionTween, offset 0x110, size 0x8
-  __declspec(property(get = __get__appearLeftHandPositionTween, put = __set__appearLeftHandPositionTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _appearLeftHandPositionTween;
+  __declspec(property(get = __cordl_internal_get__appearLeftHandPositionTween,
+                      put = __cordl_internal_set__appearLeftHandPositionTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _appearLeftHandPositionTween;
 
   /// @brief Field _appearLeftHandScaleTween, offset 0x118, size 0x8
-  __declspec(property(get = __get__appearLeftHandScaleTween, put = __set__appearLeftHandScaleTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _appearLeftHandScaleTween;
+  __declspec(property(get = __cordl_internal_get__appearLeftHandScaleTween,
+                      put = __cordl_internal_set__appearLeftHandScaleTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _appearLeftHandScaleTween;
 
   /// @brief Field _disappearScaleTween, offset 0x120, size 0x8
-  __declspec(property(get = __get__disappearScaleTween, put = __set__disappearScaleTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _disappearScaleTween;
+  __declspec(property(get = __cordl_internal_get__disappearScaleTween, put = __cordl_internal_set__disappearScaleTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _disappearScaleTween;
 
   /// @brief Field _disappearPositionTween, offset 0x128, size 0x8
-  __declspec(property(get = __get__disappearPositionTween, put = __set__disappearPositionTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _disappearPositionTween;
+  __declspec(property(get = __cordl_internal_get__disappearPositionTween, put = __cordl_internal_set__disappearPositionTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _disappearPositionTween;
 
   /// @brief Field _avatarLocalPosition, offset 0x130, size 0xc
-  __declspec(property(get = __get__avatarLocalPosition, put = __set__avatarLocalPosition))::UnityEngine::Vector3 _avatarLocalPosition;
+  __declspec(property(get = __cordl_internal_get__avatarLocalPosition, put = __cordl_internal_set__avatarLocalPosition))::UnityEngine::Vector3 _avatarLocalPosition;
 
   /// @brief Field _avatarLocalScale, offset 0x13c, size 0xc
-  __declspec(property(get = __get__avatarLocalScale, put = __set__avatarLocalScale))::UnityEngine::Vector3 _avatarLocalScale;
+  __declspec(property(get = __cordl_internal_get__avatarLocalScale, put = __cordl_internal_set__avatarLocalScale))::UnityEngine::Vector3 _avatarLocalScale;
 
-  constexpr ::UnityEngine::Transform*& __get__avatarTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__avatarTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__avatarTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__avatarTransform() const;
 
-  constexpr void __set__avatarTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__avatarTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__headParent();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__headParent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__headParent() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__headParent() const;
 
-  constexpr void __set__headParent(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__headParent(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__leftHandTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftHandTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__leftHandTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftHandTransform() const;
 
-  constexpr void __set__leftHandTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__leftHandTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__rightHandTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightHandTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__rightHandTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightHandTransform() const;
 
-  constexpr void __set__rightHandTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__rightHandTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__bodyTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__bodyTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__bodyTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__bodyTransform() const;
 
-  constexpr void __set__bodyTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__bodyTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__headInnerTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__headInnerTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__headInnerTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__headInnerTransform() const;
 
-  constexpr void __set__headInnerTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__headInnerTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__leftHandInnerTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftHandInnerTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__leftHandInnerTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftHandInnerTransform() const;
 
-  constexpr void __set__leftHandInnerTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__leftHandInnerTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__rightHandInnerTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightHandInnerTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__rightHandInnerTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightHandInnerTransform() const;
 
-  constexpr void __set__rightHandInnerTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__rightHandInnerTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__bodyInnerTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__bodyInnerTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__bodyInnerTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__bodyInnerTransform() const;
 
-  constexpr void __set__bodyInnerTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__bodyInnerTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get__popDuration();
+  constexpr float_t& __cordl_internal_get__popDuration();
 
-  constexpr float_t const& __get__popDuration() const;
+  constexpr float_t const& __cordl_internal_get__popDuration() const;
 
-  constexpr void __set__popDuration(float_t value);
+  constexpr void __cordl_internal_set__popDuration(float_t value);
 
-  constexpr ::GlobalNamespace::EaseType& __get__popEaseType();
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__popEaseType();
 
-  constexpr ::GlobalNamespace::EaseType const& __get__popEaseType() const;
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__popEaseType() const;
 
-  constexpr void __set__popEaseType(::GlobalNamespace::EaseType value);
+  constexpr void __cordl_internal_set__popEaseType(::GlobalNamespace::EaseType value);
 
-  constexpr float_t& __get__headPopAmount();
+  constexpr float_t& __cordl_internal_get__headPopAmount();
 
-  constexpr float_t const& __get__headPopAmount() const;
+  constexpr float_t const& __cordl_internal_get__headPopAmount() const;
 
-  constexpr void __set__headPopAmount(float_t value);
+  constexpr void __cordl_internal_set__headPopAmount(float_t value);
 
-  constexpr float_t& __get__handsPopAmount();
+  constexpr float_t& __cordl_internal_get__handsPopAmount();
 
-  constexpr float_t const& __get__handsPopAmount() const;
+  constexpr float_t const& __cordl_internal_get__handsPopAmount() const;
 
-  constexpr void __set__handsPopAmount(float_t value);
+  constexpr void __cordl_internal_set__handsPopAmount(float_t value);
 
-  constexpr float_t& __get__clothesPopAmount();
+  constexpr float_t& __cordl_internal_get__clothesPopAmount();
 
-  constexpr float_t const& __get__clothesPopAmount() const;
+  constexpr float_t const& __cordl_internal_get__clothesPopAmount() const;
 
-  constexpr void __set__clothesPopAmount(float_t value);
+  constexpr void __cordl_internal_set__clothesPopAmount(float_t value);
 
-  constexpr float_t& __get__allPopAmount();
+  constexpr float_t& __cordl_internal_get__allPopAmount();
 
-  constexpr float_t const& __get__allPopAmount() const;
+  constexpr float_t const& __cordl_internal_get__allPopAmount() const;
 
-  constexpr void __set__allPopAmount(float_t value);
+  constexpr void __cordl_internal_set__allPopAmount(float_t value);
 
-  constexpr float_t& __get__appearDuration();
+  constexpr float_t& __cordl_internal_get__appearDuration();
 
-  constexpr float_t const& __get__appearDuration() const;
+  constexpr float_t const& __cordl_internal_get__appearDuration() const;
 
-  constexpr void __set__appearDuration(float_t value);
+  constexpr void __cordl_internal_set__appearDuration(float_t value);
 
-  constexpr float_t& __get__appearSpacing();
+  constexpr float_t& __cordl_internal_get__appearSpacing();
 
-  constexpr float_t const& __get__appearSpacing() const;
+  constexpr float_t const& __cordl_internal_get__appearSpacing() const;
 
-  constexpr void __set__appearSpacing(float_t value);
+  constexpr void __cordl_internal_set__appearSpacing(float_t value);
 
-  constexpr float_t& __get__appearHeight();
+  constexpr float_t& __cordl_internal_get__appearHeight();
 
-  constexpr float_t const& __get__appearHeight() const;
+  constexpr float_t const& __cordl_internal_get__appearHeight() const;
 
-  constexpr void __set__appearHeight(float_t value);
+  constexpr void __cordl_internal_set__appearHeight(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get__squashFactor();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__squashFactor();
 
-  constexpr ::UnityEngine::Vector3 const& __get__squashFactor() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__squashFactor() const;
 
-  constexpr void __set__squashFactor(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__squashFactor(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get__disappearDuration();
+  constexpr float_t& __cordl_internal_get__disappearDuration();
 
-  constexpr float_t const& __get__disappearDuration() const;
+  constexpr float_t const& __cordl_internal_get__disappearDuration() const;
 
-  constexpr void __set__disappearDuration(float_t value);
+  constexpr void __cordl_internal_set__disappearDuration(float_t value);
 
-  constexpr float_t& __get__disappearHeight();
+  constexpr float_t& __cordl_internal_get__disappearHeight();
 
-  constexpr float_t const& __get__disappearHeight() const;
+  constexpr float_t const& __cordl_internal_get__disappearHeight() const;
 
-  constexpr void __set__disappearHeight(float_t value);
+  constexpr void __cordl_internal_set__disappearHeight(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get__disappearSquash();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__disappearSquash();
 
-  constexpr ::UnityEngine::Vector3 const& __get__disappearSquash() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__disappearSquash() const;
 
-  constexpr void __set__disappearSquash(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__disappearSquash(::UnityEngine::Vector3 value);
 
-  constexpr ::GlobalNamespace::EaseType& __get__disappearScaleEase();
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__disappearScaleEase();
 
-  constexpr ::GlobalNamespace::EaseType const& __get__disappearScaleEase() const;
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__disappearScaleEase() const;
 
-  constexpr void __set__disappearScaleEase(::GlobalNamespace::EaseType value);
+  constexpr void __cordl_internal_set__disappearScaleEase(::GlobalNamespace::EaseType value);
 
-  constexpr ::GlobalNamespace::EaseType& __get__disappearPositionEase();
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__disappearPositionEase();
 
-  constexpr ::GlobalNamespace::EaseType const& __get__disappearPositionEase() const;
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__disappearPositionEase() const;
 
-  constexpr void __set__disappearPositionEase(::GlobalNamespace::EaseType value);
+  constexpr void __cordl_internal_set__disappearPositionEase(::GlobalNamespace::EaseType value);
 
-  constexpr ::Tweening::TimeTweeningManager*& __get__tweeningManager();
+  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& __get__tweeningManager() const;
+  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
-  constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager* value);
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  constexpr ::GlobalNamespace::ICoroutineStarter*& __get__sharedCoroutineStarter();
+  constexpr ::GlobalNamespace::ICoroutineStarter*& __cordl_internal_get__sharedCoroutineStarter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& __get__sharedCoroutineStarter() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& __cordl_internal_get__sharedCoroutineStarter() const;
 
-  constexpr void __set__sharedCoroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
+  constexpr void __cordl_internal_set__sharedCoroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
 
-  constexpr ::Tweening::Tween_1<float_t>*& __get__popHeadTween();
+  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__popHeadTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __get__popHeadTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__popHeadTween() const;
 
-  constexpr void __set__popHeadTween(::Tweening::Tween_1<float_t>* value);
+  constexpr void __cordl_internal_set__popHeadTween(::Tweening::Tween_1<float_t>* value);
 
-  constexpr ::Tweening::Tween_1<float_t>*& __get__popLeftHandTween();
+  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__popLeftHandTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __get__popLeftHandTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__popLeftHandTween() const;
 
-  constexpr void __set__popLeftHandTween(::Tweening::Tween_1<float_t>* value);
+  constexpr void __cordl_internal_set__popLeftHandTween(::Tweening::Tween_1<float_t>* value);
 
-  constexpr ::Tweening::Tween_1<float_t>*& __get__popRightHandTween();
+  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__popRightHandTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __get__popRightHandTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__popRightHandTween() const;
 
-  constexpr void __set__popRightHandTween(::Tweening::Tween_1<float_t>* value);
+  constexpr void __cordl_internal_set__popRightHandTween(::Tweening::Tween_1<float_t>* value);
 
-  constexpr ::Tweening::Tween_1<float_t>*& __get__popClothesTween();
+  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__popClothesTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __get__popClothesTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__popClothesTween() const;
 
-  constexpr void __set__popClothesTween(::Tweening::Tween_1<float_t>* value);
+  constexpr void __cordl_internal_set__popClothesTween(::Tweening::Tween_1<float_t>* value);
 
-  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __get__appearHeadPositionTween();
+  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __cordl_internal_get__appearHeadPositionTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __get__appearHeadPositionTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__appearHeadPositionTween() const;
 
-  constexpr void __set__appearHeadPositionTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set__appearHeadPositionTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __get__appearHeadScaleTween();
+  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __cordl_internal_get__appearHeadScaleTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __get__appearHeadScaleTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__appearHeadScaleTween() const;
 
-  constexpr void __set__appearHeadScaleTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set__appearHeadScaleTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __get__appearBodyPositionTween();
+  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __cordl_internal_get__appearBodyPositionTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __get__appearBodyPositionTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__appearBodyPositionTween() const;
 
-  constexpr void __set__appearBodyPositionTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set__appearBodyPositionTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __get__appearBodyScaleTween();
+  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __cordl_internal_get__appearBodyScaleTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __get__appearBodyScaleTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__appearBodyScaleTween() const;
 
-  constexpr void __set__appearBodyScaleTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set__appearBodyScaleTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __get__appearRightHandPositionTween();
+  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __cordl_internal_get__appearRightHandPositionTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __get__appearRightHandPositionTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__appearRightHandPositionTween() const;
 
-  constexpr void __set__appearRightHandPositionTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set__appearRightHandPositionTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __get__appearRightHandScaleTween();
+  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __cordl_internal_get__appearRightHandScaleTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __get__appearRightHandScaleTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__appearRightHandScaleTween() const;
 
-  constexpr void __set__appearRightHandScaleTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set__appearRightHandScaleTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __get__appearLeftHandPositionTween();
+  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __cordl_internal_get__appearLeftHandPositionTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __get__appearLeftHandPositionTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__appearLeftHandPositionTween() const;
 
-  constexpr void __set__appearLeftHandPositionTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set__appearLeftHandPositionTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __get__appearLeftHandScaleTween();
+  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __cordl_internal_get__appearLeftHandScaleTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __get__appearLeftHandScaleTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__appearLeftHandScaleTween() const;
 
-  constexpr void __set__appearLeftHandScaleTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set__appearLeftHandScaleTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __get__disappearScaleTween();
+  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __cordl_internal_get__disappearScaleTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __get__disappearScaleTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__disappearScaleTween() const;
 
-  constexpr void __set__disappearScaleTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set__disappearScaleTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __get__disappearPositionTween();
+  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __cordl_internal_get__disappearPositionTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __get__disappearPositionTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__disappearPositionTween() const;
 
-  constexpr void __set__disappearPositionTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set__disappearPositionTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::UnityEngine::Vector3& __get__avatarLocalPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__avatarLocalPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get__avatarLocalPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__avatarLocalPosition() const;
 
-  constexpr void __set__avatarLocalPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__avatarLocalPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__avatarLocalScale();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__avatarLocalScale();
 
-  constexpr ::UnityEngine::Vector3 const& __get__avatarLocalScale() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__avatarLocalScale() const;
 
-  constexpr void __set__avatarLocalScale(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__avatarLocalScale(::UnityEngine::Vector3 value);
 
   /// @brief Method Awake, addr 0xe14f78, size 0x4c, virtual false, abstract: false, final false
   inline void Awake();
@@ -878,31 +882,31 @@ protected:
 
 public:
   /// @brief Field _avatarTransform, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____avatarTransform;
+  ::UnityW<::UnityEngine::Transform> ____avatarTransform;
 
   /// @brief Field _headParent, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____headParent;
+  ::UnityW<::UnityEngine::Transform> ____headParent;
 
   /// @brief Field _leftHandTransform, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____leftHandTransform;
+  ::UnityW<::UnityEngine::Transform> ____leftHandTransform;
 
   /// @brief Field _rightHandTransform, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____rightHandTransform;
+  ::UnityW<::UnityEngine::Transform> ____rightHandTransform;
 
   /// @brief Field _bodyTransform, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____bodyTransform;
+  ::UnityW<::UnityEngine::Transform> ____bodyTransform;
 
   /// @brief Field _headInnerTransform, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____headInnerTransform;
+  ::UnityW<::UnityEngine::Transform> ____headInnerTransform;
 
   /// @brief Field _leftHandInnerTransform, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____leftHandInnerTransform;
+  ::UnityW<::UnityEngine::Transform> ____leftHandInnerTransform;
 
   /// @brief Field _rightHandInnerTransform, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____rightHandInnerTransform;
+  ::UnityW<::UnityEngine::Transform> ____rightHandInnerTransform;
 
   /// @brief Field _bodyInnerTransform, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____bodyInnerTransform;
+  ::UnityW<::UnityEngine::Transform> ____bodyInnerTransform;
 
   /// @brief Field _popDuration, offset: 0x60, size: 0x4, def value: None
   float_t ____popDuration;
@@ -950,7 +954,7 @@ public:
   ::GlobalNamespace::EaseType ____disappearPositionEase;
 
   /// @brief Field _tweeningManager, offset: 0xb0, size: 0x8, def value: None
-  ::Tweening::TimeTweeningManager* ____tweeningManager;
+  ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
   /// @brief Field _sharedCoroutineStarter, offset: 0xb8, size: 0x8, def value: None
   ::GlobalNamespace::ICoroutineStarter* ____sharedCoroutineStarter;

@@ -233,47 +233,47 @@ MARK_REF_PTR_T(::Zenject::__DiContainer____c__DisplayClass86_0);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11160))
 // CS Name: ::DiContainer::ProviderInfo*
 class CORDL_TYPE __DiContainer__ProviderInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Container, offset 0x10, size 0x8
-  __declspec(property(get = __get_Container, put = __set_Container))::Zenject::DiContainer* Container;
+  __declspec(property(get = __cordl_internal_get_Container, put = __cordl_internal_set_Container))::Zenject::DiContainer* Container;
 
   /// @brief Field NonLazy, offset 0x18, size 0x1
-  __declspec(property(get = __get_NonLazy, put = __set_NonLazy)) bool NonLazy;
+  __declspec(property(get = __cordl_internal_get_NonLazy, put = __cordl_internal_set_NonLazy)) bool NonLazy;
 
   /// @brief Field Provider, offset 0x20, size 0x8
-  __declspec(property(get = __get_Provider, put = __set_Provider))::Zenject::IProvider* Provider;
+  __declspec(property(get = __cordl_internal_get_Provider, put = __cordl_internal_set_Provider))::Zenject::IProvider* Provider;
 
   /// @brief Field Condition, offset 0x28, size 0x8
-  __declspec(property(get = __get_Condition, put = __set_Condition))::Zenject::BindingCondition* Condition;
+  __declspec(property(get = __cordl_internal_get_Condition, put = __cordl_internal_set_Condition))::Zenject::BindingCondition* Condition;
 
-  constexpr ::Zenject::DiContainer*& __get_Container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get_Container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get_Container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get_Container() const;
 
-  constexpr void __set_Container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set_Container(::Zenject::DiContainer* value);
 
-  constexpr bool& __get_NonLazy();
+  constexpr bool& __cordl_internal_get_NonLazy();
 
-  constexpr bool const& __get_NonLazy() const;
+  constexpr bool const& __cordl_internal_get_NonLazy() const;
 
-  constexpr void __set_NonLazy(bool value);
+  constexpr void __cordl_internal_set_NonLazy(bool value);
 
-  constexpr ::Zenject::IProvider*& __get_Provider();
+  constexpr ::Zenject::IProvider*& __cordl_internal_get_Provider();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& __get_Provider() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& __cordl_internal_get_Provider() const;
 
-  constexpr void __set_Provider(::Zenject::IProvider* value);
+  constexpr void __cordl_internal_set_Provider(::Zenject::IProvider* value);
 
-  constexpr ::Zenject::BindingCondition*& __get_Condition();
+  constexpr ::Zenject::BindingCondition*& __cordl_internal_get_Condition();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindingCondition*> const& __get_Condition() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindingCondition*> const& __cordl_internal_get_Condition() const;
 
-  constexpr void __set_Condition(::Zenject::BindingCondition* value);
+  constexpr void __cordl_internal_set_Condition(::Zenject::BindingCondition* value);
 
   static inline ::Zenject::__DiContainer__ProviderInfo* New_ctor(::Zenject::IProvider* provider, ::Zenject::BindingCondition* condition, bool nonLazy, ::Zenject::DiContainer* container);
 
@@ -330,7 +330,7 @@ static_assert(offsetof(::Zenject::__DiContainer__ProviderInfo, ___Condition) == 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11161))
 // CS Name: ::DiContainer::<>c*
 class CORDL_TYPE __DiContainer____c : public ::System::Object {
@@ -454,20 +454,20 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__DiContainer____c, 0x1
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11162))
 // CS Name: ::DiContainer::<>c__DisplayClass86_0*
 class CORDL_TYPE __DiContainer____c__DisplayClass86_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field context, offset 0x10, size 0x8
-  __declspec(property(get = __get_context, put = __set_context))::Zenject::InjectContext* context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::Zenject::InjectContext* context;
 
-  constexpr ::Zenject::InjectContext*& __get_context();
+  constexpr ::Zenject::InjectContext*& __cordl_internal_get_context();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __get_context() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __cordl_internal_get_context() const;
 
-  constexpr void __set_context(::Zenject::InjectContext* value);
+  constexpr void __cordl_internal_set_context(::Zenject::InjectContext* value);
 
   static inline ::Zenject::__DiContainer____c__DisplayClass86_0* New_ctor();
 
@@ -506,32 +506,32 @@ static_assert(offsetof(::Zenject::__DiContainer____c__DisplayClass86_0, ___conte
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11163))
 // CS Name: ::DiContainer::<GetDependencyContracts>d__96*
 class CORDL_TYPE __DiContainer___GetDependencyContracts_d__96 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Type* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Type* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::DiContainer* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::DiContainer* __4__this;
 
   /// @brief Field contract, offset 0x30, size 0x8
-  __declspec(property(get = __get_contract, put = __set_contract))::System::Type* contract;
+  __declspec(property(get = __cordl_internal_get_contract, put = __cordl_internal_set_contract))::System::Type* contract;
 
   /// @brief Field <>3__contract, offset 0x38, size 0x8
-  __declspec(property(get = __get___3__contract, put = __set___3__contract))::System::Type* __3__contract;
+  __declspec(property(get = __cordl_internal_get___3__contract, put = __cordl_internal_set___3__contract))::System::Type* __3__contract;
 
   /// @brief Field <>7__wrap1, offset 0x40, size 0x8
-  __declspec(property(get = __get___7__wrap1, put = __set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::Zenject::InjectableInfo*>* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::Zenject::InjectableInfo*>* __7__wrap1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Type__get_Current))::System::Type* System_Collections_Generic_IEnumerator_System_Type__Current;
 
@@ -567,47 +567,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Type*& __get___2__current();
+  constexpr ::System::Type*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Type* value);
+  constexpr void __cordl_internal_set___2__current(::System::Type* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::Zenject::DiContainer*& __get___4__this();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::DiContainer* value);
 
-  constexpr ::System::Type*& __get_contract();
+  constexpr ::System::Type*& __cordl_internal_get_contract();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_contract() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_contract() const;
 
-  constexpr void __set_contract(::System::Type* value);
+  constexpr void __cordl_internal_set_contract(::System::Type* value);
 
-  constexpr ::System::Type*& __get___3__contract();
+  constexpr ::System::Type*& __cordl_internal_get___3__contract();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get___3__contract() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get___3__contract() const;
 
-  constexpr void __set___3__contract(::System::Type* value);
+  constexpr void __cordl_internal_set___3__contract(::System::Type* value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectableInfo*>*& __get___7__wrap1();
+  constexpr ::System::Collections::Generic::IEnumerator_1<::Zenject::InjectableInfo*>*& __cordl_internal_get___7__wrap1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::Zenject::InjectableInfo*>*> const& __get___7__wrap1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::Zenject::InjectableInfo*>*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::Zenject::InjectableInfo*>* value);
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::Zenject::InjectableInfo*>* value);
 
   static inline ::Zenject::__DiContainer___GetDependencyContracts_d__96* New_ctor(int32_t __1__state);
 
@@ -697,47 +697,47 @@ static_assert(offsetof(::Zenject::__DiContainer___GetDependencyContracts_d__96, 
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11164))
 // CS Name: ::DiContainer::<>c__DisplayClass178_0*
 class CORDL_TYPE __DiContainer____c__DisplayClass178_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::DiContainer* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::DiContainer* __4__this;
 
   /// @brief Field contractType, offset 0x18, size 0x8
-  __declspec(property(get = __get_contractType, put = __set_contractType))::System::Type* contractType;
+  __declspec(property(get = __cordl_internal_get_contractType, put = __cordl_internal_set_contractType))::System::Type* contractType;
 
   /// @brief Field identifier, offset 0x20, size 0x8
-  __declspec(property(get = __get_identifier, put = __set_identifier))::System::Object* identifier;
+  __declspec(property(get = __cordl_internal_get_identifier, put = __cordl_internal_set_identifier))::System::Object* identifier;
 
   /// @brief Field concreteType, offset 0x28, size 0x8
-  __declspec(property(get = __get_concreteType, put = __set_concreteType))::System::Type* concreteType;
+  __declspec(property(get = __cordl_internal_get_concreteType, put = __cordl_internal_set_concreteType))::System::Type* concreteType;
 
-  constexpr ::Zenject::DiContainer*& __get___4__this();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::DiContainer* value);
 
-  constexpr ::System::Type*& __get_contractType();
+  constexpr ::System::Type*& __cordl_internal_get_contractType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_contractType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_contractType() const;
 
-  constexpr void __set_contractType(::System::Type* value);
+  constexpr void __cordl_internal_set_contractType(::System::Type* value);
 
-  constexpr ::System::Object*& __get_identifier();
+  constexpr ::System::Object*& __cordl_internal_get_identifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_identifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_identifier() const;
 
-  constexpr void __set_identifier(::System::Object* value);
+  constexpr void __cordl_internal_set_identifier(::System::Object* value);
 
-  constexpr ::System::Type*& __get_concreteType();
+  constexpr ::System::Type*& __cordl_internal_get_concreteType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_concreteType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_concreteType() const;
 
-  constexpr void __set_concreteType(::System::Type* value);
+  constexpr void __cordl_internal_set_concreteType(::System::Type* value);
 
   static inline ::Zenject::__DiContainer____c__DisplayClass178_0* New_ctor();
 
@@ -793,20 +793,20 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11165))
 // CS Name: ::DiContainer::<>c__DisplayClass203_0`1<TContract>*
 class CORDL_TYPE __DiContainer____c__DisplayClass203_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field instance, offset 0x10, size 0x8
-  __declspec(property(get = __get_instance, put = __set_instance)) TContract instance;
+  __declspec(property(get = __cordl_internal_get_instance, put = __cordl_internal_set_instance)) TContract instance;
 
-  constexpr TContract& __get_instance();
+  constexpr TContract& __cordl_internal_get_instance();
 
-  constexpr TContract const& __get_instance() const;
+  constexpr TContract const& __cordl_internal_get_instance() const;
 
-  constexpr void __set_instance(TContract value);
+  constexpr void __cordl_internal_set_instance(TContract value);
 
   static inline ::Zenject::__DiContainer____c__DisplayClass203_0_1<TContract>* New_ctor();
 
@@ -841,7 +841,7 @@ public:
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 157, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11166))
 // CS Name: ::Zenject::DiContainer*
 class CORDL_TYPE DiContainer : public ::System::Object {
@@ -860,73 +860,78 @@ public:
   using ProviderInfo = ::Zenject::__DiContainer__ProviderInfo;
 
   /// @brief Field _decorators, offset 0x10, size 0x8
-  __declspec(property(get = __get__decorators, put = __set__decorators))::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::Internal::IDecoratorProvider*>* _decorators;
+  __declspec(property(get = __cordl_internal_get__decorators,
+                      put = __cordl_internal_set__decorators))::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::Internal::IDecoratorProvider*>* _decorators;
 
   /// @brief Field _providers, offset 0x18, size 0x8
-  __declspec(
-      property(get = __get__providers,
-               put = __set__providers))::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::System::Collections::Generic::List_1<::Zenject::__DiContainer__ProviderInfo*>*>* _providers;
+  __declspec(property(get = __cordl_internal_get__providers,
+                      put = __cordl_internal_set__providers))::System::Collections::Generic::Dictionary_2<::Zenject::BindingId,
+                                                                                                          ::System::Collections::Generic::List_1<::Zenject::__DiContainer__ProviderInfo*>*>* _providers;
 
   /// @brief Field _containerLookups, offset 0x20, size 0x8
-  __declspec(property(get = __get__containerLookups, put = __set__containerLookups))::ArrayW<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>,
-                                                                                             ::Array<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>>*> _containerLookups;
+  __declspec(property(get = __cordl_internal_get__containerLookups,
+                      put = __cordl_internal_set__containerLookups))::ArrayW<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>,
+                                                                             ::Array<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>>*> _containerLookups;
 
   /// @brief Field _resolvesInProgress, offset 0x28, size 0x8
-  __declspec(property(get = __get__resolvesInProgress, put = __set__resolvesInProgress))::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>* _resolvesInProgress;
+  __declspec(property(get = __cordl_internal_get__resolvesInProgress,
+                      put = __cordl_internal_set__resolvesInProgress))::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>* _resolvesInProgress;
 
   /// @brief Field _resolvesTwiceInProgress, offset 0x30, size 0x8
-  __declspec(property(get = __get__resolvesTwiceInProgress, put = __set__resolvesTwiceInProgress))::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>* _resolvesTwiceInProgress;
+  __declspec(property(get = __cordl_internal_get__resolvesTwiceInProgress,
+                      put = __cordl_internal_set__resolvesTwiceInProgress))::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>* _resolvesTwiceInProgress;
 
   /// @brief Field _lazyInjector, offset 0x38, size 0x8
-  __declspec(property(get = __get__lazyInjector, put = __set__lazyInjector))::Zenject::LazyInstanceInjector* _lazyInjector;
+  __declspec(property(get = __cordl_internal_get__lazyInjector, put = __cordl_internal_set__lazyInjector))::Zenject::LazyInstanceInjector* _lazyInjector;
 
   /// @brief Field _singletonMarkRegistry, offset 0x40, size 0x8
-  __declspec(property(get = __get__singletonMarkRegistry, put = __set__singletonMarkRegistry))::Zenject::Internal::SingletonMarkRegistry* _singletonMarkRegistry;
+  __declspec(property(get = __cordl_internal_get__singletonMarkRegistry, put = __cordl_internal_set__singletonMarkRegistry))::Zenject::Internal::SingletonMarkRegistry* _singletonMarkRegistry;
 
   /// @brief Field _currentBindings, offset 0x48, size 0x8
-  __declspec(property(get = __get__currentBindings, put = __set__currentBindings))::System::Collections::Generic::Queue_1<::Zenject::BindStatement*>* _currentBindings;
+  __declspec(property(get = __cordl_internal_get__currentBindings, put = __cordl_internal_set__currentBindings))::System::Collections::Generic::Queue_1<::Zenject::BindStatement*>* _currentBindings;
 
   /// @brief Field _childBindings, offset 0x50, size 0x8
-  __declspec(property(get = __get__childBindings, put = __set__childBindings))::System::Collections::Generic::List_1<::Zenject::BindStatement*>* _childBindings;
+  __declspec(property(get = __cordl_internal_get__childBindings, put = __cordl_internal_set__childBindings))::System::Collections::Generic::List_1<::Zenject::BindStatement*>* _childBindings;
 
   /// @brief Field _validatedTypes, offset 0x58, size 0x8
-  __declspec(property(get = __get__validatedTypes, put = __set__validatedTypes))::System::Collections::Generic::HashSet_1<::System::Type*>* _validatedTypes;
+  __declspec(property(get = __cordl_internal_get__validatedTypes, put = __cordl_internal_set__validatedTypes))::System::Collections::Generic::HashSet_1<::System::Type*>* _validatedTypes;
 
   /// @brief Field _validationQueue, offset 0x60, size 0x8
-  __declspec(property(get = __get__validationQueue, put = __set__validationQueue))::System::Collections::Generic::List_1<::Zenject::IValidatable*>* _validationQueue;
+  __declspec(property(get = __cordl_internal_get__validationQueue, put = __cordl_internal_set__validationQueue))::System::Collections::Generic::List_1<::Zenject::IValidatable*>* _validationQueue;
 
   /// @brief Field _contextTransform, offset 0x68, size 0x8
-  __declspec(property(get = __get__contextTransform, put = __set__contextTransform))::UnityEngine::Transform* _contextTransform;
+  __declspec(property(get = __cordl_internal_get__contextTransform, put = __cordl_internal_set__contextTransform))::UnityW<::UnityEngine::Transform> _contextTransform;
 
   /// @brief Field _hasLookedUpContextTransform, offset 0x70, size 0x1
-  __declspec(property(get = __get__hasLookedUpContextTransform, put = __set__hasLookedUpContextTransform)) bool _hasLookedUpContextTransform;
+  __declspec(property(get = __cordl_internal_get__hasLookedUpContextTransform, put = __cordl_internal_set__hasLookedUpContextTransform)) bool _hasLookedUpContextTransform;
 
   /// @brief Field _inheritedDefaultParent, offset 0x78, size 0x8
-  __declspec(property(get = __get__inheritedDefaultParent, put = __set__inheritedDefaultParent))::UnityEngine::Transform* _inheritedDefaultParent;
+  __declspec(property(get = __cordl_internal_get__inheritedDefaultParent, put = __cordl_internal_set__inheritedDefaultParent))::UnityW<::UnityEngine::Transform> _inheritedDefaultParent;
 
   /// @brief Field _explicitDefaultParent, offset 0x80, size 0x8
-  __declspec(property(get = __get__explicitDefaultParent, put = __set__explicitDefaultParent))::UnityEngine::Transform* _explicitDefaultParent;
+  __declspec(property(get = __cordl_internal_get__explicitDefaultParent, put = __cordl_internal_set__explicitDefaultParent))::UnityW<::UnityEngine::Transform> _explicitDefaultParent;
 
   /// @brief Field _hasExplicitDefaultParent, offset 0x88, size 0x1
-  __declspec(property(get = __get__hasExplicitDefaultParent, put = __set__hasExplicitDefaultParent)) bool _hasExplicitDefaultParent;
+  __declspec(property(get = __cordl_internal_get__hasExplicitDefaultParent, put = __cordl_internal_set__hasExplicitDefaultParent)) bool _hasExplicitDefaultParent;
 
   /// @brief Field _settings, offset 0x90, size 0x8
-  __declspec(property(get = __get__settings, put = __set__settings))::Zenject::ZenjectSettings* _settings;
+  __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings))::Zenject::ZenjectSettings* _settings;
 
   /// @brief Field _hasResolvedRoots, offset 0x98, size 0x1
-  __declspec(property(get = __get__hasResolvedRoots, put = __set__hasResolvedRoots)) bool _hasResolvedRoots;
+  __declspec(property(get = __cordl_internal_get__hasResolvedRoots, put = __cordl_internal_set__hasResolvedRoots)) bool _hasResolvedRoots;
 
   /// @brief Field _isFinalizingBinding, offset 0x99, size 0x1
-  __declspec(property(get = __get__isFinalizingBinding, put = __set__isFinalizingBinding)) bool _isFinalizingBinding;
+  __declspec(property(get = __cordl_internal_get__isFinalizingBinding, put = __cordl_internal_set__isFinalizingBinding)) bool _isFinalizingBinding;
 
   /// @brief Field _isValidating, offset 0x9a, size 0x1
-  __declspec(property(get = __get__isValidating, put = __set__isValidating)) bool _isValidating;
+  __declspec(property(get = __cordl_internal_get__isValidating, put = __cordl_internal_set__isValidating)) bool _isValidating;
 
   /// @brief Field _isInstalling, offset 0x9b, size 0x1
-  __declspec(property(get = __get__isInstalling, put = __set__isInstalling)) bool _isInstalling;
+  __declspec(property(get = __cordl_internal_get__isInstalling, put = __cordl_internal_set__isInstalling)) bool _isInstalling;
 
   /// @brief Field <AssertOnNewGameObjects>k__BackingField, offset 0x9c, size 0x1
-  __declspec(property(get = __get__AssertOnNewGameObjects_k__BackingField, put = __set__AssertOnNewGameObjects_k__BackingField)) bool _AssertOnNewGameObjects_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__AssertOnNewGameObjects_k__BackingField,
+                      put = __cordl_internal_set__AssertOnNewGameObjects_k__BackingField)) bool _AssertOnNewGameObjects_k__BackingField;
 
   __declspec(property(get = get_Settings, put = set_Settings))::Zenject::ZenjectSettings* Settings;
 
@@ -934,13 +939,13 @@ public:
 
   __declspec(property(get = get_AllProviders))::System::Collections::Generic::IEnumerable_1<::Zenject::IProvider*>* AllProviders;
 
-  __declspec(property(get = get_ContextTransform))::UnityEngine::Transform* ContextTransform;
+  __declspec(property(get = get_ContextTransform))::UnityW<::UnityEngine::Transform> ContextTransform;
 
   __declspec(property(get = get_AssertOnNewGameObjects, put = set_AssertOnNewGameObjects)) bool AssertOnNewGameObjects;
 
-  __declspec(property(get = get_InheritedDefaultParent))::UnityEngine::Transform* InheritedDefaultParent;
+  __declspec(property(get = get_InheritedDefaultParent))::UnityW<::UnityEngine::Transform> InheritedDefaultParent;
 
-  __declspec(property(get = get_DefaultParent, put = set_DefaultParent))::UnityEngine::Transform* DefaultParent;
+  __declspec(property(get = get_DefaultParent, put = set_DefaultParent))::UnityW<::UnityEngine::Transform> DefaultParent;
 
   __declspec(property(get = get_ParentContainers))::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*> ParentContainers;
 
@@ -960,141 +965,144 @@ public:
   /// @brief Convert to "::Zenject::IInstantiator"
   constexpr ::Zenject::IInstantiator* i___Zenject__IInstantiator() noexcept;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::Internal::IDecoratorProvider*>*& __get__decorators();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::Internal::IDecoratorProvider*>*& __cordl_internal_get__decorators();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::Internal::IDecoratorProvider*>*> const& __get__decorators() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::Internal::IDecoratorProvider*>*> const&
+  __cordl_internal_get__decorators() const;
 
-  constexpr void __set__decorators(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::Internal::IDecoratorProvider*>* value);
+  constexpr void __cordl_internal_set__decorators(::System::Collections::Generic::Dictionary_2<::System::Type*, ::Zenject::Internal::IDecoratorProvider*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::System::Collections::Generic::List_1<::Zenject::__DiContainer__ProviderInfo*>*>*& __get__providers();
+  constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::System::Collections::Generic::List_1<::Zenject::__DiContainer__ProviderInfo*>*>*& __cordl_internal_get__providers();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::System::Collections::Generic::List_1<::Zenject::__DiContainer__ProviderInfo*>*>*> const&
-  __get__providers() const;
-
-  constexpr void __set__providers(::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::System::Collections::Generic::List_1<::Zenject::__DiContainer__ProviderInfo*>*>* value);
-
-  constexpr ::ArrayW<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>, ::Array<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>>*>& __get__containerLookups();
-
-  constexpr ::ArrayW<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>, ::Array<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>>*> const&
-  __get__containerLookups() const;
+  __cordl_internal_get__providers() const;
 
   constexpr void
-  __set__containerLookups(::ArrayW<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>, ::Array<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>>*> value);
+  __cordl_internal_set__providers(::System::Collections::Generic::Dictionary_2<::Zenject::BindingId, ::System::Collections::Generic::List_1<::Zenject::__DiContainer__ProviderInfo*>*>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>*& __get__resolvesInProgress();
+  constexpr ::ArrayW<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>, ::Array<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>>*>&
+  __cordl_internal_get__containerLookups();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>*> const& __get__resolvesInProgress() const;
+  constexpr ::ArrayW<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>, ::Array<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>>*> const&
+  __cordl_internal_get__containerLookups() const;
 
-  constexpr void __set__resolvesInProgress(::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>* value);
+  constexpr void __cordl_internal_set__containerLookups(
+      ::ArrayW<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>, ::Array<::ArrayW<::Zenject::DiContainer*, ::Array<::Zenject::DiContainer*>*>>*> value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>*& __get__resolvesTwiceInProgress();
+  constexpr ::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>*& __cordl_internal_get__resolvesInProgress();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>*> const& __get__resolvesTwiceInProgress() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>*> const& __cordl_internal_get__resolvesInProgress() const;
 
-  constexpr void __set__resolvesTwiceInProgress(::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>* value);
+  constexpr void __cordl_internal_set__resolvesInProgress(::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>* value);
 
-  constexpr ::Zenject::LazyInstanceInjector*& __get__lazyInjector();
+  constexpr ::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>*& __cordl_internal_get__resolvesTwiceInProgress();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::LazyInstanceInjector*> const& __get__lazyInjector() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>*> const& __cordl_internal_get__resolvesTwiceInProgress() const;
 
-  constexpr void __set__lazyInjector(::Zenject::LazyInstanceInjector* value);
+  constexpr void __cordl_internal_set__resolvesTwiceInProgress(::System::Collections::Generic::HashSet_1<::Zenject::Internal::LookupId*>* value);
 
-  constexpr ::Zenject::Internal::SingletonMarkRegistry*& __get__singletonMarkRegistry();
+  constexpr ::Zenject::LazyInstanceInjector*& __cordl_internal_get__lazyInjector();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::Internal::SingletonMarkRegistry*> const& __get__singletonMarkRegistry() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::LazyInstanceInjector*> const& __cordl_internal_get__lazyInjector() const;
 
-  constexpr void __set__singletonMarkRegistry(::Zenject::Internal::SingletonMarkRegistry* value);
+  constexpr void __cordl_internal_set__lazyInjector(::Zenject::LazyInstanceInjector* value);
 
-  constexpr ::System::Collections::Generic::Queue_1<::Zenject::BindStatement*>*& __get__currentBindings();
+  constexpr ::Zenject::Internal::SingletonMarkRegistry*& __cordl_internal_get__singletonMarkRegistry();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::Zenject::BindStatement*>*> const& __get__currentBindings() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::Internal::SingletonMarkRegistry*> const& __cordl_internal_get__singletonMarkRegistry() const;
 
-  constexpr void __set__currentBindings(::System::Collections::Generic::Queue_1<::Zenject::BindStatement*>* value);
+  constexpr void __cordl_internal_set__singletonMarkRegistry(::Zenject::Internal::SingletonMarkRegistry* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::BindStatement*>*& __get__childBindings();
+  constexpr ::System::Collections::Generic::Queue_1<::Zenject::BindStatement*>*& __cordl_internal_get__currentBindings();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::BindStatement*>*> const& __get__childBindings() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::Zenject::BindStatement*>*> const& __cordl_internal_get__currentBindings() const;
 
-  constexpr void __set__childBindings(::System::Collections::Generic::List_1<::Zenject::BindStatement*>* value);
+  constexpr void __cordl_internal_set__currentBindings(::System::Collections::Generic::Queue_1<::Zenject::BindStatement*>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>*& __get__validatedTypes();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::BindStatement*>*& __cordl_internal_get__childBindings();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Type*>*> const& __get__validatedTypes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::BindStatement*>*> const& __cordl_internal_get__childBindings() const;
 
-  constexpr void __set__validatedTypes(::System::Collections::Generic::HashSet_1<::System::Type*>* value);
+  constexpr void __cordl_internal_set__childBindings(::System::Collections::Generic::List_1<::Zenject::BindStatement*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::IValidatable*>*& __get__validationQueue();
+  constexpr ::System::Collections::Generic::HashSet_1<::System::Type*>*& __cordl_internal_get__validatedTypes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IValidatable*>*> const& __get__validationQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Type*>*> const& __cordl_internal_get__validatedTypes() const;
 
-  constexpr void __set__validationQueue(::System::Collections::Generic::List_1<::Zenject::IValidatable*>* value);
+  constexpr void __cordl_internal_set__validatedTypes(::System::Collections::Generic::HashSet_1<::System::Type*>* value);
 
-  constexpr ::UnityEngine::Transform*& __get__contextTransform();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::IValidatable*>*& __cordl_internal_get__validationQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__contextTransform() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IValidatable*>*> const& __cordl_internal_get__validationQueue() const;
 
-  constexpr void __set__contextTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__validationQueue(::System::Collections::Generic::List_1<::Zenject::IValidatable*>* value);
 
-  constexpr bool& __get__hasLookedUpContextTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__contextTransform();
 
-  constexpr bool const& __get__hasLookedUpContextTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__contextTransform() const;
 
-  constexpr void __set__hasLookedUpContextTransform(bool value);
+  constexpr void __cordl_internal_set__contextTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__inheritedDefaultParent();
+  constexpr bool& __cordl_internal_get__hasLookedUpContextTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__inheritedDefaultParent() const;
+  constexpr bool const& __cordl_internal_get__hasLookedUpContextTransform() const;
 
-  constexpr void __set__inheritedDefaultParent(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__hasLookedUpContextTransform(bool value);
 
-  constexpr ::UnityEngine::Transform*& __get__explicitDefaultParent();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__inheritedDefaultParent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__explicitDefaultParent() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__inheritedDefaultParent() const;
 
-  constexpr void __set__explicitDefaultParent(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__inheritedDefaultParent(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr bool& __get__hasExplicitDefaultParent();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__explicitDefaultParent();
 
-  constexpr bool const& __get__hasExplicitDefaultParent() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__explicitDefaultParent() const;
 
-  constexpr void __set__hasExplicitDefaultParent(bool value);
+  constexpr void __cordl_internal_set__explicitDefaultParent(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::Zenject::ZenjectSettings*& __get__settings();
+  constexpr bool& __cordl_internal_get__hasExplicitDefaultParent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::ZenjectSettings*> const& __get__settings() const;
+  constexpr bool const& __cordl_internal_get__hasExplicitDefaultParent() const;
 
-  constexpr void __set__settings(::Zenject::ZenjectSettings* value);
+  constexpr void __cordl_internal_set__hasExplicitDefaultParent(bool value);
 
-  constexpr bool& __get__hasResolvedRoots();
+  constexpr ::Zenject::ZenjectSettings*& __cordl_internal_get__settings();
 
-  constexpr bool const& __get__hasResolvedRoots() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::ZenjectSettings*> const& __cordl_internal_get__settings() const;
 
-  constexpr void __set__hasResolvedRoots(bool value);
+  constexpr void __cordl_internal_set__settings(::Zenject::ZenjectSettings* value);
 
-  constexpr bool& __get__isFinalizingBinding();
+  constexpr bool& __cordl_internal_get__hasResolvedRoots();
 
-  constexpr bool const& __get__isFinalizingBinding() const;
+  constexpr bool const& __cordl_internal_get__hasResolvedRoots() const;
 
-  constexpr void __set__isFinalizingBinding(bool value);
+  constexpr void __cordl_internal_set__hasResolvedRoots(bool value);
 
-  constexpr bool& __get__isValidating();
+  constexpr bool& __cordl_internal_get__isFinalizingBinding();
 
-  constexpr bool const& __get__isValidating() const;
+  constexpr bool const& __cordl_internal_get__isFinalizingBinding() const;
 
-  constexpr void __set__isValidating(bool value);
+  constexpr void __cordl_internal_set__isFinalizingBinding(bool value);
 
-  constexpr bool& __get__isInstalling();
+  constexpr bool& __cordl_internal_get__isValidating();
 
-  constexpr bool const& __get__isInstalling() const;
+  constexpr bool const& __cordl_internal_get__isValidating() const;
 
-  constexpr void __set__isInstalling(bool value);
+  constexpr void __cordl_internal_set__isValidating(bool value);
 
-  constexpr bool& __get__AssertOnNewGameObjects_k__BackingField();
+  constexpr bool& __cordl_internal_get__isInstalling();
 
-  constexpr bool const& __get__AssertOnNewGameObjects_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isInstalling() const;
 
-  constexpr void __set__AssertOnNewGameObjects_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isInstalling(bool value);
+
+  constexpr bool& __cordl_internal_get__AssertOnNewGameObjects_k__BackingField();
+
+  constexpr bool const& __cordl_internal_get__AssertOnNewGameObjects_k__BackingField() const;
+
+  constexpr void __cordl_internal_set__AssertOnNewGameObjects_k__BackingField(bool value);
 
   static inline ::Zenject::DiContainer* New_ctor(::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* parentContainersEnumerable, bool isValidating);
 
@@ -1151,7 +1159,7 @@ public:
   inline bool ShouldInheritBinding(::Zenject::BindStatement* binding, ::Zenject::DiContainer* ancestorContainer);
 
   /// @brief Method get_ContextTransform, addr 0x2ef7504, size 0xb8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_ContextTransform();
+  inline ::UnityW<::UnityEngine::Transform> get_ContextTransform();
 
   /// @brief Method get_AssertOnNewGameObjects, addr 0x2ef75bc, size 0x8, virtual false, abstract: false, final false
   inline bool get_AssertOnNewGameObjects();
@@ -1160,10 +1168,10 @@ public:
   inline void set_AssertOnNewGameObjects(bool value);
 
   /// @brief Method get_InheritedDefaultParent, addr 0x2ef75d0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_InheritedDefaultParent();
+  inline ::UnityW<::UnityEngine::Transform> get_InheritedDefaultParent();
 
   /// @brief Method get_DefaultParent, addr 0x2ef75d8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_DefaultParent();
+  inline ::UnityW<::UnityEngine::Transform> get_DefaultParent();
 
   /// @brief Method set_DefaultParent, addr 0x2eeeecc, size 0x10, virtual false, abstract: false, final false
   inline void set_DefaultParent(::UnityEngine::Transform* value);
@@ -1319,27 +1327,27 @@ public:
                                      ::Zenject::InjectContext* context, ::System::Object* concreteIdentifier);
 
   /// @brief Method CreateAndParentPrefabResource, addr 0x2efd274, size 0x134, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* CreateAndParentPrefabResource(::StringW resourcePath, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context,
-                                                                  ByRef<bool> shouldMakeActive);
+  inline ::UnityW<::UnityEngine::GameObject> CreateAndParentPrefabResource(::StringW resourcePath, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context,
+                                                                           ByRef<bool> shouldMakeActive);
 
   /// @brief Method GetPrefabAsGameObject, addr 0x2efd7dc, size 0x11c, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* GetPrefabAsGameObject(::UnityEngine::Object* prefab);
+  inline ::UnityW<::UnityEngine::GameObject> GetPrefabAsGameObject(::UnityEngine::Object* prefab);
 
   /// @brief Method CreateAndParentPrefab, addr 0x2efd3a8, size 0x434, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* CreateAndParentPrefab(::UnityEngine::Object* prefab, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context,
-                                                          ByRef<bool> shouldMakeActive);
+  inline ::UnityW<::UnityEngine::GameObject> CreateAndParentPrefab(::UnityEngine::Object* prefab, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context,
+                                                                   ByRef<bool> shouldMakeActive);
 
   /// @brief Method CreateEmptyGameObject, addr 0x2efde34, size 0x78, virtual true, abstract: false, final true
-  inline ::UnityEngine::GameObject* CreateEmptyGameObject(::StringW name);
+  inline ::UnityW<::UnityEngine::GameObject> CreateEmptyGameObject(::StringW name);
 
   /// @brief Method CreateEmptyGameObject, addr 0x2efdeac, size 0x188, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* CreateEmptyGameObject(::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context);
+  inline ::UnityW<::UnityEngine::GameObject> CreateEmptyGameObject(::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context);
 
   /// @brief Method GetTransformGroup, addr 0x2efd8f8, size 0x53c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* GetTransformGroup(::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context);
+  inline ::UnityW<::UnityEngine::Transform> GetTransformGroup(::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::Zenject::InjectContext* context);
 
   /// @brief Method CreateTransformGroup, addr 0x2efe034, size 0xc0, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* CreateTransformGroup(::StringW groupName);
+  inline ::UnityW<::UnityEngine::GameObject> CreateTransformGroup(::StringW groupName);
 
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline T Instantiate();
@@ -1360,11 +1368,11 @@ public:
   template <typename TContract> inline TContract InstantiateComponent(::UnityEngine::GameObject* gameObject, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
   /// @brief Method InstantiateComponent, addr 0x2efe234, size 0x70, virtual true, abstract: false, final true
-  inline ::UnityEngine::Component* InstantiateComponent(::System::Type* componentType, ::UnityEngine::GameObject* gameObject);
+  inline ::UnityW<::UnityEngine::Component> InstantiateComponent(::System::Type* componentType, ::UnityEngine::GameObject* gameObject);
 
   /// @brief Method InstantiateComponent, addr 0x2efe2a4, size 0x38, virtual true, abstract: false, final true
-  inline ::UnityEngine::Component* InstantiateComponent(::System::Type* componentType, ::UnityEngine::GameObject* gameObject,
-                                                        ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
+  inline ::UnityW<::UnityEngine::Component> InstantiateComponent(::System::Type* componentType, ::UnityEngine::GameObject* gameObject,
+                                                                 ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
   /// @brief Method InstantiateComponentOnNewGameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline T InstantiateComponentOnNewGameObject();
@@ -1379,28 +1387,30 @@ public:
   template <typename T> inline T InstantiateComponentOnNewGameObject(::StringW gameObjectName, ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
   /// @brief Method InstantiatePrefab, addr 0x2efe3ac, size 0x70, virtual true, abstract: false, final true
-  inline ::UnityEngine::GameObject* InstantiatePrefab(::UnityEngine::Object* prefab);
+  inline ::UnityW<::UnityEngine::GameObject> InstantiatePrefab(::UnityEngine::Object* prefab);
 
   /// @brief Method InstantiatePrefab, addr 0x2efe4a0, size 0x7c, virtual true, abstract: false, final true
-  inline ::UnityEngine::GameObject* InstantiatePrefab(::UnityEngine::Object* prefab, ::UnityEngine::Transform* parentTransform);
+  inline ::UnityW<::UnityEngine::GameObject> InstantiatePrefab(::UnityEngine::Object* prefab, ::UnityEngine::Transform* parentTransform);
 
   /// @brief Method InstantiatePrefab, addr 0x2efe51c, size 0x14c, virtual true, abstract: false, final true
-  inline ::UnityEngine::GameObject* InstantiatePrefab(::UnityEngine::Object* prefab, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parentTransform);
+  inline ::UnityW<::UnityEngine::GameObject> InstantiatePrefab(::UnityEngine::Object* prefab, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
+                                                               ::UnityEngine::Transform* parentTransform);
 
   /// @brief Method InstantiatePrefab, addr 0x2efe41c, size 0x84, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* InstantiatePrefab(::UnityEngine::Object* prefab, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
+  inline ::UnityW<::UnityEngine::GameObject> InstantiatePrefab(::UnityEngine::Object* prefab, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
   /// @brief Method InstantiatePrefabResource, addr 0x2efe81c, size 0x70, virtual true, abstract: false, final true
-  inline ::UnityEngine::GameObject* InstantiatePrefabResource(::StringW resourcePath);
+  inline ::UnityW<::UnityEngine::GameObject> InstantiatePrefabResource(::StringW resourcePath);
 
   /// @brief Method InstantiatePrefabResource, addr 0x2efe9a8, size 0x7c, virtual true, abstract: false, final true
-  inline ::UnityEngine::GameObject* InstantiatePrefabResource(::StringW resourcePath, ::UnityEngine::Transform* parentTransform);
+  inline ::UnityW<::UnityEngine::GameObject> InstantiatePrefabResource(::StringW resourcePath, ::UnityEngine::Transform* parentTransform);
 
   /// @brief Method InstantiatePrefabResource, addr 0x2efea24, size 0x14c, virtual true, abstract: false, final true
-  inline ::UnityEngine::GameObject* InstantiatePrefabResource(::StringW resourcePath, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parentTransform);
+  inline ::UnityW<::UnityEngine::GameObject> InstantiatePrefabResource(::StringW resourcePath, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
+                                                                       ::UnityEngine::Transform* parentTransform);
 
   /// @brief Method InstantiatePrefabResource, addr 0x2efe88c, size 0x11c, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* InstantiatePrefabResource(::StringW resourcePath, ::Zenject::GameObjectCreationParameters* creationInfo);
+  inline ::UnityW<::UnityEngine::GameObject> InstantiatePrefabResource(::StringW resourcePath, ::Zenject::GameObjectCreationParameters* creationInfo);
 
   /// @brief Method InstantiatePrefabForComponent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename T> inline T InstantiatePrefabForComponent(::UnityEngine::Object* prefab);
@@ -1485,9 +1495,9 @@ public:
                                                         ::System::Collections::Generic::IEnumerable_1<::System::Object*>* extraArgs);
 
   /// @brief Method InjectGameObjectForComponentExplicit, addr 0x2eff18c, size 0x3ec, virtual false, abstract: false, final false
-  inline ::UnityEngine::Component* InjectGameObjectForComponentExplicit(::UnityEngine::GameObject* gameObject, ::System::Type* componentType,
-                                                                        ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context,
-                                                                        ::System::Object* concreteIdentifier);
+  inline ::UnityW<::UnityEngine::Component> InjectGameObjectForComponentExplicit(::UnityEngine::GameObject* gameObject, ::System::Type* componentType,
+                                                                                 ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs, ::Zenject::InjectContext* context,
+                                                                                 ::System::Object* concreteIdentifier);
 
   /// @brief Method Inject, addr 0x2eece14, size 0x68, virtual false, abstract: false, final false
   inline void Inject(::System::Object* injectable);
@@ -1792,8 +1802,8 @@ public:
                                                ::Zenject::InjectContext* context, ::System::Object* concreteIdentifier);
 
   /// @brief Method InstantiateComponentExplicit, addr 0x2efe2dc, size 0xd0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Component* InstantiateComponentExplicit(::System::Type* componentType, ::UnityEngine::GameObject* gameObject,
-                                                                ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
+  inline ::UnityW<::UnityEngine::Component> InstantiateComponentExplicit(::System::Type* componentType, ::UnityEngine::GameObject* gameObject,
+                                                                         ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* extraArgs);
 
   /// @brief Method InstantiateScriptableObjectResourceExplicit, addr 0x2efef94, size 0x144, virtual false, abstract: false, final false
   inline ::System::Object* InstantiateScriptableObjectResourceExplicit(::System::Type* scriptableObjectType, ::StringW resourcePath,
@@ -1919,16 +1929,16 @@ public:
   ::System::Collections::Generic::List_1<::Zenject::IValidatable*>* ____validationQueue;
 
   /// @brief Field _contextTransform, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____contextTransform;
+  ::UnityW<::UnityEngine::Transform> ____contextTransform;
 
   /// @brief Field _hasLookedUpContextTransform, offset: 0x70, size: 0x1, def value: None
   bool ____hasLookedUpContextTransform;
 
   /// @brief Field _inheritedDefaultParent, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____inheritedDefaultParent;
+  ::UnityW<::UnityEngine::Transform> ____inheritedDefaultParent;
 
   /// @brief Field _explicitDefaultParent, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____explicitDefaultParent;
+  ::UnityW<::UnityEngine::Transform> ____explicitDefaultParent;
 
   /// @brief Field _hasExplicitDefaultParent, offset: 0x88, size: 0x1, def value: None
   bool ____hasExplicitDefaultParent;

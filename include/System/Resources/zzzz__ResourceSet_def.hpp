@@ -36,20 +36,20 @@ MARK_REF_PTR_T(::System::Resources::ResourceSet);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3442))
 // CS Name: ::System.Resources::ResourceSet*
 class CORDL_TYPE ResourceSet : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Reader, offset 0x10, size 0x8
-  __declspec(property(get = __get_Reader, put = __set_Reader))::System::Resources::IResourceReader* Reader;
+  __declspec(property(get = __cordl_internal_get_Reader, put = __cordl_internal_set_Reader))::System::Resources::IResourceReader* Reader;
 
   /// @brief Field Table, offset 0x18, size 0x8
-  __declspec(property(get = __get_Table, put = __set_Table))::System::Collections::Hashtable* Table;
+  __declspec(property(get = __cordl_internal_get_Table, put = __cordl_internal_set_Table))::System::Collections::Hashtable* Table;
 
   /// @brief Field _caseInsensitiveTable, offset 0x20, size 0x8
-  __declspec(property(get = __get__caseInsensitiveTable, put = __set__caseInsensitiveTable))::System::Collections::Hashtable* _caseInsensitiveTable;
+  __declspec(property(get = __cordl_internal_get__caseInsensitiveTable, put = __cordl_internal_set__caseInsensitiveTable))::System::Collections::Hashtable* _caseInsensitiveTable;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -63,23 +63,23 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Resources::IResourceReader*& __get_Reader();
+  constexpr ::System::Resources::IResourceReader*& __cordl_internal_get_Reader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Resources::IResourceReader*> const& __get_Reader() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Resources::IResourceReader*> const& __cordl_internal_get_Reader() const;
 
-  constexpr void __set_Reader(::System::Resources::IResourceReader* value);
+  constexpr void __cordl_internal_set_Reader(::System::Resources::IResourceReader* value);
 
-  constexpr ::System::Collections::Hashtable*& __get_Table();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_Table();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_Table() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_Table() const;
 
-  constexpr void __set_Table(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_Table(::System::Collections::Hashtable* value);
 
-  constexpr ::System::Collections::Hashtable*& __get__caseInsensitiveTable();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__caseInsensitiveTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get__caseInsensitiveTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__caseInsensitiveTable() const;
 
-  constexpr void __set__caseInsensitiveTable(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set__caseInsensitiveTable(::System::Collections::Hashtable* value);
 
   static inline ::System::Resources::ResourceSet* New_ctor();
 

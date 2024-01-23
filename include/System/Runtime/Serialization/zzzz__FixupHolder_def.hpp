@@ -18,38 +18,38 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::FixupHolder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3219))
 // CS Name: ::System.Runtime.Serialization::FixupHolder*
 class CORDL_TYPE FixupHolder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_id, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_id, put = __set_m_id)) int64_t m_id;
+  __declspec(property(get = __cordl_internal_get_m_id, put = __cordl_internal_set_m_id)) int64_t m_id;
 
   /// @brief Field m_fixupInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_fixupInfo, put = __set_m_fixupInfo))::System::Object* m_fixupInfo;
+  __declspec(property(get = __cordl_internal_get_m_fixupInfo, put = __cordl_internal_set_m_fixupInfo))::System::Object* m_fixupInfo;
 
   /// @brief Field m_fixupType, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_fixupType, put = __set_m_fixupType)) int32_t m_fixupType;
+  __declspec(property(get = __cordl_internal_get_m_fixupType, put = __cordl_internal_set_m_fixupType)) int32_t m_fixupType;
 
-  constexpr int64_t& __get_m_id();
+  constexpr int64_t& __cordl_internal_get_m_id();
 
-  constexpr int64_t const& __get_m_id() const;
+  constexpr int64_t const& __cordl_internal_get_m_id() const;
 
-  constexpr void __set_m_id(int64_t value);
+  constexpr void __cordl_internal_set_m_id(int64_t value);
 
-  constexpr ::System::Object*& __get_m_fixupInfo();
+  constexpr ::System::Object*& __cordl_internal_get_m_fixupInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_fixupInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_fixupInfo() const;
 
-  constexpr void __set_m_fixupInfo(::System::Object* value);
+  constexpr void __cordl_internal_set_m_fixupInfo(::System::Object* value);
 
-  constexpr int32_t& __get_m_fixupType();
+  constexpr int32_t& __cordl_internal_get_m_fixupType();
 
-  constexpr int32_t const& __get_m_fixupType() const;
+  constexpr int32_t const& __cordl_internal_get_m_fixupType() const;
 
-  constexpr void __set_m_fixupType(int32_t value);
+  constexpr void __cordl_internal_set_m_fixupType(int32_t value);
 
   static inline ::System::Runtime::Serialization::FixupHolder* New_ctor(int64_t id, ::System::Object* fixupInfo, int32_t fixupType);
 

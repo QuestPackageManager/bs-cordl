@@ -30,19 +30,20 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst:
-// 1713 }), TypeDefinitionIndex(TypeDefinitionIndex(14602))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7240)) CS Name: ::UnityEngine.UIElements::KeyboardEventBase`1<T>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(14602)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1713 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7240)) CS Name:
+// ::UnityEngine.UIElements::KeyboardEventBase`1<T>*
 class CORDL_TYPE KeyboardEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
   /// @brief Field <modifiers>k__BackingField, offset 0x7c, size 0x4
-  __declspec(property(get = __get__modifiers_k__BackingField, put = __set__modifiers_k__BackingField))::UnityEngine::EventModifiers _modifiers_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__modifiers_k__BackingField, put = __cordl_internal_set__modifiers_k__BackingField))::UnityEngine::EventModifiers _modifiers_k__BackingField;
 
   /// @brief Field <character>k__BackingField, offset 0x80, size 0x2
-  __declspec(property(get = __get__character_k__BackingField, put = __set__character_k__BackingField)) char16_t _character_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__character_k__BackingField, put = __cordl_internal_set__character_k__BackingField)) char16_t _character_k__BackingField;
 
   /// @brief Field <keyCode>k__BackingField, offset 0x84, size 0x4
-  __declspec(property(get = __get__keyCode_k__BackingField, put = __set__keyCode_k__BackingField))::UnityEngine::KeyCode _keyCode_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__keyCode_k__BackingField, put = __cordl_internal_set__keyCode_k__BackingField))::UnityEngine::KeyCode _keyCode_k__BackingField;
 
   __declspec(property(get = get_modifiers, put = set_modifiers))::UnityEngine::EventModifiers modifiers;
 
@@ -66,23 +67,23 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IKeyboardEvent"
   constexpr ::UnityEngine::UIElements::IKeyboardEvent* i___UnityEngine__UIElements__IKeyboardEvent() noexcept;
 
-  constexpr ::UnityEngine::EventModifiers& __get__modifiers_k__BackingField();
+  constexpr ::UnityEngine::EventModifiers& __cordl_internal_get__modifiers_k__BackingField();
 
-  constexpr ::UnityEngine::EventModifiers const& __get__modifiers_k__BackingField() const;
+  constexpr ::UnityEngine::EventModifiers const& __cordl_internal_get__modifiers_k__BackingField() const;
 
-  constexpr void __set__modifiers_k__BackingField(::UnityEngine::EventModifiers value);
+  constexpr void __cordl_internal_set__modifiers_k__BackingField(::UnityEngine::EventModifiers value);
 
-  constexpr char16_t& __get__character_k__BackingField();
+  constexpr char16_t& __cordl_internal_get__character_k__BackingField();
 
-  constexpr char16_t const& __get__character_k__BackingField() const;
+  constexpr char16_t const& __cordl_internal_get__character_k__BackingField() const;
 
-  constexpr void __set__character_k__BackingField(char16_t value);
+  constexpr void __cordl_internal_set__character_k__BackingField(char16_t value);
 
-  constexpr ::UnityEngine::KeyCode& __get__keyCode_k__BackingField();
+  constexpr ::UnityEngine::KeyCode& __cordl_internal_get__keyCode_k__BackingField();
 
-  constexpr ::UnityEngine::KeyCode const& __get__keyCode_k__BackingField() const;
+  constexpr ::UnityEngine::KeyCode const& __cordl_internal_get__keyCode_k__BackingField() const;
 
-  constexpr void __set__keyCode_k__BackingField(::UnityEngine::KeyCode value);
+  constexpr void __cordl_internal_set__keyCode_k__BackingField(::UnityEngine::KeyCode value);
 
   /// @brief Method get_modifiers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::EventModifiers get_modifiers();

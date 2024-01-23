@@ -21,22 +21,23 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Exceptions::ProviderException)
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Exceptions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13963))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13963))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13964))
 // CS Name: ::UnityEngine.ResourceManagement.Exceptions::ProviderException*
 class CORDL_TYPE ProviderException : public ::UnityEngine::ResourceManagement::Exceptions::OperationException {
 public:
   // Declarations
   /// @brief Field <Location>k__BackingField, offset 0x90, size 0x8
-  __declspec(property(get = __get__Location_k__BackingField, put = __set__Location_k__BackingField))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* _Location_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Location_k__BackingField,
+                      put = __cordl_internal_set__Location_k__BackingField))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* _Location_k__BackingField;
 
   __declspec(property(get = get_Location))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* Location;
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __get__Location_k__BackingField();
+  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __cordl_internal_get__Location_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __get__Location_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __cordl_internal_get__Location_k__BackingField() const;
 
-  constexpr void __set__Location_k__BackingField(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
+  constexpr void __cordl_internal_set__Location_k__BackingField(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
   static inline ::UnityEngine::ResourceManagement::Exceptions::ProviderException* New_ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                                                                                            ::System::Exception* innerException);

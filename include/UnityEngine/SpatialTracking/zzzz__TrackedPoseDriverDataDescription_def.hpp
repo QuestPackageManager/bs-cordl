@@ -29,7 +29,7 @@ MARK_VAL_T(::UnityEngine::SpatialTracking::__TrackedPoseDriverDataDescription__P
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::SpatialTracking {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16189))
 // CS Name: ::TrackedPoseDriverDataDescription::PoseData
 struct CORDL_TYPE __TrackedPoseDriverDataDescription__PoseData {
@@ -67,7 +67,7 @@ static_assert(offsetof(::UnityEngine::SpatialTracking::__TrackedPoseDriverDataDe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::SpatialTracking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16190))
 // CS Name: ::UnityEngine.SpatialTracking::TrackedPoseDriverDataDescription*
 class CORDL_TYPE TrackedPoseDriverDataDescription : public ::System::Object {

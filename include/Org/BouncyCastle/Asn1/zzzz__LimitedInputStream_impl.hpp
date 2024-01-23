@@ -10,11 +10,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x11c00bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LimitedInputStream*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LimitedInputStream*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x11c00e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LimitedInputStream*>::get(),
@@ -42,7 +42,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x11c00f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LimitedInputStream*>::get(),
@@ -50,37 +50,38 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::IO::Stream*& Org::BouncyCastle::Asn1::LimitedInputStream::__get__in() {
+constexpr ::System::IO::Stream*& Org::BouncyCastle::Asn1::LimitedInputStream::__cordl_internal_get__in() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____in;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Asn1::LimitedInputStream::__get__in() const {
+constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Asn1::LimitedInputStream::__cordl_internal_get__in() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____in;
 }
-constexpr void Org::BouncyCastle::Asn1::LimitedInputStream::__set__in(::System::IO::Stream* value) {
+constexpr void Org::BouncyCastle::Asn1::LimitedInputStream::__cordl_internal_set__in(::System::IO::Stream* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____in)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& Org::BouncyCastle::Asn1::LimitedInputStream::__get__limit() {
+constexpr int32_t& Org::BouncyCastle::Asn1::LimitedInputStream::__cordl_internal_get__limit() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____limit;
 }
-constexpr int32_t const& Org::BouncyCastle::Asn1::LimitedInputStream::__get__limit() const {
+constexpr int32_t const& Org::BouncyCastle::Asn1::LimitedInputStream::__cordl_internal_get__limit() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____limit;
 }
-constexpr void Org::BouncyCastle::Asn1::LimitedInputStream::__set__limit(int32_t value) {
+constexpr void Org::BouncyCastle::Asn1::LimitedInputStream::__cordl_internal_set__limit(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____limit = value;
 }
 inline ::Org::BouncyCastle::Asn1::LimitedInputStream* Org::BouncyCastle::Asn1::LimitedInputStream::New_ctor(::System::IO::Stream* inStream, int32_t limit) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Org::BouncyCastle::Asn1::LimitedInputStream*>(inStream, limit));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Asn1::LimitedInputStream*>(inStream, limit));
 }
 inline void Org::BouncyCastle::Asn1::LimitedInputStream::_ctor(::System::IO::Stream* inStream, int32_t limit) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LimitedInputStream*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::LimitedInputStream*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, inStream, limit);
 }
 inline int32_t Org::BouncyCastle::Asn1::LimitedInputStream::get_Limit() {

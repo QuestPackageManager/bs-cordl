@@ -34,35 +34,35 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1288))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsBlockCipher*
 class CORDL_TYPE TlsBlockCipher : public ::System::Object {
 public:
   // Declarations
   /// @brief Field context, offset 0x10, size 0x8
-  __declspec(property(get = __get_context, put = __set_context))::Org::BouncyCastle::Crypto::Tls::TlsContext* context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::Org::BouncyCastle::Crypto::Tls::TlsContext* context;
 
   /// @brief Field randomData, offset 0x18, size 0x8
-  __declspec(property(get = __get_randomData, put = __set_randomData))::ArrayW<uint8_t, ::Array<uint8_t>*> randomData;
+  __declspec(property(get = __cordl_internal_get_randomData, put = __cordl_internal_set_randomData))::ArrayW<uint8_t, ::Array<uint8_t>*> randomData;
 
   /// @brief Field useExplicitIV, offset 0x20, size 0x1
-  __declspec(property(get = __get_useExplicitIV, put = __set_useExplicitIV)) bool useExplicitIV;
+  __declspec(property(get = __cordl_internal_get_useExplicitIV, put = __cordl_internal_set_useExplicitIV)) bool useExplicitIV;
 
   /// @brief Field encryptThenMac, offset 0x21, size 0x1
-  __declspec(property(get = __get_encryptThenMac, put = __set_encryptThenMac)) bool encryptThenMac;
+  __declspec(property(get = __cordl_internal_get_encryptThenMac, put = __cordl_internal_set_encryptThenMac)) bool encryptThenMac;
 
   /// @brief Field encryptCipher, offset 0x28, size 0x8
-  __declspec(property(get = __get_encryptCipher, put = __set_encryptCipher))::Org::BouncyCastle::Crypto::IBlockCipher* encryptCipher;
+  __declspec(property(get = __cordl_internal_get_encryptCipher, put = __cordl_internal_set_encryptCipher))::Org::BouncyCastle::Crypto::IBlockCipher* encryptCipher;
 
   /// @brief Field decryptCipher, offset 0x30, size 0x8
-  __declspec(property(get = __get_decryptCipher, put = __set_decryptCipher))::Org::BouncyCastle::Crypto::IBlockCipher* decryptCipher;
+  __declspec(property(get = __cordl_internal_get_decryptCipher, put = __cordl_internal_set_decryptCipher))::Org::BouncyCastle::Crypto::IBlockCipher* decryptCipher;
 
   /// @brief Field mWriteMac, offset 0x38, size 0x8
-  __declspec(property(get = __get_mWriteMac, put = __set_mWriteMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* mWriteMac;
+  __declspec(property(get = __cordl_internal_get_mWriteMac, put = __cordl_internal_set_mWriteMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* mWriteMac;
 
   /// @brief Field mReadMac, offset 0x40, size 0x8
-  __declspec(property(get = __get_mReadMac, put = __set_mReadMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* mReadMac;
+  __declspec(property(get = __cordl_internal_get_mReadMac, put = __cordl_internal_set_mReadMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* mReadMac;
 
   __declspec(property(get = get_WriteMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* WriteMac;
 
@@ -74,53 +74,53 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher* i___Org__BouncyCastle__Crypto__Tls__TlsCipher() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __get_context();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_context();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __get_context() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __cordl_internal_get_context() const;
 
-  constexpr void __set_context(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
+  constexpr void __cordl_internal_set_context(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_randomData();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_randomData();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_randomData() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_randomData() const;
 
-  constexpr void __set_randomData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_randomData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get_useExplicitIV();
+  constexpr bool& __cordl_internal_get_useExplicitIV();
 
-  constexpr bool const& __get_useExplicitIV() const;
+  constexpr bool const& __cordl_internal_get_useExplicitIV() const;
 
-  constexpr void __set_useExplicitIV(bool value);
+  constexpr void __cordl_internal_set_useExplicitIV(bool value);
 
-  constexpr bool& __get_encryptThenMac();
+  constexpr bool& __cordl_internal_get_encryptThenMac();
 
-  constexpr bool const& __get_encryptThenMac() const;
+  constexpr bool const& __cordl_internal_get_encryptThenMac() const;
 
-  constexpr void __set_encryptThenMac(bool value);
+  constexpr void __cordl_internal_set_encryptThenMac(bool value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __get_encryptCipher();
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_encryptCipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __get_encryptCipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __cordl_internal_get_encryptCipher() const;
 
-  constexpr void __set_encryptCipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
+  constexpr void __cordl_internal_set_encryptCipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __get_decryptCipher();
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_decryptCipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __get_decryptCipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __cordl_internal_get_decryptCipher() const;
 
-  constexpr void __set_decryptCipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
+  constexpr void __cordl_internal_set_decryptCipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& __get_mWriteMac();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& __cordl_internal_get_mWriteMac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& __get_mWriteMac() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& __cordl_internal_get_mWriteMac() const;
 
-  constexpr void __set_mWriteMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
+  constexpr void __cordl_internal_set_mWriteMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& __get_mReadMac();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& __cordl_internal_get_mReadMac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& __get_mReadMac() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& __cordl_internal_get_mReadMac() const;
 
-  constexpr void __set_mReadMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
+  constexpr void __cordl_internal_set_mReadMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
 
   /// @brief Method get_WriteMac, addr 0xf99d50, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsMac* get_WriteMac();

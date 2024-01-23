@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::FormatterData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3067))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3067))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3068))
 // CS Name: ::System.Runtime.Remoting::FormatterData*
 class CORDL_TYPE FormatterData : public ::System::Runtime::Remoting::ProviderData {

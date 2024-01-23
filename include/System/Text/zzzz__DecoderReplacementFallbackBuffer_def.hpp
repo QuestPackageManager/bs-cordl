@@ -20,40 +20,40 @@ MARK_REF_PTR_T(::System::Text::DecoderReplacementFallbackBuffer);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2834))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2834))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2837))
 // CS Name: ::System.Text::DecoderReplacementFallbackBuffer*
 class CORDL_TYPE DecoderReplacementFallbackBuffer : public ::System::Text::DecoderFallbackBuffer {
 public:
   // Declarations
   /// @brief Field _strDefault, offset 0x20, size 0x8
-  __declspec(property(get = __get__strDefault, put = __set__strDefault))::StringW _strDefault;
+  __declspec(property(get = __cordl_internal_get__strDefault, put = __cordl_internal_set__strDefault))::StringW _strDefault;
 
   /// @brief Field _fallbackCount, offset 0x28, size 0x4
-  __declspec(property(get = __get__fallbackCount, put = __set__fallbackCount)) int32_t _fallbackCount;
+  __declspec(property(get = __cordl_internal_get__fallbackCount, put = __cordl_internal_set__fallbackCount)) int32_t _fallbackCount;
 
   /// @brief Field _fallbackIndex, offset 0x2c, size 0x4
-  __declspec(property(get = __get__fallbackIndex, put = __set__fallbackIndex)) int32_t _fallbackIndex;
+  __declspec(property(get = __cordl_internal_get__fallbackIndex, put = __cordl_internal_set__fallbackIndex)) int32_t _fallbackIndex;
 
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  constexpr ::StringW& __get__strDefault();
+  constexpr ::StringW& __cordl_internal_get__strDefault();
 
-  constexpr ::StringW const& __get__strDefault() const;
+  constexpr ::StringW const& __cordl_internal_get__strDefault() const;
 
-  constexpr void __set__strDefault(::StringW value);
+  constexpr void __cordl_internal_set__strDefault(::StringW value);
 
-  constexpr int32_t& __get__fallbackCount();
+  constexpr int32_t& __cordl_internal_get__fallbackCount();
 
-  constexpr int32_t const& __get__fallbackCount() const;
+  constexpr int32_t const& __cordl_internal_get__fallbackCount() const;
 
-  constexpr void __set__fallbackCount(int32_t value);
+  constexpr void __cordl_internal_set__fallbackCount(int32_t value);
 
-  constexpr int32_t& __get__fallbackIndex();
+  constexpr int32_t& __cordl_internal_get__fallbackIndex();
 
-  constexpr int32_t const& __get__fallbackIndex() const;
+  constexpr int32_t const& __cordl_internal_get__fallbackIndex() const;
 
-  constexpr void __set__fallbackIndex(int32_t value);
+  constexpr void __cordl_internal_set__fallbackIndex(int32_t value);
 
   static inline ::System::Text::DecoderReplacementFallbackBuffer* New_ctor(::System::Text::DecoderReplacementFallback* fallback);
 

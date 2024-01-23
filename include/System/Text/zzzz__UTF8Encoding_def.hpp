@@ -58,22 +58,22 @@ MARK_REF_PTR_T(::System::Text::__UTF8Encoding__UTF8Encoder);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2846))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2846))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2863))
 // CS Name: ::UTF8Encoding::UTF8Encoder*
 class CORDL_TYPE __UTF8Encoding__UTF8Encoder : public ::System::Text::EncoderNLS {
 public:
   // Declarations
   /// @brief Field surrogateChar, offset 0x38, size 0x4
-  __declspec(property(get = __get_surrogateChar, put = __set_surrogateChar)) int32_t surrogateChar;
+  __declspec(property(get = __cordl_internal_get_surrogateChar, put = __cordl_internal_set_surrogateChar)) int32_t surrogateChar;
 
   __declspec(property(get = get_HasState)) bool HasState;
 
-  constexpr int32_t& __get_surrogateChar();
+  constexpr int32_t& __cordl_internal_get_surrogateChar();
 
-  constexpr int32_t const& __get_surrogateChar() const;
+  constexpr int32_t const& __cordl_internal_get_surrogateChar() const;
 
-  constexpr void __set_surrogateChar(int32_t value);
+  constexpr void __cordl_internal_set_surrogateChar(int32_t value);
 
   static inline ::System::Text::__UTF8Encoding__UTF8Encoder* New_ctor(::System::Text::UTF8Encoding* encoding);
 
@@ -115,22 +115,22 @@ static_assert(offsetof(::System::Text::__UTF8Encoding__UTF8Encoder, ___surrogate
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2835))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2835))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2864))
 // CS Name: ::UTF8Encoding::UTF8Decoder*
 class CORDL_TYPE __UTF8Encoding__UTF8Decoder : public ::System::Text::DecoderNLS {
 public:
   // Declarations
   /// @brief Field bits, offset 0x30, size 0x4
-  __declspec(property(get = __get_bits, put = __set_bits)) int32_t bits;
+  __declspec(property(get = __cordl_internal_get_bits, put = __cordl_internal_set_bits)) int32_t bits;
 
   __declspec(property(get = get_HasState)) bool HasState;
 
-  constexpr int32_t& __get_bits();
+  constexpr int32_t& __cordl_internal_get_bits();
 
-  constexpr int32_t const& __get_bits() const;
+  constexpr int32_t const& __cordl_internal_get_bits() const;
 
-  constexpr void __set_bits(int32_t value);
+  constexpr void __cordl_internal_set_bits(int32_t value);
 
   static inline ::System::Text::__UTF8Encoding__UTF8Decoder* New_ctor(::System::Text::UTF8Encoding* encoding);
 
@@ -172,7 +172,7 @@ static_assert(offsetof(::System::Text::__UTF8Encoding__UTF8Decoder, ___bits) == 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2874))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2874))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2865))
 // CS Name: ::System.Text::UTF8Encoding*
 class CORDL_TYPE UTF8Encoding : public ::System::Text::Encoding {
@@ -185,10 +185,10 @@ public:
   using UTF8EncodingSealed = ::System::Text::__UTF8Encoding__UTF8EncodingSealed;
 
   /// @brief Field _emitUTF8Identifier, offset 0x38, size 0x1
-  __declspec(property(get = __get__emitUTF8Identifier, put = __set__emitUTF8Identifier)) bool _emitUTF8Identifier;
+  __declspec(property(get = __cordl_internal_get__emitUTF8Identifier, put = __cordl_internal_set__emitUTF8Identifier)) bool _emitUTF8Identifier;
 
   /// @brief Field _isThrowException, offset 0x39, size 0x1
-  __declspec(property(get = __get__isThrowException, put = __set__isThrowException)) bool _isThrowException;
+  __declspec(property(get = __cordl_internal_get__isThrowException, put = __cordl_internal_set__isThrowException)) bool _isThrowException;
 
   /// @brief Field s_default, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_default, put = setStaticF_s_default))::System::Text::__UTF8Encoding__UTF8EncodingSealed* s_default;
@@ -198,17 +198,17 @@ public:
 
   __declspec(property(get = get_Preamble))::System::ReadOnlySpan_1<uint8_t> Preamble;
 
-  constexpr bool& __get__emitUTF8Identifier();
+  constexpr bool& __cordl_internal_get__emitUTF8Identifier();
 
-  constexpr bool const& __get__emitUTF8Identifier() const;
+  constexpr bool const& __cordl_internal_get__emitUTF8Identifier() const;
 
-  constexpr void __set__emitUTF8Identifier(bool value);
+  constexpr void __cordl_internal_set__emitUTF8Identifier(bool value);
 
-  constexpr bool& __get__isThrowException();
+  constexpr bool& __cordl_internal_get__isThrowException();
 
-  constexpr bool const& __get__isThrowException() const;
+  constexpr bool const& __cordl_internal_get__isThrowException() const;
 
-  constexpr void __set__isThrowException(bool value);
+  constexpr void __cordl_internal_set__isThrowException(bool value);
 
   static inline void setStaticF_s_default(::System::Text::__UTF8Encoding__UTF8EncodingSealed* value);
 

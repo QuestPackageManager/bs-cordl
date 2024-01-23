@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__ScoreUIController__InitData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5045))
 // CS Name: ::ScoreUIController::ScoreDisplayType
 struct CORDL_TYPE __ScoreUIController__ScoreDisplayType {
@@ -91,20 +91,20 @@ static_assert(offsetof(::GlobalNamespace::__ScoreUIController__ScoreDisplayType,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5045))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5045))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5044))
 // CS Name: ::ScoreUIController::InitData*
 class CORDL_TYPE __ScoreUIController__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field scoreDisplayType, offset 0x10, size 0x4
-  __declspec(property(get = __get_scoreDisplayType, put = __set_scoreDisplayType))::GlobalNamespace::__ScoreUIController__ScoreDisplayType scoreDisplayType;
+  __declspec(property(get = __cordl_internal_get_scoreDisplayType, put = __cordl_internal_set_scoreDisplayType))::GlobalNamespace::__ScoreUIController__ScoreDisplayType scoreDisplayType;
 
-  constexpr ::GlobalNamespace::__ScoreUIController__ScoreDisplayType& __get_scoreDisplayType();
+  constexpr ::GlobalNamespace::__ScoreUIController__ScoreDisplayType& __cordl_internal_get_scoreDisplayType();
 
-  constexpr ::GlobalNamespace::__ScoreUIController__ScoreDisplayType const& __get_scoreDisplayType() const;
+  constexpr ::GlobalNamespace::__ScoreUIController__ScoreDisplayType const& __cordl_internal_get_scoreDisplayType() const;
 
-  constexpr void __set_scoreDisplayType(::GlobalNamespace::__ScoreUIController__ScoreDisplayType value);
+  constexpr void __cordl_internal_set_scoreDisplayType(::GlobalNamespace::__ScoreUIController__ScoreDisplayType value);
 
   static inline ::GlobalNamespace::__ScoreUIController__InitData* New_ctor(::GlobalNamespace::__ScoreUIController__ScoreDisplayType scoreDisplayType);
 
@@ -140,7 +140,7 @@ static_assert(offsetof(::GlobalNamespace::__ScoreUIController__InitData, ___scor
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5046))
 // CS Name: ::ScoreUIController*
 class CORDL_TYPE ScoreUIController : public ::UnityEngine::MonoBehaviour {
@@ -151,40 +151,40 @@ public:
   using InitData = ::GlobalNamespace::__ScoreUIController__InitData;
 
   /// @brief Field _scoreText, offset 0x18, size 0x8
-  __declspec(property(get = __get__scoreText, put = __set__scoreText))::TMPro::TextMeshProUGUI* _scoreText;
+  __declspec(property(get = __cordl_internal_get__scoreText, put = __cordl_internal_set__scoreText))::UnityW<::TMPro::TextMeshProUGUI> _scoreText;
 
   /// @brief Field _initData, offset 0x20, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__ScoreUIController__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__ScoreUIController__InitData* _initData;
 
   /// @brief Field _scoreController, offset 0x28, size 0x8
-  __declspec(property(get = __get__scoreController, put = __set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
+  __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
 
   /// @brief Field _stringBuilder, offset 0x30, size 0x8
-  __declspec(property(get = __get__stringBuilder, put = __set__stringBuilder))::System::Text::StringBuilder* _stringBuilder;
+  __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder))::System::Text::StringBuilder* _stringBuilder;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__scoreText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__scoreText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__scoreText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__scoreText() const;
 
-  constexpr void __set__scoreText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::GlobalNamespace::__ScoreUIController__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__ScoreUIController__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ScoreUIController__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ScoreUIController__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__ScoreUIController__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__ScoreUIController__InitData* value);
 
-  constexpr ::GlobalNamespace::IScoreController*& __get__scoreController();
+  constexpr ::GlobalNamespace::IScoreController*& __cordl_internal_get__scoreController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __get__scoreController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __cordl_internal_get__scoreController() const;
 
-  constexpr void __set__scoreController(::GlobalNamespace::IScoreController* value);
+  constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  constexpr ::System::Text::StringBuilder*& __get__stringBuilder();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__stringBuilder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get__stringBuilder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__stringBuilder() const;
 
-  constexpr void __set__stringBuilder(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
   /// @brief Method Start, addr 0x23c2d08, size 0x78, virtual false, abstract: false, final false
   inline void Start();
@@ -230,7 +230,7 @@ protected:
 
 public:
   /// @brief Field _scoreText, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____scoreText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____scoreText;
 
   /// @brief Field _initData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::__ScoreUIController__InitData* ____initData;

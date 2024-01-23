@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::Yoga::YogaDisplay);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Yoga {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15369))
 // CS Name: ::UnityEngine.Yoga::YogaDisplay
 struct CORDL_TYPE YogaDisplay {

@@ -56,29 +56,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509Crl);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1606))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1606))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1864))
 // CS Name: ::Org.BouncyCastle.X509::X509Crl*
 class CORDL_TYPE X509Crl : public ::Org::BouncyCastle::X509::X509ExtensionBase {
 public:
   // Declarations
   /// @brief Field c, offset 0x10, size 0x8
-  __declspec(property(get = __get_c, put = __set_c))::Org::BouncyCastle::Asn1::X509::CertificateList* c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::Org::BouncyCastle::Asn1::X509::CertificateList* c;
 
   /// @brief Field sigAlgName, offset 0x18, size 0x8
-  __declspec(property(get = __get_sigAlgName, put = __set_sigAlgName))::StringW sigAlgName;
+  __declspec(property(get = __cordl_internal_get_sigAlgName, put = __cordl_internal_set_sigAlgName))::StringW sigAlgName;
 
   /// @brief Field sigAlgParams, offset 0x20, size 0x8
-  __declspec(property(get = __get_sigAlgParams, put = __set_sigAlgParams))::ArrayW<uint8_t, ::Array<uint8_t>*> sigAlgParams;
+  __declspec(property(get = __cordl_internal_get_sigAlgParams, put = __cordl_internal_set_sigAlgParams))::ArrayW<uint8_t, ::Array<uint8_t>*> sigAlgParams;
 
   /// @brief Field isIndirect, offset 0x28, size 0x1
-  __declspec(property(get = __get_isIndirect, put = __set_isIndirect)) bool isIndirect;
+  __declspec(property(get = __cordl_internal_get_isIndirect, put = __cordl_internal_set_isIndirect)) bool isIndirect;
 
   /// @brief Field hashValueSet, offset 0x29, size 0x1
-  __declspec(property(get = __get_hashValueSet, put = __set_hashValueSet)) bool hashValueSet;
+  __declspec(property(get = __cordl_internal_get_hashValueSet, put = __cordl_internal_set_hashValueSet)) bool hashValueSet;
 
   /// @brief Field hashValue, offset 0x2c, size 0x4
-  __declspec(property(get = __get_hashValue, put = __set_hashValue)) int32_t hashValue;
+  __declspec(property(get = __cordl_internal_get_hashValue, put = __cordl_internal_set_hashValue)) int32_t hashValue;
 
   __declspec(property(get = get_Version)) int32_t Version;
 
@@ -94,41 +94,41 @@ public:
 
   __declspec(property(get = get_IsIndirectCrl)) bool IsIndirectCrl;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::CertificateList*& __get_c();
+  constexpr ::Org::BouncyCastle::Asn1::X509::CertificateList*& __cordl_internal_get_c();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::CertificateList*> const& __get_c() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::CertificateList*> const& __cordl_internal_get_c() const;
 
-  constexpr void __set_c(::Org::BouncyCastle::Asn1::X509::CertificateList* value);
+  constexpr void __cordl_internal_set_c(::Org::BouncyCastle::Asn1::X509::CertificateList* value);
 
-  constexpr ::StringW& __get_sigAlgName();
+  constexpr ::StringW& __cordl_internal_get_sigAlgName();
 
-  constexpr ::StringW const& __get_sigAlgName() const;
+  constexpr ::StringW const& __cordl_internal_get_sigAlgName() const;
 
-  constexpr void __set_sigAlgName(::StringW value);
+  constexpr void __cordl_internal_set_sigAlgName(::StringW value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_sigAlgParams();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_sigAlgParams();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_sigAlgParams() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_sigAlgParams() const;
 
-  constexpr void __set_sigAlgParams(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_sigAlgParams(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get_isIndirect();
+  constexpr bool& __cordl_internal_get_isIndirect();
 
-  constexpr bool const& __get_isIndirect() const;
+  constexpr bool const& __cordl_internal_get_isIndirect() const;
 
-  constexpr void __set_isIndirect(bool value);
+  constexpr void __cordl_internal_set_isIndirect(bool value);
 
-  constexpr bool& __get_hashValueSet();
+  constexpr bool& __cordl_internal_get_hashValueSet();
 
-  constexpr bool const& __get_hashValueSet() const;
+  constexpr bool const& __cordl_internal_get_hashValueSet() const;
 
-  constexpr void __set_hashValueSet(bool value);
+  constexpr void __cordl_internal_set_hashValueSet(bool value);
 
-  constexpr int32_t& __get_hashValue();
+  constexpr int32_t& __cordl_internal_get_hashValue();
 
-  constexpr int32_t const& __get_hashValue() const;
+  constexpr int32_t const& __cordl_internal_get_hashValue() const;
 
-  constexpr void __set_hashValue(int32_t value);
+  constexpr void __cordl_internal_set_hashValue(int32_t value);
 
   static inline ::Org::BouncyCastle::X509::X509Crl* New_ctor(::Org::BouncyCastle::Asn1::X509::CertificateList* c);
 

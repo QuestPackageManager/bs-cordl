@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Net::Mime::MailBnfHelper);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Mime {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9374))
 // CS Name: ::System.Net.Mime::MailBnfHelper*
 class CORDL_TYPE MailBnfHelper : public ::System::Object {

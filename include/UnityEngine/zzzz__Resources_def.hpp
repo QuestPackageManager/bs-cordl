@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::Resources);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10265))
 // CS Name: ::UnityEngine::Resources*
 class CORDL_TYPE Resources : public ::System::Object {
@@ -38,31 +38,31 @@ public:
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> ConvertObjects(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> rawObjects);
 
   /// @brief Method FindObjectsOfTypeAll, addr 0x2cde500, size 0x68, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> FindObjectsOfTypeAll(::System::Type* type);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeAll(::System::Type* type);
 
   /// @brief Method FindObjectsOfTypeAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> FindObjectsOfTypeAll();
 
   /// @brief Method Load, addr 0x2cde568, size 0x84, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Load(::StringW path);
+  static inline ::UnityW<::UnityEngine::Object> Load(::StringW path);
 
   /// @brief Method Load, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Load(::StringW path);
 
   /// @brief Method Load, addr 0x2cddff8, size 0x78, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Load(::StringW path, ::System::Type* systemTypeInstance);
+  static inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
   /// @brief Method LoadAsync, addr 0x2cde5ec, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceRequest* LoadAsync(::StringW path, ::System::Type* type);
 
   /// @brief Method LoadAll, addr 0x2cde664, size 0x78, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
   /// @brief Method LoadAll, addr 0x2cde6dc, size 0x84, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> LoadAll(::StringW path);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path);
 
   /// @brief Method GetBuiltinResource, addr 0x2cde760, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* GetBuiltinResource(::System::Type* type, ::StringW path);
+  static inline ::UnityW<::UnityEngine::Object> GetBuiltinResource(::System::Type* type, ::StringW path);
 
   /// @brief Method GetBuiltinResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetBuiltinResource(::StringW path);

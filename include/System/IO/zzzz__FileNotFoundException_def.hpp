@@ -21,17 +21,17 @@ MARK_REF_PTR_T(::System::IO::FileNotFoundException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3565))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3565))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3562))
 // CS Name: ::System.IO::FileNotFoundException*
 class CORDL_TYPE FileNotFoundException : public ::System::IO::IOException {
 public:
   // Declarations
   /// @brief Field <FileName>k__BackingField, offset 0x90, size 0x8
-  __declspec(property(get = __get__FileName_k__BackingField, put = __set__FileName_k__BackingField))::StringW _FileName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__FileName_k__BackingField, put = __cordl_internal_set__FileName_k__BackingField))::StringW _FileName_k__BackingField;
 
   /// @brief Field <FusionLog>k__BackingField, offset 0x98, size 0x8
-  __declspec(property(get = __get__FusionLog_k__BackingField, put = __set__FusionLog_k__BackingField))::StringW _FusionLog_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__FusionLog_k__BackingField, put = __cordl_internal_set__FusionLog_k__BackingField))::StringW _FusionLog_k__BackingField;
 
   __declspec(property(get = get_Message))::StringW Message;
 
@@ -39,17 +39,17 @@ public:
 
   __declspec(property(get = get_FusionLog))::StringW FusionLog;
 
-  constexpr ::StringW& __get__FileName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__FileName_k__BackingField();
 
-  constexpr ::StringW const& __get__FileName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__FileName_k__BackingField() const;
 
-  constexpr void __set__FileName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__FileName_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__FusionLog_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__FusionLog_k__BackingField();
 
-  constexpr ::StringW const& __get__FusionLog_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__FusionLog_k__BackingField() const;
 
-  constexpr void __set__FusionLog_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__FusionLog_k__BackingField(::StringW value);
 
   static inline ::System::IO::FileNotFoundException* New_ctor();
 

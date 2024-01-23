@@ -15,47 +15,47 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerAgreements);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4624))
 // CS Name: ::PlayerAgreements*
 class CORDL_TYPE PlayerAgreements : public ::System::Object {
 public:
   // Declarations
   /// @brief Field eulaVersion, offset 0x10, size 0x4
-  __declspec(property(get = __get_eulaVersion, put = __set_eulaVersion)) int32_t eulaVersion;
+  __declspec(property(get = __cordl_internal_get_eulaVersion, put = __cordl_internal_set_eulaVersion)) int32_t eulaVersion;
 
   /// @brief Field privacyPolicyVersion, offset 0x14, size 0x4
-  __declspec(property(get = __get_privacyPolicyVersion, put = __set_privacyPolicyVersion)) int32_t privacyPolicyVersion;
+  __declspec(property(get = __cordl_internal_get_privacyPolicyVersion, put = __cordl_internal_set_privacyPolicyVersion)) int32_t privacyPolicyVersion;
 
   /// @brief Field healthAndSafetyVersion, offset 0x18, size 0x4
-  __declspec(property(get = __get_healthAndSafetyVersion, put = __set_healthAndSafetyVersion)) int32_t healthAndSafetyVersion;
+  __declspec(property(get = __cordl_internal_get_healthAndSafetyVersion, put = __cordl_internal_set_healthAndSafetyVersion)) int32_t healthAndSafetyVersion;
 
   /// @brief Field playerSensitivityFlagVersion, offset 0x1c, size 0x4
-  __declspec(property(get = __get_playerSensitivityFlagVersion, put = __set_playerSensitivityFlagVersion)) int32_t playerSensitivityFlagVersion;
+  __declspec(property(get = __cordl_internal_get_playerSensitivityFlagVersion, put = __cordl_internal_set_playerSensitivityFlagVersion)) int32_t playerSensitivityFlagVersion;
 
-  constexpr int32_t& __get_eulaVersion();
+  constexpr int32_t& __cordl_internal_get_eulaVersion();
 
-  constexpr int32_t const& __get_eulaVersion() const;
+  constexpr int32_t const& __cordl_internal_get_eulaVersion() const;
 
-  constexpr void __set_eulaVersion(int32_t value);
+  constexpr void __cordl_internal_set_eulaVersion(int32_t value);
 
-  constexpr int32_t& __get_privacyPolicyVersion();
+  constexpr int32_t& __cordl_internal_get_privacyPolicyVersion();
 
-  constexpr int32_t const& __get_privacyPolicyVersion() const;
+  constexpr int32_t const& __cordl_internal_get_privacyPolicyVersion() const;
 
-  constexpr void __set_privacyPolicyVersion(int32_t value);
+  constexpr void __cordl_internal_set_privacyPolicyVersion(int32_t value);
 
-  constexpr int32_t& __get_healthAndSafetyVersion();
+  constexpr int32_t& __cordl_internal_get_healthAndSafetyVersion();
 
-  constexpr int32_t const& __get_healthAndSafetyVersion() const;
+  constexpr int32_t const& __cordl_internal_get_healthAndSafetyVersion() const;
 
-  constexpr void __set_healthAndSafetyVersion(int32_t value);
+  constexpr void __cordl_internal_set_healthAndSafetyVersion(int32_t value);
 
-  constexpr int32_t& __get_playerSensitivityFlagVersion();
+  constexpr int32_t& __cordl_internal_get_playerSensitivityFlagVersion();
 
-  constexpr int32_t const& __get_playerSensitivityFlagVersion() const;
+  constexpr int32_t const& __cordl_internal_get_playerSensitivityFlagVersion() const;
 
-  constexpr void __set_playerSensitivityFlagVersion(int32_t value);
+  constexpr void __cordl_internal_set_playerSensitivityFlagVersion(int32_t value);
 
   static inline ::GlobalNamespace::PlayerAgreements* New_ctor();
 

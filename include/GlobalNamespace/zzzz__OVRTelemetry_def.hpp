@@ -55,7 +55,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRTelemetry__MarkerPoint);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8007))
 // CS Name: ::OVRTelemetry::MarkerPoint
 struct CORDL_TYPE __OVRTelemetry__MarkerPoint {
@@ -103,7 +103,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRTelemetry__MarkerPoint, _NameHand
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8008))
 // CS Name: ::OVRTelemetry::TelemetryClient*
 class CORDL_TYPE __OVRTelemetry__TelemetryClient : public ::System::Object {
@@ -156,7 +156,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetry_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8008))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8008))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8009))
 // CS Name: ::OVRTelemetry::NullTelemetryClient*
 class CORDL_TYPE __OVRTelemetry__NullTelemetryClient : public ::GlobalNamespace::__OVRTelemetry__TelemetryClient {
@@ -209,7 +209,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetry_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8008))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8008))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8010))
 // CS Name: ::OVRTelemetry::QPLTelemetryClient*
 class CORDL_TYPE __OVRTelemetry__QPLTelemetryClient : public ::GlobalNamespace::__OVRTelemetry__TelemetryClient {
@@ -262,7 +262,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetry_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8011))
 // CS Name: ::OVRTelemetry*
 class CORDL_TYPE OVRTelemetry : public ::System::Object {

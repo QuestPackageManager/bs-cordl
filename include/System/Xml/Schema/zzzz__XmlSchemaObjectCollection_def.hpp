@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaObjectCollection);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3773))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3773))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11731))
 // CS Name: ::System.Xml.Schema::XmlSchemaObjectCollection*
 class CORDL_TYPE XmlSchemaObjectCollection : public ::System::Collections::CollectionBase {
 public:
   // Declarations
   /// @brief Field parent, offset 0x18, size 0x8
-  __declspec(property(get = __get_parent, put = __set_parent))::System::Xml::Schema::XmlSchemaObject* parent;
+  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent))::System::Xml::Schema::XmlSchemaObject* parent;
 
-  constexpr ::System::Xml::Schema::XmlSchemaObject*& __get_parent();
+  constexpr ::System::Xml::Schema::XmlSchemaObject*& __cordl_internal_get_parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObject*> const& __get_parent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObject*> const& __cordl_internal_get_parent() const;
 
-  constexpr void __set_parent(::System::Xml::Schema::XmlSchemaObject* value);
+  constexpr void __cordl_internal_set_parent(::System::Xml::Schema::XmlSchemaObject* value);
 
   static inline ::System::Xml::Schema::XmlSchemaObjectCollection* New_ctor();
 

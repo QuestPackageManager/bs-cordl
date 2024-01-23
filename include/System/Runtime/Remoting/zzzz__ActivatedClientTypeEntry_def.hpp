@@ -22,17 +22,17 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ActivatedClientTypeEntry);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3079))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3079))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3053))
 // CS Name: ::System.Runtime.Remoting::ActivatedClientTypeEntry*
 class CORDL_TYPE ActivatedClientTypeEntry : public ::System::Runtime::Remoting::TypeEntry {
 public:
   // Declarations
   /// @brief Field applicationUrl, offset 0x20, size 0x8
-  __declspec(property(get = __get_applicationUrl, put = __set_applicationUrl))::StringW applicationUrl;
+  __declspec(property(get = __cordl_internal_get_applicationUrl, put = __cordl_internal_set_applicationUrl))::StringW applicationUrl;
 
   /// @brief Field obj_type, offset 0x28, size 0x8
-  __declspec(property(get = __get_obj_type, put = __set_obj_type))::System::Type* obj_type;
+  __declspec(property(get = __cordl_internal_get_obj_type, put = __cordl_internal_set_obj_type))::System::Type* obj_type;
 
   __declspec(property(get = get_ApplicationUrl))::StringW ApplicationUrl;
 
@@ -41,17 +41,17 @@ public:
 
   __declspec(property(get = get_ObjectType))::System::Type* ObjectType;
 
-  constexpr ::StringW& __get_applicationUrl();
+  constexpr ::StringW& __cordl_internal_get_applicationUrl();
 
-  constexpr ::StringW const& __get_applicationUrl() const;
+  constexpr ::StringW const& __cordl_internal_get_applicationUrl() const;
 
-  constexpr void __set_applicationUrl(::StringW value);
+  constexpr void __cordl_internal_set_applicationUrl(::StringW value);
 
-  constexpr ::System::Type*& __get_obj_type();
+  constexpr ::System::Type*& __cordl_internal_get_obj_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_obj_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_obj_type() const;
 
-  constexpr void __set_obj_type(::System::Type* value);
+  constexpr void __cordl_internal_set_obj_type(::System::Type* value);
 
   static inline ::System::Runtime::Remoting::ActivatedClientTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW appUrl);
 

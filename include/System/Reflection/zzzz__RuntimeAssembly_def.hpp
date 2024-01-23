@@ -49,41 +49,41 @@ MARK_REF_PTR_T(::System::Reflection::RuntimeAssembly);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3511)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3511))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3517))
 // CS Name: ::System.Reflection::RuntimeAssembly*
 class CORDL_TYPE RuntimeAssembly : public ::System::Reflection::Assembly {
 public:
   // Declarations
   /// @brief Field _mono_assembly, offset 0x10, size 0x8
-  __declspec(property(get = __get__mono_assembly, put = __set__mono_assembly)) void* _mono_assembly;
+  __declspec(property(get = __cordl_internal_get__mono_assembly, put = __cordl_internal_set__mono_assembly)) void* _mono_assembly;
 
   /// @brief Field _evidence, offset 0x18, size 0x8
-  __declspec(property(get = __get__evidence, put = __set__evidence))::System::Object* _evidence;
+  __declspec(property(get = __cordl_internal_get__evidence, put = __cordl_internal_set__evidence))::System::Object* _evidence;
 
   /// @brief Field resolve_event_holder, offset 0x20, size 0x8
-  __declspec(property(get = __get_resolve_event_holder, put = __set_resolve_event_holder))::System::Reflection::__Assembly__ResolveEventHolder* resolve_event_holder;
+  __declspec(property(get = __cordl_internal_get_resolve_event_holder, put = __cordl_internal_set_resolve_event_holder))::System::Reflection::__Assembly__ResolveEventHolder* resolve_event_holder;
 
   /// @brief Field _minimum, offset 0x28, size 0x8
-  __declspec(property(get = __get__minimum, put = __set__minimum))::System::Object* _minimum;
+  __declspec(property(get = __cordl_internal_get__minimum, put = __cordl_internal_set__minimum))::System::Object* _minimum;
 
   /// @brief Field _optional, offset 0x30, size 0x8
-  __declspec(property(get = __get__optional, put = __set__optional))::System::Object* _optional;
+  __declspec(property(get = __cordl_internal_get__optional, put = __cordl_internal_set__optional))::System::Object* _optional;
 
   /// @brief Field _refuse, offset 0x38, size 0x8
-  __declspec(property(get = __get__refuse, put = __set__refuse))::System::Object* _refuse;
+  __declspec(property(get = __cordl_internal_get__refuse, put = __cordl_internal_set__refuse))::System::Object* _refuse;
 
   /// @brief Field _granted, offset 0x40, size 0x8
-  __declspec(property(get = __get__granted, put = __set__granted))::System::Object* _granted;
+  __declspec(property(get = __cordl_internal_get__granted, put = __cordl_internal_set__granted))::System::Object* _granted;
 
   /// @brief Field _denied, offset 0x48, size 0x8
-  __declspec(property(get = __get__denied, put = __set__denied))::System::Object* _denied;
+  __declspec(property(get = __cordl_internal_get__denied, put = __cordl_internal_set__denied))::System::Object* _denied;
 
   /// @brief Field fromByteArray, offset 0x50, size 0x1
-  __declspec(property(get = __get_fromByteArray, put = __set_fromByteArray)) bool fromByteArray;
+  __declspec(property(get = __cordl_internal_get_fromByteArray, put = __cordl_internal_set_fromByteArray)) bool fromByteArray;
 
   /// @brief Field assemblyName, offset 0x58, size 0x8
-  __declspec(property(get = __get_assemblyName, put = __set_assemblyName))::StringW assemblyName;
+  __declspec(property(get = __cordl_internal_get_assemblyName, put = __cordl_internal_set_assemblyName))::StringW assemblyName;
 
   __declspec(property(get = get_CodeBase))::StringW CodeBase;
 
@@ -91,65 +91,65 @@ public:
 
   __declspec(property(get = get_MonoAssembly)) void* MonoAssembly;
 
-  constexpr void*& __get__mono_assembly();
+  constexpr void*& __cordl_internal_get__mono_assembly();
 
-  constexpr void* const& __get__mono_assembly() const;
+  constexpr void* const& __cordl_internal_get__mono_assembly() const;
 
-  constexpr void __set__mono_assembly(void* value);
+  constexpr void __cordl_internal_set__mono_assembly(void* value);
 
-  constexpr ::System::Object*& __get__evidence();
+  constexpr ::System::Object*& __cordl_internal_get__evidence();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__evidence() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__evidence() const;
 
-  constexpr void __set__evidence(::System::Object* value);
+  constexpr void __cordl_internal_set__evidence(::System::Object* value);
 
-  constexpr ::System::Reflection::__Assembly__ResolveEventHolder*& __get_resolve_event_holder();
+  constexpr ::System::Reflection::__Assembly__ResolveEventHolder*& __cordl_internal_get_resolve_event_holder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::__Assembly__ResolveEventHolder*> const& __get_resolve_event_holder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::__Assembly__ResolveEventHolder*> const& __cordl_internal_get_resolve_event_holder() const;
 
-  constexpr void __set_resolve_event_holder(::System::Reflection::__Assembly__ResolveEventHolder* value);
+  constexpr void __cordl_internal_set_resolve_event_holder(::System::Reflection::__Assembly__ResolveEventHolder* value);
 
-  constexpr ::System::Object*& __get__minimum();
+  constexpr ::System::Object*& __cordl_internal_get__minimum();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__minimum() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__minimum() const;
 
-  constexpr void __set__minimum(::System::Object* value);
+  constexpr void __cordl_internal_set__minimum(::System::Object* value);
 
-  constexpr ::System::Object*& __get__optional();
+  constexpr ::System::Object*& __cordl_internal_get__optional();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__optional() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__optional() const;
 
-  constexpr void __set__optional(::System::Object* value);
+  constexpr void __cordl_internal_set__optional(::System::Object* value);
 
-  constexpr ::System::Object*& __get__refuse();
+  constexpr ::System::Object*& __cordl_internal_get__refuse();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__refuse() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__refuse() const;
 
-  constexpr void __set__refuse(::System::Object* value);
+  constexpr void __cordl_internal_set__refuse(::System::Object* value);
 
-  constexpr ::System::Object*& __get__granted();
+  constexpr ::System::Object*& __cordl_internal_get__granted();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__granted() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__granted() const;
 
-  constexpr void __set__granted(::System::Object* value);
+  constexpr void __cordl_internal_set__granted(::System::Object* value);
 
-  constexpr ::System::Object*& __get__denied();
+  constexpr ::System::Object*& __cordl_internal_get__denied();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__denied() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__denied() const;
 
-  constexpr void __set__denied(::System::Object* value);
+  constexpr void __cordl_internal_set__denied(::System::Object* value);
 
-  constexpr bool& __get_fromByteArray();
+  constexpr bool& __cordl_internal_get_fromByteArray();
 
-  constexpr bool const& __get_fromByteArray() const;
+  constexpr bool const& __cordl_internal_get_fromByteArray() const;
 
-  constexpr void __set_fromByteArray(bool value);
+  constexpr void __cordl_internal_set_fromByteArray(bool value);
 
-  constexpr ::StringW& __get_assemblyName();
+  constexpr ::StringW& __cordl_internal_get_assemblyName();
 
-  constexpr ::StringW const& __get_assemblyName() const;
+  constexpr ::StringW const& __cordl_internal_get_assemblyName() const;
 
-  constexpr void __set_assemblyName(::StringW value);
+  constexpr void __cordl_internal_set_assemblyName(::StringW value);
 
   static inline ::System::Reflection::RuntimeAssembly* New_ctor();
 

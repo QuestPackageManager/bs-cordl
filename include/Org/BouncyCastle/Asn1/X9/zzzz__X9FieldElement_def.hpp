@@ -27,22 +27,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::X9FieldElement);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(445))
 // CS Name: ::Org.BouncyCastle.Asn1.X9::X9FieldElement*
 class CORDL_TYPE X9FieldElement : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field f, offset 0x10, size 0x8
-  __declspec(property(get = __get_f, put = __set_f))::Org::BouncyCastle::Math::EC::ECFieldElement* f;
+  __declspec(property(get = __cordl_internal_get_f, put = __cordl_internal_set_f))::Org::BouncyCastle::Math::EC::ECFieldElement* f;
 
   __declspec(property(get = get_Value))::Org::BouncyCastle::Math::EC::ECFieldElement* Value;
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement*& __get_f();
+  constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement*& __cordl_internal_get_f();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECFieldElement*> const& __get_f() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECFieldElement*> const& __cordl_internal_get_f() const;
 
-  constexpr void __set_f(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
+  constexpr void __cordl_internal_set_f(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9FieldElement* New_ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* f);
 

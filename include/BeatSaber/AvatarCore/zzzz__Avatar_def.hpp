@@ -43,40 +43,40 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::Avatar);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15166))
 // CS Name: ::BeatSaber.AvatarCore::Avatar*
 class CORDL_TYPE Avatar : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field visualDataProvider, offset 0x18, size 0x8
-  __declspec(property(get = __get_visualDataProvider, put = __set_visualDataProvider))::BeatSaber::AvatarCore::IAvatarVisualDataProvider* visualDataProvider;
+  __declspec(property(get = __cordl_internal_get_visualDataProvider, put = __cordl_internal_set_visualDataProvider))::BeatSaber::AvatarCore::IAvatarVisualDataProvider* visualDataProvider;
 
   /// @brief Field poseDataProvider, offset 0x20, size 0x8
-  __declspec(property(get = __get_poseDataProvider, put = __set_poseDataProvider))::BeatSaber::AvatarCore::IAvatarPoseDataProvider* poseDataProvider;
+  __declspec(property(get = __cordl_internal_get_poseDataProvider, put = __cordl_internal_set_poseDataProvider))::BeatSaber::AvatarCore::IAvatarPoseDataProvider* poseDataProvider;
 
   /// @brief Field optionalDataProvider, offset 0x28, size 0x8
-  __declspec(property(get = __get_optionalDataProvider, put = __set_optionalDataProvider))::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* optionalDataProvider;
+  __declspec(property(get = __cordl_internal_get_optionalDataProvider, put = __cordl_internal_set_optionalDataProvider))::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* optionalDataProvider;
 
   __declspec(property(get = get_bodyCenterWorldPosition))::UnityEngine::Vector3 bodyCenterWorldPosition;
 
-  constexpr ::BeatSaber::AvatarCore::IAvatarVisualDataProvider*& __get_visualDataProvider();
+  constexpr ::BeatSaber::AvatarCore::IAvatarVisualDataProvider*& __cordl_internal_get_visualDataProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IAvatarVisualDataProvider*> const& __get_visualDataProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IAvatarVisualDataProvider*> const& __cordl_internal_get_visualDataProvider() const;
 
-  constexpr void __set_visualDataProvider(::BeatSaber::AvatarCore::IAvatarVisualDataProvider* value);
+  constexpr void __cordl_internal_set_visualDataProvider(::BeatSaber::AvatarCore::IAvatarVisualDataProvider* value);
 
-  constexpr ::BeatSaber::AvatarCore::IAvatarPoseDataProvider*& __get_poseDataProvider();
+  constexpr ::BeatSaber::AvatarCore::IAvatarPoseDataProvider*& __cordl_internal_get_poseDataProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IAvatarPoseDataProvider*> const& __get_poseDataProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IAvatarPoseDataProvider*> const& __cordl_internal_get_poseDataProvider() const;
 
-  constexpr void __set_poseDataProvider(::BeatSaber::AvatarCore::IAvatarPoseDataProvider* value);
+  constexpr void __cordl_internal_set_poseDataProvider(::BeatSaber::AvatarCore::IAvatarPoseDataProvider* value);
 
-  constexpr ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider*& __get_optionalDataProvider();
+  constexpr ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider*& __cordl_internal_get_optionalDataProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IOptionalAvatarDataProvider*> const& __get_optionalDataProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IOptionalAvatarDataProvider*> const& __cordl_internal_get_optionalDataProvider() const;
 
-  constexpr void __set_optionalDataProvider(::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* value);
+  constexpr void __cordl_internal_set_optionalDataProvider(::BeatSaber::AvatarCore::IOptionalAvatarDataProvider* value);
 
   /// @brief Method get_bodyCenterWorldPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::Vector3 get_bodyCenterWorldPosition();

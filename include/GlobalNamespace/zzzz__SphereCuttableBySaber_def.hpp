@@ -27,33 +27,33 @@ MARK_REF_PTR_T(::GlobalNamespace::SphereCuttableBySaber);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5286))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5286))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5310))
 // CS Name: ::SphereCuttableBySaber*
 class CORDL_TYPE SphereCuttableBySaber : public ::GlobalNamespace::CuttableBySaber {
 public:
   // Declarations
   /// @brief Field _collider, offset 0x20, size 0x8
-  __declspec(property(get = __get__collider, put = __set__collider))::UnityEngine::SphereCollider* _collider;
+  __declspec(property(get = __cordl_internal_get__collider, put = __cordl_internal_set__collider))::UnityW<::UnityEngine::SphereCollider> _collider;
 
   /// @brief Field _canBeCut, offset 0x28, size 0x1
-  __declspec(property(get = __get__canBeCut, put = __set__canBeCut)) bool _canBeCut;
+  __declspec(property(get = __cordl_internal_get__canBeCut, put = __cordl_internal_set__canBeCut)) bool _canBeCut;
 
   __declspec(property(get = get_radius)) float_t radius;
 
   __declspec(property(get = get_canBeCut, put = set_canBeCut)) bool canBeCut;
 
-  constexpr ::UnityEngine::SphereCollider*& __get__collider();
+  constexpr ::UnityW<::UnityEngine::SphereCollider>& __cordl_internal_get__collider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SphereCollider*> const& __get__collider() const;
+  constexpr ::UnityW<::UnityEngine::SphereCollider> const& __cordl_internal_get__collider() const;
 
-  constexpr void __set__collider(::UnityEngine::SphereCollider* value);
+  constexpr void __cordl_internal_set__collider(::UnityW<::UnityEngine::SphereCollider> value);
 
-  constexpr bool& __get__canBeCut();
+  constexpr bool& __cordl_internal_get__canBeCut();
 
-  constexpr bool const& __get__canBeCut() const;
+  constexpr bool const& __cordl_internal_get__canBeCut() const;
 
-  constexpr void __set__canBeCut(bool value);
+  constexpr void __cordl_internal_set__canBeCut(bool value);
 
   /// @brief Method get_radius, addr 0x2264c94, size 0x1c, virtual true, abstract: false, final false
   inline float_t get_radius();
@@ -90,7 +90,7 @@ protected:
 
 public:
   /// @brief Field _collider, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::SphereCollider* ____collider;
+  ::UnityW<::UnityEngine::SphereCollider> ____collider;
 
   /// @brief Field _canBeCut, offset: 0x28, size: 0x1, def value: None
   bool ____canBeCut;

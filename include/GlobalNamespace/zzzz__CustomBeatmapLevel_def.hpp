@@ -37,14 +37,14 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomBeatmapLevel);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4385))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4385))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4383))
 // CS Name: ::CustomBeatmapLevel*
 class CORDL_TYPE CustomBeatmapLevel : public ::GlobalNamespace::CustomPreviewBeatmapLevel {
 public:
   // Declarations
   /// @brief Field _beatmapLevelData, offset 0xb0, size 0x8
-  __declspec(property(get = __get__beatmapLevelData, put = __set__beatmapLevelData))::GlobalNamespace::BeatmapLevelData* _beatmapLevelData;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelData, put = __cordl_internal_set__beatmapLevelData))::GlobalNamespace::BeatmapLevelData* _beatmapLevelData;
 
   __declspec(property(get = get_beatmapLevelData))::GlobalNamespace::IBeatmapLevelData* beatmapLevelData;
 
@@ -68,11 +68,11 @@ public:
   /// @brief Convert to "::GlobalNamespace::IFilePathSongAudioClipProvider"
   constexpr ::GlobalNamespace::IFilePathSongAudioClipProvider* i___GlobalNamespace__IFilePathSongAudioClipProvider() noexcept;
 
-  constexpr ::GlobalNamespace::BeatmapLevelData*& __get__beatmapLevelData();
+  constexpr ::GlobalNamespace::BeatmapLevelData*& __cordl_internal_get__beatmapLevelData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelData*> const& __get__beatmapLevelData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelData*> const& __cordl_internal_get__beatmapLevelData() const;
 
-  constexpr void __set__beatmapLevelData(::GlobalNamespace::BeatmapLevelData* value);
+  constexpr void __cordl_internal_set__beatmapLevelData(::GlobalNamespace::BeatmapLevelData* value);
 
   /// @brief Method get_beatmapLevelData, addr 0x23473c4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();

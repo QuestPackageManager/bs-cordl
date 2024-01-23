@@ -37,17 +37,17 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::DynamicResourceLocator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14097))
 // CS Name: ::UnityEngine.AddressableAssets::DynamicResourceLocator*
 class CORDL_TYPE DynamicResourceLocator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Addressables, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Addressables, put = __set_m_Addressables))::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
+  __declspec(property(get = __cordl_internal_get_m_Addressables, put = __cordl_internal_set_m_Addressables))::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
 
   /// @brief Field m_AtlasSpriteProviderId, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_AtlasSpriteProviderId, put = __set_m_AtlasSpriteProviderId))::StringW m_AtlasSpriteProviderId;
+  __declspec(property(get = __cordl_internal_get_m_AtlasSpriteProviderId, put = __cordl_internal_set_m_AtlasSpriteProviderId))::StringW m_AtlasSpriteProviderId;
 
   __declspec(property(get = get_LocatorId))::StringW LocatorId;
 
@@ -61,17 +61,17 @@ public:
   /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i___UnityEngine__AddressableAssets__ResourceLocators__IResourceLocator() noexcept;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get_m_Addressables();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get_m_Addressables();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get_m_Addressables() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get_m_Addressables() const;
 
-  constexpr void __set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::StringW& __get_m_AtlasSpriteProviderId();
+  constexpr ::StringW& __cordl_internal_get_m_AtlasSpriteProviderId();
 
-  constexpr ::StringW const& __get_m_AtlasSpriteProviderId() const;
+  constexpr ::StringW const& __cordl_internal_get_m_AtlasSpriteProviderId() const;
 
-  constexpr void __set_m_AtlasSpriteProviderId(::StringW value);
+  constexpr void __cordl_internal_set_m_AtlasSpriteProviderId(::StringW value);
 
   /// @brief Method get_LocatorId, addr 0x2a2726c, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_LocatorId();

@@ -34,20 +34,20 @@ MARK_REF_PTR_T(::System::Xml::Linq::XName);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15451))
 // CS Name: ::System.Xml.Linq::XName*
 class CORDL_TYPE XName : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _ns, offset 0x10, size 0x8
-  __declspec(property(get = __get__ns, put = __set__ns))::System::Xml::Linq::XNamespace* _ns;
+  __declspec(property(get = __cordl_internal_get__ns, put = __cordl_internal_set__ns))::System::Xml::Linq::XNamespace* _ns;
 
   /// @brief Field _localName, offset 0x18, size 0x8
-  __declspec(property(get = __get__localName, put = __set__localName))::StringW _localName;
+  __declspec(property(get = __cordl_internal_get__localName, put = __cordl_internal_set__localName))::StringW _localName;
 
   /// @brief Field _hashCode, offset 0x20, size 0x4
-  __declspec(property(get = __get__hashCode, put = __set__hashCode)) int32_t _hashCode;
+  __declspec(property(get = __cordl_internal_get__hashCode, put = __cordl_internal_set__hashCode)) int32_t _hashCode;
 
   __declspec(property(get = get_LocalName))::StringW LocalName;
 
@@ -67,23 +67,23 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::System::Xml::Linq::XNamespace*& __get__ns();
+  constexpr ::System::Xml::Linq::XNamespace*& __cordl_internal_get__ns();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XNamespace*> const& __get__ns() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XNamespace*> const& __cordl_internal_get__ns() const;
 
-  constexpr void __set__ns(::System::Xml::Linq::XNamespace* value);
+  constexpr void __cordl_internal_set__ns(::System::Xml::Linq::XNamespace* value);
 
-  constexpr ::StringW& __get__localName();
+  constexpr ::StringW& __cordl_internal_get__localName();
 
-  constexpr ::StringW const& __get__localName() const;
+  constexpr ::StringW const& __cordl_internal_get__localName() const;
 
-  constexpr void __set__localName(::StringW value);
+  constexpr void __cordl_internal_set__localName(::StringW value);
 
-  constexpr int32_t& __get__hashCode();
+  constexpr int32_t& __cordl_internal_get__hashCode();
 
-  constexpr int32_t const& __get__hashCode() const;
+  constexpr int32_t const& __cordl_internal_get__hashCode() const;
 
-  constexpr void __set__hashCode(int32_t value);
+  constexpr void __cordl_internal_set__hashCode(int32_t value);
 
   static inline ::System::Xml::Linq::XName* New_ctor(::System::Xml::Linq::XNamespace* ns, ::StringW localName);
 

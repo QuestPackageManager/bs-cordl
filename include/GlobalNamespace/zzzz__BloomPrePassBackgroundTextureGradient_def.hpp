@@ -37,20 +37,20 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundTextureGradient);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14478))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14478))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14468))
 // CS Name: ::BloomPrePassBackgroundTextureGradient*
 class CORDL_TYPE BloomPrePassBackgroundTextureGradient : public ::GlobalNamespace::BloomPrePassNonLightPass {
 public:
   // Declarations
   /// @brief Field _tintColor, offset 0x20, size 0x10
-  __declspec(property(get = __get__tintColor, put = __set__tintColor))::UnityEngine::Color _tintColor;
+  __declspec(property(get = __cordl_internal_get__tintColor, put = __cordl_internal_set__tintColor))::UnityEngine::Color _tintColor;
 
   /// @brief Field _texture, offset 0x30, size 0x8
-  __declspec(property(get = __get__texture, put = __set__texture))::UnityEngine::Texture2D* _texture;
+  __declspec(property(get = __cordl_internal_get__texture, put = __cordl_internal_set__texture))::UnityW<::UnityEngine::Texture2D> _texture;
 
   /// @brief Field _material, offset 0x38, size 0x8
-  __declspec(property(get = __get__material, put = __set__material))::UnityEngine::Material* _material;
+  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material))::UnityW<::UnityEngine::Material> _material;
 
   /// @brief Field _gradientTexID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__gradientTexID, put = setStaticF__gradientTexID)) int32_t _gradientTexID;
@@ -66,23 +66,23 @@ public:
 
   __declspec(property(get = get_tintColor, put = set_tintColor))::UnityEngine::Color tintColor;
 
-  constexpr ::UnityEngine::Color& __get__tintColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__tintColor();
 
-  constexpr ::UnityEngine::Color const& __get__tintColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__tintColor() const;
 
-  constexpr void __set__tintColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__tintColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Texture2D*& __get__texture();
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__texture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& __get__texture() const;
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__texture() const;
 
-  constexpr void __set__texture(::UnityEngine::Texture2D* value);
+  constexpr void __cordl_internal_set__texture(::UnityW<::UnityEngine::Texture2D> value);
 
-  constexpr ::UnityEngine::Material*& __get__material();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__material() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
 
-  constexpr void __set__material(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
 
   static inline void setStaticF__gradientTexID(int32_t value);
 
@@ -150,10 +150,10 @@ public:
   ::UnityEngine::Color ____tintColor;
 
   /// @brief Field _texture, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Texture2D* ____texture;
+  ::UnityW<::UnityEngine::Texture2D> ____texture;
 
   /// @brief Field _material, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Material* ____material;
+  ::UnityW<::UnityEngine::Material> ____material;
 
   /// @brief Field kUseToneMappingKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString kUseToneMappingKeyword{ u"USE_TONE_MAPPING" };

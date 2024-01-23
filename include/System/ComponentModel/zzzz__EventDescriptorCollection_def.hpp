@@ -48,20 +48,20 @@ MARK_REF_PTR_T(::System::ComponentModel::__EventDescriptorCollection__ArraySubse
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9424))
 // CS Name: ::EventDescriptorCollection::ArraySubsetEnumerator*
 class CORDL_TYPE __EventDescriptorCollection__ArraySubsetEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _array, offset 0x10, size 0x8
-  __declspec(property(get = __get__array, put = __set__array))::System::Array* _array;
+  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::System::Array* _array;
 
   /// @brief Field _total, offset 0x18, size 0x4
-  __declspec(property(get = __get__total, put = __set__total)) int32_t _total;
+  __declspec(property(get = __cordl_internal_get__total, put = __cordl_internal_set__total)) int32_t _total;
 
   /// @brief Field _current, offset 0x1c, size 0x4
-  __declspec(property(get = __get__current, put = __set__current)) int32_t _current;
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current)) int32_t _current;
 
   __declspec(property(get = get_Current))::System::Object* Current;
 
@@ -71,23 +71,23 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::System::Array*& __get__array();
+  constexpr ::System::Array*& __cordl_internal_get__array();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Array*> const& __get__array() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Array*> const& __cordl_internal_get__array() const;
 
-  constexpr void __set__array(::System::Array* value);
+  constexpr void __cordl_internal_set__array(::System::Array* value);
 
-  constexpr int32_t& __get__total();
+  constexpr int32_t& __cordl_internal_get__total();
 
-  constexpr int32_t const& __get__total() const;
+  constexpr int32_t const& __cordl_internal_get__total() const;
 
-  constexpr void __set__total(int32_t value);
+  constexpr void __cordl_internal_set__total(int32_t value);
 
-  constexpr int32_t& __get__current();
+  constexpr int32_t& __cordl_internal_get__current();
 
-  constexpr int32_t const& __get__current() const;
+  constexpr int32_t const& __cordl_internal_get__current() const;
 
-  constexpr void __set__current(int32_t value);
+  constexpr void __cordl_internal_set__current(int32_t value);
 
   static inline ::System::ComponentModel::__EventDescriptorCollection__ArraySubsetEnumerator* New_ctor(::System::Array* array, int32_t count);
 
@@ -142,7 +142,7 @@ static_assert(offsetof(::System::ComponentModel::__EventDescriptorCollection__Ar
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9425))
 // CS Name: ::System.ComponentModel::EventDescriptorCollection*
 class CORDL_TYPE EventDescriptorCollection : public ::System::Object {
@@ -151,25 +151,26 @@ public:
   using ArraySubsetEnumerator = ::System::ComponentModel::__EventDescriptorCollection__ArraySubsetEnumerator;
 
   /// @brief Field _events, offset 0x10, size 0x8
-  __declspec(property(get = __get__events, put = __set__events))::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*> _events;
+  __declspec(property(get = __cordl_internal_get__events,
+                      put = __cordl_internal_set__events))::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*> _events;
 
   /// @brief Field _namedSort, offset 0x18, size 0x8
-  __declspec(property(get = __get__namedSort, put = __set__namedSort))::ArrayW<::StringW, ::Array<::StringW>*> _namedSort;
+  __declspec(property(get = __cordl_internal_get__namedSort, put = __cordl_internal_set__namedSort))::ArrayW<::StringW, ::Array<::StringW>*> _namedSort;
 
   /// @brief Field _comparer, offset 0x20, size 0x8
-  __declspec(property(get = __get__comparer, put = __set__comparer))::System::Collections::IComparer* _comparer;
+  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::System::Collections::IComparer* _comparer;
 
   /// @brief Field _eventsOwned, offset 0x28, size 0x1
-  __declspec(property(get = __get__eventsOwned, put = __set__eventsOwned)) bool _eventsOwned;
+  __declspec(property(get = __cordl_internal_get__eventsOwned, put = __cordl_internal_set__eventsOwned)) bool _eventsOwned;
 
   /// @brief Field _needSort, offset 0x29, size 0x1
-  __declspec(property(get = __get__needSort, put = __set__needSort)) bool _needSort;
+  __declspec(property(get = __cordl_internal_get__needSort, put = __cordl_internal_set__needSort)) bool _needSort;
 
   /// @brief Field _readOnly, offset 0x2a, size 0x1
-  __declspec(property(get = __get__readOnly, put = __set__readOnly)) bool _readOnly;
+  __declspec(property(get = __cordl_internal_get__readOnly, put = __cordl_internal_set__readOnly)) bool _readOnly;
 
   /// @brief Field <Count>k__BackingField, offset 0x2c, size 0x4
-  __declspec(property(get = __get__Count_k__BackingField, put = __set__Count_k__BackingField)) int32_t _Count_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Count_k__BackingField, put = __cordl_internal_set__Count_k__BackingField)) int32_t _Count_k__BackingField;
 
   /// @brief Field Empty, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty))::System::ComponentModel::EventDescriptorCollection* Empty;
@@ -210,47 +211,47 @@ public:
   /// @brief Convert to "::System::Collections::IList"
   constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
 
-  constexpr ::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*>& __get__events();
+  constexpr ::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*>& __cordl_internal_get__events();
 
-  constexpr ::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*> const& __get__events() const;
+  constexpr ::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*> const& __cordl_internal_get__events() const;
 
-  constexpr void __set__events(::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*> value);
+  constexpr void __cordl_internal_set__events(::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__namedSort();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__namedSort();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__namedSort() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__namedSort() const;
 
-  constexpr void __set__namedSort(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__namedSort(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::System::Collections::IComparer*& __get__comparer();
+  constexpr ::System::Collections::IComparer*& __cordl_internal_get__comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IComparer*> const& __get__comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IComparer*> const& __cordl_internal_get__comparer() const;
 
-  constexpr void __set__comparer(::System::Collections::IComparer* value);
+  constexpr void __cordl_internal_set__comparer(::System::Collections::IComparer* value);
 
-  constexpr bool& __get__eventsOwned();
+  constexpr bool& __cordl_internal_get__eventsOwned();
 
-  constexpr bool const& __get__eventsOwned() const;
+  constexpr bool const& __cordl_internal_get__eventsOwned() const;
 
-  constexpr void __set__eventsOwned(bool value);
+  constexpr void __cordl_internal_set__eventsOwned(bool value);
 
-  constexpr bool& __get__needSort();
+  constexpr bool& __cordl_internal_get__needSort();
 
-  constexpr bool const& __get__needSort() const;
+  constexpr bool const& __cordl_internal_get__needSort() const;
 
-  constexpr void __set__needSort(bool value);
+  constexpr void __cordl_internal_set__needSort(bool value);
 
-  constexpr bool& __get__readOnly();
+  constexpr bool& __cordl_internal_get__readOnly();
 
-  constexpr bool const& __get__readOnly() const;
+  constexpr bool const& __cordl_internal_get__readOnly() const;
 
-  constexpr void __set__readOnly(bool value);
+  constexpr void __cordl_internal_set__readOnly(bool value);
 
-  constexpr int32_t& __get__Count_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__Count_k__BackingField();
 
-  constexpr int32_t const& __get__Count_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__Count_k__BackingField() const;
 
-  constexpr void __set__Count_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__Count_k__BackingField(int32_t value);
 
   static inline void setStaticF_Empty(::System::ComponentModel::EventDescriptorCollection* value);
 

@@ -15,38 +15,38 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_VertexEntry);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9836))
 // CS Name: ::HoudiniEngineUnity::HEU_VertexEntry*
 class CORDL_TYPE HEU_VertexEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _meshKey, offset 0x10, size 0x4
-  __declspec(property(get = __get__meshKey, put = __set__meshKey)) int32_t _meshKey;
+  __declspec(property(get = __cordl_internal_get__meshKey, put = __cordl_internal_set__meshKey)) int32_t _meshKey;
 
   /// @brief Field _vertexIndex, offset 0x14, size 0x4
-  __declspec(property(get = __get__vertexIndex, put = __set__vertexIndex)) int32_t _vertexIndex;
+  __declspec(property(get = __cordl_internal_get__vertexIndex, put = __cordl_internal_set__vertexIndex)) int32_t _vertexIndex;
 
   /// @brief Field _normalIndex, offset 0x18, size 0x4
-  __declspec(property(get = __get__normalIndex, put = __set__normalIndex)) int32_t _normalIndex;
+  __declspec(property(get = __cordl_internal_get__normalIndex, put = __cordl_internal_set__normalIndex)) int32_t _normalIndex;
 
-  constexpr int32_t& __get__meshKey();
+  constexpr int32_t& __cordl_internal_get__meshKey();
 
-  constexpr int32_t const& __get__meshKey() const;
+  constexpr int32_t const& __cordl_internal_get__meshKey() const;
 
-  constexpr void __set__meshKey(int32_t value);
+  constexpr void __cordl_internal_set__meshKey(int32_t value);
 
-  constexpr int32_t& __get__vertexIndex();
+  constexpr int32_t& __cordl_internal_get__vertexIndex();
 
-  constexpr int32_t const& __get__vertexIndex() const;
+  constexpr int32_t const& __cordl_internal_get__vertexIndex() const;
 
-  constexpr void __set__vertexIndex(int32_t value);
+  constexpr void __cordl_internal_set__vertexIndex(int32_t value);
 
-  constexpr int32_t& __get__normalIndex();
+  constexpr int32_t& __cordl_internal_get__normalIndex();
 
-  constexpr int32_t const& __get__normalIndex() const;
+  constexpr int32_t const& __cordl_internal_get__normalIndex() const;
 
-  constexpr void __set__normalIndex(int32_t value);
+  constexpr void __cordl_internal_set__normalIndex(int32_t value);
 
   static inline ::HoudiniEngineUnity::HEU_VertexEntry* New_ctor(int32_t meshKey, int32_t vertexIndex, int32_t normalIndex);
 

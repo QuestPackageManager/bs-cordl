@@ -34,7 +34,7 @@ namespace Newtonsoft::Json::Converters {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11830))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11830))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12033))
 // CS Name: ::Newtonsoft.Json.Converters::EnumerableVectorConverter`1<T>*
 class CORDL_TYPE EnumerableVectorConverter_1 : public ::Newtonsoft::Json::JsonConverter {

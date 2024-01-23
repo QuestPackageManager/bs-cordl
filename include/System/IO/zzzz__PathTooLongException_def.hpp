@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::IO::PathTooLongException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3565))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3565))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3568))
 // CS Name: ::System.IO::PathTooLongException*
 class CORDL_TYPE PathTooLongException : public ::System::IO::IOException {

@@ -27,50 +27,52 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StartDragArgs);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6957))
 // CS Name: ::UnityEngine.UIElements::StartDragArgs*
 class CORDL_TYPE StartDragArgs : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <title>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__title_k__BackingField, put = __set__title_k__BackingField))::StringW _title_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__title_k__BackingField, put = __cordl_internal_set__title_k__BackingField))::StringW _title_k__BackingField;
 
   /// @brief Field <userData>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__userData_k__BackingField, put = __set__userData_k__BackingField))::System::Object* _userData_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__userData_k__BackingField, put = __cordl_internal_set__userData_k__BackingField))::System::Object* _userData_k__BackingField;
 
   /// @brief Field m_GenericData, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_GenericData, put = __set_m_GenericData))::System::Collections::Hashtable* m_GenericData;
+  __declspec(property(get = __cordl_internal_get_m_GenericData, put = __cordl_internal_set_m_GenericData))::System::Collections::Hashtable* m_GenericData;
 
   /// @brief Field <unityObjectReferences>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__unityObjectReferences_k__BackingField,
-                      put = __set__unityObjectReferences_k__BackingField))::System::Collections::Generic::IEnumerable_1<::UnityEngine::Object*>* _unityObjectReferences_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__unityObjectReferences_k__BackingField,
+      put = __cordl_internal_set__unityObjectReferences_k__BackingField))::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* _unityObjectReferences_k__BackingField;
 
   __declspec(property(get = get_userData))::System::Object* userData;
 
-  constexpr ::StringW& __get__title_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__title_k__BackingField();
 
-  constexpr ::StringW const& __get__title_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__title_k__BackingField() const;
 
-  constexpr void __set__title_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__title_k__BackingField(::StringW value);
 
-  constexpr ::System::Object*& __get__userData_k__BackingField();
+  constexpr ::System::Object*& __cordl_internal_get__userData_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__userData_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__userData_k__BackingField() const;
 
-  constexpr void __set__userData_k__BackingField(::System::Object* value);
+  constexpr void __cordl_internal_set__userData_k__BackingField(::System::Object* value);
 
-  constexpr ::System::Collections::Hashtable*& __get_m_GenericData();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_m_GenericData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_m_GenericData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_m_GenericData() const;
 
-  constexpr void __set_m_GenericData(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_m_GenericData(::System::Collections::Hashtable* value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Object*>*& __get__unityObjectReferences_k__BackingField();
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*& __cordl_internal_get__unityObjectReferences_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Object*>*> const& __get__unityObjectReferences_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*> const&
+  __cordl_internal_get__unityObjectReferences_k__BackingField() const;
 
-  constexpr void __set__unityObjectReferences_k__BackingField(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Object*>* value);
+  constexpr void __cordl_internal_set__unityObjectReferences_k__BackingField(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* value);
 
   /// @brief Method get_userData, addr 0x2e09984, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_userData();
@@ -104,7 +106,7 @@ public:
   ::System::Collections::Hashtable* ___m_GenericData;
 
   /// @brief Field <unityObjectReferences>k__BackingField, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Object*>* ____unityObjectReferences_k__BackingField;
+  ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* ____unityObjectReferences_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

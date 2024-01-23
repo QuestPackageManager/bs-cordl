@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__UxmlStringAttributeDescription____c)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6983))
 // CS Name: ::UxmlStringAttributeDescription::<>c*
 class CORDL_TYPE __UxmlStringAttributeDescription____c : public ::System::Object {
@@ -84,7 +84,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UxmlS
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 397 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 397 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6984))
 // CS Name: ::UnityEngine.UIElements::UxmlStringAttributeDescription*
 class CORDL_TYPE UxmlStringAttributeDescription : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<::StringW> {

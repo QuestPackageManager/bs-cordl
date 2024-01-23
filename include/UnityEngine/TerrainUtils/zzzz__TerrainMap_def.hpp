@@ -42,20 +42,20 @@ MARK_REF_PTR_T(::UnityEngine::TerrainUtils::__TerrainMap____c__DisplayClass3_0);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15478))
 // CS Name: ::TerrainMap::<>c__DisplayClass3_0*
 class CORDL_TYPE __TerrainMap____c__DisplayClass3_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field groupID, offset 0x10, size 0x4
-  __declspec(property(get = __get_groupID, put = __set_groupID)) int32_t groupID;
+  __declspec(property(get = __cordl_internal_get_groupID, put = __cordl_internal_set_groupID)) int32_t groupID;
 
-  constexpr int32_t& __get_groupID();
+  constexpr int32_t& __cordl_internal_get_groupID();
 
-  constexpr int32_t const& __get_groupID() const;
+  constexpr int32_t const& __cordl_internal_get_groupID() const;
 
-  constexpr void __set_groupID(int32_t value);
+  constexpr void __cordl_internal_set_groupID(int32_t value);
 
   static inline ::UnityEngine::TerrainUtils::__TerrainMap____c__DisplayClass3_0* New_ctor();
 
@@ -94,7 +94,7 @@ static_assert(offsetof(::UnityEngine::TerrainUtils::__TerrainMap____c__DisplayCl
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TerrainUtils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(15476)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(15476))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15479))
 // CS Name: ::UnityEngine.TerrainUtils::TerrainMap*
 class CORDL_TYPE TerrainMap : public ::System::Object {
@@ -103,48 +103,50 @@ public:
   using __c__DisplayClass3_0 = ::UnityEngine::TerrainUtils::__TerrainMap____c__DisplayClass3_0;
 
   /// @brief Field m_patchSize, offset 0x10, size 0xc
-  __declspec(property(get = __get_m_patchSize, put = __set_m_patchSize))::UnityEngine::Vector3 m_patchSize;
+  __declspec(property(get = __cordl_internal_get_m_patchSize, put = __cordl_internal_set_m_patchSize))::UnityEngine::Vector3 m_patchSize;
 
   /// @brief Field m_errorCode, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_errorCode, put = __set_m_errorCode))::UnityEngine::TerrainUtils::TerrainMapStatusCode m_errorCode;
+  __declspec(property(get = __cordl_internal_get_m_errorCode, put = __cordl_internal_set_m_errorCode))::UnityEngine::TerrainUtils::TerrainMapStatusCode m_errorCode;
 
   /// @brief Field m_terrainTiles, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_terrainTiles,
-                      put = __set_m_terrainTiles))::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityEngine::Terrain*>* m_terrainTiles;
+  __declspec(
+      property(get = __cordl_internal_get_m_terrainTiles,
+               put = __cordl_internal_set_m_terrainTiles))::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityW<::UnityEngine::Terrain>>* m_terrainTiles;
 
-  __declspec(property(get = get_terrainTiles))::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityEngine::Terrain*>* terrainTiles;
+  __declspec(property(get = get_terrainTiles))::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityW<::UnityEngine::Terrain>>* terrainTiles;
 
-  constexpr ::UnityEngine::Vector3& __get_m_patchSize();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_patchSize();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_patchSize() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_patchSize() const;
 
-  constexpr void __set_m_patchSize(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_patchSize(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::TerrainUtils::TerrainMapStatusCode& __get_m_errorCode();
+  constexpr ::UnityEngine::TerrainUtils::TerrainMapStatusCode& __cordl_internal_get_m_errorCode();
 
-  constexpr ::UnityEngine::TerrainUtils::TerrainMapStatusCode const& __get_m_errorCode() const;
+  constexpr ::UnityEngine::TerrainUtils::TerrainMapStatusCode const& __cordl_internal_get_m_errorCode() const;
 
-  constexpr void __set_m_errorCode(::UnityEngine::TerrainUtils::TerrainMapStatusCode value);
+  constexpr void __cordl_internal_set_m_errorCode(::UnityEngine::TerrainUtils::TerrainMapStatusCode value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityEngine::Terrain*>*& __get_m_terrainTiles();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityW<::UnityEngine::Terrain>>*& __cordl_internal_get_m_terrainTiles();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityEngine::Terrain*>*> const&
-  __get_m_terrainTiles() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityW<::UnityEngine::Terrain>>*> const&
+  __cordl_internal_get_m_terrainTiles() const;
 
-  constexpr void __set_m_terrainTiles(::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityEngine::Terrain*>* value);
+  constexpr void __cordl_internal_set_m_terrainTiles(::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityW<::UnityEngine::Terrain>>* value);
 
   /// @brief Method GetTerrain, addr 0x2d1e884, size 0x78, virtual false, abstract: false, final false
-  inline ::UnityEngine::Terrain* GetTerrain(int32_t tileX, int32_t tileZ);
+  inline ::UnityW<::UnityEngine::Terrain> GetTerrain(int32_t tileX, int32_t tileZ);
 
   /// @brief Method CreateFromPlacement, addr 0x2d1e8fc, size 0x2b0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Terrain* originTerrain, ::System::Predicate_1<::UnityEngine::Terrain*>* filter, bool fullValidation);
-
-  /// @brief Method CreateFromPlacement, addr 0x2d1ebb4, size 0x3e0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Vector2 gridOrigin, ::UnityEngine::Vector2 gridSize, ::System::Predicate_1<::UnityEngine::Terrain*>* filter,
+  static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Terrain* originTerrain, ::System::Predicate_1<::UnityW<::UnityEngine::Terrain>>* filter,
                                                                              bool fullValidation);
 
+  /// @brief Method CreateFromPlacement, addr 0x2d1ebb4, size 0x3e0, virtual false, abstract: false, final false
+  static inline ::UnityEngine::TerrainUtils::TerrainMap* CreateFromPlacement(::UnityEngine::Vector2 gridOrigin, ::UnityEngine::Vector2 gridSize,
+                                                                             ::System::Predicate_1<::UnityW<::UnityEngine::Terrain>>* filter, bool fullValidation);
+
   /// @brief Method get_terrainTiles, addr 0x2d1f290, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityEngine::Terrain*>* get_terrainTiles();
+  inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityW<::UnityEngine::Terrain>>* get_terrainTiles();
 
   static inline ::UnityEngine::TerrainUtils::TerrainMap* New_ctor();
 
@@ -184,7 +186,7 @@ public:
   ::UnityEngine::TerrainUtils::TerrainMapStatusCode ___m_errorCode;
 
   /// @brief Field m_terrainTiles, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityEngine::Terrain*>* ___m_terrainTiles;
+  ::System::Collections::Generic::Dictionary_2<::UnityEngine::TerrainUtils::TerrainTileCoord, ::UnityW<::UnityEngine::Terrain>>* ___m_terrainTiles;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,22 +21,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::CompressedDataPacket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(559)), TypeDefinitionIndex(TypeDefinitionIndex(557))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(557)), TypeDefinitionIndex(TypeDefinitionIndex(559))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(558))
 // CS Name: ::Org.BouncyCastle.Bcpg::CompressedDataPacket*
 class CORDL_TYPE CompressedDataPacket : public ::Org::BouncyCastle::Bcpg::InputStreamPacket {
 public:
   // Declarations
   /// @brief Field algorithm, offset 0x18, size 0x4
-  __declspec(property(get = __get_algorithm, put = __set_algorithm))::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm;
+  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm;
 
   __declspec(property(get = get_Algorithm))::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag Algorithm;
 
-  constexpr ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag& __get_algorithm();
+  constexpr ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag& __cordl_internal_get_algorithm();
 
-  constexpr ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag const& __get_algorithm() const;
+  constexpr ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag const& __cordl_internal_get_algorithm() const;
 
-  constexpr void __set_algorithm(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag value);
+  constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag value);
 
   static inline ::Org::BouncyCastle::Bcpg::CompressedDataPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 

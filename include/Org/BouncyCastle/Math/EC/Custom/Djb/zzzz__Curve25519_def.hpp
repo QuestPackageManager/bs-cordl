@@ -45,40 +45,40 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Custom::Djb::__Curve25519__Curve25
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Custom::Djb {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1363))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1363))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1365))
 // CS Name: ::Curve25519::Curve25519LookupTable*
 class CORDL_TYPE __Curve25519__Curve25519LookupTable : public ::Org::BouncyCastle::Math::EC::AbstractECLookupTable {
 public:
   // Declarations
   /// @brief Field m_outer, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_outer, put = __set_m_outer))::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519* m_outer;
+  __declspec(property(get = __cordl_internal_get_m_outer, put = __cordl_internal_set_m_outer))::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519* m_outer;
 
   /// @brief Field m_table, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_table, put = __set_m_table))::ArrayW<uint32_t, ::Array<uint32_t>*> m_table;
+  __declspec(property(get = __cordl_internal_get_m_table, put = __cordl_internal_set_m_table))::ArrayW<uint32_t, ::Array<uint32_t>*> m_table;
 
   /// @brief Field m_size, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_size, put = __set_m_size)) int32_t m_size;
+  __declspec(property(get = __cordl_internal_get_m_size, put = __cordl_internal_set_m_size)) int32_t m_size;
 
   __declspec(property(get = get_Size)) int32_t Size;
 
-  constexpr ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*& __get_m_outer();
+  constexpr ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*& __cordl_internal_get_m_outer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*> const& __get_m_outer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519*> const& __cordl_internal_get_m_outer() const;
 
-  constexpr void __set_m_outer(::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519* value);
+  constexpr void __cordl_internal_set_m_outer(::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519* value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_m_table();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_m_table();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_m_table() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_m_table() const;
 
-  constexpr void __set_m_table(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_m_table(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr int32_t& __get_m_size();
+  constexpr int32_t& __cordl_internal_get_m_size();
 
-  constexpr int32_t const& __get_m_size() const;
+  constexpr int32_t const& __cordl_internal_get_m_size() const;
 
-  constexpr void __set_m_size(int32_t value);
+  constexpr void __cordl_internal_set_m_size(int32_t value);
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Djb::__Curve25519__Curve25519LookupTable* New_ctor(::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519* outer,
                                                                                                           ::ArrayW<uint32_t, ::Array<uint32_t>*> table, int32_t size);
@@ -137,7 +137,7 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::Custom::Djb::__Curve25519_
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Custom::Djb {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1364))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1364))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1366))
 // CS Name: ::Org.BouncyCastle.Math.EC.Custom.Djb::Curve25519*
 class CORDL_TYPE Curve25519 : public ::Org::BouncyCastle::Math::EC::AbstractFpCurve {
@@ -146,7 +146,7 @@ public:
   using Curve25519LookupTable = ::Org::BouncyCastle::Math::EC::Custom::Djb::__Curve25519__Curve25519LookupTable;
 
   /// @brief Field m_infinity, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_infinity, put = __set_m_infinity))::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point* m_infinity;
+  __declspec(property(get = __cordl_internal_get_m_infinity, put = __cordl_internal_set_m_infinity))::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point* m_infinity;
 
   /// @brief Field q, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_q, put = setStaticF_q))::Org::BouncyCastle::Math::BigInteger* q;
@@ -168,11 +168,11 @@ public:
 
   __declspec(property(get = get_FieldSize)) int32_t FieldSize;
 
-  constexpr ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point*& __get_m_infinity();
+  constexpr ::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point*& __cordl_internal_get_m_infinity();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point*> const& __get_m_infinity() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point*> const& __cordl_internal_get_m_infinity() const;
 
-  constexpr void __set_m_infinity(::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point* value);
+  constexpr void __cordl_internal_set_m_infinity(::Org::BouncyCastle::Math::EC::Custom::Djb::Curve25519Point* value);
 
   static inline void setStaticF_q(::Org::BouncyCastle::Math::BigInteger* value);
 

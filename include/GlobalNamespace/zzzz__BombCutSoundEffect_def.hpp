@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BombCutSoundEffect__Pool);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4058))
 // CS Name: ::BombCutSoundEffect*
 class CORDL_TYPE BombCutSoundEffect : public ::UnityEngine::MonoBehaviour {
@@ -44,37 +44,37 @@ public:
   using Pool = ::GlobalNamespace::__BombCutSoundEffect__Pool;
 
   /// @brief Field _audioSource, offset 0x18, size 0x8
-  __declspec(property(get = __get__audioSource, put = __set__audioSource))::UnityEngine::AudioSource* _audioSource;
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
 
   /// @brief Field didFinishEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* didFinishEvent;
 
   /// @brief Field _saber, offset 0x28, size 0x8
-  __declspec(property(get = __get__saber, put = __set__saber))::GlobalNamespace::Saber* _saber;
+  __declspec(property(get = __cordl_internal_get__saber, put = __cordl_internal_set__saber))::UnityW<::GlobalNamespace::Saber> _saber;
 
-  constexpr ::UnityEngine::AudioSource*& __get__audioSource();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get__audioSource() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
 
-  constexpr void __set__audioSource(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>*& __get_didFinishEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>*> const& __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>*> const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* value);
 
-  constexpr ::GlobalNamespace::Saber*& __get__saber();
+  constexpr ::UnityW<::GlobalNamespace::Saber>& __cordl_internal_get__saber();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Saber*> const& __get__saber() const;
+  constexpr ::UnityW<::GlobalNamespace::Saber> const& __cordl_internal_get__saber() const;
 
-  constexpr void __set__saber(::GlobalNamespace::Saber* value);
+  constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::Saber> value);
 
   /// @brief Method add_didFinishEvent, addr 0x222c5d4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>* value);
+  inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x222c684, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>* value);
+  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* value);
 
   /// @brief Method Init, addr 0x222c734, size 0x74, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::AudioClip* audioClip, ::GlobalNamespace::Saber* saber, float_t volume);
@@ -105,13 +105,13 @@ protected:
 
 public:
   /// @brief Field _audioSource, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ____audioSource;
+  ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
   /// @brief Field didFinishEvent, offset: 0x20, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::BombCutSoundEffect*>* ___didFinishEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>>* ___didFinishEvent;
 
   /// @brief Field _saber, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::Saber* ____saber;
+  ::UnityW<::GlobalNamespace::Saber> ____saber;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -129,9 +129,9 @@ static_assert(offsetof(::GlobalNamespace::BombCutSoundEffect, ____saber) == 0x28
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4058)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 287 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4057)) CS Name: ::BombCutSoundEffect::Pool*
-class CORDL_TYPE __BombCutSoundEffect__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BombCutSoundEffect*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4058)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 287 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4057)) CS Name: ::BombCutSoundEffect::Pool*
+class CORDL_TYPE __BombCutSoundEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BombCutSoundEffect>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__BombCutSoundEffect__Pool* New_ctor();

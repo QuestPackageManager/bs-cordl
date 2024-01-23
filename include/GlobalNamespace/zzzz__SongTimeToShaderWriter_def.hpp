@@ -18,23 +18,23 @@ MARK_REF_PTR_T(::GlobalNamespace::SongTimeToShaderWriter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5977))
 // CS Name: ::SongTimeToShaderWriter*
 class CORDL_TYPE SongTimeToShaderWriter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _audioTimeSource, offset 0x18, size 0x8
-  __declspec(property(get = __get__audioTimeSource, put = __set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
   /// @brief Field _songTimePropertyId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__songTimePropertyId, put = setStaticF__songTimePropertyId)) int32_t _songTimePropertyId;
 
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __get__audioTimeSource();
+  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __get__audioTimeSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
   static inline void setStaticF__songTimePropertyId(int32_t value);
 

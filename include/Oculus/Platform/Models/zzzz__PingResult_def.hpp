@@ -19,16 +19,16 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::PingResult);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 407
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13471)) CS Name: ::Oculus.Platform.Models::PingResult*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 407
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13471)) CS Name: ::Oculus.Platform.Models::PingResult*
 class CORDL_TYPE PingResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <ID>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__ID_k__BackingField, put = __set__ID_k__BackingField)) uint64_t _ID_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ID_k__BackingField, put = __cordl_internal_set__ID_k__BackingField)) uint64_t _ID_k__BackingField;
 
   /// @brief Field pingTimeUsec, offset 0x18, size 0x10
-  __declspec(property(get = __get_pingTimeUsec, put = __set_pingTimeUsec))::System::Nullable_1<uint64_t> pingTimeUsec;
+  __declspec(property(get = __cordl_internal_get_pingTimeUsec, put = __cordl_internal_set_pingTimeUsec))::System::Nullable_1<uint64_t> pingTimeUsec;
 
   __declspec(property(get = get_ID, put = set_ID)) uint64_t _cordl_ID;
 
@@ -36,17 +36,17 @@ public:
 
   __declspec(property(get = get_IsTimeout)) bool IsTimeout;
 
-  constexpr uint64_t& __get__ID_k__BackingField();
+  constexpr uint64_t& __cordl_internal_get__ID_k__BackingField();
 
-  constexpr uint64_t const& __get__ID_k__BackingField() const;
+  constexpr uint64_t const& __cordl_internal_get__ID_k__BackingField() const;
 
-  constexpr void __set__ID_k__BackingField(uint64_t value);
+  constexpr void __cordl_internal_set__ID_k__BackingField(uint64_t value);
 
-  constexpr ::System::Nullable_1<uint64_t>& __get_pingTimeUsec();
+  constexpr ::System::Nullable_1<uint64_t>& __cordl_internal_get_pingTimeUsec();
 
-  constexpr ::System::Nullable_1<uint64_t> const& __get_pingTimeUsec() const;
+  constexpr ::System::Nullable_1<uint64_t> const& __cordl_internal_get_pingTimeUsec() const;
 
-  constexpr void __set_pingTimeUsec(::System::Nullable_1<uint64_t> value);
+  constexpr void __cordl_internal_set_pingTimeUsec(::System::Nullable_1<uint64_t> value);
 
   static inline ::Oculus::Platform::Models::PingResult* New_ctor(uint64_t id, ::System::Nullable_1<uint64_t> pingTimeUsec);
 

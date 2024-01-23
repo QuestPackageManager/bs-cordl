@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Facebook::SocialVR::ThirdParty::Newtonsoftjson::UnityEntitySeri
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Facebook::SocialVR::ThirdParty::Newtonsoftjson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11830))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11830))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6105))
 // CS Name: ::Facebook.SocialVR.ThirdParty.Newtonsoftjson::UnityEntitySerializer*
 class CORDL_TYPE UnityEntitySerializer : public ::Newtonsoft::Json::JsonConverter {

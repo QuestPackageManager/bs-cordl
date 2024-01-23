@@ -40,32 +40,32 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaType);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11714)), TypeDefinitionIndex(TypeDefinitionIndex(11722)), TypeDefinitionIndex(TypeDefinitionIndex(11724))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11714)), TypeDefinitionIndex(TypeDefinitionIndex(11722)), TypeDefinitionIndex(TypeDefinitionIndex(11724))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11742))
 // CS Name: ::System.Xml.Schema::XmlSchemaType*
 class CORDL_TYPE XmlSchemaType : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
   // Declarations
   /// @brief Field final, offset 0x10, size 0x4
-  __declspec(property(get = __get_final, put = __set_final))::System::Xml::Schema::XmlSchemaDerivationMethod final;
+  __declspec(property(get = __cordl_internal_get_final, put = __cordl_internal_set_final))::System::Xml::Schema::XmlSchemaDerivationMethod final;
 
   /// @brief Field derivedBy, offset 0x14, size 0x4
-  __declspec(property(get = __get_derivedBy, put = __set_derivedBy))::System::Xml::Schema::XmlSchemaDerivationMethod derivedBy;
+  __declspec(property(get = __cordl_internal_get_derivedBy, put = __cordl_internal_set_derivedBy))::System::Xml::Schema::XmlSchemaDerivationMethod derivedBy;
 
   /// @brief Field baseSchemaType, offset 0x18, size 0x8
-  __declspec(property(get = __get_baseSchemaType, put = __set_baseSchemaType))::System::Xml::Schema::XmlSchemaType* baseSchemaType;
+  __declspec(property(get = __cordl_internal_get_baseSchemaType, put = __cordl_internal_set_baseSchemaType))::System::Xml::Schema::XmlSchemaType* baseSchemaType;
 
   /// @brief Field datatype, offset 0x20, size 0x8
-  __declspec(property(get = __get_datatype, put = __set_datatype))::System::Xml::Schema::XmlSchemaDatatype* datatype;
+  __declspec(property(get = __cordl_internal_get_datatype, put = __cordl_internal_set_datatype))::System::Xml::Schema::XmlSchemaDatatype* datatype;
 
   /// @brief Field elementDecl, offset 0x28, size 0x8
-  __declspec(property(get = __get_elementDecl, put = __set_elementDecl))::System::Xml::Schema::SchemaElementDecl* elementDecl;
+  __declspec(property(get = __cordl_internal_get_elementDecl, put = __cordl_internal_set_elementDecl))::System::Xml::Schema::SchemaElementDecl* elementDecl;
 
   /// @brief Field qname, offset 0x30, size 0x8
-  __declspec(property(get = __get_qname, put = __set_qname))::System::Xml::XmlQualifiedName* qname;
+  __declspec(property(get = __cordl_internal_get_qname, put = __cordl_internal_set_qname))::System::Xml::XmlQualifiedName* qname;
 
   /// @brief Field contentType, offset 0x38, size 0x4
-  __declspec(property(get = __get_contentType, put = __set_contentType))::System::Xml::Schema::XmlSchemaContentType contentType;
+  __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType))::System::Xml::Schema::XmlSchemaContentType contentType;
 
   __declspec(property(get = get_QualifiedName))::System::Xml::XmlQualifiedName* QualifiedName;
 
@@ -81,47 +81,47 @@ public:
 
   __declspec(property(get = get_ElementDecl, put = set_ElementDecl))::System::Xml::Schema::SchemaElementDecl* ElementDecl;
 
-  constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod& __get_final();
+  constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod& __cordl_internal_get_final();
 
-  constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod const& __get_final() const;
+  constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod const& __cordl_internal_get_final() const;
 
-  constexpr void __set_final(::System::Xml::Schema::XmlSchemaDerivationMethod value);
+  constexpr void __cordl_internal_set_final(::System::Xml::Schema::XmlSchemaDerivationMethod value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod& __get_derivedBy();
+  constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod& __cordl_internal_get_derivedBy();
 
-  constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod const& __get_derivedBy() const;
+  constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod const& __cordl_internal_get_derivedBy() const;
 
-  constexpr void __set_derivedBy(::System::Xml::Schema::XmlSchemaDerivationMethod value);
+  constexpr void __cordl_internal_set_derivedBy(::System::Xml::Schema::XmlSchemaDerivationMethod value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaType*& __get_baseSchemaType();
+  constexpr ::System::Xml::Schema::XmlSchemaType*& __cordl_internal_get_baseSchemaType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __get_baseSchemaType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __cordl_internal_get_baseSchemaType() const;
 
-  constexpr void __set_baseSchemaType(::System::Xml::Schema::XmlSchemaType* value);
+  constexpr void __cordl_internal_set_baseSchemaType(::System::Xml::Schema::XmlSchemaType* value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaDatatype*& __get_datatype();
+  constexpr ::System::Xml::Schema::XmlSchemaDatatype*& __cordl_internal_get_datatype();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaDatatype*> const& __get_datatype() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaDatatype*> const& __cordl_internal_get_datatype() const;
 
-  constexpr void __set_datatype(::System::Xml::Schema::XmlSchemaDatatype* value);
+  constexpr void __cordl_internal_set_datatype(::System::Xml::Schema::XmlSchemaDatatype* value);
 
-  constexpr ::System::Xml::Schema::SchemaElementDecl*& __get_elementDecl();
+  constexpr ::System::Xml::Schema::SchemaElementDecl*& __cordl_internal_get_elementDecl();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaElementDecl*> const& __get_elementDecl() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaElementDecl*> const& __cordl_internal_get_elementDecl() const;
 
-  constexpr void __set_elementDecl(::System::Xml::Schema::SchemaElementDecl* value);
+  constexpr void __cordl_internal_set_elementDecl(::System::Xml::Schema::SchemaElementDecl* value);
 
-  constexpr ::System::Xml::XmlQualifiedName*& __get_qname();
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_qname();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __get_qname() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_qname() const;
 
-  constexpr void __set_qname(::System::Xml::XmlQualifiedName* value);
+  constexpr void __cordl_internal_set_qname(::System::Xml::XmlQualifiedName* value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaContentType& __get_contentType();
+  constexpr ::System::Xml::Schema::XmlSchemaContentType& __cordl_internal_get_contentType();
 
-  constexpr ::System::Xml::Schema::XmlSchemaContentType const& __get_contentType() const;
+  constexpr ::System::Xml::Schema::XmlSchemaContentType const& __cordl_internal_get_contentType() const;
 
-  constexpr void __set_contentType(::System::Xml::Schema::XmlSchemaContentType value);
+  constexpr void __cordl_internal_set_contentType(::System::Xml::Schema::XmlSchemaContentType value);
 
   /// @brief Method GetBuiltInSimpleType, addr 0x28c92b0, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* GetBuiltInSimpleType(::System::Xml::Schema::XmlTypeCode typeCode);

@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::AudioSource);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15595))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15595))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15597))
 // CS Name: ::UnityEngine::AudioSource*
 class CORDL_TYPE AudioSource : public ::UnityEngine::AudioBehaviour {
@@ -38,7 +38,7 @@ public:
 
   __declspec(property(get = get_timeSamples)) int32_t timeSamples;
 
-  __declspec(property(get = get_clip, put = set_clip))::UnityEngine::AudioClip* clip;
+  __declspec(property(get = get_clip, put = set_clip))::UnityW<::UnityEngine::AudioClip> clip;
 
   __declspec(property(get = get_isPlaying)) bool isPlaying;
 
@@ -109,7 +109,7 @@ public:
   inline int32_t get_timeSamples();
 
   /// @brief Method get_clip, addr 0x2c9b8dc, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::AudioClip* get_clip();
+  inline ::UnityW<::UnityEngine::AudioClip> get_clip();
 
   /// @brief Method set_clip, addr 0x2c9b918, size 0x44, virtual false, abstract: false, final false
   inline void set_clip(::UnityEngine::AudioClip* value);

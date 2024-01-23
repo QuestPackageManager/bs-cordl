@@ -43,29 +43,29 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__PenetrationAvoidance__Avoider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12661))
 // CS Name: ::PenetrationAvoidance::Avoider::EffectorLink*
 class CORDL_TYPE __PenetrationAvoidance__Avoider__EffectorLink : public ::System::Object {
 public:
   // Declarations
   /// @brief Field effector, offset 0x10, size 0x4
-  __declspec(property(get = __get_effector, put = __set_effector))::RootMotion::FinalIK::FullBodyBipedEffector effector;
+  __declspec(property(get = __cordl_internal_get_effector, put = __cordl_internal_set_effector))::RootMotion::FinalIK::FullBodyBipedEffector effector;
 
   /// @brief Field weight, offset 0x14, size 0x4
-  __declspec(property(get = __get_weight, put = __set_weight)) float_t weight;
+  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& __get_effector();
+  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& __cordl_internal_get_effector();
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& __get_effector() const;
+  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& __cordl_internal_get_effector() const;
 
-  constexpr void __set_effector(::RootMotion::FinalIK::FullBodyBipedEffector value);
+  constexpr void __cordl_internal_set_effector(::RootMotion::FinalIK::FullBodyBipedEffector value);
 
-  constexpr float_t& __get_weight();
+  constexpr float_t& __cordl_internal_get_weight();
 
-  constexpr float_t const& __get_weight() const;
+  constexpr float_t const& __cordl_internal_get_weight() const;
 
-  constexpr void __set_weight(float_t value);
+  constexpr void __cordl_internal_set_weight(float_t value);
 
   static inline ::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink* New_ctor();
 
@@ -106,7 +106,7 @@ static_assert(offsetof(::GlobalNamespace::__PenetrationAvoidance__Avoider__Effec
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10204))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12662))
 // CS Name: ::PenetrationAvoidance::Avoider*
 class CORDL_TYPE __PenetrationAvoidance__Avoider : public ::System::Object {
@@ -115,96 +115,98 @@ public:
   using EffectorLink = ::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink;
 
   /// @brief Field raycastFrom, offset 0x10, size 0x8
-  __declspec(property(get = __get_raycastFrom, put = __set_raycastFrom))::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> raycastFrom;
+  __declspec(property(get = __cordl_internal_get_raycastFrom,
+                      put = __cordl_internal_set_raycastFrom))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> raycastFrom;
 
   /// @brief Field raycastTo, offset 0x18, size 0x8
-  __declspec(property(get = __get_raycastTo, put = __set_raycastTo))::UnityEngine::Transform* raycastTo;
+  __declspec(property(get = __cordl_internal_get_raycastTo, put = __cordl_internal_set_raycastTo))::UnityW<::UnityEngine::Transform> raycastTo;
 
   /// @brief Field raycastRadius, offset 0x20, size 0x4
-  __declspec(property(get = __get_raycastRadius, put = __set_raycastRadius)) float_t raycastRadius;
+  __declspec(property(get = __cordl_internal_get_raycastRadius, put = __cordl_internal_set_raycastRadius)) float_t raycastRadius;
 
   /// @brief Field effectors, offset 0x28, size 0x8
-  __declspec(property(
-      get = __get_effectors,
-      put = __set_effectors))::ArrayW<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*, ::Array<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*>*> effectors;
+  __declspec(property(get = __cordl_internal_get_effectors, put = __cordl_internal_set_effectors))::ArrayW<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*,
+                                                                                                           ::Array<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*>*> effectors;
 
   /// @brief Field smoothTimeIn, offset 0x30, size 0x4
-  __declspec(property(get = __get_smoothTimeIn, put = __set_smoothTimeIn)) float_t smoothTimeIn;
+  __declspec(property(get = __cordl_internal_get_smoothTimeIn, put = __cordl_internal_set_smoothTimeIn)) float_t smoothTimeIn;
 
   /// @brief Field smoothTimeOut, offset 0x34, size 0x4
-  __declspec(property(get = __get_smoothTimeOut, put = __set_smoothTimeOut)) float_t smoothTimeOut;
+  __declspec(property(get = __cordl_internal_get_smoothTimeOut, put = __cordl_internal_set_smoothTimeOut)) float_t smoothTimeOut;
 
   /// @brief Field layers, offset 0x38, size 0x4
-  __declspec(property(get = __get_layers, put = __set_layers))::UnityEngine::LayerMask layers;
+  __declspec(property(get = __cordl_internal_get_layers, put = __cordl_internal_set_layers))::UnityEngine::LayerMask layers;
 
   /// @brief Field offset, offset 0x3c, size 0xc
-  __declspec(property(get = __get_offset, put = __set_offset))::UnityEngine::Vector3 offset;
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset))::UnityEngine::Vector3 offset;
 
   /// @brief Field offsetTarget, offset 0x48, size 0xc
-  __declspec(property(get = __get_offsetTarget, put = __set_offsetTarget))::UnityEngine::Vector3 offsetTarget;
+  __declspec(property(get = __cordl_internal_get_offsetTarget, put = __cordl_internal_set_offsetTarget))::UnityEngine::Vector3 offsetTarget;
 
   /// @brief Field offsetV, offset 0x54, size 0xc
-  __declspec(property(get = __get_offsetV, put = __set_offsetV))::UnityEngine::Vector3 offsetV;
+  __declspec(property(get = __cordl_internal_get_offsetV, put = __cordl_internal_set_offsetV))::UnityEngine::Vector3 offsetV;
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& __get_raycastFrom();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_raycastFrom();
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& __get_raycastFrom() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_raycastFrom() const;
 
-  constexpr void __set_raycastFrom(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
+  constexpr void __cordl_internal_set_raycastFrom(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  constexpr ::UnityEngine::Transform*& __get_raycastTo();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_raycastTo();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_raycastTo() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_raycastTo() const;
 
-  constexpr void __set_raycastTo(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_raycastTo(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get_raycastRadius();
+  constexpr float_t& __cordl_internal_get_raycastRadius();
 
-  constexpr float_t const& __get_raycastRadius() const;
+  constexpr float_t const& __cordl_internal_get_raycastRadius() const;
 
-  constexpr void __set_raycastRadius(float_t value);
+  constexpr void __cordl_internal_set_raycastRadius(float_t value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*, ::Array<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*>*>& __get_effectors();
+  constexpr ::ArrayW<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*, ::Array<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*>*>& __cordl_internal_get_effectors();
 
-  constexpr ::ArrayW<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*, ::Array<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*>*> const& __get_effectors() const;
+  constexpr ::ArrayW<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*, ::Array<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*>*> const&
+  __cordl_internal_get_effectors() const;
 
-  constexpr void __set_effectors(::ArrayW<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*, ::Array<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*>*> value);
+  constexpr void
+  __cordl_internal_set_effectors(::ArrayW<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*, ::Array<::GlobalNamespace::__PenetrationAvoidance__Avoider__EffectorLink*>*> value);
 
-  constexpr float_t& __get_smoothTimeIn();
+  constexpr float_t& __cordl_internal_get_smoothTimeIn();
 
-  constexpr float_t const& __get_smoothTimeIn() const;
+  constexpr float_t const& __cordl_internal_get_smoothTimeIn() const;
 
-  constexpr void __set_smoothTimeIn(float_t value);
+  constexpr void __cordl_internal_set_smoothTimeIn(float_t value);
 
-  constexpr float_t& __get_smoothTimeOut();
+  constexpr float_t& __cordl_internal_get_smoothTimeOut();
 
-  constexpr float_t const& __get_smoothTimeOut() const;
+  constexpr float_t const& __cordl_internal_get_smoothTimeOut() const;
 
-  constexpr void __set_smoothTimeOut(float_t value);
+  constexpr void __cordl_internal_set_smoothTimeOut(float_t value);
 
-  constexpr ::UnityEngine::LayerMask& __get_layers();
+  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_layers();
 
-  constexpr ::UnityEngine::LayerMask const& __get_layers() const;
+  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_layers() const;
 
-  constexpr void __set_layers(::UnityEngine::LayerMask value);
+  constexpr void __cordl_internal_set_layers(::UnityEngine::LayerMask value);
 
-  constexpr ::UnityEngine::Vector3& __get_offset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_offset();
 
-  constexpr ::UnityEngine::Vector3 const& __get_offset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_offset() const;
 
-  constexpr void __set_offset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_offset(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_offsetTarget();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_offsetTarget();
 
-  constexpr ::UnityEngine::Vector3 const& __get_offsetTarget() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_offsetTarget() const;
 
-  constexpr void __set_offsetTarget(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_offsetTarget(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_offsetV();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_offsetV();
 
-  constexpr ::UnityEngine::Vector3 const& __get_offsetV() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_offsetV() const;
 
-  constexpr void __set_offsetV(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_offsetV(::UnityEngine::Vector3 value);
 
   /// @brief Method Solve, addr 0x1298a44, size 0x190, virtual false, abstract: false, final false
   inline void Solve(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t weight);
@@ -235,10 +237,10 @@ protected:
 
 public:
   /// @brief Field raycastFrom, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> ___raycastFrom;
+  ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ___raycastFrom;
 
   /// @brief Field raycastTo, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___raycastTo;
+  ::UnityW<::UnityEngine::Transform> ___raycastTo;
 
   /// @brief Field raycastRadius, offset: 0x20, size: 0x4, def value: None
   float_t ___raycastRadius;
@@ -294,7 +296,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__PenetrationAvoidance__Avoider, _
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12656))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12656))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12663))
 // CS Name: ::RootMotion.FinalIK::PenetrationAvoidance*
 class CORDL_TYPE PenetrationAvoidance : public ::RootMotion::FinalIK::OffsetModifier {
@@ -303,14 +305,15 @@ public:
   using Avoider = ::RootMotion::FinalIK::__PenetrationAvoidance__Avoider;
 
   /// @brief Field avoiders, offset 0x30, size 0x8
-  __declspec(property(get = __get_avoiders,
-                      put = __set_avoiders))::ArrayW<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*, ::Array<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*>*> avoiders;
+  __declspec(
+      property(get = __cordl_internal_get_avoiders,
+               put = __cordl_internal_set_avoiders))::ArrayW<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*, ::Array<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*>*> avoiders;
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*, ::Array<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*>*>& __get_avoiders();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*, ::Array<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*>*>& __cordl_internal_get_avoiders();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*, ::Array<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*>*> const& __get_avoiders() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*, ::Array<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*>*> const& __cordl_internal_get_avoiders() const;
 
-  constexpr void __set_avoiders(::ArrayW<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*, ::Array<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*>*> value);
+  constexpr void __cordl_internal_set_avoiders(::ArrayW<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*, ::Array<::RootMotion::FinalIK::__PenetrationAvoidance__Avoider*>*> value);
 
   /// @brief Method OnModifyOffset, addr 0x12989d4, size 0x70, virtual true, abstract: false, final false
   inline void OnModifyOffset();

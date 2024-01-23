@@ -21,24 +21,24 @@ MARK_REF_PTR_T(::System::Xml::XmlUnspecifiedAttribute);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11497))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11497))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11528))
 // CS Name: ::System.Xml::XmlUnspecifiedAttribute*
 class CORDL_TYPE XmlUnspecifiedAttribute : public ::System::Xml::XmlAttribute {
 public:
   // Declarations
   /// @brief Field fSpecified, offset 0x28, size 0x1
-  __declspec(property(get = __get_fSpecified, put = __set_fSpecified)) bool fSpecified;
+  __declspec(property(get = __cordl_internal_get_fSpecified, put = __cordl_internal_set_fSpecified)) bool fSpecified;
 
   __declspec(property(get = get_Specified)) bool Specified;
 
   __declspec(property(put = set_InnerText))::StringW InnerText;
 
-  constexpr bool& __get_fSpecified();
+  constexpr bool& __cordl_internal_get_fSpecified();
 
-  constexpr bool const& __get_fSpecified() const;
+  constexpr bool const& __cordl_internal_get_fSpecified() const;
 
-  constexpr void __set_fSpecified(bool value);
+  constexpr void __cordl_internal_set_fSpecified(bool value);
 
   static inline ::System::Xml::XmlUnspecifiedAttribute* New_ctor(::StringW prefix, ::StringW localName, ::StringW namespaceURI, ::System::Xml::XmlDocument* doc);
 

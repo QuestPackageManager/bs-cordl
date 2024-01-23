@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::__CmsTypedStream__FullReaderStream);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(452))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(452))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(662))
 // CS Name: ::CmsTypedStream::FullReaderStream*
 class CORDL_TYPE __CmsTypedStream__FullReaderStream : public ::Org::BouncyCastle::Utilities::IO::FilterStream {
@@ -66,7 +66,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::__CmsTyp
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(663))
 // CS Name: ::Org.BouncyCastle.Cms::CmsTypedStream*
 class CORDL_TYPE CmsTypedStream : public ::System::Object {
@@ -75,26 +75,26 @@ public:
   using FullReaderStream = ::Org::BouncyCastle::Cms::__CmsTypedStream__FullReaderStream;
 
   /// @brief Field _oid, offset 0x10, size 0x8
-  __declspec(property(get = __get__oid, put = __set__oid))::StringW _oid;
+  __declspec(property(get = __cordl_internal_get__oid, put = __cordl_internal_set__oid))::StringW _oid;
 
   /// @brief Field _in, offset 0x18, size 0x8
-  __declspec(property(get = __get__in, put = __set__in))::System::IO::Stream* _in;
+  __declspec(property(get = __cordl_internal_get__in, put = __cordl_internal_set__in))::System::IO::Stream* _in;
 
   __declspec(property(get = get_ContentType))::StringW ContentType;
 
   __declspec(property(get = get_ContentStream))::System::IO::Stream* ContentStream;
 
-  constexpr ::StringW& __get__oid();
+  constexpr ::StringW& __cordl_internal_get__oid();
 
-  constexpr ::StringW const& __get__oid() const;
+  constexpr ::StringW const& __cordl_internal_get__oid() const;
 
-  constexpr void __set__oid(::StringW value);
+  constexpr void __cordl_internal_set__oid(::StringW value);
 
-  constexpr ::System::IO::Stream*& __get__in();
+  constexpr ::System::IO::Stream*& __cordl_internal_get__in();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get__in() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__in() const;
 
-  constexpr void __set__in(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set__in(::System::IO::Stream* value);
 
   static inline ::Org::BouncyCastle::Cms::CmsTypedStream* New_ctor(::System::IO::Stream* inStream);
 

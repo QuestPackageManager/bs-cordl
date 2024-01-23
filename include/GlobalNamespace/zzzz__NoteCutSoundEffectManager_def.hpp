@@ -65,29 +65,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__NoteCutSoundEffectManager__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4071))
 // CS Name: ::NoteCutSoundEffectManager::InitData*
 class CORDL_TYPE __NoteCutSoundEffectManager__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field useTestAudioClips, offset 0x10, size 0x1
-  __declspec(property(get = __get_useTestAudioClips, put = __set_useTestAudioClips)) bool useTestAudioClips;
+  __declspec(property(get = __cordl_internal_get_useTestAudioClips, put = __cordl_internal_set_useTestAudioClips)) bool useTestAudioClips;
 
   /// @brief Field ignoreBadCuts, offset 0x11, size 0x1
-  __declspec(property(get = __get_ignoreBadCuts, put = __set_ignoreBadCuts)) bool ignoreBadCuts;
+  __declspec(property(get = __cordl_internal_get_ignoreBadCuts, put = __cordl_internal_set_ignoreBadCuts)) bool ignoreBadCuts;
 
-  constexpr bool& __get_useTestAudioClips();
+  constexpr bool& __cordl_internal_get_useTestAudioClips();
 
-  constexpr bool const& __get_useTestAudioClips() const;
+  constexpr bool const& __cordl_internal_get_useTestAudioClips() const;
 
-  constexpr void __set_useTestAudioClips(bool value);
+  constexpr void __cordl_internal_set_useTestAudioClips(bool value);
 
-  constexpr bool& __get_ignoreBadCuts();
+  constexpr bool& __cordl_internal_get_ignoreBadCuts();
 
-  constexpr bool const& __get_ignoreBadCuts() const;
+  constexpr bool const& __cordl_internal_get_ignoreBadCuts() const;
 
-  constexpr void __set_ignoreBadCuts(bool value);
+  constexpr void __cordl_internal_set_ignoreBadCuts(bool value);
 
   static inline ::GlobalNamespace::__NoteCutSoundEffectManager__InitData* New_ctor(bool useTestAudioClips, bool ignoreBadCuts);
 
@@ -128,7 +128,7 @@ static_assert(offsetof(::GlobalNamespace::__NoteCutSoundEffectManager__InitData,
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4072))
 // CS Name: ::NoteCutSoundEffectManager*
 class CORDL_TYPE NoteCutSoundEffectManager : public ::UnityEngine::MonoBehaviour {
@@ -137,66 +137,72 @@ public:
   using InitData = ::GlobalNamespace::__NoteCutSoundEffectManager__InitData;
 
   /// @brief Field _audioManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__audioManager, put = __set__audioManager))::GlobalNamespace::AudioManagerSO* _audioManager;
+  __declspec(property(get = __cordl_internal_get__audioManager, put = __cordl_internal_set__audioManager))::UnityW<::GlobalNamespace::AudioManagerSO> _audioManager;
 
   /// @brief Field _audioSamplesBeatAlignOffset, offset 0x20, size 0x4
-  __declspec(property(get = __get__audioSamplesBeatAlignOffset, put = __set__audioSamplesBeatAlignOffset)) float_t _audioSamplesBeatAlignOffset;
+  __declspec(property(get = __cordl_internal_get__audioSamplesBeatAlignOffset, put = __cordl_internal_set__audioSamplesBeatAlignOffset)) float_t _audioSamplesBeatAlignOffset;
 
   /// @brief Field _longCutEffectsAudioClips, offset 0x28, size 0x8
-  __declspec(property(get = __get__longCutEffectsAudioClips, put = __set__longCutEffectsAudioClips))::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> _longCutEffectsAudioClips;
+  __declspec(property(get = __cordl_internal_get__longCutEffectsAudioClips,
+                      put = __cordl_internal_set__longCutEffectsAudioClips))::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> _longCutEffectsAudioClips;
 
   /// @brief Field _shortCutEffectsAudioClips, offset 0x30, size 0x8
-  __declspec(property(get = __get__shortCutEffectsAudioClips,
-                      put = __set__shortCutEffectsAudioClips))::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> _shortCutEffectsAudioClips;
+  __declspec(property(get = __cordl_internal_get__shortCutEffectsAudioClips,
+                      put = __cordl_internal_set__shortCutEffectsAudioClips))::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> _shortCutEffectsAudioClips;
 
   /// @brief Field _testAudioClip, offset 0x38, size 0x8
-  __declspec(property(get = __get__testAudioClip, put = __set__testAudioClip))::UnityEngine::AudioClip* _testAudioClip;
+  __declspec(property(get = __cordl_internal_get__testAudioClip, put = __cordl_internal_set__testAudioClip))::UnityW<::UnityEngine::AudioClip> _testAudioClip;
 
   /// @brief Field _initData, offset 0x40, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__NoteCutSoundEffectManager__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__NoteCutSoundEffectManager__InitData* _initData;
 
   /// @brief Field _beatmapObjectManager, offset 0x48, size 0x8
-  __declspec(property(get = __get__beatmapObjectManager, put = __set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
   /// @brief Field _saberManager, offset 0x50, size 0x8
-  __declspec(property(get = __get__saberManager, put = __set__saberManager))::GlobalNamespace::SaberManager* _saberManager;
+  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager))::UnityW<::GlobalNamespace::SaberManager> _saberManager;
 
   /// @brief Field _noteCutSoundEffectPool, offset 0x58, size 0x8
-  __declspec(property(get = __get__noteCutSoundEffectPool, put = __set__noteCutSoundEffectPool))::GlobalNamespace::__NoteCutSoundEffect__Pool* _noteCutSoundEffectPool;
+  __declspec(property(get = __cordl_internal_get__noteCutSoundEffectPool, put = __cordl_internal_set__noteCutSoundEffectPool))::GlobalNamespace::__NoteCutSoundEffect__Pool* _noteCutSoundEffectPool;
 
   /// @brief Field _audioTimeSyncController, offset 0x60, size 0x8
-  __declspec(property(get = __get__audioTimeSyncController, put = __set__audioTimeSyncController))::GlobalNamespace::AudioTimeSyncController* _audioTimeSyncController;
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
+                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
   /// @brief Field <handleWrongSaberTypeAsGood>k__BackingField, offset 0x68, size 0x1
-  __declspec(property(get = __get__handleWrongSaberTypeAsGood_k__BackingField, put = __set__handleWrongSaberTypeAsGood_k__BackingField)) bool _handleWrongSaberTypeAsGood_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__handleWrongSaberTypeAsGood_k__BackingField,
+                      put = __cordl_internal_set__handleWrongSaberTypeAsGood_k__BackingField)) bool _handleWrongSaberTypeAsGood_k__BackingField;
 
   /// @brief Field _randomLongCutSoundPicker, offset 0x70, size 0x8
-  __declspec(property(get = __get__randomLongCutSoundPicker, put = __set__randomLongCutSoundPicker))::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>* _randomLongCutSoundPicker;
+  __declspec(property(get = __cordl_internal_get__randomLongCutSoundPicker,
+                      put = __cordl_internal_set__randomLongCutSoundPicker))::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* _randomLongCutSoundPicker;
 
   /// @brief Field _randomShortCutSoundPicker, offset 0x78, size 0x8
-  __declspec(property(get = __get__randomShortCutSoundPicker, put = __set__randomShortCutSoundPicker))::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>* _randomShortCutSoundPicker;
+  __declspec(property(get = __cordl_internal_get__randomShortCutSoundPicker,
+                      put = __cordl_internal_set__randomShortCutSoundPicker))::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* _randomShortCutSoundPicker;
 
   /// @brief Field _prevNoteATime, offset 0x80, size 0x4
-  __declspec(property(get = __get__prevNoteATime, put = __set__prevNoteATime)) float_t _prevNoteATime;
+  __declspec(property(get = __cordl_internal_get__prevNoteATime, put = __cordl_internal_set__prevNoteATime)) float_t _prevNoteATime;
 
   /// @brief Field _prevNoteBTime, offset 0x84, size 0x4
-  __declspec(property(get = __get__prevNoteBTime, put = __set__prevNoteBTime)) float_t _prevNoteBTime;
+  __declspec(property(get = __cordl_internal_get__prevNoteBTime, put = __cordl_internal_set__prevNoteBTime)) float_t _prevNoteBTime;
 
   /// @brief Field _prevNoteASoundEffect, offset 0x88, size 0x8
-  __declspec(property(get = __get__prevNoteASoundEffect, put = __set__prevNoteASoundEffect))::GlobalNamespace::NoteCutSoundEffect* _prevNoteASoundEffect;
+  __declspec(property(get = __cordl_internal_get__prevNoteASoundEffect, put = __cordl_internal_set__prevNoteASoundEffect))::UnityW<::GlobalNamespace::NoteCutSoundEffect> _prevNoteASoundEffect;
 
   /// @brief Field _prevNoteBSoundEffect, offset 0x90, size 0x8
-  __declspec(property(get = __get__prevNoteBSoundEffect, put = __set__prevNoteBSoundEffect))::GlobalNamespace::NoteCutSoundEffect* _prevNoteBSoundEffect;
+  __declspec(property(get = __cordl_internal_get__prevNoteBSoundEffect, put = __cordl_internal_set__prevNoteBSoundEffect))::UnityW<::GlobalNamespace::NoteCutSoundEffect> _prevNoteBSoundEffect;
 
   /// @brief Field _beatAlignOffset, offset 0x98, size 0x4
-  __declspec(property(get = __get__beatAlignOffset, put = __set__beatAlignOffset)) float_t _beatAlignOffset;
+  __declspec(property(get = __cordl_internal_get__beatAlignOffset, put = __cordl_internal_set__beatAlignOffset)) float_t _beatAlignOffset;
 
   /// @brief Field _useTestAudioClips, offset 0x9c, size 0x1
-  __declspec(property(get = __get__useTestAudioClips, put = __set__useTestAudioClips)) bool _useTestAudioClips;
+  __declspec(property(get = __cordl_internal_get__useTestAudioClips, put = __cordl_internal_set__useTestAudioClips)) bool _useTestAudioClips;
 
   /// @brief Field _noteCutSoundEffectPoolContainer, offset 0xa0, size 0x8
-  __declspec(property(get = __get__noteCutSoundEffectPoolContainer,
-                      put = __set__noteCutSoundEffectPoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::NoteCutSoundEffect*>* _noteCutSoundEffectPoolContainer;
+  __declspec(
+      property(get = __cordl_internal_get__noteCutSoundEffectPoolContainer,
+               put = __cordl_internal_set__noteCutSoundEffectPoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::NoteCutSoundEffect>>* _noteCutSoundEffectPoolContainer;
 
   __declspec(property(get = get_handleWrongSaberTypeAsGood, put = set_handleWrongSaberTypeAsGood)) bool handleWrongSaberTypeAsGood;
 
@@ -206,125 +212,126 @@ public:
   /// @brief Convert to "::GlobalNamespace::INoteCutSoundEffectDidFinishEvent"
   constexpr ::GlobalNamespace::INoteCutSoundEffectDidFinishEvent* i___GlobalNamespace__INoteCutSoundEffectDidFinishEvent() noexcept;
 
-  constexpr ::GlobalNamespace::AudioManagerSO*& __get__audioManager();
+  constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& __cordl_internal_get__audioManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioManagerSO*> const& __get__audioManager() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& __cordl_internal_get__audioManager() const;
 
-  constexpr void __set__audioManager(::GlobalNamespace::AudioManagerSO* value);
+  constexpr void __cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value);
 
-  constexpr float_t& __get__audioSamplesBeatAlignOffset();
+  constexpr float_t& __cordl_internal_get__audioSamplesBeatAlignOffset();
 
-  constexpr float_t const& __get__audioSamplesBeatAlignOffset() const;
+  constexpr float_t const& __cordl_internal_get__audioSamplesBeatAlignOffset() const;
 
-  constexpr void __set__audioSamplesBeatAlignOffset(float_t value);
+  constexpr void __cordl_internal_set__audioSamplesBeatAlignOffset(float_t value);
 
-  constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*>& __get__longCutEffectsAudioClips();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*>& __cordl_internal_get__longCutEffectsAudioClips();
 
-  constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> const& __get__longCutEffectsAudioClips() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__longCutEffectsAudioClips() const;
 
-  constexpr void __set__longCutEffectsAudioClips(::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> value);
+  constexpr void __cordl_internal_set__longCutEffectsAudioClips(::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*>& __get__shortCutEffectsAudioClips();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*>& __cordl_internal_get__shortCutEffectsAudioClips();
 
-  constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> const& __get__shortCutEffectsAudioClips() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__shortCutEffectsAudioClips() const;
 
-  constexpr void __set__shortCutEffectsAudioClips(::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> value);
+  constexpr void __cordl_internal_set__shortCutEffectsAudioClips(::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> value);
 
-  constexpr ::UnityEngine::AudioClip*& __get__testAudioClip();
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__testAudioClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& __get__testAudioClip() const;
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__testAudioClip() const;
 
-  constexpr void __set__testAudioClip(::UnityEngine::AudioClip* value);
+  constexpr void __cordl_internal_set__testAudioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  constexpr ::GlobalNamespace::__NoteCutSoundEffectManager__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__NoteCutSoundEffectManager__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__NoteCutSoundEffectManager__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__NoteCutSoundEffectManager__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__NoteCutSoundEffectManager__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__NoteCutSoundEffectManager__InitData* value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __get__beatmapObjectManager();
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __get__beatmapObjectManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  constexpr ::GlobalNamespace::SaberManager*& __get__saberManager();
+  constexpr ::UnityW<::GlobalNamespace::SaberManager>& __cordl_internal_get__saberManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberManager*> const& __get__saberManager() const;
+  constexpr ::UnityW<::GlobalNamespace::SaberManager> const& __cordl_internal_get__saberManager() const;
 
-  constexpr void __set__saberManager(::GlobalNamespace::SaberManager* value);
+  constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
 
-  constexpr ::GlobalNamespace::__NoteCutSoundEffect__Pool*& __get__noteCutSoundEffectPool();
+  constexpr ::GlobalNamespace::__NoteCutSoundEffect__Pool*& __cordl_internal_get__noteCutSoundEffectPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__NoteCutSoundEffect__Pool*> const& __get__noteCutSoundEffectPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__NoteCutSoundEffect__Pool*> const& __cordl_internal_get__noteCutSoundEffectPool() const;
 
-  constexpr void __set__noteCutSoundEffectPool(::GlobalNamespace::__NoteCutSoundEffect__Pool* value);
+  constexpr void __cordl_internal_set__noteCutSoundEffectPool(::GlobalNamespace::__NoteCutSoundEffect__Pool* value);
 
-  constexpr ::GlobalNamespace::AudioTimeSyncController*& __get__audioTimeSyncController();
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& __get__audioTimeSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value);
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  constexpr bool& __get__handleWrongSaberTypeAsGood_k__BackingField();
+  constexpr bool& __cordl_internal_get__handleWrongSaberTypeAsGood_k__BackingField();
 
-  constexpr bool const& __get__handleWrongSaberTypeAsGood_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__handleWrongSaberTypeAsGood_k__BackingField() const;
 
-  constexpr void __set__handleWrongSaberTypeAsGood_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__handleWrongSaberTypeAsGood_k__BackingField(bool value);
 
-  constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& __get__randomLongCutSoundPicker();
+  constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*& __cordl_internal_get__randomLongCutSoundPicker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*> const& __get__randomLongCutSoundPicker() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__randomLongCutSoundPicker() const;
 
-  constexpr void __set__randomLongCutSoundPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>* value);
+  constexpr void __cordl_internal_set__randomLongCutSoundPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* value);
 
-  constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& __get__randomShortCutSoundPicker();
+  constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*& __cordl_internal_get__randomShortCutSoundPicker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*> const& __get__randomShortCutSoundPicker() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__randomShortCutSoundPicker() const;
 
-  constexpr void __set__randomShortCutSoundPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>* value);
+  constexpr void __cordl_internal_set__randomShortCutSoundPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* value);
 
-  constexpr float_t& __get__prevNoteATime();
+  constexpr float_t& __cordl_internal_get__prevNoteATime();
 
-  constexpr float_t const& __get__prevNoteATime() const;
+  constexpr float_t const& __cordl_internal_get__prevNoteATime() const;
 
-  constexpr void __set__prevNoteATime(float_t value);
+  constexpr void __cordl_internal_set__prevNoteATime(float_t value);
 
-  constexpr float_t& __get__prevNoteBTime();
+  constexpr float_t& __cordl_internal_get__prevNoteBTime();
 
-  constexpr float_t const& __get__prevNoteBTime() const;
+  constexpr float_t const& __cordl_internal_get__prevNoteBTime() const;
 
-  constexpr void __set__prevNoteBTime(float_t value);
+  constexpr void __cordl_internal_set__prevNoteBTime(float_t value);
 
-  constexpr ::GlobalNamespace::NoteCutSoundEffect*& __get__prevNoteASoundEffect();
+  constexpr ::UnityW<::GlobalNamespace::NoteCutSoundEffect>& __cordl_internal_get__prevNoteASoundEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteCutSoundEffect*> const& __get__prevNoteASoundEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::NoteCutSoundEffect> const& __cordl_internal_get__prevNoteASoundEffect() const;
 
-  constexpr void __set__prevNoteASoundEffect(::GlobalNamespace::NoteCutSoundEffect* value);
+  constexpr void __cordl_internal_set__prevNoteASoundEffect(::UnityW<::GlobalNamespace::NoteCutSoundEffect> value);
 
-  constexpr ::GlobalNamespace::NoteCutSoundEffect*& __get__prevNoteBSoundEffect();
+  constexpr ::UnityW<::GlobalNamespace::NoteCutSoundEffect>& __cordl_internal_get__prevNoteBSoundEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteCutSoundEffect*> const& __get__prevNoteBSoundEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::NoteCutSoundEffect> const& __cordl_internal_get__prevNoteBSoundEffect() const;
 
-  constexpr void __set__prevNoteBSoundEffect(::GlobalNamespace::NoteCutSoundEffect* value);
+  constexpr void __cordl_internal_set__prevNoteBSoundEffect(::UnityW<::GlobalNamespace::NoteCutSoundEffect> value);
 
-  constexpr float_t& __get__beatAlignOffset();
+  constexpr float_t& __cordl_internal_get__beatAlignOffset();
 
-  constexpr float_t const& __get__beatAlignOffset() const;
+  constexpr float_t const& __cordl_internal_get__beatAlignOffset() const;
 
-  constexpr void __set__beatAlignOffset(float_t value);
+  constexpr void __cordl_internal_set__beatAlignOffset(float_t value);
 
-  constexpr bool& __get__useTestAudioClips();
+  constexpr bool& __cordl_internal_get__useTestAudioClips();
 
-  constexpr bool const& __get__useTestAudioClips() const;
+  constexpr bool const& __cordl_internal_get__useTestAudioClips() const;
 
-  constexpr void __set__useTestAudioClips(bool value);
+  constexpr void __cordl_internal_set__useTestAudioClips(bool value);
 
-  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::NoteCutSoundEffect*>*& __get__noteCutSoundEffectPoolContainer();
+  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::NoteCutSoundEffect>>*& __cordl_internal_get__noteCutSoundEffectPoolContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::NoteCutSoundEffect*>*> const& __get__noteCutSoundEffectPoolContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::NoteCutSoundEffect>>*> const&
+  __cordl_internal_get__noteCutSoundEffectPoolContainer() const;
 
-  constexpr void __set__noteCutSoundEffectPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::NoteCutSoundEffect*>* value);
+  constexpr void __cordl_internal_set__noteCutSoundEffectPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::NoteCutSoundEffect>>* value);
 
   /// @brief Method get_handleWrongSaberTypeAsGood, addr 0x222ebc8, size 0x8, virtual false, abstract: false, final false
   inline bool get_handleWrongSaberTypeAsGood();
@@ -370,19 +377,19 @@ protected:
 
 public:
   /// @brief Field _audioManager, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::AudioManagerSO* ____audioManager;
+  ::UnityW<::GlobalNamespace::AudioManagerSO> ____audioManager;
 
   /// @brief Field _audioSamplesBeatAlignOffset, offset: 0x20, size: 0x4, def value: None
   float_t ____audioSamplesBeatAlignOffset;
 
   /// @brief Field _longCutEffectsAudioClips, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> ____longCutEffectsAudioClips;
+  ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> ____longCutEffectsAudioClips;
 
   /// @brief Field _shortCutEffectsAudioClips, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> ____shortCutEffectsAudioClips;
+  ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> ____shortCutEffectsAudioClips;
 
   /// @brief Field _testAudioClip, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::AudioClip* ____testAudioClip;
+  ::UnityW<::UnityEngine::AudioClip> ____testAudioClip;
 
   /// @brief Field _initData, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::__NoteCutSoundEffectManager__InitData* ____initData;
@@ -391,22 +398,22 @@ public:
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
   /// @brief Field _saberManager, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::SaberManager* ____saberManager;
+  ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
   /// @brief Field _noteCutSoundEffectPool, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::__NoteCutSoundEffect__Pool* ____noteCutSoundEffectPool;
 
   /// @brief Field _audioTimeSyncController, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::AudioTimeSyncController* ____audioTimeSyncController;
+  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
   /// @brief Field <handleWrongSaberTypeAsGood>k__BackingField, offset: 0x68, size: 0x1, def value: None
   bool ____handleWrongSaberTypeAsGood_k__BackingField;
 
   /// @brief Field _randomLongCutSoundPicker, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>* ____randomLongCutSoundPicker;
+  ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* ____randomLongCutSoundPicker;
 
   /// @brief Field _randomShortCutSoundPicker, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>* ____randomShortCutSoundPicker;
+  ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* ____randomShortCutSoundPicker;
 
   /// @brief Field _prevNoteATime, offset: 0x80, size: 0x4, def value: None
   float_t ____prevNoteATime;
@@ -415,10 +422,10 @@ public:
   float_t ____prevNoteBTime;
 
   /// @brief Field _prevNoteASoundEffect, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::NoteCutSoundEffect* ____prevNoteASoundEffect;
+  ::UnityW<::GlobalNamespace::NoteCutSoundEffect> ____prevNoteASoundEffect;
 
   /// @brief Field _prevNoteBSoundEffect, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::NoteCutSoundEffect* ____prevNoteBSoundEffect;
+  ::UnityW<::GlobalNamespace::NoteCutSoundEffect> ____prevNoteBSoundEffect;
 
   /// @brief Field _beatAlignOffset, offset: 0x98, size: 0x4, def value: None
   float_t ____beatAlignOffset;
@@ -427,7 +434,7 @@ public:
   bool ____useTestAudioClips;
 
   /// @brief Field _noteCutSoundEffectPoolContainer, offset: 0xa0, size: 0x8, def value: None
-  ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::NoteCutSoundEffect*>* ____noteCutSoundEffectPoolContainer;
+  ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::NoteCutSoundEffect>>* ____noteCutSoundEffectPoolContainer;
 
   /// @brief Field kMaxNumberOfEffects offset 0xffffffff size 0x4
   static constexpr int32_t kMaxNumberOfEffects{ static_cast<int32_t>(0x40) };

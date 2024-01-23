@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::LinuxNetworkInterfaceAPI);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9291))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9291))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9268))
 // CS Name: ::System.Net.NetworkInformation::LinuxNetworkInterfaceAPI*
 class CORDL_TYPE LinuxNetworkInterfaceAPI : public ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI {

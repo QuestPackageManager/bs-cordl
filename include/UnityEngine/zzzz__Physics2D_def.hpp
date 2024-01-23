@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::UnityEngine::Physics2D);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15930))
 // CS Name: ::UnityEngine::Physics2D*
 class CORDL_TYPE Physics2D : public ::System::Object {
@@ -50,11 +50,11 @@ public:
   // Declarations
   /// @brief Field m_LastDisabledRigidbody2D, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_LastDisabledRigidbody2D,
-                             put = setStaticF_m_LastDisabledRigidbody2D))::System::Collections::Generic::List_1<::UnityEngine::Rigidbody2D*>* m_LastDisabledRigidbody2D;
+                             put = setStaticF_m_LastDisabledRigidbody2D))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rigidbody2D>>* m_LastDisabledRigidbody2D;
 
-  static inline void setStaticF_m_LastDisabledRigidbody2D(::System::Collections::Generic::List_1<::UnityEngine::Rigidbody2D*>* value);
+  static inline void setStaticF_m_LastDisabledRigidbody2D(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rigidbody2D>>* value);
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::Rigidbody2D*>* getStaticF_m_LastDisabledRigidbody2D();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Rigidbody2D>>* getStaticF_m_LastDisabledRigidbody2D();
 
   /// @brief Method get_defaultPhysicsScene, addr 0x2d124bc, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::PhysicsScene2D get_defaultPhysicsScene();

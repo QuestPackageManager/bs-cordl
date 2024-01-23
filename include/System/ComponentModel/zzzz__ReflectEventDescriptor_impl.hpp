@@ -13,11 +13,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x178;
   constexpr static std::size_t addrs = 0x2916c34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectEventDescriptor*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::EventInfo*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectEventDescriptor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::EventInfo*>::get() })));
     return ___internal_method;
   }
 };
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x2916dac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectEventDescriptor*>::get(),
@@ -45,11 +45,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x328;
   constexpr static std::size_t addrs = 0x2917258;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectEventDescriptor*>::get(), "FillEventInfoAttribute", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::EventInfo*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectEventDescriptor*>::get(), "FillEventInfoAttribute", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::EventInfo*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get() })));
     return ___internal_method;
   }
 };
@@ -61,9 +61,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x448;
   constexpr static std::size_t addrs = 0x2916e10;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectEventDescriptor*>::get(),
-                                                                               "FillMethods", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "FillMethods", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -75,94 +75,94 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x368;
   constexpr static std::size_t addrs = 0x2917580;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectEventDescriptor*>::get(), "FillSingleMethodAttribute", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectEventDescriptor*>::get(), "FillSingleMethodAttribute", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Type*& System::ComponentModel::ReflectEventDescriptor::__get__type() {
+constexpr ::System::Type*& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__type() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::ComponentModel::ReflectEventDescriptor::__get__type() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__type() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____type;
 }
-constexpr void System::ComponentModel::ReflectEventDescriptor::__set__type(::System::Type* value) {
+constexpr void System::ComponentModel::ReflectEventDescriptor::__cordl_internal_set__type(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Type*& System::ComponentModel::ReflectEventDescriptor::__get__componentClass() {
+constexpr ::System::Type*& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__componentClass() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____componentClass;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::ComponentModel::ReflectEventDescriptor::__get__componentClass() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__componentClass() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____componentClass;
 }
-constexpr void System::ComponentModel::ReflectEventDescriptor::__set__componentClass(::System::Type* value) {
+constexpr void System::ComponentModel::ReflectEventDescriptor::__cordl_internal_set__componentClass(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____componentClass)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Reflection::MethodInfo*& System::ComponentModel::ReflectEventDescriptor::__get__addMethod() {
+constexpr ::System::Reflection::MethodInfo*& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__addMethod() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____addMethod;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& System::ComponentModel::ReflectEventDescriptor::__get__addMethod() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__addMethod() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____addMethod;
 }
-constexpr void System::ComponentModel::ReflectEventDescriptor::__set__addMethod(::System::Reflection::MethodInfo* value) {
+constexpr void System::ComponentModel::ReflectEventDescriptor::__cordl_internal_set__addMethod(::System::Reflection::MethodInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____addMethod)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Reflection::MethodInfo*& System::ComponentModel::ReflectEventDescriptor::__get__removeMethod() {
+constexpr ::System::Reflection::MethodInfo*& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__removeMethod() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____removeMethod;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& System::ComponentModel::ReflectEventDescriptor::__get__removeMethod() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__removeMethod() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____removeMethod;
 }
-constexpr void System::ComponentModel::ReflectEventDescriptor::__set__removeMethod(::System::Reflection::MethodInfo* value) {
+constexpr void System::ComponentModel::ReflectEventDescriptor::__cordl_internal_set__removeMethod(::System::Reflection::MethodInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____removeMethod)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Reflection::EventInfo*& System::ComponentModel::ReflectEventDescriptor::__get__realEvent() {
+constexpr ::System::Reflection::EventInfo*& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__realEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____realEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::EventInfo*> const& System::ComponentModel::ReflectEventDescriptor::__get__realEvent() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Reflection::EventInfo*> const& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__realEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____realEvent;
 }
-constexpr void System::ComponentModel::ReflectEventDescriptor::__set__realEvent(::System::Reflection::EventInfo* value) {
+constexpr void System::ComponentModel::ReflectEventDescriptor::__cordl_internal_set__realEvent(::System::Reflection::EventInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____realEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::ComponentModel::ReflectEventDescriptor::__get__filledMethods() {
+constexpr bool& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__filledMethods() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filledMethods;
 }
-constexpr bool const& System::ComponentModel::ReflectEventDescriptor::__get__filledMethods() const {
+constexpr bool const& System::ComponentModel::ReflectEventDescriptor::__cordl_internal_get__filledMethods() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filledMethods;
 }
-constexpr void System::ComponentModel::ReflectEventDescriptor::__set__filledMethods(bool value) {
+constexpr void System::ComponentModel::ReflectEventDescriptor::__cordl_internal_set__filledMethods(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____filledMethods = value;
 }
 inline ::System::ComponentModel::ReflectEventDescriptor* System::ComponentModel::ReflectEventDescriptor::New_ctor(::System::Type* componentClass, ::System::Reflection::EventInfo* eventInfo) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::ComponentModel::ReflectEventDescriptor*>(componentClass, eventInfo));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::ReflectEventDescriptor*>(componentClass, eventInfo));
 }
 inline void System::ComponentModel::ReflectEventDescriptor::_ctor(::System::Type* componentClass, ::System::Reflection::EventInfo* eventInfo) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectEventDescriptor*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::EventInfo*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectEventDescriptor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::EventInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, componentClass, eventInfo);
 }
 inline void System::ComponentModel::ReflectEventDescriptor::FillAttributes(::System::Collections::IList* attributes) {
@@ -172,21 +172,21 @@ inline void System::ComponentModel::ReflectEventDescriptor::FillAttributes(::Sys
 }
 inline void System::ComponentModel::ReflectEventDescriptor::FillEventInfoAttribute(::System::Reflection::EventInfo* realEventInfo, ::System::Collections::IList* attributes) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectEventDescriptor*>::get(), "FillEventInfoAttribute", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::EventInfo*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectEventDescriptor*>::get(), "FillEventInfoAttribute", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::EventInfo*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, realEventInfo, attributes);
 }
 inline void System::ComponentModel::ReflectEventDescriptor::FillMethods() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectEventDescriptor*>::get(),
-                                                                             "FillMethods", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "FillMethods", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void System::ComponentModel::ReflectEventDescriptor::FillSingleMethodAttribute(::System::Reflection::MethodInfo* realMethodInfo, ::System::Collections::IList* attributes) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectEventDescriptor*>::get(), "FillSingleMethodAttribute", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ReflectEventDescriptor*>::get(), "FillSingleMethodAttribute", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::MethodInfo*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::IList*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, realMethodInfo, attributes);
 }
 // Ctor Parameters []

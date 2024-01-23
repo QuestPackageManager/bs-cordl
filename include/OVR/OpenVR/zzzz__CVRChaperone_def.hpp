@@ -27,20 +27,20 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRChaperone);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8322)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8322))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8562))
 // CS Name: ::OVR.OpenVR::CVRChaperone*
 class CORDL_TYPE CVRChaperone : public ::System::Object {
 public:
   // Declarations
   /// @brief Field FnTable, offset 0x10, size 0x40
-  __declspec(property(get = __get_FnTable, put = __set_FnTable))::OVR::OpenVR::IVRChaperone FnTable;
+  __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRChaperone FnTable;
 
-  constexpr ::OVR::OpenVR::IVRChaperone& __get_FnTable();
+  constexpr ::OVR::OpenVR::IVRChaperone& __cordl_internal_get_FnTable();
 
-  constexpr ::OVR::OpenVR::IVRChaperone const& __get_FnTable() const;
+  constexpr ::OVR::OpenVR::IVRChaperone const& __cordl_internal_get_FnTable() const;
 
-  constexpr void __set_FnTable(::OVR::OpenVR::IVRChaperone value);
+  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRChaperone value);
 
   static inline ::OVR::OpenVR::CVRChaperone* New_ctor(void* pInterface);
 

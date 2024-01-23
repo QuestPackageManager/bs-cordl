@@ -25,14 +25,14 @@ MARK_REF_PTR_T(::System::Security::AccessControl::QualifiedAce);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3039))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3039))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3046))
 // CS Name: ::System.Security.AccessControl::QualifiedAce*
 class CORDL_TYPE QualifiedAce : public ::System::Security::AccessControl::KnownAce {
 public:
   // Declarations
   /// @brief Field opaque, offset 0x20, size 0x8
-  __declspec(property(get = __get_opaque, put = __set_opaque))::ArrayW<uint8_t, ::Array<uint8_t>*> opaque;
+  __declspec(property(get = __cordl_internal_get_opaque, put = __cordl_internal_set_opaque))::ArrayW<uint8_t, ::Array<uint8_t>*> opaque;
 
   __declspec(property(get = get_AceQualifier))::System::Security::AccessControl::AceQualifier AceQualifier;
 
@@ -40,11 +40,11 @@ public:
 
   __declspec(property(get = get_OpaqueLength)) int32_t OpaqueLength;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_opaque();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_opaque();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_opaque() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_opaque() const;
 
-  constexpr void __set_opaque(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_opaque(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::System::Security::AccessControl::QualifiedAce* New_ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags,
                                                                           ::ArrayW<uint8_t, ::Array<uint8_t>*> opaque);

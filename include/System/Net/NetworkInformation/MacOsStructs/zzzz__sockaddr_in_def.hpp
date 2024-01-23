@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::MacOsStructs::sockaddr_in);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation::MacOsStructs {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9296))
 // CS Name: ::System.Net.NetworkInformation.MacOsStructs::sockaddr_in
 struct CORDL_TYPE sockaddr_in {

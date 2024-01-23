@@ -46,7 +46,7 @@ namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13673))
 // CS Name: ::UIItemsList`1::DataCallback<T>*
 class CORDL_TYPE __UIItemsList_1__DataCallback : public ::System::MulticastDelegate {
@@ -90,7 +90,7 @@ namespace HMUI {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13674))
 // CS Name: ::HMUI::UIItemsList`1<T>*
 class CORDL_TYPE UIItemsList_1 : public ::UnityEngine::MonoBehaviour {
@@ -99,51 +99,51 @@ public:
   using DataCallback = ::HMUI::__UIItemsList_1__DataCallback<T>;
 
   /// @brief Field _prefab, offset 0x18, size 0x8
-  __declspec(property(get = __get__prefab, put = __set__prefab)) T _prefab;
+  __declspec(property(get = __cordl_internal_get__prefab, put = __cordl_internal_set__prefab)) T _prefab;
 
   /// @brief Field _itemsContainer, offset 0x20, size 0x8
-  __declspec(property(get = __get__itemsContainer, put = __set__itemsContainer))::UnityEngine::Transform* _itemsContainer;
+  __declspec(property(get = __cordl_internal_get__itemsContainer, put = __cordl_internal_set__itemsContainer))::UnityW<::UnityEngine::Transform> _itemsContainer;
 
   /// @brief Field _insertInTheBeginning, offset 0x28, size 0x1
-  __declspec(property(get = __get__insertInTheBeginning, put = __set__insertInTheBeginning)) bool _insertInTheBeginning;
+  __declspec(property(get = __cordl_internal_get__insertInTheBeginning, put = __cordl_internal_set__insertInTheBeginning)) bool _insertInTheBeginning;
 
   /// @brief Field _container, offset 0x30, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _items, offset 0x38, size 0x8
-  __declspec(property(get = __get__items, put = __set__items))::System::Collections::Generic::List_1<T>* _items;
+  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items))::System::Collections::Generic::List_1<T>* _items;
 
   __declspec(property(get = get_items))::System::Collections::Generic::IEnumerable_1<T>* items;
 
-  constexpr T& __get__prefab();
+  constexpr T& __cordl_internal_get__prefab();
 
-  constexpr T const& __get__prefab() const;
+  constexpr T const& __cordl_internal_get__prefab() const;
 
-  constexpr void __set__prefab(T value);
+  constexpr void __cordl_internal_set__prefab(T value);
 
-  constexpr ::UnityEngine::Transform*& __get__itemsContainer();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__itemsContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__itemsContainer() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__itemsContainer() const;
 
-  constexpr void __set__itemsContainer(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__itemsContainer(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr bool& __get__insertInTheBeginning();
+  constexpr bool& __cordl_internal_get__insertInTheBeginning();
 
-  constexpr bool const& __get__insertInTheBeginning() const;
+  constexpr bool const& __cordl_internal_get__insertInTheBeginning() const;
 
-  constexpr void __set__insertInTheBeginning(bool value);
+  constexpr void __cordl_internal_set__insertInTheBeginning(bool value);
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::System::Collections::Generic::List_1<T>*& __get__items();
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get__items();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __get__items() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get__items() const;
 
-  constexpr void __set__items(::System::Collections::Generic::List_1<T>* value);
+  constexpr void __cordl_internal_set__items(::System::Collections::Generic::List_1<T>* value);
 
   /// @brief Method get_items, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<T>* get_items();
@@ -174,7 +174,7 @@ public:
   T ____prefab;
 
   /// @brief Field _itemsContainer, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____itemsContainer;
+  ::UnityW<::UnityEngine::Transform> ____itemsContainer;
 
   /// @brief Field _insertInTheBeginning, offset: 0x28, size: 0x1, def value: None
   bool ____insertInTheBeginning;

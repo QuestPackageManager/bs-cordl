@@ -25,33 +25,33 @@ MARK_REF_PTR_T(::System::Security::AccessControl::KnownAce);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3035))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3035))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3039))
 // CS Name: ::System.Security.AccessControl::KnownAce*
 class CORDL_TYPE KnownAce : public ::System::Security::AccessControl::GenericAce {
 public:
   // Declarations
   /// @brief Field access_mask, offset 0x14, size 0x4
-  __declspec(property(get = __get_access_mask, put = __set_access_mask)) int32_t access_mask;
+  __declspec(property(get = __cordl_internal_get_access_mask, put = __cordl_internal_set_access_mask)) int32_t access_mask;
 
   /// @brief Field identifier, offset 0x18, size 0x8
-  __declspec(property(get = __get_identifier, put = __set_identifier))::System::Security::Principal::SecurityIdentifier* identifier;
+  __declspec(property(get = __cordl_internal_get_identifier, put = __cordl_internal_set_identifier))::System::Security::Principal::SecurityIdentifier* identifier;
 
   __declspec(property(get = get_AccessMask, put = set_AccessMask)) int32_t AccessMask;
 
   __declspec(property(get = get_SecurityIdentifier, put = set_SecurityIdentifier))::System::Security::Principal::SecurityIdentifier* SecurityIdentifier;
 
-  constexpr int32_t& __get_access_mask();
+  constexpr int32_t& __cordl_internal_get_access_mask();
 
-  constexpr int32_t const& __get_access_mask() const;
+  constexpr int32_t const& __cordl_internal_get_access_mask() const;
 
-  constexpr void __set_access_mask(int32_t value);
+  constexpr void __cordl_internal_set_access_mask(int32_t value);
 
-  constexpr ::System::Security::Principal::SecurityIdentifier*& __get_identifier();
+  constexpr ::System::Security::Principal::SecurityIdentifier*& __cordl_internal_get_identifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::SecurityIdentifier*> const& __get_identifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::SecurityIdentifier*> const& __cordl_internal_get_identifier() const;
 
-  constexpr void __set_identifier(::System::Security::Principal::SecurityIdentifier* value);
+  constexpr void __cordl_internal_set_identifier(::System::Security::Principal::SecurityIdentifier* value);
 
   static inline ::System::Security::AccessControl::KnownAce* New_ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags);
 

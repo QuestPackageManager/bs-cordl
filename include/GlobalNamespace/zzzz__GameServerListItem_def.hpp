@@ -16,47 +16,47 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServerListItem);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4487))
 // CS Name: ::GameServerListItem*
 class CORDL_TYPE GameServerListItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field serverName, offset 0x10, size 0x8
-  __declspec(property(get = __get_serverName, put = __set_serverName))::StringW serverName;
+  __declspec(property(get = __cordl_internal_get_serverName, put = __cordl_internal_set_serverName))::StringW serverName;
 
   /// @brief Field capacity, offset 0x18, size 0x4
-  __declspec(property(get = __get_capacity, put = __set_capacity)) int32_t capacity;
+  __declspec(property(get = __cordl_internal_get_capacity, put = __cordl_internal_set_capacity)) int32_t capacity;
 
   /// @brief Field occupied, offset 0x1c, size 0x4
-  __declspec(property(get = __get_occupied, put = __set_occupied)) int32_t occupied;
+  __declspec(property(get = __cordl_internal_get_occupied, put = __cordl_internal_set_occupied)) int32_t occupied;
 
   /// @brief Field password, offset 0x20, size 0x1
-  __declspec(property(get = __get_password, put = __set_password)) bool password;
+  __declspec(property(get = __cordl_internal_get_password, put = __cordl_internal_set_password)) bool password;
 
-  constexpr ::StringW& __get_serverName();
+  constexpr ::StringW& __cordl_internal_get_serverName();
 
-  constexpr ::StringW const& __get_serverName() const;
+  constexpr ::StringW const& __cordl_internal_get_serverName() const;
 
-  constexpr void __set_serverName(::StringW value);
+  constexpr void __cordl_internal_set_serverName(::StringW value);
 
-  constexpr int32_t& __get_capacity();
+  constexpr int32_t& __cordl_internal_get_capacity();
 
-  constexpr int32_t const& __get_capacity() const;
+  constexpr int32_t const& __cordl_internal_get_capacity() const;
 
-  constexpr void __set_capacity(int32_t value);
+  constexpr void __cordl_internal_set_capacity(int32_t value);
 
-  constexpr int32_t& __get_occupied();
+  constexpr int32_t& __cordl_internal_get_occupied();
 
-  constexpr int32_t const& __get_occupied() const;
+  constexpr int32_t const& __cordl_internal_get_occupied() const;
 
-  constexpr void __set_occupied(int32_t value);
+  constexpr void __cordl_internal_set_occupied(int32_t value);
 
-  constexpr bool& __get_password();
+  constexpr bool& __cordl_internal_get_password();
 
-  constexpr bool const& __get_password() const;
+  constexpr bool const& __cordl_internal_get_password() const;
 
-  constexpr void __set_password(bool value);
+  constexpr void __cordl_internal_set_password(bool value);
 
   static inline ::GlobalNamespace::GameServerListItem* New_ctor(::StringW serverName, int32_t capacity, int32_t occupied, bool password);
 

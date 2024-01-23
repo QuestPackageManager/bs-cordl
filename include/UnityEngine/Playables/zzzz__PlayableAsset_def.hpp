@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::UnityEngine::Playables::PlayableAsset);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10422))
 // CS Name: ::UnityEngine.Playables::PlayableAsset*
 class CORDL_TYPE PlayableAsset : public ::UnityEngine::ScriptableObject {

@@ -17,22 +17,22 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerMoveEvent);
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 235, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7198)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7198), inst: 1733 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7198)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7198), inst: 1733 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7200))
 // CS Name: ::UnityEngine.UIElements::PointerMoveEvent*
 class CORDL_TYPE PointerMoveEvent : public ::UnityEngine::UIElements::PointerEventBase_1<::UnityEngine::UIElements::PointerMoveEvent*> {
 public:
   // Declarations
   /// @brief Field <isHandledByDraggable>k__BackingField, offset 0xea, size 0x1
-  __declspec(property(get = __get__isHandledByDraggable_k__BackingField, put = __set__isHandledByDraggable_k__BackingField)) bool _isHandledByDraggable_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isHandledByDraggable_k__BackingField, put = __cordl_internal_set__isHandledByDraggable_k__BackingField)) bool _isHandledByDraggable_k__BackingField;
 
   __declspec(property(get = get_isHandledByDraggable, put = set_isHandledByDraggable)) bool isHandledByDraggable;
 
-  constexpr bool& __get__isHandledByDraggable_k__BackingField();
+  constexpr bool& __cordl_internal_get__isHandledByDraggable_k__BackingField();
 
-  constexpr bool const& __get__isHandledByDraggable_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isHandledByDraggable_k__BackingField() const;
 
-  constexpr void __set__isHandledByDraggable_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isHandledByDraggable_k__BackingField(bool value);
 
   /// @brief Method get_isHandledByDraggable, addr 0x2e4f274, size 0x8, virtual false, abstract: false, final false
   inline bool get_isHandledByDraggable();

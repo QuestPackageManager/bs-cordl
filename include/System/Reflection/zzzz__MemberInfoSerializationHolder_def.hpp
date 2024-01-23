@@ -41,29 +41,29 @@ MARK_REF_PTR_T(::System::Reflection::MemberInfoSerializationHolder);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3475)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3475))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3509))
 // CS Name: ::System.Reflection::MemberInfoSerializationHolder*
 class CORDL_TYPE MemberInfoSerializationHolder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_memberName, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_memberName, put = __set_m_memberName))::StringW m_memberName;
+  __declspec(property(get = __cordl_internal_get_m_memberName, put = __cordl_internal_set_m_memberName))::StringW m_memberName;
 
   /// @brief Field m_reflectedType, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_reflectedType, put = __set_m_reflectedType))::System::RuntimeType* m_reflectedType;
+  __declspec(property(get = __cordl_internal_get_m_reflectedType, put = __cordl_internal_set_m_reflectedType))::System::RuntimeType* m_reflectedType;
 
   /// @brief Field m_signature, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_signature, put = __set_m_signature))::StringW m_signature;
+  __declspec(property(get = __cordl_internal_get_m_signature, put = __cordl_internal_set_m_signature))::StringW m_signature;
 
   /// @brief Field m_signature2, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_signature2, put = __set_m_signature2))::StringW m_signature2;
+  __declspec(property(get = __cordl_internal_get_m_signature2, put = __cordl_internal_set_m_signature2))::StringW m_signature2;
 
   /// @brief Field m_memberType, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_memberType, put = __set_m_memberType))::System::Reflection::MemberTypes m_memberType;
+  __declspec(property(get = __cordl_internal_get_m_memberType, put = __cordl_internal_set_m_memberType))::System::Reflection::MemberTypes m_memberType;
 
   /// @brief Field m_info, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_info, put = __set_m_info))::System::Runtime::Serialization::SerializationInfo* m_info;
+  __declspec(property(get = __cordl_internal_get_m_info, put = __cordl_internal_set_m_info))::System::Runtime::Serialization::SerializationInfo* m_info;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
@@ -77,41 +77,41 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
   constexpr ::System::Runtime::Serialization::IObjectReference* i___System__Runtime__Serialization__IObjectReference() noexcept;
 
-  constexpr ::StringW& __get_m_memberName();
+  constexpr ::StringW& __cordl_internal_get_m_memberName();
 
-  constexpr ::StringW const& __get_m_memberName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_memberName() const;
 
-  constexpr void __set_m_memberName(::StringW value);
+  constexpr void __cordl_internal_set_m_memberName(::StringW value);
 
-  constexpr ::System::RuntimeType*& __get_m_reflectedType();
+  constexpr ::System::RuntimeType*& __cordl_internal_get_m_reflectedType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::RuntimeType*> const& __get_m_reflectedType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::RuntimeType*> const& __cordl_internal_get_m_reflectedType() const;
 
-  constexpr void __set_m_reflectedType(::System::RuntimeType* value);
+  constexpr void __cordl_internal_set_m_reflectedType(::System::RuntimeType* value);
 
-  constexpr ::StringW& __get_m_signature();
+  constexpr ::StringW& __cordl_internal_get_m_signature();
 
-  constexpr ::StringW const& __get_m_signature() const;
+  constexpr ::StringW const& __cordl_internal_get_m_signature() const;
 
-  constexpr void __set_m_signature(::StringW value);
+  constexpr void __cordl_internal_set_m_signature(::StringW value);
 
-  constexpr ::StringW& __get_m_signature2();
+  constexpr ::StringW& __cordl_internal_get_m_signature2();
 
-  constexpr ::StringW const& __get_m_signature2() const;
+  constexpr ::StringW const& __cordl_internal_get_m_signature2() const;
 
-  constexpr void __set_m_signature2(::StringW value);
+  constexpr void __cordl_internal_set_m_signature2(::StringW value);
 
-  constexpr ::System::Reflection::MemberTypes& __get_m_memberType();
+  constexpr ::System::Reflection::MemberTypes& __cordl_internal_get_m_memberType();
 
-  constexpr ::System::Reflection::MemberTypes const& __get_m_memberType() const;
+  constexpr ::System::Reflection::MemberTypes const& __cordl_internal_get_m_memberType() const;
 
-  constexpr void __set_m_memberType(::System::Reflection::MemberTypes value);
+  constexpr void __cordl_internal_set_m_memberType(::System::Reflection::MemberTypes value);
 
-  constexpr ::System::Runtime::Serialization::SerializationInfo*& __get_m_info();
+  constexpr ::System::Runtime::Serialization::SerializationInfo*& __cordl_internal_get_m_info();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __get_m_info() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __cordl_internal_get_m_info() const;
 
-  constexpr void __set_m_info(::System::Runtime::Serialization::SerializationInfo* value);
+  constexpr void __cordl_internal_set_m_info(::System::Runtime::Serialization::SerializationInfo* value);
 
   /// @brief Method GetSerializationInfo, addr 0x24edeec, size 0x10, virtual false, abstract: false, final false
   static inline void GetSerializationInfo(::System::Runtime::Serialization::SerializationInfo* info, ::StringW name, ::System::RuntimeType* reflectedClass, ::StringW signature,

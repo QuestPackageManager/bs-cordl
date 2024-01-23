@@ -28,25 +28,25 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509ChainElem
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8982))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8982))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9003))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ChainElement*
 class CORDL_TYPE X509ChainElement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field certificate, offset 0x10, size 0x8
-  __declspec(property(get = __get_certificate, put = __set_certificate))::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate;
+  __declspec(property(get = __cordl_internal_get_certificate, put = __cordl_internal_set_certificate))::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate;
 
   /// @brief Field status, offset 0x18, size 0x8
-  __declspec(
-      property(get = __get_status,
-               put = __set_status))::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> status;
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus,
+                                                                                                     ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> status;
 
   /// @brief Field info, offset 0x20, size 0x8
-  __declspec(property(get = __get_info, put = __set_info))::StringW info;
+  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::StringW info;
 
   /// @brief Field compressed_status_flags, offset 0x28, size 0x4
-  __declspec(property(get = __get_compressed_status_flags, put = __set_compressed_status_flags))::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags compressed_status_flags;
+  __declspec(property(get = __cordl_internal_get_compressed_status_flags,
+                      put = __cordl_internal_set_compressed_status_flags))::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags compressed_status_flags;
 
   __declspec(property(get = get_Certificate))::System::Security::Cryptography::X509Certificates::X509Certificate2* Certificate;
 
@@ -55,29 +55,31 @@ public:
 
   __declspec(property(get = get_StatusFlags, put = set_StatusFlags))::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags StatusFlags;
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*& __get_certificate();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*& __cordl_internal_get_certificate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2*> const& __get_certificate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2*> const& __cordl_internal_get_certificate() const;
 
-  constexpr void __set_certificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* value);
+  constexpr void __cordl_internal_set_certificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* value);
 
-  constexpr ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*>& __get_status();
+  constexpr ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*>& __cordl_internal_get_status();
 
-  constexpr ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> const& __get_status() const;
+  constexpr ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> const&
+  __cordl_internal_get_status() const;
 
-  constexpr void __set_status(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> value);
+  constexpr void
+  __cordl_internal_set_status(::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> value);
 
-  constexpr ::StringW& __get_info();
+  constexpr ::StringW& __cordl_internal_get_info();
 
-  constexpr ::StringW const& __get_info() const;
+  constexpr ::StringW const& __cordl_internal_get_info() const;
 
-  constexpr void __set_info(::StringW value);
+  constexpr void __cordl_internal_set_info(::StringW value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags& __get_compressed_status_flags();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags& __cordl_internal_get_compressed_status_flags();
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const& __get_compressed_status_flags() const;
+  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags const& __cordl_internal_get_compressed_status_flags() const;
 
-  constexpr void __set_compressed_status_flags(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
+  constexpr void __cordl_internal_set_compressed_status_flags(::System::Security::Cryptography::X509Certificates::X509ChainStatusFlags value);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainElement* New_ctor(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 

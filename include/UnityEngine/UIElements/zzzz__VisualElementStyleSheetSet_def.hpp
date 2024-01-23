@@ -27,7 +27,7 @@ MARK_VAL_T(::UnityEngine::UIElements::VisualElementStyleSheetSet);
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6859))
 // CS Name: ::UnityEngine.UIElements::VisualElementStyleSheetSet
 struct CORDL_TYPE VisualElementStyleSheetSet {

@@ -32,20 +32,20 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Sphere);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12233))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12233))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12235))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Sphere*
 class CORDL_TYPE Sphere : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
   // Declarations
   /// @brief Field m_Subdivisions, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_Subdivisions, put = __set_m_Subdivisions)) int32_t m_Subdivisions;
+  __declspec(property(get = __cordl_internal_get_m_Subdivisions, put = __cordl_internal_set_m_Subdivisions)) int32_t m_Subdivisions;
 
   /// @brief Field m_BottomMostVertexIndex, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_BottomMostVertexIndex, put = __set_m_BottomMostVertexIndex)) int32_t m_BottomMostVertexIndex;
+  __declspec(property(get = __cordl_internal_get_m_BottomMostVertexIndex, put = __cordl_internal_set_m_BottomMostVertexIndex)) int32_t m_BottomMostVertexIndex;
 
   /// @brief Field m_Smooth, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_Smooth, put = __set_m_Smooth)) bool m_Smooth;
+  __declspec(property(get = __cordl_internal_get_m_Smooth, put = __cordl_internal_set_m_Smooth)) bool m_Smooth;
 
   /// @brief Field k_IcosphereVertices, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_IcosphereVertices, put = setStaticF_k_IcosphereVertices))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> k_IcosphereVertices;
@@ -53,23 +53,23 @@ public:
   /// @brief Field k_IcosphereTriangles, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_IcosphereTriangles, put = setStaticF_k_IcosphereTriangles))::ArrayW<int32_t, ::Array<int32_t>*> k_IcosphereTriangles;
 
-  constexpr int32_t& __get_m_Subdivisions();
+  constexpr int32_t& __cordl_internal_get_m_Subdivisions();
 
-  constexpr int32_t const& __get_m_Subdivisions() const;
+  constexpr int32_t const& __cordl_internal_get_m_Subdivisions() const;
 
-  constexpr void __set_m_Subdivisions(int32_t value);
+  constexpr void __cordl_internal_set_m_Subdivisions(int32_t value);
 
-  constexpr int32_t& __get_m_BottomMostVertexIndex();
+  constexpr int32_t& __cordl_internal_get_m_BottomMostVertexIndex();
 
-  constexpr int32_t const& __get_m_BottomMostVertexIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_BottomMostVertexIndex() const;
 
-  constexpr void __set_m_BottomMostVertexIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_BottomMostVertexIndex(int32_t value);
 
-  constexpr bool& __get_m_Smooth();
+  constexpr bool& __cordl_internal_get_m_Smooth();
 
-  constexpr bool const& __get_m_Smooth() const;
+  constexpr bool const& __cordl_internal_get_m_Smooth() const;
 
-  constexpr void __set_m_Smooth(bool value);
+  constexpr void __cordl_internal_set_m_Smooth(bool value);
 
   static inline void setStaticF_k_IcosphereVertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 

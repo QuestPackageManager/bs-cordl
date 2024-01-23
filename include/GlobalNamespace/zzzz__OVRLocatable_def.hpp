@@ -62,10 +62,9 @@ MARK_VAL_T(::GlobalNamespace::__OVRLocatable__TrackingSpacePose);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7783)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 412
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3342 }), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(7512))
-// CS Name: ::OVRLocatable::TrackingSpacePose
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(7783)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 412 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 3342 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7512)) CS Name: ::OVRLocatable::TrackingSpacePose
 struct CORDL_TYPE __OVRLocatable__TrackingSpacePose {
 public:
   // Declarations
@@ -136,7 +135,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRLocatable__TrackingSpacePose, _fl
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7513))
 // CS Name: ::OVRLocatable
 struct CORDL_TYPE OVRLocatable {

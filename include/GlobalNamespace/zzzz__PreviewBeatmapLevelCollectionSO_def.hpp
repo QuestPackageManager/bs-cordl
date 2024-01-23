@@ -27,14 +27,16 @@ MARK_REF_PTR_T(::GlobalNamespace::PreviewBeatmapLevelCollectionSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4403))
 // CS Name: ::PreviewBeatmapLevelCollectionSO*
 class CORDL_TYPE PreviewBeatmapLevelCollectionSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _beatmapLevels, offset 0x18, size 0x8
-  __declspec(property(get = __get__beatmapLevels, put = __set__beatmapLevels))::ArrayW<::GlobalNamespace::PreviewBeatmapLevelSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelSO*>*> _beatmapLevels;
+  __declspec(
+      property(get = __cordl_internal_get__beatmapLevels,
+               put = __cordl_internal_set__beatmapLevels))::ArrayW<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>>*> _beatmapLevels;
 
   __declspec(property(get = get_beatmapLevels))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* beatmapLevels;
 
@@ -44,11 +46,11 @@ public:
   /// @brief Convert to "::GlobalNamespace::IBeatmapLevelCollection"
   constexpr ::GlobalNamespace::IBeatmapLevelCollection* i___GlobalNamespace__IBeatmapLevelCollection() noexcept;
 
-  constexpr ::ArrayW<::GlobalNamespace::PreviewBeatmapLevelSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelSO*>*>& __get__beatmapLevels();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>>*>& __cordl_internal_get__beatmapLevels();
 
-  constexpr ::ArrayW<::GlobalNamespace::PreviewBeatmapLevelSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelSO*>*> const& __get__beatmapLevels() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>>*> const& __cordl_internal_get__beatmapLevels() const;
 
-  constexpr void __set__beatmapLevels(::ArrayW<::GlobalNamespace::PreviewBeatmapLevelSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelSO*>*> value);
+  constexpr void __cordl_internal_set__beatmapLevels(::ArrayW<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>>*> value);
 
   /// @brief Method get_beatmapLevels, addr 0x234ba98, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IPreviewBeatmapLevel*>* get_beatmapLevels();
@@ -73,7 +75,7 @@ protected:
 
 public:
   /// @brief Field _beatmapLevels, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::PreviewBeatmapLevelSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelSO*>*> ____beatmapLevels;
+  ::ArrayW<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>>*> ____beatmapLevels;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

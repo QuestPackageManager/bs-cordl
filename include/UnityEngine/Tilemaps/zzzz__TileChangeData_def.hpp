@@ -29,16 +29,16 @@ MARK_VAL_T(::UnityEngine::Tilemaps::TileChangeData);
 // SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10247)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10247)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15943))
 // CS Name: ::UnityEngine.Tilemaps::TileChangeData
 struct CORDL_TYPE TileChangeData {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None }, CppParam { name: "m_TileAsset", ty: "::UnityEngine::Object*", modifiers: "",
-  // def_value: None }, CppParam { name: "m_Color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "m_Transform", ty: "::UnityEngine::Matrix4x4", modifiers: "",
-  // def_value: None }]
-  constexpr TileChangeData(::UnityEngine::Vector3Int m_Position, ::UnityEngine::Object* m_TileAsset, ::UnityEngine::Color m_Color, ::UnityEngine::Matrix4x4 m_Transform) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: None }, CppParam { name: "m_TileAsset", ty: "::UnityW<::UnityEngine::Object>",
+  // modifiers: "", def_value: None }, CppParam { name: "m_Color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "m_Transform", ty: "::UnityEngine::Matrix4x4",
+  // modifiers: "", def_value: None }]
+  constexpr TileChangeData(::UnityEngine::Vector3Int m_Position, ::UnityW<::UnityEngine::Object> m_TileAsset, ::UnityEngine::Color m_Color, ::UnityEngine::Matrix4x4 m_Transform) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -48,7 +48,7 @@ public:
   ::UnityEngine::Vector3Int m_Position;
 
   /// @brief Field m_TileAsset, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Object* m_TileAsset;
+  ::UnityW<::UnityEngine::Object> m_TileAsset;
 
   /// @brief Field m_Color, offset: 0x18, size: 0x10, def value: None
   ::UnityEngine::Color m_Color;

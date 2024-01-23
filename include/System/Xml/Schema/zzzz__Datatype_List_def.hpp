@@ -50,17 +50,17 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_List);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11624))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11624))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11622))
 // CS Name: ::System.Xml.Schema::Datatype_List*
 class CORDL_TYPE Datatype_List : public ::System::Xml::Schema::Datatype_anySimpleType {
 public:
   // Declarations
   /// @brief Field itemType, offset 0x38, size 0x8
-  __declspec(property(get = __get_itemType, put = __set_itemType))::System::Xml::Schema::DatatypeImplementation* itemType;
+  __declspec(property(get = __cordl_internal_get_itemType, put = __cordl_internal_set_itemType))::System::Xml::Schema::DatatypeImplementation* itemType;
 
   /// @brief Field minListSize, offset 0x40, size 0x4
-  __declspec(property(get = __get_minListSize, put = __set_minListSize)) int32_t minListSize;
+  __declspec(property(get = __cordl_internal_get_minListSize, put = __cordl_internal_set_minListSize)) int32_t minListSize;
 
   __declspec(property(get = get_ValueType))::System::Type* ValueType;
 
@@ -72,17 +72,17 @@ public:
 
   __declspec(property(get = get_TypeCode))::System::Xml::Schema::XmlTypeCode TypeCode;
 
-  constexpr ::System::Xml::Schema::DatatypeImplementation*& __get_itemType();
+  constexpr ::System::Xml::Schema::DatatypeImplementation*& __cordl_internal_get_itemType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::DatatypeImplementation*> const& __get_itemType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::DatatypeImplementation*> const& __cordl_internal_get_itemType() const;
 
-  constexpr void __set_itemType(::System::Xml::Schema::DatatypeImplementation* value);
+  constexpr void __cordl_internal_set_itemType(::System::Xml::Schema::DatatypeImplementation* value);
 
-  constexpr int32_t& __get_minListSize();
+  constexpr int32_t& __cordl_internal_get_minListSize();
 
-  constexpr int32_t const& __get_minListSize() const;
+  constexpr int32_t const& __cordl_internal_get_minListSize() const;
 
-  constexpr void __set_minListSize(int32_t value);
+  constexpr void __cordl_internal_set_minListSize(int32_t value);
 
   /// @brief Method CreateValueConverter, addr 0x28b59e0, size 0x2a4, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlValueConverter* CreateValueConverter(::System::Xml::Schema::XmlSchemaType* schemaType);

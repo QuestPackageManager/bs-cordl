@@ -37,17 +37,17 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::OptionalAvatarDataPacket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15206))
 // CS Name: ::BeatSaber.AvatarCore::OptionalAvatarDataPacket*
 class CORDL_TYPE OptionalAvatarDataPacket : public ::System::Object {
 public:
   // Declarations
   /// @brief Field dataType, offset 0x10, size 0x4
-  __declspec(property(get = __get_dataType, put = __set_dataType)) uint32_t dataType;
+  __declspec(property(get = __cordl_internal_get_dataType, put = __cordl_internal_set_dataType)) uint32_t dataType;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::GlobalNamespace::ByteArrayNetSerializable* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::GlobalNamespace::ByteArrayNetSerializable* data;
 
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
@@ -61,17 +61,17 @@ public:
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
   constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
-  constexpr uint32_t& __get_dataType();
+  constexpr uint32_t& __cordl_internal_get_dataType();
 
-  constexpr uint32_t const& __get_dataType() const;
+  constexpr uint32_t const& __cordl_internal_get_dataType() const;
 
-  constexpr void __set_dataType(uint32_t value);
+  constexpr void __cordl_internal_set_dataType(uint32_t value);
 
-  constexpr ::GlobalNamespace::ByteArrayNetSerializable*& __get_data();
+  constexpr ::GlobalNamespace::ByteArrayNetSerializable*& __cordl_internal_get_data();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ByteArrayNetSerializable*> const& __get_data() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ByteArrayNetSerializable*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::GlobalNamespace::ByteArrayNetSerializable* value);
+  constexpr void __cordl_internal_set_data(::GlobalNamespace::ByteArrayNetSerializable* value);
 
   /// @brief Method get_pool, addr 0xe10ccc, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::BeatSaber::AvatarCore::OptionalAvatarDataPacket*>* get_pool();

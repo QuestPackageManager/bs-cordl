@@ -22,14 +22,14 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RC2CryptoServiceProvider);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2947))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2947))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2948))
 // CS Name: ::System.Security.Cryptography::RC2CryptoServiceProvider*
 class CORDL_TYPE RC2CryptoServiceProvider : public ::System::Security::Cryptography::RC2 {
 public:
   // Declarations
   /// @brief Field m_use40bitSalt, offset 0x48, size 0x1
-  __declspec(property(get = __get_m_use40bitSalt, put = __set_m_use40bitSalt)) bool m_use40bitSalt;
+  __declspec(property(get = __cordl_internal_get_m_use40bitSalt, put = __cordl_internal_set_m_use40bitSalt)) bool m_use40bitSalt;
 
   /// @brief Field s_legalKeySizes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_legalKeySizes,
@@ -37,11 +37,11 @@ public:
 
   __declspec(property(get = get_EffectiveKeySize)) int32_t EffectiveKeySize;
 
-  constexpr bool& __get_m_use40bitSalt();
+  constexpr bool& __cordl_internal_get_m_use40bitSalt();
 
-  constexpr bool const& __get_m_use40bitSalt() const;
+  constexpr bool const& __cordl_internal_get_m_use40bitSalt() const;
 
-  constexpr void __set_m_use40bitSalt(bool value);
+  constexpr void __cordl_internal_set_m_use40bitSalt(bool value);
 
   static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 

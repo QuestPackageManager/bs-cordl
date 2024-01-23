@@ -42,7 +42,7 @@ MARK_VAL_T(::GlobalNamespace::__PyramidBloomRendererSO__Level);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14446))
 // CS Name: ::PyramidBloomRendererSO::Pass
 struct CORDL_TYPE __PyramidBloomRendererSO__Pass {
@@ -140,25 +140,25 @@ static_assert(offsetof(::GlobalNamespace::__PyramidBloomRendererSO__Pass, value_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14447))
 // CS Name: ::PyramidBloomRendererSO::Level
 struct CORDL_TYPE __PyramidBloomRendererSO__Level {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "down", ty: "::UnityEngine::RenderTexture*", modifiers: "", def_value: None }, CppParam { name: "up", ty: "::UnityEngine::RenderTexture*", modifiers: "",
-  // def_value: None }]
-  constexpr __PyramidBloomRendererSO__Level(::UnityEngine::RenderTexture* down, ::UnityEngine::RenderTexture* up) noexcept;
+  // Ctor Parameters [CppParam { name: "down", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }, CppParam { name: "up", ty: "::UnityW<::UnityEngine::RenderTexture>",
+  // modifiers: "", def_value: None }]
+  constexpr __PyramidBloomRendererSO__Level(::UnityW<::UnityEngine::RenderTexture> down, ::UnityW<::UnityEngine::RenderTexture> up) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __PyramidBloomRendererSO__Level();
 
   /// @brief Field down, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::RenderTexture* down;
+  ::UnityW<::UnityEngine::RenderTexture> down;
 
   /// @brief Field up, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::RenderTexture* up;
+  ::UnityW<::UnityEngine::RenderTexture> up;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -177,7 +177,7 @@ static_assert(offsetof(::GlobalNamespace::__PyramidBloomRendererSO__Level, up) =
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14448))
 // CS Name: ::PyramidBloomRendererSO*
 class CORDL_TYPE PyramidBloomRendererSO : public ::GlobalNamespace::PersistentScriptableObject {
@@ -188,22 +188,23 @@ public:
   using Pass = ::GlobalNamespace::__PyramidBloomRendererSO__Pass;
 
   /// @brief Field _shader, offset 0x18, size 0x8
-  __declspec(property(get = __get__shader, put = __set__shader))::UnityEngine::Shader* _shader;
+  __declspec(property(get = __cordl_internal_get__shader, put = __cordl_internal_set__shader))::UnityW<::UnityEngine::Shader> _shader;
 
   /// @brief Field _material, offset 0x20, size 0x8
-  __declspec(property(get = __get__material, put = __set__material))::UnityEngine::Material* _material;
+  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material))::UnityW<::UnityEngine::Material> _material;
 
   /// @brief Field _pyramid, offset 0x28, size 0x8
-  __declspec(property(get = __get__pyramid, put = __set__pyramid))::ArrayW<::GlobalNamespace::__PyramidBloomRendererSO__Level, ::Array<::GlobalNamespace::__PyramidBloomRendererSO__Level>*> _pyramid;
+  __declspec(property(get = __cordl_internal_get__pyramid,
+                      put = __cordl_internal_set__pyramid))::ArrayW<::GlobalNamespace::__PyramidBloomRendererSO__Level, ::Array<::GlobalNamespace::__PyramidBloomRendererSO__Level>*> _pyramid;
 
   /// @brief Field kIsScreenspaceEffectKeyword, offset 0x30, size 0x8
-  __declspec(property(get = __get_kIsScreenspaceEffectKeyword, put = __set_kIsScreenspaceEffectKeyword))::StringW kIsScreenspaceEffectKeyword;
+  __declspec(property(get = __cordl_internal_get_kIsScreenspaceEffectKeyword, put = __cordl_internal_set_kIsScreenspaceEffectKeyword))::StringW kIsScreenspaceEffectKeyword;
 
   /// @brief Field kLegacyAutoExposureKeyword, offset 0x38, size 0x8
-  __declspec(property(get = __get_kLegacyAutoExposureKeyword, put = __set_kLegacyAutoExposureKeyword))::StringW kLegacyAutoExposureKeyword;
+  __declspec(property(get = __cordl_internal_get_kLegacyAutoExposureKeyword, put = __cordl_internal_set_kLegacyAutoExposureKeyword))::StringW kLegacyAutoExposureKeyword;
 
   /// @brief Field _initialized, offset 0x40, size 0x1
-  __declspec(property(get = __get__initialized, put = __set__initialized)) bool _initialized;
+  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
   /// @brief Field _bloomTexID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__bloomTexID, put = setStaticF__bloomTexID)) int32_t _bloomTexID;
@@ -226,41 +227,41 @@ public:
   /// @brief Field _alphaWeightsID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__alphaWeightsID, put = setStaticF__alphaWeightsID)) int32_t _alphaWeightsID;
 
-  constexpr ::UnityEngine::Shader*& __get__shader();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get__shader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get__shader() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get__shader() const;
 
-  constexpr void __set__shader(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set__shader(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr ::UnityEngine::Material*& __get__material();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__material() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
 
-  constexpr void __set__material(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__PyramidBloomRendererSO__Level, ::Array<::GlobalNamespace::__PyramidBloomRendererSO__Level>*>& __get__pyramid();
+  constexpr ::ArrayW<::GlobalNamespace::__PyramidBloomRendererSO__Level, ::Array<::GlobalNamespace::__PyramidBloomRendererSO__Level>*>& __cordl_internal_get__pyramid();
 
-  constexpr ::ArrayW<::GlobalNamespace::__PyramidBloomRendererSO__Level, ::Array<::GlobalNamespace::__PyramidBloomRendererSO__Level>*> const& __get__pyramid() const;
+  constexpr ::ArrayW<::GlobalNamespace::__PyramidBloomRendererSO__Level, ::Array<::GlobalNamespace::__PyramidBloomRendererSO__Level>*> const& __cordl_internal_get__pyramid() const;
 
-  constexpr void __set__pyramid(::ArrayW<::GlobalNamespace::__PyramidBloomRendererSO__Level, ::Array<::GlobalNamespace::__PyramidBloomRendererSO__Level>*> value);
+  constexpr void __cordl_internal_set__pyramid(::ArrayW<::GlobalNamespace::__PyramidBloomRendererSO__Level, ::Array<::GlobalNamespace::__PyramidBloomRendererSO__Level>*> value);
 
-  constexpr ::StringW& __get_kIsScreenspaceEffectKeyword();
+  constexpr ::StringW& __cordl_internal_get_kIsScreenspaceEffectKeyword();
 
-  constexpr ::StringW const& __get_kIsScreenspaceEffectKeyword() const;
+  constexpr ::StringW const& __cordl_internal_get_kIsScreenspaceEffectKeyword() const;
 
-  constexpr void __set_kIsScreenspaceEffectKeyword(::StringW value);
+  constexpr void __cordl_internal_set_kIsScreenspaceEffectKeyword(::StringW value);
 
-  constexpr ::StringW& __get_kLegacyAutoExposureKeyword();
+  constexpr ::StringW& __cordl_internal_get_kLegacyAutoExposureKeyword();
 
-  constexpr ::StringW const& __get_kLegacyAutoExposureKeyword() const;
+  constexpr ::StringW const& __cordl_internal_get_kLegacyAutoExposureKeyword() const;
 
-  constexpr void __set_kLegacyAutoExposureKeyword(::StringW value);
+  constexpr void __cordl_internal_set_kLegacyAutoExposureKeyword(::StringW value);
 
-  constexpr bool& __get__initialized();
+  constexpr bool& __cordl_internal_get__initialized();
 
-  constexpr bool const& __get__initialized() const;
+  constexpr bool const& __cordl_internal_get__initialized() const;
 
-  constexpr void __set__initialized(bool value);
+  constexpr void __cordl_internal_set__initialized(bool value);
 
   static inline void setStaticF__bloomTexID(int32_t value);
 
@@ -326,10 +327,10 @@ protected:
 
 public:
   /// @brief Field _shader, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Shader* ____shader;
+  ::UnityW<::UnityEngine::Shader> ____shader;
 
   /// @brief Field _material, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Material* ____material;
+  ::UnityW<::UnityEngine::Material> ____material;
 
   /// @brief Field _pyramid, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__PyramidBloomRendererSO__Level, ::Array<::GlobalNamespace::__PyramidBloomRendererSO__Level>*> ____pyramid;

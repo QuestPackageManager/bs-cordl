@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CallContextSecurityData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3147))
 // CS Name: ::System.Runtime.Remoting.Messaging::CallContextSecurityData*
 class CORDL_TYPE CallContextSecurityData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _principal, offset 0x10, size 0x8
-  __declspec(property(get = __get__principal, put = __set__principal))::System::Security::Principal::IPrincipal* _principal;
+  __declspec(property(get = __cordl_internal_get__principal, put = __cordl_internal_set__principal))::System::Security::Principal::IPrincipal* _principal;
 
   __declspec(property(get = get_HasInfo)) bool HasInfo;
 
@@ -40,11 +40,11 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::System::Security::Principal::IPrincipal*& __get__principal();
+  constexpr ::System::Security::Principal::IPrincipal*& __cordl_internal_get__principal();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::IPrincipal*> const& __get__principal() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::IPrincipal*> const& __cordl_internal_get__principal() const;
 
-  constexpr void __set__principal(::System::Security::Principal::IPrincipal* value);
+  constexpr void __cordl_internal_set__principal(::System::Security::Principal::IPrincipal* value);
 
   /// @brief Method get_HasInfo, addr 0x24a7418, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasInfo();

@@ -41,14 +41,14 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TContract, typename TMemoryPool>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11219), inst: 4846 }), TypeDefinitionIndex(TypeDefinitionIndex(11219))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11219)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11219), inst: 4846 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11225))
 // CS Name: ::Zenject::PoolableMemoryPoolProvider`7<TParam1,TParam2,TParam3,TParam4,TParam5,TContract,TMemoryPool>*
 class CORDL_TYPE PoolableMemoryPoolProvider_7 : public ::Zenject::PoolableMemoryPoolProviderBase_1<TContract> {
 public:
   // Declarations
   /// @brief Field _pool, offset 0x28, size 0x8
-  __declspec(property(get = __get__pool, put = __set__pool)) TMemoryPool _pool;
+  __declspec(property(get = __cordl_internal_get__pool, put = __cordl_internal_set__pool)) TMemoryPool _pool;
 
   /// @brief Convert operator to "::Zenject::IValidatable"
   constexpr operator ::Zenject::IValidatable*() noexcept;
@@ -56,11 +56,11 @@ public:
   /// @brief Convert to "::Zenject::IValidatable"
   constexpr ::Zenject::IValidatable* i___Zenject__IValidatable() noexcept;
 
-  constexpr TMemoryPool& __get__pool();
+  constexpr TMemoryPool& __cordl_internal_get__pool();
 
-  constexpr TMemoryPool const& __get__pool() const;
+  constexpr TMemoryPool const& __cordl_internal_get__pool() const;
 
-  constexpr void __set__pool(TMemoryPool value);
+  constexpr void __cordl_internal_set__pool(TMemoryPool value);
 
   static inline ::Zenject::PoolableMemoryPoolProvider_7<TParam1, TParam2, TParam3, TParam4, TParam5, TContract, TMemoryPool>* New_ctor(::Zenject::DiContainer* container, ::System::Guid poolId);
 

@@ -65,7 +65,7 @@ MARK_VAL_T(::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDe
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4150))
 // CS Name: ::MainMenuDestinationRequestController::<ProcessDestinationRequest>d__9
 struct CORDL_TYPE __MainMenuDestinationRequestController___ProcessDestinationRequest_d__9 {
@@ -139,7 +139,7 @@ static_assert(offsetof(::GlobalNamespace::__MainMenuDestinationRequestController
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4151))
 // CS Name: ::MainMenuDestinationRequestController*
 class CORDL_TYPE MainMenuDestinationRequestController : public ::System::Object {
@@ -148,16 +148,18 @@ public:
   using _ProcessDestinationRequest_d__9 = ::GlobalNamespace::__MainMenuDestinationRequestController___ProcessDestinationRequest_d__9;
 
   /// @brief Field _destinationRequestManager, offset 0x10, size 0x8
-  __declspec(property(get = __get__destinationRequestManager, put = __set__destinationRequestManager))::GlobalNamespace::IDestinationRequestManager* _destinationRequestManager;
+  __declspec(property(get = __cordl_internal_get__destinationRequestManager,
+                      put = __cordl_internal_set__destinationRequestManager))::GlobalNamespace::IDestinationRequestManager* _destinationRequestManager;
 
   /// @brief Field _menuScenesTransitionSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __get__menuScenesTransitionSetupData, put = __set__menuScenesTransitionSetupData))::GlobalNamespace::MenuScenesTransitionSetupDataSO* _menuScenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get__menuScenesTransitionSetupData,
+                      put = __cordl_internal_set__menuScenesTransitionSetupData))::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> _menuScenesTransitionSetupData;
 
   /// @brief Field _gameScenesManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
   /// @brief Field _cancellationTokenSource, offset 0x28, size 0x8
-  __declspec(property(get = __get__cancellationTokenSource, put = __set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
+  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
 
   /// @brief Field _nextMenuDestination, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__nextMenuDestination, put = setStaticF__nextMenuDestination))::GlobalNamespace::MenuDestination* _nextMenuDestination;
@@ -174,29 +176,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::GlobalNamespace::IDestinationRequestManager*& __get__destinationRequestManager();
+  constexpr ::GlobalNamespace::IDestinationRequestManager*& __cordl_internal_get__destinationRequestManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDestinationRequestManager*> const& __get__destinationRequestManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDestinationRequestManager*> const& __cordl_internal_get__destinationRequestManager() const;
 
-  constexpr void __set__destinationRequestManager(::GlobalNamespace::IDestinationRequestManager* value);
+  constexpr void __cordl_internal_set__destinationRequestManager(::GlobalNamespace::IDestinationRequestManager* value);
 
-  constexpr ::GlobalNamespace::MenuScenesTransitionSetupDataSO*& __get__menuScenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO>& __cordl_internal_get__menuScenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuScenesTransitionSetupDataSO*> const& __get__menuScenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> const& __cordl_internal_get__menuScenesTransitionSetupData() const;
 
-  constexpr void __set__menuScenesTransitionSetupData(::GlobalNamespace::MenuScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__menuScenesTransitionSetupData(::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get__gameScenesManager();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get__gameScenesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
-  constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::System::Threading::CancellationTokenSource*& __get__cancellationTokenSource();
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __get__cancellationTokenSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
 
-  constexpr void __set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+  constexpr void __cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
   static inline void setStaticF__nextMenuDestination(::GlobalNamespace::MenuDestination* value);
 
@@ -240,10 +242,10 @@ public:
   ::GlobalNamespace::IDestinationRequestManager* ____destinationRequestManager;
 
   /// @brief Field _menuScenesTransitionSetupData, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MenuScenesTransitionSetupDataSO* ____menuScenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> ____menuScenesTransitionSetupData;
 
   /// @brief Field _gameScenesManager, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
+  ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
   /// @brief Field _cancellationTokenSource, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____cancellationTokenSource;

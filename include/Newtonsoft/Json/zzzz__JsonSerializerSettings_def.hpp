@@ -132,20 +132,20 @@ MARK_REF_PTR_T(::Newtonsoft::Json::__JsonSerializerSettings____c__DisplayClass90
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11819))
 // CS Name: ::JsonSerializerSettings::<>c__DisplayClass90_0*
 class CORDL_TYPE __JsonSerializerSettings____c__DisplayClass90_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field value, offset 0x10, size 0x8
-  __declspec(property(get = __get_value, put = __set_value))::Newtonsoft::Json::Serialization::IReferenceResolver* value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::Newtonsoft::Json::Serialization::IReferenceResolver* value;
 
-  constexpr ::Newtonsoft::Json::Serialization::IReferenceResolver*& __get_value();
+  constexpr ::Newtonsoft::Json::Serialization::IReferenceResolver*& __cordl_internal_get_value();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::IReferenceResolver*> const& __get_value() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::IReferenceResolver*> const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(::Newtonsoft::Json::Serialization::IReferenceResolver* value);
+  constexpr void __cordl_internal_set_value(::Newtonsoft::Json::Serialization::IReferenceResolver* value);
 
   static inline ::Newtonsoft::Json::__JsonSerializerSettings____c__DisplayClass90_0* New_ctor();
 
@@ -184,124 +184,138 @@ static_assert(offsetof(::Newtonsoft::Json::__JsonSerializerSettings____c__Displa
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11797)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4734 }), GenericInstantiation(GenericInstantiation
-// { tdi: TypeDefinitionIndex(2448), inst: 4735 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3235)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4739 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4750 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11840)), TypeDefinitionIndex(TypeDefinitionIndex(11799)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4745 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11838)), TypeDefinitionIndex(TypeDefinitionIndex(11837)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11816)), TypeDefinitionIndex(TypeDefinitionIndex(3241)), TypeDefinitionIndex(TypeDefinitionIndex(11839)), TypeDefinitionIndex(TypeDefinitionIndex(11810)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4733 }), TypeDefinitionIndex(TypeDefinitionIndex(11798)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4758 }), TypeDefinitionIndex(TypeDefinitionIndex(11822)), TypeDefinitionIndex(TypeDefinitionIndex(11812)), TypeDefinitionIndex(TypeDefinitionIndex(11796)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11795)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4759 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4752 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4753 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4740 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4762 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4731 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4754 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4737 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11794)), TypeDefinitionIndex(TypeDefinitionIndex(11809)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4732 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 4744 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4738 }), TypeDefinitionIndex(TypeDefinitionIndex(11800))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(11820)) CS Name: ::Newtonsoft.Json::JsonSerializerSettings*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3241)), TypeDefinitionIndex(TypeDefinitionIndex(11794)), TypeDefinitionIndex(TypeDefinitionIndex(11795)), TypeDefinitionIndex(TypeDefinitionIndex(11796)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11797)), TypeDefinitionIndex(TypeDefinitionIndex(11798)), TypeDefinitionIndex(TypeDefinitionIndex(11799)), TypeDefinitionIndex(TypeDefinitionIndex(11800)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11809)), TypeDefinitionIndex(TypeDefinitionIndex(11810)), TypeDefinitionIndex(TypeDefinitionIndex(11812)), TypeDefinitionIndex(TypeDefinitionIndex(11816)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11822)), TypeDefinitionIndex(TypeDefinitionIndex(11837)), TypeDefinitionIndex(TypeDefinitionIndex(11838)), TypeDefinitionIndex(TypeDefinitionIndex(11839)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11840)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4731 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4732 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4733 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4734 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4735 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4737 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4738 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4739 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4740 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4744 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4745 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4750 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4752 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4753 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4754 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4758 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4759 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4762 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11820)) CS Name: ::Newtonsoft.Json::JsonSerializerSettings*
 class CORDL_TYPE JsonSerializerSettings : public ::System::Object {
 public:
   // Declarations
   using __c__DisplayClass90_0 = ::Newtonsoft::Json::__JsonSerializerSettings____c__DisplayClass90_0;
 
   /// @brief Field _formatting, offset 0x10, size 0x8
-  __declspec(property(get = __get__formatting, put = __set__formatting))::System::Nullable_1<::Newtonsoft::Json::Formatting> _formatting;
+  __declspec(property(get = __cordl_internal_get__formatting, put = __cordl_internal_set__formatting))::System::Nullable_1<::Newtonsoft::Json::Formatting> _formatting;
 
   /// @brief Field _dateFormatHandling, offset 0x18, size 0x8
-  __declspec(property(get = __get__dateFormatHandling, put = __set__dateFormatHandling))::System::Nullable_1<::Newtonsoft::Json::DateFormatHandling> _dateFormatHandling;
+  __declspec(property(get = __cordl_internal_get__dateFormatHandling, put = __cordl_internal_set__dateFormatHandling))::System::Nullable_1<::Newtonsoft::Json::DateFormatHandling> _dateFormatHandling;
 
   /// @brief Field _dateTimeZoneHandling, offset 0x20, size 0x8
-  __declspec(property(get = __get__dateTimeZoneHandling, put = __set__dateTimeZoneHandling))::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling> _dateTimeZoneHandling;
+  __declspec(property(get = __cordl_internal_get__dateTimeZoneHandling,
+                      put = __cordl_internal_set__dateTimeZoneHandling))::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling> _dateTimeZoneHandling;
 
   /// @brief Field _dateParseHandling, offset 0x28, size 0x8
-  __declspec(property(get = __get__dateParseHandling, put = __set__dateParseHandling))::System::Nullable_1<::Newtonsoft::Json::DateParseHandling> _dateParseHandling;
+  __declspec(property(get = __cordl_internal_get__dateParseHandling, put = __cordl_internal_set__dateParseHandling))::System::Nullable_1<::Newtonsoft::Json::DateParseHandling> _dateParseHandling;
 
   /// @brief Field _floatFormatHandling, offset 0x30, size 0x8
-  __declspec(property(get = __get__floatFormatHandling, put = __set__floatFormatHandling))::System::Nullable_1<::Newtonsoft::Json::FloatFormatHandling> _floatFormatHandling;
+  __declspec(property(get = __cordl_internal_get__floatFormatHandling,
+                      put = __cordl_internal_set__floatFormatHandling))::System::Nullable_1<::Newtonsoft::Json::FloatFormatHandling> _floatFormatHandling;
 
   /// @brief Field _floatParseHandling, offset 0x38, size 0x8
-  __declspec(property(get = __get__floatParseHandling, put = __set__floatParseHandling))::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling> _floatParseHandling;
+  __declspec(property(get = __cordl_internal_get__floatParseHandling, put = __cordl_internal_set__floatParseHandling))::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling> _floatParseHandling;
 
   /// @brief Field _stringEscapeHandling, offset 0x40, size 0x8
-  __declspec(property(get = __get__stringEscapeHandling, put = __set__stringEscapeHandling))::System::Nullable_1<::Newtonsoft::Json::StringEscapeHandling> _stringEscapeHandling;
+  __declspec(property(get = __cordl_internal_get__stringEscapeHandling,
+                      put = __cordl_internal_set__stringEscapeHandling))::System::Nullable_1<::Newtonsoft::Json::StringEscapeHandling> _stringEscapeHandling;
 
   /// @brief Field _culture, offset 0x48, size 0x8
-  __declspec(property(get = __get__culture, put = __set__culture))::System::Globalization::CultureInfo* _culture;
+  __declspec(property(get = __cordl_internal_get__culture, put = __cordl_internal_set__culture))::System::Globalization::CultureInfo* _culture;
 
   /// @brief Field _checkAdditionalContent, offset 0x50, size 0x2
-  __declspec(property(get = __get__checkAdditionalContent, put = __set__checkAdditionalContent))::System::Nullable_1<bool> _checkAdditionalContent;
+  __declspec(property(get = __cordl_internal_get__checkAdditionalContent, put = __cordl_internal_set__checkAdditionalContent))::System::Nullable_1<bool> _checkAdditionalContent;
 
   /// @brief Field _maxDepth, offset 0x54, size 0x8
-  __declspec(property(get = __get__maxDepth, put = __set__maxDepth))::System::Nullable_1<int32_t> _maxDepth;
+  __declspec(property(get = __cordl_internal_get__maxDepth, put = __cordl_internal_set__maxDepth))::System::Nullable_1<int32_t> _maxDepth;
 
   /// @brief Field _maxDepthSet, offset 0x5c, size 0x1
-  __declspec(property(get = __get__maxDepthSet, put = __set__maxDepthSet)) bool _maxDepthSet;
+  __declspec(property(get = __cordl_internal_get__maxDepthSet, put = __cordl_internal_set__maxDepthSet)) bool _maxDepthSet;
 
   /// @brief Field _dateFormatString, offset 0x60, size 0x8
-  __declspec(property(get = __get__dateFormatString, put = __set__dateFormatString))::StringW _dateFormatString;
+  __declspec(property(get = __cordl_internal_get__dateFormatString, put = __cordl_internal_set__dateFormatString))::StringW _dateFormatString;
 
   /// @brief Field _dateFormatStringSet, offset 0x68, size 0x1
-  __declspec(property(get = __get__dateFormatStringSet, put = __set__dateFormatStringSet)) bool _dateFormatStringSet;
+  __declspec(property(get = __cordl_internal_get__dateFormatStringSet, put = __cordl_internal_set__dateFormatStringSet)) bool _dateFormatStringSet;
 
   /// @brief Field _typeNameAssemblyFormat, offset 0x6c, size 0x8
-  __declspec(property(get = __get__typeNameAssemblyFormat,
-                      put = __set__typeNameAssemblyFormat))::System::Nullable_1<::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle> _typeNameAssemblyFormat;
+  __declspec(property(get = __cordl_internal_get__typeNameAssemblyFormat,
+                      put = __cordl_internal_set__typeNameAssemblyFormat))::System::Nullable_1<::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle> _typeNameAssemblyFormat;
 
   /// @brief Field _defaultValueHandling, offset 0x74, size 0x8
-  __declspec(property(get = __get__defaultValueHandling, put = __set__defaultValueHandling))::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> _defaultValueHandling;
+  __declspec(property(get = __cordl_internal_get__defaultValueHandling,
+                      put = __cordl_internal_set__defaultValueHandling))::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> _defaultValueHandling;
 
   /// @brief Field _preserveReferencesHandling, offset 0x7c, size 0x8
-  __declspec(property(get = __get__preserveReferencesHandling,
-                      put = __set__preserveReferencesHandling))::System::Nullable_1<::Newtonsoft::Json::PreserveReferencesHandling> _preserveReferencesHandling;
+  __declspec(property(get = __cordl_internal_get__preserveReferencesHandling,
+                      put = __cordl_internal_set__preserveReferencesHandling))::System::Nullable_1<::Newtonsoft::Json::PreserveReferencesHandling> _preserveReferencesHandling;
 
   /// @brief Field _nullValueHandling, offset 0x84, size 0x8
-  __declspec(property(get = __get__nullValueHandling, put = __set__nullValueHandling))::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> _nullValueHandling;
+  __declspec(property(get = __cordl_internal_get__nullValueHandling, put = __cordl_internal_set__nullValueHandling))::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> _nullValueHandling;
 
   /// @brief Field _objectCreationHandling, offset 0x8c, size 0x8
-  __declspec(property(get = __get__objectCreationHandling, put = __set__objectCreationHandling))::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> _objectCreationHandling;
+  __declspec(property(get = __cordl_internal_get__objectCreationHandling,
+                      put = __cordl_internal_set__objectCreationHandling))::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> _objectCreationHandling;
 
   /// @brief Field _missingMemberHandling, offset 0x94, size 0x8
-  __declspec(property(get = __get__missingMemberHandling, put = __set__missingMemberHandling))::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling> _missingMemberHandling;
+  __declspec(property(get = __cordl_internal_get__missingMemberHandling,
+                      put = __cordl_internal_set__missingMemberHandling))::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling> _missingMemberHandling;
 
   /// @brief Field _referenceLoopHandling, offset 0x9c, size 0x8
-  __declspec(property(get = __get__referenceLoopHandling, put = __set__referenceLoopHandling))::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _referenceLoopHandling;
+  __declspec(property(get = __cordl_internal_get__referenceLoopHandling,
+                      put = __cordl_internal_set__referenceLoopHandling))::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> _referenceLoopHandling;
 
   /// @brief Field _context, offset 0xa8, size 0x18
-  __declspec(property(get = __get__context, put = __set__context))::System::Nullable_1<::System::Runtime::Serialization::StreamingContext> _context;
+  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::System::Nullable_1<::System::Runtime::Serialization::StreamingContext> _context;
 
   /// @brief Field _constructorHandling, offset 0xc0, size 0x8
-  __declspec(property(get = __get__constructorHandling, put = __set__constructorHandling))::System::Nullable_1<::Newtonsoft::Json::ConstructorHandling> _constructorHandling;
+  __declspec(property(get = __cordl_internal_get__constructorHandling,
+                      put = __cordl_internal_set__constructorHandling))::System::Nullable_1<::Newtonsoft::Json::ConstructorHandling> _constructorHandling;
 
   /// @brief Field _typeNameHandling, offset 0xc8, size 0x8
-  __declspec(property(get = __get__typeNameHandling, put = __set__typeNameHandling))::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _typeNameHandling;
+  __declspec(property(get = __cordl_internal_get__typeNameHandling, put = __cordl_internal_set__typeNameHandling))::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> _typeNameHandling;
 
   /// @brief Field _metadataPropertyHandling, offset 0xd0, size 0x8
-  __declspec(property(get = __get__metadataPropertyHandling, put = __set__metadataPropertyHandling))::System::Nullable_1<::Newtonsoft::Json::MetadataPropertyHandling> _metadataPropertyHandling;
+  __declspec(property(get = __cordl_internal_get__metadataPropertyHandling,
+                      put = __cordl_internal_set__metadataPropertyHandling))::System::Nullable_1<::Newtonsoft::Json::MetadataPropertyHandling> _metadataPropertyHandling;
 
   /// @brief Field <Converters>k__BackingField, offset 0xd8, size 0x8
-  __declspec(property(get = __get__Converters_k__BackingField,
-                      put = __set__Converters_k__BackingField))::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>* _Converters_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Converters_k__BackingField,
+                      put = __cordl_internal_set__Converters_k__BackingField))::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>* _Converters_k__BackingField;
 
   /// @brief Field <ContractResolver>k__BackingField, offset 0xe0, size 0x8
-  __declspec(property(get = __get__ContractResolver_k__BackingField,
-                      put = __set__ContractResolver_k__BackingField))::Newtonsoft::Json::Serialization::IContractResolver* _ContractResolver_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ContractResolver_k__BackingField,
+                      put = __cordl_internal_set__ContractResolver_k__BackingField))::Newtonsoft::Json::Serialization::IContractResolver* _ContractResolver_k__BackingField;
 
   /// @brief Field <EqualityComparer>k__BackingField, offset 0xe8, size 0x8
-  __declspec(property(get = __get__EqualityComparer_k__BackingField, put = __set__EqualityComparer_k__BackingField))::System::Collections::IEqualityComparer* _EqualityComparer_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__EqualityComparer_k__BackingField,
+                      put = __cordl_internal_set__EqualityComparer_k__BackingField))::System::Collections::IEqualityComparer* _EqualityComparer_k__BackingField;
 
   /// @brief Field <ReferenceResolverProvider>k__BackingField, offset 0xf0, size 0x8
-  __declspec(property(get = __get__ReferenceResolverProvider_k__BackingField,
-                      put = __set__ReferenceResolverProvider_k__BackingField))::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>* _ReferenceResolverProvider_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__ReferenceResolverProvider_k__BackingField,
+      put = __cordl_internal_set__ReferenceResolverProvider_k__BackingField))::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>* _ReferenceResolverProvider_k__BackingField;
 
   /// @brief Field <TraceWriter>k__BackingField, offset 0xf8, size 0x8
-  __declspec(property(get = __get__TraceWriter_k__BackingField, put = __set__TraceWriter_k__BackingField))::Newtonsoft::Json::Serialization::ITraceWriter* _TraceWriter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__TraceWriter_k__BackingField,
+                      put = __cordl_internal_set__TraceWriter_k__BackingField))::Newtonsoft::Json::Serialization::ITraceWriter* _TraceWriter_k__BackingField;
 
   /// @brief Field <Binder>k__BackingField, offset 0x100, size 0x8
-  __declspec(property(get = __get__Binder_k__BackingField, put = __set__Binder_k__BackingField))::System::Runtime::Serialization::SerializationBinder* _Binder_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Binder_k__BackingField,
+                      put = __cordl_internal_set__Binder_k__BackingField))::System::Runtime::Serialization::SerializationBinder* _Binder_k__BackingField;
 
   /// @brief Field <Error>k__BackingField, offset 0x108, size 0x8
-  __declspec(property(get = __get__Error_k__BackingField, put = __set__Error_k__BackingField))::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* _Error_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Error_k__BackingField,
+                      put = __cordl_internal_set__Error_k__BackingField))::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* _Error_k__BackingField;
 
   /// @brief Field DefaultContext, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_DefaultContext, put = setStaticF_DefaultContext))::System::Runtime::Serialization::StreamingContext DefaultContext;
@@ -369,191 +383,192 @@ public:
 
   __declspec(property(get = get_CheckAdditionalContent, put = set_CheckAdditionalContent)) bool CheckAdditionalContent;
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::Formatting>& __get__formatting();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::Formatting>& __cordl_internal_get__formatting();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::Formatting> const& __get__formatting() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::Formatting> const& __cordl_internal_get__formatting() const;
 
-  constexpr void __set__formatting(::System::Nullable_1<::Newtonsoft::Json::Formatting> value);
+  constexpr void __cordl_internal_set__formatting(::System::Nullable_1<::Newtonsoft::Json::Formatting> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::DateFormatHandling>& __get__dateFormatHandling();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::DateFormatHandling>& __cordl_internal_get__dateFormatHandling();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::DateFormatHandling> const& __get__dateFormatHandling() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::DateFormatHandling> const& __cordl_internal_get__dateFormatHandling() const;
 
-  constexpr void __set__dateFormatHandling(::System::Nullable_1<::Newtonsoft::Json::DateFormatHandling> value);
+  constexpr void __cordl_internal_set__dateFormatHandling(::System::Nullable_1<::Newtonsoft::Json::DateFormatHandling> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling>& __get__dateTimeZoneHandling();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling>& __cordl_internal_get__dateTimeZoneHandling();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling> const& __get__dateTimeZoneHandling() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling> const& __cordl_internal_get__dateTimeZoneHandling() const;
 
-  constexpr void __set__dateTimeZoneHandling(::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling> value);
+  constexpr void __cordl_internal_set__dateTimeZoneHandling(::System::Nullable_1<::Newtonsoft::Json::DateTimeZoneHandling> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::DateParseHandling>& __get__dateParseHandling();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::DateParseHandling>& __cordl_internal_get__dateParseHandling();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::DateParseHandling> const& __get__dateParseHandling() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::DateParseHandling> const& __cordl_internal_get__dateParseHandling() const;
 
-  constexpr void __set__dateParseHandling(::System::Nullable_1<::Newtonsoft::Json::DateParseHandling> value);
+  constexpr void __cordl_internal_set__dateParseHandling(::System::Nullable_1<::Newtonsoft::Json::DateParseHandling> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::FloatFormatHandling>& __get__floatFormatHandling();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::FloatFormatHandling>& __cordl_internal_get__floatFormatHandling();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::FloatFormatHandling> const& __get__floatFormatHandling() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::FloatFormatHandling> const& __cordl_internal_get__floatFormatHandling() const;
 
-  constexpr void __set__floatFormatHandling(::System::Nullable_1<::Newtonsoft::Json::FloatFormatHandling> value);
+  constexpr void __cordl_internal_set__floatFormatHandling(::System::Nullable_1<::Newtonsoft::Json::FloatFormatHandling> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling>& __get__floatParseHandling();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling>& __cordl_internal_get__floatParseHandling();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling> const& __get__floatParseHandling() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling> const& __cordl_internal_get__floatParseHandling() const;
 
-  constexpr void __set__floatParseHandling(::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling> value);
+  constexpr void __cordl_internal_set__floatParseHandling(::System::Nullable_1<::Newtonsoft::Json::FloatParseHandling> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::StringEscapeHandling>& __get__stringEscapeHandling();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::StringEscapeHandling>& __cordl_internal_get__stringEscapeHandling();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::StringEscapeHandling> const& __get__stringEscapeHandling() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::StringEscapeHandling> const& __cordl_internal_get__stringEscapeHandling() const;
 
-  constexpr void __set__stringEscapeHandling(::System::Nullable_1<::Newtonsoft::Json::StringEscapeHandling> value);
+  constexpr void __cordl_internal_set__stringEscapeHandling(::System::Nullable_1<::Newtonsoft::Json::StringEscapeHandling> value);
 
-  constexpr ::System::Globalization::CultureInfo*& __get__culture();
+  constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get__culture();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __get__culture() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __cordl_internal_get__culture() const;
 
-  constexpr void __set__culture(::System::Globalization::CultureInfo* value);
+  constexpr void __cordl_internal_set__culture(::System::Globalization::CultureInfo* value);
 
-  constexpr ::System::Nullable_1<bool>& __get__checkAdditionalContent();
+  constexpr ::System::Nullable_1<bool>& __cordl_internal_get__checkAdditionalContent();
 
-  constexpr ::System::Nullable_1<bool> const& __get__checkAdditionalContent() const;
+  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get__checkAdditionalContent() const;
 
-  constexpr void __set__checkAdditionalContent(::System::Nullable_1<bool> value);
+  constexpr void __cordl_internal_set__checkAdditionalContent(::System::Nullable_1<bool> value);
 
-  constexpr ::System::Nullable_1<int32_t>& __get__maxDepth();
+  constexpr ::System::Nullable_1<int32_t>& __cordl_internal_get__maxDepth();
 
-  constexpr ::System::Nullable_1<int32_t> const& __get__maxDepth() const;
+  constexpr ::System::Nullable_1<int32_t> const& __cordl_internal_get__maxDepth() const;
 
-  constexpr void __set__maxDepth(::System::Nullable_1<int32_t> value);
+  constexpr void __cordl_internal_set__maxDepth(::System::Nullable_1<int32_t> value);
 
-  constexpr bool& __get__maxDepthSet();
+  constexpr bool& __cordl_internal_get__maxDepthSet();
 
-  constexpr bool const& __get__maxDepthSet() const;
+  constexpr bool const& __cordl_internal_get__maxDepthSet() const;
 
-  constexpr void __set__maxDepthSet(bool value);
+  constexpr void __cordl_internal_set__maxDepthSet(bool value);
 
-  constexpr ::StringW& __get__dateFormatString();
+  constexpr ::StringW& __cordl_internal_get__dateFormatString();
 
-  constexpr ::StringW const& __get__dateFormatString() const;
+  constexpr ::StringW const& __cordl_internal_get__dateFormatString() const;
 
-  constexpr void __set__dateFormatString(::StringW value);
+  constexpr void __cordl_internal_set__dateFormatString(::StringW value);
 
-  constexpr bool& __get__dateFormatStringSet();
+  constexpr bool& __cordl_internal_get__dateFormatStringSet();
 
-  constexpr bool const& __get__dateFormatStringSet() const;
+  constexpr bool const& __cordl_internal_get__dateFormatStringSet() const;
 
-  constexpr void __set__dateFormatStringSet(bool value);
+  constexpr void __cordl_internal_set__dateFormatStringSet(bool value);
 
-  constexpr ::System::Nullable_1<::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle>& __get__typeNameAssemblyFormat();
+  constexpr ::System::Nullable_1<::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle>& __cordl_internal_get__typeNameAssemblyFormat();
 
-  constexpr ::System::Nullable_1<::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle> const& __get__typeNameAssemblyFormat() const;
+  constexpr ::System::Nullable_1<::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle> const& __cordl_internal_get__typeNameAssemblyFormat() const;
 
-  constexpr void __set__typeNameAssemblyFormat(::System::Nullable_1<::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle> value);
+  constexpr void __cordl_internal_set__typeNameAssemblyFormat(::System::Nullable_1<::System::Runtime::Serialization::Formatters::FormatterAssemblyStyle> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling>& __get__defaultValueHandling();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling>& __cordl_internal_get__defaultValueHandling();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> const& __get__defaultValueHandling() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> const& __cordl_internal_get__defaultValueHandling() const;
 
-  constexpr void __set__defaultValueHandling(::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> value);
+  constexpr void __cordl_internal_set__defaultValueHandling(::System::Nullable_1<::Newtonsoft::Json::DefaultValueHandling> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::PreserveReferencesHandling>& __get__preserveReferencesHandling();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::PreserveReferencesHandling>& __cordl_internal_get__preserveReferencesHandling();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::PreserveReferencesHandling> const& __get__preserveReferencesHandling() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::PreserveReferencesHandling> const& __cordl_internal_get__preserveReferencesHandling() const;
 
-  constexpr void __set__preserveReferencesHandling(::System::Nullable_1<::Newtonsoft::Json::PreserveReferencesHandling> value);
+  constexpr void __cordl_internal_set__preserveReferencesHandling(::System::Nullable_1<::Newtonsoft::Json::PreserveReferencesHandling> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling>& __get__nullValueHandling();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling>& __cordl_internal_get__nullValueHandling();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> const& __get__nullValueHandling() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> const& __cordl_internal_get__nullValueHandling() const;
 
-  constexpr void __set__nullValueHandling(::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> value);
+  constexpr void __cordl_internal_set__nullValueHandling(::System::Nullable_1<::Newtonsoft::Json::NullValueHandling> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling>& __get__objectCreationHandling();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling>& __cordl_internal_get__objectCreationHandling();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> const& __get__objectCreationHandling() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> const& __cordl_internal_get__objectCreationHandling() const;
 
-  constexpr void __set__objectCreationHandling(::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> value);
+  constexpr void __cordl_internal_set__objectCreationHandling(::System::Nullable_1<::Newtonsoft::Json::ObjectCreationHandling> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling>& __get__missingMemberHandling();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling>& __cordl_internal_get__missingMemberHandling();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling> const& __get__missingMemberHandling() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling> const& __cordl_internal_get__missingMemberHandling() const;
 
-  constexpr void __set__missingMemberHandling(::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling> value);
+  constexpr void __cordl_internal_set__missingMemberHandling(::System::Nullable_1<::Newtonsoft::Json::MissingMemberHandling> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& __get__referenceLoopHandling();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling>& __cordl_internal_get__referenceLoopHandling();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> const& __get__referenceLoopHandling() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> const& __cordl_internal_get__referenceLoopHandling() const;
 
-  constexpr void __set__referenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
+  constexpr void __cordl_internal_set__referenceLoopHandling(::System::Nullable_1<::Newtonsoft::Json::ReferenceLoopHandling> value);
 
-  constexpr ::System::Nullable_1<::System::Runtime::Serialization::StreamingContext>& __get__context();
+  constexpr ::System::Nullable_1<::System::Runtime::Serialization::StreamingContext>& __cordl_internal_get__context();
 
-  constexpr ::System::Nullable_1<::System::Runtime::Serialization::StreamingContext> const& __get__context() const;
+  constexpr ::System::Nullable_1<::System::Runtime::Serialization::StreamingContext> const& __cordl_internal_get__context() const;
 
-  constexpr void __set__context(::System::Nullable_1<::System::Runtime::Serialization::StreamingContext> value);
+  constexpr void __cordl_internal_set__context(::System::Nullable_1<::System::Runtime::Serialization::StreamingContext> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ConstructorHandling>& __get__constructorHandling();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ConstructorHandling>& __cordl_internal_get__constructorHandling();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::ConstructorHandling> const& __get__constructorHandling() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::ConstructorHandling> const& __cordl_internal_get__constructorHandling() const;
 
-  constexpr void __set__constructorHandling(::System::Nullable_1<::Newtonsoft::Json::ConstructorHandling> value);
+  constexpr void __cordl_internal_set__constructorHandling(::System::Nullable_1<::Newtonsoft::Json::ConstructorHandling> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& __get__typeNameHandling();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling>& __cordl_internal_get__typeNameHandling();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> const& __get__typeNameHandling() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> const& __cordl_internal_get__typeNameHandling() const;
 
-  constexpr void __set__typeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
+  constexpr void __cordl_internal_set__typeNameHandling(::System::Nullable_1<::Newtonsoft::Json::TypeNameHandling> value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::MetadataPropertyHandling>& __get__metadataPropertyHandling();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::MetadataPropertyHandling>& __cordl_internal_get__metadataPropertyHandling();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::MetadataPropertyHandling> const& __get__metadataPropertyHandling() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::MetadataPropertyHandling> const& __cordl_internal_get__metadataPropertyHandling() const;
 
-  constexpr void __set__metadataPropertyHandling(::System::Nullable_1<::Newtonsoft::Json::MetadataPropertyHandling> value);
+  constexpr void __cordl_internal_set__metadataPropertyHandling(::System::Nullable_1<::Newtonsoft::Json::MetadataPropertyHandling> value);
 
-  constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>*& __get__Converters_k__BackingField();
+  constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>*& __cordl_internal_get__Converters_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>*> const& __get__Converters_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>*> const& __cordl_internal_get__Converters_k__BackingField() const;
 
-  constexpr void __set__Converters_k__BackingField(::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>* value);
+  constexpr void __cordl_internal_set__Converters_k__BackingField(::System::Collections::Generic::IList_1<::Newtonsoft::Json::JsonConverter*>* value);
 
-  constexpr ::Newtonsoft::Json::Serialization::IContractResolver*& __get__ContractResolver_k__BackingField();
+  constexpr ::Newtonsoft::Json::Serialization::IContractResolver*& __cordl_internal_get__ContractResolver_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::IContractResolver*> const& __get__ContractResolver_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::IContractResolver*> const& __cordl_internal_get__ContractResolver_k__BackingField() const;
 
-  constexpr void __set__ContractResolver_k__BackingField(::Newtonsoft::Json::Serialization::IContractResolver* value);
+  constexpr void __cordl_internal_set__ContractResolver_k__BackingField(::Newtonsoft::Json::Serialization::IContractResolver* value);
 
-  constexpr ::System::Collections::IEqualityComparer*& __get__EqualityComparer_k__BackingField();
+  constexpr ::System::Collections::IEqualityComparer*& __cordl_internal_get__EqualityComparer_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEqualityComparer*> const& __get__EqualityComparer_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEqualityComparer*> const& __cordl_internal_get__EqualityComparer_k__BackingField() const;
 
-  constexpr void __set__EqualityComparer_k__BackingField(::System::Collections::IEqualityComparer* value);
+  constexpr void __cordl_internal_set__EqualityComparer_k__BackingField(::System::Collections::IEqualityComparer* value);
 
-  constexpr ::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>*& __get__ReferenceResolverProvider_k__BackingField();
+  constexpr ::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>*& __cordl_internal_get__ReferenceResolverProvider_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>*> const& __get__ReferenceResolverProvider_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>*> const&
+  __cordl_internal_get__ReferenceResolverProvider_k__BackingField() const;
 
-  constexpr void __set__ReferenceResolverProvider_k__BackingField(::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>* value);
+  constexpr void __cordl_internal_set__ReferenceResolverProvider_k__BackingField(::System::Func_1<::Newtonsoft::Json::Serialization::IReferenceResolver*>* value);
 
-  constexpr ::Newtonsoft::Json::Serialization::ITraceWriter*& __get__TraceWriter_k__BackingField();
+  constexpr ::Newtonsoft::Json::Serialization::ITraceWriter*& __cordl_internal_get__TraceWriter_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ITraceWriter*> const& __get__TraceWriter_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ITraceWriter*> const& __cordl_internal_get__TraceWriter_k__BackingField() const;
 
-  constexpr void __set__TraceWriter_k__BackingField(::Newtonsoft::Json::Serialization::ITraceWriter* value);
+  constexpr void __cordl_internal_set__TraceWriter_k__BackingField(::Newtonsoft::Json::Serialization::ITraceWriter* value);
 
-  constexpr ::System::Runtime::Serialization::SerializationBinder*& __get__Binder_k__BackingField();
+  constexpr ::System::Runtime::Serialization::SerializationBinder*& __cordl_internal_get__Binder_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationBinder*> const& __get__Binder_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationBinder*> const& __cordl_internal_get__Binder_k__BackingField() const;
 
-  constexpr void __set__Binder_k__BackingField(::System::Runtime::Serialization::SerializationBinder* value);
+  constexpr void __cordl_internal_set__Binder_k__BackingField(::System::Runtime::Serialization::SerializationBinder* value);
 
-  constexpr ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>*& __get__Error_k__BackingField();
+  constexpr ::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>*& __cordl_internal_get__Error_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>*> const& __get__Error_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>*> const& __cordl_internal_get__Error_k__BackingField() const;
 
-  constexpr void __set__Error_k__BackingField(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value);
+  constexpr void __cordl_internal_set__Error_k__BackingField(::System::EventHandler_1<::Newtonsoft::Json::Serialization::ErrorEventArgs*>* value);
 
   static inline void setStaticF_DefaultContext(::System::Runtime::Serialization::StreamingContext value);
 

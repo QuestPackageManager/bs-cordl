@@ -44,29 +44,29 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TSource>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11899))
 // CS Name: ::StringUtils::<>c__DisplayClass15_0`1<TSource>*
 class CORDL_TYPE __StringUtils____c__DisplayClass15_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field valueSelector, offset 0x10, size 0x8
-  __declspec(property(get = __get_valueSelector, put = __set_valueSelector))::System::Func_2<TSource, ::StringW>* valueSelector;
+  __declspec(property(get = __cordl_internal_get_valueSelector, put = __cordl_internal_set_valueSelector))::System::Func_2<TSource, ::StringW>* valueSelector;
 
   /// @brief Field testValue, offset 0x18, size 0x8
-  __declspec(property(get = __get_testValue, put = __set_testValue))::StringW testValue;
+  __declspec(property(get = __cordl_internal_get_testValue, put = __cordl_internal_set_testValue))::StringW testValue;
 
-  constexpr ::System::Func_2<TSource, ::StringW>*& __get_valueSelector();
+  constexpr ::System::Func_2<TSource, ::StringW>*& __cordl_internal_get_valueSelector();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, ::StringW>*> const& __get_valueSelector() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, ::StringW>*> const& __cordl_internal_get_valueSelector() const;
 
-  constexpr void __set_valueSelector(::System::Func_2<TSource, ::StringW>* value);
+  constexpr void __cordl_internal_set_valueSelector(::System::Func_2<TSource, ::StringW>* value);
 
-  constexpr ::StringW& __get_testValue();
+  constexpr ::StringW& __cordl_internal_get_testValue();
 
-  constexpr ::StringW const& __get_testValue() const;
+  constexpr ::StringW const& __cordl_internal_get_testValue() const;
 
-  constexpr void __set_testValue(::StringW value);
+  constexpr void __cordl_internal_set_testValue(::StringW value);
 
   static inline ::Newtonsoft::Json::Utilities::__StringUtils____c__DisplayClass15_0_1<TSource>* New_ctor();
 
@@ -107,7 +107,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11900))
 // CS Name: ::Newtonsoft.Json.Utilities::StringUtils*
 class CORDL_TYPE StringUtils : public ::System::Object {

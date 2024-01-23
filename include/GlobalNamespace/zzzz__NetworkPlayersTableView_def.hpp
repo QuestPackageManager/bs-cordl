@@ -61,7 +61,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__NetworkPlayersTableView__CellInfo);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5585))
 // CS Name: ::NetworkPlayersTableView::CellInfo::CellType
 struct CORDL_TYPE __NetworkPlayersTableView__CellInfo__CellType {
@@ -115,7 +115,7 @@ static_assert(offsetof(::GlobalNamespace::__NetworkPlayersTableView__CellInfo__C
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5585))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5585))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5586))
 // CS Name: ::NetworkPlayersTableView::CellInfo*
 class CORDL_TYPE __NetworkPlayersTableView__CellInfo : public ::System::Object {
@@ -124,40 +124,40 @@ public:
   using CellType = ::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType;
 
   /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __get_type, put = __set_type))::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType type;
 
   /// @brief Field headerString, offset 0x18, size 0x8
-  __declspec(property(get = __get_headerString, put = __set_headerString))::StringW headerString;
+  __declspec(property(get = __cordl_internal_get_headerString, put = __cordl_internal_set_headerString))::StringW headerString;
 
   /// @brief Field player, offset 0x20, size 0x8
-  __declspec(property(get = __get_player, put = __set_player))::GlobalNamespace::INetworkPlayer* player;
+  __declspec(property(get = __cordl_internal_get_player, put = __cordl_internal_set_player))::GlobalNamespace::INetworkPlayer* player;
 
   /// @brief Field lastCellInParty, offset 0x28, size 0x1
-  __declspec(property(get = __get_lastCellInParty, put = __set_lastCellInParty)) bool lastCellInParty;
+  __declspec(property(get = __cordl_internal_get_lastCellInParty, put = __cordl_internal_set_lastCellInParty)) bool lastCellInParty;
 
-  constexpr ::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType& __get_type();
+  constexpr ::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType& __cordl_internal_get_type();
 
-  constexpr ::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType const& __get_type() const;
+  constexpr ::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType value);
+  constexpr void __cordl_internal_set_type(::GlobalNamespace::__NetworkPlayersTableView__CellInfo__CellType value);
 
-  constexpr ::StringW& __get_headerString();
+  constexpr ::StringW& __cordl_internal_get_headerString();
 
-  constexpr ::StringW const& __get_headerString() const;
+  constexpr ::StringW const& __cordl_internal_get_headerString() const;
 
-  constexpr void __set_headerString(::StringW value);
+  constexpr void __cordl_internal_set_headerString(::StringW value);
 
-  constexpr ::GlobalNamespace::INetworkPlayer*& __get_player();
+  constexpr ::GlobalNamespace::INetworkPlayer*& __cordl_internal_get_player();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __get_player() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __cordl_internal_get_player() const;
 
-  constexpr void __set_player(::GlobalNamespace::INetworkPlayer* value);
+  constexpr void __cordl_internal_set_player(::GlobalNamespace::INetworkPlayer* value);
 
-  constexpr bool& __get_lastCellInParty();
+  constexpr bool& __cordl_internal_get_lastCellInParty();
 
-  constexpr bool const& __get_lastCellInParty() const;
+  constexpr bool const& __cordl_internal_get_lastCellInParty() const;
 
-  constexpr void __set_lastCellInParty(bool value);
+  constexpr void __cordl_internal_set_lastCellInParty(bool value);
 
   static inline ::GlobalNamespace::__NetworkPlayersTableView__CellInfo* New_ctor();
 
@@ -208,7 +208,7 @@ static_assert(offsetof(::GlobalNamespace::__NetworkPlayersTableView__CellInfo, _
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5587))
 // CS Name: ::NetworkPlayersTableView*
 class CORDL_TYPE NetworkPlayersTableView : public ::UnityEngine::MonoBehaviour {
@@ -217,31 +217,32 @@ public:
   using CellInfo = ::GlobalNamespace::__NetworkPlayersTableView__CellInfo;
 
   /// @brief Field _tableView, offset 0x18, size 0x8
-  __declspec(property(get = __get__tableView, put = __set__tableView))::HMUI::TableView* _tableView;
+  __declspec(property(get = __cordl_internal_get__tableView, put = __cordl_internal_set__tableView))::UnityW<::HMUI::TableView> _tableView;
 
   /// @brief Field _playerCellPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__playerCellPrefab, put = __set__playerCellPrefab))::GlobalNamespace::NetworkPlayerTableCell* _playerCellPrefab;
+  __declspec(property(get = __cordl_internal_get__playerCellPrefab, put = __cordl_internal_set__playerCellPrefab))::UnityW<::GlobalNamespace::NetworkPlayerTableCell> _playerCellPrefab;
 
   /// @brief Field _optionsCellPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __get__optionsCellPrefab, put = __set__optionsCellPrefab))::GlobalNamespace::NetworkPlayerOptionsTableCell* _optionsCellPrefab;
+  __declspec(property(get = __cordl_internal_get__optionsCellPrefab, put = __cordl_internal_set__optionsCellPrefab))::UnityW<::GlobalNamespace::NetworkPlayerOptionsTableCell> _optionsCellPrefab;
 
   /// @brief Field _headerCellPrefab, offset 0x30, size 0x8
-  __declspec(property(get = __get__headerCellPrefab, put = __set__headerCellPrefab))::GlobalNamespace::LevelPackHeaderTableCell* _headerCellPrefab;
+  __declspec(property(get = __cordl_internal_get__headerCellPrefab, put = __cordl_internal_set__headerCellPrefab))::UnityW<::GlobalNamespace::LevelPackHeaderTableCell> _headerCellPrefab;
 
   /// @brief Field _rowHeight, offset 0x38, size 0x4
-  __declspec(property(get = __get__rowHeight, put = __set__rowHeight)) float_t _rowHeight;
+  __declspec(property(get = __cordl_internal_get__rowHeight, put = __cordl_internal_set__rowHeight)) float_t _rowHeight;
 
   /// @brief Field _cellInfo, offset 0x40, size 0x8
-  __declspec(property(get = __get__cellInfo, put = __set__cellInfo))::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayersTableView__CellInfo*>* _cellInfo;
+  __declspec(property(get = __cordl_internal_get__cellInfo,
+                      put = __cordl_internal_set__cellInfo))::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayersTableView__CellInfo*>* _cellInfo;
 
   /// @brief Field _selectedCellIndex, offset 0x48, size 0x4
-  __declspec(property(get = __get__selectedCellIndex, put = __set__selectedCellIndex)) int32_t _selectedCellIndex;
+  __declspec(property(get = __cordl_internal_get__selectedCellIndex, put = __cordl_internal_set__selectedCellIndex)) int32_t _selectedCellIndex;
 
   /// @brief Field _selectedPlayerID, offset 0x50, size 0x8
-  __declspec(property(get = __get__selectedPlayerID, put = __set__selectedPlayerID))::StringW _selectedPlayerID;
+  __declspec(property(get = __cordl_internal_get__selectedPlayerID, put = __cordl_internal_set__selectedPlayerID))::StringW _selectedPlayerID;
 
   /// @brief Field _selectedCellHasOptions, offset 0x58, size 0x1
-  __declspec(property(get = __get__selectedCellHasOptions, put = __set__selectedCellHasOptions)) bool _selectedCellHasOptions;
+  __declspec(property(get = __cordl_internal_get__selectedCellHasOptions, put = __cordl_internal_set__selectedCellHasOptions)) bool _selectedCellHasOptions;
 
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
@@ -249,59 +250,59 @@ public:
   /// @brief Convert to "::HMUI::__TableView__IDataSource"
   constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
-  constexpr ::HMUI::TableView*& __get__tableView();
+  constexpr ::UnityW<::HMUI::TableView>& __cordl_internal_get__tableView();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::TableView*> const& __get__tableView() const;
+  constexpr ::UnityW<::HMUI::TableView> const& __cordl_internal_get__tableView() const;
 
-  constexpr void __set__tableView(::HMUI::TableView* value);
+  constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
 
-  constexpr ::GlobalNamespace::NetworkPlayerTableCell*& __get__playerCellPrefab();
+  constexpr ::UnityW<::GlobalNamespace::NetworkPlayerTableCell>& __cordl_internal_get__playerCellPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPlayerTableCell*> const& __get__playerCellPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::NetworkPlayerTableCell> const& __cordl_internal_get__playerCellPrefab() const;
 
-  constexpr void __set__playerCellPrefab(::GlobalNamespace::NetworkPlayerTableCell* value);
+  constexpr void __cordl_internal_set__playerCellPrefab(::UnityW<::GlobalNamespace::NetworkPlayerTableCell> value);
 
-  constexpr ::GlobalNamespace::NetworkPlayerOptionsTableCell*& __get__optionsCellPrefab();
+  constexpr ::UnityW<::GlobalNamespace::NetworkPlayerOptionsTableCell>& __cordl_internal_get__optionsCellPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPlayerOptionsTableCell*> const& __get__optionsCellPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::NetworkPlayerOptionsTableCell> const& __cordl_internal_get__optionsCellPrefab() const;
 
-  constexpr void __set__optionsCellPrefab(::GlobalNamespace::NetworkPlayerOptionsTableCell* value);
+  constexpr void __cordl_internal_set__optionsCellPrefab(::UnityW<::GlobalNamespace::NetworkPlayerOptionsTableCell> value);
 
-  constexpr ::GlobalNamespace::LevelPackHeaderTableCell*& __get__headerCellPrefab();
+  constexpr ::UnityW<::GlobalNamespace::LevelPackHeaderTableCell>& __cordl_internal_get__headerCellPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelPackHeaderTableCell*> const& __get__headerCellPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::LevelPackHeaderTableCell> const& __cordl_internal_get__headerCellPrefab() const;
 
-  constexpr void __set__headerCellPrefab(::GlobalNamespace::LevelPackHeaderTableCell* value);
+  constexpr void __cordl_internal_set__headerCellPrefab(::UnityW<::GlobalNamespace::LevelPackHeaderTableCell> value);
 
-  constexpr float_t& __get__rowHeight();
+  constexpr float_t& __cordl_internal_get__rowHeight();
 
-  constexpr float_t const& __get__rowHeight() const;
+  constexpr float_t const& __cordl_internal_get__rowHeight() const;
 
-  constexpr void __set__rowHeight(float_t value);
+  constexpr void __cordl_internal_set__rowHeight(float_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayersTableView__CellInfo*>*& __get__cellInfo();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayersTableView__CellInfo*>*& __cordl_internal_get__cellInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayersTableView__CellInfo*>*> const& __get__cellInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayersTableView__CellInfo*>*> const& __cordl_internal_get__cellInfo() const;
 
-  constexpr void __set__cellInfo(::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayersTableView__CellInfo*>* value);
+  constexpr void __cordl_internal_set__cellInfo(::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayersTableView__CellInfo*>* value);
 
-  constexpr int32_t& __get__selectedCellIndex();
+  constexpr int32_t& __cordl_internal_get__selectedCellIndex();
 
-  constexpr int32_t const& __get__selectedCellIndex() const;
+  constexpr int32_t const& __cordl_internal_get__selectedCellIndex() const;
 
-  constexpr void __set__selectedCellIndex(int32_t value);
+  constexpr void __cordl_internal_set__selectedCellIndex(int32_t value);
 
-  constexpr ::StringW& __get__selectedPlayerID();
+  constexpr ::StringW& __cordl_internal_get__selectedPlayerID();
 
-  constexpr ::StringW const& __get__selectedPlayerID() const;
+  constexpr ::StringW const& __cordl_internal_get__selectedPlayerID() const;
 
-  constexpr void __set__selectedPlayerID(::StringW value);
+  constexpr void __cordl_internal_set__selectedPlayerID(::StringW value);
 
-  constexpr bool& __get__selectedCellHasOptions();
+  constexpr bool& __cordl_internal_get__selectedCellHasOptions();
 
-  constexpr bool const& __get__selectedCellHasOptions() const;
+  constexpr bool const& __cordl_internal_get__selectedCellHasOptions() const;
 
-  constexpr void __set__selectedCellHasOptions(bool value);
+  constexpr void __cordl_internal_set__selectedCellHasOptions(bool value);
 
   /// @brief Method CellSize, addr 0x22a87f8, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize();
@@ -310,7 +311,7 @@ public:
   inline int32_t NumberOfCells();
 
   /// @brief Method CellForIdx, addr 0x22a8848, size 0x5c4, virtual true, abstract: false, final true
-  inline ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int32_t row);
+  inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
   /// @brief Method AddPlayers, addr 0x22a8ed4, size 0x6b8, virtual false, abstract: false, final false
   inline void AddPlayers(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* players, ::StringW title);
@@ -345,16 +346,16 @@ protected:
 
 public:
   /// @brief Field _tableView, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::TableView* ____tableView;
+  ::UnityW<::HMUI::TableView> ____tableView;
 
   /// @brief Field _playerCellPrefab, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::NetworkPlayerTableCell* ____playerCellPrefab;
+  ::UnityW<::GlobalNamespace::NetworkPlayerTableCell> ____playerCellPrefab;
 
   /// @brief Field _optionsCellPrefab, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::NetworkPlayerOptionsTableCell* ____optionsCellPrefab;
+  ::UnityW<::GlobalNamespace::NetworkPlayerOptionsTableCell> ____optionsCellPrefab;
 
   /// @brief Field _headerCellPrefab, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::LevelPackHeaderTableCell* ____headerCellPrefab;
+  ::UnityW<::GlobalNamespace::LevelPackHeaderTableCell> ____headerCellPrefab;
 
   /// @brief Field _rowHeight, offset: 0x38, size: 0x4, def value: None
   float_t ____rowHeight;

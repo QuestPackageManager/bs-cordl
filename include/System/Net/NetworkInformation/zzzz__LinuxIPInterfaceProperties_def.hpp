@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::LinuxIPInterfaceProperties);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9290))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9290))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9267))
 // CS Name: ::System.Net.NetworkInformation::LinuxIPInterfaceProperties*
 class CORDL_TYPE LinuxIPInterfaceProperties : public ::System::Net::NetworkInformation::UnixIPInterfaceProperties {

@@ -31,7 +31,7 @@ namespace UnityEngine::Timeline {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13880))
 // CS Name: ::IntervalTree`1::Entry<T>
 struct CORDL_TYPE __IntervalTree_1__Entry {
@@ -67,7 +67,7 @@ namespace UnityEngine::Timeline {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13881))
 // CS Name: ::UnityEngine.Timeline::IntervalTree`1<T>*
 class CORDL_TYPE IntervalTree_1 : public ::System::Object {
@@ -76,33 +76,34 @@ public:
   using Entry = ::UnityEngine::Timeline::__IntervalTree_1__Entry<T>;
 
   /// @brief Field m_Entries, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Entries, put = __set_m_Entries))::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>* m_Entries;
+  __declspec(property(get = __cordl_internal_get_m_Entries,
+                      put = __cordl_internal_set_m_Entries))::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>* m_Entries;
 
   /// @brief Field m_Nodes, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Nodes, put = __set_m_Nodes))::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>* m_Nodes;
+  __declspec(property(get = __cordl_internal_get_m_Nodes, put = __cordl_internal_set_m_Nodes))::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>* m_Nodes;
 
   /// @brief Field <dirty>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __get__dirty_k__BackingField, put = __set__dirty_k__BackingField)) bool _dirty_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__dirty_k__BackingField, put = __cordl_internal_set__dirty_k__BackingField)) bool _dirty_k__BackingField;
 
   __declspec(property(get = get_dirty, put = set_dirty)) bool dirty;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>*& __get_m_Entries();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>*& __cordl_internal_get_m_Entries();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>*> const& __get_m_Entries() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>*> const& __cordl_internal_get_m_Entries() const;
 
-  constexpr void __set_m_Entries(::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>* value);
+  constexpr void __cordl_internal_set_m_Entries(::System::Collections::Generic::List_1<::UnityEngine::Timeline::__IntervalTree_1__Entry<T>>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>*& __get_m_Nodes();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>*& __cordl_internal_get_m_Nodes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>*> const& __get_m_Nodes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>*> const& __cordl_internal_get_m_Nodes() const;
 
-  constexpr void __set_m_Nodes(::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>* value);
+  constexpr void __cordl_internal_set_m_Nodes(::System::Collections::Generic::List_1<::UnityEngine::Timeline::IntervalTreeNode>* value);
 
-  constexpr bool& __get__dirty_k__BackingField();
+  constexpr bool& __cordl_internal_get__dirty_k__BackingField();
 
-  constexpr bool const& __get__dirty_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__dirty_k__BackingField() const;
 
-  constexpr void __set__dirty_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__dirty_k__BackingField(bool value);
 
   /// @brief Method get_dirty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_dirty();

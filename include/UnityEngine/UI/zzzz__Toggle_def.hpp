@@ -62,7 +62,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::__Toggle__ToggleEvent);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13129))
 // CS Name: ::Toggle::ToggleTransition
 struct CORDL_TYPE __Toggle__ToggleTransition {
@@ -112,7 +112,7 @@ static_assert(offsetof(::UnityEngine::UI::__Toggle__ToggleTransition, value__) =
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(10465))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 105 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13130))
 // CS Name: ::Toggle::ToggleEvent*
 class CORDL_TYPE __Toggle__ToggleEvent : public ::UnityEngine::Events::UnityEvent_1<bool> {
@@ -147,7 +147,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Toggle__Toggl
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 281, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(13129))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(13129))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13131))
 // CS Name: ::UnityEngine.UI::Toggle*
 class CORDL_TYPE Toggle : public ::UnityEngine::UI::Selectable {
@@ -158,21 +158,21 @@ public:
   using ToggleTransition = ::UnityEngine::UI::__Toggle__ToggleTransition;
 
   /// @brief Field toggleTransition, offset 0xf8, size 0x4
-  __declspec(property(get = __get_toggleTransition, put = __set_toggleTransition))::UnityEngine::UI::__Toggle__ToggleTransition toggleTransition;
+  __declspec(property(get = __cordl_internal_get_toggleTransition, put = __cordl_internal_set_toggleTransition))::UnityEngine::UI::__Toggle__ToggleTransition toggleTransition;
 
   /// @brief Field graphic, offset 0x100, size 0x8
-  __declspec(property(get = __get_graphic, put = __set_graphic))::UnityEngine::UI::Graphic* graphic;
+  __declspec(property(get = __cordl_internal_get_graphic, put = __cordl_internal_set_graphic))::UnityW<::UnityEngine::UI::Graphic> graphic;
 
   /// @brief Field m_Group, offset 0x108, size 0x8
-  __declspec(property(get = __get_m_Group, put = __set_m_Group))::UnityEngine::UI::ToggleGroup* m_Group;
+  __declspec(property(get = __cordl_internal_get_m_Group, put = __cordl_internal_set_m_Group))::UnityW<::UnityEngine::UI::ToggleGroup> m_Group;
 
   /// @brief Field onValueChanged, offset 0x110, size 0x8
-  __declspec(property(get = __get_onValueChanged, put = __set_onValueChanged))::UnityEngine::UI::__Toggle__ToggleEvent* onValueChanged;
+  __declspec(property(get = __cordl_internal_get_onValueChanged, put = __cordl_internal_set_onValueChanged))::UnityEngine::UI::__Toggle__ToggleEvent* onValueChanged;
 
   /// @brief Field m_IsOn, offset 0x118, size 0x1
-  __declspec(property(get = __get_m_IsOn, put = __set_m_IsOn)) bool m_IsOn;
+  __declspec(property(get = __cordl_internal_get_m_IsOn, put = __cordl_internal_set_m_IsOn)) bool m_IsOn;
 
-  __declspec(property(get = get_group, put = set_group))::UnityEngine::UI::ToggleGroup* group;
+  __declspec(property(get = get_group, put = set_group))::UnityW<::UnityEngine::UI::ToggleGroup> group;
 
   __declspec(property(get = get_isOn, put = set_isOn)) bool isOn;
 
@@ -200,38 +200,38 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
   constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
-  constexpr ::UnityEngine::UI::__Toggle__ToggleTransition& __get_toggleTransition();
+  constexpr ::UnityEngine::UI::__Toggle__ToggleTransition& __cordl_internal_get_toggleTransition();
 
-  constexpr ::UnityEngine::UI::__Toggle__ToggleTransition const& __get_toggleTransition() const;
+  constexpr ::UnityEngine::UI::__Toggle__ToggleTransition const& __cordl_internal_get_toggleTransition() const;
 
-  constexpr void __set_toggleTransition(::UnityEngine::UI::__Toggle__ToggleTransition value);
+  constexpr void __cordl_internal_set_toggleTransition(::UnityEngine::UI::__Toggle__ToggleTransition value);
 
-  constexpr ::UnityEngine::UI::Graphic*& __get_graphic();
+  constexpr ::UnityW<::UnityEngine::UI::Graphic>& __cordl_internal_get_graphic();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Graphic*> const& __get_graphic() const;
+  constexpr ::UnityW<::UnityEngine::UI::Graphic> const& __cordl_internal_get_graphic() const;
 
-  constexpr void __set_graphic(::UnityEngine::UI::Graphic* value);
+  constexpr void __cordl_internal_set_graphic(::UnityW<::UnityEngine::UI::Graphic> value);
 
-  constexpr ::UnityEngine::UI::ToggleGroup*& __get_m_Group();
+  constexpr ::UnityW<::UnityEngine::UI::ToggleGroup>& __cordl_internal_get_m_Group();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::ToggleGroup*> const& __get_m_Group() const;
+  constexpr ::UnityW<::UnityEngine::UI::ToggleGroup> const& __cordl_internal_get_m_Group() const;
 
-  constexpr void __set_m_Group(::UnityEngine::UI::ToggleGroup* value);
+  constexpr void __cordl_internal_set_m_Group(::UnityW<::UnityEngine::UI::ToggleGroup> value);
 
-  constexpr ::UnityEngine::UI::__Toggle__ToggleEvent*& __get_onValueChanged();
+  constexpr ::UnityEngine::UI::__Toggle__ToggleEvent*& __cordl_internal_get_onValueChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__Toggle__ToggleEvent*> const& __get_onValueChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__Toggle__ToggleEvent*> const& __cordl_internal_get_onValueChanged() const;
 
-  constexpr void __set_onValueChanged(::UnityEngine::UI::__Toggle__ToggleEvent* value);
+  constexpr void __cordl_internal_set_onValueChanged(::UnityEngine::UI::__Toggle__ToggleEvent* value);
 
-  constexpr bool& __get_m_IsOn();
+  constexpr bool& __cordl_internal_get_m_IsOn();
 
-  constexpr bool const& __get_m_IsOn() const;
+  constexpr bool const& __cordl_internal_get_m_IsOn() const;
 
-  constexpr void __set_m_IsOn(bool value);
+  constexpr void __cordl_internal_set_m_IsOn(bool value);
 
   /// @brief Method get_group, addr 0x2d8c56c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::ToggleGroup* get_group();
+  inline ::UnityW<::UnityEngine::UI::ToggleGroup> get_group();
 
   /// @brief Method set_group, addr 0x2d8c574, size 0x20, virtual false, abstract: false, final false
   inline void set_group(::UnityEngine::UI::ToggleGroup* value);
@@ -293,7 +293,7 @@ public:
   inline void OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData);
 
   /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x2d8d414, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
+  inline ::UnityW<::UnityEngine::Transform> UnityEngine_UI_ICanvasElement_get_transform();
 
   // Ctor Parameters [CppParam { name: "", ty: "Toggle", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -313,10 +313,10 @@ public:
   ::UnityEngine::UI::__Toggle__ToggleTransition ___toggleTransition;
 
   /// @brief Field graphic, offset: 0x100, size: 0x8, def value: None
-  ::UnityEngine::UI::Graphic* ___graphic;
+  ::UnityW<::UnityEngine::UI::Graphic> ___graphic;
 
   /// @brief Field m_Group, offset: 0x108, size: 0x8, def value: None
-  ::UnityEngine::UI::ToggleGroup* ___m_Group;
+  ::UnityW<::UnityEngine::UI::ToggleGroup> ___m_Group;
 
   /// @brief Field onValueChanged, offset: 0x110, size: 0x8, def value: None
   ::UnityEngine::UI::__Toggle__ToggleEvent* ___onValueChanged;

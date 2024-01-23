@@ -141,38 +141,39 @@ MARK_REF_PTR_T(::GlobalNamespace::__LobbyGameStateController____c__DisplayClass9
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4500))
 // CS Name: ::LobbyGameStateController::<>c__DisplayClass98_0*
 class CORDL_TYPE __LobbyGameStateController____c__DisplayClass98_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::LobbyGameStateController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::LobbyGameStateController* __4__this;
 
   /// @brief Field getGameStateAsyncTcs, offset 0x18, size 0x8
-  __declspec(property(get = __get_getGameStateAsyncTcs, put = __set_getGameStateAsyncTcs))::System::Threading::Tasks::TaskCompletionSource_1<bool>* getGameStateAsyncTcs;
+  __declspec(property(get = __cordl_internal_get_getGameStateAsyncTcs, put = __cordl_internal_set_getGameStateAsyncTcs))::System::Threading::Tasks::TaskCompletionSource_1<bool>* getGameStateAsyncTcs;
 
   /// @brief Field getPlayerPermissionAsyncTcs, offset 0x20, size 0x8
-  __declspec(property(get = __get_getPlayerPermissionAsyncTcs, put = __set_getPlayerPermissionAsyncTcs))::System::Threading::Tasks::TaskCompletionSource_1<bool>* getPlayerPermissionAsyncTcs;
+  __declspec(property(get = __cordl_internal_get_getPlayerPermissionAsyncTcs,
+                      put = __cordl_internal_set_getPlayerPermissionAsyncTcs))::System::Threading::Tasks::TaskCompletionSource_1<bool>* getPlayerPermissionAsyncTcs;
 
-  constexpr ::GlobalNamespace::LobbyGameStateController*& __get___4__this();
+  constexpr ::GlobalNamespace::LobbyGameStateController*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyGameStateController*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyGameStateController*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::LobbyGameStateController* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::LobbyGameStateController* value);
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __get_getGameStateAsyncTcs();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get_getGameStateAsyncTcs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __get_getGameStateAsyncTcs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __cordl_internal_get_getGameStateAsyncTcs() const;
 
-  constexpr void __set_getGameStateAsyncTcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+  constexpr void __cordl_internal_set_getGameStateAsyncTcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __get_getPlayerPermissionAsyncTcs();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get_getPlayerPermissionAsyncTcs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __get_getPlayerPermissionAsyncTcs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __cordl_internal_get_getPlayerPermissionAsyncTcs() const;
 
-  constexpr void __set_getPlayerPermissionAsyncTcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+  constexpr void __cordl_internal_set_getPlayerPermissionAsyncTcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
   static inline ::GlobalNamespace::__LobbyGameStateController____c__DisplayClass98_0* New_ctor();
 
@@ -229,7 +230,7 @@ static_assert(offsetof(::GlobalNamespace::__LobbyGameStateController____c__Displ
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4501))
 // CS Name: ::LobbyGameStateController::<>c*
 class CORDL_TYPE __LobbyGameStateController____c : public ::System::Object {
@@ -282,8 +283,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LobbyGameStat
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12720)), TypeDefinitionIndex(TypeDefinitionIndex(12688)), TypeDefinitionIndex(TypeDefinitionIndex(12879)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4502)) CS Name: ::LobbyGameStateController*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12688)), TypeDefinitionIndex(TypeDefinitionIndex(12720)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12879))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4502)) CS Name: ::LobbyGameStateController*
 class CORDL_TYPE LobbyGameStateController : public ::System::Object {
 public:
   // Declarations
@@ -292,113 +293,123 @@ public:
   using __c__DisplayClass98_0 = ::GlobalNamespace::__LobbyGameStateController____c__DisplayClass98_0;
 
   /// @brief Field _lobbyPlayersDataModel, offset 0x10, size 0x8
-  __declspec(property(get = __get__lobbyPlayersDataModel, put = __set__lobbyPlayersDataModel))::GlobalNamespace::ILobbyPlayersDataModel* _lobbyPlayersDataModel;
+  __declspec(property(get = __cordl_internal_get__lobbyPlayersDataModel, put = __cordl_internal_set__lobbyPlayersDataModel))::GlobalNamespace::ILobbyPlayersDataModel* _lobbyPlayersDataModel;
 
   /// @brief Field _playerDataModel, offset 0x18, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _menuRpcManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__menuRpcManager, put = __set__menuRpcManager))::GlobalNamespace::IMenuRpcManager* _menuRpcManager;
+  __declspec(property(get = __cordl_internal_get__menuRpcManager, put = __cordl_internal_set__menuRpcManager))::GlobalNamespace::IMenuRpcManager* _menuRpcManager;
 
   /// @brief Field _multiplayerSessionManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _multiplayerLevelLoader, offset 0x30, size 0x8
-  __declspec(property(get = __get__multiplayerLevelLoader, put = __set__multiplayerLevelLoader))::GlobalNamespace::MultiplayerLevelLoader* _multiplayerLevelLoader;
+  __declspec(property(get = __cordl_internal_get__multiplayerLevelLoader, put = __cordl_internal_set__multiplayerLevelLoader))::GlobalNamespace::MultiplayerLevelLoader* _multiplayerLevelLoader;
 
   /// @brief Field _menuTransitionsHelper, offset 0x38, size 0x8
-  __declspec(property(get = __get__menuTransitionsHelper, put = __set__menuTransitionsHelper))::GlobalNamespace::MenuTransitionsHelper* _menuTransitionsHelper;
+  __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper))::UnityW<::GlobalNamespace::MenuTransitionsHelper> _menuTransitionsHelper;
 
   /// @brief Field _lobbyGameStateModel, offset 0x40, size 0x8
-  __declspec(property(get = __get__lobbyGameStateModel, put = __set__lobbyGameStateModel))::GlobalNamespace::LobbyGameStateModel* _lobbyGameStateModel;
+  __declspec(property(get = __cordl_internal_get__lobbyGameStateModel, put = __cordl_internal_set__lobbyGameStateModel))::GlobalNamespace::LobbyGameStateModel* _lobbyGameStateModel;
 
   /// @brief Field _lobbyPlayerPermissionsModel, offset 0x48, size 0x8
-  __declspec(property(get = __get__lobbyPlayerPermissionsModel, put = __set__lobbyPlayerPermissionsModel))::GlobalNamespace::LobbyPlayerPermissionsModel* _lobbyPlayerPermissionsModel;
+  __declspec(property(get = __cordl_internal_get__lobbyPlayerPermissionsModel,
+                      put = __cordl_internal_set__lobbyPlayerPermissionsModel))::GlobalNamespace::LobbyPlayerPermissionsModel* _lobbyPlayerPermissionsModel;
 
   /// @brief Field _beatmapLevelsModel, offset 0x50, size 0x8
-  __declspec(property(get = __get__beatmapLevelsModel, put = __set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::UnityW<::GlobalNamespace::BeatmapLevelsModel> _beatmapLevelsModel;
 
   /// @brief Field _beatmapCharacteristicCollection, offset 0x58, size 0x8
-  __declspec(property(get = __get__beatmapCharacteristicCollection, put = __set__beatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristicCollection;
+  __declspec(property(get = __cordl_internal_get__beatmapCharacteristicCollection,
+                      put = __cordl_internal_set__beatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristicCollection;
 
   /// @brief Field selectedLevelGameplaySetupDataChangedEvent, offset 0x60, size 0x8
-  __declspec(property(get = __get_selectedLevelGameplaySetupDataChangedEvent,
-                      put = __set_selectedLevelGameplaySetupDataChangedEvent))::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* selectedLevelGameplaySetupDataChangedEvent;
+  __declspec(
+      property(get = __cordl_internal_get_selectedLevelGameplaySetupDataChangedEvent,
+               put = __cordl_internal_set_selectedLevelGameplaySetupDataChangedEvent))::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* selectedLevelGameplaySetupDataChangedEvent;
 
   /// @brief Field gameStartedEvent, offset 0x68, size 0x8
-  __declspec(property(get = __get_gameStartedEvent, put = __set_gameStartedEvent))::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* gameStartedEvent;
+  __declspec(property(get = __cordl_internal_get_gameStartedEvent, put = __cordl_internal_set_gameStartedEvent))::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* gameStartedEvent;
 
   /// @brief Field gameStartCancelledEvent, offset 0x70, size 0x8
-  __declspec(property(get = __get_gameStartCancelledEvent, put = __set_gameStartCancelledEvent))::System::Action* gameStartCancelledEvent;
+  __declspec(property(get = __cordl_internal_get_gameStartCancelledEvent, put = __cordl_internal_set_gameStartCancelledEvent))::System::Action* gameStartCancelledEvent;
 
   /// @brief Field countdownStartedEvent, offset 0x78, size 0x8
-  __declspec(property(get = __get_countdownStartedEvent, put = __set_countdownStartedEvent))::System::Action* countdownStartedEvent;
+  __declspec(property(get = __cordl_internal_get_countdownStartedEvent, put = __cordl_internal_set_countdownStartedEvent))::System::Action* countdownStartedEvent;
 
   /// @brief Field countdownCancelledEvent, offset 0x80, size 0x8
-  __declspec(property(get = __get_countdownCancelledEvent, put = __set_countdownCancelledEvent))::System::Action* countdownCancelledEvent;
+  __declspec(property(get = __cordl_internal_get_countdownCancelledEvent, put = __cordl_internal_set_countdownCancelledEvent))::System::Action* countdownCancelledEvent;
 
   /// @brief Field songStillDownloadingEvent, offset 0x88, size 0x8
-  __declspec(property(get = __get_songStillDownloadingEvent, put = __set_songStillDownloadingEvent))::System::Action* songStillDownloadingEvent;
+  __declspec(property(get = __cordl_internal_get_songStillDownloadingEvent, put = __cordl_internal_set_songStillDownloadingEvent))::System::Action* songStillDownloadingEvent;
 
   /// @brief Field startTimeChangedEvent, offset 0x90, size 0x8
-  __declspec(property(get = __get_startTimeChangedEvent, put = __set_startTimeChangedEvent))::System::Action* startTimeChangedEvent;
+  __declspec(property(get = __cordl_internal_get_startTimeChangedEvent, put = __cordl_internal_set_startTimeChangedEvent))::System::Action* startTimeChangedEvent;
 
   /// @brief Field levelFinishedEvent, offset 0x98, size 0x8
-  __declspec(
-      property(get = __get_levelFinishedEvent,
-               put = __set_levelFinishedEvent))::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* levelFinishedEvent;
+  __declspec(property(get = __cordl_internal_get_levelFinishedEvent,
+                      put = __cordl_internal_set_levelFinishedEvent))::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>,
+                                                                                        ::GlobalNamespace::MultiplayerResultsData*>* levelFinishedEvent;
 
   /// @brief Field levelDidGetDisconnectedEvent, offset 0xa0, size 0x8
-  __declspec(property(get = __get_levelDidGetDisconnectedEvent, put = __set_levelDidGetDisconnectedEvent))::System::Action_1<::GlobalNamespace::DisconnectedReason>* levelDidGetDisconnectedEvent;
+  __declspec(property(get = __cordl_internal_get_levelDidGetDisconnectedEvent,
+                      put = __cordl_internal_set_levelDidGetDisconnectedEvent))::System::Action_1<::GlobalNamespace::DisconnectedReason>* levelDidGetDisconnectedEvent;
 
   /// @brief Field lobbyDisconnectedEvent, offset 0xa8, size 0x8
-  __declspec(property(get = __get_lobbyDisconnectedEvent, put = __set_lobbyDisconnectedEvent))::System::Action* lobbyDisconnectedEvent;
+  __declspec(property(get = __cordl_internal_get_lobbyDisconnectedEvent, put = __cordl_internal_set_lobbyDisconnectedEvent))::System::Action* lobbyDisconnectedEvent;
 
   /// @brief Field beforeSceneSwitchCallbackEvent, offset 0xb0, size 0x8
-  __declspec(property(get = __get_beforeSceneSwitchCallbackEvent, put = __set_beforeSceneSwitchCallbackEvent))::System::Action* beforeSceneSwitchCallbackEvent;
+  __declspec(property(get = __cordl_internal_get_beforeSceneSwitchCallbackEvent, put = __cordl_internal_set_beforeSceneSwitchCallbackEvent))::System::Action* beforeSceneSwitchCallbackEvent;
 
   /// @brief Field lobbyStateChangedEvent, offset 0xb8, size 0x8
-  __declspec(property(get = __get_lobbyStateChangedEvent, put = __set_lobbyStateChangedEvent))::System::Action_1<::GlobalNamespace::MultiplayerLobbyState>* lobbyStateChangedEvent;
+  __declspec(property(get = __cordl_internal_get_lobbyStateChangedEvent,
+                      put = __cordl_internal_set_lobbyStateChangedEvent))::System::Action_1<::GlobalNamespace::MultiplayerLobbyState>* lobbyStateChangedEvent;
 
   /// @brief Field startButtonEnabledEvent, offset 0xc0, size 0x8
-  __declspec(property(get = __get_startButtonEnabledEvent, put = __set_startButtonEnabledEvent))::System::Action_1<::GlobalNamespace::CannotStartGameReason>* startButtonEnabledEvent;
+  __declspec(property(get = __cordl_internal_get_startButtonEnabledEvent,
+                      put = __cordl_internal_set_startButtonEnabledEvent))::System::Action_1<::GlobalNamespace::CannotStartGameReason>* startButtonEnabledEvent;
 
   /// @brief Field playerMissingEntitlementsChangedEvent, offset 0xc8, size 0x8
-  __declspec(property(get = __get_playerMissingEntitlementsChangedEvent,
-                      put = __set_playerMissingEntitlementsChangedEvent))::System::Action_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* playerMissingEntitlementsChangedEvent;
+  __declspec(property(
+      get = __cordl_internal_get_playerMissingEntitlementsChangedEvent,
+      put = __cordl_internal_set_playerMissingEntitlementsChangedEvent))::System::Action_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* playerMissingEntitlementsChangedEvent;
 
   /// @brief Field <levelStartInitiated>k__BackingField, offset 0xd0, size 0x1
-  __declspec(property(get = __get__levelStartInitiated_k__BackingField, put = __set__levelStartInitiated_k__BackingField)) bool _levelStartInitiated_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__levelStartInitiated_k__BackingField, put = __cordl_internal_set__levelStartInitiated_k__BackingField)) bool _levelStartInitiated_k__BackingField;
 
   /// @brief Field <countdownStarted>k__BackingField, offset 0xd1, size 0x1
-  __declspec(property(get = __get__countdownStarted_k__BackingField, put = __set__countdownStarted_k__BackingField)) bool _countdownStarted_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__countdownStarted_k__BackingField, put = __cordl_internal_set__countdownStarted_k__BackingField)) bool _countdownStarted_k__BackingField;
 
   /// @brief Field <countdownEndTime>k__BackingField, offset 0xd8, size 0x8
-  __declspec(property(get = __get__countdownEndTime_k__BackingField, put = __set__countdownEndTime_k__BackingField)) int64_t _countdownEndTime_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__countdownEndTime_k__BackingField, put = __cordl_internal_set__countdownEndTime_k__BackingField)) int64_t _countdownEndTime_k__BackingField;
 
   /// @brief Field <isDisconnected>k__BackingField, offset 0xe0, size 0x1
-  __declspec(property(get = __get__isDisconnected_k__BackingField, put = __set__isDisconnected_k__BackingField)) bool _isDisconnected_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isDisconnected_k__BackingField, put = __cordl_internal_set__isDisconnected_k__BackingField)) bool _isDisconnected_k__BackingField;
 
   /// @brief Field <disconnectedReason>k__BackingField, offset 0xe4, size 0x4
-  __declspec(property(get = __get__disconnectedReason_k__BackingField, put = __set__disconnectedReason_k__BackingField))::GlobalNamespace::DisconnectedReason _disconnectedReason_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__disconnectedReason_k__BackingField,
+                      put = __cordl_internal_set__disconnectedReason_k__BackingField))::GlobalNamespace::DisconnectedReason _disconnectedReason_k__BackingField;
 
   /// @brief Field _predictedStartTime, offset 0xe8, size 0x8
-  __declspec(property(get = __get__predictedStartTime, put = __set__predictedStartTime)) int64_t _predictedStartTime;
+  __declspec(property(get = __cordl_internal_get__predictedStartTime, put = __cordl_internal_set__predictedStartTime)) int64_t _predictedStartTime;
 
   /// @brief Field _startTime, offset 0xf0, size 0x8
-  __declspec(property(get = __get__startTime, put = __set__startTime)) int64_t _startTime;
+  __declspec(property(get = __cordl_internal_get__startTime, put = __cordl_internal_set__startTime)) int64_t _startTime;
 
   /// @brief Field _levelStartedOnTime, offset 0xf8, size 0x1
-  __declspec(property(get = __get__levelStartedOnTime, put = __set__levelStartedOnTime)) bool _levelStartedOnTime;
+  __declspec(property(get = __cordl_internal_get__levelStartedOnTime, put = __cordl_internal_set__levelStartedOnTime)) bool _levelStartedOnTime;
 
   /// @brief Field _state, offset 0xfc, size 0x4
-  __declspec(property(get = __get__state, put = __set__state))::GlobalNamespace::MultiplayerLobbyState _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::GlobalNamespace::MultiplayerLobbyState _state;
 
   /// @brief Field _cannotStartGameReason, offset 0x100, size 0x4
-  __declspec(property(get = __get__cannotStartGameReason, put = __set__cannotStartGameReason))::GlobalNamespace::CannotStartGameReason _cannotStartGameReason;
+  __declspec(property(get = __cordl_internal_get__cannotStartGameReason, put = __cordl_internal_set__cannotStartGameReason))::GlobalNamespace::CannotStartGameReason _cannotStartGameReason;
 
   /// @brief Field _selectedLevelGameplaySetupData, offset 0x108, size 0x8
-  __declspec(property(get = __get__selectedLevelGameplaySetupData, put = __set__selectedLevelGameplaySetupData))::GlobalNamespace::LevelGameplaySetupData* _selectedLevelGameplaySetupData;
+  __declspec(property(get = __cordl_internal_get__selectedLevelGameplaySetupData,
+                      put = __cordl_internal_set__selectedLevelGameplaySetupData))::GlobalNamespace::LevelGameplaySetupData* _selectedLevelGameplaySetupData;
 
   __declspec(property(get = get_predictedCountdownEndTime)) int64_t predictedCountdownEndTime;
 
@@ -432,216 +443,218 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::GlobalNamespace::ILobbyPlayersDataModel*& __get__lobbyPlayersDataModel();
+  constexpr ::GlobalNamespace::ILobbyPlayersDataModel*& __cordl_internal_get__lobbyPlayersDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyPlayersDataModel*> const& __get__lobbyPlayersDataModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyPlayersDataModel*> const& __cordl_internal_get__lobbyPlayersDataModel() const;
 
-  constexpr void __set__lobbyPlayersDataModel(::GlobalNamespace::ILobbyPlayersDataModel* value);
+  constexpr void __cordl_internal_set__lobbyPlayersDataModel(::GlobalNamespace::ILobbyPlayersDataModel* value);
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::GlobalNamespace::IMenuRpcManager*& __get__menuRpcManager();
+  constexpr ::GlobalNamespace::IMenuRpcManager*& __cordl_internal_get__menuRpcManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMenuRpcManager*> const& __get__menuRpcManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMenuRpcManager*> const& __cordl_internal_get__menuRpcManager() const;
 
-  constexpr void __set__menuRpcManager(::GlobalNamespace::IMenuRpcManager* value);
+  constexpr void __cordl_internal_set__menuRpcManager(::GlobalNamespace::IMenuRpcManager* value);
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr ::GlobalNamespace::MultiplayerLevelLoader*& __get__multiplayerLevelLoader();
+  constexpr ::GlobalNamespace::MultiplayerLevelLoader*& __cordl_internal_get__multiplayerLevelLoader();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelLoader*> const& __get__multiplayerLevelLoader() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelLoader*> const& __cordl_internal_get__multiplayerLevelLoader() const;
 
-  constexpr void __set__multiplayerLevelLoader(::GlobalNamespace::MultiplayerLevelLoader* value);
+  constexpr void __cordl_internal_set__multiplayerLevelLoader(::GlobalNamespace::MultiplayerLevelLoader* value);
 
-  constexpr ::GlobalNamespace::MenuTransitionsHelper*& __get__menuTransitionsHelper();
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper>& __cordl_internal_get__menuTransitionsHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuTransitionsHelper*> const& __get__menuTransitionsHelper() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper> const& __cordl_internal_get__menuTransitionsHelper() const;
 
-  constexpr void __set__menuTransitionsHelper(::GlobalNamespace::MenuTransitionsHelper* value);
+  constexpr void __cordl_internal_set__menuTransitionsHelper(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value);
 
-  constexpr ::GlobalNamespace::LobbyGameStateModel*& __get__lobbyGameStateModel();
+  constexpr ::GlobalNamespace::LobbyGameStateModel*& __cordl_internal_get__lobbyGameStateModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyGameStateModel*> const& __get__lobbyGameStateModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyGameStateModel*> const& __cordl_internal_get__lobbyGameStateModel() const;
 
-  constexpr void __set__lobbyGameStateModel(::GlobalNamespace::LobbyGameStateModel* value);
+  constexpr void __cordl_internal_set__lobbyGameStateModel(::GlobalNamespace::LobbyGameStateModel* value);
 
-  constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& __get__lobbyPlayerPermissionsModel();
+  constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& __cordl_internal_get__lobbyPlayerPermissionsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerPermissionsModel*> const& __get__lobbyPlayerPermissionsModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerPermissionsModel*> const& __cordl_internal_get__lobbyPlayerPermissionsModel() const;
 
-  constexpr void __set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel* value);
+  constexpr void __cordl_internal_set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel* value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __get__beatmapLevelsModel();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsModel>& __cordl_internal_get__beatmapLevelsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __get__beatmapLevelsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsModel> const& __cordl_internal_get__beatmapLevelsModel() const;
 
-  constexpr void __set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
+  constexpr void __cordl_internal_set__beatmapLevelsModel(::UnityW<::GlobalNamespace::BeatmapLevelsModel> value);
 
-  constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __get__beatmapCharacteristicCollection();
+  constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __cordl_internal_get__beatmapCharacteristicCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollection*> const& __get__beatmapCharacteristicCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollection*> const& __cordl_internal_get__beatmapCharacteristicCollection() const;
 
-  constexpr void __set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
+  constexpr void __cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>*& __get_selectedLevelGameplaySetupDataChangedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>*& __cordl_internal_get_selectedLevelGameplaySetupDataChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>*> const& __get_selectedLevelGameplaySetupDataChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>*> const& __cordl_internal_get_selectedLevelGameplaySetupDataChangedEvent() const;
 
-  constexpr void __set_selectedLevelGameplaySetupDataChangedEvent(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* value);
+  constexpr void __cordl_internal_set_selectedLevelGameplaySetupDataChangedEvent(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>*& __get_gameStartedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>*& __cordl_internal_get_gameStartedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>*> const& __get_gameStartedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>*> const& __cordl_internal_get_gameStartedEvent() const;
 
-  constexpr void __set_gameStartedEvent(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* value);
+  constexpr void __cordl_internal_set_gameStartedEvent(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* value);
 
-  constexpr ::System::Action*& __get_gameStartCancelledEvent();
+  constexpr ::System::Action*& __cordl_internal_get_gameStartCancelledEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_gameStartCancelledEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_gameStartCancelledEvent() const;
 
-  constexpr void __set_gameStartCancelledEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_gameStartCancelledEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_countdownStartedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_countdownStartedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_countdownStartedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_countdownStartedEvent() const;
 
-  constexpr void __set_countdownStartedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_countdownStartedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_countdownCancelledEvent();
+  constexpr ::System::Action*& __cordl_internal_get_countdownCancelledEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_countdownCancelledEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_countdownCancelledEvent() const;
 
-  constexpr void __set_countdownCancelledEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_countdownCancelledEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_songStillDownloadingEvent();
+  constexpr ::System::Action*& __cordl_internal_get_songStillDownloadingEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_songStillDownloadingEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_songStillDownloadingEvent() const;
 
-  constexpr void __set_songStillDownloadingEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_songStillDownloadingEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_startTimeChangedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_startTimeChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_startTimeChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_startTimeChangedEvent() const;
 
-  constexpr void __set_startTimeChangedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_startTimeChangedEvent(::System::Action* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>*& __get_levelFinishedEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>*& __cordl_internal_get_levelFinishedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>*> const&
-  __get_levelFinishedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>*> const&
+  __cordl_internal_get_levelFinishedEvent() const;
 
-  constexpr void __set_levelFinishedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* value);
+  constexpr void
+  __cordl_internal_set_levelFinishedEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>*& __get_levelDidGetDisconnectedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>*& __cordl_internal_get_levelDidGetDisconnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::DisconnectedReason>*> const& __get_levelDidGetDisconnectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::DisconnectedReason>*> const& __cordl_internal_get_levelDidGetDisconnectedEvent() const;
 
-  constexpr void __set_levelDidGetDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
+  constexpr void __cordl_internal_set_levelDidGetDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  constexpr ::System::Action*& __get_lobbyDisconnectedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_lobbyDisconnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_lobbyDisconnectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_lobbyDisconnectedEvent() const;
 
-  constexpr void __set_lobbyDisconnectedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_lobbyDisconnectedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_beforeSceneSwitchCallbackEvent();
+  constexpr ::System::Action*& __cordl_internal_get_beforeSceneSwitchCallbackEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_beforeSceneSwitchCallbackEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_beforeSceneSwitchCallbackEvent() const;
 
-  constexpr void __set_beforeSceneSwitchCallbackEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_beforeSceneSwitchCallbackEvent(::System::Action* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerLobbyState>*& __get_lobbyStateChangedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerLobbyState>*& __cordl_internal_get_lobbyStateChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerLobbyState>*> const& __get_lobbyStateChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerLobbyState>*> const& __cordl_internal_get_lobbyStateChangedEvent() const;
 
-  constexpr void __set_lobbyStateChangedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLobbyState>* value);
+  constexpr void __cordl_internal_set_lobbyStateChangedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLobbyState>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::CannotStartGameReason>*& __get_startButtonEnabledEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::CannotStartGameReason>*& __cordl_internal_get_startButtonEnabledEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::CannotStartGameReason>*> const& __get_startButtonEnabledEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::CannotStartGameReason>*> const& __cordl_internal_get_startButtonEnabledEvent() const;
 
-  constexpr void __set_startButtonEnabledEvent(::System::Action_1<::GlobalNamespace::CannotStartGameReason>* value);
+  constexpr void __cordl_internal_set_startButtonEnabledEvent(::System::Action_1<::GlobalNamespace::CannotStartGameReason>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*& __get_playerMissingEntitlementsChangedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*& __cordl_internal_get_playerMissingEntitlementsChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*> const& __get_playerMissingEntitlementsChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*> const&
+  __cordl_internal_get_playerMissingEntitlementsChangedEvent() const;
 
-  constexpr void __set_playerMissingEntitlementsChangedEvent(::System::Action_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
+  constexpr void __cordl_internal_set_playerMissingEntitlementsChangedEvent(::System::Action_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
 
-  constexpr bool& __get__levelStartInitiated_k__BackingField();
+  constexpr bool& __cordl_internal_get__levelStartInitiated_k__BackingField();
 
-  constexpr bool const& __get__levelStartInitiated_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__levelStartInitiated_k__BackingField() const;
 
-  constexpr void __set__levelStartInitiated_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__levelStartInitiated_k__BackingField(bool value);
 
-  constexpr bool& __get__countdownStarted_k__BackingField();
+  constexpr bool& __cordl_internal_get__countdownStarted_k__BackingField();
 
-  constexpr bool const& __get__countdownStarted_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__countdownStarted_k__BackingField() const;
 
-  constexpr void __set__countdownStarted_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__countdownStarted_k__BackingField(bool value);
 
-  constexpr int64_t& __get__countdownEndTime_k__BackingField();
+  constexpr int64_t& __cordl_internal_get__countdownEndTime_k__BackingField();
 
-  constexpr int64_t const& __get__countdownEndTime_k__BackingField() const;
+  constexpr int64_t const& __cordl_internal_get__countdownEndTime_k__BackingField() const;
 
-  constexpr void __set__countdownEndTime_k__BackingField(int64_t value);
+  constexpr void __cordl_internal_set__countdownEndTime_k__BackingField(int64_t value);
 
-  constexpr bool& __get__isDisconnected_k__BackingField();
+  constexpr bool& __cordl_internal_get__isDisconnected_k__BackingField();
 
-  constexpr bool const& __get__isDisconnected_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isDisconnected_k__BackingField() const;
 
-  constexpr void __set__isDisconnected_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isDisconnected_k__BackingField(bool value);
 
-  constexpr ::GlobalNamespace::DisconnectedReason& __get__disconnectedReason_k__BackingField();
+  constexpr ::GlobalNamespace::DisconnectedReason& __cordl_internal_get__disconnectedReason_k__BackingField();
 
-  constexpr ::GlobalNamespace::DisconnectedReason const& __get__disconnectedReason_k__BackingField() const;
+  constexpr ::GlobalNamespace::DisconnectedReason const& __cordl_internal_get__disconnectedReason_k__BackingField() const;
 
-  constexpr void __set__disconnectedReason_k__BackingField(::GlobalNamespace::DisconnectedReason value);
+  constexpr void __cordl_internal_set__disconnectedReason_k__BackingField(::GlobalNamespace::DisconnectedReason value);
 
-  constexpr int64_t& __get__predictedStartTime();
+  constexpr int64_t& __cordl_internal_get__predictedStartTime();
 
-  constexpr int64_t const& __get__predictedStartTime() const;
+  constexpr int64_t const& __cordl_internal_get__predictedStartTime() const;
 
-  constexpr void __set__predictedStartTime(int64_t value);
+  constexpr void __cordl_internal_set__predictedStartTime(int64_t value);
 
-  constexpr int64_t& __get__startTime();
+  constexpr int64_t& __cordl_internal_get__startTime();
 
-  constexpr int64_t const& __get__startTime() const;
+  constexpr int64_t const& __cordl_internal_get__startTime() const;
 
-  constexpr void __set__startTime(int64_t value);
+  constexpr void __cordl_internal_set__startTime(int64_t value);
 
-  constexpr bool& __get__levelStartedOnTime();
+  constexpr bool& __cordl_internal_get__levelStartedOnTime();
 
-  constexpr bool const& __get__levelStartedOnTime() const;
+  constexpr bool const& __cordl_internal_get__levelStartedOnTime() const;
 
-  constexpr void __set__levelStartedOnTime(bool value);
+  constexpr void __cordl_internal_set__levelStartedOnTime(bool value);
 
-  constexpr ::GlobalNamespace::MultiplayerLobbyState& __get__state();
+  constexpr ::GlobalNamespace::MultiplayerLobbyState& __cordl_internal_get__state();
 
-  constexpr ::GlobalNamespace::MultiplayerLobbyState const& __get__state() const;
+  constexpr ::GlobalNamespace::MultiplayerLobbyState const& __cordl_internal_get__state() const;
 
-  constexpr void __set__state(::GlobalNamespace::MultiplayerLobbyState value);
+  constexpr void __cordl_internal_set__state(::GlobalNamespace::MultiplayerLobbyState value);
 
-  constexpr ::GlobalNamespace::CannotStartGameReason& __get__cannotStartGameReason();
+  constexpr ::GlobalNamespace::CannotStartGameReason& __cordl_internal_get__cannotStartGameReason();
 
-  constexpr ::GlobalNamespace::CannotStartGameReason const& __get__cannotStartGameReason() const;
+  constexpr ::GlobalNamespace::CannotStartGameReason const& __cordl_internal_get__cannotStartGameReason() const;
 
-  constexpr void __set__cannotStartGameReason(::GlobalNamespace::CannotStartGameReason value);
+  constexpr void __cordl_internal_set__cannotStartGameReason(::GlobalNamespace::CannotStartGameReason value);
 
-  constexpr ::GlobalNamespace::LevelGameplaySetupData*& __get__selectedLevelGameplaySetupData();
+  constexpr ::GlobalNamespace::LevelGameplaySetupData*& __cordl_internal_get__selectedLevelGameplaySetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelGameplaySetupData*> const& __get__selectedLevelGameplaySetupData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelGameplaySetupData*> const& __cordl_internal_get__selectedLevelGameplaySetupData() const;
 
-  constexpr void __set__selectedLevelGameplaySetupData(::GlobalNamespace::LevelGameplaySetupData* value);
+  constexpr void __cordl_internal_set__selectedLevelGameplaySetupData(::GlobalNamespace::LevelGameplaySetupData* value);
 
   /// @brief Method add_selectedLevelGameplaySetupDataChangedEvent, addr 0x23564d4, size 0xb0, virtual true, abstract: false, final true
   inline void add_selectedLevelGameplaySetupDataChangedEvent(::System::Action_1<::GlobalNamespace::ILevelGameplaySetupData*>* value);
@@ -686,10 +699,10 @@ public:
   inline void remove_startTimeChangedEvent(::System::Action* value);
 
   /// @brief Method add_levelFinishedEvent, addr 0x2356dac, size 0xb0, virtual true, abstract: false, final true
-  inline void add_levelFinishedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* value);
+  inline void add_levelFinishedEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* value);
 
   /// @brief Method remove_levelFinishedEvent, addr 0x2356e5c, size 0xb0, virtual true, abstract: false, final true
-  inline void remove_levelFinishedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* value);
+  inline void remove_levelFinishedEvent(::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* value);
 
   /// @brief Method add_levelDidGetDisconnectedEvent, addr 0x2356f0c, size 0xb0, virtual true, abstract: false, final true
   inline void add_levelDidGetDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
@@ -894,7 +907,7 @@ public:
   ::GlobalNamespace::ILobbyPlayersDataModel* ____lobbyPlayersDataModel;
 
   /// @brief Field _playerDataModel, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _menuRpcManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IMenuRpcManager* ____menuRpcManager;
@@ -906,7 +919,7 @@ public:
   ::GlobalNamespace::MultiplayerLevelLoader* ____multiplayerLevelLoader;
 
   /// @brief Field _menuTransitionsHelper, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::MenuTransitionsHelper* ____menuTransitionsHelper;
+  ::UnityW<::GlobalNamespace::MenuTransitionsHelper> ____menuTransitionsHelper;
 
   /// @brief Field _lobbyGameStateModel, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::LobbyGameStateModel* ____lobbyGameStateModel;
@@ -915,7 +928,7 @@ public:
   ::GlobalNamespace::LobbyPlayerPermissionsModel* ____lobbyPlayerPermissionsModel;
 
   /// @brief Field _beatmapLevelsModel, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
+  ::UnityW<::GlobalNamespace::BeatmapLevelsModel> ____beatmapLevelsModel;
 
   /// @brief Field _beatmapCharacteristicCollection, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCharacteristicCollection* ____beatmapCharacteristicCollection;
@@ -942,7 +955,7 @@ public:
   ::System::Action* ___startTimeChangedEvent;
 
   /// @brief Field levelFinishedEvent, offset: 0x98, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* ___levelFinishedEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* ___levelFinishedEvent;
 
   /// @brief Field levelDidGetDisconnectedEvent, offset: 0xa0, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::DisconnectedReason>* ___levelDidGetDisconnectedEvent;

@@ -35,26 +35,26 @@ MARK_REF_PTR_T(::GlobalNamespace::__StandardLevelInfoSaveData_V100__VersionCheck
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4425))
 // CS Name: ::StandardLevelInfoSaveData_V100::DifficultyBeatmap*
 class CORDL_TYPE __StandardLevelInfoSaveData_V100__DifficultyBeatmap : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _difficulty, offset 0x10, size 0x8
-  __declspec(property(get = __get__difficulty, put = __set__difficulty))::StringW _difficulty;
+  __declspec(property(get = __cordl_internal_get__difficulty, put = __cordl_internal_set__difficulty))::StringW _difficulty;
 
   /// @brief Field _difficultyRank, offset 0x18, size 0x4
-  __declspec(property(get = __get__difficultyRank, put = __set__difficultyRank)) int32_t _difficultyRank;
+  __declspec(property(get = __cordl_internal_get__difficultyRank, put = __cordl_internal_set__difficultyRank)) int32_t _difficultyRank;
 
   /// @brief Field _beatmapFilename, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapFilename, put = __set__beatmapFilename))::StringW _beatmapFilename;
+  __declspec(property(get = __cordl_internal_get__beatmapFilename, put = __cordl_internal_set__beatmapFilename))::StringW _beatmapFilename;
 
   /// @brief Field _noteJumpMovementSpeed, offset 0x28, size 0x4
-  __declspec(property(get = __get__noteJumpMovementSpeed, put = __set__noteJumpMovementSpeed)) float_t _noteJumpMovementSpeed;
+  __declspec(property(get = __cordl_internal_get__noteJumpMovementSpeed, put = __cordl_internal_set__noteJumpMovementSpeed)) float_t _noteJumpMovementSpeed;
 
   /// @brief Field _noteJumpStartBeatOffset, offset 0x2c, size 0x4
-  __declspec(property(get = __get__noteJumpStartBeatOffset, put = __set__noteJumpStartBeatOffset)) int32_t _noteJumpStartBeatOffset;
+  __declspec(property(get = __cordl_internal_get__noteJumpStartBeatOffset, put = __cordl_internal_set__noteJumpStartBeatOffset)) int32_t _noteJumpStartBeatOffset;
 
   __declspec(property(get = get_difficulty))::StringW difficulty;
 
@@ -66,35 +66,35 @@ public:
 
   __declspec(property(get = get_noteJumpStartBeatOffset)) int32_t noteJumpStartBeatOffset;
 
-  constexpr ::StringW& __get__difficulty();
+  constexpr ::StringW& __cordl_internal_get__difficulty();
 
-  constexpr ::StringW const& __get__difficulty() const;
+  constexpr ::StringW const& __cordl_internal_get__difficulty() const;
 
-  constexpr void __set__difficulty(::StringW value);
+  constexpr void __cordl_internal_set__difficulty(::StringW value);
 
-  constexpr int32_t& __get__difficultyRank();
+  constexpr int32_t& __cordl_internal_get__difficultyRank();
 
-  constexpr int32_t const& __get__difficultyRank() const;
+  constexpr int32_t const& __cordl_internal_get__difficultyRank() const;
 
-  constexpr void __set__difficultyRank(int32_t value);
+  constexpr void __cordl_internal_set__difficultyRank(int32_t value);
 
-  constexpr ::StringW& __get__beatmapFilename();
+  constexpr ::StringW& __cordl_internal_get__beatmapFilename();
 
-  constexpr ::StringW const& __get__beatmapFilename() const;
+  constexpr ::StringW const& __cordl_internal_get__beatmapFilename() const;
 
-  constexpr void __set__beatmapFilename(::StringW value);
+  constexpr void __cordl_internal_set__beatmapFilename(::StringW value);
 
-  constexpr float_t& __get__noteJumpMovementSpeed();
+  constexpr float_t& __cordl_internal_get__noteJumpMovementSpeed();
 
-  constexpr float_t const& __get__noteJumpMovementSpeed() const;
+  constexpr float_t const& __cordl_internal_get__noteJumpMovementSpeed() const;
 
-  constexpr void __set__noteJumpMovementSpeed(float_t value);
+  constexpr void __cordl_internal_set__noteJumpMovementSpeed(float_t value);
 
-  constexpr int32_t& __get__noteJumpStartBeatOffset();
+  constexpr int32_t& __cordl_internal_get__noteJumpStartBeatOffset();
 
-  constexpr int32_t const& __get__noteJumpStartBeatOffset() const;
+  constexpr int32_t const& __cordl_internal_get__noteJumpStartBeatOffset() const;
 
-  constexpr void __set__noteJumpStartBeatOffset(int32_t value);
+  constexpr void __cordl_internal_set__noteJumpStartBeatOffset(int32_t value);
 
   /// @brief Method get_difficulty, addr 0x234e64c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_difficulty();
@@ -166,22 +166,22 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelInfoSaveData_V100__Diff
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4426))
 // CS Name: ::StandardLevelInfoSaveData_V100::VersionCheck*
 class CORDL_TYPE __StandardLevelInfoSaveData_V100__VersionCheck : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _version, offset 0x10, size 0x8
-  __declspec(property(get = __get__version, put = __set__version))::StringW _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version))::StringW _version;
 
   __declspec(property(get = get_version))::StringW version;
 
-  constexpr ::StringW& __get__version();
+  constexpr ::StringW& __cordl_internal_get__version();
 
-  constexpr ::StringW const& __get__version() const;
+  constexpr ::StringW const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(::StringW value);
+  constexpr void __cordl_internal_set__version(::StringW value);
 
   /// @brief Method get_version, addr 0x234e6cc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
@@ -220,7 +220,7 @@ static_assert(offsetof(::GlobalNamespace::__StandardLevelInfoSaveData_V100__Vers
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4427))
 // CS Name: ::StandardLevelInfoSaveData_V100*
 class CORDL_TYPE StandardLevelInfoSaveData_V100 : public ::System::Object {
@@ -231,50 +231,51 @@ public:
   using DifficultyBeatmap = ::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap;
 
   /// @brief Field _version, offset 0x10, size 0x8
-  __declspec(property(get = __get__version, put = __set__version))::StringW _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version))::StringW _version;
 
   /// @brief Field _songName, offset 0x18, size 0x8
-  __declspec(property(get = __get__songName, put = __set__songName))::StringW _songName;
+  __declspec(property(get = __cordl_internal_get__songName, put = __cordl_internal_set__songName))::StringW _songName;
 
   /// @brief Field _songSubName, offset 0x20, size 0x8
-  __declspec(property(get = __get__songSubName, put = __set__songSubName))::StringW _songSubName;
+  __declspec(property(get = __cordl_internal_get__songSubName, put = __cordl_internal_set__songSubName))::StringW _songSubName;
 
   /// @brief Field _songAuthorName, offset 0x28, size 0x8
-  __declspec(property(get = __get__songAuthorName, put = __set__songAuthorName))::StringW _songAuthorName;
+  __declspec(property(get = __cordl_internal_get__songAuthorName, put = __cordl_internal_set__songAuthorName))::StringW _songAuthorName;
 
   /// @brief Field _levelAuthorName, offset 0x30, size 0x8
-  __declspec(property(get = __get__levelAuthorName, put = __set__levelAuthorName))::StringW _levelAuthorName;
+  __declspec(property(get = __cordl_internal_get__levelAuthorName, put = __cordl_internal_set__levelAuthorName))::StringW _levelAuthorName;
 
   /// @brief Field _beatsPerMinute, offset 0x38, size 0x4
-  __declspec(property(get = __get__beatsPerMinute, put = __set__beatsPerMinute)) float_t _beatsPerMinute;
+  __declspec(property(get = __cordl_internal_get__beatsPerMinute, put = __cordl_internal_set__beatsPerMinute)) float_t _beatsPerMinute;
 
   /// @brief Field _songTimeOffset, offset 0x3c, size 0x4
-  __declspec(property(get = __get__songTimeOffset, put = __set__songTimeOffset)) float_t _songTimeOffset;
+  __declspec(property(get = __cordl_internal_get__songTimeOffset, put = __cordl_internal_set__songTimeOffset)) float_t _songTimeOffset;
 
   /// @brief Field _shuffle, offset 0x40, size 0x4
-  __declspec(property(get = __get__shuffle, put = __set__shuffle)) float_t _shuffle;
+  __declspec(property(get = __cordl_internal_get__shuffle, put = __cordl_internal_set__shuffle)) float_t _shuffle;
 
   /// @brief Field _shufflePeriod, offset 0x44, size 0x4
-  __declspec(property(get = __get__shufflePeriod, put = __set__shufflePeriod)) float_t _shufflePeriod;
+  __declspec(property(get = __cordl_internal_get__shufflePeriod, put = __cordl_internal_set__shufflePeriod)) float_t _shufflePeriod;
 
   /// @brief Field _previewStartTime, offset 0x48, size 0x4
-  __declspec(property(get = __get__previewStartTime, put = __set__previewStartTime)) float_t _previewStartTime;
+  __declspec(property(get = __cordl_internal_get__previewStartTime, put = __cordl_internal_set__previewStartTime)) float_t _previewStartTime;
 
   /// @brief Field _previewDuration, offset 0x4c, size 0x4
-  __declspec(property(get = __get__previewDuration, put = __set__previewDuration)) float_t _previewDuration;
+  __declspec(property(get = __cordl_internal_get__previewDuration, put = __cordl_internal_set__previewDuration)) float_t _previewDuration;
 
   /// @brief Field _songFilename, offset 0x50, size 0x8
-  __declspec(property(get = __get__songFilename, put = __set__songFilename))::StringW _songFilename;
+  __declspec(property(get = __cordl_internal_get__songFilename, put = __cordl_internal_set__songFilename))::StringW _songFilename;
 
   /// @brief Field _coverImageFilename, offset 0x58, size 0x8
-  __declspec(property(get = __get__coverImageFilename, put = __set__coverImageFilename))::StringW _coverImageFilename;
+  __declspec(property(get = __cordl_internal_get__coverImageFilename, put = __cordl_internal_set__coverImageFilename))::StringW _coverImageFilename;
 
   /// @brief Field _environmentName, offset 0x60, size 0x8
-  __declspec(property(get = __get__environmentName, put = __set__environmentName))::StringW _environmentName;
+  __declspec(property(get = __cordl_internal_get__environmentName, put = __cordl_internal_set__environmentName))::StringW _environmentName;
 
   /// @brief Field _difficultyBeatmaps, offset 0x68, size 0x8
-  __declspec(property(get = __get__difficultyBeatmaps, put = __set__difficultyBeatmaps))::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*,
-                                                                                                 ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*> _difficultyBeatmaps;
+  __declspec(property(get = __cordl_internal_get__difficultyBeatmaps,
+                      put = __cordl_internal_set__difficultyBeatmaps))::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*,
+                                                                               ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*> _difficultyBeatmaps;
 
   __declspec(property(get = get_version))::StringW version;
 
@@ -309,98 +310,98 @@ public:
 
   __declspec(property(get = get_hasAllData)) bool hasAllData;
 
-  constexpr ::StringW& __get__version();
+  constexpr ::StringW& __cordl_internal_get__version();
 
-  constexpr ::StringW const& __get__version() const;
+  constexpr ::StringW const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(::StringW value);
+  constexpr void __cordl_internal_set__version(::StringW value);
 
-  constexpr ::StringW& __get__songName();
+  constexpr ::StringW& __cordl_internal_get__songName();
 
-  constexpr ::StringW const& __get__songName() const;
+  constexpr ::StringW const& __cordl_internal_get__songName() const;
 
-  constexpr void __set__songName(::StringW value);
+  constexpr void __cordl_internal_set__songName(::StringW value);
 
-  constexpr ::StringW& __get__songSubName();
+  constexpr ::StringW& __cordl_internal_get__songSubName();
 
-  constexpr ::StringW const& __get__songSubName() const;
+  constexpr ::StringW const& __cordl_internal_get__songSubName() const;
 
-  constexpr void __set__songSubName(::StringW value);
+  constexpr void __cordl_internal_set__songSubName(::StringW value);
 
-  constexpr ::StringW& __get__songAuthorName();
+  constexpr ::StringW& __cordl_internal_get__songAuthorName();
 
-  constexpr ::StringW const& __get__songAuthorName() const;
+  constexpr ::StringW const& __cordl_internal_get__songAuthorName() const;
 
-  constexpr void __set__songAuthorName(::StringW value);
+  constexpr void __cordl_internal_set__songAuthorName(::StringW value);
 
-  constexpr ::StringW& __get__levelAuthorName();
+  constexpr ::StringW& __cordl_internal_get__levelAuthorName();
 
-  constexpr ::StringW const& __get__levelAuthorName() const;
+  constexpr ::StringW const& __cordl_internal_get__levelAuthorName() const;
 
-  constexpr void __set__levelAuthorName(::StringW value);
+  constexpr void __cordl_internal_set__levelAuthorName(::StringW value);
 
-  constexpr float_t& __get__beatsPerMinute();
+  constexpr float_t& __cordl_internal_get__beatsPerMinute();
 
-  constexpr float_t const& __get__beatsPerMinute() const;
+  constexpr float_t const& __cordl_internal_get__beatsPerMinute() const;
 
-  constexpr void __set__beatsPerMinute(float_t value);
+  constexpr void __cordl_internal_set__beatsPerMinute(float_t value);
 
-  constexpr float_t& __get__songTimeOffset();
+  constexpr float_t& __cordl_internal_get__songTimeOffset();
 
-  constexpr float_t const& __get__songTimeOffset() const;
+  constexpr float_t const& __cordl_internal_get__songTimeOffset() const;
 
-  constexpr void __set__songTimeOffset(float_t value);
+  constexpr void __cordl_internal_set__songTimeOffset(float_t value);
 
-  constexpr float_t& __get__shuffle();
+  constexpr float_t& __cordl_internal_get__shuffle();
 
-  constexpr float_t const& __get__shuffle() const;
+  constexpr float_t const& __cordl_internal_get__shuffle() const;
 
-  constexpr void __set__shuffle(float_t value);
+  constexpr void __cordl_internal_set__shuffle(float_t value);
 
-  constexpr float_t& __get__shufflePeriod();
+  constexpr float_t& __cordl_internal_get__shufflePeriod();
 
-  constexpr float_t const& __get__shufflePeriod() const;
+  constexpr float_t const& __cordl_internal_get__shufflePeriod() const;
 
-  constexpr void __set__shufflePeriod(float_t value);
+  constexpr void __cordl_internal_set__shufflePeriod(float_t value);
 
-  constexpr float_t& __get__previewStartTime();
+  constexpr float_t& __cordl_internal_get__previewStartTime();
 
-  constexpr float_t const& __get__previewStartTime() const;
+  constexpr float_t const& __cordl_internal_get__previewStartTime() const;
 
-  constexpr void __set__previewStartTime(float_t value);
+  constexpr void __cordl_internal_set__previewStartTime(float_t value);
 
-  constexpr float_t& __get__previewDuration();
+  constexpr float_t& __cordl_internal_get__previewDuration();
 
-  constexpr float_t const& __get__previewDuration() const;
+  constexpr float_t const& __cordl_internal_get__previewDuration() const;
 
-  constexpr void __set__previewDuration(float_t value);
+  constexpr void __cordl_internal_set__previewDuration(float_t value);
 
-  constexpr ::StringW& __get__songFilename();
+  constexpr ::StringW& __cordl_internal_get__songFilename();
 
-  constexpr ::StringW const& __get__songFilename() const;
+  constexpr ::StringW const& __cordl_internal_get__songFilename() const;
 
-  constexpr void __set__songFilename(::StringW value);
+  constexpr void __cordl_internal_set__songFilename(::StringW value);
 
-  constexpr ::StringW& __get__coverImageFilename();
+  constexpr ::StringW& __cordl_internal_get__coverImageFilename();
 
-  constexpr ::StringW const& __get__coverImageFilename() const;
+  constexpr ::StringW const& __cordl_internal_get__coverImageFilename() const;
 
-  constexpr void __set__coverImageFilename(::StringW value);
+  constexpr void __cordl_internal_set__coverImageFilename(::StringW value);
 
-  constexpr ::StringW& __get__environmentName();
+  constexpr ::StringW& __cordl_internal_get__environmentName();
 
-  constexpr ::StringW const& __get__environmentName() const;
+  constexpr ::StringW const& __cordl_internal_get__environmentName() const;
 
-  constexpr void __set__environmentName(::StringW value);
+  constexpr void __cordl_internal_set__environmentName(::StringW value);
 
   constexpr ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*>&
-  __get__difficultyBeatmaps();
+  __cordl_internal_get__difficultyBeatmaps();
 
   constexpr ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*> const&
-  __get__difficultyBeatmaps() const;
+  __cordl_internal_get__difficultyBeatmaps() const;
 
-  constexpr void
-  __set__difficultyBeatmaps(::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*> value);
+  constexpr void __cordl_internal_set__difficultyBeatmaps(
+      ::ArrayW<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*, ::Array<::GlobalNamespace::__StandardLevelInfoSaveData_V100__DifficultyBeatmap*>*> value);
 
   /// @brief Method get_version, addr 0x234e30c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();

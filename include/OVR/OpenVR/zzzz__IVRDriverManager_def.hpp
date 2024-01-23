@@ -50,7 +50,7 @@ MARK_VAL_T(::OVR::OpenVR::IVRDriverManager);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8518))
 // CS Name: ::IVRDriverManager::_GetDriverCount*
 class CORDL_TYPE __IVRDriverManager___GetDriverCount : public ::System::MulticastDelegate {
@@ -94,7 +94,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRDriverManager_
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8519))
 // CS Name: ::IVRDriverManager::_GetDriverName*
 class CORDL_TYPE __IVRDriverManager___GetDriverName : public ::System::MulticastDelegate {
@@ -138,7 +138,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRDriverManager_
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8520))
 // CS Name: ::IVRDriverManager::_GetDriverHandle*
 class CORDL_TYPE __IVRDriverManager___GetDriverHandle : public ::System::MulticastDelegate {
@@ -182,7 +182,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRDriverManager_
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8521))
 // CS Name: ::OVR.OpenVR::IVRDriverManager
 struct CORDL_TYPE IVRDriverManager {

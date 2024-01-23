@@ -138,7 +138,7 @@ MARK_VAL_T(::GlobalNamespace::__PlatformLeaderboardsModel___Initialize_d__19);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4227))
 // CS Name: ::PlatformLeaderboardsModel::State
 struct CORDL_TYPE __PlatformLeaderboardsModel__State {
@@ -192,7 +192,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardsModel__State, va
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4228))
 // CS Name: ::PlatformLeaderboardsModel::GetScoresResult
 struct CORDL_TYPE __PlatformLeaderboardsModel__GetScoresResult {
@@ -242,7 +242,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardsModel__GetScores
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4229))
 // CS Name: ::PlatformLeaderboardsModel::UploadScoreResult
 struct CORDL_TYPE __PlatformLeaderboardsModel__UploadScoreResult {
@@ -296,7 +296,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardsModel__UploadSco
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4230))
 // CS Name: ::PlatformLeaderboardsModel::ScoresScope
 struct CORDL_TYPE __PlatformLeaderboardsModel__ScoresScope {
@@ -350,7 +350,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardsModel__ScoresSco
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4231))
 // CS Name: ::PlatformLeaderboardsModel::GetScoresCompletionHandler*
 class CORDL_TYPE __PlatformLeaderboardsModel__GetScoresCompletionHandler : public ::System::MulticastDelegate {
@@ -399,7 +399,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlatformLeade
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4232))
 // CS Name: ::PlatformLeaderboardsModel::UploadScoreCompletionHandler*
 class CORDL_TYPE __PlatformLeaderboardsModel__UploadScoreCompletionHandler : public ::System::MulticastDelegate {
@@ -443,23 +443,23 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PlatformLeade
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4233))
 // CS Name: ::PlatformLeaderboardsModel::LeaderboardScore*
 class CORDL_TYPE __PlatformLeaderboardsModel__LeaderboardScore : public ::System::Object {
 public:
   // Declarations
   /// @brief Field score, offset 0x10, size 0x4
-  __declspec(property(get = __get_score, put = __set_score)) int32_t score;
+  __declspec(property(get = __cordl_internal_get_score, put = __cordl_internal_set_score)) int32_t score;
 
   /// @brief Field rank, offset 0x14, size 0x4
-  __declspec(property(get = __get_rank, put = __set_rank)) int32_t rank;
+  __declspec(property(get = __cordl_internal_get_rank, put = __cordl_internal_set_rank)) int32_t rank;
 
   /// @brief Field playerName, offset 0x18, size 0x8
-  __declspec(property(get = __get_playerName, put = __set_playerName))::StringW playerName;
+  __declspec(property(get = __cordl_internal_get_playerName, put = __cordl_internal_set_playerName))::StringW playerName;
 
   /// @brief Field playerId, offset 0x20, size 0x8
-  __declspec(property(get = __get_playerId, put = __set_playerId))::StringW playerId;
+  __declspec(property(get = __cordl_internal_get_playerId, put = __cordl_internal_set_playerId))::StringW playerId;
 
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>*() noexcept;
@@ -468,35 +468,36 @@ public:
   constexpr ::System::IComparable_1<::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*>*
   i___System__IComparable_1___GlobalNamespace____PlatformLeaderboardsModel__LeaderboardScore__() noexcept;
 
-  constexpr int32_t& __get_score();
+  constexpr int32_t& __cordl_internal_get_score();
 
-  constexpr int32_t const& __get_score() const;
+  constexpr int32_t const& __cordl_internal_get_score() const;
 
-  constexpr void __set_score(int32_t value);
+  constexpr void __cordl_internal_set_score(int32_t value);
 
-  constexpr int32_t& __get_rank();
+  constexpr int32_t& __cordl_internal_get_rank();
 
-  constexpr int32_t const& __get_rank() const;
+  constexpr int32_t const& __cordl_internal_get_rank() const;
 
-  constexpr void __set_rank(int32_t value);
+  constexpr void __cordl_internal_set_rank(int32_t value);
 
-  constexpr ::StringW& __get_playerName();
+  constexpr ::StringW& __cordl_internal_get_playerName();
 
-  constexpr ::StringW const& __get_playerName() const;
+  constexpr ::StringW const& __cordl_internal_get_playerName() const;
 
-  constexpr void __set_playerName(::StringW value);
+  constexpr void __cordl_internal_set_playerName(::StringW value);
 
-  constexpr ::StringW& __get_playerId();
+  constexpr ::StringW& __cordl_internal_get_playerId();
 
-  constexpr ::StringW const& __get_playerId() const;
+  constexpr ::StringW const& __cordl_internal_get_playerId() const;
 
-  constexpr void __set_playerId(::StringW value);
+  constexpr void __cordl_internal_set_playerId(::StringW value);
 
-  static inline ::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore* New_ctor(int32_t score, int32_t rank, ::StringW playerName, ::StringW playerId,
-                                                                                           ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* gameplayModifiers);
+  static inline ::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore*
+  New_ctor(int32_t score, int32_t rank, ::StringW playerName, ::StringW playerId, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* gameplayModifiers);
 
   /// @brief Method .ctor, addr 0x232aedc, size 0x40, virtual false, abstract: false, final false
-  inline void _ctor(int32_t score, int32_t rank, ::StringW playerName, ::StringW playerId, ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* gameplayModifiers);
+  inline void _ctor(int32_t score, int32_t rank, ::StringW playerName, ::StringW playerId,
+                    ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* gameplayModifiers);
 
   /// @brief Method CompareTo, addr 0x232bad8, size 0x2c, virtual true, abstract: false, final true
   inline int32_t CompareTo(::GlobalNamespace::__PlatformLeaderboardsModel__LeaderboardScore* other);
@@ -545,8 +546,8 @@ static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardsModel__Leaderboa
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(15996))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4234)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(15996)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4234)) CS Name:
 // ::PlatformLeaderboardsModel::<Initialize>d__19
 struct CORDL_TYPE __PlatformLeaderboardsModel___Initialize_d__19 {
 public:
@@ -564,10 +565,10 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::PlatformLeaderboardsModel*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*>", modifiers: "", def_value: None }]
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlatformLeaderboardsModel>",
+  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*>", modifiers: "", def_value: None }]
   constexpr __PlatformLeaderboardsModel___Initialize_d__19(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                           ::GlobalNamespace::PlatformLeaderboardsModel* __4__this,
+                                                           ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> __4__this,
                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__1) noexcept;
 
   // Ctor Parameters []
@@ -581,7 +582,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::PlatformLeaderboardsModel* __4__this;
+  ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> __4__this;
 
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__1;
@@ -607,7 +608,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardsModel___Initiali
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4227)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4227)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4235))
 // CS Name: ::PlatformLeaderboardsModel*
 class CORDL_TYPE PlatformLeaderboardsModel : public ::UnityEngine::MonoBehaviour {
@@ -630,69 +631,72 @@ public:
   using State = ::GlobalNamespace::__PlatformLeaderboardsModel__State;
 
   /// @brief Field _gameplayModifiersModel, offset 0x18, size 0x8
-  __declspec(property(get = __get__gameplayModifiersModel, put = __set__gameplayModifiersModel))::GlobalNamespace::GameplayModifiersModelSO* _gameplayModifiersModel;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiersModel,
+                      put = __cordl_internal_set__gameplayModifiersModel))::UnityW<::GlobalNamespace::GameplayModifiersModelSO> _gameplayModifiersModel;
 
   /// @brief Field _leaderboardScoreUploader, offset 0x20, size 0x8
-  __declspec(property(get = __get__leaderboardScoreUploader, put = __set__leaderboardScoreUploader))::GlobalNamespace::LeaderboardScoreUploader* _leaderboardScoreUploader;
+  __declspec(property(get = __cordl_internal_get__leaderboardScoreUploader,
+                      put = __cordl_internal_set__leaderboardScoreUploader))::UnityW<::GlobalNamespace::LeaderboardScoreUploader> _leaderboardScoreUploader;
 
   /// @brief Field _platformUserModel, offset 0x28, size 0x8
-  __declspec(property(get = __get__platformUserModel, put = __set__platformUserModel))::GlobalNamespace::IPlatformUserModel* _platformUserModel;
+  __declspec(property(get = __cordl_internal_get__platformUserModel, put = __cordl_internal_set__platformUserModel))::GlobalNamespace::IPlatformUserModel* _platformUserModel;
 
   /// @brief Field _platformLeaderboardsHandler, offset 0x30, size 0x8
-  __declspec(property(get = __get__platformLeaderboardsHandler, put = __set__platformLeaderboardsHandler))::GlobalNamespace::PlatformLeaderboardsHandler* _platformLeaderboardsHandler;
+  __declspec(property(get = __cordl_internal_get__platformLeaderboardsHandler,
+                      put = __cordl_internal_set__platformLeaderboardsHandler))::GlobalNamespace::PlatformLeaderboardsHandler* _platformLeaderboardsHandler;
 
   /// @brief Field allScoresDidUploadEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_allScoresDidUploadEvent, put = __set_allScoresDidUploadEvent))::System::Action* allScoresDidUploadEvent;
+  __declspec(property(get = __cordl_internal_get_allScoresDidUploadEvent, put = __cordl_internal_set_allScoresDidUploadEvent))::System::Action* allScoresDidUploadEvent;
 
   /// @brief Field _state, offset 0x40, size 0x4
-  __declspec(property(get = __get__state, put = __set__state))::GlobalNamespace::__PlatformLeaderboardsModel__State _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::GlobalNamespace::__PlatformLeaderboardsModel__State _state;
 
   /// @brief Field _playerId, offset 0x48, size 0x8
-  __declspec(property(get = __get__playerId, put = __set__playerId))::StringW _playerId;
+  __declspec(property(get = __cordl_internal_get__playerId, put = __cordl_internal_set__playerId))::StringW _playerId;
 
   __declspec(property(get = get_initialized)) bool initialized;
 
-  constexpr ::GlobalNamespace::GameplayModifiersModelSO*& __get__gameplayModifiersModel();
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& __cordl_internal_get__gameplayModifiersModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiersModelSO*> const& __get__gameplayModifiersModel() const;
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiersModel() const;
 
-  constexpr void __set__gameplayModifiersModel(::GlobalNamespace::GameplayModifiersModelSO* value);
+  constexpr void __cordl_internal_set__gameplayModifiersModel(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value);
 
-  constexpr ::GlobalNamespace::LeaderboardScoreUploader*& __get__leaderboardScoreUploader();
+  constexpr ::UnityW<::GlobalNamespace::LeaderboardScoreUploader>& __cordl_internal_get__leaderboardScoreUploader();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LeaderboardScoreUploader*> const& __get__leaderboardScoreUploader() const;
+  constexpr ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> const& __cordl_internal_get__leaderboardScoreUploader() const;
 
-  constexpr void __set__leaderboardScoreUploader(::GlobalNamespace::LeaderboardScoreUploader* value);
+  constexpr void __cordl_internal_set__leaderboardScoreUploader(::UnityW<::GlobalNamespace::LeaderboardScoreUploader> value);
 
-  constexpr ::GlobalNamespace::IPlatformUserModel*& __get__platformUserModel();
+  constexpr ::GlobalNamespace::IPlatformUserModel*& __cordl_internal_get__platformUserModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformUserModel*> const& __get__platformUserModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformUserModel*> const& __cordl_internal_get__platformUserModel() const;
 
-  constexpr void __set__platformUserModel(::GlobalNamespace::IPlatformUserModel* value);
+  constexpr void __cordl_internal_set__platformUserModel(::GlobalNamespace::IPlatformUserModel* value);
 
-  constexpr ::GlobalNamespace::PlatformLeaderboardsHandler*& __get__platformLeaderboardsHandler();
+  constexpr ::GlobalNamespace::PlatformLeaderboardsHandler*& __cordl_internal_get__platformLeaderboardsHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlatformLeaderboardsHandler*> const& __get__platformLeaderboardsHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlatformLeaderboardsHandler*> const& __cordl_internal_get__platformLeaderboardsHandler() const;
 
-  constexpr void __set__platformLeaderboardsHandler(::GlobalNamespace::PlatformLeaderboardsHandler* value);
+  constexpr void __cordl_internal_set__platformLeaderboardsHandler(::GlobalNamespace::PlatformLeaderboardsHandler* value);
 
-  constexpr ::System::Action*& __get_allScoresDidUploadEvent();
+  constexpr ::System::Action*& __cordl_internal_get_allScoresDidUploadEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_allScoresDidUploadEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_allScoresDidUploadEvent() const;
 
-  constexpr void __set_allScoresDidUploadEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_allScoresDidUploadEvent(::System::Action* value);
 
-  constexpr ::GlobalNamespace::__PlatformLeaderboardsModel__State& __get__state();
+  constexpr ::GlobalNamespace::__PlatformLeaderboardsModel__State& __cordl_internal_get__state();
 
-  constexpr ::GlobalNamespace::__PlatformLeaderboardsModel__State const& __get__state() const;
+  constexpr ::GlobalNamespace::__PlatformLeaderboardsModel__State const& __cordl_internal_get__state() const;
 
-  constexpr void __set__state(::GlobalNamespace::__PlatformLeaderboardsModel__State value);
+  constexpr void __cordl_internal_set__state(::GlobalNamespace::__PlatformLeaderboardsModel__State value);
 
-  constexpr ::StringW& __get__playerId();
+  constexpr ::StringW& __cordl_internal_get__playerId();
 
-  constexpr ::StringW const& __get__playerId() const;
+  constexpr ::StringW const& __cordl_internal_get__playerId() const;
 
-  constexpr void __set__playerId(::StringW value);
+  constexpr void __cordl_internal_set__playerId(::StringW value);
 
   /// @brief Method add_allScoresDidUploadEvent, addr 0x232b074, size 0x9c, virtual false, abstract: false, final false
   inline void add_allScoresDidUploadEvent(::System::Action* value);
@@ -763,10 +767,10 @@ protected:
 
 public:
   /// @brief Field _gameplayModifiersModel, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::GameplayModifiersModelSO* ____gameplayModifiersModel;
+  ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
 
   /// @brief Field _leaderboardScoreUploader, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::LeaderboardScoreUploader* ____leaderboardScoreUploader;
+  ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> ____leaderboardScoreUploader;
 
   /// @brief Field _platformUserModel, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IPlatformUserModel* ____platformUserModel;

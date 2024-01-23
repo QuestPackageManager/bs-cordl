@@ -30,17 +30,17 @@ MARK_REF_PTR_T(::UnityEngine::AndroidJavaProxy);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14912))
 // CS Name: ::UnityEngine::AndroidJavaProxy*
 class CORDL_TYPE AndroidJavaProxy : public ::System::Object {
 public:
   // Declarations
   /// @brief Field javaInterface, offset 0x10, size 0x8
-  __declspec(property(get = __get_javaInterface, put = __set_javaInterface))::UnityEngine::AndroidJavaClass* javaInterface;
+  __declspec(property(get = __cordl_internal_get_javaInterface, put = __cordl_internal_set_javaInterface))::UnityEngine::AndroidJavaClass* javaInterface;
 
   /// @brief Field proxyObject, offset 0x18, size 0x8
-  __declspec(property(get = __get_proxyObject, put = __set_proxyObject)) void* proxyObject;
+  __declspec(property(get = __cordl_internal_get_proxyObject, put = __cordl_internal_set_proxyObject)) void* proxyObject;
 
   /// @brief Field s_JavaLangSystemClass, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_JavaLangSystemClass, put = setStaticF_s_JavaLangSystemClass))::UnityEngine::GlobalJavaObjectRef* s_JavaLangSystemClass;
@@ -48,17 +48,17 @@ public:
   /// @brief Field s_HashCodeMethodID, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_HashCodeMethodID, put = setStaticF_s_HashCodeMethodID)) void* s_HashCodeMethodID;
 
-  constexpr ::UnityEngine::AndroidJavaClass*& __get_javaInterface();
+  constexpr ::UnityEngine::AndroidJavaClass*& __cordl_internal_get_javaInterface();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AndroidJavaClass*> const& __get_javaInterface() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AndroidJavaClass*> const& __cordl_internal_get_javaInterface() const;
 
-  constexpr void __set_javaInterface(::UnityEngine::AndroidJavaClass* value);
+  constexpr void __cordl_internal_set_javaInterface(::UnityEngine::AndroidJavaClass* value);
 
-  constexpr void*& __get_proxyObject();
+  constexpr void*& __cordl_internal_get_proxyObject();
 
-  constexpr void* const& __get_proxyObject() const;
+  constexpr void* const& __cordl_internal_get_proxyObject() const;
 
-  constexpr void __set_proxyObject(void* value);
+  constexpr void __cordl_internal_set_proxyObject(void* value);
 
   static inline void setStaticF_s_JavaLangSystemClass(::UnityEngine::GlobalJavaObjectRef* value);
 

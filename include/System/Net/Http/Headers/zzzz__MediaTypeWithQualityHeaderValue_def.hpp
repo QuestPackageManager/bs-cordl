@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14685))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14685))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14686))
 // CS Name: ::System.Net.Http.Headers::MediaTypeWithQualityHeaderValue*
 class CORDL_TYPE MediaTypeWithQualityHeaderValue : public ::System::Net::Http::Headers::MediaTypeHeaderValue {

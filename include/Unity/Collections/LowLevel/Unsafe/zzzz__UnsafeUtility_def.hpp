@@ -36,7 +36,7 @@ namespace Unity::Collections::LowLevel::Unsafe {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10010))
 // CS Name: ::UnsafeUtility::AlignOfHelper`1<T>
 struct CORDL_TYPE __UnsafeUtility__AlignOfHelper_1 {
@@ -66,7 +66,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10011))
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::UnsafeUtility*
 class CORDL_TYPE UnsafeUtility : public ::System::Object {

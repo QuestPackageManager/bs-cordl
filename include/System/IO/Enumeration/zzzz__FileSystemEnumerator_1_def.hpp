@@ -49,47 +49,47 @@ namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2214)), TypeDefinitionIndex(TypeDefinitionIndex(3354))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2214)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3354))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3655))
 // CS Name: ::System.IO.Enumeration::FileSystemEnumerator`1<TResult>*
 class CORDL_TYPE FileSystemEnumerator_1 : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
   // Declarations
   /// @brief Field _originalRootDirectory, offset 0x10, size 0x8
-  __declspec(property(get = __get__originalRootDirectory, put = __set__originalRootDirectory))::StringW _originalRootDirectory;
+  __declspec(property(get = __cordl_internal_get__originalRootDirectory, put = __cordl_internal_set__originalRootDirectory))::StringW _originalRootDirectory;
 
   /// @brief Field _rootDirectory, offset 0x18, size 0x8
-  __declspec(property(get = __get__rootDirectory, put = __set__rootDirectory))::StringW _rootDirectory;
+  __declspec(property(get = __cordl_internal_get__rootDirectory, put = __cordl_internal_set__rootDirectory))::StringW _rootDirectory;
 
   /// @brief Field _options, offset 0x20, size 0x8
-  __declspec(property(get = __get__options, put = __set__options))::System::IO::EnumerationOptions* _options;
+  __declspec(property(get = __cordl_internal_get__options, put = __cordl_internal_set__options))::System::IO::EnumerationOptions* _options;
 
   /// @brief Field _lock, offset 0x28, size 0x8
-  __declspec(property(get = __get__lock, put = __set__lock))::System::Object* _lock;
+  __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock))::System::Object* _lock;
 
   /// @brief Field _currentPath, offset 0x30, size 0x8
-  __declspec(property(get = __get__currentPath, put = __set__currentPath))::StringW _currentPath;
+  __declspec(property(get = __cordl_internal_get__currentPath, put = __cordl_internal_set__currentPath))::StringW _currentPath;
 
   /// @brief Field _directoryHandle, offset 0x38, size 0x8
-  __declspec(property(get = __get__directoryHandle, put = __set__directoryHandle)) void* _directoryHandle;
+  __declspec(property(get = __cordl_internal_get__directoryHandle, put = __cordl_internal_set__directoryHandle)) void* _directoryHandle;
 
   /// @brief Field _lastEntryFound, offset 0x40, size 0x1
-  __declspec(property(get = __get__lastEntryFound, put = __set__lastEntryFound)) bool _lastEntryFound;
+  __declspec(property(get = __cordl_internal_get__lastEntryFound, put = __cordl_internal_set__lastEntryFound)) bool _lastEntryFound;
 
   /// @brief Field _pending, offset 0x48, size 0x8
-  __declspec(property(get = __get__pending, put = __set__pending))::System::Collections::Generic::Queue_1<::StringW>* _pending;
+  __declspec(property(get = __cordl_internal_get__pending, put = __cordl_internal_set__pending))::System::Collections::Generic::Queue_1<::StringW>* _pending;
 
   /// @brief Field _entry, offset 0x50, size 0x10
-  __declspec(property(get = __get__entry, put = __set__entry))::GlobalNamespace::__Interop__Sys__DirectoryEntry _entry;
+  __declspec(property(get = __cordl_internal_get__entry, put = __cordl_internal_set__entry))::GlobalNamespace::__Interop__Sys__DirectoryEntry _entry;
 
   /// @brief Field _current, offset 0x60, size 0x8
-  __declspec(property(get = __get__current, put = __set__current)) TResult _current;
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current)) TResult _current;
 
   /// @brief Field _pathBuffer, offset 0x68, size 0x8
-  __declspec(property(get = __get__pathBuffer, put = __set__pathBuffer))::ArrayW<char16_t, ::Array<char16_t>*> _pathBuffer;
+  __declspec(property(get = __cordl_internal_get__pathBuffer, put = __cordl_internal_set__pathBuffer))::ArrayW<char16_t, ::Array<char16_t>*> _pathBuffer;
 
   /// @brief Field _entryBuffer, offset 0x70, size 0x8
-  __declspec(property(get = __get__entryBuffer, put = __set__entryBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _entryBuffer;
+  __declspec(property(get = __cordl_internal_get__entryBuffer, put = __cordl_internal_set__entryBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _entryBuffer;
 
   __declspec(property(get = get_Current)) TResult Current;
 
@@ -113,77 +113,77 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::StringW& __get__originalRootDirectory();
+  constexpr ::StringW& __cordl_internal_get__originalRootDirectory();
 
-  constexpr ::StringW const& __get__originalRootDirectory() const;
+  constexpr ::StringW const& __cordl_internal_get__originalRootDirectory() const;
 
-  constexpr void __set__originalRootDirectory(::StringW value);
+  constexpr void __cordl_internal_set__originalRootDirectory(::StringW value);
 
-  constexpr ::StringW& __get__rootDirectory();
+  constexpr ::StringW& __cordl_internal_get__rootDirectory();
 
-  constexpr ::StringW const& __get__rootDirectory() const;
+  constexpr ::StringW const& __cordl_internal_get__rootDirectory() const;
 
-  constexpr void __set__rootDirectory(::StringW value);
+  constexpr void __cordl_internal_set__rootDirectory(::StringW value);
 
-  constexpr ::System::IO::EnumerationOptions*& __get__options();
+  constexpr ::System::IO::EnumerationOptions*& __cordl_internal_get__options();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& __get__options() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& __cordl_internal_get__options() const;
 
-  constexpr void __set__options(::System::IO::EnumerationOptions* value);
+  constexpr void __cordl_internal_set__options(::System::IO::EnumerationOptions* value);
 
-  constexpr ::System::Object*& __get__lock();
+  constexpr ::System::Object*& __cordl_internal_get__lock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__lock() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__lock() const;
 
-  constexpr void __set__lock(::System::Object* value);
+  constexpr void __cordl_internal_set__lock(::System::Object* value);
 
-  constexpr ::StringW& __get__currentPath();
+  constexpr ::StringW& __cordl_internal_get__currentPath();
 
-  constexpr ::StringW const& __get__currentPath() const;
+  constexpr ::StringW const& __cordl_internal_get__currentPath() const;
 
-  constexpr void __set__currentPath(::StringW value);
+  constexpr void __cordl_internal_set__currentPath(::StringW value);
 
-  constexpr void*& __get__directoryHandle();
+  constexpr void*& __cordl_internal_get__directoryHandle();
 
-  constexpr void* const& __get__directoryHandle() const;
+  constexpr void* const& __cordl_internal_get__directoryHandle() const;
 
-  constexpr void __set__directoryHandle(void* value);
+  constexpr void __cordl_internal_set__directoryHandle(void* value);
 
-  constexpr bool& __get__lastEntryFound();
+  constexpr bool& __cordl_internal_get__lastEntryFound();
 
-  constexpr bool const& __get__lastEntryFound() const;
+  constexpr bool const& __cordl_internal_get__lastEntryFound() const;
 
-  constexpr void __set__lastEntryFound(bool value);
+  constexpr void __cordl_internal_set__lastEntryFound(bool value);
 
-  constexpr ::System::Collections::Generic::Queue_1<::StringW>*& __get__pending();
+  constexpr ::System::Collections::Generic::Queue_1<::StringW>*& __cordl_internal_get__pending();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::StringW>*> const& __get__pending() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::StringW>*> const& __cordl_internal_get__pending() const;
 
-  constexpr void __set__pending(::System::Collections::Generic::Queue_1<::StringW>* value);
+  constexpr void __cordl_internal_set__pending(::System::Collections::Generic::Queue_1<::StringW>* value);
 
-  constexpr ::GlobalNamespace::__Interop__Sys__DirectoryEntry& __get__entry();
+  constexpr ::GlobalNamespace::__Interop__Sys__DirectoryEntry& __cordl_internal_get__entry();
 
-  constexpr ::GlobalNamespace::__Interop__Sys__DirectoryEntry const& __get__entry() const;
+  constexpr ::GlobalNamespace::__Interop__Sys__DirectoryEntry const& __cordl_internal_get__entry() const;
 
-  constexpr void __set__entry(::GlobalNamespace::__Interop__Sys__DirectoryEntry value);
+  constexpr void __cordl_internal_set__entry(::GlobalNamespace::__Interop__Sys__DirectoryEntry value);
 
-  constexpr TResult& __get__current();
+  constexpr TResult& __cordl_internal_get__current();
 
-  constexpr TResult const& __get__current() const;
+  constexpr TResult const& __cordl_internal_get__current() const;
 
-  constexpr void __set__current(TResult value);
+  constexpr void __cordl_internal_set__current(TResult value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get__pathBuffer();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__pathBuffer();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get__pathBuffer() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__pathBuffer() const;
 
-  constexpr void __set__pathBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set__pathBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__entryBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__entryBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__entryBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__entryBuffer() const;
 
-  constexpr void __set__entryBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__entryBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::System::IO::Enumeration::FileSystemEnumerator_1<TResult>* New_ctor(::StringW directory, ::System::IO::EnumerationOptions* options);
 

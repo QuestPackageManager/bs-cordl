@@ -27,17 +27,17 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2643))
 // CS Name: ::System::WeakReference`1<T>*
 class CORDL_TYPE WeakReference_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field handle, offset 0x10, size 0x8
-  __declspec(property(get = __get_handle, put = __set_handle))::System::Runtime::InteropServices::GCHandle handle;
+  __declspec(property(get = __cordl_internal_get_handle, put = __cordl_internal_set_handle))::System::Runtime::InteropServices::GCHandle handle;
 
   /// @brief Field trackResurrection, offset 0x18, size 0x1
-  __declspec(property(get = __get_trackResurrection, put = __set_trackResurrection)) bool trackResurrection;
+  __declspec(property(get = __cordl_internal_get_trackResurrection, put = __cordl_internal_set_trackResurrection)) bool trackResurrection;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
@@ -45,17 +45,17 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::System::Runtime::InteropServices::GCHandle& __get_handle();
+  constexpr ::System::Runtime::InteropServices::GCHandle& __cordl_internal_get_handle();
 
-  constexpr ::System::Runtime::InteropServices::GCHandle const& __get_handle() const;
+  constexpr ::System::Runtime::InteropServices::GCHandle const& __cordl_internal_get_handle() const;
 
-  constexpr void __set_handle(::System::Runtime::InteropServices::GCHandle value);
+  constexpr void __cordl_internal_set_handle(::System::Runtime::InteropServices::GCHandle value);
 
-  constexpr bool& __get_trackResurrection();
+  constexpr bool& __cordl_internal_get_trackResurrection();
 
-  constexpr bool const& __get_trackResurrection() const;
+  constexpr bool const& __cordl_internal_get_trackResurrection() const;
 
-  constexpr void __set_trackResurrection(bool value);
+  constexpr void __cordl_internal_set_trackResurrection(bool value);
 
   static inline ::System::WeakReference_1<T>* New_ctor(T target);
 

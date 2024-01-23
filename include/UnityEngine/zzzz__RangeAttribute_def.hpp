@@ -15,29 +15,29 @@ MARK_REF_PTR_T(::UnityEngine::RangeAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10176))
 // CS Name: ::UnityEngine::RangeAttribute*
 class CORDL_TYPE RangeAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   /// @brief Field min, offset 0x10, size 0x4
-  __declspec(property(get = __get_min, put = __set_min)) float_t min;
+  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
 
   /// @brief Field max, offset 0x14, size 0x4
-  __declspec(property(get = __get_max, put = __set_max)) float_t max;
+  __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) float_t max;
 
-  constexpr float_t& __get_min();
+  constexpr float_t& __cordl_internal_get_min();
 
-  constexpr float_t const& __get_min() const;
+  constexpr float_t const& __cordl_internal_get_min() const;
 
-  constexpr void __set_min(float_t value);
+  constexpr void __cordl_internal_set_min(float_t value);
 
-  constexpr float_t& __get_max();
+  constexpr float_t& __cordl_internal_get_max();
 
-  constexpr float_t const& __get_max() const;
+  constexpr float_t const& __cordl_internal_get_max() const;
 
-  constexpr void __set_max(float_t value);
+  constexpr void __cordl_internal_set_max(float_t value);
 
   static inline ::UnityEngine::RangeAttribute* New_ctor(float_t min, float_t max);
 

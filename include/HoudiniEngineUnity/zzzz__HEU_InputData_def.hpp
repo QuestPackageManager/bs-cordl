@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9838))
 // CS Name: ::HoudiniEngineUnity::HEU_InputData*
 class CORDL_TYPE HEU_InputData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _inputObject, offset 0x10, size 0x8
-  __declspec(property(get = __get__inputObject, put = __set__inputObject))::UnityEngine::GameObject* _inputObject;
+  __declspec(property(get = __cordl_internal_get__inputObject, put = __cordl_internal_set__inputObject))::UnityW<::UnityEngine::GameObject> _inputObject;
 
-  constexpr ::UnityEngine::GameObject*& __get__inputObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__inputObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__inputObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__inputObject() const;
 
-  constexpr void __set__inputObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__inputObject(::UnityW<::UnityEngine::GameObject> value);
 
   static inline ::HoudiniEngineUnity::HEU_InputData* New_ctor();
 
@@ -52,7 +52,7 @@ protected:
 
 public:
   /// @brief Field _inputObject, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____inputObject;
+  ::UnityW<::UnityEngine::GameObject> ____inputObject;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

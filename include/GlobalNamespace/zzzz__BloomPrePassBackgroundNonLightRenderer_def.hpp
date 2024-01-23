@@ -23,64 +23,64 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14465))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14465))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14464))
 // CS Name: ::BloomPrePassBackgroundNonLightRenderer*
 class CORDL_TYPE BloomPrePassBackgroundNonLightRenderer : public ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore {
 public:
   // Declarations
   /// @brief Field _renderer, offset 0x48, size 0x8
-  __declspec(property(get = __get__renderer, put = __set__renderer))::UnityEngine::Renderer* _renderer;
+  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::Renderer> _renderer;
 
   /// @brief Field _meshFilter, offset 0x50, size 0x8
-  __declspec(property(get = __get__meshFilter, put = __set__meshFilter))::UnityEngine::MeshFilter* _meshFilter;
+  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter))::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
   /// @brief Field _isPartOfInstancedRendering, offset 0x58, size 0x1
-  __declspec(property(get = __get__isPartOfInstancedRendering, put = __set__isPartOfInstancedRendering)) bool _isPartOfInstancedRendering;
+  __declspec(property(get = __cordl_internal_get__isPartOfInstancedRendering, put = __cordl_internal_set__isPartOfInstancedRendering)) bool _isPartOfInstancedRendering;
 
   /// @brief Field _cachedTransform, offset 0x60, size 0x8
-  __declspec(property(get = __get__cachedTransform, put = __set__cachedTransform))::UnityEngine::Transform* _cachedTransform;
+  __declspec(property(get = __cordl_internal_get__cachedTransform, put = __cordl_internal_set__cachedTransform))::UnityW<::UnityEngine::Transform> _cachedTransform;
 
-  __declspec(property(get = get_renderer))::UnityEngine::Renderer* renderer;
+  __declspec(property(get = get_renderer))::UnityW<::UnityEngine::Renderer> renderer;
 
-  __declspec(property(get = get_meshFilter))::UnityEngine::MeshFilter* meshFilter;
+  __declspec(property(get = get_meshFilter))::UnityW<::UnityEngine::MeshFilter> meshFilter;
 
-  __declspec(property(get = get_cachedTransform))::UnityEngine::Transform* cachedTransform;
+  __declspec(property(get = get_cachedTransform))::UnityW<::UnityEngine::Transform> cachedTransform;
 
   __declspec(property(put = set_isPartOfInstancedRendering)) bool isPartOfInstancedRendering;
 
-  constexpr ::UnityEngine::Renderer*& __get__renderer();
+  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Renderer*> const& __get__renderer() const;
+  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
 
-  constexpr void __set__renderer(::UnityEngine::Renderer* value);
+  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  constexpr ::UnityEngine::MeshFilter*& __get__meshFilter();
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__meshFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& __get__meshFilter() const;
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__meshFilter() const;
 
-  constexpr void __set__meshFilter(::UnityEngine::MeshFilter* value);
+  constexpr void __cordl_internal_set__meshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  constexpr bool& __get__isPartOfInstancedRendering();
+  constexpr bool& __cordl_internal_get__isPartOfInstancedRendering();
 
-  constexpr bool const& __get__isPartOfInstancedRendering() const;
+  constexpr bool const& __cordl_internal_get__isPartOfInstancedRendering() const;
 
-  constexpr void __set__isPartOfInstancedRendering(bool value);
+  constexpr void __cordl_internal_set__isPartOfInstancedRendering(bool value);
 
-  constexpr ::UnityEngine::Transform*& __get__cachedTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__cachedTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__cachedTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__cachedTransform() const;
 
-  constexpr void __set__cachedTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__cachedTransform(::UnityW<::UnityEngine::Transform> value);
 
   /// @brief Method get_renderer, addr 0x2105844, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::Renderer* get_renderer();
+  inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
   /// @brief Method get_meshFilter, addr 0x210584c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::MeshFilter* get_meshFilter();
+  inline ::UnityW<::UnityEngine::MeshFilter> get_meshFilter();
 
   /// @brief Method get_cachedTransform, addr 0x2105854, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_cachedTransform();
+  inline ::UnityW<::UnityEngine::Transform> get_cachedTransform();
 
   /// @brief Method set_isPartOfInstancedRendering, addr 0x2104cd4, size 0x30, virtual false, abstract: false, final false
   inline void set_isPartOfInstancedRendering(bool value);
@@ -117,16 +117,16 @@ protected:
 
 public:
   /// @brief Field _renderer, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Renderer* ____renderer;
+  ::UnityW<::UnityEngine::Renderer> ____renderer;
 
   /// @brief Field _meshFilter, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* ____meshFilter;
+  ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 
   /// @brief Field _isPartOfInstancedRendering, offset: 0x58, size: 0x1, def value: None
   bool ____isPartOfInstancedRendering;
 
   /// @brief Field _cachedTransform, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____cachedTransform;
+  ::UnityW<::UnityEngine::Transform> ____cachedTransform;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

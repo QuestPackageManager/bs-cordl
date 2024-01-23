@@ -29,20 +29,20 @@ MARK_REF_PTR_T(::VRUIControls::MouseState);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15670))
 // CS Name: ::VRUIControls::MouseState*
 class CORDL_TYPE MouseState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _trackedButtons, offset 0x10, size 0x8
-  __declspec(property(get = __get__trackedButtons, put = __set__trackedButtons))::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* _trackedButtons;
+  __declspec(property(get = __cordl_internal_get__trackedButtons, put = __cordl_internal_set__trackedButtons))::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* _trackedButtons;
 
-  constexpr ::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>*& __get__trackedButtons();
+  constexpr ::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>*& __cordl_internal_get__trackedButtons();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>*> const& __get__trackedButtons() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>*> const& __cordl_internal_get__trackedButtons() const;
 
-  constexpr void __set__trackedButtons(::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* value);
+  constexpr void __cordl_internal_set__trackedButtons(::System::Collections::Generic::List_1<::VRUIControls::ButtonState*>* value);
 
   /// @brief Method AnyPressesThisFrame, addr 0x2eb41d4, size 0xa4, virtual false, abstract: false, final false
   inline bool AnyPressesThisFrame();

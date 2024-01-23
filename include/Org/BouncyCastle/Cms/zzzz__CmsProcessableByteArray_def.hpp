@@ -31,17 +31,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsProcessableByteArray);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(645))
 // CS Name: ::Org.BouncyCastle.Cms::CmsProcessableByteArray*
 class CORDL_TYPE CmsProcessableByteArray : public ::System::Object {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::Org::BouncyCastle::Asn1::DerObjectIdentifier* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::Org::BouncyCastle::Asn1::DerObjectIdentifier* type;
 
   /// @brief Field bytes, offset 0x18, size 0x8
-  __declspec(property(get = __get_bytes, put = __set_bytes))::ArrayW<uint8_t, ::Array<uint8_t>*> bytes;
+  __declspec(property(get = __cordl_internal_get_bytes, put = __cordl_internal_set_bytes))::ArrayW<uint8_t, ::Array<uint8_t>*> bytes;
 
   __declspec(property(get = get_Type))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Type;
 
@@ -57,17 +57,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr ::Org::BouncyCastle::Cms::CmsReadable* i___Org__BouncyCastle__Cms__CmsReadable() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_type();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_type(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_bytes();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_bytes();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_bytes() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_bytes() const;
 
-  constexpr void __set_bytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_bytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableByteArray* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 

@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::GradientAlphaKey);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10255))
 // CS Name: ::UnityEngine::GradientAlphaKey
 struct CORDL_TYPE GradientAlphaKey {

@@ -104,22 +104,22 @@ MARK_REF_PTR_T(::System::Net::__TimerThread__TimerQueue);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9110))
 // CS Name: ::TimerThread::Queue*
 class CORDL_TYPE __TimerThread__Queue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_DurationMilliseconds, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_DurationMilliseconds, put = __set_m_DurationMilliseconds)) int32_t m_DurationMilliseconds;
+  __declspec(property(get = __cordl_internal_get_m_DurationMilliseconds, put = __cordl_internal_set_m_DurationMilliseconds)) int32_t m_DurationMilliseconds;
 
   __declspec(property(get = get_Duration)) int32_t Duration;
 
-  constexpr int32_t& __get_m_DurationMilliseconds();
+  constexpr int32_t& __cordl_internal_get_m_DurationMilliseconds();
 
-  constexpr int32_t const& __get_m_DurationMilliseconds() const;
+  constexpr int32_t const& __cordl_internal_get_m_DurationMilliseconds() const;
 
-  constexpr void __set_m_DurationMilliseconds(int32_t value);
+  constexpr void __cordl_internal_set_m_DurationMilliseconds(int32_t value);
 
   static inline ::System::Net::__TimerThread__Queue* New_ctor(int32_t durationMilliseconds);
 
@@ -161,17 +161,17 @@ static_assert(offsetof(::System::Net::__TimerThread__Queue, ___m_DurationMillise
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9111))
 // CS Name: ::TimerThread::Timer*
 class CORDL_TYPE __TimerThread__Timer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_StartTimeMilliseconds, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_StartTimeMilliseconds, put = __set_m_StartTimeMilliseconds)) int32_t m_StartTimeMilliseconds;
+  __declspec(property(get = __cordl_internal_get_m_StartTimeMilliseconds, put = __cordl_internal_set_m_StartTimeMilliseconds)) int32_t m_StartTimeMilliseconds;
 
   /// @brief Field m_DurationMilliseconds, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_DurationMilliseconds, put = __set_m_DurationMilliseconds)) int32_t m_DurationMilliseconds;
+  __declspec(property(get = __cordl_internal_get_m_DurationMilliseconds, put = __cordl_internal_set_m_DurationMilliseconds)) int32_t m_DurationMilliseconds;
 
   __declspec(property(get = get_StartTime)) int32_t StartTime;
 
@@ -185,17 +185,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get_m_StartTimeMilliseconds();
+  constexpr int32_t& __cordl_internal_get_m_StartTimeMilliseconds();
 
-  constexpr int32_t const& __get_m_StartTimeMilliseconds() const;
+  constexpr int32_t const& __cordl_internal_get_m_StartTimeMilliseconds() const;
 
-  constexpr void __set_m_StartTimeMilliseconds(int32_t value);
+  constexpr void __cordl_internal_set_m_StartTimeMilliseconds(int32_t value);
 
-  constexpr int32_t& __get_m_DurationMilliseconds();
+  constexpr int32_t& __cordl_internal_get_m_DurationMilliseconds();
 
-  constexpr int32_t const& __get_m_DurationMilliseconds() const;
+  constexpr int32_t const& __cordl_internal_get_m_DurationMilliseconds() const;
 
-  constexpr void __set_m_DurationMilliseconds(int32_t value);
+  constexpr void __cordl_internal_set_m_DurationMilliseconds(int32_t value);
 
   static inline ::System::Net::__TimerThread__Timer* New_ctor(int32_t durationMilliseconds);
 
@@ -251,7 +251,7 @@ static_assert(offsetof(::System::Net::__TimerThread__Timer, ___m_DurationMillise
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9112))
 // CS Name: ::TimerThread::Callback*
 class CORDL_TYPE __TimerThread__Callback : public ::System::MulticastDelegate {
@@ -289,29 +289,29 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__TimerThread__Call
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(9110))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(9110))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9113))
 // CS Name: ::TimerThread::TimerQueue*
 class CORDL_TYPE __TimerThread__TimerQueue : public ::System::Net::__TimerThread__Queue {
 public:
   // Declarations
   /// @brief Field m_ThisHandle, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_ThisHandle, put = __set_m_ThisHandle)) void* m_ThisHandle;
+  __declspec(property(get = __cordl_internal_get_m_ThisHandle, put = __cordl_internal_set_m_ThisHandle)) void* m_ThisHandle;
 
   /// @brief Field m_Timers, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Timers, put = __set_m_Timers))::System::Net::__TimerThread__TimerNode* m_Timers;
+  __declspec(property(get = __cordl_internal_get_m_Timers, put = __cordl_internal_set_m_Timers))::System::Net::__TimerThread__TimerNode* m_Timers;
 
-  constexpr void*& __get_m_ThisHandle();
+  constexpr void*& __cordl_internal_get_m_ThisHandle();
 
-  constexpr void* const& __get_m_ThisHandle() const;
+  constexpr void* const& __cordl_internal_get_m_ThisHandle() const;
 
-  constexpr void __set_m_ThisHandle(void* value);
+  constexpr void __cordl_internal_set_m_ThisHandle(void* value);
 
-  constexpr ::System::Net::__TimerThread__TimerNode*& __get_m_Timers();
+  constexpr ::System::Net::__TimerThread__TimerNode*& __cordl_internal_get_m_Timers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__TimerNode*> const& __get_m_Timers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__TimerNode*> const& __cordl_internal_get_m_Timers() const;
 
-  constexpr void __set_m_Timers(::System::Net::__TimerThread__TimerNode* value);
+  constexpr void __cordl_internal_set_m_Timers(::System::Net::__TimerThread__TimerNode* value);
 
   static inline ::System::Net::__TimerThread__TimerQueue* New_ctor(int32_t durationMilliseconds);
 
@@ -358,7 +358,7 @@ static_assert(offsetof(::System::Net::__TimerThread__TimerQueue, ___m_Timers) ==
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9110))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9110))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9114))
 // CS Name: ::TimerThread::InfiniteTimerQueue*
 class CORDL_TYPE __TimerThread__InfiniteTimerQueue : public ::System::Net::__TimerThread__Queue {
@@ -396,7 +396,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__TimerThread__Infi
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9115))
 // CS Name: ::TimerThread::TimerNode::TimerState
 struct CORDL_TYPE __TimerThread__TimerNode__TimerState {
@@ -454,7 +454,7 @@ static_assert(offsetof(::GlobalNamespace::__TimerThread__TimerNode__TimerState, 
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9111)), TypeDefinitionIndex(TypeDefinitionIndex(9115))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9111)), TypeDefinitionIndex(TypeDefinitionIndex(9115))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9116))
 // CS Name: ::TimerThread::TimerNode*
 class CORDL_TYPE __TimerThread__TimerNode : public ::System::Net::__TimerThread__Timer {
@@ -463,22 +463,22 @@ public:
   using TimerState = ::GlobalNamespace::__TimerThread__TimerNode__TimerState;
 
   /// @brief Field m_TimerState, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_TimerState, put = __set_m_TimerState))::GlobalNamespace::__TimerThread__TimerNode__TimerState m_TimerState;
+  __declspec(property(get = __cordl_internal_get_m_TimerState, put = __cordl_internal_set_m_TimerState))::GlobalNamespace::__TimerThread__TimerNode__TimerState m_TimerState;
 
   /// @brief Field m_Callback, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Callback, put = __set_m_Callback))::System::Net::__TimerThread__Callback* m_Callback;
+  __declspec(property(get = __cordl_internal_get_m_Callback, put = __cordl_internal_set_m_Callback))::System::Net::__TimerThread__Callback* m_Callback;
 
   /// @brief Field m_Context, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Context, put = __set_m_Context))::System::Object* m_Context;
+  __declspec(property(get = __cordl_internal_get_m_Context, put = __cordl_internal_set_m_Context))::System::Object* m_Context;
 
   /// @brief Field m_QueueLock, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_QueueLock, put = __set_m_QueueLock))::System::Object* m_QueueLock;
+  __declspec(property(get = __cordl_internal_get_m_QueueLock, put = __cordl_internal_set_m_QueueLock))::System::Object* m_QueueLock;
 
   /// @brief Field next, offset 0x38, size 0x8
-  __declspec(property(get = __get_next, put = __set_next))::System::Net::__TimerThread__TimerNode* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Net::__TimerThread__TimerNode* next;
 
   /// @brief Field prev, offset 0x40, size 0x8
-  __declspec(property(get = __get_prev, put = __set_prev))::System::Net::__TimerThread__TimerNode* prev;
+  __declspec(property(get = __cordl_internal_get_prev, put = __cordl_internal_set_prev))::System::Net::__TimerThread__TimerNode* prev;
 
   __declspec(property(get = get_HasExpired)) bool HasExpired;
 
@@ -486,41 +486,41 @@ public:
 
   __declspec(property(get = get_Prev, put = set_Prev))::System::Net::__TimerThread__TimerNode* Prev;
 
-  constexpr ::GlobalNamespace::__TimerThread__TimerNode__TimerState& __get_m_TimerState();
+  constexpr ::GlobalNamespace::__TimerThread__TimerNode__TimerState& __cordl_internal_get_m_TimerState();
 
-  constexpr ::GlobalNamespace::__TimerThread__TimerNode__TimerState const& __get_m_TimerState() const;
+  constexpr ::GlobalNamespace::__TimerThread__TimerNode__TimerState const& __cordl_internal_get_m_TimerState() const;
 
-  constexpr void __set_m_TimerState(::GlobalNamespace::__TimerThread__TimerNode__TimerState value);
+  constexpr void __cordl_internal_set_m_TimerState(::GlobalNamespace::__TimerThread__TimerNode__TimerState value);
 
-  constexpr ::System::Net::__TimerThread__Callback*& __get_m_Callback();
+  constexpr ::System::Net::__TimerThread__Callback*& __cordl_internal_get_m_Callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__Callback*> const& __get_m_Callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__Callback*> const& __cordl_internal_get_m_Callback() const;
 
-  constexpr void __set_m_Callback(::System::Net::__TimerThread__Callback* value);
+  constexpr void __cordl_internal_set_m_Callback(::System::Net::__TimerThread__Callback* value);
 
-  constexpr ::System::Object*& __get_m_Context();
+  constexpr ::System::Object*& __cordl_internal_get_m_Context();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_Context() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_Context() const;
 
-  constexpr void __set_m_Context(::System::Object* value);
+  constexpr void __cordl_internal_set_m_Context(::System::Object* value);
 
-  constexpr ::System::Object*& __get_m_QueueLock();
+  constexpr ::System::Object*& __cordl_internal_get_m_QueueLock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_QueueLock() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_QueueLock() const;
 
-  constexpr void __set_m_QueueLock(::System::Object* value);
+  constexpr void __cordl_internal_set_m_QueueLock(::System::Object* value);
 
-  constexpr ::System::Net::__TimerThread__TimerNode*& __get_next();
+  constexpr ::System::Net::__TimerThread__TimerNode*& __cordl_internal_get_next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__TimerNode*> const& __get_next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__TimerNode*> const& __cordl_internal_get_next() const;
 
-  constexpr void __set_next(::System::Net::__TimerThread__TimerNode* value);
+  constexpr void __cordl_internal_set_next(::System::Net::__TimerThread__TimerNode* value);
 
-  constexpr ::System::Net::__TimerThread__TimerNode*& __get_prev();
+  constexpr ::System::Net::__TimerThread__TimerNode*& __cordl_internal_get_prev();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__TimerNode*> const& __get_prev() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__TimerNode*> const& __cordl_internal_get_prev() const;
 
-  constexpr void __set_prev(::System::Net::__TimerThread__TimerNode* value);
+  constexpr void __cordl_internal_set_prev(::System::Net::__TimerThread__TimerNode* value);
 
   static inline ::System::Net::__TimerThread__TimerNode* New_ctor(::System::Net::__TimerThread__Callback* callback, ::System::Object* context, int32_t durationMilliseconds,
                                                                   ::System::Object* queueLock);
@@ -608,22 +608,22 @@ static_assert(offsetof(::System::Net::__TimerThread__TimerNode, ___prev) == 0x40
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9111))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9111))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9117))
 // CS Name: ::TimerThread::InfiniteTimer*
 class CORDL_TYPE __TimerThread__InfiniteTimer : public ::System::Net::__TimerThread__Timer {
 public:
   // Declarations
   /// @brief Field cancelled, offset 0x18, size 0x4
-  __declspec(property(get = __get_cancelled, put = __set_cancelled)) int32_t cancelled;
+  __declspec(property(get = __cordl_internal_get_cancelled, put = __cordl_internal_set_cancelled)) int32_t cancelled;
 
   __declspec(property(get = get_HasExpired)) bool HasExpired;
 
-  constexpr int32_t& __get_cancelled();
+  constexpr int32_t& __cordl_internal_get_cancelled();
 
-  constexpr int32_t const& __get_cancelled() const;
+  constexpr int32_t const& __cordl_internal_get_cancelled() const;
 
-  constexpr void __set_cancelled(int32_t value);
+  constexpr void __cordl_internal_set_cancelled(int32_t value);
 
   static inline ::System::Net::__TimerThread__InfiniteTimer* New_ctor();
 
@@ -665,7 +665,7 @@ static_assert(offsetof(::System::Net::__TimerThread__InfiniteTimer, ___cancelled
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9118))
 // CS Name: ::System.Net::TimerThread*
 class CORDL_TYPE TimerThread : public ::System::Object {

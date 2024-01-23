@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_HapticVibration_t);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8687))
 // CS Name: ::OVR.OpenVR::VREvent_HapticVibration_t
 struct CORDL_TYPE VREvent_HapticVibration_t {

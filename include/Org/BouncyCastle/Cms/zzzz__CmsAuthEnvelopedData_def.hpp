@@ -53,14 +53,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::__CmsAuthEnvelopedData__AuthEnvelopedSe
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(624))
 // CS Name: ::CmsAuthEnvelopedData::AuthEnvelopedSecureReadable*
 class CORDL_TYPE __CmsAuthEnvelopedData__AuthEnvelopedSecureReadable : public ::System::Object {
 public:
   // Declarations
   /// @brief Field parent, offset 0x10, size 0x8
-  __declspec(property(get = __get_parent, put = __set_parent))::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* parent;
+  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent))::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* parent;
 
   __declspec(property(get = get_Algorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Algorithm;
 
@@ -72,11 +72,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsSecureReadable"
   constexpr ::Org::BouncyCastle::Cms::CmsSecureReadable* i___Org__BouncyCastle__Cms__CmsSecureReadable() noexcept;
 
-  constexpr ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData*& __get_parent();
+  constexpr ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData*& __cordl_internal_get_parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAuthEnvelopedData*> const& __get_parent() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAuthEnvelopedData*> const& __cordl_internal_get_parent() const;
 
-  constexpr void __set_parent(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* value);
+  constexpr void __cordl_internal_set_parent(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* value);
 
   static inline ::Org::BouncyCastle::Cms::__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable* New_ctor(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* parent);
 
@@ -121,7 +121,7 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsAuthEnvelopedData__AuthEnv
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(625))
 // CS Name: ::Org.BouncyCastle.Cms::CmsAuthEnvelopedData*
 class CORDL_TYPE CmsAuthEnvelopedData : public ::System::Object {
@@ -130,67 +130,67 @@ public:
   using AuthEnvelopedSecureReadable = ::Org::BouncyCastle::Cms::__CmsAuthEnvelopedData__AuthEnvelopedSecureReadable;
 
   /// @brief Field recipientInfoStore, offset 0x10, size 0x8
-  __declspec(property(get = __get_recipientInfoStore, put = __set_recipientInfoStore))::Org::BouncyCastle::Cms::RecipientInformationStore* recipientInfoStore;
+  __declspec(property(get = __cordl_internal_get_recipientInfoStore, put = __cordl_internal_set_recipientInfoStore))::Org::BouncyCastle::Cms::RecipientInformationStore* recipientInfoStore;
 
   /// @brief Field contentInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get_contentInfo, put = __set_contentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo;
+  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo;
 
   /// @brief Field originator, offset 0x20, size 0x8
-  __declspec(property(get = __get_originator, put = __set_originator))::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originator;
+  __declspec(property(get = __cordl_internal_get_originator, put = __cordl_internal_set_originator))::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originator;
 
   /// @brief Field authEncAlg, offset 0x28, size 0x8
-  __declspec(property(get = __get_authEncAlg, put = __set_authEncAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* authEncAlg;
+  __declspec(property(get = __cordl_internal_get_authEncAlg, put = __cordl_internal_set_authEncAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* authEncAlg;
 
   /// @brief Field authAttrs, offset 0x30, size 0x8
-  __declspec(property(get = __get_authAttrs, put = __set_authAttrs))::Org::BouncyCastle::Asn1::Asn1Set* authAttrs;
+  __declspec(property(get = __cordl_internal_get_authAttrs, put = __cordl_internal_set_authAttrs))::Org::BouncyCastle::Asn1::Asn1Set* authAttrs;
 
   /// @brief Field mac, offset 0x38, size 0x8
-  __declspec(property(get = __get_mac, put = __set_mac))::ArrayW<uint8_t, ::Array<uint8_t>*> mac;
+  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac))::ArrayW<uint8_t, ::Array<uint8_t>*> mac;
 
   /// @brief Field unauthAttrs, offset 0x40, size 0x8
-  __declspec(property(get = __get_unauthAttrs, put = __set_unauthAttrs))::Org::BouncyCastle::Asn1::Asn1Set* unauthAttrs;
+  __declspec(property(get = __cordl_internal_get_unauthAttrs, put = __cordl_internal_set_unauthAttrs))::Org::BouncyCastle::Asn1::Asn1Set* unauthAttrs;
 
-  constexpr ::Org::BouncyCastle::Cms::RecipientInformationStore*& __get_recipientInfoStore();
+  constexpr ::Org::BouncyCastle::Cms::RecipientInformationStore*& __cordl_internal_get_recipientInfoStore();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::RecipientInformationStore*> const& __get_recipientInfoStore() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::RecipientInformationStore*> const& __cordl_internal_get_recipientInfoStore() const;
 
-  constexpr void __set_recipientInfoStore(::Org::BouncyCastle::Cms::RecipientInformationStore* value);
+  constexpr void __cordl_internal_set_recipientInfoStore(::Org::BouncyCastle::Cms::RecipientInformationStore* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __get_contentInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __cordl_internal_get_contentInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __get_contentInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __cordl_internal_get_contentInfo() const;
 
-  constexpr void __set_contentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
+  constexpr void __cordl_internal_set_contentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*& __get_originator();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*& __cordl_internal_get_originator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*> const& __get_originator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*> const& __cordl_internal_get_originator() const;
 
-  constexpr void __set_originator(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* value);
+  constexpr void __cordl_internal_set_originator(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_authEncAlg();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_authEncAlg();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_authEncAlg() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_authEncAlg() const;
 
-  constexpr void __set_authEncAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_authEncAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __get_authAttrs();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_authAttrs();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __get_authAttrs() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_authAttrs() const;
 
-  constexpr void __set_authAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  constexpr void __cordl_internal_set_authAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mac();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mac();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mac() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mac() const;
 
-  constexpr void __set_mac(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mac(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __get_unauthAttrs();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_unauthAttrs();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __get_unauthAttrs() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_unauthAttrs() const;
 
-  constexpr void __set_unauthAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  constexpr void __cordl_internal_set_unauthAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authEnvData);
 

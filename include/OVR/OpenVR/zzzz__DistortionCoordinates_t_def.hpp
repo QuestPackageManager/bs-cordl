@@ -15,7 +15,7 @@ MARK_VAL_T(::OVR::OpenVR::DistortionCoordinates_t);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8656))
 // CS Name: ::OVR.OpenVR::DistortionCoordinates_t
 struct CORDL_TYPE DistortionCoordinates_t {

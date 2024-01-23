@@ -18,7 +18,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::FontStyleStack);
 // SizeInfo { instance_size: 10, native_size: 10, calculated_instance_size: 10, calculated_native_size: 26, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13726))
 // CS Name: ::UnityEngine.TextCore.Text::FontStyleStack
 struct CORDL_TYPE FontStyleStack {

@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::UnknownStatus);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1626))
 // CS Name: ::Org.BouncyCastle.Ocsp::UnknownStatus*
 class CORDL_TYPE UnknownStatus : public ::Org::BouncyCastle::Ocsp::CertificateStatus {

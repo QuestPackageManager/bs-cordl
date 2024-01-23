@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRMixedRealityCaptureTest);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8136))
 // CS Name: ::OVRMixedRealityCaptureTest::CameraMode
 struct CORDL_TYPE __OVRMixedRealityCaptureTest__CameraMode {
@@ -82,7 +82,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMo
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7756)), TypeDefinitionIndex(TypeDefinitionIndex(8136))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7756)), TypeDefinitionIndex(TypeDefinitionIndex(8136)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8137))
 // CS Name: ::OVRMixedRealityCaptureTest*
 class CORDL_TYPE OVRMixedRealityCaptureTest : public ::UnityEngine::MonoBehaviour {
@@ -91,40 +91,40 @@ public:
   using CameraMode = ::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode;
 
   /// @brief Field inited, offset 0x18, size 0x1
-  __declspec(property(get = __get_inited, put = __set_inited)) bool inited;
+  __declspec(property(get = __cordl_internal_get_inited, put = __cordl_internal_set_inited)) bool inited;
 
   /// @brief Field currentMode, offset 0x1c, size 0x4
-  __declspec(property(get = __get_currentMode, put = __set_currentMode))::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode currentMode;
+  __declspec(property(get = __cordl_internal_get_currentMode, put = __cordl_internal_set_currentMode))::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode currentMode;
 
   /// @brief Field defaultExternalCamera, offset 0x20, size 0x8
-  __declspec(property(get = __get_defaultExternalCamera, put = __set_defaultExternalCamera))::UnityEngine::Camera* defaultExternalCamera;
+  __declspec(property(get = __cordl_internal_get_defaultExternalCamera, put = __cordl_internal_set_defaultExternalCamera))::UnityW<::UnityEngine::Camera> defaultExternalCamera;
 
   /// @brief Field defaultFov, offset 0x28, size 0x10
-  __declspec(property(get = __get_defaultFov, put = __set_defaultFov))::GlobalNamespace::__OVRPlugin__Fovf defaultFov;
+  __declspec(property(get = __cordl_internal_get_defaultFov, put = __cordl_internal_set_defaultFov))::GlobalNamespace::__OVRPlugin__Fovf defaultFov;
 
-  constexpr bool& __get_inited();
+  constexpr bool& __cordl_internal_get_inited();
 
-  constexpr bool const& __get_inited() const;
+  constexpr bool const& __cordl_internal_get_inited() const;
 
-  constexpr void __set_inited(bool value);
+  constexpr void __cordl_internal_set_inited(bool value);
 
-  constexpr ::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode& __get_currentMode();
+  constexpr ::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode& __cordl_internal_get_currentMode();
 
-  constexpr ::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode const& __get_currentMode() const;
+  constexpr ::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode const& __cordl_internal_get_currentMode() const;
 
-  constexpr void __set_currentMode(::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode value);
+  constexpr void __cordl_internal_set_currentMode(::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode value);
 
-  constexpr ::UnityEngine::Camera*& __get_defaultExternalCamera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get_defaultExternalCamera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get_defaultExternalCamera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get_defaultExternalCamera() const;
 
-  constexpr void __set_defaultExternalCamera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set_defaultExternalCamera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr ::GlobalNamespace::__OVRPlugin__Fovf& __get_defaultFov();
+  constexpr ::GlobalNamespace::__OVRPlugin__Fovf& __cordl_internal_get_defaultFov();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__Fovf const& __get_defaultFov() const;
+  constexpr ::GlobalNamespace::__OVRPlugin__Fovf const& __cordl_internal_get_defaultFov() const;
 
-  constexpr void __set_defaultFov(::GlobalNamespace::__OVRPlugin__Fovf value);
+  constexpr void __cordl_internal_set_defaultFov(::GlobalNamespace::__OVRPlugin__Fovf value);
 
   /// @brief Method Start, addr 0x27b3664, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
@@ -164,7 +164,7 @@ public:
   ::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode ___currentMode;
 
   /// @brief Field defaultExternalCamera, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Camera* ___defaultExternalCamera;
+  ::UnityW<::UnityEngine::Camera> ___defaultExternalCamera;
 
   /// @brief Field defaultFov, offset: 0x28, size: 0x10, def value: None
   ::GlobalNamespace::__OVRPlugin__Fovf ___defaultFov;

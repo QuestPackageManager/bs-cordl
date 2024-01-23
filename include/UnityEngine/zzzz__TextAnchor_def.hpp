@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::TextAnchor);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15901))
 // CS Name: ::UnityEngine::TextAnchor
 struct CORDL_TYPE TextAnchor {

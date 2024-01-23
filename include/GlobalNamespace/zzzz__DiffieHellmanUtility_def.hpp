@@ -99,7 +99,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__DiffieHellmanUtility__OperationTimer);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12712))
 // CS Name: ::DiffieHellmanUtility::KeyType
 struct CORDL_TYPE __DiffieHellmanUtility__KeyType {
@@ -149,29 +149,29 @@ static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__KeyType, value
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12713))
 // CS Name: ::DiffieHellmanUtility::DiffieHellmanKeyPair::<>c__DisplayClass5_0*
 class CORDL_TYPE __DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair* __4__this;
 
   /// @brief Field clientPublicKey, offset 0x18, size 0x8
-  __declspec(property(get = __get_clientPublicKey, put = __set_clientPublicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey;
+  __declspec(property(get = __cordl_internal_get_clientPublicKey, put = __cordl_internal_set_clientPublicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey;
 
-  constexpr ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*& __get___4__this();
+  constexpr ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_clientPublicKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_clientPublicKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_clientPublicKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_clientPublicKey() const;
 
-  constexpr void __set_clientPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_clientPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0* New_ctor();
 
@@ -215,7 +215,7 @@ static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanK
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12714))
 // CS Name: ::DiffieHellmanUtility::DiffieHellmanKeyPair*
 class CORDL_TYPE __DiffieHellmanUtility__DiffieHellmanKeyPair : public ::System::Object {
@@ -224,10 +224,10 @@ public:
   using __c__DisplayClass5_0 = ::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanKeyPair____c__DisplayClass5_0;
 
   /// @brief Field _dhBasicAgreement, offset 0x10, size 0x8
-  __declspec(property(get = __get__dhBasicAgreement, put = __set__dhBasicAgreement))::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* _dhBasicAgreement;
+  __declspec(property(get = __cordl_internal_get__dhBasicAgreement, put = __cordl_internal_set__dhBasicAgreement))::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* _dhBasicAgreement;
 
   /// @brief Field _publicKey, offset 0x18, size 0x8
-  __declspec(property(get = __get__publicKey, put = __set__publicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> _publicKey;
+  __declspec(property(get = __cordl_internal_get__publicKey, put = __cordl_internal_set__publicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> _publicKey;
 
   __declspec(property(get = get_publicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey;
 
@@ -237,17 +237,17 @@ public:
   /// @brief Convert to "::GlobalNamespace::IDiffieHellmanKeyPair"
   constexpr ::GlobalNamespace::IDiffieHellmanKeyPair* i___GlobalNamespace__IDiffieHellmanKeyPair() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*& __get__dhBasicAgreement();
+  constexpr ::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*& __cordl_internal_get__dhBasicAgreement();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*> const& __get__dhBasicAgreement() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement*> const& __cordl_internal_get__dhBasicAgreement() const;
 
-  constexpr void __set__dhBasicAgreement(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* value);
+  constexpr void __cordl_internal_set__dhBasicAgreement(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__publicKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__publicKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__publicKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__publicKey() const;
 
-  constexpr void __set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   /// @brief Method get_publicKey, addr 0xe334d4, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_publicKey();
@@ -299,29 +299,29 @@ static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__DiffieHellmanK
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12715))
 // CS Name: ::DiffieHellmanUtility::ElipticalCurveKeyPair::<>c__DisplayClass5_0*
 class CORDL_TYPE __DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair* __4__this;
 
   /// @brief Field clientPublicKey, offset 0x18, size 0x8
-  __declspec(property(get = __get_clientPublicKey, put = __set_clientPublicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey;
+  __declspec(property(get = __cordl_internal_get_clientPublicKey, put = __cordl_internal_set_clientPublicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> clientPublicKey;
 
-  constexpr ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*& __get___4__this();
+  constexpr ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_clientPublicKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_clientPublicKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_clientPublicKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_clientPublicKey() const;
 
-  constexpr void __set_clientPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_clientPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0* New_ctor();
 
@@ -365,7 +365,7 @@ static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurve
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12716))
 // CS Name: ::DiffieHellmanUtility::ElipticalCurveKeyPair*
 class CORDL_TYPE __DiffieHellmanUtility__ElipticalCurveKeyPair : public ::System::Object {
@@ -374,10 +374,10 @@ public:
   using __c__DisplayClass5_0 = ::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurveKeyPair____c__DisplayClass5_0;
 
   /// @brief Field _ecdhBasicAgreement, offset 0x10, size 0x8
-  __declspec(property(get = __get__ecdhBasicAgreement, put = __set__ecdhBasicAgreement))::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* _ecdhBasicAgreement;
+  __declspec(property(get = __cordl_internal_get__ecdhBasicAgreement, put = __cordl_internal_set__ecdhBasicAgreement))::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* _ecdhBasicAgreement;
 
   /// @brief Field _publicKey, offset 0x18, size 0x8
-  __declspec(property(get = __get__publicKey, put = __set__publicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> _publicKey;
+  __declspec(property(get = __cordl_internal_get__publicKey, put = __cordl_internal_set__publicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> _publicKey;
 
   __declspec(property(get = get_publicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey;
 
@@ -387,17 +387,17 @@ public:
   /// @brief Convert to "::GlobalNamespace::IDiffieHellmanKeyPair"
   constexpr ::GlobalNamespace::IDiffieHellmanKeyPair* i___GlobalNamespace__IDiffieHellmanKeyPair() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*& __get__ecdhBasicAgreement();
+  constexpr ::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*& __cordl_internal_get__ecdhBasicAgreement();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*> const& __get__ecdhBasicAgreement() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement*> const& __cordl_internal_get__ecdhBasicAgreement() const;
 
-  constexpr void __set__ecdhBasicAgreement(::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* value);
+  constexpr void __cordl_internal_set__ecdhBasicAgreement(::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__publicKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__publicKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__publicKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__publicKey() const;
 
-  constexpr void __set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   /// @brief Method get_publicKey, addr 0xe33708, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_publicKey();
@@ -449,17 +449,17 @@ static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__ElipticalCurve
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12717))
 // CS Name: ::DiffieHellmanUtility::OperationTimer*
 class CORDL_TYPE __DiffieHellmanUtility__OperationTimer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _stopwatch, offset 0x10, size 0x8
-  __declspec(property(get = __get__stopwatch, put = __set__stopwatch))::System::Diagnostics::Stopwatch* _stopwatch;
+  __declspec(property(get = __cordl_internal_get__stopwatch, put = __cordl_internal_set__stopwatch))::System::Diagnostics::Stopwatch* _stopwatch;
 
   /// @brief Field _operationName, offset 0x18, size 0x8
-  __declspec(property(get = __get__operationName, put = __set__operationName))::StringW _operationName;
+  __declspec(property(get = __cordl_internal_get__operationName, put = __cordl_internal_set__operationName))::StringW _operationName;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -467,17 +467,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Diagnostics::Stopwatch*& __get__stopwatch();
+  constexpr ::System::Diagnostics::Stopwatch*& __cordl_internal_get__stopwatch();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Stopwatch*> const& __get__stopwatch() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Stopwatch*> const& __cordl_internal_get__stopwatch() const;
 
-  constexpr void __set__stopwatch(::System::Diagnostics::Stopwatch* value);
+  constexpr void __cordl_internal_set__stopwatch(::System::Diagnostics::Stopwatch* value);
 
-  constexpr ::StringW& __get__operationName();
+  constexpr ::StringW& __cordl_internal_get__operationName();
 
-  constexpr ::StringW const& __get__operationName() const;
+  constexpr ::StringW const& __cordl_internal_get__operationName() const;
 
-  constexpr void __set__operationName(::StringW value);
+  constexpr void __cordl_internal_set__operationName(::StringW value);
 
   static inline ::GlobalNamespace::__DiffieHellmanUtility__OperationTimer* New_ctor(::StringW operationName);
 
@@ -524,7 +524,7 @@ static_assert(offsetof(::GlobalNamespace::__DiffieHellmanUtility__OperationTimer
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12718))
 // CS Name: ::DiffieHellmanUtility*
 class CORDL_TYPE DiffieHellmanUtility : public ::System::Object {

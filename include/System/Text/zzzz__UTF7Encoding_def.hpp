@@ -67,40 +67,40 @@ MARK_REF_PTR_T(::System::Text::__UTF7Encoding__Encoder);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2835))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2835))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2857))
 // CS Name: ::UTF7Encoding::Decoder*
 class CORDL_TYPE __UTF7Encoding__Decoder : public ::System::Text::DecoderNLS {
 public:
   // Declarations
   /// @brief Field bits, offset 0x30, size 0x4
-  __declspec(property(get = __get_bits, put = __set_bits)) int32_t bits;
+  __declspec(property(get = __cordl_internal_get_bits, put = __cordl_internal_set_bits)) int32_t bits;
 
   /// @brief Field bitCount, offset 0x34, size 0x4
-  __declspec(property(get = __get_bitCount, put = __set_bitCount)) int32_t bitCount;
+  __declspec(property(get = __cordl_internal_get_bitCount, put = __cordl_internal_set_bitCount)) int32_t bitCount;
 
   /// @brief Field firstByte, offset 0x38, size 0x1
-  __declspec(property(get = __get_firstByte, put = __set_firstByte)) bool firstByte;
+  __declspec(property(get = __cordl_internal_get_firstByte, put = __cordl_internal_set_firstByte)) bool firstByte;
 
   __declspec(property(get = get_HasState)) bool HasState;
 
-  constexpr int32_t& __get_bits();
+  constexpr int32_t& __cordl_internal_get_bits();
 
-  constexpr int32_t const& __get_bits() const;
+  constexpr int32_t const& __cordl_internal_get_bits() const;
 
-  constexpr void __set_bits(int32_t value);
+  constexpr void __cordl_internal_set_bits(int32_t value);
 
-  constexpr int32_t& __get_bitCount();
+  constexpr int32_t& __cordl_internal_get_bitCount();
 
-  constexpr int32_t const& __get_bitCount() const;
+  constexpr int32_t const& __cordl_internal_get_bitCount() const;
 
-  constexpr void __set_bitCount(int32_t value);
+  constexpr void __cordl_internal_set_bitCount(int32_t value);
 
-  constexpr bool& __get_firstByte();
+  constexpr bool& __cordl_internal_get_firstByte();
 
-  constexpr bool const& __get_firstByte() const;
+  constexpr bool const& __cordl_internal_get_firstByte() const;
 
-  constexpr void __set_firstByte(bool value);
+  constexpr void __cordl_internal_set_firstByte(bool value);
 
   static inline ::System::Text::__UTF7Encoding__Decoder* New_ctor(::System::Text::UTF7Encoding* encoding);
 
@@ -152,31 +152,31 @@ static_assert(offsetof(::System::Text::__UTF7Encoding__Decoder, ___firstByte) ==
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2846))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2846))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2858))
 // CS Name: ::UTF7Encoding::Encoder*
 class CORDL_TYPE __UTF7Encoding__Encoder : public ::System::Text::EncoderNLS {
 public:
   // Declarations
   /// @brief Field bits, offset 0x38, size 0x4
-  __declspec(property(get = __get_bits, put = __set_bits)) int32_t bits;
+  __declspec(property(get = __cordl_internal_get_bits, put = __cordl_internal_set_bits)) int32_t bits;
 
   /// @brief Field bitCount, offset 0x3c, size 0x4
-  __declspec(property(get = __get_bitCount, put = __set_bitCount)) int32_t bitCount;
+  __declspec(property(get = __cordl_internal_get_bitCount, put = __cordl_internal_set_bitCount)) int32_t bitCount;
 
   __declspec(property(get = get_HasState)) bool HasState;
 
-  constexpr int32_t& __get_bits();
+  constexpr int32_t& __cordl_internal_get_bits();
 
-  constexpr int32_t const& __get_bits() const;
+  constexpr int32_t const& __cordl_internal_get_bits() const;
 
-  constexpr void __set_bits(int32_t value);
+  constexpr void __cordl_internal_set_bits(int32_t value);
 
-  constexpr int32_t& __get_bitCount();
+  constexpr int32_t& __cordl_internal_get_bitCount();
 
-  constexpr int32_t const& __get_bitCount() const;
+  constexpr int32_t const& __cordl_internal_get_bitCount() const;
 
-  constexpr void __set_bitCount(int32_t value);
+  constexpr void __cordl_internal_set_bitCount(int32_t value);
 
   static inline ::System::Text::__UTF7Encoding__Encoder* New_ctor(::System::Text::UTF7Encoding* encoding);
 
@@ -223,7 +223,7 @@ static_assert(offsetof(::System::Text::__UTF7Encoding__Encoder, ___bitCount) == 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2833))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2833))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2859))
 // CS Name: ::UTF7Encoding::DecoderUTF7Fallback*
 class CORDL_TYPE __UTF7Encoding__DecoderUTF7Fallback : public ::System::Text::DecoderFallback {
@@ -272,40 +272,40 @@ static_assert(::cordl_internals::size_check_v<::System::Text::__UTF7Encoding__De
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2834))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2834))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2860))
 // CS Name: ::UTF7Encoding::DecoderUTF7FallbackBuffer*
 class CORDL_TYPE __UTF7Encoding__DecoderUTF7FallbackBuffer : public ::System::Text::DecoderFallbackBuffer {
 public:
   // Declarations
   /// @brief Field cFallback, offset 0x20, size 0x2
-  __declspec(property(get = __get_cFallback, put = __set_cFallback)) char16_t cFallback;
+  __declspec(property(get = __cordl_internal_get_cFallback, put = __cordl_internal_set_cFallback)) char16_t cFallback;
 
   /// @brief Field iCount, offset 0x24, size 0x4
-  __declspec(property(get = __get_iCount, put = __set_iCount)) int32_t iCount;
+  __declspec(property(get = __cordl_internal_get_iCount, put = __cordl_internal_set_iCount)) int32_t iCount;
 
   /// @brief Field iSize, offset 0x28, size 0x4
-  __declspec(property(get = __get_iSize, put = __set_iSize)) int32_t iSize;
+  __declspec(property(get = __cordl_internal_get_iSize, put = __cordl_internal_set_iSize)) int32_t iSize;
 
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  constexpr char16_t& __get_cFallback();
+  constexpr char16_t& __cordl_internal_get_cFallback();
 
-  constexpr char16_t const& __get_cFallback() const;
+  constexpr char16_t const& __cordl_internal_get_cFallback() const;
 
-  constexpr void __set_cFallback(char16_t value);
+  constexpr void __cordl_internal_set_cFallback(char16_t value);
 
-  constexpr int32_t& __get_iCount();
+  constexpr int32_t& __cordl_internal_get_iCount();
 
-  constexpr int32_t const& __get_iCount() const;
+  constexpr int32_t const& __cordl_internal_get_iCount() const;
 
-  constexpr void __set_iCount(int32_t value);
+  constexpr void __cordl_internal_set_iCount(int32_t value);
 
-  constexpr int32_t& __get_iSize();
+  constexpr int32_t& __cordl_internal_get_iSize();
 
-  constexpr int32_t const& __get_iSize() const;
+  constexpr int32_t const& __cordl_internal_get_iSize() const;
 
-  constexpr void __set_iSize(int32_t value);
+  constexpr void __cordl_internal_set_iSize(int32_t value);
 
   static inline ::System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer* New_ctor(::System::Text::__UTF7Encoding__DecoderUTF7Fallback* fallback);
 
@@ -366,7 +366,7 @@ static_assert(offsetof(::System::Text::__UTF7Encoding__DecoderUTF7FallbackBuffer
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2874))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2874))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2861))
 // CS Name: ::System.Text::UTF7Encoding*
 class CORDL_TYPE UTF7Encoding : public ::System::Text::Encoding {
@@ -381,43 +381,43 @@ public:
   using Decoder = ::System::Text::__UTF7Encoding__Decoder;
 
   /// @brief Field _base64Bytes, offset 0x38, size 0x8
-  __declspec(property(get = __get__base64Bytes, put = __set__base64Bytes))::ArrayW<uint8_t, ::Array<uint8_t>*> _base64Bytes;
+  __declspec(property(get = __cordl_internal_get__base64Bytes, put = __cordl_internal_set__base64Bytes))::ArrayW<uint8_t, ::Array<uint8_t>*> _base64Bytes;
 
   /// @brief Field _base64Values, offset 0x40, size 0x8
-  __declspec(property(get = __get__base64Values, put = __set__base64Values))::ArrayW<int8_t, ::Array<int8_t>*> _base64Values;
+  __declspec(property(get = __cordl_internal_get__base64Values, put = __cordl_internal_set__base64Values))::ArrayW<int8_t, ::Array<int8_t>*> _base64Values;
 
   /// @brief Field _directEncode, offset 0x48, size 0x8
-  __declspec(property(get = __get__directEncode, put = __set__directEncode))::ArrayW<bool, ::Array<bool>*> _directEncode;
+  __declspec(property(get = __cordl_internal_get__directEncode, put = __cordl_internal_set__directEncode))::ArrayW<bool, ::Array<bool>*> _directEncode;
 
   /// @brief Field _allowOptionals, offset 0x50, size 0x1
-  __declspec(property(get = __get__allowOptionals, put = __set__allowOptionals)) bool _allowOptionals;
+  __declspec(property(get = __cordl_internal_get__allowOptionals, put = __cordl_internal_set__allowOptionals)) bool _allowOptionals;
 
   /// @brief Field s_default, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_default, put = setStaticF_s_default))::System::Text::UTF7Encoding* s_default;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__base64Bytes();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__base64Bytes();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__base64Bytes() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__base64Bytes() const;
 
-  constexpr void __set__base64Bytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__base64Bytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<int8_t, ::Array<int8_t>*>& __get__base64Values();
+  constexpr ::ArrayW<int8_t, ::Array<int8_t>*>& __cordl_internal_get__base64Values();
 
-  constexpr ::ArrayW<int8_t, ::Array<int8_t>*> const& __get__base64Values() const;
+  constexpr ::ArrayW<int8_t, ::Array<int8_t>*> const& __cordl_internal_get__base64Values() const;
 
-  constexpr void __set__base64Values(::ArrayW<int8_t, ::Array<int8_t>*> value);
+  constexpr void __cordl_internal_set__base64Values(::ArrayW<int8_t, ::Array<int8_t>*> value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get__directEncode();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get__directEncode();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get__directEncode() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get__directEncode() const;
 
-  constexpr void __set__directEncode(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set__directEncode(::ArrayW<bool, ::Array<bool>*> value);
 
-  constexpr bool& __get__allowOptionals();
+  constexpr bool& __cordl_internal_get__allowOptionals();
 
-  constexpr bool const& __get__allowOptionals() const;
+  constexpr bool const& __cordl_internal_get__allowOptionals() const;
 
-  constexpr void __set__allowOptionals(bool value);
+  constexpr void __cordl_internal_set__allowOptionals(bool value);
 
   static inline void setStaticF_s_default(::System::Text::UTF7Encoding* value);
 

@@ -29,23 +29,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::F2mFieldElement);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1441))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1441))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1570))
 // CS Name: ::Org.BouncyCastle.Math.EC::F2mFieldElement*
 class CORDL_TYPE F2mFieldElement : public ::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement {
 public:
   // Declarations
   /// @brief Field representation, offset 0x10, size 0x4
-  __declspec(property(get = __get_representation, put = __set_representation)) int32_t representation;
+  __declspec(property(get = __cordl_internal_get_representation, put = __cordl_internal_set_representation)) int32_t representation;
 
   /// @brief Field m, offset 0x14, size 0x4
-  __declspec(property(get = __get_m, put = __set_m)) int32_t m;
+  __declspec(property(get = __cordl_internal_get_m, put = __cordl_internal_set_m)) int32_t m;
 
   /// @brief Field ks, offset 0x18, size 0x8
-  __declspec(property(get = __get_ks, put = __set_ks))::ArrayW<int32_t, ::Array<int32_t>*> ks;
+  __declspec(property(get = __cordl_internal_get_ks, put = __cordl_internal_set_ks))::ArrayW<int32_t, ::Array<int32_t>*> ks;
 
   /// @brief Field x, offset 0x20, size 0x8
-  __declspec(property(get = __get_x, put = __set_x))::Org::BouncyCastle::Math::EC::LongArray* x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::Org::BouncyCastle::Math::EC::LongArray* x;
 
   __declspec(property(get = get_BitLength)) int32_t BitLength;
 
@@ -67,29 +67,29 @@ public:
 
   __declspec(property(get = get_K3)) int32_t K3;
 
-  constexpr int32_t& __get_representation();
+  constexpr int32_t& __cordl_internal_get_representation();
 
-  constexpr int32_t const& __get_representation() const;
+  constexpr int32_t const& __cordl_internal_get_representation() const;
 
-  constexpr void __set_representation(int32_t value);
+  constexpr void __cordl_internal_set_representation(int32_t value);
 
-  constexpr int32_t& __get_m();
+  constexpr int32_t& __cordl_internal_get_m();
 
-  constexpr int32_t const& __get_m() const;
+  constexpr int32_t const& __cordl_internal_get_m() const;
 
-  constexpr void __set_m(int32_t value);
+  constexpr void __cordl_internal_set_m(int32_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_ks();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_ks();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_ks() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_ks() const;
 
-  constexpr void __set_ks(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_ks(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::LongArray*& __get_x();
+  constexpr ::Org::BouncyCastle::Math::EC::LongArray*& __cordl_internal_get_x();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::LongArray*> const& __get_x() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::LongArray*> const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(::Org::BouncyCastle::Math::EC::LongArray* value);
+  constexpr void __cordl_internal_set_x(::Org::BouncyCastle::Math::EC::LongArray* value);
 
   static inline ::Org::BouncyCastle::Math::EC::F2mFieldElement* New_ctor(int32_t m, int32_t k1, int32_t k2, int32_t k3, ::Org::BouncyCastle::Math::BigInteger* x);
 

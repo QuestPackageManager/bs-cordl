@@ -80,32 +80,32 @@ MARK_REF_PTR_T(::UnityEngine::Yoga::YogaNode);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Yoga {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15354))
 // CS Name: ::UnityEngine.Yoga::YogaNode*
 class CORDL_TYPE YogaNode : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _ygNode, offset 0x10, size 0x8
-  __declspec(property(get = __get__ygNode, put = __set__ygNode)) void* _ygNode;
+  __declspec(property(get = __cordl_internal_get__ygNode, put = __cordl_internal_set__ygNode)) void* _ygNode;
 
   /// @brief Field _config, offset 0x18, size 0x8
-  __declspec(property(get = __get__config, put = __set__config))::UnityEngine::Yoga::YogaConfig* _config;
+  __declspec(property(get = __cordl_internal_get__config, put = __cordl_internal_set__config))::UnityEngine::Yoga::YogaConfig* _config;
 
   /// @brief Field _parent, offset 0x20, size 0x8
-  __declspec(property(get = __get__parent, put = __set__parent))::System::WeakReference* _parent;
+  __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent))::System::WeakReference* _parent;
 
   /// @brief Field _children, offset 0x28, size 0x8
-  __declspec(property(get = __get__children, put = __set__children))::System::Collections::Generic::List_1<::UnityEngine::Yoga::YogaNode*>* _children;
+  __declspec(property(get = __cordl_internal_get__children, put = __cordl_internal_set__children))::System::Collections::Generic::List_1<::UnityEngine::Yoga::YogaNode*>* _children;
 
   /// @brief Field _measureFunction, offset 0x30, size 0x8
-  __declspec(property(get = __get__measureFunction, put = __set__measureFunction))::UnityEngine::Yoga::MeasureFunction* _measureFunction;
+  __declspec(property(get = __cordl_internal_get__measureFunction, put = __cordl_internal_set__measureFunction))::UnityEngine::Yoga::MeasureFunction* _measureFunction;
 
   /// @brief Field _baselineFunction, offset 0x38, size 0x8
-  __declspec(property(get = __get__baselineFunction, put = __set__baselineFunction))::UnityEngine::Yoga::BaselineFunction* _baselineFunction;
+  __declspec(property(get = __cordl_internal_get__baselineFunction, put = __cordl_internal_set__baselineFunction))::UnityEngine::Yoga::BaselineFunction* _baselineFunction;
 
   /// @brief Field _data, offset 0x40, size 0x8
-  __declspec(property(get = __get__data, put = __set__data))::System::Object* _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::System::Object* _data;
 
   __declspec(property(put = set_Left))::UnityEngine::Yoga::YogaValue Left;
 
@@ -237,47 +237,47 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr void*& __get__ygNode();
+  constexpr void*& __cordl_internal_get__ygNode();
 
-  constexpr void* const& __get__ygNode() const;
+  constexpr void* const& __cordl_internal_get__ygNode() const;
 
-  constexpr void __set__ygNode(void* value);
+  constexpr void __cordl_internal_set__ygNode(void* value);
 
-  constexpr ::UnityEngine::Yoga::YogaConfig*& __get__config();
+  constexpr ::UnityEngine::Yoga::YogaConfig*& __cordl_internal_get__config();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Yoga::YogaConfig*> const& __get__config() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Yoga::YogaConfig*> const& __cordl_internal_get__config() const;
 
-  constexpr void __set__config(::UnityEngine::Yoga::YogaConfig* value);
+  constexpr void __cordl_internal_set__config(::UnityEngine::Yoga::YogaConfig* value);
 
-  constexpr ::System::WeakReference*& __get__parent();
+  constexpr ::System::WeakReference*& __cordl_internal_get__parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::WeakReference*> const& __get__parent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::WeakReference*> const& __cordl_internal_get__parent() const;
 
-  constexpr void __set__parent(::System::WeakReference* value);
+  constexpr void __cordl_internal_set__parent(::System::WeakReference* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Yoga::YogaNode*>*& __get__children();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Yoga::YogaNode*>*& __cordl_internal_get__children();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Yoga::YogaNode*>*> const& __get__children() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Yoga::YogaNode*>*> const& __cordl_internal_get__children() const;
 
-  constexpr void __set__children(::System::Collections::Generic::List_1<::UnityEngine::Yoga::YogaNode*>* value);
+  constexpr void __cordl_internal_set__children(::System::Collections::Generic::List_1<::UnityEngine::Yoga::YogaNode*>* value);
 
-  constexpr ::UnityEngine::Yoga::MeasureFunction*& __get__measureFunction();
+  constexpr ::UnityEngine::Yoga::MeasureFunction*& __cordl_internal_get__measureFunction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Yoga::MeasureFunction*> const& __get__measureFunction() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Yoga::MeasureFunction*> const& __cordl_internal_get__measureFunction() const;
 
-  constexpr void __set__measureFunction(::UnityEngine::Yoga::MeasureFunction* value);
+  constexpr void __cordl_internal_set__measureFunction(::UnityEngine::Yoga::MeasureFunction* value);
 
-  constexpr ::UnityEngine::Yoga::BaselineFunction*& __get__baselineFunction();
+  constexpr ::UnityEngine::Yoga::BaselineFunction*& __cordl_internal_get__baselineFunction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Yoga::BaselineFunction*> const& __get__baselineFunction() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Yoga::BaselineFunction*> const& __cordl_internal_get__baselineFunction() const;
 
-  constexpr void __set__baselineFunction(::UnityEngine::Yoga::BaselineFunction* value);
+  constexpr void __cordl_internal_set__baselineFunction(::UnityEngine::Yoga::BaselineFunction* value);
 
-  constexpr ::System::Object*& __get__data();
+  constexpr ::System::Object*& __cordl_internal_get__data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__data() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__data() const;
 
-  constexpr void __set__data(::System::Object* value);
+  constexpr void __cordl_internal_set__data(::System::Object* value);
 
   /// @brief Method set_Left, addr 0x2ea1f20, size 0xc, virtual false, abstract: false, final false
   inline void set_Left(::UnityEngine::Yoga::YogaValue value);

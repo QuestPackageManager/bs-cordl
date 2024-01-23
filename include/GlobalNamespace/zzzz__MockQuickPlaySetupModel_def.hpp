@@ -26,14 +26,14 @@ MARK_REF_PTR_T(::GlobalNamespace::MockQuickPlaySetupModel);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5187))
 // CS Name: ::MockQuickPlaySetupModel*
 class CORDL_TYPE MockQuickPlaySetupModel : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _quickPlaySetupData, offset 0x10, size 0x8
-  __declspec(property(get = __get__quickPlaySetupData, put = __set__quickPlaySetupData))::GlobalNamespace::QuickPlaySetupData* _quickPlaySetupData;
+  __declspec(property(get = __cordl_internal_get__quickPlaySetupData, put = __cordl_internal_set__quickPlaySetupData))::GlobalNamespace::QuickPlaySetupData* _quickPlaySetupData;
 
   /// @brief Convert operator to "::GlobalNamespace::IQuickPlaySetupModel"
   constexpr operator ::GlobalNamespace::IQuickPlaySetupModel*() noexcept;
@@ -41,11 +41,11 @@ public:
   /// @brief Convert to "::GlobalNamespace::IQuickPlaySetupModel"
   constexpr ::GlobalNamespace::IQuickPlaySetupModel* i___GlobalNamespace__IQuickPlaySetupModel() noexcept;
 
-  constexpr ::GlobalNamespace::QuickPlaySetupData*& __get__quickPlaySetupData();
+  constexpr ::GlobalNamespace::QuickPlaySetupData*& __cordl_internal_get__quickPlaySetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::QuickPlaySetupData*> const& __get__quickPlaySetupData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::QuickPlaySetupData*> const& __cordl_internal_get__quickPlaySetupData() const;
 
-  constexpr void __set__quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
+  constexpr void __cordl_internal_set__quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
 
   /// @brief Method GetQuickPlaySetupAsync, addr 0x22444f0, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);

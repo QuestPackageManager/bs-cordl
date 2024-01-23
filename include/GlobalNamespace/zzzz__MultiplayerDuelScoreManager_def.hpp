@@ -33,74 +33,75 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerDuelScoreManager);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5203))
 // CS Name: ::MultiplayerDuelScoreManager*
 class CORDL_TYPE MultiplayerDuelScoreManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _scoreItem, offset 0x18, size 0x8
-  __declspec(property(get = __get__scoreItem, put = __set__scoreItem))::GlobalNamespace::MultiplayerScoreItem* _scoreItem;
+  __declspec(property(get = __cordl_internal_get__scoreItem, put = __cordl_internal_set__scoreItem))::UnityW<::GlobalNamespace::MultiplayerScoreItem> _scoreItem;
 
   /// @brief Field _delayBetweenScoreUpdates, offset 0x20, size 0x4
-  __declspec(property(get = __get__delayBetweenScoreUpdates, put = __set__delayBetweenScoreUpdates)) float_t _delayBetweenScoreUpdates;
+  __declspec(property(get = __cordl_internal_get__delayBetweenScoreUpdates, put = __cordl_internal_set__delayBetweenScoreUpdates)) float_t _delayBetweenScoreUpdates;
 
   /// @brief Field _multiplayerController, offset 0x28, size 0x8
-  __declspec(property(get = __get__multiplayerController, put = __set__multiplayerController))::GlobalNamespace::MultiplayerController* _multiplayerController;
+  __declspec(property(get = __cordl_internal_get__multiplayerController, put = __cordl_internal_set__multiplayerController))::UnityW<::GlobalNamespace::MultiplayerController> _multiplayerController;
 
   /// @brief Field _scoreProvider, offset 0x30, size 0x8
-  __declspec(property(get = __get__scoreProvider, put = __set__scoreProvider))::GlobalNamespace::MultiplayerScoreProvider* _scoreProvider;
+  __declspec(property(get = __cordl_internal_get__scoreProvider, put = __cordl_internal_set__scoreProvider))::UnityW<::GlobalNamespace::MultiplayerScoreProvider> _scoreProvider;
 
   /// @brief Field _multiplayerSessionManager, offset 0x38, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _opponentPlayer, offset 0x40, size 0x8
-  __declspec(property(get = __get__opponentPlayer, put = __set__opponentPlayer))::GlobalNamespace::IConnectedPlayer* _opponentPlayer;
+  __declspec(property(get = __cordl_internal_get__opponentPlayer, put = __cordl_internal_set__opponentPlayer))::GlobalNamespace::IConnectedPlayer* _opponentPlayer;
 
   /// @brief Field _timeSinceLastScoreUpdate, offset 0x48, size 0x4
-  __declspec(property(get = __get__timeSinceLastScoreUpdate, put = __set__timeSinceLastScoreUpdate)) float_t _timeSinceLastScoreUpdate;
+  __declspec(property(get = __cordl_internal_get__timeSinceLastScoreUpdate, put = __cordl_internal_set__timeSinceLastScoreUpdate)) float_t _timeSinceLastScoreUpdate;
 
-  constexpr ::GlobalNamespace::MultiplayerScoreItem*& __get__scoreItem();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreItem>& __cordl_internal_get__scoreItem();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerScoreItem*> const& __get__scoreItem() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreItem> const& __cordl_internal_get__scoreItem() const;
 
-  constexpr void __set__scoreItem(::GlobalNamespace::MultiplayerScoreItem* value);
+  constexpr void __cordl_internal_set__scoreItem(::UnityW<::GlobalNamespace::MultiplayerScoreItem> value);
 
-  constexpr float_t& __get__delayBetweenScoreUpdates();
+  constexpr float_t& __cordl_internal_get__delayBetweenScoreUpdates();
 
-  constexpr float_t const& __get__delayBetweenScoreUpdates() const;
+  constexpr float_t const& __cordl_internal_get__delayBetweenScoreUpdates() const;
 
-  constexpr void __set__delayBetweenScoreUpdates(float_t value);
+  constexpr void __cordl_internal_set__delayBetweenScoreUpdates(float_t value);
 
-  constexpr ::GlobalNamespace::MultiplayerController*& __get__multiplayerController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get__multiplayerController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerController*> const& __get__multiplayerController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
 
-  constexpr void __set__multiplayerController(::GlobalNamespace::MultiplayerController* value);
+  constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value);
 
-  constexpr ::GlobalNamespace::MultiplayerScoreProvider*& __get__scoreProvider();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider>& __cordl_internal_get__scoreProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerScoreProvider*> const& __get__scoreProvider() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> const& __cordl_internal_get__scoreProvider() const;
 
-  constexpr void __set__scoreProvider(::GlobalNamespace::MultiplayerScoreProvider* value);
+  constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __get__opponentPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__opponentPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __get__opponentPlayer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__opponentPlayer() const;
 
-  constexpr void __set__opponentPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__opponentPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  constexpr float_t& __get__timeSinceLastScoreUpdate();
+  constexpr float_t& __cordl_internal_get__timeSinceLastScoreUpdate();
 
-  constexpr float_t const& __get__timeSinceLastScoreUpdate() const;
+  constexpr float_t const& __cordl_internal_get__timeSinceLastScoreUpdate() const;
 
-  constexpr void __set__timeSinceLastScoreUpdate(float_t value);
+  constexpr void __cordl_internal_set__timeSinceLastScoreUpdate(float_t value);
 
   /// @brief Method Start, addr 0x224b7c8, size 0xcc, virtual false, abstract: false, final false
   inline void Start();
@@ -143,16 +144,16 @@ protected:
 
 public:
   /// @brief Field _scoreItem, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerScoreItem* ____scoreItem;
+  ::UnityW<::GlobalNamespace::MultiplayerScoreItem> ____scoreItem;
 
   /// @brief Field _delayBetweenScoreUpdates, offset: 0x20, size: 0x4, def value: None
   float_t ____delayBetweenScoreUpdates;
 
   /// @brief Field _multiplayerController, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerController* ____multiplayerController;
+  ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;
 
   /// @brief Field _scoreProvider, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerScoreProvider* ____scoreProvider;
+  ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> ____scoreProvider;
 
   /// @brief Field _multiplayerSessionManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;

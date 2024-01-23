@@ -38,19 +38,20 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::PointSet);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15338))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::PointSet*
 class CORDL_TYPE PointSet : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Points>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Points_k__BackingField,
-                      put = __set__Points_k__BackingField))::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* _Points_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Points_k__BackingField,
+                      put = __cordl_internal_set__Points_k__BackingField))::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* _Points_k__BackingField;
 
   /// @brief Field <Triangles>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Triangles_k__BackingField,
-                      put = __set__Triangles_k__BackingField))::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* _Triangles_k__BackingField;
+  __declspec(
+      property(get = __cordl_internal_get__Triangles_k__BackingField,
+               put = __cordl_internal_set__Triangles_k__BackingField))::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* _Triangles_k__BackingField;
 
   __declspec(property(get = get_Points, put = set_Points))::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* Points;
 
@@ -64,17 +65,19 @@ public:
   /// @brief Convert to "::UnityEngine::ProBuilder::Poly2Tri::Triangulatable"
   constexpr ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* i___UnityEngine__ProBuilder__Poly2Tri__Triangulatable() noexcept;
 
-  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*& __get__Points_k__BackingField();
+  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*& __cordl_internal_get__Points_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*> const& __get__Points_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*> const&
+  __cordl_internal_get__Points_k__BackingField() const;
 
-  constexpr void __set__Points_k__BackingField(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* value);
+  constexpr void __cordl_internal_set__Points_k__BackingField(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* value);
 
-  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*& __get__Triangles_k__BackingField();
+  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*& __cordl_internal_get__Triangles_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*> const& __get__Triangles_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*> const&
+  __cordl_internal_get__Triangles_k__BackingField() const;
 
-  constexpr void __set__Triangles_k__BackingField(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* value);
+  constexpr void __cordl_internal_set__Triangles_k__BackingField(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* value);
 
   /// @brief Method get_Points, addr 0x2b351b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* get_Points();

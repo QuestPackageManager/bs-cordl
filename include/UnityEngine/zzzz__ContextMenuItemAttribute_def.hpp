@@ -15,29 +15,29 @@ MARK_REF_PTR_T(::UnityEngine::ContextMenuItemAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10171))
 // CS Name: ::UnityEngine::ContextMenuItemAttribute*
 class CORDL_TYPE ContextMenuItemAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field function, offset 0x18, size 0x8
-  __declspec(property(get = __get_function, put = __set_function))::StringW function;
+  __declspec(property(get = __cordl_internal_get_function, put = __cordl_internal_set_function))::StringW function;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::StringW& __get_function();
+  constexpr ::StringW& __cordl_internal_get_function();
 
-  constexpr ::StringW const& __get_function() const;
+  constexpr ::StringW const& __cordl_internal_get_function() const;
 
-  constexpr void __set_function(::StringW value);
+  constexpr void __cordl_internal_set_function(::StringW value);
 
   static inline ::UnityEngine::ContextMenuItemAttribute* New_ctor(::StringW name, ::StringW function);
 

@@ -25,27 +25,27 @@ MARK_REF_PTR_T(::Zenject::SignalDeclarationBindInfo);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11172))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11172))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10654))
 // CS Name: ::Zenject::SignalDeclarationBindInfo*
 class CORDL_TYPE SignalDeclarationBindInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Identifier>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Identifier_k__BackingField, put = __set__Identifier_k__BackingField))::System::Object* _Identifier_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Identifier_k__BackingField, put = __cordl_internal_set__Identifier_k__BackingField))::System::Object* _Identifier_k__BackingField;
 
   /// @brief Field <SignalType>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__SignalType_k__BackingField, put = __set__SignalType_k__BackingField))::System::Type* _SignalType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SignalType_k__BackingField, put = __cordl_internal_set__SignalType_k__BackingField))::System::Type* _SignalType_k__BackingField;
 
   /// @brief Field <RunAsync>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __get__RunAsync_k__BackingField, put = __set__RunAsync_k__BackingField)) bool _RunAsync_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__RunAsync_k__BackingField, put = __cordl_internal_set__RunAsync_k__BackingField)) bool _RunAsync_k__BackingField;
 
   /// @brief Field <TickPriority>k__BackingField, offset 0x24, size 0x4
-  __declspec(property(get = __get__TickPriority_k__BackingField, put = __set__TickPriority_k__BackingField)) int32_t _TickPriority_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__TickPriority_k__BackingField, put = __cordl_internal_set__TickPriority_k__BackingField)) int32_t _TickPriority_k__BackingField;
 
   /// @brief Field <MissingHandlerResponse>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__MissingHandlerResponse_k__BackingField,
-                      put = __set__MissingHandlerResponse_k__BackingField))::Zenject::SignalMissingHandlerResponses _MissingHandlerResponse_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MissingHandlerResponse_k__BackingField,
+                      put = __cordl_internal_set__MissingHandlerResponse_k__BackingField))::Zenject::SignalMissingHandlerResponses _MissingHandlerResponse_k__BackingField;
 
   __declspec(property(get = get_Identifier, put = set_Identifier))::System::Object* Identifier;
 
@@ -57,35 +57,35 @@ public:
 
   __declspec(property(get = get_MissingHandlerResponse, put = set_MissingHandlerResponse))::Zenject::SignalMissingHandlerResponses MissingHandlerResponse;
 
-  constexpr ::System::Object*& __get__Identifier_k__BackingField();
+  constexpr ::System::Object*& __cordl_internal_get__Identifier_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__Identifier_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__Identifier_k__BackingField() const;
 
-  constexpr void __set__Identifier_k__BackingField(::System::Object* value);
+  constexpr void __cordl_internal_set__Identifier_k__BackingField(::System::Object* value);
 
-  constexpr ::System::Type*& __get__SignalType_k__BackingField();
+  constexpr ::System::Type*& __cordl_internal_get__SignalType_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__SignalType_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__SignalType_k__BackingField() const;
 
-  constexpr void __set__SignalType_k__BackingField(::System::Type* value);
+  constexpr void __cordl_internal_set__SignalType_k__BackingField(::System::Type* value);
 
-  constexpr bool& __get__RunAsync_k__BackingField();
+  constexpr bool& __cordl_internal_get__RunAsync_k__BackingField();
 
-  constexpr bool const& __get__RunAsync_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__RunAsync_k__BackingField() const;
 
-  constexpr void __set__RunAsync_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__RunAsync_k__BackingField(bool value);
 
-  constexpr int32_t& __get__TickPriority_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__TickPriority_k__BackingField();
 
-  constexpr int32_t const& __get__TickPriority_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__TickPriority_k__BackingField() const;
 
-  constexpr void __set__TickPriority_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__TickPriority_k__BackingField(int32_t value);
 
-  constexpr ::Zenject::SignalMissingHandlerResponses& __get__MissingHandlerResponse_k__BackingField();
+  constexpr ::Zenject::SignalMissingHandlerResponses& __cordl_internal_get__MissingHandlerResponse_k__BackingField();
 
-  constexpr ::Zenject::SignalMissingHandlerResponses const& __get__MissingHandlerResponse_k__BackingField() const;
+  constexpr ::Zenject::SignalMissingHandlerResponses const& __cordl_internal_get__MissingHandlerResponse_k__BackingField() const;
 
-  constexpr void __set__MissingHandlerResponse_k__BackingField(::Zenject::SignalMissingHandlerResponses value);
+  constexpr void __cordl_internal_set__MissingHandlerResponse_k__BackingField(::Zenject::SignalMissingHandlerResponses value);
 
   static inline ::Zenject::SignalDeclarationBindInfo* New_ctor(::System::Type* signalType);
 

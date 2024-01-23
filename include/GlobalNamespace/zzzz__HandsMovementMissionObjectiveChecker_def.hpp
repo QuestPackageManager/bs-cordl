@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::GlobalNamespace::HandsMovementMissionObjectiveChecker);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5098))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5098))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5091))
 // CS Name: ::HandsMovementMissionObjectiveChecker*
 class CORDL_TYPE HandsMovementMissionObjectiveChecker : public ::GlobalNamespace::SimpleValueMissionObjectiveChecker {
 public:
   // Declarations
   /// @brief Field _saberActivityCounter, offset 0x48, size 0x8
-  __declspec(property(get = __get__saberActivityCounter, put = __set__saberActivityCounter))::GlobalNamespace::SaberActivityCounter* _saberActivityCounter;
+  __declspec(property(get = __cordl_internal_get__saberActivityCounter, put = __cordl_internal_set__saberActivityCounter))::UnityW<::GlobalNamespace::SaberActivityCounter> _saberActivityCounter;
 
-  constexpr ::GlobalNamespace::SaberActivityCounter*& __get__saberActivityCounter();
+  constexpr ::UnityW<::GlobalNamespace::SaberActivityCounter>& __cordl_internal_get__saberActivityCounter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberActivityCounter*> const& __get__saberActivityCounter() const;
+  constexpr ::UnityW<::GlobalNamespace::SaberActivityCounter> const& __cordl_internal_get__saberActivityCounter() const;
 
-  constexpr void __set__saberActivityCounter(::GlobalNamespace::SaberActivityCounter* value);
+  constexpr void __cordl_internal_set__saberActivityCounter(::UnityW<::GlobalNamespace::SaberActivityCounter> value);
 
   /// @brief Method OnDestroy, addr 0x23cbeb8, size 0xd4, virtual false, abstract: false, final false
   inline void OnDestroy();
@@ -62,7 +62,7 @@ protected:
 
 public:
   /// @brief Field _saberActivityCounter, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::SaberActivityCounter* ____saberActivityCounter;
+  ::UnityW<::GlobalNamespace::SaberActivityCounter> ____saberActivityCounter;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

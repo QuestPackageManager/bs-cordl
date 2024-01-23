@@ -15,8 +15,8 @@ MARK_VAL_T(::JetBrains::Annotations::ImplicitUseTargetFlags);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: true
-// Dependencies: {}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15751))
+// Dependencies: []
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(10029))
 // CS Name: ::JetBrains.Annotations::ImplicitUseTargetFlags
 struct CORDL_TYPE ImplicitUseTargetFlags {
 public:

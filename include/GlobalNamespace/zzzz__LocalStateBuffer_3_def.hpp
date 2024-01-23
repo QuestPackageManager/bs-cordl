@@ -32,97 +32,99 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12985), inst: 3833 }), TypeDefinitionIndex(TypeDefinitionIndex(12982)), GenericInstantiation(GenericInstantiation
-// { tdi: TypeDefinitionIndex(12982), inst: 3833 }), TypeDefinitionIndex(TypeDefinitionIndex(12985)), TypeDefinitionIndex(TypeDefinitionIndex(12988))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12982)), TypeDefinitionIndex(TypeDefinitionIndex(12985)), TypeDefinitionIndex(TypeDefinitionIndex(12988)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12982), inst: 3833 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12985), inst: 3833 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(12986)) CS Name: ::LocalStateBuffer`3<TStateTable,TType,TState>*
 class CORDL_TYPE LocalStateBuffer_3 : public ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState> {
 public:
   // Declarations
   /// @brief Field _current, offset 0x30, size 0x18
-  __declspec(property(get = __get__current, put = __set__current))::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState> _current;
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current))::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState> _current;
 
   /// @brief Field _fullStateUpdateFrequency, offset 0x48, size 0x8
-  __declspec(property(get = __get__fullStateUpdateFrequency, put = __set__fullStateUpdateFrequency)) int64_t _fullStateUpdateFrequency;
+  __declspec(property(get = __cordl_internal_get__fullStateUpdateFrequency, put = __cordl_internal_set__fullStateUpdateFrequency)) int64_t _fullStateUpdateFrequency;
 
   /// @brief Field _deltaUpdateFrequency, offset 0x50, size 0x8
-  __declspec(property(get = __get__deltaUpdateFrequency, put = __set__deltaUpdateFrequency)) int64_t _deltaUpdateFrequency;
+  __declspec(property(get = __cordl_internal_get__deltaUpdateFrequency, put = __cordl_internal_set__deltaUpdateFrequency)) int64_t _deltaUpdateFrequency;
 
   /// @brief Field _sentStateIndex, offset 0x58, size 0x4
-  __declspec(property(get = __get__sentStateIndex, put = __set__sentStateIndex)) int32_t _sentStateIndex;
+  __declspec(property(get = __cordl_internal_get__sentStateIndex, put = __cordl_internal_set__sentStateIndex)) int32_t _sentStateIndex;
 
   /// @brief Field _sentDeltaIndex, offset 0x5c, size 0x4
-  __declspec(property(get = __get__sentDeltaIndex, put = __set__sentDeltaIndex)) int32_t _sentDeltaIndex;
+  __declspec(property(get = __cordl_internal_get__sentDeltaIndex, put = __cordl_internal_set__sentDeltaIndex)) int32_t _sentDeltaIndex;
 
   /// @brief Field _sentStates, offset 0x60, size 0x8
-  __declspec(property(get = __get__sentStates, put = __set__sentStates))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
-                                                                                 ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _sentStates;
+  __declspec(property(get = __cordl_internal_get__sentStates,
+                      put = __cordl_internal_set__sentStates))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
+                                                                       ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _sentStates;
 
   /// @brief Field _sentDeltas, offset 0x68, size 0x8
-  __declspec(property(get = __get__sentDeltas, put = __set__sentDeltas))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
-                                                                                 ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _sentDeltas;
+  __declspec(property(get = __cordl_internal_get__sentDeltas,
+                      put = __cordl_internal_set__sentDeltas))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
+                                                                       ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _sentDeltas;
 
   /// @brief Field _lastSentSyncStateId, offset 0x70, size 0x1
-  __declspec(property(get = __get__lastSentSyncStateId, put = __set__lastSentSyncStateId))::GlobalNamespace::SyncStateId _lastSentSyncStateId;
+  __declspec(property(get = __cordl_internal_get__lastSentSyncStateId, put = __cordl_internal_set__lastSentSyncStateId))::GlobalNamespace::SyncStateId _lastSentSyncStateId;
 
-  constexpr ::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>& __get__current();
+  constexpr ::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>& __cordl_internal_get__current();
 
-  constexpr ::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState> const& __get__current() const;
+  constexpr ::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState> const& __cordl_internal_get__current() const;
 
-  constexpr void __set__current(::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState> value);
+  constexpr void __cordl_internal_set__current(::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState> value);
 
-  constexpr int64_t& __get__fullStateUpdateFrequency();
+  constexpr int64_t& __cordl_internal_get__fullStateUpdateFrequency();
 
-  constexpr int64_t const& __get__fullStateUpdateFrequency() const;
+  constexpr int64_t const& __cordl_internal_get__fullStateUpdateFrequency() const;
 
-  constexpr void __set__fullStateUpdateFrequency(int64_t value);
+  constexpr void __cordl_internal_set__fullStateUpdateFrequency(int64_t value);
 
-  constexpr int64_t& __get__deltaUpdateFrequency();
+  constexpr int64_t& __cordl_internal_get__deltaUpdateFrequency();
 
-  constexpr int64_t const& __get__deltaUpdateFrequency() const;
+  constexpr int64_t const& __cordl_internal_get__deltaUpdateFrequency() const;
 
-  constexpr void __set__deltaUpdateFrequency(int64_t value);
+  constexpr void __cordl_internal_set__deltaUpdateFrequency(int64_t value);
 
-  constexpr int32_t& __get__sentStateIndex();
+  constexpr int32_t& __cordl_internal_get__sentStateIndex();
 
-  constexpr int32_t const& __get__sentStateIndex() const;
+  constexpr int32_t const& __cordl_internal_get__sentStateIndex() const;
 
-  constexpr void __set__sentStateIndex(int32_t value);
+  constexpr void __cordl_internal_set__sentStateIndex(int32_t value);
 
-  constexpr int32_t& __get__sentDeltaIndex();
+  constexpr int32_t& __cordl_internal_get__sentDeltaIndex();
 
-  constexpr int32_t const& __get__sentDeltaIndex() const;
+  constexpr int32_t const& __cordl_internal_get__sentDeltaIndex() const;
 
-  constexpr void __set__sentDeltaIndex(int32_t value);
+  constexpr void __cordl_internal_set__sentDeltaIndex(int32_t value);
 
   constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                      ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>&
-  __get__sentStates();
+  __cordl_internal_get__sentStates();
 
   constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                      ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> const&
-  __get__sentStates() const;
+  __cordl_internal_get__sentStates() const;
 
-  constexpr void __set__sentStates(
+  constexpr void __cordl_internal_set__sentStates(
       ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
           value);
 
   constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                      ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>&
-  __get__sentDeltas();
+  __cordl_internal_get__sentDeltas();
 
   constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                      ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> const&
-  __get__sentDeltas() const;
+  __cordl_internal_get__sentDeltas() const;
 
-  constexpr void __set__sentDeltas(
+  constexpr void __cordl_internal_set__sentDeltas(
       ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
           value);
 
-  constexpr ::GlobalNamespace::SyncStateId& __get__lastSentSyncStateId();
+  constexpr ::GlobalNamespace::SyncStateId& __cordl_internal_get__lastSentSyncStateId();
 
-  constexpr ::GlobalNamespace::SyncStateId const& __get__lastSentSyncStateId() const;
+  constexpr ::GlobalNamespace::SyncStateId const& __cordl_internal_get__lastSentSyncStateId() const;
 
-  constexpr void __set__lastSentSyncStateId(::GlobalNamespace::SyncStateId value);
+  constexpr void __cordl_internal_set__lastSentSyncStateId(::GlobalNamespace::SyncStateId value);
 
   static inline ::GlobalNamespace::LocalStateBuffer_3<TStateTable, TType, TState>* New_ctor(int64_t fullStateUpdateFrequency, int64_t deltaUpdateFrequency, int32_t size,
                                                                                             ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,

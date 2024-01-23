@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::AbstractAdapterInstallerSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11147))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11147))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15165))
 // CS Name: ::BeatSaber.AvatarCore::AbstractAdapterInstallerSO*
 class CORDL_TYPE AbstractAdapterInstallerSO : public ::Zenject::ScriptableObjectInstaller {

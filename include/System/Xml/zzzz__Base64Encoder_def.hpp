@@ -16,38 +16,38 @@ MARK_REF_PTR_T(::System::Xml::Base64Encoder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11404))
 // CS Name: ::System.Xml::Base64Encoder*
 class CORDL_TYPE Base64Encoder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field leftOverBytes, offset 0x10, size 0x8
-  __declspec(property(get = __get_leftOverBytes, put = __set_leftOverBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> leftOverBytes;
+  __declspec(property(get = __cordl_internal_get_leftOverBytes, put = __cordl_internal_set_leftOverBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> leftOverBytes;
 
   /// @brief Field leftOverBytesCount, offset 0x18, size 0x4
-  __declspec(property(get = __get_leftOverBytesCount, put = __set_leftOverBytesCount)) int32_t leftOverBytesCount;
+  __declspec(property(get = __cordl_internal_get_leftOverBytesCount, put = __cordl_internal_set_leftOverBytesCount)) int32_t leftOverBytesCount;
 
   /// @brief Field charsLine, offset 0x20, size 0x8
-  __declspec(property(get = __get_charsLine, put = __set_charsLine))::ArrayW<char16_t, ::Array<char16_t>*> charsLine;
+  __declspec(property(get = __cordl_internal_get_charsLine, put = __cordl_internal_set_charsLine))::ArrayW<char16_t, ::Array<char16_t>*> charsLine;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_leftOverBytes();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_leftOverBytes();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_leftOverBytes() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_leftOverBytes() const;
 
-  constexpr void __set_leftOverBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_leftOverBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_leftOverBytesCount();
+  constexpr int32_t& __cordl_internal_get_leftOverBytesCount();
 
-  constexpr int32_t const& __get_leftOverBytesCount() const;
+  constexpr int32_t const& __cordl_internal_get_leftOverBytesCount() const;
 
-  constexpr void __set_leftOverBytesCount(int32_t value);
+  constexpr void __cordl_internal_set_leftOverBytesCount(int32_t value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_charsLine();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_charsLine();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_charsLine() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_charsLine() const;
 
-  constexpr void __set_charsLine(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_charsLine(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
   static inline ::System::Xml::Base64Encoder* New_ctor();
 

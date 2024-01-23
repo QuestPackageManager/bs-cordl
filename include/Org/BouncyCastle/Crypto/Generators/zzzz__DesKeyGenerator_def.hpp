@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::DesKeyGenerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(888))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(888))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(889))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::DesKeyGenerator*
 class CORDL_TYPE DesKeyGenerator : public ::Org::BouncyCastle::Crypto::CipherKeyGenerator {

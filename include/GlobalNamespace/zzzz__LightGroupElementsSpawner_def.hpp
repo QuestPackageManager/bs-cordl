@@ -17,38 +17,38 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupElementsSpawner);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14512))
 // CS Name: ::LightGroupElementsSpawner*
 class CORDL_TYPE LightGroupElementsSpawner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _lightPrefab, offset 0x18, size 0x8
-  __declspec(property(get = __get__lightPrefab, put = __set__lightPrefab))::UnityEngine::GameObject* _lightPrefab;
+  __declspec(property(get = __cordl_internal_get__lightPrefab, put = __cordl_internal_set__lightPrefab))::UnityW<::UnityEngine::GameObject> _lightPrefab;
 
   /// @brief Field _useAlternatePrefab, offset 0x20, size 0x1
-  __declspec(property(get = __get__useAlternatePrefab, put = __set__useAlternatePrefab)) bool _useAlternatePrefab;
+  __declspec(property(get = __cordl_internal_get__useAlternatePrefab, put = __cordl_internal_set__useAlternatePrefab)) bool _useAlternatePrefab;
 
   /// @brief Field _alternateLightPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __get__alternateLightPrefab, put = __set__alternateLightPrefab))::UnityEngine::GameObject* _alternateLightPrefab;
+  __declspec(property(get = __cordl_internal_get__alternateLightPrefab, put = __cordl_internal_set__alternateLightPrefab))::UnityW<::UnityEngine::GameObject> _alternateLightPrefab;
 
-  constexpr ::UnityEngine::GameObject*& __get__lightPrefab();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__lightPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__lightPrefab() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__lightPrefab() const;
 
-  constexpr void __set__lightPrefab(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__lightPrefab(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr bool& __get__useAlternatePrefab();
+  constexpr bool& __cordl_internal_get__useAlternatePrefab();
 
-  constexpr bool const& __get__useAlternatePrefab() const;
+  constexpr bool const& __cordl_internal_get__useAlternatePrefab() const;
 
-  constexpr void __set__useAlternatePrefab(bool value);
+  constexpr void __cordl_internal_set__useAlternatePrefab(bool value);
 
-  constexpr ::UnityEngine::GameObject*& __get__alternateLightPrefab();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__alternateLightPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__alternateLightPrefab() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__alternateLightPrefab() const;
 
-  constexpr void __set__alternateLightPrefab(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__alternateLightPrefab(::UnityW<::UnityEngine::GameObject> value);
 
   static inline ::GlobalNamespace::LightGroupElementsSpawner* New_ctor();
 
@@ -70,13 +70,13 @@ protected:
 
 public:
   /// @brief Field _lightPrefab, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____lightPrefab;
+  ::UnityW<::UnityEngine::GameObject> ____lightPrefab;
 
   /// @brief Field _useAlternatePrefab, offset: 0x20, size: 0x1, def value: None
   bool ____useAlternatePrefab;
 
   /// @brief Field _alternateLightPrefab, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____alternateLightPrefab;
+  ::UnityW<::UnityEngine::GameObject> ____alternateLightPrefab;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

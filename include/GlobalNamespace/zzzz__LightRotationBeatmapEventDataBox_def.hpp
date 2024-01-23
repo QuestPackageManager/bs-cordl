@@ -44,61 +44,62 @@ MARK_REF_PTR_T(::GlobalNamespace::LightRotationBeatmapEventDataBox);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14733)), TypeDefinitionIndex(TypeDefinitionIndex(4301))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4301)), TypeDefinitionIndex(TypeDefinitionIndex(14733))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4322))
 // CS Name: ::LightRotationBeatmapEventDataBox*
 class CORDL_TYPE LightRotationBeatmapEventDataBox : public ::GlobalNamespace::BeatmapEventDataBox {
 public:
   // Declarations
   /// @brief Field _lightRotationBaseDataList, offset 0x38, size 0x8
-  __declspec(property(get = __get__lightRotationBaseDataList,
-                      put = __set__lightRotationBaseDataList))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* _lightRotationBaseDataList;
+  __declspec(property(get = __cordl_internal_get__lightRotationBaseDataList,
+                      put = __cordl_internal_set__lightRotationBaseDataList))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* _lightRotationBaseDataList;
 
   /// @brief Field _axis, offset 0x40, size 0x4
-  __declspec(property(get = __get__axis, put = __set__axis))::GlobalNamespace::LightAxis _axis;
+  __declspec(property(get = __cordl_internal_get__axis, put = __cordl_internal_set__axis))::GlobalNamespace::LightAxis _axis;
 
   /// @brief Field _rotationDirection, offset 0x44, size 0x4
-  __declspec(property(get = __get__rotationDirection, put = __set__rotationDirection)) float_t _rotationDirection;
+  __declspec(property(get = __cordl_internal_get__rotationDirection, put = __cordl_internal_set__rotationDirection)) float_t _rotationDirection;
 
   /// @brief Field _rotationStep, offset 0x48, size 0x4
-  __declspec(property(get = __get__rotationStep, put = __set__rotationStep)) float_t _rotationStep;
+  __declspec(property(get = __cordl_internal_get__rotationStep, put = __cordl_internal_set__rotationStep)) float_t _rotationStep;
 
   /// @brief Field _beatStep, offset 0x4c, size 0x4
-  __declspec(property(get = __get__beatStep, put = __set__beatStep)) float_t _beatStep;
+  __declspec(property(get = __cordl_internal_get__beatStep, put = __cordl_internal_set__beatStep)) float_t _beatStep;
 
   __declspec(property(get = get_subtypeIdentifier)) int32_t subtypeIdentifier;
 
   __declspec(property(get = get_beatStep)) float_t beatStep;
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>*& __get__lightRotationBaseDataList();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>*& __cordl_internal_get__lightRotationBaseDataList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>*> const& __get__lightRotationBaseDataList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>*> const&
+  __cordl_internal_get__lightRotationBaseDataList() const;
 
-  constexpr void __set__lightRotationBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* value);
+  constexpr void __cordl_internal_set__lightRotationBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* value);
 
-  constexpr ::GlobalNamespace::LightAxis& __get__axis();
+  constexpr ::GlobalNamespace::LightAxis& __cordl_internal_get__axis();
 
-  constexpr ::GlobalNamespace::LightAxis const& __get__axis() const;
+  constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get__axis() const;
 
-  constexpr void __set__axis(::GlobalNamespace::LightAxis value);
+  constexpr void __cordl_internal_set__axis(::GlobalNamespace::LightAxis value);
 
-  constexpr float_t& __get__rotationDirection();
+  constexpr float_t& __cordl_internal_get__rotationDirection();
 
-  constexpr float_t const& __get__rotationDirection() const;
+  constexpr float_t const& __cordl_internal_get__rotationDirection() const;
 
-  constexpr void __set__rotationDirection(float_t value);
+  constexpr void __cordl_internal_set__rotationDirection(float_t value);
 
-  constexpr float_t& __get__rotationStep();
+  constexpr float_t& __cordl_internal_get__rotationStep();
 
-  constexpr float_t const& __get__rotationStep() const;
+  constexpr float_t const& __cordl_internal_get__rotationStep() const;
 
-  constexpr void __set__rotationStep(float_t value);
+  constexpr void __cordl_internal_set__rotationStep(float_t value);
 
-  constexpr float_t& __get__beatStep();
+  constexpr float_t& __cordl_internal_get__beatStep();
 
-  constexpr float_t const& __get__beatStep() const;
+  constexpr float_t const& __cordl_internal_get__beatStep() const;
 
-  constexpr void __set__beatStep(float_t value);
+  constexpr void __cordl_internal_set__beatStep(float_t value);
 
   /// @brief Method get_subtypeIdentifier, addr 0x233cd90, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeIdentifier();

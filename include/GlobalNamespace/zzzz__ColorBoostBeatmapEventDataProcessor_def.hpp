@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorBoostBeatmapEventDataProcessor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14741), inst: 950 }), TypeDefinitionIndex(TypeDefinitionIndex(14730)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14741))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14742)) CS Name: ::ColorBoostBeatmapEventDataProcessor*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14730)), TypeDefinitionIndex(TypeDefinitionIndex(14741)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14741), inst:
+// 950 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14742)) CS Name: ::ColorBoostBeatmapEventDataProcessor*
 class CORDL_TYPE ColorBoostBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::ColorBoostBeatmapEventData*> {
 public:
   // Declarations

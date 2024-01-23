@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Security::Certificates::CertificateNotYetVal
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security::Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1733))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1733))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1736))
 // CS Name: ::Org.BouncyCastle.Security.Certificates::CertificateNotYetValidException*
 class CORDL_TYPE CertificateNotYetValidException : public ::Org::BouncyCastle::Security::Certificates::CertificateException {

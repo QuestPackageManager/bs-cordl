@@ -57,7 +57,7 @@ MARK_VAL_T(::GlobalNamespace::__SongRunningHelper__QueuedSongParams);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(5962))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5962)), TypeDefinitionIndex(TypeDefinitionIndex(14717))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5382))
 // CS Name: ::SongRunningHelper::QueuedSongParams
 struct CORDL_TYPE __SongRunningHelper__QueuedSongParams {
@@ -66,15 +66,15 @@ public:
   /// @brief Method .ctor, addr 0x226eefc, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IBeatmapLevel* beatmapLevel, ::StringW characteristic, ::GlobalNamespace::BeatmapDifficulty difficulty,
                     ::GlobalNamespace::__RecordingToolManager__SetupData recordingToolData,
-                    ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* songFinishedCallback);
+                    ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* songFinishedCallback);
 
   // Ctor Parameters [CppParam { name: "beatmapLevel", ty: "::GlobalNamespace::IBeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty:
   // "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "characteristic", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "recordingToolData", ty: "::GlobalNamespace::__RecordingToolManager__SetupData", modifiers: "", def_value: None }, CppParam { name: "songFinishedCallback", ty:
-  // "::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*,::GlobalNamespace::LevelCompletionResults*>*", modifiers: "", def_value: None }]
+  // "::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>,::GlobalNamespace::LevelCompletionResults*>*", modifiers: "", def_value: None }]
   constexpr __SongRunningHelper__QueuedSongParams(
       ::GlobalNamespace::IBeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapDifficulty difficulty, ::StringW characteristic, ::GlobalNamespace::__RecordingToolManager__SetupData recordingToolData,
-      ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* songFinishedCallback) noexcept;
+      ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* songFinishedCallback) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -93,7 +93,7 @@ public:
   ::GlobalNamespace::__RecordingToolManager__SetupData recordingToolData;
 
   /// @brief Field songFinishedCallback, offset: 0x20, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* songFinishedCallback;
+  ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* songFinishedCallback;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -118,57 +118,59 @@ static_assert(offsetof(::GlobalNamespace::__SongRunningHelper__QueuedSongParams,
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(5382)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4780
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5383)) CS Name: ::SongRunningHelper*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5382)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4780 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5383)) CS Name: ::SongRunningHelper*
 class CORDL_TYPE SongRunningHelper : public ::System::Object {
 public:
   // Declarations
   using QueuedSongParams = ::GlobalNamespace::__SongRunningHelper__QueuedSongParams;
 
   /// @brief Field _beatmapCharacteristics, offset 0x10, size 0x8
-  __declspec(property(get = __get__beatmapCharacteristics, put = __set__beatmapCharacteristics))::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristics;
+  __declspec(property(get = __cordl_internal_get__beatmapCharacteristics,
+                      put = __cordl_internal_set__beatmapCharacteristics))::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristics;
 
   /// @brief Field _menuTransitionsHelper, offset 0x18, size 0x8
-  __declspec(property(get = __get__menuTransitionsHelper, put = __set__menuTransitionsHelper))::GlobalNamespace::MenuTransitionsHelper* _menuTransitionsHelper;
+  __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper))::UnityW<::GlobalNamespace::MenuTransitionsHelper> _menuTransitionsHelper;
 
   /// @brief Field _beatmapLevels, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapLevels, put = __set__beatmapLevels))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevels;
+  __declspec(property(get = __cordl_internal_get__beatmapLevels, put = __cordl_internal_set__beatmapLevels))::UnityW<::GlobalNamespace::BeatmapLevelsModel> _beatmapLevels;
 
   /// @brief Field _playQueue, offset 0x28, size 0x8
-  __declspec(property(get = __get__playQueue, put = __set__playQueue))::System::Collections::Generic::Queue_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams>* _playQueue;
+  __declspec(property(get = __cordl_internal_get__playQueue,
+                      put = __cordl_internal_set__playQueue))::System::Collections::Generic::Queue_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams>* _playQueue;
 
   /// @brief Field _current, offset 0x30, size 0x30
-  __declspec(property(get = __get__current, put = __set__current))::System::Nullable_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams> _current;
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current))::System::Nullable_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams> _current;
 
-  constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __get__beatmapCharacteristics();
+  constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __cordl_internal_get__beatmapCharacteristics();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollection*> const& __get__beatmapCharacteristics() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollection*> const& __cordl_internal_get__beatmapCharacteristics() const;
 
-  constexpr void __set__beatmapCharacteristics(::GlobalNamespace::BeatmapCharacteristicCollection* value);
+  constexpr void __cordl_internal_set__beatmapCharacteristics(::GlobalNamespace::BeatmapCharacteristicCollection* value);
 
-  constexpr ::GlobalNamespace::MenuTransitionsHelper*& __get__menuTransitionsHelper();
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper>& __cordl_internal_get__menuTransitionsHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuTransitionsHelper*> const& __get__menuTransitionsHelper() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper> const& __cordl_internal_get__menuTransitionsHelper() const;
 
-  constexpr void __set__menuTransitionsHelper(::GlobalNamespace::MenuTransitionsHelper* value);
+  constexpr void __cordl_internal_set__menuTransitionsHelper(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __get__beatmapLevels();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsModel>& __cordl_internal_get__beatmapLevels();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __get__beatmapLevels() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsModel> const& __cordl_internal_get__beatmapLevels() const;
 
-  constexpr void __set__beatmapLevels(::GlobalNamespace::BeatmapLevelsModel* value);
+  constexpr void __cordl_internal_set__beatmapLevels(::UnityW<::GlobalNamespace::BeatmapLevelsModel> value);
 
-  constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams>*& __get__playQueue();
+  constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams>*& __cordl_internal_get__playQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams>*> const& __get__playQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams>*> const& __cordl_internal_get__playQueue() const;
 
-  constexpr void __set__playQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams>* value);
+  constexpr void __cordl_internal_set__playQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams>* value);
 
-  constexpr ::System::Nullable_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams>& __get__current();
+  constexpr ::System::Nullable_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams>& __cordl_internal_get__current();
 
-  constexpr ::System::Nullable_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams> const& __get__current() const;
+  constexpr ::System::Nullable_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams> const& __cordl_internal_get__current() const;
 
-  constexpr void __set__current(::System::Nullable_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams> value);
+  constexpr void __cordl_internal_set__current(::System::Nullable_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams> value);
 
   /// @brief Method FindBeatmapLevelPackBeatmaps, addr 0x226e390, size 0x4f4, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::IBeatmapLevel*, ::Array<::GlobalNamespace::IBeatmapLevel*>*> FindBeatmapLevelPackBeatmaps(::StringW packId);
@@ -212,10 +214,10 @@ public:
   ::GlobalNamespace::BeatmapCharacteristicCollection* ____beatmapCharacteristics;
 
   /// @brief Field _menuTransitionsHelper, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MenuTransitionsHelper* ____menuTransitionsHelper;
+  ::UnityW<::GlobalNamespace::MenuTransitionsHelper> ____menuTransitionsHelper;
 
   /// @brief Field _beatmapLevels, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevels;
+  ::UnityW<::GlobalNamespace::BeatmapLevelsModel> ____beatmapLevels;
 
   /// @brief Field _playQueue, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::Queue_1<::GlobalNamespace::__SongRunningHelper__QueuedSongParams>* ____playQueue;

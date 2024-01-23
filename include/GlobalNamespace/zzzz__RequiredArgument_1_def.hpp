@@ -17,24 +17,24 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5978))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5978))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5979))
 // CS Name: ::RequiredArgument`1<T>*
 class CORDL_TYPE RequiredArgument_1 : public ::GlobalNamespace::ArgumentBase {
 public:
   // Declarations
   /// @brief Field _value, offset 0x28, size 0x8
-  __declspec(property(get = __get__value, put = __set__value)) T _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) T _value;
 
   __declspec(property(get = get_value)) T value;
 
   __declspec(property(get = get_isOptional)) bool isOptional;
 
-  constexpr T& __get__value();
+  constexpr T& __cordl_internal_get__value();
 
-  constexpr T const& __get__value() const;
+  constexpr T const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(T value);
+  constexpr void __cordl_internal_set__value(T value);
 
   /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_value();

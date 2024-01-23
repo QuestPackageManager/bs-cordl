@@ -48,35 +48,35 @@ MARK_REF_PTR_T(::Polyglot::Localization);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15554)), TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(15554))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15558))
 // CS Name: ::Polyglot::Localization*
 class CORDL_TYPE Localization : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field customDocument, offset 0x18, size 0x8
-  __declspec(property(get = __get_customDocument, put = __set_customDocument))::Polyglot::LocalizationDocument* customDocument;
+  __declspec(property(get = __cordl_internal_get_customDocument, put = __cordl_internal_set_customDocument))::Polyglot::LocalizationDocument* customDocument;
 
   /// @brief Field inputFiles, offset 0x20, size 0x8
-  __declspec(property(get = __get_inputFiles, put = __set_inputFiles))::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>* inputFiles;
+  __declspec(property(get = __cordl_internal_get_inputFiles, put = __cordl_internal_set_inputFiles))::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>* inputFiles;
 
   /// @brief Field supportedLanguages, offset 0x28, size 0x8
-  __declspec(property(get = __get_supportedLanguages, put = __set_supportedLanguages))::System::Collections::Generic::List_1<::Polyglot::Language>* supportedLanguages;
+  __declspec(property(get = __cordl_internal_get_supportedLanguages, put = __cordl_internal_set_supportedLanguages))::System::Collections::Generic::List_1<::Polyglot::Language>* supportedLanguages;
 
   /// @brief Field selectedLanguage, offset 0x30, size 0x4
-  __declspec(property(get = __get_selectedLanguage, put = __set_selectedLanguage))::Polyglot::Language selectedLanguage;
+  __declspec(property(get = __cordl_internal_get_selectedLanguage, put = __cordl_internal_set_selectedLanguage))::Polyglot::Language selectedLanguage;
 
   /// @brief Field fallbackLanguage, offset 0x34, size 0x4
-  __declspec(property(get = __get_fallbackLanguage, put = __set_fallbackLanguage))::Polyglot::Language fallbackLanguage;
+  __declspec(property(get = __cordl_internal_get_fallbackLanguage, put = __cordl_internal_set_fallbackLanguage))::Polyglot::Language fallbackLanguage;
 
   /// @brief Field Localize, offset 0x38, size 0x8
-  __declspec(property(get = __get_Localize, put = __set_Localize))::UnityEngine::Events::UnityEvent* Localize;
+  __declspec(property(get = __cordl_internal_get_Localize, put = __cordl_internal_set_Localize))::UnityEngine::Events::UnityEvent* Localize;
 
   /// @brief Field selectedCultureInfo, offset 0x40, size 0x8
-  __declspec(property(get = __get_selectedCultureInfo, put = __set_selectedCultureInfo))::System::Globalization::CultureInfo* selectedCultureInfo;
+  __declspec(property(get = __cordl_internal_get_selectedCultureInfo, put = __cordl_internal_set_selectedCultureInfo))::System::Globalization::CultureInfo* selectedCultureInfo;
 
   /// @brief Field instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_instance, put = setStaticF_instance))::Polyglot::Localization* instance;
+  static __declspec(property(get = getStaticF_instance, put = setStaticF_instance))::UnityW<::Polyglot::Localization> instance;
 
   __declspec(property(get = get_CustomDocument))::Polyglot::LocalizationDocument* CustomDocument;
 
@@ -100,51 +100,51 @@ public:
 
   __declspec(property(get = get_LocalizedLanguageName))::StringW LocalizedLanguageName;
 
-  constexpr ::Polyglot::LocalizationDocument*& __get_customDocument();
+  constexpr ::Polyglot::LocalizationDocument*& __cordl_internal_get_customDocument();
 
-  constexpr ::cordl_internals::to_const_pointer<::Polyglot::LocalizationDocument*> const& __get_customDocument() const;
+  constexpr ::cordl_internals::to_const_pointer<::Polyglot::LocalizationDocument*> const& __cordl_internal_get_customDocument() const;
 
-  constexpr void __set_customDocument(::Polyglot::LocalizationDocument* value);
+  constexpr void __cordl_internal_set_customDocument(::Polyglot::LocalizationDocument* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>*& __get_inputFiles();
+  constexpr ::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>*& __cordl_internal_get_inputFiles();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>*> const& __get_inputFiles() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>*> const& __cordl_internal_get_inputFiles() const;
 
-  constexpr void __set_inputFiles(::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>* value);
+  constexpr void __cordl_internal_set_inputFiles(::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Polyglot::Language>*& __get_supportedLanguages();
+  constexpr ::System::Collections::Generic::List_1<::Polyglot::Language>*& __cordl_internal_get_supportedLanguages();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Polyglot::Language>*> const& __get_supportedLanguages() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Polyglot::Language>*> const& __cordl_internal_get_supportedLanguages() const;
 
-  constexpr void __set_supportedLanguages(::System::Collections::Generic::List_1<::Polyglot::Language>* value);
+  constexpr void __cordl_internal_set_supportedLanguages(::System::Collections::Generic::List_1<::Polyglot::Language>* value);
 
-  constexpr ::Polyglot::Language& __get_selectedLanguage();
+  constexpr ::Polyglot::Language& __cordl_internal_get_selectedLanguage();
 
-  constexpr ::Polyglot::Language const& __get_selectedLanguage() const;
+  constexpr ::Polyglot::Language const& __cordl_internal_get_selectedLanguage() const;
 
-  constexpr void __set_selectedLanguage(::Polyglot::Language value);
+  constexpr void __cordl_internal_set_selectedLanguage(::Polyglot::Language value);
 
-  constexpr ::Polyglot::Language& __get_fallbackLanguage();
+  constexpr ::Polyglot::Language& __cordl_internal_get_fallbackLanguage();
 
-  constexpr ::Polyglot::Language const& __get_fallbackLanguage() const;
+  constexpr ::Polyglot::Language const& __cordl_internal_get_fallbackLanguage() const;
 
-  constexpr void __set_fallbackLanguage(::Polyglot::Language value);
+  constexpr void __cordl_internal_set_fallbackLanguage(::Polyglot::Language value);
 
-  constexpr ::UnityEngine::Events::UnityEvent*& __get_Localize();
+  constexpr ::UnityEngine::Events::UnityEvent*& __cordl_internal_get_Localize();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent*> const& __get_Localize() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent*> const& __cordl_internal_get_Localize() const;
 
-  constexpr void __set_Localize(::UnityEngine::Events::UnityEvent* value);
+  constexpr void __cordl_internal_set_Localize(::UnityEngine::Events::UnityEvent* value);
 
-  constexpr ::System::Globalization::CultureInfo*& __get_selectedCultureInfo();
+  constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get_selectedCultureInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __get_selectedCultureInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __cordl_internal_get_selectedCultureInfo() const;
 
-  constexpr void __set_selectedCultureInfo(::System::Globalization::CultureInfo* value);
+  constexpr void __cordl_internal_set_selectedCultureInfo(::System::Globalization::CultureInfo* value);
 
-  static inline void setStaticF_instance(::Polyglot::Localization* value);
+  static inline void setStaticF_instance(::UnityW<::Polyglot::Localization> value);
 
-  static inline ::Polyglot::Localization* getStaticF_instance();
+  static inline ::UnityW<::Polyglot::Localization> getStaticF_instance();
 
   /// @brief Method get_CustomDocument, addr 0x2802f60, size 0x8, virtual false, abstract: false, final false
   inline ::Polyglot::LocalizationDocument* get_CustomDocument();
@@ -153,7 +153,7 @@ public:
   inline ::System::Collections::Generic::List_1<::Polyglot::LocalizationAsset*>* get_InputFiles();
 
   /// @brief Method get_Instance, addr 0x2802ac4, size 0x94, virtual false, abstract: false, final false
-  static inline ::Polyglot::Localization* get_Instance();
+  static inline ::UnityW<::Polyglot::Localization> get_Instance();
 
   /// @brief Method set_Instance, addr 0x2803010, size 0x4c, virtual false, abstract: false, final false
   static inline void set_Instance(::Polyglot::Localization* value);

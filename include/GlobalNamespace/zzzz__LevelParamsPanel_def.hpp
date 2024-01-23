@@ -19,23 +19,23 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelParamsPanel);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5794))
 // CS Name: ::LevelParamsPanel*
 class CORDL_TYPE LevelParamsPanel : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _notesPerSecondText, offset 0x18, size 0x8
-  __declspec(property(get = __get__notesPerSecondText, put = __set__notesPerSecondText))::TMPro::TextMeshProUGUI* _notesPerSecondText;
+  __declspec(property(get = __cordl_internal_get__notesPerSecondText, put = __cordl_internal_set__notesPerSecondText))::UnityW<::TMPro::TextMeshProUGUI> _notesPerSecondText;
 
   /// @brief Field _notesCountText, offset 0x20, size 0x8
-  __declspec(property(get = __get__notesCountText, put = __set__notesCountText))::TMPro::TextMeshProUGUI* _notesCountText;
+  __declspec(property(get = __cordl_internal_get__notesCountText, put = __cordl_internal_set__notesCountText))::UnityW<::TMPro::TextMeshProUGUI> _notesCountText;
 
   /// @brief Field _obstaclesCountText, offset 0x28, size 0x8
-  __declspec(property(get = __get__obstaclesCountText, put = __set__obstaclesCountText))::TMPro::TextMeshProUGUI* _obstaclesCountText;
+  __declspec(property(get = __cordl_internal_get__obstaclesCountText, put = __cordl_internal_set__obstaclesCountText))::UnityW<::TMPro::TextMeshProUGUI> _obstaclesCountText;
 
   /// @brief Field _bombsCountText, offset 0x30, size 0x8
-  __declspec(property(get = __get__bombsCountText, put = __set__bombsCountText))::TMPro::TextMeshProUGUI* _bombsCountText;
+  __declspec(property(get = __cordl_internal_get__bombsCountText, put = __cordl_internal_set__bombsCountText))::UnityW<::TMPro::TextMeshProUGUI> _bombsCountText;
 
   __declspec(property(put = set_notesPerSecond)) float_t notesPerSecond;
 
@@ -45,29 +45,29 @@ public:
 
   __declspec(property(put = set_bombsCount)) int32_t bombsCount;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__notesPerSecondText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__notesPerSecondText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__notesPerSecondText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__notesPerSecondText() const;
 
-  constexpr void __set__notesPerSecondText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__notesPerSecondText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__notesCountText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__notesCountText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__notesCountText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__notesCountText() const;
 
-  constexpr void __set__notesCountText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__notesCountText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__obstaclesCountText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__obstaclesCountText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__obstaclesCountText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__obstaclesCountText() const;
 
-  constexpr void __set__obstaclesCountText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__obstaclesCountText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__bombsCountText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__bombsCountText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__bombsCountText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__bombsCountText() const;
 
-  constexpr void __set__bombsCountText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__bombsCountText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
   /// @brief Method set_notesPerSecond, addr 0x22e6ddc, size 0x80, virtual false, abstract: false, final false
   inline void set_notesPerSecond(float_t value);
@@ -101,16 +101,16 @@ protected:
 
 public:
   /// @brief Field _notesPerSecondText, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____notesPerSecondText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____notesPerSecondText;
 
   /// @brief Field _notesCountText, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____notesCountText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____notesCountText;
 
   /// @brief Field _obstaclesCountText, offset: 0x28, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____obstaclesCountText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____obstaclesCountText;
 
   /// @brief Field _bombsCountText, offset: 0x30, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____bombsCountText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____bombsCountText;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

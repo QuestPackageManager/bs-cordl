@@ -24,56 +24,56 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2307e84;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr float_t& GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__get_r() {
+constexpr float_t& GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__cordl_internal_get_r() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
-constexpr float_t const& GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__get_r() const {
+constexpr float_t const& GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__cordl_internal_get_r() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___r;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__set_r(float_t value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__cordl_internal_set_r(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___r = value;
 }
-constexpr float_t& GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__get_g() {
+constexpr float_t& GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__cordl_internal_get_g() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___g;
 }
-constexpr float_t const& GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__get_g() const {
+constexpr float_t const& GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__cordl_internal_get_g() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___g;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__set_g(float_t value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__cordl_internal_set_g(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___g = value;
 }
-constexpr float_t& GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__get_b() {
+constexpr float_t& GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__cordl_internal_get_b() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
-constexpr float_t const& GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__get_b() const {
+constexpr float_t const& GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__cordl_internal_get_b() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___b;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__set_b(float_t value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::__cordl_internal_set_b(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___b = value;
 }
 inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData* GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData*>());
 }
 inline void GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -86,81 +86,82 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2307e8c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__get_name() {
+constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__cordl_internal_get_name() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
-constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__get_name() const {
+constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__cordl_internal_get_name() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___name;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__set_name(::StringW value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__cordl_internal_set_name(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__get_type() {
+constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__cordl_internal_get_type() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
-constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__get_type() const {
+constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__cordl_internal_get_type() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___type;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__set_type(::StringW value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__cordl_internal_set_type(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___type)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__get_includedLayers() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__cordl_internal_get_includedLayers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___includedLayers;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__get_includedLayers() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__cordl_internal_get_includedLayers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___includedLayers;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__set_includedLayers(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__cordl_internal_set_includedLayers(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___includedLayers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__get_excludedLayers() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__cordl_internal_get_excludedLayers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___excludedLayers;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__get_excludedLayers() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__cordl_internal_get_excludedLayers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___excludedLayers;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__set_excludedLayers(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__cordl_internal_set_excludedLayers(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___excludedLayers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData*& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__get_backgroundColor() {
+constexpr ::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData*& GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__cordl_internal_get_backgroundColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___backgroundColor;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData*> const&
-GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__get_backgroundColor() const {
+GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__cordl_internal_get_backgroundColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___backgroundColor;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__set_backgroundColor(::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData* value) {
+constexpr void
+GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::__cordl_internal_set_backgroundColor(::GlobalNamespace::__RecordingToolConfigurationProcessor__ColorSaveData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___backgroundColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot* GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*>());
 }
 inline void GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -173,36 +174,36 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2305ab0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration*>::get(),
-                                                 ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 constexpr ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*, ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>*>&
-GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration::__get_recordingConfigurations() {
+GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration::__cordl_internal_get_recordingConfigurations() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordingConfigurations;
 }
 constexpr ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*,
                    ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>*> const&
-GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration::__get_recordingConfigurations() const {
+GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration::__cordl_internal_get_recordingConfigurations() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordingConfigurations;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration::__set_recordingConfigurations(
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration::__cordl_internal_set_recordingConfigurations(
     ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*, ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___recordingConfigurations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration*>());
 }
 inline void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration*>::get(),
-                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -215,299 +216,299 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x2307e94;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>::get(),
-                                                 ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_mode() {
+constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_mode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
-constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_mode() const {
+constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_mode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mode;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_mode(::StringW value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_mode(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_packID() {
+constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_packID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packID;
 }
-constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_packID() const {
+constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_packID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packID;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_packID(::StringW value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_packID(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_levelID() {
+constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_levelID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelID;
 }
-constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_levelID() const {
+constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_levelID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___levelID;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_levelID(::StringW value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_levelID(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___levelID)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_difficulty() {
+constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_difficulty() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___difficulty;
 }
-constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_difficulty() const {
+constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_difficulty() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___difficulty;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_difficulty(::StringW value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_difficulty(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___difficulty)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_characteristic() {
+constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_characteristic() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characteristic;
 }
-constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_characteristic() const {
+constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_characteristic() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characteristic;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_characteristic(::StringW value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_characteristic(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___characteristic)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_runLevel() {
+constexpr bool& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_runLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___runLevel;
 }
-constexpr bool const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_runLevel() const {
+constexpr bool const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_runLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___runLevel;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_runLevel(bool value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_runLevel(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___runLevel = value;
 }
-constexpr bool& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_recordPerformance() {
+constexpr bool& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_recordPerformance() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordPerformance;
 }
-constexpr bool const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_recordPerformance() const {
+constexpr bool const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_recordPerformance() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordPerformance;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_recordPerformance(bool value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_recordPerformance(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___recordPerformance = value;
 }
-constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_recordingMode() {
+constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_recordingMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordingMode;
 }
-constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_recordingMode() const {
+constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_recordingMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordingMode;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_recordingMode(::StringW value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_recordingMode(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___recordingMode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_recordingPath() {
+constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_recordingPath() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordingPath;
 }
-constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_recordingPath() const {
+constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_recordingPath() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordingPath;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_recordingPath(::StringW value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_recordingPath(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___recordingPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_cameraView() {
+constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_cameraView() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cameraView;
 }
-constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_cameraView() const {
+constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_cameraView() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cameraView;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_cameraView(::StringW value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_cameraView(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cameraView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_addDateTimeSuffixToRecordingName() {
+constexpr bool& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_addDateTimeSuffixToRecordingName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addDateTimeSuffixToRecordingName;
 }
-constexpr bool const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_addDateTimeSuffixToRecordingName() const {
+constexpr bool const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_addDateTimeSuffixToRecordingName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addDateTimeSuffixToRecordingName;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_addDateTimeSuffixToRecordingName(bool value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_addDateTimeSuffixToRecordingName(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___addDateTimeSuffixToRecordingName = value;
 }
-constexpr bool& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_screenshotRecording() {
+constexpr bool& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_screenshotRecording() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenshotRecording;
 }
-constexpr bool const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_screenshotRecording() const {
+constexpr bool const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_screenshotRecording() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenshotRecording;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_screenshotRecording(bool value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_screenshotRecording(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___screenshotRecording = value;
 }
-constexpr int32_t& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_screenshotWidth() {
+constexpr int32_t& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_screenshotWidth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenshotWidth;
 }
-constexpr int32_t const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_screenshotWidth() const {
+constexpr int32_t const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_screenshotWidth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenshotWidth;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_screenshotWidth(int32_t value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_screenshotWidth(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___screenshotWidth = value;
 }
-constexpr int32_t& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_screenshotHeight() {
+constexpr int32_t& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_screenshotHeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenshotHeight;
 }
-constexpr int32_t const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_screenshotHeight() const {
+constexpr int32_t const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_screenshotHeight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___screenshotHeight;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_screenshotHeight(int32_t value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_screenshotHeight(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___screenshotHeight = value;
 }
-constexpr int32_t& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_framerate() {
+constexpr int32_t& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_framerate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___framerate;
 }
-constexpr int32_t const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_framerate() const {
+constexpr int32_t const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_framerate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___framerate;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_framerate(int32_t value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_framerate(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___framerate = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*, ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*>*>&
-GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_playbackScreenshots() {
+GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_playbackScreenshots() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playbackScreenshots;
 }
 constexpr ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*, ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*>*> const&
-GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_playbackScreenshots() const {
+GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_playbackScreenshots() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playbackScreenshots;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_playbackScreenshots(
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_playbackScreenshots(
     ::ArrayW<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*, ::Array<::GlobalNamespace::__RecordingToolConfigurationProcessor__PlaybackScreenshot*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playbackScreenshots)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_practice() {
+constexpr bool& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_practice() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___practice;
 }
-constexpr bool const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_practice() const {
+constexpr bool const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_practice() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___practice;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_practice(bool value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_practice(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___practice = value;
 }
-constexpr float_t& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_startSongTime() {
+constexpr float_t& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_startSongTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startSongTime;
 }
-constexpr float_t const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_startSongTime() const {
+constexpr float_t const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_startSongTime() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startSongTime;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_startSongTime(float_t value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_startSongTime(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startSongTime = value;
 }
-constexpr float_t& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_songSpeedMultiplier() {
+constexpr float_t& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_songSpeedMultiplier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songSpeedMultiplier;
 }
-constexpr float_t const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_songSpeedMultiplier() const {
+constexpr float_t const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_songSpeedMultiplier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___songSpeedMultiplier;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_songSpeedMultiplier(float_t value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_songSpeedMultiplier(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___songSpeedMultiplier = value;
 }
-constexpr bool& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_overrideEnvironments() {
+constexpr bool& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_overrideEnvironments() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideEnvironments;
 }
-constexpr bool const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_overrideEnvironments() const {
+constexpr bool const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_overrideEnvironments() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideEnvironments;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_overrideEnvironments(bool value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_overrideEnvironments(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___overrideEnvironments = value;
 }
-constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_environmentType() {
+constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_environmentType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentType;
 }
-constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_environmentType() const {
+constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_environmentType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentType;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_environmentType(::StringW value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_environmentType(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___environmentType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_environmentName() {
+constexpr ::StringW& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_environmentName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentName;
 }
-constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_environmentName() const {
+constexpr ::StringW const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_environmentName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___environmentName;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_environmentName(::StringW value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_environmentName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___environmentName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_saveToOldFormat() {
+constexpr bool& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_saveToOldFormat() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saveToOldFormat;
 }
-constexpr bool const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__get_saveToOldFormat() const {
+constexpr bool const& GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_get_saveToOldFormat() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saveToOldFormat;
 }
-constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__set_saveToOldFormat(bool value) {
+constexpr void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::__cordl_internal_set_saveToOldFormat(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___saveToOldFormat = value;
 }
 inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration* GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>());
 }
 inline void GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingConfiguration*>::get(),
-                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -521,13 +522,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x2305250;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ProgramArguments*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberLogger*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPosesSerializer*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecordingToolResourceContainerSO*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ProgramArguments*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberLogger*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPosesSerializer*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecordingToolResourceContainerSO*>::get() })));
     return ___internal_method;
   }
 };
@@ -539,9 +540,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x2305290;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(),
-                                                                               "IsRecordingToolEnabled", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "IsRecordingToolEnabled", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -553,9 +554,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3e0;
   constexpr static std::size_t addrs = 0x23052fc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(),
-                                                                               "GetConfigFilePath", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "GetConfigFilePath", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -567,10 +568,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x178;
   constexpr static std::size_t addrs = 0x23056dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "LoadConfigurationFile",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "LoadConfigurationFile",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
@@ -582,10 +583,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x25c;
   constexpr static std::size_t addrs = 0x2305854;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "DeserializeConfigurationFile",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "DeserializeConfigurationFile",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
@@ -597,10 +598,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x2305ab8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "LoadConfiguration",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "LoadConfiguration",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
@@ -611,9 +612,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x2305ad4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(),
-                                                                               "GetDefaultMrcLayersMask", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "GetDefaultMrcLayersMask", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -625,10 +626,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x208;
   constexpr static std::size_t addrs = 0x2305b68;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "GetLayerMask",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "GetLayerMask",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
@@ -640,10 +641,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x2305d70;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "GetLayersMask", std::vector<Il2CppClass*>{},
-                                   ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "GetLayersMask", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -656,11 +657,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x910;
   constexpr static std::size_t addrs = 0x2305e1c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "GetLevelPackAndLevelPreviewForLevelId", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IBeatmapLevelPack*>*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "GetLevelPackAndLevelPreviewForLevelId",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IBeatmapLevelPack*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -674,12 +676,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1164;
   constexpr static std::size_t addrs = 0x230672c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "CreateRecordingToolSettingsFromConfiguration",
-        std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicCollection*>::get() })));
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicCollection*>::get() })));
     return ___internal_method;
   }
 };
@@ -692,10 +694,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x2307a0c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "CreateObjectsMovementRecorderInitDataFromConfiguration",
-        std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecordingSettings*>::get() })));
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecordingSettings*>::get() })));
     return ___internal_method;
   }
 };
@@ -708,59 +710,60 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x380;
   constexpr static std::size_t addrs = 0x2307b04;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "CreateMenuDestinationFromConfiguration", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecordingSettings*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(),
+                                                 "CreateMenuDestinationFromConfiguration", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecordingSettings*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::ProgramArguments*& GlobalNamespace::RecordingToolConfigurationProcessor::__get__programArguments() {
+constexpr ::GlobalNamespace::ProgramArguments*& GlobalNamespace::RecordingToolConfigurationProcessor::__cordl_internal_get__programArguments() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____programArguments;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ProgramArguments*> const& GlobalNamespace::RecordingToolConfigurationProcessor::__get__programArguments() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ProgramArguments*> const& GlobalNamespace::RecordingToolConfigurationProcessor::__cordl_internal_get__programArguments() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____programArguments;
 }
-constexpr void GlobalNamespace::RecordingToolConfigurationProcessor::__set__programArguments(::GlobalNamespace::ProgramArguments* value) {
+constexpr void GlobalNamespace::RecordingToolConfigurationProcessor::__cordl_internal_set__programArguments(::GlobalNamespace::ProgramArguments* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____programArguments)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IBeatSaberLogger*& GlobalNamespace::RecordingToolConfigurationProcessor::__get__logger() {
+constexpr ::GlobalNamespace::IBeatSaberLogger*& GlobalNamespace::RecordingToolConfigurationProcessor::__cordl_internal_get__logger() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logger;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& GlobalNamespace::RecordingToolConfigurationProcessor::__get__logger() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& GlobalNamespace::RecordingToolConfigurationProcessor::__cordl_internal_get__logger() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____logger;
 }
-constexpr void GlobalNamespace::RecordingToolConfigurationProcessor::__set__logger(::GlobalNamespace::IBeatSaberLogger* value) {
+constexpr void GlobalNamespace::RecordingToolConfigurationProcessor::__cordl_internal_set__logger(::GlobalNamespace::IBeatSaberLogger* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____logger)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IPosesSerializer*& GlobalNamespace::RecordingToolConfigurationProcessor::__get__posesSerializer() {
+constexpr ::GlobalNamespace::IPosesSerializer*& GlobalNamespace::RecordingToolConfigurationProcessor::__cordl_internal_get__posesSerializer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posesSerializer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPosesSerializer*> const& GlobalNamespace::RecordingToolConfigurationProcessor::__get__posesSerializer() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPosesSerializer*> const& GlobalNamespace::RecordingToolConfigurationProcessor::__cordl_internal_get__posesSerializer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____posesSerializer;
 }
-constexpr void GlobalNamespace::RecordingToolConfigurationProcessor::__set__posesSerializer(::GlobalNamespace::IPosesSerializer* value) {
+constexpr void GlobalNamespace::RecordingToolConfigurationProcessor::__cordl_internal_set__posesSerializer(::GlobalNamespace::IPosesSerializer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____posesSerializer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::RecordingToolResourceContainerSO*& GlobalNamespace::RecordingToolConfigurationProcessor::__get__resourceContainer() {
+constexpr ::UnityW<::GlobalNamespace::RecordingToolResourceContainerSO>& GlobalNamespace::RecordingToolConfigurationProcessor::__cordl_internal_get__resourceContainer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resourceContainer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolResourceContainerSO*> const& GlobalNamespace::RecordingToolConfigurationProcessor::__get__resourceContainer() const {
+constexpr ::UnityW<::GlobalNamespace::RecordingToolResourceContainerSO> const& GlobalNamespace::RecordingToolConfigurationProcessor::__cordl_internal_get__resourceContainer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resourceContainer;
 }
-constexpr void GlobalNamespace::RecordingToolConfigurationProcessor::__set__resourceContainer(::GlobalNamespace::RecordingToolResourceContainerSO* value) {
+constexpr void GlobalNamespace::RecordingToolConfigurationProcessor::__cordl_internal_set__resourceContainer(::UnityW<::GlobalNamespace::RecordingToolResourceContainerSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resourceContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -768,70 +771,71 @@ inline ::GlobalNamespace::RecordingToolConfigurationProcessor* GlobalNamespace::
                                                                                                                               ::GlobalNamespace::IBeatSaberLogger* logger,
                                                                                                                               ::GlobalNamespace::IPosesSerializer* posesSerializer,
                                                                                                                               ::GlobalNamespace::RecordingToolResourceContainerSO* resourceContainer) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::RecordingToolConfigurationProcessor*>(programArguments, logger, posesSerializer, resourceContainer));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RecordingToolConfigurationProcessor*>(programArguments, logger, posesSerializer, resourceContainer));
 }
 inline void GlobalNamespace::RecordingToolConfigurationProcessor::_ctor(::GlobalNamespace::ProgramArguments* programArguments, ::GlobalNamespace::IBeatSaberLogger* logger,
                                                                         ::GlobalNamespace::IPosesSerializer* posesSerializer, ::GlobalNamespace::RecordingToolResourceContainerSO* resourceContainer) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ProgramArguments*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberLogger*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPosesSerializer*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecordingToolResourceContainerSO*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ProgramArguments*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberLogger*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPosesSerializer*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecordingToolResourceContainerSO*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, programArguments, logger, posesSerializer, resourceContainer);
 }
 inline bool GlobalNamespace::RecordingToolConfigurationProcessor::IsRecordingToolEnabled() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(),
-                                                                             "IsRecordingToolEnabled", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "IsRecordingToolEnabled", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::StringW GlobalNamespace::RecordingToolConfigurationProcessor::GetConfigFilePath() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(),
-                                                                             "GetConfigFilePath", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "GetConfigFilePath", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::StringW GlobalNamespace::RecordingToolConfigurationProcessor::LoadConfigurationFile(::StringW filePath) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "LoadConfigurationFile",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "LoadConfigurationFile",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, filePath);
 }
 inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* GlobalNamespace::RecordingToolConfigurationProcessor::DeserializeConfigurationFile(::StringW jsonData) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "DeserializeConfigurationFile",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "DeserializeConfigurationFile",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration*, false>(this, ___internal_method, jsonData);
 }
 inline ::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration* GlobalNamespace::RecordingToolConfigurationProcessor::LoadConfiguration(::StringW filePath) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "LoadConfiguration",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "LoadConfiguration",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration*, false>(this, ___internal_method, filePath);
 }
 inline ::UnityEngine::LayerMask GlobalNamespace::RecordingToolConfigurationProcessor::GetDefaultMrcLayersMask() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(),
-                                                                             "GetDefaultMrcLayersMask", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "GetDefaultMrcLayersMask", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::LayerMask, false>(nullptr, ___internal_method);
 }
 inline ::UnityEngine::LayerMask GlobalNamespace::RecordingToolConfigurationProcessor::GetLayerMask(::StringW layerName) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "GetLayerMask",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "GetLayerMask",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::LayerMask, false>(this, ___internal_method, layerName);
 }
 inline ::UnityEngine::LayerMask GlobalNamespace::RecordingToolConfigurationProcessor::GetLayersMask(::ArrayW<::StringW, ::Array<::StringW>*> layerNames) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "GetLayersMask", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "GetLayersMask", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::LayerMask, false>(this, ___internal_method, layerNames);
 }
 inline ::System::ValueTuple_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>
 GlobalNamespace::RecordingToolConfigurationProcessor::GetLevelPackAndLevelPreviewForLevelId(::StringW packId, ::StringW levelId,
                                                                                             ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "GetLevelPackAndLevelPreviewForLevelId", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IBeatmapLevelPack*>*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "GetLevelPackAndLevelPreviewForLevelId",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::IBeatmapLevelPack*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_2<::GlobalNamespace::IBeatmapLevelPack*, ::GlobalNamespace::IPreviewBeatmapLevel*>, false>(nullptr, ___internal_method, packId,
                                                                                                                                                              levelId, beatmapLevelPacks);
 }
@@ -840,25 +844,26 @@ inline ::GlobalNamespace::RecordingToolSettings* GlobalNamespace::RecordingToolC
     ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "CreateRecordingToolSettingsFromConfiguration",
-      std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicCollection*>::get() })));
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__RecordingToolConfigurationProcessor__RecordingToolConfiguration*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapCharacteristicCollection*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::RecordingToolSettings*, false>(this, ___internal_method, recordingToolConfiguration, beatmapCharacteristicCollection);
 }
 inline ::GlobalNamespace::__ObjectsMovementRecorder__InitData*
 GlobalNamespace::RecordingToolConfigurationProcessor::CreateObjectsMovementRecorderInitDataFromConfiguration(::GlobalNamespace::RecordingSettings* recordingSettings) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "CreateObjectsMovementRecorderInitDataFromConfiguration",
-      std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecordingSettings*>::get() })));
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecordingSettings*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__ObjectsMovementRecorder__InitData*, false>(this, ___internal_method, recordingSettings);
 }
 /// @param quitAppAfterRun: bool (default: false)
 inline ::GlobalNamespace::MenuDestination* GlobalNamespace::RecordingToolConfigurationProcessor::CreateMenuDestinationFromConfiguration(::GlobalNamespace::RecordingSettings* recordingSettings,
                                                                                                                                         bool quitAppAfterRun) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(), "CreateMenuDestinationFromConfiguration", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecordingSettings*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigurationProcessor*>::get(),
+                                               "CreateMenuDestinationFromConfiguration", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::RecordingSettings*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MenuDestination*, false>(this, ___internal_method, recordingSettings, quitAppAfterRun);
 }
 // Ctor Parameters []

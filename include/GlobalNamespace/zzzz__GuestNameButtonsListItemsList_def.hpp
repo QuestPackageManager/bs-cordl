@@ -15,9 +15,9 @@ MARK_REF_PTR_T(::GlobalNamespace::GuestNameButtonsListItemsList);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13674), inst: 5217 }), TypeDefinitionIndex(TypeDefinitionIndex(5531)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13674))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5532)) CS Name: ::GuestNameButtonsListItemsList*
-class CORDL_TYPE GuestNameButtonsListItemsList : public ::HMUI::UIItemsList_1<::GlobalNamespace::GuestNameButtonsListItem*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5531)), TypeDefinitionIndex(TypeDefinitionIndex(13674)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13674), inst:
+// 5217 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5532)) CS Name: ::GuestNameButtonsListItemsList*
+class CORDL_TYPE GuestNameButtonsListItemsList : public ::HMUI::UIItemsList_1<::UnityW<::GlobalNamespace::GuestNameButtonsListItem>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::GuestNameButtonsListItemsList* New_ctor();

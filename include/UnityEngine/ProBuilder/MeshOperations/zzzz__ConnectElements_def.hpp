@@ -86,7 +86,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12251))
 // CS Name: ::ConnectElements::<>c*
 class CORDL_TYPE __ConnectElements____c : public ::System::Object {
@@ -274,29 +274,29 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12252))
 // CS Name: ::ConnectElements::<>c__DisplayClass2_0*
 class CORDL_TYPE __ConnectElements____c__DisplayClass2_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field lookup, offset 0x10, size 0x8
-  __declspec(property(get = __get_lookup, put = __set_lookup))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup;
+  __declspec(property(get = __cordl_internal_get_lookup, put = __cordl_internal_set_lookup))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup;
 
   /// @brief Field mesh, offset 0x18, size 0x8
-  __declspec(property(get = __get_mesh, put = __set_mesh))::UnityEngine::ProBuilder::ProBuilderMesh* mesh;
+  __declspec(property(get = __cordl_internal_get_mesh, put = __cordl_internal_set_mesh))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> mesh;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __get_lookup();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __cordl_internal_get_lookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __get_lookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __cordl_internal_get_lookup() const;
 
-  constexpr void __set_lookup(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
+  constexpr void __cordl_internal_set_lookup(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
 
-  constexpr ::UnityEngine::ProBuilder::ProBuilderMesh*& __get_mesh();
+  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>& __cordl_internal_get_mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::ProBuilderMesh*> const& __get_mesh() const;
+  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> const& __cordl_internal_get_mesh() const;
 
-  constexpr void __set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
+  constexpr void __cordl_internal_set_mesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0* New_ctor();
 
@@ -327,7 +327,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* ___lookup;
 
   /// @brief Field mesh, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::ProBuilder::ProBuilderMesh* ___mesh;
+  ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> ___mesh;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -343,20 +343,20 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__ConnectEleme
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12253))
 // CS Name: ::ConnectElements::<>c__DisplayClass3_0*
 class CORDL_TYPE __ConnectElements____c__DisplayClass3_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field appended, offset 0x10, size 0x8
-  __declspec(property(get = __get_appended, put = __set_appended))::System::Collections::Generic::HashSet_1<int32_t>* appended;
+  __declspec(property(get = __cordl_internal_get_appended, put = __cordl_internal_set_appended))::System::Collections::Generic::HashSet_1<int32_t>* appended;
 
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __get_appended();
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_appended();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __get_appended() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_appended() const;
 
-  constexpr void __set_appended(::System::Collections::Generic::HashSet_1<int32_t>* value);
+  constexpr void __cordl_internal_set_appended(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0* New_ctor();
 
@@ -395,7 +395,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__ConnectEleme
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12254))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::ConnectElements*
 class CORDL_TYPE ConnectElements : public ::System::Object {

@@ -32,14 +32,15 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByInstanceGetter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11245))
 // CS Name: ::Zenject::SubContainerCreatorByInstanceGetter*
 class CORDL_TYPE SubContainerCreatorByInstanceGetter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _subcontainerGetter, offset 0x10, size 0x8
-  __declspec(property(get = __get__subcontainerGetter, put = __set__subcontainerGetter))::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>* _subcontainerGetter;
+  __declspec(property(get = __cordl_internal_get__subcontainerGetter,
+                      put = __cordl_internal_set__subcontainerGetter))::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>* _subcontainerGetter;
 
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
@@ -47,11 +48,11 @@ public:
   /// @brief Convert to "::Zenject::ISubContainerCreator"
   constexpr ::Zenject::ISubContainerCreator* i___Zenject__ISubContainerCreator() noexcept;
 
-  constexpr ::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>*& __get__subcontainerGetter();
+  constexpr ::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>*& __cordl_internal_get__subcontainerGetter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>*> const& __get__subcontainerGetter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>*> const& __cordl_internal_get__subcontainerGetter() const;
 
-  constexpr void __set__subcontainerGetter(::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set__subcontainerGetter(::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>* value);
 
   static inline ::Zenject::SubContainerCreatorByInstanceGetter* New_ctor(::System::Func_2<::Zenject::InjectContext*, ::Zenject::DiContainer*>* subcontainerGetter);
 

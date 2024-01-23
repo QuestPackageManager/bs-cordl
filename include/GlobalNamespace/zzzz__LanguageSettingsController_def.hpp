@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::GlobalNamespace::LanguageSettingsController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5590))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5590))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5605))
 // CS Name: ::LanguageSettingsController*
 class CORDL_TYPE LanguageSettingsController : public ::GlobalNamespace::DropdownSettingsController {
 public:
   // Declarations
   /// @brief Field _settingsValue, offset 0x30, size 0x8
-  __declspec(property(get = __get__settingsValue, put = __set__settingsValue))::GlobalNamespace::LanguageSO* _settingsValue;
+  __declspec(property(get = __cordl_internal_get__settingsValue, put = __cordl_internal_set__settingsValue))::UnityW<::GlobalNamespace::LanguageSO> _settingsValue;
 
-  constexpr ::GlobalNamespace::LanguageSO*& __get__settingsValue();
+  constexpr ::UnityW<::GlobalNamespace::LanguageSO>& __cordl_internal_get__settingsValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LanguageSO*> const& __get__settingsValue() const;
+  constexpr ::UnityW<::GlobalNamespace::LanguageSO> const& __cordl_internal_get__settingsValue() const;
 
-  constexpr void __set__settingsValue(::GlobalNamespace::LanguageSO* value);
+  constexpr void __cordl_internal_set__settingsValue(::UnityW<::GlobalNamespace::LanguageSO> value);
 
   /// @brief Method GetInitValues, addr 0x22ab5c0, size 0xa8, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
@@ -64,7 +64,7 @@ protected:
 
 public:
   /// @brief Field _settingsValue, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::LanguageSO* ____settingsValue;
+  ::UnityW<::GlobalNamespace::LanguageSO> ____settingsValue;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

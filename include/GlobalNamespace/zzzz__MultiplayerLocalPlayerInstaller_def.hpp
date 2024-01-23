@@ -21,38 +21,39 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalPlayerInstaller);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138)), TypeDefinitionIndex(TypeDefinitionIndex(5239))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5239)), TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5400))
 // CS Name: ::MultiplayerLocalPlayerInstaller*
 class CORDL_TYPE MultiplayerLocalPlayerInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
   /// @brief Field _levelSceneSetupData, offset 0x20, size 0x8
-  __declspec(property(get = __get__levelSceneSetupData, put = __set__levelSceneSetupData))::GlobalNamespace::MultiplayerLevelSceneSetupData* _levelSceneSetupData;
+  __declspec(property(get = __cordl_internal_get__levelSceneSetupData, put = __cordl_internal_set__levelSceneSetupData))::GlobalNamespace::MultiplayerLevelSceneSetupData* _levelSceneSetupData;
 
   /// @brief Field _multiplayerSessionManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _startState, offset 0x30, size 0x4
-  __declspec(property(get = __get__startState, put = __set__startState))::GlobalNamespace::MultiplayerPlayerStartState _startState;
+  __declspec(property(get = __cordl_internal_get__startState, put = __cordl_internal_set__startState))::GlobalNamespace::MultiplayerPlayerStartState _startState;
 
-  constexpr ::GlobalNamespace::MultiplayerLevelSceneSetupData*& __get__levelSceneSetupData();
+  constexpr ::GlobalNamespace::MultiplayerLevelSceneSetupData*& __cordl_internal_get__levelSceneSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelSceneSetupData*> const& __get__levelSceneSetupData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelSceneSetupData*> const& __cordl_internal_get__levelSceneSetupData() const;
 
-  constexpr void __set__levelSceneSetupData(::GlobalNamespace::MultiplayerLevelSceneSetupData* value);
+  constexpr void __cordl_internal_set__levelSceneSetupData(::GlobalNamespace::MultiplayerLevelSceneSetupData* value);
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr ::GlobalNamespace::MultiplayerPlayerStartState& __get__startState();
+  constexpr ::GlobalNamespace::MultiplayerPlayerStartState& __cordl_internal_get__startState();
 
-  constexpr ::GlobalNamespace::MultiplayerPlayerStartState const& __get__startState() const;
+  constexpr ::GlobalNamespace::MultiplayerPlayerStartState const& __cordl_internal_get__startState() const;
 
-  constexpr void __set__startState(::GlobalNamespace::MultiplayerPlayerStartState value);
+  constexpr void __cordl_internal_set__startState(::GlobalNamespace::MultiplayerPlayerStartState value);
 
   /// @brief Method InstallBindings, addr 0x2272ce4, size 0x238, virtual true, abstract: false, final false
   inline void InstallBindings();

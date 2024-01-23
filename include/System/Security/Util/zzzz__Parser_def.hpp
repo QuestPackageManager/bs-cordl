@@ -29,29 +29,29 @@ MARK_REF_PTR_T(::System::Security::Util::Parser);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2891))
 // CS Name: ::System.Security.Util::Parser*
 class CORDL_TYPE Parser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _doc, offset 0x10, size 0x8
-  __declspec(property(get = __get__doc, put = __set__doc))::System::Security::SecurityDocument* _doc;
+  __declspec(property(get = __cordl_internal_get__doc, put = __cordl_internal_set__doc))::System::Security::SecurityDocument* _doc;
 
   /// @brief Field _t, offset 0x18, size 0x8
-  __declspec(property(get = __get__t, put = __set__t))::System::Security::Util::Tokenizer* _t;
+  __declspec(property(get = __cordl_internal_get__t, put = __cordl_internal_set__t))::System::Security::Util::Tokenizer* _t;
 
-  constexpr ::System::Security::SecurityDocument*& __get__doc();
+  constexpr ::System::Security::SecurityDocument*& __cordl_internal_get__doc();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::SecurityDocument*> const& __get__doc() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::SecurityDocument*> const& __cordl_internal_get__doc() const;
 
-  constexpr void __set__doc(::System::Security::SecurityDocument* value);
+  constexpr void __cordl_internal_set__doc(::System::Security::SecurityDocument* value);
 
-  constexpr ::System::Security::Util::Tokenizer*& __get__t();
+  constexpr ::System::Security::Util::Tokenizer*& __cordl_internal_get__t();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::Tokenizer*> const& __get__t() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::Tokenizer*> const& __cordl_internal_get__t() const;
 
-  constexpr void __set__t(::System::Security::Util::Tokenizer* value);
+  constexpr void __cordl_internal_set__t(::System::Security::Util::Tokenizer* value);
 
   /// @brief Method GetTopElement, addr 0x24548ac, size 0x28, virtual false, abstract: false, final false
   inline ::System::Security::SecurityElement* GetTopElement();

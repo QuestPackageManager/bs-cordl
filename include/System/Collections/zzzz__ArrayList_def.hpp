@@ -63,26 +63,26 @@ MARK_REF_PTR_T(::System::Collections::__ArrayList__ArrayListEnumeratorSimple);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3789))
 // CS Name: ::ArrayList::ArrayListEnumeratorSimple*
 class CORDL_TYPE __ArrayList__ArrayListEnumeratorSimple : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _list, offset 0x10, size 0x8
-  __declspec(property(get = __get__list, put = __set__list))::System::Collections::ArrayList* _list;
+  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::ArrayList* _list;
 
   /// @brief Field _index, offset 0x18, size 0x4
-  __declspec(property(get = __get__index, put = __set__index)) int32_t _index;
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
   /// @brief Field _version, offset 0x1c, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _currentElement, offset 0x20, size 0x8
-  __declspec(property(get = __get__currentElement, put = __set__currentElement))::System::Object* _currentElement;
+  __declspec(property(get = __cordl_internal_get__currentElement, put = __cordl_internal_set__currentElement))::System::Object* _currentElement;
 
   /// @brief Field _isArrayList, offset 0x28, size 0x1
-  __declspec(property(get = __get__isArrayList, put = __set__isArrayList)) bool _isArrayList;
+  __declspec(property(get = __cordl_internal_get__isArrayList, put = __cordl_internal_set__isArrayList)) bool _isArrayList;
 
   /// @brief Field s_dummyObject, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_dummyObject, put = setStaticF_s_dummyObject))::System::Object* s_dummyObject;
@@ -101,35 +101,35 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::System::Collections::ArrayList*& __get__list();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get__list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__list() const;
 
-  constexpr void __set__list(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set__list(::System::Collections::ArrayList* value);
 
-  constexpr int32_t& __get__index();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr int32_t const& __get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __set__index(int32_t value);
+  constexpr void __cordl_internal_set__index(int32_t value);
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
-  constexpr ::System::Object*& __get__currentElement();
+  constexpr ::System::Object*& __cordl_internal_get__currentElement();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__currentElement() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__currentElement() const;
 
-  constexpr void __set__currentElement(::System::Object* value);
+  constexpr void __cordl_internal_set__currentElement(::System::Object* value);
 
-  constexpr bool& __get__isArrayList();
+  constexpr bool& __cordl_internal_get__isArrayList();
 
-  constexpr bool const& __get__isArrayList() const;
+  constexpr bool const& __cordl_internal_get__isArrayList() const;
 
-  constexpr void __set__isArrayList(bool value);
+  constexpr void __cordl_internal_set__isArrayList(bool value);
 
   static inline void setStaticF_s_dummyObject(::System::Object* value);
 
@@ -201,7 +201,7 @@ static_assert(offsetof(::System::Collections::__ArrayList__ArrayListEnumeratorSi
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3790))
 // CS Name: ::ArrayList::ArrayListDebugView*
 class CORDL_TYPE __ArrayList__ArrayListDebugView : public ::System::Object {
@@ -231,7 +231,7 @@ static_assert(::cordl_internals::size_check_v<::System::Collections::__ArrayList
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3791))
 // CS Name: ::System.Collections::ArrayList*
 class CORDL_TYPE ArrayList : public ::System::Object {
@@ -246,16 +246,16 @@ public:
   using IListWrapper = ::System::Collections::__ArrayList__IListWrapper;
 
   /// @brief Field _items, offset 0x10, size 0x8
-  __declspec(property(get = __get__items, put = __set__items))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _items;
+  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _items;
 
   /// @brief Field _size, offset 0x18, size 0x4
-  __declspec(property(get = __get__size, put = __set__size)) int32_t _size;
+  __declspec(property(get = __cordl_internal_get__size, put = __cordl_internal_set__size)) int32_t _size;
 
   /// @brief Field _version, offset 0x1c, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _syncRoot, offset 0x20, size 0x8
-  __declspec(property(get = __get__syncRoot, put = __set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
 
   __declspec(property(put = set_Capacity)) int32_t Capacity;
 
@@ -295,29 +295,29 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get__items();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__items();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get__items() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__items() const;
 
-  constexpr void __set__items(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set__items(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  constexpr int32_t& __get__size();
+  constexpr int32_t& __cordl_internal_get__size();
 
-  constexpr int32_t const& __get__size() const;
+  constexpr int32_t const& __cordl_internal_get__size() const;
 
-  constexpr void __set__size(int32_t value);
+  constexpr void __cordl_internal_set__size(int32_t value);
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
-  constexpr ::System::Object*& __get__syncRoot();
+  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__syncRoot() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
-  constexpr void __set__syncRoot(::System::Object* value);
+  constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
   static inline ::System::Collections::ArrayList* New_ctor();
 

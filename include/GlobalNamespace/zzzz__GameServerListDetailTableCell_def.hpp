@@ -23,38 +23,38 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServerListDetailTableCell);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13664))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5421))
 // CS Name: ::GameServerListDetailTableCell*
 class CORDL_TYPE GameServerListDetailTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
   /// @brief Field _joinServerButton, offset 0x58, size 0x8
-  __declspec(property(get = __get__joinServerButton, put = __set__joinServerButton))::UnityEngine::UI::Button* _joinServerButton;
+  __declspec(property(get = __cordl_internal_get__joinServerButton, put = __cordl_internal_set__joinServerButton))::UnityW<::UnityEngine::UI::Button> _joinServerButton;
 
   /// @brief Field joinServerButtonWasPressedEvent, offset 0x60, size 0x8
-  __declspec(property(get = __get_joinServerButtonWasPressedEvent, put = __set_joinServerButtonWasPressedEvent))::System::Action* joinServerButtonWasPressedEvent;
+  __declspec(property(get = __cordl_internal_get_joinServerButtonWasPressedEvent, put = __cordl_internal_set_joinServerButtonWasPressedEvent))::System::Action* joinServerButtonWasPressedEvent;
 
   /// @brief Field _buttonBinder, offset 0x68, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
-  constexpr ::UnityEngine::UI::Button*& __get__joinServerButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__joinServerButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__joinServerButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__joinServerButton() const;
 
-  constexpr void __set__joinServerButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__joinServerButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::System::Action*& __get_joinServerButtonWasPressedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_joinServerButtonWasPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_joinServerButtonWasPressedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_joinServerButtonWasPressedEvent() const;
 
-  constexpr void __set_joinServerButtonWasPressedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_joinServerButtonWasPressedEvent(::System::Action* value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
   /// @brief Method add_joinServerButtonWasPressedEvent, addr 0x2278d10, size 0x9c, virtual false, abstract: false, final false
   inline void add_joinServerButtonWasPressedEvent(::System::Action* value);
@@ -88,7 +88,7 @@ protected:
 
 public:
   /// @brief Field _joinServerButton, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____joinServerButton;
+  ::UnityW<::UnityEngine::UI::Button> ____joinServerButton;
 
   /// @brief Field joinServerButtonWasPressedEvent, offset: 0x60, size: 0x8, def value: None
   ::System::Action* ___joinServerButtonWasPressedEvent;

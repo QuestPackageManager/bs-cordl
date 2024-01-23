@@ -56,20 +56,20 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14344))
 // CS Name: ::MultipleSortedListsEnumerator`1::HeapItem<T>*
 class CORDL_TYPE __MultipleSortedListsEnumerator_1__HeapItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _dataList, offset 0x10, size 0x8
-  __declspec(property(get = __get__dataList, put = __set__dataList))::System::Collections::Generic::IReadOnlyList_1<T>* _dataList;
+  __declspec(property(get = __cordl_internal_get__dataList, put = __cordl_internal_set__dataList))::System::Collections::Generic::IReadOnlyList_1<T>* _dataList;
 
   /// @brief Field _idx, offset 0x18, size 0x4
-  __declspec(property(get = __get__idx, put = __set__idx)) int32_t _idx;
+  __declspec(property(get = __cordl_internal_get__idx, put = __cordl_internal_set__idx)) int32_t _idx;
 
   /// @brief Field _currentValue, offset 0x20, size 0x8
-  __declspec(property(get = __get__currentValue, put = __set__currentValue)) T _currentValue;
+  __declspec(property(get = __cordl_internal_get__currentValue, put = __cordl_internal_set__currentValue)) T _currentValue;
 
   __declspec(property(get = get_currentValue)) T currentValue;
 
@@ -80,23 +80,23 @@ public:
   constexpr ::System::IComparable_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>*
   i___System__IComparable_1___GlobalNamespace____MultipleSortedListsEnumerator_1__HeapItem_T___() noexcept;
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<T>*& __get__dataList();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<T>*& __cordl_internal_get__dataList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<T>*> const& __get__dataList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<T>*> const& __cordl_internal_get__dataList() const;
 
-  constexpr void __set__dataList(::System::Collections::Generic::IReadOnlyList_1<T>* value);
+  constexpr void __cordl_internal_set__dataList(::System::Collections::Generic::IReadOnlyList_1<T>* value);
 
-  constexpr int32_t& __get__idx();
+  constexpr int32_t& __cordl_internal_get__idx();
 
-  constexpr int32_t const& __get__idx() const;
+  constexpr int32_t const& __cordl_internal_get__idx() const;
 
-  constexpr void __set__idx(int32_t value);
+  constexpr void __cordl_internal_set__idx(int32_t value);
 
-  constexpr T& __get__currentValue();
+  constexpr T& __cordl_internal_get__currentValue();
 
-  constexpr T const& __get__currentValue() const;
+  constexpr T const& __cordl_internal_get__currentValue() const;
 
-  constexpr void __set__currentValue(T value);
+  constexpr void __cordl_internal_set__currentValue(T value);
 
   /// @brief Method get_currentValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_currentValue();
@@ -145,23 +145,23 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14345))
 // CS Name: ::MultipleSortedListsEnumerator`1::<GetEnumerator>d__4<T>*
 class CORDL_TYPE __MultipleSortedListsEnumerator_1___GetEnumerator_d__4 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current)) T __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) T __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MultipleSortedListsEnumerator_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::MultipleSortedListsEnumerator_1<T>* __4__this;
 
   /// @brief Field <heapItem>5__2, offset 0x28, size 0x8
-  __declspec(property(get = __get__heapItem_5__2, put = __set__heapItem_5__2))::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>* _heapItem_5__2;
+  __declspec(property(get = __cordl_internal_get__heapItem_5__2, put = __cordl_internal_set__heapItem_5__2))::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>* _heapItem_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_T__get_Current)) T System_Collections_Generic_IEnumerator_T__Current;
 
@@ -185,29 +185,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr T& __get___2__current();
+  constexpr T& __cordl_internal_get___2__current();
 
-  constexpr T const& __get___2__current() const;
+  constexpr T const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(T value);
+  constexpr void __cordl_internal_set___2__current(T value);
 
-  constexpr ::GlobalNamespace::MultipleSortedListsEnumerator_1<T>*& __get___4__this();
+  constexpr ::GlobalNamespace::MultipleSortedListsEnumerator_1<T>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultipleSortedListsEnumerator_1<T>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultipleSortedListsEnumerator_1<T>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MultipleSortedListsEnumerator_1<T>* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::MultipleSortedListsEnumerator_1<T>* value);
 
-  constexpr ::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*& __get__heapItem_5__2();
+  constexpr ::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*& __cordl_internal_get__heapItem_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*> const& __get__heapItem_5__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*> const& __cordl_internal_get__heapItem_5__2() const;
 
-  constexpr void __set__heapItem_5__2(::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>* value);
+  constexpr void __cordl_internal_set__heapItem_5__2(::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>* value);
 
   static inline ::GlobalNamespace::__MultipleSortedListsEnumerator_1___GetEnumerator_d__4<T>* New_ctor(int32_t __1__state);
 
@@ -265,7 +265,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14346))
 // CS Name: ::MultipleSortedListsEnumerator`1<T>*
 class CORDL_TYPE MultipleSortedListsEnumerator_1 : public ::System::Object {
@@ -276,7 +276,7 @@ public:
   using HeapItem = ::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>;
 
   /// @brief Field _heap, offset 0x10, size 0x8
-  __declspec(property(get = __get__heap, put = __set__heap))::GlobalNamespace::BinaryHeap_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>* _heap;
+  __declspec(property(get = __cordl_internal_get__heap, put = __cordl_internal_set__heap))::GlobalNamespace::BinaryHeap_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>* _heap;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -284,11 +284,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::GlobalNamespace::BinaryHeap_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>*& __get__heap();
+  constexpr ::GlobalNamespace::BinaryHeap_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>*& __cordl_internal_get__heap();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BinaryHeap_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>*> const& __get__heap() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BinaryHeap_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>*> const& __cordl_internal_get__heap() const;
 
-  constexpr void __set__heap(::GlobalNamespace::BinaryHeap_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>* value);
+  constexpr void __cordl_internal_set__heap(::GlobalNamespace::BinaryHeap_1<::GlobalNamespace::__MultipleSortedListsEnumerator_1__HeapItem<T>*>* value);
 
   static inline ::GlobalNamespace::MultipleSortedListsEnumerator_1<T>*
   New_ctor(::ArrayW<::System::Collections::Generic::IReadOnlyList_1<T>*, ::Array<::System::Collections::Generic::IReadOnlyList_1<T>*>*> dataList);

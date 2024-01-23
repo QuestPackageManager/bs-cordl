@@ -23,20 +23,20 @@ MARK_REF_PTR_T(::System::Diagnostics::TraceEventCache);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8938))
 // CS Name: ::System.Diagnostics::TraceEventCache*
 class CORDL_TYPE TraceEventCache : public ::System::Object {
 public:
   // Declarations
   /// @brief Field timeStamp, offset 0x10, size 0x8
-  __declspec(property(get = __get_timeStamp, put = __set_timeStamp)) int64_t timeStamp;
+  __declspec(property(get = __cordl_internal_get_timeStamp, put = __cordl_internal_set_timeStamp)) int64_t timeStamp;
 
   /// @brief Field dateTime, offset 0x18, size 0x8
-  __declspec(property(get = __get_dateTime, put = __set_dateTime))::System::DateTime dateTime;
+  __declspec(property(get = __cordl_internal_get_dateTime, put = __cordl_internal_set_dateTime))::System::DateTime dateTime;
 
   /// @brief Field stackTrace, offset 0x20, size 0x8
-  __declspec(property(get = __get_stackTrace, put = __set_stackTrace))::StringW stackTrace;
+  __declspec(property(get = __cordl_internal_get_stackTrace, put = __cordl_internal_set_stackTrace))::StringW stackTrace;
 
   /// @brief Field processId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_processId, put = setStaticF_processId)) int32_t processId;
@@ -56,23 +56,23 @@ public:
 
   __declspec(property(get = get_Timestamp)) int64_t Timestamp;
 
-  constexpr int64_t& __get_timeStamp();
+  constexpr int64_t& __cordl_internal_get_timeStamp();
 
-  constexpr int64_t const& __get_timeStamp() const;
+  constexpr int64_t const& __cordl_internal_get_timeStamp() const;
 
-  constexpr void __set_timeStamp(int64_t value);
+  constexpr void __cordl_internal_set_timeStamp(int64_t value);
 
-  constexpr ::System::DateTime& __get_dateTime();
+  constexpr ::System::DateTime& __cordl_internal_get_dateTime();
 
-  constexpr ::System::DateTime const& __get_dateTime() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_dateTime() const;
 
-  constexpr void __set_dateTime(::System::DateTime value);
+  constexpr void __cordl_internal_set_dateTime(::System::DateTime value);
 
-  constexpr ::StringW& __get_stackTrace();
+  constexpr ::StringW& __cordl_internal_get_stackTrace();
 
-  constexpr ::StringW const& __get_stackTrace() const;
+  constexpr ::StringW const& __cordl_internal_get_stackTrace() const;
 
-  constexpr void __set_stackTrace(::StringW value);
+  constexpr void __cordl_internal_set_stackTrace(::StringW value);
 
   static inline void setStaticF_processId(int32_t value);
 

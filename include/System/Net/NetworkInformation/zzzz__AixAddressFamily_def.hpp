@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixAddressFamily);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9263))
 // CS Name: ::System.Net.NetworkInformation::AixAddressFamily
 struct CORDL_TYPE AixAddressFamily {

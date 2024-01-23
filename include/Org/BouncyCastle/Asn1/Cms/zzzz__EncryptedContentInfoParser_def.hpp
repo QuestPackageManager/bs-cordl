@@ -30,42 +30,43 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(69))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::EncryptedContentInfoParser*
 class CORDL_TYPE EncryptedContentInfoParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _contentType, offset 0x10, size 0x8
-  __declspec(property(get = __get__contentType, put = __set__contentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* _contentType;
+  __declspec(property(get = __cordl_internal_get__contentType, put = __cordl_internal_set__contentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* _contentType;
 
   /// @brief Field _contentEncryptionAlgorithm, offset 0x18, size 0x8
-  __declspec(property(get = __get__contentEncryptionAlgorithm, put = __set__contentEncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _contentEncryptionAlgorithm;
+  __declspec(property(get = __cordl_internal_get__contentEncryptionAlgorithm,
+                      put = __cordl_internal_set__contentEncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _contentEncryptionAlgorithm;
 
   /// @brief Field _encryptedContent, offset 0x20, size 0x8
-  __declspec(property(get = __get__encryptedContent, put = __set__encryptedContent))::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* _encryptedContent;
+  __declspec(property(get = __cordl_internal_get__encryptedContent, put = __cordl_internal_set__encryptedContent))::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* _encryptedContent;
 
   __declspec(property(get = get_ContentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ContentType;
 
   __declspec(property(get = get_ContentEncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ContentEncryptionAlgorithm;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get__contentType();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get__contentType();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get__contentType() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get__contentType() const;
 
-  constexpr void __set__contentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set__contentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get__contentEncryptionAlgorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get__contentEncryptionAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get__contentEncryptionAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get__contentEncryptionAlgorithm() const;
 
-  constexpr void __set__contentEncryptionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set__contentEncryptionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser*& __get__encryptedContent();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser*& __cordl_internal_get__encryptedContent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser*> const& __get__encryptedContent() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser*> const& __cordl_internal_get__encryptedContent() const;
 
-  constexpr void __set__encryptedContent(::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* value);
+  constexpr void __cordl_internal_set__encryptedContent(::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfoParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 

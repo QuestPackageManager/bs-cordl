@@ -21,40 +21,40 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexFC);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8921))
 // CS Name: ::System.Text.RegularExpressions::RegexFC*
 class CORDL_TYPE RegexFC : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _cc, offset 0x10, size 0x8
-  __declspec(property(get = __get__cc, put = __set__cc))::System::Text::RegularExpressions::RegexCharClass* _cc;
+  __declspec(property(get = __cordl_internal_get__cc, put = __cordl_internal_set__cc))::System::Text::RegularExpressions::RegexCharClass* _cc;
 
   /// @brief Field _nullable, offset 0x18, size 0x1
-  __declspec(property(get = __get__nullable, put = __set__nullable)) bool _nullable;
+  __declspec(property(get = __cordl_internal_get__nullable, put = __cordl_internal_set__nullable)) bool _nullable;
 
   /// @brief Field <CaseInsensitive>k__BackingField, offset 0x19, size 0x1
-  __declspec(property(get = __get__CaseInsensitive_k__BackingField, put = __set__CaseInsensitive_k__BackingField)) bool _CaseInsensitive_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CaseInsensitive_k__BackingField, put = __cordl_internal_set__CaseInsensitive_k__BackingField)) bool _CaseInsensitive_k__BackingField;
 
   __declspec(property(get = get_CaseInsensitive, put = set_CaseInsensitive)) bool CaseInsensitive;
 
-  constexpr ::System::Text::RegularExpressions::RegexCharClass*& __get__cc();
+  constexpr ::System::Text::RegularExpressions::RegexCharClass*& __cordl_internal_get__cc();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexCharClass*> const& __get__cc() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexCharClass*> const& __cordl_internal_get__cc() const;
 
-  constexpr void __set__cc(::System::Text::RegularExpressions::RegexCharClass* value);
+  constexpr void __cordl_internal_set__cc(::System::Text::RegularExpressions::RegexCharClass* value);
 
-  constexpr bool& __get__nullable();
+  constexpr bool& __cordl_internal_get__nullable();
 
-  constexpr bool const& __get__nullable() const;
+  constexpr bool const& __cordl_internal_get__nullable() const;
 
-  constexpr void __set__nullable(bool value);
+  constexpr void __cordl_internal_set__nullable(bool value);
 
-  constexpr bool& __get__CaseInsensitive_k__BackingField();
+  constexpr bool& __cordl_internal_get__CaseInsensitive_k__BackingField();
 
-  constexpr bool const& __get__CaseInsensitive_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__CaseInsensitive_k__BackingField() const;
 
-  constexpr void __set__CaseInsensitive_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__CaseInsensitive_k__BackingField(bool value);
 
   static inline ::System::Text::RegularExpressions::RegexFC* New_ctor(bool nullable);
 

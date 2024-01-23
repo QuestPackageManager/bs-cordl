@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Threading::AutoResetEvent);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2708))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2708))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2660))
 // CS Name: ::System.Threading::AutoResetEvent*
 class CORDL_TYPE AutoResetEvent : public ::System::Threading::EventWaitHandle {

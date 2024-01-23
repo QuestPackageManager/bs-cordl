@@ -49,20 +49,20 @@ MARK_REF_PTR_T(::Mono::Security::X509::__X509Crl__X509CrlEntry);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13749))
 // CS Name: ::X509Crl::X509CrlEntry*
 class CORDL_TYPE __X509Crl__X509CrlEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field sn, offset 0x10, size 0x8
-  __declspec(property(get = __get_sn, put = __set_sn))::ArrayW<uint8_t, ::Array<uint8_t>*> sn;
+  __declspec(property(get = __cordl_internal_get_sn, put = __cordl_internal_set_sn))::ArrayW<uint8_t, ::Array<uint8_t>*> sn;
 
   /// @brief Field revocationDate, offset 0x18, size 0x8
-  __declspec(property(get = __get_revocationDate, put = __set_revocationDate))::System::DateTime revocationDate;
+  __declspec(property(get = __cordl_internal_get_revocationDate, put = __cordl_internal_set_revocationDate))::System::DateTime revocationDate;
 
   /// @brief Field extensions, offset 0x20, size 0x8
-  __declspec(property(get = __get_extensions, put = __set_extensions))::Mono::Security::X509::X509ExtensionCollection* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::Mono::Security::X509::X509ExtensionCollection* extensions;
 
   __declspec(property(get = get_SerialNumber))::ArrayW<uint8_t, ::Array<uint8_t>*> SerialNumber;
 
@@ -70,23 +70,23 @@ public:
 
   __declspec(property(get = get_Extensions))::Mono::Security::X509::X509ExtensionCollection* Extensions;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_sn();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_sn();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_sn() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_sn() const;
 
-  constexpr void __set_sn(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_sn(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::DateTime& __get_revocationDate();
+  constexpr ::System::DateTime& __cordl_internal_get_revocationDate();
 
-  constexpr ::System::DateTime const& __get_revocationDate() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_revocationDate() const;
 
-  constexpr void __set_revocationDate(::System::DateTime value);
+  constexpr void __cordl_internal_set_revocationDate(::System::DateTime value);
 
-  constexpr ::Mono::Security::X509::X509ExtensionCollection*& __get_extensions();
+  constexpr ::Mono::Security::X509::X509ExtensionCollection*& __cordl_internal_get_extensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509ExtensionCollection*> const& __get_extensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509ExtensionCollection*> const& __cordl_internal_get_extensions() const;
 
-  constexpr void __set_extensions(::Mono::Security::X509::X509ExtensionCollection* value);
+  constexpr void __cordl_internal_set_extensions(::Mono::Security::X509::X509ExtensionCollection* value);
 
   static inline ::Mono::Security::X509::__X509Crl__X509CrlEntry* New_ctor(::Mono::Security::ASN1* entry);
 
@@ -141,7 +141,7 @@ static_assert(offsetof(::Mono::Security::X509::__X509Crl__X509CrlEntry, ___exten
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13750))
 // CS Name: ::Mono.Security.X509::X509Crl*
 class CORDL_TYPE X509Crl : public ::System::Object {
@@ -150,34 +150,34 @@ public:
   using X509CrlEntry = ::Mono::Security::X509::__X509Crl__X509CrlEntry;
 
   /// @brief Field issuer, offset 0x10, size 0x8
-  __declspec(property(get = __get_issuer, put = __set_issuer))::StringW issuer;
+  __declspec(property(get = __cordl_internal_get_issuer, put = __cordl_internal_set_issuer))::StringW issuer;
 
   /// @brief Field version, offset 0x18, size 0x1
-  __declspec(property(get = __get_version, put = __set_version)) uint8_t version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) uint8_t version;
 
   /// @brief Field thisUpdate, offset 0x20, size 0x8
-  __declspec(property(get = __get_thisUpdate, put = __set_thisUpdate))::System::DateTime thisUpdate;
+  __declspec(property(get = __cordl_internal_get_thisUpdate, put = __cordl_internal_set_thisUpdate))::System::DateTime thisUpdate;
 
   /// @brief Field nextUpdate, offset 0x28, size 0x8
-  __declspec(property(get = __get_nextUpdate, put = __set_nextUpdate))::System::DateTime nextUpdate;
+  __declspec(property(get = __cordl_internal_get_nextUpdate, put = __cordl_internal_set_nextUpdate))::System::DateTime nextUpdate;
 
   /// @brief Field entries, offset 0x30, size 0x8
-  __declspec(property(get = __get_entries, put = __set_entries))::System::Collections::ArrayList* entries;
+  __declspec(property(get = __cordl_internal_get_entries, put = __cordl_internal_set_entries))::System::Collections::ArrayList* entries;
 
   /// @brief Field signatureOID, offset 0x38, size 0x8
-  __declspec(property(get = __get_signatureOID, put = __set_signatureOID))::StringW signatureOID;
+  __declspec(property(get = __cordl_internal_get_signatureOID, put = __cordl_internal_set_signatureOID))::StringW signatureOID;
 
   /// @brief Field signature, offset 0x40, size 0x8
-  __declspec(property(get = __get_signature, put = __set_signature))::ArrayW<uint8_t, ::Array<uint8_t>*> signature;
+  __declspec(property(get = __cordl_internal_get_signature, put = __cordl_internal_set_signature))::ArrayW<uint8_t, ::Array<uint8_t>*> signature;
 
   /// @brief Field extensions, offset 0x48, size 0x8
-  __declspec(property(get = __get_extensions, put = __set_extensions))::Mono::Security::X509::X509ExtensionCollection* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::Mono::Security::X509::X509ExtensionCollection* extensions;
 
   /// @brief Field encoded, offset 0x50, size 0x8
-  __declspec(property(get = __get_encoded, put = __set_encoded))::ArrayW<uint8_t, ::Array<uint8_t>*> encoded;
+  __declspec(property(get = __cordl_internal_get_encoded, put = __cordl_internal_set_encoded))::ArrayW<uint8_t, ::Array<uint8_t>*> encoded;
 
   /// @brief Field hash_value, offset 0x58, size 0x8
-  __declspec(property(get = __get_hash_value, put = __set_hash_value))::ArrayW<uint8_t, ::Array<uint8_t>*> hash_value;
+  __declspec(property(get = __cordl_internal_get_hash_value, put = __cordl_internal_set_hash_value))::ArrayW<uint8_t, ::Array<uint8_t>*> hash_value;
 
   __declspec(property(get = get_Extensions))::Mono::Security::X509::X509ExtensionCollection* Extensions;
 
@@ -187,65 +187,65 @@ public:
 
   __declspec(property(get = get_NextUpdate))::System::DateTime NextUpdate;
 
-  constexpr ::StringW& __get_issuer();
+  constexpr ::StringW& __cordl_internal_get_issuer();
 
-  constexpr ::StringW const& __get_issuer() const;
+  constexpr ::StringW const& __cordl_internal_get_issuer() const;
 
-  constexpr void __set_issuer(::StringW value);
+  constexpr void __cordl_internal_set_issuer(::StringW value);
 
-  constexpr uint8_t& __get_version();
+  constexpr uint8_t& __cordl_internal_get_version();
 
-  constexpr uint8_t const& __get_version() const;
+  constexpr uint8_t const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(uint8_t value);
+  constexpr void __cordl_internal_set_version(uint8_t value);
 
-  constexpr ::System::DateTime& __get_thisUpdate();
+  constexpr ::System::DateTime& __cordl_internal_get_thisUpdate();
 
-  constexpr ::System::DateTime const& __get_thisUpdate() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_thisUpdate() const;
 
-  constexpr void __set_thisUpdate(::System::DateTime value);
+  constexpr void __cordl_internal_set_thisUpdate(::System::DateTime value);
 
-  constexpr ::System::DateTime& __get_nextUpdate();
+  constexpr ::System::DateTime& __cordl_internal_get_nextUpdate();
 
-  constexpr ::System::DateTime const& __get_nextUpdate() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_nextUpdate() const;
 
-  constexpr void __set_nextUpdate(::System::DateTime value);
+  constexpr void __cordl_internal_set_nextUpdate(::System::DateTime value);
 
-  constexpr ::System::Collections::ArrayList*& __get_entries();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_entries();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_entries() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_entries() const;
 
-  constexpr void __set_entries(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_entries(::System::Collections::ArrayList* value);
 
-  constexpr ::StringW& __get_signatureOID();
+  constexpr ::StringW& __cordl_internal_get_signatureOID();
 
-  constexpr ::StringW const& __get_signatureOID() const;
+  constexpr ::StringW const& __cordl_internal_get_signatureOID() const;
 
-  constexpr void __set_signatureOID(::StringW value);
+  constexpr void __cordl_internal_set_signatureOID(::StringW value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_signature();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_signature();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_signature() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_signature() const;
 
-  constexpr void __set_signature(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_signature(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Mono::Security::X509::X509ExtensionCollection*& __get_extensions();
+  constexpr ::Mono::Security::X509::X509ExtensionCollection*& __cordl_internal_get_extensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509ExtensionCollection*> const& __get_extensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509ExtensionCollection*> const& __cordl_internal_get_extensions() const;
 
-  constexpr void __set_extensions(::Mono::Security::X509::X509ExtensionCollection* value);
+  constexpr void __cordl_internal_set_extensions(::Mono::Security::X509::X509ExtensionCollection* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_encoded();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_encoded();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_encoded() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_encoded() const;
 
-  constexpr void __set_encoded(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_encoded(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_hash_value();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_hash_value();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_hash_value() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_hash_value() const;
 
-  constexpr void __set_hash_value(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_hash_value(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Mono::Security::X509::X509Crl* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> crl);
 

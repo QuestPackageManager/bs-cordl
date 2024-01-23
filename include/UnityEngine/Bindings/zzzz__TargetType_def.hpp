@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::Bindings::TargetType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16018))
 // CS Name: ::UnityEngine.Bindings::TargetType
 struct CORDL_TYPE TargetType {

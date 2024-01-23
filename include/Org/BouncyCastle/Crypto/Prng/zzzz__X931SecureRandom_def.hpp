@@ -22,38 +22,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::X931SecureRandom);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1111))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1111))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1121))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::X931SecureRandom*
 class CORDL_TYPE X931SecureRandom : public ::Org::BouncyCastle::Security::SecureRandom {
 public:
   // Declarations
   /// @brief Field mPredictionResistant, offset 0x28, size 0x1
-  __declspec(property(get = __get_mPredictionResistant, put = __set_mPredictionResistant)) bool mPredictionResistant;
+  __declspec(property(get = __cordl_internal_get_mPredictionResistant, put = __cordl_internal_set_mPredictionResistant)) bool mPredictionResistant;
 
   /// @brief Field mRandomSource, offset 0x30, size 0x8
-  __declspec(property(get = __get_mRandomSource, put = __set_mRandomSource))::Org::BouncyCastle::Security::SecureRandom* mRandomSource;
+  __declspec(property(get = __cordl_internal_get_mRandomSource, put = __cordl_internal_set_mRandomSource))::Org::BouncyCastle::Security::SecureRandom* mRandomSource;
 
   /// @brief Field mDrbg, offset 0x38, size 0x8
-  __declspec(property(get = __get_mDrbg, put = __set_mDrbg))::Org::BouncyCastle::Crypto::Prng::X931Rng* mDrbg;
+  __declspec(property(get = __cordl_internal_get_mDrbg, put = __cordl_internal_set_mDrbg))::Org::BouncyCastle::Crypto::Prng::X931Rng* mDrbg;
 
-  constexpr bool& __get_mPredictionResistant();
+  constexpr bool& __cordl_internal_get_mPredictionResistant();
 
-  constexpr bool const& __get_mPredictionResistant() const;
+  constexpr bool const& __cordl_internal_get_mPredictionResistant() const;
 
-  constexpr void __set_mPredictionResistant(bool value);
+  constexpr void __cordl_internal_set_mPredictionResistant(bool value);
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_mRandomSource();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_mRandomSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_mRandomSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_mRandomSource() const;
 
-  constexpr void __set_mRandomSource(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_mRandomSource(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Prng::X931Rng*& __get_mDrbg();
+  constexpr ::Org::BouncyCastle::Crypto::Prng::X931Rng*& __cordl_internal_get_mDrbg();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Prng::X931Rng*> const& __get_mDrbg() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Prng::X931Rng*> const& __cordl_internal_get_mDrbg() const;
 
-  constexpr void __set_mDrbg(::Org::BouncyCastle::Crypto::Prng::X931Rng* value);
+  constexpr void __cordl_internal_set_mDrbg(::Org::BouncyCastle::Crypto::Prng::X931Rng* value);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandom* New_ctor(::Org::BouncyCastle::Security::SecureRandom* randomSource, ::Org::BouncyCastle::Crypto::Prng::X931Rng* drbg,
                                                                               bool predictionResistant);

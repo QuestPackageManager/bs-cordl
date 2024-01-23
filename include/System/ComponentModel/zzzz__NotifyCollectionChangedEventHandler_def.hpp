@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::System::ComponentModel::NotifyCollectionChangedEventHandler);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11791))
 // CS Name: ::System.ComponentModel::NotifyCollectionChangedEventHandler*
 class CORDL_TYPE NotifyCollectionChangedEventHandler : public ::System::MulticastDelegate {

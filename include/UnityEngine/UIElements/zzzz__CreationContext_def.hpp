@@ -37,7 +37,7 @@ MARK_VAL_T(::UnityEngine::UIElements::CreationContext);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7012))
 // CS Name: ::UnityEngine.UIElements::CreationContext
 struct CORDL_TYPE CreationContext {
@@ -48,7 +48,7 @@ public:
 
   __declspec(property(get = get_target, put = set_target))::UnityEngine::UIElements::VisualElement* target;
 
-  __declspec(property(get = get_visualTreeAsset, put = set_visualTreeAsset))::UnityEngine::UIElements::VisualTreeAsset* visualTreeAsset;
+  __declspec(property(get = get_visualTreeAsset, put = set_visualTreeAsset))::UnityW<::UnityEngine::UIElements::VisualTreeAsset> visualTreeAsset;
 
   __declspec(property(get = get_slotInsertionPoints,
                       put = set_slotInsertionPoints))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* slotInsertionPoints;
@@ -73,7 +73,7 @@ public:
   inline void set_target(::UnityEngine::UIElements::VisualElement* value);
 
   /// @brief Method get_visualTreeAsset, addr 0x2e147f0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualTreeAsset* get_visualTreeAsset();
+  inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> get_visualTreeAsset();
 
   /// @brief Method set_visualTreeAsset, addr 0x2e147f8, size 0x8, virtual false, abstract: false, final false
   inline void set_visualTreeAsset(::UnityEngine::UIElements::VisualTreeAsset* value);
@@ -105,10 +105,10 @@ public:
   inline int32_t GetHashCode();
 
   // Ctor Parameters [CppParam { name: "_target_k__BackingField", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name:
-  // "_visualTreeAsset_k__BackingField", ty: "::UnityEngine::UIElements::VisualTreeAsset*", modifiers: "", def_value: None }, CppParam { name: "_slotInsertionPoints_k__BackingField", ty:
+  // "_visualTreeAsset_k__BackingField", ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: None }, CppParam { name: "_slotInsertionPoints_k__BackingField", ty:
   // "::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: None }, CppParam { name: "_attributeOverrides_k__BackingField", ty:
   // "::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TemplateAsset__AttributeOverride>*", modifiers: "", def_value: None }]
-  constexpr CreationContext(::UnityEngine::UIElements::VisualElement* _target_k__BackingField, ::UnityEngine::UIElements::VisualTreeAsset* _visualTreeAsset_k__BackingField,
+  constexpr CreationContext(::UnityEngine::UIElements::VisualElement* _target_k__BackingField, ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> _visualTreeAsset_k__BackingField,
                             ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* _slotInsertionPoints_k__BackingField,
                             ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TemplateAsset__AttributeOverride>* _attributeOverrides_k__BackingField) noexcept;
 
@@ -120,7 +120,7 @@ public:
   ::UnityEngine::UIElements::VisualElement* _target_k__BackingField;
 
   /// @brief Field <visualTreeAsset>k__BackingField, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualTreeAsset* _visualTreeAsset_k__BackingField;
+  ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> _visualTreeAsset_k__BackingField;
 
   /// @brief Field <slotInsertionPoints>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* _slotInsertionPoints_k__BackingField;

@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JRaw);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12007))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12007))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11974))
 // CS Name: ::Newtonsoft.Json.Linq::JRaw*
 class CORDL_TYPE JRaw : public ::Newtonsoft::Json::Linq::JValue {

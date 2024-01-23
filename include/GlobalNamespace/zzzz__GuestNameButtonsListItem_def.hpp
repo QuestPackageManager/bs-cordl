@@ -24,42 +24,42 @@ MARK_REF_PTR_T(::GlobalNamespace::GuestNameButtonsListItem);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5531))
 // CS Name: ::GuestNameButtonsListItem*
 class CORDL_TYPE GuestNameButtonsListItem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _nameText, offset 0x18, size 0x8
-  __declspec(property(get = __get__nameText, put = __set__nameText))::TMPro::TextMeshProUGUI* _nameText;
+  __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText))::UnityW<::TMPro::TextMeshProUGUI> _nameText;
 
   /// @brief Field _button, offset 0x20, size 0x8
-  __declspec(property(get = __get__button, put = __set__button))::UnityEngine::UI::Button* _button;
+  __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button))::UnityW<::UnityEngine::UI::Button> _button;
 
   /// @brief Field _buttonPressed, offset 0x28, size 0x8
-  __declspec(property(get = __get__buttonPressed, put = __set__buttonPressed))::System::Action* _buttonPressed;
+  __declspec(property(get = __cordl_internal_get__buttonPressed, put = __cordl_internal_set__buttonPressed))::System::Action* _buttonPressed;
 
   __declspec(property(put = set_nameText))::StringW nameText;
 
   __declspec(property(put = set_buttonPressed))::System::Action* buttonPressed;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__nameText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__nameText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__nameText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__nameText() const;
 
-  constexpr void __set__nameText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__button();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__button() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
 
-  constexpr void __set__button(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::System::Action*& __get__buttonPressed();
+  constexpr ::System::Action*& __cordl_internal_get__buttonPressed();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get__buttonPressed() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get__buttonPressed() const;
 
-  constexpr void __set__buttonPressed(::System::Action* value);
+  constexpr void __cordl_internal_set__buttonPressed(::System::Action* value);
 
   /// @brief Method set_nameText, addr 0x229e540, size 0x24, virtual false, abstract: false, final false
   inline void set_nameText(::StringW value);
@@ -93,10 +93,10 @@ protected:
 
 public:
   /// @brief Field _nameText, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____nameText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
   /// @brief Field _button, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____button;
+  ::UnityW<::UnityEngine::UI::Button> ____button;
 
   /// @brief Field _buttonPressed, offset: 0x28, size: 0x8, def value: None
   ::System::Action* ____buttonPressed;

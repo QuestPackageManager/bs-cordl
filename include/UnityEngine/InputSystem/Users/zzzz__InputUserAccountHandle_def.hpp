@@ -22,7 +22,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Users::InputUserAccountHandle);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6365))
 // CS Name: ::UnityEngine.InputSystem.Users::InputUserAccountHandle
 struct CORDL_TYPE InputUserAccountHandle {

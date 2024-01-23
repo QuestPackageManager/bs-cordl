@@ -57,7 +57,7 @@ MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::__EnumUtils____c__2_1);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11884))
 // CS Name: ::EnumUtils::<>c*
 class CORDL_TYPE __EnumUtils____c : public ::System::Object {
@@ -131,7 +131,7 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11885))
 // CS Name: ::EnumUtils::<>c__2`1<T>*
 class CORDL_TYPE __EnumUtils____c__2_1 : public ::System::Object {
@@ -181,7 +181,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11886))
 // CS Name: ::Newtonsoft.Json.Utilities::EnumUtils*
 class CORDL_TYPE EnumUtils : public ::System::Object {

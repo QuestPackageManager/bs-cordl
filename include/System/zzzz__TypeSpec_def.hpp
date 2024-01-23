@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::System::TypeSpec);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2636))
 // CS Name: ::TypeSpec::DisplayNameFormat
 struct CORDL_TYPE __TypeSpec__DisplayNameFormat {
@@ -109,7 +109,7 @@ static_assert(offsetof(::System::__TypeSpec__DisplayNameFormat, value__) == 0x0,
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2637))
 // CS Name: ::System::TypeSpec*
 class CORDL_TYPE TypeSpec : public ::System::Object {
@@ -118,71 +118,71 @@ public:
   using DisplayNameFormat = ::System::__TypeSpec__DisplayNameFormat;
 
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::System::TypeIdentifier* name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::System::TypeIdentifier* name;
 
   /// @brief Field assembly_name, offset 0x18, size 0x8
-  __declspec(property(get = __get_assembly_name, put = __set_assembly_name))::StringW assembly_name;
+  __declspec(property(get = __cordl_internal_get_assembly_name, put = __cordl_internal_set_assembly_name))::StringW assembly_name;
 
   /// @brief Field nested, offset 0x20, size 0x8
-  __declspec(property(get = __get_nested, put = __set_nested))::System::Collections::Generic::List_1<::System::TypeIdentifier*>* nested;
+  __declspec(property(get = __cordl_internal_get_nested, put = __cordl_internal_set_nested))::System::Collections::Generic::List_1<::System::TypeIdentifier*>* nested;
 
   /// @brief Field generic_params, offset 0x28, size 0x8
-  __declspec(property(get = __get_generic_params, put = __set_generic_params))::System::Collections::Generic::List_1<::System::TypeSpec*>* generic_params;
+  __declspec(property(get = __cordl_internal_get_generic_params, put = __cordl_internal_set_generic_params))::System::Collections::Generic::List_1<::System::TypeSpec*>* generic_params;
 
   /// @brief Field modifier_spec, offset 0x30, size 0x8
-  __declspec(property(get = __get_modifier_spec, put = __set_modifier_spec))::System::Collections::Generic::List_1<::System::ModifierSpec*>* modifier_spec;
+  __declspec(property(get = __cordl_internal_get_modifier_spec, put = __cordl_internal_set_modifier_spec))::System::Collections::Generic::List_1<::System::ModifierSpec*>* modifier_spec;
 
   /// @brief Field is_byref, offset 0x38, size 0x1
-  __declspec(property(get = __get_is_byref, put = __set_is_byref)) bool is_byref;
+  __declspec(property(get = __cordl_internal_get_is_byref, put = __cordl_internal_set_is_byref)) bool is_byref;
 
   /// @brief Field display_fullname, offset 0x40, size 0x8
-  __declspec(property(get = __get_display_fullname, put = __set_display_fullname))::StringW display_fullname;
+  __declspec(property(get = __cordl_internal_get_display_fullname, put = __cordl_internal_set_display_fullname))::StringW display_fullname;
 
   __declspec(property(get = get_HasModifiers)) bool HasModifiers;
 
   __declspec(property(get = get_DisplayFullName))::StringW DisplayFullName;
 
-  constexpr ::System::TypeIdentifier*& __get_name();
+  constexpr ::System::TypeIdentifier*& __cordl_internal_get_name();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::TypeIdentifier*> const& __get_name() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::TypeIdentifier*> const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::System::TypeIdentifier* value);
+  constexpr void __cordl_internal_set_name(::System::TypeIdentifier* value);
 
-  constexpr ::StringW& __get_assembly_name();
+  constexpr ::StringW& __cordl_internal_get_assembly_name();
 
-  constexpr ::StringW const& __get_assembly_name() const;
+  constexpr ::StringW const& __cordl_internal_get_assembly_name() const;
 
-  constexpr void __set_assembly_name(::StringW value);
+  constexpr void __cordl_internal_set_assembly_name(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::TypeIdentifier*>*& __get_nested();
+  constexpr ::System::Collections::Generic::List_1<::System::TypeIdentifier*>*& __cordl_internal_get_nested();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::TypeIdentifier*>*> const& __get_nested() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::TypeIdentifier*>*> const& __cordl_internal_get_nested() const;
 
-  constexpr void __set_nested(::System::Collections::Generic::List_1<::System::TypeIdentifier*>* value);
+  constexpr void __cordl_internal_set_nested(::System::Collections::Generic::List_1<::System::TypeIdentifier*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::TypeSpec*>*& __get_generic_params();
+  constexpr ::System::Collections::Generic::List_1<::System::TypeSpec*>*& __cordl_internal_get_generic_params();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::TypeSpec*>*> const& __get_generic_params() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::TypeSpec*>*> const& __cordl_internal_get_generic_params() const;
 
-  constexpr void __set_generic_params(::System::Collections::Generic::List_1<::System::TypeSpec*>* value);
+  constexpr void __cordl_internal_set_generic_params(::System::Collections::Generic::List_1<::System::TypeSpec*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::ModifierSpec*>*& __get_modifier_spec();
+  constexpr ::System::Collections::Generic::List_1<::System::ModifierSpec*>*& __cordl_internal_get_modifier_spec();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::ModifierSpec*>*> const& __get_modifier_spec() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::ModifierSpec*>*> const& __cordl_internal_get_modifier_spec() const;
 
-  constexpr void __set_modifier_spec(::System::Collections::Generic::List_1<::System::ModifierSpec*>* value);
+  constexpr void __cordl_internal_set_modifier_spec(::System::Collections::Generic::List_1<::System::ModifierSpec*>* value);
 
-  constexpr bool& __get_is_byref();
+  constexpr bool& __cordl_internal_get_is_byref();
 
-  constexpr bool const& __get_is_byref() const;
+  constexpr bool const& __cordl_internal_get_is_byref() const;
 
-  constexpr void __set_is_byref(bool value);
+  constexpr void __cordl_internal_set_is_byref(bool value);
 
-  constexpr ::StringW& __get_display_fullname();
+  constexpr ::StringW& __cordl_internal_get_display_fullname();
 
-  constexpr ::StringW const& __get_display_fullname() const;
+  constexpr ::StringW const& __cordl_internal_get_display_fullname() const;
 
-  constexpr void __set_display_fullname(::StringW value);
+  constexpr void __cordl_internal_set_display_fullname(::StringW value);
 
   /// @brief Method get_HasModifiers, addr 0x2606b9c, size 0x10, virtual false, abstract: false, final false
   inline bool get_HasModifiers();

@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x2b8c09c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Plane*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Plane*>::get(), 6));
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24c;
   constexpr static std::size_t addrs = 0x2b8c148;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Plane*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Plane*>::get(), 5));
@@ -43,33 +43,33 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x2b8c394;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Plane*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::ProBuilder::Shapes::Plane::__get_m_HeightSegments() {
+constexpr int32_t& UnityEngine::ProBuilder::Shapes::Plane::__cordl_internal_get_m_HeightSegments() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HeightSegments;
 }
-constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Plane::__get_m_HeightSegments() const {
+constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Plane::__cordl_internal_get_m_HeightSegments() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HeightSegments;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Plane::__set_m_HeightSegments(int32_t value) {
+constexpr void UnityEngine::ProBuilder::Shapes::Plane::__cordl_internal_set_m_HeightSegments(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HeightSegments = value;
 }
-constexpr int32_t& UnityEngine::ProBuilder::Shapes::Plane::__get_m_WidthSegments() {
+constexpr int32_t& UnityEngine::ProBuilder::Shapes::Plane::__cordl_internal_get_m_WidthSegments() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WidthSegments;
 }
-constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Plane::__get_m_WidthSegments() const {
+constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Plane::__cordl_internal_get_m_WidthSegments() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_WidthSegments;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Plane::__set_m_WidthSegments(int32_t value) {
+constexpr void UnityEngine::ProBuilder::Shapes::Plane::__cordl_internal_set_m_WidthSegments(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_WidthSegments = value;
 }
@@ -84,11 +84,11 @@ inline ::UnityEngine::Bounds UnityEngine::ProBuilder::Shapes::Plane::RebuildMesh
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds, false>(this, ___internal_method, mesh, size, rotation);
 }
 inline ::UnityEngine::ProBuilder::Shapes::Plane* UnityEngine::ProBuilder::Shapes::Plane::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::ProBuilder::Shapes::Plane*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::Shapes::Plane*>());
 }
 inline void UnityEngine::ProBuilder::Shapes::Plane::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Plane*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

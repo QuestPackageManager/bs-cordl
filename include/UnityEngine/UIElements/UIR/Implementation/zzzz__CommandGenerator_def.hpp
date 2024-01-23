@@ -66,7 +66,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::Implementation::CommandGenerator)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR::Implementation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7452))
 // CS Name: ::UnityEngine.UIElements.UIR.Implementation::CommandGenerator*
 class CORDL_TYPE CommandGenerator : public ::System::Object {
@@ -82,16 +82,16 @@ public:
   static __declspec(property(get = getStaticF_k_ComputeTransformMatrixMarker, put = setStaticF_k_ComputeTransformMatrixMarker))::Unity::Profiling::ProfilerMarker k_ComputeTransformMatrixMarker;
 
   /// @brief Field s_blitMaterial_LinearToGamma, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_blitMaterial_LinearToGamma, put = setStaticF_s_blitMaterial_LinearToGamma))::UnityEngine::Material* s_blitMaterial_LinearToGamma;
+  static __declspec(property(get = getStaticF_s_blitMaterial_LinearToGamma, put = setStaticF_s_blitMaterial_LinearToGamma))::UnityW<::UnityEngine::Material> s_blitMaterial_LinearToGamma;
 
   /// @brief Field s_blitMaterial_GammaToLinear, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_blitMaterial_GammaToLinear, put = setStaticF_s_blitMaterial_GammaToLinear))::UnityEngine::Material* s_blitMaterial_GammaToLinear;
+  static __declspec(property(get = getStaticF_s_blitMaterial_GammaToLinear, put = setStaticF_s_blitMaterial_GammaToLinear))::UnityW<::UnityEngine::Material> s_blitMaterial_GammaToLinear;
 
   /// @brief Field s_blitMaterial_NoChange, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_blitMaterial_NoChange, put = setStaticF_s_blitMaterial_NoChange))::UnityEngine::Material* s_blitMaterial_NoChange;
+  static __declspec(property(get = getStaticF_s_blitMaterial_NoChange, put = setStaticF_s_blitMaterial_NoChange))::UnityW<::UnityEngine::Material> s_blitMaterial_NoChange;
 
   /// @brief Field s_blitShader, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_blitShader, put = setStaticF_s_blitShader))::UnityEngine::Shader* s_blitShader;
+  static __declspec(property(get = getStaticF_s_blitShader, put = setStaticF_s_blitShader))::UnityW<::UnityEngine::Shader> s_blitShader;
 
   static inline void setStaticF_k_ConvertEntriesToCommandsMarker(::Unity::Profiling::ProfilerMarker value);
 
@@ -105,21 +105,21 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_ComputeTransformMatrixMarker();
 
-  static inline void setStaticF_s_blitMaterial_LinearToGamma(::UnityEngine::Material* value);
+  static inline void setStaticF_s_blitMaterial_LinearToGamma(::UnityW<::UnityEngine::Material> value);
 
-  static inline ::UnityEngine::Material* getStaticF_s_blitMaterial_LinearToGamma();
+  static inline ::UnityW<::UnityEngine::Material> getStaticF_s_blitMaterial_LinearToGamma();
 
-  static inline void setStaticF_s_blitMaterial_GammaToLinear(::UnityEngine::Material* value);
+  static inline void setStaticF_s_blitMaterial_GammaToLinear(::UnityW<::UnityEngine::Material> value);
 
-  static inline ::UnityEngine::Material* getStaticF_s_blitMaterial_GammaToLinear();
+  static inline ::UnityW<::UnityEngine::Material> getStaticF_s_blitMaterial_GammaToLinear();
 
-  static inline void setStaticF_s_blitMaterial_NoChange(::UnityEngine::Material* value);
+  static inline void setStaticF_s_blitMaterial_NoChange(::UnityW<::UnityEngine::Material> value);
 
-  static inline ::UnityEngine::Material* getStaticF_s_blitMaterial_NoChange();
+  static inline ::UnityW<::UnityEngine::Material> getStaticF_s_blitMaterial_NoChange();
 
-  static inline void setStaticF_s_blitShader(::UnityEngine::Shader* value);
+  static inline void setStaticF_s_blitShader(::UnityW<::UnityEngine::Shader> value);
 
-  static inline ::UnityEngine::Shader* getStaticF_s_blitShader();
+  static inline ::UnityW<::UnityEngine::Shader> getStaticF_s_blitShader();
 
   /// @brief Method GetVerticesTransformInfo, addr 0x2ddf914, size 0x18c, virtual false, abstract: false, final false
   static inline void GetVerticesTransformInfo(::UnityEngine::UIElements::VisualElement* ve, ByRef<::UnityEngine::Matrix4x4> transform);
@@ -135,10 +135,10 @@ public:
   PaintElement(::UnityEngine::UIElements::UIR::RenderChain* renderChain, ::UnityEngine::UIElements::VisualElement* ve, ByRef<::UnityEngine::UIElements::UIR::ChainBuilderStats> stats);
 
   /// @brief Method CreateBlitShader, addr 0x2de25b0, size 0x208, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* CreateBlitShader(float_t colorConversion);
+  static inline ::UnityW<::UnityEngine::Material> CreateBlitShader(float_t colorConversion);
 
   /// @brief Method GetBlitMaterial, addr 0x2de2228, size 0x2a0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetBlitMaterial(::UnityEngine::UIElements::__VisualElement__RenderTargetMode mode);
+  static inline ::UnityW<::UnityEngine::Material> GetBlitMaterial(::UnityEngine::UIElements::__VisualElement__RenderTargetMode mode);
 
   /// @brief Method ClosePaintElement, addr 0x2de27b8, size 0x190, virtual false, abstract: false, final false
   static inline void ClosePaintElement(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::Implementation::__UIRStylePainter__ClosingInfo closingInfo,

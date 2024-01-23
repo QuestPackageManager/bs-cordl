@@ -23,40 +23,40 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteDebrisRigidbodyPhysics);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4774))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4774))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4775))
 // CS Name: ::NoteDebrisRigidbodyPhysics*
 class CORDL_TYPE NoteDebrisRigidbodyPhysics : public ::GlobalNamespace::NoteDebrisPhysics {
 public:
   // Declarations
   /// @brief Field _rigidbody, offset 0x18, size 0x8
-  __declspec(property(get = __get__rigidbody, put = __set__rigidbody))::UnityEngine::Rigidbody* _rigidbody;
+  __declspec(property(get = __cordl_internal_get__rigidbody, put = __cordl_internal_set__rigidbody))::UnityW<::UnityEngine::Rigidbody> _rigidbody;
 
   /// @brief Field _simplePhysics, offset 0x20, size 0x8
-  __declspec(property(get = __get__simplePhysics, put = __set__simplePhysics))::GlobalNamespace::NoteDebrisSimplePhysics* _simplePhysics;
+  __declspec(property(get = __cordl_internal_get__simplePhysics, put = __cordl_internal_set__simplePhysics))::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics> _simplePhysics;
 
   /// @brief Field _firstUpdate, offset 0x28, size 0x1
-  __declspec(property(get = __get__firstUpdate, put = __set__firstUpdate)) bool _firstUpdate;
+  __declspec(property(get = __cordl_internal_get__firstUpdate, put = __cordl_internal_set__firstUpdate)) bool _firstUpdate;
 
   __declspec(property(get = get_position))::UnityEngine::Vector3 position;
 
-  constexpr ::UnityEngine::Rigidbody*& __get__rigidbody();
+  constexpr ::UnityW<::UnityEngine::Rigidbody>& __cordl_internal_get__rigidbody();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rigidbody*> const& __get__rigidbody() const;
+  constexpr ::UnityW<::UnityEngine::Rigidbody> const& __cordl_internal_get__rigidbody() const;
 
-  constexpr void __set__rigidbody(::UnityEngine::Rigidbody* value);
+  constexpr void __cordl_internal_set__rigidbody(::UnityW<::UnityEngine::Rigidbody> value);
 
-  constexpr ::GlobalNamespace::NoteDebrisSimplePhysics*& __get__simplePhysics();
+  constexpr ::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics>& __cordl_internal_get__simplePhysics();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteDebrisSimplePhysics*> const& __get__simplePhysics() const;
+  constexpr ::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics> const& __cordl_internal_get__simplePhysics() const;
 
-  constexpr void __set__simplePhysics(::GlobalNamespace::NoteDebrisSimplePhysics* value);
+  constexpr void __cordl_internal_set__simplePhysics(::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics> value);
 
-  constexpr bool& __get__firstUpdate();
+  constexpr bool& __cordl_internal_get__firstUpdate();
 
-  constexpr bool const& __get__firstUpdate() const;
+  constexpr bool const& __cordl_internal_get__firstUpdate() const;
 
-  constexpr void __set__firstUpdate(bool value);
+  constexpr void __cordl_internal_set__firstUpdate(bool value);
 
   /// @brief Method get_position, addr 0x23883f8, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
@@ -90,10 +90,10 @@ protected:
 
 public:
   /// @brief Field _rigidbody, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Rigidbody* ____rigidbody;
+  ::UnityW<::UnityEngine::Rigidbody> ____rigidbody;
 
   /// @brief Field _simplePhysics, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::NoteDebrisSimplePhysics* ____simplePhysics;
+  ::UnityW<::GlobalNamespace::NoteDebrisSimplePhysics> ____simplePhysics;
 
   /// @brief Field _firstUpdate, offset: 0x28, size: 0x1, def value: None
   bool ____firstUpdate;

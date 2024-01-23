@@ -38,20 +38,20 @@ MARK_REF_PTR_T(::System::Net::__LazyAsyncResult__ThreadContext);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9106))
 // CS Name: ::LazyAsyncResult::ThreadContext*
 class CORDL_TYPE __LazyAsyncResult__ThreadContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_NestedIOCount, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_NestedIOCount, put = __set_m_NestedIOCount)) int32_t m_NestedIOCount;
+  __declspec(property(get = __cordl_internal_get_m_NestedIOCount, put = __cordl_internal_set_m_NestedIOCount)) int32_t m_NestedIOCount;
 
-  constexpr int32_t& __get_m_NestedIOCount();
+  constexpr int32_t& __cordl_internal_get_m_NestedIOCount();
 
-  constexpr int32_t const& __get_m_NestedIOCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_NestedIOCount() const;
 
-  constexpr void __set_m_NestedIOCount(int32_t value);
+  constexpr void __cordl_internal_set_m_NestedIOCount(int32_t value);
 
   static inline ::System::Net::__LazyAsyncResult__ThreadContext* New_ctor();
 
@@ -87,7 +87,7 @@ static_assert(offsetof(::System::Net::__LazyAsyncResult__ThreadContext, ___m_Nes
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9107))
 // CS Name: ::System.Net::LazyAsyncResult*
 class CORDL_TYPE LazyAsyncResult : public ::System::Object {
@@ -96,28 +96,28 @@ public:
   using ThreadContext = ::System::Net::__LazyAsyncResult__ThreadContext;
 
   /// @brief Field m_AsyncObject, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_AsyncObject, put = __set_m_AsyncObject))::System::Object* m_AsyncObject;
+  __declspec(property(get = __cordl_internal_get_m_AsyncObject, put = __cordl_internal_set_m_AsyncObject))::System::Object* m_AsyncObject;
 
   /// @brief Field m_AsyncState, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_AsyncState, put = __set_m_AsyncState))::System::Object* m_AsyncState;
+  __declspec(property(get = __cordl_internal_get_m_AsyncState, put = __cordl_internal_set_m_AsyncState))::System::Object* m_AsyncState;
 
   /// @brief Field m_AsyncCallback, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_AsyncCallback, put = __set_m_AsyncCallback))::System::AsyncCallback* m_AsyncCallback;
+  __declspec(property(get = __cordl_internal_get_m_AsyncCallback, put = __cordl_internal_set_m_AsyncCallback))::System::AsyncCallback* m_AsyncCallback;
 
   /// @brief Field m_Result, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Result, put = __set_m_Result))::System::Object* m_Result;
+  __declspec(property(get = __cordl_internal_get_m_Result, put = __cordl_internal_set_m_Result))::System::Object* m_Result;
 
   /// @brief Field m_IntCompleted, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_IntCompleted, put = __set_m_IntCompleted)) int32_t m_IntCompleted;
+  __declspec(property(get = __cordl_internal_get_m_IntCompleted, put = __cordl_internal_set_m_IntCompleted)) int32_t m_IntCompleted;
 
   /// @brief Field m_EndCalled, offset 0x34, size 0x1
-  __declspec(property(get = __get_m_EndCalled, put = __set_m_EndCalled)) bool m_EndCalled;
+  __declspec(property(get = __cordl_internal_get_m_EndCalled, put = __cordl_internal_set_m_EndCalled)) bool m_EndCalled;
 
   /// @brief Field m_UserEvent, offset 0x35, size 0x1
-  __declspec(property(get = __get_m_UserEvent, put = __set_m_UserEvent)) bool m_UserEvent;
+  __declspec(property(get = __cordl_internal_get_m_UserEvent, put = __cordl_internal_set_m_UserEvent)) bool m_UserEvent;
 
   /// @brief Field m_Event, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_Event, put = __set_m_Event))::System::Object* m_Event;
+  __declspec(property(get = __cordl_internal_get_m_Event, put = __cordl_internal_set_m_Event))::System::Object* m_Event;
 
   /// @brief Field t_ThreadContext, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_t_ThreadContext, put = setStaticF_t_ThreadContext))::System::Net::__LazyAsyncResult__ThreadContext* t_ThreadContext;
@@ -144,53 +144,53 @@ public:
   /// @brief Convert to "::System::IAsyncResult"
   constexpr ::System::IAsyncResult* i___System__IAsyncResult() noexcept;
 
-  constexpr ::System::Object*& __get_m_AsyncObject();
+  constexpr ::System::Object*& __cordl_internal_get_m_AsyncObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_AsyncObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_AsyncObject() const;
 
-  constexpr void __set_m_AsyncObject(::System::Object* value);
+  constexpr void __cordl_internal_set_m_AsyncObject(::System::Object* value);
 
-  constexpr ::System::Object*& __get_m_AsyncState();
+  constexpr ::System::Object*& __cordl_internal_get_m_AsyncState();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_AsyncState() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_AsyncState() const;
 
-  constexpr void __set_m_AsyncState(::System::Object* value);
+  constexpr void __cordl_internal_set_m_AsyncState(::System::Object* value);
 
-  constexpr ::System::AsyncCallback*& __get_m_AsyncCallback();
+  constexpr ::System::AsyncCallback*& __cordl_internal_get_m_AsyncCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __get_m_AsyncCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __cordl_internal_get_m_AsyncCallback() const;
 
-  constexpr void __set_m_AsyncCallback(::System::AsyncCallback* value);
+  constexpr void __cordl_internal_set_m_AsyncCallback(::System::AsyncCallback* value);
 
-  constexpr ::System::Object*& __get_m_Result();
+  constexpr ::System::Object*& __cordl_internal_get_m_Result();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_Result() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_Result() const;
 
-  constexpr void __set_m_Result(::System::Object* value);
+  constexpr void __cordl_internal_set_m_Result(::System::Object* value);
 
-  constexpr int32_t& __get_m_IntCompleted();
+  constexpr int32_t& __cordl_internal_get_m_IntCompleted();
 
-  constexpr int32_t const& __get_m_IntCompleted() const;
+  constexpr int32_t const& __cordl_internal_get_m_IntCompleted() const;
 
-  constexpr void __set_m_IntCompleted(int32_t value);
+  constexpr void __cordl_internal_set_m_IntCompleted(int32_t value);
 
-  constexpr bool& __get_m_EndCalled();
+  constexpr bool& __cordl_internal_get_m_EndCalled();
 
-  constexpr bool const& __get_m_EndCalled() const;
+  constexpr bool const& __cordl_internal_get_m_EndCalled() const;
 
-  constexpr void __set_m_EndCalled(bool value);
+  constexpr void __cordl_internal_set_m_EndCalled(bool value);
 
-  constexpr bool& __get_m_UserEvent();
+  constexpr bool& __cordl_internal_get_m_UserEvent();
 
-  constexpr bool const& __get_m_UserEvent() const;
+  constexpr bool const& __cordl_internal_get_m_UserEvent() const;
 
-  constexpr void __set_m_UserEvent(bool value);
+  constexpr void __cordl_internal_set_m_UserEvent(bool value);
 
-  constexpr ::System::Object*& __get_m_Event();
+  constexpr ::System::Object*& __cordl_internal_get_m_Event();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_Event() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_Event() const;
 
-  constexpr void __set_m_Event(::System::Object* value);
+  constexpr void __cordl_internal_set_m_Event(::System::Object* value);
 
   static inline void setStaticF_t_ThreadContext(::System::Net::__LazyAsyncResult__ThreadContext* value);
 

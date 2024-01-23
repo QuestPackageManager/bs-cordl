@@ -16,7 +16,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11089), inst: 3629 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11089)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11089), inst: 3629 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11079))
 // CS Name: ::Zenject::PoolableStaticMemoryPool`4<TParam1,TParam2,TParam3,TValue>*
 class CORDL_TYPE PoolableStaticMemoryPool_4 : public ::Zenject::StaticMemoryPool_4<TParam1, TParam2, TParam3, TValue> {

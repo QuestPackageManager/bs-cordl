@@ -139,7 +139,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__UIRenderDevice__EvaluationState);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7433))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7433))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7426))
 // CS Name: ::UIRenderDevice::AllocToUpdate
 struct CORDL_TYPE __UIRenderDevice__AllocToUpdate {
@@ -204,7 +204,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocTo
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7433))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7433))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7427))
 // CS Name: ::UIRenderDevice::AllocToFree
 struct CORDL_TYPE __UIRenderDevice__AllocToFree {
@@ -246,7 +246,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocTo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7428))
 // CS Name: ::UIRenderDevice::DeviceToFree
 struct CORDL_TYPE __UIRenderDevice__DeviceToFree {
@@ -286,18 +286,18 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__DeviceT
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7441))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7441))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7429))
 // CS Name: ::UIRenderDevice::EvaluationState
 struct CORDL_TYPE __UIRenderDevice__EvaluationState {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "stateMatProps", ty: "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: None }, CppParam { name: "defaultMat", ty: "::UnityEngine::Material*",
-  // modifiers: "", def_value: None }, CppParam { name: "curState", ty: "::UnityEngine::UIElements::UIR::State", modifiers: "", def_value: None }, CppParam { name: "curPage", ty:
-  // "::UnityEngine::UIElements::UIR::Page*", modifiers: "", def_value: None }, CppParam { name: "mustApplyMaterial", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
+  // Ctor Parameters [CppParam { name: "stateMatProps", ty: "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: None }, CppParam { name: "defaultMat", ty:
+  // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "curState", ty: "::UnityEngine::UIElements::UIR::State", modifiers: "", def_value: None }, CppParam { name:
+  // "curPage", ty: "::UnityEngine::UIElements::UIR::Page*", modifiers: "", def_value: None }, CppParam { name: "mustApplyMaterial", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
   // "mustApplyCommonBlock", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mustApplyStateBlock", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "mustApplyStencil",
   // ty: "bool", modifiers: "", def_value: None }]
-  constexpr __UIRenderDevice__EvaluationState(::UnityEngine::MaterialPropertyBlock* stateMatProps, ::UnityEngine::Material* defaultMat, ::UnityEngine::UIElements::UIR::State curState,
+  constexpr __UIRenderDevice__EvaluationState(::UnityEngine::MaterialPropertyBlock* stateMatProps, ::UnityW<::UnityEngine::Material> defaultMat, ::UnityEngine::UIElements::UIR::State curState,
                                               ::UnityEngine::UIElements::UIR::Page* curPage, bool mustApplyMaterial, bool mustApplyCommonBlock, bool mustApplyStateBlock,
                                               bool mustApplyStencil) noexcept;
 
@@ -309,7 +309,7 @@ public:
   ::UnityEngine::MaterialPropertyBlock* stateMatProps;
 
   /// @brief Field defaultMat, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::Material* defaultMat;
+  ::UnityW<::UnityEngine::Material> defaultMat;
 
   /// @brief Field curState, offset: 0x10, size: 0x20, def value: None
   ::UnityEngine::UIElements::UIR::State curState;
@@ -358,7 +358,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__Evaluat
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7430))
 // CS Name: ::UIRenderDevice::DrawStatistics
 struct CORDL_TYPE __UIRenderDevice__DrawStatistics {
@@ -434,7 +434,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawSta
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7431))
 // CS Name: ::UIRenderDevice::<>c*
 class CORDL_TYPE __UIRenderDevice____c : public ::System::Object {
@@ -496,8 +496,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 174, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7430)), TypeDefinitionIndex(TypeDefinitionIndex(9966)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 })} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7430)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(7432)) CS Name: ::UnityEngine.UIElements.UIR::UIRenderDevice*
 class CORDL_TYPE UIRenderDevice : public ::System::Object {
 public:
@@ -515,68 +515,68 @@ public:
   using AllocToUpdate = ::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToUpdate;
 
   /// @brief Field m_MockDevice, offset 0x10, size 0x1
-  __declspec(property(get = __get_m_MockDevice, put = __set_m_MockDevice)) bool m_MockDevice;
+  __declspec(property(get = __cordl_internal_get_m_MockDevice, put = __cordl_internal_set_m_MockDevice)) bool m_MockDevice;
 
   /// @brief Field m_DefaultStencilState, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_DefaultStencilState, put = __set_m_DefaultStencilState)) void* m_DefaultStencilState;
+  __declspec(property(get = __cordl_internal_get_m_DefaultStencilState, put = __cordl_internal_set_m_DefaultStencilState)) void* m_DefaultStencilState;
 
   /// @brief Field m_VertexDecl, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_VertexDecl, put = __set_m_VertexDecl)) void* m_VertexDecl;
+  __declspec(property(get = __cordl_internal_get_m_VertexDecl, put = __cordl_internal_set_m_VertexDecl)) void* m_VertexDecl;
 
   /// @brief Field m_FirstPage, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_FirstPage, put = __set_m_FirstPage))::UnityEngine::UIElements::UIR::Page* m_FirstPage;
+  __declspec(property(get = __cordl_internal_get_m_FirstPage, put = __cordl_internal_set_m_FirstPage))::UnityEngine::UIElements::UIR::Page* m_FirstPage;
 
   /// @brief Field m_NextPageVertexCount, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_NextPageVertexCount, put = __set_m_NextPageVertexCount)) uint32_t m_NextPageVertexCount;
+  __declspec(property(get = __cordl_internal_get_m_NextPageVertexCount, put = __cordl_internal_set_m_NextPageVertexCount)) uint32_t m_NextPageVertexCount;
 
   /// @brief Field m_LargeMeshVertexCount, offset 0x34, size 0x4
-  __declspec(property(get = __get_m_LargeMeshVertexCount, put = __set_m_LargeMeshVertexCount)) uint32_t m_LargeMeshVertexCount;
+  __declspec(property(get = __cordl_internal_get_m_LargeMeshVertexCount, put = __cordl_internal_set_m_LargeMeshVertexCount)) uint32_t m_LargeMeshVertexCount;
 
   /// @brief Field m_IndexToVertexCountRatio, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_IndexToVertexCountRatio, put = __set_m_IndexToVertexCountRatio)) float_t m_IndexToVertexCountRatio;
+  __declspec(property(get = __cordl_internal_get_m_IndexToVertexCountRatio, put = __cordl_internal_set_m_IndexToVertexCountRatio)) float_t m_IndexToVertexCountRatio;
 
   /// @brief Field m_DeferredFrees, offset 0x40, size 0x8
-  __declspec(property(
-      get = __get_m_DeferredFrees,
-      put = __set_m_DeferredFrees))::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToFree>*>* m_DeferredFrees;
+  __declspec(property(get = __cordl_internal_get_m_DeferredFrees, put = __cordl_internal_set_m_DeferredFrees))::System::Collections::Generic::List_1<
+      ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToFree>*>* m_DeferredFrees;
 
   /// @brief Field m_Updates, offset 0x48, size 0x8
-  __declspec(
-      property(get = __get_m_Updates,
-               put = __set_m_Updates))::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToUpdate>*>* m_Updates;
+  __declspec(property(
+      get = __cordl_internal_get_m_Updates,
+      put = __cordl_internal_set_m_Updates))::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToUpdate>*>* m_Updates;
 
   /// @brief Field m_Fences, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_Fences, put = __set_m_Fences))::ArrayW<uint32_t, ::Array<uint32_t>*> m_Fences;
+  __declspec(property(get = __cordl_internal_get_m_Fences, put = __cordl_internal_set_m_Fences))::ArrayW<uint32_t, ::Array<uint32_t>*> m_Fences;
 
   /// @brief Field m_StandardMatProps, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_StandardMatProps, put = __set_m_StandardMatProps))::UnityEngine::MaterialPropertyBlock* m_StandardMatProps;
+  __declspec(property(get = __cordl_internal_get_m_StandardMatProps, put = __cordl_internal_set_m_StandardMatProps))::UnityEngine::MaterialPropertyBlock* m_StandardMatProps;
 
   /// @brief Field m_FrameIndex, offset 0x60, size 0x4
-  __declspec(property(get = __get_m_FrameIndex, put = __set_m_FrameIndex)) uint32_t m_FrameIndex;
+  __declspec(property(get = __cordl_internal_get_m_FrameIndex, put = __cordl_internal_set_m_FrameIndex)) uint32_t m_FrameIndex;
 
   /// @brief Field m_NextUpdateID, offset 0x64, size 0x4
-  __declspec(property(get = __get_m_NextUpdateID, put = __set_m_NextUpdateID)) uint32_t m_NextUpdateID;
+  __declspec(property(get = __cordl_internal_get_m_NextUpdateID, put = __cordl_internal_set_m_NextUpdateID)) uint32_t m_NextUpdateID;
 
   /// @brief Field m_DrawStats, offset 0x68, size 0x24
-  __declspec(property(get = __get_m_DrawStats, put = __set_m_DrawStats))::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawStatistics m_DrawStats;
+  __declspec(property(get = __cordl_internal_get_m_DrawStats, put = __cordl_internal_set_m_DrawStats))::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawStatistics m_DrawStats;
 
   /// @brief Field m_MeshHandles, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_MeshHandles, put = __set_m_MeshHandles))::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle*>* m_MeshHandles;
+  __declspec(property(get = __cordl_internal_get_m_MeshHandles,
+                      put = __cordl_internal_set_m_MeshHandles))::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle*>* m_MeshHandles;
 
   /// @brief Field m_DrawParams, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_DrawParams, put = __set_m_DrawParams))::UnityEngine::UIElements::UIR::DrawParams* m_DrawParams;
+  __declspec(property(get = __cordl_internal_get_m_DrawParams, put = __cordl_internal_set_m_DrawParams))::UnityEngine::UIElements::UIR::DrawParams* m_DrawParams;
 
   /// @brief Field m_TextureSlotManager, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_TextureSlotManager, put = __set_m_TextureSlotManager))::UnityEngine::UIElements::UIR::TextureSlotManager* m_TextureSlotManager;
+  __declspec(property(get = __cordl_internal_get_m_TextureSlotManager, put = __cordl_internal_set_m_TextureSlotManager))::UnityEngine::UIElements::UIR::TextureSlotManager* m_TextureSlotManager;
 
   /// @brief Field <maxVerticesPerPage>k__BackingField, offset 0xa8, size 0x4
-  __declspec(property(get = __get__maxVerticesPerPage_k__BackingField, put = __set__maxVerticesPerPage_k__BackingField)) uint32_t _maxVerticesPerPage_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__maxVerticesPerPage_k__BackingField, put = __cordl_internal_set__maxVerticesPerPage_k__BackingField)) uint32_t _maxVerticesPerPage_k__BackingField;
 
   /// @brief Field <breakBatches>k__BackingField, offset 0xac, size 0x1
-  __declspec(property(get = __get__breakBatches_k__BackingField, put = __set__breakBatches_k__BackingField)) bool _breakBatches_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__breakBatches_k__BackingField, put = __cordl_internal_set__breakBatches_k__BackingField)) bool _breakBatches_k__BackingField;
 
   /// @brief Field <disposed>k__BackingField, offset 0xad, size 0x1
-  __declspec(property(get = __get__disposed_k__BackingField, put = __set__disposed_k__BackingField)) bool _disposed_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
 
   /// @brief Field m_DeviceFreeQueue, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_DeviceFreeQueue,
@@ -634,10 +634,10 @@ public:
   static __declspec(property(get = getStaticF_s_ShaderModelIs35, put = setStaticF_s_ShaderModelIs35))::System::Nullable_1<bool> s_ShaderModelIs35;
 
   /// @brief Field s_DefaultShaderInfoTexFloat, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DefaultShaderInfoTexFloat, put = setStaticF_s_DefaultShaderInfoTexFloat))::UnityEngine::Texture2D* s_DefaultShaderInfoTexFloat;
+  static __declspec(property(get = getStaticF_s_DefaultShaderInfoTexFloat, put = setStaticF_s_DefaultShaderInfoTexFloat))::UnityW<::UnityEngine::Texture2D> s_DefaultShaderInfoTexFloat;
 
   /// @brief Field s_DefaultShaderInfoTexARGB8, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DefaultShaderInfoTexARGB8, put = setStaticF_s_DefaultShaderInfoTexARGB8))::UnityEngine::Texture2D* s_DefaultShaderInfoTexARGB8;
+  static __declspec(property(get = getStaticF_s_DefaultShaderInfoTexARGB8, put = setStaticF_s_DefaultShaderInfoTexARGB8))::UnityW<::UnityEngine::Texture2D> s_DefaultShaderInfoTexARGB8;
 
   __declspec(property(get = get_maxVerticesPerPage)) uint32_t maxVerticesPerPage;
 
@@ -653,128 +653,130 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr bool& __get_m_MockDevice();
+  constexpr bool& __cordl_internal_get_m_MockDevice();
 
-  constexpr bool const& __get_m_MockDevice() const;
+  constexpr bool const& __cordl_internal_get_m_MockDevice() const;
 
-  constexpr void __set_m_MockDevice(bool value);
+  constexpr void __cordl_internal_set_m_MockDevice(bool value);
 
-  constexpr void*& __get_m_DefaultStencilState();
+  constexpr void*& __cordl_internal_get_m_DefaultStencilState();
 
-  constexpr void* const& __get_m_DefaultStencilState() const;
+  constexpr void* const& __cordl_internal_get_m_DefaultStencilState() const;
 
-  constexpr void __set_m_DefaultStencilState(void* value);
+  constexpr void __cordl_internal_set_m_DefaultStencilState(void* value);
 
-  constexpr void*& __get_m_VertexDecl();
+  constexpr void*& __cordl_internal_get_m_VertexDecl();
 
-  constexpr void* const& __get_m_VertexDecl() const;
+  constexpr void* const& __cordl_internal_get_m_VertexDecl() const;
 
-  constexpr void __set_m_VertexDecl(void* value);
+  constexpr void __cordl_internal_set_m_VertexDecl(void* value);
 
-  constexpr ::UnityEngine::UIElements::UIR::Page*& __get_m_FirstPage();
+  constexpr ::UnityEngine::UIElements::UIR::Page*& __cordl_internal_get_m_FirstPage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::Page*> const& __get_m_FirstPage() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::Page*> const& __cordl_internal_get_m_FirstPage() const;
 
-  constexpr void __set_m_FirstPage(::UnityEngine::UIElements::UIR::Page* value);
+  constexpr void __cordl_internal_set_m_FirstPage(::UnityEngine::UIElements::UIR::Page* value);
 
-  constexpr uint32_t& __get_m_NextPageVertexCount();
+  constexpr uint32_t& __cordl_internal_get_m_NextPageVertexCount();
 
-  constexpr uint32_t const& __get_m_NextPageVertexCount() const;
+  constexpr uint32_t const& __cordl_internal_get_m_NextPageVertexCount() const;
 
-  constexpr void __set_m_NextPageVertexCount(uint32_t value);
+  constexpr void __cordl_internal_set_m_NextPageVertexCount(uint32_t value);
 
-  constexpr uint32_t& __get_m_LargeMeshVertexCount();
+  constexpr uint32_t& __cordl_internal_get_m_LargeMeshVertexCount();
 
-  constexpr uint32_t const& __get_m_LargeMeshVertexCount() const;
+  constexpr uint32_t const& __cordl_internal_get_m_LargeMeshVertexCount() const;
 
-  constexpr void __set_m_LargeMeshVertexCount(uint32_t value);
+  constexpr void __cordl_internal_set_m_LargeMeshVertexCount(uint32_t value);
 
-  constexpr float_t& __get_m_IndexToVertexCountRatio();
+  constexpr float_t& __cordl_internal_get_m_IndexToVertexCountRatio();
 
-  constexpr float_t const& __get_m_IndexToVertexCountRatio() const;
+  constexpr float_t const& __cordl_internal_get_m_IndexToVertexCountRatio() const;
 
-  constexpr void __set_m_IndexToVertexCountRatio(float_t value);
+  constexpr void __cordl_internal_set_m_IndexToVertexCountRatio(float_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToFree>*>*& __get_m_DeferredFrees();
+  constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToFree>*>*& __cordl_internal_get_m_DeferredFrees();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToFree>*>*> const&
-  __get_m_DeferredFrees() const;
+  __cordl_internal_get_m_DeferredFrees() const;
 
-  constexpr void __set_m_DeferredFrees(::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToFree>*>* value);
+  constexpr void
+  __cordl_internal_set_m_DeferredFrees(::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToFree>*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToUpdate>*>*& __get_m_Updates();
+  constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToUpdate>*>*& __cordl_internal_get_m_Updates();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToUpdate>*>*> const&
-  __get_m_Updates() const;
+  __cordl_internal_get_m_Updates() const;
 
-  constexpr void __set_m_Updates(::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToUpdate>*>* value);
+  constexpr void
+  __cordl_internal_set_m_Updates(::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__AllocToUpdate>*>* value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_m_Fences();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_m_Fences();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_m_Fences() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_m_Fences() const;
 
-  constexpr void __set_m_Fences(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_m_Fences(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr ::UnityEngine::MaterialPropertyBlock*& __get_m_StandardMatProps();
+  constexpr ::UnityEngine::MaterialPropertyBlock*& __cordl_internal_get_m_StandardMatProps();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MaterialPropertyBlock*> const& __get_m_StandardMatProps() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MaterialPropertyBlock*> const& __cordl_internal_get_m_StandardMatProps() const;
 
-  constexpr void __set_m_StandardMatProps(::UnityEngine::MaterialPropertyBlock* value);
+  constexpr void __cordl_internal_set_m_StandardMatProps(::UnityEngine::MaterialPropertyBlock* value);
 
-  constexpr uint32_t& __get_m_FrameIndex();
+  constexpr uint32_t& __cordl_internal_get_m_FrameIndex();
 
-  constexpr uint32_t const& __get_m_FrameIndex() const;
+  constexpr uint32_t const& __cordl_internal_get_m_FrameIndex() const;
 
-  constexpr void __set_m_FrameIndex(uint32_t value);
+  constexpr void __cordl_internal_set_m_FrameIndex(uint32_t value);
 
-  constexpr uint32_t& __get_m_NextUpdateID();
+  constexpr uint32_t& __cordl_internal_get_m_NextUpdateID();
 
-  constexpr uint32_t const& __get_m_NextUpdateID() const;
+  constexpr uint32_t const& __cordl_internal_get_m_NextUpdateID() const;
 
-  constexpr void __set_m_NextUpdateID(uint32_t value);
+  constexpr void __cordl_internal_set_m_NextUpdateID(uint32_t value);
 
-  constexpr ::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawStatistics& __get_m_DrawStats();
+  constexpr ::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawStatistics& __cordl_internal_get_m_DrawStats();
 
-  constexpr ::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawStatistics const& __get_m_DrawStats() const;
+  constexpr ::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawStatistics const& __cordl_internal_get_m_DrawStats() const;
 
-  constexpr void __set_m_DrawStats(::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawStatistics value);
+  constexpr void __cordl_internal_set_m_DrawStats(::UnityEngine::UIElements::UIR::__UIRenderDevice__DrawStatistics value);
 
-  constexpr ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle*>*& __get_m_MeshHandles();
+  constexpr ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle*>*& __cordl_internal_get_m_MeshHandles();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle*>*> const& __get_m_MeshHandles() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle*>*> const& __cordl_internal_get_m_MeshHandles() const;
 
-  constexpr void __set_m_MeshHandles(::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle*>* value);
+  constexpr void __cordl_internal_set_m_MeshHandles(::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::MeshHandle*>* value);
 
-  constexpr ::UnityEngine::UIElements::UIR::DrawParams*& __get_m_DrawParams();
+  constexpr ::UnityEngine::UIElements::UIR::DrawParams*& __cordl_internal_get_m_DrawParams();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::DrawParams*> const& __get_m_DrawParams() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::DrawParams*> const& __cordl_internal_get_m_DrawParams() const;
 
-  constexpr void __set_m_DrawParams(::UnityEngine::UIElements::UIR::DrawParams* value);
+  constexpr void __cordl_internal_set_m_DrawParams(::UnityEngine::UIElements::UIR::DrawParams* value);
 
-  constexpr ::UnityEngine::UIElements::UIR::TextureSlotManager*& __get_m_TextureSlotManager();
+  constexpr ::UnityEngine::UIElements::UIR::TextureSlotManager*& __cordl_internal_get_m_TextureSlotManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::TextureSlotManager*> const& __get_m_TextureSlotManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::TextureSlotManager*> const& __cordl_internal_get_m_TextureSlotManager() const;
 
-  constexpr void __set_m_TextureSlotManager(::UnityEngine::UIElements::UIR::TextureSlotManager* value);
+  constexpr void __cordl_internal_set_m_TextureSlotManager(::UnityEngine::UIElements::UIR::TextureSlotManager* value);
 
-  constexpr uint32_t& __get__maxVerticesPerPage_k__BackingField();
+  constexpr uint32_t& __cordl_internal_get__maxVerticesPerPage_k__BackingField();
 
-  constexpr uint32_t const& __get__maxVerticesPerPage_k__BackingField() const;
+  constexpr uint32_t const& __cordl_internal_get__maxVerticesPerPage_k__BackingField() const;
 
-  constexpr void __set__maxVerticesPerPage_k__BackingField(uint32_t value);
+  constexpr void __cordl_internal_set__maxVerticesPerPage_k__BackingField(uint32_t value);
 
-  constexpr bool& __get__breakBatches_k__BackingField();
+  constexpr bool& __cordl_internal_get__breakBatches_k__BackingField();
 
-  constexpr bool const& __get__breakBatches_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__breakBatches_k__BackingField() const;
 
-  constexpr void __set__breakBatches_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__breakBatches_k__BackingField(bool value);
 
-  constexpr bool& __get__disposed_k__BackingField();
+  constexpr bool& __cordl_internal_get__disposed_k__BackingField();
 
-  constexpr bool const& __get__disposed_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
 
-  constexpr void __set__disposed_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
   static inline void setStaticF_m_DeviceFreeQueue(::System::Collections::Generic::LinkedList_1<::UnityEngine::UIElements::UIR::__UIRenderDevice__DeviceToFree>* value);
 
@@ -848,13 +850,13 @@ public:
 
   static inline ::System::Nullable_1<bool> getStaticF_s_ShaderModelIs35();
 
-  static inline void setStaticF_s_DefaultShaderInfoTexFloat(::UnityEngine::Texture2D* value);
+  static inline void setStaticF_s_DefaultShaderInfoTexFloat(::UnityW<::UnityEngine::Texture2D> value);
 
-  static inline ::UnityEngine::Texture2D* getStaticF_s_DefaultShaderInfoTexFloat();
+  static inline ::UnityW<::UnityEngine::Texture2D> getStaticF_s_DefaultShaderInfoTexFloat();
 
-  static inline void setStaticF_s_DefaultShaderInfoTexARGB8(::UnityEngine::Texture2D* value);
+  static inline void setStaticF_s_DefaultShaderInfoTexARGB8(::UnityW<::UnityEngine::Texture2D> value);
 
-  static inline ::UnityEngine::Texture2D* getStaticF_s_DefaultShaderInfoTexARGB8();
+  static inline ::UnityW<::UnityEngine::Texture2D> getStaticF_s_DefaultShaderInfoTexARGB8();
 
   /// @brief Method get_maxVerticesPerPage, addr 0x2dcdbe8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_maxVerticesPerPage();
@@ -876,10 +878,10 @@ public:
   inline void _ctor(uint32_t initialVertexCapacity, uint32_t initialIndexCapacity, bool mockDevice);
 
   /// @brief Method get_defaultShaderInfoTexFloat, addr 0x2dce6cc, size 0x394, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* get_defaultShaderInfoTexFloat();
+  static inline ::UnityW<::UnityEngine::Texture2D> get_defaultShaderInfoTexFloat();
 
   /// @brief Method get_defaultShaderInfoTexARGB8, addr 0x2dcea60, size 0x2cc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* get_defaultShaderInfoTexARGB8();
+  static inline ::UnityW<::UnityEngine::Texture2D> get_defaultShaderInfoTexARGB8();
 
   /// @brief Method get_vertexTexturingIsAvailable, addr 0x2dced2c, size 0x1e4, virtual false, abstract: false, final false
   static inline bool get_vertexTexturingIsAvailable();

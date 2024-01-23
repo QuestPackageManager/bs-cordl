@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Tweening::FloatTween);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16099)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16099), inst: 391 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16099)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16099), inst: 391 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16093))
 // CS Name: ::Tweening::FloatTween*
 class CORDL_TYPE FloatTween : public ::Tweening::Tween_1<float_t> {

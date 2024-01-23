@@ -19,51 +19,51 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::TouchInputModule);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 121, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13203))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13203))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13206))
 // CS Name: ::UnityEngine.EventSystems::TouchInputModule*
 class CORDL_TYPE TouchInputModule : public ::UnityEngine::EventSystems::PointerInputModule {
 public:
   // Declarations
   /// @brief Field m_LastMousePosition, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_LastMousePosition, put = __set_m_LastMousePosition))::UnityEngine::Vector2 m_LastMousePosition;
+  __declspec(property(get = __cordl_internal_get_m_LastMousePosition, put = __cordl_internal_set_m_LastMousePosition))::UnityEngine::Vector2 m_LastMousePosition;
 
   /// @brief Field m_MousePosition, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_MousePosition, put = __set_m_MousePosition))::UnityEngine::Vector2 m_MousePosition;
+  __declspec(property(get = __cordl_internal_get_m_MousePosition, put = __cordl_internal_set_m_MousePosition))::UnityEngine::Vector2 m_MousePosition;
 
   /// @brief Field m_InputPointerEvent, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_InputPointerEvent, put = __set_m_InputPointerEvent))::UnityEngine::EventSystems::PointerEventData* m_InputPointerEvent;
+  __declspec(property(get = __cordl_internal_get_m_InputPointerEvent, put = __cordl_internal_set_m_InputPointerEvent))::UnityEngine::EventSystems::PointerEventData* m_InputPointerEvent;
 
   /// @brief Field m_ForceModuleActive, offset 0x78, size 0x1
-  __declspec(property(get = __get_m_ForceModuleActive, put = __set_m_ForceModuleActive)) bool m_ForceModuleActive;
+  __declspec(property(get = __cordl_internal_get_m_ForceModuleActive, put = __cordl_internal_set_m_ForceModuleActive)) bool m_ForceModuleActive;
 
   __declspec(property(get = get_allowActivationOnStandalone, put = set_allowActivationOnStandalone)) bool allowActivationOnStandalone;
 
   __declspec(property(get = get_forceModuleActive, put = set_forceModuleActive)) bool forceModuleActive;
 
-  constexpr ::UnityEngine::Vector2& __get_m_LastMousePosition();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_LastMousePosition();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_LastMousePosition() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_LastMousePosition() const;
 
-  constexpr void __set_m_LastMousePosition(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_LastMousePosition(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_MousePosition();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_MousePosition();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_MousePosition() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_MousePosition() const;
 
-  constexpr void __set_m_MousePosition(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_MousePosition(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::EventSystems::PointerEventData*& __get_m_InputPointerEvent();
+  constexpr ::UnityEngine::EventSystems::PointerEventData*& __cordl_internal_get_m_InputPointerEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& __get_m_InputPointerEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& __cordl_internal_get_m_InputPointerEvent() const;
 
-  constexpr void __set_m_InputPointerEvent(::UnityEngine::EventSystems::PointerEventData* value);
+  constexpr void __cordl_internal_set_m_InputPointerEvent(::UnityEngine::EventSystems::PointerEventData* value);
 
-  constexpr bool& __get_m_ForceModuleActive();
+  constexpr bool& __cordl_internal_get_m_ForceModuleActive();
 
-  constexpr bool const& __get_m_ForceModuleActive() const;
+  constexpr bool const& __cordl_internal_get_m_ForceModuleActive() const;
 
-  constexpr void __set_m_ForceModuleActive(bool value);
+  constexpr void __cordl_internal_set_m_ForceModuleActive(bool value);
 
   static inline ::UnityEngine::EventSystems::TouchInputModule* New_ctor();
 

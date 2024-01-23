@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Net::WebHeaderCollectionType);
 // SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9089))
 // CS Name: ::System.Net::WebHeaderCollectionType
 struct CORDL_TYPE WebHeaderCollectionType {

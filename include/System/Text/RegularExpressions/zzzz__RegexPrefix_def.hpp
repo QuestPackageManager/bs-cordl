@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Text::RegularExpressions::RegexPrefix);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8927))
 // CS Name: ::System.Text.RegularExpressions::RegexPrefix
 struct CORDL_TYPE RegexPrefix {

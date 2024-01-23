@@ -46,17 +46,17 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Initialization::__CacheInitiali
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(14032))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 105 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14117))
 // CS Name: ::CacheInitialization::CacheInitOp*
 class CORDL_TYPE __CacheInitialization__CacheInitOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
 public:
   // Declarations
   /// @brief Field m_Callback, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_Callback, put = __set_m_Callback))::System::Func_1<bool>* m_Callback;
+  __declspec(property(get = __cordl_internal_get_m_Callback, put = __cordl_internal_set_m_Callback))::System::Func_1<bool>* m_Callback;
 
   /// @brief Field m_UpdateRequired, offset 0x90, size 0x1
-  __declspec(property(get = __get_m_UpdateRequired, put = __set_m_UpdateRequired)) bool m_UpdateRequired;
+  __declspec(property(get = __cordl_internal_get_m_UpdateRequired, put = __cordl_internal_set_m_UpdateRequired)) bool m_UpdateRequired;
 
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::IUpdateReceiver"
   constexpr operator ::UnityEngine::ResourceManagement::IUpdateReceiver*() noexcept;
@@ -64,17 +64,17 @@ public:
   /// @brief Convert to "::UnityEngine::ResourceManagement::IUpdateReceiver"
   constexpr ::UnityEngine::ResourceManagement::IUpdateReceiver* i___UnityEngine__ResourceManagement__IUpdateReceiver() noexcept;
 
-  constexpr ::System::Func_1<bool>*& __get_m_Callback();
+  constexpr ::System::Func_1<bool>*& __cordl_internal_get_m_Callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& __get_m_Callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& __cordl_internal_get_m_Callback() const;
 
-  constexpr void __set_m_Callback(::System::Func_1<bool>* value);
+  constexpr void __cordl_internal_set_m_Callback(::System::Func_1<bool>* value);
 
-  constexpr bool& __get_m_UpdateRequired();
+  constexpr bool& __cordl_internal_get_m_UpdateRequired();
 
-  constexpr bool const& __get_m_UpdateRequired() const;
+  constexpr bool const& __cordl_internal_get_m_UpdateRequired() const;
 
-  constexpr void __set_m_UpdateRequired(bool value);
+  constexpr void __cordl_internal_set_m_UpdateRequired(bool value);
 
   /// @brief Method Init, addr 0x2a306f4, size 0x8, virtual false, abstract: false, final false
   inline void Init(::System::Func_1<bool>* callback);
@@ -127,38 +127,38 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__Cache
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14118))
 // CS Name: ::CacheInitialization::<>c__DisplayClass1_0*
 class CORDL_TYPE __CacheInitialization____c__DisplayClass1_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::Initialization::CacheInitialization* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::Initialization::CacheInitialization* __4__this;
 
   /// @brief Field id, offset 0x18, size 0x8
-  __declspec(property(get = __get_id, put = __set_id))::StringW id;
+  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::StringW id;
 
   /// @brief Field data, offset 0x20, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::StringW data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::StringW data;
 
-  constexpr ::UnityEngine::AddressableAssets::Initialization::CacheInitialization*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::Initialization::CacheInitialization*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::Initialization::CacheInitialization*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::Initialization::CacheInitialization*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::Initialization::CacheInitialization* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::Initialization::CacheInitialization* value);
 
-  constexpr ::StringW& __get_id();
+  constexpr ::StringW& __cordl_internal_get_id();
 
-  constexpr ::StringW const& __get_id() const;
+  constexpr ::StringW const& __cordl_internal_get_id() const;
 
-  constexpr void __set_id(::StringW value);
+  constexpr void __cordl_internal_set_id(::StringW value);
 
-  constexpr ::StringW& __get_data();
+  constexpr ::StringW& __cordl_internal_get_data();
 
-  constexpr ::StringW const& __get_data() const;
+  constexpr ::StringW const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::StringW value);
+  constexpr void __cordl_internal_set_data(::StringW value);
 
   static inline ::UnityEngine::AddressableAssets::Initialization::__CacheInitialization____c__DisplayClass1_0* New_ctor();
 
@@ -207,7 +207,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__Cache
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14119))
 // CS Name: ::UnityEngine.AddressableAssets.Initialization::CacheInitialization*
 class CORDL_TYPE CacheInitialization : public ::System::Object {

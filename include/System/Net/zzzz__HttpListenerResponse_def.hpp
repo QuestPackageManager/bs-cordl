@@ -50,65 +50,65 @@ MARK_REF_PTR_T(::System::Net::HttpListenerResponse);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9176))
 // CS Name: ::System.Net::HttpListenerResponse*
 class CORDL_TYPE HttpListenerResponse : public ::System::Object {
 public:
   // Declarations
   /// @brief Field disposed, offset 0x10, size 0x1
-  __declspec(property(get = __get_disposed, put = __set_disposed)) bool disposed;
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field content_encoding, offset 0x18, size 0x8
-  __declspec(property(get = __get_content_encoding, put = __set_content_encoding))::System::Text::Encoding* content_encoding;
+  __declspec(property(get = __cordl_internal_get_content_encoding, put = __cordl_internal_set_content_encoding))::System::Text::Encoding* content_encoding;
 
   /// @brief Field content_length, offset 0x20, size 0x8
-  __declspec(property(get = __get_content_length, put = __set_content_length)) int64_t content_length;
+  __declspec(property(get = __cordl_internal_get_content_length, put = __cordl_internal_set_content_length)) int64_t content_length;
 
   /// @brief Field cl_set, offset 0x28, size 0x1
-  __declspec(property(get = __get_cl_set, put = __set_cl_set)) bool cl_set;
+  __declspec(property(get = __cordl_internal_get_cl_set, put = __cordl_internal_set_cl_set)) bool cl_set;
 
   /// @brief Field content_type, offset 0x30, size 0x8
-  __declspec(property(get = __get_content_type, put = __set_content_type))::StringW content_type;
+  __declspec(property(get = __cordl_internal_get_content_type, put = __cordl_internal_set_content_type))::StringW content_type;
 
   /// @brief Field cookies, offset 0x38, size 0x8
-  __declspec(property(get = __get_cookies, put = __set_cookies))::System::Net::CookieCollection* cookies;
+  __declspec(property(get = __cordl_internal_get_cookies, put = __cordl_internal_set_cookies))::System::Net::CookieCollection* cookies;
 
   /// @brief Field headers, offset 0x40, size 0x8
-  __declspec(property(get = __get_headers, put = __set_headers))::System::Net::WebHeaderCollection* headers;
+  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers))::System::Net::WebHeaderCollection* headers;
 
   /// @brief Field keep_alive, offset 0x48, size 0x1
-  __declspec(property(get = __get_keep_alive, put = __set_keep_alive)) bool keep_alive;
+  __declspec(property(get = __cordl_internal_get_keep_alive, put = __cordl_internal_set_keep_alive)) bool keep_alive;
 
   /// @brief Field output_stream, offset 0x50, size 0x8
-  __declspec(property(get = __get_output_stream, put = __set_output_stream))::System::Net::ResponseStream* output_stream;
+  __declspec(property(get = __cordl_internal_get_output_stream, put = __cordl_internal_set_output_stream))::System::Net::ResponseStream* output_stream;
 
   /// @brief Field version, offset 0x58, size 0x8
-  __declspec(property(get = __get_version, put = __set_version))::System::Version* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::System::Version* version;
 
   /// @brief Field location, offset 0x60, size 0x8
-  __declspec(property(get = __get_location, put = __set_location))::StringW location;
+  __declspec(property(get = __cordl_internal_get_location, put = __cordl_internal_set_location))::StringW location;
 
   /// @brief Field status_code, offset 0x68, size 0x4
-  __declspec(property(get = __get_status_code, put = __set_status_code)) int32_t status_code;
+  __declspec(property(get = __cordl_internal_get_status_code, put = __cordl_internal_set_status_code)) int32_t status_code;
 
   /// @brief Field status_description, offset 0x70, size 0x8
-  __declspec(property(get = __get_status_description, put = __set_status_description))::StringW status_description;
+  __declspec(property(get = __cordl_internal_get_status_description, put = __cordl_internal_set_status_description))::StringW status_description;
 
   /// @brief Field chunked, offset 0x78, size 0x1
-  __declspec(property(get = __get_chunked, put = __set_chunked)) bool chunked;
+  __declspec(property(get = __cordl_internal_get_chunked, put = __cordl_internal_set_chunked)) bool chunked;
 
   /// @brief Field context, offset 0x80, size 0x8
-  __declspec(property(get = __get_context, put = __set_context))::System::Net::HttpListenerContext* context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::System::Net::HttpListenerContext* context;
 
   /// @brief Field HeadersSent, offset 0x88, size 0x1
-  __declspec(property(get = __get_HeadersSent, put = __set_HeadersSent)) bool HeadersSent;
+  __declspec(property(get = __cordl_internal_get_HeadersSent, put = __cordl_internal_set_HeadersSent)) bool HeadersSent;
 
   /// @brief Field headers_lock, offset 0x90, size 0x8
-  __declspec(property(get = __get_headers_lock, put = __set_headers_lock))::System::Object* headers_lock;
+  __declspec(property(get = __cordl_internal_get_headers_lock, put = __cordl_internal_set_headers_lock))::System::Object* headers_lock;
 
   /// @brief Field force_close_chunked, offset 0x98, size 0x1
-  __declspec(property(get = __get_force_close_chunked, put = __set_force_close_chunked)) bool force_close_chunked;
+  __declspec(property(get = __cordl_internal_get_force_close_chunked, put = __cordl_internal_set_force_close_chunked)) bool force_close_chunked;
 
   /// @brief Field tspecials, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_tspecials, put = setStaticF_tspecials))::StringW tspecials;
@@ -135,113 +135,113 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr bool& __get_disposed();
+  constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr bool const& __get_disposed() const;
+  constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __set_disposed(bool value);
+  constexpr void __cordl_internal_set_disposed(bool value);
 
-  constexpr ::System::Text::Encoding*& __get_content_encoding();
+  constexpr ::System::Text::Encoding*& __cordl_internal_get_content_encoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __get_content_encoding() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get_content_encoding() const;
 
-  constexpr void __set_content_encoding(::System::Text::Encoding* value);
+  constexpr void __cordl_internal_set_content_encoding(::System::Text::Encoding* value);
 
-  constexpr int64_t& __get_content_length();
+  constexpr int64_t& __cordl_internal_get_content_length();
 
-  constexpr int64_t const& __get_content_length() const;
+  constexpr int64_t const& __cordl_internal_get_content_length() const;
 
-  constexpr void __set_content_length(int64_t value);
+  constexpr void __cordl_internal_set_content_length(int64_t value);
 
-  constexpr bool& __get_cl_set();
+  constexpr bool& __cordl_internal_get_cl_set();
 
-  constexpr bool const& __get_cl_set() const;
+  constexpr bool const& __cordl_internal_get_cl_set() const;
 
-  constexpr void __set_cl_set(bool value);
+  constexpr void __cordl_internal_set_cl_set(bool value);
 
-  constexpr ::StringW& __get_content_type();
+  constexpr ::StringW& __cordl_internal_get_content_type();
 
-  constexpr ::StringW const& __get_content_type() const;
+  constexpr ::StringW const& __cordl_internal_get_content_type() const;
 
-  constexpr void __set_content_type(::StringW value);
+  constexpr void __cordl_internal_set_content_type(::StringW value);
 
-  constexpr ::System::Net::CookieCollection*& __get_cookies();
+  constexpr ::System::Net::CookieCollection*& __cordl_internal_get_cookies();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieCollection*> const& __get_cookies() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieCollection*> const& __cordl_internal_get_cookies() const;
 
-  constexpr void __set_cookies(::System::Net::CookieCollection* value);
+  constexpr void __cordl_internal_set_cookies(::System::Net::CookieCollection* value);
 
-  constexpr ::System::Net::WebHeaderCollection*& __get_headers();
+  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get_headers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __get_headers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get_headers() const;
 
-  constexpr void __set_headers(::System::Net::WebHeaderCollection* value);
+  constexpr void __cordl_internal_set_headers(::System::Net::WebHeaderCollection* value);
 
-  constexpr bool& __get_keep_alive();
+  constexpr bool& __cordl_internal_get_keep_alive();
 
-  constexpr bool const& __get_keep_alive() const;
+  constexpr bool const& __cordl_internal_get_keep_alive() const;
 
-  constexpr void __set_keep_alive(bool value);
+  constexpr void __cordl_internal_set_keep_alive(bool value);
 
-  constexpr ::System::Net::ResponseStream*& __get_output_stream();
+  constexpr ::System::Net::ResponseStream*& __cordl_internal_get_output_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ResponseStream*> const& __get_output_stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ResponseStream*> const& __cordl_internal_get_output_stream() const;
 
-  constexpr void __set_output_stream(::System::Net::ResponseStream* value);
+  constexpr void __cordl_internal_set_output_stream(::System::Net::ResponseStream* value);
 
-  constexpr ::System::Version*& __get_version();
+  constexpr ::System::Version*& __cordl_internal_get_version();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __get_version() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(::System::Version* value);
+  constexpr void __cordl_internal_set_version(::System::Version* value);
 
-  constexpr ::StringW& __get_location();
+  constexpr ::StringW& __cordl_internal_get_location();
 
-  constexpr ::StringW const& __get_location() const;
+  constexpr ::StringW const& __cordl_internal_get_location() const;
 
-  constexpr void __set_location(::StringW value);
+  constexpr void __cordl_internal_set_location(::StringW value);
 
-  constexpr int32_t& __get_status_code();
+  constexpr int32_t& __cordl_internal_get_status_code();
 
-  constexpr int32_t const& __get_status_code() const;
+  constexpr int32_t const& __cordl_internal_get_status_code() const;
 
-  constexpr void __set_status_code(int32_t value);
+  constexpr void __cordl_internal_set_status_code(int32_t value);
 
-  constexpr ::StringW& __get_status_description();
+  constexpr ::StringW& __cordl_internal_get_status_description();
 
-  constexpr ::StringW const& __get_status_description() const;
+  constexpr ::StringW const& __cordl_internal_get_status_description() const;
 
-  constexpr void __set_status_description(::StringW value);
+  constexpr void __cordl_internal_set_status_description(::StringW value);
 
-  constexpr bool& __get_chunked();
+  constexpr bool& __cordl_internal_get_chunked();
 
-  constexpr bool const& __get_chunked() const;
+  constexpr bool const& __cordl_internal_get_chunked() const;
 
-  constexpr void __set_chunked(bool value);
+  constexpr void __cordl_internal_set_chunked(bool value);
 
-  constexpr ::System::Net::HttpListenerContext*& __get_context();
+  constexpr ::System::Net::HttpListenerContext*& __cordl_internal_get_context();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerContext*> const& __get_context() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerContext*> const& __cordl_internal_get_context() const;
 
-  constexpr void __set_context(::System::Net::HttpListenerContext* value);
+  constexpr void __cordl_internal_set_context(::System::Net::HttpListenerContext* value);
 
-  constexpr bool& __get_HeadersSent();
+  constexpr bool& __cordl_internal_get_HeadersSent();
 
-  constexpr bool const& __get_HeadersSent() const;
+  constexpr bool const& __cordl_internal_get_HeadersSent() const;
 
-  constexpr void __set_HeadersSent(bool value);
+  constexpr void __cordl_internal_set_HeadersSent(bool value);
 
-  constexpr ::System::Object*& __get_headers_lock();
+  constexpr ::System::Object*& __cordl_internal_get_headers_lock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_headers_lock() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_headers_lock() const;
 
-  constexpr void __set_headers_lock(::System::Object* value);
+  constexpr void __cordl_internal_set_headers_lock(::System::Object* value);
 
-  constexpr bool& __get_force_close_chunked();
+  constexpr bool& __cordl_internal_get_force_close_chunked();
 
-  constexpr bool const& __get_force_close_chunked() const;
+  constexpr bool const& __cordl_internal_get_force_close_chunked() const;
 
-  constexpr void __set_force_close_chunked(bool value);
+  constexpr void __cordl_internal_set_force_close_chunked(bool value);
 
   static inline void setStaticF_tspecials(::StringW value);
 

@@ -56,7 +56,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob_
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7977))
 // CS Name: ::OVRScenePlaneMeshFilter::TriangulateBoundaryJob::NList
 struct CORDL_TYPE __OVRScenePlaneMeshFilter__TriangulateBoundaryJob__NList {
@@ -124,8 +124,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRScenePlaneMeshFilter__Triangulate
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7978)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7978)) CS Name:
 // ::OVRScenePlaneMeshFilter::TriangulateBoundaryJob
 struct CORDL_TYPE __OVRScenePlaneMeshFilter__TriangulateBoundaryJob {
 public:
@@ -178,68 +178,68 @@ static_assert(offsetof(::GlobalNamespace::__OVRScenePlaneMeshFilter__Triangulate
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(9977)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411
-// }), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(2448), inst: 4742 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7979)) CS Name:
-// ::OVRScenePlaneMeshFilter*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(9977)), TypeDefinitionIndex(TypeDefinitionIndex(9999)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4742 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7979)) CS Name: ::OVRScenePlaneMeshFilter*
 class CORDL_TYPE OVRScenePlaneMeshFilter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using TriangulateBoundaryJob = ::GlobalNamespace::__OVRScenePlaneMeshFilter__TriangulateBoundaryJob;
 
   /// @brief Field _meshFilter, offset 0x18, size 0x8
-  __declspec(property(get = __get__meshFilter, put = __set__meshFilter))::UnityEngine::MeshFilter* _meshFilter;
+  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter))::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
   /// @brief Field _mesh, offset 0x20, size 0x8
-  __declspec(property(get = __get__mesh, put = __set__mesh))::UnityEngine::Mesh* _mesh;
+  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh))::UnityW<::UnityEngine::Mesh> _mesh;
 
   /// @brief Field _jobHandle, offset 0x28, size 0x18
-  __declspec(property(get = __get__jobHandle, put = __set__jobHandle))::System::Nullable_1<::Unity::Jobs::JobHandle> _jobHandle;
+  __declspec(property(get = __cordl_internal_get__jobHandle, put = __cordl_internal_set__jobHandle))::System::Nullable_1<::Unity::Jobs::JobHandle> _jobHandle;
 
   /// @brief Field _meshRequested, offset 0x40, size 0x1
-  __declspec(property(get = __get__meshRequested, put = __set__meshRequested)) bool _meshRequested;
+  __declspec(property(get = __cordl_internal_get__meshRequested, put = __cordl_internal_set__meshRequested)) bool _meshRequested;
 
   /// @brief Field _boundary, offset 0x48, size 0x10
-  __declspec(property(get = __get__boundary, put = __set__boundary))::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> _boundary;
+  __declspec(property(get = __cordl_internal_get__boundary, put = __cordl_internal_set__boundary))::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> _boundary;
 
   /// @brief Field _triangles, offset 0x58, size 0x10
-  __declspec(property(get = __get__triangles, put = __set__triangles))::Unity::Collections::NativeArray_1<int32_t> _triangles;
+  __declspec(property(get = __cordl_internal_get__triangles, put = __cordl_internal_set__triangles))::Unity::Collections::NativeArray_1<int32_t> _triangles;
 
-  constexpr ::UnityEngine::MeshFilter*& __get__meshFilter();
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__meshFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& __get__meshFilter() const;
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__meshFilter() const;
 
-  constexpr void __set__meshFilter(::UnityEngine::MeshFilter* value);
+  constexpr void __cordl_internal_set__meshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  constexpr ::UnityEngine::Mesh*& __get__mesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get__mesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
 
-  constexpr void __set__mesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  constexpr ::System::Nullable_1<::Unity::Jobs::JobHandle>& __get__jobHandle();
+  constexpr ::System::Nullable_1<::Unity::Jobs::JobHandle>& __cordl_internal_get__jobHandle();
 
-  constexpr ::System::Nullable_1<::Unity::Jobs::JobHandle> const& __get__jobHandle() const;
+  constexpr ::System::Nullable_1<::Unity::Jobs::JobHandle> const& __cordl_internal_get__jobHandle() const;
 
-  constexpr void __set__jobHandle(::System::Nullable_1<::Unity::Jobs::JobHandle> value);
+  constexpr void __cordl_internal_set__jobHandle(::System::Nullable_1<::Unity::Jobs::JobHandle> value);
 
-  constexpr bool& __get__meshRequested();
+  constexpr bool& __cordl_internal_get__meshRequested();
 
-  constexpr bool const& __get__meshRequested() const;
+  constexpr bool const& __cordl_internal_get__meshRequested() const;
 
-  constexpr void __set__meshRequested(bool value);
+  constexpr void __cordl_internal_set__meshRequested(bool value);
 
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>& __get__boundary();
+  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>& __cordl_internal_get__boundary();
 
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> const& __get__boundary() const;
+  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> const& __cordl_internal_get__boundary() const;
 
-  constexpr void __set__boundary(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> value);
+  constexpr void __cordl_internal_set__boundary(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> value);
 
-  constexpr ::Unity::Collections::NativeArray_1<int32_t>& __get__triangles();
+  constexpr ::Unity::Collections::NativeArray_1<int32_t>& __cordl_internal_get__triangles();
 
-  constexpr ::Unity::Collections::NativeArray_1<int32_t> const& __get__triangles() const;
+  constexpr ::Unity::Collections::NativeArray_1<int32_t> const& __cordl_internal_get__triangles() const;
 
-  constexpr void __set__triangles(::Unity::Collections::NativeArray_1<int32_t> value);
+  constexpr void __cordl_internal_set__triangles(::Unity::Collections::NativeArray_1<int32_t> value);
 
   /// @brief Method Start, addr 0x2787e90, size 0x1ac, virtual false, abstract: false, final false
   inline void Start();
@@ -276,10 +276,10 @@ protected:
 
 public:
   /// @brief Field _meshFilter, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* ____meshFilter;
+  ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 
   /// @brief Field _mesh, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ____mesh;
+  ::UnityW<::UnityEngine::Mesh> ____mesh;
 
   /// @brief Field _jobHandle, offset: 0x28, size: 0x18, def value: None
   ::System::Nullable_1<::Unity::Jobs::JobHandle> ____jobHandle;

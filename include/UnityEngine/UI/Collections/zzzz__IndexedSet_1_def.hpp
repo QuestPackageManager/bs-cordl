@@ -48,20 +48,20 @@ namespace UnityEngine::UI::Collections {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13149))
 // CS Name: ::UnityEngine.UI.Collections::IndexedSet`1<T>*
 class CORDL_TYPE IndexedSet_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_List, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_List, put = __set_m_List))::System::Collections::Generic::List_1<T>* m_List;
+  __declspec(property(get = __cordl_internal_get_m_List, put = __cordl_internal_set_m_List))::System::Collections::Generic::List_1<T>* m_List;
 
   /// @brief Field m_Dictionary, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Dictionary, put = __set_m_Dictionary))::System::Collections::Generic::Dictionary_2<T, int32_t>* m_Dictionary;
+  __declspec(property(get = __cordl_internal_get_m_Dictionary, put = __cordl_internal_set_m_Dictionary))::System::Collections::Generic::Dictionary_2<T, int32_t>* m_Dictionary;
 
   /// @brief Field m_EnabledObjectCount, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_EnabledObjectCount, put = __set_m_EnabledObjectCount)) int32_t m_EnabledObjectCount;
+  __declspec(property(get = __cordl_internal_get_m_EnabledObjectCount, put = __cordl_internal_set_m_EnabledObjectCount)) int32_t m_EnabledObjectCount;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -95,23 +95,23 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<T>*& __get_m_List();
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get_m_List();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __get_m_List() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get_m_List() const;
 
-  constexpr void __set_m_List(::System::Collections::Generic::List_1<T>* value);
+  constexpr void __cordl_internal_set_m_List(::System::Collections::Generic::List_1<T>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<T, int32_t>*& __get_m_Dictionary();
+  constexpr ::System::Collections::Generic::Dictionary_2<T, int32_t>*& __cordl_internal_get_m_Dictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<T, int32_t>*> const& __get_m_Dictionary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<T, int32_t>*> const& __cordl_internal_get_m_Dictionary() const;
 
-  constexpr void __set_m_Dictionary(::System::Collections::Generic::Dictionary_2<T, int32_t>* value);
+  constexpr void __cordl_internal_set_m_Dictionary(::System::Collections::Generic::Dictionary_2<T, int32_t>* value);
 
-  constexpr int32_t& __get_m_EnabledObjectCount();
+  constexpr int32_t& __cordl_internal_get_m_EnabledObjectCount();
 
-  constexpr int32_t const& __get_m_EnabledObjectCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_EnabledObjectCount() const;
 
-  constexpr void __set_m_EnabledObjectCount(int32_t value);
+  constexpr void __cordl_internal_set_m_EnabledObjectCount(int32_t value);
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Add(T item);

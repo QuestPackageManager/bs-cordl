@@ -71,9 +71,9 @@ MARK_VAL_T(::GlobalNamespace::__AnnotatedBeatmapLevelCollectionCell___RefreshAva
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5414))
-// CS Name: ::AnnotatedBeatmapLevelCollectionCell::<RefreshAvailabilityAsync>d__22
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5414)) CS
+// Name: ::AnnotatedBeatmapLevelCollectionCell::<RefreshAvailabilityAsync>d__22
 struct CORDL_TYPE __AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22 {
 public:
   // Declarations
@@ -90,13 +90,14 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell*",
-  // modifiers: "", def_value: None }, CppParam { name: "contentModel", ty: "::GlobalNamespace::IAdditionalContentModel*", modifiers: "", def_value: None }, CppParam { name: "_cancellationToken_5__2",
-  // ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_numberOfOwnedLevels_5__3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "_error_5__4", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__7__wrap4", ty: "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::IPreviewBeatmapLevel*>*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell>", modifiers: "", def_value: None }, CppParam { name: "contentModel", ty: "::GlobalNamespace::IAdditionalContentModel*",
+  // modifiers: "", def_value: None }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name:
+  // "_numberOfOwnedLevels_5__3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_error_5__4", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__7__wrap4", ty:
+  // "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::IPreviewBeatmapLevel*>*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
   constexpr __AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                                   ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell* __4__this,
+                                                                                   ::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell> __4__this,
                                                                                    ::GlobalNamespace::IAdditionalContentModel* contentModel,
                                                                                    ::System::Threading::CancellationToken _cancellationToken_5__2, int32_t _numberOfOwnedLevels_5__3, bool _error_5__4,
                                                                                    ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::IPreviewBeatmapLevel*>* __7__wrap4,
@@ -113,7 +114,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell* __4__this;
+  ::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionCell> __4__this;
 
   /// @brief Field contentModel, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IAdditionalContentModel* contentModel;
@@ -164,7 +165,7 @@ static_assert(offsetof(::GlobalNamespace::__AnnotatedBeatmapLevelCollectionCell_
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13653)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13653))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5415))
 // CS Name: ::AnnotatedBeatmapLevelCollectionCell*
 class CORDL_TYPE AnnotatedBeatmapLevelCollectionCell : public ::HMUI::SelectableCell {
@@ -173,123 +174,124 @@ public:
   using _RefreshAvailabilityAsync_d__22 = ::GlobalNamespace::__AnnotatedBeatmapLevelCollectionCell___RefreshAvailabilityAsync_d__22;
 
   /// @brief Field _infoText, offset 0x48, size 0x8
-  __declspec(property(get = __get__infoText, put = __set__infoText))::TMPro::TextMeshProUGUI* _infoText;
+  __declspec(property(get = __cordl_internal_get__infoText, put = __cordl_internal_set__infoText))::UnityW<::TMPro::TextMeshProUGUI> _infoText;
 
   /// @brief Field _coverImage, offset 0x50, size 0x8
-  __declspec(property(get = __get__coverImage, put = __set__coverImage))::HMUI::ImageView* _coverImage;
+  __declspec(property(get = __cordl_internal_get__coverImage, put = __cordl_internal_set__coverImage))::UnityW<::HMUI::ImageView> _coverImage;
 
   /// @brief Field _selectionImage, offset 0x58, size 0x8
-  __declspec(property(get = __get__selectionImage, put = __set__selectionImage))::HMUI::ImageView* _selectionImage;
+  __declspec(property(get = __cordl_internal_get__selectionImage, put = __cordl_internal_set__selectionImage))::UnityW<::HMUI::ImageView> _selectionImage;
 
   /// @brief Field _downloadIconObject, offset 0x60, size 0x8
-  __declspec(property(get = __get__downloadIconObject, put = __set__downloadIconObject))::UnityEngine::GameObject* _downloadIconObject;
+  __declspec(property(get = __cordl_internal_get__downloadIconObject, put = __cordl_internal_set__downloadIconObject))::UnityW<::UnityEngine::GameObject> _downloadIconObject;
 
   /// @brief Field _newBadgeObject, offset 0x68, size 0x8
-  __declspec(property(get = __get__newBadgeObject, put = __set__newBadgeObject))::UnityEngine::GameObject* _newBadgeObject;
+  __declspec(property(get = __cordl_internal_get__newBadgeObject, put = __cordl_internal_set__newBadgeObject))::UnityW<::UnityEngine::GameObject> _newBadgeObject;
 
   /// @brief Field _updatedBadgeObject, offset 0x70, size 0x8
-  __declspec(property(get = __get__updatedBadgeObject, put = __set__updatedBadgeObject))::UnityEngine::GameObject* _updatedBadgeObject;
+  __declspec(property(get = __cordl_internal_get__updatedBadgeObject, put = __cordl_internal_set__updatedBadgeObject))::UnityW<::UnityEngine::GameObject> _updatedBadgeObject;
 
   /// @brief Field _selectedColor0, offset 0x78, size 0x10
-  __declspec(property(get = __get__selectedColor0, put = __set__selectedColor0))::UnityEngine::Color _selectedColor0;
+  __declspec(property(get = __cordl_internal_get__selectedColor0, put = __cordl_internal_set__selectedColor0))::UnityEngine::Color _selectedColor0;
 
   /// @brief Field _selectedColor1, offset 0x88, size 0x10
-  __declspec(property(get = __get__selectedColor1, put = __set__selectedColor1))::UnityEngine::Color _selectedColor1;
+  __declspec(property(get = __cordl_internal_get__selectedColor1, put = __cordl_internal_set__selectedColor1))::UnityEngine::Color _selectedColor1;
 
   /// @brief Field _highlightedColor0, offset 0x98, size 0x10
-  __declspec(property(get = __get__highlightedColor0, put = __set__highlightedColor0))::UnityEngine::Color _highlightedColor0;
+  __declspec(property(get = __cordl_internal_get__highlightedColor0, put = __cordl_internal_set__highlightedColor0))::UnityEngine::Color _highlightedColor0;
 
   /// @brief Field _highlightedColor1, offset 0xa8, size 0x10
-  __declspec(property(get = __get__highlightedColor1, put = __set__highlightedColor1))::UnityEngine::Color _highlightedColor1;
+  __declspec(property(get = __cordl_internal_get__highlightedColor1, put = __cordl_internal_set__highlightedColor1))::UnityEngine::Color _highlightedColor1;
 
   /// @brief Field <cellIndex>k__BackingField, offset 0xb8, size 0x4
-  __declspec(property(get = __get__cellIndex_k__BackingField, put = __set__cellIndex_k__BackingField)) int32_t _cellIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__cellIndex_k__BackingField, put = __cordl_internal_set__cellIndex_k__BackingField)) int32_t _cellIndex_k__BackingField;
 
   /// @brief Field _annotatedBeatmapLevelCollection, offset 0xc0, size 0x8
-  __declspec(property(get = __get__annotatedBeatmapLevelCollection, put = __set__annotatedBeatmapLevelCollection))::GlobalNamespace::IAnnotatedBeatmapLevelCollection* _annotatedBeatmapLevelCollection;
+  __declspec(property(get = __cordl_internal_get__annotatedBeatmapLevelCollection,
+                      put = __cordl_internal_set__annotatedBeatmapLevelCollection))::GlobalNamespace::IAnnotatedBeatmapLevelCollection* _annotatedBeatmapLevelCollection;
 
   /// @brief Field _cancellationTokenSource, offset 0xc8, size 0x8
-  __declspec(property(get = __get__cancellationTokenSource, put = __set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
+  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
 
   __declspec(property(get = get_cellIndex, put = set_cellIndex)) int32_t cellIndex;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__infoText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__infoText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__infoText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__infoText() const;
 
-  constexpr void __set__infoText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__infoText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::HMUI::ImageView*& __get__coverImage();
+  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__coverImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& __get__coverImage() const;
+  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__coverImage() const;
 
-  constexpr void __set__coverImage(::HMUI::ImageView* value);
+  constexpr void __cordl_internal_set__coverImage(::UnityW<::HMUI::ImageView> value);
 
-  constexpr ::HMUI::ImageView*& __get__selectionImage();
+  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__selectionImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& __get__selectionImage() const;
+  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__selectionImage() const;
 
-  constexpr void __set__selectionImage(::HMUI::ImageView* value);
+  constexpr void __cordl_internal_set__selectionImage(::UnityW<::HMUI::ImageView> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__downloadIconObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__downloadIconObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__downloadIconObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__downloadIconObject() const;
 
-  constexpr void __set__downloadIconObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__downloadIconObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__newBadgeObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__newBadgeObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__newBadgeObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__newBadgeObject() const;
 
-  constexpr void __set__newBadgeObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__newBadgeObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__updatedBadgeObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__updatedBadgeObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__updatedBadgeObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__updatedBadgeObject() const;
 
-  constexpr void __set__updatedBadgeObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__updatedBadgeObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::Color& __get__selectedColor0();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__selectedColor0();
 
-  constexpr ::UnityEngine::Color const& __get__selectedColor0() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__selectedColor0() const;
 
-  constexpr void __set__selectedColor0(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__selectedColor0(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__selectedColor1();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__selectedColor1();
 
-  constexpr ::UnityEngine::Color const& __get__selectedColor1() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__selectedColor1() const;
 
-  constexpr void __set__selectedColor1(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__selectedColor1(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__highlightedColor0();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__highlightedColor0();
 
-  constexpr ::UnityEngine::Color const& __get__highlightedColor0() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__highlightedColor0() const;
 
-  constexpr void __set__highlightedColor0(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__highlightedColor0(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__highlightedColor1();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__highlightedColor1();
 
-  constexpr ::UnityEngine::Color const& __get__highlightedColor1() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__highlightedColor1() const;
 
-  constexpr void __set__highlightedColor1(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__highlightedColor1(::UnityEngine::Color value);
 
-  constexpr int32_t& __get__cellIndex_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__cellIndex_k__BackingField();
 
-  constexpr int32_t const& __get__cellIndex_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__cellIndex_k__BackingField() const;
 
-  constexpr void __set__cellIndex_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__cellIndex_k__BackingField(int32_t value);
 
-  constexpr ::GlobalNamespace::IAnnotatedBeatmapLevelCollection*& __get__annotatedBeatmapLevelCollection();
+  constexpr ::GlobalNamespace::IAnnotatedBeatmapLevelCollection*& __cordl_internal_get__annotatedBeatmapLevelCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*> const& __get__annotatedBeatmapLevelCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*> const& __cordl_internal_get__annotatedBeatmapLevelCollection() const;
 
-  constexpr void __set__annotatedBeatmapLevelCollection(::GlobalNamespace::IAnnotatedBeatmapLevelCollection* value);
+  constexpr void __cordl_internal_set__annotatedBeatmapLevelCollection(::GlobalNamespace::IAnnotatedBeatmapLevelCollection* value);
 
-  constexpr ::System::Threading::CancellationTokenSource*& __get__cancellationTokenSource();
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __get__cancellationTokenSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
 
-  constexpr void __set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+  constexpr void __cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
   /// @brief Method get_cellIndex, addr 0x227742c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_cellIndex();
@@ -344,22 +346,22 @@ protected:
 
 public:
   /// @brief Field _infoText, offset: 0x48, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____infoText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____infoText;
 
   /// @brief Field _coverImage, offset: 0x50, size: 0x8, def value: None
-  ::HMUI::ImageView* ____coverImage;
+  ::UnityW<::HMUI::ImageView> ____coverImage;
 
   /// @brief Field _selectionImage, offset: 0x58, size: 0x8, def value: None
-  ::HMUI::ImageView* ____selectionImage;
+  ::UnityW<::HMUI::ImageView> ____selectionImage;
 
   /// @brief Field _downloadIconObject, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____downloadIconObject;
+  ::UnityW<::UnityEngine::GameObject> ____downloadIconObject;
 
   /// @brief Field _newBadgeObject, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____newBadgeObject;
+  ::UnityW<::UnityEngine::GameObject> ____newBadgeObject;
 
   /// @brief Field _updatedBadgeObject, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____updatedBadgeObject;
+  ::UnityW<::UnityEngine::GameObject> ____updatedBadgeObject;
 
   /// @brief Field _selectedColor0, offset: 0x78, size: 0x10, def value: None
   ::UnityEngine::Color ____selectedColor0;

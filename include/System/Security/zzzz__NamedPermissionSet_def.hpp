@@ -25,31 +25,31 @@ MARK_REF_PTR_T(::System::Security::NamedPermissionSet);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2884))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2884))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2883))
 // CS Name: ::System.Security::NamedPermissionSet*
 class CORDL_TYPE NamedPermissionSet : public ::System::Security::PermissionSet {
 public:
   // Declarations
   /// @brief Field name, offset 0x30, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field description, offset 0x38, size 0x8
-  __declspec(property(get = __get_description, put = __set_description))::StringW description;
+  __declspec(property(get = __cordl_internal_get_description, put = __cordl_internal_set_description))::StringW description;
 
   __declspec(property(get = get_Name, put = set_Name))::StringW Name;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::StringW& __get_description();
+  constexpr ::StringW& __cordl_internal_get_description();
 
-  constexpr ::StringW const& __get_description() const;
+  constexpr ::StringW const& __cordl_internal_get_description() const;
 
-  constexpr void __set_description(::StringW value);
+  constexpr void __cordl_internal_set_description(::StringW value);
 
   static inline ::System::Security::NamedPermissionSet* New_ctor();
 

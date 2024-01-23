@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Mono::X509PalImplMono);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8754))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8754))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8753))
 // CS Name: ::Mono::X509PalImplMono*
 class CORDL_TYPE X509PalImplMono : public ::Mono::X509PalImpl {

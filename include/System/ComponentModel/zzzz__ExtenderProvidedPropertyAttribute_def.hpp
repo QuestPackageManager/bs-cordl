@@ -27,20 +27,22 @@ MARK_REF_PTR_T(::System::ComponentModel::ExtenderProvidedPropertyAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9428))
 // CS Name: ::System.ComponentModel::ExtenderProvidedPropertyAttribute*
 class CORDL_TYPE ExtenderProvidedPropertyAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <ExtenderProperty>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__ExtenderProperty_k__BackingField, put = __set__ExtenderProperty_k__BackingField))::System::ComponentModel::PropertyDescriptor* _ExtenderProperty_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ExtenderProperty_k__BackingField,
+                      put = __cordl_internal_set__ExtenderProperty_k__BackingField))::System::ComponentModel::PropertyDescriptor* _ExtenderProperty_k__BackingField;
 
   /// @brief Field <Provider>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Provider_k__BackingField, put = __set__Provider_k__BackingField))::System::ComponentModel::IExtenderProvider* _Provider_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Provider_k__BackingField,
+                      put = __cordl_internal_set__Provider_k__BackingField))::System::ComponentModel::IExtenderProvider* _Provider_k__BackingField;
 
   /// @brief Field <ReceiverType>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__ReceiverType_k__BackingField, put = __set__ReceiverType_k__BackingField))::System::Type* _ReceiverType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ReceiverType_k__BackingField, put = __cordl_internal_set__ReceiverType_k__BackingField))::System::Type* _ReceiverType_k__BackingField;
 
   __declspec(property(get = get_ExtenderProperty, put = set_ExtenderProperty))::System::ComponentModel::PropertyDescriptor* ExtenderProperty;
 
@@ -48,23 +50,23 @@ public:
 
   __declspec(property(get = get_ReceiverType, put = set_ReceiverType))::System::Type* ReceiverType;
 
-  constexpr ::System::ComponentModel::PropertyDescriptor*& __get__ExtenderProperty_k__BackingField();
+  constexpr ::System::ComponentModel::PropertyDescriptor*& __cordl_internal_get__ExtenderProperty_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::PropertyDescriptor*> const& __get__ExtenderProperty_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::PropertyDescriptor*> const& __cordl_internal_get__ExtenderProperty_k__BackingField() const;
 
-  constexpr void __set__ExtenderProperty_k__BackingField(::System::ComponentModel::PropertyDescriptor* value);
+  constexpr void __cordl_internal_set__ExtenderProperty_k__BackingField(::System::ComponentModel::PropertyDescriptor* value);
 
-  constexpr ::System::ComponentModel::IExtenderProvider*& __get__Provider_k__BackingField();
+  constexpr ::System::ComponentModel::IExtenderProvider*& __cordl_internal_get__Provider_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::IExtenderProvider*> const& __get__Provider_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::IExtenderProvider*> const& __cordl_internal_get__Provider_k__BackingField() const;
 
-  constexpr void __set__Provider_k__BackingField(::System::ComponentModel::IExtenderProvider* value);
+  constexpr void __cordl_internal_set__Provider_k__BackingField(::System::ComponentModel::IExtenderProvider* value);
 
-  constexpr ::System::Type*& __get__ReceiverType_k__BackingField();
+  constexpr ::System::Type*& __cordl_internal_get__ReceiverType_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__ReceiverType_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__ReceiverType_k__BackingField() const;
 
-  constexpr void __set__ReceiverType_k__BackingField(::System::Type* value);
+  constexpr void __cordl_internal_set__ReceiverType_k__BackingField(::System::Type* value);
 
   /// @brief Method Create, addr 0x29102d4, size 0x78, virtual false, abstract: false, final false
   static inline ::System::ComponentModel::ExtenderProvidedPropertyAttribute* Create(::System::ComponentModel::PropertyDescriptor* extenderProperty, ::System::Type* receiverType,

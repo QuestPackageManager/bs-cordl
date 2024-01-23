@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::Capture);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8900))
 // CS Name: ::System.Text.RegularExpressions::Capture*
 class CORDL_TYPE Capture : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Index>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__Index_k__BackingField, put = __set__Index_k__BackingField)) int32_t _Index_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Index_k__BackingField, put = __cordl_internal_set__Index_k__BackingField)) int32_t _Index_k__BackingField;
 
   /// @brief Field <Length>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__Length_k__BackingField, put = __set__Length_k__BackingField)) int32_t _Length_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Length_k__BackingField, put = __cordl_internal_set__Length_k__BackingField)) int32_t _Length_k__BackingField;
 
   /// @brief Field <Text>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Text_k__BackingField, put = __set__Text_k__BackingField))::StringW _Text_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Text_k__BackingField, put = __cordl_internal_set__Text_k__BackingField))::StringW _Text_k__BackingField;
 
   __declspec(property(get = get_Index, put = set_Index)) int32_t Index;
 
@@ -42,23 +42,23 @@ public:
 
   __declspec(property(get = get_Value))::StringW Value;
 
-  constexpr int32_t& __get__Index_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__Index_k__BackingField();
 
-  constexpr int32_t const& __get__Index_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__Index_k__BackingField() const;
 
-  constexpr void __set__Index_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__Index_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__Length_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__Length_k__BackingField();
 
-  constexpr int32_t const& __get__Length_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__Length_k__BackingField() const;
 
-  constexpr void __set__Length_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__Length_k__BackingField(int32_t value);
 
-  constexpr ::StringW& __get__Text_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Text_k__BackingField();
 
-  constexpr ::StringW const& __get__Text_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Text_k__BackingField() const;
 
-  constexpr void __set__Text_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Text_k__BackingField(::StringW value);
 
   static inline ::System::Text::RegularExpressions::Capture* New_ctor(::StringW text, int32_t index, int32_t length);
 

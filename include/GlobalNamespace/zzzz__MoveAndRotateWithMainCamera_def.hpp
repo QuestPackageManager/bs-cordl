@@ -22,47 +22,47 @@ MARK_REF_PTR_T(::GlobalNamespace::MoveAndRotateWithMainCamera);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5913))
 // CS Name: ::MoveAndRotateWithMainCamera*
 class CORDL_TYPE MoveAndRotateWithMainCamera : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _mainCamera, offset 0x18, size 0x8
-  __declspec(property(get = __get__mainCamera, put = __set__mainCamera))::GlobalNamespace::MainCamera* _mainCamera;
+  __declspec(property(get = __cordl_internal_get__mainCamera, put = __cordl_internal_set__mainCamera))::UnityW<::GlobalNamespace::MainCamera> _mainCamera;
 
   /// @brief Field _rotationOffset, offset 0x20, size 0x10
-  __declspec(property(get = __get__rotationOffset, put = __set__rotationOffset))::UnityEngine::Quaternion _rotationOffset;
+  __declspec(property(get = __cordl_internal_get__rotationOffset, put = __cordl_internal_set__rotationOffset))::UnityEngine::Quaternion _rotationOffset;
 
   /// @brief Field _positionOffset, offset 0x30, size 0xc
-  __declspec(property(get = __get__positionOffset, put = __set__positionOffset))::UnityEngine::Vector3 _positionOffset;
+  __declspec(property(get = __cordl_internal_get__positionOffset, put = __cordl_internal_set__positionOffset))::UnityEngine::Vector3 _positionOffset;
 
   /// @brief Field _transform, offset 0x40, size 0x8
-  __declspec(property(get = __get__transform, put = __set__transform))::UnityEngine::Transform* _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
-  constexpr ::GlobalNamespace::MainCamera*& __get__mainCamera();
+  constexpr ::UnityW<::GlobalNamespace::MainCamera>& __cordl_internal_get__mainCamera();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainCamera*> const& __get__mainCamera() const;
+  constexpr ::UnityW<::GlobalNamespace::MainCamera> const& __cordl_internal_get__mainCamera() const;
 
-  constexpr void __set__mainCamera(::GlobalNamespace::MainCamera* value);
+  constexpr void __cordl_internal_set__mainCamera(::UnityW<::GlobalNamespace::MainCamera> value);
 
-  constexpr ::UnityEngine::Quaternion& __get__rotationOffset();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__rotationOffset();
 
-  constexpr ::UnityEngine::Quaternion const& __get__rotationOffset() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__rotationOffset() const;
 
-  constexpr void __set__rotationOffset(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set__rotationOffset(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Vector3& __get__positionOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__positionOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__positionOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__positionOffset() const;
 
-  constexpr void __set__positionOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__positionOffset(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Transform*& __get__transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr void __set__transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
   /// @brief Method Awake, addr 0x22fed4c, size 0x4c, virtual false, abstract: false, final false
   inline void Awake();
@@ -90,7 +90,7 @@ protected:
 
 public:
   /// @brief Field _mainCamera, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MainCamera* ____mainCamera;
+  ::UnityW<::GlobalNamespace::MainCamera> ____mainCamera;
 
   /// @brief Field _rotationOffset, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Quaternion ____rotationOffset;
@@ -99,7 +99,7 @@ public:
   ::UnityEngine::Vector3 ____positionOffset;
 
   /// @brief Field _transform, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____transform;
+  ::UnityW<::UnityEngine::Transform> ____transform;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

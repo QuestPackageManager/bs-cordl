@@ -14,22 +14,22 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::DataContractAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16239))
 // CS Name: ::System.Runtime.Serialization::DataContractAttribute*
 class CORDL_TYPE DataContractAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field isReference, offset 0x10, size 0x1
-  __declspec(property(get = __get_isReference, put = __set_isReference)) bool isReference;
+  __declspec(property(get = __cordl_internal_get_isReference, put = __cordl_internal_set_isReference)) bool isReference;
 
   __declspec(property(get = get_IsReference)) bool IsReference;
 
-  constexpr bool& __get_isReference();
+  constexpr bool& __cordl_internal_get_isReference();
 
-  constexpr bool const& __get_isReference() const;
+  constexpr bool const& __cordl_internal_get_isReference() const;
 
-  constexpr void __set_isReference(bool value);
+  constexpr void __cordl_internal_set_isReference(bool value);
 
   /// @brief Method get_IsReference, addr 0x284d5f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsReference();

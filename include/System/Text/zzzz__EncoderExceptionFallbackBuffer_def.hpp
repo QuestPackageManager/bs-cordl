@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Text::EncoderExceptionFallbackBuffer);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2845))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2845))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2842))
 // CS Name: ::System.Text::EncoderExceptionFallbackBuffer*
 class CORDL_TYPE EncoderExceptionFallbackBuffer : public ::System::Text::EncoderFallbackBuffer {

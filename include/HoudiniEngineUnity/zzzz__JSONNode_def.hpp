@@ -137,7 +137,7 @@ MARK_VAL_T(::HoudiniEngineUnity::__JSONNode__ValueEnumerator);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9862))
 // CS Name: ::JSONNode::Enumerator::Type
 struct CORDL_TYPE __JSONNode__Enumerator__Type {
@@ -191,7 +191,7 @@ static_assert(offsetof(::GlobalNamespace::__JSONNode__Enumerator__Type, value__)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9881))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9881))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9869))
 // CS Name: ::HoudiniEngineUnity::JSONNode*
 class CORDL_TYPE JSONNode : public ::System::Object {
@@ -622,9 +622,9 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::JSONNode, 0x
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1428 }), TypeDefinitionIndex(TypeDefinitionIndex(9862)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3819)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1690 }), TypeDefinitionIndex(TypeDefinitionIndex(9869)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9863)) CS Name: ::JSONNode::Enumerator
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3819)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(9862)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1428 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3842), inst: 1690 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9863)) CS Name: ::JSONNode::Enumerator
 struct CORDL_TYPE __JSONNode__Enumerator {
 public:
   // Declarations
@@ -688,7 +688,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__JSONNode__Enumerator, m_Array) ==
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9863))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9863))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9864))
 // CS Name: ::JSONNode::ValueEnumerator
 struct CORDL_TYPE __JSONNode__ValueEnumerator {
@@ -739,7 +739,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__JSONNode__ValueEnumerator, m_Enum
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9863))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9863))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9865))
 // CS Name: ::JSONNode::KeyEnumerator
 struct CORDL_TYPE __JSONNode__KeyEnumerator {
@@ -790,17 +790,17 @@ static_assert(offsetof(::HoudiniEngineUnity::__JSONNode__KeyEnumerator, m_Enumer
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9863)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9863))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9866))
 // CS Name: ::JSONNode::LinqEnumerator*
 class CORDL_TYPE __JSONNode__LinqEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Node, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Node, put = __set_m_Node))::HoudiniEngineUnity::JSONNode* m_Node;
+  __declspec(property(get = __cordl_internal_get_m_Node, put = __cordl_internal_set_m_Node))::HoudiniEngineUnity::JSONNode* m_Node;
 
   /// @brief Field m_Enumerator, offset 0x18, size 0x48
-  __declspec(property(get = __get_m_Enumerator, put = __set_m_Enumerator))::HoudiniEngineUnity::__JSONNode__Enumerator m_Enumerator;
+  __declspec(property(get = __cordl_internal_get_m_Enumerator, put = __cordl_internal_set_m_Enumerator))::HoudiniEngineUnity::__JSONNode__Enumerator m_Enumerator;
 
   __declspec(property(get = get_Current))::System::Collections::Generic::KeyValuePair_2<::StringW, ::HoudiniEngineUnity::JSONNode*> Current;
 
@@ -838,17 +838,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::HoudiniEngineUnity::JSONNode*& __get_m_Node();
+  constexpr ::HoudiniEngineUnity::JSONNode*& __cordl_internal_get_m_Node();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::JSONNode*> const& __get_m_Node() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::JSONNode*> const& __cordl_internal_get_m_Node() const;
 
-  constexpr void __set_m_Node(::HoudiniEngineUnity::JSONNode* value);
+  constexpr void __cordl_internal_set_m_Node(::HoudiniEngineUnity::JSONNode* value);
 
-  constexpr ::HoudiniEngineUnity::__JSONNode__Enumerator& __get_m_Enumerator();
+  constexpr ::HoudiniEngineUnity::__JSONNode__Enumerator& __cordl_internal_get_m_Enumerator();
 
-  constexpr ::HoudiniEngineUnity::__JSONNode__Enumerator const& __get_m_Enumerator() const;
+  constexpr ::HoudiniEngineUnity::__JSONNode__Enumerator const& __cordl_internal_get_m_Enumerator() const;
 
-  constexpr void __set_m_Enumerator(::HoudiniEngineUnity::__JSONNode__Enumerator value);
+  constexpr void __cordl_internal_set_m_Enumerator(::HoudiniEngineUnity::__JSONNode__Enumerator value);
 
   static inline ::HoudiniEngineUnity::__JSONNode__LinqEnumerator* New_ctor(::HoudiniEngineUnity::JSONNode* aNode);
 
@@ -910,20 +910,20 @@ static_assert(offsetof(::HoudiniEngineUnity::__JSONNode__LinqEnumerator, ___m_En
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9867))
 // CS Name: ::JSONNode::<get_Children>d__40*
 class CORDL_TYPE __JSONNode___get_Children_d__40 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::HoudiniEngineUnity::JSONNode* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::HoudiniEngineUnity::JSONNode* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   __declspec(property(
       get =
@@ -961,23 +961,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::HoudiniEngineUnity::JSONNode*& __get___2__current();
+  constexpr ::HoudiniEngineUnity::JSONNode*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::JSONNode*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::JSONNode*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::HoudiniEngineUnity::JSONNode* value);
+  constexpr void __cordl_internal_set___2__current(::HoudiniEngineUnity::JSONNode* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
   static inline ::HoudiniEngineUnity::__JSONNode___get_Children_d__40* New_ctor(int32_t __1__state);
 
@@ -1044,29 +1044,29 @@ static_assert(offsetof(::HoudiniEngineUnity::__JSONNode___get_Children_d__40, __
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9868))
 // CS Name: ::JSONNode::<get_DeepChildren>d__42*
 class CORDL_TYPE __JSONNode___get_DeepChildren_d__42 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::HoudiniEngineUnity::JSONNode* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::HoudiniEngineUnity::JSONNode* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::HoudiniEngineUnity::JSONNode* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::HoudiniEngineUnity::JSONNode* __4__this;
 
   /// @brief Field <>7__wrap1, offset 0x30, size 0x8
-  __declspec(property(get = __get___7__wrap1, put = __set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>* __7__wrap1;
 
   /// @brief Field <>7__wrap2, offset 0x38, size 0x8
-  __declspec(property(get = __get___7__wrap2, put = __set___7__wrap2))::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>* __7__wrap2;
+  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2))::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>* __7__wrap2;
 
   __declspec(property(
       get =
@@ -1104,41 +1104,41 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::HoudiniEngineUnity::JSONNode*& __get___2__current();
+  constexpr ::HoudiniEngineUnity::JSONNode*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::JSONNode*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::JSONNode*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::HoudiniEngineUnity::JSONNode* value);
+  constexpr void __cordl_internal_set___2__current(::HoudiniEngineUnity::JSONNode* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::HoudiniEngineUnity::JSONNode*& __get___4__this();
+  constexpr ::HoudiniEngineUnity::JSONNode*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::JSONNode*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::JSONNode*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::HoudiniEngineUnity::JSONNode* value);
+  constexpr void __cordl_internal_set___4__this(::HoudiniEngineUnity::JSONNode* value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*& __get___7__wrap1();
+  constexpr ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*& __cordl_internal_get___7__wrap1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*> const& __get___7__wrap1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>* value);
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*& __get___7__wrap2();
+  constexpr ::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*& __cordl_internal_get___7__wrap2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*> const& __get___7__wrap2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>*> const& __cordl_internal_get___7__wrap2() const;
 
-  constexpr void __set___7__wrap2(::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>* value);
+  constexpr void __cordl_internal_set___7__wrap2(::System::Collections::Generic::IEnumerator_1<::HoudiniEngineUnity::JSONNode*>* value);
 
   static inline ::HoudiniEngineUnity::__JSONNode___get_DeepChildren_d__42* New_ctor(int32_t __1__state);
 

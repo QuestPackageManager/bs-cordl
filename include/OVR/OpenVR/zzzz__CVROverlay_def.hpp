@@ -113,7 +113,7 @@ MARK_VAL_T(::OVR::OpenVR::__CVROverlay__PollNextOverlayEventUnion);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8565))
 // CS Name: ::CVROverlay::_PollNextOverlayEventPacked*
 class CORDL_TYPE __CVROverlay___PollNextOverlayEventPacked : public ::System::MulticastDelegate {
@@ -158,29 +158,30 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVROverlay___Poll
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8566))
 // CS Name: ::CVROverlay::PollNextOverlayEventUnion
 struct CORDL_TYPE __CVROverlay__PollNextOverlayEventUnion {
 public:
   // Declarations
   /// @brief Field pPollNextOverlayEvent, offset 0x0, size 0x8
-  __declspec(property(get = __get_pPollNextOverlayEvent, put = __set_pPollNextOverlayEvent))::OVR::OpenVR::__IVROverlay___PollNextOverlayEvent* pPollNextOverlayEvent;
+  __declspec(property(get = __cordl_internal_get_pPollNextOverlayEvent, put = __cordl_internal_set_pPollNextOverlayEvent))::OVR::OpenVR::__IVROverlay___PollNextOverlayEvent* pPollNextOverlayEvent;
 
   /// @brief Field pPollNextOverlayEventPacked, offset 0x0, size 0x8
-  __declspec(property(get = __get_pPollNextOverlayEventPacked, put = __set_pPollNextOverlayEventPacked))::OVR::OpenVR::__CVROverlay___PollNextOverlayEventPacked* pPollNextOverlayEventPacked;
+  __declspec(property(get = __cordl_internal_get_pPollNextOverlayEventPacked,
+                      put = __cordl_internal_set_pPollNextOverlayEventPacked))::OVR::OpenVR::__CVROverlay___PollNextOverlayEventPacked* pPollNextOverlayEventPacked;
 
-  constexpr ::OVR::OpenVR::__IVROverlay___PollNextOverlayEvent*& __get_pPollNextOverlayEvent();
+  constexpr ::OVR::OpenVR::__IVROverlay___PollNextOverlayEvent*& __cordl_internal_get_pPollNextOverlayEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__IVROverlay___PollNextOverlayEvent*> const& __get_pPollNextOverlayEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__IVROverlay___PollNextOverlayEvent*> const& __cordl_internal_get_pPollNextOverlayEvent() const;
 
-  constexpr void __set_pPollNextOverlayEvent(::OVR::OpenVR::__IVROverlay___PollNextOverlayEvent* value);
+  constexpr void __cordl_internal_set_pPollNextOverlayEvent(::OVR::OpenVR::__IVROverlay___PollNextOverlayEvent* value);
 
-  constexpr ::OVR::OpenVR::__CVROverlay___PollNextOverlayEventPacked*& __get_pPollNextOverlayEventPacked();
+  constexpr ::OVR::OpenVR::__CVROverlay___PollNextOverlayEventPacked*& __cordl_internal_get_pPollNextOverlayEventPacked();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__CVROverlay___PollNextOverlayEventPacked*> const& __get_pPollNextOverlayEventPacked() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__CVROverlay___PollNextOverlayEventPacked*> const& __cordl_internal_get_pPollNextOverlayEventPacked() const;
 
-  constexpr void __set_pPollNextOverlayEventPacked(::OVR::OpenVR::__CVROverlay___PollNextOverlayEventPacked* value);
+  constexpr void __cordl_internal_set_pPollNextOverlayEventPacked(::OVR::OpenVR::__CVROverlay___PollNextOverlayEventPacked* value);
 
   // Ctor Parameters [CppParam { name: "pPollNextOverlayEvent", ty: "::OVR::OpenVR::__IVROverlay___PollNextOverlayEvent*", modifiers: "", def_value: None }, CppParam { name:
   // "pPollNextOverlayEventPacked", ty: "::OVR::OpenVR::__CVROverlay___PollNextOverlayEventPacked*", modifiers: "", def_value: None }]
@@ -238,7 +239,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVROverlay__PollN
 // SizeInfo { instance_size: 672, native_size: -1, calculated_instance_size: 672, calculated_native_size: 672, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8470)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8470))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8567))
 // CS Name: ::OVR.OpenVR::CVROverlay*
 class CORDL_TYPE CVROverlay : public ::System::Object {
@@ -249,13 +250,13 @@ public:
   using _PollNextOverlayEventPacked = ::OVR::OpenVR::__CVROverlay___PollNextOverlayEventPacked;
 
   /// @brief Field FnTable, offset 0x10, size 0x290
-  __declspec(property(get = __get_FnTable, put = __set_FnTable))::OVR::OpenVR::IVROverlay FnTable;
+  __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVROverlay FnTable;
 
-  constexpr ::OVR::OpenVR::IVROverlay& __get_FnTable();
+  constexpr ::OVR::OpenVR::IVROverlay& __cordl_internal_get_FnTable();
 
-  constexpr ::OVR::OpenVR::IVROverlay const& __get_FnTable() const;
+  constexpr ::OVR::OpenVR::IVROverlay const& __cordl_internal_get_FnTable() const;
 
-  constexpr void __set_FnTable(::OVR::OpenVR::IVROverlay value);
+  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVROverlay value);
 
   static inline ::OVR::OpenVR::CVROverlay* New_ctor(void* pInterface);
 

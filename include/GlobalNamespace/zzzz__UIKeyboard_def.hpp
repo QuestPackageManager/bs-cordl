@@ -35,29 +35,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5465))
 // CS Name: ::UIKeyboard::<>c__DisplayClass21_0*
 class CORDL_TYPE __UIKeyboard____c__DisplayClass21_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field key, offset 0x10, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::StringW key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::StringW key;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::UIKeyboard* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::UIKeyboard> __4__this;
 
-  constexpr ::StringW& __get_key();
+  constexpr ::StringW& __cordl_internal_get_key();
 
-  constexpr ::StringW const& __get_key() const;
+  constexpr ::StringW const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::StringW value);
+  constexpr void __cordl_internal_set_key(::StringW value);
 
-  constexpr ::GlobalNamespace::UIKeyboard*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::UIKeyboard>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::UIKeyboard*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::UIKeyboard> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::UIKeyboard* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::UIKeyboard> value);
 
   static inline ::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0* New_ctor();
 
@@ -85,7 +85,7 @@ public:
   ::StringW ___key;
 
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::UIKeyboard* _____4__this;
+  ::UnityW<::GlobalNamespace::UIKeyboard> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -101,7 +101,7 @@ static_assert(offsetof(::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0, _
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 82, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5466))
 // CS Name: ::UIKeyboard*
 class CORDL_TYPE UIKeyboard : public ::UnityEngine::MonoBehaviour {
@@ -110,89 +110,89 @@ public:
   using __c__DisplayClass21_0 = ::GlobalNamespace::__UIKeyboard____c__DisplayClass21_0;
 
   /// @brief Field _keyButtonPrefab, offset 0x18, size 0x8
-  __declspec(property(get = __get__keyButtonPrefab, put = __set__keyButtonPrefab))::GlobalNamespace::TextMeshProButton* _keyButtonPrefab;
+  __declspec(property(get = __cordl_internal_get__keyButtonPrefab, put = __cordl_internal_set__keyButtonPrefab))::UnityW<::GlobalNamespace::TextMeshProButton> _keyButtonPrefab;
 
   /// @brief Field textKeyWasPressedEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_textKeyWasPressedEvent, put = __set_textKeyWasPressedEvent))::System::Action_1<char16_t>* textKeyWasPressedEvent;
+  __declspec(property(get = __cordl_internal_get_textKeyWasPressedEvent, put = __cordl_internal_set_textKeyWasPressedEvent))::System::Action_1<char16_t>* textKeyWasPressedEvent;
 
   /// @brief Field deleteButtonWasPressedEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_deleteButtonWasPressedEvent, put = __set_deleteButtonWasPressedEvent))::System::Action* deleteButtonWasPressedEvent;
+  __declspec(property(get = __cordl_internal_get_deleteButtonWasPressedEvent, put = __cordl_internal_set_deleteButtonWasPressedEvent))::System::Action* deleteButtonWasPressedEvent;
 
   /// @brief Field okButtonWasPressedEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_okButtonWasPressedEvent, put = __set_okButtonWasPressedEvent))::System::Action* okButtonWasPressedEvent;
+  __declspec(property(get = __cordl_internal_get_okButtonWasPressedEvent, put = __cordl_internal_set_okButtonWasPressedEvent))::System::Action* okButtonWasPressedEvent;
 
   /// @brief Field cancelButtonWasPressedEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_cancelButtonWasPressedEvent, put = __set_cancelButtonWasPressedEvent))::System::Action* cancelButtonWasPressedEvent;
+  __declspec(property(get = __cordl_internal_get_cancelButtonWasPressedEvent, put = __cordl_internal_set_cancelButtonWasPressedEvent))::System::Action* cancelButtonWasPressedEvent;
 
   /// @brief Field _okButton, offset 0x40, size 0x8
-  __declspec(property(get = __get__okButton, put = __set__okButton))::UnityEngine::UI::Button* _okButton;
+  __declspec(property(get = __cordl_internal_get__okButton, put = __cordl_internal_set__okButton))::UnityW<::UnityEngine::UI::Button> _okButton;
 
   /// @brief Field _cancelButton, offset 0x48, size 0x8
-  __declspec(property(get = __get__cancelButton, put = __set__cancelButton))::UnityEngine::UI::Button* _cancelButton;
+  __declspec(property(get = __cordl_internal_get__cancelButton, put = __cordl_internal_set__cancelButton))::UnityW<::UnityEngine::UI::Button> _cancelButton;
 
   /// @brief Field _okButtonInteractivity, offset 0x50, size 0x1
-  __declspec(property(get = __get__okButtonInteractivity, put = __set__okButtonInteractivity)) bool _okButtonInteractivity;
+  __declspec(property(get = __cordl_internal_get__okButtonInteractivity, put = __cordl_internal_set__okButtonInteractivity)) bool _okButtonInteractivity;
 
   /// @brief Field _hideCancelButton, offset 0x51, size 0x1
-  __declspec(property(get = __get__hideCancelButton, put = __set__hideCancelButton)) bool _hideCancelButton;
+  __declspec(property(get = __cordl_internal_get__hideCancelButton, put = __cordl_internal_set__hideCancelButton)) bool _hideCancelButton;
 
   __declspec(property(put = set_enableOkButtonInteractivity)) bool enableOkButtonInteractivity;
 
   __declspec(property(put = set_hideCancelButton)) bool hideCancelButton;
 
-  constexpr ::GlobalNamespace::TextMeshProButton*& __get__keyButtonPrefab();
+  constexpr ::UnityW<::GlobalNamespace::TextMeshProButton>& __cordl_internal_get__keyButtonPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TextMeshProButton*> const& __get__keyButtonPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::TextMeshProButton> const& __cordl_internal_get__keyButtonPrefab() const;
 
-  constexpr void __set__keyButtonPrefab(::GlobalNamespace::TextMeshProButton* value);
+  constexpr void __cordl_internal_set__keyButtonPrefab(::UnityW<::GlobalNamespace::TextMeshProButton> value);
 
-  constexpr ::System::Action_1<char16_t>*& __get_textKeyWasPressedEvent();
+  constexpr ::System::Action_1<char16_t>*& __cordl_internal_get_textKeyWasPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<char16_t>*> const& __get_textKeyWasPressedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<char16_t>*> const& __cordl_internal_get_textKeyWasPressedEvent() const;
 
-  constexpr void __set_textKeyWasPressedEvent(::System::Action_1<char16_t>* value);
+  constexpr void __cordl_internal_set_textKeyWasPressedEvent(::System::Action_1<char16_t>* value);
 
-  constexpr ::System::Action*& __get_deleteButtonWasPressedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_deleteButtonWasPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_deleteButtonWasPressedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_deleteButtonWasPressedEvent() const;
 
-  constexpr void __set_deleteButtonWasPressedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_deleteButtonWasPressedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_okButtonWasPressedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_okButtonWasPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_okButtonWasPressedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_okButtonWasPressedEvent() const;
 
-  constexpr void __set_okButtonWasPressedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_okButtonWasPressedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_cancelButtonWasPressedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_cancelButtonWasPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_cancelButtonWasPressedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_cancelButtonWasPressedEvent() const;
 
-  constexpr void __set_cancelButtonWasPressedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_cancelButtonWasPressedEvent(::System::Action* value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__okButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__okButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__okButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__okButton() const;
 
-  constexpr void __set__okButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__okButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__cancelButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__cancelButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__cancelButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelButton() const;
 
-  constexpr void __set__cancelButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__cancelButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr bool& __get__okButtonInteractivity();
+  constexpr bool& __cordl_internal_get__okButtonInteractivity();
 
-  constexpr bool const& __get__okButtonInteractivity() const;
+  constexpr bool const& __cordl_internal_get__okButtonInteractivity() const;
 
-  constexpr void __set__okButtonInteractivity(bool value);
+  constexpr void __cordl_internal_set__okButtonInteractivity(bool value);
 
-  constexpr bool& __get__hideCancelButton();
+  constexpr bool& __cordl_internal_get__hideCancelButton();
 
-  constexpr bool const& __get__hideCancelButton() const;
+  constexpr bool const& __cordl_internal_get__hideCancelButton() const;
 
-  constexpr void __set__hideCancelButton(bool value);
+  constexpr void __cordl_internal_set__hideCancelButton(bool value);
 
   /// @brief Method add_textKeyWasPressedEvent, addr 0x22800e4, size 0xb0, virtual false, abstract: false, final false
   inline void add_textKeyWasPressedEvent(::System::Action_1<char16_t>* value);
@@ -259,7 +259,7 @@ protected:
 
 public:
   /// @brief Field _keyButtonPrefab, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::TextMeshProButton* ____keyButtonPrefab;
+  ::UnityW<::GlobalNamespace::TextMeshProButton> ____keyButtonPrefab;
 
   /// @brief Field textKeyWasPressedEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<char16_t>* ___textKeyWasPressedEvent;
@@ -274,10 +274,10 @@ public:
   ::System::Action* ___cancelButtonWasPressedEvent;
 
   /// @brief Field _okButton, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____okButton;
+  ::UnityW<::UnityEngine::UI::Button> ____okButton;
 
   /// @brief Field _cancelButton, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____cancelButton;
+  ::UnityW<::UnityEngine::UI::Button> ____cancelButton;
 
   /// @brief Field _okButtonInteractivity, offset: 0x50, size: 0x1, def value: None
   bool ____okButtonInteractivity;

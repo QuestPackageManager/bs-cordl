@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_GeometryUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9837))
 // CS Name: ::HoudiniEngineUnity::HEU_GeometryUtility*
 class CORDL_TYPE HEU_GeometryUtility : public ::System::Object {
@@ -46,8 +46,8 @@ public:
   static inline void CalculateMeshTangents(::UnityEngine::Mesh* mesh);
 
   /// @brief Method GenerateCubeMeshFromPoints, addr 0x21c46b8, size 0xb00, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Mesh* GenerateCubeMeshFromPoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> points,
-                                                                ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> pointsColor, float_t size);
+  static inline ::UnityW<::UnityEngine::Mesh> GenerateCubeMeshFromPoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> points,
+                                                                         ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> pointsColor, float_t size);
 
   /// @brief Method GetInstanceOutputName, addr 0x21c51b8, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW GetInstanceOutputName(::StringW partName, ::ArrayW<::StringW, ::Array<::StringW>*> userPrefix, int32_t index);

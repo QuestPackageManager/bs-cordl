@@ -25,20 +25,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DefaultTlsClient);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1165))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1165))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1210))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DefaultTlsClient*
 class CORDL_TYPE DefaultTlsClient : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsClient {
 public:
   // Declarations
   /// @brief Field mDHVerifier, offset 0x50, size 0x8
-  __declspec(property(get = __get_mDHVerifier, put = __set_mDHVerifier))::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* mDHVerifier;
+  __declspec(property(get = __cordl_internal_get_mDHVerifier, put = __cordl_internal_set_mDHVerifier))::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* mDHVerifier;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*& __get_mDHVerifier();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*& __cordl_internal_get_mDHVerifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*> const& __get_mDHVerifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*> const& __cordl_internal_get_mDHVerifier() const;
 
-  constexpr void __set_mDHVerifier(::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* value);
+  constexpr void __cordl_internal_set_mDHVerifier(::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsClient* New_ctor();
 

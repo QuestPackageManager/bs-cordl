@@ -22,48 +22,49 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleTemporalFiltering);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15311))
 // CS Name: ::SimpleTemporalFiltering*
 class CORDL_TYPE SimpleTemporalFiltering : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _temporalFilteringTextures, offset 0x10, size 0x8
-  __declspec(property(get = __get__temporalFilteringTextures,
-                      put = __set__temporalFilteringTextures))::ArrayW<::UnityEngine::RenderTexture*, ::Array<::UnityEngine::RenderTexture*>*> _temporalFilteringTextures;
+  __declspec(
+      property(get = __cordl_internal_get__temporalFilteringTextures,
+               put = __cordl_internal_set__temporalFilteringTextures))::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> _temporalFilteringTextures;
 
   /// @brief Field _prevTemporalFilteringTextureIdx, offset 0x18, size 0x4
-  __declspec(property(get = __get__prevTemporalFilteringTextureIdx, put = __set__prevTemporalFilteringTextureIdx)) int32_t _prevTemporalFilteringTextureIdx;
+  __declspec(property(get = __cordl_internal_get__prevTemporalFilteringTextureIdx, put = __cordl_internal_set__prevTemporalFilteringTextureIdx)) int32_t _prevTemporalFilteringTextureIdx;
 
   /// @brief Field _temporalFilteringMaterial, offset 0x20, size 0x8
-  __declspec(property(get = __get__temporalFilteringMaterial, put = __set__temporalFilteringMaterial))::UnityEngine::Material* _temporalFilteringMaterial;
+  __declspec(property(get = __cordl_internal_get__temporalFilteringMaterial, put = __cordl_internal_set__temporalFilteringMaterial))::UnityW<::UnityEngine::Material> _temporalFilteringMaterial;
 
   /// @brief Field _bufferTexID, offset 0x28, size 0x4
-  __declspec(property(get = __get__bufferTexID, put = __set__bufferTexID)) int32_t _bufferTexID;
+  __declspec(property(get = __cordl_internal_get__bufferTexID, put = __cordl_internal_set__bufferTexID)) int32_t _bufferTexID;
 
-  constexpr ::ArrayW<::UnityEngine::RenderTexture*, ::Array<::UnityEngine::RenderTexture*>*>& __get__temporalFilteringTextures();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*>& __cordl_internal_get__temporalFilteringTextures();
 
-  constexpr ::ArrayW<::UnityEngine::RenderTexture*, ::Array<::UnityEngine::RenderTexture*>*> const& __get__temporalFilteringTextures() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> const& __cordl_internal_get__temporalFilteringTextures() const;
 
-  constexpr void __set__temporalFilteringTextures(::ArrayW<::UnityEngine::RenderTexture*, ::Array<::UnityEngine::RenderTexture*>*> value);
+  constexpr void __cordl_internal_set__temporalFilteringTextures(::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> value);
 
-  constexpr int32_t& __get__prevTemporalFilteringTextureIdx();
+  constexpr int32_t& __cordl_internal_get__prevTemporalFilteringTextureIdx();
 
-  constexpr int32_t const& __get__prevTemporalFilteringTextureIdx() const;
+  constexpr int32_t const& __cordl_internal_get__prevTemporalFilteringTextureIdx() const;
 
-  constexpr void __set__prevTemporalFilteringTextureIdx(int32_t value);
+  constexpr void __cordl_internal_set__prevTemporalFilteringTextureIdx(int32_t value);
 
-  constexpr ::UnityEngine::Material*& __get__temporalFilteringMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__temporalFilteringMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__temporalFilteringMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__temporalFilteringMaterial() const;
 
-  constexpr void __set__temporalFilteringMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__temporalFilteringMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr int32_t& __get__bufferTexID();
+  constexpr int32_t& __cordl_internal_get__bufferTexID();
 
-  constexpr int32_t const& __get__bufferTexID() const;
+  constexpr int32_t const& __cordl_internal_get__bufferTexID() const;
 
-  constexpr void __set__bufferTexID(int32_t value);
+  constexpr void __cordl_internal_set__bufferTexID(int32_t value);
 
   static inline ::GlobalNamespace::SimpleTemporalFiltering* New_ctor();
 
@@ -71,7 +72,7 @@ public:
   inline void _ctor();
 
   /// @brief Method FilterTexture, addr 0x280be00, size 0x180, virtual false, abstract: false, final false
-  inline ::UnityEngine::RenderTexture* FilterTexture(::UnityEngine::RenderTexture* src);
+  inline ::UnityW<::UnityEngine::RenderTexture> FilterTexture(::UnityEngine::RenderTexture* src);
 
   /// @brief Method CreateRenderTexturesIfNeeded, addr 0x280bf80, size 0x28c, virtual false, abstract: false, final false
   inline void CreateRenderTexturesIfNeeded(int32_t width, int32_t height);
@@ -91,13 +92,13 @@ protected:
 
 public:
   /// @brief Field _temporalFilteringTextures, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::RenderTexture*, ::Array<::UnityEngine::RenderTexture*>*> ____temporalFilteringTextures;
+  ::ArrayW<::UnityW<::UnityEngine::RenderTexture>, ::Array<::UnityW<::UnityEngine::RenderTexture>>*> ____temporalFilteringTextures;
 
   /// @brief Field _prevTemporalFilteringTextureIdx, offset: 0x18, size: 0x4, def value: None
   int32_t ____prevTemporalFilteringTextureIdx;
 
   /// @brief Field _temporalFilteringMaterial, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Material* ____temporalFilteringMaterial;
+  ::UnityW<::UnityEngine::Material> ____temporalFilteringMaterial;
 
   /// @brief Field _bufferTexID, offset: 0x28, size: 0x4, def value: None
   int32_t ____bufferTexID;

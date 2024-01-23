@@ -140,7 +140,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::__ProBuilderMesh__NonVersionedEditScope);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12170))
 // CS Name: ::ProBuilderMesh::CacheValidState
 struct CORDL_TYPE __ProBuilderMesh__CacheValidState {
@@ -190,7 +190,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidSt
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12171))
 // CS Name: ::ProBuilderMesh::NonVersionedEditScope
 struct CORDL_TYPE __ProBuilderMesh__NonVersionedEditScope {
@@ -208,16 +208,16 @@ public:
   /// @brief Method Dispose, addr 0x2b5ff8c, size 0x20, virtual true, abstract: false, final true
   inline void Dispose();
 
-  // Ctor Parameters [CppParam { name: "m_Mesh", ty: "::UnityEngine::ProBuilder::ProBuilderMesh*", modifiers: "", def_value: None }, CppParam { name: "m_VersionIndex", ty: "uint16_t", modifiers: "",
-  // def_value: None }]
-  constexpr __ProBuilderMesh__NonVersionedEditScope(::UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh, uint16_t m_VersionIndex) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Mesh", ty: "::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>", modifiers: "", def_value: None }, CppParam { name: "m_VersionIndex", ty: "uint16_t",
+  // modifiers: "", def_value: None }]
+  constexpr __ProBuilderMesh__NonVersionedEditScope(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> m_Mesh, uint16_t m_VersionIndex) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ProBuilderMesh__NonVersionedEditScope();
 
   /// @brief Field m_Mesh, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh;
+  ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> m_Mesh;
 
   /// @brief Field m_VersionIndex, offset: 0x8, size: 0x2, def value: None
   uint16_t m_VersionIndex;
@@ -239,7 +239,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__ProBuilderMesh__NonVersioned
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12172))
 // CS Name: ::ProBuilderMesh::<>c*
 class CORDL_TYPE __ProBuilderMesh____c : public ::System::Object {
@@ -331,20 +331,20 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__ProBu
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12173))
 // CS Name: ::ProBuilderMesh::<>c__DisplayClass168_0*
 class CORDL_TYPE __ProBuilderMesh____c__DisplayClass168_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field i, offset 0x10, size 0x4
-  __declspec(property(get = __get_i, put = __set_i)) int32_t i;
+  __declspec(property(get = __cordl_internal_get_i, put = __cordl_internal_set_i)) int32_t i;
 
-  constexpr int32_t& __get_i();
+  constexpr int32_t& __cordl_internal_get_i();
 
-  constexpr int32_t const& __get_i() const;
+  constexpr int32_t const& __cordl_internal_get_i() const;
 
-  constexpr void __set_i(int32_t value);
+  constexpr void __cordl_internal_set_i(int32_t value);
 
   static inline ::UnityEngine::ProBuilder::__ProBuilderMesh____c__DisplayClass168_0* New_ctor();
 
@@ -383,20 +383,20 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__ProBuilderMesh____c__Display
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12174))
 // CS Name: ::ProBuilderMesh::<>c__DisplayClass170_0*
 class CORDL_TYPE __ProBuilderMesh____c__DisplayClass170_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field i, offset 0x10, size 0x4
-  __declspec(property(get = __get_i, put = __set_i)) int32_t i;
+  __declspec(property(get = __cordl_internal_get_i, put = __cordl_internal_set_i)) int32_t i;
 
-  constexpr int32_t& __get_i();
+  constexpr int32_t& __cordl_internal_get_i();
 
-  constexpr int32_t const& __get_i() const;
+  constexpr int32_t const& __cordl_internal_get_i() const;
 
-  constexpr void __set_i(int32_t value);
+  constexpr void __cordl_internal_set_i(int32_t value);
 
   static inline ::UnityEngine::ProBuilder::__ProBuilderMesh____c__DisplayClass170_0* New_ctor();
 
@@ -435,7 +435,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__ProBuilderMesh____c__Display
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 256, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12170)), TypeDefinitionIndex(TypeDefinitionIndex(10199)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10199)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(12170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12175))
 // CS Name: ::UnityEngine.ProBuilder::ProBuilderMesh*
 class CORDL_TYPE ProBuilderMesh : public ::UnityEngine::MonoBehaviour {
@@ -452,116 +452,122 @@ public:
   using CacheValidState = ::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState;
 
   /// @brief Field m_MeshFormatVersion, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_MeshFormatVersion, put = __set_m_MeshFormatVersion)) int32_t m_MeshFormatVersion;
+  __declspec(property(get = __cordl_internal_get_m_MeshFormatVersion, put = __cordl_internal_set_m_MeshFormatVersion)) int32_t m_MeshFormatVersion;
 
   /// @brief Field m_Faces, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Faces, put = __set_m_Faces))::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> m_Faces;
+  __declspec(property(get = __cordl_internal_get_m_Faces, put = __cordl_internal_set_m_Faces))::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> m_Faces;
 
   /// @brief Field m_SharedVertices, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_SharedVertices,
-                      put = __set_m_SharedVertices))::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> m_SharedVertices;
+  __declspec(property(get = __cordl_internal_get_m_SharedVertices,
+                      put = __cordl_internal_set_m_SharedVertices))::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> m_SharedVertices;
 
   /// @brief Field m_CacheValid, offset 0x30, size 0x1
-  __declspec(property(get = __get_m_CacheValid, put = __set_m_CacheValid))::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState m_CacheValid;
+  __declspec(property(get = __cordl_internal_get_m_CacheValid, put = __cordl_internal_set_m_CacheValid))::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState m_CacheValid;
 
   /// @brief Field m_SharedVertexLookup, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_SharedVertexLookup, put = __set_m_SharedVertexLookup))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* m_SharedVertexLookup;
+  __declspec(property(get = __cordl_internal_get_m_SharedVertexLookup,
+                      put = __cordl_internal_set_m_SharedVertexLookup))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* m_SharedVertexLookup;
 
   /// @brief Field m_SharedTextures, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_SharedTextures,
-                      put = __set_m_SharedTextures))::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> m_SharedTextures;
+  __declspec(property(get = __cordl_internal_get_m_SharedTextures,
+                      put = __cordl_internal_set_m_SharedTextures))::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> m_SharedTextures;
 
   /// @brief Field m_SharedTextureLookup, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_SharedTextureLookup, put = __set_m_SharedTextureLookup))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* m_SharedTextureLookup;
+  __declspec(property(get = __cordl_internal_get_m_SharedTextureLookup,
+                      put = __cordl_internal_set_m_SharedTextureLookup))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* m_SharedTextureLookup;
 
   /// @brief Field m_Positions, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_Positions, put = __set_m_Positions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_Positions;
+  __declspec(property(get = __cordl_internal_get_m_Positions, put = __cordl_internal_set_m_Positions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_Positions;
 
   /// @brief Field m_Textures0, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_Textures0, put = __set_m_Textures0))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> m_Textures0;
+  __declspec(property(get = __cordl_internal_get_m_Textures0, put = __cordl_internal_set_m_Textures0))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> m_Textures0;
 
   /// @brief Field m_Textures2, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_Textures2, put = __set_m_Textures2))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Textures2;
+  __declspec(property(get = __cordl_internal_get_m_Textures2, put = __cordl_internal_set_m_Textures2))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Textures2;
 
   /// @brief Field m_Textures3, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_Textures3, put = __set_m_Textures3))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Textures3;
+  __declspec(property(get = __cordl_internal_get_m_Textures3, put = __cordl_internal_set_m_Textures3))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Textures3;
 
   /// @brief Field m_Tangents, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_Tangents, put = __set_m_Tangents))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> m_Tangents;
+  __declspec(property(get = __cordl_internal_get_m_Tangents, put = __cordl_internal_set_m_Tangents))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> m_Tangents;
 
   /// @brief Field m_Normals, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_Normals, put = __set_m_Normals))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_Normals;
+  __declspec(property(get = __cordl_internal_get_m_Normals, put = __cordl_internal_set_m_Normals))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_Normals;
 
   /// @brief Field m_Colors, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_Colors, put = __set_m_Colors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> m_Colors;
+  __declspec(property(get = __cordl_internal_get_m_Colors, put = __cordl_internal_set_m_Colors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> m_Colors;
 
   /// @brief Field <userCollisions>k__BackingField, offset 0x88, size 0x1
-  __declspec(property(get = __get__userCollisions_k__BackingField, put = __set__userCollisions_k__BackingField)) bool _userCollisions_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__userCollisions_k__BackingField, put = __cordl_internal_set__userCollisions_k__BackingField)) bool _userCollisions_k__BackingField;
 
   /// @brief Field m_UnwrapParameters, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_UnwrapParameters, put = __set_m_UnwrapParameters))::UnityEngine::ProBuilder::UnwrapParameters* m_UnwrapParameters;
+  __declspec(property(get = __cordl_internal_get_m_UnwrapParameters, put = __cordl_internal_set_m_UnwrapParameters))::UnityEngine::ProBuilder::UnwrapParameters* m_UnwrapParameters;
 
   /// @brief Field m_PreserveMeshAssetOnDestroy, offset 0x98, size 0x1
-  __declspec(property(get = __get_m_PreserveMeshAssetOnDestroy, put = __set_m_PreserveMeshAssetOnDestroy)) bool m_PreserveMeshAssetOnDestroy;
+  __declspec(property(get = __cordl_internal_get_m_PreserveMeshAssetOnDestroy, put = __cordl_internal_set_m_PreserveMeshAssetOnDestroy)) bool m_PreserveMeshAssetOnDestroy;
 
   /// @brief Field assetGuid, offset 0xa0, size 0x8
-  __declspec(property(get = __get_assetGuid, put = __set_assetGuid))::StringW assetGuid;
+  __declspec(property(get = __cordl_internal_get_assetGuid, put = __cordl_internal_set_assetGuid))::StringW assetGuid;
 
   /// @brief Field m_Mesh, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_Mesh, put = __set_m_Mesh))::UnityEngine::Mesh* m_Mesh;
+  __declspec(property(get = __cordl_internal_get_m_Mesh, put = __cordl_internal_set_m_Mesh))::UnityW<::UnityEngine::Mesh> m_Mesh;
 
   /// @brief Field m_MeshRenderer, offset 0xb0, size 0x8
-  __declspec(property(get = __get_m_MeshRenderer, put = __set_m_MeshRenderer))::UnityEngine::MeshRenderer* m_MeshRenderer;
+  __declspec(property(get = __cordl_internal_get_m_MeshRenderer, put = __cordl_internal_set_m_MeshRenderer))::UnityW<::UnityEngine::MeshRenderer> m_MeshRenderer;
 
   /// @brief Field m_MeshFilter, offset 0xb8, size 0x8
-  __declspec(property(get = __get_m_MeshFilter, put = __set_m_MeshFilter))::UnityEngine::MeshFilter* m_MeshFilter;
+  __declspec(property(get = __cordl_internal_get_m_MeshFilter, put = __cordl_internal_set_m_MeshFilter))::UnityW<::UnityEngine::MeshFilter> m_MeshFilter;
 
   /// @brief Field m_VersionIndex, offset 0xc0, size 0x2
-  __declspec(property(get = __get_m_VersionIndex, put = __set_m_VersionIndex)) uint16_t m_VersionIndex;
+  __declspec(property(get = __cordl_internal_get_m_VersionIndex, put = __cordl_internal_set_m_VersionIndex)) uint16_t m_VersionIndex;
 
   /// @brief Field m_IsSelectable, offset 0xc2, size 0x1
-  __declspec(property(get = __get_m_IsSelectable, put = __set_m_IsSelectable)) bool m_IsSelectable;
+  __declspec(property(get = __cordl_internal_get_m_IsSelectable, put = __cordl_internal_set_m_IsSelectable)) bool m_IsSelectable;
 
   /// @brief Field m_SelectedFaces, offset 0xc8, size 0x8
-  __declspec(property(get = __get_m_SelectedFaces, put = __set_m_SelectedFaces))::ArrayW<int32_t, ::Array<int32_t>*> m_SelectedFaces;
+  __declspec(property(get = __cordl_internal_get_m_SelectedFaces, put = __cordl_internal_set_m_SelectedFaces))::ArrayW<int32_t, ::Array<int32_t>*> m_SelectedFaces;
 
   /// @brief Field m_SelectedEdges, offset 0xd0, size 0x8
-  __declspec(property(get = __get_m_SelectedEdges, put = __set_m_SelectedEdges))::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> m_SelectedEdges;
+  __declspec(property(get = __cordl_internal_get_m_SelectedEdges,
+                      put = __cordl_internal_set_m_SelectedEdges))::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> m_SelectedEdges;
 
   /// @brief Field m_SelectedVertices, offset 0xd8, size 0x8
-  __declspec(property(get = __get_m_SelectedVertices, put = __set_m_SelectedVertices))::ArrayW<int32_t, ::Array<int32_t>*> m_SelectedVertices;
+  __declspec(property(get = __cordl_internal_get_m_SelectedVertices, put = __cordl_internal_set_m_SelectedVertices))::ArrayW<int32_t, ::Array<int32_t>*> m_SelectedVertices;
 
   /// @brief Field m_SelectedCacheDirty, offset 0xe0, size 0x1
-  __declspec(property(get = __get_m_SelectedCacheDirty, put = __set_m_SelectedCacheDirty)) bool m_SelectedCacheDirty;
+  __declspec(property(get = __cordl_internal_get_m_SelectedCacheDirty, put = __cordl_internal_set_m_SelectedCacheDirty)) bool m_SelectedCacheDirty;
 
   /// @brief Field m_SelectedSharedVerticesCount, offset 0xe4, size 0x4
-  __declspec(property(get = __get_m_SelectedSharedVerticesCount, put = __set_m_SelectedSharedVerticesCount)) int32_t m_SelectedSharedVerticesCount;
+  __declspec(property(get = __cordl_internal_get_m_SelectedSharedVerticesCount, put = __cordl_internal_set_m_SelectedSharedVerticesCount)) int32_t m_SelectedSharedVerticesCount;
 
   /// @brief Field m_SelectedCoincidentVertexCount, offset 0xe8, size 0x4
-  __declspec(property(get = __get_m_SelectedCoincidentVertexCount, put = __set_m_SelectedCoincidentVertexCount)) int32_t m_SelectedCoincidentVertexCount;
+  __declspec(property(get = __cordl_internal_get_m_SelectedCoincidentVertexCount, put = __cordl_internal_set_m_SelectedCoincidentVertexCount)) int32_t m_SelectedCoincidentVertexCount;
 
   /// @brief Field m_SelectedSharedVertices, offset 0xf0, size 0x8
-  __declspec(property(get = __get_m_SelectedSharedVertices, put = __set_m_SelectedSharedVertices))::System::Collections::Generic::HashSet_1<int32_t>* m_SelectedSharedVertices;
+  __declspec(property(get = __cordl_internal_get_m_SelectedSharedVertices,
+                      put = __cordl_internal_set_m_SelectedSharedVertices))::System::Collections::Generic::HashSet_1<int32_t>* m_SelectedSharedVertices;
 
   /// @brief Field m_SelectedCoincidentVertices, offset 0xf8, size 0x8
-  __declspec(property(get = __get_m_SelectedCoincidentVertices, put = __set_m_SelectedCoincidentVertices))::System::Collections::Generic::List_1<int32_t>* m_SelectedCoincidentVertices;
+  __declspec(property(get = __cordl_internal_get_m_SelectedCoincidentVertices,
+                      put = __cordl_internal_set_m_SelectedCoincidentVertices))::System::Collections::Generic::List_1<int32_t>* m_SelectedCoincidentVertices;
 
   /// @brief Field meshWillBeDestroyed, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_meshWillBeDestroyed, put = setStaticF_meshWillBeDestroyed))::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshWillBeDestroyed;
+  static __declspec(property(get = getStaticF_meshWillBeDestroyed, put = setStaticF_meshWillBeDestroyed))::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshWillBeDestroyed;
 
   /// @brief Field meshWasInitialized, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_meshWasInitialized, put = setStaticF_meshWasInitialized))::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* meshWasInitialized;
+  static __declspec(property(get = getStaticF_meshWasInitialized, put = setStaticF_meshWasInitialized))::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* meshWasInitialized;
 
   /// @brief Field componentWillBeDestroyed, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_componentWillBeDestroyed,
-                             put = setStaticF_componentWillBeDestroyed))::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* componentWillBeDestroyed;
+                             put = setStaticF_componentWillBeDestroyed))::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* componentWillBeDestroyed;
 
   /// @brief Field componentHasBeenReset, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_componentHasBeenReset, put = setStaticF_componentHasBeenReset))::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* componentHasBeenReset;
+  static __declspec(property(get = getStaticF_componentHasBeenReset,
+                             put = setStaticF_componentHasBeenReset))::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* componentHasBeenReset;
 
   /// @brief Field elementSelectionChanged, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_elementSelectionChanged,
-                             put = setStaticF_elementSelectionChanged))::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* elementSelectionChanged;
+                             put = setStaticF_elementSelectionChanged))::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* elementSelectionChanged;
 
   /// @brief Field s_CachedHashSet, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_CachedHashSet, put = setStaticF_s_CachedHashSet))::System::Collections::Generic::HashSet_1<int32_t>* s_CachedHashSet;
@@ -570,9 +576,9 @@ public:
 
   __declspec(property(get = get_unwrapParameters, put = set_unwrapParameters))::UnityEngine::ProBuilder::UnwrapParameters* unwrapParameters;
 
-  __declspec(property(get = get_renderer))::UnityEngine::MeshRenderer* renderer;
+  __declspec(property(get = get_renderer))::UnityW<::UnityEngine::MeshRenderer> renderer;
 
-  __declspec(property(get = get_filter))::UnityEngine::MeshFilter* filter;
+  __declspec(property(get = get_filter))::UnityW<::UnityEngine::MeshFilter> filter;
 
   __declspec(property(get = get_versionIndex)) uint16_t versionIndex;
 
@@ -627,7 +633,7 @@ public:
 
   __declspec(property(get = get_triangleCount)) int32_t triangleCount;
 
-  __declspec(property(get = get_mesh, put = set_mesh))::UnityEngine::Mesh* mesh;
+  __declspec(property(get = get_mesh, put = set_mesh))::UnityW<::UnityEngine::Mesh> mesh;
 
   __declspec(property(get = get_id)) int32_t id;
 
@@ -665,211 +671,211 @@ public:
 
   __declspec(property(get = get_selectedIndexesInternal, put = set_selectedIndexesInternal))::ArrayW<int32_t, ::Array<int32_t>*> selectedIndexesInternal;
 
-  constexpr int32_t& __get_m_MeshFormatVersion();
+  constexpr int32_t& __cordl_internal_get_m_MeshFormatVersion();
 
-  constexpr int32_t const& __get_m_MeshFormatVersion() const;
+  constexpr int32_t const& __cordl_internal_get_m_MeshFormatVersion() const;
 
-  constexpr void __set_m_MeshFormatVersion(int32_t value);
+  constexpr void __cordl_internal_set_m_MeshFormatVersion(int32_t value);
 
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>& __get_m_Faces();
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>& __cordl_internal_get_m_Faces();
 
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> const& __get_m_Faces() const;
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> const& __cordl_internal_get_m_Faces() const;
 
-  constexpr void __set_m_Faces(::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> value);
+  constexpr void __cordl_internal_set_m_Faces(::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>& __get_m_SharedVertices();
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>& __cordl_internal_get_m_SharedVertices();
 
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> const& __get_m_SharedVertices() const;
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> const& __cordl_internal_get_m_SharedVertices() const;
 
-  constexpr void __set_m_SharedVertices(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value);
+  constexpr void __cordl_internal_set_m_SharedVertices(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value);
 
-  constexpr ::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState& __get_m_CacheValid();
+  constexpr ::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState& __cordl_internal_get_m_CacheValid();
 
-  constexpr ::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState const& __get_m_CacheValid() const;
+  constexpr ::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState const& __cordl_internal_get_m_CacheValid() const;
 
-  constexpr void __set_m_CacheValid(::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState value);
+  constexpr void __cordl_internal_set_m_CacheValid(::UnityEngine::ProBuilder::__ProBuilderMesh__CacheValidState value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __get_m_SharedVertexLookup();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __cordl_internal_get_m_SharedVertexLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __get_m_SharedVertexLookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __cordl_internal_get_m_SharedVertexLookup() const;
 
-  constexpr void __set_m_SharedVertexLookup(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
+  constexpr void __cordl_internal_set_m_SharedVertexLookup(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
 
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>& __get_m_SharedTextures();
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>& __cordl_internal_get_m_SharedTextures();
 
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> const& __get_m_SharedTextures() const;
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> const& __cordl_internal_get_m_SharedTextures() const;
 
-  constexpr void __set_m_SharedTextures(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value);
+  constexpr void __cordl_internal_set_m_SharedTextures(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __get_m_SharedTextureLookup();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __cordl_internal_get_m_SharedTextureLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __get_m_SharedTextureLookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __cordl_internal_get_m_SharedTextureLookup() const;
 
-  constexpr void __set_m_SharedTextureLookup(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
+  constexpr void __cordl_internal_set_m_SharedTextureLookup(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get_m_Positions();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_m_Positions();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get_m_Positions() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_Positions() const;
 
-  constexpr void __set_m_Positions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set_m_Positions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __get_m_Textures0();
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __cordl_internal_get_m_Textures0();
 
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __get_m_Textures0() const;
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __cordl_internal_get_m_Textures0() const;
 
-  constexpr void __set_m_Textures0(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
+  constexpr void __cordl_internal_set_m_Textures0(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __get_m_Textures2();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Textures2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __get_m_Textures2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __cordl_internal_get_m_Textures2() const;
 
-  constexpr void __set_m_Textures2(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+  constexpr void __cordl_internal_set_m_Textures2(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __get_m_Textures3();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Textures3();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __get_m_Textures3() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __cordl_internal_get_m_Textures3() const;
 
-  constexpr void __set_m_Textures3(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+  constexpr void __cordl_internal_set_m_Textures3(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __get_m_Tangents();
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get_m_Tangents();
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __get_m_Tangents() const;
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get_m_Tangents() const;
 
-  constexpr void __set_m_Tangents(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+  constexpr void __cordl_internal_set_m_Tangents(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get_m_Normals();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_m_Normals();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get_m_Normals() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_Normals() const;
 
-  constexpr void __set_m_Normals(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set_m_Normals(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __get_m_Colors();
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __cordl_internal_get_m_Colors();
 
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __get_m_Colors() const;
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __cordl_internal_get_m_Colors() const;
 
-  constexpr void __set_m_Colors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
+  constexpr void __cordl_internal_set_m_Colors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
 
-  constexpr bool& __get__userCollisions_k__BackingField();
+  constexpr bool& __cordl_internal_get__userCollisions_k__BackingField();
 
-  constexpr bool const& __get__userCollisions_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__userCollisions_k__BackingField() const;
 
-  constexpr void __set__userCollisions_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__userCollisions_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::ProBuilder::UnwrapParameters*& __get_m_UnwrapParameters();
+  constexpr ::UnityEngine::ProBuilder::UnwrapParameters*& __cordl_internal_get_m_UnwrapParameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::UnwrapParameters*> const& __get_m_UnwrapParameters() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::UnwrapParameters*> const& __cordl_internal_get_m_UnwrapParameters() const;
 
-  constexpr void __set_m_UnwrapParameters(::UnityEngine::ProBuilder::UnwrapParameters* value);
+  constexpr void __cordl_internal_set_m_UnwrapParameters(::UnityEngine::ProBuilder::UnwrapParameters* value);
 
-  constexpr bool& __get_m_PreserveMeshAssetOnDestroy();
+  constexpr bool& __cordl_internal_get_m_PreserveMeshAssetOnDestroy();
 
-  constexpr bool const& __get_m_PreserveMeshAssetOnDestroy() const;
+  constexpr bool const& __cordl_internal_get_m_PreserveMeshAssetOnDestroy() const;
 
-  constexpr void __set_m_PreserveMeshAssetOnDestroy(bool value);
+  constexpr void __cordl_internal_set_m_PreserveMeshAssetOnDestroy(bool value);
 
-  constexpr ::StringW& __get_assetGuid();
+  constexpr ::StringW& __cordl_internal_get_assetGuid();
 
-  constexpr ::StringW const& __get_assetGuid() const;
+  constexpr ::StringW const& __cordl_internal_get_assetGuid() const;
 
-  constexpr void __set_assetGuid(::StringW value);
+  constexpr void __cordl_internal_set_assetGuid(::StringW value);
 
-  constexpr ::UnityEngine::Mesh*& __get_m_Mesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get_m_Mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get_m_Mesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get_m_Mesh() const;
 
-  constexpr void __set_m_Mesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set_m_Mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  constexpr ::UnityEngine::MeshRenderer*& __get_m_MeshRenderer();
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get_m_MeshRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshRenderer*> const& __get_m_MeshRenderer() const;
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get_m_MeshRenderer() const;
 
-  constexpr void __set_m_MeshRenderer(::UnityEngine::MeshRenderer* value);
+  constexpr void __cordl_internal_set_m_MeshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  constexpr ::UnityEngine::MeshFilter*& __get_m_MeshFilter();
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get_m_MeshFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& __get_m_MeshFilter() const;
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get_m_MeshFilter() const;
 
-  constexpr void __set_m_MeshFilter(::UnityEngine::MeshFilter* value);
+  constexpr void __cordl_internal_set_m_MeshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  constexpr uint16_t& __get_m_VersionIndex();
+  constexpr uint16_t& __cordl_internal_get_m_VersionIndex();
 
-  constexpr uint16_t const& __get_m_VersionIndex() const;
+  constexpr uint16_t const& __cordl_internal_get_m_VersionIndex() const;
 
-  constexpr void __set_m_VersionIndex(uint16_t value);
+  constexpr void __cordl_internal_set_m_VersionIndex(uint16_t value);
 
-  constexpr bool& __get_m_IsSelectable();
+  constexpr bool& __cordl_internal_get_m_IsSelectable();
 
-  constexpr bool const& __get_m_IsSelectable() const;
+  constexpr bool const& __cordl_internal_get_m_IsSelectable() const;
 
-  constexpr void __set_m_IsSelectable(bool value);
+  constexpr void __cordl_internal_set_m_IsSelectable(bool value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_m_SelectedFaces();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_SelectedFaces();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_m_SelectedFaces() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_SelectedFaces() const;
 
-  constexpr void __set_m_SelectedFaces(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_m_SelectedFaces(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>& __get_m_SelectedEdges();
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>& __cordl_internal_get_m_SelectedEdges();
 
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> const& __get_m_SelectedEdges() const;
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> const& __cordl_internal_get_m_SelectedEdges() const;
 
-  constexpr void __set_m_SelectedEdges(::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> value);
+  constexpr void __cordl_internal_set_m_SelectedEdges(::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_m_SelectedVertices();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_SelectedVertices();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_m_SelectedVertices() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_SelectedVertices() const;
 
-  constexpr void __set_m_SelectedVertices(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_m_SelectedVertices(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr bool& __get_m_SelectedCacheDirty();
+  constexpr bool& __cordl_internal_get_m_SelectedCacheDirty();
 
-  constexpr bool const& __get_m_SelectedCacheDirty() const;
+  constexpr bool const& __cordl_internal_get_m_SelectedCacheDirty() const;
 
-  constexpr void __set_m_SelectedCacheDirty(bool value);
+  constexpr void __cordl_internal_set_m_SelectedCacheDirty(bool value);
 
-  constexpr int32_t& __get_m_SelectedSharedVerticesCount();
+  constexpr int32_t& __cordl_internal_get_m_SelectedSharedVerticesCount();
 
-  constexpr int32_t const& __get_m_SelectedSharedVerticesCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_SelectedSharedVerticesCount() const;
 
-  constexpr void __set_m_SelectedSharedVerticesCount(int32_t value);
+  constexpr void __cordl_internal_set_m_SelectedSharedVerticesCount(int32_t value);
 
-  constexpr int32_t& __get_m_SelectedCoincidentVertexCount();
+  constexpr int32_t& __cordl_internal_get_m_SelectedCoincidentVertexCount();
 
-  constexpr int32_t const& __get_m_SelectedCoincidentVertexCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_SelectedCoincidentVertexCount() const;
 
-  constexpr void __set_m_SelectedCoincidentVertexCount(int32_t value);
+  constexpr void __cordl_internal_set_m_SelectedCoincidentVertexCount(int32_t value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __get_m_SelectedSharedVertices();
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_m_SelectedSharedVertices();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __get_m_SelectedSharedVertices() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_m_SelectedSharedVertices() const;
 
-  constexpr void __set_m_SelectedSharedVertices(::System::Collections::Generic::HashSet_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_SelectedSharedVertices(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get_m_SelectedCoincidentVertices();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_SelectedCoincidentVertices();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get_m_SelectedCoincidentVertices() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_SelectedCoincidentVertices() const;
 
-  constexpr void __set_m_SelectedCoincidentVertices(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_SelectedCoincidentVertices(::System::Collections::Generic::List_1<int32_t>* value);
 
-  static inline void setStaticF_meshWillBeDestroyed(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void setStaticF_meshWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  static inline ::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* getStaticF_meshWillBeDestroyed();
+  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_meshWillBeDestroyed();
 
-  static inline void setStaticF_meshWasInitialized(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void setStaticF_meshWasInitialized(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  static inline ::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* getStaticF_meshWasInitialized();
+  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_meshWasInitialized();
 
-  static inline void setStaticF_componentWillBeDestroyed(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void setStaticF_componentWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  static inline ::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* getStaticF_componentWillBeDestroyed();
+  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_componentWillBeDestroyed();
 
-  static inline void setStaticF_componentHasBeenReset(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void setStaticF_componentHasBeenReset(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  static inline ::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* getStaticF_componentHasBeenReset();
+  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_componentHasBeenReset();
 
-  static inline void setStaticF_elementSelectionChanged(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void setStaticF_elementSelectionChanged(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
-  static inline ::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* getStaticF_elementSelectionChanged();
+  static inline ::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* getStaticF_elementSelectionChanged();
 
   static inline void setStaticF_s_CachedHashSet(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
@@ -888,10 +894,10 @@ public:
   inline void set_unwrapParameters(::UnityEngine::ProBuilder::UnwrapParameters* value);
 
   /// @brief Method get_renderer, addr 0x2b54748, size 0x74, virtual false, abstract: false, final false
-  inline ::UnityEngine::MeshRenderer* get_renderer();
+  inline ::UnityW<::UnityEngine::MeshRenderer> get_renderer();
 
   /// @brief Method get_filter, addr 0x2b5774c, size 0xb8, virtual false, abstract: false, final false
-  inline ::UnityEngine::MeshFilter* get_filter();
+  inline ::UnityW<::UnityEngine::MeshFilter> get_filter();
 
   /// @brief Method get_versionIndex, addr 0x2b57804, size 0x8, virtual false, abstract: false, final false
   inline uint16_t get_versionIndex();
@@ -1071,37 +1077,37 @@ public:
   inline int32_t get_triangleCount();
 
   /// @brief Method add_meshWillBeDestroyed, addr 0x2b59d5c, size 0xf0, virtual false, abstract: false, final false
-  static inline void add_meshWillBeDestroyed(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void add_meshWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method remove_meshWillBeDestroyed, addr 0x2b59e4c, size 0xf0, virtual false, abstract: false, final false
-  static inline void remove_meshWillBeDestroyed(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void remove_meshWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method add_meshWasInitialized, addr 0x2b59f3c, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_meshWasInitialized(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void add_meshWasInitialized(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method remove_meshWasInitialized, addr 0x2b5a030, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_meshWasInitialized(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void remove_meshWasInitialized(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method add_componentWillBeDestroyed, addr 0x2b5a124, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_componentWillBeDestroyed(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void add_componentWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method remove_componentWillBeDestroyed, addr 0x2b5a218, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_componentWillBeDestroyed(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void remove_componentWillBeDestroyed(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method add_componentHasBeenReset, addr 0x2b5a30c, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_componentHasBeenReset(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void add_componentHasBeenReset(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method remove_componentHasBeenReset, addr 0x2b5a400, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_componentHasBeenReset(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void remove_componentHasBeenReset(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method add_elementSelectionChanged, addr 0x2b5a4f4, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_elementSelectionChanged(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void add_elementSelectionChanged(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method remove_elementSelectionChanged, addr 0x2b5a5e8, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_elementSelectionChanged(::System::Action_1<::UnityEngine::ProBuilder::ProBuilderMesh*>* value);
+  static inline void remove_elementSelectionChanged(::System::Action_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>* value);
 
   /// @brief Method get_mesh, addr 0x2b54924, size 0xbc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Mesh* get_mesh();
+  inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
   /// @brief Method set_mesh, addr 0x2b5a6dc, size 0x8, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);
@@ -1134,21 +1140,21 @@ public:
   inline void EnsureMeshFilterIsAssigned();
 
   /// @brief Method CreateInstanceWithPoints, addr 0x2b5af04, size 0x120, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::ProBuilderMesh* CreateInstanceWithPoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions);
+  static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> CreateInstanceWithPoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions);
 
   /// @brief Method Create, addr 0x2b5b24c, size 0x90, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::ProBuilderMesh* Create();
+  static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Create();
 
   /// @brief Method Create, addr 0x2b5b2dc, size 0xd0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::ProBuilderMesh* Create(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector3>* positions,
-                                                                  ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
+  static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Create(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Vector3>* positions,
+                                                                           ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces);
 
   /// @brief Method Create, addr 0x2b5b4c0, size 0x1a0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::ProBuilderMesh* Create(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
-                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces,
-                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices,
-                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedTextures,
-                                                                  ::System::Collections::Generic::IList_1<::UnityEngine::Material*>* materials);
+  static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> Create(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
+                                                                           ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Face*>* faces,
+                                                                           ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedVertices,
+                                                                           ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::SharedVertex*>* sharedTextures,
+                                                                           ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Material>>* materials);
 
   /// @brief Method GeometryWithPoints, addr 0x2b5b024, size 0x228, virtual false, abstract: false, final false
   inline void GeometryWithPoints(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> points);
@@ -1420,13 +1426,13 @@ public:
   ::StringW ___assetGuid;
 
   /// @brief Field m_Mesh, offset: 0xa8, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ___m_Mesh;
+  ::UnityW<::UnityEngine::Mesh> ___m_Mesh;
 
   /// @brief Field m_MeshRenderer, offset: 0xb0, size: 0x8, def value: None
-  ::UnityEngine::MeshRenderer* ___m_MeshRenderer;
+  ::UnityW<::UnityEngine::MeshRenderer> ___m_MeshRenderer;
 
   /// @brief Field m_MeshFilter, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* ___m_MeshFilter;
+  ::UnityW<::UnityEngine::MeshFilter> ___m_MeshFilter;
 
   /// @brief Field m_VersionIndex, offset: 0xc0, size: 0x2, def value: None
   uint16_t ___m_VersionIndex;

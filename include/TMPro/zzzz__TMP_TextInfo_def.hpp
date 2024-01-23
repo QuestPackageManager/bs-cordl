@@ -42,59 +42,59 @@ MARK_REF_PTR_T(::TMPro::TMP_TextInfo);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12450))
 // CS Name: ::TMPro::TMP_TextInfo*
 class CORDL_TYPE TMP_TextInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field textComponent, offset 0x10, size 0x8
-  __declspec(property(get = __get_textComponent, put = __set_textComponent))::TMPro::TMP_Text* textComponent;
+  __declspec(property(get = __cordl_internal_get_textComponent, put = __cordl_internal_set_textComponent))::UnityW<::TMPro::TMP_Text> textComponent;
 
   /// @brief Field characterCount, offset 0x18, size 0x4
-  __declspec(property(get = __get_characterCount, put = __set_characterCount)) int32_t characterCount;
+  __declspec(property(get = __cordl_internal_get_characterCount, put = __cordl_internal_set_characterCount)) int32_t characterCount;
 
   /// @brief Field spriteCount, offset 0x1c, size 0x4
-  __declspec(property(get = __get_spriteCount, put = __set_spriteCount)) int32_t spriteCount;
+  __declspec(property(get = __cordl_internal_get_spriteCount, put = __cordl_internal_set_spriteCount)) int32_t spriteCount;
 
   /// @brief Field spaceCount, offset 0x20, size 0x4
-  __declspec(property(get = __get_spaceCount, put = __set_spaceCount)) int32_t spaceCount;
+  __declspec(property(get = __cordl_internal_get_spaceCount, put = __cordl_internal_set_spaceCount)) int32_t spaceCount;
 
   /// @brief Field wordCount, offset 0x24, size 0x4
-  __declspec(property(get = __get_wordCount, put = __set_wordCount)) int32_t wordCount;
+  __declspec(property(get = __cordl_internal_get_wordCount, put = __cordl_internal_set_wordCount)) int32_t wordCount;
 
   /// @brief Field linkCount, offset 0x28, size 0x4
-  __declspec(property(get = __get_linkCount, put = __set_linkCount)) int32_t linkCount;
+  __declspec(property(get = __cordl_internal_get_linkCount, put = __cordl_internal_set_linkCount)) int32_t linkCount;
 
   /// @brief Field lineCount, offset 0x2c, size 0x4
-  __declspec(property(get = __get_lineCount, put = __set_lineCount)) int32_t lineCount;
+  __declspec(property(get = __cordl_internal_get_lineCount, put = __cordl_internal_set_lineCount)) int32_t lineCount;
 
   /// @brief Field pageCount, offset 0x30, size 0x4
-  __declspec(property(get = __get_pageCount, put = __set_pageCount)) int32_t pageCount;
+  __declspec(property(get = __cordl_internal_get_pageCount, put = __cordl_internal_set_pageCount)) int32_t pageCount;
 
   /// @brief Field materialCount, offset 0x34, size 0x4
-  __declspec(property(get = __get_materialCount, put = __set_materialCount)) int32_t materialCount;
+  __declspec(property(get = __cordl_internal_get_materialCount, put = __cordl_internal_set_materialCount)) int32_t materialCount;
 
   /// @brief Field characterInfo, offset 0x38, size 0x8
-  __declspec(property(get = __get_characterInfo, put = __set_characterInfo))::ArrayW<::TMPro::TMP_CharacterInfo, ::Array<::TMPro::TMP_CharacterInfo>*> characterInfo;
+  __declspec(property(get = __cordl_internal_get_characterInfo, put = __cordl_internal_set_characterInfo))::ArrayW<::TMPro::TMP_CharacterInfo, ::Array<::TMPro::TMP_CharacterInfo>*> characterInfo;
 
   /// @brief Field wordInfo, offset 0x40, size 0x8
-  __declspec(property(get = __get_wordInfo, put = __set_wordInfo))::ArrayW<::TMPro::TMP_WordInfo, ::Array<::TMPro::TMP_WordInfo>*> wordInfo;
+  __declspec(property(get = __cordl_internal_get_wordInfo, put = __cordl_internal_set_wordInfo))::ArrayW<::TMPro::TMP_WordInfo, ::Array<::TMPro::TMP_WordInfo>*> wordInfo;
 
   /// @brief Field linkInfo, offset 0x48, size 0x8
-  __declspec(property(get = __get_linkInfo, put = __set_linkInfo))::ArrayW<::TMPro::TMP_LinkInfo, ::Array<::TMPro::TMP_LinkInfo>*> linkInfo;
+  __declspec(property(get = __cordl_internal_get_linkInfo, put = __cordl_internal_set_linkInfo))::ArrayW<::TMPro::TMP_LinkInfo, ::Array<::TMPro::TMP_LinkInfo>*> linkInfo;
 
   /// @brief Field lineInfo, offset 0x50, size 0x8
-  __declspec(property(get = __get_lineInfo, put = __set_lineInfo))::ArrayW<::TMPro::TMP_LineInfo, ::Array<::TMPro::TMP_LineInfo>*> lineInfo;
+  __declspec(property(get = __cordl_internal_get_lineInfo, put = __cordl_internal_set_lineInfo))::ArrayW<::TMPro::TMP_LineInfo, ::Array<::TMPro::TMP_LineInfo>*> lineInfo;
 
   /// @brief Field pageInfo, offset 0x58, size 0x8
-  __declspec(property(get = __get_pageInfo, put = __set_pageInfo))::ArrayW<::TMPro::TMP_PageInfo, ::Array<::TMPro::TMP_PageInfo>*> pageInfo;
+  __declspec(property(get = __cordl_internal_get_pageInfo, put = __cordl_internal_set_pageInfo))::ArrayW<::TMPro::TMP_PageInfo, ::Array<::TMPro::TMP_PageInfo>*> pageInfo;
 
   /// @brief Field meshInfo, offset 0x60, size 0x8
-  __declspec(property(get = __get_meshInfo, put = __set_meshInfo))::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> meshInfo;
+  __declspec(property(get = __cordl_internal_get_meshInfo, put = __cordl_internal_set_meshInfo))::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> meshInfo;
 
   /// @brief Field m_CachedMeshInfo, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_CachedMeshInfo, put = __set_m_CachedMeshInfo))::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> m_CachedMeshInfo;
+  __declspec(property(get = __cordl_internal_get_m_CachedMeshInfo, put = __cordl_internal_set_m_CachedMeshInfo))::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> m_CachedMeshInfo;
 
   /// @brief Field k_InfinityVectorPositive, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_InfinityVectorPositive, put = setStaticF_k_InfinityVectorPositive))::UnityEngine::Vector2 k_InfinityVectorPositive;
@@ -102,101 +102,101 @@ public:
   /// @brief Field k_InfinityVectorNegative, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_InfinityVectorNegative, put = setStaticF_k_InfinityVectorNegative))::UnityEngine::Vector2 k_InfinityVectorNegative;
 
-  constexpr ::TMPro::TMP_Text*& __get_textComponent();
+  constexpr ::UnityW<::TMPro::TMP_Text>& __cordl_internal_get_textComponent();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_Text*> const& __get_textComponent() const;
+  constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get_textComponent() const;
 
-  constexpr void __set_textComponent(::TMPro::TMP_Text* value);
+  constexpr void __cordl_internal_set_textComponent(::UnityW<::TMPro::TMP_Text> value);
 
-  constexpr int32_t& __get_characterCount();
+  constexpr int32_t& __cordl_internal_get_characterCount();
 
-  constexpr int32_t const& __get_characterCount() const;
+  constexpr int32_t const& __cordl_internal_get_characterCount() const;
 
-  constexpr void __set_characterCount(int32_t value);
+  constexpr void __cordl_internal_set_characterCount(int32_t value);
 
-  constexpr int32_t& __get_spriteCount();
+  constexpr int32_t& __cordl_internal_get_spriteCount();
 
-  constexpr int32_t const& __get_spriteCount() const;
+  constexpr int32_t const& __cordl_internal_get_spriteCount() const;
 
-  constexpr void __set_spriteCount(int32_t value);
+  constexpr void __cordl_internal_set_spriteCount(int32_t value);
 
-  constexpr int32_t& __get_spaceCount();
+  constexpr int32_t& __cordl_internal_get_spaceCount();
 
-  constexpr int32_t const& __get_spaceCount() const;
+  constexpr int32_t const& __cordl_internal_get_spaceCount() const;
 
-  constexpr void __set_spaceCount(int32_t value);
+  constexpr void __cordl_internal_set_spaceCount(int32_t value);
 
-  constexpr int32_t& __get_wordCount();
+  constexpr int32_t& __cordl_internal_get_wordCount();
 
-  constexpr int32_t const& __get_wordCount() const;
+  constexpr int32_t const& __cordl_internal_get_wordCount() const;
 
-  constexpr void __set_wordCount(int32_t value);
+  constexpr void __cordl_internal_set_wordCount(int32_t value);
 
-  constexpr int32_t& __get_linkCount();
+  constexpr int32_t& __cordl_internal_get_linkCount();
 
-  constexpr int32_t const& __get_linkCount() const;
+  constexpr int32_t const& __cordl_internal_get_linkCount() const;
 
-  constexpr void __set_linkCount(int32_t value);
+  constexpr void __cordl_internal_set_linkCount(int32_t value);
 
-  constexpr int32_t& __get_lineCount();
+  constexpr int32_t& __cordl_internal_get_lineCount();
 
-  constexpr int32_t const& __get_lineCount() const;
+  constexpr int32_t const& __cordl_internal_get_lineCount() const;
 
-  constexpr void __set_lineCount(int32_t value);
+  constexpr void __cordl_internal_set_lineCount(int32_t value);
 
-  constexpr int32_t& __get_pageCount();
+  constexpr int32_t& __cordl_internal_get_pageCount();
 
-  constexpr int32_t const& __get_pageCount() const;
+  constexpr int32_t const& __cordl_internal_get_pageCount() const;
 
-  constexpr void __set_pageCount(int32_t value);
+  constexpr void __cordl_internal_set_pageCount(int32_t value);
 
-  constexpr int32_t& __get_materialCount();
+  constexpr int32_t& __cordl_internal_get_materialCount();
 
-  constexpr int32_t const& __get_materialCount() const;
+  constexpr int32_t const& __cordl_internal_get_materialCount() const;
 
-  constexpr void __set_materialCount(int32_t value);
+  constexpr void __cordl_internal_set_materialCount(int32_t value);
 
-  constexpr ::ArrayW<::TMPro::TMP_CharacterInfo, ::Array<::TMPro::TMP_CharacterInfo>*>& __get_characterInfo();
+  constexpr ::ArrayW<::TMPro::TMP_CharacterInfo, ::Array<::TMPro::TMP_CharacterInfo>*>& __cordl_internal_get_characterInfo();
 
-  constexpr ::ArrayW<::TMPro::TMP_CharacterInfo, ::Array<::TMPro::TMP_CharacterInfo>*> const& __get_characterInfo() const;
+  constexpr ::ArrayW<::TMPro::TMP_CharacterInfo, ::Array<::TMPro::TMP_CharacterInfo>*> const& __cordl_internal_get_characterInfo() const;
 
-  constexpr void __set_characterInfo(::ArrayW<::TMPro::TMP_CharacterInfo, ::Array<::TMPro::TMP_CharacterInfo>*> value);
+  constexpr void __cordl_internal_set_characterInfo(::ArrayW<::TMPro::TMP_CharacterInfo, ::Array<::TMPro::TMP_CharacterInfo>*> value);
 
-  constexpr ::ArrayW<::TMPro::TMP_WordInfo, ::Array<::TMPro::TMP_WordInfo>*>& __get_wordInfo();
+  constexpr ::ArrayW<::TMPro::TMP_WordInfo, ::Array<::TMPro::TMP_WordInfo>*>& __cordl_internal_get_wordInfo();
 
-  constexpr ::ArrayW<::TMPro::TMP_WordInfo, ::Array<::TMPro::TMP_WordInfo>*> const& __get_wordInfo() const;
+  constexpr ::ArrayW<::TMPro::TMP_WordInfo, ::Array<::TMPro::TMP_WordInfo>*> const& __cordl_internal_get_wordInfo() const;
 
-  constexpr void __set_wordInfo(::ArrayW<::TMPro::TMP_WordInfo, ::Array<::TMPro::TMP_WordInfo>*> value);
+  constexpr void __cordl_internal_set_wordInfo(::ArrayW<::TMPro::TMP_WordInfo, ::Array<::TMPro::TMP_WordInfo>*> value);
 
-  constexpr ::ArrayW<::TMPro::TMP_LinkInfo, ::Array<::TMPro::TMP_LinkInfo>*>& __get_linkInfo();
+  constexpr ::ArrayW<::TMPro::TMP_LinkInfo, ::Array<::TMPro::TMP_LinkInfo>*>& __cordl_internal_get_linkInfo();
 
-  constexpr ::ArrayW<::TMPro::TMP_LinkInfo, ::Array<::TMPro::TMP_LinkInfo>*> const& __get_linkInfo() const;
+  constexpr ::ArrayW<::TMPro::TMP_LinkInfo, ::Array<::TMPro::TMP_LinkInfo>*> const& __cordl_internal_get_linkInfo() const;
 
-  constexpr void __set_linkInfo(::ArrayW<::TMPro::TMP_LinkInfo, ::Array<::TMPro::TMP_LinkInfo>*> value);
+  constexpr void __cordl_internal_set_linkInfo(::ArrayW<::TMPro::TMP_LinkInfo, ::Array<::TMPro::TMP_LinkInfo>*> value);
 
-  constexpr ::ArrayW<::TMPro::TMP_LineInfo, ::Array<::TMPro::TMP_LineInfo>*>& __get_lineInfo();
+  constexpr ::ArrayW<::TMPro::TMP_LineInfo, ::Array<::TMPro::TMP_LineInfo>*>& __cordl_internal_get_lineInfo();
 
-  constexpr ::ArrayW<::TMPro::TMP_LineInfo, ::Array<::TMPro::TMP_LineInfo>*> const& __get_lineInfo() const;
+  constexpr ::ArrayW<::TMPro::TMP_LineInfo, ::Array<::TMPro::TMP_LineInfo>*> const& __cordl_internal_get_lineInfo() const;
 
-  constexpr void __set_lineInfo(::ArrayW<::TMPro::TMP_LineInfo, ::Array<::TMPro::TMP_LineInfo>*> value);
+  constexpr void __cordl_internal_set_lineInfo(::ArrayW<::TMPro::TMP_LineInfo, ::Array<::TMPro::TMP_LineInfo>*> value);
 
-  constexpr ::ArrayW<::TMPro::TMP_PageInfo, ::Array<::TMPro::TMP_PageInfo>*>& __get_pageInfo();
+  constexpr ::ArrayW<::TMPro::TMP_PageInfo, ::Array<::TMPro::TMP_PageInfo>*>& __cordl_internal_get_pageInfo();
 
-  constexpr ::ArrayW<::TMPro::TMP_PageInfo, ::Array<::TMPro::TMP_PageInfo>*> const& __get_pageInfo() const;
+  constexpr ::ArrayW<::TMPro::TMP_PageInfo, ::Array<::TMPro::TMP_PageInfo>*> const& __cordl_internal_get_pageInfo() const;
 
-  constexpr void __set_pageInfo(::ArrayW<::TMPro::TMP_PageInfo, ::Array<::TMPro::TMP_PageInfo>*> value);
+  constexpr void __cordl_internal_set_pageInfo(::ArrayW<::TMPro::TMP_PageInfo, ::Array<::TMPro::TMP_PageInfo>*> value);
 
-  constexpr ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*>& __get_meshInfo();
+  constexpr ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*>& __cordl_internal_get_meshInfo();
 
-  constexpr ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> const& __get_meshInfo() const;
+  constexpr ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> const& __cordl_internal_get_meshInfo() const;
 
-  constexpr void __set_meshInfo(::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> value);
+  constexpr void __cordl_internal_set_meshInfo(::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> value);
 
-  constexpr ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*>& __get_m_CachedMeshInfo();
+  constexpr ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*>& __cordl_internal_get_m_CachedMeshInfo();
 
-  constexpr ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> const& __get_m_CachedMeshInfo() const;
+  constexpr ::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> const& __cordl_internal_get_m_CachedMeshInfo() const;
 
-  constexpr void __set_m_CachedMeshInfo(::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> value);
+  constexpr void __cordl_internal_set_m_CachedMeshInfo(::ArrayW<::TMPro::TMP_MeshInfo, ::Array<::TMPro::TMP_MeshInfo>*> value);
 
   static inline void setStaticF_k_InfinityVectorPositive(::UnityEngine::Vector2 value);
 
@@ -269,7 +269,7 @@ protected:
 
 public:
   /// @brief Field textComponent, offset: 0x10, size: 0x8, def value: None
-  ::TMPro::TMP_Text* ___textComponent;
+  ::UnityW<::TMPro::TMP_Text> ___textComponent;
 
   /// @brief Field characterCount, offset: 0x18, size: 0x4, def value: None
   int32_t ___characterCount;

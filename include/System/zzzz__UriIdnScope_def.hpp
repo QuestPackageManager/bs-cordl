@@ -15,7 +15,7 @@ MARK_VAL_T(::System::UriIdnScope);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8880))
 // CS Name: ::System::UriIdnScope
 struct CORDL_TYPE UriIdnScope {

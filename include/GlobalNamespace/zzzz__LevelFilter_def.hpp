@@ -103,7 +103,7 @@ MARK_VAL_T(::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__13);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15047)), TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(14719))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(14719)), TypeDefinitionIndex(TypeDefinitionIndex(15047))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4402))
 // CS Name: ::LevelFilter
 struct CORDL_TYPE LevelFilter {
@@ -228,10 +228,10 @@ static_assert(offsetof(::GlobalNamespace::LevelFilter, limitIds) == 0x48, "Offse
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4344)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 888 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4400)) CS
-// Name: ::LevelFilter::<FilterLevelsAsync>d__13
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4344)), TypeDefinitionIndex(TypeDefinitionIndex(4402)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 880 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 888 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4400)) CS Name:
+// ::LevelFilter::<FilterLevelsAsync>d__13
 struct CORDL_TYPE __LevelFilter___FilterLevelsAsync_d__13 {
 public:
   // Declarations
@@ -252,7 +252,7 @@ public:
   // "::ArrayW<::GlobalNamespace::IBeatmapLevelPack*,::Array<::GlobalNamespace::IBeatmapLevelPack*>*>", modifiers: "", def_value: None }, CppParam { name: "filter", ty:
   // "::GlobalNamespace::LevelFilter", modifiers: "", def_value: None }, CppParam { name: "additionalContentModel", ty: "::GlobalNamespace::IAdditionalContentModel*", modifiers: "", def_value: None },
   // CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "playerDataModel", ty:
-  // "::GlobalNamespace::PlayerDataModel*", modifiers: "", def_value: None }, CppParam { name: "_filteredLevels_5__2", ty:
+  // "::UnityW<::GlobalNamespace::PlayerDataModel>", modifiers: "", def_value: None }, CppParam { name: "_filteredLevels_5__2", ty:
   // "::System::Collections::Generic::List_1<::GlobalNamespace::IPreviewBeatmapLevel*>*", modifiers: "", def_value: None }, CppParam { name: "__7__wrap2", ty:
   // "::ArrayW<::GlobalNamespace::IBeatmapLevelPack*,::Array<::GlobalNamespace::IBeatmapLevelPack*>*>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap3", ty: "int32_t", modifiers: "",
   // def_value: None }, CppParam { name: "__7__wrap4", ty: "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::IPreviewBeatmapLevel*>*", modifiers: "", def_value: None }, CppParam {
@@ -261,7 +261,7 @@ public:
   constexpr __LevelFilter___FilterLevelsAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IBeatmapLevelCollection*> __t__builder,
                                                     ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> packs, ::GlobalNamespace::LevelFilter filter,
                                                     ::GlobalNamespace::IAdditionalContentModel* additionalContentModel, ::System::Threading::CancellationToken cancellationToken,
-                                                    ::GlobalNamespace::PlayerDataModel* playerDataModel,
+                                                    ::UnityW<::GlobalNamespace::PlayerDataModel> playerDataModel,
                                                     ::System::Collections::Generic::List_1<::GlobalNamespace::IPreviewBeatmapLevel*>* _filteredLevels_5__2,
                                                     ::ArrayW<::GlobalNamespace::IBeatmapLevelPack*, ::Array<::GlobalNamespace::IBeatmapLevelPack*>*> __7__wrap2, int32_t __7__wrap3,
                                                     ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::IPreviewBeatmapLevel*>* __7__wrap4,
@@ -291,7 +291,7 @@ public:
   ::System::Threading::CancellationToken cancellationToken;
 
   /// @brief Field playerDataModel, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> playerDataModel;
 
   /// @brief Field <filteredLevels>5__2, offset: 0x90, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::IPreviewBeatmapLevel*>* _filteredLevels_5__2;
@@ -350,7 +350,7 @@ static_assert(offsetof(::GlobalNamespace::__LevelFilter___FilterLevelsAsync_d__1
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4401))
 // CS Name: ::LevelFilter::<>c*
 class CORDL_TYPE __LevelFilter____c : public ::System::Object {

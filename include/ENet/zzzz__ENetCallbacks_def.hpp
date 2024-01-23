@@ -23,7 +23,7 @@ MARK_VAL_T(::ENet::ENetCallbacks);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15220))
 // CS Name: ::ENet::ENetCallbacks
 struct CORDL_TYPE ENetCallbacks {

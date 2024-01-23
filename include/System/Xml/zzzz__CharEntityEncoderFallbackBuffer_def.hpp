@@ -19,40 +19,40 @@ MARK_REF_PTR_T(::System::Xml::CharEntityEncoderFallbackBuffer);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2845))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2845))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11412))
 // CS Name: ::System.Xml::CharEntityEncoderFallbackBuffer*
 class CORDL_TYPE CharEntityEncoderFallbackBuffer : public ::System::Text::EncoderFallbackBuffer {
 public:
   // Declarations
   /// @brief Field parent, offset 0x30, size 0x8
-  __declspec(property(get = __get_parent, put = __set_parent))::System::Xml::CharEntityEncoderFallback* parent;
+  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent))::System::Xml::CharEntityEncoderFallback* parent;
 
   /// @brief Field charEntity, offset 0x38, size 0x8
-  __declspec(property(get = __get_charEntity, put = __set_charEntity))::StringW charEntity;
+  __declspec(property(get = __cordl_internal_get_charEntity, put = __cordl_internal_set_charEntity))::StringW charEntity;
 
   /// @brief Field charEntityIndex, offset 0x40, size 0x4
-  __declspec(property(get = __get_charEntityIndex, put = __set_charEntityIndex)) int32_t charEntityIndex;
+  __declspec(property(get = __cordl_internal_get_charEntityIndex, put = __cordl_internal_set_charEntityIndex)) int32_t charEntityIndex;
 
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  constexpr ::System::Xml::CharEntityEncoderFallback*& __get_parent();
+  constexpr ::System::Xml::CharEntityEncoderFallback*& __cordl_internal_get_parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::CharEntityEncoderFallback*> const& __get_parent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::CharEntityEncoderFallback*> const& __cordl_internal_get_parent() const;
 
-  constexpr void __set_parent(::System::Xml::CharEntityEncoderFallback* value);
+  constexpr void __cordl_internal_set_parent(::System::Xml::CharEntityEncoderFallback* value);
 
-  constexpr ::StringW& __get_charEntity();
+  constexpr ::StringW& __cordl_internal_get_charEntity();
 
-  constexpr ::StringW const& __get_charEntity() const;
+  constexpr ::StringW const& __cordl_internal_get_charEntity() const;
 
-  constexpr void __set_charEntity(::StringW value);
+  constexpr void __cordl_internal_set_charEntity(::StringW value);
 
-  constexpr int32_t& __get_charEntityIndex();
+  constexpr int32_t& __cordl_internal_get_charEntityIndex();
 
-  constexpr int32_t const& __get_charEntityIndex() const;
+  constexpr int32_t const& __cordl_internal_get_charEntityIndex() const;
 
-  constexpr void __set_charEntityIndex(int32_t value);
+  constexpr void __cordl_internal_set_charEntityIndex(int32_t value);
 
   static inline ::System::Xml::CharEntityEncoderFallbackBuffer* New_ctor(::System::Xml::CharEntityEncoderFallback* parent);
 

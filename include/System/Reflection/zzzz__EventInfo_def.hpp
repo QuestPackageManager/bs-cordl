@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::System::Reflection::__EventInfo__AddEventAdapter);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3465))
 // CS Name: ::EventInfo::AddEventAdapter*
 class CORDL_TYPE __EventInfo__AddEventAdapter : public ::System::MulticastDelegate {
@@ -82,7 +82,7 @@ static_assert(::cordl_internals::size_check_v<::System::Reflection::__EventInfo_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3474))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3474))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3466))
 // CS Name: ::System.Reflection::EventInfo*
 class CORDL_TYPE EventInfo : public ::System::Reflection::MemberInfo {
@@ -91,17 +91,17 @@ public:
   using AddEventAdapter = ::System::Reflection::__EventInfo__AddEventAdapter;
 
   /// @brief Field cached_add_event, offset 0x10, size 0x8
-  __declspec(property(get = __get_cached_add_event, put = __set_cached_add_event))::System::Reflection::__EventInfo__AddEventAdapter* cached_add_event;
+  __declspec(property(get = __cordl_internal_get_cached_add_event, put = __cordl_internal_set_cached_add_event))::System::Reflection::__EventInfo__AddEventAdapter* cached_add_event;
 
   __declspec(property(get = get_MemberType))::System::Reflection::MemberTypes MemberType;
 
   __declspec(property(get = get_EventHandlerType))::System::Type* EventHandlerType;
 
-  constexpr ::System::Reflection::__EventInfo__AddEventAdapter*& __get_cached_add_event();
+  constexpr ::System::Reflection::__EventInfo__AddEventAdapter*& __cordl_internal_get_cached_add_event();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::__EventInfo__AddEventAdapter*> const& __get_cached_add_event() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::__EventInfo__AddEventAdapter*> const& __cordl_internal_get_cached_add_event() const;
 
-  constexpr void __set_cached_add_event(::System::Reflection::__EventInfo__AddEventAdapter* value);
+  constexpr void __cordl_internal_set_cached_add_event(::System::Reflection::__EventInfo__AddEventAdapter* value);
 
   static inline ::System::Reflection::EventInfo* New_ctor();
 

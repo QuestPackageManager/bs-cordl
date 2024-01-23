@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::System::Reflection::Emit::FieldBuilder);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection::Emit {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3469))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3469))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3539))
 // CS Name: ::System.Reflection.Emit::FieldBuilder*
 class CORDL_TYPE FieldBuilder : public ::System::Reflection::FieldInfo {

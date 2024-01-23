@@ -26,42 +26,42 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::CompressedDataParser);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(65))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::CompressedDataParser*
 class CORDL_TYPE CompressedDataParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _version, offset 0x10, size 0x8
-  __declspec(property(get = __get__version, put = __set__version))::Org::BouncyCastle::Asn1::DerInteger* _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version))::Org::BouncyCastle::Asn1::DerInteger* _version;
 
   /// @brief Field _compressionAlgorithm, offset 0x18, size 0x8
-  __declspec(property(get = __get__compressionAlgorithm, put = __set__compressionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _compressionAlgorithm;
+  __declspec(property(get = __cordl_internal_get__compressionAlgorithm, put = __cordl_internal_set__compressionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* _compressionAlgorithm;
 
   /// @brief Field _encapContentInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get__encapContentInfo, put = __set__encapContentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* _encapContentInfo;
+  __declspec(property(get = __cordl_internal_get__encapContentInfo, put = __cordl_internal_set__encapContentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* _encapContentInfo;
 
   __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
 
   __declspec(property(get = get_CompressionAlgorithmIdentifier))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* CompressionAlgorithmIdentifier;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get__version();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get__version();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get__version() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set__version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get__compressionAlgorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get__compressionAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get__compressionAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get__compressionAlgorithm() const;
 
-  constexpr void __set__compressionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set__compressionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser*& __get__encapContentInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser*& __cordl_internal_get__encapContentInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfoParser*> const& __get__encapContentInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfoParser*> const& __cordl_internal_get__encapContentInfo() const;
 
-  constexpr void __set__encapContentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* value);
+  constexpr void __cordl_internal_set__encapContentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::CompressedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 

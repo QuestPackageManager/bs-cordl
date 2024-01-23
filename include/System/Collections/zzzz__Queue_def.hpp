@@ -49,23 +49,23 @@ MARK_REF_PTR_T(::System::Collections::__Queue__QueueEnumerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3774))
 // CS Name: ::Queue::QueueEnumerator*
 class CORDL_TYPE __Queue__QueueEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _q, offset 0x10, size 0x8
-  __declspec(property(get = __get__q, put = __set__q))::System::Collections::Queue* _q;
+  __declspec(property(get = __cordl_internal_get__q, put = __cordl_internal_set__q))::System::Collections::Queue* _q;
 
   /// @brief Field _index, offset 0x18, size 0x4
-  __declspec(property(get = __get__index, put = __set__index)) int32_t _index;
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
   /// @brief Field _version, offset 0x1c, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _currentElement, offset 0x20, size 0x8
-  __declspec(property(get = __get__currentElement, put = __set__currentElement))::System::Object* _currentElement;
+  __declspec(property(get = __cordl_internal_get__currentElement, put = __cordl_internal_set__currentElement))::System::Object* _currentElement;
 
   __declspec(property(get = get_Current))::System::Object* Current;
 
@@ -81,29 +81,29 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::System::Collections::Queue*& __get__q();
+  constexpr ::System::Collections::Queue*& __cordl_internal_get__q();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Queue*> const& __get__q() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Queue*> const& __cordl_internal_get__q() const;
 
-  constexpr void __set__q(::System::Collections::Queue* value);
+  constexpr void __cordl_internal_set__q(::System::Collections::Queue* value);
 
-  constexpr int32_t& __get__index();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr int32_t const& __get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __set__index(int32_t value);
+  constexpr void __cordl_internal_set__index(int32_t value);
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
-  constexpr ::System::Object*& __get__currentElement();
+  constexpr ::System::Object*& __cordl_internal_get__currentElement();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__currentElement() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__currentElement() const;
 
-  constexpr void __set__currentElement(::System::Object* value);
+  constexpr void __cordl_internal_set__currentElement(::System::Object* value);
 
   static inline ::System::Collections::__Queue__QueueEnumerator* New_ctor(::System::Collections::Queue* q);
 
@@ -166,7 +166,7 @@ static_assert(offsetof(::System::Collections::__Queue__QueueEnumerator, ____curr
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3775))
 // CS Name: ::Queue::QueueDebugView*
 class CORDL_TYPE __Queue__QueueDebugView : public ::System::Object {
@@ -196,7 +196,7 @@ static_assert(::cordl_internals::size_check_v<::System::Collections::__Queue__Qu
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3776))
 // CS Name: ::System.Collections::Queue*
 class CORDL_TYPE Queue : public ::System::Object {
@@ -207,25 +207,25 @@ public:
   using QueueEnumerator = ::System::Collections::__Queue__QueueEnumerator;
 
   /// @brief Field _array, offset 0x10, size 0x8
-  __declspec(property(get = __get__array, put = __set__array))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _array;
+  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _array;
 
   /// @brief Field _head, offset 0x18, size 0x4
-  __declspec(property(get = __get__head, put = __set__head)) int32_t _head;
+  __declspec(property(get = __cordl_internal_get__head, put = __cordl_internal_set__head)) int32_t _head;
 
   /// @brief Field _tail, offset 0x1c, size 0x4
-  __declspec(property(get = __get__tail, put = __set__tail)) int32_t _tail;
+  __declspec(property(get = __cordl_internal_get__tail, put = __cordl_internal_set__tail)) int32_t _tail;
 
   /// @brief Field _size, offset 0x20, size 0x4
-  __declspec(property(get = __get__size, put = __set__size)) int32_t _size;
+  __declspec(property(get = __cordl_internal_get__size, put = __cordl_internal_set__size)) int32_t _size;
 
   /// @brief Field _growFactor, offset 0x24, size 0x4
-  __declspec(property(get = __get__growFactor, put = __set__growFactor)) int32_t _growFactor;
+  __declspec(property(get = __cordl_internal_get__growFactor, put = __cordl_internal_set__growFactor)) int32_t _growFactor;
 
   /// @brief Field _version, offset 0x28, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _syncRoot, offset 0x30, size 0x8
-  __declspec(property(get = __get__syncRoot, put = __set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -251,47 +251,47 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get__array();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__array();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get__array() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__array() const;
 
-  constexpr void __set__array(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set__array(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  constexpr int32_t& __get__head();
+  constexpr int32_t& __cordl_internal_get__head();
 
-  constexpr int32_t const& __get__head() const;
+  constexpr int32_t const& __cordl_internal_get__head() const;
 
-  constexpr void __set__head(int32_t value);
+  constexpr void __cordl_internal_set__head(int32_t value);
 
-  constexpr int32_t& __get__tail();
+  constexpr int32_t& __cordl_internal_get__tail();
 
-  constexpr int32_t const& __get__tail() const;
+  constexpr int32_t const& __cordl_internal_get__tail() const;
 
-  constexpr void __set__tail(int32_t value);
+  constexpr void __cordl_internal_set__tail(int32_t value);
 
-  constexpr int32_t& __get__size();
+  constexpr int32_t& __cordl_internal_get__size();
 
-  constexpr int32_t const& __get__size() const;
+  constexpr int32_t const& __cordl_internal_get__size() const;
 
-  constexpr void __set__size(int32_t value);
+  constexpr void __cordl_internal_set__size(int32_t value);
 
-  constexpr int32_t& __get__growFactor();
+  constexpr int32_t& __cordl_internal_get__growFactor();
 
-  constexpr int32_t const& __get__growFactor() const;
+  constexpr int32_t const& __cordl_internal_get__growFactor() const;
 
-  constexpr void __set__growFactor(int32_t value);
+  constexpr void __cordl_internal_set__growFactor(int32_t value);
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
-  constexpr ::System::Object*& __get__syncRoot();
+  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__syncRoot() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
-  constexpr void __set__syncRoot(::System::Object* value);
+  constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
   static inline ::System::Collections::Queue* New_ctor();
 

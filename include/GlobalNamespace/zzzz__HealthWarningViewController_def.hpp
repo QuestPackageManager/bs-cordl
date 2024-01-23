@@ -55,20 +55,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__HealthWarningViewController___DismissHealthA
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5644))
 // CS Name: ::HealthWarningViewController::<DismissHealthAndSafety>d__15*
 class CORDL_TYPE __HealthWarningViewController___DismissHealthAndSafety_d__15 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::HealthWarningViewController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::HealthWarningViewController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -92,23 +92,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::HealthWarningViewController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::HealthWarningViewController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HealthWarningViewController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::HealthWarningViewController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::HealthWarningViewController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::HealthWarningViewController> value);
 
   static inline ::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15* New_ctor(int32_t __1__state);
 
@@ -151,7 +151,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::HealthWarningViewController* _____4__this;
+  ::UnityW<::GlobalNamespace::HealthWarningViewController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -169,7 +169,7 @@ static_assert(offsetof(::GlobalNamespace::__HealthWarningViewController___Dismis
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5645))
 // CS Name: ::HealthWarningViewController*
 class CORDL_TYPE HealthWarningViewController : public ::HMUI::ViewController {
@@ -178,94 +178,94 @@ public:
   using _DismissHealthAndSafety_d__15 = ::GlobalNamespace::__HealthWarningViewController___DismissHealthAndSafety_d__15;
 
   /// @brief Field _continueButton, offset 0x70, size 0x8
-  __declspec(property(get = __get__continueButton, put = __set__continueButton))::UnityEngine::UI::Button* _continueButton;
+  __declspec(property(get = __cordl_internal_get__continueButton, put = __cordl_internal_set__continueButton))::UnityW<::UnityEngine::UI::Button> _continueButton;
 
   /// @brief Field _safeAreaRectChecker, offset 0x78, size 0x8
-  __declspec(property(get = __get__safeAreaRectChecker, put = __set__safeAreaRectChecker))::GlobalNamespace::SafeAreaRectChecker* _safeAreaRectChecker;
+  __declspec(property(get = __cordl_internal_get__safeAreaRectChecker, put = __cordl_internal_set__safeAreaRectChecker))::UnityW<::GlobalNamespace::SafeAreaRectChecker> _safeAreaRectChecker;
 
   /// @brief Field _duration, offset 0x80, size 0x4
-  __declspec(property(get = __get__duration, put = __set__duration)) float_t _duration;
+  __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
 
   /// @brief Field _healthAndSafetyTextMesh, offset 0x88, size 0x8
-  __declspec(property(get = __get__healthAndSafetyTextMesh, put = __set__healthAndSafetyTextMesh))::TMPro::TextMeshProUGUI* _healthAndSafetyTextMesh;
+  __declspec(property(get = __cordl_internal_get__healthAndSafetyTextMesh, put = __cordl_internal_set__healthAndSafetyTextMesh))::UnityW<::TMPro::TextMeshProUGUI> _healthAndSafetyTextMesh;
 
   /// @brief Field _healthAndSafetyLocalizationKey, offset 0x90, size 0x8
-  __declspec(property(get = __get__healthAndSafetyLocalizationKey, put = __set__healthAndSafetyLocalizationKey))::StringW _healthAndSafetyLocalizationKey;
+  __declspec(property(get = __cordl_internal_get__healthAndSafetyLocalizationKey, put = __cordl_internal_set__healthAndSafetyLocalizationKey))::StringW _healthAndSafetyLocalizationKey;
 
   /// @brief Field _healthAndSafetyPSLocalizationKey, offset 0x98, size 0x8
-  __declspec(property(get = __get__healthAndSafetyPSLocalizationKey, put = __set__healthAndSafetyPSLocalizationKey))::StringW _healthAndSafetyPSLocalizationKey;
+  __declspec(property(get = __cordl_internal_get__healthAndSafetyPSLocalizationKey, put = __cordl_internal_set__healthAndSafetyPSLocalizationKey))::StringW _healthAndSafetyPSLocalizationKey;
 
   /// @brief Field _coroutineStarter, offset 0xa0, size 0x8
-  __declspec(property(get = __get__coroutineStarter, put = __set__coroutineStarter))::GlobalNamespace::ICoroutineStarter* _coroutineStarter;
+  __declspec(property(get = __cordl_internal_get__coroutineStarter, put = __cordl_internal_set__coroutineStarter))::GlobalNamespace::ICoroutineStarter* _coroutineStarter;
 
   /// @brief Field didFinishEvent, offset 0xa8, size 0x8
-  __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action* didFinishEvent;
 
   /// @brief Field _requiresInteraction, offset 0xb0, size 0x1
-  __declspec(property(get = __get__requiresInteraction, put = __set__requiresInteraction)) bool _requiresInteraction;
+  __declspec(property(get = __cordl_internal_get__requiresInteraction, put = __cordl_internal_set__requiresInteraction)) bool _requiresInteraction;
 
   /// @brief Field _dismissCoroutine, offset 0xb8, size 0x8
-  __declspec(property(get = __get__dismissCoroutine, put = __set__dismissCoroutine))::UnityEngine::Coroutine* _dismissCoroutine;
+  __declspec(property(get = __cordl_internal_get__dismissCoroutine, put = __cordl_internal_set__dismissCoroutine))::UnityEngine::Coroutine* _dismissCoroutine;
 
-  constexpr ::UnityEngine::UI::Button*& __get__continueButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__continueButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
 
-  constexpr void __set__continueButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::GlobalNamespace::SafeAreaRectChecker*& __get__safeAreaRectChecker();
+  constexpr ::UnityW<::GlobalNamespace::SafeAreaRectChecker>& __cordl_internal_get__safeAreaRectChecker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SafeAreaRectChecker*> const& __get__safeAreaRectChecker() const;
+  constexpr ::UnityW<::GlobalNamespace::SafeAreaRectChecker> const& __cordl_internal_get__safeAreaRectChecker() const;
 
-  constexpr void __set__safeAreaRectChecker(::GlobalNamespace::SafeAreaRectChecker* value);
+  constexpr void __cordl_internal_set__safeAreaRectChecker(::UnityW<::GlobalNamespace::SafeAreaRectChecker> value);
 
-  constexpr float_t& __get__duration();
+  constexpr float_t& __cordl_internal_get__duration();
 
-  constexpr float_t const& __get__duration() const;
+  constexpr float_t const& __cordl_internal_get__duration() const;
 
-  constexpr void __set__duration(float_t value);
+  constexpr void __cordl_internal_set__duration(float_t value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__healthAndSafetyTextMesh();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__healthAndSafetyTextMesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__healthAndSafetyTextMesh() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__healthAndSafetyTextMesh() const;
 
-  constexpr void __set__healthAndSafetyTextMesh(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__healthAndSafetyTextMesh(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::StringW& __get__healthAndSafetyLocalizationKey();
+  constexpr ::StringW& __cordl_internal_get__healthAndSafetyLocalizationKey();
 
-  constexpr ::StringW const& __get__healthAndSafetyLocalizationKey() const;
+  constexpr ::StringW const& __cordl_internal_get__healthAndSafetyLocalizationKey() const;
 
-  constexpr void __set__healthAndSafetyLocalizationKey(::StringW value);
+  constexpr void __cordl_internal_set__healthAndSafetyLocalizationKey(::StringW value);
 
-  constexpr ::StringW& __get__healthAndSafetyPSLocalizationKey();
+  constexpr ::StringW& __cordl_internal_get__healthAndSafetyPSLocalizationKey();
 
-  constexpr ::StringW const& __get__healthAndSafetyPSLocalizationKey() const;
+  constexpr ::StringW const& __cordl_internal_get__healthAndSafetyPSLocalizationKey() const;
 
-  constexpr void __set__healthAndSafetyPSLocalizationKey(::StringW value);
+  constexpr void __cordl_internal_set__healthAndSafetyPSLocalizationKey(::StringW value);
 
-  constexpr ::GlobalNamespace::ICoroutineStarter*& __get__coroutineStarter();
+  constexpr ::GlobalNamespace::ICoroutineStarter*& __cordl_internal_get__coroutineStarter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& __get__coroutineStarter() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& __cordl_internal_get__coroutineStarter() const;
 
-  constexpr void __set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
+  constexpr void __cordl_internal_set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
 
-  constexpr ::System::Action*& __get_didFinishEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action* value);
 
-  constexpr bool& __get__requiresInteraction();
+  constexpr bool& __cordl_internal_get__requiresInteraction();
 
-  constexpr bool const& __get__requiresInteraction() const;
+  constexpr bool const& __cordl_internal_get__requiresInteraction() const;
 
-  constexpr void __set__requiresInteraction(bool value);
+  constexpr void __cordl_internal_set__requiresInteraction(bool value);
 
-  constexpr ::UnityEngine::Coroutine*& __get__dismissCoroutine();
+  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__dismissCoroutine();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __get__dismissCoroutine() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get__dismissCoroutine() const;
 
-  constexpr void __set__dismissCoroutine(::UnityEngine::Coroutine* value);
+  constexpr void __cordl_internal_set__dismissCoroutine(::UnityEngine::Coroutine* value);
 
   /// @brief Method add_didFinishEvent, addr 0x22b4f64, size 0x9c, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action* value);
@@ -308,16 +308,16 @@ protected:
 
 public:
   /// @brief Field _continueButton, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____continueButton;
+  ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
   /// @brief Field _safeAreaRectChecker, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::SafeAreaRectChecker* ____safeAreaRectChecker;
+  ::UnityW<::GlobalNamespace::SafeAreaRectChecker> ____safeAreaRectChecker;
 
   /// @brief Field _duration, offset: 0x80, size: 0x4, def value: None
   float_t ____duration;
 
   /// @brief Field _healthAndSafetyTextMesh, offset: 0x88, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____healthAndSafetyTextMesh;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____healthAndSafetyTextMesh;
 
   /// @brief Field _healthAndSafetyLocalizationKey, offset: 0x90, size: 0x8, def value: None
   ::StringW ____healthAndSafetyLocalizationKey;

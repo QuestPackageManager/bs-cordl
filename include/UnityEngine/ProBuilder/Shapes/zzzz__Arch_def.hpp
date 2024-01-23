@@ -35,56 +35,56 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Arch);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12233))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12233))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12224))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Arch*
 class CORDL_TYPE Arch : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
   // Declarations
   /// @brief Field m_Thickness, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_Thickness, put = __set_m_Thickness)) float_t m_Thickness;
+  __declspec(property(get = __cordl_internal_get_m_Thickness, put = __cordl_internal_set_m_Thickness)) float_t m_Thickness;
 
   /// @brief Field m_NumberOfSides, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_NumberOfSides, put = __set_m_NumberOfSides)) int32_t m_NumberOfSides;
+  __declspec(property(get = __cordl_internal_get_m_NumberOfSides, put = __cordl_internal_set_m_NumberOfSides)) int32_t m_NumberOfSides;
 
   /// @brief Field m_ArchDegrees, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_ArchDegrees, put = __set_m_ArchDegrees)) float_t m_ArchDegrees;
+  __declspec(property(get = __cordl_internal_get_m_ArchDegrees, put = __cordl_internal_set_m_ArchDegrees)) float_t m_ArchDegrees;
 
   /// @brief Field m_EndCaps, offset 0x1c, size 0x1
-  __declspec(property(get = __get_m_EndCaps, put = __set_m_EndCaps)) bool m_EndCaps;
+  __declspec(property(get = __cordl_internal_get_m_EndCaps, put = __cordl_internal_set_m_EndCaps)) bool m_EndCaps;
 
   /// @brief Field m_Smooth, offset 0x1d, size 0x1
-  __declspec(property(get = __get_m_Smooth, put = __set_m_Smooth)) bool m_Smooth;
+  __declspec(property(get = __cordl_internal_get_m_Smooth, put = __cordl_internal_set_m_Smooth)) bool m_Smooth;
 
-  constexpr float_t& __get_m_Thickness();
+  constexpr float_t& __cordl_internal_get_m_Thickness();
 
-  constexpr float_t const& __get_m_Thickness() const;
+  constexpr float_t const& __cordl_internal_get_m_Thickness() const;
 
-  constexpr void __set_m_Thickness(float_t value);
+  constexpr void __cordl_internal_set_m_Thickness(float_t value);
 
-  constexpr int32_t& __get_m_NumberOfSides();
+  constexpr int32_t& __cordl_internal_get_m_NumberOfSides();
 
-  constexpr int32_t const& __get_m_NumberOfSides() const;
+  constexpr int32_t const& __cordl_internal_get_m_NumberOfSides() const;
 
-  constexpr void __set_m_NumberOfSides(int32_t value);
+  constexpr void __cordl_internal_set_m_NumberOfSides(int32_t value);
 
-  constexpr float_t& __get_m_ArchDegrees();
+  constexpr float_t& __cordl_internal_get_m_ArchDegrees();
 
-  constexpr float_t const& __get_m_ArchDegrees() const;
+  constexpr float_t const& __cordl_internal_get_m_ArchDegrees() const;
 
-  constexpr void __set_m_ArchDegrees(float_t value);
+  constexpr void __cordl_internal_set_m_ArchDegrees(float_t value);
 
-  constexpr bool& __get_m_EndCaps();
+  constexpr bool& __cordl_internal_get_m_EndCaps();
 
-  constexpr bool const& __get_m_EndCaps() const;
+  constexpr bool const& __cordl_internal_get_m_EndCaps() const;
 
-  constexpr void __set_m_EndCaps(bool value);
+  constexpr void __cordl_internal_set_m_EndCaps(bool value);
 
-  constexpr bool& __get_m_Smooth();
+  constexpr bool& __cordl_internal_get_m_Smooth();
 
-  constexpr bool const& __get_m_Smooth() const;
+  constexpr bool const& __cordl_internal_get_m_Smooth() const;
 
-  constexpr void __set_m_Smooth(bool value);
+  constexpr void __cordl_internal_set_m_Smooth(bool value);
 
   /// @brief Method CopyShape, addr 0x2b86d64, size 0x94, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);

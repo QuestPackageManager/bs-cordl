@@ -28,7 +28,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InputEvent);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(1) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16110))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16110))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6530))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputEvent
 #pragma pack(push, 1)
@@ -36,7 +36,7 @@ struct CORDL_TYPE InputEvent {
 public:
   // Declarations
   /// @brief Field m_Event, offset 0x0, size 0x14
-  __declspec(property(get = __get_m_Event, put = __set_m_Event))::UnityEngineInternal::Input::NativeInputEvent m_Event;
+  __declspec(property(get = __cordl_internal_get_m_Event, put = __cordl_internal_set_m_Event))::UnityEngineInternal::Input::NativeInputEvent m_Event;
 
   __declspec(property(get = get_type, put = set_type))::UnityEngine::InputSystem::Utilities::FourCC type;
 
@@ -52,11 +52,11 @@ public:
 
   __declspec(property(get = get_handled, put = set_handled)) bool handled;
 
-  constexpr ::UnityEngineInternal::Input::NativeInputEvent& __get_m_Event();
+  constexpr ::UnityEngineInternal::Input::NativeInputEvent& __cordl_internal_get_m_Event();
 
-  constexpr ::UnityEngineInternal::Input::NativeInputEvent const& __get_m_Event() const;
+  constexpr ::UnityEngineInternal::Input::NativeInputEvent const& __cordl_internal_get_m_Event() const;
 
-  constexpr void __set_m_Event(::UnityEngineInternal::Input::NativeInputEvent value);
+  constexpr void __cordl_internal_set_m_Event(::UnityEngineInternal::Input::NativeInputEvent value);
 
   /// @brief Method get_type, addr 0x2aea0d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_type();

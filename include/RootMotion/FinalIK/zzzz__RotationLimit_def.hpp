@@ -25,29 +25,30 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::RotationLimit);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12622))
 // CS Name: ::RootMotion.FinalIK::RotationLimit*
 class CORDL_TYPE RotationLimit : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field axis, offset 0x18, size 0xc
-  __declspec(property(get = __get_axis, put = __set_axis))::UnityEngine::Vector3 axis;
+  __declspec(property(get = __cordl_internal_get_axis, put = __cordl_internal_set_axis))::UnityEngine::Vector3 axis;
 
   /// @brief Field defaultLocalRotation, offset 0x24, size 0x10
-  __declspec(property(get = __get_defaultLocalRotation, put = __set_defaultLocalRotation))::UnityEngine::Quaternion defaultLocalRotation;
+  __declspec(property(get = __cordl_internal_get_defaultLocalRotation, put = __cordl_internal_set_defaultLocalRotation))::UnityEngine::Quaternion defaultLocalRotation;
 
   /// @brief Field <defaultLocalRotationOverride>k__BackingField, offset 0x34, size 0x1
-  __declspec(property(get = __get__defaultLocalRotationOverride_k__BackingField, put = __set__defaultLocalRotationOverride_k__BackingField)) bool _defaultLocalRotationOverride_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__defaultLocalRotationOverride_k__BackingField,
+                      put = __cordl_internal_set__defaultLocalRotationOverride_k__BackingField)) bool _defaultLocalRotationOverride_k__BackingField;
 
   /// @brief Field initiated, offset 0x35, size 0x1
-  __declspec(property(get = __get_initiated, put = __set_initiated)) bool initiated;
+  __declspec(property(get = __cordl_internal_get_initiated, put = __cordl_internal_set_initiated)) bool initiated;
 
   /// @brief Field applicationQuit, offset 0x36, size 0x1
-  __declspec(property(get = __get_applicationQuit, put = __set_applicationQuit)) bool applicationQuit;
+  __declspec(property(get = __cordl_internal_get_applicationQuit, put = __cordl_internal_set_applicationQuit)) bool applicationQuit;
 
   /// @brief Field defaultLocalRotationSet, offset 0x37, size 0x1
-  __declspec(property(get = __get_defaultLocalRotationSet, put = __set_defaultLocalRotationSet)) bool defaultLocalRotationSet;
+  __declspec(property(get = __cordl_internal_get_defaultLocalRotationSet, put = __cordl_internal_set_defaultLocalRotationSet)) bool defaultLocalRotationSet;
 
   __declspec(property(get = get_secondaryAxis))::UnityEngine::Vector3 secondaryAxis;
 
@@ -55,41 +56,41 @@ public:
 
   __declspec(property(get = get_defaultLocalRotationOverride, put = set_defaultLocalRotationOverride)) bool defaultLocalRotationOverride;
 
-  constexpr ::UnityEngine::Vector3& __get_axis();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_axis();
 
-  constexpr ::UnityEngine::Vector3 const& __get_axis() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_axis() const;
 
-  constexpr void __set_axis(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_axis(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_defaultLocalRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_defaultLocalRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_defaultLocalRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_defaultLocalRotation() const;
 
-  constexpr void __set_defaultLocalRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_defaultLocalRotation(::UnityEngine::Quaternion value);
 
-  constexpr bool& __get__defaultLocalRotationOverride_k__BackingField();
+  constexpr bool& __cordl_internal_get__defaultLocalRotationOverride_k__BackingField();
 
-  constexpr bool const& __get__defaultLocalRotationOverride_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__defaultLocalRotationOverride_k__BackingField() const;
 
-  constexpr void __set__defaultLocalRotationOverride_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__defaultLocalRotationOverride_k__BackingField(bool value);
 
-  constexpr bool& __get_initiated();
+  constexpr bool& __cordl_internal_get_initiated();
 
-  constexpr bool const& __get_initiated() const;
+  constexpr bool const& __cordl_internal_get_initiated() const;
 
-  constexpr void __set_initiated(bool value);
+  constexpr void __cordl_internal_set_initiated(bool value);
 
-  constexpr bool& __get_applicationQuit();
+  constexpr bool& __cordl_internal_get_applicationQuit();
 
-  constexpr bool const& __get_applicationQuit() const;
+  constexpr bool const& __cordl_internal_get_applicationQuit() const;
 
-  constexpr void __set_applicationQuit(bool value);
+  constexpr void __cordl_internal_set_applicationQuit(bool value);
 
-  constexpr bool& __get_defaultLocalRotationSet();
+  constexpr bool& __cordl_internal_get_defaultLocalRotationSet();
 
-  constexpr bool const& __get_defaultLocalRotationSet() const;
+  constexpr bool const& __cordl_internal_get_defaultLocalRotationSet() const;
 
-  constexpr void __set_defaultLocalRotationSet(bool value);
+  constexpr void __cordl_internal_set_defaultLocalRotationSet(bool value);
 
   /// @brief Method SetDefaultLocalRotation, addr 0x128ec6c, size 0x3c, virtual false, abstract: false, final false
   inline void SetDefaultLocalRotation();

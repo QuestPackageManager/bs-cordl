@@ -21,40 +21,41 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKExecutionOrder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12537))
 // CS Name: ::RootMotion.FinalIK::IKExecutionOrder*
 class CORDL_TYPE IKExecutionOrder : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field IKComponents, offset 0x18, size 0x8
-  __declspec(property(get = __get_IKComponents, put = __set_IKComponents))::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> IKComponents;
+  __declspec(property(get = __cordl_internal_get_IKComponents,
+                      put = __cordl_internal_set_IKComponents))::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*> IKComponents;
 
   /// @brief Field animator, offset 0x20, size 0x8
-  __declspec(property(get = __get_animator, put = __set_animator))::UnityEngine::Animator* animator;
+  __declspec(property(get = __cordl_internal_get_animator, put = __cordl_internal_set_animator))::UnityW<::UnityEngine::Animator> animator;
 
   /// @brief Field fixedFrame, offset 0x28, size 0x1
-  __declspec(property(get = __get_fixedFrame, put = __set_fixedFrame)) bool fixedFrame;
+  __declspec(property(get = __cordl_internal_get_fixedFrame, put = __cordl_internal_set_fixedFrame)) bool fixedFrame;
 
   __declspec(property(get = get_animatePhysics)) bool animatePhysics;
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>& __get_IKComponents();
+  constexpr ::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*>& __cordl_internal_get_IKComponents();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> const& __get_IKComponents() const;
+  constexpr ::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*> const& __cordl_internal_get_IKComponents() const;
 
-  constexpr void __set_IKComponents(::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> value);
+  constexpr void __cordl_internal_set_IKComponents(::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*> value);
 
-  constexpr ::UnityEngine::Animator*& __get_animator();
+  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get_animator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> const& __get_animator() const;
+  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get_animator() const;
 
-  constexpr void __set_animator(::UnityEngine::Animator* value);
+  constexpr void __cordl_internal_set_animator(::UnityW<::UnityEngine::Animator> value);
 
-  constexpr bool& __get_fixedFrame();
+  constexpr bool& __cordl_internal_get_fixedFrame();
 
-  constexpr bool const& __get_fixedFrame() const;
+  constexpr bool const& __cordl_internal_get_fixedFrame() const;
 
-  constexpr void __set_fixedFrame(bool value);
+  constexpr void __cordl_internal_set_fixedFrame(bool value);
 
   /// @brief Method get_animatePhysics, addr 0x124f24c, size 0x8c, virtual false, abstract: false, final false
   inline bool get_animatePhysics();
@@ -94,10 +95,10 @@ protected:
 
 public:
   /// @brief Field IKComponents, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> ___IKComponents;
+  ::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*> ___IKComponents;
 
   /// @brief Field animator, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Animator* ___animator;
+  ::UnityW<::UnityEngine::Animator> ___animator;
 
   /// @brief Field fixedFrame, offset: 0x28, size: 0x1, def value: None
   bool ___fixedFrame;

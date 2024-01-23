@@ -47,29 +47,30 @@ MARK_REF_PTR_T(::TMPro::__TMP_Settings__LineBreakingTable);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12414))
 // CS Name: ::TMP_Settings::LineBreakingTable*
 class CORDL_TYPE __TMP_Settings__LineBreakingTable : public ::System::Object {
 public:
   // Declarations
   /// @brief Field leadingCharacters, offset 0x10, size 0x8
-  __declspec(property(get = __get_leadingCharacters, put = __set_leadingCharacters))::System::Collections::Generic::Dictionary_2<int32_t, char16_t>* leadingCharacters;
+  __declspec(property(get = __cordl_internal_get_leadingCharacters, put = __cordl_internal_set_leadingCharacters))::System::Collections::Generic::Dictionary_2<int32_t, char16_t>* leadingCharacters;
 
   /// @brief Field followingCharacters, offset 0x18, size 0x8
-  __declspec(property(get = __get_followingCharacters, put = __set_followingCharacters))::System::Collections::Generic::Dictionary_2<int32_t, char16_t>* followingCharacters;
+  __declspec(property(get = __cordl_internal_get_followingCharacters,
+                      put = __cordl_internal_set_followingCharacters))::System::Collections::Generic::Dictionary_2<int32_t, char16_t>* followingCharacters;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, char16_t>*& __get_leadingCharacters();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, char16_t>*& __cordl_internal_get_leadingCharacters();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, char16_t>*> const& __get_leadingCharacters() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, char16_t>*> const& __cordl_internal_get_leadingCharacters() const;
 
-  constexpr void __set_leadingCharacters(::System::Collections::Generic::Dictionary_2<int32_t, char16_t>* value);
+  constexpr void __cordl_internal_set_leadingCharacters(::System::Collections::Generic::Dictionary_2<int32_t, char16_t>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, char16_t>*& __get_followingCharacters();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, char16_t>*& __cordl_internal_get_followingCharacters();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, char16_t>*> const& __get_followingCharacters() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, char16_t>*> const& __cordl_internal_get_followingCharacters() const;
 
-  constexpr void __set_followingCharacters(::System::Collections::Generic::Dictionary_2<int32_t, char16_t>* value);
+  constexpr void __cordl_internal_set_followingCharacters(::System::Collections::Generic::Dictionary_2<int32_t, char16_t>* value);
 
   static inline ::TMPro::__TMP_Settings__LineBreakingTable* New_ctor();
 
@@ -110,7 +111,7 @@ static_assert(offsetof(::TMPro::__TMP_Settings__LineBreakingTable, ___followingC
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 177, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12415))
 // CS Name: ::TMPro::TMP_Settings*
 class CORDL_TYPE TMP_Settings : public ::UnityEngine::ScriptableObject {
@@ -119,290 +120,293 @@ public:
   using LineBreakingTable = ::TMPro::__TMP_Settings__LineBreakingTable;
 
   /// @brief Field m_enableWordWrapping, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_enableWordWrapping, put = __set_m_enableWordWrapping)) bool m_enableWordWrapping;
+  __declspec(property(get = __cordl_internal_get_m_enableWordWrapping, put = __cordl_internal_set_m_enableWordWrapping)) bool m_enableWordWrapping;
 
   /// @brief Field m_enableKerning, offset 0x19, size 0x1
-  __declspec(property(get = __get_m_enableKerning, put = __set_m_enableKerning)) bool m_enableKerning;
+  __declspec(property(get = __cordl_internal_get_m_enableKerning, put = __cordl_internal_set_m_enableKerning)) bool m_enableKerning;
 
   /// @brief Field m_enableExtraPadding, offset 0x1a, size 0x1
-  __declspec(property(get = __get_m_enableExtraPadding, put = __set_m_enableExtraPadding)) bool m_enableExtraPadding;
+  __declspec(property(get = __cordl_internal_get_m_enableExtraPadding, put = __cordl_internal_set_m_enableExtraPadding)) bool m_enableExtraPadding;
 
   /// @brief Field m_enableTintAllSprites, offset 0x1b, size 0x1
-  __declspec(property(get = __get_m_enableTintAllSprites, put = __set_m_enableTintAllSprites)) bool m_enableTintAllSprites;
+  __declspec(property(get = __cordl_internal_get_m_enableTintAllSprites, put = __cordl_internal_set_m_enableTintAllSprites)) bool m_enableTintAllSprites;
 
   /// @brief Field m_enableParseEscapeCharacters, offset 0x1c, size 0x1
-  __declspec(property(get = __get_m_enableParseEscapeCharacters, put = __set_m_enableParseEscapeCharacters)) bool m_enableParseEscapeCharacters;
+  __declspec(property(get = __cordl_internal_get_m_enableParseEscapeCharacters, put = __cordl_internal_set_m_enableParseEscapeCharacters)) bool m_enableParseEscapeCharacters;
 
   /// @brief Field m_EnableRaycastTarget, offset 0x1d, size 0x1
-  __declspec(property(get = __get_m_EnableRaycastTarget, put = __set_m_EnableRaycastTarget)) bool m_EnableRaycastTarget;
+  __declspec(property(get = __cordl_internal_get_m_EnableRaycastTarget, put = __cordl_internal_set_m_EnableRaycastTarget)) bool m_EnableRaycastTarget;
 
   /// @brief Field m_GetFontFeaturesAtRuntime, offset 0x1e, size 0x1
-  __declspec(property(get = __get_m_GetFontFeaturesAtRuntime, put = __set_m_GetFontFeaturesAtRuntime)) bool m_GetFontFeaturesAtRuntime;
+  __declspec(property(get = __cordl_internal_get_m_GetFontFeaturesAtRuntime, put = __cordl_internal_set_m_GetFontFeaturesAtRuntime)) bool m_GetFontFeaturesAtRuntime;
 
   /// @brief Field m_missingGlyphCharacter, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_missingGlyphCharacter, put = __set_m_missingGlyphCharacter)) int32_t m_missingGlyphCharacter;
+  __declspec(property(get = __cordl_internal_get_m_missingGlyphCharacter, put = __cordl_internal_set_m_missingGlyphCharacter)) int32_t m_missingGlyphCharacter;
 
   /// @brief Field m_warningsDisabled, offset 0x24, size 0x1
-  __declspec(property(get = __get_m_warningsDisabled, put = __set_m_warningsDisabled)) bool m_warningsDisabled;
+  __declspec(property(get = __cordl_internal_get_m_warningsDisabled, put = __cordl_internal_set_m_warningsDisabled)) bool m_warningsDisabled;
 
   /// @brief Field m_defaultFontAsset, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_defaultFontAsset, put = __set_m_defaultFontAsset))::TMPro::TMP_FontAsset* m_defaultFontAsset;
+  __declspec(property(get = __cordl_internal_get_m_defaultFontAsset, put = __cordl_internal_set_m_defaultFontAsset))::UnityW<::TMPro::TMP_FontAsset> m_defaultFontAsset;
 
   /// @brief Field m_defaultFontAssetPath, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_defaultFontAssetPath, put = __set_m_defaultFontAssetPath))::StringW m_defaultFontAssetPath;
+  __declspec(property(get = __cordl_internal_get_m_defaultFontAssetPath, put = __cordl_internal_set_m_defaultFontAssetPath))::StringW m_defaultFontAssetPath;
 
   /// @brief Field m_defaultFontSize, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_defaultFontSize, put = __set_m_defaultFontSize)) float_t m_defaultFontSize;
+  __declspec(property(get = __cordl_internal_get_m_defaultFontSize, put = __cordl_internal_set_m_defaultFontSize)) float_t m_defaultFontSize;
 
   /// @brief Field m_defaultAutoSizeMinRatio, offset 0x3c, size 0x4
-  __declspec(property(get = __get_m_defaultAutoSizeMinRatio, put = __set_m_defaultAutoSizeMinRatio)) float_t m_defaultAutoSizeMinRatio;
+  __declspec(property(get = __cordl_internal_get_m_defaultAutoSizeMinRatio, put = __cordl_internal_set_m_defaultAutoSizeMinRatio)) float_t m_defaultAutoSizeMinRatio;
 
   /// @brief Field m_defaultAutoSizeMaxRatio, offset 0x40, size 0x4
-  __declspec(property(get = __get_m_defaultAutoSizeMaxRatio, put = __set_m_defaultAutoSizeMaxRatio)) float_t m_defaultAutoSizeMaxRatio;
+  __declspec(property(get = __cordl_internal_get_m_defaultAutoSizeMaxRatio, put = __cordl_internal_set_m_defaultAutoSizeMaxRatio)) float_t m_defaultAutoSizeMaxRatio;
 
   /// @brief Field m_defaultTextMeshProTextContainerSize, offset 0x44, size 0x8
-  __declspec(property(get = __get_m_defaultTextMeshProTextContainerSize, put = __set_m_defaultTextMeshProTextContainerSize))::UnityEngine::Vector2 m_defaultTextMeshProTextContainerSize;
+  __declspec(property(get = __cordl_internal_get_m_defaultTextMeshProTextContainerSize,
+                      put = __cordl_internal_set_m_defaultTextMeshProTextContainerSize))::UnityEngine::Vector2 m_defaultTextMeshProTextContainerSize;
 
   /// @brief Field m_defaultTextMeshProUITextContainerSize, offset 0x4c, size 0x8
-  __declspec(property(get = __get_m_defaultTextMeshProUITextContainerSize, put = __set_m_defaultTextMeshProUITextContainerSize))::UnityEngine::Vector2 m_defaultTextMeshProUITextContainerSize;
+  __declspec(property(get = __cordl_internal_get_m_defaultTextMeshProUITextContainerSize,
+                      put = __cordl_internal_set_m_defaultTextMeshProUITextContainerSize))::UnityEngine::Vector2 m_defaultTextMeshProUITextContainerSize;
 
   /// @brief Field m_autoSizeTextContainer, offset 0x54, size 0x1
-  __declspec(property(get = __get_m_autoSizeTextContainer, put = __set_m_autoSizeTextContainer)) bool m_autoSizeTextContainer;
+  __declspec(property(get = __cordl_internal_get_m_autoSizeTextContainer, put = __cordl_internal_set_m_autoSizeTextContainer)) bool m_autoSizeTextContainer;
 
   /// @brief Field m_IsTextObjectScaleStatic, offset 0x55, size 0x1
-  __declspec(property(get = __get_m_IsTextObjectScaleStatic, put = __set_m_IsTextObjectScaleStatic)) bool m_IsTextObjectScaleStatic;
+  __declspec(property(get = __cordl_internal_get_m_IsTextObjectScaleStatic, put = __cordl_internal_set_m_IsTextObjectScaleStatic)) bool m_IsTextObjectScaleStatic;
 
   /// @brief Field m_fallbackFontAssets, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_fallbackFontAssets, put = __set_m_fallbackFontAssets))::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* m_fallbackFontAssets;
+  __declspec(property(get = __cordl_internal_get_m_fallbackFontAssets,
+                      put = __cordl_internal_set_m_fallbackFontAssets))::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* m_fallbackFontAssets;
 
   /// @brief Field m_matchMaterialPreset, offset 0x60, size 0x1
-  __declspec(property(get = __get_m_matchMaterialPreset, put = __set_m_matchMaterialPreset)) bool m_matchMaterialPreset;
+  __declspec(property(get = __cordl_internal_get_m_matchMaterialPreset, put = __cordl_internal_set_m_matchMaterialPreset)) bool m_matchMaterialPreset;
 
   /// @brief Field m_defaultSpriteAsset, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_defaultSpriteAsset, put = __set_m_defaultSpriteAsset))::TMPro::TMP_SpriteAsset* m_defaultSpriteAsset;
+  __declspec(property(get = __cordl_internal_get_m_defaultSpriteAsset, put = __cordl_internal_set_m_defaultSpriteAsset))::UnityW<::TMPro::TMP_SpriteAsset> m_defaultSpriteAsset;
 
   /// @brief Field m_defaultSpriteAssetPath, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_defaultSpriteAssetPath, put = __set_m_defaultSpriteAssetPath))::StringW m_defaultSpriteAssetPath;
+  __declspec(property(get = __cordl_internal_get_m_defaultSpriteAssetPath, put = __cordl_internal_set_m_defaultSpriteAssetPath))::StringW m_defaultSpriteAssetPath;
 
   /// @brief Field m_enableEmojiSupport, offset 0x78, size 0x1
-  __declspec(property(get = __get_m_enableEmojiSupport, put = __set_m_enableEmojiSupport)) bool m_enableEmojiSupport;
+  __declspec(property(get = __cordl_internal_get_m_enableEmojiSupport, put = __cordl_internal_set_m_enableEmojiSupport)) bool m_enableEmojiSupport;
 
   /// @brief Field m_MissingCharacterSpriteUnicode, offset 0x7c, size 0x4
-  __declspec(property(get = __get_m_MissingCharacterSpriteUnicode, put = __set_m_MissingCharacterSpriteUnicode)) uint32_t m_MissingCharacterSpriteUnicode;
+  __declspec(property(get = __cordl_internal_get_m_MissingCharacterSpriteUnicode, put = __cordl_internal_set_m_MissingCharacterSpriteUnicode)) uint32_t m_MissingCharacterSpriteUnicode;
 
   /// @brief Field m_defaultColorGradientPresetsPath, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_defaultColorGradientPresetsPath, put = __set_m_defaultColorGradientPresetsPath))::StringW m_defaultColorGradientPresetsPath;
+  __declspec(property(get = __cordl_internal_get_m_defaultColorGradientPresetsPath, put = __cordl_internal_set_m_defaultColorGradientPresetsPath))::StringW m_defaultColorGradientPresetsPath;
 
   /// @brief Field m_defaultStyleSheet, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_defaultStyleSheet, put = __set_m_defaultStyleSheet))::TMPro::TMP_StyleSheet* m_defaultStyleSheet;
+  __declspec(property(get = __cordl_internal_get_m_defaultStyleSheet, put = __cordl_internal_set_m_defaultStyleSheet))::UnityW<::TMPro::TMP_StyleSheet> m_defaultStyleSheet;
 
   /// @brief Field m_StyleSheetsResourcePath, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_StyleSheetsResourcePath, put = __set_m_StyleSheetsResourcePath))::StringW m_StyleSheetsResourcePath;
+  __declspec(property(get = __cordl_internal_get_m_StyleSheetsResourcePath, put = __cordl_internal_set_m_StyleSheetsResourcePath))::StringW m_StyleSheetsResourcePath;
 
   /// @brief Field m_leadingCharacters, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_leadingCharacters, put = __set_m_leadingCharacters))::UnityEngine::TextAsset* m_leadingCharacters;
+  __declspec(property(get = __cordl_internal_get_m_leadingCharacters, put = __cordl_internal_set_m_leadingCharacters))::UnityW<::UnityEngine::TextAsset> m_leadingCharacters;
 
   /// @brief Field m_followingCharacters, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_followingCharacters, put = __set_m_followingCharacters))::UnityEngine::TextAsset* m_followingCharacters;
+  __declspec(property(get = __cordl_internal_get_m_followingCharacters, put = __cordl_internal_set_m_followingCharacters))::UnityW<::UnityEngine::TextAsset> m_followingCharacters;
 
   /// @brief Field m_linebreakingRules, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_linebreakingRules, put = __set_m_linebreakingRules))::TMPro::__TMP_Settings__LineBreakingTable* m_linebreakingRules;
+  __declspec(property(get = __cordl_internal_get_m_linebreakingRules, put = __cordl_internal_set_m_linebreakingRules))::TMPro::__TMP_Settings__LineBreakingTable* m_linebreakingRules;
 
   /// @brief Field m_UseModernHangulLineBreakingRules, offset 0xb0, size 0x1
-  __declspec(property(get = __get_m_UseModernHangulLineBreakingRules, put = __set_m_UseModernHangulLineBreakingRules)) bool m_UseModernHangulLineBreakingRules;
+  __declspec(property(get = __cordl_internal_get_m_UseModernHangulLineBreakingRules, put = __cordl_internal_set_m_UseModernHangulLineBreakingRules)) bool m_UseModernHangulLineBreakingRules;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::TMPro::TMP_Settings* s_Instance;
+  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityW<::TMPro::TMP_Settings> s_Instance;
 
-  constexpr bool& __get_m_enableWordWrapping();
+  constexpr bool& __cordl_internal_get_m_enableWordWrapping();
 
-  constexpr bool const& __get_m_enableWordWrapping() const;
+  constexpr bool const& __cordl_internal_get_m_enableWordWrapping() const;
 
-  constexpr void __set_m_enableWordWrapping(bool value);
+  constexpr void __cordl_internal_set_m_enableWordWrapping(bool value);
 
-  constexpr bool& __get_m_enableKerning();
+  constexpr bool& __cordl_internal_get_m_enableKerning();
 
-  constexpr bool const& __get_m_enableKerning() const;
+  constexpr bool const& __cordl_internal_get_m_enableKerning() const;
 
-  constexpr void __set_m_enableKerning(bool value);
+  constexpr void __cordl_internal_set_m_enableKerning(bool value);
 
-  constexpr bool& __get_m_enableExtraPadding();
+  constexpr bool& __cordl_internal_get_m_enableExtraPadding();
 
-  constexpr bool const& __get_m_enableExtraPadding() const;
+  constexpr bool const& __cordl_internal_get_m_enableExtraPadding() const;
 
-  constexpr void __set_m_enableExtraPadding(bool value);
+  constexpr void __cordl_internal_set_m_enableExtraPadding(bool value);
 
-  constexpr bool& __get_m_enableTintAllSprites();
+  constexpr bool& __cordl_internal_get_m_enableTintAllSprites();
 
-  constexpr bool const& __get_m_enableTintAllSprites() const;
+  constexpr bool const& __cordl_internal_get_m_enableTintAllSprites() const;
 
-  constexpr void __set_m_enableTintAllSprites(bool value);
+  constexpr void __cordl_internal_set_m_enableTintAllSprites(bool value);
 
-  constexpr bool& __get_m_enableParseEscapeCharacters();
+  constexpr bool& __cordl_internal_get_m_enableParseEscapeCharacters();
 
-  constexpr bool const& __get_m_enableParseEscapeCharacters() const;
+  constexpr bool const& __cordl_internal_get_m_enableParseEscapeCharacters() const;
 
-  constexpr void __set_m_enableParseEscapeCharacters(bool value);
+  constexpr void __cordl_internal_set_m_enableParseEscapeCharacters(bool value);
 
-  constexpr bool& __get_m_EnableRaycastTarget();
+  constexpr bool& __cordl_internal_get_m_EnableRaycastTarget();
 
-  constexpr bool const& __get_m_EnableRaycastTarget() const;
+  constexpr bool const& __cordl_internal_get_m_EnableRaycastTarget() const;
 
-  constexpr void __set_m_EnableRaycastTarget(bool value);
+  constexpr void __cordl_internal_set_m_EnableRaycastTarget(bool value);
 
-  constexpr bool& __get_m_GetFontFeaturesAtRuntime();
+  constexpr bool& __cordl_internal_get_m_GetFontFeaturesAtRuntime();
 
-  constexpr bool const& __get_m_GetFontFeaturesAtRuntime() const;
+  constexpr bool const& __cordl_internal_get_m_GetFontFeaturesAtRuntime() const;
 
-  constexpr void __set_m_GetFontFeaturesAtRuntime(bool value);
+  constexpr void __cordl_internal_set_m_GetFontFeaturesAtRuntime(bool value);
 
-  constexpr int32_t& __get_m_missingGlyphCharacter();
+  constexpr int32_t& __cordl_internal_get_m_missingGlyphCharacter();
 
-  constexpr int32_t const& __get_m_missingGlyphCharacter() const;
+  constexpr int32_t const& __cordl_internal_get_m_missingGlyphCharacter() const;
 
-  constexpr void __set_m_missingGlyphCharacter(int32_t value);
+  constexpr void __cordl_internal_set_m_missingGlyphCharacter(int32_t value);
 
-  constexpr bool& __get_m_warningsDisabled();
+  constexpr bool& __cordl_internal_get_m_warningsDisabled();
 
-  constexpr bool const& __get_m_warningsDisabled() const;
+  constexpr bool const& __cordl_internal_get_m_warningsDisabled() const;
 
-  constexpr void __set_m_warningsDisabled(bool value);
+  constexpr void __cordl_internal_set_m_warningsDisabled(bool value);
 
-  constexpr ::TMPro::TMP_FontAsset*& __get_m_defaultFontAsset();
+  constexpr ::UnityW<::TMPro::TMP_FontAsset>& __cordl_internal_get_m_defaultFontAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_FontAsset*> const& __get_m_defaultFontAsset() const;
+  constexpr ::UnityW<::TMPro::TMP_FontAsset> const& __cordl_internal_get_m_defaultFontAsset() const;
 
-  constexpr void __set_m_defaultFontAsset(::TMPro::TMP_FontAsset* value);
+  constexpr void __cordl_internal_set_m_defaultFontAsset(::UnityW<::TMPro::TMP_FontAsset> value);
 
-  constexpr ::StringW& __get_m_defaultFontAssetPath();
+  constexpr ::StringW& __cordl_internal_get_m_defaultFontAssetPath();
 
-  constexpr ::StringW const& __get_m_defaultFontAssetPath() const;
+  constexpr ::StringW const& __cordl_internal_get_m_defaultFontAssetPath() const;
 
-  constexpr void __set_m_defaultFontAssetPath(::StringW value);
+  constexpr void __cordl_internal_set_m_defaultFontAssetPath(::StringW value);
 
-  constexpr float_t& __get_m_defaultFontSize();
+  constexpr float_t& __cordl_internal_get_m_defaultFontSize();
 
-  constexpr float_t const& __get_m_defaultFontSize() const;
+  constexpr float_t const& __cordl_internal_get_m_defaultFontSize() const;
 
-  constexpr void __set_m_defaultFontSize(float_t value);
+  constexpr void __cordl_internal_set_m_defaultFontSize(float_t value);
 
-  constexpr float_t& __get_m_defaultAutoSizeMinRatio();
+  constexpr float_t& __cordl_internal_get_m_defaultAutoSizeMinRatio();
 
-  constexpr float_t const& __get_m_defaultAutoSizeMinRatio() const;
+  constexpr float_t const& __cordl_internal_get_m_defaultAutoSizeMinRatio() const;
 
-  constexpr void __set_m_defaultAutoSizeMinRatio(float_t value);
+  constexpr void __cordl_internal_set_m_defaultAutoSizeMinRatio(float_t value);
 
-  constexpr float_t& __get_m_defaultAutoSizeMaxRatio();
+  constexpr float_t& __cordl_internal_get_m_defaultAutoSizeMaxRatio();
 
-  constexpr float_t const& __get_m_defaultAutoSizeMaxRatio() const;
+  constexpr float_t const& __cordl_internal_get_m_defaultAutoSizeMaxRatio() const;
 
-  constexpr void __set_m_defaultAutoSizeMaxRatio(float_t value);
+  constexpr void __cordl_internal_set_m_defaultAutoSizeMaxRatio(float_t value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_defaultTextMeshProTextContainerSize();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_defaultTextMeshProTextContainerSize();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_defaultTextMeshProTextContainerSize() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_defaultTextMeshProTextContainerSize() const;
 
-  constexpr void __set_m_defaultTextMeshProTextContainerSize(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_defaultTextMeshProTextContainerSize(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_defaultTextMeshProUITextContainerSize();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_defaultTextMeshProUITextContainerSize();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_defaultTextMeshProUITextContainerSize() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_defaultTextMeshProUITextContainerSize() const;
 
-  constexpr void __set_m_defaultTextMeshProUITextContainerSize(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_defaultTextMeshProUITextContainerSize(::UnityEngine::Vector2 value);
 
-  constexpr bool& __get_m_autoSizeTextContainer();
+  constexpr bool& __cordl_internal_get_m_autoSizeTextContainer();
 
-  constexpr bool const& __get_m_autoSizeTextContainer() const;
+  constexpr bool const& __cordl_internal_get_m_autoSizeTextContainer() const;
 
-  constexpr void __set_m_autoSizeTextContainer(bool value);
+  constexpr void __cordl_internal_set_m_autoSizeTextContainer(bool value);
 
-  constexpr bool& __get_m_IsTextObjectScaleStatic();
+  constexpr bool& __cordl_internal_get_m_IsTextObjectScaleStatic();
 
-  constexpr bool const& __get_m_IsTextObjectScaleStatic() const;
+  constexpr bool const& __cordl_internal_get_m_IsTextObjectScaleStatic() const;
 
-  constexpr void __set_m_IsTextObjectScaleStatic(bool value);
+  constexpr void __cordl_internal_set_m_IsTextObjectScaleStatic(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>*& __get_m_fallbackFontAssets();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>*& __cordl_internal_get_m_fallbackFontAssets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>*> const& __get_m_fallbackFontAssets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>*> const& __cordl_internal_get_m_fallbackFontAssets() const;
 
-  constexpr void __set_m_fallbackFontAssets(::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* value);
+  constexpr void __cordl_internal_set_m_fallbackFontAssets(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* value);
 
-  constexpr bool& __get_m_matchMaterialPreset();
+  constexpr bool& __cordl_internal_get_m_matchMaterialPreset();
 
-  constexpr bool const& __get_m_matchMaterialPreset() const;
+  constexpr bool const& __cordl_internal_get_m_matchMaterialPreset() const;
 
-  constexpr void __set_m_matchMaterialPreset(bool value);
+  constexpr void __cordl_internal_set_m_matchMaterialPreset(bool value);
 
-  constexpr ::TMPro::TMP_SpriteAsset*& __get_m_defaultSpriteAsset();
+  constexpr ::UnityW<::TMPro::TMP_SpriteAsset>& __cordl_internal_get_m_defaultSpriteAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_SpriteAsset*> const& __get_m_defaultSpriteAsset() const;
+  constexpr ::UnityW<::TMPro::TMP_SpriteAsset> const& __cordl_internal_get_m_defaultSpriteAsset() const;
 
-  constexpr void __set_m_defaultSpriteAsset(::TMPro::TMP_SpriteAsset* value);
+  constexpr void __cordl_internal_set_m_defaultSpriteAsset(::UnityW<::TMPro::TMP_SpriteAsset> value);
 
-  constexpr ::StringW& __get_m_defaultSpriteAssetPath();
+  constexpr ::StringW& __cordl_internal_get_m_defaultSpriteAssetPath();
 
-  constexpr ::StringW const& __get_m_defaultSpriteAssetPath() const;
+  constexpr ::StringW const& __cordl_internal_get_m_defaultSpriteAssetPath() const;
 
-  constexpr void __set_m_defaultSpriteAssetPath(::StringW value);
+  constexpr void __cordl_internal_set_m_defaultSpriteAssetPath(::StringW value);
 
-  constexpr bool& __get_m_enableEmojiSupport();
+  constexpr bool& __cordl_internal_get_m_enableEmojiSupport();
 
-  constexpr bool const& __get_m_enableEmojiSupport() const;
+  constexpr bool const& __cordl_internal_get_m_enableEmojiSupport() const;
 
-  constexpr void __set_m_enableEmojiSupport(bool value);
+  constexpr void __cordl_internal_set_m_enableEmojiSupport(bool value);
 
-  constexpr uint32_t& __get_m_MissingCharacterSpriteUnicode();
+  constexpr uint32_t& __cordl_internal_get_m_MissingCharacterSpriteUnicode();
 
-  constexpr uint32_t const& __get_m_MissingCharacterSpriteUnicode() const;
+  constexpr uint32_t const& __cordl_internal_get_m_MissingCharacterSpriteUnicode() const;
 
-  constexpr void __set_m_MissingCharacterSpriteUnicode(uint32_t value);
+  constexpr void __cordl_internal_set_m_MissingCharacterSpriteUnicode(uint32_t value);
 
-  constexpr ::StringW& __get_m_defaultColorGradientPresetsPath();
+  constexpr ::StringW& __cordl_internal_get_m_defaultColorGradientPresetsPath();
 
-  constexpr ::StringW const& __get_m_defaultColorGradientPresetsPath() const;
+  constexpr ::StringW const& __cordl_internal_get_m_defaultColorGradientPresetsPath() const;
 
-  constexpr void __set_m_defaultColorGradientPresetsPath(::StringW value);
+  constexpr void __cordl_internal_set_m_defaultColorGradientPresetsPath(::StringW value);
 
-  constexpr ::TMPro::TMP_StyleSheet*& __get_m_defaultStyleSheet();
+  constexpr ::UnityW<::TMPro::TMP_StyleSheet>& __cordl_internal_get_m_defaultStyleSheet();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_StyleSheet*> const& __get_m_defaultStyleSheet() const;
+  constexpr ::UnityW<::TMPro::TMP_StyleSheet> const& __cordl_internal_get_m_defaultStyleSheet() const;
 
-  constexpr void __set_m_defaultStyleSheet(::TMPro::TMP_StyleSheet* value);
+  constexpr void __cordl_internal_set_m_defaultStyleSheet(::UnityW<::TMPro::TMP_StyleSheet> value);
 
-  constexpr ::StringW& __get_m_StyleSheetsResourcePath();
+  constexpr ::StringW& __cordl_internal_get_m_StyleSheetsResourcePath();
 
-  constexpr ::StringW const& __get_m_StyleSheetsResourcePath() const;
+  constexpr ::StringW const& __cordl_internal_get_m_StyleSheetsResourcePath() const;
 
-  constexpr void __set_m_StyleSheetsResourcePath(::StringW value);
+  constexpr void __cordl_internal_set_m_StyleSheetsResourcePath(::StringW value);
 
-  constexpr ::UnityEngine::TextAsset*& __get_m_leadingCharacters();
+  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_m_leadingCharacters();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& __get_m_leadingCharacters() const;
+  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_m_leadingCharacters() const;
 
-  constexpr void __set_m_leadingCharacters(::UnityEngine::TextAsset* value);
+  constexpr void __cordl_internal_set_m_leadingCharacters(::UnityW<::UnityEngine::TextAsset> value);
 
-  constexpr ::UnityEngine::TextAsset*& __get_m_followingCharacters();
+  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_m_followingCharacters();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& __get_m_followingCharacters() const;
+  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_m_followingCharacters() const;
 
-  constexpr void __set_m_followingCharacters(::UnityEngine::TextAsset* value);
+  constexpr void __cordl_internal_set_m_followingCharacters(::UnityW<::UnityEngine::TextAsset> value);
 
-  constexpr ::TMPro::__TMP_Settings__LineBreakingTable*& __get_m_linebreakingRules();
+  constexpr ::TMPro::__TMP_Settings__LineBreakingTable*& __cordl_internal_get_m_linebreakingRules();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_Settings__LineBreakingTable*> const& __get_m_linebreakingRules() const;
+  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_Settings__LineBreakingTable*> const& __cordl_internal_get_m_linebreakingRules() const;
 
-  constexpr void __set_m_linebreakingRules(::TMPro::__TMP_Settings__LineBreakingTable* value);
+  constexpr void __cordl_internal_set_m_linebreakingRules(::TMPro::__TMP_Settings__LineBreakingTable* value);
 
-  constexpr bool& __get_m_UseModernHangulLineBreakingRules();
+  constexpr bool& __cordl_internal_get_m_UseModernHangulLineBreakingRules();
 
-  constexpr bool const& __get_m_UseModernHangulLineBreakingRules() const;
+  constexpr bool const& __cordl_internal_get_m_UseModernHangulLineBreakingRules() const;
 
-  constexpr void __set_m_UseModernHangulLineBreakingRules(bool value);
+  constexpr void __cordl_internal_set_m_UseModernHangulLineBreakingRules(bool value);
 
-  static inline void setStaticF_s_Instance(::TMPro::TMP_Settings* value);
+  static inline void setStaticF_s_Instance(::UnityW<::TMPro::TMP_Settings> value);
 
-  static inline ::TMPro::TMP_Settings* getStaticF_s_Instance();
+  static inline ::UnityW<::TMPro::TMP_Settings> getStaticF_s_Instance();
 
   /// @brief Method get_version, addr 0x2c3fbd0, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW get_version();
@@ -438,7 +442,7 @@ public:
   static inline bool get_warningsDisabled();
 
   /// @brief Method get_defaultFontAsset, addr 0x2c3fdf8, size 0x1c, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_FontAsset* get_defaultFontAsset();
+  static inline ::UnityW<::TMPro::TMP_FontAsset> get_defaultFontAsset();
 
   /// @brief Method get_defaultFontAssetPath, addr 0x2c3fe14, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW get_defaultFontAssetPath();
@@ -468,13 +472,13 @@ public:
   static inline void set_isTextObjectScaleStatic(bool value);
 
   /// @brief Method get_fallbackFontAssets, addr 0x2c3ff18, size 0x1c, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* get_fallbackFontAssets();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* get_fallbackFontAssets();
 
   /// @brief Method get_matchMaterialPreset, addr 0x2c3ff34, size 0x1c, virtual false, abstract: false, final false
   static inline bool get_matchMaterialPreset();
 
   /// @brief Method get_defaultSpriteAsset, addr 0x2c3ff50, size 0x1c, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_SpriteAsset* get_defaultSpriteAsset();
+  static inline ::UnityW<::TMPro::TMP_SpriteAsset> get_defaultSpriteAsset();
 
   /// @brief Method get_defaultSpriteAssetPath, addr 0x2c3ff6c, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW get_defaultSpriteAssetPath();
@@ -495,16 +499,16 @@ public:
   static inline ::StringW get_defaultColorGradientPresetsPath();
 
   /// @brief Method get_defaultStyleSheet, addr 0x2c40020, size 0x1c, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_StyleSheet* get_defaultStyleSheet();
+  static inline ::UnityW<::TMPro::TMP_StyleSheet> get_defaultStyleSheet();
 
   /// @brief Method get_styleSheetsResourcePath, addr 0x2c4003c, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW get_styleSheetsResourcePath();
 
   /// @brief Method get_leadingCharacters, addr 0x2c40058, size 0x1c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextAsset* get_leadingCharacters();
+  static inline ::UnityW<::UnityEngine::TextAsset> get_leadingCharacters();
 
   /// @brief Method get_followingCharacters, addr 0x2c40074, size 0x1c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextAsset* get_followingCharacters();
+  static inline ::UnityW<::UnityEngine::TextAsset> get_followingCharacters();
 
   /// @brief Method get_linebreakingRules, addr 0x2c40090, size 0x30, virtual false, abstract: false, final false
   static inline ::TMPro::__TMP_Settings__LineBreakingTable* get_linebreakingRules();
@@ -516,22 +520,22 @@ public:
   static inline void set_useModernHangulLineBreakingRules(bool value);
 
   /// @brief Method get_instance, addr 0x2c3fc2c, size 0xcc, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_Settings* get_instance();
+  static inline ::UnityW<::TMPro::TMP_Settings> get_instance();
 
   /// @brief Method LoadDefaultSettings, addr 0x2c40210, size 0xf8, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_Settings* LoadDefaultSettings();
+  static inline ::UnityW<::TMPro::TMP_Settings> LoadDefaultSettings();
 
   /// @brief Method GetSettings, addr 0x2c40308, size 0x7c, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_Settings* GetSettings();
+  static inline ::UnityW<::TMPro::TMP_Settings> GetSettings();
 
   /// @brief Method GetFontAsset, addr 0x2c40384, size 0x84, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_FontAsset* GetFontAsset();
+  static inline ::UnityW<::TMPro::TMP_FontAsset> GetFontAsset();
 
   /// @brief Method GetSpriteAsset, addr 0x2c40408, size 0x84, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_SpriteAsset* GetSpriteAsset();
+  static inline ::UnityW<::TMPro::TMP_SpriteAsset> GetSpriteAsset();
 
   /// @brief Method GetStyleSheet, addr 0x2c4048c, size 0x84, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_StyleSheet* GetStyleSheet();
+  static inline ::UnityW<::TMPro::TMP_StyleSheet> GetStyleSheet();
 
   /// @brief Method LoadLinebreakingRules, addr 0x2c400c0, size 0x110, virtual false, abstract: false, final false
   static inline void LoadLinebreakingRules();
@@ -586,7 +590,7 @@ public:
   bool ___m_warningsDisabled;
 
   /// @brief Field m_defaultFontAsset, offset: 0x28, size: 0x8, def value: None
-  ::TMPro::TMP_FontAsset* ___m_defaultFontAsset;
+  ::UnityW<::TMPro::TMP_FontAsset> ___m_defaultFontAsset;
 
   /// @brief Field m_defaultFontAssetPath, offset: 0x30, size: 0x8, def value: None
   ::StringW ___m_defaultFontAssetPath;
@@ -613,13 +617,13 @@ public:
   bool ___m_IsTextObjectScaleStatic;
 
   /// @brief Field m_fallbackFontAssets, offset: 0x58, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::TMPro::TMP_FontAsset*>* ___m_fallbackFontAssets;
+  ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* ___m_fallbackFontAssets;
 
   /// @brief Field m_matchMaterialPreset, offset: 0x60, size: 0x1, def value: None
   bool ___m_matchMaterialPreset;
 
   /// @brief Field m_defaultSpriteAsset, offset: 0x68, size: 0x8, def value: None
-  ::TMPro::TMP_SpriteAsset* ___m_defaultSpriteAsset;
+  ::UnityW<::TMPro::TMP_SpriteAsset> ___m_defaultSpriteAsset;
 
   /// @brief Field m_defaultSpriteAssetPath, offset: 0x70, size: 0x8, def value: None
   ::StringW ___m_defaultSpriteAssetPath;
@@ -634,16 +638,16 @@ public:
   ::StringW ___m_defaultColorGradientPresetsPath;
 
   /// @brief Field m_defaultStyleSheet, offset: 0x88, size: 0x8, def value: None
-  ::TMPro::TMP_StyleSheet* ___m_defaultStyleSheet;
+  ::UnityW<::TMPro::TMP_StyleSheet> ___m_defaultStyleSheet;
 
   /// @brief Field m_StyleSheetsResourcePath, offset: 0x90, size: 0x8, def value: None
   ::StringW ___m_StyleSheetsResourcePath;
 
   /// @brief Field m_leadingCharacters, offset: 0x98, size: 0x8, def value: None
-  ::UnityEngine::TextAsset* ___m_leadingCharacters;
+  ::UnityW<::UnityEngine::TextAsset> ___m_leadingCharacters;
 
   /// @brief Field m_followingCharacters, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::TextAsset* ___m_followingCharacters;
+  ::UnityW<::UnityEngine::TextAsset> ___m_followingCharacters;
 
   /// @brief Field m_linebreakingRules, offset: 0xa8, size: 0x8, def value: None
   ::TMPro::__TMP_Settings__LineBreakingTable* ___m_linebreakingRules;

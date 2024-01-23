@@ -92,20 +92,20 @@ namespace Zenject {
 // cpp template
 template <typename TSignal>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10641))
 // CS Name: ::BindSignalToBinder`1::<>c__DisplayClass6_0<TSignal>*
 class CORDL_TYPE __BindSignalToBinder_1____c__DisplayClass6_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __get_callback, put = __set_callback))::System::Action_1<TSignal>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_1<TSignal>* callback;
 
-  constexpr ::System::Action_1<TSignal>*& __get_callback();
+  constexpr ::System::Action_1<TSignal>*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TSignal>*> const& __get_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TSignal>*> const& __cordl_internal_get_callback() const;
 
-  constexpr void __set_callback(::System::Action_1<TSignal>* value);
+  constexpr void __cordl_internal_set_callback(::System::Action_1<TSignal>* value);
 
   static inline ::Zenject::__BindSignalToBinder_1____c__DisplayClass6_0<TSignal>* New_ctor();
 
@@ -148,20 +148,20 @@ namespace Zenject {
 // cpp template
 template <typename TSignal>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10642))
 // CS Name: ::BindSignalToBinder`1::<>c__DisplayClass7_0<TSignal>*
 class CORDL_TYPE __BindSignalToBinder_1____c__DisplayClass7_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __get_callback, put = __set_callback))::System::Action* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action* callback;
 
-  constexpr ::System::Action*& __get_callback();
+  constexpr ::System::Action*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_callback() const;
 
-  constexpr void __set_callback(::System::Action* value);
+  constexpr void __cordl_internal_set_callback(::System::Action* value);
 
   static inline ::Zenject::__BindSignalToBinder_1____c__DisplayClass7_0<TSignal>* New_ctor();
 
@@ -204,20 +204,20 @@ namespace Zenject {
 // cpp template
 template <typename TSignal, typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10643))
 // CS Name: ::BindSignalToBinder`1::<>c__DisplayClass8_0`1<TSignal,TObject>*
 class CORDL_TYPE __BindSignalToBinder_1____c__DisplayClass8_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field handler, offset 0x10, size 0x8
-  __declspec(property(get = __get_handler, put = __set_handler))::System::Action_2<TObject, TSignal>* handler;
+  __declspec(property(get = __cordl_internal_get_handler, put = __cordl_internal_set_handler))::System::Action_2<TObject, TSignal>* handler;
 
-  constexpr ::System::Action_2<TObject, TSignal>*& __get_handler();
+  constexpr ::System::Action_2<TObject, TSignal>*& __cordl_internal_get_handler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<TObject, TSignal>*> const& __get_handler() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<TObject, TSignal>*> const& __cordl_internal_get_handler() const;
 
-  constexpr void __set_handler(::System::Action_2<TObject, TSignal>* value);
+  constexpr void __cordl_internal_set_handler(::System::Action_2<TObject, TSignal>* value);
 
   static inline ::Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>* New_ctor();
 
@@ -260,29 +260,30 @@ namespace Zenject {
 // cpp template
 template <typename TSignal, typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10644))
 // CS Name: ::BindSignalToBinder`1::<>c__DisplayClass8_1`1<TSignal,TObject>*
 class CORDL_TYPE __BindSignalToBinder_1____c__DisplayClass8_1_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field x, offset 0x10, size 0x8
-  __declspec(property(get = __get_x, put = __set_x)) TObject x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) TObject x;
 
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
-  __declspec(property(get = __get_CS$__8__locals1, put = __set_CS$__8__locals1))::Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>* CS$__8__locals1;
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals1,
+                      put = __cordl_internal_set_CS$__8__locals1))::Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>* CS$__8__locals1;
 
-  constexpr TObject& __get_x();
+  constexpr TObject& __cordl_internal_get_x();
 
-  constexpr TObject const& __get_x() const;
+  constexpr TObject const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(TObject value);
+  constexpr void __cordl_internal_set_x(TObject value);
 
-  constexpr ::Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>*& __get_CS$__8__locals1();
+  constexpr ::Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>*& __cordl_internal_get_CS$__8__locals1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>*> const& __get_CS$__8__locals1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>*> const& __cordl_internal_get_CS$__8__locals1() const;
 
-  constexpr void __set_CS$__8__locals1(::Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>* value);
+  constexpr void __cordl_internal_set_CS$__8__locals1(::Zenject::__BindSignalToBinder_1____c__DisplayClass8_0_1<TSignal, TObject>* value);
 
   static inline ::Zenject::__BindSignalToBinder_1____c__DisplayClass8_1_1<TSignal, TObject>* New_ctor();
 
@@ -328,20 +329,20 @@ namespace Zenject {
 // cpp template
 template <typename TSignal, typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10645))
 // CS Name: ::BindSignalToBinder`1::<>c__DisplayClass9_0`1<TSignal,TObject>*
 class CORDL_TYPE __BindSignalToBinder_1____c__DisplayClass9_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field handlerGetter, offset 0x10, size 0x8
-  __declspec(property(get = __get_handlerGetter, put = __set_handlerGetter))::System::Func_2<TObject, ::System::Action*>* handlerGetter;
+  __declspec(property(get = __cordl_internal_get_handlerGetter, put = __cordl_internal_set_handlerGetter))::System::Func_2<TObject, ::System::Action*>* handlerGetter;
 
-  constexpr ::System::Func_2<TObject, ::System::Action*>*& __get_handlerGetter();
+  constexpr ::System::Func_2<TObject, ::System::Action*>*& __cordl_internal_get_handlerGetter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TObject, ::System::Action*>*> const& __get_handlerGetter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TObject, ::System::Action*>*> const& __cordl_internal_get_handlerGetter() const;
 
-  constexpr void __set_handlerGetter(::System::Func_2<TObject, ::System::Action*>* value);
+  constexpr void __cordl_internal_set_handlerGetter(::System::Func_2<TObject, ::System::Action*>* value);
 
   static inline ::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>* New_ctor();
 
@@ -384,29 +385,30 @@ namespace Zenject {
 // cpp template
 template <typename TSignal, typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10646))
 // CS Name: ::BindSignalToBinder`1::<>c__DisplayClass9_1`1<TSignal,TObject>*
 class CORDL_TYPE __BindSignalToBinder_1____c__DisplayClass9_1_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field x, offset 0x10, size 0x8
-  __declspec(property(get = __get_x, put = __set_x)) TObject x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) TObject x;
 
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
-  __declspec(property(get = __get_CS$__8__locals1, put = __set_CS$__8__locals1))::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>* CS$__8__locals1;
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals1,
+                      put = __cordl_internal_set_CS$__8__locals1))::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>* CS$__8__locals1;
 
-  constexpr TObject& __get_x();
+  constexpr TObject& __cordl_internal_get_x();
 
-  constexpr TObject const& __get_x() const;
+  constexpr TObject const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(TObject value);
+  constexpr void __cordl_internal_set_x(TObject value);
 
-  constexpr ::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>*& __get_CS$__8__locals1();
+  constexpr ::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>*& __cordl_internal_get_CS$__8__locals1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>*> const& __get_CS$__8__locals1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>*> const& __cordl_internal_get_CS$__8__locals1() const;
 
-  constexpr void __set_CS$__8__locals1(::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>* value);
+  constexpr void __cordl_internal_set_CS$__8__locals1(::Zenject::__BindSignalToBinder_1____c__DisplayClass9_0_1<TSignal, TObject>* value);
 
   static inline ::Zenject::__BindSignalToBinder_1____c__DisplayClass9_1_1<TSignal, TObject>* New_ctor();
 
@@ -452,7 +454,7 @@ namespace Zenject {
 // cpp template
 template <typename TSignal>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10647))
 // CS Name: ::Zenject::BindSignalToBinder`1<TSignal>*
 class CORDL_TYPE BindSignalToBinder_1 : public ::System::Object {
@@ -471,33 +473,33 @@ public:
   using __c__DisplayClass6_0 = ::Zenject::__BindSignalToBinder_1____c__DisplayClass6_0<TSignal>;
 
   /// @brief Field _container, offset 0x10, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _bindStatement, offset 0x18, size 0x8
-  __declspec(property(get = __get__bindStatement, put = __set__bindStatement))::Zenject::BindStatement* _bindStatement;
+  __declspec(property(get = __cordl_internal_get__bindStatement, put = __cordl_internal_set__bindStatement))::Zenject::BindStatement* _bindStatement;
 
   /// @brief Field _signalBindInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get__signalBindInfo, put = __set__signalBindInfo))::Zenject::SignalBindingBindInfo* _signalBindInfo;
+  __declspec(property(get = __cordl_internal_get__signalBindInfo, put = __cordl_internal_set__signalBindInfo))::Zenject::SignalBindingBindInfo* _signalBindInfo;
 
   __declspec(property(get = get_SignalBindInfo))::Zenject::SignalBindingBindInfo* SignalBindInfo;
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::Zenject::BindStatement*& __get__bindStatement();
+  constexpr ::Zenject::BindStatement*& __cordl_internal_get__bindStatement();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindStatement*> const& __get__bindStatement() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindStatement*> const& __cordl_internal_get__bindStatement() const;
 
-  constexpr void __set__bindStatement(::Zenject::BindStatement* value);
+  constexpr void __cordl_internal_set__bindStatement(::Zenject::BindStatement* value);
 
-  constexpr ::Zenject::SignalBindingBindInfo*& __get__signalBindInfo();
+  constexpr ::Zenject::SignalBindingBindInfo*& __cordl_internal_get__signalBindInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SignalBindingBindInfo*> const& __get__signalBindInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::SignalBindingBindInfo*> const& __cordl_internal_get__signalBindInfo() const;
 
-  constexpr void __set__signalBindInfo(::Zenject::SignalBindingBindInfo* value);
+  constexpr void __cordl_internal_set__signalBindInfo(::Zenject::SignalBindingBindInfo* value);
 
   static inline ::Zenject::BindSignalToBinder_1<TSignal>* New_ctor(::Zenject::DiContainer* container, ::Zenject::SignalBindingBindInfo* signalBindInfo);
 

@@ -16,7 +16,7 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2659))
 // CS Name: ::System.Threading::AsyncLocalValueChangedArgs`1<T>
 struct CORDL_TYPE AsyncLocalValueChangedArgs_1 {

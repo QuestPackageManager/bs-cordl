@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::OwnedState);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7373))
 // CS Name: ::UnityEngine.UIElements.UIR::OwnedState
 struct CORDL_TYPE OwnedState {

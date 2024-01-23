@@ -36,7 +36,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::AutoUnwrapSettings);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12098))
 // CS Name: ::AutoUnwrapSettings::Anchor
 struct CORDL_TYPE __AutoUnwrapSettings__Anchor {
@@ -118,7 +118,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor, 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12099))
 // CS Name: ::AutoUnwrapSettings::Fill
 struct CORDL_TYPE __AutoUnwrapSettings__Fill {
@@ -172,7 +172,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill, va
 // SizeInfo { instance_size: 32, native_size: 44, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12099)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(12098))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(12098)), TypeDefinitionIndex(TypeDefinitionIndex(12099))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12100))
 // CS Name: ::UnityEngine.ProBuilder::AutoUnwrapSettings
 struct CORDL_TYPE AutoUnwrapSettings {

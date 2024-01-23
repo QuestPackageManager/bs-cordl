@@ -20,38 +20,38 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::SerStack);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3292))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::SerStack*
 class CORDL_TYPE SerStack : public ::System::Object {
 public:
   // Declarations
   /// @brief Field objects, offset 0x10, size 0x8
-  __declspec(property(get = __get_objects, put = __set_objects))::ArrayW<::System::Object*, ::Array<::System::Object*>*> objects;
+  __declspec(property(get = __cordl_internal_get_objects, put = __cordl_internal_set_objects))::ArrayW<::System::Object*, ::Array<::System::Object*>*> objects;
 
   /// @brief Field stackId, offset 0x18, size 0x8
-  __declspec(property(get = __get_stackId, put = __set_stackId))::StringW stackId;
+  __declspec(property(get = __cordl_internal_get_stackId, put = __cordl_internal_set_stackId))::StringW stackId;
 
   /// @brief Field top, offset 0x20, size 0x4
-  __declspec(property(get = __get_top, put = __set_top)) int32_t top;
+  __declspec(property(get = __cordl_internal_get_top, put = __cordl_internal_set_top)) int32_t top;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get_objects();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_objects();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get_objects() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_objects() const;
 
-  constexpr void __set_objects(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set_objects(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  constexpr ::StringW& __get_stackId();
+  constexpr ::StringW& __cordl_internal_get_stackId();
 
-  constexpr ::StringW const& __get_stackId() const;
+  constexpr ::StringW const& __cordl_internal_get_stackId() const;
 
-  constexpr void __set_stackId(::StringW value);
+  constexpr void __cordl_internal_set_stackId(::StringW value);
 
-  constexpr int32_t& __get_top();
+  constexpr int32_t& __cordl_internal_get_top();
 
-  constexpr int32_t const& __get_top() const;
+  constexpr int32_t const& __cordl_internal_get_top() const;
 
-  constexpr void __set_top(int32_t value);
+  constexpr void __cordl_internal_set_top(int32_t value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerStack* New_ctor(::StringW stackId);
 

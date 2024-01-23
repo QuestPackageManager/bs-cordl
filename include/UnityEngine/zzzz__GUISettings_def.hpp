@@ -16,56 +16,56 @@ MARK_REF_PTR_T(::UnityEngine::GUISettings);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14617))
 // CS Name: ::UnityEngine::GUISettings*
 class CORDL_TYPE GUISettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_DoubleClickSelectsWord, offset 0x10, size 0x1
-  __declspec(property(get = __get_m_DoubleClickSelectsWord, put = __set_m_DoubleClickSelectsWord)) bool m_DoubleClickSelectsWord;
+  __declspec(property(get = __cordl_internal_get_m_DoubleClickSelectsWord, put = __cordl_internal_set_m_DoubleClickSelectsWord)) bool m_DoubleClickSelectsWord;
 
   /// @brief Field m_TripleClickSelectsLine, offset 0x11, size 0x1
-  __declspec(property(get = __get_m_TripleClickSelectsLine, put = __set_m_TripleClickSelectsLine)) bool m_TripleClickSelectsLine;
+  __declspec(property(get = __cordl_internal_get_m_TripleClickSelectsLine, put = __cordl_internal_set_m_TripleClickSelectsLine)) bool m_TripleClickSelectsLine;
 
   /// @brief Field m_CursorColor, offset 0x14, size 0x10
-  __declspec(property(get = __get_m_CursorColor, put = __set_m_CursorColor))::UnityEngine::Color m_CursorColor;
+  __declspec(property(get = __cordl_internal_get_m_CursorColor, put = __cordl_internal_set_m_CursorColor))::UnityEngine::Color m_CursorColor;
 
   /// @brief Field m_CursorFlashSpeed, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_CursorFlashSpeed, put = __set_m_CursorFlashSpeed)) float_t m_CursorFlashSpeed;
+  __declspec(property(get = __cordl_internal_get_m_CursorFlashSpeed, put = __cordl_internal_set_m_CursorFlashSpeed)) float_t m_CursorFlashSpeed;
 
   /// @brief Field m_SelectionColor, offset 0x28, size 0x10
-  __declspec(property(get = __get_m_SelectionColor, put = __set_m_SelectionColor))::UnityEngine::Color m_SelectionColor;
+  __declspec(property(get = __cordl_internal_get_m_SelectionColor, put = __cordl_internal_set_m_SelectionColor))::UnityEngine::Color m_SelectionColor;
 
-  constexpr bool& __get_m_DoubleClickSelectsWord();
+  constexpr bool& __cordl_internal_get_m_DoubleClickSelectsWord();
 
-  constexpr bool const& __get_m_DoubleClickSelectsWord() const;
+  constexpr bool const& __cordl_internal_get_m_DoubleClickSelectsWord() const;
 
-  constexpr void __set_m_DoubleClickSelectsWord(bool value);
+  constexpr void __cordl_internal_set_m_DoubleClickSelectsWord(bool value);
 
-  constexpr bool& __get_m_TripleClickSelectsLine();
+  constexpr bool& __cordl_internal_get_m_TripleClickSelectsLine();
 
-  constexpr bool const& __get_m_TripleClickSelectsLine() const;
+  constexpr bool const& __cordl_internal_get_m_TripleClickSelectsLine() const;
 
-  constexpr void __set_m_TripleClickSelectsLine(bool value);
+  constexpr void __cordl_internal_set_m_TripleClickSelectsLine(bool value);
 
-  constexpr ::UnityEngine::Color& __get_m_CursorColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_CursorColor();
 
-  constexpr ::UnityEngine::Color const& __get_m_CursorColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_CursorColor() const;
 
-  constexpr void __set_m_CursorColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_CursorColor(::UnityEngine::Color value);
 
-  constexpr float_t& __get_m_CursorFlashSpeed();
+  constexpr float_t& __cordl_internal_get_m_CursorFlashSpeed();
 
-  constexpr float_t const& __get_m_CursorFlashSpeed() const;
+  constexpr float_t const& __cordl_internal_get_m_CursorFlashSpeed() const;
 
-  constexpr void __set_m_CursorFlashSpeed(float_t value);
+  constexpr void __cordl_internal_set_m_CursorFlashSpeed(float_t value);
 
-  constexpr ::UnityEngine::Color& __get_m_SelectionColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_SelectionColor();
 
-  constexpr ::UnityEngine::Color const& __get_m_SelectionColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_SelectionColor() const;
 
-  constexpr void __set_m_SelectionColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_SelectionColor(::UnityEngine::Color value);
 
   static inline ::UnityEngine::GUISettings* New_ctor();
 

@@ -48,50 +48,50 @@ MARK_REF_PTR_T(::System::Delegate);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2589))
 // CS Name: ::System::Delegate*
 class CORDL_TYPE Delegate : public ::System::Object {
 public:
   // Declarations
   /// @brief Field method_ptr, offset 0x10, size 0x8
-  __declspec(property(get = __get_method_ptr, put = __set_method_ptr)) void* method_ptr;
+  __declspec(property(get = __cordl_internal_get_method_ptr, put = __cordl_internal_set_method_ptr)) void* method_ptr;
 
   /// @brief Field invoke_impl, offset 0x18, size 0x8
-  __declspec(property(get = __get_invoke_impl, put = __set_invoke_impl)) void* invoke_impl;
+  __declspec(property(get = __cordl_internal_get_invoke_impl, put = __cordl_internal_set_invoke_impl)) void* invoke_impl;
 
   /// @brief Field m_target, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_target, put = __set_m_target))::System::Object* m_target;
+  __declspec(property(get = __cordl_internal_get_m_target, put = __cordl_internal_set_m_target))::System::Object* m_target;
 
   /// @brief Field method, offset 0x28, size 0x8
-  __declspec(property(get = __get_method, put = __set_method)) void* method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method)) void* method;
 
   /// @brief Field delegate_trampoline, offset 0x30, size 0x8
-  __declspec(property(get = __get_delegate_trampoline, put = __set_delegate_trampoline)) void* delegate_trampoline;
+  __declspec(property(get = __cordl_internal_get_delegate_trampoline, put = __cordl_internal_set_delegate_trampoline)) void* delegate_trampoline;
 
   /// @brief Field extra_arg, offset 0x38, size 0x8
-  __declspec(property(get = __get_extra_arg, put = __set_extra_arg)) void* extra_arg;
+  __declspec(property(get = __cordl_internal_get_extra_arg, put = __cordl_internal_set_extra_arg)) void* extra_arg;
 
   /// @brief Field method_code, offset 0x40, size 0x8
-  __declspec(property(get = __get_method_code, put = __set_method_code)) void* method_code;
+  __declspec(property(get = __cordl_internal_get_method_code, put = __cordl_internal_set_method_code)) void* method_code;
 
   /// @brief Field interp_method, offset 0x48, size 0x8
-  __declspec(property(get = __get_interp_method, put = __set_interp_method)) void* interp_method;
+  __declspec(property(get = __cordl_internal_get_interp_method, put = __cordl_internal_set_interp_method)) void* interp_method;
 
   /// @brief Field interp_invoke_impl, offset 0x50, size 0x8
-  __declspec(property(get = __get_interp_invoke_impl, put = __set_interp_invoke_impl)) void* interp_invoke_impl;
+  __declspec(property(get = __cordl_internal_get_interp_invoke_impl, put = __cordl_internal_set_interp_invoke_impl)) void* interp_invoke_impl;
 
   /// @brief Field method_info, offset 0x58, size 0x8
-  __declspec(property(get = __get_method_info, put = __set_method_info))::System::Reflection::MethodInfo* method_info;
+  __declspec(property(get = __cordl_internal_get_method_info, put = __cordl_internal_set_method_info))::System::Reflection::MethodInfo* method_info;
 
   /// @brief Field original_method_info, offset 0x60, size 0x8
-  __declspec(property(get = __get_original_method_info, put = __set_original_method_info))::System::Reflection::MethodInfo* original_method_info;
+  __declspec(property(get = __cordl_internal_get_original_method_info, put = __cordl_internal_set_original_method_info))::System::Reflection::MethodInfo* original_method_info;
 
   /// @brief Field data, offset 0x68, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::System::DelegateData* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::System::DelegateData* data;
 
   /// @brief Field method_is_virtual, offset 0x70, size 0x1
-  __declspec(property(get = __get_method_is_virtual, put = __set_method_is_virtual)) bool method_is_virtual;
+  __declspec(property(get = __cordl_internal_get_method_is_virtual, put = __cordl_internal_set_method_is_virtual)) bool method_is_virtual;
 
   __declspec(property(get = get_Method))::System::Reflection::MethodInfo* Method;
 
@@ -109,83 +109,83 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr void*& __get_method_ptr();
+  constexpr void*& __cordl_internal_get_method_ptr();
 
-  constexpr void* const& __get_method_ptr() const;
+  constexpr void* const& __cordl_internal_get_method_ptr() const;
 
-  constexpr void __set_method_ptr(void* value);
+  constexpr void __cordl_internal_set_method_ptr(void* value);
 
-  constexpr void*& __get_invoke_impl();
+  constexpr void*& __cordl_internal_get_invoke_impl();
 
-  constexpr void* const& __get_invoke_impl() const;
+  constexpr void* const& __cordl_internal_get_invoke_impl() const;
 
-  constexpr void __set_invoke_impl(void* value);
+  constexpr void __cordl_internal_set_invoke_impl(void* value);
 
-  constexpr ::System::Object*& __get_m_target();
+  constexpr ::System::Object*& __cordl_internal_get_m_target();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_target() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_target() const;
 
-  constexpr void __set_m_target(::System::Object* value);
+  constexpr void __cordl_internal_set_m_target(::System::Object* value);
 
-  constexpr void*& __get_method();
+  constexpr void*& __cordl_internal_get_method();
 
-  constexpr void* const& __get_method() const;
+  constexpr void* const& __cordl_internal_get_method() const;
 
-  constexpr void __set_method(void* value);
+  constexpr void __cordl_internal_set_method(void* value);
 
-  constexpr void*& __get_delegate_trampoline();
+  constexpr void*& __cordl_internal_get_delegate_trampoline();
 
-  constexpr void* const& __get_delegate_trampoline() const;
+  constexpr void* const& __cordl_internal_get_delegate_trampoline() const;
 
-  constexpr void __set_delegate_trampoline(void* value);
+  constexpr void __cordl_internal_set_delegate_trampoline(void* value);
 
-  constexpr void*& __get_extra_arg();
+  constexpr void*& __cordl_internal_get_extra_arg();
 
-  constexpr void* const& __get_extra_arg() const;
+  constexpr void* const& __cordl_internal_get_extra_arg() const;
 
-  constexpr void __set_extra_arg(void* value);
+  constexpr void __cordl_internal_set_extra_arg(void* value);
 
-  constexpr void*& __get_method_code();
+  constexpr void*& __cordl_internal_get_method_code();
 
-  constexpr void* const& __get_method_code() const;
+  constexpr void* const& __cordl_internal_get_method_code() const;
 
-  constexpr void __set_method_code(void* value);
+  constexpr void __cordl_internal_set_method_code(void* value);
 
-  constexpr void*& __get_interp_method();
+  constexpr void*& __cordl_internal_get_interp_method();
 
-  constexpr void* const& __get_interp_method() const;
+  constexpr void* const& __cordl_internal_get_interp_method() const;
 
-  constexpr void __set_interp_method(void* value);
+  constexpr void __cordl_internal_set_interp_method(void* value);
 
-  constexpr void*& __get_interp_invoke_impl();
+  constexpr void*& __cordl_internal_get_interp_invoke_impl();
 
-  constexpr void* const& __get_interp_invoke_impl() const;
+  constexpr void* const& __cordl_internal_get_interp_invoke_impl() const;
 
-  constexpr void __set_interp_invoke_impl(void* value);
+  constexpr void __cordl_internal_set_interp_invoke_impl(void* value);
 
-  constexpr ::System::Reflection::MethodInfo*& __get_method_info();
+  constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_method_info();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __get_method_info() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_method_info() const;
 
-  constexpr void __set_method_info(::System::Reflection::MethodInfo* value);
+  constexpr void __cordl_internal_set_method_info(::System::Reflection::MethodInfo* value);
 
-  constexpr ::System::Reflection::MethodInfo*& __get_original_method_info();
+  constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_original_method_info();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __get_original_method_info() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_original_method_info() const;
 
-  constexpr void __set_original_method_info(::System::Reflection::MethodInfo* value);
+  constexpr void __cordl_internal_set_original_method_info(::System::Reflection::MethodInfo* value);
 
-  constexpr ::System::DelegateData*& __get_data();
+  constexpr ::System::DelegateData*& __cordl_internal_get_data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::DelegateData*> const& __get_data() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::DelegateData*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::System::DelegateData* value);
+  constexpr void __cordl_internal_set_data(::System::DelegateData* value);
 
-  constexpr bool& __get_method_is_virtual();
+  constexpr bool& __cordl_internal_get_method_is_virtual();
 
-  constexpr bool const& __get_method_is_virtual() const;
+  constexpr bool const& __cordl_internal_get_method_is_virtual() const;
 
-  constexpr void __set_method_is_virtual(bool value);
+  constexpr void __cordl_internal_set_method_is_virtual(bool value);
 
   /// @brief Method get_Method, addr 0x25f7bf4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_Method();

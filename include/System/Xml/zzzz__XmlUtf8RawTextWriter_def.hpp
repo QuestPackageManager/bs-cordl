@@ -34,219 +34,219 @@ MARK_REF_PTR_T(::System::Xml::XmlUtf8RawTextWriter);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 134, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11494)), TypeDefinitionIndex(TypeDefinitionIndex(11544)), TypeDefinitionIndex(TypeDefinitionIndex(11492)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11435)), TypeDefinitionIndex(TypeDefinitionIndex(11455))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11475)) CS Name: ::System.Xml::XmlUtf8RawTextWriter*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11435)), TypeDefinitionIndex(TypeDefinitionIndex(11455)), TypeDefinitionIndex(TypeDefinitionIndex(11492)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11494)), TypeDefinitionIndex(TypeDefinitionIndex(11544))] Self: TypeDefinitionIndex(TypeDefinitionIndex(11475)) CS Name: ::System.Xml::XmlUtf8RawTextWriter*
 class CORDL_TYPE XmlUtf8RawTextWriter : public ::System::Xml::XmlRawWriter {
 public:
   // Declarations
   /// @brief Field useAsync, offset 0x20, size 0x1
-  __declspec(property(get = __get_useAsync, put = __set_useAsync)) bool useAsync;
+  __declspec(property(get = __cordl_internal_get_useAsync, put = __cordl_internal_set_useAsync)) bool useAsync;
 
   /// @brief Field bufBytes, offset 0x28, size 0x8
-  __declspec(property(get = __get_bufBytes, put = __set_bufBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> bufBytes;
+  __declspec(property(get = __cordl_internal_get_bufBytes, put = __cordl_internal_set_bufBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> bufBytes;
 
   /// @brief Field stream, offset 0x30, size 0x8
-  __declspec(property(get = __get_stream, put = __set_stream))::System::IO::Stream* stream;
+  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
 
   /// @brief Field encoding, offset 0x38, size 0x8
-  __declspec(property(get = __get_encoding, put = __set_encoding))::System::Text::Encoding* encoding;
+  __declspec(property(get = __cordl_internal_get_encoding, put = __cordl_internal_set_encoding))::System::Text::Encoding* encoding;
 
   /// @brief Field xmlCharType, offset 0x40, size 0x8
-  __declspec(property(get = __get_xmlCharType, put = __set_xmlCharType))::System::Xml::XmlCharType xmlCharType;
+  __declspec(property(get = __cordl_internal_get_xmlCharType, put = __cordl_internal_set_xmlCharType))::System::Xml::XmlCharType xmlCharType;
 
   /// @brief Field bufPos, offset 0x48, size 0x4
-  __declspec(property(get = __get_bufPos, put = __set_bufPos)) int32_t bufPos;
+  __declspec(property(get = __cordl_internal_get_bufPos, put = __cordl_internal_set_bufPos)) int32_t bufPos;
 
   /// @brief Field textPos, offset 0x4c, size 0x4
-  __declspec(property(get = __get_textPos, put = __set_textPos)) int32_t textPos;
+  __declspec(property(get = __cordl_internal_get_textPos, put = __cordl_internal_set_textPos)) int32_t textPos;
 
   /// @brief Field contentPos, offset 0x50, size 0x4
-  __declspec(property(get = __get_contentPos, put = __set_contentPos)) int32_t contentPos;
+  __declspec(property(get = __cordl_internal_get_contentPos, put = __cordl_internal_set_contentPos)) int32_t contentPos;
 
   /// @brief Field cdataPos, offset 0x54, size 0x4
-  __declspec(property(get = __get_cdataPos, put = __set_cdataPos)) int32_t cdataPos;
+  __declspec(property(get = __cordl_internal_get_cdataPos, put = __cordl_internal_set_cdataPos)) int32_t cdataPos;
 
   /// @brief Field attrEndPos, offset 0x58, size 0x4
-  __declspec(property(get = __get_attrEndPos, put = __set_attrEndPos)) int32_t attrEndPos;
+  __declspec(property(get = __cordl_internal_get_attrEndPos, put = __cordl_internal_set_attrEndPos)) int32_t attrEndPos;
 
   /// @brief Field bufLen, offset 0x5c, size 0x4
-  __declspec(property(get = __get_bufLen, put = __set_bufLen)) int32_t bufLen;
+  __declspec(property(get = __cordl_internal_get_bufLen, put = __cordl_internal_set_bufLen)) int32_t bufLen;
 
   /// @brief Field writeToNull, offset 0x60, size 0x1
-  __declspec(property(get = __get_writeToNull, put = __set_writeToNull)) bool writeToNull;
+  __declspec(property(get = __cordl_internal_get_writeToNull, put = __cordl_internal_set_writeToNull)) bool writeToNull;
 
   /// @brief Field hadDoubleBracket, offset 0x61, size 0x1
-  __declspec(property(get = __get_hadDoubleBracket, put = __set_hadDoubleBracket)) bool hadDoubleBracket;
+  __declspec(property(get = __cordl_internal_get_hadDoubleBracket, put = __cordl_internal_set_hadDoubleBracket)) bool hadDoubleBracket;
 
   /// @brief Field inAttributeValue, offset 0x62, size 0x1
-  __declspec(property(get = __get_inAttributeValue, put = __set_inAttributeValue)) bool inAttributeValue;
+  __declspec(property(get = __cordl_internal_get_inAttributeValue, put = __cordl_internal_set_inAttributeValue)) bool inAttributeValue;
 
   /// @brief Field newLineHandling, offset 0x64, size 0x4
-  __declspec(property(get = __get_newLineHandling, put = __set_newLineHandling))::System::Xml::NewLineHandling newLineHandling;
+  __declspec(property(get = __cordl_internal_get_newLineHandling, put = __cordl_internal_set_newLineHandling))::System::Xml::NewLineHandling newLineHandling;
 
   /// @brief Field closeOutput, offset 0x68, size 0x1
-  __declspec(property(get = __get_closeOutput, put = __set_closeOutput)) bool closeOutput;
+  __declspec(property(get = __cordl_internal_get_closeOutput, put = __cordl_internal_set_closeOutput)) bool closeOutput;
 
   /// @brief Field omitXmlDeclaration, offset 0x69, size 0x1
-  __declspec(property(get = __get_omitXmlDeclaration, put = __set_omitXmlDeclaration)) bool omitXmlDeclaration;
+  __declspec(property(get = __cordl_internal_get_omitXmlDeclaration, put = __cordl_internal_set_omitXmlDeclaration)) bool omitXmlDeclaration;
 
   /// @brief Field newLineChars, offset 0x70, size 0x8
-  __declspec(property(get = __get_newLineChars, put = __set_newLineChars))::StringW newLineChars;
+  __declspec(property(get = __cordl_internal_get_newLineChars, put = __cordl_internal_set_newLineChars))::StringW newLineChars;
 
   /// @brief Field checkCharacters, offset 0x78, size 0x1
-  __declspec(property(get = __get_checkCharacters, put = __set_checkCharacters)) bool checkCharacters;
+  __declspec(property(get = __cordl_internal_get_checkCharacters, put = __cordl_internal_set_checkCharacters)) bool checkCharacters;
 
   /// @brief Field standalone, offset 0x7c, size 0x4
-  __declspec(property(get = __get_standalone, put = __set_standalone))::System::Xml::XmlStandalone standalone;
+  __declspec(property(get = __cordl_internal_get_standalone, put = __cordl_internal_set_standalone))::System::Xml::XmlStandalone standalone;
 
   /// @brief Field outputMethod, offset 0x80, size 0x4
-  __declspec(property(get = __get_outputMethod, put = __set_outputMethod))::System::Xml::XmlOutputMethod outputMethod;
+  __declspec(property(get = __cordl_internal_get_outputMethod, put = __cordl_internal_set_outputMethod))::System::Xml::XmlOutputMethod outputMethod;
 
   /// @brief Field autoXmlDeclaration, offset 0x84, size 0x1
-  __declspec(property(get = __get_autoXmlDeclaration, put = __set_autoXmlDeclaration)) bool autoXmlDeclaration;
+  __declspec(property(get = __cordl_internal_get_autoXmlDeclaration, put = __cordl_internal_set_autoXmlDeclaration)) bool autoXmlDeclaration;
 
   /// @brief Field mergeCDataSections, offset 0x85, size 0x1
-  __declspec(property(get = __get_mergeCDataSections, put = __set_mergeCDataSections)) bool mergeCDataSections;
+  __declspec(property(get = __cordl_internal_get_mergeCDataSections, put = __cordl_internal_set_mergeCDataSections)) bool mergeCDataSections;
 
   __declspec(property(get = get_SupportsNamespaceDeclarationInChunks)) bool SupportsNamespaceDeclarationInChunks;
 
-  constexpr bool& __get_useAsync();
+  constexpr bool& __cordl_internal_get_useAsync();
 
-  constexpr bool const& __get_useAsync() const;
+  constexpr bool const& __cordl_internal_get_useAsync() const;
 
-  constexpr void __set_useAsync(bool value);
+  constexpr void __cordl_internal_set_useAsync(bool value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_bufBytes();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_bufBytes();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_bufBytes() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_bufBytes() const;
 
-  constexpr void __set_bufBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_bufBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::IO::Stream*& __get_stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
 
-  constexpr void __set_stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
 
-  constexpr ::System::Text::Encoding*& __get_encoding();
+  constexpr ::System::Text::Encoding*& __cordl_internal_get_encoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __get_encoding() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get_encoding() const;
 
-  constexpr void __set_encoding(::System::Text::Encoding* value);
+  constexpr void __cordl_internal_set_encoding(::System::Text::Encoding* value);
 
-  constexpr ::System::Xml::XmlCharType& __get_xmlCharType();
+  constexpr ::System::Xml::XmlCharType& __cordl_internal_get_xmlCharType();
 
-  constexpr ::System::Xml::XmlCharType const& __get_xmlCharType() const;
+  constexpr ::System::Xml::XmlCharType const& __cordl_internal_get_xmlCharType() const;
 
-  constexpr void __set_xmlCharType(::System::Xml::XmlCharType value);
+  constexpr void __cordl_internal_set_xmlCharType(::System::Xml::XmlCharType value);
 
-  constexpr int32_t& __get_bufPos();
+  constexpr int32_t& __cordl_internal_get_bufPos();
 
-  constexpr int32_t const& __get_bufPos() const;
+  constexpr int32_t const& __cordl_internal_get_bufPos() const;
 
-  constexpr void __set_bufPos(int32_t value);
+  constexpr void __cordl_internal_set_bufPos(int32_t value);
 
-  constexpr int32_t& __get_textPos();
+  constexpr int32_t& __cordl_internal_get_textPos();
 
-  constexpr int32_t const& __get_textPos() const;
+  constexpr int32_t const& __cordl_internal_get_textPos() const;
 
-  constexpr void __set_textPos(int32_t value);
+  constexpr void __cordl_internal_set_textPos(int32_t value);
 
-  constexpr int32_t& __get_contentPos();
+  constexpr int32_t& __cordl_internal_get_contentPos();
 
-  constexpr int32_t const& __get_contentPos() const;
+  constexpr int32_t const& __cordl_internal_get_contentPos() const;
 
-  constexpr void __set_contentPos(int32_t value);
+  constexpr void __cordl_internal_set_contentPos(int32_t value);
 
-  constexpr int32_t& __get_cdataPos();
+  constexpr int32_t& __cordl_internal_get_cdataPos();
 
-  constexpr int32_t const& __get_cdataPos() const;
+  constexpr int32_t const& __cordl_internal_get_cdataPos() const;
 
-  constexpr void __set_cdataPos(int32_t value);
+  constexpr void __cordl_internal_set_cdataPos(int32_t value);
 
-  constexpr int32_t& __get_attrEndPos();
+  constexpr int32_t& __cordl_internal_get_attrEndPos();
 
-  constexpr int32_t const& __get_attrEndPos() const;
+  constexpr int32_t const& __cordl_internal_get_attrEndPos() const;
 
-  constexpr void __set_attrEndPos(int32_t value);
+  constexpr void __cordl_internal_set_attrEndPos(int32_t value);
 
-  constexpr int32_t& __get_bufLen();
+  constexpr int32_t& __cordl_internal_get_bufLen();
 
-  constexpr int32_t const& __get_bufLen() const;
+  constexpr int32_t const& __cordl_internal_get_bufLen() const;
 
-  constexpr void __set_bufLen(int32_t value);
+  constexpr void __cordl_internal_set_bufLen(int32_t value);
 
-  constexpr bool& __get_writeToNull();
+  constexpr bool& __cordl_internal_get_writeToNull();
 
-  constexpr bool const& __get_writeToNull() const;
+  constexpr bool const& __cordl_internal_get_writeToNull() const;
 
-  constexpr void __set_writeToNull(bool value);
+  constexpr void __cordl_internal_set_writeToNull(bool value);
 
-  constexpr bool& __get_hadDoubleBracket();
+  constexpr bool& __cordl_internal_get_hadDoubleBracket();
 
-  constexpr bool const& __get_hadDoubleBracket() const;
+  constexpr bool const& __cordl_internal_get_hadDoubleBracket() const;
 
-  constexpr void __set_hadDoubleBracket(bool value);
+  constexpr void __cordl_internal_set_hadDoubleBracket(bool value);
 
-  constexpr bool& __get_inAttributeValue();
+  constexpr bool& __cordl_internal_get_inAttributeValue();
 
-  constexpr bool const& __get_inAttributeValue() const;
+  constexpr bool const& __cordl_internal_get_inAttributeValue() const;
 
-  constexpr void __set_inAttributeValue(bool value);
+  constexpr void __cordl_internal_set_inAttributeValue(bool value);
 
-  constexpr ::System::Xml::NewLineHandling& __get_newLineHandling();
+  constexpr ::System::Xml::NewLineHandling& __cordl_internal_get_newLineHandling();
 
-  constexpr ::System::Xml::NewLineHandling const& __get_newLineHandling() const;
+  constexpr ::System::Xml::NewLineHandling const& __cordl_internal_get_newLineHandling() const;
 
-  constexpr void __set_newLineHandling(::System::Xml::NewLineHandling value);
+  constexpr void __cordl_internal_set_newLineHandling(::System::Xml::NewLineHandling value);
 
-  constexpr bool& __get_closeOutput();
+  constexpr bool& __cordl_internal_get_closeOutput();
 
-  constexpr bool const& __get_closeOutput() const;
+  constexpr bool const& __cordl_internal_get_closeOutput() const;
 
-  constexpr void __set_closeOutput(bool value);
+  constexpr void __cordl_internal_set_closeOutput(bool value);
 
-  constexpr bool& __get_omitXmlDeclaration();
+  constexpr bool& __cordl_internal_get_omitXmlDeclaration();
 
-  constexpr bool const& __get_omitXmlDeclaration() const;
+  constexpr bool const& __cordl_internal_get_omitXmlDeclaration() const;
 
-  constexpr void __set_omitXmlDeclaration(bool value);
+  constexpr void __cordl_internal_set_omitXmlDeclaration(bool value);
 
-  constexpr ::StringW& __get_newLineChars();
+  constexpr ::StringW& __cordl_internal_get_newLineChars();
 
-  constexpr ::StringW const& __get_newLineChars() const;
+  constexpr ::StringW const& __cordl_internal_get_newLineChars() const;
 
-  constexpr void __set_newLineChars(::StringW value);
+  constexpr void __cordl_internal_set_newLineChars(::StringW value);
 
-  constexpr bool& __get_checkCharacters();
+  constexpr bool& __cordl_internal_get_checkCharacters();
 
-  constexpr bool const& __get_checkCharacters() const;
+  constexpr bool const& __cordl_internal_get_checkCharacters() const;
 
-  constexpr void __set_checkCharacters(bool value);
+  constexpr void __cordl_internal_set_checkCharacters(bool value);
 
-  constexpr ::System::Xml::XmlStandalone& __get_standalone();
+  constexpr ::System::Xml::XmlStandalone& __cordl_internal_get_standalone();
 
-  constexpr ::System::Xml::XmlStandalone const& __get_standalone() const;
+  constexpr ::System::Xml::XmlStandalone const& __cordl_internal_get_standalone() const;
 
-  constexpr void __set_standalone(::System::Xml::XmlStandalone value);
+  constexpr void __cordl_internal_set_standalone(::System::Xml::XmlStandalone value);
 
-  constexpr ::System::Xml::XmlOutputMethod& __get_outputMethod();
+  constexpr ::System::Xml::XmlOutputMethod& __cordl_internal_get_outputMethod();
 
-  constexpr ::System::Xml::XmlOutputMethod const& __get_outputMethod() const;
+  constexpr ::System::Xml::XmlOutputMethod const& __cordl_internal_get_outputMethod() const;
 
-  constexpr void __set_outputMethod(::System::Xml::XmlOutputMethod value);
+  constexpr void __cordl_internal_set_outputMethod(::System::Xml::XmlOutputMethod value);
 
-  constexpr bool& __get_autoXmlDeclaration();
+  constexpr bool& __cordl_internal_get_autoXmlDeclaration();
 
-  constexpr bool const& __get_autoXmlDeclaration() const;
+  constexpr bool const& __cordl_internal_get_autoXmlDeclaration() const;
 
-  constexpr void __set_autoXmlDeclaration(bool value);
+  constexpr void __cordl_internal_set_autoXmlDeclaration(bool value);
 
-  constexpr bool& __get_mergeCDataSections();
+  constexpr bool& __cordl_internal_get_mergeCDataSections();
 
-  constexpr bool const& __get_mergeCDataSections() const;
+  constexpr bool const& __cordl_internal_get_mergeCDataSections() const;
 
-  constexpr void __set_mergeCDataSections(bool value);
+  constexpr void __cordl_internal_set_mergeCDataSections(bool value);
 
   static inline ::System::Xml::XmlUtf8RawTextWriter* New_ctor(::System::Xml::XmlWriterSettings* settings);
 

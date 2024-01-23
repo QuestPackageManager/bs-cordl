@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::System::ComponentModel::IBindingList);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9430))
 // CS Name: ::System.ComponentModel::IBindingList*
 class CORDL_TYPE IBindingList {

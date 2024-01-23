@@ -26,40 +26,40 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14340))
 // CS Name: ::SimpleMemoryPool`1<T>*
 class CORDL_TYPE SimpleMemoryPool_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _activeElements, offset 0x10, size 0x8
-  __declspec(property(get = __get__activeElements, put = __set__activeElements))::GlobalNamespace::LazyCopyHashSet_1<T>* _activeElements;
+  __declspec(property(get = __cordl_internal_get__activeElements, put = __cordl_internal_set__activeElements))::GlobalNamespace::LazyCopyHashSet_1<T>* _activeElements;
 
   /// @brief Field _inactiveElements, offset 0x18, size 0x8
-  __declspec(property(get = __get__inactiveElements, put = __set__inactiveElements))::System::Collections::Generic::List_1<T>* _inactiveElements;
+  __declspec(property(get = __cordl_internal_get__inactiveElements, put = __cordl_internal_set__inactiveElements))::System::Collections::Generic::List_1<T>* _inactiveElements;
 
   /// @brief Field _createNewItemFunc, offset 0x20, size 0x8
-  __declspec(property(get = __get__createNewItemFunc, put = __set__createNewItemFunc))::System::Func_1<T>* _createNewItemFunc;
+  __declspec(property(get = __cordl_internal_get__createNewItemFunc, put = __cordl_internal_set__createNewItemFunc))::System::Func_1<T>* _createNewItemFunc;
 
   __declspec(property(get = get_items))::System::Collections::Generic::List_1<T>* items;
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<T>*& __get__activeElements();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<T>*& __cordl_internal_get__activeElements();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<T>*> const& __get__activeElements() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<T>*> const& __cordl_internal_get__activeElements() const;
 
-  constexpr void __set__activeElements(::GlobalNamespace::LazyCopyHashSet_1<T>* value);
+  constexpr void __cordl_internal_set__activeElements(::GlobalNamespace::LazyCopyHashSet_1<T>* value);
 
-  constexpr ::System::Collections::Generic::List_1<T>*& __get__inactiveElements();
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get__inactiveElements();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __get__inactiveElements() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get__inactiveElements() const;
 
-  constexpr void __set__inactiveElements(::System::Collections::Generic::List_1<T>* value);
+  constexpr void __cordl_internal_set__inactiveElements(::System::Collections::Generic::List_1<T>* value);
 
-  constexpr ::System::Func_1<T>*& __get__createNewItemFunc();
+  constexpr ::System::Func_1<T>*& __cordl_internal_get__createNewItemFunc();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __get__createNewItemFunc() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get__createNewItemFunc() const;
 
-  constexpr void __set__createNewItemFunc(::System::Func_1<T>* value);
+  constexpr void __cordl_internal_set__createNewItemFunc(::System::Func_1<T>* value);
 
   /// @brief Method get_items, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<T>* get_items();

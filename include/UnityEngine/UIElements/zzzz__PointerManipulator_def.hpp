@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerManipulator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6792))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6792))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6826))
 // CS Name: ::UnityEngine.UIElements::PointerManipulator*
 class CORDL_TYPE PointerManipulator : public ::UnityEngine::UIElements::MouseManipulator {
 public:
   // Declarations
   /// @brief Field m_CurrentPointerId, offset 0x2c, size 0x4
-  __declspec(property(get = __get_m_CurrentPointerId, put = __set_m_CurrentPointerId)) int32_t m_CurrentPointerId;
+  __declspec(property(get = __cordl_internal_get_m_CurrentPointerId, put = __cordl_internal_set_m_CurrentPointerId)) int32_t m_CurrentPointerId;
 
-  constexpr int32_t& __get_m_CurrentPointerId();
+  constexpr int32_t& __cordl_internal_get_m_CurrentPointerId();
 
-  constexpr int32_t const& __get_m_CurrentPointerId() const;
+  constexpr int32_t const& __cordl_internal_get_m_CurrentPointerId() const;
 
-  constexpr void __set_m_CurrentPointerId(int32_t value);
+  constexpr void __cordl_internal_set_m_CurrentPointerId(int32_t value);
 
   /// @brief Method CanStartManipulation, addr 0x2dbe108, size 0x1f4, virtual false, abstract: false, final false
   inline bool CanStartManipulation(::UnityEngine::UIElements::IPointerEvent* e);

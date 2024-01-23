@@ -56,35 +56,36 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certifica
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2991))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2991))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8993))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Certificate2*
 class CORDL_TYPE X509Certificate2 : public ::System::Security::Cryptography::X509Certificates::X509Certificate {
 public:
   // Declarations
   /// @brief Field lazyRawData, offset 0x60, size 0x8
-  __declspec(property(get = __get_lazyRawData, put = __set_lazyRawData))::ArrayW<uint8_t, ::Array<uint8_t>*> lazyRawData;
+  __declspec(property(get = __cordl_internal_get_lazyRawData, put = __cordl_internal_set_lazyRawData))::ArrayW<uint8_t, ::Array<uint8_t>*> lazyRawData;
 
   /// @brief Field lazySignatureAlgorithm, offset 0x68, size 0x8
-  __declspec(property(get = __get_lazySignatureAlgorithm, put = __set_lazySignatureAlgorithm))::System::Security::Cryptography::Oid* lazySignatureAlgorithm;
+  __declspec(property(get = __cordl_internal_get_lazySignatureAlgorithm, put = __cordl_internal_set_lazySignatureAlgorithm))::System::Security::Cryptography::Oid* lazySignatureAlgorithm;
 
   /// @brief Field lazyVersion, offset 0x70, size 0x4
-  __declspec(property(get = __get_lazyVersion, put = __set_lazyVersion)) int32_t lazyVersion;
+  __declspec(property(get = __cordl_internal_get_lazyVersion, put = __cordl_internal_set_lazyVersion)) int32_t lazyVersion;
 
   /// @brief Field lazySubjectName, offset 0x78, size 0x8
-  __declspec(property(get = __get_lazySubjectName, put = __set_lazySubjectName))::System::Security::Cryptography::X509Certificates::X500DistinguishedName* lazySubjectName;
+  __declspec(property(get = __cordl_internal_get_lazySubjectName,
+                      put = __cordl_internal_set_lazySubjectName))::System::Security::Cryptography::X509Certificates::X500DistinguishedName* lazySubjectName;
 
   /// @brief Field lazyIssuerName, offset 0x80, size 0x8
-  __declspec(property(get = __get_lazyIssuerName, put = __set_lazyIssuerName))::System::Security::Cryptography::X509Certificates::X500DistinguishedName* lazyIssuerName;
+  __declspec(property(get = __cordl_internal_get_lazyIssuerName, put = __cordl_internal_set_lazyIssuerName))::System::Security::Cryptography::X509Certificates::X500DistinguishedName* lazyIssuerName;
 
   /// @brief Field lazyPublicKey, offset 0x88, size 0x8
-  __declspec(property(get = __get_lazyPublicKey, put = __set_lazyPublicKey))::System::Security::Cryptography::X509Certificates::PublicKey* lazyPublicKey;
+  __declspec(property(get = __cordl_internal_get_lazyPublicKey, put = __cordl_internal_set_lazyPublicKey))::System::Security::Cryptography::X509Certificates::PublicKey* lazyPublicKey;
 
   /// @brief Field lazyPrivateKey, offset 0x90, size 0x8
-  __declspec(property(get = __get_lazyPrivateKey, put = __set_lazyPrivateKey))::System::Security::Cryptography::AsymmetricAlgorithm* lazyPrivateKey;
+  __declspec(property(get = __cordl_internal_get_lazyPrivateKey, put = __cordl_internal_set_lazyPrivateKey))::System::Security::Cryptography::AsymmetricAlgorithm* lazyPrivateKey;
 
   /// @brief Field lazyExtensions, offset 0x98, size 0x8
-  __declspec(property(get = __get_lazyExtensions, put = __set_lazyExtensions))::System::Security::Cryptography::X509Certificates::X509ExtensionCollection* lazyExtensions;
+  __declspec(property(get = __cordl_internal_get_lazyExtensions, put = __cordl_internal_set_lazyExtensions))::System::Security::Cryptography::X509Certificates::X509ExtensionCollection* lazyExtensions;
 
   __declspec(property(get = get_Extensions))::System::Security::Cryptography::X509Certificates::X509ExtensionCollection* Extensions;
 
@@ -114,53 +115,53 @@ public:
 
   __declspec(property(get = get_Impl))::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Impl;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_lazyRawData();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_lazyRawData();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_lazyRawData() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_lazyRawData() const;
 
-  constexpr void __set_lazyRawData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_lazyRawData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Security::Cryptography::Oid*& __get_lazySignatureAlgorithm();
+  constexpr ::System::Security::Cryptography::Oid*& __cordl_internal_get_lazySignatureAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::Oid*> const& __get_lazySignatureAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::Oid*> const& __cordl_internal_get_lazySignatureAlgorithm() const;
 
-  constexpr void __set_lazySignatureAlgorithm(::System::Security::Cryptography::Oid* value);
+  constexpr void __cordl_internal_set_lazySignatureAlgorithm(::System::Security::Cryptography::Oid* value);
 
-  constexpr int32_t& __get_lazyVersion();
+  constexpr int32_t& __cordl_internal_get_lazyVersion();
 
-  constexpr int32_t const& __get_lazyVersion() const;
+  constexpr int32_t const& __cordl_internal_get_lazyVersion() const;
 
-  constexpr void __set_lazyVersion(int32_t value);
+  constexpr void __cordl_internal_set_lazyVersion(int32_t value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*& __get_lazySubjectName();
+  constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*& __cordl_internal_get_lazySubjectName();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*> const& __get_lazySubjectName() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*> const& __cordl_internal_get_lazySubjectName() const;
 
-  constexpr void __set_lazySubjectName(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
+  constexpr void __cordl_internal_set_lazySubjectName(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*& __get_lazyIssuerName();
+  constexpr ::System::Security::Cryptography::X509Certificates::X500DistinguishedName*& __cordl_internal_get_lazyIssuerName();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*> const& __get_lazyIssuerName() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X500DistinguishedName*> const& __cordl_internal_get_lazyIssuerName() const;
 
-  constexpr void __set_lazyIssuerName(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
+  constexpr void __cordl_internal_set_lazyIssuerName(::System::Security::Cryptography::X509Certificates::X500DistinguishedName* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::PublicKey*& __get_lazyPublicKey();
+  constexpr ::System::Security::Cryptography::X509Certificates::PublicKey*& __cordl_internal_get_lazyPublicKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::PublicKey*> const& __get_lazyPublicKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::PublicKey*> const& __cordl_internal_get_lazyPublicKey() const;
 
-  constexpr void __set_lazyPublicKey(::System::Security::Cryptography::X509Certificates::PublicKey* value);
+  constexpr void __cordl_internal_set_lazyPublicKey(::System::Security::Cryptography::X509Certificates::PublicKey* value);
 
-  constexpr ::System::Security::Cryptography::AsymmetricAlgorithm*& __get_lazyPrivateKey();
+  constexpr ::System::Security::Cryptography::AsymmetricAlgorithm*& __cordl_internal_get_lazyPrivateKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::AsymmetricAlgorithm*> const& __get_lazyPrivateKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::AsymmetricAlgorithm*> const& __cordl_internal_get_lazyPrivateKey() const;
 
-  constexpr void __set_lazyPrivateKey(::System::Security::Cryptography::AsymmetricAlgorithm* value);
+  constexpr void __cordl_internal_set_lazyPrivateKey(::System::Security::Cryptography::AsymmetricAlgorithm* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509ExtensionCollection*& __get_lazyExtensions();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509ExtensionCollection*& __cordl_internal_get_lazyExtensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ExtensionCollection*> const& __get_lazyExtensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ExtensionCollection*> const& __cordl_internal_get_lazyExtensions() const;
 
-  constexpr void __set_lazyExtensions(::System::Security::Cryptography::X509Certificates::X509ExtensionCollection* value);
+  constexpr void __cordl_internal_set_lazyExtensions(::System::Security::Cryptography::X509Certificates::X509ExtensionCollection* value);
 
   /// @brief Method Reset, addr 0x2979738, size 0x58, virtual true, abstract: false, final false
   inline void Reset();

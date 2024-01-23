@@ -23,40 +23,40 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(965))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(965))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1343))
 // CS Name: ::Org.BouncyCastle.Crypto::BufferedAsymmetricBlockCipher*
 class CORDL_TYPE BufferedAsymmetricBlockCipher : public ::Org::BouncyCastle::Crypto::BufferedCipherBase {
 public:
   // Declarations
   /// @brief Field cipher, offset 0x10, size 0x8
-  __declspec(property(get = __get_cipher, put = __set_cipher))::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher;
 
   /// @brief Field buffer, offset 0x18, size 0x8
-  __declspec(property(get = __get_buffer, put = __set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
 
   /// @brief Field bufOff, offset 0x20, size 0x4
-  __declspec(property(get = __get_bufOff, put = __set_bufOff)) int32_t bufOff;
+  __declspec(property(get = __cordl_internal_get_bufOff, put = __cordl_internal_set_bufOff)) int32_t bufOff;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
-  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& __get_cipher();
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& __cordl_internal_get_cipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*> const& __get_cipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*> const& __cordl_internal_get_cipher() const;
 
-  constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
+  constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
 
-  constexpr void __set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_bufOff();
+  constexpr int32_t& __cordl_internal_get_bufOff();
 
-  constexpr int32_t const& __get_bufOff() const;
+  constexpr int32_t const& __cordl_internal_get_bufOff() const;
 
-  constexpr void __set_bufOff(int32_t value);
+  constexpr void __cordl_internal_set_bufOff(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::BufferedAsymmetricBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher);
 

@@ -27,53 +27,54 @@ MARK_REF_PTR_T(::GlobalNamespace::EnterTextViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5625))
 // CS Name: ::EnterTextViewController*
 class CORDL_TYPE EnterTextViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _textEntryController, offset 0x70, size 0x8
-  __declspec(property(get = __get__textEntryController, put = __set__textEntryController))::GlobalNamespace::VRTextEntryController* _textEntryController;
+  __declspec(property(get = __cordl_internal_get__textEntryController, put = __cordl_internal_set__textEntryController))::UnityW<::GlobalNamespace::VRTextEntryController> _textEntryController;
 
   /// @brief Field _titleText, offset 0x78, size 0x8
-  __declspec(property(get = __get__titleText, put = __set__titleText))::TMPro::TextMeshProUGUI* _titleText;
+  __declspec(property(get = __cordl_internal_get__titleText, put = __cordl_internal_set__titleText))::UnityW<::TMPro::TextMeshProUGUI> _titleText;
 
   /// @brief Field _okButton, offset 0x80, size 0x8
-  __declspec(property(get = __get__okButton, put = __set__okButton))::UnityEngine::UI::Button* _okButton;
+  __declspec(property(get = __cordl_internal_get__okButton, put = __cordl_internal_set__okButton))::UnityW<::UnityEngine::UI::Button> _okButton;
 
   /// @brief Field didFinishEvent, offset 0x88, size 0x8
-  __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent,
+                      put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* didFinishEvent;
 
-  constexpr ::GlobalNamespace::VRTextEntryController*& __get__textEntryController();
+  constexpr ::UnityW<::GlobalNamespace::VRTextEntryController>& __cordl_internal_get__textEntryController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VRTextEntryController*> const& __get__textEntryController() const;
+  constexpr ::UnityW<::GlobalNamespace::VRTextEntryController> const& __cordl_internal_get__textEntryController() const;
 
-  constexpr void __set__textEntryController(::GlobalNamespace::VRTextEntryController* value);
+  constexpr void __cordl_internal_set__textEntryController(::UnityW<::GlobalNamespace::VRTextEntryController> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__titleText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__titleText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__titleText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__titleText() const;
 
-  constexpr void __set__titleText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__okButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__okButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__okButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__okButton() const;
 
-  constexpr void __set__okButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__okButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>*& __get_didFinishEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>*> const& __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>*> const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* value);
 
   /// @brief Method add_didFinishEvent, addr 0x22afbd0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* value);
+  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x22afc80, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* value);
+  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* value);
 
   /// @brief Method Init, addr 0x22afd30, size 0x24, virtual false, abstract: false, final false
   inline void Init(::StringW titleText);
@@ -104,16 +105,16 @@ protected:
 
 public:
   /// @brief Field _textEntryController, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::VRTextEntryController* ____textEntryController;
+  ::UnityW<::GlobalNamespace::VRTextEntryController> ____textEntryController;
 
   /// @brief Field _titleText, offset: 0x78, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____titleText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____titleText;
 
   /// @brief Field _okButton, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____okButton;
+  ::UnityW<::UnityEngine::UI::Button> ____okButton;
 
   /// @brief Field didFinishEvent, offset: 0x88, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::EnterTextViewController*, ::StringW>* ___didFinishEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::EnterTextViewController>, ::StringW>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,7 +15,7 @@ MARK_VAL_T(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(580))
 // CS Name: ::Org.BouncyCastle.Bcpg::PublicKeyAlgorithmTag
 struct CORDL_TYPE PublicKeyAlgorithmTag {

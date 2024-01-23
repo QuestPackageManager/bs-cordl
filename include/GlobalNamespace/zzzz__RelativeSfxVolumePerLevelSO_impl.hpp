@@ -15,10 +15,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x23732f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>::get(), "get_levelId",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -30,10 +30,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x237330c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>::get(),
-                                                 "get_relativeSfxVolume", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "get_relativeSfxVolume", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -45,56 +45,56 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2373314;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::PreviewBeatmapLevelSO*& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__get__previewLevel() {
+constexpr ::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__cordl_internal_get__previewLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewLevel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PreviewBeatmapLevelSO*> const& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__get__previewLevel() const {
+constexpr ::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO> const& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__cordl_internal_get__previewLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewLevel;
 }
-constexpr void GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__set__previewLevel(::GlobalNamespace::PreviewBeatmapLevelSO* value) {
+constexpr void GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__cordl_internal_set__previewLevel(::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____previewLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__get__relativeSfxVolume() {
+constexpr float_t& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__cordl_internal_get__relativeSfxVolume() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolume;
 }
-constexpr float_t const& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__get__relativeSfxVolume() const {
+constexpr float_t const& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__cordl_internal_get__relativeSfxVolume() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolume;
 }
-constexpr void GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__set__relativeSfxVolume(float_t value) {
+constexpr void GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::__cordl_internal_set__relativeSfxVolume(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____relativeSfxVolume = value;
 }
 inline ::StringW GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::get_levelId() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>::get(), "get_levelId",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline float_t GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::get_relativeSfxVolume() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>::get(),
-                                               "get_relativeSfxVolume", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "get_relativeSfxVolume", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair* GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>());
 }
 inline void GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -107,10 +107,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23734b0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair____c*>::get(),
-                                                 ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -122,10 +122,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x23734b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair____c*>::get(), "<get_levelIds>b__5_0",
-        std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPreviewBeatmapLevel*>::get() })));
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPreviewBeatmapLevel*>::get() })));
     return ___internal_method;
   }
 };
@@ -149,18 +149,18 @@ inline ::System::Func_2<::GlobalNamespace::IPreviewBeatmapLevel*, ::StringW>* Gl
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair____c*>::get>();
 }
 inline ::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair____c* GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair____c*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair____c*>());
 }
 inline void GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair____c::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair____c*>::get(),
-                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::StringW GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair____c::_get_levelIds_b__5_0(::GlobalNamespace::IPreviewBeatmapLevel* a) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair____c*>::get(), "<get_levelIds>b__5_0",
-      std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPreviewBeatmapLevel*>::get() })));
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPreviewBeatmapLevel*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, a);
 }
 // Ctor Parameters []
@@ -173,10 +173,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x237331c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>::get(),
-                                                 "get_relativeSfxVolume", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "get_relativeSfxVolume", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -188,10 +188,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x120;
   constexpr static std::size_t addrs = 0x2373324;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>::get(),
-                                                 "get_levelIds", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "get_levelIds", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -203,57 +203,58 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2373444;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>::get(),
-                                                 ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::PreviewBeatmapLevelCollectionSO*& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__get__previewLevelCollection() {
+constexpr ::UnityW<::GlobalNamespace::PreviewBeatmapLevelCollectionSO>& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__cordl_internal_get__previewLevelCollection() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewLevelCollection;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PreviewBeatmapLevelCollectionSO*> const&
-GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__get__previewLevelCollection() const {
+constexpr ::UnityW<::GlobalNamespace::PreviewBeatmapLevelCollectionSO> const&
+GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__cordl_internal_get__previewLevelCollection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previewLevelCollection;
 }
-constexpr void GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__set__previewLevelCollection(::GlobalNamespace::PreviewBeatmapLevelCollectionSO* value) {
+constexpr void
+GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__cordl_internal_set__previewLevelCollection(::UnityW<::GlobalNamespace::PreviewBeatmapLevelCollectionSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____previewLevelCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__get__relativeSfxVolume() {
+constexpr float_t& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__cordl_internal_get__relativeSfxVolume() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolume;
 }
-constexpr float_t const& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__get__relativeSfxVolume() const {
+constexpr float_t const& GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__cordl_internal_get__relativeSfxVolume() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolume;
 }
-constexpr void GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__set__relativeSfxVolume(float_t value) {
+constexpr void GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::__cordl_internal_set__relativeSfxVolume(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____relativeSfxVolume = value;
 }
 inline float_t GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::get_relativeSfxVolume() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>::get(),
-                                               "get_relativeSfxVolume", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "get_relativeSfxVolume", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline ::ArrayW<::StringW, ::Array<::StringW>*> GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::get_levelIds() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>::get(),
-                                               "get_levelIds", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "get_levelIds", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW, ::Array<::StringW>*>, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair* GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>());
 }
 inline void GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -267,9 +268,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23732d8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RelativeSfxVolumePerLevelSO*>::get(),
-                                                                               "get_relativeSfxVolumePerLevel", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_relativeSfxVolumePerLevel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -282,9 +283,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23732e0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RelativeSfxVolumePerLevelSO*>::get(),
-                                                                               "get_relativeSfxVolumePerPack", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_relativeSfxVolumePerPack", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -295,38 +296,38 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23732e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RelativeSfxVolumePerLevelSO*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 constexpr ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>*>&
-GlobalNamespace::RelativeSfxVolumePerLevelSO::__get__relativeSfxVolumePerPack() {
+GlobalNamespace::RelativeSfxVolumePerLevelSO::__cordl_internal_get__relativeSfxVolumePerPack() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolumePerPack;
 }
 constexpr ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>*> const&
-GlobalNamespace::RelativeSfxVolumePerLevelSO::__get__relativeSfxVolumePerPack() const {
+GlobalNamespace::RelativeSfxVolumePerLevelSO::__cordl_internal_get__relativeSfxVolumePerPack() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolumePerPack;
 }
-constexpr void GlobalNamespace::RelativeSfxVolumePerLevelSO::__set__relativeSfxVolumePerPack(
+constexpr void GlobalNamespace::RelativeSfxVolumePerLevelSO::__cordl_internal_set__relativeSfxVolumePerPack(
     ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____relativeSfxVolumePerPack)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>*>&
-GlobalNamespace::RelativeSfxVolumePerLevelSO::__get__relativeSfxVolumePerLevel() {
+GlobalNamespace::RelativeSfxVolumePerLevelSO::__cordl_internal_get__relativeSfxVolumePerLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolumePerLevel;
 }
 constexpr ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>*> const&
-GlobalNamespace::RelativeSfxVolumePerLevelSO::__get__relativeSfxVolumePerLevel() const {
+GlobalNamespace::RelativeSfxVolumePerLevelSO::__cordl_internal_get__relativeSfxVolumePerLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolumePerLevel;
 }
-constexpr void GlobalNamespace::RelativeSfxVolumePerLevelSO::__set__relativeSfxVolumePerLevel(
+constexpr void GlobalNamespace::RelativeSfxVolumePerLevelSO::__cordl_internal_set__relativeSfxVolumePerLevel(
     ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____relativeSfxVolumePerLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
@@ -334,7 +335,7 @@ constexpr void GlobalNamespace::RelativeSfxVolumePerLevelSO::__set__relativeSfxV
 inline ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>*>
 GlobalNamespace::RelativeSfxVolumePerLevelSO::get_relativeSfxVolumePerLevel() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RelativeSfxVolumePerLevelSO*>::get(),
-                                                                             "get_relativeSfxVolumePerLevel", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_relativeSfxVolumePerLevel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<
       ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePair*>*>, false>(
       this, ___internal_method);
@@ -342,17 +343,17 @@ GlobalNamespace::RelativeSfxVolumePerLevelSO::get_relativeSfxVolumePerLevel() {
 inline ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>*>
 GlobalNamespace::RelativeSfxVolumePerLevelSO::get_relativeSfxVolumePerPack() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RelativeSfxVolumePerLevelSO*>::get(),
-                                                                             "get_relativeSfxVolumePerPack", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_relativeSfxVolumePerPack", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<
       ::ArrayW<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*, ::Array<::GlobalNamespace::__RelativeSfxVolumePerLevelSO__RelativeSfxVolumePerPackPair*>*>, false>(
       this, ___internal_method);
 }
 inline ::GlobalNamespace::RelativeSfxVolumePerLevelSO* GlobalNamespace::RelativeSfxVolumePerLevelSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::RelativeSfxVolumePerLevelSO*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RelativeSfxVolumePerLevelSO*>());
 }
 inline void GlobalNamespace::RelativeSfxVolumePerLevelSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RelativeSfxVolumePerLevelSO*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

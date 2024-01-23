@@ -20,7 +20,7 @@ namespace System {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2336))
 // CS Name: ::System::Func`6<T1,T2,T3,T4,T5,TResult>*
 class CORDL_TYPE Func_6 : public ::System::MulticastDelegate {

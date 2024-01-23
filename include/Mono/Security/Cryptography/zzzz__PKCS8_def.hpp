@@ -46,51 +46,51 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13795))
 // CS Name: ::PKCS8::PrivateKeyInfo*
 class CORDL_TYPE __PKCS8__PrivateKeyInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _version, offset 0x10, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _algorithm, offset 0x18, size 0x8
-  __declspec(property(get = __get__algorithm, put = __set__algorithm))::StringW _algorithm;
+  __declspec(property(get = __cordl_internal_get__algorithm, put = __cordl_internal_set__algorithm))::StringW _algorithm;
 
   /// @brief Field _key, offset 0x20, size 0x8
-  __declspec(property(get = __get__key, put = __set__key))::ArrayW<uint8_t, ::Array<uint8_t>*> _key;
+  __declspec(property(get = __cordl_internal_get__key, put = __cordl_internal_set__key))::ArrayW<uint8_t, ::Array<uint8_t>*> _key;
 
   /// @brief Field _list, offset 0x28, size 0x8
-  __declspec(property(get = __get__list, put = __set__list))::System::Collections::ArrayList* _list;
+  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::ArrayList* _list;
 
   __declspec(property(get = get_Algorithm))::StringW Algorithm;
 
   __declspec(property(get = get_PrivateKey))::ArrayW<uint8_t, ::Array<uint8_t>*> PrivateKey;
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
-  constexpr ::StringW& __get__algorithm();
+  constexpr ::StringW& __cordl_internal_get__algorithm();
 
-  constexpr ::StringW const& __get__algorithm() const;
+  constexpr ::StringW const& __cordl_internal_get__algorithm() const;
 
-  constexpr void __set__algorithm(::StringW value);
+  constexpr void __cordl_internal_set__algorithm(::StringW value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__key();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__key();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__key() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__key() const;
 
-  constexpr void __set__key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Collections::ArrayList*& __get__list();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get__list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__list() const;
 
-  constexpr void __set__list(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set__list(::System::Collections::ArrayList* value);
 
   static inline ::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo* New_ctor();
 
@@ -176,23 +176,23 @@ static_assert(offsetof(::Mono::Security::Cryptography::__PKCS8__PrivateKeyInfo, 
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13796))
 // CS Name: ::PKCS8::EncryptedPrivateKeyInfo*
 class CORDL_TYPE __PKCS8__EncryptedPrivateKeyInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _algorithm, offset 0x10, size 0x8
-  __declspec(property(get = __get__algorithm, put = __set__algorithm))::StringW _algorithm;
+  __declspec(property(get = __cordl_internal_get__algorithm, put = __cordl_internal_set__algorithm))::StringW _algorithm;
 
   /// @brief Field _salt, offset 0x18, size 0x8
-  __declspec(property(get = __get__salt, put = __set__salt))::ArrayW<uint8_t, ::Array<uint8_t>*> _salt;
+  __declspec(property(get = __cordl_internal_get__salt, put = __cordl_internal_set__salt))::ArrayW<uint8_t, ::Array<uint8_t>*> _salt;
 
   /// @brief Field _iterations, offset 0x20, size 0x4
-  __declspec(property(get = __get__iterations, put = __set__iterations)) int32_t _iterations;
+  __declspec(property(get = __cordl_internal_get__iterations, put = __cordl_internal_set__iterations)) int32_t _iterations;
 
   /// @brief Field _data, offset 0x28, size 0x8
-  __declspec(property(get = __get__data, put = __set__data))::ArrayW<uint8_t, ::Array<uint8_t>*> _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::ArrayW<uint8_t, ::Array<uint8_t>*> _data;
 
   __declspec(property(get = get_Algorithm))::StringW Algorithm;
 
@@ -202,29 +202,29 @@ public:
 
   __declspec(property(get = get_IterationCount)) int32_t IterationCount;
 
-  constexpr ::StringW& __get__algorithm();
+  constexpr ::StringW& __cordl_internal_get__algorithm();
 
-  constexpr ::StringW const& __get__algorithm() const;
+  constexpr ::StringW const& __cordl_internal_get__algorithm() const;
 
-  constexpr void __set__algorithm(::StringW value);
+  constexpr void __cordl_internal_set__algorithm(::StringW value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__salt();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__salt();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__salt() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__salt() const;
 
-  constexpr void __set__salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__iterations();
+  constexpr int32_t& __cordl_internal_get__iterations();
 
-  constexpr int32_t const& __get__iterations() const;
+  constexpr int32_t const& __cordl_internal_get__iterations() const;
 
-  constexpr void __set__iterations(int32_t value);
+  constexpr void __cordl_internal_set__iterations(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__data();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__data();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__data() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__data() const;
 
-  constexpr void __set__data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Mono::Security::Cryptography::__PKCS8__EncryptedPrivateKeyInfo* New_ctor();
 
@@ -295,7 +295,7 @@ static_assert(offsetof(::Mono::Security::Cryptography::__PKCS8__EncryptedPrivate
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13797))
 // CS Name: ::Mono.Security.Cryptography::PKCS8*
 class CORDL_TYPE PKCS8 : public ::System::Object {

@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::TMPro::TMPro_EventManager);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12312))
 // CS Name: ::TMPro::TMPro_EventManager*
 class CORDL_TYPE TMPro_EventManager : public ::System::Object {
@@ -51,29 +51,31 @@ public:
   static __declspec(property(get = getStaticF_COMPUTE_DT_EVENT, put = setStaticF_COMPUTE_DT_EVENT))::TMPro::FastAction_2<::System::Object*, ::TMPro::Compute_DT_EventArgs*>* COMPUTE_DT_EVENT;
 
   /// @brief Field MATERIAL_PROPERTY_EVENT, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MATERIAL_PROPERTY_EVENT, put = setStaticF_MATERIAL_PROPERTY_EVENT))::TMPro::FastAction_2<bool, ::UnityEngine::Material*>* MATERIAL_PROPERTY_EVENT;
+  static __declspec(property(get = getStaticF_MATERIAL_PROPERTY_EVENT,
+                             put = setStaticF_MATERIAL_PROPERTY_EVENT))::TMPro::FastAction_2<bool, ::UnityW<::UnityEngine::Material>>* MATERIAL_PROPERTY_EVENT;
 
   /// @brief Field FONT_PROPERTY_EVENT, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_FONT_PROPERTY_EVENT, put = setStaticF_FONT_PROPERTY_EVENT))::TMPro::FastAction_2<bool, ::UnityEngine::Object*>* FONT_PROPERTY_EVENT;
+  static __declspec(property(get = getStaticF_FONT_PROPERTY_EVENT, put = setStaticF_FONT_PROPERTY_EVENT))::TMPro::FastAction_2<bool, ::UnityW<::UnityEngine::Object>>* FONT_PROPERTY_EVENT;
 
   /// @brief Field SPRITE_ASSET_PROPERTY_EVENT, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SPRITE_ASSET_PROPERTY_EVENT,
-                             put = setStaticF_SPRITE_ASSET_PROPERTY_EVENT))::TMPro::FastAction_2<bool, ::UnityEngine::Object*>* SPRITE_ASSET_PROPERTY_EVENT;
+                             put = setStaticF_SPRITE_ASSET_PROPERTY_EVENT))::TMPro::FastAction_2<bool, ::UnityW<::UnityEngine::Object>>* SPRITE_ASSET_PROPERTY_EVENT;
 
   /// @brief Field TEXTMESHPRO_PROPERTY_EVENT, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_TEXTMESHPRO_PROPERTY_EVENT, put = setStaticF_TEXTMESHPRO_PROPERTY_EVENT))::TMPro::FastAction_2<bool, ::UnityEngine::Object*>* TEXTMESHPRO_PROPERTY_EVENT;
+  static __declspec(property(get = getStaticF_TEXTMESHPRO_PROPERTY_EVENT,
+                             put = setStaticF_TEXTMESHPRO_PROPERTY_EVENT))::TMPro::FastAction_2<bool, ::UnityW<::UnityEngine::Object>>* TEXTMESHPRO_PROPERTY_EVENT;
 
   /// @brief Field DRAG_AND_DROP_MATERIAL_EVENT, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_DRAG_AND_DROP_MATERIAL_EVENT,
-               put = setStaticF_DRAG_AND_DROP_MATERIAL_EVENT))::TMPro::FastAction_3<::UnityEngine::GameObject*, ::UnityEngine::Material*, ::UnityEngine::Material*>* DRAG_AND_DROP_MATERIAL_EVENT;
+  static __declspec(property(get = getStaticF_DRAG_AND_DROP_MATERIAL_EVENT,
+                             put = setStaticF_DRAG_AND_DROP_MATERIAL_EVENT))::TMPro::FastAction_3<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::Material>,
+                                                                                                  ::UnityW<::UnityEngine::Material>>* DRAG_AND_DROP_MATERIAL_EVENT;
 
   /// @brief Field TEXT_STYLE_PROPERTY_EVENT, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_TEXT_STYLE_PROPERTY_EVENT, put = setStaticF_TEXT_STYLE_PROPERTY_EVENT))::TMPro::FastAction_1<bool>* TEXT_STYLE_PROPERTY_EVENT;
 
   /// @brief Field COLOR_GRADIENT_PROPERTY_EVENT, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_COLOR_GRADIENT_PROPERTY_EVENT,
-                             put = setStaticF_COLOR_GRADIENT_PROPERTY_EVENT))::TMPro::FastAction_1<::UnityEngine::Object*>* COLOR_GRADIENT_PROPERTY_EVENT;
+                             put = setStaticF_COLOR_GRADIENT_PROPERTY_EVENT))::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>* COLOR_GRADIENT_PROPERTY_EVENT;
 
   /// @brief Field TMP_SETTINGS_PROPERTY_EVENT, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_TMP_SETTINGS_PROPERTY_EVENT, put = setStaticF_TMP_SETTINGS_PROPERTY_EVENT))::TMPro::FastAction* TMP_SETTINGS_PROPERTY_EVENT;
@@ -83,42 +85,42 @@ public:
 
   /// @brief Field TEXTMESHPRO_UGUI_PROPERTY_EVENT, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_TEXTMESHPRO_UGUI_PROPERTY_EVENT,
-                             put = setStaticF_TEXTMESHPRO_UGUI_PROPERTY_EVENT))::TMPro::FastAction_2<bool, ::UnityEngine::Object*>* TEXTMESHPRO_UGUI_PROPERTY_EVENT;
+                             put = setStaticF_TEXTMESHPRO_UGUI_PROPERTY_EVENT))::TMPro::FastAction_2<bool, ::UnityW<::UnityEngine::Object>>* TEXTMESHPRO_UGUI_PROPERTY_EVENT;
 
   /// @brief Field TEXT_CHANGED_EVENT, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_TEXT_CHANGED_EVENT, put = setStaticF_TEXT_CHANGED_EVENT))::TMPro::FastAction_1<::UnityEngine::Object*>* TEXT_CHANGED_EVENT;
+  static __declspec(property(get = getStaticF_TEXT_CHANGED_EVENT, put = setStaticF_TEXT_CHANGED_EVENT))::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>* TEXT_CHANGED_EVENT;
 
   static inline void setStaticF_COMPUTE_DT_EVENT(::TMPro::FastAction_2<::System::Object*, ::TMPro::Compute_DT_EventArgs*>* value);
 
   static inline ::TMPro::FastAction_2<::System::Object*, ::TMPro::Compute_DT_EventArgs*>* getStaticF_COMPUTE_DT_EVENT();
 
-  static inline void setStaticF_MATERIAL_PROPERTY_EVENT(::TMPro::FastAction_2<bool, ::UnityEngine::Material*>* value);
+  static inline void setStaticF_MATERIAL_PROPERTY_EVENT(::TMPro::FastAction_2<bool, ::UnityW<::UnityEngine::Material>>* value);
 
-  static inline ::TMPro::FastAction_2<bool, ::UnityEngine::Material*>* getStaticF_MATERIAL_PROPERTY_EVENT();
+  static inline ::TMPro::FastAction_2<bool, ::UnityW<::UnityEngine::Material>>* getStaticF_MATERIAL_PROPERTY_EVENT();
 
-  static inline void setStaticF_FONT_PROPERTY_EVENT(::TMPro::FastAction_2<bool, ::UnityEngine::Object*>* value);
+  static inline void setStaticF_FONT_PROPERTY_EVENT(::TMPro::FastAction_2<bool, ::UnityW<::UnityEngine::Object>>* value);
 
-  static inline ::TMPro::FastAction_2<bool, ::UnityEngine::Object*>* getStaticF_FONT_PROPERTY_EVENT();
+  static inline ::TMPro::FastAction_2<bool, ::UnityW<::UnityEngine::Object>>* getStaticF_FONT_PROPERTY_EVENT();
 
-  static inline void setStaticF_SPRITE_ASSET_PROPERTY_EVENT(::TMPro::FastAction_2<bool, ::UnityEngine::Object*>* value);
+  static inline void setStaticF_SPRITE_ASSET_PROPERTY_EVENT(::TMPro::FastAction_2<bool, ::UnityW<::UnityEngine::Object>>* value);
 
-  static inline ::TMPro::FastAction_2<bool, ::UnityEngine::Object*>* getStaticF_SPRITE_ASSET_PROPERTY_EVENT();
+  static inline ::TMPro::FastAction_2<bool, ::UnityW<::UnityEngine::Object>>* getStaticF_SPRITE_ASSET_PROPERTY_EVENT();
 
-  static inline void setStaticF_TEXTMESHPRO_PROPERTY_EVENT(::TMPro::FastAction_2<bool, ::UnityEngine::Object*>* value);
+  static inline void setStaticF_TEXTMESHPRO_PROPERTY_EVENT(::TMPro::FastAction_2<bool, ::UnityW<::UnityEngine::Object>>* value);
 
-  static inline ::TMPro::FastAction_2<bool, ::UnityEngine::Object*>* getStaticF_TEXTMESHPRO_PROPERTY_EVENT();
+  static inline ::TMPro::FastAction_2<bool, ::UnityW<::UnityEngine::Object>>* getStaticF_TEXTMESHPRO_PROPERTY_EVENT();
 
-  static inline void setStaticF_DRAG_AND_DROP_MATERIAL_EVENT(::TMPro::FastAction_3<::UnityEngine::GameObject*, ::UnityEngine::Material*, ::UnityEngine::Material*>* value);
+  static inline void setStaticF_DRAG_AND_DROP_MATERIAL_EVENT(::TMPro::FastAction_3<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>* value);
 
-  static inline ::TMPro::FastAction_3<::UnityEngine::GameObject*, ::UnityEngine::Material*, ::UnityEngine::Material*>* getStaticF_DRAG_AND_DROP_MATERIAL_EVENT();
+  static inline ::TMPro::FastAction_3<::UnityW<::UnityEngine::GameObject>, ::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Material>>* getStaticF_DRAG_AND_DROP_MATERIAL_EVENT();
 
   static inline void setStaticF_TEXT_STYLE_PROPERTY_EVENT(::TMPro::FastAction_1<bool>* value);
 
   static inline ::TMPro::FastAction_1<bool>* getStaticF_TEXT_STYLE_PROPERTY_EVENT();
 
-  static inline void setStaticF_COLOR_GRADIENT_PROPERTY_EVENT(::TMPro::FastAction_1<::UnityEngine::Object*>* value);
+  static inline void setStaticF_COLOR_GRADIENT_PROPERTY_EVENT(::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>* value);
 
-  static inline ::TMPro::FastAction_1<::UnityEngine::Object*>* getStaticF_COLOR_GRADIENT_PROPERTY_EVENT();
+  static inline ::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>* getStaticF_COLOR_GRADIENT_PROPERTY_EVENT();
 
   static inline void setStaticF_TMP_SETTINGS_PROPERTY_EVENT(::TMPro::FastAction* value);
 
@@ -128,13 +130,13 @@ public:
 
   static inline ::TMPro::FastAction* getStaticF_RESOURCE_LOAD_EVENT();
 
-  static inline void setStaticF_TEXTMESHPRO_UGUI_PROPERTY_EVENT(::TMPro::FastAction_2<bool, ::UnityEngine::Object*>* value);
+  static inline void setStaticF_TEXTMESHPRO_UGUI_PROPERTY_EVENT(::TMPro::FastAction_2<bool, ::UnityW<::UnityEngine::Object>>* value);
 
-  static inline ::TMPro::FastAction_2<bool, ::UnityEngine::Object*>* getStaticF_TEXTMESHPRO_UGUI_PROPERTY_EVENT();
+  static inline ::TMPro::FastAction_2<bool, ::UnityW<::UnityEngine::Object>>* getStaticF_TEXTMESHPRO_UGUI_PROPERTY_EVENT();
 
-  static inline void setStaticF_TEXT_CHANGED_EVENT(::TMPro::FastAction_1<::UnityEngine::Object*>* value);
+  static inline void setStaticF_TEXT_CHANGED_EVENT(::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>* value);
 
-  static inline ::TMPro::FastAction_1<::UnityEngine::Object*>* getStaticF_TEXT_CHANGED_EVENT();
+  static inline ::TMPro::FastAction_1<::UnityW<::UnityEngine::Object>>* getStaticF_TEXT_CHANGED_EVENT();
 
   /// @brief Method ON_MATERIAL_PROPERTY_CHANGED, addr 0x2bfeabc, size 0x90, virtual false, abstract: false, final false
   static inline void ON_MATERIAL_PROPERTY_CHANGED(bool isChanged, ::UnityEngine::Material* mat);

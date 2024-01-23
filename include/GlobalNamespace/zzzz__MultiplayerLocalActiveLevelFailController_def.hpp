@@ -56,20 +56,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerLocalActiveLevelFailController___
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5148))
 // CS Name: ::MultiplayerLocalActiveLevelFailController::<PlayerFailedCoroutine>d__8*
 class CORDL_TYPE __MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MultiplayerLocalActiveLevelFailController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerLocalActiveLevelFailController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -93,23 +93,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::MultiplayerLocalActiveLevelFailController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLocalActiveLevelFailController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLocalActiveLevelFailController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLocalActiveLevelFailController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MultiplayerLocalActiveLevelFailController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLocalActiveLevelFailController> value);
 
   static inline ::GlobalNamespace::__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8* New_ctor(int32_t __1__state);
 
@@ -152,7 +152,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLocalActiveLevelFailController* _____4__this;
+  ::UnityW<::GlobalNamespace::MultiplayerLocalActiveLevelFailController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -170,7 +170,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLocalActiveLevelFailContr
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5149))
 // CS Name: ::MultiplayerLocalActiveLevelFailController*
 class CORDL_TYPE MultiplayerLocalActiveLevelFailController : public ::UnityEngine::MonoBehaviour {
@@ -179,58 +179,61 @@ public:
   using _PlayerFailedCoroutine_d__8 = ::GlobalNamespace::__MultiplayerLocalActiveLevelFailController___PlayerFailedCoroutine_d__8;
 
   /// @brief Field _levelFailedTextEffect, offset 0x18, size 0x8
-  __declspec(property(get = __get__levelFailedTextEffect, put = __set__levelFailedTextEffect))::GlobalNamespace::LevelFailedTextEffect* _levelFailedTextEffect;
+  __declspec(property(get = __cordl_internal_get__levelFailedTextEffect, put = __cordl_internal_set__levelFailedTextEffect))::UnityW<::GlobalNamespace::LevelFailedTextEffect> _levelFailedTextEffect;
 
   /// @brief Field _levelEndActionsPublisher, offset 0x20, size 0x8
-  __declspec(property(get = __get__levelEndActionsPublisher, put = __set__levelEndActionsPublisher))::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* _levelEndActionsPublisher;
+  __declspec(property(get = __cordl_internal_get__levelEndActionsPublisher,
+                      put = __cordl_internal_set__levelEndActionsPublisher))::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* _levelEndActionsPublisher;
 
   /// @brief Field _beatmapObjectSpawnController, offset 0x28, size 0x8
-  __declspec(property(get = __get__beatmapObjectSpawnController, put = __set__beatmapObjectSpawnController))::GlobalNamespace::BeatmapObjectSpawnController* _beatmapObjectSpawnController;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectSpawnController,
+                      put = __cordl_internal_set__beatmapObjectSpawnController))::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> _beatmapObjectSpawnController;
 
   /// @brief Field _gameSongController, offset 0x30, size 0x8
-  __declspec(property(get = __get__gameSongController, put = __set__gameSongController))::GlobalNamespace::GameSongController* _gameSongController;
+  __declspec(property(get = __cordl_internal_get__gameSongController, put = __cordl_internal_set__gameSongController))::UnityW<::GlobalNamespace::GameSongController> _gameSongController;
 
   /// @brief Field _beatmapObjectManager, offset 0x38, size 0x8
-  __declspec(property(get = __get__beatmapObjectManager, put = __set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
   /// @brief Field _multiplayerPlayersManager, offset 0x40, size 0x8
-  __declspec(property(get = __get__multiplayerPlayersManager, put = __set__multiplayerPlayersManager))::GlobalNamespace::MultiplayerPlayersManager* _multiplayerPlayersManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerPlayersManager,
+                      put = __cordl_internal_set__multiplayerPlayersManager))::UnityW<::GlobalNamespace::MultiplayerPlayersManager> _multiplayerPlayersManager;
 
-  constexpr ::GlobalNamespace::LevelFailedTextEffect*& __get__levelFailedTextEffect();
+  constexpr ::UnityW<::GlobalNamespace::LevelFailedTextEffect>& __cordl_internal_get__levelFailedTextEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelFailedTextEffect*> const& __get__levelFailedTextEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::LevelFailedTextEffect> const& __cordl_internal_get__levelFailedTextEffect() const;
 
-  constexpr void __set__levelFailedTextEffect(::GlobalNamespace::LevelFailedTextEffect* value);
+  constexpr void __cordl_internal_set__levelFailedTextEffect(::UnityW<::GlobalNamespace::LevelFailedTextEffect> value);
 
-  constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*& __get__levelEndActionsPublisher();
+  constexpr ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*& __cordl_internal_get__levelEndActionsPublisher();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*> const& __get__levelEndActionsPublisher() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*> const& __cordl_internal_get__levelEndActionsPublisher() const;
 
-  constexpr void __set__levelEndActionsPublisher(::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* value);
+  constexpr void __cordl_internal_set__levelEndActionsPublisher(::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectSpawnController*& __get__beatmapObjectSpawnController();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController>& __cordl_internal_get__beatmapObjectSpawnController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectSpawnController*> const& __get__beatmapObjectSpawnController() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> const& __cordl_internal_get__beatmapObjectSpawnController() const;
 
-  constexpr void __set__beatmapObjectSpawnController(::GlobalNamespace::BeatmapObjectSpawnController* value);
+  constexpr void __cordl_internal_set__beatmapObjectSpawnController(::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> value);
 
-  constexpr ::GlobalNamespace::GameSongController*& __get__gameSongController();
+  constexpr ::UnityW<::GlobalNamespace::GameSongController>& __cordl_internal_get__gameSongController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameSongController*> const& __get__gameSongController() const;
+  constexpr ::UnityW<::GlobalNamespace::GameSongController> const& __cordl_internal_get__gameSongController() const;
 
-  constexpr void __set__gameSongController(::GlobalNamespace::GameSongController* value);
+  constexpr void __cordl_internal_set__gameSongController(::UnityW<::GlobalNamespace::GameSongController> value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __get__beatmapObjectManager();
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __get__beatmapObjectManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  constexpr ::GlobalNamespace::MultiplayerPlayersManager*& __get__multiplayerPlayersManager();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>& __cordl_internal_get__multiplayerPlayersManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerPlayersManager*> const& __get__multiplayerPlayersManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> const& __cordl_internal_get__multiplayerPlayersManager() const;
 
-  constexpr void __set__multiplayerPlayersManager(::GlobalNamespace::MultiplayerPlayersManager* value);
+  constexpr void __cordl_internal_set__multiplayerPlayersManager(::UnityW<::GlobalNamespace::MultiplayerPlayersManager> value);
 
   /// @brief Method Start, addr 0x23da2cc, size 0xec, virtual false, abstract: false, final false
   inline void Start();
@@ -264,22 +267,22 @@ protected:
 
 public:
   /// @brief Field _levelFailedTextEffect, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::LevelFailedTextEffect* ____levelFailedTextEffect;
+  ::UnityW<::GlobalNamespace::LevelFailedTextEffect> ____levelFailedTextEffect;
 
   /// @brief Field _levelEndActionsPublisher, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher* ____levelEndActionsPublisher;
 
   /// @brief Field _beatmapObjectSpawnController, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapObjectSpawnController* ____beatmapObjectSpawnController;
+  ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> ____beatmapObjectSpawnController;
 
   /// @brief Field _gameSongController, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::GameSongController* ____gameSongController;
+  ::UnityW<::GlobalNamespace::GameSongController> ____gameSongController;
 
   /// @brief Field _beatmapObjectManager, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
   /// @brief Field _multiplayerPlayersManager, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerPlayersManager* ____multiplayerPlayersManager;
+  ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> ____multiplayerPlayersManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

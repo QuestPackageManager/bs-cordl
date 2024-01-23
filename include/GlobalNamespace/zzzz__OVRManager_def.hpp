@@ -303,7 +303,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRManager____c);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7628))
 // CS Name: ::OVRManager::XrApi
 struct CORDL_TYPE __OVRManager__XrApi {
@@ -361,7 +361,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__XrApi, value__) == 0x0, 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7629))
 // CS Name: ::OVRManager::TrackingOrigin
 struct CORDL_TYPE __OVRManager__TrackingOrigin {
@@ -415,7 +415,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__TrackingOrigin, value__)
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7630))
 // CS Name: ::OVRManager::EyeTextureFormat
 struct CORDL_TYPE __OVRManager__EyeTextureFormat {
@@ -469,7 +469,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__EyeTextureFormat, value_
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7631))
 // CS Name: ::OVRManager::FoveatedRenderingLevel
 struct CORDL_TYPE __OVRManager__FoveatedRenderingLevel {
@@ -531,7 +531,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__FoveatedRenderingLevel, 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7632))
 // CS Name: ::OVRManager::FixedFoveatedRenderingLevel
 struct CORDL_TYPE __OVRManager__FixedFoveatedRenderingLevel {
@@ -593,7 +593,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__FixedFoveatedRenderingLe
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7633))
 // CS Name: ::OVRManager::TiledMultiResLevel
 struct CORDL_TYPE __OVRManager__TiledMultiResLevel {
@@ -655,7 +655,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__TiledMultiResLevel, valu
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7634))
 // CS Name: ::OVRManager::SystemHeadsetType
 struct CORDL_TYPE __OVRManager__SystemHeadsetType {
@@ -777,7 +777,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__SystemHeadsetType, value
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7635))
 // CS Name: ::OVRManager::XRDevice
 struct CORDL_TYPE __OVRManager__XRDevice {
@@ -831,7 +831,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__XRDevice, value__) == 0x
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7636))
 // CS Name: ::OVRManager::ColorSpace
 struct CORDL_TYPE __OVRManager__ColorSpace {
@@ -909,7 +909,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__ColorSpace, value__) == 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7637))
 // CS Name: ::OVRManager::ProcessorPerformanceLevel
 struct CORDL_TYPE __OVRManager__ProcessorPerformanceLevel {
@@ -967,7 +967,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__ProcessorPerformanceLeve
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7638))
 // CS Name: ::OVRManager::ControllerDrivenHandPosesType
 struct CORDL_TYPE __OVRManager__ControllerDrivenHandPosesType {
@@ -1021,7 +1021,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__ControllerDrivenHandPose
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7639))
 // CS Name: ::OVRManager::EventListener*
 class CORDL_TYPE __OVRManager__EventListener {
@@ -1046,7 +1046,7 @@ public:
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7640))
 // CS Name: ::OVRManager::CompositionMethod
 struct CORDL_TYPE __OVRManager__CompositionMethod {
@@ -1096,7 +1096,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__CompositionMethod, value
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7641))
 // CS Name: ::OVRManager::CameraDevice
 struct CORDL_TYPE __OVRManager__CameraDevice {
@@ -1150,7 +1150,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__CameraDevice, value__) =
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7642))
 // CS Name: ::OVRManager::DepthQuality
 struct CORDL_TYPE __OVRManager__DepthQuality {
@@ -1204,7 +1204,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__DepthQuality, value__) =
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7643))
 // CS Name: ::OVRManager::VirtualGreenScreenType
 struct CORDL_TYPE __OVRManager__VirtualGreenScreenType {
@@ -1258,7 +1258,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__VirtualGreenScreenType, 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7644))
 // CS Name: ::OVRManager::MrcActivationMode
 struct CORDL_TYPE __OVRManager__MrcActivationMode {
@@ -1308,7 +1308,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__MrcActivationMode, value
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7645))
 // CS Name: ::OVRManager::MrcCameraType
 struct CORDL_TYPE __OVRManager__MrcCameraType {
@@ -1362,7 +1362,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__MrcCameraType, value__) 
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7646))
 // CS Name: ::OVRManager::InstantiateMrcCameraDelegate*
 class CORDL_TYPE __OVRManager__InstantiateMrcCameraDelegate : public ::System::MulticastDelegate {
@@ -1374,14 +1374,14 @@ public:
   inline void _ctor(::System::Object* object, void* method);
 
   /// @brief Method Invoke, addr 0x2745a30, size 0x14, virtual true, abstract: false, final false
-  inline ::UnityEngine::GameObject* Invoke(::UnityEngine::GameObject* mainCameraGameObject, ::GlobalNamespace::__OVRManager__MrcCameraType cameraType);
+  inline ::UnityW<::UnityEngine::GameObject> Invoke(::UnityEngine::GameObject* mainCameraGameObject, ::GlobalNamespace::__OVRManager__MrcCameraType cameraType);
 
   /// @brief Method BeginInvoke, addr 0x2745a44, size 0x94, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::UnityEngine::GameObject* mainCameraGameObject, ::GlobalNamespace::__OVRManager__MrcCameraType cameraType, ::System::AsyncCallback* callback,
                                              ::System::Object* object);
 
   /// @brief Method EndInvoke, addr 0x2745ad8, size 0xc, virtual true, abstract: false, final false
-  inline ::UnityEngine::GameObject* EndInvoke(::System::IAsyncResult* result);
+  inline ::UnityW<::UnityEngine::GameObject> EndInvoke(::System::IAsyncResult* result);
 
   // Ctor Parameters [CppParam { name: "", ty: "__OVRManager__InstantiateMrcCameraDelegate", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -1407,7 +1407,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRManager__I
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7647))
 // CS Name: ::OVRManager::PassthroughInitializationState
 struct CORDL_TYPE __OVRManager__PassthroughInitializationState {
@@ -1465,20 +1465,22 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__PassthroughInitializatio
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7648))
 // CS Name: ::OVRManager::PassthroughCapabilities*
 class CORDL_TYPE __OVRManager__PassthroughCapabilities : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <SupportsPassthrough>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__SupportsPassthrough_k__BackingField, put = __set__SupportsPassthrough_k__BackingField)) bool _SupportsPassthrough_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SupportsPassthrough_k__BackingField, put = __cordl_internal_set__SupportsPassthrough_k__BackingField)) bool _SupportsPassthrough_k__BackingField;
 
   /// @brief Field <SupportsColorPassthrough>k__BackingField, offset 0x11, size 0x1
-  __declspec(property(get = __get__SupportsColorPassthrough_k__BackingField, put = __set__SupportsColorPassthrough_k__BackingField)) bool _SupportsColorPassthrough_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SupportsColorPassthrough_k__BackingField,
+                      put = __cordl_internal_set__SupportsColorPassthrough_k__BackingField)) bool _SupportsColorPassthrough_k__BackingField;
 
   /// @brief Field <MaxColorLutResolution>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__MaxColorLutResolution_k__BackingField, put = __set__MaxColorLutResolution_k__BackingField)) uint32_t _MaxColorLutResolution_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MaxColorLutResolution_k__BackingField,
+                      put = __cordl_internal_set__MaxColorLutResolution_k__BackingField)) uint32_t _MaxColorLutResolution_k__BackingField;
 
   __declspec(property(get = get_SupportsPassthrough)) bool SupportsPassthrough;
 
@@ -1486,23 +1488,23 @@ public:
 
   __declspec(property(get = get_MaxColorLutResolution)) uint32_t MaxColorLutResolution;
 
-  constexpr bool& __get__SupportsPassthrough_k__BackingField();
+  constexpr bool& __cordl_internal_get__SupportsPassthrough_k__BackingField();
 
-  constexpr bool const& __get__SupportsPassthrough_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__SupportsPassthrough_k__BackingField() const;
 
-  constexpr void __set__SupportsPassthrough_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__SupportsPassthrough_k__BackingField(bool value);
 
-  constexpr bool& __get__SupportsColorPassthrough_k__BackingField();
+  constexpr bool& __cordl_internal_get__SupportsColorPassthrough_k__BackingField();
 
-  constexpr bool const& __get__SupportsColorPassthrough_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__SupportsColorPassthrough_k__BackingField() const;
 
-  constexpr void __set__SupportsColorPassthrough_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__SupportsColorPassthrough_k__BackingField(bool value);
 
-  constexpr uint32_t& __get__MaxColorLutResolution_k__BackingField();
+  constexpr uint32_t& __cordl_internal_get__MaxColorLutResolution_k__BackingField();
 
-  constexpr uint32_t const& __get__MaxColorLutResolution_k__BackingField() const;
+  constexpr uint32_t const& __cordl_internal_get__MaxColorLutResolution_k__BackingField() const;
 
-  constexpr void __set__MaxColorLutResolution_k__BackingField(uint32_t value);
+  constexpr void __cordl_internal_set__MaxColorLutResolution_k__BackingField(uint32_t value);
 
   /// @brief Method get_SupportsPassthrough, addr 0x2745ae4, size 0x8, virtual false, abstract: false, final false
   inline bool get_SupportsPassthrough();
@@ -1557,7 +1559,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRManager__PassthroughCapabilities,
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7649))
 // CS Name: ::OVRManager::<>c*
 class CORDL_TYPE __OVRManager____c : public ::System::Object {
@@ -1570,7 +1572,7 @@ public:
   static __declspec(property(get = getStaticF___9__417_0, put = setStaticF___9__417_0))::System::Func_2<float_t, ::StringW>* __9__417_0;
 
   /// @brief Field <>9__433_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__433_0, put = setStaticF___9__433_0))::System::Comparison_1<::UnityEngine::Camera*>* __9__433_0;
+  static __declspec(property(get = getStaticF___9__433_0, put = setStaticF___9__433_0))::System::Comparison_1<::UnityW<::UnityEngine::Camera>>* __9__433_0;
 
   static inline void setStaticF___9(::GlobalNamespace::__OVRManager____c* value);
 
@@ -1580,9 +1582,9 @@ public:
 
   static inline ::System::Func_2<float_t, ::StringW>* getStaticF___9__417_0();
 
-  static inline void setStaticF___9__433_0(::System::Comparison_1<::UnityEngine::Camera*>* value);
+  static inline void setStaticF___9__433_0(::System::Comparison_1<::UnityW<::UnityEngine::Camera>>* value);
 
-  static inline ::System::Comparison_1<::UnityEngine::Camera*>* getStaticF___9__433_0();
+  static inline ::System::Comparison_1<::UnityW<::UnityEngine::Camera>>* getStaticF___9__433_0();
 
   static inline ::GlobalNamespace::__OVRManager____c* New_ctor();
 
@@ -1619,11 +1621,11 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRManager___
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7642)), TypeDefinitionIndex(TypeDefinitionIndex(7638)), TypeDefinitionIndex(TypeDefinitionIndex(7644)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7636)), TypeDefinitionIndex(TypeDefinitionIndex(7635)), TypeDefinitionIndex(TypeDefinitionIndex(7708)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(7647)), TypeDefinitionIndex(TypeDefinitionIndex(7643)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7629)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10108)), TypeDefinitionIndex(TypeDefinitionIndex(7641)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7640)), TypeDefinitionIndex(TypeDefinitionIndex(7807))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7650)) CS Name: ::OVRManager*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7629)), TypeDefinitionIndex(TypeDefinitionIndex(7635)), TypeDefinitionIndex(TypeDefinitionIndex(7636)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7638)), TypeDefinitionIndex(TypeDefinitionIndex(7640)), TypeDefinitionIndex(TypeDefinitionIndex(7641)), TypeDefinitionIndex(TypeDefinitionIndex(7642)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7643)), TypeDefinitionIndex(TypeDefinitionIndex(7644)), TypeDefinitionIndex(TypeDefinitionIndex(7647)), TypeDefinitionIndex(TypeDefinitionIndex(7708)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7807)), TypeDefinitionIndex(TypeDefinitionIndex(10108)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10251))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7650)) CS Name: ::OVRManager*
 class CORDL_TYPE OVRManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -1672,196 +1674,207 @@ public:
   using XrApi = ::GlobalNamespace::__OVRManager__XrApi;
 
   /// @brief Field disabledCameras, offset 0x18, size 0x8
-  __declspec(property(get = __get_disabledCameras, put = __set_disabledCameras))::System::Collections::Generic::IEnumerable_1<::UnityEngine::Camera*>* disabledCameras;
+  __declspec(property(get = __cordl_internal_get_disabledCameras,
+                      put = __cordl_internal_set_disabledCameras))::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Camera>>* disabledCameras;
 
   /// @brief Field prevTimeScale, offset 0x20, size 0x4
-  __declspec(property(get = __get_prevTimeScale, put = __set_prevTimeScale)) float_t prevTimeScale;
+  __declspec(property(get = __cordl_internal_get_prevTimeScale, put = __cordl_internal_set_prevTimeScale)) float_t prevTimeScale;
 
   /// @brief Field useRecommendedMSAALevel, offset 0x24, size 0x1
-  __declspec(property(get = __get_useRecommendedMSAALevel, put = __set_useRecommendedMSAALevel)) bool useRecommendedMSAALevel;
+  __declspec(property(get = __cordl_internal_get_useRecommendedMSAALevel, put = __cordl_internal_set_useRecommendedMSAALevel)) bool useRecommendedMSAALevel;
 
   /// @brief Field _monoscopic, offset 0x25, size 0x1
-  __declspec(property(get = __get__monoscopic, put = __set__monoscopic)) bool _monoscopic;
+  __declspec(property(get = __cordl_internal_get__monoscopic, put = __cordl_internal_set__monoscopic)) bool _monoscopic;
 
   /// @brief Field _sharpenType, offset 0x28, size 0x4
-  __declspec(property(get = __get__sharpenType, put = __set__sharpenType))::GlobalNamespace::__OVRPlugin__LayerSharpenType _sharpenType;
+  __declspec(property(get = __cordl_internal_get__sharpenType, put = __cordl_internal_set__sharpenType))::GlobalNamespace::__OVRPlugin__LayerSharpenType _sharpenType;
 
   /// @brief Field _colorGamut, offset 0x2c, size 0x4
-  __declspec(property(get = __get__colorGamut, put = __set__colorGamut))::GlobalNamespace::__OVRManager__ColorSpace _colorGamut;
+  __declspec(property(get = __cordl_internal_get__colorGamut, put = __cordl_internal_set__colorGamut))::GlobalNamespace::__OVRManager__ColorSpace _colorGamut;
 
   /// @brief Field enableDynamicResolution, offset 0x30, size 0x1
-  __declspec(property(get = __get_enableDynamicResolution, put = __set_enableDynamicResolution)) bool enableDynamicResolution;
+  __declspec(property(get = __cordl_internal_get_enableDynamicResolution, put = __cordl_internal_set_enableDynamicResolution)) bool enableDynamicResolution;
 
   /// @brief Field minDynamicResolutionScale, offset 0x34, size 0x4
-  __declspec(property(get = __get_minDynamicResolutionScale, put = __set_minDynamicResolutionScale)) float_t minDynamicResolutionScale;
+  __declspec(property(get = __cordl_internal_get_minDynamicResolutionScale, put = __cordl_internal_set_minDynamicResolutionScale)) float_t minDynamicResolutionScale;
 
   /// @brief Field maxDynamicResolutionScale, offset 0x38, size 0x4
-  __declspec(property(get = __get_maxDynamicResolutionScale, put = __set_maxDynamicResolutionScale)) float_t maxDynamicResolutionScale;
+  __declspec(property(get = __cordl_internal_get_maxDynamicResolutionScale, put = __cordl_internal_set_maxDynamicResolutionScale)) float_t maxDynamicResolutionScale;
 
   /// @brief Field minRenderScale, offset 0x3c, size 0x4
-  __declspec(property(get = __get_minRenderScale, put = __set_minRenderScale)) float_t minRenderScale;
+  __declspec(property(get = __cordl_internal_get_minRenderScale, put = __cordl_internal_set_minRenderScale)) float_t minRenderScale;
 
   /// @brief Field maxRenderScale, offset 0x40, size 0x4
-  __declspec(property(get = __get_maxRenderScale, put = __set_maxRenderScale)) float_t maxRenderScale;
+  __declspec(property(get = __cordl_internal_get_maxRenderScale, put = __cordl_internal_set_maxRenderScale)) float_t maxRenderScale;
 
   /// @brief Field _headPoseRelativeOffsetRotation, offset 0x44, size 0xc
-  __declspec(property(get = __get__headPoseRelativeOffsetRotation, put = __set__headPoseRelativeOffsetRotation))::UnityEngine::Vector3 _headPoseRelativeOffsetRotation;
+  __declspec(property(get = __cordl_internal_get__headPoseRelativeOffsetRotation, put = __cordl_internal_set__headPoseRelativeOffsetRotation))::UnityEngine::Vector3 _headPoseRelativeOffsetRotation;
 
   /// @brief Field _headPoseRelativeOffsetTranslation, offset 0x50, size 0xc
-  __declspec(property(get = __get__headPoseRelativeOffsetTranslation, put = __set__headPoseRelativeOffsetTranslation))::UnityEngine::Vector3 _headPoseRelativeOffsetTranslation;
+  __declspec(property(get = __cordl_internal_get__headPoseRelativeOffsetTranslation,
+                      put = __cordl_internal_set__headPoseRelativeOffsetTranslation))::UnityEngine::Vector3 _headPoseRelativeOffsetTranslation;
 
   /// @brief Field profilerTcpPort, offset 0x5c, size 0x4
-  __declspec(property(get = __get_profilerTcpPort, put = __set_profilerTcpPort)) int32_t profilerTcpPort;
+  __declspec(property(get = __cordl_internal_get_profilerTcpPort, put = __cordl_internal_set_profilerTcpPort)) int32_t profilerTcpPort;
 
   /// @brief Field expandMixedRealityCapturePropertySheet, offset 0x60, size 0x1
-  __declspec(property(get = __get_expandMixedRealityCapturePropertySheet, put = __set_expandMixedRealityCapturePropertySheet)) bool expandMixedRealityCapturePropertySheet;
+  __declspec(property(get = __cordl_internal_get_expandMixedRealityCapturePropertySheet,
+                      put = __cordl_internal_set_expandMixedRealityCapturePropertySheet)) bool expandMixedRealityCapturePropertySheet;
 
   /// @brief Field enableMixedReality, offset 0x61, size 0x1
-  __declspec(property(get = __get_enableMixedReality, put = __set_enableMixedReality)) bool enableMixedReality;
+  __declspec(property(get = __cordl_internal_get_enableMixedReality, put = __cordl_internal_set_enableMixedReality)) bool enableMixedReality;
 
   /// @brief Field compositionMethod, offset 0x64, size 0x4
-  __declspec(property(get = __get_compositionMethod, put = __set_compositionMethod))::GlobalNamespace::__OVRManager__CompositionMethod compositionMethod;
+  __declspec(property(get = __cordl_internal_get_compositionMethod, put = __cordl_internal_set_compositionMethod))::GlobalNamespace::__OVRManager__CompositionMethod compositionMethod;
 
   /// @brief Field extraHiddenLayers, offset 0x68, size 0x4
-  __declspec(property(get = __get_extraHiddenLayers, put = __set_extraHiddenLayers))::UnityEngine::LayerMask extraHiddenLayers;
+  __declspec(property(get = __cordl_internal_get_extraHiddenLayers, put = __cordl_internal_set_extraHiddenLayers))::UnityEngine::LayerMask extraHiddenLayers;
 
   /// @brief Field extraVisibleLayers, offset 0x6c, size 0x4
-  __declspec(property(get = __get_extraVisibleLayers, put = __set_extraVisibleLayers))::UnityEngine::LayerMask extraVisibleLayers;
+  __declspec(property(get = __cordl_internal_get_extraVisibleLayers, put = __cordl_internal_set_extraVisibleLayers))::UnityEngine::LayerMask extraVisibleLayers;
 
   /// @brief Field dynamicCullingMask, offset 0x70, size 0x1
-  __declspec(property(get = __get_dynamicCullingMask, put = __set_dynamicCullingMask)) bool dynamicCullingMask;
+  __declspec(property(get = __cordl_internal_get_dynamicCullingMask, put = __cordl_internal_set_dynamicCullingMask)) bool dynamicCullingMask;
 
   /// @brief Field externalCompositionBackdropColorRift, offset 0x74, size 0x10
-  __declspec(property(get = __get_externalCompositionBackdropColorRift, put = __set_externalCompositionBackdropColorRift))::UnityEngine::Color externalCompositionBackdropColorRift;
+  __declspec(property(get = __cordl_internal_get_externalCompositionBackdropColorRift,
+                      put = __cordl_internal_set_externalCompositionBackdropColorRift))::UnityEngine::Color externalCompositionBackdropColorRift;
 
   /// @brief Field externalCompositionBackdropColorQuest, offset 0x84, size 0x10
-  __declspec(property(get = __get_externalCompositionBackdropColorQuest, put = __set_externalCompositionBackdropColorQuest))::UnityEngine::Color externalCompositionBackdropColorQuest;
+  __declspec(property(get = __cordl_internal_get_externalCompositionBackdropColorQuest,
+                      put = __cordl_internal_set_externalCompositionBackdropColorQuest))::UnityEngine::Color externalCompositionBackdropColorQuest;
 
   /// @brief Field capturingCameraDevice, offset 0x94, size 0x4
-  __declspec(property(get = __get_capturingCameraDevice, put = __set_capturingCameraDevice))::GlobalNamespace::__OVRManager__CameraDevice capturingCameraDevice;
+  __declspec(property(get = __cordl_internal_get_capturingCameraDevice, put = __cordl_internal_set_capturingCameraDevice))::GlobalNamespace::__OVRManager__CameraDevice capturingCameraDevice;
 
   /// @brief Field flipCameraFrameHorizontally, offset 0x98, size 0x1
-  __declspec(property(get = __get_flipCameraFrameHorizontally, put = __set_flipCameraFrameHorizontally)) bool flipCameraFrameHorizontally;
+  __declspec(property(get = __cordl_internal_get_flipCameraFrameHorizontally, put = __cordl_internal_set_flipCameraFrameHorizontally)) bool flipCameraFrameHorizontally;
 
   /// @brief Field flipCameraFrameVertically, offset 0x99, size 0x1
-  __declspec(property(get = __get_flipCameraFrameVertically, put = __set_flipCameraFrameVertically)) bool flipCameraFrameVertically;
+  __declspec(property(get = __cordl_internal_get_flipCameraFrameVertically, put = __cordl_internal_set_flipCameraFrameVertically)) bool flipCameraFrameVertically;
 
   /// @brief Field handPoseStateLatency, offset 0x9c, size 0x4
-  __declspec(property(get = __get_handPoseStateLatency, put = __set_handPoseStateLatency)) float_t handPoseStateLatency;
+  __declspec(property(get = __cordl_internal_get_handPoseStateLatency, put = __cordl_internal_set_handPoseStateLatency)) float_t handPoseStateLatency;
 
   /// @brief Field sandwichCompositionRenderLatency, offset 0xa0, size 0x4
-  __declspec(property(get = __get_sandwichCompositionRenderLatency, put = __set_sandwichCompositionRenderLatency)) float_t sandwichCompositionRenderLatency;
+  __declspec(property(get = __cordl_internal_get_sandwichCompositionRenderLatency, put = __cordl_internal_set_sandwichCompositionRenderLatency)) float_t sandwichCompositionRenderLatency;
 
   /// @brief Field sandwichCompositionBufferedFrames, offset 0xa4, size 0x4
-  __declspec(property(get = __get_sandwichCompositionBufferedFrames, put = __set_sandwichCompositionBufferedFrames)) int32_t sandwichCompositionBufferedFrames;
+  __declspec(property(get = __cordl_internal_get_sandwichCompositionBufferedFrames, put = __cordl_internal_set_sandwichCompositionBufferedFrames)) int32_t sandwichCompositionBufferedFrames;
 
   /// @brief Field chromaKeyColor, offset 0xa8, size 0x10
-  __declspec(property(get = __get_chromaKeyColor, put = __set_chromaKeyColor))::UnityEngine::Color chromaKeyColor;
+  __declspec(property(get = __cordl_internal_get_chromaKeyColor, put = __cordl_internal_set_chromaKeyColor))::UnityEngine::Color chromaKeyColor;
 
   /// @brief Field chromaKeySimilarity, offset 0xb8, size 0x4
-  __declspec(property(get = __get_chromaKeySimilarity, put = __set_chromaKeySimilarity)) float_t chromaKeySimilarity;
+  __declspec(property(get = __cordl_internal_get_chromaKeySimilarity, put = __cordl_internal_set_chromaKeySimilarity)) float_t chromaKeySimilarity;
 
   /// @brief Field chromaKeySmoothRange, offset 0xbc, size 0x4
-  __declspec(property(get = __get_chromaKeySmoothRange, put = __set_chromaKeySmoothRange)) float_t chromaKeySmoothRange;
+  __declspec(property(get = __cordl_internal_get_chromaKeySmoothRange, put = __cordl_internal_set_chromaKeySmoothRange)) float_t chromaKeySmoothRange;
 
   /// @brief Field chromaKeySpillRange, offset 0xc0, size 0x4
-  __declspec(property(get = __get_chromaKeySpillRange, put = __set_chromaKeySpillRange)) float_t chromaKeySpillRange;
+  __declspec(property(get = __cordl_internal_get_chromaKeySpillRange, put = __cordl_internal_set_chromaKeySpillRange)) float_t chromaKeySpillRange;
 
   /// @brief Field useDynamicLighting, offset 0xc4, size 0x1
-  __declspec(property(get = __get_useDynamicLighting, put = __set_useDynamicLighting)) bool useDynamicLighting;
+  __declspec(property(get = __cordl_internal_get_useDynamicLighting, put = __cordl_internal_set_useDynamicLighting)) bool useDynamicLighting;
 
   /// @brief Field depthQuality, offset 0xc8, size 0x4
-  __declspec(property(get = __get_depthQuality, put = __set_depthQuality))::GlobalNamespace::__OVRManager__DepthQuality depthQuality;
+  __declspec(property(get = __cordl_internal_get_depthQuality, put = __cordl_internal_set_depthQuality))::GlobalNamespace::__OVRManager__DepthQuality depthQuality;
 
   /// @brief Field dynamicLightingSmoothFactor, offset 0xcc, size 0x4
-  __declspec(property(get = __get_dynamicLightingSmoothFactor, put = __set_dynamicLightingSmoothFactor)) float_t dynamicLightingSmoothFactor;
+  __declspec(property(get = __cordl_internal_get_dynamicLightingSmoothFactor, put = __cordl_internal_set_dynamicLightingSmoothFactor)) float_t dynamicLightingSmoothFactor;
 
   /// @brief Field dynamicLightingDepthVariationClampingValue, offset 0xd0, size 0x4
-  __declspec(property(get = __get_dynamicLightingDepthVariationClampingValue, put = __set_dynamicLightingDepthVariationClampingValue)) float_t dynamicLightingDepthVariationClampingValue;
+  __declspec(property(get = __cordl_internal_get_dynamicLightingDepthVariationClampingValue,
+                      put = __cordl_internal_set_dynamicLightingDepthVariationClampingValue)) float_t dynamicLightingDepthVariationClampingValue;
 
   /// @brief Field virtualGreenScreenType, offset 0xd4, size 0x4
-  __declspec(property(get = __get_virtualGreenScreenType, put = __set_virtualGreenScreenType))::GlobalNamespace::__OVRManager__VirtualGreenScreenType virtualGreenScreenType;
+  __declspec(property(get = __cordl_internal_get_virtualGreenScreenType,
+                      put = __cordl_internal_set_virtualGreenScreenType))::GlobalNamespace::__OVRManager__VirtualGreenScreenType virtualGreenScreenType;
 
   /// @brief Field virtualGreenScreenTopY, offset 0xd8, size 0x4
-  __declspec(property(get = __get_virtualGreenScreenTopY, put = __set_virtualGreenScreenTopY)) float_t virtualGreenScreenTopY;
+  __declspec(property(get = __cordl_internal_get_virtualGreenScreenTopY, put = __cordl_internal_set_virtualGreenScreenTopY)) float_t virtualGreenScreenTopY;
 
   /// @brief Field virtualGreenScreenBottomY, offset 0xdc, size 0x4
-  __declspec(property(get = __get_virtualGreenScreenBottomY, put = __set_virtualGreenScreenBottomY)) float_t virtualGreenScreenBottomY;
+  __declspec(property(get = __cordl_internal_get_virtualGreenScreenBottomY, put = __cordl_internal_set_virtualGreenScreenBottomY)) float_t virtualGreenScreenBottomY;
 
   /// @brief Field virtualGreenScreenApplyDepthCulling, offset 0xe0, size 0x1
-  __declspec(property(get = __get_virtualGreenScreenApplyDepthCulling, put = __set_virtualGreenScreenApplyDepthCulling)) bool virtualGreenScreenApplyDepthCulling;
+  __declspec(property(get = __cordl_internal_get_virtualGreenScreenApplyDepthCulling, put = __cordl_internal_set_virtualGreenScreenApplyDepthCulling)) bool virtualGreenScreenApplyDepthCulling;
 
   /// @brief Field virtualGreenScreenDepthTolerance, offset 0xe4, size 0x4
-  __declspec(property(get = __get_virtualGreenScreenDepthTolerance, put = __set_virtualGreenScreenDepthTolerance)) float_t virtualGreenScreenDepthTolerance;
+  __declspec(property(get = __cordl_internal_get_virtualGreenScreenDepthTolerance, put = __cordl_internal_set_virtualGreenScreenDepthTolerance)) float_t virtualGreenScreenDepthTolerance;
 
   /// @brief Field mrcActivationMode, offset 0xe8, size 0x4
-  __declspec(property(get = __get_mrcActivationMode, put = __set_mrcActivationMode))::GlobalNamespace::__OVRManager__MrcActivationMode mrcActivationMode;
+  __declspec(property(get = __cordl_internal_get_mrcActivationMode, put = __cordl_internal_set_mrcActivationMode))::GlobalNamespace::__OVRManager__MrcActivationMode mrcActivationMode;
 
   /// @brief Field instantiateMixedRealityCameraGameObject, offset 0xf0, size 0x8
-  __declspec(property(get = __get_instantiateMixedRealityCameraGameObject,
-                      put = __set_instantiateMixedRealityCameraGameObject))::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate* instantiateMixedRealityCameraGameObject;
+  __declspec(property(get = __cordl_internal_get_instantiateMixedRealityCameraGameObject,
+                      put = __cordl_internal_set_instantiateMixedRealityCameraGameObject))::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate* instantiateMixedRealityCameraGameObject;
 
   /// @brief Field launchMultimodalHandsControllersOnStartup, offset 0xf8, size 0x1
-  __declspec(property(get = __get_launchMultimodalHandsControllersOnStartup, put = __set_launchMultimodalHandsControllersOnStartup)) bool launchMultimodalHandsControllersOnStartup;
+  __declspec(property(get = __cordl_internal_get_launchMultimodalHandsControllersOnStartup,
+                      put = __cordl_internal_set_launchMultimodalHandsControllersOnStartup)) bool launchMultimodalHandsControllersOnStartup;
 
   /// @brief Field isInsightPassthroughEnabled, offset 0xf9, size 0x1
-  __declspec(property(get = __get_isInsightPassthroughEnabled, put = __set_isInsightPassthroughEnabled)) bool isInsightPassthroughEnabled;
+  __declspec(property(get = __cordl_internal_get_isInsightPassthroughEnabled, put = __cordl_internal_set_isInsightPassthroughEnabled)) bool isInsightPassthroughEnabled;
 
   /// @brief Field requestBodyTrackingPermissionOnStartup, offset 0xfa, size 0x1
-  __declspec(property(get = __get_requestBodyTrackingPermissionOnStartup, put = __set_requestBodyTrackingPermissionOnStartup)) bool requestBodyTrackingPermissionOnStartup;
+  __declspec(property(get = __cordl_internal_get_requestBodyTrackingPermissionOnStartup,
+                      put = __cordl_internal_set_requestBodyTrackingPermissionOnStartup)) bool requestBodyTrackingPermissionOnStartup;
 
   /// @brief Field requestFaceTrackingPermissionOnStartup, offset 0xfb, size 0x1
-  __declspec(property(get = __get_requestFaceTrackingPermissionOnStartup, put = __set_requestFaceTrackingPermissionOnStartup)) bool requestFaceTrackingPermissionOnStartup;
+  __declspec(property(get = __cordl_internal_get_requestFaceTrackingPermissionOnStartup,
+                      put = __cordl_internal_set_requestFaceTrackingPermissionOnStartup)) bool requestFaceTrackingPermissionOnStartup;
 
   /// @brief Field requestEyeTrackingPermissionOnStartup, offset 0xfc, size 0x1
-  __declspec(property(get = __get_requestEyeTrackingPermissionOnStartup, put = __set_requestEyeTrackingPermissionOnStartup)) bool requestEyeTrackingPermissionOnStartup;
+  __declspec(property(get = __cordl_internal_get_requestEyeTrackingPermissionOnStartup, put = __cordl_internal_set_requestEyeTrackingPermissionOnStartup)) bool requestEyeTrackingPermissionOnStartup;
 
   /// @brief Field requestScenePermissionOnStartup, offset 0xfd, size 0x1
-  __declspec(property(get = __get_requestScenePermissionOnStartup, put = __set_requestScenePermissionOnStartup)) bool requestScenePermissionOnStartup;
+  __declspec(property(get = __cordl_internal_get_requestScenePermissionOnStartup, put = __cordl_internal_set_requestScenePermissionOnStartup)) bool requestScenePermissionOnStartup;
 
   /// @brief Field _localDimming, offset 0xfe, size 0x1
-  __declspec(property(get = __get__localDimming, put = __set__localDimming)) bool _localDimming;
+  __declspec(property(get = __cordl_internal_get__localDimming, put = __cordl_internal_set__localDimming)) bool _localDimming;
 
   /// @brief Field _trackingOriginType, offset 0x100, size 0x4
-  __declspec(property(get = __get__trackingOriginType, put = __set__trackingOriginType))::GlobalNamespace::__OVRManager__TrackingOrigin _trackingOriginType;
+  __declspec(property(get = __cordl_internal_get__trackingOriginType, put = __cordl_internal_set__trackingOriginType))::GlobalNamespace::__OVRManager__TrackingOrigin _trackingOriginType;
 
   /// @brief Field usePositionTracking, offset 0x104, size 0x1
-  __declspec(property(get = __get_usePositionTracking, put = __set_usePositionTracking)) bool usePositionTracking;
+  __declspec(property(get = __cordl_internal_get_usePositionTracking, put = __cordl_internal_set_usePositionTracking)) bool usePositionTracking;
 
   /// @brief Field useRotationTracking, offset 0x105, size 0x1
-  __declspec(property(get = __get_useRotationTracking, put = __set_useRotationTracking)) bool useRotationTracking;
+  __declspec(property(get = __cordl_internal_get_useRotationTracking, put = __cordl_internal_set_useRotationTracking)) bool useRotationTracking;
 
   /// @brief Field useIPDInPositionTracking, offset 0x106, size 0x1
-  __declspec(property(get = __get_useIPDInPositionTracking, put = __set_useIPDInPositionTracking)) bool useIPDInPositionTracking;
+  __declspec(property(get = __cordl_internal_get_useIPDInPositionTracking, put = __cordl_internal_set_useIPDInPositionTracking)) bool useIPDInPositionTracking;
 
   /// @brief Field resetTrackerOnLoad, offset 0x107, size 0x1
-  __declspec(property(get = __get_resetTrackerOnLoad, put = __set_resetTrackerOnLoad)) bool resetTrackerOnLoad;
+  __declspec(property(get = __cordl_internal_get_resetTrackerOnLoad, put = __cordl_internal_set_resetTrackerOnLoad)) bool resetTrackerOnLoad;
 
   /// @brief Field AllowRecenter, offset 0x108, size 0x1
-  __declspec(property(get = __get_AllowRecenter, put = __set_AllowRecenter)) bool AllowRecenter;
+  __declspec(property(get = __cordl_internal_get_AllowRecenter, put = __cordl_internal_set_AllowRecenter)) bool AllowRecenter;
 
   /// @brief Field LateControllerUpdate, offset 0x109, size 0x1
-  __declspec(property(get = __get_LateControllerUpdate, put = __set_LateControllerUpdate)) bool LateControllerUpdate;
+  __declspec(property(get = __cordl_internal_get_LateControllerUpdate, put = __cordl_internal_set_LateControllerUpdate)) bool LateControllerUpdate;
 
   /// @brief Field LateLatching, offset 0x10a, size 0x1
-  __declspec(property(get = __get_LateLatching, put = __set_LateLatching)) bool LateLatching;
+  __declspec(property(get = __cordl_internal_get_LateLatching, put = __cordl_internal_set_LateLatching)) bool LateLatching;
 
   /// @brief Field _readOnlyControllerDrivenHandPosesType, offset 0x10c, size 0x4
-  __declspec(property(get = __get__readOnlyControllerDrivenHandPosesType,
-                      put = __set__readOnlyControllerDrivenHandPosesType))::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType _readOnlyControllerDrivenHandPosesType;
+  __declspec(property(get = __cordl_internal_get__readOnlyControllerDrivenHandPosesType,
+                      put = __cordl_internal_set__readOnlyControllerDrivenHandPosesType))::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType _readOnlyControllerDrivenHandPosesType;
 
   /// @brief Field controllerDrivenHandPosesType, offset 0x110, size 0x4
-  __declspec(property(get = __get_controllerDrivenHandPosesType,
-                      put = __set_controllerDrivenHandPosesType))::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType controllerDrivenHandPosesType;
+  __declspec(property(get = __cordl_internal_get_controllerDrivenHandPosesType,
+                      put = __cordl_internal_set_controllerDrivenHandPosesType))::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType controllerDrivenHandPosesType;
 
   /// @brief Field <isSupportedPlatform>k__BackingField, offset 0x114, size 0x1
-  __declspec(property(get = __get__isSupportedPlatform_k__BackingField, put = __set__isSupportedPlatform_k__BackingField)) bool _isSupportedPlatform_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isSupportedPlatform_k__BackingField, put = __cordl_internal_set__isSupportedPlatform_k__BackingField)) bool _isSupportedPlatform_k__BackingField;
 
   /// @brief Field eventListeners, offset 0x118, size 0x8
-  __declspec(property(get = __get_eventListeners, put = __set_eventListeners))::System::Collections::Generic::HashSet_1<::GlobalNamespace::__OVRManager__EventListener*>* eventListeners;
+  __declspec(property(get = __cordl_internal_get_eventListeners,
+                      put = __cordl_internal_set_eventListeners))::System::Collections::Generic::HashSet_1<::GlobalNamespace::__OVRManager__EventListener*>* eventListeners;
 
   /// @brief Field <instance>k__BackingField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__instance_k__BackingField, put = setStaticF__instance_k__BackingField))::GlobalNamespace::OVRManager* _instance_k__BackingField;
+  static __declspec(property(get = getStaticF__instance_k__BackingField, put = setStaticF__instance_k__BackingField))::UnityW<::GlobalNamespace::OVRManager> _instance_k__BackingField;
 
   /// @brief Field <display>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__display_k__BackingField, put = setStaticF__display_k__BackingField))::GlobalNamespace::OVRDisplay* _display_k__BackingField;
@@ -1874,10 +1887,10 @@ public:
 
   /// @brief Field <runtimeSettings>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__runtimeSettings_k__BackingField,
-                             put = setStaticF__runtimeSettings_k__BackingField))::GlobalNamespace::OVRRuntimeSettings* _runtimeSettings_k__BackingField;
+                             put = setStaticF__runtimeSettings_k__BackingField))::UnityW<::GlobalNamespace::OVRRuntimeSettings> _runtimeSettings_k__BackingField;
 
   /// @brief Field _profile, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__profile, put = setStaticF__profile))::GlobalNamespace::OVRProfile* _profile;
+  static __declspec(property(get = getStaticF__profile, put = setStaticF__profile))::UnityW<::GlobalNamespace::OVRProfile> _profile;
 
   /// @brief Field HMDAcquired, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_HMDAcquired, put = setStaticF_HMDAcquired))::System::Action* HMDAcquired;
@@ -2000,7 +2013,7 @@ public:
   static __declspec(property(get = getStaticF_m_SpaceWarpEnabled, put = setStaticF_m_SpaceWarpEnabled)) bool m_SpaceWarpEnabled;
 
   /// @brief Field m_AppSpaceTransform, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_m_AppSpaceTransform, put = setStaticF_m_AppSpaceTransform))::UnityEngine::Transform* m_AppSpaceTransform;
+  static __declspec(property(get = getStaticF_m_AppSpaceTransform, put = setStaticF_m_AppSpaceTransform))::UnityW<::UnityEngine::Transform> m_AppSpaceTransform;
 
   /// @brief Field m_CachedDepthTextureMode, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_m_CachedDepthTextureMode, put = setStaticF_m_CachedDepthTextureMode))::UnityEngine::DepthTextureMode m_CachedDepthTextureMode;
@@ -2055,7 +2068,7 @@ public:
   static __declspec(property(get = getStaticF_suppressUnableToFindMainCameraMessage, put = setStaticF_suppressUnableToFindMainCameraMessage)) bool suppressUnableToFindMainCameraMessage;
 
   /// @brief Field lastFoundMainCamera, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_lastFoundMainCamera, put = setStaticF_lastFoundMainCamera))::System::WeakReference_1<::UnityEngine::Camera*>* lastFoundMainCamera;
+  static __declspec(property(get = getStaticF_lastFoundMainCamera, put = setStaticF_lastFoundMainCamera))::System::WeakReference_1<::UnityW<::UnityEngine::Camera>>* lastFoundMainCamera;
 
   /// @brief Field staticMixedRealityCaptureInitialized, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_staticMixedRealityCaptureInitialized, put = setStaticF_staticMixedRealityCaptureInitialized)) bool staticMixedRealityCaptureInitialized;
@@ -2064,7 +2077,7 @@ public:
   static __declspec(property(get = getStaticF_staticPrevEnableMixedRealityCapture, put = setStaticF_staticPrevEnableMixedRealityCapture)) bool staticPrevEnableMixedRealityCapture;
 
   /// @brief Field staticMrcSettings, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_staticMrcSettings, put = setStaticF_staticMrcSettings))::GlobalNamespace::OVRMixedRealityCaptureSettings* staticMrcSettings;
+  static __declspec(property(get = getStaticF_staticMrcSettings, put = setStaticF_staticMrcSettings))::UnityW<::GlobalNamespace::OVRMixedRealityCaptureSettings> staticMrcSettings;
 
   /// @brief Field suppressDisableMixedRealityBecauseOfNoMainCameraWarning, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_suppressDisableMixedRealityBecauseOfNoMainCameraWarning,
@@ -2199,381 +2212,381 @@ public:
   /// @brief Convert to "::GlobalNamespace::OVRMixedRealityCaptureConfiguration"
   constexpr ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* i___GlobalNamespace__OVRMixedRealityCaptureConfiguration() noexcept;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Camera*>*& __get_disabledCameras();
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Camera>>*& __cordl_internal_get_disabledCameras();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Camera*>*> const& __get_disabledCameras() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Camera>>*> const& __cordl_internal_get_disabledCameras() const;
 
-  constexpr void __set_disabledCameras(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Camera*>* value);
+  constexpr void __cordl_internal_set_disabledCameras(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Camera>>* value);
 
-  constexpr float_t& __get_prevTimeScale();
+  constexpr float_t& __cordl_internal_get_prevTimeScale();
 
-  constexpr float_t const& __get_prevTimeScale() const;
+  constexpr float_t const& __cordl_internal_get_prevTimeScale() const;
 
-  constexpr void __set_prevTimeScale(float_t value);
+  constexpr void __cordl_internal_set_prevTimeScale(float_t value);
 
-  constexpr bool& __get_useRecommendedMSAALevel();
+  constexpr bool& __cordl_internal_get_useRecommendedMSAALevel();
 
-  constexpr bool const& __get_useRecommendedMSAALevel() const;
+  constexpr bool const& __cordl_internal_get_useRecommendedMSAALevel() const;
 
-  constexpr void __set_useRecommendedMSAALevel(bool value);
+  constexpr void __cordl_internal_set_useRecommendedMSAALevel(bool value);
 
-  constexpr bool& __get__monoscopic();
+  constexpr bool& __cordl_internal_get__monoscopic();
 
-  constexpr bool const& __get__monoscopic() const;
+  constexpr bool const& __cordl_internal_get__monoscopic() const;
 
-  constexpr void __set__monoscopic(bool value);
+  constexpr void __cordl_internal_set__monoscopic(bool value);
 
-  constexpr ::GlobalNamespace::__OVRPlugin__LayerSharpenType& __get__sharpenType();
+  constexpr ::GlobalNamespace::__OVRPlugin__LayerSharpenType& __cordl_internal_get__sharpenType();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__LayerSharpenType const& __get__sharpenType() const;
+  constexpr ::GlobalNamespace::__OVRPlugin__LayerSharpenType const& __cordl_internal_get__sharpenType() const;
 
-  constexpr void __set__sharpenType(::GlobalNamespace::__OVRPlugin__LayerSharpenType value);
+  constexpr void __cordl_internal_set__sharpenType(::GlobalNamespace::__OVRPlugin__LayerSharpenType value);
 
-  constexpr ::GlobalNamespace::__OVRManager__ColorSpace& __get__colorGamut();
+  constexpr ::GlobalNamespace::__OVRManager__ColorSpace& __cordl_internal_get__colorGamut();
 
-  constexpr ::GlobalNamespace::__OVRManager__ColorSpace const& __get__colorGamut() const;
+  constexpr ::GlobalNamespace::__OVRManager__ColorSpace const& __cordl_internal_get__colorGamut() const;
 
-  constexpr void __set__colorGamut(::GlobalNamespace::__OVRManager__ColorSpace value);
+  constexpr void __cordl_internal_set__colorGamut(::GlobalNamespace::__OVRManager__ColorSpace value);
 
-  constexpr bool& __get_enableDynamicResolution();
+  constexpr bool& __cordl_internal_get_enableDynamicResolution();
 
-  constexpr bool const& __get_enableDynamicResolution() const;
+  constexpr bool const& __cordl_internal_get_enableDynamicResolution() const;
 
-  constexpr void __set_enableDynamicResolution(bool value);
+  constexpr void __cordl_internal_set_enableDynamicResolution(bool value);
 
-  constexpr float_t& __get_minDynamicResolutionScale();
+  constexpr float_t& __cordl_internal_get_minDynamicResolutionScale();
 
-  constexpr float_t const& __get_minDynamicResolutionScale() const;
+  constexpr float_t const& __cordl_internal_get_minDynamicResolutionScale() const;
 
-  constexpr void __set_minDynamicResolutionScale(float_t value);
+  constexpr void __cordl_internal_set_minDynamicResolutionScale(float_t value);
 
-  constexpr float_t& __get_maxDynamicResolutionScale();
+  constexpr float_t& __cordl_internal_get_maxDynamicResolutionScale();
 
-  constexpr float_t const& __get_maxDynamicResolutionScale() const;
+  constexpr float_t const& __cordl_internal_get_maxDynamicResolutionScale() const;
 
-  constexpr void __set_maxDynamicResolutionScale(float_t value);
+  constexpr void __cordl_internal_set_maxDynamicResolutionScale(float_t value);
 
-  constexpr float_t& __get_minRenderScale();
+  constexpr float_t& __cordl_internal_get_minRenderScale();
 
-  constexpr float_t const& __get_minRenderScale() const;
+  constexpr float_t const& __cordl_internal_get_minRenderScale() const;
 
-  constexpr void __set_minRenderScale(float_t value);
+  constexpr void __cordl_internal_set_minRenderScale(float_t value);
 
-  constexpr float_t& __get_maxRenderScale();
+  constexpr float_t& __cordl_internal_get_maxRenderScale();
 
-  constexpr float_t const& __get_maxRenderScale() const;
+  constexpr float_t const& __cordl_internal_get_maxRenderScale() const;
 
-  constexpr void __set_maxRenderScale(float_t value);
+  constexpr void __cordl_internal_set_maxRenderScale(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get__headPoseRelativeOffsetRotation();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__headPoseRelativeOffsetRotation();
 
-  constexpr ::UnityEngine::Vector3 const& __get__headPoseRelativeOffsetRotation() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__headPoseRelativeOffsetRotation() const;
 
-  constexpr void __set__headPoseRelativeOffsetRotation(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__headPoseRelativeOffsetRotation(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__headPoseRelativeOffsetTranslation();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__headPoseRelativeOffsetTranslation();
 
-  constexpr ::UnityEngine::Vector3 const& __get__headPoseRelativeOffsetTranslation() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__headPoseRelativeOffsetTranslation() const;
 
-  constexpr void __set__headPoseRelativeOffsetTranslation(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__headPoseRelativeOffsetTranslation(::UnityEngine::Vector3 value);
 
-  constexpr int32_t& __get_profilerTcpPort();
+  constexpr int32_t& __cordl_internal_get_profilerTcpPort();
 
-  constexpr int32_t const& __get_profilerTcpPort() const;
+  constexpr int32_t const& __cordl_internal_get_profilerTcpPort() const;
 
-  constexpr void __set_profilerTcpPort(int32_t value);
+  constexpr void __cordl_internal_set_profilerTcpPort(int32_t value);
 
-  constexpr bool& __get_expandMixedRealityCapturePropertySheet();
+  constexpr bool& __cordl_internal_get_expandMixedRealityCapturePropertySheet();
 
-  constexpr bool const& __get_expandMixedRealityCapturePropertySheet() const;
+  constexpr bool const& __cordl_internal_get_expandMixedRealityCapturePropertySheet() const;
 
-  constexpr void __set_expandMixedRealityCapturePropertySheet(bool value);
+  constexpr void __cordl_internal_set_expandMixedRealityCapturePropertySheet(bool value);
 
-  constexpr bool& __get_enableMixedReality();
+  constexpr bool& __cordl_internal_get_enableMixedReality();
 
-  constexpr bool const& __get_enableMixedReality() const;
+  constexpr bool const& __cordl_internal_get_enableMixedReality() const;
 
-  constexpr void __set_enableMixedReality(bool value);
+  constexpr void __cordl_internal_set_enableMixedReality(bool value);
 
-  constexpr ::GlobalNamespace::__OVRManager__CompositionMethod& __get_compositionMethod();
+  constexpr ::GlobalNamespace::__OVRManager__CompositionMethod& __cordl_internal_get_compositionMethod();
 
-  constexpr ::GlobalNamespace::__OVRManager__CompositionMethod const& __get_compositionMethod() const;
+  constexpr ::GlobalNamespace::__OVRManager__CompositionMethod const& __cordl_internal_get_compositionMethod() const;
 
-  constexpr void __set_compositionMethod(::GlobalNamespace::__OVRManager__CompositionMethod value);
+  constexpr void __cordl_internal_set_compositionMethod(::GlobalNamespace::__OVRManager__CompositionMethod value);
 
-  constexpr ::UnityEngine::LayerMask& __get_extraHiddenLayers();
+  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_extraHiddenLayers();
 
-  constexpr ::UnityEngine::LayerMask const& __get_extraHiddenLayers() const;
+  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_extraHiddenLayers() const;
 
-  constexpr void __set_extraHiddenLayers(::UnityEngine::LayerMask value);
+  constexpr void __cordl_internal_set_extraHiddenLayers(::UnityEngine::LayerMask value);
 
-  constexpr ::UnityEngine::LayerMask& __get_extraVisibleLayers();
+  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_extraVisibleLayers();
 
-  constexpr ::UnityEngine::LayerMask const& __get_extraVisibleLayers() const;
+  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_extraVisibleLayers() const;
 
-  constexpr void __set_extraVisibleLayers(::UnityEngine::LayerMask value);
+  constexpr void __cordl_internal_set_extraVisibleLayers(::UnityEngine::LayerMask value);
 
-  constexpr bool& __get_dynamicCullingMask();
+  constexpr bool& __cordl_internal_get_dynamicCullingMask();
 
-  constexpr bool const& __get_dynamicCullingMask() const;
+  constexpr bool const& __cordl_internal_get_dynamicCullingMask() const;
 
-  constexpr void __set_dynamicCullingMask(bool value);
+  constexpr void __cordl_internal_set_dynamicCullingMask(bool value);
 
-  constexpr ::UnityEngine::Color& __get_externalCompositionBackdropColorRift();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_externalCompositionBackdropColorRift();
 
-  constexpr ::UnityEngine::Color const& __get_externalCompositionBackdropColorRift() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_externalCompositionBackdropColorRift() const;
 
-  constexpr void __set_externalCompositionBackdropColorRift(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_externalCompositionBackdropColorRift(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get_externalCompositionBackdropColorQuest();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_externalCompositionBackdropColorQuest();
 
-  constexpr ::UnityEngine::Color const& __get_externalCompositionBackdropColorQuest() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_externalCompositionBackdropColorQuest() const;
 
-  constexpr void __set_externalCompositionBackdropColorQuest(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_externalCompositionBackdropColorQuest(::UnityEngine::Color value);
 
-  constexpr ::GlobalNamespace::__OVRManager__CameraDevice& __get_capturingCameraDevice();
+  constexpr ::GlobalNamespace::__OVRManager__CameraDevice& __cordl_internal_get_capturingCameraDevice();
 
-  constexpr ::GlobalNamespace::__OVRManager__CameraDevice const& __get_capturingCameraDevice() const;
+  constexpr ::GlobalNamespace::__OVRManager__CameraDevice const& __cordl_internal_get_capturingCameraDevice() const;
 
-  constexpr void __set_capturingCameraDevice(::GlobalNamespace::__OVRManager__CameraDevice value);
+  constexpr void __cordl_internal_set_capturingCameraDevice(::GlobalNamespace::__OVRManager__CameraDevice value);
 
-  constexpr bool& __get_flipCameraFrameHorizontally();
+  constexpr bool& __cordl_internal_get_flipCameraFrameHorizontally();
 
-  constexpr bool const& __get_flipCameraFrameHorizontally() const;
+  constexpr bool const& __cordl_internal_get_flipCameraFrameHorizontally() const;
 
-  constexpr void __set_flipCameraFrameHorizontally(bool value);
+  constexpr void __cordl_internal_set_flipCameraFrameHorizontally(bool value);
 
-  constexpr bool& __get_flipCameraFrameVertically();
+  constexpr bool& __cordl_internal_get_flipCameraFrameVertically();
 
-  constexpr bool const& __get_flipCameraFrameVertically() const;
+  constexpr bool const& __cordl_internal_get_flipCameraFrameVertically() const;
 
-  constexpr void __set_flipCameraFrameVertically(bool value);
+  constexpr void __cordl_internal_set_flipCameraFrameVertically(bool value);
 
-  constexpr float_t& __get_handPoseStateLatency();
+  constexpr float_t& __cordl_internal_get_handPoseStateLatency();
 
-  constexpr float_t const& __get_handPoseStateLatency() const;
+  constexpr float_t const& __cordl_internal_get_handPoseStateLatency() const;
 
-  constexpr void __set_handPoseStateLatency(float_t value);
+  constexpr void __cordl_internal_set_handPoseStateLatency(float_t value);
 
-  constexpr float_t& __get_sandwichCompositionRenderLatency();
+  constexpr float_t& __cordl_internal_get_sandwichCompositionRenderLatency();
 
-  constexpr float_t const& __get_sandwichCompositionRenderLatency() const;
+  constexpr float_t const& __cordl_internal_get_sandwichCompositionRenderLatency() const;
 
-  constexpr void __set_sandwichCompositionRenderLatency(float_t value);
+  constexpr void __cordl_internal_set_sandwichCompositionRenderLatency(float_t value);
 
-  constexpr int32_t& __get_sandwichCompositionBufferedFrames();
+  constexpr int32_t& __cordl_internal_get_sandwichCompositionBufferedFrames();
 
-  constexpr int32_t const& __get_sandwichCompositionBufferedFrames() const;
+  constexpr int32_t const& __cordl_internal_get_sandwichCompositionBufferedFrames() const;
 
-  constexpr void __set_sandwichCompositionBufferedFrames(int32_t value);
+  constexpr void __cordl_internal_set_sandwichCompositionBufferedFrames(int32_t value);
 
-  constexpr ::UnityEngine::Color& __get_chromaKeyColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_chromaKeyColor();
 
-  constexpr ::UnityEngine::Color const& __get_chromaKeyColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_chromaKeyColor() const;
 
-  constexpr void __set_chromaKeyColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_chromaKeyColor(::UnityEngine::Color value);
 
-  constexpr float_t& __get_chromaKeySimilarity();
+  constexpr float_t& __cordl_internal_get_chromaKeySimilarity();
 
-  constexpr float_t const& __get_chromaKeySimilarity() const;
+  constexpr float_t const& __cordl_internal_get_chromaKeySimilarity() const;
 
-  constexpr void __set_chromaKeySimilarity(float_t value);
+  constexpr void __cordl_internal_set_chromaKeySimilarity(float_t value);
 
-  constexpr float_t& __get_chromaKeySmoothRange();
+  constexpr float_t& __cordl_internal_get_chromaKeySmoothRange();
 
-  constexpr float_t const& __get_chromaKeySmoothRange() const;
+  constexpr float_t const& __cordl_internal_get_chromaKeySmoothRange() const;
 
-  constexpr void __set_chromaKeySmoothRange(float_t value);
+  constexpr void __cordl_internal_set_chromaKeySmoothRange(float_t value);
 
-  constexpr float_t& __get_chromaKeySpillRange();
+  constexpr float_t& __cordl_internal_get_chromaKeySpillRange();
 
-  constexpr float_t const& __get_chromaKeySpillRange() const;
+  constexpr float_t const& __cordl_internal_get_chromaKeySpillRange() const;
 
-  constexpr void __set_chromaKeySpillRange(float_t value);
+  constexpr void __cordl_internal_set_chromaKeySpillRange(float_t value);
 
-  constexpr bool& __get_useDynamicLighting();
+  constexpr bool& __cordl_internal_get_useDynamicLighting();
 
-  constexpr bool const& __get_useDynamicLighting() const;
+  constexpr bool const& __cordl_internal_get_useDynamicLighting() const;
 
-  constexpr void __set_useDynamicLighting(bool value);
+  constexpr void __cordl_internal_set_useDynamicLighting(bool value);
 
-  constexpr ::GlobalNamespace::__OVRManager__DepthQuality& __get_depthQuality();
+  constexpr ::GlobalNamespace::__OVRManager__DepthQuality& __cordl_internal_get_depthQuality();
 
-  constexpr ::GlobalNamespace::__OVRManager__DepthQuality const& __get_depthQuality() const;
+  constexpr ::GlobalNamespace::__OVRManager__DepthQuality const& __cordl_internal_get_depthQuality() const;
 
-  constexpr void __set_depthQuality(::GlobalNamespace::__OVRManager__DepthQuality value);
+  constexpr void __cordl_internal_set_depthQuality(::GlobalNamespace::__OVRManager__DepthQuality value);
 
-  constexpr float_t& __get_dynamicLightingSmoothFactor();
+  constexpr float_t& __cordl_internal_get_dynamicLightingSmoothFactor();
 
-  constexpr float_t const& __get_dynamicLightingSmoothFactor() const;
+  constexpr float_t const& __cordl_internal_get_dynamicLightingSmoothFactor() const;
 
-  constexpr void __set_dynamicLightingSmoothFactor(float_t value);
+  constexpr void __cordl_internal_set_dynamicLightingSmoothFactor(float_t value);
 
-  constexpr float_t& __get_dynamicLightingDepthVariationClampingValue();
+  constexpr float_t& __cordl_internal_get_dynamicLightingDepthVariationClampingValue();
 
-  constexpr float_t const& __get_dynamicLightingDepthVariationClampingValue() const;
+  constexpr float_t const& __cordl_internal_get_dynamicLightingDepthVariationClampingValue() const;
 
-  constexpr void __set_dynamicLightingDepthVariationClampingValue(float_t value);
+  constexpr void __cordl_internal_set_dynamicLightingDepthVariationClampingValue(float_t value);
 
-  constexpr ::GlobalNamespace::__OVRManager__VirtualGreenScreenType& __get_virtualGreenScreenType();
+  constexpr ::GlobalNamespace::__OVRManager__VirtualGreenScreenType& __cordl_internal_get_virtualGreenScreenType();
 
-  constexpr ::GlobalNamespace::__OVRManager__VirtualGreenScreenType const& __get_virtualGreenScreenType() const;
+  constexpr ::GlobalNamespace::__OVRManager__VirtualGreenScreenType const& __cordl_internal_get_virtualGreenScreenType() const;
 
-  constexpr void __set_virtualGreenScreenType(::GlobalNamespace::__OVRManager__VirtualGreenScreenType value);
+  constexpr void __cordl_internal_set_virtualGreenScreenType(::GlobalNamespace::__OVRManager__VirtualGreenScreenType value);
 
-  constexpr float_t& __get_virtualGreenScreenTopY();
+  constexpr float_t& __cordl_internal_get_virtualGreenScreenTopY();
 
-  constexpr float_t const& __get_virtualGreenScreenTopY() const;
+  constexpr float_t const& __cordl_internal_get_virtualGreenScreenTopY() const;
 
-  constexpr void __set_virtualGreenScreenTopY(float_t value);
+  constexpr void __cordl_internal_set_virtualGreenScreenTopY(float_t value);
 
-  constexpr float_t& __get_virtualGreenScreenBottomY();
+  constexpr float_t& __cordl_internal_get_virtualGreenScreenBottomY();
 
-  constexpr float_t const& __get_virtualGreenScreenBottomY() const;
+  constexpr float_t const& __cordl_internal_get_virtualGreenScreenBottomY() const;
 
-  constexpr void __set_virtualGreenScreenBottomY(float_t value);
+  constexpr void __cordl_internal_set_virtualGreenScreenBottomY(float_t value);
 
-  constexpr bool& __get_virtualGreenScreenApplyDepthCulling();
+  constexpr bool& __cordl_internal_get_virtualGreenScreenApplyDepthCulling();
 
-  constexpr bool const& __get_virtualGreenScreenApplyDepthCulling() const;
+  constexpr bool const& __cordl_internal_get_virtualGreenScreenApplyDepthCulling() const;
 
-  constexpr void __set_virtualGreenScreenApplyDepthCulling(bool value);
+  constexpr void __cordl_internal_set_virtualGreenScreenApplyDepthCulling(bool value);
 
-  constexpr float_t& __get_virtualGreenScreenDepthTolerance();
+  constexpr float_t& __cordl_internal_get_virtualGreenScreenDepthTolerance();
 
-  constexpr float_t const& __get_virtualGreenScreenDepthTolerance() const;
+  constexpr float_t const& __cordl_internal_get_virtualGreenScreenDepthTolerance() const;
 
-  constexpr void __set_virtualGreenScreenDepthTolerance(float_t value);
+  constexpr void __cordl_internal_set_virtualGreenScreenDepthTolerance(float_t value);
 
-  constexpr ::GlobalNamespace::__OVRManager__MrcActivationMode& __get_mrcActivationMode();
+  constexpr ::GlobalNamespace::__OVRManager__MrcActivationMode& __cordl_internal_get_mrcActivationMode();
 
-  constexpr ::GlobalNamespace::__OVRManager__MrcActivationMode const& __get_mrcActivationMode() const;
+  constexpr ::GlobalNamespace::__OVRManager__MrcActivationMode const& __cordl_internal_get_mrcActivationMode() const;
 
-  constexpr void __set_mrcActivationMode(::GlobalNamespace::__OVRManager__MrcActivationMode value);
+  constexpr void __cordl_internal_set_mrcActivationMode(::GlobalNamespace::__OVRManager__MrcActivationMode value);
 
-  constexpr ::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*& __get_instantiateMixedRealityCameraGameObject();
+  constexpr ::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*& __cordl_internal_get_instantiateMixedRealityCameraGameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*> const& __get_instantiateMixedRealityCameraGameObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate*> const& __cordl_internal_get_instantiateMixedRealityCameraGameObject() const;
 
-  constexpr void __set_instantiateMixedRealityCameraGameObject(::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate* value);
+  constexpr void __cordl_internal_set_instantiateMixedRealityCameraGameObject(::GlobalNamespace::__OVRManager__InstantiateMrcCameraDelegate* value);
 
-  constexpr bool& __get_launchMultimodalHandsControllersOnStartup();
+  constexpr bool& __cordl_internal_get_launchMultimodalHandsControllersOnStartup();
 
-  constexpr bool const& __get_launchMultimodalHandsControllersOnStartup() const;
+  constexpr bool const& __cordl_internal_get_launchMultimodalHandsControllersOnStartup() const;
 
-  constexpr void __set_launchMultimodalHandsControllersOnStartup(bool value);
+  constexpr void __cordl_internal_set_launchMultimodalHandsControllersOnStartup(bool value);
 
-  constexpr bool& __get_isInsightPassthroughEnabled();
+  constexpr bool& __cordl_internal_get_isInsightPassthroughEnabled();
 
-  constexpr bool const& __get_isInsightPassthroughEnabled() const;
+  constexpr bool const& __cordl_internal_get_isInsightPassthroughEnabled() const;
 
-  constexpr void __set_isInsightPassthroughEnabled(bool value);
+  constexpr void __cordl_internal_set_isInsightPassthroughEnabled(bool value);
 
-  constexpr bool& __get_requestBodyTrackingPermissionOnStartup();
+  constexpr bool& __cordl_internal_get_requestBodyTrackingPermissionOnStartup();
 
-  constexpr bool const& __get_requestBodyTrackingPermissionOnStartup() const;
+  constexpr bool const& __cordl_internal_get_requestBodyTrackingPermissionOnStartup() const;
 
-  constexpr void __set_requestBodyTrackingPermissionOnStartup(bool value);
+  constexpr void __cordl_internal_set_requestBodyTrackingPermissionOnStartup(bool value);
 
-  constexpr bool& __get_requestFaceTrackingPermissionOnStartup();
+  constexpr bool& __cordl_internal_get_requestFaceTrackingPermissionOnStartup();
 
-  constexpr bool const& __get_requestFaceTrackingPermissionOnStartup() const;
+  constexpr bool const& __cordl_internal_get_requestFaceTrackingPermissionOnStartup() const;
 
-  constexpr void __set_requestFaceTrackingPermissionOnStartup(bool value);
+  constexpr void __cordl_internal_set_requestFaceTrackingPermissionOnStartup(bool value);
 
-  constexpr bool& __get_requestEyeTrackingPermissionOnStartup();
+  constexpr bool& __cordl_internal_get_requestEyeTrackingPermissionOnStartup();
 
-  constexpr bool const& __get_requestEyeTrackingPermissionOnStartup() const;
+  constexpr bool const& __cordl_internal_get_requestEyeTrackingPermissionOnStartup() const;
 
-  constexpr void __set_requestEyeTrackingPermissionOnStartup(bool value);
+  constexpr void __cordl_internal_set_requestEyeTrackingPermissionOnStartup(bool value);
 
-  constexpr bool& __get_requestScenePermissionOnStartup();
+  constexpr bool& __cordl_internal_get_requestScenePermissionOnStartup();
 
-  constexpr bool const& __get_requestScenePermissionOnStartup() const;
+  constexpr bool const& __cordl_internal_get_requestScenePermissionOnStartup() const;
 
-  constexpr void __set_requestScenePermissionOnStartup(bool value);
+  constexpr void __cordl_internal_set_requestScenePermissionOnStartup(bool value);
 
-  constexpr bool& __get__localDimming();
+  constexpr bool& __cordl_internal_get__localDimming();
 
-  constexpr bool const& __get__localDimming() const;
+  constexpr bool const& __cordl_internal_get__localDimming() const;
 
-  constexpr void __set__localDimming(bool value);
+  constexpr void __cordl_internal_set__localDimming(bool value);
 
-  constexpr ::GlobalNamespace::__OVRManager__TrackingOrigin& __get__trackingOriginType();
+  constexpr ::GlobalNamespace::__OVRManager__TrackingOrigin& __cordl_internal_get__trackingOriginType();
 
-  constexpr ::GlobalNamespace::__OVRManager__TrackingOrigin const& __get__trackingOriginType() const;
+  constexpr ::GlobalNamespace::__OVRManager__TrackingOrigin const& __cordl_internal_get__trackingOriginType() const;
 
-  constexpr void __set__trackingOriginType(::GlobalNamespace::__OVRManager__TrackingOrigin value);
+  constexpr void __cordl_internal_set__trackingOriginType(::GlobalNamespace::__OVRManager__TrackingOrigin value);
 
-  constexpr bool& __get_usePositionTracking();
+  constexpr bool& __cordl_internal_get_usePositionTracking();
 
-  constexpr bool const& __get_usePositionTracking() const;
+  constexpr bool const& __cordl_internal_get_usePositionTracking() const;
 
-  constexpr void __set_usePositionTracking(bool value);
+  constexpr void __cordl_internal_set_usePositionTracking(bool value);
 
-  constexpr bool& __get_useRotationTracking();
+  constexpr bool& __cordl_internal_get_useRotationTracking();
 
-  constexpr bool const& __get_useRotationTracking() const;
+  constexpr bool const& __cordl_internal_get_useRotationTracking() const;
 
-  constexpr void __set_useRotationTracking(bool value);
+  constexpr void __cordl_internal_set_useRotationTracking(bool value);
 
-  constexpr bool& __get_useIPDInPositionTracking();
+  constexpr bool& __cordl_internal_get_useIPDInPositionTracking();
 
-  constexpr bool const& __get_useIPDInPositionTracking() const;
+  constexpr bool const& __cordl_internal_get_useIPDInPositionTracking() const;
 
-  constexpr void __set_useIPDInPositionTracking(bool value);
+  constexpr void __cordl_internal_set_useIPDInPositionTracking(bool value);
 
-  constexpr bool& __get_resetTrackerOnLoad();
+  constexpr bool& __cordl_internal_get_resetTrackerOnLoad();
 
-  constexpr bool const& __get_resetTrackerOnLoad() const;
+  constexpr bool const& __cordl_internal_get_resetTrackerOnLoad() const;
 
-  constexpr void __set_resetTrackerOnLoad(bool value);
+  constexpr void __cordl_internal_set_resetTrackerOnLoad(bool value);
 
-  constexpr bool& __get_AllowRecenter();
+  constexpr bool& __cordl_internal_get_AllowRecenter();
 
-  constexpr bool const& __get_AllowRecenter() const;
+  constexpr bool const& __cordl_internal_get_AllowRecenter() const;
 
-  constexpr void __set_AllowRecenter(bool value);
+  constexpr void __cordl_internal_set_AllowRecenter(bool value);
 
-  constexpr bool& __get_LateControllerUpdate();
+  constexpr bool& __cordl_internal_get_LateControllerUpdate();
 
-  constexpr bool const& __get_LateControllerUpdate() const;
+  constexpr bool const& __cordl_internal_get_LateControllerUpdate() const;
 
-  constexpr void __set_LateControllerUpdate(bool value);
+  constexpr void __cordl_internal_set_LateControllerUpdate(bool value);
 
-  constexpr bool& __get_LateLatching();
+  constexpr bool& __cordl_internal_get_LateLatching();
 
-  constexpr bool const& __get_LateLatching() const;
+  constexpr bool const& __cordl_internal_get_LateLatching() const;
 
-  constexpr void __set_LateLatching(bool value);
+  constexpr void __cordl_internal_set_LateLatching(bool value);
 
-  constexpr ::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType& __get__readOnlyControllerDrivenHandPosesType();
+  constexpr ::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType& __cordl_internal_get__readOnlyControllerDrivenHandPosesType();
 
-  constexpr ::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType const& __get__readOnlyControllerDrivenHandPosesType() const;
+  constexpr ::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType const& __cordl_internal_get__readOnlyControllerDrivenHandPosesType() const;
 
-  constexpr void __set__readOnlyControllerDrivenHandPosesType(::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType value);
+  constexpr void __cordl_internal_set__readOnlyControllerDrivenHandPosesType(::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType value);
 
-  constexpr ::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType& __get_controllerDrivenHandPosesType();
+  constexpr ::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType& __cordl_internal_get_controllerDrivenHandPosesType();
 
-  constexpr ::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType const& __get_controllerDrivenHandPosesType() const;
+  constexpr ::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType const& __cordl_internal_get_controllerDrivenHandPosesType() const;
 
-  constexpr void __set_controllerDrivenHandPosesType(::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType value);
+  constexpr void __cordl_internal_set_controllerDrivenHandPosesType(::GlobalNamespace::__OVRManager__ControllerDrivenHandPosesType value);
 
-  constexpr bool& __get__isSupportedPlatform_k__BackingField();
+  constexpr bool& __cordl_internal_get__isSupportedPlatform_k__BackingField();
 
-  constexpr bool const& __get__isSupportedPlatform_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isSupportedPlatform_k__BackingField() const;
 
-  constexpr void __set__isSupportedPlatform_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isSupportedPlatform_k__BackingField(bool value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::__OVRManager__EventListener*>*& __get_eventListeners();
+  constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::__OVRManager__EventListener*>*& __cordl_internal_get_eventListeners();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::GlobalNamespace::__OVRManager__EventListener*>*> const& __get_eventListeners() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::GlobalNamespace::__OVRManager__EventListener*>*> const& __cordl_internal_get_eventListeners() const;
 
-  constexpr void __set_eventListeners(::System::Collections::Generic::HashSet_1<::GlobalNamespace::__OVRManager__EventListener*>* value);
+  constexpr void __cordl_internal_set_eventListeners(::System::Collections::Generic::HashSet_1<::GlobalNamespace::__OVRManager__EventListener*>* value);
 
-  static inline void setStaticF__instance_k__BackingField(::GlobalNamespace::OVRManager* value);
+  static inline void setStaticF__instance_k__BackingField(::UnityW<::GlobalNamespace::OVRManager> value);
 
-  static inline ::GlobalNamespace::OVRManager* getStaticF__instance_k__BackingField();
+  static inline ::UnityW<::GlobalNamespace::OVRManager> getStaticF__instance_k__BackingField();
 
   static inline void setStaticF__display_k__BackingField(::GlobalNamespace::OVRDisplay* value);
 
@@ -2587,13 +2600,13 @@ public:
 
   static inline ::GlobalNamespace::OVRBoundary* getStaticF__boundary_k__BackingField();
 
-  static inline void setStaticF__runtimeSettings_k__BackingField(::GlobalNamespace::OVRRuntimeSettings* value);
+  static inline void setStaticF__runtimeSettings_k__BackingField(::UnityW<::GlobalNamespace::OVRRuntimeSettings> value);
 
-  static inline ::GlobalNamespace::OVRRuntimeSettings* getStaticF__runtimeSettings_k__BackingField();
+  static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> getStaticF__runtimeSettings_k__BackingField();
 
-  static inline void setStaticF__profile(::GlobalNamespace::OVRProfile* value);
+  static inline void setStaticF__profile(::UnityW<::GlobalNamespace::OVRProfile> value);
 
-  static inline ::GlobalNamespace::OVRProfile* getStaticF__profile();
+  static inline ::UnityW<::GlobalNamespace::OVRProfile> getStaticF__profile();
 
   static inline void setStaticF_HMDAcquired(::System::Action* value);
 
@@ -2748,9 +2761,9 @@ public:
 
   static inline bool getStaticF_m_SpaceWarpEnabled();
 
-  static inline void setStaticF_m_AppSpaceTransform(::UnityEngine::Transform* value);
+  static inline void setStaticF_m_AppSpaceTransform(::UnityW<::UnityEngine::Transform> value);
 
-  static inline ::UnityEngine::Transform* getStaticF_m_AppSpaceTransform();
+  static inline ::UnityW<::UnityEngine::Transform> getStaticF_m_AppSpaceTransform();
 
   static inline void setStaticF_m_CachedDepthTextureMode(::UnityEngine::DepthTextureMode value);
 
@@ -2820,9 +2833,9 @@ public:
 
   static inline bool getStaticF_suppressUnableToFindMainCameraMessage();
 
-  static inline void setStaticF_lastFoundMainCamera(::System::WeakReference_1<::UnityEngine::Camera*>* value);
+  static inline void setStaticF_lastFoundMainCamera(::System::WeakReference_1<::UnityW<::UnityEngine::Camera>>* value);
 
-  static inline ::System::WeakReference_1<::UnityEngine::Camera*>* getStaticF_lastFoundMainCamera();
+  static inline ::System::WeakReference_1<::UnityW<::UnityEngine::Camera>>* getStaticF_lastFoundMainCamera();
 
   static inline void setStaticF_staticMixedRealityCaptureInitialized(bool value);
 
@@ -2832,9 +2845,9 @@ public:
 
   static inline bool getStaticF_staticPrevEnableMixedRealityCapture();
 
-  static inline void setStaticF_staticMrcSettings(::GlobalNamespace::OVRMixedRealityCaptureSettings* value);
+  static inline void setStaticF_staticMrcSettings(::UnityW<::GlobalNamespace::OVRMixedRealityCaptureSettings> value);
 
-  static inline ::GlobalNamespace::OVRMixedRealityCaptureSettings* getStaticF_staticMrcSettings();
+  static inline ::UnityW<::GlobalNamespace::OVRMixedRealityCaptureSettings> getStaticF_staticMrcSettings();
 
   static inline void setStaticF_suppressDisableMixedRealityBecauseOfNoMainCameraWarning(bool value);
 
@@ -2849,7 +2862,7 @@ public:
   static inline ::GlobalNamespace::__OVRManager__PassthroughCapabilities* getStaticF__passthroughCapabilities();
 
   /// @brief Method get_instance, addr 0x2739064, size 0x58, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRManager* get_instance();
+  static inline ::UnityW<::GlobalNamespace::OVRManager> get_instance();
 
   /// @brief Method set_instance, addr 0x27390bc, size 0x5c, virtual false, abstract: false, final false
   static inline void set_instance(::GlobalNamespace::OVRManager* value);
@@ -2873,13 +2886,13 @@ public:
   static inline void set_boundary(::GlobalNamespace::OVRBoundary* value);
 
   /// @brief Method get_runtimeSettings, addr 0x2739334, size 0x58, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRRuntimeSettings* get_runtimeSettings();
+  static inline ::UnityW<::GlobalNamespace::OVRRuntimeSettings> get_runtimeSettings();
 
   /// @brief Method set_runtimeSettings, addr 0x273938c, size 0x5c, virtual false, abstract: false, final false
   static inline void set_runtimeSettings(::GlobalNamespace::OVRRuntimeSettings* value);
 
   /// @brief Method get_profile, addr 0x27393e8, size 0x100, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRProfile* get_profile();
+  static inline ::UnityW<::GlobalNamespace::OVRProfile> get_profile();
 
   /// @brief Method add_HMDAcquired, addr 0x27394e8, size 0xdc, virtual false, abstract: false, final false
   static inline void add_HMDAcquired(::System::Action* value);
@@ -3475,7 +3488,7 @@ public:
   inline void UpdateHMDEvents();
 
   /// @brief Method FindMainCamera, addr 0x273e150, size 0x678, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Camera* FindMainCamera();
+  static inline ::UnityW<::UnityEngine::Camera> FindMainCamera();
 
   /// @brief Method OnDisable, addr 0x274475c, size 0xb8, virtual false, abstract: false, final false
   inline void OnDisable();
@@ -3567,7 +3580,7 @@ protected:
 
 public:
   /// @brief Field disabledCameras, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Camera*>* ___disabledCameras;
+  ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Camera>>* ___disabledCameras;
 
   /// @brief Field prevTimeScale, offset: 0x20, size: 0x4, def value: None
   float_t ___prevTimeScale;

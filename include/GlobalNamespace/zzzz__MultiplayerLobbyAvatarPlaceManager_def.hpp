@@ -27,56 +27,57 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyAvatarPlaceManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5226))
 // CS Name: ::MultiplayerLobbyAvatarPlaceManager*
 class CORDL_TYPE MultiplayerLobbyAvatarPlaceManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _lobbyStateDataModel, offset 0x18, size 0x8
-  __declspec(property(get = __get__lobbyStateDataModel, put = __set__lobbyStateDataModel))::GlobalNamespace::ILobbyStateDataModel* _lobbyStateDataModel;
+  __declspec(property(get = __cordl_internal_get__lobbyStateDataModel, put = __cordl_internal_set__lobbyStateDataModel))::GlobalNamespace::ILobbyStateDataModel* _lobbyStateDataModel;
 
   /// @brief Field _avatarPlacesPool, offset 0x20, size 0x8
-  __declspec(property(get = __get__avatarPlacesPool, put = __set__avatarPlacesPool))::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool* _avatarPlacesPool;
+  __declspec(property(get = __cordl_internal_get__avatarPlacesPool, put = __cordl_internal_set__avatarPlacesPool))::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool* _avatarPlacesPool;
 
   /// @brief Field _allPlaces, offset 0x28, size 0x8
-  __declspec(property(get = __get__allPlaces, put = __set__allPlaces))::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerLobbyAvatarPlace*>* _allPlaces;
+  __declspec(property(get = __cordl_internal_get__allPlaces,
+                      put = __cordl_internal_set__allPlaces))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace>>* _allPlaces;
 
   /// @brief Field _innerCircleRadius, offset 0x30, size 0x4
-  __declspec(property(get = __get__innerCircleRadius, put = __set__innerCircleRadius)) float_t _innerCircleRadius;
+  __declspec(property(get = __cordl_internal_get__innerCircleRadius, put = __cordl_internal_set__innerCircleRadius)) float_t _innerCircleRadius;
 
   /// @brief Field _minOuterCircleRadius, offset 0x34, size 0x4
-  __declspec(property(get = __get__minOuterCircleRadius, put = __set__minOuterCircleRadius)) float_t _minOuterCircleRadius;
+  __declspec(property(get = __cordl_internal_get__minOuterCircleRadius, put = __cordl_internal_set__minOuterCircleRadius)) float_t _minOuterCircleRadius;
 
-  constexpr ::GlobalNamespace::ILobbyStateDataModel*& __get__lobbyStateDataModel();
+  constexpr ::GlobalNamespace::ILobbyStateDataModel*& __cordl_internal_get__lobbyStateDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& __get__lobbyStateDataModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& __cordl_internal_get__lobbyStateDataModel() const;
 
-  constexpr void __set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value);
+  constexpr void __cordl_internal_set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value);
 
-  constexpr ::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool*& __get__avatarPlacesPool();
+  constexpr ::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool*& __cordl_internal_get__avatarPlacesPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool*> const& __get__avatarPlacesPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool*> const& __cordl_internal_get__avatarPlacesPool() const;
 
-  constexpr void __set__avatarPlacesPool(::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool* value);
+  constexpr void __cordl_internal_set__avatarPlacesPool(::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerLobbyAvatarPlace*>*& __get__allPlaces();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace>>*& __cordl_internal_get__allPlaces();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerLobbyAvatarPlace*>*> const& __get__allPlaces() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace>>*> const& __cordl_internal_get__allPlaces() const;
 
-  constexpr void __set__allPlaces(::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerLobbyAvatarPlace*>* value);
+  constexpr void __cordl_internal_set__allPlaces(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace>>* value);
 
-  constexpr float_t& __get__innerCircleRadius();
+  constexpr float_t& __cordl_internal_get__innerCircleRadius();
 
-  constexpr float_t const& __get__innerCircleRadius() const;
+  constexpr float_t const& __cordl_internal_get__innerCircleRadius() const;
 
-  constexpr void __set__innerCircleRadius(float_t value);
+  constexpr void __cordl_internal_set__innerCircleRadius(float_t value);
 
-  constexpr float_t& __get__minOuterCircleRadius();
+  constexpr float_t& __cordl_internal_get__minOuterCircleRadius();
 
-  constexpr float_t const& __get__minOuterCircleRadius() const;
+  constexpr float_t const& __cordl_internal_get__minOuterCircleRadius() const;
 
-  constexpr void __set__minOuterCircleRadius(float_t value);
+  constexpr void __cordl_internal_set__minOuterCircleRadius(float_t value);
 
   /// @brief Method Activate, addr 0x2251dc8, size 0x8, virtual false, abstract: false, final false
   inline void Activate(float_t innerCircleRadius, float_t minOuterCircleRadius);
@@ -119,7 +120,7 @@ public:
   ::GlobalNamespace::__MultiplayerLobbyAvatarPlace__Pool* ____avatarPlacesPool;
 
   /// @brief Field _allPlaces, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerLobbyAvatarPlace*>* ____allPlaces;
+  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace>>* ____allPlaces;
 
   /// @brief Field _innerCircleRadius, offset: 0x30, size: 0x4, def value: None
   float_t ____innerCircleRadius;

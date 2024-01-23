@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Endo {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1522))
 // CS Name: ::Org.BouncyCastle.Math.EC.Endo::GlvTypeAParameters*
 class CORDL_TYPE GlvTypeAParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_i, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_i, put = __set_m_i))::Org::BouncyCastle::Math::BigInteger* m_i;
+  __declspec(property(get = __cordl_internal_get_m_i, put = __cordl_internal_set_m_i))::Org::BouncyCastle::Math::BigInteger* m_i;
 
   /// @brief Field m_lambda, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_lambda, put = __set_m_lambda))::Org::BouncyCastle::Math::BigInteger* m_lambda;
+  __declspec(property(get = __cordl_internal_get_m_lambda, put = __cordl_internal_set_m_lambda))::Org::BouncyCastle::Math::BigInteger* m_lambda;
 
   /// @brief Field m_splitParams, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_splitParams, put = __set_m_splitParams))::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* m_splitParams;
+  __declspec(property(get = __cordl_internal_get_m_splitParams, put = __cordl_internal_set_m_splitParams))::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* m_splitParams;
 
   __declspec(property(get = get_I))::Org::BouncyCastle::Math::BigInteger* I;
 
@@ -41,23 +41,23 @@ public:
 
   __declspec(property(get = get_SplitParams))::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* SplitParams;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_m_i();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_m_i();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_m_i() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_m_i() const;
 
-  constexpr void __set_m_i(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_m_i(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_m_lambda();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_m_lambda();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_m_lambda() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_m_lambda() const;
 
-  constexpr void __set_m_lambda(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_m_lambda(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*& __get_m_splitParams();
+  constexpr ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*& __cordl_internal_get_m_splitParams();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*> const& __get_m_splitParams() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters*> const& __cordl_internal_get_m_splitParams() const;
 
-  constexpr void __set_m_splitParams(::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* value);
+  constexpr void __cordl_internal_set_m_splitParams(::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* value);
 
   static inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeAParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* i, ::Org::BouncyCastle::Math::BigInteger* lambda,
                                                                                   ::Org::BouncyCastle::Math::EC::Endo::ScalarSplitParameters* splitParams);

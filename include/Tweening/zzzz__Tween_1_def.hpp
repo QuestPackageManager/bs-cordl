@@ -23,38 +23,38 @@ namespace Tweening {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16098))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16098))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16099))
 // CS Name: ::Tweening::Tween`1<T>*
 class CORDL_TYPE Tween_1 : public ::Tweening::Tween {
 public:
   // Declarations
   /// @brief Field fromValue, offset 0x48, size 0x8
-  __declspec(property(get = __get_fromValue, put = __set_fromValue)) T fromValue;
+  __declspec(property(get = __cordl_internal_get_fromValue, put = __cordl_internal_set_fromValue)) T fromValue;
 
   /// @brief Field toValue, offset 0x50, size 0x8
-  __declspec(property(get = __get_toValue, put = __set_toValue)) T toValue;
+  __declspec(property(get = __cordl_internal_get_toValue, put = __cordl_internal_set_toValue)) T toValue;
 
   /// @brief Field onUpdate, offset 0x58, size 0x8
-  __declspec(property(get = __get_onUpdate, put = __set_onUpdate))::System::Action_1<T>* onUpdate;
+  __declspec(property(get = __cordl_internal_get_onUpdate, put = __cordl_internal_set_onUpdate))::System::Action_1<T>* onUpdate;
 
-  constexpr T& __get_fromValue();
+  constexpr T& __cordl_internal_get_fromValue();
 
-  constexpr T const& __get_fromValue() const;
+  constexpr T const& __cordl_internal_get_fromValue() const;
 
-  constexpr void __set_fromValue(T value);
+  constexpr void __cordl_internal_set_fromValue(T value);
 
-  constexpr T& __get_toValue();
+  constexpr T& __cordl_internal_get_toValue();
 
-  constexpr T const& __get_toValue() const;
+  constexpr T const& __cordl_internal_get_toValue() const;
 
-  constexpr void __set_toValue(T value);
+  constexpr void __cordl_internal_set_toValue(T value);
 
-  constexpr ::System::Action_1<T>*& __get_onUpdate();
+  constexpr ::System::Action_1<T>*& __cordl_internal_get_onUpdate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __get_onUpdate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get_onUpdate() const;
 
-  constexpr void __set_onUpdate(::System::Action_1<T>* value);
+  constexpr void __cordl_internal_set_onUpdate(::System::Action_1<T>* value);
 
   /// @brief Method OnSpawned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void OnSpawned(T fromValue, T toValue, ::System::Action_1<T>* onUpdate, float_t duration, ::GlobalNamespace::EaseType easeType, float_t delay, ::Tweening::Tween_1<T>* t);

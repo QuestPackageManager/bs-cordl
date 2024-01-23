@@ -23,41 +23,41 @@ MARK_REF_PTR_T(::System::Threading::ThreadPoolWorkQueueThreadLocals);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2735))
 // CS Name: ::System.Threading::ThreadPoolWorkQueueThreadLocals*
 class CORDL_TYPE ThreadPoolWorkQueueThreadLocals : public ::System::Object {
 public:
   // Declarations
   /// @brief Field workQueue, offset 0x10, size 0x8
-  __declspec(property(get = __get_workQueue, put = __set_workQueue))::System::Threading::ThreadPoolWorkQueue* workQueue;
+  __declspec(property(get = __cordl_internal_get_workQueue, put = __cordl_internal_set_workQueue))::System::Threading::ThreadPoolWorkQueue* workQueue;
 
   /// @brief Field workStealingQueue, offset 0x18, size 0x8
-  __declspec(property(get = __get_workStealingQueue, put = __set_workStealingQueue))::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue* workStealingQueue;
+  __declspec(property(get = __cordl_internal_get_workStealingQueue, put = __cordl_internal_set_workStealingQueue))::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue* workStealingQueue;
 
   /// @brief Field random, offset 0x20, size 0x8
-  __declspec(property(get = __get_random, put = __set_random))::System::Random* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::System::Random* random;
 
   /// @brief Field threadLocals, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_threadLocals, put = setStaticF_threadLocals))::System::Threading::ThreadPoolWorkQueueThreadLocals* threadLocals;
 
-  constexpr ::System::Threading::ThreadPoolWorkQueue*& __get_workQueue();
+  constexpr ::System::Threading::ThreadPoolWorkQueue*& __cordl_internal_get_workQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ThreadPoolWorkQueue*> const& __get_workQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ThreadPoolWorkQueue*> const& __cordl_internal_get_workQueue() const;
 
-  constexpr void __set_workQueue(::System::Threading::ThreadPoolWorkQueue* value);
+  constexpr void __cordl_internal_set_workQueue(::System::Threading::ThreadPoolWorkQueue* value);
 
-  constexpr ::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue*& __get_workStealingQueue();
+  constexpr ::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue*& __cordl_internal_get_workStealingQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue*> const& __get_workStealingQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue*> const& __cordl_internal_get_workStealingQueue() const;
 
-  constexpr void __set_workStealingQueue(::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue* value);
+  constexpr void __cordl_internal_set_workStealingQueue(::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue* value);
 
-  constexpr ::System::Random*& __get_random();
+  constexpr ::System::Random*& __cordl_internal_get_random();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& __get_random() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& __cordl_internal_get_random() const;
 
-  constexpr void __set_random(::System::Random* value);
+  constexpr void __cordl_internal_set_random(::System::Random* value);
 
   static inline void setStaticF_threadLocals(::System::Threading::ThreadPoolWorkQueueThreadLocals* value);
 

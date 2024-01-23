@@ -55,7 +55,7 @@ MARK_VAL_T(::System::Char);
 // SizeInfo { instance_size: 2, native_size: 1, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2362))
 // CS Name: ::System::Char
 struct CORDL_TYPE Char {

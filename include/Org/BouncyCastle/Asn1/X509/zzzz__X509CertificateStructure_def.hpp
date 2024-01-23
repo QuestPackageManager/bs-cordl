@@ -49,20 +49,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509CertificateStructure);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(402))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::X509CertificateStructure*
 class CORDL_TYPE X509CertificateStructure : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field tbsCert, offset 0x10, size 0x8
-  __declspec(property(get = __get_tbsCert, put = __set_tbsCert))::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* tbsCert;
+  __declspec(property(get = __cordl_internal_get_tbsCert, put = __cordl_internal_set_tbsCert))::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* tbsCert;
 
   /// @brief Field sigAlgID, offset 0x18, size 0x8
-  __declspec(property(get = __get_sigAlgID, put = __set_sigAlgID))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgID;
+  __declspec(property(get = __cordl_internal_get_sigAlgID, put = __cordl_internal_set_sigAlgID))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgID;
 
   /// @brief Field sig, offset 0x20, size 0x8
-  __declspec(property(get = __get_sig, put = __set_sig))::Org::BouncyCastle::Asn1::DerBitString* sig;
+  __declspec(property(get = __cordl_internal_get_sig, put = __cordl_internal_set_sig))::Org::BouncyCastle::Asn1::DerBitString* sig;
 
   __declspec(property(get = get_TbsCertificate))::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* TbsCertificate;
 
@@ -84,23 +84,23 @@ public:
 
   __declspec(property(get = get_Signature))::Org::BouncyCastle::Asn1::DerBitString* Signature;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*& __get_tbsCert();
+  constexpr ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*& __cordl_internal_get_tbsCert();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*> const& __get_tbsCert() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*> const& __cordl_internal_get_tbsCert() const;
 
-  constexpr void __set_tbsCert(::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* value);
+  constexpr void __cordl_internal_set_tbsCert(::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_sigAlgID();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_sigAlgID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_sigAlgID() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_sigAlgID() const;
 
-  constexpr void __set_sigAlgID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_sigAlgID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __get_sig();
+  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __cordl_internal_get_sig();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __get_sig() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __cordl_internal_get_sig() const;
 
-  constexpr void __set_sig(::Org::BouncyCastle::Asn1::DerBitString* value);
+  constexpr void __cordl_internal_set_sig(::Org::BouncyCastle::Asn1::DerBitString* value);
 
   /// @brief Method GetInstance, addr 0x119d338, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::X509CertificateStructure* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);

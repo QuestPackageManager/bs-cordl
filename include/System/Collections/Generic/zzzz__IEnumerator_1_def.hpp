@@ -21,7 +21,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3833))
 // CS Name: ::System.Collections.Generic::IEnumerator`1<T>*
 class CORDL_TYPE IEnumerator_1 {

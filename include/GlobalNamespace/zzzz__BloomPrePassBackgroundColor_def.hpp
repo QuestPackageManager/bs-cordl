@@ -32,32 +32,32 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundColor);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14478))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14478))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14456))
 // CS Name: ::BloomPrePassBackgroundColor*
 class CORDL_TYPE BloomPrePassBackgroundColor : public ::GlobalNamespace::BloomPrePassNonLightPass {
 public:
   // Declarations
   /// @brief Field _intensity, offset 0x20, size 0x4
-  __declspec(property(get = __get__intensity, put = __set__intensity)) float_t _intensity;
+  __declspec(property(get = __cordl_internal_get__intensity, put = __cordl_internal_set__intensity)) float_t _intensity;
 
   /// @brief Field _minAlpha, offset 0x24, size 0x4
-  __declspec(property(get = __get__minAlpha, put = __set__minAlpha)) float_t _minAlpha;
+  __declspec(property(get = __cordl_internal_get__minAlpha, put = __cordl_internal_set__minAlpha)) float_t _minAlpha;
 
   /// @brief Field _grayscaleFactor, offset 0x28, size 0x4
-  __declspec(property(get = __get__grayscaleFactor, put = __set__grayscaleFactor)) float_t _grayscaleFactor;
+  __declspec(property(get = __cordl_internal_get__grayscaleFactor, put = __cordl_internal_set__grayscaleFactor)) float_t _grayscaleFactor;
 
   /// @brief Field _shader, offset 0x30, size 0x8
-  __declspec(property(get = __get__shader, put = __set__shader))::UnityEngine::Shader* _shader;
+  __declspec(property(get = __cordl_internal_get__shader, put = __cordl_internal_set__shader))::UnityW<::UnityEngine::Shader> _shader;
 
   /// @brief Field _color, offset 0x38, size 0x10
-  __declspec(property(get = __get__color, put = __set__color))::UnityEngine::Color _color;
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
   /// @brief Field _colorID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__colorID, put = setStaticF__colorID)) int32_t _colorID;
 
   /// @brief Field _material, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__material, put = setStaticF__material))::UnityEngine::Material* _material;
+  static __declspec(property(get = getStaticF__material, put = setStaticF__material))::UnityW<::UnityEngine::Material> _material;
 
   /// @brief Field _initialized, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF__initialized, put = setStaticF__initialized)) bool _initialized;
@@ -66,43 +66,43 @@ public:
 
   __declspec(property(get = get_bgColor))::UnityEngine::Color bgColor;
 
-  constexpr float_t& __get__intensity();
+  constexpr float_t& __cordl_internal_get__intensity();
 
-  constexpr float_t const& __get__intensity() const;
+  constexpr float_t const& __cordl_internal_get__intensity() const;
 
-  constexpr void __set__intensity(float_t value);
+  constexpr void __cordl_internal_set__intensity(float_t value);
 
-  constexpr float_t& __get__minAlpha();
+  constexpr float_t& __cordl_internal_get__minAlpha();
 
-  constexpr float_t const& __get__minAlpha() const;
+  constexpr float_t const& __cordl_internal_get__minAlpha() const;
 
-  constexpr void __set__minAlpha(float_t value);
+  constexpr void __cordl_internal_set__minAlpha(float_t value);
 
-  constexpr float_t& __get__grayscaleFactor();
+  constexpr float_t& __cordl_internal_get__grayscaleFactor();
 
-  constexpr float_t const& __get__grayscaleFactor() const;
+  constexpr float_t const& __cordl_internal_get__grayscaleFactor() const;
 
-  constexpr void __set__grayscaleFactor(float_t value);
+  constexpr void __cordl_internal_set__grayscaleFactor(float_t value);
 
-  constexpr ::UnityEngine::Shader*& __get__shader();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get__shader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get__shader() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get__shader() const;
 
-  constexpr void __set__shader(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set__shader(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr ::UnityEngine::Color& __get__color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::UnityEngine::Color const& __get__color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr void __set__color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
   static inline void setStaticF__colorID(int32_t value);
 
   static inline int32_t getStaticF__colorID();
 
-  static inline void setStaticF__material(::UnityEngine::Material* value);
+  static inline void setStaticF__material(::UnityW<::UnityEngine::Material> value);
 
-  static inline ::UnityEngine::Material* getStaticF__material();
+  static inline ::UnityW<::UnityEngine::Material> getStaticF__material();
 
   static inline void setStaticF__initialized(bool value);
 
@@ -152,7 +152,7 @@ public:
   float_t ____grayscaleFactor;
 
   /// @brief Field _shader, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Shader* ____shader;
+  ::UnityW<::UnityEngine::Shader> ____shader;
 
   /// @brief Field _color, offset: 0x38, size: 0x10, def value: None
   ::UnityEngine::Color ____color;

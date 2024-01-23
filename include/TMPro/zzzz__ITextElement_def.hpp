@@ -20,16 +20,16 @@ MARK_REF_PTR_T(::TMPro::ITextElement);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12428))
 // CS Name: ::TMPro::ITextElement*
 class CORDL_TYPE ITextElement {
 public:
   // Declarations
-  __declspec(property(get = get_sharedMaterial))::UnityEngine::Material* sharedMaterial;
+  __declspec(property(get = get_sharedMaterial))::UnityW<::UnityEngine::Material> sharedMaterial;
 
   /// @brief Method get_sharedMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::Material* get_sharedMaterial();
+  inline ::UnityW<::UnityEngine::Material> get_sharedMaterial();
 
   /// @brief Method Rebuild, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate update);

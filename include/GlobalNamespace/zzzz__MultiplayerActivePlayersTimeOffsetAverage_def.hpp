@@ -21,20 +21,21 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5190))
 // CS Name: ::MultiplayerActivePlayersTimeOffsetAverage*
 class CORDL_TYPE MultiplayerActivePlayersTimeOffsetAverage : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _lastReturnedOffsetSyncTime, offset 0x18, size 0x8
-  __declspec(property(get = __get__lastReturnedOffsetSyncTime, put = __set__lastReturnedOffsetSyncTime)) int64_t _lastReturnedOffsetSyncTime;
+  __declspec(property(get = __cordl_internal_get__lastReturnedOffsetSyncTime, put = __cordl_internal_set__lastReturnedOffsetSyncTime)) int64_t _lastReturnedOffsetSyncTime;
 
   /// @brief Field _timeOfLastValidReturnedTime, offset 0x20, size 0x8
-  __declspec(property(get = __get__timeOfLastValidReturnedTime, put = __set__timeOfLastValidReturnedTime)) int64_t _timeOfLastValidReturnedTime;
+  __declspec(property(get = __cordl_internal_get__timeOfLastValidReturnedTime, put = __cordl_internal_set__timeOfLastValidReturnedTime)) int64_t _timeOfLastValidReturnedTime;
 
   __declspec(property(get = get_offsetSyncTime)) int64_t offsetSyncTime;
 
@@ -46,23 +47,23 @@ public:
   /// @brief Convert to "::GlobalNamespace::IMultiplayerObservable"
   constexpr ::GlobalNamespace::IMultiplayerObservable* i___GlobalNamespace__IMultiplayerObservable() noexcept;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr int64_t& __get__lastReturnedOffsetSyncTime();
+  constexpr int64_t& __cordl_internal_get__lastReturnedOffsetSyncTime();
 
-  constexpr int64_t const& __get__lastReturnedOffsetSyncTime() const;
+  constexpr int64_t const& __cordl_internal_get__lastReturnedOffsetSyncTime() const;
 
-  constexpr void __set__lastReturnedOffsetSyncTime(int64_t value);
+  constexpr void __cordl_internal_set__lastReturnedOffsetSyncTime(int64_t value);
 
-  constexpr int64_t& __get__timeOfLastValidReturnedTime();
+  constexpr int64_t& __cordl_internal_get__timeOfLastValidReturnedTime();
 
-  constexpr int64_t const& __get__timeOfLastValidReturnedTime() const;
+  constexpr int64_t const& __cordl_internal_get__timeOfLastValidReturnedTime() const;
 
-  constexpr void __set__timeOfLastValidReturnedTime(int64_t value);
+  constexpr void __cordl_internal_set__timeOfLastValidReturnedTime(int64_t value);
 
   /// @brief Method get_offsetSyncTime, addr 0x22446e4, size 0x254, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();

@@ -31,20 +31,20 @@ MARK_REF_PTR_T(::System::MulticastDelegate);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2589))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2589))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2611))
 // CS Name: ::System::MulticastDelegate*
 class CORDL_TYPE MulticastDelegate : public ::System::Delegate {
 public:
   // Declarations
   /// @brief Field delegates, offset 0x78, size 0x8
-  __declspec(property(get = __get_delegates, put = __set_delegates))::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> delegates;
+  __declspec(property(get = __cordl_internal_get_delegates, put = __cordl_internal_set_delegates))::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> delegates;
 
-  constexpr ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*>& __get_delegates();
+  constexpr ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*>& __cordl_internal_get_delegates();
 
-  constexpr ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> const& __get_delegates() const;
+  constexpr ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> const& __cordl_internal_get_delegates() const;
 
-  constexpr void __set_delegates(::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> value);
+  constexpr void __cordl_internal_set_delegates(::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> value);
 
   /// @brief Method GetObjectData, addr 0x25fe308, size 0x4, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);

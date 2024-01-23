@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupLinearLayouter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4935)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4935)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4931))
 // CS Name: ::LightGroupLinearLayouter*
 class CORDL_TYPE LightGroupLinearLayouter : public ::GlobalNamespace::LightGroupSubsystem {
 public:
   // Declarations
   /// @brief Field _movementStep, offset 0x20, size 0xc
-  __declspec(property(get = __get__movementStep, put = __set__movementStep))::UnityEngine::Vector3 _movementStep;
+  __declspec(property(get = __cordl_internal_get__movementStep, put = __cordl_internal_set__movementStep))::UnityEngine::Vector3 _movementStep;
 
   /// @brief Field _defaultRotation, offset 0x2c, size 0xc
-  __declspec(property(get = __get__defaultRotation, put = __set__defaultRotation))::UnityEngine::Vector3 _defaultRotation;
+  __declspec(property(get = __cordl_internal_get__defaultRotation, put = __cordl_internal_set__defaultRotation))::UnityEngine::Vector3 _defaultRotation;
 
   /// @brief Field _startFromCenter, offset 0x38, size 0x1
-  __declspec(property(get = __get__startFromCenter, put = __set__startFromCenter)) bool _startFromCenter;
+  __declspec(property(get = __cordl_internal_get__startFromCenter, put = __cordl_internal_set__startFromCenter)) bool _startFromCenter;
 
   /// @brief Convert operator to "::GlobalNamespace::IEditTimeValidated"
   constexpr operator ::GlobalNamespace::IEditTimeValidated*() noexcept;
@@ -39,23 +39,23 @@ public:
   /// @brief Convert to "::GlobalNamespace::IEditTimeValidated"
   constexpr ::GlobalNamespace::IEditTimeValidated* i___GlobalNamespace__IEditTimeValidated() noexcept;
 
-  constexpr ::UnityEngine::Vector3& __get__movementStep();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__movementStep();
 
-  constexpr ::UnityEngine::Vector3 const& __get__movementStep() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__movementStep() const;
 
-  constexpr void __set__movementStep(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__movementStep(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__defaultRotation();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__defaultRotation();
 
-  constexpr ::UnityEngine::Vector3 const& __get__defaultRotation() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__defaultRotation() const;
 
-  constexpr void __set__defaultRotation(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__defaultRotation(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get__startFromCenter();
+  constexpr bool& __cordl_internal_get__startFromCenter();
 
-  constexpr bool const& __get__startFromCenter() const;
+  constexpr bool const& __cordl_internal_get__startFromCenter() const;
 
-  constexpr void __set__startFromCenter(bool value);
+  constexpr void __cordl_internal_set__startFromCenter(bool value);
 
   static inline ::GlobalNamespace::LightGroupLinearLayouter* New_ctor();
 

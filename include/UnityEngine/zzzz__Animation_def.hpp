@@ -59,17 +59,17 @@ MARK_REF_PTR_T(::UnityEngine::__Animation__Enumerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14864))
 // CS Name: ::Animation::Enumerator*
 class CORDL_TYPE __Animation__Enumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Outer, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Outer, put = __set_m_Outer))::UnityEngine::Animation* m_Outer;
+  __declspec(property(get = __cordl_internal_get_m_Outer, put = __cordl_internal_set_m_Outer))::UnityW<::UnityEngine::Animation> m_Outer;
 
   /// @brief Field m_CurrentIndex, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_CurrentIndex, put = __set_m_CurrentIndex)) int32_t m_CurrentIndex;
+  __declspec(property(get = __cordl_internal_get_m_CurrentIndex, put = __cordl_internal_set_m_CurrentIndex)) int32_t m_CurrentIndex;
 
   __declspec(property(get = get_Current))::System::Object* Current;
 
@@ -79,17 +79,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::UnityEngine::Animation*& __get_m_Outer();
+  constexpr ::UnityW<::UnityEngine::Animation>& __cordl_internal_get_m_Outer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animation*> const& __get_m_Outer() const;
+  constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get_m_Outer() const;
 
-  constexpr void __set_m_Outer(::UnityEngine::Animation* value);
+  constexpr void __cordl_internal_set_m_Outer(::UnityW<::UnityEngine::Animation> value);
 
-  constexpr int32_t& __get_m_CurrentIndex();
+  constexpr int32_t& __cordl_internal_get_m_CurrentIndex();
 
-  constexpr int32_t const& __get_m_CurrentIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_CurrentIndex() const;
 
-  constexpr void __set_m_CurrentIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_CurrentIndex(int32_t value);
 
   static inline ::UnityEngine::__Animation__Enumerator* New_ctor(::UnityEngine::Animation* outer);
 
@@ -120,7 +120,7 @@ protected:
 
 public:
   /// @brief Field m_Outer, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Animation* ___m_Outer;
+  ::UnityW<::UnityEngine::Animation> ___m_Outer;
 
   /// @brief Field m_CurrentIndex, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_CurrentIndex;
@@ -139,7 +139,7 @@ static_assert(offsetof(::UnityEngine::__Animation__Enumerator, ___m_CurrentIndex
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10187))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10187))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14865))
 // CS Name: ::UnityEngine::Animation*
 class CORDL_TYPE Animation : public ::UnityEngine::Behaviour {
@@ -147,7 +147,7 @@ public:
   // Declarations
   using Enumerator = ::UnityEngine::__Animation__Enumerator;
 
-  __declspec(property(get = get_clip, put = set_clip))::UnityEngine::AnimationClip* clip;
+  __declspec(property(get = get_clip, put = set_clip))::UnityW<::UnityEngine::AnimationClip> clip;
 
   __declspec(property(get = get_playAutomatically, put = set_playAutomatically)) bool playAutomatically;
 
@@ -172,7 +172,7 @@ public:
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
   /// @brief Method get_clip, addr 0x2c8f1d0, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::AnimationClip* get_clip();
+  inline ::UnityW<::UnityEngine::AnimationClip> get_clip();
 
   /// @brief Method set_clip, addr 0x2c8f20c, size 0x44, virtual false, abstract: false, final false
   inline void set_clip(::UnityEngine::AnimationClip* value);
@@ -316,7 +316,7 @@ public:
   inline int32_t GetStateCount();
 
   /// @brief Method GetClip, addr 0x2c9005c, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::AnimationClip* GetClip(::StringW name);
+  inline ::UnityW<::UnityEngine::AnimationClip> GetClip(::StringW name);
 
   /// @brief Method get_animatePhysics, addr 0x2c9012c, size 0x3c, virtual false, abstract: false, final false
   inline bool get_animatePhysics();

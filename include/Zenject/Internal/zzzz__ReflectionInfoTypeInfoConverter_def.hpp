@@ -130,20 +130,20 @@ MARK_REF_PTR_T(::Zenject::Internal::__ReflectionInfoTypeInfoConverter____c__Disp
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11371))
 // CS Name: ::ReflectionInfoTypeInfoConverter::<>c__DisplayClass0_0*
 class CORDL_TYPE __ReflectionInfoTypeInfoConverter____c__DisplayClass0_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field methodInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_methodInfo, put = __set_methodInfo))::System::Reflection::MethodInfo* methodInfo;
+  __declspec(property(get = __cordl_internal_get_methodInfo, put = __cordl_internal_set_methodInfo))::System::Reflection::MethodInfo* methodInfo;
 
-  constexpr ::System::Reflection::MethodInfo*& __get_methodInfo();
+  constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_methodInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __get_methodInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_methodInfo() const;
 
-  constexpr void __set_methodInfo(::System::Reflection::MethodInfo* value);
+  constexpr void __cordl_internal_set_methodInfo(::System::Reflection::MethodInfo* value);
 
   static inline ::Zenject::Internal::__ReflectionInfoTypeInfoConverter____c__DisplayClass0_0* New_ctor();
 
@@ -188,7 +188,7 @@ static_assert(offsetof(::Zenject::Internal::__ReflectionInfoTypeInfoConverter___
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11372))
 // CS Name: ::ReflectionInfoTypeInfoConverter::<>c*
 class CORDL_TYPE __ReflectionInfoTypeInfoConverter____c : public ::System::Object {
@@ -268,20 +268,20 @@ static_assert(::cordl_internals::size_check_v<::Zenject::Internal::__ReflectionI
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11373))
 // CS Name: ::ReflectionInfoTypeInfoConverter::<>c__DisplayClass4_0*
 class CORDL_TYPE __ReflectionInfoTypeInfoConverter____c__DisplayClass4_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
-  constexpr ::System::Type*& __get_type();
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Type* value);
+  constexpr void __cordl_internal_set_type(::System::Type* value);
 
   static inline ::Zenject::Internal::__ReflectionInfoTypeInfoConverter____c__DisplayClass4_0* New_ctor();
 
@@ -326,29 +326,29 @@ static_assert(offsetof(::Zenject::Internal::__ReflectionInfoTypeInfoConverter___
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11374))
 // CS Name: ::ReflectionInfoTypeInfoConverter::<>c__DisplayClass8_0*
 class CORDL_TYPE __ReflectionInfoTypeInfoConverter____c__DisplayClass8_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field propertyName, offset 0x10, size 0x8
-  __declspec(property(get = __get_propertyName, put = __set_propertyName))::StringW propertyName;
+  __declspec(property(get = __cordl_internal_get_propertyName, put = __cordl_internal_set_propertyName))::StringW propertyName;
 
   /// @brief Field writeableFields, offset 0x18, size 0x8
-  __declspec(property(get = __get_writeableFields, put = __set_writeableFields))::System::Collections::Generic::List_1<::System::Reflection::FieldInfo*>* writeableFields;
+  __declspec(property(get = __cordl_internal_get_writeableFields, put = __cordl_internal_set_writeableFields))::System::Collections::Generic::List_1<::System::Reflection::FieldInfo*>* writeableFields;
 
-  constexpr ::StringW& __get_propertyName();
+  constexpr ::StringW& __cordl_internal_get_propertyName();
 
-  constexpr ::StringW const& __get_propertyName() const;
+  constexpr ::StringW const& __cordl_internal_get_propertyName() const;
 
-  constexpr void __set_propertyName(::StringW value);
+  constexpr void __cordl_internal_set_propertyName(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Reflection::FieldInfo*>*& __get_writeableFields();
+  constexpr ::System::Collections::Generic::List_1<::System::Reflection::FieldInfo*>*& __cordl_internal_get_writeableFields();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Reflection::FieldInfo*>*> const& __get_writeableFields() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Reflection::FieldInfo*>*> const& __cordl_internal_get_writeableFields() const;
 
-  constexpr void __set_writeableFields(::System::Collections::Generic::List_1<::System::Reflection::FieldInfo*>* value);
+  constexpr void __cordl_internal_set_writeableFields(::System::Collections::Generic::List_1<::System::Reflection::FieldInfo*>* value);
 
   static inline ::Zenject::Internal::__ReflectionInfoTypeInfoConverter____c__DisplayClass8_0* New_ctor();
 
@@ -401,29 +401,29 @@ static_assert(offsetof(::Zenject::Internal::__ReflectionInfoTypeInfoConverter___
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11375))
 // CS Name: ::ReflectionInfoTypeInfoConverter::<>c__DisplayClass8_1*
 class CORDL_TYPE __ReflectionInfoTypeInfoConverter____c__DisplayClass8_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field injectable, offset 0x10, size 0x8
-  __declspec(property(get = __get_injectable, put = __set_injectable))::System::Object* injectable;
+  __declspec(property(get = __cordl_internal_get_injectable, put = __cordl_internal_set_injectable))::System::Object* injectable;
 
   /// @brief Field value, offset 0x18, size 0x8
-  __declspec(property(get = __get_value, put = __set_value))::System::Object* value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::System::Object* value;
 
-  constexpr ::System::Object*& __get_injectable();
+  constexpr ::System::Object*& __cordl_internal_get_injectable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_injectable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_injectable() const;
 
-  constexpr void __set_injectable(::System::Object* value);
+  constexpr void __cordl_internal_set_injectable(::System::Object* value);
 
-  constexpr ::System::Object*& __get_value();
+  constexpr ::System::Object*& __cordl_internal_get_value();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_value() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(::System::Object* value);
+  constexpr void __cordl_internal_set_value(::System::Object* value);
 
   static inline ::Zenject::Internal::__ReflectionInfoTypeInfoConverter____c__DisplayClass8_1* New_ctor();
 
@@ -473,29 +473,29 @@ static_assert(offsetof(::Zenject::Internal::__ReflectionInfoTypeInfoConverter___
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11376))
 // CS Name: ::ReflectionInfoTypeInfoConverter::<>c__DisplayClass9_0*
 class CORDL_TYPE __ReflectionInfoTypeInfoConverter____c__DisplayClass9_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field fieldInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_fieldInfo, put = __set_fieldInfo))::System::Reflection::FieldInfo* fieldInfo;
+  __declspec(property(get = __cordl_internal_get_fieldInfo, put = __cordl_internal_set_fieldInfo))::System::Reflection::FieldInfo* fieldInfo;
 
   /// @brief Field propInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get_propInfo, put = __set_propInfo))::System::Reflection::PropertyInfo* propInfo;
+  __declspec(property(get = __cordl_internal_get_propInfo, put = __cordl_internal_set_propInfo))::System::Reflection::PropertyInfo* propInfo;
 
-  constexpr ::System::Reflection::FieldInfo*& __get_fieldInfo();
+  constexpr ::System::Reflection::FieldInfo*& __cordl_internal_get_fieldInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const& __get_fieldInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::FieldInfo*> const& __cordl_internal_get_fieldInfo() const;
 
-  constexpr void __set_fieldInfo(::System::Reflection::FieldInfo* value);
+  constexpr void __cordl_internal_set_fieldInfo(::System::Reflection::FieldInfo* value);
 
-  constexpr ::System::Reflection::PropertyInfo*& __get_propInfo();
+  constexpr ::System::Reflection::PropertyInfo*& __cordl_internal_get_propInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const& __get_propInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const& __cordl_internal_get_propInfo() const;
 
-  constexpr void __set_propInfo(::System::Reflection::PropertyInfo* value);
+  constexpr void __cordl_internal_set_propInfo(::System::Reflection::PropertyInfo* value);
 
   static inline ::Zenject::Internal::__ReflectionInfoTypeInfoConverter____c__DisplayClass9_0* New_ctor();
 
@@ -548,7 +548,7 @@ static_assert(offsetof(::Zenject::Internal::__ReflectionInfoTypeInfoConverter___
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11377))
 // CS Name: ::Zenject.Internal::ReflectionInfoTypeInfoConverter*
 class CORDL_TYPE ReflectionInfoTypeInfoConverter : public ::System::Object {

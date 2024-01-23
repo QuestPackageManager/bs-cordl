@@ -21,29 +21,30 @@ MARK_REF_PTR_T(::GlobalNamespace::EnableOnVisible);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14364))
 // CS Name: ::EnableOnVisible*
 class CORDL_TYPE EnableOnVisible : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field VisibilityChangedEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_VisibilityChangedEvent, put = __set_VisibilityChangedEvent))::System::Action_1<bool>* VisibilityChangedEvent;
+  __declspec(property(get = __cordl_internal_get_VisibilityChangedEvent, put = __cordl_internal_set_VisibilityChangedEvent))::System::Action_1<bool>* VisibilityChangedEvent;
 
   /// @brief Field _components, offset 0x20, size 0x8
-  __declspec(property(get = __get__components, put = __set__components))::ArrayW<::UnityEngine::Behaviour*, ::Array<::UnityEngine::Behaviour*>*> _components;
+  __declspec(property(get = __cordl_internal_get__components,
+                      put = __cordl_internal_set__components))::ArrayW<::UnityW<::UnityEngine::Behaviour>, ::Array<::UnityW<::UnityEngine::Behaviour>>*> _components;
 
-  constexpr ::System::Action_1<bool>*& __get_VisibilityChangedEvent();
+  constexpr ::System::Action_1<bool>*& __cordl_internal_get_VisibilityChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __get_VisibilityChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_VisibilityChangedEvent() const;
 
-  constexpr void __set_VisibilityChangedEvent(::System::Action_1<bool>* value);
+  constexpr void __cordl_internal_set_VisibilityChangedEvent(::System::Action_1<bool>* value);
 
-  constexpr ::ArrayW<::UnityEngine::Behaviour*, ::Array<::UnityEngine::Behaviour*>*>& __get__components();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Behaviour>, ::Array<::UnityW<::UnityEngine::Behaviour>>*>& __cordl_internal_get__components();
 
-  constexpr ::ArrayW<::UnityEngine::Behaviour*, ::Array<::UnityEngine::Behaviour*>*> const& __get__components() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Behaviour>, ::Array<::UnityW<::UnityEngine::Behaviour>>*> const& __cordl_internal_get__components() const;
 
-  constexpr void __set__components(::ArrayW<::UnityEngine::Behaviour*, ::Array<::UnityEngine::Behaviour*>*> value);
+  constexpr void __cordl_internal_set__components(::ArrayW<::UnityW<::UnityEngine::Behaviour>, ::Array<::UnityW<::UnityEngine::Behaviour>>*> value);
 
   /// @brief Method add_VisibilityChangedEvent, addr 0x20f22a8, size 0xb0, virtual false, abstract: false, final false
   inline void add_VisibilityChangedEvent(::System::Action_1<bool>* value);
@@ -83,7 +84,7 @@ public:
   ::System::Action_1<bool>* ___VisibilityChangedEvent;
 
   /// @brief Field _components, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Behaviour*, ::Array<::UnityEngine::Behaviour*>*> ____components;
+  ::ArrayW<::UnityW<::UnityEngine::Behaviour>, ::Array<::UnityW<::UnityEngine::Behaviour>>*> ____components;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -15,29 +15,29 @@ MARK_REF_PTR_T(::UnityEngine::Profiling::Memory::Experimental::MetaData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Profiling::Memory::Experimental {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10298))
 // CS Name: ::UnityEngine.Profiling.Memory.Experimental::MetaData*
 class CORDL_TYPE MetaData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field content, offset 0x10, size 0x8
-  __declspec(property(get = __get_content, put = __set_content))::StringW content;
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::StringW content;
 
   /// @brief Field platform, offset 0x18, size 0x8
-  __declspec(property(get = __get_platform, put = __set_platform))::StringW platform;
+  __declspec(property(get = __cordl_internal_get_platform, put = __cordl_internal_set_platform))::StringW platform;
 
-  constexpr ::StringW& __get_content();
+  constexpr ::StringW& __cordl_internal_get_content();
 
-  constexpr ::StringW const& __get_content() const;
+  constexpr ::StringW const& __cordl_internal_get_content() const;
 
-  constexpr void __set_content(::StringW value);
+  constexpr void __cordl_internal_set_content(::StringW value);
 
-  constexpr ::StringW& __get_platform();
+  constexpr ::StringW& __cordl_internal_get_platform();
 
-  constexpr ::StringW const& __get_platform() const;
+  constexpr ::StringW const& __cordl_internal_get_platform() const;
 
-  constexpr void __set_platform(::StringW value);
+  constexpr void __cordl_internal_set_platform(::StringW value);
 
   static inline ::UnityEngine::Profiling::Memory::Experimental::MetaData* New_ctor();
 

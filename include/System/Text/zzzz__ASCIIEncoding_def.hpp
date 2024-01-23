@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::System::Text::ASCIIEncoding);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2874))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2874))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2826))
 // CS Name: ::System.Text::ASCIIEncoding*
 class CORDL_TYPE ASCIIEncoding : public ::System::Text::Encoding {

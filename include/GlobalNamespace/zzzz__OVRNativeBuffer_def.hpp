@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRNativeBuffer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7536))
 // CS Name: ::OVRNativeBuffer*
 class CORDL_TYPE OVRNativeBuffer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field disposed, offset 0x10, size 0x1
-  __declspec(property(get = __get_disposed, put = __set_disposed)) bool disposed;
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field m_numBytes, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_numBytes, put = __set_m_numBytes)) int32_t m_numBytes;
+  __declspec(property(get = __cordl_internal_get_m_numBytes, put = __cordl_internal_set_m_numBytes)) int32_t m_numBytes;
 
   /// @brief Field m_ptr, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_ptr, put = __set_m_ptr)) void* m_ptr;
+  __declspec(property(get = __cordl_internal_get_m_ptr, put = __cordl_internal_set_m_ptr)) void* m_ptr;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -40,23 +40,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr bool& __get_disposed();
+  constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr bool const& __get_disposed() const;
+  constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __set_disposed(bool value);
+  constexpr void __cordl_internal_set_disposed(bool value);
 
-  constexpr int32_t& __get_m_numBytes();
+  constexpr int32_t& __cordl_internal_get_m_numBytes();
 
-  constexpr int32_t const& __get_m_numBytes() const;
+  constexpr int32_t const& __cordl_internal_get_m_numBytes() const;
 
-  constexpr void __set_m_numBytes(int32_t value);
+  constexpr void __cordl_internal_set_m_numBytes(int32_t value);
 
-  constexpr void*& __get_m_ptr();
+  constexpr void*& __cordl_internal_get_m_ptr();
 
-  constexpr void* const& __get_m_ptr() const;
+  constexpr void* const& __cordl_internal_get_m_ptr() const;
 
-  constexpr void __set_m_ptr(void* value);
+  constexpr void __cordl_internal_set_m_ptr(void* value);
 
   static inline ::GlobalNamespace::OVRNativeBuffer* New_ctor(int32_t numBytes);
 

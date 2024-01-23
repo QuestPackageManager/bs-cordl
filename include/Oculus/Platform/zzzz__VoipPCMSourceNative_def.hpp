@@ -20,14 +20,14 @@ MARK_REF_PTR_T(::Oculus::Platform::VoipPCMSourceNative);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13402))
 // CS Name: ::Oculus.Platform::VoipPCMSourceNative*
 class CORDL_TYPE VoipPCMSourceNative : public ::System::Object {
 public:
   // Declarations
   /// @brief Field senderID, offset 0x10, size 0x8
-  __declspec(property(get = __get_senderID, put = __set_senderID)) uint64_t senderID;
+  __declspec(property(get = __cordl_internal_get_senderID, put = __cordl_internal_set_senderID)) uint64_t senderID;
 
   /// @brief Convert operator to "::Oculus::Platform::IVoipPCMSource"
   constexpr operator ::Oculus::Platform::IVoipPCMSource*() noexcept;
@@ -35,11 +35,11 @@ public:
   /// @brief Convert to "::Oculus::Platform::IVoipPCMSource"
   constexpr ::Oculus::Platform::IVoipPCMSource* i___Oculus__Platform__IVoipPCMSource() noexcept;
 
-  constexpr uint64_t& __get_senderID();
+  constexpr uint64_t& __cordl_internal_get_senderID();
 
-  constexpr uint64_t const& __get_senderID() const;
+  constexpr uint64_t const& __cordl_internal_get_senderID() const;
 
-  constexpr void __set_senderID(uint64_t value);
+  constexpr void __cordl_internal_set_senderID(uint64_t value);
 
   /// @brief Method GetPCM, addr 0x27022e0, size 0xb0, virtual true, abstract: false, final true
   inline int32_t GetPCM(::ArrayW<float_t, ::Array<float_t>*> dest, int32_t length);

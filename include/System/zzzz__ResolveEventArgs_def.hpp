@@ -18,29 +18,30 @@ MARK_REF_PTR_T(::System::ResolveEventArgs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2465))
 // CS Name: ::System::ResolveEventArgs*
 class CORDL_TYPE ResolveEventArgs : public ::System::EventArgs {
 public:
   // Declarations
   /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Name_k__BackingField, put = __set__Name_k__BackingField))::StringW _Name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
 
   /// @brief Field <RequestingAssembly>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__RequestingAssembly_k__BackingField, put = __set__RequestingAssembly_k__BackingField))::System::Reflection::Assembly* _RequestingAssembly_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__RequestingAssembly_k__BackingField,
+                      put = __cordl_internal_set__RequestingAssembly_k__BackingField))::System::Reflection::Assembly* _RequestingAssembly_k__BackingField;
 
-  constexpr ::StringW& __get__Name_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
-  constexpr ::StringW const& __get__Name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-  constexpr void __set__Name_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  constexpr ::System::Reflection::Assembly*& __get__RequestingAssembly_k__BackingField();
+  constexpr ::System::Reflection::Assembly*& __cordl_internal_get__RequestingAssembly_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __get__RequestingAssembly_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __cordl_internal_get__RequestingAssembly_k__BackingField() const;
 
-  constexpr void __set__RequestingAssembly_k__BackingField(::System::Reflection::Assembly* value);
+  constexpr void __cordl_internal_set__RequestingAssembly_k__BackingField(::System::Reflection::Assembly* value);
 
   static inline ::System::ResolveEventArgs* New_ctor(::StringW name);
 

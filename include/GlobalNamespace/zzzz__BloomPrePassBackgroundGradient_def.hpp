@@ -24,20 +24,20 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundGradient);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14468))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14468))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14459))
 // CS Name: ::BloomPrePassBackgroundGradient*
 class CORDL_TYPE BloomPrePassBackgroundGradient : public ::GlobalNamespace::BloomPrePassBackgroundTextureGradient {
 public:
   // Declarations
   /// @brief Field _gradient, offset 0x40, size 0x8
-  __declspec(property(get = __get__gradient, put = __set__gradient))::UnityEngine::Gradient* _gradient;
+  __declspec(property(get = __cordl_internal_get__gradient, put = __cordl_internal_set__gradient))::UnityEngine::Gradient* _gradient;
 
-  constexpr ::UnityEngine::Gradient*& __get__gradient();
+  constexpr ::UnityEngine::Gradient*& __cordl_internal_get__gradient();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Gradient*> const& __get__gradient() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Gradient*> const& __cordl_internal_get__gradient() const;
 
-  constexpr void __set__gradient(::UnityEngine::Gradient* value);
+  constexpr void __cordl_internal_set__gradient(::UnityEngine::Gradient* value);
 
   /// @brief Method UpdatePixels, addr 0x2104650, size 0x318, virtual true, abstract: false, final false
   inline void UpdatePixels(::Unity::Collections::NativeArray_1<::UnityEngine::Color32> pixels, int32_t numberOfPixels);

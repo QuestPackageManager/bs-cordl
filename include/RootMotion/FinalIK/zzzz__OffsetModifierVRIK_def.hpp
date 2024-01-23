@@ -39,20 +39,20 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__OffsetModifierVRIK___Initiate_d__7);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12657))
 // CS Name: ::OffsetModifierVRIK::<Initiate>d__7*
 class CORDL_TYPE __OffsetModifierVRIK___Initiate_d__7 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::RootMotion::FinalIK::OffsetModifierVRIK* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::RootMotion::FinalIK::OffsetModifierVRIK> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -76,23 +76,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::RootMotion::FinalIK::OffsetModifierVRIK*& __get___4__this();
+  constexpr ::UnityW<::RootMotion::FinalIK::OffsetModifierVRIK>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::OffsetModifierVRIK*> const& __get___4__this() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::OffsetModifierVRIK> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::RootMotion::FinalIK::OffsetModifierVRIK* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::RootMotion::FinalIK::OffsetModifierVRIK> value);
 
   static inline ::RootMotion::FinalIK::__OffsetModifierVRIK___Initiate_d__7* New_ctor(int32_t __1__state);
 
@@ -135,7 +135,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::RootMotion::FinalIK::OffsetModifierVRIK* _____4__this;
+  ::UnityW<::RootMotion::FinalIK::OffsetModifierVRIK> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -153,7 +153,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__OffsetModifierVRIK___Initiate_d_
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12658))
 // CS Name: ::RootMotion.FinalIK::OffsetModifierVRIK*
 class CORDL_TYPE OffsetModifierVRIK : public ::UnityEngine::MonoBehaviour {
@@ -162,33 +162,33 @@ public:
   using _Initiate_d__7 = ::RootMotion::FinalIK::__OffsetModifierVRIK___Initiate_d__7;
 
   /// @brief Field weight, offset 0x18, size 0x4
-  __declspec(property(get = __get_weight, put = __set_weight)) float_t weight;
+  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
   /// @brief Field ik, offset 0x20, size 0x8
-  __declspec(property(get = __get_ik, put = __set_ik))::RootMotion::FinalIK::VRIK* ik;
+  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::VRIK> ik;
 
   /// @brief Field lastTime, offset 0x28, size 0x4
-  __declspec(property(get = __get_lastTime, put = __set_lastTime)) float_t lastTime;
+  __declspec(property(get = __cordl_internal_get_lastTime, put = __cordl_internal_set_lastTime)) float_t lastTime;
 
   __declspec(property(get = get_deltaTime)) float_t deltaTime;
 
-  constexpr float_t& __get_weight();
+  constexpr float_t& __cordl_internal_get_weight();
 
-  constexpr float_t const& __get_weight() const;
+  constexpr float_t const& __cordl_internal_get_weight() const;
 
-  constexpr void __set_weight(float_t value);
+  constexpr void __cordl_internal_set_weight(float_t value);
 
-  constexpr ::RootMotion::FinalIK::VRIK*& __get_ik();
+  constexpr ::UnityW<::RootMotion::FinalIK::VRIK>& __cordl_internal_get_ik();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::VRIK*> const& __get_ik() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::VRIK> const& __cordl_internal_get_ik() const;
 
-  constexpr void __set_ik(::RootMotion::FinalIK::VRIK* value);
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::VRIK> value);
 
-  constexpr float_t& __get_lastTime();
+  constexpr float_t& __cordl_internal_get_lastTime();
 
-  constexpr float_t const& __get_lastTime() const;
+  constexpr float_t const& __cordl_internal_get_lastTime() const;
 
-  constexpr void __set_lastTime(float_t value);
+  constexpr void __cordl_internal_set_lastTime(float_t value);
 
   /// @brief Method get_deltaTime, addr 0x129822c, size 0x20, virtual false, abstract: false, final false
   inline float_t get_deltaTime();
@@ -231,7 +231,7 @@ public:
   float_t ___weight;
 
   /// @brief Field ik, offset: 0x20, size: 0x8, def value: None
-  ::RootMotion::FinalIK::VRIK* ___ik;
+  ::UnityW<::RootMotion::FinalIK::VRIK> ___ik;
 
   /// @brief Field lastTime, offset: 0x28, size: 0x4, def value: None
   float_t ___lastTime;

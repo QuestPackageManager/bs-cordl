@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Globalization::CalendarId);
 // SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3667))
 // CS Name: ::System.Globalization::CalendarId
 struct CORDL_TYPE CalendarId {

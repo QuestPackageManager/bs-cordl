@@ -23,56 +23,58 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomLevelLoader);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4145))
 // CS Name: ::CustomLevelLoader*
 class CORDL_TYPE CustomLevelLoader : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _defaultEnvironmentInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get__defaultEnvironmentInfo, put = __set__defaultEnvironmentInfo))::GlobalNamespace::EnvironmentInfoSO* _defaultEnvironmentInfo;
+  __declspec(property(get = __cordl_internal_get__defaultEnvironmentInfo, put = __cordl_internal_set__defaultEnvironmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> _defaultEnvironmentInfo;
 
   /// @brief Field _defaultAllDirectionsEnvironmentInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get__defaultAllDirectionsEnvironmentInfo, put = __set__defaultAllDirectionsEnvironmentInfo))::GlobalNamespace::EnvironmentInfoSO* _defaultAllDirectionsEnvironmentInfo;
+  __declspec(property(get = __cordl_internal_get__defaultAllDirectionsEnvironmentInfo,
+                      put = __cordl_internal_set__defaultAllDirectionsEnvironmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> _defaultAllDirectionsEnvironmentInfo;
 
   /// @brief Field _environmentSceneInfoCollection, offset 0x28, size 0x8
-  __declspec(property(get = __get__environmentSceneInfoCollection, put = __set__environmentSceneInfoCollection))::GlobalNamespace::EnvironmentsListSO* _environmentSceneInfoCollection;
+  __declspec(property(get = __cordl_internal_get__environmentSceneInfoCollection,
+                      put = __cordl_internal_set__environmentSceneInfoCollection))::UnityW<::GlobalNamespace::EnvironmentsListSO> _environmentSceneInfoCollection;
 
   /// @brief Field _defaultPackCover, offset 0x30, size 0x8
-  __declspec(property(get = __get__defaultPackCover, put = __set__defaultPackCover))::UnityEngine::Sprite* _defaultPackCover;
+  __declspec(property(get = __cordl_internal_get__defaultPackCover, put = __cordl_internal_set__defaultPackCover))::UnityW<::UnityEngine::Sprite> _defaultPackCover;
 
   /// @brief Field _smallDefaultPackCover, offset 0x38, size 0x8
-  __declspec(property(get = __get__smallDefaultPackCover, put = __set__smallDefaultPackCover))::UnityEngine::Sprite* _smallDefaultPackCover;
+  __declspec(property(get = __cordl_internal_get__smallDefaultPackCover, put = __cordl_internal_set__smallDefaultPackCover))::UnityW<::UnityEngine::Sprite> _smallDefaultPackCover;
 
-  constexpr ::GlobalNamespace::EnvironmentInfoSO*& __get__defaultEnvironmentInfo();
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO>& __cordl_internal_get__defaultEnvironmentInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentInfoSO*> const& __get__defaultEnvironmentInfo() const;
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO> const& __cordl_internal_get__defaultEnvironmentInfo() const;
 
-  constexpr void __set__defaultEnvironmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
+  constexpr void __cordl_internal_set__defaultEnvironmentInfo(::UnityW<::GlobalNamespace::EnvironmentInfoSO> value);
 
-  constexpr ::GlobalNamespace::EnvironmentInfoSO*& __get__defaultAllDirectionsEnvironmentInfo();
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO>& __cordl_internal_get__defaultAllDirectionsEnvironmentInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentInfoSO*> const& __get__defaultAllDirectionsEnvironmentInfo() const;
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO> const& __cordl_internal_get__defaultAllDirectionsEnvironmentInfo() const;
 
-  constexpr void __set__defaultAllDirectionsEnvironmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
+  constexpr void __cordl_internal_set__defaultAllDirectionsEnvironmentInfo(::UnityW<::GlobalNamespace::EnvironmentInfoSO> value);
 
-  constexpr ::GlobalNamespace::EnvironmentsListSO*& __get__environmentSceneInfoCollection();
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentsListSO>& __cordl_internal_get__environmentSceneInfoCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentsListSO*> const& __get__environmentSceneInfoCollection() const;
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentsListSO> const& __cordl_internal_get__environmentSceneInfoCollection() const;
 
-  constexpr void __set__environmentSceneInfoCollection(::GlobalNamespace::EnvironmentsListSO* value);
+  constexpr void __cordl_internal_set__environmentSceneInfoCollection(::UnityW<::GlobalNamespace::EnvironmentsListSO> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__defaultPackCover();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__defaultPackCover();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__defaultPackCover() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__defaultPackCover() const;
 
-  constexpr void __set__defaultPackCover(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__defaultPackCover(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__smallDefaultPackCover();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__smallDefaultPackCover();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__smallDefaultPackCover() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__smallDefaultPackCover() const;
 
-  constexpr void __set__smallDefaultPackCover(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__smallDefaultPackCover(::UnityW<::UnityEngine::Sprite> value);
 
   static inline ::GlobalNamespace::CustomLevelLoader* New_ctor();
 
@@ -94,19 +96,19 @@ protected:
 
 public:
   /// @brief Field _defaultEnvironmentInfo, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::EnvironmentInfoSO* ____defaultEnvironmentInfo;
+  ::UnityW<::GlobalNamespace::EnvironmentInfoSO> ____defaultEnvironmentInfo;
 
   /// @brief Field _defaultAllDirectionsEnvironmentInfo, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::EnvironmentInfoSO* ____defaultAllDirectionsEnvironmentInfo;
+  ::UnityW<::GlobalNamespace::EnvironmentInfoSO> ____defaultAllDirectionsEnvironmentInfo;
 
   /// @brief Field _environmentSceneInfoCollection, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::EnvironmentsListSO* ____environmentSceneInfoCollection;
+  ::UnityW<::GlobalNamespace::EnvironmentsListSO> ____environmentSceneInfoCollection;
 
   /// @brief Field _defaultPackCover, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____defaultPackCover;
+  ::UnityW<::UnityEngine::Sprite> ____defaultPackCover;
 
   /// @brief Field _smallDefaultPackCover, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____smallDefaultPackCover;
+  ::UnityW<::UnityEngine::Sprite> ____smallDefaultPackCover;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

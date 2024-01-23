@@ -44,8 +44,8 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ParmInfo);
 // SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9694)), TypeDefinitionIndex(TypeDefinitionIndex(9701)), TypeDefinitionIndex(TypeDefinitionIndex(9700)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9697)), TypeDefinitionIndex(TypeDefinitionIndex(9698)), TypeDefinitionIndex(TypeDefinitionIndex(9696)), TypeDefinitionIndex(TypeDefinitionIndex(9695))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9694)), TypeDefinitionIndex(TypeDefinitionIndex(9695)), TypeDefinitionIndex(TypeDefinitionIndex(9696)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9697)), TypeDefinitionIndex(TypeDefinitionIndex(9698)), TypeDefinitionIndex(TypeDefinitionIndex(9700)), TypeDefinitionIndex(TypeDefinitionIndex(9701))] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(9734)) CS Name: ::HoudiniEngineUnity::HAPI_ParmInfo
 struct CORDL_TYPE HAPI_ParmInfo {
 public:

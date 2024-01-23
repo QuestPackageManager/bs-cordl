@@ -12,9 +12,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x2111ec8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParticleSystemLightWithId*>::get(),
-                                                                               "get_color", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_color", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -25,9 +25,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x2111f24;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParticleSystemLightWithId*>::get(), "Awake",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x464;
   constexpr static std::size_t addrs = 0x2111f9c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParticleSystemLightWithId*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParticleSystemLightWithId*>::get(), 9));
@@ -53,104 +53,106 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x2112400;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParticleSystemLightWithId*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::ParticleSystem*& GlobalNamespace::ParticleSystemLightWithId::__get__particleSystem() {
+constexpr ::UnityW<::UnityEngine::ParticleSystem>& GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_get__particleSystem() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystem;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& GlobalNamespace::ParticleSystemLightWithId::__get__particleSystem() const {
+constexpr ::UnityW<::UnityEngine::ParticleSystem> const& GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_get__particleSystem() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particleSystem;
 }
-constexpr void GlobalNamespace::ParticleSystemLightWithId::__set__particleSystem(::UnityEngine::ParticleSystem* value) {
+constexpr void GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____particleSystem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::ParticleSystemLightWithId::__get_setOnlyOnce() {
+constexpr bool& GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_get_setOnlyOnce() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___setOnlyOnce;
 }
-constexpr bool const& GlobalNamespace::ParticleSystemLightWithId::__get_setOnlyOnce() const {
+constexpr bool const& GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_get_setOnlyOnce() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___setOnlyOnce;
 }
-constexpr void GlobalNamespace::ParticleSystemLightWithId::__set_setOnlyOnce(bool value) {
+constexpr void GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_set_setOnlyOnce(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___setOnlyOnce = value;
 }
-constexpr bool& GlobalNamespace::ParticleSystemLightWithId::__get__setColorOnly() {
+constexpr bool& GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_get__setColorOnly() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setColorOnly;
 }
-constexpr bool const& GlobalNamespace::ParticleSystemLightWithId::__get__setColorOnly() const {
+constexpr bool const& GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_get__setColorOnly() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setColorOnly;
 }
-constexpr void GlobalNamespace::ParticleSystemLightWithId::__set__setColorOnly(bool value) {
+constexpr void GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_set__setColorOnly(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____setColorOnly = value;
 }
-constexpr float_t& GlobalNamespace::ParticleSystemLightWithId::__get__intensity() {
+constexpr float_t& GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_get__intensity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
-constexpr float_t const& GlobalNamespace::ParticleSystemLightWithId::__get__intensity() const {
+constexpr float_t const& GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_get__intensity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
-constexpr void GlobalNamespace::ParticleSystemLightWithId::__set__intensity(float_t value) {
+constexpr void GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_set__intensity(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____intensity = value;
 }
-constexpr float_t& GlobalNamespace::ParticleSystemLightWithId::__get__minAlpha() {
+constexpr float_t& GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_get__minAlpha() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minAlpha;
 }
-constexpr float_t const& GlobalNamespace::ParticleSystemLightWithId::__get__minAlpha() const {
+constexpr float_t const& GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_get__minAlpha() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minAlpha;
 }
-constexpr void GlobalNamespace::ParticleSystemLightWithId::__set__minAlpha(float_t value) {
+constexpr void GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_set__minAlpha(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minAlpha = value;
 }
-constexpr ::UnityEngine::__ParticleSystem__MainModule& GlobalNamespace::ParticleSystemLightWithId::__get__mainModule() {
+constexpr ::UnityEngine::__ParticleSystem__MainModule& GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_get__mainModule() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainModule;
 }
-constexpr ::UnityEngine::__ParticleSystem__MainModule const& GlobalNamespace::ParticleSystemLightWithId::__get__mainModule() const {
+constexpr ::UnityEngine::__ParticleSystem__MainModule const& GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_get__mainModule() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainModule;
 }
-constexpr void GlobalNamespace::ParticleSystemLightWithId::__set__mainModule(::UnityEngine::__ParticleSystem__MainModule value) {
+constexpr void GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_set__mainModule(::UnityEngine::__ParticleSystem__MainModule value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mainModule = value;
 }
-constexpr ::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>& GlobalNamespace::ParticleSystemLightWithId::__get__particles() {
+constexpr ::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*>& GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_get__particles() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particles;
 }
-constexpr ::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*> const& GlobalNamespace::ParticleSystemLightWithId::__get__particles() const {
+constexpr ::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*> const&
+GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_get__particles() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____particles;
 }
-constexpr void GlobalNamespace::ParticleSystemLightWithId::__set__particles(::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*> value) {
+constexpr void
+GlobalNamespace::ParticleSystemLightWithId::__cordl_internal_set__particles(::ArrayW<::UnityEngine::__ParticleSystem__Particle, ::Array<::UnityEngine::__ParticleSystem__Particle>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____particles)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Color GlobalNamespace::ParticleSystemLightWithId::get_color() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParticleSystemLightWithId*>::get(), "get_color",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::ParticleSystemLightWithId::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParticleSystemLightWithId*>::get(), "Awake",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::ParticleSystemLightWithId::ColorWasSet(::UnityEngine::Color color) {
@@ -159,11 +161,11 @@ inline void GlobalNamespace::ParticleSystemLightWithId::ColorWasSet(::UnityEngin
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, color);
 }
 inline ::GlobalNamespace::ParticleSystemLightWithId* GlobalNamespace::ParticleSystemLightWithId::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::ParticleSystemLightWithId*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ParticleSystemLightWithId*>());
 }
 inline void GlobalNamespace::ParticleSystemLightWithId::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParticleSystemLightWithId*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

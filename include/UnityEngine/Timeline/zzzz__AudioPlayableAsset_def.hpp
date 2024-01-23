@@ -67,23 +67,23 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::__AudioPlayableAsset___get_outputs_d__16
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10431))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10431))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13867))
 // CS Name: ::AudioPlayableAsset::<get_outputs>d__16*
 class CORDL_TYPE __AudioPlayableAsset___get_outputs_d__16 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x20
-  __declspec(property(get = __get___2__current, put = __set___2__current))::UnityEngine::Playables::PlayableBinding __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityEngine::Playables::PlayableBinding __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x38, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x40, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::Timeline::AudioPlayableAsset* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::UnityEngine::Timeline::AudioPlayableAsset> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current))::UnityEngine::Playables::PlayableBinding
       System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__Current;
@@ -122,29 +122,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::UnityEngine::Playables::PlayableBinding& __get___2__current();
+  constexpr ::UnityEngine::Playables::PlayableBinding& __cordl_internal_get___2__current();
 
-  constexpr ::UnityEngine::Playables::PlayableBinding const& __get___2__current() const;
+  constexpr ::UnityEngine::Playables::PlayableBinding const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::UnityEngine::Playables::PlayableBinding value);
+  constexpr void __cordl_internal_set___2__current(::UnityEngine::Playables::PlayableBinding value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::UnityEngine::Timeline::AudioPlayableAsset*& __get___4__this();
+  constexpr ::UnityW<::UnityEngine::Timeline::AudioPlayableAsset>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::AudioPlayableAsset*> const& __get___4__this() const;
+  constexpr ::UnityW<::UnityEngine::Timeline::AudioPlayableAsset> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::Timeline::AudioPlayableAsset* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::UnityEngine::Timeline::AudioPlayableAsset> value);
 
   static inline ::UnityEngine::Timeline::__AudioPlayableAsset___get_outputs_d__16* New_ctor(int32_t __1__state);
 
@@ -196,7 +196,7 @@ public:
   int32_t _____l__initialThreadId;
 
   /// @brief Field <>4__this, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Timeline::AudioPlayableAsset* _____4__this;
+  ::UnityW<::UnityEngine::Timeline::AudioPlayableAsset> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -216,7 +216,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__AudioPlayableAsset___get_outpu
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10422))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10422))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13868))
 // CS Name: ::UnityEngine.Timeline::AudioPlayableAsset*
 class CORDL_TYPE AudioPlayableAsset : public ::UnityEngine::Playables::PlayableAsset {
@@ -225,20 +225,20 @@ public:
   using _get_outputs_d__16 = ::UnityEngine::Timeline::__AudioPlayableAsset___get_outputs_d__16;
 
   /// @brief Field m_Clip, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Clip, put = __set_m_Clip))::UnityEngine::AudioClip* m_Clip;
+  __declspec(property(get = __cordl_internal_get_m_Clip, put = __cordl_internal_set_m_Clip))::UnityW<::UnityEngine::AudioClip> m_Clip;
 
   /// @brief Field m_Loop, offset 0x20, size 0x1
-  __declspec(property(get = __get_m_Loop, put = __set_m_Loop)) bool m_Loop;
+  __declspec(property(get = __cordl_internal_get_m_Loop, put = __cordl_internal_set_m_Loop)) bool m_Loop;
 
   /// @brief Field m_bufferingTime, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_bufferingTime, put = __set_m_bufferingTime)) float_t m_bufferingTime;
+  __declspec(property(get = __cordl_internal_get_m_bufferingTime, put = __cordl_internal_set_m_bufferingTime)) float_t m_bufferingTime;
 
   /// @brief Field m_ClipProperties, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_ClipProperties, put = __set_m_ClipProperties))::UnityEngine::Timeline::AudioClipProperties* m_ClipProperties;
+  __declspec(property(get = __cordl_internal_get_m_ClipProperties, put = __cordl_internal_set_m_ClipProperties))::UnityEngine::Timeline::AudioClipProperties* m_ClipProperties;
 
   __declspec(property(get = get_bufferingTime, put = set_bufferingTime)) float_t bufferingTime;
 
-  __declspec(property(get = get_clip, put = set_clip))::UnityEngine::AudioClip* clip;
+  __declspec(property(get = get_clip, put = set_clip))::UnityW<::UnityEngine::AudioClip> clip;
 
   __declspec(property(get = get_loop, put = set_loop)) bool loop;
 
@@ -254,29 +254,29 @@ public:
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
 
-  constexpr ::UnityEngine::AudioClip*& __get_m_Clip();
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get_m_Clip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& __get_m_Clip() const;
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get_m_Clip() const;
 
-  constexpr void __set_m_Clip(::UnityEngine::AudioClip* value);
+  constexpr void __cordl_internal_set_m_Clip(::UnityW<::UnityEngine::AudioClip> value);
 
-  constexpr bool& __get_m_Loop();
+  constexpr bool& __cordl_internal_get_m_Loop();
 
-  constexpr bool const& __get_m_Loop() const;
+  constexpr bool const& __cordl_internal_get_m_Loop() const;
 
-  constexpr void __set_m_Loop(bool value);
+  constexpr void __cordl_internal_set_m_Loop(bool value);
 
-  constexpr float_t& __get_m_bufferingTime();
+  constexpr float_t& __cordl_internal_get_m_bufferingTime();
 
-  constexpr float_t const& __get_m_bufferingTime() const;
+  constexpr float_t const& __cordl_internal_get_m_bufferingTime() const;
 
-  constexpr void __set_m_bufferingTime(float_t value);
+  constexpr void __cordl_internal_set_m_bufferingTime(float_t value);
 
-  constexpr ::UnityEngine::Timeline::AudioClipProperties*& __get_m_ClipProperties();
+  constexpr ::UnityEngine::Timeline::AudioClipProperties*& __cordl_internal_get_m_ClipProperties();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::AudioClipProperties*> const& __get_m_ClipProperties() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::AudioClipProperties*> const& __cordl_internal_get_m_ClipProperties() const;
 
-  constexpr void __set_m_ClipProperties(::UnityEngine::Timeline::AudioClipProperties* value);
+  constexpr void __cordl_internal_set_m_ClipProperties(::UnityEngine::Timeline::AudioClipProperties* value);
 
   /// @brief Method get_bufferingTime, addr 0x2c61d14, size 0x8, virtual false, abstract: false, final false
   inline float_t get_bufferingTime();
@@ -285,7 +285,7 @@ public:
   inline void set_bufferingTime(float_t value);
 
   /// @brief Method get_clip, addr 0x2c61d24, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::AudioClip* get_clip();
+  inline ::UnityW<::UnityEngine::AudioClip> get_clip();
 
   /// @brief Method set_clip, addr 0x2c61d2c, size 0x8, virtual false, abstract: false, final false
   inline void set_clip(::UnityEngine::AudioClip* value);
@@ -328,7 +328,7 @@ protected:
 
 public:
   /// @brief Field m_Clip, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::AudioClip* ___m_Clip;
+  ::UnityW<::UnityEngine::AudioClip> ___m_Clip;
 
   /// @brief Field m_Loop, offset: 0x20, size: 0x1, def value: None
   bool ___m_Loop;

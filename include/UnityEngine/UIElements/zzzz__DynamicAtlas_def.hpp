@@ -70,49 +70,49 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__DynamicAtlas__TextureInfo);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7399)), TypeDefinitionIndex(TypeDefinitionIndex(7413)), TypeDefinitionIndex(TypeDefinitionIndex(10162)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 3981 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6761)) CS Name: ::DynamicAtlas::TextureInfo*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7399)), TypeDefinitionIndex(TypeDefinitionIndex(7413)), TypeDefinitionIndex(TypeDefinitionIndex(10162)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7399), inst: 3981 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6761)) CS Name: ::DynamicAtlas::TextureInfo*
 class CORDL_TYPE __DynamicAtlas__TextureInfo : public ::UnityEngine::UIElements::UIR::LinkedPoolItem_1<::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*> {
 public:
   // Declarations
   /// @brief Field page, offset 0x18, size 0x8
-  __declspec(property(get = __get_page, put = __set_page))::UnityEngine::UIElements::DynamicAtlasPage* page;
+  __declspec(property(get = __cordl_internal_get_page, put = __cordl_internal_set_page))::UnityEngine::UIElements::DynamicAtlasPage* page;
 
   /// @brief Field counter, offset 0x20, size 0x4
-  __declspec(property(get = __get_counter, put = __set_counter)) int32_t counter;
+  __declspec(property(get = __cordl_internal_get_counter, put = __cordl_internal_set_counter)) int32_t counter;
 
   /// @brief Field alloc, offset 0x28, size 0x30
-  __declspec(property(get = __get_alloc, put = __set_alloc))::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D alloc;
+  __declspec(property(get = __cordl_internal_get_alloc, put = __cordl_internal_set_alloc))::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D alloc;
 
   /// @brief Field rect, offset 0x58, size 0x10
-  __declspec(property(get = __get_rect, put = __set_rect))::UnityEngine::RectInt rect;
+  __declspec(property(get = __cordl_internal_get_rect, put = __cordl_internal_set_rect))::UnityEngine::RectInt rect;
 
   /// @brief Field pool, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_pool, put = setStaticF_pool))::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*>* pool;
 
-  constexpr ::UnityEngine::UIElements::DynamicAtlasPage*& __get_page();
+  constexpr ::UnityEngine::UIElements::DynamicAtlasPage*& __cordl_internal_get_page();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DynamicAtlasPage*> const& __get_page() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DynamicAtlasPage*> const& __cordl_internal_get_page() const;
 
-  constexpr void __set_page(::UnityEngine::UIElements::DynamicAtlasPage* value);
+  constexpr void __cordl_internal_set_page(::UnityEngine::UIElements::DynamicAtlasPage* value);
 
-  constexpr int32_t& __get_counter();
+  constexpr int32_t& __cordl_internal_get_counter();
 
-  constexpr int32_t const& __get_counter() const;
+  constexpr int32_t const& __cordl_internal_get_counter() const;
 
-  constexpr void __set_counter(int32_t value);
+  constexpr void __cordl_internal_set_counter(int32_t value);
 
-  constexpr ::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D& __get_alloc();
+  constexpr ::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D& __cordl_internal_get_alloc();
 
-  constexpr ::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D const& __get_alloc() const;
+  constexpr ::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D const& __cordl_internal_get_alloc() const;
 
-  constexpr void __set_alloc(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D value);
+  constexpr void __cordl_internal_set_alloc(::UnityEngine::UIElements::UIR::__Allocator2D__Alloc2D value);
 
-  constexpr ::UnityEngine::RectInt& __get_rect();
+  constexpr ::UnityEngine::RectInt& __cordl_internal_get_rect();
 
-  constexpr ::UnityEngine::RectInt const& __get_rect() const;
+  constexpr ::UnityEngine::RectInt const& __cordl_internal_get_rect() const;
 
-  constexpr void __set_rect(::UnityEngine::RectInt value);
+  constexpr void __cordl_internal_set_rect(::UnityEngine::RectInt value);
 
   static inline void setStaticF_pool(::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*>* value);
 
@@ -173,7 +173,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__DynamicAtlas__TextureInfo, _
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10111)), TypeDefinitionIndex(TypeDefinitionIndex(6759)), TypeDefinitionIndex(TypeDefinitionIndex(6758))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6758)), TypeDefinitionIndex(TypeDefinitionIndex(6759)), TypeDefinitionIndex(TypeDefinitionIndex(10111))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6762))
 // CS Name: ::UnityEngine.UIElements::DynamicAtlas*
 class CORDL_TYPE DynamicAtlas : public ::UnityEngine::UIElements::AtlasBase {
@@ -182,35 +182,36 @@ public:
   using TextureInfo = ::UnityEngine::UIElements::__DynamicAtlas__TextureInfo;
 
   /// @brief Field m_Database, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Database,
-                      put = __set_m_Database))::System::Collections::Generic::Dictionary_2<::UnityEngine::Texture*, ::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*>* m_Database;
+  __declspec(property(
+      get = __cordl_internal_get_m_Database,
+      put = __cordl_internal_set_m_Database))::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Texture>, ::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*>* m_Database;
 
   /// @brief Field m_PointPage, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_PointPage, put = __set_m_PointPage))::UnityEngine::UIElements::DynamicAtlasPage* m_PointPage;
+  __declspec(property(get = __cordl_internal_get_m_PointPage, put = __cordl_internal_set_m_PointPage))::UnityEngine::UIElements::DynamicAtlasPage* m_PointPage;
 
   /// @brief Field m_BilinearPage, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_BilinearPage, put = __set_m_BilinearPage))::UnityEngine::UIElements::DynamicAtlasPage* m_BilinearPage;
+  __declspec(property(get = __cordl_internal_get_m_BilinearPage, put = __cordl_internal_set_m_BilinearPage))::UnityEngine::UIElements::DynamicAtlasPage* m_BilinearPage;
 
   /// @brief Field m_ColorSpace, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_ColorSpace, put = __set_m_ColorSpace))::UnityEngine::ColorSpace m_ColorSpace;
+  __declspec(property(get = __cordl_internal_get_m_ColorSpace, put = __cordl_internal_set_m_ColorSpace))::UnityEngine::ColorSpace m_ColorSpace;
 
   /// @brief Field m_Panels, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_Panels, put = __set_m_Panels))::System::Collections::Generic::List_1<::UnityEngine::UIElements::IPanel*>* m_Panels;
+  __declspec(property(get = __cordl_internal_get_m_Panels, put = __cordl_internal_set_m_Panels))::System::Collections::Generic::List_1<::UnityEngine::UIElements::IPanel*>* m_Panels;
 
   /// @brief Field m_MinAtlasSize, offset 0x40, size 0x4
-  __declspec(property(get = __get_m_MinAtlasSize, put = __set_m_MinAtlasSize)) int32_t m_MinAtlasSize;
+  __declspec(property(get = __cordl_internal_get_m_MinAtlasSize, put = __cordl_internal_set_m_MinAtlasSize)) int32_t m_MinAtlasSize;
 
   /// @brief Field m_MaxAtlasSize, offset 0x44, size 0x4
-  __declspec(property(get = __get_m_MaxAtlasSize, put = __set_m_MaxAtlasSize)) int32_t m_MaxAtlasSize;
+  __declspec(property(get = __cordl_internal_get_m_MaxAtlasSize, put = __cordl_internal_set_m_MaxAtlasSize)) int32_t m_MaxAtlasSize;
 
   /// @brief Field m_MaxSubTextureSize, offset 0x48, size 0x4
-  __declspec(property(get = __get_m_MaxSubTextureSize, put = __set_m_MaxSubTextureSize)) int32_t m_MaxSubTextureSize;
+  __declspec(property(get = __cordl_internal_get_m_MaxSubTextureSize, put = __cordl_internal_set_m_MaxSubTextureSize)) int32_t m_MaxSubTextureSize;
 
   /// @brief Field m_ActiveFilters, offset 0x4c, size 0x4
-  __declspec(property(get = __get_m_ActiveFilters, put = __set_m_ActiveFilters))::UnityEngine::UIElements::DynamicAtlasFilters m_ActiveFilters;
+  __declspec(property(get = __cordl_internal_get_m_ActiveFilters, put = __cordl_internal_set_m_ActiveFilters))::UnityEngine::UIElements::DynamicAtlasFilters m_ActiveFilters;
 
   /// @brief Field m_CustomFilter, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_CustomFilter, put = __set_m_CustomFilter))::UnityEngine::UIElements::DynamicAtlasCustomFilter* m_CustomFilter;
+  __declspec(property(get = __cordl_internal_get_m_CustomFilter, put = __cordl_internal_set_m_CustomFilter))::UnityEngine::UIElements::DynamicAtlasCustomFilter* m_CustomFilter;
 
   __declspec(property(get = get_isInitialized)) bool isInitialized;
 
@@ -224,66 +225,66 @@ public:
 
   __declspec(property(put = set_customFilter))::UnityEngine::UIElements::DynamicAtlasCustomFilter* customFilter;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::Texture*, ::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*>*& __get_m_Database();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Texture>, ::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*>*& __cordl_internal_get_m_Database();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::Texture*, ::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*>*> const&
-  __get_m_Database() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Texture>, ::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*>*> const&
+  __cordl_internal_get_m_Database() const;
 
-  constexpr void __set_m_Database(::System::Collections::Generic::Dictionary_2<::UnityEngine::Texture*, ::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*>* value);
+  constexpr void __cordl_internal_set_m_Database(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Texture>, ::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*>* value);
 
-  constexpr ::UnityEngine::UIElements::DynamicAtlasPage*& __get_m_PointPage();
+  constexpr ::UnityEngine::UIElements::DynamicAtlasPage*& __cordl_internal_get_m_PointPage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DynamicAtlasPage*> const& __get_m_PointPage() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DynamicAtlasPage*> const& __cordl_internal_get_m_PointPage() const;
 
-  constexpr void __set_m_PointPage(::UnityEngine::UIElements::DynamicAtlasPage* value);
+  constexpr void __cordl_internal_set_m_PointPage(::UnityEngine::UIElements::DynamicAtlasPage* value);
 
-  constexpr ::UnityEngine::UIElements::DynamicAtlasPage*& __get_m_BilinearPage();
+  constexpr ::UnityEngine::UIElements::DynamicAtlasPage*& __cordl_internal_get_m_BilinearPage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DynamicAtlasPage*> const& __get_m_BilinearPage() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DynamicAtlasPage*> const& __cordl_internal_get_m_BilinearPage() const;
 
-  constexpr void __set_m_BilinearPage(::UnityEngine::UIElements::DynamicAtlasPage* value);
+  constexpr void __cordl_internal_set_m_BilinearPage(::UnityEngine::UIElements::DynamicAtlasPage* value);
 
-  constexpr ::UnityEngine::ColorSpace& __get_m_ColorSpace();
+  constexpr ::UnityEngine::ColorSpace& __cordl_internal_get_m_ColorSpace();
 
-  constexpr ::UnityEngine::ColorSpace const& __get_m_ColorSpace() const;
+  constexpr ::UnityEngine::ColorSpace const& __cordl_internal_get_m_ColorSpace() const;
 
-  constexpr void __set_m_ColorSpace(::UnityEngine::ColorSpace value);
+  constexpr void __cordl_internal_set_m_ColorSpace(::UnityEngine::ColorSpace value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IPanel*>*& __get_m_Panels();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IPanel*>*& __cordl_internal_get_m_Panels();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IPanel*>*> const& __get_m_Panels() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IPanel*>*> const& __cordl_internal_get_m_Panels() const;
 
-  constexpr void __set_m_Panels(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IPanel*>* value);
+  constexpr void __cordl_internal_set_m_Panels(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IPanel*>* value);
 
-  constexpr int32_t& __get_m_MinAtlasSize();
+  constexpr int32_t& __cordl_internal_get_m_MinAtlasSize();
 
-  constexpr int32_t const& __get_m_MinAtlasSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_MinAtlasSize() const;
 
-  constexpr void __set_m_MinAtlasSize(int32_t value);
+  constexpr void __cordl_internal_set_m_MinAtlasSize(int32_t value);
 
-  constexpr int32_t& __get_m_MaxAtlasSize();
+  constexpr int32_t& __cordl_internal_get_m_MaxAtlasSize();
 
-  constexpr int32_t const& __get_m_MaxAtlasSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_MaxAtlasSize() const;
 
-  constexpr void __set_m_MaxAtlasSize(int32_t value);
+  constexpr void __cordl_internal_set_m_MaxAtlasSize(int32_t value);
 
-  constexpr int32_t& __get_m_MaxSubTextureSize();
+  constexpr int32_t& __cordl_internal_get_m_MaxSubTextureSize();
 
-  constexpr int32_t const& __get_m_MaxSubTextureSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_MaxSubTextureSize() const;
 
-  constexpr void __set_m_MaxSubTextureSize(int32_t value);
+  constexpr void __cordl_internal_set_m_MaxSubTextureSize(int32_t value);
 
-  constexpr ::UnityEngine::UIElements::DynamicAtlasFilters& __get_m_ActiveFilters();
+  constexpr ::UnityEngine::UIElements::DynamicAtlasFilters& __cordl_internal_get_m_ActiveFilters();
 
-  constexpr ::UnityEngine::UIElements::DynamicAtlasFilters const& __get_m_ActiveFilters() const;
+  constexpr ::UnityEngine::UIElements::DynamicAtlasFilters const& __cordl_internal_get_m_ActiveFilters() const;
 
-  constexpr void __set_m_ActiveFilters(::UnityEngine::UIElements::DynamicAtlasFilters value);
+  constexpr void __cordl_internal_set_m_ActiveFilters(::UnityEngine::UIElements::DynamicAtlasFilters value);
 
-  constexpr ::UnityEngine::UIElements::DynamicAtlasCustomFilter*& __get_m_CustomFilter();
+  constexpr ::UnityEngine::UIElements::DynamicAtlasCustomFilter*& __cordl_internal_get_m_CustomFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DynamicAtlasCustomFilter*> const& __get_m_CustomFilter() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DynamicAtlasCustomFilter*> const& __cordl_internal_get_m_CustomFilter() const;
 
-  constexpr void __set_m_CustomFilter(::UnityEngine::UIElements::DynamicAtlasCustomFilter* value);
+  constexpr void __cordl_internal_set_m_CustomFilter(::UnityEngine::UIElements::DynamicAtlasCustomFilter* value);
 
   /// @brief Method get_isInitialized, addr 0x2db42ec, size 0x20, virtual false, abstract: false, final false
   inline bool get_isInitialized();
@@ -359,7 +360,7 @@ protected:
 
 public:
   /// @brief Field m_Database, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::UnityEngine::Texture*, ::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*>* ___m_Database;
+  ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Texture>, ::UnityEngine::UIElements::__DynamicAtlas__TextureInfo*>* ___m_Database;
 
   /// @brief Field m_PointPage, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::UIElements::DynamicAtlasPage* ___m_PointPage;

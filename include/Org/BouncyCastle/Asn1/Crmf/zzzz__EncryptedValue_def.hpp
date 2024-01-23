@@ -32,29 +32,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(113))
 // CS Name: ::Org.BouncyCastle.Asn1.Crmf::EncryptedValue*
 class CORDL_TYPE EncryptedValue : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field intendedAlg, offset 0x10, size 0x8
-  __declspec(property(get = __get_intendedAlg, put = __set_intendedAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* intendedAlg;
+  __declspec(property(get = __cordl_internal_get_intendedAlg, put = __cordl_internal_set_intendedAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* intendedAlg;
 
   /// @brief Field symmAlg, offset 0x18, size 0x8
-  __declspec(property(get = __get_symmAlg, put = __set_symmAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* symmAlg;
+  __declspec(property(get = __cordl_internal_get_symmAlg, put = __cordl_internal_set_symmAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* symmAlg;
 
   /// @brief Field encSymmKey, offset 0x20, size 0x8
-  __declspec(property(get = __get_encSymmKey, put = __set_encSymmKey))::Org::BouncyCastle::Asn1::DerBitString* encSymmKey;
+  __declspec(property(get = __cordl_internal_get_encSymmKey, put = __cordl_internal_set_encSymmKey))::Org::BouncyCastle::Asn1::DerBitString* encSymmKey;
 
   /// @brief Field keyAlg, offset 0x28, size 0x8
-  __declspec(property(get = __get_keyAlg, put = __set_keyAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyAlg;
+  __declspec(property(get = __cordl_internal_get_keyAlg, put = __cordl_internal_set_keyAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyAlg;
 
   /// @brief Field valueHint, offset 0x30, size 0x8
-  __declspec(property(get = __get_valueHint, put = __set_valueHint))::Org::BouncyCastle::Asn1::Asn1OctetString* valueHint;
+  __declspec(property(get = __cordl_internal_get_valueHint, put = __cordl_internal_set_valueHint))::Org::BouncyCastle::Asn1::Asn1OctetString* valueHint;
 
   /// @brief Field encValue, offset 0x38, size 0x8
-  __declspec(property(get = __get_encValue, put = __set_encValue))::Org::BouncyCastle::Asn1::DerBitString* encValue;
+  __declspec(property(get = __cordl_internal_get_encValue, put = __cordl_internal_set_encValue))::Org::BouncyCastle::Asn1::DerBitString* encValue;
 
   __declspec(property(get = get_IntendedAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* IntendedAlg;
 
@@ -68,41 +68,41 @@ public:
 
   __declspec(property(get = get_EncValue))::Org::BouncyCastle::Asn1::DerBitString* EncValue;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_intendedAlg();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_intendedAlg();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_intendedAlg() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_intendedAlg() const;
 
-  constexpr void __set_intendedAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_intendedAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_symmAlg();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_symmAlg();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_symmAlg() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_symmAlg() const;
 
-  constexpr void __set_symmAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_symmAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __get_encSymmKey();
+  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __cordl_internal_get_encSymmKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __get_encSymmKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __cordl_internal_get_encSymmKey() const;
 
-  constexpr void __set_encSymmKey(::Org::BouncyCastle::Asn1::DerBitString* value);
+  constexpr void __cordl_internal_set_encSymmKey(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_keyAlg();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_keyAlg();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_keyAlg() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_keyAlg() const;
 
-  constexpr void __set_keyAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_keyAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_valueHint();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_valueHint();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_valueHint() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_valueHint() const;
 
-  constexpr void __set_valueHint(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_valueHint(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __get_encValue();
+  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __cordl_internal_get_encValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __get_encValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __cordl_internal_get_encValue() const;
 
-  constexpr void __set_encValue(::Org::BouncyCastle::Asn1::DerBitString* value);
+  constexpr void __cordl_internal_set_encValue(::Org::BouncyCastle::Asn1::DerBitString* value);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

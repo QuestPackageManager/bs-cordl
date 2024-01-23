@@ -124,7 +124,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__MeshBuilder__ClipCounts);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7403))
 // CS Name: ::MeshBuilder::AllocMeshData::Allocator*
 class CORDL_TYPE __MeshBuilder__AllocMeshData__Allocator : public ::System::MulticastDelegate {
@@ -162,7 +162,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MeshBuilder__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7374)), TypeDefinitionIndex(TypeDefinitionIndex(7339)), TypeDefinitionIndex(TypeDefinitionIndex(7337))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7337)), TypeDefinitionIndex(TypeDefinitionIndex(7339)), TypeDefinitionIndex(TypeDefinitionIndex(7374))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7404))
 // CS Name: ::MeshBuilder::AllocMeshData
 struct CORDL_TYPE __MeshBuilder__AllocMeshData {
@@ -174,11 +174,11 @@ public:
   inline ::UnityEngine::UIElements::MeshWriteData* Allocate(uint32_t vertexCount, uint32_t indexCount);
 
   // Ctor Parameters [CppParam { name: "alloc", ty: "::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator*", modifiers: "", def_value: None }, CppParam { name: "texture", ty:
-  // "::UnityEngine::Texture*", modifiers: "", def_value: None }, CppParam { name: "svgTexture", ty: "::UnityEngine::UIElements::TextureId", modifiers: "", def_value: None }, CppParam { name:
-  // "material", ty: "::UnityEngine::Material*", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags", modifiers: "",
-  // def_value: None }, CppParam { name: "colorAlloc", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None }]
-  constexpr __MeshBuilder__AllocMeshData(::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator* alloc, ::UnityEngine::Texture* texture, ::UnityEngine::UIElements::TextureId svgTexture,
-                                         ::UnityEngine::Material* material, ::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags flags,
+  // "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "svgTexture", ty: "::UnityEngine::UIElements::TextureId", modifiers: "", def_value: None }, CppParam { name:
+  // "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "flags", ty: "::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags", modifiers:
+  // "", def_value: None }, CppParam { name: "colorAlloc", ty: "::UnityEngine::UIElements::UIR::BMPAlloc", modifiers: "", def_value: None }]
+  constexpr __MeshBuilder__AllocMeshData(::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator* alloc, ::UnityW<::UnityEngine::Texture> texture, ::UnityEngine::UIElements::TextureId svgTexture,
+                                         ::UnityW<::UnityEngine::Material> material, ::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags flags,
                                          ::UnityEngine::UIElements::UIR::BMPAlloc colorAlloc) noexcept;
 
   // Ctor Parameters []
@@ -189,13 +189,13 @@ public:
   ::GlobalNamespace::__MeshBuilder__AllocMeshData__Allocator* alloc;
 
   /// @brief Field texture, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::Texture* texture;
+  ::UnityW<::UnityEngine::Texture> texture;
 
   /// @brief Field svgTexture, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::UIElements::TextureId svgTexture;
 
   /// @brief Field material, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Material* material;
+  ::UnityW<::UnityEngine::Material> material;
 
   /// @brief Field flags, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags flags;
@@ -228,7 +228,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__MeshBuilder__AllocMeshD
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7405))
 // CS Name: ::MeshBuilder::ClipCounts
 struct CORDL_TYPE __MeshBuilder__ClipCounts {
@@ -287,7 +287,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__MeshBuilder__ClipCounts
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7406))
 // CS Name: ::MeshBuilder::VertexClipEdge
 struct CORDL_TYPE __MeshBuilder__VertexClipEdge {
@@ -349,7 +349,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__MeshBuilder__VertexClip
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7407))
 // CS Name: ::UnityEngine.UIElements.UIR::MeshBuilder*
 class CORDL_TYPE MeshBuilder : public ::System::Object {

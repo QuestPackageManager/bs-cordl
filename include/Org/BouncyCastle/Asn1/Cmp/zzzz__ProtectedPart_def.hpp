@@ -29,33 +29,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::ProtectedPart);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(48))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::ProtectedPart*
 class CORDL_TYPE ProtectedPart : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field header, offset 0x10, size 0x8
-  __declspec(property(get = __get_header, put = __set_header))::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header;
+  __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header))::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header;
 
   /// @brief Field body, offset 0x18, size 0x8
-  __declspec(property(get = __get_body, put = __set_body))::Org::BouncyCastle::Asn1::Cmp::PkiBody* body;
+  __declspec(property(get = __cordl_internal_get_body, put = __cordl_internal_set_body))::Org::BouncyCastle::Asn1::Cmp::PkiBody* body;
 
   __declspec(property(get = get_Header))::Org::BouncyCastle::Asn1::Cmp::PkiHeader* Header;
 
   __declspec(property(get = get_Body))::Org::BouncyCastle::Asn1::Cmp::PkiBody* Body;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiHeader*& __get_header();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiHeader*& __cordl_internal_get_header();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiHeader*> const& __get_header() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiHeader*> const& __cordl_internal_get_header() const;
 
-  constexpr void __set_header(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* value);
+  constexpr void __cordl_internal_set_header(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiBody*& __get_body();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiBody*& __cordl_internal_get_body();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiBody*> const& __get_body() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiBody*> const& __cordl_internal_get_body() const;
 
-  constexpr void __set_body(::Org::BouncyCastle::Asn1::Cmp::PkiBody* value);
+  constexpr void __cordl_internal_set_body(::Org::BouncyCastle::Asn1::Cmp::PkiBody* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

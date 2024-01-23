@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::OVR::OpenVR::OpenVRInterop);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8579))
 // CS Name: ::OVR.OpenVR::OpenVRInterop*
 class CORDL_TYPE OpenVRInterop : public ::System::Object {

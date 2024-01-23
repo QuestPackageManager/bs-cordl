@@ -20,22 +20,23 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundLightWithId);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14542))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14518))
 // CS Name: ::BloomPrePassBackgroundLightWithId*
 class CORDL_TYPE BloomPrePassBackgroundLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
   // Declarations
   /// @brief Field _bloomPrePassBackgroundColor, offset 0x30, size 0x8
-  __declspec(property(get = __get__bloomPrePassBackgroundColor, put = __set__bloomPrePassBackgroundColor))::GlobalNamespace::BloomPrePassBackgroundColor* _bloomPrePassBackgroundColor;
+  __declspec(property(get = __cordl_internal_get__bloomPrePassBackgroundColor,
+                      put = __cordl_internal_set__bloomPrePassBackgroundColor))::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> _bloomPrePassBackgroundColor;
 
   __declspec(property(get = get_color))::UnityEngine::Color color;
 
-  constexpr ::GlobalNamespace::BloomPrePassBackgroundColor*& __get__bloomPrePassBackgroundColor();
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor>& __cordl_internal_get__bloomPrePassBackgroundColor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassBackgroundColor*> const& __get__bloomPrePassBackgroundColor() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> const& __cordl_internal_get__bloomPrePassBackgroundColor() const;
 
-  constexpr void __set__bloomPrePassBackgroundColor(::GlobalNamespace::BloomPrePassBackgroundColor* value);
+  constexpr void __cordl_internal_set__bloomPrePassBackgroundColor(::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> value);
 
   /// @brief Method get_color, addr 0x210e988, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
@@ -63,7 +64,7 @@ protected:
 
 public:
   /// @brief Field _bloomPrePassBackgroundColor, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::BloomPrePassBackgroundColor* ____bloomPrePassBackgroundColor;
+  ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> ____bloomPrePassBackgroundColor;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

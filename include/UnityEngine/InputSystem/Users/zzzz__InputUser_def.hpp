@@ -156,7 +156,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Users::__InputUser__UserData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6357))
 // CS Name: ::InputUser::ControlSchemeChangeSyntax
 struct CORDL_TYPE __InputUser__ControlSchemeChangeSyntax {
@@ -190,7 +190,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__ControlSc
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6358))
 // CS Name: ::InputUser::UserFlags
 struct CORDL_TYPE __InputUser__UserFlags {
@@ -240,9 +240,9 @@ static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__UserFlags
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3305 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6204)), TypeDefinitionIndex(TypeDefinitionIndex(6199)), TypeDefinitionIndex(TypeDefinitionIndex(6365)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 3107 }), TypeDefinitionIndex(TypeDefinitionIndex(6358))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6359)) CS Name: ::InputUser::UserData
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6199)), TypeDefinitionIndex(TypeDefinitionIndex(6204)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6358)), TypeDefinitionIndex(TypeDefinitionIndex(6365)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3107 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3305 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6359)) CS Name: ::InputUser::UserData
 struct CORDL_TYPE __InputUser__UserData {
 public:
   // Declarations
@@ -331,7 +331,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__UserData,
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6365))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6365))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6360))
 // CS Name: ::InputUser::CompareDevicesByUserAccount
 struct CORDL_TYPE __InputUser__CompareDevicesByUserAccount {
@@ -374,7 +374,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__CompareDe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6361))
 // CS Name: ::InputUser::OngoingAccountSelection
 struct CORDL_TYPE __InputUser__OngoingAccountSelection {
@@ -411,7 +411,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__OngoingAc
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6362))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6362))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6364))
 // CS Name: ::UnityEngine.InputSystem.Users::InputUser
 struct CORDL_TYPE InputUser {
@@ -708,13 +708,13 @@ static_assert(offsetof(::UnityEngine::InputSystem::Users::InputUser, m_Id) == 0x
 // SizeInfo { instance_size: 360, native_size: -1, calculated_instance_size: 360, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6239)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 999 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(2325), inst: 647 }), TypeDefinitionIndex(TypeDefinitionIndex(6364)), TypeDefinitionIndex(TypeDefinitionIndex(6366)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2333), inst: 2487 }), TypeDefinitionIndex(TypeDefinitionIndex(6361)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 991 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 997 }), TypeDefinitionIndex(TypeDefinitionIndex(2333)), TypeDefinitionIndex(TypeDefinitionIndex(6536)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2324)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3871 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 526 }), TypeDefinitionIndex(TypeDefinitionIndex(2325)), TypeDefinitionIndex(TypeDefinitionIndex(6215)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6660))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6362)) CS Name: ::InputUser::GlobalState
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2324)), TypeDefinitionIndex(TypeDefinitionIndex(2325)), TypeDefinitionIndex(TypeDefinitionIndex(2333)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(6239)), TypeDefinitionIndex(TypeDefinitionIndex(6361)), TypeDefinitionIndex(TypeDefinitionIndex(6364)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6366)), TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(6669)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 526 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2325), inst: 647 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2333), inst: 2487 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 991 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 997 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 999 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3871 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6362)) CS Name: ::InputUser::GlobalState
 struct CORDL_TYPE __InputUser__GlobalState {
 public:
   // Declarations
@@ -875,7 +875,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Users::__InputUser__GlobalSta
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6363))
 // CS Name: ::InputUser::<>c*
 class CORDL_TYPE __InputUser____c : public ::System::Object {

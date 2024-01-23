@@ -16,83 +16,83 @@ MARK_REF_PTR_T(::System::Globalization::Bootstring);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3724))
 // CS Name: ::System.Globalization::Bootstring*
 class CORDL_TYPE Bootstring : public ::System::Object {
 public:
   // Declarations
   /// @brief Field delimiter, offset 0x10, size 0x2
-  __declspec(property(get = __get_delimiter, put = __set_delimiter)) char16_t delimiter;
+  __declspec(property(get = __cordl_internal_get_delimiter, put = __cordl_internal_set_delimiter)) char16_t delimiter;
 
   /// @brief Field base_num, offset 0x14, size 0x4
-  __declspec(property(get = __get_base_num, put = __set_base_num)) int32_t base_num;
+  __declspec(property(get = __cordl_internal_get_base_num, put = __cordl_internal_set_base_num)) int32_t base_num;
 
   /// @brief Field tmin, offset 0x18, size 0x4
-  __declspec(property(get = __get_tmin, put = __set_tmin)) int32_t tmin;
+  __declspec(property(get = __cordl_internal_get_tmin, put = __cordl_internal_set_tmin)) int32_t tmin;
 
   /// @brief Field tmax, offset 0x1c, size 0x4
-  __declspec(property(get = __get_tmax, put = __set_tmax)) int32_t tmax;
+  __declspec(property(get = __cordl_internal_get_tmax, put = __cordl_internal_set_tmax)) int32_t tmax;
 
   /// @brief Field skew, offset 0x20, size 0x4
-  __declspec(property(get = __get_skew, put = __set_skew)) int32_t skew;
+  __declspec(property(get = __cordl_internal_get_skew, put = __cordl_internal_set_skew)) int32_t skew;
 
   /// @brief Field damp, offset 0x24, size 0x4
-  __declspec(property(get = __get_damp, put = __set_damp)) int32_t damp;
+  __declspec(property(get = __cordl_internal_get_damp, put = __cordl_internal_set_damp)) int32_t damp;
 
   /// @brief Field initial_bias, offset 0x28, size 0x4
-  __declspec(property(get = __get_initial_bias, put = __set_initial_bias)) int32_t initial_bias;
+  __declspec(property(get = __cordl_internal_get_initial_bias, put = __cordl_internal_set_initial_bias)) int32_t initial_bias;
 
   /// @brief Field initial_n, offset 0x2c, size 0x4
-  __declspec(property(get = __get_initial_n, put = __set_initial_n)) int32_t initial_n;
+  __declspec(property(get = __cordl_internal_get_initial_n, put = __cordl_internal_set_initial_n)) int32_t initial_n;
 
-  constexpr char16_t& __get_delimiter();
+  constexpr char16_t& __cordl_internal_get_delimiter();
 
-  constexpr char16_t const& __get_delimiter() const;
+  constexpr char16_t const& __cordl_internal_get_delimiter() const;
 
-  constexpr void __set_delimiter(char16_t value);
+  constexpr void __cordl_internal_set_delimiter(char16_t value);
 
-  constexpr int32_t& __get_base_num();
+  constexpr int32_t& __cordl_internal_get_base_num();
 
-  constexpr int32_t const& __get_base_num() const;
+  constexpr int32_t const& __cordl_internal_get_base_num() const;
 
-  constexpr void __set_base_num(int32_t value);
+  constexpr void __cordl_internal_set_base_num(int32_t value);
 
-  constexpr int32_t& __get_tmin();
+  constexpr int32_t& __cordl_internal_get_tmin();
 
-  constexpr int32_t const& __get_tmin() const;
+  constexpr int32_t const& __cordl_internal_get_tmin() const;
 
-  constexpr void __set_tmin(int32_t value);
+  constexpr void __cordl_internal_set_tmin(int32_t value);
 
-  constexpr int32_t& __get_tmax();
+  constexpr int32_t& __cordl_internal_get_tmax();
 
-  constexpr int32_t const& __get_tmax() const;
+  constexpr int32_t const& __cordl_internal_get_tmax() const;
 
-  constexpr void __set_tmax(int32_t value);
+  constexpr void __cordl_internal_set_tmax(int32_t value);
 
-  constexpr int32_t& __get_skew();
+  constexpr int32_t& __cordl_internal_get_skew();
 
-  constexpr int32_t const& __get_skew() const;
+  constexpr int32_t const& __cordl_internal_get_skew() const;
 
-  constexpr void __set_skew(int32_t value);
+  constexpr void __cordl_internal_set_skew(int32_t value);
 
-  constexpr int32_t& __get_damp();
+  constexpr int32_t& __cordl_internal_get_damp();
 
-  constexpr int32_t const& __get_damp() const;
+  constexpr int32_t const& __cordl_internal_get_damp() const;
 
-  constexpr void __set_damp(int32_t value);
+  constexpr void __cordl_internal_set_damp(int32_t value);
 
-  constexpr int32_t& __get_initial_bias();
+  constexpr int32_t& __cordl_internal_get_initial_bias();
 
-  constexpr int32_t const& __get_initial_bias() const;
+  constexpr int32_t const& __cordl_internal_get_initial_bias() const;
 
-  constexpr void __set_initial_bias(int32_t value);
+  constexpr void __cordl_internal_set_initial_bias(int32_t value);
 
-  constexpr int32_t& __get_initial_n();
+  constexpr int32_t& __cordl_internal_get_initial_n();
 
-  constexpr int32_t const& __get_initial_n() const;
+  constexpr int32_t const& __cordl_internal_get_initial_n() const;
 
-  constexpr void __set_initial_n(int32_t value);
+  constexpr void __cordl_internal_set_initial_n(int32_t value);
 
   static inline ::System::Globalization::Bootstring* New_ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN);
 

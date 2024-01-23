@@ -18,25 +18,26 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemesListSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16205))
 // CS Name: ::ColorSchemesListSO*
 class CORDL_TYPE ColorSchemesListSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _colorSchemes, offset 0x18, size 0x8
-  __declspec(property(get = __get__colorSchemes, put = __set__colorSchemes))::ArrayW<::GlobalNamespace::ColorSchemeSO*, ::Array<::GlobalNamespace::ColorSchemeSO*>*> _colorSchemes;
+  __declspec(property(get = __cordl_internal_get__colorSchemes,
+                      put = __cordl_internal_set__colorSchemes))::ArrayW<::UnityW<::GlobalNamespace::ColorSchemeSO>, ::Array<::UnityW<::GlobalNamespace::ColorSchemeSO>>*> _colorSchemes;
 
-  __declspec(property(get = get_colorSchemes))::ArrayW<::GlobalNamespace::ColorSchemeSO*, ::Array<::GlobalNamespace::ColorSchemeSO*>*> colorSchemes;
+  __declspec(property(get = get_colorSchemes))::ArrayW<::UnityW<::GlobalNamespace::ColorSchemeSO>, ::Array<::UnityW<::GlobalNamespace::ColorSchemeSO>>*> colorSchemes;
 
-  constexpr ::ArrayW<::GlobalNamespace::ColorSchemeSO*, ::Array<::GlobalNamespace::ColorSchemeSO*>*>& __get__colorSchemes();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::ColorSchemeSO>, ::Array<::UnityW<::GlobalNamespace::ColorSchemeSO>>*>& __cordl_internal_get__colorSchemes();
 
-  constexpr ::ArrayW<::GlobalNamespace::ColorSchemeSO*, ::Array<::GlobalNamespace::ColorSchemeSO*>*> const& __get__colorSchemes() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::ColorSchemeSO>, ::Array<::UnityW<::GlobalNamespace::ColorSchemeSO>>*> const& __cordl_internal_get__colorSchemes() const;
 
-  constexpr void __set__colorSchemes(::ArrayW<::GlobalNamespace::ColorSchemeSO*, ::Array<::GlobalNamespace::ColorSchemeSO*>*> value);
+  constexpr void __cordl_internal_set__colorSchemes(::ArrayW<::UnityW<::GlobalNamespace::ColorSchemeSO>, ::Array<::UnityW<::GlobalNamespace::ColorSchemeSO>>*> value);
 
   /// @brief Method get_colorSchemes, addr 0x122d580, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::ColorSchemeSO*, ::Array<::GlobalNamespace::ColorSchemeSO*>*> get_colorSchemes();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::ColorSchemeSO>, ::Array<::UnityW<::GlobalNamespace::ColorSchemeSO>>*> get_colorSchemes();
 
   static inline ::GlobalNamespace::ColorSchemesListSO* New_ctor();
 
@@ -58,7 +59,7 @@ protected:
 
 public:
   /// @brief Field _colorSchemes, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::ColorSchemeSO*, ::Array<::GlobalNamespace::ColorSchemeSO*>*> ____colorSchemes;
+  ::ArrayW<::UnityW<::GlobalNamespace::ColorSchemeSO>, ::Array<::UnityW<::GlobalNamespace::ColorSchemeSO>>*> ____colorSchemes;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

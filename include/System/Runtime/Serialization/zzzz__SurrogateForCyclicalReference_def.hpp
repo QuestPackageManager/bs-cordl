@@ -29,14 +29,14 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SurrogateForCyclicalReference);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3214))
 // CS Name: ::System.Runtime.Serialization::SurrogateForCyclicalReference*
 class CORDL_TYPE SurrogateForCyclicalReference : public ::System::Object {
 public:
   // Declarations
   /// @brief Field innerSurrogate, offset 0x10, size 0x8
-  __declspec(property(get = __get_innerSurrogate, put = __set_innerSurrogate))::System::Runtime::Serialization::ISerializationSurrogate* innerSurrogate;
+  __declspec(property(get = __cordl_internal_get_innerSurrogate, put = __cordl_internal_set_innerSurrogate))::System::Runtime::Serialization::ISerializationSurrogate* innerSurrogate;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializationSurrogate"
   constexpr operator ::System::Runtime::Serialization::ISerializationSurrogate*() noexcept;
@@ -44,11 +44,11 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializationSurrogate"
   constexpr ::System::Runtime::Serialization::ISerializationSurrogate* i___System__Runtime__Serialization__ISerializationSurrogate() noexcept;
 
-  constexpr ::System::Runtime::Serialization::ISerializationSurrogate*& __get_innerSurrogate();
+  constexpr ::System::Runtime::Serialization::ISerializationSurrogate*& __cordl_internal_get_innerSurrogate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISerializationSurrogate*> const& __get_innerSurrogate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISerializationSurrogate*> const& __cordl_internal_get_innerSurrogate() const;
 
-  constexpr void __set_innerSurrogate(::System::Runtime::Serialization::ISerializationSurrogate* value);
+  constexpr void __cordl_internal_set_innerSurrogate(::System::Runtime::Serialization::ISerializationSurrogate* value);
 
   /// @brief Method GetObjectData, addr 0x24b8338, size 0xd0, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);

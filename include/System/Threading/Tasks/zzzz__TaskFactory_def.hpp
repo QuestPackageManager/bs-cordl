@@ -77,13 +77,13 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__TaskFactory__CompleteOnInvokePromis
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 400 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2787))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2809)) CS Name: ::TaskFactory::CompleteOnInvokePromise*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), TypeDefinitionIndex(TypeDefinitionIndex(2787)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 400
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(2809)) CS Name: ::TaskFactory::CompleteOnInvokePromise*
 class CORDL_TYPE __TaskFactory__CompleteOnInvokePromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*> {
 public:
   // Declarations
   /// @brief Field _tasks, offset 0x58, size 0x8
-  __declspec(property(get = __get__tasks, put = __set__tasks))::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* _tasks;
+  __declspec(property(get = __cordl_internal_get__tasks, put = __cordl_internal_set__tasks))::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* _tasks;
 
   __declspec(property(get = get_InvokeMayRunArbitraryCode)) bool InvokeMayRunArbitraryCode;
 
@@ -93,11 +93,11 @@ public:
   /// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"
   constexpr ::System::Threading::Tasks::ITaskCompletionAction* i___System__Threading__Tasks__ITaskCompletionAction() noexcept;
 
-  constexpr ::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*& __get__tasks();
+  constexpr ::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*& __cordl_internal_get__tasks();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*> const& __get__tasks() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*> const& __cordl_internal_get__tasks() const;
 
-  constexpr void __set__tasks(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* value);
+  constexpr void __cordl_internal_set__tasks(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* value);
 
   static inline ::System::Threading::Tasks::__TaskFactory__CompleteOnInvokePromise* New_ctor(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* tasks);
 
@@ -139,48 +139,50 @@ static_assert(offsetof(::System::Threading::Tasks::__TaskFactory__CompleteOnInvo
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2792)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2790))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2810)) CS Name: ::System.Threading.Tasks::TaskFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2790)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2792))] Self: TypeDefinitionIndex(TypeDefinitionIndex(2810)) CS Name: ::System.Threading.Tasks::TaskFactory*
 class CORDL_TYPE TaskFactory : public ::System::Object {
 public:
   // Declarations
   using CompleteOnInvokePromise = ::System::Threading::Tasks::__TaskFactory__CompleteOnInvokePromise;
 
   /// @brief Field m_defaultCancellationToken, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_defaultCancellationToken, put = __set_m_defaultCancellationToken))::System::Threading::CancellationToken m_defaultCancellationToken;
+  __declspec(property(get = __cordl_internal_get_m_defaultCancellationToken, put = __cordl_internal_set_m_defaultCancellationToken))::System::Threading::CancellationToken m_defaultCancellationToken;
 
   /// @brief Field m_defaultScheduler, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_defaultScheduler, put = __set_m_defaultScheduler))::System::Threading::Tasks::TaskScheduler* m_defaultScheduler;
+  __declspec(property(get = __cordl_internal_get_m_defaultScheduler, put = __cordl_internal_set_m_defaultScheduler))::System::Threading::Tasks::TaskScheduler* m_defaultScheduler;
 
   /// @brief Field m_defaultCreationOptions, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_defaultCreationOptions, put = __set_m_defaultCreationOptions))::System::Threading::Tasks::TaskCreationOptions m_defaultCreationOptions;
+  __declspec(property(get = __cordl_internal_get_m_defaultCreationOptions,
+                      put = __cordl_internal_set_m_defaultCreationOptions))::System::Threading::Tasks::TaskCreationOptions m_defaultCreationOptions;
 
   /// @brief Field m_defaultContinuationOptions, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_defaultContinuationOptions, put = __set_m_defaultContinuationOptions))::System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions;
+  __declspec(property(get = __cordl_internal_get_m_defaultContinuationOptions,
+                      put = __cordl_internal_set_m_defaultContinuationOptions))::System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions;
 
-  constexpr ::System::Threading::CancellationToken& __get_m_defaultCancellationToken();
+  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_m_defaultCancellationToken();
 
-  constexpr ::System::Threading::CancellationToken const& __get_m_defaultCancellationToken() const;
+  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_m_defaultCancellationToken() const;
 
-  constexpr void __set_m_defaultCancellationToken(::System::Threading::CancellationToken value);
+  constexpr void __cordl_internal_set_m_defaultCancellationToken(::System::Threading::CancellationToken value);
 
-  constexpr ::System::Threading::Tasks::TaskScheduler*& __get_m_defaultScheduler();
+  constexpr ::System::Threading::Tasks::TaskScheduler*& __cordl_internal_get_m_defaultScheduler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskScheduler*> const& __get_m_defaultScheduler() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskScheduler*> const& __cordl_internal_get_m_defaultScheduler() const;
 
-  constexpr void __set_m_defaultScheduler(::System::Threading::Tasks::TaskScheduler* value);
+  constexpr void __cordl_internal_set_m_defaultScheduler(::System::Threading::Tasks::TaskScheduler* value);
 
-  constexpr ::System::Threading::Tasks::TaskCreationOptions& __get_m_defaultCreationOptions();
+  constexpr ::System::Threading::Tasks::TaskCreationOptions& __cordl_internal_get_m_defaultCreationOptions();
 
-  constexpr ::System::Threading::Tasks::TaskCreationOptions const& __get_m_defaultCreationOptions() const;
+  constexpr ::System::Threading::Tasks::TaskCreationOptions const& __cordl_internal_get_m_defaultCreationOptions() const;
 
-  constexpr void __set_m_defaultCreationOptions(::System::Threading::Tasks::TaskCreationOptions value);
+  constexpr void __cordl_internal_set_m_defaultCreationOptions(::System::Threading::Tasks::TaskCreationOptions value);
 
-  constexpr ::System::Threading::Tasks::TaskContinuationOptions& __get_m_defaultContinuationOptions();
+  constexpr ::System::Threading::Tasks::TaskContinuationOptions& __cordl_internal_get_m_defaultContinuationOptions();
 
-  constexpr ::System::Threading::Tasks::TaskContinuationOptions const& __get_m_defaultContinuationOptions() const;
+  constexpr ::System::Threading::Tasks::TaskContinuationOptions const& __cordl_internal_get_m_defaultContinuationOptions() const;
 
-  constexpr void __set_m_defaultContinuationOptions(::System::Threading::Tasks::TaskContinuationOptions value);
+  constexpr void __cordl_internal_set_m_defaultContinuationOptions(::System::Threading::Tasks::TaskContinuationOptions value);
 
   static inline ::System::Threading::Tasks::TaskFactory* New_ctor();
 

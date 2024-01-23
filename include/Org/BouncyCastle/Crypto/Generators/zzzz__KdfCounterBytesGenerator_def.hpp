@@ -34,35 +34,35 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(910))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::KdfCounterBytesGenerator*
 class CORDL_TYPE KdfCounterBytesGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field prf, offset 0x10, size 0x8
-  __declspec(property(get = __get_prf, put = __set_prf))::Org::BouncyCastle::Crypto::IMac* prf;
+  __declspec(property(get = __cordl_internal_get_prf, put = __cordl_internal_set_prf))::Org::BouncyCastle::Crypto::IMac* prf;
 
   /// @brief Field h, offset 0x18, size 0x4
-  __declspec(property(get = __get_h, put = __set_h)) int32_t h;
+  __declspec(property(get = __cordl_internal_get_h, put = __cordl_internal_set_h)) int32_t h;
 
   /// @brief Field fixedInputDataCtrPrefix, offset 0x20, size 0x8
-  __declspec(property(get = __get_fixedInputDataCtrPrefix, put = __set_fixedInputDataCtrPrefix))::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCtrPrefix;
+  __declspec(property(get = __cordl_internal_get_fixedInputDataCtrPrefix, put = __cordl_internal_set_fixedInputDataCtrPrefix))::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCtrPrefix;
 
   /// @brief Field fixedInputData_afterCtr, offset 0x28, size 0x8
-  __declspec(property(get = __get_fixedInputData_afterCtr, put = __set_fixedInputData_afterCtr))::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData_afterCtr;
+  __declspec(property(get = __cordl_internal_get_fixedInputData_afterCtr, put = __cordl_internal_set_fixedInputData_afterCtr))::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData_afterCtr;
 
   /// @brief Field maxSizeExcl, offset 0x30, size 0x4
-  __declspec(property(get = __get_maxSizeExcl, put = __set_maxSizeExcl)) int32_t maxSizeExcl;
+  __declspec(property(get = __cordl_internal_get_maxSizeExcl, put = __cordl_internal_set_maxSizeExcl)) int32_t maxSizeExcl;
 
   /// @brief Field ios, offset 0x38, size 0x8
-  __declspec(property(get = __get_ios, put = __set_ios))::ArrayW<uint8_t, ::Array<uint8_t>*> ios;
+  __declspec(property(get = __cordl_internal_get_ios, put = __cordl_internal_set_ios))::ArrayW<uint8_t, ::Array<uint8_t>*> ios;
 
   /// @brief Field generatedBytes, offset 0x40, size 0x4
-  __declspec(property(get = __get_generatedBytes, put = __set_generatedBytes)) int32_t generatedBytes;
+  __declspec(property(get = __cordl_internal_get_generatedBytes, put = __cordl_internal_set_generatedBytes)) int32_t generatedBytes;
 
   /// @brief Field k, offset 0x48, size 0x8
-  __declspec(property(get = __get_k, put = __set_k))::ArrayW<uint8_t, ::Array<uint8_t>*> k;
+  __declspec(property(get = __cordl_internal_get_k, put = __cordl_internal_set_k))::ArrayW<uint8_t, ::Array<uint8_t>*> k;
 
   /// @brief Field IntegerMax, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_IntegerMax, put = setStaticF_IntegerMax))::Org::BouncyCastle::Math::BigInteger* IntegerMax;
@@ -84,53 +84,53 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction* i___Org__BouncyCastle__Crypto__IDerivationFunction() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IMac*& __get_prf();
+  constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_prf();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __get_prf() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __cordl_internal_get_prf() const;
 
-  constexpr void __set_prf(::Org::BouncyCastle::Crypto::IMac* value);
+  constexpr void __cordl_internal_set_prf(::Org::BouncyCastle::Crypto::IMac* value);
 
-  constexpr int32_t& __get_h();
+  constexpr int32_t& __cordl_internal_get_h();
 
-  constexpr int32_t const& __get_h() const;
+  constexpr int32_t const& __cordl_internal_get_h() const;
 
-  constexpr void __set_h(int32_t value);
+  constexpr void __cordl_internal_set_h(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_fixedInputDataCtrPrefix();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_fixedInputDataCtrPrefix();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_fixedInputDataCtrPrefix() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_fixedInputDataCtrPrefix() const;
 
-  constexpr void __set_fixedInputDataCtrPrefix(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_fixedInputDataCtrPrefix(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_fixedInputData_afterCtr();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_fixedInputData_afterCtr();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_fixedInputData_afterCtr() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_fixedInputData_afterCtr() const;
 
-  constexpr void __set_fixedInputData_afterCtr(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_fixedInputData_afterCtr(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_maxSizeExcl();
+  constexpr int32_t& __cordl_internal_get_maxSizeExcl();
 
-  constexpr int32_t const& __get_maxSizeExcl() const;
+  constexpr int32_t const& __cordl_internal_get_maxSizeExcl() const;
 
-  constexpr void __set_maxSizeExcl(int32_t value);
+  constexpr void __cordl_internal_set_maxSizeExcl(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_ios();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_ios();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_ios() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_ios() const;
 
-  constexpr void __set_ios(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_ios(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_generatedBytes();
+  constexpr int32_t& __cordl_internal_get_generatedBytes();
 
-  constexpr int32_t const& __get_generatedBytes() const;
+  constexpr int32_t const& __cordl_internal_get_generatedBytes() const;
 
-  constexpr void __set_generatedBytes(int32_t value);
+  constexpr void __cordl_internal_set_generatedBytes(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_k();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_k();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_k() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_k() const;
 
-  constexpr void __set_k(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_k(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_IntegerMax(::Org::BouncyCastle::Math::BigInteger* value);
 

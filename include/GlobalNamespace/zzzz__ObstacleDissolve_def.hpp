@@ -21,29 +21,29 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleDissolve);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4794))
 // CS Name: ::ObstacleDissolve*
 class CORDL_TYPE ObstacleDissolve : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _obstacleController, offset 0x18, size 0x8
-  __declspec(property(get = __get__obstacleController, put = __set__obstacleController))::GlobalNamespace::ObstacleControllerBase* _obstacleController;
+  __declspec(property(get = __cordl_internal_get__obstacleController, put = __cordl_internal_set__obstacleController))::UnityW<::GlobalNamespace::ObstacleControllerBase> _obstacleController;
 
   /// @brief Field _cutoutAnimateEffect, offset 0x20, size 0x8
-  __declspec(property(get = __get__cutoutAnimateEffect, put = __set__cutoutAnimateEffect))::GlobalNamespace::CutoutAnimateEffect* _cutoutAnimateEffect;
+  __declspec(property(get = __cordl_internal_get__cutoutAnimateEffect, put = __cordl_internal_set__cutoutAnimateEffect))::UnityW<::GlobalNamespace::CutoutAnimateEffect> _cutoutAnimateEffect;
 
-  constexpr ::GlobalNamespace::ObstacleControllerBase*& __get__obstacleController();
+  constexpr ::UnityW<::GlobalNamespace::ObstacleControllerBase>& __cordl_internal_get__obstacleController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObstacleControllerBase*> const& __get__obstacleController() const;
+  constexpr ::UnityW<::GlobalNamespace::ObstacleControllerBase> const& __cordl_internal_get__obstacleController() const;
 
-  constexpr void __set__obstacleController(::GlobalNamespace::ObstacleControllerBase* value);
+  constexpr void __cordl_internal_set__obstacleController(::UnityW<::GlobalNamespace::ObstacleControllerBase> value);
 
-  constexpr ::GlobalNamespace::CutoutAnimateEffect*& __get__cutoutAnimateEffect();
+  constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect>& __cordl_internal_get__cutoutAnimateEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CutoutAnimateEffect*> const& __get__cutoutAnimateEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect> const& __cordl_internal_get__cutoutAnimateEffect() const;
 
-  constexpr void __set__cutoutAnimateEffect(::GlobalNamespace::CutoutAnimateEffect* value);
+  constexpr void __cordl_internal_set__cutoutAnimateEffect(::UnityW<::GlobalNamespace::CutoutAnimateEffect> value);
 
   /// @brief Method Awake, addr 0x238e2c0, size 0xec, virtual false, abstract: false, final false
   inline void Awake();
@@ -77,10 +77,10 @@ protected:
 
 public:
   /// @brief Field _obstacleController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::ObstacleControllerBase* ____obstacleController;
+  ::UnityW<::GlobalNamespace::ObstacleControllerBase> ____obstacleController;
 
   /// @brief Field _cutoutAnimateEffect, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::CutoutAnimateEffect* ____cutoutAnimateEffect;
+  ::UnityW<::GlobalNamespace::CutoutAnimateEffect> ____cutoutAnimateEffect;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

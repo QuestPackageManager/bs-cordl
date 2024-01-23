@@ -15,7 +15,7 @@ MARK_VAL_T(::OVR::OpenVR::Compositor_CumulativeStats);
 // SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8705))
 // CS Name: ::OVR.OpenVR::Compositor_CumulativeStats
 struct CORDL_TYPE Compositor_CumulativeStats {

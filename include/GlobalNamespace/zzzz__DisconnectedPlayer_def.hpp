@@ -26,24 +26,24 @@ MARK_REF_PTR_T(::GlobalNamespace::DisconnectedPlayer);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15021))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15021))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12719))
 // CS Name: ::DisconnectedPlayer*
 class CORDL_TYPE DisconnectedPlayer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <userId>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__userId_k__BackingField, put = __set__userId_k__BackingField))::StringW _userId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__userId_k__BackingField, put = __cordl_internal_set__userId_k__BackingField))::StringW _userId_k__BackingField;
 
   /// @brief Field <userName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__userName_k__BackingField, put = __set__userName_k__BackingField))::StringW _userName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__userName_k__BackingField, put = __cordl_internal_set__userName_k__BackingField))::StringW _userName_k__BackingField;
 
   /// @brief Field <sortIndex>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __get__sortIndex_k__BackingField, put = __set__sortIndex_k__BackingField)) int32_t _sortIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__sortIndex_k__BackingField, put = __cordl_internal_set__sortIndex_k__BackingField)) int32_t _sortIndex_k__BackingField;
 
   /// @brief Field <multiplayerAvatarsData>k__BackingField, offset 0x28, size 0x18
-  __declspec(property(get = __get__multiplayerAvatarsData_k__BackingField,
-                      put = __set__multiplayerAvatarsData_k__BackingField))::GlobalNamespace::MultiplayerAvatarsData _multiplayerAvatarsData_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__multiplayerAvatarsData_k__BackingField,
+                      put = __cordl_internal_set__multiplayerAvatarsData_k__BackingField))::GlobalNamespace::MultiplayerAvatarsData _multiplayerAvatarsData_k__BackingField;
 
   __declspec(property(get = get_offsetSyncTime)) int64_t offsetSyncTime;
 
@@ -77,29 +77,29 @@ public:
   /// @brief Convert to "::GlobalNamespace::IConnectedPlayer"
   constexpr ::GlobalNamespace::IConnectedPlayer* i___GlobalNamespace__IConnectedPlayer() noexcept;
 
-  constexpr ::StringW& __get__userId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__userId_k__BackingField();
 
-  constexpr ::StringW const& __get__userId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__userId_k__BackingField() const;
 
-  constexpr void __set__userId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__userId_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__userName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__userName_k__BackingField();
 
-  constexpr ::StringW const& __get__userName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__userName_k__BackingField() const;
 
-  constexpr void __set__userName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__userName_k__BackingField(::StringW value);
 
-  constexpr int32_t& __get__sortIndex_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__sortIndex_k__BackingField();
 
-  constexpr int32_t const& __get__sortIndex_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__sortIndex_k__BackingField() const;
 
-  constexpr void __set__sortIndex_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__sortIndex_k__BackingField(int32_t value);
 
-  constexpr ::GlobalNamespace::MultiplayerAvatarsData& __get__multiplayerAvatarsData_k__BackingField();
+  constexpr ::GlobalNamespace::MultiplayerAvatarsData& __cordl_internal_get__multiplayerAvatarsData_k__BackingField();
 
-  constexpr ::GlobalNamespace::MultiplayerAvatarsData const& __get__multiplayerAvatarsData_k__BackingField() const;
+  constexpr ::GlobalNamespace::MultiplayerAvatarsData const& __cordl_internal_get__multiplayerAvatarsData_k__BackingField() const;
 
-  constexpr void __set__multiplayerAvatarsData_k__BackingField(::GlobalNamespace::MultiplayerAvatarsData value);
+  constexpr void __cordl_internal_set__multiplayerAvatarsData_k__BackingField(::GlobalNamespace::MultiplayerAvatarsData value);
 
   /// @brief Method get_offsetSyncTime, addr 0xe33aa8, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();

@@ -57,7 +57,7 @@ MARK_VAL_T(::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation___Req
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16000))
 // CS Name: ::OculusXPlatformAccessTokenRequestOperation::OculusTokenRequestOperationState
 struct CORDL_TYPE __OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState {
@@ -115,8 +115,8 @@ static_assert(offsetof(::GlobalNamespace::__OculusXPlatformAccessTokenRequestOpe
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 902 }), TypeDefinitionIndex(TypeDefinitionIndex(12925))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16001)) CS
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12925)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 902 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16001)) CS
 // Name: ::OculusXPlatformAccessTokenRequestOperation::<RequestXPlatformAccessToken>d__7
 struct CORDL_TYPE __OculusXPlatformAccessTokenRequestOperation___RequestXPlatformAccessToken_d__7 {
 public:
@@ -190,7 +190,7 @@ static_assert(offsetof(::GlobalNamespace::__OculusXPlatformAccessTokenRequestOpe
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16000))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16000))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16002))
 // CS Name: ::OculusXPlatformAccessTokenRequestOperation*
 class CORDL_TYPE OculusXPlatformAccessTokenRequestOperation : public ::System::Object {
@@ -201,22 +201,23 @@ public:
   using OculusTokenRequestOperationState = ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState;
 
   /// @brief Field _tokenData, offset 0x10, size 0x8
-  __declspec(property(get = __get__tokenData, put = __set__tokenData))::GlobalNamespace::XPlatformAccessTokenData* _tokenData;
+  __declspec(property(get = __cordl_internal_get__tokenData, put = __cordl_internal_set__tokenData))::GlobalNamespace::XPlatformAccessTokenData* _tokenData;
 
   /// @brief Field _operationState, offset 0x18, size 0x4
-  __declspec(property(get = __get__operationState, put = __set__operationState))::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState _operationState;
+  __declspec(property(get = __cordl_internal_get__operationState,
+                      put = __cordl_internal_set__operationState))::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState _operationState;
 
-  constexpr ::GlobalNamespace::XPlatformAccessTokenData*& __get__tokenData();
+  constexpr ::GlobalNamespace::XPlatformAccessTokenData*& __cordl_internal_get__tokenData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::XPlatformAccessTokenData*> const& __get__tokenData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::XPlatformAccessTokenData*> const& __cordl_internal_get__tokenData() const;
 
-  constexpr void __set__tokenData(::GlobalNamespace::XPlatformAccessTokenData* value);
+  constexpr void __cordl_internal_set__tokenData(::GlobalNamespace::XPlatformAccessTokenData* value);
 
-  constexpr ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState& __get__operationState();
+  constexpr ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState& __cordl_internal_get__operationState();
 
-  constexpr ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState const& __get__operationState() const;
+  constexpr ::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState const& __cordl_internal_get__operationState() const;
 
-  constexpr void __set__operationState(::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState value);
+  constexpr void __cordl_internal_set__operationState(::GlobalNamespace::__OculusXPlatformAccessTokenRequestOperation__OculusTokenRequestOperationState value);
 
   static inline ::GlobalNamespace::OculusXPlatformAccessTokenRequestOperation* New_ctor();
 

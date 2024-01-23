@@ -32,33 +32,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::CertId);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(103))
 // CS Name: ::Org.BouncyCastle.Asn1.Crmf::CertId*
 class CORDL_TYPE CertId : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field issuer, offset 0x10, size 0x8
-  __declspec(property(get = __get_issuer, put = __set_issuer))::Org::BouncyCastle::Asn1::X509::GeneralName* issuer;
+  __declspec(property(get = __cordl_internal_get_issuer, put = __cordl_internal_set_issuer))::Org::BouncyCastle::Asn1::X509::GeneralName* issuer;
 
   /// @brief Field serialNumber, offset 0x18, size 0x8
-  __declspec(property(get = __get_serialNumber, put = __set_serialNumber))::Org::BouncyCastle::Asn1::DerInteger* serialNumber;
+  __declspec(property(get = __cordl_internal_get_serialNumber, put = __cordl_internal_set_serialNumber))::Org::BouncyCastle::Asn1::DerInteger* serialNumber;
 
   __declspec(property(get = get_Issuer))::Org::BouncyCastle::Asn1::X509::GeneralName* Issuer;
 
   __declspec(property(get = get_SerialNumber))::Org::BouncyCastle::Asn1::DerInteger* SerialNumber;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __get_issuer();
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_issuer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __get_issuer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_issuer() const;
 
-  constexpr void __set_issuer(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+  constexpr void __cordl_internal_set_issuer(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_serialNumber();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_serialNumber();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_serialNumber() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_serialNumber() const;
 
-  constexpr void __set_serialNumber(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_serialNumber(::Org::BouncyCastle::Asn1::DerInteger* value);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertId* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

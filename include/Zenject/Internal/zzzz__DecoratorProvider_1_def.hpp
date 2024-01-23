@@ -43,24 +43,26 @@ namespace Zenject::Internal {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11370))
 // CS Name: ::Zenject.Internal::DecoratorProvider`1<TContract>*
 class CORDL_TYPE DecoratorProvider_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _cachedInstances, offset 0x10, size 0x8
-  __declspec(property(get = __get__cachedInstances,
-                      put = __set__cachedInstances))::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>* _cachedInstances;
+  __declspec(property(
+      get = __cordl_internal_get__cachedInstances,
+      put = __cordl_internal_set__cachedInstances))::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>* _cachedInstances;
 
   /// @brief Field _container, offset 0x18, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _factoryBindIds, offset 0x20, size 0x8
-  __declspec(property(get = __get__factoryBindIds, put = __set__factoryBindIds))::System::Collections::Generic::List_1<::System::Guid>* _factoryBindIds;
+  __declspec(property(get = __cordl_internal_get__factoryBindIds, put = __cordl_internal_set__factoryBindIds))::System::Collections::Generic::List_1<::System::Guid>* _factoryBindIds;
 
   /// @brief Field _decoratorFactories, offset 0x28, size 0x8
-  __declspec(property(get = __get__decoratorFactories, put = __set__decoratorFactories))::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>* _decoratorFactories;
+  __declspec(property(get = __cordl_internal_get__decoratorFactories,
+                      put = __cordl_internal_set__decoratorFactories))::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>* _decoratorFactories;
 
   /// @brief Convert operator to "::Zenject::Internal::IDecoratorProvider"
   constexpr operator ::Zenject::Internal::IDecoratorProvider*() noexcept;
@@ -68,30 +70,30 @@ public:
   /// @brief Convert to "::Zenject::Internal::IDecoratorProvider"
   constexpr ::Zenject::Internal::IDecoratorProvider* i___Zenject__Internal__IDecoratorProvider() noexcept;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>*& __get__cachedInstances();
+  constexpr ::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>*& __cordl_internal_get__cachedInstances();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>*> const&
-  __get__cachedInstances() const;
+  __cordl_internal_get__cachedInstances() const;
 
-  constexpr void __set__cachedInstances(::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>* value);
+  constexpr void __cordl_internal_set__cachedInstances(::System::Collections::Generic::Dictionary_2<::Zenject::IProvider*, ::System::Collections::Generic::List_1<::System::Object*>*>* value);
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Guid>*& __get__factoryBindIds();
+  constexpr ::System::Collections::Generic::List_1<::System::Guid>*& __cordl_internal_get__factoryBindIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Guid>*> const& __get__factoryBindIds() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Guid>*> const& __cordl_internal_get__factoryBindIds() const;
 
-  constexpr void __set__factoryBindIds(::System::Collections::Generic::List_1<::System::Guid>* value);
+  constexpr void __cordl_internal_set__factoryBindIds(::System::Collections::Generic::List_1<::System::Guid>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>*& __get__decoratorFactories();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>*& __cordl_internal_get__decoratorFactories();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>*> const& __get__decoratorFactories() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>*> const& __cordl_internal_get__decoratorFactories() const;
 
-  constexpr void __set__decoratorFactories(::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>* value);
+  constexpr void __cordl_internal_set__decoratorFactories(::System::Collections::Generic::List_1<::Zenject::IFactory_2<TContract, TContract>*>* value);
 
   static inline ::Zenject::Internal::DecoratorProvider_1<TContract>* New_ctor(::Zenject::DiContainer* container);
 

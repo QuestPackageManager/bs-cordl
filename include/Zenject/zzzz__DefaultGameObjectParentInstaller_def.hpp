@@ -36,14 +36,14 @@ MARK_REF_PTR_T(::Zenject::__DefaultGameObjectParentInstaller__DefaultParentObjec
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11347))
 // CS Name: ::DefaultGameObjectParentInstaller::DefaultParentObjectDestroyer*
 class CORDL_TYPE __DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _gameObject, offset 0x10, size 0x8
-  __declspec(property(get = __get__gameObject, put = __set__gameObject))::UnityEngine::GameObject* _gameObject;
+  __declspec(property(get = __cordl_internal_get__gameObject, put = __cordl_internal_set__gameObject))::UnityW<::UnityEngine::GameObject> _gameObject;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -51,11 +51,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::UnityEngine::GameObject*& __get__gameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__gameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__gameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__gameObject() const;
 
-  constexpr void __set__gameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__gameObject(::UnityW<::UnityEngine::GameObject> value);
 
   static inline ::Zenject::__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer* New_ctor(::UnityEngine::GameObject* gameObject);
 
@@ -86,7 +86,7 @@ protected:
 
 public:
   /// @brief Field _gameObject, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____gameObject;
+  ::UnityW<::UnityEngine::GameObject> ____gameObject;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -100,7 +100,7 @@ static_assert(offsetof(::Zenject::__DefaultGameObjectParentInstaller__DefaultPar
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11132)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11132), inst: 3908 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11132)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11132), inst: 3908 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11348))
 // CS Name: ::Zenject::DefaultGameObjectParentInstaller*
 class CORDL_TYPE DefaultGameObjectParentInstaller : public ::Zenject::Installer_2<::StringW, ::Zenject::DefaultGameObjectParentInstaller*> {
@@ -109,13 +109,13 @@ public:
   using DefaultParentObjectDestroyer = ::Zenject::__DefaultGameObjectParentInstaller__DefaultParentObjectDestroyer;
 
   /// @brief Field _name, offset 0x18, size 0x8
-  __declspec(property(get = __get__name, put = __set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
-  constexpr ::StringW& __get__name();
+  constexpr ::StringW& __cordl_internal_get__name();
 
-  constexpr ::StringW const& __get__name() const;
+  constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr void __set__name(::StringW value);
+  constexpr void __cordl_internal_set__name(::StringW value);
 
   static inline ::Zenject::DefaultGameObjectParentInstaller* New_ctor(::StringW name);
 

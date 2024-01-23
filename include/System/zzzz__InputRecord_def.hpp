@@ -15,7 +15,7 @@ MARK_VAL_T(::System::InputRecord);
 // SizeInfo { instance_size: 24, native_size: 28, calculated_instance_size: 24, calculated_native_size: 37, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2644))
 // CS Name: ::System::InputRecord
 struct CORDL_TYPE InputRecord {

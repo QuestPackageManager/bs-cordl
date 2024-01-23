@@ -17,33 +17,33 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11887))
 // CS Name: ::Newtonsoft.Json.Utilities::EnumValue`1<T>*
 class CORDL_TYPE EnumValue_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _name, offset 0x10, size 0x8
-  __declspec(property(get = __get__name, put = __set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
   /// @brief Field _value, offset 0x18, size 0x8
-  __declspec(property(get = __get__value, put = __set__value)) T _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) T _value;
 
   __declspec(property(get = get_Name))::StringW Name;
 
   __declspec(property(get = get_Value)) T Value;
 
-  constexpr ::StringW& __get__name();
+  constexpr ::StringW& __cordl_internal_get__name();
 
-  constexpr ::StringW const& __get__name() const;
+  constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr void __set__name(::StringW value);
+  constexpr void __cordl_internal_set__name(::StringW value);
 
-  constexpr T& __get__value();
+  constexpr T& __cordl_internal_get__value();
 
-  constexpr T const& __get__value() const;
+  constexpr T const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(T value);
+  constexpr void __cordl_internal_set__value(T value);
 
   /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW get_Name();

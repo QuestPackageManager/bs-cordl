@@ -60,40 +60,40 @@ MARK_REF_PTR_T(::UnityEngine::UI::Text);
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 256, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13099))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13099))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13128))
 // CS Name: ::UnityEngine.UI::Text*
 class CORDL_TYPE Text : public ::UnityEngine::UI::MaskableGraphic {
 public:
   // Declarations
   /// @brief Field m_FontData, offset 0xd0, size 0x8
-  __declspec(property(get = __get_m_FontData, put = __set_m_FontData))::UnityEngine::UI::FontData* m_FontData;
+  __declspec(property(get = __cordl_internal_get_m_FontData, put = __cordl_internal_set_m_FontData))::UnityEngine::UI::FontData* m_FontData;
 
   /// @brief Field m_Text, offset 0xd8, size 0x8
-  __declspec(property(get = __get_m_Text, put = __set_m_Text))::StringW m_Text;
+  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::StringW m_Text;
 
   /// @brief Field m_TextCache, offset 0xe0, size 0x8
-  __declspec(property(get = __get_m_TextCache, put = __set_m_TextCache))::UnityEngine::TextGenerator* m_TextCache;
+  __declspec(property(get = __cordl_internal_get_m_TextCache, put = __cordl_internal_set_m_TextCache))::UnityEngine::TextGenerator* m_TextCache;
 
   /// @brief Field m_TextCacheForLayout, offset 0xe8, size 0x8
-  __declspec(property(get = __get_m_TextCacheForLayout, put = __set_m_TextCacheForLayout))::UnityEngine::TextGenerator* m_TextCacheForLayout;
+  __declspec(property(get = __cordl_internal_get_m_TextCacheForLayout, put = __cordl_internal_set_m_TextCacheForLayout))::UnityEngine::TextGenerator* m_TextCacheForLayout;
 
   /// @brief Field m_DisableFontTextureRebuiltCallback, offset 0xf0, size 0x1
-  __declspec(property(get = __get_m_DisableFontTextureRebuiltCallback, put = __set_m_DisableFontTextureRebuiltCallback)) bool m_DisableFontTextureRebuiltCallback;
+  __declspec(property(get = __cordl_internal_get_m_DisableFontTextureRebuiltCallback, put = __cordl_internal_set_m_DisableFontTextureRebuiltCallback)) bool m_DisableFontTextureRebuiltCallback;
 
   /// @brief Field m_TempVerts, offset 0xf8, size 0x8
-  __declspec(property(get = __get_m_TempVerts, put = __set_m_TempVerts))::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*> m_TempVerts;
+  __declspec(property(get = __cordl_internal_get_m_TempVerts, put = __cordl_internal_set_m_TempVerts))::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*> m_TempVerts;
 
   /// @brief Field s_DefaultText, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DefaultText, put = setStaticF_s_DefaultText))::UnityEngine::Material* s_DefaultText;
+  static __declspec(property(get = getStaticF_s_DefaultText, put = setStaticF_s_DefaultText))::UnityW<::UnityEngine::Material> s_DefaultText;
 
   __declspec(property(get = get_cachedTextGenerator))::UnityEngine::TextGenerator* cachedTextGenerator;
 
   __declspec(property(get = get_cachedTextGeneratorForLayout))::UnityEngine::TextGenerator* cachedTextGeneratorForLayout;
 
-  __declspec(property(get = get_mainTexture))::UnityEngine::Texture* mainTexture;
+  __declspec(property(get = get_mainTexture))::UnityW<::UnityEngine::Texture> mainTexture;
 
-  __declspec(property(get = get_font, put = set_font))::UnityEngine::Font* font;
+  __declspec(property(get = get_font, put = set_font))::UnityW<::UnityEngine::Font> font;
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
@@ -141,45 +141,45 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ILayoutElement"
   constexpr ::UnityEngine::UI::ILayoutElement* i___UnityEngine__UI__ILayoutElement() noexcept;
 
-  constexpr ::UnityEngine::UI::FontData*& __get_m_FontData();
+  constexpr ::UnityEngine::UI::FontData*& __cordl_internal_get_m_FontData();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::FontData*> const& __get_m_FontData() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::FontData*> const& __cordl_internal_get_m_FontData() const;
 
-  constexpr void __set_m_FontData(::UnityEngine::UI::FontData* value);
+  constexpr void __cordl_internal_set_m_FontData(::UnityEngine::UI::FontData* value);
 
-  constexpr ::StringW& __get_m_Text();
+  constexpr ::StringW& __cordl_internal_get_m_Text();
 
-  constexpr ::StringW const& __get_m_Text() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Text() const;
 
-  constexpr void __set_m_Text(::StringW value);
+  constexpr void __cordl_internal_set_m_Text(::StringW value);
 
-  constexpr ::UnityEngine::TextGenerator*& __get_m_TextCache();
+  constexpr ::UnityEngine::TextGenerator*& __cordl_internal_get_m_TextCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextGenerator*> const& __get_m_TextCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextGenerator*> const& __cordl_internal_get_m_TextCache() const;
 
-  constexpr void __set_m_TextCache(::UnityEngine::TextGenerator* value);
+  constexpr void __cordl_internal_set_m_TextCache(::UnityEngine::TextGenerator* value);
 
-  constexpr ::UnityEngine::TextGenerator*& __get_m_TextCacheForLayout();
+  constexpr ::UnityEngine::TextGenerator*& __cordl_internal_get_m_TextCacheForLayout();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextGenerator*> const& __get_m_TextCacheForLayout() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextGenerator*> const& __cordl_internal_get_m_TextCacheForLayout() const;
 
-  constexpr void __set_m_TextCacheForLayout(::UnityEngine::TextGenerator* value);
+  constexpr void __cordl_internal_set_m_TextCacheForLayout(::UnityEngine::TextGenerator* value);
 
-  constexpr bool& __get_m_DisableFontTextureRebuiltCallback();
+  constexpr bool& __cordl_internal_get_m_DisableFontTextureRebuiltCallback();
 
-  constexpr bool const& __get_m_DisableFontTextureRebuiltCallback() const;
+  constexpr bool const& __cordl_internal_get_m_DisableFontTextureRebuiltCallback() const;
 
-  constexpr void __set_m_DisableFontTextureRebuiltCallback(bool value);
+  constexpr void __cordl_internal_set_m_DisableFontTextureRebuiltCallback(bool value);
 
-  constexpr ::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*>& __get_m_TempVerts();
+  constexpr ::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*>& __cordl_internal_get_m_TempVerts();
 
-  constexpr ::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*> const& __get_m_TempVerts() const;
+  constexpr ::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*> const& __cordl_internal_get_m_TempVerts() const;
 
-  constexpr void __set_m_TempVerts(::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*> value);
+  constexpr void __cordl_internal_set_m_TempVerts(::ArrayW<::UnityEngine::UIVertex, ::Array<::UnityEngine::UIVertex>*> value);
 
-  static inline void setStaticF_s_DefaultText(::UnityEngine::Material* value);
+  static inline void setStaticF_s_DefaultText(::UnityW<::UnityEngine::Material> value);
 
-  static inline ::UnityEngine::Material* getStaticF_s_DefaultText();
+  static inline ::UnityW<::UnityEngine::Material> getStaticF_s_DefaultText();
 
   static inline ::UnityEngine::UI::Text* New_ctor();
 
@@ -193,13 +193,13 @@ public:
   inline ::UnityEngine::TextGenerator* get_cachedTextGeneratorForLayout();
 
   /// @brief Method get_mainTexture, addr 0x2d8acdc, size 0x1a8, virtual true, abstract: false, final false
-  inline ::UnityEngine::Texture* get_mainTexture();
+  inline ::UnityW<::UnityEngine::Texture> get_mainTexture();
 
   /// @brief Method FontTextureChanged, addr 0x2d8aea0, size 0x10c, virtual false, abstract: false, final false
   inline void FontTextureChanged();
 
   /// @brief Method get_font, addr 0x2d8ae84, size 0x1c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Font* get_font();
+  inline ::UnityW<::UnityEngine::Font> get_font();
 
   /// @brief Method set_font, addr 0x2d8afac, size 0x10c, virtual false, abstract: false, final false
   inline void set_font(::UnityEngine::Font* value);

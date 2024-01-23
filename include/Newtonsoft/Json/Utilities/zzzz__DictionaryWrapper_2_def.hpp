@@ -79,7 +79,7 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11881))
 // CS Name: ::DictionaryWrapper`2::DictionaryEnumerator`2<TKey,TValue,TEnumeratorKey,TEnumeratorValue>
 struct CORDL_TYPE __DictionaryWrapper_2__DictionaryEnumerator_2 {
@@ -150,7 +150,7 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11882))
 // CS Name: ::DictionaryWrapper`2::<>c<TKey,TValue>*
 class CORDL_TYPE __DictionaryWrapper_2____c : public ::System::Object {
@@ -203,7 +203,7 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11883))
 // CS Name: ::Newtonsoft.Json.Utilities::DictionaryWrapper`2<TKey,TValue>*
 class CORDL_TYPE DictionaryWrapper_2 : public ::System::Object {
@@ -215,13 +215,13 @@ public:
   using DictionaryEnumerator_2 = ::Newtonsoft::Json::Utilities::__DictionaryWrapper_2__DictionaryEnumerator_2<TKey, TValue, TEnumeratorKey, TEnumeratorValue>;
 
   /// @brief Field _dictionary, offset 0x10, size 0x8
-  __declspec(property(get = __get__dictionary, put = __set__dictionary))::System::Collections::IDictionary* _dictionary;
+  __declspec(property(get = __cordl_internal_get__dictionary, put = __cordl_internal_set__dictionary))::System::Collections::IDictionary* _dictionary;
 
   /// @brief Field _genericDictionary, offset 0x18, size 0x8
-  __declspec(property(get = __get__genericDictionary, put = __set__genericDictionary))::System::Collections::Generic::IDictionary_2<TKey, TValue>* _genericDictionary;
+  __declspec(property(get = __cordl_internal_get__genericDictionary, put = __cordl_internal_set__genericDictionary))::System::Collections::Generic::IDictionary_2<TKey, TValue>* _genericDictionary;
 
   /// @brief Field _syncRoot, offset 0x20, size 0x8
-  __declspec(property(get = __get__syncRoot, put = __set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
 
   __declspec(property(get = get_Keys))::System::Collections::Generic::ICollection_1<TKey>* Keys;
 
@@ -291,23 +291,23 @@ public:
   /// @brief Convert to "::System::Collections::ICollection"
   constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
-  constexpr ::System::Collections::IDictionary*& __get__dictionary();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get__dictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get__dictionary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get__dictionary() const;
 
-  constexpr void __set__dictionary(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set__dictionary(::System::Collections::IDictionary* value);
 
-  constexpr ::System::Collections::Generic::IDictionary_2<TKey, TValue>*& __get__genericDictionary();
+  constexpr ::System::Collections::Generic::IDictionary_2<TKey, TValue>*& __cordl_internal_get__genericDictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<TKey, TValue>*> const& __get__genericDictionary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<TKey, TValue>*> const& __cordl_internal_get__genericDictionary() const;
 
-  constexpr void __set__genericDictionary(::System::Collections::Generic::IDictionary_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__genericDictionary(::System::Collections::Generic::IDictionary_2<TKey, TValue>* value);
 
-  constexpr ::System::Object*& __get__syncRoot();
+  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__syncRoot() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
-  constexpr void __set__syncRoot(::System::Object* value);
+  constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
   static inline ::Newtonsoft::Json::Utilities::DictionaryWrapper_2<TKey, TValue>* New_ctor(::System::Collections::IDictionary* dictionary);
 

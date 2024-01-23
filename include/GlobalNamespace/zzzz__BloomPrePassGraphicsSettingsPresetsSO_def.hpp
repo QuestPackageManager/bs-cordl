@@ -29,20 +29,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Prese
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4440))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4440))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4428))
 // CS Name: ::BloomPrePassGraphicsSettingsPresetsSO::Preset*
 class CORDL_TYPE __BloomPrePassGraphicsSettingsPresetsSO__Preset : public ::GlobalNamespace::NamedPreset {
 public:
   // Declarations
   /// @brief Field bloomPrePassEffect, offset 0x18, size 0x8
-  __declspec(property(get = __get_bloomPrePassEffect, put = __set_bloomPrePassEffect))::GlobalNamespace::BloomPrePassEffectSO* bloomPrePassEffect;
+  __declspec(property(get = __cordl_internal_get_bloomPrePassEffect, put = __cordl_internal_set_bloomPrePassEffect))::UnityW<::GlobalNamespace::BloomPrePassEffectSO> bloomPrePassEffect;
 
-  constexpr ::GlobalNamespace::BloomPrePassEffectSO*& __get_bloomPrePassEffect();
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO>& __cordl_internal_get_bloomPrePassEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassEffectSO*> const& __get_bloomPrePassEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> const& __cordl_internal_get_bloomPrePassEffect() const;
 
-  constexpr void __set_bloomPrePassEffect(::GlobalNamespace::BloomPrePassEffectSO* value);
+  constexpr void __cordl_internal_set_bloomPrePassEffect(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value);
 
   static inline ::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset* New_ctor();
 
@@ -64,7 +64,7 @@ protected:
 
 public:
   /// @brief Field bloomPrePassEffect, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BloomPrePassEffectSO* ___bloomPrePassEffect;
+  ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> ___bloomPrePassEffect;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -78,7 +78,7 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsS
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4441))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4441))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4429))
 // CS Name: ::BloomPrePassGraphicsSettingsPresetsSO*
 class CORDL_TYPE BloomPrePassGraphicsSettingsPresetsSO : public ::GlobalNamespace::NamedPresetsSO {
@@ -87,20 +87,22 @@ public:
   using Preset = ::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset;
 
   /// @brief Field _presets, offset 0x18, size 0x8
-  __declspec(property(
-      get = __get__presets,
-      put = __set__presets))::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> _presets;
+  __declspec(property(get = __cordl_internal_get__presets, put = __cordl_internal_set__presets))::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*,
+                                                                                                         ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> _presets;
 
   __declspec(
       property(get = get_presets))::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> presets;
 
   __declspec(property(get = get_namedPresets))::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> namedPresets;
 
-  constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*>& __get__presets();
+  constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*>&
+  __cordl_internal_get__presets();
 
-  constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> const& __get__presets() const;
+  constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> const&
+  __cordl_internal_get__presets() const;
 
-  constexpr void __set__presets(::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> value);
+  constexpr void
+  __cordl_internal_set__presets(::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> value);
 
   /// @brief Method get_presets, addr 0x234e6dc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__BloomPrePassGraphicsSettingsPresetsSO__Preset*>*> get_presets();

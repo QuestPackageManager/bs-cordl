@@ -31,29 +31,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1033))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::ECDomainParameters*
 class CORDL_TYPE ECDomainParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field curve, offset 0x10, size 0x8
-  __declspec(property(get = __get_curve, put = __set_curve))::Org::BouncyCastle::Math::EC::ECCurve* curve;
+  __declspec(property(get = __cordl_internal_get_curve, put = __cordl_internal_set_curve))::Org::BouncyCastle::Math::EC::ECCurve* curve;
 
   /// @brief Field seed, offset 0x18, size 0x8
-  __declspec(property(get = __get_seed, put = __set_seed))::ArrayW<uint8_t, ::Array<uint8_t>*> seed;
+  __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed))::ArrayW<uint8_t, ::Array<uint8_t>*> seed;
 
   /// @brief Field g, offset 0x20, size 0x8
-  __declspec(property(get = __get_g, put = __set_g))::Org::BouncyCastle::Math::EC::ECPoint* g;
+  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g))::Org::BouncyCastle::Math::EC::ECPoint* g;
 
   /// @brief Field n, offset 0x28, size 0x8
-  __declspec(property(get = __get_n, put = __set_n))::Org::BouncyCastle::Math::BigInteger* n;
+  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n))::Org::BouncyCastle::Math::BigInteger* n;
 
   /// @brief Field h, offset 0x30, size 0x8
-  __declspec(property(get = __get_h, put = __set_h))::Org::BouncyCastle::Math::BigInteger* h;
+  __declspec(property(get = __cordl_internal_get_h, put = __cordl_internal_set_h))::Org::BouncyCastle::Math::BigInteger* h;
 
   /// @brief Field hInv, offset 0x38, size 0x8
-  __declspec(property(get = __get_hInv, put = __set_hInv))::Org::BouncyCastle::Math::BigInteger* hInv;
+  __declspec(property(get = __cordl_internal_get_hInv, put = __cordl_internal_set_hInv))::Org::BouncyCastle::Math::BigInteger* hInv;
 
   __declspec(property(get = get_Curve))::Org::BouncyCastle::Math::EC::ECCurve* Curve;
 
@@ -65,41 +65,41 @@ public:
 
   __declspec(property(get = get_HInv))::Org::BouncyCastle::Math::BigInteger* HInv;
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __get_curve();
+  constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __cordl_internal_get_curve();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& __get_curve() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& __cordl_internal_get_curve() const;
 
-  constexpr void __set_curve(::Org::BouncyCastle::Math::EC::ECCurve* value);
+  constexpr void __cordl_internal_set_curve(::Org::BouncyCastle::Math::EC::ECCurve* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_seed();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_seed();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_seed() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_seed() const;
 
-  constexpr void __set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __get_g();
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_g();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __get_g() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __cordl_internal_get_g() const;
 
-  constexpr void __set_g(::Org::BouncyCastle::Math::EC::ECPoint* value);
+  constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_n();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_n();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_n() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_n() const;
 
-  constexpr void __set_n(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_h();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_h();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_h() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_h() const;
 
-  constexpr void __set_h(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_h(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_hInv();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_hInv();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_hInv() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_hInv() const;
 
-  constexpr void __set_hInv(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_hInv(::Org::BouncyCastle::Math::BigInteger* value);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* New_ctor(::Org::BouncyCastle::Asn1::X9::X9ECParameters* x9);
 

@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_PDGSession);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9775))
 // CS Name: ::HEU_PDGSession::EventMessageColor
 struct CORDL_TYPE __HEU_PDGSession__EventMessageColor {
@@ -105,7 +105,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_PDGSession__EventMessageColor
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9722))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9722))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9776))
 // CS Name: ::HoudiniEngineUnity::HEU_PDGSession*
 class CORDL_TYPE HEU_PDGSession : public ::System::Object {
@@ -114,97 +114,99 @@ public:
   using EventMessageColor = ::HoudiniEngineUnity::__HEU_PDGSession__EventMessageColor;
 
   /// @brief Field _pdgAssets, offset 0x10, size 0x8
-  __declspec(property(get = __get__pdgAssets, put = __set__pdgAssets))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PDGAssetLink*>* _pdgAssets;
+  __declspec(property(get = __cordl_internal_get__pdgAssets,
+                      put = __cordl_internal_set__pdgAssets))::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PDGAssetLink>>* _pdgAssets;
 
   /// @brief Field _pdgMaxProcessEvents, offset 0x18, size 0x4
-  __declspec(property(get = __get__pdgMaxProcessEvents, put = __set__pdgMaxProcessEvents)) int32_t _pdgMaxProcessEvents;
+  __declspec(property(get = __cordl_internal_get__pdgMaxProcessEvents, put = __cordl_internal_set__pdgMaxProcessEvents)) int32_t _pdgMaxProcessEvents;
 
   /// @brief Field _pdgQueryEvents, offset 0x20, size 0x8
-  __declspec(property(get = __get__pdgQueryEvents, put = __set__pdgQueryEvents))::ArrayW<::HoudiniEngineUnity::HAPI_PDG_EventInfo, ::Array<::HoudiniEngineUnity::HAPI_PDG_EventInfo>*> _pdgQueryEvents;
+  __declspec(property(get = __cordl_internal_get__pdgQueryEvents,
+                      put = __cordl_internal_set__pdgQueryEvents))::ArrayW<::HoudiniEngineUnity::HAPI_PDG_EventInfo, ::Array<::HoudiniEngineUnity::HAPI_PDG_EventInfo>*> _pdgQueryEvents;
 
   /// @brief Field _pdgContextSize, offset 0x28, size 0x4
-  __declspec(property(get = __get__pdgContextSize, put = __set__pdgContextSize)) int32_t _pdgContextSize;
+  __declspec(property(get = __cordl_internal_get__pdgContextSize, put = __cordl_internal_set__pdgContextSize)) int32_t _pdgContextSize;
 
   /// @brief Field _pdgContextIDs, offset 0x30, size 0x8
-  __declspec(property(get = __get__pdgContextIDs, put = __set__pdgContextIDs))::ArrayW<int32_t, ::Array<int32_t>*> _pdgContextIDs;
+  __declspec(property(get = __cordl_internal_get__pdgContextIDs, put = __cordl_internal_set__pdgContextIDs))::ArrayW<int32_t, ::Array<int32_t>*> _pdgContextIDs;
 
   /// @brief Field _errored, offset 0x38, size 0x1
-  __declspec(property(get = __get__errored, put = __set__errored)) bool _errored;
+  __declspec(property(get = __cordl_internal_get__errored, put = __cordl_internal_set__errored)) bool _errored;
 
   /// @brief Field _errorMsg, offset 0x40, size 0x8
-  __declspec(property(get = __get__errorMsg, put = __set__errorMsg))::StringW _errorMsg;
+  __declspec(property(get = __cordl_internal_get__errorMsg, put = __cordl_internal_set__errorMsg))::StringW _errorMsg;
 
   /// @brief Field _pdgState, offset 0x48, size 0x4
-  __declspec(property(get = __get__pdgState, put = __set__pdgState))::HoudiniEngineUnity::HAPI_PDG_State _pdgState;
+  __declspec(property(get = __cordl_internal_get__pdgState, put = __cordl_internal_set__pdgState))::HoudiniEngineUnity::HAPI_PDG_State _pdgState;
 
   /// @brief Field _pdgEventMessages, offset 0x50, size 0x8
-  __declspec(property(get = __get__pdgEventMessages, put = __set__pdgEventMessages))::System::Text::StringBuilder* _pdgEventMessages;
+  __declspec(property(get = __cordl_internal_get__pdgEventMessages, put = __cordl_internal_set__pdgEventMessages))::System::Text::StringBuilder* _pdgEventMessages;
 
   /// @brief Field _eventMessageColorCode, offset 0x58, size 0x8
-  __declspec(property(get = __get__eventMessageColorCode, put = __set__eventMessageColorCode))::ArrayW<::StringW, ::Array<::StringW>*> _eventMessageColorCode;
+  __declspec(property(get = __cordl_internal_get__eventMessageColorCode, put = __cordl_internal_set__eventMessageColorCode))::ArrayW<::StringW, ::Array<::StringW>*> _eventMessageColorCode;
 
   /// @brief Field _pdgSession, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__pdgSession, put = setStaticF__pdgSession))::HoudiniEngineUnity::HEU_PDGSession* _pdgSession;
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PDGAssetLink*>*& __get__pdgAssets();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PDGAssetLink>>*& __cordl_internal_get__pdgAssets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PDGAssetLink*>*> const& __get__pdgAssets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PDGAssetLink>>*> const& __cordl_internal_get__pdgAssets() const;
 
-  constexpr void __set__pdgAssets(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PDGAssetLink*>* value);
+  constexpr void __cordl_internal_set__pdgAssets(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PDGAssetLink>>* value);
 
-  constexpr int32_t& __get__pdgMaxProcessEvents();
+  constexpr int32_t& __cordl_internal_get__pdgMaxProcessEvents();
 
-  constexpr int32_t const& __get__pdgMaxProcessEvents() const;
+  constexpr int32_t const& __cordl_internal_get__pdgMaxProcessEvents() const;
 
-  constexpr void __set__pdgMaxProcessEvents(int32_t value);
+  constexpr void __cordl_internal_set__pdgMaxProcessEvents(int32_t value);
 
-  constexpr ::ArrayW<::HoudiniEngineUnity::HAPI_PDG_EventInfo, ::Array<::HoudiniEngineUnity::HAPI_PDG_EventInfo>*>& __get__pdgQueryEvents();
+  constexpr ::ArrayW<::HoudiniEngineUnity::HAPI_PDG_EventInfo, ::Array<::HoudiniEngineUnity::HAPI_PDG_EventInfo>*>& __cordl_internal_get__pdgQueryEvents();
 
-  constexpr ::ArrayW<::HoudiniEngineUnity::HAPI_PDG_EventInfo, ::Array<::HoudiniEngineUnity::HAPI_PDG_EventInfo>*> const& __get__pdgQueryEvents() const;
+  constexpr ::ArrayW<::HoudiniEngineUnity::HAPI_PDG_EventInfo, ::Array<::HoudiniEngineUnity::HAPI_PDG_EventInfo>*> const& __cordl_internal_get__pdgQueryEvents() const;
 
-  constexpr void __set__pdgQueryEvents(::ArrayW<::HoudiniEngineUnity::HAPI_PDG_EventInfo, ::Array<::HoudiniEngineUnity::HAPI_PDG_EventInfo>*> value);
+  constexpr void __cordl_internal_set__pdgQueryEvents(::ArrayW<::HoudiniEngineUnity::HAPI_PDG_EventInfo, ::Array<::HoudiniEngineUnity::HAPI_PDG_EventInfo>*> value);
 
-  constexpr int32_t& __get__pdgContextSize();
+  constexpr int32_t& __cordl_internal_get__pdgContextSize();
 
-  constexpr int32_t const& __get__pdgContextSize() const;
+  constexpr int32_t const& __cordl_internal_get__pdgContextSize() const;
 
-  constexpr void __set__pdgContextSize(int32_t value);
+  constexpr void __cordl_internal_set__pdgContextSize(int32_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__pdgContextIDs();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__pdgContextIDs();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__pdgContextIDs() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__pdgContextIDs() const;
 
-  constexpr void __set__pdgContextIDs(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__pdgContextIDs(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr bool& __get__errored();
+  constexpr bool& __cordl_internal_get__errored();
 
-  constexpr bool const& __get__errored() const;
+  constexpr bool const& __cordl_internal_get__errored() const;
 
-  constexpr void __set__errored(bool value);
+  constexpr void __cordl_internal_set__errored(bool value);
 
-  constexpr ::StringW& __get__errorMsg();
+  constexpr ::StringW& __cordl_internal_get__errorMsg();
 
-  constexpr ::StringW const& __get__errorMsg() const;
+  constexpr ::StringW const& __cordl_internal_get__errorMsg() const;
 
-  constexpr void __set__errorMsg(::StringW value);
+  constexpr void __cordl_internal_set__errorMsg(::StringW value);
 
-  constexpr ::HoudiniEngineUnity::HAPI_PDG_State& __get__pdgState();
+  constexpr ::HoudiniEngineUnity::HAPI_PDG_State& __cordl_internal_get__pdgState();
 
-  constexpr ::HoudiniEngineUnity::HAPI_PDG_State const& __get__pdgState() const;
+  constexpr ::HoudiniEngineUnity::HAPI_PDG_State const& __cordl_internal_get__pdgState() const;
 
-  constexpr void __set__pdgState(::HoudiniEngineUnity::HAPI_PDG_State value);
+  constexpr void __cordl_internal_set__pdgState(::HoudiniEngineUnity::HAPI_PDG_State value);
 
-  constexpr ::System::Text::StringBuilder*& __get__pdgEventMessages();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__pdgEventMessages();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get__pdgEventMessages() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__pdgEventMessages() const;
 
-  constexpr void __set__pdgEventMessages(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set__pdgEventMessages(::System::Text::StringBuilder* value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__eventMessageColorCode();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__eventMessageColorCode();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__eventMessageColorCode() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__eventMessageColorCode() const;
 
-  constexpr void __set__eventMessageColorCode(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__eventMessageColorCode(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
   static inline void setStaticF__pdgSession(::HoudiniEngineUnity::HEU_PDGSession* value);
 
@@ -324,7 +326,7 @@ protected:
 
 public:
   /// @brief Field _pdgAssets, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PDGAssetLink*>* ____pdgAssets;
+  ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PDGAssetLink>>* ____pdgAssets;
 
   /// @brief Field _pdgMaxProcessEvents, offset: 0x18, size: 0x4, def value: None
   int32_t ____pdgMaxProcessEvents;

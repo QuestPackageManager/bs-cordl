@@ -35,8 +35,8 @@ MARK_VAL_T(::BGNet::Core::GameLift::GetMultiplayerInstanceRequest);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12740)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12681)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12758))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13010)) CS Name: ::BGNet.Core.GameLift::GetMultiplayerInstanceRequest
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12681)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12740)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12758))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13010)) CS Name: ::BGNet.Core.GameLift::GetMultiplayerInstanceRequest
 struct CORDL_TYPE GetMultiplayerInstanceRequest {
 public:
   // Declarations

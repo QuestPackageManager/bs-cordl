@@ -23,47 +23,47 @@ MARK_REF_PTR_T(::GlobalNamespace::ConditionalImageMaterialSwitcher);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5353))
 // CS Name: ::ConditionalImageMaterialSwitcher*
 class CORDL_TYPE ConditionalImageMaterialSwitcher : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _material0, offset 0x18, size 0x8
-  __declspec(property(get = __get__material0, put = __set__material0))::UnityEngine::Material* _material0;
+  __declspec(property(get = __cordl_internal_get__material0, put = __cordl_internal_set__material0))::UnityW<::UnityEngine::Material> _material0;
 
   /// @brief Field _material1, offset 0x20, size 0x8
-  __declspec(property(get = __get__material1, put = __set__material1))::UnityEngine::Material* _material1;
+  __declspec(property(get = __cordl_internal_get__material1, put = __cordl_internal_set__material1))::UnityW<::UnityEngine::Material> _material1;
 
   /// @brief Field _value, offset 0x28, size 0x8
-  __declspec(property(get = __get__value, put = __set__value))::GlobalNamespace::BoolSO* _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::UnityW<::GlobalNamespace::BoolSO> _value;
 
   /// @brief Field _image, offset 0x30, size 0x8
-  __declspec(property(get = __get__image, put = __set__image))::UnityEngine::UI::Image* _image;
+  __declspec(property(get = __cordl_internal_get__image, put = __cordl_internal_set__image))::UnityW<::UnityEngine::UI::Image> _image;
 
-  constexpr ::UnityEngine::Material*& __get__material0();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material0();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__material0() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material0() const;
 
-  constexpr void __set__material0(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__material0(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get__material1();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material1();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__material1() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material1() const;
 
-  constexpr void __set__material1(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__material1(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::GlobalNamespace::BoolSO*& __get__value();
+  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__value();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& __get__value() const;
+  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(::GlobalNamespace::BoolSO* value);
+  constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__image();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__image();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__image() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__image() const;
 
-  constexpr void __set__image(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
 
   /// @brief Method Awake, addr 0x226bfb8, size 0x80, virtual false, abstract: false, final false
   inline void Awake();
@@ -88,16 +88,16 @@ protected:
 
 public:
   /// @brief Field _material0, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Material* ____material0;
+  ::UnityW<::UnityEngine::Material> ____material0;
 
   /// @brief Field _material1, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Material* ____material1;
+  ::UnityW<::UnityEngine::Material> ____material1;
 
   /// @brief Field _value, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::BoolSO* ____value;
+  ::UnityW<::GlobalNamespace::BoolSO> ____value;
 
   /// @brief Field _image, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____image;
+  ::UnityW<::UnityEngine::UI::Image> ____image;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

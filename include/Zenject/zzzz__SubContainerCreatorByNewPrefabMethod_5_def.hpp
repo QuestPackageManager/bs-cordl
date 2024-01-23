@@ -52,29 +52,30 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11286))
 // CS Name: ::SubContainerCreatorByNewPrefabMethod`5::<>c__DisplayClass2_0<TParam1,TParam2,TParam3,TParam4,TParam5>*
 class CORDL_TYPE __SubContainerCreatorByNewPrefabMethod_5____c__DisplayClass2_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::SubContainerCreatorByNewPrefabMethod_5<TParam1, TParam2, TParam3, TParam4, TParam5>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this,
+                      put = __cordl_internal_set___4__this))::Zenject::SubContainerCreatorByNewPrefabMethod_5<TParam1, TParam2, TParam3, TParam4, TParam5>* __4__this;
 
   /// @brief Field args, offset 0x18, size 0x8
-  __declspec(property(get = __get_args, put = __set_args))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args;
+  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args;
 
-  constexpr ::Zenject::SubContainerCreatorByNewPrefabMethod_5<TParam1, TParam2, TParam3, TParam4, TParam5>*& __get___4__this();
+  constexpr ::Zenject::SubContainerCreatorByNewPrefabMethod_5<TParam1, TParam2, TParam3, TParam4, TParam5>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorByNewPrefabMethod_5<TParam1, TParam2, TParam3, TParam4, TParam5>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorByNewPrefabMethod_5<TParam1, TParam2, TParam3, TParam4, TParam5>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::SubContainerCreatorByNewPrefabMethod_5<TParam1, TParam2, TParam3, TParam4, TParam5>* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::SubContainerCreatorByNewPrefabMethod_5<TParam1, TParam2, TParam3, TParam4, TParam5>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __get_args();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get_args();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __get_args() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __cordl_internal_get_args() const;
 
-  constexpr void __set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
+  constexpr void __cordl_internal_set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
 
   static inline ::Zenject::__SubContainerCreatorByNewPrefabMethod_5____c__DisplayClass2_0<TParam1, TParam2, TParam3, TParam4, TParam5>* New_ctor();
 
@@ -120,7 +121,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11274))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11274))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11287))
 // CS Name: ::Zenject::SubContainerCreatorByNewPrefabMethod`5<TParam1,TParam2,TParam3,TParam4,TParam5>*
 class CORDL_TYPE SubContainerCreatorByNewPrefabMethod_5 : public ::Zenject::SubContainerCreatorByNewPrefabDynamicContext {
@@ -129,13 +130,14 @@ public:
   using __c__DisplayClass2_0 = ::Zenject::__SubContainerCreatorByNewPrefabMethod_5____c__DisplayClass2_0<TParam1, TParam2, TParam3, TParam4, TParam5>;
 
   /// @brief Field _installerMethod, offset 0x28, size 0x8
-  __declspec(property(get = __get__installerMethod, put = __set__installerMethod))::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>* _installerMethod;
+  __declspec(property(get = __cordl_internal_get__installerMethod,
+                      put = __cordl_internal_set__installerMethod))::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>* _installerMethod;
 
-  constexpr ::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>*& __get__installerMethod();
+  constexpr ::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>*& __cordl_internal_get__installerMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>*> const& __get__installerMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>*> const& __cordl_internal_get__installerMethod() const;
 
-  constexpr void __set__installerMethod(::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>* value);
+  constexpr void __cordl_internal_set__installerMethod(::System::Action_6<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5>* value);
 
   static inline ::Zenject::SubContainerCreatorByNewPrefabMethod_5<TParam1, TParam2, TParam3, TParam4, TParam5>*
   New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,

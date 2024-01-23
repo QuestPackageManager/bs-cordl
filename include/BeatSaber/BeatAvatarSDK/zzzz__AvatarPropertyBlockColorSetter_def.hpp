@@ -26,104 +26,104 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarPropertyBlockColorSetter);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15688))
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarPropertyBlockColorSetter*
 class CORDL_TYPE AvatarPropertyBlockColorSetter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _defaultColor, offset 0x18, size 0x10
-  __declspec(property(get = __get__defaultColor, put = __set__defaultColor))::UnityEngine::Color _defaultColor;
+  __declspec(property(get = __cordl_internal_get__defaultColor, put = __cordl_internal_set__defaultColor))::UnityEngine::Color _defaultColor;
 
   /// @brief Field _darkerColorMultiplier, offset 0x28, size 0x4
-  __declspec(property(get = __get__darkerColorMultiplier, put = __set__darkerColorMultiplier)) float_t _darkerColorMultiplier;
+  __declspec(property(get = __cordl_internal_get__darkerColorMultiplier, put = __cordl_internal_set__darkerColorMultiplier)) float_t _darkerColorMultiplier;
 
   /// @brief Field _whiteBoost, offset 0x2c, size 0x4
-  __declspec(property(get = __get__whiteBoost, put = __set__whiteBoost)) float_t _whiteBoost;
+  __declspec(property(get = __cordl_internal_get__whiteBoost, put = __cordl_internal_set__whiteBoost)) float_t _whiteBoost;
 
   /// @brief Field _editInPlayMode, offset 0x30, size 0x1
-  __declspec(property(get = __get__editInPlayMode, put = __set__editInPlayMode)) bool _editInPlayMode;
+  __declspec(property(get = __cordl_internal_get__editInPlayMode, put = __cordl_internal_set__editInPlayMode)) bool _editInPlayMode;
 
   /// @brief Field _ignoreRimLight, offset 0x31, size 0x1
-  __declspec(property(get = __get__ignoreRimLight, put = __set__ignoreRimLight)) bool _ignoreRimLight;
+  __declspec(property(get = __cordl_internal_get__ignoreRimLight, put = __cordl_internal_set__ignoreRimLight)) bool _ignoreRimLight;
 
   /// @brief Field _renderer, offset 0x38, size 0x8
-  __declspec(property(get = __get__renderer, put = __set__renderer))::UnityEngine::Renderer* _renderer;
+  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::Renderer> _renderer;
 
   /// @brief Field _rimLightColor, offset 0x40, size 0x10
-  __declspec(property(get = __get__rimLightColor, put = __set__rimLightColor))::UnityEngine::Color _rimLightColor;
+  __declspec(property(get = __cordl_internal_get__rimLightColor, put = __cordl_internal_set__rimLightColor))::UnityEngine::Color _rimLightColor;
 
   /// @brief Field _mainColor, offset 0x50, size 0x10
-  __declspec(property(get = __get__mainColor, put = __set__mainColor))::UnityEngine::Color _mainColor;
+  __declspec(property(get = __cordl_internal_get__mainColor, put = __cordl_internal_set__mainColor))::UnityEngine::Color _mainColor;
 
   /// @brief Field _boostColor, offset 0x60, size 0x10
-  __declspec(property(get = __get__boostColor, put = __set__boostColor))::UnityEngine::Color _boostColor;
+  __declspec(property(get = __cordl_internal_get__boostColor, put = __cordl_internal_set__boostColor))::UnityEngine::Color _boostColor;
 
   /// @brief Field _highlighted, offset 0x70, size 0x1
-  __declspec(property(get = __get__highlighted, put = __set__highlighted)) bool _highlighted;
+  __declspec(property(get = __cordl_internal_get__highlighted, put = __cordl_internal_set__highlighted)) bool _highlighted;
 
   /// @brief Field _materialPropertyBlock, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock))::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
 
-  constexpr ::UnityEngine::Color& __get__defaultColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__defaultColor();
 
-  constexpr ::UnityEngine::Color const& __get__defaultColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__defaultColor() const;
 
-  constexpr void __set__defaultColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__defaultColor(::UnityEngine::Color value);
 
-  constexpr float_t& __get__darkerColorMultiplier();
+  constexpr float_t& __cordl_internal_get__darkerColorMultiplier();
 
-  constexpr float_t const& __get__darkerColorMultiplier() const;
+  constexpr float_t const& __cordl_internal_get__darkerColorMultiplier() const;
 
-  constexpr void __set__darkerColorMultiplier(float_t value);
+  constexpr void __cordl_internal_set__darkerColorMultiplier(float_t value);
 
-  constexpr float_t& __get__whiteBoost();
+  constexpr float_t& __cordl_internal_get__whiteBoost();
 
-  constexpr float_t const& __get__whiteBoost() const;
+  constexpr float_t const& __cordl_internal_get__whiteBoost() const;
 
-  constexpr void __set__whiteBoost(float_t value);
+  constexpr void __cordl_internal_set__whiteBoost(float_t value);
 
-  constexpr bool& __get__editInPlayMode();
+  constexpr bool& __cordl_internal_get__editInPlayMode();
 
-  constexpr bool const& __get__editInPlayMode() const;
+  constexpr bool const& __cordl_internal_get__editInPlayMode() const;
 
-  constexpr void __set__editInPlayMode(bool value);
+  constexpr void __cordl_internal_set__editInPlayMode(bool value);
 
-  constexpr bool& __get__ignoreRimLight();
+  constexpr bool& __cordl_internal_get__ignoreRimLight();
 
-  constexpr bool const& __get__ignoreRimLight() const;
+  constexpr bool const& __cordl_internal_get__ignoreRimLight() const;
 
-  constexpr void __set__ignoreRimLight(bool value);
+  constexpr void __cordl_internal_set__ignoreRimLight(bool value);
 
-  constexpr ::UnityEngine::Renderer*& __get__renderer();
+  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Renderer*> const& __get__renderer() const;
+  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
 
-  constexpr void __set__renderer(::UnityEngine::Renderer* value);
+  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  constexpr ::UnityEngine::Color& __get__rimLightColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__rimLightColor();
 
-  constexpr ::UnityEngine::Color const& __get__rimLightColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__rimLightColor() const;
 
-  constexpr void __set__rimLightColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__rimLightColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__mainColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__mainColor();
 
-  constexpr ::UnityEngine::Color const& __get__mainColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__mainColor() const;
 
-  constexpr void __set__mainColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__mainColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__boostColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__boostColor();
 
-  constexpr ::UnityEngine::Color const& __get__boostColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__boostColor() const;
 
-  constexpr void __set__boostColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__boostColor(::UnityEngine::Color value);
 
-  constexpr bool& __get__highlighted();
+  constexpr bool& __cordl_internal_get__highlighted();
 
-  constexpr bool const& __get__highlighted() const;
+  constexpr bool const& __cordl_internal_get__highlighted() const;
 
-  constexpr void __set__highlighted(bool value);
+  constexpr void __cordl_internal_set__highlighted(bool value);
 
   static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
 
@@ -182,7 +182,7 @@ public:
   bool ____ignoreRimLight;
 
   /// @brief Field _renderer, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Renderer* ____renderer;
+  ::UnityW<::UnityEngine::Renderer> ____renderer;
 
   /// @brief Field _rimLightColor, offset: 0x40, size: 0x10, def value: None
   ::UnityEngine::Color ____rimLightColor;

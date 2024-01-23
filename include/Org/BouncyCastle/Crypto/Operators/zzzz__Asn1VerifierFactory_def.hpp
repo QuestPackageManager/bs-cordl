@@ -30,17 +30,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(994))
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::Asn1VerifierFactory*
 class CORDL_TYPE Asn1VerifierFactory : public ::System::Object {
 public:
   // Declarations
   /// @brief Field algID, offset 0x10, size 0x8
-  __declspec(property(get = __get_algID, put = __set_algID))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID;
+  __declspec(property(get = __cordl_internal_get_algID, put = __cordl_internal_set_algID))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algID;
 
   /// @brief Field publicKey, offset 0x18, size 0x8
-  __declspec(property(get = __get_publicKey, put = __set_publicKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey;
+  __declspec(property(get = __cordl_internal_get_publicKey, put = __cordl_internal_set_publicKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey;
 
   __declspec(property(get = get_AlgorithmDetails))::System::Object* AlgorithmDetails;
 
@@ -50,17 +50,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IVerifierFactory"
   constexpr ::Org::BouncyCastle::Crypto::IVerifierFactory* i___Org__BouncyCastle__Crypto__IVerifierFactory() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_algID();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_algID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_algID() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_algID() const;
 
-  constexpr void __set_algID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_algID(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __get_publicKey();
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_publicKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __get_publicKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_publicKey() const;
 
-  constexpr void __set_publicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+  constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactory* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 

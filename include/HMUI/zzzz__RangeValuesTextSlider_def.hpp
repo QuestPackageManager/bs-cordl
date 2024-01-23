@@ -28,29 +28,30 @@ MARK_REF_PTR_T(::HMUI::RangeValuesTextSlider);
 // SizeInfo { instance_size: 360, native_size: -1, calculated_instance_size: 360, calculated_native_size: 360, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13560))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13560))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13558))
 // CS Name: ::HMUI::RangeValuesTextSlider*
 class CORDL_TYPE RangeValuesTextSlider : public ::HMUI::TextSlider {
 public:
   // Declarations
   /// @brief Field _minValue, offset 0x13c, size 0x4
-  __declspec(property(get = __get__minValue, put = __set__minValue)) float_t _minValue;
+  __declspec(property(get = __cordl_internal_get__minValue, put = __cordl_internal_set__minValue)) float_t _minValue;
 
   /// @brief Field _maxValue, offset 0x140, size 0x4
-  __declspec(property(get = __get__maxValue, put = __set__maxValue)) float_t _maxValue;
+  __declspec(property(get = __cordl_internal_get__maxValue, put = __cordl_internal_set__maxValue)) float_t _maxValue;
 
   /// @brief Field _decButton, offset 0x148, size 0x8
-  __declspec(property(get = __get__decButton, put = __set__decButton))::UnityEngine::UI::Button* _decButton;
+  __declspec(property(get = __cordl_internal_get__decButton, put = __cordl_internal_set__decButton))::UnityW<::UnityEngine::UI::Button> _decButton;
 
   /// @brief Field _incButton, offset 0x150, size 0x8
-  __declspec(property(get = __get__incButton, put = __set__incButton))::UnityEngine::UI::Button* _incButton;
+  __declspec(property(get = __cordl_internal_get__incButton, put = __cordl_internal_set__incButton))::UnityW<::UnityEngine::UI::Button> _incButton;
 
   /// @brief Field valueDidChangeEvent, offset 0x158, size 0x8
-  __declspec(property(get = __get_valueDidChangeEvent, put = __set_valueDidChangeEvent))::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>* valueDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_valueDidChangeEvent,
+                      put = __cordl_internal_set_valueDidChangeEvent))::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* valueDidChangeEvent;
 
   /// @brief Field _buttonBinder, offset 0x160, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
   __declspec(property(get = get_minValue, put = set_minValue)) float_t minValue;
 
@@ -58,41 +59,41 @@ public:
 
   __declspec(property(get = get_value, put = set_value)) float_t value;
 
-  constexpr float_t& __get__minValue();
+  constexpr float_t& __cordl_internal_get__minValue();
 
-  constexpr float_t const& __get__minValue() const;
+  constexpr float_t const& __cordl_internal_get__minValue() const;
 
-  constexpr void __set__minValue(float_t value);
+  constexpr void __cordl_internal_set__minValue(float_t value);
 
-  constexpr float_t& __get__maxValue();
+  constexpr float_t& __cordl_internal_get__maxValue();
 
-  constexpr float_t const& __get__maxValue() const;
+  constexpr float_t const& __cordl_internal_get__maxValue() const;
 
-  constexpr void __set__maxValue(float_t value);
+  constexpr void __cordl_internal_set__maxValue(float_t value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__decButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__decButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__decButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__decButton() const;
 
-  constexpr void __set__decButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__decButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__incButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__incButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__incButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__incButton() const;
 
-  constexpr void __set__incButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__incButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>*& __get_valueDidChangeEvent();
+  constexpr ::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>*& __cordl_internal_get_valueDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>*> const& __get_valueDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>*> const& __cordl_internal_get_valueDidChangeEvent() const;
 
-  constexpr void __set_valueDidChangeEvent(::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>* value);
+  constexpr void __cordl_internal_set_valueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
   /// @brief Method get_minValue, addr 0x21224f8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_minValue();
@@ -113,10 +114,10 @@ public:
   inline float_t get_value();
 
   /// @brief Method add_valueDidChangeEvent, addr 0x2122684, size 0xb4, virtual false, abstract: false, final false
-  inline void add_valueDidChangeEvent(::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>* value);
+  inline void add_valueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* value);
 
   /// @brief Method remove_valueDidChangeEvent, addr 0x2122738, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_valueDidChangeEvent(::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>* value);
+  inline void remove_valueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* value);
 
   /// @brief Method Awake, addr 0x21227ec, size 0x1ec, virtual true, abstract: false, final false
   inline void Awake();
@@ -171,13 +172,13 @@ public:
   float_t ____maxValue;
 
   /// @brief Field _decButton, offset: 0x148, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____decButton;
+  ::UnityW<::UnityEngine::UI::Button> ____decButton;
 
   /// @brief Field _incButton, offset: 0x150, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____incButton;
+  ::UnityW<::UnityEngine::UI::Button> ____incButton;
 
   /// @brief Field valueDidChangeEvent, offset: 0x158, size: 0x8, def value: None
-  ::System::Action_2<::HMUI::RangeValuesTextSlider*, float_t>* ___valueDidChangeEvent;
+  ::System::Action_2<::UnityW<::HMUI::RangeValuesTextSlider>, float_t>* ___valueDidChangeEvent;
 
   /// @brief Field _buttonBinder, offset: 0x160, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;

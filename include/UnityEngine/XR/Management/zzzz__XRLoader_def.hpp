@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::XR::Management::XRLoader);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16035))
 // CS Name: ::UnityEngine.XR.Management::XRLoader*
 class CORDL_TYPE XRLoader : public ::UnityEngine::ScriptableObject {

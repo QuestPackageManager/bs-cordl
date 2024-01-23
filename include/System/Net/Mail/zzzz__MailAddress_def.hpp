@@ -25,23 +25,23 @@ MARK_REF_PTR_T(::System::Net::Mail::MailAddress);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Mail {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9382))
 // CS Name: ::System.Net.Mail::MailAddress*
 class CORDL_TYPE MailAddress : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _displayNameEncoding, offset 0x10, size 0x8
-  __declspec(property(get = __get__displayNameEncoding, put = __set__displayNameEncoding))::System::Text::Encoding* _displayNameEncoding;
+  __declspec(property(get = __cordl_internal_get__displayNameEncoding, put = __cordl_internal_set__displayNameEncoding))::System::Text::Encoding* _displayNameEncoding;
 
   /// @brief Field _displayName, offset 0x18, size 0x8
-  __declspec(property(get = __get__displayName, put = __set__displayName))::StringW _displayName;
+  __declspec(property(get = __cordl_internal_get__displayName, put = __cordl_internal_set__displayName))::StringW _displayName;
 
   /// @brief Field _userName, offset 0x20, size 0x8
-  __declspec(property(get = __get__userName, put = __set__userName))::StringW _userName;
+  __declspec(property(get = __cordl_internal_get__userName, put = __cordl_internal_set__userName))::StringW _userName;
 
   /// @brief Field _host, offset 0x28, size 0x8
-  __declspec(property(get = __get__host, put = __set__host))::StringW _host;
+  __declspec(property(get = __cordl_internal_get__host, put = __cordl_internal_set__host))::StringW _host;
 
   /// @brief Field s_encoderFactory, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_encoderFactory, put = setStaticF_s_encoderFactory))::System::Net::Mime::EncodedStreamFactory* s_encoderFactory;
@@ -52,29 +52,29 @@ public:
 
   __declspec(property(get = get_SmtpAddress))::StringW SmtpAddress;
 
-  constexpr ::System::Text::Encoding*& __get__displayNameEncoding();
+  constexpr ::System::Text::Encoding*& __cordl_internal_get__displayNameEncoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __get__displayNameEncoding() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__displayNameEncoding() const;
 
-  constexpr void __set__displayNameEncoding(::System::Text::Encoding* value);
+  constexpr void __cordl_internal_set__displayNameEncoding(::System::Text::Encoding* value);
 
-  constexpr ::StringW& __get__displayName();
+  constexpr ::StringW& __cordl_internal_get__displayName();
 
-  constexpr ::StringW const& __get__displayName() const;
+  constexpr ::StringW const& __cordl_internal_get__displayName() const;
 
-  constexpr void __set__displayName(::StringW value);
+  constexpr void __cordl_internal_set__displayName(::StringW value);
 
-  constexpr ::StringW& __get__userName();
+  constexpr ::StringW& __cordl_internal_get__userName();
 
-  constexpr ::StringW const& __get__userName() const;
+  constexpr ::StringW const& __cordl_internal_get__userName() const;
 
-  constexpr void __set__userName(::StringW value);
+  constexpr void __cordl_internal_set__userName(::StringW value);
 
-  constexpr ::StringW& __get__host();
+  constexpr ::StringW& __cordl_internal_get__host();
 
-  constexpr ::StringW const& __get__host() const;
+  constexpr ::StringW const& __cordl_internal_get__host() const;
 
-  constexpr void __set__host(::StringW value);
+  constexpr void __cordl_internal_set__host(::StringW value);
 
   static inline void setStaticF_s_encoderFactory(::System::Net::Mime::EncodedStreamFactory* value);
 

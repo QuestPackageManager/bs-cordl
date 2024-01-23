@@ -18,29 +18,29 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::SupportsChildTracksAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13919))
 // CS Name: ::UnityEngine.Timeline::SupportsChildTracksAttribute*
 class CORDL_TYPE SupportsChildTracksAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field childType, offset 0x10, size 0x8
-  __declspec(property(get = __get_childType, put = __set_childType))::System::Type* childType;
+  __declspec(property(get = __cordl_internal_get_childType, put = __cordl_internal_set_childType))::System::Type* childType;
 
   /// @brief Field levels, offset 0x18, size 0x4
-  __declspec(property(get = __get_levels, put = __set_levels)) int32_t levels;
+  __declspec(property(get = __cordl_internal_get_levels, put = __cordl_internal_set_levels)) int32_t levels;
 
-  constexpr ::System::Type*& __get_childType();
+  constexpr ::System::Type*& __cordl_internal_get_childType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_childType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_childType() const;
 
-  constexpr void __set_childType(::System::Type* value);
+  constexpr void __cordl_internal_set_childType(::System::Type* value);
 
-  constexpr int32_t& __get_levels();
+  constexpr int32_t& __cordl_internal_get_levels();
 
-  constexpr int32_t const& __get_levels() const;
+  constexpr int32_t const& __cordl_internal_get_levels() const;
 
-  constexpr void __set_levels(int32_t value);
+  constexpr void __cordl_internal_set_levels(int32_t value);
 
   static inline ::UnityEngine::Timeline::SupportsChildTracksAttribute* New_ctor(::System::Type* childType, int32_t levels);
 

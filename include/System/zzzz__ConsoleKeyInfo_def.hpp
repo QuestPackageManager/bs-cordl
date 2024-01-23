@@ -26,7 +26,7 @@ MARK_VAL_T(::System::ConsoleKeyInfo);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2519)), TypeDefinitionIndex(TypeDefinitionIndex(2521))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2519)), TypeDefinitionIndex(TypeDefinitionIndex(2521))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2520))
 // CS Name: ::System::ConsoleKeyInfo
 struct CORDL_TYPE ConsoleKeyInfo {

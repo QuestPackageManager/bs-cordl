@@ -20,22 +20,23 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonBinary);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12077)), TypeDefinitionIndex(TypeDefinitionIndex(12069))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12069)), TypeDefinitionIndex(TypeDefinitionIndex(12077))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12079))
 // CS Name: ::Newtonsoft.Json.Bson::BsonBinary*
 class CORDL_TYPE BsonBinary : public ::Newtonsoft::Json::Bson::BsonValue {
 public:
   // Declarations
   /// @brief Field <BinaryType>k__BackingField, offset 0x29, size 0x1
-  __declspec(property(get = __get__BinaryType_k__BackingField, put = __set__BinaryType_k__BackingField))::Newtonsoft::Json::Bson::BsonBinaryType _BinaryType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BinaryType_k__BackingField,
+                      put = __cordl_internal_set__BinaryType_k__BackingField))::Newtonsoft::Json::Bson::BsonBinaryType _BinaryType_k__BackingField;
 
   __declspec(property(get = get_BinaryType, put = set_BinaryType))::Newtonsoft::Json::Bson::BsonBinaryType BinaryType;
 
-  constexpr ::Newtonsoft::Json::Bson::BsonBinaryType& __get__BinaryType_k__BackingField();
+  constexpr ::Newtonsoft::Json::Bson::BsonBinaryType& __cordl_internal_get__BinaryType_k__BackingField();
 
-  constexpr ::Newtonsoft::Json::Bson::BsonBinaryType const& __get__BinaryType_k__BackingField() const;
+  constexpr ::Newtonsoft::Json::Bson::BsonBinaryType const& __cordl_internal_get__BinaryType_k__BackingField() const;
 
-  constexpr void __set__BinaryType_k__BackingField(::Newtonsoft::Json::Bson::BsonBinaryType value);
+  constexpr void __cordl_internal_set__BinaryType_k__BackingField(::Newtonsoft::Json::Bson::BsonBinaryType value);
 
   /// @brief Method get_BinaryType, addr 0x26c842c, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonBinaryType get_BinaryType();

@@ -33,22 +33,22 @@ MARK_REF_PTR_T(::System::ComponentModel::DelegatingTypeDescriptionProvider);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9460))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9460))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9419))
 // CS Name: ::System.ComponentModel::DelegatingTypeDescriptionProvider*
 class CORDL_TYPE DelegatingTypeDescriptionProvider : public ::System::ComponentModel::TypeDescriptionProvider {
 public:
   // Declarations
   /// @brief Field _type, offset 0x20, size 0x8
-  __declspec(property(get = __get__type, put = __set__type))::System::Type* _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::System::Type* _type;
 
   __declspec(property(get = get_Provider))::System::ComponentModel::TypeDescriptionProvider* Provider;
 
-  constexpr ::System::Type*& __get__type();
+  constexpr ::System::Type*& __cordl_internal_get__type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__type() const;
 
-  constexpr void __set__type(::System::Type* value);
+  constexpr void __cordl_internal_set__type(::System::Type* value);
 
   static inline ::System::ComponentModel::DelegatingTypeDescriptionProvider* New_ctor(::System::Type* type);
 

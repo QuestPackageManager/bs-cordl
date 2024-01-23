@@ -108,43 +108,44 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3806))
 // CS Name: ::ConcurrentDictionary`2::Tables<TKey,TValue>*
 class CORDL_TYPE __ConcurrentDictionary_2__Tables : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _buckets, offset 0x10, size 0x8
-  __declspec(property(get = __get__buckets, put = __set__buckets))::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*,
-                                                                           ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> _buckets;
+  __declspec(property(get = __cordl_internal_get__buckets,
+                      put = __cordl_internal_set__buckets))::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*,
+                                                                    ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> _buckets;
 
   /// @brief Field _locks, offset 0x18, size 0x8
-  __declspec(property(get = __get__locks, put = __set__locks))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _locks;
+  __declspec(property(get = __cordl_internal_get__locks, put = __cordl_internal_set__locks))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _locks;
 
   /// @brief Field _countPerLock, offset 0x20, size 0x8
-  __declspec(property(get = __get__countPerLock, put = __set__countPerLock))::ArrayW<int32_t, ::Array<int32_t>*> _countPerLock;
+  __declspec(property(get = __cordl_internal_get__countPerLock, put = __cordl_internal_set__countPerLock))::ArrayW<int32_t, ::Array<int32_t>*> _countPerLock;
 
   constexpr ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*>&
-  __get__buckets();
+  __cordl_internal_get__buckets();
 
   constexpr ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*,
                      ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> const&
-  __get__buckets() const;
+  __cordl_internal_get__buckets() const;
 
-  constexpr void __set__buckets(
+  constexpr void __cordl_internal_set__buckets(
       ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> value);
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get__locks();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__locks();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get__locks() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__locks() const;
 
-  constexpr void __set__locks(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set__locks(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__countPerLock();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__countPerLock();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__countPerLock() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__countPerLock() const;
 
-  constexpr void __set__countPerLock(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__countPerLock(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   static inline ::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>* New_ctor(
       ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> buckets,
@@ -188,47 +189,47 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3807))
 // CS Name: ::ConcurrentDictionary`2::Node<TKey,TValue>*
 class CORDL_TYPE __ConcurrentDictionary_2__Node : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _key, offset 0x10, size 0x8
-  __declspec(property(get = __get__key, put = __set__key)) TKey _key;
+  __declspec(property(get = __cordl_internal_get__key, put = __cordl_internal_set__key)) TKey _key;
 
   /// @brief Field _value, offset 0x18, size 0x8
-  __declspec(property(get = __get__value, put = __set__value)) TValue _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) TValue _value;
 
   /// @brief Field _next, offset 0x20, size 0x8
-  __declspec(property(get = __get__next, put = __set__next))::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* _next;
+  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next))::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* _next;
 
   /// @brief Field _hashcode, offset 0x28, size 0x4
-  __declspec(property(get = __get__hashcode, put = __set__hashcode)) int32_t _hashcode;
+  __declspec(property(get = __cordl_internal_get__hashcode, put = __cordl_internal_set__hashcode)) int32_t _hashcode;
 
-  constexpr TKey& __get__key();
+  constexpr TKey& __cordl_internal_get__key();
 
-  constexpr TKey const& __get__key() const;
+  constexpr TKey const& __cordl_internal_get__key() const;
 
-  constexpr void __set__key(TKey value);
+  constexpr void __cordl_internal_set__key(TKey value);
 
-  constexpr TValue& __get__value();
+  constexpr TValue& __cordl_internal_get__value();
 
-  constexpr TValue const& __get__value() const;
+  constexpr TValue const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(TValue value);
+  constexpr void __cordl_internal_set__value(TValue value);
 
-  constexpr ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*& __get__next();
+  constexpr ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*& __cordl_internal_get__next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*> const& __get__next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*> const& __cordl_internal_get__next() const;
 
-  constexpr void __set__next(::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__next(::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* value);
 
-  constexpr int32_t& __get__hashcode();
+  constexpr int32_t& __cordl_internal_get__hashcode();
 
-  constexpr int32_t const& __get__hashcode() const;
+  constexpr int32_t const& __cordl_internal_get__hashcode() const;
 
-  constexpr void __set__hashcode(int32_t value);
+  constexpr void __cordl_internal_set__hashcode(int32_t value);
 
   static inline ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* New_ctor(TKey key, TValue value, int32_t hashcode,
                                                                                                           ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* next);
@@ -272,14 +273,15 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3808))
 // CS Name: ::ConcurrentDictionary`2::DictionaryEnumerator<TKey,TValue>*
 class CORDL_TYPE __ConcurrentDictionary_2__DictionaryEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _enumerator, offset 0x10, size 0x8
-  __declspec(property(get = __get__enumerator, put = __set__enumerator))::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* _enumerator;
+  __declspec(property(get = __cordl_internal_get__enumerator,
+                      put = __cordl_internal_set__enumerator))::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* _enumerator;
 
   __declspec(property(get = get_Entry))::System::Collections::DictionaryEntry Entry;
 
@@ -301,11 +303,12 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*& __get__enumerator();
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*& __cordl_internal_get__enumerator();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> const& __get__enumerator() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> const&
+  __cordl_internal_get__enumerator() const;
 
-  constexpr void __set__enumerator(::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* value);
+  constexpr void __cordl_internal_set__enumerator(::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* value);
 
   static inline ::System::Collections::Concurrent::__ConcurrentDictionary_2__DictionaryEnumerator<TKey, TValue>*
   New_ctor(::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* dictionary);
@@ -358,29 +361,31 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1104 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3841))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3809)) CS Name: ::ConcurrentDictionary`2::<GetEnumerator>d__35<TKey,TValue>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1104
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3809)) CS Name: ::ConcurrentDictionary`2::<GetEnumerator>d__35<TKey,TValue>*
 class CORDL_TYPE __ConcurrentDictionary_2___GetEnumerator_d__35 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x10
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Collections::Generic::KeyValuePair_2<TKey, TValue> __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Collections::Generic::KeyValuePair_2<TKey, TValue> __2__current;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* __4__this;
 
   /// @brief Field <buckets>5__2, offset 0x30, size 0x8
-  __declspec(property(get = __get__buckets_5__2, put = __set__buckets_5__2))::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*,
-                                                                                     ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> _buckets_5__2;
+  __declspec(property(get = __cordl_internal_get__buckets_5__2,
+                      put = __cordl_internal_set__buckets_5__2))::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*,
+                                                                         ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> _buckets_5__2;
 
   /// @brief Field <i>5__3, offset 0x38, size 0x4
-  __declspec(property(get = __get__i_5__3, put = __set__i_5__3)) int32_t _i_5__3;
+  __declspec(property(get = __cordl_internal_get__i_5__3, put = __cordl_internal_set__i_5__3)) int32_t _i_5__3;
 
   /// @brief Field <current>5__4, offset 0x40, size 0x8
-  __declspec(property(get = __get__current_5__4, put = __set__current_5__4))::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* _current_5__4;
+  __declspec(property(get = __cordl_internal_get__current_5__4,
+                      put = __cordl_internal_set__current_5__4))::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* _current_5__4;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_TKey_TValue___get_Current))::System::Collections::Generic::KeyValuePair_2<
       TKey, TValue> System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_TKey_TValue___Current;
@@ -406,45 +411,45 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>& __get___2__current();
+  constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>& __cordl_internal_get___2__current();
 
-  constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> const& __get___2__current() const;
+  constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> value);
+  constexpr void __cordl_internal_set___2__current(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> value);
 
-  constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*& __get___4__this();
+  constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set___4__this(::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, TValue>* value);
 
   constexpr ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*>&
-  __get__buckets_5__2();
+  __cordl_internal_get__buckets_5__2();
 
   constexpr ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*,
                      ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> const&
-  __get__buckets_5__2() const;
+  __cordl_internal_get__buckets_5__2() const;
 
-  constexpr void __set__buckets_5__2(
+  constexpr void __cordl_internal_set__buckets_5__2(
       ::ArrayW<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*>*> value);
 
-  constexpr int32_t& __get__i_5__3();
+  constexpr int32_t& __cordl_internal_get__i_5__3();
 
-  constexpr int32_t const& __get__i_5__3() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__3() const;
 
-  constexpr void __set__i_5__3(int32_t value);
+  constexpr void __cordl_internal_set__i_5__3(int32_t value);
 
-  constexpr ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*& __get__current_5__4();
+  constexpr ::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*& __cordl_internal_get__current_5__4();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*> const& __get__current_5__4() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>*> const& __cordl_internal_get__current_5__4() const;
 
-  constexpr void __set__current_5__4(::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__current_5__4(::System::Collections::Concurrent::__ConcurrentDictionary_2__Node<TKey, TValue>* value);
 
   static inline ::System::Collections::Concurrent::__ConcurrentDictionary_2___GetEnumerator_d__35<TKey, TValue>* New_ctor(int32_t __1__state);
 
@@ -510,7 +515,7 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3810))
 // CS Name: ::System.Collections.Concurrent::ConcurrentDictionary`2<TKey,TValue>*
 class CORDL_TYPE ConcurrentDictionary_2 : public ::System::Object {
@@ -525,26 +530,27 @@ public:
   using Tables = ::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>;
 
   /// @brief Field _tables, offset 0x10, size 0x8
-  __declspec(property(get = __get__tables, put = __set__tables))::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>* _tables;
+  __declspec(property(get = __cordl_internal_get__tables, put = __cordl_internal_set__tables))::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>* _tables;
 
   /// @brief Field _comparer, offset 0x18, size 0x8
-  __declspec(property(get = __get__comparer, put = __set__comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* _comparer;
+  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* _comparer;
 
   /// @brief Field _growLockArray, offset 0x20, size 0x1
-  __declspec(property(get = __get__growLockArray, put = __set__growLockArray)) bool _growLockArray;
+  __declspec(property(get = __cordl_internal_get__growLockArray, put = __cordl_internal_set__growLockArray)) bool _growLockArray;
 
   /// @brief Field _budget, offset 0x24, size 0x4
-  __declspec(property(get = __get__budget, put = __set__budget)) int32_t _budget;
+  __declspec(property(get = __cordl_internal_get__budget, put = __cordl_internal_set__budget)) int32_t _budget;
 
   /// @brief Field _serializationArray, offset 0x28, size 0x8
-  __declspec(property(get = __get__serializationArray, put = __set__serializationArray))::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>,
-                                                                                                 ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> _serializationArray;
+  __declspec(property(get = __cordl_internal_get__serializationArray,
+                      put = __cordl_internal_set__serializationArray))::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>,
+                                                                               ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> _serializationArray;
 
   /// @brief Field _serializationConcurrencyLevel, offset 0x30, size 0x4
-  __declspec(property(get = __get__serializationConcurrencyLevel, put = __set__serializationConcurrencyLevel)) int32_t _serializationConcurrencyLevel;
+  __declspec(property(get = __cordl_internal_get__serializationConcurrencyLevel, put = __cordl_internal_set__serializationConcurrencyLevel)) int32_t _serializationConcurrencyLevel;
 
   /// @brief Field _serializationCapacity, offset 0x34, size 0x4
-  __declspec(property(get = __get__serializationCapacity, put = __set__serializationCapacity)) int32_t _serializationCapacity;
+  __declspec(property(get = __cordl_internal_get__serializationCapacity, put = __cordl_internal_set__serializationCapacity)) int32_t _serializationCapacity;
 
   /// @brief Field s_isValueWriteAtomic, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_s_isValueWriteAtomic, put = setStaticF_s_isValueWriteAtomic)) bool s_isValueWriteAtomic;
@@ -626,47 +632,49 @@ public:
   constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*
   i___System__Collections__Generic__IReadOnlyCollection_1___System__Collections__Generic__KeyValuePair_2_TKey_TValue__() noexcept;
 
-  constexpr ::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>*& __get__tables();
+  constexpr ::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>*& __cordl_internal_get__tables();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>*> const& __get__tables() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>*> const& __cordl_internal_get__tables() const;
 
-  constexpr void __set__tables(::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__tables(::System::Collections::Concurrent::__ConcurrentDictionary_2__Tables<TKey, TValue>* value);
 
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __get__comparer();
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __cordl_internal_get__comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& __get__comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& __cordl_internal_get__comparer() const;
 
-  constexpr void __set__comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value);
+  constexpr void __cordl_internal_set__comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value);
 
-  constexpr bool& __get__growLockArray();
+  constexpr bool& __cordl_internal_get__growLockArray();
 
-  constexpr bool const& __get__growLockArray() const;
+  constexpr bool const& __cordl_internal_get__growLockArray() const;
 
-  constexpr void __set__growLockArray(bool value);
+  constexpr void __cordl_internal_set__growLockArray(bool value);
 
-  constexpr int32_t& __get__budget();
+  constexpr int32_t& __cordl_internal_get__budget();
 
-  constexpr int32_t const& __get__budget() const;
+  constexpr int32_t const& __cordl_internal_get__budget() const;
 
-  constexpr void __set__budget(int32_t value);
+  constexpr void __cordl_internal_set__budget(int32_t value);
 
-  constexpr ::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>& __get__serializationArray();
+  constexpr ::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>& __cordl_internal_get__serializationArray();
 
-  constexpr ::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> const& __get__serializationArray() const;
+  constexpr ::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> const&
+  __cordl_internal_get__serializationArray() const;
 
-  constexpr void __set__serializationArray(::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> value);
+  constexpr void
+  __cordl_internal_set__serializationArray(::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> value);
 
-  constexpr int32_t& __get__serializationConcurrencyLevel();
+  constexpr int32_t& __cordl_internal_get__serializationConcurrencyLevel();
 
-  constexpr int32_t const& __get__serializationConcurrencyLevel() const;
+  constexpr int32_t const& __cordl_internal_get__serializationConcurrencyLevel() const;
 
-  constexpr void __set__serializationConcurrencyLevel(int32_t value);
+  constexpr void __cordl_internal_set__serializationConcurrencyLevel(int32_t value);
 
-  constexpr int32_t& __get__serializationCapacity();
+  constexpr int32_t& __cordl_internal_get__serializationCapacity();
 
-  constexpr int32_t const& __get__serializationCapacity() const;
+  constexpr int32_t const& __cordl_internal_get__serializationCapacity() const;
 
-  constexpr void __set__serializationCapacity(int32_t value);
+  constexpr void __cordl_internal_set__serializationCapacity(int32_t value);
 
   static inline void setStaticF_s_isValueWriteAtomic(bool value);
 

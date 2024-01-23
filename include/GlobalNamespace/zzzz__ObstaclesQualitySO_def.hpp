@@ -15,8 +15,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstaclesQualitySO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst: 3856 }), TypeDefinitionIndex(TypeDefinitionIndex(15869)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4442))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5943)) CS Name: ::ObstaclesQualitySO*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4442)), TypeDefinitionIndex(TypeDefinitionIndex(15869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst:
+// 3856 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5943)) CS Name: ::ObstaclesQualitySO*
 class CORDL_TYPE ObstaclesQualitySO : public ::GlobalNamespace::ObservableVariableSO_1<::GlobalNamespace::ObstaclesQuality> {
 public:
   // Declarations

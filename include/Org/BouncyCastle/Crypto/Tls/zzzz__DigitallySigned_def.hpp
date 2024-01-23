@@ -25,33 +25,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DigitallySigned);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1221))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DigitallySigned*
 class CORDL_TYPE DigitallySigned : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mAlgorithm, offset 0x10, size 0x8
-  __declspec(property(get = __get_mAlgorithm, put = __set_mAlgorithm))::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* mAlgorithm;
+  __declspec(property(get = __cordl_internal_get_mAlgorithm, put = __cordl_internal_set_mAlgorithm))::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* mAlgorithm;
 
   /// @brief Field mSignature, offset 0x18, size 0x8
-  __declspec(property(get = __get_mSignature, put = __set_mSignature))::ArrayW<uint8_t, ::Array<uint8_t>*> mSignature;
+  __declspec(property(get = __cordl_internal_get_mSignature, put = __cordl_internal_set_mSignature))::ArrayW<uint8_t, ::Array<uint8_t>*> mSignature;
 
   __declspec(property(get = get_Algorithm))::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* Algorithm;
 
   __declspec(property(get = get_Signature))::ArrayW<uint8_t, ::Array<uint8_t>*> Signature;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*& __get_mAlgorithm();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*& __cordl_internal_get_mAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*> const& __get_mAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*> const& __cordl_internal_get_mAlgorithm() const;
 
-  constexpr void __set_mAlgorithm(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* value);
+  constexpr void __cordl_internal_set_mAlgorithm(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mSignature();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mSignature();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mSignature() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mSignature() const;
 
-  constexpr void __set_mSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* New_ctor(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 

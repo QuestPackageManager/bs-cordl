@@ -26,38 +26,38 @@ MARK_REF_PTR_T(::System::Net::Http::ByteArrayContent);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14649))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14649))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14640))
 // CS Name: ::System.Net.Http::ByteArrayContent*
 class CORDL_TYPE ByteArrayContent : public ::System::Net::Http::HttpContent {
 public:
   // Declarations
   /// @brief Field content, offset 0x28, size 0x8
-  __declspec(property(get = __get_content, put = __set_content))::ArrayW<uint8_t, ::Array<uint8_t>*> content;
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::ArrayW<uint8_t, ::Array<uint8_t>*> content;
 
   /// @brief Field offset, offset 0x30, size 0x4
-  __declspec(property(get = __get_offset, put = __set_offset)) int32_t offset;
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset)) int32_t offset;
 
   /// @brief Field count, offset 0x34, size 0x4
-  __declspec(property(get = __get_count, put = __set_count)) int32_t count;
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_content();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_content();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_content() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_content() const;
 
-  constexpr void __set_content(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_content(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_offset();
+  constexpr int32_t& __cordl_internal_get_offset();
 
-  constexpr int32_t const& __get_offset() const;
+  constexpr int32_t const& __cordl_internal_get_offset() const;
 
-  constexpr void __set_offset(int32_t value);
+  constexpr void __cordl_internal_set_offset(int32_t value);
 
-  constexpr int32_t& __get_count();
+  constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr int32_t const& __get_count() const;
+  constexpr int32_t const& __cordl_internal_get_count() const;
 
-  constexpr void __set_count(int32_t value);
+  constexpr void __cordl_internal_set_count(int32_t value);
 
   static inline ::System::Net::Http::ByteArrayContent* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> content);
 

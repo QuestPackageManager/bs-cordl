@@ -37,24 +37,25 @@ MARK_REF_PTR_T(::System::AggregateException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2342))
 // CS Name: ::System::AggregateException*
 class CORDL_TYPE AggregateException : public ::System::Exception {
 public:
   // Declarations
   /// @brief Field m_innerExceptions, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_innerExceptions, put = __set_m_innerExceptions))::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>* m_innerExceptions;
+  __declspec(property(get = __cordl_internal_get_m_innerExceptions,
+                      put = __cordl_internal_set_m_innerExceptions))::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>* m_innerExceptions;
 
   __declspec(property(get = get_InnerExceptions))::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>* InnerExceptions;
 
   __declspec(property(get = get_Message))::StringW Message;
 
-  constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>*& __get_m_innerExceptions();
+  constexpr ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>*& __cordl_internal_get_m_innerExceptions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>*> const& __get_m_innerExceptions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>*> const& __cordl_internal_get_m_innerExceptions() const;
 
-  constexpr void __set_m_innerExceptions(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>* value);
+  constexpr void __cordl_internal_set_m_innerExceptions(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Exception*>* value);
 
   static inline ::System::AggregateException* New_ctor();
 

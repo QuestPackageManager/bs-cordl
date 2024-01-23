@@ -34,24 +34,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X500::Rdn);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X500 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(326))
 // CS Name: ::Org.BouncyCastle.Asn1.X500::Rdn*
 class CORDL_TYPE Rdn : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field values, offset 0x10, size 0x8
-  __declspec(property(get = __get_values, put = __set_values))::Org::BouncyCastle::Asn1::Asn1Set* values;
+  __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values))::Org::BouncyCastle::Asn1::Asn1Set* values;
 
   __declspec(property(get = get_IsMultiValued)) bool IsMultiValued;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __get_values();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __get_values() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_values() const;
 
-  constexpr void __set_values(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  constexpr void __cordl_internal_set_values(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
   static inline ::Org::BouncyCastle::Asn1::X500::Rdn* New_ctor(::Org::BouncyCastle::Asn1::Asn1Set* values);
 

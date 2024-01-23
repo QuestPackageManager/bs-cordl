@@ -26,33 +26,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::ScvpReqRes);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(92))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::ScvpReqRes*
 class CORDL_TYPE ScvpReqRes : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field request, offset 0x10, size 0x8
-  __declspec(property(get = __get_request, put = __set_request))::Org::BouncyCastle::Asn1::Cms::ContentInfo* request;
+  __declspec(property(get = __cordl_internal_get_request, put = __cordl_internal_set_request))::Org::BouncyCastle::Asn1::Cms::ContentInfo* request;
 
   /// @brief Field response, offset 0x18, size 0x8
-  __declspec(property(get = __get_response, put = __set_response))::Org::BouncyCastle::Asn1::Cms::ContentInfo* response;
+  __declspec(property(get = __cordl_internal_get_response, put = __cordl_internal_set_response))::Org::BouncyCastle::Asn1::Cms::ContentInfo* response;
 
   __declspec(property(get = get_Request))::Org::BouncyCastle::Asn1::Cms::ContentInfo* Request;
 
   __declspec(property(get = get_Response))::Org::BouncyCastle::Asn1::Cms::ContentInfo* Response;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __get_request();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __cordl_internal_get_request();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __get_request() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __cordl_internal_get_request() const;
 
-  constexpr void __set_request(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
+  constexpr void __cordl_internal_set_request(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __get_response();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __cordl_internal_get_response();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __get_response() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __cordl_internal_get_response() const;
 
-  constexpr void __set_response(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
+  constexpr void __cordl_internal_set_response(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
   /// @brief Method GetInstance, addr 0xe7d538, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::ScvpReqRes* GetInstance(::System::Object* obj);

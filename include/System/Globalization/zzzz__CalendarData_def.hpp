@@ -17,68 +17,68 @@ MARK_REF_PTR_T(::System::Globalization::CalendarData);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3697))
 // CS Name: ::System.Globalization::CalendarData*
 class CORDL_TYPE CalendarData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field sNativeName, offset 0x10, size 0x8
-  __declspec(property(get = __get_sNativeName, put = __set_sNativeName))::StringW sNativeName;
+  __declspec(property(get = __cordl_internal_get_sNativeName, put = __cordl_internal_set_sNativeName))::StringW sNativeName;
 
   /// @brief Field saShortDates, offset 0x18, size 0x8
-  __declspec(property(get = __get_saShortDates, put = __set_saShortDates))::ArrayW<::StringW, ::Array<::StringW>*> saShortDates;
+  __declspec(property(get = __cordl_internal_get_saShortDates, put = __cordl_internal_set_saShortDates))::ArrayW<::StringW, ::Array<::StringW>*> saShortDates;
 
   /// @brief Field saYearMonths, offset 0x20, size 0x8
-  __declspec(property(get = __get_saYearMonths, put = __set_saYearMonths))::ArrayW<::StringW, ::Array<::StringW>*> saYearMonths;
+  __declspec(property(get = __cordl_internal_get_saYearMonths, put = __cordl_internal_set_saYearMonths))::ArrayW<::StringW, ::Array<::StringW>*> saYearMonths;
 
   /// @brief Field saLongDates, offset 0x28, size 0x8
-  __declspec(property(get = __get_saLongDates, put = __set_saLongDates))::ArrayW<::StringW, ::Array<::StringW>*> saLongDates;
+  __declspec(property(get = __cordl_internal_get_saLongDates, put = __cordl_internal_set_saLongDates))::ArrayW<::StringW, ::Array<::StringW>*> saLongDates;
 
   /// @brief Field sMonthDay, offset 0x30, size 0x8
-  __declspec(property(get = __get_sMonthDay, put = __set_sMonthDay))::StringW sMonthDay;
+  __declspec(property(get = __cordl_internal_get_sMonthDay, put = __cordl_internal_set_sMonthDay))::StringW sMonthDay;
 
   /// @brief Field saEraNames, offset 0x38, size 0x8
-  __declspec(property(get = __get_saEraNames, put = __set_saEraNames))::ArrayW<::StringW, ::Array<::StringW>*> saEraNames;
+  __declspec(property(get = __cordl_internal_get_saEraNames, put = __cordl_internal_set_saEraNames))::ArrayW<::StringW, ::Array<::StringW>*> saEraNames;
 
   /// @brief Field saAbbrevEraNames, offset 0x40, size 0x8
-  __declspec(property(get = __get_saAbbrevEraNames, put = __set_saAbbrevEraNames))::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevEraNames;
+  __declspec(property(get = __cordl_internal_get_saAbbrevEraNames, put = __cordl_internal_set_saAbbrevEraNames))::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevEraNames;
 
   /// @brief Field saAbbrevEnglishEraNames, offset 0x48, size 0x8
-  __declspec(property(get = __get_saAbbrevEnglishEraNames, put = __set_saAbbrevEnglishEraNames))::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevEnglishEraNames;
+  __declspec(property(get = __cordl_internal_get_saAbbrevEnglishEraNames, put = __cordl_internal_set_saAbbrevEnglishEraNames))::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevEnglishEraNames;
 
   /// @brief Field saDayNames, offset 0x50, size 0x8
-  __declspec(property(get = __get_saDayNames, put = __set_saDayNames))::ArrayW<::StringW, ::Array<::StringW>*> saDayNames;
+  __declspec(property(get = __cordl_internal_get_saDayNames, put = __cordl_internal_set_saDayNames))::ArrayW<::StringW, ::Array<::StringW>*> saDayNames;
 
   /// @brief Field saAbbrevDayNames, offset 0x58, size 0x8
-  __declspec(property(get = __get_saAbbrevDayNames, put = __set_saAbbrevDayNames))::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevDayNames;
+  __declspec(property(get = __cordl_internal_get_saAbbrevDayNames, put = __cordl_internal_set_saAbbrevDayNames))::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevDayNames;
 
   /// @brief Field saSuperShortDayNames, offset 0x60, size 0x8
-  __declspec(property(get = __get_saSuperShortDayNames, put = __set_saSuperShortDayNames))::ArrayW<::StringW, ::Array<::StringW>*> saSuperShortDayNames;
+  __declspec(property(get = __cordl_internal_get_saSuperShortDayNames, put = __cordl_internal_set_saSuperShortDayNames))::ArrayW<::StringW, ::Array<::StringW>*> saSuperShortDayNames;
 
   /// @brief Field saMonthNames, offset 0x68, size 0x8
-  __declspec(property(get = __get_saMonthNames, put = __set_saMonthNames))::ArrayW<::StringW, ::Array<::StringW>*> saMonthNames;
+  __declspec(property(get = __cordl_internal_get_saMonthNames, put = __cordl_internal_set_saMonthNames))::ArrayW<::StringW, ::Array<::StringW>*> saMonthNames;
 
   /// @brief Field saAbbrevMonthNames, offset 0x70, size 0x8
-  __declspec(property(get = __get_saAbbrevMonthNames, put = __set_saAbbrevMonthNames))::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevMonthNames;
+  __declspec(property(get = __cordl_internal_get_saAbbrevMonthNames, put = __cordl_internal_set_saAbbrevMonthNames))::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevMonthNames;
 
   /// @brief Field saMonthGenitiveNames, offset 0x78, size 0x8
-  __declspec(property(get = __get_saMonthGenitiveNames, put = __set_saMonthGenitiveNames))::ArrayW<::StringW, ::Array<::StringW>*> saMonthGenitiveNames;
+  __declspec(property(get = __cordl_internal_get_saMonthGenitiveNames, put = __cordl_internal_set_saMonthGenitiveNames))::ArrayW<::StringW, ::Array<::StringW>*> saMonthGenitiveNames;
 
   /// @brief Field saAbbrevMonthGenitiveNames, offset 0x80, size 0x8
-  __declspec(property(get = __get_saAbbrevMonthGenitiveNames, put = __set_saAbbrevMonthGenitiveNames))::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevMonthGenitiveNames;
+  __declspec(property(get = __cordl_internal_get_saAbbrevMonthGenitiveNames, put = __cordl_internal_set_saAbbrevMonthGenitiveNames))::ArrayW<::StringW, ::Array<::StringW>*> saAbbrevMonthGenitiveNames;
 
   /// @brief Field saLeapYearMonthNames, offset 0x88, size 0x8
-  __declspec(property(get = __get_saLeapYearMonthNames, put = __set_saLeapYearMonthNames))::ArrayW<::StringW, ::Array<::StringW>*> saLeapYearMonthNames;
+  __declspec(property(get = __cordl_internal_get_saLeapYearMonthNames, put = __cordl_internal_set_saLeapYearMonthNames))::ArrayW<::StringW, ::Array<::StringW>*> saLeapYearMonthNames;
 
   /// @brief Field iTwoDigitYearMax, offset 0x90, size 0x4
-  __declspec(property(get = __get_iTwoDigitYearMax, put = __set_iTwoDigitYearMax)) int32_t iTwoDigitYearMax;
+  __declspec(property(get = __cordl_internal_get_iTwoDigitYearMax, put = __cordl_internal_set_iTwoDigitYearMax)) int32_t iTwoDigitYearMax;
 
   /// @brief Field iCurrentEra, offset 0x94, size 0x4
-  __declspec(property(get = __get_iCurrentEra, put = __set_iCurrentEra)) int32_t iCurrentEra;
+  __declspec(property(get = __cordl_internal_get_iCurrentEra, put = __cordl_internal_set_iCurrentEra)) int32_t iCurrentEra;
 
   /// @brief Field bUseUserOverrides, offset 0x98, size 0x1
-  __declspec(property(get = __get_bUseUserOverrides, put = __set_bUseUserOverrides)) bool bUseUserOverrides;
+  __declspec(property(get = __cordl_internal_get_bUseUserOverrides, put = __cordl_internal_set_bUseUserOverrides)) bool bUseUserOverrides;
 
   /// @brief Field Invariant, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Invariant, put = setStaticF_Invariant))::System::Globalization::CalendarData* Invariant;
@@ -89,119 +89,119 @@ public:
   /// @brief Field HEBREW_LEAP_MONTH_NAMES, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_HEBREW_LEAP_MONTH_NAMES, put = setStaticF_HEBREW_LEAP_MONTH_NAMES))::ArrayW<::StringW, ::Array<::StringW>*> HEBREW_LEAP_MONTH_NAMES;
 
-  constexpr ::StringW& __get_sNativeName();
+  constexpr ::StringW& __cordl_internal_get_sNativeName();
 
-  constexpr ::StringW const& __get_sNativeName() const;
+  constexpr ::StringW const& __cordl_internal_get_sNativeName() const;
 
-  constexpr void __set_sNativeName(::StringW value);
+  constexpr void __cordl_internal_set_sNativeName(::StringW value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_saShortDates();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_saShortDates();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_saShortDates() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_saShortDates() const;
 
-  constexpr void __set_saShortDates(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_saShortDates(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_saYearMonths();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_saYearMonths();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_saYearMonths() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_saYearMonths() const;
 
-  constexpr void __set_saYearMonths(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_saYearMonths(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_saLongDates();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_saLongDates();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_saLongDates() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_saLongDates() const;
 
-  constexpr void __set_saLongDates(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_saLongDates(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::StringW& __get_sMonthDay();
+  constexpr ::StringW& __cordl_internal_get_sMonthDay();
 
-  constexpr ::StringW const& __get_sMonthDay() const;
+  constexpr ::StringW const& __cordl_internal_get_sMonthDay() const;
 
-  constexpr void __set_sMonthDay(::StringW value);
+  constexpr void __cordl_internal_set_sMonthDay(::StringW value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_saEraNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_saEraNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_saEraNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_saEraNames() const;
 
-  constexpr void __set_saEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_saEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_saAbbrevEraNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_saAbbrevEraNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_saAbbrevEraNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_saAbbrevEraNames() const;
 
-  constexpr void __set_saAbbrevEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_saAbbrevEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_saAbbrevEnglishEraNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_saAbbrevEnglishEraNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_saAbbrevEnglishEraNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_saAbbrevEnglishEraNames() const;
 
-  constexpr void __set_saAbbrevEnglishEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_saAbbrevEnglishEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_saDayNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_saDayNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_saDayNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_saDayNames() const;
 
-  constexpr void __set_saDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_saDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_saAbbrevDayNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_saAbbrevDayNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_saAbbrevDayNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_saAbbrevDayNames() const;
 
-  constexpr void __set_saAbbrevDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_saAbbrevDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_saSuperShortDayNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_saSuperShortDayNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_saSuperShortDayNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_saSuperShortDayNames() const;
 
-  constexpr void __set_saSuperShortDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_saSuperShortDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_saMonthNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_saMonthNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_saMonthNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_saMonthNames() const;
 
-  constexpr void __set_saMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_saMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_saAbbrevMonthNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_saAbbrevMonthNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_saAbbrevMonthNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_saAbbrevMonthNames() const;
 
-  constexpr void __set_saAbbrevMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_saAbbrevMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_saMonthGenitiveNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_saMonthGenitiveNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_saMonthGenitiveNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_saMonthGenitiveNames() const;
 
-  constexpr void __set_saMonthGenitiveNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_saMonthGenitiveNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_saAbbrevMonthGenitiveNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_saAbbrevMonthGenitiveNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_saAbbrevMonthGenitiveNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_saAbbrevMonthGenitiveNames() const;
 
-  constexpr void __set_saAbbrevMonthGenitiveNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_saAbbrevMonthGenitiveNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_saLeapYearMonthNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_saLeapYearMonthNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_saLeapYearMonthNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_saLeapYearMonthNames() const;
 
-  constexpr void __set_saLeapYearMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_saLeapYearMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr int32_t& __get_iTwoDigitYearMax();
+  constexpr int32_t& __cordl_internal_get_iTwoDigitYearMax();
 
-  constexpr int32_t const& __get_iTwoDigitYearMax() const;
+  constexpr int32_t const& __cordl_internal_get_iTwoDigitYearMax() const;
 
-  constexpr void __set_iTwoDigitYearMax(int32_t value);
+  constexpr void __cordl_internal_set_iTwoDigitYearMax(int32_t value);
 
-  constexpr int32_t& __get_iCurrentEra();
+  constexpr int32_t& __cordl_internal_get_iCurrentEra();
 
-  constexpr int32_t const& __get_iCurrentEra() const;
+  constexpr int32_t const& __cordl_internal_get_iCurrentEra() const;
 
-  constexpr void __set_iCurrentEra(int32_t value);
+  constexpr void __cordl_internal_set_iCurrentEra(int32_t value);
 
-  constexpr bool& __get_bUseUserOverrides();
+  constexpr bool& __cordl_internal_get_bUseUserOverrides();
 
-  constexpr bool const& __get_bUseUserOverrides() const;
+  constexpr bool const& __cordl_internal_get_bUseUserOverrides() const;
 
-  constexpr void __set_bUseUserOverrides(bool value);
+  constexpr void __cordl_internal_set_bUseUserOverrides(bool value);
 
   static inline void setStaticF_Invariant(::System::Globalization::CalendarData* value);
 

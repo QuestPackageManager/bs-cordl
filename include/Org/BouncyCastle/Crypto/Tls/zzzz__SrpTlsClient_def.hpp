@@ -31,40 +31,40 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SrpTlsClient);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1165))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1165))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1280))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SrpTlsClient*
 class CORDL_TYPE SrpTlsClient : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsClient {
 public:
   // Declarations
   /// @brief Field mGroupVerifier, offset 0x50, size 0x8
-  __declspec(property(get = __get_mGroupVerifier, put = __set_mGroupVerifier))::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* mGroupVerifier;
+  __declspec(property(get = __cordl_internal_get_mGroupVerifier, put = __cordl_internal_set_mGroupVerifier))::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* mGroupVerifier;
 
   /// @brief Field mIdentity, offset 0x58, size 0x8
-  __declspec(property(get = __get_mIdentity, put = __set_mIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> mIdentity;
+  __declspec(property(get = __cordl_internal_get_mIdentity, put = __cordl_internal_set_mIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> mIdentity;
 
   /// @brief Field mPassword, offset 0x60, size 0x8
-  __declspec(property(get = __get_mPassword, put = __set_mPassword))::ArrayW<uint8_t, ::Array<uint8_t>*> mPassword;
+  __declspec(property(get = __cordl_internal_get_mPassword, put = __cordl_internal_set_mPassword))::ArrayW<uint8_t, ::Array<uint8_t>*> mPassword;
 
   __declspec(property(get = get_RequireSrpServerExtension)) bool RequireSrpServerExtension;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier*& __get_mGroupVerifier();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier*& __cordl_internal_get_mGroupVerifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier*> const& __get_mGroupVerifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier*> const& __cordl_internal_get_mGroupVerifier() const;
 
-  constexpr void __set_mGroupVerifier(::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* value);
+  constexpr void __cordl_internal_set_mGroupVerifier(::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mIdentity();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mIdentity();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mIdentity() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mIdentity() const;
 
-  constexpr void __set_mIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mPassword();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPassword();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mPassword() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPassword() const;
 
-  constexpr void __set_mPassword(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mPassword(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SrpTlsClient* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 

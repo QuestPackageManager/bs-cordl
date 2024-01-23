@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::Events::PersistentListenerMode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10447))
 // CS Name: ::UnityEngine.Events::PersistentListenerMode
 struct CORDL_TYPE PersistentListenerMode {

@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::AbstractFpPoint);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1374))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1374))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1375))
 // CS Name: ::Org.BouncyCastle.Math.EC::AbstractFpPoint*
 class CORDL_TYPE AbstractFpPoint : public ::Org::BouncyCastle::Math::EC::ECPointBase {

@@ -99,124 +99,131 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__ListView__UxmlTraits);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6800))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6800))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7070))
 // CS Name: ::ListView::UxmlTraits*
 class CORDL_TYPE __ListView__UxmlTraits : public ::UnityEngine::UIElements::__BindableElement__UxmlTraits {
 public:
   // Declarations
   /// @brief Field m_FixedItemHeight, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_FixedItemHeight, put = __set_m_FixedItemHeight))::UnityEngine::UIElements::UxmlIntAttributeDescription* m_FixedItemHeight;
+  __declspec(property(get = __cordl_internal_get_m_FixedItemHeight, put = __cordl_internal_set_m_FixedItemHeight))::UnityEngine::UIElements::UxmlIntAttributeDescription* m_FixedItemHeight;
 
   /// @brief Field m_VirtualizationMethod, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_VirtualizationMethod,
-                      put = __set_m_VirtualizationMethod))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::CollectionVirtualizationMethod>* m_VirtualizationMethod;
+  __declspec(property(
+      get = __cordl_internal_get_m_VirtualizationMethod,
+      put = __cordl_internal_set_m_VirtualizationMethod))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::CollectionVirtualizationMethod>* m_VirtualizationMethod;
 
   /// @brief Field m_ShowBorder, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_ShowBorder, put = __set_m_ShowBorder))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowBorder;
+  __declspec(property(get = __cordl_internal_get_m_ShowBorder, put = __cordl_internal_set_m_ShowBorder))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowBorder;
 
   /// @brief Field m_SelectionType, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_SelectionType, put = __set_m_SelectionType))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SelectionType>* m_SelectionType;
+  __declspec(property(get = __cordl_internal_get_m_SelectionType,
+                      put = __cordl_internal_set_m_SelectionType))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SelectionType>* m_SelectionType;
 
   /// @brief Field m_ShowAlternatingRowBackgrounds, offset 0x98, size 0x8
-  __declspec(property(
-      get = __get_m_ShowAlternatingRowBackgrounds,
-      put = __set_m_ShowAlternatingRowBackgrounds))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::AlternatingRowBackground>* m_ShowAlternatingRowBackgrounds;
+  __declspec(property(get = __cordl_internal_get_m_ShowAlternatingRowBackgrounds, put = __cordl_internal_set_m_ShowAlternatingRowBackgrounds))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<
+      ::UnityEngine::UIElements::AlternatingRowBackground>* m_ShowAlternatingRowBackgrounds;
 
   /// @brief Field m_ShowFoldoutHeader, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_ShowFoldoutHeader, put = __set_m_ShowFoldoutHeader))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowFoldoutHeader;
+  __declspec(property(get = __cordl_internal_get_m_ShowFoldoutHeader, put = __cordl_internal_set_m_ShowFoldoutHeader))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowFoldoutHeader;
 
   /// @brief Field m_HeaderTitle, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_HeaderTitle, put = __set_m_HeaderTitle))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_HeaderTitle;
+  __declspec(property(get = __cordl_internal_get_m_HeaderTitle, put = __cordl_internal_set_m_HeaderTitle))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_HeaderTitle;
 
   /// @brief Field m_ShowAddRemoveFooter, offset 0xb0, size 0x8
-  __declspec(property(get = __get_m_ShowAddRemoveFooter, put = __set_m_ShowAddRemoveFooter))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowAddRemoveFooter;
+  __declspec(property(get = __cordl_internal_get_m_ShowAddRemoveFooter,
+                      put = __cordl_internal_set_m_ShowAddRemoveFooter))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowAddRemoveFooter;
 
   /// @brief Field m_Reorderable, offset 0xb8, size 0x8
-  __declspec(property(get = __get_m_Reorderable, put = __set_m_Reorderable))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Reorderable;
+  __declspec(property(get = __cordl_internal_get_m_Reorderable, put = __cordl_internal_set_m_Reorderable))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Reorderable;
 
   /// @brief Field m_ReorderMode, offset 0xc0, size 0x8
-  __declspec(property(get = __get_m_ReorderMode, put = __set_m_ReorderMode))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ListViewReorderMode>* m_ReorderMode;
+  __declspec(property(get = __cordl_internal_get_m_ReorderMode,
+                      put = __cordl_internal_set_m_ReorderMode))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ListViewReorderMode>* m_ReorderMode;
 
   /// @brief Field m_ShowBoundCollectionSize, offset 0xc8, size 0x8
-  __declspec(property(get = __get_m_ShowBoundCollectionSize, put = __set_m_ShowBoundCollectionSize))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowBoundCollectionSize;
+  __declspec(property(get = __cordl_internal_get_m_ShowBoundCollectionSize,
+                      put = __cordl_internal_set_m_ShowBoundCollectionSize))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowBoundCollectionSize;
 
   /// @brief Field m_HorizontalScrollingEnabled, offset 0xd0, size 0x8
-  __declspec(property(get = __get_m_HorizontalScrollingEnabled, put = __set_m_HorizontalScrollingEnabled))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_HorizontalScrollingEnabled;
+  __declspec(property(get = __cordl_internal_get_m_HorizontalScrollingEnabled,
+                      put = __cordl_internal_set_m_HorizontalScrollingEnabled))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_HorizontalScrollingEnabled;
 
-  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __get_m_FixedItemHeight();
+  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __cordl_internal_get_m_FixedItemHeight();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const& __get_m_FixedItemHeight() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const& __cordl_internal_get_m_FixedItemHeight() const;
 
-  constexpr void __set_m_FixedItemHeight(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_FixedItemHeight(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::CollectionVirtualizationMethod>*& __get_m_VirtualizationMethod();
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::CollectionVirtualizationMethod>*& __cordl_internal_get_m_VirtualizationMethod();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::CollectionVirtualizationMethod>*> const&
-  __get_m_VirtualizationMethod() const;
+  __cordl_internal_get_m_VirtualizationMethod() const;
 
-  constexpr void __set_m_VirtualizationMethod(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::CollectionVirtualizationMethod>* value);
+  constexpr void __cordl_internal_set_m_VirtualizationMethod(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::CollectionVirtualizationMethod>* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __get_m_ShowBorder();
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_ShowBorder();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __get_m_ShowBorder() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_ShowBorder() const;
 
-  constexpr void __set_m_ShowBorder(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_ShowBorder(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SelectionType>*& __get_m_SelectionType();
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SelectionType>*& __cordl_internal_get_m_SelectionType();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SelectionType>*> const& __get_m_SelectionType() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SelectionType>*> const&
+  __cordl_internal_get_m_SelectionType() const;
 
-  constexpr void __set_m_SelectionType(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SelectionType>* value);
+  constexpr void __cordl_internal_set_m_SelectionType(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SelectionType>* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::AlternatingRowBackground>*& __get_m_ShowAlternatingRowBackgrounds();
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::AlternatingRowBackground>*& __cordl_internal_get_m_ShowAlternatingRowBackgrounds();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::AlternatingRowBackground>*> const&
-  __get_m_ShowAlternatingRowBackgrounds() const;
+  __cordl_internal_get_m_ShowAlternatingRowBackgrounds() const;
 
-  constexpr void __set_m_ShowAlternatingRowBackgrounds(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::AlternatingRowBackground>* value);
+  constexpr void __cordl_internal_set_m_ShowAlternatingRowBackgrounds(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::AlternatingRowBackground>* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __get_m_ShowFoldoutHeader();
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_ShowFoldoutHeader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __get_m_ShowFoldoutHeader() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_ShowFoldoutHeader() const;
 
-  constexpr void __set_m_ShowFoldoutHeader(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_ShowFoldoutHeader(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_HeaderTitle();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_HeaderTitle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_HeaderTitle() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_HeaderTitle() const;
 
-  constexpr void __set_m_HeaderTitle(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_HeaderTitle(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __get_m_ShowAddRemoveFooter();
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_ShowAddRemoveFooter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __get_m_ShowAddRemoveFooter() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_ShowAddRemoveFooter() const;
 
-  constexpr void __set_m_ShowAddRemoveFooter(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_ShowAddRemoveFooter(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __get_m_Reorderable();
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Reorderable();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __get_m_Reorderable() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_Reorderable() const;
 
-  constexpr void __set_m_Reorderable(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Reorderable(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ListViewReorderMode>*& __get_m_ReorderMode();
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ListViewReorderMode>*& __cordl_internal_get_m_ReorderMode();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ListViewReorderMode>*> const& __get_m_ReorderMode() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ListViewReorderMode>*> const&
+  __cordl_internal_get_m_ReorderMode() const;
 
-  constexpr void __set_m_ReorderMode(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ListViewReorderMode>* value);
+  constexpr void __cordl_internal_set_m_ReorderMode(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ListViewReorderMode>* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __get_m_ShowBoundCollectionSize();
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_ShowBoundCollectionSize();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __get_m_ShowBoundCollectionSize() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_ShowBoundCollectionSize() const;
 
-  constexpr void __set_m_ShowBoundCollectionSize(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_ShowBoundCollectionSize(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __get_m_HorizontalScrollingEnabled();
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_HorizontalScrollingEnabled();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __get_m_HorizontalScrollingEnabled() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_HorizontalScrollingEnabled() const;
 
-  constexpr void __set_m_HorizontalScrollingEnabled(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_HorizontalScrollingEnabled(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
   /// @brief Method Init, addr 0x2e2db18, size 0x3d4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
@@ -310,7 +317,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__ListView__UxmlTraits, ___m_H
 // SizeInfo { instance_size: 1288, native_size: -1, calculated_instance_size: 1288, calculated_native_size: 1284, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7143)), TypeDefinitionIndex(TypeDefinitionIndex(7068))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7068)), TypeDefinitionIndex(TypeDefinitionIndex(7143))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7071))
 // CS Name: ::UnityEngine.UIElements::ListView*
 class CORDL_TYPE ListView : public ::UnityEngine::UIElements::BaseVerticalCollectionView {
@@ -321,52 +328,54 @@ public:
   using UxmlFactory = ::UnityEngine::UIElements::__ListView__UxmlFactory;
 
   /// @brief Field m_ShowBoundCollectionSize, offset 0x494, size 0x1
-  __declspec(property(get = __get_m_ShowBoundCollectionSize, put = __set_m_ShowBoundCollectionSize)) bool m_ShowBoundCollectionSize;
+  __declspec(property(get = __cordl_internal_get_m_ShowBoundCollectionSize, put = __cordl_internal_set_m_ShowBoundCollectionSize)) bool m_ShowBoundCollectionSize;
 
   /// @brief Field m_ShowFoldoutHeader, offset 0x495, size 0x1
-  __declspec(property(get = __get_m_ShowFoldoutHeader, put = __set_m_ShowFoldoutHeader)) bool m_ShowFoldoutHeader;
+  __declspec(property(get = __cordl_internal_get_m_ShowFoldoutHeader, put = __cordl_internal_set_m_ShowFoldoutHeader)) bool m_ShowFoldoutHeader;
 
   /// @brief Field m_HeaderTitle, offset 0x498, size 0x8
-  __declspec(property(get = __get_m_HeaderTitle, put = __set_m_HeaderTitle))::StringW m_HeaderTitle;
+  __declspec(property(get = __cordl_internal_get_m_HeaderTitle, put = __cordl_internal_set_m_HeaderTitle))::StringW m_HeaderTitle;
 
   /// @brief Field itemsAdded, offset 0x4a0, size 0x8
-  __declspec(property(get = __get_itemsAdded, put = __set_itemsAdded))::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* itemsAdded;
+  __declspec(property(get = __cordl_internal_get_itemsAdded, put = __cordl_internal_set_itemsAdded))::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* itemsAdded;
 
   /// @brief Field itemsRemoved, offset 0x4a8, size 0x8
-  __declspec(property(get = __get_itemsRemoved, put = __set_itemsRemoved))::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* itemsRemoved;
+  __declspec(property(get = __cordl_internal_get_itemsRemoved, put = __cordl_internal_set_itemsRemoved))::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* itemsRemoved;
 
   /// @brief Field m_EmptyListLabel, offset 0x4b0, size 0x8
-  __declspec(property(get = __get_m_EmptyListLabel, put = __set_m_EmptyListLabel))::UnityEngine::UIElements::Label* m_EmptyListLabel;
+  __declspec(property(get = __cordl_internal_get_m_EmptyListLabel, put = __cordl_internal_set_m_EmptyListLabel))::UnityEngine::UIElements::Label* m_EmptyListLabel;
 
   /// @brief Field m_Foldout, offset 0x4b8, size 0x8
-  __declspec(property(get = __get_m_Foldout, put = __set_m_Foldout))::UnityEngine::UIElements::Foldout* m_Foldout;
+  __declspec(property(get = __cordl_internal_get_m_Foldout, put = __cordl_internal_set_m_Foldout))::UnityEngine::UIElements::Foldout* m_Foldout;
 
   /// @brief Field m_ArraySizeField, offset 0x4c0, size 0x8
-  __declspec(property(get = __get_m_ArraySizeField, put = __set_m_ArraySizeField))::UnityEngine::UIElements::TextField* m_ArraySizeField;
+  __declspec(property(get = __cordl_internal_get_m_ArraySizeField, put = __cordl_internal_set_m_ArraySizeField))::UnityEngine::UIElements::TextField* m_ArraySizeField;
 
   /// @brief Field m_Footer, offset 0x4c8, size 0x8
-  __declspec(property(get = __get_m_Footer, put = __set_m_Footer))::UnityEngine::UIElements::VisualElement* m_Footer;
+  __declspec(property(get = __cordl_internal_get_m_Footer, put = __cordl_internal_set_m_Footer))::UnityEngine::UIElements::VisualElement* m_Footer;
 
   /// @brief Field m_AddButton, offset 0x4d0, size 0x8
-  __declspec(property(get = __get_m_AddButton, put = __set_m_AddButton))::UnityEngine::UIElements::Button* m_AddButton;
+  __declspec(property(get = __cordl_internal_get_m_AddButton, put = __cordl_internal_set_m_AddButton))::UnityEngine::UIElements::Button* m_AddButton;
 
   /// @brief Field m_RemoveButton, offset 0x4d8, size 0x8
-  __declspec(property(get = __get_m_RemoveButton, put = __set_m_RemoveButton))::UnityEngine::UIElements::Button* m_RemoveButton;
+  __declspec(property(get = __cordl_internal_get_m_RemoveButton, put = __cordl_internal_set_m_RemoveButton))::UnityEngine::UIElements::Button* m_RemoveButton;
 
   /// @brief Field m_ItemAddedCallback, offset 0x4e0, size 0x8
-  __declspec(property(get = __get_m_ItemAddedCallback, put = __set_m_ItemAddedCallback))::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* m_ItemAddedCallback;
+  __declspec(property(get = __cordl_internal_get_m_ItemAddedCallback,
+                      put = __cordl_internal_set_m_ItemAddedCallback))::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* m_ItemAddedCallback;
 
   /// @brief Field m_ItemRemovedCallback, offset 0x4e8, size 0x8
-  __declspec(property(get = __get_m_ItemRemovedCallback, put = __set_m_ItemRemovedCallback))::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* m_ItemRemovedCallback;
+  __declspec(property(get = __cordl_internal_get_m_ItemRemovedCallback,
+                      put = __cordl_internal_set_m_ItemRemovedCallback))::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* m_ItemRemovedCallback;
 
   /// @brief Field m_ItemsSourceSizeChangedCallback, offset 0x4f0, size 0x8
-  __declspec(property(get = __get_m_ItemsSourceSizeChangedCallback, put = __set_m_ItemsSourceSizeChangedCallback))::System::Action* m_ItemsSourceSizeChangedCallback;
+  __declspec(property(get = __cordl_internal_get_m_ItemsSourceSizeChangedCallback, put = __cordl_internal_set_m_ItemsSourceSizeChangedCallback))::System::Action* m_ItemsSourceSizeChangedCallback;
 
   /// @brief Field m_ListViewController, offset 0x4f8, size 0x8
-  __declspec(property(get = __get_m_ListViewController, put = __set_m_ListViewController))::UnityEngine::UIElements::ListViewController* m_ListViewController;
+  __declspec(property(get = __cordl_internal_get_m_ListViewController, put = __cordl_internal_set_m_ListViewController))::UnityEngine::UIElements::ListViewController* m_ListViewController;
 
   /// @brief Field m_ReorderMode, offset 0x500, size 0x4
-  __declspec(property(get = __get_m_ReorderMode, put = __set_m_ReorderMode))::UnityEngine::UIElements::ListViewReorderMode m_ReorderMode;
+  __declspec(property(get = __cordl_internal_get_m_ReorderMode, put = __cordl_internal_set_m_ReorderMode))::UnityEngine::UIElements::ListViewReorderMode m_ReorderMode;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
@@ -430,101 +439,101 @@ public:
 
   __declspec(property(get = get_reorderMode, put = set_reorderMode))::UnityEngine::UIElements::ListViewReorderMode reorderMode;
 
-  constexpr bool& __get_m_ShowBoundCollectionSize();
+  constexpr bool& __cordl_internal_get_m_ShowBoundCollectionSize();
 
-  constexpr bool const& __get_m_ShowBoundCollectionSize() const;
+  constexpr bool const& __cordl_internal_get_m_ShowBoundCollectionSize() const;
 
-  constexpr void __set_m_ShowBoundCollectionSize(bool value);
+  constexpr void __cordl_internal_set_m_ShowBoundCollectionSize(bool value);
 
-  constexpr bool& __get_m_ShowFoldoutHeader();
+  constexpr bool& __cordl_internal_get_m_ShowFoldoutHeader();
 
-  constexpr bool const& __get_m_ShowFoldoutHeader() const;
+  constexpr bool const& __cordl_internal_get_m_ShowFoldoutHeader() const;
 
-  constexpr void __set_m_ShowFoldoutHeader(bool value);
+  constexpr void __cordl_internal_set_m_ShowFoldoutHeader(bool value);
 
-  constexpr ::StringW& __get_m_HeaderTitle();
+  constexpr ::StringW& __cordl_internal_get_m_HeaderTitle();
 
-  constexpr ::StringW const& __get_m_HeaderTitle() const;
+  constexpr ::StringW const& __cordl_internal_get_m_HeaderTitle() const;
 
-  constexpr void __set_m_HeaderTitle(::StringW value);
+  constexpr void __cordl_internal_set_m_HeaderTitle(::StringW value);
 
-  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& __get_itemsAdded();
+  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& __cordl_internal_get_itemsAdded();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*> const& __get_itemsAdded() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*> const& __cordl_internal_get_itemsAdded() const;
 
-  constexpr void __set_itemsAdded(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
+  constexpr void __cordl_internal_set_itemsAdded(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
 
-  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& __get_itemsRemoved();
+  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& __cordl_internal_get_itemsRemoved();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*> const& __get_itemsRemoved() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*> const& __cordl_internal_get_itemsRemoved() const;
 
-  constexpr void __set_itemsRemoved(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
+  constexpr void __cordl_internal_set_itemsRemoved(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
 
-  constexpr ::UnityEngine::UIElements::Label*& __get_m_EmptyListLabel();
+  constexpr ::UnityEngine::UIElements::Label*& __cordl_internal_get_m_EmptyListLabel();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*> const& __get_m_EmptyListLabel() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*> const& __cordl_internal_get_m_EmptyListLabel() const;
 
-  constexpr void __set_m_EmptyListLabel(::UnityEngine::UIElements::Label* value);
+  constexpr void __cordl_internal_set_m_EmptyListLabel(::UnityEngine::UIElements::Label* value);
 
-  constexpr ::UnityEngine::UIElements::Foldout*& __get_m_Foldout();
+  constexpr ::UnityEngine::UIElements::Foldout*& __cordl_internal_get_m_Foldout();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Foldout*> const& __get_m_Foldout() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Foldout*> const& __cordl_internal_get_m_Foldout() const;
 
-  constexpr void __set_m_Foldout(::UnityEngine::UIElements::Foldout* value);
+  constexpr void __cordl_internal_set_m_Foldout(::UnityEngine::UIElements::Foldout* value);
 
-  constexpr ::UnityEngine::UIElements::TextField*& __get_m_ArraySizeField();
+  constexpr ::UnityEngine::UIElements::TextField*& __cordl_internal_get_m_ArraySizeField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextField*> const& __get_m_ArraySizeField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextField*> const& __cordl_internal_get_m_ArraySizeField() const;
 
-  constexpr void __set_m_ArraySizeField(::UnityEngine::UIElements::TextField* value);
+  constexpr void __cordl_internal_set_m_ArraySizeField(::UnityEngine::UIElements::TextField* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_Footer();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Footer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_Footer() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Footer() const;
 
-  constexpr void __set_m_Footer(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_Footer(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::Button*& __get_m_AddButton();
+  constexpr ::UnityEngine::UIElements::Button*& __cordl_internal_get_m_AddButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Button*> const& __get_m_AddButton() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Button*> const& __cordl_internal_get_m_AddButton() const;
 
-  constexpr void __set_m_AddButton(::UnityEngine::UIElements::Button* value);
+  constexpr void __cordl_internal_set_m_AddButton(::UnityEngine::UIElements::Button* value);
 
-  constexpr ::UnityEngine::UIElements::Button*& __get_m_RemoveButton();
+  constexpr ::UnityEngine::UIElements::Button*& __cordl_internal_get_m_RemoveButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Button*> const& __get_m_RemoveButton() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Button*> const& __cordl_internal_get_m_RemoveButton() const;
 
-  constexpr void __set_m_RemoveButton(::UnityEngine::UIElements::Button* value);
+  constexpr void __cordl_internal_set_m_RemoveButton(::UnityEngine::UIElements::Button* value);
 
-  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& __get_m_ItemAddedCallback();
+  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& __cordl_internal_get_m_ItemAddedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*> const& __get_m_ItemAddedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*> const& __cordl_internal_get_m_ItemAddedCallback() const;
 
-  constexpr void __set_m_ItemAddedCallback(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
+  constexpr void __cordl_internal_set_m_ItemAddedCallback(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
 
-  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& __get_m_ItemRemovedCallback();
+  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& __cordl_internal_get_m_ItemRemovedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*> const& __get_m_ItemRemovedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*> const& __cordl_internal_get_m_ItemRemovedCallback() const;
 
-  constexpr void __set_m_ItemRemovedCallback(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
+  constexpr void __cordl_internal_set_m_ItemRemovedCallback(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
 
-  constexpr ::System::Action*& __get_m_ItemsSourceSizeChangedCallback();
+  constexpr ::System::Action*& __cordl_internal_get_m_ItemsSourceSizeChangedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_m_ItemsSourceSizeChangedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_m_ItemsSourceSizeChangedCallback() const;
 
-  constexpr void __set_m_ItemsSourceSizeChangedCallback(::System::Action* value);
+  constexpr void __cordl_internal_set_m_ItemsSourceSizeChangedCallback(::System::Action* value);
 
-  constexpr ::UnityEngine::UIElements::ListViewController*& __get_m_ListViewController();
+  constexpr ::UnityEngine::UIElements::ListViewController*& __cordl_internal_get_m_ListViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ListViewController*> const& __get_m_ListViewController() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ListViewController*> const& __cordl_internal_get_m_ListViewController() const;
 
-  constexpr void __set_m_ListViewController(::UnityEngine::UIElements::ListViewController* value);
+  constexpr void __cordl_internal_set_m_ListViewController(::UnityEngine::UIElements::ListViewController* value);
 
-  constexpr ::UnityEngine::UIElements::ListViewReorderMode& __get_m_ReorderMode();
+  constexpr ::UnityEngine::UIElements::ListViewReorderMode& __cordl_internal_get_m_ReorderMode();
 
-  constexpr ::UnityEngine::UIElements::ListViewReorderMode const& __get_m_ReorderMode() const;
+  constexpr ::UnityEngine::UIElements::ListViewReorderMode const& __cordl_internal_get_m_ReorderMode() const;
 
-  constexpr void __set_m_ReorderMode(::UnityEngine::UIElements::ListViewReorderMode value);
+  constexpr void __cordl_internal_set_m_ReorderMode(::UnityEngine::UIElements::ListViewReorderMode value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 
@@ -786,8 +795,8 @@ static_assert(offsetof(::UnityEngine::UIElements::ListView, ___m_ReorderMode) ==
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7070)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7071)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5267 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7069)) CS Name: ::ListView::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7070)), TypeDefinitionIndex(TypeDefinitionIndex(7071)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5267 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7069)) CS Name: ::ListView::UxmlFactory*
 class CORDL_TYPE __ListView__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ListView*, ::UnityEngine::UIElements::__ListView__UxmlTraits*> {
 public:
   // Declarations

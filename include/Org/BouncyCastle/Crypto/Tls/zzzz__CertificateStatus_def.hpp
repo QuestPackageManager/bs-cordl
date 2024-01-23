@@ -24,33 +24,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::CertificateStatus);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1188))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::CertificateStatus*
 class CORDL_TYPE CertificateStatus : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mStatusType, offset 0x10, size 0x1
-  __declspec(property(get = __get_mStatusType, put = __set_mStatusType)) uint8_t mStatusType;
+  __declspec(property(get = __cordl_internal_get_mStatusType, put = __cordl_internal_set_mStatusType)) uint8_t mStatusType;
 
   /// @brief Field mResponse, offset 0x18, size 0x8
-  __declspec(property(get = __get_mResponse, put = __set_mResponse))::System::Object* mResponse;
+  __declspec(property(get = __cordl_internal_get_mResponse, put = __cordl_internal_set_mResponse))::System::Object* mResponse;
 
   __declspec(property(get = get_StatusType)) uint8_t StatusType;
 
   __declspec(property(get = get_Response))::System::Object* Response;
 
-  constexpr uint8_t& __get_mStatusType();
+  constexpr uint8_t& __cordl_internal_get_mStatusType();
 
-  constexpr uint8_t const& __get_mStatusType() const;
+  constexpr uint8_t const& __cordl_internal_get_mStatusType() const;
 
-  constexpr void __set_mStatusType(uint8_t value);
+  constexpr void __cordl_internal_set_mStatusType(uint8_t value);
 
-  constexpr ::System::Object*& __get_mResponse();
+  constexpr ::System::Object*& __cordl_internal_get_mResponse();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_mResponse() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_mResponse() const;
 
-  constexpr void __set_mResponse(::System::Object* value);
+  constexpr void __cordl_internal_set_mResponse(::System::Object* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateStatus* New_ctor(uint8_t statusType, ::System::Object* response);
 

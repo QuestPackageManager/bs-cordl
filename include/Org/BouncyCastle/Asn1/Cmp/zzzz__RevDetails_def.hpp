@@ -29,33 +29,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::RevDetails);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(50))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::RevDetails*
 class CORDL_TYPE RevDetails : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field certDetails, offset 0x10, size 0x8
-  __declspec(property(get = __get_certDetails, put = __set_certDetails))::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certDetails;
+  __declspec(property(get = __cordl_internal_get_certDetails, put = __cordl_internal_set_certDetails))::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certDetails;
 
   /// @brief Field crlEntryDetails, offset 0x18, size 0x8
-  __declspec(property(get = __get_crlEntryDetails, put = __set_crlEntryDetails))::Org::BouncyCastle::Asn1::X509::X509Extensions* crlEntryDetails;
+  __declspec(property(get = __cordl_internal_get_crlEntryDetails, put = __cordl_internal_set_crlEntryDetails))::Org::BouncyCastle::Asn1::X509::X509Extensions* crlEntryDetails;
 
   __declspec(property(get = get_CertDetails))::Org::BouncyCastle::Asn1::Crmf::CertTemplate* CertDetails;
 
   __declspec(property(get = get_CrlEntryDetails))::Org::BouncyCastle::Asn1::X509::X509Extensions* CrlEntryDetails;
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplate*& __get_certDetails();
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplate*& __cordl_internal_get_certDetails();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertTemplate*> const& __get_certDetails() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertTemplate*> const& __cordl_internal_get_certDetails() const;
 
-  constexpr void __set_certDetails(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* value);
+  constexpr void __cordl_internal_set_certDetails(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __get_crlEntryDetails();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_crlEntryDetails();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __get_crlEntryDetails() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __cordl_internal_get_crlEntryDetails() const;
 
-  constexpr void __set_crlEntryDetails(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
+  constexpr void __cordl_internal_set_crlEntryDetails(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

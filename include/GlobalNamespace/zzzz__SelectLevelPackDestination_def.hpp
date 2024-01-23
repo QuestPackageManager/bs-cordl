@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectLevelPackDestination);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4152))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4152))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4155))
 // CS Name: ::SelectLevelPackDestination*
 class CORDL_TYPE SelectLevelPackDestination : public ::GlobalNamespace::MenuDestination {
 public:
   // Declarations
   /// @brief Field beatmapLevelPack, offset 0x10, size 0x8
-  __declspec(property(get = __get_beatmapLevelPack, put = __set_beatmapLevelPack))::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack;
+  __declspec(property(get = __cordl_internal_get_beatmapLevelPack, put = __cordl_internal_set_beatmapLevelPack))::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack;
 
-  constexpr ::GlobalNamespace::IBeatmapLevelPack*& __get_beatmapLevelPack();
+  constexpr ::GlobalNamespace::IBeatmapLevelPack*& __cordl_internal_get_beatmapLevelPack();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelPack*> const& __get_beatmapLevelPack() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelPack*> const& __cordl_internal_get_beatmapLevelPack() const;
 
-  constexpr void __set_beatmapLevelPack(::GlobalNamespace::IBeatmapLevelPack* value);
+  constexpr void __cordl_internal_set_beatmapLevelPack(::GlobalNamespace::IBeatmapLevelPack* value);
 
   static inline ::GlobalNamespace::SelectLevelPackDestination* New_ctor(::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack);
 

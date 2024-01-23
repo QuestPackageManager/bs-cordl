@@ -22,33 +22,33 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonLoadSettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11967)), TypeDefinitionIndex(TypeDefinitionIndex(11966)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11966)), TypeDefinitionIndex(TypeDefinitionIndex(11967))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11970))
 // CS Name: ::Newtonsoft.Json.Linq::JsonLoadSettings*
 class CORDL_TYPE JsonLoadSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _commentHandling, offset 0x10, size 0x4
-  __declspec(property(get = __get__commentHandling, put = __set__commentHandling))::Newtonsoft::Json::Linq::CommentHandling _commentHandling;
+  __declspec(property(get = __cordl_internal_get__commentHandling, put = __cordl_internal_set__commentHandling))::Newtonsoft::Json::Linq::CommentHandling _commentHandling;
 
   /// @brief Field _lineInfoHandling, offset 0x14, size 0x4
-  __declspec(property(get = __get__lineInfoHandling, put = __set__lineInfoHandling))::Newtonsoft::Json::Linq::LineInfoHandling _lineInfoHandling;
+  __declspec(property(get = __cordl_internal_get__lineInfoHandling, put = __cordl_internal_set__lineInfoHandling))::Newtonsoft::Json::Linq::LineInfoHandling _lineInfoHandling;
 
   __declspec(property(get = get_CommentHandling, put = set_CommentHandling))::Newtonsoft::Json::Linq::CommentHandling CommentHandling;
 
   __declspec(property(get = get_LineInfoHandling, put = set_LineInfoHandling))::Newtonsoft::Json::Linq::LineInfoHandling LineInfoHandling;
 
-  constexpr ::Newtonsoft::Json::Linq::CommentHandling& __get__commentHandling();
+  constexpr ::Newtonsoft::Json::Linq::CommentHandling& __cordl_internal_get__commentHandling();
 
-  constexpr ::Newtonsoft::Json::Linq::CommentHandling const& __get__commentHandling() const;
+  constexpr ::Newtonsoft::Json::Linq::CommentHandling const& __cordl_internal_get__commentHandling() const;
 
-  constexpr void __set__commentHandling(::Newtonsoft::Json::Linq::CommentHandling value);
+  constexpr void __cordl_internal_set__commentHandling(::Newtonsoft::Json::Linq::CommentHandling value);
 
-  constexpr ::Newtonsoft::Json::Linq::LineInfoHandling& __get__lineInfoHandling();
+  constexpr ::Newtonsoft::Json::Linq::LineInfoHandling& __cordl_internal_get__lineInfoHandling();
 
-  constexpr ::Newtonsoft::Json::Linq::LineInfoHandling const& __get__lineInfoHandling() const;
+  constexpr ::Newtonsoft::Json::Linq::LineInfoHandling const& __cordl_internal_get__lineInfoHandling() const;
 
-  constexpr void __set__lineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value);
+  constexpr void __cordl_internal_set__lineInfoHandling(::Newtonsoft::Json::Linq::LineInfoHandling value);
 
   /// @brief Method get_CommentHandling, addr 0x2690e60, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::CommentHandling get_CommentHandling();

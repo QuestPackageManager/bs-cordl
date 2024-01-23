@@ -18,67 +18,67 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::ConstraintRotationOffset);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 109, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12508)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12508))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12512))
 // CS Name: ::RootMotion.FinalIK::ConstraintRotationOffset*
 class CORDL_TYPE ConstraintRotationOffset : public ::RootMotion::FinalIK::Constraint {
 public:
   // Declarations
   /// @brief Field offset, offset 0x1c, size 0x10
-  __declspec(property(get = __get_offset, put = __set_offset))::UnityEngine::Quaternion offset;
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset))::UnityEngine::Quaternion offset;
 
   /// @brief Field defaultRotation, offset 0x2c, size 0x10
-  __declspec(property(get = __get_defaultRotation, put = __set_defaultRotation))::UnityEngine::Quaternion defaultRotation;
+  __declspec(property(get = __cordl_internal_get_defaultRotation, put = __cordl_internal_set_defaultRotation))::UnityEngine::Quaternion defaultRotation;
 
   /// @brief Field defaultLocalRotation, offset 0x3c, size 0x10
-  __declspec(property(get = __get_defaultLocalRotation, put = __set_defaultLocalRotation))::UnityEngine::Quaternion defaultLocalRotation;
+  __declspec(property(get = __cordl_internal_get_defaultLocalRotation, put = __cordl_internal_set_defaultLocalRotation))::UnityEngine::Quaternion defaultLocalRotation;
 
   /// @brief Field lastLocalRotation, offset 0x4c, size 0x10
-  __declspec(property(get = __get_lastLocalRotation, put = __set_lastLocalRotation))::UnityEngine::Quaternion lastLocalRotation;
+  __declspec(property(get = __cordl_internal_get_lastLocalRotation, put = __cordl_internal_set_lastLocalRotation))::UnityEngine::Quaternion lastLocalRotation;
 
   /// @brief Field defaultTargetLocalRotation, offset 0x5c, size 0x10
-  __declspec(property(get = __get_defaultTargetLocalRotation, put = __set_defaultTargetLocalRotation))::UnityEngine::Quaternion defaultTargetLocalRotation;
+  __declspec(property(get = __cordl_internal_get_defaultTargetLocalRotation, put = __cordl_internal_set_defaultTargetLocalRotation))::UnityEngine::Quaternion defaultTargetLocalRotation;
 
   /// @brief Field initiated, offset 0x6c, size 0x1
-  __declspec(property(get = __get_initiated, put = __set_initiated)) bool initiated;
+  __declspec(property(get = __cordl_internal_get_initiated, put = __cordl_internal_set_initiated)) bool initiated;
 
   __declspec(property(get = get_rotationChanged)) bool rotationChanged;
 
-  constexpr ::UnityEngine::Quaternion& __get_offset();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_offset();
 
-  constexpr ::UnityEngine::Quaternion const& __get_offset() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_offset() const;
 
-  constexpr void __set_offset(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_offset(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Quaternion& __get_defaultRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_defaultRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_defaultRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_defaultRotation() const;
 
-  constexpr void __set_defaultRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_defaultRotation(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Quaternion& __get_defaultLocalRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_defaultLocalRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_defaultLocalRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_defaultLocalRotation() const;
 
-  constexpr void __set_defaultLocalRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_defaultLocalRotation(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Quaternion& __get_lastLocalRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_lastLocalRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_lastLocalRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_lastLocalRotation() const;
 
-  constexpr void __set_lastLocalRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_lastLocalRotation(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Quaternion& __get_defaultTargetLocalRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_defaultTargetLocalRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_defaultTargetLocalRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_defaultTargetLocalRotation() const;
 
-  constexpr void __set_defaultTargetLocalRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_defaultTargetLocalRotation(::UnityEngine::Quaternion value);
 
-  constexpr bool& __get_initiated();
+  constexpr bool& __cordl_internal_get_initiated();
 
-  constexpr bool const& __get_initiated() const;
+  constexpr bool const& __cordl_internal_get_initiated() const;
 
-  constexpr void __set_initiated(bool value);
+  constexpr void __cordl_internal_set_initiated(bool value);
 
   /// @brief Method UpdateConstraint, addr 0x12429f8, size 0x104, virtual true, abstract: false, final false
   inline void UpdateConstraint();

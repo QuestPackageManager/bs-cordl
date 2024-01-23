@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IAnnotatedBeatmapLevelCollection);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4419))
 // CS Name: ::IAnnotatedBeatmapLevelCollection*
 class CORDL_TYPE IAnnotatedBeatmapLevelCollection {
@@ -28,9 +28,9 @@ public:
   // Declarations
   __declspec(property(get = get_collectionName))::StringW collectionName;
 
-  __declspec(property(get = get_coverImage))::UnityEngine::Sprite* coverImage;
+  __declspec(property(get = get_coverImage))::UnityW<::UnityEngine::Sprite> coverImage;
 
-  __declspec(property(get = get_smallCoverImage))::UnityEngine::Sprite* smallCoverImage;
+  __declspec(property(get = get_smallCoverImage))::UnityW<::UnityEngine::Sprite> smallCoverImage;
 
   __declspec(property(get = get_beatmapLevelCollection))::GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection;
 
@@ -38,10 +38,10 @@ public:
   inline ::StringW get_collectionName();
 
   /// @brief Method get_coverImage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::Sprite* get_coverImage();
+  inline ::UnityW<::UnityEngine::Sprite> get_coverImage();
 
   /// @brief Method get_smallCoverImage, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::Sprite* get_smallCoverImage();
+  inline ::UnityW<::UnityEngine::Sprite> get_smallCoverImage();
 
   /// @brief Method get_beatmapLevelCollection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::GlobalNamespace::IBeatmapLevelCollection* get_beatmapLevelCollection();

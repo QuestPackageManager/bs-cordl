@@ -16,56 +16,56 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SecurityParameters);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 93, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1266))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SecurityParameters*
 class CORDL_TYPE SecurityParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field entity, offset 0x10, size 0x4
-  __declspec(property(get = __get_entity, put = __set_entity)) int32_t entity;
+  __declspec(property(get = __cordl_internal_get_entity, put = __cordl_internal_set_entity)) int32_t entity;
 
   /// @brief Field cipherSuite, offset 0x14, size 0x4
-  __declspec(property(get = __get_cipherSuite, put = __set_cipherSuite)) int32_t cipherSuite;
+  __declspec(property(get = __cordl_internal_get_cipherSuite, put = __cordl_internal_set_cipherSuite)) int32_t cipherSuite;
 
   /// @brief Field compressionAlgorithm, offset 0x18, size 0x1
-  __declspec(property(get = __get_compressionAlgorithm, put = __set_compressionAlgorithm)) uint8_t compressionAlgorithm;
+  __declspec(property(get = __cordl_internal_get_compressionAlgorithm, put = __cordl_internal_set_compressionAlgorithm)) uint8_t compressionAlgorithm;
 
   /// @brief Field prfAlgorithm, offset 0x1c, size 0x4
-  __declspec(property(get = __get_prfAlgorithm, put = __set_prfAlgorithm)) int32_t prfAlgorithm;
+  __declspec(property(get = __cordl_internal_get_prfAlgorithm, put = __cordl_internal_set_prfAlgorithm)) int32_t prfAlgorithm;
 
   /// @brief Field verifyDataLength, offset 0x20, size 0x4
-  __declspec(property(get = __get_verifyDataLength, put = __set_verifyDataLength)) int32_t verifyDataLength;
+  __declspec(property(get = __cordl_internal_get_verifyDataLength, put = __cordl_internal_set_verifyDataLength)) int32_t verifyDataLength;
 
   /// @brief Field masterSecret, offset 0x28, size 0x8
-  __declspec(property(get = __get_masterSecret, put = __set_masterSecret))::ArrayW<uint8_t, ::Array<uint8_t>*> masterSecret;
+  __declspec(property(get = __cordl_internal_get_masterSecret, put = __cordl_internal_set_masterSecret))::ArrayW<uint8_t, ::Array<uint8_t>*> masterSecret;
 
   /// @brief Field clientRandom, offset 0x30, size 0x8
-  __declspec(property(get = __get_clientRandom, put = __set_clientRandom))::ArrayW<uint8_t, ::Array<uint8_t>*> clientRandom;
+  __declspec(property(get = __cordl_internal_get_clientRandom, put = __cordl_internal_set_clientRandom))::ArrayW<uint8_t, ::Array<uint8_t>*> clientRandom;
 
   /// @brief Field serverRandom, offset 0x38, size 0x8
-  __declspec(property(get = __get_serverRandom, put = __set_serverRandom))::ArrayW<uint8_t, ::Array<uint8_t>*> serverRandom;
+  __declspec(property(get = __cordl_internal_get_serverRandom, put = __cordl_internal_set_serverRandom))::ArrayW<uint8_t, ::Array<uint8_t>*> serverRandom;
 
   /// @brief Field sessionHash, offset 0x40, size 0x8
-  __declspec(property(get = __get_sessionHash, put = __set_sessionHash))::ArrayW<uint8_t, ::Array<uint8_t>*> sessionHash;
+  __declspec(property(get = __cordl_internal_get_sessionHash, put = __cordl_internal_set_sessionHash))::ArrayW<uint8_t, ::Array<uint8_t>*> sessionHash;
 
   /// @brief Field pskIdentity, offset 0x48, size 0x8
-  __declspec(property(get = __get_pskIdentity, put = __set_pskIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> pskIdentity;
+  __declspec(property(get = __cordl_internal_get_pskIdentity, put = __cordl_internal_set_pskIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> pskIdentity;
 
   /// @brief Field srpIdentity, offset 0x50, size 0x8
-  __declspec(property(get = __get_srpIdentity, put = __set_srpIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> srpIdentity;
+  __declspec(property(get = __cordl_internal_get_srpIdentity, put = __cordl_internal_set_srpIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> srpIdentity;
 
   /// @brief Field maxFragmentLength, offset 0x58, size 0x2
-  __declspec(property(get = __get_maxFragmentLength, put = __set_maxFragmentLength)) int16_t maxFragmentLength;
+  __declspec(property(get = __cordl_internal_get_maxFragmentLength, put = __cordl_internal_set_maxFragmentLength)) int16_t maxFragmentLength;
 
   /// @brief Field truncatedHMac, offset 0x5a, size 0x1
-  __declspec(property(get = __get_truncatedHMac, put = __set_truncatedHMac)) bool truncatedHMac;
+  __declspec(property(get = __cordl_internal_get_truncatedHMac, put = __cordl_internal_set_truncatedHMac)) bool truncatedHMac;
 
   /// @brief Field encryptThenMac, offset 0x5b, size 0x1
-  __declspec(property(get = __get_encryptThenMac, put = __set_encryptThenMac)) bool encryptThenMac;
+  __declspec(property(get = __cordl_internal_get_encryptThenMac, put = __cordl_internal_set_encryptThenMac)) bool encryptThenMac;
 
   /// @brief Field extendedMasterSecret, offset 0x5c, size 0x1
-  __declspec(property(get = __get_extendedMasterSecret, put = __set_extendedMasterSecret)) bool extendedMasterSecret;
+  __declspec(property(get = __cordl_internal_get_extendedMasterSecret, put = __cordl_internal_set_extendedMasterSecret)) bool extendedMasterSecret;
 
   __declspec(property(get = get_Entity)) int32_t Entity;
 
@@ -91,95 +91,95 @@ public:
 
   __declspec(property(get = get_IsExtendedMasterSecret)) bool IsExtendedMasterSecret;
 
-  constexpr int32_t& __get_entity();
+  constexpr int32_t& __cordl_internal_get_entity();
 
-  constexpr int32_t const& __get_entity() const;
+  constexpr int32_t const& __cordl_internal_get_entity() const;
 
-  constexpr void __set_entity(int32_t value);
+  constexpr void __cordl_internal_set_entity(int32_t value);
 
-  constexpr int32_t& __get_cipherSuite();
+  constexpr int32_t& __cordl_internal_get_cipherSuite();
 
-  constexpr int32_t const& __get_cipherSuite() const;
+  constexpr int32_t const& __cordl_internal_get_cipherSuite() const;
 
-  constexpr void __set_cipherSuite(int32_t value);
+  constexpr void __cordl_internal_set_cipherSuite(int32_t value);
 
-  constexpr uint8_t& __get_compressionAlgorithm();
+  constexpr uint8_t& __cordl_internal_get_compressionAlgorithm();
 
-  constexpr uint8_t const& __get_compressionAlgorithm() const;
+  constexpr uint8_t const& __cordl_internal_get_compressionAlgorithm() const;
 
-  constexpr void __set_compressionAlgorithm(uint8_t value);
+  constexpr void __cordl_internal_set_compressionAlgorithm(uint8_t value);
 
-  constexpr int32_t& __get_prfAlgorithm();
+  constexpr int32_t& __cordl_internal_get_prfAlgorithm();
 
-  constexpr int32_t const& __get_prfAlgorithm() const;
+  constexpr int32_t const& __cordl_internal_get_prfAlgorithm() const;
 
-  constexpr void __set_prfAlgorithm(int32_t value);
+  constexpr void __cordl_internal_set_prfAlgorithm(int32_t value);
 
-  constexpr int32_t& __get_verifyDataLength();
+  constexpr int32_t& __cordl_internal_get_verifyDataLength();
 
-  constexpr int32_t const& __get_verifyDataLength() const;
+  constexpr int32_t const& __cordl_internal_get_verifyDataLength() const;
 
-  constexpr void __set_verifyDataLength(int32_t value);
+  constexpr void __cordl_internal_set_verifyDataLength(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_masterSecret();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_masterSecret();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_masterSecret() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_masterSecret() const;
 
-  constexpr void __set_masterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_masterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_clientRandom();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_clientRandom();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_clientRandom() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_clientRandom() const;
 
-  constexpr void __set_clientRandom(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_clientRandom(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_serverRandom();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_serverRandom();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_serverRandom() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_serverRandom() const;
 
-  constexpr void __set_serverRandom(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_serverRandom(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_sessionHash();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_sessionHash();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_sessionHash() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_sessionHash() const;
 
-  constexpr void __set_sessionHash(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_sessionHash(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_pskIdentity();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_pskIdentity();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_pskIdentity() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_pskIdentity() const;
 
-  constexpr void __set_pskIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_pskIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_srpIdentity();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_srpIdentity();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_srpIdentity() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_srpIdentity() const;
 
-  constexpr void __set_srpIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_srpIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int16_t& __get_maxFragmentLength();
+  constexpr int16_t& __cordl_internal_get_maxFragmentLength();
 
-  constexpr int16_t const& __get_maxFragmentLength() const;
+  constexpr int16_t const& __cordl_internal_get_maxFragmentLength() const;
 
-  constexpr void __set_maxFragmentLength(int16_t value);
+  constexpr void __cordl_internal_set_maxFragmentLength(int16_t value);
 
-  constexpr bool& __get_truncatedHMac();
+  constexpr bool& __cordl_internal_get_truncatedHMac();
 
-  constexpr bool const& __get_truncatedHMac() const;
+  constexpr bool const& __cordl_internal_get_truncatedHMac() const;
 
-  constexpr void __set_truncatedHMac(bool value);
+  constexpr void __cordl_internal_set_truncatedHMac(bool value);
 
-  constexpr bool& __get_encryptThenMac();
+  constexpr bool& __cordl_internal_get_encryptThenMac();
 
-  constexpr bool const& __get_encryptThenMac() const;
+  constexpr bool const& __cordl_internal_get_encryptThenMac() const;
 
-  constexpr void __set_encryptThenMac(bool value);
+  constexpr void __cordl_internal_set_encryptThenMac(bool value);
 
-  constexpr bool& __get_extendedMasterSecret();
+  constexpr bool& __cordl_internal_get_extendedMasterSecret();
 
-  constexpr bool const& __get_extendedMasterSecret() const;
+  constexpr bool const& __cordl_internal_get_extendedMasterSecret() const;
 
-  constexpr void __set_extendedMasterSecret(bool value);
+  constexpr void __cordl_internal_set_extendedMasterSecret(bool value);
 
   /// @brief Method Clear, addr 0xf94c8c, size 0x6c, virtual true, abstract: false, final false
   inline void Clear();

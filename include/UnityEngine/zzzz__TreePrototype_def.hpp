@@ -22,47 +22,47 @@ MARK_REF_PTR_T(::UnityEngine::TreePrototype);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15467))
 // CS Name: ::UnityEngine::TreePrototype*
 class CORDL_TYPE TreePrototype : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Prefab, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Prefab, put = __set_m_Prefab))::UnityEngine::GameObject* m_Prefab;
+  __declspec(property(get = __cordl_internal_get_m_Prefab, put = __cordl_internal_set_m_Prefab))::UnityW<::UnityEngine::GameObject> m_Prefab;
 
   /// @brief Field m_BendFactor, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_BendFactor, put = __set_m_BendFactor)) float_t m_BendFactor;
+  __declspec(property(get = __cordl_internal_get_m_BendFactor, put = __cordl_internal_set_m_BendFactor)) float_t m_BendFactor;
 
   /// @brief Field m_NavMeshLod, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_NavMeshLod, put = __set_m_NavMeshLod)) int32_t m_NavMeshLod;
+  __declspec(property(get = __cordl_internal_get_m_NavMeshLod, put = __cordl_internal_set_m_NavMeshLod)) int32_t m_NavMeshLod;
 
-  __declspec(property(get = get_prefab, put = set_prefab))::UnityEngine::GameObject* prefab;
+  __declspec(property(get = get_prefab, put = set_prefab))::UnityW<::UnityEngine::GameObject> prefab;
 
   __declspec(property(get = get_bendFactor, put = set_bendFactor)) float_t bendFactor;
 
   __declspec(property(get = get_navMeshLod)) int32_t navMeshLod;
 
-  constexpr ::UnityEngine::GameObject*& __get_m_Prefab();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_Prefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_Prefab() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_Prefab() const;
 
-  constexpr void __set_m_Prefab(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_Prefab(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr float_t& __get_m_BendFactor();
+  constexpr float_t& __cordl_internal_get_m_BendFactor();
 
-  constexpr float_t const& __get_m_BendFactor() const;
+  constexpr float_t const& __cordl_internal_get_m_BendFactor() const;
 
-  constexpr void __set_m_BendFactor(float_t value);
+  constexpr void __cordl_internal_set_m_BendFactor(float_t value);
 
-  constexpr int32_t& __get_m_NavMeshLod();
+  constexpr int32_t& __cordl_internal_get_m_NavMeshLod();
 
-  constexpr int32_t const& __get_m_NavMeshLod() const;
+  constexpr int32_t const& __cordl_internal_get_m_NavMeshLod() const;
 
-  constexpr void __set_m_NavMeshLod(int32_t value);
+  constexpr void __cordl_internal_set_m_NavMeshLod(int32_t value);
 
   /// @brief Method get_prefab, addr 0x2d1c2ac, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_prefab();
+  inline ::UnityW<::UnityEngine::GameObject> get_prefab();
 
   /// @brief Method set_prefab, addr 0x2d1c2b4, size 0x8, virtual false, abstract: false, final false
   inline void set_prefab(::UnityEngine::GameObject* value);
@@ -105,7 +105,7 @@ protected:
 
 public:
   /// @brief Field m_Prefab, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_Prefab;
+  ::UnityW<::UnityEngine::GameObject> ___m_Prefab;
 
   /// @brief Field m_BendFactor, offset: 0x18, size: 0x4, def value: None
   float_t ___m_BendFactor;

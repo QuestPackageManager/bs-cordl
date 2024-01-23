@@ -31,23 +31,25 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Joystick);
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6239))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6239))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6241))
 // CS Name: ::UnityEngine.InputSystem::Joystick*
 class CORDL_TYPE Joystick : public ::UnityEngine::InputSystem::InputDevice {
 public:
   // Declarations
   /// @brief Field <trigger>k__BackingField, offset 0x158, size 0x8
-  __declspec(property(get = __get__trigger_k__BackingField, put = __set__trigger_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _trigger_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__trigger_k__BackingField,
+                      put = __cordl_internal_set__trigger_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _trigger_k__BackingField;
 
   /// @brief Field <stick>k__BackingField, offset 0x160, size 0x8
-  __declspec(property(get = __get__stick_k__BackingField, put = __set__stick_k__BackingField))::UnityEngine::InputSystem::Controls::StickControl* _stick_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__stick_k__BackingField, put = __cordl_internal_set__stick_k__BackingField))::UnityEngine::InputSystem::Controls::StickControl* _stick_k__BackingField;
 
   /// @brief Field <twist>k__BackingField, offset 0x168, size 0x8
-  __declspec(property(get = __get__twist_k__BackingField, put = __set__twist_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _twist_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__twist_k__BackingField, put = __cordl_internal_set__twist_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _twist_k__BackingField;
 
   /// @brief Field <hatswitch>k__BackingField, offset 0x170, size 0x8
-  __declspec(property(get = __get__hatswitch_k__BackingField, put = __set__hatswitch_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _hatswitch_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__hatswitch_k__BackingField,
+                      put = __cordl_internal_set__hatswitch_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _hatswitch_k__BackingField;
 
   /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField))::UnityEngine::InputSystem::Joystick* _current_k__BackingField;
@@ -66,29 +68,29 @@ public:
 
   __declspec(property(get = get_hatswitch, put = set_hatswitch))::UnityEngine::InputSystem::Controls::Vector2Control* hatswitch;
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__trigger_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__trigger_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__trigger_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__trigger_k__BackingField() const;
 
-  constexpr void __set__trigger_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__trigger_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::StickControl*& __get__stick_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::StickControl*& __cordl_internal_get__stick_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::StickControl*> const& __get__stick_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::StickControl*> const& __cordl_internal_get__stick_k__BackingField() const;
 
-  constexpr void __set__stick_k__BackingField(::UnityEngine::InputSystem::Controls::StickControl* value);
+  constexpr void __cordl_internal_set__stick_k__BackingField(::UnityEngine::InputSystem::Controls::StickControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __get__twist_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__twist_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __get__twist_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__twist_k__BackingField() const;
 
-  constexpr void __set__twist_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+  constexpr void __cordl_internal_set__twist_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __get__hatswitch_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __cordl_internal_get__hatswitch_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __get__hatswitch_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __cordl_internal_get__hatswitch_k__BackingField() const;
 
-  constexpr void __set__hatswitch_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+  constexpr void __cordl_internal_set__hatswitch_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Joystick* value);
 

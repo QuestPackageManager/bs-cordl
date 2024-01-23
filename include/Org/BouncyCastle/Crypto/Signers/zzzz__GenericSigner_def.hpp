@@ -29,20 +29,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::GenericSigner);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1139))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::GenericSigner*
 class CORDL_TYPE GenericSigner : public ::System::Object {
 public:
   // Declarations
   /// @brief Field engine, offset 0x10, size 0x8
-  __declspec(property(get = __get_engine, put = __set_engine))::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine;
+  __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine))::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine;
 
   /// @brief Field digest, offset 0x18, size 0x8
-  __declspec(property(get = __get_digest, put = __set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
 
   /// @brief Field forSigning, offset 0x20, size 0x1
-  __declspec(property(get = __get_forSigning, put = __set_forSigning)) bool forSigning;
+  __declspec(property(get = __cordl_internal_get_forSigning, put = __cordl_internal_set_forSigning)) bool forSigning;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -52,23 +52,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& __get_engine();
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& __cordl_internal_get_engine();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*> const& __get_engine() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*> const& __cordl_internal_get_engine() const;
 
-  constexpr void __set_engine(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
+  constexpr void __cordl_internal_set_engine(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_digest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_digest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
 
-  constexpr void __set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr bool& __get_forSigning();
+  constexpr bool& __cordl_internal_get_forSigning();
 
-  constexpr bool const& __get_forSigning() const;
+  constexpr bool const& __cordl_internal_get_forSigning() const;
 
-  constexpr void __set_forSigning(bool value);
+  constexpr void __cordl_internal_set_forSigning(bool value);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::GenericSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine, ::Org::BouncyCastle::Crypto::IDigest* digest);
 

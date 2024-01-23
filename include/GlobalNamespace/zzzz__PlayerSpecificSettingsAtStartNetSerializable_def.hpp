@@ -35,19 +35,19 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12926))
 // CS Name: ::PlayerSpecificSettingsAtStartNetSerializable*
 class CORDL_TYPE PlayerSpecificSettingsAtStartNetSerializable : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <activePlayerSpecificSettingsAtGameStart>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__activePlayerSpecificSettingsAtGameStart_k__BackingField, put = __set__activePlayerSpecificSettingsAtGameStart_k__BackingField))::System::Collections::Generic::
-      IReadOnlyList_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* _activePlayerSpecificSettingsAtGameStart_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__activePlayerSpecificSettingsAtGameStart_k__BackingField, put = __cordl_internal_set__activePlayerSpecificSettingsAtGameStart_k__BackingField))::
+      System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* _activePlayerSpecificSettingsAtGameStart_k__BackingField;
 
   /// @brief Field _activePlayersAtGameStart, offset 0x18, size 0x8
-  __declspec(property(get = __get__activePlayersAtGameStart,
-                      put = __set__activePlayersAtGameStart))::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* _activePlayersAtGameStart;
+  __declspec(property(get = __cordl_internal_get__activePlayersAtGameStart,
+                      put = __cordl_internal_set__activePlayersAtGameStart))::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* _activePlayersAtGameStart;
 
   __declspec(property(get = get_activePlayersAtGameStart))::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* activePlayersAtGameStart;
 
@@ -60,18 +60,20 @@ public:
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*& __get__activePlayerSpecificSettingsAtGameStart_k__BackingField();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*&
+  __cordl_internal_get__activePlayerSpecificSettingsAtGameStart_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*> const&
-  __get__activePlayerSpecificSettingsAtGameStart_k__BackingField() const;
+  __cordl_internal_get__activePlayerSpecificSettingsAtGameStart_k__BackingField() const;
 
-  constexpr void __set__activePlayerSpecificSettingsAtGameStart_k__BackingField(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
+  constexpr void
+  __cordl_internal_set__activePlayerSpecificSettingsAtGameStart_k__BackingField(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*& __get__activePlayersAtGameStart();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*& __cordl_internal_get__activePlayersAtGameStart();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*> const& __get__activePlayersAtGameStart() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*> const& __cordl_internal_get__activePlayersAtGameStart() const;
 
-  constexpr void __set__activePlayersAtGameStart(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* value);
+  constexpr void __cordl_internal_set__activePlayersAtGameStart(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
   /// @brief Method get_activePlayersAtGameStart, addr 0xe51d9c, size 0x260, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* get_activePlayersAtGameStart();

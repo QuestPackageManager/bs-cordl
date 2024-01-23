@@ -26,58 +26,58 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15693))
 // CS Name: ::BeatSaber.BeatAvatarSDK::BeatAvatarPoseController*
 class CORDL_TYPE BeatAvatarPoseController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _headTransform, offset 0x18, size 0x8
-  __declspec(property(get = __get__headTransform, put = __set__headTransform))::UnityEngine::Transform* _headTransform;
+  __declspec(property(get = __cordl_internal_get__headTransform, put = __cordl_internal_set__headTransform))::UnityW<::UnityEngine::Transform> _headTransform;
 
   /// @brief Field _leftHandTransform, offset 0x20, size 0x8
-  __declspec(property(get = __get__leftHandTransform, put = __set__leftHandTransform))::UnityEngine::Transform* _leftHandTransform;
+  __declspec(property(get = __cordl_internal_get__leftHandTransform, put = __cordl_internal_set__leftHandTransform))::UnityW<::UnityEngine::Transform> _leftHandTransform;
 
   /// @brief Field _rightHandTransform, offset 0x28, size 0x8
-  __declspec(property(get = __get__rightHandTransform, put = __set__rightHandTransform))::UnityEngine::Transform* _rightHandTransform;
+  __declspec(property(get = __cordl_internal_get__rightHandTransform, put = __cordl_internal_set__rightHandTransform))::UnityW<::UnityEngine::Transform> _rightHandTransform;
 
   /// @brief Field _bodyTransform, offset 0x30, size 0x8
-  __declspec(property(get = __get__bodyTransform, put = __set__bodyTransform))::UnityEngine::Transform* _bodyTransform;
+  __declspec(property(get = __cordl_internal_get__bodyTransform, put = __cordl_internal_set__bodyTransform))::UnityW<::UnityEngine::Transform> _bodyTransform;
 
   /// @brief Field _headBodyOffset, offset 0x38, size 0x8
-  __declspec(property(get = __get__headBodyOffset, put = __set__headBodyOffset))::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO* _headBodyOffset;
+  __declspec(property(get = __cordl_internal_get__headBodyOffset, put = __cordl_internal_set__headBodyOffset))::UnityW<::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO> _headBodyOffset;
 
   __declspec(property(get = get_bodyWorldPosition))::UnityEngine::Vector3 bodyWorldPosition;
 
-  constexpr ::UnityEngine::Transform*& __get__headTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__headTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__headTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__headTransform() const;
 
-  constexpr void __set__headTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__headTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__leftHandTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftHandTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__leftHandTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftHandTransform() const;
 
-  constexpr void __set__leftHandTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__leftHandTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__rightHandTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightHandTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__rightHandTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightHandTransform() const;
 
-  constexpr void __set__rightHandTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__rightHandTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__bodyTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__bodyTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__bodyTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__bodyTransform() const;
 
-  constexpr void __set__bodyTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__bodyTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO*& __get__headBodyOffset();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO>& __cordl_internal_get__headBodyOffset();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO*> const& __get__headBodyOffset() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO> const& __cordl_internal_get__headBodyOffset() const;
 
-  constexpr void __set__headBodyOffset(::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO* value);
+  constexpr void __cordl_internal_set__headBodyOffset(::UnityW<::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO> value);
 
   /// @brief Method get_bodyWorldPosition, addr 0xe1b04c, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_bodyWorldPosition();
@@ -109,19 +109,19 @@ protected:
 
 public:
   /// @brief Field _headTransform, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____headTransform;
+  ::UnityW<::UnityEngine::Transform> ____headTransform;
 
   /// @brief Field _leftHandTransform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____leftHandTransform;
+  ::UnityW<::UnityEngine::Transform> ____leftHandTransform;
 
   /// @brief Field _rightHandTransform, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____rightHandTransform;
+  ::UnityW<::UnityEngine::Transform> ____rightHandTransform;
 
   /// @brief Field _bodyTransform, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____bodyTransform;
+  ::UnityW<::UnityEngine::Transform> ____bodyTransform;
 
   /// @brief Field _headBodyOffset, offset: 0x38, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO* ____headBodyOffset;
+  ::UnityW<::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO> ____headBodyOffset;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

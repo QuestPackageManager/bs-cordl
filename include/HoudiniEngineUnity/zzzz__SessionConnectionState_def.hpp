@@ -15,7 +15,7 @@ MARK_VAL_T(::HoudiniEngineUnity::SessionConnectionState);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9782))
 // CS Name: ::HoudiniEngineUnity::SessionConnectionState
 struct CORDL_TYPE SessionConnectionState {

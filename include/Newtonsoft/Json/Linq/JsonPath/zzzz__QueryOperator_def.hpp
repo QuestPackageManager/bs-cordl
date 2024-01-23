@@ -15,7 +15,7 @@ MARK_VAL_T(::Newtonsoft::Json::Linq::JsonPath::QueryOperator);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12021))
 // CS Name: ::Newtonsoft.Json.Linq.JsonPath::QueryOperator
 struct CORDL_TYPE QueryOperator {

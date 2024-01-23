@@ -19,7 +19,7 @@ MARK_VAL_T(::System::Xml::Xsl::Runtime::StringConcat);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Xsl::Runtime {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11592))
 // CS Name: ::System.Xml.Xsl.Runtime::StringConcat
 struct CORDL_TYPE StringConcat {

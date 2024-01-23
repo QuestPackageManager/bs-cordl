@@ -63,68 +63,68 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ObjectNode);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9726)), TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(9738))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9726)), TypeDefinitionIndex(TypeDefinitionIndex(9738)), TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9654))
 // CS Name: ::HoudiniEngineUnity::HEU_ObjectNode*
 class CORDL_TYPE HEU_ObjectNode : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _objName, offset 0x18, size 0x8
-  __declspec(property(get = __get__objName, put = __set__objName))::StringW _objName;
+  __declspec(property(get = __cordl_internal_get__objName, put = __cordl_internal_set__objName))::StringW _objName;
 
   /// @brief Field _parentAsset, offset 0x20, size 0x8
-  __declspec(property(get = __get__parentAsset, put = __set__parentAsset))::HoudiniEngineUnity::HEU_HoudiniAsset* _parentAsset;
+  __declspec(property(get = __cordl_internal_get__parentAsset, put = __cordl_internal_set__parentAsset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _parentAsset;
 
   /// @brief Field _objectInfo, offset 0x28, size 0x1c
-  __declspec(property(get = __get__objectInfo, put = __set__objectInfo))::HoudiniEngineUnity::HAPI_ObjectInfo _objectInfo;
+  __declspec(property(get = __cordl_internal_get__objectInfo, put = __cordl_internal_set__objectInfo))::HoudiniEngineUnity::HAPI_ObjectInfo _objectInfo;
 
   /// @brief Field _geoNodes, offset 0x48, size 0x8
-  __declspec(property(get = __get__geoNodes, put = __set__geoNodes))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoNode*>* _geoNodes;
+  __declspec(property(get = __cordl_internal_get__geoNodes, put = __cordl_internal_set__geoNodes))::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>* _geoNodes;
 
   /// @brief Field _objectTransform, offset 0x50, size 0x28
-  __declspec(property(get = __get__objectTransform, put = __set__objectTransform))::HoudiniEngineUnity::HAPI_Transform _objectTransform;
+  __declspec(property(get = __cordl_internal_get__objectTransform, put = __cordl_internal_set__objectTransform))::HoudiniEngineUnity::HAPI_Transform _objectTransform;
 
   __declspec(property(get = get_ObjectID)) int32_t ObjectID;
 
   __declspec(property(get = get_ObjectName))::StringW ObjectName;
 
-  __declspec(property(get = get_ParentAsset))::HoudiniEngineUnity::HEU_HoudiniAsset* ParentAsset;
+  __declspec(property(get = get_ParentAsset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ParentAsset;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectNode*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectNode*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectNode*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ObjectNode*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_ObjectNode__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_ObjectNode__() noexcept;
 
-  constexpr ::StringW& __get__objName();
+  constexpr ::StringW& __cordl_internal_get__objName();
 
-  constexpr ::StringW const& __get__objName() const;
+  constexpr ::StringW const& __cordl_internal_get__objName() const;
 
-  constexpr void __set__objName(::StringW value);
+  constexpr void __cordl_internal_set__objName(::StringW value);
 
-  constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset*& __get__parentAsset();
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get__parentAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HoudiniAsset*> const& __get__parentAsset() const;
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get__parentAsset() const;
 
-  constexpr void __set__parentAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* value);
+  constexpr void __cordl_internal_set__parentAsset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
-  constexpr ::HoudiniEngineUnity::HAPI_ObjectInfo& __get__objectInfo();
+  constexpr ::HoudiniEngineUnity::HAPI_ObjectInfo& __cordl_internal_get__objectInfo();
 
-  constexpr ::HoudiniEngineUnity::HAPI_ObjectInfo const& __get__objectInfo() const;
+  constexpr ::HoudiniEngineUnity::HAPI_ObjectInfo const& __cordl_internal_get__objectInfo() const;
 
-  constexpr void __set__objectInfo(::HoudiniEngineUnity::HAPI_ObjectInfo value);
+  constexpr void __cordl_internal_set__objectInfo(::HoudiniEngineUnity::HAPI_ObjectInfo value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoNode*>*& __get__geoNodes();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>*& __cordl_internal_get__geoNodes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoNode*>*> const& __get__geoNodes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>*> const& __cordl_internal_get__geoNodes() const;
 
-  constexpr void __set__geoNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoNode*>* value);
+  constexpr void __cordl_internal_set__geoNodes(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>* value);
 
-  constexpr ::HoudiniEngineUnity::HAPI_Transform& __get__objectTransform();
+  constexpr ::HoudiniEngineUnity::HAPI_Transform& __cordl_internal_get__objectTransform();
 
-  constexpr ::HoudiniEngineUnity::HAPI_Transform const& __get__objectTransform() const;
+  constexpr ::HoudiniEngineUnity::HAPI_Transform const& __cordl_internal_get__objectTransform() const;
 
-  constexpr void __set__objectTransform(::HoudiniEngineUnity::HAPI_Transform value);
+  constexpr void __cordl_internal_set__objectTransform(::HoudiniEngineUnity::HAPI_Transform value);
 
   /// @brief Method get_ObjectID, addr 0x2172ad0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ObjectID();
@@ -133,7 +133,7 @@ public:
   inline ::StringW get_ObjectName();
 
   /// @brief Method get_ParentAsset, addr 0x2172ae0, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_HoudiniAsset* get_ParentAsset();
+  inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> get_ParentAsset();
 
   /// @brief Method IsInstanced, addr 0x2172ae8, size 0x8, virtual false, abstract: false, final false
   inline bool IsInstanced();
@@ -160,7 +160,7 @@ public:
   inline void DestroyAllData(bool bIsRebuild);
 
   /// @brief Method CreateGeoNode, addr 0x2173104, size 0xb4, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_GeoNode* CreateGeoNode(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_GeoInfo geoInfo);
+  inline ::UnityW<::HoudiniEngineUnity::HEU_GeoNode> CreateGeoNode(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_GeoInfo geoInfo);
 
   /// @brief Method GetDebugInfo, addr 0x21732b8, size 0x2bc, virtual false, abstract: false, final false
   inline void GetDebugInfo(::System::Text::StringBuilder* sb);
@@ -187,25 +187,25 @@ public:
   inline bool IsUsingMaterial(::HoudiniEngineUnity::HEU_MaterialData* materialData);
 
   /// @brief Method GetClonableParts, addr 0x21750fc, size 0x164, virtual false, abstract: false, final false
-  inline void GetClonableParts(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PartData*>* clonableParts);
+  inline void GetClonableParts(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* clonableParts);
 
   /// @brief Method GetOutputGameObjects, addr 0x2175260, size 0x154, virtual false, abstract: false, final false
-  inline void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
+  inline void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
   /// @brief Method GetOutput, addr 0x21753b4, size 0x154, virtual false, abstract: false, final false
   inline void GetOutput(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* outputs);
 
   /// @brief Method GetHDAPartWithGameObject, addr 0x2175508, size 0x1ac, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_PartData* GetHDAPartWithGameObject(::UnityEngine::GameObject* outputGameObject);
+  inline ::UnityW<::HoudiniEngineUnity::HEU_PartData> GetHDAPartWithGameObject(::UnityEngine::GameObject* outputGameObject);
 
   /// @brief Method GetGeoNode, addr 0x21756b4, size 0x190, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_GeoNode* GetGeoNode(::StringW geoName);
+  inline ::UnityW<::HoudiniEngineUnity::HEU_GeoNode> GetGeoNode(::StringW geoName);
 
   /// @brief Method GetCurves, addr 0x2175844, size 0x158, virtual false, abstract: false, final false
-  inline void GetCurves(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Curve*>* curves, bool bEditableOnly);
+  inline void GetCurves(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>* curves, bool bEditableOnly);
 
   /// @brief Method GetOutputGeoNodes, addr 0x217599c, size 0x1e0, virtual false, abstract: false, final false
-  inline void GetOutputGeoNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoNode*>* outGeoNodes);
+  inline void GetOutputGeoNodes(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>* outGeoNodes);
 
   /// @brief Method GenerateObjectInstances, addr 0x2175b7c, size 0x48c, virtual false, abstract: false, final false
   inline void GenerateObjectInstances(::HoudiniEngineUnity::HEU_SessionBase* session);
@@ -214,7 +214,7 @@ public:
   inline void ClearObjectInstances(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   /// @brief Method PopulateObjectInstanceInfos, addr 0x2177c94, size 0x138, virtual false, abstract: false, final false
-  inline void PopulateObjectInstanceInfos(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_ObjectInstanceInfo*>* objInstanceInfos);
+  inline void PopulateObjectInstanceInfos(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_ObjectInstanceInfo>>* objInstanceInfos);
 
   /// @brief Method ProcessUnityScriptAttributes, addr 0x2177e24, size 0x154, virtual false, abstract: false, final false
   inline void ProcessUnityScriptAttributes(::HoudiniEngineUnity::HEU_SessionBase* session);
@@ -258,13 +258,13 @@ public:
   ::StringW ____objName;
 
   /// @brief Field _parentAsset, offset: 0x20, size: 0x8, def value: None
-  ::HoudiniEngineUnity::HEU_HoudiniAsset* ____parentAsset;
+  ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ____parentAsset;
 
   /// @brief Field _objectInfo, offset: 0x28, size: 0x1c, def value: None
   ::HoudiniEngineUnity::HAPI_ObjectInfo ____objectInfo;
 
   /// @brief Field _geoNodes, offset: 0x48, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeoNode*>* ____geoNodes;
+  ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>* ____geoNodes;
 
   /// @brief Field _objectTransform, offset: 0x50, size: 0x28, def value: None
   ::HoudiniEngineUnity::HAPI_Transform ____objectTransform;

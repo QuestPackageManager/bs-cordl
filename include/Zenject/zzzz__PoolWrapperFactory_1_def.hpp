@@ -32,14 +32,14 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11074))
 // CS Name: ::Zenject::PoolWrapperFactory`1<T>*
 class CORDL_TYPE PoolWrapperFactory_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _pool, offset 0x10, size 0x8
-  __declspec(property(get = __get__pool, put = __set__pool))::Zenject::IMemoryPool_1<T>* _pool;
+  __declspec(property(get = __cordl_internal_get__pool, put = __cordl_internal_set__pool))::Zenject::IMemoryPool_1<T>* _pool;
 
   /// @brief Convert operator to "::Zenject::IFactory_1<T>"
   constexpr operator ::Zenject::IFactory_1<T>*() noexcept;
@@ -53,11 +53,11 @@ public:
   /// @brief Convert to "::Zenject::IFactory"
   constexpr ::Zenject::IFactory* i___Zenject__IFactory() noexcept;
 
-  constexpr ::Zenject::IMemoryPool_1<T>*& __get__pool();
+  constexpr ::Zenject::IMemoryPool_1<T>*& __cordl_internal_get__pool();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IMemoryPool_1<T>*> const& __get__pool() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IMemoryPool_1<T>*> const& __cordl_internal_get__pool() const;
 
-  constexpr void __set__pool(::Zenject::IMemoryPool_1<T>* value);
+  constexpr void __cordl_internal_set__pool(::Zenject::IMemoryPool_1<T>* value);
 
   static inline ::Zenject::PoolWrapperFactory_1<T>* New_ctor(::Zenject::IMemoryPool_1<T>* pool);
 

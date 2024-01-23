@@ -32,17 +32,17 @@ MARK_REF_PTR_T(::System::__TypeIdentifiers__Display);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2629))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2629))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2631))
 // CS Name: ::TypeIdentifiers::Display*
 class CORDL_TYPE __TypeIdentifiers__Display : public ::System::__TypeNames__ATypeName {
 public:
   // Declarations
   /// @brief Field displayName, offset 0x10, size 0x8
-  __declspec(property(get = __get_displayName, put = __set_displayName))::StringW displayName;
+  __declspec(property(get = __cordl_internal_get_displayName, put = __cordl_internal_set_displayName))::StringW displayName;
 
   /// @brief Field internal_name, offset 0x18, size 0x8
-  __declspec(property(get = __get_internal_name, put = __set_internal_name))::StringW internal_name;
+  __declspec(property(get = __cordl_internal_get_internal_name, put = __cordl_internal_set_internal_name))::StringW internal_name;
 
   __declspec(property(get = get_DisplayName))::StringW DisplayName;
 
@@ -66,17 +66,17 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::System::TypeName*>"
   constexpr ::System::IEquatable_1<::System::TypeName*>* i___System__IEquatable_1___System__TypeName__() noexcept;
 
-  constexpr ::StringW& __get_displayName();
+  constexpr ::StringW& __cordl_internal_get_displayName();
 
-  constexpr ::StringW const& __get_displayName() const;
+  constexpr ::StringW const& __cordl_internal_get_displayName() const;
 
-  constexpr void __set_displayName(::StringW value);
+  constexpr void __cordl_internal_set_displayName(::StringW value);
 
-  constexpr ::StringW& __get_internal_name();
+  constexpr ::StringW& __cordl_internal_get_internal_name();
 
-  constexpr ::StringW const& __get_internal_name() const;
+  constexpr ::StringW const& __cordl_internal_get_internal_name() const;
 
-  constexpr void __set_internal_name(::StringW value);
+  constexpr void __cordl_internal_set_internal_name(::StringW value);
 
   static inline ::System::__TypeIdentifiers__Display* New_ctor(::StringW displayName);
 
@@ -126,7 +126,7 @@ static_assert(offsetof(::System::__TypeIdentifiers__Display, ___internal_name) =
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2632))
 // CS Name: ::System::TypeIdentifiers*
 class CORDL_TYPE TypeIdentifiers : public ::System::Object {

@@ -23,16 +23,16 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__Task__WhenAllPromise);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 900 }), TypeDefinitionIndex(TypeDefinitionIndex(2794)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2773))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2784)) CS Name: ::Task::WhenAllPromise*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), TypeDefinitionIndex(TypeDefinitionIndex(2794)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 900
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(2784)) CS Name: ::Task::WhenAllPromise*
 class CORDL_TYPE __Task__WhenAllPromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::VoidTaskResult> {
 public:
   // Declarations
   /// @brief Field m_tasks, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_tasks, put = __set_m_tasks))::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> m_tasks;
+  __declspec(property(get = __cordl_internal_get_m_tasks, put = __cordl_internal_set_m_tasks))::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> m_tasks;
 
   /// @brief Field m_count, offset 0x60, size 0x4
-  __declspec(property(get = __get_m_count, put = __set_m_count)) int32_t m_count;
+  __declspec(property(get = __cordl_internal_get_m_count, put = __cordl_internal_set_m_count)) int32_t m_count;
 
   __declspec(property(get = get_ShouldNotifyDebuggerOfWaitCompletion)) bool ShouldNotifyDebuggerOfWaitCompletion;
 
@@ -44,17 +44,17 @@ public:
   /// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"
   constexpr ::System::Threading::Tasks::ITaskCompletionAction* i___System__Threading__Tasks__ITaskCompletionAction() noexcept;
 
-  constexpr ::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*>& __get_m_tasks();
+  constexpr ::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*>& __cordl_internal_get_m_tasks();
 
-  constexpr ::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> const& __get_m_tasks() const;
+  constexpr ::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> const& __cordl_internal_get_m_tasks() const;
 
-  constexpr void __set_m_tasks(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> value);
+  constexpr void __cordl_internal_set_m_tasks(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> value);
 
-  constexpr int32_t& __get_m_count();
+  constexpr int32_t& __cordl_internal_get_m_count();
 
-  constexpr int32_t const& __get_m_count() const;
+  constexpr int32_t const& __cordl_internal_get_m_count() const;
 
-  constexpr void __set_m_count(int32_t value);
+  constexpr void __cordl_internal_set_m_count(int32_t value);
 
   static inline ::System::Threading::Tasks::__Task__WhenAllPromise* New_ctor(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> tasks);
 

@@ -34,7 +34,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10716), inst: 1789 }), TypeDefinitionIndex(TypeDefinitionIndex(10716))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10716)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10716), inst: 1789 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10848))
 // CS Name: ::Zenject::FactoryToChoiceBinder`1<TContract>*
 class CORDL_TYPE FactoryToChoiceBinder_1 : public ::Zenject::FactoryFromBinder_1<TContract> {

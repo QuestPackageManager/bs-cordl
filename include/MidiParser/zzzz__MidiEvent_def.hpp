@@ -18,7 +18,7 @@ MARK_VAL_T(::MidiParser::MidiEvent);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace MidiParser {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16230))
 // CS Name: ::MidiParser::MidiEvent
 struct CORDL_TYPE MidiEvent {

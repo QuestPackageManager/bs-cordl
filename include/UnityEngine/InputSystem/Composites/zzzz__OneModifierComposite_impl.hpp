@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2a5b06c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::OneModifierComposite*>::get(),
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2a5b074;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::OneModifierComposite*>::get(),
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x2a5b07c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::OneModifierComposite*>::get(),
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x2a5b144;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::OneModifierComposite*>::get(),
@@ -76,10 +76,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x2a5b0bc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::OneModifierComposite*>::get(), "ModifierIsPressed", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::OneModifierComposite*>::get(), "ModifierIsPressed", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>>::get() })));
     return ___internal_method;
   }
 };
@@ -91,7 +91,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x2a5b1a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::OneModifierComposite*>::get(),
@@ -108,7 +108,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x2a5b728;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::OneModifierComposite*>::get(),
@@ -125,12 +125,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x4d4;
   constexpr static std::size_t addrs = 0x2a5b254;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::OneModifierComposite*>::get(), "DetermineValueTypeAndSize", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::OneModifierComposite*>::get(), "DetermineValueTypeAndSize",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 5>{
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get(),
+                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
     return ___internal_method;
   }
 };
@@ -142,82 +144,82 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2a5b778;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::OneModifierComposite*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_modifier() {
+constexpr int32_t& UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_get_modifier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifier;
 }
-constexpr int32_t const& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_modifier() const {
+constexpr int32_t const& UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_get_modifier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifier;
 }
-constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__set_modifier(int32_t value) {
+constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_set_modifier(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___modifier = value;
 }
-constexpr int32_t& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_binding() {
+constexpr int32_t& UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_get_binding() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binding;
 }
-constexpr int32_t const& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_binding() const {
+constexpr int32_t const& UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_get_binding() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___binding;
 }
-constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__set_binding(int32_t value) {
+constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_set_binding(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___binding = value;
 }
-constexpr bool& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_overrideModifiersNeedToBePressedFirst() {
+constexpr bool& UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_get_overrideModifiersNeedToBePressedFirst() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideModifiersNeedToBePressedFirst;
 }
-constexpr bool const& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_overrideModifiersNeedToBePressedFirst() const {
+constexpr bool const& UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_get_overrideModifiersNeedToBePressedFirst() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___overrideModifiersNeedToBePressedFirst;
 }
-constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__set_overrideModifiersNeedToBePressedFirst(bool value) {
+constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_set_overrideModifiersNeedToBePressedFirst(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___overrideModifiersNeedToBePressedFirst = value;
 }
-constexpr int32_t& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_m_ValueSizeInBytes() {
+constexpr int32_t& UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_get_m_ValueSizeInBytes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ValueSizeInBytes;
 }
-constexpr int32_t const& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_m_ValueSizeInBytes() const {
+constexpr int32_t const& UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_get_m_ValueSizeInBytes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ValueSizeInBytes;
 }
-constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__set_m_ValueSizeInBytes(int32_t value) {
+constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_set_m_ValueSizeInBytes(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ValueSizeInBytes = value;
 }
-constexpr ::System::Type*& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_m_ValueType() {
+constexpr ::System::Type*& UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_get_m_ValueType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ValueType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_m_ValueType() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_get_m_ValueType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ValueType;
 }
-constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__set_m_ValueType(::System::Type* value) {
+constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_set_m_ValueType(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ValueType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_m_BindingIsButton() {
+constexpr bool& UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_get_m_BindingIsButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BindingIsButton;
 }
-constexpr bool const& UnityEngine::InputSystem::Composites::OneModifierComposite::__get_m_BindingIsButton() const {
+constexpr bool const& UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_get_m_BindingIsButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BindingIsButton;
 }
-constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__set_m_BindingIsButton(bool value) {
+constexpr void UnityEngine::InputSystem::Composites::OneModifierComposite::__cordl_internal_set_m_BindingIsButton(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_BindingIsButton = value;
 }
@@ -248,8 +250,8 @@ inline void UnityEngine::InputSystem::Composites::OneModifierComposite::ReadValu
 }
 inline bool UnityEngine::InputSystem::Composites::OneModifierComposite::ModifierIsPressed(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::OneModifierComposite*>::get(), "ModifierIsPressed", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::OneModifierComposite*>::get(), "ModifierIsPressed", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, context);
 }
 inline void UnityEngine::InputSystem::Composites::OneModifierComposite::FinishSetup(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
@@ -267,19 +269,20 @@ inline ::System::Object* UnityEngine::InputSystem::Composites::OneModifierCompos
 inline void UnityEngine::InputSystem::Composites::OneModifierComposite::DetermineValueTypeAndSize(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, int32_t part,
                                                                                                   ByRef<::System::Type*> valueType, ByRef<int32_t> valueSizeInBytes, ByRef<bool> isButton) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::OneModifierComposite*>::get(), "DetermineValueTypeAndSize", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::OneModifierComposite*>::get(), "DetermineValueTypeAndSize",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Type*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<bool>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, context, part, valueType, valueSizeInBytes, isButton);
 }
 inline ::UnityEngine::InputSystem::Composites::OneModifierComposite* UnityEngine::InputSystem::Composites::OneModifierComposite::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::InputSystem::Composites::OneModifierComposite*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Composites::OneModifierComposite*>());
 }
 inline void UnityEngine::InputSystem::Composites::OneModifierComposite::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::OneModifierComposite*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

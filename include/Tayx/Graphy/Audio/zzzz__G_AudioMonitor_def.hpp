@@ -31,37 +31,37 @@ MARK_REF_PTR_T(::Tayx::Graphy::Audio::G_AudioMonitor);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Audio {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15066)), TypeDefinitionIndex(TypeDefinitionIndex(15588)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15066)), TypeDefinitionIndex(TypeDefinitionIndex(15588))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15088))
 // CS Name: ::Tayx.Graphy.Audio::G_AudioMonitor*
 class CORDL_TYPE G_AudioMonitor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field m_graphyManager, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_graphyManager, put = __set_m_graphyManager))::Tayx::Graphy::GraphyManager* m_graphyManager;
+  __declspec(property(get = __cordl_internal_get_m_graphyManager, put = __cordl_internal_set_m_graphyManager))::UnityW<::Tayx::Graphy::GraphyManager> m_graphyManager;
 
   /// @brief Field m_audioListener, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_audioListener, put = __set_m_audioListener))::UnityEngine::AudioListener* m_audioListener;
+  __declspec(property(get = __cordl_internal_get_m_audioListener, put = __cordl_internal_set_m_audioListener))::UnityW<::UnityEngine::AudioListener> m_audioListener;
 
   /// @brief Field m_findAudioListenerInCameraIfNull, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_findAudioListenerInCameraIfNull,
-                      put = __set_m_findAudioListenerInCameraIfNull))::Tayx::Graphy::__GraphyManager__LookForAudioListener m_findAudioListenerInCameraIfNull;
+  __declspec(property(get = __cordl_internal_get_m_findAudioListenerInCameraIfNull,
+                      put = __cordl_internal_set_m_findAudioListenerInCameraIfNull))::Tayx::Graphy::__GraphyManager__LookForAudioListener m_findAudioListenerInCameraIfNull;
 
   /// @brief Field m_FFTWindow, offset 0x2c, size 0x4
-  __declspec(property(get = __get_m_FFTWindow, put = __set_m_FFTWindow))::UnityEngine::FFTWindow m_FFTWindow;
+  __declspec(property(get = __cordl_internal_get_m_FFTWindow, put = __cordl_internal_set_m_FFTWindow))::UnityEngine::FFTWindow m_FFTWindow;
 
   /// @brief Field m_spectrumSize, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_spectrumSize, put = __set_m_spectrumSize)) int32_t m_spectrumSize;
+  __declspec(property(get = __cordl_internal_get_m_spectrumSize, put = __cordl_internal_set_m_spectrumSize)) int32_t m_spectrumSize;
 
   /// @brief Field <Spectrum>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__Spectrum_k__BackingField, put = __set__Spectrum_k__BackingField))::ArrayW<float_t, ::Array<float_t>*> _Spectrum_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Spectrum_k__BackingField, put = __cordl_internal_set__Spectrum_k__BackingField))::ArrayW<float_t, ::Array<float_t>*> _Spectrum_k__BackingField;
 
   /// @brief Field <SpectrumHighestValues>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __get__SpectrumHighestValues_k__BackingField,
-                      put = __set__SpectrumHighestValues_k__BackingField))::ArrayW<float_t, ::Array<float_t>*> _SpectrumHighestValues_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SpectrumHighestValues_k__BackingField,
+                      put = __cordl_internal_set__SpectrumHighestValues_k__BackingField))::ArrayW<float_t, ::Array<float_t>*> _SpectrumHighestValues_k__BackingField;
 
   /// @brief Field <MaxDB>k__BackingField, offset 0x48, size 0x4
-  __declspec(property(get = __get__MaxDB_k__BackingField, put = __set__MaxDB_k__BackingField)) float_t _MaxDB_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MaxDB_k__BackingField, put = __cordl_internal_set__MaxDB_k__BackingField)) float_t _MaxDB_k__BackingField;
 
   __declspec(property(get = get_Spectrum, put = set_Spectrum))::ArrayW<float_t, ::Array<float_t>*> Spectrum;
 
@@ -71,53 +71,53 @@ public:
 
   __declspec(property(get = get_SpectrumDataAvailable)) bool SpectrumDataAvailable;
 
-  constexpr ::Tayx::Graphy::GraphyManager*& __get_m_graphyManager();
+  constexpr ::UnityW<::Tayx::Graphy::GraphyManager>& __cordl_internal_get_m_graphyManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::GraphyManager*> const& __get_m_graphyManager() const;
+  constexpr ::UnityW<::Tayx::Graphy::GraphyManager> const& __cordl_internal_get_m_graphyManager() const;
 
-  constexpr void __set_m_graphyManager(::Tayx::Graphy::GraphyManager* value);
+  constexpr void __cordl_internal_set_m_graphyManager(::UnityW<::Tayx::Graphy::GraphyManager> value);
 
-  constexpr ::UnityEngine::AudioListener*& __get_m_audioListener();
+  constexpr ::UnityW<::UnityEngine::AudioListener>& __cordl_internal_get_m_audioListener();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioListener*> const& __get_m_audioListener() const;
+  constexpr ::UnityW<::UnityEngine::AudioListener> const& __cordl_internal_get_m_audioListener() const;
 
-  constexpr void __set_m_audioListener(::UnityEngine::AudioListener* value);
+  constexpr void __cordl_internal_set_m_audioListener(::UnityW<::UnityEngine::AudioListener> value);
 
-  constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener& __get_m_findAudioListenerInCameraIfNull();
+  constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener& __cordl_internal_get_m_findAudioListenerInCameraIfNull();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener const& __get_m_findAudioListenerInCameraIfNull() const;
+  constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener const& __cordl_internal_get_m_findAudioListenerInCameraIfNull() const;
 
-  constexpr void __set_m_findAudioListenerInCameraIfNull(::Tayx::Graphy::__GraphyManager__LookForAudioListener value);
+  constexpr void __cordl_internal_set_m_findAudioListenerInCameraIfNull(::Tayx::Graphy::__GraphyManager__LookForAudioListener value);
 
-  constexpr ::UnityEngine::FFTWindow& __get_m_FFTWindow();
+  constexpr ::UnityEngine::FFTWindow& __cordl_internal_get_m_FFTWindow();
 
-  constexpr ::UnityEngine::FFTWindow const& __get_m_FFTWindow() const;
+  constexpr ::UnityEngine::FFTWindow const& __cordl_internal_get_m_FFTWindow() const;
 
-  constexpr void __set_m_FFTWindow(::UnityEngine::FFTWindow value);
+  constexpr void __cordl_internal_set_m_FFTWindow(::UnityEngine::FFTWindow value);
 
-  constexpr int32_t& __get_m_spectrumSize();
+  constexpr int32_t& __cordl_internal_get_m_spectrumSize();
 
-  constexpr int32_t const& __get_m_spectrumSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_spectrumSize() const;
 
-  constexpr void __set_m_spectrumSize(int32_t value);
+  constexpr void __cordl_internal_set_m_spectrumSize(int32_t value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get__Spectrum_k__BackingField();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__Spectrum_k__BackingField();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get__Spectrum_k__BackingField() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__Spectrum_k__BackingField() const;
 
-  constexpr void __set__Spectrum_k__BackingField(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set__Spectrum_k__BackingField(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get__SpectrumHighestValues_k__BackingField();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__SpectrumHighestValues_k__BackingField();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get__SpectrumHighestValues_k__BackingField() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__SpectrumHighestValues_k__BackingField() const;
 
-  constexpr void __set__SpectrumHighestValues_k__BackingField(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set__SpectrumHighestValues_k__BackingField(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr float_t& __get__MaxDB_k__BackingField();
+  constexpr float_t& __cordl_internal_get__MaxDB_k__BackingField();
 
-  constexpr float_t const& __get__MaxDB_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__MaxDB_k__BackingField() const;
 
-  constexpr void __set__MaxDB_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__MaxDB_k__BackingField(float_t value);
 
   /// @brief Method get_Spectrum, addr 0x2a0a304, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_Spectrum();
@@ -159,7 +159,7 @@ public:
   inline float_t dBNormalized(float_t db);
 
   /// @brief Method FindAudioListener, addr 0x2a0a524, size 0xb4, virtual false, abstract: false, final false
-  inline ::UnityEngine::AudioListener* FindAudioListener();
+  inline ::UnityW<::UnityEngine::AudioListener> FindAudioListener();
 
   /// @brief Method OnSceneLoaded, addr 0x2a0a67c, size 0x24, virtual false, abstract: false, final false
   inline void OnSceneLoaded(::UnityEngine::SceneManagement::Scene scene, ::UnityEngine::SceneManagement::LoadSceneMode loadSceneMode);
@@ -187,10 +187,10 @@ protected:
 
 public:
   /// @brief Field m_graphyManager, offset: 0x18, size: 0x8, def value: None
-  ::Tayx::Graphy::GraphyManager* ___m_graphyManager;
+  ::UnityW<::Tayx::Graphy::GraphyManager> ___m_graphyManager;
 
   /// @brief Field m_audioListener, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::AudioListener* ___m_audioListener;
+  ::UnityW<::UnityEngine::AudioListener> ___m_audioListener;
 
   /// @brief Field m_findAudioListenerInCameraIfNull, offset: 0x28, size: 0x4, def value: None
   ::Tayx::Graphy::__GraphyManager__LookForAudioListener ___m_findAudioListenerInCameraIfNull;

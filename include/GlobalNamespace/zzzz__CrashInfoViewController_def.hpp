@@ -20,29 +20,29 @@ MARK_REF_PTR_T(::GlobalNamespace::CrashInfoViewController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5620))
 // CS Name: ::CrashInfoViewController*
 class CORDL_TYPE CrashInfoViewController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _crashManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__crashManager, put = __set__crashManager))::GlobalNamespace::CrashManagerSO* _crashManager;
+  __declspec(property(get = __cordl_internal_get__crashManager, put = __cordl_internal_set__crashManager))::UnityW<::GlobalNamespace::CrashManagerSO> _crashManager;
 
   /// @brief Field _text, offset 0x20, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::TMPro::TextMeshProUGUI* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
 
-  constexpr ::GlobalNamespace::CrashManagerSO*& __get__crashManager();
+  constexpr ::UnityW<::GlobalNamespace::CrashManagerSO>& __cordl_internal_get__crashManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CrashManagerSO*> const& __get__crashManager() const;
+  constexpr ::UnityW<::GlobalNamespace::CrashManagerSO> const& __cordl_internal_get__crashManager() const;
 
-  constexpr void __set__crashManager(::GlobalNamespace::CrashManagerSO* value);
+  constexpr void __cordl_internal_set__crashManager(::UnityW<::GlobalNamespace::CrashManagerSO> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__text();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__text() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
   /// @brief Method Start, addr 0x22af4a8, size 0x78, virtual false, abstract: false, final false
   inline void Start();
@@ -67,10 +67,10 @@ protected:
 
 public:
   /// @brief Field _crashManager, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::CrashManagerSO* ____crashManager;
+  ::UnityW<::GlobalNamespace::CrashManagerSO> ____crashManager;
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____text;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

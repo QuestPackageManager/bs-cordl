@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::MacOsStructs::in6_addr);
 // SizeInfo { instance_size: 8, native_size: 16, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation::MacOsStructs {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9297))
 // CS Name: ::System.Net.NetworkInformation.MacOsStructs::in6_addr
 struct CORDL_TYPE in6_addr {

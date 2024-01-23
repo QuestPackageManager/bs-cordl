@@ -22,29 +22,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__AlphabetScrollInfo__Data);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14349))
 // CS Name: ::AlphabetScrollInfo::Data*
 class CORDL_TYPE __AlphabetScrollInfo__Data : public ::System::Object {
 public:
   // Declarations
   /// @brief Field character, offset 0x10, size 0x2
-  __declspec(property(get = __get_character, put = __set_character)) char16_t character;
+  __declspec(property(get = __cordl_internal_get_character, put = __cordl_internal_set_character)) char16_t character;
 
   /// @brief Field cellIdx, offset 0x14, size 0x4
-  __declspec(property(get = __get_cellIdx, put = __set_cellIdx)) int32_t cellIdx;
+  __declspec(property(get = __cordl_internal_get_cellIdx, put = __cordl_internal_set_cellIdx)) int32_t cellIdx;
 
-  constexpr char16_t& __get_character();
+  constexpr char16_t& __cordl_internal_get_character();
 
-  constexpr char16_t const& __get_character() const;
+  constexpr char16_t const& __cordl_internal_get_character() const;
 
-  constexpr void __set_character(char16_t value);
+  constexpr void __cordl_internal_set_character(char16_t value);
 
-  constexpr int32_t& __get_cellIdx();
+  constexpr int32_t& __cordl_internal_get_cellIdx();
 
-  constexpr int32_t const& __get_cellIdx() const;
+  constexpr int32_t const& __cordl_internal_get_cellIdx() const;
 
-  constexpr void __set_cellIdx(int32_t value);
+  constexpr void __cordl_internal_set_cellIdx(int32_t value);
 
   static inline ::GlobalNamespace::__AlphabetScrollInfo__Data* New_ctor(char16_t character, int32_t cellIdx);
 
@@ -85,7 +85,7 @@ static_assert(offsetof(::GlobalNamespace::__AlphabetScrollInfo__Data, ___cellIdx
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14350))
 // CS Name: ::AlphabetScrollInfo*
 class CORDL_TYPE AlphabetScrollInfo : public ::System::Object {

@@ -32,20 +32,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(120))
 // CS Name: ::Org.BouncyCastle.Asn1.Crmf::PopoSigningKeyInput*
 class CORDL_TYPE PopoSigningKeyInput : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field sender, offset 0x10, size 0x8
-  __declspec(property(get = __get_sender, put = __set_sender))::Org::BouncyCastle::Asn1::X509::GeneralName* sender;
+  __declspec(property(get = __cordl_internal_get_sender, put = __cordl_internal_set_sender))::Org::BouncyCastle::Asn1::X509::GeneralName* sender;
 
   /// @brief Field publicKeyMac, offset 0x18, size 0x8
-  __declspec(property(get = __get_publicKeyMac, put = __set_publicKeyMac))::Org::BouncyCastle::Asn1::Crmf::PKMacValue* publicKeyMac;
+  __declspec(property(get = __cordl_internal_get_publicKeyMac, put = __cordl_internal_set_publicKeyMac))::Org::BouncyCastle::Asn1::Crmf::PKMacValue* publicKeyMac;
 
   /// @brief Field publicKey, offset 0x20, size 0x8
-  __declspec(property(get = __get_publicKey, put = __set_publicKey))::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* publicKey;
+  __declspec(property(get = __cordl_internal_get_publicKey, put = __cordl_internal_set_publicKey))::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* publicKey;
 
   __declspec(property(get = get_Sender))::Org::BouncyCastle::Asn1::X509::GeneralName* Sender;
 
@@ -53,23 +53,23 @@ public:
 
   __declspec(property(get = get_PublicKey))::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* PublicKey;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __get_sender();
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_sender();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __get_sender() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_sender() const;
 
-  constexpr void __set_sender(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+  constexpr void __cordl_internal_set_sender(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::PKMacValue*& __get_publicKeyMac();
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::PKMacValue*& __cordl_internal_get_publicKeyMac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PKMacValue*> const& __get_publicKeyMac() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PKMacValue*> const& __cordl_internal_get_publicKeyMac() const;
 
-  constexpr void __set_publicKeyMac(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* value);
+  constexpr void __cordl_internal_set_publicKeyMac(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*& __get_publicKey();
+  constexpr ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*& __cordl_internal_get_publicKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*> const& __get_publicKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*> const& __cordl_internal_get_publicKey() const;
 
-  constexpr void __set_publicKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* value);
+  constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* value);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

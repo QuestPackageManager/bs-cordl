@@ -22,38 +22,39 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::CaptureCollection);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8901))
 // CS Name: ::System.Text.RegularExpressions::CaptureCollection*
 class CORDL_TYPE CaptureCollection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _group, offset 0x10, size 0x8
-  __declspec(property(get = __get__group, put = __set__group))::System::Text::RegularExpressions::Group* _group;
+  __declspec(property(get = __cordl_internal_get__group, put = __cordl_internal_set__group))::System::Text::RegularExpressions::Group* _group;
 
   /// @brief Field _capcount, offset 0x18, size 0x4
-  __declspec(property(get = __get__capcount, put = __set__capcount)) int32_t _capcount;
+  __declspec(property(get = __cordl_internal_get__capcount, put = __cordl_internal_set__capcount)) int32_t _capcount;
 
   /// @brief Field _captures, offset 0x20, size 0x8
-  __declspec(property(get = __get__captures, put = __set__captures))::ArrayW<::System::Text::RegularExpressions::Capture*, ::Array<::System::Text::RegularExpressions::Capture*>*> _captures;
+  __declspec(property(get = __cordl_internal_get__captures,
+                      put = __cordl_internal_set__captures))::ArrayW<::System::Text::RegularExpressions::Capture*, ::Array<::System::Text::RegularExpressions::Capture*>*> _captures;
 
-  constexpr ::System::Text::RegularExpressions::Group*& __get__group();
+  constexpr ::System::Text::RegularExpressions::Group*& __cordl_internal_get__group();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Group*> const& __get__group() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Group*> const& __cordl_internal_get__group() const;
 
-  constexpr void __set__group(::System::Text::RegularExpressions::Group* value);
+  constexpr void __cordl_internal_set__group(::System::Text::RegularExpressions::Group* value);
 
-  constexpr int32_t& __get__capcount();
+  constexpr int32_t& __cordl_internal_get__capcount();
 
-  constexpr int32_t const& __get__capcount() const;
+  constexpr int32_t const& __cordl_internal_get__capcount() const;
 
-  constexpr void __set__capcount(int32_t value);
+  constexpr void __cordl_internal_set__capcount(int32_t value);
 
-  constexpr ::ArrayW<::System::Text::RegularExpressions::Capture*, ::Array<::System::Text::RegularExpressions::Capture*>*>& __get__captures();
+  constexpr ::ArrayW<::System::Text::RegularExpressions::Capture*, ::Array<::System::Text::RegularExpressions::Capture*>*>& __cordl_internal_get__captures();
 
-  constexpr ::ArrayW<::System::Text::RegularExpressions::Capture*, ::Array<::System::Text::RegularExpressions::Capture*>*> const& __get__captures() const;
+  constexpr ::ArrayW<::System::Text::RegularExpressions::Capture*, ::Array<::System::Text::RegularExpressions::Capture*>*> const& __cordl_internal_get__captures() const;
 
-  constexpr void __set__captures(::ArrayW<::System::Text::RegularExpressions::Capture*, ::Array<::System::Text::RegularExpressions::Capture*>*> value);
+  constexpr void __cordl_internal_set__captures(::ArrayW<::System::Text::RegularExpressions::Capture*, ::Array<::System::Text::RegularExpressions::Capture*>*> value);
 
   // Ctor Parameters [CppParam { name: "", ty: "CaptureCollection", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

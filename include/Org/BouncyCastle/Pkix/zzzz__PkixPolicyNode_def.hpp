@@ -28,32 +28,32 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixPolicyNode);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1728))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixPolicyNode*
 class CORDL_TYPE PkixPolicyNode : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mChildren, offset 0x10, size 0x8
-  __declspec(property(get = __get_mChildren, put = __set_mChildren))::System::Collections::IList* mChildren;
+  __declspec(property(get = __cordl_internal_get_mChildren, put = __cordl_internal_set_mChildren))::System::Collections::IList* mChildren;
 
   /// @brief Field mDepth, offset 0x18, size 0x4
-  __declspec(property(get = __get_mDepth, put = __set_mDepth)) int32_t mDepth;
+  __declspec(property(get = __cordl_internal_get_mDepth, put = __cordl_internal_set_mDepth)) int32_t mDepth;
 
   /// @brief Field mExpectedPolicies, offset 0x20, size 0x8
-  __declspec(property(get = __get_mExpectedPolicies, put = __set_mExpectedPolicies))::Org::BouncyCastle::Utilities::Collections::ISet* mExpectedPolicies;
+  __declspec(property(get = __cordl_internal_get_mExpectedPolicies, put = __cordl_internal_set_mExpectedPolicies))::Org::BouncyCastle::Utilities::Collections::ISet* mExpectedPolicies;
 
   /// @brief Field mParent, offset 0x28, size 0x8
-  __declspec(property(get = __get_mParent, put = __set_mParent))::Org::BouncyCastle::Pkix::PkixPolicyNode* mParent;
+  __declspec(property(get = __cordl_internal_get_mParent, put = __cordl_internal_set_mParent))::Org::BouncyCastle::Pkix::PkixPolicyNode* mParent;
 
   /// @brief Field mPolicyQualifiers, offset 0x30, size 0x8
-  __declspec(property(get = __get_mPolicyQualifiers, put = __set_mPolicyQualifiers))::Org::BouncyCastle::Utilities::Collections::ISet* mPolicyQualifiers;
+  __declspec(property(get = __cordl_internal_get_mPolicyQualifiers, put = __cordl_internal_set_mPolicyQualifiers))::Org::BouncyCastle::Utilities::Collections::ISet* mPolicyQualifiers;
 
   /// @brief Field mValidPolicy, offset 0x38, size 0x8
-  __declspec(property(get = __get_mValidPolicy, put = __set_mValidPolicy))::StringW mValidPolicy;
+  __declspec(property(get = __cordl_internal_get_mValidPolicy, put = __cordl_internal_set_mValidPolicy))::StringW mValidPolicy;
 
   /// @brief Field mCritical, offset 0x40, size 0x1
-  __declspec(property(get = __get_mCritical, put = __set_mCritical)) bool mCritical;
+  __declspec(property(get = __cordl_internal_get_mCritical, put = __cordl_internal_set_mCritical)) bool mCritical;
 
   __declspec(property(get = get_Depth)) int32_t Depth;
 
@@ -71,47 +71,47 @@ public:
 
   __declspec(property(get = get_Parent, put = set_Parent))::Org::BouncyCastle::Pkix::PkixPolicyNode* Parent;
 
-  constexpr ::System::Collections::IList*& __get_mChildren();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_mChildren();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_mChildren() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_mChildren() const;
 
-  constexpr void __set_mChildren(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_mChildren(::System::Collections::IList* value);
 
-  constexpr int32_t& __get_mDepth();
+  constexpr int32_t& __cordl_internal_get_mDepth();
 
-  constexpr int32_t const& __get_mDepth() const;
+  constexpr int32_t const& __cordl_internal_get_mDepth() const;
 
-  constexpr void __set_mDepth(int32_t value);
+  constexpr void __cordl_internal_set_mDepth(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_mExpectedPolicies();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_mExpectedPolicies();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_mExpectedPolicies() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_mExpectedPolicies() const;
 
-  constexpr void __set_mExpectedPolicies(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_mExpectedPolicies(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Pkix::PkixPolicyNode*& __get_mParent();
+  constexpr ::Org::BouncyCastle::Pkix::PkixPolicyNode*& __cordl_internal_get_mParent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkix::PkixPolicyNode*> const& __get_mParent() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkix::PkixPolicyNode*> const& __cordl_internal_get_mParent() const;
 
-  constexpr void __set_mParent(::Org::BouncyCastle::Pkix::PkixPolicyNode* value);
+  constexpr void __cordl_internal_set_mParent(::Org::BouncyCastle::Pkix::PkixPolicyNode* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_mPolicyQualifiers();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_mPolicyQualifiers();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_mPolicyQualifiers() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_mPolicyQualifiers() const;
 
-  constexpr void __set_mPolicyQualifiers(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_mPolicyQualifiers(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::StringW& __get_mValidPolicy();
+  constexpr ::StringW& __cordl_internal_get_mValidPolicy();
 
-  constexpr ::StringW const& __get_mValidPolicy() const;
+  constexpr ::StringW const& __cordl_internal_get_mValidPolicy() const;
 
-  constexpr void __set_mValidPolicy(::StringW value);
+  constexpr void __cordl_internal_set_mValidPolicy(::StringW value);
 
-  constexpr bool& __get_mCritical();
+  constexpr bool& __cordl_internal_get_mCritical();
 
-  constexpr bool const& __get_mCritical() const;
+  constexpr bool const& __cordl_internal_get_mCritical() const;
 
-  constexpr void __set_mCritical(bool value);
+  constexpr void __cordl_internal_set_mCritical(bool value);
 
   /// @brief Method get_Depth, addr 0x11125e8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Depth();

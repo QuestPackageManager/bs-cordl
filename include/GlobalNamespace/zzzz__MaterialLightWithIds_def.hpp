@@ -27,86 +27,86 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialLightWithIds);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14552)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14552))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14546))
 // CS Name: ::MaterialLightWithIds*
 class CORDL_TYPE MaterialLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
 public:
   // Declarations
   /// @brief Field _meshRenderer, offset 0x48, size 0x8
-  __declspec(property(get = __get__meshRenderer, put = __set__meshRenderer))::UnityEngine::MeshRenderer* _meshRenderer;
+  __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer))::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
 
   /// @brief Field _setAlphaOnly, offset 0x50, size 0x1
-  __declspec(property(get = __get__setAlphaOnly, put = __set__setAlphaOnly)) bool _setAlphaOnly;
+  __declspec(property(get = __cordl_internal_get__setAlphaOnly, put = __cordl_internal_set__setAlphaOnly)) bool _setAlphaOnly;
 
   /// @brief Field _alphaIntoColor, offset 0x51, size 0x1
-  __declspec(property(get = __get__alphaIntoColor, put = __set__alphaIntoColor)) bool _alphaIntoColor;
+  __declspec(property(get = __cordl_internal_get__alphaIntoColor, put = __cordl_internal_set__alphaIntoColor)) bool _alphaIntoColor;
 
   /// @brief Field _setColorOnly, offset 0x52, size 0x1
-  __declspec(property(get = __get__setColorOnly, put = __set__setColorOnly)) bool _setColorOnly;
+  __declspec(property(get = __cordl_internal_get__setColorOnly, put = __cordl_internal_set__setColorOnly)) bool _setColorOnly;
 
   /// @brief Field _colorProperty, offset 0x58, size 0x8
-  __declspec(property(get = __get__colorProperty, put = __set__colorProperty))::StringW _colorProperty;
+  __declspec(property(get = __cordl_internal_get__colorProperty, put = __cordl_internal_set__colorProperty))::StringW _colorProperty;
 
   /// @brief Field _color, offset 0x60, size 0x10
-  __declspec(property(get = __get__color, put = __set__color))::UnityEngine::Color _color;
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
   /// @brief Field _alpha, offset 0x70, size 0x4
-  __declspec(property(get = __get__alpha, put = __set__alpha)) float_t _alpha;
+  __declspec(property(get = __cordl_internal_get__alpha, put = __cordl_internal_set__alpha)) float_t _alpha;
 
   /// @brief Field _propertyId, offset 0x74, size 0x4
-  __declspec(property(get = __get__propertyId, put = __set__propertyId)) int32_t _propertyId;
+  __declspec(property(get = __cordl_internal_get__propertyId, put = __cordl_internal_set__propertyId)) int32_t _propertyId;
 
   /// @brief Field _materialPropertyBlock, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock))::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
 
-  constexpr ::UnityEngine::MeshRenderer*& __get__meshRenderer();
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__meshRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshRenderer*> const& __get__meshRenderer() const;
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__meshRenderer() const;
 
-  constexpr void __set__meshRenderer(::UnityEngine::MeshRenderer* value);
+  constexpr void __cordl_internal_set__meshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  constexpr bool& __get__setAlphaOnly();
+  constexpr bool& __cordl_internal_get__setAlphaOnly();
 
-  constexpr bool const& __get__setAlphaOnly() const;
+  constexpr bool const& __cordl_internal_get__setAlphaOnly() const;
 
-  constexpr void __set__setAlphaOnly(bool value);
+  constexpr void __cordl_internal_set__setAlphaOnly(bool value);
 
-  constexpr bool& __get__alphaIntoColor();
+  constexpr bool& __cordl_internal_get__alphaIntoColor();
 
-  constexpr bool const& __get__alphaIntoColor() const;
+  constexpr bool const& __cordl_internal_get__alphaIntoColor() const;
 
-  constexpr void __set__alphaIntoColor(bool value);
+  constexpr void __cordl_internal_set__alphaIntoColor(bool value);
 
-  constexpr bool& __get__setColorOnly();
+  constexpr bool& __cordl_internal_get__setColorOnly();
 
-  constexpr bool const& __get__setColorOnly() const;
+  constexpr bool const& __cordl_internal_get__setColorOnly() const;
 
-  constexpr void __set__setColorOnly(bool value);
+  constexpr void __cordl_internal_set__setColorOnly(bool value);
 
-  constexpr ::StringW& __get__colorProperty();
+  constexpr ::StringW& __cordl_internal_get__colorProperty();
 
-  constexpr ::StringW const& __get__colorProperty() const;
+  constexpr ::StringW const& __cordl_internal_get__colorProperty() const;
 
-  constexpr void __set__colorProperty(::StringW value);
+  constexpr void __cordl_internal_set__colorProperty(::StringW value);
 
-  constexpr ::UnityEngine::Color& __get__color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::UnityEngine::Color const& __get__color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr void __set__color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  constexpr float_t& __get__alpha();
+  constexpr float_t& __cordl_internal_get__alpha();
 
-  constexpr float_t const& __get__alpha() const;
+  constexpr float_t const& __cordl_internal_get__alpha() const;
 
-  constexpr void __set__alpha(float_t value);
+  constexpr void __cordl_internal_set__alpha(float_t value);
 
-  constexpr int32_t& __get__propertyId();
+  constexpr int32_t& __cordl_internal_get__propertyId();
 
-  constexpr int32_t const& __get__propertyId() const;
+  constexpr int32_t const& __cordl_internal_get__propertyId() const;
 
-  constexpr void __set__propertyId(int32_t value);
+  constexpr void __cordl_internal_set__propertyId(int32_t value);
 
   static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
 
@@ -138,7 +138,7 @@ protected:
 
 public:
   /// @brief Field _meshRenderer, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::MeshRenderer* ____meshRenderer;
+  ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
 
   /// @brief Field _setAlphaOnly, offset: 0x50, size: 0x1, def value: None
   bool ____setAlphaOnly;

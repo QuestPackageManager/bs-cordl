@@ -36,120 +36,122 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionNodesManager);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5549))
 // CS Name: ::MissionNodesManager*
 class CORDL_TYPE MissionNodesManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _rootMissionNode, offset 0x18, size 0x8
-  __declspec(property(get = __get__rootMissionNode, put = __set__rootMissionNode))::GlobalNamespace::MissionNode* _rootMissionNode;
+  __declspec(property(get = __cordl_internal_get__rootMissionNode, put = __cordl_internal_set__rootMissionNode))::UnityW<::GlobalNamespace::MissionNode> _rootMissionNode;
 
   /// @brief Field _finalMissionNode, offset 0x20, size 0x8
-  __declspec(property(get = __get__finalMissionNode, put = __set__finalMissionNode))::GlobalNamespace::MissionNode* _finalMissionNode;
+  __declspec(property(get = __cordl_internal_get__finalMissionNode, put = __cordl_internal_set__finalMissionNode))::UnityW<::GlobalNamespace::MissionNode> _finalMissionNode;
 
   /// @brief Field _missionStagesManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__missionStagesManager, put = __set__missionStagesManager))::GlobalNamespace::MissionStagesManager* _missionStagesManager;
+  __declspec(property(get = __cordl_internal_get__missionStagesManager, put = __cordl_internal_set__missionStagesManager))::UnityW<::GlobalNamespace::MissionStagesManager> _missionStagesManager;
 
   /// @brief Field _connectionsParentObject, offset 0x30, size 0x8
-  __declspec(property(get = __get__connectionsParentObject, put = __set__connectionsParentObject))::UnityEngine::GameObject* _connectionsParentObject;
+  __declspec(property(get = __cordl_internal_get__connectionsParentObject, put = __cordl_internal_set__connectionsParentObject))::UnityW<::UnityEngine::GameObject> _connectionsParentObject;
 
   /// @brief Field _missionNodesParentObject, offset 0x38, size 0x8
-  __declspec(property(get = __get__missionNodesParentObject, put = __set__missionNodesParentObject))::UnityEngine::GameObject* _missionNodesParentObject;
+  __declspec(property(get = __cordl_internal_get__missionNodesParentObject, put = __cordl_internal_set__missionNodesParentObject))::UnityW<::UnityEngine::GameObject> _missionNodesParentObject;
 
   /// @brief Field _missionProgressModel, offset 0x40, size 0x8
-  __declspec(property(get = __get__missionProgressModel, put = __set__missionProgressModel))::GlobalNamespace::CampaignProgressModel* _missionProgressModel;
+  __declspec(property(get = __cordl_internal_get__missionProgressModel, put = __cordl_internal_set__missionProgressModel))::UnityW<::GlobalNamespace::CampaignProgressModel> _missionProgressModel;
 
   /// @brief Field _allMissionNodeConnections, offset 0x48, size 0x8
-  __declspec(property(get = __get__allMissionNodeConnections,
-                      put = __set__allMissionNodeConnections))::ArrayW<::GlobalNamespace::MissionNodeConnection*, ::Array<::GlobalNamespace::MissionNodeConnection*>*> _allMissionNodeConnections;
+  __declspec(property(get = __cordl_internal_get__allMissionNodeConnections,
+                      put = __cordl_internal_set__allMissionNodeConnections))::ArrayW<::UnityW<::GlobalNamespace::MissionNodeConnection>,
+                                                                                      ::Array<::UnityW<::GlobalNamespace::MissionNodeConnection>>*> _allMissionNodeConnections;
 
   /// @brief Field _allMissionNodes, offset 0x50, size 0x8
-  __declspec(property(get = __get__allMissionNodes, put = __set__allMissionNodes))::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> _allMissionNodes;
+  __declspec(property(get = __cordl_internal_get__allMissionNodes,
+                      put = __cordl_internal_set__allMissionNodes))::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> _allMissionNodes;
 
   /// @brief Field _isInitialized, offset 0x58, size 0x1
-  __declspec(property(get = __get__isInitialized, put = __set__isInitialized)) bool _isInitialized;
+  __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
 
-  __declspec(property(get = get_rootMissionNode))::GlobalNamespace::MissionNode* rootMissionNode;
+  __declspec(property(get = get_rootMissionNode))::UnityW<::GlobalNamespace::MissionNode> rootMissionNode;
 
-  __declspec(property(get = get_finalMissionNode))::GlobalNamespace::MissionNode* finalMissionNode;
+  __declspec(property(get = get_finalMissionNode))::UnityW<::GlobalNamespace::MissionNode> finalMissionNode;
 
-  __declspec(property(get = get_missionStagesManager))::GlobalNamespace::MissionStagesManager* missionStagesManager;
+  __declspec(property(get = get_missionStagesManager))::UnityW<::GlobalNamespace::MissionStagesManager> missionStagesManager;
 
-  __declspec(property(get = get_missionProgressModel))::GlobalNamespace::CampaignProgressModel* missionProgressModel;
+  __declspec(property(get = get_missionProgressModel))::UnityW<::GlobalNamespace::CampaignProgressModel> missionProgressModel;
 
-  __declspec(property(get = get_allMissionNodes))::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> allMissionNodes;
+  __declspec(property(get = get_allMissionNodes))::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> allMissionNodes;
 
   __declspec(property(get = get_IsInitialized)) bool IsInitialized;
 
-  constexpr ::GlobalNamespace::MissionNode*& __get__rootMissionNode();
+  constexpr ::UnityW<::GlobalNamespace::MissionNode>& __cordl_internal_get__rootMissionNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNode*> const& __get__rootMissionNode() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionNode> const& __cordl_internal_get__rootMissionNode() const;
 
-  constexpr void __set__rootMissionNode(::GlobalNamespace::MissionNode* value);
+  constexpr void __cordl_internal_set__rootMissionNode(::UnityW<::GlobalNamespace::MissionNode> value);
 
-  constexpr ::GlobalNamespace::MissionNode*& __get__finalMissionNode();
+  constexpr ::UnityW<::GlobalNamespace::MissionNode>& __cordl_internal_get__finalMissionNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNode*> const& __get__finalMissionNode() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionNode> const& __cordl_internal_get__finalMissionNode() const;
 
-  constexpr void __set__finalMissionNode(::GlobalNamespace::MissionNode* value);
+  constexpr void __cordl_internal_set__finalMissionNode(::UnityW<::GlobalNamespace::MissionNode> value);
 
-  constexpr ::GlobalNamespace::MissionStagesManager*& __get__missionStagesManager();
+  constexpr ::UnityW<::GlobalNamespace::MissionStagesManager>& __cordl_internal_get__missionStagesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionStagesManager*> const& __get__missionStagesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionStagesManager> const& __cordl_internal_get__missionStagesManager() const;
 
-  constexpr void __set__missionStagesManager(::GlobalNamespace::MissionStagesManager* value);
+  constexpr void __cordl_internal_set__missionStagesManager(::UnityW<::GlobalNamespace::MissionStagesManager> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__connectionsParentObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__connectionsParentObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__connectionsParentObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__connectionsParentObject() const;
 
-  constexpr void __set__connectionsParentObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__connectionsParentObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__missionNodesParentObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__missionNodesParentObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__missionNodesParentObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__missionNodesParentObject() const;
 
-  constexpr void __set__missionNodesParentObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__missionNodesParentObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::CampaignProgressModel*& __get__missionProgressModel();
+  constexpr ::UnityW<::GlobalNamespace::CampaignProgressModel>& __cordl_internal_get__missionProgressModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CampaignProgressModel*> const& __get__missionProgressModel() const;
+  constexpr ::UnityW<::GlobalNamespace::CampaignProgressModel> const& __cordl_internal_get__missionProgressModel() const;
 
-  constexpr void __set__missionProgressModel(::GlobalNamespace::CampaignProgressModel* value);
+  constexpr void __cordl_internal_set__missionProgressModel(::UnityW<::GlobalNamespace::CampaignProgressModel> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionNodeConnection*, ::Array<::GlobalNamespace::MissionNodeConnection*>*>& __get__allMissionNodeConnections();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionNodeConnection>, ::Array<::UnityW<::GlobalNamespace::MissionNodeConnection>>*>& __cordl_internal_get__allMissionNodeConnections();
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionNodeConnection*, ::Array<::GlobalNamespace::MissionNodeConnection*>*> const& __get__allMissionNodeConnections() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionNodeConnection>, ::Array<::UnityW<::GlobalNamespace::MissionNodeConnection>>*> const& __cordl_internal_get__allMissionNodeConnections() const;
 
-  constexpr void __set__allMissionNodeConnections(::ArrayW<::GlobalNamespace::MissionNodeConnection*, ::Array<::GlobalNamespace::MissionNodeConnection*>*> value);
+  constexpr void __cordl_internal_set__allMissionNodeConnections(::ArrayW<::UnityW<::GlobalNamespace::MissionNodeConnection>, ::Array<::UnityW<::GlobalNamespace::MissionNodeConnection>>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*>& __get__allMissionNodes();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*>& __cordl_internal_get__allMissionNodes();
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> const& __get__allMissionNodes() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> const& __cordl_internal_get__allMissionNodes() const;
 
-  constexpr void __set__allMissionNodes(::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> value);
+  constexpr void __cordl_internal_set__allMissionNodes(::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> value);
 
-  constexpr bool& __get__isInitialized();
+  constexpr bool& __cordl_internal_get__isInitialized();
 
-  constexpr bool const& __get__isInitialized() const;
+  constexpr bool const& __cordl_internal_get__isInitialized() const;
 
-  constexpr void __set__isInitialized(bool value);
+  constexpr void __cordl_internal_set__isInitialized(bool value);
 
   /// @brief Method get_rootMissionNode, addr 0x22a1618, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MissionNode* get_rootMissionNode();
+  inline ::UnityW<::GlobalNamespace::MissionNode> get_rootMissionNode();
 
   /// @brief Method get_finalMissionNode, addr 0x22a1620, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MissionNode* get_finalMissionNode();
+  inline ::UnityW<::GlobalNamespace::MissionNode> get_finalMissionNode();
 
   /// @brief Method get_missionStagesManager, addr 0x22a1628, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MissionStagesManager* get_missionStagesManager();
+  inline ::UnityW<::GlobalNamespace::MissionStagesManager> get_missionStagesManager();
 
   /// @brief Method get_missionProgressModel, addr 0x22a1630, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::CampaignProgressModel* get_missionProgressModel();
+  inline ::UnityW<::GlobalNamespace::CampaignProgressModel> get_missionProgressModel();
 
   /// @brief Method get_allMissionNodes, addr 0x22a1638, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> get_allMissionNodes();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> get_allMissionNodes();
 
   /// @brief Method get_IsInitialized, addr 0x22a1640, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
@@ -164,7 +166,7 @@ public:
   inline bool MissionWasCleared(::GlobalNamespace::MissionNode* missionNode);
 
   /// @brief Method GetMissionNodeWithModelClearedStateInconsistency, addr 0x229f19c, size 0xb0, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MissionNode* GetMissionNodeWithModelClearedStateInconsistency();
+  inline ::UnityW<::GlobalNamespace::MissionNode> GetMissionNodeWithModelClearedStateInconsistency();
 
   /// @brief Method DidFirstLockedMissionStageChange, addr 0x229fc6c, size 0x9c, virtual false, abstract: false, final false
   inline bool DidFirstLockedMissionStageChange();
@@ -173,17 +175,17 @@ public:
   inline void UpdateStageLockText();
 
   /// @brief Method GetTopMostNotClearedMissionNode, addr 0x229f318, size 0x14c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MissionNode* GetTopMostNotClearedMissionNode();
+  inline ::UnityW<::GlobalNamespace::MissionNode> GetTopMostNotClearedMissionNode();
 
   /// @brief Method GetAllMissionNodes, addr 0x22a1674, size 0xac, virtual false, abstract: false, final false
   inline void GetAllMissionNodes();
 
   /// @brief Method GetAllMissionNodes, addr 0x22a1c08, size 0xe4, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MissionNode*>* GetAllMissionNodes(::GlobalNamespace::MissionNode* node,
-                                                                                                        ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MissionNode*>* visited);
+  inline ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>*
+  GetAllMissionNodes(::GlobalNamespace::MissionNode* node, ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MissionNode>>* visited);
 
   /// @brief Method GetNewEnabledConnection, addr 0x22a022c, size 0x174, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::MissionNodeConnection*, ::Array<::GlobalNamespace::MissionNodeConnection*>*> GetNewEnabledConnection();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::MissionNodeConnection>, ::Array<::UnityW<::GlobalNamespace::MissionNodeConnection>>*> GetNewEnabledConnection();
 
   /// @brief Method ResetAllNodes, addr 0x22a17e0, size 0x4c, virtual false, abstract: false, final false
   inline void ResetAllNodes();
@@ -223,28 +225,28 @@ protected:
 
 public:
   /// @brief Field _rootMissionNode, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MissionNode* ____rootMissionNode;
+  ::UnityW<::GlobalNamespace::MissionNode> ____rootMissionNode;
 
   /// @brief Field _finalMissionNode, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MissionNode* ____finalMissionNode;
+  ::UnityW<::GlobalNamespace::MissionNode> ____finalMissionNode;
 
   /// @brief Field _missionStagesManager, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MissionStagesManager* ____missionStagesManager;
+  ::UnityW<::GlobalNamespace::MissionStagesManager> ____missionStagesManager;
 
   /// @brief Field _connectionsParentObject, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____connectionsParentObject;
+  ::UnityW<::UnityEngine::GameObject> ____connectionsParentObject;
 
   /// @brief Field _missionNodesParentObject, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____missionNodesParentObject;
+  ::UnityW<::UnityEngine::GameObject> ____missionNodesParentObject;
 
   /// @brief Field _missionProgressModel, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::CampaignProgressModel* ____missionProgressModel;
+  ::UnityW<::GlobalNamespace::CampaignProgressModel> ____missionProgressModel;
 
   /// @brief Field _allMissionNodeConnections, offset: 0x48, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::MissionNodeConnection*, ::Array<::GlobalNamespace::MissionNodeConnection*>*> ____allMissionNodeConnections;
+  ::ArrayW<::UnityW<::GlobalNamespace::MissionNodeConnection>, ::Array<::UnityW<::GlobalNamespace::MissionNodeConnection>>*> ____allMissionNodeConnections;
 
   /// @brief Field _allMissionNodes, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> ____allMissionNodes;
+  ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> ____allMissionNodes;
 
   /// @brief Field _isInitialized, offset: 0x58, size: 0x1, def value: None
   bool ____isInitialized;

@@ -24,20 +24,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo)
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1530))
 // CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::FixedPointPreCompInfo*
 class CORDL_TYPE FixedPointPreCompInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_offset, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_offset, put = __set_m_offset))::Org::BouncyCastle::Math::EC::ECPoint* m_offset;
+  __declspec(property(get = __cordl_internal_get_m_offset, put = __cordl_internal_set_m_offset))::Org::BouncyCastle::Math::EC::ECPoint* m_offset;
 
   /// @brief Field m_lookupTable, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_lookupTable, put = __set_m_lookupTable))::Org::BouncyCastle::Math::EC::ECLookupTable* m_lookupTable;
+  __declspec(property(get = __cordl_internal_get_m_lookupTable, put = __cordl_internal_set_m_lookupTable))::Org::BouncyCastle::Math::EC::ECLookupTable* m_lookupTable;
 
   /// @brief Field m_width, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_width, put = __set_m_width)) int32_t m_width;
+  __declspec(property(get = __cordl_internal_get_m_width, put = __cordl_internal_set_m_width)) int32_t m_width;
 
   __declspec(property(get = get_LookupTable, put = set_LookupTable))::Org::BouncyCastle::Math::EC::ECLookupTable* LookupTable;
 
@@ -51,23 +51,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i___Org__BouncyCastle__Math__EC__Multiplier__PreCompInfo() noexcept;
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __get_m_offset();
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_m_offset();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __get_m_offset() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __cordl_internal_get_m_offset() const;
 
-  constexpr void __set_m_offset(::Org::BouncyCastle::Math::EC::ECPoint* value);
+  constexpr void __cordl_internal_set_m_offset(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECLookupTable*& __get_m_lookupTable();
+  constexpr ::Org::BouncyCastle::Math::EC::ECLookupTable*& __cordl_internal_get_m_lookupTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECLookupTable*> const& __get_m_lookupTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECLookupTable*> const& __cordl_internal_get_m_lookupTable() const;
 
-  constexpr void __set_m_lookupTable(::Org::BouncyCastle::Math::EC::ECLookupTable* value);
+  constexpr void __cordl_internal_set_m_lookupTable(::Org::BouncyCastle::Math::EC::ECLookupTable* value);
 
-  constexpr int32_t& __get_m_width();
+  constexpr int32_t& __cordl_internal_get_m_width();
 
-  constexpr int32_t const& __get_m_width() const;
+  constexpr int32_t const& __cordl_internal_get_m_width() const;
 
-  constexpr void __set_m_width(int32_t value);
+  constexpr void __cordl_internal_set_m_width(int32_t value);
 
   /// @brief Method get_LookupTable, addr 0x1036270, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECLookupTable* get_LookupTable();

@@ -11,9 +11,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x2114030;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLightWithId*>::get(),
-                                                                               "get_color", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_color", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x2114050;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLightWithId*>::get(),
@@ -40,51 +40,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x21140a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLightWithId*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::TubeBloomPrePassLight*& GlobalNamespace::TubeBloomPrePassLightWithId::__get__tubeBloomPrePassLight() {
+constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight>& GlobalNamespace::TubeBloomPrePassLightWithId::__cordl_internal_get__tubeBloomPrePassLight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tubeBloomPrePassLight;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TubeBloomPrePassLight*> const& GlobalNamespace::TubeBloomPrePassLightWithId::__get__tubeBloomPrePassLight() const {
+constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> const& GlobalNamespace::TubeBloomPrePassLightWithId::__cordl_internal_get__tubeBloomPrePassLight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tubeBloomPrePassLight;
 }
-constexpr void GlobalNamespace::TubeBloomPrePassLightWithId::__set__tubeBloomPrePassLight(::GlobalNamespace::TubeBloomPrePassLight* value) {
+constexpr void GlobalNamespace::TubeBloomPrePassLightWithId::__cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tubeBloomPrePassLight)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::TubeBloomPrePassLightWithId::__get__setOnlyOnce() {
+constexpr bool& GlobalNamespace::TubeBloomPrePassLightWithId::__cordl_internal_get__setOnlyOnce() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setOnlyOnce;
 }
-constexpr bool const& GlobalNamespace::TubeBloomPrePassLightWithId::__get__setOnlyOnce() const {
+constexpr bool const& GlobalNamespace::TubeBloomPrePassLightWithId::__cordl_internal_get__setOnlyOnce() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setOnlyOnce;
 }
-constexpr void GlobalNamespace::TubeBloomPrePassLightWithId::__set__setOnlyOnce(bool value) {
+constexpr void GlobalNamespace::TubeBloomPrePassLightWithId::__cordl_internal_set__setOnlyOnce(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____setOnlyOnce = value;
 }
-constexpr bool& GlobalNamespace::TubeBloomPrePassLightWithId::__get__setColorOnly() {
+constexpr bool& GlobalNamespace::TubeBloomPrePassLightWithId::__cordl_internal_get__setColorOnly() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setColorOnly;
 }
-constexpr bool const& GlobalNamespace::TubeBloomPrePassLightWithId::__get__setColorOnly() const {
+constexpr bool const& GlobalNamespace::TubeBloomPrePassLightWithId::__cordl_internal_get__setColorOnly() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setColorOnly;
 }
-constexpr void GlobalNamespace::TubeBloomPrePassLightWithId::__set__setColorOnly(bool value) {
+constexpr void GlobalNamespace::TubeBloomPrePassLightWithId::__cordl_internal_set__setColorOnly(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____setColorOnly = value;
 }
 inline ::UnityEngine::Color GlobalNamespace::TubeBloomPrePassLightWithId::get_color() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLightWithId*>::get(),
-                                                                             "get_color", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_color", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::TubeBloomPrePassLightWithId::ColorWasSet(::UnityEngine::Color color) {
@@ -93,11 +93,11 @@ inline void GlobalNamespace::TubeBloomPrePassLightWithId::ColorWasSet(::UnityEng
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, color);
 }
 inline ::GlobalNamespace::TubeBloomPrePassLightWithId* GlobalNamespace::TubeBloomPrePassLightWithId::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::TubeBloomPrePassLightWithId*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TubeBloomPrePassLightWithId*>());
 }
 inline void GlobalNamespace::TubeBloomPrePassLightWithId::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLightWithId*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

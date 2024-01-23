@@ -25,29 +25,29 @@ MARK_REF_PTR_T(::GlobalNamespace::BakedReflectionProbe);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5854))
 // CS Name: ::BakedReflectionProbe*
 class CORDL_TYPE BakedReflectionProbe : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _resolutionBeforeDownsample, offset 0x18, size 0x4
-  __declspec(property(get = __get__resolutionBeforeDownsample, put = __set__resolutionBeforeDownsample)) int32_t _resolutionBeforeDownsample;
+  __declspec(property(get = __cordl_internal_get__resolutionBeforeDownsample, put = __cordl_internal_set__resolutionBeforeDownsample)) int32_t _resolutionBeforeDownsample;
 
   /// @brief Field _downsampleByHalfCount, offset 0x1c, size 0x4
-  __declspec(property(get = __get__downsampleByHalfCount, put = __set__downsampleByHalfCount)) int32_t _downsampleByHalfCount;
+  __declspec(property(get = __cordl_internal_get__downsampleByHalfCount, put = __cordl_internal_set__downsampleByHalfCount)) int32_t _downsampleByHalfCount;
 
   /// @brief Field _size, offset 0x20, size 0xc
-  __declspec(property(get = __get__size, put = __set__size))::UnityEngine::Vector3 _size;
+  __declspec(property(get = __cordl_internal_get__size, put = __cordl_internal_set__size))::UnityEngine::Vector3 _size;
 
   /// @brief Field _offset, offset 0x2c, size 0xc
-  __declspec(property(get = __get__offset, put = __set__offset))::UnityEngine::Vector3 _offset;
+  __declspec(property(get = __cordl_internal_get__offset, put = __cordl_internal_set__offset))::UnityEngine::Vector3 _offset;
 
   /// @brief Field _reflectionProbeData, offset 0x38, size 0x8
-  __declspec(property(get = __get__reflectionProbeData, put = __set__reflectionProbeData))::GlobalNamespace::ReflectionProbeDataSO* _reflectionProbeData;
+  __declspec(property(get = __cordl_internal_get__reflectionProbeData, put = __cordl_internal_set__reflectionProbeData))::UnityW<::GlobalNamespace::ReflectionProbeDataSO> _reflectionProbeData;
 
   /// @brief Field _blackCubemap, offset 0x40, size 0x8
-  __declspec(property(get = __get__blackCubemap, put = __set__blackCubemap))::UnityEngine::Cubemap* _blackCubemap;
+  __declspec(property(get = __cordl_internal_get__blackCubemap, put = __cordl_internal_set__blackCubemap))::UnityW<::UnityEngine::Cubemap> _blackCubemap;
 
   /// @brief Field _reflectionProbeBoundsMinPropertyId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__reflectionProbeBoundsMinPropertyId, put = setStaticF__reflectionProbeBoundsMinPropertyId)) int32_t _reflectionProbeBoundsMinPropertyId;
@@ -64,7 +64,7 @@ public:
   /// @brief Field _reflectionProbeTexture2PropertyId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__reflectionProbeTexture2PropertyId, put = setStaticF__reflectionProbeTexture2PropertyId)) int32_t _reflectionProbeTexture2PropertyId;
 
-  __declspec(property(get = get_reflectionProbeData, put = set_reflectionProbeData))::GlobalNamespace::ReflectionProbeDataSO* reflectionProbeData;
+  __declspec(property(get = get_reflectionProbeData, put = set_reflectionProbeData))::UnityW<::GlobalNamespace::ReflectionProbeDataSO> reflectionProbeData;
 
   __declspec(property(get = get_position))::UnityEngine::Vector3 position;
 
@@ -72,41 +72,41 @@ public:
 
   __declspec(property(get = get_downsampleByHalfCount)) int32_t downsampleByHalfCount;
 
-  constexpr int32_t& __get__resolutionBeforeDownsample();
+  constexpr int32_t& __cordl_internal_get__resolutionBeforeDownsample();
 
-  constexpr int32_t const& __get__resolutionBeforeDownsample() const;
+  constexpr int32_t const& __cordl_internal_get__resolutionBeforeDownsample() const;
 
-  constexpr void __set__resolutionBeforeDownsample(int32_t value);
+  constexpr void __cordl_internal_set__resolutionBeforeDownsample(int32_t value);
 
-  constexpr int32_t& __get__downsampleByHalfCount();
+  constexpr int32_t& __cordl_internal_get__downsampleByHalfCount();
 
-  constexpr int32_t const& __get__downsampleByHalfCount() const;
+  constexpr int32_t const& __cordl_internal_get__downsampleByHalfCount() const;
 
-  constexpr void __set__downsampleByHalfCount(int32_t value);
+  constexpr void __cordl_internal_set__downsampleByHalfCount(int32_t value);
 
-  constexpr ::UnityEngine::Vector3& __get__size();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__size();
 
-  constexpr ::UnityEngine::Vector3 const& __get__size() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__size() const;
 
-  constexpr void __set__size(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__size(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__offset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__offset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__offset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__offset() const;
 
-  constexpr void __set__offset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__offset(::UnityEngine::Vector3 value);
 
-  constexpr ::GlobalNamespace::ReflectionProbeDataSO*& __get__reflectionProbeData();
+  constexpr ::UnityW<::GlobalNamespace::ReflectionProbeDataSO>& __cordl_internal_get__reflectionProbeData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ReflectionProbeDataSO*> const& __get__reflectionProbeData() const;
+  constexpr ::UnityW<::GlobalNamespace::ReflectionProbeDataSO> const& __cordl_internal_get__reflectionProbeData() const;
 
-  constexpr void __set__reflectionProbeData(::GlobalNamespace::ReflectionProbeDataSO* value);
+  constexpr void __cordl_internal_set__reflectionProbeData(::UnityW<::GlobalNamespace::ReflectionProbeDataSO> value);
 
-  constexpr ::UnityEngine::Cubemap*& __get__blackCubemap();
+  constexpr ::UnityW<::UnityEngine::Cubemap>& __cordl_internal_get__blackCubemap();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Cubemap*> const& __get__blackCubemap() const;
+  constexpr ::UnityW<::UnityEngine::Cubemap> const& __cordl_internal_get__blackCubemap() const;
 
-  constexpr void __set__blackCubemap(::UnityEngine::Cubemap* value);
+  constexpr void __cordl_internal_set__blackCubemap(::UnityW<::UnityEngine::Cubemap> value);
 
   static inline void setStaticF__reflectionProbeBoundsMinPropertyId(int32_t value);
 
@@ -129,7 +129,7 @@ public:
   static inline int32_t getStaticF__reflectionProbeTexture2PropertyId();
 
   /// @brief Method get_reflectionProbeData, addr 0x22f675c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ReflectionProbeDataSO* get_reflectionProbeData();
+  inline ::UnityW<::GlobalNamespace::ReflectionProbeDataSO> get_reflectionProbeData();
 
   /// @brief Method set_reflectionProbeData, addr 0x22f6764, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeData(::GlobalNamespace::ReflectionProbeDataSO* value);
@@ -181,10 +181,10 @@ public:
   ::UnityEngine::Vector3 ____offset;
 
   /// @brief Field _reflectionProbeData, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::ReflectionProbeDataSO* ____reflectionProbeData;
+  ::UnityW<::GlobalNamespace::ReflectionProbeDataSO> ____reflectionProbeData;
 
   /// @brief Field _blackCubemap, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Cubemap* ____blackCubemap;
+  ::UnityW<::UnityEngine::Cubemap> ____blackCubemap;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

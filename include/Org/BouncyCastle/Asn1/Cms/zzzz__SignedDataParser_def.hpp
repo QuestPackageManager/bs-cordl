@@ -29,58 +29,58 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::SignedDataParser);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(94))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::SignedDataParser*
 class CORDL_TYPE SignedDataParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _seq, offset 0x10, size 0x8
-  __declspec(property(get = __get__seq, put = __set__seq))::Org::BouncyCastle::Asn1::Asn1SequenceParser* _seq;
+  __declspec(property(get = __cordl_internal_get__seq, put = __cordl_internal_set__seq))::Org::BouncyCastle::Asn1::Asn1SequenceParser* _seq;
 
   /// @brief Field _version, offset 0x18, size 0x8
-  __declspec(property(get = __get__version, put = __set__version))::Org::BouncyCastle::Asn1::DerInteger* _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version))::Org::BouncyCastle::Asn1::DerInteger* _version;
 
   /// @brief Field _nextObject, offset 0x20, size 0x8
-  __declspec(property(get = __get__nextObject, put = __set__nextObject))::System::Object* _nextObject;
+  __declspec(property(get = __cordl_internal_get__nextObject, put = __cordl_internal_set__nextObject))::System::Object* _nextObject;
 
   /// @brief Field _certsCalled, offset 0x28, size 0x1
-  __declspec(property(get = __get__certsCalled, put = __set__certsCalled)) bool _certsCalled;
+  __declspec(property(get = __cordl_internal_get__certsCalled, put = __cordl_internal_set__certsCalled)) bool _certsCalled;
 
   /// @brief Field _crlsCalled, offset 0x29, size 0x1
-  __declspec(property(get = __get__crlsCalled, put = __set__crlsCalled)) bool _crlsCalled;
+  __declspec(property(get = __cordl_internal_get__crlsCalled, put = __cordl_internal_set__crlsCalled)) bool _crlsCalled;
 
   __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser*& __get__seq();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser*& __cordl_internal_get__seq();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1SequenceParser*> const& __get__seq() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1SequenceParser*> const& __cordl_internal_get__seq() const;
 
-  constexpr void __set__seq(::Org::BouncyCastle::Asn1::Asn1SequenceParser* value);
+  constexpr void __cordl_internal_set__seq(::Org::BouncyCastle::Asn1::Asn1SequenceParser* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get__version();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get__version();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get__version() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set__version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::System::Object*& __get__nextObject();
+  constexpr ::System::Object*& __cordl_internal_get__nextObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__nextObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__nextObject() const;
 
-  constexpr void __set__nextObject(::System::Object* value);
+  constexpr void __cordl_internal_set__nextObject(::System::Object* value);
 
-  constexpr bool& __get__certsCalled();
+  constexpr bool& __cordl_internal_get__certsCalled();
 
-  constexpr bool const& __get__certsCalled() const;
+  constexpr bool const& __cordl_internal_get__certsCalled() const;
 
-  constexpr void __set__certsCalled(bool value);
+  constexpr void __cordl_internal_set__certsCalled(bool value);
 
-  constexpr bool& __get__crlsCalled();
+  constexpr bool& __cordl_internal_get__crlsCalled();
 
-  constexpr bool const& __get__crlsCalled() const;
+  constexpr bool const& __cordl_internal_get__crlsCalled() const;
 
-  constexpr void __set__crlsCalled(bool value);
+  constexpr void __cordl_internal_set__crlsCalled(bool value);
 
   /// @brief Method GetInstance, addr 0xe7ed10, size 0x19c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::SignedDataParser* GetInstance(::System::Object* o);

@@ -48,146 +48,149 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverFullBody);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12564))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12564))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12570))
 // CS Name: ::RootMotion.FinalIK::IKSolverFullBody*
 class CORDL_TYPE IKSolverFullBody : public ::RootMotion::FinalIK::IKSolver {
 public:
   // Declarations
   /// @brief Field iterations, offset 0x58, size 0x4
-  __declspec(property(get = __get_iterations, put = __set_iterations)) int32_t iterations;
+  __declspec(property(get = __cordl_internal_get_iterations, put = __cordl_internal_set_iterations)) int32_t iterations;
 
   /// @brief Field chain, offset 0x60, size 0x8
-  __declspec(property(get = __get_chain, put = __set_chain))::ArrayW<::RootMotion::FinalIK::FBIKChain*, ::Array<::RootMotion::FinalIK::FBIKChain*>*> chain;
+  __declspec(property(get = __cordl_internal_get_chain, put = __cordl_internal_set_chain))::ArrayW<::RootMotion::FinalIK::FBIKChain*, ::Array<::RootMotion::FinalIK::FBIKChain*>*> chain;
 
   /// @brief Field effectors, offset 0x68, size 0x8
-  __declspec(property(get = __get_effectors, put = __set_effectors))::ArrayW<::RootMotion::FinalIK::IKEffector*, ::Array<::RootMotion::FinalIK::IKEffector*>*> effectors;
+  __declspec(property(get = __cordl_internal_get_effectors, put = __cordl_internal_set_effectors))::ArrayW<::RootMotion::FinalIK::IKEffector*, ::Array<::RootMotion::FinalIK::IKEffector*>*> effectors;
 
   /// @brief Field spineMapping, offset 0x70, size 0x8
-  __declspec(property(get = __get_spineMapping, put = __set_spineMapping))::RootMotion::FinalIK::IKMappingSpine* spineMapping;
+  __declspec(property(get = __cordl_internal_get_spineMapping, put = __cordl_internal_set_spineMapping))::RootMotion::FinalIK::IKMappingSpine* spineMapping;
 
   /// @brief Field boneMappings, offset 0x78, size 0x8
-  __declspec(property(get = __get_boneMappings, put = __set_boneMappings))::ArrayW<::RootMotion::FinalIK::IKMappingBone*, ::Array<::RootMotion::FinalIK::IKMappingBone*>*> boneMappings;
+  __declspec(property(get = __cordl_internal_get_boneMappings,
+                      put = __cordl_internal_set_boneMappings))::ArrayW<::RootMotion::FinalIK::IKMappingBone*, ::Array<::RootMotion::FinalIK::IKMappingBone*>*> boneMappings;
 
   /// @brief Field limbMappings, offset 0x80, size 0x8
-  __declspec(property(get = __get_limbMappings, put = __set_limbMappings))::ArrayW<::RootMotion::FinalIK::IKMappingLimb*, ::Array<::RootMotion::FinalIK::IKMappingLimb*>*> limbMappings;
+  __declspec(property(get = __cordl_internal_get_limbMappings,
+                      put = __cordl_internal_set_limbMappings))::ArrayW<::RootMotion::FinalIK::IKMappingLimb*, ::Array<::RootMotion::FinalIK::IKMappingLimb*>*> limbMappings;
 
   /// @brief Field FABRIKPass, offset 0x88, size 0x1
-  __declspec(property(get = __get_FABRIKPass, put = __set_FABRIKPass)) bool FABRIKPass;
+  __declspec(property(get = __cordl_internal_get_FABRIKPass, put = __cordl_internal_set_FABRIKPass)) bool FABRIKPass;
 
   /// @brief Field OnPreRead, offset 0x90, size 0x8
-  __declspec(property(get = __get_OnPreRead, put = __set_OnPreRead))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPreRead;
+  __declspec(property(get = __cordl_internal_get_OnPreRead, put = __cordl_internal_set_OnPreRead))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPreRead;
 
   /// @brief Field OnPreSolve, offset 0x98, size 0x8
-  __declspec(property(get = __get_OnPreSolve, put = __set_OnPreSolve))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPreSolve;
+  __declspec(property(get = __cordl_internal_get_OnPreSolve, put = __cordl_internal_set_OnPreSolve))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPreSolve;
 
   /// @brief Field OnPreIteration, offset 0xa0, size 0x8
-  __declspec(property(get = __get_OnPreIteration, put = __set_OnPreIteration))::RootMotion::FinalIK::__IKSolver__IterationDelegate* OnPreIteration;
+  __declspec(property(get = __cordl_internal_get_OnPreIteration, put = __cordl_internal_set_OnPreIteration))::RootMotion::FinalIK::__IKSolver__IterationDelegate* OnPreIteration;
 
   /// @brief Field OnPostIteration, offset 0xa8, size 0x8
-  __declspec(property(get = __get_OnPostIteration, put = __set_OnPostIteration))::RootMotion::FinalIK::__IKSolver__IterationDelegate* OnPostIteration;
+  __declspec(property(get = __cordl_internal_get_OnPostIteration, put = __cordl_internal_set_OnPostIteration))::RootMotion::FinalIK::__IKSolver__IterationDelegate* OnPostIteration;
 
   /// @brief Field OnPreBend, offset 0xb0, size 0x8
-  __declspec(property(get = __get_OnPreBend, put = __set_OnPreBend))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPreBend;
+  __declspec(property(get = __cordl_internal_get_OnPreBend, put = __cordl_internal_set_OnPreBend))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPreBend;
 
   /// @brief Field OnPostSolve, offset 0xb8, size 0x8
-  __declspec(property(get = __get_OnPostSolve, put = __set_OnPostSolve))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPostSolve;
+  __declspec(property(get = __cordl_internal_get_OnPostSolve, put = __cordl_internal_set_OnPostSolve))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPostSolve;
 
   /// @brief Field OnStoreDefaultLocalState, offset 0xc0, size 0x8
-  __declspec(property(get = __get_OnStoreDefaultLocalState, put = __set_OnStoreDefaultLocalState))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnStoreDefaultLocalState;
+  __declspec(property(get = __cordl_internal_get_OnStoreDefaultLocalState,
+                      put = __cordl_internal_set_OnStoreDefaultLocalState))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnStoreDefaultLocalState;
 
   /// @brief Field OnFixTransforms, offset 0xc8, size 0x8
-  __declspec(property(get = __get_OnFixTransforms, put = __set_OnFixTransforms))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnFixTransforms;
+  __declspec(property(get = __cordl_internal_get_OnFixTransforms, put = __cordl_internal_set_OnFixTransforms))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnFixTransforms;
 
-  constexpr int32_t& __get_iterations();
+  constexpr int32_t& __cordl_internal_get_iterations();
 
-  constexpr int32_t const& __get_iterations() const;
+  constexpr int32_t const& __cordl_internal_get_iterations() const;
 
-  constexpr void __set_iterations(int32_t value);
+  constexpr void __cordl_internal_set_iterations(int32_t value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::FBIKChain*, ::Array<::RootMotion::FinalIK::FBIKChain*>*>& __get_chain();
+  constexpr ::ArrayW<::RootMotion::FinalIK::FBIKChain*, ::Array<::RootMotion::FinalIK::FBIKChain*>*>& __cordl_internal_get_chain();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::FBIKChain*, ::Array<::RootMotion::FinalIK::FBIKChain*>*> const& __get_chain() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::FBIKChain*, ::Array<::RootMotion::FinalIK::FBIKChain*>*> const& __cordl_internal_get_chain() const;
 
-  constexpr void __set_chain(::ArrayW<::RootMotion::FinalIK::FBIKChain*, ::Array<::RootMotion::FinalIK::FBIKChain*>*> value);
+  constexpr void __cordl_internal_set_chain(::ArrayW<::RootMotion::FinalIK::FBIKChain*, ::Array<::RootMotion::FinalIK::FBIKChain*>*> value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::IKEffector*, ::Array<::RootMotion::FinalIK::IKEffector*>*>& __get_effectors();
+  constexpr ::ArrayW<::RootMotion::FinalIK::IKEffector*, ::Array<::RootMotion::FinalIK::IKEffector*>*>& __cordl_internal_get_effectors();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::IKEffector*, ::Array<::RootMotion::FinalIK::IKEffector*>*> const& __get_effectors() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::IKEffector*, ::Array<::RootMotion::FinalIK::IKEffector*>*> const& __cordl_internal_get_effectors() const;
 
-  constexpr void __set_effectors(::ArrayW<::RootMotion::FinalIK::IKEffector*, ::Array<::RootMotion::FinalIK::IKEffector*>*> value);
+  constexpr void __cordl_internal_set_effectors(::ArrayW<::RootMotion::FinalIK::IKEffector*, ::Array<::RootMotion::FinalIK::IKEffector*>*> value);
 
-  constexpr ::RootMotion::FinalIK::IKMappingSpine*& __get_spineMapping();
+  constexpr ::RootMotion::FinalIK::IKMappingSpine*& __cordl_internal_get_spineMapping();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKMappingSpine*> const& __get_spineMapping() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKMappingSpine*> const& __cordl_internal_get_spineMapping() const;
 
-  constexpr void __set_spineMapping(::RootMotion::FinalIK::IKMappingSpine* value);
+  constexpr void __cordl_internal_set_spineMapping(::RootMotion::FinalIK::IKMappingSpine* value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::IKMappingBone*, ::Array<::RootMotion::FinalIK::IKMappingBone*>*>& __get_boneMappings();
+  constexpr ::ArrayW<::RootMotion::FinalIK::IKMappingBone*, ::Array<::RootMotion::FinalIK::IKMappingBone*>*>& __cordl_internal_get_boneMappings();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::IKMappingBone*, ::Array<::RootMotion::FinalIK::IKMappingBone*>*> const& __get_boneMappings() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::IKMappingBone*, ::Array<::RootMotion::FinalIK::IKMappingBone*>*> const& __cordl_internal_get_boneMappings() const;
 
-  constexpr void __set_boneMappings(::ArrayW<::RootMotion::FinalIK::IKMappingBone*, ::Array<::RootMotion::FinalIK::IKMappingBone*>*> value);
+  constexpr void __cordl_internal_set_boneMappings(::ArrayW<::RootMotion::FinalIK::IKMappingBone*, ::Array<::RootMotion::FinalIK::IKMappingBone*>*> value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::IKMappingLimb*, ::Array<::RootMotion::FinalIK::IKMappingLimb*>*>& __get_limbMappings();
+  constexpr ::ArrayW<::RootMotion::FinalIK::IKMappingLimb*, ::Array<::RootMotion::FinalIK::IKMappingLimb*>*>& __cordl_internal_get_limbMappings();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::IKMappingLimb*, ::Array<::RootMotion::FinalIK::IKMappingLimb*>*> const& __get_limbMappings() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::IKMappingLimb*, ::Array<::RootMotion::FinalIK::IKMappingLimb*>*> const& __cordl_internal_get_limbMappings() const;
 
-  constexpr void __set_limbMappings(::ArrayW<::RootMotion::FinalIK::IKMappingLimb*, ::Array<::RootMotion::FinalIK::IKMappingLimb*>*> value);
+  constexpr void __cordl_internal_set_limbMappings(::ArrayW<::RootMotion::FinalIK::IKMappingLimb*, ::Array<::RootMotion::FinalIK::IKMappingLimb*>*> value);
 
-  constexpr bool& __get_FABRIKPass();
+  constexpr bool& __cordl_internal_get_FABRIKPass();
 
-  constexpr bool const& __get_FABRIKPass() const;
+  constexpr bool const& __cordl_internal_get_FABRIKPass() const;
 
-  constexpr void __set_FABRIKPass(bool value);
+  constexpr void __cordl_internal_set_FABRIKPass(bool value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __get_OnPreRead();
+  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __cordl_internal_get_OnPreRead();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __get_OnPreRead() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __cordl_internal_get_OnPreRead() const;
 
-  constexpr void __set_OnPreRead(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
+  constexpr void __cordl_internal_set_OnPreRead(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __get_OnPreSolve();
+  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __cordl_internal_get_OnPreSolve();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __get_OnPreSolve() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __cordl_internal_get_OnPreSolve() const;
 
-  constexpr void __set_OnPreSolve(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
+  constexpr void __cordl_internal_set_OnPreSolve(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__IterationDelegate*& __get_OnPreIteration();
+  constexpr ::RootMotion::FinalIK::__IKSolver__IterationDelegate*& __cordl_internal_get_OnPreIteration();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__IterationDelegate*> const& __get_OnPreIteration() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__IterationDelegate*> const& __cordl_internal_get_OnPreIteration() const;
 
-  constexpr void __set_OnPreIteration(::RootMotion::FinalIK::__IKSolver__IterationDelegate* value);
+  constexpr void __cordl_internal_set_OnPreIteration(::RootMotion::FinalIK::__IKSolver__IterationDelegate* value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__IterationDelegate*& __get_OnPostIteration();
+  constexpr ::RootMotion::FinalIK::__IKSolver__IterationDelegate*& __cordl_internal_get_OnPostIteration();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__IterationDelegate*> const& __get_OnPostIteration() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__IterationDelegate*> const& __cordl_internal_get_OnPostIteration() const;
 
-  constexpr void __set_OnPostIteration(::RootMotion::FinalIK::__IKSolver__IterationDelegate* value);
+  constexpr void __cordl_internal_set_OnPostIteration(::RootMotion::FinalIK::__IKSolver__IterationDelegate* value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __get_OnPreBend();
+  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __cordl_internal_get_OnPreBend();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __get_OnPreBend() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __cordl_internal_get_OnPreBend() const;
 
-  constexpr void __set_OnPreBend(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
+  constexpr void __cordl_internal_set_OnPreBend(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __get_OnPostSolve();
+  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __cordl_internal_get_OnPostSolve();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __get_OnPostSolve() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __cordl_internal_get_OnPostSolve() const;
 
-  constexpr void __set_OnPostSolve(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
+  constexpr void __cordl_internal_set_OnPostSolve(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __get_OnStoreDefaultLocalState();
+  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __cordl_internal_get_OnStoreDefaultLocalState();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __get_OnStoreDefaultLocalState() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __cordl_internal_get_OnStoreDefaultLocalState() const;
 
-  constexpr void __set_OnStoreDefaultLocalState(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
+  constexpr void __cordl_internal_set_OnStoreDefaultLocalState(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __get_OnFixTransforms();
+  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __cordl_internal_get_OnFixTransforms();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __get_OnFixTransforms() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __cordl_internal_get_OnFixTransforms() const;
 
-  constexpr void __set_OnFixTransforms(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
+  constexpr void __cordl_internal_set_OnFixTransforms(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
 
   /// @brief Method GetEffector, addr 0x1266144, size 0xdc, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKEffector* GetEffector(::UnityEngine::Transform* t);

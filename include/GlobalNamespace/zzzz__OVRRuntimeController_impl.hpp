@@ -21,10 +21,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x27bb58c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -36,10 +36,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x27bb668;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*>::get(),
-                                                 "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -51,10 +51,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x120;
   constexpr static std::size_t addrs = 0x27bb66c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*>::get(), "MoveNext",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -66,10 +66,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x27bb78c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*>::get(),
-                                                 "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*>::get(),
+                                    "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -81,10 +81,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x27bb794;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*>::get(),
-                                                 "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -96,10 +96,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x27bb7d4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*>::get(),
-                                                 "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -128,79 +128,79 @@ constexpr GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16:
 constexpr ::System::IDisposable* GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr int32_t& GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__get___1__state() {
+constexpr int32_t& GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__get___1__state() const {
+constexpr int32_t const& GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__set___1__state(int32_t value) {
+constexpr void GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__get___2__current() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::OVRRuntimeController*& GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::OVRRuntimeController>& GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRRuntimeController*> const& GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::OVRRuntimeController> const& GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__set___4__this(::GlobalNamespace::OVRRuntimeController* value) {
+constexpr void GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRRuntimeController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16* GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*>(__1__state));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*>(__1__state));
 }
 inline void GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
 inline void GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::System_IDisposable_Dispose() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*>::get(),
-                                               "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*>::get(), "MoveNext",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::System::Object* GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*>::get(),
-                                               "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*>::get(),
+                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Object* GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -212,9 +212,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x184;
   constexpr static std::size_t addrs = 0x27bab34;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), "Start",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -225,9 +225,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10c;
   constexpr static std::size_t addrs = 0x27bae84;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), "Update",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -239,10 +239,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x164;
   constexpr static std::size_t addrs = 0x27bacb8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), "IsModelSupported",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), "IsModelSupported",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
@@ -254,10 +254,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2c0;
   constexpr static std::size_t addrs = 0x27bb2cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), "LoadControllerModel",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), "LoadControllerModel",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
@@ -269,9 +269,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x27bae1c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(),
-                                                                               "UpdateControllerModel", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "UpdateControllerModel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -283,9 +283,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x33c;
   constexpr static std::size_t addrs = 0x27baf90;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(),
-                                                                               "UpdateControllerAnimation", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "UpdateControllerAnimation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -296,9 +296,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x27bb5b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(),
-                                                                               "InputFocusAquired", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "InputFocusAquired", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -309,9 +309,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x27bb5c0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(),
-                                                                               "InputFocusLost", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "InputFocusLost", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -322,132 +322,132 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x27bb5c8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__OVRInput__Controller& GlobalNamespace::OVRRuntimeController::__get_m_controller() {
+constexpr ::GlobalNamespace::__OVRInput__Controller& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_controller() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controller;
 }
-constexpr ::GlobalNamespace::__OVRInput__Controller const& GlobalNamespace::OVRRuntimeController::__get_m_controller() const {
+constexpr ::GlobalNamespace::__OVRInput__Controller const& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_controller() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controller;
 }
-constexpr void GlobalNamespace::OVRRuntimeController::__set_m_controller(::GlobalNamespace::__OVRInput__Controller value) {
+constexpr void GlobalNamespace::OVRRuntimeController::__cordl_internal_set_m_controller(::GlobalNamespace::__OVRInput__Controller value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_controller = value;
 }
-constexpr ::UnityEngine::Shader*& GlobalNamespace::OVRRuntimeController::__get_m_controllerModelShader() {
+constexpr ::UnityW<::UnityEngine::Shader>& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_controllerModelShader() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controllerModelShader;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& GlobalNamespace::OVRRuntimeController::__get_m_controllerModelShader() const {
+constexpr ::UnityW<::UnityEngine::Shader> const& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_controllerModelShader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controllerModelShader;
 }
-constexpr void GlobalNamespace::OVRRuntimeController::__set_m_controllerModelShader(::UnityEngine::Shader* value) {
+constexpr void GlobalNamespace::OVRRuntimeController::__cordl_internal_set_m_controllerModelShader(::UnityW<::UnityEngine::Shader> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_controllerModelShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::OVRRuntimeController::__get_m_supportAnimation() {
+constexpr bool& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_supportAnimation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_supportAnimation;
 }
-constexpr bool const& GlobalNamespace::OVRRuntimeController::__get_m_supportAnimation() const {
+constexpr bool const& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_supportAnimation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_supportAnimation;
 }
-constexpr void GlobalNamespace::OVRRuntimeController::__set_m_supportAnimation(bool value) {
+constexpr void GlobalNamespace::OVRRuntimeController::__cordl_internal_set_m_supportAnimation(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_supportAnimation = value;
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::OVRRuntimeController::__get_m_controllerObject() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_controllerObject() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controllerObject;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::OVRRuntimeController::__get_m_controllerObject() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_controllerObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controllerObject;
 }
-constexpr void GlobalNamespace::OVRRuntimeController::__set_m_controllerObject(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::OVRRuntimeController::__cordl_internal_set_m_controllerObject(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_controllerObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::OVRRuntimeController::__get_m_controllerModelPath() {
+constexpr ::StringW& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_controllerModelPath() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controllerModelPath;
 }
-constexpr ::StringW const& GlobalNamespace::OVRRuntimeController::__get_m_controllerModelPath() const {
+constexpr ::StringW const& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_controllerModelPath() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controllerModelPath;
 }
-constexpr void GlobalNamespace::OVRRuntimeController::__set_m_controllerModelPath(::StringW value) {
+constexpr void GlobalNamespace::OVRRuntimeController::__cordl_internal_set_m_controllerModelPath(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_controllerModelPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::OVRRuntimeController::__get_m_modelSupported() {
+constexpr bool& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_modelSupported() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelSupported;
 }
-constexpr bool const& GlobalNamespace::OVRRuntimeController::__get_m_modelSupported() const {
+constexpr bool const& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_modelSupported() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_modelSupported;
 }
-constexpr void GlobalNamespace::OVRRuntimeController::__set_m_modelSupported(bool value) {
+constexpr void GlobalNamespace::OVRRuntimeController::__cordl_internal_set_m_modelSupported(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_modelSupported = value;
 }
-constexpr bool& GlobalNamespace::OVRRuntimeController::__get_m_hasInputFocus() {
+constexpr bool& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_hasInputFocus() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_hasInputFocus;
 }
-constexpr bool const& GlobalNamespace::OVRRuntimeController::__get_m_hasInputFocus() const {
+constexpr bool const& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_hasInputFocus() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_hasInputFocus;
 }
-constexpr void GlobalNamespace::OVRRuntimeController::__set_m_hasInputFocus(bool value) {
+constexpr void GlobalNamespace::OVRRuntimeController::__cordl_internal_set_m_hasInputFocus(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_hasInputFocus = value;
 }
-constexpr bool& GlobalNamespace::OVRRuntimeController::__get_m_hasInputFocusPrev() {
+constexpr bool& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_hasInputFocusPrev() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_hasInputFocusPrev;
 }
-constexpr bool const& GlobalNamespace::OVRRuntimeController::__get_m_hasInputFocusPrev() const {
+constexpr bool const& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_hasInputFocusPrev() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_hasInputFocusPrev;
 }
-constexpr void GlobalNamespace::OVRRuntimeController::__set_m_hasInputFocusPrev(bool value) {
+constexpr void GlobalNamespace::OVRRuntimeController::__cordl_internal_set_m_hasInputFocusPrev(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_hasInputFocusPrev = value;
 }
-constexpr bool& GlobalNamespace::OVRRuntimeController::__get_m_controllerConnectedPrev() {
+constexpr bool& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_controllerConnectedPrev() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controllerConnectedPrev;
 }
-constexpr bool const& GlobalNamespace::OVRRuntimeController::__get_m_controllerConnectedPrev() const {
+constexpr bool const& GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_controllerConnectedPrev() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_controllerConnectedPrev;
 }
-constexpr void GlobalNamespace::OVRRuntimeController::__set_m_controllerConnectedPrev(bool value) {
+constexpr void GlobalNamespace::OVRRuntimeController::__cordl_internal_set_m_controllerConnectedPrev(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_controllerConnectedPrev = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>*&
-GlobalNamespace::OVRRuntimeController::__get_m_animationNodes() {
+GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_animationNodes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_animationNodes;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>*> const&
-GlobalNamespace::OVRRuntimeController::__get_m_animationNodes() const {
+GlobalNamespace::OVRRuntimeController::__cordl_internal_get_m_animationNodes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_animationNodes;
 }
-constexpr void
-GlobalNamespace::OVRRuntimeController::__set_m_animationNodes(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* value) {
+constexpr void GlobalNamespace::OVRRuntimeController::__cordl_internal_set_m_animationNodes(
+    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_animationNodes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -467,52 +467,52 @@ inline ::StringW GlobalNamespace::OVRRuntimeController::getStaticF_rightControll
 }
 inline void GlobalNamespace::OVRRuntimeController::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), "Start",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRRuntimeController::Update() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), "Update",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::OVRRuntimeController::IsModelSupported(::StringW modelPath) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), "IsModelSupported", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), "IsModelSupported", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, modelPath);
 }
 inline bool GlobalNamespace::OVRRuntimeController::LoadControllerModel(::StringW modelPath) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), "LoadControllerModel",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), "LoadControllerModel",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, modelPath);
 }
 inline ::System::Collections::IEnumerator* GlobalNamespace::OVRRuntimeController::UpdateControllerModel() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(),
-                                                                             "UpdateControllerModel", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "UpdateControllerModel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRRuntimeController::UpdateControllerAnimation() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(),
-                                                                             "UpdateControllerAnimation", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "UpdateControllerAnimation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRRuntimeController::InputFocusAquired() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(),
-                                                                             "InputFocusAquired", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "InputFocusAquired", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRRuntimeController::InputFocusLost() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), "InputFocusLost",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::OVRRuntimeController* GlobalNamespace::OVRRuntimeController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::OVRRuntimeController*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRRuntimeController*>());
 }
 inline void GlobalNamespace::OVRRuntimeController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

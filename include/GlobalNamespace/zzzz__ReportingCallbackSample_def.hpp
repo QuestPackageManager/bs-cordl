@@ -24,29 +24,29 @@ MARK_REF_PTR_T(::GlobalNamespace::ReportingCallbackSample);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13219))
 // CS Name: ::ReportingCallbackSample*
 class CORDL_TYPE ReportingCallbackSample : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field InVRConsole, offset 0x18, size 0x8
-  __declspec(property(get = __get_InVRConsole, put = __set_InVRConsole))::UnityEngine::UI::Text* InVRConsole;
+  __declspec(property(get = __cordl_internal_get_InVRConsole, put = __cordl_internal_set_InVRConsole))::UnityW<::UnityEngine::UI::Text> InVRConsole;
 
   /// @brief Field DestinationsConsole, offset 0x20, size 0x8
-  __declspec(property(get = __get_DestinationsConsole, put = __set_DestinationsConsole))::UnityEngine::UI::Text* DestinationsConsole;
+  __declspec(property(get = __cordl_internal_get_DestinationsConsole, put = __cordl_internal_set_DestinationsConsole))::UnityW<::UnityEngine::UI::Text> DestinationsConsole;
 
-  constexpr ::UnityEngine::UI::Text*& __get_InVRConsole();
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_InVRConsole();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& __get_InVRConsole() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_InVRConsole() const;
 
-  constexpr void __set_InVRConsole(::UnityEngine::UI::Text* value);
+  constexpr void __cordl_internal_set_InVRConsole(::UnityW<::UnityEngine::UI::Text> value);
 
-  constexpr ::UnityEngine::UI::Text*& __get_DestinationsConsole();
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_DestinationsConsole();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& __get_DestinationsConsole() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_DestinationsConsole() const;
 
-  constexpr void __set_DestinationsConsole(::UnityEngine::UI::Text* value);
+  constexpr void __cordl_internal_set_DestinationsConsole(::UnityW<::UnityEngine::UI::Text> value);
 
   /// @brief Method Start, addr 0x26cce5c, size 0xf8, virtual false, abstract: false, final false
   inline void Start();
@@ -80,10 +80,10 @@ protected:
 
 public:
   /// @brief Field InVRConsole, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Text* ___InVRConsole;
+  ::UnityW<::UnityEngine::UI::Text> ___InVRConsole;
 
   /// @brief Field DestinationsConsole, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Text* ___DestinationsConsole;
+  ::UnityW<::UnityEngine::UI::Text> ___DestinationsConsole;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_TreeInstance_Extensions____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9940))
 // CS Name: ::Test_TreeInstance_Extensions::<>c*
 class CORDL_TYPE __Test_TreeInstance_Extensions____c : public ::System::Object {
@@ -96,7 +96,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_TreeI
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9941))
 // CS Name: ::HoudiniEngineUnity::Test_TreeInstance_Extensions*
 class CORDL_TYPE Test_TreeInstance_Extensions : public ::System::Object {

@@ -31,155 +31,155 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPositionDisplay);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5240))
 // CS Name: ::MultiplayerPositionDisplay*
 class CORDL_TYPE MultiplayerPositionDisplay : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _text, offset 0x18, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::TMPro::TextMeshPro* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshPro> _text;
 
   /// @brief Field _normalColor, offset 0x20, size 0x10
-  __declspec(property(get = __get__normalColor, put = __set__normalColor))::UnityEngine::Color _normalColor;
+  __declspec(property(get = __cordl_internal_get__normalColor, put = __cordl_internal_set__normalColor))::UnityEngine::Color _normalColor;
 
   /// @brief Field _leadingColor, offset 0x30, size 0x10
-  __declspec(property(get = __get__leadingColor, put = __set__leadingColor))::UnityEngine::Color _leadingColor;
+  __declspec(property(get = __cordl_internal_get__leadingColor, put = __cordl_internal_set__leadingColor))::UnityEngine::Color _leadingColor;
 
   /// @brief Field _failedColor, offset 0x40, size 0x10
-  __declspec(property(get = __get__failedColor, put = __set__failedColor))::UnityEngine::Color _failedColor;
+  __declspec(property(get = __cordl_internal_get__failedColor, put = __cordl_internal_set__failedColor))::UnityEngine::Color _failedColor;
 
   /// @brief Field _fadeInDuration, offset 0x50, size 0x4
-  __declspec(property(get = __get__fadeInDuration, put = __set__fadeInDuration)) float_t _fadeInDuration;
+  __declspec(property(get = __cordl_internal_get__fadeInDuration, put = __cordl_internal_set__fadeInDuration)) float_t _fadeInDuration;
 
   /// @brief Field _crossFadeDuration, offset 0x54, size 0x4
-  __declspec(property(get = __get__crossFadeDuration, put = __set__crossFadeDuration)) float_t _crossFadeDuration;
+  __declspec(property(get = __cordl_internal_get__crossFadeDuration, put = __cordl_internal_set__crossFadeDuration)) float_t _crossFadeDuration;
 
   /// @brief Field _fadeOutDuration, offset 0x58, size 0x4
-  __declspec(property(get = __get__fadeOutDuration, put = __set__fadeOutDuration)) float_t _fadeOutDuration;
+  __declspec(property(get = __cordl_internal_get__fadeOutDuration, put = __cordl_internal_set__fadeOutDuration)) float_t _fadeOutDuration;
 
   /// @brief Field _scoreProvider, offset 0x60, size 0x8
-  __declspec(property(get = __get__scoreProvider, put = __set__scoreProvider))::GlobalNamespace::MultiplayerScoreProvider* _scoreProvider;
+  __declspec(property(get = __cordl_internal_get__scoreProvider, put = __cordl_internal_set__scoreProvider))::UnityW<::GlobalNamespace::MultiplayerScoreProvider> _scoreProvider;
 
   /// @brief Field _connectedPlayer, offset 0x68, size 0x8
-  __declspec(property(get = __get__connectedPlayer, put = __set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
   /// @brief Field _wasFirst, offset 0x70, size 0x1
-  __declspec(property(get = __get__wasFirst, put = __set__wasFirst)) bool _wasFirst;
+  __declspec(property(get = __cordl_internal_get__wasFirst, put = __cordl_internal_set__wasFirst)) bool _wasFirst;
 
   /// @brief Field _isFailed, offset 0x71, size 0x1
-  __declspec(property(get = __get__isFailed, put = __set__isFailed)) bool _isFailed;
+  __declspec(property(get = __cordl_internal_get__isFailed, put = __cordl_internal_set__isFailed)) bool _isFailed;
 
   /// @brief Field _updatingColor, offset 0x72, size 0x1
-  __declspec(property(get = __get__updatingColor, put = __set__updatingColor)) bool _updatingColor;
+  __declspec(property(get = __cordl_internal_get__updatingColor, put = __cordl_internal_set__updatingColor)) bool _updatingColor;
 
   /// @brief Field _startColor, offset 0x74, size 0x10
-  __declspec(property(get = __get__startColor, put = __set__startColor))::UnityEngine::Color _startColor;
+  __declspec(property(get = __cordl_internal_get__startColor, put = __cordl_internal_set__startColor))::UnityEngine::Color _startColor;
 
   /// @brief Field _targetColor, offset 0x84, size 0x10
-  __declspec(property(get = __get__targetColor, put = __set__targetColor))::UnityEngine::Color _targetColor;
+  __declspec(property(get = __cordl_internal_get__targetColor, put = __cordl_internal_set__targetColor))::UnityEngine::Color _targetColor;
 
   /// @brief Field _colorAnimationStartTime, offset 0x94, size 0x4
-  __declspec(property(get = __get__colorAnimationStartTime, put = __set__colorAnimationStartTime)) float_t _colorAnimationStartTime;
+  __declspec(property(get = __cordl_internal_get__colorAnimationStartTime, put = __cordl_internal_set__colorAnimationStartTime)) float_t _colorAnimationStartTime;
 
   /// @brief Field _colorAnimationStartDuration, offset 0x98, size 0x4
-  __declspec(property(get = __get__colorAnimationStartDuration, put = __set__colorAnimationStartDuration)) float_t _colorAnimationStartDuration;
+  __declspec(property(get = __cordl_internal_get__colorAnimationStartDuration, put = __cordl_internal_set__colorAnimationStartDuration)) float_t _colorAnimationStartDuration;
 
-  constexpr ::TMPro::TextMeshPro*& __get__text();
+  constexpr ::UnityW<::TMPro::TextMeshPro>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshPro*> const& __get__text() const;
+  constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::TMPro::TextMeshPro* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value);
 
-  constexpr ::UnityEngine::Color& __get__normalColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__normalColor();
 
-  constexpr ::UnityEngine::Color const& __get__normalColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__normalColor() const;
 
-  constexpr void __set__normalColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__normalColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__leadingColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__leadingColor();
 
-  constexpr ::UnityEngine::Color const& __get__leadingColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__leadingColor() const;
 
-  constexpr void __set__leadingColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__leadingColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__failedColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__failedColor();
 
-  constexpr ::UnityEngine::Color const& __get__failedColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__failedColor() const;
 
-  constexpr void __set__failedColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__failedColor(::UnityEngine::Color value);
 
-  constexpr float_t& __get__fadeInDuration();
+  constexpr float_t& __cordl_internal_get__fadeInDuration();
 
-  constexpr float_t const& __get__fadeInDuration() const;
+  constexpr float_t const& __cordl_internal_get__fadeInDuration() const;
 
-  constexpr void __set__fadeInDuration(float_t value);
+  constexpr void __cordl_internal_set__fadeInDuration(float_t value);
 
-  constexpr float_t& __get__crossFadeDuration();
+  constexpr float_t& __cordl_internal_get__crossFadeDuration();
 
-  constexpr float_t const& __get__crossFadeDuration() const;
+  constexpr float_t const& __cordl_internal_get__crossFadeDuration() const;
 
-  constexpr void __set__crossFadeDuration(float_t value);
+  constexpr void __cordl_internal_set__crossFadeDuration(float_t value);
 
-  constexpr float_t& __get__fadeOutDuration();
+  constexpr float_t& __cordl_internal_get__fadeOutDuration();
 
-  constexpr float_t const& __get__fadeOutDuration() const;
+  constexpr float_t const& __cordl_internal_get__fadeOutDuration() const;
 
-  constexpr void __set__fadeOutDuration(float_t value);
+  constexpr void __cordl_internal_set__fadeOutDuration(float_t value);
 
-  constexpr ::GlobalNamespace::MultiplayerScoreProvider*& __get__scoreProvider();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider>& __cordl_internal_get__scoreProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerScoreProvider*> const& __get__scoreProvider() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> const& __cordl_internal_get__scoreProvider() const;
 
-  constexpr void __set__scoreProvider(::GlobalNamespace::MultiplayerScoreProvider* value);
+  constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __get__connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __get__connectedPlayer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  constexpr bool& __get__wasFirst();
+  constexpr bool& __cordl_internal_get__wasFirst();
 
-  constexpr bool const& __get__wasFirst() const;
+  constexpr bool const& __cordl_internal_get__wasFirst() const;
 
-  constexpr void __set__wasFirst(bool value);
+  constexpr void __cordl_internal_set__wasFirst(bool value);
 
-  constexpr bool& __get__isFailed();
+  constexpr bool& __cordl_internal_get__isFailed();
 
-  constexpr bool const& __get__isFailed() const;
+  constexpr bool const& __cordl_internal_get__isFailed() const;
 
-  constexpr void __set__isFailed(bool value);
+  constexpr void __cordl_internal_set__isFailed(bool value);
 
-  constexpr bool& __get__updatingColor();
+  constexpr bool& __cordl_internal_get__updatingColor();
 
-  constexpr bool const& __get__updatingColor() const;
+  constexpr bool const& __cordl_internal_get__updatingColor() const;
 
-  constexpr void __set__updatingColor(bool value);
+  constexpr void __cordl_internal_set__updatingColor(bool value);
 
-  constexpr ::UnityEngine::Color& __get__startColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__startColor();
 
-  constexpr ::UnityEngine::Color const& __get__startColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__startColor() const;
 
-  constexpr void __set__startColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__startColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__targetColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__targetColor();
 
-  constexpr ::UnityEngine::Color const& __get__targetColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__targetColor() const;
 
-  constexpr void __set__targetColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__targetColor(::UnityEngine::Color value);
 
-  constexpr float_t& __get__colorAnimationStartTime();
+  constexpr float_t& __cordl_internal_get__colorAnimationStartTime();
 
-  constexpr float_t const& __get__colorAnimationStartTime() const;
+  constexpr float_t const& __cordl_internal_get__colorAnimationStartTime() const;
 
-  constexpr void __set__colorAnimationStartTime(float_t value);
+  constexpr void __cordl_internal_set__colorAnimationStartTime(float_t value);
 
-  constexpr float_t& __get__colorAnimationStartDuration();
+  constexpr float_t& __cordl_internal_get__colorAnimationStartDuration();
 
-  constexpr float_t const& __get__colorAnimationStartDuration() const;
+  constexpr float_t const& __cordl_internal_get__colorAnimationStartDuration() const;
 
-  constexpr void __set__colorAnimationStartDuration(float_t value);
+  constexpr void __cordl_internal_set__colorAnimationStartDuration(float_t value);
 
   /// @brief Method Start, addr 0x2257760, size 0x110, virtual false, abstract: false, final false
   inline void Start();
@@ -225,7 +225,7 @@ protected:
 
 public:
   /// @brief Field _text, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshPro* ____text;
+  ::UnityW<::TMPro::TextMeshPro> ____text;
 
   /// @brief Field _normalColor, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ____normalColor;
@@ -246,7 +246,7 @@ public:
   float_t ____fadeOutDuration;
 
   /// @brief Field _scoreProvider, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerScoreProvider* ____scoreProvider;
+  ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> ____scoreProvider;
 
   /// @brief Field _connectedPlayer, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;

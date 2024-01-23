@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x2b88cd0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Cylinder*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Cylinder*>::get(), 6));
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x2b88da4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Cylinder*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Cylinder*>::get(), 4));
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xbfc;
   constexpr static std::size_t addrs = 0x2b88ddc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Cylinder*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Cylinder*>::get(), 5));
@@ -58,45 +58,45 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x2b899d8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Cylinder*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::ProBuilder::Shapes::Cylinder::__get_m_AxisDivisions() {
+constexpr int32_t& UnityEngine::ProBuilder::Shapes::Cylinder::__cordl_internal_get_m_AxisDivisions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AxisDivisions;
 }
-constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Cylinder::__get_m_AxisDivisions() const {
+constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Cylinder::__cordl_internal_get_m_AxisDivisions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_AxisDivisions;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Cylinder::__set_m_AxisDivisions(int32_t value) {
+constexpr void UnityEngine::ProBuilder::Shapes::Cylinder::__cordl_internal_set_m_AxisDivisions(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_AxisDivisions = value;
 }
-constexpr int32_t& UnityEngine::ProBuilder::Shapes::Cylinder::__get_m_HeightCuts() {
+constexpr int32_t& UnityEngine::ProBuilder::Shapes::Cylinder::__cordl_internal_get_m_HeightCuts() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HeightCuts;
 }
-constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Cylinder::__get_m_HeightCuts() const {
+constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Cylinder::__cordl_internal_get_m_HeightCuts() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HeightCuts;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Cylinder::__set_m_HeightCuts(int32_t value) {
+constexpr void UnityEngine::ProBuilder::Shapes::Cylinder::__cordl_internal_set_m_HeightCuts(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HeightCuts = value;
 }
-constexpr bool& UnityEngine::ProBuilder::Shapes::Cylinder::__get_m_Smooth() {
+constexpr bool& UnityEngine::ProBuilder::Shapes::Cylinder::__cordl_internal_get_m_Smooth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Smooth;
 }
-constexpr bool const& UnityEngine::ProBuilder::Shapes::Cylinder::__get_m_Smooth() const {
+constexpr bool const& UnityEngine::ProBuilder::Shapes::Cylinder::__cordl_internal_get_m_Smooth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Smooth;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Cylinder::__set_m_Smooth(bool value) {
+constexpr void UnityEngine::ProBuilder::Shapes::Cylinder::__cordl_internal_set_m_Smooth(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Smooth = value;
 }
@@ -117,11 +117,11 @@ inline ::UnityEngine::Bounds UnityEngine::ProBuilder::Shapes::Cylinder::RebuildM
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds, false>(this, ___internal_method, mesh, size, rotation);
 }
 inline ::UnityEngine::ProBuilder::Shapes::Cylinder* UnityEngine::ProBuilder::Shapes::Cylinder::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::ProBuilder::Shapes::Cylinder*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::Shapes::Cylinder*>());
 }
 inline void UnityEngine::ProBuilder::Shapes::Cylinder::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Cylinder*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

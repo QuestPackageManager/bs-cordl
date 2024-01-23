@@ -17,33 +17,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1086))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::Srp6GroupParameters*
 class CORDL_TYPE Srp6GroupParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field n, offset 0x10, size 0x8
-  __declspec(property(get = __get_n, put = __set_n))::Org::BouncyCastle::Math::BigInteger* n;
+  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n))::Org::BouncyCastle::Math::BigInteger* n;
 
   /// @brief Field g, offset 0x18, size 0x8
-  __declspec(property(get = __get_g, put = __set_g))::Org::BouncyCastle::Math::BigInteger* g;
+  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g))::Org::BouncyCastle::Math::BigInteger* g;
 
   __declspec(property(get = get_G))::Org::BouncyCastle::Math::BigInteger* G;
 
   __declspec(property(get = get_N))::Org::BouncyCastle::Math::BigInteger* N;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_n();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_n();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_n() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_n() const;
 
-  constexpr void __set_n(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_g();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_g();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_g() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_g() const;
 
-  constexpr void __set_g(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Math::BigInteger* value);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g);
 

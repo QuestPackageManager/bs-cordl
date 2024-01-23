@@ -19,14 +19,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::BaseDigestCalculator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(611))
 // CS Name: ::Org.BouncyCastle.Cms::BaseDigestCalculator*
 class CORDL_TYPE BaseDigestCalculator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field digest, offset 0x10, size 0x8
-  __declspec(property(get = __get_digest, put = __set_digest))::ArrayW<uint8_t, ::Array<uint8_t>*> digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::ArrayW<uint8_t, ::Array<uint8_t>*> digest;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::IDigestCalculator"
   constexpr operator ::Org::BouncyCastle::Cms::IDigestCalculator*() noexcept;
@@ -34,11 +34,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Cms::IDigestCalculator"
   constexpr ::Org::BouncyCastle::Cms::IDigestCalculator* i___Org__BouncyCastle__Cms__IDigestCalculator() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_digest();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_digest();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_digest() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_digest() const;
 
-  constexpr void __set_digest(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_digest(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Cms::BaseDigestCalculator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 

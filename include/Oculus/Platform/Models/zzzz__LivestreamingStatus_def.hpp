@@ -15,56 +15,56 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LivestreamingStatus);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13455))
 // CS Name: ::Oculus.Platform.Models::LivestreamingStatus*
 class CORDL_TYPE LivestreamingStatus : public ::System::Object {
 public:
   // Declarations
   /// @brief Field CommentsVisible, offset 0x10, size 0x1
-  __declspec(property(get = __get_CommentsVisible, put = __set_CommentsVisible)) bool CommentsVisible;
+  __declspec(property(get = __cordl_internal_get_CommentsVisible, put = __cordl_internal_set_CommentsVisible)) bool CommentsVisible;
 
   /// @brief Field IsPaused, offset 0x11, size 0x1
-  __declspec(property(get = __get_IsPaused, put = __set_IsPaused)) bool IsPaused;
+  __declspec(property(get = __cordl_internal_get_IsPaused, put = __cordl_internal_set_IsPaused)) bool IsPaused;
 
   /// @brief Field LivestreamingEnabled, offset 0x12, size 0x1
-  __declspec(property(get = __get_LivestreamingEnabled, put = __set_LivestreamingEnabled)) bool LivestreamingEnabled;
+  __declspec(property(get = __cordl_internal_get_LivestreamingEnabled, put = __cordl_internal_set_LivestreamingEnabled)) bool LivestreamingEnabled;
 
   /// @brief Field LivestreamingType, offset 0x14, size 0x4
-  __declspec(property(get = __get_LivestreamingType, put = __set_LivestreamingType)) int32_t LivestreamingType;
+  __declspec(property(get = __cordl_internal_get_LivestreamingType, put = __cordl_internal_set_LivestreamingType)) int32_t LivestreamingType;
 
   /// @brief Field MicEnabled, offset 0x18, size 0x1
-  __declspec(property(get = __get_MicEnabled, put = __set_MicEnabled)) bool MicEnabled;
+  __declspec(property(get = __cordl_internal_get_MicEnabled, put = __cordl_internal_set_MicEnabled)) bool MicEnabled;
 
-  constexpr bool& __get_CommentsVisible();
+  constexpr bool& __cordl_internal_get_CommentsVisible();
 
-  constexpr bool const& __get_CommentsVisible() const;
+  constexpr bool const& __cordl_internal_get_CommentsVisible() const;
 
-  constexpr void __set_CommentsVisible(bool value);
+  constexpr void __cordl_internal_set_CommentsVisible(bool value);
 
-  constexpr bool& __get_IsPaused();
+  constexpr bool& __cordl_internal_get_IsPaused();
 
-  constexpr bool const& __get_IsPaused() const;
+  constexpr bool const& __cordl_internal_get_IsPaused() const;
 
-  constexpr void __set_IsPaused(bool value);
+  constexpr void __cordl_internal_set_IsPaused(bool value);
 
-  constexpr bool& __get_LivestreamingEnabled();
+  constexpr bool& __cordl_internal_get_LivestreamingEnabled();
 
-  constexpr bool const& __get_LivestreamingEnabled() const;
+  constexpr bool const& __cordl_internal_get_LivestreamingEnabled() const;
 
-  constexpr void __set_LivestreamingEnabled(bool value);
+  constexpr void __cordl_internal_set_LivestreamingEnabled(bool value);
 
-  constexpr int32_t& __get_LivestreamingType();
+  constexpr int32_t& __cordl_internal_get_LivestreamingType();
 
-  constexpr int32_t const& __get_LivestreamingType() const;
+  constexpr int32_t const& __cordl_internal_get_LivestreamingType() const;
 
-  constexpr void __set_LivestreamingType(int32_t value);
+  constexpr void __cordl_internal_set_LivestreamingType(int32_t value);
 
-  constexpr bool& __get_MicEnabled();
+  constexpr bool& __cordl_internal_get_MicEnabled();
 
-  constexpr bool const& __get_MicEnabled() const;
+  constexpr bool const& __cordl_internal_get_MicEnabled() const;
 
-  constexpr void __set_MicEnabled(bool value);
+  constexpr void __cordl_internal_set_MicEnabled(bool value);
 
   static inline ::Oculus::Platform::Models::LivestreamingStatus* New_ctor(void* o);
 

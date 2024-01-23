@@ -45,20 +45,20 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6687))
 // CS Name: ::Observable::<>c__DisplayClass6_0`1<TValue>*
 class CORDL_TYPE __Observable____c__DisplayClass6_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field subscription, offset 0x10, size 0x8
-  __declspec(property(get = __get_subscription, put = __set_subscription))::System::IDisposable* subscription;
+  __declspec(property(get = __cordl_internal_get_subscription, put = __cordl_internal_set_subscription))::System::IDisposable* subscription;
 
-  constexpr ::System::IDisposable*& __get_subscription();
+  constexpr ::System::IDisposable*& __cordl_internal_get_subscription();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IDisposable*> const& __get_subscription() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IDisposable*> const& __cordl_internal_get_subscription() const;
 
-  constexpr void __set_subscription(::System::IDisposable* value);
+  constexpr void __cordl_internal_set_subscription(::System::IDisposable* value);
 
   static inline ::UnityEngine::InputSystem::Utilities::__Observable____c__DisplayClass6_0_1<TValue>* New_ctor();
 
@@ -93,7 +93,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6688))
 // CS Name: ::UnityEngine.InputSystem.Utilities::Observable*
 class CORDL_TYPE Observable : public ::System::Object {

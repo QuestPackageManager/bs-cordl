@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::System::Security::Cryptography::AesTransform);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2284))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2284))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14252))
 // CS Name: ::System.Security.Cryptography::AesTransform*
 class CORDL_TYPE AesTransform : public ::Mono::Security::Cryptography::SymmetricTransform {
 public:
   // Declarations
   /// @brief Field expandedKey, offset 0x58, size 0x8
-  __declspec(property(get = __get_expandedKey, put = __set_expandedKey))::ArrayW<uint32_t, ::Array<uint32_t>*> expandedKey;
+  __declspec(property(get = __cordl_internal_get_expandedKey, put = __cordl_internal_set_expandedKey))::ArrayW<uint32_t, ::Array<uint32_t>*> expandedKey;
 
   /// @brief Field Nk, offset 0x60, size 0x4
-  __declspec(property(get = __get_Nk, put = __set_Nk)) int32_t Nk;
+  __declspec(property(get = __cordl_internal_get_Nk, put = __cordl_internal_set_Nk)) int32_t Nk;
 
   /// @brief Field Nr, offset 0x64, size 0x4
-  __declspec(property(get = __get_Nr, put = __set_Nr)) int32_t Nr;
+  __declspec(property(get = __cordl_internal_get_Nr, put = __cordl_internal_set_Nr)) int32_t Nr;
 
   /// @brief Field Rcon, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Rcon, put = setStaticF_Rcon))::ArrayW<uint32_t, ::Array<uint32_t>*> Rcon;
@@ -67,23 +67,23 @@ public:
   /// @brief Field iT3, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_iT3, put = setStaticF_iT3))::ArrayW<uint32_t, ::Array<uint32_t>*> iT3;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_expandedKey();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_expandedKey();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_expandedKey() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_expandedKey() const;
 
-  constexpr void __set_expandedKey(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_expandedKey(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr int32_t& __get_Nk();
+  constexpr int32_t& __cordl_internal_get_Nk();
 
-  constexpr int32_t const& __get_Nk() const;
+  constexpr int32_t const& __cordl_internal_get_Nk() const;
 
-  constexpr void __set_Nk(int32_t value);
+  constexpr void __cordl_internal_set_Nk(int32_t value);
 
-  constexpr int32_t& __get_Nr();
+  constexpr int32_t& __cordl_internal_get_Nr();
 
-  constexpr int32_t const& __get_Nr() const;
+  constexpr int32_t const& __cordl_internal_get_Nr() const;
 
-  constexpr void __set_Nr(int32_t value);
+  constexpr void __cordl_internal_set_Nr(int32_t value);
 
   static inline void setStaticF_Rcon(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 

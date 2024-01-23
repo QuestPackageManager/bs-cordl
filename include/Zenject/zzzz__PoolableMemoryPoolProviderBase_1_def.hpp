@@ -48,17 +48,17 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11219))
 // CS Name: ::Zenject::PoolableMemoryPoolProviderBase`1<TContract>*
 class CORDL_TYPE PoolableMemoryPoolProviderBase_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <PoolId>k__BackingField, offset 0x10, size 0x10
-  __declspec(property(get = __get__PoolId_k__BackingField, put = __set__PoolId_k__BackingField))::System::Guid _PoolId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__PoolId_k__BackingField, put = __cordl_internal_set__PoolId_k__BackingField))::System::Guid _PoolId_k__BackingField;
 
   /// @brief Field <Container>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__Container_k__BackingField, put = __set__Container_k__BackingField))::Zenject::DiContainer* _Container_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Container_k__BackingField, put = __cordl_internal_set__Container_k__BackingField))::Zenject::DiContainer* _Container_k__BackingField;
 
   __declspec(property(get = get_IsCached)) bool IsCached;
 
@@ -74,17 +74,17 @@ public:
   /// @brief Convert to "::Zenject::IProvider"
   constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  constexpr ::System::Guid& __get__PoolId_k__BackingField();
+  constexpr ::System::Guid& __cordl_internal_get__PoolId_k__BackingField();
 
-  constexpr ::System::Guid const& __get__PoolId_k__BackingField() const;
+  constexpr ::System::Guid const& __cordl_internal_get__PoolId_k__BackingField() const;
 
-  constexpr void __set__PoolId_k__BackingField(::System::Guid value);
+  constexpr void __cordl_internal_set__PoolId_k__BackingField(::System::Guid value);
 
-  constexpr ::Zenject::DiContainer*& __get__Container_k__BackingField();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__Container_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__Container_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__Container_k__BackingField() const;
 
-  constexpr void __set__Container_k__BackingField(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__Container_k__BackingField(::Zenject::DiContainer* value);
 
   static inline ::Zenject::PoolableMemoryPoolProviderBase_1<TContract>* New_ctor(::Zenject::DiContainer* container, ::System::Guid poolId);
 

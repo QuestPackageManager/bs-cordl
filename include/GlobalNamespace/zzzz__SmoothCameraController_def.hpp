@@ -20,29 +20,29 @@ MARK_REF_PTR_T(::GlobalNamespace::SmoothCameraController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5331))
 // CS Name: ::SmoothCameraController*
 class CORDL_TYPE SmoothCameraController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _mainSettingsModel, offset 0x18, size 0x8
-  __declspec(property(get = __get__mainSettingsModel, put = __set__mainSettingsModel))::GlobalNamespace::MainSettingsModelSO* _mainSettingsModel;
+  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
   /// @brief Field _smoothCamera, offset 0x20, size 0x8
-  __declspec(property(get = __get__smoothCamera, put = __set__smoothCamera))::GlobalNamespace::SmoothCamera* _smoothCamera;
+  __declspec(property(get = __cordl_internal_get__smoothCamera, put = __cordl_internal_set__smoothCamera))::UnityW<::GlobalNamespace::SmoothCamera> _smoothCamera;
 
-  constexpr ::GlobalNamespace::MainSettingsModelSO*& __get__mainSettingsModel();
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsModelSO*> const& __get__mainSettingsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
 
-  constexpr void __set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO* value);
+  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
-  constexpr ::GlobalNamespace::SmoothCamera*& __get__smoothCamera();
+  constexpr ::UnityW<::GlobalNamespace::SmoothCamera>& __cordl_internal_get__smoothCamera();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SmoothCamera*> const& __get__smoothCamera() const;
+  constexpr ::UnityW<::GlobalNamespace::SmoothCamera> const& __cordl_internal_get__smoothCamera() const;
 
-  constexpr void __set__smoothCamera(::GlobalNamespace::SmoothCamera* value);
+  constexpr void __cordl_internal_set__smoothCamera(::UnityW<::GlobalNamespace::SmoothCamera> value);
 
   /// @brief Method Start, addr 0x22684e4, size 0x4, virtual false, abstract: false, final false
   inline void Start();
@@ -79,10 +79,10 @@ protected:
 
 public:
   /// @brief Field _mainSettingsModel, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MainSettingsModelSO* ____mainSettingsModel;
+  ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
 
   /// @brief Field _smoothCamera, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::SmoothCamera* ____smoothCamera;
+  ::UnityW<::GlobalNamespace::SmoothCamera> ____smoothCamera;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

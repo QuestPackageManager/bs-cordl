@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GameServerBrowserStackedController);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13596))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13596))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5712))
 // CS Name: ::GameServerBrowserStackedController*
 class CORDL_TYPE GameServerBrowserStackedController : public ::HMUI::StackedController {

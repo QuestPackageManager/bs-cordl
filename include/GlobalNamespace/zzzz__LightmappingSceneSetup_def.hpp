@@ -62,8 +62,9 @@ MARK_VAL_T(::GlobalNamespace::__LightmappingSceneSetup____c__DisplayClass8_0____
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6033)) CS Name: ::LightmappingSceneSetup::<>c__DisplayClass8_0::<<InstallBindings>b__0>d
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(4260)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6033)) CS Name:
+// ::LightmappingSceneSetup::<>c__DisplayClass8_0::<<InstallBindings>b__0>d
 struct CORDL_TYPE __LightmappingSceneSetup____c__DisplayClass8_0____InstallBindings_b__0_d {
 public:
   // Declarations
@@ -124,7 +125,7 @@ static_assert(offsetof(::GlobalNamespace::__LightmappingSceneSetup____c__Display
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6034))
 // CS Name: ::LightmappingSceneSetup::<>c__DisplayClass8_0*
 class CORDL_TYPE __LightmappingSceneSetup____c__DisplayClass8_0 : public ::System::Object {
@@ -133,22 +134,22 @@ public:
   using __InstallBindings_b__0_d = ::GlobalNamespace::__LightmappingSceneSetup____c__DisplayClass8_0____InstallBindings_b__0_d;
 
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::LightmappingSceneSetup* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::LightmappingSceneSetup> __4__this;
 
   /// @brief Field beatmapData, offset 0x18, size 0x8
-  __declspec(property(get = __get_beatmapData, put = __set_beatmapData))::GlobalNamespace::IReadonlyBeatmapData* beatmapData;
+  __declspec(property(get = __cordl_internal_get_beatmapData, put = __cordl_internal_set_beatmapData))::GlobalNamespace::IReadonlyBeatmapData* beatmapData;
 
-  constexpr ::GlobalNamespace::LightmappingSceneSetup*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::LightmappingSceneSetup>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightmappingSceneSetup*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::LightmappingSceneSetup> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::LightmappingSceneSetup* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::LightmappingSceneSetup> value);
 
-  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __get_beatmapData();
+  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get_beatmapData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __get_beatmapData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __cordl_internal_get_beatmapData() const;
 
-  constexpr void __set_beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
+  constexpr void __cordl_internal_set_beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
 
   static inline ::GlobalNamespace::__LightmappingSceneSetup____c__DisplayClass8_0* New_ctor();
 
@@ -173,7 +174,7 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::LightmappingSceneSetup* _____4__this;
+  ::UnityW<::GlobalNamespace::LightmappingSceneSetup> _____4__this;
 
   /// @brief Field beatmapData, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IReadonlyBeatmapData* ___beatmapData;
@@ -192,7 +193,7 @@ static_assert(offsetof(::GlobalNamespace::__LightmappingSceneSetup____c__Display
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138)), TypeDefinitionIndex(TypeDefinitionIndex(14717))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6035))
 // CS Name: ::LightmappingSceneSetup*
 class CORDL_TYPE LightmappingSceneSetup : public ::Zenject::MonoInstaller {
@@ -201,55 +202,55 @@ public:
   using __c__DisplayClass8_0 = ::GlobalNamespace::__LightmappingSceneSetup____c__DisplayClass8_0;
 
   /// @brief Field _beatmapLevel, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapLevel, put = __set__beatmapLevel))::GlobalNamespace::BeatmapLevelSO* _beatmapLevel;
+  __declspec(property(get = __cordl_internal_get__beatmapLevel, put = __cordl_internal_set__beatmapLevel))::UnityW<::GlobalNamespace::BeatmapLevelSO> _beatmapLevel;
 
   /// @brief Field _beatmapCharacteristic, offset 0x28, size 0x8
-  __declspec(property(get = __get__beatmapCharacteristic, put = __set__beatmapCharacteristic))::GlobalNamespace::BeatmapCharacteristicSO* _beatmapCharacteristic;
+  __declspec(property(get = __cordl_internal_get__beatmapCharacteristic, put = __cordl_internal_set__beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _beatmapCharacteristic;
 
   /// @brief Field _beatmapDifficulty, offset 0x30, size 0x4
-  __declspec(property(get = __get__beatmapDifficulty, put = __set__beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty _beatmapDifficulty;
+  __declspec(property(get = __cordl_internal_get__beatmapDifficulty, put = __cordl_internal_set__beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty _beatmapDifficulty;
 
   /// @brief Field _colorScheme, offset 0x38, size 0x8
-  __declspec(property(get = __get__colorScheme, put = __set__colorScheme))::GlobalNamespace::ColorSchemeSO* _colorScheme;
+  __declspec(property(get = __cordl_internal_get__colorScheme, put = __cordl_internal_set__colorScheme))::UnityW<::GlobalNamespace::ColorSchemeSO> _colorScheme;
 
   /// @brief Field _standardLevelNoTransitionInstallerData, offset 0x40, size 0x8
-  __declspec(property(get = __get__standardLevelNoTransitionInstallerData,
-                      put = __set__standardLevelNoTransitionInstallerData))::GlobalNamespace::StandardLevelNoTransitionInstallerData* _standardLevelNoTransitionInstallerData;
+  __declspec(property(get = __cordl_internal_get__standardLevelNoTransitionInstallerData,
+                      put = __cordl_internal_set__standardLevelNoTransitionInstallerData))::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> _standardLevelNoTransitionInstallerData;
 
-  __declspec(property(get = get_colorScheme, put = set_colorScheme))::GlobalNamespace::ColorSchemeSO* colorScheme;
+  __declspec(property(get = get_colorScheme, put = set_colorScheme))::UnityW<::GlobalNamespace::ColorSchemeSO> colorScheme;
 
-  constexpr ::GlobalNamespace::BeatmapLevelSO*& __get__beatmapLevel();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO>& __cordl_internal_get__beatmapLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelSO*> const& __get__beatmapLevel() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& __cordl_internal_get__beatmapLevel() const;
 
-  constexpr void __set__beatmapLevel(::GlobalNamespace::BeatmapLevelSO* value);
+  constexpr void __cordl_internal_set__beatmapLevel(::UnityW<::GlobalNamespace::BeatmapLevelSO> value);
 
-  constexpr ::GlobalNamespace::BeatmapCharacteristicSO*& __get__beatmapCharacteristic();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__beatmapCharacteristic();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicSO*> const& __get__beatmapCharacteristic() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__beatmapCharacteristic() const;
 
-  constexpr void __set__beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
+  constexpr void __cordl_internal_set__beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __get__beatmapDifficulty();
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__beatmapDifficulty();
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __get__beatmapDifficulty() const;
+  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get__beatmapDifficulty() const;
 
-  constexpr void __set__beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+  constexpr void __cordl_internal_set__beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  constexpr ::GlobalNamespace::ColorSchemeSO*& __get__colorScheme();
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO>& __cordl_internal_get__colorScheme();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeSO*> const& __get__colorScheme() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO> const& __cordl_internal_get__colorScheme() const;
 
-  constexpr void __set__colorScheme(::GlobalNamespace::ColorSchemeSO* value);
+  constexpr void __cordl_internal_set__colorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
 
-  constexpr ::GlobalNamespace::StandardLevelNoTransitionInstallerData*& __get__standardLevelNoTransitionInstallerData();
+  constexpr ::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData>& __cordl_internal_get__standardLevelNoTransitionInstallerData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StandardLevelNoTransitionInstallerData*> const& __get__standardLevelNoTransitionInstallerData() const;
+  constexpr ::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> const& __cordl_internal_get__standardLevelNoTransitionInstallerData() const;
 
-  constexpr void __set__standardLevelNoTransitionInstallerData(::GlobalNamespace::StandardLevelNoTransitionInstallerData* value);
+  constexpr void __cordl_internal_set__standardLevelNoTransitionInstallerData(::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> value);
 
   /// @brief Method get_colorScheme, addr 0x2319e6c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ColorSchemeSO* get_colorScheme();
+  inline ::UnityW<::GlobalNamespace::ColorSchemeSO> get_colorScheme();
 
   /// @brief Method set_colorScheme, addr 0x2319e74, size 0x8, virtual false, abstract: false, final false
   inline void set_colorScheme(::GlobalNamespace::ColorSchemeSO* value);
@@ -277,19 +278,19 @@ protected:
 
 public:
   /// @brief Field _beatmapLevel, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelSO* ____beatmapLevel;
+  ::UnityW<::GlobalNamespace::BeatmapLevelSO> ____beatmapLevel;
 
   /// @brief Field _beatmapCharacteristic, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCharacteristicSO* ____beatmapCharacteristic;
+  ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ____beatmapCharacteristic;
 
   /// @brief Field _beatmapDifficulty, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::BeatmapDifficulty ____beatmapDifficulty;
 
   /// @brief Field _colorScheme, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSchemeSO* ____colorScheme;
+  ::UnityW<::GlobalNamespace::ColorSchemeSO> ____colorScheme;
 
   /// @brief Field _standardLevelNoTransitionInstallerData, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::StandardLevelNoTransitionInstallerData* ____standardLevelNoTransitionInstallerData;
+  ::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> ____standardLevelNoTransitionInstallerData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

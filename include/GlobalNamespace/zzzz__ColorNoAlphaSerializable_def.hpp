@@ -35,7 +35,7 @@ MARK_VAL_T(::GlobalNamespace::ColorNoAlphaSerializable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15045))
 // CS Name: ::ColorNoAlphaSerializable
 struct CORDL_TYPE ColorNoAlphaSerializable {

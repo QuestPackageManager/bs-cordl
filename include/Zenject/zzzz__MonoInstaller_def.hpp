@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Zenject::MonoInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11146))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11146))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11138))
 // CS Name: ::Zenject::MonoInstaller*
 class CORDL_TYPE MonoInstaller : public ::Zenject::MonoInstallerBase {

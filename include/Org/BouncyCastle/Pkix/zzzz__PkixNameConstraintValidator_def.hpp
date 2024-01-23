@@ -41,122 +41,124 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixNameConstraintValidator);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1726))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixNameConstraintValidator*
 class CORDL_TYPE PkixNameConstraintValidator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field excludedSubtreesDN, offset 0x10, size 0x8
-  __declspec(property(get = __get_excludedSubtreesDN, put = __set_excludedSubtreesDN))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesDN;
+  __declspec(property(get = __cordl_internal_get_excludedSubtreesDN, put = __cordl_internal_set_excludedSubtreesDN))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesDN;
 
   /// @brief Field excludedSubtreesDNS, offset 0x18, size 0x8
-  __declspec(property(get = __get_excludedSubtreesDNS, put = __set_excludedSubtreesDNS))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesDNS;
+  __declspec(property(get = __cordl_internal_get_excludedSubtreesDNS, put = __cordl_internal_set_excludedSubtreesDNS))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesDNS;
 
   /// @brief Field excludedSubtreesEmail, offset 0x20, size 0x8
-  __declspec(property(get = __get_excludedSubtreesEmail, put = __set_excludedSubtreesEmail))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesEmail;
+  __declspec(property(get = __cordl_internal_get_excludedSubtreesEmail, put = __cordl_internal_set_excludedSubtreesEmail))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesEmail;
 
   /// @brief Field excludedSubtreesURI, offset 0x28, size 0x8
-  __declspec(property(get = __get_excludedSubtreesURI, put = __set_excludedSubtreesURI))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesURI;
+  __declspec(property(get = __cordl_internal_get_excludedSubtreesURI, put = __cordl_internal_set_excludedSubtreesURI))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesURI;
 
   /// @brief Field excludedSubtreesIP, offset 0x30, size 0x8
-  __declspec(property(get = __get_excludedSubtreesIP, put = __set_excludedSubtreesIP))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesIP;
+  __declspec(property(get = __cordl_internal_get_excludedSubtreesIP, put = __cordl_internal_set_excludedSubtreesIP))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesIP;
 
   /// @brief Field excludedSubtreesOtherName, offset 0x38, size 0x8
-  __declspec(property(get = __get_excludedSubtreesOtherName, put = __set_excludedSubtreesOtherName))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesOtherName;
+  __declspec(property(get = __cordl_internal_get_excludedSubtreesOtherName,
+                      put = __cordl_internal_set_excludedSubtreesOtherName))::Org::BouncyCastle::Utilities::Collections::ISet* excludedSubtreesOtherName;
 
   /// @brief Field permittedSubtreesDN, offset 0x40, size 0x8
-  __declspec(property(get = __get_permittedSubtreesDN, put = __set_permittedSubtreesDN))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesDN;
+  __declspec(property(get = __cordl_internal_get_permittedSubtreesDN, put = __cordl_internal_set_permittedSubtreesDN))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesDN;
 
   /// @brief Field permittedSubtreesDNS, offset 0x48, size 0x8
-  __declspec(property(get = __get_permittedSubtreesDNS, put = __set_permittedSubtreesDNS))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesDNS;
+  __declspec(property(get = __cordl_internal_get_permittedSubtreesDNS, put = __cordl_internal_set_permittedSubtreesDNS))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesDNS;
 
   /// @brief Field permittedSubtreesEmail, offset 0x50, size 0x8
-  __declspec(property(get = __get_permittedSubtreesEmail, put = __set_permittedSubtreesEmail))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesEmail;
+  __declspec(property(get = __cordl_internal_get_permittedSubtreesEmail, put = __cordl_internal_set_permittedSubtreesEmail))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesEmail;
 
   /// @brief Field permittedSubtreesURI, offset 0x58, size 0x8
-  __declspec(property(get = __get_permittedSubtreesURI, put = __set_permittedSubtreesURI))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesURI;
+  __declspec(property(get = __cordl_internal_get_permittedSubtreesURI, put = __cordl_internal_set_permittedSubtreesURI))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesURI;
 
   /// @brief Field permittedSubtreesIP, offset 0x60, size 0x8
-  __declspec(property(get = __get_permittedSubtreesIP, put = __set_permittedSubtreesIP))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesIP;
+  __declspec(property(get = __cordl_internal_get_permittedSubtreesIP, put = __cordl_internal_set_permittedSubtreesIP))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesIP;
 
   /// @brief Field permittedSubtreesOtherName, offset 0x68, size 0x8
-  __declspec(property(get = __get_permittedSubtreesOtherName, put = __set_permittedSubtreesOtherName))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesOtherName;
+  __declspec(property(get = __cordl_internal_get_permittedSubtreesOtherName,
+                      put = __cordl_internal_set_permittedSubtreesOtherName))::Org::BouncyCastle::Utilities::Collections::ISet* permittedSubtreesOtherName;
 
   /// @brief Field SerialNumberOid, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SerialNumberOid, put = setStaticF_SerialNumberOid))::Org::BouncyCastle::Asn1::DerObjectIdentifier* SerialNumberOid;
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_excludedSubtreesDN();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_excludedSubtreesDN();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_excludedSubtreesDN() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_excludedSubtreesDN() const;
 
-  constexpr void __set_excludedSubtreesDN(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_excludedSubtreesDN(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_excludedSubtreesDNS();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_excludedSubtreesDNS();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_excludedSubtreesDNS() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_excludedSubtreesDNS() const;
 
-  constexpr void __set_excludedSubtreesDNS(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_excludedSubtreesDNS(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_excludedSubtreesEmail();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_excludedSubtreesEmail();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_excludedSubtreesEmail() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_excludedSubtreesEmail() const;
 
-  constexpr void __set_excludedSubtreesEmail(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_excludedSubtreesEmail(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_excludedSubtreesURI();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_excludedSubtreesURI();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_excludedSubtreesURI() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_excludedSubtreesURI() const;
 
-  constexpr void __set_excludedSubtreesURI(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_excludedSubtreesURI(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_excludedSubtreesIP();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_excludedSubtreesIP();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_excludedSubtreesIP() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_excludedSubtreesIP() const;
 
-  constexpr void __set_excludedSubtreesIP(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_excludedSubtreesIP(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_excludedSubtreesOtherName();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_excludedSubtreesOtherName();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_excludedSubtreesOtherName() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_excludedSubtreesOtherName() const;
 
-  constexpr void __set_excludedSubtreesOtherName(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_excludedSubtreesOtherName(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_permittedSubtreesDN();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_permittedSubtreesDN();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_permittedSubtreesDN() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_permittedSubtreesDN() const;
 
-  constexpr void __set_permittedSubtreesDN(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_permittedSubtreesDN(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_permittedSubtreesDNS();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_permittedSubtreesDNS();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_permittedSubtreesDNS() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_permittedSubtreesDNS() const;
 
-  constexpr void __set_permittedSubtreesDNS(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_permittedSubtreesDNS(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_permittedSubtreesEmail();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_permittedSubtreesEmail();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_permittedSubtreesEmail() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_permittedSubtreesEmail() const;
 
-  constexpr void __set_permittedSubtreesEmail(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_permittedSubtreesEmail(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_permittedSubtreesURI();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_permittedSubtreesURI();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_permittedSubtreesURI() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_permittedSubtreesURI() const;
 
-  constexpr void __set_permittedSubtreesURI(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_permittedSubtreesURI(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_permittedSubtreesIP();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_permittedSubtreesIP();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_permittedSubtreesIP() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_permittedSubtreesIP() const;
 
-  constexpr void __set_permittedSubtreesIP(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_permittedSubtreesIP(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_permittedSubtreesOtherName();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_permittedSubtreesOtherName();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_permittedSubtreesOtherName() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_permittedSubtreesOtherName() const;
 
-  constexpr void __set_permittedSubtreesOtherName(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_permittedSubtreesOtherName(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
   static inline void setStaticF_SerialNumberOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 

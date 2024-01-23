@@ -16,7 +16,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_Viewport);
 // SizeInfo { instance_size: 24, native_size: 32, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9755))
 // CS Name: ::HoudiniEngineUnity::HAPI_Viewport
 struct CORDL_TYPE HAPI_Viewport {

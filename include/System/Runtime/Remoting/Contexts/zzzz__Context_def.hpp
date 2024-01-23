@@ -66,42 +66,45 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::Context);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2638)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2638))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3098))
 // CS Name: ::System.Runtime.Remoting.Contexts::Context*
 class CORDL_TYPE Context : public ::System::Object {
 public:
   // Declarations
   /// @brief Field domain_id, offset 0x10, size 0x4
-  __declspec(property(get = __get_domain_id, put = __set_domain_id)) int32_t domain_id;
+  __declspec(property(get = __cordl_internal_get_domain_id, put = __cordl_internal_set_domain_id)) int32_t domain_id;
 
   /// @brief Field context_id, offset 0x14, size 0x4
-  __declspec(property(get = __get_context_id, put = __set_context_id)) int32_t context_id;
+  __declspec(property(get = __cordl_internal_get_context_id, put = __cordl_internal_set_context_id)) int32_t context_id;
 
   /// @brief Field static_data, offset 0x18, size 0x8
-  __declspec(property(get = __get_static_data, put = __set_static_data)) void* static_data;
+  __declspec(property(get = __cordl_internal_get_static_data, put = __cordl_internal_set_static_data)) void* static_data;
 
   /// @brief Field data, offset 0x20, size 0x8
-  __declspec(property(get = __get_data, put = __set_data)) void* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) void* data;
 
   /// @brief Field server_context_sink_chain, offset 0x28, size 0x8
-  __declspec(property(get = __get_server_context_sink_chain, put = __set_server_context_sink_chain))::System::Runtime::Remoting::Messaging::IMessageSink* server_context_sink_chain;
+  __declspec(property(get = __cordl_internal_get_server_context_sink_chain,
+                      put = __cordl_internal_set_server_context_sink_chain))::System::Runtime::Remoting::Messaging::IMessageSink* server_context_sink_chain;
 
   /// @brief Field client_context_sink_chain, offset 0x30, size 0x8
-  __declspec(property(get = __get_client_context_sink_chain, put = __set_client_context_sink_chain))::System::Runtime::Remoting::Messaging::IMessageSink* client_context_sink_chain;
+  __declspec(property(get = __cordl_internal_get_client_context_sink_chain,
+                      put = __cordl_internal_set_client_context_sink_chain))::System::Runtime::Remoting::Messaging::IMessageSink* client_context_sink_chain;
 
   /// @brief Field context_properties, offset 0x38, size 0x8
-  __declspec(property(get = __get_context_properties,
-                      put = __set_context_properties))::System::Collections::Generic::List_1<::System::Runtime::Remoting::Contexts::IContextProperty*>* context_properties;
+  __declspec(property(get = __cordl_internal_get_context_properties,
+                      put = __cordl_internal_set_context_properties))::System::Collections::Generic::List_1<::System::Runtime::Remoting::Contexts::IContextProperty*>* context_properties;
 
   /// @brief Field _localDataStore, offset 0x40, size 0x8
-  __declspec(property(get = __get__localDataStore, put = __set__localDataStore))::System::LocalDataStoreHolder* _localDataStore;
+  __declspec(property(get = __cordl_internal_get__localDataStore, put = __cordl_internal_set__localDataStore))::System::LocalDataStoreHolder* _localDataStore;
 
   /// @brief Field context_dynamic_properties, offset 0x48, size 0x8
-  __declspec(property(get = __get_context_dynamic_properties, put = __set_context_dynamic_properties))::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* context_dynamic_properties;
+  __declspec(property(get = __cordl_internal_get_context_dynamic_properties,
+                      put = __cordl_internal_set_context_dynamic_properties))::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* context_dynamic_properties;
 
   /// @brief Field callback_object, offset 0x50, size 0x8
-  __declspec(property(get = __get_callback_object, put = __set_callback_object))::System::Runtime::Remoting::Contexts::ContextCallbackObject* callback_object;
+  __declspec(property(get = __cordl_internal_get_callback_object, put = __cordl_internal_set_callback_object))::System::Runtime::Remoting::Contexts::ContextCallbackObject* callback_object;
 
   /// @brief Field local_slots, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_local_slots, put = setStaticF_local_slots))::ArrayW<::System::Object*, ::Array<::System::Object*>*> local_slots;
@@ -135,65 +138,66 @@ public:
 
   __declspec(property(get = get_MyLocalStore))::System::LocalDataStore* MyLocalStore;
 
-  constexpr int32_t& __get_domain_id();
+  constexpr int32_t& __cordl_internal_get_domain_id();
 
-  constexpr int32_t const& __get_domain_id() const;
+  constexpr int32_t const& __cordl_internal_get_domain_id() const;
 
-  constexpr void __set_domain_id(int32_t value);
+  constexpr void __cordl_internal_set_domain_id(int32_t value);
 
-  constexpr int32_t& __get_context_id();
+  constexpr int32_t& __cordl_internal_get_context_id();
 
-  constexpr int32_t const& __get_context_id() const;
+  constexpr int32_t const& __cordl_internal_get_context_id() const;
 
-  constexpr void __set_context_id(int32_t value);
+  constexpr void __cordl_internal_set_context_id(int32_t value);
 
-  constexpr void*& __get_static_data();
+  constexpr void*& __cordl_internal_get_static_data();
 
-  constexpr void* const& __get_static_data() const;
+  constexpr void* const& __cordl_internal_get_static_data() const;
 
-  constexpr void __set_static_data(void* value);
+  constexpr void __cordl_internal_set_static_data(void* value);
 
-  constexpr void*& __get_data();
+  constexpr void*& __cordl_internal_get_data();
 
-  constexpr void* const& __get_data() const;
+  constexpr void* const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(void* value);
+  constexpr void __cordl_internal_set_data(void* value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __get_server_context_sink_chain();
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get_server_context_sink_chain();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __get_server_context_sink_chain() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __cordl_internal_get_server_context_sink_chain() const;
 
-  constexpr void __set_server_context_sink_chain(::System::Runtime::Remoting::Messaging::IMessageSink* value);
+  constexpr void __cordl_internal_set_server_context_sink_chain(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __get_client_context_sink_chain();
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get_client_context_sink_chain();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __get_client_context_sink_chain() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __cordl_internal_get_client_context_sink_chain() const;
 
-  constexpr void __set_client_context_sink_chain(::System::Runtime::Remoting::Messaging::IMessageSink* value);
+  constexpr void __cordl_internal_set_client_context_sink_chain(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Runtime::Remoting::Contexts::IContextProperty*>*& __get_context_properties();
+  constexpr ::System::Collections::Generic::List_1<::System::Runtime::Remoting::Contexts::IContextProperty*>*& __cordl_internal_get_context_properties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Runtime::Remoting::Contexts::IContextProperty*>*> const& __get_context_properties() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Runtime::Remoting::Contexts::IContextProperty*>*> const&
+  __cordl_internal_get_context_properties() const;
 
-  constexpr void __set_context_properties(::System::Collections::Generic::List_1<::System::Runtime::Remoting::Contexts::IContextProperty*>* value);
+  constexpr void __cordl_internal_set_context_properties(::System::Collections::Generic::List_1<::System::Runtime::Remoting::Contexts::IContextProperty*>* value);
 
-  constexpr ::System::LocalDataStoreHolder*& __get__localDataStore();
+  constexpr ::System::LocalDataStoreHolder*& __cordl_internal_get__localDataStore();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::LocalDataStoreHolder*> const& __get__localDataStore() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::LocalDataStoreHolder*> const& __cordl_internal_get__localDataStore() const;
 
-  constexpr void __set__localDataStore(::System::LocalDataStoreHolder* value);
+  constexpr void __cordl_internal_set__localDataStore(::System::LocalDataStoreHolder* value);
 
-  constexpr ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*& __get_context_dynamic_properties();
+  constexpr ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*& __cordl_internal_get_context_dynamic_properties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*> const& __get_context_dynamic_properties() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*> const& __cordl_internal_get_context_dynamic_properties() const;
 
-  constexpr void __set_context_dynamic_properties(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* value);
+  constexpr void __cordl_internal_set_context_dynamic_properties(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* value);
 
-  constexpr ::System::Runtime::Remoting::Contexts::ContextCallbackObject*& __get_callback_object();
+  constexpr ::System::Runtime::Remoting::Contexts::ContextCallbackObject*& __cordl_internal_get_callback_object();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::ContextCallbackObject*> const& __get_callback_object() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::ContextCallbackObject*> const& __cordl_internal_get_callback_object() const;
 
-  constexpr void __set_callback_object(::System::Runtime::Remoting::Contexts::ContextCallbackObject* value);
+  constexpr void __cordl_internal_set_callback_object(::System::Runtime::Remoting::Contexts::ContextCallbackObject* value);
 
   static inline void setStaticF_local_slots(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 

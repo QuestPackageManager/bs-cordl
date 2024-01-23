@@ -18,24 +18,24 @@ MARK_REF_PTR_T(::GlobalNamespace::DisappearingArrowController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4742)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 310 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4744))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4741)) CS Name: ::DisappearingArrowController*
-class CORDL_TYPE DisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::GameNoteController*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4742)), TypeDefinitionIndex(TypeDefinitionIndex(4744)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 310
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4741)) CS Name: ::DisappearingArrowController*
+class CORDL_TYPE DisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::UnityW<::GlobalNamespace::GameNoteController>> {
 public:
   // Declarations
   /// @brief Field _gameNoteController, offset 0x50, size 0x8
-  __declspec(property(get = __get__gameNoteController, put = __set__gameNoteController))::GlobalNamespace::GameNoteController* _gameNoteController;
+  __declspec(property(get = __cordl_internal_get__gameNoteController, put = __cordl_internal_set__gameNoteController))::UnityW<::GlobalNamespace::GameNoteController> _gameNoteController;
 
-  __declspec(property(get = get_gameNoteController))::GlobalNamespace::GameNoteController* gameNoteController;
+  __declspec(property(get = get_gameNoteController))::UnityW<::GlobalNamespace::GameNoteController> gameNoteController;
 
-  constexpr ::GlobalNamespace::GameNoteController*& __get__gameNoteController();
+  constexpr ::UnityW<::GlobalNamespace::GameNoteController>& __cordl_internal_get__gameNoteController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameNoteController*> const& __get__gameNoteController() const;
+  constexpr ::UnityW<::GlobalNamespace::GameNoteController> const& __cordl_internal_get__gameNoteController() const;
 
-  constexpr void __set__gameNoteController(::GlobalNamespace::GameNoteController* value);
+  constexpr void __cordl_internal_set__gameNoteController(::UnityW<::GlobalNamespace::GameNoteController> value);
 
   /// @brief Method get_gameNoteController, addr 0x2385468, size 0x8, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::GameNoteController* get_gameNoteController();
+  inline ::UnityW<::GlobalNamespace::GameNoteController> get_gameNoteController();
 
   static inline ::GlobalNamespace::DisappearingArrowController* New_ctor();
 
@@ -57,7 +57,7 @@ protected:
 
 public:
   /// @brief Field _gameNoteController, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::GameNoteController* ____gameNoteController;
+  ::UnityW<::GlobalNamespace::GameNoteController> ____gameNoteController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

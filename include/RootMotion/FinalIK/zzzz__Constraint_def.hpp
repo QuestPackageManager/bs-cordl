@@ -18,31 +18,31 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::Constraint);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12508))
 // CS Name: ::RootMotion.FinalIK::Constraint*
 class CORDL_TYPE Constraint : public ::System::Object {
 public:
   // Declarations
   /// @brief Field transform, offset 0x10, size 0x8
-  __declspec(property(get = __get_transform, put = __set_transform))::UnityEngine::Transform* transform;
+  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
 
   /// @brief Field weight, offset 0x18, size 0x4
-  __declspec(property(get = __get_weight, put = __set_weight)) float_t weight;
+  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
   __declspec(property(get = get_isValid)) bool isValid;
 
-  constexpr ::UnityEngine::Transform*& __get_transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_transform() const;
 
-  constexpr void __set_transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get_weight();
+  constexpr float_t& __cordl_internal_get_weight();
 
-  constexpr float_t const& __get_weight() const;
+  constexpr float_t const& __cordl_internal_get_weight() const;
 
-  constexpr void __set_weight(float_t value);
+  constexpr void __cordl_internal_set_weight(float_t value);
 
   /// @brief Method get_isValid, addr 0x124268c, size 0x60, virtual false, abstract: false, final false
   inline bool get_isValid();
@@ -70,7 +70,7 @@ protected:
 
 public:
   /// @brief Field transform, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___transform;
+  ::UnityW<::UnityEngine::Transform> ___transform;
 
   /// @brief Field weight, offset: 0x18, size: 0x4, def value: None
   float_t ___weight;

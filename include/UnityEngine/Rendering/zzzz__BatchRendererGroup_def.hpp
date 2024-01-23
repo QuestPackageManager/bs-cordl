@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling)
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10367))
 // CS Name: ::BatchRendererGroup::OnPerformCulling*
 class CORDL_TYPE __BatchRendererGroup__OnPerformCulling : public ::System::MulticastDelegate {
@@ -78,7 +78,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::__BatchR
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10368))
 // CS Name: ::UnityEngine.Rendering::BatchRendererGroup*
 class CORDL_TYPE BatchRendererGroup : public ::System::Object {
@@ -87,22 +87,22 @@ public:
   using OnPerformCulling = ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling;
 
   /// @brief Field m_GroupHandle, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_GroupHandle, put = __set_m_GroupHandle)) void* m_GroupHandle;
+  __declspec(property(get = __cordl_internal_get_m_GroupHandle, put = __cordl_internal_set_m_GroupHandle)) void* m_GroupHandle;
 
   /// @brief Field m_PerformCulling, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_PerformCulling, put = __set_m_PerformCulling))::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* m_PerformCulling;
+  __declspec(property(get = __cordl_internal_get_m_PerformCulling, put = __cordl_internal_set_m_PerformCulling))::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* m_PerformCulling;
 
-  constexpr void*& __get_m_GroupHandle();
+  constexpr void*& __cordl_internal_get_m_GroupHandle();
 
-  constexpr void* const& __get_m_GroupHandle() const;
+  constexpr void* const& __cordl_internal_get_m_GroupHandle() const;
 
-  constexpr void __set_m_GroupHandle(void* value);
+  constexpr void __cordl_internal_set_m_GroupHandle(void* value);
 
-  constexpr ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling*& __get_m_PerformCulling();
+  constexpr ::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling*& __cordl_internal_get_m_PerformCulling();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling*> const& __get_m_PerformCulling() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling*> const& __cordl_internal_get_m_PerformCulling() const;
 
-  constexpr void __set_m_PerformCulling(::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* value);
+  constexpr void __cordl_internal_set_m_PerformCulling(::UnityEngine::Rendering::__BatchRendererGroup__OnPerformCulling* value);
 
   /// @brief Method InvokeOnPerformCulling, addr 0x2ceecf0, size 0x220, virtual false, abstract: false, final false
   static inline void InvokeOnPerformCulling(::UnityEngine::Rendering::BatchRendererGroup* group, ByRef<::UnityEngine::Rendering::BatchRendererCullingOutput> context,

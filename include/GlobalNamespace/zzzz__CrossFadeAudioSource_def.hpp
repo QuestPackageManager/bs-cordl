@@ -30,49 +30,50 @@ MARK_REF_PTR_T(::GlobalNamespace::CrossFadeAudioSource);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4060))
 // CS Name: ::CrossFadeAudioSource*
 class CORDL_TYPE CrossFadeAudioSource : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _duration, offset 0x18, size 0x4
-  __declspec(property(get = __get__duration, put = __set__duration)) float_t _duration;
+  __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
 
   /// @brief Field _audioSource1, offset 0x20, size 0x8
-  __declspec(property(get = __get__audioSource1, put = __set__audioSource1))::UnityEngine::AudioSource* _audioSource1;
+  __declspec(property(get = __cordl_internal_get__audioSource1, put = __cordl_internal_set__audioSource1))::UnityW<::UnityEngine::AudioSource> _audioSource1;
 
   /// @brief Field _audioSource2, offset 0x28, size 0x8
-  __declspec(property(get = __get__audioSource2, put = __set__audioSource2))::UnityEngine::AudioSource* _audioSource2;
+  __declspec(property(get = __cordl_internal_get__audioSource2, put = __cordl_internal_set__audioSource2))::UnityW<::UnityEngine::AudioSource> _audioSource2;
 
   /// @brief Field _audioPitchGainEffect1, offset 0x30, size 0x8
-  __declspec(property(get = __get__audioPitchGainEffect1, put = __set__audioPitchGainEffect1))::GlobalNamespace::AudioPitchGainEffect* _audioPitchGainEffect1;
+  __declspec(property(get = __cordl_internal_get__audioPitchGainEffect1, put = __cordl_internal_set__audioPitchGainEffect1))::UnityW<::GlobalNamespace::AudioPitchGainEffect> _audioPitchGainEffect1;
 
   /// @brief Field _audioPitchGainEffect2, offset 0x38, size 0x8
-  __declspec(property(get = __get__audioPitchGainEffect2, put = __set__audioPitchGainEffect2))::GlobalNamespace::AudioPitchGainEffect* _audioPitchGainEffect2;
+  __declspec(property(get = __cordl_internal_get__audioPitchGainEffect2, put = __cordl_internal_set__audioPitchGainEffect2))::UnityW<::GlobalNamespace::AudioPitchGainEffect> _audioPitchGainEffect2;
 
   /// @brief Field _tweeningManager, offset 0x40, size 0x8
-  __declspec(property(get = __get__tweeningManager, put = __set__tweeningManager))::Tweening::TimeTweeningManager* _tweeningManager;
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
   /// @brief Field _activeAudioSource, offset 0x48, size 0x8
-  __declspec(property(get = __get__activeAudioSource, put = __set__activeAudioSource))::UnityEngine::AudioSource* _activeAudioSource;
+  __declspec(property(get = __cordl_internal_get__activeAudioSource, put = __cordl_internal_set__activeAudioSource))::UnityW<::UnityEngine::AudioSource> _activeAudioSource;
 
   /// @brief Field _inactiveAudioSource, offset 0x50, size 0x8
-  __declspec(property(get = __get__inactiveAudioSource, put = __set__inactiveAudioSource))::UnityEngine::AudioSource* _inactiveAudioSource;
+  __declspec(property(get = __cordl_internal_get__inactiveAudioSource, put = __cordl_internal_set__inactiveAudioSource))::UnityW<::UnityEngine::AudioSource> _inactiveAudioSource;
 
   /// @brief Field _volumeDownTween, offset 0x58, size 0x8
-  __declspec(property(get = __get__volumeDownTween, put = __set__volumeDownTween))::Tweening::Tween_1<float_t>* _volumeDownTween;
+  __declspec(property(get = __cordl_internal_get__volumeDownTween, put = __cordl_internal_set__volumeDownTween))::Tweening::Tween_1<float_t>* _volumeDownTween;
 
   /// @brief Field _volumeUpTween, offset 0x60, size 0x8
-  __declspec(property(get = __get__volumeUpTween, put = __set__volumeUpTween))::Tweening::Tween_1<float_t>* _volumeUpTween;
+  __declspec(property(get = __cordl_internal_get__volumeUpTween, put = __cordl_internal_set__volumeUpTween))::Tweening::Tween_1<float_t>* _volumeUpTween;
 
   /// @brief Field _activePitchGainEffect, offset 0x68, size 0x8
-  __declspec(property(get = __get__activePitchGainEffect, put = __set__activePitchGainEffect))::GlobalNamespace::AudioPitchGainEffect* _activePitchGainEffect;
+  __declspec(property(get = __cordl_internal_get__activePitchGainEffect, put = __cordl_internal_set__activePitchGainEffect))::UnityW<::GlobalNamespace::AudioPitchGainEffect> _activePitchGainEffect;
 
   /// @brief Field _inactivePitchGainEffect, offset 0x70, size 0x8
-  __declspec(property(get = __get__inactivePitchGainEffect, put = __set__inactivePitchGainEffect))::GlobalNamespace::AudioPitchGainEffect* _inactivePitchGainEffect;
+  __declspec(property(get = __cordl_internal_get__inactivePitchGainEffect,
+                      put = __cordl_internal_set__inactivePitchGainEffect))::UnityW<::GlobalNamespace::AudioPitchGainEffect> _inactivePitchGainEffect;
 
-  __declspec(property(get = get_clip, put = set_clip))::UnityEngine::AudioClip* clip;
+  __declspec(property(get = get_clip, put = set_clip))::UnityW<::UnityEngine::AudioClip> clip;
 
   __declspec(property(put = set_pitch)) float_t pitch;
 
@@ -80,80 +81,80 @@ public:
 
   __declspec(property(get = get_isPlaying)) bool isPlaying;
 
-  constexpr float_t& __get__duration();
+  constexpr float_t& __cordl_internal_get__duration();
 
-  constexpr float_t const& __get__duration() const;
+  constexpr float_t const& __cordl_internal_get__duration() const;
 
-  constexpr void __set__duration(float_t value);
+  constexpr void __cordl_internal_set__duration(float_t value);
 
-  constexpr ::UnityEngine::AudioSource*& __get__audioSource1();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource1();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get__audioSource1() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource1() const;
 
-  constexpr void __set__audioSource1(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set__audioSource1(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr ::UnityEngine::AudioSource*& __get__audioSource2();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource2();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get__audioSource2() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource2() const;
 
-  constexpr void __set__audioSource2(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set__audioSource2(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr ::GlobalNamespace::AudioPitchGainEffect*& __get__audioPitchGainEffect1();
+  constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect>& __cordl_internal_get__audioPitchGainEffect1();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioPitchGainEffect*> const& __get__audioPitchGainEffect1() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect> const& __cordl_internal_get__audioPitchGainEffect1() const;
 
-  constexpr void __set__audioPitchGainEffect1(::GlobalNamespace::AudioPitchGainEffect* value);
+  constexpr void __cordl_internal_set__audioPitchGainEffect1(::UnityW<::GlobalNamespace::AudioPitchGainEffect> value);
 
-  constexpr ::GlobalNamespace::AudioPitchGainEffect*& __get__audioPitchGainEffect2();
+  constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect>& __cordl_internal_get__audioPitchGainEffect2();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioPitchGainEffect*> const& __get__audioPitchGainEffect2() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect> const& __cordl_internal_get__audioPitchGainEffect2() const;
 
-  constexpr void __set__audioPitchGainEffect2(::GlobalNamespace::AudioPitchGainEffect* value);
+  constexpr void __cordl_internal_set__audioPitchGainEffect2(::UnityW<::GlobalNamespace::AudioPitchGainEffect> value);
 
-  constexpr ::Tweening::TimeTweeningManager*& __get__tweeningManager();
+  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& __get__tweeningManager() const;
+  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
-  constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager* value);
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  constexpr ::UnityEngine::AudioSource*& __get__activeAudioSource();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__activeAudioSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get__activeAudioSource() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__activeAudioSource() const;
 
-  constexpr void __set__activeAudioSource(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set__activeAudioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr ::UnityEngine::AudioSource*& __get__inactiveAudioSource();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__inactiveAudioSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get__inactiveAudioSource() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__inactiveAudioSource() const;
 
-  constexpr void __set__inactiveAudioSource(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set__inactiveAudioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr ::Tweening::Tween_1<float_t>*& __get__volumeDownTween();
+  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__volumeDownTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __get__volumeDownTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__volumeDownTween() const;
 
-  constexpr void __set__volumeDownTween(::Tweening::Tween_1<float_t>* value);
+  constexpr void __cordl_internal_set__volumeDownTween(::Tweening::Tween_1<float_t>* value);
 
-  constexpr ::Tweening::Tween_1<float_t>*& __get__volumeUpTween();
+  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__volumeUpTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __get__volumeUpTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__volumeUpTween() const;
 
-  constexpr void __set__volumeUpTween(::Tweening::Tween_1<float_t>* value);
+  constexpr void __cordl_internal_set__volumeUpTween(::Tweening::Tween_1<float_t>* value);
 
-  constexpr ::GlobalNamespace::AudioPitchGainEffect*& __get__activePitchGainEffect();
+  constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect>& __cordl_internal_get__activePitchGainEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioPitchGainEffect*> const& __get__activePitchGainEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect> const& __cordl_internal_get__activePitchGainEffect() const;
 
-  constexpr void __set__activePitchGainEffect(::GlobalNamespace::AudioPitchGainEffect* value);
+  constexpr void __cordl_internal_set__activePitchGainEffect(::UnityW<::GlobalNamespace::AudioPitchGainEffect> value);
 
-  constexpr ::GlobalNamespace::AudioPitchGainEffect*& __get__inactivePitchGainEffect();
+  constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect>& __cordl_internal_get__inactivePitchGainEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioPitchGainEffect*> const& __get__inactivePitchGainEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect> const& __cordl_internal_get__inactivePitchGainEffect() const;
 
-  constexpr void __set__inactivePitchGainEffect(::GlobalNamespace::AudioPitchGainEffect* value);
+  constexpr void __cordl_internal_set__inactivePitchGainEffect(::UnityW<::GlobalNamespace::AudioPitchGainEffect> value);
 
   /// @brief Method get_clip, addr 0x222cd40, size 0x1c, virtual false, abstract: false, final false
-  inline ::UnityEngine::AudioClip* get_clip();
+  inline ::UnityW<::UnityEngine::AudioClip> get_clip();
 
   /// @brief Method set_clip, addr 0x222cd5c, size 0x40, virtual false, abstract: false, final false
   inline void set_clip(::UnityEngine::AudioClip* value);
@@ -226,25 +227,25 @@ public:
   float_t ____duration;
 
   /// @brief Field _audioSource1, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ____audioSource1;
+  ::UnityW<::UnityEngine::AudioSource> ____audioSource1;
 
   /// @brief Field _audioSource2, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ____audioSource2;
+  ::UnityW<::UnityEngine::AudioSource> ____audioSource2;
 
   /// @brief Field _audioPitchGainEffect1, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::AudioPitchGainEffect* ____audioPitchGainEffect1;
+  ::UnityW<::GlobalNamespace::AudioPitchGainEffect> ____audioPitchGainEffect1;
 
   /// @brief Field _audioPitchGainEffect2, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::AudioPitchGainEffect* ____audioPitchGainEffect2;
+  ::UnityW<::GlobalNamespace::AudioPitchGainEffect> ____audioPitchGainEffect2;
 
   /// @brief Field _tweeningManager, offset: 0x40, size: 0x8, def value: None
-  ::Tweening::TimeTweeningManager* ____tweeningManager;
+  ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
   /// @brief Field _activeAudioSource, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ____activeAudioSource;
+  ::UnityW<::UnityEngine::AudioSource> ____activeAudioSource;
 
   /// @brief Field _inactiveAudioSource, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ____inactiveAudioSource;
+  ::UnityW<::UnityEngine::AudioSource> ____inactiveAudioSource;
 
   /// @brief Field _volumeDownTween, offset: 0x58, size: 0x8, def value: None
   ::Tweening::Tween_1<float_t>* ____volumeDownTween;
@@ -253,10 +254,10 @@ public:
   ::Tweening::Tween_1<float_t>* ____volumeUpTween;
 
   /// @brief Field _activePitchGainEffect, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::AudioPitchGainEffect* ____activePitchGainEffect;
+  ::UnityW<::GlobalNamespace::AudioPitchGainEffect> ____activePitchGainEffect;
 
   /// @brief Field _inactivePitchGainEffect, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::AudioPitchGainEffect* ____inactivePitchGainEffect;
+  ::UnityW<::GlobalNamespace::AudioPitchGainEffect> ____inactivePitchGainEffect;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

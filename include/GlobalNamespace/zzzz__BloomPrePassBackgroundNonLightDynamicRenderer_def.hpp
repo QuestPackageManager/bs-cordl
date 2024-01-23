@@ -17,25 +17,25 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer)
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14465))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14465))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14460))
 // CS Name: ::BloomPrePassBackgroundNonLightDynamicRenderer*
 class CORDL_TYPE BloomPrePassBackgroundNonLightDynamicRenderer : public ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore {
 public:
   // Declarations
   /// @brief Field _renderer, offset 0x48, size 0x8
-  __declspec(property(get = __get__renderer, put = __set__renderer))::UnityEngine::Renderer* _renderer;
+  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::Renderer> _renderer;
 
-  __declspec(property(get = get_renderer))::UnityEngine::Renderer* renderer;
+  __declspec(property(get = get_renderer))::UnityW<::UnityEngine::Renderer> renderer;
 
-  constexpr ::UnityEngine::Renderer*& __get__renderer();
+  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Renderer*> const& __get__renderer() const;
+  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
 
-  constexpr void __set__renderer(::UnityEngine::Renderer* value);
+  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
   /// @brief Method get_renderer, addr 0x21049bc, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::Renderer* get_renderer();
+  inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
   /// @brief Method SetRenderer, addr 0x21049c4, size 0x8, virtual false, abstract: false, final false
   inline void SetRenderer(::UnityEngine::Renderer* renderer);
@@ -60,7 +60,7 @@ protected:
 
 public:
   /// @brief Field _renderer, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Renderer* ____renderer;
+  ::UnityW<::UnityEngine::Renderer> ____renderer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

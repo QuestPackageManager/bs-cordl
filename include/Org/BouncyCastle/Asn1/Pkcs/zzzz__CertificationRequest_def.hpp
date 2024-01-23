@@ -34,42 +34,42 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(229))
 // CS Name: ::Org.BouncyCastle.Asn1.Pkcs::CertificationRequest*
 class CORDL_TYPE CertificationRequest : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field reqInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_reqInfo, put = __set_reqInfo))::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* reqInfo;
+  __declspec(property(get = __cordl_internal_get_reqInfo, put = __cordl_internal_set_reqInfo))::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* reqInfo;
 
   /// @brief Field sigAlgId, offset 0x18, size 0x8
-  __declspec(property(get = __get_sigAlgId, put = __set_sigAlgId))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId;
+  __declspec(property(get = __cordl_internal_get_sigAlgId, put = __cordl_internal_set_sigAlgId))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* sigAlgId;
 
   /// @brief Field sigBits, offset 0x20, size 0x8
-  __declspec(property(get = __get_sigBits, put = __set_sigBits))::Org::BouncyCastle::Asn1::DerBitString* sigBits;
+  __declspec(property(get = __cordl_internal_get_sigBits, put = __cordl_internal_set_sigBits))::Org::BouncyCastle::Asn1::DerBitString* sigBits;
 
   __declspec(property(get = get_SignatureAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* SignatureAlgorithm;
 
   __declspec(property(get = get_Signature))::Org::BouncyCastle::Asn1::DerBitString* Signature;
 
-  constexpr ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo*& __get_reqInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo*& __cordl_internal_get_reqInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo*> const& __get_reqInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo*> const& __cordl_internal_get_reqInfo() const;
 
-  constexpr void __set_reqInfo(::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* value);
+  constexpr void __cordl_internal_set_reqInfo(::Org::BouncyCastle::Asn1::Pkcs::CertificationRequestInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_sigAlgId();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_sigAlgId();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_sigAlgId() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_sigAlgId() const;
 
-  constexpr void __set_sigAlgId(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_sigAlgId(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __get_sigBits();
+  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __cordl_internal_get_sigBits();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __get_sigBits() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __cordl_internal_get_sigBits() const;
 
-  constexpr void __set_sigBits(::Org::BouncyCastle::Asn1::DerBitString* value);
+  constexpr void __cordl_internal_set_sigBits(::Org::BouncyCastle::Asn1::DerBitString* value);
 
   /// @brief Method GetInstance, addr 0xf860dc, size 0xd8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::CertificationRequest* GetInstance(::System::Object* obj);

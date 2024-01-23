@@ -45,17 +45,17 @@ MARK_REF_PTR_T(::System::Threading::Tasks::AwaitTaskContinuation);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2801))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2801))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2807))
 // CS Name: ::System.Threading.Tasks::AwaitTaskContinuation*
 class CORDL_TYPE AwaitTaskContinuation : public ::System::Threading::Tasks::TaskContinuation {
 public:
   // Declarations
   /// @brief Field m_capturedContext, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_capturedContext, put = __set_m_capturedContext))::System::Threading::ExecutionContext* m_capturedContext;
+  __declspec(property(get = __cordl_internal_get_m_capturedContext, put = __cordl_internal_set_m_capturedContext))::System::Threading::ExecutionContext* m_capturedContext;
 
   /// @brief Field m_action, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_action, put = __set_m_action))::System::Action* m_action;
+  __declspec(property(get = __cordl_internal_get_m_action, put = __cordl_internal_set_m_action))::System::Action* m_action;
 
   /// @brief Field s_invokeActionCallback, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_invokeActionCallback, put = setStaticF_s_invokeActionCallback))::System::Threading::ContextCallback* s_invokeActionCallback;
@@ -66,17 +66,17 @@ public:
   /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
   constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
 
-  constexpr ::System::Threading::ExecutionContext*& __get_m_capturedContext();
+  constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get_m_capturedContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __get_m_capturedContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __cordl_internal_get_m_capturedContext() const;
 
-  constexpr void __set_m_capturedContext(::System::Threading::ExecutionContext* value);
+  constexpr void __cordl_internal_set_m_capturedContext(::System::Threading::ExecutionContext* value);
 
-  constexpr ::System::Action*& __get_m_action();
+  constexpr ::System::Action*& __cordl_internal_get_m_action();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_m_action() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_m_action() const;
 
-  constexpr void __set_m_action(::System::Action* value);
+  constexpr void __cordl_internal_set_m_action(::System::Action* value);
 
   static inline void setStaticF_s_invokeActionCallback(::System::Threading::ContextCallback* value);
 

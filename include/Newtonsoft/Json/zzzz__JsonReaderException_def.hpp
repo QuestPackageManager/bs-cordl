@@ -31,20 +31,20 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonReaderException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11804))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11804))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11829))
 // CS Name: ::Newtonsoft.Json::JsonReaderException*
 class CORDL_TYPE JsonReaderException : public ::Newtonsoft::Json::JsonException {
 public:
   // Declarations
   /// @brief Field <LineNumber>k__BackingField, offset 0x8c, size 0x4
-  __declspec(property(get = __get__LineNumber_k__BackingField, put = __set__LineNumber_k__BackingField)) int32_t _LineNumber_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__LineNumber_k__BackingField, put = __cordl_internal_set__LineNumber_k__BackingField)) int32_t _LineNumber_k__BackingField;
 
   /// @brief Field <LinePosition>k__BackingField, offset 0x90, size 0x4
-  __declspec(property(get = __get__LinePosition_k__BackingField, put = __set__LinePosition_k__BackingField)) int32_t _LinePosition_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__LinePosition_k__BackingField, put = __cordl_internal_set__LinePosition_k__BackingField)) int32_t _LinePosition_k__BackingField;
 
   /// @brief Field <Path>k__BackingField, offset 0x98, size 0x8
-  __declspec(property(get = __get__Path_k__BackingField, put = __set__Path_k__BackingField))::StringW _Path_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Path_k__BackingField, put = __cordl_internal_set__Path_k__BackingField))::StringW _Path_k__BackingField;
 
   __declspec(property(get = get_LineNumber, put = set_LineNumber)) int32_t LineNumber;
 
@@ -52,23 +52,23 @@ public:
 
   __declspec(property(get = get_Path, put = set_Path))::StringW Path;
 
-  constexpr int32_t& __get__LineNumber_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__LineNumber_k__BackingField();
 
-  constexpr int32_t const& __get__LineNumber_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__LineNumber_k__BackingField() const;
 
-  constexpr void __set__LineNumber_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__LineNumber_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__LinePosition_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__LinePosition_k__BackingField();
 
-  constexpr int32_t const& __get__LinePosition_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__LinePosition_k__BackingField() const;
 
-  constexpr void __set__LinePosition_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__LinePosition_k__BackingField(int32_t value);
 
-  constexpr ::StringW& __get__Path_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Path_k__BackingField();
 
-  constexpr ::StringW const& __get__Path_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Path_k__BackingField() const;
 
-  constexpr void __set__Path_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Path_k__BackingField(::StringW value);
 
   /// @brief Method get_LineNumber, addr 0x264a29c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LineNumber();

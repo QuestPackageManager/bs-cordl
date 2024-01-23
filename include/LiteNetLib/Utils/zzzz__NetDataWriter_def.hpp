@@ -24,20 +24,20 @@ MARK_REF_PTR_T(::LiteNetLib::Utils::NetDataWriter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14195))
 // CS Name: ::LiteNetLib.Utils::NetDataWriter*
 class CORDL_TYPE NetDataWriter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _data, offset 0x10, size 0x8
-  __declspec(property(get = __get__data, put = __set__data))::ArrayW<uint8_t, ::Array<uint8_t>*> _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::ArrayW<uint8_t, ::Array<uint8_t>*> _data;
 
   /// @brief Field _position, offset 0x18, size 0x4
-  __declspec(property(get = __get__position, put = __set__position)) int32_t _position;
+  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position)) int32_t _position;
 
   /// @brief Field _autoResize, offset 0x1c, size 0x1
-  __declspec(property(get = __get__autoResize, put = __set__autoResize)) bool _autoResize;
+  __declspec(property(get = __cordl_internal_get__autoResize, put = __cordl_internal_set__autoResize)) bool _autoResize;
 
   __declspec(property(get = get_Capacity)) int32_t Capacity;
 
@@ -45,23 +45,23 @@ public:
 
   __declspec(property(get = get_Length)) int32_t Length;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__data();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__data();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__data() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__data() const;
 
-  constexpr void __set__data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__position();
+  constexpr int32_t& __cordl_internal_get__position();
 
-  constexpr int32_t const& __get__position() const;
+  constexpr int32_t const& __cordl_internal_get__position() const;
 
-  constexpr void __set__position(int32_t value);
+  constexpr void __cordl_internal_set__position(int32_t value);
 
-  constexpr bool& __get__autoResize();
+  constexpr bool& __cordl_internal_get__autoResize();
 
-  constexpr bool const& __get__autoResize() const;
+  constexpr bool const& __cordl_internal_get__autoResize() const;
 
-  constexpr void __set__autoResize(bool value);
+  constexpr void __cordl_internal_set__autoResize(bool value);
 
   /// @brief Method get_Capacity, addr 0x220a898, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_Capacity();

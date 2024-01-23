@@ -80,7 +80,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__MeshValidation____c_
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12274))
 // CS Name: ::MeshValidation::AttributeValidationStrategy
 struct CORDL_TYPE __MeshValidation__AttributeValidationStrategy {
@@ -130,7 +130,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__MeshValidati
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12275))
 // CS Name: ::MeshValidation::<>c*
 class CORDL_TYPE __MeshValidation____c : public ::System::Object {
@@ -205,29 +205,29 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12209)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12209))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12276))
 // CS Name: ::MeshValidation::<>c__DisplayClass5_0*
 class CORDL_TYPE __MeshValidation____c__DisplayClass5_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field triangle, offset 0x10, size 0xc
-  __declspec(property(get = __get_triangle, put = __set_triangle))::UnityEngine::ProBuilder::Triangle triangle;
+  __declspec(property(get = __cordl_internal_get_triangle, put = __cordl_internal_set_triangle))::UnityEngine::ProBuilder::Triangle triangle;
 
   /// @brief Field <>9__0, offset 0x20, size 0x8
-  __declspec(property(get = __get___9__0, put = __set___9__0))::System::Func_2<::UnityEngine::ProBuilder::Triangle, bool>* __9__0;
+  __declspec(property(get = __cordl_internal_get___9__0, put = __cordl_internal_set___9__0))::System::Func_2<::UnityEngine::ProBuilder::Triangle, bool>* __9__0;
 
-  constexpr ::UnityEngine::ProBuilder::Triangle& __get_triangle();
+  constexpr ::UnityEngine::ProBuilder::Triangle& __cordl_internal_get_triangle();
 
-  constexpr ::UnityEngine::ProBuilder::Triangle const& __get_triangle() const;
+  constexpr ::UnityEngine::ProBuilder::Triangle const& __cordl_internal_get_triangle() const;
 
-  constexpr void __set_triangle(::UnityEngine::ProBuilder::Triangle value);
+  constexpr void __cordl_internal_set_triangle(::UnityEngine::ProBuilder::Triangle value);
 
-  constexpr ::System::Func_2<::UnityEngine::ProBuilder::Triangle, bool>*& __get___9__0();
+  constexpr ::System::Func_2<::UnityEngine::ProBuilder::Triangle, bool>*& __cordl_internal_get___9__0();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::ProBuilder::Triangle, bool>*> const& __get___9__0() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::ProBuilder::Triangle, bool>*> const& __cordl_internal_get___9__0() const;
 
-  constexpr void __set___9__0(::System::Func_2<::UnityEngine::ProBuilder::Triangle, bool>* value);
+  constexpr void __cordl_internal_set___9__0(::System::Func_2<::UnityEngine::ProBuilder::Triangle, bool>* value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MeshValidation____c__DisplayClass5_0* New_ctor();
 
@@ -271,20 +271,20 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__MeshValidati
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12277))
 // CS Name: ::MeshValidation::<>c__DisplayClass10_0*
 class CORDL_TYPE __MeshValidation____c__DisplayClass10_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mesh, offset 0x10, size 0x8
-  __declspec(property(get = __get_mesh, put = __set_mesh))::UnityEngine::ProBuilder::ProBuilderMesh* mesh;
+  __declspec(property(get = __cordl_internal_get_mesh, put = __cordl_internal_set_mesh))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> mesh;
 
-  constexpr ::UnityEngine::ProBuilder::ProBuilderMesh*& __get_mesh();
+  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>& __cordl_internal_get_mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::ProBuilderMesh*> const& __get_mesh() const;
+  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> const& __cordl_internal_get_mesh() const;
 
-  constexpr void __set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
+  constexpr void __cordl_internal_set_mesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MeshValidation____c__DisplayClass10_0* New_ctor();
 
@@ -309,7 +309,7 @@ protected:
 
 public:
   /// @brief Field mesh, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::ProBuilder::ProBuilderMesh* ___mesh;
+  ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> ___mesh;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -323,7 +323,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__MeshValidati
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12278))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::MeshValidation*
 class CORDL_TYPE MeshValidation : public ::System::Object {

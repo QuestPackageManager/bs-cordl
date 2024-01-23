@@ -82,7 +82,7 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16127))
 // CS Name: ::IntervalTree`2::<>c<TKey,TValue>*
 class CORDL_TYPE __IntervalTree_2____c : public ::System::Object {
@@ -134,20 +134,20 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16128))
 // CS Name: ::IntervalTree`2::<>c__DisplayClass19_0<TKey,TValue>*
 class CORDL_TYPE __IntervalTree_2____c__DisplayClass19_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field value, offset 0x10, size 0x8
-  __declspec(property(get = __get_value, put = __set_value)) TValue value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) TValue value;
 
-  constexpr TValue& __get_value();
+  constexpr TValue& __cordl_internal_get_value();
 
-  constexpr TValue const& __get_value() const;
+  constexpr TValue const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(TValue value);
+  constexpr void __cordl_internal_set_value(TValue value);
 
   static inline ::IntervalTree::__IntervalTree_2____c__DisplayClass19_0<TKey, TValue>* New_ctor();
 
@@ -184,20 +184,20 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16129))
 // CS Name: ::IntervalTree`2::<>c__DisplayClass20_0<TKey,TValue>*
 class CORDL_TYPE __IntervalTree_2____c__DisplayClass20_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field items, offset 0x10, size 0x8
-  __declspec(property(get = __get_items, put = __set_items))::System::Collections::Generic::IEnumerable_1<TValue>* items;
+  __declspec(property(get = __cordl_internal_get_items, put = __cordl_internal_set_items))::System::Collections::Generic::IEnumerable_1<TValue>* items;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>*& __get_items();
+  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>*& __cordl_internal_get_items();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TValue>*> const& __get_items() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TValue>*> const& __cordl_internal_get_items() const;
 
-  constexpr void __set_items(::System::Collections::Generic::IEnumerable_1<TValue>* value);
+  constexpr void __cordl_internal_set_items(::System::Collections::Generic::IEnumerable_1<TValue>* value);
 
   static inline ::IntervalTree::__IntervalTree_2____c__DisplayClass20_0<TKey, TValue>* New_ctor();
 
@@ -234,29 +234,29 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16130))
 // CS Name: ::IntervalTree`2::<>c__DisplayClass23_0<TKey,TValue>*
 class CORDL_TYPE __IntervalTree_2____c__DisplayClass23_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::IntervalTree::IntervalTree_2<TKey, TValue>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::IntervalTree::IntervalTree_2<TKey, TValue>* __4__this;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __get_key, put = __set_key)) TKey key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) TKey key;
 
-  constexpr ::IntervalTree::IntervalTree_2<TKey, TValue>*& __get___4__this();
+  constexpr ::IntervalTree::IntervalTree_2<TKey, TValue>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTree_2<TKey, TValue>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTree_2<TKey, TValue>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::IntervalTree::IntervalTree_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set___4__this(::IntervalTree::IntervalTree_2<TKey, TValue>* value);
 
-  constexpr TKey& __get_key();
+  constexpr TKey& __cordl_internal_get_key();
 
-  constexpr TKey const& __get_key() const;
+  constexpr TKey const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(TKey value);
+  constexpr void __cordl_internal_set_key(TKey value);
 
   static inline ::IntervalTree::__IntervalTree_2____c__DisplayClass23_0<TKey, TValue>* New_ctor();
 
@@ -296,29 +296,29 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16131))
 // CS Name: ::IntervalTree`2::<>c__DisplayClass24_0<TKey,TValue>*
 class CORDL_TYPE __IntervalTree_2____c__DisplayClass24_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::IntervalTree::IntervalTree_2<TKey, TValue>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::IntervalTree::IntervalTree_2<TKey, TValue>* __4__this;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __get_key, put = __set_key)) TKey key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) TKey key;
 
-  constexpr ::IntervalTree::IntervalTree_2<TKey, TValue>*& __get___4__this();
+  constexpr ::IntervalTree::IntervalTree_2<TKey, TValue>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTree_2<TKey, TValue>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTree_2<TKey, TValue>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::IntervalTree::IntervalTree_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set___4__this(::IntervalTree::IntervalTree_2<TKey, TValue>* value);
 
-  constexpr TKey& __get_key();
+  constexpr TKey& __cordl_internal_get_key();
 
-  constexpr TKey const& __get_key() const;
+  constexpr TKey const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(TKey value);
+  constexpr void __cordl_internal_set_key(TKey value);
 
   static inline ::IntervalTree::__IntervalTree_2____c__DisplayClass24_0<TKey, TValue>* New_ctor();
 
@@ -358,7 +358,7 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16132))
 // CS Name: ::IntervalTree::IntervalTree`2<TKey,TValue>*
 class CORDL_TYPE IntervalTree_2 : public ::System::Object {
@@ -375,16 +375,16 @@ public:
   using __c = ::IntervalTree::__IntervalTree_2____c<TKey, TValue>;
 
   /// @brief Field root, offset 0x10, size 0x8
-  __declspec(property(get = __get_root, put = __set_root))::IntervalTree::IntervalTreeNode_2<TKey, TValue>* root;
+  __declspec(property(get = __cordl_internal_get_root, put = __cordl_internal_set_root))::IntervalTree::IntervalTreeNode_2<TKey, TValue>* root;
 
   /// @brief Field items, offset 0x18, size 0x8
-  __declspec(property(get = __get_items, put = __set_items))::System::Collections::Generic::List_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* items;
+  __declspec(property(get = __cordl_internal_get_items, put = __cordl_internal_set_items))::System::Collections::Generic::List_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* items;
 
   /// @brief Field comparer, offset 0x20, size 0x8
-  __declspec(property(get = __get_comparer, put = __set_comparer))::System::Collections::Generic::IComparer_1<TKey>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IComparer_1<TKey>* comparer;
 
   /// @brief Field isInSync, offset 0x28, size 0x1
-  __declspec(property(get = __get_isInSync, put = __set_isInSync)) bool isInSync;
+  __declspec(property(get = __cordl_internal_get_isInSync, put = __cordl_internal_set_isInSync)) bool isInSync;
 
   __declspec(property(get = get_Max)) TKey Max;
 
@@ -413,29 +413,29 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::IntervalTree::IntervalTreeNode_2<TKey, TValue>*& __get_root();
+  constexpr ::IntervalTree::IntervalTreeNode_2<TKey, TValue>*& __cordl_internal_get_root();
 
-  constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*> const& __get_root() const;
+  constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*> const& __cordl_internal_get_root() const;
 
-  constexpr void __set_root(::IntervalTree::IntervalTreeNode_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set_root(::IntervalTree::IntervalTreeNode_2<TKey, TValue>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*& __get_items();
+  constexpr ::System::Collections::Generic::List_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*& __cordl_internal_get_items();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*> const& __get_items() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*> const& __cordl_internal_get_items() const;
 
-  constexpr void __set_items(::System::Collections::Generic::List_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* value);
+  constexpr void __cordl_internal_set_items(::System::Collections::Generic::List_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* value);
 
-  constexpr ::System::Collections::Generic::IComparer_1<TKey>*& __get_comparer();
+  constexpr ::System::Collections::Generic::IComparer_1<TKey>*& __cordl_internal_get_comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<TKey>*> const& __get_comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<TKey>*> const& __cordl_internal_get_comparer() const;
 
-  constexpr void __set_comparer(::System::Collections::Generic::IComparer_1<TKey>* value);
+  constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IComparer_1<TKey>* value);
 
-  constexpr bool& __get_isInSync();
+  constexpr bool& __cordl_internal_get_isInSync();
 
-  constexpr bool const& __get_isInSync() const;
+  constexpr bool const& __cordl_internal_get_isInSync() const;
 
-  constexpr void __set_isInSync(bool value);
+  constexpr void __cordl_internal_set_isInSync(bool value);
 
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();

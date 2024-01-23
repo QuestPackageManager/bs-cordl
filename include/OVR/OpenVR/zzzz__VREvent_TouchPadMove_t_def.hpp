@@ -15,7 +15,7 @@ MARK_VAL_T(::OVR::OpenVR::VREvent_TouchPadMove_t);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8669))
 // CS Name: ::OVR.OpenVR::VREvent_TouchPadMove_t
 struct CORDL_TYPE VREvent_TouchPadMove_t {

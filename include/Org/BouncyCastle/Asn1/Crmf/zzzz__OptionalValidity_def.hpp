@@ -26,33 +26,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::OptionalValidity);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(114))
 // CS Name: ::Org.BouncyCastle.Asn1.Crmf::OptionalValidity*
 class CORDL_TYPE OptionalValidity : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field notBefore, offset 0x10, size 0x8
-  __declspec(property(get = __get_notBefore, put = __set_notBefore))::Org::BouncyCastle::Asn1::X509::Time* notBefore;
+  __declspec(property(get = __cordl_internal_get_notBefore, put = __cordl_internal_set_notBefore))::Org::BouncyCastle::Asn1::X509::Time* notBefore;
 
   /// @brief Field notAfter, offset 0x18, size 0x8
-  __declspec(property(get = __get_notAfter, put = __set_notAfter))::Org::BouncyCastle::Asn1::X509::Time* notAfter;
+  __declspec(property(get = __cordl_internal_get_notAfter, put = __cordl_internal_set_notAfter))::Org::BouncyCastle::Asn1::X509::Time* notAfter;
 
   __declspec(property(get = get_NotBefore))::Org::BouncyCastle::Asn1::X509::Time* NotBefore;
 
   __declspec(property(get = get_NotAfter))::Org::BouncyCastle::Asn1::X509::Time* NotAfter;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::Time*& __get_notBefore();
+  constexpr ::Org::BouncyCastle::Asn1::X509::Time*& __cordl_internal_get_notBefore();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::Time*> const& __get_notBefore() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::Time*> const& __cordl_internal_get_notBefore() const;
 
-  constexpr void __set_notBefore(::Org::BouncyCastle::Asn1::X509::Time* value);
+  constexpr void __cordl_internal_set_notBefore(::Org::BouncyCastle::Asn1::X509::Time* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::Time*& __get_notAfter();
+  constexpr ::Org::BouncyCastle::Asn1::X509::Time*& __cordl_internal_get_notAfter();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::Time*> const& __get_notAfter() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::Time*> const& __cordl_internal_get_notAfter() const;
 
-  constexpr void __set_notAfter(::Org::BouncyCastle::Asn1::X509::Time* value);
+  constexpr void __cordl_internal_set_notAfter(::Org::BouncyCastle::Asn1::X509::Time* value);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::OptionalValidity* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

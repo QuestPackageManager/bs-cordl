@@ -15,7 +15,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_ParmChoiceInfo);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9735))
 // CS Name: ::HoudiniEngineUnity::HAPI_ParmChoiceInfo
 struct CORDL_TYPE HAPI_ParmChoiceInfo {

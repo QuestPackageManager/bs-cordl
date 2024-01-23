@@ -23,33 +23,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationPar
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1018))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1018))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1051))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::Gost3410KeyGenerationParameters*
 class CORDL_TYPE Gost3410KeyGenerationParameters : public ::Org::BouncyCastle::Crypto::KeyGenerationParameters {
 public:
   // Declarations
   /// @brief Field parameters, offset 0x20, size 0x8
-  __declspec(property(get = __get_parameters, put = __set_parameters))::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters;
+  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters;
 
   /// @brief Field publicKeyParamSet, offset 0x28, size 0x8
-  __declspec(property(get = __get_publicKeyParamSet, put = __set_publicKeyParamSet))::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet;
+  __declspec(property(get = __cordl_internal_get_publicKeyParamSet, put = __cordl_internal_set_publicKeyParamSet))::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet;
 
   __declspec(property(get = get_Parameters))::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* Parameters;
 
   __declspec(property(get = get_PublicKeyParamSet))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PublicKeyParamSet;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters*& __get_parameters();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters*& __cordl_internal_get_parameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters*> const& __get_parameters() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters*> const& __cordl_internal_get_parameters() const;
 
-  constexpr void __set_parameters(::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* value);
+  constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_publicKeyParamSet();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_publicKeyParamSet();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_publicKeyParamSet() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_publicKeyParamSet() const;
 
-  constexpr void __set_publicKeyParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_publicKeyParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random,
                                                                                                    ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* parameters);

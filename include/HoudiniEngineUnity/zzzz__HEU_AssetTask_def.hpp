@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetTask);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9801))
 // CS Name: ::HEU_AssetTask::BuildType
 struct CORDL_TYPE __HEU_AssetTask__BuildType {
@@ -105,7 +105,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_AssetTask__BuildType, value__
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9800)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(9801))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9800)), TypeDefinitionIndex(TypeDefinitionIndex(9801)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9802))
 // CS Name: ::HoudiniEngineUnity::HEU_AssetTask*
 class CORDL_TYPE HEU_AssetTask : public ::HoudiniEngineUnity::HEU_Task {
@@ -114,58 +114,58 @@ public:
   using BuildType = ::HoudiniEngineUnity::__HEU_AssetTask__BuildType;
 
   /// @brief Field _buildType, offset 0x30, size 0x4
-  __declspec(property(get = __get__buildType, put = __set__buildType))::HoudiniEngineUnity::__HEU_AssetTask__BuildType _buildType;
+  __declspec(property(get = __cordl_internal_get__buildType, put = __cordl_internal_set__buildType))::HoudiniEngineUnity::__HEU_AssetTask__BuildType _buildType;
 
   /// @brief Field _asset, offset 0x38, size 0x8
-  __declspec(property(get = __get__asset, put = __set__asset))::HoudiniEngineUnity::HEU_HoudiniAsset* _asset;
+  __declspec(property(get = __cordl_internal_get__asset, put = __cordl_internal_set__asset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _asset;
 
   /// @brief Field _assetPath, offset 0x40, size 0x8
-  __declspec(property(get = __get__assetPath, put = __set__assetPath))::StringW _assetPath;
+  __declspec(property(get = __cordl_internal_get__assetPath, put = __cordl_internal_set__assetPath))::StringW _assetPath;
 
   /// @brief Field _position, offset 0x48, size 0xc
-  __declspec(property(get = __get__position, put = __set__position))::UnityEngine::Vector3 _position;
+  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position))::UnityEngine::Vector3 _position;
 
   /// @brief Field _buildResult, offset 0x54, size 0x1
-  __declspec(property(get = __get__buildResult, put = __set__buildResult)) bool _buildResult;
+  __declspec(property(get = __cordl_internal_get__buildResult, put = __cordl_internal_set__buildResult)) bool _buildResult;
 
   /// @brief Field _forceSessionID, offset 0x58, size 0x8
-  __declspec(property(get = __get__forceSessionID, put = __set__forceSessionID)) int64_t _forceSessionID;
+  __declspec(property(get = __cordl_internal_get__forceSessionID, put = __cordl_internal_set__forceSessionID)) int64_t _forceSessionID;
 
-  constexpr ::HoudiniEngineUnity::__HEU_AssetTask__BuildType& __get__buildType();
+  constexpr ::HoudiniEngineUnity::__HEU_AssetTask__BuildType& __cordl_internal_get__buildType();
 
-  constexpr ::HoudiniEngineUnity::__HEU_AssetTask__BuildType const& __get__buildType() const;
+  constexpr ::HoudiniEngineUnity::__HEU_AssetTask__BuildType const& __cordl_internal_get__buildType() const;
 
-  constexpr void __set__buildType(::HoudiniEngineUnity::__HEU_AssetTask__BuildType value);
+  constexpr void __cordl_internal_set__buildType(::HoudiniEngineUnity::__HEU_AssetTask__BuildType value);
 
-  constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset*& __get__asset();
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get__asset();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HoudiniAsset*> const& __get__asset() const;
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get__asset() const;
 
-  constexpr void __set__asset(::HoudiniEngineUnity::HEU_HoudiniAsset* value);
+  constexpr void __cordl_internal_set__asset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
-  constexpr ::StringW& __get__assetPath();
+  constexpr ::StringW& __cordl_internal_get__assetPath();
 
-  constexpr ::StringW const& __get__assetPath() const;
+  constexpr ::StringW const& __cordl_internal_get__assetPath() const;
 
-  constexpr void __set__assetPath(::StringW value);
+  constexpr void __cordl_internal_set__assetPath(::StringW value);
 
-  constexpr ::UnityEngine::Vector3& __get__position();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__position();
 
-  constexpr ::UnityEngine::Vector3 const& __get__position() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__position() const;
 
-  constexpr void __set__position(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__position(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get__buildResult();
+  constexpr bool& __cordl_internal_get__buildResult();
 
-  constexpr bool const& __get__buildResult() const;
+  constexpr bool const& __cordl_internal_get__buildResult() const;
 
-  constexpr void __set__buildResult(bool value);
+  constexpr void __cordl_internal_set__buildResult(bool value);
 
-  constexpr int64_t& __get__forceSessionID();
+  constexpr int64_t& __cordl_internal_get__forceSessionID();
 
-  constexpr int64_t const& __get__forceSessionID() const;
+  constexpr int64_t const& __cordl_internal_get__forceSessionID() const;
 
-  constexpr void __set__forceSessionID(int64_t value);
+  constexpr void __cordl_internal_set__forceSessionID(int64_t value);
 
   /// @brief Method GetTaskSession, addr 0x21aa848, size 0xb4, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_SessionBase* GetTaskSession();
@@ -180,7 +180,7 @@ public:
   inline void CompleteTask(::HoudiniEngineUnity::__HEU_Task__TaskResult result);
 
   /// @brief Method CookCompletedCallback, addr 0x21ab354, size 0x80, virtual false, abstract: false, final false
-  inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputs);
+  inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputs);
 
   /// @brief Method CookCompletedCallback, addr 0x21ab3d4, size 0x10, virtual false, abstract: false, final false
   inline void CookCompletedCallback(::HoudiniEngineUnity::HEU_CookedEventData* cookedEventData);
@@ -211,7 +211,7 @@ public:
   ::HoudiniEngineUnity::__HEU_AssetTask__BuildType ____buildType;
 
   /// @brief Field _asset, offset: 0x38, size: 0x8, def value: None
-  ::HoudiniEngineUnity::HEU_HoudiniAsset* ____asset;
+  ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ____asset;
 
   /// @brief Field _assetPath, offset: 0x40, size: 0x8, def value: None
   ::StringW ____assetPath;

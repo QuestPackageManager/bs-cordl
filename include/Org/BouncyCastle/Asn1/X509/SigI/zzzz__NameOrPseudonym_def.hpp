@@ -31,20 +31,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509::SigI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(335))
 // CS Name: ::Org.BouncyCastle.Asn1.X509.SigI::NameOrPseudonym*
 class CORDL_TYPE NameOrPseudonym : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field pseudonym, offset 0x10, size 0x8
-  __declspec(property(get = __get_pseudonym, put = __set_pseudonym))::Org::BouncyCastle::Asn1::X500::DirectoryString* pseudonym;
+  __declspec(property(get = __cordl_internal_get_pseudonym, put = __cordl_internal_set_pseudonym))::Org::BouncyCastle::Asn1::X500::DirectoryString* pseudonym;
 
   /// @brief Field surname, offset 0x18, size 0x8
-  __declspec(property(get = __get_surname, put = __set_surname))::Org::BouncyCastle::Asn1::X500::DirectoryString* surname;
+  __declspec(property(get = __cordl_internal_get_surname, put = __cordl_internal_set_surname))::Org::BouncyCastle::Asn1::X500::DirectoryString* surname;
 
   /// @brief Field givenName, offset 0x20, size 0x8
-  __declspec(property(get = __get_givenName, put = __set_givenName))::Org::BouncyCastle::Asn1::Asn1Sequence* givenName;
+  __declspec(property(get = __cordl_internal_get_givenName, put = __cordl_internal_set_givenName))::Org::BouncyCastle::Asn1::Asn1Sequence* givenName;
 
   __declspec(property(get = get_Pseudonym))::Org::BouncyCastle::Asn1::X500::DirectoryString* Pseudonym;
 
@@ -56,23 +56,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __get_pseudonym();
+  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_pseudonym();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __get_pseudonym() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __cordl_internal_get_pseudonym() const;
 
-  constexpr void __set_pseudonym(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
+  constexpr void __cordl_internal_set_pseudonym(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __get_surname();
+  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_surname();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __get_surname() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __cordl_internal_get_surname() const;
 
-  constexpr void __set_surname(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
+  constexpr void __cordl_internal_set_surname(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_givenName();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_givenName();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_givenName() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_givenName() const;
 
-  constexpr void __set_givenName(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_givenName(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   /// @brief Method GetInstance, addr 0x1082440, size 0x1e8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* GetInstance(::System::Object* obj);

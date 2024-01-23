@@ -142,39 +142,41 @@ MARK_VAL_T(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___TryDeleteAsset
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4529))
 // CS Name: ::OculusBeatmapDataAssetFileModel::LevelDownloadingData*
 class CORDL_TYPE __OculusBeatmapDataAssetFileModel__LevelDownloadingData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field levelId, offset 0x10, size 0x8
-  __declspec(property(get = __get_levelId, put = __set_levelId))::StringW levelId;
+  __declspec(property(get = __cordl_internal_get_levelId, put = __cordl_internal_set_levelId))::StringW levelId;
 
   /// @brief Field assetBundlePath, offset 0x18, size 0x8
-  __declspec(property(get = __get_assetBundlePath, put = __set_assetBundlePath))::StringW assetBundlePath;
+  __declspec(property(get = __cordl_internal_get_assetBundlePath, put = __cordl_internal_set_assetBundlePath))::StringW assetBundlePath;
 
   /// @brief Field downloadAssetBundleFileTCS, offset 0x20, size 0x8
-  __declspec(property(get = __get_downloadAssetBundleFileTCS,
-                      put = __set_downloadAssetBundleFileTCS))::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* downloadAssetBundleFileTCS;
+  __declspec(
+      property(get = __cordl_internal_get_downloadAssetBundleFileTCS,
+               put = __cordl_internal_set_downloadAssetBundleFileTCS))::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* downloadAssetBundleFileTCS;
 
-  constexpr ::StringW& __get_levelId();
+  constexpr ::StringW& __cordl_internal_get_levelId();
 
-  constexpr ::StringW const& __get_levelId() const;
+  constexpr ::StringW const& __cordl_internal_get_levelId() const;
 
-  constexpr void __set_levelId(::StringW value);
+  constexpr void __cordl_internal_set_levelId(::StringW value);
 
-  constexpr ::StringW& __get_assetBundlePath();
+  constexpr ::StringW& __cordl_internal_get_assetBundlePath();
 
-  constexpr ::StringW const& __get_assetBundlePath() const;
+  constexpr ::StringW const& __cordl_internal_get_assetBundlePath() const;
 
-  constexpr void __set_assetBundlePath(::StringW value);
+  constexpr void __cordl_internal_set_assetBundlePath(::StringW value);
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*& __get_downloadAssetBundleFileTCS();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*& __cordl_internal_get_downloadAssetBundleFileTCS();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*> const& __get_downloadAssetBundleFileTCS() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*> const&
+  __cordl_internal_get_downloadAssetBundleFileTCS() const;
 
-  constexpr void __set_downloadAssetBundleFileTCS(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* value);
+  constexpr void __cordl_internal_set_downloadAssetBundleFileTCS(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* value);
 
   static inline ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData* New_ctor(::StringW levelId, ::StringW assetBundlePath);
 
@@ -220,47 +222,47 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel__Lev
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4530))
 // CS Name: ::OculusBeatmapDataAssetFileModel::<>c__DisplayClass13_0*
 class CORDL_TYPE __OculusBeatmapDataAssetFileModel____c__DisplayClass13_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this;
 
   /// @brief Field levelId, offset 0x18, size 0x8
-  __declspec(property(get = __get_levelId, put = __set_levelId))::StringW levelId;
+  __declspec(property(get = __cordl_internal_get_levelId, put = __cordl_internal_set_levelId))::StringW levelId;
 
   /// @brief Field cancellationToken, offset 0x20, size 0x8
-  __declspec(property(get = __get_cancellationToken, put = __set_cancellationToken))::System::Threading::CancellationToken cancellationToken;
+  __declspec(property(get = __cordl_internal_get_cancellationToken, put = __cordl_internal_set_cancellationToken))::System::Threading::CancellationToken cancellationToken;
 
   /// @brief Field taskSource, offset 0x28, size 0x8
-  __declspec(property(get = __get_taskSource, put = __set_taskSource))::System::Threading::Tasks::TaskCompletionSource_1<bool>* taskSource;
+  __declspec(property(get = __cordl_internal_get_taskSource, put = __cordl_internal_set_taskSource))::System::Threading::Tasks::TaskCompletionSource_1<bool>* taskSource;
 
-  constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& __get___4__this();
+  constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusBeatmapDataAssetFileModel*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusBeatmapDataAssetFileModel*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::OculusBeatmapDataAssetFileModel* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::OculusBeatmapDataAssetFileModel* value);
 
-  constexpr ::StringW& __get_levelId();
+  constexpr ::StringW& __cordl_internal_get_levelId();
 
-  constexpr ::StringW const& __get_levelId() const;
+  constexpr ::StringW const& __cordl_internal_get_levelId() const;
 
-  constexpr void __set_levelId(::StringW value);
+  constexpr void __cordl_internal_set_levelId(::StringW value);
 
-  constexpr ::System::Threading::CancellationToken& __get_cancellationToken();
+  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_cancellationToken();
 
-  constexpr ::System::Threading::CancellationToken const& __get_cancellationToken() const;
+  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
 
-  constexpr void __set_cancellationToken(::System::Threading::CancellationToken value);
+  constexpr void __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value);
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __get_taskSource();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get_taskSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __get_taskSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __cordl_internal_get_taskSource() const;
 
-  constexpr void __set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+  constexpr void __cordl_internal_set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
   static inline ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass13_0* New_ctor();
 
@@ -314,9 +316,9 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4531))
-// CS Name: ::OculusBeatmapDataAssetFileModel::<TryDeleteAssetBundleFileForPreviewLevelAsync>d__13
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4531)) CS Name: ::OculusBeatmapDataAssetFileModel::<TryDeleteAssetBundleFileForPreviewLevelAsync>d__13
 struct CORDL_TYPE __OculusBeatmapDataAssetFileModel___TryDeleteAssetBundleFileForPreviewLevelAsync_d__13 {
 public:
   // Declarations
@@ -402,9 +404,9 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___Tr
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 882 }), TypeDefinitionIndex(TypeDefinitionIndex(4413)), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4413)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 882 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4532)) CS Name: ::OculusBeatmapDataAssetFileModel::<GetAssetBundleFileForPreviewLevelAsync>d__14
 struct CORDL_TYPE __OculusBeatmapDataAssetFileModel___GetAssetBundleFileForPreviewLevelAsync_d__14 {
 public:
@@ -501,38 +503,38 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___Ge
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4533))
 // CS Name: ::OculusBeatmapDataAssetFileModel::<>c__DisplayClass15_0*
 class CORDL_TYPE __OculusBeatmapDataAssetFileModel____c__DisplayClass15_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field cancellationToken, offset 0x10, size 0x8
-  __declspec(property(get = __get_cancellationToken, put = __set_cancellationToken))::System::Threading::CancellationToken cancellationToken;
+  __declspec(property(get = __cordl_internal_get_cancellationToken, put = __cordl_internal_set_cancellationToken))::System::Threading::CancellationToken cancellationToken;
 
   /// @brief Field taskSource, offset 0x18, size 0x8
-  __declspec(property(get = __get_taskSource, put = __set_taskSource))::System::Threading::Tasks::TaskCompletionSource_1<bool>* taskSource;
+  __declspec(property(get = __cordl_internal_get_taskSource, put = __cordl_internal_set_taskSource))::System::Threading::Tasks::TaskCompletionSource_1<bool>* taskSource;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this;
 
-  constexpr ::System::Threading::CancellationToken& __get_cancellationToken();
+  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_cancellationToken();
 
-  constexpr ::System::Threading::CancellationToken const& __get_cancellationToken() const;
+  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
 
-  constexpr void __set_cancellationToken(::System::Threading::CancellationToken value);
+  constexpr void __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value);
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __get_taskSource();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get_taskSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __get_taskSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __cordl_internal_get_taskSource() const;
 
-  constexpr void __set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+  constexpr void __cordl_internal_set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& __get___4__this();
+  constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusBeatmapDataAssetFileModel*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusBeatmapDataAssetFileModel*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::OculusBeatmapDataAssetFileModel* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::OculusBeatmapDataAssetFileModel* value);
 
   static inline ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass15_0* New_ctor();
 
@@ -581,9 +583,9 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4534)) CS
-// Name: ::OculusBeatmapDataAssetFileModel::<ReloadAssetDetailsForAllLevelsAsync>d__15
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4534)) CS Name: ::OculusBeatmapDataAssetFileModel::<ReloadAssetDetailsForAllLevelsAsync>d__15
 struct CORDL_TYPE __OculusBeatmapDataAssetFileModel___ReloadAssetDetailsForAllLevelsAsync_d__15 {
 public:
   // Declarations
@@ -650,38 +652,39 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___Re
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4535))
 // CS Name: ::OculusBeatmapDataAssetFileModel::<>c__DisplayClass16_0*
 class CORDL_TYPE __OculusBeatmapDataAssetFileModel____c__DisplayClass16_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field taskSource, offset 0x10, size 0x8
-  __declspec(property(get = __get_taskSource, put = __set_taskSource))::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* taskSource;
+  __declspec(property(get = __cordl_internal_get_taskSource,
+                      put = __cordl_internal_set_taskSource))::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* taskSource;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusBeatmapDataAssetFileModel* __4__this;
 
   /// @brief Field assetDetails, offset 0x20, size 0x8
-  __declspec(property(get = __get_assetDetails, put = __set_assetDetails))::Oculus::Platform::Models::AssetDetails* assetDetails;
+  __declspec(property(get = __cordl_internal_get_assetDetails, put = __cordl_internal_set_assetDetails))::Oculus::Platform::Models::AssetDetails* assetDetails;
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*& __get_taskSource();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*& __cordl_internal_get_taskSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*> const& __get_taskSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>*> const& __cordl_internal_get_taskSource() const;
 
-  constexpr void __set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* value);
+  constexpr void __cordl_internal_set_taskSource(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::GetAssetBundleFileResult>* value);
 
-  constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& __get___4__this();
+  constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusBeatmapDataAssetFileModel*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusBeatmapDataAssetFileModel*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::OculusBeatmapDataAssetFileModel* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::OculusBeatmapDataAssetFileModel* value);
 
-  constexpr ::Oculus::Platform::Models::AssetDetails*& __get_assetDetails();
+  constexpr ::Oculus::Platform::Models::AssetDetails*& __cordl_internal_get_assetDetails();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::AssetDetails*> const& __get_assetDetails() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::AssetDetails*> const& __cordl_internal_get_assetDetails() const;
 
-  constexpr void __set_assetDetails(::Oculus::Platform::Models::AssetDetails* value);
+  constexpr void __cordl_internal_set_assetDetails(::Oculus::Platform::Models::AssetDetails* value);
 
   static inline ::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c__DisplayClass16_0* New_ctor();
 
@@ -730,8 +733,8 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel____c
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4413)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 882 })} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4413)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 882 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 882 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4536)) CS Name: ::OculusBeatmapDataAssetFileModel::<GetDownloadAssetBundleFileAsync>d__16
 struct CORDL_TYPE __OculusBeatmapDataAssetFileModel___GetDownloadAssetBundleFileAsync_d__16 {
 public:
@@ -805,7 +808,7 @@ static_assert(offsetof(::GlobalNamespace::__OculusBeatmapDataAssetFileModel___Ge
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4537))
 // CS Name: ::OculusBeatmapDataAssetFileModel*
 class CORDL_TYPE OculusBeatmapDataAssetFileModel : public ::System::Object {
@@ -828,33 +831,34 @@ public:
   using LevelDownloadingData = ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData;
 
   /// @brief Field levelDataAssetDownloadUpdateEvent, offset 0x10, size 0x8
-  __declspec(property(get = __get_levelDataAssetDownloadUpdateEvent,
-                      put = __set_levelDataAssetDownloadUpdateEvent))::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* levelDataAssetDownloadUpdateEvent;
+  __declspec(property(get = __cordl_internal_get_levelDataAssetDownloadUpdateEvent,
+                      put = __cordl_internal_set_levelDataAssetDownloadUpdateEvent))::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* levelDataAssetDownloadUpdateEvent;
 
   /// @brief Field _assetIdToDownloadinData, offset 0x18, size 0x8
-  __declspec(property(get = __get__assetIdToDownloadinData, put = __set__assetIdToDownloadinData))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get__assetIdToDownloadinData, put = __cordl_internal_set__assetIdToDownloadinData))::System::Collections::Generic::Dictionary_2<
       uint64_t, ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData*>* _assetIdToDownloadinData;
 
   /// @brief Field _downloadedAssetBundleFiles, offset 0x20, size 0x8
-  __declspec(property(get = __get__downloadedAssetBundleFiles, put = __set__downloadedAssetBundleFiles))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _downloadedAssetBundleFiles;
+  __declspec(property(get = __cordl_internal_get__downloadedAssetBundleFiles,
+                      put = __cordl_internal_set__downloadedAssetBundleFiles))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _downloadedAssetBundleFiles;
 
   /// @brief Field _lastAssetFileDownloadUpdateForAssetIds, offset 0x28, size 0x8
-  __declspec(property(get = __get__lastAssetFileDownloadUpdateForAssetIds, put = __set__lastAssetFileDownloadUpdateForAssetIds))::System::Collections::Generic::Dictionary_2<
-      uint64_t, ::Oculus::Platform::Models::AssetFileDownloadUpdate*>* _lastAssetFileDownloadUpdateForAssetIds;
+  __declspec(property(get = __cordl_internal_get__lastAssetFileDownloadUpdateForAssetIds, put = __cordl_internal_set__lastAssetFileDownloadUpdateForAssetIds))::System::Collections::Generic::
+      Dictionary_2<uint64_t, ::Oculus::Platform::Models::AssetFileDownloadUpdate*>* _lastAssetFileDownloadUpdateForAssetIds;
 
   /// @brief Field _lastAssetFileDownloadUpdateTime, offset 0x30, size 0x4
-  __declspec(property(get = __get__lastAssetFileDownloadUpdateTime, put = __set__lastAssetFileDownloadUpdateTime)) float_t _lastAssetFileDownloadUpdateTime;
+  __declspec(property(get = __cordl_internal_get__lastAssetFileDownloadUpdateTime, put = __cordl_internal_set__lastAssetFileDownloadUpdateTime)) float_t _lastAssetFileDownloadUpdateTime;
 
   /// @brief Field _semaphoreSlim, offset 0x38, size 0x8
-  __declspec(property(get = __get__semaphoreSlim, put = __set__semaphoreSlim))::System::Threading::SemaphoreSlim* _semaphoreSlim;
+  __declspec(property(get = __cordl_internal_get__semaphoreSlim, put = __cordl_internal_set__semaphoreSlim))::System::Threading::SemaphoreSlim* _semaphoreSlim;
 
   /// @brief Field _assetFileToAssetDetails, offset 0x40, size 0x8
-  __declspec(property(get = __get__assetFileToAssetDetails,
-                      put = __set__assetFileToAssetDetails))::System::Collections::Generic::Dictionary_2<::StringW, ::Oculus::Platform::Models::AssetDetails*>* _assetFileToAssetDetails;
+  __declspec(property(get = __cordl_internal_get__assetFileToAssetDetails,
+                      put = __cordl_internal_set__assetFileToAssetDetails))::System::Collections::Generic::Dictionary_2<::StringW, ::Oculus::Platform::Models::AssetDetails*>* _assetFileToAssetDetails;
 
   /// @brief Field _oculusPlatformAdditionalContentModel, offset 0x48, size 0x8
-  __declspec(property(get = __get__oculusPlatformAdditionalContentModel,
-                      put = __set__oculusPlatformAdditionalContentModel))::GlobalNamespace::OculusPlatformAdditionalContentModel* _oculusPlatformAdditionalContentModel;
+  __declspec(property(get = __cordl_internal_get__oculusPlatformAdditionalContentModel,
+                      put = __cordl_internal_set__oculusPlatformAdditionalContentModel))::GlobalNamespace::OculusPlatformAdditionalContentModel* _oculusPlatformAdditionalContentModel;
 
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapDataAssetFileModel"
   constexpr operator ::GlobalNamespace::IBeatmapDataAssetFileModel*() noexcept;
@@ -862,55 +866,57 @@ public:
   /// @brief Convert to "::GlobalNamespace::IBeatmapDataAssetFileModel"
   constexpr ::GlobalNamespace::IBeatmapDataAssetFileModel* i___GlobalNamespace__IBeatmapDataAssetFileModel() noexcept;
 
-  constexpr ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*& __get_levelDataAssetDownloadUpdateEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*& __cordl_internal_get_levelDataAssetDownloadUpdateEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*> const& __get_levelDataAssetDownloadUpdateEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*> const& __cordl_internal_get_levelDataAssetDownloadUpdateEvent() const;
 
-  constexpr void __set_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
+  constexpr void __cordl_internal_set_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData*>*& __get__assetIdToDownloadinData();
+  constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData*>*& __cordl_internal_get__assetIdToDownloadinData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData*>*> const&
-  __get__assetIdToDownloadinData() const;
+  __cordl_internal_get__assetIdToDownloadinData() const;
 
-  constexpr void __set__assetIdToDownloadinData(::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData*>* value);
+  constexpr void
+  __cordl_internal_set__assetIdToDownloadinData(::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::__OculusBeatmapDataAssetFileModel__LevelDownloadingData*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __get__downloadedAssetBundleFiles();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __cordl_internal_get__downloadedAssetBundleFiles();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> const& __get__downloadedAssetBundleFiles() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> const& __cordl_internal_get__downloadedAssetBundleFiles() const;
 
-  constexpr void __set__downloadedAssetBundleFiles(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
+  constexpr void __cordl_internal_set__downloadedAssetBundleFiles(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Models::AssetFileDownloadUpdate*>*& __get__lastAssetFileDownloadUpdateForAssetIds();
+  constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Models::AssetFileDownloadUpdate*>*& __cordl_internal_get__lastAssetFileDownloadUpdateForAssetIds();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Models::AssetFileDownloadUpdate*>*> const&
-  __get__lastAssetFileDownloadUpdateForAssetIds() const;
+  __cordl_internal_get__lastAssetFileDownloadUpdateForAssetIds() const;
 
-  constexpr void __set__lastAssetFileDownloadUpdateForAssetIds(::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Models::AssetFileDownloadUpdate*>* value);
+  constexpr void __cordl_internal_set__lastAssetFileDownloadUpdateForAssetIds(::System::Collections::Generic::Dictionary_2<uint64_t, ::Oculus::Platform::Models::AssetFileDownloadUpdate*>* value);
 
-  constexpr float_t& __get__lastAssetFileDownloadUpdateTime();
+  constexpr float_t& __cordl_internal_get__lastAssetFileDownloadUpdateTime();
 
-  constexpr float_t const& __get__lastAssetFileDownloadUpdateTime() const;
+  constexpr float_t const& __cordl_internal_get__lastAssetFileDownloadUpdateTime() const;
 
-  constexpr void __set__lastAssetFileDownloadUpdateTime(float_t value);
+  constexpr void __cordl_internal_set__lastAssetFileDownloadUpdateTime(float_t value);
 
-  constexpr ::System::Threading::SemaphoreSlim*& __get__semaphoreSlim();
+  constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__semaphoreSlim();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __get__semaphoreSlim() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__semaphoreSlim() const;
 
-  constexpr void __set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
+  constexpr void __cordl_internal_set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::Oculus::Platform::Models::AssetDetails*>*& __get__assetFileToAssetDetails();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::Oculus::Platform::Models::AssetDetails*>*& __cordl_internal_get__assetFileToAssetDetails();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::Oculus::Platform::Models::AssetDetails*>*> const& __get__assetFileToAssetDetails() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::Oculus::Platform::Models::AssetDetails*>*> const&
+  __cordl_internal_get__assetFileToAssetDetails() const;
 
-  constexpr void __set__assetFileToAssetDetails(::System::Collections::Generic::Dictionary_2<::StringW, ::Oculus::Platform::Models::AssetDetails*>* value);
+  constexpr void __cordl_internal_set__assetFileToAssetDetails(::System::Collections::Generic::Dictionary_2<::StringW, ::Oculus::Platform::Models::AssetDetails*>* value);
 
-  constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel*& __get__oculusPlatformAdditionalContentModel();
+  constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel*& __cordl_internal_get__oculusPlatformAdditionalContentModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusPlatformAdditionalContentModel*> const& __get__oculusPlatformAdditionalContentModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusPlatformAdditionalContentModel*> const& __cordl_internal_get__oculusPlatformAdditionalContentModel() const;
 
-  constexpr void __set__oculusPlatformAdditionalContentModel(::GlobalNamespace::OculusPlatformAdditionalContentModel* value);
+  constexpr void __cordl_internal_set__oculusPlatformAdditionalContentModel(::GlobalNamespace::OculusPlatformAdditionalContentModel* value);
 
   /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x2364880, size 0xb0, virtual true, abstract: false, final true
   inline void add_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);

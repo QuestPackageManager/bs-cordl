@@ -43,29 +43,29 @@ MARK_REF_PTR_T(::Zenject::ResolveProvider);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15712))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15712))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11235))
 // CS Name: ::Zenject::ResolveProvider*
 class CORDL_TYPE ResolveProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _identifier, offset 0x10, size 0x8
-  __declspec(property(get = __get__identifier, put = __set__identifier))::System::Object* _identifier;
+  __declspec(property(get = __cordl_internal_get__identifier, put = __cordl_internal_set__identifier))::System::Object* _identifier;
 
   /// @brief Field _container, offset 0x18, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _contractType, offset 0x20, size 0x8
-  __declspec(property(get = __get__contractType, put = __set__contractType))::System::Type* _contractType;
+  __declspec(property(get = __cordl_internal_get__contractType, put = __cordl_internal_set__contractType))::System::Type* _contractType;
 
   /// @brief Field _isOptional, offset 0x28, size 0x1
-  __declspec(property(get = __get__isOptional, put = __set__isOptional)) bool _isOptional;
+  __declspec(property(get = __cordl_internal_get__isOptional, put = __cordl_internal_set__isOptional)) bool _isOptional;
 
   /// @brief Field _source, offset 0x2c, size 0x4
-  __declspec(property(get = __get__source, put = __set__source))::Zenject::InjectSources _source;
+  __declspec(property(get = __cordl_internal_get__source, put = __cordl_internal_set__source))::Zenject::InjectSources _source;
 
   /// @brief Field _matchAll, offset 0x30, size 0x1
-  __declspec(property(get = __get__matchAll, put = __set__matchAll)) bool _matchAll;
+  __declspec(property(get = __cordl_internal_get__matchAll, put = __cordl_internal_set__matchAll)) bool _matchAll;
 
   __declspec(property(get = get_IsCached)) bool IsCached;
 
@@ -77,41 +77,41 @@ public:
   /// @brief Convert to "::Zenject::IProvider"
   constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  constexpr ::System::Object*& __get__identifier();
+  constexpr ::System::Object*& __cordl_internal_get__identifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__identifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__identifier() const;
 
-  constexpr void __set__identifier(::System::Object* value);
+  constexpr void __cordl_internal_set__identifier(::System::Object* value);
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::System::Type*& __get__contractType();
+  constexpr ::System::Type*& __cordl_internal_get__contractType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__contractType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__contractType() const;
 
-  constexpr void __set__contractType(::System::Type* value);
+  constexpr void __cordl_internal_set__contractType(::System::Type* value);
 
-  constexpr bool& __get__isOptional();
+  constexpr bool& __cordl_internal_get__isOptional();
 
-  constexpr bool const& __get__isOptional() const;
+  constexpr bool const& __cordl_internal_get__isOptional() const;
 
-  constexpr void __set__isOptional(bool value);
+  constexpr void __cordl_internal_set__isOptional(bool value);
 
-  constexpr ::Zenject::InjectSources& __get__source();
+  constexpr ::Zenject::InjectSources& __cordl_internal_get__source();
 
-  constexpr ::Zenject::InjectSources const& __get__source() const;
+  constexpr ::Zenject::InjectSources const& __cordl_internal_get__source() const;
 
-  constexpr void __set__source(::Zenject::InjectSources value);
+  constexpr void __cordl_internal_set__source(::Zenject::InjectSources value);
 
-  constexpr bool& __get__matchAll();
+  constexpr bool& __cordl_internal_get__matchAll();
 
-  constexpr bool const& __get__matchAll() const;
+  constexpr bool const& __cordl_internal_get__matchAll() const;
 
-  constexpr void __set__matchAll(bool value);
+  constexpr void __cordl_internal_set__matchAll(bool value);
 
   static inline ::Zenject::ResolveProvider* New_ctor(::System::Type* contractType, ::Zenject::DiContainer* container, ::System::Object* identifier, bool isOptional, ::Zenject::InjectSources source,
                                                      bool matchAll);

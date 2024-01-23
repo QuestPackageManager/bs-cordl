@@ -25,35 +25,35 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ThreadedTask);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2670)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2670))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9809))
 // CS Name: ::HoudiniEngineUnity::HEU_ThreadedTask*
 class CORDL_TYPE HEU_ThreadedTask : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _isComplete, offset 0x10, size 0x1
-  __declspec(property(get = __get__isComplete, put = __set__isComplete)) bool _isComplete;
+  __declspec(property(get = __cordl_internal_get__isComplete, put = __cordl_internal_set__isComplete)) bool _isComplete;
 
   /// @brief Field _isActive, offset 0x11, size 0x1
-  __declspec(property(get = __get__isActive, put = __set__isActive)) bool _isActive;
+  __declspec(property(get = __cordl_internal_get__isActive, put = __cordl_internal_set__isActive)) bool _isActive;
 
   /// @brief Field _stopRequested, offset 0x12, size 0x1
-  __declspec(property(get = __get__stopRequested, put = __set__stopRequested)) bool _stopRequested;
+  __declspec(property(get = __cordl_internal_get__stopRequested, put = __cordl_internal_set__stopRequested)) bool _stopRequested;
 
   /// @brief Field _lockHandle, offset 0x18, size 0x8
-  __declspec(property(get = __get__lockHandle, put = __set__lockHandle))::System::Object* _lockHandle;
+  __declspec(property(get = __cordl_internal_get__lockHandle, put = __cordl_internal_set__lockHandle))::System::Object* _lockHandle;
 
   /// @brief Field _thread, offset 0x20, size 0x8
-  __declspec(property(get = __get__thread, put = __set__thread))::System::Threading::Thread* _thread;
+  __declspec(property(get = __cordl_internal_get__thread, put = __cordl_internal_set__thread))::System::Threading::Thread* _thread;
 
   /// @brief Field _priority, offset 0x28, size 0x4
-  __declspec(property(get = __get__priority, put = __set__priority))::System::Threading::ThreadPriority _priority;
+  __declspec(property(get = __cordl_internal_get__priority, put = __cordl_internal_set__priority))::System::Threading::ThreadPriority _priority;
 
   /// @brief Field _isBackground, offset 0x2c, size 0x1
-  __declspec(property(get = __get__isBackground, put = __set__isBackground)) bool _isBackground;
+  __declspec(property(get = __cordl_internal_get__isBackground, put = __cordl_internal_set__isBackground)) bool _isBackground;
 
   /// @brief Field _name, offset 0x30, size 0x8
-  __declspec(property(get = __get__name, put = __set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
   __declspec(property(get = get_TaskName))::StringW TaskName;
 
@@ -67,53 +67,53 @@ public:
 
   __declspec(property(get = get_IsBackground, put = set_IsBackground)) bool IsBackground;
 
-  constexpr bool& __get__isComplete();
+  constexpr bool& __cordl_internal_get__isComplete();
 
-  constexpr bool const& __get__isComplete() const;
+  constexpr bool const& __cordl_internal_get__isComplete() const;
 
-  constexpr void __set__isComplete(bool value);
+  constexpr void __cordl_internal_set__isComplete(bool value);
 
-  constexpr bool& __get__isActive();
+  constexpr bool& __cordl_internal_get__isActive();
 
-  constexpr bool const& __get__isActive() const;
+  constexpr bool const& __cordl_internal_get__isActive() const;
 
-  constexpr void __set__isActive(bool value);
+  constexpr void __cordl_internal_set__isActive(bool value);
 
-  constexpr bool& __get__stopRequested();
+  constexpr bool& __cordl_internal_get__stopRequested();
 
-  constexpr bool const& __get__stopRequested() const;
+  constexpr bool const& __cordl_internal_get__stopRequested() const;
 
-  constexpr void __set__stopRequested(bool value);
+  constexpr void __cordl_internal_set__stopRequested(bool value);
 
-  constexpr ::System::Object*& __get__lockHandle();
+  constexpr ::System::Object*& __cordl_internal_get__lockHandle();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__lockHandle() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__lockHandle() const;
 
-  constexpr void __set__lockHandle(::System::Object* value);
+  constexpr void __cordl_internal_set__lockHandle(::System::Object* value);
 
-  constexpr ::System::Threading::Thread*& __get__thread();
+  constexpr ::System::Threading::Thread*& __cordl_internal_get__thread();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __get__thread() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get__thread() const;
 
-  constexpr void __set__thread(::System::Threading::Thread* value);
+  constexpr void __cordl_internal_set__thread(::System::Threading::Thread* value);
 
-  constexpr ::System::Threading::ThreadPriority& __get__priority();
+  constexpr ::System::Threading::ThreadPriority& __cordl_internal_get__priority();
 
-  constexpr ::System::Threading::ThreadPriority const& __get__priority() const;
+  constexpr ::System::Threading::ThreadPriority const& __cordl_internal_get__priority() const;
 
-  constexpr void __set__priority(::System::Threading::ThreadPriority value);
+  constexpr void __cordl_internal_set__priority(::System::Threading::ThreadPriority value);
 
-  constexpr bool& __get__isBackground();
+  constexpr bool& __cordl_internal_get__isBackground();
 
-  constexpr bool const& __get__isBackground() const;
+  constexpr bool const& __cordl_internal_get__isBackground() const;
 
-  constexpr void __set__isBackground(bool value);
+  constexpr void __cordl_internal_set__isBackground(bool value);
 
-  constexpr ::StringW& __get__name();
+  constexpr ::StringW& __cordl_internal_get__name();
 
-  constexpr ::StringW const& __get__name() const;
+  constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr void __set__name(::StringW value);
+  constexpr void __cordl_internal_set__name(::StringW value);
 
   /// @brief Method Start, addr 0x21abda0, size 0x13c, virtual true, abstract: false, final false
   inline void Start();

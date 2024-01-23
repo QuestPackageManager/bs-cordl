@@ -16,51 +16,51 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::LongList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3221))
 // CS Name: ::System.Runtime.Serialization::LongList*
 class CORDL_TYPE LongList : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_values, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_values, put = __set_m_values))::ArrayW<int64_t, ::Array<int64_t>*> m_values;
+  __declspec(property(get = __cordl_internal_get_m_values, put = __cordl_internal_set_m_values))::ArrayW<int64_t, ::Array<int64_t>*> m_values;
 
   /// @brief Field m_count, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_count, put = __set_m_count)) int32_t m_count;
+  __declspec(property(get = __cordl_internal_get_m_count, put = __cordl_internal_set_m_count)) int32_t m_count;
 
   /// @brief Field m_totalItems, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_totalItems, put = __set_m_totalItems)) int32_t m_totalItems;
+  __declspec(property(get = __cordl_internal_get_m_totalItems, put = __cordl_internal_set_m_totalItems)) int32_t m_totalItems;
 
   /// @brief Field m_currentItem, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_currentItem, put = __set_m_currentItem)) int32_t m_currentItem;
+  __declspec(property(get = __cordl_internal_get_m_currentItem, put = __cordl_internal_set_m_currentItem)) int32_t m_currentItem;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
   __declspec(property(get = get_Current)) int64_t Current;
 
-  constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& __get_m_values();
+  constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& __cordl_internal_get_m_values();
 
-  constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __get_m_values() const;
+  constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __cordl_internal_get_m_values() const;
 
-  constexpr void __set_m_values(::ArrayW<int64_t, ::Array<int64_t>*> value);
+  constexpr void __cordl_internal_set_m_values(::ArrayW<int64_t, ::Array<int64_t>*> value);
 
-  constexpr int32_t& __get_m_count();
+  constexpr int32_t& __cordl_internal_get_m_count();
 
-  constexpr int32_t const& __get_m_count() const;
+  constexpr int32_t const& __cordl_internal_get_m_count() const;
 
-  constexpr void __set_m_count(int32_t value);
+  constexpr void __cordl_internal_set_m_count(int32_t value);
 
-  constexpr int32_t& __get_m_totalItems();
+  constexpr int32_t& __cordl_internal_get_m_totalItems();
 
-  constexpr int32_t const& __get_m_totalItems() const;
+  constexpr int32_t const& __cordl_internal_get_m_totalItems() const;
 
-  constexpr void __set_m_totalItems(int32_t value);
+  constexpr void __cordl_internal_set_m_totalItems(int32_t value);
 
-  constexpr int32_t& __get_m_currentItem();
+  constexpr int32_t& __cordl_internal_get_m_currentItem();
 
-  constexpr int32_t const& __get_m_currentItem() const;
+  constexpr int32_t const& __cordl_internal_get_m_currentItem() const;
 
-  constexpr void __set_m_currentItem(int32_t value);
+  constexpr void __cordl_internal_set_m_currentItem(int32_t value);
 
   static inline ::System::Runtime::Serialization::LongList* New_ctor();
 

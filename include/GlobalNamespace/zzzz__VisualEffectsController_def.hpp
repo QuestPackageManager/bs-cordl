@@ -21,29 +21,29 @@ MARK_REF_PTR_T(::GlobalNamespace::VisualEffectsController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15315))
 // CS Name: ::VisualEffectsController*
 class CORDL_TYPE VisualEffectsController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _depthTextureEnabled, offset 0x18, size 0x8
-  __declspec(property(get = __get__depthTextureEnabled, put = __set__depthTextureEnabled))::GlobalNamespace::BoolSO* _depthTextureEnabled;
+  __declspec(property(get = __cordl_internal_get__depthTextureEnabled, put = __cordl_internal_set__depthTextureEnabled))::UnityW<::GlobalNamespace::BoolSO> _depthTextureEnabled;
 
   /// @brief Field _camera, offset 0x20, size 0x8
-  __declspec(property(get = __get__camera, put = __set__camera))::UnityEngine::Camera* _camera;
+  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera))::UnityW<::UnityEngine::Camera> _camera;
 
-  constexpr ::GlobalNamespace::BoolSO*& __get__depthTextureEnabled();
+  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__depthTextureEnabled();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& __get__depthTextureEnabled() const;
+  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__depthTextureEnabled() const;
 
-  constexpr void __set__depthTextureEnabled(::GlobalNamespace::BoolSO* value);
+  constexpr void __cordl_internal_set__depthTextureEnabled(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  constexpr ::UnityEngine::Camera*& __get__camera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get__camera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
 
-  constexpr void __set__camera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
 
   /// @brief Method Awake, addr 0x280c690, size 0xd4, virtual false, abstract: false, final false
   inline void Awake();
@@ -80,10 +80,10 @@ protected:
 
 public:
   /// @brief Field _depthTextureEnabled, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BoolSO* ____depthTextureEnabled;
+  ::UnityW<::GlobalNamespace::BoolSO> ____depthTextureEnabled;
 
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Camera* ____camera;
+  ::UnityW<::UnityEngine::Camera> ____camera;
 
   /// @brief Field kDepthTextureEnabledKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString kDepthTextureEnabledKeyword{ u"DEPTH_TEXTURE_ENABLED" };

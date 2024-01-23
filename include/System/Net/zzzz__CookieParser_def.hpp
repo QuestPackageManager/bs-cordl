@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::System::Net::CookieParser);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9124))
 // CS Name: ::System.Net::CookieParser*
 class CORDL_TYPE CookieParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_tokenizer, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_tokenizer, put = __set_m_tokenizer))::System::Net::CookieTokenizer* m_tokenizer;
+  __declspec(property(get = __cordl_internal_get_m_tokenizer, put = __cordl_internal_set_m_tokenizer))::System::Net::CookieTokenizer* m_tokenizer;
 
-  constexpr ::System::Net::CookieTokenizer*& __get_m_tokenizer();
+  constexpr ::System::Net::CookieTokenizer*& __cordl_internal_get_m_tokenizer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieTokenizer*> const& __get_m_tokenizer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieTokenizer*> const& __cordl_internal_get_m_tokenizer() const;
 
-  constexpr void __set_m_tokenizer(::System::Net::CookieTokenizer* value);
+  constexpr void __cordl_internal_set_m_tokenizer(::System::Net::CookieTokenizer* value);
 
   static inline ::System::Net::CookieParser* New_ctor(::StringW cookieString);
 

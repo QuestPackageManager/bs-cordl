@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::SignerID);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(678))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(678))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(688))
 // CS Name: ::Org.BouncyCastle.Cms::SignerID*
 class CORDL_TYPE SignerID : public ::Org::BouncyCastle::X509::Store::X509CertStoreSelector {

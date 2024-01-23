@@ -32,29 +32,29 @@ MARK_VAL_T(::LiteNetLib::Utils::__FastBitConverter__ConverterHelperFloat);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14189))
 // CS Name: ::FastBitConverter::ConverterHelperDouble
 struct CORDL_TYPE __FastBitConverter__ConverterHelperDouble {
 public:
   // Declarations
   /// @brief Field Along, offset 0x0, size 0x8
-  __declspec(property(get = __get_Along, put = __set_Along)) uint64_t Along;
+  __declspec(property(get = __cordl_internal_get_Along, put = __cordl_internal_set_Along)) uint64_t Along;
 
   /// @brief Field Adouble, offset 0x0, size 0x8
-  __declspec(property(get = __get_Adouble, put = __set_Adouble)) double_t Adouble;
+  __declspec(property(get = __cordl_internal_get_Adouble, put = __cordl_internal_set_Adouble)) double_t Adouble;
 
-  constexpr uint64_t& __get_Along();
+  constexpr uint64_t& __cordl_internal_get_Along();
 
-  constexpr uint64_t const& __get_Along() const;
+  constexpr uint64_t const& __cordl_internal_get_Along() const;
 
-  constexpr void __set_Along(uint64_t value);
+  constexpr void __cordl_internal_set_Along(uint64_t value);
 
-  constexpr double_t& __get_Adouble();
+  constexpr double_t& __cordl_internal_get_Adouble();
 
-  constexpr double_t const& __get_Adouble() const;
+  constexpr double_t const& __cordl_internal_get_Adouble() const;
 
-  constexpr void __set_Adouble(double_t value);
+  constexpr void __cordl_internal_set_Adouble(double_t value);
 
   // Ctor Parameters [CppParam { name: "Along", ty: "uint64_t", modifiers: "", def_value: None }, CppParam { name: "Adouble", ty: "double_t", modifiers: "", def_value: None }]
   constexpr __FastBitConverter__ConverterHelperDouble(uint64_t Along, double_t Adouble) noexcept;
@@ -110,29 +110,29 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::__FastBitConv
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14190))
 // CS Name: ::FastBitConverter::ConverterHelperFloat
 struct CORDL_TYPE __FastBitConverter__ConverterHelperFloat {
 public:
   // Declarations
   /// @brief Field Aint, offset 0x0, size 0x4
-  __declspec(property(get = __get_Aint, put = __set_Aint)) int32_t Aint;
+  __declspec(property(get = __cordl_internal_get_Aint, put = __cordl_internal_set_Aint)) int32_t Aint;
 
   /// @brief Field Afloat, offset 0x0, size 0x4
-  __declspec(property(get = __get_Afloat, put = __set_Afloat)) float_t Afloat;
+  __declspec(property(get = __cordl_internal_get_Afloat, put = __cordl_internal_set_Afloat)) float_t Afloat;
 
-  constexpr int32_t& __get_Aint();
+  constexpr int32_t& __cordl_internal_get_Aint();
 
-  constexpr int32_t const& __get_Aint() const;
+  constexpr int32_t const& __cordl_internal_get_Aint() const;
 
-  constexpr void __set_Aint(int32_t value);
+  constexpr void __cordl_internal_set_Aint(int32_t value);
 
-  constexpr float_t& __get_Afloat();
+  constexpr float_t& __cordl_internal_get_Afloat();
 
-  constexpr float_t const& __get_Afloat() const;
+  constexpr float_t const& __cordl_internal_get_Afloat() const;
 
-  constexpr void __set_Afloat(float_t value);
+  constexpr void __cordl_internal_set_Afloat(float_t value);
 
   // Ctor Parameters [CppParam { name: "Aint", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Afloat", ty: "float_t", modifiers: "", def_value: None }]
   constexpr __FastBitConverter__ConverterHelperFloat(int32_t Aint, float_t Afloat) noexcept;
@@ -188,7 +188,7 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::Utils::__FastBitConv
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14191))
 // CS Name: ::LiteNetLib.Utils::FastBitConverter*
 class CORDL_TYPE FastBitConverter : public ::System::Object {

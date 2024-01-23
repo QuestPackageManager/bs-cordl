@@ -26,29 +26,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedG
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1117))
 // CS Name: ::ThreadedSeedGenerator::SeedGenerator*
 class CORDL_TYPE __ThreadedSeedGenerator__SeedGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field counter, offset 0x10, size 0x4
-  __declspec(property(get = __get_counter, put = __set_counter)) int32_t counter;
+  __declspec(property(get = __cordl_internal_get_counter, put = __cordl_internal_set_counter)) int32_t counter;
 
   /// @brief Field stop, offset 0x14, size 0x1
-  __declspec(property(get = __get_stop, put = __set_stop)) bool stop;
+  __declspec(property(get = __cordl_internal_get_stop, put = __cordl_internal_set_stop)) bool stop;
 
-  constexpr int32_t& __get_counter();
+  constexpr int32_t& __cordl_internal_get_counter();
 
-  constexpr int32_t const& __get_counter() const;
+  constexpr int32_t const& __cordl_internal_get_counter() const;
 
-  constexpr void __set_counter(int32_t value);
+  constexpr void __cordl_internal_set_counter(int32_t value);
 
-  constexpr bool& __get_stop();
+  constexpr bool& __cordl_internal_get_stop();
 
-  constexpr bool const& __get_stop() const;
+  constexpr bool const& __cordl_internal_get_stop() const;
 
-  constexpr void __set_stop(bool value);
+  constexpr void __cordl_internal_set_stop(bool value);
 
   /// @brief Method Run, addr 0xf44d88, size 0x44, virtual false, abstract: false, final false
   inline void Run(::System::Object* ignored);
@@ -98,7 +98,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerato
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1118))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::ThreadedSeedGenerator*
 class CORDL_TYPE ThreadedSeedGenerator : public ::System::Object {

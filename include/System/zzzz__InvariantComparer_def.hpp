@@ -24,14 +24,14 @@ MARK_REF_PTR_T(::System::InvariantComparer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8868))
 // CS Name: ::System::InvariantComparer*
 class CORDL_TYPE InvariantComparer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_compareInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_compareInfo, put = __set_m_compareInfo))::System::Globalization::CompareInfo* m_compareInfo;
+  __declspec(property(get = __cordl_internal_get_m_compareInfo, put = __cordl_internal_set_m_compareInfo))::System::Globalization::CompareInfo* m_compareInfo;
 
   /// @brief Field Default, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::System::InvariantComparer* Default;
@@ -42,11 +42,11 @@ public:
   /// @brief Convert to "::System::Collections::IComparer"
   constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
-  constexpr ::System::Globalization::CompareInfo*& __get_m_compareInfo();
+  constexpr ::System::Globalization::CompareInfo*& __cordl_internal_get_m_compareInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& __get_m_compareInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& __cordl_internal_get_m_compareInfo() const;
 
-  constexpr void __set_m_compareInfo(::System::Globalization::CompareInfo* value);
+  constexpr void __cordl_internal_set_m_compareInfo(::System::Globalization::CompareInfo* value);
 
   static inline void setStaticF_Default(::System::InvariantComparer* value);
 

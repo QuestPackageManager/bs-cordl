@@ -34,56 +34,56 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::FaceRebuildData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12125))
 // CS Name: ::UnityEngine.ProBuilder::FaceRebuildData*
 class CORDL_TYPE FaceRebuildData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field face, offset 0x10, size 0x8
-  __declspec(property(get = __get_face, put = __set_face))::UnityEngine::ProBuilder::Face* face;
+  __declspec(property(get = __cordl_internal_get_face, put = __cordl_internal_set_face))::UnityEngine::ProBuilder::Face* face;
 
   /// @brief Field vertices, offset 0x18, size 0x8
-  __declspec(property(get = __get_vertices, put = __set_vertices))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices;
+  __declspec(property(get = __cordl_internal_get_vertices, put = __cordl_internal_set_vertices))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices;
 
   /// @brief Field sharedIndexes, offset 0x20, size 0x8
-  __declspec(property(get = __get_sharedIndexes, put = __set_sharedIndexes))::System::Collections::Generic::List_1<int32_t>* sharedIndexes;
+  __declspec(property(get = __cordl_internal_get_sharedIndexes, put = __cordl_internal_set_sharedIndexes))::System::Collections::Generic::List_1<int32_t>* sharedIndexes;
 
   /// @brief Field sharedIndexesUV, offset 0x28, size 0x8
-  __declspec(property(get = __get_sharedIndexesUV, put = __set_sharedIndexesUV))::System::Collections::Generic::List_1<int32_t>* sharedIndexesUV;
+  __declspec(property(get = __cordl_internal_get_sharedIndexesUV, put = __cordl_internal_set_sharedIndexesUV))::System::Collections::Generic::List_1<int32_t>* sharedIndexesUV;
 
   /// @brief Field _appliedOffset, offset 0x30, size 0x4
-  __declspec(property(get = __get__appliedOffset, put = __set__appliedOffset)) int32_t _appliedOffset;
+  __declspec(property(get = __cordl_internal_get__appliedOffset, put = __cordl_internal_set__appliedOffset)) int32_t _appliedOffset;
 
-  constexpr ::UnityEngine::ProBuilder::Face*& __get_face();
+  constexpr ::UnityEngine::ProBuilder::Face*& __cordl_internal_get_face();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const& __get_face() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const& __cordl_internal_get_face() const;
 
-  constexpr void __set_face(::UnityEngine::ProBuilder::Face* value);
+  constexpr void __cordl_internal_set_face(::UnityEngine::ProBuilder::Face* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*& __get_vertices();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*& __cordl_internal_get_vertices();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*> const& __get_vertices() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*> const& __cordl_internal_get_vertices() const;
 
-  constexpr void __set_vertices(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* value);
+  constexpr void __cordl_internal_set_vertices(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get_sharedIndexes();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_sharedIndexes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get_sharedIndexes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_sharedIndexes() const;
 
-  constexpr void __set_sharedIndexes(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set_sharedIndexes(::System::Collections::Generic::List_1<int32_t>* value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get_sharedIndexesUV();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_sharedIndexesUV();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get_sharedIndexesUV() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_sharedIndexesUV() const;
 
-  constexpr void __set_sharedIndexesUV(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set_sharedIndexesUV(::System::Collections::Generic::List_1<int32_t>* value);
 
-  constexpr int32_t& __get__appliedOffset();
+  constexpr int32_t& __cordl_internal_get__appliedOffset();
 
-  constexpr int32_t const& __get__appliedOffset() const;
+  constexpr int32_t const& __cordl_internal_get__appliedOffset() const;
 
-  constexpr void __set__appliedOffset(int32_t value);
+  constexpr void __cordl_internal_set__appliedOffset(int32_t value);
 
   /// @brief Method Offset, addr 0x2b41c60, size 0x8, virtual false, abstract: false, final false
   inline int32_t Offset();

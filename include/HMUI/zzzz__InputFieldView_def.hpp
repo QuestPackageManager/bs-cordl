@@ -88,7 +88,7 @@ MARK_REF_PTR_T(::HMUI::__InputFieldView___BlinkingCaretCoroutine_d__43);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13629))
 // CS Name: ::InputFieldView::SelectionState
 struct CORDL_TYPE __InputFieldView__SelectionState {
@@ -150,7 +150,7 @@ static_assert(offsetof(::HMUI::__InputFieldView__SelectionState, value__) == 0x0
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(13629)), TypeDefinitionIndex(TypeDefinitionIndex(13119))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(13629))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13632))
 // CS Name: ::HMUI::InputFieldView*
 class CORDL_TYPE InputFieldView : public ::UnityEngine::UI::Selectable {
@@ -163,55 +163,56 @@ public:
   using SelectionState = ::HMUI::__InputFieldView__SelectionState;
 
   /// @brief Field _textView, offset 0xf8, size 0x8
-  __declspec(property(get = __get__textView, put = __set__textView))::TMPro::TextMeshProUGUI* _textView;
+  __declspec(property(get = __cordl_internal_get__textView, put = __cordl_internal_set__textView))::UnityW<::TMPro::TextMeshProUGUI> _textView;
 
   /// @brief Field _textViewCanvasGroup, offset 0x100, size 0x8
-  __declspec(property(get = __get__textViewCanvasGroup, put = __set__textViewCanvasGroup))::UnityEngine::CanvasGroup* _textViewCanvasGroup;
+  __declspec(property(get = __cordl_internal_get__textViewCanvasGroup, put = __cordl_internal_set__textViewCanvasGroup))::UnityW<::UnityEngine::CanvasGroup> _textViewCanvasGroup;
 
   /// @brief Field _blinkingCaret, offset 0x108, size 0x8
-  __declspec(property(get = __get__blinkingCaret, put = __set__blinkingCaret))::HMUI::ImageView* _blinkingCaret;
+  __declspec(property(get = __cordl_internal_get__blinkingCaret, put = __cordl_internal_set__blinkingCaret))::UnityW<::HMUI::ImageView> _blinkingCaret;
 
   /// @brief Field _placeholderText, offset 0x110, size 0x8
-  __declspec(property(get = __get__placeholderText, put = __set__placeholderText))::UnityEngine::GameObject* _placeholderText;
+  __declspec(property(get = __cordl_internal_get__placeholderText, put = __cordl_internal_set__placeholderText))::UnityW<::UnityEngine::GameObject> _placeholderText;
 
   /// @brief Field _clearSearchButton, offset 0x118, size 0x8
-  __declspec(property(get = __get__clearSearchButton, put = __set__clearSearchButton))::UnityEngine::UI::Button* _clearSearchButton;
+  __declspec(property(get = __cordl_internal_get__clearSearchButton, put = __cordl_internal_set__clearSearchButton))::UnityW<::UnityEngine::UI::Button> _clearSearchButton;
 
   /// @brief Field _useGlobalKeyboard, offset 0x120, size 0x1
-  __declspec(property(get = __get__useGlobalKeyboard, put = __set__useGlobalKeyboard)) bool _useGlobalKeyboard;
+  __declspec(property(get = __cordl_internal_get__useGlobalKeyboard, put = __cordl_internal_set__useGlobalKeyboard)) bool _useGlobalKeyboard;
 
   /// @brief Field _keyboardPositionOffset, offset 0x124, size 0xc
-  __declspec(property(get = __get__keyboardPositionOffset, put = __set__keyboardPositionOffset))::UnityEngine::Vector3 _keyboardPositionOffset;
+  __declspec(property(get = __cordl_internal_get__keyboardPositionOffset, put = __cordl_internal_set__keyboardPositionOffset))::UnityEngine::Vector3 _keyboardPositionOffset;
 
   /// @brief Field _useUppercase, offset 0x130, size 0x1
-  __declspec(property(get = __get__useUppercase, put = __set__useUppercase)) bool _useUppercase;
+  __declspec(property(get = __cordl_internal_get__useUppercase, put = __cordl_internal_set__useUppercase)) bool _useUppercase;
 
   /// @brief Field _textLengthLimit, offset 0x134, size 0x4
-  __declspec(property(get = __get__textLengthLimit, put = __set__textLengthLimit)) int32_t _textLengthLimit;
+  __declspec(property(get = __cordl_internal_get__textLengthLimit, put = __cordl_internal_set__textLengthLimit)) int32_t _textLengthLimit;
 
   /// @brief Field _caretOffset, offset 0x138, size 0x4
-  __declspec(property(get = __get__caretOffset, put = __set__caretOffset)) float_t _caretOffset;
+  __declspec(property(get = __cordl_internal_get__caretOffset, put = __cordl_internal_set__caretOffset)) float_t _caretOffset;
 
   /// @brief Field selectionStateDidChangeEvent, offset 0x140, size 0x8
-  __declspec(property(get = __get_selectionStateDidChangeEvent, put = __set_selectionStateDidChangeEvent))::System::Action_1<::HMUI::__InputFieldView__SelectionState>* selectionStateDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_selectionStateDidChangeEvent,
+                      put = __cordl_internal_set_selectionStateDidChangeEvent))::System::Action_1<::HMUI::__InputFieldView__SelectionState>* selectionStateDidChangeEvent;
 
   /// @brief Field _selectionState, offset 0x148, size 0x4
-  __declspec(property(get = __get__selectionState, put = __set__selectionState))::HMUI::__InputFieldView__SelectionState _selectionState;
+  __declspec(property(get = __cordl_internal_get__selectionState, put = __cordl_internal_set__selectionState))::HMUI::__InputFieldView__SelectionState _selectionState;
 
   /// @brief Field _text, offset 0x150, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::StringW _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::StringW _text;
 
   /// @brief Field _hasKeyboardAssigned, offset 0x158, size 0x1
-  __declspec(property(get = __get__hasKeyboardAssigned, put = __set__hasKeyboardAssigned)) bool _hasKeyboardAssigned;
+  __declspec(property(get = __cordl_internal_get__hasKeyboardAssigned, put = __cordl_internal_set__hasKeyboardAssigned)) bool _hasKeyboardAssigned;
 
   /// @brief Field _buttonBinder, offset 0x160, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
   /// @brief Field _onValueChanged, offset 0x168, size 0x8
-  __declspec(property(get = __get__onValueChanged, put = __set__onValueChanged))::HMUI::__InputFieldView__InputFieldChanged* _onValueChanged;
+  __declspec(property(get = __cordl_internal_get__onValueChanged, put = __cordl_internal_set__onValueChanged))::HMUI::__InputFieldView__InputFieldChanged* _onValueChanged;
 
   /// @brief Field _blinkWaitYieldInstruction, offset 0x170, size 0x8
-  __declspec(property(get = __get__blinkWaitYieldInstruction, put = __set__blinkWaitYieldInstruction))::UnityEngine::YieldInstruction* _blinkWaitYieldInstruction;
+  __declspec(property(get = __cordl_internal_get__blinkWaitYieldInstruction, put = __cordl_internal_set__blinkWaitYieldInstruction))::UnityEngine::YieldInstruction* _blinkWaitYieldInstruction;
 
   __declspec(property(get = get_selectionState))::HMUI::__InputFieldView__SelectionState selectionState;
 
@@ -223,107 +224,107 @@ public:
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__textView();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__textView();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__textView() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__textView() const;
 
-  constexpr void __set__textView(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__textView(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__textViewCanvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__textViewCanvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__textViewCanvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__textViewCanvasGroup() const;
 
-  constexpr void __set__textViewCanvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__textViewCanvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr ::HMUI::ImageView*& __get__blinkingCaret();
+  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__blinkingCaret();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& __get__blinkingCaret() const;
+  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__blinkingCaret() const;
 
-  constexpr void __set__blinkingCaret(::HMUI::ImageView* value);
+  constexpr void __cordl_internal_set__blinkingCaret(::UnityW<::HMUI::ImageView> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__placeholderText();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__placeholderText();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__placeholderText() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__placeholderText() const;
 
-  constexpr void __set__placeholderText(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__placeholderText(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__clearSearchButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__clearSearchButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__clearSearchButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__clearSearchButton() const;
 
-  constexpr void __set__clearSearchButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__clearSearchButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr bool& __get__useGlobalKeyboard();
+  constexpr bool& __cordl_internal_get__useGlobalKeyboard();
 
-  constexpr bool const& __get__useGlobalKeyboard() const;
+  constexpr bool const& __cordl_internal_get__useGlobalKeyboard() const;
 
-  constexpr void __set__useGlobalKeyboard(bool value);
+  constexpr void __cordl_internal_set__useGlobalKeyboard(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get__keyboardPositionOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__keyboardPositionOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__keyboardPositionOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__keyboardPositionOffset() const;
 
-  constexpr void __set__keyboardPositionOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__keyboardPositionOffset(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get__useUppercase();
+  constexpr bool& __cordl_internal_get__useUppercase();
 
-  constexpr bool const& __get__useUppercase() const;
+  constexpr bool const& __cordl_internal_get__useUppercase() const;
 
-  constexpr void __set__useUppercase(bool value);
+  constexpr void __cordl_internal_set__useUppercase(bool value);
 
-  constexpr int32_t& __get__textLengthLimit();
+  constexpr int32_t& __cordl_internal_get__textLengthLimit();
 
-  constexpr int32_t const& __get__textLengthLimit() const;
+  constexpr int32_t const& __cordl_internal_get__textLengthLimit() const;
 
-  constexpr void __set__textLengthLimit(int32_t value);
+  constexpr void __cordl_internal_set__textLengthLimit(int32_t value);
 
-  constexpr float_t& __get__caretOffset();
+  constexpr float_t& __cordl_internal_get__caretOffset();
 
-  constexpr float_t const& __get__caretOffset() const;
+  constexpr float_t const& __cordl_internal_get__caretOffset() const;
 
-  constexpr void __set__caretOffset(float_t value);
+  constexpr void __cordl_internal_set__caretOffset(float_t value);
 
-  constexpr ::System::Action_1<::HMUI::__InputFieldView__SelectionState>*& __get_selectionStateDidChangeEvent();
+  constexpr ::System::Action_1<::HMUI::__InputFieldView__SelectionState>*& __cordl_internal_get_selectionStateDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::HMUI::__InputFieldView__SelectionState>*> const& __get_selectionStateDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::HMUI::__InputFieldView__SelectionState>*> const& __cordl_internal_get_selectionStateDidChangeEvent() const;
 
-  constexpr void __set_selectionStateDidChangeEvent(::System::Action_1<::HMUI::__InputFieldView__SelectionState>* value);
+  constexpr void __cordl_internal_set_selectionStateDidChangeEvent(::System::Action_1<::HMUI::__InputFieldView__SelectionState>* value);
 
-  constexpr ::HMUI::__InputFieldView__SelectionState& __get__selectionState();
+  constexpr ::HMUI::__InputFieldView__SelectionState& __cordl_internal_get__selectionState();
 
-  constexpr ::HMUI::__InputFieldView__SelectionState const& __get__selectionState() const;
+  constexpr ::HMUI::__InputFieldView__SelectionState const& __cordl_internal_get__selectionState() const;
 
-  constexpr void __set__selectionState(::HMUI::__InputFieldView__SelectionState value);
+  constexpr void __cordl_internal_set__selectionState(::HMUI::__InputFieldView__SelectionState value);
 
-  constexpr ::StringW& __get__text();
+  constexpr ::StringW& __cordl_internal_get__text();
 
-  constexpr ::StringW const& __get__text() const;
+  constexpr ::StringW const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::StringW value);
+  constexpr void __cordl_internal_set__text(::StringW value);
 
-  constexpr bool& __get__hasKeyboardAssigned();
+  constexpr bool& __cordl_internal_get__hasKeyboardAssigned();
 
-  constexpr bool const& __get__hasKeyboardAssigned() const;
+  constexpr bool const& __cordl_internal_get__hasKeyboardAssigned() const;
 
-  constexpr void __set__hasKeyboardAssigned(bool value);
+  constexpr void __cordl_internal_set__hasKeyboardAssigned(bool value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  constexpr ::HMUI::__InputFieldView__InputFieldChanged*& __get__onValueChanged();
+  constexpr ::HMUI::__InputFieldView__InputFieldChanged*& __cordl_internal_get__onValueChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::__InputFieldView__InputFieldChanged*> const& __get__onValueChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::__InputFieldView__InputFieldChanged*> const& __cordl_internal_get__onValueChanged() const;
 
-  constexpr void __set__onValueChanged(::HMUI::__InputFieldView__InputFieldChanged* value);
+  constexpr void __cordl_internal_set__onValueChanged(::HMUI::__InputFieldView__InputFieldChanged* value);
 
-  constexpr ::UnityEngine::YieldInstruction*& __get__blinkWaitYieldInstruction();
+  constexpr ::UnityEngine::YieldInstruction*& __cordl_internal_get__blinkWaitYieldInstruction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::YieldInstruction*> const& __get__blinkWaitYieldInstruction() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::YieldInstruction*> const& __cordl_internal_get__blinkWaitYieldInstruction() const;
 
-  constexpr void __set__blinkWaitYieldInstruction(::UnityEngine::YieldInstruction* value);
+  constexpr void __cordl_internal_set__blinkWaitYieldInstruction(::UnityEngine::YieldInstruction* value);
 
   /// @brief Method get_selectionState, addr 0x2140954, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::__InputFieldView__SelectionState get_selectionState();
@@ -414,19 +415,19 @@ protected:
 
 public:
   /// @brief Field _textView, offset: 0xf8, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____textView;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____textView;
 
   /// @brief Field _textViewCanvasGroup, offset: 0x100, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____textViewCanvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ____textViewCanvasGroup;
 
   /// @brief Field _blinkingCaret, offset: 0x108, size: 0x8, def value: None
-  ::HMUI::ImageView* ____blinkingCaret;
+  ::UnityW<::HMUI::ImageView> ____blinkingCaret;
 
   /// @brief Field _placeholderText, offset: 0x110, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____placeholderText;
+  ::UnityW<::UnityEngine::GameObject> ____placeholderText;
 
   /// @brief Field _clearSearchButton, offset: 0x118, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____clearSearchButton;
+  ::UnityW<::UnityEngine::UI::Button> ____clearSearchButton;
 
   /// @brief Field _useGlobalKeyboard, offset: 0x120, size: 0x1, def value: None
   bool ____useGlobalKeyboard;
@@ -511,9 +512,9 @@ static_assert(offsetof(::HMUI::InputFieldView, ____blinkWaitYieldInstruction) ==
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), TypeDefinitionIndex(TypeDefinitionIndex(13632)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
-// 331 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(13630)) CS Name: ::InputFieldView::InputFieldChanged*
-class CORDL_TYPE __InputFieldView__InputFieldChanged : public ::UnityEngine::Events::UnityEvent_1<::HMUI::InputFieldView*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), TypeDefinitionIndex(TypeDefinitionIndex(13632)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
+// 331 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13630)) CS Name: ::InputFieldView::InputFieldChanged*
+class CORDL_TYPE __InputFieldView__InputFieldChanged : public ::UnityEngine::Events::UnityEvent_1<::UnityW<::HMUI::InputFieldView>> {
 public:
   // Declarations
   static inline ::HMUI::__InputFieldView__InputFieldChanged* New_ctor();
@@ -545,20 +546,20 @@ static_assert(::cordl_internals::size_check_v<::HMUI::__InputFieldView__InputFie
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13631))
 // CS Name: ::InputFieldView::<BlinkingCaretCoroutine>d__43*
 class CORDL_TYPE __InputFieldView___BlinkingCaretCoroutine_d__43 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::HMUI::InputFieldView* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::HMUI::InputFieldView> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -582,23 +583,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::HMUI::InputFieldView*& __get___4__this();
+  constexpr ::UnityW<::HMUI::InputFieldView>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::InputFieldView*> const& __get___4__this() const;
+  constexpr ::UnityW<::HMUI::InputFieldView> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::HMUI::InputFieldView* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::InputFieldView> value);
 
   static inline ::HMUI::__InputFieldView___BlinkingCaretCoroutine_d__43* New_ctor(int32_t __1__state);
 
@@ -641,7 +642,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::InputFieldView* _____4__this;
+  ::UnityW<::HMUI::InputFieldView> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

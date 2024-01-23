@@ -31,83 +31,85 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLeadPlayerProvider);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5216))
 // CS Name: ::MultiplayerLeadPlayerProvider*
 class CORDL_TYPE MultiplayerLeadPlayerProvider : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _timeToGainFirstLead, offset 0x18, size 0x4
-  __declspec(property(get = __get__timeToGainFirstLead, put = __set__timeToGainFirstLead)) float_t _timeToGainFirstLead;
+  __declspec(property(get = __cordl_internal_get__timeToGainFirstLead, put = __cordl_internal_set__timeToGainFirstLead)) float_t _timeToGainFirstLead;
 
   /// @brief Field _timeToLooseLead, offset 0x1c, size 0x4
-  __declspec(property(get = __get__timeToLooseLead, put = __set__timeToLooseLead)) float_t _timeToLooseLead;
+  __declspec(property(get = __cordl_internal_get__timeToLooseLead, put = __cordl_internal_set__timeToLooseLead)) float_t _timeToLooseLead;
 
   /// @brief Field _scoreProvider, offset 0x20, size 0x8
-  __declspec(property(get = __get__scoreProvider, put = __set__scoreProvider))::GlobalNamespace::MultiplayerScoreProvider* _scoreProvider;
+  __declspec(property(get = __cordl_internal_get__scoreProvider, put = __cordl_internal_set__scoreProvider))::UnityW<::GlobalNamespace::MultiplayerScoreProvider> _scoreProvider;
 
   /// @brief Field _multiplayerController, offset 0x28, size 0x8
-  __declspec(property(get = __get__multiplayerController, put = __set__multiplayerController))::GlobalNamespace::MultiplayerController* _multiplayerController;
+  __declspec(property(get = __cordl_internal_get__multiplayerController, put = __cordl_internal_set__multiplayerController))::UnityW<::GlobalNamespace::MultiplayerController> _multiplayerController;
 
   /// @brief Field newLeaderWasSelectedEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_newLeaderWasSelectedEvent, put = __set_newLeaderWasSelectedEvent))::System::Action_1<::StringW>* newLeaderWasSelectedEvent;
+  __declspec(property(get = __cordl_internal_get_newLeaderWasSelectedEvent, put = __cordl_internal_set_newLeaderWasSelectedEvent))::System::Action_1<::StringW>* newLeaderWasSelectedEvent;
 
   /// @brief Field _currentLeadingPlayerStartTime, offset 0x38, size 0x4
-  __declspec(property(get = __get__currentLeadingPlayerStartTime, put = __set__currentLeadingPlayerStartTime)) float_t _currentLeadingPlayerStartTime;
+  __declspec(property(get = __cordl_internal_get__currentLeadingPlayerStartTime, put = __cordl_internal_set__currentLeadingPlayerStartTime)) float_t _currentLeadingPlayerStartTime;
 
   /// @brief Field _currentlyDisplayedUser, offset 0x40, size 0x8
-  __declspec(property(get = __get__currentlyDisplayedUser, put = __set__currentlyDisplayedUser))::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* _currentlyDisplayedUser;
+  __declspec(property(get = __cordl_internal_get__currentlyDisplayedUser,
+                      put = __cordl_internal_set__currentlyDisplayedUser))::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* _currentlyDisplayedUser;
 
   /// @brief Field _currentlyLeadingUser, offset 0x48, size 0x8
-  __declspec(property(get = __get__currentlyLeadingUser, put = __set__currentlyLeadingUser))::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* _currentlyLeadingUser;
+  __declspec(property(get = __cordl_internal_get__currentlyLeadingUser,
+                      put = __cordl_internal_set__currentlyLeadingUser))::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* _currentlyLeadingUser;
 
-  constexpr float_t& __get__timeToGainFirstLead();
+  constexpr float_t& __cordl_internal_get__timeToGainFirstLead();
 
-  constexpr float_t const& __get__timeToGainFirstLead() const;
+  constexpr float_t const& __cordl_internal_get__timeToGainFirstLead() const;
 
-  constexpr void __set__timeToGainFirstLead(float_t value);
+  constexpr void __cordl_internal_set__timeToGainFirstLead(float_t value);
 
-  constexpr float_t& __get__timeToLooseLead();
+  constexpr float_t& __cordl_internal_get__timeToLooseLead();
 
-  constexpr float_t const& __get__timeToLooseLead() const;
+  constexpr float_t const& __cordl_internal_get__timeToLooseLead() const;
 
-  constexpr void __set__timeToLooseLead(float_t value);
+  constexpr void __cordl_internal_set__timeToLooseLead(float_t value);
 
-  constexpr ::GlobalNamespace::MultiplayerScoreProvider*& __get__scoreProvider();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider>& __cordl_internal_get__scoreProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerScoreProvider*> const& __get__scoreProvider() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> const& __cordl_internal_get__scoreProvider() const;
 
-  constexpr void __set__scoreProvider(::GlobalNamespace::MultiplayerScoreProvider* value);
+  constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
 
-  constexpr ::GlobalNamespace::MultiplayerController*& __get__multiplayerController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get__multiplayerController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerController*> const& __get__multiplayerController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
 
-  constexpr void __set__multiplayerController(::GlobalNamespace::MultiplayerController* value);
+  constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_newLeaderWasSelectedEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_newLeaderWasSelectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_newLeaderWasSelectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_newLeaderWasSelectedEvent() const;
 
-  constexpr void __set_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
 
-  constexpr float_t& __get__currentLeadingPlayerStartTime();
+  constexpr float_t& __cordl_internal_get__currentLeadingPlayerStartTime();
 
-  constexpr float_t const& __get__currentLeadingPlayerStartTime() const;
+  constexpr float_t const& __cordl_internal_get__currentLeadingPlayerStartTime() const;
 
-  constexpr void __set__currentLeadingPlayerStartTime(float_t value);
+  constexpr void __cordl_internal_set__currentLeadingPlayerStartTime(float_t value);
 
-  constexpr ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*& __get__currentlyDisplayedUser();
+  constexpr ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*& __cordl_internal_get__currentlyDisplayedUser();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*> const& __get__currentlyDisplayedUser() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*> const& __cordl_internal_get__currentlyDisplayedUser() const;
 
-  constexpr void __set__currentlyDisplayedUser(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* value);
+  constexpr void __cordl_internal_set__currentlyDisplayedUser(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* value);
 
-  constexpr ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*& __get__currentlyLeadingUser();
+  constexpr ::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*& __cordl_internal_get__currentlyLeadingUser();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*> const& __get__currentlyLeadingUser() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer*> const& __cordl_internal_get__currentlyLeadingUser() const;
 
-  constexpr void __set__currentlyLeadingUser(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* value);
+  constexpr void __cordl_internal_set__currentlyLeadingUser(::GlobalNamespace::__MultiplayerScoreProvider__RankedPlayer* value);
 
   /// @brief Method add_newLeaderWasSelectedEvent, addr 0x224ccf8, size 0xb0, virtual false, abstract: false, final false
   inline void add_newLeaderWasSelectedEvent(::System::Action_1<::StringW>* value);
@@ -162,10 +164,10 @@ public:
   float_t ____timeToLooseLead;
 
   /// @brief Field _scoreProvider, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerScoreProvider* ____scoreProvider;
+  ::UnityW<::GlobalNamespace::MultiplayerScoreProvider> ____scoreProvider;
 
   /// @brief Field _multiplayerController, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerController* ____multiplayerController;
+  ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;
 
   /// @brief Field newLeaderWasSelectedEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action_1<::StringW>* ___newLeaderWasSelectedEvent;

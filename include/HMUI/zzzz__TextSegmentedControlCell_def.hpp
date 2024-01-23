@@ -22,17 +22,17 @@ MARK_REF_PTR_T(::HMUI::TextSegmentedControlCell);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13551))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13551))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13553))
 // CS Name: ::HMUI::TextSegmentedControlCell*
 class CORDL_TYPE TextSegmentedControlCell : public ::HMUI::SegmentedControlCell {
 public:
   // Declarations
   /// @brief Field _text, offset 0x50, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::TMPro::TextMeshProUGUI* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
 
   /// @brief Field _backgroundGameObject, offset 0x58, size 0x8
-  __declspec(property(get = __get__backgroundGameObject, put = __set__backgroundGameObject))::UnityEngine::GameObject* _backgroundGameObject;
+  __declspec(property(get = __cordl_internal_get__backgroundGameObject, put = __cordl_internal_set__backgroundGameObject))::UnityW<::UnityEngine::GameObject> _backgroundGameObject;
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
@@ -42,17 +42,17 @@ public:
 
   __declspec(property(get = get_preferredWidth)) float_t preferredWidth;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__text();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__text() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__backgroundGameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__backgroundGameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__backgroundGameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__backgroundGameObject() const;
 
-  constexpr void __set__backgroundGameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__backgroundGameObject(::UnityW<::UnityEngine::GameObject> value);
 
   /// @brief Method set_text, addr 0x2120790, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
@@ -92,10 +92,10 @@ protected:
 
 public:
   /// @brief Field _text, offset: 0x50, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____text;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
   /// @brief Field _backgroundGameObject, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____backgroundGameObject;
+  ::UnityW<::UnityEngine::GameObject> ____backgroundGameObject;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

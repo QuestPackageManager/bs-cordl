@@ -39,55 +39,58 @@ namespace UnityEngine::UIElements::Experimental {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7458))
 // CS Name: ::UnityEngine.UIElements.Experimental::ValueAnimation`1<T>*
 class CORDL_TYPE ValueAnimation_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_StartTimeMs, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_StartTimeMs, put = __set_m_StartTimeMs)) int64_t m_StartTimeMs;
+  __declspec(property(get = __cordl_internal_get_m_StartTimeMs, put = __cordl_internal_set_m_StartTimeMs)) int64_t m_StartTimeMs;
 
   /// @brief Field m_DurationMs, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_DurationMs, put = __set_m_DurationMs)) int32_t m_DurationMs;
+  __declspec(property(get = __cordl_internal_get_m_DurationMs, put = __cordl_internal_set_m_DurationMs)) int32_t m_DurationMs;
 
   /// @brief Field <easingCurve>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__easingCurve_k__BackingField, put = __set__easingCurve_k__BackingField))::System::Func_2<float_t, float_t>* _easingCurve_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__easingCurve_k__BackingField,
+                      put = __cordl_internal_set__easingCurve_k__BackingField))::System::Func_2<float_t, float_t>* _easingCurve_k__BackingField;
 
   /// @brief Field <isRunning>k__BackingField, offset 0x28, size 0x1
-  __declspec(property(get = __get__isRunning_k__BackingField, put = __set__isRunning_k__BackingField)) bool _isRunning_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isRunning_k__BackingField, put = __cordl_internal_set__isRunning_k__BackingField)) bool _isRunning_k__BackingField;
 
   /// @brief Field <onAnimationCompleted>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__onAnimationCompleted_k__BackingField, put = __set__onAnimationCompleted_k__BackingField))::System::Action* _onAnimationCompleted_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__onAnimationCompleted_k__BackingField,
+                      put = __cordl_internal_set__onAnimationCompleted_k__BackingField))::System::Action* _onAnimationCompleted_k__BackingField;
 
   /// @brief Field <autoRecycle>k__BackingField, offset 0x38, size 0x1
-  __declspec(property(get = __get__autoRecycle_k__BackingField, put = __set__autoRecycle_k__BackingField)) bool _autoRecycle_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__autoRecycle_k__BackingField, put = __cordl_internal_set__autoRecycle_k__BackingField)) bool _autoRecycle_k__BackingField;
 
   /// @brief Field <recycled>k__BackingField, offset 0x39, size 0x1
-  __declspec(property(get = __get__recycled_k__BackingField, put = __set__recycled_k__BackingField)) bool _recycled_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__recycled_k__BackingField, put = __cordl_internal_set__recycled_k__BackingField)) bool _recycled_k__BackingField;
 
   /// @brief Field <owner>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __get__owner_k__BackingField, put = __set__owner_k__BackingField))::UnityEngine::UIElements::VisualElement* _owner_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__owner_k__BackingField, put = __cordl_internal_set__owner_k__BackingField))::UnityEngine::UIElements::VisualElement* _owner_k__BackingField;
 
   /// @brief Field <valueUpdated>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __get__valueUpdated_k__BackingField,
-                      put = __set__valueUpdated_k__BackingField))::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>* _valueUpdated_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__valueUpdated_k__BackingField,
+                      put = __cordl_internal_set__valueUpdated_k__BackingField))::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>* _valueUpdated_k__BackingField;
 
   /// @brief Field <initialValue>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __get__initialValue_k__BackingField,
-                      put = __set__initialValue_k__BackingField))::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>* _initialValue_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__initialValue_k__BackingField,
+                      put = __cordl_internal_set__initialValue_k__BackingField))::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>* _initialValue_k__BackingField;
 
   /// @brief Field <interpolator>k__BackingField, offset 0x58, size 0x8
-  __declspec(property(get = __get__interpolator_k__BackingField, put = __set__interpolator_k__BackingField))::System::Func_4<T, T, float_t, T>* _interpolator_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__interpolator_k__BackingField,
+                      put = __cordl_internal_set__interpolator_k__BackingField))::System::Func_4<T, T, float_t, T>* _interpolator_k__BackingField;
 
   /// @brief Field _from, offset 0x60, size 0x8
-  __declspec(property(get = __get__from, put = __set__from)) T _from;
+  __declspec(property(get = __cordl_internal_get__from, put = __cordl_internal_set__from)) T _from;
 
   /// @brief Field fromValueSet, offset 0x68, size 0x1
-  __declspec(property(get = __get_fromValueSet, put = __set_fromValueSet)) bool fromValueSet;
+  __declspec(property(get = __cordl_internal_get_fromValueSet, put = __cordl_internal_set_fromValueSet)) bool fromValueSet;
 
   /// @brief Field <to>k__BackingField, offset 0x70, size 0x8
-  __declspec(property(get = __get__to_k__BackingField, put = __set__to_k__BackingField)) T _to_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__to_k__BackingField, put = __cordl_internal_set__to_k__BackingField)) T _to_k__BackingField;
 
   /// @brief Field sObjectPool, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_sObjectPool,
@@ -123,89 +126,89 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::Experimental::IValueAnimationUpdate"
   constexpr ::UnityEngine::UIElements::Experimental::IValueAnimationUpdate* i___UnityEngine__UIElements__Experimental__IValueAnimationUpdate() noexcept;
 
-  constexpr int64_t& __get_m_StartTimeMs();
+  constexpr int64_t& __cordl_internal_get_m_StartTimeMs();
 
-  constexpr int64_t const& __get_m_StartTimeMs() const;
+  constexpr int64_t const& __cordl_internal_get_m_StartTimeMs() const;
 
-  constexpr void __set_m_StartTimeMs(int64_t value);
+  constexpr void __cordl_internal_set_m_StartTimeMs(int64_t value);
 
-  constexpr int32_t& __get_m_DurationMs();
+  constexpr int32_t& __cordl_internal_get_m_DurationMs();
 
-  constexpr int32_t const& __get_m_DurationMs() const;
+  constexpr int32_t const& __cordl_internal_get_m_DurationMs() const;
 
-  constexpr void __set_m_DurationMs(int32_t value);
+  constexpr void __cordl_internal_set_m_DurationMs(int32_t value);
 
-  constexpr ::System::Func_2<float_t, float_t>*& __get__easingCurve_k__BackingField();
+  constexpr ::System::Func_2<float_t, float_t>*& __cordl_internal_get__easingCurve_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<float_t, float_t>*> const& __get__easingCurve_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<float_t, float_t>*> const& __cordl_internal_get__easingCurve_k__BackingField() const;
 
-  constexpr void __set__easingCurve_k__BackingField(::System::Func_2<float_t, float_t>* value);
+  constexpr void __cordl_internal_set__easingCurve_k__BackingField(::System::Func_2<float_t, float_t>* value);
 
-  constexpr bool& __get__isRunning_k__BackingField();
+  constexpr bool& __cordl_internal_get__isRunning_k__BackingField();
 
-  constexpr bool const& __get__isRunning_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isRunning_k__BackingField() const;
 
-  constexpr void __set__isRunning_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isRunning_k__BackingField(bool value);
 
-  constexpr ::System::Action*& __get__onAnimationCompleted_k__BackingField();
+  constexpr ::System::Action*& __cordl_internal_get__onAnimationCompleted_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get__onAnimationCompleted_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get__onAnimationCompleted_k__BackingField() const;
 
-  constexpr void __set__onAnimationCompleted_k__BackingField(::System::Action* value);
+  constexpr void __cordl_internal_set__onAnimationCompleted_k__BackingField(::System::Action* value);
 
-  constexpr bool& __get__autoRecycle_k__BackingField();
+  constexpr bool& __cordl_internal_get__autoRecycle_k__BackingField();
 
-  constexpr bool const& __get__autoRecycle_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__autoRecycle_k__BackingField() const;
 
-  constexpr void __set__autoRecycle_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__autoRecycle_k__BackingField(bool value);
 
-  constexpr bool& __get__recycled_k__BackingField();
+  constexpr bool& __cordl_internal_get__recycled_k__BackingField();
 
-  constexpr bool const& __get__recycled_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__recycled_k__BackingField() const;
 
-  constexpr void __set__recycled_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__recycled_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get__owner_k__BackingField();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__owner_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get__owner_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get__owner_k__BackingField() const;
 
-  constexpr void __set__owner_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set__owner_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>*& __get__valueUpdated_k__BackingField();
+  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>*& __cordl_internal_get__valueUpdated_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>*> const& __get__valueUpdated_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>*> const& __cordl_internal_get__valueUpdated_k__BackingField() const;
 
-  constexpr void __set__valueUpdated_k__BackingField(::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>* value);
+  constexpr void __cordl_internal_set__valueUpdated_k__BackingField(::System::Action_2<::UnityEngine::UIElements::VisualElement*, T>* value);
 
-  constexpr ::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>*& __get__initialValue_k__BackingField();
+  constexpr ::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>*& __cordl_internal_get__initialValue_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>*> const& __get__initialValue_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>*> const& __cordl_internal_get__initialValue_k__BackingField() const;
 
-  constexpr void __set__initialValue_k__BackingField(::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>* value);
+  constexpr void __cordl_internal_set__initialValue_k__BackingField(::System::Func_2<::UnityEngine::UIElements::VisualElement*, T>* value);
 
-  constexpr ::System::Func_4<T, T, float_t, T>*& __get__interpolator_k__BackingField();
+  constexpr ::System::Func_4<T, T, float_t, T>*& __cordl_internal_get__interpolator_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_4<T, T, float_t, T>*> const& __get__interpolator_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_4<T, T, float_t, T>*> const& __cordl_internal_get__interpolator_k__BackingField() const;
 
-  constexpr void __set__interpolator_k__BackingField(::System::Func_4<T, T, float_t, T>* value);
+  constexpr void __cordl_internal_set__interpolator_k__BackingField(::System::Func_4<T, T, float_t, T>* value);
 
-  constexpr T& __get__from();
+  constexpr T& __cordl_internal_get__from();
 
-  constexpr T const& __get__from() const;
+  constexpr T const& __cordl_internal_get__from() const;
 
-  constexpr void __set__from(T value);
+  constexpr void __cordl_internal_set__from(T value);
 
-  constexpr bool& __get_fromValueSet();
+  constexpr bool& __cordl_internal_get_fromValueSet();
 
-  constexpr bool const& __get_fromValueSet() const;
+  constexpr bool const& __cordl_internal_get_fromValueSet() const;
 
-  constexpr void __set_fromValueSet(bool value);
+  constexpr void __cordl_internal_set_fromValueSet(bool value);
 
-  constexpr T& __get__to_k__BackingField();
+  constexpr T& __cordl_internal_get__to_k__BackingField();
 
-  constexpr T const& __get__to_k__BackingField() const;
+  constexpr T const& __cordl_internal_get__to_k__BackingField() const;
 
-  constexpr void __set__to_k__BackingField(T value);
+  constexpr void __cordl_internal_set__to_k__BackingField(T value);
 
   static inline void setStaticF_sObjectPool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::Experimental::ValueAnimation_1<T>*>* value);
 

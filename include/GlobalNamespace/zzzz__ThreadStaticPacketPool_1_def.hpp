@@ -19,7 +19,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12811))
 // CS Name: ::ThreadStaticPacketPool`1<T>*
 class CORDL_TYPE ThreadStaticPacketPool_1 : public ::System::Object {

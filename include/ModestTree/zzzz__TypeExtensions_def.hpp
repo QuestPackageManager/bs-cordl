@@ -99,29 +99,29 @@ MARK_REF_PTR_T(::ModestTree::__TypeExtensions____c__DisplayClass39_1);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10616))
 // CS Name: ::TypeExtensions::<GetParentTypes>d__28*
 class CORDL_TYPE __TypeExtensions___GetParentTypes_d__28 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Type* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Type* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field type, offset 0x28, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
   /// @brief Field <>3__type, offset 0x30, size 0x8
-  __declspec(property(get = __get___3__type, put = __set___3__type))::System::Type* __3__type;
+  __declspec(property(get = __cordl_internal_get___3__type, put = __cordl_internal_set___3__type))::System::Type* __3__type;
 
   /// @brief Field <>7__wrap1, offset 0x38, size 0x8
-  __declspec(property(get = __get___7__wrap1, put = __set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::System::Type*>* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::System::Type*>* __7__wrap1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Type__get_Current))::System::Type* System_Collections_Generic_IEnumerator_System_Type__Current;
 
@@ -157,41 +157,41 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Type*& __get___2__current();
+  constexpr ::System::Type*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Type* value);
+  constexpr void __cordl_internal_set___2__current(::System::Type* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::System::Type*& __get_type();
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Type* value);
+  constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  constexpr ::System::Type*& __get___3__type();
+  constexpr ::System::Type*& __cordl_internal_get___3__type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get___3__type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get___3__type() const;
 
-  constexpr void __set___3__type(::System::Type* value);
+  constexpr void __cordl_internal_set___3__type(::System::Type* value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Type*>*& __get___7__wrap1();
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Type*>*& __cordl_internal_get___7__wrap1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::System::Type*>*> const& __get___7__wrap1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::System::Type*>*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::System::Type*>* value);
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::System::Type*>* value);
 
   static inline ::ModestTree::__TypeExtensions___GetParentTypes_d__28* New_ctor(int32_t __1__state);
 
@@ -276,20 +276,20 @@ static_assert(offsetof(::ModestTree::__TypeExtensions___GetParentTypes_d__28, __
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10617))
 // CS Name: ::TypeExtensions::<>c__DisplayClass35_0*
 class CORDL_TYPE __TypeExtensions____c__DisplayClass35_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field attributeTypes, offset 0x10, size 0x8
-  __declspec(property(get = __get_attributeTypes, put = __set_attributeTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> attributeTypes;
+  __declspec(property(get = __cordl_internal_get_attributeTypes, put = __cordl_internal_set_attributeTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> attributeTypes;
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __get_attributeTypes();
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get_attributeTypes();
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __get_attributeTypes() const;
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_attributeTypes() const;
 
-  constexpr void __set_attributeTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+  constexpr void __cordl_internal_set_attributeTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
   static inline ::ModestTree::__TypeExtensions____c__DisplayClass35_0* New_ctor();
 
@@ -328,20 +328,20 @@ static_assert(offsetof(::ModestTree::__TypeExtensions____c__DisplayClass35_0, __
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10618))
 // CS Name: ::TypeExtensions::<>c__DisplayClass35_1*
 class CORDL_TYPE __TypeExtensions____c__DisplayClass35_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field a, offset 0x10, size 0x8
-  __declspec(property(get = __get_a, put = __set_a))::System::Attribute* a;
+  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a))::System::Attribute* a;
 
-  constexpr ::System::Attribute*& __get_a();
+  constexpr ::System::Attribute*& __cordl_internal_get_a();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Attribute*> const& __get_a() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Attribute*> const& __cordl_internal_get_a() const;
 
-  constexpr void __set_a(::System::Attribute* value);
+  constexpr void __cordl_internal_set_a(::System::Attribute* value);
 
   static inline ::ModestTree::__TypeExtensions____c__DisplayClass35_1* New_ctor();
 
@@ -380,20 +380,20 @@ static_assert(offsetof(::ModestTree::__TypeExtensions____c__DisplayClass35_1, __
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10619))
 // CS Name: ::TypeExtensions::<>c__DisplayClass39_0*
 class CORDL_TYPE __TypeExtensions____c__DisplayClass39_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field attributeTypes, offset 0x10, size 0x8
-  __declspec(property(get = __get_attributeTypes, put = __set_attributeTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> attributeTypes;
+  __declspec(property(get = __cordl_internal_get_attributeTypes, put = __cordl_internal_set_attributeTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> attributeTypes;
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __get_attributeTypes();
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get_attributeTypes();
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __get_attributeTypes() const;
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_attributeTypes() const;
 
-  constexpr void __set_attributeTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+  constexpr void __cordl_internal_set_attributeTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
   static inline ::ModestTree::__TypeExtensions____c__DisplayClass39_0* New_ctor();
 
@@ -432,20 +432,20 @@ static_assert(offsetof(::ModestTree::__TypeExtensions____c__DisplayClass39_0, __
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10620))
 // CS Name: ::TypeExtensions::<>c__DisplayClass39_1*
 class CORDL_TYPE __TypeExtensions____c__DisplayClass39_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field a, offset 0x10, size 0x8
-  __declspec(property(get = __get_a, put = __set_a))::System::Attribute* a;
+  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a))::System::Attribute* a;
 
-  constexpr ::System::Attribute*& __get_a();
+  constexpr ::System::Attribute*& __cordl_internal_get_a();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Attribute*> const& __get_a() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Attribute*> const& __cordl_internal_get_a() const;
 
-  constexpr void __set_a(::System::Attribute* value);
+  constexpr void __cordl_internal_set_a(::System::Attribute* value);
 
   static inline ::ModestTree::__TypeExtensions____c__DisplayClass39_1* New_ctor();
 
@@ -484,7 +484,7 @@ static_assert(offsetof(::ModestTree::__TypeExtensions____c__DisplayClass39_1, __
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10621))
 // CS Name: ::ModestTree::TypeExtensions*
 class CORDL_TYPE TypeExtensions : public ::System::Object {

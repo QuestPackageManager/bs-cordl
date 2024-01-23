@@ -25,29 +25,29 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::RotationLimitSpline);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12622))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12622))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12628))
 // CS Name: ::RootMotion.FinalIK::RotationLimitSpline*
 class CORDL_TYPE RotationLimitSpline : public ::RootMotion::FinalIK::RotationLimit {
 public:
   // Declarations
   /// @brief Field twistLimit, offset 0x38, size 0x4
-  __declspec(property(get = __get_twistLimit, put = __set_twistLimit)) float_t twistLimit;
+  __declspec(property(get = __cordl_internal_get_twistLimit, put = __cordl_internal_set_twistLimit)) float_t twistLimit;
 
   /// @brief Field spline, offset 0x40, size 0x8
-  __declspec(property(get = __get_spline, put = __set_spline))::UnityEngine::AnimationCurve* spline;
+  __declspec(property(get = __cordl_internal_get_spline, put = __cordl_internal_set_spline))::UnityEngine::AnimationCurve* spline;
 
-  constexpr float_t& __get_twistLimit();
+  constexpr float_t& __cordl_internal_get_twistLimit();
 
-  constexpr float_t const& __get_twistLimit() const;
+  constexpr float_t const& __cordl_internal_get_twistLimit() const;
 
-  constexpr void __set_twistLimit(float_t value);
+  constexpr void __cordl_internal_set_twistLimit(float_t value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_spline();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_spline();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_spline() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_spline() const;
 
-  constexpr void __set_spline(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_spline(::UnityEngine::AnimationCurve* value);
 
   /// @brief Method OpenUserManual, addr 0x1292c90, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();

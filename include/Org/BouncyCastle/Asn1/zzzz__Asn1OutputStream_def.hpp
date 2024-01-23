@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1OutputStream);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(457))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(457))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(458))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1OutputStream*
 class CORDL_TYPE Asn1OutputStream : public ::Org::BouncyCastle::Asn1::DerOutputStream {

@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::NavigationTabEvent);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7251))
 // CS Name: ::NavigationTabEvent::Direction
 struct CORDL_TYPE __NavigationTabEvent__Direction {
@@ -78,23 +78,24 @@ static_assert(offsetof(::UnityEngine::UIElements::__NavigationTabEvent__Directio
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7251)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7248), inst: 4704 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7248))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7252)) CS Name: ::UnityEngine.UIElements::NavigationTabEvent*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7248)), TypeDefinitionIndex(TypeDefinitionIndex(7251)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7248), inst: 4704
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7252)) CS Name: ::UnityEngine.UIElements::NavigationTabEvent*
 class CORDL_TYPE NavigationTabEvent : public ::UnityEngine::UIElements::NavigationEventBase_1<::UnityEngine::UIElements::NavigationTabEvent*> {
 public:
   // Declarations
   using Direction = ::UnityEngine::UIElements::__NavigationTabEvent__Direction;
 
   /// @brief Field <direction>k__BackingField, offset 0x7c, size 0x4
-  __declspec(property(get = __get__direction_k__BackingField, put = __set__direction_k__BackingField))::UnityEngine::UIElements::__NavigationTabEvent__Direction _direction_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__direction_k__BackingField,
+                      put = __cordl_internal_set__direction_k__BackingField))::UnityEngine::UIElements::__NavigationTabEvent__Direction _direction_k__BackingField;
 
   __declspec(property(put = set_direction))::UnityEngine::UIElements::__NavigationTabEvent__Direction direction;
 
-  constexpr ::UnityEngine::UIElements::__NavigationTabEvent__Direction& __get__direction_k__BackingField();
+  constexpr ::UnityEngine::UIElements::__NavigationTabEvent__Direction& __cordl_internal_get__direction_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::__NavigationTabEvent__Direction const& __get__direction_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::__NavigationTabEvent__Direction const& __cordl_internal_get__direction_k__BackingField() const;
 
-  constexpr void __set__direction_k__BackingField(::UnityEngine::UIElements::__NavigationTabEvent__Direction value);
+  constexpr void __cordl_internal_set__direction_k__BackingField(::UnityEngine::UIElements::__NavigationTabEvent__Direction value);
 
   /// @brief Method set_direction, addr 0x2e530e0, size 0x8, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UIElements::__NavigationTabEvent__Direction value);

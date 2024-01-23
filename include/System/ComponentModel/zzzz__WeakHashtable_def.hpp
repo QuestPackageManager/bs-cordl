@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::System::ComponentModel::__WeakHashtable__WeakKeyComparer);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9494))
 // CS Name: ::WeakHashtable::WeakKeyComparer*
 class CORDL_TYPE __WeakHashtable__WeakKeyComparer : public ::System::Object {
@@ -76,7 +76,7 @@ static_assert(::cordl_internals::size_check_v<::System::ComponentModel::__WeakHa
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3798))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3798))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9495))
 // CS Name: ::System.ComponentModel::WeakHashtable*
 class CORDL_TYPE WeakHashtable : public ::System::Collections::Hashtable {

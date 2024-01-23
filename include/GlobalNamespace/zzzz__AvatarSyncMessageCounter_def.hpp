@@ -25,29 +25,29 @@ MARK_REF_PTR_T(::GlobalNamespace::AvatarSyncMessageCounter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2484))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14934))
 // CS Name: ::AvatarSyncMessageCounter*
 class CORDL_TYPE AvatarSyncMessageCounter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field messageTimestamps, offset 0x10, size 0x8
-  __declspec(property(get = __get_messageTimestamps, put = __set_messageTimestamps))::System::Collections::Generic::Queue_1<::System::DateTime>* messageTimestamps;
+  __declspec(property(get = __cordl_internal_get_messageTimestamps, put = __cordl_internal_set_messageTimestamps))::System::Collections::Generic::Queue_1<::System::DateTime>* messageTimestamps;
 
   /// @brief Field period, offset 0x18, size 0x8
-  __declspec(property(get = __get_period, put = __set_period))::System::TimeSpan period;
+  __declspec(property(get = __cordl_internal_get_period, put = __cordl_internal_set_period))::System::TimeSpan period;
 
-  constexpr ::System::Collections::Generic::Queue_1<::System::DateTime>*& __get_messageTimestamps();
+  constexpr ::System::Collections::Generic::Queue_1<::System::DateTime>*& __cordl_internal_get_messageTimestamps();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::System::DateTime>*> const& __get_messageTimestamps() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::System::DateTime>*> const& __cordl_internal_get_messageTimestamps() const;
 
-  constexpr void __set_messageTimestamps(::System::Collections::Generic::Queue_1<::System::DateTime>* value);
+  constexpr void __cordl_internal_set_messageTimestamps(::System::Collections::Generic::Queue_1<::System::DateTime>* value);
 
-  constexpr ::System::TimeSpan& __get_period();
+  constexpr ::System::TimeSpan& __cordl_internal_get_period();
 
-  constexpr ::System::TimeSpan const& __get_period() const;
+  constexpr ::System::TimeSpan const& __cordl_internal_get_period() const;
 
-  constexpr void __set_period(::System::TimeSpan value);
+  constexpr void __cordl_internal_set_period(::System::TimeSpan value);
 
   static inline ::GlobalNamespace::AvatarSyncMessageCounter* New_ctor(::System::TimeSpan period);
 

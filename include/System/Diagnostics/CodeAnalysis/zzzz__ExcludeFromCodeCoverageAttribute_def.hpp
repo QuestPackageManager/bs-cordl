@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Diagnostics::CodeAnalysis::ExcludeFromCodeCoverageAttri
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Diagnostics::CodeAnalysis {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8962))
 // CS Name: ::System.Diagnostics.CodeAnalysis::ExcludeFromCodeCoverageAttribute*
 class CORDL_TYPE ExcludeFromCodeCoverageAttribute : public ::System::Attribute {

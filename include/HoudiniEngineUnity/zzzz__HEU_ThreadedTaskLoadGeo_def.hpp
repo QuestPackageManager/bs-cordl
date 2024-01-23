@@ -113,7 +113,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9810))
 // CS Name: ::HEU_ThreadedTaskLoadGeo::LoadType
 struct CORDL_TYPE __HEU_ThreadedTaskLoadGeo__LoadType {
@@ -167,7 +167,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__LoadType
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9811))
 // CS Name: ::HEU_ThreadedTaskLoadGeo::HEU_LoadData::LoadStatus
 struct CORDL_TYPE __HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus {
@@ -225,7 +225,7 @@ static_assert(offsetof(::GlobalNamespace::__HEU_ThreadedTaskLoadGeo__HEU_LoadDat
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9811))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9811))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9812))
 // CS Name: ::HEU_ThreadedTaskLoadGeo::HEU_LoadData*
 class CORDL_TYPE __HEU_ThreadedTaskLoadGeo__HEU_LoadData : public ::System::Object {
@@ -234,58 +234,61 @@ public:
   using LoadStatus = ::GlobalNamespace::__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus;
 
   /// @brief Field _cookNodeID, offset 0x10, size 0x4
-  __declspec(property(get = __get__cookNodeID, put = __set__cookNodeID)) int32_t _cookNodeID;
+  __declspec(property(get = __cordl_internal_get__cookNodeID, put = __cordl_internal_set__cookNodeID)) int32_t _cookNodeID;
 
   /// @brief Field _loadStatus, offset 0x14, size 0x4
-  __declspec(property(get = __get__loadStatus, put = __set__loadStatus))::GlobalNamespace::__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus _loadStatus;
+  __declspec(property(get = __cordl_internal_get__loadStatus, put = __cordl_internal_set__loadStatus))::GlobalNamespace::__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus _loadStatus;
 
   /// @brief Field _logStr, offset 0x18, size 0x8
-  __declspec(property(get = __get__logStr, put = __set__logStr))::System::Text::StringBuilder* _logStr;
+  __declspec(property(get = __cordl_internal_get__logStr, put = __cordl_internal_set__logStr))::System::Text::StringBuilder* _logStr;
 
   /// @brief Field _session, offset 0x20, size 0x8
-  __declspec(property(get = __get__session, put = __set__session))::HoudiniEngineUnity::HEU_SessionBase* _session;
+  __declspec(property(get = __cordl_internal_get__session, put = __cordl_internal_set__session))::HoudiniEngineUnity::HEU_SessionBase* _session;
 
   /// @brief Field _loadedObjects, offset 0x28, size 0x8
-  __declspec(property(get = __get__loadedObjects, put = __set__loadedObjects))::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject*>* _loadedObjects;
+  __declspec(property(get = __cordl_internal_get__loadedObjects,
+                      put = __cordl_internal_set__loadedObjects))::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject*>* _loadedObjects;
 
   /// @brief Field _idBuffersMap, offset 0x30, size 0x8
-  __declspec(property(get = __get__idBuffersMap, put = __set__idBuffersMap))::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_LoadBufferBase*>* _idBuffersMap;
+  __declspec(property(get = __cordl_internal_get__idBuffersMap,
+                      put = __cordl_internal_set__idBuffersMap))::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_LoadBufferBase*>* _idBuffersMap;
 
-  constexpr int32_t& __get__cookNodeID();
+  constexpr int32_t& __cordl_internal_get__cookNodeID();
 
-  constexpr int32_t const& __get__cookNodeID() const;
+  constexpr int32_t const& __cordl_internal_get__cookNodeID() const;
 
-  constexpr void __set__cookNodeID(int32_t value);
+  constexpr void __cordl_internal_set__cookNodeID(int32_t value);
 
-  constexpr ::GlobalNamespace::__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus& __get__loadStatus();
+  constexpr ::GlobalNamespace::__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus& __cordl_internal_get__loadStatus();
 
-  constexpr ::GlobalNamespace::__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus const& __get__loadStatus() const;
+  constexpr ::GlobalNamespace::__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus const& __cordl_internal_get__loadStatus() const;
 
-  constexpr void __set__loadStatus(::GlobalNamespace::__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus value);
+  constexpr void __cordl_internal_set__loadStatus(::GlobalNamespace::__HEU_ThreadedTaskLoadGeo__HEU_LoadData__LoadStatus value);
 
-  constexpr ::System::Text::StringBuilder*& __get__logStr();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__logStr();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get__logStr() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__logStr() const;
 
-  constexpr void __set__logStr(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set__logStr(::System::Text::StringBuilder* value);
 
-  constexpr ::HoudiniEngineUnity::HEU_SessionBase*& __get__session();
+  constexpr ::HoudiniEngineUnity::HEU_SessionBase*& __cordl_internal_get__session();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_SessionBase*> const& __get__session() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_SessionBase*> const& __cordl_internal_get__session() const;
 
-  constexpr void __set__session(::HoudiniEngineUnity::HEU_SessionBase* value);
+  constexpr void __cordl_internal_set__session(::HoudiniEngineUnity::HEU_SessionBase* value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject*>*& __get__loadedObjects();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject*>*& __cordl_internal_get__loadedObjects();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject*>*> const& __get__loadedObjects() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject*>*> const&
+  __cordl_internal_get__loadedObjects() const;
 
-  constexpr void __set__loadedObjects(::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject*>* value);
+  constexpr void __cordl_internal_set__loadedObjects(::System::Collections::Generic::List_1<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_LoadBufferBase*>*& __get__idBuffersMap();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_LoadBufferBase*>*& __cordl_internal_get__idBuffersMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_LoadBufferBase*>*> const& __get__idBuffersMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_LoadBufferBase*>*> const& __cordl_internal_get__idBuffersMap() const;
 
-  constexpr void __set__idBuffersMap(::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_LoadBufferBase*>* value);
+  constexpr void __cordl_internal_set__idBuffersMap(::System::Collections::Generic::Dictionary_2<int32_t, ::HoudiniEngineUnity::HEU_LoadBufferBase*>* value);
 
   static inline ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* New_ctor();
 
@@ -346,56 +349,58 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_Load
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9813))
 // CS Name: ::HEU_ThreadedTaskLoadGeo::HEU_LoadObject*
 class CORDL_TYPE __HEU_ThreadedTaskLoadGeo__HEU_LoadObject : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _objectNodeID, offset 0x10, size 0x4
-  __declspec(property(get = __get__objectNodeID, put = __set__objectNodeID)) int32_t _objectNodeID;
+  __declspec(property(get = __cordl_internal_get__objectNodeID, put = __cordl_internal_set__objectNodeID)) int32_t _objectNodeID;
 
   /// @brief Field _displayNodeID, offset 0x14, size 0x4
-  __declspec(property(get = __get__displayNodeID, put = __set__displayNodeID)) int32_t _displayNodeID;
+  __declspec(property(get = __cordl_internal_get__displayNodeID, put = __cordl_internal_set__displayNodeID)) int32_t _displayNodeID;
 
   /// @brief Field _terrainBuffers, offset 0x18, size 0x8
-  __declspec(property(get = __get__terrainBuffers, put = __set__terrainBuffers))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>* _terrainBuffers;
+  __declspec(property(get = __cordl_internal_get__terrainBuffers,
+                      put = __cordl_internal_set__terrainBuffers))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>* _terrainBuffers;
 
   /// @brief Field _meshBuffers, offset 0x20, size 0x8
-  __declspec(property(get = __get__meshBuffers, put = __set__meshBuffers))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>* _meshBuffers;
+  __declspec(property(get = __cordl_internal_get__meshBuffers, put = __cordl_internal_set__meshBuffers))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>* _meshBuffers;
 
   /// @brief Field _instancerBuffers, offset 0x28, size 0x8
-  __declspec(property(get = __get__instancerBuffers, put = __set__instancerBuffers))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>* _instancerBuffers;
+  __declspec(property(get = __cordl_internal_get__instancerBuffers,
+                      put = __cordl_internal_set__instancerBuffers))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>* _instancerBuffers;
 
-  constexpr int32_t& __get__objectNodeID();
+  constexpr int32_t& __cordl_internal_get__objectNodeID();
 
-  constexpr int32_t const& __get__objectNodeID() const;
+  constexpr int32_t const& __cordl_internal_get__objectNodeID() const;
 
-  constexpr void __set__objectNodeID(int32_t value);
+  constexpr void __cordl_internal_set__objectNodeID(int32_t value);
 
-  constexpr int32_t& __get__displayNodeID();
+  constexpr int32_t& __cordl_internal_get__displayNodeID();
 
-  constexpr int32_t const& __get__displayNodeID() const;
+  constexpr int32_t const& __cordl_internal_get__displayNodeID() const;
 
-  constexpr void __set__displayNodeID(int32_t value);
+  constexpr void __cordl_internal_set__displayNodeID(int32_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>*& __get__terrainBuffers();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>*& __cordl_internal_get__terrainBuffers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>*> const& __get__terrainBuffers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>*> const& __cordl_internal_get__terrainBuffers() const;
 
-  constexpr void __set__terrainBuffers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>* value);
+  constexpr void __cordl_internal_set__terrainBuffers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferVolume*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>*& __get__meshBuffers();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>*& __cordl_internal_get__meshBuffers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>*> const& __get__meshBuffers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>*> const& __cordl_internal_get__meshBuffers() const;
 
-  constexpr void __set__meshBuffers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>* value);
+  constexpr void __cordl_internal_set__meshBuffers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferMesh*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>*& __get__instancerBuffers();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>*& __cordl_internal_get__instancerBuffers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>*> const& __get__instancerBuffers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>*> const& __cordl_internal_get__instancerBuffers() const;
 
-  constexpr void __set__instancerBuffers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>* value);
+  constexpr void __cordl_internal_set__instancerBuffers(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_LoadBufferInstancer*>* value);
 
   static inline ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadObject* New_ctor();
 
@@ -451,7 +456,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_Load
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9814))
 // CS Name: ::HEU_ThreadedTaskLoadGeo::HEU_LoadCallbackType
 struct CORDL_TYPE __HEU_ThreadedTaskLoadGeo__HEU_LoadCallbackType {
@@ -501,7 +506,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_Load
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9815))
 // CS Name: ::HEU_ThreadedTaskLoadGeo::HEU_LoadCallback*
 class CORDL_TYPE __HEU_ThreadedTaskLoadGeo__HEU_LoadCallback : public ::System::MulticastDelegate {
@@ -547,7 +552,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_Thread
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9794)), TypeDefinitionIndex(TypeDefinitionIndex(9809)), TypeDefinitionIndex(TypeDefinitionIndex(9810))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9794)), TypeDefinitionIndex(TypeDefinitionIndex(9809)), TypeDefinitionIndex(TypeDefinitionIndex(9810))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9816))
 // CS Name: ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo*
 class CORDL_TYPE HEU_ThreadedTaskLoadGeo : public ::HoudiniEngineUnity::HEU_ThreadedTask {
@@ -564,67 +569,67 @@ public:
   using LoadType = ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__LoadType;
 
   /// @brief Field _ownerSync, offset 0x38, size 0x8
-  __declspec(property(get = __get__ownerSync, put = __set__ownerSync))::HoudiniEngineUnity::HEU_BaseSync* _ownerSync;
+  __declspec(property(get = __cordl_internal_get__ownerSync, put = __cordl_internal_set__ownerSync))::UnityW<::HoudiniEngineUnity::HEU_BaseSync> _ownerSync;
 
   /// @brief Field _session, offset 0x40, size 0x8
-  __declspec(property(get = __get__session, put = __set__session))::HoudiniEngineUnity::HEU_SessionBase* _session;
+  __declspec(property(get = __cordl_internal_get__session, put = __cordl_internal_set__session))::HoudiniEngineUnity::HEU_SessionBase* _session;
 
   /// @brief Field _generateOptions, offset 0x48, size 0x5
-  __declspec(property(get = __get__generateOptions, put = __set__generateOptions))::HoudiniEngineUnity::HEU_GenerateOptions _generateOptions;
+  __declspec(property(get = __cordl_internal_get__generateOptions, put = __cordl_internal_set__generateOptions))::HoudiniEngineUnity::HEU_GenerateOptions _generateOptions;
 
   /// @brief Field _loadType, offset 0x50, size 0x4
-  __declspec(property(get = __get__loadType, put = __set__loadType))::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__LoadType _loadType;
+  __declspec(property(get = __cordl_internal_get__loadType, put = __cordl_internal_set__loadType))::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__LoadType _loadType;
 
   /// @brief Field _filePath, offset 0x58, size 0x8
-  __declspec(property(get = __get__filePath, put = __set__filePath))::StringW _filePath;
+  __declspec(property(get = __cordl_internal_get__filePath, put = __cordl_internal_set__filePath))::StringW _filePath;
 
   /// @brief Field _loadData, offset 0x60, size 0x8
-  __declspec(property(get = __get__loadData, put = __set__loadData))::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* _loadData;
+  __declspec(property(get = __cordl_internal_get__loadData, put = __cordl_internal_set__loadData))::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* _loadData;
 
   /// @brief Field _loadCallback, offset 0x68, size 0x8
-  __declspec(property(get = __get__loadCallback, put = __set__loadCallback))::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback* _loadCallback;
+  __declspec(property(get = __cordl_internal_get__loadCallback, put = __cordl_internal_set__loadCallback))::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback* _loadCallback;
 
-  constexpr ::HoudiniEngineUnity::HEU_BaseSync*& __get__ownerSync();
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_BaseSync>& __cordl_internal_get__ownerSync();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_BaseSync*> const& __get__ownerSync() const;
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_BaseSync> const& __cordl_internal_get__ownerSync() const;
 
-  constexpr void __set__ownerSync(::HoudiniEngineUnity::HEU_BaseSync* value);
+  constexpr void __cordl_internal_set__ownerSync(::UnityW<::HoudiniEngineUnity::HEU_BaseSync> value);
 
-  constexpr ::HoudiniEngineUnity::HEU_SessionBase*& __get__session();
+  constexpr ::HoudiniEngineUnity::HEU_SessionBase*& __cordl_internal_get__session();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_SessionBase*> const& __get__session() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_SessionBase*> const& __cordl_internal_get__session() const;
 
-  constexpr void __set__session(::HoudiniEngineUnity::HEU_SessionBase* value);
+  constexpr void __cordl_internal_set__session(::HoudiniEngineUnity::HEU_SessionBase* value);
 
-  constexpr ::HoudiniEngineUnity::HEU_GenerateOptions& __get__generateOptions();
+  constexpr ::HoudiniEngineUnity::HEU_GenerateOptions& __cordl_internal_get__generateOptions();
 
-  constexpr ::HoudiniEngineUnity::HEU_GenerateOptions const& __get__generateOptions() const;
+  constexpr ::HoudiniEngineUnity::HEU_GenerateOptions const& __cordl_internal_get__generateOptions() const;
 
-  constexpr void __set__generateOptions(::HoudiniEngineUnity::HEU_GenerateOptions value);
+  constexpr void __cordl_internal_set__generateOptions(::HoudiniEngineUnity::HEU_GenerateOptions value);
 
-  constexpr ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__LoadType& __get__loadType();
+  constexpr ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__LoadType& __cordl_internal_get__loadType();
 
-  constexpr ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__LoadType const& __get__loadType() const;
+  constexpr ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__LoadType const& __cordl_internal_get__loadType() const;
 
-  constexpr void __set__loadType(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__LoadType value);
+  constexpr void __cordl_internal_set__loadType(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__LoadType value);
 
-  constexpr ::StringW& __get__filePath();
+  constexpr ::StringW& __cordl_internal_get__filePath();
 
-  constexpr ::StringW const& __get__filePath() const;
+  constexpr ::StringW const& __cordl_internal_get__filePath() const;
 
-  constexpr void __set__filePath(::StringW value);
+  constexpr void __cordl_internal_set__filePath(::StringW value);
 
-  constexpr ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData*& __get__loadData();
+  constexpr ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData*& __cordl_internal_get__loadData();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData*> const& __get__loadData() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData*> const& __cordl_internal_get__loadData() const;
 
-  constexpr void __set__loadData(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* value);
+  constexpr void __cordl_internal_set__loadData(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* value);
 
-  constexpr ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback*& __get__loadCallback();
+  constexpr ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback*& __cordl_internal_get__loadCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback*> const& __get__loadCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback*> const& __cordl_internal_get__loadCallback() const;
 
-  constexpr void __set__loadCallback(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback* value);
+  constexpr void __cordl_internal_set__loadCallback(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback* value);
 
   /// @brief Method SetupLoad, addr 0x21ac590, size 0xe8, virtual false, abstract: false, final false
   inline void SetupLoad(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HEU_BaseSync* ownerSync, ::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__LoadType loadType,
@@ -761,7 +766,7 @@ protected:
 
 public:
   /// @brief Field _ownerSync, offset: 0x38, size: 0x8, def value: None
-  ::HoudiniEngineUnity::HEU_BaseSync* ____ownerSync;
+  ::UnityW<::HoudiniEngineUnity::HEU_BaseSync> ____ownerSync;
 
   /// @brief Field _session, offset: 0x40, size: 0x8, def value: None
   ::HoudiniEngineUnity::HEU_SessionBase* ____session;

@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::LiteNetLib::SimpleChannel);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14127))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14127))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14187))
 // CS Name: ::LiteNetLib::SimpleChannel*
 class CORDL_TYPE SimpleChannel : public ::LiteNetLib::BaseChannel {

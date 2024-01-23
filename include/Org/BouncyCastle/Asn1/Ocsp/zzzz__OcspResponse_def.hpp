@@ -32,33 +32,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::OcspResponse);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(212))
 // CS Name: ::Org.BouncyCastle.Asn1.Ocsp::OcspResponse*
 class CORDL_TYPE OcspResponse : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field responseStatus, offset 0x10, size 0x8
-  __declspec(property(get = __get_responseStatus, put = __set_responseStatus))::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* responseStatus;
+  __declspec(property(get = __cordl_internal_get_responseStatus, put = __cordl_internal_set_responseStatus))::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* responseStatus;
 
   /// @brief Field responseBytes, offset 0x18, size 0x8
-  __declspec(property(get = __get_responseBytes, put = __set_responseBytes))::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes* responseBytes;
+  __declspec(property(get = __cordl_internal_get_responseBytes, put = __cordl_internal_set_responseBytes))::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes* responseBytes;
 
   __declspec(property(get = get_ResponseStatus))::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* ResponseStatus;
 
   __declspec(property(get = get_ResponseBytes))::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes* ResponseBytes;
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus*& __get_responseStatus();
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus*& __cordl_internal_get_responseStatus();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus*> const& __get_responseStatus() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus*> const& __cordl_internal_get_responseStatus() const;
 
-  constexpr void __set_responseStatus(::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* value);
+  constexpr void __cordl_internal_set_responseStatus(::Org::BouncyCastle::Asn1::Ocsp::OcspResponseStatus* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes*& __get_responseBytes();
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes*& __cordl_internal_get_responseBytes();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes*> const& __get_responseBytes() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes*> const& __cordl_internal_get_responseBytes() const;
 
-  constexpr void __set_responseBytes(::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes* value);
+  constexpr void __cordl_internal_set_responseBytes(::Org::BouncyCastle::Asn1::Ocsp::ResponseBytes* value);
 
   /// @brief Method GetInstance, addr 0xf810b0, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::OcspResponse* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);

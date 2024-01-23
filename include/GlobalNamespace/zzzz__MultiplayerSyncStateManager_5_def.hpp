@@ -53,7 +53,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14950))
 // CS Name: ::MultiplayerSyncStateManager`5::<>c<TStateTable,TType,TState,TSerializable,TDeltaSerializable>*
 class CORDL_TYPE __MultiplayerSyncStateManager_5____c : public ::System::Object {
@@ -105,7 +105,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14951))
 // CS Name: ::MultiplayerSyncStateManager`5<TStateTable,TType,TState,TSerializable,TDeltaSerializable>*
 class CORDL_TYPE MultiplayerSyncStateManager_5 : public ::UnityEngine::MonoBehaviour {
@@ -114,19 +114,20 @@ public:
   using __c = ::GlobalNamespace::__MultiplayerSyncStateManager_5____c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>;
 
   /// @brief Field _multiplayerSessionManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _localState, offset 0x20, size 0x8
-  __declspec(property(get = __get__localState, put = __set__localState))::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* _localState;
+  __declspec(property(get = __cordl_internal_get__localState, put = __cordl_internal_set__localState))::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* _localState;
 
   /// @brief Field _connectedPlayerStates, offset 0x28, size 0x8
-  __declspec(property(get = __get__connectedPlayerStates,
-                      put = __set__connectedPlayerStates))::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* _connectedPlayerStates;
+  __declspec(property(
+      get = __cordl_internal_get__connectedPlayerStates,
+      put = __cordl_internal_set__connectedPlayerStates))::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* _connectedPlayerStates;
 
   /// @brief Field _disconnectedPlayerStates, offset 0x30, size 0x8
-  __declspec(
-      property(get = __get__disconnectedPlayerStates,
-               put = __set__disconnectedPlayerStates))::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* _disconnectedPlayerStates;
+  __declspec(property(get = __cordl_internal_get__disconnectedPlayerStates, put = __cordl_internal_set__disconnectedPlayerStates))::System::Collections::Generic::List_1<
+      ::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* _disconnectedPlayerStates;
 
   __declspec(property(get = get_multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
 
@@ -154,31 +155,31 @@ public:
 
   __declspec(property(get = get_deltaMessageType))::GlobalNamespace::__MultiplayerSessionManager__MessageType deltaMessageType;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>*& __get__localState();
+  constexpr ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>*& __cordl_internal_get__localState();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>*> const& __get__localState() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>*> const& __cordl_internal_get__localState() const;
 
-  constexpr void __set__localState(::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* value);
+  constexpr void __cordl_internal_set__localState(::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>*& __get__connectedPlayerStates();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>*> const&
-  __get__connectedPlayerStates() const;
-
-  constexpr void __set__connectedPlayerStates(::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* value);
-
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>*& __get__disconnectedPlayerStates();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>*& __cordl_internal_get__connectedPlayerStates();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>*> const&
-  __get__disconnectedPlayerStates() const;
+  __cordl_internal_get__connectedPlayerStates() const;
 
-  constexpr void __set__disconnectedPlayerStates(::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* value);
+  constexpr void __cordl_internal_set__connectedPlayerStates(::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* value);
+
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>*& __cordl_internal_get__disconnectedPlayerStates();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>*> const&
+  __cordl_internal_get__disconnectedPlayerStates() const;
+
+  constexpr void __cordl_internal_set__disconnectedPlayerStates(::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* value);
 
   /// @brief Method get_multiplayerSessionManager, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();

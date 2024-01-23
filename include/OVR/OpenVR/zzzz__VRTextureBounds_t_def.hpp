@@ -15,7 +15,7 @@ MARK_VAL_T(::OVR::OpenVR::VRTextureBounds_t);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8659))
 // CS Name: ::OVR.OpenVR::VRTextureBounds_t
 struct CORDL_TYPE VRTextureBounds_t {

@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__CertificateUrl__ListBuffer16)
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3566))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1192))
 // CS Name: ::CertificateUrl::ListBuffer16*
 class CORDL_TYPE __CertificateUrl__ListBuffer16 : public ::System::IO::MemoryStream {
@@ -70,7 +70,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1193))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::CertificateUrl*
 class CORDL_TYPE CertificateUrl : public ::System::Object {
@@ -79,26 +79,26 @@ public:
   using ListBuffer16 = ::Org::BouncyCastle::Crypto::Tls::__CertificateUrl__ListBuffer16;
 
   /// @brief Field mType, offset 0x10, size 0x1
-  __declspec(property(get = __get_mType, put = __set_mType)) uint8_t mType;
+  __declspec(property(get = __cordl_internal_get_mType, put = __cordl_internal_set_mType)) uint8_t mType;
 
   /// @brief Field mUrlAndHashList, offset 0x18, size 0x8
-  __declspec(property(get = __get_mUrlAndHashList, put = __set_mUrlAndHashList))::System::Collections::IList* mUrlAndHashList;
+  __declspec(property(get = __cordl_internal_get_mUrlAndHashList, put = __cordl_internal_set_mUrlAndHashList))::System::Collections::IList* mUrlAndHashList;
 
   __declspec(property(get = get_Type)) uint8_t Type;
 
   __declspec(property(get = get_UrlAndHashList))::System::Collections::IList* UrlAndHashList;
 
-  constexpr uint8_t& __get_mType();
+  constexpr uint8_t& __cordl_internal_get_mType();
 
-  constexpr uint8_t const& __get_mType() const;
+  constexpr uint8_t const& __cordl_internal_get_mType() const;
 
-  constexpr void __set_mType(uint8_t value);
+  constexpr void __cordl_internal_set_mType(uint8_t value);
 
-  constexpr ::System::Collections::IList*& __get_mUrlAndHashList();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_mUrlAndHashList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_mUrlAndHashList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_mUrlAndHashList() const;
 
-  constexpr void __set_mUrlAndHashList(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_mUrlAndHashList(::System::Collections::IList* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateUrl* New_ctor(uint8_t type, ::System::Collections::IList* urlAndHashList);
 

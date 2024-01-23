@@ -50,74 +50,74 @@ MARK_REF_PTR_T(::System::Xml::Schema::ParticleContentValidator);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11610))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11610))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11611))
 // CS Name: ::System.Xml.Schema::ParticleContentValidator*
 class CORDL_TYPE ParticleContentValidator : public ::System::Xml::Schema::ContentValidator {
 public:
   // Declarations
   /// @brief Field symbols, offset 0x18, size 0x8
-  __declspec(property(get = __get_symbols, put = __set_symbols))::System::Xml::Schema::SymbolsDictionary* symbols;
+  __declspec(property(get = __cordl_internal_get_symbols, put = __cordl_internal_set_symbols))::System::Xml::Schema::SymbolsDictionary* symbols;
 
   /// @brief Field positions, offset 0x20, size 0x8
-  __declspec(property(get = __get_positions, put = __set_positions))::System::Xml::Schema::Positions* positions;
+  __declspec(property(get = __cordl_internal_get_positions, put = __cordl_internal_set_positions))::System::Xml::Schema::Positions* positions;
 
   /// @brief Field stack, offset 0x28, size 0x8
-  __declspec(property(get = __get_stack, put = __set_stack))::System::Collections::Stack* stack;
+  __declspec(property(get = __cordl_internal_get_stack, put = __cordl_internal_set_stack))::System::Collections::Stack* stack;
 
   /// @brief Field contentNode, offset 0x30, size 0x8
-  __declspec(property(get = __get_contentNode, put = __set_contentNode))::System::Xml::Schema::SyntaxTreeNode* contentNode;
+  __declspec(property(get = __cordl_internal_get_contentNode, put = __cordl_internal_set_contentNode))::System::Xml::Schema::SyntaxTreeNode* contentNode;
 
   /// @brief Field isPartial, offset 0x38, size 0x1
-  __declspec(property(get = __get_isPartial, put = __set_isPartial)) bool isPartial;
+  __declspec(property(get = __cordl_internal_get_isPartial, put = __cordl_internal_set_isPartial)) bool isPartial;
 
   /// @brief Field minMaxNodesCount, offset 0x3c, size 0x4
-  __declspec(property(get = __get_minMaxNodesCount, put = __set_minMaxNodesCount)) int32_t minMaxNodesCount;
+  __declspec(property(get = __cordl_internal_get_minMaxNodesCount, put = __cordl_internal_set_minMaxNodesCount)) int32_t minMaxNodesCount;
 
   /// @brief Field enableUpaCheck, offset 0x40, size 0x1
-  __declspec(property(get = __get_enableUpaCheck, put = __set_enableUpaCheck)) bool enableUpaCheck;
+  __declspec(property(get = __cordl_internal_get_enableUpaCheck, put = __cordl_internal_set_enableUpaCheck)) bool enableUpaCheck;
 
-  constexpr ::System::Xml::Schema::SymbolsDictionary*& __get_symbols();
+  constexpr ::System::Xml::Schema::SymbolsDictionary*& __cordl_internal_get_symbols();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SymbolsDictionary*> const& __get_symbols() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SymbolsDictionary*> const& __cordl_internal_get_symbols() const;
 
-  constexpr void __set_symbols(::System::Xml::Schema::SymbolsDictionary* value);
+  constexpr void __cordl_internal_set_symbols(::System::Xml::Schema::SymbolsDictionary* value);
 
-  constexpr ::System::Xml::Schema::Positions*& __get_positions();
+  constexpr ::System::Xml::Schema::Positions*& __cordl_internal_get_positions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::Positions*> const& __get_positions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::Positions*> const& __cordl_internal_get_positions() const;
 
-  constexpr void __set_positions(::System::Xml::Schema::Positions* value);
+  constexpr void __cordl_internal_set_positions(::System::Xml::Schema::Positions* value);
 
-  constexpr ::System::Collections::Stack*& __get_stack();
+  constexpr ::System::Collections::Stack*& __cordl_internal_get_stack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& __get_stack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& __cordl_internal_get_stack() const;
 
-  constexpr void __set_stack(::System::Collections::Stack* value);
+  constexpr void __cordl_internal_set_stack(::System::Collections::Stack* value);
 
-  constexpr ::System::Xml::Schema::SyntaxTreeNode*& __get_contentNode();
+  constexpr ::System::Xml::Schema::SyntaxTreeNode*& __cordl_internal_get_contentNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SyntaxTreeNode*> const& __get_contentNode() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SyntaxTreeNode*> const& __cordl_internal_get_contentNode() const;
 
-  constexpr void __set_contentNode(::System::Xml::Schema::SyntaxTreeNode* value);
+  constexpr void __cordl_internal_set_contentNode(::System::Xml::Schema::SyntaxTreeNode* value);
 
-  constexpr bool& __get_isPartial();
+  constexpr bool& __cordl_internal_get_isPartial();
 
-  constexpr bool const& __get_isPartial() const;
+  constexpr bool const& __cordl_internal_get_isPartial() const;
 
-  constexpr void __set_isPartial(bool value);
+  constexpr void __cordl_internal_set_isPartial(bool value);
 
-  constexpr int32_t& __get_minMaxNodesCount();
+  constexpr int32_t& __cordl_internal_get_minMaxNodesCount();
 
-  constexpr int32_t const& __get_minMaxNodesCount() const;
+  constexpr int32_t const& __cordl_internal_get_minMaxNodesCount() const;
 
-  constexpr void __set_minMaxNodesCount(int32_t value);
+  constexpr void __cordl_internal_set_minMaxNodesCount(int32_t value);
 
-  constexpr bool& __get_enableUpaCheck();
+  constexpr bool& __cordl_internal_get_enableUpaCheck();
 
-  constexpr bool const& __get_enableUpaCheck() const;
+  constexpr bool const& __cordl_internal_get_enableUpaCheck() const;
 
-  constexpr void __set_enableUpaCheck(bool value);
+  constexpr void __cordl_internal_set_enableUpaCheck(bool value);
 
   static inline ::System::Xml::Schema::ParticleContentValidator* New_ctor(::System::Xml::Schema::XmlSchemaContentType contentType);
 

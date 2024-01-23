@@ -27,20 +27,20 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteBigCuttableColliderSize);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4759))
 // CS Name: ::NoteBigCuttableColliderSize*
 class CORDL_TYPE NoteBigCuttableColliderSize : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _noteController, offset 0x18, size 0x8
-  __declspec(property(get = __get__noteController, put = __set__noteController))::GlobalNamespace::NoteController* _noteController;
+  __declspec(property(get = __cordl_internal_get__noteController, put = __cordl_internal_set__noteController))::UnityW<::GlobalNamespace::NoteController> _noteController;
 
   /// @brief Field _boxCollider, offset 0x20, size 0x8
-  __declspec(property(get = __get__boxCollider, put = __set__boxCollider))::UnityEngine::BoxCollider* _boxCollider;
+  __declspec(property(get = __cordl_internal_get__boxCollider, put = __cordl_internal_set__boxCollider))::UnityW<::UnityEngine::BoxCollider> _boxCollider;
 
   /// @brief Field _defaultColliderSize, offset 0x28, size 0xc
-  __declspec(property(get = __get__defaultColliderSize, put = __set__defaultColliderSize))::UnityEngine::Vector3 _defaultColliderSize;
+  __declspec(property(get = __cordl_internal_get__defaultColliderSize, put = __cordl_internal_set__defaultColliderSize))::UnityEngine::Vector3 _defaultColliderSize;
 
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
   constexpr operator ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
@@ -48,23 +48,23 @@ public:
   /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"
   constexpr ::GlobalNamespace::INoteControllerDidInitEvent* i___GlobalNamespace__INoteControllerDidInitEvent() noexcept;
 
-  constexpr ::GlobalNamespace::NoteController*& __get__noteController();
+  constexpr ::UnityW<::GlobalNamespace::NoteController>& __cordl_internal_get__noteController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteController*> const& __get__noteController() const;
+  constexpr ::UnityW<::GlobalNamespace::NoteController> const& __cordl_internal_get__noteController() const;
 
-  constexpr void __set__noteController(::GlobalNamespace::NoteController* value);
+  constexpr void __cordl_internal_set__noteController(::UnityW<::GlobalNamespace::NoteController> value);
 
-  constexpr ::UnityEngine::BoxCollider*& __get__boxCollider();
+  constexpr ::UnityW<::UnityEngine::BoxCollider>& __cordl_internal_get__boxCollider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::BoxCollider*> const& __get__boxCollider() const;
+  constexpr ::UnityW<::UnityEngine::BoxCollider> const& __cordl_internal_get__boxCollider() const;
 
-  constexpr void __set__boxCollider(::UnityEngine::BoxCollider* value);
+  constexpr void __cordl_internal_set__boxCollider(::UnityW<::UnityEngine::BoxCollider> value);
 
-  constexpr ::UnityEngine::Vector3& __get__defaultColliderSize();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__defaultColliderSize();
 
-  constexpr ::UnityEngine::Vector3 const& __get__defaultColliderSize() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__defaultColliderSize() const;
 
-  constexpr void __set__defaultColliderSize(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__defaultColliderSize(::UnityEngine::Vector3 value);
 
   /// @brief Method Awake, addr 0x2386ab4, size 0xd0, virtual false, abstract: false, final false
   inline void Awake();
@@ -95,10 +95,10 @@ protected:
 
 public:
   /// @brief Field _noteController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::NoteController* ____noteController;
+  ::UnityW<::GlobalNamespace::NoteController> ____noteController;
 
   /// @brief Field _boxCollider, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::BoxCollider* ____boxCollider;
+  ::UnityW<::UnityEngine::BoxCollider> ____boxCollider;
 
   /// @brief Field _defaultColliderSize, offset: 0x28, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____defaultColliderSize;

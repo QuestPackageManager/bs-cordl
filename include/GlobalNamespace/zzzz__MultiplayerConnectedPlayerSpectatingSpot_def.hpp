@@ -36,32 +36,35 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5259))
 // CS Name: ::MultiplayerConnectedPlayerSpectatingSpot*
 class CORDL_TYPE MultiplayerConnectedPlayerSpectatingSpot : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _connectedPlayer, offset 0x18, size 0x8
-  __declspec(property(get = __get__connectedPlayer, put = __set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
   /// @brief Field _multiplayerSessionManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _spectatingSpotManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__spectatingSpotManager, put = __set__spectatingSpotManager))::GlobalNamespace::MultiplayerSpectatingSpotManager* _spectatingSpotManager;
+  __declspec(property(get = __cordl_internal_get__spectatingSpotManager, put = __cordl_internal_set__spectatingSpotManager))::GlobalNamespace::MultiplayerSpectatingSpotManager* _spectatingSpotManager;
 
   /// @brief Field hasBeenRemovedEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_hasBeenRemovedEvent, put = __set_hasBeenRemovedEvent))::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* hasBeenRemovedEvent;
+  __declspec(property(get = __cordl_internal_get_hasBeenRemovedEvent,
+                      put = __cordl_internal_set_hasBeenRemovedEvent))::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* hasBeenRemovedEvent;
 
   /// @brief Field isObservedChangedEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_isObservedChangedEvent, put = __set_isObservedChangedEvent))::System::Action_1<bool>* isObservedChangedEvent;
+  __declspec(property(get = __cordl_internal_get_isObservedChangedEvent, put = __cordl_internal_set_isObservedChangedEvent))::System::Action_1<bool>* isObservedChangedEvent;
 
   /// @brief Field <observable>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __get__observable_k__BackingField, put = __set__observable_k__BackingField))::GlobalNamespace::IMultiplayerObservable* _observable_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__observable_k__BackingField,
+                      put = __cordl_internal_set__observable_k__BackingField))::GlobalNamespace::IMultiplayerObservable* _observable_k__BackingField;
 
   /// @brief Field _playerFailed, offset 0x48, size 0x1
-  __declspec(property(get = __get__playerFailed, put = __set__playerFailed)) bool _playerFailed;
+  __declspec(property(get = __cordl_internal_get__playerFailed, put = __cordl_internal_set__playerFailed)) bool _playerFailed;
 
   __declspec(property(get = get_observable, put = set_observable))::GlobalNamespace::IMultiplayerObservable* observable;
 
@@ -75,47 +78,47 @@ public:
   /// @brief Convert to "::GlobalNamespace::IMultiplayerSpectatingSpot"
   constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot* i___GlobalNamespace__IMultiplayerSpectatingSpot() noexcept;
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __get__connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __get__connectedPlayer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr ::GlobalNamespace::MultiplayerSpectatingSpotManager*& __get__spectatingSpotManager();
+  constexpr ::GlobalNamespace::MultiplayerSpectatingSpotManager*& __cordl_internal_get__spectatingSpotManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerSpectatingSpotManager*> const& __get__spectatingSpotManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerSpectatingSpotManager*> const& __cordl_internal_get__spectatingSpotManager() const;
 
-  constexpr void __set__spectatingSpotManager(::GlobalNamespace::MultiplayerSpectatingSpotManager* value);
+  constexpr void __cordl_internal_set__spectatingSpotManager(::GlobalNamespace::MultiplayerSpectatingSpotManager* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*& __get_hasBeenRemovedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*& __cordl_internal_get_hasBeenRemovedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*> const& __get_hasBeenRemovedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*> const& __cordl_internal_get_hasBeenRemovedEvent() const;
 
-  constexpr void __set_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
+  constexpr void __cordl_internal_set_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
-  constexpr ::System::Action_1<bool>*& __get_isObservedChangedEvent();
+  constexpr ::System::Action_1<bool>*& __cordl_internal_get_isObservedChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __get_isObservedChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_isObservedChangedEvent() const;
 
-  constexpr void __set_isObservedChangedEvent(::System::Action_1<bool>* value);
+  constexpr void __cordl_internal_set_isObservedChangedEvent(::System::Action_1<bool>* value);
 
-  constexpr ::GlobalNamespace::IMultiplayerObservable*& __get__observable_k__BackingField();
+  constexpr ::GlobalNamespace::IMultiplayerObservable*& __cordl_internal_get__observable_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerObservable*> const& __get__observable_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerObservable*> const& __cordl_internal_get__observable_k__BackingField() const;
 
-  constexpr void __set__observable_k__BackingField(::GlobalNamespace::IMultiplayerObservable* value);
+  constexpr void __cordl_internal_set__observable_k__BackingField(::GlobalNamespace::IMultiplayerObservable* value);
 
-  constexpr bool& __get__playerFailed();
+  constexpr bool& __cordl_internal_get__playerFailed();
 
-  constexpr bool const& __get__playerFailed() const;
+  constexpr bool const& __cordl_internal_get__playerFailed() const;
 
-  constexpr void __set__playerFailed(bool value);
+  constexpr void __cordl_internal_set__playerFailed(bool value);
 
   /// @brief Method add_hasBeenRemovedEvent, addr 0x225d31c, size 0xb0, virtual true, abstract: false, final true
   inline void add_hasBeenRemovedEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
@@ -165,7 +168,7 @@ public:
   inline void _ctor();
 
   /// @brief Method IMultiplayerSpectatingSpot.get_transform, addr 0x225dd38, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Transform* IMultiplayerSpectatingSpot_get_transform();
+  inline ::UnityW<::UnityEngine::Transform> IMultiplayerSpectatingSpot_get_transform();
 
   // Ctor Parameters [CppParam { name: "", ty: "MultiplayerConnectedPlayerSpectatingSpot", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

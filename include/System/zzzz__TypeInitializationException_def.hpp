@@ -24,22 +24,22 @@ MARK_REF_PTR_T(::System::TypeInitializationException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2497))
 // CS Name: ::System::TypeInitializationException*
 class CORDL_TYPE TypeInitializationException : public ::System::SystemException {
 public:
   // Declarations
   /// @brief Field _typeName, offset 0x90, size 0x8
-  __declspec(property(get = __get__typeName, put = __set__typeName))::StringW _typeName;
+  __declspec(property(get = __cordl_internal_get__typeName, put = __cordl_internal_set__typeName))::StringW _typeName;
 
   __declspec(property(get = get_TypeName))::StringW TypeName;
 
-  constexpr ::StringW& __get__typeName();
+  constexpr ::StringW& __cordl_internal_get__typeName();
 
-  constexpr ::StringW const& __get__typeName() const;
+  constexpr ::StringW const& __cordl_internal_get__typeName() const;
 
-  constexpr void __set__typeName(::StringW value);
+  constexpr void __cordl_internal_set__typeName(::StringW value);
 
   static inline ::System::TypeInitializationException* New_ctor();
 

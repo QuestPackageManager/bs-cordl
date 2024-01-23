@@ -25,14 +25,14 @@ MARK_REF_PTR_T(::VRUIControls::VRLaserPointer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15677))
 // CS Name: ::VRUIControls::VRLaserPointer*
 class CORDL_TYPE VRLaserPointer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _renderer, offset 0x18, size 0x8
-  __declspec(property(get = __get__renderer, put = __set__renderer))::UnityEngine::MeshRenderer* _renderer;
+  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::MeshRenderer> _renderer;
 
   /// @brief Field _fadeStartNormalizedDistanceId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__fadeStartNormalizedDistanceId, put = setStaticF__fadeStartNormalizedDistanceId)) int32_t _fadeStartNormalizedDistanceId;
@@ -40,11 +40,11 @@ public:
   /// @brief Field _materialPropertyBlock, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock))::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
 
-  constexpr ::UnityEngine::MeshRenderer*& __get__renderer();
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__renderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshRenderer*> const& __get__renderer() const;
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__renderer() const;
 
-  constexpr void __set__renderer(::UnityEngine::MeshRenderer* value);
+  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
   static inline void setStaticF__fadeStartNormalizedDistanceId(int32_t value);
 
@@ -83,7 +83,7 @@ protected:
 
 public:
   /// @brief Field _renderer, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::MeshRenderer* ____renderer;
+  ::UnityW<::UnityEngine::MeshRenderer> ____renderer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

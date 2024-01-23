@@ -48,20 +48,20 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::__InputState__StateChangeMo
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6564))
 // CS Name: ::InputState::StateChangeMonitorDelegate*
 class CORDL_TYPE __InputState__StateChangeMonitorDelegate : public ::System::Object {
 public:
   // Declarations
   /// @brief Field valueChangeCallback, offset 0x10, size 0x8
-  __declspec(property(
-      get = __get_valueChangeCallback,
-      put = __set_valueChangeCallback))::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, int64_t>* valueChangeCallback;
+  __declspec(property(get = __cordl_internal_get_valueChangeCallback,
+                      put = __cordl_internal_set_valueChangeCallback))::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr,
+                                                                                         int64_t>* valueChangeCallback;
 
   /// @brief Field timerExpiredCallback, offset 0x18, size 0x8
-  __declspec(property(get = __get_timerExpiredCallback,
-                      put = __set_timerExpiredCallback))::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, int64_t, int32_t>* timerExpiredCallback;
+  __declspec(property(get = __cordl_internal_get_timerExpiredCallback,
+                      put = __cordl_internal_set_timerExpiredCallback))::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, int64_t, int32_t>* timerExpiredCallback;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*() noexcept;
@@ -69,18 +69,18 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* i___UnityEngine__InputSystem__LowLevel__IInputStateChangeMonitor() noexcept;
 
-  constexpr ::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, int64_t>*& __get_valueChangeCallback();
+  constexpr ::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, int64_t>*& __cordl_internal_get_valueChangeCallback();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, int64_t>*> const&
-  __get_valueChangeCallback() const;
+  __cordl_internal_get_valueChangeCallback() const;
 
-  constexpr void __set_valueChangeCallback(::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, int64_t>* value);
+  constexpr void __cordl_internal_set_valueChangeCallback(::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, int64_t>* value);
 
-  constexpr ::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, int64_t, int32_t>*& __get_timerExpiredCallback();
+  constexpr ::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, int64_t, int32_t>*& __cordl_internal_get_timerExpiredCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, int64_t, int32_t>*> const& __get_timerExpiredCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, int64_t, int32_t>*> const& __cordl_internal_get_timerExpiredCallback() const;
 
-  constexpr void __set_timerExpiredCallback(::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, int64_t, int32_t>* value);
+  constexpr void __cordl_internal_set_timerExpiredCallback(::System::Action_4<::UnityEngine::InputSystem::InputControl*, double_t, int64_t, int32_t>* value);
 
   /// @brief Method NotifyControlStateChanged, addr 0x2af2658, size 0x24, virtual true, abstract: false, final true
   inline void NotifyControlStateChanged(::UnityEngine::InputSystem::InputControl* control, double_t time, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, int64_t monitorIndex);
@@ -127,7 +127,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputState__State
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6565))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputState*
 class CORDL_TYPE InputState : public ::System::Object {

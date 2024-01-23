@@ -38,20 +38,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__EnableAfterDelay___Start_d__1);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14360))
 // CS Name: ::EnableAfterDelay::<Start>d__1*
 class CORDL_TYPE __EnableAfterDelay___Start_d__1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::EnableAfterDelay* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::EnableAfterDelay> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -75,23 +75,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::EnableAfterDelay*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::EnableAfterDelay>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnableAfterDelay*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::EnableAfterDelay> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::EnableAfterDelay* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::EnableAfterDelay> value);
 
   static inline ::GlobalNamespace::__EnableAfterDelay___Start_d__1* New_ctor(int32_t __1__state);
 
@@ -134,7 +134,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::EnableAfterDelay* _____4__this;
+  ::UnityW<::GlobalNamespace::EnableAfterDelay> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -152,7 +152,7 @@ static_assert(offsetof(::GlobalNamespace::__EnableAfterDelay___Start_d__1, _____
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14361))
 // CS Name: ::EnableAfterDelay*
 class CORDL_TYPE EnableAfterDelay : public ::UnityEngine::MonoBehaviour {
@@ -161,13 +161,13 @@ public:
   using _Start_d__1 = ::GlobalNamespace::__EnableAfterDelay___Start_d__1;
 
   /// @brief Field _component, offset 0x18, size 0x8
-  __declspec(property(get = __get__component, put = __set__component))::UnityEngine::MonoBehaviour* _component;
+  __declspec(property(get = __cordl_internal_get__component, put = __cordl_internal_set__component))::UnityW<::UnityEngine::MonoBehaviour> _component;
 
-  constexpr ::UnityEngine::MonoBehaviour*& __get__component();
+  constexpr ::UnityW<::UnityEngine::MonoBehaviour>& __cordl_internal_get__component();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MonoBehaviour*> const& __get__component() const;
+  constexpr ::UnityW<::UnityEngine::MonoBehaviour> const& __cordl_internal_get__component() const;
 
-  constexpr void __set__component(::UnityEngine::MonoBehaviour* value);
+  constexpr void __cordl_internal_set__component(::UnityW<::UnityEngine::MonoBehaviour> value);
 
   /// @brief Method Start, addr 0x20f1ea0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
@@ -192,7 +192,7 @@ protected:
 
 public:
   /// @brief Field _component, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::MonoBehaviour* ____component;
+  ::UnityW<::UnityEngine::MonoBehaviour> ____component;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

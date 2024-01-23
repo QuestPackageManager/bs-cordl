@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::UnityEngine::HeaderAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10175))
 // CS Name: ::UnityEngine::HeaderAttribute*
 class CORDL_TYPE HeaderAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   /// @brief Field header, offset 0x10, size 0x8
-  __declspec(property(get = __get_header, put = __set_header))::StringW header;
+  __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header))::StringW header;
 
-  constexpr ::StringW& __get_header();
+  constexpr ::StringW& __cordl_internal_get_header();
 
-  constexpr ::StringW const& __get_header() const;
+  constexpr ::StringW const& __cordl_internal_get_header() const;
 
-  constexpr void __set_header(::StringW value);
+  constexpr void __cordl_internal_set_header(::StringW value);
 
   static inline ::UnityEngine::HeaderAttribute* New_ctor(::StringW header);
 

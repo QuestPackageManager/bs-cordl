@@ -24,32 +24,32 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocat
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13983))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13983))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14114))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::ResourceLocationData*
 class CORDL_TYPE ResourceLocationData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Keys, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Keys, put = __set_m_Keys))::ArrayW<::StringW, ::Array<::StringW>*> m_Keys;
+  __declspec(property(get = __cordl_internal_get_m_Keys, put = __cordl_internal_set_m_Keys))::ArrayW<::StringW, ::Array<::StringW>*> m_Keys;
 
   /// @brief Field m_InternalId, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_InternalId, put = __set_m_InternalId))::StringW m_InternalId;
+  __declspec(property(get = __cordl_internal_get_m_InternalId, put = __cordl_internal_set_m_InternalId))::StringW m_InternalId;
 
   /// @brief Field m_Provider, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Provider, put = __set_m_Provider))::StringW m_Provider;
+  __declspec(property(get = __cordl_internal_get_m_Provider, put = __cordl_internal_set_m_Provider))::StringW m_Provider;
 
   /// @brief Field m_Dependencies, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Dependencies, put = __set_m_Dependencies))::ArrayW<::StringW, ::Array<::StringW>*> m_Dependencies;
+  __declspec(property(get = __cordl_internal_get_m_Dependencies, put = __cordl_internal_set_m_Dependencies))::ArrayW<::StringW, ::Array<::StringW>*> m_Dependencies;
 
   /// @brief Field m_ResourceType, offset 0x30, size 0x20
-  __declspec(property(get = __get_m_ResourceType, put = __set_m_ResourceType))::UnityEngine::ResourceManagement::Util::SerializedType m_ResourceType;
+  __declspec(property(get = __cordl_internal_get_m_ResourceType, put = __cordl_internal_set_m_ResourceType))::UnityEngine::ResourceManagement::Util::SerializedType m_ResourceType;
 
   /// @brief Field SerializedData, offset 0x50, size 0x8
-  __declspec(property(get = __get_SerializedData, put = __set_SerializedData))::ArrayW<uint8_t, ::Array<uint8_t>*> SerializedData;
+  __declspec(property(get = __cordl_internal_get_SerializedData, put = __cordl_internal_set_SerializedData))::ArrayW<uint8_t, ::Array<uint8_t>*> SerializedData;
 
   /// @brief Field _Data, offset 0x58, size 0x8
-  __declspec(property(get = __get__Data, put = __set__Data))::System::Object* _Data;
+  __declspec(property(get = __cordl_internal_get__Data, put = __cordl_internal_set__Data))::System::Object* _Data;
 
   __declspec(property(get = get_Keys))::ArrayW<::StringW, ::Array<::StringW>*> Keys;
 
@@ -63,47 +63,47 @@ public:
 
   __declspec(property(get = get_Data, put = set_Data))::System::Object* Data;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_Keys();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_Keys();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_Keys() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_Keys() const;
 
-  constexpr void __set_m_Keys(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_Keys(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::StringW& __get_m_InternalId();
+  constexpr ::StringW& __cordl_internal_get_m_InternalId();
 
-  constexpr ::StringW const& __get_m_InternalId() const;
+  constexpr ::StringW const& __cordl_internal_get_m_InternalId() const;
 
-  constexpr void __set_m_InternalId(::StringW value);
+  constexpr void __cordl_internal_set_m_InternalId(::StringW value);
 
-  constexpr ::StringW& __get_m_Provider();
+  constexpr ::StringW& __cordl_internal_get_m_Provider();
 
-  constexpr ::StringW const& __get_m_Provider() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Provider() const;
 
-  constexpr void __set_m_Provider(::StringW value);
+  constexpr void __cordl_internal_set_m_Provider(::StringW value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_Dependencies();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_Dependencies();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_Dependencies() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_Dependencies() const;
 
-  constexpr void __set_m_Dependencies(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_Dependencies(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::UnityEngine::ResourceManagement::Util::SerializedType& __get_m_ResourceType();
+  constexpr ::UnityEngine::ResourceManagement::Util::SerializedType& __cordl_internal_get_m_ResourceType();
 
-  constexpr ::UnityEngine::ResourceManagement::Util::SerializedType const& __get_m_ResourceType() const;
+  constexpr ::UnityEngine::ResourceManagement::Util::SerializedType const& __cordl_internal_get_m_ResourceType() const;
 
-  constexpr void __set_m_ResourceType(::UnityEngine::ResourceManagement::Util::SerializedType value);
+  constexpr void __cordl_internal_set_m_ResourceType(::UnityEngine::ResourceManagement::Util::SerializedType value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_SerializedData();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_SerializedData();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_SerializedData() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_SerializedData() const;
 
-  constexpr void __set_SerializedData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_SerializedData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Object*& __get__Data();
+  constexpr ::System::Object*& __cordl_internal_get__Data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__Data() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__Data() const;
 
-  constexpr void __set__Data(::System::Object* value);
+  constexpr void __cordl_internal_set__Data(::System::Object* value);
 
   /// @brief Method get_Keys, addr 0x2a2e958, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_Keys();

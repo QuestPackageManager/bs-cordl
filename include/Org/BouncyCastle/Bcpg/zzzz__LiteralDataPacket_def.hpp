@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::LiteralDataPacket);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(557))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(557))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(573))
 // CS Name: ::Org.BouncyCastle.Bcpg::LiteralDataPacket*
 class CORDL_TYPE LiteralDataPacket : public ::Org::BouncyCastle::Bcpg::InputStreamPacket {
 public:
   // Declarations
   /// @brief Field format, offset 0x18, size 0x4
-  __declspec(property(get = __get_format, put = __set_format)) int32_t format;
+  __declspec(property(get = __cordl_internal_get_format, put = __cordl_internal_set_format)) int32_t format;
 
   /// @brief Field fileName, offset 0x20, size 0x8
-  __declspec(property(get = __get_fileName, put = __set_fileName))::ArrayW<uint8_t, ::Array<uint8_t>*> fileName;
+  __declspec(property(get = __cordl_internal_get_fileName, put = __cordl_internal_set_fileName))::ArrayW<uint8_t, ::Array<uint8_t>*> fileName;
 
   /// @brief Field modDate, offset 0x28, size 0x8
-  __declspec(property(get = __get_modDate, put = __set_modDate)) int64_t modDate;
+  __declspec(property(get = __cordl_internal_get_modDate, put = __cordl_internal_set_modDate)) int64_t modDate;
 
   __declspec(property(get = get_Format)) int32_t Format;
 
@@ -41,23 +41,23 @@ public:
 
   __declspec(property(get = get_FileName))::StringW FileName;
 
-  constexpr int32_t& __get_format();
+  constexpr int32_t& __cordl_internal_get_format();
 
-  constexpr int32_t const& __get_format() const;
+  constexpr int32_t const& __cordl_internal_get_format() const;
 
-  constexpr void __set_format(int32_t value);
+  constexpr void __cordl_internal_set_format(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_fileName();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_fileName();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_fileName() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_fileName() const;
 
-  constexpr void __set_fileName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_fileName(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int64_t& __get_modDate();
+  constexpr int64_t& __cordl_internal_get_modDate();
 
-  constexpr int64_t const& __get_modDate() const;
+  constexpr int64_t const& __cordl_internal_get_modDate() const;
 
-  constexpr void __set_modDate(int64_t value);
+  constexpr void __cordl_internal_set_modDate(int64_t value);
 
   static inline ::Org::BouncyCastle::Bcpg::LiteralDataPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 

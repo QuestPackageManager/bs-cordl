@@ -41,46 +41,46 @@ MARK_REF_PTR_T(::TMPro::TextContainer);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12305)), TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12306)) CS Name: ::TMPro::TextContainer*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12305)), TypeDefinitionIndex(TypeDefinitionIndex(13214))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12306)) CS Name: ::TMPro::TextContainer*
 class CORDL_TYPE TextContainer : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
   /// @brief Field m_hasChanged, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_hasChanged, put = __set_m_hasChanged)) bool m_hasChanged;
+  __declspec(property(get = __cordl_internal_get_m_hasChanged, put = __cordl_internal_set_m_hasChanged)) bool m_hasChanged;
 
   /// @brief Field m_pivot, offset 0x1c, size 0x8
-  __declspec(property(get = __get_m_pivot, put = __set_m_pivot))::UnityEngine::Vector2 m_pivot;
+  __declspec(property(get = __cordl_internal_get_m_pivot, put = __cordl_internal_set_m_pivot))::UnityEngine::Vector2 m_pivot;
 
   /// @brief Field m_anchorPosition, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_anchorPosition, put = __set_m_anchorPosition))::TMPro::TextContainerAnchors m_anchorPosition;
+  __declspec(property(get = __cordl_internal_get_m_anchorPosition, put = __cordl_internal_set_m_anchorPosition))::TMPro::TextContainerAnchors m_anchorPosition;
 
   /// @brief Field m_rect, offset 0x28, size 0x10
-  __declspec(property(get = __get_m_rect, put = __set_m_rect))::UnityEngine::Rect m_rect;
+  __declspec(property(get = __cordl_internal_get_m_rect, put = __cordl_internal_set_m_rect))::UnityEngine::Rect m_rect;
 
   /// @brief Field m_isDefaultWidth, offset 0x38, size 0x1
-  __declspec(property(get = __get_m_isDefaultWidth, put = __set_m_isDefaultWidth)) bool m_isDefaultWidth;
+  __declspec(property(get = __cordl_internal_get_m_isDefaultWidth, put = __cordl_internal_set_m_isDefaultWidth)) bool m_isDefaultWidth;
 
   /// @brief Field m_isDefaultHeight, offset 0x39, size 0x1
-  __declspec(property(get = __get_m_isDefaultHeight, put = __set_m_isDefaultHeight)) bool m_isDefaultHeight;
+  __declspec(property(get = __cordl_internal_get_m_isDefaultHeight, put = __cordl_internal_set_m_isDefaultHeight)) bool m_isDefaultHeight;
 
   /// @brief Field m_isAutoFitting, offset 0x3a, size 0x1
-  __declspec(property(get = __get_m_isAutoFitting, put = __set_m_isAutoFitting)) bool m_isAutoFitting;
+  __declspec(property(get = __cordl_internal_get_m_isAutoFitting, put = __cordl_internal_set_m_isAutoFitting)) bool m_isAutoFitting;
 
   /// @brief Field m_corners, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_corners, put = __set_m_corners))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_corners;
+  __declspec(property(get = __cordl_internal_get_m_corners, put = __cordl_internal_set_m_corners))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_corners;
 
   /// @brief Field m_worldCorners, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_worldCorners, put = __set_m_worldCorners))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_worldCorners;
+  __declspec(property(get = __cordl_internal_get_m_worldCorners, put = __cordl_internal_set_m_worldCorners))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> m_worldCorners;
 
   /// @brief Field m_margins, offset 0x50, size 0x10
-  __declspec(property(get = __get_m_margins, put = __set_m_margins))::UnityEngine::Vector4 m_margins;
+  __declspec(property(get = __cordl_internal_get_m_margins, put = __cordl_internal_set_m_margins))::UnityEngine::Vector4 m_margins;
 
   /// @brief Field m_rectTransform, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_rectTransform, put = __set_m_rectTransform))::UnityEngine::RectTransform* m_rectTransform;
+  __declspec(property(get = __cordl_internal_get_m_rectTransform, put = __cordl_internal_set_m_rectTransform))::UnityW<::UnityEngine::RectTransform> m_rectTransform;
 
   /// @brief Field m_textMeshPro, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_textMeshPro, put = __set_m_textMeshPro))::TMPro::TextMeshPro* m_textMeshPro;
+  __declspec(property(get = __cordl_internal_get_m_textMeshPro, put = __cordl_internal_set_m_textMeshPro))::UnityW<::TMPro::TextMeshPro> m_textMeshPro;
 
   /// @brief Field k_defaultSize, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_defaultSize, put = setStaticF_k_defaultSize))::UnityEngine::Vector2 k_defaultSize;
@@ -111,81 +111,81 @@ public:
 
   __declspec(property(get = get_margins, put = set_margins))::UnityEngine::Vector4 margins;
 
-  __declspec(property(get = get_rectTransform))::UnityEngine::RectTransform* rectTransform;
+  __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
 
-  __declspec(property(get = get_textMeshPro))::TMPro::TextMeshPro* textMeshPro;
+  __declspec(property(get = get_textMeshPro))::UnityW<::TMPro::TextMeshPro> textMeshPro;
 
-  constexpr bool& __get_m_hasChanged();
+  constexpr bool& __cordl_internal_get_m_hasChanged();
 
-  constexpr bool const& __get_m_hasChanged() const;
+  constexpr bool const& __cordl_internal_get_m_hasChanged() const;
 
-  constexpr void __set_m_hasChanged(bool value);
+  constexpr void __cordl_internal_set_m_hasChanged(bool value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_pivot();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_pivot();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_pivot() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_pivot() const;
 
-  constexpr void __set_m_pivot(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_pivot(::UnityEngine::Vector2 value);
 
-  constexpr ::TMPro::TextContainerAnchors& __get_m_anchorPosition();
+  constexpr ::TMPro::TextContainerAnchors& __cordl_internal_get_m_anchorPosition();
 
-  constexpr ::TMPro::TextContainerAnchors const& __get_m_anchorPosition() const;
+  constexpr ::TMPro::TextContainerAnchors const& __cordl_internal_get_m_anchorPosition() const;
 
-  constexpr void __set_m_anchorPosition(::TMPro::TextContainerAnchors value);
+  constexpr void __cordl_internal_set_m_anchorPosition(::TMPro::TextContainerAnchors value);
 
-  constexpr ::UnityEngine::Rect& __get_m_rect();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_rect();
 
-  constexpr ::UnityEngine::Rect const& __get_m_rect() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_rect() const;
 
-  constexpr void __set_m_rect(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_m_rect(::UnityEngine::Rect value);
 
-  constexpr bool& __get_m_isDefaultWidth();
+  constexpr bool& __cordl_internal_get_m_isDefaultWidth();
 
-  constexpr bool const& __get_m_isDefaultWidth() const;
+  constexpr bool const& __cordl_internal_get_m_isDefaultWidth() const;
 
-  constexpr void __set_m_isDefaultWidth(bool value);
+  constexpr void __cordl_internal_set_m_isDefaultWidth(bool value);
 
-  constexpr bool& __get_m_isDefaultHeight();
+  constexpr bool& __cordl_internal_get_m_isDefaultHeight();
 
-  constexpr bool const& __get_m_isDefaultHeight() const;
+  constexpr bool const& __cordl_internal_get_m_isDefaultHeight() const;
 
-  constexpr void __set_m_isDefaultHeight(bool value);
+  constexpr void __cordl_internal_set_m_isDefaultHeight(bool value);
 
-  constexpr bool& __get_m_isAutoFitting();
+  constexpr bool& __cordl_internal_get_m_isAutoFitting();
 
-  constexpr bool const& __get_m_isAutoFitting() const;
+  constexpr bool const& __cordl_internal_get_m_isAutoFitting() const;
 
-  constexpr void __set_m_isAutoFitting(bool value);
+  constexpr void __cordl_internal_set_m_isAutoFitting(bool value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get_m_corners();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_m_corners();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get_m_corners() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_corners() const;
 
-  constexpr void __set_m_corners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set_m_corners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get_m_worldCorners();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_m_worldCorners();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get_m_worldCorners() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_worldCorners() const;
 
-  constexpr void __set_m_worldCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set_m_worldCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  constexpr ::UnityEngine::Vector4& __get_m_margins();
+  constexpr ::UnityEngine::Vector4& __cordl_internal_get_m_margins();
 
-  constexpr ::UnityEngine::Vector4 const& __get_m_margins() const;
+  constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_m_margins() const;
 
-  constexpr void __set_m_margins(::UnityEngine::Vector4 value);
+  constexpr void __cordl_internal_set_m_margins(::UnityEngine::Vector4 value);
 
-  constexpr ::UnityEngine::RectTransform*& __get_m_rectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_rectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_rectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_rectTransform() const;
 
-  constexpr void __set_m_rectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_m_rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::TMPro::TextMeshPro*& __get_m_textMeshPro();
+  constexpr ::UnityW<::TMPro::TextMeshPro>& __cordl_internal_get_m_textMeshPro();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshPro*> const& __get_m_textMeshPro() const;
+  constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get_m_textMeshPro() const;
 
-  constexpr void __set_m_textMeshPro(::TMPro::TextMeshPro* value);
+  constexpr void __cordl_internal_set_m_textMeshPro(::UnityW<::TMPro::TextMeshPro> value);
 
   static inline void setStaticF_k_defaultSize(::UnityEngine::Vector2 value);
 
@@ -258,10 +258,10 @@ public:
   inline void set_margins(::UnityEngine::Vector4 value);
 
   /// @brief Method get_rectTransform, addr 0x2bf08d4, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::RectTransform* get_rectTransform();
+  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
   /// @brief Method get_textMeshPro, addr 0x2bf0968, size 0x94, virtual false, abstract: false, final false
-  inline ::TMPro::TextMeshPro* get_textMeshPro();
+  inline ::UnityW<::TMPro::TextMeshPro> get_textMeshPro();
 
   /// @brief Method Awake, addr 0x2bf09fc, size 0xc8, virtual true, abstract: false, final false
   inline void Awake();
@@ -340,10 +340,10 @@ public:
   ::UnityEngine::Vector4 ___m_margins;
 
   /// @brief Field m_rectTransform, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___m_rectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ___m_rectTransform;
 
   /// @brief Field m_textMeshPro, offset: 0x68, size: 0x8, def value: None
-  ::TMPro::TextMeshPro* ___m_textMeshPro;
+  ::UnityW<::TMPro::TextMeshPro> ___m_textMeshPro;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

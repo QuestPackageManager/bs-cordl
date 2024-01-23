@@ -77,7 +77,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRSkeleton__SkeletonPoseData);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8166))
 // CS Name: ::OVRSkeleton::IOVRSkeletonDataProvider*
 class CORDL_TYPE __OVRSkeleton__IOVRSkeletonDataProvider {
@@ -110,7 +110,7 @@ public:
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7726))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7726))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8167))
 // CS Name: ::OVRSkeleton::SkeletonPoseData
 struct CORDL_TYPE __OVRSkeleton__SkeletonPoseData {
@@ -236,7 +236,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeleton__SkeletonPoseData, _Skel
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8168))
 // CS Name: ::OVRSkeleton::SkeletonType
 struct CORDL_TYPE __OVRSkeleton__SkeletonType {
@@ -294,7 +294,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeleton__SkeletonType, value__) 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8169))
 // CS Name: ::OVRSkeleton::BoneId
 struct CORDL_TYPE __OVRSkeleton__BoneId {
@@ -740,8 +740,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRSkeleton__BoneId, value__) == 0x0
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 180, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8168)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(7778)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8170)) CS Name: ::OVRSkeleton*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7778)), TypeDefinitionIndex(TypeDefinitionIndex(8168)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8170)) CS Name: ::OVRSkeleton*
 class CORDL_TYPE OVRSkeleton : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -754,68 +754,71 @@ public:
   using IOVRSkeletonDataProvider = ::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider;
 
   /// @brief Field _skeletonType, offset 0x18, size 0x4
-  __declspec(property(get = __get__skeletonType, put = __set__skeletonType))::GlobalNamespace::__OVRSkeleton__SkeletonType _skeletonType;
+  __declspec(property(get = __cordl_internal_get__skeletonType, put = __cordl_internal_set__skeletonType))::GlobalNamespace::__OVRSkeleton__SkeletonType _skeletonType;
 
   /// @brief Field _dataProvider, offset 0x20, size 0x8
-  __declspec(property(get = __get__dataProvider, put = __set__dataProvider))::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider* _dataProvider;
+  __declspec(property(get = __cordl_internal_get__dataProvider, put = __cordl_internal_set__dataProvider))::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider* _dataProvider;
 
   /// @brief Field _updateRootPose, offset 0x28, size 0x1
-  __declspec(property(get = __get__updateRootPose, put = __set__updateRootPose)) bool _updateRootPose;
+  __declspec(property(get = __cordl_internal_get__updateRootPose, put = __cordl_internal_set__updateRootPose)) bool _updateRootPose;
 
   /// @brief Field _updateRootScale, offset 0x29, size 0x1
-  __declspec(property(get = __get__updateRootScale, put = __set__updateRootScale)) bool _updateRootScale;
+  __declspec(property(get = __cordl_internal_get__updateRootScale, put = __cordl_internal_set__updateRootScale)) bool _updateRootScale;
 
   /// @brief Field _enablePhysicsCapsules, offset 0x2a, size 0x1
-  __declspec(property(get = __get__enablePhysicsCapsules, put = __set__enablePhysicsCapsules)) bool _enablePhysicsCapsules;
+  __declspec(property(get = __cordl_internal_get__enablePhysicsCapsules, put = __cordl_internal_set__enablePhysicsCapsules)) bool _enablePhysicsCapsules;
 
   /// @brief Field _applyBoneTranslations, offset 0x2b, size 0x1
-  __declspec(property(get = __get__applyBoneTranslations, put = __set__applyBoneTranslations)) bool _applyBoneTranslations;
+  __declspec(property(get = __cordl_internal_get__applyBoneTranslations, put = __cordl_internal_set__applyBoneTranslations)) bool _applyBoneTranslations;
 
   /// @brief Field _bonesGO, offset 0x30, size 0x8
-  __declspec(property(get = __get__bonesGO, put = __set__bonesGO))::UnityEngine::GameObject* _bonesGO;
+  __declspec(property(get = __cordl_internal_get__bonesGO, put = __cordl_internal_set__bonesGO))::UnityW<::UnityEngine::GameObject> _bonesGO;
 
   /// @brief Field _bindPosesGO, offset 0x38, size 0x8
-  __declspec(property(get = __get__bindPosesGO, put = __set__bindPosesGO))::UnityEngine::GameObject* _bindPosesGO;
+  __declspec(property(get = __cordl_internal_get__bindPosesGO, put = __cordl_internal_set__bindPosesGO))::UnityW<::UnityEngine::GameObject> _bindPosesGO;
 
   /// @brief Field _capsulesGO, offset 0x40, size 0x8
-  __declspec(property(get = __get__capsulesGO, put = __set__capsulesGO))::UnityEngine::GameObject* _capsulesGO;
+  __declspec(property(get = __cordl_internal_get__capsulesGO, put = __cordl_internal_set__capsulesGO))::UnityW<::UnityEngine::GameObject> _capsulesGO;
 
   /// @brief Field _bones, offset 0x48, size 0x8
-  __declspec(property(get = __get__bones, put = __set__bones))::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>* _bones;
+  __declspec(property(get = __cordl_internal_get__bones, put = __cordl_internal_set__bones))::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>* _bones;
 
   /// @brief Field _bindPoses, offset 0x50, size 0x8
-  __declspec(property(get = __get__bindPoses, put = __set__bindPoses))::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>* _bindPoses;
+  __declspec(property(get = __cordl_internal_get__bindPoses, put = __cordl_internal_set__bindPoses))::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>* _bindPoses;
 
   /// @brief Field _capsules, offset 0x58, size 0x8
-  __declspec(property(get = __get__capsules, put = __set__capsules))::System::Collections::Generic::List_1<::GlobalNamespace::OVRBoneCapsule*>* _capsules;
+  __declspec(property(get = __cordl_internal_get__capsules, put = __cordl_internal_set__capsules))::System::Collections::Generic::List_1<::GlobalNamespace::OVRBoneCapsule*>* _capsules;
 
   /// @brief Field _skeleton, offset 0x60, size 0x20
-  __declspec(property(get = __get__skeleton, put = __set__skeleton))::GlobalNamespace::__OVRPlugin__Skeleton2 _skeleton;
+  __declspec(property(get = __cordl_internal_get__skeleton, put = __cordl_internal_set__skeleton))::GlobalNamespace::__OVRPlugin__Skeleton2 _skeleton;
 
   /// @brief Field wristFixupRotation, offset 0x80, size 0x10
-  __declspec(property(get = __get_wristFixupRotation, put = __set_wristFixupRotation))::UnityEngine::Quaternion wristFixupRotation;
+  __declspec(property(get = __cordl_internal_get_wristFixupRotation, put = __cordl_internal_set_wristFixupRotation))::UnityEngine::Quaternion wristFixupRotation;
 
   /// @brief Field <IsInitialized>k__BackingField, offset 0x90, size 0x1
-  __declspec(property(get = __get__IsInitialized_k__BackingField, put = __set__IsInitialized_k__BackingField)) bool _IsInitialized_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsInitialized_k__BackingField, put = __cordl_internal_set__IsInitialized_k__BackingField)) bool _IsInitialized_k__BackingField;
 
   /// @brief Field <IsDataValid>k__BackingField, offset 0x91, size 0x1
-  __declspec(property(get = __get__IsDataValid_k__BackingField, put = __set__IsDataValid_k__BackingField)) bool _IsDataValid_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsDataValid_k__BackingField, put = __cordl_internal_set__IsDataValid_k__BackingField)) bool _IsDataValid_k__BackingField;
 
   /// @brief Field <IsDataHighConfidence>k__BackingField, offset 0x92, size 0x1
-  __declspec(property(get = __get__IsDataHighConfidence_k__BackingField, put = __set__IsDataHighConfidence_k__BackingField)) bool _IsDataHighConfidence_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsDataHighConfidence_k__BackingField, put = __cordl_internal_set__IsDataHighConfidence_k__BackingField)) bool _IsDataHighConfidence_k__BackingField;
 
   /// @brief Field <Bones>k__BackingField, offset 0x98, size 0x8
-  __declspec(property(get = __get__Bones_k__BackingField, put = __set__Bones_k__BackingField))::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* _Bones_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Bones_k__BackingField,
+                      put = __cordl_internal_set__Bones_k__BackingField))::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* _Bones_k__BackingField;
 
   /// @brief Field <BindPoses>k__BackingField, offset 0xa0, size 0x8
-  __declspec(property(get = __get__BindPoses_k__BackingField, put = __set__BindPoses_k__BackingField))::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* _BindPoses_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BindPoses_k__BackingField,
+                      put = __cordl_internal_set__BindPoses_k__BackingField))::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* _BindPoses_k__BackingField;
 
   /// @brief Field <Capsules>k__BackingField, offset 0xa8, size 0x8
-  __declspec(property(get = __get__Capsules_k__BackingField,
-                      put = __set__Capsules_k__BackingField))::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBoneCapsule*>* _Capsules_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Capsules_k__BackingField,
+                      put = __cordl_internal_set__Capsules_k__BackingField))::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBoneCapsule*>* _Capsules_k__BackingField;
 
   /// @brief Field <SkeletonChangedCount>k__BackingField, offset 0xb0, size 0x4
-  __declspec(property(get = __get__SkeletonChangedCount_k__BackingField, put = __set__SkeletonChangedCount_k__BackingField)) int32_t _SkeletonChangedCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SkeletonChangedCount_k__BackingField,
+                      put = __cordl_internal_set__SkeletonChangedCount_k__BackingField)) int32_t _SkeletonChangedCount_k__BackingField;
 
   __declspec(property(get = get_IsInitialized, put = set_IsInitialized)) bool IsInitialized;
 
@@ -831,131 +834,131 @@ public:
 
   __declspec(property(get = get_SkeletonChangedCount, put = set_SkeletonChangedCount)) int32_t SkeletonChangedCount;
 
-  constexpr ::GlobalNamespace::__OVRSkeleton__SkeletonType& __get__skeletonType();
+  constexpr ::GlobalNamespace::__OVRSkeleton__SkeletonType& __cordl_internal_get__skeletonType();
 
-  constexpr ::GlobalNamespace::__OVRSkeleton__SkeletonType const& __get__skeletonType() const;
+  constexpr ::GlobalNamespace::__OVRSkeleton__SkeletonType const& __cordl_internal_get__skeletonType() const;
 
-  constexpr void __set__skeletonType(::GlobalNamespace::__OVRSkeleton__SkeletonType value);
+  constexpr void __cordl_internal_set__skeletonType(::GlobalNamespace::__OVRSkeleton__SkeletonType value);
 
-  constexpr ::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider*& __get__dataProvider();
+  constexpr ::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider*& __cordl_internal_get__dataProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider*> const& __get__dataProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider*> const& __cordl_internal_get__dataProvider() const;
 
-  constexpr void __set__dataProvider(::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider* value);
+  constexpr void __cordl_internal_set__dataProvider(::GlobalNamespace::__OVRSkeleton__IOVRSkeletonDataProvider* value);
 
-  constexpr bool& __get__updateRootPose();
+  constexpr bool& __cordl_internal_get__updateRootPose();
 
-  constexpr bool const& __get__updateRootPose() const;
+  constexpr bool const& __cordl_internal_get__updateRootPose() const;
 
-  constexpr void __set__updateRootPose(bool value);
+  constexpr void __cordl_internal_set__updateRootPose(bool value);
 
-  constexpr bool& __get__updateRootScale();
+  constexpr bool& __cordl_internal_get__updateRootScale();
 
-  constexpr bool const& __get__updateRootScale() const;
+  constexpr bool const& __cordl_internal_get__updateRootScale() const;
 
-  constexpr void __set__updateRootScale(bool value);
+  constexpr void __cordl_internal_set__updateRootScale(bool value);
 
-  constexpr bool& __get__enablePhysicsCapsules();
+  constexpr bool& __cordl_internal_get__enablePhysicsCapsules();
 
-  constexpr bool const& __get__enablePhysicsCapsules() const;
+  constexpr bool const& __cordl_internal_get__enablePhysicsCapsules() const;
 
-  constexpr void __set__enablePhysicsCapsules(bool value);
+  constexpr void __cordl_internal_set__enablePhysicsCapsules(bool value);
 
-  constexpr bool& __get__applyBoneTranslations();
+  constexpr bool& __cordl_internal_get__applyBoneTranslations();
 
-  constexpr bool const& __get__applyBoneTranslations() const;
+  constexpr bool const& __cordl_internal_get__applyBoneTranslations() const;
 
-  constexpr void __set__applyBoneTranslations(bool value);
+  constexpr void __cordl_internal_set__applyBoneTranslations(bool value);
 
-  constexpr ::UnityEngine::GameObject*& __get__bonesGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__bonesGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__bonesGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__bonesGO() const;
 
-  constexpr void __set__bonesGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__bonesGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__bindPosesGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__bindPosesGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__bindPosesGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__bindPosesGO() const;
 
-  constexpr void __set__bindPosesGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__bindPosesGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__capsulesGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__capsulesGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__capsulesGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__capsulesGO() const;
 
-  constexpr void __set__capsulesGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__capsulesGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>*& __get__bones();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>*& __cordl_internal_get__bones();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>*> const& __get__bones() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>*> const& __cordl_internal_get__bones() const;
 
-  constexpr void __set__bones(::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>* value);
+  constexpr void __cordl_internal_set__bones(::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>*& __get__bindPoses();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>*& __cordl_internal_get__bindPoses();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>*> const& __get__bindPoses() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>*> const& __cordl_internal_get__bindPoses() const;
 
-  constexpr void __set__bindPoses(::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>* value);
+  constexpr void __cordl_internal_set__bindPoses(::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRBoneCapsule*>*& __get__capsules();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRBoneCapsule*>*& __cordl_internal_get__capsules();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRBoneCapsule*>*> const& __get__capsules() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::OVRBoneCapsule*>*> const& __cordl_internal_get__capsules() const;
 
-  constexpr void __set__capsules(::System::Collections::Generic::List_1<::GlobalNamespace::OVRBoneCapsule*>* value);
+  constexpr void __cordl_internal_set__capsules(::System::Collections::Generic::List_1<::GlobalNamespace::OVRBoneCapsule*>* value);
 
-  constexpr ::GlobalNamespace::__OVRPlugin__Skeleton2& __get__skeleton();
+  constexpr ::GlobalNamespace::__OVRPlugin__Skeleton2& __cordl_internal_get__skeleton();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__Skeleton2 const& __get__skeleton() const;
+  constexpr ::GlobalNamespace::__OVRPlugin__Skeleton2 const& __cordl_internal_get__skeleton() const;
 
-  constexpr void __set__skeleton(::GlobalNamespace::__OVRPlugin__Skeleton2 value);
+  constexpr void __cordl_internal_set__skeleton(::GlobalNamespace::__OVRPlugin__Skeleton2 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_wristFixupRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_wristFixupRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_wristFixupRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_wristFixupRotation() const;
 
-  constexpr void __set_wristFixupRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_wristFixupRotation(::UnityEngine::Quaternion value);
 
-  constexpr bool& __get__IsInitialized_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsInitialized_k__BackingField();
 
-  constexpr bool const& __get__IsInitialized_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsInitialized_k__BackingField() const;
 
-  constexpr void __set__IsInitialized_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsInitialized_k__BackingField(bool value);
 
-  constexpr bool& __get__IsDataValid_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsDataValid_k__BackingField();
 
-  constexpr bool const& __get__IsDataValid_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsDataValid_k__BackingField() const;
 
-  constexpr void __set__IsDataValid_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsDataValid_k__BackingField(bool value);
 
-  constexpr bool& __get__IsDataHighConfidence_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsDataHighConfidence_k__BackingField();
 
-  constexpr bool const& __get__IsDataHighConfidence_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsDataHighConfidence_k__BackingField() const;
 
-  constexpr void __set__IsDataHighConfidence_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsDataHighConfidence_k__BackingField(bool value);
 
-  constexpr ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>*& __get__Bones_k__BackingField();
+  constexpr ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>*& __cordl_internal_get__Bones_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>*> const& __get__Bones_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>*> const& __cordl_internal_get__Bones_k__BackingField() const;
 
-  constexpr void __set__Bones_k__BackingField(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* value);
+  constexpr void __cordl_internal_set__Bones_k__BackingField(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* value);
 
-  constexpr ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>*& __get__BindPoses_k__BackingField();
+  constexpr ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>*& __cordl_internal_get__BindPoses_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>*> const& __get__BindPoses_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>*> const& __cordl_internal_get__BindPoses_k__BackingField() const;
 
-  constexpr void __set__BindPoses_k__BackingField(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* value);
+  constexpr void __cordl_internal_set__BindPoses_k__BackingField(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* value);
 
-  constexpr ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBoneCapsule*>*& __get__Capsules_k__BackingField();
+  constexpr ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBoneCapsule*>*& __cordl_internal_get__Capsules_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBoneCapsule*>*> const& __get__Capsules_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBoneCapsule*>*> const& __cordl_internal_get__Capsules_k__BackingField() const;
 
-  constexpr void __set__Capsules_k__BackingField(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBoneCapsule*>* value);
+  constexpr void __cordl_internal_set__Capsules_k__BackingField(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBoneCapsule*>* value);
 
-  constexpr int32_t& __get__SkeletonChangedCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__SkeletonChangedCount_k__BackingField();
 
-  constexpr int32_t const& __get__SkeletonChangedCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__SkeletonChangedCount_k__BackingField() const;
 
-  constexpr void __set__SkeletonChangedCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__SkeletonChangedCount_k__BackingField(int32_t value);
 
   /// @brief Method get_IsInitialized, addr 0x27bd8e8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
@@ -1024,7 +1027,7 @@ public:
   inline void Initialize();
 
   /// @brief Method GetBoneTransform, addr 0x27becec, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::Transform* GetBoneTransform(::GlobalNamespace::__OVRSkeleton__BoneId boneId);
+  inline ::UnityW<::UnityEngine::Transform> GetBoneTransform(::GlobalNamespace::__OVRSkeleton__BoneId boneId);
 
   /// @brief Method InitializeBones, addr 0x27becf4, size 0x5cc, virtual true, abstract: false, final false
   inline void InitializeBones();
@@ -1106,13 +1109,13 @@ public:
   bool ____applyBoneTranslations;
 
   /// @brief Field _bonesGO, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____bonesGO;
+  ::UnityW<::UnityEngine::GameObject> ____bonesGO;
 
   /// @brief Field _bindPosesGO, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____bindPosesGO;
+  ::UnityW<::UnityEngine::GameObject> ____bindPosesGO;
 
   /// @brief Field _capsulesGO, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____capsulesGO;
+  ::UnityW<::UnityEngine::GameObject> ____capsulesGO;
 
   /// @brief Field _bones, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::OVRBone*>* ____bones;

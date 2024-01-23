@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::Reflection::SignaturePointerType);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3493))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3493))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3494))
 // CS Name: ::System.Reflection::SignaturePointerType*
 class CORDL_TYPE SignaturePointerType : public ::System::Reflection::SignatureHasElementType {

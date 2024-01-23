@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PS5LeaderboardIdsModelSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4583))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4583))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4562))
 // CS Name: ::PS5LeaderboardIdsModelSO*
 class CORDL_TYPE PS5LeaderboardIdsModelSO : public ::GlobalNamespace::SonyLeaderboardIdsModelSO {

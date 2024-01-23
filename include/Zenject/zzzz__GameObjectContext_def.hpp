@@ -42,67 +42,67 @@ MARK_REF_PTR_T(::Zenject::GameObjectContext);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11122))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11122))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11120))
 // CS Name: ::Zenject::GameObjectContext*
 class CORDL_TYPE GameObjectContext : public ::Zenject::RunnableContext {
 public:
   // Declarations
   /// @brief Field PreInstall, offset 0x48, size 0x8
-  __declspec(property(get = __get_PreInstall, put = __set_PreInstall))::System::Action* PreInstall;
+  __declspec(property(get = __cordl_internal_get_PreInstall, put = __cordl_internal_set_PreInstall))::System::Action* PreInstall;
 
   /// @brief Field PostInstall, offset 0x50, size 0x8
-  __declspec(property(get = __get_PostInstall, put = __set_PostInstall))::System::Action* PostInstall;
+  __declspec(property(get = __cordl_internal_get_PostInstall, put = __cordl_internal_set_PostInstall))::System::Action* PostInstall;
 
   /// @brief Field PreResolve, offset 0x58, size 0x8
-  __declspec(property(get = __get_PreResolve, put = __set_PreResolve))::System::Action* PreResolve;
+  __declspec(property(get = __cordl_internal_get_PreResolve, put = __cordl_internal_set_PreResolve))::System::Action* PreResolve;
 
   /// @brief Field PostResolve, offset 0x60, size 0x8
-  __declspec(property(get = __get_PostResolve, put = __set_PostResolve))::System::Action* PostResolve;
+  __declspec(property(get = __cordl_internal_get_PostResolve, put = __cordl_internal_set_PostResolve))::System::Action* PostResolve;
 
   /// @brief Field _kernel, offset 0x68, size 0x8
-  __declspec(property(get = __get__kernel, put = __set__kernel))::Zenject::MonoKernel* _kernel;
+  __declspec(property(get = __cordl_internal_get__kernel, put = __cordl_internal_set__kernel))::UnityW<::Zenject::MonoKernel> _kernel;
 
   /// @brief Field _container, offset 0x70, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   __declspec(property(get = get_Container))::Zenject::DiContainer* Container;
 
-  constexpr ::System::Action*& __get_PreInstall();
+  constexpr ::System::Action*& __cordl_internal_get_PreInstall();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_PreInstall() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_PreInstall() const;
 
-  constexpr void __set_PreInstall(::System::Action* value);
+  constexpr void __cordl_internal_set_PreInstall(::System::Action* value);
 
-  constexpr ::System::Action*& __get_PostInstall();
+  constexpr ::System::Action*& __cordl_internal_get_PostInstall();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_PostInstall() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_PostInstall() const;
 
-  constexpr void __set_PostInstall(::System::Action* value);
+  constexpr void __cordl_internal_set_PostInstall(::System::Action* value);
 
-  constexpr ::System::Action*& __get_PreResolve();
+  constexpr ::System::Action*& __cordl_internal_get_PreResolve();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_PreResolve() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_PreResolve() const;
 
-  constexpr void __set_PreResolve(::System::Action* value);
+  constexpr void __cordl_internal_set_PreResolve(::System::Action* value);
 
-  constexpr ::System::Action*& __get_PostResolve();
+  constexpr ::System::Action*& __cordl_internal_get_PostResolve();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_PostResolve() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_PostResolve() const;
 
-  constexpr void __set_PostResolve(::System::Action* value);
+  constexpr void __cordl_internal_set_PostResolve(::System::Action* value);
 
-  constexpr ::Zenject::MonoKernel*& __get__kernel();
+  constexpr ::UnityW<::Zenject::MonoKernel>& __cordl_internal_get__kernel();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::MonoKernel*> const& __get__kernel() const;
+  constexpr ::UnityW<::Zenject::MonoKernel> const& __cordl_internal_get__kernel() const;
 
-  constexpr void __set__kernel(::Zenject::MonoKernel* value);
+  constexpr void __cordl_internal_set__kernel(::UnityW<::Zenject::MonoKernel> value);
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
   /// @brief Method add_PreInstall, addr 0x2eedfe0, size 0x9c, virtual false, abstract: false, final false
   inline void add_PreInstall(::System::Action* value);
@@ -132,7 +132,7 @@ public:
   inline ::Zenject::DiContainer* get_Container();
 
   /// @brief Method GetRootGameObjects, addr 0x2eee4c8, size 0xa0, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* GetRootGameObjects();
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects();
 
   /// @brief Method Construct, addr 0x2eee568, size 0x44, virtual false, abstract: false, final false
   inline void Construct(::Zenject::DiContainer* parentContainer);
@@ -141,10 +141,10 @@ public:
   inline void RunInternal();
 
   /// @brief Method GetInjectableMonoBehaviours, addr 0x2eeec88, size 0x244, virtual true, abstract: false, final false
-  inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* monoBehaviours);
+  inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* monoBehaviours);
 
   /// @brief Method InstallBindings, addr 0x2eeea20, size 0x1f4, virtual false, abstract: false, final false
-  inline void InstallBindings(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* injectableMonoBehaviours);
+  inline void InstallBindings(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableMonoBehaviours);
 
   static inline ::Zenject::GameObjectContext* New_ctor();
 
@@ -184,7 +184,7 @@ public:
   ::System::Action* ___PostResolve;
 
   /// @brief Field _kernel, offset: 0x68, size: 0x8, def value: None
-  ::Zenject::MonoKernel* ____kernel;
+  ::UnityW<::Zenject::MonoKernel> ____kernel;
 
   /// @brief Field _container, offset: 0x70, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

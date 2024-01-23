@@ -50,35 +50,35 @@ MARK_REF_PTR_T(::System::Net::WebConnectionStream);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9220))
 // CS Name: ::System.Net::WebConnectionStream*
 class CORDL_TYPE WebConnectionStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field closed, offset 0x28, size 0x1
-  __declspec(property(get = __get_closed, put = __set_closed)) bool closed;
+  __declspec(property(get = __cordl_internal_get_closed, put = __cordl_internal_set_closed)) bool closed;
 
   /// @brief Field disposed, offset 0x29, size 0x1
-  __declspec(property(get = __get_disposed, put = __set_disposed)) bool disposed;
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field locker, offset 0x30, size 0x8
-  __declspec(property(get = __get_locker, put = __set_locker))::System::Object* locker;
+  __declspec(property(get = __cordl_internal_get_locker, put = __cordl_internal_set_locker))::System::Object* locker;
 
   /// @brief Field read_timeout, offset 0x38, size 0x4
-  __declspec(property(get = __get_read_timeout, put = __set_read_timeout)) int32_t read_timeout;
+  __declspec(property(get = __cordl_internal_get_read_timeout, put = __cordl_internal_set_read_timeout)) int32_t read_timeout;
 
   /// @brief Field write_timeout, offset 0x3c, size 0x4
-  __declspec(property(get = __get_write_timeout, put = __set_write_timeout)) int32_t write_timeout;
+  __declspec(property(get = __cordl_internal_get_write_timeout, put = __cordl_internal_set_write_timeout)) int32_t write_timeout;
 
   /// @brief Field <Request>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __get__Request_k__BackingField, put = __set__Request_k__BackingField))::System::Net::HttpWebRequest* _Request_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Request_k__BackingField, put = __cordl_internal_set__Request_k__BackingField))::System::Net::HttpWebRequest* _Request_k__BackingField;
 
   /// @brief Field <Connection>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __get__Connection_k__BackingField, put = __set__Connection_k__BackingField))::System::Net::WebConnection* _Connection_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Connection_k__BackingField, put = __cordl_internal_set__Connection_k__BackingField))::System::Net::WebConnection* _Connection_k__BackingField;
 
   /// @brief Field <Operation>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __get__Operation_k__BackingField, put = __set__Operation_k__BackingField))::System::Net::WebOperation* _Operation_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Operation_k__BackingField, put = __cordl_internal_set__Operation_k__BackingField))::System::Net::WebOperation* _Operation_k__BackingField;
 
   __declspec(property(get = get_Request))::System::Net::HttpWebRequest* Request;
 
@@ -100,53 +100,53 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr bool& __get_closed();
+  constexpr bool& __cordl_internal_get_closed();
 
-  constexpr bool const& __get_closed() const;
+  constexpr bool const& __cordl_internal_get_closed() const;
 
-  constexpr void __set_closed(bool value);
+  constexpr void __cordl_internal_set_closed(bool value);
 
-  constexpr bool& __get_disposed();
+  constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr bool const& __get_disposed() const;
+  constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __set_disposed(bool value);
+  constexpr void __cordl_internal_set_disposed(bool value);
 
-  constexpr ::System::Object*& __get_locker();
+  constexpr ::System::Object*& __cordl_internal_get_locker();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_locker() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_locker() const;
 
-  constexpr void __set_locker(::System::Object* value);
+  constexpr void __cordl_internal_set_locker(::System::Object* value);
 
-  constexpr int32_t& __get_read_timeout();
+  constexpr int32_t& __cordl_internal_get_read_timeout();
 
-  constexpr int32_t const& __get_read_timeout() const;
+  constexpr int32_t const& __cordl_internal_get_read_timeout() const;
 
-  constexpr void __set_read_timeout(int32_t value);
+  constexpr void __cordl_internal_set_read_timeout(int32_t value);
 
-  constexpr int32_t& __get_write_timeout();
+  constexpr int32_t& __cordl_internal_get_write_timeout();
 
-  constexpr int32_t const& __get_write_timeout() const;
+  constexpr int32_t const& __cordl_internal_get_write_timeout() const;
 
-  constexpr void __set_write_timeout(int32_t value);
+  constexpr void __cordl_internal_set_write_timeout(int32_t value);
 
-  constexpr ::System::Net::HttpWebRequest*& __get__Request_k__BackingField();
+  constexpr ::System::Net::HttpWebRequest*& __cordl_internal_get__Request_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __get__Request_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __cordl_internal_get__Request_k__BackingField() const;
 
-  constexpr void __set__Request_k__BackingField(::System::Net::HttpWebRequest* value);
+  constexpr void __cordl_internal_set__Request_k__BackingField(::System::Net::HttpWebRequest* value);
 
-  constexpr ::System::Net::WebConnection*& __get__Connection_k__BackingField();
+  constexpr ::System::Net::WebConnection*& __cordl_internal_get__Connection_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebConnection*> const& __get__Connection_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebConnection*> const& __cordl_internal_get__Connection_k__BackingField() const;
 
-  constexpr void __set__Connection_k__BackingField(::System::Net::WebConnection* value);
+  constexpr void __cordl_internal_set__Connection_k__BackingField(::System::Net::WebConnection* value);
 
-  constexpr ::System::Net::WebOperation*& __get__Operation_k__BackingField();
+  constexpr ::System::Net::WebOperation*& __cordl_internal_get__Operation_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebOperation*> const& __get__Operation_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebOperation*> const& __cordl_internal_get__Operation_k__BackingField() const;
 
-  constexpr void __set__Operation_k__BackingField(::System::Net::WebOperation* value);
+  constexpr void __cordl_internal_set__Operation_k__BackingField(::System::Net::WebOperation* value);
 
   static inline ::System::Net::WebConnectionStream* New_ctor(::System::Net::WebConnection* cnc, ::System::Net::WebOperation* operation);
 

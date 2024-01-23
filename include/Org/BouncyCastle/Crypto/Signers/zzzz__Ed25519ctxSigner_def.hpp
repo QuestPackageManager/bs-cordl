@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::__Ed25519ctxSigner__Buffer)
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3566))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1131))
 // CS Name: ::Ed25519ctxSigner::Buffer*
 class CORDL_TYPE __Ed25519ctxSigner__Buffer : public ::System::IO::MemoryStream {
@@ -81,7 +81,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Signe
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1132))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::Ed25519ctxSigner*
 class CORDL_TYPE Ed25519ctxSigner : public ::System::Object {
@@ -90,19 +90,19 @@ public:
   using Buffer = ::Org::BouncyCastle::Crypto::Signers::__Ed25519ctxSigner__Buffer;
 
   /// @brief Field buffer, offset 0x10, size 0x8
-  __declspec(property(get = __get_buffer, put = __set_buffer))::Org::BouncyCastle::Crypto::Signers::__Ed25519ctxSigner__Buffer* buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::Org::BouncyCastle::Crypto::Signers::__Ed25519ctxSigner__Buffer* buffer;
 
   /// @brief Field context, offset 0x18, size 0x8
-  __declspec(property(get = __get_context, put = __set_context))::ArrayW<uint8_t, ::Array<uint8_t>*> context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::ArrayW<uint8_t, ::Array<uint8_t>*> context;
 
   /// @brief Field forSigning, offset 0x20, size 0x1
-  __declspec(property(get = __get_forSigning, put = __set_forSigning)) bool forSigning;
+  __declspec(property(get = __cordl_internal_get_forSigning, put = __cordl_internal_set_forSigning)) bool forSigning;
 
   /// @brief Field privateKey, offset 0x28, size 0x8
-  __declspec(property(get = __get_privateKey, put = __set_privateKey))::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey;
+  __declspec(property(get = __cordl_internal_get_privateKey, put = __cordl_internal_set_privateKey))::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* privateKey;
 
   /// @brief Field publicKey, offset 0x30, size 0x8
-  __declspec(property(get = __get_publicKey, put = __set_publicKey))::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* publicKey;
+  __declspec(property(get = __cordl_internal_get_publicKey, put = __cordl_internal_set_publicKey))::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* publicKey;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -112,35 +112,35 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Signers::__Ed25519ctxSigner__Buffer*& __get_buffer();
+  constexpr ::Org::BouncyCastle::Crypto::Signers::__Ed25519ctxSigner__Buffer*& __cordl_internal_get_buffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Signers::__Ed25519ctxSigner__Buffer*> const& __get_buffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Signers::__Ed25519ctxSigner__Buffer*> const& __cordl_internal_get_buffer() const;
 
-  constexpr void __set_buffer(::Org::BouncyCastle::Crypto::Signers::__Ed25519ctxSigner__Buffer* value);
+  constexpr void __cordl_internal_set_buffer(::Org::BouncyCastle::Crypto::Signers::__Ed25519ctxSigner__Buffer* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_context();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_context();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_context() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_context() const;
 
-  constexpr void __set_context(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_context(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get_forSigning();
+  constexpr bool& __cordl_internal_get_forSigning();
 
-  constexpr bool const& __get_forSigning() const;
+  constexpr bool const& __cordl_internal_get_forSigning() const;
 
-  constexpr void __set_forSigning(bool value);
+  constexpr void __cordl_internal_set_forSigning(bool value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*& __get_privateKey();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*& __cordl_internal_get_privateKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*> const& __get_privateKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters*> const& __cordl_internal_get_privateKey() const;
 
-  constexpr void __set_privateKey(::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* value);
+  constexpr void __cordl_internal_set_privateKey(::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParameters* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*& __get_publicKey();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*& __cordl_internal_get_publicKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*> const& __get_publicKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*> const& __cordl_internal_get_publicKey() const;
 
-  constexpr void __set_publicKey(::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* value);
+  constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* value);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Ed25519ctxSigner* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> context);
 

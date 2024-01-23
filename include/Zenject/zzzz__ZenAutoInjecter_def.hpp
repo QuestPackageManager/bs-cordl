@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::Zenject::ZenAutoInjecter);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11359))
 // CS Name: ::ZenAutoInjecter::ContainerSources
 struct CORDL_TYPE __ZenAutoInjecter__ContainerSources {
@@ -88,7 +88,7 @@ static_assert(offsetof(::Zenject::__ZenAutoInjecter__ContainerSources, value__) 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(11359))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(11359))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11360))
 // CS Name: ::Zenject::ZenAutoInjecter*
 class CORDL_TYPE ZenAutoInjecter : public ::UnityEngine::MonoBehaviour {
@@ -97,24 +97,24 @@ public:
   using ContainerSources = ::Zenject::__ZenAutoInjecter__ContainerSources;
 
   /// @brief Field _containerSource, offset 0x18, size 0x4
-  __declspec(property(get = __get__containerSource, put = __set__containerSource))::Zenject::__ZenAutoInjecter__ContainerSources _containerSource;
+  __declspec(property(get = __cordl_internal_get__containerSource, put = __cordl_internal_set__containerSource))::Zenject::__ZenAutoInjecter__ContainerSources _containerSource;
 
   /// @brief Field _hasInjected, offset 0x1c, size 0x1
-  __declspec(property(get = __get__hasInjected, put = __set__hasInjected)) bool _hasInjected;
+  __declspec(property(get = __cordl_internal_get__hasInjected, put = __cordl_internal_set__hasInjected)) bool _hasInjected;
 
   __declspec(property(get = get_ContainerSource, put = set_ContainerSource))::Zenject::__ZenAutoInjecter__ContainerSources ContainerSource;
 
-  constexpr ::Zenject::__ZenAutoInjecter__ContainerSources& __get__containerSource();
+  constexpr ::Zenject::__ZenAutoInjecter__ContainerSources& __cordl_internal_get__containerSource();
 
-  constexpr ::Zenject::__ZenAutoInjecter__ContainerSources const& __get__containerSource() const;
+  constexpr ::Zenject::__ZenAutoInjecter__ContainerSources const& __cordl_internal_get__containerSource() const;
 
-  constexpr void __set__containerSource(::Zenject::__ZenAutoInjecter__ContainerSources value);
+  constexpr void __cordl_internal_set__containerSource(::Zenject::__ZenAutoInjecter__ContainerSources value);
 
-  constexpr bool& __get__hasInjected();
+  constexpr bool& __cordl_internal_get__hasInjected();
 
-  constexpr bool const& __get__hasInjected() const;
+  constexpr bool const& __cordl_internal_get__hasInjected() const;
 
-  constexpr void __set__hasInjected(bool value);
+  constexpr void __cordl_internal_set__hasInjected(bool value);
 
   /// @brief Method get_ContainerSource, addr 0x2f1fc6c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::__ZenAutoInjecter__ContainerSources get_ContainerSource();

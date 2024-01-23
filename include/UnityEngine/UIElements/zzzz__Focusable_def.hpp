@@ -24,26 +24,26 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::Focusable);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 35, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7211))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7211))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6880))
 // CS Name: ::UnityEngine.UIElements::Focusable*
 class CORDL_TYPE Focusable : public ::UnityEngine::UIElements::CallbackEventHandler {
 public:
   // Declarations
   /// @brief Field <focusable>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__focusable_k__BackingField, put = __set__focusable_k__BackingField)) bool _focusable_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__focusable_k__BackingField, put = __cordl_internal_set__focusable_k__BackingField)) bool _focusable_k__BackingField;
 
   /// @brief Field <tabIndex>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__tabIndex_k__BackingField, put = __set__tabIndex_k__BackingField)) int32_t _tabIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__tabIndex_k__BackingField, put = __cordl_internal_set__tabIndex_k__BackingField)) int32_t _tabIndex_k__BackingField;
 
   /// @brief Field m_DelegatesFocus, offset 0x20, size 0x1
-  __declspec(property(get = __get_m_DelegatesFocus, put = __set_m_DelegatesFocus)) bool m_DelegatesFocus;
+  __declspec(property(get = __cordl_internal_get_m_DelegatesFocus, put = __cordl_internal_set_m_DelegatesFocus)) bool m_DelegatesFocus;
 
   /// @brief Field m_ExcludeFromFocusRing, offset 0x21, size 0x1
-  __declspec(property(get = __get_m_ExcludeFromFocusRing, put = __set_m_ExcludeFromFocusRing)) bool m_ExcludeFromFocusRing;
+  __declspec(property(get = __cordl_internal_get_m_ExcludeFromFocusRing, put = __cordl_internal_set_m_ExcludeFromFocusRing)) bool m_ExcludeFromFocusRing;
 
   /// @brief Field isIMGUIContainer, offset 0x22, size 0x1
-  __declspec(property(get = __get_isIMGUIContainer, put = __set_isIMGUIContainer)) bool isIMGUIContainer;
+  __declspec(property(get = __cordl_internal_get_isIMGUIContainer, put = __cordl_internal_set_isIMGUIContainer)) bool isIMGUIContainer;
 
   __declspec(property(get = get_focusController))::UnityEngine::UIElements::FocusController* focusController;
 
@@ -57,35 +57,35 @@ public:
 
   __declspec(property(get = get_canGrabFocus)) bool canGrabFocus;
 
-  constexpr bool& __get__focusable_k__BackingField();
+  constexpr bool& __cordl_internal_get__focusable_k__BackingField();
 
-  constexpr bool const& __get__focusable_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__focusable_k__BackingField() const;
 
-  constexpr void __set__focusable_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__focusable_k__BackingField(bool value);
 
-  constexpr int32_t& __get__tabIndex_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__tabIndex_k__BackingField();
 
-  constexpr int32_t const& __get__tabIndex_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__tabIndex_k__BackingField() const;
 
-  constexpr void __set__tabIndex_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__tabIndex_k__BackingField(int32_t value);
 
-  constexpr bool& __get_m_DelegatesFocus();
+  constexpr bool& __cordl_internal_get_m_DelegatesFocus();
 
-  constexpr bool const& __get_m_DelegatesFocus() const;
+  constexpr bool const& __cordl_internal_get_m_DelegatesFocus() const;
 
-  constexpr void __set_m_DelegatesFocus(bool value);
+  constexpr void __cordl_internal_set_m_DelegatesFocus(bool value);
 
-  constexpr bool& __get_m_ExcludeFromFocusRing();
+  constexpr bool& __cordl_internal_get_m_ExcludeFromFocusRing();
 
-  constexpr bool const& __get_m_ExcludeFromFocusRing() const;
+  constexpr bool const& __cordl_internal_get_m_ExcludeFromFocusRing() const;
 
-  constexpr void __set_m_ExcludeFromFocusRing(bool value);
+  constexpr void __cordl_internal_set_m_ExcludeFromFocusRing(bool value);
 
-  constexpr bool& __get_isIMGUIContainer();
+  constexpr bool& __cordl_internal_get_isIMGUIContainer();
 
-  constexpr bool const& __get_isIMGUIContainer() const;
+  constexpr bool const& __cordl_internal_get_isIMGUIContainer() const;
 
-  constexpr void __set_isIMGUIContainer(bool value);
+  constexpr void __cordl_internal_set_isIMGUIContainer(bool value);
 
   static inline ::UnityEngine::UIElements::Focusable* New_ctor();
 

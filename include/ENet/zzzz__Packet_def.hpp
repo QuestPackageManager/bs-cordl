@@ -26,7 +26,7 @@ MARK_VAL_T(::ENet::Packet);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15232))
 // CS Name: ::ENet::Packet
 struct CORDL_TYPE Packet {

@@ -18,23 +18,23 @@ MARK_REF_PTR_T(::JetBrains::Annotations::CollectionAccessAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15784)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(15784))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15783))
 // CS Name: ::JetBrains.Annotations::CollectionAccessAttribute*
 class CORDL_TYPE CollectionAccessAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <CollectionAccessType>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__CollectionAccessType_k__BackingField,
-                      put = __set__CollectionAccessType_k__BackingField))::JetBrains::Annotations::CollectionAccessType _CollectionAccessType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CollectionAccessType_k__BackingField,
+                      put = __cordl_internal_set__CollectionAccessType_k__BackingField))::JetBrains::Annotations::CollectionAccessType _CollectionAccessType_k__BackingField;
 
   __declspec(property(get = get_CollectionAccessType, put = set_CollectionAccessType))::JetBrains::Annotations::CollectionAccessType CollectionAccessType;
 
-  constexpr ::JetBrains::Annotations::CollectionAccessType& __get__CollectionAccessType_k__BackingField();
+  constexpr ::JetBrains::Annotations::CollectionAccessType& __cordl_internal_get__CollectionAccessType_k__BackingField();
 
-  constexpr ::JetBrains::Annotations::CollectionAccessType const& __get__CollectionAccessType_k__BackingField() const;
+  constexpr ::JetBrains::Annotations::CollectionAccessType const& __cordl_internal_get__CollectionAccessType_k__BackingField() const;
 
-  constexpr void __set__CollectionAccessType_k__BackingField(::JetBrains::Annotations::CollectionAccessType value);
+  constexpr void __cordl_internal_set__CollectionAccessType_k__BackingField(::JetBrains::Annotations::CollectionAccessType value);
 
   static inline ::JetBrains::Annotations::CollectionAccessAttribute* New_ctor(::JetBrains::Annotations::CollectionAccessType collectionAccessType);
 

@@ -30,13 +30,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JPropertyKeyedCollection);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3814)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3814), inst: 1024 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12002))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11969)) CS Name: ::Newtonsoft.Json.Linq::JPropertyKeyedCollection*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3814)), TypeDefinitionIndex(TypeDefinitionIndex(12002)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3814), inst:
+// 1024 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11969)) CS Name: ::Newtonsoft.Json.Linq::JPropertyKeyedCollection*
 class CORDL_TYPE JPropertyKeyedCollection : public ::System::Collections::ObjectModel::Collection_1<::Newtonsoft::Json::Linq::JToken*> {
 public:
   // Declarations
   /// @brief Field _dictionary, offset 0x18, size 0x8
-  __declspec(property(get = __get__dictionary, put = __set__dictionary))::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>* _dictionary;
+  __declspec(property(get = __cordl_internal_get__dictionary,
+                      put = __cordl_internal_set__dictionary))::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>* _dictionary;
 
   /// @brief Field Comparer, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Comparer, put = setStaticF_Comparer))::System::Collections::Generic::IEqualityComparer_1<::StringW>* Comparer;
@@ -47,11 +48,11 @@ public:
 
   __declspec(property(get = get_Values))::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>* Values;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>*& __get__dictionary();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>*& __cordl_internal_get__dictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>*> const& __get__dictionary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>*> const& __cordl_internal_get__dictionary() const;
 
-  constexpr void __set__dictionary(::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>* value);
+  constexpr void __cordl_internal_set__dictionary(::System::Collections::Generic::Dictionary_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>* value);
 
   static inline void setStaticF_Comparer(::System::Collections::Generic::IEqualityComparer_1<::StringW>* value);
 

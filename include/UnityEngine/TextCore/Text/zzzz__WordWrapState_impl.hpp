@@ -45,7 +45,7 @@
 // ty: "::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: Some("{}") }, CppParam { name: "strikethroughColorStack", ty:
 // "::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: Some("{}") }, CppParam { name: "highlightColorStack", ty:
 // "::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: Some("{}") }, CppParam { name: "colorGradientStack", ty:
-// "::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::TextColorGradient*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "sizeStack", ty:
+// "::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityW<::UnityEngine::TextCore::Text::TextColorGradient>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "sizeStack", ty:
 // "::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "indentStack", ty:
 // "::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontWeightStack", ty:
 // "::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::TextFontWeight>", modifiers: "", def_value: Some("{}") }, CppParam { name: "styleStack", ty:
@@ -54,11 +54,11 @@
 // "::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "materialReferenceStack", ty:
 // "::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::MaterialReference>", modifiers: "", def_value: Some("{}") }, CppParam { name: "lineJustificationStack", ty:
 // "::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::TextAlignment>", modifiers: "", def_value: Some("{}") }, CppParam { name: "spriteAnimationId", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "currentFontAsset", ty: "::UnityEngine::TextCore::Text::FontAsset*", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
-// "currentSpriteAsset", ty: "::UnityEngine::TextCore::Text::SpriteAsset*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "currentMaterial", ty: "::UnityEngine::Material*", modifiers:
-// "", def_value: Some("nullptr") }, CppParam { name: "currentMaterialIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "meshExtents", ty:
-// "::UnityEngine::TextCore::Text::Extents", modifiers: "", def_value: Some("{}") }, CppParam { name: "tagNoParsing", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "isNonBreakingSpace", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "currentFontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: Some("nullptr") }, CppParam { name:
+// "currentSpriteAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "currentMaterial", ty:
+// "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "currentMaterialIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "meshExtents", ty: "::UnityEngine::TextCore::Text::Extents", modifiers: "", def_value: Some("{}") }, CppParam { name: "tagNoParsing", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "isNonBreakingSpace", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::TextCore::Text::WordWrapState::WordWrapState(
     int32_t previousWordBreak, int32_t totalCharacterCount, int32_t visibleCharacterCount, int32_t visibleSpriteCount, int32_t visibleLinkCount, int32_t firstCharacterIndex,
     int32_t firstVisibleCharacterIndex, int32_t lastCharacterIndex, int32_t lastVisibleCharIndex, int32_t lineNumber, float_t maxCapHeight, float_t maxAscender, float_t maxDescender,
@@ -69,14 +69,14 @@ constexpr ::UnityEngine::TextCore::Text::WordWrapState::WordWrapState(
     ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::Color32> colorStack, ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::Color32> underlineColorStack,
     ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::Color32> strikethroughColorStack,
     ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::Color32> highlightColorStack,
-    ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::TextColorGradient*> colorGradientStack, ::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t> sizeStack,
-    ::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t> indentStack, ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::TextFontWeight> fontWeightStack,
-    ::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t> styleStack, ::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t> baselineStack,
-    ::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t> actionStack,
+    ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityW<::UnityEngine::TextCore::Text::TextColorGradient>> colorGradientStack,
+    ::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t> sizeStack, ::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t> indentStack,
+    ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::TextFontWeight> fontWeightStack, ::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t> styleStack,
+    ::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t> baselineStack, ::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t> actionStack,
     ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::MaterialReference> materialReferenceStack,
     ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::TextAlignment> lineJustificationStack, int32_t spriteAnimationId,
-    ::UnityEngine::TextCore::Text::FontAsset* currentFontAsset, ::UnityEngine::TextCore::Text::SpriteAsset* currentSpriteAsset, ::UnityEngine::Material* currentMaterial, int32_t currentMaterialIndex,
-    ::UnityEngine::TextCore::Text::Extents meshExtents, bool tagNoParsing, bool isNonBreakingSpace) noexcept {
+    ::UnityW<::UnityEngine::TextCore::Text::FontAsset> currentFontAsset, ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> currentSpriteAsset, ::UnityW<::UnityEngine::Material> currentMaterial,
+    int32_t currentMaterialIndex, ::UnityEngine::TextCore::Text::Extents meshExtents, bool tagNoParsing, bool isNonBreakingSpace) noexcept {
   this->previousWordBreak = previousWordBreak;
   this->totalCharacterCount = totalCharacterCount;
   this->visibleCharacterCount = visibleCharacterCount;

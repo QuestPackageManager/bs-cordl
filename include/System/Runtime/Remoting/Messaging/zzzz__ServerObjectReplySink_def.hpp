@@ -26,17 +26,17 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ServerObjectReplySink);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3189))
 // CS Name: ::System.Runtime.Remoting.Messaging::ServerObjectReplySink*
 class CORDL_TYPE ServerObjectReplySink : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _replySink, offset 0x10, size 0x8
-  __declspec(property(get = __get__replySink, put = __set__replySink))::System::Runtime::Remoting::Messaging::IMessageSink* _replySink;
+  __declspec(property(get = __cordl_internal_get__replySink, put = __cordl_internal_set__replySink))::System::Runtime::Remoting::Messaging::IMessageSink* _replySink;
 
   /// @brief Field _identity, offset 0x18, size 0x8
-  __declspec(property(get = __get__identity, put = __set__identity))::System::Runtime::Remoting::ServerIdentity* _identity;
+  __declspec(property(get = __cordl_internal_get__identity, put = __cordl_internal_set__identity))::System::Runtime::Remoting::ServerIdentity* _identity;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
@@ -44,17 +44,17 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __get__replySink();
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get__replySink();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __get__replySink() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __cordl_internal_get__replySink() const;
 
-  constexpr void __set__replySink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
+  constexpr void __cordl_internal_set__replySink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  constexpr ::System::Runtime::Remoting::ServerIdentity*& __get__identity();
+  constexpr ::System::Runtime::Remoting::ServerIdentity*& __cordl_internal_get__identity();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::ServerIdentity*> const& __get__identity() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::ServerIdentity*> const& __cordl_internal_get__identity() const;
 
-  constexpr void __set__identity(::System::Runtime::Remoting::ServerIdentity* value);
+  constexpr void __cordl_internal_set__identity(::System::Runtime::Remoting::ServerIdentity* value);
 
   static inline ::System::Runtime::Remoting::Messaging::ServerObjectReplySink* New_ctor(::System::Runtime::Remoting::ServerIdentity* identity,
                                                                                         ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);

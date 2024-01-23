@@ -22,41 +22,41 @@ MARK_REF_PTR_T(::System::Globalization::RegionInfo);
 // SizeInfo { instance_size: 96, native_size: 80, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3726))
 // CS Name: ::System.Globalization::RegionInfo*
 class CORDL_TYPE RegionInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field regionId, offset 0x10, size 0x4
-  __declspec(property(get = __get_regionId, put = __set_regionId)) int32_t regionId;
+  __declspec(property(get = __cordl_internal_get_regionId, put = __cordl_internal_set_regionId)) int32_t regionId;
 
   /// @brief Field iso2Name, offset 0x18, size 0x8
-  __declspec(property(get = __get_iso2Name, put = __set_iso2Name))::StringW iso2Name;
+  __declspec(property(get = __cordl_internal_get_iso2Name, put = __cordl_internal_set_iso2Name))::StringW iso2Name;
 
   /// @brief Field iso3Name, offset 0x20, size 0x8
-  __declspec(property(get = __get_iso3Name, put = __set_iso3Name))::StringW iso3Name;
+  __declspec(property(get = __cordl_internal_get_iso3Name, put = __cordl_internal_set_iso3Name))::StringW iso3Name;
 
   /// @brief Field win3Name, offset 0x28, size 0x8
-  __declspec(property(get = __get_win3Name, put = __set_win3Name))::StringW win3Name;
+  __declspec(property(get = __cordl_internal_get_win3Name, put = __cordl_internal_set_win3Name))::StringW win3Name;
 
   /// @brief Field englishName, offset 0x30, size 0x8
-  __declspec(property(get = __get_englishName, put = __set_englishName))::StringW englishName;
+  __declspec(property(get = __cordl_internal_get_englishName, put = __cordl_internal_set_englishName))::StringW englishName;
 
   /// @brief Field nativeName, offset 0x38, size 0x8
-  __declspec(property(get = __get_nativeName, put = __set_nativeName))::StringW nativeName;
+  __declspec(property(get = __cordl_internal_get_nativeName, put = __cordl_internal_set_nativeName))::StringW nativeName;
 
   /// @brief Field currencySymbol, offset 0x40, size 0x8
-  __declspec(property(get = __get_currencySymbol, put = __set_currencySymbol))::StringW currencySymbol;
+  __declspec(property(get = __cordl_internal_get_currencySymbol, put = __cordl_internal_set_currencySymbol))::StringW currencySymbol;
 
   /// @brief Field isoCurrencySymbol, offset 0x48, size 0x8
-  __declspec(property(get = __get_isoCurrencySymbol, put = __set_isoCurrencySymbol))::StringW isoCurrencySymbol;
+  __declspec(property(get = __cordl_internal_get_isoCurrencySymbol, put = __cordl_internal_set_isoCurrencySymbol))::StringW isoCurrencySymbol;
 
   /// @brief Field currencyEnglishName, offset 0x50, size 0x8
-  __declspec(property(get = __get_currencyEnglishName, put = __set_currencyEnglishName))::StringW currencyEnglishName;
+  __declspec(property(get = __cordl_internal_get_currencyEnglishName, put = __cordl_internal_set_currencyEnglishName))::StringW currencyEnglishName;
 
   /// @brief Field currencyNativeName, offset 0x58, size 0x8
-  __declspec(property(get = __get_currencyNativeName, put = __set_currencyNativeName))::StringW currencyNativeName;
+  __declspec(property(get = __cordl_internal_get_currencyNativeName, put = __cordl_internal_set_currencyNativeName))::StringW currencyNativeName;
 
   /// @brief Field currentRegion, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_currentRegion, put = setStaticF_currentRegion))::System::Globalization::RegionInfo* currentRegion;
@@ -87,65 +87,65 @@ public:
 
   __declspec(property(get = get_TwoLetterISORegionName))::StringW TwoLetterISORegionName;
 
-  constexpr int32_t& __get_regionId();
+  constexpr int32_t& __cordl_internal_get_regionId();
 
-  constexpr int32_t const& __get_regionId() const;
+  constexpr int32_t const& __cordl_internal_get_regionId() const;
 
-  constexpr void __set_regionId(int32_t value);
+  constexpr void __cordl_internal_set_regionId(int32_t value);
 
-  constexpr ::StringW& __get_iso2Name();
+  constexpr ::StringW& __cordl_internal_get_iso2Name();
 
-  constexpr ::StringW const& __get_iso2Name() const;
+  constexpr ::StringW const& __cordl_internal_get_iso2Name() const;
 
-  constexpr void __set_iso2Name(::StringW value);
+  constexpr void __cordl_internal_set_iso2Name(::StringW value);
 
-  constexpr ::StringW& __get_iso3Name();
+  constexpr ::StringW& __cordl_internal_get_iso3Name();
 
-  constexpr ::StringW const& __get_iso3Name() const;
+  constexpr ::StringW const& __cordl_internal_get_iso3Name() const;
 
-  constexpr void __set_iso3Name(::StringW value);
+  constexpr void __cordl_internal_set_iso3Name(::StringW value);
 
-  constexpr ::StringW& __get_win3Name();
+  constexpr ::StringW& __cordl_internal_get_win3Name();
 
-  constexpr ::StringW const& __get_win3Name() const;
+  constexpr ::StringW const& __cordl_internal_get_win3Name() const;
 
-  constexpr void __set_win3Name(::StringW value);
+  constexpr void __cordl_internal_set_win3Name(::StringW value);
 
-  constexpr ::StringW& __get_englishName();
+  constexpr ::StringW& __cordl_internal_get_englishName();
 
-  constexpr ::StringW const& __get_englishName() const;
+  constexpr ::StringW const& __cordl_internal_get_englishName() const;
 
-  constexpr void __set_englishName(::StringW value);
+  constexpr void __cordl_internal_set_englishName(::StringW value);
 
-  constexpr ::StringW& __get_nativeName();
+  constexpr ::StringW& __cordl_internal_get_nativeName();
 
-  constexpr ::StringW const& __get_nativeName() const;
+  constexpr ::StringW const& __cordl_internal_get_nativeName() const;
 
-  constexpr void __set_nativeName(::StringW value);
+  constexpr void __cordl_internal_set_nativeName(::StringW value);
 
-  constexpr ::StringW& __get_currencySymbol();
+  constexpr ::StringW& __cordl_internal_get_currencySymbol();
 
-  constexpr ::StringW const& __get_currencySymbol() const;
+  constexpr ::StringW const& __cordl_internal_get_currencySymbol() const;
 
-  constexpr void __set_currencySymbol(::StringW value);
+  constexpr void __cordl_internal_set_currencySymbol(::StringW value);
 
-  constexpr ::StringW& __get_isoCurrencySymbol();
+  constexpr ::StringW& __cordl_internal_get_isoCurrencySymbol();
 
-  constexpr ::StringW const& __get_isoCurrencySymbol() const;
+  constexpr ::StringW const& __cordl_internal_get_isoCurrencySymbol() const;
 
-  constexpr void __set_isoCurrencySymbol(::StringW value);
+  constexpr void __cordl_internal_set_isoCurrencySymbol(::StringW value);
 
-  constexpr ::StringW& __get_currencyEnglishName();
+  constexpr ::StringW& __cordl_internal_get_currencyEnglishName();
 
-  constexpr ::StringW const& __get_currencyEnglishName() const;
+  constexpr ::StringW const& __cordl_internal_get_currencyEnglishName() const;
 
-  constexpr void __set_currencyEnglishName(::StringW value);
+  constexpr void __cordl_internal_set_currencyEnglishName(::StringW value);
 
-  constexpr ::StringW& __get_currencyNativeName();
+  constexpr ::StringW& __cordl_internal_get_currencyNativeName();
 
-  constexpr ::StringW const& __get_currencyNativeName() const;
+  constexpr ::StringW const& __cordl_internal_get_currencyNativeName() const;
 
-  constexpr void __set_currencyNativeName(::StringW value);
+  constexpr void __cordl_internal_set_currencyNativeName(::StringW value);
 
   static inline void setStaticF_currentRegion(::System::Globalization::RegionInfo* value);
 

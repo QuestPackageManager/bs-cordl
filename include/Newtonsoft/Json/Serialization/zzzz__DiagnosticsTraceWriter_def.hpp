@@ -28,14 +28,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8942)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8942))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11904))
 // CS Name: ::Newtonsoft.Json.Serialization::DiagnosticsTraceWriter*
 class CORDL_TYPE DiagnosticsTraceWriter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <LevelFilter>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__LevelFilter_k__BackingField, put = __set__LevelFilter_k__BackingField))::System::Diagnostics::TraceLevel _LevelFilter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__LevelFilter_k__BackingField, put = __cordl_internal_set__LevelFilter_k__BackingField))::System::Diagnostics::TraceLevel _LevelFilter_k__BackingField;
 
   __declspec(property(get = get_LevelFilter, put = set_LevelFilter))::System::Diagnostics::TraceLevel LevelFilter;
 
@@ -45,11 +45,11 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Serialization::ITraceWriter"
   constexpr ::Newtonsoft::Json::Serialization::ITraceWriter* i___Newtonsoft__Json__Serialization__ITraceWriter() noexcept;
 
-  constexpr ::System::Diagnostics::TraceLevel& __get__LevelFilter_k__BackingField();
+  constexpr ::System::Diagnostics::TraceLevel& __cordl_internal_get__LevelFilter_k__BackingField();
 
-  constexpr ::System::Diagnostics::TraceLevel const& __get__LevelFilter_k__BackingField() const;
+  constexpr ::System::Diagnostics::TraceLevel const& __cordl_internal_get__LevelFilter_k__BackingField() const;
 
-  constexpr void __set__LevelFilter_k__BackingField(::System::Diagnostics::TraceLevel value);
+  constexpr void __cordl_internal_set__LevelFilter_k__BackingField(::System::Diagnostics::TraceLevel value);
 
   /// @brief Method get_LevelFilter, addr 0x266a364, size 0x8, virtual true, abstract: false, final true
   inline ::System::Diagnostics::TraceLevel get_LevelFilter();

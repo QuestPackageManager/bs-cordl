@@ -14,20 +14,20 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPsPlusFeatureNotifier);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5241))
 // CS Name: ::MultiplayerPsPlusFeatureNotifier*
 class CORDL_TYPE MultiplayerPsPlusFeatureNotifier : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _isSpectator, offset 0x18, size 0x1
-  __declspec(property(get = __get__isSpectator, put = __set__isSpectator)) bool _isSpectator;
+  __declspec(property(get = __cordl_internal_get__isSpectator, put = __cordl_internal_set__isSpectator)) bool _isSpectator;
 
-  constexpr bool& __get__isSpectator();
+  constexpr bool& __cordl_internal_get__isSpectator();
 
-  constexpr bool const& __get__isSpectator() const;
+  constexpr bool const& __cordl_internal_get__isSpectator() const;
 
-  constexpr void __set__isSpectator(bool value);
+  constexpr void __cordl_internal_set__isSpectator(bool value);
 
   static inline ::GlobalNamespace::MultiplayerPsPlusFeatureNotifier* New_ctor();
 

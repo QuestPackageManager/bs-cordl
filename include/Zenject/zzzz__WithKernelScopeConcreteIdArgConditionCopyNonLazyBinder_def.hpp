@@ -23,20 +23,20 @@ MARK_REF_PTR_T(::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10926))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10926))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10941))
 // CS Name: ::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder*
 class CORDL_TYPE WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder {
 public:
   // Declarations
   /// @brief Field _subContainerBindInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get__subContainerBindInfo, put = __set__subContainerBindInfo))::Zenject::SubContainerCreatorBindInfo* _subContainerBindInfo;
+  __declspec(property(get = __cordl_internal_get__subContainerBindInfo, put = __cordl_internal_set__subContainerBindInfo))::Zenject::SubContainerCreatorBindInfo* _subContainerBindInfo;
 
-  constexpr ::Zenject::SubContainerCreatorBindInfo*& __get__subContainerBindInfo();
+  constexpr ::Zenject::SubContainerCreatorBindInfo*& __cordl_internal_get__subContainerBindInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorBindInfo*> const& __get__subContainerBindInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorBindInfo*> const& __cordl_internal_get__subContainerBindInfo() const;
 
-  constexpr void __set__subContainerBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
+  constexpr void __cordl_internal_set__subContainerBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
 
   static inline ::Zenject::WithKernelScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::SubContainerCreatorBindInfo* subContainerBindInfo, ::Zenject::BindInfo* bindInfo);
 

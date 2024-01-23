@@ -24,13 +24,13 @@ MARK_REF_PTR_T(::GlobalNamespace::IBloomPrePassParams);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14484))
 // CS Name: ::IBloomPrePassParams*
 class CORDL_TYPE IBloomPrePassParams {
 public:
   // Declarations
-  __declspec(property(get = get_textureEffect))::GlobalNamespace::TextureEffectSO* textureEffect;
+  __declspec(property(get = get_textureEffect))::UnityW<::GlobalNamespace::TextureEffectSO> textureEffect;
 
   __declspec(property(get = get_textureWidth)) int32_t textureWidth;
 
@@ -43,7 +43,7 @@ public:
   __declspec(property(get = get_toneMapping))::GlobalNamespace::ToneMapping toneMapping;
 
   /// @brief Method get_textureEffect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::GlobalNamespace::TextureEffectSO* get_textureEffect();
+  inline ::UnityW<::GlobalNamespace::TextureEffectSO> get_textureEffect();
 
   /// @brief Method get_textureWidth, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_textureWidth();

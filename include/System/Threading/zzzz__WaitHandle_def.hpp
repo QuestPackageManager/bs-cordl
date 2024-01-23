@@ -29,20 +29,20 @@ MARK_REF_PTR_T(::System::Threading::WaitHandle);
 // SizeInfo { instance_size: 48, native_size: 32, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2740))
 // CS Name: ::System.Threading::WaitHandle*
 class CORDL_TYPE WaitHandle : public ::System::MarshalByRefObject {
 public:
   // Declarations
   /// @brief Field waitHandle, offset 0x18, size 0x8
-  __declspec(property(get = __get_waitHandle, put = __set_waitHandle)) void* waitHandle;
+  __declspec(property(get = __cordl_internal_get_waitHandle, put = __cordl_internal_set_waitHandle)) void* waitHandle;
 
   /// @brief Field safeWaitHandle, offset 0x20, size 0x8
-  __declspec(property(get = __get_safeWaitHandle, put = __set_safeWaitHandle))::Microsoft::Win32::SafeHandles::SafeWaitHandle* safeWaitHandle;
+  __declspec(property(get = __cordl_internal_get_safeWaitHandle, put = __cordl_internal_set_safeWaitHandle))::Microsoft::Win32::SafeHandles::SafeWaitHandle* safeWaitHandle;
 
   /// @brief Field hasThreadAffinity, offset 0x28, size 0x1
-  __declspec(property(get = __get_hasThreadAffinity, put = __set_hasThreadAffinity)) bool hasThreadAffinity;
+  __declspec(property(get = __cordl_internal_get_hasThreadAffinity, put = __cordl_internal_set_hasThreadAffinity)) bool hasThreadAffinity;
 
   /// @brief Field InvalidHandle, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_InvalidHandle, put = setStaticF_InvalidHandle)) void* InvalidHandle;
@@ -57,23 +57,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr void*& __get_waitHandle();
+  constexpr void*& __cordl_internal_get_waitHandle();
 
-  constexpr void* const& __get_waitHandle() const;
+  constexpr void* const& __cordl_internal_get_waitHandle() const;
 
-  constexpr void __set_waitHandle(void* value);
+  constexpr void __cordl_internal_set_waitHandle(void* value);
 
-  constexpr ::Microsoft::Win32::SafeHandles::SafeWaitHandle*& __get_safeWaitHandle();
+  constexpr ::Microsoft::Win32::SafeHandles::SafeWaitHandle*& __cordl_internal_get_safeWaitHandle();
 
-  constexpr ::cordl_internals::to_const_pointer<::Microsoft::Win32::SafeHandles::SafeWaitHandle*> const& __get_safeWaitHandle() const;
+  constexpr ::cordl_internals::to_const_pointer<::Microsoft::Win32::SafeHandles::SafeWaitHandle*> const& __cordl_internal_get_safeWaitHandle() const;
 
-  constexpr void __set_safeWaitHandle(::Microsoft::Win32::SafeHandles::SafeWaitHandle* value);
+  constexpr void __cordl_internal_set_safeWaitHandle(::Microsoft::Win32::SafeHandles::SafeWaitHandle* value);
 
-  constexpr bool& __get_hasThreadAffinity();
+  constexpr bool& __cordl_internal_get_hasThreadAffinity();
 
-  constexpr bool const& __get_hasThreadAffinity() const;
+  constexpr bool const& __cordl_internal_get_hasThreadAffinity() const;
 
-  constexpr void __set_hasThreadAffinity(bool value);
+  constexpr void __cordl_internal_set_hasThreadAffinity(bool value);
 
   static inline void setStaticF_InvalidHandle(void* value);
 

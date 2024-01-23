@@ -34,31 +34,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(247))
 // CS Name: ::Org.BouncyCastle.Asn1.Pkcs::RC2CbcParameter*
 class CORDL_TYPE RC2CbcParameter : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __get_version, put = __set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
   /// @brief Field iv, offset 0x18, size 0x8
-  __declspec(property(get = __get_iv, put = __set_iv))::Org::BouncyCastle::Asn1::Asn1OctetString* iv;
+  __declspec(property(get = __cordl_internal_get_iv, put = __cordl_internal_set_iv))::Org::BouncyCastle::Asn1::Asn1OctetString* iv;
 
   __declspec(property(get = get_RC2ParameterVersion))::Org::BouncyCastle::Math::BigInteger* RC2ParameterVersion;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_version();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_version() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_iv();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_iv();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_iv() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_iv() const;
 
-  constexpr void __set_iv(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_iv(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
   /// @brief Method GetInstance, addr 0xf8d5a8, size 0x164, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RC2CbcParameter* GetInstance(::System::Object* obj);

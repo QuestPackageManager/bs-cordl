@@ -17,25 +17,25 @@ template <typename T> inline ::System::Object* Tayx::Graphy::Utils::G_Singleton_
 }
 template <typename T> inline T Tayx::Graphy::Utils::G_Singleton_1<T>::get_Instance() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::G_Singleton_1<T>*>::get(), "get_Instance",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method);
 }
 template <typename T> inline void Tayx::Graphy::Utils::G_Singleton_1<T>::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::G_Singleton_1<T>*>::get(), "Awake",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline void Tayx::Graphy::Utils::G_Singleton_1<T>::OnDestroy() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::G_Singleton_1<T>*>::get(), "OnDestroy",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline ::Tayx::Graphy::Utils::G_Singleton_1<T>* Tayx::Graphy::Utils::G_Singleton_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::Tayx::Graphy::Utils::G_Singleton_1<T>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tayx::Graphy::Utils::G_Singleton_1<T>*>());
 }
 template <typename T> inline void Tayx::Graphy::Utils::G_Singleton_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::G_Singleton_1<T>*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

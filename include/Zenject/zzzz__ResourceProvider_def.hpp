@@ -37,20 +37,20 @@ MARK_REF_PTR_T(::Zenject::ResourceProvider);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11236))
 // CS Name: ::Zenject::ResourceProvider*
 class CORDL_TYPE ResourceProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _resourceType, offset 0x10, size 0x8
-  __declspec(property(get = __get__resourceType, put = __set__resourceType))::System::Type* _resourceType;
+  __declspec(property(get = __cordl_internal_get__resourceType, put = __cordl_internal_set__resourceType))::System::Type* _resourceType;
 
   /// @brief Field _resourcePath, offset 0x18, size 0x8
-  __declspec(property(get = __get__resourcePath, put = __set__resourcePath))::StringW _resourcePath;
+  __declspec(property(get = __cordl_internal_get__resourcePath, put = __cordl_internal_set__resourcePath))::StringW _resourcePath;
 
   /// @brief Field _matchSingle, offset 0x20, size 0x1
-  __declspec(property(get = __get__matchSingle, put = __set__matchSingle)) bool _matchSingle;
+  __declspec(property(get = __cordl_internal_get__matchSingle, put = __cordl_internal_set__matchSingle)) bool _matchSingle;
 
   __declspec(property(get = get_IsCached)) bool IsCached;
 
@@ -62,23 +62,23 @@ public:
   /// @brief Convert to "::Zenject::IProvider"
   constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  constexpr ::System::Type*& __get__resourceType();
+  constexpr ::System::Type*& __cordl_internal_get__resourceType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__resourceType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__resourceType() const;
 
-  constexpr void __set__resourceType(::System::Type* value);
+  constexpr void __cordl_internal_set__resourceType(::System::Type* value);
 
-  constexpr ::StringW& __get__resourcePath();
+  constexpr ::StringW& __cordl_internal_get__resourcePath();
 
-  constexpr ::StringW const& __get__resourcePath() const;
+  constexpr ::StringW const& __cordl_internal_get__resourcePath() const;
 
-  constexpr void __set__resourcePath(::StringW value);
+  constexpr void __cordl_internal_set__resourcePath(::StringW value);
 
-  constexpr bool& __get__matchSingle();
+  constexpr bool& __cordl_internal_get__matchSingle();
 
-  constexpr bool const& __get__matchSingle() const;
+  constexpr bool const& __cordl_internal_get__matchSingle() const;
 
-  constexpr void __set__matchSingle(bool value);
+  constexpr void __cordl_internal_set__matchSingle(bool value);
 
   static inline ::Zenject::ResourceProvider* New_ctor(::StringW resourcePath, ::System::Type* resourceType, bool matchSingle);
 

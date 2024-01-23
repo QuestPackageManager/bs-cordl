@@ -47,20 +47,20 @@ MARK_REF_PTR_T(::Zenject::__TypeAnalyzer____c__DisplayClass23_0);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11355))
 // CS Name: ::TypeAnalyzer::<>c__DisplayClass23_0*
 class CORDL_TYPE __TypeAnalyzer____c__DisplayClass23_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
-  constexpr ::System::Type*& __get_type();
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Type* value);
+  constexpr void __cordl_internal_set_type(::System::Type* value);
 
   static inline ::Zenject::__TypeAnalyzer____c__DisplayClass23_0* New_ctor();
 
@@ -108,7 +108,7 @@ static_assert(offsetof(::Zenject::__TypeAnalyzer____c__DisplayClass23_0, ___type
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11354)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11354))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11356))
 // CS Name: ::Zenject::TypeAnalyzer*
 class CORDL_TYPE TypeAnalyzer : public ::System::Object {

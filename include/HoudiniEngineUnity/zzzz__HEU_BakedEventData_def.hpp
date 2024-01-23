@@ -23,26 +23,26 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_BakedEventData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9595))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9595))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9598))
 // CS Name: ::HoudiniEngineUnity::HEU_BakedEventData*
 class CORDL_TYPE HEU_BakedEventData : public ::HoudiniEngineUnity::HEU_AssetEventData {
 public:
   // Declarations
   /// @brief Field IsNewBake, offset 0x2c, size 0x1
-  __declspec(property(get = __get_IsNewBake, put = __set_IsNewBake)) bool IsNewBake;
+  __declspec(property(get = __cordl_internal_get_IsNewBake, put = __cordl_internal_set_IsNewBake)) bool IsNewBake;
 
-  constexpr bool& __get_IsNewBake();
+  constexpr bool& __cordl_internal_get_IsNewBake();
 
-  constexpr bool const& __get_IsNewBake() const;
+  constexpr bool const& __cordl_internal_get_IsNewBake() const;
 
-  constexpr void __set_IsNewBake(bool value);
+  constexpr void __cordl_internal_set_IsNewBake(bool value);
 
   static inline ::HoudiniEngineUnity::HEU_BakedEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful,
-                                                                   ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects, bool isNewBake);
+                                                                   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects, bool isNewBake);
 
   /// @brief Method .ctor, addr 0x214e31c, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects, bool isNewBake);
+  inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects, bool isNewBake);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_BakedEventData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

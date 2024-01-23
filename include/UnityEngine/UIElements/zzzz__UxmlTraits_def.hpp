@@ -23,22 +23,22 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlTraits);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6995))
 // CS Name: ::UnityEngine.UIElements::UxmlTraits*
 class CORDL_TYPE UxmlTraits : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <canHaveAnyAttribute>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__canHaveAnyAttribute_k__BackingField, put = __set__canHaveAnyAttribute_k__BackingField)) bool _canHaveAnyAttribute_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__canHaveAnyAttribute_k__BackingField, put = __cordl_internal_set__canHaveAnyAttribute_k__BackingField)) bool _canHaveAnyAttribute_k__BackingField;
 
   __declspec(property(put = set_canHaveAnyAttribute)) bool canHaveAnyAttribute;
 
-  constexpr bool& __get__canHaveAnyAttribute_k__BackingField();
+  constexpr bool& __cordl_internal_get__canHaveAnyAttribute_k__BackingField();
 
-  constexpr bool const& __get__canHaveAnyAttribute_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__canHaveAnyAttribute_k__BackingField() const;
 
-  constexpr void __set__canHaveAnyAttribute_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__canHaveAnyAttribute_k__BackingField(bool value);
 
   static inline ::UnityEngine::UIElements::UxmlTraits* New_ctor();
 

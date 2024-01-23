@@ -17,7 +17,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12981))
 // CS Name: ::IStateTable`3<TStateTable,TType,TState>*
 class CORDL_TYPE IStateTable_3 {

@@ -25,14 +25,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::DefaultReferenceResolver);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11917))
 // CS Name: ::Newtonsoft.Json.Serialization::DefaultReferenceResolver*
 class CORDL_TYPE DefaultReferenceResolver : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _referenceCount, offset 0x10, size 0x4
-  __declspec(property(get = __get__referenceCount, put = __set__referenceCount)) int32_t _referenceCount;
+  __declspec(property(get = __cordl_internal_get__referenceCount, put = __cordl_internal_set__referenceCount)) int32_t _referenceCount;
 
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::IReferenceResolver"
   constexpr operator ::Newtonsoft::Json::Serialization::IReferenceResolver*() noexcept;
@@ -40,11 +40,11 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Serialization::IReferenceResolver"
   constexpr ::Newtonsoft::Json::Serialization::IReferenceResolver* i___Newtonsoft__Json__Serialization__IReferenceResolver() noexcept;
 
-  constexpr int32_t& __get__referenceCount();
+  constexpr int32_t& __cordl_internal_get__referenceCount();
 
-  constexpr int32_t const& __get__referenceCount() const;
+  constexpr int32_t const& __cordl_internal_get__referenceCount() const;
 
-  constexpr void __set__referenceCount(int32_t value);
+  constexpr void __cordl_internal_set__referenceCount(int32_t value);
 
   /// @brief Method GetMappings, addr 0x266e7bc, size 0x110, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* GetMappings(::System::Object* context);

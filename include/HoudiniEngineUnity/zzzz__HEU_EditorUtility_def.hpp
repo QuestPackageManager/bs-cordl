@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_EditorUtility);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9819))
 // CS Name: ::HEU_EditorUtility::HEU_ReplacePrefabOptions
 struct CORDL_TYPE __HEU_EditorUtility__HEU_ReplacePrefabOptions {
@@ -107,7 +107,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_EditorUtility__HEU_ReplacePre
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9820))
 // CS Name: ::HoudiniEngineUnity::HEU_EditorUtility*
 class CORDL_TYPE HEU_EditorUtility : public ::System::Object {
@@ -131,7 +131,7 @@ public:
   static inline ::UnityEngine::Matrix4x4 GetSelectedObjectsMeanTransform();
 
   /// @brief Method SaveAsPrefabAsset, addr 0x21b1e3c, size 0x4c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* SaveAsPrefabAsset(::StringW path, ::UnityEngine::GameObject* go);
+  static inline ::UnityW<::UnityEngine::GameObject> SaveAsPrefabAsset(::StringW path, ::UnityEngine::GameObject* go);
 
   /// @brief Method PrefabIsAddedComponentOverride, addr 0x21b1e88, size 0x8, virtual false, abstract: false, final false
   static inline bool PrefabIsAddedComponentOverride(::UnityEngine::Component* comp);
@@ -140,8 +140,8 @@ public:
   static inline bool IsEditorPlaying();
 
   /// @brief Method ReplacePrefab, addr 0x21b1e98, size 0x4c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* ReplacePrefab(::UnityEngine::GameObject* go, ::UnityEngine::Object* targetPrefab,
-                                                         ::HoudiniEngineUnity::__HEU_EditorUtility__HEU_ReplacePrefabOptions heuOptions);
+  static inline ::UnityW<::UnityEngine::GameObject> ReplacePrefab(::UnityEngine::GameObject* go, ::UnityEngine::Object* targetPrefab,
+                                                                  ::HoudiniEngineUnity::__HEU_EditorUtility__HEU_ReplacePrefabOptions heuOptions);
 
   /// @brief Method IsPrefabInstance, addr 0x21b1ee4, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsPrefabInstance(::UnityEngine::GameObject* go);
@@ -156,7 +156,7 @@ public:
   static inline bool IsDisconnectedPrefabInstance(::UnityEngine::GameObject* go);
 
   /// @brief Method GetPrefabAsset, addr 0x21b1fd0, size 0x4c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* GetPrefabAsset(::UnityEngine::GameObject* go);
+  static inline ::UnityW<::UnityEngine::Object> GetPrefabAsset(::UnityEngine::GameObject* go);
 
   /// @brief Method GetPrefabAssetPath, addr 0x21b201c, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetPrefabAssetPath(::UnityEngine::Object* obj);
@@ -165,14 +165,14 @@ public:
   static inline void DisconnectPrefabInstance(::UnityEngine::GameObject* instance);
 
   /// @brief Method InstantiatePrefab, addr 0x21b20ac, size 0x4c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* InstantiatePrefab(::UnityEngine::GameObject* prefabOriginal);
+  static inline ::UnityW<::UnityEngine::Object> InstantiatePrefab(::UnityEngine::GameObject* prefabOriginal);
 
   /// @brief Method InstantiateGameObject, addr 0x21b20f8, size 0x84, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* InstantiateGameObject(::UnityEngine::GameObject* sourceGameObject, ::UnityEngine::Transform* parentTransform, bool instantiateInWorldSpace,
-                                                                 bool bRegisterUndo);
+  static inline ::UnityW<::UnityEngine::GameObject> InstantiateGameObject(::UnityEngine::GameObject* sourceGameObject, ::UnityEngine::Transform* parentTransform, bool instantiateInWorldSpace,
+                                                                          bool bRegisterUndo);
 
   /// @brief Method AddComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::UnityEngine::Component* AddComponent(::UnityEngine::GameObject* target, bool bRegisterUndo);
+  template <typename T> static inline ::UnityW<::UnityEngine::Component> AddComponent(::UnityEngine::GameObject* target, bool bRegisterUndo);
 
   /// @brief Method UndoRecordObject, addr 0x21b217c, size 0x4, virtual false, abstract: false, final false
   static inline void UndoRecordObject(::UnityEngine::Object* objectToUndo, ::StringW name);
@@ -181,7 +181,7 @@ public:
   static inline void UndoCollapseCurrentGroup();
 
   /// @brief Method CollectDependencies, addr 0x21b2184, size 0x4c, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> CollectDependencies(::UnityEngine::Object* obj);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> CollectDependencies(::UnityEngine::Object* obj);
 
   /// @brief Method IsPersistant, addr 0x21b21d0, size 0x4c, virtual false, abstract: false, final false
   static inline bool IsPersistant(::UnityEngine::Object* obj);
@@ -217,13 +217,13 @@ public:
   static inline void SetIsHidden(::UnityEngine::GameObject* go, bool isHidden, bool bIncludeChildren);
 
   /// @brief Method GetSelectedObjects, addr 0x21b2420, size 0x8, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> GetSelectedObjects();
+  static inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> GetSelectedObjects();
 
   /// @brief Method GetSelectedAssetRoots, addr 0x21b2428, size 0x88, virtual false, abstract: false, final false
-  static inline ::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*, ::Array<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*>*> GetSelectedAssetRoots();
+  static inline ::ArrayW<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot>, ::Array<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot>>*> GetSelectedAssetRoots();
 
   /// @brief Method GetAllAssetRoots, addr 0x21b24b0, size 0x64, virtual false, abstract: false, final false
-  static inline ::ArrayW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*, ::Array<::HoudiniEngineUnity::HEU_HoudiniAssetRoot*>*> GetAllAssetRoots();
+  static inline ::ArrayW<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot>, ::Array<::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot>>*> GetAllAssetRoots();
 
   /// @brief Method CookSelected, addr 0x21b2514, size 0x10, virtual false, abstract: false, final false
   static inline void CookSelected();
@@ -268,7 +268,7 @@ public:
   static inline void QuerySelectedMeshTopology();
 
   /// @brief Method GetObjectParentFolder, addr 0x21b2f68, size 0x40, virtual false, abstract: false, final false
-  static inline ::StringW GetObjectParentFolder(::UnityEngine::GameObject* parentObject, ::System::Collections::Generic::HashSet_1<::UnityEngine::Material*>* generatedMaterials);
+  static inline ::StringW GetObjectParentFolder(::UnityEngine::GameObject* parentObject, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::Material>>* generatedMaterials);
 
   /// @brief Method GetObjectParentFolderHelper, addr 0x21b2fa8, size 0x40, virtual false, abstract: false, final false
   static inline ::StringW GetObjectParentFolderHelper(int32_t instanceID);

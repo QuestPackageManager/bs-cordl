@@ -54,8 +54,8 @@ MARK_VAL_T(::GlobalNamespace::__LeaderboardHelper___CreateOculusLeaderboard_d__2
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(14655))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5849)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(14655)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 883 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5849)) CS Name:
 // ::LeaderboardHelper::<CreateOculusLeaderboard>d__2
 struct CORDL_TYPE __LeaderboardHelper___CreateOculusLeaderboard_d__2 {
 public:
@@ -140,7 +140,7 @@ static_assert(offsetof(::GlobalNamespace::__LeaderboardHelper___CreateOculusLead
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5850))
 // CS Name: ::LeaderboardHelper*
 class CORDL_TYPE LeaderboardHelper : public ::System::Object {
@@ -149,13 +149,13 @@ public:
   using _CreateOculusLeaderboard_d__2 = ::GlobalNamespace::__LeaderboardHelper___CreateOculusLeaderboard_d__2;
 
   /// @brief Field _leaderboardIds, offset 0x10, size 0x8
-  __declspec(property(get = __get__leaderboardIds, put = __set__leaderboardIds))::System::Collections::Generic::List_1<::StringW>* _leaderboardIds;
+  __declspec(property(get = __cordl_internal_get__leaderboardIds, put = __cordl_internal_set__leaderboardIds))::System::Collections::Generic::List_1<::StringW>* _leaderboardIds;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get__leaderboardIds();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__leaderboardIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get__leaderboardIds() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__leaderboardIds() const;
 
-  constexpr void __set__leaderboardIds(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set__leaderboardIds(::System::Collections::Generic::List_1<::StringW>* value);
 
   /// @brief Method CreateOculusLeaderboards, addr 0x22f3c18, size 0xe7c, virtual false, abstract: false, final false
   inline void CreateOculusLeaderboards(::GlobalNamespace::LeaderboardIdsModelSO* leaderboardIdsModel, ::GlobalNamespace::BeatmapLevelCollectionSO* _levelCollection, bool debug, ::StringW appToken);

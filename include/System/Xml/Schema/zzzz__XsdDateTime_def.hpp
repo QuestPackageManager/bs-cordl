@@ -56,7 +56,7 @@ MARK_VAL_T(::System::Xml::Schema::__XsdDateTime__Parser);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11760))
 // CS Name: ::XsdDateTime::DateTimeTypeCode
 struct CORDL_TYPE __XsdDateTime__DateTimeTypeCode {
@@ -134,7 +134,7 @@ static_assert(offsetof(::System::Xml::Schema::__XsdDateTime__DateTimeTypeCode, v
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11761))
 // CS Name: ::XsdDateTime::XsdDateTimeKind
 struct CORDL_TYPE __XsdDateTime__XsdDateTimeKind {
@@ -192,7 +192,7 @@ static_assert(offsetof(::System::Xml::Schema::__XsdDateTime__XsdDateTimeKind, va
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11760)), TypeDefinitionIndex(TypeDefinitionIndex(11761))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11760)), TypeDefinitionIndex(TypeDefinitionIndex(11761))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11762))
 // CS Name: ::XsdDateTime::Parser
 struct CORDL_TYPE __XsdDateTime__Parser {
@@ -326,7 +326,7 @@ static_assert(offsetof(::System::Xml::Schema::__XsdDateTime__Parser, length) == 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11763))
 // CS Name: ::System.Xml.Schema::XsdDateTime
 struct CORDL_TYPE XsdDateTime {

@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::System::ComponentModel::PropertyChangedEventArgs);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9466))
 // CS Name: ::System.ComponentModel::PropertyChangedEventArgs*
 class CORDL_TYPE PropertyChangedEventArgs : public ::System::EventArgs {
 public:
   // Declarations
   /// @brief Field _propertyName, offset 0x10, size 0x8
-  __declspec(property(get = __get__propertyName, put = __set__propertyName))::StringW _propertyName;
+  __declspec(property(get = __cordl_internal_get__propertyName, put = __cordl_internal_set__propertyName))::StringW _propertyName;
 
-  constexpr ::StringW& __get__propertyName();
+  constexpr ::StringW& __cordl_internal_get__propertyName();
 
-  constexpr ::StringW const& __get__propertyName() const;
+  constexpr ::StringW const& __cordl_internal_get__propertyName() const;
 
-  constexpr void __set__propertyName(::StringW value);
+  constexpr void __cordl_internal_set__propertyName(::StringW value);
 
   static inline ::System::ComponentModel::PropertyChangedEventArgs* New_ctor(::StringW propertyName);
 

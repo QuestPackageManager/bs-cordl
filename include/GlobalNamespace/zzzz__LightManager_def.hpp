@@ -23,32 +23,36 @@ MARK_REF_PTR_T(::GlobalNamespace::LightManager);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14497))
 // CS Name: ::LightManager*
 class CORDL_TYPE LightManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _directionalLightDirections, offset 0x18, size 0x8
-  __declspec(property(get = __get__directionalLightDirections, put = __set__directionalLightDirections))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _directionalLightDirections;
+  __declspec(property(get = __cordl_internal_get__directionalLightDirections,
+                      put = __cordl_internal_set__directionalLightDirections))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _directionalLightDirections;
 
   /// @brief Field _directionalLightColors, offset 0x20, size 0x8
-  __declspec(property(get = __get__directionalLightColors, put = __set__directionalLightColors))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _directionalLightColors;
+  __declspec(property(get = __cordl_internal_get__directionalLightColors,
+                      put = __cordl_internal_set__directionalLightColors))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _directionalLightColors;
 
   /// @brief Field _directionalLightPositions, offset 0x28, size 0x8
-  __declspec(property(get = __get__directionalLightPositions, put = __set__directionalLightPositions))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _directionalLightPositions;
+  __declspec(property(get = __cordl_internal_get__directionalLightPositions,
+                      put = __cordl_internal_set__directionalLightPositions))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _directionalLightPositions;
 
   /// @brief Field _directionalLightRadii, offset 0x30, size 0x8
-  __declspec(property(get = __get__directionalLightRadii, put = __set__directionalLightRadii))::ArrayW<float_t, ::Array<float_t>*> _directionalLightRadii;
+  __declspec(property(get = __cordl_internal_get__directionalLightRadii, put = __cordl_internal_set__directionalLightRadii))::ArrayW<float_t, ::Array<float_t>*> _directionalLightRadii;
 
   /// @brief Field _pointLightPositions, offset 0x38, size 0x8
-  __declspec(property(get = __get__pointLightPositions, put = __set__pointLightPositions))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _pointLightPositions;
+  __declspec(property(get = __cordl_internal_get__pointLightPositions,
+                      put = __cordl_internal_set__pointLightPositions))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _pointLightPositions;
 
   /// @brief Field _pointLightColors, offset 0x40, size 0x8
-  __declspec(property(get = __get__pointLightColors, put = __set__pointLightColors))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _pointLightColors;
+  __declspec(property(get = __cordl_internal_get__pointLightColors, put = __cordl_internal_set__pointLightColors))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _pointLightColors;
 
   /// @brief Field lastRefreshFrameNum, offset 0x48, size 0x4
-  __declspec(property(get = __get_lastRefreshFrameNum, put = __set_lastRefreshFrameNum)) int32_t lastRefreshFrameNum;
+  __declspec(property(get = __cordl_internal_get_lastRefreshFrameNum, put = __cordl_internal_set_lastRefreshFrameNum)) int32_t lastRefreshFrameNum;
 
   /// @brief Field _directionalLightDirectionsID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__directionalLightDirectionsID, put = setStaticF__directionalLightDirectionsID)) int32_t _directionalLightDirectionsID;
@@ -68,47 +72,47 @@ public:
   /// @brief Field _pointLightColorsID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__pointLightColorsID, put = setStaticF__pointLightColorsID)) int32_t _pointLightColorsID;
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __get__directionalLightDirections();
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get__directionalLightDirections();
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __get__directionalLightDirections() const;
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__directionalLightDirections() const;
 
-  constexpr void __set__directionalLightDirections(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+  constexpr void __cordl_internal_set__directionalLightDirections(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __get__directionalLightColors();
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get__directionalLightColors();
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __get__directionalLightColors() const;
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__directionalLightColors() const;
 
-  constexpr void __set__directionalLightColors(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+  constexpr void __cordl_internal_set__directionalLightColors(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __get__directionalLightPositions();
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get__directionalLightPositions();
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __get__directionalLightPositions() const;
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__directionalLightPositions() const;
 
-  constexpr void __set__directionalLightPositions(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+  constexpr void __cordl_internal_set__directionalLightPositions(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get__directionalLightRadii();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__directionalLightRadii();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get__directionalLightRadii() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__directionalLightRadii() const;
 
-  constexpr void __set__directionalLightRadii(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set__directionalLightRadii(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __get__pointLightPositions();
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get__pointLightPositions();
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __get__pointLightPositions() const;
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__pointLightPositions() const;
 
-  constexpr void __set__pointLightPositions(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+  constexpr void __cordl_internal_set__pointLightPositions(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __get__pointLightColors();
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get__pointLightColors();
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __get__pointLightColors() const;
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__pointLightColors() const;
 
-  constexpr void __set__pointLightColors(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+  constexpr void __cordl_internal_set__pointLightColors(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  constexpr int32_t& __get_lastRefreshFrameNum();
+  constexpr int32_t& __cordl_internal_get_lastRefreshFrameNum();
 
-  constexpr int32_t const& __get_lastRefreshFrameNum() const;
+  constexpr int32_t const& __cordl_internal_get_lastRefreshFrameNum() const;
 
-  constexpr void __set_lastRefreshFrameNum(int32_t value);
+  constexpr void __cordl_internal_set_lastRefreshFrameNum(int32_t value);
 
   static inline void setStaticF__directionalLightDirectionsID(int32_t value);
 

@@ -68,33 +68,33 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::__PointerInputModule__MouseState);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13166))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13166))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13200))
 // CS Name: ::PointerInputModule::ButtonState*
 class CORDL_TYPE __PointerInputModule__ButtonState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Button, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_Button, put = __set_m_Button))::UnityEngine::EventSystems::__PointerEventData__InputButton m_Button;
+  __declspec(property(get = __cordl_internal_get_m_Button, put = __cordl_internal_set_m_Button))::UnityEngine::EventSystems::__PointerEventData__InputButton m_Button;
 
   /// @brief Field m_EventData, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_EventData, put = __set_m_EventData))::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData* m_EventData;
+  __declspec(property(get = __cordl_internal_get_m_EventData, put = __cordl_internal_set_m_EventData))::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData* m_EventData;
 
   __declspec(property(get = get_eventData, put = set_eventData))::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData* eventData;
 
   __declspec(property(get = get_button, put = set_button))::UnityEngine::EventSystems::__PointerEventData__InputButton button;
 
-  constexpr ::UnityEngine::EventSystems::__PointerEventData__InputButton& __get_m_Button();
+  constexpr ::UnityEngine::EventSystems::__PointerEventData__InputButton& __cordl_internal_get_m_Button();
 
-  constexpr ::UnityEngine::EventSystems::__PointerEventData__InputButton const& __get_m_Button() const;
+  constexpr ::UnityEngine::EventSystems::__PointerEventData__InputButton const& __cordl_internal_get_m_Button() const;
 
-  constexpr void __set_m_Button(::UnityEngine::EventSystems::__PointerEventData__InputButton value);
+  constexpr void __cordl_internal_set_m_Button(::UnityEngine::EventSystems::__PointerEventData__InputButton value);
 
-  constexpr ::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData*& __get_m_EventData();
+  constexpr ::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData*& __cordl_internal_get_m_EventData();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData*> const& __get_m_EventData() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData*> const& __cordl_internal_get_m_EventData() const;
 
-  constexpr void __set_m_EventData(::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData* value);
+  constexpr void __cordl_internal_set_m_EventData(::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData* value);
 
   /// @brief Method get_eventData, addr 0x2d9ce84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData* get_eventData();
@@ -147,21 +147,22 @@ static_assert(offsetof(::UnityEngine::EventSystems::__PointerInputModule__Button
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13201))
 // CS Name: ::PointerInputModule::MouseState*
 class CORDL_TYPE __PointerInputModule__MouseState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_TrackedButtons, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_TrackedButtons,
-                      put = __set_m_TrackedButtons))::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__PointerInputModule__ButtonState*>* m_TrackedButtons;
+  __declspec(property(get = __cordl_internal_get_m_TrackedButtons,
+                      put = __cordl_internal_set_m_TrackedButtons))::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__PointerInputModule__ButtonState*>* m_TrackedButtons;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__PointerInputModule__ButtonState*>*& __get_m_TrackedButtons();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__PointerInputModule__ButtonState*>*& __cordl_internal_get_m_TrackedButtons();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__PointerInputModule__ButtonState*>*> const& __get_m_TrackedButtons() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__PointerInputModule__ButtonState*>*> const&
+  __cordl_internal_get_m_TrackedButtons() const;
 
-  constexpr void __set_m_TrackedButtons(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__PointerInputModule__ButtonState*>* value);
+  constexpr void __cordl_internal_set_m_TrackedButtons(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::__PointerInputModule__ButtonState*>* value);
 
   /// @brief Method AnyPressesThisFrame, addr 0x2d9ceac, size 0xb4, virtual false, abstract: false, final false
   inline bool AnyPressesThisFrame();
@@ -210,29 +211,29 @@ static_assert(offsetof(::UnityEngine::EventSystems::__PointerInputModule__MouseS
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13167))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13167))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13202))
 // CS Name: ::PointerInputModule::MouseButtonEventData*
 class CORDL_TYPE __PointerInputModule__MouseButtonEventData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field buttonState, offset 0x10, size 0x4
-  __declspec(property(get = __get_buttonState, put = __set_buttonState))::UnityEngine::EventSystems::__PointerEventData__FramePressState buttonState;
+  __declspec(property(get = __cordl_internal_get_buttonState, put = __cordl_internal_set_buttonState))::UnityEngine::EventSystems::__PointerEventData__FramePressState buttonState;
 
   /// @brief Field buttonData, offset 0x18, size 0x8
-  __declspec(property(get = __get_buttonData, put = __set_buttonData))::UnityEngine::EventSystems::PointerEventData* buttonData;
+  __declspec(property(get = __cordl_internal_get_buttonData, put = __cordl_internal_set_buttonData))::UnityEngine::EventSystems::PointerEventData* buttonData;
 
-  constexpr ::UnityEngine::EventSystems::__PointerEventData__FramePressState& __get_buttonState();
+  constexpr ::UnityEngine::EventSystems::__PointerEventData__FramePressState& __cordl_internal_get_buttonState();
 
-  constexpr ::UnityEngine::EventSystems::__PointerEventData__FramePressState const& __get_buttonState() const;
+  constexpr ::UnityEngine::EventSystems::__PointerEventData__FramePressState const& __cordl_internal_get_buttonState() const;
 
-  constexpr void __set_buttonState(::UnityEngine::EventSystems::__PointerEventData__FramePressState value);
+  constexpr void __cordl_internal_set_buttonState(::UnityEngine::EventSystems::__PointerEventData__FramePressState value);
 
-  constexpr ::UnityEngine::EventSystems::PointerEventData*& __get_buttonData();
+  constexpr ::UnityEngine::EventSystems::PointerEventData*& __cordl_internal_get_buttonData();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& __get_buttonData() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& __cordl_internal_get_buttonData() const;
 
-  constexpr void __set_buttonData(::UnityEngine::EventSystems::PointerEventData* value);
+  constexpr void __cordl_internal_set_buttonData(::UnityEngine::EventSystems::PointerEventData* value);
 
   /// @brief Method PressedThisFrame, addr 0x2d9cf60, size 0x10, virtual false, abstract: false, final false
   inline bool PressedThisFrame();
@@ -279,7 +280,7 @@ static_assert(offsetof(::UnityEngine::EventSystems::__PointerInputModule__MouseB
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13199))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13199))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13203))
 // CS Name: ::UnityEngine.EventSystems::PointerInputModule*
 class CORDL_TYPE PointerInputModule : public ::UnityEngine::EventSystems::BaseInputModule {
@@ -292,22 +293,24 @@ public:
   using ButtonState = ::UnityEngine::EventSystems::__PointerInputModule__ButtonState;
 
   /// @brief Field m_PointerData, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_PointerData, put = __set_m_PointerData))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>* m_PointerData;
+  __declspec(property(get = __cordl_internal_get_m_PointerData,
+                      put = __cordl_internal_set_m_PointerData))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>* m_PointerData;
 
   /// @brief Field m_MouseState, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_MouseState, put = __set_m_MouseState))::UnityEngine::EventSystems::__PointerInputModule__MouseState* m_MouseState;
+  __declspec(property(get = __cordl_internal_get_m_MouseState, put = __cordl_internal_set_m_MouseState))::UnityEngine::EventSystems::__PointerInputModule__MouseState* m_MouseState;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>*& __get_m_PointerData();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>*& __cordl_internal_get_m_PointerData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>*> const& __get_m_PointerData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>*> const&
+  __cordl_internal_get_m_PointerData() const;
 
-  constexpr void __set_m_PointerData(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>* value);
+  constexpr void __cordl_internal_set_m_PointerData(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  constexpr ::UnityEngine::EventSystems::__PointerInputModule__MouseState*& __get_m_MouseState();
+  constexpr ::UnityEngine::EventSystems::__PointerInputModule__MouseState*& __cordl_internal_get_m_MouseState();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::__PointerInputModule__MouseState*> const& __get_m_MouseState() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::__PointerInputModule__MouseState*> const& __cordl_internal_get_m_MouseState() const;
 
-  constexpr void __set_m_MouseState(::UnityEngine::EventSystems::__PointerInputModule__MouseState* value);
+  constexpr void __cordl_internal_set_m_MouseState(::UnityEngine::EventSystems::__PointerInputModule__MouseState* value);
 
   /// @brief Method GetPointerData, addr 0x2d9bb64, size 0xe8, virtual false, abstract: false, final false
   inline bool GetPointerData(int32_t id, ByRef<::UnityEngine::EventSystems::PointerEventData*> data, bool create);

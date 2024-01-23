@@ -25,35 +25,39 @@ MARK_REF_PTR_T(::TMPro::TMP_UpdateManager);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12458))
 // CS Name: ::TMPro::TMP_UpdateManager*
 class CORDL_TYPE TMP_UpdateManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_LayoutQueueLookup, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_LayoutQueueLookup, put = __set_m_LayoutQueueLookup))::System::Collections::Generic::HashSet_1<int32_t>* m_LayoutQueueLookup;
+  __declspec(property(get = __cordl_internal_get_m_LayoutQueueLookup, put = __cordl_internal_set_m_LayoutQueueLookup))::System::Collections::Generic::HashSet_1<int32_t>* m_LayoutQueueLookup;
 
   /// @brief Field m_LayoutRebuildQueue, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_LayoutRebuildQueue, put = __set_m_LayoutRebuildQueue))::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* m_LayoutRebuildQueue;
+  __declspec(property(get = __cordl_internal_get_m_LayoutRebuildQueue,
+                      put = __cordl_internal_set_m_LayoutRebuildQueue))::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* m_LayoutRebuildQueue;
 
   /// @brief Field m_GraphicQueueLookup, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_GraphicQueueLookup, put = __set_m_GraphicQueueLookup))::System::Collections::Generic::HashSet_1<int32_t>* m_GraphicQueueLookup;
+  __declspec(property(get = __cordl_internal_get_m_GraphicQueueLookup, put = __cordl_internal_set_m_GraphicQueueLookup))::System::Collections::Generic::HashSet_1<int32_t>* m_GraphicQueueLookup;
 
   /// @brief Field m_GraphicRebuildQueue, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_GraphicRebuildQueue, put = __set_m_GraphicRebuildQueue))::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* m_GraphicRebuildQueue;
+  __declspec(property(get = __cordl_internal_get_m_GraphicRebuildQueue,
+                      put = __cordl_internal_set_m_GraphicRebuildQueue))::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* m_GraphicRebuildQueue;
 
   /// @brief Field m_InternalUpdateLookup, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_InternalUpdateLookup, put = __set_m_InternalUpdateLookup))::System::Collections::Generic::HashSet_1<int32_t>* m_InternalUpdateLookup;
+  __declspec(property(get = __cordl_internal_get_m_InternalUpdateLookup, put = __cordl_internal_set_m_InternalUpdateLookup))::System::Collections::Generic::HashSet_1<int32_t>* m_InternalUpdateLookup;
 
   /// @brief Field m_InternalUpdateQueue, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_InternalUpdateQueue, put = __set_m_InternalUpdateQueue))::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* m_InternalUpdateQueue;
+  __declspec(property(get = __cordl_internal_get_m_InternalUpdateQueue,
+                      put = __cordl_internal_set_m_InternalUpdateQueue))::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* m_InternalUpdateQueue;
 
   /// @brief Field m_CullingUpdateLookup, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_CullingUpdateLookup, put = __set_m_CullingUpdateLookup))::System::Collections::Generic::HashSet_1<int32_t>* m_CullingUpdateLookup;
+  __declspec(property(get = __cordl_internal_get_m_CullingUpdateLookup, put = __cordl_internal_set_m_CullingUpdateLookup))::System::Collections::Generic::HashSet_1<int32_t>* m_CullingUpdateLookup;
 
   /// @brief Field m_CullingUpdateQueue, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_CullingUpdateQueue, put = __set_m_CullingUpdateQueue))::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* m_CullingUpdateQueue;
+  __declspec(property(get = __cordl_internal_get_m_CullingUpdateQueue,
+                      put = __cordl_internal_set_m_CullingUpdateQueue))::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* m_CullingUpdateQueue;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::TMPro::TMP_UpdateManager* s_Instance;
@@ -78,53 +82,53 @@ public:
   static __declspec(property(get = getStaticF_k_UnregisterTextElementForGraphicRebuildMarker,
                              put = setStaticF_k_UnregisterTextElementForGraphicRebuildMarker))::Unity::Profiling::ProfilerMarker k_UnregisterTextElementForGraphicRebuildMarker;
 
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __get_m_LayoutQueueLookup();
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_m_LayoutQueueLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __get_m_LayoutQueueLookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_m_LayoutQueueLookup() const;
 
-  constexpr void __set_m_LayoutQueueLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_LayoutQueueLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_Text*>*& __get_m_LayoutRebuildQueue();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>*& __cordl_internal_get_m_LayoutRebuildQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::TMP_Text*>*> const& __get_m_LayoutRebuildQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>*> const& __cordl_internal_get_m_LayoutRebuildQueue() const;
 
-  constexpr void __set_m_LayoutRebuildQueue(::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* value);
+  constexpr void __cordl_internal_set_m_LayoutRebuildQueue(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __get_m_GraphicQueueLookup();
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_m_GraphicQueueLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __get_m_GraphicQueueLookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_m_GraphicQueueLookup() const;
 
-  constexpr void __set_m_GraphicQueueLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_GraphicQueueLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_Text*>*& __get_m_GraphicRebuildQueue();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>*& __cordl_internal_get_m_GraphicRebuildQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::TMP_Text*>*> const& __get_m_GraphicRebuildQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>*> const& __cordl_internal_get_m_GraphicRebuildQueue() const;
 
-  constexpr void __set_m_GraphicRebuildQueue(::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* value);
+  constexpr void __cordl_internal_set_m_GraphicRebuildQueue(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __get_m_InternalUpdateLookup();
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_m_InternalUpdateLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __get_m_InternalUpdateLookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_m_InternalUpdateLookup() const;
 
-  constexpr void __set_m_InternalUpdateLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_InternalUpdateLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_Text*>*& __get_m_InternalUpdateQueue();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>*& __cordl_internal_get_m_InternalUpdateQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::TMP_Text*>*> const& __get_m_InternalUpdateQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>*> const& __cordl_internal_get_m_InternalUpdateQueue() const;
 
-  constexpr void __set_m_InternalUpdateQueue(::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* value);
+  constexpr void __cordl_internal_set_m_InternalUpdateQueue(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __get_m_CullingUpdateLookup();
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_m_CullingUpdateLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __get_m_CullingUpdateLookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_m_CullingUpdateLookup() const;
 
-  constexpr void __set_m_CullingUpdateLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_CullingUpdateLookup(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_Text*>*& __get_m_CullingUpdateQueue();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>*& __cordl_internal_get_m_CullingUpdateQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::TMP_Text*>*> const& __get_m_CullingUpdateQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>*> const& __cordl_internal_get_m_CullingUpdateQueue() const;
 
-  constexpr void __set_m_CullingUpdateQueue(::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* value);
+  constexpr void __cordl_internal_set_m_CullingUpdateQueue(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* value);
 
   static inline void setStaticF_s_Instance(::TMPro::TMP_UpdateManager* value);
 
@@ -221,25 +225,25 @@ public:
   ::System::Collections::Generic::HashSet_1<int32_t>* ___m_LayoutQueueLookup;
 
   /// @brief Field m_LayoutRebuildQueue, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* ___m_LayoutRebuildQueue;
+  ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* ___m_LayoutRebuildQueue;
 
   /// @brief Field m_GraphicQueueLookup, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<int32_t>* ___m_GraphicQueueLookup;
 
   /// @brief Field m_GraphicRebuildQueue, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* ___m_GraphicRebuildQueue;
+  ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* ___m_GraphicRebuildQueue;
 
   /// @brief Field m_InternalUpdateLookup, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<int32_t>* ___m_InternalUpdateLookup;
 
   /// @brief Field m_InternalUpdateQueue, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* ___m_InternalUpdateQueue;
+  ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* ___m_InternalUpdateQueue;
 
   /// @brief Field m_CullingUpdateLookup, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<int32_t>* ___m_CullingUpdateLookup;
 
   /// @brief Field m_CullingUpdateQueue, offset: 0x48, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::TMPro::TMP_Text*>* ___m_CullingUpdateQueue;
+  ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_Text>>* ___m_CullingUpdateQueue;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,22 +20,22 @@ MARK_REF_PTR_T(::System::Xml::XmlImplementation);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11512))
 // CS Name: ::System.Xml::XmlImplementation*
 class CORDL_TYPE XmlImplementation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field nameTable, offset 0x10, size 0x8
-  __declspec(property(get = __get_nameTable, put = __set_nameTable))::System::Xml::XmlNameTable* nameTable;
+  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable))::System::Xml::XmlNameTable* nameTable;
 
   __declspec(property(get = get_NameTable))::System::Xml::XmlNameTable* NameTable;
 
-  constexpr ::System::Xml::XmlNameTable*& __get_nameTable();
+  constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_nameTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __get_nameTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __cordl_internal_get_nameTable() const;
 
-  constexpr void __set_nameTable(::System::Xml::XmlNameTable* value);
+  constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
 
   static inline ::System::Xml::XmlImplementation* New_ctor();
 

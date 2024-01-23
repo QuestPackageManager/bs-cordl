@@ -16,26 +16,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::StaticTree);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1825))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::StaticTree*
 class CORDL_TYPE StaticTree : public ::System::Object {
 public:
   // Declarations
   /// @brief Field static_tree, offset 0x10, size 0x8
-  __declspec(property(get = __get_static_tree, put = __set_static_tree))::ArrayW<int16_t, ::Array<int16_t>*> static_tree;
+  __declspec(property(get = __cordl_internal_get_static_tree, put = __cordl_internal_set_static_tree))::ArrayW<int16_t, ::Array<int16_t>*> static_tree;
 
   /// @brief Field extra_bits, offset 0x18, size 0x8
-  __declspec(property(get = __get_extra_bits, put = __set_extra_bits))::ArrayW<int32_t, ::Array<int32_t>*> extra_bits;
+  __declspec(property(get = __cordl_internal_get_extra_bits, put = __cordl_internal_set_extra_bits))::ArrayW<int32_t, ::Array<int32_t>*> extra_bits;
 
   /// @brief Field extra_base, offset 0x20, size 0x4
-  __declspec(property(get = __get_extra_base, put = __set_extra_base)) int32_t extra_base;
+  __declspec(property(get = __cordl_internal_get_extra_base, put = __cordl_internal_set_extra_base)) int32_t extra_base;
 
   /// @brief Field elems, offset 0x24, size 0x4
-  __declspec(property(get = __get_elems, put = __set_elems)) int32_t elems;
+  __declspec(property(get = __cordl_internal_get_elems, put = __cordl_internal_set_elems)) int32_t elems;
 
   /// @brief Field max_length, offset 0x28, size 0x4
-  __declspec(property(get = __get_max_length, put = __set_max_length)) int32_t max_length;
+  __declspec(property(get = __cordl_internal_get_max_length, put = __cordl_internal_set_max_length)) int32_t max_length;
 
   /// @brief Field static_ltree, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_static_ltree, put = setStaticF_static_ltree))::ArrayW<int16_t, ::Array<int16_t>*> static_ltree;
@@ -52,35 +52,35 @@ public:
   /// @brief Field static_bl_desc, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_static_bl_desc, put = setStaticF_static_bl_desc))::Org::BouncyCastle::Utilities::Zlib::StaticTree* static_bl_desc;
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __get_static_tree();
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __cordl_internal_get_static_tree();
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __get_static_tree() const;
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __cordl_internal_get_static_tree() const;
 
-  constexpr void __set_static_tree(::ArrayW<int16_t, ::Array<int16_t>*> value);
+  constexpr void __cordl_internal_set_static_tree(::ArrayW<int16_t, ::Array<int16_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_extra_bits();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_extra_bits();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_extra_bits() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_extra_bits() const;
 
-  constexpr void __set_extra_bits(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_extra_bits(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_extra_base();
+  constexpr int32_t& __cordl_internal_get_extra_base();
 
-  constexpr int32_t const& __get_extra_base() const;
+  constexpr int32_t const& __cordl_internal_get_extra_base() const;
 
-  constexpr void __set_extra_base(int32_t value);
+  constexpr void __cordl_internal_set_extra_base(int32_t value);
 
-  constexpr int32_t& __get_elems();
+  constexpr int32_t& __cordl_internal_get_elems();
 
-  constexpr int32_t const& __get_elems() const;
+  constexpr int32_t const& __cordl_internal_get_elems() const;
 
-  constexpr void __set_elems(int32_t value);
+  constexpr void __cordl_internal_set_elems(int32_t value);
 
-  constexpr int32_t& __get_max_length();
+  constexpr int32_t& __cordl_internal_get_max_length();
 
-  constexpr int32_t const& __get_max_length() const;
+  constexpr int32_t const& __cordl_internal_get_max_length() const;
 
-  constexpr void __set_max_length(int32_t value);
+  constexpr void __cordl_internal_set_max_length(int32_t value);
 
   static inline void setStaticF_static_ltree(::ArrayW<int16_t, ::Array<int16_t>*> value);
 

@@ -57,22 +57,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UbiTweak);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(777))
 // CS Name: ::SkeinEngine::Configuration*
 class CORDL_TYPE __SkeinEngine__Configuration : public ::System::Object {
 public:
   // Declarations
   /// @brief Field bytes, offset 0x10, size 0x8
-  __declspec(property(get = __get_bytes, put = __set_bytes))::ArrayW<uint8_t, ::Array<uint8_t>*> bytes;
+  __declspec(property(get = __cordl_internal_get_bytes, put = __cordl_internal_set_bytes))::ArrayW<uint8_t, ::Array<uint8_t>*> bytes;
 
   __declspec(property(get = get_Bytes))::ArrayW<uint8_t, ::Array<uint8_t>*> Bytes;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_bytes();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_bytes();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_bytes() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_bytes() const;
 
-  constexpr void __set_bytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_bytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Configuration* New_ctor(int64_t outputSizeBits);
 
@@ -111,33 +111,33 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Conf
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(778))
 // CS Name: ::SkeinEngine::Parameter*
 class CORDL_TYPE __SkeinEngine__Parameter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __get_type, put = __set_type)) int32_t type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) int32_t type;
 
   /// @brief Field value, offset 0x18, size 0x8
-  __declspec(property(get = __get_value, put = __set_value))::ArrayW<uint8_t, ::Array<uint8_t>*> value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::ArrayW<uint8_t, ::Array<uint8_t>*> value;
 
   __declspec(property(get = get_Type)) int32_t Type;
 
   __declspec(property(get = get_Value))::ArrayW<uint8_t, ::Array<uint8_t>*> Value;
 
-  constexpr int32_t& __get_type();
+  constexpr int32_t& __cordl_internal_get_type();
 
-  constexpr int32_t const& __get_type() const;
+  constexpr int32_t const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(int32_t value);
+  constexpr void __cordl_internal_set_type(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_value();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_value();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_value() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_value(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter* New_ctor(int32_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
@@ -184,17 +184,17 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Para
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(779))
 // CS Name: ::SkeinEngine::UbiTweak*
 class CORDL_TYPE __SkeinEngine__UbiTweak : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tweak, offset 0x10, size 0x8
-  __declspec(property(get = __get_tweak, put = __set_tweak))::ArrayW<uint64_t, ::Array<uint64_t>*> tweak;
+  __declspec(property(get = __cordl_internal_get_tweak, put = __cordl_internal_set_tweak))::ArrayW<uint64_t, ::Array<uint64_t>*> tweak;
 
   /// @brief Field extendedPosition, offset 0x18, size 0x1
-  __declspec(property(get = __get_extendedPosition, put = __set_extendedPosition)) bool extendedPosition;
+  __declspec(property(get = __cordl_internal_get_extendedPosition, put = __cordl_internal_set_extendedPosition)) bool extendedPosition;
 
   __declspec(property(get = get_Type, put = set_Type)) uint32_t Type;
 
@@ -202,17 +202,17 @@ public:
 
   __declspec(property(get = get_Final, put = set_Final)) bool Final;
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_tweak();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_tweak();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_tweak() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_tweak() const;
 
-  constexpr void __set_tweak(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_tweak(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  constexpr bool& __get_extendedPosition();
+  constexpr bool& __cordl_internal_get_extendedPosition();
 
-  constexpr bool const& __get_extendedPosition() const;
+  constexpr bool const& __cordl_internal_get_extendedPosition() const;
 
-  constexpr void __set_extendedPosition(bool value);
+  constexpr void __cordl_internal_set_extendedPosition(bool value);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UbiTweak* New_ctor();
 
@@ -295,56 +295,56 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UbiT
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(780))
 // CS Name: ::SkeinEngine::UBI*
 class CORDL_TYPE __SkeinEngine__UBI : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tweak, offset 0x10, size 0x8
-  __declspec(property(get = __get_tweak, put = __set_tweak))::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UbiTweak* tweak;
+  __declspec(property(get = __cordl_internal_get_tweak, put = __cordl_internal_set_tweak))::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UbiTweak* tweak;
 
   /// @brief Field engine, offset 0x18, size 0x8
-  __declspec(property(get = __get_engine, put = __set_engine))::Org::BouncyCastle::Crypto::Digests::SkeinEngine* engine;
+  __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine))::Org::BouncyCastle::Crypto::Digests::SkeinEngine* engine;
 
   /// @brief Field currentBlock, offset 0x20, size 0x8
-  __declspec(property(get = __get_currentBlock, put = __set_currentBlock))::ArrayW<uint8_t, ::Array<uint8_t>*> currentBlock;
+  __declspec(property(get = __cordl_internal_get_currentBlock, put = __cordl_internal_set_currentBlock))::ArrayW<uint8_t, ::Array<uint8_t>*> currentBlock;
 
   /// @brief Field currentOffset, offset 0x28, size 0x4
-  __declspec(property(get = __get_currentOffset, put = __set_currentOffset)) int32_t currentOffset;
+  __declspec(property(get = __cordl_internal_get_currentOffset, put = __cordl_internal_set_currentOffset)) int32_t currentOffset;
 
   /// @brief Field message, offset 0x30, size 0x8
-  __declspec(property(get = __get_message, put = __set_message))::ArrayW<uint64_t, ::Array<uint64_t>*> message;
+  __declspec(property(get = __cordl_internal_get_message, put = __cordl_internal_set_message))::ArrayW<uint64_t, ::Array<uint64_t>*> message;
 
-  constexpr ::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UbiTweak*& __get_tweak();
+  constexpr ::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UbiTweak*& __cordl_internal_get_tweak();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UbiTweak*> const& __get_tweak() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UbiTweak*> const& __cordl_internal_get_tweak() const;
 
-  constexpr void __set_tweak(::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UbiTweak* value);
+  constexpr void __cordl_internal_set_tweak(::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UbiTweak* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Digests::SkeinEngine*& __get_engine();
+  constexpr ::Org::BouncyCastle::Crypto::Digests::SkeinEngine*& __cordl_internal_get_engine();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Digests::SkeinEngine*> const& __get_engine() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Digests::SkeinEngine*> const& __cordl_internal_get_engine() const;
 
-  constexpr void __set_engine(::Org::BouncyCastle::Crypto::Digests::SkeinEngine* value);
+  constexpr void __cordl_internal_set_engine(::Org::BouncyCastle::Crypto::Digests::SkeinEngine* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_currentBlock();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_currentBlock();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_currentBlock() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_currentBlock() const;
 
-  constexpr void __set_currentBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_currentBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_currentOffset();
+  constexpr int32_t& __cordl_internal_get_currentOffset();
 
-  constexpr int32_t const& __get_currentOffset() const;
+  constexpr int32_t const& __cordl_internal_get_currentOffset() const;
 
-  constexpr void __set_currentOffset(int32_t value);
+  constexpr void __cordl_internal_set_currentOffset(int32_t value);
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_message();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_message();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_message() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_message() const;
 
-  constexpr void __set_message(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_message(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UBI* New_ctor(::Org::BouncyCastle::Crypto::Digests::SkeinEngine* engine, int32_t blockSize);
 
@@ -415,7 +415,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UBI,
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(781))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::SkeinEngine*
 class CORDL_TYPE SkeinEngine : public ::System::Object {
@@ -430,33 +430,35 @@ public:
   using Configuration = ::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Configuration;
 
   /// @brief Field threefish, offset 0x10, size 0x8
-  __declspec(property(get = __get_threefish, put = __set_threefish))::Org::BouncyCastle::Crypto::Engines::ThreefishEngine* threefish;
+  __declspec(property(get = __cordl_internal_get_threefish, put = __cordl_internal_set_threefish))::Org::BouncyCastle::Crypto::Engines::ThreefishEngine* threefish;
 
   /// @brief Field outputSizeBytes, offset 0x18, size 0x4
-  __declspec(property(get = __get_outputSizeBytes, put = __set_outputSizeBytes)) int32_t outputSizeBytes;
+  __declspec(property(get = __cordl_internal_get_outputSizeBytes, put = __cordl_internal_set_outputSizeBytes)) int32_t outputSizeBytes;
 
   /// @brief Field chain, offset 0x20, size 0x8
-  __declspec(property(get = __get_chain, put = __set_chain))::ArrayW<uint64_t, ::Array<uint64_t>*> chain;
+  __declspec(property(get = __cordl_internal_get_chain, put = __cordl_internal_set_chain))::ArrayW<uint64_t, ::Array<uint64_t>*> chain;
 
   /// @brief Field initialState, offset 0x28, size 0x8
-  __declspec(property(get = __get_initialState, put = __set_initialState))::ArrayW<uint64_t, ::Array<uint64_t>*> initialState;
+  __declspec(property(get = __cordl_internal_get_initialState, put = __cordl_internal_set_initialState))::ArrayW<uint64_t, ::Array<uint64_t>*> initialState;
 
   /// @brief Field key, offset 0x30, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::ArrayW<uint8_t, ::Array<uint8_t>*> key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::ArrayW<uint8_t, ::Array<uint8_t>*> key;
 
   /// @brief Field preMessageParameters, offset 0x38, size 0x8
-  __declspec(property(get = __get_preMessageParameters, put = __set_preMessageParameters))::ArrayW<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*,
-                                                                                                   ::Array<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*>*> preMessageParameters;
+  __declspec(property(get = __cordl_internal_get_preMessageParameters,
+                      put = __cordl_internal_set_preMessageParameters))::ArrayW<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*,
+                                                                                ::Array<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*>*> preMessageParameters;
 
   /// @brief Field postMessageParameters, offset 0x40, size 0x8
-  __declspec(property(get = __get_postMessageParameters, put = __set_postMessageParameters))::ArrayW<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*,
-                                                                                                     ::Array<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*>*> postMessageParameters;
+  __declspec(property(get = __cordl_internal_get_postMessageParameters,
+                      put = __cordl_internal_set_postMessageParameters))::ArrayW<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*,
+                                                                                 ::Array<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*>*> postMessageParameters;
 
   /// @brief Field ubi, offset 0x48, size 0x8
-  __declspec(property(get = __get_ubi, put = __set_ubi))::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UBI* ubi;
+  __declspec(property(get = __cordl_internal_get_ubi, put = __cordl_internal_set_ubi))::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UBI* ubi;
 
   /// @brief Field singleByte, offset 0x50, size 0x8
-  __declspec(property(get = __get_singleByte, put = __set_singleByte))::ArrayW<uint8_t, ::Array<uint8_t>*> singleByte;
+  __declspec(property(get = __cordl_internal_get_singleByte, put = __cordl_internal_set_singleByte))::ArrayW<uint8_t, ::Array<uint8_t>*> singleByte;
 
   /// @brief Field INITIAL_STATES, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_INITIAL_STATES, put = setStaticF_INITIAL_STATES))::System::Collections::IDictionary* INITIAL_STATES;
@@ -471,62 +473,65 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr ::Org::BouncyCastle::Utilities::IMemoable* i___Org__BouncyCastle__Utilities__IMemoable() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Engines::ThreefishEngine*& __get_threefish();
+  constexpr ::Org::BouncyCastle::Crypto::Engines::ThreefishEngine*& __cordl_internal_get_threefish();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine*> const& __get_threefish() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Engines::ThreefishEngine*> const& __cordl_internal_get_threefish() const;
 
-  constexpr void __set_threefish(::Org::BouncyCastle::Crypto::Engines::ThreefishEngine* value);
+  constexpr void __cordl_internal_set_threefish(::Org::BouncyCastle::Crypto::Engines::ThreefishEngine* value);
 
-  constexpr int32_t& __get_outputSizeBytes();
+  constexpr int32_t& __cordl_internal_get_outputSizeBytes();
 
-  constexpr int32_t const& __get_outputSizeBytes() const;
+  constexpr int32_t const& __cordl_internal_get_outputSizeBytes() const;
 
-  constexpr void __set_outputSizeBytes(int32_t value);
+  constexpr void __cordl_internal_set_outputSizeBytes(int32_t value);
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_chain();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_chain();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_chain() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_chain() const;
 
-  constexpr void __set_chain(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_chain(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_initialState();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_initialState();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_initialState() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_initialState() const;
 
-  constexpr void __set_initialState(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_initialState(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_key();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_key();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_key() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*, ::Array<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*>*>& __get_preMessageParameters();
-
-  constexpr ::ArrayW<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*, ::Array<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*>*> const&
-  __get_preMessageParameters() const;
-
-  constexpr void __set_preMessageParameters(::ArrayW<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*, ::Array<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*>*> value);
-
-  constexpr ::ArrayW<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*, ::Array<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*>*>& __get_postMessageParameters();
+  constexpr ::ArrayW<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*, ::Array<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*>*>&
+  __cordl_internal_get_preMessageParameters();
 
   constexpr ::ArrayW<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*, ::Array<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*>*> const&
-  __get_postMessageParameters() const;
+  __cordl_internal_get_preMessageParameters() const;
 
   constexpr void
-  __set_postMessageParameters(::ArrayW<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*, ::Array<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*>*> value);
+  __cordl_internal_set_preMessageParameters(::ArrayW<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*, ::Array<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*>*> value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UBI*& __get_ubi();
+  constexpr ::ArrayW<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*, ::Array<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*>*>&
+  __cordl_internal_get_postMessageParameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UBI*> const& __get_ubi() const;
+  constexpr ::ArrayW<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*, ::Array<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*>*> const&
+  __cordl_internal_get_postMessageParameters() const;
 
-  constexpr void __set_ubi(::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UBI* value);
+  constexpr void __cordl_internal_set_postMessageParameters(
+      ::ArrayW<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*, ::Array<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__Parameter*>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_singleByte();
+  constexpr ::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UBI*& __cordl_internal_get_ubi();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_singleByte() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UBI*> const& __cordl_internal_get_ubi() const;
 
-  constexpr void __set_singleByte(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_ubi(::Org::BouncyCastle::Crypto::Digests::__SkeinEngine__UBI* value);
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_singleByte();
+
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_singleByte() const;
+
+  constexpr void __cordl_internal_set_singleByte(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_INITIAL_STATES(::System::Collections::IDictionary* value);
 

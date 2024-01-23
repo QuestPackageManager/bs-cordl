@@ -42,7 +42,7 @@ MARK_VAL_T(::GlobalNamespace::__FormatProvider__Number__NumberBuffer);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15652))
 // CS Name: ::FormatProvider::Number::NumberBuffer
 struct CORDL_TYPE __FormatProvider__Number__NumberBuffer {
@@ -94,7 +94,7 @@ static_assert(offsetof(::GlobalNamespace::__FormatProvider__Number__NumberBuffer
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15653))
 // CS Name: ::FormatProvider::Number*
 class CORDL_TYPE __FormatProvider__Number : public ::System::Object {
@@ -219,7 +219,7 @@ static_assert(::cordl_internals::size_check_v<::System::Globalization::__FormatP
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15654))
 // CS Name: ::System.Globalization::FormatProvider*
 class CORDL_TYPE FormatProvider : public ::System::Object {

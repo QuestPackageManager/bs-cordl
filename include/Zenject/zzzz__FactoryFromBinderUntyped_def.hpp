@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Zenject::FactoryFromBinderUntyped);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10846))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10846))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10831))
 // CS Name: ::Zenject::FactoryFromBinderUntyped*
 class CORDL_TYPE FactoryFromBinderUntyped : public ::Zenject::FactoryFromBinderBase {

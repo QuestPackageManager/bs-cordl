@@ -62,7 +62,7 @@ namespace System::Security::AccessControl {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3024))
 // CS Name: ::CommonAcl::RemoveAcesCallback`1<T>*
 class CORDL_TYPE __CommonAcl__RemoveAcesCallback_1 : public ::System::MulticastDelegate {
@@ -98,7 +98,7 @@ public:
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3036))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3036))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3025))
 // CS Name: ::System.Security.AccessControl::CommonAcl*
 class CORDL_TYPE CommonAcl : public ::System::Security::AccessControl::GenericAcl {
@@ -107,19 +107,19 @@ public:
   template <typename T> using RemoveAcesCallback_1 = ::System::Security::AccessControl::__CommonAcl__RemoveAcesCallback_1<T>;
 
   /// @brief Field is_aefa, offset 0x10, size 0x1
-  __declspec(property(get = __get_is_aefa, put = __set_is_aefa)) bool is_aefa;
+  __declspec(property(get = __cordl_internal_get_is_aefa, put = __cordl_internal_set_is_aefa)) bool is_aefa;
 
   /// @brief Field is_canonical, offset 0x11, size 0x1
-  __declspec(property(get = __get_is_canonical, put = __set_is_canonical)) bool is_canonical;
+  __declspec(property(get = __cordl_internal_get_is_canonical, put = __cordl_internal_set_is_canonical)) bool is_canonical;
 
   /// @brief Field is_container, offset 0x12, size 0x1
-  __declspec(property(get = __get_is_container, put = __set_is_container)) bool is_container;
+  __declspec(property(get = __cordl_internal_get_is_container, put = __cordl_internal_set_is_container)) bool is_container;
 
   /// @brief Field is_ds, offset 0x13, size 0x1
-  __declspec(property(get = __get_is_ds, put = __set_is_ds)) bool is_ds;
+  __declspec(property(get = __cordl_internal_get_is_ds, put = __cordl_internal_set_is_ds)) bool is_ds;
 
   /// @brief Field raw_acl, offset 0x18, size 0x8
-  __declspec(property(get = __get_raw_acl, put = __set_raw_acl))::System::Security::AccessControl::RawAcl* raw_acl;
+  __declspec(property(get = __cordl_internal_get_raw_acl, put = __cordl_internal_set_raw_acl))::System::Security::AccessControl::RawAcl* raw_acl;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -133,35 +133,35 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item))::System::Security::AccessControl::GenericAce* Item[];
 
-  constexpr bool& __get_is_aefa();
+  constexpr bool& __cordl_internal_get_is_aefa();
 
-  constexpr bool const& __get_is_aefa() const;
+  constexpr bool const& __cordl_internal_get_is_aefa() const;
 
-  constexpr void __set_is_aefa(bool value);
+  constexpr void __cordl_internal_set_is_aefa(bool value);
 
-  constexpr bool& __get_is_canonical();
+  constexpr bool& __cordl_internal_get_is_canonical();
 
-  constexpr bool const& __get_is_canonical() const;
+  constexpr bool const& __cordl_internal_get_is_canonical() const;
 
-  constexpr void __set_is_canonical(bool value);
+  constexpr void __cordl_internal_set_is_canonical(bool value);
 
-  constexpr bool& __get_is_container();
+  constexpr bool& __cordl_internal_get_is_container();
 
-  constexpr bool const& __get_is_container() const;
+  constexpr bool const& __cordl_internal_get_is_container() const;
 
-  constexpr void __set_is_container(bool value);
+  constexpr void __cordl_internal_set_is_container(bool value);
 
-  constexpr bool& __get_is_ds();
+  constexpr bool& __cordl_internal_get_is_ds();
 
-  constexpr bool const& __get_is_ds() const;
+  constexpr bool const& __cordl_internal_get_is_ds() const;
 
-  constexpr void __set_is_ds(bool value);
+  constexpr void __cordl_internal_set_is_ds(bool value);
 
-  constexpr ::System::Security::AccessControl::RawAcl*& __get_raw_acl();
+  constexpr ::System::Security::AccessControl::RawAcl*& __cordl_internal_get_raw_acl();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::RawAcl*> const& __get_raw_acl() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::RawAcl*> const& __cordl_internal_get_raw_acl() const;
 
-  constexpr void __set_raw_acl(::System::Security::AccessControl::RawAcl* value);
+  constexpr void __cordl_internal_set_raw_acl(::System::Security::AccessControl::RawAcl* value);
 
   static inline ::System::Security::AccessControl::CommonAcl* New_ctor(bool isContainer, bool isDS, uint8_t revision, int32_t capacity);
 

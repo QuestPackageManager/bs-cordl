@@ -21,9 +21,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x27b3664;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureTest*>::get(), "Start",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -35,9 +35,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x224;
   constexpr static std::size_t addrs = 0x27b3714;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureTest*>::get(),
-                                                                               "Initialize", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "Initialize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -49,9 +49,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x428;
   constexpr static std::size_t addrs = 0x27b3938;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureTest*>::get(),
-                                                                               "UpdateDefaultExternalCamera", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "UpdateDefaultExternalCamera", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -62,9 +62,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x738;
   constexpr static std::size_t addrs = 0x27b3d60;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureTest*>::get(), "Update",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -75,86 +75,86 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x27b4498;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureTest*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool& GlobalNamespace::OVRMixedRealityCaptureTest::__get_inited() {
+constexpr bool& GlobalNamespace::OVRMixedRealityCaptureTest::__cordl_internal_get_inited() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inited;
 }
-constexpr bool const& GlobalNamespace::OVRMixedRealityCaptureTest::__get_inited() const {
+constexpr bool const& GlobalNamespace::OVRMixedRealityCaptureTest::__cordl_internal_get_inited() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inited;
 }
-constexpr void GlobalNamespace::OVRMixedRealityCaptureTest::__set_inited(bool value) {
+constexpr void GlobalNamespace::OVRMixedRealityCaptureTest::__cordl_internal_set_inited(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___inited = value;
 }
-constexpr ::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode& GlobalNamespace::OVRMixedRealityCaptureTest::__get_currentMode() {
+constexpr ::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode& GlobalNamespace::OVRMixedRealityCaptureTest::__cordl_internal_get_currentMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentMode;
 }
-constexpr ::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode const& GlobalNamespace::OVRMixedRealityCaptureTest::__get_currentMode() const {
+constexpr ::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode const& GlobalNamespace::OVRMixedRealityCaptureTest::__cordl_internal_get_currentMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___currentMode;
 }
-constexpr void GlobalNamespace::OVRMixedRealityCaptureTest::__set_currentMode(::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode value) {
+constexpr void GlobalNamespace::OVRMixedRealityCaptureTest::__cordl_internal_set_currentMode(::GlobalNamespace::__OVRMixedRealityCaptureTest__CameraMode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___currentMode = value;
 }
-constexpr ::UnityEngine::Camera*& GlobalNamespace::OVRMixedRealityCaptureTest::__get_defaultExternalCamera() {
+constexpr ::UnityW<::UnityEngine::Camera>& GlobalNamespace::OVRMixedRealityCaptureTest::__cordl_internal_get_defaultExternalCamera() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultExternalCamera;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& GlobalNamespace::OVRMixedRealityCaptureTest::__get_defaultExternalCamera() const {
+constexpr ::UnityW<::UnityEngine::Camera> const& GlobalNamespace::OVRMixedRealityCaptureTest::__cordl_internal_get_defaultExternalCamera() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultExternalCamera;
 }
-constexpr void GlobalNamespace::OVRMixedRealityCaptureTest::__set_defaultExternalCamera(::UnityEngine::Camera* value) {
+constexpr void GlobalNamespace::OVRMixedRealityCaptureTest::__cordl_internal_set_defaultExternalCamera(::UnityW<::UnityEngine::Camera> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___defaultExternalCamera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__OVRPlugin__Fovf& GlobalNamespace::OVRMixedRealityCaptureTest::__get_defaultFov() {
+constexpr ::GlobalNamespace::__OVRPlugin__Fovf& GlobalNamespace::OVRMixedRealityCaptureTest::__cordl_internal_get_defaultFov() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultFov;
 }
-constexpr ::GlobalNamespace::__OVRPlugin__Fovf const& GlobalNamespace::OVRMixedRealityCaptureTest::__get_defaultFov() const {
+constexpr ::GlobalNamespace::__OVRPlugin__Fovf const& GlobalNamespace::OVRMixedRealityCaptureTest::__cordl_internal_get_defaultFov() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___defaultFov;
 }
-constexpr void GlobalNamespace::OVRMixedRealityCaptureTest::__set_defaultFov(::GlobalNamespace::__OVRPlugin__Fovf value) {
+constexpr void GlobalNamespace::OVRMixedRealityCaptureTest::__cordl_internal_set_defaultFov(::GlobalNamespace::__OVRPlugin__Fovf value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___defaultFov = value;
 }
 inline void GlobalNamespace::OVRMixedRealityCaptureTest::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureTest*>::get(), "Start",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRMixedRealityCaptureTest::Initialize() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureTest*>::get(),
-                                                                             "Initialize", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "Initialize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRMixedRealityCaptureTest::UpdateDefaultExternalCamera() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureTest*>::get(),
-                                                                             "UpdateDefaultExternalCamera", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "UpdateDefaultExternalCamera", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRMixedRealityCaptureTest::Update() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureTest*>::get(), "Update",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::OVRMixedRealityCaptureTest* GlobalNamespace::OVRMixedRealityCaptureTest::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::OVRMixedRealityCaptureTest*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRMixedRealityCaptureTest*>());
 }
 inline void GlobalNamespace::OVRMixedRealityCaptureTest::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMixedRealityCaptureTest*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

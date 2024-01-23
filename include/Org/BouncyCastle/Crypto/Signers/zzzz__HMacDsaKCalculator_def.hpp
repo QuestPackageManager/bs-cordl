@@ -31,23 +31,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1143))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::HMacDsaKCalculator*
 class CORDL_TYPE HMacDsaKCalculator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field hMac, offset 0x10, size 0x8
-  __declspec(property(get = __get_hMac, put = __set_hMac))::Org::BouncyCastle::Crypto::Macs::HMac* hMac;
+  __declspec(property(get = __cordl_internal_get_hMac, put = __cordl_internal_set_hMac))::Org::BouncyCastle::Crypto::Macs::HMac* hMac;
 
   /// @brief Field K, offset 0x18, size 0x8
-  __declspec(property(get = __get_K, put = __set_K))::ArrayW<uint8_t, ::Array<uint8_t>*> K;
+  __declspec(property(get = __cordl_internal_get_K, put = __cordl_internal_set_K))::ArrayW<uint8_t, ::Array<uint8_t>*> K;
 
   /// @brief Field V, offset 0x20, size 0x8
-  __declspec(property(get = __get_V, put = __set_V))::ArrayW<uint8_t, ::Array<uint8_t>*> V;
+  __declspec(property(get = __cordl_internal_get_V, put = __cordl_internal_set_V))::ArrayW<uint8_t, ::Array<uint8_t>*> V;
 
   /// @brief Field n, offset 0x28, size 0x8
-  __declspec(property(get = __get_n, put = __set_n))::Org::BouncyCastle::Math::BigInteger* n;
+  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n))::Org::BouncyCastle::Math::BigInteger* n;
 
   __declspec(property(get = get_IsDeterministic)) bool IsDeterministic;
 
@@ -57,29 +57,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
   constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* i___Org__BouncyCastle__Crypto__Signers__IDsaKCalculator() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Macs::HMac*& __get_hMac();
+  constexpr ::Org::BouncyCastle::Crypto::Macs::HMac*& __cordl_internal_get_hMac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Macs::HMac*> const& __get_hMac() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Macs::HMac*> const& __cordl_internal_get_hMac() const;
 
-  constexpr void __set_hMac(::Org::BouncyCastle::Crypto::Macs::HMac* value);
+  constexpr void __cordl_internal_set_hMac(::Org::BouncyCastle::Crypto::Macs::HMac* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_K();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_K();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_K() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_K() const;
 
-  constexpr void __set_K(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_K(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_V();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_V();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_V() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_V() const;
 
-  constexpr void __set_V(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_V(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_n();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_n();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_n() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_n() const;
 
-  constexpr void __set_n(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Math::BigInteger* value);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 

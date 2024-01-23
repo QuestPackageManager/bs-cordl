@@ -23,69 +23,69 @@ MARK_REF_PTR_T(::RootMotion::SolverManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 51, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12499))
 // CS Name: ::RootMotion::SolverManager*
 class CORDL_TYPE SolverManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field fixTransforms, offset 0x18, size 0x1
-  __declspec(property(get = __get_fixTransforms, put = __set_fixTransforms)) bool fixTransforms;
+  __declspec(property(get = __cordl_internal_get_fixTransforms, put = __cordl_internal_set_fixTransforms)) bool fixTransforms;
 
   /// @brief Field animator, offset 0x20, size 0x8
-  __declspec(property(get = __get_animator, put = __set_animator))::UnityEngine::Animator* animator;
+  __declspec(property(get = __cordl_internal_get_animator, put = __cordl_internal_set_animator))::UnityW<::UnityEngine::Animator> animator;
 
   /// @brief Field legacy, offset 0x28, size 0x8
-  __declspec(property(get = __get_legacy, put = __set_legacy))::UnityEngine::Animation* legacy;
+  __declspec(property(get = __cordl_internal_get_legacy, put = __cordl_internal_set_legacy))::UnityW<::UnityEngine::Animation> legacy;
 
   /// @brief Field updateFrame, offset 0x30, size 0x1
-  __declspec(property(get = __get_updateFrame, put = __set_updateFrame)) bool updateFrame;
+  __declspec(property(get = __cordl_internal_get_updateFrame, put = __cordl_internal_set_updateFrame)) bool updateFrame;
 
   /// @brief Field componentInitiated, offset 0x31, size 0x1
-  __declspec(property(get = __get_componentInitiated, put = __set_componentInitiated)) bool componentInitiated;
+  __declspec(property(get = __cordl_internal_get_componentInitiated, put = __cordl_internal_set_componentInitiated)) bool componentInitiated;
 
   /// @brief Field skipSolverUpdate, offset 0x32, size 0x1
-  __declspec(property(get = __get_skipSolverUpdate, put = __set_skipSolverUpdate)) bool skipSolverUpdate;
+  __declspec(property(get = __cordl_internal_get_skipSolverUpdate, put = __cordl_internal_set_skipSolverUpdate)) bool skipSolverUpdate;
 
   __declspec(property(get = get_animatePhysics)) bool animatePhysics;
 
   __declspec(property(get = get_isAnimated)) bool isAnimated;
 
-  constexpr bool& __get_fixTransforms();
+  constexpr bool& __cordl_internal_get_fixTransforms();
 
-  constexpr bool const& __get_fixTransforms() const;
+  constexpr bool const& __cordl_internal_get_fixTransforms() const;
 
-  constexpr void __set_fixTransforms(bool value);
+  constexpr void __cordl_internal_set_fixTransforms(bool value);
 
-  constexpr ::UnityEngine::Animator*& __get_animator();
+  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get_animator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> const& __get_animator() const;
+  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get_animator() const;
 
-  constexpr void __set_animator(::UnityEngine::Animator* value);
+  constexpr void __cordl_internal_set_animator(::UnityW<::UnityEngine::Animator> value);
 
-  constexpr ::UnityEngine::Animation*& __get_legacy();
+  constexpr ::UnityW<::UnityEngine::Animation>& __cordl_internal_get_legacy();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animation*> const& __get_legacy() const;
+  constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get_legacy() const;
 
-  constexpr void __set_legacy(::UnityEngine::Animation* value);
+  constexpr void __cordl_internal_set_legacy(::UnityW<::UnityEngine::Animation> value);
 
-  constexpr bool& __get_updateFrame();
+  constexpr bool& __cordl_internal_get_updateFrame();
 
-  constexpr bool const& __get_updateFrame() const;
+  constexpr bool const& __cordl_internal_get_updateFrame() const;
 
-  constexpr void __set_updateFrame(bool value);
+  constexpr void __cordl_internal_set_updateFrame(bool value);
 
-  constexpr bool& __get_componentInitiated();
+  constexpr bool& __cordl_internal_get_componentInitiated();
 
-  constexpr bool const& __get_componentInitiated() const;
+  constexpr bool const& __cordl_internal_get_componentInitiated() const;
 
-  constexpr void __set_componentInitiated(bool value);
+  constexpr void __cordl_internal_set_componentInitiated(bool value);
 
-  constexpr bool& __get_skipSolverUpdate();
+  constexpr bool& __cordl_internal_get_skipSolverUpdate();
 
-  constexpr bool const& __get_skipSolverUpdate() const;
+  constexpr bool const& __cordl_internal_get_skipSolverUpdate() const;
 
-  constexpr void __set_skipSolverUpdate(bool value);
+  constexpr void __cordl_internal_set_skipSolverUpdate(bool value);
 
   /// @brief Method Disable, addr 0x123f2a8, size 0x94, virtual false, abstract: false, final false
   inline void Disable();
@@ -152,10 +152,10 @@ public:
   bool ___fixTransforms;
 
   /// @brief Field animator, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Animator* ___animator;
+  ::UnityW<::UnityEngine::Animator> ___animator;
 
   /// @brief Field legacy, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Animation* ___legacy;
+  ::UnityW<::UnityEngine::Animation> ___legacy;
 
   /// @brief Field updateFrame, offset: 0x30, size: 0x1, def value: None
   bool ___updateFrame;

@@ -21,58 +21,58 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteDebrisSimplePhysics);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 69, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(4774))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4774)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4776))
 // CS Name: ::NoteDebrisSimplePhysics*
 class CORDL_TYPE NoteDebrisSimplePhysics : public ::GlobalNamespace::NoteDebrisPhysics {
 public:
   // Declarations
   /// @brief Field _currentForce, offset 0x18, size 0xc
-  __declspec(property(get = __get__currentForce, put = __set__currentForce))::UnityEngine::Vector3 _currentForce;
+  __declspec(property(get = __cordl_internal_get__currentForce, put = __cordl_internal_set__currentForce))::UnityEngine::Vector3 _currentForce;
 
   /// @brief Field _currentTorque, offset 0x24, size 0xc
-  __declspec(property(get = __get__currentTorque, put = __set__currentTorque))::UnityEngine::Vector3 _currentTorque;
+  __declspec(property(get = __cordl_internal_get__currentTorque, put = __cordl_internal_set__currentTorque))::UnityEngine::Vector3 _currentTorque;
 
   /// @brief Field _transform, offset 0x30, size 0x8
-  __declspec(property(get = __get__transform, put = __set__transform))::UnityEngine::Transform* _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
   /// @brief Field _gravity, offset 0x38, size 0xc
-  __declspec(property(get = __get__gravity, put = __set__gravity))::UnityEngine::Vector3 _gravity;
+  __declspec(property(get = __cordl_internal_get__gravity, put = __cordl_internal_set__gravity))::UnityEngine::Vector3 _gravity;
 
   /// @brief Field _firstUpdate, offset 0x44, size 0x1
-  __declspec(property(get = __get__firstUpdate, put = __set__firstUpdate)) bool _firstUpdate;
+  __declspec(property(get = __cordl_internal_get__firstUpdate, put = __cordl_internal_set__firstUpdate)) bool _firstUpdate;
 
   __declspec(property(get = get_position))::UnityEngine::Vector3 position;
 
-  constexpr ::UnityEngine::Vector3& __get__currentForce();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__currentForce();
 
-  constexpr ::UnityEngine::Vector3 const& __get__currentForce() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__currentForce() const;
 
-  constexpr void __set__currentForce(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__currentForce(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__currentTorque();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__currentTorque();
 
-  constexpr ::UnityEngine::Vector3 const& __get__currentTorque() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__currentTorque() const;
 
-  constexpr void __set__currentTorque(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__currentTorque(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Transform*& __get__transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr void __set__transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Vector3& __get__gravity();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__gravity();
 
-  constexpr ::UnityEngine::Vector3 const& __get__gravity() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__gravity() const;
 
-  constexpr void __set__gravity(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__gravity(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get__firstUpdate();
+  constexpr bool& __cordl_internal_get__firstUpdate();
 
-  constexpr bool const& __get__firstUpdate() const;
+  constexpr bool const& __cordl_internal_get__firstUpdate() const;
 
-  constexpr void __set__firstUpdate(bool value);
+  constexpr void __cordl_internal_set__firstUpdate(bool value);
 
   /// @brief Method get_position, addr 0x2388588, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
@@ -115,7 +115,7 @@ public:
   ::UnityEngine::Vector3 ____currentTorque;
 
   /// @brief Field _transform, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____transform;
+  ::UnityW<::UnityEngine::Transform> ____transform;
 
   /// @brief Field _gravity, offset: 0x38, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____gravity;

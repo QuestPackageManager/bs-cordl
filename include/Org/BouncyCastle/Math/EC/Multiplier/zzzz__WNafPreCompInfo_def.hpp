@@ -22,29 +22,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::WNafPreCompInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1541))
 // CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::WNafPreCompInfo*
 class CORDL_TYPE WNafPreCompInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_promotionCountdown, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_promotionCountdown, put = __set_m_promotionCountdown)) int32_t m_promotionCountdown;
+  __declspec(property(get = __cordl_internal_get_m_promotionCountdown, put = __cordl_internal_set_m_promotionCountdown)) int32_t m_promotionCountdown;
 
   /// @brief Field m_confWidth, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_confWidth, put = __set_m_confWidth)) int32_t m_confWidth;
+  __declspec(property(get = __cordl_internal_get_m_confWidth, put = __cordl_internal_set_m_confWidth)) int32_t m_confWidth;
 
   /// @brief Field m_preComp, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_preComp, put = __set_m_preComp))::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> m_preComp;
+  __declspec(property(get = __cordl_internal_get_m_preComp,
+                      put = __cordl_internal_set_m_preComp))::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> m_preComp;
 
   /// @brief Field m_preCompNeg, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_preCompNeg, put = __set_m_preCompNeg))::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> m_preCompNeg;
+  __declspec(property(get = __cordl_internal_get_m_preCompNeg,
+                      put = __cordl_internal_set_m_preCompNeg))::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> m_preCompNeg;
 
   /// @brief Field m_twice, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_twice, put = __set_m_twice))::Org::BouncyCastle::Math::EC::ECPoint* m_twice;
+  __declspec(property(get = __cordl_internal_get_m_twice, put = __cordl_internal_set_m_twice))::Org::BouncyCastle::Math::EC::ECPoint* m_twice;
 
   /// @brief Field m_width, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_width, put = __set_m_width)) int32_t m_width;
+  __declspec(property(get = __cordl_internal_get_m_width, put = __cordl_internal_set_m_width)) int32_t m_width;
 
   __declspec(property(get = get_PromotionCountdown, put = set_PromotionCountdown)) int32_t PromotionCountdown;
 
@@ -66,41 +68,41 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i___Org__BouncyCastle__Math__EC__Multiplier__PreCompInfo() noexcept;
 
-  constexpr int32_t& __get_m_promotionCountdown();
+  constexpr int32_t& __cordl_internal_get_m_promotionCountdown();
 
-  constexpr int32_t const& __get_m_promotionCountdown() const;
+  constexpr int32_t const& __cordl_internal_get_m_promotionCountdown() const;
 
-  constexpr void __set_m_promotionCountdown(int32_t value);
+  constexpr void __cordl_internal_set_m_promotionCountdown(int32_t value);
 
-  constexpr int32_t& __get_m_confWidth();
+  constexpr int32_t& __cordl_internal_get_m_confWidth();
 
-  constexpr int32_t const& __get_m_confWidth() const;
+  constexpr int32_t const& __cordl_internal_get_m_confWidth() const;
 
-  constexpr void __set_m_confWidth(int32_t value);
+  constexpr void __cordl_internal_set_m_confWidth(int32_t value);
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*>& __get_m_preComp();
+  constexpr ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*>& __cordl_internal_get_m_preComp();
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> const& __get_m_preComp() const;
+  constexpr ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> const& __cordl_internal_get_m_preComp() const;
 
-  constexpr void __set_m_preComp(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> value);
+  constexpr void __cordl_internal_set_m_preComp(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> value);
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*>& __get_m_preCompNeg();
+  constexpr ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*>& __cordl_internal_get_m_preCompNeg();
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> const& __get_m_preCompNeg() const;
+  constexpr ::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> const& __cordl_internal_get_m_preCompNeg() const;
 
-  constexpr void __set_m_preCompNeg(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> value);
+  constexpr void __cordl_internal_set_m_preCompNeg(::ArrayW<::Org::BouncyCastle::Math::EC::ECPoint*, ::Array<::Org::BouncyCastle::Math::EC::ECPoint*>*> value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __get_m_twice();
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_m_twice();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __get_m_twice() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __cordl_internal_get_m_twice() const;
 
-  constexpr void __set_m_twice(::Org::BouncyCastle::Math::EC::ECPoint* value);
+  constexpr void __cordl_internal_set_m_twice(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  constexpr int32_t& __get_m_width();
+  constexpr int32_t& __cordl_internal_get_m_width();
 
-  constexpr int32_t const& __get_m_width() const;
+  constexpr int32_t const& __cordl_internal_get_m_width() const;
 
-  constexpr void __set_m_width(int32_t value);
+  constexpr void __cordl_internal_set_m_width(int32_t value);
 
   /// @brief Method DecrementPromotionCountdown, addr 0x1037ef0, size 0x38, virtual false, abstract: false, final false
   inline int32_t DecrementPromotionCountdown();

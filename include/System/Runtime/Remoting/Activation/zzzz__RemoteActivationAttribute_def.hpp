@@ -26,14 +26,14 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::RemoteActivationAttribut
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3136))
 // CS Name: ::System.Runtime.Remoting.Activation::RemoteActivationAttribute*
 class CORDL_TYPE RemoteActivationAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field _contextProperties, offset 0x10, size 0x8
-  __declspec(property(get = __get__contextProperties, put = __set__contextProperties))::System::Collections::IList* _contextProperties;
+  __declspec(property(get = __cordl_internal_get__contextProperties, put = __cordl_internal_set__contextProperties))::System::Collections::IList* _contextProperties;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Contexts::IContextAttribute"
   constexpr operator ::System::Runtime::Remoting::Contexts::IContextAttribute*() noexcept;
@@ -41,11 +41,11 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Contexts::IContextAttribute"
   constexpr ::System::Runtime::Remoting::Contexts::IContextAttribute* i___System__Runtime__Remoting__Contexts__IContextAttribute() noexcept;
 
-  constexpr ::System::Collections::IList*& __get__contextProperties();
+  constexpr ::System::Collections::IList*& __cordl_internal_get__contextProperties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get__contextProperties() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__contextProperties() const;
 
-  constexpr void __set__contextProperties(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set__contextProperties(::System::Collections::IList* value);
 
   static inline ::System::Runtime::Remoting::Activation::RemoteActivationAttribute* New_ctor(::System::Collections::IList* contextProperties);
 

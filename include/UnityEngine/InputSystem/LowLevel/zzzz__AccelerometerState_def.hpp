@@ -24,7 +24,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::AccelerometerState);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6508))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::AccelerometerState
 struct CORDL_TYPE AccelerometerState {

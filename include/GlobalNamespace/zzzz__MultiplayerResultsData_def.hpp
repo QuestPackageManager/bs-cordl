@@ -33,25 +33,25 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerResultsData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5242))
 // CS Name: ::MultiplayerResultsData*
 class CORDL_TYPE MultiplayerResultsData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _gameId, offset 0x10, size 0x8
-  __declspec(property(get = __get__gameId, put = __set__gameId))::StringW _gameId;
+  __declspec(property(get = __cordl_internal_get__gameId, put = __cordl_internal_set__gameId))::StringW _gameId;
 
   /// @brief Field _localPlayerResultData, offset 0x18, size 0x8
-  __declspec(property(get = __get__localPlayerResultData, put = __set__localPlayerResultData))::GlobalNamespace::MultiplayerPlayerResultsData* _localPlayerResultData;
+  __declspec(property(get = __cordl_internal_get__localPlayerResultData, put = __cordl_internal_set__localPlayerResultData))::GlobalNamespace::MultiplayerPlayerResultsData* _localPlayerResultData;
 
   /// @brief Field _otherPlayersData, offset 0x20, size 0x8
-  __declspec(property(get = __get__otherPlayersData,
-                      put = __set__otherPlayersData))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* _otherPlayersData;
+  __declspec(property(get = __cordl_internal_get__otherPlayersData,
+                      put = __cordl_internal_set__otherPlayersData))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* _otherPlayersData;
 
   /// @brief Field _allPlayersSortedData, offset 0x28, size 0x8
-  __declspec(property(get = __get__allPlayersSortedData,
-                      put = __set__allPlayersSortedData))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* _allPlayersSortedData;
+  __declspec(property(get = __cordl_internal_get__allPlayersSortedData,
+                      put = __cordl_internal_set__allPlayersSortedData))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* _allPlayersSortedData;
 
   __declspec(property(get = get_gameId))::StringW gameId;
 
@@ -61,29 +61,31 @@ public:
 
   __declspec(property(get = get_allPlayersSortedData))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* allPlayersSortedData;
 
-  constexpr ::StringW& __get__gameId();
+  constexpr ::StringW& __cordl_internal_get__gameId();
 
-  constexpr ::StringW const& __get__gameId() const;
+  constexpr ::StringW const& __cordl_internal_get__gameId() const;
 
-  constexpr void __set__gameId(::StringW value);
+  constexpr void __cordl_internal_set__gameId(::StringW value);
 
-  constexpr ::GlobalNamespace::MultiplayerPlayerResultsData*& __get__localPlayerResultData();
+  constexpr ::GlobalNamespace::MultiplayerPlayerResultsData*& __cordl_internal_get__localPlayerResultData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerPlayerResultsData*> const& __get__localPlayerResultData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerPlayerResultsData*> const& __cordl_internal_get__localPlayerResultData() const;
 
-  constexpr void __set__localPlayerResultData(::GlobalNamespace::MultiplayerPlayerResultsData* value);
+  constexpr void __cordl_internal_set__localPlayerResultData(::GlobalNamespace::MultiplayerPlayerResultsData* value);
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*& __get__otherPlayersData();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*& __cordl_internal_get__otherPlayersData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*> const& __get__otherPlayersData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*> const&
+  __cordl_internal_get__otherPlayersData() const;
 
-  constexpr void __set__otherPlayersData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* value);
+  constexpr void __cordl_internal_set__otherPlayersData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* value);
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*& __get__allPlayersSortedData();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*& __cordl_internal_get__allPlayersSortedData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*> const& __get__allPlayersSortedData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*> const&
+  __cordl_internal_get__allPlayersSortedData() const;
 
-  constexpr void __set__allPlayersSortedData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* value);
+  constexpr void __cordl_internal_set__allPlayersSortedData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* value);
 
   /// @brief Method get_gameId, addr 0x2257e10, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_gameId();

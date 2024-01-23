@@ -70,9 +70,9 @@ MARK_VAL_T(::System::Net::__WebReadStream___ReadAsync_d__28);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(9228)) CS Name: ::WebReadStream::<ReadAsync>d__28
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 98 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9228)) CS Name: ::WebReadStream::<ReadAsync>d__28
 struct CORDL_TYPE __WebReadStream___ReadAsync_d__28 {
 public:
   // Declarations
@@ -161,7 +161,7 @@ static_assert(offsetof(::System::Net::__WebReadStream___ReadAsync_d__28, __u__2)
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9229))
 // CS Name: ::System.Net::WebReadStream*
 class CORDL_TYPE WebReadStream : public ::System::IO::Stream {
@@ -170,13 +170,13 @@ public:
   using _ReadAsync_d__28 = ::System::Net::__WebReadStream___ReadAsync_d__28;
 
   /// @brief Field <Operation>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__Operation_k__BackingField, put = __set__Operation_k__BackingField))::System::Net::WebOperation* _Operation_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Operation_k__BackingField, put = __cordl_internal_set__Operation_k__BackingField))::System::Net::WebOperation* _Operation_k__BackingField;
 
   /// @brief Field <InnerStream>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__InnerStream_k__BackingField, put = __set__InnerStream_k__BackingField))::System::IO::Stream* _InnerStream_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__InnerStream_k__BackingField, put = __cordl_internal_set__InnerStream_k__BackingField))::System::IO::Stream* _InnerStream_k__BackingField;
 
   /// @brief Field disposed, offset 0x38, size 0x1
-  __declspec(property(get = __get_disposed, put = __set_disposed)) bool disposed;
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   __declspec(property(get = get_Operation))::System::Net::WebOperation* Operation;
 
@@ -192,23 +192,23 @@ public:
 
   __declspec(property(get = get_CanWrite)) bool CanWrite;
 
-  constexpr ::System::Net::WebOperation*& __get__Operation_k__BackingField();
+  constexpr ::System::Net::WebOperation*& __cordl_internal_get__Operation_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebOperation*> const& __get__Operation_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebOperation*> const& __cordl_internal_get__Operation_k__BackingField() const;
 
-  constexpr void __set__Operation_k__BackingField(::System::Net::WebOperation* value);
+  constexpr void __cordl_internal_set__Operation_k__BackingField(::System::Net::WebOperation* value);
 
-  constexpr ::System::IO::Stream*& __get__InnerStream_k__BackingField();
+  constexpr ::System::IO::Stream*& __cordl_internal_get__InnerStream_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get__InnerStream_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__InnerStream_k__BackingField() const;
 
-  constexpr void __set__InnerStream_k__BackingField(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set__InnerStream_k__BackingField(::System::IO::Stream* value);
 
-  constexpr bool& __get_disposed();
+  constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr bool const& __get_disposed() const;
+  constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __set_disposed(bool value);
+  constexpr void __cordl_internal_set_disposed(bool value);
 
   /// @brief Method get_Operation, addr 0x29e3448, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebOperation* get_Operation();

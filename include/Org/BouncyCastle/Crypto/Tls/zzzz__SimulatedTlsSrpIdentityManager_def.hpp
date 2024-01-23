@@ -31,20 +31,21 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager)
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1279))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SimulatedTlsSrpIdentityManager*
 class CORDL_TYPE SimulatedTlsSrpIdentityManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mGroup, offset 0x10, size 0x8
-  __declspec(property(get = __get_mGroup, put = __set_mGroup))::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* mGroup;
+  __declspec(property(get = __cordl_internal_get_mGroup, put = __cordl_internal_set_mGroup))::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* mGroup;
 
   /// @brief Field mVerifierGenerator, offset 0x18, size 0x8
-  __declspec(property(get = __get_mVerifierGenerator, put = __set_mVerifierGenerator))::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* mVerifierGenerator;
+  __declspec(property(get = __cordl_internal_get_mVerifierGenerator,
+                      put = __cordl_internal_set_mVerifierGenerator))::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* mVerifierGenerator;
 
   /// @brief Field mMac, offset 0x20, size 0x8
-  __declspec(property(get = __get_mMac, put = __set_mMac))::Org::BouncyCastle::Crypto::IMac* mMac;
+  __declspec(property(get = __cordl_internal_get_mMac, put = __cordl_internal_set_mMac))::Org::BouncyCastle::Crypto::IMac* mMac;
 
   /// @brief Field PREFIX_PASSWORD, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_PREFIX_PASSWORD, put = setStaticF_PREFIX_PASSWORD))::ArrayW<uint8_t, ::Array<uint8_t>*> PREFIX_PASSWORD;
@@ -58,23 +59,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager* i___Org__BouncyCastle__Crypto__Tls__TlsSrpIdentityManager() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*& __get_mGroup();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*& __cordl_internal_get_mGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*> const& __get_mGroup() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*> const& __cordl_internal_get_mGroup() const;
 
-  constexpr void __set_mGroup(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
+  constexpr void __cordl_internal_set_mGroup(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator*& __get_mVerifierGenerator();
+  constexpr ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator*& __cordl_internal_get_mVerifierGenerator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator*> const& __get_mVerifierGenerator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator*> const& __cordl_internal_get_mVerifierGenerator() const;
 
-  constexpr void __set_mVerifierGenerator(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* value);
+  constexpr void __cordl_internal_set_mVerifierGenerator(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IMac*& __get_mMac();
+  constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_mMac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __get_mMac() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __cordl_internal_get_mMac() const;
 
-  constexpr void __set_mMac(::Org::BouncyCastle::Crypto::IMac* value);
+  constexpr void __cordl_internal_set_mMac(::Org::BouncyCastle::Crypto::IMac* value);
 
   static inline void setStaticF_PREFIX_PASSWORD(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

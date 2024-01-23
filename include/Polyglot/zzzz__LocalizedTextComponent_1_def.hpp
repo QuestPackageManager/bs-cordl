@@ -31,23 +31,23 @@ namespace Polyglot {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15565))
 // CS Name: ::Polyglot::LocalizedTextComponent`1<T>*
 class CORDL_TYPE LocalizedTextComponent_1 : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field localizedComponent, offset 0x18, size 0x8
-  __declspec(property(get = __get_localizedComponent, put = __set_localizedComponent)) T localizedComponent;
+  __declspec(property(get = __cordl_internal_get_localizedComponent, put = __cordl_internal_set_localizedComponent)) T localizedComponent;
 
   /// @brief Field maintainTextAlignment, offset 0x20, size 0x1
-  __declspec(property(get = __get_maintainTextAlignment, put = __set_maintainTextAlignment)) bool maintainTextAlignment;
+  __declspec(property(get = __cordl_internal_get_maintainTextAlignment, put = __cordl_internal_set_maintainTextAlignment)) bool maintainTextAlignment;
 
   /// @brief Field key, offset 0x28, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::StringW key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::StringW key;
 
   /// @brief Field parameters, offset 0x30, size 0x8
-  __declspec(property(get = __get_parameters, put = __set_parameters))::System::Collections::Generic::List_1<::System::Object*>* parameters;
+  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::System::Collections::Generic::List_1<::System::Object*>* parameters;
 
   __declspec(property(get = get_MaintainTextAlignment, put = set_MaintainTextAlignment)) bool MaintainTextAlignment;
 
@@ -61,29 +61,29 @@ public:
   /// @brief Convert to "::Polyglot::ILocalize"
   constexpr ::Polyglot::ILocalize* i___Polyglot__ILocalize() noexcept;
 
-  constexpr T& __get_localizedComponent();
+  constexpr T& __cordl_internal_get_localizedComponent();
 
-  constexpr T const& __get_localizedComponent() const;
+  constexpr T const& __cordl_internal_get_localizedComponent() const;
 
-  constexpr void __set_localizedComponent(T value);
+  constexpr void __cordl_internal_set_localizedComponent(T value);
 
-  constexpr bool& __get_maintainTextAlignment();
+  constexpr bool& __cordl_internal_get_maintainTextAlignment();
 
-  constexpr bool const& __get_maintainTextAlignment() const;
+  constexpr bool const& __cordl_internal_get_maintainTextAlignment() const;
 
-  constexpr void __set_maintainTextAlignment(bool value);
+  constexpr void __cordl_internal_set_maintainTextAlignment(bool value);
 
-  constexpr ::StringW& __get_key();
+  constexpr ::StringW& __cordl_internal_get_key();
 
-  constexpr ::StringW const& __get_key() const;
+  constexpr ::StringW const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::StringW value);
+  constexpr void __cordl_internal_set_key(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __get_parameters();
+  constexpr ::System::Collections::Generic::List_1<::System::Object*>*& __cordl_internal_get_parameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __get_parameters() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Object*>*> const& __cordl_internal_get_parameters() const;
 
-  constexpr void __set_parameters(::System::Collections::Generic::List_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set_parameters(::System::Collections::Generic::List_1<::System::Object*>* value);
 
   /// @brief Method get_MaintainTextAlignment, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_MaintainTextAlignment();

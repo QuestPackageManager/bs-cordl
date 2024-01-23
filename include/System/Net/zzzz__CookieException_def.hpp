@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::System::Net::CookieException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2382))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2382))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9133))
 // CS Name: ::System.Net::CookieException*
 class CORDL_TYPE CookieException : public ::System::FormatException {

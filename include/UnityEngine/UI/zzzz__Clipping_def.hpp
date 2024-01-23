@@ -24,14 +24,14 @@ MARK_REF_PTR_T(::UnityEngine::UI::Clipping);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13025))
 // CS Name: ::UnityEngine.UI::Clipping*
 class CORDL_TYPE Clipping : public ::System::Object {
 public:
   // Declarations
   /// @brief Method FindCullAndClipWorldRect, addr 0x2d53358, size 0x260, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rect FindCullAndClipWorldRect(::System::Collections::Generic::List_1<::UnityEngine::UI::RectMask2D*>* rectMaskParents, ByRef<bool> validRect);
+  static inline ::UnityEngine::Rect FindCullAndClipWorldRect(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::RectMask2D>>* rectMaskParents, ByRef<bool> validRect);
 
   // Ctor Parameters [CppParam { name: "", ty: "Clipping", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

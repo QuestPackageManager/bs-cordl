@@ -36,14 +36,14 @@ MARK_REF_PTR_T(::Mono::Security::X509::__X509CertificateCollection__X509Certific
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13752))
 // CS Name: ::X509CertificateCollection::X509CertificateEnumerator*
 class CORDL_TYPE __X509CertificateCollection__X509CertificateEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field enumerator, offset 0x10, size 0x8
-  __declspec(property(get = __get_enumerator, put = __set_enumerator))::System::Collections::IEnumerator* enumerator;
+  __declspec(property(get = __cordl_internal_get_enumerator, put = __cordl_internal_set_enumerator))::System::Collections::IEnumerator* enumerator;
 
   __declspec(property(get = get_Current))::Mono::Security::X509::X509Certificate* Current;
 
@@ -55,11 +55,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::System::Collections::IEnumerator*& __get_enumerator();
+  constexpr ::System::Collections::IEnumerator*& __cordl_internal_get_enumerator();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __get_enumerator() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __cordl_internal_get_enumerator() const;
 
-  constexpr void __set_enumerator(::System::Collections::IEnumerator* value);
+  constexpr void __cordl_internal_set_enumerator(::System::Collections::IEnumerator* value);
 
   static inline ::Mono::Security::X509::__X509CertificateCollection__X509CertificateEnumerator* New_ctor(::Mono::Security::X509::X509CertificateCollection* mappings);
 
@@ -110,7 +110,7 @@ static_assert(offsetof(::Mono::Security::X509::__X509CertificateCollection__X509
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3773))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3773))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13753))
 // CS Name: ::Mono.Security.X509::X509CertificateCollection*
 class CORDL_TYPE X509CertificateCollection : public ::System::Collections::CollectionBase {

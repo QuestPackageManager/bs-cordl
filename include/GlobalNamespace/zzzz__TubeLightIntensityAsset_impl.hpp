@@ -15,9 +15,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x231829c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightIntensityAsset*>::get(),
-                                                                               "get_clipCaps", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_clipCaps", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x23182a4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightIntensityAsset*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightIntensityAsset*>::get(), 6));
@@ -43,9 +43,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x231834c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightIntensityAsset*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -57,21 +57,21 @@ constexpr GlobalNamespace::TubeLightIntensityAsset::operator ::UnityEngine::Time
 constexpr ::UnityEngine::Timeline::ITimelineClipAsset* GlobalNamespace::TubeLightIntensityAsset::i___UnityEngine__Timeline__ITimelineClipAsset() noexcept {
   return static_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(static_cast<void*>(this));
 }
-constexpr ::GlobalNamespace::TubeLightIntensityBehaviour*& GlobalNamespace::TubeLightIntensityAsset::__get__template() {
+constexpr ::GlobalNamespace::TubeLightIntensityBehaviour*& GlobalNamespace::TubeLightIntensityAsset::__cordl_internal_get__template() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____template;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TubeLightIntensityBehaviour*> const& GlobalNamespace::TubeLightIntensityAsset::__get__template() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TubeLightIntensityBehaviour*> const& GlobalNamespace::TubeLightIntensityAsset::__cordl_internal_get__template() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____template;
 }
-constexpr void GlobalNamespace::TubeLightIntensityAsset::__set__template(::GlobalNamespace::TubeLightIntensityBehaviour* value) {
+constexpr void GlobalNamespace::TubeLightIntensityAsset::__cordl_internal_set__template(::GlobalNamespace::TubeLightIntensityBehaviour* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____template)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Timeline::ClipCaps GlobalNamespace::TubeLightIntensityAsset::get_clipCaps() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightIntensityAsset*>::get(), "get_clipCaps",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Timeline::ClipCaps, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Playables::Playable GlobalNamespace::TubeLightIntensityAsset::CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go) {
@@ -80,11 +80,11 @@ inline ::UnityEngine::Playables::Playable GlobalNamespace::TubeLightIntensityAss
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Playables::Playable, false>(this, ___internal_method, graph, go);
 }
 inline ::GlobalNamespace::TubeLightIntensityAsset* GlobalNamespace::TubeLightIntensityAsset::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::TubeLightIntensityAsset*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TubeLightIntensityAsset*>());
 }
 inline void GlobalNamespace::TubeLightIntensityAsset::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightIntensityAsset*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

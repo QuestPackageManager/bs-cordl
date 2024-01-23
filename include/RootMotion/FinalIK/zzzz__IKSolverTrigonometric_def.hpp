@@ -39,29 +39,29 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12560)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12560))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12581))
 // CS Name: ::IKSolverTrigonometric::TrigonometricBone*
 class CORDL_TYPE __IKSolverTrigonometric__TrigonometricBone : public ::RootMotion::FinalIK::__IKSolver__Bone {
 public:
   // Declarations
   /// @brief Field targetToLocalSpace, offset 0x74, size 0x10
-  __declspec(property(get = __get_targetToLocalSpace, put = __set_targetToLocalSpace))::UnityEngine::Quaternion targetToLocalSpace;
+  __declspec(property(get = __cordl_internal_get_targetToLocalSpace, put = __cordl_internal_set_targetToLocalSpace))::UnityEngine::Quaternion targetToLocalSpace;
 
   /// @brief Field defaultLocalBendNormal, offset 0x84, size 0xc
-  __declspec(property(get = __get_defaultLocalBendNormal, put = __set_defaultLocalBendNormal))::UnityEngine::Vector3 defaultLocalBendNormal;
+  __declspec(property(get = __cordl_internal_get_defaultLocalBendNormal, put = __cordl_internal_set_defaultLocalBendNormal))::UnityEngine::Vector3 defaultLocalBendNormal;
 
-  constexpr ::UnityEngine::Quaternion& __get_targetToLocalSpace();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_targetToLocalSpace();
 
-  constexpr ::UnityEngine::Quaternion const& __get_targetToLocalSpace() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_targetToLocalSpace() const;
 
-  constexpr void __set_targetToLocalSpace(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_targetToLocalSpace(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Vector3& __get_defaultLocalBendNormal();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_defaultLocalBendNormal();
 
-  constexpr ::UnityEngine::Vector3 const& __get_defaultLocalBendNormal() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_defaultLocalBendNormal() const;
 
-  constexpr void __set_defaultLocalBendNormal(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_defaultLocalBendNormal(::UnityEngine::Vector3 value);
 
   /// @brief Method Initiate, addr 0x12704c0, size 0xf0, virtual false, abstract: false, final false
   inline void Initiate(::UnityEngine::Vector3 childPosition, ::UnityEngine::Vector3 bendNormal);
@@ -111,7 +111,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolverTrigonometric__Trigonome
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 165, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12564)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12564))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12582))
 // CS Name: ::RootMotion.FinalIK::IKSolverTrigonometric*
 class CORDL_TYPE IKSolverTrigonometric : public ::RootMotion::FinalIK::IKSolver {
@@ -120,85 +120,85 @@ public:
   using TrigonometricBone = ::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone;
 
   /// @brief Field target, offset 0x58, size 0x8
-  __declspec(property(get = __get_target, put = __set_target))::UnityEngine::Transform* target;
+  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
 
   /// @brief Field IKRotationWeight, offset 0x60, size 0x4
-  __declspec(property(get = __get_IKRotationWeight, put = __set_IKRotationWeight)) float_t IKRotationWeight;
+  __declspec(property(get = __cordl_internal_get_IKRotationWeight, put = __cordl_internal_set_IKRotationWeight)) float_t IKRotationWeight;
 
   /// @brief Field IKRotation, offset 0x64, size 0x10
-  __declspec(property(get = __get_IKRotation, put = __set_IKRotation))::UnityEngine::Quaternion IKRotation;
+  __declspec(property(get = __cordl_internal_get_IKRotation, put = __cordl_internal_set_IKRotation))::UnityEngine::Quaternion IKRotation;
 
   /// @brief Field bendNormal, offset 0x74, size 0xc
-  __declspec(property(get = __get_bendNormal, put = __set_bendNormal))::UnityEngine::Vector3 bendNormal;
+  __declspec(property(get = __cordl_internal_get_bendNormal, put = __cordl_internal_set_bendNormal))::UnityEngine::Vector3 bendNormal;
 
   /// @brief Field bone1, offset 0x80, size 0x8
-  __declspec(property(get = __get_bone1, put = __set_bone1))::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone* bone1;
+  __declspec(property(get = __cordl_internal_get_bone1, put = __cordl_internal_set_bone1))::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone* bone1;
 
   /// @brief Field bone2, offset 0x88, size 0x8
-  __declspec(property(get = __get_bone2, put = __set_bone2))::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone* bone2;
+  __declspec(property(get = __cordl_internal_get_bone2, put = __cordl_internal_set_bone2))::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone* bone2;
 
   /// @brief Field bone3, offset 0x90, size 0x8
-  __declspec(property(get = __get_bone3, put = __set_bone3))::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone* bone3;
+  __declspec(property(get = __cordl_internal_get_bone3, put = __cordl_internal_set_bone3))::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone* bone3;
 
   /// @brief Field weightIKPosition, offset 0x98, size 0xc
-  __declspec(property(get = __get_weightIKPosition, put = __set_weightIKPosition))::UnityEngine::Vector3 weightIKPosition;
+  __declspec(property(get = __cordl_internal_get_weightIKPosition, put = __cordl_internal_set_weightIKPosition))::UnityEngine::Vector3 weightIKPosition;
 
   /// @brief Field directHierarchy, offset 0xa4, size 0x1
-  __declspec(property(get = __get_directHierarchy, put = __set_directHierarchy)) bool directHierarchy;
+  __declspec(property(get = __cordl_internal_get_directHierarchy, put = __cordl_internal_set_directHierarchy)) bool directHierarchy;
 
-  constexpr ::UnityEngine::Transform*& __get_target();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_target();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_target() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_target() const;
 
-  constexpr void __set_target(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get_IKRotationWeight();
+  constexpr float_t& __cordl_internal_get_IKRotationWeight();
 
-  constexpr float_t const& __get_IKRotationWeight() const;
+  constexpr float_t const& __cordl_internal_get_IKRotationWeight() const;
 
-  constexpr void __set_IKRotationWeight(float_t value);
+  constexpr void __cordl_internal_set_IKRotationWeight(float_t value);
 
-  constexpr ::UnityEngine::Quaternion& __get_IKRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_IKRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_IKRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_IKRotation() const;
 
-  constexpr void __set_IKRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_IKRotation(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Vector3& __get_bendNormal();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_bendNormal();
 
-  constexpr ::UnityEngine::Vector3 const& __get_bendNormal() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_bendNormal() const;
 
-  constexpr void __set_bendNormal(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_bendNormal(::UnityEngine::Vector3 value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*& __get_bone1();
+  constexpr ::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*& __cordl_internal_get_bone1();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*> const& __get_bone1() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*> const& __cordl_internal_get_bone1() const;
 
-  constexpr void __set_bone1(::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone* value);
+  constexpr void __cordl_internal_set_bone1(::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone* value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*& __get_bone2();
+  constexpr ::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*& __cordl_internal_get_bone2();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*> const& __get_bone2() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*> const& __cordl_internal_get_bone2() const;
 
-  constexpr void __set_bone2(::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone* value);
+  constexpr void __cordl_internal_set_bone2(::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone* value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*& __get_bone3();
+  constexpr ::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*& __cordl_internal_get_bone3();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*> const& __get_bone3() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone*> const& __cordl_internal_get_bone3() const;
 
-  constexpr void __set_bone3(::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone* value);
+  constexpr void __cordl_internal_set_bone3(::RootMotion::FinalIK::__IKSolverTrigonometric__TrigonometricBone* value);
 
-  constexpr ::UnityEngine::Vector3& __get_weightIKPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_weightIKPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_weightIKPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_weightIKPosition() const;
 
-  constexpr void __set_weightIKPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_weightIKPosition(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get_directHierarchy();
+  constexpr bool& __cordl_internal_get_directHierarchy();
 
-  constexpr bool const& __get_directHierarchy() const;
+  constexpr bool const& __cordl_internal_get_directHierarchy() const;
 
-  constexpr void __set_directHierarchy(bool value);
+  constexpr void __cordl_internal_set_directHierarchy(bool value);
 
   /// @brief Method SetBendGoalPosition, addr 0x126f224, size 0x194, virtual false, abstract: false, final false
   inline void SetBendGoalPosition(::UnityEngine::Vector3 goalPosition, float_t weight);
@@ -287,7 +287,7 @@ protected:
 
 public:
   /// @brief Field target, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___target;
+  ::UnityW<::UnityEngine::Transform> ___target;
 
   /// @brief Field IKRotationWeight, offset: 0x60, size: 0x4, def value: None
   float_t ___IKRotationWeight;

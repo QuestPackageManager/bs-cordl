@@ -80,46 +80,47 @@ MARK_REF_PTR_T(::GlobalNamespace::__LevelSelectionFlowCoordinator__State);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4779 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(5674))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5500)) CS Name: ::LevelSelectionFlowCoordinator::State*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5674)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4779 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5500)) CS Name: ::LevelSelectionFlowCoordinator::State*
 class CORDL_TYPE __LevelSelectionFlowCoordinator__State : public ::System::Object {
 public:
   // Declarations
   /// @brief Field levelCategory, offset 0x10, size 0x8
-  __declspec(property(get = __get_levelCategory, put = __set_levelCategory))::System::Nullable_1<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory> levelCategory;
+  __declspec(property(get = __cordl_internal_get_levelCategory,
+                      put = __cordl_internal_set_levelCategory))::System::Nullable_1<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory> levelCategory;
 
   /// @brief Field beatmapLevelPack, offset 0x18, size 0x8
-  __declspec(property(get = __get_beatmapLevelPack, put = __set_beatmapLevelPack))::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack;
+  __declspec(property(get = __cordl_internal_get_beatmapLevelPack, put = __cordl_internal_set_beatmapLevelPack))::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack;
 
   /// @brief Field previewBeatmapLevel, offset 0x20, size 0x8
-  __declspec(property(get = __get_previewBeatmapLevel, put = __set_previewBeatmapLevel))::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
+  __declspec(property(get = __cordl_internal_get_previewBeatmapLevel, put = __cordl_internal_set_previewBeatmapLevel))::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
 
   /// @brief Field difficultyBeatmap, offset 0x28, size 0x8
-  __declspec(property(get = __get_difficultyBeatmap, put = __set_difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
+  __declspec(property(get = __cordl_internal_get_difficultyBeatmap, put = __cordl_internal_set_difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
 
-  constexpr ::System::Nullable_1<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>& __get_levelCategory();
+  constexpr ::System::Nullable_1<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory>& __cordl_internal_get_levelCategory();
 
-  constexpr ::System::Nullable_1<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory> const& __get_levelCategory() const;
+  constexpr ::System::Nullable_1<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory> const& __cordl_internal_get_levelCategory() const;
 
-  constexpr void __set_levelCategory(::System::Nullable_1<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory> value);
+  constexpr void __cordl_internal_set_levelCategory(::System::Nullable_1<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory> value);
 
-  constexpr ::GlobalNamespace::IBeatmapLevelPack*& __get_beatmapLevelPack();
+  constexpr ::GlobalNamespace::IBeatmapLevelPack*& __cordl_internal_get_beatmapLevelPack();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelPack*> const& __get_beatmapLevelPack() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelPack*> const& __cordl_internal_get_beatmapLevelPack() const;
 
-  constexpr void __set_beatmapLevelPack(::GlobalNamespace::IBeatmapLevelPack* value);
+  constexpr void __cordl_internal_set_beatmapLevelPack(::GlobalNamespace::IBeatmapLevelPack* value);
 
-  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __get_previewBeatmapLevel();
+  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __cordl_internal_get_previewBeatmapLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __get_previewBeatmapLevel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __cordl_internal_get_previewBeatmapLevel() const;
 
-  constexpr void __set_previewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel* value);
+  constexpr void __cordl_internal_set_previewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel* value);
 
-  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __get_difficultyBeatmap();
+  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __cordl_internal_get_difficultyBeatmap();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __get_difficultyBeatmap() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __cordl_internal_get_difficultyBeatmap() const;
 
-  constexpr void __set_difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
+  constexpr void __cordl_internal_set_difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
 
   static inline ::GlobalNamespace::__LevelSelectionFlowCoordinator__State* New_ctor(::System::Nullable_1<::GlobalNamespace::__SelectLevelCategoryViewController__LevelCategory> levelCategory,
                                                                                     ::GlobalNamespace::IBeatmapLevelPack* beatmapLevelPack,
@@ -192,7 +193,7 @@ static_assert(offsetof(::GlobalNamespace::__LevelSelectionFlowCoordinator__State
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13582))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13582))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5501))
 // CS Name: ::LevelSelectionFlowCoordinator*
 class CORDL_TYPE LevelSelectionFlowCoordinator : public ::HMUI::FlowCoordinator {
@@ -201,21 +202,22 @@ public:
   using State = ::GlobalNamespace::__LevelSelectionFlowCoordinator__State;
 
   /// @brief Field playerDataModel, offset 0xa8, size 0x8
-  __declspec(property(get = __get_playerDataModel, put = __set_playerDataModel))::GlobalNamespace::PlayerDataModel* playerDataModel;
+  __declspec(property(get = __cordl_internal_get_playerDataModel, put = __cordl_internal_set_playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> playerDataModel;
 
   /// @brief Field levelSelectionNavigationController, offset 0xb0, size 0x8
-  __declspec(property(get = __get_levelSelectionNavigationController,
-                      put = __set_levelSelectionNavigationController))::GlobalNamespace::LevelSelectionNavigationController* levelSelectionNavigationController;
+  __declspec(property(get = __cordl_internal_get_levelSelectionNavigationController,
+                      put = __cordl_internal_set_levelSelectionNavigationController))::UnityW<::GlobalNamespace::LevelSelectionNavigationController> levelSelectionNavigationController;
 
   /// @brief Field _searchFilterParamsViewController, offset 0xb8, size 0x8
-  __declspec(property(get = __get__searchFilterParamsViewController,
-                      put = __set__searchFilterParamsViewController))::GlobalNamespace::SearchFilterParamsViewController* _searchFilterParamsViewController;
+  __declspec(property(get = __cordl_internal_get__searchFilterParamsViewController,
+                      put = __cordl_internal_set__searchFilterParamsViewController))::UnityW<::GlobalNamespace::SearchFilterParamsViewController> _searchFilterParamsViewController;
 
   /// @brief Field _levelSearchViewController, offset 0xc0, size 0x8
-  __declspec(property(get = __get__levelSearchViewController, put = __set__levelSearchViewController))::GlobalNamespace::LevelSearchViewController* _levelSearchViewController;
+  __declspec(property(get = __cordl_internal_get__levelSearchViewController,
+                      put = __cordl_internal_set__levelSearchViewController))::UnityW<::GlobalNamespace::LevelSearchViewController> _levelSearchViewController;
 
   /// @brief Field _startState, offset 0xc8, size 0x8
-  __declspec(property(get = __get__startState, put = __set__startState))::GlobalNamespace::__LevelSelectionFlowCoordinator__State* _startState;
+  __declspec(property(get = __cordl_internal_get__startState, put = __cordl_internal_set__startState))::GlobalNamespace::__LevelSelectionFlowCoordinator__State* _startState;
 
   __declspec(property(get = get_isInRootViewController)) bool isInRootViewController;
 
@@ -227,11 +229,11 @@ public:
 
   __declspec(property(get = get_selectedBeatmapLevel))::GlobalNamespace::IPreviewBeatmapLevel* selectedBeatmapLevel;
 
-  __declspec(property(get = get_initialTopScreenViewController))::HMUI::ViewController* initialTopScreenViewController;
+  __declspec(property(get = get_initialTopScreenViewController))::UnityW<::HMUI::ViewController> initialTopScreenViewController;
 
-  __declspec(property(get = get_initialLeftScreenViewController))::HMUI::ViewController* initialLeftScreenViewController;
+  __declspec(property(get = get_initialLeftScreenViewController))::UnityW<::HMUI::ViewController> initialLeftScreenViewController;
 
-  __declspec(property(get = get_initialRightScreenViewController))::HMUI::ViewController* initialRightScreenViewController;
+  __declspec(property(get = get_initialRightScreenViewController))::UnityW<::HMUI::ViewController> initialRightScreenViewController;
 
   __declspec(property(get = get_showBackButtonForMainViewController)) bool showBackButtonForMainViewController;
 
@@ -249,37 +251,38 @@ public:
 
   __declspec(property(get = get_allowedBeatmapDifficultyMask))::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask;
 
-  __declspec(property(get = get_notAllowedCharacteristics))::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*, ::Array<::GlobalNamespace::BeatmapCharacteristicSO*>*> notAllowedCharacteristics;
+  __declspec(property(
+      get = get_notAllowedCharacteristics))::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> notAllowedCharacteristics;
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get_playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get_playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get_playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get_playerDataModel() const;
 
-  constexpr void __set_playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set_playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::GlobalNamespace::LevelSelectionNavigationController*& __get_levelSelectionNavigationController();
+  constexpr ::UnityW<::GlobalNamespace::LevelSelectionNavigationController>& __cordl_internal_get_levelSelectionNavigationController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelSelectionNavigationController*> const& __get_levelSelectionNavigationController() const;
+  constexpr ::UnityW<::GlobalNamespace::LevelSelectionNavigationController> const& __cordl_internal_get_levelSelectionNavigationController() const;
 
-  constexpr void __set_levelSelectionNavigationController(::GlobalNamespace::LevelSelectionNavigationController* value);
+  constexpr void __cordl_internal_set_levelSelectionNavigationController(::UnityW<::GlobalNamespace::LevelSelectionNavigationController> value);
 
-  constexpr ::GlobalNamespace::SearchFilterParamsViewController*& __get__searchFilterParamsViewController();
+  constexpr ::UnityW<::GlobalNamespace::SearchFilterParamsViewController>& __cordl_internal_get__searchFilterParamsViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SearchFilterParamsViewController*> const& __get__searchFilterParamsViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::SearchFilterParamsViewController> const& __cordl_internal_get__searchFilterParamsViewController() const;
 
-  constexpr void __set__searchFilterParamsViewController(::GlobalNamespace::SearchFilterParamsViewController* value);
+  constexpr void __cordl_internal_set__searchFilterParamsViewController(::UnityW<::GlobalNamespace::SearchFilterParamsViewController> value);
 
-  constexpr ::GlobalNamespace::LevelSearchViewController*& __get__levelSearchViewController();
+  constexpr ::UnityW<::GlobalNamespace::LevelSearchViewController>& __cordl_internal_get__levelSearchViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelSearchViewController*> const& __get__levelSearchViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::LevelSearchViewController> const& __cordl_internal_get__levelSearchViewController() const;
 
-  constexpr void __set__levelSearchViewController(::GlobalNamespace::LevelSearchViewController* value);
+  constexpr void __cordl_internal_set__levelSearchViewController(::UnityW<::GlobalNamespace::LevelSearchViewController> value);
 
-  constexpr ::GlobalNamespace::__LevelSelectionFlowCoordinator__State*& __get__startState();
+  constexpr ::GlobalNamespace::__LevelSelectionFlowCoordinator__State*& __cordl_internal_get__startState();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LevelSelectionFlowCoordinator__State*> const& __get__startState() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LevelSelectionFlowCoordinator__State*> const& __cordl_internal_get__startState() const;
 
-  constexpr void __set__startState(::GlobalNamespace::__LevelSelectionFlowCoordinator__State* value);
+  constexpr void __cordl_internal_set__startState(::GlobalNamespace::__LevelSelectionFlowCoordinator__State* value);
 
   /// @brief Method get_isInRootViewController, addr 0x228a628, size 0x74, virtual false, abstract: false, final false
   inline bool get_isInRootViewController();
@@ -297,13 +300,13 @@ public:
   inline ::GlobalNamespace::IPreviewBeatmapLevel* get_selectedBeatmapLevel();
 
   /// @brief Method get_initialTopScreenViewController, addr 0x228a70c, size 0x8, virtual true, abstract: false, final false
-  inline ::HMUI::ViewController* get_initialTopScreenViewController();
+  inline ::UnityW<::HMUI::ViewController> get_initialTopScreenViewController();
 
   /// @brief Method get_initialLeftScreenViewController, addr 0x228a714, size 0x8, virtual true, abstract: false, final false
-  inline ::HMUI::ViewController* get_initialLeftScreenViewController();
+  inline ::UnityW<::HMUI::ViewController> get_initialLeftScreenViewController();
 
   /// @brief Method get_initialRightScreenViewController, addr 0x228a71c, size 0x8, virtual true, abstract: false, final false
-  inline ::HMUI::ViewController* get_initialRightScreenViewController();
+  inline ::UnityW<::HMUI::ViewController> get_initialRightScreenViewController();
 
   /// @brief Method get_showBackButtonForMainViewController, addr 0x228a724, size 0x8, virtual true, abstract: false, final false
   inline bool get_showBackButtonForMainViewController();
@@ -330,7 +333,7 @@ public:
   inline ::GlobalNamespace::BeatmapDifficultyMask get_allowedBeatmapDifficultyMask();
 
   /// @brief Method get_notAllowedCharacteristics, addr 0x228a7c4, size 0x44, virtual true, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*, ::Array<::GlobalNamespace::BeatmapCharacteristicSO*>*> get_notAllowedCharacteristics();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> get_notAllowedCharacteristics();
 
   /// @brief Method LevelSelectionFlowCoordinatorDidActivate, addr 0x228a808, size 0x4, virtual true, abstract: false, final false
   inline void LevelSelectionFlowCoordinatorDidActivate(bool firstActivation, bool addedToHierarchy);
@@ -414,16 +417,16 @@ protected:
 
 public:
   /// @brief Field playerDataModel, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ___playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ___playerDataModel;
 
   /// @brief Field levelSelectionNavigationController, offset: 0xb0, size: 0x8, def value: None
-  ::GlobalNamespace::LevelSelectionNavigationController* ___levelSelectionNavigationController;
+  ::UnityW<::GlobalNamespace::LevelSelectionNavigationController> ___levelSelectionNavigationController;
 
   /// @brief Field _searchFilterParamsViewController, offset: 0xb8, size: 0x8, def value: None
-  ::GlobalNamespace::SearchFilterParamsViewController* ____searchFilterParamsViewController;
+  ::UnityW<::GlobalNamespace::SearchFilterParamsViewController> ____searchFilterParamsViewController;
 
   /// @brief Field _levelSearchViewController, offset: 0xc0, size: 0x8, def value: None
-  ::GlobalNamespace::LevelSearchViewController* ____levelSearchViewController;
+  ::UnityW<::GlobalNamespace::LevelSearchViewController> ____levelSearchViewController;
 
   /// @brief Field _startState, offset: 0xc8, size: 0x8, def value: None
   ::GlobalNamespace::__LevelSelectionFlowCoordinator__State* ____startState;

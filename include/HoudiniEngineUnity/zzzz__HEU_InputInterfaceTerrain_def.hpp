@@ -46,128 +46,128 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataT
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9726)), TypeDefinitionIndex(TypeDefinitionIndex(9838))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9726)), TypeDefinitionIndex(TypeDefinitionIndex(9838))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9843))
 // CS Name: ::HEU_InputInterfaceTerrain::HEU_InputDataTerrain*
 class CORDL_TYPE __HEU_InputInterfaceTerrain__HEU_InputDataTerrain : public ::HoudiniEngineUnity::HEU_InputData {
 public:
   // Declarations
   /// @brief Field _heightFieldName, offset 0x18, size 0x8
-  __declspec(property(get = __get__heightFieldName, put = __set__heightFieldName))::StringW _heightFieldName;
+  __declspec(property(get = __cordl_internal_get__heightFieldName, put = __cordl_internal_set__heightFieldName))::StringW _heightFieldName;
 
   /// @brief Field _parentNodeID, offset 0x20, size 0x4
-  __declspec(property(get = __get__parentNodeID, put = __set__parentNodeID)) int32_t _parentNodeID;
+  __declspec(property(get = __cordl_internal_get__parentNodeID, put = __cordl_internal_set__parentNodeID)) int32_t _parentNodeID;
 
   /// @brief Field _voxelSize, offset 0x24, size 0x4
-  __declspec(property(get = __get__voxelSize, put = __set__voxelSize)) float_t _voxelSize;
+  __declspec(property(get = __cordl_internal_get__voxelSize, put = __cordl_internal_set__voxelSize)) float_t _voxelSize;
 
   /// @brief Field _terrain, offset 0x28, size 0x8
-  __declspec(property(get = __get__terrain, put = __set__terrain))::UnityEngine::Terrain* _terrain;
+  __declspec(property(get = __cordl_internal_get__terrain, put = __cordl_internal_set__terrain))::UnityW<::UnityEngine::Terrain> _terrain;
 
   /// @brief Field _terrainData, offset 0x30, size 0x8
-  __declspec(property(get = __get__terrainData, put = __set__terrainData))::UnityEngine::TerrainData* _terrainData;
+  __declspec(property(get = __cordl_internal_get__terrainData, put = __cordl_internal_set__terrainData))::UnityW<::UnityEngine::TerrainData> _terrainData;
 
   /// @brief Field _numPointsX, offset 0x38, size 0x4
-  __declspec(property(get = __get__numPointsX, put = __set__numPointsX)) int32_t _numPointsX;
+  __declspec(property(get = __cordl_internal_get__numPointsX, put = __cordl_internal_set__numPointsX)) int32_t _numPointsX;
 
   /// @brief Field _numPointsY, offset 0x3c, size 0x4
-  __declspec(property(get = __get__numPointsY, put = __set__numPointsY)) int32_t _numPointsY;
+  __declspec(property(get = __cordl_internal_get__numPointsY, put = __cordl_internal_set__numPointsY)) int32_t _numPointsY;
 
   /// @brief Field _transform, offset 0x40, size 0x28
-  __declspec(property(get = __get__transform, put = __set__transform))::HoudiniEngineUnity::HAPI_Transform _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::HoudiniEngineUnity::HAPI_Transform _transform;
 
   /// @brief Field _heightScale, offset 0x68, size 0x4
-  __declspec(property(get = __get__heightScale, put = __set__heightScale)) float_t _heightScale;
+  __declspec(property(get = __cordl_internal_get__heightScale, put = __cordl_internal_set__heightScale)) float_t _heightScale;
 
   /// @brief Field _heightfieldNodeID, offset 0x6c, size 0x4
-  __declspec(property(get = __get__heightfieldNodeID, put = __set__heightfieldNodeID)) int32_t _heightfieldNodeID;
+  __declspec(property(get = __cordl_internal_get__heightfieldNodeID, put = __cordl_internal_set__heightfieldNodeID)) int32_t _heightfieldNodeID;
 
   /// @brief Field _heightNodeID, offset 0x70, size 0x4
-  __declspec(property(get = __get__heightNodeID, put = __set__heightNodeID)) int32_t _heightNodeID;
+  __declspec(property(get = __cordl_internal_get__heightNodeID, put = __cordl_internal_set__heightNodeID)) int32_t _heightNodeID;
 
   /// @brief Field _maskNodeID, offset 0x74, size 0x4
-  __declspec(property(get = __get__maskNodeID, put = __set__maskNodeID)) int32_t _maskNodeID;
+  __declspec(property(get = __cordl_internal_get__maskNodeID, put = __cordl_internal_set__maskNodeID)) int32_t _maskNodeID;
 
   /// @brief Field _mergeNodeID, offset 0x78, size 0x4
-  __declspec(property(get = __get__mergeNodeID, put = __set__mergeNodeID)) int32_t _mergeNodeID;
+  __declspec(property(get = __cordl_internal_get__mergeNodeID, put = __cordl_internal_set__mergeNodeID)) int32_t _mergeNodeID;
 
-  constexpr ::StringW& __get__heightFieldName();
+  constexpr ::StringW& __cordl_internal_get__heightFieldName();
 
-  constexpr ::StringW const& __get__heightFieldName() const;
+  constexpr ::StringW const& __cordl_internal_get__heightFieldName() const;
 
-  constexpr void __set__heightFieldName(::StringW value);
+  constexpr void __cordl_internal_set__heightFieldName(::StringW value);
 
-  constexpr int32_t& __get__parentNodeID();
+  constexpr int32_t& __cordl_internal_get__parentNodeID();
 
-  constexpr int32_t const& __get__parentNodeID() const;
+  constexpr int32_t const& __cordl_internal_get__parentNodeID() const;
 
-  constexpr void __set__parentNodeID(int32_t value);
+  constexpr void __cordl_internal_set__parentNodeID(int32_t value);
 
-  constexpr float_t& __get__voxelSize();
+  constexpr float_t& __cordl_internal_get__voxelSize();
 
-  constexpr float_t const& __get__voxelSize() const;
+  constexpr float_t const& __cordl_internal_get__voxelSize() const;
 
-  constexpr void __set__voxelSize(float_t value);
+  constexpr void __cordl_internal_set__voxelSize(float_t value);
 
-  constexpr ::UnityEngine::Terrain*& __get__terrain();
+  constexpr ::UnityW<::UnityEngine::Terrain>& __cordl_internal_get__terrain();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Terrain*> const& __get__terrain() const;
+  constexpr ::UnityW<::UnityEngine::Terrain> const& __cordl_internal_get__terrain() const;
 
-  constexpr void __set__terrain(::UnityEngine::Terrain* value);
+  constexpr void __cordl_internal_set__terrain(::UnityW<::UnityEngine::Terrain> value);
 
-  constexpr ::UnityEngine::TerrainData*& __get__terrainData();
+  constexpr ::UnityW<::UnityEngine::TerrainData>& __cordl_internal_get__terrainData();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TerrainData*> const& __get__terrainData() const;
+  constexpr ::UnityW<::UnityEngine::TerrainData> const& __cordl_internal_get__terrainData() const;
 
-  constexpr void __set__terrainData(::UnityEngine::TerrainData* value);
+  constexpr void __cordl_internal_set__terrainData(::UnityW<::UnityEngine::TerrainData> value);
 
-  constexpr int32_t& __get__numPointsX();
+  constexpr int32_t& __cordl_internal_get__numPointsX();
 
-  constexpr int32_t const& __get__numPointsX() const;
+  constexpr int32_t const& __cordl_internal_get__numPointsX() const;
 
-  constexpr void __set__numPointsX(int32_t value);
+  constexpr void __cordl_internal_set__numPointsX(int32_t value);
 
-  constexpr int32_t& __get__numPointsY();
+  constexpr int32_t& __cordl_internal_get__numPointsY();
 
-  constexpr int32_t const& __get__numPointsY() const;
+  constexpr int32_t const& __cordl_internal_get__numPointsY() const;
 
-  constexpr void __set__numPointsY(int32_t value);
+  constexpr void __cordl_internal_set__numPointsY(int32_t value);
 
-  constexpr ::HoudiniEngineUnity::HAPI_Transform& __get__transform();
+  constexpr ::HoudiniEngineUnity::HAPI_Transform& __cordl_internal_get__transform();
 
-  constexpr ::HoudiniEngineUnity::HAPI_Transform const& __get__transform() const;
+  constexpr ::HoudiniEngineUnity::HAPI_Transform const& __cordl_internal_get__transform() const;
 
-  constexpr void __set__transform(::HoudiniEngineUnity::HAPI_Transform value);
+  constexpr void __cordl_internal_set__transform(::HoudiniEngineUnity::HAPI_Transform value);
 
-  constexpr float_t& __get__heightScale();
+  constexpr float_t& __cordl_internal_get__heightScale();
 
-  constexpr float_t const& __get__heightScale() const;
+  constexpr float_t const& __cordl_internal_get__heightScale() const;
 
-  constexpr void __set__heightScale(float_t value);
+  constexpr void __cordl_internal_set__heightScale(float_t value);
 
-  constexpr int32_t& __get__heightfieldNodeID();
+  constexpr int32_t& __cordl_internal_get__heightfieldNodeID();
 
-  constexpr int32_t const& __get__heightfieldNodeID() const;
+  constexpr int32_t const& __cordl_internal_get__heightfieldNodeID() const;
 
-  constexpr void __set__heightfieldNodeID(int32_t value);
+  constexpr void __cordl_internal_set__heightfieldNodeID(int32_t value);
 
-  constexpr int32_t& __get__heightNodeID();
+  constexpr int32_t& __cordl_internal_get__heightNodeID();
 
-  constexpr int32_t const& __get__heightNodeID() const;
+  constexpr int32_t const& __cordl_internal_get__heightNodeID() const;
 
-  constexpr void __set__heightNodeID(int32_t value);
+  constexpr void __cordl_internal_set__heightNodeID(int32_t value);
 
-  constexpr int32_t& __get__maskNodeID();
+  constexpr int32_t& __cordl_internal_get__maskNodeID();
 
-  constexpr int32_t const& __get__maskNodeID() const;
+  constexpr int32_t const& __cordl_internal_get__maskNodeID() const;
 
-  constexpr void __set__maskNodeID(int32_t value);
+  constexpr void __cordl_internal_set__maskNodeID(int32_t value);
 
-  constexpr int32_t& __get__mergeNodeID();
+  constexpr int32_t& __cordl_internal_get__mergeNodeID();
 
-  constexpr int32_t const& __get__mergeNodeID() const;
+  constexpr int32_t const& __cordl_internal_get__mergeNodeID() const;
 
-  constexpr void __set__mergeNodeID(int32_t value);
+  constexpr void __cordl_internal_set__mergeNodeID(int32_t value);
 
   static inline ::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_InputDataTerrain* New_ctor();
 
@@ -198,10 +198,10 @@ public:
   float_t ____voxelSize;
 
   /// @brief Field _terrain, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Terrain* ____terrain;
+  ::UnityW<::UnityEngine::Terrain> ____terrain;
 
   /// @brief Field _terrainData, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::TerrainData* ____terrainData;
+  ::UnityW<::UnityEngine::TerrainData> ____terrainData;
 
   /// @brief Field _numPointsX, offset: 0x38, size: 0x4, def value: None
   int32_t ____numPointsX;
@@ -263,7 +263,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceTerrain__HEU_In
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9839))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9839))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9844))
 // CS Name: ::HoudiniEngineUnity::HEU_InputInterfaceTerrain*
 class CORDL_TYPE HEU_InputInterfaceTerrain : public ::HoudiniEngineUnity::HEU_InputInterface {

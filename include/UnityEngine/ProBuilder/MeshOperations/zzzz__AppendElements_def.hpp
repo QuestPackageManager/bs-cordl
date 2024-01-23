@@ -76,7 +76,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__AppendElements____c_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12240))
 // CS Name: ::AppendElements::<>c*
 class CORDL_TYPE __AppendElements____c : public ::System::Object {
@@ -158,20 +158,20 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12241))
 // CS Name: ::AppendElements::<>c__DisplayClass17_0*
 class CORDL_TYPE __AppendElements____c__DisplayClass17_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field delCount, offset 0x10, size 0x4
-  __declspec(property(get = __get_delCount, put = __set_delCount)) int32_t delCount;
+  __declspec(property(get = __cordl_internal_get_delCount, put = __cordl_internal_set_delCount)) int32_t delCount;
 
-  constexpr int32_t& __get_delCount();
+  constexpr int32_t& __cordl_internal_get_delCount();
 
-  constexpr int32_t const& __get_delCount() const;
+  constexpr int32_t const& __cordl_internal_get_delCount() const;
 
-  constexpr void __set_delCount(int32_t value);
+  constexpr void __cordl_internal_set_delCount(int32_t value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__AppendElements____c__DisplayClass17_0* New_ctor();
 
@@ -210,7 +210,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__AppendElemen
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12242))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::AppendElements*
 class CORDL_TYPE AppendElements : public ::System::Object {

@@ -81,20 +81,21 @@ MARK_REF_PTR_T(::GlobalNamespace::__HealthWarningFlowCoordinator__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5497))
 // CS Name: ::HealthWarningFlowCoordinator::InitData*
 class CORDL_TYPE __HealthWarningFlowCoordinator__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field nextScenesTransitionSetupData, offset 0x10, size 0x8
-  __declspec(property(get = __get_nextScenesTransitionSetupData, put = __set_nextScenesTransitionSetupData))::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get_nextScenesTransitionSetupData,
+                      put = __cordl_internal_set_nextScenesTransitionSetupData))::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> nextScenesTransitionSetupData;
 
-  constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO*& __get_nextScenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& __cordl_internal_get_nextScenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScenesTransitionSetupDataSO*> const& __get_nextScenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> const& __cordl_internal_get_nextScenesTransitionSetupData() const;
 
-  constexpr void __set_nextScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set_nextScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
   static inline ::GlobalNamespace::__HealthWarningFlowCoordinator__InitData* New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
@@ -116,7 +117,7 @@ protected:
 
 public:
   /// @brief Field nextScenesTransitionSetupData, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::ScenesTransitionSetupDataSO* ___nextScenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ___nextScenesTransitionSetupData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -130,7 +131,7 @@ static_assert(offsetof(::GlobalNamespace::__HealthWarningFlowCoordinator__InitDa
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5749)), TypeDefinitionIndex(TypeDefinitionIndex(13582))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5749)), TypeDefinitionIndex(TypeDefinitionIndex(13582))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5498))
 // CS Name: ::HealthWarningFlowCoordinator*
 class CORDL_TYPE HealthWarningFlowCoordinator : public ::HMUI::FlowCoordinator {
@@ -139,141 +140,147 @@ public:
   using InitData = ::GlobalNamespace::__HealthWarningFlowCoordinator__InitData;
 
   /// @brief Field _mainSettingsModel, offset 0xa8, size 0x8
-  __declspec(property(get = __get__mainSettingsModel, put = __set__mainSettingsModel))::GlobalNamespace::MainSettingsModelSO* _mainSettingsModel;
+  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
   /// @brief Field _appInitScenesTransitionSetupDataContainer, offset 0xb0, size 0x8
-  __declspec(property(get = __get__appInitScenesTransitionSetupDataContainer,
-                      put = __set__appInitScenesTransitionSetupDataContainer))::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* _appInitScenesTransitionSetupDataContainer;
+  __declspec(property(
+      get = __cordl_internal_get__appInitScenesTransitionSetupDataContainer,
+      put = __cordl_internal_set__appInitScenesTransitionSetupDataContainer))::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> _appInitScenesTransitionSetupDataContainer;
 
   /// @brief Field _selectLanguageViewController, offset 0xb8, size 0x8
-  __declspec(property(get = __get__selectLanguageViewController, put = __set__selectLanguageViewController))::GlobalNamespace::SelectLanguageViewController* _selectLanguageViewController;
+  __declspec(property(get = __cordl_internal_get__selectLanguageViewController,
+                      put = __cordl_internal_set__selectLanguageViewController))::UnityW<::GlobalNamespace::SelectLanguageViewController> _selectLanguageViewController;
 
   /// @brief Field _selectRegionViewController, offset 0xc0, size 0x8
-  __declspec(property(get = __get__selectRegionViewController, put = __set__selectRegionViewController))::GlobalNamespace::SelectRegionViewController* _selectRegionViewController;
+  __declspec(property(get = __cordl_internal_get__selectRegionViewController,
+                      put = __cordl_internal_set__selectRegionViewController))::UnityW<::GlobalNamespace::SelectRegionViewController> _selectRegionViewController;
 
   /// @brief Field _eulaViewController, offset 0xc8, size 0x8
-  __declspec(property(get = __get__eulaViewController, put = __set__eulaViewController))::GlobalNamespace::EulaViewController* _eulaViewController;
+  __declspec(property(get = __cordl_internal_get__eulaViewController, put = __cordl_internal_set__eulaViewController))::UnityW<::GlobalNamespace::EulaViewController> _eulaViewController;
 
   /// @brief Field _privacyPolicyViewController, offset 0xd0, size 0x8
-  __declspec(property(get = __get__privacyPolicyViewController, put = __set__privacyPolicyViewController))::GlobalNamespace::PrivacyPolicyViewController* _privacyPolicyViewController;
+  __declspec(property(get = __cordl_internal_get__privacyPolicyViewController,
+                      put = __cordl_internal_set__privacyPolicyViewController))::UnityW<::GlobalNamespace::PrivacyPolicyViewController> _privacyPolicyViewController;
 
   /// @brief Field _healthWarningViewController, offset 0xd8, size 0x8
-  __declspec(property(get = __get__healthWarningViewController, put = __set__healthWarningViewController))::GlobalNamespace::HealthWarningViewController* _healthWarningViewController;
+  __declspec(property(get = __cordl_internal_get__healthWarningViewController,
+                      put = __cordl_internal_set__healthWarningViewController))::UnityW<::GlobalNamespace::HealthWarningViewController> _healthWarningViewController;
 
   /// @brief Field _explicitContentWarningViewController, offset 0xe0, size 0x8
-  __declspec(property(get = __get__explicitContentWarningViewController,
-                      put = __set__explicitContentWarningViewController))::GlobalNamespace::ExplicitContentWarningViewController* _explicitContentWarningViewController;
+  __declspec(property(get = __cordl_internal_get__explicitContentWarningViewController,
+                      put = __cordl_internal_set__explicitContentWarningViewController))::UnityW<::GlobalNamespace::ExplicitContentWarningViewController> _explicitContentWarningViewController;
 
   /// @brief Field _playerDataModel, offset 0xe8, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _fadeInOut, offset 0xf0, size 0x8
-  __declspec(property(get = __get__fadeInOut, put = __set__fadeInOut))::GlobalNamespace::FadeInOutController* _fadeInOut;
+  __declspec(property(get = __cordl_internal_get__fadeInOut, put = __cordl_internal_set__fadeInOut))::UnityW<::GlobalNamespace::FadeInOutController> _fadeInOut;
 
   /// @brief Field _gameScenesManager, offset 0xf8, size 0x8
-  __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
   /// @brief Field _initData, offset 0x100, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__HealthWarningFlowCoordinator__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__HealthWarningFlowCoordinator__InitData* _initData;
 
   /// @brief Field _saveData, offset 0x108, size 0x8
-  __declspec(property(get = __get__saveData, put = __set__saveData))::GlobalNamespace::ISaveData* _saveData;
+  __declspec(property(get = __cordl_internal_get__saveData, put = __cordl_internal_set__saveData))::GlobalNamespace::ISaveData* _saveData;
 
   /// @brief Field _viewControllerTitles, offset 0x110, size 0x8
-  __declspec(property(get = __get__viewControllerTitles, put = __set__viewControllerTitles))::System::Collections::Generic::Dictionary_2<::HMUI::ViewController*, ::StringW>* _viewControllerTitles;
+  __declspec(property(get = __cordl_internal_get__viewControllerTitles,
+                      put = __cordl_internal_set__viewControllerTitles))::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>* _viewControllerTitles;
 
   /// @brief Field _selectedRegion, offset 0x118, size 0x4
-  __declspec(property(get = __get__selectedRegion, put = __set__selectedRegion))::GlobalNamespace::__SelectRegionViewController__Region _selectedRegion;
+  __declspec(property(get = __cordl_internal_get__selectedRegion, put = __cordl_internal_set__selectedRegion))::GlobalNamespace::__SelectRegionViewController__Region _selectedRegion;
 
-  constexpr ::GlobalNamespace::MainSettingsModelSO*& __get__mainSettingsModel();
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsModelSO*> const& __get__mainSettingsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
 
-  constexpr void __set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO* value);
+  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
-  constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*& __get__appInitScenesTransitionSetupDataContainer();
+  constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO>& __cordl_internal_get__appInitScenesTransitionSetupDataContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*> const& __get__appInitScenesTransitionSetupDataContainer() const;
+  constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> const& __cordl_internal_get__appInitScenesTransitionSetupDataContainer() const;
 
-  constexpr void __set__appInitScenesTransitionSetupDataContainer(::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* value);
+  constexpr void __cordl_internal_set__appInitScenesTransitionSetupDataContainer(::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> value);
 
-  constexpr ::GlobalNamespace::SelectLanguageViewController*& __get__selectLanguageViewController();
+  constexpr ::UnityW<::GlobalNamespace::SelectLanguageViewController>& __cordl_internal_get__selectLanguageViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SelectLanguageViewController*> const& __get__selectLanguageViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::SelectLanguageViewController> const& __cordl_internal_get__selectLanguageViewController() const;
 
-  constexpr void __set__selectLanguageViewController(::GlobalNamespace::SelectLanguageViewController* value);
+  constexpr void __cordl_internal_set__selectLanguageViewController(::UnityW<::GlobalNamespace::SelectLanguageViewController> value);
 
-  constexpr ::GlobalNamespace::SelectRegionViewController*& __get__selectRegionViewController();
+  constexpr ::UnityW<::GlobalNamespace::SelectRegionViewController>& __cordl_internal_get__selectRegionViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SelectRegionViewController*> const& __get__selectRegionViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::SelectRegionViewController> const& __cordl_internal_get__selectRegionViewController() const;
 
-  constexpr void __set__selectRegionViewController(::GlobalNamespace::SelectRegionViewController* value);
+  constexpr void __cordl_internal_set__selectRegionViewController(::UnityW<::GlobalNamespace::SelectRegionViewController> value);
 
-  constexpr ::GlobalNamespace::EulaViewController*& __get__eulaViewController();
+  constexpr ::UnityW<::GlobalNamespace::EulaViewController>& __cordl_internal_get__eulaViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EulaViewController*> const& __get__eulaViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::EulaViewController> const& __cordl_internal_get__eulaViewController() const;
 
-  constexpr void __set__eulaViewController(::GlobalNamespace::EulaViewController* value);
+  constexpr void __cordl_internal_set__eulaViewController(::UnityW<::GlobalNamespace::EulaViewController> value);
 
-  constexpr ::GlobalNamespace::PrivacyPolicyViewController*& __get__privacyPolicyViewController();
+  constexpr ::UnityW<::GlobalNamespace::PrivacyPolicyViewController>& __cordl_internal_get__privacyPolicyViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PrivacyPolicyViewController*> const& __get__privacyPolicyViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::PrivacyPolicyViewController> const& __cordl_internal_get__privacyPolicyViewController() const;
 
-  constexpr void __set__privacyPolicyViewController(::GlobalNamespace::PrivacyPolicyViewController* value);
+  constexpr void __cordl_internal_set__privacyPolicyViewController(::UnityW<::GlobalNamespace::PrivacyPolicyViewController> value);
 
-  constexpr ::GlobalNamespace::HealthWarningViewController*& __get__healthWarningViewController();
+  constexpr ::UnityW<::GlobalNamespace::HealthWarningViewController>& __cordl_internal_get__healthWarningViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HealthWarningViewController*> const& __get__healthWarningViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::HealthWarningViewController> const& __cordl_internal_get__healthWarningViewController() const;
 
-  constexpr void __set__healthWarningViewController(::GlobalNamespace::HealthWarningViewController* value);
+  constexpr void __cordl_internal_set__healthWarningViewController(::UnityW<::GlobalNamespace::HealthWarningViewController> value);
 
-  constexpr ::GlobalNamespace::ExplicitContentWarningViewController*& __get__explicitContentWarningViewController();
+  constexpr ::UnityW<::GlobalNamespace::ExplicitContentWarningViewController>& __cordl_internal_get__explicitContentWarningViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ExplicitContentWarningViewController*> const& __get__explicitContentWarningViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::ExplicitContentWarningViewController> const& __cordl_internal_get__explicitContentWarningViewController() const;
 
-  constexpr void __set__explicitContentWarningViewController(::GlobalNamespace::ExplicitContentWarningViewController* value);
+  constexpr void __cordl_internal_set__explicitContentWarningViewController(::UnityW<::GlobalNamespace::ExplicitContentWarningViewController> value);
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::GlobalNamespace::FadeInOutController*& __get__fadeInOut();
+  constexpr ::UnityW<::GlobalNamespace::FadeInOutController>& __cordl_internal_get__fadeInOut();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FadeInOutController*> const& __get__fadeInOut() const;
+  constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& __cordl_internal_get__fadeInOut() const;
 
-  constexpr void __set__fadeInOut(::GlobalNamespace::FadeInOutController* value);
+  constexpr void __cordl_internal_set__fadeInOut(::UnityW<::GlobalNamespace::FadeInOutController> value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get__gameScenesManager();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get__gameScenesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
-  constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::GlobalNamespace::__HealthWarningFlowCoordinator__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__HealthWarningFlowCoordinator__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__HealthWarningFlowCoordinator__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__HealthWarningFlowCoordinator__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__HealthWarningFlowCoordinator__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__HealthWarningFlowCoordinator__InitData* value);
 
-  constexpr ::GlobalNamespace::ISaveData*& __get__saveData();
+  constexpr ::GlobalNamespace::ISaveData*& __cordl_internal_get__saveData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& __get__saveData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& __cordl_internal_get__saveData() const;
 
-  constexpr void __set__saveData(::GlobalNamespace::ISaveData* value);
+  constexpr void __cordl_internal_set__saveData(::GlobalNamespace::ISaveData* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::HMUI::ViewController*, ::StringW>*& __get__viewControllerTitles();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>*& __cordl_internal_get__viewControllerTitles();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::HMUI::ViewController*, ::StringW>*> const& __get__viewControllerTitles() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>*> const& __cordl_internal_get__viewControllerTitles() const;
 
-  constexpr void __set__viewControllerTitles(::System::Collections::Generic::Dictionary_2<::HMUI::ViewController*, ::StringW>* value);
+  constexpr void __cordl_internal_set__viewControllerTitles(::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>* value);
 
-  constexpr ::GlobalNamespace::__SelectRegionViewController__Region& __get__selectedRegion();
+  constexpr ::GlobalNamespace::__SelectRegionViewController__Region& __cordl_internal_get__selectedRegion();
 
-  constexpr ::GlobalNamespace::__SelectRegionViewController__Region const& __get__selectedRegion() const;
+  constexpr ::GlobalNamespace::__SelectRegionViewController__Region const& __cordl_internal_get__selectedRegion() const;
 
-  constexpr void __set__selectedRegion(::GlobalNamespace::__SelectRegionViewController__Region value);
+  constexpr void __cordl_internal_set__selectedRegion(::GlobalNamespace::__SelectRegionViewController__Region value);
 
   /// @brief Method DidActivate, addr 0x2289010, size 0x4c0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -309,10 +316,10 @@ public:
   inline void HandleExplicitContentWarningViewControllerDidFinish();
 
   /// @brief Method ResolveMainViewController, addr 0x22894d0, size 0x50, virtual false, abstract: false, final false
-  inline ::HMUI::ViewController* ResolveMainViewController();
+  inline ::UnityW<::HMUI::ViewController> ResolveMainViewController();
 
   /// @brief Method ResolvePlayerAgreementsViewController, addr 0x2289a70, size 0xf4, virtual false, abstract: false, final false
-  inline ::HMUI::ViewController* ResolvePlayerAgreementsViewController();
+  inline ::UnityW<::HMUI::ViewController> ResolvePlayerAgreementsViewController();
 
   /// @brief Method GoToNextScene, addr 0x2289c38, size 0x3c, virtual false, abstract: false, final false
   inline void GoToNextScene();
@@ -337,37 +344,37 @@ protected:
 
 public:
   /// @brief Field _mainSettingsModel, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::MainSettingsModelSO* ____mainSettingsModel;
+  ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
 
   /// @brief Field _appInitScenesTransitionSetupDataContainer, offset: 0xb0, size: 0x8, def value: None
-  ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* ____appInitScenesTransitionSetupDataContainer;
+  ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> ____appInitScenesTransitionSetupDataContainer;
 
   /// @brief Field _selectLanguageViewController, offset: 0xb8, size: 0x8, def value: None
-  ::GlobalNamespace::SelectLanguageViewController* ____selectLanguageViewController;
+  ::UnityW<::GlobalNamespace::SelectLanguageViewController> ____selectLanguageViewController;
 
   /// @brief Field _selectRegionViewController, offset: 0xc0, size: 0x8, def value: None
-  ::GlobalNamespace::SelectRegionViewController* ____selectRegionViewController;
+  ::UnityW<::GlobalNamespace::SelectRegionViewController> ____selectRegionViewController;
 
   /// @brief Field _eulaViewController, offset: 0xc8, size: 0x8, def value: None
-  ::GlobalNamespace::EulaViewController* ____eulaViewController;
+  ::UnityW<::GlobalNamespace::EulaViewController> ____eulaViewController;
 
   /// @brief Field _privacyPolicyViewController, offset: 0xd0, size: 0x8, def value: None
-  ::GlobalNamespace::PrivacyPolicyViewController* ____privacyPolicyViewController;
+  ::UnityW<::GlobalNamespace::PrivacyPolicyViewController> ____privacyPolicyViewController;
 
   /// @brief Field _healthWarningViewController, offset: 0xd8, size: 0x8, def value: None
-  ::GlobalNamespace::HealthWarningViewController* ____healthWarningViewController;
+  ::UnityW<::GlobalNamespace::HealthWarningViewController> ____healthWarningViewController;
 
   /// @brief Field _explicitContentWarningViewController, offset: 0xe0, size: 0x8, def value: None
-  ::GlobalNamespace::ExplicitContentWarningViewController* ____explicitContentWarningViewController;
+  ::UnityW<::GlobalNamespace::ExplicitContentWarningViewController> ____explicitContentWarningViewController;
 
   /// @brief Field _playerDataModel, offset: 0xe8, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _fadeInOut, offset: 0xf0, size: 0x8, def value: None
-  ::GlobalNamespace::FadeInOutController* ____fadeInOut;
+  ::UnityW<::GlobalNamespace::FadeInOutController> ____fadeInOut;
 
   /// @brief Field _gameScenesManager, offset: 0xf8, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
+  ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
   /// @brief Field _initData, offset: 0x100, size: 0x8, def value: None
   ::GlobalNamespace::__HealthWarningFlowCoordinator__InitData* ____initData;
@@ -376,7 +383,7 @@ public:
   ::GlobalNamespace::ISaveData* ____saveData;
 
   /// @brief Field _viewControllerTitles, offset: 0x110, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::HMUI::ViewController*, ::StringW>* ____viewControllerTitles;
+  ::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>* ____viewControllerTitles;
 
   /// @brief Field _selectedRegion, offset: 0x118, size: 0x4, def value: None
   ::GlobalNamespace::__SelectRegionViewController__Region ____selectedRegion;

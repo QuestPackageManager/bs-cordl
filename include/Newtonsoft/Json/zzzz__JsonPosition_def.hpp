@@ -33,7 +33,7 @@ MARK_VAL_T(::Newtonsoft::Json::JsonPosition);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11806))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11806))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11807))
 // CS Name: ::Newtonsoft.Json::JsonPosition
 struct CORDL_TYPE JsonPosition {

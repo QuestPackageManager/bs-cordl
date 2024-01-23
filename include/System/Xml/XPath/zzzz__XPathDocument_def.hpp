@@ -29,51 +29,52 @@ MARK_REF_PTR_T(::System::Xml::XPath::XPathDocument);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::XPath {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11579))
 // CS Name: ::System.Xml.XPath::XPathDocument*
 class CORDL_TYPE XPathDocument : public ::System::Object {
 public:
   // Declarations
   /// @brief Field pageXmlNmsp, offset 0x10, size 0x8
-  __declspec(property(get = __get_pageXmlNmsp, put = __set_pageXmlNmsp))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageXmlNmsp;
+  __declspec(property(get = __cordl_internal_get_pageXmlNmsp,
+                      put = __cordl_internal_set_pageXmlNmsp))::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> pageXmlNmsp;
 
   /// @brief Field idxXmlNmsp, offset 0x18, size 0x4
-  __declspec(property(get = __get_idxXmlNmsp, put = __set_idxXmlNmsp)) int32_t idxXmlNmsp;
+  __declspec(property(get = __cordl_internal_get_idxXmlNmsp, put = __cordl_internal_set_idxXmlNmsp)) int32_t idxXmlNmsp;
 
   /// @brief Field nameTable, offset 0x20, size 0x8
-  __declspec(property(get = __get_nameTable, put = __set_nameTable))::System::Xml::XmlNameTable* nameTable;
+  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable))::System::Xml::XmlNameTable* nameTable;
 
   /// @brief Field mapNmsp, offset 0x28, size 0x8
-  __declspec(property(get = __get_mapNmsp,
-                      put = __set_mapNmsp))::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>* mapNmsp;
+  __declspec(property(get = __cordl_internal_get_mapNmsp,
+                      put = __cordl_internal_set_mapNmsp))::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>* mapNmsp;
 
   __declspec(property(get = get_NameTable))::System::Xml::XmlNameTable* NameTable;
 
-  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& __get_pageXmlNmsp();
+  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>& __cordl_internal_get_pageXmlNmsp();
 
-  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> const& __get_pageXmlNmsp() const;
+  constexpr ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> const& __cordl_internal_get_pageXmlNmsp() const;
 
-  constexpr void __set_pageXmlNmsp(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value);
+  constexpr void __cordl_internal_set_pageXmlNmsp(::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*> value);
 
-  constexpr int32_t& __get_idxXmlNmsp();
+  constexpr int32_t& __cordl_internal_get_idxXmlNmsp();
 
-  constexpr int32_t const& __get_idxXmlNmsp() const;
+  constexpr int32_t const& __cordl_internal_get_idxXmlNmsp() const;
 
-  constexpr void __set_idxXmlNmsp(int32_t value);
+  constexpr void __cordl_internal_set_idxXmlNmsp(int32_t value);
 
-  constexpr ::System::Xml::XmlNameTable*& __get_nameTable();
+  constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_nameTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __get_nameTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __cordl_internal_get_nameTable() const;
 
-  constexpr void __set_nameTable(::System::Xml::XmlNameTable* value);
+  constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>*& __get_mapNmsp();
+  constexpr ::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>*& __cordl_internal_get_mapNmsp();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>*> const&
-  __get_mapNmsp() const;
+  __cordl_internal_get_mapNmsp() const;
 
-  constexpr void __set_mapNmsp(::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>* value);
+  constexpr void __cordl_internal_set_mapNmsp(::System::Collections::Generic::Dictionary_2<::MS::Internal::Xml::Cache::XPathNodeRef, ::MS::Internal::Xml::Cache::XPathNodeRef>* value);
 
   /// @brief Method get_NameTable, addr 0x28a9d78, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();

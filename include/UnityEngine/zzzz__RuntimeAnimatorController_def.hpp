@@ -18,13 +18,13 @@ MARK_REF_PTR_T(::UnityEngine::RuntimeAnimatorController);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14858))
 // CS Name: ::UnityEngine::RuntimeAnimatorController*
 class CORDL_TYPE RuntimeAnimatorController : public ::UnityEngine::Object {
 public:
   // Declarations
-  __declspec(property(get = get_animationClips))::ArrayW<::UnityEngine::AnimationClip*, ::Array<::UnityEngine::AnimationClip*>*> animationClips;
+  __declspec(property(get = get_animationClips))::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::UnityEngine::AnimationClip>>*> animationClips;
 
   static inline ::UnityEngine::RuntimeAnimatorController* New_ctor();
 
@@ -32,7 +32,7 @@ public:
   inline void _ctor();
 
   /// @brief Method get_animationClips, addr 0x2c8f194, size 0x3c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::AnimationClip*, ::Array<::UnityEngine::AnimationClip*>*> get_animationClips();
+  inline ::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::UnityEngine::AnimationClip>>*> get_animationClips();
 
   // Ctor Parameters [CppParam { name: "", ty: "RuntimeAnimatorController", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

@@ -33,41 +33,41 @@ MARK_REF_PTR_T(::System::IO::BinaryReader);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 71, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3621))
 // CS Name: ::System.IO::BinaryReader*
 class CORDL_TYPE BinaryReader : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_stream, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_stream, put = __set_m_stream))::System::IO::Stream* m_stream;
+  __declspec(property(get = __cordl_internal_get_m_stream, put = __cordl_internal_set_m_stream))::System::IO::Stream* m_stream;
 
   /// @brief Field m_buffer, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_buffer, put = __set_m_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> m_buffer;
+  __declspec(property(get = __cordl_internal_get_m_buffer, put = __cordl_internal_set_m_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> m_buffer;
 
   /// @brief Field m_decoder, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_decoder, put = __set_m_decoder))::System::Text::Decoder* m_decoder;
+  __declspec(property(get = __cordl_internal_get_m_decoder, put = __cordl_internal_set_m_decoder))::System::Text::Decoder* m_decoder;
 
   /// @brief Field m_charBytes, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_charBytes, put = __set_m_charBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> m_charBytes;
+  __declspec(property(get = __cordl_internal_get_m_charBytes, put = __cordl_internal_set_m_charBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> m_charBytes;
 
   /// @brief Field m_singleChar, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_singleChar, put = __set_m_singleChar))::ArrayW<char16_t, ::Array<char16_t>*> m_singleChar;
+  __declspec(property(get = __cordl_internal_get_m_singleChar, put = __cordl_internal_set_m_singleChar))::ArrayW<char16_t, ::Array<char16_t>*> m_singleChar;
 
   /// @brief Field m_charBuffer, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_charBuffer, put = __set_m_charBuffer))::ArrayW<char16_t, ::Array<char16_t>*> m_charBuffer;
+  __declspec(property(get = __cordl_internal_get_m_charBuffer, put = __cordl_internal_set_m_charBuffer))::ArrayW<char16_t, ::Array<char16_t>*> m_charBuffer;
 
   /// @brief Field m_maxCharsSize, offset 0x40, size 0x4
-  __declspec(property(get = __get_m_maxCharsSize, put = __set_m_maxCharsSize)) int32_t m_maxCharsSize;
+  __declspec(property(get = __cordl_internal_get_m_maxCharsSize, put = __cordl_internal_set_m_maxCharsSize)) int32_t m_maxCharsSize;
 
   /// @brief Field m_2BytesPerChar, offset 0x44, size 0x1
-  __declspec(property(get = __get_m_2BytesPerChar, put = __set_m_2BytesPerChar)) bool m_2BytesPerChar;
+  __declspec(property(get = __cordl_internal_get_m_2BytesPerChar, put = __cordl_internal_set_m_2BytesPerChar)) bool m_2BytesPerChar;
 
   /// @brief Field m_isMemoryStream, offset 0x45, size 0x1
-  __declspec(property(get = __get_m_isMemoryStream, put = __set_m_isMemoryStream)) bool m_isMemoryStream;
+  __declspec(property(get = __cordl_internal_get_m_isMemoryStream, put = __cordl_internal_set_m_isMemoryStream)) bool m_isMemoryStream;
 
   /// @brief Field m_leaveOpen, offset 0x46, size 0x1
-  __declspec(property(get = __get_m_leaveOpen, put = __set_m_leaveOpen)) bool m_leaveOpen;
+  __declspec(property(get = __cordl_internal_get_m_leaveOpen, put = __cordl_internal_set_m_leaveOpen)) bool m_leaveOpen;
 
   __declspec(property(get = get_BaseStream))::System::IO::Stream* BaseStream;
 
@@ -77,65 +77,65 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::IO::Stream*& __get_m_stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_m_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_m_stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_m_stream() const;
 
-  constexpr void __set_m_stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_m_stream(::System::IO::Stream* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_m_buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_m_buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_buffer() const;
 
-  constexpr void __set_m_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_m_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Text::Decoder*& __get_m_decoder();
+  constexpr ::System::Text::Decoder*& __cordl_internal_get_m_decoder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Decoder*> const& __get_m_decoder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Decoder*> const& __cordl_internal_get_m_decoder() const;
 
-  constexpr void __set_m_decoder(::System::Text::Decoder* value);
+  constexpr void __cordl_internal_set_m_decoder(::System::Text::Decoder* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_m_charBytes();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_charBytes();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_m_charBytes() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_charBytes() const;
 
-  constexpr void __set_m_charBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_m_charBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_m_singleChar();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_m_singleChar();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_m_singleChar() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_m_singleChar() const;
 
-  constexpr void __set_m_singleChar(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_m_singleChar(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_m_charBuffer();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_m_charBuffer();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_m_charBuffer() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_m_charBuffer() const;
 
-  constexpr void __set_m_charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_m_charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr int32_t& __get_m_maxCharsSize();
+  constexpr int32_t& __cordl_internal_get_m_maxCharsSize();
 
-  constexpr int32_t const& __get_m_maxCharsSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_maxCharsSize() const;
 
-  constexpr void __set_m_maxCharsSize(int32_t value);
+  constexpr void __cordl_internal_set_m_maxCharsSize(int32_t value);
 
-  constexpr bool& __get_m_2BytesPerChar();
+  constexpr bool& __cordl_internal_get_m_2BytesPerChar();
 
-  constexpr bool const& __get_m_2BytesPerChar() const;
+  constexpr bool const& __cordl_internal_get_m_2BytesPerChar() const;
 
-  constexpr void __set_m_2BytesPerChar(bool value);
+  constexpr void __cordl_internal_set_m_2BytesPerChar(bool value);
 
-  constexpr bool& __get_m_isMemoryStream();
+  constexpr bool& __cordl_internal_get_m_isMemoryStream();
 
-  constexpr bool const& __get_m_isMemoryStream() const;
+  constexpr bool const& __cordl_internal_get_m_isMemoryStream() const;
 
-  constexpr void __set_m_isMemoryStream(bool value);
+  constexpr void __cordl_internal_set_m_isMemoryStream(bool value);
 
-  constexpr bool& __get_m_leaveOpen();
+  constexpr bool& __cordl_internal_get_m_leaveOpen();
 
-  constexpr bool const& __get_m_leaveOpen() const;
+  constexpr bool const& __cordl_internal_get_m_leaveOpen() const;
 
-  constexpr void __set_m_leaveOpen(bool value);
+  constexpr void __cordl_internal_set_m_leaveOpen(bool value);
 
   static inline ::System::IO::BinaryReader* New_ctor(::System::IO::Stream* input);
 

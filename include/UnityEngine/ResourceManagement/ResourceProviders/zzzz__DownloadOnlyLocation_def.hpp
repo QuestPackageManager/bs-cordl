@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::DownloadOnl
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14023))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14023))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13988))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::DownloadOnlyLocation*
 class CORDL_TYPE DownloadOnlyLocation : public ::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper {

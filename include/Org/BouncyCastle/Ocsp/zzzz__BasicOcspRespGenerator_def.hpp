@@ -68,56 +68,56 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObje
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1608))
 // CS Name: ::BasicOcspRespGenerator::ResponseObject*
 class CORDL_TYPE __BasicOcspRespGenerator__ResponseObject : public ::System::Object {
 public:
   // Declarations
   /// @brief Field certId, offset 0x10, size 0x8
-  __declspec(property(get = __get_certId, put = __set_certId))::Org::BouncyCastle::Ocsp::CertificateID* certId;
+  __declspec(property(get = __cordl_internal_get_certId, put = __cordl_internal_set_certId))::Org::BouncyCastle::Ocsp::CertificateID* certId;
 
   /// @brief Field certStatus, offset 0x18, size 0x8
-  __declspec(property(get = __get_certStatus, put = __set_certStatus))::Org::BouncyCastle::Asn1::Ocsp::CertStatus* certStatus;
+  __declspec(property(get = __cordl_internal_get_certStatus, put = __cordl_internal_set_certStatus))::Org::BouncyCastle::Asn1::Ocsp::CertStatus* certStatus;
 
   /// @brief Field thisUpdate, offset 0x20, size 0x8
-  __declspec(property(get = __get_thisUpdate, put = __set_thisUpdate))::Org::BouncyCastle::Asn1::DerGeneralizedTime* thisUpdate;
+  __declspec(property(get = __cordl_internal_get_thisUpdate, put = __cordl_internal_set_thisUpdate))::Org::BouncyCastle::Asn1::DerGeneralizedTime* thisUpdate;
 
   /// @brief Field nextUpdate, offset 0x28, size 0x8
-  __declspec(property(get = __get_nextUpdate, put = __set_nextUpdate))::Org::BouncyCastle::Asn1::DerGeneralizedTime* nextUpdate;
+  __declspec(property(get = __cordl_internal_get_nextUpdate, put = __cordl_internal_set_nextUpdate))::Org::BouncyCastle::Asn1::DerGeneralizedTime* nextUpdate;
 
   /// @brief Field extensions, offset 0x30, size 0x8
-  __declspec(property(get = __get_extensions, put = __set_extensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
 
-  constexpr ::Org::BouncyCastle::Ocsp::CertificateID*& __get_certId();
+  constexpr ::Org::BouncyCastle::Ocsp::CertificateID*& __cordl_internal_get_certId();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Ocsp::CertificateID*> const& __get_certId() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Ocsp::CertificateID*> const& __cordl_internal_get_certId() const;
 
-  constexpr void __set_certId(::Org::BouncyCastle::Ocsp::CertificateID* value);
+  constexpr void __cordl_internal_set_certId(::Org::BouncyCastle::Ocsp::CertificateID* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::CertStatus*& __get_certStatus();
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::CertStatus*& __cordl_internal_get_certStatus();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::CertStatus*> const& __get_certStatus() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::CertStatus*> const& __cordl_internal_get_certStatus() const;
 
-  constexpr void __set_certStatus(::Org::BouncyCastle::Asn1::Ocsp::CertStatus* value);
+  constexpr void __cordl_internal_set_certStatus(::Org::BouncyCastle::Asn1::Ocsp::CertStatus* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __get_thisUpdate();
+  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_thisUpdate();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __get_thisUpdate() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_thisUpdate() const;
 
-  constexpr void __set_thisUpdate(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
+  constexpr void __cordl_internal_set_thisUpdate(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __get_nextUpdate();
+  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_nextUpdate();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __get_nextUpdate() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_nextUpdate() const;
 
-  constexpr void __set_nextUpdate(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
+  constexpr void __cordl_internal_set_nextUpdate(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __get_extensions();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_extensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __get_extensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __cordl_internal_get_extensions() const;
 
-  constexpr void __set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
+  constexpr void __cordl_internal_set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
   static inline ::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject* New_ctor(::Org::BouncyCastle::Ocsp::CertificateID* certId,
                                                                                               ::Org::BouncyCastle::Ocsp::CertificateStatus* certStatus, ::System::DateTime thisUpdate,
@@ -195,7 +195,7 @@ static_assert(offsetof(::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__Resp
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1609))
 // CS Name: ::Org.BouncyCastle.Ocsp::BasicOcspRespGenerator*
 class CORDL_TYPE BasicOcspRespGenerator : public ::System::Object {
@@ -204,33 +204,33 @@ public:
   using ResponseObject = ::Org::BouncyCastle::Ocsp::__BasicOcspRespGenerator__ResponseObject;
 
   /// @brief Field list, offset 0x10, size 0x8
-  __declspec(property(get = __get_list, put = __set_list))::System::Collections::IList* list;
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::IList* list;
 
   /// @brief Field responseExtensions, offset 0x18, size 0x8
-  __declspec(property(get = __get_responseExtensions, put = __set_responseExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* responseExtensions;
+  __declspec(property(get = __cordl_internal_get_responseExtensions, put = __cordl_internal_set_responseExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* responseExtensions;
 
   /// @brief Field responderID, offset 0x20, size 0x8
-  __declspec(property(get = __get_responderID, put = __set_responderID))::Org::BouncyCastle::Ocsp::RespID* responderID;
+  __declspec(property(get = __cordl_internal_get_responderID, put = __cordl_internal_set_responderID))::Org::BouncyCastle::Ocsp::RespID* responderID;
 
   __declspec(property(get = get_SignatureAlgNames))::System::Collections::IEnumerable* SignatureAlgNames;
 
-  constexpr ::System::Collections::IList*& __get_list();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_list() const;
 
-  constexpr void __set_list(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_list(::System::Collections::IList* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __get_responseExtensions();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_responseExtensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __get_responseExtensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __cordl_internal_get_responseExtensions() const;
 
-  constexpr void __set_responseExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
+  constexpr void __cordl_internal_set_responseExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
-  constexpr ::Org::BouncyCastle::Ocsp::RespID*& __get_responderID();
+  constexpr ::Org::BouncyCastle::Ocsp::RespID*& __cordl_internal_get_responderID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Ocsp::RespID*> const& __get_responderID() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Ocsp::RespID*> const& __cordl_internal_get_responderID() const;
 
-  constexpr void __set_responderID(::Org::BouncyCastle::Ocsp::RespID* value);
+  constexpr void __cordl_internal_set_responderID(::Org::BouncyCastle::Ocsp::RespID* value);
 
   static inline ::Org::BouncyCastle::Ocsp::BasicOcspRespGenerator* New_ctor(::Org::BouncyCastle::Ocsp::RespID* responderID);
 

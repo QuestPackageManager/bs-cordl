@@ -49,22 +49,24 @@ MARK_REF_PTR_T(::UnityEngine::XR::Management::__XRManagerSettings___InitializeLo
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1697
-// }), TypeDefinitionIndex(TypeDefinitionIndex(16035))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16039)) CS Name: ::XRManagerSettings::<InitializeLoader>d__24*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(16035)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1697 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16039)) CS Name:
+// ::XRManagerSettings::<InitializeLoader>d__24*
 class CORDL_TYPE __XRManagerSettings___InitializeLoader_d__24 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::XR::Management::XRManagerSettings* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::UnityEngine::XR::Management::XRManagerSettings> __4__this;
 
   /// @brief Field <>7__wrap1, offset 0x28, size 0x18
-  __declspec(property(get = __get___7__wrap1, put = __set___7__wrap1))::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::XR::Management::XRLoader*> __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1,
+                      put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::__List_1__Enumerator<::UnityW<::UnityEngine::XR::Management::XRLoader>> __7__wrap1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -88,29 +90,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::UnityEngine::XR::Management::XRManagerSettings*& __get___4__this();
+  constexpr ::UnityW<::UnityEngine::XR::Management::XRManagerSettings>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::XR::Management::XRManagerSettings*> const& __get___4__this() const;
+  constexpr ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::XR::Management::XRManagerSettings* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::UnityEngine::XR::Management::XRManagerSettings> value);
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::XR::Management::XRLoader*>& __get___7__wrap1();
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::UnityEngine::XR::Management::XRLoader>>& __cordl_internal_get___7__wrap1();
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::XR::Management::XRLoader*> const& __get___7__wrap1() const;
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::UnityEngine::XR::Management::XRLoader>> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::XR::Management::XRLoader*> value);
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::__List_1__Enumerator<::UnityW<::UnityEngine::XR::Management::XRLoader>> value);
 
   static inline ::UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24* New_ctor(int32_t __1__state);
 
@@ -156,10 +158,10 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::XR::Management::XRManagerSettings* _____4__this;
+  ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> _____4__this;
 
   /// @brief Field <>7__wrap1, offset: 0x28, size: 0x18, def value: None
-  ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::XR::Management::XRLoader*> _____7__wrap1;
+  ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::UnityEngine::XR::Management::XRLoader>> _____7__wrap1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -179,7 +181,7 @@ static_assert(offsetof(::UnityEngine::XR::Management::__XRManagerSettings___Init
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16040))
 // CS Name: ::UnityEngine.XR.Management::XRManagerSettings*
 class CORDL_TYPE XRManagerSettings : public ::UnityEngine::ScriptableObject {
@@ -188,83 +190,85 @@ public:
   using _InitializeLoader_d__24 = ::UnityEngine::XR::Management::__XRManagerSettings___InitializeLoader_d__24;
 
   /// @brief Field m_InitializationComplete, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_InitializationComplete, put = __set_m_InitializationComplete)) bool m_InitializationComplete;
+  __declspec(property(get = __cordl_internal_get_m_InitializationComplete, put = __cordl_internal_set_m_InitializationComplete)) bool m_InitializationComplete;
 
   /// @brief Field m_RequiresSettingsUpdate, offset 0x19, size 0x1
-  __declspec(property(get = __get_m_RequiresSettingsUpdate, put = __set_m_RequiresSettingsUpdate)) bool m_RequiresSettingsUpdate;
+  __declspec(property(get = __cordl_internal_get_m_RequiresSettingsUpdate, put = __cordl_internal_set_m_RequiresSettingsUpdate)) bool m_RequiresSettingsUpdate;
 
   /// @brief Field m_AutomaticLoading, offset 0x1a, size 0x1
-  __declspec(property(get = __get_m_AutomaticLoading, put = __set_m_AutomaticLoading)) bool m_AutomaticLoading;
+  __declspec(property(get = __cordl_internal_get_m_AutomaticLoading, put = __cordl_internal_set_m_AutomaticLoading)) bool m_AutomaticLoading;
 
   /// @brief Field m_AutomaticRunning, offset 0x1b, size 0x1
-  __declspec(property(get = __get_m_AutomaticRunning, put = __set_m_AutomaticRunning)) bool m_AutomaticRunning;
+  __declspec(property(get = __cordl_internal_get_m_AutomaticRunning, put = __cordl_internal_set_m_AutomaticRunning)) bool m_AutomaticRunning;
 
   /// @brief Field m_Loaders, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Loaders, put = __set_m_Loaders))::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* m_Loaders;
+  __declspec(property(get = __cordl_internal_get_m_Loaders, put = __cordl_internal_set_m_Loaders))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* m_Loaders;
 
   /// @brief Field m_RegisteredLoaders, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_RegisteredLoaders, put = __set_m_RegisteredLoaders))::System::Collections::Generic::HashSet_1<::UnityEngine::XR::Management::XRLoader*>* m_RegisteredLoaders;
+  __declspec(property(get = __cordl_internal_get_m_RegisteredLoaders,
+                      put = __cordl_internal_set_m_RegisteredLoaders))::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* m_RegisteredLoaders;
 
   /// @brief Field <activeLoader>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__activeLoader_k__BackingField, put = __set__activeLoader_k__BackingField))::UnityEngine::XR::Management::XRLoader* _activeLoader_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__activeLoader_k__BackingField,
+                      put = __cordl_internal_set__activeLoader_k__BackingField))::UnityW<::UnityEngine::XR::Management::XRLoader> _activeLoader_k__BackingField;
 
   __declspec(property(get = get_automaticLoading, put = set_automaticLoading)) bool automaticLoading;
 
   __declspec(property(get = get_automaticRunning, put = set_automaticRunning)) bool automaticRunning;
 
-  __declspec(property(get = get_loaders))::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* loaders;
+  __declspec(property(get = get_loaders))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* loaders;
 
-  __declspec(property(get = get_activeLoaders))::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::XR::Management::XRLoader*>* activeLoaders;
+  __declspec(property(get = get_activeLoaders))::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* activeLoaders;
 
   __declspec(property(get = get_isInitializationComplete)) bool isInitializationComplete;
 
-  __declspec(property(get = get_activeLoader, put = set_activeLoader))::UnityEngine::XR::Management::XRLoader* activeLoader;
+  __declspec(property(get = get_activeLoader, put = set_activeLoader))::UnityW<::UnityEngine::XR::Management::XRLoader> activeLoader;
 
-  __declspec(property(get = get_currentLoaders, put = set_currentLoaders))::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* currentLoaders;
+  __declspec(property(get = get_currentLoaders, put = set_currentLoaders))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* currentLoaders;
 
-  __declspec(property(get = get_registeredLoaders))::System::Collections::Generic::HashSet_1<::UnityEngine::XR::Management::XRLoader*>* registeredLoaders;
+  __declspec(property(get = get_registeredLoaders))::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* registeredLoaders;
 
-  constexpr bool& __get_m_InitializationComplete();
+  constexpr bool& __cordl_internal_get_m_InitializationComplete();
 
-  constexpr bool const& __get_m_InitializationComplete() const;
+  constexpr bool const& __cordl_internal_get_m_InitializationComplete() const;
 
-  constexpr void __set_m_InitializationComplete(bool value);
+  constexpr void __cordl_internal_set_m_InitializationComplete(bool value);
 
-  constexpr bool& __get_m_RequiresSettingsUpdate();
+  constexpr bool& __cordl_internal_get_m_RequiresSettingsUpdate();
 
-  constexpr bool const& __get_m_RequiresSettingsUpdate() const;
+  constexpr bool const& __cordl_internal_get_m_RequiresSettingsUpdate() const;
 
-  constexpr void __set_m_RequiresSettingsUpdate(bool value);
+  constexpr void __cordl_internal_set_m_RequiresSettingsUpdate(bool value);
 
-  constexpr bool& __get_m_AutomaticLoading();
+  constexpr bool& __cordl_internal_get_m_AutomaticLoading();
 
-  constexpr bool const& __get_m_AutomaticLoading() const;
+  constexpr bool const& __cordl_internal_get_m_AutomaticLoading() const;
 
-  constexpr void __set_m_AutomaticLoading(bool value);
+  constexpr void __cordl_internal_set_m_AutomaticLoading(bool value);
 
-  constexpr bool& __get_m_AutomaticRunning();
+  constexpr bool& __cordl_internal_get_m_AutomaticRunning();
 
-  constexpr bool const& __get_m_AutomaticRunning() const;
+  constexpr bool const& __cordl_internal_get_m_AutomaticRunning() const;
 
-  constexpr void __set_m_AutomaticRunning(bool value);
+  constexpr void __cordl_internal_set_m_AutomaticRunning(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>*& __get_m_Loaders();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>*& __cordl_internal_get_m_Loaders();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>*> const& __get_m_Loaders() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>*> const& __cordl_internal_get_m_Loaders() const;
 
-  constexpr void __set_m_Loaders(::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* value);
+  constexpr void __cordl_internal_set_m_Loaders(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::XR::Management::XRLoader*>*& __get_m_RegisteredLoaders();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>*& __cordl_internal_get_m_RegisteredLoaders();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::XR::Management::XRLoader*>*> const& __get_m_RegisteredLoaders() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>*> const& __cordl_internal_get_m_RegisteredLoaders() const;
 
-  constexpr void __set_m_RegisteredLoaders(::System::Collections::Generic::HashSet_1<::UnityEngine::XR::Management::XRLoader*>* value);
+  constexpr void __cordl_internal_set_m_RegisteredLoaders(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* value);
 
-  constexpr ::UnityEngine::XR::Management::XRLoader*& __get__activeLoader_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::XR::Management::XRLoader>& __cordl_internal_get__activeLoader_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::XR::Management::XRLoader*> const& __get__activeLoader_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::XR::Management::XRLoader> const& __cordl_internal_get__activeLoader_k__BackingField() const;
 
-  constexpr void __set__activeLoader_k__BackingField(::UnityEngine::XR::Management::XRLoader* value);
+  constexpr void __cordl_internal_set__activeLoader_k__BackingField(::UnityW<::UnityEngine::XR::Management::XRLoader> value);
 
   /// @brief Method get_automaticLoading, addr 0x2c765f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_automaticLoading();
@@ -279,16 +283,16 @@ public:
   inline void set_automaticRunning(bool value);
 
   /// @brief Method get_loaders, addr 0x2c76618, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* get_loaders();
+  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* get_loaders();
 
   /// @brief Method get_activeLoaders, addr 0x2c76620, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::XR::Management::XRLoader*>* get_activeLoaders();
+  inline ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* get_activeLoaders();
 
   /// @brief Method get_isInitializationComplete, addr 0x2c76628, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInitializationComplete();
 
   /// @brief Method get_activeLoader, addr 0x2c76630, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::XR::Management::XRLoader* get_activeLoader();
+  inline ::UnityW<::UnityEngine::XR::Management::XRLoader> get_activeLoader();
 
   /// @brief Method set_activeLoader, addr 0x2c76638, size 0x8, virtual false, abstract: false, final false
   inline void set_activeLoader(::UnityEngine::XR::Management::XRLoader* value);
@@ -309,7 +313,7 @@ public:
   inline bool TryRemoveLoader(::UnityEngine::XR::Management::XRLoader* loader);
 
   /// @brief Method TrySetLoaders, addr 0x2c76a4c, size 0x1d8, virtual false, abstract: false, final false
-  inline bool TrySetLoaders(::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* reorderedLoaders);
+  inline bool TrySetLoaders(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* reorderedLoaders);
 
   /// @brief Method CheckGraphicsAPICompatibility, addr 0x2c76640, size 0x154, virtual false, abstract: false, final false
   inline bool CheckGraphicsAPICompatibility(::UnityEngine::XR::Management::XRLoader* loader);
@@ -333,13 +337,13 @@ public:
   inline void OnDestroy();
 
   /// @brief Method get_currentLoaders, addr 0x2c76c64, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* get_currentLoaders();
+  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* get_currentLoaders();
 
   /// @brief Method set_currentLoaders, addr 0x2c76c6c, size 0x8, virtual false, abstract: false, final false
-  inline void set_currentLoaders(::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* value);
+  inline void set_currentLoaders(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* value);
 
   /// @brief Method get_registeredLoaders, addr 0x2c76c74, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::HashSet_1<::UnityEngine::XR::Management::XRLoader*>* get_registeredLoaders();
+  inline ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* get_registeredLoaders();
 
   static inline ::UnityEngine::XR::Management::XRManagerSettings* New_ctor();
 
@@ -373,13 +377,13 @@ public:
   bool ___m_AutomaticRunning;
 
   /// @brief Field m_Loaders, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::XR::Management::XRLoader*>* ___m_Loaders;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* ___m_Loaders;
 
   /// @brief Field m_RegisteredLoaders, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<::UnityEngine::XR::Management::XRLoader*>* ___m_RegisteredLoaders;
+  ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::XR::Management::XRLoader>>* ___m_RegisteredLoaders;
 
   /// @brief Field <activeLoader>k__BackingField, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::XR::Management::XRLoader* ____activeLoader_k__BackingField;
+  ::UnityW<::UnityEngine::XR::Management::XRLoader> ____activeLoader_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

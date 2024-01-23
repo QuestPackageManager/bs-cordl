@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::ErrorWrapper);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3311))
 // CS Name: ::System.Runtime.InteropServices::ErrorWrapper*
 class CORDL_TYPE ErrorWrapper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_ErrorCode, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_ErrorCode, put = __set_m_ErrorCode)) int32_t m_ErrorCode;
+  __declspec(property(get = __cordl_internal_get_m_ErrorCode, put = __cordl_internal_set_m_ErrorCode)) int32_t m_ErrorCode;
 
-  constexpr int32_t& __get_m_ErrorCode();
+  constexpr int32_t& __cordl_internal_get_m_ErrorCode();
 
-  constexpr int32_t const& __get_m_ErrorCode() const;
+  constexpr int32_t const& __cordl_internal_get_m_ErrorCode() const;
 
-  constexpr void __set_m_ErrorCode(int32_t value);
+  constexpr void __cordl_internal_set_m_ErrorCode(int32_t value);
 
   // Ctor Parameters [CppParam { name: "", ty: "ErrorWrapper", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

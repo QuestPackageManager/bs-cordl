@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::AsyncMethodBuilderAttribute)
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3355))
 // CS Name: ::System.Runtime.CompilerServices::AsyncMethodBuilderAttribute*
 class CORDL_TYPE AsyncMethodBuilderAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <BuilderType>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__BuilderType_k__BackingField, put = __set__BuilderType_k__BackingField))::System::Type* _BuilderType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BuilderType_k__BackingField, put = __cordl_internal_set__BuilderType_k__BackingField))::System::Type* _BuilderType_k__BackingField;
 
-  constexpr ::System::Type*& __get__BuilderType_k__BackingField();
+  constexpr ::System::Type*& __cordl_internal_get__BuilderType_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__BuilderType_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__BuilderType_k__BackingField() const;
 
-  constexpr void __set__BuilderType_k__BackingField(::System::Type* value);
+  constexpr void __cordl_internal_set__BuilderType_k__BackingField(::System::Type* value);
 
   static inline ::System::Runtime::CompilerServices::AsyncMethodBuilderAttribute* New_ctor(::System::Type* builderType);
 

@@ -24,22 +24,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParamete
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1047))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1047))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1050))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::ElGamalPublicKeyParameters*
 class CORDL_TYPE ElGamalPublicKeyParameters : public ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyParameters {
 public:
   // Declarations
   /// @brief Field y, offset 0x20, size 0x8
-  __declspec(property(get = __get_y, put = __set_y))::Org::BouncyCastle::Math::BigInteger* y;
+  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y))::Org::BouncyCastle::Math::BigInteger* y;
 
   __declspec(property(get = get_Y))::Org::BouncyCastle::Math::BigInteger* Y;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_y();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_y();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_y() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_y() const;
 
-  constexpr void __set_y(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_y(::Org::BouncyCastle::Math::BigInteger* value);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ElGamalPublicKeyParameters* New_ctor(::Org::BouncyCastle::Math::BigInteger* y,
                                                                                               ::Org::BouncyCastle::Crypto::Parameters::ElGamalParameters* parameters);

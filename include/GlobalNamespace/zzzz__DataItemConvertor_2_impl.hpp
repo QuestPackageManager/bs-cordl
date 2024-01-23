@@ -14,11 +14,11 @@ template <typename TOut, typename TParam> inline ::System::Type* GlobalNamespace
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
 }
 template <typename TOut, typename TParam> inline ::GlobalNamespace::DataItemConvertor_2<TOut, TParam>* GlobalNamespace::DataItemConvertor_2<TOut, TParam>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::DataItemConvertor_2<TOut, TParam>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DataItemConvertor_2<TOut, TParam>*>());
 }
 template <typename TOut, typename TParam> inline void GlobalNamespace::DataItemConvertor_2<TOut, TParam>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DataItemConvertor_2<TOut, TParam>*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

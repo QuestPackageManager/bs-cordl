@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::Vector3Composite);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6721))
 // CS Name: ::Vector3Composite::Mode
 struct CORDL_TYPE __Vector3Composite__Mode {
@@ -86,8 +86,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::Composites::__Vector3Composit
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6190)), TypeDefinitionIndex(TypeDefinitionIndex(6721)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 412 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6722)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6190)), TypeDefinitionIndex(TypeDefinitionIndex(6721)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6190), inst: 412 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6722)) CS Name:
 // ::UnityEngine.InputSystem.Composites::Vector3Composite*
 class CORDL_TYPE Vector3Composite : public ::UnityEngine::InputSystem::InputBindingComposite_1<::UnityEngine::Vector3> {
 public:
@@ -95,67 +95,67 @@ public:
   using Mode = ::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode;
 
   /// @brief Field up, offset 0x10, size 0x4
-  __declspec(property(get = __get_up, put = __set_up)) int32_t up;
+  __declspec(property(get = __cordl_internal_get_up, put = __cordl_internal_set_up)) int32_t up;
 
   /// @brief Field down, offset 0x14, size 0x4
-  __declspec(property(get = __get_down, put = __set_down)) int32_t down;
+  __declspec(property(get = __cordl_internal_get_down, put = __cordl_internal_set_down)) int32_t down;
 
   /// @brief Field left, offset 0x18, size 0x4
-  __declspec(property(get = __get_left, put = __set_left)) int32_t left;
+  __declspec(property(get = __cordl_internal_get_left, put = __cordl_internal_set_left)) int32_t left;
 
   /// @brief Field right, offset 0x1c, size 0x4
-  __declspec(property(get = __get_right, put = __set_right)) int32_t right;
+  __declspec(property(get = __cordl_internal_get_right, put = __cordl_internal_set_right)) int32_t right;
 
   /// @brief Field forward, offset 0x20, size 0x4
-  __declspec(property(get = __get_forward, put = __set_forward)) int32_t forward;
+  __declspec(property(get = __cordl_internal_get_forward, put = __cordl_internal_set_forward)) int32_t forward;
 
   /// @brief Field backward, offset 0x24, size 0x4
-  __declspec(property(get = __get_backward, put = __set_backward)) int32_t backward;
+  __declspec(property(get = __cordl_internal_get_backward, put = __cordl_internal_set_backward)) int32_t backward;
 
   /// @brief Field mode, offset 0x28, size 0x4
-  __declspec(property(get = __get_mode, put = __set_mode))::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode mode;
+  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode))::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode mode;
 
-  constexpr int32_t& __get_up();
+  constexpr int32_t& __cordl_internal_get_up();
 
-  constexpr int32_t const& __get_up() const;
+  constexpr int32_t const& __cordl_internal_get_up() const;
 
-  constexpr void __set_up(int32_t value);
+  constexpr void __cordl_internal_set_up(int32_t value);
 
-  constexpr int32_t& __get_down();
+  constexpr int32_t& __cordl_internal_get_down();
 
-  constexpr int32_t const& __get_down() const;
+  constexpr int32_t const& __cordl_internal_get_down() const;
 
-  constexpr void __set_down(int32_t value);
+  constexpr void __cordl_internal_set_down(int32_t value);
 
-  constexpr int32_t& __get_left();
+  constexpr int32_t& __cordl_internal_get_left();
 
-  constexpr int32_t const& __get_left() const;
+  constexpr int32_t const& __cordl_internal_get_left() const;
 
-  constexpr void __set_left(int32_t value);
+  constexpr void __cordl_internal_set_left(int32_t value);
 
-  constexpr int32_t& __get_right();
+  constexpr int32_t& __cordl_internal_get_right();
 
-  constexpr int32_t const& __get_right() const;
+  constexpr int32_t const& __cordl_internal_get_right() const;
 
-  constexpr void __set_right(int32_t value);
+  constexpr void __cordl_internal_set_right(int32_t value);
 
-  constexpr int32_t& __get_forward();
+  constexpr int32_t& __cordl_internal_get_forward();
 
-  constexpr int32_t const& __get_forward() const;
+  constexpr int32_t const& __cordl_internal_get_forward() const;
 
-  constexpr void __set_forward(int32_t value);
+  constexpr void __cordl_internal_set_forward(int32_t value);
 
-  constexpr int32_t& __get_backward();
+  constexpr int32_t& __cordl_internal_get_backward();
 
-  constexpr int32_t const& __get_backward() const;
+  constexpr int32_t const& __cordl_internal_get_backward() const;
 
-  constexpr void __set_backward(int32_t value);
+  constexpr void __cordl_internal_set_backward(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode& __get_mode();
+  constexpr ::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode& __cordl_internal_get_mode();
 
-  constexpr ::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode const& __get_mode() const;
+  constexpr ::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode const& __cordl_internal_get_mode() const;
 
-  constexpr void __set_mode(::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode value);
+  constexpr void __cordl_internal_set_mode(::UnityEngine::InputSystem::Composites::__Vector3Composite__Mode value);
 
   /// @brief Method ReadValue, addr 0x2a5bc2c, size 0x254, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);

@@ -17,22 +17,22 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSimpleType);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11742))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11742))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11737))
 // CS Name: ::System.Xml.Schema::XmlSchemaSimpleType*
 class CORDL_TYPE XmlSchemaSimpleType : public ::System::Xml::Schema::XmlSchemaType {
 public:
   // Declarations
   /// @brief Field content, offset 0x40, size 0x8
-  __declspec(property(get = __get_content, put = __set_content))::System::Xml::Schema::XmlSchemaSimpleTypeContent* content;
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::System::Xml::Schema::XmlSchemaSimpleTypeContent* content;
 
   __declspec(property(get = get_Content, put = set_Content))::System::Xml::Schema::XmlSchemaSimpleTypeContent* Content;
 
-  constexpr ::System::Xml::Schema::XmlSchemaSimpleTypeContent*& __get_content();
+  constexpr ::System::Xml::Schema::XmlSchemaSimpleTypeContent*& __cordl_internal_get_content();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleTypeContent*> const& __get_content() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleTypeContent*> const& __cordl_internal_get_content() const;
 
-  constexpr void __set_content(::System::Xml::Schema::XmlSchemaSimpleTypeContent* value);
+  constexpr void __cordl_internal_set_content(::System::Xml::Schema::XmlSchemaSimpleTypeContent* value);
 
   static inline ::System::Xml::Schema::XmlSchemaSimpleType* New_ctor();
 

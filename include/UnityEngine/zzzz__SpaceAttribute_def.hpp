@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::UnityEngine::SpaceAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10174))
 // CS Name: ::UnityEngine::SpaceAttribute*
 class CORDL_TYPE SpaceAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   /// @brief Field height, offset 0x10, size 0x4
-  __declspec(property(get = __get_height, put = __set_height)) float_t height;
+  __declspec(property(get = __cordl_internal_get_height, put = __cordl_internal_set_height)) float_t height;
 
-  constexpr float_t& __get_height();
+  constexpr float_t& __cordl_internal_get_height();
 
-  constexpr float_t const& __get_height() const;
+  constexpr float_t const& __cordl_internal_get_height() const;
 
-  constexpr void __set_height(float_t value);
+  constexpr void __cordl_internal_set_height(float_t value);
 
   static inline ::UnityEngine::SpaceAttribute* New_ctor();
 

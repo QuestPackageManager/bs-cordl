@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_TerrainData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9942))
 // CS Name: ::HoudiniEngineUnity::Test_TerrainData*
 class CORDL_TYPE Test_TerrainData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field self, offset 0x10, size 0x8
-  __declspec(property(get = __get_self, put = __set_self))::UnityEngine::TerrainData* self;
+  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self))::UnityW<::UnityEngine::TerrainData> self;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_TerrainData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_TerrainData*>*() noexcept;
@@ -45,11 +45,11 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TerrainData*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TerrainData*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_TerrainData__() noexcept;
 
-  constexpr ::UnityEngine::TerrainData*& __get_self();
+  constexpr ::UnityW<::UnityEngine::TerrainData>& __cordl_internal_get_self();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TerrainData*> const& __get_self() const;
+  constexpr ::UnityW<::UnityEngine::TerrainData> const& __cordl_internal_get_self() const;
 
-  constexpr void __set_self(::UnityEngine::TerrainData* value);
+  constexpr void __cordl_internal_set_self(::UnityW<::UnityEngine::TerrainData> value);
 
   static inline ::HoudiniEngineUnity::Test_TerrainData* New_ctor(::UnityEngine::TerrainData* self);
 
@@ -77,7 +77,7 @@ protected:
 
 public:
   /// @brief Field self, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::TerrainData* ___self;
+  ::UnityW<::UnityEngine::TerrainData> ___self;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

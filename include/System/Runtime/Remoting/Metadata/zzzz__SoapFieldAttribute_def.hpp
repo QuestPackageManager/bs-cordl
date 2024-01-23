@@ -18,31 +18,31 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Metadata::SoapFieldAttribute);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Metadata {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3139))
 // CS Name: ::System.Runtime.Remoting.Metadata::SoapFieldAttribute*
 class CORDL_TYPE SoapFieldAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute {
 public:
   // Declarations
   /// @brief Field _elementName, offset 0x28, size 0x8
-  __declspec(property(get = __get__elementName, put = __set__elementName))::StringW _elementName;
+  __declspec(property(get = __cordl_internal_get__elementName, put = __cordl_internal_set__elementName))::StringW _elementName;
 
   /// @brief Field _isElement, offset 0x30, size 0x1
-  __declspec(property(get = __get__isElement, put = __set__isElement)) bool _isElement;
+  __declspec(property(get = __cordl_internal_get__isElement, put = __cordl_internal_set__isElement)) bool _isElement;
 
   __declspec(property(get = get_XmlElementName))::StringW XmlElementName;
 
-  constexpr ::StringW& __get__elementName();
+  constexpr ::StringW& __cordl_internal_get__elementName();
 
-  constexpr ::StringW const& __get__elementName() const;
+  constexpr ::StringW const& __cordl_internal_get__elementName() const;
 
-  constexpr void __set__elementName(::StringW value);
+  constexpr void __cordl_internal_set__elementName(::StringW value);
 
-  constexpr bool& __get__isElement();
+  constexpr bool& __cordl_internal_get__isElement();
 
-  constexpr bool const& __get__isElement() const;
+  constexpr bool const& __cordl_internal_get__isElement() const;
 
-  constexpr void __set__isElement(bool value);
+  constexpr void __cordl_internal_set__isElement(bool value);
 
   static inline ::System::Runtime::Remoting::Metadata::SoapFieldAttribute* New_ctor();
 

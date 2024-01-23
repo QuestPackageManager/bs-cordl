@@ -16,7 +16,7 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKPriority);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15113))
 // CS Name: ::LIV.SDK.Unity::SDKPriority
 struct CORDL_TYPE SDKPriority {

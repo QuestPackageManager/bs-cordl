@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ConstructionResponse);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3178))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3178))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3162))
 // CS Name: ::System.Runtime.Remoting.Messaging::ConstructionResponse*
 class CORDL_TYPE ConstructionResponse : public ::System::Runtime::Remoting::Messaging::MethodResponse {

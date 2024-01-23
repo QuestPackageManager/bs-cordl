@@ -11,9 +11,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0xe05298;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::BeatmapLightshowSaveData*>::get(),
-                                                                               "get_isEmpty", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_isEmpty", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -25,124 +25,126 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xe05380;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::BeatmapLightshowSaveData*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData*>*& BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__get_basicBeatmapEvents() {
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData*>*&
+BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_get_basicBeatmapEvents() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basicBeatmapEvents;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData*>*> const&
-BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__get_basicBeatmapEvents() const {
+BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_get_basicBeatmapEvents() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basicBeatmapEvents;
 }
-constexpr void
-BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__set_basicBeatmapEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData*>* value) {
+constexpr void BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_set_basicBeatmapEvents(
+    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__BasicEventData*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___basicBeatmapEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData*>*&
-BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__get_colorBoostBeatmapEvents() {
+BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_get_colorBoostBeatmapEvents() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorBoostBeatmapEvents;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData*>*> const&
-BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__get_colorBoostBeatmapEvents() const {
+BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_get_colorBoostBeatmapEvents() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___colorBoostBeatmapEvents;
 }
-constexpr void
-BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__set_colorBoostBeatmapEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData*>* value) {
+constexpr void BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_set_colorBoostBeatmapEvents(
+    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__ColorBoostEventData*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___colorBoostBeatmapEvents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBoxGroup*>*&
-BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__get_lightColorEventBoxGroups() {
+BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_get_lightColorEventBoxGroups() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightColorEventBoxGroups;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBoxGroup*>*> const&
-BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__get_lightColorEventBoxGroups() const {
+BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_get_lightColorEventBoxGroups() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightColorEventBoxGroups;
 }
-constexpr void BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__set_lightColorEventBoxGroups(
+constexpr void BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_set_lightColorEventBoxGroups(
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightColorEventBoxGroup*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lightColorEventBoxGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBoxGroup*>*&
-BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__get_lightRotationEventBoxGroups() {
+BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_get_lightRotationEventBoxGroups() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightRotationEventBoxGroups;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBoxGroup*>*> const&
-BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__get_lightRotationEventBoxGroups() const {
+BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_get_lightRotationEventBoxGroups() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightRotationEventBoxGroups;
 }
-constexpr void BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__set_lightRotationEventBoxGroups(
+constexpr void BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_set_lightRotationEventBoxGroups(
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightRotationEventBoxGroup*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lightRotationEventBoxGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBoxGroup*>*&
-BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__get_lightTranslationEventBoxGroups() {
+BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_get_lightTranslationEventBoxGroups() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightTranslationEventBoxGroups;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBoxGroup*>*> const&
-BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__get_lightTranslationEventBoxGroups() const {
+BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_get_lightTranslationEventBoxGroups() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lightTranslationEventBoxGroups;
 }
-constexpr void BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__set_lightTranslationEventBoxGroups(
+constexpr void BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_set_lightTranslationEventBoxGroups(
     ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__LightTranslationEventBoxGroup*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lightTranslationEventBoxGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup*>*& BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__get_vfxEventBoxGroups() {
+constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup*>*&
+BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_get_vfxEventBoxGroups() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___vfxEventBoxGroups;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup*>*> const&
-BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__get_vfxEventBoxGroups() const {
+BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_get_vfxEventBoxGroups() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___vfxEventBoxGroups;
 }
-constexpr void
-BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__set_vfxEventBoxGroups(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup*>* value) {
+constexpr void BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_set_vfxEventBoxGroups(
+    ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventBoxGroup*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___vfxEventBoxGroups)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection*& BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__get__fxEventsCollection() {
+constexpr ::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection*& BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_get__fxEventsCollection() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fxEventsCollection;
 }
 constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection*> const&
-BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__get__fxEventsCollection() const {
+BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_get__fxEventsCollection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fxEventsCollection;
 }
-constexpr void BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__set__fxEventsCollection(::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection* value) {
+constexpr void BeatmapSaveDataVersion3::BeatmapLightshowSaveData::__cordl_internal_set__fxEventsCollection(::BeatmapSaveDataVersion3::__BeatmapSaveData__FxEventsCollection* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fxEventsCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline bool BeatmapSaveDataVersion3::BeatmapLightshowSaveData::get_isEmpty() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::BeatmapLightshowSaveData*>::get(),
-                                                                             "get_isEmpty", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_isEmpty", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::BeatmapSaveDataVersion3::BeatmapLightshowSaveData* BeatmapSaveDataVersion3::BeatmapLightshowSaveData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::BeatmapSaveDataVersion3::BeatmapLightshowSaveData*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapSaveDataVersion3::BeatmapLightshowSaveData*>());
 }
 inline void BeatmapSaveDataVersion3::BeatmapLightshowSaveData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::BeatmapLightshowSaveData*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -16,38 +16,38 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Error);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13433))
 // CS Name: ::Oculus.Platform.Models::Error*
 class CORDL_TYPE Error : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Code, offset 0x10, size 0x4
-  __declspec(property(get = __get_Code, put = __set_Code)) int32_t Code;
+  __declspec(property(get = __cordl_internal_get_Code, put = __cordl_internal_set_Code)) int32_t Code;
 
   /// @brief Field HttpCode, offset 0x14, size 0x4
-  __declspec(property(get = __get_HttpCode, put = __set_HttpCode)) int32_t HttpCode;
+  __declspec(property(get = __cordl_internal_get_HttpCode, put = __cordl_internal_set_HttpCode)) int32_t HttpCode;
 
   /// @brief Field Message, offset 0x18, size 0x8
-  __declspec(property(get = __get_Message, put = __set_Message))::StringW Message;
+  __declspec(property(get = __cordl_internal_get_Message, put = __cordl_internal_set_Message))::StringW Message;
 
-  constexpr int32_t& __get_Code();
+  constexpr int32_t& __cordl_internal_get_Code();
 
-  constexpr int32_t const& __get_Code() const;
+  constexpr int32_t const& __cordl_internal_get_Code() const;
 
-  constexpr void __set_Code(int32_t value);
+  constexpr void __cordl_internal_set_Code(int32_t value);
 
-  constexpr int32_t& __get_HttpCode();
+  constexpr int32_t& __cordl_internal_get_HttpCode();
 
-  constexpr int32_t const& __get_HttpCode() const;
+  constexpr int32_t const& __cordl_internal_get_HttpCode() const;
 
-  constexpr void __set_HttpCode(int32_t value);
+  constexpr void __cordl_internal_set_HttpCode(int32_t value);
 
-  constexpr ::StringW& __get_Message();
+  constexpr ::StringW& __cordl_internal_get_Message();
 
-  constexpr ::StringW const& __get_Message() const;
+  constexpr ::StringW const& __cordl_internal_get_Message() const;
 
-  constexpr void __set_Message(::StringW value);
+  constexpr void __cordl_internal_set_Message(::StringW value);
 
   static inline ::Oculus::Platform::Models::Error* New_ctor(int32_t code, ::StringW message, int32_t httpCode);
 

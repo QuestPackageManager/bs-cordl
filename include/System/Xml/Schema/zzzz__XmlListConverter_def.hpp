@@ -46,20 +46,20 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlListConverter);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11748))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11748))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11758))
 // CS Name: ::System.Xml.Schema::XmlListConverter*
 class CORDL_TYPE XmlListConverter : public ::System::Xml::Schema::XmlBaseConverter {
 public:
   // Declarations
   /// @brief Field atomicConverter, offset 0x28, size 0x8
-  __declspec(property(get = __get_atomicConverter, put = __set_atomicConverter))::System::Xml::Schema::XmlValueConverter* atomicConverter;
+  __declspec(property(get = __cordl_internal_get_atomicConverter, put = __cordl_internal_set_atomicConverter))::System::Xml::Schema::XmlValueConverter* atomicConverter;
 
-  constexpr ::System::Xml::Schema::XmlValueConverter*& __get_atomicConverter();
+  constexpr ::System::Xml::Schema::XmlValueConverter*& __cordl_internal_get_atomicConverter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlValueConverter*> const& __get_atomicConverter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlValueConverter*> const& __cordl_internal_get_atomicConverter() const;
 
-  constexpr void __set_atomicConverter(::System::Xml::Schema::XmlValueConverter* value);
+  constexpr void __cordl_internal_set_atomicConverter(::System::Xml::Schema::XmlValueConverter* value);
 
   static inline ::System::Xml::Schema::XmlListConverter* New_ctor(::System::Xml::Schema::XmlBaseConverter* atomicConverter);
 

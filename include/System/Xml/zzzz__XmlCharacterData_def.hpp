@@ -18,14 +18,14 @@ MARK_REF_PTR_T(::System::Xml::XmlCharacterData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11513))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11513))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11500))
 // CS Name: ::System.Xml::XmlCharacterData*
 class CORDL_TYPE XmlCharacterData : public ::System::Xml::XmlLinkedNode {
 public:
   // Declarations
   /// @brief Field data, offset 0x20, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::StringW data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::StringW data;
 
   __declspec(property(get = get_Value, put = set_Value))::StringW Value;
 
@@ -33,11 +33,11 @@ public:
 
   __declspec(property(get = get_Data, put = set_Data))::StringW Data;
 
-  constexpr ::StringW& __get_data();
+  constexpr ::StringW& __cordl_internal_get_data();
 
-  constexpr ::StringW const& __get_data() const;
+  constexpr ::StringW const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::StringW value);
+  constexpr void __cordl_internal_set_data(::StringW value);
 
   static inline ::System::Xml::XmlCharacterData* New_ctor(::StringW data, ::System::Xml::XmlDocument* doc);
 

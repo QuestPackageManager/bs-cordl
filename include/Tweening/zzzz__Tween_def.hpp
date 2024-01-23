@@ -22,44 +22,44 @@ MARK_REF_PTR_T(::Tweening::Tween);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16098))
 // CS Name: ::Tweening::Tween*
 class CORDL_TYPE Tween : public ::System::Object {
 public:
   // Declarations
   /// @brief Field onStart, offset 0x10, size 0x8
-  __declspec(property(get = __get_onStart, put = __set_onStart))::System::Action* onStart;
+  __declspec(property(get = __cordl_internal_get_onStart, put = __cordl_internal_set_onStart))::System::Action* onStart;
 
   /// @brief Field onCompleted, offset 0x18, size 0x8
-  __declspec(property(get = __get_onCompleted, put = __set_onCompleted))::System::Action* onCompleted;
+  __declspec(property(get = __cordl_internal_get_onCompleted, put = __cordl_internal_set_onCompleted))::System::Action* onCompleted;
 
   /// @brief Field onKilled, offset 0x20, size 0x8
-  __declspec(property(get = __get_onKilled, put = __set_onKilled))::System::Action* onKilled;
+  __declspec(property(get = __cordl_internal_get_onKilled, put = __cordl_internal_set_onKilled))::System::Action* onKilled;
 
   /// @brief Field _progress, offset 0x28, size 0x4
-  __declspec(property(get = __get__progress, put = __set__progress)) float_t _progress;
+  __declspec(property(get = __cordl_internal_get__progress, put = __cordl_internal_set__progress)) float_t _progress;
 
   /// @brief Field _startTime, offset 0x2c, size 0x4
-  __declspec(property(get = __get__startTime, put = __set__startTime)) float_t _startTime;
+  __declspec(property(get = __cordl_internal_get__startTime, put = __cordl_internal_set__startTime)) float_t _startTime;
 
   /// @brief Field _duration, offset 0x30, size 0x4
-  __declspec(property(get = __get__duration, put = __set__duration)) float_t _duration;
+  __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
 
   /// @brief Field _loop, offset 0x34, size 0x1
-  __declspec(property(get = __get__loop, put = __set__loop)) bool _loop;
+  __declspec(property(get = __cordl_internal_get__loop, put = __cordl_internal_set__loop)) bool _loop;
 
   /// @brief Field _delay, offset 0x38, size 0x4
-  __declspec(property(get = __get__delay, put = __set__delay)) float_t _delay;
+  __declspec(property(get = __cordl_internal_get__delay, put = __cordl_internal_set__delay)) float_t _delay;
 
   /// @brief Field _isStarted, offset 0x3c, size 0x1
-  __declspec(property(get = __get__isStarted, put = __set__isStarted)) bool _isStarted;
+  __declspec(property(get = __cordl_internal_get__isStarted, put = __cordl_internal_set__isStarted)) bool _isStarted;
 
   /// @brief Field _isKilled, offset 0x3d, size 0x1
-  __declspec(property(get = __get__isKilled, put = __set__isKilled)) bool _isKilled;
+  __declspec(property(get = __cordl_internal_get__isKilled, put = __cordl_internal_set__isKilled)) bool _isKilled;
 
   /// @brief Field _easeType, offset 0x40, size 0x4
-  __declspec(property(get = __get__easeType, put = __set__easeType))::GlobalNamespace::EaseType _easeType;
+  __declspec(property(get = __cordl_internal_get__easeType, put = __cordl_internal_set__easeType))::GlobalNamespace::EaseType _easeType;
 
   __declspec(property(get = get_isStarted)) bool isStarted;
 
@@ -81,71 +81,71 @@ public:
 
   __declspec(property(get = get_easeType, put = set_easeType))::GlobalNamespace::EaseType easeType;
 
-  constexpr ::System::Action*& __get_onStart();
+  constexpr ::System::Action*& __cordl_internal_get_onStart();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_onStart() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_onStart() const;
 
-  constexpr void __set_onStart(::System::Action* value);
+  constexpr void __cordl_internal_set_onStart(::System::Action* value);
 
-  constexpr ::System::Action*& __get_onCompleted();
+  constexpr ::System::Action*& __cordl_internal_get_onCompleted();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_onCompleted() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_onCompleted() const;
 
-  constexpr void __set_onCompleted(::System::Action* value);
+  constexpr void __cordl_internal_set_onCompleted(::System::Action* value);
 
-  constexpr ::System::Action*& __get_onKilled();
+  constexpr ::System::Action*& __cordl_internal_get_onKilled();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_onKilled() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_onKilled() const;
 
-  constexpr void __set_onKilled(::System::Action* value);
+  constexpr void __cordl_internal_set_onKilled(::System::Action* value);
 
-  constexpr float_t& __get__progress();
+  constexpr float_t& __cordl_internal_get__progress();
 
-  constexpr float_t const& __get__progress() const;
+  constexpr float_t const& __cordl_internal_get__progress() const;
 
-  constexpr void __set__progress(float_t value);
+  constexpr void __cordl_internal_set__progress(float_t value);
 
-  constexpr float_t& __get__startTime();
+  constexpr float_t& __cordl_internal_get__startTime();
 
-  constexpr float_t const& __get__startTime() const;
+  constexpr float_t const& __cordl_internal_get__startTime() const;
 
-  constexpr void __set__startTime(float_t value);
+  constexpr void __cordl_internal_set__startTime(float_t value);
 
-  constexpr float_t& __get__duration();
+  constexpr float_t& __cordl_internal_get__duration();
 
-  constexpr float_t const& __get__duration() const;
+  constexpr float_t const& __cordl_internal_get__duration() const;
 
-  constexpr void __set__duration(float_t value);
+  constexpr void __cordl_internal_set__duration(float_t value);
 
-  constexpr bool& __get__loop();
+  constexpr bool& __cordl_internal_get__loop();
 
-  constexpr bool const& __get__loop() const;
+  constexpr bool const& __cordl_internal_get__loop() const;
 
-  constexpr void __set__loop(bool value);
+  constexpr void __cordl_internal_set__loop(bool value);
 
-  constexpr float_t& __get__delay();
+  constexpr float_t& __cordl_internal_get__delay();
 
-  constexpr float_t const& __get__delay() const;
+  constexpr float_t const& __cordl_internal_get__delay() const;
 
-  constexpr void __set__delay(float_t value);
+  constexpr void __cordl_internal_set__delay(float_t value);
 
-  constexpr bool& __get__isStarted();
+  constexpr bool& __cordl_internal_get__isStarted();
 
-  constexpr bool const& __get__isStarted() const;
+  constexpr bool const& __cordl_internal_get__isStarted() const;
 
-  constexpr void __set__isStarted(bool value);
+  constexpr void __cordl_internal_set__isStarted(bool value);
 
-  constexpr bool& __get__isKilled();
+  constexpr bool& __cordl_internal_get__isKilled();
 
-  constexpr bool const& __get__isKilled() const;
+  constexpr bool const& __cordl_internal_get__isKilled() const;
 
-  constexpr void __set__isKilled(bool value);
+  constexpr void __cordl_internal_set__isKilled(bool value);
 
-  constexpr ::GlobalNamespace::EaseType& __get__easeType();
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__easeType();
 
-  constexpr ::GlobalNamespace::EaseType const& __get__easeType() const;
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__easeType() const;
 
-  constexpr void __set__easeType(::GlobalNamespace::EaseType value);
+  constexpr void __cordl_internal_set__easeType(::GlobalNamespace::EaseType value);
 
   /// @brief Method get_isStarted, addr 0x2a0e560, size 0x8, virtual false, abstract: false, final false
   inline bool get_isStarted();

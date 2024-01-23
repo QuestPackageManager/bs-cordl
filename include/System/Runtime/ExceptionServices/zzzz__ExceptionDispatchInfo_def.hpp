@@ -20,33 +20,33 @@ MARK_REF_PTR_T(::System::Runtime::ExceptionServices::ExceptionDispatchInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::ExceptionServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3349))
 // CS Name: ::System.Runtime.ExceptionServices::ExceptionDispatchInfo*
 class CORDL_TYPE ExceptionDispatchInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Exception, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Exception, put = __set_m_Exception))::System::Exception* m_Exception;
+  __declspec(property(get = __cordl_internal_get_m_Exception, put = __cordl_internal_set_m_Exception))::System::Exception* m_Exception;
 
   /// @brief Field m_stackTrace, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_stackTrace, put = __set_m_stackTrace))::System::Object* m_stackTrace;
+  __declspec(property(get = __cordl_internal_get_m_stackTrace, put = __cordl_internal_set_m_stackTrace))::System::Object* m_stackTrace;
 
   __declspec(property(get = get_BinaryStackTraceArray))::System::Object* BinaryStackTraceArray;
 
   __declspec(property(get = get_SourceException))::System::Exception* SourceException;
 
-  constexpr ::System::Exception*& __get_m_Exception();
+  constexpr ::System::Exception*& __cordl_internal_get_m_Exception();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __get_m_Exception() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get_m_Exception() const;
 
-  constexpr void __set_m_Exception(::System::Exception* value);
+  constexpr void __cordl_internal_set_m_Exception(::System::Exception* value);
 
-  constexpr ::System::Object*& __get_m_stackTrace();
+  constexpr ::System::Object*& __cordl_internal_get_m_stackTrace();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_stackTrace() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_stackTrace() const;
 
-  constexpr void __set_m_stackTrace(::System::Object* value);
+  constexpr void __cordl_internal_set_m_stackTrace(::System::Object* value);
 
   static inline ::System::Runtime::ExceptionServices::ExceptionDispatchInfo* New_ctor(::System::Exception* exception);
 

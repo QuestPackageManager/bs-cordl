@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_SessionHAPI);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9781))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9781))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9785))
 // CS Name: ::HoudiniEngineUnity::HEU_SessionHAPI*
 class CORDL_TYPE HEU_SessionHAPI : public ::HoudiniEngineUnity::HEU_SessionBase {

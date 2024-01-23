@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::ValidationEventHandler);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11710))
 // CS Name: ::System.Xml.Schema::ValidationEventHandler*
 class CORDL_TYPE ValidationEventHandler : public ::System::MulticastDelegate {

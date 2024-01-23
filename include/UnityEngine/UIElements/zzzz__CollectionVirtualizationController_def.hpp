@@ -31,14 +31,14 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::CollectionVirtualizationController);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7371))
 // CS Name: ::UnityEngine.UIElements::CollectionVirtualizationController*
 class CORDL_TYPE CollectionVirtualizationController : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_ScrollView, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_ScrollView, put = __set_m_ScrollView))::UnityEngine::UIElements::ScrollView* m_ScrollView;
+  __declspec(property(get = __cordl_internal_get_m_ScrollView, put = __cordl_internal_set_m_ScrollView))::UnityEngine::UIElements::ScrollView* m_ScrollView;
 
   __declspec(property(get = get_lastVisibleIndex)) int32_t lastVisibleIndex;
 
@@ -46,11 +46,11 @@ public:
 
   __declspec(property(get = get_activeItems))::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ReusableCollectionItem*>* activeItems;
 
-  constexpr ::UnityEngine::UIElements::ScrollView*& __get_m_ScrollView();
+  constexpr ::UnityEngine::UIElements::ScrollView*& __cordl_internal_get_m_ScrollView();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ScrollView*> const& __get_m_ScrollView() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ScrollView*> const& __cordl_internal_get_m_ScrollView() const;
 
-  constexpr void __set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
+  constexpr void __cordl_internal_set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
 
   /// @brief Method get_lastVisibleIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int32_t get_lastVisibleIndex();

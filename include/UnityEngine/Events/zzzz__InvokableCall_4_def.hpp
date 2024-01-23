@@ -26,20 +26,20 @@ namespace UnityEngine::Events {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10450))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10450))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10455))
 // CS Name: ::UnityEngine.Events::InvokableCall`4<T1,T2,T3,T4>*
 class CORDL_TYPE InvokableCall_4 : public ::UnityEngine::Events::BaseInvokableCall {
 public:
   // Declarations
   /// @brief Field Delegate, offset 0x10, size 0x8
-  __declspec(property(get = __get_Delegate, put = __set_Delegate))::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>* Delegate;
+  __declspec(property(get = __cordl_internal_get_Delegate, put = __cordl_internal_set_Delegate))::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>* Delegate;
 
-  constexpr ::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>*& __get_Delegate();
+  constexpr ::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>*& __cordl_internal_get_Delegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>*> const& __get_Delegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>*> const& __cordl_internal_get_Delegate() const;
 
-  constexpr void __set_Delegate(::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>* value);
+  constexpr void __cordl_internal_set_Delegate(::UnityEngine::Events::UnityAction_4<T1, T2, T3, T4>* value);
 
   static inline ::UnityEngine::Events::InvokableCall_4<T1, T2, T3, T4>* New_ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 

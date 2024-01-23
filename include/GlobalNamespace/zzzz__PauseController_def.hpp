@@ -59,20 +59,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__PauseController____c__DisplayClass25_0);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5063))
 // CS Name: ::PauseController::InitData*
 class CORDL_TYPE __PauseController__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field startPaused, offset 0x10, size 0x1
-  __declspec(property(get = __get_startPaused, put = __set_startPaused)) bool startPaused;
+  __declspec(property(get = __cordl_internal_get_startPaused, put = __cordl_internal_set_startPaused)) bool startPaused;
 
-  constexpr bool& __get_startPaused();
+  constexpr bool& __cordl_internal_get_startPaused();
 
-  constexpr bool const& __get_startPaused() const;
+  constexpr bool const& __cordl_internal_get_startPaused() const;
 
-  constexpr void __set_startPaused(bool value);
+  constexpr void __cordl_internal_set_startPaused(bool value);
 
   static inline ::GlobalNamespace::__PauseController__InitData* New_ctor(bool startPaused);
 
@@ -108,20 +108,20 @@ static_assert(offsetof(::GlobalNamespace::__PauseController__InitData, ___startP
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5064))
 // CS Name: ::PauseController::<>c__DisplayClass25_0*
 class CORDL_TYPE __PauseController____c__DisplayClass25_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field value, offset 0x10, size 0x1
-  __declspec(property(get = __get_value, put = __set_value)) bool value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) bool value;
 
-  constexpr bool& __get_value();
+  constexpr bool& __cordl_internal_get_value();
 
-  constexpr bool const& __get_value() const;
+  constexpr bool const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(bool value);
+  constexpr void __cordl_internal_set_value(bool value);
 
   static inline ::GlobalNamespace::__PauseController____c__DisplayClass25_0* New_ctor();
 
@@ -160,7 +160,7 @@ static_assert(offsetof(::GlobalNamespace::__PauseController____c__DisplayClass25
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 130, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5065))
 // CS Name: ::PauseController*
 class CORDL_TYPE PauseController : public ::UnityEngine::MonoBehaviour {
@@ -171,143 +171,143 @@ public:
   using InitData = ::GlobalNamespace::__PauseController__InitData;
 
   /// @brief Field _pauseMenuManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__pauseMenuManager, put = __set__pauseMenuManager))::GlobalNamespace::PauseMenuManager* _pauseMenuManager;
+  __declspec(property(get = __cordl_internal_get__pauseMenuManager, put = __cordl_internal_set__pauseMenuManager))::UnityW<::GlobalNamespace::PauseMenuManager> _pauseMenuManager;
 
   /// @brief Field _gamePause, offset 0x20, size 0x8
-  __declspec(property(get = __get__gamePause, put = __set__gamePause))::GlobalNamespace::IGamePause* _gamePause;
+  __declspec(property(get = __cordl_internal_get__gamePause, put = __cordl_internal_set__gamePause))::GlobalNamespace::IGamePause* _gamePause;
 
   /// @brief Field _menuButtonTrigger, offset 0x28, size 0x8
-  __declspec(property(get = __get__menuButtonTrigger, put = __set__menuButtonTrigger))::GlobalNamespace::IMenuButtonTrigger* _menuButtonTrigger;
+  __declspec(property(get = __cordl_internal_get__menuButtonTrigger, put = __cordl_internal_set__menuButtonTrigger))::GlobalNamespace::IMenuButtonTrigger* _menuButtonTrigger;
 
   /// @brief Field _beatmapObjectManager, offset 0x30, size 0x8
-  __declspec(property(get = __get__beatmapObjectManager, put = __set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
   /// @brief Field _levelRestartController, offset 0x38, size 0x8
-  __declspec(property(get = __get__levelRestartController, put = __set__levelRestartController))::GlobalNamespace::ILevelRestartController* _levelRestartController;
+  __declspec(property(get = __cordl_internal_get__levelRestartController, put = __cordl_internal_set__levelRestartController))::GlobalNamespace::ILevelRestartController* _levelRestartController;
 
   /// @brief Field _returnToMenuController, offset 0x40, size 0x8
-  __declspec(property(get = __get__returnToMenuController, put = __set__returnToMenuController))::GlobalNamespace::IReturnToMenuController* _returnToMenuController;
+  __declspec(property(get = __cordl_internal_get__returnToMenuController, put = __cordl_internal_set__returnToMenuController))::GlobalNamespace::IReturnToMenuController* _returnToMenuController;
 
   /// @brief Field _vrPlatformHelper, offset 0x48, size 0x8
-  __declspec(property(get = __get__vrPlatformHelper, put = __set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
   /// @brief Field _levelStartController, offset 0x50, size 0x8
-  __declspec(property(get = __get__levelStartController, put = __set__levelStartController))::GlobalNamespace::ILevelStartController* _levelStartController;
+  __declspec(property(get = __cordl_internal_get__levelStartController, put = __cordl_internal_set__levelStartController))::GlobalNamespace::ILevelStartController* _levelStartController;
 
   /// @brief Field _initData, offset 0x58, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__PauseController__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__PauseController__InitData* _initData;
 
   /// @brief Field didPauseEvent, offset 0x60, size 0x8
-  __declspec(property(get = __get_didPauseEvent, put = __set_didPauseEvent))::System::Action* didPauseEvent;
+  __declspec(property(get = __cordl_internal_get_didPauseEvent, put = __cordl_internal_set_didPauseEvent))::System::Action* didPauseEvent;
 
   /// @brief Field didResumeEvent, offset 0x68, size 0x8
-  __declspec(property(get = __get_didResumeEvent, put = __set_didResumeEvent))::System::Action* didResumeEvent;
+  __declspec(property(get = __cordl_internal_get_didResumeEvent, put = __cordl_internal_set_didResumeEvent))::System::Action* didResumeEvent;
 
   /// @brief Field canPauseEvent, offset 0x70, size 0x8
-  __declspec(property(get = __get_canPauseEvent, put = __set_canPauseEvent))::System::Action_1<::System::Action_1<bool>*>* canPauseEvent;
+  __declspec(property(get = __cordl_internal_get_canPauseEvent, put = __cordl_internal_set_canPauseEvent))::System::Action_1<::System::Action_1<bool>*>* canPauseEvent;
 
   /// @brief Field didReturnToMenuEvent, offset 0x78, size 0x8
-  __declspec(property(get = __get_didReturnToMenuEvent, put = __set_didReturnToMenuEvent))::System::Action* didReturnToMenuEvent;
+  __declspec(property(get = __cordl_internal_get_didReturnToMenuEvent, put = __cordl_internal_set_didReturnToMenuEvent))::System::Action* didReturnToMenuEvent;
 
   /// @brief Field _wantsToPause, offset 0x80, size 0x1
-  __declspec(property(get = __get__wantsToPause, put = __set__wantsToPause)) bool _wantsToPause;
+  __declspec(property(get = __cordl_internal_get__wantsToPause, put = __cordl_internal_set__wantsToPause)) bool _wantsToPause;
 
   /// @brief Field _paused, offset 0x81, size 0x1
-  __declspec(property(get = __get__paused, put = __set__paused)) bool _paused;
+  __declspec(property(get = __cordl_internal_get__paused, put = __cordl_internal_set__paused)) bool _paused;
 
   __declspec(property(get = get_wantsToPause)) bool wantsToPause;
 
   __declspec(property(get = get_canPause)) bool canPause;
 
-  constexpr ::GlobalNamespace::PauseMenuManager*& __get__pauseMenuManager();
+  constexpr ::UnityW<::GlobalNamespace::PauseMenuManager>& __cordl_internal_get__pauseMenuManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PauseMenuManager*> const& __get__pauseMenuManager() const;
+  constexpr ::UnityW<::GlobalNamespace::PauseMenuManager> const& __cordl_internal_get__pauseMenuManager() const;
 
-  constexpr void __set__pauseMenuManager(::GlobalNamespace::PauseMenuManager* value);
+  constexpr void __cordl_internal_set__pauseMenuManager(::UnityW<::GlobalNamespace::PauseMenuManager> value);
 
-  constexpr ::GlobalNamespace::IGamePause*& __get__gamePause();
+  constexpr ::GlobalNamespace::IGamePause*& __cordl_internal_get__gamePause();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __get__gamePause() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __cordl_internal_get__gamePause() const;
 
-  constexpr void __set__gamePause(::GlobalNamespace::IGamePause* value);
+  constexpr void __cordl_internal_set__gamePause(::GlobalNamespace::IGamePause* value);
 
-  constexpr ::GlobalNamespace::IMenuButtonTrigger*& __get__menuButtonTrigger();
+  constexpr ::GlobalNamespace::IMenuButtonTrigger*& __cordl_internal_get__menuButtonTrigger();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMenuButtonTrigger*> const& __get__menuButtonTrigger() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMenuButtonTrigger*> const& __cordl_internal_get__menuButtonTrigger() const;
 
-  constexpr void __set__menuButtonTrigger(::GlobalNamespace::IMenuButtonTrigger* value);
+  constexpr void __cordl_internal_set__menuButtonTrigger(::GlobalNamespace::IMenuButtonTrigger* value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __get__beatmapObjectManager();
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __get__beatmapObjectManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  constexpr ::GlobalNamespace::ILevelRestartController*& __get__levelRestartController();
+  constexpr ::GlobalNamespace::ILevelRestartController*& __cordl_internal_get__levelRestartController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelRestartController*> const& __get__levelRestartController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelRestartController*> const& __cordl_internal_get__levelRestartController() const;
 
-  constexpr void __set__levelRestartController(::GlobalNamespace::ILevelRestartController* value);
+  constexpr void __cordl_internal_set__levelRestartController(::GlobalNamespace::ILevelRestartController* value);
 
-  constexpr ::GlobalNamespace::IReturnToMenuController*& __get__returnToMenuController();
+  constexpr ::GlobalNamespace::IReturnToMenuController*& __cordl_internal_get__returnToMenuController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReturnToMenuController*> const& __get__returnToMenuController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReturnToMenuController*> const& __cordl_internal_get__returnToMenuController() const;
 
-  constexpr void __set__returnToMenuController(::GlobalNamespace::IReturnToMenuController* value);
+  constexpr void __cordl_internal_set__returnToMenuController(::GlobalNamespace::IReturnToMenuController* value);
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper*& __get__vrPlatformHelper();
+  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __get__vrPlatformHelper() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
 
-  constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  constexpr ::GlobalNamespace::ILevelStartController*& __get__levelStartController();
+  constexpr ::GlobalNamespace::ILevelStartController*& __cordl_internal_get__levelStartController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelStartController*> const& __get__levelStartController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelStartController*> const& __cordl_internal_get__levelStartController() const;
 
-  constexpr void __set__levelStartController(::GlobalNamespace::ILevelStartController* value);
+  constexpr void __cordl_internal_set__levelStartController(::GlobalNamespace::ILevelStartController* value);
 
-  constexpr ::GlobalNamespace::__PauseController__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__PauseController__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PauseController__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PauseController__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__PauseController__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__PauseController__InitData* value);
 
-  constexpr ::System::Action*& __get_didPauseEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didPauseEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didPauseEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPauseEvent() const;
 
-  constexpr void __set_didPauseEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didPauseEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_didResumeEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didResumeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didResumeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didResumeEvent() const;
 
-  constexpr void __set_didResumeEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didResumeEvent(::System::Action* value);
 
-  constexpr ::System::Action_1<::System::Action_1<bool>*>*& __get_canPauseEvent();
+  constexpr ::System::Action_1<::System::Action_1<bool>*>*& __cordl_internal_get_canPauseEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Action_1<bool>*>*> const& __get_canPauseEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Action_1<bool>*>*> const& __cordl_internal_get_canPauseEvent() const;
 
-  constexpr void __set_canPauseEvent(::System::Action_1<::System::Action_1<bool>*>* value);
+  constexpr void __cordl_internal_set_canPauseEvent(::System::Action_1<::System::Action_1<bool>*>* value);
 
-  constexpr ::System::Action*& __get_didReturnToMenuEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didReturnToMenuEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didReturnToMenuEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didReturnToMenuEvent() const;
 
-  constexpr void __set_didReturnToMenuEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didReturnToMenuEvent(::System::Action* value);
 
-  constexpr bool& __get__wantsToPause();
+  constexpr bool& __cordl_internal_get__wantsToPause();
 
-  constexpr bool const& __get__wantsToPause() const;
+  constexpr bool const& __cordl_internal_get__wantsToPause() const;
 
-  constexpr void __set__wantsToPause(bool value);
+  constexpr void __cordl_internal_set__wantsToPause(bool value);
 
-  constexpr bool& __get__paused();
+  constexpr bool& __cordl_internal_get__paused();
 
-  constexpr bool const& __get__paused() const;
+  constexpr bool const& __cordl_internal_get__paused() const;
 
-  constexpr void __set__paused(bool value);
+  constexpr void __cordl_internal_set__paused(bool value);
 
   /// @brief Method add_didPauseEvent, addr 0x23bca34, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPauseEvent(::System::Action* value);
@@ -407,7 +407,7 @@ protected:
 
 public:
   /// @brief Field _pauseMenuManager, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::PauseMenuManager* ____pauseMenuManager;
+  ::UnityW<::GlobalNamespace::PauseMenuManager> ____pauseMenuManager;
 
   /// @brief Field _gamePause, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____gamePause;

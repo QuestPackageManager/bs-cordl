@@ -22,7 +22,7 @@ MARK_VAL_T(::TMPro::TMP_GlyphAdjustmentRecord);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12372))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12372))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12373))
 // CS Name: ::TMPro::TMP_GlyphAdjustmentRecord
 struct CORDL_TYPE TMP_GlyphAdjustmentRecord {

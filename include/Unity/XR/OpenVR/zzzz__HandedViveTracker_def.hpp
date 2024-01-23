@@ -20,26 +20,30 @@ MARK_REF_PTR_T(::Unity::XR::OpenVR::HandedViveTracker);
 // SizeInfo { instance_size: 432, native_size: -1, calculated_instance_size: 432, calculated_native_size: 432, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6119))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6119))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6120))
 // CS Name: ::Unity.XR.OpenVR::HandedViveTracker*
 class CORDL_TYPE HandedViveTracker : public ::Unity::XR::OpenVR::ViveTracker {
 public:
   // Declarations
   /// @brief Field <grip>k__BackingField, offset 0x188, size 0x8
-  __declspec(property(get = __get__grip_k__BackingField, put = __set__grip_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _grip_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__grip_k__BackingField, put = __cordl_internal_set__grip_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _grip_k__BackingField;
 
   /// @brief Field <gripPressed>k__BackingField, offset 0x190, size 0x8
-  __declspec(property(get = __get__gripPressed_k__BackingField, put = __set__gripPressed_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _gripPressed_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__gripPressed_k__BackingField,
+                      put = __cordl_internal_set__gripPressed_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _gripPressed_k__BackingField;
 
   /// @brief Field <primary>k__BackingField, offset 0x198, size 0x8
-  __declspec(property(get = __get__primary_k__BackingField, put = __set__primary_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _primary_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__primary_k__BackingField,
+                      put = __cordl_internal_set__primary_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _primary_k__BackingField;
 
   /// @brief Field <trackpadPressed>k__BackingField, offset 0x1a0, size 0x8
-  __declspec(property(get = __get__trackpadPressed_k__BackingField, put = __set__trackpadPressed_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _trackpadPressed_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__trackpadPressed_k__BackingField,
+                      put = __cordl_internal_set__trackpadPressed_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _trackpadPressed_k__BackingField;
 
   /// @brief Field <triggerPressed>k__BackingField, offset 0x1a8, size 0x8
-  __declspec(property(get = __get__triggerPressed_k__BackingField, put = __set__triggerPressed_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _triggerPressed_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__triggerPressed_k__BackingField,
+                      put = __cordl_internal_set__triggerPressed_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _triggerPressed_k__BackingField;
 
   __declspec(property(get = get_grip, put = set_grip))::UnityEngine::InputSystem::Controls::AxisControl* grip;
 
@@ -51,35 +55,35 @@ public:
 
   __declspec(property(get = get_triggerPressed, put = set_triggerPressed))::UnityEngine::InputSystem::Controls::ButtonControl* triggerPressed;
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __get__grip_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__grip_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __get__grip_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__grip_k__BackingField() const;
 
-  constexpr void __set__grip_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+  constexpr void __cordl_internal_set__grip_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__gripPressed_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__gripPressed_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__gripPressed_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__gripPressed_k__BackingField() const;
 
-  constexpr void __set__gripPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__gripPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__primary_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__primary_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__primary_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__primary_k__BackingField() const;
 
-  constexpr void __set__primary_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__primary_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__trackpadPressed_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__trackpadPressed_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__trackpadPressed_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__trackpadPressed_k__BackingField() const;
 
-  constexpr void __set__trackpadPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__trackpadPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__triggerPressed_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__triggerPressed_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__triggerPressed_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__triggerPressed_k__BackingField() const;
 
-  constexpr void __set__triggerPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__triggerPressed_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// @brief Method get_grip, addr 0x2a34690, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_grip();

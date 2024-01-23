@@ -23,29 +23,31 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingToolSettingsNoTransitionInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11176))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11176))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6041))
 // CS Name: ::RecordingToolSettingsNoTransitionInstaller*
 class CORDL_TYPE RecordingToolSettingsNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
   // Declarations
   /// @brief Field _recordingToolSceneSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __get__recordingToolSceneSetupData, put = __set__recordingToolSceneSetupData))::GlobalNamespace::RecordingToolSceneSetupData* _recordingToolSceneSetupData;
+  __declspec(property(get = __cordl_internal_get__recordingToolSceneSetupData,
+                      put = __cordl_internal_set__recordingToolSceneSetupData))::GlobalNamespace::RecordingToolSceneSetupData* _recordingToolSceneSetupData;
 
   /// @brief Field _scenesTransitionSetupData, offset 0x20, size 0x8
-  __declspec(property(get = __get__scenesTransitionSetupData, put = __set__scenesTransitionSetupData))::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO* _scenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get__scenesTransitionSetupData,
+                      put = __cordl_internal_set__scenesTransitionSetupData))::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO> _scenesTransitionSetupData;
 
-  constexpr ::GlobalNamespace::RecordingToolSceneSetupData*& __get__recordingToolSceneSetupData();
+  constexpr ::GlobalNamespace::RecordingToolSceneSetupData*& __cordl_internal_get__recordingToolSceneSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolSceneSetupData*> const& __get__recordingToolSceneSetupData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolSceneSetupData*> const& __cordl_internal_get__recordingToolSceneSetupData() const;
 
-  constexpr void __set__recordingToolSceneSetupData(::GlobalNamespace::RecordingToolSceneSetupData* value);
+  constexpr void __cordl_internal_set__recordingToolSceneSetupData(::GlobalNamespace::RecordingToolSceneSetupData* value);
 
-  constexpr ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO*& __get__scenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO>& __cordl_internal_get__scenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO*> const& __get__scenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO> const& __cordl_internal_get__scenesTransitionSetupData() const;
 
-  constexpr void __set__scenesTransitionSetupData(::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO> value);
 
   /// @brief Method InstallBindings, addr 0x231b6f8, size 0x44, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
@@ -73,7 +75,7 @@ public:
   ::GlobalNamespace::RecordingToolSceneSetupData* ____recordingToolSceneSetupData;
 
   /// @brief Field _scenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO* ____scenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO> ____scenesTransitionSetupData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

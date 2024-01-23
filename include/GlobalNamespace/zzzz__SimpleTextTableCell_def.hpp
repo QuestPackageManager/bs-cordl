@@ -18,22 +18,22 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleTextTableCell);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13664))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13500))
 // CS Name: ::SimpleTextTableCell*
 class CORDL_TYPE SimpleTextTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
   /// @brief Field _text, offset 0x58, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::TMPro::TextMeshProUGUI* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__text();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__text() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
   /// @brief Method set_text, addr 0x21161c4, size 0x24, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
@@ -61,7 +61,7 @@ protected:
 
 public:
   /// @brief Field _text, offset: 0x58, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____text;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

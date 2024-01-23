@@ -17,40 +17,40 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ReusableListViewItem);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7372))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7372))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7368))
 // CS Name: ::UnityEngine.UIElements::ReusableListViewItem*
 class CORDL_TYPE ReusableListViewItem : public ::UnityEngine::UIElements::ReusableCollectionItem {
 public:
   // Declarations
   /// @brief Field m_Container, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_Container, put = __set_m_Container))::UnityEngine::UIElements::VisualElement* m_Container;
+  __declspec(property(get = __cordl_internal_get_m_Container, put = __cordl_internal_set_m_Container))::UnityEngine::UIElements::VisualElement* m_Container;
 
   /// @brief Field m_DragHandle, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_DragHandle, put = __set_m_DragHandle))::UnityEngine::UIElements::VisualElement* m_DragHandle;
+  __declspec(property(get = __cordl_internal_get_m_DragHandle, put = __cordl_internal_set_m_DragHandle))::UnityEngine::UIElements::VisualElement* m_DragHandle;
 
   /// @brief Field m_ItemContainer, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_ItemContainer, put = __set_m_ItemContainer))::UnityEngine::UIElements::VisualElement* m_ItemContainer;
+  __declspec(property(get = __cordl_internal_get_m_ItemContainer, put = __cordl_internal_set_m_ItemContainer))::UnityEngine::UIElements::VisualElement* m_ItemContainer;
 
   __declspec(property(get = get_rootElement))::UnityEngine::UIElements::VisualElement* rootElement;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_Container();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Container();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_Container() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Container() const;
 
-  constexpr void __set_m_Container(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_Container(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_DragHandle();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_DragHandle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_DragHandle() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_DragHandle() const;
 
-  constexpr void __set_m_DragHandle(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_DragHandle(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_ItemContainer();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_ItemContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_ItemContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_ItemContainer() const;
 
-  constexpr void __set_m_ItemContainer(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_ItemContainer(::UnityEngine::UIElements::VisualElement* value);
 
   /// @brief Method get_rootElement, addr 0x2e875b0, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();

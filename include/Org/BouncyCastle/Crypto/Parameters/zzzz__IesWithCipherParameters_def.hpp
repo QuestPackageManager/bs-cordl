@@ -16,22 +16,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters)
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1058))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1058))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1059))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::IesWithCipherParameters*
 class CORDL_TYPE IesWithCipherParameters : public ::Org::BouncyCastle::Crypto::Parameters::IesParameters {
 public:
   // Declarations
   /// @brief Field cipherKeySize, offset 0x24, size 0x4
-  __declspec(property(get = __get_cipherKeySize, put = __set_cipherKeySize)) int32_t cipherKeySize;
+  __declspec(property(get = __cordl_internal_get_cipherKeySize, put = __cordl_internal_set_cipherKeySize)) int32_t cipherKeySize;
 
   __declspec(property(get = get_CipherKeySize)) int32_t CipherKeySize;
 
-  constexpr int32_t& __get_cipherKeySize();
+  constexpr int32_t& __cordl_internal_get_cipherKeySize();
 
-  constexpr int32_t const& __get_cipherKeySize() const;
+  constexpr int32_t const& __cordl_internal_get_cipherKeySize() const;
 
-  constexpr void __set_cipherKeySize(int32_t value);
+  constexpr void __cordl_internal_set_cipherKeySize(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::IesWithCipherParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> derivation, ::ArrayW<uint8_t, ::Array<uint8_t>*> encoding,
                                                                                            int32_t macKeySize, int32_t cipherKeySize);

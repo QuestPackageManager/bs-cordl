@@ -43,8 +43,8 @@ namespace System::Numerics {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3551)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3553), inst: 5347 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3553))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3553)) CS Name: ::System.Numerics::Vector`1<T>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3551)), TypeDefinitionIndex(TypeDefinitionIndex(3553)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3553), inst: 5347
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3553)) CS Name: ::System.Numerics::Vector`1<T>
 struct CORDL_TYPE Vector_1 {
 public:
   // Declarations
@@ -175,7 +175,7 @@ namespace System::Numerics {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3553)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3553), inst: 5348 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3553)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3553), inst: 5348 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3552))
 // CS Name: ::Vector`1::VectorSizeHelper<T>
 struct CORDL_TYPE __Vector_1__VectorSizeHelper {

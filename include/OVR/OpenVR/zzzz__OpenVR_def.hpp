@@ -69,128 +69,128 @@ MARK_REF_PTR_T(::OVR::OpenVR::__OpenVR__COpenVRContext);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8728))
 // CS Name: ::OpenVR::COpenVRContext*
 class CORDL_TYPE __OpenVR__COpenVRContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_pVRSystem, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_pVRSystem, put = __set_m_pVRSystem))::OVR::OpenVR::CVRSystem* m_pVRSystem;
+  __declspec(property(get = __cordl_internal_get_m_pVRSystem, put = __cordl_internal_set_m_pVRSystem))::OVR::OpenVR::CVRSystem* m_pVRSystem;
 
   /// @brief Field m_pVRChaperone, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_pVRChaperone, put = __set_m_pVRChaperone))::OVR::OpenVR::CVRChaperone* m_pVRChaperone;
+  __declspec(property(get = __cordl_internal_get_m_pVRChaperone, put = __cordl_internal_set_m_pVRChaperone))::OVR::OpenVR::CVRChaperone* m_pVRChaperone;
 
   /// @brief Field m_pVRChaperoneSetup, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_pVRChaperoneSetup, put = __set_m_pVRChaperoneSetup))::OVR::OpenVR::CVRChaperoneSetup* m_pVRChaperoneSetup;
+  __declspec(property(get = __cordl_internal_get_m_pVRChaperoneSetup, put = __cordl_internal_set_m_pVRChaperoneSetup))::OVR::OpenVR::CVRChaperoneSetup* m_pVRChaperoneSetup;
 
   /// @brief Field m_pVRCompositor, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_pVRCompositor, put = __set_m_pVRCompositor))::OVR::OpenVR::CVRCompositor* m_pVRCompositor;
+  __declspec(property(get = __cordl_internal_get_m_pVRCompositor, put = __cordl_internal_set_m_pVRCompositor))::OVR::OpenVR::CVRCompositor* m_pVRCompositor;
 
   /// @brief Field m_pVROverlay, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_pVROverlay, put = __set_m_pVROverlay))::OVR::OpenVR::CVROverlay* m_pVROverlay;
+  __declspec(property(get = __cordl_internal_get_m_pVROverlay, put = __cordl_internal_set_m_pVROverlay))::OVR::OpenVR::CVROverlay* m_pVROverlay;
 
   /// @brief Field m_pVRRenderModels, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_pVRRenderModels, put = __set_m_pVRRenderModels))::OVR::OpenVR::CVRRenderModels* m_pVRRenderModels;
+  __declspec(property(get = __cordl_internal_get_m_pVRRenderModels, put = __cordl_internal_set_m_pVRRenderModels))::OVR::OpenVR::CVRRenderModels* m_pVRRenderModels;
 
   /// @brief Field m_pVRExtendedDisplay, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_pVRExtendedDisplay, put = __set_m_pVRExtendedDisplay))::OVR::OpenVR::CVRExtendedDisplay* m_pVRExtendedDisplay;
+  __declspec(property(get = __cordl_internal_get_m_pVRExtendedDisplay, put = __cordl_internal_set_m_pVRExtendedDisplay))::OVR::OpenVR::CVRExtendedDisplay* m_pVRExtendedDisplay;
 
   /// @brief Field m_pVRSettings, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_pVRSettings, put = __set_m_pVRSettings))::OVR::OpenVR::CVRSettings* m_pVRSettings;
+  __declspec(property(get = __cordl_internal_get_m_pVRSettings, put = __cordl_internal_set_m_pVRSettings))::OVR::OpenVR::CVRSettings* m_pVRSettings;
 
   /// @brief Field m_pVRApplications, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_pVRApplications, put = __set_m_pVRApplications))::OVR::OpenVR::CVRApplications* m_pVRApplications;
+  __declspec(property(get = __cordl_internal_get_m_pVRApplications, put = __cordl_internal_set_m_pVRApplications))::OVR::OpenVR::CVRApplications* m_pVRApplications;
 
   /// @brief Field m_pVRScreenshots, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_pVRScreenshots, put = __set_m_pVRScreenshots))::OVR::OpenVR::CVRScreenshots* m_pVRScreenshots;
+  __declspec(property(get = __cordl_internal_get_m_pVRScreenshots, put = __cordl_internal_set_m_pVRScreenshots))::OVR::OpenVR::CVRScreenshots* m_pVRScreenshots;
 
   /// @brief Field m_pVRTrackedCamera, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_pVRTrackedCamera, put = __set_m_pVRTrackedCamera))::OVR::OpenVR::CVRTrackedCamera* m_pVRTrackedCamera;
+  __declspec(property(get = __cordl_internal_get_m_pVRTrackedCamera, put = __cordl_internal_set_m_pVRTrackedCamera))::OVR::OpenVR::CVRTrackedCamera* m_pVRTrackedCamera;
 
   /// @brief Field m_pVRInput, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_pVRInput, put = __set_m_pVRInput))::OVR::OpenVR::CVRInput* m_pVRInput;
+  __declspec(property(get = __cordl_internal_get_m_pVRInput, put = __cordl_internal_set_m_pVRInput))::OVR::OpenVR::CVRInput* m_pVRInput;
 
   /// @brief Field m_pVRSpatialAnchors, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_pVRSpatialAnchors, put = __set_m_pVRSpatialAnchors))::OVR::OpenVR::CVRSpatialAnchors* m_pVRSpatialAnchors;
+  __declspec(property(get = __cordl_internal_get_m_pVRSpatialAnchors, put = __cordl_internal_set_m_pVRSpatialAnchors))::OVR::OpenVR::CVRSpatialAnchors* m_pVRSpatialAnchors;
 
-  constexpr ::OVR::OpenVR::CVRSystem*& __get_m_pVRSystem();
+  constexpr ::OVR::OpenVR::CVRSystem*& __cordl_internal_get_m_pVRSystem();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRSystem*> const& __get_m_pVRSystem() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRSystem*> const& __cordl_internal_get_m_pVRSystem() const;
 
-  constexpr void __set_m_pVRSystem(::OVR::OpenVR::CVRSystem* value);
+  constexpr void __cordl_internal_set_m_pVRSystem(::OVR::OpenVR::CVRSystem* value);
 
-  constexpr ::OVR::OpenVR::CVRChaperone*& __get_m_pVRChaperone();
+  constexpr ::OVR::OpenVR::CVRChaperone*& __cordl_internal_get_m_pVRChaperone();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRChaperone*> const& __get_m_pVRChaperone() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRChaperone*> const& __cordl_internal_get_m_pVRChaperone() const;
 
-  constexpr void __set_m_pVRChaperone(::OVR::OpenVR::CVRChaperone* value);
+  constexpr void __cordl_internal_set_m_pVRChaperone(::OVR::OpenVR::CVRChaperone* value);
 
-  constexpr ::OVR::OpenVR::CVRChaperoneSetup*& __get_m_pVRChaperoneSetup();
+  constexpr ::OVR::OpenVR::CVRChaperoneSetup*& __cordl_internal_get_m_pVRChaperoneSetup();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRChaperoneSetup*> const& __get_m_pVRChaperoneSetup() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRChaperoneSetup*> const& __cordl_internal_get_m_pVRChaperoneSetup() const;
 
-  constexpr void __set_m_pVRChaperoneSetup(::OVR::OpenVR::CVRChaperoneSetup* value);
+  constexpr void __cordl_internal_set_m_pVRChaperoneSetup(::OVR::OpenVR::CVRChaperoneSetup* value);
 
-  constexpr ::OVR::OpenVR::CVRCompositor*& __get_m_pVRCompositor();
+  constexpr ::OVR::OpenVR::CVRCompositor*& __cordl_internal_get_m_pVRCompositor();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRCompositor*> const& __get_m_pVRCompositor() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRCompositor*> const& __cordl_internal_get_m_pVRCompositor() const;
 
-  constexpr void __set_m_pVRCompositor(::OVR::OpenVR::CVRCompositor* value);
+  constexpr void __cordl_internal_set_m_pVRCompositor(::OVR::OpenVR::CVRCompositor* value);
 
-  constexpr ::OVR::OpenVR::CVROverlay*& __get_m_pVROverlay();
+  constexpr ::OVR::OpenVR::CVROverlay*& __cordl_internal_get_m_pVROverlay();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVROverlay*> const& __get_m_pVROverlay() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVROverlay*> const& __cordl_internal_get_m_pVROverlay() const;
 
-  constexpr void __set_m_pVROverlay(::OVR::OpenVR::CVROverlay* value);
+  constexpr void __cordl_internal_set_m_pVROverlay(::OVR::OpenVR::CVROverlay* value);
 
-  constexpr ::OVR::OpenVR::CVRRenderModels*& __get_m_pVRRenderModels();
+  constexpr ::OVR::OpenVR::CVRRenderModels*& __cordl_internal_get_m_pVRRenderModels();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRRenderModels*> const& __get_m_pVRRenderModels() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRRenderModels*> const& __cordl_internal_get_m_pVRRenderModels() const;
 
-  constexpr void __set_m_pVRRenderModels(::OVR::OpenVR::CVRRenderModels* value);
+  constexpr void __cordl_internal_set_m_pVRRenderModels(::OVR::OpenVR::CVRRenderModels* value);
 
-  constexpr ::OVR::OpenVR::CVRExtendedDisplay*& __get_m_pVRExtendedDisplay();
+  constexpr ::OVR::OpenVR::CVRExtendedDisplay*& __cordl_internal_get_m_pVRExtendedDisplay();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRExtendedDisplay*> const& __get_m_pVRExtendedDisplay() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRExtendedDisplay*> const& __cordl_internal_get_m_pVRExtendedDisplay() const;
 
-  constexpr void __set_m_pVRExtendedDisplay(::OVR::OpenVR::CVRExtendedDisplay* value);
+  constexpr void __cordl_internal_set_m_pVRExtendedDisplay(::OVR::OpenVR::CVRExtendedDisplay* value);
 
-  constexpr ::OVR::OpenVR::CVRSettings*& __get_m_pVRSettings();
+  constexpr ::OVR::OpenVR::CVRSettings*& __cordl_internal_get_m_pVRSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRSettings*> const& __get_m_pVRSettings() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRSettings*> const& __cordl_internal_get_m_pVRSettings() const;
 
-  constexpr void __set_m_pVRSettings(::OVR::OpenVR::CVRSettings* value);
+  constexpr void __cordl_internal_set_m_pVRSettings(::OVR::OpenVR::CVRSettings* value);
 
-  constexpr ::OVR::OpenVR::CVRApplications*& __get_m_pVRApplications();
+  constexpr ::OVR::OpenVR::CVRApplications*& __cordl_internal_get_m_pVRApplications();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRApplications*> const& __get_m_pVRApplications() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRApplications*> const& __cordl_internal_get_m_pVRApplications() const;
 
-  constexpr void __set_m_pVRApplications(::OVR::OpenVR::CVRApplications* value);
+  constexpr void __cordl_internal_set_m_pVRApplications(::OVR::OpenVR::CVRApplications* value);
 
-  constexpr ::OVR::OpenVR::CVRScreenshots*& __get_m_pVRScreenshots();
+  constexpr ::OVR::OpenVR::CVRScreenshots*& __cordl_internal_get_m_pVRScreenshots();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRScreenshots*> const& __get_m_pVRScreenshots() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRScreenshots*> const& __cordl_internal_get_m_pVRScreenshots() const;
 
-  constexpr void __set_m_pVRScreenshots(::OVR::OpenVR::CVRScreenshots* value);
+  constexpr void __cordl_internal_set_m_pVRScreenshots(::OVR::OpenVR::CVRScreenshots* value);
 
-  constexpr ::OVR::OpenVR::CVRTrackedCamera*& __get_m_pVRTrackedCamera();
+  constexpr ::OVR::OpenVR::CVRTrackedCamera*& __cordl_internal_get_m_pVRTrackedCamera();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRTrackedCamera*> const& __get_m_pVRTrackedCamera() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRTrackedCamera*> const& __cordl_internal_get_m_pVRTrackedCamera() const;
 
-  constexpr void __set_m_pVRTrackedCamera(::OVR::OpenVR::CVRTrackedCamera* value);
+  constexpr void __cordl_internal_set_m_pVRTrackedCamera(::OVR::OpenVR::CVRTrackedCamera* value);
 
-  constexpr ::OVR::OpenVR::CVRInput*& __get_m_pVRInput();
+  constexpr ::OVR::OpenVR::CVRInput*& __cordl_internal_get_m_pVRInput();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRInput*> const& __get_m_pVRInput() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRInput*> const& __cordl_internal_get_m_pVRInput() const;
 
-  constexpr void __set_m_pVRInput(::OVR::OpenVR::CVRInput* value);
+  constexpr void __cordl_internal_set_m_pVRInput(::OVR::OpenVR::CVRInput* value);
 
-  constexpr ::OVR::OpenVR::CVRSpatialAnchors*& __get_m_pVRSpatialAnchors();
+  constexpr ::OVR::OpenVR::CVRSpatialAnchors*& __cordl_internal_get_m_pVRSpatialAnchors();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRSpatialAnchors*> const& __get_m_pVRSpatialAnchors() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::CVRSpatialAnchors*> const& __cordl_internal_get_m_pVRSpatialAnchors() const;
 
-  constexpr void __set_m_pVRSpatialAnchors(::OVR::OpenVR::CVRSpatialAnchors* value);
+  constexpr void __cordl_internal_set_m_pVRSpatialAnchors(::OVR::OpenVR::CVRSpatialAnchors* value);
 
   static inline ::OVR::OpenVR::__OpenVR__COpenVRContext* New_ctor();
 
@@ -331,7 +331,7 @@ static_assert(offsetof(::OVR::OpenVR::__OpenVR__COpenVRContext, ___m_pVRSpatialA
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8729))
 // CS Name: ::OVR.OpenVR::OpenVR*
 class CORDL_TYPE OpenVR : public ::System::Object {

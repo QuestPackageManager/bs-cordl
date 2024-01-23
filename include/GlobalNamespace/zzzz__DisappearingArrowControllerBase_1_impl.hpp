@@ -5,153 +5,153 @@
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 template <typename T>
-constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*>&
-GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__transparentObjectMaterialPropertyBlocks() {
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*>&
+GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__transparentObjectMaterialPropertyBlocks() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transparentObjectMaterialPropertyBlocks;
 }
 template <typename T>
-constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> const&
-GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__transparentObjectMaterialPropertyBlocks() const {
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> const&
+GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__transparentObjectMaterialPropertyBlocks() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transparentObjectMaterialPropertyBlocks;
 }
 template <typename T>
-constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__set__transparentObjectMaterialPropertyBlocks(
-    ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> value) {
+constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_set__transparentObjectMaterialPropertyBlocks(
+    ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transparentObjectMaterialPropertyBlocks)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename T> constexpr ::UnityEngine::MeshRenderer*& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__cubeMeshRenderer() {
+template <typename T> constexpr ::UnityW<::UnityEngine::MeshRenderer>& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__cubeMeshRenderer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cubeMeshRenderer;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshRenderer*> const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__cubeMeshRenderer() const {
+template <typename T> constexpr ::UnityW<::UnityEngine::MeshRenderer> const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__cubeMeshRenderer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cubeMeshRenderer;
 }
-template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__set__cubeMeshRenderer(::UnityEngine::MeshRenderer* value) {
+template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_set__cubeMeshRenderer(::UnityW<::UnityEngine::MeshRenderer> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cubeMeshRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename T> constexpr ::GlobalNamespace::CutoutEffect*& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__arrowCutoutEffect() {
+template <typename T> constexpr ::UnityW<::GlobalNamespace::CutoutEffect>& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__arrowCutoutEffect() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arrowCutoutEffect;
 }
-template <typename T> constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CutoutEffect*> const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__arrowCutoutEffect() const {
+template <typename T> constexpr ::UnityW<::GlobalNamespace::CutoutEffect> const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__arrowCutoutEffect() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____arrowCutoutEffect;
 }
-template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__set__arrowCutoutEffect(::GlobalNamespace::CutoutEffect* value) {
+template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_set__arrowCutoutEffect(::UnityW<::GlobalNamespace::CutoutEffect> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____arrowCutoutEffect)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename T> constexpr float_t& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__disappearingNormalStart() {
+template <typename T> constexpr float_t& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__disappearingNormalStart() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearingNormalStart;
 }
-template <typename T> constexpr float_t const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__disappearingNormalStart() const {
+template <typename T> constexpr float_t const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__disappearingNormalStart() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearingNormalStart;
 }
-template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__set__disappearingNormalStart(float_t value) {
+template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_set__disappearingNormalStart(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disappearingNormalStart = value;
 }
-template <typename T> constexpr float_t& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__disappearingNormalEnd() {
+template <typename T> constexpr float_t& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__disappearingNormalEnd() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearingNormalEnd;
 }
-template <typename T> constexpr float_t const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__disappearingNormalEnd() const {
+template <typename T> constexpr float_t const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__disappearingNormalEnd() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearingNormalEnd;
 }
-template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__set__disappearingNormalEnd(float_t value) {
+template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_set__disappearingNormalEnd(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disappearingNormalEnd = value;
 }
-template <typename T> constexpr float_t& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__disappearingGhostStart() {
+template <typename T> constexpr float_t& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__disappearingGhostStart() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearingGhostStart;
 }
-template <typename T> constexpr float_t const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__disappearingGhostStart() const {
+template <typename T> constexpr float_t const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__disappearingGhostStart() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearingGhostStart;
 }
-template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__set__disappearingGhostStart(float_t value) {
+template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_set__disappearingGhostStart(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disappearingGhostStart = value;
 }
-template <typename T> constexpr float_t& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__disappearingGhostEnd() {
+template <typename T> constexpr float_t& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__disappearingGhostEnd() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearingGhostEnd;
 }
-template <typename T> constexpr float_t const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__disappearingGhostEnd() const {
+template <typename T> constexpr float_t const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__disappearingGhostEnd() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disappearingGhostEnd;
 }
-template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__set__disappearingGhostEnd(float_t value) {
+template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_set__disappearingGhostEnd(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disappearingGhostEnd = value;
 }
-template <typename T> constexpr float_t& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__prevArrowTransparency() {
+template <typename T> constexpr float_t& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__prevArrowTransparency() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevArrowTransparency;
 }
-template <typename T> constexpr float_t const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__prevArrowTransparency() const {
+template <typename T> constexpr float_t const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__prevArrowTransparency() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____prevArrowTransparency;
 }
-template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__set__prevArrowTransparency(float_t value) {
+template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_set__prevArrowTransparency(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____prevArrowTransparency = value;
 }
-template <typename T> constexpr float_t& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__minDistance() {
+template <typename T> constexpr float_t& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__minDistance() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minDistance;
 }
-template <typename T> constexpr float_t const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__minDistance() const {
+template <typename T> constexpr float_t const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__minDistance() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minDistance;
 }
-template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__set__minDistance(float_t value) {
+template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_set__minDistance(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minDistance = value;
 }
-template <typename T> constexpr float_t& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__maxDistance() {
+template <typename T> constexpr float_t& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__maxDistance() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxDistance;
 }
-template <typename T> constexpr float_t const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__maxDistance() const {
+template <typename T> constexpr float_t const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__maxDistance() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxDistance;
 }
-template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__set__maxDistance(float_t value) {
+template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_set__maxDistance(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxDistance = value;
 }
-template <typename T> constexpr bool& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__hideMesh() {
+template <typename T> constexpr bool& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__hideMesh() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hideMesh;
 }
-template <typename T> constexpr bool const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__hideMesh() const {
+template <typename T> constexpr bool const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__hideMesh() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hideMesh;
 }
-template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__set__hideMesh(bool value) {
+template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_set__hideMesh(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hideMesh = value;
 }
-template <typename T> constexpr bool& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__fadeArrow() {
+template <typename T> constexpr bool& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__fadeArrow() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeArrow;
 }
-template <typename T> constexpr bool const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__get__fadeArrow() const {
+template <typename T> constexpr bool const& GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_get__fadeArrow() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeArrow;
 }
-template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__set__fadeArrow(bool value) {
+template <typename T> constexpr void GlobalNamespace::DisappearingArrowControllerBase_1<T>::__cordl_internal_set__fadeArrow(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fadeArrow = value;
 }
@@ -170,42 +170,43 @@ template <typename T> inline T GlobalNamespace::DisappearingArrowControllerBase_
 }
 template <typename T> inline void GlobalNamespace::DisappearingArrowControllerBase_1<T>::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisappearingArrowControllerBase_1<T>*>::get(),
-                                                                             "Awake", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "Awake", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline void GlobalNamespace::DisappearingArrowControllerBase_1<T>::OnDestroy() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisappearingArrowControllerBase_1<T>*>::get(),
-                                                                             "OnDestroy", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline void GlobalNamespace::DisappearingArrowControllerBase_1<T>::CalculateMinMaxDistance() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisappearingArrowControllerBase_1<T>*>::get(),
-                                                                             "CalculateMinMaxDistance", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "CalculateMinMaxDistance", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline void GlobalNamespace::DisappearingArrowControllerBase_1<T>::HandleNoteMovementNoteDidMoveInJumpPhase() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisappearingArrowControllerBase_1<T>*>::get(),
-                                                                             "HandleNoteMovementNoteDidMoveInJumpPhase", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisappearingArrowControllerBase_1<T>*>::get(),
+                                               "HandleNoteMovementNoteDidMoveInJumpPhase", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline void GlobalNamespace::DisappearingArrowControllerBase_1<T>::HandleCubeNoteControllerDidInit(T gameNoteController) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisappearingArrowControllerBase_1<T>*>::get(), "HandleCubeNoteControllerDidInit",
-                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, gameNoteController);
 }
 template <typename T> inline void GlobalNamespace::DisappearingArrowControllerBase_1<T>::SetArrowTransparency(float_t arrowTransparency) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisappearingArrowControllerBase_1<T>*>::get(), "SetArrowTransparency",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, arrowTransparency);
 }
 template <typename T> inline ::GlobalNamespace::DisappearingArrowControllerBase_1<T>* GlobalNamespace::DisappearingArrowControllerBase_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::DisappearingArrowControllerBase_1<T>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DisappearingArrowControllerBase_1<T>*>());
 }
 template <typename T> inline void GlobalNamespace::DisappearingArrowControllerBase_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DisappearingArrowControllerBase_1<T>*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

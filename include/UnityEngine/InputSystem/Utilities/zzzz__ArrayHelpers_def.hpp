@@ -61,20 +61,20 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6656))
 // CS Name: ::ArrayHelpers::<>c__DisplayClass33_0`1<TValue>*
 class CORDL_TYPE __ArrayHelpers____c__DisplayClass33_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field secondValue, offset 0x10, size 0x8
-  __declspec(property(get = __get_secondValue, put = __set_secondValue)) TValue secondValue;
+  __declspec(property(get = __cordl_internal_get_secondValue, put = __cordl_internal_set_secondValue)) TValue secondValue;
 
-  constexpr TValue& __get_secondValue();
+  constexpr TValue& __cordl_internal_get_secondValue();
 
-  constexpr TValue const& __get_secondValue() const;
+  constexpr TValue const& __cordl_internal_get_secondValue() const;
 
-  constexpr void __set_secondValue(TValue value);
+  constexpr void __cordl_internal_set_secondValue(TValue value);
 
   static inline ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass33_0_1<TValue>* New_ctor();
 
@@ -111,20 +111,20 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6657))
 // CS Name: ::ArrayHelpers::<>c__DisplayClass34_0`1<TValue>*
 class CORDL_TYPE __ArrayHelpers____c__DisplayClass34_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field comparer, offset 0x10, size 0x8
-  __declspec(property(get = __get_comparer, put = __set_comparer))::System::Collections::Generic::IEqualityComparer_1<TValue>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IEqualityComparer_1<TValue>* comparer;
 
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<TValue>*& __get_comparer();
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<TValue>*& __cordl_internal_get_comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TValue>*> const& __get_comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TValue>*> const& __cordl_internal_get_comparer() const;
 
-  constexpr void __set_comparer(::System::Collections::Generic::IEqualityComparer_1<TValue>* value);
+  constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IEqualityComparer_1<TValue>* value);
 
   static inline ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>* New_ctor();
 
@@ -158,29 +158,30 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6658))
 // CS Name: ::ArrayHelpers::<>c__DisplayClass34_1`1<TValue>*
 class CORDL_TYPE __ArrayHelpers____c__DisplayClass34_1_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field secondValue, offset 0x10, size 0x8
-  __declspec(property(get = __get_secondValue, put = __set_secondValue)) TValue secondValue;
+  __declspec(property(get = __cordl_internal_get_secondValue, put = __cordl_internal_set_secondValue)) TValue secondValue;
 
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
-  __declspec(property(get = __get_CS$__8__locals1, put = __set_CS$__8__locals1))::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>* CS$__8__locals1;
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals1,
+                      put = __cordl_internal_set_CS$__8__locals1))::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>* CS$__8__locals1;
 
-  constexpr TValue& __get_secondValue();
+  constexpr TValue& __cordl_internal_get_secondValue();
 
-  constexpr TValue const& __get_secondValue() const;
+  constexpr TValue const& __cordl_internal_get_secondValue() const;
 
-  constexpr void __set_secondValue(TValue value);
+  constexpr void __cordl_internal_set_secondValue(TValue value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>*& __get_CS$__8__locals1();
+  constexpr ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>*& __cordl_internal_get_CS$__8__locals1();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>*> const& __get_CS$__8__locals1() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>*> const& __cordl_internal_get_CS$__8__locals1() const;
 
-  constexpr void __set_CS$__8__locals1(::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>* value);
+  constexpr void __cordl_internal_set_CS$__8__locals1(::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_0_1<TValue>* value);
 
   static inline ::UnityEngine::InputSystem::Utilities::__ArrayHelpers____c__DisplayClass34_1_1<TValue>* New_ctor();
 
@@ -218,7 +219,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6659))
 // CS Name: ::UnityEngine.InputSystem.Utilities::ArrayHelpers*
 class CORDL_TYPE ArrayHelpers : public ::System::Object {

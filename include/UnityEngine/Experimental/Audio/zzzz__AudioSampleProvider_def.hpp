@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::Experimental::Audio::__AudioSampleProvider__Sample
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Audio {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15609))
 // CS Name: ::AudioSampleProvider::SampleFramesHandler*
 class CORDL_TYPE __AudioSampleProvider__SampleFramesHandler : public ::System::MulticastDelegate {
@@ -64,7 +64,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Audio
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Audio {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15610))
 // CS Name: ::UnityEngine.Experimental.Audio::AudioSampleProvider*
 class CORDL_TYPE AudioSampleProvider : public ::System::Object {
@@ -73,22 +73,24 @@ public:
   using SampleFramesHandler = ::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler;
 
   /// @brief Field sampleFramesAvailable, offset 0x10, size 0x8
-  __declspec(property(get = __get_sampleFramesAvailable, put = __set_sampleFramesAvailable))::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* sampleFramesAvailable;
+  __declspec(property(get = __cordl_internal_get_sampleFramesAvailable,
+                      put = __cordl_internal_set_sampleFramesAvailable))::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* sampleFramesAvailable;
 
   /// @brief Field sampleFramesOverflow, offset 0x18, size 0x8
-  __declspec(property(get = __get_sampleFramesOverflow, put = __set_sampleFramesOverflow))::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* sampleFramesOverflow;
+  __declspec(property(get = __cordl_internal_get_sampleFramesOverflow,
+                      put = __cordl_internal_set_sampleFramesOverflow))::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* sampleFramesOverflow;
 
-  constexpr ::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler*& __get_sampleFramesAvailable();
+  constexpr ::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler*& __cordl_internal_get_sampleFramesAvailable();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler*> const& __get_sampleFramesAvailable() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler*> const& __cordl_internal_get_sampleFramesAvailable() const;
 
-  constexpr void __set_sampleFramesAvailable(::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* value);
+  constexpr void __cordl_internal_set_sampleFramesAvailable(::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* value);
 
-  constexpr ::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler*& __get_sampleFramesOverflow();
+  constexpr ::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler*& __cordl_internal_get_sampleFramesOverflow();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler*> const& __get_sampleFramesOverflow() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler*> const& __cordl_internal_get_sampleFramesOverflow() const;
 
-  constexpr void __set_sampleFramesOverflow(::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* value);
+  constexpr void __cordl_internal_set_sampleFramesOverflow(::UnityEngine::Experimental::Audio::__AudioSampleProvider__SampleFramesHandler* value);
 
   /// @brief Method InvokeSampleFramesAvailable, addr 0x2c9d2c0, size 0x28, virtual false, abstract: false, final false
   inline void InvokeSampleFramesAvailable(int32_t sampleFrameCount);

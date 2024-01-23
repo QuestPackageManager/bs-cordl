@@ -37,20 +37,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__BpmController__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4832))
 // CS Name: ::BpmController::InitData*
 class CORDL_TYPE __BpmController__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field startBpm, offset 0x10, size 0x4
-  __declspec(property(get = __get_startBpm, put = __set_startBpm)) float_t startBpm;
+  __declspec(property(get = __cordl_internal_get_startBpm, put = __cordl_internal_set_startBpm)) float_t startBpm;
 
-  constexpr float_t& __get_startBpm();
+  constexpr float_t& __cordl_internal_get_startBpm();
 
-  constexpr float_t const& __get_startBpm() const;
+  constexpr float_t const& __cordl_internal_get_startBpm() const;
 
-  constexpr void __set_startBpm(float_t value);
+  constexpr void __cordl_internal_set_startBpm(float_t value);
 
   static inline ::GlobalNamespace::__BpmController__InitData* New_ctor(float_t startBpm);
 
@@ -86,7 +86,7 @@ static_assert(offsetof(::GlobalNamespace::__BpmController__InitData, ___startBpm
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4833))
 // CS Name: ::BpmController*
 class CORDL_TYPE BpmController : public ::System::Object {
@@ -95,13 +95,14 @@ public:
   using InitData = ::GlobalNamespace::__BpmController__InitData;
 
   /// @brief Field _beatmapCallbacksController, offset 0x10, size 0x8
-  __declspec(property(get = __get__beatmapCallbacksController, put = __set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
+                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
   /// @brief Field _beatmapDataCallback, offset 0x18, size 0x8
-  __declspec(property(get = __get__beatmapDataCallback, put = __set__beatmapDataCallback))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallback;
+  __declspec(property(get = __cordl_internal_get__beatmapDataCallback, put = __cordl_internal_set__beatmapDataCallback))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallback;
 
   /// @brief Field _currentBpm, offset 0x20, size 0x4
-  __declspec(property(get = __get__currentBpm, put = __set__currentBpm)) float_t _currentBpm;
+  __declspec(property(get = __cordl_internal_get__currentBpm, put = __cordl_internal_set__currentBpm)) float_t _currentBpm;
 
   __declspec(property(get = get_currentBpm)) float_t currentBpm;
 
@@ -119,23 +120,23 @@ public:
   /// @brief Convert to "::GlobalNamespace::IBpmController"
   constexpr ::GlobalNamespace::IBpmController* i___GlobalNamespace__IBpmController() noexcept;
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __get__beatmapCallbacksController();
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __get__beatmapCallbacksController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __get__beatmapDataCallback();
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __get__beatmapDataCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallback() const;
 
-  constexpr void __set__beatmapDataCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
+  constexpr void __cordl_internal_set__beatmapDataCallback(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  constexpr float_t& __get__currentBpm();
+  constexpr float_t& __cordl_internal_get__currentBpm();
 
-  constexpr float_t const& __get__currentBpm() const;
+  constexpr float_t const& __cordl_internal_get__currentBpm() const;
 
-  constexpr void __set__currentBpm(float_t value);
+  constexpr void __cordl_internal_set__currentBpm(float_t value);
 
   /// @brief Method get_currentBpm, addr 0x2396178, size 0x8, virtual true, abstract: false, final true
   inline float_t get_currentBpm();

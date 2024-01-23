@@ -22,7 +22,7 @@ MARK_VAL_T(::UnityEngine::SceneManagement::LoadSceneParameters);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::SceneManagement {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10375)), TypeDefinitionIndex(TypeDefinitionIndex(10376))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10375)), TypeDefinitionIndex(TypeDefinitionIndex(10376))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10377))
 // CS Name: ::UnityEngine.SceneManagement::LoadSceneParameters
 struct CORDL_TYPE LoadSceneParameters {

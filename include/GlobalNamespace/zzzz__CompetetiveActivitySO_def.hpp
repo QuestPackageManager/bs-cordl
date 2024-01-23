@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::CompetetiveActivitySO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4560))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4560))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4557))
 // CS Name: ::CompetetiveActivitySO*
 class CORDL_TYPE CompetetiveActivitySO : public ::GlobalNamespace::PS5ActivityDataSO {

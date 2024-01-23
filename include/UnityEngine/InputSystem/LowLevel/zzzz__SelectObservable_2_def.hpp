@@ -38,17 +38,17 @@ namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TSource, typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6578))
 // CS Name: ::SelectObservable`2::Select<TSource,TResult>*
 class CORDL_TYPE __SelectObservable_2__Select : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Observable, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Observable, put = __set_m_Observable))::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>* m_Observable;
+  __declspec(property(get = __cordl_internal_get_m_Observable, put = __cordl_internal_set_m_Observable))::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>* m_Observable;
 
   /// @brief Field m_Observer, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Observer, put = __set_m_Observer))::System::IObserver_1<TResult>* m_Observer;
+  __declspec(property(get = __cordl_internal_get_m_Observer, put = __cordl_internal_set_m_Observer))::System::IObserver_1<TResult>* m_Observer;
 
   /// @brief Convert operator to "::System::IObserver_1<TSource>"
   constexpr operator ::System::IObserver_1<TSource>*() noexcept;
@@ -56,17 +56,17 @@ public:
   /// @brief Convert to "::System::IObserver_1<TSource>"
   constexpr ::System::IObserver_1<TSource>* i___System__IObserver_1_TSource_() noexcept;
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>*& __get_m_Observable();
+  constexpr ::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>*& __cordl_internal_get_m_Observable();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>*> const& __get_m_Observable() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>*> const& __cordl_internal_get_m_Observable() const;
 
-  constexpr void __set_m_Observable(::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>* value);
+  constexpr void __cordl_internal_set_m_Observable(::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>* value);
 
-  constexpr ::System::IObserver_1<TResult>*& __get_m_Observer();
+  constexpr ::System::IObserver_1<TResult>*& __cordl_internal_get_m_Observer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<TResult>*> const& __get_m_Observer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<TResult>*> const& __cordl_internal_get_m_Observer() const;
 
-  constexpr void __set_m_Observer(::System::IObserver_1<TResult>* value);
+  constexpr void __cordl_internal_set_m_Observer(::System::IObserver_1<TResult>* value);
 
   static inline ::UnityEngine::InputSystem::LowLevel::__SelectObservable_2__Select<TSource, TResult>* New_ctor(::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>* observable,
                                                                                                                ::System::IObserver_1<TResult>* observer);
@@ -113,7 +113,7 @@ namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TSource, typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6579))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::SelectObservable`2<TSource,TResult>*
 class CORDL_TYPE SelectObservable_2 : public ::System::Object {
@@ -122,10 +122,10 @@ public:
   using Select = ::UnityEngine::InputSystem::LowLevel::__SelectObservable_2__Select<TSource, TResult>;
 
   /// @brief Field m_Source, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Source, put = __set_m_Source))::System::IObservable_1<TSource>* m_Source;
+  __declspec(property(get = __cordl_internal_get_m_Source, put = __cordl_internal_set_m_Source))::System::IObservable_1<TSource>* m_Source;
 
   /// @brief Field m_Filter, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Filter, put = __set_m_Filter))::System::Func_2<TSource, TResult>* m_Filter;
+  __declspec(property(get = __cordl_internal_get_m_Filter, put = __cordl_internal_set_m_Filter))::System::Func_2<TSource, TResult>* m_Filter;
 
   /// @brief Convert operator to "::System::IObservable_1<TResult>"
   constexpr operator ::System::IObservable_1<TResult>*() noexcept;
@@ -133,17 +133,17 @@ public:
   /// @brief Convert to "::System::IObservable_1<TResult>"
   constexpr ::System::IObservable_1<TResult>* i___System__IObservable_1_TResult_() noexcept;
 
-  constexpr ::System::IObservable_1<TSource>*& __get_m_Source();
+  constexpr ::System::IObservable_1<TSource>*& __cordl_internal_get_m_Source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IObservable_1<TSource>*> const& __get_m_Source() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IObservable_1<TSource>*> const& __cordl_internal_get_m_Source() const;
 
-  constexpr void __set_m_Source(::System::IObservable_1<TSource>* value);
+  constexpr void __cordl_internal_set_m_Source(::System::IObservable_1<TSource>* value);
 
-  constexpr ::System::Func_2<TSource, TResult>*& __get_m_Filter();
+  constexpr ::System::Func_2<TSource, TResult>*& __cordl_internal_get_m_Filter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, TResult>*> const& __get_m_Filter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, TResult>*> const& __cordl_internal_get_m_Filter() const;
 
-  constexpr void __set_m_Filter(::System::Func_2<TSource, TResult>* value);
+  constexpr void __cordl_internal_set_m_Filter(::System::Func_2<TSource, TResult>* value);
 
   static inline ::UnityEngine::InputSystem::LowLevel::SelectObservable_2<TSource, TResult>* New_ctor(::System::IObservable_1<TSource>* source, ::System::Func_2<TSource, TResult>* filter);
 

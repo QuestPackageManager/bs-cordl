@@ -30,14 +30,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::Time);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(97))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::Time*
 class CORDL_TYPE Time : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field time, offset 0x10, size 0x8
-  __declspec(property(get = __get_time, put = __set_time))::Org::BouncyCastle::Asn1::Asn1Object* time;
+  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time))::Org::BouncyCastle::Asn1::Asn1Object* time;
 
   __declspec(property(get = get_TimeString))::StringW TimeString;
 
@@ -49,11 +49,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __get_time();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __cordl_internal_get_time();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __get_time() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __cordl_internal_get_time() const;
 
-  constexpr void __set_time(::Org::BouncyCastle::Asn1::Asn1Object* value);
+  constexpr void __cordl_internal_set_time(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
   /// @brief Method GetInstance, addr 0xe818dc, size 0x1c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::Time* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);

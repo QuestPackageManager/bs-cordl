@@ -15,22 +15,22 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectExecutionRating);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4135))
 // CS Name: ::BeatmapObjectExecutionRating*
 class CORDL_TYPE BeatmapObjectExecutionRating : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <time>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__time_k__BackingField, put = __set__time_k__BackingField)) float_t _time_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__time_k__BackingField, put = __cordl_internal_set__time_k__BackingField)) float_t _time_k__BackingField;
 
   __declspec(property(get = get_time)) float_t time;
 
-  constexpr float_t& __get__time_k__BackingField();
+  constexpr float_t& __cordl_internal_get__time_k__BackingField();
 
-  constexpr float_t const& __get__time_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__time_k__BackingField() const;
 
-  constexpr void __set__time_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__time_k__BackingField(float_t value);
 
   /// @brief Method get_time, addr 0x223bf8c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_time();

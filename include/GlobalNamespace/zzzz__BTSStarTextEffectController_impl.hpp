@@ -17,9 +17,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x221d164;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSStarTextEffectController*>::get(),
-                                                                               "get_animationDuration", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_animationDuration", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -31,12 +31,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x108;
   constexpr static std::size_t addrs = 0x221d16c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSStarTextEffectController*>::get(), "Reinitialize", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Sprite*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSStarTextEffectController*>::get(), "Reinitialize", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Sprite*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -47,79 +47,79 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x221d274;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSStarTextEffectController*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Transform*& GlobalNamespace::BTSStarTextEffectController::__get__transform() {
+constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::BTSStarTextEffectController::__cordl_internal_get__transform() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::BTSStarTextEffectController::__get__transform() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::BTSStarTextEffectController::__cordl_internal_get__transform() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____transform;
 }
-constexpr void GlobalNamespace::BTSStarTextEffectController::__set__transform(::UnityEngine::Transform* value) {
+constexpr void GlobalNamespace::BTSStarTextEffectController::__cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::SpriteRenderer*& GlobalNamespace::BTSStarTextEffectController::__get__spriteRenderer() {
+constexpr ::UnityW<::UnityEngine::SpriteRenderer>& GlobalNamespace::BTSStarTextEffectController::__cordl_internal_get__spriteRenderer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spriteRenderer;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SpriteRenderer*> const& GlobalNamespace::BTSStarTextEffectController::__get__spriteRenderer() const {
+constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& GlobalNamespace::BTSStarTextEffectController::__cordl_internal_get__spriteRenderer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spriteRenderer;
 }
-constexpr void GlobalNamespace::BTSStarTextEffectController::__set__spriteRenderer(::UnityEngine::SpriteRenderer* value) {
+constexpr void GlobalNamespace::BTSStarTextEffectController::__cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spriteRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Animation*& GlobalNamespace::BTSStarTextEffectController::__get__animation() {
+constexpr ::UnityW<::UnityEngine::Animation>& GlobalNamespace::BTSStarTextEffectController::__cordl_internal_get__animation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animation;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animation*> const& GlobalNamespace::BTSStarTextEffectController::__get__animation() const {
+constexpr ::UnityW<::UnityEngine::Animation> const& GlobalNamespace::BTSStarTextEffectController::__cordl_internal_get__animation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____animation;
 }
-constexpr void GlobalNamespace::BTSStarTextEffectController::__set__animation(::UnityEngine::Animation* value) {
+constexpr void GlobalNamespace::BTSStarTextEffectController::__cordl_internal_set__animation(::UnityW<::UnityEngine::Animation> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____animation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::BTSStarTextEffectController::__get__currentAnimationDuration() {
+constexpr float_t& GlobalNamespace::BTSStarTextEffectController::__cordl_internal_get__currentAnimationDuration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentAnimationDuration;
 }
-constexpr float_t const& GlobalNamespace::BTSStarTextEffectController::__get__currentAnimationDuration() const {
+constexpr float_t const& GlobalNamespace::BTSStarTextEffectController::__cordl_internal_get__currentAnimationDuration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentAnimationDuration;
 }
-constexpr void GlobalNamespace::BTSStarTextEffectController::__set__currentAnimationDuration(float_t value) {
+constexpr void GlobalNamespace::BTSStarTextEffectController::__cordl_internal_set__currentAnimationDuration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentAnimationDuration = value;
 }
 inline float_t GlobalNamespace::BTSStarTextEffectController::get_animationDuration() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSStarTextEffectController*>::get(),
-                                                                             "get_animationDuration", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_animationDuration", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::BTSStarTextEffectController::Reinitialize(::UnityEngine::Sprite* sprite, ::UnityEngine::Transform* parentTransform, float_t desiredAnimationLength) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSStarTextEffectController*>::get(), "Reinitialize", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Sprite*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSStarTextEffectController*>::get(), "Reinitialize", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Sprite*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sprite, parentTransform, desiredAnimationLength);
 }
 inline ::GlobalNamespace::BTSStarTextEffectController* GlobalNamespace::BTSStarTextEffectController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::BTSStarTextEffectController*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BTSStarTextEffectController*>());
 }
 inline void GlobalNamespace::BTSStarTextEffectController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSStarTextEffectController*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -132,7 +132,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x221d27c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BTSStarTextEffectController__Pool*>::get(),
@@ -148,9 +148,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x221d290;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BTSStarTextEffectController__Pool*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -162,11 +162,11 @@ inline void GlobalNamespace::__BTSStarTextEffectController__Pool::Reinitialize(:
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sprite, transform, desiredAnimationLength, starTextEffectController);
 }
 inline ::GlobalNamespace::__BTSStarTextEffectController__Pool* GlobalNamespace::__BTSStarTextEffectController__Pool::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__BTSStarTextEffectController__Pool*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BTSStarTextEffectController__Pool*>());
 }
 inline void GlobalNamespace::__BTSStarTextEffectController__Pool::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BTSStarTextEffectController__Pool*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -18,31 +18,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::LimitedInputStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(498))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(498))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(500))
 // CS Name: ::Org.BouncyCastle.Asn1::LimitedInputStream*
 class CORDL_TYPE LimitedInputStream : public ::Org::BouncyCastle::Utilities::IO::BaseInputStream {
 public:
   // Declarations
   /// @brief Field _in, offset 0x30, size 0x8
-  __declspec(property(get = __get__in, put = __set__in))::System::IO::Stream* _in;
+  __declspec(property(get = __cordl_internal_get__in, put = __cordl_internal_set__in))::System::IO::Stream* _in;
 
   /// @brief Field _limit, offset 0x38, size 0x4
-  __declspec(property(get = __get__limit, put = __set__limit)) int32_t _limit;
+  __declspec(property(get = __cordl_internal_get__limit, put = __cordl_internal_set__limit)) int32_t _limit;
 
   __declspec(property(get = get_Limit)) int32_t Limit;
 
-  constexpr ::System::IO::Stream*& __get__in();
+  constexpr ::System::IO::Stream*& __cordl_internal_get__in();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get__in() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__in() const;
 
-  constexpr void __set__in(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set__in(::System::IO::Stream* value);
 
-  constexpr int32_t& __get__limit();
+  constexpr int32_t& __cordl_internal_get__limit();
 
-  constexpr int32_t const& __get__limit() const;
+  constexpr int32_t const& __cordl_internal_get__limit() const;
 
-  constexpr void __set__limit(int32_t value);
+  constexpr void __cordl_internal_set__limit(int32_t value);
 
   static inline ::Org::BouncyCastle::Asn1::LimitedInputStream* New_ctor(::System::IO::Stream* inStream, int32_t limit);
 

@@ -26,20 +26,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::CAKeyUpdAnnContent*
 class CORDL_TYPE CAKeyUpdAnnContent : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field oldWithNew, offset 0x10, size 0x8
-  __declspec(property(get = __get_oldWithNew, put = __set_oldWithNew))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* oldWithNew;
+  __declspec(property(get = __cordl_internal_get_oldWithNew, put = __cordl_internal_set_oldWithNew))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* oldWithNew;
 
   /// @brief Field newWithOld, offset 0x18, size 0x8
-  __declspec(property(get = __get_newWithOld, put = __set_newWithOld))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* newWithOld;
+  __declspec(property(get = __cordl_internal_get_newWithOld, put = __cordl_internal_set_newWithOld))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* newWithOld;
 
   /// @brief Field newWithNew, offset 0x20, size 0x8
-  __declspec(property(get = __get_newWithNew, put = __set_newWithNew))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* newWithNew;
+  __declspec(property(get = __cordl_internal_get_newWithNew, put = __cordl_internal_set_newWithNew))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* newWithNew;
 
   __declspec(property(get = get_OldWithNew))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* OldWithNew;
 
@@ -47,23 +47,23 @@ public:
 
   __declspec(property(get = get_NewWithNew))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* NewWithNew;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*& __get_oldWithNew();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*& __cordl_internal_get_oldWithNew();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*> const& __get_oldWithNew() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*> const& __cordl_internal_get_oldWithNew() const;
 
-  constexpr void __set_oldWithNew(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* value);
+  constexpr void __cordl_internal_set_oldWithNew(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*& __get_newWithOld();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*& __cordl_internal_get_newWithOld();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*> const& __get_newWithOld() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*> const& __cordl_internal_get_newWithOld() const;
 
-  constexpr void __set_newWithOld(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* value);
+  constexpr void __cordl_internal_set_newWithOld(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*& __get_newWithNew();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*& __cordl_internal_get_newWithNew();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*> const& __get_newWithNew() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*> const& __cordl_internal_get_newWithNew() const;
 
-  constexpr void __set_newWithNew(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* value);
+  constexpr void __cordl_internal_set_newWithNew(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CAKeyUpdAnnContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

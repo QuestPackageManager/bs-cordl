@@ -39,23 +39,23 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRSceneModelLoader___AttemptToLoadSceneMode
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7970))
 // CS Name: ::OVRSceneModelLoader::<AttemptToLoadSceneModel>d__7*
 class CORDL_TYPE __OVRSceneModelLoader___AttemptToLoadSceneModel_d__7 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::OVRSceneModelLoader* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::OVRSceneModelLoader> __4__this;
 
   /// @brief Field <timeSinceReminder>5__2, offset 0x28, size 0x4
-  __declspec(property(get = __get__timeSinceReminder_5__2, put = __set__timeSinceReminder_5__2)) float_t _timeSinceReminder_5__2;
+  __declspec(property(get = __cordl_internal_get__timeSinceReminder_5__2, put = __cordl_internal_set__timeSinceReminder_5__2)) float_t _timeSinceReminder_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -79,29 +79,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::OVRSceneModelLoader*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneModelLoader>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSceneModelLoader*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneModelLoader> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::OVRSceneModelLoader* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRSceneModelLoader> value);
 
-  constexpr float_t& __get__timeSinceReminder_5__2();
+  constexpr float_t& __cordl_internal_get__timeSinceReminder_5__2();
 
-  constexpr float_t const& __get__timeSinceReminder_5__2() const;
+  constexpr float_t const& __cordl_internal_get__timeSinceReminder_5__2() const;
 
-  constexpr void __set__timeSinceReminder_5__2(float_t value);
+  constexpr void __cordl_internal_set__timeSinceReminder_5__2(float_t value);
 
   static inline ::GlobalNamespace::__OVRSceneModelLoader___AttemptToLoadSceneModel_d__7* New_ctor(int32_t __1__state);
 
@@ -144,7 +144,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSceneModelLoader* _____4__this;
+  ::UnityW<::GlobalNamespace::OVRSceneModelLoader> _____4__this;
 
   /// @brief Field <timeSinceReminder>5__2, offset: 0x28, size: 0x4, def value: None
   float_t ____timeSinceReminder_5__2;
@@ -167,7 +167,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneModelLoader___AttemptToLoadS
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7971))
 // CS Name: ::OVRSceneModelLoader*
 class CORDL_TYPE OVRSceneModelLoader : public ::UnityEngine::MonoBehaviour {
@@ -176,27 +176,28 @@ public:
   using _AttemptToLoadSceneModel_d__7 = ::GlobalNamespace::__OVRSceneModelLoader___AttemptToLoadSceneModel_d__7;
 
   /// @brief Field <SceneManager>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__SceneManager_k__BackingField, put = __set__SceneManager_k__BackingField))::GlobalNamespace::OVRSceneManager* _SceneManager_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SceneManager_k__BackingField,
+                      put = __cordl_internal_set__SceneManager_k__BackingField))::UnityW<::GlobalNamespace::OVRSceneManager> _SceneManager_k__BackingField;
 
   /// @brief Field _sceneCaptureRequested, offset 0x20, size 0x1
-  __declspec(property(get = __get__sceneCaptureRequested, put = __set__sceneCaptureRequested)) bool _sceneCaptureRequested;
+  __declspec(property(get = __cordl_internal_get__sceneCaptureRequested, put = __cordl_internal_set__sceneCaptureRequested)) bool _sceneCaptureRequested;
 
-  __declspec(property(get = get_SceneManager, put = set_SceneManager))::GlobalNamespace::OVRSceneManager* SceneManager;
+  __declspec(property(get = get_SceneManager, put = set_SceneManager))::UnityW<::GlobalNamespace::OVRSceneManager> SceneManager;
 
-  constexpr ::GlobalNamespace::OVRSceneManager*& __get__SceneManager_k__BackingField();
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneManager>& __cordl_internal_get__SceneManager_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSceneManager*> const& __get__SceneManager_k__BackingField() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneManager> const& __cordl_internal_get__SceneManager_k__BackingField() const;
 
-  constexpr void __set__SceneManager_k__BackingField(::GlobalNamespace::OVRSceneManager* value);
+  constexpr void __cordl_internal_set__SceneManager_k__BackingField(::UnityW<::GlobalNamespace::OVRSceneManager> value);
 
-  constexpr bool& __get__sceneCaptureRequested();
+  constexpr bool& __cordl_internal_get__sceneCaptureRequested();
 
-  constexpr bool const& __get__sceneCaptureRequested() const;
+  constexpr bool const& __cordl_internal_get__sceneCaptureRequested() const;
 
-  constexpr void __set__sceneCaptureRequested(bool value);
+  constexpr void __cordl_internal_set__sceneCaptureRequested(bool value);
 
   /// @brief Method get_SceneManager, addr 0x2786634, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::OVRSceneManager* get_SceneManager();
+  inline ::UnityW<::GlobalNamespace::OVRSceneManager> get_SceneManager();
 
   /// @brief Method set_SceneManager, addr 0x278663c, size 0x8, virtual false, abstract: false, final false
   inline void set_SceneManager(::GlobalNamespace::OVRSceneManager* value);
@@ -248,7 +249,7 @@ protected:
 
 public:
   /// @brief Field <SceneManager>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSceneManager* ____SceneManager_k__BackingField;
+  ::UnityW<::GlobalNamespace::OVRSceneManager> ____SceneManager_k__BackingField;
 
   /// @brief Field _sceneCaptureRequested, offset: 0x20, size: 0x1, def value: None
   bool ____sceneCaptureRequested;

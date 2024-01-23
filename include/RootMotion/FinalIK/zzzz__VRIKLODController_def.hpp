@@ -22,47 +22,47 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::VRIKLODController);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12673))
 // CS Name: ::RootMotion.FinalIK::VRIKLODController*
 class CORDL_TYPE VRIKLODController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field LODRenderer, offset 0x18, size 0x8
-  __declspec(property(get = __get_LODRenderer, put = __set_LODRenderer))::UnityEngine::Renderer* LODRenderer;
+  __declspec(property(get = __cordl_internal_get_LODRenderer, put = __cordl_internal_set_LODRenderer))::UnityW<::UnityEngine::Renderer> LODRenderer;
 
   /// @brief Field LODDistance, offset 0x20, size 0x4
-  __declspec(property(get = __get_LODDistance, put = __set_LODDistance)) float_t LODDistance;
+  __declspec(property(get = __cordl_internal_get_LODDistance, put = __cordl_internal_set_LODDistance)) float_t LODDistance;
 
   /// @brief Field allowCulled, offset 0x24, size 0x1
-  __declspec(property(get = __get_allowCulled, put = __set_allowCulled)) bool allowCulled;
+  __declspec(property(get = __cordl_internal_get_allowCulled, put = __cordl_internal_set_allowCulled)) bool allowCulled;
 
   /// @brief Field ik, offset 0x28, size 0x8
-  __declspec(property(get = __get_ik, put = __set_ik))::RootMotion::FinalIK::VRIK* ik;
+  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::VRIK> ik;
 
-  constexpr ::UnityEngine::Renderer*& __get_LODRenderer();
+  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get_LODRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Renderer*> const& __get_LODRenderer() const;
+  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get_LODRenderer() const;
 
-  constexpr void __set_LODRenderer(::UnityEngine::Renderer* value);
+  constexpr void __cordl_internal_set_LODRenderer(::UnityW<::UnityEngine::Renderer> value);
 
-  constexpr float_t& __get_LODDistance();
+  constexpr float_t& __cordl_internal_get_LODDistance();
 
-  constexpr float_t const& __get_LODDistance() const;
+  constexpr float_t const& __cordl_internal_get_LODDistance() const;
 
-  constexpr void __set_LODDistance(float_t value);
+  constexpr void __cordl_internal_set_LODDistance(float_t value);
 
-  constexpr bool& __get_allowCulled();
+  constexpr bool& __cordl_internal_get_allowCulled();
 
-  constexpr bool const& __get_allowCulled() const;
+  constexpr bool const& __cordl_internal_get_allowCulled() const;
 
-  constexpr void __set_allowCulled(bool value);
+  constexpr void __cordl_internal_set_allowCulled(bool value);
 
-  constexpr ::RootMotion::FinalIK::VRIK*& __get_ik();
+  constexpr ::UnityW<::RootMotion::FinalIK::VRIK>& __cordl_internal_get_ik();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::VRIK*> const& __get_ik() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::VRIK> const& __cordl_internal_get_ik() const;
 
-  constexpr void __set_ik(::RootMotion::FinalIK::VRIK* value);
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::VRIK> value);
 
   /// @brief Method Start, addr 0x129d5fc, size 0x50, virtual false, abstract: false, final false
   inline void Start();
@@ -93,7 +93,7 @@ protected:
 
 public:
   /// @brief Field LODRenderer, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Renderer* ___LODRenderer;
+  ::UnityW<::UnityEngine::Renderer> ___LODRenderer;
 
   /// @brief Field LODDistance, offset: 0x20, size: 0x4, def value: None
   float_t ___LODDistance;
@@ -102,7 +102,7 @@ public:
   bool ___allowCulled;
 
   /// @brief Field ik, offset: 0x28, size: 0x8, def value: None
-  ::RootMotion::FinalIK::VRIK* ___ik;
+  ::UnityW<::RootMotion::FinalIK::VRIK> ___ik;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

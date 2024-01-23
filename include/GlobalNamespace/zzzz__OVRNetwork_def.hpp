@@ -69,7 +69,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRNetwork__FrameHeader);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(1) }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8140))
 // CS Name: ::OVRNetwork::FrameHeader
 #pragma pack(push, 1)
@@ -122,38 +122,38 @@ static_assert(offsetof(::GlobalNamespace::__OVRNetwork__FrameHeader, payloadLeng
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8141))
 // CS Name: ::OVRNetwork::OVRNetworkTcpServer*
 class CORDL_TYPE __OVRNetwork__OVRNetworkTcpServer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tcpListener, offset 0x10, size 0x8
-  __declspec(property(get = __get_tcpListener, put = __set_tcpListener))::System::Net::Sockets::TcpListener* tcpListener;
+  __declspec(property(get = __cordl_internal_get_tcpListener, put = __cordl_internal_set_tcpListener))::System::Net::Sockets::TcpListener* tcpListener;
 
   /// @brief Field clientsLock, offset 0x18, size 0x8
-  __declspec(property(get = __get_clientsLock, put = __set_clientsLock))::System::Object* clientsLock;
+  __declspec(property(get = __cordl_internal_get_clientsLock, put = __cordl_internal_set_clientsLock))::System::Object* clientsLock;
 
   /// @brief Field clients, offset 0x20, size 0x8
-  __declspec(property(get = __get_clients, put = __set_clients))::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>* clients;
+  __declspec(property(get = __cordl_internal_get_clients, put = __cordl_internal_set_clients))::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>* clients;
 
-  constexpr ::System::Net::Sockets::TcpListener*& __get_tcpListener();
+  constexpr ::System::Net::Sockets::TcpListener*& __cordl_internal_get_tcpListener();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::TcpListener*> const& __get_tcpListener() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::TcpListener*> const& __cordl_internal_get_tcpListener() const;
 
-  constexpr void __set_tcpListener(::System::Net::Sockets::TcpListener* value);
+  constexpr void __cordl_internal_set_tcpListener(::System::Net::Sockets::TcpListener* value);
 
-  constexpr ::System::Object*& __get_clientsLock();
+  constexpr ::System::Object*& __cordl_internal_get_clientsLock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_clientsLock() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_clientsLock() const;
 
-  constexpr void __set_clientsLock(::System::Object* value);
+  constexpr void __cordl_internal_set_clientsLock(::System::Object* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>*& __get_clients();
+  constexpr ::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>*& __cordl_internal_get_clients();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>*> const& __get_clients() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>*> const& __cordl_internal_get_clients() const;
 
-  constexpr void __set_clients(::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>* value);
+  constexpr void __cordl_internal_set_clients(::System::Collections::Generic::List_1<::System::Net::Sockets::TcpClient*>* value);
 
   /// @brief Method StartListening, addr 0x27b49f4, size 0x528, virtual false, abstract: false, final false
   inline void StartListening(int32_t listeningPort);
@@ -217,7 +217,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer, ___
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8142))
 // CS Name: ::OVRNetwork::OVRNetworkTcpClient::ConnectionState
 struct CORDL_TYPE __OVRNetwork__OVRNetworkTcpClient__ConnectionState {
@@ -271,7 +271,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient__Con
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8143))
 // CS Name: ::OVRNetwork::OVRNetworkTcpClient*
 class CORDL_TYPE __OVRNetwork__OVRNetworkTcpClient : public ::System::Object {
@@ -280,72 +280,73 @@ public:
   using ConnectionState = ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient__ConnectionState;
 
   /// @brief Field connectionStateChangedCallback, offset 0x10, size 0x8
-  __declspec(property(get = __get_connectionStateChangedCallback, put = __set_connectionStateChangedCallback))::System::Action* connectionStateChangedCallback;
+  __declspec(property(get = __cordl_internal_get_connectionStateChangedCallback, put = __cordl_internal_set_connectionStateChangedCallback))::System::Action* connectionStateChangedCallback;
 
   /// @brief Field payloadReceivedCallback, offset 0x18, size 0x8
-  __declspec(property(get = __get_payloadReceivedCallback,
-                      put = __set_payloadReceivedCallback))::System::Action_4<int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t>* payloadReceivedCallback;
+  __declspec(property(get = __cordl_internal_get_payloadReceivedCallback,
+                      put = __cordl_internal_set_payloadReceivedCallback))::System::Action_4<int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t>* payloadReceivedCallback;
 
   /// @brief Field tcpClient, offset 0x20, size 0x8
-  __declspec(property(get = __get_tcpClient, put = __set_tcpClient))::System::Net::Sockets::TcpClient* tcpClient;
+  __declspec(property(get = __cordl_internal_get_tcpClient, put = __cordl_internal_set_tcpClient))::System::Net::Sockets::TcpClient* tcpClient;
 
   /// @brief Field receivedBuffers, offset 0x28, size 0x8
-  __declspec(property(get = __get_receivedBuffers, put = __set_receivedBuffers))::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> receivedBuffers;
+  __declspec(property(get = __cordl_internal_get_receivedBuffers,
+                      put = __cordl_internal_set_receivedBuffers))::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> receivedBuffers;
 
   /// @brief Field receivedBufferIndex, offset 0x30, size 0x4
-  __declspec(property(get = __get_receivedBufferIndex, put = __set_receivedBufferIndex)) int32_t receivedBufferIndex;
+  __declspec(property(get = __cordl_internal_get_receivedBufferIndex, put = __cordl_internal_set_receivedBufferIndex)) int32_t receivedBufferIndex;
 
   /// @brief Field receivedBufferDataSize, offset 0x34, size 0x4
-  __declspec(property(get = __get_receivedBufferDataSize, put = __set_receivedBufferDataSize)) int32_t receivedBufferDataSize;
+  __declspec(property(get = __cordl_internal_get_receivedBufferDataSize, put = __cordl_internal_set_receivedBufferDataSize)) int32_t receivedBufferDataSize;
 
   /// @brief Field readyReceiveDataEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_readyReceiveDataEvent, put = __set_readyReceiveDataEvent))::System::Threading::ManualResetEvent* readyReceiveDataEvent;
+  __declspec(property(get = __cordl_internal_get_readyReceiveDataEvent, put = __cordl_internal_set_readyReceiveDataEvent))::System::Threading::ManualResetEvent* readyReceiveDataEvent;
 
   __declspec(property(get = get_connectionState))::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient__ConnectionState connectionState;
 
   __declspec(property(get = get_Connected)) bool Connected;
 
-  constexpr ::System::Action*& __get_connectionStateChangedCallback();
+  constexpr ::System::Action*& __cordl_internal_get_connectionStateChangedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_connectionStateChangedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_connectionStateChangedCallback() const;
 
-  constexpr void __set_connectionStateChangedCallback(::System::Action* value);
+  constexpr void __cordl_internal_set_connectionStateChangedCallback(::System::Action* value);
 
-  constexpr ::System::Action_4<int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t>*& __get_payloadReceivedCallback();
+  constexpr ::System::Action_4<int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t>*& __cordl_internal_get_payloadReceivedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_4<int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t>*> const& __get_payloadReceivedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_4<int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t>*> const& __cordl_internal_get_payloadReceivedCallback() const;
 
-  constexpr void __set_payloadReceivedCallback(::System::Action_4<int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t>* value);
+  constexpr void __cordl_internal_set_payloadReceivedCallback(::System::Action_4<int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t>* value);
 
-  constexpr ::System::Net::Sockets::TcpClient*& __get_tcpClient();
+  constexpr ::System::Net::Sockets::TcpClient*& __cordl_internal_get_tcpClient();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::TcpClient*> const& __get_tcpClient() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::TcpClient*> const& __cordl_internal_get_tcpClient() const;
 
-  constexpr void __set_tcpClient(::System::Net::Sockets::TcpClient* value);
+  constexpr void __cordl_internal_set_tcpClient(::System::Net::Sockets::TcpClient* value);
 
-  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*>& __get_receivedBuffers();
+  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*>& __cordl_internal_get_receivedBuffers();
 
-  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __get_receivedBuffers() const;
+  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __cordl_internal_get_receivedBuffers() const;
 
-  constexpr void __set_receivedBuffers(::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> value);
+  constexpr void __cordl_internal_set_receivedBuffers(::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> value);
 
-  constexpr int32_t& __get_receivedBufferIndex();
+  constexpr int32_t& __cordl_internal_get_receivedBufferIndex();
 
-  constexpr int32_t const& __get_receivedBufferIndex() const;
+  constexpr int32_t const& __cordl_internal_get_receivedBufferIndex() const;
 
-  constexpr void __set_receivedBufferIndex(int32_t value);
+  constexpr void __cordl_internal_set_receivedBufferIndex(int32_t value);
 
-  constexpr int32_t& __get_receivedBufferDataSize();
+  constexpr int32_t& __cordl_internal_get_receivedBufferDataSize();
 
-  constexpr int32_t const& __get_receivedBufferDataSize() const;
+  constexpr int32_t const& __cordl_internal_get_receivedBufferDataSize() const;
 
-  constexpr void __set_receivedBufferDataSize(int32_t value);
+  constexpr void __cordl_internal_set_receivedBufferDataSize(int32_t value);
 
-  constexpr ::System::Threading::ManualResetEvent*& __get_readyReceiveDataEvent();
+  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get_readyReceiveDataEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __get_readyReceiveDataEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get_readyReceiveDataEvent() const;
 
-  constexpr void __set_readyReceiveDataEvent(::System::Threading::ManualResetEvent* value);
+  constexpr void __cordl_internal_set_readyReceiveDataEvent(::System::Threading::ManualResetEvent* value);
 
   /// @brief Method get_connectionState, addr 0x27b5fcc, size 0x28, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient__ConnectionState get_connectionState();
@@ -432,7 +433,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRNetwork__OVRNetworkTcpClient, ___
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8144))
 // CS Name: ::OVRNetwork*
 class CORDL_TYPE OVRNetwork : public ::System::Object {

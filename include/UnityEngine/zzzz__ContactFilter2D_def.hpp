@@ -21,7 +21,7 @@ MARK_VAL_T(::UnityEngine::ContactFilter2D);
 // SizeInfo { instance_size: 28, native_size: 44, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10204))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15931))
 // CS Name: ::UnityEngine::ContactFilter2D
 struct CORDL_TYPE ContactFilter2D {

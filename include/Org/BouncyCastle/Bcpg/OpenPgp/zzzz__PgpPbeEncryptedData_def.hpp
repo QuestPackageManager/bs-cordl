@@ -31,20 +31,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1638))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1638))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1657))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpPbeEncryptedData*
 class CORDL_TYPE PgpPbeEncryptedData : public ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData {
 public:
   // Declarations
   /// @brief Field keyData, offset 0x28, size 0x8
-  __declspec(property(get = __get_keyData, put = __set_keyData))::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* keyData;
+  __declspec(property(get = __cordl_internal_get_keyData, put = __cordl_internal_set_keyData))::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* keyData;
 
-  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket*& __get_keyData();
+  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket*& __cordl_internal_get_keyData();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket*> const& __get_keyData() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket*> const& __cordl_internal_get_keyData() const;
 
-  constexpr void __set_keyData(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* value);
+  constexpr void __cordl_internal_set_keyData(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* value);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPbeEncryptedData* New_ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyEncSessionPacket* keyData,
                                                                                   ::Org::BouncyCastle::Bcpg::InputStreamPacket* encData);

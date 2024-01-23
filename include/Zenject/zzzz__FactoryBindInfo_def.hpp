@@ -32,21 +32,22 @@ MARK_REF_PTR_T(::Zenject::FactoryBindInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10948))
 // CS Name: ::Zenject::FactoryBindInfo*
 class CORDL_TYPE FactoryBindInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <FactoryType>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__FactoryType_k__BackingField, put = __set__FactoryType_k__BackingField))::System::Type* _FactoryType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__FactoryType_k__BackingField, put = __cordl_internal_set__FactoryType_k__BackingField))::System::Type* _FactoryType_k__BackingField;
 
   /// @brief Field <ProviderFunc>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__ProviderFunc_k__BackingField,
-                      put = __set__ProviderFunc_k__BackingField))::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* _ProviderFunc_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ProviderFunc_k__BackingField,
+                      put = __cordl_internal_set__ProviderFunc_k__BackingField))::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* _ProviderFunc_k__BackingField;
 
   /// @brief Field <Arguments>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__Arguments_k__BackingField, put = __set__Arguments_k__BackingField))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* _Arguments_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Arguments_k__BackingField,
+                      put = __cordl_internal_set__Arguments_k__BackingField))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* _Arguments_k__BackingField;
 
   __declspec(property(get = get_FactoryType, put = set_FactoryType))::System::Type* FactoryType;
 
@@ -54,23 +55,23 @@ public:
 
   __declspec(property(get = get_Arguments, put = set_Arguments))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* Arguments;
 
-  constexpr ::System::Type*& __get__FactoryType_k__BackingField();
+  constexpr ::System::Type*& __cordl_internal_get__FactoryType_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__FactoryType_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__FactoryType_k__BackingField() const;
 
-  constexpr void __set__FactoryType_k__BackingField(::System::Type* value);
+  constexpr void __cordl_internal_set__FactoryType_k__BackingField(::System::Type* value);
 
-  constexpr ::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>*& __get__ProviderFunc_k__BackingField();
+  constexpr ::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>*& __cordl_internal_get__ProviderFunc_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>*> const& __get__ProviderFunc_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>*> const& __cordl_internal_get__ProviderFunc_k__BackingField() const;
 
-  constexpr void __set__ProviderFunc_k__BackingField(::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* value);
+  constexpr void __cordl_internal_set__ProviderFunc_k__BackingField(::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __get__Arguments_k__BackingField();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get__Arguments_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __get__Arguments_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __cordl_internal_get__Arguments_k__BackingField() const;
 
-  constexpr void __set__Arguments_k__BackingField(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
+  constexpr void __cordl_internal_set__Arguments_k__BackingField(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
 
   static inline ::Zenject::FactoryBindInfo* New_ctor(::System::Type* factoryType);
 

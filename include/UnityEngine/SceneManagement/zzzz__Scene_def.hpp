@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::SceneManagement::Scene);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::SceneManagement {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10380))
 // CS Name: ::UnityEngine.SceneManagement::Scene
 struct CORDL_TYPE Scene {
@@ -71,10 +71,10 @@ public:
   inline int32_t get_rootCount();
 
   /// @brief Method GetRootGameObjects, addr 0x2cf176c, size 0xd8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> GetRootGameObjects();
+  inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> GetRootGameObjects();
 
   /// @brief Method GetRootGameObjects, addr 0x2cf1844, size 0x258, virtual false, abstract: false, final false
-  inline void GetRootGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* rootGameObjects);
+  inline void GetRootGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* rootGameObjects);
 
   /// @brief Method op_Equality, addr 0x2cf1a9c, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::SceneManagement::Scene lhs, ::UnityEngine::SceneManagement::Scene rhs);

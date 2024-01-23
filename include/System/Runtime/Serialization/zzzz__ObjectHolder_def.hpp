@@ -47,53 +47,53 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::ObjectHolder);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3218))
 // CS Name: ::System.Runtime.Serialization::ObjectHolder*
 class CORDL_TYPE ObjectHolder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_object, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_object, put = __set_m_object))::System::Object* m_object;
+  __declspec(property(get = __cordl_internal_get_m_object, put = __cordl_internal_set_m_object))::System::Object* m_object;
 
   /// @brief Field m_id, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_id, put = __set_m_id)) int64_t m_id;
+  __declspec(property(get = __cordl_internal_get_m_id, put = __cordl_internal_set_m_id)) int64_t m_id;
 
   /// @brief Field m_missingElementsRemaining, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_missingElementsRemaining, put = __set_m_missingElementsRemaining)) int32_t m_missingElementsRemaining;
+  __declspec(property(get = __cordl_internal_get_m_missingElementsRemaining, put = __cordl_internal_set_m_missingElementsRemaining)) int32_t m_missingElementsRemaining;
 
   /// @brief Field m_missingDecendents, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_missingDecendents, put = __set_m_missingDecendents)) int32_t m_missingDecendents;
+  __declspec(property(get = __cordl_internal_get_m_missingDecendents, put = __cordl_internal_set_m_missingDecendents)) int32_t m_missingDecendents;
 
   /// @brief Field m_serInfo, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_serInfo, put = __set_m_serInfo))::System::Runtime::Serialization::SerializationInfo* m_serInfo;
+  __declspec(property(get = __cordl_internal_get_m_serInfo, put = __cordl_internal_set_m_serInfo))::System::Runtime::Serialization::SerializationInfo* m_serInfo;
 
   /// @brief Field m_surrogate, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_surrogate, put = __set_m_surrogate))::System::Runtime::Serialization::ISerializationSurrogate* m_surrogate;
+  __declspec(property(get = __cordl_internal_get_m_surrogate, put = __cordl_internal_set_m_surrogate))::System::Runtime::Serialization::ISerializationSurrogate* m_surrogate;
 
   /// @brief Field m_missingElements, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_missingElements, put = __set_m_missingElements))::System::Runtime::Serialization::FixupHolderList* m_missingElements;
+  __declspec(property(get = __cordl_internal_get_m_missingElements, put = __cordl_internal_set_m_missingElements))::System::Runtime::Serialization::FixupHolderList* m_missingElements;
 
   /// @brief Field m_dependentObjects, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_dependentObjects, put = __set_m_dependentObjects))::System::Runtime::Serialization::LongList* m_dependentObjects;
+  __declspec(property(get = __cordl_internal_get_m_dependentObjects, put = __cordl_internal_set_m_dependentObjects))::System::Runtime::Serialization::LongList* m_dependentObjects;
 
   /// @brief Field m_next, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_next, put = __set_m_next))::System::Runtime::Serialization::ObjectHolder* m_next;
+  __declspec(property(get = __cordl_internal_get_m_next, put = __cordl_internal_set_m_next))::System::Runtime::Serialization::ObjectHolder* m_next;
 
   /// @brief Field m_flags, offset 0x50, size 0x4
-  __declspec(property(get = __get_m_flags, put = __set_m_flags)) int32_t m_flags;
+  __declspec(property(get = __cordl_internal_get_m_flags, put = __cordl_internal_set_m_flags)) int32_t m_flags;
 
   /// @brief Field m_markForFixupWhenAvailable, offset 0x54, size 0x1
-  __declspec(property(get = __get_m_markForFixupWhenAvailable, put = __set_m_markForFixupWhenAvailable)) bool m_markForFixupWhenAvailable;
+  __declspec(property(get = __cordl_internal_get_m_markForFixupWhenAvailable, put = __cordl_internal_set_m_markForFixupWhenAvailable)) bool m_markForFixupWhenAvailable;
 
   /// @brief Field m_valueFixup, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_valueFixup, put = __set_m_valueFixup))::System::Runtime::Serialization::ValueTypeFixupInfo* m_valueFixup;
+  __declspec(property(get = __cordl_internal_get_m_valueFixup, put = __cordl_internal_set_m_valueFixup))::System::Runtime::Serialization::ValueTypeFixupInfo* m_valueFixup;
 
   /// @brief Field m_typeLoad, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_typeLoad, put = __set_m_typeLoad))::System::Runtime::Serialization::TypeLoadExceptionHolder* m_typeLoad;
+  __declspec(property(get = __cordl_internal_get_m_typeLoad, put = __cordl_internal_set_m_typeLoad))::System::Runtime::Serialization::TypeLoadExceptionHolder* m_typeLoad;
 
   /// @brief Field m_reachable, offset 0x68, size 0x1
-  __declspec(property(get = __get_m_reachable, put = __set_m_reachable)) bool m_reachable;
+  __declspec(property(get = __cordl_internal_get_m_reachable, put = __cordl_internal_set_m_reachable)) bool m_reachable;
 
   __declspec(property(get = get_IsIncompleteObjectReference, put = set_IsIncompleteObjectReference)) bool IsIncompleteObjectReference;
 
@@ -137,89 +137,89 @@ public:
 
   __declspec(property(get = get_ContainerID)) int64_t ContainerID;
 
-  constexpr ::System::Object*& __get_m_object();
+  constexpr ::System::Object*& __cordl_internal_get_m_object();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_object() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_object() const;
 
-  constexpr void __set_m_object(::System::Object* value);
+  constexpr void __cordl_internal_set_m_object(::System::Object* value);
 
-  constexpr int64_t& __get_m_id();
+  constexpr int64_t& __cordl_internal_get_m_id();
 
-  constexpr int64_t const& __get_m_id() const;
+  constexpr int64_t const& __cordl_internal_get_m_id() const;
 
-  constexpr void __set_m_id(int64_t value);
+  constexpr void __cordl_internal_set_m_id(int64_t value);
 
-  constexpr int32_t& __get_m_missingElementsRemaining();
+  constexpr int32_t& __cordl_internal_get_m_missingElementsRemaining();
 
-  constexpr int32_t const& __get_m_missingElementsRemaining() const;
+  constexpr int32_t const& __cordl_internal_get_m_missingElementsRemaining() const;
 
-  constexpr void __set_m_missingElementsRemaining(int32_t value);
+  constexpr void __cordl_internal_set_m_missingElementsRemaining(int32_t value);
 
-  constexpr int32_t& __get_m_missingDecendents();
+  constexpr int32_t& __cordl_internal_get_m_missingDecendents();
 
-  constexpr int32_t const& __get_m_missingDecendents() const;
+  constexpr int32_t const& __cordl_internal_get_m_missingDecendents() const;
 
-  constexpr void __set_m_missingDecendents(int32_t value);
+  constexpr void __cordl_internal_set_m_missingDecendents(int32_t value);
 
-  constexpr ::System::Runtime::Serialization::SerializationInfo*& __get_m_serInfo();
+  constexpr ::System::Runtime::Serialization::SerializationInfo*& __cordl_internal_get_m_serInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __get_m_serInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __cordl_internal_get_m_serInfo() const;
 
-  constexpr void __set_m_serInfo(::System::Runtime::Serialization::SerializationInfo* value);
+  constexpr void __cordl_internal_set_m_serInfo(::System::Runtime::Serialization::SerializationInfo* value);
 
-  constexpr ::System::Runtime::Serialization::ISerializationSurrogate*& __get_m_surrogate();
+  constexpr ::System::Runtime::Serialization::ISerializationSurrogate*& __cordl_internal_get_m_surrogate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISerializationSurrogate*> const& __get_m_surrogate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISerializationSurrogate*> const& __cordl_internal_get_m_surrogate() const;
 
-  constexpr void __set_m_surrogate(::System::Runtime::Serialization::ISerializationSurrogate* value);
+  constexpr void __cordl_internal_set_m_surrogate(::System::Runtime::Serialization::ISerializationSurrogate* value);
 
-  constexpr ::System::Runtime::Serialization::FixupHolderList*& __get_m_missingElements();
+  constexpr ::System::Runtime::Serialization::FixupHolderList*& __cordl_internal_get_m_missingElements();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::FixupHolderList*> const& __get_m_missingElements() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::FixupHolderList*> const& __cordl_internal_get_m_missingElements() const;
 
-  constexpr void __set_m_missingElements(::System::Runtime::Serialization::FixupHolderList* value);
+  constexpr void __cordl_internal_set_m_missingElements(::System::Runtime::Serialization::FixupHolderList* value);
 
-  constexpr ::System::Runtime::Serialization::LongList*& __get_m_dependentObjects();
+  constexpr ::System::Runtime::Serialization::LongList*& __cordl_internal_get_m_dependentObjects();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::LongList*> const& __get_m_dependentObjects() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::LongList*> const& __cordl_internal_get_m_dependentObjects() const;
 
-  constexpr void __set_m_dependentObjects(::System::Runtime::Serialization::LongList* value);
+  constexpr void __cordl_internal_set_m_dependentObjects(::System::Runtime::Serialization::LongList* value);
 
-  constexpr ::System::Runtime::Serialization::ObjectHolder*& __get_m_next();
+  constexpr ::System::Runtime::Serialization::ObjectHolder*& __cordl_internal_get_m_next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ObjectHolder*> const& __get_m_next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ObjectHolder*> const& __cordl_internal_get_m_next() const;
 
-  constexpr void __set_m_next(::System::Runtime::Serialization::ObjectHolder* value);
+  constexpr void __cordl_internal_set_m_next(::System::Runtime::Serialization::ObjectHolder* value);
 
-  constexpr int32_t& __get_m_flags();
+  constexpr int32_t& __cordl_internal_get_m_flags();
 
-  constexpr int32_t const& __get_m_flags() const;
+  constexpr int32_t const& __cordl_internal_get_m_flags() const;
 
-  constexpr void __set_m_flags(int32_t value);
+  constexpr void __cordl_internal_set_m_flags(int32_t value);
 
-  constexpr bool& __get_m_markForFixupWhenAvailable();
+  constexpr bool& __cordl_internal_get_m_markForFixupWhenAvailable();
 
-  constexpr bool const& __get_m_markForFixupWhenAvailable() const;
+  constexpr bool const& __cordl_internal_get_m_markForFixupWhenAvailable() const;
 
-  constexpr void __set_m_markForFixupWhenAvailable(bool value);
+  constexpr void __cordl_internal_set_m_markForFixupWhenAvailable(bool value);
 
-  constexpr ::System::Runtime::Serialization::ValueTypeFixupInfo*& __get_m_valueFixup();
+  constexpr ::System::Runtime::Serialization::ValueTypeFixupInfo*& __cordl_internal_get_m_valueFixup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ValueTypeFixupInfo*> const& __get_m_valueFixup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ValueTypeFixupInfo*> const& __cordl_internal_get_m_valueFixup() const;
 
-  constexpr void __set_m_valueFixup(::System::Runtime::Serialization::ValueTypeFixupInfo* value);
+  constexpr void __cordl_internal_set_m_valueFixup(::System::Runtime::Serialization::ValueTypeFixupInfo* value);
 
-  constexpr ::System::Runtime::Serialization::TypeLoadExceptionHolder*& __get_m_typeLoad();
+  constexpr ::System::Runtime::Serialization::TypeLoadExceptionHolder*& __cordl_internal_get_m_typeLoad();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::TypeLoadExceptionHolder*> const& __get_m_typeLoad() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::TypeLoadExceptionHolder*> const& __cordl_internal_get_m_typeLoad() const;
 
-  constexpr void __set_m_typeLoad(::System::Runtime::Serialization::TypeLoadExceptionHolder* value);
+  constexpr void __cordl_internal_set_m_typeLoad(::System::Runtime::Serialization::TypeLoadExceptionHolder* value);
 
-  constexpr bool& __get_m_reachable();
+  constexpr bool& __cordl_internal_get_m_reachable();
 
-  constexpr bool const& __get_m_reachable() const;
+  constexpr bool const& __cordl_internal_get_m_reachable() const;
 
-  constexpr void __set_m_reachable(bool value);
+  constexpr void __cordl_internal_set_m_reachable(bool value);
 
   static inline ::System::Runtime::Serialization::ObjectHolder* New_ctor(int64_t objID);
 

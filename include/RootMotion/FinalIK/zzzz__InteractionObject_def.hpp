@@ -93,67 +93,68 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__InteractionObject__WeightCurve);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12597))
 // CS Name: ::InteractionObject::InteractionEvent*
 class CORDL_TYPE __InteractionObject__InteractionEvent : public ::System::Object {
 public:
   // Declarations
   /// @brief Field time, offset 0x10, size 0x4
-  __declspec(property(get = __get_time, put = __set_time)) float_t time;
+  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) float_t time;
 
   /// @brief Field pause, offset 0x14, size 0x1
-  __declspec(property(get = __get_pause, put = __set_pause)) bool pause;
+  __declspec(property(get = __cordl_internal_get_pause, put = __cordl_internal_set_pause)) bool pause;
 
   /// @brief Field pickUp, offset 0x15, size 0x1
-  __declspec(property(get = __get_pickUp, put = __set_pickUp)) bool pickUp;
+  __declspec(property(get = __cordl_internal_get_pickUp, put = __cordl_internal_set_pickUp)) bool pickUp;
 
   /// @brief Field animations, offset 0x18, size 0x8
-  __declspec(property(get = __get_animations,
-                      put = __set_animations))::ArrayW<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*>*> animations;
+  __declspec(property(
+      get = __cordl_internal_get_animations,
+      put = __cordl_internal_set_animations))::ArrayW<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*>*> animations;
 
   /// @brief Field messages, offset 0x20, size 0x8
-  __declspec(property(get = __get_messages,
-                      put = __set_messages))::ArrayW<::RootMotion::FinalIK::__InteractionObject__Message*, ::Array<::RootMotion::FinalIK::__InteractionObject__Message*>*> messages;
+  __declspec(property(get = __cordl_internal_get_messages,
+                      put = __cordl_internal_set_messages))::ArrayW<::RootMotion::FinalIK::__InteractionObject__Message*, ::Array<::RootMotion::FinalIK::__InteractionObject__Message*>*> messages;
 
   /// @brief Field unityEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_unityEvent, put = __set_unityEvent))::UnityEngine::Events::UnityEvent* unityEvent;
+  __declspec(property(get = __cordl_internal_get_unityEvent, put = __cordl_internal_set_unityEvent))::UnityEngine::Events::UnityEvent* unityEvent;
 
-  constexpr float_t& __get_time();
+  constexpr float_t& __cordl_internal_get_time();
 
-  constexpr float_t const& __get_time() const;
+  constexpr float_t const& __cordl_internal_get_time() const;
 
-  constexpr void __set_time(float_t value);
+  constexpr void __cordl_internal_set_time(float_t value);
 
-  constexpr bool& __get_pause();
+  constexpr bool& __cordl_internal_get_pause();
 
-  constexpr bool const& __get_pause() const;
+  constexpr bool const& __cordl_internal_get_pause() const;
 
-  constexpr void __set_pause(bool value);
+  constexpr void __cordl_internal_set_pause(bool value);
 
-  constexpr bool& __get_pickUp();
+  constexpr bool& __cordl_internal_get_pickUp();
 
-  constexpr bool const& __get_pickUp() const;
+  constexpr bool const& __cordl_internal_get_pickUp() const;
 
-  constexpr void __set_pickUp(bool value);
+  constexpr void __cordl_internal_set_pickUp(bool value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*>*>& __get_animations();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*>*>& __cordl_internal_get_animations();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*>*> const& __get_animations() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*>*> const& __cordl_internal_get_animations() const;
 
-  constexpr void __set_animations(::ArrayW<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*>*> value);
+  constexpr void __cordl_internal_set_animations(::ArrayW<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__AnimatorEvent*>*> value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__Message*, ::Array<::RootMotion::FinalIK::__InteractionObject__Message*>*>& __get_messages();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__Message*, ::Array<::RootMotion::FinalIK::__InteractionObject__Message*>*>& __cordl_internal_get_messages();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__Message*, ::Array<::RootMotion::FinalIK::__InteractionObject__Message*>*> const& __get_messages() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__Message*, ::Array<::RootMotion::FinalIK::__InteractionObject__Message*>*> const& __cordl_internal_get_messages() const;
 
-  constexpr void __set_messages(::ArrayW<::RootMotion::FinalIK::__InteractionObject__Message*, ::Array<::RootMotion::FinalIK::__InteractionObject__Message*>*> value);
+  constexpr void __cordl_internal_set_messages(::ArrayW<::RootMotion::FinalIK::__InteractionObject__Message*, ::Array<::RootMotion::FinalIK::__InteractionObject__Message*>*> value);
 
-  constexpr ::UnityEngine::Events::UnityEvent*& __get_unityEvent();
+  constexpr ::UnityEngine::Events::UnityEvent*& __cordl_internal_get_unityEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent*> const& __get_unityEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent*> const& __cordl_internal_get_unityEvent() const;
 
-  constexpr void __set_unityEvent(::UnityEngine::Events::UnityEvent* value);
+  constexpr void __cordl_internal_set_unityEvent(::UnityEngine::Events::UnityEvent* value);
 
   /// @brief Method Activate, addr 0x1285e5c, size 0xc4, virtual false, abstract: false, final false
   inline void Activate(::UnityEngine::Transform* t);
@@ -217,29 +218,29 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionObject__InteractionEv
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12598))
 // CS Name: ::InteractionObject::Message*
 class CORDL_TYPE __InteractionObject__Message : public ::System::Object {
 public:
   // Declarations
   /// @brief Field function, offset 0x10, size 0x8
-  __declspec(property(get = __get_function, put = __set_function))::StringW function;
+  __declspec(property(get = __cordl_internal_get_function, put = __cordl_internal_set_function))::StringW function;
 
   /// @brief Field recipient, offset 0x18, size 0x8
-  __declspec(property(get = __get_recipient, put = __set_recipient))::UnityEngine::GameObject* recipient;
+  __declspec(property(get = __cordl_internal_get_recipient, put = __cordl_internal_set_recipient))::UnityW<::UnityEngine::GameObject> recipient;
 
-  constexpr ::StringW& __get_function();
+  constexpr ::StringW& __cordl_internal_get_function();
 
-  constexpr ::StringW const& __get_function() const;
+  constexpr ::StringW const& __cordl_internal_get_function() const;
 
-  constexpr void __set_function(::StringW value);
+  constexpr void __cordl_internal_set_function(::StringW value);
 
-  constexpr ::UnityEngine::GameObject*& __get_recipient();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_recipient();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_recipient() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_recipient() const;
 
-  constexpr void __set_recipient(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_recipient(::UnityW<::UnityEngine::GameObject> value);
 
   /// @brief Method Send, addr 0x12875ec, size 0xf8, virtual false, abstract: false, final false
   inline void Send(::UnityEngine::Transform* t);
@@ -267,7 +268,7 @@ public:
   ::StringW ___function;
 
   /// @brief Field recipient, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___recipient;
+  ::UnityW<::UnityEngine::GameObject> ___recipient;
 
   /// @brief Field empty offset 0xffffffff size 0x8
   static constexpr ::ConstString empty{ u"" };
@@ -286,65 +287,65 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionObject__Message, ___r
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12599))
 // CS Name: ::InteractionObject::AnimatorEvent*
 class CORDL_TYPE __InteractionObject__AnimatorEvent : public ::System::Object {
 public:
   // Declarations
   /// @brief Field animator, offset 0x10, size 0x8
-  __declspec(property(get = __get_animator, put = __set_animator))::UnityEngine::Animator* animator;
+  __declspec(property(get = __cordl_internal_get_animator, put = __cordl_internal_set_animator))::UnityW<::UnityEngine::Animator> animator;
 
   /// @brief Field animation, offset 0x18, size 0x8
-  __declspec(property(get = __get_animation, put = __set_animation))::UnityEngine::Animation* animation;
+  __declspec(property(get = __cordl_internal_get_animation, put = __cordl_internal_set_animation))::UnityW<::UnityEngine::Animation> animation;
 
   /// @brief Field animationState, offset 0x20, size 0x8
-  __declspec(property(get = __get_animationState, put = __set_animationState))::StringW animationState;
+  __declspec(property(get = __cordl_internal_get_animationState, put = __cordl_internal_set_animationState))::StringW animationState;
 
   /// @brief Field crossfadeTime, offset 0x28, size 0x4
-  __declspec(property(get = __get_crossfadeTime, put = __set_crossfadeTime)) float_t crossfadeTime;
+  __declspec(property(get = __cordl_internal_get_crossfadeTime, put = __cordl_internal_set_crossfadeTime)) float_t crossfadeTime;
 
   /// @brief Field layer, offset 0x2c, size 0x4
-  __declspec(property(get = __get_layer, put = __set_layer)) int32_t layer;
+  __declspec(property(get = __cordl_internal_get_layer, put = __cordl_internal_set_layer)) int32_t layer;
 
   /// @brief Field resetNormalizedTime, offset 0x30, size 0x1
-  __declspec(property(get = __get_resetNormalizedTime, put = __set_resetNormalizedTime)) bool resetNormalizedTime;
+  __declspec(property(get = __cordl_internal_get_resetNormalizedTime, put = __cordl_internal_set_resetNormalizedTime)) bool resetNormalizedTime;
 
-  constexpr ::UnityEngine::Animator*& __get_animator();
+  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get_animator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> const& __get_animator() const;
+  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get_animator() const;
 
-  constexpr void __set_animator(::UnityEngine::Animator* value);
+  constexpr void __cordl_internal_set_animator(::UnityW<::UnityEngine::Animator> value);
 
-  constexpr ::UnityEngine::Animation*& __get_animation();
+  constexpr ::UnityW<::UnityEngine::Animation>& __cordl_internal_get_animation();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animation*> const& __get_animation() const;
+  constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get_animation() const;
 
-  constexpr void __set_animation(::UnityEngine::Animation* value);
+  constexpr void __cordl_internal_set_animation(::UnityW<::UnityEngine::Animation> value);
 
-  constexpr ::StringW& __get_animationState();
+  constexpr ::StringW& __cordl_internal_get_animationState();
 
-  constexpr ::StringW const& __get_animationState() const;
+  constexpr ::StringW const& __cordl_internal_get_animationState() const;
 
-  constexpr void __set_animationState(::StringW value);
+  constexpr void __cordl_internal_set_animationState(::StringW value);
 
-  constexpr float_t& __get_crossfadeTime();
+  constexpr float_t& __cordl_internal_get_crossfadeTime();
 
-  constexpr float_t const& __get_crossfadeTime() const;
+  constexpr float_t const& __cordl_internal_get_crossfadeTime() const;
 
-  constexpr void __set_crossfadeTime(float_t value);
+  constexpr void __cordl_internal_set_crossfadeTime(float_t value);
 
-  constexpr int32_t& __get_layer();
+  constexpr int32_t& __cordl_internal_get_layer();
 
-  constexpr int32_t const& __get_layer() const;
+  constexpr int32_t const& __cordl_internal_get_layer() const;
 
-  constexpr void __set_layer(int32_t value);
+  constexpr void __cordl_internal_set_layer(int32_t value);
 
-  constexpr bool& __get_resetNormalizedTime();
+  constexpr bool& __cordl_internal_get_resetNormalizedTime();
 
-  constexpr bool const& __get_resetNormalizedTime() const;
+  constexpr bool const& __cordl_internal_get_resetNormalizedTime() const;
 
-  constexpr void __set_resetNormalizedTime(bool value);
+  constexpr void __cordl_internal_set_resetNormalizedTime(bool value);
 
   /// @brief Method Activate, addr 0x1287510, size 0xdc, virtual false, abstract: false, final false
   inline void Activate(bool pickUp);
@@ -375,10 +376,10 @@ protected:
 
 public:
   /// @brief Field animator, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Animator* ___animator;
+  ::UnityW<::UnityEngine::Animator> ___animator;
 
   /// @brief Field animation, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Animation* ___animation;
+  ::UnityW<::UnityEngine::Animation> ___animation;
 
   /// @brief Field animationState, offset: 0x20, size: 0x8, def value: None
   ::StringW ___animationState;
@@ -417,7 +418,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionObject__AnimatorEvent
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12600))
 // CS Name: ::InteractionObject::WeightCurve::Type
 struct CORDL_TYPE __InteractionObject__WeightCurve__Type {
@@ -507,7 +508,7 @@ static_assert(offsetof(::GlobalNamespace::__InteractionObject__WeightCurve__Type
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12600))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12600))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12601))
 // CS Name: ::InteractionObject::WeightCurve*
 class CORDL_TYPE __InteractionObject__WeightCurve : public ::System::Object {
@@ -516,22 +517,22 @@ public:
   using Type = ::GlobalNamespace::__InteractionObject__WeightCurve__Type;
 
   /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __get_type, put = __set_type))::GlobalNamespace::__InteractionObject__WeightCurve__Type type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::GlobalNamespace::__InteractionObject__WeightCurve__Type type;
 
   /// @brief Field curve, offset 0x18, size 0x8
-  __declspec(property(get = __get_curve, put = __set_curve))::UnityEngine::AnimationCurve* curve;
+  __declspec(property(get = __cordl_internal_get_curve, put = __cordl_internal_set_curve))::UnityEngine::AnimationCurve* curve;
 
-  constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type& __get_type();
+  constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type& __cordl_internal_get_type();
 
-  constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type const& __get_type() const;
+  constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::GlobalNamespace::__InteractionObject__WeightCurve__Type value);
+  constexpr void __cordl_internal_set_type(::GlobalNamespace::__InteractionObject__WeightCurve__Type value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_curve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_curve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_curve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_curve() const;
 
-  constexpr void __set_curve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_curve(::UnityEngine::AnimationCurve* value);
 
   /// @brief Method GetValue, addr 0x1286e20, size 0x1c, virtual false, abstract: false, final false
   inline float_t GetValue(float_t timer);
@@ -575,38 +576,38 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionObject__WeightCurve, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12600)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12600))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12602))
 // CS Name: ::InteractionObject::Multiplier*
 class CORDL_TYPE __InteractionObject__Multiplier : public ::System::Object {
 public:
   // Declarations
   /// @brief Field curve, offset 0x10, size 0x4
-  __declspec(property(get = __get_curve, put = __set_curve))::GlobalNamespace::__InteractionObject__WeightCurve__Type curve;
+  __declspec(property(get = __cordl_internal_get_curve, put = __cordl_internal_set_curve))::GlobalNamespace::__InteractionObject__WeightCurve__Type curve;
 
   /// @brief Field multiplier, offset 0x14, size 0x4
-  __declspec(property(get = __get_multiplier, put = __set_multiplier)) float_t multiplier;
+  __declspec(property(get = __cordl_internal_get_multiplier, put = __cordl_internal_set_multiplier)) float_t multiplier;
 
   /// @brief Field result, offset 0x18, size 0x4
-  __declspec(property(get = __get_result, put = __set_result))::GlobalNamespace::__InteractionObject__WeightCurve__Type result;
+  __declspec(property(get = __cordl_internal_get_result, put = __cordl_internal_set_result))::GlobalNamespace::__InteractionObject__WeightCurve__Type result;
 
-  constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type& __get_curve();
+  constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type& __cordl_internal_get_curve();
 
-  constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type const& __get_curve() const;
+  constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type const& __cordl_internal_get_curve() const;
 
-  constexpr void __set_curve(::GlobalNamespace::__InteractionObject__WeightCurve__Type value);
+  constexpr void __cordl_internal_set_curve(::GlobalNamespace::__InteractionObject__WeightCurve__Type value);
 
-  constexpr float_t& __get_multiplier();
+  constexpr float_t& __cordl_internal_get_multiplier();
 
-  constexpr float_t const& __get_multiplier() const;
+  constexpr float_t const& __cordl_internal_get_multiplier() const;
 
-  constexpr void __set_multiplier(float_t value);
+  constexpr void __cordl_internal_set_multiplier(float_t value);
 
-  constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type& __get_result();
+  constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type& __cordl_internal_get_result();
 
-  constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type const& __get_result() const;
+  constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type const& __cordl_internal_get_result() const;
 
-  constexpr void __set_result(::GlobalNamespace::__InteractionObject__WeightCurve__Type value);
+  constexpr void __cordl_internal_set_result(::GlobalNamespace::__InteractionObject__WeightCurve__Type value);
 
   /// @brief Method GetValue, addr 0x1287428, size 0x30, virtual false, abstract: false, final false
   inline float_t GetValue(::RootMotion::FinalIK::__InteractionObject__WeightCurve* weightCurve, float_t timer);
@@ -655,7 +656,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionObject__Multiplier, _
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12603))
 // CS Name: ::RootMotion.FinalIK::InteractionObject*
 class CORDL_TYPE InteractionObject : public ::UnityEngine::MonoBehaviour {
@@ -672,97 +673,101 @@ public:
   using InteractionEvent = ::RootMotion::FinalIK::__InteractionObject__InteractionEvent;
 
   /// @brief Field otherLookAtTarget, offset 0x18, size 0x8
-  __declspec(property(get = __get_otherLookAtTarget, put = __set_otherLookAtTarget))::UnityEngine::Transform* otherLookAtTarget;
+  __declspec(property(get = __cordl_internal_get_otherLookAtTarget, put = __cordl_internal_set_otherLookAtTarget))::UnityW<::UnityEngine::Transform> otherLookAtTarget;
 
   /// @brief Field otherTargetsRoot, offset 0x20, size 0x8
-  __declspec(property(get = __get_otherTargetsRoot, put = __set_otherTargetsRoot))::UnityEngine::Transform* otherTargetsRoot;
+  __declspec(property(get = __cordl_internal_get_otherTargetsRoot, put = __cordl_internal_set_otherTargetsRoot))::UnityW<::UnityEngine::Transform> otherTargetsRoot;
 
   /// @brief Field positionOffsetSpace, offset 0x28, size 0x8
-  __declspec(property(get = __get_positionOffsetSpace, put = __set_positionOffsetSpace))::UnityEngine::Transform* positionOffsetSpace;
+  __declspec(property(get = __cordl_internal_get_positionOffsetSpace, put = __cordl_internal_set_positionOffsetSpace))::UnityW<::UnityEngine::Transform> positionOffsetSpace;
 
   /// @brief Field weightCurves, offset 0x30, size 0x8
-  __declspec(property(get = __get_weightCurves,
-                      put = __set_weightCurves))::ArrayW<::RootMotion::FinalIK::__InteractionObject__WeightCurve*, ::Array<::RootMotion::FinalIK::__InteractionObject__WeightCurve*>*> weightCurves;
+  __declspec(property(
+      get = __cordl_internal_get_weightCurves,
+      put = __cordl_internal_set_weightCurves))::ArrayW<::RootMotion::FinalIK::__InteractionObject__WeightCurve*, ::Array<::RootMotion::FinalIK::__InteractionObject__WeightCurve*>*> weightCurves;
 
   /// @brief Field multipliers, offset 0x38, size 0x8
-  __declspec(property(get = __get_multipliers,
-                      put = __set_multipliers))::ArrayW<::RootMotion::FinalIK::__InteractionObject__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionObject__Multiplier*>*> multipliers;
+  __declspec(
+      property(get = __cordl_internal_get_multipliers,
+               put = __cordl_internal_set_multipliers))::ArrayW<::RootMotion::FinalIK::__InteractionObject__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionObject__Multiplier*>*> multipliers;
 
   /// @brief Field events, offset 0x40, size 0x8
-  __declspec(property(get = __get_events,
-                      put = __set_events))::ArrayW<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*>*> events;
+  __declspec(property(
+      get = __cordl_internal_get_events,
+      put = __cordl_internal_set_events))::ArrayW<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*>*> events;
 
   /// @brief Field <length>k__BackingField, offset 0x48, size 0x4
-  __declspec(property(get = __get__length_k__BackingField, put = __set__length_k__BackingField)) float_t _length_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__length_k__BackingField, put = __cordl_internal_set__length_k__BackingField)) float_t _length_k__BackingField;
 
   /// @brief Field <lastUsedInteractionSystem>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __get__lastUsedInteractionSystem_k__BackingField,
-                      put = __set__lastUsedInteractionSystem_k__BackingField))::RootMotion::FinalIK::InteractionSystem* _lastUsedInteractionSystem_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lastUsedInteractionSystem_k__BackingField,
+                      put = __cordl_internal_set__lastUsedInteractionSystem_k__BackingField))::UnityW<::RootMotion::FinalIK::InteractionSystem> _lastUsedInteractionSystem_k__BackingField;
 
   /// @brief Field targets, offset 0x58, size 0x8
-  __declspec(property(get = __get_targets, put = __set_targets))::ArrayW<::RootMotion::FinalIK::InteractionTarget*, ::Array<::RootMotion::FinalIK::InteractionTarget*>*> targets;
+  __declspec(property(get = __cordl_internal_get_targets,
+                      put = __cordl_internal_set_targets))::ArrayW<::UnityW<::RootMotion::FinalIK::InteractionTarget>, ::Array<::UnityW<::RootMotion::FinalIK::InteractionTarget>>*> targets;
 
   __declspec(property(get = get_length, put = set_length)) float_t length;
 
-  __declspec(property(get = get_lastUsedInteractionSystem, put = set_lastUsedInteractionSystem))::RootMotion::FinalIK::InteractionSystem* lastUsedInteractionSystem;
+  __declspec(property(get = get_lastUsedInteractionSystem, put = set_lastUsedInteractionSystem))::UnityW<::RootMotion::FinalIK::InteractionSystem> lastUsedInteractionSystem;
 
-  __declspec(property(get = get_lookAtTarget))::UnityEngine::Transform* lookAtTarget;
+  __declspec(property(get = get_lookAtTarget))::UnityW<::UnityEngine::Transform> lookAtTarget;
 
-  __declspec(property(get = get_targetsRoot))::UnityEngine::Transform* targetsRoot;
+  __declspec(property(get = get_targetsRoot))::UnityW<::UnityEngine::Transform> targetsRoot;
 
-  constexpr ::UnityEngine::Transform*& __get_otherLookAtTarget();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_otherLookAtTarget();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_otherLookAtTarget() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_otherLookAtTarget() const;
 
-  constexpr void __set_otherLookAtTarget(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_otherLookAtTarget(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_otherTargetsRoot();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_otherTargetsRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_otherTargetsRoot() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_otherTargetsRoot() const;
 
-  constexpr void __set_otherTargetsRoot(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_otherTargetsRoot(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_positionOffsetSpace();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_positionOffsetSpace();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_positionOffsetSpace() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_positionOffsetSpace() const;
 
-  constexpr void __set_positionOffsetSpace(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_positionOffsetSpace(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__WeightCurve*, ::Array<::RootMotion::FinalIK::__InteractionObject__WeightCurve*>*>& __get_weightCurves();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__WeightCurve*, ::Array<::RootMotion::FinalIK::__InteractionObject__WeightCurve*>*>& __cordl_internal_get_weightCurves();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__WeightCurve*, ::Array<::RootMotion::FinalIK::__InteractionObject__WeightCurve*>*> const& __get_weightCurves() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__WeightCurve*, ::Array<::RootMotion::FinalIK::__InteractionObject__WeightCurve*>*> const& __cordl_internal_get_weightCurves() const;
 
-  constexpr void __set_weightCurves(::ArrayW<::RootMotion::FinalIK::__InteractionObject__WeightCurve*, ::Array<::RootMotion::FinalIK::__InteractionObject__WeightCurve*>*> value);
+  constexpr void __cordl_internal_set_weightCurves(::ArrayW<::RootMotion::FinalIK::__InteractionObject__WeightCurve*, ::Array<::RootMotion::FinalIK::__InteractionObject__WeightCurve*>*> value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionObject__Multiplier*>*>& __get_multipliers();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionObject__Multiplier*>*>& __cordl_internal_get_multipliers();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionObject__Multiplier*>*> const& __get_multipliers() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionObject__Multiplier*>*> const& __cordl_internal_get_multipliers() const;
 
-  constexpr void __set_multipliers(::ArrayW<::RootMotion::FinalIK::__InteractionObject__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionObject__Multiplier*>*> value);
+  constexpr void __cordl_internal_set_multipliers(::ArrayW<::RootMotion::FinalIK::__InteractionObject__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionObject__Multiplier*>*> value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*>*>& __get_events();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*>*>& __cordl_internal_get_events();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*>*> const& __get_events() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*>*> const& __cordl_internal_get_events() const;
 
-  constexpr void __set_events(::ArrayW<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*>*> value);
+  constexpr void __cordl_internal_set_events(::ArrayW<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*, ::Array<::RootMotion::FinalIK::__InteractionObject__InteractionEvent*>*> value);
 
-  constexpr float_t& __get__length_k__BackingField();
+  constexpr float_t& __cordl_internal_get__length_k__BackingField();
 
-  constexpr float_t const& __get__length_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__length_k__BackingField() const;
 
-  constexpr void __set__length_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__length_k__BackingField(float_t value);
 
-  constexpr ::RootMotion::FinalIK::InteractionSystem*& __get__lastUsedInteractionSystem_k__BackingField();
+  constexpr ::UnityW<::RootMotion::FinalIK::InteractionSystem>& __cordl_internal_get__lastUsedInteractionSystem_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::InteractionSystem*> const& __get__lastUsedInteractionSystem_k__BackingField() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::InteractionSystem> const& __cordl_internal_get__lastUsedInteractionSystem_k__BackingField() const;
 
-  constexpr void __set__lastUsedInteractionSystem_k__BackingField(::RootMotion::FinalIK::InteractionSystem* value);
+  constexpr void __cordl_internal_set__lastUsedInteractionSystem_k__BackingField(::UnityW<::RootMotion::FinalIK::InteractionSystem> value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::InteractionTarget*, ::Array<::RootMotion::FinalIK::InteractionTarget*>*>& __get_targets();
+  constexpr ::ArrayW<::UnityW<::RootMotion::FinalIK::InteractionTarget>, ::Array<::UnityW<::RootMotion::FinalIK::InteractionTarget>>*>& __cordl_internal_get_targets();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::InteractionTarget*, ::Array<::RootMotion::FinalIK::InteractionTarget*>*> const& __get_targets() const;
+  constexpr ::ArrayW<::UnityW<::RootMotion::FinalIK::InteractionTarget>, ::Array<::UnityW<::RootMotion::FinalIK::InteractionTarget>>*> const& __cordl_internal_get_targets() const;
 
-  constexpr void __set_targets(::ArrayW<::RootMotion::FinalIK::InteractionTarget*, ::Array<::RootMotion::FinalIK::InteractionTarget*>*> value);
+  constexpr void __cordl_internal_set_targets(::ArrayW<::UnityW<::RootMotion::FinalIK::InteractionTarget>, ::Array<::UnityW<::RootMotion::FinalIK::InteractionTarget>>*> value);
 
   /// @brief Method OpenUserManual, addr 0x1286768, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();
@@ -795,7 +800,7 @@ public:
   inline void set_length(float_t value);
 
   /// @brief Method get_lastUsedInteractionSystem, addr 0x1286998, size 0x8, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::InteractionSystem* get_lastUsedInteractionSystem();
+  inline ::UnityW<::RootMotion::FinalIK::InteractionSystem> get_lastUsedInteractionSystem();
 
   /// @brief Method set_lastUsedInteractionSystem, addr 0x12869a0, size 0x8, virtual false, abstract: false, final false
   inline void set_lastUsedInteractionSystem(::RootMotion::FinalIK::InteractionSystem* value);
@@ -804,19 +809,19 @@ public:
   inline void Initiate();
 
   /// @brief Method get_lookAtTarget, addr 0x1286b58, size 0x80, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_lookAtTarget();
+  inline ::UnityW<::UnityEngine::Transform> get_lookAtTarget();
 
   /// @brief Method GetTarget, addr 0x1286bd8, size 0x178, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::InteractionTarget* GetTarget(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionSystem* interactionSystem);
+  inline ::UnityW<::RootMotion::FinalIK::InteractionTarget> GetTarget(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::RootMotion::FinalIK::InteractionSystem* interactionSystem);
 
   /// @brief Method CurveUsed, addr 0x1284720, size 0x94, virtual false, abstract: false, final false
   inline bool CurveUsed(::GlobalNamespace::__InteractionObject__WeightCurve__Type type);
 
   /// @brief Method GetTargets, addr 0x1286d50, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::RootMotion::FinalIK::InteractionTarget*, ::Array<::RootMotion::FinalIK::InteractionTarget*>*> GetTargets();
+  inline ::ArrayW<::UnityW<::RootMotion::FinalIK::InteractionTarget>, ::Array<::UnityW<::RootMotion::FinalIK::InteractionTarget>>*> GetTargets();
 
   /// @brief Method GetTarget, addr 0x12845dc, size 0x13c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* GetTarget(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::StringW tag);
+  inline ::UnityW<::UnityEngine::Transform> GetTarget(::RootMotion::FinalIK::FullBodyBipedEffector effectorType, ::StringW tag);
 
   /// @brief Method OnStartInteraction, addr 0x1284718, size 0x8, virtual false, abstract: false, final false
   inline void OnStartInteraction(::RootMotion::FinalIK::InteractionSystem* interactionSystem);
@@ -829,7 +834,7 @@ public:
   inline float_t GetValue(::GlobalNamespace::__InteractionObject__WeightCurve__Type weightCurveType, ::RootMotion::FinalIK::InteractionTarget* target, float_t timer);
 
   /// @brief Method get_targetsRoot, addr 0x1285f20, size 0x80, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_targetsRoot();
+  inline ::UnityW<::UnityEngine::Transform> get_targetsRoot();
 
   /// @brief Method Start, addr 0x1287458, size 0x4, virtual false, abstract: false, final false
   inline void Start();
@@ -839,7 +844,7 @@ public:
                     float_t value, float_t weight);
 
   /// @brief Method GetTarget, addr 0x1286d58, size 0x64, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* GetTarget(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
+  inline ::UnityW<::UnityEngine::Transform> GetTarget(::RootMotion::FinalIK::FullBodyBipedEffector effectorType);
 
   /// @brief Method GetWeightCurveIndex, addr 0x12873cc, size 0x5c, virtual false, abstract: false, final false
   inline int32_t GetWeightCurveIndex(::GlobalNamespace::__InteractionObject__WeightCurve__Type weightCurveType);
@@ -867,13 +872,13 @@ protected:
 
 public:
   /// @brief Field otherLookAtTarget, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___otherLookAtTarget;
+  ::UnityW<::UnityEngine::Transform> ___otherLookAtTarget;
 
   /// @brief Field otherTargetsRoot, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___otherTargetsRoot;
+  ::UnityW<::UnityEngine::Transform> ___otherTargetsRoot;
 
   /// @brief Field positionOffsetSpace, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___positionOffsetSpace;
+  ::UnityW<::UnityEngine::Transform> ___positionOffsetSpace;
 
   /// @brief Field weightCurves, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::RootMotion::FinalIK::__InteractionObject__WeightCurve*, ::Array<::RootMotion::FinalIK::__InteractionObject__WeightCurve*>*> ___weightCurves;
@@ -888,10 +893,10 @@ public:
   float_t ____length_k__BackingField;
 
   /// @brief Field <lastUsedInteractionSystem>k__BackingField, offset: 0x50, size: 0x8, def value: None
-  ::RootMotion::FinalIK::InteractionSystem* ____lastUsedInteractionSystem_k__BackingField;
+  ::UnityW<::RootMotion::FinalIK::InteractionSystem> ____lastUsedInteractionSystem_k__BackingField;
 
   /// @brief Field targets, offset: 0x58, size: 0x8, def value: None
-  ::ArrayW<::RootMotion::FinalIK::InteractionTarget*, ::Array<::RootMotion::FinalIK::InteractionTarget*>*> ___targets;
+  ::ArrayW<::UnityW<::RootMotion::FinalIK::InteractionTarget>, ::Array<::UnityW<::RootMotion::FinalIK::InteractionTarget>>*> ___targets;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

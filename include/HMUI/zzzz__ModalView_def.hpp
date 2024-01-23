@@ -55,29 +55,29 @@ MARK_REF_PTR_T(::HMUI::__ModalView____c__DisplayClass21_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13634))
 // CS Name: ::ModalView::<>c__DisplayClass17_0*
 class CORDL_TYPE __ModalView____c__DisplayClass17_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::HMUI::ModalView* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::HMUI::ModalView> __4__this;
 
   /// @brief Field finishedCallback, offset 0x18, size 0x8
-  __declspec(property(get = __get_finishedCallback, put = __set_finishedCallback))::System::Action* finishedCallback;
+  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback))::System::Action* finishedCallback;
 
-  constexpr ::HMUI::ModalView*& __get___4__this();
+  constexpr ::UnityW<::HMUI::ModalView>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ModalView*> const& __get___4__this() const;
+  constexpr ::UnityW<::HMUI::ModalView> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::HMUI::ModalView* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::ModalView> value);
 
-  constexpr ::System::Action*& __get_finishedCallback();
+  constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_finishedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_finishedCallback() const;
 
-  constexpr void __set_finishedCallback(::System::Action* value);
+  constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
   static inline ::HMUI::__ModalView____c__DisplayClass17_0* New_ctor();
 
@@ -102,7 +102,7 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::HMUI::ModalView* _____4__this;
+  ::UnityW<::HMUI::ModalView> _____4__this;
 
   /// @brief Field finishedCallback, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___finishedCallback;
@@ -121,29 +121,29 @@ static_assert(offsetof(::HMUI::__ModalView____c__DisplayClass17_0, ___finishedCa
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13635))
 // CS Name: ::ModalView::<>c__DisplayClass21_0*
 class CORDL_TYPE __ModalView____c__DisplayClass21_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::HMUI::ModalView* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::HMUI::ModalView> __4__this;
 
   /// @brief Field prevAnimateParentCanvas, offset 0x18, size 0x1
-  __declspec(property(get = __get_prevAnimateParentCanvas, put = __set_prevAnimateParentCanvas)) bool prevAnimateParentCanvas;
+  __declspec(property(get = __cordl_internal_get_prevAnimateParentCanvas, put = __cordl_internal_set_prevAnimateParentCanvas)) bool prevAnimateParentCanvas;
 
-  constexpr ::HMUI::ModalView*& __get___4__this();
+  constexpr ::UnityW<::HMUI::ModalView>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ModalView*> const& __get___4__this() const;
+  constexpr ::UnityW<::HMUI::ModalView> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::HMUI::ModalView* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::ModalView> value);
 
-  constexpr bool& __get_prevAnimateParentCanvas();
+  constexpr bool& __cordl_internal_get_prevAnimateParentCanvas();
 
-  constexpr bool const& __get_prevAnimateParentCanvas() const;
+  constexpr bool const& __cordl_internal_get_prevAnimateParentCanvas() const;
 
-  constexpr void __set_prevAnimateParentCanvas(bool value);
+  constexpr void __cordl_internal_set_prevAnimateParentCanvas(bool value);
 
   static inline ::HMUI::__ModalView____c__DisplayClass21_0* New_ctor();
 
@@ -168,7 +168,7 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::HMUI::ModalView* _____4__this;
+  ::UnityW<::HMUI::ModalView> _____4__this;
 
   /// @brief Field prevAnimateParentCanvas, offset: 0x18, size: 0x1, def value: None
   bool ___prevAnimateParentCanvas;
@@ -187,7 +187,7 @@ static_assert(offsetof(::HMUI::__ModalView____c__DisplayClass21_0, ___prevAnimat
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13636))
 // CS Name: ::HMUI::ModalView*
 class CORDL_TYPE ModalView : public ::UnityEngine::MonoBehaviour {
@@ -198,112 +198,112 @@ public:
   using __c__DisplayClass17_0 = ::HMUI::__ModalView____c__DisplayClass17_0;
 
   /// @brief Field _presentPanelAnimations, offset 0x18, size 0x8
-  __declspec(property(get = __get__presentPanelAnimations, put = __set__presentPanelAnimations))::HMUI::PanelAnimationSO* _presentPanelAnimations;
+  __declspec(property(get = __cordl_internal_get__presentPanelAnimations, put = __cordl_internal_set__presentPanelAnimations))::UnityW<::HMUI::PanelAnimationSO> _presentPanelAnimations;
 
   /// @brief Field _dismissPanelAnimation, offset 0x20, size 0x8
-  __declspec(property(get = __get__dismissPanelAnimation, put = __set__dismissPanelAnimation))::HMUI::PanelAnimationSO* _dismissPanelAnimation;
+  __declspec(property(get = __cordl_internal_get__dismissPanelAnimation, put = __cordl_internal_set__dismissPanelAnimation))::UnityW<::HMUI::PanelAnimationSO> _dismissPanelAnimation;
 
   /// @brief Field _animateParentCanvas, offset 0x28, size 0x1
-  __declspec(property(get = __get__animateParentCanvas, put = __set__animateParentCanvas)) bool _animateParentCanvas;
+  __declspec(property(get = __cordl_internal_get__animateParentCanvas, put = __cordl_internal_set__animateParentCanvas)) bool _animateParentCanvas;
 
   /// @brief Field _container, offset 0x30, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field blockerClickedEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_blockerClickedEvent, put = __set_blockerClickedEvent))::System::Action* blockerClickedEvent;
+  __declspec(property(get = __cordl_internal_get_blockerClickedEvent, put = __cordl_internal_set_blockerClickedEvent))::System::Action* blockerClickedEvent;
 
   /// @brief Field _previousParent, offset 0x40, size 0x8
-  __declspec(property(get = __get__previousParent, put = __set__previousParent))::UnityEngine::Transform* _previousParent;
+  __declspec(property(get = __cordl_internal_get__previousParent, put = __cordl_internal_set__previousParent))::UnityW<::UnityEngine::Transform> _previousParent;
 
   /// @brief Field _isShown, offset 0x48, size 0x1
-  __declspec(property(get = __get__isShown, put = __set__isShown)) bool _isShown;
+  __declspec(property(get = __cordl_internal_get__isShown, put = __cordl_internal_set__isShown)) bool _isShown;
 
   /// @brief Field _viewIsValid, offset 0x49, size 0x1
-  __declspec(property(get = __get__viewIsValid, put = __set__viewIsValid)) bool _viewIsValid;
+  __declspec(property(get = __cordl_internal_get__viewIsValid, put = __cordl_internal_set__viewIsValid)) bool _viewIsValid;
 
   /// @brief Field _mainCanvas, offset 0x50, size 0x8
-  __declspec(property(get = __get__mainCanvas, put = __set__mainCanvas))::UnityEngine::Canvas* _mainCanvas;
+  __declspec(property(get = __cordl_internal_get__mainCanvas, put = __cordl_internal_set__mainCanvas))::UnityW<::UnityEngine::Canvas> _mainCanvas;
 
   /// @brief Field _parentCanvasGroup, offset 0x58, size 0x8
-  __declspec(property(get = __get__parentCanvasGroup, put = __set__parentCanvasGroup))::UnityEngine::CanvasGroup* _parentCanvasGroup;
+  __declspec(property(get = __cordl_internal_get__parentCanvasGroup, put = __cordl_internal_set__parentCanvasGroup))::UnityW<::UnityEngine::CanvasGroup> _parentCanvasGroup;
 
   /// @brief Field _blockerGO, offset 0x60, size 0x8
-  __declspec(property(get = __get__blockerGO, put = __set__blockerGO))::UnityEngine::GameObject* _blockerGO;
+  __declspec(property(get = __cordl_internal_get__blockerGO, put = __cordl_internal_set__blockerGO))::UnityW<::UnityEngine::GameObject> _blockerGO;
 
   /// @brief Field _test, offset 0x68, size 0x4
-  __declspec(property(get = __get__test, put = __set__test)) int32_t _test;
+  __declspec(property(get = __cordl_internal_get__test, put = __cordl_internal_set__test)) int32_t _test;
 
-  constexpr ::HMUI::PanelAnimationSO*& __get__presentPanelAnimations();
+  constexpr ::UnityW<::HMUI::PanelAnimationSO>& __cordl_internal_get__presentPanelAnimations();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::PanelAnimationSO*> const& __get__presentPanelAnimations() const;
+  constexpr ::UnityW<::HMUI::PanelAnimationSO> const& __cordl_internal_get__presentPanelAnimations() const;
 
-  constexpr void __set__presentPanelAnimations(::HMUI::PanelAnimationSO* value);
+  constexpr void __cordl_internal_set__presentPanelAnimations(::UnityW<::HMUI::PanelAnimationSO> value);
 
-  constexpr ::HMUI::PanelAnimationSO*& __get__dismissPanelAnimation();
+  constexpr ::UnityW<::HMUI::PanelAnimationSO>& __cordl_internal_get__dismissPanelAnimation();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::PanelAnimationSO*> const& __get__dismissPanelAnimation() const;
+  constexpr ::UnityW<::HMUI::PanelAnimationSO> const& __cordl_internal_get__dismissPanelAnimation() const;
 
-  constexpr void __set__dismissPanelAnimation(::HMUI::PanelAnimationSO* value);
+  constexpr void __cordl_internal_set__dismissPanelAnimation(::UnityW<::HMUI::PanelAnimationSO> value);
 
-  constexpr bool& __get__animateParentCanvas();
+  constexpr bool& __cordl_internal_get__animateParentCanvas();
 
-  constexpr bool const& __get__animateParentCanvas() const;
+  constexpr bool const& __cordl_internal_get__animateParentCanvas() const;
 
-  constexpr void __set__animateParentCanvas(bool value);
+  constexpr void __cordl_internal_set__animateParentCanvas(bool value);
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::System::Action*& __get_blockerClickedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_blockerClickedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_blockerClickedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_blockerClickedEvent() const;
 
-  constexpr void __set_blockerClickedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_blockerClickedEvent(::System::Action* value);
 
-  constexpr ::UnityEngine::Transform*& __get__previousParent();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__previousParent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__previousParent() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__previousParent() const;
 
-  constexpr void __set__previousParent(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__previousParent(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr bool& __get__isShown();
+  constexpr bool& __cordl_internal_get__isShown();
 
-  constexpr bool const& __get__isShown() const;
+  constexpr bool const& __cordl_internal_get__isShown() const;
 
-  constexpr void __set__isShown(bool value);
+  constexpr void __cordl_internal_set__isShown(bool value);
 
-  constexpr bool& __get__viewIsValid();
+  constexpr bool& __cordl_internal_get__viewIsValid();
 
-  constexpr bool const& __get__viewIsValid() const;
+  constexpr bool const& __cordl_internal_get__viewIsValid() const;
 
-  constexpr void __set__viewIsValid(bool value);
+  constexpr void __cordl_internal_set__viewIsValid(bool value);
 
-  constexpr ::UnityEngine::Canvas*& __get__mainCanvas();
+  constexpr ::UnityW<::UnityEngine::Canvas>& __cordl_internal_get__mainCanvas();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Canvas*> const& __get__mainCanvas() const;
+  constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get__mainCanvas() const;
 
-  constexpr void __set__mainCanvas(::UnityEngine::Canvas* value);
+  constexpr void __cordl_internal_set__mainCanvas(::UnityW<::UnityEngine::Canvas> value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__parentCanvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__parentCanvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__parentCanvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__parentCanvasGroup() const;
 
-  constexpr void __set__parentCanvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__parentCanvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__blockerGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__blockerGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__blockerGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__blockerGO() const;
 
-  constexpr void __set__blockerGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__blockerGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr int32_t& __get__test();
+  constexpr int32_t& __cordl_internal_get__test();
 
-  constexpr int32_t const& __get__test() const;
+  constexpr int32_t const& __cordl_internal_get__test() const;
 
-  constexpr void __set__test(int32_t value);
+  constexpr void __cordl_internal_set__test(int32_t value);
 
   /// @brief Method add_blockerClickedEvent, addr 0x21419f0, size 0x9c, virtual false, abstract: false, final false
   inline void add_blockerClickedEvent(::System::Action* value);
@@ -327,7 +327,7 @@ public:
   inline void Show(bool animated, bool moveToCenter, ::System::Action* finishedCallback);
 
   /// @brief Method CreateBlocker, addr 0x2142540, size 0x45c, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* CreateBlocker();
+  inline ::UnityW<::UnityEngine::GameObject> CreateBlocker();
 
   /// @brief Method HandleBlockerButtonClicked, addr 0x214299c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleBlockerButtonClicked();
@@ -336,7 +336,7 @@ public:
   inline void HandleParentViewControllerDidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
   /// @brief Method GetModalRootTransform, addr 0x2142440, size 0x100, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* GetModalRootTransform(::UnityEngine::Transform* transform, ByRef<::UnityEngine::Canvas*> canvas, ByRef<::HMUI::ViewController*> viewController);
+  static inline ::UnityW<::UnityEngine::Transform> GetModalRootTransform(::UnityEngine::Transform* transform, ByRef<::UnityEngine::Canvas*> canvas, ByRef<::HMUI::ViewController*> viewController);
 
   static inline ::HMUI::ModalView* New_ctor();
 
@@ -358,10 +358,10 @@ protected:
 
 public:
   /// @brief Field _presentPanelAnimations, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::PanelAnimationSO* ____presentPanelAnimations;
+  ::UnityW<::HMUI::PanelAnimationSO> ____presentPanelAnimations;
 
   /// @brief Field _dismissPanelAnimation, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::PanelAnimationSO* ____dismissPanelAnimation;
+  ::UnityW<::HMUI::PanelAnimationSO> ____dismissPanelAnimation;
 
   /// @brief Field _animateParentCanvas, offset: 0x28, size: 0x1, def value: None
   bool ____animateParentCanvas;
@@ -373,7 +373,7 @@ public:
   ::System::Action* ___blockerClickedEvent;
 
   /// @brief Field _previousParent, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____previousParent;
+  ::UnityW<::UnityEngine::Transform> ____previousParent;
 
   /// @brief Field _isShown, offset: 0x48, size: 0x1, def value: None
   bool ____isShown;
@@ -382,13 +382,13 @@ public:
   bool ____viewIsValid;
 
   /// @brief Field _mainCanvas, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Canvas* ____mainCanvas;
+  ::UnityW<::UnityEngine::Canvas> ____mainCanvas;
 
   /// @brief Field _parentCanvasGroup, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____parentCanvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ____parentCanvasGroup;
 
   /// @brief Field _blockerGO, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____blockerGO;
+  ::UnityW<::UnityEngine::GameObject> ____blockerGO;
 
   /// @brief Field _test, offset: 0x68, size: 0x4, def value: None
   int32_t ____test;

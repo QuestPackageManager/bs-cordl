@@ -20,29 +20,29 @@ MARK_REF_PTR_T(::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4083))
 // CS Name: ::SongPreviewPlayerPauseOnInputFocusLost*
 class CORDL_TYPE SongPreviewPlayerPauseOnInputFocusLost : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _songPreviewPlayer, offset 0x18, size 0x8
-  __declspec(property(get = __get__songPreviewPlayer, put = __set__songPreviewPlayer))::GlobalNamespace::AudioPlayerBase* _songPreviewPlayer;
+  __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer))::UnityW<::GlobalNamespace::AudioPlayerBase> _songPreviewPlayer;
 
   /// @brief Field _vrPlatformHelper, offset 0x20, size 0x8
-  __declspec(property(get = __get__vrPlatformHelper, put = __set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  constexpr ::GlobalNamespace::AudioPlayerBase*& __get__songPreviewPlayer();
+  constexpr ::UnityW<::GlobalNamespace::AudioPlayerBase>& __cordl_internal_get__songPreviewPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioPlayerBase*> const& __get__songPreviewPlayer() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioPlayerBase> const& __cordl_internal_get__songPreviewPlayer() const;
 
-  constexpr void __set__songPreviewPlayer(::GlobalNamespace::AudioPlayerBase* value);
+  constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::AudioPlayerBase> value);
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper*& __get__vrPlatformHelper();
+  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __get__vrPlatformHelper() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
 
-  constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
   /// @brief Method Start, addr 0x223128c, size 0x210, virtual false, abstract: false, final false
   inline void Start();
@@ -76,7 +76,7 @@ protected:
 
 public:
   /// @brief Field _songPreviewPlayer, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::AudioPlayerBase* ____songPreviewPlayer;
+  ::UnityW<::GlobalNamespace::AudioPlayerBase> ____songPreviewPlayer;
 
   /// @brief Field _vrPlatformHelper, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;

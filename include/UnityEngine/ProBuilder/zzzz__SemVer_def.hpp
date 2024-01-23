@@ -29,32 +29,32 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::SemVer);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12194))
 // CS Name: ::UnityEngine.ProBuilder::SemVer*
 class CORDL_TYPE SemVer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Major, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_Major, put = __set_m_Major)) int32_t m_Major;
+  __declspec(property(get = __cordl_internal_get_m_Major, put = __cordl_internal_set_m_Major)) int32_t m_Major;
 
   /// @brief Field m_Minor, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_Minor, put = __set_m_Minor)) int32_t m_Minor;
+  __declspec(property(get = __cordl_internal_get_m_Minor, put = __cordl_internal_set_m_Minor)) int32_t m_Minor;
 
   /// @brief Field m_Patch, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_Patch, put = __set_m_Patch)) int32_t m_Patch;
+  __declspec(property(get = __cordl_internal_get_m_Patch, put = __cordl_internal_set_m_Patch)) int32_t m_Patch;
 
   /// @brief Field m_Build, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_Build, put = __set_m_Build)) int32_t m_Build;
+  __declspec(property(get = __cordl_internal_get_m_Build, put = __cordl_internal_set_m_Build)) int32_t m_Build;
 
   /// @brief Field m_Type, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Type, put = __set_m_Type))::StringW m_Type;
+  __declspec(property(get = __cordl_internal_get_m_Type, put = __cordl_internal_set_m_Type))::StringW m_Type;
 
   /// @brief Field m_Metadata, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Metadata, put = __set_m_Metadata))::StringW m_Metadata;
+  __declspec(property(get = __cordl_internal_get_m_Metadata, put = __cordl_internal_set_m_Metadata))::StringW m_Metadata;
 
   /// @brief Field m_Date, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Date, put = __set_m_Date))::StringW m_Date;
+  __declspec(property(get = __cordl_internal_get_m_Date, put = __cordl_internal_set_m_Date))::StringW m_Date;
 
   __declspec(property(get = get_major)) int32_t major;
 
@@ -90,47 +90,47 @@ public:
   /// @brief Convert to "::System::IComparable"
   constexpr ::System::IComparable* i___System__IComparable() noexcept;
 
-  constexpr int32_t& __get_m_Major();
+  constexpr int32_t& __cordl_internal_get_m_Major();
 
-  constexpr int32_t const& __get_m_Major() const;
+  constexpr int32_t const& __cordl_internal_get_m_Major() const;
 
-  constexpr void __set_m_Major(int32_t value);
+  constexpr void __cordl_internal_set_m_Major(int32_t value);
 
-  constexpr int32_t& __get_m_Minor();
+  constexpr int32_t& __cordl_internal_get_m_Minor();
 
-  constexpr int32_t const& __get_m_Minor() const;
+  constexpr int32_t const& __cordl_internal_get_m_Minor() const;
 
-  constexpr void __set_m_Minor(int32_t value);
+  constexpr void __cordl_internal_set_m_Minor(int32_t value);
 
-  constexpr int32_t& __get_m_Patch();
+  constexpr int32_t& __cordl_internal_get_m_Patch();
 
-  constexpr int32_t const& __get_m_Patch() const;
+  constexpr int32_t const& __cordl_internal_get_m_Patch() const;
 
-  constexpr void __set_m_Patch(int32_t value);
+  constexpr void __cordl_internal_set_m_Patch(int32_t value);
 
-  constexpr int32_t& __get_m_Build();
+  constexpr int32_t& __cordl_internal_get_m_Build();
 
-  constexpr int32_t const& __get_m_Build() const;
+  constexpr int32_t const& __cordl_internal_get_m_Build() const;
 
-  constexpr void __set_m_Build(int32_t value);
+  constexpr void __cordl_internal_set_m_Build(int32_t value);
 
-  constexpr ::StringW& __get_m_Type();
+  constexpr ::StringW& __cordl_internal_get_m_Type();
 
-  constexpr ::StringW const& __get_m_Type() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Type() const;
 
-  constexpr void __set_m_Type(::StringW value);
+  constexpr void __cordl_internal_set_m_Type(::StringW value);
 
-  constexpr ::StringW& __get_m_Metadata();
+  constexpr ::StringW& __cordl_internal_get_m_Metadata();
 
-  constexpr ::StringW const& __get_m_Metadata() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Metadata() const;
 
-  constexpr void __set_m_Metadata(::StringW value);
+  constexpr void __cordl_internal_set_m_Metadata(::StringW value);
 
-  constexpr ::StringW& __get_m_Date();
+  constexpr ::StringW& __cordl_internal_get_m_Date();
 
-  constexpr ::StringW const& __get_m_Date() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Date() const;
 
-  constexpr void __set_m_Date(::StringW value);
+  constexpr void __cordl_internal_set_m_Date(::StringW value);
 
   /// @brief Method get_major, addr 0x2b6c460, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_major();

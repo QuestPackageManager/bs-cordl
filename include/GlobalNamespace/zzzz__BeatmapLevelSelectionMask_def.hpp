@@ -39,7 +39,7 @@ MARK_VAL_T(::GlobalNamespace::BeatmapLevelSelectionMask);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15047)), TypeDefinitionIndex(TypeDefinitionIndex(14719)), TypeDefinitionIndex(TypeDefinitionIndex(14997))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14719)), TypeDefinitionIndex(TypeDefinitionIndex(14997)), TypeDefinitionIndex(TypeDefinitionIndex(15047))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12686))
 // CS Name: ::BeatmapLevelSelectionMask
 struct CORDL_TYPE BeatmapLevelSelectionMask {

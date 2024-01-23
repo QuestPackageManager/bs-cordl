@@ -88,7 +88,7 @@ MARK_VAL_T(::GlobalNamespace::__RecordingToolManager___HandleGameplayLevelSceneT
 // SizeInfo { instance_size: 2, native_size: 8, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5962))
 // CS Name: ::RecordingToolManager::SetupData
 struct CORDL_TYPE __RecordingToolManager__SetupData {
@@ -124,7 +124,7 @@ static_assert(offsetof(::GlobalNamespace::__RecordingToolManager__SetupData, run
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5963))
 // CS Name: ::RecordingToolManager::<>c*
 class CORDL_TYPE __RecordingToolManager____c : public ::System::Object {
@@ -176,7 +176,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__RecordingTool
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5964))
 // CS Name: ::RecordingToolManager::<HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish>d__28
 struct CORDL_TYPE __RecordingToolManager___HandleGameplayLevelSceneTransitionEventsAnyGameplayLevelDidFinish_d__28 {
@@ -239,7 +239,7 @@ static_assert(offsetof(::GlobalNamespace::__RecordingToolManager___HandleGamepla
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5965))
 // CS Name: ::RecordingToolManager*
 class CORDL_TYPE RecordingToolManager : public ::System::Object {
@@ -252,38 +252,39 @@ public:
   using SetupData = ::GlobalNamespace::__RecordingToolManager__SetupData;
 
   /// @brief Field _gameplayLevelSceneTransitionEvents, offset 0x10, size 0x8
-  __declspec(property(get = __get__gameplayLevelSceneTransitionEvents,
-                      put = __set__gameplayLevelSceneTransitionEvents))::GlobalNamespace::GameplayLevelSceneTransitionEvents* _gameplayLevelSceneTransitionEvents;
+  __declspec(property(get = __cordl_internal_get__gameplayLevelSceneTransitionEvents,
+                      put = __cordl_internal_set__gameplayLevelSceneTransitionEvents))::GlobalNamespace::GameplayLevelSceneTransitionEvents* _gameplayLevelSceneTransitionEvents;
 
   /// @brief Field _gameScenesManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
   /// @brief Field _recordingToolEnabled, offset 0x20, size 0x1
-  __declspec(property(get = __get__recordingToolEnabled, put = __set__recordingToolEnabled)) bool _recordingToolEnabled;
+  __declspec(property(get = __cordl_internal_get__recordingToolEnabled, put = __cordl_internal_set__recordingToolEnabled)) bool _recordingToolEnabled;
 
   /// @brief Field _performanceRecordingEnabled, offset 0x21, size 0x1
-  __declspec(property(get = __get__performanceRecordingEnabled, put = __set__performanceRecordingEnabled)) bool _performanceRecordingEnabled;
+  __declspec(property(get = __cordl_internal_get__performanceRecordingEnabled, put = __cordl_internal_set__performanceRecordingEnabled)) bool _performanceRecordingEnabled;
 
   /// @brief Field _configJsonData, offset 0x28, size 0x8
-  __declspec(property(get = __get__configJsonData, put = __set__configJsonData))::StringW _configJsonData;
+  __declspec(property(get = __cordl_internal_get__configJsonData, put = __cordl_internal_set__configJsonData))::StringW _configJsonData;
 
   /// @brief Field _recordingToolSettings, offset 0x30, size 0x8
-  __declspec(property(get = __get__recordingToolSettings, put = __set__recordingToolSettings))::GlobalNamespace::RecordingToolSettings* _recordingToolSettings;
+  __declspec(property(get = __cordl_internal_get__recordingToolSettings, put = __cordl_internal_set__recordingToolSettings))::GlobalNamespace::RecordingToolSettings* _recordingToolSettings;
 
   /// @brief Field _configurationProcessor, offset 0x38, size 0x8
-  __declspec(property(get = __get__configurationProcessor, put = __set__configurationProcessor))::GlobalNamespace::RecordingToolConfigurationProcessor* _configurationProcessor;
+  __declspec(property(get = __cordl_internal_get__configurationProcessor,
+                      put = __cordl_internal_set__configurationProcessor))::GlobalNamespace::RecordingToolConfigurationProcessor* _configurationProcessor;
 
   /// @brief Field _container, offset 0x40, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _logger, offset 0x48, size 0x8
-  __declspec(property(get = __get__logger, put = __set__logger))::GlobalNamespace::IBeatSaberLogger* _logger;
+  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger))::GlobalNamespace::IBeatSaberLogger* _logger;
 
   /// @brief Field _posesSerializer, offset 0x50, size 0x8
-  __declspec(property(get = __get__posesSerializer, put = __set__posesSerializer))::GlobalNamespace::IPosesSerializer* _posesSerializer;
+  __declspec(property(get = __cordl_internal_get__posesSerializer, put = __cordl_internal_set__posesSerializer))::GlobalNamespace::IPosesSerializer* _posesSerializer;
 
   /// @brief Field _currentRecordingIndex, offset 0x58, size 0x4
-  __declspec(property(get = __get__currentRecordingIndex, put = __set__currentRecordingIndex)) int32_t _currentRecordingIndex;
+  __declspec(property(get = __cordl_internal_get__currentRecordingIndex, put = __cordl_internal_set__currentRecordingIndex)) int32_t _currentRecordingIndex;
 
   __declspec(property(get = get_recordingToolEnabled)) bool recordingToolEnabled;
 
@@ -309,71 +310,71 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::GlobalNamespace::GameplayLevelSceneTransitionEvents*& __get__gameplayLevelSceneTransitionEvents();
+  constexpr ::GlobalNamespace::GameplayLevelSceneTransitionEvents*& __cordl_internal_get__gameplayLevelSceneTransitionEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayLevelSceneTransitionEvents*> const& __get__gameplayLevelSceneTransitionEvents() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayLevelSceneTransitionEvents*> const& __cordl_internal_get__gameplayLevelSceneTransitionEvents() const;
 
-  constexpr void __set__gameplayLevelSceneTransitionEvents(::GlobalNamespace::GameplayLevelSceneTransitionEvents* value);
+  constexpr void __cordl_internal_set__gameplayLevelSceneTransitionEvents(::GlobalNamespace::GameplayLevelSceneTransitionEvents* value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get__gameScenesManager();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get__gameScenesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
-  constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr bool& __get__recordingToolEnabled();
+  constexpr bool& __cordl_internal_get__recordingToolEnabled();
 
-  constexpr bool const& __get__recordingToolEnabled() const;
+  constexpr bool const& __cordl_internal_get__recordingToolEnabled() const;
 
-  constexpr void __set__recordingToolEnabled(bool value);
+  constexpr void __cordl_internal_set__recordingToolEnabled(bool value);
 
-  constexpr bool& __get__performanceRecordingEnabled();
+  constexpr bool& __cordl_internal_get__performanceRecordingEnabled();
 
-  constexpr bool const& __get__performanceRecordingEnabled() const;
+  constexpr bool const& __cordl_internal_get__performanceRecordingEnabled() const;
 
-  constexpr void __set__performanceRecordingEnabled(bool value);
+  constexpr void __cordl_internal_set__performanceRecordingEnabled(bool value);
 
-  constexpr ::StringW& __get__configJsonData();
+  constexpr ::StringW& __cordl_internal_get__configJsonData();
 
-  constexpr ::StringW const& __get__configJsonData() const;
+  constexpr ::StringW const& __cordl_internal_get__configJsonData() const;
 
-  constexpr void __set__configJsonData(::StringW value);
+  constexpr void __cordl_internal_set__configJsonData(::StringW value);
 
-  constexpr ::GlobalNamespace::RecordingToolSettings*& __get__recordingToolSettings();
+  constexpr ::GlobalNamespace::RecordingToolSettings*& __cordl_internal_get__recordingToolSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolSettings*> const& __get__recordingToolSettings() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolSettings*> const& __cordl_internal_get__recordingToolSettings() const;
 
-  constexpr void __set__recordingToolSettings(::GlobalNamespace::RecordingToolSettings* value);
+  constexpr void __cordl_internal_set__recordingToolSettings(::GlobalNamespace::RecordingToolSettings* value);
 
-  constexpr ::GlobalNamespace::RecordingToolConfigurationProcessor*& __get__configurationProcessor();
+  constexpr ::GlobalNamespace::RecordingToolConfigurationProcessor*& __cordl_internal_get__configurationProcessor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolConfigurationProcessor*> const& __get__configurationProcessor() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolConfigurationProcessor*> const& __cordl_internal_get__configurationProcessor() const;
 
-  constexpr void __set__configurationProcessor(::GlobalNamespace::RecordingToolConfigurationProcessor* value);
+  constexpr void __cordl_internal_set__configurationProcessor(::GlobalNamespace::RecordingToolConfigurationProcessor* value);
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::GlobalNamespace::IBeatSaberLogger*& __get__logger();
+  constexpr ::GlobalNamespace::IBeatSaberLogger*& __cordl_internal_get__logger();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __get__logger() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __cordl_internal_get__logger() const;
 
-  constexpr void __set__logger(::GlobalNamespace::IBeatSaberLogger* value);
+  constexpr void __cordl_internal_set__logger(::GlobalNamespace::IBeatSaberLogger* value);
 
-  constexpr ::GlobalNamespace::IPosesSerializer*& __get__posesSerializer();
+  constexpr ::GlobalNamespace::IPosesSerializer*& __cordl_internal_get__posesSerializer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPosesSerializer*> const& __get__posesSerializer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPosesSerializer*> const& __cordl_internal_get__posesSerializer() const;
 
-  constexpr void __set__posesSerializer(::GlobalNamespace::IPosesSerializer* value);
+  constexpr void __cordl_internal_set__posesSerializer(::GlobalNamespace::IPosesSerializer* value);
 
-  constexpr int32_t& __get__currentRecordingIndex();
+  constexpr int32_t& __cordl_internal_get__currentRecordingIndex();
 
-  constexpr int32_t const& __get__currentRecordingIndex() const;
+  constexpr int32_t const& __cordl_internal_get__currentRecordingIndex() const;
 
-  constexpr void __set__currentRecordingIndex(int32_t value);
+  constexpr void __cordl_internal_set__currentRecordingIndex(int32_t value);
 
   /// @brief Method get_recordingToolEnabled, addr 0x230811c, size 0x8, virtual false, abstract: false, final false
   inline bool get_recordingToolEnabled();
@@ -433,7 +434,7 @@ public:
   ::GlobalNamespace::GameplayLevelSceneTransitionEvents* ____gameplayLevelSceneTransitionEvents;
 
   /// @brief Field _gameScenesManager, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
+  ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
   /// @brief Field _recordingToolEnabled, offset: 0x20, size: 0x1, def value: None
   bool ____recordingToolEnabled;

@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__ShaderInfoStorageRGBA32____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7382))
 // CS Name: ::ShaderInfoStorageRGBA32::<>c*
 class CORDL_TYPE __ShaderInfoStorageRGBA32____c : public ::System::Object {
@@ -78,8 +78,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10250)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7381), inst: 742 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7381))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7383)) CS Name: ::UnityEngine.UIElements.UIR::ShaderInfoStorageRGBA32*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7381)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7381), inst: 742
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7383)) CS Name: ::UnityEngine.UIElements.UIR::ShaderInfoStorageRGBA32*
 class CORDL_TYPE ShaderInfoStorageRGBA32 : public ::UnityEngine::UIElements::UIR::ShaderInfoStorage_1<::UnityEngine::Color32> {
 public:
   // Declarations

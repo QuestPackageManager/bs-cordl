@@ -51,8 +51,8 @@ MARK_VAL_T(::GlobalNamespace::GameplayServerConfiguration);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12721)), TypeDefinitionIndex(TypeDefinitionIndex(12759)), TypeDefinitionIndex(TypeDefinitionIndex(12959)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12768)), TypeDefinitionIndex(TypeDefinitionIndex(12804))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12758)) CS Name: ::GameplayServerConfiguration
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12721)), TypeDefinitionIndex(TypeDefinitionIndex(12759)), TypeDefinitionIndex(TypeDefinitionIndex(12768)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12804)), TypeDefinitionIndex(TypeDefinitionIndex(12959))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12758)) CS Name: ::GameplayServerConfiguration
 struct CORDL_TYPE GameplayServerConfiguration {
 public:
   // Declarations

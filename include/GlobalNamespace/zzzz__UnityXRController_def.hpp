@@ -44,62 +44,62 @@ MARK_REF_PTR_T(::GlobalNamespace::__UnityXRController__Configuration);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14433))
 // CS Name: ::UnityXRController::Configuration*
 class CORDL_TYPE __UnityXRController__Configuration : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <positionActionReference>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__positionActionReference_k__BackingField,
-                      put = __set__positionActionReference_k__BackingField))::UnityEngine::InputSystem::InputActionReference* _positionActionReference_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__positionActionReference_k__BackingField,
+                      put = __cordl_internal_set__positionActionReference_k__BackingField))::UnityW<::UnityEngine::InputSystem::InputActionReference> _positionActionReference_k__BackingField;
 
   /// @brief Field <orientationActionReference>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__orientationActionReference_k__BackingField,
-                      put = __set__orientationActionReference_k__BackingField))::UnityEngine::InputSystem::InputActionReference* _orientationActionReference_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__orientationActionReference_k__BackingField,
+                      put = __cordl_internal_set__orientationActionReference_k__BackingField))::UnityW<::UnityEngine::InputSystem::InputActionReference> _orientationActionReference_k__BackingField;
 
   /// @brief Field <thumbstickActionReference>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__thumbstickActionReference_k__BackingField,
-                      put = __set__thumbstickActionReference_k__BackingField))::UnityEngine::InputSystem::InputActionReference* _thumbstickActionReference_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__thumbstickActionReference_k__BackingField,
+                      put = __cordl_internal_set__thumbstickActionReference_k__BackingField))::UnityW<::UnityEngine::InputSystem::InputActionReference> _thumbstickActionReference_k__BackingField;
 
-  __declspec(property(get = get_positionActionReference, put = set_positionActionReference))::UnityEngine::InputSystem::InputActionReference* positionActionReference;
+  __declspec(property(get = get_positionActionReference, put = set_positionActionReference))::UnityW<::UnityEngine::InputSystem::InputActionReference> positionActionReference;
 
-  __declspec(property(get = get_orientationActionReference, put = set_orientationActionReference))::UnityEngine::InputSystem::InputActionReference* orientationActionReference;
+  __declspec(property(get = get_orientationActionReference, put = set_orientationActionReference))::UnityW<::UnityEngine::InputSystem::InputActionReference> orientationActionReference;
 
-  __declspec(property(get = get_thumbstickActionReference, put = set_thumbstickActionReference))::UnityEngine::InputSystem::InputActionReference* thumbstickActionReference;
+  __declspec(property(get = get_thumbstickActionReference, put = set_thumbstickActionReference))::UnityW<::UnityEngine::InputSystem::InputActionReference> thumbstickActionReference;
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get__positionActionReference_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get__positionActionReference_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get__positionActionReference_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get__positionActionReference_k__BackingField() const;
 
-  constexpr void __set__positionActionReference_k__BackingField(::UnityEngine::InputSystem::InputActionReference* value);
+  constexpr void __cordl_internal_set__positionActionReference_k__BackingField(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get__orientationActionReference_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get__orientationActionReference_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get__orientationActionReference_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get__orientationActionReference_k__BackingField() const;
 
-  constexpr void __set__orientationActionReference_k__BackingField(::UnityEngine::InputSystem::InputActionReference* value);
+  constexpr void __cordl_internal_set__orientationActionReference_k__BackingField(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get__thumbstickActionReference_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get__thumbstickActionReference_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get__thumbstickActionReference_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get__thumbstickActionReference_k__BackingField() const;
 
-  constexpr void __set__thumbstickActionReference_k__BackingField(::UnityEngine::InputSystem::InputActionReference* value);
+  constexpr void __cordl_internal_set__thumbstickActionReference_k__BackingField(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
   /// @brief Method get_positionActionReference, addr 0x20fd6e4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionReference* get_positionActionReference();
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_positionActionReference();
 
   /// @brief Method set_positionActionReference, addr 0x20fd6ec, size 0x8, virtual false, abstract: false, final false
   inline void set_positionActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
   /// @brief Method get_orientationActionReference, addr 0x20fd6f4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionReference* get_orientationActionReference();
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_orientationActionReference();
 
   /// @brief Method set_orientationActionReference, addr 0x20fd6fc, size 0x8, virtual false, abstract: false, final false
   inline void set_orientationActionReference(::UnityEngine::InputSystem::InputActionReference* value);
 
   /// @brief Method get_thumbstickActionReference, addr 0x20fd704, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionReference* get_thumbstickActionReference();
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> get_thumbstickActionReference();
 
   /// @brief Method set_thumbstickActionReference, addr 0x20fd70c, size 0x8, virtual false, abstract: false, final false
   inline void set_thumbstickActionReference(::UnityEngine::InputSystem::InputActionReference* value);
@@ -127,13 +127,13 @@ protected:
 
 public:
   /// @brief Field <positionActionReference>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ____positionActionReference_k__BackingField;
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____positionActionReference_k__BackingField;
 
   /// @brief Field <orientationActionReference>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ____orientationActionReference_k__BackingField;
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____orientationActionReference_k__BackingField;
 
   /// @brief Field <thumbstickActionReference>k__BackingField, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ____thumbstickActionReference_k__BackingField;
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____thumbstickActionReference_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -151,7 +151,7 @@ static_assert(offsetof(::GlobalNamespace::__UnityXRController__Configuration, __
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15614)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14435))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14435)), TypeDefinitionIndex(TypeDefinitionIndex(15614))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14434))
 // CS Name: ::UnityXRController*
 class CORDL_TYPE UnityXRController : public ::System::Object {
@@ -160,63 +160,63 @@ public:
   using Configuration = ::GlobalNamespace::__UnityXRController__Configuration;
 
   /// @brief Field positionAction, offset 0x10, size 0x8
-  __declspec(property(get = __get_positionAction, put = __set_positionAction))::UnityEngine::InputSystem::InputAction* positionAction;
+  __declspec(property(get = __cordl_internal_get_positionAction, put = __cordl_internal_set_positionAction))::UnityEngine::InputSystem::InputAction* positionAction;
 
   /// @brief Field rotationAction, offset 0x18, size 0x8
-  __declspec(property(get = __get_rotationAction, put = __set_rotationAction))::UnityEngine::InputSystem::InputAction* rotationAction;
+  __declspec(property(get = __cordl_internal_get_rotationAction, put = __cordl_internal_set_rotationAction))::UnityEngine::InputSystem::InputAction* rotationAction;
 
   /// @brief Field thumbstickAction, offset 0x20, size 0x8
-  __declspec(property(get = __get_thumbstickAction, put = __set_thumbstickAction))::UnityEngine::InputSystem::InputAction* thumbstickAction;
+  __declspec(property(get = __cordl_internal_get_thumbstickAction, put = __cordl_internal_set_thumbstickAction))::UnityEngine::InputSystem::InputAction* thumbstickAction;
 
   /// @brief Field node, offset 0x28, size 0x4
-  __declspec(property(get = __get_node, put = __set_node))::UnityEngine::XR::XRNode node;
+  __declspec(property(get = __cordl_internal_get_node, put = __cordl_internal_set_node))::UnityEngine::XR::XRNode node;
 
   /// @brief Field <manufacturerName>k__BackingField, offset 0x2c, size 0x4
-  __declspec(property(get = __get__manufacturerName_k__BackingField,
-                      put = __set__manufacturerName_k__BackingField))::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName _manufacturerName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__manufacturerName_k__BackingField,
+                      put = __cordl_internal_set__manufacturerName_k__BackingField))::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName _manufacturerName_k__BackingField;
 
   /// @brief Field _hapticsHandler, offset 0x30, size 0x8
-  __declspec(property(get = __get__hapticsHandler, put = __set__hapticsHandler))::GlobalNamespace::IUnityXRHapticsHandler* _hapticsHandler;
+  __declspec(property(get = __cordl_internal_get__hapticsHandler, put = __cordl_internal_set__hapticsHandler))::GlobalNamespace::IUnityXRHapticsHandler* _hapticsHandler;
 
   __declspec(property(get = get_hapticsHandler))::GlobalNamespace::IUnityXRHapticsHandler* hapticsHandler;
 
   __declspec(property(get = get_manufacturerName, put = set_manufacturerName))::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName manufacturerName;
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_positionAction();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_positionAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_positionAction() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_positionAction() const;
 
-  constexpr void __set_positionAction(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_positionAction(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_rotationAction();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_rotationAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_rotationAction() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_rotationAction() const;
 
-  constexpr void __set_rotationAction(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_rotationAction(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_thumbstickAction();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_thumbstickAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_thumbstickAction() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_thumbstickAction() const;
 
-  constexpr void __set_thumbstickAction(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_thumbstickAction(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::XR::XRNode& __get_node();
+  constexpr ::UnityEngine::XR::XRNode& __cordl_internal_get_node();
 
-  constexpr ::UnityEngine::XR::XRNode const& __get_node() const;
+  constexpr ::UnityEngine::XR::XRNode const& __cordl_internal_get_node() const;
 
-  constexpr void __set_node(::UnityEngine::XR::XRNode value);
+  constexpr void __cordl_internal_set_node(::UnityEngine::XR::XRNode value);
 
-  constexpr ::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName& __get__manufacturerName_k__BackingField();
+  constexpr ::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName& __cordl_internal_get__manufacturerName_k__BackingField();
 
-  constexpr ::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName const& __get__manufacturerName_k__BackingField() const;
+  constexpr ::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName const& __cordl_internal_get__manufacturerName_k__BackingField() const;
 
-  constexpr void __set__manufacturerName_k__BackingField(::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName value);
+  constexpr void __cordl_internal_set__manufacturerName_k__BackingField(::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName value);
 
-  constexpr ::GlobalNamespace::IUnityXRHapticsHandler*& __get__hapticsHandler();
+  constexpr ::GlobalNamespace::IUnityXRHapticsHandler*& __cordl_internal_get__hapticsHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IUnityXRHapticsHandler*> const& __get__hapticsHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IUnityXRHapticsHandler*> const& __cordl_internal_get__hapticsHandler() const;
 
-  constexpr void __set__hapticsHandler(::GlobalNamespace::IUnityXRHapticsHandler* value);
+  constexpr void __cordl_internal_set__hapticsHandler(::GlobalNamespace::IUnityXRHapticsHandler* value);
 
   /// @brief Method get_hapticsHandler, addr 0x20fd2e4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IUnityXRHapticsHandler* get_hapticsHandler();

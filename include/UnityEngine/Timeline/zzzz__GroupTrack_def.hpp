@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::GroupTrack);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13862))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13862))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13898))
 // CS Name: ::UnityEngine.Timeline::GroupTrack*
 class CORDL_TYPE GroupTrack : public ::UnityEngine::Timeline::TrackAsset {

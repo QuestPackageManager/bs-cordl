@@ -19,17 +19,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1260))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::ProtocolVersion*
 class CORDL_TYPE ProtocolVersion : public ::System::Object {
 public:
   // Declarations
   /// @brief Field version, offset 0x10, size 0x4
-  __declspec(property(get = __get_version, put = __set_version)) int32_t version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
   /// @brief Field name, offset 0x18, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field SSLv3, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SSLv3, put = setStaticF_SSLv3))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* SSLv3;
@@ -61,17 +61,17 @@ public:
 
   __declspec(property(get = get_IsTls)) bool IsTls;
 
-  constexpr int32_t& __get_version();
+  constexpr int32_t& __cordl_internal_get_version();
 
-  constexpr int32_t const& __get_version() const;
+  constexpr int32_t const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(int32_t value);
+  constexpr void __cordl_internal_set_version(int32_t value);
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
   static inline void setStaticF_SSLv3(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
 

@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::System::Reflection::SignatureHasElementType);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3495))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3495))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3493))
 // CS Name: ::System.Reflection::SignatureHasElementType*
 class CORDL_TYPE SignatureHasElementType : public ::System::Reflection::SignatureType {
 public:
   // Declarations
   /// @brief Field _elementType, offset 0x18, size 0x8
-  __declspec(property(get = __get__elementType, put = __set__elementType))::System::Reflection::SignatureType* _elementType;
+  __declspec(property(get = __cordl_internal_get__elementType, put = __cordl_internal_set__elementType))::System::Reflection::SignatureType* _elementType;
 
   __declspec(property(get = get_IsGenericTypeDefinition)) bool IsGenericTypeDefinition;
 
@@ -58,11 +58,11 @@ public:
 
   __declspec(property(get = get_Suffix))::StringW Suffix;
 
-  constexpr ::System::Reflection::SignatureType*& __get__elementType();
+  constexpr ::System::Reflection::SignatureType*& __cordl_internal_get__elementType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::SignatureType*> const& __get__elementType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::SignatureType*> const& __cordl_internal_get__elementType() const;
 
-  constexpr void __set__elementType(::System::Reflection::SignatureType* value);
+  constexpr void __cordl_internal_set__elementType(::System::Reflection::SignatureType* value);
 
   static inline ::System::Reflection::SignatureHasElementType* New_ctor(::System::Reflection::SignatureType* elementType);
 

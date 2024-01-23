@@ -21,7 +21,7 @@ MARK_VAL_T(::UnityEngine::XR::Bone);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15624))
 // CS Name: ::UnityEngine.XR::Bone
 struct CORDL_TYPE Bone {

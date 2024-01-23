@@ -26,20 +26,23 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionLevelRestartController);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5074))
 // CS Name: ::MissionLevelRestartController*
 class CORDL_TYPE MissionLevelRestartController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _missionLevelSceneSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __get__missionLevelSceneSetupData, put = __set__missionLevelSceneSetupData))::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* _missionLevelSceneSetupData;
+  __declspec(property(get = __cordl_internal_get__missionLevelSceneSetupData,
+                      put = __cordl_internal_set__missionLevelSceneSetupData))::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> _missionLevelSceneSetupData;
 
   /// @brief Field _prepareLevelCompletionResults, offset 0x20, size 0x8
-  __declspec(property(get = __get__prepareLevelCompletionResults, put = __set__prepareLevelCompletionResults))::GlobalNamespace::PrepareLevelCompletionResults* _prepareLevelCompletionResults;
+  __declspec(property(get = __cordl_internal_get__prepareLevelCompletionResults,
+                      put = __cordl_internal_set__prepareLevelCompletionResults))::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> _prepareLevelCompletionResults;
 
   /// @brief Field _missionObjectiveCheckersManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__missionObjectiveCheckersManager, put = __set__missionObjectiveCheckersManager))::GlobalNamespace::MissionObjectiveCheckersManager* _missionObjectiveCheckersManager;
+  __declspec(property(get = __cordl_internal_get__missionObjectiveCheckersManager,
+                      put = __cordl_internal_set__missionObjectiveCheckersManager))::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> _missionObjectiveCheckersManager;
 
   /// @brief Convert operator to "::GlobalNamespace::ILevelRestartController"
   constexpr operator ::GlobalNamespace::ILevelRestartController*() noexcept;
@@ -47,23 +50,23 @@ public:
   /// @brief Convert to "::GlobalNamespace::ILevelRestartController"
   constexpr ::GlobalNamespace::ILevelRestartController* i___GlobalNamespace__ILevelRestartController() noexcept;
 
-  constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& __get__missionLevelSceneSetupData();
+  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& __cordl_internal_get__missionLevelSceneSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*> const& __get__missionLevelSceneSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__missionLevelSceneSetupData() const;
 
-  constexpr void __set__missionLevelSceneSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__missionLevelSceneSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::PrepareLevelCompletionResults*& __get__prepareLevelCompletionResults();
+  constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>& __cordl_internal_get__prepareLevelCompletionResults();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PrepareLevelCompletionResults*> const& __get__prepareLevelCompletionResults() const;
+  constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> const& __cordl_internal_get__prepareLevelCompletionResults() const;
 
-  constexpr void __set__prepareLevelCompletionResults(::GlobalNamespace::PrepareLevelCompletionResults* value);
+  constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
 
-  constexpr ::GlobalNamespace::MissionObjectiveCheckersManager*& __get__missionObjectiveCheckersManager();
+  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager>& __cordl_internal_get__missionObjectiveCheckersManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionObjectiveCheckersManager*> const& __get__missionObjectiveCheckersManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> const& __cordl_internal_get__missionObjectiveCheckersManager() const;
 
-  constexpr void __set__missionObjectiveCheckersManager(::GlobalNamespace::MissionObjectiveCheckersManager* value);
+  constexpr void __cordl_internal_set__missionObjectiveCheckersManager(::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> value);
 
   /// @brief Method RestartLevel, addr 0x23c9a5c, size 0xb0, virtual true, abstract: false, final true
   inline void RestartLevel();
@@ -88,13 +91,13 @@ protected:
 
 public:
   /// @brief Field _missionLevelSceneSetupData, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* ____missionLevelSceneSetupData;
+  ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> ____missionLevelSceneSetupData;
 
   /// @brief Field _prepareLevelCompletionResults, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::PrepareLevelCompletionResults* ____prepareLevelCompletionResults;
+  ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
 
   /// @brief Field _missionObjectiveCheckersManager, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MissionObjectiveCheckersManager* ____missionObjectiveCheckersManager;
+  ::UnityW<::GlobalNamespace::MissionObjectiveCheckersManager> ____missionObjectiveCheckersManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

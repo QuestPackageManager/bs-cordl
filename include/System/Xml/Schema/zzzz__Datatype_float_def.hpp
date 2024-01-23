@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_float);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11624))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11624))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11629))
 // CS Name: ::System.Xml.Schema::Datatype_float*
 class CORDL_TYPE Datatype_float : public ::System::Xml::Schema::Datatype_anySimpleType {

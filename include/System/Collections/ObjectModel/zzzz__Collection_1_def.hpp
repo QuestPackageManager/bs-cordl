@@ -54,14 +54,14 @@ namespace System::Collections::ObjectModel {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3814))
 // CS Name: ::System.Collections.ObjectModel::Collection`1<T>*
 class CORDL_TYPE Collection_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field items, offset 0x10, size 0x8
-  __declspec(property(get = __get_items, put = __set_items))::System::Collections::Generic::IList_1<T>* items;
+  __declspec(property(get = __cordl_internal_get_items, put = __cordl_internal_set_items))::System::Collections::Generic::IList_1<T>* items;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -129,11 +129,11 @@ public:
   /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
   constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept;
 
-  constexpr ::System::Collections::Generic::IList_1<T>*& __get_items();
+  constexpr ::System::Collections::Generic::IList_1<T>*& __cordl_internal_get_items();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<T>*> const& __get_items() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<T>*> const& __cordl_internal_get_items() const;
 
-  constexpr void __set_items(::System::Collections::Generic::IList_1<T>* value);
+  constexpr void __cordl_internal_set_items(::System::Collections::Generic::IList_1<T>* value);
 
   static inline ::System::Collections::ObjectModel::Collection_1<T>* New_ctor();
 

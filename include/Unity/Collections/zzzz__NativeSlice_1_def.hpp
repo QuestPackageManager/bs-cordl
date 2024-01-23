@@ -51,7 +51,7 @@ namespace Unity::Collections {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9994))
 // CS Name: ::Unity.Collections::NativeSlice`1<T>
 struct CORDL_TYPE NativeSlice_1 {
@@ -164,7 +164,7 @@ namespace Unity::Collections {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9994)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 3161 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9994)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 3161 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9993))
 // CS Name: ::NativeSlice`1::Enumerator<T>
 struct CORDL_TYPE __NativeSlice_1__Enumerator {

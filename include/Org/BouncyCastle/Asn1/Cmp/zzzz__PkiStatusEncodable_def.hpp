@@ -29,14 +29,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(42))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::PkiStatusEncodable*
 class CORDL_TYPE PkiStatusEncodable : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field status, offset 0x10, size 0x8
-  __declspec(property(get = __get_status, put = __set_status))::Org::BouncyCastle::Asn1::DerInteger* status;
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::Org::BouncyCastle::Asn1::DerInteger* status;
 
   /// @brief Field granted, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_granted, put = setStaticF_granted))::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* granted;
@@ -61,11 +61,11 @@ public:
 
   __declspec(property(get = get_Value))::Org::BouncyCastle::Math::BigInteger* Value;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_status();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_status();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_status() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_status() const;
 
-  constexpr void __set_status(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_status(::Org::BouncyCastle::Asn1::DerInteger* value);
 
   static inline void setStaticF_granted(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);
 

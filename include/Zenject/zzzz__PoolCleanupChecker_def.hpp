@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::Zenject::__PoolCleanupChecker____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11098))
 // CS Name: ::PoolCleanupChecker::<>c*
 class CORDL_TYPE __PoolCleanupChecker____c : public ::System::Object {
@@ -101,7 +101,7 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__PoolCleanupChecker___
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11099))
 // CS Name: ::Zenject::PoolCleanupChecker*
 class CORDL_TYPE PoolCleanupChecker : public ::System::Object {
@@ -110,10 +110,10 @@ public:
   using __c = ::Zenject::__PoolCleanupChecker____c;
 
   /// @brief Field _poolFactories, offset 0x10, size 0x8
-  __declspec(property(get = __get__poolFactories, put = __set__poolFactories))::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* _poolFactories;
+  __declspec(property(get = __cordl_internal_get__poolFactories, put = __cordl_internal_set__poolFactories))::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* _poolFactories;
 
   /// @brief Field _ignoredPools, offset 0x18, size 0x8
-  __declspec(property(get = __get__ignoredPools, put = __set__ignoredPools))::System::Collections::Generic::List_1<::System::Type*>* _ignoredPools;
+  __declspec(property(get = __cordl_internal_get__ignoredPools, put = __cordl_internal_set__ignoredPools))::System::Collections::Generic::List_1<::System::Type*>* _ignoredPools;
 
   /// @brief Convert operator to "::Zenject::ILateDisposable"
   constexpr operator ::Zenject::ILateDisposable*() noexcept;
@@ -121,17 +121,17 @@ public:
   /// @brief Convert to "::Zenject::ILateDisposable"
   constexpr ::Zenject::ILateDisposable* i___Zenject__ILateDisposable() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>*& __get__poolFactories();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>*& __cordl_internal_get__poolFactories();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>*> const& __get__poolFactories() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>*> const& __cordl_internal_get__poolFactories() const;
 
-  constexpr void __set__poolFactories(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* value);
+  constexpr void __cordl_internal_set__poolFactories(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __get__ignoredPools();
+  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __cordl_internal_get__ignoredPools();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __get__ignoredPools() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __cordl_internal_get__ignoredPools() const;
 
-  constexpr void __set__ignoredPools(::System::Collections::Generic::List_1<::System::Type*>* value);
+  constexpr void __cordl_internal_set__ignoredPools(::System::Collections::Generic::List_1<::System::Type*>* value);
 
   static inline ::Zenject::PoolCleanupChecker* New_ctor(::System::Collections::Generic::List_1<::Zenject::IMemoryPool*>* poolFactories,
                                                         ::System::Collections::Generic::List_1<::System::Type*>* ignoredPools);

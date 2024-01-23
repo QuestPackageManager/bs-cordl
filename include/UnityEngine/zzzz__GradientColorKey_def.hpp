@@ -19,7 +19,7 @@ MARK_VAL_T(::UnityEngine::GradientColorKey);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10254))
 // CS Name: ::UnityEngine::GradientColorKey
 struct CORDL_TYPE GradientColorKey {

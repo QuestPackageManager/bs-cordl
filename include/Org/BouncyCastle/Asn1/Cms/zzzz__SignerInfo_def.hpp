@@ -41,32 +41,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::SignerInfo);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(96))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::SignerInfo*
 class CORDL_TYPE SignerInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __get_version, put = __set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
   /// @brief Field sid, offset 0x18, size 0x8
-  __declspec(property(get = __get_sid, put = __set_sid))::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sid;
+  __declspec(property(get = __cordl_internal_get_sid, put = __cordl_internal_set_sid))::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* sid;
 
   /// @brief Field digAlgorithm, offset 0x20, size 0x8
-  __declspec(property(get = __get_digAlgorithm, put = __set_digAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digAlgorithm;
+  __declspec(property(get = __cordl_internal_get_digAlgorithm, put = __cordl_internal_set_digAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digAlgorithm;
 
   /// @brief Field authenticatedAttributes, offset 0x28, size 0x8
-  __declspec(property(get = __get_authenticatedAttributes, put = __set_authenticatedAttributes))::Org::BouncyCastle::Asn1::Asn1Set* authenticatedAttributes;
+  __declspec(property(get = __cordl_internal_get_authenticatedAttributes, put = __cordl_internal_set_authenticatedAttributes))::Org::BouncyCastle::Asn1::Asn1Set* authenticatedAttributes;
 
   /// @brief Field digEncryptionAlgorithm, offset 0x30, size 0x8
-  __declspec(property(get = __get_digEncryptionAlgorithm, put = __set_digEncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digEncryptionAlgorithm;
+  __declspec(property(get = __cordl_internal_get_digEncryptionAlgorithm,
+                      put = __cordl_internal_set_digEncryptionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digEncryptionAlgorithm;
 
   /// @brief Field encryptedDigest, offset 0x38, size 0x8
-  __declspec(property(get = __get_encryptedDigest, put = __set_encryptedDigest))::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedDigest;
+  __declspec(property(get = __cordl_internal_get_encryptedDigest, put = __cordl_internal_set_encryptedDigest))::Org::BouncyCastle::Asn1::Asn1OctetString* encryptedDigest;
 
   /// @brief Field unauthenticatedAttributes, offset 0x40, size 0x8
-  __declspec(property(get = __get_unauthenticatedAttributes, put = __set_unauthenticatedAttributes))::Org::BouncyCastle::Asn1::Asn1Set* unauthenticatedAttributes;
+  __declspec(property(get = __cordl_internal_get_unauthenticatedAttributes, put = __cordl_internal_set_unauthenticatedAttributes))::Org::BouncyCastle::Asn1::Asn1Set* unauthenticatedAttributes;
 
   __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
 
@@ -82,47 +83,47 @@ public:
 
   __declspec(property(get = get_UnauthenticatedAttributes))::Org::BouncyCastle::Asn1::Asn1Set* UnauthenticatedAttributes;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_version();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_version() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*& __get_sid();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*& __cordl_internal_get_sid();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*> const& __get_sid() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*> const& __cordl_internal_get_sid() const;
 
-  constexpr void __set_sid(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* value);
+  constexpr void __cordl_internal_set_sid(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_digAlgorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_digAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_digAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_digAlgorithm() const;
 
-  constexpr void __set_digAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_digAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __get_authenticatedAttributes();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_authenticatedAttributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __get_authenticatedAttributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_authenticatedAttributes() const;
 
-  constexpr void __set_authenticatedAttributes(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  constexpr void __cordl_internal_set_authenticatedAttributes(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_digEncryptionAlgorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_digEncryptionAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_digEncryptionAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_digEncryptionAlgorithm() const;
 
-  constexpr void __set_digEncryptionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_digEncryptionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_encryptedDigest();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_encryptedDigest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_encryptedDigest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_encryptedDigest() const;
 
-  constexpr void __set_encryptedDigest(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_encryptedDigest(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __get_unauthenticatedAttributes();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_unauthenticatedAttributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __get_unauthenticatedAttributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_unauthenticatedAttributes() const;
 
-  constexpr void __set_unauthenticatedAttributes(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  constexpr void __cordl_internal_set_unauthenticatedAttributes(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
   /// @brief Method GetInstance, addr 0xe80c3c, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::SignerInfo* GetInstance(::System::Object* obj);

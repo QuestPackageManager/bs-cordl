@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::Scripting::GarbageCollector);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Scripting {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10318))
 // CS Name: ::GarbageCollector::Mode
 struct CORDL_TYPE __GarbageCollector__Mode {
@@ -80,7 +80,7 @@ static_assert(offsetof(::UnityEngine::Scripting::__GarbageCollector__Mode, value
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Scripting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10319))
 // CS Name: ::UnityEngine.Scripting::GarbageCollector*
 class CORDL_TYPE GarbageCollector : public ::System::Object {

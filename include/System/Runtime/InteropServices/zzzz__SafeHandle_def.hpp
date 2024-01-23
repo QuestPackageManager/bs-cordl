@@ -20,23 +20,23 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::SafeHandle);
 // SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3354)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3354))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3334))
 // CS Name: ::System.Runtime.InteropServices::SafeHandle*
 class CORDL_TYPE SafeHandle : public ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject {
 public:
   // Declarations
   /// @brief Field handle, offset 0x10, size 0x8
-  __declspec(property(get = __get_handle, put = __set_handle)) void* handle;
+  __declspec(property(get = __cordl_internal_get_handle, put = __cordl_internal_set_handle)) void* handle;
 
   /// @brief Field _state, offset 0x18, size 0x4
-  __declspec(property(get = __get__state, put = __set__state)) int32_t _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state)) int32_t _state;
 
   /// @brief Field _ownsHandle, offset 0x1c, size 0x1
-  __declspec(property(get = __get__ownsHandle, put = __set__ownsHandle)) bool _ownsHandle;
+  __declspec(property(get = __cordl_internal_get__ownsHandle, put = __cordl_internal_set__ownsHandle)) bool _ownsHandle;
 
   /// @brief Field _fullyInitialized, offset 0x1d, size 0x1
-  __declspec(property(get = __get__fullyInitialized, put = __set__fullyInitialized)) bool _fullyInitialized;
+  __declspec(property(get = __cordl_internal_get__fullyInitialized, put = __cordl_internal_set__fullyInitialized)) bool _fullyInitialized;
 
   __declspec(property(get = get_IsClosed)) bool IsClosed;
 
@@ -48,29 +48,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr void*& __get_handle();
+  constexpr void*& __cordl_internal_get_handle();
 
-  constexpr void* const& __get_handle() const;
+  constexpr void* const& __cordl_internal_get_handle() const;
 
-  constexpr void __set_handle(void* value);
+  constexpr void __cordl_internal_set_handle(void* value);
 
-  constexpr int32_t& __get__state();
+  constexpr int32_t& __cordl_internal_get__state();
 
-  constexpr int32_t const& __get__state() const;
+  constexpr int32_t const& __cordl_internal_get__state() const;
 
-  constexpr void __set__state(int32_t value);
+  constexpr void __cordl_internal_set__state(int32_t value);
 
-  constexpr bool& __get__ownsHandle();
+  constexpr bool& __cordl_internal_get__ownsHandle();
 
-  constexpr bool const& __get__ownsHandle() const;
+  constexpr bool const& __cordl_internal_get__ownsHandle() const;
 
-  constexpr void __set__ownsHandle(bool value);
+  constexpr void __cordl_internal_set__ownsHandle(bool value);
 
-  constexpr bool& __get__fullyInitialized();
+  constexpr bool& __cordl_internal_get__fullyInitialized();
 
-  constexpr bool const& __get__fullyInitialized() const;
+  constexpr bool const& __cordl_internal_get__fullyInitialized() const;
 
-  constexpr void __set__fullyInitialized(bool value);
+  constexpr void __cordl_internal_set__fullyInitialized(bool value);
 
   static inline ::System::Runtime::InteropServices::SafeHandle* New_ctor(void* invalidHandleValue, bool ownsHandle);
 

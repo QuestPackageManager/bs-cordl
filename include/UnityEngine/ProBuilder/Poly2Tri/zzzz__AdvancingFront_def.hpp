@@ -22,38 +22,38 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15324))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::AdvancingFront*
 class CORDL_TYPE AdvancingFront : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Head, offset 0x10, size 0x8
-  __declspec(property(get = __get_Head, put = __set_Head))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Head;
+  __declspec(property(get = __cordl_internal_get_Head, put = __cordl_internal_set_Head))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Head;
 
   /// @brief Field Tail, offset 0x18, size 0x8
-  __declspec(property(get = __get_Tail, put = __set_Tail))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Tail;
+  __declspec(property(get = __cordl_internal_get_Tail, put = __cordl_internal_set_Tail))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Tail;
 
   /// @brief Field Search, offset 0x20, size 0x8
-  __declspec(property(get = __get_Search, put = __set_Search))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Search;
+  __declspec(property(get = __cordl_internal_get_Search, put = __cordl_internal_set_Search))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Search;
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __get_Head();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_Head();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __get_Head() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_Head() const;
 
-  constexpr void __set_Head(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
+  constexpr void __cordl_internal_set_Head(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __get_Tail();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_Tail();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __get_Tail() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_Tail() const;
 
-  constexpr void __set_Tail(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
+  constexpr void __cordl_internal_set_Tail(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __get_Search();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_Search();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __get_Search() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_Search() const;
 
-  constexpr void __set_Search(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
+  constexpr void __cordl_internal_set_Search(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* head,
                                                                               ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* tail);

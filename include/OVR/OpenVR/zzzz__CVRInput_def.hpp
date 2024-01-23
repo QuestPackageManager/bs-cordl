@@ -56,20 +56,20 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRInput);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8540)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8540))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8576))
 // CS Name: ::OVR.OpenVR::CVRInput*
 class CORDL_TYPE CVRInput : public ::System::Object {
 public:
   // Declarations
   /// @brief Field FnTable, offset 0x10, size 0x90
-  __declspec(property(get = __get_FnTable, put = __set_FnTable))::OVR::OpenVR::IVRInput FnTable;
+  __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRInput FnTable;
 
-  constexpr ::OVR::OpenVR::IVRInput& __get_FnTable();
+  constexpr ::OVR::OpenVR::IVRInput& __cordl_internal_get_FnTable();
 
-  constexpr ::OVR::OpenVR::IVRInput const& __get_FnTable() const;
+  constexpr ::OVR::OpenVR::IVRInput const& __cordl_internal_get_FnTable() const;
 
-  constexpr void __set_FnTable(::OVR::OpenVR::IVRInput value);
+  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRInput value);
 
   static inline ::OVR::OpenVR::CVRInput* New_ctor(void* pInterface);
 

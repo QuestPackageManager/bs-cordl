@@ -23,14 +23,14 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7179))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7179))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7180))
 // CS Name: ::UnityEngine.UIElements::EventBase`1<T>*
 class CORDL_TYPE EventBase_1 : public ::UnityEngine::UIElements::EventBase {
 public:
   // Declarations
   /// @brief Field m_RefCount, offset 0x78, size 0x4
-  __declspec(property(get = __get_m_RefCount, put = __set_m_RefCount)) int32_t m_RefCount;
+  __declspec(property(get = __cordl_internal_get_m_RefCount, put = __cordl_internal_set_m_RefCount)) int32_t m_RefCount;
 
   /// @brief Field s_TypeId, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_TypeId, put = setStaticF_s_TypeId)) int64_t s_TypeId;
@@ -40,11 +40,11 @@ public:
 
   __declspec(property(get = get_eventTypeId)) int64_t eventTypeId;
 
-  constexpr int32_t& __get_m_RefCount();
+  constexpr int32_t& __cordl_internal_get_m_RefCount();
 
-  constexpr int32_t const& __get_m_RefCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_RefCount() const;
 
-  constexpr void __set_m_RefCount(int32_t value);
+  constexpr void __cordl_internal_set_m_RefCount(int32_t value);
 
   static inline void setStaticF_s_TypeId(int64_t value);
 

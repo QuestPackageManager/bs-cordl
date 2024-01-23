@@ -17,7 +17,7 @@ MARK_VAL_T(::System::Runtime::CompilerServices::Ephemeron);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3419))
 // CS Name: ::System.Runtime.CompilerServices::Ephemeron
 struct CORDL_TYPE Ephemeron {

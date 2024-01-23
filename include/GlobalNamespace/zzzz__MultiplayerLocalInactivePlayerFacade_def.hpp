@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerLocalInactivePlayerFacade__Factor
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5161))
 // CS Name: ::MultiplayerLocalInactivePlayerFacade*
 class CORDL_TYPE MultiplayerLocalInactivePlayerFacade : public ::UnityEngine::MonoBehaviour {
@@ -65,34 +65,36 @@ public:
   using Factory = ::GlobalNamespace::__MultiplayerLocalInactivePlayerFacade__Factory;
 
   /// @brief Field _inactivePlayerSongSyncController, offset 0x18, size 0x8
-  __declspec(property(get = __get__inactivePlayerSongSyncController,
-                      put = __set__inactivePlayerSongSyncController))::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* _inactivePlayerSongSyncController;
+  __declspec(property(get = __cordl_internal_get__inactivePlayerSongSyncController,
+                      put = __cordl_internal_set__inactivePlayerSongSyncController))::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController> _inactivePlayerSongSyncController;
 
   /// @brief Field _spectatorController, offset 0x20, size 0x8
-  __declspec(property(get = __get__spectatorController, put = __set__spectatorController))::GlobalNamespace::MultiplayerSpectatorController* _spectatorController;
+  __declspec(property(get = __cordl_internal_get__spectatorController,
+                      put = __cordl_internal_set__spectatorController))::UnityW<::GlobalNamespace::MultiplayerSpectatorController> _spectatorController;
 
   /// @brief Field _introAnimator, offset 0x28, size 0x8
-  __declspec(property(get = __get__introAnimator, put = __set__introAnimator))::UnityEngine::Playables::PlayableDirector* _introAnimator;
+  __declspec(property(get = __cordl_internal_get__introAnimator, put = __cordl_internal_set__introAnimator))::UnityW<::UnityEngine::Playables::PlayableDirector> _introAnimator;
 
   /// @brief Field _outroAnimator, offset 0x30, size 0x8
-  __declspec(property(get = __get__outroAnimator, put = __set__outroAnimator))::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* _outroAnimator;
+  __declspec(property(get = __cordl_internal_get__outroAnimator, put = __cordl_internal_set__outroAnimator))::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator> _outroAnimator;
 
   /// @brief Field playerDidFinishEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_playerDidFinishEvent, put = __set_playerDidFinishEvent))::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* playerDidFinishEvent;
+  __declspec(property(get = __cordl_internal_get_playerDidFinishEvent,
+                      put = __cordl_internal_set_playerDidFinishEvent))::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* playerDidFinishEvent;
 
   /// @brief Field playerNetworkDidFailedEvent, offset 0x40, size 0x8
-  __declspec(property(get = __get_playerNetworkDidFailedEvent,
-                      put = __set_playerNetworkDidFailedEvent))::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* playerNetworkDidFailedEvent;
+  __declspec(property(get = __cordl_internal_get_playerNetworkDidFailedEvent,
+                      put = __cordl_internal_set_playerNetworkDidFailedEvent))::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* playerNetworkDidFailedEvent;
 
   __declspec(property(get = get_songController))::GlobalNamespace::IStartSeekSongController* songController;
 
-  __declspec(property(get = get_spectatorController))::GlobalNamespace::MultiplayerSpectatorController* spectatorController;
+  __declspec(property(get = get_spectatorController))::UnityW<::GlobalNamespace::MultiplayerSpectatorController> spectatorController;
 
-  __declspec(property(get = get_introAnimator))::UnityEngine::GameObject* introAnimator;
+  __declspec(property(get = get_introAnimator))::UnityW<::UnityEngine::GameObject> introAnimator;
 
-  __declspec(property(get = get_introPlayableDirector))::UnityEngine::Playables::PlayableDirector* introPlayableDirector;
+  __declspec(property(get = get_introPlayableDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> introPlayableDirector;
 
-  __declspec(property(get = get_outroAnimator))::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* outroAnimator;
+  __declspec(property(get = get_outroAnimator))::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator> outroAnimator;
 
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerLevelEndActionsPublisher"
   constexpr operator ::GlobalNamespace::IMultiplayerLevelEndActionsPublisher*() noexcept;
@@ -112,56 +114,56 @@ public:
   /// @brief Convert to "::GlobalNamespace::IStartSeekSongControllerProvider"
   constexpr ::GlobalNamespace::IStartSeekSongControllerProvider* i___GlobalNamespace__IStartSeekSongControllerProvider() noexcept;
 
-  constexpr ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*& __get__inactivePlayerSongSyncController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController>& __cordl_internal_get__inactivePlayerSongSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*> const& __get__inactivePlayerSongSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController> const& __cordl_internal_get__inactivePlayerSongSyncController() const;
 
-  constexpr void __set__inactivePlayerSongSyncController(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* value);
+  constexpr void __cordl_internal_set__inactivePlayerSongSyncController(::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController> value);
 
-  constexpr ::GlobalNamespace::MultiplayerSpectatorController*& __get__spectatorController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerSpectatorController>& __cordl_internal_get__spectatorController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerSpectatorController*> const& __get__spectatorController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerSpectatorController> const& __cordl_internal_get__spectatorController() const;
 
-  constexpr void __set__spectatorController(::GlobalNamespace::MultiplayerSpectatorController* value);
+  constexpr void __cordl_internal_set__spectatorController(::UnityW<::GlobalNamespace::MultiplayerSpectatorController> value);
 
-  constexpr ::UnityEngine::Playables::PlayableDirector*& __get__introAnimator();
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get__introAnimator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Playables::PlayableDirector*> const& __get__introAnimator() const;
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__introAnimator() const;
 
-  constexpr void __set__introAnimator(::UnityEngine::Playables::PlayableDirector* value);
+  constexpr void __cordl_internal_set__introAnimator(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  constexpr ::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator*& __get__outroAnimator();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator>& __cordl_internal_get__outroAnimator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator*> const& __get__outroAnimator() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator> const& __cordl_internal_get__outroAnimator() const;
 
-  constexpr void __set__outroAnimator(::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* value);
+  constexpr void __cordl_internal_set__outroAnimator(::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator> value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*& __get_playerDidFinishEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*& __cordl_internal_get_playerDidFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*> const& __get_playerDidFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*> const& __cordl_internal_get_playerDidFinishEvent() const;
 
-  constexpr void __set_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
+  constexpr void __cordl_internal_set_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*& __get_playerNetworkDidFailedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*& __cordl_internal_get_playerNetworkDidFailedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*> const& __get_playerNetworkDidFailedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>*> const& __cordl_internal_get_playerNetworkDidFailedEvent() const;
 
-  constexpr void __set_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
+  constexpr void __cordl_internal_set_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
   /// @brief Method get_songController, addr 0x23dc8c4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IStartSeekSongController* get_songController();
 
   /// @brief Method get_spectatorController, addr 0x23dc8cc, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MultiplayerSpectatorController* get_spectatorController();
+  inline ::UnityW<::GlobalNamespace::MultiplayerSpectatorController> get_spectatorController();
 
   /// @brief Method get_introAnimator, addr 0x23dc8d4, size 0x1c, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_introAnimator();
+  inline ::UnityW<::UnityEngine::GameObject> get_introAnimator();
 
   /// @brief Method get_introPlayableDirector, addr 0x23dc8f0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Playables::PlayableDirector* get_introPlayableDirector();
+  inline ::UnityW<::UnityEngine::Playables::PlayableDirector> get_introPlayableDirector();
 
   /// @brief Method get_outroAnimator, addr 0x23dc8f8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* get_outroAnimator();
+  inline ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator> get_outroAnimator();
 
   /// @brief Method add_playerDidFinishEvent, addr 0x23dc900, size 0xb0, virtual true, abstract: false, final true
   inline void add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
@@ -201,16 +203,16 @@ protected:
 
 public:
   /// @brief Field _inactivePlayerSongSyncController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* ____inactivePlayerSongSyncController;
+  ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController> ____inactivePlayerSongSyncController;
 
   /// @brief Field _spectatorController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerSpectatorController* ____spectatorController;
+  ::UnityW<::GlobalNamespace::MultiplayerSpectatorController> ____spectatorController;
 
   /// @brief Field _introAnimator, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Playables::PlayableDirector* ____introAnimator;
+  ::UnityW<::UnityEngine::Playables::PlayableDirector> ____introAnimator;
 
   /// @brief Field _outroAnimator, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* ____outroAnimator;
+  ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator> ____outroAnimator;
 
   /// @brief Field playerDidFinishEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* ___playerDidFinishEvent;
@@ -240,11 +242,11 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLocalInactivePlayerFacade, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3491 }), TypeDefinitionIndex(TypeDefinitionIndex(5239)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11005)), TypeDefinitionIndex(TypeDefinitionIndex(5161))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5160)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5161)), TypeDefinitionIndex(TypeDefinitionIndex(5239)), TypeDefinitionIndex(TypeDefinitionIndex(11005)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3491 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5160)) CS Name:
 // ::MultiplayerLocalInactivePlayerFacade::Factory*
 class CORDL_TYPE __MultiplayerLocalInactivePlayerFacade__Factory
-    : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::MultiplayerPlayerStartState, ::GlobalNamespace::MultiplayerLocalInactivePlayerFacade*> {
+    : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::MultiplayerPlayerStartState, ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerFacade>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerLocalInactivePlayerFacade__Factory* New_ctor();

@@ -54,20 +54,20 @@ MARK_REF_PTR_T(::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayCl
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security::Private {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8847))
 // CS Name: ::CallbackHelpers::<>c__DisplayClass0_0*
 class CORDL_TYPE __CallbackHelpers____c__DisplayClass0_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __get_callback, put = __set_callback))::System::Net::Security::RemoteCertificateValidationCallback* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Net::Security::RemoteCertificateValidationCallback* callback;
 
-  constexpr ::System::Net::Security::RemoteCertificateValidationCallback*& __get_callback();
+  constexpr ::System::Net::Security::RemoteCertificateValidationCallback*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::RemoteCertificateValidationCallback*> const& __get_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::RemoteCertificateValidationCallback*> const& __cordl_internal_get_callback() const;
 
-  constexpr void __set_callback(::System::Net::Security::RemoteCertificateValidationCallback* value);
+  constexpr void __cordl_internal_set_callback(::System::Net::Security::RemoteCertificateValidationCallback* value);
 
   static inline ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass0_0* New_ctor();
 
@@ -107,20 +107,20 @@ static_assert(offsetof(::Mono::Net::Security::Private::__CallbackHelpers____c__D
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security::Private {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8848))
 // CS Name: ::CallbackHelpers::<>c__DisplayClass6_0*
 class CORDL_TYPE __CallbackHelpers____c__DisplayClass6_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __get_callback, put = __set_callback))::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* callback;
 
-  constexpr ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*& __get_callback();
+  constexpr ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*> const& __get_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*> const& __cordl_internal_get_callback() const;
 
-  constexpr void __set_callback(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* value);
+  constexpr void __cordl_internal_set_callback(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* value);
 
   static inline ::Mono::Net::Security::Private::__CallbackHelpers____c__DisplayClass6_0* New_ctor();
 
@@ -161,7 +161,7 @@ static_assert(offsetof(::Mono::Net::Security::Private::__CallbackHelpers____c__D
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Net::Security::Private {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8849))
 // CS Name: ::Mono.Net.Security.Private::CallbackHelpers*
 class CORDL_TYPE CallbackHelpers : public ::System::Object {

@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PS5PublisherSKUSettingsSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4602))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4602))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4565))
 // CS Name: ::PS5PublisherSKUSettingsSO*
 class CORDL_TYPE PS5PublisherSKUSettingsSO : public ::GlobalNamespace::SonyPublisherSKUSettingsSO {

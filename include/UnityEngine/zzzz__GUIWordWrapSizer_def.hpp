@@ -25,38 +25,38 @@ MARK_REF_PTR_T(::UnityEngine::GUIWordWrapSizer);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14592))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14592))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14593))
 // CS Name: ::UnityEngine::GUIWordWrapSizer*
 class CORDL_TYPE GUIWordWrapSizer : public ::UnityEngine::GUILayoutEntry {
 public:
   // Declarations
   /// @brief Field m_Content, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_Content, put = __set_m_Content))::UnityEngine::GUIContent* m_Content;
+  __declspec(property(get = __cordl_internal_get_m_Content, put = __cordl_internal_set_m_Content))::UnityEngine::GUIContent* m_Content;
 
   /// @brief Field m_ForcedMinHeight, offset 0x50, size 0x4
-  __declspec(property(get = __get_m_ForcedMinHeight, put = __set_m_ForcedMinHeight)) float_t m_ForcedMinHeight;
+  __declspec(property(get = __cordl_internal_get_m_ForcedMinHeight, put = __cordl_internal_set_m_ForcedMinHeight)) float_t m_ForcedMinHeight;
 
   /// @brief Field m_ForcedMaxHeight, offset 0x54, size 0x4
-  __declspec(property(get = __get_m_ForcedMaxHeight, put = __set_m_ForcedMaxHeight)) float_t m_ForcedMaxHeight;
+  __declspec(property(get = __cordl_internal_get_m_ForcedMaxHeight, put = __cordl_internal_set_m_ForcedMaxHeight)) float_t m_ForcedMaxHeight;
 
-  constexpr ::UnityEngine::GUIContent*& __get_m_Content();
+  constexpr ::UnityEngine::GUIContent*& __cordl_internal_get_m_Content();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIContent*> const& __get_m_Content() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIContent*> const& __cordl_internal_get_m_Content() const;
 
-  constexpr void __set_m_Content(::UnityEngine::GUIContent* value);
+  constexpr void __cordl_internal_set_m_Content(::UnityEngine::GUIContent* value);
 
-  constexpr float_t& __get_m_ForcedMinHeight();
+  constexpr float_t& __cordl_internal_get_m_ForcedMinHeight();
 
-  constexpr float_t const& __get_m_ForcedMinHeight() const;
+  constexpr float_t const& __cordl_internal_get_m_ForcedMinHeight() const;
 
-  constexpr void __set_m_ForcedMinHeight(float_t value);
+  constexpr void __cordl_internal_set_m_ForcedMinHeight(float_t value);
 
-  constexpr float_t& __get_m_ForcedMaxHeight();
+  constexpr float_t& __cordl_internal_get_m_ForcedMaxHeight();
 
-  constexpr float_t const& __get_m_ForcedMaxHeight() const;
+  constexpr float_t const& __cordl_internal_get_m_ForcedMaxHeight() const;
 
-  constexpr void __set_m_ForcedMaxHeight(float_t value);
+  constexpr void __cordl_internal_set_m_ForcedMaxHeight(float_t value);
 
   static inline ::UnityEngine::GUIWordWrapSizer* New_ctor(::UnityEngine::GUIStyle* style, ::UnityEngine::GUIContent* content,
                                                           ::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options);

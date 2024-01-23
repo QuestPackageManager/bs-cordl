@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::Target);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(385))
 // CS Name: ::Target::Choice
 struct CORDL_TYPE __Target__Choice {
@@ -88,7 +88,7 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::__Target__Choice, value_
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(386))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::Target*
 class CORDL_TYPE Target : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
@@ -97,10 +97,10 @@ public:
   using Choice = ::Org::BouncyCastle::Asn1::X509::__Target__Choice;
 
   /// @brief Field targetName, offset 0x10, size 0x8
-  __declspec(property(get = __get_targetName, put = __set_targetName))::Org::BouncyCastle::Asn1::X509::GeneralName* targetName;
+  __declspec(property(get = __cordl_internal_get_targetName, put = __cordl_internal_set_targetName))::Org::BouncyCastle::Asn1::X509::GeneralName* targetName;
 
   /// @brief Field targetGroup, offset 0x18, size 0x8
-  __declspec(property(get = __get_targetGroup, put = __set_targetGroup))::Org::BouncyCastle::Asn1::X509::GeneralName* targetGroup;
+  __declspec(property(get = __cordl_internal_get_targetGroup, put = __cordl_internal_set_targetGroup))::Org::BouncyCastle::Asn1::X509::GeneralName* targetGroup;
 
   __declspec(property(get = get_TargetGroup))::Org::BouncyCastle::Asn1::X509::GeneralName* TargetGroup;
 
@@ -112,17 +112,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __get_targetName();
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_targetName();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __get_targetName() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_targetName() const;
 
-  constexpr void __set_targetName(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+  constexpr void __cordl_internal_set_targetName(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __get_targetGroup();
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_targetGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __get_targetGroup() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_targetGroup() const;
 
-  constexpr void __set_targetGroup(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+  constexpr void __cordl_internal_set_targetGroup(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
   /// @brief Method GetInstance, addr 0x1197ad0, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Target* GetInstance(::System::Object* obj);

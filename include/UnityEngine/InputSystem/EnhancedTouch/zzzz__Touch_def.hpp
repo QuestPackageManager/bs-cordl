@@ -115,7 +115,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::EnhancedTouch::__Touch__GlobalState);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6553))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6553))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6416))
 // CS Name: ::Touch::FingerAndTouchState
 struct CORDL_TYPE __Touch__FingerAndTouchState {
@@ -224,10 +224,10 @@ static_assert(offsetof(::UnityEngine::InputSystem::EnhancedTouch::__Touch__Finge
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3129 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 306 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6416)), TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(2323)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6660), inst: 985 }), TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(6414)), TypeDefinitionIndex(TypeDefinitionIndex(6288))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(6415)) CS Name: ::Touch::GlobalState
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(6288)), TypeDefinitionIndex(TypeDefinitionIndex(6414)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6416)), TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2323), inst: 306 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 985 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6669), inst: 3129 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6415)) CS Name: ::Touch::GlobalState
 struct CORDL_TYPE __Touch__GlobalState {
 public:
   // Declarations
@@ -290,7 +290,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::EnhancedTouch::__Touch__Globa
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6417))
 // CS Name: ::Touch::ExtraDataPerTouchState
 struct CORDL_TYPE __Touch__ExtraDataPerTouchState {
@@ -327,7 +327,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::EnhancedTouch::__Touch__Extra
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6418))
 // CS Name: ::Touch::<>c*
 class CORDL_TYPE __Touch____c : public ::System::Object {
@@ -391,8 +391,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Enhanc
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6576)), TypeDefinitionIndex(TypeDefinitionIndex(6514)), TypeDefinitionIndex(TypeDefinitionIndex(6415)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6576), inst: 3896 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6419)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6415)), TypeDefinitionIndex(TypeDefinitionIndex(6514)), TypeDefinitionIndex(TypeDefinitionIndex(6576)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6576), inst: 3896 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6419)) CS Name:
 // ::UnityEngine.InputSystem.EnhancedTouch::Touch
 struct CORDL_TYPE Touch {
 public:

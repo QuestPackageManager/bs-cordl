@@ -59,94 +59,96 @@ MARK_REF_PTR_T(::System::Net::EndPointListener);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9164))
 // CS Name: ::System.Net::EndPointListener*
 class CORDL_TYPE EndPointListener : public ::System::Object {
 public:
   // Declarations
   /// @brief Field listener, offset 0x10, size 0x8
-  __declspec(property(get = __get_listener, put = __set_listener))::System::Net::HttpListener* listener;
+  __declspec(property(get = __cordl_internal_get_listener, put = __cordl_internal_set_listener))::System::Net::HttpListener* listener;
 
   /// @brief Field endpoint, offset 0x18, size 0x8
-  __declspec(property(get = __get_endpoint, put = __set_endpoint))::System::Net::IPEndPoint* endpoint;
+  __declspec(property(get = __cordl_internal_get_endpoint, put = __cordl_internal_set_endpoint))::System::Net::IPEndPoint* endpoint;
 
   /// @brief Field sock, offset 0x20, size 0x8
-  __declspec(property(get = __get_sock, put = __set_sock))::System::Net::Sockets::Socket* sock;
+  __declspec(property(get = __cordl_internal_get_sock, put = __cordl_internal_set_sock))::System::Net::Sockets::Socket* sock;
 
   /// @brief Field prefixes, offset 0x28, size 0x8
-  __declspec(property(get = __get_prefixes, put = __set_prefixes))::System::Collections::Hashtable* prefixes;
+  __declspec(property(get = __cordl_internal_get_prefixes, put = __cordl_internal_set_prefixes))::System::Collections::Hashtable* prefixes;
 
   /// @brief Field unhandled, offset 0x30, size 0x8
-  __declspec(property(get = __get_unhandled, put = __set_unhandled))::System::Collections::ArrayList* unhandled;
+  __declspec(property(get = __cordl_internal_get_unhandled, put = __cordl_internal_set_unhandled))::System::Collections::ArrayList* unhandled;
 
   /// @brief Field all, offset 0x38, size 0x8
-  __declspec(property(get = __get_all, put = __set_all))::System::Collections::ArrayList* all;
+  __declspec(property(get = __cordl_internal_get_all, put = __cordl_internal_set_all))::System::Collections::ArrayList* all;
 
   /// @brief Field cert, offset 0x40, size 0x8
-  __declspec(property(get = __get_cert, put = __set_cert))::System::Security::Cryptography::X509Certificates::X509Certificate* cert;
+  __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert))::System::Security::Cryptography::X509Certificates::X509Certificate* cert;
 
   /// @brief Field secure, offset 0x48, size 0x1
-  __declspec(property(get = __get_secure, put = __set_secure)) bool secure;
+  __declspec(property(get = __cordl_internal_get_secure, put = __cordl_internal_set_secure)) bool secure;
 
   /// @brief Field unregistered, offset 0x50, size 0x8
-  __declspec(property(get = __get_unregistered, put = __set_unregistered))::System::Collections::Generic::Dictionary_2<::System::Net::HttpConnection*, ::System::Net::HttpConnection*>* unregistered;
+  __declspec(property(get = __cordl_internal_get_unregistered,
+                      put = __cordl_internal_set_unregistered))::System::Collections::Generic::Dictionary_2<::System::Net::HttpConnection*, ::System::Net::HttpConnection*>* unregistered;
 
   __declspec(property(get = get_Listener))::System::Net::HttpListener* Listener;
 
-  constexpr ::System::Net::HttpListener*& __get_listener();
+  constexpr ::System::Net::HttpListener*& __cordl_internal_get_listener();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& __get_listener() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& __cordl_internal_get_listener() const;
 
-  constexpr void __set_listener(::System::Net::HttpListener* value);
+  constexpr void __cordl_internal_set_listener(::System::Net::HttpListener* value);
 
-  constexpr ::System::Net::IPEndPoint*& __get_endpoint();
+  constexpr ::System::Net::IPEndPoint*& __cordl_internal_get_endpoint();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __get_endpoint() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get_endpoint() const;
 
-  constexpr void __set_endpoint(::System::Net::IPEndPoint* value);
+  constexpr void __cordl_internal_set_endpoint(::System::Net::IPEndPoint* value);
 
-  constexpr ::System::Net::Sockets::Socket*& __get_sock();
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_sock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __get_sock() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_sock() const;
 
-  constexpr void __set_sock(::System::Net::Sockets::Socket* value);
+  constexpr void __cordl_internal_set_sock(::System::Net::Sockets::Socket* value);
 
-  constexpr ::System::Collections::Hashtable*& __get_prefixes();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_prefixes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_prefixes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_prefixes() const;
 
-  constexpr void __set_prefixes(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_prefixes(::System::Collections::Hashtable* value);
 
-  constexpr ::System::Collections::ArrayList*& __get_unhandled();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_unhandled();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_unhandled() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_unhandled() const;
 
-  constexpr void __set_unhandled(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_unhandled(::System::Collections::ArrayList* value);
 
-  constexpr ::System::Collections::ArrayList*& __get_all();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_all();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_all() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_all() const;
 
-  constexpr void __set_all(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_all(::System::Collections::ArrayList* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& __get_cert();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& __cordl_internal_get_cert();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate*> const& __get_cert() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate*> const& __cordl_internal_get_cert() const;
 
-  constexpr void __set_cert(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
+  constexpr void __cordl_internal_set_cert(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
 
-  constexpr bool& __get_secure();
+  constexpr bool& __cordl_internal_get_secure();
 
-  constexpr bool const& __get_secure() const;
+  constexpr bool const& __cordl_internal_get_secure() const;
 
-  constexpr void __set_secure(bool value);
+  constexpr void __cordl_internal_set_secure(bool value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Net::HttpConnection*, ::System::Net::HttpConnection*>*& __get_unregistered();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Net::HttpConnection*, ::System::Net::HttpConnection*>*& __cordl_internal_get_unregistered();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Net::HttpConnection*, ::System::Net::HttpConnection*>*> const& __get_unregistered() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Net::HttpConnection*, ::System::Net::HttpConnection*>*> const&
+  __cordl_internal_get_unregistered() const;
 
-  constexpr void __set_unregistered(::System::Collections::Generic::Dictionary_2<::System::Net::HttpConnection*, ::System::Net::HttpConnection*>* value);
+  constexpr void __cordl_internal_set_unregistered(::System::Collections::Generic::Dictionary_2<::System::Net::HttpConnection*, ::System::Net::HttpConnection*>* value);
 
   static inline ::System::Net::EndPointListener* New_ctor(::System::Net::HttpListener* listener, ::System::Net::IPAddress* addr, int32_t port, bool secure);
 

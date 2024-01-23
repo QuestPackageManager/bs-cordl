@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Microsoft::Win32::SafeHandles::SafePasswordHandle);
 // SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Microsoft::Win32::SafeHandles {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3334))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3334))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2298))
 // CS Name: ::Microsoft.Win32.SafeHandles::SafePasswordHandle*
 class CORDL_TYPE SafePasswordHandle : public ::System::Runtime::InteropServices::SafeHandle {

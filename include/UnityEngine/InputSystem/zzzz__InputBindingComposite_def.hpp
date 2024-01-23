@@ -54,32 +54,32 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::__InputBindingComposite___GetPartName
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6188))
 // CS Name: ::InputBindingComposite::<GetPartNames>d__12*
 class CORDL_TYPE __InputBindingComposite___GetPartNames_d__12 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::StringW __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::StringW __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field composite, offset 0x28, size 0x8
-  __declspec(property(get = __get_composite, put = __set_composite))::StringW composite;
+  __declspec(property(get = __cordl_internal_get_composite, put = __cordl_internal_set_composite))::StringW composite;
 
   /// @brief Field <>3__composite, offset 0x30, size 0x8
-  __declspec(property(get = __get___3__composite, put = __set___3__composite))::StringW __3__composite;
+  __declspec(property(get = __cordl_internal_get___3__composite, put = __cordl_internal_set___3__composite))::StringW __3__composite;
 
   /// @brief Field <>7__wrap1, offset 0x38, size 0x8
-  __declspec(property(get = __get___7__wrap1, put = __set___7__wrap1))::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> __7__wrap1;
 
   /// @brief Field <>7__wrap2, offset 0x40, size 0x4
-  __declspec(property(get = __get___7__wrap2, put = __set___7__wrap2)) int32_t __7__wrap2;
+  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2)) int32_t __7__wrap2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_String__get_Current))::StringW System_Collections_Generic_IEnumerator_System_String__Current;
 
@@ -115,47 +115,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::StringW& __get___2__current();
+  constexpr ::StringW& __cordl_internal_get___2__current();
 
-  constexpr ::StringW const& __get___2__current() const;
+  constexpr ::StringW const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::StringW value);
+  constexpr void __cordl_internal_set___2__current(::StringW value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::StringW& __get_composite();
+  constexpr ::StringW& __cordl_internal_get_composite();
 
-  constexpr ::StringW const& __get_composite() const;
+  constexpr ::StringW const& __cordl_internal_get_composite() const;
 
-  constexpr void __set_composite(::StringW value);
+  constexpr void __cordl_internal_set_composite(::StringW value);
 
-  constexpr ::StringW& __get___3__composite();
+  constexpr ::StringW& __cordl_internal_get___3__composite();
 
-  constexpr ::StringW const& __get___3__composite() const;
+  constexpr ::StringW const& __cordl_internal_get___3__composite() const;
 
-  constexpr void __set___3__composite(::StringW value);
+  constexpr void __cordl_internal_set___3__composite(::StringW value);
 
-  constexpr ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*>& __get___7__wrap1();
+  constexpr ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*>& __cordl_internal_get___7__wrap1();
 
-  constexpr ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> const& __get___7__wrap1() const;
+  constexpr ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> value);
+  constexpr void __cordl_internal_set___7__wrap1(::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> value);
 
-  constexpr int32_t& __get___7__wrap2();
+  constexpr int32_t& __cordl_internal_get___7__wrap2();
 
-  constexpr int32_t const& __get___7__wrap2() const;
+  constexpr int32_t const& __cordl_internal_get___7__wrap2() const;
 
-  constexpr void __set___7__wrap2(int32_t value);
+  constexpr void __cordl_internal_set___7__wrap2(int32_t value);
 
   static inline ::UnityEngine::InputSystem::__InputBindingComposite___GetPartNames_d__12* New_ctor(int32_t __1__state);
 
@@ -242,7 +242,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputBindingComposite___Get
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6712))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6712))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6189))
 // CS Name: ::UnityEngine.InputSystem::InputBindingComposite*
 class CORDL_TYPE InputBindingComposite : public ::System::Object {

@@ -142,7 +142,7 @@ MARK_VAL_T(::System::Net::__WebConnection___InitConnection_d__19);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9215))
 // CS Name: ::WebConnection::<>c*
 class CORDL_TYPE __WebConnection____c : public ::System::Object {
@@ -205,7 +205,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__WebConnection____
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9216))
 // CS Name: ::WebConnection::<Connect>d__16
 struct CORDL_TYPE __WebConnection___Connect_d__16 {
@@ -296,9 +296,9 @@ static_assert(offsetof(::System::Net::__WebConnection___Connect_d__16, __u__1) =
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3397), inst: 899 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9217)) CS Name: ::WebConnection::<CreateStream>d__18
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3619)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9217)) CS Name: ::WebConnection::<CreateStream>d__18
 struct CORDL_TYPE __WebConnection___CreateStream_d__18 {
 public:
   // Declarations
@@ -388,9 +388,9 @@ static_assert(offsetof(::System::Net::__WebConnection___CreateStream_d__18, __u_
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(9238)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 901 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9218)) CS Name: ::WebConnection::<InitConnection>d__19
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(9238)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 105 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 901 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9218)) CS Name: ::WebConnection::<InitConnection>d__19
 struct CORDL_TYPE __WebConnection___InitConnection_d__19 {
 public:
   // Declarations
@@ -474,7 +474,7 @@ static_assert(offsetof(::System::Net::__WebConnection___InitConnection_d__19, __
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9219))
 // CS Name: ::System.Net::WebConnection*
 class CORDL_TYPE WebConnection : public ::System::Object {
@@ -489,37 +489,37 @@ public:
   using __c = ::System::Net::__WebConnection____c;
 
   /// @brief Field ntlm_credentials, offset 0x10, size 0x8
-  __declspec(property(get = __get_ntlm_credentials, put = __set_ntlm_credentials))::System::Net::NetworkCredential* ntlm_credentials;
+  __declspec(property(get = __cordl_internal_get_ntlm_credentials, put = __cordl_internal_set_ntlm_credentials))::System::Net::NetworkCredential* ntlm_credentials;
 
   /// @brief Field ntlm_authenticated, offset 0x18, size 0x1
-  __declspec(property(get = __get_ntlm_authenticated, put = __set_ntlm_authenticated)) bool ntlm_authenticated;
+  __declspec(property(get = __cordl_internal_get_ntlm_authenticated, put = __cordl_internal_set_ntlm_authenticated)) bool ntlm_authenticated;
 
   /// @brief Field unsafe_sharing, offset 0x19, size 0x1
-  __declspec(property(get = __get_unsafe_sharing, put = __set_unsafe_sharing)) bool unsafe_sharing;
+  __declspec(property(get = __cordl_internal_get_unsafe_sharing, put = __cordl_internal_set_unsafe_sharing)) bool unsafe_sharing;
 
   /// @brief Field networkStream, offset 0x20, size 0x8
-  __declspec(property(get = __get_networkStream, put = __set_networkStream))::System::IO::Stream* networkStream;
+  __declspec(property(get = __cordl_internal_get_networkStream, put = __cordl_internal_set_networkStream))::System::IO::Stream* networkStream;
 
   /// @brief Field socket, offset 0x28, size 0x8
-  __declspec(property(get = __get_socket, put = __set_socket))::System::Net::Sockets::Socket* socket;
+  __declspec(property(get = __cordl_internal_get_socket, put = __cordl_internal_set_socket))::System::Net::Sockets::Socket* socket;
 
   /// @brief Field monoTlsStream, offset 0x30, size 0x8
-  __declspec(property(get = __get_monoTlsStream, put = __set_monoTlsStream))::Mono::Net::Security::MonoTlsStream* monoTlsStream;
+  __declspec(property(get = __cordl_internal_get_monoTlsStream, put = __cordl_internal_set_monoTlsStream))::Mono::Net::Security::MonoTlsStream* monoTlsStream;
 
   /// @brief Field tunnel, offset 0x38, size 0x8
-  __declspec(property(get = __get_tunnel, put = __set_tunnel))::System::Net::WebConnectionTunnel* tunnel;
+  __declspec(property(get = __cordl_internal_get_tunnel, put = __cordl_internal_set_tunnel))::System::Net::WebConnectionTunnel* tunnel;
 
   /// @brief Field disposed, offset 0x40, size 0x4
-  __declspec(property(get = __get_disposed, put = __set_disposed)) int32_t disposed;
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) int32_t disposed;
 
   /// @brief Field <ServicePoint>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __get__ServicePoint_k__BackingField, put = __set__ServicePoint_k__BackingField))::System::Net::ServicePoint* _ServicePoint_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ServicePoint_k__BackingField, put = __cordl_internal_set__ServicePoint_k__BackingField))::System::Net::ServicePoint* _ServicePoint_k__BackingField;
 
   /// @brief Field idleSince, offset 0x50, size 0x8
-  __declspec(property(get = __get_idleSince, put = __set_idleSince))::System::DateTime idleSince;
+  __declspec(property(get = __cordl_internal_get_idleSince, put = __cordl_internal_set_idleSince))::System::DateTime idleSince;
 
   /// @brief Field currentOperation, offset 0x58, size 0x8
-  __declspec(property(get = __get_currentOperation, put = __set_currentOperation))::System::Net::WebOperation* currentOperation;
+  __declspec(property(get = __cordl_internal_get_currentOperation, put = __cordl_internal_set_currentOperation))::System::Net::WebOperation* currentOperation;
 
   __declspec(property(get = get_ServicePoint))::System::Net::ServicePoint* ServicePoint;
 
@@ -539,71 +539,71 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Net::NetworkCredential*& __get_ntlm_credentials();
+  constexpr ::System::Net::NetworkCredential*& __cordl_internal_get_ntlm_credentials();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::NetworkCredential*> const& __get_ntlm_credentials() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::NetworkCredential*> const& __cordl_internal_get_ntlm_credentials() const;
 
-  constexpr void __set_ntlm_credentials(::System::Net::NetworkCredential* value);
+  constexpr void __cordl_internal_set_ntlm_credentials(::System::Net::NetworkCredential* value);
 
-  constexpr bool& __get_ntlm_authenticated();
+  constexpr bool& __cordl_internal_get_ntlm_authenticated();
 
-  constexpr bool const& __get_ntlm_authenticated() const;
+  constexpr bool const& __cordl_internal_get_ntlm_authenticated() const;
 
-  constexpr void __set_ntlm_authenticated(bool value);
+  constexpr void __cordl_internal_set_ntlm_authenticated(bool value);
 
-  constexpr bool& __get_unsafe_sharing();
+  constexpr bool& __cordl_internal_get_unsafe_sharing();
 
-  constexpr bool const& __get_unsafe_sharing() const;
+  constexpr bool const& __cordl_internal_get_unsafe_sharing() const;
 
-  constexpr void __set_unsafe_sharing(bool value);
+  constexpr void __cordl_internal_set_unsafe_sharing(bool value);
 
-  constexpr ::System::IO::Stream*& __get_networkStream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_networkStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_networkStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_networkStream() const;
 
-  constexpr void __set_networkStream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_networkStream(::System::IO::Stream* value);
 
-  constexpr ::System::Net::Sockets::Socket*& __get_socket();
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_socket();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __get_socket() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_socket() const;
 
-  constexpr void __set_socket(::System::Net::Sockets::Socket* value);
+  constexpr void __cordl_internal_set_socket(::System::Net::Sockets::Socket* value);
 
-  constexpr ::Mono::Net::Security::MonoTlsStream*& __get_monoTlsStream();
+  constexpr ::Mono::Net::Security::MonoTlsStream*& __cordl_internal_get_monoTlsStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MonoTlsStream*> const& __get_monoTlsStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MonoTlsStream*> const& __cordl_internal_get_monoTlsStream() const;
 
-  constexpr void __set_monoTlsStream(::Mono::Net::Security::MonoTlsStream* value);
+  constexpr void __cordl_internal_set_monoTlsStream(::Mono::Net::Security::MonoTlsStream* value);
 
-  constexpr ::System::Net::WebConnectionTunnel*& __get_tunnel();
+  constexpr ::System::Net::WebConnectionTunnel*& __cordl_internal_get_tunnel();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebConnectionTunnel*> const& __get_tunnel() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebConnectionTunnel*> const& __cordl_internal_get_tunnel() const;
 
-  constexpr void __set_tunnel(::System::Net::WebConnectionTunnel* value);
+  constexpr void __cordl_internal_set_tunnel(::System::Net::WebConnectionTunnel* value);
 
-  constexpr int32_t& __get_disposed();
+  constexpr int32_t& __cordl_internal_get_disposed();
 
-  constexpr int32_t const& __get_disposed() const;
+  constexpr int32_t const& __cordl_internal_get_disposed() const;
 
-  constexpr void __set_disposed(int32_t value);
+  constexpr void __cordl_internal_set_disposed(int32_t value);
 
-  constexpr ::System::Net::ServicePoint*& __get__ServicePoint_k__BackingField();
+  constexpr ::System::Net::ServicePoint*& __cordl_internal_get__ServicePoint_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ServicePoint*> const& __get__ServicePoint_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ServicePoint*> const& __cordl_internal_get__ServicePoint_k__BackingField() const;
 
-  constexpr void __set__ServicePoint_k__BackingField(::System::Net::ServicePoint* value);
+  constexpr void __cordl_internal_set__ServicePoint_k__BackingField(::System::Net::ServicePoint* value);
 
-  constexpr ::System::DateTime& __get_idleSince();
+  constexpr ::System::DateTime& __cordl_internal_get_idleSince();
 
-  constexpr ::System::DateTime const& __get_idleSince() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_idleSince() const;
 
-  constexpr void __set_idleSince(::System::DateTime value);
+  constexpr void __cordl_internal_set_idleSince(::System::DateTime value);
 
-  constexpr ::System::Net::WebOperation*& __get_currentOperation();
+  constexpr ::System::Net::WebOperation*& __cordl_internal_get_currentOperation();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebOperation*> const& __get_currentOperation() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebOperation*> const& __cordl_internal_get_currentOperation() const;
 
-  constexpr void __set_currentOperation(::System::Net::WebOperation* value);
+  constexpr void __cordl_internal_set_currentOperation(::System::Net::WebOperation* value);
 
   /// @brief Method get_ServicePoint, addr 0x29dcb34, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::ServicePoint* get_ServicePoint();

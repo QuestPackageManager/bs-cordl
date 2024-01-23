@@ -30,31 +30,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::SignerInformationStore);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(692))
 // CS Name: ::Org.BouncyCastle.Cms::SignerInformationStore*
 class CORDL_TYPE SignerInformationStore : public ::System::Object {
 public:
   // Declarations
   /// @brief Field all, offset 0x10, size 0x8
-  __declspec(property(get = __get_all, put = __set_all))::System::Collections::IList* all;
+  __declspec(property(get = __cordl_internal_get_all, put = __cordl_internal_set_all))::System::Collections::IList* all;
 
   /// @brief Field table, offset 0x18, size 0x8
-  __declspec(property(get = __get_table, put = __set_table))::System::Collections::IDictionary* table;
+  __declspec(property(get = __cordl_internal_get_table, put = __cordl_internal_set_table))::System::Collections::IDictionary* table;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  constexpr ::System::Collections::IList*& __get_all();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_all();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_all() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_all() const;
 
-  constexpr void __set_all(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_all(::System::Collections::IList* value);
 
-  constexpr ::System::Collections::IDictionary*& __get_table();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_table();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get_table() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_table() const;
 
-  constexpr void __set_table(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set_table(::System::Collections::IDictionary* value);
 
   static inline ::Org::BouncyCastle::Cms::SignerInformationStore* New_ctor(::Org::BouncyCastle::Cms::SignerInformation* signerInfo);
 

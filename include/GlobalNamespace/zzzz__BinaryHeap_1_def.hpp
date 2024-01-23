@@ -19,29 +19,29 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14341))
 // CS Name: ::BinaryHeap`1<T>*
 class CORDL_TYPE BinaryHeap_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _data, offset 0x10, size 0x8
-  __declspec(property(get = __get__data, put = __set__data))::ArrayW<T, ::Array<T>*> _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::ArrayW<T, ::Array<T>*> _data;
 
   /// @brief Field _tail, offset 0x18, size 0x4
-  __declspec(property(get = __get__tail, put = __set__tail)) int32_t _tail;
+  __declspec(property(get = __cordl_internal_get__tail, put = __cordl_internal_set__tail)) int32_t _tail;
 
-  constexpr ::ArrayW<T, ::Array<T>*>& __get__data();
+  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__data();
 
-  constexpr ::ArrayW<T, ::Array<T>*> const& __get__data() const;
+  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__data() const;
 
-  constexpr void __set__data(::ArrayW<T, ::Array<T>*> value);
+  constexpr void __cordl_internal_set__data(::ArrayW<T, ::Array<T>*> value);
 
-  constexpr int32_t& __get__tail();
+  constexpr int32_t& __cordl_internal_get__tail();
 
-  constexpr int32_t const& __get__tail() const;
+  constexpr int32_t const& __cordl_internal_get__tail() const;
 
-  constexpr void __set__tail(int32_t value);
+  constexpr void __cordl_internal_set__tail(int32_t value);
 
   static inline ::GlobalNamespace::BinaryHeap_1<T>* New_ctor();
 

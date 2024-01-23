@@ -25,40 +25,40 @@ MARK_REF_PTR_T(::System::Text::InternalDecoderBestFitFallback);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2833))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2833))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2828))
 // CS Name: ::System.Text::InternalDecoderBestFitFallback*
 class CORDL_TYPE InternalDecoderBestFitFallback : public ::System::Text::DecoderFallback {
 public:
   // Declarations
   /// @brief Field _encoding, offset 0x10, size 0x8
-  __declspec(property(get = __get__encoding, put = __set__encoding))::System::Text::Encoding* _encoding;
+  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding))::System::Text::Encoding* _encoding;
 
   /// @brief Field _arrayBestFit, offset 0x18, size 0x8
-  __declspec(property(get = __get__arrayBestFit, put = __set__arrayBestFit))::ArrayW<char16_t, ::Array<char16_t>*> _arrayBestFit;
+  __declspec(property(get = __cordl_internal_get__arrayBestFit, put = __cordl_internal_set__arrayBestFit))::ArrayW<char16_t, ::Array<char16_t>*> _arrayBestFit;
 
   /// @brief Field _cReplacement, offset 0x20, size 0x2
-  __declspec(property(get = __get__cReplacement, put = __set__cReplacement)) char16_t _cReplacement;
+  __declspec(property(get = __cordl_internal_get__cReplacement, put = __cordl_internal_set__cReplacement)) char16_t _cReplacement;
 
   __declspec(property(get = get_MaxCharCount)) int32_t MaxCharCount;
 
-  constexpr ::System::Text::Encoding*& __get__encoding();
+  constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __get__encoding() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__encoding() const;
 
-  constexpr void __set__encoding(::System::Text::Encoding* value);
+  constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get__arrayBestFit();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__arrayBestFit();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get__arrayBestFit() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__arrayBestFit() const;
 
-  constexpr void __set__arrayBestFit(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set__arrayBestFit(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr char16_t& __get__cReplacement();
+  constexpr char16_t& __cordl_internal_get__cReplacement();
 
-  constexpr char16_t const& __get__cReplacement() const;
+  constexpr char16_t const& __cordl_internal_get__cReplacement() const;
 
-  constexpr void __set__cReplacement(char16_t value);
+  constexpr void __cordl_internal_set__cReplacement(char16_t value);
 
   static inline ::System::Text::InternalDecoderBestFitFallback* New_ctor(::System::Text::Encoding* encoding);
 

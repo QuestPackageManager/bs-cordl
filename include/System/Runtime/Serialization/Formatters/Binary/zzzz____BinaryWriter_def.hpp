@@ -97,201 +97,207 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::__BinaryWri
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3240))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3240))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3279))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::__BinaryWriter*
 class CORDL_TYPE __BinaryWriter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field sout, offset 0x10, size 0x8
-  __declspec(property(get = __get_sout, put = __set_sout))::System::IO::Stream* sout;
+  __declspec(property(get = __cordl_internal_get_sout, put = __cordl_internal_set_sout))::System::IO::Stream* sout;
 
   /// @brief Field formatterTypeStyle, offset 0x18, size 0x4
-  __declspec(property(get = __get_formatterTypeStyle, put = __set_formatterTypeStyle))::System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle;
+  __declspec(property(get = __cordl_internal_get_formatterTypeStyle, put = __cordl_internal_set_formatterTypeStyle))::System::Runtime::Serialization::Formatters::FormatterTypeStyle formatterTypeStyle;
 
   /// @brief Field objectMapTable, offset 0x20, size 0x8
-  __declspec(property(get = __get_objectMapTable, put = __set_objectMapTable))::System::Collections::Hashtable* objectMapTable;
+  __declspec(property(get = __cordl_internal_get_objectMapTable, put = __cordl_internal_set_objectMapTable))::System::Collections::Hashtable* objectMapTable;
 
   /// @brief Field objectWriter, offset 0x28, size 0x8
-  __declspec(property(get = __get_objectWriter, put = __set_objectWriter))::System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter;
+  __declspec(property(get = __cordl_internal_get_objectWriter, put = __cordl_internal_set_objectWriter))::System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter;
 
   /// @brief Field dataWriter, offset 0x30, size 0x8
-  __declspec(property(get = __get_dataWriter, put = __set_dataWriter))::System::IO::BinaryWriter* dataWriter;
+  __declspec(property(get = __cordl_internal_get_dataWriter, put = __cordl_internal_set_dataWriter))::System::IO::BinaryWriter* dataWriter;
 
   /// @brief Field m_nestedObjectCount, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_nestedObjectCount, put = __set_m_nestedObjectCount)) int32_t m_nestedObjectCount;
+  __declspec(property(get = __cordl_internal_get_m_nestedObjectCount, put = __cordl_internal_set_m_nestedObjectCount)) int32_t m_nestedObjectCount;
 
   /// @brief Field nullCount, offset 0x3c, size 0x4
-  __declspec(property(get = __get_nullCount, put = __set_nullCount)) int32_t nullCount;
+  __declspec(property(get = __cordl_internal_get_nullCount, put = __cordl_internal_set_nullCount)) int32_t nullCount;
 
   /// @brief Field binaryMethodCall, offset 0x40, size 0x8
-  __declspec(property(get = __get_binaryMethodCall, put = __set_binaryMethodCall))::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall* binaryMethodCall;
+  __declspec(property(get = __cordl_internal_get_binaryMethodCall,
+                      put = __cordl_internal_set_binaryMethodCall))::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall* binaryMethodCall;
 
   /// @brief Field binaryMethodReturn, offset 0x48, size 0x8
-  __declspec(property(get = __get_binaryMethodReturn, put = __set_binaryMethodReturn))::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn* binaryMethodReturn;
+  __declspec(property(get = __cordl_internal_get_binaryMethodReturn,
+                      put = __cordl_internal_set_binaryMethodReturn))::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn* binaryMethodReturn;
 
   /// @brief Field binaryObject, offset 0x50, size 0x8
-  __declspec(property(get = __get_binaryObject, put = __set_binaryObject))::System::Runtime::Serialization::Formatters::Binary::BinaryObject* binaryObject;
+  __declspec(property(get = __cordl_internal_get_binaryObject, put = __cordl_internal_set_binaryObject))::System::Runtime::Serialization::Formatters::Binary::BinaryObject* binaryObject;
 
   /// @brief Field binaryObjectWithMap, offset 0x58, size 0x8
-  __declspec(property(get = __get_binaryObjectWithMap, put = __set_binaryObjectWithMap))::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* binaryObjectWithMap;
+  __declspec(property(get = __cordl_internal_get_binaryObjectWithMap,
+                      put = __cordl_internal_set_binaryObjectWithMap))::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* binaryObjectWithMap;
 
   /// @brief Field binaryObjectWithMapTyped, offset 0x60, size 0x8
-  __declspec(property(get = __get_binaryObjectWithMapTyped,
-                      put = __set_binaryObjectWithMapTyped))::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* binaryObjectWithMapTyped;
+  __declspec(property(get = __cordl_internal_get_binaryObjectWithMapTyped,
+                      put = __cordl_internal_set_binaryObjectWithMapTyped))::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* binaryObjectWithMapTyped;
 
   /// @brief Field binaryObjectString, offset 0x68, size 0x8
-  __declspec(property(get = __get_binaryObjectString, put = __set_binaryObjectString))::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* binaryObjectString;
+  __declspec(property(get = __cordl_internal_get_binaryObjectString,
+                      put = __cordl_internal_set_binaryObjectString))::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* binaryObjectString;
 
   /// @brief Field binaryArray, offset 0x70, size 0x8
-  __declspec(property(get = __get_binaryArray, put = __set_binaryArray))::System::Runtime::Serialization::Formatters::Binary::BinaryArray* binaryArray;
+  __declspec(property(get = __cordl_internal_get_binaryArray, put = __cordl_internal_set_binaryArray))::System::Runtime::Serialization::Formatters::Binary::BinaryArray* binaryArray;
 
   /// @brief Field byteBuffer, offset 0x78, size 0x8
-  __declspec(property(get = __get_byteBuffer, put = __set_byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuffer;
+  __declspec(property(get = __cordl_internal_get_byteBuffer, put = __cordl_internal_set_byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuffer;
 
   /// @brief Field chunkSize, offset 0x80, size 0x4
-  __declspec(property(get = __get_chunkSize, put = __set_chunkSize)) int32_t chunkSize;
+  __declspec(property(get = __cordl_internal_get_chunkSize, put = __cordl_internal_set_chunkSize)) int32_t chunkSize;
 
   /// @brief Field memberPrimitiveUnTyped, offset 0x88, size 0x8
-  __declspec(property(get = __get_memberPrimitiveUnTyped, put = __set_memberPrimitiveUnTyped))::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* memberPrimitiveUnTyped;
+  __declspec(property(get = __cordl_internal_get_memberPrimitiveUnTyped,
+                      put = __cordl_internal_set_memberPrimitiveUnTyped))::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* memberPrimitiveUnTyped;
 
   /// @brief Field memberPrimitiveTyped, offset 0x90, size 0x8
-  __declspec(property(get = __get_memberPrimitiveTyped, put = __set_memberPrimitiveTyped))::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* memberPrimitiveTyped;
+  __declspec(property(get = __cordl_internal_get_memberPrimitiveTyped,
+                      put = __cordl_internal_set_memberPrimitiveTyped))::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* memberPrimitiveTyped;
 
   /// @brief Field objectNull, offset 0x98, size 0x8
-  __declspec(property(get = __get_objectNull, put = __set_objectNull))::System::Runtime::Serialization::Formatters::Binary::ObjectNull* objectNull;
+  __declspec(property(get = __cordl_internal_get_objectNull, put = __cordl_internal_set_objectNull))::System::Runtime::Serialization::Formatters::Binary::ObjectNull* objectNull;
 
   /// @brief Field memberReference, offset 0xa0, size 0x8
-  __declspec(property(get = __get_memberReference, put = __set_memberReference))::System::Runtime::Serialization::Formatters::Binary::MemberReference* memberReference;
+  __declspec(property(get = __cordl_internal_get_memberReference, put = __cordl_internal_set_memberReference))::System::Runtime::Serialization::Formatters::Binary::MemberReference* memberReference;
 
   /// @brief Field binaryAssembly, offset 0xa8, size 0x8
-  __declspec(property(get = __get_binaryAssembly, put = __set_binaryAssembly))::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* binaryAssembly;
+  __declspec(property(get = __cordl_internal_get_binaryAssembly, put = __cordl_internal_set_binaryAssembly))::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* binaryAssembly;
 
-  constexpr ::System::IO::Stream*& __get_sout();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_sout();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_sout() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_sout() const;
 
-  constexpr void __set_sout(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_sout(::System::IO::Stream* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle& __get_formatterTypeStyle();
+  constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle& __cordl_internal_get_formatterTypeStyle();
 
-  constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle const& __get_formatterTypeStyle() const;
+  constexpr ::System::Runtime::Serialization::Formatters::FormatterTypeStyle const& __cordl_internal_get_formatterTypeStyle() const;
 
-  constexpr void __set_formatterTypeStyle(::System::Runtime::Serialization::Formatters::FormatterTypeStyle value);
+  constexpr void __cordl_internal_set_formatterTypeStyle(::System::Runtime::Serialization::Formatters::FormatterTypeStyle value);
 
-  constexpr ::System::Collections::Hashtable*& __get_objectMapTable();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_objectMapTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_objectMapTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_objectMapTable() const;
 
-  constexpr void __set_objectMapTable(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_objectMapTable(::System::Collections::Hashtable* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter*& __get_objectWriter();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter*& __cordl_internal_get_objectWriter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ObjectWriter*> const& __get_objectWriter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ObjectWriter*> const& __cordl_internal_get_objectWriter() const;
 
-  constexpr void __set_objectWriter(::System::Runtime::Serialization::Formatters::Binary::ObjectWriter* value);
+  constexpr void __cordl_internal_set_objectWriter(::System::Runtime::Serialization::Formatters::Binary::ObjectWriter* value);
 
-  constexpr ::System::IO::BinaryWriter*& __get_dataWriter();
+  constexpr ::System::IO::BinaryWriter*& __cordl_internal_get_dataWriter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::BinaryWriter*> const& __get_dataWriter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::BinaryWriter*> const& __cordl_internal_get_dataWriter() const;
 
-  constexpr void __set_dataWriter(::System::IO::BinaryWriter* value);
+  constexpr void __cordl_internal_set_dataWriter(::System::IO::BinaryWriter* value);
 
-  constexpr int32_t& __get_m_nestedObjectCount();
+  constexpr int32_t& __cordl_internal_get_m_nestedObjectCount();
 
-  constexpr int32_t const& __get_m_nestedObjectCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_nestedObjectCount() const;
 
-  constexpr void __set_m_nestedObjectCount(int32_t value);
+  constexpr void __cordl_internal_set_m_nestedObjectCount(int32_t value);
 
-  constexpr int32_t& __get_nullCount();
+  constexpr int32_t& __cordl_internal_get_nullCount();
 
-  constexpr int32_t const& __get_nullCount() const;
+  constexpr int32_t const& __cordl_internal_get_nullCount() const;
 
-  constexpr void __set_nullCount(int32_t value);
+  constexpr void __cordl_internal_set_nullCount(int32_t value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*& __get_binaryMethodCall();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*& __cordl_internal_get_binaryMethodCall();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*> const& __get_binaryMethodCall() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall*> const& __cordl_internal_get_binaryMethodCall() const;
 
-  constexpr void __set_binaryMethodCall(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall* value);
+  constexpr void __cordl_internal_set_binaryMethodCall(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn*& __get_binaryMethodReturn();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn*& __cordl_internal_get_binaryMethodReturn();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn*> const& __get_binaryMethodReturn() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn*> const& __cordl_internal_get_binaryMethodReturn() const;
 
-  constexpr void __set_binaryMethodReturn(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn* value);
+  constexpr void __cordl_internal_set_binaryMethodReturn(::System::Runtime::Serialization::Formatters::Binary::BinaryMethodReturn* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObject*& __get_binaryObject();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObject*& __cordl_internal_get_binaryObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObject*> const& __get_binaryObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObject*> const& __cordl_internal_get_binaryObject() const;
 
-  constexpr void __set_binaryObject(::System::Runtime::Serialization::Formatters::Binary::BinaryObject* value);
+  constexpr void __cordl_internal_set_binaryObject(::System::Runtime::Serialization::Formatters::Binary::BinaryObject* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*& __get_binaryObjectWithMap();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*& __cordl_internal_get_binaryObjectWithMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*> const& __get_binaryObjectWithMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap*> const& __cordl_internal_get_binaryObjectWithMap() const;
 
-  constexpr void __set_binaryObjectWithMap(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* value);
+  constexpr void __cordl_internal_set_binaryObjectWithMap(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped*& __get_binaryObjectWithMapTyped();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped*& __cordl_internal_get_binaryObjectWithMapTyped();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped*> const& __get_binaryObjectWithMapTyped() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped*> const& __cordl_internal_get_binaryObjectWithMapTyped() const;
 
-  constexpr void __set_binaryObjectWithMapTyped(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* value);
+  constexpr void __cordl_internal_set_binaryObjectWithMapTyped(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMapTyped* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString*& __get_binaryObjectString();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString*& __cordl_internal_get_binaryObjectString();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString*> const& __get_binaryObjectString() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString*> const& __cordl_internal_get_binaryObjectString() const;
 
-  constexpr void __set_binaryObjectString(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* value);
+  constexpr void __cordl_internal_set_binaryObjectString(::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryArray*& __get_binaryArray();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryArray*& __cordl_internal_get_binaryArray();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryArray*> const& __get_binaryArray() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryArray*> const& __cordl_internal_get_binaryArray() const;
 
-  constexpr void __set_binaryArray(::System::Runtime::Serialization::Formatters::Binary::BinaryArray* value);
+  constexpr void __cordl_internal_set_binaryArray(::System::Runtime::Serialization::Formatters::Binary::BinaryArray* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_byteBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_byteBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_byteBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_byteBuffer() const;
 
-  constexpr void __set_byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_chunkSize();
+  constexpr int32_t& __cordl_internal_get_chunkSize();
 
-  constexpr int32_t const& __get_chunkSize() const;
+  constexpr int32_t const& __cordl_internal_get_chunkSize() const;
 
-  constexpr void __set_chunkSize(int32_t value);
+  constexpr void __cordl_internal_set_chunkSize(int32_t value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*& __get_memberPrimitiveUnTyped();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*& __cordl_internal_get_memberPrimitiveUnTyped();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*> const& __get_memberPrimitiveUnTyped() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped*> const& __cordl_internal_get_memberPrimitiveUnTyped() const;
 
-  constexpr void __set_memberPrimitiveUnTyped(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* value);
+  constexpr void __cordl_internal_set_memberPrimitiveUnTyped(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveUnTyped* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped*& __get_memberPrimitiveTyped();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped*& __cordl_internal_get_memberPrimitiveTyped();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped*> const& __get_memberPrimitiveTyped() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped*> const& __cordl_internal_get_memberPrimitiveTyped() const;
 
-  constexpr void __set_memberPrimitiveTyped(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* value);
+  constexpr void __cordl_internal_set_memberPrimitiveTyped(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectNull*& __get_objectNull();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::ObjectNull*& __cordl_internal_get_objectNull();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*> const& __get_objectNull() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::ObjectNull*> const& __cordl_internal_get_objectNull() const;
 
-  constexpr void __set_objectNull(::System::Runtime::Serialization::Formatters::Binary::ObjectNull* value);
+  constexpr void __cordl_internal_set_objectNull(::System::Runtime::Serialization::Formatters::Binary::ObjectNull* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberReference*& __get_memberReference();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::MemberReference*& __cordl_internal_get_memberReference();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::MemberReference*> const& __get_memberReference() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::MemberReference*> const& __cordl_internal_get_memberReference() const;
 
-  constexpr void __set_memberReference(::System::Runtime::Serialization::Formatters::Binary::MemberReference* value);
+  constexpr void __cordl_internal_set_memberReference(::System::Runtime::Serialization::Formatters::Binary::MemberReference* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly*& __get_binaryAssembly();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly*& __cordl_internal_get_binaryAssembly();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly*> const& __get_binaryAssembly() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly*> const& __cordl_internal_get_binaryAssembly() const;
 
-  constexpr void __set_binaryAssembly(::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* value);
+  constexpr void __cordl_internal_set_binaryAssembly(::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* New_ctor(::System::IO::Stream* sout,
                                                                                                ::System::Runtime::Serialization::Formatters::Binary::ObjectWriter* objectWriter,

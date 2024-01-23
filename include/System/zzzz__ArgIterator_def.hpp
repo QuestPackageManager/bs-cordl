@@ -19,7 +19,7 @@ MARK_VAL_T(::System::ArgIterator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2583))
 // CS Name: ::System::ArgIterator
 struct CORDL_TYPE ArgIterator {

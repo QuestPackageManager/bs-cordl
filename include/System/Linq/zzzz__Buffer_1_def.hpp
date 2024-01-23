@@ -21,7 +21,7 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14295))
 // CS Name: ::System.Linq::Buffer`1<TElement>
 struct CORDL_TYPE Buffer_1 {

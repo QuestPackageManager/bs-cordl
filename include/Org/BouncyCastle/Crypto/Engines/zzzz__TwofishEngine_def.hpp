@@ -23,38 +23,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::TwofishEngine);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(881))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::TwofishEngine*
 class CORDL_TYPE TwofishEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field encrypting, offset 0x10, size 0x1
-  __declspec(property(get = __get_encrypting, put = __set_encrypting)) bool encrypting;
+  __declspec(property(get = __cordl_internal_get_encrypting, put = __cordl_internal_set_encrypting)) bool encrypting;
 
   /// @brief Field gMDS0, offset 0x18, size 0x8
-  __declspec(property(get = __get_gMDS0, put = __set_gMDS0))::ArrayW<int32_t, ::Array<int32_t>*> gMDS0;
+  __declspec(property(get = __cordl_internal_get_gMDS0, put = __cordl_internal_set_gMDS0))::ArrayW<int32_t, ::Array<int32_t>*> gMDS0;
 
   /// @brief Field gMDS1, offset 0x20, size 0x8
-  __declspec(property(get = __get_gMDS1, put = __set_gMDS1))::ArrayW<int32_t, ::Array<int32_t>*> gMDS1;
+  __declspec(property(get = __cordl_internal_get_gMDS1, put = __cordl_internal_set_gMDS1))::ArrayW<int32_t, ::Array<int32_t>*> gMDS1;
 
   /// @brief Field gMDS2, offset 0x28, size 0x8
-  __declspec(property(get = __get_gMDS2, put = __set_gMDS2))::ArrayW<int32_t, ::Array<int32_t>*> gMDS2;
+  __declspec(property(get = __cordl_internal_get_gMDS2, put = __cordl_internal_set_gMDS2))::ArrayW<int32_t, ::Array<int32_t>*> gMDS2;
 
   /// @brief Field gMDS3, offset 0x30, size 0x8
-  __declspec(property(get = __get_gMDS3, put = __set_gMDS3))::ArrayW<int32_t, ::Array<int32_t>*> gMDS3;
+  __declspec(property(get = __cordl_internal_get_gMDS3, put = __cordl_internal_set_gMDS3))::ArrayW<int32_t, ::Array<int32_t>*> gMDS3;
 
   /// @brief Field gSubKeys, offset 0x38, size 0x8
-  __declspec(property(get = __get_gSubKeys, put = __set_gSubKeys))::ArrayW<int32_t, ::Array<int32_t>*> gSubKeys;
+  __declspec(property(get = __cordl_internal_get_gSubKeys, put = __cordl_internal_set_gSubKeys))::ArrayW<int32_t, ::Array<int32_t>*> gSubKeys;
 
   /// @brief Field gSBox, offset 0x40, size 0x8
-  __declspec(property(get = __get_gSBox, put = __set_gSBox))::ArrayW<int32_t, ::Array<int32_t>*> gSBox;
+  __declspec(property(get = __cordl_internal_get_gSBox, put = __cordl_internal_set_gSBox))::ArrayW<int32_t, ::Array<int32_t>*> gSBox;
 
   /// @brief Field k64Cnt, offset 0x48, size 0x4
-  __declspec(property(get = __get_k64Cnt, put = __set_k64Cnt)) int32_t k64Cnt;
+  __declspec(property(get = __cordl_internal_get_k64Cnt, put = __cordl_internal_set_k64Cnt)) int32_t k64Cnt;
 
   /// @brief Field workingKey, offset 0x50, size 0x8
-  __declspec(property(get = __get_workingKey, put = __set_workingKey))::ArrayW<uint8_t, ::Array<uint8_t>*> workingKey;
+  __declspec(property(get = __cordl_internal_get_workingKey, put = __cordl_internal_set_workingKey))::ArrayW<uint8_t, ::Array<uint8_t>*> workingKey;
 
   /// @brief Field P, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_P, put = setStaticF_P)) Il2CppObject* P;
@@ -69,59 +69,59 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr bool& __get_encrypting();
+  constexpr bool& __cordl_internal_get_encrypting();
 
-  constexpr bool const& __get_encrypting() const;
+  constexpr bool const& __cordl_internal_get_encrypting() const;
 
-  constexpr void __set_encrypting(bool value);
+  constexpr void __cordl_internal_set_encrypting(bool value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_gMDS0();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gMDS0();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_gMDS0() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gMDS0() const;
 
-  constexpr void __set_gMDS0(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_gMDS0(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_gMDS1();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gMDS1();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_gMDS1() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gMDS1() const;
 
-  constexpr void __set_gMDS1(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_gMDS1(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_gMDS2();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gMDS2();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_gMDS2() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gMDS2() const;
 
-  constexpr void __set_gMDS2(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_gMDS2(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_gMDS3();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gMDS3();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_gMDS3() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gMDS3() const;
 
-  constexpr void __set_gMDS3(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_gMDS3(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_gSubKeys();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gSubKeys();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_gSubKeys() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gSubKeys() const;
 
-  constexpr void __set_gSubKeys(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_gSubKeys(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_gSBox();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_gSBox();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_gSBox() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_gSBox() const;
 
-  constexpr void __set_gSBox(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_gSBox(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_k64Cnt();
+  constexpr int32_t& __cordl_internal_get_k64Cnt();
 
-  constexpr int32_t const& __get_k64Cnt() const;
+  constexpr int32_t const& __cordl_internal_get_k64Cnt() const;
 
-  constexpr void __set_k64Cnt(int32_t value);
+  constexpr void __cordl_internal_set_k64Cnt(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_workingKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_workingKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_workingKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_workingKey() const;
 
-  constexpr void __set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_P(Il2CppObject* value);
 

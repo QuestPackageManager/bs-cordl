@@ -38,129 +38,132 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectsInstaller);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5388))
 // CS Name: ::BeatmapObjectsInstaller*
 class CORDL_TYPE BeatmapObjectsInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
   /// @brief Field _normalBasicNotePrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__normalBasicNotePrefab, put = __set__normalBasicNotePrefab))::GlobalNamespace::GameNoteController* _normalBasicNotePrefab;
+  __declspec(property(get = __cordl_internal_get__normalBasicNotePrefab, put = __cordl_internal_set__normalBasicNotePrefab))::UnityW<::GlobalNamespace::GameNoteController> _normalBasicNotePrefab;
 
   /// @brief Field _proModeNotePrefab, offset 0x28, size 0x8
-  __declspec(property(get = __get__proModeNotePrefab, put = __set__proModeNotePrefab))::GlobalNamespace::GameNoteController* _proModeNotePrefab;
+  __declspec(property(get = __cordl_internal_get__proModeNotePrefab, put = __cordl_internal_set__proModeNotePrefab))::UnityW<::GlobalNamespace::GameNoteController> _proModeNotePrefab;
 
   /// @brief Field _burstSliderHeadNotePrefab, offset 0x30, size 0x8
-  __declspec(property(get = __get__burstSliderHeadNotePrefab, put = __set__burstSliderHeadNotePrefab))::GlobalNamespace::GameNoteController* _burstSliderHeadNotePrefab;
+  __declspec(property(get = __cordl_internal_get__burstSliderHeadNotePrefab,
+                      put = __cordl_internal_set__burstSliderHeadNotePrefab))::UnityW<::GlobalNamespace::GameNoteController> _burstSliderHeadNotePrefab;
 
   /// @brief Field _burstSliderNotePrefab, offset 0x38, size 0x8
-  __declspec(property(get = __get__burstSliderNotePrefab, put = __set__burstSliderNotePrefab))::GlobalNamespace::BurstSliderGameNoteController* _burstSliderNotePrefab;
+  __declspec(property(get = __cordl_internal_get__burstSliderNotePrefab,
+                      put = __cordl_internal_set__burstSliderNotePrefab))::UnityW<::GlobalNamespace::BurstSliderGameNoteController> _burstSliderNotePrefab;
 
   /// @brief Field _burstSliderFillPrefab, offset 0x40, size 0x8
-  __declspec(property(get = __get__burstSliderFillPrefab, put = __set__burstSliderFillPrefab))::GlobalNamespace::BurstSliderGameNoteController* _burstSliderFillPrefab;
+  __declspec(property(get = __cordl_internal_get__burstSliderFillPrefab,
+                      put = __cordl_internal_set__burstSliderFillPrefab))::UnityW<::GlobalNamespace::BurstSliderGameNoteController> _burstSliderFillPrefab;
 
   /// @brief Field _bombNotePrefab, offset 0x48, size 0x8
-  __declspec(property(get = __get__bombNotePrefab, put = __set__bombNotePrefab))::GlobalNamespace::BombNoteController* _bombNotePrefab;
+  __declspec(property(get = __cordl_internal_get__bombNotePrefab, put = __cordl_internal_set__bombNotePrefab))::UnityW<::GlobalNamespace::BombNoteController> _bombNotePrefab;
 
   /// @brief Field _obstaclePrefab, offset 0x50, size 0x8
-  __declspec(property(get = __get__obstaclePrefab, put = __set__obstaclePrefab))::GlobalNamespace::ObstacleController* _obstaclePrefab;
+  __declspec(property(get = __cordl_internal_get__obstaclePrefab, put = __cordl_internal_set__obstaclePrefab))::UnityW<::GlobalNamespace::ObstacleController> _obstaclePrefab;
 
   /// @brief Field _sliderShortPrefab, offset 0x58, size 0x8
-  __declspec(property(get = __get__sliderShortPrefab, put = __set__sliderShortPrefab))::GlobalNamespace::SliderController* _sliderShortPrefab;
+  __declspec(property(get = __cordl_internal_get__sliderShortPrefab, put = __cordl_internal_set__sliderShortPrefab))::UnityW<::GlobalNamespace::SliderController> _sliderShortPrefab;
 
   /// @brief Field _sliderMediumPrefab, offset 0x60, size 0x8
-  __declspec(property(get = __get__sliderMediumPrefab, put = __set__sliderMediumPrefab))::GlobalNamespace::SliderController* _sliderMediumPrefab;
+  __declspec(property(get = __cordl_internal_get__sliderMediumPrefab, put = __cordl_internal_set__sliderMediumPrefab))::UnityW<::GlobalNamespace::SliderController> _sliderMediumPrefab;
 
   /// @brief Field _sliderLongPrefab, offset 0x68, size 0x8
-  __declspec(property(get = __get__sliderLongPrefab, put = __set__sliderLongPrefab))::GlobalNamespace::SliderController* _sliderLongPrefab;
+  __declspec(property(get = __cordl_internal_get__sliderLongPrefab, put = __cordl_internal_set__sliderLongPrefab))::UnityW<::GlobalNamespace::SliderController> _sliderLongPrefab;
 
   /// @brief Field _noteLineConnectionControllerPrefab, offset 0x70, size 0x8
-  __declspec(property(get = __get__noteLineConnectionControllerPrefab,
-                      put = __set__noteLineConnectionControllerPrefab))::GlobalNamespace::NoteLineConnectionController* _noteLineConnectionControllerPrefab;
+  __declspec(property(get = __cordl_internal_get__noteLineConnectionControllerPrefab,
+                      put = __cordl_internal_set__noteLineConnectionControllerPrefab))::UnityW<::GlobalNamespace::NoteLineConnectionController> _noteLineConnectionControllerPrefab;
 
   /// @brief Field _beatLinePrefab, offset 0x78, size 0x8
-  __declspec(property(get = __get__beatLinePrefab, put = __set__beatLinePrefab))::GlobalNamespace::BeatLine* _beatLinePrefab;
+  __declspec(property(get = __cordl_internal_get__beatLinePrefab, put = __cordl_internal_set__beatLinePrefab))::UnityW<::GlobalNamespace::BeatLine> _beatLinePrefab;
 
   /// @brief Field _sceneSetupData, offset 0x80, size 0x8
-  __declspec(property(get = __get__sceneSetupData, put = __set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
+  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  constexpr ::GlobalNamespace::GameNoteController*& __get__normalBasicNotePrefab();
+  constexpr ::UnityW<::GlobalNamespace::GameNoteController>& __cordl_internal_get__normalBasicNotePrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameNoteController*> const& __get__normalBasicNotePrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::GameNoteController> const& __cordl_internal_get__normalBasicNotePrefab() const;
 
-  constexpr void __set__normalBasicNotePrefab(::GlobalNamespace::GameNoteController* value);
+  constexpr void __cordl_internal_set__normalBasicNotePrefab(::UnityW<::GlobalNamespace::GameNoteController> value);
 
-  constexpr ::GlobalNamespace::GameNoteController*& __get__proModeNotePrefab();
+  constexpr ::UnityW<::GlobalNamespace::GameNoteController>& __cordl_internal_get__proModeNotePrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameNoteController*> const& __get__proModeNotePrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::GameNoteController> const& __cordl_internal_get__proModeNotePrefab() const;
 
-  constexpr void __set__proModeNotePrefab(::GlobalNamespace::GameNoteController* value);
+  constexpr void __cordl_internal_set__proModeNotePrefab(::UnityW<::GlobalNamespace::GameNoteController> value);
 
-  constexpr ::GlobalNamespace::GameNoteController*& __get__burstSliderHeadNotePrefab();
+  constexpr ::UnityW<::GlobalNamespace::GameNoteController>& __cordl_internal_get__burstSliderHeadNotePrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameNoteController*> const& __get__burstSliderHeadNotePrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::GameNoteController> const& __cordl_internal_get__burstSliderHeadNotePrefab() const;
 
-  constexpr void __set__burstSliderHeadNotePrefab(::GlobalNamespace::GameNoteController* value);
+  constexpr void __cordl_internal_set__burstSliderHeadNotePrefab(::UnityW<::GlobalNamespace::GameNoteController> value);
 
-  constexpr ::GlobalNamespace::BurstSliderGameNoteController*& __get__burstSliderNotePrefab();
+  constexpr ::UnityW<::GlobalNamespace::BurstSliderGameNoteController>& __cordl_internal_get__burstSliderNotePrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BurstSliderGameNoteController*> const& __get__burstSliderNotePrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::BurstSliderGameNoteController> const& __cordl_internal_get__burstSliderNotePrefab() const;
 
-  constexpr void __set__burstSliderNotePrefab(::GlobalNamespace::BurstSliderGameNoteController* value);
+  constexpr void __cordl_internal_set__burstSliderNotePrefab(::UnityW<::GlobalNamespace::BurstSliderGameNoteController> value);
 
-  constexpr ::GlobalNamespace::BurstSliderGameNoteController*& __get__burstSliderFillPrefab();
+  constexpr ::UnityW<::GlobalNamespace::BurstSliderGameNoteController>& __cordl_internal_get__burstSliderFillPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BurstSliderGameNoteController*> const& __get__burstSliderFillPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::BurstSliderGameNoteController> const& __cordl_internal_get__burstSliderFillPrefab() const;
 
-  constexpr void __set__burstSliderFillPrefab(::GlobalNamespace::BurstSliderGameNoteController* value);
+  constexpr void __cordl_internal_set__burstSliderFillPrefab(::UnityW<::GlobalNamespace::BurstSliderGameNoteController> value);
 
-  constexpr ::GlobalNamespace::BombNoteController*& __get__bombNotePrefab();
+  constexpr ::UnityW<::GlobalNamespace::BombNoteController>& __cordl_internal_get__bombNotePrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BombNoteController*> const& __get__bombNotePrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::BombNoteController> const& __cordl_internal_get__bombNotePrefab() const;
 
-  constexpr void __set__bombNotePrefab(::GlobalNamespace::BombNoteController* value);
+  constexpr void __cordl_internal_set__bombNotePrefab(::UnityW<::GlobalNamespace::BombNoteController> value);
 
-  constexpr ::GlobalNamespace::ObstacleController*& __get__obstaclePrefab();
+  constexpr ::UnityW<::GlobalNamespace::ObstacleController>& __cordl_internal_get__obstaclePrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObstacleController*> const& __get__obstaclePrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::ObstacleController> const& __cordl_internal_get__obstaclePrefab() const;
 
-  constexpr void __set__obstaclePrefab(::GlobalNamespace::ObstacleController* value);
+  constexpr void __cordl_internal_set__obstaclePrefab(::UnityW<::GlobalNamespace::ObstacleController> value);
 
-  constexpr ::GlobalNamespace::SliderController*& __get__sliderShortPrefab();
+  constexpr ::UnityW<::GlobalNamespace::SliderController>& __cordl_internal_get__sliderShortPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SliderController*> const& __get__sliderShortPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::SliderController> const& __cordl_internal_get__sliderShortPrefab() const;
 
-  constexpr void __set__sliderShortPrefab(::GlobalNamespace::SliderController* value);
+  constexpr void __cordl_internal_set__sliderShortPrefab(::UnityW<::GlobalNamespace::SliderController> value);
 
-  constexpr ::GlobalNamespace::SliderController*& __get__sliderMediumPrefab();
+  constexpr ::UnityW<::GlobalNamespace::SliderController>& __cordl_internal_get__sliderMediumPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SliderController*> const& __get__sliderMediumPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::SliderController> const& __cordl_internal_get__sliderMediumPrefab() const;
 
-  constexpr void __set__sliderMediumPrefab(::GlobalNamespace::SliderController* value);
+  constexpr void __cordl_internal_set__sliderMediumPrefab(::UnityW<::GlobalNamespace::SliderController> value);
 
-  constexpr ::GlobalNamespace::SliderController*& __get__sliderLongPrefab();
+  constexpr ::UnityW<::GlobalNamespace::SliderController>& __cordl_internal_get__sliderLongPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SliderController*> const& __get__sliderLongPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::SliderController> const& __cordl_internal_get__sliderLongPrefab() const;
 
-  constexpr void __set__sliderLongPrefab(::GlobalNamespace::SliderController* value);
+  constexpr void __cordl_internal_set__sliderLongPrefab(::UnityW<::GlobalNamespace::SliderController> value);
 
-  constexpr ::GlobalNamespace::NoteLineConnectionController*& __get__noteLineConnectionControllerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::NoteLineConnectionController>& __cordl_internal_get__noteLineConnectionControllerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteLineConnectionController*> const& __get__noteLineConnectionControllerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::NoteLineConnectionController> const& __cordl_internal_get__noteLineConnectionControllerPrefab() const;
 
-  constexpr void __set__noteLineConnectionControllerPrefab(::GlobalNamespace::NoteLineConnectionController* value);
+  constexpr void __cordl_internal_set__noteLineConnectionControllerPrefab(::UnityW<::GlobalNamespace::NoteLineConnectionController> value);
 
-  constexpr ::GlobalNamespace::BeatLine*& __get__beatLinePrefab();
+  constexpr ::UnityW<::GlobalNamespace::BeatLine>& __cordl_internal_get__beatLinePrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatLine*> const& __get__beatLinePrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatLine> const& __cordl_internal_get__beatLinePrefab() const;
 
-  constexpr void __set__beatLinePrefab(::GlobalNamespace::BeatLine* value);
+  constexpr void __cordl_internal_set__beatLinePrefab(::UnityW<::GlobalNamespace::BeatLine> value);
 
-  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __get__sceneSetupData();
+  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __get__sceneSetupData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
 
-  constexpr void __set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
+  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
   /// @brief Method InstallBindings, addr 0x226f0c0, size 0x4d4, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -185,40 +188,40 @@ protected:
 
 public:
   /// @brief Field _normalBasicNotePrefab, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::GameNoteController* ____normalBasicNotePrefab;
+  ::UnityW<::GlobalNamespace::GameNoteController> ____normalBasicNotePrefab;
 
   /// @brief Field _proModeNotePrefab, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::GameNoteController* ____proModeNotePrefab;
+  ::UnityW<::GlobalNamespace::GameNoteController> ____proModeNotePrefab;
 
   /// @brief Field _burstSliderHeadNotePrefab, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::GameNoteController* ____burstSliderHeadNotePrefab;
+  ::UnityW<::GlobalNamespace::GameNoteController> ____burstSliderHeadNotePrefab;
 
   /// @brief Field _burstSliderNotePrefab, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::BurstSliderGameNoteController* ____burstSliderNotePrefab;
+  ::UnityW<::GlobalNamespace::BurstSliderGameNoteController> ____burstSliderNotePrefab;
 
   /// @brief Field _burstSliderFillPrefab, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::BurstSliderGameNoteController* ____burstSliderFillPrefab;
+  ::UnityW<::GlobalNamespace::BurstSliderGameNoteController> ____burstSliderFillPrefab;
 
   /// @brief Field _bombNotePrefab, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::BombNoteController* ____bombNotePrefab;
+  ::UnityW<::GlobalNamespace::BombNoteController> ____bombNotePrefab;
 
   /// @brief Field _obstaclePrefab, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::ObstacleController* ____obstaclePrefab;
+  ::UnityW<::GlobalNamespace::ObstacleController> ____obstaclePrefab;
 
   /// @brief Field _sliderShortPrefab, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::SliderController* ____sliderShortPrefab;
+  ::UnityW<::GlobalNamespace::SliderController> ____sliderShortPrefab;
 
   /// @brief Field _sliderMediumPrefab, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::SliderController* ____sliderMediumPrefab;
+  ::UnityW<::GlobalNamespace::SliderController> ____sliderMediumPrefab;
 
   /// @brief Field _sliderLongPrefab, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::SliderController* ____sliderLongPrefab;
+  ::UnityW<::GlobalNamespace::SliderController> ____sliderLongPrefab;
 
   /// @brief Field _noteLineConnectionControllerPrefab, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::NoteLineConnectionController* ____noteLineConnectionControllerPrefab;
+  ::UnityW<::GlobalNamespace::NoteLineConnectionController> ____noteLineConnectionControllerPrefab;
 
   /// @brief Field _beatLinePrefab, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::BeatLine* ____beatLinePrefab;
+  ::UnityW<::GlobalNamespace::BeatLine> ____beatLinePrefab;
 
   /// @brief Field _sceneSetupData, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;

@@ -16,7 +16,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TBase, typename TIn, typename TOut>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4292)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4292), inst: 1155 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4292)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4292), inst: 1155 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4293))
 // CS Name: ::DefaultDataConvertor`3<TBase,TIn,TOut>*
 class CORDL_TYPE DefaultDataConvertor_3 : public ::GlobalNamespace::DataItemConvertor_3<TBase, TIn, TOut> {

@@ -99,7 +99,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateCompleteData)
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8093))
 // CS Name: ::OVRDeserialize::DisplayRefreshRateChangedData
 struct CORDL_TYPE __OVRDeserialize__DisplayRefreshRateChangedData {
@@ -135,7 +135,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__DisplayRefreshRateCh
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8094))
 // CS Name: ::OVRDeserialize::SpaceQueryResultsData
 struct CORDL_TYPE __OVRDeserialize__SpaceQueryResultsData {
@@ -166,7 +166,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceQueryResultsDat
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8095))
 // CS Name: ::OVRDeserialize::SpaceQueryCompleteData
 struct CORDL_TYPE __OVRDeserialize__SpaceQueryCompleteData {
@@ -202,7 +202,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceQueryCompleteDa
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8096))
 // CS Name: ::OVRDeserialize::SceneCaptureCompleteData
 struct CORDL_TYPE __OVRDeserialize__SceneCaptureCompleteData {
@@ -238,7 +238,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SceneCaptureComplete
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8097))
 // CS Name: ::OVRDeserialize::SpatialAnchorCreateCompleteData
 struct CORDL_TYPE __OVRDeserialize__SpatialAnchorCreateCompleteData {
@@ -285,7 +285,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpatialAnchorCreateC
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7835)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(7835))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8098))
 // CS Name: ::OVRDeserialize::SpaceSetComponentStatusCompleteData
 struct CORDL_TYPE __OVRDeserialize__SpaceSetComponentStatusCompleteData {
@@ -344,7 +344,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSetComponentSta
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8099))
 // CS Name: ::OVRDeserialize::SpaceSaveCompleteData
 struct CORDL_TYPE __OVRDeserialize__SpaceSaveCompleteData {
@@ -391,7 +391,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceSaveCompleteDat
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(7836))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(7836))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8100))
 // CS Name: ::OVRDeserialize::SpaceEraseCompleteData
 struct CORDL_TYPE __OVRDeserialize__SpaceEraseCompleteData {
@@ -438,7 +438,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceEraseCompleteDa
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8101))
 // CS Name: ::OVRDeserialize::SpaceShareResultData
 struct CORDL_TYPE __OVRDeserialize__SpaceShareResultData {
@@ -474,7 +474,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceShareResultData
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8102))
 // CS Name: ::OVRDeserialize::SpaceListSaveResultData
 struct CORDL_TYPE __OVRDeserialize__SpaceListSaveResultData {
@@ -510,7 +510,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDeserialize__SpaceListSaveResultD
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8103))
 // CS Name: ::OVRDeserialize*
 class CORDL_TYPE OVRDeserialize : public ::System::Object {

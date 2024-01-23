@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::HMUI::NoTransitionsButton);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13622))
 // CS Name: ::NoTransitionsButton::SelectionState
 struct CORDL_TYPE __NoTransitionsButton__SelectionState {
@@ -88,7 +88,7 @@ static_assert(offsetof(::HMUI::__NoTransitionsButton__SelectionState, value__) =
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 268, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13019)), TypeDefinitionIndex(TypeDefinitionIndex(13622))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13019)), TypeDefinitionIndex(TypeDefinitionIndex(13622))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13623))
 // CS Name: ::HMUI::NoTransitionsButton*
 class CORDL_TYPE NoTransitionsButton : public ::UnityEngine::UI::Button {
@@ -97,25 +97,25 @@ public:
   using SelectionState = ::HMUI::__NoTransitionsButton__SelectionState;
 
   /// @brief Field selectionStateDidChangeEvent, offset 0x100, size 0x8
-  __declspec(property(get = __get_selectionStateDidChangeEvent,
-                      put = __set_selectionStateDidChangeEvent))::System::Action_1<::HMUI::__NoTransitionsButton__SelectionState>* selectionStateDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_selectionStateDidChangeEvent,
+                      put = __cordl_internal_set_selectionStateDidChangeEvent))::System::Action_1<::HMUI::__NoTransitionsButton__SelectionState>* selectionStateDidChangeEvent;
 
   /// @brief Field _selectionState, offset 0x108, size 0x4
-  __declspec(property(get = __get__selectionState, put = __set__selectionState))::HMUI::__NoTransitionsButton__SelectionState _selectionState;
+  __declspec(property(get = __cordl_internal_get__selectionState, put = __cordl_internal_set__selectionState))::HMUI::__NoTransitionsButton__SelectionState _selectionState;
 
   __declspec(property(get = get_selectionState))::HMUI::__NoTransitionsButton__SelectionState selectionState;
 
-  constexpr ::System::Action_1<::HMUI::__NoTransitionsButton__SelectionState>*& __get_selectionStateDidChangeEvent();
+  constexpr ::System::Action_1<::HMUI::__NoTransitionsButton__SelectionState>*& __cordl_internal_get_selectionStateDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::HMUI::__NoTransitionsButton__SelectionState>*> const& __get_selectionStateDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::HMUI::__NoTransitionsButton__SelectionState>*> const& __cordl_internal_get_selectionStateDidChangeEvent() const;
 
-  constexpr void __set_selectionStateDidChangeEvent(::System::Action_1<::HMUI::__NoTransitionsButton__SelectionState>* value);
+  constexpr void __cordl_internal_set_selectionStateDidChangeEvent(::System::Action_1<::HMUI::__NoTransitionsButton__SelectionState>* value);
 
-  constexpr ::HMUI::__NoTransitionsButton__SelectionState& __get__selectionState();
+  constexpr ::HMUI::__NoTransitionsButton__SelectionState& __cordl_internal_get__selectionState();
 
-  constexpr ::HMUI::__NoTransitionsButton__SelectionState const& __get__selectionState() const;
+  constexpr ::HMUI::__NoTransitionsButton__SelectionState const& __cordl_internal_get__selectionState() const;
 
-  constexpr void __set__selectionState(::HMUI::__NoTransitionsButton__SelectionState value);
+  constexpr void __cordl_internal_set__selectionState(::HMUI::__NoTransitionsButton__SelectionState value);
 
   /// @brief Method get_selectionState, addr 0x2130ae0, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::__NoTransitionsButton__SelectionState get_selectionState();

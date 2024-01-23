@@ -23,7 +23,7 @@ MARK_VAL_T(::TMPro::RichTextTagAttribute);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12410)), TypeDefinitionIndex(TypeDefinitionIndex(12409))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12409)), TypeDefinitionIndex(TypeDefinitionIndex(12410))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12326))
 // CS Name: ::TMPro::RichTextTagAttribute
 struct CORDL_TYPE RichTextTagAttribute {

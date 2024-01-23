@@ -29,7 +29,7 @@ MARK_VAL_T(::UnityEngine::UI::CoroutineTween::FloatTween);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI::CoroutineTween {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(10465))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 391 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13154))
 // CS Name: ::FloatTween::FloatTweenCallback*
 class CORDL_TYPE __FloatTween__FloatTweenCallback : public ::UnityEngine::Events::UnityEvent_1<float_t> {
@@ -64,7 +64,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::CoroutineTween:
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI::CoroutineTween {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13155))
 // CS Name: ::UnityEngine.UI.CoroutineTween::FloatTween
 struct CORDL_TYPE FloatTween {

@@ -34,20 +34,20 @@ namespace Zenject {
 // cpp template
 template <typename TParam1>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11246))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11246))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11248))
 // CS Name: ::Zenject::SubContainerCreatorByMethod`1<TParam1>*
 class CORDL_TYPE SubContainerCreatorByMethod_1 : public ::Zenject::SubContainerCreatorByMethodBase {
 public:
   // Declarations
   /// @brief Field _installMethod, offset 0x20, size 0x8
-  __declspec(property(get = __get__installMethod, put = __set__installMethod))::System::Action_2<::Zenject::DiContainer*, TParam1>* _installMethod;
+  __declspec(property(get = __cordl_internal_get__installMethod, put = __cordl_internal_set__installMethod))::System::Action_2<::Zenject::DiContainer*, TParam1>* _installMethod;
 
-  constexpr ::System::Action_2<::Zenject::DiContainer*, TParam1>*& __get__installMethod();
+  constexpr ::System::Action_2<::Zenject::DiContainer*, TParam1>*& __cordl_internal_get__installMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::Zenject::DiContainer*, TParam1>*> const& __get__installMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::Zenject::DiContainer*, TParam1>*> const& __cordl_internal_get__installMethod() const;
 
-  constexpr void __set__installMethod(::System::Action_2<::Zenject::DiContainer*, TParam1>* value);
+  constexpr void __cordl_internal_set__installMethod(::System::Action_2<::Zenject::DiContainer*, TParam1>* value);
 
   static inline ::Zenject::SubContainerCreatorByMethod_1<TParam1>* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo,
                                                                             ::System::Action_2<::Zenject::DiContainer*, TParam1>* installMethod);

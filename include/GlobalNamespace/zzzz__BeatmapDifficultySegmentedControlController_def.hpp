@@ -37,58 +37,60 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapDifficultySegmentedControlController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14717))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5616))
 // CS Name: ::BeatmapDifficultySegmentedControlController*
 class CORDL_TYPE BeatmapDifficultySegmentedControlController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _difficultySegmentedControl, offset 0x18, size 0x8
-  __declspec(property(get = __get__difficultySegmentedControl, put = __set__difficultySegmentedControl))::HMUI::TextSegmentedControl* _difficultySegmentedControl;
+  __declspec(property(get = __cordl_internal_get__difficultySegmentedControl,
+                      put = __cordl_internal_set__difficultySegmentedControl))::UnityW<::HMUI::TextSegmentedControl> _difficultySegmentedControl;
 
   /// @brief Field didSelectDifficultyEvent, offset 0x20, size 0x8
-  __declspec(property(
-      get = __get_didSelectDifficultyEvent,
-      put = __set_didSelectDifficultyEvent))::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>* didSelectDifficultyEvent;
+  __declspec(property(get = __cordl_internal_get_didSelectDifficultyEvent,
+                      put = __cordl_internal_set_didSelectDifficultyEvent))::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>,
+                                                                                              ::GlobalNamespace::BeatmapDifficulty>* didSelectDifficultyEvent;
 
   /// @brief Field _difficulties, offset 0x28, size 0x8
-  __declspec(property(get = __get__difficulties, put = __set__difficulties))::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>* _difficulties;
+  __declspec(property(get = __cordl_internal_get__difficulties, put = __cordl_internal_set__difficulties))::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>* _difficulties;
 
   /// @brief Field _selectedDifficulty, offset 0x30, size 0x4
-  __declspec(property(get = __get__selectedDifficulty, put = __set__selectedDifficulty))::GlobalNamespace::BeatmapDifficulty _selectedDifficulty;
+  __declspec(property(get = __cordl_internal_get__selectedDifficulty, put = __cordl_internal_set__selectedDifficulty))::GlobalNamespace::BeatmapDifficulty _selectedDifficulty;
 
   __declspec(property(get = get_selectedDifficulty))::GlobalNamespace::BeatmapDifficulty selectedDifficulty;
 
-  constexpr ::HMUI::TextSegmentedControl*& __get__difficultySegmentedControl();
+  constexpr ::UnityW<::HMUI::TextSegmentedControl>& __cordl_internal_get__difficultySegmentedControl();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::TextSegmentedControl*> const& __get__difficultySegmentedControl() const;
+  constexpr ::UnityW<::HMUI::TextSegmentedControl> const& __cordl_internal_get__difficultySegmentedControl() const;
 
-  constexpr void __set__difficultySegmentedControl(::HMUI::TextSegmentedControl* value);
+  constexpr void __cordl_internal_set__difficultySegmentedControl(::UnityW<::HMUI::TextSegmentedControl> value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>*& __get_didSelectDifficultyEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>*& __cordl_internal_get_didSelectDifficultyEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>*> const&
-  __get_didSelectDifficultyEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>*> const&
+  __cordl_internal_get_didSelectDifficultyEvent() const;
 
-  constexpr void __set_didSelectDifficultyEvent(::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>* value);
+  constexpr void
+  __cordl_internal_set_didSelectDifficultyEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>*& __get__difficulties();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>*& __cordl_internal_get__difficulties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>*> const& __get__difficulties() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>*> const& __cordl_internal_get__difficulties() const;
 
-  constexpr void __set__difficulties(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>* value);
+  constexpr void __cordl_internal_set__difficulties(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>* value);
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __get__selectedDifficulty();
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__selectedDifficulty();
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __get__selectedDifficulty() const;
+  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get__selectedDifficulty() const;
 
-  constexpr void __set__selectedDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+  constexpr void __cordl_internal_set__selectedDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
   /// @brief Method add_didSelectDifficultyEvent, addr 0x22adc4c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectDifficultyEvent(::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>* value);
+  inline void add_didSelectDifficultyEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* value);
 
   /// @brief Method remove_didSelectDifficultyEvent, addr 0x22adcfc, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectDifficultyEvent(::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>* value);
+  inline void remove_didSelectDifficultyEvent(::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* value);
 
   /// @brief Method get_selectedDifficulty, addr 0x22addac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_selectedDifficulty();
@@ -128,10 +130,10 @@ protected:
 
 public:
   /// @brief Field _difficultySegmentedControl, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::TextSegmentedControl* ____difficultySegmentedControl;
+  ::UnityW<::HMUI::TextSegmentedControl> ____difficultySegmentedControl;
 
   /// @brief Field didSelectDifficultyEvent, offset: 0x20, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::BeatmapDifficultySegmentedControlController*, ::GlobalNamespace::BeatmapDifficulty>* ___didSelectDifficultyEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>* ___didSelectDifficultyEvent;
 
   /// @brief Field _difficulties, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>* ____difficulties;

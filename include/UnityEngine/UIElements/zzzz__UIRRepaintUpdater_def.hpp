@@ -34,26 +34,26 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIRRepaintUpdater);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 51, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7327))
 // CS Name: ::UnityEngine.UIElements::UIRRepaintUpdater*
 class CORDL_TYPE UIRRepaintUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
   // Declarations
   /// @brief Field attachedPanel, offset 0x20, size 0x8
-  __declspec(property(get = __get_attachedPanel, put = __set_attachedPanel))::UnityEngine::UIElements::BaseVisualElementPanel* attachedPanel;
+  __declspec(property(get = __cordl_internal_get_attachedPanel, put = __cordl_internal_set_attachedPanel))::UnityEngine::UIElements::BaseVisualElementPanel* attachedPanel;
 
   /// @brief Field renderChain, offset 0x28, size 0x8
-  __declspec(property(get = __get_renderChain, put = __set_renderChain))::UnityEngine::UIElements::UIR::RenderChain* renderChain;
+  __declspec(property(get = __cordl_internal_get_renderChain, put = __cordl_internal_set_renderChain))::UnityEngine::UIElements::UIR::RenderChain* renderChain;
 
   /// @brief Field <drawStats>k__BackingField, offset 0x30, size 0x1
-  __declspec(property(get = __get__drawStats_k__BackingField, put = __set__drawStats_k__BackingField)) bool _drawStats_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__drawStats_k__BackingField, put = __cordl_internal_set__drawStats_k__BackingField)) bool _drawStats_k__BackingField;
 
   /// @brief Field <breakBatches>k__BackingField, offset 0x31, size 0x1
-  __declspec(property(get = __get__breakBatches_k__BackingField, put = __set__breakBatches_k__BackingField)) bool _breakBatches_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__breakBatches_k__BackingField, put = __cordl_internal_set__breakBatches_k__BackingField)) bool _breakBatches_k__BackingField;
 
   /// @brief Field <disposed>k__BackingField, offset 0x32, size 0x1
-  __declspec(property(get = __get__disposed_k__BackingField, put = __set__disposed_k__BackingField)) bool _disposed_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
 
   /// @brief Field s_Description, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Description, put = setStaticF_s_Description))::StringW s_Description;
@@ -69,35 +69,35 @@ public:
 
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
 
-  constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __get_attachedPanel();
+  constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __cordl_internal_get_attachedPanel();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVisualElementPanel*> const& __get_attachedPanel() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVisualElementPanel*> const& __cordl_internal_get_attachedPanel() const;
 
-  constexpr void __set_attachedPanel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
+  constexpr void __cordl_internal_set_attachedPanel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  constexpr ::UnityEngine::UIElements::UIR::RenderChain*& __get_renderChain();
+  constexpr ::UnityEngine::UIElements::UIR::RenderChain*& __cordl_internal_get_renderChain();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::RenderChain*> const& __get_renderChain() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::RenderChain*> const& __cordl_internal_get_renderChain() const;
 
-  constexpr void __set_renderChain(::UnityEngine::UIElements::UIR::RenderChain* value);
+  constexpr void __cordl_internal_set_renderChain(::UnityEngine::UIElements::UIR::RenderChain* value);
 
-  constexpr bool& __get__drawStats_k__BackingField();
+  constexpr bool& __cordl_internal_get__drawStats_k__BackingField();
 
-  constexpr bool const& __get__drawStats_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__drawStats_k__BackingField() const;
 
-  constexpr void __set__drawStats_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__drawStats_k__BackingField(bool value);
 
-  constexpr bool& __get__breakBatches_k__BackingField();
+  constexpr bool& __cordl_internal_get__breakBatches_k__BackingField();
 
-  constexpr bool const& __get__breakBatches_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__breakBatches_k__BackingField() const;
 
-  constexpr void __set__breakBatches_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__breakBatches_k__BackingField(bool value);
 
-  constexpr bool& __get__disposed_k__BackingField();
+  constexpr bool& __cordl_internal_get__disposed_k__BackingField();
 
-  constexpr bool const& __get__disposed_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
 
-  constexpr void __set__disposed_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
   static inline void setStaticF_s_Description(::StringW value);
 

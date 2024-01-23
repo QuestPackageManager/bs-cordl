@@ -32,15 +32,15 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::InstancePro
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14000))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::InstanceProvider*
 class CORDL_TYPE InstanceProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_InstanceObjectToPrefabHandle, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_InstanceObjectToPrefabHandle, put = __set_m_InstanceObjectToPrefabHandle))::System::Collections::Generic::Dictionary_2<
-      ::UnityEngine::GameObject*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>>* m_InstanceObjectToPrefabHandle;
+  __declspec(property(get = __cordl_internal_get_m_InstanceObjectToPrefabHandle, put = __cordl_internal_set_m_InstanceObjectToPrefabHandle))::System::Collections::Generic::Dictionary_2<
+      ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>>* m_InstanceObjectToPrefabHandle;
 
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider"
   constexpr operator ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*() noexcept;
@@ -48,20 +48,22 @@ public:
   /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider"
   constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* i___UnityEngine__ResourceManagement__ResourceProviders__IInstanceProvider() noexcept;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>>*&
-  __get_m_InstanceObjectToPrefabHandle();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>,
+                                                         ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>>*&
+  __cordl_internal_get_m_InstanceObjectToPrefabHandle();
 
-  constexpr ::cordl_internals::to_const_pointer<
-      ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>>*> const&
-  __get_m_InstanceObjectToPrefabHandle() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<
+      ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>>*> const&
+  __cordl_internal_get_m_InstanceObjectToPrefabHandle() const;
 
-  constexpr void __set_m_InstanceObjectToPrefabHandle(
-      ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>>* value);
+  constexpr void __cordl_internal_set_m_InstanceObjectToPrefabHandle(
+      ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>,
+                                                   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>>* value);
 
   /// @brief Method ProvideInstance, addr 0x2bd6e28, size 0xd8, virtual true, abstract: false, final true
-  inline ::UnityEngine::GameObject* ProvideInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
-                                                    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> prefabHandle,
-                                                    ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters);
+  inline ::UnityW<::UnityEngine::GameObject> ProvideInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
+                                                             ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> prefabHandle,
+                                                             ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters);
 
   /// @brief Method ReleaseInstance, addr 0x2bd6f00, size 0x218, virtual true, abstract: false, final true
   inline void ReleaseInstance(::UnityEngine::ResourceManagement::ResourceManager* resourceManager, ::UnityEngine::GameObject* instance);
@@ -86,7 +88,7 @@ protected:
 
 public:
   /// @brief Field m_InstanceObjectToPrefabHandle, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::UnityEngine::GameObject*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>>*
+  ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::GameObject>, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>>*
       ___m_InstanceObjectToPrefabHandle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

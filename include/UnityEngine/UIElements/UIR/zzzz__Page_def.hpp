@@ -41,47 +41,48 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 2550 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(9999), inst: 744 }), TypeDefinitionIndex(TypeDefinitionIndex(15379)), TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7438))
-// CS Name: ::Page::DataSet`1<T>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(15379)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 744 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 2550 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7438)) CS Name: ::Page::DataSet`1<T>*
 class CORDL_TYPE __Page__DataSet_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <disposed>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__disposed_k__BackingField, put = __set__disposed_k__BackingField)) bool _disposed_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
 
   /// @brief Field gpuData, offset 0x18, size 0x8
-  __declspec(property(get = __get_gpuData, put = __set_gpuData))::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>* gpuData;
+  __declspec(property(get = __cordl_internal_get_gpuData, put = __cordl_internal_set_gpuData))::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>* gpuData;
 
   /// @brief Field cpuData, offset 0x20, size 0x10
-  __declspec(property(get = __get_cpuData, put = __set_cpuData))::Unity::Collections::NativeArray_1<T> cpuData;
+  __declspec(property(get = __cordl_internal_get_cpuData, put = __cordl_internal_set_cpuData))::Unity::Collections::NativeArray_1<T> cpuData;
 
   /// @brief Field updateRanges, offset 0x30, size 0x10
-  __declspec(property(get = __get_updateRanges, put = __set_updateRanges))::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> updateRanges;
+  __declspec(property(get = __cordl_internal_get_updateRanges,
+                      put = __cordl_internal_set_updateRanges))::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> updateRanges;
 
   /// @brief Field allocator, offset 0x40, size 0x8
-  __declspec(property(get = __get_allocator, put = __set_allocator))::UnityEngine::UIElements::UIR::GPUBufferAllocator* allocator;
+  __declspec(property(get = __cordl_internal_get_allocator, put = __cordl_internal_set_allocator))::UnityEngine::UIElements::UIR::GPUBufferAllocator* allocator;
 
   /// @brief Field m_UpdateRangePoolSize, offset 0x48, size 0x4
-  __declspec(property(get = __get_m_UpdateRangePoolSize, put = __set_m_UpdateRangePoolSize)) uint32_t m_UpdateRangePoolSize;
+  __declspec(property(get = __cordl_internal_get_m_UpdateRangePoolSize, put = __cordl_internal_set_m_UpdateRangePoolSize)) uint32_t m_UpdateRangePoolSize;
 
   /// @brief Field m_ElemStride, offset 0x4c, size 0x4
-  __declspec(property(get = __get_m_ElemStride, put = __set_m_ElemStride)) uint32_t m_ElemStride;
+  __declspec(property(get = __cordl_internal_get_m_ElemStride, put = __cordl_internal_set_m_ElemStride)) uint32_t m_ElemStride;
 
   /// @brief Field m_UpdateRangeMin, offset 0x50, size 0x4
-  __declspec(property(get = __get_m_UpdateRangeMin, put = __set_m_UpdateRangeMin)) uint32_t m_UpdateRangeMin;
+  __declspec(property(get = __cordl_internal_get_m_UpdateRangeMin, put = __cordl_internal_set_m_UpdateRangeMin)) uint32_t m_UpdateRangeMin;
 
   /// @brief Field m_UpdateRangeMax, offset 0x54, size 0x4
-  __declspec(property(get = __get_m_UpdateRangeMax, put = __set_m_UpdateRangeMax)) uint32_t m_UpdateRangeMax;
+  __declspec(property(get = __cordl_internal_get_m_UpdateRangeMax, put = __cordl_internal_set_m_UpdateRangeMax)) uint32_t m_UpdateRangeMax;
 
   /// @brief Field m_UpdateRangesEnqueued, offset 0x58, size 0x4
-  __declspec(property(get = __get_m_UpdateRangesEnqueued, put = __set_m_UpdateRangesEnqueued)) uint32_t m_UpdateRangesEnqueued;
+  __declspec(property(get = __cordl_internal_get_m_UpdateRangesEnqueued, put = __cordl_internal_set_m_UpdateRangesEnqueued)) uint32_t m_UpdateRangesEnqueued;
 
   /// @brief Field m_UpdateRangesBatchStart, offset 0x5c, size 0x4
-  __declspec(property(get = __get_m_UpdateRangesBatchStart, put = __set_m_UpdateRangesBatchStart)) uint32_t m_UpdateRangesBatchStart;
+  __declspec(property(get = __cordl_internal_get_m_UpdateRangesBatchStart, put = __cordl_internal_set_m_UpdateRangesBatchStart)) uint32_t m_UpdateRangesBatchStart;
 
   /// @brief Field m_UpdateRangesSaturated, offset 0x60, size 0x1
-  __declspec(property(get = __get_m_UpdateRangesSaturated, put = __set_m_UpdateRangesSaturated)) bool m_UpdateRangesSaturated;
+  __declspec(property(get = __cordl_internal_get_m_UpdateRangesSaturated, put = __cordl_internal_set_m_UpdateRangesSaturated)) bool m_UpdateRangesSaturated;
 
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
 
@@ -91,77 +92,77 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr bool& __get__disposed_k__BackingField();
+  constexpr bool& __cordl_internal_get__disposed_k__BackingField();
 
-  constexpr bool const& __get__disposed_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
 
-  constexpr void __set__disposed_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>*& __get_gpuData();
+  constexpr ::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>*& __cordl_internal_get_gpuData();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>*> const& __get_gpuData() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>*> const& __cordl_internal_get_gpuData() const;
 
-  constexpr void __set_gpuData(::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>* value);
+  constexpr void __cordl_internal_set_gpuData(::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>* value);
 
-  constexpr ::Unity::Collections::NativeArray_1<T>& __get_cpuData();
+  constexpr ::Unity::Collections::NativeArray_1<T>& __cordl_internal_get_cpuData();
 
-  constexpr ::Unity::Collections::NativeArray_1<T> const& __get_cpuData() const;
+  constexpr ::Unity::Collections::NativeArray_1<T> const& __cordl_internal_get_cpuData() const;
 
-  constexpr void __set_cpuData(::Unity::Collections::NativeArray_1<T> value);
+  constexpr void __cordl_internal_set_cpuData(::Unity::Collections::NativeArray_1<T> value);
 
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange>& __get_updateRanges();
+  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange>& __cordl_internal_get_updateRanges();
 
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> const& __get_updateRanges() const;
+  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> const& __cordl_internal_get_updateRanges() const;
 
-  constexpr void __set_updateRanges(::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> value);
+  constexpr void __cordl_internal_set_updateRanges(::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::GfxUpdateBufferRange> value);
 
-  constexpr ::UnityEngine::UIElements::UIR::GPUBufferAllocator*& __get_allocator();
+  constexpr ::UnityEngine::UIElements::UIR::GPUBufferAllocator*& __cordl_internal_get_allocator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::GPUBufferAllocator*> const& __get_allocator() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::GPUBufferAllocator*> const& __cordl_internal_get_allocator() const;
 
-  constexpr void __set_allocator(::UnityEngine::UIElements::UIR::GPUBufferAllocator* value);
+  constexpr void __cordl_internal_set_allocator(::UnityEngine::UIElements::UIR::GPUBufferAllocator* value);
 
-  constexpr uint32_t& __get_m_UpdateRangePoolSize();
+  constexpr uint32_t& __cordl_internal_get_m_UpdateRangePoolSize();
 
-  constexpr uint32_t const& __get_m_UpdateRangePoolSize() const;
+  constexpr uint32_t const& __cordl_internal_get_m_UpdateRangePoolSize() const;
 
-  constexpr void __set_m_UpdateRangePoolSize(uint32_t value);
+  constexpr void __cordl_internal_set_m_UpdateRangePoolSize(uint32_t value);
 
-  constexpr uint32_t& __get_m_ElemStride();
+  constexpr uint32_t& __cordl_internal_get_m_ElemStride();
 
-  constexpr uint32_t const& __get_m_ElemStride() const;
+  constexpr uint32_t const& __cordl_internal_get_m_ElemStride() const;
 
-  constexpr void __set_m_ElemStride(uint32_t value);
+  constexpr void __cordl_internal_set_m_ElemStride(uint32_t value);
 
-  constexpr uint32_t& __get_m_UpdateRangeMin();
+  constexpr uint32_t& __cordl_internal_get_m_UpdateRangeMin();
 
-  constexpr uint32_t const& __get_m_UpdateRangeMin() const;
+  constexpr uint32_t const& __cordl_internal_get_m_UpdateRangeMin() const;
 
-  constexpr void __set_m_UpdateRangeMin(uint32_t value);
+  constexpr void __cordl_internal_set_m_UpdateRangeMin(uint32_t value);
 
-  constexpr uint32_t& __get_m_UpdateRangeMax();
+  constexpr uint32_t& __cordl_internal_get_m_UpdateRangeMax();
 
-  constexpr uint32_t const& __get_m_UpdateRangeMax() const;
+  constexpr uint32_t const& __cordl_internal_get_m_UpdateRangeMax() const;
 
-  constexpr void __set_m_UpdateRangeMax(uint32_t value);
+  constexpr void __cordl_internal_set_m_UpdateRangeMax(uint32_t value);
 
-  constexpr uint32_t& __get_m_UpdateRangesEnqueued();
+  constexpr uint32_t& __cordl_internal_get_m_UpdateRangesEnqueued();
 
-  constexpr uint32_t const& __get_m_UpdateRangesEnqueued() const;
+  constexpr uint32_t const& __cordl_internal_get_m_UpdateRangesEnqueued() const;
 
-  constexpr void __set_m_UpdateRangesEnqueued(uint32_t value);
+  constexpr void __cordl_internal_set_m_UpdateRangesEnqueued(uint32_t value);
 
-  constexpr uint32_t& __get_m_UpdateRangesBatchStart();
+  constexpr uint32_t& __cordl_internal_get_m_UpdateRangesBatchStart();
 
-  constexpr uint32_t const& __get_m_UpdateRangesBatchStart() const;
+  constexpr uint32_t const& __cordl_internal_get_m_UpdateRangesBatchStart() const;
 
-  constexpr void __set_m_UpdateRangesBatchStart(uint32_t value);
+  constexpr void __cordl_internal_set_m_UpdateRangesBatchStart(uint32_t value);
 
-  constexpr bool& __get_m_UpdateRangesSaturated();
+  constexpr bool& __cordl_internal_get_m_UpdateRangesSaturated();
 
-  constexpr bool const& __get_m_UpdateRangesSaturated() const;
+  constexpr bool const& __cordl_internal_get_m_UpdateRangesSaturated() const;
 
-  constexpr void __set_m_UpdateRangesSaturated(bool value);
+  constexpr void __cordl_internal_set_m_UpdateRangesSaturated(bool value);
 
   static inline ::UnityEngine::UIElements::UIR::__Page__DataSet_1<T>* New_ctor(::UnityEngine::UIElements::UIR::__Utility__GPUBufferType bufferType, uint32_t totalCount, uint32_t maxQueuedFrameCount,
                                                                                uint32_t updateRangePoolSize, bool mockBuffer);
@@ -257,7 +258,7 @@ public:
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7439))
 // CS Name: ::UnityEngine.UIElements.UIR::Page*
 class CORDL_TYPE Page : public ::System::Object {
@@ -266,19 +267,19 @@ public:
   template <typename T> using DataSet_1 = ::UnityEngine::UIElements::UIR::__Page__DataSet_1<T>;
 
   /// @brief Field <disposed>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__disposed_k__BackingField, put = __set__disposed_k__BackingField)) bool _disposed_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
 
   /// @brief Field vertices, offset 0x18, size 0x8
-  __declspec(property(get = __get_vertices, put = __set_vertices))::UnityEngine::UIElements::UIR::__Page__DataSet_1<::UnityEngine::UIElements::Vertex>* vertices;
+  __declspec(property(get = __cordl_internal_get_vertices, put = __cordl_internal_set_vertices))::UnityEngine::UIElements::UIR::__Page__DataSet_1<::UnityEngine::UIElements::Vertex>* vertices;
 
   /// @brief Field indices, offset 0x20, size 0x8
-  __declspec(property(get = __get_indices, put = __set_indices))::UnityEngine::UIElements::UIR::__Page__DataSet_1<uint16_t>* indices;
+  __declspec(property(get = __cordl_internal_get_indices, put = __cordl_internal_set_indices))::UnityEngine::UIElements::UIR::__Page__DataSet_1<uint16_t>* indices;
 
   /// @brief Field next, offset 0x28, size 0x8
-  __declspec(property(get = __get_next, put = __set_next))::UnityEngine::UIElements::UIR::Page* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::UnityEngine::UIElements::UIR::Page* next;
 
   /// @brief Field framesEmpty, offset 0x30, size 0x4
-  __declspec(property(get = __get_framesEmpty, put = __set_framesEmpty)) int32_t framesEmpty;
+  __declspec(property(get = __cordl_internal_get_framesEmpty, put = __cordl_internal_set_framesEmpty)) int32_t framesEmpty;
 
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
 
@@ -290,35 +291,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr bool& __get__disposed_k__BackingField();
+  constexpr bool& __cordl_internal_get__disposed_k__BackingField();
 
-  constexpr bool const& __get__disposed_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
 
-  constexpr void __set__disposed_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::UIElements::UIR::__Page__DataSet_1<::UnityEngine::UIElements::Vertex>*& __get_vertices();
+  constexpr ::UnityEngine::UIElements::UIR::__Page__DataSet_1<::UnityEngine::UIElements::Vertex>*& __cordl_internal_get_vertices();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__Page__DataSet_1<::UnityEngine::UIElements::Vertex>*> const& __get_vertices() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__Page__DataSet_1<::UnityEngine::UIElements::Vertex>*> const& __cordl_internal_get_vertices() const;
 
-  constexpr void __set_vertices(::UnityEngine::UIElements::UIR::__Page__DataSet_1<::UnityEngine::UIElements::Vertex>* value);
+  constexpr void __cordl_internal_set_vertices(::UnityEngine::UIElements::UIR::__Page__DataSet_1<::UnityEngine::UIElements::Vertex>* value);
 
-  constexpr ::UnityEngine::UIElements::UIR::__Page__DataSet_1<uint16_t>*& __get_indices();
+  constexpr ::UnityEngine::UIElements::UIR::__Page__DataSet_1<uint16_t>*& __cordl_internal_get_indices();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__Page__DataSet_1<uint16_t>*> const& __get_indices() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::__Page__DataSet_1<uint16_t>*> const& __cordl_internal_get_indices() const;
 
-  constexpr void __set_indices(::UnityEngine::UIElements::UIR::__Page__DataSet_1<uint16_t>* value);
+  constexpr void __cordl_internal_set_indices(::UnityEngine::UIElements::UIR::__Page__DataSet_1<uint16_t>* value);
 
-  constexpr ::UnityEngine::UIElements::UIR::Page*& __get_next();
+  constexpr ::UnityEngine::UIElements::UIR::Page*& __cordl_internal_get_next();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::Page*> const& __get_next() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::Page*> const& __cordl_internal_get_next() const;
 
-  constexpr void __set_next(::UnityEngine::UIElements::UIR::Page* value);
+  constexpr void __cordl_internal_set_next(::UnityEngine::UIElements::UIR::Page* value);
 
-  constexpr int32_t& __get_framesEmpty();
+  constexpr int32_t& __cordl_internal_get_framesEmpty();
 
-  constexpr int32_t const& __get_framesEmpty() const;
+  constexpr int32_t const& __cordl_internal_get_framesEmpty() const;
 
-  constexpr void __set_framesEmpty(int32_t value);
+  constexpr void __cordl_internal_set_framesEmpty(int32_t value);
 
   static inline ::UnityEngine::UIElements::UIR::Page* New_ctor(uint32_t vertexMaxCount, uint32_t indexMaxCount, uint32_t maxQueuedFrameCount, bool mockPage);
 

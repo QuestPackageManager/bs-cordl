@@ -22,29 +22,29 @@ MARK_REF_PTR_T(::Zenject::Internal::LookupId);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject::Internal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11158))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11158))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11367))
 // CS Name: ::Zenject.Internal::LookupId*
 class CORDL_TYPE LookupId : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Provider, offset 0x10, size 0x8
-  __declspec(property(get = __get_Provider, put = __set_Provider))::Zenject::IProvider* Provider;
+  __declspec(property(get = __cordl_internal_get_Provider, put = __cordl_internal_set_Provider))::Zenject::IProvider* Provider;
 
   /// @brief Field BindingId, offset 0x18, size 0x10
-  __declspec(property(get = __get_BindingId, put = __set_BindingId))::Zenject::BindingId BindingId;
+  __declspec(property(get = __cordl_internal_get_BindingId, put = __cordl_internal_set_BindingId))::Zenject::BindingId BindingId;
 
-  constexpr ::Zenject::IProvider*& __get_Provider();
+  constexpr ::Zenject::IProvider*& __cordl_internal_get_Provider();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& __get_Provider() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& __cordl_internal_get_Provider() const;
 
-  constexpr void __set_Provider(::Zenject::IProvider* value);
+  constexpr void __cordl_internal_set_Provider(::Zenject::IProvider* value);
 
-  constexpr ::Zenject::BindingId& __get_BindingId();
+  constexpr ::Zenject::BindingId& __cordl_internal_get_BindingId();
 
-  constexpr ::Zenject::BindingId const& __get_BindingId() const;
+  constexpr ::Zenject::BindingId const& __cordl_internal_get_BindingId() const;
 
-  constexpr void __set_BindingId(::Zenject::BindingId value);
+  constexpr void __cordl_internal_set_BindingId(::Zenject::BindingId value);
 
   static inline ::Zenject::Internal::LookupId* New_ctor();
 

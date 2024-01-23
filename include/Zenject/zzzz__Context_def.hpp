@@ -62,7 +62,7 @@ MARK_REF_PTR_T(::Zenject::__Context____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11118))
 // CS Name: ::Context::<>c*
 class CORDL_TYPE __Context____c : public ::System::Object {
@@ -120,7 +120,7 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__Context____c, 0x10>, 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11119))
 // CS Name: ::Zenject::Context*
 class CORDL_TYPE Context : public ::UnityEngine::MonoBehaviour {
@@ -129,27 +129,30 @@ public:
   using __c = ::Zenject::__Context____c;
 
   /// @brief Field _scriptableObjectInstallers, offset 0x18, size 0x8
-  __declspec(property(get = __get__scriptableObjectInstallers,
-                      put = __set__scriptableObjectInstallers))::System::Collections::Generic::List_1<::Zenject::ScriptableObjectInstaller*>* _scriptableObjectInstallers;
+  __declspec(property(get = __cordl_internal_get__scriptableObjectInstallers,
+                      put = __cordl_internal_set__scriptableObjectInstallers))::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* _scriptableObjectInstallers;
 
   /// @brief Field _monoInstallers, offset 0x20, size 0x8
-  __declspec(property(get = __get__monoInstallers, put = __set__monoInstallers))::System::Collections::Generic::List_1<::Zenject::MonoInstaller*>* _monoInstallers;
+  __declspec(property(get = __cordl_internal_get__monoInstallers,
+                      put = __cordl_internal_set__monoInstallers))::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* _monoInstallers;
 
   /// @brief Field _installerPrefabs, offset 0x28, size 0x8
-  __declspec(property(get = __get__installerPrefabs, put = __set__installerPrefabs))::System::Collections::Generic::List_1<::Zenject::MonoInstaller*>* _installerPrefabs;
+  __declspec(property(get = __cordl_internal_get__installerPrefabs,
+                      put = __cordl_internal_set__installerPrefabs))::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* _installerPrefabs;
 
   /// @brief Field _normalInstallers, offset 0x30, size 0x8
-  __declspec(property(get = __get__normalInstallers, put = __set__normalInstallers))::System::Collections::Generic::List_1<::Zenject::InstallerBase*>* _normalInstallers;
+  __declspec(property(get = __cordl_internal_get__normalInstallers, put = __cordl_internal_set__normalInstallers))::System::Collections::Generic::List_1<::Zenject::InstallerBase*>* _normalInstallers;
 
   /// @brief Field _normalInstallerTypes, offset 0x38, size 0x8
-  __declspec(property(get = __get__normalInstallerTypes, put = __set__normalInstallerTypes))::System::Collections::Generic::List_1<::System::Type*>* _normalInstallerTypes;
+  __declspec(property(get = __cordl_internal_get__normalInstallerTypes,
+                      put = __cordl_internal_set__normalInstallerTypes))::System::Collections::Generic::List_1<::System::Type*>* _normalInstallerTypes;
 
-  __declspec(property(get = get_Installers, put = set_Installers))::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>* Installers;
+  __declspec(property(get = get_Installers, put = set_Installers))::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* Installers;
 
-  __declspec(property(get = get_InstallerPrefabs, put = set_InstallerPrefabs))::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>* InstallerPrefabs;
+  __declspec(property(get = get_InstallerPrefabs, put = set_InstallerPrefabs))::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* InstallerPrefabs;
 
   __declspec(property(get = get_ScriptableObjectInstallers,
-                      put = set_ScriptableObjectInstallers))::System::Collections::Generic::IEnumerable_1<::Zenject::ScriptableObjectInstaller*>* ScriptableObjectInstallers;
+                      put = set_ScriptableObjectInstallers))::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* ScriptableObjectInstallers;
 
   __declspec(property(get = get_NormalInstallerTypes, put = set_NormalInstallerTypes))::System::Collections::Generic::IEnumerable_1<::System::Type*>* NormalInstallerTypes;
 
@@ -157,53 +160,54 @@ public:
 
   __declspec(property(get = get_Container))::Zenject::DiContainer* Container;
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::ScriptableObjectInstaller*>*& __get__scriptableObjectInstallers();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*& __cordl_internal_get__scriptableObjectInstallers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::ScriptableObjectInstaller*>*> const& __get__scriptableObjectInstallers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*> const&
+  __cordl_internal_get__scriptableObjectInstallers() const;
 
-  constexpr void __set__scriptableObjectInstallers(::System::Collections::Generic::List_1<::Zenject::ScriptableObjectInstaller*>* value);
+  constexpr void __cordl_internal_set__scriptableObjectInstallers(::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::MonoInstaller*>*& __get__monoInstallers();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>*& __cordl_internal_get__monoInstallers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::MonoInstaller*>*> const& __get__monoInstallers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>*> const& __cordl_internal_get__monoInstallers() const;
 
-  constexpr void __set__monoInstallers(::System::Collections::Generic::List_1<::Zenject::MonoInstaller*>* value);
+  constexpr void __cordl_internal_set__monoInstallers(::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::MonoInstaller*>*& __get__installerPrefabs();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>*& __cordl_internal_get__installerPrefabs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::MonoInstaller*>*> const& __get__installerPrefabs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>*> const& __cordl_internal_get__installerPrefabs() const;
 
-  constexpr void __set__installerPrefabs(::System::Collections::Generic::List_1<::Zenject::MonoInstaller*>* value);
+  constexpr void __cordl_internal_set__installerPrefabs(::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::InstallerBase*>*& __get__normalInstallers();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::InstallerBase*>*& __cordl_internal_get__normalInstallers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::InstallerBase*>*> const& __get__normalInstallers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::InstallerBase*>*> const& __cordl_internal_get__normalInstallers() const;
 
-  constexpr void __set__normalInstallers(::System::Collections::Generic::List_1<::Zenject::InstallerBase*>* value);
+  constexpr void __cordl_internal_set__normalInstallers(::System::Collections::Generic::List_1<::Zenject::InstallerBase*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __get__normalInstallerTypes();
+  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __cordl_internal_get__normalInstallerTypes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __get__normalInstallerTypes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __cordl_internal_get__normalInstallerTypes() const;
 
-  constexpr void __set__normalInstallerTypes(::System::Collections::Generic::List_1<::System::Type*>* value);
+  constexpr void __cordl_internal_set__normalInstallerTypes(::System::Collections::Generic::List_1<::System::Type*>* value);
 
   /// @brief Method get_Installers, addr 0x2eebd88, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>* get_Installers();
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* get_Installers();
 
   /// @brief Method set_Installers, addr 0x2eebd90, size 0x90, virtual false, abstract: false, final false
-  inline void set_Installers(::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>* value);
+  inline void set_Installers(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* value);
 
   /// @brief Method get_InstallerPrefabs, addr 0x2eebe20, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>* get_InstallerPrefabs();
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* get_InstallerPrefabs();
 
   /// @brief Method set_InstallerPrefabs, addr 0x2eebe28, size 0x90, virtual false, abstract: false, final false
-  inline void set_InstallerPrefabs(::System::Collections::Generic::IEnumerable_1<::Zenject::MonoInstaller*>* value);
+  inline void set_InstallerPrefabs(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::MonoInstaller>>* value);
 
   /// @brief Method get_ScriptableObjectInstallers, addr 0x2eebeb8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::Zenject::ScriptableObjectInstaller*>* get_ScriptableObjectInstallers();
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* get_ScriptableObjectInstallers();
 
   /// @brief Method set_ScriptableObjectInstallers, addr 0x2eebec0, size 0x90, virtual false, abstract: false, final false
-  inline void set_ScriptableObjectInstallers(::System::Collections::Generic::IEnumerable_1<::Zenject::ScriptableObjectInstaller*>* value);
+  inline void set_ScriptableObjectInstallers(::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* value);
 
   /// @brief Method get_NormalInstallerTypes, addr 0x2eebf50, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_NormalInstallerTypes();
@@ -221,7 +225,7 @@ public:
   inline ::Zenject::DiContainer* get_Container();
 
   /// @brief Method GetRootGameObjects, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* GetRootGameObjects();
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* GetRootGameObjects();
 
   /// @brief Method AddNormalInstallerType, addr 0x2eec158, size 0x110, virtual false, abstract: false, final false
   inline void AddNormalInstallerType(::System::Type* installerType);
@@ -230,25 +234,26 @@ public:
   inline void AddNormalInstaller(::Zenject::InstallerBase* installer);
 
   /// @brief Method CheckInstallerPrefabTypes, addr 0x2eec310, size 0x304, virtual false, abstract: false, final false
-  inline void CheckInstallerPrefabTypes(::System::Collections::Generic::List_1<::Zenject::MonoInstaller*>* installers,
-                                        ::System::Collections::Generic::List_1<::Zenject::MonoInstaller*>* installerPrefabs);
+  inline void CheckInstallerPrefabTypes(::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* installers,
+                                        ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* installerPrefabs);
 
   /// @brief Method InstallInstallers, addr 0x2eec614, size 0x10, virtual true, abstract: false, final false
   inline void InstallInstallers();
 
   /// @brief Method InstallInstallers, addr 0x2eec624, size 0x78c, virtual false, abstract: false, final false
   inline void InstallInstallers(::System::Collections::Generic::List_1<::Zenject::InstallerBase*>* normalInstallers, ::System::Collections::Generic::List_1<::System::Type*>* normalInstallerTypes,
-                                ::System::Collections::Generic::List_1<::Zenject::ScriptableObjectInstaller*>* scriptableObjectInstallers,
-                                ::System::Collections::Generic::List_1<::Zenject::MonoInstaller*>* installers, ::System::Collections::Generic::List_1<::Zenject::MonoInstaller*>* installerPrefabs);
+                                ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* scriptableObjectInstallers,
+                                ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* installers,
+                                ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* installerPrefabs);
 
   /// @brief Method InstallSceneBindings, addr 0x2eece7c, size 0x554, virtual false, abstract: false, final false
-  inline void InstallSceneBindings(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* injectableMonoBehaviours);
+  inline void InstallSceneBindings(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* injectableMonoBehaviours);
 
   /// @brief Method InstallZenjectBinding, addr 0x2eed3d0, size 0x564, virtual false, abstract: false, final false
   inline void InstallZenjectBinding(::Zenject::ZenjectBinding* binding);
 
   /// @brief Method GetInjectableMonoBehaviours, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityEngine::MonoBehaviour*>* components);
+  inline void GetInjectableMonoBehaviours(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>* components);
 
   static inline ::Zenject::Context* New_ctor();
 
@@ -273,13 +278,13 @@ protected:
 
 public:
   /// @brief Field _scriptableObjectInstallers, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::Zenject::ScriptableObjectInstaller*>* ____scriptableObjectInstallers;
+  ::System::Collections::Generic::List_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* ____scriptableObjectInstallers;
 
   /// @brief Field _monoInstallers, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::Zenject::MonoInstaller*>* ____monoInstallers;
+  ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* ____monoInstallers;
 
   /// @brief Field _installerPrefabs, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::Zenject::MonoInstaller*>* ____installerPrefabs;
+  ::System::Collections::Generic::List_1<::UnityW<::Zenject::MonoInstaller>>* ____installerPrefabs;
 
   /// @brief Field _normalInstallers, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Zenject::InstallerBase*>* ____normalInstallers;

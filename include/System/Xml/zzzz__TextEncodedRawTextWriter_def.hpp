@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::System::Xml::TextEncodedRawTextWriter);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 182, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11449))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11449))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11443))
 // CS Name: ::System.Xml::TextEncodedRawTextWriter*
 class CORDL_TYPE TextEncodedRawTextWriter : public ::System::Xml::XmlEncodedRawTextWriter {

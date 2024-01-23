@@ -15,7 +15,7 @@ MARK_VAL_T(::GlobalNamespace::NodeStatePropertyType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7533))
 // CS Name: ::NodeStatePropertyType
 struct CORDL_TYPE NodeStatePropertyType {

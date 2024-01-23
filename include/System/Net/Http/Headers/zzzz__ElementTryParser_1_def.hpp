@@ -27,7 +27,7 @@ namespace System::Net::Http::Headers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14661))
 // CS Name: ::System.Net.Http.Headers::ElementTryParser`1<T>*
 class CORDL_TYPE ElementTryParser_1 : public ::System::MulticastDelegate {

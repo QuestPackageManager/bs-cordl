@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5285))
 // CS Name: ::CuttableBySaber::WasCutBySaberDelegate*
 class CORDL_TYPE __CuttableBySaber__WasCutBySaberDelegate : public ::System::MulticastDelegate {
@@ -87,7 +87,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CuttableBySab
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5286))
 // CS Name: ::CuttableBySaber*
 class CORDL_TYPE CuttableBySaber : public ::UnityEngine::MonoBehaviour {
@@ -96,17 +96,17 @@ public:
   using WasCutBySaberDelegate = ::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate;
 
   /// @brief Field wasCutBySaberEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_wasCutBySaberEvent, put = __set_wasCutBySaberEvent))::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate* wasCutBySaberEvent;
+  __declspec(property(get = __cordl_internal_get_wasCutBySaberEvent, put = __cordl_internal_set_wasCutBySaberEvent))::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate* wasCutBySaberEvent;
 
   __declspec(property(get = get_canBeCut, put = set_canBeCut)) bool canBeCut;
 
   __declspec(property(get = get_radius)) float_t radius;
 
-  constexpr ::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate*& __get_wasCutBySaberEvent();
+  constexpr ::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate*& __cordl_internal_get_wasCutBySaberEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate*> const& __get_wasCutBySaberEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate*> const& __cordl_internal_get_wasCutBySaberEvent() const;
 
-  constexpr void __set_wasCutBySaberEvent(::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate* value);
+  constexpr void __cordl_internal_set_wasCutBySaberEvent(::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate* value);
 
   /// @brief Method add_wasCutBySaberEvent, addr 0x2262424, size 0x9c, virtual false, abstract: false, final false
   inline void add_wasCutBySaberEvent(::GlobalNamespace::__CuttableBySaber__WasCutBySaberDelegate* value);

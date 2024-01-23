@@ -32,53 +32,53 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::PssSigner);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1150))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::PssSigner*
 class CORDL_TYPE PssSigner : public ::System::Object {
 public:
   // Declarations
   /// @brief Field contentDigest1, offset 0x10, size 0x8
-  __declspec(property(get = __get_contentDigest1, put = __set_contentDigest1))::Org::BouncyCastle::Crypto::IDigest* contentDigest1;
+  __declspec(property(get = __cordl_internal_get_contentDigest1, put = __cordl_internal_set_contentDigest1))::Org::BouncyCastle::Crypto::IDigest* contentDigest1;
 
   /// @brief Field contentDigest2, offset 0x18, size 0x8
-  __declspec(property(get = __get_contentDigest2, put = __set_contentDigest2))::Org::BouncyCastle::Crypto::IDigest* contentDigest2;
+  __declspec(property(get = __cordl_internal_get_contentDigest2, put = __cordl_internal_set_contentDigest2))::Org::BouncyCastle::Crypto::IDigest* contentDigest2;
 
   /// @brief Field mgfDigest, offset 0x20, size 0x8
-  __declspec(property(get = __get_mgfDigest, put = __set_mgfDigest))::Org::BouncyCastle::Crypto::IDigest* mgfDigest;
+  __declspec(property(get = __cordl_internal_get_mgfDigest, put = __cordl_internal_set_mgfDigest))::Org::BouncyCastle::Crypto::IDigest* mgfDigest;
 
   /// @brief Field cipher, offset 0x28, size 0x8
-  __declspec(property(get = __get_cipher, put = __set_cipher))::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher;
 
   /// @brief Field random, offset 0x30, size 0x8
-  __declspec(property(get = __get_random, put = __set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
 
   /// @brief Field hLen, offset 0x38, size 0x4
-  __declspec(property(get = __get_hLen, put = __set_hLen)) int32_t hLen;
+  __declspec(property(get = __cordl_internal_get_hLen, put = __cordl_internal_set_hLen)) int32_t hLen;
 
   /// @brief Field mgfhLen, offset 0x3c, size 0x4
-  __declspec(property(get = __get_mgfhLen, put = __set_mgfhLen)) int32_t mgfhLen;
+  __declspec(property(get = __cordl_internal_get_mgfhLen, put = __cordl_internal_set_mgfhLen)) int32_t mgfhLen;
 
   /// @brief Field sLen, offset 0x40, size 0x4
-  __declspec(property(get = __get_sLen, put = __set_sLen)) int32_t sLen;
+  __declspec(property(get = __cordl_internal_get_sLen, put = __cordl_internal_set_sLen)) int32_t sLen;
 
   /// @brief Field sSet, offset 0x44, size 0x1
-  __declspec(property(get = __get_sSet, put = __set_sSet)) bool sSet;
+  __declspec(property(get = __cordl_internal_get_sSet, put = __cordl_internal_set_sSet)) bool sSet;
 
   /// @brief Field emBits, offset 0x48, size 0x4
-  __declspec(property(get = __get_emBits, put = __set_emBits)) int32_t emBits;
+  __declspec(property(get = __cordl_internal_get_emBits, put = __cordl_internal_set_emBits)) int32_t emBits;
 
   /// @brief Field salt, offset 0x50, size 0x8
-  __declspec(property(get = __get_salt, put = __set_salt))::ArrayW<uint8_t, ::Array<uint8_t>*> salt;
+  __declspec(property(get = __cordl_internal_get_salt, put = __cordl_internal_set_salt))::ArrayW<uint8_t, ::Array<uint8_t>*> salt;
 
   /// @brief Field mDash, offset 0x58, size 0x8
-  __declspec(property(get = __get_mDash, put = __set_mDash))::ArrayW<uint8_t, ::Array<uint8_t>*> mDash;
+  __declspec(property(get = __cordl_internal_get_mDash, put = __cordl_internal_set_mDash))::ArrayW<uint8_t, ::Array<uint8_t>*> mDash;
 
   /// @brief Field block, offset 0x60, size 0x8
-  __declspec(property(get = __get_block, put = __set_block))::ArrayW<uint8_t, ::Array<uint8_t>*> block;
+  __declspec(property(get = __cordl_internal_get_block, put = __cordl_internal_set_block))::ArrayW<uint8_t, ::Array<uint8_t>*> block;
 
   /// @brief Field trailer, offset 0x68, size 0x1
-  __declspec(property(get = __get_trailer, put = __set_trailer)) uint8_t trailer;
+  __declspec(property(get = __cordl_internal_get_trailer, put = __cordl_internal_set_trailer)) uint8_t trailer;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -88,89 +88,89 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_contentDigest1();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_contentDigest1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_contentDigest1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_contentDigest1() const;
 
-  constexpr void __set_contentDigest1(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_contentDigest1(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_contentDigest2();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_contentDigest2();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_contentDigest2() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_contentDigest2() const;
 
-  constexpr void __set_contentDigest2(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_contentDigest2(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_mgfDigest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mgfDigest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_mgfDigest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_mgfDigest() const;
 
-  constexpr void __set_mgfDigest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_mgfDigest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& __get_cipher();
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& __cordl_internal_get_cipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*> const& __get_cipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*> const& __cordl_internal_get_cipher() const;
 
-  constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
+  constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_random();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_random() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
-  constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  constexpr int32_t& __get_hLen();
+  constexpr int32_t& __cordl_internal_get_hLen();
 
-  constexpr int32_t const& __get_hLen() const;
+  constexpr int32_t const& __cordl_internal_get_hLen() const;
 
-  constexpr void __set_hLen(int32_t value);
+  constexpr void __cordl_internal_set_hLen(int32_t value);
 
-  constexpr int32_t& __get_mgfhLen();
+  constexpr int32_t& __cordl_internal_get_mgfhLen();
 
-  constexpr int32_t const& __get_mgfhLen() const;
+  constexpr int32_t const& __cordl_internal_get_mgfhLen() const;
 
-  constexpr void __set_mgfhLen(int32_t value);
+  constexpr void __cordl_internal_set_mgfhLen(int32_t value);
 
-  constexpr int32_t& __get_sLen();
+  constexpr int32_t& __cordl_internal_get_sLen();
 
-  constexpr int32_t const& __get_sLen() const;
+  constexpr int32_t const& __cordl_internal_get_sLen() const;
 
-  constexpr void __set_sLen(int32_t value);
+  constexpr void __cordl_internal_set_sLen(int32_t value);
 
-  constexpr bool& __get_sSet();
+  constexpr bool& __cordl_internal_get_sSet();
 
-  constexpr bool const& __get_sSet() const;
+  constexpr bool const& __cordl_internal_get_sSet() const;
 
-  constexpr void __set_sSet(bool value);
+  constexpr void __cordl_internal_set_sSet(bool value);
 
-  constexpr int32_t& __get_emBits();
+  constexpr int32_t& __cordl_internal_get_emBits();
 
-  constexpr int32_t const& __get_emBits() const;
+  constexpr int32_t const& __cordl_internal_get_emBits() const;
 
-  constexpr void __set_emBits(int32_t value);
+  constexpr void __cordl_internal_set_emBits(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_salt();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_salt();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_salt() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_salt() const;
 
-  constexpr void __set_salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mDash();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mDash();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mDash() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mDash() const;
 
-  constexpr void __set_mDash(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mDash(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_block();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_block();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_block() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_block() const;
 
-  constexpr void __set_block(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_block(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr uint8_t& __get_trailer();
+  constexpr uint8_t& __cordl_internal_get_trailer();
 
-  constexpr uint8_t const& __get_trailer() const;
+  constexpr uint8_t const& __cordl_internal_get_trailer() const;
 
-  constexpr void __set_trailer(uint8_t value);
+  constexpr void __cordl_internal_set_trailer(uint8_t value);
 
   /// @brief Method CreateRawSigner, addr 0xf53550, size 0x134, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Signers::PssSigner* CreateRawSigner(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest);

@@ -27,17 +27,17 @@ MARK_REF_PTR_T(::Polyglot::LocalizedTextMesh);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15566))
 // CS Name: ::Polyglot::LocalizedTextMesh*
 class CORDL_TYPE LocalizedTextMesh : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field text, offset 0x18, size 0x8
-  __declspec(property(get = __get_text, put = __set_text))::UnityEngine::TextMesh* text;
+  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::UnityW<::UnityEngine::TextMesh> text;
 
   /// @brief Field key, offset 0x20, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::StringW key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::StringW key;
 
   __declspec(property(get = get_Key))::StringW Key;
 
@@ -47,17 +47,17 @@ public:
   /// @brief Convert to "::Polyglot::ILocalize"
   constexpr ::Polyglot::ILocalize* i___Polyglot__ILocalize() noexcept;
 
-  constexpr ::UnityEngine::TextMesh*& __get_text();
+  constexpr ::UnityW<::UnityEngine::TextMesh>& __cordl_internal_get_text();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextMesh*> const& __get_text() const;
+  constexpr ::UnityW<::UnityEngine::TextMesh> const& __cordl_internal_get_text() const;
 
-  constexpr void __set_text(::UnityEngine::TextMesh* value);
+  constexpr void __cordl_internal_set_text(::UnityW<::UnityEngine::TextMesh> value);
 
-  constexpr ::StringW& __get_key();
+  constexpr ::StringW& __cordl_internal_get_key();
 
-  constexpr ::StringW const& __get_key() const;
+  constexpr ::StringW const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::StringW value);
+  constexpr void __cordl_internal_set_key(::StringW value);
 
   /// @brief Method get_Key, addr 0x2805b04, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Key();
@@ -100,7 +100,7 @@ protected:
 
 public:
   /// @brief Field text, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::TextMesh* ___text;
+  ::UnityW<::UnityEngine::TextMesh> ___text;
 
   /// @brief Field key, offset: 0x20, size: 0x8, def value: None
   ::StringW ___key;

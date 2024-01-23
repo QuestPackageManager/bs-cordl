@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::GlobalNamespace::ConnectionFailedException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12708)), TypeDefinitionIndex(TypeDefinitionIndex(2561))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561)), TypeDefinitionIndex(TypeDefinitionIndex(12708))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12707))
 // CS Name: ::ConnectionFailedException*
 class CORDL_TYPE ConnectionFailedException : public ::System::Exception {
 public:
   // Declarations
   /// @brief Field reason, offset 0x8c, size 0x4
-  __declspec(property(get = __get_reason, put = __set_reason))::GlobalNamespace::ConnectionFailedReason reason;
+  __declspec(property(get = __cordl_internal_get_reason, put = __cordl_internal_set_reason))::GlobalNamespace::ConnectionFailedReason reason;
 
-  constexpr ::GlobalNamespace::ConnectionFailedReason& __get_reason();
+  constexpr ::GlobalNamespace::ConnectionFailedReason& __cordl_internal_get_reason();
 
-  constexpr ::GlobalNamespace::ConnectionFailedReason const& __get_reason() const;
+  constexpr ::GlobalNamespace::ConnectionFailedReason const& __cordl_internal_get_reason() const;
 
-  constexpr void __set_reason(::GlobalNamespace::ConnectionFailedReason value);
+  constexpr void __cordl_internal_set_reason(::GlobalNamespace::ConnectionFailedReason value);
 
   static inline ::GlobalNamespace::ConnectionFailedException* New_ctor(::GlobalNamespace::ConnectionFailedReason reason);
 

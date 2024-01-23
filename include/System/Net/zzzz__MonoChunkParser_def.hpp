@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::System::Net::__MonoChunkParser__Chunk);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9191))
 // CS Name: ::MonoChunkParser::State
 struct CORDL_TYPE __MonoChunkParser__State {
@@ -105,29 +105,29 @@ static_assert(offsetof(::System::Net::__MonoChunkParser__State, value__) == 0x0,
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9192))
 // CS Name: ::MonoChunkParser::Chunk*
 class CORDL_TYPE __MonoChunkParser__Chunk : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Bytes, offset 0x10, size 0x8
-  __declspec(property(get = __get_Bytes, put = __set_Bytes))::ArrayW<uint8_t, ::Array<uint8_t>*> Bytes;
+  __declspec(property(get = __cordl_internal_get_Bytes, put = __cordl_internal_set_Bytes))::ArrayW<uint8_t, ::Array<uint8_t>*> Bytes;
 
   /// @brief Field Offset, offset 0x18, size 0x4
-  __declspec(property(get = __get_Offset, put = __set_Offset)) int32_t Offset;
+  __declspec(property(get = __cordl_internal_get_Offset, put = __cordl_internal_set_Offset)) int32_t Offset;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_Bytes();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Bytes();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_Bytes() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Bytes() const;
 
-  constexpr void __set_Bytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_Bytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_Offset();
+  constexpr int32_t& __cordl_internal_get_Offset();
 
-  constexpr int32_t const& __get_Offset() const;
+  constexpr int32_t const& __cordl_internal_get_Offset() const;
 
-  constexpr void __set_Offset(int32_t value);
+  constexpr void __cordl_internal_set_Offset(int32_t value);
 
   static inline ::System::Net::__MonoChunkParser__Chunk* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> chunk);
 
@@ -171,7 +171,7 @@ static_assert(offsetof(::System::Net::__MonoChunkParser__Chunk, ___Offset) == 0x
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9191)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9191))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9193))
 // CS Name: ::System.Net::MonoChunkParser*
 class CORDL_TYPE MonoChunkParser : public ::System::Object {
@@ -182,34 +182,34 @@ public:
   using State = ::System::Net::__MonoChunkParser__State;
 
   /// @brief Field headers, offset 0x10, size 0x8
-  __declspec(property(get = __get_headers, put = __set_headers))::System::Net::WebHeaderCollection* headers;
+  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers))::System::Net::WebHeaderCollection* headers;
 
   /// @brief Field chunkSize, offset 0x18, size 0x4
-  __declspec(property(get = __get_chunkSize, put = __set_chunkSize)) int32_t chunkSize;
+  __declspec(property(get = __cordl_internal_get_chunkSize, put = __cordl_internal_set_chunkSize)) int32_t chunkSize;
 
   /// @brief Field chunkRead, offset 0x1c, size 0x4
-  __declspec(property(get = __get_chunkRead, put = __set_chunkRead)) int32_t chunkRead;
+  __declspec(property(get = __cordl_internal_get_chunkRead, put = __cordl_internal_set_chunkRead)) int32_t chunkRead;
 
   /// @brief Field totalWritten, offset 0x20, size 0x4
-  __declspec(property(get = __get_totalWritten, put = __set_totalWritten)) int32_t totalWritten;
+  __declspec(property(get = __cordl_internal_get_totalWritten, put = __cordl_internal_set_totalWritten)) int32_t totalWritten;
 
   /// @brief Field state, offset 0x24, size 0x4
-  __declspec(property(get = __get_state, put = __set_state))::System::Net::__MonoChunkParser__State state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::Net::__MonoChunkParser__State state;
 
   /// @brief Field saved, offset 0x28, size 0x8
-  __declspec(property(get = __get_saved, put = __set_saved))::System::Text::StringBuilder* saved;
+  __declspec(property(get = __cordl_internal_get_saved, put = __cordl_internal_set_saved))::System::Text::StringBuilder* saved;
 
   /// @brief Field sawCR, offset 0x30, size 0x1
-  __declspec(property(get = __get_sawCR, put = __set_sawCR)) bool sawCR;
+  __declspec(property(get = __cordl_internal_get_sawCR, put = __cordl_internal_set_sawCR)) bool sawCR;
 
   /// @brief Field gotit, offset 0x31, size 0x1
-  __declspec(property(get = __get_gotit, put = __set_gotit)) bool gotit;
+  __declspec(property(get = __cordl_internal_get_gotit, put = __cordl_internal_set_gotit)) bool gotit;
 
   /// @brief Field trailerState, offset 0x34, size 0x4
-  __declspec(property(get = __get_trailerState, put = __set_trailerState)) int32_t trailerState;
+  __declspec(property(get = __cordl_internal_get_trailerState, put = __cordl_internal_set_trailerState)) int32_t trailerState;
 
   /// @brief Field chunks, offset 0x38, size 0x8
-  __declspec(property(get = __get_chunks, put = __set_chunks))::System::Collections::ArrayList* chunks;
+  __declspec(property(get = __cordl_internal_get_chunks, put = __cordl_internal_set_chunks))::System::Collections::ArrayList* chunks;
 
   __declspec(property(get = get_WantMore)) bool WantMore;
 
@@ -217,65 +217,65 @@ public:
 
   __declspec(property(get = get_ChunkLeft)) int32_t ChunkLeft;
 
-  constexpr ::System::Net::WebHeaderCollection*& __get_headers();
+  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get_headers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __get_headers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get_headers() const;
 
-  constexpr void __set_headers(::System::Net::WebHeaderCollection* value);
+  constexpr void __cordl_internal_set_headers(::System::Net::WebHeaderCollection* value);
 
-  constexpr int32_t& __get_chunkSize();
+  constexpr int32_t& __cordl_internal_get_chunkSize();
 
-  constexpr int32_t const& __get_chunkSize() const;
+  constexpr int32_t const& __cordl_internal_get_chunkSize() const;
 
-  constexpr void __set_chunkSize(int32_t value);
+  constexpr void __cordl_internal_set_chunkSize(int32_t value);
 
-  constexpr int32_t& __get_chunkRead();
+  constexpr int32_t& __cordl_internal_get_chunkRead();
 
-  constexpr int32_t const& __get_chunkRead() const;
+  constexpr int32_t const& __cordl_internal_get_chunkRead() const;
 
-  constexpr void __set_chunkRead(int32_t value);
+  constexpr void __cordl_internal_set_chunkRead(int32_t value);
 
-  constexpr int32_t& __get_totalWritten();
+  constexpr int32_t& __cordl_internal_get_totalWritten();
 
-  constexpr int32_t const& __get_totalWritten() const;
+  constexpr int32_t const& __cordl_internal_get_totalWritten() const;
 
-  constexpr void __set_totalWritten(int32_t value);
+  constexpr void __cordl_internal_set_totalWritten(int32_t value);
 
-  constexpr ::System::Net::__MonoChunkParser__State& __get_state();
+  constexpr ::System::Net::__MonoChunkParser__State& __cordl_internal_get_state();
 
-  constexpr ::System::Net::__MonoChunkParser__State const& __get_state() const;
+  constexpr ::System::Net::__MonoChunkParser__State const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(::System::Net::__MonoChunkParser__State value);
+  constexpr void __cordl_internal_set_state(::System::Net::__MonoChunkParser__State value);
 
-  constexpr ::System::Text::StringBuilder*& __get_saved();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_saved();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get_saved() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_saved() const;
 
-  constexpr void __set_saved(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set_saved(::System::Text::StringBuilder* value);
 
-  constexpr bool& __get_sawCR();
+  constexpr bool& __cordl_internal_get_sawCR();
 
-  constexpr bool const& __get_sawCR() const;
+  constexpr bool const& __cordl_internal_get_sawCR() const;
 
-  constexpr void __set_sawCR(bool value);
+  constexpr void __cordl_internal_set_sawCR(bool value);
 
-  constexpr bool& __get_gotit();
+  constexpr bool& __cordl_internal_get_gotit();
 
-  constexpr bool const& __get_gotit() const;
+  constexpr bool const& __cordl_internal_get_gotit() const;
 
-  constexpr void __set_gotit(bool value);
+  constexpr void __cordl_internal_set_gotit(bool value);
 
-  constexpr int32_t& __get_trailerState();
+  constexpr int32_t& __cordl_internal_get_trailerState();
 
-  constexpr int32_t const& __get_trailerState() const;
+  constexpr int32_t const& __cordl_internal_get_trailerState() const;
 
-  constexpr void __set_trailerState(int32_t value);
+  constexpr void __cordl_internal_set_trailerState(int32_t value);
 
-  constexpr ::System::Collections::ArrayList*& __get_chunks();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_chunks();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_chunks() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_chunks() const;
 
-  constexpr void __set_chunks(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_chunks(::System::Collections::ArrayList* value);
 
   static inline ::System::Net::MonoChunkParser* New_ctor(::System::Net::WebHeaderCollection* headers);
 

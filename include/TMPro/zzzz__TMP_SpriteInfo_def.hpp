@@ -15,7 +15,7 @@ MARK_VAL_T(::TMPro::TMP_SpriteInfo);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12321))
 // CS Name: ::TMPro::TMP_SpriteInfo
 struct CORDL_TYPE TMP_SpriteInfo {

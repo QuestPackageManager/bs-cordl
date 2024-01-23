@@ -32,65 +32,65 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverFABRIKRoot);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12564)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12564))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12569))
 // CS Name: ::RootMotion.FinalIK::IKSolverFABRIKRoot*
 class CORDL_TYPE IKSolverFABRIKRoot : public ::RootMotion::FinalIK::IKSolver {
 public:
   // Declarations
   /// @brief Field iterations, offset 0x58, size 0x4
-  __declspec(property(get = __get_iterations, put = __set_iterations)) int32_t iterations;
+  __declspec(property(get = __cordl_internal_get_iterations, put = __cordl_internal_set_iterations)) int32_t iterations;
 
   /// @brief Field rootPin, offset 0x5c, size 0x4
-  __declspec(property(get = __get_rootPin, put = __set_rootPin)) float_t rootPin;
+  __declspec(property(get = __cordl_internal_get_rootPin, put = __cordl_internal_set_rootPin)) float_t rootPin;
 
   /// @brief Field chains, offset 0x60, size 0x8
-  __declspec(property(get = __get_chains, put = __set_chains))::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> chains;
+  __declspec(property(get = __cordl_internal_get_chains, put = __cordl_internal_set_chains))::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> chains;
 
   /// @brief Field zeroWeightApplied, offset 0x68, size 0x1
-  __declspec(property(get = __get_zeroWeightApplied, put = __set_zeroWeightApplied)) bool zeroWeightApplied;
+  __declspec(property(get = __cordl_internal_get_zeroWeightApplied, put = __cordl_internal_set_zeroWeightApplied)) bool zeroWeightApplied;
 
   /// @brief Field isRoot, offset 0x70, size 0x8
-  __declspec(property(get = __get_isRoot, put = __set_isRoot))::ArrayW<bool, ::Array<bool>*> isRoot;
+  __declspec(property(get = __cordl_internal_get_isRoot, put = __cordl_internal_set_isRoot))::ArrayW<bool, ::Array<bool>*> isRoot;
 
   /// @brief Field rootDefaultPosition, offset 0x78, size 0xc
-  __declspec(property(get = __get_rootDefaultPosition, put = __set_rootDefaultPosition))::UnityEngine::Vector3 rootDefaultPosition;
+  __declspec(property(get = __cordl_internal_get_rootDefaultPosition, put = __cordl_internal_set_rootDefaultPosition))::UnityEngine::Vector3 rootDefaultPosition;
 
-  constexpr int32_t& __get_iterations();
+  constexpr int32_t& __cordl_internal_get_iterations();
 
-  constexpr int32_t const& __get_iterations() const;
+  constexpr int32_t const& __cordl_internal_get_iterations() const;
 
-  constexpr void __set_iterations(int32_t value);
+  constexpr void __cordl_internal_set_iterations(int32_t value);
 
-  constexpr float_t& __get_rootPin();
+  constexpr float_t& __cordl_internal_get_rootPin();
 
-  constexpr float_t const& __get_rootPin() const;
+  constexpr float_t const& __cordl_internal_get_rootPin() const;
 
-  constexpr void __set_rootPin(float_t value);
+  constexpr void __cordl_internal_set_rootPin(float_t value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*>& __get_chains();
+  constexpr ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*>& __cordl_internal_get_chains();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> const& __get_chains() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> const& __cordl_internal_get_chains() const;
 
-  constexpr void __set_chains(::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> value);
+  constexpr void __cordl_internal_set_chains(::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> value);
 
-  constexpr bool& __get_zeroWeightApplied();
+  constexpr bool& __cordl_internal_get_zeroWeightApplied();
 
-  constexpr bool const& __get_zeroWeightApplied() const;
+  constexpr bool const& __cordl_internal_get_zeroWeightApplied() const;
 
-  constexpr void __set_zeroWeightApplied(bool value);
+  constexpr void __cordl_internal_set_zeroWeightApplied(bool value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get_isRoot();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get_isRoot();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get_isRoot() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_isRoot() const;
 
-  constexpr void __set_isRoot(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set_isRoot(::ArrayW<bool, ::Array<bool>*> value);
 
-  constexpr ::UnityEngine::Vector3& __get_rootDefaultPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rootDefaultPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_rootDefaultPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rootDefaultPosition() const;
 
-  constexpr void __set_rootDefaultPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_rootDefaultPosition(::UnityEngine::Vector3 value);
 
   /// @brief Method IsValid, addr 0x126518c, size 0x654, virtual true, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);

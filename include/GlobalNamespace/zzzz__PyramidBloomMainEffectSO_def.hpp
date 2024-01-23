@@ -32,68 +32,68 @@ MARK_REF_PTR_T(::GlobalNamespace::PyramidBloomMainEffectSO);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15293)), TypeDefinitionIndex(TypeDefinitionIndex(14446))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14446)), TypeDefinitionIndex(TypeDefinitionIndex(15293))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15295))
 // CS Name: ::PyramidBloomMainEffectSO*
 class CORDL_TYPE PyramidBloomMainEffectSO : public ::GlobalNamespace::MainEffectSO {
 public:
   // Declarations
   /// @brief Field _bloomRenderer, offset 0x18, size 0x8
-  __declspec(property(get = __get__bloomRenderer, put = __set__bloomRenderer))::GlobalNamespace::PyramidBloomRendererSO* _bloomRenderer;
+  __declspec(property(get = __cordl_internal_get__bloomRenderer, put = __cordl_internal_set__bloomRenderer))::UnityW<::GlobalNamespace::PyramidBloomRendererSO> _bloomRenderer;
 
   /// @brief Field _bloomFog, offset 0x20, size 0x8
-  __declspec(property(get = __get__bloomFog, put = __set__bloomFog))::GlobalNamespace::BloomFogSO* _bloomFog;
+  __declspec(property(get = __cordl_internal_get__bloomFog, put = __cordl_internal_set__bloomFog))::UnityW<::GlobalNamespace::BloomFogSO> _bloomFog;
 
   /// @brief Field _fadeShader, offset 0x28, size 0x8
-  __declspec(property(get = __get__fadeShader, put = __set__fadeShader))::UnityEngine::Shader* _fadeShader;
+  __declspec(property(get = __cordl_internal_get__fadeShader, put = __cordl_internal_set__fadeShader))::UnityW<::UnityEngine::Shader> _fadeShader;
 
   /// @brief Field _mainEffectShader, offset 0x30, size 0x8
-  __declspec(property(get = __get__mainEffectShader, put = __set__mainEffectShader))::UnityEngine::Shader* _mainEffectShader;
+  __declspec(property(get = __cordl_internal_get__mainEffectShader, put = __cordl_internal_set__mainEffectShader))::UnityW<::UnityEngine::Shader> _mainEffectShader;
 
   /// @brief Field _bloomBlendFactor, offset 0x38, size 0x4
-  __declspec(property(get = __get__bloomBlendFactor, put = __set__bloomBlendFactor)) float_t _bloomBlendFactor;
+  __declspec(property(get = __cordl_internal_get__bloomBlendFactor, put = __cordl_internal_set__bloomBlendFactor)) float_t _bloomBlendFactor;
 
   /// @brief Field _bloomRadius, offset 0x3c, size 0x4
-  __declspec(property(get = __get__bloomRadius, put = __set__bloomRadius)) float_t _bloomRadius;
+  __declspec(property(get = __cordl_internal_get__bloomRadius, put = __cordl_internal_set__bloomRadius)) float_t _bloomRadius;
 
   /// @brief Field _bloomIntensity, offset 0x40, size 0x4
-  __declspec(property(get = __get__bloomIntensity, put = __set__bloomIntensity)) float_t _bloomIntensity;
+  __declspec(property(get = __cordl_internal_get__bloomIntensity, put = __cordl_internal_set__bloomIntensity)) float_t _bloomIntensity;
 
   /// @brief Field _downBloomIntensityOffset, offset 0x44, size 0x4
-  __declspec(property(get = __get__downBloomIntensityOffset, put = __set__downBloomIntensityOffset)) float_t _downBloomIntensityOffset;
+  __declspec(property(get = __cordl_internal_get__downBloomIntensityOffset, put = __cordl_internal_set__downBloomIntensityOffset)) float_t _downBloomIntensityOffset;
 
   /// @brief Field _pyramidWeightsParam, offset 0x48, size 0x4
-  __declspec(property(get = __get__pyramidWeightsParam, put = __set__pyramidWeightsParam)) float_t _pyramidWeightsParam;
+  __declspec(property(get = __cordl_internal_get__pyramidWeightsParam, put = __cordl_internal_set__pyramidWeightsParam)) float_t _pyramidWeightsParam;
 
   /// @brief Field _alphaWeights, offset 0x4c, size 0x4
-  __declspec(property(get = __get__alphaWeights, put = __set__alphaWeights)) float_t _alphaWeights;
+  __declspec(property(get = __cordl_internal_get__alphaWeights, put = __cordl_internal_set__alphaWeights)) float_t _alphaWeights;
 
   /// @brief Field _preFilterPass, offset 0x50, size 0x4
-  __declspec(property(get = __get__preFilterPass, put = __set__preFilterPass))::GlobalNamespace::__PyramidBloomRendererSO__Pass _preFilterPass;
+  __declspec(property(get = __cordl_internal_get__preFilterPass, put = __cordl_internal_set__preFilterPass))::GlobalNamespace::__PyramidBloomRendererSO__Pass _preFilterPass;
 
   /// @brief Field _downsamplePass, offset 0x54, size 0x4
-  __declspec(property(get = __get__downsamplePass, put = __set__downsamplePass))::GlobalNamespace::__PyramidBloomRendererSO__Pass _downsamplePass;
+  __declspec(property(get = __cordl_internal_get__downsamplePass, put = __cordl_internal_set__downsamplePass))::GlobalNamespace::__PyramidBloomRendererSO__Pass _downsamplePass;
 
   /// @brief Field _upsamplePass, offset 0x58, size 0x4
-  __declspec(property(get = __get__upsamplePass, put = __set__upsamplePass))::GlobalNamespace::__PyramidBloomRendererSO__Pass _upsamplePass;
+  __declspec(property(get = __cordl_internal_get__upsamplePass, put = __cordl_internal_set__upsamplePass))::GlobalNamespace::__PyramidBloomRendererSO__Pass _upsamplePass;
 
   /// @brief Field _finalUpsamplePass, offset 0x5c, size 0x4
-  __declspec(property(get = __get__finalUpsamplePass, put = __set__finalUpsamplePass))::GlobalNamespace::__PyramidBloomRendererSO__Pass _finalUpsamplePass;
+  __declspec(property(get = __cordl_internal_get__finalUpsamplePass, put = __cordl_internal_set__finalUpsamplePass))::GlobalNamespace::__PyramidBloomRendererSO__Pass _finalUpsamplePass;
 
   /// @brief Field _bloomTextureWidth, offset 0x60, size 0x4
-  __declspec(property(get = __get__bloomTextureWidth, put = __set__bloomTextureWidth)) int32_t _bloomTextureWidth;
+  __declspec(property(get = __cordl_internal_get__bloomTextureWidth, put = __cordl_internal_set__bloomTextureWidth)) int32_t _bloomTextureWidth;
 
   /// @brief Field _baseColorBoost, offset 0x64, size 0x4
-  __declspec(property(get = __get__baseColorBoost, put = __set__baseColorBoost)) float_t _baseColorBoost;
+  __declspec(property(get = __cordl_internal_get__baseColorBoost, put = __cordl_internal_set__baseColorBoost)) float_t _baseColorBoost;
 
   /// @brief Field _baseColorBoostThreshold, offset 0x68, size 0x4
-  __declspec(property(get = __get__baseColorBoostThreshold, put = __set__baseColorBoostThreshold)) float_t _baseColorBoostThreshold;
+  __declspec(property(get = __cordl_internal_get__baseColorBoostThreshold, put = __cordl_internal_set__baseColorBoostThreshold)) float_t _baseColorBoostThreshold;
 
   /// @brief Field _fadeMaterial, offset 0x70, size 0x8
-  __declspec(property(get = __get__fadeMaterial, put = __set__fadeMaterial))::UnityEngine::Material* _fadeMaterial;
+  __declspec(property(get = __cordl_internal_get__fadeMaterial, put = __cordl_internal_set__fadeMaterial))::UnityW<::UnityEngine::Material> _fadeMaterial;
 
   /// @brief Field _mainEffectMaterial, offset 0x78, size 0x8
-  __declspec(property(get = __get__mainEffectMaterial, put = __set__mainEffectMaterial))::UnityEngine::Material* _mainEffectMaterial;
+  __declspec(property(get = __cordl_internal_get__mainEffectMaterial, put = __cordl_internal_set__mainEffectMaterial))::UnityW<::UnityEngine::Material> _mainEffectMaterial;
 
   /// @brief Field _bloomTexID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__bloomTexID, put = setStaticF__bloomTexID)) int32_t _bloomTexID;
@@ -106,119 +106,119 @@ public:
 
   __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
 
-  constexpr ::GlobalNamespace::PyramidBloomRendererSO*& __get__bloomRenderer();
+  constexpr ::UnityW<::GlobalNamespace::PyramidBloomRendererSO>& __cordl_internal_get__bloomRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PyramidBloomRendererSO*> const& __get__bloomRenderer() const;
+  constexpr ::UnityW<::GlobalNamespace::PyramidBloomRendererSO> const& __cordl_internal_get__bloomRenderer() const;
 
-  constexpr void __set__bloomRenderer(::GlobalNamespace::PyramidBloomRendererSO* value);
+  constexpr void __cordl_internal_set__bloomRenderer(::UnityW<::GlobalNamespace::PyramidBloomRendererSO> value);
 
-  constexpr ::GlobalNamespace::BloomFogSO*& __get__bloomFog();
+  constexpr ::UnityW<::GlobalNamespace::BloomFogSO>& __cordl_internal_get__bloomFog();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogSO*> const& __get__bloomFog() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
 
-  constexpr void __set__bloomFog(::GlobalNamespace::BloomFogSO* value);
+  constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value);
 
-  constexpr ::UnityEngine::Shader*& __get__fadeShader();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get__fadeShader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get__fadeShader() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get__fadeShader() const;
 
-  constexpr void __set__fadeShader(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set__fadeShader(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr ::UnityEngine::Shader*& __get__mainEffectShader();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get__mainEffectShader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get__mainEffectShader() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get__mainEffectShader() const;
 
-  constexpr void __set__mainEffectShader(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set__mainEffectShader(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr float_t& __get__bloomBlendFactor();
+  constexpr float_t& __cordl_internal_get__bloomBlendFactor();
 
-  constexpr float_t const& __get__bloomBlendFactor() const;
+  constexpr float_t const& __cordl_internal_get__bloomBlendFactor() const;
 
-  constexpr void __set__bloomBlendFactor(float_t value);
+  constexpr void __cordl_internal_set__bloomBlendFactor(float_t value);
 
-  constexpr float_t& __get__bloomRadius();
+  constexpr float_t& __cordl_internal_get__bloomRadius();
 
-  constexpr float_t const& __get__bloomRadius() const;
+  constexpr float_t const& __cordl_internal_get__bloomRadius() const;
 
-  constexpr void __set__bloomRadius(float_t value);
+  constexpr void __cordl_internal_set__bloomRadius(float_t value);
 
-  constexpr float_t& __get__bloomIntensity();
+  constexpr float_t& __cordl_internal_get__bloomIntensity();
 
-  constexpr float_t const& __get__bloomIntensity() const;
+  constexpr float_t const& __cordl_internal_get__bloomIntensity() const;
 
-  constexpr void __set__bloomIntensity(float_t value);
+  constexpr void __cordl_internal_set__bloomIntensity(float_t value);
 
-  constexpr float_t& __get__downBloomIntensityOffset();
+  constexpr float_t& __cordl_internal_get__downBloomIntensityOffset();
 
-  constexpr float_t const& __get__downBloomIntensityOffset() const;
+  constexpr float_t const& __cordl_internal_get__downBloomIntensityOffset() const;
 
-  constexpr void __set__downBloomIntensityOffset(float_t value);
+  constexpr void __cordl_internal_set__downBloomIntensityOffset(float_t value);
 
-  constexpr float_t& __get__pyramidWeightsParam();
+  constexpr float_t& __cordl_internal_get__pyramidWeightsParam();
 
-  constexpr float_t const& __get__pyramidWeightsParam() const;
+  constexpr float_t const& __cordl_internal_get__pyramidWeightsParam() const;
 
-  constexpr void __set__pyramidWeightsParam(float_t value);
+  constexpr void __cordl_internal_set__pyramidWeightsParam(float_t value);
 
-  constexpr float_t& __get__alphaWeights();
+  constexpr float_t& __cordl_internal_get__alphaWeights();
 
-  constexpr float_t const& __get__alphaWeights() const;
+  constexpr float_t const& __cordl_internal_get__alphaWeights() const;
 
-  constexpr void __set__alphaWeights(float_t value);
+  constexpr void __cordl_internal_set__alphaWeights(float_t value);
 
-  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& __get__preFilterPass();
+  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& __cordl_internal_get__preFilterPass();
 
-  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& __get__preFilterPass() const;
+  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& __cordl_internal_get__preFilterPass() const;
 
-  constexpr void __set__preFilterPass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value);
+  constexpr void __cordl_internal_set__preFilterPass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value);
 
-  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& __get__downsamplePass();
+  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& __cordl_internal_get__downsamplePass();
 
-  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& __get__downsamplePass() const;
+  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& __cordl_internal_get__downsamplePass() const;
 
-  constexpr void __set__downsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value);
+  constexpr void __cordl_internal_set__downsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value);
 
-  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& __get__upsamplePass();
+  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& __cordl_internal_get__upsamplePass();
 
-  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& __get__upsamplePass() const;
+  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& __cordl_internal_get__upsamplePass() const;
 
-  constexpr void __set__upsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value);
+  constexpr void __cordl_internal_set__upsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value);
 
-  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& __get__finalUpsamplePass();
+  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& __cordl_internal_get__finalUpsamplePass();
 
-  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& __get__finalUpsamplePass() const;
+  constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& __cordl_internal_get__finalUpsamplePass() const;
 
-  constexpr void __set__finalUpsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value);
+  constexpr void __cordl_internal_set__finalUpsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value);
 
-  constexpr int32_t& __get__bloomTextureWidth();
+  constexpr int32_t& __cordl_internal_get__bloomTextureWidth();
 
-  constexpr int32_t const& __get__bloomTextureWidth() const;
+  constexpr int32_t const& __cordl_internal_get__bloomTextureWidth() const;
 
-  constexpr void __set__bloomTextureWidth(int32_t value);
+  constexpr void __cordl_internal_set__bloomTextureWidth(int32_t value);
 
-  constexpr float_t& __get__baseColorBoost();
+  constexpr float_t& __cordl_internal_get__baseColorBoost();
 
-  constexpr float_t const& __get__baseColorBoost() const;
+  constexpr float_t const& __cordl_internal_get__baseColorBoost() const;
 
-  constexpr void __set__baseColorBoost(float_t value);
+  constexpr void __cordl_internal_set__baseColorBoost(float_t value);
 
-  constexpr float_t& __get__baseColorBoostThreshold();
+  constexpr float_t& __cordl_internal_get__baseColorBoostThreshold();
 
-  constexpr float_t const& __get__baseColorBoostThreshold() const;
+  constexpr float_t const& __cordl_internal_get__baseColorBoostThreshold() const;
 
-  constexpr void __set__baseColorBoostThreshold(float_t value);
+  constexpr void __cordl_internal_set__baseColorBoostThreshold(float_t value);
 
-  constexpr ::UnityEngine::Material*& __get__fadeMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__fadeMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__fadeMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__fadeMaterial() const;
 
-  constexpr void __set__fadeMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__fadeMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get__mainEffectMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__mainEffectMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__mainEffectMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__mainEffectMaterial() const;
 
-  constexpr void __set__mainEffectMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__mainEffectMaterial(::UnityW<::UnityEngine::Material> value);
 
   static inline void setStaticF__bloomTexID(int32_t value);
 
@@ -270,16 +270,16 @@ protected:
 
 public:
   /// @brief Field _bloomRenderer, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::PyramidBloomRendererSO* ____bloomRenderer;
+  ::UnityW<::GlobalNamespace::PyramidBloomRendererSO> ____bloomRenderer;
 
   /// @brief Field _bloomFog, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BloomFogSO* ____bloomFog;
+  ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;
 
   /// @brief Field _fadeShader, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Shader* ____fadeShader;
+  ::UnityW<::UnityEngine::Shader> ____fadeShader;
 
   /// @brief Field _mainEffectShader, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Shader* ____mainEffectShader;
+  ::UnityW<::UnityEngine::Shader> ____mainEffectShader;
 
   /// @brief Field _bloomBlendFactor, offset: 0x38, size: 0x4, def value: None
   float_t ____bloomBlendFactor;
@@ -321,10 +321,10 @@ public:
   float_t ____baseColorBoostThreshold;
 
   /// @brief Field _fadeMaterial, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::Material* ____fadeMaterial;
+  ::UnityW<::UnityEngine::Material> ____fadeMaterial;
 
   /// @brief Field _mainEffectMaterial, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::Material* ____mainEffectMaterial;
+  ::UnityW<::UnityEngine::Material> ____mainEffectMaterial;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

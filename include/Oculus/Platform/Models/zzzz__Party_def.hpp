@@ -21,74 +21,74 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Party);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13466))
 // CS Name: ::Oculus.Platform.Models::Party*
 class CORDL_TYPE Party : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ID, offset 0x10, size 0x8
-  __declspec(property(get = __get__cordl_ID, put = __set__cordl_ID)) uint64_t _cordl_ID;
+  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
 
   /// @brief Field InvitedUsersOptional, offset 0x18, size 0x8
-  __declspec(property(get = __get_InvitedUsersOptional, put = __set_InvitedUsersOptional))::Oculus::Platform::Models::UserList* InvitedUsersOptional;
+  __declspec(property(get = __cordl_internal_get_InvitedUsersOptional, put = __cordl_internal_set_InvitedUsersOptional))::Oculus::Platform::Models::UserList* InvitedUsersOptional;
 
   /// @brief Field InvitedUsers, offset 0x20, size 0x8
-  __declspec(property(get = __get_InvitedUsers, put = __set_InvitedUsers))::Oculus::Platform::Models::UserList* InvitedUsers;
+  __declspec(property(get = __cordl_internal_get_InvitedUsers, put = __cordl_internal_set_InvitedUsers))::Oculus::Platform::Models::UserList* InvitedUsers;
 
   /// @brief Field LeaderOptional, offset 0x28, size 0x8
-  __declspec(property(get = __get_LeaderOptional, put = __set_LeaderOptional))::Oculus::Platform::Models::User* LeaderOptional;
+  __declspec(property(get = __cordl_internal_get_LeaderOptional, put = __cordl_internal_set_LeaderOptional))::Oculus::Platform::Models::User* LeaderOptional;
 
   /// @brief Field Leader, offset 0x30, size 0x8
-  __declspec(property(get = __get_Leader, put = __set_Leader))::Oculus::Platform::Models::User* Leader;
+  __declspec(property(get = __cordl_internal_get_Leader, put = __cordl_internal_set_Leader))::Oculus::Platform::Models::User* Leader;
 
   /// @brief Field UsersOptional, offset 0x38, size 0x8
-  __declspec(property(get = __get_UsersOptional, put = __set_UsersOptional))::Oculus::Platform::Models::UserList* UsersOptional;
+  __declspec(property(get = __cordl_internal_get_UsersOptional, put = __cordl_internal_set_UsersOptional))::Oculus::Platform::Models::UserList* UsersOptional;
 
   /// @brief Field Users, offset 0x40, size 0x8
-  __declspec(property(get = __get_Users, put = __set_Users))::Oculus::Platform::Models::UserList* Users;
+  __declspec(property(get = __cordl_internal_get_Users, put = __cordl_internal_set_Users))::Oculus::Platform::Models::UserList* Users;
 
-  constexpr uint64_t& __get__cordl_ID();
+  constexpr uint64_t& __cordl_internal_get__cordl_ID();
 
-  constexpr uint64_t const& __get__cordl_ID() const;
+  constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
 
-  constexpr void __set__cordl_ID(uint64_t value);
+  constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  constexpr ::Oculus::Platform::Models::UserList*& __get_InvitedUsersOptional();
+  constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_InvitedUsersOptional();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __get_InvitedUsersOptional() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_InvitedUsersOptional() const;
 
-  constexpr void __set_InvitedUsersOptional(::Oculus::Platform::Models::UserList* value);
+  constexpr void __cordl_internal_set_InvitedUsersOptional(::Oculus::Platform::Models::UserList* value);
 
-  constexpr ::Oculus::Platform::Models::UserList*& __get_InvitedUsers();
+  constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_InvitedUsers();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __get_InvitedUsers() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_InvitedUsers() const;
 
-  constexpr void __set_InvitedUsers(::Oculus::Platform::Models::UserList* value);
+  constexpr void __cordl_internal_set_InvitedUsers(::Oculus::Platform::Models::UserList* value);
 
-  constexpr ::Oculus::Platform::Models::User*& __get_LeaderOptional();
+  constexpr ::Oculus::Platform::Models::User*& __cordl_internal_get_LeaderOptional();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& __get_LeaderOptional() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& __cordl_internal_get_LeaderOptional() const;
 
-  constexpr void __set_LeaderOptional(::Oculus::Platform::Models::User* value);
+  constexpr void __cordl_internal_set_LeaderOptional(::Oculus::Platform::Models::User* value);
 
-  constexpr ::Oculus::Platform::Models::User*& __get_Leader();
+  constexpr ::Oculus::Platform::Models::User*& __cordl_internal_get_Leader();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& __get_Leader() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::User*> const& __cordl_internal_get_Leader() const;
 
-  constexpr void __set_Leader(::Oculus::Platform::Models::User* value);
+  constexpr void __cordl_internal_set_Leader(::Oculus::Platform::Models::User* value);
 
-  constexpr ::Oculus::Platform::Models::UserList*& __get_UsersOptional();
+  constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_UsersOptional();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __get_UsersOptional() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_UsersOptional() const;
 
-  constexpr void __set_UsersOptional(::Oculus::Platform::Models::UserList* value);
+  constexpr void __cordl_internal_set_UsersOptional(::Oculus::Platform::Models::UserList* value);
 
-  constexpr ::Oculus::Platform::Models::UserList*& __get_Users();
+  constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_Users();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __get_Users() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_Users() const;
 
-  constexpr void __set_Users(::Oculus::Platform::Models::UserList* value);
+  constexpr void __cordl_internal_set_Users(::Oculus::Platform::Models::UserList* value);
 
   static inline ::Oculus::Platform::Models::Party* New_ctor(void* o);
 

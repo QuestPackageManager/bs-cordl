@@ -9,7 +9,7 @@ template <typename T> inline T RootMotion::Singleton_1<T>::getStaticF_sInstance(
 }
 template <typename T> inline T RootMotion::Singleton_1<T>::get_instance() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::Singleton_1<T>*>::get(), "get_instance",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method);
 }
 template <typename T> inline void RootMotion::Singleton_1<T>::Awake() {
@@ -18,11 +18,11 @@ template <typename T> inline void RootMotion::Singleton_1<T>::Awake() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline ::RootMotion::Singleton_1<T>* RootMotion::Singleton_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::RootMotion::Singleton_1<T>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::RootMotion::Singleton_1<T>*>());
 }
 template <typename T> inline void RootMotion::Singleton_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::Singleton_1<T>*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

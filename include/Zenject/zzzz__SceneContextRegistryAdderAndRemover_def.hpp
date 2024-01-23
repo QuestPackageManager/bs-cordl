@@ -33,17 +33,17 @@ MARK_REF_PTR_T(::Zenject::SceneContextRegistryAdderAndRemover);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11333))
 // CS Name: ::Zenject::SceneContextRegistryAdderAndRemover*
 class CORDL_TYPE SceneContextRegistryAdderAndRemover : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _registry, offset 0x10, size 0x8
-  __declspec(property(get = __get__registry, put = __set__registry))::Zenject::SceneContextRegistry* _registry;
+  __declspec(property(get = __cordl_internal_get__registry, put = __cordl_internal_set__registry))::Zenject::SceneContextRegistry* _registry;
 
   /// @brief Field _sceneContext, offset 0x18, size 0x8
-  __declspec(property(get = __get__sceneContext, put = __set__sceneContext))::Zenject::SceneContext* _sceneContext;
+  __declspec(property(get = __cordl_internal_get__sceneContext, put = __cordl_internal_set__sceneContext))::UnityW<::Zenject::SceneContext> _sceneContext;
 
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
@@ -57,17 +57,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::Zenject::SceneContextRegistry*& __get__registry();
+  constexpr ::Zenject::SceneContextRegistry*& __cordl_internal_get__registry();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SceneContextRegistry*> const& __get__registry() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::SceneContextRegistry*> const& __cordl_internal_get__registry() const;
 
-  constexpr void __set__registry(::Zenject::SceneContextRegistry* value);
+  constexpr void __cordl_internal_set__registry(::Zenject::SceneContextRegistry* value);
 
-  constexpr ::Zenject::SceneContext*& __get__sceneContext();
+  constexpr ::UnityW<::Zenject::SceneContext>& __cordl_internal_get__sceneContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SceneContext*> const& __get__sceneContext() const;
+  constexpr ::UnityW<::Zenject::SceneContext> const& __cordl_internal_get__sceneContext() const;
 
-  constexpr void __set__sceneContext(::Zenject::SceneContext* value);
+  constexpr void __cordl_internal_set__sceneContext(::UnityW<::Zenject::SceneContext> value);
 
   static inline ::Zenject::SceneContextRegistryAdderAndRemover* New_ctor(::Zenject::SceneContext* sceneContext, ::Zenject::SceneContextRegistry* registry);
 
@@ -104,7 +104,7 @@ public:
   ::Zenject::SceneContextRegistry* ____registry;
 
   /// @brief Field _sceneContext, offset: 0x18, size: 0x8, def value: None
-  ::Zenject::SceneContext* ____sceneContext;
+  ::UnityW<::Zenject::SceneContext> ____sceneContext;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

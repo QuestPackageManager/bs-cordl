@@ -22,9 +22,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x22462a4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConditionalActiveByLayout*>::get(),
-                                                                               "Start", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "Start", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -36,11 +36,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x2246344;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConditionalActiveByLayout*>::get(), "HandlePlayersLayoutWasCalculated", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerPlayerLayout>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConditionalActiveByLayout*>::get(),
+                                                 "HandlePlayersLayoutWasCalculated", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerPlayerLayout>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -52,66 +53,68 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x224639c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConditionalActiveByLayout*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition& GlobalNamespace::MultiplayerConditionalActiveByLayout::__get__condition() {
+constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition& GlobalNamespace::MultiplayerConditionalActiveByLayout::__cordl_internal_get__condition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____condition;
 }
-constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition const& GlobalNamespace::MultiplayerConditionalActiveByLayout::__get__condition() const {
+constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition const& GlobalNamespace::MultiplayerConditionalActiveByLayout::__cordl_internal_get__condition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____condition;
 }
-constexpr void GlobalNamespace::MultiplayerConditionalActiveByLayout::__set__condition(::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition value) {
+constexpr void GlobalNamespace::MultiplayerConditionalActiveByLayout::__cordl_internal_set__condition(::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____condition = value;
 }
-constexpr ::GlobalNamespace::MultiplayerPlayerLayout& GlobalNamespace::MultiplayerConditionalActiveByLayout::__get__layout() {
+constexpr ::GlobalNamespace::MultiplayerPlayerLayout& GlobalNamespace::MultiplayerConditionalActiveByLayout::__cordl_internal_get__layout() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layout;
 }
-constexpr ::GlobalNamespace::MultiplayerPlayerLayout const& GlobalNamespace::MultiplayerConditionalActiveByLayout::__get__layout() const {
+constexpr ::GlobalNamespace::MultiplayerPlayerLayout const& GlobalNamespace::MultiplayerConditionalActiveByLayout::__cordl_internal_get__layout() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layout;
 }
-constexpr void GlobalNamespace::MultiplayerConditionalActiveByLayout::__set__layout(::GlobalNamespace::MultiplayerPlayerLayout value) {
+constexpr void GlobalNamespace::MultiplayerConditionalActiveByLayout::__cordl_internal_set__layout(::GlobalNamespace::MultiplayerPlayerLayout value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____layout = value;
 }
-constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& GlobalNamespace::MultiplayerConditionalActiveByLayout::__get__layoutProvider() {
+constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& GlobalNamespace::MultiplayerConditionalActiveByLayout::__cordl_internal_get__layoutProvider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& GlobalNamespace::MultiplayerConditionalActiveByLayout::__get__layoutProvider() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const&
+GlobalNamespace::MultiplayerConditionalActiveByLayout::__cordl_internal_get__layoutProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
-constexpr void GlobalNamespace::MultiplayerConditionalActiveByLayout::__set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value) {
+constexpr void GlobalNamespace::MultiplayerConditionalActiveByLayout::__cordl_internal_set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____layoutProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::MultiplayerConditionalActiveByLayout::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConditionalActiveByLayout*>::get(),
-                                                                             "Start", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "Start", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MultiplayerConditionalActiveByLayout::HandlePlayersLayoutWasCalculated(::GlobalNamespace::MultiplayerPlayerLayout layout, int32_t playersCount) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConditionalActiveByLayout*>::get(), "HandlePlayersLayoutWasCalculated", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerPlayerLayout>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConditionalActiveByLayout*>::get(),
+                                               "HandlePlayersLayoutWasCalculated", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerPlayerLayout>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, layout, playersCount);
 }
 inline ::GlobalNamespace::MultiplayerConditionalActiveByLayout* GlobalNamespace::MultiplayerConditionalActiveByLayout::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MultiplayerConditionalActiveByLayout*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerConditionalActiveByLayout*>());
 }
 inline void GlobalNamespace::MultiplayerConditionalActiveByLayout::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConditionalActiveByLayout*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

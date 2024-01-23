@@ -14,25 +14,25 @@ template <typename TCreatedType, typename TTraits>
 constexpr ::UnityEngine::UIElements::IUxmlFactory* UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>::i___UnityEngine__UIElements__IUxmlFactory() noexcept {
   return static_cast<::UnityEngine::UIElements::IUxmlFactory*>(static_cast<void*>(this));
 }
-template <typename TCreatedType, typename TTraits> constexpr TTraits& UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>::__get_m_Traits() {
+template <typename TCreatedType, typename TTraits> constexpr TTraits& UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>::__cordl_internal_get_m_Traits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Traits;
 }
-template <typename TCreatedType, typename TTraits> constexpr TTraits const& UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>::__get_m_Traits() const {
+template <typename TCreatedType, typename TTraits> constexpr TTraits const& UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>::__cordl_internal_get_m_Traits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Traits;
 }
-template <typename TCreatedType, typename TTraits> constexpr void UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>::__set_m_Traits(TTraits value) {
+template <typename TCreatedType, typename TTraits> constexpr void UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>::__cordl_internal_set_m_Traits(TTraits value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Traits)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TCreatedType, typename TTraits> inline ::UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>* UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>*>());
 }
 template <typename TCreatedType, typename TTraits> inline void UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TCreatedType, typename TTraits> inline ::StringW UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>::get_uxmlName() {

@@ -80,20 +80,20 @@ MARK_VAL_T(::System::Net::Http::__HttpContent___ReadAsStringAsync_d__20);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3566))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14646))
 // CS Name: ::HttpContent::FixedMemoryStream*
 class CORDL_TYPE __HttpContent__FixedMemoryStream : public ::System::IO::MemoryStream {
 public:
   // Declarations
   /// @brief Field maxSize, offset 0x50, size 0x8
-  __declspec(property(get = __get_maxSize, put = __set_maxSize)) int64_t maxSize;
+  __declspec(property(get = __cordl_internal_get_maxSize, put = __cordl_internal_set_maxSize)) int64_t maxSize;
 
-  constexpr int64_t& __get_maxSize();
+  constexpr int64_t& __cordl_internal_get_maxSize();
 
-  constexpr int64_t const& __get_maxSize() const;
+  constexpr int64_t const& __cordl_internal_get_maxSize() const;
 
-  constexpr void __set_maxSize(int64_t value);
+  constexpr void __cordl_internal_set_maxSize(int64_t value);
 
   static inline ::System::Net::Http::__HttpContent__FixedMemoryStream* New_ctor(int64_t maxSize);
 
@@ -138,7 +138,7 @@ static_assert(offsetof(::System::Net::Http::__HttpContent__FixedMemoryStream, __
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14647))
 // CS Name: ::HttpContent::<LoadIntoBufferAsync>d__17
 struct CORDL_TYPE __HttpContent___LoadIntoBufferAsync_d__17 {
@@ -205,8 +205,8 @@ static_assert(offsetof(::System::Net::Http::__HttpContent___LoadIntoBufferAsync_
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14648)) CS Name: ::HttpContent::<ReadAsStringAsync>d__20
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14648)) CS Name: ::HttpContent::<ReadAsStringAsync>d__20
 struct CORDL_TYPE __HttpContent___ReadAsStringAsync_d__20 {
 public:
   // Declarations
@@ -265,7 +265,7 @@ static_assert(offsetof(::System::Net::Http::__HttpContent___ReadAsStringAsync_d_
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14649))
 // CS Name: ::System.Net.Http::HttpContent*
 class CORDL_TYPE HttpContent : public ::System::Object {
@@ -278,13 +278,13 @@ public:
   using FixedMemoryStream = ::System::Net::Http::__HttpContent__FixedMemoryStream;
 
   /// @brief Field buffer, offset 0x10, size 0x8
-  __declspec(property(get = __get_buffer, put = __set_buffer))::System::Net::Http::__HttpContent__FixedMemoryStream* buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::System::Net::Http::__HttpContent__FixedMemoryStream* buffer;
 
   /// @brief Field disposed, offset 0x18, size 0x1
-  __declspec(property(get = __get_disposed, put = __set_disposed)) bool disposed;
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field headers, offset 0x20, size 0x8
-  __declspec(property(get = __get_headers, put = __set_headers))::System::Net::Http::Headers::HttpContentHeaders* headers;
+  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers))::System::Net::Http::Headers::HttpContentHeaders* headers;
 
   __declspec(property(get = get_Headers))::System::Net::Http::Headers::HttpContentHeaders* Headers;
 
@@ -296,23 +296,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Net::Http::__HttpContent__FixedMemoryStream*& __get_buffer();
+  constexpr ::System::Net::Http::__HttpContent__FixedMemoryStream*& __cordl_internal_get_buffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::__HttpContent__FixedMemoryStream*> const& __get_buffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::__HttpContent__FixedMemoryStream*> const& __cordl_internal_get_buffer() const;
 
-  constexpr void __set_buffer(::System::Net::Http::__HttpContent__FixedMemoryStream* value);
+  constexpr void __cordl_internal_set_buffer(::System::Net::Http::__HttpContent__FixedMemoryStream* value);
 
-  constexpr bool& __get_disposed();
+  constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr bool const& __get_disposed() const;
+  constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __set_disposed(bool value);
+  constexpr void __cordl_internal_set_disposed(bool value);
 
-  constexpr ::System::Net::Http::Headers::HttpContentHeaders*& __get_headers();
+  constexpr ::System::Net::Http::Headers::HttpContentHeaders*& __cordl_internal_get_headers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpContentHeaders*> const& __get_headers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpContentHeaders*> const& __cordl_internal_get_headers() const;
 
-  constexpr void __set_headers(::System::Net::Http::Headers::HttpContentHeaders* value);
+  constexpr void __cordl_internal_set_headers(::System::Net::Http::Headers::HttpContentHeaders* value);
 
   /// @brief Method get_Headers, addr 0x282e3b4, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpContentHeaders* get_Headers();

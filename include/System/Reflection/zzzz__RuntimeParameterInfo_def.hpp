@@ -41,22 +41,22 @@ MARK_REF_PTR_T(::System::Reflection::RuntimeParameterInfo);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3483))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3483))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3526))
 // CS Name: ::System.Reflection::RuntimeParameterInfo*
 class CORDL_TYPE RuntimeParameterInfo : public ::System::Reflection::ParameterInfo {
 public:
   // Declarations
   /// @brief Field marshalAs, offset 0x40, size 0x8
-  __declspec(property(get = __get_marshalAs, put = __set_marshalAs))::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs;
+  __declspec(property(get = __cordl_internal_get_marshalAs, put = __cordl_internal_set_marshalAs))::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs;
 
   __declspec(property(get = get_DefaultValue))::System::Object* DefaultValue;
 
-  constexpr ::System::Runtime::InteropServices::MarshalAsAttribute*& __get_marshalAs();
+  constexpr ::System::Runtime::InteropServices::MarshalAsAttribute*& __cordl_internal_get_marshalAs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::InteropServices::MarshalAsAttribute*> const& __get_marshalAs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::InteropServices::MarshalAsAttribute*> const& __cordl_internal_get_marshalAs() const;
 
-  constexpr void __set_marshalAs(::System::Runtime::InteropServices::MarshalAsAttribute* value);
+  constexpr void __cordl_internal_set_marshalAs(::System::Runtime::InteropServices::MarshalAsAttribute* value);
 
   static inline ::System::Reflection::RuntimeParameterInfo* New_ctor(::StringW name, ::System::Type* type, int32_t position, int32_t attrs, ::System::Object* defaultValue,
                                                                      ::System::Reflection::MemberInfo* member, ::System::Runtime::InteropServices::MarshalAsAttribute* marshalAs);

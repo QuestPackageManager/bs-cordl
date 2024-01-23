@@ -11,23 +11,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23b791c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(),
-                                                                               "get_ringPositionStep", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_ringPositionStep", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::TrackLaneRingsManager.get_Rings
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::TrackLaneRing*, ::Array<::GlobalNamespace::TrackLaneRing*>*> (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> (
     ::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::get_Rings)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23b7924;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), "get_Rings",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -38,9 +38,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2b0;
   constexpr static std::size_t addrs = 0x23b792c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), "Start",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -51,9 +51,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x23b7bdc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), "FixedUpdate",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -64,9 +64,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x23b7c78;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), "LateUpdate",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -78,9 +78,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x284;
   constexpr static std::size_t addrs = 0x23b7d14;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(),
-                                                                               "OnDrawGizmosSelected", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "OnDrawGizmosSelected", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -91,120 +91,121 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x23b7f98;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::TrackLaneRing*& GlobalNamespace::TrackLaneRingsManager::__get__trackLaneRingPrefab() {
+constexpr ::UnityW<::GlobalNamespace::TrackLaneRing>& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__trackLaneRingPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackLaneRingPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TrackLaneRing*> const& GlobalNamespace::TrackLaneRingsManager::__get__trackLaneRingPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::TrackLaneRing> const& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__trackLaneRingPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____trackLaneRingPrefab;
 }
-constexpr void GlobalNamespace::TrackLaneRingsManager::__set__trackLaneRingPrefab(::GlobalNamespace::TrackLaneRing* value) {
+constexpr void GlobalNamespace::TrackLaneRingsManager::__cordl_internal_set__trackLaneRingPrefab(::UnityW<::GlobalNamespace::TrackLaneRing> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____trackLaneRingPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::TrackLaneRingsManager::__get__ringCount() {
+constexpr int32_t& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__ringCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ringCount;
 }
-constexpr int32_t const& GlobalNamespace::TrackLaneRingsManager::__get__ringCount() const {
+constexpr int32_t const& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__ringCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ringCount;
 }
-constexpr void GlobalNamespace::TrackLaneRingsManager::__set__ringCount(int32_t value) {
+constexpr void GlobalNamespace::TrackLaneRingsManager::__cordl_internal_set__ringCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ringCount = value;
 }
-constexpr float_t& GlobalNamespace::TrackLaneRingsManager::__get__ringPositionStep() {
+constexpr float_t& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__ringPositionStep() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ringPositionStep;
 }
-constexpr float_t const& GlobalNamespace::TrackLaneRingsManager::__get__ringPositionStep() const {
+constexpr float_t const& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__ringPositionStep() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ringPositionStep;
 }
-constexpr void GlobalNamespace::TrackLaneRingsManager::__set__ringPositionStep(float_t value) {
+constexpr void GlobalNamespace::TrackLaneRingsManager::__cordl_internal_set__ringPositionStep(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ringPositionStep = value;
 }
-constexpr bool& GlobalNamespace::TrackLaneRingsManager::__get__spawnAsChildren() {
+constexpr bool& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__spawnAsChildren() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnAsChildren;
 }
-constexpr bool const& GlobalNamespace::TrackLaneRingsManager::__get__spawnAsChildren() const {
+constexpr bool const& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__spawnAsChildren() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnAsChildren;
 }
-constexpr void GlobalNamespace::TrackLaneRingsManager::__set__spawnAsChildren(bool value) {
+constexpr void GlobalNamespace::TrackLaneRingsManager::__cordl_internal_set__spawnAsChildren(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____spawnAsChildren = value;
 }
-constexpr ::Zenject::DiContainer*& GlobalNamespace::TrackLaneRingsManager::__get__container() {
+constexpr ::Zenject::DiContainer*& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__container() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
-constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& GlobalNamespace::TrackLaneRingsManager::__get__container() const {
+constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__container() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____container;
 }
-constexpr void GlobalNamespace::TrackLaneRingsManager::__set__container(::Zenject::DiContainer* value) {
+constexpr void GlobalNamespace::TrackLaneRingsManager::__cordl_internal_set__container(::Zenject::DiContainer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::GlobalNamespace::TrackLaneRing*, ::Array<::GlobalNamespace::TrackLaneRing*>*>& GlobalNamespace::TrackLaneRingsManager::__get__rings() {
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*>& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__rings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rings;
 }
-constexpr ::ArrayW<::GlobalNamespace::TrackLaneRing*, ::Array<::GlobalNamespace::TrackLaneRing*>*> const& GlobalNamespace::TrackLaneRingsManager::__get__rings() const {
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> const&
+GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__rings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rings;
 }
-constexpr void GlobalNamespace::TrackLaneRingsManager::__set__rings(::ArrayW<::GlobalNamespace::TrackLaneRing*, ::Array<::GlobalNamespace::TrackLaneRing*>*> value) {
+constexpr void GlobalNamespace::TrackLaneRingsManager::__cordl_internal_set__rings(::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline float_t GlobalNamespace::TrackLaneRingsManager::get_ringPositionStep() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(),
-                                                                             "get_ringPositionStep", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_ringPositionStep", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline ::ArrayW<::GlobalNamespace::TrackLaneRing*, ::Array<::GlobalNamespace::TrackLaneRing*>*> GlobalNamespace::TrackLaneRingsManager::get_Rings() {
+inline ::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> GlobalNamespace::TrackLaneRingsManager::get_Rings() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), "get_Rings",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::TrackLaneRing*, ::Array<::GlobalNamespace::TrackLaneRing*>*>, false>(this, ___internal_method);
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*>, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::TrackLaneRingsManager::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), "Start",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::TrackLaneRingsManager::FixedUpdate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), "FixedUpdate",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::TrackLaneRingsManager::LateUpdate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), "LateUpdate",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::TrackLaneRingsManager::OnDrawGizmosSelected() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(),
-                                                                             "OnDrawGizmosSelected", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "OnDrawGizmosSelected", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::TrackLaneRingsManager* GlobalNamespace::TrackLaneRingsManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::TrackLaneRingsManager*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::TrackLaneRingsManager*>());
 }
 inline void GlobalNamespace::TrackLaneRingsManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -20,38 +20,38 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14382))
 // CS Name: ::UndoRedoBuffer`1<T>*
 class CORDL_TYPE UndoRedoBuffer_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _data, offset 0x10, size 0x8
-  __declspec(property(get = __get__data, put = __set__data))::System::Collections::Generic::List_1<T>* _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::System::Collections::Generic::List_1<T>* _data;
 
   /// @brief Field _capacity, offset 0x18, size 0x4
-  __declspec(property(get = __get__capacity, put = __set__capacity)) int32_t _capacity;
+  __declspec(property(get = __cordl_internal_get__capacity, put = __cordl_internal_set__capacity)) int32_t _capacity;
 
   /// @brief Field _cursor, offset 0x1c, size 0x4
-  __declspec(property(get = __get__cursor, put = __set__cursor)) int32_t _cursor;
+  __declspec(property(get = __cordl_internal_get__cursor, put = __cordl_internal_set__cursor)) int32_t _cursor;
 
-  constexpr ::System::Collections::Generic::List_1<T>*& __get__data();
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get__data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __get__data() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get__data() const;
 
-  constexpr void __set__data(::System::Collections::Generic::List_1<T>* value);
+  constexpr void __cordl_internal_set__data(::System::Collections::Generic::List_1<T>* value);
 
-  constexpr int32_t& __get__capacity();
+  constexpr int32_t& __cordl_internal_get__capacity();
 
-  constexpr int32_t const& __get__capacity() const;
+  constexpr int32_t const& __cordl_internal_get__capacity() const;
 
-  constexpr void __set__capacity(int32_t value);
+  constexpr void __cordl_internal_set__capacity(int32_t value);
 
-  constexpr int32_t& __get__cursor();
+  constexpr int32_t& __cordl_internal_get__cursor();
 
-  constexpr int32_t const& __get__cursor() const;
+  constexpr int32_t const& __cordl_internal_get__cursor() const;
 
-  constexpr void __set__cursor(int32_t value);
+  constexpr void __cordl_internal_set__cursor(int32_t value);
 
   static inline ::GlobalNamespace::UndoRedoBuffer_1<T>* New_ctor(int32_t capacity);
 

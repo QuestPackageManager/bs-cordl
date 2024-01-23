@@ -32,47 +32,47 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::SymmetricTransform);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2922))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2922))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2284))
 // CS Name: ::Mono.Security.Cryptography::SymmetricTransform*
 class CORDL_TYPE SymmetricTransform : public ::System::Object {
 public:
   // Declarations
   /// @brief Field algo, offset 0x10, size 0x8
-  __declspec(property(get = __get_algo, put = __set_algo))::System::Security::Cryptography::SymmetricAlgorithm* algo;
+  __declspec(property(get = __cordl_internal_get_algo, put = __cordl_internal_set_algo))::System::Security::Cryptography::SymmetricAlgorithm* algo;
 
   /// @brief Field encrypt, offset 0x18, size 0x1
-  __declspec(property(get = __get_encrypt, put = __set_encrypt)) bool encrypt;
+  __declspec(property(get = __cordl_internal_get_encrypt, put = __cordl_internal_set_encrypt)) bool encrypt;
 
   /// @brief Field BlockSizeByte, offset 0x1c, size 0x4
-  __declspec(property(get = __get_BlockSizeByte, put = __set_BlockSizeByte)) int32_t BlockSizeByte;
+  __declspec(property(get = __cordl_internal_get_BlockSizeByte, put = __cordl_internal_set_BlockSizeByte)) int32_t BlockSizeByte;
 
   /// @brief Field temp, offset 0x20, size 0x8
-  __declspec(property(get = __get_temp, put = __set_temp))::ArrayW<uint8_t, ::Array<uint8_t>*> temp;
+  __declspec(property(get = __cordl_internal_get_temp, put = __cordl_internal_set_temp))::ArrayW<uint8_t, ::Array<uint8_t>*> temp;
 
   /// @brief Field temp2, offset 0x28, size 0x8
-  __declspec(property(get = __get_temp2, put = __set_temp2))::ArrayW<uint8_t, ::Array<uint8_t>*> temp2;
+  __declspec(property(get = __cordl_internal_get_temp2, put = __cordl_internal_set_temp2))::ArrayW<uint8_t, ::Array<uint8_t>*> temp2;
 
   /// @brief Field workBuff, offset 0x30, size 0x8
-  __declspec(property(get = __get_workBuff, put = __set_workBuff))::ArrayW<uint8_t, ::Array<uint8_t>*> workBuff;
+  __declspec(property(get = __cordl_internal_get_workBuff, put = __cordl_internal_set_workBuff))::ArrayW<uint8_t, ::Array<uint8_t>*> workBuff;
 
   /// @brief Field workout, offset 0x38, size 0x8
-  __declspec(property(get = __get_workout, put = __set_workout))::ArrayW<uint8_t, ::Array<uint8_t>*> workout;
+  __declspec(property(get = __cordl_internal_get_workout, put = __cordl_internal_set_workout))::ArrayW<uint8_t, ::Array<uint8_t>*> workout;
 
   /// @brief Field padmode, offset 0x40, size 0x4
-  __declspec(property(get = __get_padmode, put = __set_padmode))::System::Security::Cryptography::PaddingMode padmode;
+  __declspec(property(get = __cordl_internal_get_padmode, put = __cordl_internal_set_padmode))::System::Security::Cryptography::PaddingMode padmode;
 
   /// @brief Field FeedBackByte, offset 0x44, size 0x4
-  __declspec(property(get = __get_FeedBackByte, put = __set_FeedBackByte)) int32_t FeedBackByte;
+  __declspec(property(get = __cordl_internal_get_FeedBackByte, put = __cordl_internal_set_FeedBackByte)) int32_t FeedBackByte;
 
   /// @brief Field m_disposed, offset 0x48, size 0x1
-  __declspec(property(get = __get_m_disposed, put = __set_m_disposed)) bool m_disposed;
+  __declspec(property(get = __cordl_internal_get_m_disposed, put = __cordl_internal_set_m_disposed)) bool m_disposed;
 
   /// @brief Field lastBlock, offset 0x49, size 0x1
-  __declspec(property(get = __get_lastBlock, put = __set_lastBlock)) bool lastBlock;
+  __declspec(property(get = __cordl_internal_get_lastBlock, put = __cordl_internal_set_lastBlock)) bool lastBlock;
 
   /// @brief Field _rng, offset 0x50, size 0x8
-  __declspec(property(get = __get__rng, put = __set__rng))::System::Security::Cryptography::RandomNumberGenerator* _rng;
+  __declspec(property(get = __cordl_internal_get__rng, put = __cordl_internal_set__rng))::System::Security::Cryptography::RandomNumberGenerator* _rng;
 
   __declspec(property(get = get_CanTransformMultipleBlocks)) bool CanTransformMultipleBlocks;
 
@@ -94,77 +94,77 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Security::Cryptography::SymmetricAlgorithm*& __get_algo();
+  constexpr ::System::Security::Cryptography::SymmetricAlgorithm*& __cordl_internal_get_algo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::SymmetricAlgorithm*> const& __get_algo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::SymmetricAlgorithm*> const& __cordl_internal_get_algo() const;
 
-  constexpr void __set_algo(::System::Security::Cryptography::SymmetricAlgorithm* value);
+  constexpr void __cordl_internal_set_algo(::System::Security::Cryptography::SymmetricAlgorithm* value);
 
-  constexpr bool& __get_encrypt();
+  constexpr bool& __cordl_internal_get_encrypt();
 
-  constexpr bool const& __get_encrypt() const;
+  constexpr bool const& __cordl_internal_get_encrypt() const;
 
-  constexpr void __set_encrypt(bool value);
+  constexpr void __cordl_internal_set_encrypt(bool value);
 
-  constexpr int32_t& __get_BlockSizeByte();
+  constexpr int32_t& __cordl_internal_get_BlockSizeByte();
 
-  constexpr int32_t const& __get_BlockSizeByte() const;
+  constexpr int32_t const& __cordl_internal_get_BlockSizeByte() const;
 
-  constexpr void __set_BlockSizeByte(int32_t value);
+  constexpr void __cordl_internal_set_BlockSizeByte(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_temp();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_temp();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_temp() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_temp() const;
 
-  constexpr void __set_temp(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_temp(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_temp2();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_temp2();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_temp2() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_temp2() const;
 
-  constexpr void __set_temp2(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_temp2(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_workBuff();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_workBuff();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_workBuff() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_workBuff() const;
 
-  constexpr void __set_workBuff(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_workBuff(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_workout();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_workout();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_workout() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_workout() const;
 
-  constexpr void __set_workout(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_workout(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Security::Cryptography::PaddingMode& __get_padmode();
+  constexpr ::System::Security::Cryptography::PaddingMode& __cordl_internal_get_padmode();
 
-  constexpr ::System::Security::Cryptography::PaddingMode const& __get_padmode() const;
+  constexpr ::System::Security::Cryptography::PaddingMode const& __cordl_internal_get_padmode() const;
 
-  constexpr void __set_padmode(::System::Security::Cryptography::PaddingMode value);
+  constexpr void __cordl_internal_set_padmode(::System::Security::Cryptography::PaddingMode value);
 
-  constexpr int32_t& __get_FeedBackByte();
+  constexpr int32_t& __cordl_internal_get_FeedBackByte();
 
-  constexpr int32_t const& __get_FeedBackByte() const;
+  constexpr int32_t const& __cordl_internal_get_FeedBackByte() const;
 
-  constexpr void __set_FeedBackByte(int32_t value);
+  constexpr void __cordl_internal_set_FeedBackByte(int32_t value);
 
-  constexpr bool& __get_m_disposed();
+  constexpr bool& __cordl_internal_get_m_disposed();
 
-  constexpr bool const& __get_m_disposed() const;
+  constexpr bool const& __cordl_internal_get_m_disposed() const;
 
-  constexpr void __set_m_disposed(bool value);
+  constexpr void __cordl_internal_set_m_disposed(bool value);
 
-  constexpr bool& __get_lastBlock();
+  constexpr bool& __cordl_internal_get_lastBlock();
 
-  constexpr bool const& __get_lastBlock() const;
+  constexpr bool const& __cordl_internal_get_lastBlock() const;
 
-  constexpr void __set_lastBlock(bool value);
+  constexpr void __cordl_internal_set_lastBlock(bool value);
 
-  constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __get__rng();
+  constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __cordl_internal_get__rng();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RandomNumberGenerator*> const& __get__rng() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RandomNumberGenerator*> const& __cordl_internal_get__rng() const;
 
-  constexpr void __set__rng(::System::Security::Cryptography::RandomNumberGenerator* value);
+  constexpr void __cordl_internal_set__rng(::System::Security::Cryptography::RandomNumberGenerator* value);
 
   static inline ::Mono::Security::Cryptography::SymmetricTransform* New_ctor(::System::Security::Cryptography::SymmetricAlgorithm* symmAlgo, bool encryption,
                                                                              ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);

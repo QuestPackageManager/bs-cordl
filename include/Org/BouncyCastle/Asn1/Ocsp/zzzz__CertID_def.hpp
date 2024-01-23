@@ -35,23 +35,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::CertID);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(207))
 // CS Name: ::Org.BouncyCastle.Asn1.Ocsp::CertID*
 class CORDL_TYPE CertID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field hashAlgorithm, offset 0x10, size 0x8
-  __declspec(property(get = __get_hashAlgorithm, put = __set_hashAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm;
+  __declspec(property(get = __cordl_internal_get_hashAlgorithm, put = __cordl_internal_set_hashAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm;
 
   /// @brief Field issuerNameHash, offset 0x18, size 0x8
-  __declspec(property(get = __get_issuerNameHash, put = __set_issuerNameHash))::Org::BouncyCastle::Asn1::Asn1OctetString* issuerNameHash;
+  __declspec(property(get = __cordl_internal_get_issuerNameHash, put = __cordl_internal_set_issuerNameHash))::Org::BouncyCastle::Asn1::Asn1OctetString* issuerNameHash;
 
   /// @brief Field issuerKeyHash, offset 0x20, size 0x8
-  __declspec(property(get = __get_issuerKeyHash, put = __set_issuerKeyHash))::Org::BouncyCastle::Asn1::Asn1OctetString* issuerKeyHash;
+  __declspec(property(get = __cordl_internal_get_issuerKeyHash, put = __cordl_internal_set_issuerKeyHash))::Org::BouncyCastle::Asn1::Asn1OctetString* issuerKeyHash;
 
   /// @brief Field serialNumber, offset 0x28, size 0x8
-  __declspec(property(get = __get_serialNumber, put = __set_serialNumber))::Org::BouncyCastle::Asn1::DerInteger* serialNumber;
+  __declspec(property(get = __cordl_internal_get_serialNumber, put = __cordl_internal_set_serialNumber))::Org::BouncyCastle::Asn1::DerInteger* serialNumber;
 
   __declspec(property(get = get_HashAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* HashAlgorithm;
 
@@ -61,29 +61,29 @@ public:
 
   __declspec(property(get = get_SerialNumber))::Org::BouncyCastle::Asn1::DerInteger* SerialNumber;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_hashAlgorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_hashAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_hashAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_hashAlgorithm() const;
 
-  constexpr void __set_hashAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_hashAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_issuerNameHash();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_issuerNameHash();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_issuerNameHash() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_issuerNameHash() const;
 
-  constexpr void __set_issuerNameHash(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_issuerNameHash(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_issuerKeyHash();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_issuerKeyHash();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_issuerKeyHash() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_issuerKeyHash() const;
 
-  constexpr void __set_issuerKeyHash(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_issuerKeyHash(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_serialNumber();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_serialNumber();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_serialNumber() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_serialNumber() const;
 
-  constexpr void __set_serialNumber(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_serialNumber(::Org::BouncyCastle::Asn1::DerInteger* value);
 
   /// @brief Method GetInstance, addr 0xf7fa98, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::CertID* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);

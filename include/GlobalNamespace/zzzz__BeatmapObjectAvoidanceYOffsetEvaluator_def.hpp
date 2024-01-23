@@ -34,7 +34,7 @@ MARK_VAL_T(::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferDa
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3959))
 // CS Name: ::BeatmapObjectAvoidanceYOffsetEvaluator::BufferData
 struct CORDL_TYPE __BeatmapObjectAvoidanceYOffsetEvaluator__BufferData {
@@ -73,7 +73,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluat
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3960))
 // CS Name: ::BeatmapObjectAvoidanceYOffsetEvaluator*
 class CORDL_TYPE BeatmapObjectAvoidanceYOffsetEvaluator : public ::System::Object {
@@ -82,53 +82,55 @@ public:
   using BufferData = ::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData;
 
   /// @brief Field _currentYJumpOffsetBufferEndIndex, offset 0x10, size 0x4
-  __declspec(property(get = __get__currentYJumpOffsetBufferEndIndex, put = __set__currentYJumpOffsetBufferEndIndex)) int32_t _currentYJumpOffsetBufferEndIndex;
+  __declspec(property(get = __cordl_internal_get__currentYJumpOffsetBufferEndIndex, put = __cordl_internal_set__currentYJumpOffsetBufferEndIndex)) int32_t _currentYJumpOffsetBufferEndIndex;
 
   /// @brief Field _jumpDurationToDesiredZPosition, offset 0x14, size 0x4
-  __declspec(property(get = __get__jumpDurationToDesiredZPosition, put = __set__jumpDurationToDesiredZPosition)) float_t _jumpDurationToDesiredZPosition;
+  __declspec(property(get = __cordl_internal_get__jumpDurationToDesiredZPosition, put = __cordl_internal_set__jumpDurationToDesiredZPosition)) float_t _jumpDurationToDesiredZPosition;
 
   /// @brief Field _yJumpOffsetBuffer, offset 0x18, size 0x8
-  __declspec(property(get = __get__yJumpOffsetBuffer, put = __set__yJumpOffsetBuffer))::ArrayW<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData,
-                                                                                               ::Array<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>*> _yJumpOffsetBuffer;
+  __declspec(property(get = __cordl_internal_get__yJumpOffsetBuffer,
+                      put = __cordl_internal_set__yJumpOffsetBuffer))::ArrayW<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData,
+                                                                              ::Array<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>*> _yJumpOffsetBuffer;
 
   /// @brief Field _audioTimeSource, offset 0x20, size 0x8
-  __declspec(property(get = __get__audioTimeSource, put = __set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
   /// @brief Field _beatmapObjectSpawnController, offset 0x28, size 0x8
-  __declspec(property(get = __get__beatmapObjectSpawnController, put = __set__beatmapObjectSpawnController))::GlobalNamespace::IBeatmapObjectSpawnController* _beatmapObjectSpawnController;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectSpawnController,
+                      put = __cordl_internal_set__beatmapObjectSpawnController))::GlobalNamespace::IBeatmapObjectSpawnController* _beatmapObjectSpawnController;
 
-  constexpr int32_t& __get__currentYJumpOffsetBufferEndIndex();
+  constexpr int32_t& __cordl_internal_get__currentYJumpOffsetBufferEndIndex();
 
-  constexpr int32_t const& __get__currentYJumpOffsetBufferEndIndex() const;
+  constexpr int32_t const& __cordl_internal_get__currentYJumpOffsetBufferEndIndex() const;
 
-  constexpr void __set__currentYJumpOffsetBufferEndIndex(int32_t value);
+  constexpr void __cordl_internal_set__currentYJumpOffsetBufferEndIndex(int32_t value);
 
-  constexpr float_t& __get__jumpDurationToDesiredZPosition();
+  constexpr float_t& __cordl_internal_get__jumpDurationToDesiredZPosition();
 
-  constexpr float_t const& __get__jumpDurationToDesiredZPosition() const;
+  constexpr float_t const& __cordl_internal_get__jumpDurationToDesiredZPosition() const;
 
-  constexpr void __set__jumpDurationToDesiredZPosition(float_t value);
+  constexpr void __cordl_internal_set__jumpDurationToDesiredZPosition(float_t value);
 
   constexpr ::ArrayW<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData, ::Array<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>*>&
-  __get__yJumpOffsetBuffer();
+  __cordl_internal_get__yJumpOffsetBuffer();
 
   constexpr ::ArrayW<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData, ::Array<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>*> const&
-  __get__yJumpOffsetBuffer() const;
+  __cordl_internal_get__yJumpOffsetBuffer() const;
 
-  constexpr void
-  __set__yJumpOffsetBuffer(::ArrayW<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData, ::Array<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>*> value);
+  constexpr void __cordl_internal_set__yJumpOffsetBuffer(
+      ::ArrayW<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData, ::Array<::GlobalNamespace::__BeatmapObjectAvoidanceYOffsetEvaluator__BufferData>*> value);
 
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __get__audioTimeSource();
+  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __get__audioTimeSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  constexpr ::GlobalNamespace::IBeatmapObjectSpawnController*& __get__beatmapObjectSpawnController();
+  constexpr ::GlobalNamespace::IBeatmapObjectSpawnController*& __cordl_internal_get__beatmapObjectSpawnController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapObjectSpawnController*> const& __get__beatmapObjectSpawnController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapObjectSpawnController*> const& __cordl_internal_get__beatmapObjectSpawnController() const;
 
-  constexpr void __set__beatmapObjectSpawnController(::GlobalNamespace::IBeatmapObjectSpawnController* value);
+  constexpr void __cordl_internal_set__beatmapObjectSpawnController(::GlobalNamespace::IBeatmapObjectSpawnController* value);
 
   static inline ::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator* New_ctor(::GlobalNamespace::IAudioTimeSource* audioTimeSource,
                                                                                     ::GlobalNamespace::IBeatmapObjectSpawnController* beatmapObjectSpawnController, float_t moveToPlayerHeadTParam,

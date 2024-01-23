@@ -91,7 +91,7 @@ MARK_REF_PTR_T(::UnityEngine::Animator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10187))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10187))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14882))
 // CS Name: ::UnityEngine::Animator*
 class CORDL_TYPE Animator : public ::UnityEngine::Behaviour {
@@ -165,7 +165,7 @@ public:
 
   __declspec(property(get = get_targetRotation))::UnityEngine::Quaternion targetRotation;
 
-  __declspec(property(get = get_avatarRoot))::UnityEngine::Transform* avatarRoot;
+  __declspec(property(get = get_avatarRoot))::UnityW<::UnityEngine::Transform> avatarRoot;
 
   __declspec(property(get = get_cullingMode, put = set_cullingMode))::UnityEngine::AnimatorCullingMode cullingMode;
 
@@ -177,11 +177,11 @@ public:
 
   __declspec(property(get = get_recorderMode))::UnityEngine::AnimatorRecorderMode recorderMode;
 
-  __declspec(property(get = get_runtimeAnimatorController, put = set_runtimeAnimatorController))::UnityEngine::RuntimeAnimatorController* runtimeAnimatorController;
+  __declspec(property(get = get_runtimeAnimatorController, put = set_runtimeAnimatorController))::UnityW<::UnityEngine::RuntimeAnimatorController> runtimeAnimatorController;
 
   __declspec(property(get = get_hasBoundPlayables)) bool hasBoundPlayables;
 
-  __declspec(property(get = get_avatar, put = set_avatar))::UnityEngine::Avatar* avatar;
+  __declspec(property(get = get_avatar, put = set_avatar))::UnityW<::UnityEngine::Avatar> avatar;
 
   __declspec(property(get = get_playableGraph))::UnityEngine::Playables::PlayableGraph playableGraph;
 
@@ -466,7 +466,7 @@ public:
   inline void SetBoneLocalRotationInternal(int32_t humanBoneId, ::UnityEngine::Quaternion rotation);
 
   /// @brief Method GetBehaviour, addr 0x2c92e68, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::ScriptableObject* GetBehaviour(::System::Type* type);
+  inline ::UnityW<::UnityEngine::ScriptableObject> GetBehaviour(::System::Type* type);
 
   /// @brief Method GetBehaviour, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetBehaviour();
@@ -478,13 +478,14 @@ public:
   template <typename T> inline ::ArrayW<T, ::Array<T>*> GetBehaviours();
 
   /// @brief Method InternalGetBehaviours, addr 0x2c92eac, size 0x44, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::ScriptableObject*, ::Array<::UnityEngine::ScriptableObject*>*> InternalGetBehaviours(::System::Type* type);
+  inline ::ArrayW<::UnityW<::UnityEngine::ScriptableObject>, ::Array<::UnityW<::UnityEngine::ScriptableObject>>*> InternalGetBehaviours(::System::Type* type);
 
   /// @brief Method GetBehaviours, addr 0x2c92ef0, size 0xdc, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::StateMachineBehaviour*, ::Array<::UnityEngine::StateMachineBehaviour*>*> GetBehaviours(int32_t fullPathHash, int32_t layerIndex);
+  inline ::ArrayW<::UnityW<::UnityEngine::StateMachineBehaviour>, ::Array<::UnityW<::UnityEngine::StateMachineBehaviour>>*> GetBehaviours(int32_t fullPathHash, int32_t layerIndex);
 
   /// @brief Method InternalGetBehavioursByKey, addr 0x2c92fcc, size 0x5c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::ScriptableObject*, ::Array<::UnityEngine::ScriptableObject*>*> InternalGetBehavioursByKey(int32_t fullPathHash, int32_t layerIndex, ::System::Type* type);
+  inline ::ArrayW<::UnityW<::UnityEngine::ScriptableObject>, ::Array<::UnityW<::UnityEngine::ScriptableObject>>*> InternalGetBehavioursByKey(int32_t fullPathHash, int32_t layerIndex,
+                                                                                                                                             ::System::Type* type);
 
   /// @brief Method get_stabilizeFeet, addr 0x2c93028, size 0x3c, virtual false, abstract: false, final false
   inline bool get_stabilizeFeet();
@@ -707,13 +708,13 @@ public:
   inline bool IsBoneTransform(::UnityEngine::Transform* transform);
 
   /// @brief Method get_avatarRoot, addr 0x2c94a44, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_avatarRoot();
+  inline ::UnityW<::UnityEngine::Transform> get_avatarRoot();
 
   /// @brief Method GetBoneTransform, addr 0x2c94a80, size 0x108, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* GetBoneTransform(::UnityEngine::HumanBodyBones humanBoneId);
+  inline ::UnityW<::UnityEngine::Transform> GetBoneTransform(::UnityEngine::HumanBodyBones humanBoneId);
 
   /// @brief Method GetBoneTransformInternal, addr 0x2c94b88, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* GetBoneTransformInternal(int32_t humanBoneId);
+  inline ::UnityW<::UnityEngine::Transform> GetBoneTransformInternal(int32_t humanBoneId);
 
   /// @brief Method get_cullingMode, addr 0x2c94bcc, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::AnimatorCullingMode get_cullingMode();
@@ -761,7 +762,7 @@ public:
   inline ::UnityEngine::AnimatorRecorderMode get_recorderMode();
 
   /// @brief Method get_runtimeAnimatorController, addr 0x2c94f00, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::RuntimeAnimatorController* get_runtimeAnimatorController();
+  inline ::UnityW<::UnityEngine::RuntimeAnimatorController> get_runtimeAnimatorController();
 
   /// @brief Method set_runtimeAnimatorController, addr 0x2c94f3c, size 0x44, virtual false, abstract: false, final false
   inline void set_runtimeAnimatorController(::UnityEngine::RuntimeAnimatorController* value);
@@ -779,7 +780,7 @@ public:
   static inline int32_t StringToHash(::StringW name);
 
   /// @brief Method get_avatar, addr 0x2c9504c, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Avatar* get_avatar();
+  inline ::UnityW<::UnityEngine::Avatar> get_avatar();
 
   /// @brief Method set_avatar, addr 0x2c95088, size 0x44, virtual false, abstract: false, final false
   inline void set_avatar(::UnityEngine::Avatar* value);

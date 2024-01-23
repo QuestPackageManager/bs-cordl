@@ -30,20 +30,20 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomDifficultyBeatmapSet);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4378))
 // CS Name: ::CustomDifficultyBeatmapSet*
 class CORDL_TYPE CustomDifficultyBeatmapSet : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _beatmapCharacteristic, offset 0x10, size 0x8
-  __declspec(property(get = __get__beatmapCharacteristic, put = __set__beatmapCharacteristic))::GlobalNamespace::BeatmapCharacteristicSO* _beatmapCharacteristic;
+  __declspec(property(get = __cordl_internal_get__beatmapCharacteristic, put = __cordl_internal_set__beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _beatmapCharacteristic;
 
   /// @brief Field _difficultyBeatmaps, offset 0x18, size 0x8
-  __declspec(property(get = __get__difficultyBeatmaps,
-                      put = __set__difficultyBeatmaps))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomDifficultyBeatmap*>* _difficultyBeatmaps;
+  __declspec(property(get = __cordl_internal_get__difficultyBeatmaps,
+                      put = __cordl_internal_set__difficultyBeatmaps))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomDifficultyBeatmap*>* _difficultyBeatmaps;
 
-  __declspec(property(get = get_beatmapCharacteristic))::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
+  __declspec(property(get = get_beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic;
 
   __declspec(property(get = get_difficultyBeatmaps))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmap*>* difficultyBeatmaps;
 
@@ -53,20 +53,20 @@ public:
   /// @brief Convert to "::GlobalNamespace::IDifficultyBeatmapSet"
   constexpr ::GlobalNamespace::IDifficultyBeatmapSet* i___GlobalNamespace__IDifficultyBeatmapSet() noexcept;
 
-  constexpr ::GlobalNamespace::BeatmapCharacteristicSO*& __get__beatmapCharacteristic();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__beatmapCharacteristic();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicSO*> const& __get__beatmapCharacteristic() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__beatmapCharacteristic() const;
 
-  constexpr void __set__beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
+  constexpr void __cordl_internal_set__beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomDifficultyBeatmap*>*& __get__difficultyBeatmaps();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomDifficultyBeatmap*>*& __cordl_internal_get__difficultyBeatmaps();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomDifficultyBeatmap*>*> const& __get__difficultyBeatmaps() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomDifficultyBeatmap*>*> const& __cordl_internal_get__difficultyBeatmaps() const;
 
-  constexpr void __set__difficultyBeatmaps(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomDifficultyBeatmap*>* value);
+  constexpr void __cordl_internal_set__difficultyBeatmaps(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomDifficultyBeatmap*>* value);
 
   /// @brief Method get_beatmapCharacteristic, addr 0x2346aac, size 0x8, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::BeatmapCharacteristicSO* get_beatmapCharacteristic();
+  inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_beatmapCharacteristic();
 
   /// @brief Method get_difficultyBeatmaps, addr 0x2346ab4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmap*>* get_difficultyBeatmaps();
@@ -94,7 +94,7 @@ protected:
 
 public:
   /// @brief Field _beatmapCharacteristic, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCharacteristicSO* ____beatmapCharacteristic;
+  ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ____beatmapCharacteristic;
 
   /// @brief Field _difficultyBeatmaps, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::CustomDifficultyBeatmap*>* ____difficultyBeatmaps;

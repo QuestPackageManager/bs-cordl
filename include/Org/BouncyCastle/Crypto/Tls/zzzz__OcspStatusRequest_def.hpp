@@ -23,33 +23,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1258))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::OcspStatusRequest*
 class CORDL_TYPE OcspStatusRequest : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mResponderIDList, offset 0x10, size 0x8
-  __declspec(property(get = __get_mResponderIDList, put = __set_mResponderIDList))::System::Collections::IList* mResponderIDList;
+  __declspec(property(get = __cordl_internal_get_mResponderIDList, put = __cordl_internal_set_mResponderIDList))::System::Collections::IList* mResponderIDList;
 
   /// @brief Field mRequestExtensions, offset 0x18, size 0x8
-  __declspec(property(get = __get_mRequestExtensions, put = __set_mRequestExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* mRequestExtensions;
+  __declspec(property(get = __cordl_internal_get_mRequestExtensions, put = __cordl_internal_set_mRequestExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* mRequestExtensions;
 
   __declspec(property(get = get_ResponderIDList))::System::Collections::IList* ResponderIDList;
 
   __declspec(property(get = get_RequestExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* RequestExtensions;
 
-  constexpr ::System::Collections::IList*& __get_mResponderIDList();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_mResponderIDList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_mResponderIDList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_mResponderIDList() const;
 
-  constexpr void __set_mResponderIDList(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_mResponderIDList(::System::Collections::IList* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __get_mRequestExtensions();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_mRequestExtensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __get_mRequestExtensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __cordl_internal_get_mRequestExtensions() const;
 
-  constexpr void __set_mRequestExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
+  constexpr void __cordl_internal_set_mRequestExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::OcspStatusRequest* New_ctor(::System::Collections::IList* responderIDList, ::Org::BouncyCastle::Asn1::X509::X509Extensions* requestExtensions);
 

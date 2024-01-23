@@ -101,7 +101,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkele
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7580))
 // CS Name: ::OVRUnityHumanoidSkeletonRetargeter::OVRHumanBodyBonesMappings::BodySection
 struct CORDL_TYPE __OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection {
@@ -191,7 +191,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7581))
 // CS Name: ::OVRUnityHumanoidSkeletonRetargeter::OVRHumanBodyBonesMappings::BodyTrackingBoneId
 struct CORDL_TYPE __OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodyTrackingBoneId {
@@ -529,7 +529,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7582))
 // CS Name: ::OVRUnityHumanoidSkeletonRetargeter::OVRHumanBodyBonesMappings*
 class CORDL_TYPE __OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings : public ::System::Object {
@@ -604,92 +604,92 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRUnityHuman
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
-// 3342 }), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7583)) CS Name:
-// ::OVRUnityHumanoidSkeletonRetargeter::OVRSkeletonMetadata::BoneData*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3342 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7583)) CS
+// Name: ::OVRUnityHumanoidSkeletonRetargeter::OVRSkeletonMetadata::BoneData*
 class CORDL_TYPE __OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata__BoneData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field OriginalJoint, offset 0x10, size 0x8
-  __declspec(property(get = __get_OriginalJoint, put = __set_OriginalJoint))::UnityEngine::Transform* OriginalJoint;
+  __declspec(property(get = __cordl_internal_get_OriginalJoint, put = __cordl_internal_set_OriginalJoint))::UnityW<::UnityEngine::Transform> OriginalJoint;
 
   /// @brief Field FromPosition, offset 0x18, size 0xc
-  __declspec(property(get = __get_FromPosition, put = __set_FromPosition))::UnityEngine::Vector3 FromPosition;
+  __declspec(property(get = __cordl_internal_get_FromPosition, put = __cordl_internal_set_FromPosition))::UnityEngine::Vector3 FromPosition;
 
   /// @brief Field ToPosition, offset 0x24, size 0xc
-  __declspec(property(get = __get_ToPosition, put = __set_ToPosition))::UnityEngine::Vector3 ToPosition;
+  __declspec(property(get = __cordl_internal_get_ToPosition, put = __cordl_internal_set_ToPosition))::UnityEngine::Vector3 ToPosition;
 
   /// @brief Field JointPairStart, offset 0x30, size 0x8
-  __declspec(property(get = __get_JointPairStart, put = __set_JointPairStart))::UnityEngine::Transform* JointPairStart;
+  __declspec(property(get = __cordl_internal_get_JointPairStart, put = __cordl_internal_set_JointPairStart))::UnityW<::UnityEngine::Transform> JointPairStart;
 
   /// @brief Field JointPairEnd, offset 0x38, size 0x8
-  __declspec(property(get = __get_JointPairEnd, put = __set_JointPairEnd))::UnityEngine::Transform* JointPairEnd;
+  __declspec(property(get = __cordl_internal_get_JointPairEnd, put = __cordl_internal_set_JointPairEnd))::UnityW<::UnityEngine::Transform> JointPairEnd;
 
   /// @brief Field JointPairOrientation, offset 0x40, size 0x10
-  __declspec(property(get = __get_JointPairOrientation, put = __set_JointPairOrientation))::UnityEngine::Quaternion JointPairOrientation;
+  __declspec(property(get = __cordl_internal_get_JointPairOrientation, put = __cordl_internal_set_JointPairOrientation))::UnityEngine::Quaternion JointPairOrientation;
 
   /// @brief Field CorrectionQuaternion, offset 0x50, size 0x14
-  __declspec(property(get = __get_CorrectionQuaternion, put = __set_CorrectionQuaternion))::System::Nullable_1<::UnityEngine::Quaternion> CorrectionQuaternion;
+  __declspec(property(get = __cordl_internal_get_CorrectionQuaternion, put = __cordl_internal_set_CorrectionQuaternion))::System::Nullable_1<::UnityEngine::Quaternion> CorrectionQuaternion;
 
   /// @brief Field ParentTransform, offset 0x68, size 0x8
-  __declspec(property(get = __get_ParentTransform, put = __set_ParentTransform))::UnityEngine::Transform* ParentTransform;
+  __declspec(property(get = __cordl_internal_get_ParentTransform, put = __cordl_internal_set_ParentTransform))::UnityW<::UnityEngine::Transform> ParentTransform;
 
   /// @brief Field DegenerateJoint, offset 0x70, size 0x1
-  __declspec(property(get = __get_DegenerateJoint, put = __set_DegenerateJoint)) bool DegenerateJoint;
+  __declspec(property(get = __cordl_internal_get_DegenerateJoint, put = __cordl_internal_set_DegenerateJoint)) bool DegenerateJoint;
 
-  constexpr ::UnityEngine::Transform*& __get_OriginalJoint();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_OriginalJoint();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_OriginalJoint() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_OriginalJoint() const;
 
-  constexpr void __set_OriginalJoint(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_OriginalJoint(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Vector3& __get_FromPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_FromPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_FromPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_FromPosition() const;
 
-  constexpr void __set_FromPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_FromPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_ToPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_ToPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_ToPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_ToPosition() const;
 
-  constexpr void __set_ToPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_ToPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Transform*& __get_JointPairStart();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_JointPairStart();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_JointPairStart() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_JointPairStart() const;
 
-  constexpr void __set_JointPairStart(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_JointPairStart(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_JointPairEnd();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_JointPairEnd();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_JointPairEnd() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_JointPairEnd() const;
 
-  constexpr void __set_JointPairEnd(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_JointPairEnd(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Quaternion& __get_JointPairOrientation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_JointPairOrientation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_JointPairOrientation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_JointPairOrientation() const;
 
-  constexpr void __set_JointPairOrientation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_JointPairOrientation(::UnityEngine::Quaternion value);
 
-  constexpr ::System::Nullable_1<::UnityEngine::Quaternion>& __get_CorrectionQuaternion();
+  constexpr ::System::Nullable_1<::UnityEngine::Quaternion>& __cordl_internal_get_CorrectionQuaternion();
 
-  constexpr ::System::Nullable_1<::UnityEngine::Quaternion> const& __get_CorrectionQuaternion() const;
+  constexpr ::System::Nullable_1<::UnityEngine::Quaternion> const& __cordl_internal_get_CorrectionQuaternion() const;
 
-  constexpr void __set_CorrectionQuaternion(::System::Nullable_1<::UnityEngine::Quaternion> value);
+  constexpr void __cordl_internal_set_CorrectionQuaternion(::System::Nullable_1<::UnityEngine::Quaternion> value);
 
-  constexpr ::UnityEngine::Transform*& __get_ParentTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_ParentTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_ParentTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_ParentTransform() const;
 
-  constexpr void __set_ParentTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_ParentTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr bool& __get_DegenerateJoint();
+  constexpr bool& __cordl_internal_get_DegenerateJoint();
 
-  constexpr bool const& __get_DegenerateJoint() const;
+  constexpr bool const& __cordl_internal_get_DegenerateJoint() const;
 
-  constexpr void __set_DegenerateJoint(bool value);
+  constexpr void __cordl_internal_set_DegenerateJoint(bool value);
 
   static inline ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata__BoneData* New_ctor();
 
@@ -717,7 +717,7 @@ protected:
 
 public:
   /// @brief Field OriginalJoint, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___OriginalJoint;
+  ::UnityW<::UnityEngine::Transform> ___OriginalJoint;
 
   /// @brief Field FromPosition, offset: 0x18, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___FromPosition;
@@ -726,10 +726,10 @@ public:
   ::UnityEngine::Vector3 ___ToPosition;
 
   /// @brief Field JointPairStart, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___JointPairStart;
+  ::UnityW<::UnityEngine::Transform> ___JointPairStart;
 
   /// @brief Field JointPairEnd, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___JointPairEnd;
+  ::UnityW<::UnityEngine::Transform> ___JointPairEnd;
 
   /// @brief Field JointPairOrientation, offset: 0x40, size: 0x10, def value: None
   ::UnityEngine::Quaternion ___JointPairOrientation;
@@ -738,7 +738,7 @@ public:
   ::System::Nullable_1<::UnityEngine::Quaternion> ___CorrectionQuaternion;
 
   /// @brief Field ParentTransform, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___ParentTransform;
+  ::UnityW<::UnityEngine::Transform> ___ParentTransform;
 
   /// @brief Field DegenerateJoint, offset: 0x70, size: 0x1, def value: None
   bool ___DegenerateJoint;
@@ -771,7 +771,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7584))
 // CS Name: ::OVRUnityHumanoidSkeletonRetargeter::OVRSkeletonMetadata*
 class CORDL_TYPE __OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata : public ::System::Object {
@@ -780,30 +780,31 @@ public:
   using BoneData = ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata__BoneData;
 
   /// @brief Field <BodyToBoneData>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__BodyToBoneData_k__BackingField, put = __set__BodyToBoneData_k__BackingField))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get__BodyToBoneData_k__BackingField, put = __cordl_internal_set__BodyToBoneData_k__BackingField))::System::Collections::Generic::Dictionary_2<
       ::UnityEngine::HumanBodyBones, ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata__BoneData*>* _BodyToBoneData_k__BackingField;
 
   /// @brief Field _boneEnumValues, offset 0x18, size 0x8
-  __declspec(property(get = __get__boneEnumValues, put = __set__boneEnumValues))::ArrayW<::UnityEngine::HumanBodyBones, ::Array<::UnityEngine::HumanBodyBones>*> _boneEnumValues;
+  __declspec(property(get = __cordl_internal_get__boneEnumValues,
+                      put = __cordl_internal_set__boneEnumValues))::ArrayW<::UnityEngine::HumanBodyBones, ::Array<::UnityEngine::HumanBodyBones>*> _boneEnumValues;
 
   __declspec(property(get = get_BodyToBoneData))::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones,
                                                                                              ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata__BoneData*>* BodyToBoneData;
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata__BoneData*>*&
-  __get__BodyToBoneData_k__BackingField();
+  __cordl_internal_get__BodyToBoneData_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata__BoneData*>*> const&
-  __get__BodyToBoneData_k__BackingField() const;
+  __cordl_internal_get__BodyToBoneData_k__BackingField() const;
 
-  constexpr void __set__BodyToBoneData_k__BackingField(
+  constexpr void __cordl_internal_set__BodyToBoneData_k__BackingField(
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata__BoneData*>* value);
 
-  constexpr ::ArrayW<::UnityEngine::HumanBodyBones, ::Array<::UnityEngine::HumanBodyBones>*>& __get__boneEnumValues();
+  constexpr ::ArrayW<::UnityEngine::HumanBodyBones, ::Array<::UnityEngine::HumanBodyBones>*>& __cordl_internal_get__boneEnumValues();
 
-  constexpr ::ArrayW<::UnityEngine::HumanBodyBones, ::Array<::UnityEngine::HumanBodyBones>*> const& __get__boneEnumValues() const;
+  constexpr ::ArrayW<::UnityEngine::HumanBodyBones, ::Array<::UnityEngine::HumanBodyBones>*> const& __cordl_internal_get__boneEnumValues() const;
 
-  constexpr void __set__boneEnumValues(::ArrayW<::UnityEngine::HumanBodyBones, ::Array<::UnityEngine::HumanBodyBones>*> value);
+  constexpr void __cordl_internal_set__boneEnumValues(::ArrayW<::UnityEngine::HumanBodyBones, ::Array<::UnityEngine::HumanBodyBones>*> value);
 
   /// @brief Method get_BodyToBoneData, addr 0x272e95c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata__BoneData*>* get_BodyToBoneData();
@@ -845,7 +846,7 @@ public:
   inline void BuildCoordinateAxesForAllBones();
 
   /// @brief Method FindFirstChild, addr 0x272fa7c, size 0x110, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* FindFirstChild(::UnityEngine::Transform* startTransform, ::UnityEngine::Transform* currTransform);
+  static inline ::UnityW<::UnityEngine::Transform> FindFirstChild(::UnityEngine::Transform* startTransform, ::UnityEngine::Transform* currTransform);
 
   /// @brief Method CreateQuaternionForBoneDataWithRightVec, addr 0x272fb8c, size 0x1c0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion CreateQuaternionForBoneDataWithRightVec(::UnityEngine::Vector3 fromPosition, ::UnityEngine::Vector3 toPosition, ::UnityEngine::Vector3 rightVector);
@@ -888,56 +889,56 @@ static_assert(offsetof(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14853)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7581))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7585)) CS Name: ::OVRUnityHumanoidSkeletonRetargeter::JointAdjustment*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7581)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14853))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7585)) CS Name: ::OVRUnityHumanoidSkeletonRetargeter::JointAdjustment*
 class CORDL_TYPE __OVRUnityHumanoidSkeletonRetargeter__JointAdjustment : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Joint, offset 0x10, size 0x4
-  __declspec(property(get = __get_Joint, put = __set_Joint))::UnityEngine::HumanBodyBones Joint;
+  __declspec(property(get = __cordl_internal_get_Joint, put = __cordl_internal_set_Joint))::UnityEngine::HumanBodyBones Joint;
 
   /// @brief Field RotationChange, offset 0x14, size 0x10
-  __declspec(property(get = __get_RotationChange, put = __set_RotationChange))::UnityEngine::Quaternion RotationChange;
+  __declspec(property(get = __cordl_internal_get_RotationChange, put = __cordl_internal_set_RotationChange))::UnityEngine::Quaternion RotationChange;
 
   /// @brief Field DisableRotationTransform, offset 0x24, size 0x1
-  __declspec(property(get = __get_DisableRotationTransform, put = __set_DisableRotationTransform)) bool DisableRotationTransform;
+  __declspec(property(get = __cordl_internal_get_DisableRotationTransform, put = __cordl_internal_set_DisableRotationTransform)) bool DisableRotationTransform;
 
   /// @brief Field DisablePositionTransform, offset 0x25, size 0x1
-  __declspec(property(get = __get_DisablePositionTransform, put = __set_DisablePositionTransform)) bool DisablePositionTransform;
+  __declspec(property(get = __cordl_internal_get_DisablePositionTransform, put = __cordl_internal_set_DisablePositionTransform)) bool DisablePositionTransform;
 
   /// @brief Field BoneIdOverrideValue, offset 0x28, size 0x4
-  __declspec(property(get = __get_BoneIdOverrideValue,
-                      put = __set_BoneIdOverrideValue))::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodyTrackingBoneId BoneIdOverrideValue;
+  __declspec(property(get = __cordl_internal_get_BoneIdOverrideValue,
+                      put = __cordl_internal_set_BoneIdOverrideValue))::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodyTrackingBoneId BoneIdOverrideValue;
 
-  constexpr ::UnityEngine::HumanBodyBones& __get_Joint();
+  constexpr ::UnityEngine::HumanBodyBones& __cordl_internal_get_Joint();
 
-  constexpr ::UnityEngine::HumanBodyBones const& __get_Joint() const;
+  constexpr ::UnityEngine::HumanBodyBones const& __cordl_internal_get_Joint() const;
 
-  constexpr void __set_Joint(::UnityEngine::HumanBodyBones value);
+  constexpr void __cordl_internal_set_Joint(::UnityEngine::HumanBodyBones value);
 
-  constexpr ::UnityEngine::Quaternion& __get_RotationChange();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_RotationChange();
 
-  constexpr ::UnityEngine::Quaternion const& __get_RotationChange() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_RotationChange() const;
 
-  constexpr void __set_RotationChange(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_RotationChange(::UnityEngine::Quaternion value);
 
-  constexpr bool& __get_DisableRotationTransform();
+  constexpr bool& __cordl_internal_get_DisableRotationTransform();
 
-  constexpr bool const& __get_DisableRotationTransform() const;
+  constexpr bool const& __cordl_internal_get_DisableRotationTransform() const;
 
-  constexpr void __set_DisableRotationTransform(bool value);
+  constexpr void __cordl_internal_set_DisableRotationTransform(bool value);
 
-  constexpr bool& __get_DisablePositionTransform();
+  constexpr bool& __cordl_internal_get_DisablePositionTransform();
 
-  constexpr bool const& __get_DisablePositionTransform() const;
+  constexpr bool const& __cordl_internal_get_DisablePositionTransform() const;
 
-  constexpr void __set_DisablePositionTransform(bool value);
+  constexpr void __cordl_internal_set_DisablePositionTransform(bool value);
 
-  constexpr ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodyTrackingBoneId& __get_BoneIdOverrideValue();
+  constexpr ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodyTrackingBoneId& __cordl_internal_get_BoneIdOverrideValue();
 
-  constexpr ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodyTrackingBoneId const& __get_BoneIdOverrideValue() const;
+  constexpr ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodyTrackingBoneId const& __cordl_internal_get_BoneIdOverrideValue() const;
 
-  constexpr void __set_BoneIdOverrideValue(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodyTrackingBoneId value);
+  constexpr void __cordl_internal_set_BoneIdOverrideValue(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodyTrackingBoneId value);
 
   static inline ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment* New_ctor();
 
@@ -993,7 +994,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7586))
 // CS Name: ::OVRUnityHumanoidSkeletonRetargeter*
 class CORDL_TYPE OVRUnityHumanoidSkeletonRetargeter : public ::GlobalNamespace::OVRSkeleton {
@@ -1006,43 +1007,48 @@ public:
   using OVRHumanBodyBonesMappings = ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings;
 
   /// @brief Field _sourceSkeletonData, offset 0xb8, size 0x8
-  __declspec(property(get = __get__sourceSkeletonData, put = __set__sourceSkeletonData))::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* _sourceSkeletonData;
+  __declspec(property(get = __cordl_internal_get__sourceSkeletonData,
+                      put = __cordl_internal_set__sourceSkeletonData))::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* _sourceSkeletonData;
 
   /// @brief Field _sourceSkeletonTPoseData, offset 0xc0, size 0x8
-  __declspec(property(get = __get__sourceSkeletonTPoseData,
-                      put = __set__sourceSkeletonTPoseData))::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* _sourceSkeletonTPoseData;
+  __declspec(property(get = __cordl_internal_get__sourceSkeletonTPoseData,
+                      put = __cordl_internal_set__sourceSkeletonTPoseData))::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* _sourceSkeletonTPoseData;
 
   /// @brief Field _targetSkeletonData, offset 0xc8, size 0x8
-  __declspec(property(get = __get__targetSkeletonData, put = __set__targetSkeletonData))::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* _targetSkeletonData;
+  __declspec(property(get = __cordl_internal_get__targetSkeletonData,
+                      put = __cordl_internal_set__targetSkeletonData))::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* _targetSkeletonData;
 
   /// @brief Field _animatorTargetSkeleton, offset 0xd0, size 0x8
-  __declspec(property(get = __get__animatorTargetSkeleton, put = __set__animatorTargetSkeleton))::UnityEngine::Animator* _animatorTargetSkeleton;
+  __declspec(property(get = __cordl_internal_get__animatorTargetSkeleton, put = __cordl_internal_set__animatorTargetSkeleton))::UnityW<::UnityEngine::Animator> _animatorTargetSkeleton;
 
   /// @brief Field _customBoneIdToHumanBodyBone, offset 0xd8, size 0x8
-  __declspec(property(
-      get = __get__customBoneIdToHumanBodyBone,
-      put = __set__customBoneIdToHumanBodyBone))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSkeleton__BoneId, ::UnityEngine::HumanBodyBones>* _customBoneIdToHumanBodyBone;
+  __declspec(property(get = __cordl_internal_get__customBoneIdToHumanBodyBone,
+                      put = __cordl_internal_set__customBoneIdToHumanBodyBone))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSkeleton__BoneId,
+                                                                                                                            ::UnityEngine::HumanBodyBones>* _customBoneIdToHumanBodyBone;
 
   /// @brief Field _targetTPoseRotations, offset 0xe0, size 0x8
-  __declspec(property(get = __get__targetTPoseRotations,
-                      put = __set__targetTPoseRotations))::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::UnityEngine::Quaternion>* _targetTPoseRotations;
+  __declspec(property(get = __cordl_internal_get__targetTPoseRotations,
+                      put = __cordl_internal_set__targetTPoseRotations))::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::UnityEngine::Quaternion>* _targetTPoseRotations;
 
   /// @brief Field _lastSkelChangeCount, offset 0xe8, size 0x4
-  __declspec(property(get = __get__lastSkelChangeCount, put = __set__lastSkelChangeCount)) int32_t _lastSkelChangeCount;
+  __declspec(property(get = __cordl_internal_get__lastSkelChangeCount, put = __cordl_internal_set__lastSkelChangeCount)) int32_t _lastSkelChangeCount;
 
   /// @brief Field _adjustments, offset 0xf0, size 0x8
-  __declspec(property(get = __get__adjustments, put = __set__adjustments))::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment*,
-                                                                                   ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment*>*> _adjustments;
+  __declspec(property(get = __cordl_internal_get__adjustments,
+                      put = __cordl_internal_set__adjustments))::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment*,
+                                                                        ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment*>*> _adjustments;
 
   /// @brief Field _bodySectionsToAlign, offset 0xf8, size 0x8
-  __declspec(property(get = __get__bodySectionsToAlign,
-                      put = __set__bodySectionsToAlign))::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
-                                                                 ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*> _bodySectionsToAlign;
+  __declspec(property(
+      get = __cordl_internal_get__bodySectionsToAlign,
+      put = __cordl_internal_set__bodySectionsToAlign))::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
+                                                                ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*> _bodySectionsToAlign;
 
   /// @brief Field _bodySectionToPosition, offset 0x100, size 0x8
-  __declspec(property(get = __get__bodySectionToPosition,
-                      put = __set__bodySectionToPosition))::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
-                                                                   ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*> _bodySectionToPosition;
+  __declspec(property(
+      get = __cordl_internal_get__bodySectionToPosition,
+      put = __cordl_internal_set__bodySectionToPosition))::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
+                                                                  ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*> _bodySectionToPosition;
 
   __declspec(property(get = get_SourceSkeletonData))::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* SourceSkeletonData;
 
@@ -1050,7 +1056,7 @@ public:
 
   __declspec(property(get = get_TargetSkeletonData))::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* TargetSkeletonData;
 
-  __declspec(property(get = get_AnimatorTargetSkeleton))::UnityEngine::Animator* AnimatorTargetSkeleton;
+  __declspec(property(get = get_AnimatorTargetSkeleton))::UnityW<::UnityEngine::Animator> AnimatorTargetSkeleton;
 
   __declspec(property(
       get = get_CustomBoneIdToHumanBodyBone))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSkeleton__BoneId, ::UnityEngine::HumanBodyBones>* CustomBoneIdToHumanBodyBone;
@@ -1066,81 +1072,82 @@ public:
   __declspec(property(get = get_BodySectionToPosition))::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
                                                                 ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*> BodySectionToPosition;
 
-  constexpr ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata*& __get__sourceSkeletonData();
+  constexpr ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata*& __cordl_internal_get__sourceSkeletonData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata*> const& __get__sourceSkeletonData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata*> const& __cordl_internal_get__sourceSkeletonData() const;
 
-  constexpr void __set__sourceSkeletonData(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* value);
+  constexpr void __cordl_internal_set__sourceSkeletonData(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* value);
 
-  constexpr ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata*& __get__sourceSkeletonTPoseData();
+  constexpr ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata*& __cordl_internal_get__sourceSkeletonTPoseData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata*> const& __get__sourceSkeletonTPoseData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata*> const& __cordl_internal_get__sourceSkeletonTPoseData() const;
 
-  constexpr void __set__sourceSkeletonTPoseData(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* value);
+  constexpr void __cordl_internal_set__sourceSkeletonTPoseData(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* value);
 
-  constexpr ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata*& __get__targetSkeletonData();
+  constexpr ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata*& __cordl_internal_get__targetSkeletonData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata*> const& __get__targetSkeletonData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata*> const& __cordl_internal_get__targetSkeletonData() const;
 
-  constexpr void __set__targetSkeletonData(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* value);
+  constexpr void __cordl_internal_set__targetSkeletonData(::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* value);
 
-  constexpr ::UnityEngine::Animator*& __get__animatorTargetSkeleton();
+  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animatorTargetSkeleton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> const& __get__animatorTargetSkeleton() const;
+  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animatorTargetSkeleton() const;
 
-  constexpr void __set__animatorTargetSkeleton(::UnityEngine::Animator* value);
+  constexpr void __cordl_internal_set__animatorTargetSkeleton(::UnityW<::UnityEngine::Animator> value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSkeleton__BoneId, ::UnityEngine::HumanBodyBones>*& __get__customBoneIdToHumanBodyBone();
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSkeleton__BoneId, ::UnityEngine::HumanBodyBones>*& __cordl_internal_get__customBoneIdToHumanBodyBone();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSkeleton__BoneId, ::UnityEngine::HumanBodyBones>*> const&
-  __get__customBoneIdToHumanBodyBone() const;
+  __cordl_internal_get__customBoneIdToHumanBodyBone() const;
 
-  constexpr void __set__customBoneIdToHumanBodyBone(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSkeleton__BoneId, ::UnityEngine::HumanBodyBones>* value);
+  constexpr void __cordl_internal_set__customBoneIdToHumanBodyBone(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSkeleton__BoneId, ::UnityEngine::HumanBodyBones>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::UnityEngine::Quaternion>*& __get__targetTPoseRotations();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::UnityEngine::Quaternion>*& __cordl_internal_get__targetTPoseRotations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::UnityEngine::Quaternion>*> const& __get__targetTPoseRotations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::UnityEngine::Quaternion>*> const&
+  __cordl_internal_get__targetTPoseRotations() const;
 
-  constexpr void __set__targetTPoseRotations(::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::UnityEngine::Quaternion>* value);
+  constexpr void __cordl_internal_set__targetTPoseRotations(::System::Collections::Generic::Dictionary_2<::UnityEngine::HumanBodyBones, ::UnityEngine::Quaternion>* value);
 
-  constexpr int32_t& __get__lastSkelChangeCount();
+  constexpr int32_t& __cordl_internal_get__lastSkelChangeCount();
 
-  constexpr int32_t const& __get__lastSkelChangeCount() const;
+  constexpr int32_t const& __cordl_internal_get__lastSkelChangeCount() const;
 
-  constexpr void __set__lastSkelChangeCount(int32_t value);
+  constexpr void __cordl_internal_set__lastSkelChangeCount(int32_t value);
 
   constexpr ::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment*, ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment*>*>&
-  __get__adjustments();
+  __cordl_internal_get__adjustments();
 
   constexpr ::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment*, ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment*>*> const&
-  __get__adjustments() const;
+  __cordl_internal_get__adjustments() const;
 
-  constexpr void
-  __set__adjustments(::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment*, ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment*>*> value);
-
-  constexpr ::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
-                     ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*>&
-  __get__bodySectionsToAlign();
-
-  constexpr ::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
-                     ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*> const&
-  __get__bodySectionsToAlign() const;
-
-  constexpr void __set__bodySectionsToAlign(::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
-                                                     ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*>
-                                                value);
+  constexpr void __cordl_internal_set__adjustments(
+      ::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment*, ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__JointAdjustment*>*> value);
 
   constexpr ::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
                      ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*>&
-  __get__bodySectionToPosition();
+  __cordl_internal_get__bodySectionsToAlign();
 
   constexpr ::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
                      ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*> const&
-  __get__bodySectionToPosition() const;
+  __cordl_internal_get__bodySectionsToAlign() const;
 
-  constexpr void __set__bodySectionToPosition(::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
-                                                       ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*>
-                                                  value);
+  constexpr void __cordl_internal_set__bodySectionsToAlign(::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
+                                                                    ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*>
+                                                               value);
+
+  constexpr ::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
+                     ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*>&
+  __cordl_internal_get__bodySectionToPosition();
+
+  constexpr ::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
+                     ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*> const&
+  __cordl_internal_get__bodySectionToPosition() const;
+
+  constexpr void __cordl_internal_set__bodySectionToPosition(::ArrayW<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection,
+                                                                      ::Array<::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRHumanBodyBonesMappings__BodySection>*>
+                                                                 value);
 
   /// @brief Method get_SourceSkeletonData, addr 0x272a59c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* get_SourceSkeletonData();
@@ -1152,7 +1159,7 @@ public:
   inline ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* get_TargetSkeletonData();
 
   /// @brief Method get_AnimatorTargetSkeleton, addr 0x272a5b4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Animator* get_AnimatorTargetSkeleton();
+  inline ::UnityW<::UnityEngine::Animator> get_AnimatorTargetSkeleton();
 
   /// @brief Method get_CustomBoneIdToHumanBodyBone, addr 0x272a5bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSkeleton__BoneId, ::UnityEngine::HumanBodyBones>* get_CustomBoneIdToHumanBodyBone();
@@ -1244,7 +1251,7 @@ public:
   ::GlobalNamespace::__OVRUnityHumanoidSkeletonRetargeter__OVRSkeletonMetadata* ____targetSkeletonData;
 
   /// @brief Field _animatorTargetSkeleton, offset: 0xd0, size: 0x8, def value: None
-  ::UnityEngine::Animator* ____animatorTargetSkeleton;
+  ::UnityW<::UnityEngine::Animator> ____animatorTargetSkeleton;
 
   /// @brief Field _customBoneIdToHumanBodyBone, offset: 0xd8, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSkeleton__BoneId, ::UnityEngine::HumanBodyBones>* ____customBoneIdToHumanBodyBone;

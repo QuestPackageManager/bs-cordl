@@ -17,60 +17,60 @@ MARK_REF_PTR_T(::Mono::Net::Security::BufferOffsetSize);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8815))
 // CS Name: ::Mono.Net.Security::BufferOffsetSize*
 class CORDL_TYPE BufferOffsetSize : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Buffer, offset 0x10, size 0x8
-  __declspec(property(get = __get_Buffer, put = __set_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
+  __declspec(property(get = __cordl_internal_get_Buffer, put = __cordl_internal_set_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
 
   /// @brief Field Offset, offset 0x18, size 0x4
-  __declspec(property(get = __get_Offset, put = __set_Offset)) int32_t Offset;
+  __declspec(property(get = __cordl_internal_get_Offset, put = __cordl_internal_set_Offset)) int32_t Offset;
 
   /// @brief Field Size, offset 0x1c, size 0x4
-  __declspec(property(get = __get_Size, put = __set_Size)) int32_t Size;
+  __declspec(property(get = __cordl_internal_get_Size, put = __cordl_internal_set_Size)) int32_t Size;
 
   /// @brief Field TotalBytes, offset 0x20, size 0x4
-  __declspec(property(get = __get_TotalBytes, put = __set_TotalBytes)) int32_t TotalBytes;
+  __declspec(property(get = __cordl_internal_get_TotalBytes, put = __cordl_internal_set_TotalBytes)) int32_t TotalBytes;
 
   /// @brief Field Complete, offset 0x24, size 0x1
-  __declspec(property(get = __get_Complete, put = __set_Complete)) bool Complete;
+  __declspec(property(get = __cordl_internal_get_Complete, put = __cordl_internal_set_Complete)) bool Complete;
 
   __declspec(property(get = get_EndOffset)) int32_t EndOffset;
 
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_Buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_Buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Buffer() const;
 
-  constexpr void __set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_Offset();
+  constexpr int32_t& __cordl_internal_get_Offset();
 
-  constexpr int32_t const& __get_Offset() const;
+  constexpr int32_t const& __cordl_internal_get_Offset() const;
 
-  constexpr void __set_Offset(int32_t value);
+  constexpr void __cordl_internal_set_Offset(int32_t value);
 
-  constexpr int32_t& __get_Size();
+  constexpr int32_t& __cordl_internal_get_Size();
 
-  constexpr int32_t const& __get_Size() const;
+  constexpr int32_t const& __cordl_internal_get_Size() const;
 
-  constexpr void __set_Size(int32_t value);
+  constexpr void __cordl_internal_set_Size(int32_t value);
 
-  constexpr int32_t& __get_TotalBytes();
+  constexpr int32_t& __cordl_internal_get_TotalBytes();
 
-  constexpr int32_t const& __get_TotalBytes() const;
+  constexpr int32_t const& __cordl_internal_get_TotalBytes() const;
 
-  constexpr void __set_TotalBytes(int32_t value);
+  constexpr void __cordl_internal_set_TotalBytes(int32_t value);
 
-  constexpr bool& __get_Complete();
+  constexpr bool& __cordl_internal_get_Complete();
 
-  constexpr bool const& __get_Complete() const;
+  constexpr bool const& __cordl_internal_get_Complete() const;
 
-  constexpr void __set_Complete(bool value);
+  constexpr void __cordl_internal_set_Complete(bool value);
 
   /// @brief Method get_EndOffset, addr 0x281dda8, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_EndOffset();

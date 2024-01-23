@@ -16,23 +16,23 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::DataMemberAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16240))
 // CS Name: ::System.Runtime.Serialization::DataMemberAttribute*
 class CORDL_TYPE DataMemberAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field order, offset 0x18, size 0x4
-  __declspec(property(get = __get_order, put = __set_order)) int32_t order;
+  __declspec(property(get = __cordl_internal_get_order, put = __cordl_internal_set_order)) int32_t order;
 
   /// @brief Field isRequired, offset 0x1c, size 0x1
-  __declspec(property(get = __get_isRequired, put = __set_isRequired)) bool isRequired;
+  __declspec(property(get = __cordl_internal_get_isRequired, put = __cordl_internal_set_isRequired)) bool isRequired;
 
   /// @brief Field emitDefaultValue, offset 0x1d, size 0x1
-  __declspec(property(get = __get_emitDefaultValue, put = __set_emitDefaultValue)) bool emitDefaultValue;
+  __declspec(property(get = __cordl_internal_get_emitDefaultValue, put = __cordl_internal_set_emitDefaultValue)) bool emitDefaultValue;
 
   __declspec(property(get = get_Name))::StringW Name;
 
@@ -42,29 +42,29 @@ public:
 
   __declspec(property(get = get_EmitDefaultValue)) bool EmitDefaultValue;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr int32_t& __get_order();
+  constexpr int32_t& __cordl_internal_get_order();
 
-  constexpr int32_t const& __get_order() const;
+  constexpr int32_t const& __cordl_internal_get_order() const;
 
-  constexpr void __set_order(int32_t value);
+  constexpr void __cordl_internal_set_order(int32_t value);
 
-  constexpr bool& __get_isRequired();
+  constexpr bool& __cordl_internal_get_isRequired();
 
-  constexpr bool const& __get_isRequired() const;
+  constexpr bool const& __cordl_internal_get_isRequired() const;
 
-  constexpr void __set_isRequired(bool value);
+  constexpr void __cordl_internal_set_isRequired(bool value);
 
-  constexpr bool& __get_emitDefaultValue();
+  constexpr bool& __cordl_internal_get_emitDefaultValue();
 
-  constexpr bool const& __get_emitDefaultValue() const;
+  constexpr bool const& __cordl_internal_get_emitDefaultValue() const;
 
-  constexpr void __set_emitDefaultValue(bool value);
+  constexpr void __cordl_internal_set_emitDefaultValue(bool value);
 
   /// @brief Method get_Name, addr 0x284d5fc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();

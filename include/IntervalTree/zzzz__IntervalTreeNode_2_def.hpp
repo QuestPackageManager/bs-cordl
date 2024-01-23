@@ -43,7 +43,7 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16133))
 // CS Name: ::IntervalTreeNode`2::<>c<TKey,TValue>*
 class CORDL_TYPE __IntervalTreeNode_2____c : public ::System::Object {
@@ -105,7 +105,7 @@ namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16134))
 // CS Name: ::IntervalTree::IntervalTreeNode`2<TKey,TValue>*
 class CORDL_TYPE IntervalTreeNode_2 : public ::System::Object {
@@ -114,19 +114,20 @@ public:
   using __c = ::IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>;
 
   /// @brief Field center, offset 0x10, size 0x8
-  __declspec(property(get = __get_center, put = __set_center)) TKey center;
+  __declspec(property(get = __cordl_internal_get_center, put = __cordl_internal_set_center)) TKey center;
 
   /// @brief Field leftNode, offset 0x18, size 0x8
-  __declspec(property(get = __get_leftNode, put = __set_leftNode))::IntervalTree::IntervalTreeNode_2<TKey, TValue>* leftNode;
+  __declspec(property(get = __cordl_internal_get_leftNode, put = __cordl_internal_set_leftNode))::IntervalTree::IntervalTreeNode_2<TKey, TValue>* leftNode;
 
   /// @brief Field rightNode, offset 0x20, size 0x8
-  __declspec(property(get = __get_rightNode, put = __set_rightNode))::IntervalTree::IntervalTreeNode_2<TKey, TValue>* rightNode;
+  __declspec(property(get = __cordl_internal_get_rightNode, put = __cordl_internal_set_rightNode))::IntervalTree::IntervalTreeNode_2<TKey, TValue>* rightNode;
 
   /// @brief Field items, offset 0x28, size 0x8
-  __declspec(property(get = __get_items, put = __set_items))::ArrayW<::IntervalTree::RangeValuePair_2<TKey, TValue>, ::Array<::IntervalTree::RangeValuePair_2<TKey, TValue>>*> items;
+  __declspec(property(get = __cordl_internal_get_items,
+                      put = __cordl_internal_set_items))::ArrayW<::IntervalTree::RangeValuePair_2<TKey, TValue>, ::Array<::IntervalTree::RangeValuePair_2<TKey, TValue>>*> items;
 
   /// @brief Field comparer, offset 0x30, size 0x8
-  __declspec(property(get = __get_comparer, put = __set_comparer))::System::Collections::Generic::IComparer_1<TKey>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IComparer_1<TKey>* comparer;
 
   __declspec(property(get = get_Max)) TKey Max;
 
@@ -139,35 +140,35 @@ public:
   constexpr ::System::Collections::Generic::IComparer_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*
   i___System__Collections__Generic__IComparer_1___IntervalTree__RangeValuePair_2_TKey_TValue__() noexcept;
 
-  constexpr TKey& __get_center();
+  constexpr TKey& __cordl_internal_get_center();
 
-  constexpr TKey const& __get_center() const;
+  constexpr TKey const& __cordl_internal_get_center() const;
 
-  constexpr void __set_center(TKey value);
+  constexpr void __cordl_internal_set_center(TKey value);
 
-  constexpr ::IntervalTree::IntervalTreeNode_2<TKey, TValue>*& __get_leftNode();
+  constexpr ::IntervalTree::IntervalTreeNode_2<TKey, TValue>*& __cordl_internal_get_leftNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*> const& __get_leftNode() const;
+  constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*> const& __cordl_internal_get_leftNode() const;
 
-  constexpr void __set_leftNode(::IntervalTree::IntervalTreeNode_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set_leftNode(::IntervalTree::IntervalTreeNode_2<TKey, TValue>* value);
 
-  constexpr ::IntervalTree::IntervalTreeNode_2<TKey, TValue>*& __get_rightNode();
+  constexpr ::IntervalTree::IntervalTreeNode_2<TKey, TValue>*& __cordl_internal_get_rightNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*> const& __get_rightNode() const;
+  constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*> const& __cordl_internal_get_rightNode() const;
 
-  constexpr void __set_rightNode(::IntervalTree::IntervalTreeNode_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set_rightNode(::IntervalTree::IntervalTreeNode_2<TKey, TValue>* value);
 
-  constexpr ::ArrayW<::IntervalTree::RangeValuePair_2<TKey, TValue>, ::Array<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>& __get_items();
+  constexpr ::ArrayW<::IntervalTree::RangeValuePair_2<TKey, TValue>, ::Array<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>& __cordl_internal_get_items();
 
-  constexpr ::ArrayW<::IntervalTree::RangeValuePair_2<TKey, TValue>, ::Array<::IntervalTree::RangeValuePair_2<TKey, TValue>>*> const& __get_items() const;
+  constexpr ::ArrayW<::IntervalTree::RangeValuePair_2<TKey, TValue>, ::Array<::IntervalTree::RangeValuePair_2<TKey, TValue>>*> const& __cordl_internal_get_items() const;
 
-  constexpr void __set_items(::ArrayW<::IntervalTree::RangeValuePair_2<TKey, TValue>, ::Array<::IntervalTree::RangeValuePair_2<TKey, TValue>>*> value);
+  constexpr void __cordl_internal_set_items(::ArrayW<::IntervalTree::RangeValuePair_2<TKey, TValue>, ::Array<::IntervalTree::RangeValuePair_2<TKey, TValue>>*> value);
 
-  constexpr ::System::Collections::Generic::IComparer_1<TKey>*& __get_comparer();
+  constexpr ::System::Collections::Generic::IComparer_1<TKey>*& __cordl_internal_get_comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<TKey>*> const& __get_comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<TKey>*> const& __cordl_internal_get_comparer() const;
 
-  constexpr void __set_comparer(::System::Collections::Generic::IComparer_1<TKey>* value);
+  constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IComparer_1<TKey>* value);
 
   static inline ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* New_ctor(::System::Collections::Generic::IComparer_1<TKey>* comparer);
 

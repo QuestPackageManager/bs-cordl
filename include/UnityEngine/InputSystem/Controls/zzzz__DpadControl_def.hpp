@@ -38,22 +38,22 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::__DpadControl__DpadAxisCont
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6628))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6628))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6634))
 // CS Name: ::DpadControl::DpadAxisControl*
 class CORDL_TYPE __DpadControl__DpadAxisControl : public ::UnityEngine::InputSystem::Controls::AxisControl {
 public:
   // Declarations
   /// @brief Field <component>k__BackingField, offset 0x118, size 0x4
-  __declspec(property(get = __get__component_k__BackingField, put = __set__component_k__BackingField)) int32_t _component_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__component_k__BackingField, put = __cordl_internal_set__component_k__BackingField)) int32_t _component_k__BackingField;
 
   __declspec(property(get = get_component, put = set_component)) int32_t component;
 
-  constexpr int32_t& __get__component_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__component_k__BackingField();
 
-  constexpr int32_t const& __get__component_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__component_k__BackingField() const;
 
-  constexpr void __set__component_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__component_k__BackingField(int32_t value);
 
   /// @brief Method get_component, addr 0x2b0ae58, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_component();
@@ -101,7 +101,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Controls::__DpadControl__Dpad
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6635))
 // CS Name: ::DpadControl::ButtonBits
 struct CORDL_TYPE __DpadControl__ButtonBits {
@@ -159,7 +159,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Controls::__DpadControl__Butt
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6644))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6644))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6636))
 // CS Name: ::UnityEngine.InputSystem.Controls::DpadControl*
 class CORDL_TYPE DpadControl : public ::UnityEngine::InputSystem::Controls::Vector2Control {
@@ -170,16 +170,16 @@ public:
   using DpadAxisControl = ::UnityEngine::InputSystem::Controls::__DpadControl__DpadAxisControl;
 
   /// @brief Field <up>k__BackingField, offset 0x100, size 0x8
-  __declspec(property(get = __get__up_k__BackingField, put = __set__up_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _up_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__up_k__BackingField, put = __cordl_internal_set__up_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _up_k__BackingField;
 
   /// @brief Field <down>k__BackingField, offset 0x108, size 0x8
-  __declspec(property(get = __get__down_k__BackingField, put = __set__down_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _down_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__down_k__BackingField, put = __cordl_internal_set__down_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _down_k__BackingField;
 
   /// @brief Field <left>k__BackingField, offset 0x110, size 0x8
-  __declspec(property(get = __get__left_k__BackingField, put = __set__left_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _left_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__left_k__BackingField, put = __cordl_internal_set__left_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _left_k__BackingField;
 
   /// @brief Field <right>k__BackingField, offset 0x118, size 0x8
-  __declspec(property(get = __get__right_k__BackingField, put = __set__right_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _right_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__right_k__BackingField, put = __cordl_internal_set__right_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _right_k__BackingField;
 
   __declspec(property(get = get_up, put = set_up))::UnityEngine::InputSystem::Controls::ButtonControl* up;
 
@@ -189,29 +189,29 @@ public:
 
   __declspec(property(get = get_right, put = set_right))::UnityEngine::InputSystem::Controls::ButtonControl* right;
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__up_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__up_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__up_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__up_k__BackingField() const;
 
-  constexpr void __set__up_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__up_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__down_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__down_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__down_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__down_k__BackingField() const;
 
-  constexpr void __set__down_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__down_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__left_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__left_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__left_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__left_k__BackingField() const;
 
-  constexpr void __set__left_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__left_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__right_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__right_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__right_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__right_k__BackingField() const;
 
-  constexpr void __set__right_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__right_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   /// @brief Method get_up, addr 0x2b0a864, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_up();

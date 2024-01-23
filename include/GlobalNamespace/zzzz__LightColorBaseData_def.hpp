@@ -24,74 +24,74 @@ MARK_REF_PTR_T(::GlobalNamespace::LightColorBaseData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14728)), TypeDefinitionIndex(TypeDefinitionIndex(14754)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14728)), TypeDefinitionIndex(TypeDefinitionIndex(14754))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4321))
 // CS Name: ::LightColorBaseData*
 class CORDL_TYPE LightColorBaseData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field beat, offset 0x10, size 0x4
-  __declspec(property(get = __get_beat, put = __set_beat)) float_t beat;
+  __declspec(property(get = __cordl_internal_get_beat, put = __cordl_internal_set_beat)) float_t beat;
 
   /// @brief Field transitionType, offset 0x14, size 0x4
-  __declspec(property(get = __get_transitionType, put = __set_transitionType))::GlobalNamespace::BeatmapEventTransitionType transitionType;
+  __declspec(property(get = __cordl_internal_get_transitionType, put = __cordl_internal_set_transitionType))::GlobalNamespace::BeatmapEventTransitionType transitionType;
 
   /// @brief Field colorType, offset 0x18, size 0x4
-  __declspec(property(get = __get_colorType, put = __set_colorType))::GlobalNamespace::EnvironmentColorType colorType;
+  __declspec(property(get = __cordl_internal_get_colorType, put = __cordl_internal_set_colorType))::GlobalNamespace::EnvironmentColorType colorType;
 
   /// @brief Field brightness, offset 0x1c, size 0x4
-  __declspec(property(get = __get_brightness, put = __set_brightness)) float_t brightness;
+  __declspec(property(get = __cordl_internal_get_brightness, put = __cordl_internal_set_brightness)) float_t brightness;
 
   /// @brief Field strobeBeatFrequency, offset 0x20, size 0x4
-  __declspec(property(get = __get_strobeBeatFrequency, put = __set_strobeBeatFrequency)) int32_t strobeBeatFrequency;
+  __declspec(property(get = __cordl_internal_get_strobeBeatFrequency, put = __cordl_internal_set_strobeBeatFrequency)) int32_t strobeBeatFrequency;
 
   /// @brief Field strobeBrightness, offset 0x24, size 0x4
-  __declspec(property(get = __get_strobeBrightness, put = __set_strobeBrightness)) float_t strobeBrightness;
+  __declspec(property(get = __cordl_internal_get_strobeBrightness, put = __cordl_internal_set_strobeBrightness)) float_t strobeBrightness;
 
   /// @brief Field strobeFade, offset 0x28, size 0x1
-  __declspec(property(get = __get_strobeFade, put = __set_strobeFade)) bool strobeFade;
+  __declspec(property(get = __cordl_internal_get_strobeFade, put = __cordl_internal_set_strobeFade)) bool strobeFade;
 
-  constexpr float_t& __get_beat();
+  constexpr float_t& __cordl_internal_get_beat();
 
-  constexpr float_t const& __get_beat() const;
+  constexpr float_t const& __cordl_internal_get_beat() const;
 
-  constexpr void __set_beat(float_t value);
+  constexpr void __cordl_internal_set_beat(float_t value);
 
-  constexpr ::GlobalNamespace::BeatmapEventTransitionType& __get_transitionType();
+  constexpr ::GlobalNamespace::BeatmapEventTransitionType& __cordl_internal_get_transitionType();
 
-  constexpr ::GlobalNamespace::BeatmapEventTransitionType const& __get_transitionType() const;
+  constexpr ::GlobalNamespace::BeatmapEventTransitionType const& __cordl_internal_get_transitionType() const;
 
-  constexpr void __set_transitionType(::GlobalNamespace::BeatmapEventTransitionType value);
+  constexpr void __cordl_internal_set_transitionType(::GlobalNamespace::BeatmapEventTransitionType value);
 
-  constexpr ::GlobalNamespace::EnvironmentColorType& __get_colorType();
+  constexpr ::GlobalNamespace::EnvironmentColorType& __cordl_internal_get_colorType();
 
-  constexpr ::GlobalNamespace::EnvironmentColorType const& __get_colorType() const;
+  constexpr ::GlobalNamespace::EnvironmentColorType const& __cordl_internal_get_colorType() const;
 
-  constexpr void __set_colorType(::GlobalNamespace::EnvironmentColorType value);
+  constexpr void __cordl_internal_set_colorType(::GlobalNamespace::EnvironmentColorType value);
 
-  constexpr float_t& __get_brightness();
+  constexpr float_t& __cordl_internal_get_brightness();
 
-  constexpr float_t const& __get_brightness() const;
+  constexpr float_t const& __cordl_internal_get_brightness() const;
 
-  constexpr void __set_brightness(float_t value);
+  constexpr void __cordl_internal_set_brightness(float_t value);
 
-  constexpr int32_t& __get_strobeBeatFrequency();
+  constexpr int32_t& __cordl_internal_get_strobeBeatFrequency();
 
-  constexpr int32_t const& __get_strobeBeatFrequency() const;
+  constexpr int32_t const& __cordl_internal_get_strobeBeatFrequency() const;
 
-  constexpr void __set_strobeBeatFrequency(int32_t value);
+  constexpr void __cordl_internal_set_strobeBeatFrequency(int32_t value);
 
-  constexpr float_t& __get_strobeBrightness();
+  constexpr float_t& __cordl_internal_get_strobeBrightness();
 
-  constexpr float_t const& __get_strobeBrightness() const;
+  constexpr float_t const& __cordl_internal_get_strobeBrightness() const;
 
-  constexpr void __set_strobeBrightness(float_t value);
+  constexpr void __cordl_internal_set_strobeBrightness(float_t value);
 
-  constexpr bool& __get_strobeFade();
+  constexpr bool& __cordl_internal_get_strobeFade();
 
-  constexpr bool const& __get_strobeFade() const;
+  constexpr bool const& __cordl_internal_get_strobeFade() const;
 
-  constexpr void __set_strobeFade(bool value);
+  constexpr void __cordl_internal_set_strobeFade(bool value);
 
   static inline ::GlobalNamespace::LightColorBaseData* New_ctor(float_t beat, ::GlobalNamespace::BeatmapEventTransitionType transitionType, ::GlobalNamespace::EnvironmentColorType colorType,
                                                                 float_t brightness, int32_t strobeBeatFrequency, float_t strobeBrightness, bool strobeFade);

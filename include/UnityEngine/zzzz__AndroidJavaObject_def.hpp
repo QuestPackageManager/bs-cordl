@@ -35,17 +35,17 @@ MARK_REF_PTR_T(::UnityEngine::AndroidJavaObject);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14913))
 // CS Name: ::UnityEngine::AndroidJavaObject*
 class CORDL_TYPE AndroidJavaObject : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_jobject, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_jobject, put = __set_m_jobject))::UnityEngine::GlobalJavaObjectRef* m_jobject;
+  __declspec(property(get = __cordl_internal_get_m_jobject, put = __cordl_internal_set_m_jobject))::UnityEngine::GlobalJavaObjectRef* m_jobject;
 
   /// @brief Field m_jclass, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_jclass, put = __set_m_jclass))::UnityEngine::GlobalJavaObjectRef* m_jclass;
+  __declspec(property(get = __cordl_internal_get_m_jclass, put = __cordl_internal_set_m_jclass))::UnityEngine::GlobalJavaObjectRef* m_jclass;
 
   /// @brief Field enableDebugPrints, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_enableDebugPrints, put = setStaticF_enableDebugPrints)) bool enableDebugPrints;
@@ -56,17 +56,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::UnityEngine::GlobalJavaObjectRef*& __get_m_jobject();
+  constexpr ::UnityEngine::GlobalJavaObjectRef*& __cordl_internal_get_m_jobject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GlobalJavaObjectRef*> const& __get_m_jobject() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GlobalJavaObjectRef*> const& __cordl_internal_get_m_jobject() const;
 
-  constexpr void __set_m_jobject(::UnityEngine::GlobalJavaObjectRef* value);
+  constexpr void __cordl_internal_set_m_jobject(::UnityEngine::GlobalJavaObjectRef* value);
 
-  constexpr ::UnityEngine::GlobalJavaObjectRef*& __get_m_jclass();
+  constexpr ::UnityEngine::GlobalJavaObjectRef*& __cordl_internal_get_m_jclass();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GlobalJavaObjectRef*> const& __get_m_jclass() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GlobalJavaObjectRef*> const& __cordl_internal_get_m_jclass() const;
 
-  constexpr void __set_m_jclass(::UnityEngine::GlobalJavaObjectRef* value);
+  constexpr void __cordl_internal_set_m_jclass(::UnityEngine::GlobalJavaObjectRef* value);
 
   static inline void setStaticF_enableDebugPrints(bool value);
 

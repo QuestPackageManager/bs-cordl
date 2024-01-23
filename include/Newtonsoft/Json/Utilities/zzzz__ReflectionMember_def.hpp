@@ -26,20 +26,22 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::ReflectionMember);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11861))
 // CS Name: ::Newtonsoft.Json.Utilities::ReflectionMember*
 class CORDL_TYPE ReflectionMember : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <MemberType>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__MemberType_k__BackingField, put = __set__MemberType_k__BackingField))::System::Type* _MemberType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MemberType_k__BackingField, put = __cordl_internal_set__MemberType_k__BackingField))::System::Type* _MemberType_k__BackingField;
 
   /// @brief Field <Getter>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Getter_k__BackingField, put = __set__Getter_k__BackingField))::System::Func_2<::System::Object*, ::System::Object*>* _Getter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Getter_k__BackingField,
+                      put = __cordl_internal_set__Getter_k__BackingField))::System::Func_2<::System::Object*, ::System::Object*>* _Getter_k__BackingField;
 
   /// @brief Field <Setter>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__Setter_k__BackingField, put = __set__Setter_k__BackingField))::System::Action_2<::System::Object*, ::System::Object*>* _Setter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Setter_k__BackingField,
+                      put = __cordl_internal_set__Setter_k__BackingField))::System::Action_2<::System::Object*, ::System::Object*>* _Setter_k__BackingField;
 
   __declspec(property(get = get_MemberType, put = set_MemberType))::System::Type* MemberType;
 
@@ -47,23 +49,23 @@ public:
 
   __declspec(property(get = get_Setter, put = set_Setter))::System::Action_2<::System::Object*, ::System::Object*>* Setter;
 
-  constexpr ::System::Type*& __get__MemberType_k__BackingField();
+  constexpr ::System::Type*& __cordl_internal_get__MemberType_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__MemberType_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__MemberType_k__BackingField() const;
 
-  constexpr void __set__MemberType_k__BackingField(::System::Type* value);
+  constexpr void __cordl_internal_set__MemberType_k__BackingField(::System::Type* value);
 
-  constexpr ::System::Func_2<::System::Object*, ::System::Object*>*& __get__Getter_k__BackingField();
+  constexpr ::System::Func_2<::System::Object*, ::System::Object*>*& __cordl_internal_get__Getter_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::System::Object*>*> const& __get__Getter_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::System::Object*>*> const& __cordl_internal_get__Getter_k__BackingField() const;
 
-  constexpr void __set__Getter_k__BackingField(::System::Func_2<::System::Object*, ::System::Object*>* value);
+  constexpr void __cordl_internal_set__Getter_k__BackingField(::System::Func_2<::System::Object*, ::System::Object*>* value);
 
-  constexpr ::System::Action_2<::System::Object*, ::System::Object*>*& __get__Setter_k__BackingField();
+  constexpr ::System::Action_2<::System::Object*, ::System::Object*>*& __cordl_internal_get__Setter_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::System::Object*, ::System::Object*>*> const& __get__Setter_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::System::Object*, ::System::Object*>*> const& __cordl_internal_get__Setter_k__BackingField() const;
 
-  constexpr void __set__Setter_k__BackingField(::System::Action_2<::System::Object*, ::System::Object*>* value);
+  constexpr void __cordl_internal_set__Setter_k__BackingField(::System::Action_2<::System::Object*, ::System::Object*>* value);
 
   /// @brief Method get_MemberType, addr 0x265a740, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_MemberType();

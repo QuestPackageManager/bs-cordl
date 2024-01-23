@@ -19,7 +19,7 @@ MARK_VAL_T(::GlobalNamespace::BladeMovementDataElement);
 // SizeInfo { instance_size: 44, native_size: 44, calculated_instance_size: 44, calculated_native_size: 60, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15009))
 // CS Name: ::BladeMovementDataElement
 struct CORDL_TYPE BladeMovementDataElement {

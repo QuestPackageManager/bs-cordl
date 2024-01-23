@@ -39,20 +39,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::DistributionPoint);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(357))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::DistributionPoint*
 class CORDL_TYPE DistributionPoint : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field distributionPoint, offset 0x10, size 0x8
-  __declspec(property(get = __get_distributionPoint, put = __set_distributionPoint))::Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPoint;
+  __declspec(property(get = __cordl_internal_get_distributionPoint, put = __cordl_internal_set_distributionPoint))::Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPoint;
 
   /// @brief Field reasons, offset 0x18, size 0x8
-  __declspec(property(get = __get_reasons, put = __set_reasons))::Org::BouncyCastle::Asn1::X509::ReasonFlags* reasons;
+  __declspec(property(get = __cordl_internal_get_reasons, put = __cordl_internal_set_reasons))::Org::BouncyCastle::Asn1::X509::ReasonFlags* reasons;
 
   /// @brief Field cRLIssuer, offset 0x20, size 0x8
-  __declspec(property(get = __get_cRLIssuer, put = __set_cRLIssuer))::Org::BouncyCastle::Asn1::X509::GeneralNames* cRLIssuer;
+  __declspec(property(get = __cordl_internal_get_cRLIssuer, put = __cordl_internal_set_cRLIssuer))::Org::BouncyCastle::Asn1::X509::GeneralNames* cRLIssuer;
 
   __declspec(property(get = get_DistributionPointName))::Org::BouncyCastle::Asn1::X509::DistributionPointName* DistributionPointName;
 
@@ -60,23 +60,23 @@ public:
 
   __declspec(property(get = get_CrlIssuer))::Org::BouncyCastle::Asn1::X509::GeneralNames* CrlIssuer;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::DistributionPointName*& __get_distributionPoint();
+  constexpr ::Org::BouncyCastle::Asn1::X509::DistributionPointName*& __cordl_internal_get_distributionPoint();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::DistributionPointName*> const& __get_distributionPoint() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::DistributionPointName*> const& __cordl_internal_get_distributionPoint() const;
 
-  constexpr void __set_distributionPoint(::Org::BouncyCastle::Asn1::X509::DistributionPointName* value);
+  constexpr void __cordl_internal_set_distributionPoint(::Org::BouncyCastle::Asn1::X509::DistributionPointName* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::ReasonFlags*& __get_reasons();
+  constexpr ::Org::BouncyCastle::Asn1::X509::ReasonFlags*& __cordl_internal_get_reasons();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::ReasonFlags*> const& __get_reasons() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::ReasonFlags*> const& __cordl_internal_get_reasons() const;
 
-  constexpr void __set_reasons(::Org::BouncyCastle::Asn1::X509::ReasonFlags* value);
+  constexpr void __cordl_internal_set_reasons(::Org::BouncyCastle::Asn1::X509::ReasonFlags* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames*& __get_cRLIssuer();
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames*& __cordl_internal_get_cRLIssuer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralNames*> const& __get_cRLIssuer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralNames*> const& __cordl_internal_get_cRLIssuer() const;
 
-  constexpr void __set_cRLIssuer(::Org::BouncyCastle::Asn1::X509::GeneralNames* value);
+  constexpr void __cordl_internal_set_cRLIssuer(::Org::BouncyCastle::Asn1::X509::GeneralNames* value);
 
   /// @brief Method GetInstance, addr 0x118be14, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);

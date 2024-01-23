@@ -22,22 +22,22 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6981))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6981))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6982))
 // CS Name: ::UnityEngine.UIElements::TypedUxmlAttributeDescription`1<T>*
 class CORDL_TYPE TypedUxmlAttributeDescription_1 : public ::UnityEngine::UIElements::UxmlAttributeDescription {
 public:
   // Declarations
   /// @brief Field <defaultValue>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __get__defaultValue_k__BackingField, put = __set__defaultValue_k__BackingField)) T _defaultValue_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__defaultValue_k__BackingField, put = __cordl_internal_set__defaultValue_k__BackingField)) T _defaultValue_k__BackingField;
 
   __declspec(property(get = get_defaultValue, put = set_defaultValue)) T defaultValue;
 
-  constexpr T& __get__defaultValue_k__BackingField();
+  constexpr T& __cordl_internal_get__defaultValue_k__BackingField();
 
-  constexpr T const& __get__defaultValue_k__BackingField() const;
+  constexpr T const& __cordl_internal_get__defaultValue_k__BackingField() const;
 
-  constexpr void __set__defaultValue_k__BackingField(T value);
+  constexpr void __cordl_internal_set__defaultValue_k__BackingField(T value);
 
   /// @brief Method GetValueFromBag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline T GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);

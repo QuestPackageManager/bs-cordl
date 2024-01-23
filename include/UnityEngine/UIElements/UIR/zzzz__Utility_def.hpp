@@ -73,7 +73,7 @@ MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15381))
 // CS Name: ::Utility::GPUBufferType
 struct CORDL_TYPE __Utility__GPUBufferType {
@@ -125,20 +125,20 @@ namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15382))
 // CS Name: ::Utility::GPUBuffer`1<T>*
 class CORDL_TYPE __Utility__GPUBuffer_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field buffer, offset 0x10, size 0x8
-  __declspec(property(get = __get_buffer, put = __set_buffer)) void* buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer)) void* buffer;
 
   /// @brief Field elemCount, offset 0x18, size 0x4
-  __declspec(property(get = __get_elemCount, put = __set_elemCount)) int32_t elemCount;
+  __declspec(property(get = __cordl_internal_get_elemCount, put = __cordl_internal_set_elemCount)) int32_t elemCount;
 
   /// @brief Field elemStride, offset 0x1c, size 0x4
-  __declspec(property(get = __get_elemStride, put = __set_elemStride)) int32_t elemStride;
+  __declspec(property(get = __cordl_internal_get_elemStride, put = __cordl_internal_set_elemStride)) int32_t elemStride;
 
   __declspec(property(get = get_ElementStride)) int32_t ElementStride;
 
@@ -150,23 +150,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr void*& __get_buffer();
+  constexpr void*& __cordl_internal_get_buffer();
 
-  constexpr void* const& __get_buffer() const;
+  constexpr void* const& __cordl_internal_get_buffer() const;
 
-  constexpr void __set_buffer(void* value);
+  constexpr void __cordl_internal_set_buffer(void* value);
 
-  constexpr int32_t& __get_elemCount();
+  constexpr int32_t& __cordl_internal_get_elemCount();
 
-  constexpr int32_t const& __get_elemCount() const;
+  constexpr int32_t const& __cordl_internal_get_elemCount() const;
 
-  constexpr void __set_elemCount(int32_t value);
+  constexpr void __cordl_internal_set_elemCount(int32_t value);
 
-  constexpr int32_t& __get_elemStride();
+  constexpr int32_t& __cordl_internal_get_elemStride();
 
-  constexpr int32_t const& __get_elemStride() const;
+  constexpr int32_t const& __cordl_internal_get_elemStride() const;
 
-  constexpr void __set_elemStride(int32_t value);
+  constexpr void __cordl_internal_set_elemStride(int32_t value);
 
   static inline ::UnityEngine::UIElements::UIR::__Utility__GPUBuffer_1<T>* New_ctor(int32_t elementCount, ::UnityEngine::UIElements::UIR::__Utility__GPUBufferType type);
 
@@ -216,7 +216,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15383))
 // CS Name: ::UnityEngine.UIElements.UIR::Utility*
 class CORDL_TYPE Utility : public ::System::Object {
@@ -236,7 +236,8 @@ public:
   static __declspec(property(get = getStaticF_FlushPendingResources, put = setStaticF_FlushPendingResources))::System::Action* FlushPendingResources;
 
   /// @brief Field RegisterIntermediateRenderers, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RegisterIntermediateRenderers, put = setStaticF_RegisterIntermediateRenderers))::System::Action_1<::UnityEngine::Camera*>* RegisterIntermediateRenderers;
+  static __declspec(property(get = getStaticF_RegisterIntermediateRenderers,
+                             put = setStaticF_RegisterIntermediateRenderers))::System::Action_1<::UnityW<::UnityEngine::Camera>>* RegisterIntermediateRenderers;
 
   /// @brief Field RenderNodeAdd, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_RenderNodeAdd, put = setStaticF_RenderNodeAdd))::System::Action_1<void*>* RenderNodeAdd;
@@ -262,9 +263,9 @@ public:
 
   static inline ::System::Action* getStaticF_FlushPendingResources();
 
-  static inline void setStaticF_RegisterIntermediateRenderers(::System::Action_1<::UnityEngine::Camera*>* value);
+  static inline void setStaticF_RegisterIntermediateRenderers(::System::Action_1<::UnityW<::UnityEngine::Camera>>* value);
 
-  static inline ::System::Action_1<::UnityEngine::Camera*>* getStaticF_RegisterIntermediateRenderers();
+  static inline ::System::Action_1<::UnityW<::UnityEngine::Camera>>* getStaticF_RegisterIntermediateRenderers();
 
   static inline void setStaticF_RenderNodeAdd(::System::Action_1<void*>* value);
 
@@ -304,10 +305,10 @@ public:
   static inline void remove_FlushPendingResources(::System::Action* value);
 
   /// @brief Method add_RegisterIntermediateRenderers, addr 0x2ea6804, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_RegisterIntermediateRenderers(::System::Action_1<::UnityEngine::Camera*>* value);
+  static inline void add_RegisterIntermediateRenderers(::System::Action_1<::UnityW<::UnityEngine::Camera>>* value);
 
   /// @brief Method remove_RegisterIntermediateRenderers, addr 0x2ea68f8, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_RegisterIntermediateRenderers(::System::Action_1<::UnityEngine::Camera*>* value);
+  static inline void remove_RegisterIntermediateRenderers(::System::Action_1<::UnityW<::UnityEngine::Camera>>* value);
 
   /// @brief Method add_RenderNodeExecute, addr 0x2ea69ec, size 0xf4, virtual false, abstract: false, final false
   static inline void add_RenderNodeExecute(::System::Action_1<void*>* value);

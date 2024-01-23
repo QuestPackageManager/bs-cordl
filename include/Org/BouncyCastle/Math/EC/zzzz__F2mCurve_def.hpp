@@ -45,40 +45,40 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::__F2mCurve__DefaultF2mLookupTable)
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1363))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1363))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1567))
 // CS Name: ::F2mCurve::DefaultF2mLookupTable*
 class CORDL_TYPE __F2mCurve__DefaultF2mLookupTable : public ::Org::BouncyCastle::Math::EC::AbstractECLookupTable {
 public:
   // Declarations
   /// @brief Field m_outer, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_outer, put = __set_m_outer))::Org::BouncyCastle::Math::EC::F2mCurve* m_outer;
+  __declspec(property(get = __cordl_internal_get_m_outer, put = __cordl_internal_set_m_outer))::Org::BouncyCastle::Math::EC::F2mCurve* m_outer;
 
   /// @brief Field m_table, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_table, put = __set_m_table))::ArrayW<int64_t, ::Array<int64_t>*> m_table;
+  __declspec(property(get = __cordl_internal_get_m_table, put = __cordl_internal_set_m_table))::ArrayW<int64_t, ::Array<int64_t>*> m_table;
 
   /// @brief Field m_size, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_size, put = __set_m_size)) int32_t m_size;
+  __declspec(property(get = __cordl_internal_get_m_size, put = __cordl_internal_set_m_size)) int32_t m_size;
 
   __declspec(property(get = get_Size)) int32_t Size;
 
-  constexpr ::Org::BouncyCastle::Math::EC::F2mCurve*& __get_m_outer();
+  constexpr ::Org::BouncyCastle::Math::EC::F2mCurve*& __cordl_internal_get_m_outer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::F2mCurve*> const& __get_m_outer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::F2mCurve*> const& __cordl_internal_get_m_outer() const;
 
-  constexpr void __set_m_outer(::Org::BouncyCastle::Math::EC::F2mCurve* value);
+  constexpr void __cordl_internal_set_m_outer(::Org::BouncyCastle::Math::EC::F2mCurve* value);
 
-  constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& __get_m_table();
+  constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& __cordl_internal_get_m_table();
 
-  constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __get_m_table() const;
+  constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __cordl_internal_get_m_table() const;
 
-  constexpr void __set_m_table(::ArrayW<int64_t, ::Array<int64_t>*> value);
+  constexpr void __cordl_internal_set_m_table(::ArrayW<int64_t, ::Array<int64_t>*> value);
 
-  constexpr int32_t& __get_m_size();
+  constexpr int32_t& __cordl_internal_get_m_size();
 
-  constexpr int32_t const& __get_m_size() const;
+  constexpr int32_t const& __cordl_internal_get_m_size() const;
 
-  constexpr void __set_m_size(int32_t value);
+  constexpr void __cordl_internal_set_m_size(int32_t value);
 
   static inline ::Org::BouncyCastle::Math::EC::__F2mCurve__DefaultF2mLookupTable* New_ctor(::Org::BouncyCastle::Math::EC::F2mCurve* outer, ::ArrayW<int64_t, ::Array<int64_t>*> table, int32_t size);
 
@@ -136,7 +136,7 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::__F2mCurve__DefaultF2mLook
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1443))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1443))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1568))
 // CS Name: ::Org.BouncyCastle.Math.EC::F2mCurve*
 class CORDL_TYPE F2mCurve : public ::Org::BouncyCastle::Math::EC::AbstractF2mCurve {
@@ -145,19 +145,19 @@ public:
   using DefaultF2mLookupTable = ::Org::BouncyCastle::Math::EC::__F2mCurve__DefaultF2mLookupTable;
 
   /// @brief Field m, offset 0x58, size 0x4
-  __declspec(property(get = __get_m, put = __set_m)) int32_t m;
+  __declspec(property(get = __cordl_internal_get_m, put = __cordl_internal_set_m)) int32_t m;
 
   /// @brief Field k1, offset 0x5c, size 0x4
-  __declspec(property(get = __get_k1, put = __set_k1)) int32_t k1;
+  __declspec(property(get = __cordl_internal_get_k1, put = __cordl_internal_set_k1)) int32_t k1;
 
   /// @brief Field k2, offset 0x60, size 0x4
-  __declspec(property(get = __get_k2, put = __set_k2)) int32_t k2;
+  __declspec(property(get = __cordl_internal_get_k2, put = __cordl_internal_set_k2)) int32_t k2;
 
   /// @brief Field k3, offset 0x64, size 0x4
-  __declspec(property(get = __get_k3, put = __set_k3)) int32_t k3;
+  __declspec(property(get = __cordl_internal_get_k3, put = __cordl_internal_set_k3)) int32_t k3;
 
   /// @brief Field m_infinity, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_infinity, put = __set_m_infinity))::Org::BouncyCastle::Math::EC::F2mPoint* m_infinity;
+  __declspec(property(get = __cordl_internal_get_m_infinity, put = __cordl_internal_set_m_infinity))::Org::BouncyCastle::Math::EC::F2mPoint* m_infinity;
 
   __declspec(property(get = get_FieldSize)) int32_t FieldSize;
 
@@ -171,35 +171,35 @@ public:
 
   __declspec(property(get = get_K3)) int32_t K3;
 
-  constexpr int32_t& __get_m();
+  constexpr int32_t& __cordl_internal_get_m();
 
-  constexpr int32_t const& __get_m() const;
+  constexpr int32_t const& __cordl_internal_get_m() const;
 
-  constexpr void __set_m(int32_t value);
+  constexpr void __cordl_internal_set_m(int32_t value);
 
-  constexpr int32_t& __get_k1();
+  constexpr int32_t& __cordl_internal_get_k1();
 
-  constexpr int32_t const& __get_k1() const;
+  constexpr int32_t const& __cordl_internal_get_k1() const;
 
-  constexpr void __set_k1(int32_t value);
+  constexpr void __cordl_internal_set_k1(int32_t value);
 
-  constexpr int32_t& __get_k2();
+  constexpr int32_t& __cordl_internal_get_k2();
 
-  constexpr int32_t const& __get_k2() const;
+  constexpr int32_t const& __cordl_internal_get_k2() const;
 
-  constexpr void __set_k2(int32_t value);
+  constexpr void __cordl_internal_set_k2(int32_t value);
 
-  constexpr int32_t& __get_k3();
+  constexpr int32_t& __cordl_internal_get_k3();
 
-  constexpr int32_t const& __get_k3() const;
+  constexpr int32_t const& __cordl_internal_get_k3() const;
 
-  constexpr void __set_k3(int32_t value);
+  constexpr void __cordl_internal_set_k3(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::F2mPoint*& __get_m_infinity();
+  constexpr ::Org::BouncyCastle::Math::EC::F2mPoint*& __cordl_internal_get_m_infinity();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::F2mPoint*> const& __get_m_infinity() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::F2mPoint*> const& __cordl_internal_get_m_infinity() const;
 
-  constexpr void __set_m_infinity(::Org::BouncyCastle::Math::EC::F2mPoint* value);
+  constexpr void __cordl_internal_set_m_infinity(::Org::BouncyCastle::Math::EC::F2mPoint* value);
 
   static inline ::Org::BouncyCastle::Math::EC::F2mCurve* New_ctor(int32_t m, int32_t k, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 

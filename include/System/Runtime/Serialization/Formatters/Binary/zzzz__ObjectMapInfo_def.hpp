@@ -20,47 +20,47 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ObjectMapIn
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3280))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ObjectMapInfo*
 class CORDL_TYPE ObjectMapInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field objectId, offset 0x10, size 0x4
-  __declspec(property(get = __get_objectId, put = __set_objectId)) int32_t objectId;
+  __declspec(property(get = __cordl_internal_get_objectId, put = __cordl_internal_set_objectId)) int32_t objectId;
 
   /// @brief Field numMembers, offset 0x14, size 0x4
-  __declspec(property(get = __get_numMembers, put = __set_numMembers)) int32_t numMembers;
+  __declspec(property(get = __cordl_internal_get_numMembers, put = __cordl_internal_set_numMembers)) int32_t numMembers;
 
   /// @brief Field memberNames, offset 0x18, size 0x8
-  __declspec(property(get = __get_memberNames, put = __set_memberNames))::ArrayW<::StringW, ::Array<::StringW>*> memberNames;
+  __declspec(property(get = __cordl_internal_get_memberNames, put = __cordl_internal_set_memberNames))::ArrayW<::StringW, ::Array<::StringW>*> memberNames;
 
   /// @brief Field memberTypes, offset 0x20, size 0x8
-  __declspec(property(get = __get_memberTypes, put = __set_memberTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes;
+  __declspec(property(get = __cordl_internal_get_memberTypes, put = __cordl_internal_set_memberTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes;
 
-  constexpr int32_t& __get_objectId();
+  constexpr int32_t& __cordl_internal_get_objectId();
 
-  constexpr int32_t const& __get_objectId() const;
+  constexpr int32_t const& __cordl_internal_get_objectId() const;
 
-  constexpr void __set_objectId(int32_t value);
+  constexpr void __cordl_internal_set_objectId(int32_t value);
 
-  constexpr int32_t& __get_numMembers();
+  constexpr int32_t& __cordl_internal_get_numMembers();
 
-  constexpr int32_t const& __get_numMembers() const;
+  constexpr int32_t const& __cordl_internal_get_numMembers() const;
 
-  constexpr void __set_numMembers(int32_t value);
+  constexpr void __cordl_internal_set_numMembers(int32_t value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_memberNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_memberNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_memberNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_memberNames() const;
 
-  constexpr void __set_memberNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_memberNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __get_memberTypes();
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get_memberTypes();
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __get_memberTypes() const;
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_memberTypes() const;
 
-  constexpr void __set_memberTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+  constexpr void __cordl_internal_set_memberTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectMapInfo* New_ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames,
                                                                                               ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);

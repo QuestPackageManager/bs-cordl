@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::Tweening::SongTimeTweeningManager);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16100))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16100))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6087))
 // CS Name: ::Tweening::SongTimeTweeningManager*
 class CORDL_TYPE SongTimeTweeningManager : public ::Tweening::TweeningManager {
 public:
   // Declarations
   /// @brief Field _audioTimeSource, offset 0x40, size 0x8
-  __declspec(property(get = __get__audioTimeSource, put = __set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __get__audioTimeSource();
+  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __get__audioTimeSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
   /// @brief Method GetTime, addr 0x2321258, size 0xa0, virtual true, abstract: false, final false
   inline float_t GetTime();

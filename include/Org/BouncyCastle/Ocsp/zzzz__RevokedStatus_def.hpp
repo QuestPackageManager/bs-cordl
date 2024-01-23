@@ -21,14 +21,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::RevokedStatus);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1624))
 // CS Name: ::Org.BouncyCastle.Ocsp::RevokedStatus*
 class CORDL_TYPE RevokedStatus : public ::Org::BouncyCastle::Ocsp::CertificateStatus {
 public:
   // Declarations
   /// @brief Field info, offset 0x10, size 0x8
-  __declspec(property(get = __get_info, put = __set_info))::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info;
+  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info;
 
   __declspec(property(get = get_RevocationTime))::System::DateTime RevocationTime;
 
@@ -36,11 +36,11 @@ public:
 
   __declspec(property(get = get_RevocationReason)) int32_t RevocationReason;
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo*& __get_info();
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo*& __cordl_internal_get_info();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo*> const& __get_info() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo*> const& __cordl_internal_get_info() const;
 
-  constexpr void __set_info(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* value);
+  constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* value);
 
   static inline ::Org::BouncyCastle::Ocsp::RevokedStatus* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* info);
 

@@ -169,7 +169,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEvent
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13951))
 // CS Name: ::ResourceManager::DiagnosticEventType
 struct CORDL_TYPE __ResourceManager__DiagnosticEventType {
@@ -235,7 +235,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::__ResourceManager__Dia
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14034)), TypeDefinitionIndex(TypeDefinitionIndex(13951))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13951)), TypeDefinitionIndex(TypeDefinitionIndex(14034))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13952))
 // CS Name: ::ResourceManager::DiagnosticEventContext
 struct CORDL_TYPE __ResourceManager__DiagnosticEventContext {
@@ -332,7 +332,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::__ResourceManager__Dia
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13953))
 // CS Name: ::ResourceManager::DeferredCallbackRegisterRequest
 struct CORDL_TYPE __ResourceManager__DeferredCallbackRegisterRequest {
@@ -371,40 +371,40 @@ namespace UnityEngine::ResourceManagement {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 791 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 791 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13954))
 // CS Name: ::ResourceManager::CompletedOperation`1<TObject>*
 class CORDL_TYPE __ResourceManager__CompletedOperation_1 : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject> {
 public:
   // Declarations
   /// @brief Field m_Success, offset 0x88, size 0x1
-  __declspec(property(get = __get_m_Success, put = __set_m_Success)) bool m_Success;
+  __declspec(property(get = __cordl_internal_get_m_Success, put = __cordl_internal_set_m_Success)) bool m_Success;
 
   /// @brief Field m_Exception, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_Exception, put = __set_m_Exception))::System::Exception* m_Exception;
+  __declspec(property(get = __cordl_internal_get_m_Exception, put = __cordl_internal_set_m_Exception))::System::Exception* m_Exception;
 
   /// @brief Field m_ReleaseDependenciesOnFailure, offset 0x98, size 0x1
-  __declspec(property(get = __get_m_ReleaseDependenciesOnFailure, put = __set_m_ReleaseDependenciesOnFailure)) bool m_ReleaseDependenciesOnFailure;
+  __declspec(property(get = __cordl_internal_get_m_ReleaseDependenciesOnFailure, put = __cordl_internal_set_m_ReleaseDependenciesOnFailure)) bool m_ReleaseDependenciesOnFailure;
 
   __declspec(property(get = get_DebugName))::StringW DebugName;
 
-  constexpr bool& __get_m_Success();
+  constexpr bool& __cordl_internal_get_m_Success();
 
-  constexpr bool const& __get_m_Success() const;
+  constexpr bool const& __cordl_internal_get_m_Success() const;
 
-  constexpr void __set_m_Success(bool value);
+  constexpr void __cordl_internal_set_m_Success(bool value);
 
-  constexpr ::System::Exception*& __get_m_Exception();
+  constexpr ::System::Exception*& __cordl_internal_get_m_Exception();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __get_m_Exception() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get_m_Exception() const;
 
-  constexpr void __set_m_Exception(::System::Exception* value);
+  constexpr void __cordl_internal_set_m_Exception(::System::Exception* value);
 
-  constexpr bool& __get_m_ReleaseDependenciesOnFailure();
+  constexpr bool& __cordl_internal_get_m_ReleaseDependenciesOnFailure();
 
-  constexpr bool const& __get_m_ReleaseDependenciesOnFailure() const;
+  constexpr bool const& __cordl_internal_get_m_ReleaseDependenciesOnFailure() const;
 
-  constexpr void __set_m_ReleaseDependenciesOnFailure(bool value);
+  constexpr void __cordl_internal_set_m_ReleaseDependenciesOnFailure(bool value);
 
   static inline ::UnityEngine::ResourceManagement::__ResourceManager__CompletedOperation_1<TObject>* New_ctor();
 
@@ -457,66 +457,68 @@ public:
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 236, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13998)), TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(10196)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 311 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 311 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10380)), TypeDefinitionIndex(TypeDefinitionIndex(14032))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13955)) CS Name:
-// ::ResourceManager::InstanceOperation*
-class CORDL_TYPE __ResourceManager__InstanceOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::UnityEngine::GameObject*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10196)), TypeDefinitionIndex(TypeDefinitionIndex(10380)), TypeDefinitionIndex(TypeDefinitionIndex(13998)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 311 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 311 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13955)) CS Name: ::ResourceManager::InstanceOperation*
+class CORDL_TYPE __ResourceManager__InstanceOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::UnityW<::UnityEngine::GameObject>> {
 public:
   // Declarations
   /// @brief Field m_dependency, offset 0x88, size 0x20
-  __declspec(property(get = __get_m_dependency, put = __set_m_dependency))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> m_dependency;
+  __declspec(property(get = __cordl_internal_get_m_dependency,
+                      put = __cordl_internal_set_m_dependency))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> m_dependency;
 
   /// @brief Field m_instantiationParams, offset 0xa8, size 0x30
-  __declspec(property(get = __get_m_instantiationParams, put = __set_m_instantiationParams))::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters m_instantiationParams;
+  __declspec(property(get = __cordl_internal_get_m_instantiationParams,
+                      put = __cordl_internal_set_m_instantiationParams))::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters m_instantiationParams;
 
   /// @brief Field m_instanceProvider, offset 0xd8, size 0x8
-  __declspec(property(get = __get_m_instanceProvider, put = __set_m_instanceProvider))::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* m_instanceProvider;
+  __declspec(property(get = __cordl_internal_get_m_instanceProvider,
+                      put = __cordl_internal_set_m_instanceProvider))::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* m_instanceProvider;
 
   /// @brief Field m_instance, offset 0xe0, size 0x8
-  __declspec(property(get = __get_m_instance, put = __set_m_instance))::UnityEngine::GameObject* m_instance;
+  __declspec(property(get = __cordl_internal_get_m_instance, put = __cordl_internal_set_m_instance))::UnityW<::UnityEngine::GameObject> m_instance;
 
   /// @brief Field m_scene, offset 0xe8, size 0x4
-  __declspec(property(get = __get_m_scene, put = __set_m_scene))::UnityEngine::SceneManagement::Scene m_scene;
+  __declspec(property(get = __cordl_internal_get_m_scene, put = __cordl_internal_set_m_scene))::UnityEngine::SceneManagement::Scene m_scene;
 
   __declspec(property(get = get_DebugName))::StringW DebugName;
 
   __declspec(property(get = get_Progress)) float_t Progress;
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>& __get_m_dependency();
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>& __cordl_internal_get_m_dependency();
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> const& __get_m_dependency() const;
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> const& __cordl_internal_get_m_dependency() const;
 
-  constexpr void __set_m_dependency(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> value);
+  constexpr void __cordl_internal_set_m_dependency(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters& __get_m_instantiationParams();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters& __cordl_internal_get_m_instantiationParams();
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters const& __get_m_instantiationParams() const;
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters const& __cordl_internal_get_m_instantiationParams() const;
 
-  constexpr void __set_m_instantiationParams(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters value);
+  constexpr void __cordl_internal_set_m_instantiationParams(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*& __get_m_instanceProvider();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*& __cordl_internal_get_m_instanceProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*> const& __get_m_instanceProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*> const& __cordl_internal_get_m_instanceProvider() const;
 
-  constexpr void __set_m_instanceProvider(::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* value);
+  constexpr void __cordl_internal_set_m_instanceProvider(::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_instance();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_instance();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_instance() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_instance() const;
 
-  constexpr void __set_m_instance(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_instance(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::SceneManagement::Scene& __get_m_scene();
+  constexpr ::UnityEngine::SceneManagement::Scene& __cordl_internal_get_m_scene();
 
-  constexpr ::UnityEngine::SceneManagement::Scene const& __get_m_scene() const;
+  constexpr ::UnityEngine::SceneManagement::Scene const& __cordl_internal_get_m_scene() const;
 
-  constexpr void __set_m_scene(::UnityEngine::SceneManagement::Scene value);
+  constexpr void __cordl_internal_set_m_scene(::UnityEngine::SceneManagement::Scene value);
 
   /// @brief Method Init, addr 0x2bcd854, size 0x30, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* instanceProvider,
                    ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiationParams,
-                   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> dependency);
+                   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> dependency);
 
   /// @brief Method GetDownloadStatus, addr 0x2bce760, size 0xdc, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited);
@@ -562,7 +564,7 @@ protected:
 
 public:
   /// @brief Field m_dependency, offset: 0x88, size: 0x20, def value: None
-  ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> ___m_dependency;
+  ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> ___m_dependency;
 
   /// @brief Field m_instantiationParams, offset: 0xa8, size: 0x30, def value: None
   ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters ___m_instantiationParams;
@@ -571,7 +573,7 @@ public:
   ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* ___m_instanceProvider;
 
   /// @brief Field m_instance, offset: 0xe0, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_instance;
+  ::UnityW<::UnityEngine::GameObject> ___m_instance;
 
   /// @brief Field m_scene, offset: 0xe8, size: 0x4, def value: None
   ::UnityEngine::SceneManagement::Scene ___m_scene;
@@ -598,38 +600,38 @@ namespace UnityEngine::ResourceManagement {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13956))
 // CS Name: ::ResourceManager::<>c__DisplayClass92_0`1<TObject>*
 class CORDL_TYPE __ResourceManager____c__DisplayClass92_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __get_callback, put = __set_callback))::System::Action_1<TObject>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_1<TObject>* callback;
 
   /// @brief Field releaseDependenciesOnFailure, offset 0x18, size 0x1
-  __declspec(property(get = __get_releaseDependenciesOnFailure, put = __set_releaseDependenciesOnFailure)) bool releaseDependenciesOnFailure;
+  __declspec(property(get = __cordl_internal_get_releaseDependenciesOnFailure, put = __cordl_internal_set_releaseDependenciesOnFailure)) bool releaseDependenciesOnFailure;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::ResourceManagement::ResourceManager* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::ResourceManagement::ResourceManager* __4__this;
 
-  constexpr ::System::Action_1<TObject>*& __get_callback();
+  constexpr ::System::Action_1<TObject>*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TObject>*> const& __get_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TObject>*> const& __cordl_internal_get_callback() const;
 
-  constexpr void __set_callback(::System::Action_1<TObject>* value);
+  constexpr void __cordl_internal_set_callback(::System::Action_1<TObject>* value);
 
-  constexpr bool& __get_releaseDependenciesOnFailure();
+  constexpr bool& __cordl_internal_get_releaseDependenciesOnFailure();
 
-  constexpr bool const& __get_releaseDependenciesOnFailure() const;
+  constexpr bool const& __cordl_internal_get_releaseDependenciesOnFailure() const;
 
-  constexpr void __set_releaseDependenciesOnFailure(bool value);
+  constexpr void __cordl_internal_set_releaseDependenciesOnFailure(bool value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceManager*& __get___4__this();
+  constexpr ::UnityEngine::ResourceManagement::ResourceManager*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceManager*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceManager*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::ResourceManagement::ResourceManager* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::ResourceManagement::ResourceManager* value);
 
   static inline ::UnityEngine::ResourceManagement::__ResourceManager____c__DisplayClass92_0_1<TObject>* New_ctor();
 
@@ -674,7 +676,7 @@ public:
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13957))
 // CS Name: ::UnityEngine.ResourceManagement::ResourceManager*
 class CORDL_TYPE ResourceManager : public ::System::Object {
@@ -693,99 +695,103 @@ public:
   using DiagnosticEventType = ::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventType;
 
   /// @brief Field postProfilerEvents, offset 0x10, size 0x1
-  __declspec(property(get = __get_postProfilerEvents, put = __set_postProfilerEvents)) bool postProfilerEvents;
+  __declspec(property(get = __cordl_internal_get_postProfilerEvents, put = __cordl_internal_set_postProfilerEvents)) bool postProfilerEvents;
 
   /// @brief Field <InternalIdTransformFunc>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__InternalIdTransformFunc_k__BackingField,
-                      put = __set__InternalIdTransformFunc_k__BackingField))::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*,
-                                                                                             ::StringW>* _InternalIdTransformFunc_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__InternalIdTransformFunc_k__BackingField,
+                      put = __cordl_internal_set__InternalIdTransformFunc_k__BackingField))::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*,
+                                                                                                            ::StringW>* _InternalIdTransformFunc_k__BackingField;
 
   /// @brief Field <WebRequestOverride>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__WebRequestOverride_k__BackingField,
-                      put = __set__WebRequestOverride_k__BackingField))::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>* _WebRequestOverride_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__WebRequestOverride_k__BackingField,
+                      put = __cordl_internal_set__WebRequestOverride_k__BackingField))::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>* _WebRequestOverride_k__BackingField;
 
   /// @brief Field CallbackHooksEnabled, offset 0x28, size 0x1
-  __declspec(property(get = __get_CallbackHooksEnabled, put = __set_CallbackHooksEnabled)) bool CallbackHooksEnabled;
+  __declspec(property(get = __cordl_internal_get_CallbackHooksEnabled, put = __cordl_internal_set_CallbackHooksEnabled)) bool CallbackHooksEnabled;
 
   /// @brief Field m_ResourceProviders, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_ResourceProviders,
-                      put = __set_m_ResourceProviders))::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* m_ResourceProviders;
+  __declspec(
+      property(get = __cordl_internal_get_m_ResourceProviders,
+               put = __cordl_internal_set_m_ResourceProviders))::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* m_ResourceProviders;
 
   /// @brief Field m_allocator, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_allocator, put = __set_m_allocator))::UnityEngine::ResourceManagement::Util::IAllocationStrategy* m_allocator;
+  __declspec(property(get = __cordl_internal_get_m_allocator, put = __cordl_internal_set_m_allocator))::UnityEngine::ResourceManagement::Util::IAllocationStrategy* m_allocator;
 
   /// @brief Field m_UpdateReceivers, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_UpdateReceivers, put = __set_m_UpdateReceivers))::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>* m_UpdateReceivers;
+  __declspec(property(get = __cordl_internal_get_m_UpdateReceivers,
+                      put = __cordl_internal_set_m_UpdateReceivers))::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>* m_UpdateReceivers;
 
   /// @brief Field m_UpdateReceiversToRemove, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_UpdateReceiversToRemove,
-                      put = __set_m_UpdateReceiversToRemove))::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>* m_UpdateReceiversToRemove;
+  __declspec(property(get = __cordl_internal_get_m_UpdateReceiversToRemove,
+                      put = __cordl_internal_set_m_UpdateReceiversToRemove))::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>* m_UpdateReceiversToRemove;
 
   /// @brief Field m_UpdatingReceivers, offset 0x50, size 0x1
-  __declspec(property(get = __get_m_UpdatingReceivers, put = __set_m_UpdatingReceivers)) bool m_UpdatingReceivers;
+  __declspec(property(get = __cordl_internal_get_m_UpdatingReceivers, put = __cordl_internal_set_m_UpdatingReceivers)) bool m_UpdatingReceivers;
 
   /// @brief Field m_InsideUpdateMethod, offset 0x51, size 0x1
-  __declspec(property(get = __get_m_InsideUpdateMethod, put = __set_m_InsideUpdateMethod)) bool m_InsideUpdateMethod;
+  __declspec(property(get = __cordl_internal_get_m_InsideUpdateMethod, put = __cordl_internal_set_m_InsideUpdateMethod)) bool m_InsideUpdateMethod;
 
   /// @brief Field m_providerMap, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_providerMap,
-                      put = __set_m_providerMap))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* m_providerMap;
+  __declspec(
+      property(get = __cordl_internal_get_m_providerMap,
+               put = __cordl_internal_set_m_providerMap))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* m_providerMap;
 
   /// @brief Field m_AssetOperationCache, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_AssetOperationCache,
-                      put = __set_m_AssetOperationCache))::System::Collections::Generic::Dictionary_2<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*,
-                                                                                                      ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* m_AssetOperationCache;
+  __declspec(property(get = __cordl_internal_get_m_AssetOperationCache, put = __cordl_internal_set_m_AssetOperationCache))::System::Collections::Generic::Dictionary_2<
+      ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*, ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* m_AssetOperationCache;
 
   /// @brief Field m_TrackedInstanceOperations, offset 0x68, size 0x8
-  __declspec(property(
-      get = __get_m_TrackedInstanceOperations,
-      put = __set_m_TrackedInstanceOperations))::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::__ResourceManager__InstanceOperation*>* m_TrackedInstanceOperations;
+  __declspec(property(get = __cordl_internal_get_m_TrackedInstanceOperations, put = __cordl_internal_set_m_TrackedInstanceOperations))::System::Collections::Generic::HashSet_1<
+      ::UnityEngine::ResourceManagement::__ResourceManager__InstanceOperation*>* m_TrackedInstanceOperations;
 
   /// @brief Field m_UpdateCallbacks, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_UpdateCallbacks, put = __set_m_UpdateCallbacks))::GlobalNamespace::DelegateList_1<float_t>* m_UpdateCallbacks;
+  __declspec(property(get = __cordl_internal_get_m_UpdateCallbacks, put = __cordl_internal_set_m_UpdateCallbacks))::GlobalNamespace::DelegateList_1<float_t>* m_UpdateCallbacks;
 
   /// @brief Field m_DeferredCompleteCallbacks, offset 0x78, size 0x8
-  __declspec(
-      property(get = __get_m_DeferredCompleteCallbacks,
-               put = __set_m_DeferredCompleteCallbacks))::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* m_DeferredCompleteCallbacks;
+  __declspec(property(
+      get = __cordl_internal_get_m_DeferredCompleteCallbacks,
+      put = __cordl_internal_set_m_DeferredCompleteCallbacks))::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* m_DeferredCompleteCallbacks;
 
   /// @brief Field m_InsideExecuteDeferredCallbacksMethod, offset 0x80, size 0x1
-  __declspec(property(get = __get_m_InsideExecuteDeferredCallbacksMethod, put = __set_m_InsideExecuteDeferredCallbacksMethod)) bool m_InsideExecuteDeferredCallbacksMethod;
+  __declspec(property(get = __cordl_internal_get_m_InsideExecuteDeferredCallbacksMethod,
+                      put = __cordl_internal_set_m_InsideExecuteDeferredCallbacksMethod)) bool m_InsideExecuteDeferredCallbacksMethod;
 
   /// @brief Field m_DeferredCallbacksToRegister, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_DeferredCallbacksToRegister, put = __set_m_DeferredCallbacksToRegister))::System::Collections::Generic::List_1<
+  __declspec(property(get = __cordl_internal_get_m_DeferredCallbacksToRegister, put = __cordl_internal_set_m_DeferredCallbacksToRegister))::System::Collections::Generic::List_1<
       ::UnityEngine::ResourceManagement::__ResourceManager__DeferredCallbackRegisterRequest>* m_DeferredCallbacksToRegister;
 
   /// @brief Field m_obsoleteDiagnosticsHandler, offset 0x90, size 0x8
-  __declspec(property(
-      get = __get_m_obsoleteDiagnosticsHandler,
-      put = __set_m_obsoleteDiagnosticsHandler))::System::Action_4<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle,
-                                                                   ::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventType, int32_t, ::System::Object*>* m_obsoleteDiagnosticsHandler;
+  __declspec(property(get = __cordl_internal_get_m_obsoleteDiagnosticsHandler,
+                      put = __cordl_internal_set_m_obsoleteDiagnosticsHandler))::System::Action_4<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle,
+                                                                                                  ::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventType, int32_t,
+                                                                                                  ::System::Object*>* m_obsoleteDiagnosticsHandler;
 
   /// @brief Field m_diagnosticsHandler, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_diagnosticsHandler,
-                      put = __set_m_diagnosticsHandler))::System::Action_1<::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventContext>* m_diagnosticsHandler;
+  __declspec(property(get = __cordl_internal_get_m_diagnosticsHandler,
+                      put = __cordl_internal_set_m_diagnosticsHandler))::System::Action_1<::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventContext>* m_diagnosticsHandler;
 
   /// @brief Field m_ReleaseOpNonCached, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_ReleaseOpNonCached,
-                      put = __set_m_ReleaseOpNonCached))::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* m_ReleaseOpNonCached;
+  __declspec(property(get = __cordl_internal_get_m_ReleaseOpNonCached,
+                      put = __cordl_internal_set_m_ReleaseOpNonCached))::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* m_ReleaseOpNonCached;
 
   /// @brief Field m_ReleaseOpCached, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_ReleaseOpCached, put = __set_m_ReleaseOpCached))::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* m_ReleaseOpCached;
+  __declspec(property(get = __cordl_internal_get_m_ReleaseOpCached,
+                      put = __cordl_internal_set_m_ReleaseOpCached))::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* m_ReleaseOpCached;
 
   /// @brief Field m_ReleaseInstanceOp, offset 0xb0, size 0x8
-  __declspec(property(get = __get_m_ReleaseInstanceOp, put = __set_m_ReleaseInstanceOp))::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* m_ReleaseInstanceOp;
+  __declspec(property(get = __cordl_internal_get_m_ReleaseInstanceOp,
+                      put = __cordl_internal_set_m_ReleaseInstanceOp))::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* m_ReleaseInstanceOp;
 
   /// @brief Field <CertificateHandlerInstance>k__BackingField, offset 0xb8, size 0x8
-  __declspec(property(get = __get__CertificateHandlerInstance_k__BackingField,
-                      put = __set__CertificateHandlerInstance_k__BackingField))::UnityEngine::Networking::CertificateHandler* _CertificateHandlerInstance_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CertificateHandlerInstance_k__BackingField,
+                      put = __cordl_internal_set__CertificateHandlerInstance_k__BackingField))::UnityEngine::Networking::CertificateHandler* _CertificateHandlerInstance_k__BackingField;
 
   /// @brief Field m_RegisteredForCallbacks, offset 0xc0, size 0x1
-  __declspec(property(get = __get_m_RegisteredForCallbacks, put = __set_m_RegisteredForCallbacks)) bool m_RegisteredForCallbacks;
+  __declspec(property(get = __cordl_internal_get_m_RegisteredForCallbacks, put = __cordl_internal_set_m_RegisteredForCallbacks)) bool m_RegisteredForCallbacks;
 
   /// @brief Field m_ProviderOperationTypeCache, offset 0xc8, size 0x8
-  __declspec(property(get = __get_m_ProviderOperationTypeCache,
-                      put = __set_m_ProviderOperationTypeCache))::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* m_ProviderOperationTypeCache;
+  __declspec(property(get = __cordl_internal_get_m_ProviderOperationTypeCache,
+                      put = __cordl_internal_set_m_ProviderOperationTypeCache))::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* m_ProviderOperationTypeCache;
 
   /// @brief Field <ExceptionHandler>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__ExceptionHandler_k__BackingField,
@@ -819,170 +825,173 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr bool& __get_postProfilerEvents();
+  constexpr bool& __cordl_internal_get_postProfilerEvents();
 
-  constexpr bool const& __get_postProfilerEvents() const;
+  constexpr bool const& __cordl_internal_get_postProfilerEvents() const;
 
-  constexpr void __set_postProfilerEvents(bool value);
+  constexpr void __cordl_internal_set_postProfilerEvents(bool value);
 
-  constexpr ::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>*& __get__InternalIdTransformFunc_k__BackingField();
+  constexpr ::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>*& __cordl_internal_get__InternalIdTransformFunc_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>*> const&
-  __get__InternalIdTransformFunc_k__BackingField() const;
+  __cordl_internal_get__InternalIdTransformFunc_k__BackingField() const;
 
-  constexpr void __set__InternalIdTransformFunc_k__BackingField(::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* value);
+  constexpr void __cordl_internal_set__InternalIdTransformFunc_k__BackingField(::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>*& __get__WebRequestOverride_k__BackingField();
+  constexpr ::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>*& __cordl_internal_get__WebRequestOverride_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>*> const& __get__WebRequestOverride_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>*> const& __cordl_internal_get__WebRequestOverride_k__BackingField() const;
 
-  constexpr void __set__WebRequestOverride_k__BackingField(::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>* value);
+  constexpr void __cordl_internal_set__WebRequestOverride_k__BackingField(::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>* value);
 
-  constexpr bool& __get_CallbackHooksEnabled();
+  constexpr bool& __cordl_internal_get_CallbackHooksEnabled();
 
-  constexpr bool const& __get_CallbackHooksEnabled() const;
+  constexpr bool const& __cordl_internal_get_CallbackHooksEnabled() const;
 
-  constexpr void __set_CallbackHooksEnabled(bool value);
+  constexpr void __cordl_internal_set_CallbackHooksEnabled(bool value);
 
-  constexpr ::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>*& __get_m_ResourceProviders();
+  constexpr ::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>*& __cordl_internal_get_m_ResourceProviders();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>*> const&
-  __get_m_ResourceProviders() const;
+  __cordl_internal_get_m_ResourceProviders() const;
 
-  constexpr void __set_m_ResourceProviders(::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* value);
+  constexpr void __cordl_internal_set_m_ResourceProviders(::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* value);
 
-  constexpr ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*& __get_m_allocator();
+  constexpr ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*& __cordl_internal_get_m_allocator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::Util::IAllocationStrategy*> const& __get_m_allocator() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::Util::IAllocationStrategy*> const& __cordl_internal_get_m_allocator() const;
 
-  constexpr void __set_m_allocator(::UnityEngine::ResourceManagement::Util::IAllocationStrategy* value);
+  constexpr void __cordl_internal_set_m_allocator(::UnityEngine::ResourceManagement::Util::IAllocationStrategy* value);
 
-  constexpr ::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>*& __get_m_UpdateReceivers();
+  constexpr ::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>*& __cordl_internal_get_m_UpdateReceivers();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>*> const& __get_m_UpdateReceivers() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>*> const& __cordl_internal_get_m_UpdateReceivers() const;
 
-  constexpr void __set_m_UpdateReceivers(::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>* value);
+  constexpr void __cordl_internal_set_m_UpdateReceivers(::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>*& __get_m_UpdateReceiversToRemove();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>*& __cordl_internal_get_m_UpdateReceiversToRemove();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>*> const& __get_m_UpdateReceiversToRemove() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>*> const&
+  __cordl_internal_get_m_UpdateReceiversToRemove() const;
 
-  constexpr void __set_m_UpdateReceiversToRemove(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>* value);
+  constexpr void __cordl_internal_set_m_UpdateReceiversToRemove(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>* value);
 
-  constexpr bool& __get_m_UpdatingReceivers();
+  constexpr bool& __cordl_internal_get_m_UpdatingReceivers();
 
-  constexpr bool const& __get_m_UpdatingReceivers() const;
+  constexpr bool const& __cordl_internal_get_m_UpdatingReceivers() const;
 
-  constexpr void __set_m_UpdatingReceivers(bool value);
+  constexpr void __cordl_internal_set_m_UpdatingReceivers(bool value);
 
-  constexpr bool& __get_m_InsideUpdateMethod();
+  constexpr bool& __cordl_internal_get_m_InsideUpdateMethod();
 
-  constexpr bool const& __get_m_InsideUpdateMethod() const;
+  constexpr bool const& __cordl_internal_get_m_InsideUpdateMethod() const;
 
-  constexpr void __set_m_InsideUpdateMethod(bool value);
+  constexpr void __cordl_internal_set_m_InsideUpdateMethod(bool value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>*& __get_m_providerMap();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>*& __cordl_internal_get_m_providerMap();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>*> const&
-  __get_m_providerMap() const;
+  __cordl_internal_get_m_providerMap() const;
 
-  constexpr void __set_m_providerMap(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* value);
+  constexpr void __cordl_internal_set_m_providerMap(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*, ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*&
-  __get_m_AssetOperationCache();
+  __cordl_internal_get_m_AssetOperationCache();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*, ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*> const&
-  __get_m_AssetOperationCache() const;
+  __cordl_internal_get_m_AssetOperationCache() const;
 
-  constexpr void __set_m_AssetOperationCache(
+  constexpr void __cordl_internal_set_m_AssetOperationCache(
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*, ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::__ResourceManager__InstanceOperation*>*& __get_m_TrackedInstanceOperations();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::__ResourceManager__InstanceOperation*>*& __cordl_internal_get_m_TrackedInstanceOperations();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::__ResourceManager__InstanceOperation*>*> const&
-  __get_m_TrackedInstanceOperations() const;
+  __cordl_internal_get_m_TrackedInstanceOperations() const;
 
-  constexpr void __set_m_TrackedInstanceOperations(::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::__ResourceManager__InstanceOperation*>* value);
+  constexpr void __cordl_internal_set_m_TrackedInstanceOperations(::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::__ResourceManager__InstanceOperation*>* value);
 
-  constexpr ::GlobalNamespace::DelegateList_1<float_t>*& __get_m_UpdateCallbacks();
+  constexpr ::GlobalNamespace::DelegateList_1<float_t>*& __cordl_internal_get_m_UpdateCallbacks();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DelegateList_1<float_t>*> const& __get_m_UpdateCallbacks() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DelegateList_1<float_t>*> const& __cordl_internal_get_m_UpdateCallbacks() const;
 
-  constexpr void __set_m_UpdateCallbacks(::GlobalNamespace::DelegateList_1<float_t>* value);
+  constexpr void __cordl_internal_set_m_UpdateCallbacks(::GlobalNamespace::DelegateList_1<float_t>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& __get_m_DeferredCompleteCallbacks();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& __cordl_internal_get_m_DeferredCompleteCallbacks();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*> const&
-  __get_m_DeferredCompleteCallbacks() const;
+  __cordl_internal_get_m_DeferredCompleteCallbacks() const;
 
-  constexpr void __set_m_DeferredCompleteCallbacks(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
+  constexpr void __cordl_internal_set_m_DeferredCompleteCallbacks(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
 
-  constexpr bool& __get_m_InsideExecuteDeferredCallbacksMethod();
+  constexpr bool& __cordl_internal_get_m_InsideExecuteDeferredCallbacksMethod();
 
-  constexpr bool const& __get_m_InsideExecuteDeferredCallbacksMethod() const;
+  constexpr bool const& __cordl_internal_get_m_InsideExecuteDeferredCallbacksMethod() const;
 
-  constexpr void __set_m_InsideExecuteDeferredCallbacksMethod(bool value);
+  constexpr void __cordl_internal_set_m_InsideExecuteDeferredCallbacksMethod(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::__ResourceManager__DeferredCallbackRegisterRequest>*& __get_m_DeferredCallbacksToRegister();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::__ResourceManager__DeferredCallbackRegisterRequest>*& __cordl_internal_get_m_DeferredCallbacksToRegister();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::__ResourceManager__DeferredCallbackRegisterRequest>*> const&
-  __get_m_DeferredCallbacksToRegister() const;
+  __cordl_internal_get_m_DeferredCallbacksToRegister() const;
 
-  constexpr void __set_m_DeferredCallbacksToRegister(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::__ResourceManager__DeferredCallbackRegisterRequest>* value);
+  constexpr void
+  __cordl_internal_set_m_DeferredCallbacksToRegister(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::__ResourceManager__DeferredCallbackRegisterRequest>* value);
 
   constexpr ::System::Action_4<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventType, int32_t,
                                ::System::Object*>*&
-  __get_m_obsoleteDiagnosticsHandler();
+  __cordl_internal_get_m_obsoleteDiagnosticsHandler();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_4<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle,
                                                                    ::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventType, int32_t, ::System::Object*>*> const&
-  __get_m_obsoleteDiagnosticsHandler() const;
+  __cordl_internal_get_m_obsoleteDiagnosticsHandler() const;
 
-  constexpr void __set_m_obsoleteDiagnosticsHandler(::System::Action_4<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle,
-                                                                       ::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventType, int32_t, ::System::Object*>* value);
+  constexpr void __cordl_internal_set_m_obsoleteDiagnosticsHandler(::System::Action_4<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle,
+                                                                                      ::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventType, int32_t, ::System::Object*>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventContext>*& __get_m_diagnosticsHandler();
+  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventContext>*& __cordl_internal_get_m_diagnosticsHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventContext>*> const& __get_m_diagnosticsHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventContext>*> const&
+  __cordl_internal_get_m_diagnosticsHandler() const;
 
-  constexpr void __set_m_diagnosticsHandler(::System::Action_1<::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventContext>* value);
+  constexpr void __cordl_internal_set_m_diagnosticsHandler(::System::Action_1<::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventContext>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& __get_m_ReleaseOpNonCached();
+  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& __cordl_internal_get_m_ReleaseOpNonCached();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*> const& __get_m_ReleaseOpNonCached() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*> const& __cordl_internal_get_m_ReleaseOpNonCached() const;
 
-  constexpr void __set_m_ReleaseOpNonCached(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
+  constexpr void __cordl_internal_set_m_ReleaseOpNonCached(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& __get_m_ReleaseOpCached();
+  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& __cordl_internal_get_m_ReleaseOpCached();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*> const& __get_m_ReleaseOpCached() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*> const& __cordl_internal_get_m_ReleaseOpCached() const;
 
-  constexpr void __set_m_ReleaseOpCached(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
+  constexpr void __cordl_internal_set_m_ReleaseOpCached(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& __get_m_ReleaseInstanceOp();
+  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*& __cordl_internal_get_m_ReleaseInstanceOp();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*> const& __get_m_ReleaseInstanceOp() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*> const& __cordl_internal_get_m_ReleaseInstanceOp() const;
 
-  constexpr void __set_m_ReleaseInstanceOp(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
+  constexpr void __cordl_internal_set_m_ReleaseInstanceOp(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
 
-  constexpr ::UnityEngine::Networking::CertificateHandler*& __get__CertificateHandlerInstance_k__BackingField();
+  constexpr ::UnityEngine::Networking::CertificateHandler*& __cordl_internal_get__CertificateHandlerInstance_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::CertificateHandler*> const& __get__CertificateHandlerInstance_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::CertificateHandler*> const& __cordl_internal_get__CertificateHandlerInstance_k__BackingField() const;
 
-  constexpr void __set__CertificateHandlerInstance_k__BackingField(::UnityEngine::Networking::CertificateHandler* value);
+  constexpr void __cordl_internal_set__CertificateHandlerInstance_k__BackingField(::UnityEngine::Networking::CertificateHandler* value);
 
-  constexpr bool& __get_m_RegisteredForCallbacks();
+  constexpr bool& __cordl_internal_get_m_RegisteredForCallbacks();
 
-  constexpr bool const& __get_m_RegisteredForCallbacks() const;
+  constexpr bool const& __cordl_internal_get_m_RegisteredForCallbacks() const;
 
-  constexpr void __set_m_RegisteredForCallbacks(bool value);
+  constexpr void __cordl_internal_set_m_RegisteredForCallbacks(bool value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*& __get_m_ProviderOperationTypeCache();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*& __cordl_internal_get_m_ProviderOperationTypeCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*> const& __get_m_ProviderOperationTypeCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>*> const& __cordl_internal_get_m_ProviderOperationTypeCache() const;
 
-  constexpr void __set_m_ProviderOperationTypeCache(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* value);
+  constexpr void __cordl_internal_set_m_ProviderOperationTypeCache(::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* value);
 
   static inline void setStaticF__ExceptionHandler_k__BackingField(::System::Action_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::System::Exception*>* value);
 
@@ -1220,7 +1229,7 @@ public:
                ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle);
 
   /// @brief Method ProvideInstance, addr 0x2bcd5a0, size 0x2b4, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   ProvideInstance(::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* provider, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                   ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters);
 

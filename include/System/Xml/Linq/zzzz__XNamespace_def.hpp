@@ -29,20 +29,20 @@ MARK_REF_PTR_T(::System::Xml::Linq::XNamespace);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15452))
 // CS Name: ::System.Xml.Linq::XNamespace*
 class CORDL_TYPE XNamespace : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _namespaceName, offset 0x10, size 0x8
-  __declspec(property(get = __get__namespaceName, put = __set__namespaceName))::StringW _namespaceName;
+  __declspec(property(get = __cordl_internal_get__namespaceName, put = __cordl_internal_set__namespaceName))::StringW _namespaceName;
 
   /// @brief Field _hashCode, offset 0x18, size 0x4
-  __declspec(property(get = __get__hashCode, put = __set__hashCode)) int32_t _hashCode;
+  __declspec(property(get = __cordl_internal_get__hashCode, put = __cordl_internal_set__hashCode)) int32_t _hashCode;
 
   /// @brief Field _names, offset 0x20, size 0x8
-  __declspec(property(get = __get__names, put = __set__names))::System::Xml::Linq::XHashtable_1<::System::Xml::Linq::XName*>* _names;
+  __declspec(property(get = __cordl_internal_get__names, put = __cordl_internal_set__names))::System::Xml::Linq::XHashtable_1<::System::Xml::Linq::XName*>* _names;
 
   /// @brief Field s_namespaces, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_namespaces, put = setStaticF_s_namespaces))::System::Xml::Linq::XHashtable_1<::System::WeakReference*>* s_namespaces;
@@ -58,23 +58,23 @@ public:
 
   __declspec(property(get = get_NamespaceName))::StringW NamespaceName;
 
-  constexpr ::StringW& __get__namespaceName();
+  constexpr ::StringW& __cordl_internal_get__namespaceName();
 
-  constexpr ::StringW const& __get__namespaceName() const;
+  constexpr ::StringW const& __cordl_internal_get__namespaceName() const;
 
-  constexpr void __set__namespaceName(::StringW value);
+  constexpr void __cordl_internal_set__namespaceName(::StringW value);
 
-  constexpr int32_t& __get__hashCode();
+  constexpr int32_t& __cordl_internal_get__hashCode();
 
-  constexpr int32_t const& __get__hashCode() const;
+  constexpr int32_t const& __cordl_internal_get__hashCode() const;
 
-  constexpr void __set__hashCode(int32_t value);
+  constexpr void __cordl_internal_set__hashCode(int32_t value);
 
-  constexpr ::System::Xml::Linq::XHashtable_1<::System::Xml::Linq::XName*>*& __get__names();
+  constexpr ::System::Xml::Linq::XHashtable_1<::System::Xml::Linq::XName*>*& __cordl_internal_get__names();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XHashtable_1<::System::Xml::Linq::XName*>*> const& __get__names() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XHashtable_1<::System::Xml::Linq::XName*>*> const& __cordl_internal_get__names() const;
 
-  constexpr void __set__names(::System::Xml::Linq::XHashtable_1<::System::Xml::Linq::XName*>* value);
+  constexpr void __cordl_internal_set__names(::System::Xml::Linq::XHashtable_1<::System::Xml::Linq::XName*>* value);
 
   static inline void setStaticF_s_namespaces(::System::Xml::Linq::XHashtable_1<::System::WeakReference*>* value);
 

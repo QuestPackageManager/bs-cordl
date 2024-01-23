@@ -15,7 +15,7 @@ MARK_VAL_T(::HoudiniEngineUnity::JSONNodeType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9860))
 // CS Name: ::HoudiniEngineUnity::JSONNodeType
 struct CORDL_TYPE JSONNodeType {

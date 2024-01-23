@@ -17,33 +17,33 @@ MARK_REF_PTR_T(::System::UnhandledExceptionEventArgs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2502))
 // CS Name: ::System::UnhandledExceptionEventArgs*
 class CORDL_TYPE UnhandledExceptionEventArgs : public ::System::EventArgs {
 public:
   // Declarations
   /// @brief Field _exception, offset 0x10, size 0x8
-  __declspec(property(get = __get__exception, put = __set__exception))::System::Object* _exception;
+  __declspec(property(get = __cordl_internal_get__exception, put = __cordl_internal_set__exception))::System::Object* _exception;
 
   /// @brief Field _isTerminating, offset 0x18, size 0x1
-  __declspec(property(get = __get__isTerminating, put = __set__isTerminating)) bool _isTerminating;
+  __declspec(property(get = __cordl_internal_get__isTerminating, put = __cordl_internal_set__isTerminating)) bool _isTerminating;
 
   __declspec(property(get = get_ExceptionObject))::System::Object* ExceptionObject;
 
   __declspec(property(get = get_IsTerminating)) bool IsTerminating;
 
-  constexpr ::System::Object*& __get__exception();
+  constexpr ::System::Object*& __cordl_internal_get__exception();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__exception() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__exception() const;
 
-  constexpr void __set__exception(::System::Object* value);
+  constexpr void __cordl_internal_set__exception(::System::Object* value);
 
-  constexpr bool& __get__isTerminating();
+  constexpr bool& __cordl_internal_get__isTerminating();
 
-  constexpr bool const& __get__isTerminating() const;
+  constexpr bool const& __cordl_internal_get__isTerminating() const;
 
-  constexpr void __set__isTerminating(bool value);
+  constexpr void __cordl_internal_set__isTerminating(bool value);
 
   static inline ::System::UnhandledExceptionEventArgs* New_ctor(::System::Object* exception, bool isTerminating);
 

@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::ShaderWarmupSceneSetup);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6082))
 // CS Name: ::ShaderWarmupSceneSetup*
 class CORDL_TYPE ShaderWarmupSceneSetup : public ::Zenject::MonoInstaller {
 public:
   // Declarations
   /// @brief Field _sharedWarmupColorScheme, offset 0x20, size 0x8
-  __declspec(property(get = __get__sharedWarmupColorScheme, put = __set__sharedWarmupColorScheme))::GlobalNamespace::ColorSchemeSO* _sharedWarmupColorScheme;
+  __declspec(property(get = __cordl_internal_get__sharedWarmupColorScheme, put = __cordl_internal_set__sharedWarmupColorScheme))::UnityW<::GlobalNamespace::ColorSchemeSO> _sharedWarmupColorScheme;
 
-  constexpr ::GlobalNamespace::ColorSchemeSO*& __get__sharedWarmupColorScheme();
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO>& __cordl_internal_get__sharedWarmupColorScheme();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeSO*> const& __get__sharedWarmupColorScheme() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO> const& __cordl_internal_get__sharedWarmupColorScheme() const;
 
-  constexpr void __set__sharedWarmupColorScheme(::GlobalNamespace::ColorSchemeSO* value);
+  constexpr void __cordl_internal_set__sharedWarmupColorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
 
   /// @brief Method InstallBindings, addr 0x2320098, size 0xb8, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -55,7 +55,7 @@ protected:
 
 public:
   /// @brief Field _sharedWarmupColorScheme, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSchemeSO* ____sharedWarmupColorScheme;
+  ::UnityW<::GlobalNamespace::ColorSchemeSO> ____sharedWarmupColorScheme;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

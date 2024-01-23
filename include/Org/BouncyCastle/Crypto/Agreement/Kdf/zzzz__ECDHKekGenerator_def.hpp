@@ -28,23 +28,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::Kdf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(726))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.Kdf::ECDHKekGenerator*
 class CORDL_TYPE ECDHKekGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field kdf, offset 0x10, size 0x8
-  __declspec(property(get = __get_kdf, put = __set_kdf))::Org::BouncyCastle::Crypto::IDerivationFunction* kdf;
+  __declspec(property(get = __cordl_internal_get_kdf, put = __cordl_internal_set_kdf))::Org::BouncyCastle::Crypto::IDerivationFunction* kdf;
 
   /// @brief Field algorithm, offset 0x18, size 0x8
-  __declspec(property(get = __get_algorithm, put = __set_algorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm;
+  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm;
 
   /// @brief Field keySize, offset 0x20, size 0x4
-  __declspec(property(get = __get_keySize, put = __set_keySize)) int32_t keySize;
+  __declspec(property(get = __cordl_internal_get_keySize, put = __cordl_internal_set_keySize)) int32_t keySize;
 
   /// @brief Field z, offset 0x28, size 0x8
-  __declspec(property(get = __get_z, put = __set_z))::ArrayW<uint8_t, ::Array<uint8_t>*> z;
+  __declspec(property(get = __cordl_internal_get_z, put = __cordl_internal_set_z))::ArrayW<uint8_t, ::Array<uint8_t>*> z;
 
   __declspec(property(get = get_Digest))::Org::BouncyCastle::Crypto::IDigest* Digest;
 
@@ -54,29 +54,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction* i___Org__BouncyCastle__Crypto__IDerivationFunction() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction*& __get_kdf();
+  constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction*& __cordl_internal_get_kdf();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDerivationFunction*> const& __get_kdf() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDerivationFunction*> const& __cordl_internal_get_kdf() const;
 
-  constexpr void __set_kdf(::Org::BouncyCastle::Crypto::IDerivationFunction* value);
+  constexpr void __cordl_internal_set_kdf(::Org::BouncyCastle::Crypto::IDerivationFunction* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_algorithm();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_algorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_algorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_algorithm() const;
 
-  constexpr void __set_algorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr int32_t& __get_keySize();
+  constexpr int32_t& __cordl_internal_get_keySize();
 
-  constexpr int32_t const& __get_keySize() const;
+  constexpr int32_t const& __cordl_internal_get_keySize() const;
 
-  constexpr void __set_keySize(int32_t value);
+  constexpr void __cordl_internal_set_keySize(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_z();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_z();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_z() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_z() const;
 
-  constexpr void __set_z(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_z(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 

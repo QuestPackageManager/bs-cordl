@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::KeyDownEvent);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7240), inst: 3943 }), TypeDefinitionIndex(TypeDefinitionIndex(7240))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7240)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7240), inst: 3943 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7241))
 // CS Name: ::UnityEngine.UIElements::KeyDownEvent*
 class CORDL_TYPE KeyDownEvent : public ::UnityEngine::UIElements::KeyboardEventBase_1<::UnityEngine::UIElements::KeyDownEvent*> {

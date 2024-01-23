@@ -17,29 +17,34 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15260))
 // CS Name: ::BeatSaber.BeatAvatarAdapter::BeatAvatarSystemSettings*
 class CORDL_TYPE BeatAvatarSystemSettings : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _avatarGameplayPrefab, offset 0x18, size 0x8
-  __declspec(property(get = __get__avatarGameplayPrefab, put = __set__avatarGameplayPrefab))::UnityEngine::AddressableAssets::AssetReferenceGameObject* _avatarGameplayPrefab;
+  __declspec(property(get = __cordl_internal_get__avatarGameplayPrefab,
+                      put = __cordl_internal_set__avatarGameplayPrefab))::UnityEngine::AddressableAssets::AssetReferenceGameObject* _avatarGameplayPrefab;
 
   /// @brief Field _avatarResultsPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__avatarResultsPrefab, put = __set__avatarResultsPrefab))::UnityEngine::AddressableAssets::AssetReferenceGameObject* _avatarResultsPrefab;
+  __declspec(property(get = __cordl_internal_get__avatarResultsPrefab,
+                      put = __cordl_internal_set__avatarResultsPrefab))::UnityEngine::AddressableAssets::AssetReferenceGameObject* _avatarResultsPrefab;
 
   /// @brief Field _avatarHologramPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __get__avatarHologramPrefab, put = __set__avatarHologramPrefab))::UnityEngine::AddressableAssets::AssetReferenceGameObject* _avatarHologramPrefab;
+  __declspec(property(get = __cordl_internal_get__avatarHologramPrefab,
+                      put = __cordl_internal_set__avatarHologramPrefab))::UnityEngine::AddressableAssets::AssetReferenceGameObject* _avatarHologramPrefab;
 
   /// @brief Field _avatarEditorPrefab, offset 0x30, size 0x8
-  __declspec(property(get = __get__avatarEditorPrefab, put = __set__avatarEditorPrefab))::UnityEngine::AddressableAssets::AssetReferenceGameObject* _avatarEditorPrefab;
+  __declspec(property(get = __cordl_internal_get__avatarEditorPrefab, put = __cordl_internal_set__avatarEditorPrefab))::UnityEngine::AddressableAssets::AssetReferenceGameObject* _avatarEditorPrefab;
 
   /// @brief Field _avatarSelectionViewPrefab, offset 0x38, size 0x8
-  __declspec(property(get = __get__avatarSelectionViewPrefab, put = __set__avatarSelectionViewPrefab))::UnityEngine::AddressableAssets::AssetReferenceGameObject* _avatarSelectionViewPrefab;
+  __declspec(property(get = __cordl_internal_get__avatarSelectionViewPrefab,
+                      put = __cordl_internal_set__avatarSelectionViewPrefab))::UnityEngine::AddressableAssets::AssetReferenceGameObject* _avatarSelectionViewPrefab;
 
   /// @brief Field _avatarForUnityEditorPrefab, offset 0x40, size 0x8
-  __declspec(property(get = __get__avatarForUnityEditorPrefab, put = __set__avatarForUnityEditorPrefab))::UnityEngine::AddressableAssets::AssetReferenceGameObject* _avatarForUnityEditorPrefab;
+  __declspec(property(get = __cordl_internal_get__avatarForUnityEditorPrefab,
+                      put = __cordl_internal_set__avatarForUnityEditorPrefab))::UnityEngine::AddressableAssets::AssetReferenceGameObject* _avatarForUnityEditorPrefab;
 
   __declspec(property(get = get_avatarGameplayPrefab))::UnityEngine::AddressableAssets::AssetReferenceGameObject* avatarGameplayPrefab;
 
@@ -53,41 +58,41 @@ public:
 
   __declspec(property(get = get_avatarForUnityEditorPrefab))::UnityEngine::AddressableAssets::AssetReferenceGameObject* avatarForUnityEditorPrefab;
 
-  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __get__avatarGameplayPrefab();
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __cordl_internal_get__avatarGameplayPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __get__avatarGameplayPrefab() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __cordl_internal_get__avatarGameplayPrefab() const;
 
-  constexpr void __set__avatarGameplayPrefab(::UnityEngine::AddressableAssets::AssetReferenceGameObject* value);
+  constexpr void __cordl_internal_set__avatarGameplayPrefab(::UnityEngine::AddressableAssets::AssetReferenceGameObject* value);
 
-  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __get__avatarResultsPrefab();
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __cordl_internal_get__avatarResultsPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __get__avatarResultsPrefab() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __cordl_internal_get__avatarResultsPrefab() const;
 
-  constexpr void __set__avatarResultsPrefab(::UnityEngine::AddressableAssets::AssetReferenceGameObject* value);
+  constexpr void __cordl_internal_set__avatarResultsPrefab(::UnityEngine::AddressableAssets::AssetReferenceGameObject* value);
 
-  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __get__avatarHologramPrefab();
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __cordl_internal_get__avatarHologramPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __get__avatarHologramPrefab() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __cordl_internal_get__avatarHologramPrefab() const;
 
-  constexpr void __set__avatarHologramPrefab(::UnityEngine::AddressableAssets::AssetReferenceGameObject* value);
+  constexpr void __cordl_internal_set__avatarHologramPrefab(::UnityEngine::AddressableAssets::AssetReferenceGameObject* value);
 
-  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __get__avatarEditorPrefab();
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __cordl_internal_get__avatarEditorPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __get__avatarEditorPrefab() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __cordl_internal_get__avatarEditorPrefab() const;
 
-  constexpr void __set__avatarEditorPrefab(::UnityEngine::AddressableAssets::AssetReferenceGameObject* value);
+  constexpr void __cordl_internal_set__avatarEditorPrefab(::UnityEngine::AddressableAssets::AssetReferenceGameObject* value);
 
-  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __get__avatarSelectionViewPrefab();
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __cordl_internal_get__avatarSelectionViewPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __get__avatarSelectionViewPrefab() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __cordl_internal_get__avatarSelectionViewPrefab() const;
 
-  constexpr void __set__avatarSelectionViewPrefab(::UnityEngine::AddressableAssets::AssetReferenceGameObject* value);
+  constexpr void __cordl_internal_set__avatarSelectionViewPrefab(::UnityEngine::AddressableAssets::AssetReferenceGameObject* value);
 
-  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __get__avatarForUnityEditorPrefab();
+  constexpr ::UnityEngine::AddressableAssets::AssetReferenceGameObject*& __cordl_internal_get__avatarForUnityEditorPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __get__avatarForUnityEditorPrefab() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReferenceGameObject*> const& __cordl_internal_get__avatarForUnityEditorPrefab() const;
 
-  constexpr void __set__avatarForUnityEditorPrefab(::UnityEngine::AddressableAssets::AssetReferenceGameObject* value);
+  constexpr void __cordl_internal_set__avatarForUnityEditorPrefab(::UnityEngine::AddressableAssets::AssetReferenceGameObject* value);
 
   /// @brief Method get_avatarGameplayPrefab, addr 0xe14b78, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* get_avatarGameplayPrefab();

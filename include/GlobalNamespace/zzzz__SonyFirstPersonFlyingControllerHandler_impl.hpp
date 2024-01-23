@@ -10,31 +10,31 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x22ee8bc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyFirstPersonFlyingControllerHandler*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::FirstPersonFlyingController*& GlobalNamespace::SonyFirstPersonFlyingControllerHandler::__get__fpsFlying() {
+constexpr ::UnityW<::GlobalNamespace::FirstPersonFlyingController>& GlobalNamespace::SonyFirstPersonFlyingControllerHandler::__cordl_internal_get__fpsFlying() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fpsFlying;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FirstPersonFlyingController*> const& GlobalNamespace::SonyFirstPersonFlyingControllerHandler::__get__fpsFlying() const {
+constexpr ::UnityW<::GlobalNamespace::FirstPersonFlyingController> const& GlobalNamespace::SonyFirstPersonFlyingControllerHandler::__cordl_internal_get__fpsFlying() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fpsFlying;
 }
-constexpr void GlobalNamespace::SonyFirstPersonFlyingControllerHandler::__set__fpsFlying(::GlobalNamespace::FirstPersonFlyingController* value) {
+constexpr void GlobalNamespace::SonyFirstPersonFlyingControllerHandler::__cordl_internal_set__fpsFlying(::UnityW<::GlobalNamespace::FirstPersonFlyingController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fpsFlying)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::SonyFirstPersonFlyingControllerHandler* GlobalNamespace::SonyFirstPersonFlyingControllerHandler::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::SonyFirstPersonFlyingControllerHandler*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SonyFirstPersonFlyingControllerHandler*>());
 }
 inline void GlobalNamespace::SonyFirstPersonFlyingControllerHandler::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SonyFirstPersonFlyingControllerHandler*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

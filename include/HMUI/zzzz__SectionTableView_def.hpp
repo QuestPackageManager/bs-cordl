@@ -51,7 +51,7 @@ MARK_VAL_T(::HMUI::__SectionTableView__Section);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13661))
 // CS Name: ::SectionTableView::IDataSource*
 class CORDL_TYPE __SectionTableView__IDataSource {
@@ -67,10 +67,10 @@ public:
   inline int32_t NumberOfRowsInSection(int32_t section);
 
   /// @brief Method CellForSectionHeader, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::HMUI::TableCell* CellForSectionHeader(int32_t section, bool unfolded);
+  inline ::UnityW<::HMUI::TableCell> CellForSectionHeader(int32_t section, bool unfolded);
 
   /// @brief Method CellForRowInSection, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::HMUI::TableCell* CellForRowInSection(int32_t section, int32_t row);
+  inline ::UnityW<::HMUI::TableCell> CellForRowInSection(int32_t section, int32_t row);
 
   // Ctor Parameters [CppParam { name: "", ty: "__SectionTableView__IDataSource", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -88,7 +88,7 @@ public:
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13662))
 // CS Name: ::SectionTableView::Section
 struct CORDL_TYPE __SectionTableView__Section {
@@ -130,7 +130,7 @@ static_assert(offsetof(::HMUI::__SectionTableView__Section, numberOfBaseRows) ==
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13669))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13669))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13663))
 // CS Name: ::HMUI::SectionTableView*
 class CORDL_TYPE SectionTableView : public ::HMUI::TableView {
@@ -141,19 +141,22 @@ public:
   using IDataSource = ::HMUI::__SectionTableView__IDataSource;
 
   /// @brief Field _unfoldSectionsByDefault, offset 0xa2, size 0x1
-  __declspec(property(get = __get__unfoldSectionsByDefault, put = __set__unfoldSectionsByDefault)) bool _unfoldSectionsByDefault;
+  __declspec(property(get = __cordl_internal_get__unfoldSectionsByDefault, put = __cordl_internal_set__unfoldSectionsByDefault)) bool _unfoldSectionsByDefault;
 
   /// @brief Field didSelectRowInSectionEvent, offset 0xa8, size 0x8
-  __declspec(property(get = __get_didSelectRowInSectionEvent, put = __set_didSelectRowInSectionEvent))::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>* didSelectRowInSectionEvent;
+  __declspec(property(get = __cordl_internal_get_didSelectRowInSectionEvent,
+                      put = __cordl_internal_set_didSelectRowInSectionEvent))::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>* didSelectRowInSectionEvent;
 
   /// @brief Field didSelectHeaderEvent, offset 0xb0, size 0x8
-  __declspec(property(get = __get_didSelectHeaderEvent, put = __set_didSelectHeaderEvent))::System::Action_2<::HMUI::SectionTableView*, int32_t>* didSelectHeaderEvent;
+  __declspec(property(get = __cordl_internal_get_didSelectHeaderEvent,
+                      put = __cordl_internal_set_didSelectHeaderEvent))::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>* didSelectHeaderEvent;
 
   /// @brief Field _dataSource, offset 0xb8, size 0x8
-  __declspec(property(get = __get__dataSource, put = __set__dataSource))::HMUI::__SectionTableView__IDataSource* _dataSource;
+  __declspec(property(get = __cordl_internal_get__dataSource, put = __cordl_internal_set__dataSource))::HMUI::__SectionTableView__IDataSource* _dataSource;
 
   /// @brief Field _sections, offset 0xc0, size 0x8
-  __declspec(property(get = __get__sections, put = __set__sections))::ArrayW<::HMUI::__SectionTableView__Section, ::Array<::HMUI::__SectionTableView__Section>*> _sections;
+  __declspec(property(get = __cordl_internal_get__sections,
+                      put = __cordl_internal_set__sections))::ArrayW<::HMUI::__SectionTableView__Section, ::Array<::HMUI::__SectionTableView__Section>*> _sections;
 
   __declspec(property(get = get_dataSource, put = set_dataSource))::HMUI::__SectionTableView__IDataSource* dataSource;
 
@@ -163,47 +166,47 @@ public:
   /// @brief Convert to "::HMUI::__TableView__IDataSource"
   constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
-  constexpr bool& __get__unfoldSectionsByDefault();
+  constexpr bool& __cordl_internal_get__unfoldSectionsByDefault();
 
-  constexpr bool const& __get__unfoldSectionsByDefault() const;
+  constexpr bool const& __cordl_internal_get__unfoldSectionsByDefault() const;
 
-  constexpr void __set__unfoldSectionsByDefault(bool value);
+  constexpr void __cordl_internal_set__unfoldSectionsByDefault(bool value);
 
-  constexpr ::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>*& __get_didSelectRowInSectionEvent();
+  constexpr ::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>*& __cordl_internal_get_didSelectRowInSectionEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>*> const& __get_didSelectRowInSectionEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>*> const& __cordl_internal_get_didSelectRowInSectionEvent() const;
 
-  constexpr void __set_didSelectRowInSectionEvent(::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>* value);
+  constexpr void __cordl_internal_set_didSelectRowInSectionEvent(::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>* value);
 
-  constexpr ::System::Action_2<::HMUI::SectionTableView*, int32_t>*& __get_didSelectHeaderEvent();
+  constexpr ::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>*& __cordl_internal_get_didSelectHeaderEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::HMUI::SectionTableView*, int32_t>*> const& __get_didSelectHeaderEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>*> const& __cordl_internal_get_didSelectHeaderEvent() const;
 
-  constexpr void __set_didSelectHeaderEvent(::System::Action_2<::HMUI::SectionTableView*, int32_t>* value);
+  constexpr void __cordl_internal_set_didSelectHeaderEvent(::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>* value);
 
-  constexpr ::HMUI::__SectionTableView__IDataSource*& __get__dataSource();
+  constexpr ::HMUI::__SectionTableView__IDataSource*& __cordl_internal_get__dataSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::__SectionTableView__IDataSource*> const& __get__dataSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::__SectionTableView__IDataSource*> const& __cordl_internal_get__dataSource() const;
 
-  constexpr void __set__dataSource(::HMUI::__SectionTableView__IDataSource* value);
+  constexpr void __cordl_internal_set__dataSource(::HMUI::__SectionTableView__IDataSource* value);
 
-  constexpr ::ArrayW<::HMUI::__SectionTableView__Section, ::Array<::HMUI::__SectionTableView__Section>*>& __get__sections();
+  constexpr ::ArrayW<::HMUI::__SectionTableView__Section, ::Array<::HMUI::__SectionTableView__Section>*>& __cordl_internal_get__sections();
 
-  constexpr ::ArrayW<::HMUI::__SectionTableView__Section, ::Array<::HMUI::__SectionTableView__Section>*> const& __get__sections() const;
+  constexpr ::ArrayW<::HMUI::__SectionTableView__Section, ::Array<::HMUI::__SectionTableView__Section>*> const& __cordl_internal_get__sections() const;
 
-  constexpr void __set__sections(::ArrayW<::HMUI::__SectionTableView__Section, ::Array<::HMUI::__SectionTableView__Section>*> value);
+  constexpr void __cordl_internal_set__sections(::ArrayW<::HMUI::__SectionTableView__Section, ::Array<::HMUI::__SectionTableView__Section>*> value);
 
   /// @brief Method add_didSelectRowInSectionEvent, addr 0x2146fdc, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectRowInSectionEvent(::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>* value);
+  inline void add_didSelectRowInSectionEvent(::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>* value);
 
   /// @brief Method remove_didSelectRowInSectionEvent, addr 0x214708c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectRowInSectionEvent(::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>* value);
+  inline void remove_didSelectRowInSectionEvent(::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>* value);
 
   /// @brief Method add_didSelectHeaderEvent, addr 0x214713c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectHeaderEvent(::System::Action_2<::HMUI::SectionTableView*, int32_t>* value);
+  inline void add_didSelectHeaderEvent(::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>* value);
 
   /// @brief Method remove_didSelectHeaderEvent, addr 0x21471ec, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectHeaderEvent(::System::Action_2<::HMUI::SectionTableView*, int32_t>* value);
+  inline void remove_didSelectHeaderEvent(::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>* value);
 
   /// @brief Method get_dataSource, addr 0x214729c, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::__SectionTableView__IDataSource* get_dataSource();
@@ -221,7 +224,7 @@ public:
   inline int32_t NumberOfCells();
 
   /// @brief Method CellForIdx, addr 0x21473e4, size 0x184, virtual true, abstract: false, final true
-  inline ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int32_t baseRow);
+  inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t baseRow);
 
   /// @brief Method ReloadData, addr 0x2147648, size 0x8, virtual true, abstract: false, final false
   inline void ReloadData();
@@ -273,10 +276,10 @@ public:
   bool ____unfoldSectionsByDefault;
 
   /// @brief Field didSelectRowInSectionEvent, offset: 0xa8, size: 0x8, def value: None
-  ::System::Action_3<::HMUI::SectionTableView*, int32_t, int32_t>* ___didSelectRowInSectionEvent;
+  ::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>* ___didSelectRowInSectionEvent;
 
   /// @brief Field didSelectHeaderEvent, offset: 0xb0, size: 0x8, def value: None
-  ::System::Action_2<::HMUI::SectionTableView*, int32_t>* ___didSelectHeaderEvent;
+  ::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>* ___didSelectHeaderEvent;
 
   /// @brief Field _dataSource, offset: 0xb8, size: 0x8, def value: None
   ::HMUI::__SectionTableView__IDataSource* ____dataSource;

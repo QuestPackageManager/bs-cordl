@@ -39,47 +39,47 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRComposition);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7535)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7535))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7504))
 // CS Name: ::OVRComposition*
 class CORDL_TYPE OVRComposition : public ::System::Object {
 public:
   // Declarations
   /// @brief Field cameraInTrackingSpace, offset 0x10, size 0x1
-  __declspec(property(get = __get_cameraInTrackingSpace, put = __set_cameraInTrackingSpace)) bool cameraInTrackingSpace;
+  __declspec(property(get = __cordl_internal_get_cameraInTrackingSpace, put = __cordl_internal_set_cameraInTrackingSpace)) bool cameraInTrackingSpace;
 
   /// @brief Field cameraRig, offset 0x18, size 0x8
-  __declspec(property(get = __get_cameraRig, put = __set_cameraRig))::GlobalNamespace::OVRCameraRig* cameraRig;
+  __declspec(property(get = __cordl_internal_get_cameraRig, put = __cordl_internal_set_cameraRig))::UnityW<::GlobalNamespace::OVRCameraRig> cameraRig;
 
   /// @brief Field usingLastAttachedNodePose, offset 0x20, size 0x1
-  __declspec(property(get = __get_usingLastAttachedNodePose, put = __set_usingLastAttachedNodePose)) bool usingLastAttachedNodePose;
+  __declspec(property(get = __cordl_internal_get_usingLastAttachedNodePose, put = __cordl_internal_set_usingLastAttachedNodePose)) bool usingLastAttachedNodePose;
 
   /// @brief Field lastAttachedNodePose, offset 0x24, size 0x1c
-  __declspec(property(get = __get_lastAttachedNodePose, put = __set_lastAttachedNodePose))::GlobalNamespace::OVRPose lastAttachedNodePose;
+  __declspec(property(get = __cordl_internal_get_lastAttachedNodePose, put = __cordl_internal_set_lastAttachedNodePose))::GlobalNamespace::OVRPose lastAttachedNodePose;
 
-  constexpr bool& __get_cameraInTrackingSpace();
+  constexpr bool& __cordl_internal_get_cameraInTrackingSpace();
 
-  constexpr bool const& __get_cameraInTrackingSpace() const;
+  constexpr bool const& __cordl_internal_get_cameraInTrackingSpace() const;
 
-  constexpr void __set_cameraInTrackingSpace(bool value);
+  constexpr void __cordl_internal_set_cameraInTrackingSpace(bool value);
 
-  constexpr ::GlobalNamespace::OVRCameraRig*& __get_cameraRig();
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get_cameraRig();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRCameraRig*> const& __get_cameraRig() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_cameraRig() const;
 
-  constexpr void __set_cameraRig(::GlobalNamespace::OVRCameraRig* value);
+  constexpr void __cordl_internal_set_cameraRig(::UnityW<::GlobalNamespace::OVRCameraRig> value);
 
-  constexpr bool& __get_usingLastAttachedNodePose();
+  constexpr bool& __cordl_internal_get_usingLastAttachedNodePose();
 
-  constexpr bool const& __get_usingLastAttachedNodePose() const;
+  constexpr bool const& __cordl_internal_get_usingLastAttachedNodePose() const;
 
-  constexpr void __set_usingLastAttachedNodePose(bool value);
+  constexpr void __cordl_internal_set_usingLastAttachedNodePose(bool value);
 
-  constexpr ::GlobalNamespace::OVRPose& __get_lastAttachedNodePose();
+  constexpr ::GlobalNamespace::OVRPose& __cordl_internal_get_lastAttachedNodePose();
 
-  constexpr ::GlobalNamespace::OVRPose const& __get_lastAttachedNodePose() const;
+  constexpr ::GlobalNamespace::OVRPose const& __cordl_internal_get_lastAttachedNodePose() const;
 
-  constexpr void __set_lastAttachedNodePose(::GlobalNamespace::OVRPose value);
+  constexpr void __cordl_internal_set_lastAttachedNodePose(::GlobalNamespace::OVRPose value);
 
   static inline ::GlobalNamespace::OVRComposition* New_ctor(::UnityEngine::GameObject* parentObject, ::UnityEngine::Camera* mainCamera,
                                                             ::GlobalNamespace::OVRMixedRealityCaptureConfiguration* configuration);
@@ -127,7 +127,7 @@ public:
   bool ___cameraInTrackingSpace;
 
   /// @brief Field cameraRig, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::OVRCameraRig* ___cameraRig;
+  ::UnityW<::GlobalNamespace::OVRCameraRig> ___cameraRig;
 
   /// @brief Field usingLastAttachedNodePose, offset: 0x20, size: 0x1, def value: None
   bool ___usingLastAttachedNodePose;

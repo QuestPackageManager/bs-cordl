@@ -30,21 +30,21 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerPlayerResultsData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5236))
 // CS Name: ::MultiplayerPlayerResultsData*
 class CORDL_TYPE MultiplayerPlayerResultsData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field connectedPlayer, offset 0x10, size 0x8
-  __declspec(property(get = __get_connectedPlayer, put = __set_connectedPlayer))::GlobalNamespace::IConnectedPlayer* connectedPlayer;
+  __declspec(property(get = __cordl_internal_get_connectedPlayer, put = __cordl_internal_set_connectedPlayer))::GlobalNamespace::IConnectedPlayer* connectedPlayer;
 
   /// @brief Field multiplayerLevelCompletionResults, offset 0x18, size 0x8
-  __declspec(property(get = __get_multiplayerLevelCompletionResults,
-                      put = __set_multiplayerLevelCompletionResults))::GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults;
+  __declspec(property(get = __cordl_internal_get_multiplayerLevelCompletionResults,
+                      put = __cordl_internal_set_multiplayerLevelCompletionResults))::GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults;
 
   /// @brief Field badge, offset 0x20, size 0x8
-  __declspec(property(get = __get_badge, put = __set_badge))::GlobalNamespace::MultiplayerBadgeAwardData* badge;
+  __declspec(property(get = __cordl_internal_get_badge, put = __cordl_internal_set_badge))::GlobalNamespace::MultiplayerBadgeAwardData* badge;
 
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
@@ -52,23 +52,23 @@ public:
   /// @brief Convert to "::System::IComparable"
   constexpr ::System::IComparable* i___System__IComparable() noexcept;
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __get_connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get_connectedPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __get_connectedPlayer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get_connectedPlayer() const;
 
-  constexpr void __set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults*& __get_multiplayerLevelCompletionResults();
+  constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults*& __cordl_internal_get_multiplayerLevelCompletionResults();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelCompletionResults*> const& __get_multiplayerLevelCompletionResults() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelCompletionResults*> const& __cordl_internal_get_multiplayerLevelCompletionResults() const;
 
-  constexpr void __set_multiplayerLevelCompletionResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value);
+  constexpr void __cordl_internal_set_multiplayerLevelCompletionResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value);
 
-  constexpr ::GlobalNamespace::MultiplayerBadgeAwardData*& __get_badge();
+  constexpr ::GlobalNamespace::MultiplayerBadgeAwardData*& __cordl_internal_get_badge();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerBadgeAwardData*> const& __get_badge() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerBadgeAwardData*> const& __cordl_internal_get_badge() const;
 
-  constexpr void __set_badge(::GlobalNamespace::MultiplayerBadgeAwardData* value);
+  constexpr void __cordl_internal_set_badge(::GlobalNamespace::MultiplayerBadgeAwardData* value);
 
   static inline ::GlobalNamespace::MultiplayerPlayerResultsData* New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer,
                                                                           ::GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults);

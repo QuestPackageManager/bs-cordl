@@ -18,24 +18,26 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowCon
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4742)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 356 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(5137))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5135)) CS Name: ::MultiplayerConnectedPlayerDisappearingArrowController*
-class CORDL_TYPE MultiplayerConnectedPlayerDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4742)), TypeDefinitionIndex(TypeDefinitionIndex(5137)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 356
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5135)) CS Name: ::MultiplayerConnectedPlayerDisappearingArrowController*
+class CORDL_TYPE MultiplayerConnectedPlayerDisappearingArrowController
+    : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>> {
 public:
   // Declarations
   /// @brief Field _gameNoteController, offset 0x50, size 0x8
-  __declspec(property(get = __get__gameNoteController, put = __set__gameNoteController))::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* _gameNoteController;
+  __declspec(property(get = __cordl_internal_get__gameNoteController,
+                      put = __cordl_internal_set__gameNoteController))::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> _gameNoteController;
 
-  __declspec(property(get = get_gameNoteController))::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* gameNoteController;
+  __declspec(property(get = get_gameNoteController))::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> gameNoteController;
 
-  constexpr ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*& __get__gameNoteController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>& __cordl_internal_get__gameNoteController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*> const& __get__gameNoteController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> const& __cordl_internal_get__gameNoteController() const;
 
-  constexpr void __set__gameNoteController(::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* value);
+  constexpr void __cordl_internal_set__gameNoteController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> value);
 
   /// @brief Method get_gameNoteController, addr 0x23d77ec, size 0x8, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* get_gameNoteController();
+  inline ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> get_gameNoteController();
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerDisappearingArrowController* New_ctor();
 
@@ -57,7 +59,7 @@ protected:
 
 public:
   /// @brief Field _gameNoteController, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController* ____gameNoteController;
+  ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController> ____gameNoteController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

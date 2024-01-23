@@ -44,7 +44,7 @@ MARK_VAL_T(::System::Reflection::MonoMethodInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3476)), TypeDefinitionIndex(TypeDefinitionIndex(3478)), TypeDefinitionIndex(TypeDefinitionIndex(3460))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3460)), TypeDefinitionIndex(TypeDefinitionIndex(3476)), TypeDefinitionIndex(TypeDefinitionIndex(3478))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3522))
 // CS Name: ::System.Reflection::MonoMethodInfo
 struct CORDL_TYPE MonoMethodInfo {

@@ -19,21 +19,24 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatFxGroupEffectCollectionTarget);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4909))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4909))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4904))
 // CS Name: ::FloatFxGroupEffectCollectionTarget*
 class CORDL_TYPE FloatFxGroupEffectCollectionTarget : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
   // Declarations
   /// @brief Field _floatFxGroupEffectTargets, offset 0x18, size 0x8
-  __declspec(property(get = __get__floatFxGroupEffectTargets,
-                      put = __set__floatFxGroupEffectTargets))::ArrayW<::GlobalNamespace::FloatFxGroupEffectTarget*, ::Array<::GlobalNamespace::FloatFxGroupEffectTarget*>*> _floatFxGroupEffectTargets;
+  __declspec(property(get = __cordl_internal_get__floatFxGroupEffectTargets,
+                      put = __cordl_internal_set__floatFxGroupEffectTargets))::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>,
+                                                                                      ::Array<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>*> _floatFxGroupEffectTargets;
 
-  constexpr ::ArrayW<::GlobalNamespace::FloatFxGroupEffectTarget*, ::Array<::GlobalNamespace::FloatFxGroupEffectTarget*>*>& __get__floatFxGroupEffectTargets();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>*>& __cordl_internal_get__floatFxGroupEffectTargets();
 
-  constexpr ::ArrayW<::GlobalNamespace::FloatFxGroupEffectTarget*, ::Array<::GlobalNamespace::FloatFxGroupEffectTarget*>*> const& __get__floatFxGroupEffectTargets() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>*> const&
+  __cordl_internal_get__floatFxGroupEffectTargets() const;
 
-  constexpr void __set__floatFxGroupEffectTargets(::ArrayW<::GlobalNamespace::FloatFxGroupEffectTarget*, ::Array<::GlobalNamespace::FloatFxGroupEffectTarget*>*> value);
+  constexpr void
+  __cordl_internal_set__floatFxGroupEffectTargets(::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>*> value);
 
   /// @brief Method SetValue, addr 0x23a5820, size 0x74, virtual true, abstract: false, final false
   inline void SetValue(float_t value);
@@ -61,7 +64,7 @@ protected:
 
 public:
   /// @brief Field _floatFxGroupEffectTargets, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::FloatFxGroupEffectTarget*, ::Array<::GlobalNamespace::FloatFxGroupEffectTarget*>*> ____floatFxGroupEffectTargets;
+  ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroupEffectTarget>>*> ____floatFxGroupEffectTargets;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -25,7 +25,7 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15540))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15540))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15541))
 // CS Name: ::UnityEngine.TextCore.LowLevel::GlyphAdjustmentRecord
 struct CORDL_TYPE GlyphAdjustmentRecord {

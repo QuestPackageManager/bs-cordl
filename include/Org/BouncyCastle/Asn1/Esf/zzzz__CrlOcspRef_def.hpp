@@ -32,20 +32,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::CrlOcspRef);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(142))
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::CrlOcspRef*
 class CORDL_TYPE CrlOcspRef : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field crlids, offset 0x10, size 0x8
-  __declspec(property(get = __get_crlids, put = __set_crlids))::Org::BouncyCastle::Asn1::Esf::CrlListID* crlids;
+  __declspec(property(get = __cordl_internal_get_crlids, put = __cordl_internal_set_crlids))::Org::BouncyCastle::Asn1::Esf::CrlListID* crlids;
 
   /// @brief Field ocspids, offset 0x18, size 0x8
-  __declspec(property(get = __get_ocspids, put = __set_ocspids))::Org::BouncyCastle::Asn1::Esf::OcspListID* ocspids;
+  __declspec(property(get = __cordl_internal_get_ocspids, put = __cordl_internal_set_ocspids))::Org::BouncyCastle::Asn1::Esf::OcspListID* ocspids;
 
   /// @brief Field otherRev, offset 0x20, size 0x8
-  __declspec(property(get = __get_otherRev, put = __set_otherRev))::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* otherRev;
+  __declspec(property(get = __cordl_internal_get_otherRev, put = __cordl_internal_set_otherRev))::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* otherRev;
 
   __declspec(property(get = get_CrlIDs))::Org::BouncyCastle::Asn1::Esf::CrlListID* CrlIDs;
 
@@ -53,23 +53,23 @@ public:
 
   __declspec(property(get = get_OtherRev))::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* OtherRev;
 
-  constexpr ::Org::BouncyCastle::Asn1::Esf::CrlListID*& __get_crlids();
+  constexpr ::Org::BouncyCastle::Asn1::Esf::CrlListID*& __cordl_internal_get_crlids();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::CrlListID*> const& __get_crlids() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::CrlListID*> const& __cordl_internal_get_crlids() const;
 
-  constexpr void __set_crlids(::Org::BouncyCastle::Asn1::Esf::CrlListID* value);
+  constexpr void __cordl_internal_set_crlids(::Org::BouncyCastle::Asn1::Esf::CrlListID* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Esf::OcspListID*& __get_ocspids();
+  constexpr ::Org::BouncyCastle::Asn1::Esf::OcspListID*& __cordl_internal_get_ocspids();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::OcspListID*> const& __get_ocspids() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::OcspListID*> const& __cordl_internal_get_ocspids() const;
 
-  constexpr void __set_ocspids(::Org::BouncyCastle::Asn1::Esf::OcspListID* value);
+  constexpr void __cordl_internal_set_ocspids(::Org::BouncyCastle::Asn1::Esf::OcspListID* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs*& __get_otherRev();
+  constexpr ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs*& __cordl_internal_get_otherRev();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::OtherRevRefs*> const& __get_otherRev() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Esf::OtherRevRefs*> const& __cordl_internal_get_otherRev() const;
 
-  constexpr void __set_otherRev(::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* value);
+  constexpr void __cordl_internal_set_otherRev(::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* value);
 
   /// @brief Method GetInstance, addr 0xe90e74, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlOcspRef* GetInstance(::System::Object* obj);

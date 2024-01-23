@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x320;
   constexpr static std::size_t addrs = 0x125cf78;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), 4));
@@ -28,9 +28,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x13c;
   constexpr static std::size_t addrs = 0x125d298;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -43,10 +43,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x170;
   constexpr static std::size_t addrs = 0x125d3d4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
@@ -62,10 +62,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x125d544;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "SetBones", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "SetBones", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
@@ -79,9 +79,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x125d554;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(),
-                                                                               "StoreDefaultLocalState", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "StoreDefaultLocalState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -92,9 +92,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x125d5b0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "FixTransforms",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -106,7 +106,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x614;
   constexpr static std::size_t addrs = 0x125d628;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), 5));
@@ -120,9 +120,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x125dc3c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "UseFABRIK",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -133,9 +133,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x264;
   constexpr static std::size_t addrs = 0x125dc74;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "ReadPose",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -147,10 +147,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x320;
   constexpr static std::size_t addrs = 0x125ded8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "WritePose", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::IKSolverFullBody*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "WritePose", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::IKSolverFullBody*>::get() })));
     return ___internal_method;
   }
 };
@@ -162,10 +162,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe0;
   constexpr static std::size_t addrs = 0x125e1f8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "ForwardReach", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "ForwardReach", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
     return ___internal_method;
   }
 };
@@ -177,10 +177,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x125e2d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "BackwardReach", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "BackwardReach", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
     return ___internal_method;
   }
 };
@@ -192,178 +192,179 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x23c;
   constexpr static std::size_t addrs = 0x125e38c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "MapToSolverPositions", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::IKSolverFullBody*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "MapToSolverPositions", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::IKSolverFullBody*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& RootMotion::FinalIK::IKMappingSpine::__get_spineBones() {
+constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_spineBones() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spineBones;
 }
-constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& RootMotion::FinalIK::IKMappingSpine::__get_spineBones() const {
+constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_spineBones() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spineBones;
 }
-constexpr void RootMotion::FinalIK::IKMappingSpine::__set_spineBones(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value) {
+constexpr void RootMotion::FinalIK::IKMappingSpine::__cordl_internal_set_spineBones(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___spineBones)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::IKMappingSpine::__get_leftUpperArmBone() {
+constexpr ::UnityW<::UnityEngine::Transform>& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_leftUpperArmBone() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftUpperArmBone;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::IKMappingSpine::__get_leftUpperArmBone() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_leftUpperArmBone() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftUpperArmBone;
 }
-constexpr void RootMotion::FinalIK::IKMappingSpine::__set_leftUpperArmBone(::UnityEngine::Transform* value) {
+constexpr void RootMotion::FinalIK::IKMappingSpine::__cordl_internal_set_leftUpperArmBone(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftUpperArmBone)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::IKMappingSpine::__get_rightUpperArmBone() {
+constexpr ::UnityW<::UnityEngine::Transform>& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_rightUpperArmBone() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightUpperArmBone;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::IKMappingSpine::__get_rightUpperArmBone() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_rightUpperArmBone() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightUpperArmBone;
 }
-constexpr void RootMotion::FinalIK::IKMappingSpine::__set_rightUpperArmBone(::UnityEngine::Transform* value) {
+constexpr void RootMotion::FinalIK::IKMappingSpine::__cordl_internal_set_rightUpperArmBone(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightUpperArmBone)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::IKMappingSpine::__get_leftThighBone() {
+constexpr ::UnityW<::UnityEngine::Transform>& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_leftThighBone() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftThighBone;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::IKMappingSpine::__get_leftThighBone() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_leftThighBone() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftThighBone;
 }
-constexpr void RootMotion::FinalIK::IKMappingSpine::__set_leftThighBone(::UnityEngine::Transform* value) {
+constexpr void RootMotion::FinalIK::IKMappingSpine::__cordl_internal_set_leftThighBone(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftThighBone)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Transform*& RootMotion::FinalIK::IKMappingSpine::__get_rightThighBone() {
+constexpr ::UnityW<::UnityEngine::Transform>& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_rightThighBone() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightThighBone;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& RootMotion::FinalIK::IKMappingSpine::__get_rightThighBone() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_rightThighBone() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightThighBone;
 }
-constexpr void RootMotion::FinalIK::IKMappingSpine::__set_rightThighBone(::UnityEngine::Transform* value) {
+constexpr void RootMotion::FinalIK::IKMappingSpine::__cordl_internal_set_rightThighBone(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightThighBone)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& RootMotion::FinalIK::IKMappingSpine::__get_iterations() {
+constexpr int32_t& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_iterations() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iterations;
 }
-constexpr int32_t const& RootMotion::FinalIK::IKMappingSpine::__get_iterations() const {
+constexpr int32_t const& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_iterations() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iterations;
 }
-constexpr void RootMotion::FinalIK::IKMappingSpine::__set_iterations(int32_t value) {
+constexpr void RootMotion::FinalIK::IKMappingSpine::__cordl_internal_set_iterations(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___iterations = value;
 }
-constexpr float_t& RootMotion::FinalIK::IKMappingSpine::__get_twistWeight() {
+constexpr float_t& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_twistWeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___twistWeight;
 }
-constexpr float_t const& RootMotion::FinalIK::IKMappingSpine::__get_twistWeight() const {
+constexpr float_t const& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_twistWeight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___twistWeight;
 }
-constexpr void RootMotion::FinalIK::IKMappingSpine::__set_twistWeight(float_t value) {
+constexpr void RootMotion::FinalIK::IKMappingSpine::__cordl_internal_set_twistWeight(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___twistWeight = value;
 }
-constexpr int32_t& RootMotion::FinalIK::IKMappingSpine::__get_rootNodeIndex() {
+constexpr int32_t& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_rootNodeIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootNodeIndex;
 }
-constexpr int32_t const& RootMotion::FinalIK::IKMappingSpine::__get_rootNodeIndex() const {
+constexpr int32_t const& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_rootNodeIndex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootNodeIndex;
 }
-constexpr void RootMotion::FinalIK::IKMappingSpine::__set_rootNodeIndex(int32_t value) {
+constexpr void RootMotion::FinalIK::IKMappingSpine::__cordl_internal_set_rootNodeIndex(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rootNodeIndex = value;
 }
-constexpr ::ArrayW<::RootMotion::FinalIK::__IKMapping__BoneMap*, ::Array<::RootMotion::FinalIK::__IKMapping__BoneMap*>*>& RootMotion::FinalIK::IKMappingSpine::__get_spine() {
+constexpr ::ArrayW<::RootMotion::FinalIK::__IKMapping__BoneMap*, ::Array<::RootMotion::FinalIK::__IKMapping__BoneMap*>*>& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_spine() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spine;
 }
-constexpr ::ArrayW<::RootMotion::FinalIK::__IKMapping__BoneMap*, ::Array<::RootMotion::FinalIK::__IKMapping__BoneMap*>*> const& RootMotion::FinalIK::IKMappingSpine::__get_spine() const {
+constexpr ::ArrayW<::RootMotion::FinalIK::__IKMapping__BoneMap*, ::Array<::RootMotion::FinalIK::__IKMapping__BoneMap*>*> const&
+RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_spine() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spine;
 }
-constexpr void RootMotion::FinalIK::IKMappingSpine::__set_spine(::ArrayW<::RootMotion::FinalIK::__IKMapping__BoneMap*, ::Array<::RootMotion::FinalIK::__IKMapping__BoneMap*>*> value) {
+constexpr void RootMotion::FinalIK::IKMappingSpine::__cordl_internal_set_spine(::ArrayW<::RootMotion::FinalIK::__IKMapping__BoneMap*, ::Array<::RootMotion::FinalIK::__IKMapping__BoneMap*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___spine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& RootMotion::FinalIK::IKMappingSpine::__get_leftUpperArm() {
+constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_leftUpperArm() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftUpperArm;
 }
-constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& RootMotion::FinalIK::IKMappingSpine::__get_leftUpperArm() const {
+constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_leftUpperArm() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftUpperArm;
 }
-constexpr void RootMotion::FinalIK::IKMappingSpine::__set_leftUpperArm(::RootMotion::FinalIK::__IKMapping__BoneMap* value) {
+constexpr void RootMotion::FinalIK::IKMappingSpine::__cordl_internal_set_leftUpperArm(::RootMotion::FinalIK::__IKMapping__BoneMap* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftUpperArm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& RootMotion::FinalIK::IKMappingSpine::__get_rightUpperArm() {
+constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_rightUpperArm() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightUpperArm;
 }
-constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& RootMotion::FinalIK::IKMappingSpine::__get_rightUpperArm() const {
+constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_rightUpperArm() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightUpperArm;
 }
-constexpr void RootMotion::FinalIK::IKMappingSpine::__set_rightUpperArm(::RootMotion::FinalIK::__IKMapping__BoneMap* value) {
+constexpr void RootMotion::FinalIK::IKMappingSpine::__cordl_internal_set_rightUpperArm(::RootMotion::FinalIK::__IKMapping__BoneMap* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightUpperArm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& RootMotion::FinalIK::IKMappingSpine::__get_leftThigh() {
+constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_leftThigh() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftThigh;
 }
-constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& RootMotion::FinalIK::IKMappingSpine::__get_leftThigh() const {
+constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_leftThigh() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftThigh;
 }
-constexpr void RootMotion::FinalIK::IKMappingSpine::__set_leftThigh(::RootMotion::FinalIK::__IKMapping__BoneMap* value) {
+constexpr void RootMotion::FinalIK::IKMappingSpine::__cordl_internal_set_leftThigh(::RootMotion::FinalIK::__IKMapping__BoneMap* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftThigh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& RootMotion::FinalIK::IKMappingSpine::__get_rightThigh() {
+constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_rightThigh() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightThigh;
 }
-constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& RootMotion::FinalIK::IKMappingSpine::__get_rightThigh() const {
+constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_rightThigh() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightThigh;
 }
-constexpr void RootMotion::FinalIK::IKMappingSpine::__set_rightThigh(::RootMotion::FinalIK::__IKMapping__BoneMap* value) {
+constexpr void RootMotion::FinalIK::IKMappingSpine::__cordl_internal_set_rightThigh(::RootMotion::FinalIK::__IKMapping__BoneMap* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightThigh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& RootMotion::FinalIK::IKMappingSpine::__get_useFABRIK() {
+constexpr bool& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_useFABRIK() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useFABRIK;
 }
-constexpr bool const& RootMotion::FinalIK::IKMappingSpine::__get_useFABRIK() const {
+constexpr bool const& RootMotion::FinalIK::IKMappingSpine::__cordl_internal_get_useFABRIK() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useFABRIK;
 }
-constexpr void RootMotion::FinalIK::IKMappingSpine::__set_useFABRIK(bool value) {
+constexpr void RootMotion::FinalIK::IKMappingSpine::__cordl_internal_set_useFABRIK(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useFABRIK = value;
 }
@@ -373,23 +374,23 @@ inline bool RootMotion::FinalIK::IKMappingSpine::IsValid(::RootMotion::FinalIK::
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, solver, message);
 }
 inline ::RootMotion::FinalIK::IKMappingSpine* RootMotion::FinalIK::IKMappingSpine::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::RootMotion::FinalIK::IKMappingSpine*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::RootMotion::FinalIK::IKMappingSpine*>());
 }
 inline void RootMotion::FinalIK::IKMappingSpine::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::RootMotion::FinalIK::IKMappingSpine* RootMotion::FinalIK::IKMappingSpine::New_ctor(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> spineBones,
                                                                                             ::UnityEngine::Transform* leftUpperArmBone, ::UnityEngine::Transform* rightUpperArmBone,
                                                                                             ::UnityEngine::Transform* leftThighBone, ::UnityEngine::Transform* rightThighBone) {
-  return THROW_UNLESS(::il2cpp_utils::New<::RootMotion::FinalIK::IKMappingSpine*>(spineBones, leftUpperArmBone, rightUpperArmBone, leftThighBone, rightThighBone));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::RootMotion::FinalIK::IKMappingSpine*>(spineBones, leftUpperArmBone, rightUpperArmBone, leftThighBone, rightThighBone));
 }
 inline void RootMotion::FinalIK::IKMappingSpine::_ctor(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> spineBones, ::UnityEngine::Transform* leftUpperArmBone,
                                                        ::UnityEngine::Transform* rightUpperArmBone, ::UnityEngine::Transform* leftThighBone, ::UnityEngine::Transform* rightThighBone) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
@@ -398,8 +399,8 @@ inline void RootMotion::FinalIK::IKMappingSpine::_ctor(::ArrayW<::UnityEngine::T
 inline void RootMotion::FinalIK::IKMappingSpine::SetBones(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> spineBones, ::UnityEngine::Transform* leftUpperArmBone,
                                                           ::UnityEngine::Transform* rightUpperArmBone, ::UnityEngine::Transform* leftThighBone, ::UnityEngine::Transform* rightThighBone) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "SetBones", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "SetBones", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
@@ -407,12 +408,12 @@ inline void RootMotion::FinalIK::IKMappingSpine::SetBones(::ArrayW<::UnityEngine
 }
 inline void RootMotion::FinalIK::IKMappingSpine::StoreDefaultLocalState() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(),
-                                                                             "StoreDefaultLocalState", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "StoreDefaultLocalState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void RootMotion::FinalIK::IKMappingSpine::FixTransforms() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "FixTransforms",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void RootMotion::FinalIK::IKMappingSpine::Initiate(::RootMotion::FinalIK::IKSolverFullBody* solver) {
@@ -422,36 +423,36 @@ inline void RootMotion::FinalIK::IKMappingSpine::Initiate(::RootMotion::FinalIK:
 }
 inline bool RootMotion::FinalIK::IKMappingSpine::UseFABRIK() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "UseFABRIK",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void RootMotion::FinalIK::IKMappingSpine::ReadPose() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "ReadPose",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void RootMotion::FinalIK::IKMappingSpine::WritePose(::RootMotion::FinalIK::IKSolverFullBody* solver) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "WritePose", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::IKSolverFullBody*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "WritePose", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::IKSolverFullBody*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, solver);
 }
 inline void RootMotion::FinalIK::IKMappingSpine::ForwardReach(::UnityEngine::Vector3 position) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "ForwardReach", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "ForwardReach", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, position);
 }
 inline void RootMotion::FinalIK::IKMappingSpine::BackwardReach(::UnityEngine::Vector3 position) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "BackwardReach", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "BackwardReach", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, position);
 }
 inline void RootMotion::FinalIK::IKMappingSpine::MapToSolverPositions(::RootMotion::FinalIK::IKSolverFullBody* solver) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "MapToSolverPositions", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::IKSolverFullBody*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKMappingSpine*>::get(), "MapToSolverPositions", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::IKSolverFullBody*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, solver);
 }
 // Ctor Parameters []

@@ -18,14 +18,14 @@ MARK_REF_PTR_T(::System::ComponentModel::NotifyParentPropertyAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9493))
 // CS Name: ::System.ComponentModel::NotifyParentPropertyAttribute*
 class CORDL_TYPE NotifyParentPropertyAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field notifyParent, offset 0x10, size 0x1
-  __declspec(property(get = __get_notifyParent, put = __set_notifyParent)) bool notifyParent;
+  __declspec(property(get = __cordl_internal_get_notifyParent, put = __cordl_internal_set_notifyParent)) bool notifyParent;
 
   /// @brief Field Yes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Yes, put = setStaticF_Yes))::System::ComponentModel::NotifyParentPropertyAttribute* Yes;
@@ -38,11 +38,11 @@ public:
 
   __declspec(property(get = get_NotifyParent)) bool NotifyParent;
 
-  constexpr bool& __get_notifyParent();
+  constexpr bool& __cordl_internal_get_notifyParent();
 
-  constexpr bool const& __get_notifyParent() const;
+  constexpr bool const& __cordl_internal_get_notifyParent() const;
 
-  constexpr void __set_notifyParent(bool value);
+  constexpr void __cordl_internal_set_notifyParent(bool value);
 
   static inline void setStaticF_Yes(::System::ComponentModel::NotifyParentPropertyAttribute* value);
 

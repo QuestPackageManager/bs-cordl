@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::UnityEngine::TouchScreenKeyboard);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10183))
 // CS Name: ::TouchScreenKeyboard::Status
 struct CORDL_TYPE __TouchScreenKeyboard__Status {
@@ -93,7 +93,7 @@ static_assert(offsetof(::UnityEngine::__TouchScreenKeyboard__Status, value__) ==
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10184))
 // CS Name: ::UnityEngine::TouchScreenKeyboard*
 class CORDL_TYPE TouchScreenKeyboard : public ::System::Object {
@@ -102,7 +102,7 @@ public:
   using Status = ::UnityEngine::__TouchScreenKeyboard__Status;
 
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Ptr, put = __set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
   /// @brief Field <disableInPlaceEditing>k__BackingField, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF__disableInPlaceEditing_k__BackingField, put = setStaticF__disableInPlaceEditing_k__BackingField)) bool _disableInPlaceEditing_k__BackingField;
@@ -121,11 +121,11 @@ public:
 
   __declspec(property(get = get_selection, put = set_selection))::UnityEngine::RangeInt selection;
 
-  constexpr void*& __get_m_Ptr();
+  constexpr void*& __cordl_internal_get_m_Ptr();
 
-  constexpr void* const& __get_m_Ptr() const;
+  constexpr void* const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void __set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(void* value);
 
   static inline void setStaticF__disableInPlaceEditing_k__BackingField(bool value);
 

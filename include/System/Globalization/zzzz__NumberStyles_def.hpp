@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Globalization::NumberStyles);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3679))
 // CS Name: ::System.Globalization::NumberStyles
 struct CORDL_TYPE NumberStyles {

@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockVectorAnimator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(14563))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(14563))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14571))
 // CS Name: ::MaterialPropertyBlockVectorAnimator*
 class CORDL_TYPE MaterialPropertyBlockVectorAnimator : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
   // Declarations
   /// @brief Field _vector, offset 0x30, size 0x10
-  __declspec(property(get = __get__vector, put = __set__vector))::UnityEngine::Vector4 _vector;
+  __declspec(property(get = __cordl_internal_get__vector, put = __cordl_internal_set__vector))::UnityEngine::Vector4 _vector;
 
-  constexpr ::UnityEngine::Vector4& __get__vector();
+  constexpr ::UnityEngine::Vector4& __cordl_internal_get__vector();
 
-  constexpr ::UnityEngine::Vector4 const& __get__vector() const;
+  constexpr ::UnityEngine::Vector4 const& __cordl_internal_get__vector() const;
 
-  constexpr void __set__vector(::UnityEngine::Vector4 value);
+  constexpr void __cordl_internal_set__vector(::UnityEngine::Vector4 value);
 
   /// @brief Method SetProperty, addr 0x211546c, size 0x34, virtual true, abstract: false, final false
   inline void SetProperty();

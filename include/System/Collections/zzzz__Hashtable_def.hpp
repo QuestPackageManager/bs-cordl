@@ -102,7 +102,7 @@ MARK_VAL_T(::System::Collections::__Hashtable__bucket);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3792))
 // CS Name: ::Hashtable::bucket
 struct CORDL_TYPE __Hashtable__bucket {
@@ -144,14 +144,14 @@ static_assert(offsetof(::System::Collections::__Hashtable__bucket, hash_coll) ==
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3793))
 // CS Name: ::Hashtable::KeyCollection*
 class CORDL_TYPE __Hashtable__KeyCollection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _hashtable, offset 0x10, size 0x8
-  __declspec(property(get = __get__hashtable, put = __set__hashtable))::System::Collections::Hashtable* _hashtable;
+  __declspec(property(get = __cordl_internal_get__hashtable, put = __cordl_internal_set__hashtable))::System::Collections::Hashtable* _hashtable;
 
   __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
 
@@ -171,11 +171,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Hashtable*& __get__hashtable();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__hashtable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get__hashtable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__hashtable() const;
 
-  constexpr void __set__hashtable(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set__hashtable(::System::Collections::Hashtable* value);
 
   static inline ::System::Collections::__Hashtable__KeyCollection* New_ctor(::System::Collections::Hashtable* hashtable);
 
@@ -226,14 +226,14 @@ static_assert(offsetof(::System::Collections::__Hashtable__KeyCollection, ____ha
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3794))
 // CS Name: ::Hashtable::ValueCollection*
 class CORDL_TYPE __Hashtable__ValueCollection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _hashtable, offset 0x10, size 0x8
-  __declspec(property(get = __get__hashtable, put = __set__hashtable))::System::Collections::Hashtable* _hashtable;
+  __declspec(property(get = __cordl_internal_get__hashtable, put = __cordl_internal_set__hashtable))::System::Collections::Hashtable* _hashtable;
 
   __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
 
@@ -253,11 +253,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Hashtable*& __get__hashtable();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__hashtable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get__hashtable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__hashtable() const;
 
-  constexpr void __set__hashtable(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set__hashtable(::System::Collections::Hashtable* value);
 
   static inline ::System::Collections::__Hashtable__ValueCollection* New_ctor(::System::Collections::Hashtable* hashtable);
 
@@ -308,32 +308,32 @@ static_assert(offsetof(::System::Collections::__Hashtable__ValueCollection, ____
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3796))
 // CS Name: ::Hashtable::HashtableEnumerator*
 class CORDL_TYPE __Hashtable__HashtableEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _hashtable, offset 0x10, size 0x8
-  __declspec(property(get = __get__hashtable, put = __set__hashtable))::System::Collections::Hashtable* _hashtable;
+  __declspec(property(get = __cordl_internal_get__hashtable, put = __cordl_internal_set__hashtable))::System::Collections::Hashtable* _hashtable;
 
   /// @brief Field _bucket, offset 0x18, size 0x4
-  __declspec(property(get = __get__bucket, put = __set__bucket)) int32_t _bucket;
+  __declspec(property(get = __cordl_internal_get__bucket, put = __cordl_internal_set__bucket)) int32_t _bucket;
 
   /// @brief Field _version, offset 0x1c, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _current, offset 0x20, size 0x1
-  __declspec(property(get = __get__current, put = __set__current)) bool _current;
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current)) bool _current;
 
   /// @brief Field _getObjectRetType, offset 0x24, size 0x4
-  __declspec(property(get = __get__getObjectRetType, put = __set__getObjectRetType)) int32_t _getObjectRetType;
+  __declspec(property(get = __cordl_internal_get__getObjectRetType, put = __cordl_internal_set__getObjectRetType)) int32_t _getObjectRetType;
 
   /// @brief Field _currentKey, offset 0x28, size 0x8
-  __declspec(property(get = __get__currentKey, put = __set__currentKey))::System::Object* _currentKey;
+  __declspec(property(get = __cordl_internal_get__currentKey, put = __cordl_internal_set__currentKey))::System::Object* _currentKey;
 
   /// @brief Field _currentValue, offset 0x30, size 0x8
-  __declspec(property(get = __get__currentValue, put = __set__currentValue))::System::Object* _currentValue;
+  __declspec(property(get = __cordl_internal_get__currentValue, put = __cordl_internal_set__currentValue))::System::Object* _currentValue;
 
   __declspec(property(get = get_Key))::System::Object* Key;
 
@@ -361,47 +361,47 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::System::Collections::Hashtable*& __get__hashtable();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__hashtable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get__hashtable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__hashtable() const;
 
-  constexpr void __set__hashtable(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set__hashtable(::System::Collections::Hashtable* value);
 
-  constexpr int32_t& __get__bucket();
+  constexpr int32_t& __cordl_internal_get__bucket();
 
-  constexpr int32_t const& __get__bucket() const;
+  constexpr int32_t const& __cordl_internal_get__bucket() const;
 
-  constexpr void __set__bucket(int32_t value);
+  constexpr void __cordl_internal_set__bucket(int32_t value);
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
-  constexpr bool& __get__current();
+  constexpr bool& __cordl_internal_get__current();
 
-  constexpr bool const& __get__current() const;
+  constexpr bool const& __cordl_internal_get__current() const;
 
-  constexpr void __set__current(bool value);
+  constexpr void __cordl_internal_set__current(bool value);
 
-  constexpr int32_t& __get__getObjectRetType();
+  constexpr int32_t& __cordl_internal_get__getObjectRetType();
 
-  constexpr int32_t const& __get__getObjectRetType() const;
+  constexpr int32_t const& __cordl_internal_get__getObjectRetType() const;
 
-  constexpr void __set__getObjectRetType(int32_t value);
+  constexpr void __cordl_internal_set__getObjectRetType(int32_t value);
 
-  constexpr ::System::Object*& __get__currentKey();
+  constexpr ::System::Object*& __cordl_internal_get__currentKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__currentKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__currentKey() const;
 
-  constexpr void __set__currentKey(::System::Object* value);
+  constexpr void __cordl_internal_set__currentKey(::System::Object* value);
 
-  constexpr ::System::Object*& __get__currentValue();
+  constexpr ::System::Object*& __cordl_internal_get__currentValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__currentValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__currentValue() const;
 
-  constexpr void __set__currentValue(::System::Object* value);
+  constexpr void __cordl_internal_set__currentValue(::System::Object* value);
 
   static inline ::System::Collections::__Hashtable__HashtableEnumerator* New_ctor(::System::Collections::Hashtable* hashtable, int32_t getObjRetType);
 
@@ -488,7 +488,7 @@ static_assert(offsetof(::System::Collections::__Hashtable__HashtableEnumerator, 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3797))
 // CS Name: ::Hashtable::HashtableDebugView*
 class CORDL_TYPE __Hashtable__HashtableDebugView : public ::System::Object {
@@ -518,7 +518,7 @@ static_assert(::cordl_internals::size_check_v<::System::Collections::__Hashtable
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3798))
 // CS Name: ::System.Collections::Hashtable*
 class CORDL_TYPE Hashtable : public ::System::Object {
@@ -537,37 +537,38 @@ public:
   using bucket = ::System::Collections::__Hashtable__bucket;
 
   /// @brief Field _buckets, offset 0x10, size 0x8
-  __declspec(property(get = __get__buckets, put = __set__buckets))::ArrayW<::System::Collections::__Hashtable__bucket, ::Array<::System::Collections::__Hashtable__bucket>*> _buckets;
+  __declspec(property(get = __cordl_internal_get__buckets,
+                      put = __cordl_internal_set__buckets))::ArrayW<::System::Collections::__Hashtable__bucket, ::Array<::System::Collections::__Hashtable__bucket>*> _buckets;
 
   /// @brief Field _count, offset 0x18, size 0x4
-  __declspec(property(get = __get__count, put = __set__count)) int32_t _count;
+  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
 
   /// @brief Field _occupancy, offset 0x1c, size 0x4
-  __declspec(property(get = __get__occupancy, put = __set__occupancy)) int32_t _occupancy;
+  __declspec(property(get = __cordl_internal_get__occupancy, put = __cordl_internal_set__occupancy)) int32_t _occupancy;
 
   /// @brief Field _loadsize, offset 0x20, size 0x4
-  __declspec(property(get = __get__loadsize, put = __set__loadsize)) int32_t _loadsize;
+  __declspec(property(get = __cordl_internal_get__loadsize, put = __cordl_internal_set__loadsize)) int32_t _loadsize;
 
   /// @brief Field _loadFactor, offset 0x24, size 0x4
-  __declspec(property(get = __get__loadFactor, put = __set__loadFactor)) float_t _loadFactor;
+  __declspec(property(get = __cordl_internal_get__loadFactor, put = __cordl_internal_set__loadFactor)) float_t _loadFactor;
 
   /// @brief Field _version, offset 0x28, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _isWriterInProgress, offset 0x2c, size 0x1
-  __declspec(property(get = __get__isWriterInProgress, put = __set__isWriterInProgress)) bool _isWriterInProgress;
+  __declspec(property(get = __cordl_internal_get__isWriterInProgress, put = __cordl_internal_set__isWriterInProgress)) bool _isWriterInProgress;
 
   /// @brief Field _keys, offset 0x30, size 0x8
-  __declspec(property(get = __get__keys, put = __set__keys))::System::Collections::ICollection* _keys;
+  __declspec(property(get = __cordl_internal_get__keys, put = __cordl_internal_set__keys))::System::Collections::ICollection* _keys;
 
   /// @brief Field _values, offset 0x38, size 0x8
-  __declspec(property(get = __get__values, put = __set__values))::System::Collections::ICollection* _values;
+  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values))::System::Collections::ICollection* _values;
 
   /// @brief Field _keycomparer, offset 0x40, size 0x8
-  __declspec(property(get = __get__keycomparer, put = __set__keycomparer))::System::Collections::IEqualityComparer* _keycomparer;
+  __declspec(property(get = __cordl_internal_get__keycomparer, put = __cordl_internal_set__keycomparer))::System::Collections::IEqualityComparer* _keycomparer;
 
   /// @brief Field _syncRoot, offset 0x48, size 0x8
-  __declspec(property(get = __get__syncRoot, put = __set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
 
   /// @brief Field s_serializationInfoTable, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_serializationInfoTable, put = setStaticF_s_serializationInfoTable))::System::Runtime::CompilerServices::ConditionalWeakTable_2<
@@ -625,71 +626,71 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::ArrayW<::System::Collections::__Hashtable__bucket, ::Array<::System::Collections::__Hashtable__bucket>*>& __get__buckets();
+  constexpr ::ArrayW<::System::Collections::__Hashtable__bucket, ::Array<::System::Collections::__Hashtable__bucket>*>& __cordl_internal_get__buckets();
 
-  constexpr ::ArrayW<::System::Collections::__Hashtable__bucket, ::Array<::System::Collections::__Hashtable__bucket>*> const& __get__buckets() const;
+  constexpr ::ArrayW<::System::Collections::__Hashtable__bucket, ::Array<::System::Collections::__Hashtable__bucket>*> const& __cordl_internal_get__buckets() const;
 
-  constexpr void __set__buckets(::ArrayW<::System::Collections::__Hashtable__bucket, ::Array<::System::Collections::__Hashtable__bucket>*> value);
+  constexpr void __cordl_internal_set__buckets(::ArrayW<::System::Collections::__Hashtable__bucket, ::Array<::System::Collections::__Hashtable__bucket>*> value);
 
-  constexpr int32_t& __get__count();
+  constexpr int32_t& __cordl_internal_get__count();
 
-  constexpr int32_t const& __get__count() const;
+  constexpr int32_t const& __cordl_internal_get__count() const;
 
-  constexpr void __set__count(int32_t value);
+  constexpr void __cordl_internal_set__count(int32_t value);
 
-  constexpr int32_t& __get__occupancy();
+  constexpr int32_t& __cordl_internal_get__occupancy();
 
-  constexpr int32_t const& __get__occupancy() const;
+  constexpr int32_t const& __cordl_internal_get__occupancy() const;
 
-  constexpr void __set__occupancy(int32_t value);
+  constexpr void __cordl_internal_set__occupancy(int32_t value);
 
-  constexpr int32_t& __get__loadsize();
+  constexpr int32_t& __cordl_internal_get__loadsize();
 
-  constexpr int32_t const& __get__loadsize() const;
+  constexpr int32_t const& __cordl_internal_get__loadsize() const;
 
-  constexpr void __set__loadsize(int32_t value);
+  constexpr void __cordl_internal_set__loadsize(int32_t value);
 
-  constexpr float_t& __get__loadFactor();
+  constexpr float_t& __cordl_internal_get__loadFactor();
 
-  constexpr float_t const& __get__loadFactor() const;
+  constexpr float_t const& __cordl_internal_get__loadFactor() const;
 
-  constexpr void __set__loadFactor(float_t value);
+  constexpr void __cordl_internal_set__loadFactor(float_t value);
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
-  constexpr bool& __get__isWriterInProgress();
+  constexpr bool& __cordl_internal_get__isWriterInProgress();
 
-  constexpr bool const& __get__isWriterInProgress() const;
+  constexpr bool const& __cordl_internal_get__isWriterInProgress() const;
 
-  constexpr void __set__isWriterInProgress(bool value);
+  constexpr void __cordl_internal_set__isWriterInProgress(bool value);
 
-  constexpr ::System::Collections::ICollection*& __get__keys();
+  constexpr ::System::Collections::ICollection*& __cordl_internal_get__keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& __get__keys() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& __cordl_internal_get__keys() const;
 
-  constexpr void __set__keys(::System::Collections::ICollection* value);
+  constexpr void __cordl_internal_set__keys(::System::Collections::ICollection* value);
 
-  constexpr ::System::Collections::ICollection*& __get__values();
+  constexpr ::System::Collections::ICollection*& __cordl_internal_get__values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& __get__values() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& __cordl_internal_get__values() const;
 
-  constexpr void __set__values(::System::Collections::ICollection* value);
+  constexpr void __cordl_internal_set__values(::System::Collections::ICollection* value);
 
-  constexpr ::System::Collections::IEqualityComparer*& __get__keycomparer();
+  constexpr ::System::Collections::IEqualityComparer*& __cordl_internal_get__keycomparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEqualityComparer*> const& __get__keycomparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEqualityComparer*> const& __cordl_internal_get__keycomparer() const;
 
-  constexpr void __set__keycomparer(::System::Collections::IEqualityComparer* value);
+  constexpr void __cordl_internal_set__keycomparer(::System::Collections::IEqualityComparer* value);
 
-  constexpr ::System::Object*& __get__syncRoot();
+  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__syncRoot() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
-  constexpr void __set__syncRoot(::System::Object* value);
+  constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
   static inline void setStaticF_s_serializationInfoTable(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* value);
 

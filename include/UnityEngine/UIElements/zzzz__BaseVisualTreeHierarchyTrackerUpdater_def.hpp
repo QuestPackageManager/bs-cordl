@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::BaseVisualTreeHierarchyTrackerUpdater)
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6786))
 // CS Name: ::BaseVisualTreeHierarchyTrackerUpdater::State
 struct CORDL_TYPE __BaseVisualTreeHierarchyTrackerUpdater__State {
@@ -87,7 +87,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrack
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6786)), TypeDefinitionIndex(TypeDefinitionIndex(6754))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(6786))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6787))
 // CS Name: ::UnityEngine.UIElements::BaseVisualTreeHierarchyTrackerUpdater*
 class CORDL_TYPE BaseVisualTreeHierarchyTrackerUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
@@ -96,31 +96,31 @@ public:
   using State = ::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State;
 
   /// @brief Field m_State, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_State, put = __set_m_State))::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State m_State;
+  __declspec(property(get = __cordl_internal_get_m_State, put = __cordl_internal_set_m_State))::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State m_State;
 
   /// @brief Field m_CurrentChangeElement, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_CurrentChangeElement, put = __set_m_CurrentChangeElement))::UnityEngine::UIElements::VisualElement* m_CurrentChangeElement;
+  __declspec(property(get = __cordl_internal_get_m_CurrentChangeElement, put = __cordl_internal_set_m_CurrentChangeElement))::UnityEngine::UIElements::VisualElement* m_CurrentChangeElement;
 
   /// @brief Field m_CurrentChangeParent, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_CurrentChangeParent, put = __set_m_CurrentChangeParent))::UnityEngine::UIElements::VisualElement* m_CurrentChangeParent;
+  __declspec(property(get = __cordl_internal_get_m_CurrentChangeParent, put = __cordl_internal_set_m_CurrentChangeParent))::UnityEngine::UIElements::VisualElement* m_CurrentChangeParent;
 
-  constexpr ::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State& __get_m_State();
+  constexpr ::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State& __cordl_internal_get_m_State();
 
-  constexpr ::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State const& __get_m_State() const;
+  constexpr ::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State const& __cordl_internal_get_m_State() const;
 
-  constexpr void __set_m_State(::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State value);
+  constexpr void __cordl_internal_set_m_State(::UnityEngine::UIElements::__BaseVisualTreeHierarchyTrackerUpdater__State value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_CurrentChangeElement();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_CurrentChangeElement();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_CurrentChangeElement() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_CurrentChangeElement() const;
 
-  constexpr void __set_m_CurrentChangeElement(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_CurrentChangeElement(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_CurrentChangeParent();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_CurrentChangeParent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_CurrentChangeParent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_CurrentChangeParent() const;
 
-  constexpr void __set_m_CurrentChangeParent(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_CurrentChangeParent(::UnityEngine::UIElements::VisualElement* value);
 
   /// @brief Method OnHierarchyChange, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnHierarchyChange(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType type);

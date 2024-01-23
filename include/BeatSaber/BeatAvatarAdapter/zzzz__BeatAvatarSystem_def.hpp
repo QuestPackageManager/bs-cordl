@@ -46,43 +46,43 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::BeatAvatarSystem);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15179)), TypeDefinitionIndex(TypeDefinitionIndex(15183))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15179)), TypeDefinitionIndex(TypeDefinitionIndex(15183))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15259))
 // CS Name: ::BeatSaber.BeatAvatarAdapter::BeatAvatarSystem*
 class CORDL_TYPE BeatAvatarSystem : public ::BeatSaber::AvatarCore::AvatarSystem {
 public:
   // Declarations
   /// @brief Field _avatarDataModel, offset 0x38, size 0x8
-  __declspec(property(get = __get__avatarDataModel, put = __set__avatarDataModel))::BeatSaber::BeatAvatarSDK::AvatarDataModel* _avatarDataModel;
+  __declspec(property(get = __cordl_internal_get__avatarDataModel, put = __cordl_internal_set__avatarDataModel))::BeatSaber::BeatAvatarSDK::AvatarDataModel* _avatarDataModel;
 
   /// @brief Field _container, offset 0x40, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _settings, offset 0x48, size 0x8
-  __declspec(property(get = __get__settings, put = __set__settings))::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings* _settings;
+  __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings))::UnityW<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings> _settings;
 
   /// @brief Field kAvatarSystemTypeIdentifier, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_kAvatarSystemTypeIdentifier, put = setStaticF_kAvatarSystemTypeIdentifier))::BeatSaber::AvatarCore::AvatarSystemIdentifier kAvatarSystemTypeIdentifier;
 
   __declspec(property(get = get_avatarCreated))::System::Threading::Tasks::Task_1<bool>* avatarCreated;
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& __get__avatarDataModel();
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& __cordl_internal_get__avatarDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarDataModel*> const& __get__avatarDataModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarDataModel*> const& __cordl_internal_get__avatarDataModel() const;
 
-  constexpr void __set__avatarDataModel(::BeatSaber::BeatAvatarSDK::AvatarDataModel* value);
+  constexpr void __cordl_internal_set__avatarDataModel(::BeatSaber::BeatAvatarSDK::AvatarDataModel* value);
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings*& __get__settings();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings>& __cordl_internal_get__settings();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings*> const& __get__settings() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings> const& __cordl_internal_get__settings() const;
 
-  constexpr void __set__settings(::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings* value);
+  constexpr void __cordl_internal_set__settings(::UnityW<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings> value);
 
   static inline void setStaticF_kAvatarSystemTypeIdentifier(::BeatSaber::AvatarCore::AvatarSystemIdentifier value);
 
@@ -98,14 +98,14 @@ public:
   inline ::System::Threading::Tasks::Task_1<bool>* get_avatarCreated();
 
   /// @brief Method InstantiateAvatar, addr 0xe14814, size 0xac, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::Avatar*>* InstantiateAvatar(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext, int32_t levelOfDetail,
-                                                                                                 ::Zenject::DiContainer* container);
+  inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::Avatar>>* InstantiateAvatar(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext, int32_t levelOfDetail,
+                                                                                                          ::Zenject::DiContainer* container);
 
   /// @brief Method InstantiateAvatarEditorUI, addr 0xe148c0, size 0x64, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*>* InstantiateAvatarEditorUI(::Zenject::DiContainer* container);
+  inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator>>* InstantiateAvatarEditorUI(::Zenject::DiContainer* container);
 
   /// @brief Method InstantiateAvatarSelectionView, addr 0xe14924, size 0x64, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::BeatSaber::AvatarCore::AvatarSelectionView*>* InstantiateAvatarSelectionView(::Zenject::DiContainer* container);
+  inline ::System::Threading::Tasks::Task_1<::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView>>* InstantiateAvatarSelectionView(::Zenject::DiContainer* container);
 
   /// @brief Method GetMultiplayerAvatarsData, addr 0xe14988, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerAvatarData>* GetMultiplayerAvatarsData();
@@ -143,7 +143,7 @@ public:
   ::Zenject::DiContainer* ____container;
 
   /// @brief Field _settings, offset: 0x48, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings* ____settings;
+  ::UnityW<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings> ____settings;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -26,17 +26,17 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::DisposerReplySink);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3076))
 // CS Name: ::System.Runtime.Remoting::DisposerReplySink*
 class CORDL_TYPE DisposerReplySink : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _next, offset 0x10, size 0x8
-  __declspec(property(get = __get__next, put = __set__next))::System::Runtime::Remoting::Messaging::IMessageSink* _next;
+  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next))::System::Runtime::Remoting::Messaging::IMessageSink* _next;
 
   /// @brief Field _disposable, offset 0x18, size 0x8
-  __declspec(property(get = __get__disposable, put = __set__disposable))::System::IDisposable* _disposable;
+  __declspec(property(get = __cordl_internal_get__disposable, put = __cordl_internal_set__disposable))::System::IDisposable* _disposable;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
@@ -44,17 +44,17 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __get__next();
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get__next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __get__next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __cordl_internal_get__next() const;
 
-  constexpr void __set__next(::System::Runtime::Remoting::Messaging::IMessageSink* value);
+  constexpr void __cordl_internal_set__next(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  constexpr ::System::IDisposable*& __get__disposable();
+  constexpr ::System::IDisposable*& __cordl_internal_get__disposable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IDisposable*> const& __get__disposable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IDisposable*> const& __cordl_internal_get__disposable() const;
 
-  constexpr void __set__disposable(::System::IDisposable* value);
+  constexpr void __cordl_internal_set__disposable(::System::IDisposable* value);
 
   static inline ::System::Runtime::Remoting::DisposerReplySink* New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* next, ::System::IDisposable* disposable);
 

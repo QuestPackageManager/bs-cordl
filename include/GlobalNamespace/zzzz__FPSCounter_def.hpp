@@ -16,32 +16,32 @@ MARK_REF_PTR_T(::GlobalNamespace::FPSCounter);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5366))
 // CS Name: ::FPSCounter*
 class CORDL_TYPE FPSCounter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field <currentFPS>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__currentFPS_k__BackingField, put = __set__currentFPS_k__BackingField)) int32_t _currentFPS_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__currentFPS_k__BackingField, put = __cordl_internal_set__currentFPS_k__BackingField)) int32_t _currentFPS_k__BackingField;
 
   /// @brief Field <lowestFPS>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__lowestFPS_k__BackingField, put = __set__lowestFPS_k__BackingField)) int32_t _lowestFPS_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lowestFPS_k__BackingField, put = __cordl_internal_set__lowestFPS_k__BackingField)) int32_t _lowestFPS_k__BackingField;
 
   /// @brief Field <highestFPS>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __get__highestFPS_k__BackingField, put = __set__highestFPS_k__BackingField)) int32_t _highestFPS_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__highestFPS_k__BackingField, put = __cordl_internal_set__highestFPS_k__BackingField)) int32_t _highestFPS_k__BackingField;
 
   /// @brief Field <droppedFrames>k__BackingField, offset 0x24, size 0x4
-  __declspec(property(get = __get__droppedFrames_k__BackingField, put = __set__droppedFrames_k__BackingField)) int32_t _droppedFrames_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__droppedFrames_k__BackingField, put = __cordl_internal_set__droppedFrames_k__BackingField)) int32_t _droppedFrames_k__BackingField;
 
   /// @brief Field _timeBuffer, offset 0x28, size 0x4
-  __declspec(property(get = __get__timeBuffer, put = __set__timeBuffer)) float_t _timeBuffer;
+  __declspec(property(get = __cordl_internal_get__timeBuffer, put = __cordl_internal_set__timeBuffer)) float_t _timeBuffer;
 
   /// @brief Field _frameCounter, offset 0x2c, size 0x4
-  __declspec(property(get = __get__frameCounter, put = __set__frameCounter)) int32_t _frameCounter;
+  __declspec(property(get = __cordl_internal_get__frameCounter, put = __cordl_internal_set__frameCounter)) int32_t _frameCounter;
 
   /// @brief Field _minDeltaTime, offset 0x30, size 0x4
-  __declspec(property(get = __get__minDeltaTime, put = __set__minDeltaTime)) float_t _minDeltaTime;
+  __declspec(property(get = __cordl_internal_get__minDeltaTime, put = __cordl_internal_set__minDeltaTime)) float_t _minDeltaTime;
 
   __declspec(property(get = get_currentFPS, put = set_currentFPS)) int32_t currentFPS;
 
@@ -51,47 +51,47 @@ public:
 
   __declspec(property(get = get_droppedFrames, put = set_droppedFrames)) int32_t droppedFrames;
 
-  constexpr int32_t& __get__currentFPS_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__currentFPS_k__BackingField();
 
-  constexpr int32_t const& __get__currentFPS_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__currentFPS_k__BackingField() const;
 
-  constexpr void __set__currentFPS_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__currentFPS_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__lowestFPS_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__lowestFPS_k__BackingField();
 
-  constexpr int32_t const& __get__lowestFPS_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__lowestFPS_k__BackingField() const;
 
-  constexpr void __set__lowestFPS_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__lowestFPS_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__highestFPS_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__highestFPS_k__BackingField();
 
-  constexpr int32_t const& __get__highestFPS_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__highestFPS_k__BackingField() const;
 
-  constexpr void __set__highestFPS_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__highestFPS_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__droppedFrames_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__droppedFrames_k__BackingField();
 
-  constexpr int32_t const& __get__droppedFrames_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__droppedFrames_k__BackingField() const;
 
-  constexpr void __set__droppedFrames_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__droppedFrames_k__BackingField(int32_t value);
 
-  constexpr float_t& __get__timeBuffer();
+  constexpr float_t& __cordl_internal_get__timeBuffer();
 
-  constexpr float_t const& __get__timeBuffer() const;
+  constexpr float_t const& __cordl_internal_get__timeBuffer() const;
 
-  constexpr void __set__timeBuffer(float_t value);
+  constexpr void __cordl_internal_set__timeBuffer(float_t value);
 
-  constexpr int32_t& __get__frameCounter();
+  constexpr int32_t& __cordl_internal_get__frameCounter();
 
-  constexpr int32_t const& __get__frameCounter() const;
+  constexpr int32_t const& __cordl_internal_get__frameCounter() const;
 
-  constexpr void __set__frameCounter(int32_t value);
+  constexpr void __cordl_internal_set__frameCounter(int32_t value);
 
-  constexpr float_t& __get__minDeltaTime();
+  constexpr float_t& __cordl_internal_get__minDeltaTime();
 
-  constexpr float_t const& __get__minDeltaTime() const;
+  constexpr float_t const& __cordl_internal_get__minDeltaTime() const;
 
-  constexpr void __set__minDeltaTime(float_t value);
+  constexpr void __cordl_internal_set__minDeltaTime(float_t value);
 
   /// @brief Method get_currentFPS, addr 0x226c604, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentFPS();

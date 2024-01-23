@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::UnityEngine::__TextAsset__EncodingUtility);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10206))
 // CS Name: ::TextAsset::CreateOptions
 struct CORDL_TYPE __TextAsset__CreateOptions {
@@ -92,7 +92,7 @@ static_assert(offsetof(::UnityEngine::__TextAsset__CreateOptions, value__) == 0x
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10207))
 // CS Name: ::TextAsset::EncodingUtility*
 class CORDL_TYPE __TextAsset__EncodingUtility : public ::System::Object {
@@ -143,7 +143,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__TextAsset__Encodi
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10208))
 // CS Name: ::UnityEngine::TextAsset*
 class CORDL_TYPE TextAsset : public ::UnityEngine::Object {

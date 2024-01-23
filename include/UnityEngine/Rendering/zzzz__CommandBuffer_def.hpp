@@ -71,14 +71,14 @@ MARK_REF_PTR_T(::UnityEngine::Rendering::CommandBuffer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10324))
 // CS Name: ::UnityEngine.Rendering::CommandBuffer*
 class CORDL_TYPE CommandBuffer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Ptr, put = __set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
   __declspec(property(put = set_name))::StringW name;
 
@@ -88,11 +88,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr void*& __get_m_Ptr();
+  constexpr void*& __cordl_internal_get_m_Ptr();
 
-  constexpr void* const& __get_m_Ptr() const;
+  constexpr void* const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void __set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(void* value);
 
   /// @brief Method InitBuffer, addr 0x2ce9f98, size 0x28, virtual false, abstract: false, final false
   static inline void* InitBuffer();

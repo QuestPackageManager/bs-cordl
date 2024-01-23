@@ -18,33 +18,33 @@ MARK_REF_PTR_T(::Mono::Security::X509::SafeBag);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13745))
 // CS Name: ::Mono.Security.X509::SafeBag*
 class CORDL_TYPE SafeBag : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _bagOID, offset 0x10, size 0x8
-  __declspec(property(get = __get__bagOID, put = __set__bagOID))::StringW _bagOID;
+  __declspec(property(get = __cordl_internal_get__bagOID, put = __cordl_internal_set__bagOID))::StringW _bagOID;
 
   /// @brief Field _asn1, offset 0x18, size 0x8
-  __declspec(property(get = __get__asn1, put = __set__asn1))::Mono::Security::ASN1* _asn1;
+  __declspec(property(get = __cordl_internal_get__asn1, put = __cordl_internal_set__asn1))::Mono::Security::ASN1* _asn1;
 
   __declspec(property(get = get_BagOID))::StringW BagOID;
 
   __declspec(property(get = get_ASN1))::Mono::Security::ASN1* ASN1;
 
-  constexpr ::StringW& __get__bagOID();
+  constexpr ::StringW& __cordl_internal_get__bagOID();
 
-  constexpr ::StringW const& __get__bagOID() const;
+  constexpr ::StringW const& __cordl_internal_get__bagOID() const;
 
-  constexpr void __set__bagOID(::StringW value);
+  constexpr void __cordl_internal_set__bagOID(::StringW value);
 
-  constexpr ::Mono::Security::ASN1*& __get__asn1();
+  constexpr ::Mono::Security::ASN1*& __cordl_internal_get__asn1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::ASN1*> const& __get__asn1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::ASN1*> const& __cordl_internal_get__asn1() const;
 
-  constexpr void __set__asn1(::Mono::Security::ASN1* value);
+  constexpr void __cordl_internal_set__asn1(::Mono::Security::ASN1* value);
 
   static inline ::Mono::Security::X509::SafeBag* New_ctor(::StringW bagOID, ::Mono::Security::ASN1* asn1);
 

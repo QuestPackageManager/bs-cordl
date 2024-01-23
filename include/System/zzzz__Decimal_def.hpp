@@ -95,7 +95,7 @@ MARK_VAL_T(::System::__Decimal__DecCalc);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2651))
 // CS Name: ::Decimal::DecCalc::RoundingMode
 struct CORDL_TYPE __Decimal__DecCalc__RoundingMode {
@@ -157,7 +157,7 @@ static_assert(offsetof(::GlobalNamespace::__Decimal__DecCalc__RoundingMode, valu
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2652))
 // CS Name: ::Decimal::DecCalc::PowerOvfl
 struct CORDL_TYPE __Decimal__DecCalc__PowerOvfl {
@@ -196,38 +196,38 @@ static_assert(offsetof(::GlobalNamespace::__Decimal__DecCalc__PowerOvfl, MidLo) 
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2653))
 // CS Name: ::Decimal::DecCalc::Buf24
 struct CORDL_TYPE __Decimal__DecCalc__Buf24 {
 public:
   // Declarations
   /// @brief Field U0, offset 0x0, size 0x4
-  __declspec(property(get = __get_U0, put = __set_U0)) uint32_t U0;
+  __declspec(property(get = __cordl_internal_get_U0, put = __cordl_internal_set_U0)) uint32_t U0;
 
   /// @brief Field U1, offset 0x4, size 0x4
-  __declspec(property(get = __get_U1, put = __set_U1)) uint32_t U1;
+  __declspec(property(get = __cordl_internal_get_U1, put = __cordl_internal_set_U1)) uint32_t U1;
 
   /// @brief Field U2, offset 0x8, size 0x4
-  __declspec(property(get = __get_U2, put = __set_U2)) uint32_t U2;
+  __declspec(property(get = __cordl_internal_get_U2, put = __cordl_internal_set_U2)) uint32_t U2;
 
   /// @brief Field U3, offset 0xc, size 0x4
-  __declspec(property(get = __get_U3, put = __set_U3)) uint32_t U3;
+  __declspec(property(get = __cordl_internal_get_U3, put = __cordl_internal_set_U3)) uint32_t U3;
 
   /// @brief Field U4, offset 0x10, size 0x4
-  __declspec(property(get = __get_U4, put = __set_U4)) uint32_t U4;
+  __declspec(property(get = __cordl_internal_get_U4, put = __cordl_internal_set_U4)) uint32_t U4;
 
   /// @brief Field U5, offset 0x14, size 0x4
-  __declspec(property(get = __get_U5, put = __set_U5)) uint32_t U5;
+  __declspec(property(get = __cordl_internal_get_U5, put = __cordl_internal_set_U5)) uint32_t U5;
 
   /// @brief Field ulo64LE, offset 0x0, size 0x8
-  __declspec(property(get = __get_ulo64LE, put = __set_ulo64LE)) uint64_t ulo64LE;
+  __declspec(property(get = __cordl_internal_get_ulo64LE, put = __cordl_internal_set_ulo64LE)) uint64_t ulo64LE;
 
   /// @brief Field umid64LE, offset 0x8, size 0x8
-  __declspec(property(get = __get_umid64LE, put = __set_umid64LE)) uint64_t umid64LE;
+  __declspec(property(get = __cordl_internal_get_umid64LE, put = __cordl_internal_set_umid64LE)) uint64_t umid64LE;
 
   /// @brief Field uhigh64LE, offset 0x10, size 0x8
-  __declspec(property(get = __get_uhigh64LE, put = __set_uhigh64LE)) uint64_t uhigh64LE;
+  __declspec(property(get = __cordl_internal_get_uhigh64LE, put = __cordl_internal_set_uhigh64LE)) uint64_t uhigh64LE;
 
   __declspec(property(get = get_Low64, put = set_Low64)) uint64_t Low64;
 
@@ -235,59 +235,59 @@ public:
 
   __declspec(property(put = set_High64)) uint64_t High64;
 
-  constexpr uint32_t& __get_U0();
+  constexpr uint32_t& __cordl_internal_get_U0();
 
-  constexpr uint32_t const& __get_U0() const;
+  constexpr uint32_t const& __cordl_internal_get_U0() const;
 
-  constexpr void __set_U0(uint32_t value);
+  constexpr void __cordl_internal_set_U0(uint32_t value);
 
-  constexpr uint32_t& __get_U1();
+  constexpr uint32_t& __cordl_internal_get_U1();
 
-  constexpr uint32_t const& __get_U1() const;
+  constexpr uint32_t const& __cordl_internal_get_U1() const;
 
-  constexpr void __set_U1(uint32_t value);
+  constexpr void __cordl_internal_set_U1(uint32_t value);
 
-  constexpr uint32_t& __get_U2();
+  constexpr uint32_t& __cordl_internal_get_U2();
 
-  constexpr uint32_t const& __get_U2() const;
+  constexpr uint32_t const& __cordl_internal_get_U2() const;
 
-  constexpr void __set_U2(uint32_t value);
+  constexpr void __cordl_internal_set_U2(uint32_t value);
 
-  constexpr uint32_t& __get_U3();
+  constexpr uint32_t& __cordl_internal_get_U3();
 
-  constexpr uint32_t const& __get_U3() const;
+  constexpr uint32_t const& __cordl_internal_get_U3() const;
 
-  constexpr void __set_U3(uint32_t value);
+  constexpr void __cordl_internal_set_U3(uint32_t value);
 
-  constexpr uint32_t& __get_U4();
+  constexpr uint32_t& __cordl_internal_get_U4();
 
-  constexpr uint32_t const& __get_U4() const;
+  constexpr uint32_t const& __cordl_internal_get_U4() const;
 
-  constexpr void __set_U4(uint32_t value);
+  constexpr void __cordl_internal_set_U4(uint32_t value);
 
-  constexpr uint32_t& __get_U5();
+  constexpr uint32_t& __cordl_internal_get_U5();
 
-  constexpr uint32_t const& __get_U5() const;
+  constexpr uint32_t const& __cordl_internal_get_U5() const;
 
-  constexpr void __set_U5(uint32_t value);
+  constexpr void __cordl_internal_set_U5(uint32_t value);
 
-  constexpr uint64_t& __get_ulo64LE();
+  constexpr uint64_t& __cordl_internal_get_ulo64LE();
 
-  constexpr uint64_t const& __get_ulo64LE() const;
+  constexpr uint64_t const& __cordl_internal_get_ulo64LE() const;
 
-  constexpr void __set_ulo64LE(uint64_t value);
+  constexpr void __cordl_internal_set_ulo64LE(uint64_t value);
 
-  constexpr uint64_t& __get_umid64LE();
+  constexpr uint64_t& __cordl_internal_get_umid64LE();
 
-  constexpr uint64_t const& __get_umid64LE() const;
+  constexpr uint64_t const& __cordl_internal_get_umid64LE() const;
 
-  constexpr void __set_umid64LE(uint64_t value);
+  constexpr void __cordl_internal_set_umid64LE(uint64_t value);
 
-  constexpr uint64_t& __get_uhigh64LE();
+  constexpr uint64_t& __cordl_internal_get_uhigh64LE();
 
-  constexpr uint64_t const& __get_uhigh64LE() const;
+  constexpr uint64_t const& __cordl_internal_get_uhigh64LE() const;
 
-  constexpr void __set_uhigh64LE(uint64_t value);
+  constexpr void __cordl_internal_set_uhigh64LE(uint64_t value);
 
   /// @brief Method get_Low64, addr 0x260f5c4, size 0x60, virtual false, abstract: false, final false
   inline uint64_t get_Low64();
@@ -456,7 +456,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Decimal__DecC
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2654))
 // CS Name: ::Decimal::DecCalc
 struct CORDL_TYPE __Decimal__DecCalc {
@@ -469,19 +469,19 @@ public:
   using RoundingMode = ::GlobalNamespace::__Decimal__DecCalc__RoundingMode;
 
   /// @brief Field uflags, offset 0x0, size 0x4
-  __declspec(property(get = __get_uflags, put = __set_uflags)) uint32_t uflags;
+  __declspec(property(get = __cordl_internal_get_uflags, put = __cordl_internal_set_uflags)) uint32_t uflags;
 
   /// @brief Field uhi, offset 0x4, size 0x4
-  __declspec(property(get = __get_uhi, put = __set_uhi)) uint32_t uhi;
+  __declspec(property(get = __cordl_internal_get_uhi, put = __cordl_internal_set_uhi)) uint32_t uhi;
 
   /// @brief Field ulo, offset 0x8, size 0x4
-  __declspec(property(get = __get_ulo, put = __set_ulo)) uint32_t ulo;
+  __declspec(property(get = __cordl_internal_get_ulo, put = __cordl_internal_set_ulo)) uint32_t ulo;
 
   /// @brief Field umid, offset 0xc, size 0x4
-  __declspec(property(get = __get_umid, put = __set_umid)) uint32_t umid;
+  __declspec(property(get = __cordl_internal_get_umid, put = __cordl_internal_set_umid)) uint32_t umid;
 
   /// @brief Field ulomidLE, offset 0x8, size 0x8
-  __declspec(property(get = __get_ulomidLE, put = __set_ulomidLE)) uint64_t ulomidLE;
+  __declspec(property(get = __cordl_internal_get_ulomidLE, put = __cordl_internal_set_ulomidLE)) uint64_t ulomidLE;
 
   /// @brief Field s_powers10, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_powers10, put = setStaticF_s_powers10))::ArrayW<uint32_t, ::Array<uint32_t>*> s_powers10;
@@ -506,35 +506,35 @@ public:
 
   __declspec(property(get = get_Low64, put = set_Low64)) uint64_t Low64;
 
-  constexpr uint32_t& __get_uflags();
+  constexpr uint32_t& __cordl_internal_get_uflags();
 
-  constexpr uint32_t const& __get_uflags() const;
+  constexpr uint32_t const& __cordl_internal_get_uflags() const;
 
-  constexpr void __set_uflags(uint32_t value);
+  constexpr void __cordl_internal_set_uflags(uint32_t value);
 
-  constexpr uint32_t& __get_uhi();
+  constexpr uint32_t& __cordl_internal_get_uhi();
 
-  constexpr uint32_t const& __get_uhi() const;
+  constexpr uint32_t const& __cordl_internal_get_uhi() const;
 
-  constexpr void __set_uhi(uint32_t value);
+  constexpr void __cordl_internal_set_uhi(uint32_t value);
 
-  constexpr uint32_t& __get_ulo();
+  constexpr uint32_t& __cordl_internal_get_ulo();
 
-  constexpr uint32_t const& __get_ulo() const;
+  constexpr uint32_t const& __cordl_internal_get_ulo() const;
 
-  constexpr void __set_ulo(uint32_t value);
+  constexpr void __cordl_internal_set_ulo(uint32_t value);
 
-  constexpr uint32_t& __get_umid();
+  constexpr uint32_t& __cordl_internal_get_umid();
 
-  constexpr uint32_t const& __get_umid() const;
+  constexpr uint32_t const& __cordl_internal_get_umid() const;
 
-  constexpr void __set_umid(uint32_t value);
+  constexpr void __cordl_internal_set_umid(uint32_t value);
 
-  constexpr uint64_t& __get_ulomidLE();
+  constexpr uint64_t& __cordl_internal_get_ulomidLE();
 
-  constexpr uint64_t const& __get_ulomidLE() const;
+  constexpr uint64_t const& __cordl_internal_get_ulomidLE() const;
 
-  constexpr void __set_ulomidLE(uint64_t value);
+  constexpr void __cordl_internal_set_ulomidLE(uint64_t value);
 
   static inline void setStaticF_s_powers10(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
@@ -737,7 +737,7 @@ static_assert(::cordl_internals::size_check_v<::System::__Decimal__DecCalc, 0x10
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2655))
 // CS Name: ::System::Decimal
 struct CORDL_TYPE Decimal {
@@ -746,19 +746,19 @@ public:
   using DecCalc = ::System::__Decimal__DecCalc;
 
   /// @brief Field flags, offset 0x0, size 0x4
-  __declspec(property(get = __get_flags, put = __set_flags)) int32_t flags;
+  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags)) int32_t flags;
 
   /// @brief Field hi, offset 0x4, size 0x4
-  __declspec(property(get = __get_hi, put = __set_hi)) int32_t hi;
+  __declspec(property(get = __cordl_internal_get_hi, put = __cordl_internal_set_hi)) int32_t hi;
 
   /// @brief Field lo, offset 0x8, size 0x4
-  __declspec(property(get = __get_lo, put = __set_lo)) int32_t lo;
+  __declspec(property(get = __cordl_internal_get_lo, put = __cordl_internal_set_lo)) int32_t lo;
 
   /// @brief Field mid, offset 0xc, size 0x4
-  __declspec(property(get = __get_mid, put = __set_mid)) int32_t mid;
+  __declspec(property(get = __cordl_internal_get_mid, put = __cordl_internal_set_mid)) int32_t mid;
 
   /// @brief Field ulomidLE, offset 0x8, size 0x8
-  __declspec(property(get = __get_ulomidLE, put = __set_ulomidLE)) uint64_t ulomidLE;
+  __declspec(property(get = __cordl_internal_get_ulomidLE, put = __cordl_internal_set_ulomidLE)) uint64_t ulomidLE;
 
   /// @brief Field Zero, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_Zero, put = setStaticF_Zero))::System::Decimal Zero;
@@ -829,35 +829,35 @@ public:
   /// @brief Convert to "::System::ISpanFormattable"
   constexpr ::System::ISpanFormattable* i___System__ISpanFormattable();
 
-  constexpr int32_t& __get_flags();
+  constexpr int32_t& __cordl_internal_get_flags();
 
-  constexpr int32_t const& __get_flags() const;
+  constexpr int32_t const& __cordl_internal_get_flags() const;
 
-  constexpr void __set_flags(int32_t value);
+  constexpr void __cordl_internal_set_flags(int32_t value);
 
-  constexpr int32_t& __get_hi();
+  constexpr int32_t& __cordl_internal_get_hi();
 
-  constexpr int32_t const& __get_hi() const;
+  constexpr int32_t const& __cordl_internal_get_hi() const;
 
-  constexpr void __set_hi(int32_t value);
+  constexpr void __cordl_internal_set_hi(int32_t value);
 
-  constexpr int32_t& __get_lo();
+  constexpr int32_t& __cordl_internal_get_lo();
 
-  constexpr int32_t const& __get_lo() const;
+  constexpr int32_t const& __cordl_internal_get_lo() const;
 
-  constexpr void __set_lo(int32_t value);
+  constexpr void __cordl_internal_set_lo(int32_t value);
 
-  constexpr int32_t& __get_mid();
+  constexpr int32_t& __cordl_internal_get_mid();
 
-  constexpr int32_t const& __get_mid() const;
+  constexpr int32_t const& __cordl_internal_get_mid() const;
 
-  constexpr void __set_mid(int32_t value);
+  constexpr void __cordl_internal_set_mid(int32_t value);
 
-  constexpr uint64_t& __get_ulomidLE();
+  constexpr uint64_t& __cordl_internal_get_ulomidLE();
 
-  constexpr uint64_t const& __get_ulomidLE() const;
+  constexpr uint64_t const& __cordl_internal_get_ulomidLE() const;
 
-  constexpr void __set_ulomidLE(uint64_t value);
+  constexpr void __cordl_internal_set_ulomidLE(uint64_t value);
 
   static inline void setStaticF_Zero(::System::Decimal value);
 

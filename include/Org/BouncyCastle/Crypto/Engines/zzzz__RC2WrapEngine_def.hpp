@@ -35,35 +35,35 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(855))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RC2WrapEngine*
 class CORDL_TYPE RC2WrapEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field engine, offset 0x10, size 0x8
-  __declspec(property(get = __get_engine, put = __set_engine))::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher* engine;
+  __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine))::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher* engine;
 
   /// @brief Field parameters, offset 0x18, size 0x8
-  __declspec(property(get = __get_parameters, put = __set_parameters))::Org::BouncyCastle::Crypto::ICipherParameters* parameters;
+  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::Org::BouncyCastle::Crypto::ICipherParameters* parameters;
 
   /// @brief Field paramPlusIV, offset 0x20, size 0x8
-  __declspec(property(get = __get_paramPlusIV, put = __set_paramPlusIV))::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV* paramPlusIV;
+  __declspec(property(get = __cordl_internal_get_paramPlusIV, put = __cordl_internal_set_paramPlusIV))::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV* paramPlusIV;
 
   /// @brief Field iv, offset 0x28, size 0x8
-  __declspec(property(get = __get_iv, put = __set_iv))::ArrayW<uint8_t, ::Array<uint8_t>*> iv;
+  __declspec(property(get = __cordl_internal_get_iv, put = __cordl_internal_set_iv))::ArrayW<uint8_t, ::Array<uint8_t>*> iv;
 
   /// @brief Field forWrapping, offset 0x30, size 0x1
-  __declspec(property(get = __get_forWrapping, put = __set_forWrapping)) bool forWrapping;
+  __declspec(property(get = __cordl_internal_get_forWrapping, put = __cordl_internal_set_forWrapping)) bool forWrapping;
 
   /// @brief Field sr, offset 0x38, size 0x8
-  __declspec(property(get = __get_sr, put = __set_sr))::Org::BouncyCastle::Security::SecureRandom* sr;
+  __declspec(property(get = __cordl_internal_get_sr, put = __cordl_internal_set_sr))::Org::BouncyCastle::Security::SecureRandom* sr;
 
   /// @brief Field sha1, offset 0x40, size 0x8
-  __declspec(property(get = __get_sha1, put = __set_sha1))::Org::BouncyCastle::Crypto::IDigest* sha1;
+  __declspec(property(get = __cordl_internal_get_sha1, put = __cordl_internal_set_sha1))::Org::BouncyCastle::Crypto::IDigest* sha1;
 
   /// @brief Field digest, offset 0x48, size 0x8
-  __declspec(property(get = __get_digest, put = __set_digest))::ArrayW<uint8_t, ::Array<uint8_t>*> digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::ArrayW<uint8_t, ::Array<uint8_t>*> digest;
 
   /// @brief Field IV2, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_IV2, put = setStaticF_IV2))::ArrayW<uint8_t, ::Array<uint8_t>*> IV2;
@@ -76,53 +76,53 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr ::Org::BouncyCastle::Crypto::IWrapper* i___Org__BouncyCastle__Crypto__IWrapper() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher*& __get_engine();
+  constexpr ::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher*& __cordl_internal_get_engine();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher*> const& __get_engine() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher*> const& __cordl_internal_get_engine() const;
 
-  constexpr void __set_engine(::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher* value);
+  constexpr void __cordl_internal_set_engine(::Org::BouncyCastle::Crypto::Modes::CbcBlockCipher* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters*& __get_parameters();
+  constexpr ::Org::BouncyCastle::Crypto::ICipherParameters*& __cordl_internal_get_parameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ICipherParameters*> const& __get_parameters() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ICipherParameters*> const& __cordl_internal_get_parameters() const;
 
-  constexpr void __set_parameters(::Org::BouncyCastle::Crypto::ICipherParameters* value);
+  constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::ICipherParameters* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV*& __get_paramPlusIV();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV*& __cordl_internal_get_paramPlusIV();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV*> const& __get_paramPlusIV() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV*> const& __cordl_internal_get_paramPlusIV() const;
 
-  constexpr void __set_paramPlusIV(::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV* value);
+  constexpr void __cordl_internal_set_paramPlusIV(::Org::BouncyCastle::Crypto::Parameters::ParametersWithIV* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_iv();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_iv();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_iv() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_iv() const;
 
-  constexpr void __set_iv(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_iv(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get_forWrapping();
+  constexpr bool& __cordl_internal_get_forWrapping();
 
-  constexpr bool const& __get_forWrapping() const;
+  constexpr bool const& __cordl_internal_get_forWrapping() const;
 
-  constexpr void __set_forWrapping(bool value);
+  constexpr void __cordl_internal_set_forWrapping(bool value);
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_sr();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_sr();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_sr() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_sr() const;
 
-  constexpr void __set_sr(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_sr(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_sha1();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_sha1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_sha1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_sha1() const;
 
-  constexpr void __set_sha1(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_sha1(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_digest();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_digest();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_digest() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_digest() const;
 
-  constexpr void __set_digest(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_digest(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_IV2(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

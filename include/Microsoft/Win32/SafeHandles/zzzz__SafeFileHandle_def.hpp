@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Microsoft::Win32::SafeHandles::SafeFileHandle);
 // SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Microsoft::Win32::SafeHandles {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2301))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2301))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2299))
 // CS Name: ::Microsoft.Win32.SafeHandles::SafeFileHandle*
 class CORDL_TYPE SafeFileHandle : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {

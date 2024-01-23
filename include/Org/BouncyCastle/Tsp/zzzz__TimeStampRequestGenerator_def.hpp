@@ -38,47 +38,47 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TimeStampRequestGenerator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1765))
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampRequestGenerator*
 class CORDL_TYPE TimeStampRequestGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field reqPolicy, offset 0x10, size 0x8
-  __declspec(property(get = __get_reqPolicy, put = __set_reqPolicy))::Org::BouncyCastle::Asn1::DerObjectIdentifier* reqPolicy;
+  __declspec(property(get = __cordl_internal_get_reqPolicy, put = __cordl_internal_set_reqPolicy))::Org::BouncyCastle::Asn1::DerObjectIdentifier* reqPolicy;
 
   /// @brief Field certReq, offset 0x18, size 0x8
-  __declspec(property(get = __get_certReq, put = __set_certReq))::Org::BouncyCastle::Asn1::DerBoolean* certReq;
+  __declspec(property(get = __cordl_internal_get_certReq, put = __cordl_internal_set_certReq))::Org::BouncyCastle::Asn1::DerBoolean* certReq;
 
   /// @brief Field extensions, offset 0x20, size 0x8
-  __declspec(property(get = __get_extensions, put = __set_extensions))::System::Collections::IDictionary* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::System::Collections::IDictionary* extensions;
 
   /// @brief Field extOrdering, offset 0x28, size 0x8
-  __declspec(property(get = __get_extOrdering, put = __set_extOrdering))::System::Collections::IList* extOrdering;
+  __declspec(property(get = __cordl_internal_get_extOrdering, put = __cordl_internal_set_extOrdering))::System::Collections::IList* extOrdering;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_reqPolicy();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_reqPolicy();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_reqPolicy() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_reqPolicy() const;
 
-  constexpr void __set_reqPolicy(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_reqPolicy(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerBoolean*& __get_certReq();
+  constexpr ::Org::BouncyCastle::Asn1::DerBoolean*& __cordl_internal_get_certReq();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBoolean*> const& __get_certReq() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBoolean*> const& __cordl_internal_get_certReq() const;
 
-  constexpr void __set_certReq(::Org::BouncyCastle::Asn1::DerBoolean* value);
+  constexpr void __cordl_internal_set_certReq(::Org::BouncyCastle::Asn1::DerBoolean* value);
 
-  constexpr ::System::Collections::IDictionary*& __get_extensions();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_extensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get_extensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_extensions() const;
 
-  constexpr void __set_extensions(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set_extensions(::System::Collections::IDictionary* value);
 
-  constexpr ::System::Collections::IList*& __get_extOrdering();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_extOrdering();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_extOrdering() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_extOrdering() const;
 
-  constexpr void __set_extOrdering(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_extOrdering(::System::Collections::IList* value);
 
   /// @brief Method SetReqPolicy, addr 0x114fee8, size 0x70, virtual false, abstract: false, final false
   inline void SetReqPolicy(::StringW reqPolicy);

@@ -25,23 +25,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(886))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::BaseKdfBytesGenerator*
 class CORDL_TYPE BaseKdfBytesGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field counterStart, offset 0x10, size 0x4
-  __declspec(property(get = __get_counterStart, put = __set_counterStart)) int32_t counterStart;
+  __declspec(property(get = __cordl_internal_get_counterStart, put = __cordl_internal_set_counterStart)) int32_t counterStart;
 
   /// @brief Field digest, offset 0x18, size 0x8
-  __declspec(property(get = __get_digest, put = __set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
 
   /// @brief Field shared, offset 0x20, size 0x8
-  __declspec(property(get = __get_shared, put = __set_shared))::ArrayW<uint8_t, ::Array<uint8_t>*> shared;
+  __declspec(property(get = __cordl_internal_get_shared, put = __cordl_internal_set_shared))::ArrayW<uint8_t, ::Array<uint8_t>*> shared;
 
   /// @brief Field iv, offset 0x28, size 0x8
-  __declspec(property(get = __get_iv, put = __set_iv))::ArrayW<uint8_t, ::Array<uint8_t>*> iv;
+  __declspec(property(get = __cordl_internal_get_iv, put = __cordl_internal_set_iv))::ArrayW<uint8_t, ::Array<uint8_t>*> iv;
 
   __declspec(property(get = get_Digest))::Org::BouncyCastle::Crypto::IDigest* Digest;
 
@@ -51,29 +51,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction* i___Org__BouncyCastle__Crypto__IDerivationFunction() noexcept;
 
-  constexpr int32_t& __get_counterStart();
+  constexpr int32_t& __cordl_internal_get_counterStart();
 
-  constexpr int32_t const& __get_counterStart() const;
+  constexpr int32_t const& __cordl_internal_get_counterStart() const;
 
-  constexpr void __set_counterStart(int32_t value);
+  constexpr void __cordl_internal_set_counterStart(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_digest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_digest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
 
-  constexpr void __set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_shared();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_shared();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_shared() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_shared() const;
 
-  constexpr void __set_shared(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_shared(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_iv();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_iv();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_iv() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_iv() const;
 
-  constexpr void __set_iv(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_iv(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator* New_ctor(int32_t counterStart, ::Org::BouncyCastle::Crypto::IDigest* digest);
 

@@ -18,7 +18,7 @@ MARK_VAL_T(::OVR::OpenVR::VRTextureWithPoseAndDepth_t);
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8661))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8661))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8663))
 // CS Name: ::OVR.OpenVR::VRTextureWithPoseAndDepth_t
 struct CORDL_TYPE VRTextureWithPoseAndDepth_t {

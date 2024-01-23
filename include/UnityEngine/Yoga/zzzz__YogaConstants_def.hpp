@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::Yoga::YogaConstants);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Yoga {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15359))
 // CS Name: ::UnityEngine.Yoga::YogaConstants*
 class CORDL_TYPE YogaConstants : public ::System::Object {

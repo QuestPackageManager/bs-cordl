@@ -29,38 +29,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(52))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::RevRepContentBuilder*
 class CORDL_TYPE RevRepContentBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field status, offset 0x10, size 0x8
-  __declspec(property(get = __get_status, put = __set_status))::Org::BouncyCastle::Asn1::Asn1EncodableVector* status;
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::Org::BouncyCastle::Asn1::Asn1EncodableVector* status;
 
   /// @brief Field revCerts, offset 0x18, size 0x8
-  __declspec(property(get = __get_revCerts, put = __set_revCerts))::Org::BouncyCastle::Asn1::Asn1EncodableVector* revCerts;
+  __declspec(property(get = __cordl_internal_get_revCerts, put = __cordl_internal_set_revCerts))::Org::BouncyCastle::Asn1::Asn1EncodableVector* revCerts;
 
   /// @brief Field crls, offset 0x20, size 0x8
-  __declspec(property(get = __get_crls, put = __set_crls))::Org::BouncyCastle::Asn1::Asn1EncodableVector* crls;
+  __declspec(property(get = __cordl_internal_get_crls, put = __cordl_internal_set_crls))::Org::BouncyCastle::Asn1::Asn1EncodableVector* crls;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& __get_status();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& __cordl_internal_get_status();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1EncodableVector*> const& __get_status() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1EncodableVector*> const& __cordl_internal_get_status() const;
 
-  constexpr void __set_status(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
+  constexpr void __cordl_internal_set_status(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& __get_revCerts();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& __cordl_internal_get_revCerts();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1EncodableVector*> const& __get_revCerts() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1EncodableVector*> const& __cordl_internal_get_revCerts() const;
 
-  constexpr void __set_revCerts(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
+  constexpr void __cordl_internal_set_revCerts(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& __get_crls();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& __cordl_internal_get_crls();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1EncodableVector*> const& __get_crls() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1EncodableVector*> const& __cordl_internal_get_crls() const;
 
-  constexpr void __set_crls(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
+  constexpr void __cordl_internal_set_crls(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
   /// @brief Method Add, addr 0xe6f154, size 0x28, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevRepContentBuilder* Add(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* status);

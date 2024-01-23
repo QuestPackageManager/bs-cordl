@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::PS4::XR::PSVRLoader);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::PS4::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16036))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16036))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16267))
 // CS Name: ::UnityEngine.PS4.XR::PSVRLoader*
 class CORDL_TYPE PSVRLoader : public ::UnityEngine::XR::Management::XRLoaderHelper {

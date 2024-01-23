@@ -20,106 +20,106 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::Sha256Digest);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(750))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(750))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(768))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::Sha256Digest*
 class CORDL_TYPE Sha256Digest : public ::Org::BouncyCastle::Crypto::Digests::GeneralDigest {
 public:
   // Declarations
   /// @brief Field H1, offset 0x28, size 0x4
-  __declspec(property(get = __get_H1, put = __set_H1)) uint32_t H1;
+  __declspec(property(get = __cordl_internal_get_H1, put = __cordl_internal_set_H1)) uint32_t H1;
 
   /// @brief Field H2, offset 0x2c, size 0x4
-  __declspec(property(get = __get_H2, put = __set_H2)) uint32_t H2;
+  __declspec(property(get = __cordl_internal_get_H2, put = __cordl_internal_set_H2)) uint32_t H2;
 
   /// @brief Field H3, offset 0x30, size 0x4
-  __declspec(property(get = __get_H3, put = __set_H3)) uint32_t H3;
+  __declspec(property(get = __cordl_internal_get_H3, put = __cordl_internal_set_H3)) uint32_t H3;
 
   /// @brief Field H4, offset 0x34, size 0x4
-  __declspec(property(get = __get_H4, put = __set_H4)) uint32_t H4;
+  __declspec(property(get = __cordl_internal_get_H4, put = __cordl_internal_set_H4)) uint32_t H4;
 
   /// @brief Field H5, offset 0x38, size 0x4
-  __declspec(property(get = __get_H5, put = __set_H5)) uint32_t H5;
+  __declspec(property(get = __cordl_internal_get_H5, put = __cordl_internal_set_H5)) uint32_t H5;
 
   /// @brief Field H6, offset 0x3c, size 0x4
-  __declspec(property(get = __get_H6, put = __set_H6)) uint32_t H6;
+  __declspec(property(get = __cordl_internal_get_H6, put = __cordl_internal_set_H6)) uint32_t H6;
 
   /// @brief Field H7, offset 0x40, size 0x4
-  __declspec(property(get = __get_H7, put = __set_H7)) uint32_t H7;
+  __declspec(property(get = __cordl_internal_get_H7, put = __cordl_internal_set_H7)) uint32_t H7;
 
   /// @brief Field H8, offset 0x44, size 0x4
-  __declspec(property(get = __get_H8, put = __set_H8)) uint32_t H8;
+  __declspec(property(get = __cordl_internal_get_H8, put = __cordl_internal_set_H8)) uint32_t H8;
 
   /// @brief Field X, offset 0x48, size 0x8
-  __declspec(property(get = __get_X, put = __set_X))::ArrayW<uint32_t, ::Array<uint32_t>*> X;
+  __declspec(property(get = __cordl_internal_get_X, put = __cordl_internal_set_X))::ArrayW<uint32_t, ::Array<uint32_t>*> X;
 
   /// @brief Field xOff, offset 0x50, size 0x4
-  __declspec(property(get = __get_xOff, put = __set_xOff)) int32_t xOff;
+  __declspec(property(get = __cordl_internal_get_xOff, put = __cordl_internal_set_xOff)) int32_t xOff;
 
   /// @brief Field K, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_K, put = setStaticF_K))::ArrayW<uint32_t, ::Array<uint32_t>*> K;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
-  constexpr uint32_t& __get_H1();
+  constexpr uint32_t& __cordl_internal_get_H1();
 
-  constexpr uint32_t const& __get_H1() const;
+  constexpr uint32_t const& __cordl_internal_get_H1() const;
 
-  constexpr void __set_H1(uint32_t value);
+  constexpr void __cordl_internal_set_H1(uint32_t value);
 
-  constexpr uint32_t& __get_H2();
+  constexpr uint32_t& __cordl_internal_get_H2();
 
-  constexpr uint32_t const& __get_H2() const;
+  constexpr uint32_t const& __cordl_internal_get_H2() const;
 
-  constexpr void __set_H2(uint32_t value);
+  constexpr void __cordl_internal_set_H2(uint32_t value);
 
-  constexpr uint32_t& __get_H3();
+  constexpr uint32_t& __cordl_internal_get_H3();
 
-  constexpr uint32_t const& __get_H3() const;
+  constexpr uint32_t const& __cordl_internal_get_H3() const;
 
-  constexpr void __set_H3(uint32_t value);
+  constexpr void __cordl_internal_set_H3(uint32_t value);
 
-  constexpr uint32_t& __get_H4();
+  constexpr uint32_t& __cordl_internal_get_H4();
 
-  constexpr uint32_t const& __get_H4() const;
+  constexpr uint32_t const& __cordl_internal_get_H4() const;
 
-  constexpr void __set_H4(uint32_t value);
+  constexpr void __cordl_internal_set_H4(uint32_t value);
 
-  constexpr uint32_t& __get_H5();
+  constexpr uint32_t& __cordl_internal_get_H5();
 
-  constexpr uint32_t const& __get_H5() const;
+  constexpr uint32_t const& __cordl_internal_get_H5() const;
 
-  constexpr void __set_H5(uint32_t value);
+  constexpr void __cordl_internal_set_H5(uint32_t value);
 
-  constexpr uint32_t& __get_H6();
+  constexpr uint32_t& __cordl_internal_get_H6();
 
-  constexpr uint32_t const& __get_H6() const;
+  constexpr uint32_t const& __cordl_internal_get_H6() const;
 
-  constexpr void __set_H6(uint32_t value);
+  constexpr void __cordl_internal_set_H6(uint32_t value);
 
-  constexpr uint32_t& __get_H7();
+  constexpr uint32_t& __cordl_internal_get_H7();
 
-  constexpr uint32_t const& __get_H7() const;
+  constexpr uint32_t const& __cordl_internal_get_H7() const;
 
-  constexpr void __set_H7(uint32_t value);
+  constexpr void __cordl_internal_set_H7(uint32_t value);
 
-  constexpr uint32_t& __get_H8();
+  constexpr uint32_t& __cordl_internal_get_H8();
 
-  constexpr uint32_t const& __get_H8() const;
+  constexpr uint32_t const& __cordl_internal_get_H8() const;
 
-  constexpr void __set_H8(uint32_t value);
+  constexpr void __cordl_internal_set_H8(uint32_t value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_X();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_X();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_X() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_X() const;
 
-  constexpr void __set_X(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_X(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr int32_t& __get_xOff();
+  constexpr int32_t& __cordl_internal_get_xOff();
 
-  constexpr int32_t const& __get_xOff() const;
+  constexpr int32_t const& __cordl_internal_get_xOff() const;
 
-  constexpr void __set_xOff(int32_t value);
+  constexpr void __cordl_internal_set_xOff(int32_t value);
 
   static inline void setStaticF_K(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 

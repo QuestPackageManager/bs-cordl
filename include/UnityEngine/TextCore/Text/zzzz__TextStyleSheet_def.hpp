@@ -25,32 +25,33 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextStyleSheet);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13732))
 // CS Name: ::UnityEngine.TextCore.Text::TextStyleSheet*
 class CORDL_TYPE TextStyleSheet : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field m_StyleList, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_StyleList, put = __set_m_StyleList))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* m_StyleList;
+  __declspec(property(get = __cordl_internal_get_m_StyleList, put = __cordl_internal_set_m_StyleList))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* m_StyleList;
 
   /// @brief Field m_StyleLookupDictionary, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_StyleLookupDictionary,
-                      put = __set_m_StyleLookupDictionary))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextStyle*>* m_StyleLookupDictionary;
+  __declspec(property(get = __cordl_internal_get_m_StyleLookupDictionary,
+                      put = __cordl_internal_set_m_StyleLookupDictionary))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextStyle*>* m_StyleLookupDictionary;
 
   __declspec(property(get = get_styles))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* styles;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>*& __get_m_StyleList();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>*& __cordl_internal_get_m_StyleList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>*> const& __get_m_StyleList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>*> const& __cordl_internal_get_m_StyleList() const;
 
-  constexpr void __set_m_StyleList(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* value);
+  constexpr void __cordl_internal_set_m_StyleList(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextStyle*>*& __get_m_StyleLookupDictionary();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextStyle*>*& __cordl_internal_get_m_StyleLookupDictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextStyle*>*> const& __get_m_StyleLookupDictionary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextStyle*>*> const&
+  __cordl_internal_get_m_StyleLookupDictionary() const;
 
-  constexpr void __set_m_StyleLookupDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextStyle*>* value);
+  constexpr void __cordl_internal_set_m_StyleLookupDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::TextStyle*>* value);
 
   /// @brief Method get_styles, addr 0x2d4c1c8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextStyle*>* get_styles();

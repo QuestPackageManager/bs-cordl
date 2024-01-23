@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::System::Net::HttpListenerBasicIdentity);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2994))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2994))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9172))
 // CS Name: ::System.Net::HttpListenerBasicIdentity*
 class CORDL_TYPE HttpListenerBasicIdentity : public ::System::Security::Principal::GenericIdentity {
 public:
   // Declarations
   /// @brief Field password, offset 0x88, size 0x8
-  __declspec(property(get = __get_password, put = __set_password))::StringW password;
+  __declspec(property(get = __cordl_internal_get_password, put = __cordl_internal_set_password))::StringW password;
 
-  constexpr ::StringW& __get_password();
+  constexpr ::StringW& __cordl_internal_get_password();
 
-  constexpr ::StringW const& __get_password() const;
+  constexpr ::StringW const& __cordl_internal_get_password() const;
 
-  constexpr void __set_password(::StringW value);
+  constexpr void __cordl_internal_set_password(::StringW value);
 
   static inline ::System::Net::HttpListenerBasicIdentity* New_ctor(::StringW username, ::StringW password);
 

@@ -35,33 +35,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1662))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpPublicKeyRingBundle*
 class CORDL_TYPE PgpPublicKeyRingBundle : public ::System::Object {
 public:
   // Declarations
   /// @brief Field pubRings, offset 0x10, size 0x8
-  __declspec(property(get = __get_pubRings, put = __set_pubRings))::System::Collections::IDictionary* pubRings;
+  __declspec(property(get = __cordl_internal_get_pubRings, put = __cordl_internal_set_pubRings))::System::Collections::IDictionary* pubRings;
 
   /// @brief Field order, offset 0x18, size 0x8
-  __declspec(property(get = __get_order, put = __set_order))::System::Collections::IList* order;
+  __declspec(property(get = __cordl_internal_get_order, put = __cordl_internal_set_order))::System::Collections::IList* order;
 
   __declspec(property(get = get_Size)) int32_t Size;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  constexpr ::System::Collections::IDictionary*& __get_pubRings();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_pubRings();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get_pubRings() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_pubRings() const;
 
-  constexpr void __set_pubRings(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set_pubRings(::System::Collections::IDictionary* value);
 
-  constexpr ::System::Collections::IList*& __get_order();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_order();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_order() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_order() const;
 
-  constexpr void __set_order(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_order(::System::Collections::IList* value);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKeyRingBundle* New_ctor(::System::Collections::IDictionary* pubRings, ::System::Collections::IList* order);
 

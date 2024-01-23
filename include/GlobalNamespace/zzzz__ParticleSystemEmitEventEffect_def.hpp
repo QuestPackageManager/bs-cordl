@@ -85,31 +85,33 @@ MARK_REF_PTR_T(::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSyste
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4960))
 // CS Name: ::ParticleSystemEmitEventEffect::ParticleSystemEmitBehavior*
 class CORDL_TYPE __ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _audioTimeSource, offset 0x10, size 0x8
-  __declspec(property(get = __get__audioTimeSource, put = __set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
   /// @brief Field _beatmapCallbacksController, offset 0x18, size 0x8
-  __declspec(property(get = __get__beatmapCallbacksController, put = __set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
+                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
   /// @brief Field _particleSystemEventControllerPoolContainer, offset 0x20, size 0x8
-  __declspec(property(
-      get = __get__particleSystemEventControllerPoolContainer,
-      put = __set__particleSystemEventControllerPoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ParticleSystemEventController*>* _particleSystemEventControllerPoolContainer;
+  __declspec(property(get = __cordl_internal_get__particleSystemEventControllerPoolContainer, put = __cordl_internal_set__particleSystemEventControllerPoolContainer))::GlobalNamespace::
+      MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ParticleSystemEventController>>* _particleSystemEventControllerPoolContainer;
 
   /// @brief Field _particleSystemParentTransform, offset 0x28, size 0x8
-  __declspec(property(get = __get__particleSystemParentTransform, put = __set__particleSystemParentTransform))::UnityEngine::Transform* _particleSystemParentTransform;
+  __declspec(property(get = __cordl_internal_get__particleSystemParentTransform,
+                      put = __cordl_internal_set__particleSystemParentTransform))::UnityW<::UnityEngine::Transform> _particleSystemParentTransform;
 
   /// @brief Field _particleSystemMaxSpawnedSystems, offset 0x30, size 0x4
-  __declspec(property(get = __get__particleSystemMaxSpawnedSystems, put = __set__particleSystemMaxSpawnedSystems)) int32_t _particleSystemMaxSpawnedSystems;
+  __declspec(property(get = __cordl_internal_get__particleSystemMaxSpawnedSystems, put = __cordl_internal_set__particleSystemMaxSpawnedSystems)) int32_t _particleSystemMaxSpawnedSystems;
 
   /// @brief Field _beatmapDataCallbackWrapper, offset 0x38, size 0x8
-  __declspec(property(get = __get__beatmapDataCallbackWrapper, put = __set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
+  __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
+                      put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -117,42 +119,42 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __get__audioTimeSource();
+  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __get__audioTimeSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __get__beatmapCallbacksController();
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __get__beatmapCallbacksController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ParticleSystemEventController*>*& __get__particleSystemEventControllerPoolContainer();
+  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ParticleSystemEventController>>*& __cordl_internal_get__particleSystemEventControllerPoolContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ParticleSystemEventController*>*> const&
-  __get__particleSystemEventControllerPoolContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ParticleSystemEventController>>*> const&
+  __cordl_internal_get__particleSystemEventControllerPoolContainer() const;
 
-  constexpr void __set__particleSystemEventControllerPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ParticleSystemEventController*>* value);
+  constexpr void __cordl_internal_set__particleSystemEventControllerPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ParticleSystemEventController>>* value);
 
-  constexpr ::UnityEngine::Transform*& __get__particleSystemParentTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__particleSystemParentTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__particleSystemParentTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__particleSystemParentTransform() const;
 
-  constexpr void __set__particleSystemParentTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__particleSystemParentTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr int32_t& __get__particleSystemMaxSpawnedSystems();
+  constexpr int32_t& __cordl_internal_get__particleSystemMaxSpawnedSystems();
 
-  constexpr int32_t const& __get__particleSystemMaxSpawnedSystems() const;
+  constexpr int32_t const& __cordl_internal_get__particleSystemMaxSpawnedSystems() const;
 
-  constexpr void __set__particleSystemMaxSpawnedSystems(int32_t value);
+  constexpr void __cordl_internal_set__particleSystemMaxSpawnedSystems(int32_t value);
 
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __get__beatmapDataCallbackWrapper();
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __get__beatmapDataCallbackWrapper() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
-  constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
+  constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
   static inline ::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior* New_ctor(::GlobalNamespace::BasicBeatmapEventType beatmapEvent,
                                                                                                          ::UnityEngine::Transform* particleSystemParentTransform,
@@ -172,7 +174,7 @@ public:
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   /// @brief Method EmitParticles, addr 0x23af5dc, size 0x16c, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::ParticleSystemEventController* EmitParticles(float_t startTime);
+  inline ::UnityW<::GlobalNamespace::ParticleSystemEventController> EmitParticles(float_t startTime);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -195,10 +197,10 @@ public:
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
   /// @brief Field _particleSystemEventControllerPoolContainer, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ParticleSystemEventController*>* ____particleSystemEventControllerPoolContainer;
+  ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ParticleSystemEventController>>* ____particleSystemEventControllerPoolContainer;
 
   /// @brief Field _particleSystemParentTransform, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____particleSystemParentTransform;
+  ::UnityW<::UnityEngine::Transform> ____particleSystemParentTransform;
 
   /// @brief Field _particleSystemMaxSpawnedSystems, offset: 0x30, size: 0x4, def value: None
   int32_t ____particleSystemMaxSpawnedSystems;
@@ -228,14 +230,14 @@ static_assert(offsetof(::GlobalNamespace::__ParticleSystemEmitEventEffect__Parti
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4960))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4960))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4961))
 // CS Name: ::ParticleSystemEmitEventEffect::BeatmapEditorParticleSystemEmitBehavior*
 class CORDL_TYPE __ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior : public ::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior {
 public:
   // Declarations
   /// @brief Field _tickableManager, offset 0x40, size 0x8
-  __declspec(property(get = __get__tickableManager, put = __set__tickableManager))::Zenject::TickableManager* _tickableManager;
+  __declspec(property(get = __cordl_internal_get__tickableManager, put = __cordl_internal_set__tickableManager))::Zenject::TickableManager* _tickableManager;
 
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
@@ -243,11 +245,11 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  constexpr ::Zenject::TickableManager*& __get__tickableManager();
+  constexpr ::Zenject::TickableManager*& __cordl_internal_get__tickableManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::TickableManager*> const& __get__tickableManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::TickableManager*> const& __cordl_internal_get__tickableManager() const;
 
-  constexpr void __set__tickableManager(::Zenject::TickableManager* value);
+  constexpr void __cordl_internal_set__tickableManager(::Zenject::TickableManager* value);
 
   static inline ::GlobalNamespace::__ParticleSystemEmitEventEffect__BeatmapEditorParticleSystemEmitBehavior*
   New_ctor(::GlobalNamespace::BasicBeatmapEventType beatmapEvent, ::UnityEngine::Transform* particleSystemParentTransform, int32_t particleSystemMaxSpawnedSystems,
@@ -294,29 +296,29 @@ static_assert(offsetof(::GlobalNamespace::__ParticleSystemEmitEventEffect__Beatm
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4960))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4960))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4962))
 // CS Name: ::ParticleSystemEmitEventEffect::GameplayParticleSystemEmitBehavior*
 class CORDL_TYPE __ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior : public ::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior {
 public:
   // Declarations
   /// @brief Field _pauseController, offset 0x40, size 0x8
-  __declspec(property(get = __get__pauseController, put = __set__pauseController))::GlobalNamespace::PauseController* _pauseController;
+  __declspec(property(get = __cordl_internal_get__pauseController, put = __cordl_internal_set__pauseController))::UnityW<::GlobalNamespace::PauseController> _pauseController;
 
   /// @brief Field _songSpeedData, offset 0x48, size 0x8
-  __declspec(property(get = __get__songSpeedData, put = __set__songSpeedData))::GlobalNamespace::SongSpeedData* _songSpeedData;
+  __declspec(property(get = __cordl_internal_get__songSpeedData, put = __cordl_internal_set__songSpeedData))::GlobalNamespace::SongSpeedData* _songSpeedData;
 
-  constexpr ::GlobalNamespace::PauseController*& __get__pauseController();
+  constexpr ::UnityW<::GlobalNamespace::PauseController>& __cordl_internal_get__pauseController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PauseController*> const& __get__pauseController() const;
+  constexpr ::UnityW<::GlobalNamespace::PauseController> const& __cordl_internal_get__pauseController() const;
 
-  constexpr void __set__pauseController(::GlobalNamespace::PauseController* value);
+  constexpr void __cordl_internal_set__pauseController(::UnityW<::GlobalNamespace::PauseController> value);
 
-  constexpr ::GlobalNamespace::SongSpeedData*& __get__songSpeedData();
+  constexpr ::GlobalNamespace::SongSpeedData*& __cordl_internal_get__songSpeedData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongSpeedData*> const& __get__songSpeedData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongSpeedData*> const& __cordl_internal_get__songSpeedData() const;
 
-  constexpr void __set__songSpeedData(::GlobalNamespace::SongSpeedData* value);
+  constexpr void __cordl_internal_set__songSpeedData(::GlobalNamespace::SongSpeedData* value);
 
   static inline ::GlobalNamespace::__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior*
   New_ctor(::GlobalNamespace::BasicBeatmapEventType beatmapEvent, ::UnityEngine::Transform* particleSystemParentTransform, int32_t particleSystemMaxSpawnedSystems,
@@ -340,7 +342,7 @@ public:
   inline void HandlePauseControllerDidResume();
 
   /// @brief Method EmitParticles, addr 0x23b010c, size 0xbc, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::ParticleSystemEventController* EmitParticles(float_t startTime);
+  inline ::UnityW<::GlobalNamespace::ParticleSystemEventController> EmitParticles(float_t startTime);
 
   // Ctor Parameters [CppParam { name: "", ty: "__ParticleSystemEmitEventEffect__GameplayParticleSystemEmitBehavior", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -357,7 +359,7 @@ protected:
 
 public:
   /// @brief Field _pauseController, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::PauseController* ____pauseController;
+  ::UnityW<::GlobalNamespace::PauseController> ____pauseController;
 
   /// @brief Field _songSpeedData, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::SongSpeedData* ____songSpeedData;
@@ -376,7 +378,7 @@ static_assert(offsetof(::GlobalNamespace::__ParticleSystemEmitEventEffect__Gamep
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(4982))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4982)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14724))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4963))
 // CS Name: ::ParticleSystemEmitEventEffect*
 class CORDL_TYPE ParticleSystemEmitEventEffect : public ::UnityEngine::MonoBehaviour {
@@ -389,59 +391,60 @@ public:
   using ParticleSystemEmitBehavior = ::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior;
 
   /// @brief Field _beatmapEvent, offset 0x18, size 0x4
-  __declspec(property(get = __get__beatmapEvent, put = __set__beatmapEvent))::GlobalNamespace::BasicBeatmapEventType _beatmapEvent;
+  __declspec(property(get = __cordl_internal_get__beatmapEvent, put = __cordl_internal_set__beatmapEvent))::GlobalNamespace::BasicBeatmapEventType _beatmapEvent;
 
   /// @brief Field _particleSystemParentTransform, offset 0x20, size 0x8
-  __declspec(property(get = __get__particleSystemParentTransform, put = __set__particleSystemParentTransform))::UnityEngine::Transform* _particleSystemParentTransform;
+  __declspec(property(get = __cordl_internal_get__particleSystemParentTransform,
+                      put = __cordl_internal_set__particleSystemParentTransform))::UnityW<::UnityEngine::Transform> _particleSystemParentTransform;
 
   /// @brief Field _particleSystemMaxSpawnedSystems, offset 0x28, size 0x4
-  __declspec(property(get = __get__particleSystemMaxSpawnedSystems, put = __set__particleSystemMaxSpawnedSystems)) int32_t _particleSystemMaxSpawnedSystems;
+  __declspec(property(get = __cordl_internal_get__particleSystemMaxSpawnedSystems, put = __cordl_internal_set__particleSystemMaxSpawnedSystems)) int32_t _particleSystemMaxSpawnedSystems;
 
   /// @brief Field _environmentContext, offset 0x2c, size 0x4
-  __declspec(property(get = __get__environmentContext, put = __set__environmentContext))::GlobalNamespace::EnvironmentContext _environmentContext;
+  __declspec(property(get = __cordl_internal_get__environmentContext, put = __cordl_internal_set__environmentContext))::GlobalNamespace::EnvironmentContext _environmentContext;
 
   /// @brief Field _diContainer, offset 0x30, size 0x8
-  __declspec(property(get = __get__diContainer, put = __set__diContainer))::Zenject::DiContainer* _diContainer;
+  __declspec(property(get = __cordl_internal_get__diContainer, put = __cordl_internal_set__diContainer))::Zenject::DiContainer* _diContainer;
 
   /// @brief Field _particleSystemEmitBehavior, offset 0x38, size 0x8
-  __declspec(property(get = __get__particleSystemEmitBehavior,
-                      put = __set__particleSystemEmitBehavior))::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior* _particleSystemEmitBehavior;
+  __declspec(property(get = __cordl_internal_get__particleSystemEmitBehavior,
+                      put = __cordl_internal_set__particleSystemEmitBehavior))::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior* _particleSystemEmitBehavior;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType& __get__beatmapEvent();
+  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__beatmapEvent();
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __get__beatmapEvent() const;
+  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__beatmapEvent() const;
 
-  constexpr void __set__beatmapEvent(::GlobalNamespace::BasicBeatmapEventType value);
+  constexpr void __cordl_internal_set__beatmapEvent(::GlobalNamespace::BasicBeatmapEventType value);
 
-  constexpr ::UnityEngine::Transform*& __get__particleSystemParentTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__particleSystemParentTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__particleSystemParentTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__particleSystemParentTransform() const;
 
-  constexpr void __set__particleSystemParentTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__particleSystemParentTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr int32_t& __get__particleSystemMaxSpawnedSystems();
+  constexpr int32_t& __cordl_internal_get__particleSystemMaxSpawnedSystems();
 
-  constexpr int32_t const& __get__particleSystemMaxSpawnedSystems() const;
+  constexpr int32_t const& __cordl_internal_get__particleSystemMaxSpawnedSystems() const;
 
-  constexpr void __set__particleSystemMaxSpawnedSystems(int32_t value);
+  constexpr void __cordl_internal_set__particleSystemMaxSpawnedSystems(int32_t value);
 
-  constexpr ::GlobalNamespace::EnvironmentContext& __get__environmentContext();
+  constexpr ::GlobalNamespace::EnvironmentContext& __cordl_internal_get__environmentContext();
 
-  constexpr ::GlobalNamespace::EnvironmentContext const& __get__environmentContext() const;
+  constexpr ::GlobalNamespace::EnvironmentContext const& __cordl_internal_get__environmentContext() const;
 
-  constexpr void __set__environmentContext(::GlobalNamespace::EnvironmentContext value);
+  constexpr void __cordl_internal_set__environmentContext(::GlobalNamespace::EnvironmentContext value);
 
-  constexpr ::Zenject::DiContainer*& __get__diContainer();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__diContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__diContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__diContainer() const;
 
-  constexpr void __set__diContainer(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__diContainer(::Zenject::DiContainer* value);
 
-  constexpr ::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior*& __get__particleSystemEmitBehavior();
+  constexpr ::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior*& __cordl_internal_get__particleSystemEmitBehavior();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior*> const& __get__particleSystemEmitBehavior() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior*> const& __cordl_internal_get__particleSystemEmitBehavior() const;
 
-  constexpr void __set__particleSystemEmitBehavior(::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior* value);
+  constexpr void __cordl_internal_set__particleSystemEmitBehavior(::GlobalNamespace::__ParticleSystemEmitEventEffect__ParticleSystemEmitBehavior* value);
 
   /// @brief Method Start, addr 0x23aee9c, size 0x264, virtual false, abstract: false, final false
   inline void Start();
@@ -472,7 +475,7 @@ public:
   ::GlobalNamespace::BasicBeatmapEventType ____beatmapEvent;
 
   /// @brief Field _particleSystemParentTransform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____particleSystemParentTransform;
+  ::UnityW<::UnityEngine::Transform> ____particleSystemParentTransform;
 
   /// @brief Field _particleSystemMaxSpawnedSystems, offset: 0x28, size: 0x4, def value: None
   int32_t ____particleSystemMaxSpawnedSystems;

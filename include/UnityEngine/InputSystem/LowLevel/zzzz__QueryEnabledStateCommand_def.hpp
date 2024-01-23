@@ -25,7 +25,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::QueryEnabledStateCommand);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 9, calculated_native_size: 25, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6471))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6471))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6474))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::QueryEnabledStateCommand
 #pragma pack(push, 0)
@@ -33,10 +33,10 @@ struct CORDL_TYPE QueryEnabledStateCommand {
 public:
   // Declarations
   /// @brief Field baseCommand, offset 0x0, size 0x8
-  __declspec(property(get = __get_baseCommand, put = __set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
+  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
 
   /// @brief Field isEnabled, offset 0x8, size 0x1
-  __declspec(property(get = __get_isEnabled, put = __set_isEnabled)) bool isEnabled;
+  __declspec(property(get = __cordl_internal_get_isEnabled, put = __cordl_internal_set_isEnabled)) bool isEnabled;
 
   __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
@@ -46,17 +46,17 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __get_baseCommand();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __get_baseCommand() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
 
-  constexpr void __set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
+  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
 
-  constexpr bool& __get_isEnabled();
+  constexpr bool& __cordl_internal_get_isEnabled();
 
-  constexpr bool const& __get_isEnabled() const;
+  constexpr bool const& __cordl_internal_get_isEnabled() const;
 
-  constexpr void __set_isEnabled(bool value);
+  constexpr void __cordl_internal_set_isEnabled(bool value);
 
   /// @brief Method get_Type, addr 0x2ae7bfc, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();

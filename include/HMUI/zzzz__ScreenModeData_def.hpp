@@ -19,74 +19,74 @@ MARK_REF_PTR_T(::HMUI::ScreenModeData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13593))
 // CS Name: ::HMUI::ScreenModeData*
 class CORDL_TYPE ScreenModeData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field position, offset 0x10, size 0xc
-  __declspec(property(get = __get_position, put = __set_position))::UnityEngine::Vector3 position;
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector3 position;
 
   /// @brief Field rotation, offset 0x1c, size 0xc
-  __declspec(property(get = __get_rotation, put = __set_rotation))::UnityEngine::Vector3 rotation;
+  __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation))::UnityEngine::Vector3 rotation;
 
   /// @brief Field scale, offset 0x28, size 0x4
-  __declspec(property(get = __get_scale, put = __set_scale)) float_t scale;
+  __declspec(property(get = __cordl_internal_get_scale, put = __cordl_internal_set_scale)) float_t scale;
 
   /// @brief Field radius, offset 0x2c, size 0x4
-  __declspec(property(get = __get_radius, put = __set_radius)) float_t radius;
+  __declspec(property(get = __cordl_internal_get_radius, put = __cordl_internal_set_radius)) float_t radius;
 
   /// @brief Field offsetHeightByHeadPos, offset 0x30, size 0x1
-  __declspec(property(get = __get_offsetHeightByHeadPos, put = __set_offsetHeightByHeadPos)) bool offsetHeightByHeadPos;
+  __declspec(property(get = __cordl_internal_get_offsetHeightByHeadPos, put = __cordl_internal_set_offsetHeightByHeadPos)) bool offsetHeightByHeadPos;
 
   /// @brief Field yOffsetRelativeToHead, offset 0x34, size 0x4
-  __declspec(property(get = __get_yOffsetRelativeToHead, put = __set_yOffsetRelativeToHead)) float_t yOffsetRelativeToHead;
+  __declspec(property(get = __cordl_internal_get_yOffsetRelativeToHead, put = __cordl_internal_set_yOffsetRelativeToHead)) float_t yOffsetRelativeToHead;
 
   /// @brief Field minYPos, offset 0x38, size 0x4
-  __declspec(property(get = __get_minYPos, put = __set_minYPos)) float_t minYPos;
+  __declspec(property(get = __cordl_internal_get_minYPos, put = __cordl_internal_set_minYPos)) float_t minYPos;
 
-  constexpr ::UnityEngine::Vector3& __get_position();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_position();
 
-  constexpr ::UnityEngine::Vector3 const& __get_position() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_position() const;
 
-  constexpr void __set_position(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_position(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_rotation();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rotation();
 
-  constexpr ::UnityEngine::Vector3 const& __get_rotation() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rotation() const;
 
-  constexpr void __set_rotation(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_rotation(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get_scale();
+  constexpr float_t& __cordl_internal_get_scale();
 
-  constexpr float_t const& __get_scale() const;
+  constexpr float_t const& __cordl_internal_get_scale() const;
 
-  constexpr void __set_scale(float_t value);
+  constexpr void __cordl_internal_set_scale(float_t value);
 
-  constexpr float_t& __get_radius();
+  constexpr float_t& __cordl_internal_get_radius();
 
-  constexpr float_t const& __get_radius() const;
+  constexpr float_t const& __cordl_internal_get_radius() const;
 
-  constexpr void __set_radius(float_t value);
+  constexpr void __cordl_internal_set_radius(float_t value);
 
-  constexpr bool& __get_offsetHeightByHeadPos();
+  constexpr bool& __cordl_internal_get_offsetHeightByHeadPos();
 
-  constexpr bool const& __get_offsetHeightByHeadPos() const;
+  constexpr bool const& __cordl_internal_get_offsetHeightByHeadPos() const;
 
-  constexpr void __set_offsetHeightByHeadPos(bool value);
+  constexpr void __cordl_internal_set_offsetHeightByHeadPos(bool value);
 
-  constexpr float_t& __get_yOffsetRelativeToHead();
+  constexpr float_t& __cordl_internal_get_yOffsetRelativeToHead();
 
-  constexpr float_t const& __get_yOffsetRelativeToHead() const;
+  constexpr float_t const& __cordl_internal_get_yOffsetRelativeToHead() const;
 
-  constexpr void __set_yOffsetRelativeToHead(float_t value);
+  constexpr void __cordl_internal_set_yOffsetRelativeToHead(float_t value);
 
-  constexpr float_t& __get_minYPos();
+  constexpr float_t& __cordl_internal_get_minYPos();
 
-  constexpr float_t const& __get_minYPos() const;
+  constexpr float_t const& __cordl_internal_get_minYPos() const;
 
-  constexpr void __set_minYPos(float_t value);
+  constexpr void __cordl_internal_set_minYPos(float_t value);
 
   static inline ::HMUI::ScreenModeData* New_ctor(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos,
                                                  float_t yOffsetRelativeToHead, float_t minYPos);

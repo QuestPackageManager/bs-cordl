@@ -34,7 +34,7 @@ MARK_VAL_T(::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2764))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2764))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3361))
 // CS Name: ::ConfiguredValueTaskAwaitable::ConfiguredValueTaskAwaiter
 struct CORDL_TYPE __ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter {
@@ -94,7 +94,7 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__ConfiguredValueTas
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2764))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2764))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3362))
 // CS Name: ::System.Runtime.CompilerServices::ConfiguredValueTaskAwaitable
 struct CORDL_TYPE ConfiguredValueTaskAwaitable {

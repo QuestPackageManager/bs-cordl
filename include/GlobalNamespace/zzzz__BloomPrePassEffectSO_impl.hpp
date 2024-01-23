@@ -9,14 +9,14 @@
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassEffectSO.get_textureEffect
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::TextureEffectSO* (::GlobalNamespace::BloomPrePassEffectSO::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::TextureEffectSO> (::GlobalNamespace::BloomPrePassEffectSO::*)()>(
     &::GlobalNamespace::BloomPrePassEffectSO::get_textureEffect)> {
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x21068e4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(),
-                                                                               "get_textureEffect", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_textureEffect", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -27,9 +27,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x21068e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(),
-                                                                               "get_textureWidth", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_textureWidth", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -41,9 +41,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x21068f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(),
-                                                                               "get_textureHeight", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_textureHeight", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -55,9 +55,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x21068f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(), "get_fov",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -68,9 +68,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2106900;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(),
-                                                                               "get_linesWidth", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_linesWidth", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -82,7 +82,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2106908;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(), 12));
@@ -96,9 +96,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x2106910;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -110,77 +110,77 @@ constexpr GlobalNamespace::BloomPrePassEffectSO::operator ::GlobalNamespace::IBl
 constexpr ::GlobalNamespace::IBloomPrePassParams* GlobalNamespace::BloomPrePassEffectSO::i___GlobalNamespace__IBloomPrePassParams() noexcept {
   return static_cast<::GlobalNamespace::IBloomPrePassParams*>(static_cast<void*>(this));
 }
-constexpr int32_t& GlobalNamespace::BloomPrePassEffectSO::__get__textureWidth() {
+constexpr int32_t& GlobalNamespace::BloomPrePassEffectSO::__cordl_internal_get__textureWidth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textureWidth;
 }
-constexpr int32_t const& GlobalNamespace::BloomPrePassEffectSO::__get__textureWidth() const {
+constexpr int32_t const& GlobalNamespace::BloomPrePassEffectSO::__cordl_internal_get__textureWidth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textureWidth;
 }
-constexpr void GlobalNamespace::BloomPrePassEffectSO::__set__textureWidth(int32_t value) {
+constexpr void GlobalNamespace::BloomPrePassEffectSO::__cordl_internal_set__textureWidth(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____textureWidth = value;
 }
-constexpr int32_t& GlobalNamespace::BloomPrePassEffectSO::__get__textureHeight() {
+constexpr int32_t& GlobalNamespace::BloomPrePassEffectSO::__cordl_internal_get__textureHeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textureHeight;
 }
-constexpr int32_t const& GlobalNamespace::BloomPrePassEffectSO::__get__textureHeight() const {
+constexpr int32_t const& GlobalNamespace::BloomPrePassEffectSO::__cordl_internal_get__textureHeight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textureHeight;
 }
-constexpr void GlobalNamespace::BloomPrePassEffectSO::__set__textureHeight(int32_t value) {
+constexpr void GlobalNamespace::BloomPrePassEffectSO::__cordl_internal_set__textureHeight(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____textureHeight = value;
 }
-constexpr ::UnityEngine::Vector2& GlobalNamespace::BloomPrePassEffectSO::__get__fov() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::BloomPrePassEffectSO::__cordl_internal_get__fov() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fov;
 }
-constexpr ::UnityEngine::Vector2 const& GlobalNamespace::BloomPrePassEffectSO::__get__fov() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::BloomPrePassEffectSO::__cordl_internal_get__fov() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fov;
 }
-constexpr void GlobalNamespace::BloomPrePassEffectSO::__set__fov(::UnityEngine::Vector2 value) {
+constexpr void GlobalNamespace::BloomPrePassEffectSO::__cordl_internal_set__fov(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fov = value;
 }
-constexpr float_t& GlobalNamespace::BloomPrePassEffectSO::__get__linesWidth() {
+constexpr float_t& GlobalNamespace::BloomPrePassEffectSO::__cordl_internal_get__linesWidth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____linesWidth;
 }
-constexpr float_t const& GlobalNamespace::BloomPrePassEffectSO::__get__linesWidth() const {
+constexpr float_t const& GlobalNamespace::BloomPrePassEffectSO::__cordl_internal_get__linesWidth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____linesWidth;
 }
-constexpr void GlobalNamespace::BloomPrePassEffectSO::__set__linesWidth(float_t value) {
+constexpr void GlobalNamespace::BloomPrePassEffectSO::__cordl_internal_set__linesWidth(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____linesWidth = value;
 }
-inline ::GlobalNamespace::TextureEffectSO* GlobalNamespace::BloomPrePassEffectSO::get_textureEffect() {
+inline ::UnityW<::GlobalNamespace::TextureEffectSO> GlobalNamespace::BloomPrePassEffectSO::get_textureEffect() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(),
-                                                                             "get_textureEffect", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::TextureEffectSO*, false>(this, ___internal_method);
+                                                                             "get_textureEffect", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::TextureEffectSO>, false>(this, ___internal_method);
 }
 inline int32_t GlobalNamespace::BloomPrePassEffectSO::get_textureWidth() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(),
-                                                                             "get_textureWidth", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_textureWidth", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline int32_t GlobalNamespace::BloomPrePassEffectSO::get_textureHeight() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(),
-                                                                             "get_textureHeight", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_textureHeight", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Vector2 GlobalNamespace::BloomPrePassEffectSO::get_fov() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(), "get_fov",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method);
 }
 inline float_t GlobalNamespace::BloomPrePassEffectSO::get_linesWidth() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(), "get_linesWidth",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::ToneMapping GlobalNamespace::BloomPrePassEffectSO::get_toneMapping() {
@@ -189,11 +189,11 @@ inline ::GlobalNamespace::ToneMapping GlobalNamespace::BloomPrePassEffectSO::get
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ToneMapping, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::BloomPrePassEffectSO* GlobalNamespace::BloomPrePassEffectSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::BloomPrePassEffectSO*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomPrePassEffectSO*>());
 }
 inline void GlobalNamespace::BloomPrePassEffectSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassEffectSO*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

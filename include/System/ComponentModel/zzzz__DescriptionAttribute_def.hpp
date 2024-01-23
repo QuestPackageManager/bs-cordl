@@ -19,14 +19,14 @@ MARK_REF_PTR_T(::System::ComponentModel::DescriptionAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9388))
 // CS Name: ::System.ComponentModel::DescriptionAttribute*
 class CORDL_TYPE DescriptionAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <DescriptionValue>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__DescriptionValue_k__BackingField, put = __set__DescriptionValue_k__BackingField))::StringW _DescriptionValue_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__DescriptionValue_k__BackingField, put = __cordl_internal_set__DescriptionValue_k__BackingField))::StringW _DescriptionValue_k__BackingField;
 
   /// @brief Field Default, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::System::ComponentModel::DescriptionAttribute* Default;
@@ -35,11 +35,11 @@ public:
 
   __declspec(property(get = get_DescriptionValue, put = set_DescriptionValue))::StringW DescriptionValue;
 
-  constexpr ::StringW& __get__DescriptionValue_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__DescriptionValue_k__BackingField();
 
-  constexpr ::StringW const& __get__DescriptionValue_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__DescriptionValue_k__BackingField() const;
 
-  constexpr void __set__DescriptionValue_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__DescriptionValue_k__BackingField(::StringW value);
 
   static inline void setStaticF_Default(::System::ComponentModel::DescriptionAttribute* value);
 

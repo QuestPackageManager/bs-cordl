@@ -29,14 +29,14 @@ MARK_REF_PTR_T(::GlobalNamespace::TimelinePauseReceiver);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14407))
 // CS Name: ::TimelinePauseReceiver*
 class CORDL_TYPE TimelinePauseReceiver : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field timelinePauseEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_timelinePauseEvent, put = __set_timelinePauseEvent))::System::Action* timelinePauseEvent;
+  __declspec(property(get = __cordl_internal_get_timelinePauseEvent, put = __cordl_internal_set_timelinePauseEvent))::System::Action* timelinePauseEvent;
 
   /// @brief Convert operator to "::UnityEngine::Playables::INotificationReceiver"
   constexpr operator ::UnityEngine::Playables::INotificationReceiver*() noexcept;
@@ -44,11 +44,11 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
   constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
 
-  constexpr ::System::Action*& __get_timelinePauseEvent();
+  constexpr ::System::Action*& __cordl_internal_get_timelinePauseEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_timelinePauseEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_timelinePauseEvent() const;
 
-  constexpr void __set_timelinePauseEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_timelinePauseEvent(::System::Action* value);
 
   /// @brief Method add_timelinePauseEvent, addr 0x20f5d2c, size 0x9c, virtual false, abstract: false, final false
   inline void add_timelinePauseEvent(::System::Action* value);

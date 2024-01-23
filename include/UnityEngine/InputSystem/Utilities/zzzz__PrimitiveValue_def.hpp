@@ -42,50 +42,50 @@ MARK_VAL_T(::UnityEngine::InputSystem::Utilities::PrimitiveValue);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2496))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2496))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6699))
 // CS Name: ::UnityEngine.InputSystem.Utilities::PrimitiveValue
 struct CORDL_TYPE PrimitiveValue {
 public:
   // Declarations
   /// @brief Field m_Type, offset 0x0, size 0x4
-  __declspec(property(get = __get_m_Type, put = __set_m_Type))::System::TypeCode m_Type;
+  __declspec(property(get = __cordl_internal_get_m_Type, put = __cordl_internal_set_m_Type))::System::TypeCode m_Type;
 
   /// @brief Field m_BoolValue, offset 0x4, size 0x1
-  __declspec(property(get = __get_m_BoolValue, put = __set_m_BoolValue)) bool m_BoolValue;
+  __declspec(property(get = __cordl_internal_get_m_BoolValue, put = __cordl_internal_set_m_BoolValue)) bool m_BoolValue;
 
   /// @brief Field m_CharValue, offset 0x4, size 0x2
-  __declspec(property(get = __get_m_CharValue, put = __set_m_CharValue)) char16_t m_CharValue;
+  __declspec(property(get = __cordl_internal_get_m_CharValue, put = __cordl_internal_set_m_CharValue)) char16_t m_CharValue;
 
   /// @brief Field m_ByteValue, offset 0x4, size 0x1
-  __declspec(property(get = __get_m_ByteValue, put = __set_m_ByteValue)) uint8_t m_ByteValue;
+  __declspec(property(get = __cordl_internal_get_m_ByteValue, put = __cordl_internal_set_m_ByteValue)) uint8_t m_ByteValue;
 
   /// @brief Field m_SByteValue, offset 0x4, size 0x1
-  __declspec(property(get = __get_m_SByteValue, put = __set_m_SByteValue)) int8_t m_SByteValue;
+  __declspec(property(get = __cordl_internal_get_m_SByteValue, put = __cordl_internal_set_m_SByteValue)) int8_t m_SByteValue;
 
   /// @brief Field m_ShortValue, offset 0x4, size 0x2
-  __declspec(property(get = __get_m_ShortValue, put = __set_m_ShortValue)) int16_t m_ShortValue;
+  __declspec(property(get = __cordl_internal_get_m_ShortValue, put = __cordl_internal_set_m_ShortValue)) int16_t m_ShortValue;
 
   /// @brief Field m_UShortValue, offset 0x4, size 0x2
-  __declspec(property(get = __get_m_UShortValue, put = __set_m_UShortValue)) uint16_t m_UShortValue;
+  __declspec(property(get = __cordl_internal_get_m_UShortValue, put = __cordl_internal_set_m_UShortValue)) uint16_t m_UShortValue;
 
   /// @brief Field m_IntValue, offset 0x4, size 0x4
-  __declspec(property(get = __get_m_IntValue, put = __set_m_IntValue)) int32_t m_IntValue;
+  __declspec(property(get = __cordl_internal_get_m_IntValue, put = __cordl_internal_set_m_IntValue)) int32_t m_IntValue;
 
   /// @brief Field m_UIntValue, offset 0x4, size 0x4
-  __declspec(property(get = __get_m_UIntValue, put = __set_m_UIntValue)) uint32_t m_UIntValue;
+  __declspec(property(get = __cordl_internal_get_m_UIntValue, put = __cordl_internal_set_m_UIntValue)) uint32_t m_UIntValue;
 
   /// @brief Field m_LongValue, offset 0x4, size 0x8
-  __declspec(property(get = __get_m_LongValue, put = __set_m_LongValue)) int64_t m_LongValue;
+  __declspec(property(get = __cordl_internal_get_m_LongValue, put = __cordl_internal_set_m_LongValue)) int64_t m_LongValue;
 
   /// @brief Field m_ULongValue, offset 0x4, size 0x8
-  __declspec(property(get = __get_m_ULongValue, put = __set_m_ULongValue)) uint64_t m_ULongValue;
+  __declspec(property(get = __cordl_internal_get_m_ULongValue, put = __cordl_internal_set_m_ULongValue)) uint64_t m_ULongValue;
 
   /// @brief Field m_FloatValue, offset 0x4, size 0x4
-  __declspec(property(get = __get_m_FloatValue, put = __set_m_FloatValue)) float_t m_FloatValue;
+  __declspec(property(get = __cordl_internal_get_m_FloatValue, put = __cordl_internal_set_m_FloatValue)) float_t m_FloatValue;
 
   /// @brief Field m_DoubleValue, offset 0x4, size 0x8
-  __declspec(property(get = __get_m_DoubleValue, put = __set_m_DoubleValue)) double_t m_DoubleValue;
+  __declspec(property(get = __cordl_internal_get_m_DoubleValue, put = __cordl_internal_set_m_DoubleValue)) double_t m_DoubleValue;
 
   __declspec(property(get = get_valuePtr))::cordl_internals::Ptr<uint8_t> valuePtr;
 
@@ -105,83 +105,83 @@ public:
   /// @brief Convert to "::System::IConvertible"
   constexpr ::System::IConvertible* i___System__IConvertible();
 
-  constexpr ::System::TypeCode& __get_m_Type();
+  constexpr ::System::TypeCode& __cordl_internal_get_m_Type();
 
-  constexpr ::System::TypeCode const& __get_m_Type() const;
+  constexpr ::System::TypeCode const& __cordl_internal_get_m_Type() const;
 
-  constexpr void __set_m_Type(::System::TypeCode value);
+  constexpr void __cordl_internal_set_m_Type(::System::TypeCode value);
 
-  constexpr bool& __get_m_BoolValue();
+  constexpr bool& __cordl_internal_get_m_BoolValue();
 
-  constexpr bool const& __get_m_BoolValue() const;
+  constexpr bool const& __cordl_internal_get_m_BoolValue() const;
 
-  constexpr void __set_m_BoolValue(bool value);
+  constexpr void __cordl_internal_set_m_BoolValue(bool value);
 
-  constexpr char16_t& __get_m_CharValue();
+  constexpr char16_t& __cordl_internal_get_m_CharValue();
 
-  constexpr char16_t const& __get_m_CharValue() const;
+  constexpr char16_t const& __cordl_internal_get_m_CharValue() const;
 
-  constexpr void __set_m_CharValue(char16_t value);
+  constexpr void __cordl_internal_set_m_CharValue(char16_t value);
 
-  constexpr uint8_t& __get_m_ByteValue();
+  constexpr uint8_t& __cordl_internal_get_m_ByteValue();
 
-  constexpr uint8_t const& __get_m_ByteValue() const;
+  constexpr uint8_t const& __cordl_internal_get_m_ByteValue() const;
 
-  constexpr void __set_m_ByteValue(uint8_t value);
+  constexpr void __cordl_internal_set_m_ByteValue(uint8_t value);
 
-  constexpr int8_t& __get_m_SByteValue();
+  constexpr int8_t& __cordl_internal_get_m_SByteValue();
 
-  constexpr int8_t const& __get_m_SByteValue() const;
+  constexpr int8_t const& __cordl_internal_get_m_SByteValue() const;
 
-  constexpr void __set_m_SByteValue(int8_t value);
+  constexpr void __cordl_internal_set_m_SByteValue(int8_t value);
 
-  constexpr int16_t& __get_m_ShortValue();
+  constexpr int16_t& __cordl_internal_get_m_ShortValue();
 
-  constexpr int16_t const& __get_m_ShortValue() const;
+  constexpr int16_t const& __cordl_internal_get_m_ShortValue() const;
 
-  constexpr void __set_m_ShortValue(int16_t value);
+  constexpr void __cordl_internal_set_m_ShortValue(int16_t value);
 
-  constexpr uint16_t& __get_m_UShortValue();
+  constexpr uint16_t& __cordl_internal_get_m_UShortValue();
 
-  constexpr uint16_t const& __get_m_UShortValue() const;
+  constexpr uint16_t const& __cordl_internal_get_m_UShortValue() const;
 
-  constexpr void __set_m_UShortValue(uint16_t value);
+  constexpr void __cordl_internal_set_m_UShortValue(uint16_t value);
 
-  constexpr int32_t& __get_m_IntValue();
+  constexpr int32_t& __cordl_internal_get_m_IntValue();
 
-  constexpr int32_t const& __get_m_IntValue() const;
+  constexpr int32_t const& __cordl_internal_get_m_IntValue() const;
 
-  constexpr void __set_m_IntValue(int32_t value);
+  constexpr void __cordl_internal_set_m_IntValue(int32_t value);
 
-  constexpr uint32_t& __get_m_UIntValue();
+  constexpr uint32_t& __cordl_internal_get_m_UIntValue();
 
-  constexpr uint32_t const& __get_m_UIntValue() const;
+  constexpr uint32_t const& __cordl_internal_get_m_UIntValue() const;
 
-  constexpr void __set_m_UIntValue(uint32_t value);
+  constexpr void __cordl_internal_set_m_UIntValue(uint32_t value);
 
-  constexpr int64_t& __get_m_LongValue();
+  constexpr int64_t& __cordl_internal_get_m_LongValue();
 
-  constexpr int64_t const& __get_m_LongValue() const;
+  constexpr int64_t const& __cordl_internal_get_m_LongValue() const;
 
-  constexpr void __set_m_LongValue(int64_t value);
+  constexpr void __cordl_internal_set_m_LongValue(int64_t value);
 
-  constexpr uint64_t& __get_m_ULongValue();
+  constexpr uint64_t& __cordl_internal_get_m_ULongValue();
 
-  constexpr uint64_t const& __get_m_ULongValue() const;
+  constexpr uint64_t const& __cordl_internal_get_m_ULongValue() const;
 
-  constexpr void __set_m_ULongValue(uint64_t value);
+  constexpr void __cordl_internal_set_m_ULongValue(uint64_t value);
 
-  constexpr float_t& __get_m_FloatValue();
+  constexpr float_t& __cordl_internal_get_m_FloatValue();
 
-  constexpr float_t const& __get_m_FloatValue() const;
+  constexpr float_t const& __cordl_internal_get_m_FloatValue() const;
 
-  constexpr void __set_m_FloatValue(float_t value);
+  constexpr void __cordl_internal_set_m_FloatValue(float_t value);
 
-  constexpr double_t& __get_m_DoubleValue();
+  constexpr double_t& __cordl_internal_get_m_DoubleValue();
 
-  constexpr double_t const& __get_m_DoubleValue() const;
+  constexpr double_t const& __cordl_internal_get_m_DoubleValue() const;
 
-  constexpr void __set_m_DoubleValue(double_t value);
+  constexpr void __cordl_internal_set_m_DoubleValue(double_t value);
 
   /// @brief Method get_valuePtr, addr 0x2b166ac, size 0x8, virtual false, abstract: false, final false
   inline ::cordl_internals::Ptr<uint8_t> get_valuePtr();

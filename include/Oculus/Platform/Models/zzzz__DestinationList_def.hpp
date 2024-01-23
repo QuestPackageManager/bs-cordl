@@ -16,8 +16,8 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::DestinationList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13430)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1173 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13431))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13432)) CS Name: ::Oculus.Platform.Models::DestinationList*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13430)), TypeDefinitionIndex(TypeDefinitionIndex(13431)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst:
+// 1173 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13432)) CS Name: ::Oculus.Platform.Models::DestinationList*
 class CORDL_TYPE DestinationList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Destination*> {
 public:
   // Declarations

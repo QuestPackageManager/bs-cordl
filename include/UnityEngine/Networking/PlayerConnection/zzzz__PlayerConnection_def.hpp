@@ -64,20 +64,20 @@ MARK_REF_PTR_T(::UnityEngine::Networking::PlayerConnection::__PlayerConnection__
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10308))
 // CS Name: ::PlayerConnection::<>c__DisplayClass12_0*
 class CORDL_TYPE __PlayerConnection____c__DisplayClass12_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field messageId, offset 0x10, size 0x10
-  __declspec(property(get = __get_messageId, put = __set_messageId))::System::Guid messageId;
+  __declspec(property(get = __cordl_internal_get_messageId, put = __cordl_internal_set_messageId))::System::Guid messageId;
 
-  constexpr ::System::Guid& __get_messageId();
+  constexpr ::System::Guid& __cordl_internal_get_messageId();
 
-  constexpr ::System::Guid const& __get_messageId() const;
+  constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
 
-  constexpr void __set_messageId(::System::Guid value);
+  constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass12_0* New_ctor();
 
@@ -116,20 +116,20 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerConn
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10309))
 // CS Name: ::PlayerConnection::<>c__DisplayClass13_0*
 class CORDL_TYPE __PlayerConnection____c__DisplayClass13_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field messageId, offset 0x10, size 0x10
-  __declspec(property(get = __get_messageId, put = __set_messageId))::System::Guid messageId;
+  __declspec(property(get = __cordl_internal_get_messageId, put = __cordl_internal_set_messageId))::System::Guid messageId;
 
-  constexpr ::System::Guid& __get_messageId();
+  constexpr ::System::Guid& __cordl_internal_get_messageId();
 
-  constexpr ::System::Guid const& __get_messageId() const;
+  constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
 
-  constexpr void __set_messageId(::System::Guid value);
+  constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass13_0* New_ctor();
 
@@ -168,20 +168,20 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerConn
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10310))
 // CS Name: ::PlayerConnection::<>c__DisplayClass20_0*
 class CORDL_TYPE __PlayerConnection____c__DisplayClass20_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field msgReceived, offset 0x10, size 0x1
-  __declspec(property(get = __get_msgReceived, put = __set_msgReceived)) bool msgReceived;
+  __declspec(property(get = __cordl_internal_get_msgReceived, put = __cordl_internal_set_msgReceived)) bool msgReceived;
 
-  constexpr bool& __get_msgReceived();
+  constexpr bool& __cordl_internal_get_msgReceived();
 
-  constexpr bool const& __get_msgReceived() const;
+  constexpr bool const& __cordl_internal_get_msgReceived() const;
 
-  constexpr void __set_msgReceived(bool value);
+  constexpr void __cordl_internal_set_msgReceived(bool value);
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass20_0* New_ctor();
 
@@ -220,7 +220,7 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerConn
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10311))
 // CS Name: ::UnityEngine.Networking.PlayerConnection::PlayerConnection*
 class CORDL_TYPE PlayerConnection : public ::UnityEngine::ScriptableObject {
@@ -233,20 +233,20 @@ public:
   using __c__DisplayClass12_0 = ::UnityEngine::Networking::PlayerConnection::__PlayerConnection____c__DisplayClass12_0;
 
   /// @brief Field m_PlayerEditorConnectionEvents, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_PlayerEditorConnectionEvents,
-                      put = __set_m_PlayerEditorConnectionEvents))::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* m_PlayerEditorConnectionEvents;
+  __declspec(property(get = __cordl_internal_get_m_PlayerEditorConnectionEvents,
+                      put = __cordl_internal_set_m_PlayerEditorConnectionEvents))::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* m_PlayerEditorConnectionEvents;
 
   /// @brief Field m_connectedPlayers, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_connectedPlayers, put = __set_m_connectedPlayers))::System::Collections::Generic::List_1<int32_t>* m_connectedPlayers;
+  __declspec(property(get = __cordl_internal_get_m_connectedPlayers, put = __cordl_internal_set_m_connectedPlayers))::System::Collections::Generic::List_1<int32_t>* m_connectedPlayers;
 
   /// @brief Field m_IsInitilized, offset 0x28, size 0x1
-  __declspec(property(get = __get_m_IsInitilized, put = __set_m_IsInitilized)) bool m_IsInitilized;
+  __declspec(property(get = __cordl_internal_get_m_IsInitilized, put = __cordl_internal_set_m_IsInitilized)) bool m_IsInitilized;
 
   /// @brief Field connectionNative, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_connectionNative, put = setStaticF_connectionNative))::UnityEngine::IPlayerEditorConnectionNative* connectionNative;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityEngine::Networking::PlayerConnection::PlayerConnection* s_Instance;
+  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> s_Instance;
 
   __declspec(property(get = get_isConnected)) bool isConnected;
 
@@ -256,40 +256,40 @@ public:
   /// @brief Convert to "::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection"
   constexpr ::UnityEngine::Networking::PlayerConnection::IEditorPlayerConnection* i___UnityEngine__Networking__PlayerConnection__IEditorPlayerConnection() noexcept;
 
-  constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*& __get_m_PlayerEditorConnectionEvents();
+  constexpr ::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*& __cordl_internal_get_m_PlayerEditorConnectionEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*> const& __get_m_PlayerEditorConnectionEvents() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents*> const& __cordl_internal_get_m_PlayerEditorConnectionEvents() const;
 
-  constexpr void __set_m_PlayerEditorConnectionEvents(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* value);
+  constexpr void __cordl_internal_set_m_PlayerEditorConnectionEvents(::UnityEngine::Networking::PlayerConnection::PlayerEditorConnectionEvents* value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get_m_connectedPlayers();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_connectedPlayers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get_m_connectedPlayers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_connectedPlayers() const;
 
-  constexpr void __set_m_connectedPlayers(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_connectedPlayers(::System::Collections::Generic::List_1<int32_t>* value);
 
-  constexpr bool& __get_m_IsInitilized();
+  constexpr bool& __cordl_internal_get_m_IsInitilized();
 
-  constexpr bool const& __get_m_IsInitilized() const;
+  constexpr bool const& __cordl_internal_get_m_IsInitilized() const;
 
-  constexpr void __set_m_IsInitilized(bool value);
+  constexpr void __cordl_internal_set_m_IsInitilized(bool value);
 
   static inline void setStaticF_connectionNative(::UnityEngine::IPlayerEditorConnectionNative* value);
 
   static inline ::UnityEngine::IPlayerEditorConnectionNative* getStaticF_connectionNative();
 
-  static inline void setStaticF_s_Instance(::UnityEngine::Networking::PlayerConnection::PlayerConnection* value);
+  static inline void setStaticF_s_Instance(::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> value);
 
-  static inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection* getStaticF_s_Instance();
+  static inline ::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> getStaticF_s_Instance();
 
   /// @brief Method get_instance, addr 0x2ce7c08, size 0x98, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection* get_instance();
+  static inline ::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> get_instance();
 
   /// @brief Method get_isConnected, addr 0x2ce7d24, size 0x9c, virtual false, abstract: false, final false
   inline bool get_isConnected();
 
   /// @brief Method CreateInstance, addr 0x2ce7ca0, size 0x84, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Networking::PlayerConnection::PlayerConnection* CreateInstance();
+  static inline ::UnityW<::UnityEngine::Networking::PlayerConnection::PlayerConnection> CreateInstance();
 
   /// @brief Method OnEnable, addr 0x2ce7e40, size 0xc0, virtual false, abstract: false, final false
   inline void OnEnable();

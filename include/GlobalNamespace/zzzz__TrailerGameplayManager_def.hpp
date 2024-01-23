@@ -44,20 +44,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__TrailerGameplayManager___Start_d__4);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5027))
 // CS Name: ::TrailerGameplayManager::<Start>d__4*
 class CORDL_TYPE __TrailerGameplayManager___Start_d__4 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::TrailerGameplayManager* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::TrailerGameplayManager> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -81,23 +81,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::TrailerGameplayManager*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::TrailerGameplayManager>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TrailerGameplayManager*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::TrailerGameplayManager> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::TrailerGameplayManager* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::TrailerGameplayManager> value);
 
   static inline ::GlobalNamespace::__TrailerGameplayManager___Start_d__4* New_ctor(int32_t __1__state);
 
@@ -140,7 +140,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::TrailerGameplayManager* _____4__this;
+  ::UnityW<::GlobalNamespace::TrailerGameplayManager> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -158,7 +158,7 @@ static_assert(offsetof(::GlobalNamespace::__TrailerGameplayManager___Start_d__4,
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5028))
 // CS Name: ::TrailerGameplayManager*
 class CORDL_TYPE TrailerGameplayManager : public ::UnityEngine::MonoBehaviour {
@@ -167,40 +167,40 @@ public:
   using _Start_d__4 = ::GlobalNamespace::__TrailerGameplayManager___Start_d__4;
 
   /// @brief Field _disableMainCamera, offset 0x18, size 0x1
-  __declspec(property(get = __get__disableMainCamera, put = __set__disableMainCamera)) bool _disableMainCamera;
+  __declspec(property(get = __cordl_internal_get__disableMainCamera, put = __cordl_internal_set__disableMainCamera)) bool _disableMainCamera;
 
   /// @brief Field _gameScenesManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
   /// @brief Field _gameSongController, offset 0x28, size 0x8
-  __declspec(property(get = __get__gameSongController, put = __set__gameSongController))::GlobalNamespace::GameSongController* _gameSongController;
+  __declspec(property(get = __cordl_internal_get__gameSongController, put = __cordl_internal_set__gameSongController))::UnityW<::GlobalNamespace::GameSongController> _gameSongController;
 
   /// @brief Field _mainCamera, offset 0x30, size 0x8
-  __declspec(property(get = __get__mainCamera, put = __set__mainCamera))::GlobalNamespace::MainCamera* _mainCamera;
+  __declspec(property(get = __cordl_internal_get__mainCamera, put = __cordl_internal_set__mainCamera))::UnityW<::GlobalNamespace::MainCamera> _mainCamera;
 
-  constexpr bool& __get__disableMainCamera();
+  constexpr bool& __cordl_internal_get__disableMainCamera();
 
-  constexpr bool const& __get__disableMainCamera() const;
+  constexpr bool const& __cordl_internal_get__disableMainCamera() const;
 
-  constexpr void __set__disableMainCamera(bool value);
+  constexpr void __cordl_internal_set__disableMainCamera(bool value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get__gameScenesManager();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get__gameScenesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
-  constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::GlobalNamespace::GameSongController*& __get__gameSongController();
+  constexpr ::UnityW<::GlobalNamespace::GameSongController>& __cordl_internal_get__gameSongController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameSongController*> const& __get__gameSongController() const;
+  constexpr ::UnityW<::GlobalNamespace::GameSongController> const& __cordl_internal_get__gameSongController() const;
 
-  constexpr void __set__gameSongController(::GlobalNamespace::GameSongController* value);
+  constexpr void __cordl_internal_set__gameSongController(::UnityW<::GlobalNamespace::GameSongController> value);
 
-  constexpr ::GlobalNamespace::MainCamera*& __get__mainCamera();
+  constexpr ::UnityW<::GlobalNamespace::MainCamera>& __cordl_internal_get__mainCamera();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainCamera*> const& __get__mainCamera() const;
+  constexpr ::UnityW<::GlobalNamespace::MainCamera> const& __cordl_internal_get__mainCamera() const;
 
-  constexpr void __set__mainCamera(::GlobalNamespace::MainCamera* value);
+  constexpr void __cordl_internal_set__mainCamera(::UnityW<::GlobalNamespace::MainCamera> value);
 
   /// @brief Method Start, addr 0x23bdc30, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
@@ -228,13 +228,13 @@ public:
   bool ____disableMainCamera;
 
   /// @brief Field _gameScenesManager, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
+  ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
   /// @brief Field _gameSongController, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::GameSongController* ____gameSongController;
+  ::UnityW<::GlobalNamespace::GameSongController> ____gameSongController;
 
   /// @brief Field _mainCamera, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::MainCamera* ____mainCamera;
+  ::UnityW<::GlobalNamespace::MainCamera> ____mainCamera;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

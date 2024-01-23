@@ -33,59 +33,63 @@ MARK_REF_PTR_T(::Tweening::TweeningManager);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16100))
 // CS Name: ::Tweening::TweeningManager*
 class CORDL_TYPE TweeningManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _activeTweens, offset 0x18, size 0x8
-  __declspec(property(get = __get__activeTweens, put = __set__activeTweens))::System::Collections::Generic::List_1<::Tweening::Tween*>* _activeTweens;
+  __declspec(property(get = __cordl_internal_get__activeTweens, put = __cordl_internal_set__activeTweens))::System::Collections::Generic::List_1<::Tweening::Tween*>* _activeTweens;
 
   /// @brief Field _activeTweensSet, offset 0x20, size 0x8
-  __declspec(property(get = __get__activeTweensSet, put = __set__activeTweensSet))::System::Collections::Generic::HashSet_1<::Tweening::Tween*>* _activeTweensSet;
+  __declspec(property(get = __cordl_internal_get__activeTweensSet, put = __cordl_internal_set__activeTweensSet))::System::Collections::Generic::HashSet_1<::Tweening::Tween*>* _activeTweensSet;
 
   /// @brief Field _tweensByOwner, offset 0x28, size 0x8
-  __declspec(property(get = __get__tweensByOwner,
-                      put = __set__tweensByOwner))::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* _tweensByOwner;
+  __declspec(property(
+      get = __cordl_internal_get__tweensByOwner,
+      put = __cordl_internal_set__tweensByOwner))::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* _tweensByOwner;
 
   /// @brief Field _ownerByTween, offset 0x30, size 0x8
-  __declspec(property(get = __get__ownerByTween, put = __set__ownerByTween))::System::Collections::Generic::Dictionary_2<::Tweening::Tween*, ::System::Object*>* _ownerByTween;
+  __declspec(property(get = __cordl_internal_get__ownerByTween,
+                      put = __cordl_internal_set__ownerByTween))::System::Collections::Generic::Dictionary_2<::Tweening::Tween*, ::System::Object*>* _ownerByTween;
 
   /// @brief Field _reusableTweenHashSets, offset 0x38, size 0x8
-  __declspec(property(get = __get__reusableTweenHashSets,
-                      put = __set__reusableTweenHashSets))::System::Collections::Generic::Queue_1<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* _reusableTweenHashSets;
+  __declspec(
+      property(get = __cordl_internal_get__reusableTweenHashSets,
+               put = __cordl_internal_set__reusableTweenHashSets))::System::Collections::Generic::Queue_1<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* _reusableTweenHashSets;
 
-  constexpr ::System::Collections::Generic::List_1<::Tweening::Tween*>*& __get__activeTweens();
+  constexpr ::System::Collections::Generic::List_1<::Tweening::Tween*>*& __cordl_internal_get__activeTweens();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Tweening::Tween*>*> const& __get__activeTweens() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Tweening::Tween*>*> const& __cordl_internal_get__activeTweens() const;
 
-  constexpr void __set__activeTweens(::System::Collections::Generic::List_1<::Tweening::Tween*>* value);
+  constexpr void __cordl_internal_set__activeTweens(::System::Collections::Generic::List_1<::Tweening::Tween*>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*& __get__activeTweensSet();
+  constexpr ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*& __cordl_internal_get__activeTweensSet();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*> const& __get__activeTweensSet() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*> const& __cordl_internal_get__activeTweensSet() const;
 
-  constexpr void __set__activeTweensSet(::System::Collections::Generic::HashSet_1<::Tweening::Tween*>* value);
+  constexpr void __cordl_internal_set__activeTweensSet(::System::Collections::Generic::HashSet_1<::Tweening::Tween*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>*& __get__tweensByOwner();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>*& __cordl_internal_get__tweensByOwner();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>*> const&
-  __get__tweensByOwner() const;
+  __cordl_internal_get__tweensByOwner() const;
 
-  constexpr void __set__tweensByOwner(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* value);
+  constexpr void __cordl_internal_set__tweensByOwner(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::Tweening::Tween*, ::System::Object*>*& __get__ownerByTween();
+  constexpr ::System::Collections::Generic::Dictionary_2<::Tweening::Tween*, ::System::Object*>*& __cordl_internal_get__ownerByTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::Tweening::Tween*, ::System::Object*>*> const& __get__ownerByTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::Tweening::Tween*, ::System::Object*>*> const& __cordl_internal_get__ownerByTween() const;
 
-  constexpr void __set__ownerByTween(::System::Collections::Generic::Dictionary_2<::Tweening::Tween*, ::System::Object*>* value);
+  constexpr void __cordl_internal_set__ownerByTween(::System::Collections::Generic::Dictionary_2<::Tweening::Tween*, ::System::Object*>* value);
 
-  constexpr ::System::Collections::Generic::Queue_1<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>*& __get__reusableTweenHashSets();
+  constexpr ::System::Collections::Generic::Queue_1<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>*& __cordl_internal_get__reusableTweenHashSets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>*> const& __get__reusableTweenHashSets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>*> const&
+  __cordl_internal_get__reusableTweenHashSets() const;
 
-  constexpr void __set__reusableTweenHashSets(::System::Collections::Generic::Queue_1<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* value);
+  constexpr void __cordl_internal_set__reusableTweenHashSets(::System::Collections::Generic::Queue_1<::System::Collections::Generic::HashSet_1<::Tweening::Tween*>*>* value);
 
   /// @brief Method Start, addr 0x2a0e648, size 0x64, virtual false, abstract: false, final false
   inline void Start();

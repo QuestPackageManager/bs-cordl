@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::QNameFacetsChecker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11686))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11686))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11692))
 // CS Name: ::System.Xml.Schema::QNameFacetsChecker*
 class CORDL_TYPE QNameFacetsChecker : public ::System::Xml::Schema::FacetsChecker {

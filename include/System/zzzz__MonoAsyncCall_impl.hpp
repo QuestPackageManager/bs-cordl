@@ -10,90 +10,90 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x25fa554;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::MonoAsyncCall*>::get(), ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::MonoAsyncCall*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Object*& System::MonoAsyncCall::__get_msg() {
+constexpr ::System::Object*& System::MonoAsyncCall::__cordl_internal_get_msg() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___msg;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::MonoAsyncCall::__get_msg() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::MonoAsyncCall::__cordl_internal_get_msg() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___msg;
 }
-constexpr void System::MonoAsyncCall::__set_msg(::System::Object* value) {
+constexpr void System::MonoAsyncCall::__cordl_internal_set_msg(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___msg)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr void*& System::MonoAsyncCall::__get_cb_method() {
+constexpr void*& System::MonoAsyncCall::__cordl_internal_get_cb_method() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cb_method;
 }
-constexpr void* const& System::MonoAsyncCall::__get_cb_method() const {
+constexpr void* const& System::MonoAsyncCall::__cordl_internal_get_cb_method() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cb_method;
 }
-constexpr void System::MonoAsyncCall::__set_cb_method(void* value) {
+constexpr void System::MonoAsyncCall::__cordl_internal_set_cb_method(void* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cb_method = value;
 }
-constexpr ::System::Object*& System::MonoAsyncCall::__get_cb_target() {
+constexpr ::System::Object*& System::MonoAsyncCall::__cordl_internal_get_cb_target() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cb_target;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::MonoAsyncCall::__get_cb_target() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::MonoAsyncCall::__cordl_internal_get_cb_target() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cb_target;
 }
-constexpr void System::MonoAsyncCall::__set_cb_target(::System::Object* value) {
+constexpr void System::MonoAsyncCall::__cordl_internal_set_cb_target(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cb_target)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& System::MonoAsyncCall::__get_state() {
+constexpr ::System::Object*& System::MonoAsyncCall::__cordl_internal_get_state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::MonoAsyncCall::__get_state() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::MonoAsyncCall::__cordl_internal_get_state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
-constexpr void System::MonoAsyncCall::__set_state(::System::Object* value) {
+constexpr void System::MonoAsyncCall::__cordl_internal_set_state(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___state)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& System::MonoAsyncCall::__get_res() {
+constexpr ::System::Object*& System::MonoAsyncCall::__cordl_internal_get_res() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___res;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::MonoAsyncCall::__get_res() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::MonoAsyncCall::__cordl_internal_get_res() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___res;
 }
-constexpr void System::MonoAsyncCall::__set_res(::System::Object* value) {
+constexpr void System::MonoAsyncCall::__cordl_internal_set_res(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___res)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& System::MonoAsyncCall::__get_out_args() {
+constexpr ::System::Object*& System::MonoAsyncCall::__cordl_internal_get_out_args() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___out_args;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::MonoAsyncCall::__get_out_args() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::MonoAsyncCall::__cordl_internal_get_out_args() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___out_args;
 }
-constexpr void System::MonoAsyncCall::__set_out_args(::System::Object* value) {
+constexpr void System::MonoAsyncCall::__cordl_internal_set_out_args(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___out_args)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::MonoAsyncCall* System::MonoAsyncCall::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::MonoAsyncCall*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::MonoAsyncCall*>());
 }
 inline void System::MonoAsyncCall::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::MonoAsyncCall*>::get(), ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::MonoAsyncCall*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

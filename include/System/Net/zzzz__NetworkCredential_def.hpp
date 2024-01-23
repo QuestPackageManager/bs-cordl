@@ -24,20 +24,20 @@ MARK_REF_PTR_T(::System::Net::NetworkCredential);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9081))
 // CS Name: ::System.Net::NetworkCredential*
 class CORDL_TYPE NetworkCredential : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_domain, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_domain, put = __set_m_domain))::StringW m_domain;
+  __declspec(property(get = __cordl_internal_get_m_domain, put = __cordl_internal_set_m_domain))::StringW m_domain;
 
   /// @brief Field m_userName, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_userName, put = __set_m_userName))::StringW m_userName;
+  __declspec(property(get = __cordl_internal_get_m_userName, put = __cordl_internal_set_m_userName))::StringW m_userName;
 
   /// @brief Field m_password, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_password, put = __set_m_password))::System::Security::SecureString* m_password;
+  __declspec(property(get = __cordl_internal_get_m_password, put = __cordl_internal_set_m_password))::System::Security::SecureString* m_password;
 
   __declspec(property(get = get_UserName, put = set_UserName))::StringW UserName;
 
@@ -51,23 +51,23 @@ public:
   /// @brief Convert to "::System::Net::ICredentials"
   constexpr ::System::Net::ICredentials* i___System__Net__ICredentials() noexcept;
 
-  constexpr ::StringW& __get_m_domain();
+  constexpr ::StringW& __cordl_internal_get_m_domain();
 
-  constexpr ::StringW const& __get_m_domain() const;
+  constexpr ::StringW const& __cordl_internal_get_m_domain() const;
 
-  constexpr void __set_m_domain(::StringW value);
+  constexpr void __cordl_internal_set_m_domain(::StringW value);
 
-  constexpr ::StringW& __get_m_userName();
+  constexpr ::StringW& __cordl_internal_get_m_userName();
 
-  constexpr ::StringW const& __get_m_userName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_userName() const;
 
-  constexpr void __set_m_userName(::StringW value);
+  constexpr void __cordl_internal_set_m_userName(::StringW value);
 
-  constexpr ::System::Security::SecureString*& __get_m_password();
+  constexpr ::System::Security::SecureString*& __cordl_internal_get_m_password();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::SecureString*> const& __get_m_password() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::SecureString*> const& __cordl_internal_get_m_password() const;
 
-  constexpr void __set_m_password(::System::Security::SecureString* value);
+  constexpr void __cordl_internal_set_m_password(::System::Security::SecureString* value);
 
   static inline ::System::Net::NetworkCredential* New_ctor(::StringW userName, ::StringW password);
 

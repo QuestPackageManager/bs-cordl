@@ -13,32 +13,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x234e724;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::MainEffectSO*& GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset::__get_mainEffect() {
+constexpr ::UnityW<::GlobalNamespace::MainEffectSO>& GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset::__cordl_internal_get_mainEffect() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mainEffect;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainEffectSO*> const& GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset::__get_mainEffect() const {
+constexpr ::UnityW<::GlobalNamespace::MainEffectSO> const& GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset::__cordl_internal_get_mainEffect() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mainEffect;
 }
-constexpr void GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset::__set_mainEffect(::GlobalNamespace::MainEffectSO* value) {
+constexpr void GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset::__cordl_internal_set_mainEffect(::UnityW<::GlobalNamespace::MainEffectSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mainEffect)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset* GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>());
 }
 inline void GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -52,9 +52,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x234e70c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*>::get(),
-                                                                               "get_presets", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_presets", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -66,7 +66,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x234e714;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*>::get(),
@@ -82,23 +82,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x234e71c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 constexpr ::ArrayW<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>*>&
-GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::__get__presets() {
+GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::__cordl_internal_get__presets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____presets;
 }
 constexpr ::ArrayW<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>*> const&
-GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::__get__presets() const {
+GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::__cordl_internal_get__presets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____presets;
 }
-constexpr void GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::__set__presets(
+constexpr void GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::__cordl_internal_set__presets(
     ::ArrayW<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____presets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
@@ -106,7 +106,7 @@ constexpr void GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::__set__pres
 inline ::ArrayW<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>*>
 GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::get_presets() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*>::get(),
-                                                                             "get_presets", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_presets", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*, ::Array<::GlobalNamespace::__MainEffectGraphicsSettingsPresetsSO__Preset*>*>,
                                              false>(this, ___internal_method);
 }
@@ -117,11 +117,11 @@ inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::Name
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*>, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO* GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*>());
 }
 inline void GlobalNamespace::MainEffectGraphicsSettingsPresetsSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

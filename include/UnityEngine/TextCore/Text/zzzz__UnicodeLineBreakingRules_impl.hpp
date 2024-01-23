@@ -11,9 +11,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x2d4c538;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
-                                                                               "get_leadingCharactersLookup", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_leadingCharactersLookup", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -25,9 +25,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x2d4c8d4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
-                                                                               "get_followingCharactersLookup", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_followingCharactersLookup", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -38,9 +38,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x314;
   constexpr static std::size_t addrs = 0x2d4c5c0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
-                                                                               "LoadLineBreakingRules", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "LoadLineBreakingRules", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -52,10 +52,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x2d4c95c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(), "GetCharacters",
-                                    std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAsset*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(), "GetCharacters", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAsset*>::get() })));
     return ___internal_method;
   }
 };
@@ -67,57 +67,57 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2d4ca44;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::TextAsset*& UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__get_m_UnicodeLineBreakingRules() {
+constexpr ::UnityW<::UnityEngine::TextAsset>& UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__cordl_internal_get_m_UnicodeLineBreakingRules() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UnicodeLineBreakingRules;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__get_m_UnicodeLineBreakingRules() const {
+constexpr ::UnityW<::UnityEngine::TextAsset> const& UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__cordl_internal_get_m_UnicodeLineBreakingRules() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UnicodeLineBreakingRules;
 }
-constexpr void UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__set_m_UnicodeLineBreakingRules(::UnityEngine::TextAsset* value) {
+constexpr void UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__cordl_internal_set_m_UnicodeLineBreakingRules(::UnityW<::UnityEngine::TextAsset> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_UnicodeLineBreakingRules)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::TextAsset*& UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__get_m_LeadingCharacters() {
+constexpr ::UnityW<::UnityEngine::TextAsset>& UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__cordl_internal_get_m_LeadingCharacters() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LeadingCharacters;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__get_m_LeadingCharacters() const {
+constexpr ::UnityW<::UnityEngine::TextAsset> const& UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__cordl_internal_get_m_LeadingCharacters() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_LeadingCharacters;
 }
-constexpr void UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__set_m_LeadingCharacters(::UnityEngine::TextAsset* value) {
+constexpr void UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__cordl_internal_set_m_LeadingCharacters(::UnityW<::UnityEngine::TextAsset> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_LeadingCharacters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::TextAsset*& UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__get_m_FollowingCharacters() {
+constexpr ::UnityW<::UnityEngine::TextAsset>& UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__cordl_internal_get_m_FollowingCharacters() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FollowingCharacters;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__get_m_FollowingCharacters() const {
+constexpr ::UnityW<::UnityEngine::TextAsset> const& UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__cordl_internal_get_m_FollowingCharacters() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FollowingCharacters;
 }
-constexpr void UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__set_m_FollowingCharacters(::UnityEngine::TextAsset* value) {
+constexpr void UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__cordl_internal_set_m_FollowingCharacters(::UnityW<::UnityEngine::TextAsset> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_FollowingCharacters)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__get_m_UseModernHangulLineBreakingRules() {
+constexpr bool& UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__cordl_internal_get_m_UseModernHangulLineBreakingRules() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UseModernHangulLineBreakingRules;
 }
-constexpr bool const& UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__get_m_UseModernHangulLineBreakingRules() const {
+constexpr bool const& UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__cordl_internal_get_m_UseModernHangulLineBreakingRules() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UseModernHangulLineBreakingRules;
 }
-constexpr void UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__set_m_UseModernHangulLineBreakingRules(bool value) {
+constexpr void UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__cordl_internal_set_m_UseModernHangulLineBreakingRules(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UseModernHangulLineBreakingRules = value;
 }
@@ -150,31 +150,31 @@ inline ::System::Collections::Generic::HashSet_1<uint32_t>* UnityEngine::TextCor
 }
 inline ::System::Collections::Generic::HashSet_1<uint32_t>* UnityEngine::TextCore::Text::UnicodeLineBreakingRules::get_leadingCharactersLookup() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
-                                                                             "get_leadingCharactersLookup", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_leadingCharactersLookup", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::HashSet_1<uint32_t>*, false>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::HashSet_1<uint32_t>* UnityEngine::TextCore::Text::UnicodeLineBreakingRules::get_followingCharactersLookup() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
-                                                                             "get_followingCharactersLookup", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_followingCharactersLookup", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::HashSet_1<uint32_t>*, false>(this, ___internal_method);
 }
 inline void UnityEngine::TextCore::Text::UnicodeLineBreakingRules::LoadLineBreakingRules() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
-                                                                             "LoadLineBreakingRules", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "LoadLineBreakingRules", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
 inline ::System::Collections::Generic::HashSet_1<uint32_t>* UnityEngine::TextCore::Text::UnicodeLineBreakingRules::GetCharacters(::UnityEngine::TextAsset* file) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(), "GetCharacters", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAsset*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(), "GetCharacters", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAsset*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::HashSet_1<uint32_t>*, false>(nullptr, ___internal_method, file);
 }
 inline ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* UnityEngine::TextCore::Text::UnicodeLineBreakingRules::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>());
 }
 inline void UnityEngine::TextCore::Text::UnicodeLineBreakingRules::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

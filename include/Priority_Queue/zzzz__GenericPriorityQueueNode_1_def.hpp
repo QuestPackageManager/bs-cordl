@@ -17,20 +17,20 @@ namespace Priority_Queue {
 // cpp template
 template <typename TPriority>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6096))
 // CS Name: ::Priority_Queue::GenericPriorityQueueNode`1<TPriority>*
 class CORDL_TYPE GenericPriorityQueueNode_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Priority>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Priority_k__BackingField, put = __set__Priority_k__BackingField)) TPriority _Priority_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Priority_k__BackingField, put = __cordl_internal_set__Priority_k__BackingField)) TPriority _Priority_k__BackingField;
 
   /// @brief Field <QueueIndex>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__QueueIndex_k__BackingField, put = __set__QueueIndex_k__BackingField)) int32_t _QueueIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__QueueIndex_k__BackingField, put = __cordl_internal_set__QueueIndex_k__BackingField)) int32_t _QueueIndex_k__BackingField;
 
   /// @brief Field <InsertionIndex>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__InsertionIndex_k__BackingField, put = __set__InsertionIndex_k__BackingField)) int64_t _InsertionIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__InsertionIndex_k__BackingField, put = __cordl_internal_set__InsertionIndex_k__BackingField)) int64_t _InsertionIndex_k__BackingField;
 
   __declspec(property(get = get_Priority, put = set_Priority)) TPriority Priority;
 
@@ -38,23 +38,23 @@ public:
 
   __declspec(property(get = get_InsertionIndex, put = set_InsertionIndex)) int64_t InsertionIndex;
 
-  constexpr TPriority& __get__Priority_k__BackingField();
+  constexpr TPriority& __cordl_internal_get__Priority_k__BackingField();
 
-  constexpr TPriority const& __get__Priority_k__BackingField() const;
+  constexpr TPriority const& __cordl_internal_get__Priority_k__BackingField() const;
 
-  constexpr void __set__Priority_k__BackingField(TPriority value);
+  constexpr void __cordl_internal_set__Priority_k__BackingField(TPriority value);
 
-  constexpr int32_t& __get__QueueIndex_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__QueueIndex_k__BackingField();
 
-  constexpr int32_t const& __get__QueueIndex_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__QueueIndex_k__BackingField() const;
 
-  constexpr void __set__QueueIndex_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__QueueIndex_k__BackingField(int32_t value);
 
-  constexpr int64_t& __get__InsertionIndex_k__BackingField();
+  constexpr int64_t& __cordl_internal_get__InsertionIndex_k__BackingField();
 
-  constexpr int64_t const& __get__InsertionIndex_k__BackingField() const;
+  constexpr int64_t const& __cordl_internal_get__InsertionIndex_k__BackingField() const;
 
-  constexpr void __set__InsertionIndex_k__BackingField(int64_t value);
+  constexpr void __cordl_internal_set__InsertionIndex_k__BackingField(int64_t value);
 
   /// @brief Method get_Priority, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TPriority get_Priority();

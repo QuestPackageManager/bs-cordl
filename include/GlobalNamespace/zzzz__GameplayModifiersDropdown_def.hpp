@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameplayModifiersDropdown____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5570))
 // CS Name: ::GameplayModifiersDropdown::<>c*
 class CORDL_TYPE __GameplayModifiersDropdown____c : public ::System::Object {
@@ -100,7 +100,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModif
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5571))
 // CS Name: ::GameplayModifiersDropdown*
 class CORDL_TYPE GameplayModifiersDropdown : public ::UnityEngine::MonoBehaviour {
@@ -109,45 +109,45 @@ public:
   using __c = ::GlobalNamespace::__GameplayModifiersDropdown____c;
 
   /// @brief Field _simpleTextDropdown, offset 0x18, size 0x8
-  __declspec(property(get = __get__simpleTextDropdown, put = __set__simpleTextDropdown))::HMUI::SimpleTextDropdown* _simpleTextDropdown;
+  __declspec(property(get = __cordl_internal_get__simpleTextDropdown, put = __cordl_internal_set__simpleTextDropdown))::UnityW<::HMUI::SimpleTextDropdown> _simpleTextDropdown;
 
   /// @brief Field _gameplayModifiersModel, offset 0x20, size 0x8
-  __declspec(property(get = __get__gameplayModifiersModel, put = __set__gameplayModifiersModel))::GlobalNamespace::GameplayModifiersModelSO* _gameplayModifiersModel;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiersModel,
+                      put = __cordl_internal_set__gameplayModifiersModel))::UnityW<::GlobalNamespace::GameplayModifiersModelSO> _gameplayModifiersModel;
 
   /// @brief Field didSelectCellWithIdxEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_didSelectCellWithIdxEvent, put = __set_didSelectCellWithIdxEvent))::System::Action_1<int32_t>* didSelectCellWithIdxEvent;
+  __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent, put = __cordl_internal_set_didSelectCellWithIdxEvent))::System::Action_1<int32_t>* didSelectCellWithIdxEvent;
 
   /// @brief Field _gameplayModifiersData, offset 0x30, size 0x8
-  __declspec(
-      property(get = __get__gameplayModifiersData,
-               put = __set__gameplayModifiersData))::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>* _gameplayModifiersData;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiersData, put = __cordl_internal_set__gameplayModifiersData))::System::Collections::Generic::IReadOnlyList_1<
+      ::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>* _gameplayModifiersData;
 
   __declspec(property(get = get_gameplayModifiersData))::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>* gameplayModifiersData;
 
-  constexpr ::HMUI::SimpleTextDropdown*& __get__simpleTextDropdown();
+  constexpr ::UnityW<::HMUI::SimpleTextDropdown>& __cordl_internal_get__simpleTextDropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::SimpleTextDropdown*> const& __get__simpleTextDropdown() const;
+  constexpr ::UnityW<::HMUI::SimpleTextDropdown> const& __cordl_internal_get__simpleTextDropdown() const;
 
-  constexpr void __set__simpleTextDropdown(::HMUI::SimpleTextDropdown* value);
+  constexpr void __cordl_internal_set__simpleTextDropdown(::UnityW<::HMUI::SimpleTextDropdown> value);
 
-  constexpr ::GlobalNamespace::GameplayModifiersModelSO*& __get__gameplayModifiersModel();
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& __cordl_internal_get__gameplayModifiersModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiersModelSO*> const& __get__gameplayModifiersModel() const;
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiersModel() const;
 
-  constexpr void __set__gameplayModifiersModel(::GlobalNamespace::GameplayModifiersModelSO* value);
+  constexpr void __cordl_internal_set__gameplayModifiersModel(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value);
 
-  constexpr ::System::Action_1<int32_t>*& __get_didSelectCellWithIdxEvent();
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_didSelectCellWithIdxEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __get_didSelectCellWithIdxEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
 
-  constexpr void __set_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
+  constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>*& __get__gameplayModifiersData();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>*& __cordl_internal_get__gameplayModifiersData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>*> const&
-  __get__gameplayModifiersData() const;
+  __cordl_internal_get__gameplayModifiersData() const;
 
-  constexpr void __set__gameplayModifiersData(::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>* value);
+  constexpr void __cordl_internal_set__gameplayModifiersData(::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::GameplayModifierMask, ::StringW>*>* value);
 
   /// @brief Method add_didSelectCellWithIdxEvent, addr 0x22a4c3c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
@@ -199,10 +199,10 @@ protected:
 
 public:
   /// @brief Field _simpleTextDropdown, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::SimpleTextDropdown* ____simpleTextDropdown;
+  ::UnityW<::HMUI::SimpleTextDropdown> ____simpleTextDropdown;
 
   /// @brief Field _gameplayModifiersModel, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::GameplayModifiersModelSO* ____gameplayModifiersModel;
+  ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
 
   /// @brief Field didSelectCellWithIdxEvent, offset: 0x28, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___didSelectCellWithIdxEvent;

@@ -44,26 +44,26 @@ MARK_REF_PTR_T(::System::Net::Sockets::TcpClient);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9337))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9337))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9353))
 // CS Name: ::System.Net.Sockets::TcpClient*
 class CORDL_TYPE TcpClient : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_ClientSocket, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_ClientSocket, put = __set_m_ClientSocket))::System::Net::Sockets::Socket* m_ClientSocket;
+  __declspec(property(get = __cordl_internal_get_m_ClientSocket, put = __cordl_internal_set_m_ClientSocket))::System::Net::Sockets::Socket* m_ClientSocket;
 
   /// @brief Field m_Active, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_Active, put = __set_m_Active)) bool m_Active;
+  __declspec(property(get = __cordl_internal_get_m_Active, put = __cordl_internal_set_m_Active)) bool m_Active;
 
   /// @brief Field m_DataStream, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_DataStream, put = __set_m_DataStream))::System::Net::Sockets::NetworkStream* m_DataStream;
+  __declspec(property(get = __cordl_internal_get_m_DataStream, put = __cordl_internal_set_m_DataStream))::System::Net::Sockets::NetworkStream* m_DataStream;
 
   /// @brief Field m_Family, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_Family, put = __set_m_Family))::System::Net::Sockets::AddressFamily m_Family;
+  __declspec(property(get = __cordl_internal_get_m_Family, put = __cordl_internal_set_m_Family))::System::Net::Sockets::AddressFamily m_Family;
 
   /// @brief Field m_CleanedUp, offset 0x2c, size 0x1
-  __declspec(property(get = __get_m_CleanedUp, put = __set_m_CleanedUp)) bool m_CleanedUp;
+  __declspec(property(get = __cordl_internal_get_m_CleanedUp, put = __cordl_internal_set_m_CleanedUp)) bool m_CleanedUp;
 
   __declspec(property(get = get_Client, put = set_Client))::System::Net::Sockets::Socket* Client;
 
@@ -75,35 +75,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Net::Sockets::Socket*& __get_m_ClientSocket();
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_m_ClientSocket();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __get_m_ClientSocket() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_m_ClientSocket() const;
 
-  constexpr void __set_m_ClientSocket(::System::Net::Sockets::Socket* value);
+  constexpr void __cordl_internal_set_m_ClientSocket(::System::Net::Sockets::Socket* value);
 
-  constexpr bool& __get_m_Active();
+  constexpr bool& __cordl_internal_get_m_Active();
 
-  constexpr bool const& __get_m_Active() const;
+  constexpr bool const& __cordl_internal_get_m_Active() const;
 
-  constexpr void __set_m_Active(bool value);
+  constexpr void __cordl_internal_set_m_Active(bool value);
 
-  constexpr ::System::Net::Sockets::NetworkStream*& __get_m_DataStream();
+  constexpr ::System::Net::Sockets::NetworkStream*& __cordl_internal_get_m_DataStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::NetworkStream*> const& __get_m_DataStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::NetworkStream*> const& __cordl_internal_get_m_DataStream() const;
 
-  constexpr void __set_m_DataStream(::System::Net::Sockets::NetworkStream* value);
+  constexpr void __cordl_internal_set_m_DataStream(::System::Net::Sockets::NetworkStream* value);
 
-  constexpr ::System::Net::Sockets::AddressFamily& __get_m_Family();
+  constexpr ::System::Net::Sockets::AddressFamily& __cordl_internal_get_m_Family();
 
-  constexpr ::System::Net::Sockets::AddressFamily const& __get_m_Family() const;
+  constexpr ::System::Net::Sockets::AddressFamily const& __cordl_internal_get_m_Family() const;
 
-  constexpr void __set_m_Family(::System::Net::Sockets::AddressFamily value);
+  constexpr void __cordl_internal_set_m_Family(::System::Net::Sockets::AddressFamily value);
 
-  constexpr bool& __get_m_CleanedUp();
+  constexpr bool& __cordl_internal_get_m_CleanedUp();
 
-  constexpr bool const& __get_m_CleanedUp() const;
+  constexpr bool const& __cordl_internal_get_m_CleanedUp() const;
 
-  constexpr void __set_m_CleanedUp(bool value);
+  constexpr void __cordl_internal_set_m_CleanedUp(bool value);
 
   static inline ::System::Net::Sockets::TcpClient* New_ctor();
 

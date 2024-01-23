@@ -24,38 +24,38 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioClipQueue);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4044))
 // CS Name: ::AudioClipQueue*
 class CORDL_TYPE AudioClipQueue : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _audioSource, offset 0x18, size 0x8
-  __declspec(property(get = __get__audioSource, put = __set__audioSource))::UnityEngine::AudioSource* _audioSource;
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
 
   /// @brief Field _queue, offset 0x20, size 0x8
-  __declspec(property(get = __get__queue, put = __set__queue))::System::Collections::Generic::List_1<::UnityEngine::AudioClip*>* _queue;
+  __declspec(property(get = __cordl_internal_get__queue, put = __cordl_internal_set__queue))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AudioClip>>* _queue;
 
   /// @brief Field _delay, offset 0x28, size 0x4
-  __declspec(property(get = __get__delay, put = __set__delay)) float_t _delay;
+  __declspec(property(get = __cordl_internal_get__delay, put = __cordl_internal_set__delay)) float_t _delay;
 
-  constexpr ::UnityEngine::AudioSource*& __get__audioSource();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get__audioSource() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
 
-  constexpr void __set__audioSource(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::AudioClip*>*& __get__queue();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AudioClip>>*& __cordl_internal_get__queue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::AudioClip*>*> const& __get__queue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__queue() const;
 
-  constexpr void __set__queue(::System::Collections::Generic::List_1<::UnityEngine::AudioClip*>* value);
+  constexpr void __cordl_internal_set__queue(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AudioClip>>* value);
 
-  constexpr float_t& __get__delay();
+  constexpr float_t& __cordl_internal_get__delay();
 
-  constexpr float_t const& __get__delay() const;
+  constexpr float_t const& __cordl_internal_get__delay() const;
 
-  constexpr void __set__delay(float_t value);
+  constexpr void __cordl_internal_set__delay(float_t value);
 
   /// @brief Method Awake, addr 0x222abb8, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
@@ -86,10 +86,10 @@ protected:
 
 public:
   /// @brief Field _audioSource, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ____audioSource;
+  ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
   /// @brief Field _queue, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::AudioClip*>* ____queue;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AudioClip>>* ____queue;
 
   /// @brief Field _delay, offset: 0x28, size: 0x4, def value: None
   float_t ____delay;

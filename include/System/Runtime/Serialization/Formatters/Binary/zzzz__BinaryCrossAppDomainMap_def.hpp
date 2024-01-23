@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryCross
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3266))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryCrossAppDomainMap*
 class CORDL_TYPE BinaryCrossAppDomainMap : public ::System::Object {
 public:
   // Declarations
   /// @brief Field crossAppDomainArrayIndex, offset 0x10, size 0x4
-  __declspec(property(get = __get_crossAppDomainArrayIndex, put = __set_crossAppDomainArrayIndex)) int32_t crossAppDomainArrayIndex;
+  __declspec(property(get = __cordl_internal_get_crossAppDomainArrayIndex, put = __cordl_internal_set_crossAppDomainArrayIndex)) int32_t crossAppDomainArrayIndex;
 
-  constexpr int32_t& __get_crossAppDomainArrayIndex();
+  constexpr int32_t& __cordl_internal_get_crossAppDomainArrayIndex();
 
-  constexpr int32_t const& __get_crossAppDomainArrayIndex() const;
+  constexpr int32_t const& __cordl_internal_get_crossAppDomainArrayIndex() const;
 
-  constexpr void __set_crossAppDomainArrayIndex(int32_t value);
+  constexpr void __cordl_internal_set_crossAppDomainArrayIndex(int32_t value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap* New_ctor();
 

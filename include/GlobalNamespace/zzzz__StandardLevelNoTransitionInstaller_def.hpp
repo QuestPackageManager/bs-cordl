@@ -23,35 +23,36 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelNoTransitionInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11176))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11176))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6042))
 // CS Name: ::StandardLevelNoTransitionInstaller*
 class CORDL_TYPE StandardLevelNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
   // Declarations
   /// @brief Field _scenesTransitionSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __get__scenesTransitionSetupData, put = __set__scenesTransitionSetupData))::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* _scenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get__scenesTransitionSetupData,
+                      put = __cordl_internal_set__scenesTransitionSetupData))::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> _scenesTransitionSetupData;
 
   /// @brief Field _standardLevelNoTransitionInstallerData, offset 0x20, size 0x8
-  __declspec(property(get = __get__standardLevelNoTransitionInstallerData,
-                      put = __set__standardLevelNoTransitionInstallerData))::GlobalNamespace::StandardLevelNoTransitionInstallerData* _standardLevelNoTransitionInstallerData;
+  __declspec(property(get = __cordl_internal_get__standardLevelNoTransitionInstallerData,
+                      put = __cordl_internal_set__standardLevelNoTransitionInstallerData))::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> _standardLevelNoTransitionInstallerData;
 
-  __declspec(property(get = get_standardLevelNoTransitionInstallerData))::GlobalNamespace::StandardLevelNoTransitionInstallerData* standardLevelNoTransitionInstallerData;
+  __declspec(property(get = get_standardLevelNoTransitionInstallerData))::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> standardLevelNoTransitionInstallerData;
 
-  constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& __get__scenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>& __cordl_internal_get__scenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*> const& __get__scenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__scenesTransitionSetupData() const;
 
-  constexpr void __set__scenesTransitionSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::StandardLevelNoTransitionInstallerData*& __get__standardLevelNoTransitionInstallerData();
+  constexpr ::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData>& __cordl_internal_get__standardLevelNoTransitionInstallerData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StandardLevelNoTransitionInstallerData*> const& __get__standardLevelNoTransitionInstallerData() const;
+  constexpr ::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> const& __cordl_internal_get__standardLevelNoTransitionInstallerData() const;
 
-  constexpr void __set__standardLevelNoTransitionInstallerData(::GlobalNamespace::StandardLevelNoTransitionInstallerData* value);
+  constexpr void __cordl_internal_set__standardLevelNoTransitionInstallerData(::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> value);
 
   /// @brief Method get_standardLevelNoTransitionInstallerData, addr 0x231b74c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::StandardLevelNoTransitionInstallerData* get_standardLevelNoTransitionInstallerData();
+  inline ::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> get_standardLevelNoTransitionInstallerData();
 
   /// @brief Method InstallBindings, addr 0x231b754, size 0x150, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
@@ -76,10 +77,10 @@ protected:
 
 public:
   /// @brief Field _scenesTransitionSetupData, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* ____scenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ____scenesTransitionSetupData;
 
   /// @brief Field _standardLevelNoTransitionInstallerData, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::StandardLevelNoTransitionInstallerData* ____standardLevelNoTransitionInstallerData;
+  ::UnityW<::GlobalNamespace::StandardLevelNoTransitionInstallerData> ____standardLevelNoTransitionInstallerData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

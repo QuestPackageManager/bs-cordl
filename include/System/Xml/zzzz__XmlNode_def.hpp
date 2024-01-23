@@ -52,14 +52,14 @@ MARK_REF_PTR_T(::System::Xml::XmlNode);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11520))
 // CS Name: ::System.Xml::XmlNode*
 class CORDL_TYPE XmlNode : public ::System::Object {
 public:
   // Declarations
   /// @brief Field parentNode, offset 0x10, size 0x8
-  __declspec(property(get = __get_parentNode, put = __set_parentNode))::System::Xml::XmlNode* parentNode;
+  __declspec(property(get = __cordl_internal_get_parentNode, put = __cordl_internal_set_parentNode))::System::Xml::XmlNode* parentNode;
 
   __declspec(property(get = get_Name))::StringW Name;
 
@@ -119,11 +119,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Xml::XmlNode*& __get_parentNode();
+  constexpr ::System::Xml::XmlNode*& __cordl_internal_get_parentNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& __get_parentNode() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& __cordl_internal_get_parentNode() const;
 
-  constexpr void __set_parentNode(::System::Xml::XmlNode* value);
+  constexpr void __cordl_internal_set_parentNode(::System::Xml::XmlNode* value);
 
   static inline ::System::Xml::XmlNode* New_ctor();
 

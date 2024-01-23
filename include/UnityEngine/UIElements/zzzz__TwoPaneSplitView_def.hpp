@@ -57,39 +57,41 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__TwoPaneSplitView__UxmlTraits);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6737))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6737))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7137))
 // CS Name: ::TwoPaneSplitView::UxmlTraits*
 class CORDL_TYPE __TwoPaneSplitView__UxmlTraits : public ::UnityEngine::UIElements::__VisualElement__UxmlTraits {
 public:
   // Declarations
   /// @brief Field m_FixedPaneIndex, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_FixedPaneIndex, put = __set_m_FixedPaneIndex))::UnityEngine::UIElements::UxmlIntAttributeDescription* m_FixedPaneIndex;
+  __declspec(property(get = __cordl_internal_get_m_FixedPaneIndex, put = __cordl_internal_set_m_FixedPaneIndex))::UnityEngine::UIElements::UxmlIntAttributeDescription* m_FixedPaneIndex;
 
   /// @brief Field m_FixedPaneInitialDimension, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_FixedPaneInitialDimension, put = __set_m_FixedPaneInitialDimension))::UnityEngine::UIElements::UxmlIntAttributeDescription* m_FixedPaneInitialDimension;
+  __declspec(property(get = __cordl_internal_get_m_FixedPaneInitialDimension,
+                      put = __cordl_internal_set_m_FixedPaneInitialDimension))::UnityEngine::UIElements::UxmlIntAttributeDescription* m_FixedPaneInitialDimension;
 
   /// @brief Field m_Orientation, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_Orientation,
-                      put = __set_m_Orientation))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::TwoPaneSplitViewOrientation>* m_Orientation;
+  __declspec(property(get = __cordl_internal_get_m_Orientation,
+                      put = __cordl_internal_set_m_Orientation))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::TwoPaneSplitViewOrientation>* m_Orientation;
 
-  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __get_m_FixedPaneIndex();
+  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __cordl_internal_get_m_FixedPaneIndex();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const& __get_m_FixedPaneIndex() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const& __cordl_internal_get_m_FixedPaneIndex() const;
 
-  constexpr void __set_m_FixedPaneIndex(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_FixedPaneIndex(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __get_m_FixedPaneInitialDimension();
+  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __cordl_internal_get_m_FixedPaneInitialDimension();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const& __get_m_FixedPaneInitialDimension() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const& __cordl_internal_get_m_FixedPaneInitialDimension() const;
 
-  constexpr void __set_m_FixedPaneInitialDimension(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_FixedPaneInitialDimension(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::TwoPaneSplitViewOrientation>*& __get_m_Orientation();
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::TwoPaneSplitViewOrientation>*& __cordl_internal_get_m_Orientation();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::TwoPaneSplitViewOrientation>*> const& __get_m_Orientation() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::TwoPaneSplitViewOrientation>*> const&
+  __cordl_internal_get_m_Orientation() const;
 
-  constexpr void __set_m_Orientation(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::TwoPaneSplitViewOrientation>* value);
+  constexpr void __cordl_internal_set_m_Orientation(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::TwoPaneSplitViewOrientation>* value);
 
   /// @brief Method Init, addr 0x2e3f730, size 0x16c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
@@ -138,7 +140,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__TwoPaneSplitView__UxmlTraits
 // SizeInfo { instance_size: 1040, native_size: -1, calculated_instance_size: 1040, calculated_native_size: 1040, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(7139))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(7139))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7138))
 // CS Name: ::UnityEngine.UIElements::TwoPaneSplitView*
 class CORDL_TYPE TwoPaneSplitView : public ::UnityEngine::UIElements::VisualElement {
@@ -149,43 +151,43 @@ public:
   using UxmlFactory = ::UnityEngine::UIElements::__TwoPaneSplitView__UxmlFactory;
 
   /// @brief Field m_LeftPane, offset 0x3b0, size 0x8
-  __declspec(property(get = __get_m_LeftPane, put = __set_m_LeftPane))::UnityEngine::UIElements::VisualElement* m_LeftPane;
+  __declspec(property(get = __cordl_internal_get_m_LeftPane, put = __cordl_internal_set_m_LeftPane))::UnityEngine::UIElements::VisualElement* m_LeftPane;
 
   /// @brief Field m_RightPane, offset 0x3b8, size 0x8
-  __declspec(property(get = __get_m_RightPane, put = __set_m_RightPane))::UnityEngine::UIElements::VisualElement* m_RightPane;
+  __declspec(property(get = __cordl_internal_get_m_RightPane, put = __cordl_internal_set_m_RightPane))::UnityEngine::UIElements::VisualElement* m_RightPane;
 
   /// @brief Field m_FixedPane, offset 0x3c0, size 0x8
-  __declspec(property(get = __get_m_FixedPane, put = __set_m_FixedPane))::UnityEngine::UIElements::VisualElement* m_FixedPane;
+  __declspec(property(get = __cordl_internal_get_m_FixedPane, put = __cordl_internal_set_m_FixedPane))::UnityEngine::UIElements::VisualElement* m_FixedPane;
 
   /// @brief Field m_FlexedPane, offset 0x3c8, size 0x8
-  __declspec(property(get = __get_m_FlexedPane, put = __set_m_FlexedPane))::UnityEngine::UIElements::VisualElement* m_FlexedPane;
+  __declspec(property(get = __cordl_internal_get_m_FlexedPane, put = __cordl_internal_set_m_FlexedPane))::UnityEngine::UIElements::VisualElement* m_FlexedPane;
 
   /// @brief Field m_FixedPaneDimension, offset 0x3d0, size 0x4
-  __declspec(property(get = __get_m_FixedPaneDimension, put = __set_m_FixedPaneDimension)) float_t m_FixedPaneDimension;
+  __declspec(property(get = __cordl_internal_get_m_FixedPaneDimension, put = __cordl_internal_set_m_FixedPaneDimension)) float_t m_FixedPaneDimension;
 
   /// @brief Field m_DragLine, offset 0x3d8, size 0x8
-  __declspec(property(get = __get_m_DragLine, put = __set_m_DragLine))::UnityEngine::UIElements::VisualElement* m_DragLine;
+  __declspec(property(get = __cordl_internal_get_m_DragLine, put = __cordl_internal_set_m_DragLine))::UnityEngine::UIElements::VisualElement* m_DragLine;
 
   /// @brief Field m_DragLineAnchor, offset 0x3e0, size 0x8
-  __declspec(property(get = __get_m_DragLineAnchor, put = __set_m_DragLineAnchor))::UnityEngine::UIElements::VisualElement* m_DragLineAnchor;
+  __declspec(property(get = __cordl_internal_get_m_DragLineAnchor, put = __cordl_internal_set_m_DragLineAnchor))::UnityEngine::UIElements::VisualElement* m_DragLineAnchor;
 
   /// @brief Field m_CollapseMode, offset 0x3e8, size 0x1
-  __declspec(property(get = __get_m_CollapseMode, put = __set_m_CollapseMode)) bool m_CollapseMode;
+  __declspec(property(get = __cordl_internal_get_m_CollapseMode, put = __cordl_internal_set_m_CollapseMode)) bool m_CollapseMode;
 
   /// @brief Field m_Content, offset 0x3f0, size 0x8
-  __declspec(property(get = __get_m_Content, put = __set_m_Content))::UnityEngine::UIElements::VisualElement* m_Content;
+  __declspec(property(get = __cordl_internal_get_m_Content, put = __cordl_internal_set_m_Content))::UnityEngine::UIElements::VisualElement* m_Content;
 
   /// @brief Field m_Orientation, offset 0x3f8, size 0x4
-  __declspec(property(get = __get_m_Orientation, put = __set_m_Orientation))::UnityEngine::UIElements::TwoPaneSplitViewOrientation m_Orientation;
+  __declspec(property(get = __cordl_internal_get_m_Orientation, put = __cordl_internal_set_m_Orientation))::UnityEngine::UIElements::TwoPaneSplitViewOrientation m_Orientation;
 
   /// @brief Field m_FixedPaneIndex, offset 0x3fc, size 0x4
-  __declspec(property(get = __get_m_FixedPaneIndex, put = __set_m_FixedPaneIndex)) int32_t m_FixedPaneIndex;
+  __declspec(property(get = __cordl_internal_get_m_FixedPaneIndex, put = __cordl_internal_set_m_FixedPaneIndex)) int32_t m_FixedPaneIndex;
 
   /// @brief Field m_FixedPaneInitialDimension, offset 0x400, size 0x4
-  __declspec(property(get = __get_m_FixedPaneInitialDimension, put = __set_m_FixedPaneInitialDimension)) float_t m_FixedPaneInitialDimension;
+  __declspec(property(get = __cordl_internal_get_m_FixedPaneInitialDimension, put = __cordl_internal_set_m_FixedPaneInitialDimension)) float_t m_FixedPaneInitialDimension;
 
   /// @brief Field m_Resizer, offset 0x408, size 0x8
-  __declspec(property(get = __get_m_Resizer, put = __set_m_Resizer))::UnityEngine::UIElements::TwoPaneSplitViewResizer* m_Resizer;
+  __declspec(property(get = __cordl_internal_get_m_Resizer, put = __cordl_internal_set_m_Resizer))::UnityEngine::UIElements::TwoPaneSplitViewResizer* m_Resizer;
 
   /// @brief Field s_UssClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_UssClassName, put = setStaticF_s_UssClassName))::StringW s_UssClassName;
@@ -228,83 +230,83 @@ public:
 
   __declspec(property(get = get_contentContainer))::UnityEngine::UIElements::VisualElement* contentContainer;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_LeftPane();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_LeftPane();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_LeftPane() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_LeftPane() const;
 
-  constexpr void __set_m_LeftPane(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_LeftPane(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_RightPane();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_RightPane();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_RightPane() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_RightPane() const;
 
-  constexpr void __set_m_RightPane(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_RightPane(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_FixedPane();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_FixedPane();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_FixedPane() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_FixedPane() const;
 
-  constexpr void __set_m_FixedPane(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_FixedPane(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_FlexedPane();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_FlexedPane();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_FlexedPane() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_FlexedPane() const;
 
-  constexpr void __set_m_FlexedPane(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_FlexedPane(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr float_t& __get_m_FixedPaneDimension();
+  constexpr float_t& __cordl_internal_get_m_FixedPaneDimension();
 
-  constexpr float_t const& __get_m_FixedPaneDimension() const;
+  constexpr float_t const& __cordl_internal_get_m_FixedPaneDimension() const;
 
-  constexpr void __set_m_FixedPaneDimension(float_t value);
+  constexpr void __cordl_internal_set_m_FixedPaneDimension(float_t value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_DragLine();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_DragLine();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_DragLine() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_DragLine() const;
 
-  constexpr void __set_m_DragLine(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_DragLine(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_DragLineAnchor();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_DragLineAnchor();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_DragLineAnchor() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_DragLineAnchor() const;
 
-  constexpr void __set_m_DragLineAnchor(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_DragLineAnchor(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr bool& __get_m_CollapseMode();
+  constexpr bool& __cordl_internal_get_m_CollapseMode();
 
-  constexpr bool const& __get_m_CollapseMode() const;
+  constexpr bool const& __cordl_internal_get_m_CollapseMode() const;
 
-  constexpr void __set_m_CollapseMode(bool value);
+  constexpr void __cordl_internal_set_m_CollapseMode(bool value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_Content();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Content();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_Content() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Content() const;
 
-  constexpr void __set_m_Content(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_Content(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::TwoPaneSplitViewOrientation& __get_m_Orientation();
+  constexpr ::UnityEngine::UIElements::TwoPaneSplitViewOrientation& __cordl_internal_get_m_Orientation();
 
-  constexpr ::UnityEngine::UIElements::TwoPaneSplitViewOrientation const& __get_m_Orientation() const;
+  constexpr ::UnityEngine::UIElements::TwoPaneSplitViewOrientation const& __cordl_internal_get_m_Orientation() const;
 
-  constexpr void __set_m_Orientation(::UnityEngine::UIElements::TwoPaneSplitViewOrientation value);
+  constexpr void __cordl_internal_set_m_Orientation(::UnityEngine::UIElements::TwoPaneSplitViewOrientation value);
 
-  constexpr int32_t& __get_m_FixedPaneIndex();
+  constexpr int32_t& __cordl_internal_get_m_FixedPaneIndex();
 
-  constexpr int32_t const& __get_m_FixedPaneIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_FixedPaneIndex() const;
 
-  constexpr void __set_m_FixedPaneIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_FixedPaneIndex(int32_t value);
 
-  constexpr float_t& __get_m_FixedPaneInitialDimension();
+  constexpr float_t& __cordl_internal_get_m_FixedPaneInitialDimension();
 
-  constexpr float_t const& __get_m_FixedPaneInitialDimension() const;
+  constexpr float_t const& __cordl_internal_get_m_FixedPaneInitialDimension() const;
 
-  constexpr void __set_m_FixedPaneInitialDimension(float_t value);
+  constexpr void __cordl_internal_set_m_FixedPaneInitialDimension(float_t value);
 
-  constexpr ::UnityEngine::UIElements::TwoPaneSplitViewResizer*& __get_m_Resizer();
+  constexpr ::UnityEngine::UIElements::TwoPaneSplitViewResizer*& __cordl_internal_get_m_Resizer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TwoPaneSplitViewResizer*> const& __get_m_Resizer() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TwoPaneSplitViewResizer*> const& __cordl_internal_get_m_Resizer() const;
 
-  constexpr void __set_m_Resizer(::UnityEngine::UIElements::TwoPaneSplitViewResizer* value);
+  constexpr void __cordl_internal_set_m_Resizer(::UnityEngine::UIElements::TwoPaneSplitViewResizer* value);
 
   static inline void setStaticF_s_UssClassName(::StringW value);
 
@@ -482,8 +484,8 @@ static_assert(offsetof(::UnityEngine::UIElements::TwoPaneSplitView, ___m_Resizer
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7138)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5283 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7137)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7136)) CS Name: ::TwoPaneSplitView::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7137)), TypeDefinitionIndex(TypeDefinitionIndex(7138)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5283 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7136)) CS Name: ::TwoPaneSplitView::UxmlFactory*
 class CORDL_TYPE __TwoPaneSplitView__UxmlFactory
     : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TwoPaneSplitView*, ::UnityEngine::UIElements::__TwoPaneSplitView__UxmlTraits*> {
 public:

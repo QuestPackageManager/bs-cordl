@@ -29,29 +29,29 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationInfoEnumerator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3199))
 // CS Name: ::System.Runtime.Serialization::SerializationInfoEnumerator*
 class CORDL_TYPE SerializationInfoEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _members, offset 0x10, size 0x8
-  __declspec(property(get = __get__members, put = __set__members))::ArrayW<::StringW, ::Array<::StringW>*> _members;
+  __declspec(property(get = __cordl_internal_get__members, put = __cordl_internal_set__members))::ArrayW<::StringW, ::Array<::StringW>*> _members;
 
   /// @brief Field _data, offset 0x18, size 0x8
-  __declspec(property(get = __get__data, put = __set__data))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _data;
 
   /// @brief Field _types, offset 0x20, size 0x8
-  __declspec(property(get = __get__types, put = __set__types))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _types;
+  __declspec(property(get = __cordl_internal_get__types, put = __cordl_internal_set__types))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _types;
 
   /// @brief Field _numItems, offset 0x28, size 0x4
-  __declspec(property(get = __get__numItems, put = __set__numItems)) int32_t _numItems;
+  __declspec(property(get = __cordl_internal_get__numItems, put = __cordl_internal_set__numItems)) int32_t _numItems;
 
   /// @brief Field _currItem, offset 0x2c, size 0x4
-  __declspec(property(get = __get__currItem, put = __set__currItem)) int32_t _currItem;
+  __declspec(property(get = __cordl_internal_get__currItem, put = __cordl_internal_set__currItem)) int32_t _currItem;
 
   /// @brief Field _current, offset 0x30, size 0x1
-  __declspec(property(get = __get__current, put = __set__current)) bool _current;
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current)) bool _current;
 
   __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
 
@@ -69,41 +69,41 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__members();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__members();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__members() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__members() const;
 
-  constexpr void __set__members(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__members(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get__data();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__data();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get__data() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__data() const;
 
-  constexpr void __set__data(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set__data(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __get__types();
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get__types();
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __get__types() const;
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get__types() const;
 
-  constexpr void __set__types(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+  constexpr void __cordl_internal_set__types(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  constexpr int32_t& __get__numItems();
+  constexpr int32_t& __cordl_internal_get__numItems();
 
-  constexpr int32_t const& __get__numItems() const;
+  constexpr int32_t const& __cordl_internal_get__numItems() const;
 
-  constexpr void __set__numItems(int32_t value);
+  constexpr void __cordl_internal_set__numItems(int32_t value);
 
-  constexpr int32_t& __get__currItem();
+  constexpr int32_t& __cordl_internal_get__currItem();
 
-  constexpr int32_t const& __get__currItem() const;
+  constexpr int32_t const& __cordl_internal_get__currItem() const;
 
-  constexpr void __set__currItem(int32_t value);
+  constexpr void __cordl_internal_set__currItem(int32_t value);
 
-  constexpr bool& __get__current();
+  constexpr bool& __cordl_internal_get__current();
 
-  constexpr bool const& __get__current() const;
+  constexpr bool const& __cordl_internal_get__current() const;
 
-  constexpr void __set__current(bool value);
+  constexpr void __cordl_internal_set__current(bool value);
 
   static inline ::System::Runtime::Serialization::SerializationInfoEnumerator* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> members, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> info,
                                                                                         ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types, int32_t numItems);

@@ -23,35 +23,35 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::TigerDigest);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(783))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::TigerDigest*
 class CORDL_TYPE TigerDigest : public ::System::Object {
 public:
   // Declarations
   /// @brief Field a, offset 0x10, size 0x8
-  __declspec(property(get = __get_a, put = __set_a)) int64_t a;
+  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a)) int64_t a;
 
   /// @brief Field b, offset 0x18, size 0x8
-  __declspec(property(get = __get_b, put = __set_b)) int64_t b;
+  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) int64_t b;
 
   /// @brief Field c, offset 0x20, size 0x8
-  __declspec(property(get = __get_c, put = __set_c)) int64_t c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c)) int64_t c;
 
   /// @brief Field byteCount, offset 0x28, size 0x8
-  __declspec(property(get = __get_byteCount, put = __set_byteCount)) int64_t byteCount;
+  __declspec(property(get = __cordl_internal_get_byteCount, put = __cordl_internal_set_byteCount)) int64_t byteCount;
 
   /// @brief Field Buffer, offset 0x30, size 0x8
-  __declspec(property(get = __get_Buffer, put = __set_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
+  __declspec(property(get = __cordl_internal_get_Buffer, put = __cordl_internal_set_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
 
   /// @brief Field bOff, offset 0x38, size 0x4
-  __declspec(property(get = __get_bOff, put = __set_bOff)) int32_t bOff;
+  __declspec(property(get = __cordl_internal_get_bOff, put = __cordl_internal_set_bOff)) int32_t bOff;
 
   /// @brief Field x, offset 0x40, size 0x8
-  __declspec(property(get = __get_x, put = __set_x))::ArrayW<int64_t, ::Array<int64_t>*> x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::ArrayW<int64_t, ::Array<int64_t>*> x;
 
   /// @brief Field xOff, offset 0x48, size 0x4
-  __declspec(property(get = __get_xOff, put = __set_xOff)) int32_t xOff;
+  __declspec(property(get = __cordl_internal_get_xOff, put = __cordl_internal_set_xOff)) int32_t xOff;
 
   /// @brief Field t1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_t1, put = setStaticF_t1))::ArrayW<int64_t, ::Array<int64_t>*> t1;
@@ -79,53 +79,53 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr ::Org::BouncyCastle::Utilities::IMemoable* i___Org__BouncyCastle__Utilities__IMemoable() noexcept;
 
-  constexpr int64_t& __get_a();
+  constexpr int64_t& __cordl_internal_get_a();
 
-  constexpr int64_t const& __get_a() const;
+  constexpr int64_t const& __cordl_internal_get_a() const;
 
-  constexpr void __set_a(int64_t value);
+  constexpr void __cordl_internal_set_a(int64_t value);
 
-  constexpr int64_t& __get_b();
+  constexpr int64_t& __cordl_internal_get_b();
 
-  constexpr int64_t const& __get_b() const;
+  constexpr int64_t const& __cordl_internal_get_b() const;
 
-  constexpr void __set_b(int64_t value);
+  constexpr void __cordl_internal_set_b(int64_t value);
 
-  constexpr int64_t& __get_c();
+  constexpr int64_t& __cordl_internal_get_c();
 
-  constexpr int64_t const& __get_c() const;
+  constexpr int64_t const& __cordl_internal_get_c() const;
 
-  constexpr void __set_c(int64_t value);
+  constexpr void __cordl_internal_set_c(int64_t value);
 
-  constexpr int64_t& __get_byteCount();
+  constexpr int64_t& __cordl_internal_get_byteCount();
 
-  constexpr int64_t const& __get_byteCount() const;
+  constexpr int64_t const& __cordl_internal_get_byteCount() const;
 
-  constexpr void __set_byteCount(int64_t value);
+  constexpr void __cordl_internal_set_byteCount(int64_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_Buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_Buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Buffer() const;
 
-  constexpr void __set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_bOff();
+  constexpr int32_t& __cordl_internal_get_bOff();
 
-  constexpr int32_t const& __get_bOff() const;
+  constexpr int32_t const& __cordl_internal_get_bOff() const;
 
-  constexpr void __set_bOff(int32_t value);
+  constexpr void __cordl_internal_set_bOff(int32_t value);
 
-  constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& __get_x();
+  constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& __cordl_internal_get_x();
 
-  constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __get_x() const;
+  constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(::ArrayW<int64_t, ::Array<int64_t>*> value);
+  constexpr void __cordl_internal_set_x(::ArrayW<int64_t, ::Array<int64_t>*> value);
 
-  constexpr int32_t& __get_xOff();
+  constexpr int32_t& __cordl_internal_get_xOff();
 
-  constexpr int32_t const& __get_xOff() const;
+  constexpr int32_t const& __cordl_internal_get_xOff() const;
 
-  constexpr void __set_xOff(int32_t value);
+  constexpr void __cordl_internal_set_xOff(int32_t value);
 
   static inline void setStaticF_t1(::ArrayW<int64_t, ::Array<int64_t>*> value);
 

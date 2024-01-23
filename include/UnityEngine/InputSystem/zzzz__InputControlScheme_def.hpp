@@ -115,7 +115,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::__InputControlScheme__SchemeJson);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6196))
 // CS Name: ::InputControlScheme::MatchResult::Result
 struct CORDL_TYPE __InputControlScheme__MatchResult__Result {
@@ -169,8 +169,8 @@ static_assert(offsetof(::GlobalNamespace::__InputControlScheme__MatchResult__Res
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6226), inst: 3106 }), TypeDefinitionIndex(TypeDefinitionIndex(6226)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6215))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6197)) CS Name: ::InputControlScheme::MatchResult::Match
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(6226)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6226), inst: 3106
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6197)) CS Name: ::InputControlScheme::MatchResult::Match
 struct CORDL_TYPE __InputControlScheme__MatchResult__Match {
 public:
   // Declarations
@@ -239,8 +239,8 @@ static_assert(offsetof(::GlobalNamespace::__InputControlScheme__MatchResult__Mat
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6215)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6226), inst: 3106 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6226))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6198)) CS Name: ::InputControlScheme::MatchResult::Enumerator
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(6226)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6226), inst: 3106
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6198)) CS Name: ::InputControlScheme::MatchResult::Enumerator
 struct CORDL_TYPE __InputControlScheme__MatchResult__Enumerator {
 public:
   // Declarations
@@ -321,9 +321,9 @@ static_assert(offsetof(::GlobalNamespace::__InputControlScheme__MatchResult__Enu
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6226)), TypeDefinitionIndex(TypeDefinitionIndex(6239)), TypeDefinitionIndex(TypeDefinitionIndex(6215)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6226), inst: 3106 }), TypeDefinitionIndex(TypeDefinitionIndex(6196)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6226), inst: 2036 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6199)) CS Name: ::InputControlScheme::MatchResult
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6196)), TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(6226)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6239)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6226), inst: 2036 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6226), inst: 3106 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6199)) CS Name: ::InputControlScheme::MatchResult
 struct CORDL_TYPE __InputControlScheme__MatchResult {
 public:
   // Declarations
@@ -443,7 +443,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControlScheme__MatchRe
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6200))
 // CS Name: ::InputControlScheme::DeviceRequirement::Flags
 struct CORDL_TYPE __InputControlScheme__DeviceRequirement__Flags {
@@ -497,7 +497,7 @@ static_assert(offsetof(::GlobalNamespace::__InputControlScheme__DeviceRequiremen
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6200))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6200))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6201))
 // CS Name: ::InputControlScheme::DeviceRequirement
 struct CORDL_TYPE __InputControlScheme__DeviceRequirement {
@@ -593,7 +593,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControlScheme__DeviceR
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6202))
 // CS Name: ::InputControlScheme::SchemeJson::DeviceJson
 struct CORDL_TYPE __InputControlScheme__SchemeJson__DeviceJson {
@@ -641,7 +641,7 @@ static_assert(offsetof(::GlobalNamespace::__InputControlScheme__SchemeJson__Devi
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6203))
 // CS Name: ::InputControlScheme::SchemeJson
 struct CORDL_TYPE __InputControlScheme__SchemeJson {
@@ -702,7 +702,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControlScheme__SchemeJ
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6204))
 // CS Name: ::UnityEngine.InputSystem::InputControlScheme
 struct CORDL_TYPE InputControlScheme {

@@ -39,17 +39,17 @@ MARK_REF_PTR_T(::Zenject::InstantiateOnPrefabComponentProvider);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11190))
 // CS Name: ::Zenject::InstantiateOnPrefabComponentProvider*
 class CORDL_TYPE InstantiateOnPrefabComponentProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _prefabInstantiator, offset 0x10, size 0x8
-  __declspec(property(get = __get__prefabInstantiator, put = __set__prefabInstantiator))::Zenject::IPrefabInstantiator* _prefabInstantiator;
+  __declspec(property(get = __cordl_internal_get__prefabInstantiator, put = __cordl_internal_set__prefabInstantiator))::Zenject::IPrefabInstantiator* _prefabInstantiator;
 
   /// @brief Field _componentType, offset 0x18, size 0x8
-  __declspec(property(get = __get__componentType, put = __set__componentType))::System::Type* _componentType;
+  __declspec(property(get = __cordl_internal_get__componentType, put = __cordl_internal_set__componentType))::System::Type* _componentType;
 
   __declspec(property(get = get_IsCached)) bool IsCached;
 
@@ -61,17 +61,17 @@ public:
   /// @brief Convert to "::Zenject::IProvider"
   constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  constexpr ::Zenject::IPrefabInstantiator*& __get__prefabInstantiator();
+  constexpr ::Zenject::IPrefabInstantiator*& __cordl_internal_get__prefabInstantiator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabInstantiator*> const& __get__prefabInstantiator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabInstantiator*> const& __cordl_internal_get__prefabInstantiator() const;
 
-  constexpr void __set__prefabInstantiator(::Zenject::IPrefabInstantiator* value);
+  constexpr void __cordl_internal_set__prefabInstantiator(::Zenject::IPrefabInstantiator* value);
 
-  constexpr ::System::Type*& __get__componentType();
+  constexpr ::System::Type*& __cordl_internal_get__componentType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__componentType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__componentType() const;
 
-  constexpr void __set__componentType(::System::Type* value);
+  constexpr void __cordl_internal_set__componentType(::System::Type* value);
 
   static inline ::Zenject::InstantiateOnPrefabComponentProvider* New_ctor(::System::Type* componentType, ::Zenject::IPrefabInstantiator* prefabInstantiator);
 

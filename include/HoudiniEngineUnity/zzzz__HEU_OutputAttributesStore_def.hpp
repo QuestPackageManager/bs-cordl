@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_OutputAttributesStore);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9668))
 // CS Name: ::HoudiniEngineUnity::HEU_OutputAttributesStore*
 class CORDL_TYPE HEU_OutputAttributesStore : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _attributes, offset 0x18, size 0x8
-  __declspec(property(get = __get__attributes, put = __set__attributes))::HoudiniEngineUnity::HEU_OutputAttributeDictionary* _attributes;
+  __declspec(property(get = __cordl_internal_get__attributes, put = __cordl_internal_set__attributes))::HoudiniEngineUnity::HEU_OutputAttributeDictionary* _attributes;
 
-  constexpr ::HoudiniEngineUnity::HEU_OutputAttributeDictionary*& __get__attributes();
+  constexpr ::HoudiniEngineUnity::HEU_OutputAttributeDictionary*& __cordl_internal_get__attributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_OutputAttributeDictionary*> const& __get__attributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_OutputAttributeDictionary*> const& __cordl_internal_get__attributes() const;
 
-  constexpr void __set__attributes(::HoudiniEngineUnity::HEU_OutputAttributeDictionary* value);
+  constexpr void __cordl_internal_set__attributes(::HoudiniEngineUnity::HEU_OutputAttributeDictionary* value);
 
   /// @brief Method SetAttribute, addr 0x2183a28, size 0xfc, virtual false, abstract: false, final false
   inline void SetAttribute(::HoudiniEngineUnity::HEU_OutputAttribute* attribute);

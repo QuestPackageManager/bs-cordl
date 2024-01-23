@@ -42,8 +42,8 @@ MARK_VAL_T(::UnityEngine::UIElements::VisualData);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7293)), TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(6887)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7361)) CS Name: ::UnityEngine.UIElements::VisualData
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6887)), TypeDefinitionIndex(TypeDefinitionIndex(7293)), TypeDefinitionIndex(TypeDefinitionIndex(7313)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7361)) CS Name: ::UnityEngine.UIElements::VisualData
 struct CORDL_TYPE VisualData {
 public:
   // Declarations

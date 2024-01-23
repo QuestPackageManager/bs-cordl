@@ -21,38 +21,38 @@ MARK_REF_PTR_T(::GlobalNamespace::DirectionalLightWithId);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14542))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14523))
 // CS Name: ::DirectionalLightWithId*
 class CORDL_TYPE DirectionalLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
   // Declarations
   /// @brief Field _light, offset 0x30, size 0x8
-  __declspec(property(get = __get__light, put = __set__light))::GlobalNamespace::DirectionalLight* _light;
+  __declspec(property(get = __cordl_internal_get__light, put = __cordl_internal_set__light))::UnityW<::GlobalNamespace::DirectionalLight> _light;
 
   /// @brief Field _intensity, offset 0x38, size 0x4
-  __declspec(property(get = __get__intensity, put = __set__intensity)) float_t _intensity;
+  __declspec(property(get = __cordl_internal_get__intensity, put = __cordl_internal_set__intensity)) float_t _intensity;
 
   /// @brief Field _minIntensity, offset 0x3c, size 0x4
-  __declspec(property(get = __get__minIntensity, put = __set__minIntensity)) float_t _minIntensity;
+  __declspec(property(get = __cordl_internal_get__minIntensity, put = __cordl_internal_set__minIntensity)) float_t _minIntensity;
 
-  constexpr ::GlobalNamespace::DirectionalLight*& __get__light();
+  constexpr ::UnityW<::GlobalNamespace::DirectionalLight>& __cordl_internal_get__light();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DirectionalLight*> const& __get__light() const;
+  constexpr ::UnityW<::GlobalNamespace::DirectionalLight> const& __cordl_internal_get__light() const;
 
-  constexpr void __set__light(::GlobalNamespace::DirectionalLight* value);
+  constexpr void __cordl_internal_set__light(::UnityW<::GlobalNamespace::DirectionalLight> value);
 
-  constexpr float_t& __get__intensity();
+  constexpr float_t& __cordl_internal_get__intensity();
 
-  constexpr float_t const& __get__intensity() const;
+  constexpr float_t const& __cordl_internal_get__intensity() const;
 
-  constexpr void __set__intensity(float_t value);
+  constexpr void __cordl_internal_set__intensity(float_t value);
 
-  constexpr float_t& __get__minIntensity();
+  constexpr float_t& __cordl_internal_get__minIntensity();
 
-  constexpr float_t const& __get__minIntensity() const;
+  constexpr float_t const& __cordl_internal_get__minIntensity() const;
 
-  constexpr void __set__minIntensity(float_t value);
+  constexpr void __cordl_internal_set__minIntensity(float_t value);
 
   /// @brief Method ColorWasSet, addr 0x210f098, size 0x34, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
@@ -77,7 +77,7 @@ protected:
 
 public:
   /// @brief Field _light, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::DirectionalLight* ____light;
+  ::UnityW<::GlobalNamespace::DirectionalLight> ____light;
 
   /// @brief Field _intensity, offset: 0x38, size: 0x4, def value: None
   float_t ____intensity;

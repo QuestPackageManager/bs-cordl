@@ -25,7 +25,7 @@ namespace System::Dynamic::Utils {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14308))
 // CS Name: ::CacheDict`2::Entry<TKey,TValue>*
 class CORDL_TYPE __CacheDict_2__Entry : public ::System::Object {
@@ -55,7 +55,7 @@ namespace System::Dynamic::Utils {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14309))
 // CS Name: ::System.Dynamic.Utils::CacheDict`2<TKey,TValue>*
 class CORDL_TYPE CacheDict_2 : public ::System::Object {
@@ -64,23 +64,25 @@ public:
   using Entry = ::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>;
 
   /// @brief Field _mask, offset 0x10, size 0x4
-  __declspec(property(get = __get__mask, put = __set__mask)) int32_t _mask;
+  __declspec(property(get = __cordl_internal_get__mask, put = __cordl_internal_set__mask)) int32_t _mask;
 
   /// @brief Field _entries, offset 0x18, size 0x8
-  __declspec(property(get = __get__entries,
-                      put = __set__entries))::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*> _entries;
+  __declspec(property(
+      get = __cordl_internal_get__entries,
+      put = __cordl_internal_set__entries))::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*> _entries;
 
-  constexpr int32_t& __get__mask();
+  constexpr int32_t& __cordl_internal_get__mask();
 
-  constexpr int32_t const& __get__mask() const;
+  constexpr int32_t const& __cordl_internal_get__mask() const;
 
-  constexpr void __set__mask(int32_t value);
+  constexpr void __cordl_internal_set__mask(int32_t value);
 
-  constexpr ::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*>& __get__entries();
+  constexpr ::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*>& __cordl_internal_get__entries();
 
-  constexpr ::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*> const& __get__entries() const;
+  constexpr ::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*> const&
+  __cordl_internal_get__entries() const;
 
-  constexpr void __set__entries(::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*> value);
+  constexpr void __cordl_internal_set__entries(::ArrayW<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*, ::Array<::System::Dynamic::Utils::__CacheDict_2__Entry<TKey, TValue>*>*> value);
 
   static inline ::System::Dynamic::Utils::CacheDict_2<TKey, TValue>* New_ctor(int32_t size);
 

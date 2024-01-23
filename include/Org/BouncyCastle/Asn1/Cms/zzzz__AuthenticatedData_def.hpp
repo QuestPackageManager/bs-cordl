@@ -45,38 +45,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::AuthenticatedData);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(58))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::AuthenticatedData*
 class CORDL_TYPE AuthenticatedData : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __get_version, put = __set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
   /// @brief Field originatorInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get_originatorInfo, put = __set_originatorInfo))::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo;
+  __declspec(property(get = __cordl_internal_get_originatorInfo, put = __cordl_internal_set_originatorInfo))::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo;
 
   /// @brief Field recipientInfos, offset 0x20, size 0x8
-  __declspec(property(get = __get_recipientInfos, put = __set_recipientInfos))::Org::BouncyCastle::Asn1::Asn1Set* recipientInfos;
+  __declspec(property(get = __cordl_internal_get_recipientInfos, put = __cordl_internal_set_recipientInfos))::Org::BouncyCastle::Asn1::Asn1Set* recipientInfos;
 
   /// @brief Field macAlgorithm, offset 0x28, size 0x8
-  __declspec(property(get = __get_macAlgorithm, put = __set_macAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithm;
+  __declspec(property(get = __cordl_internal_get_macAlgorithm, put = __cordl_internal_set_macAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithm;
 
   /// @brief Field digestAlgorithm, offset 0x30, size 0x8
-  __declspec(property(get = __get_digestAlgorithm, put = __set_digestAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithm;
+  __declspec(property(get = __cordl_internal_get_digestAlgorithm, put = __cordl_internal_set_digestAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithm;
 
   /// @brief Field encapsulatedContentInfo, offset 0x38, size 0x8
-  __declspec(property(get = __get_encapsulatedContentInfo, put = __set_encapsulatedContentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* encapsulatedContentInfo;
+  __declspec(property(get = __cordl_internal_get_encapsulatedContentInfo, put = __cordl_internal_set_encapsulatedContentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* encapsulatedContentInfo;
 
   /// @brief Field authAttrs, offset 0x40, size 0x8
-  __declspec(property(get = __get_authAttrs, put = __set_authAttrs))::Org::BouncyCastle::Asn1::Asn1Set* authAttrs;
+  __declspec(property(get = __cordl_internal_get_authAttrs, put = __cordl_internal_set_authAttrs))::Org::BouncyCastle::Asn1::Asn1Set* authAttrs;
 
   /// @brief Field mac, offset 0x48, size 0x8
-  __declspec(property(get = __get_mac, put = __set_mac))::Org::BouncyCastle::Asn1::Asn1OctetString* mac;
+  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac))::Org::BouncyCastle::Asn1::Asn1OctetString* mac;
 
   /// @brief Field unauthAttrs, offset 0x50, size 0x8
-  __declspec(property(get = __get_unauthAttrs, put = __set_unauthAttrs))::Org::BouncyCastle::Asn1::Asn1Set* unauthAttrs;
+  __declspec(property(get = __cordl_internal_get_unauthAttrs, put = __cordl_internal_set_unauthAttrs))::Org::BouncyCastle::Asn1::Asn1Set* unauthAttrs;
 
   __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
 
@@ -96,59 +96,59 @@ public:
 
   __declspec(property(get = get_UnauthAttrs))::Org::BouncyCastle::Asn1::Asn1Set* UnauthAttrs;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_version();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_version() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*& __get_originatorInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*& __cordl_internal_get_originatorInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*> const& __get_originatorInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*> const& __cordl_internal_get_originatorInfo() const;
 
-  constexpr void __set_originatorInfo(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* value);
+  constexpr void __cordl_internal_set_originatorInfo(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __get_recipientInfos();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_recipientInfos();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __get_recipientInfos() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_recipientInfos() const;
 
-  constexpr void __set_recipientInfos(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  constexpr void __cordl_internal_set_recipientInfos(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_macAlgorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_macAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_macAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_macAlgorithm() const;
 
-  constexpr void __set_macAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_macAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_digestAlgorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_digestAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_digestAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_digestAlgorithm() const;
 
-  constexpr void __set_digestAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_digestAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __get_encapsulatedContentInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __cordl_internal_get_encapsulatedContentInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __get_encapsulatedContentInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __cordl_internal_get_encapsulatedContentInfo() const;
 
-  constexpr void __set_encapsulatedContentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
+  constexpr void __cordl_internal_set_encapsulatedContentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __get_authAttrs();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_authAttrs();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __get_authAttrs() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_authAttrs() const;
 
-  constexpr void __set_authAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  constexpr void __cordl_internal_set_authAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_mac();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_mac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_mac() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_mac() const;
 
-  constexpr void __set_mac(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_mac(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __get_unauthAttrs();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_unauthAttrs();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __get_unauthAttrs() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_unauthAttrs() const;
 
-  constexpr void __set_unauthAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  constexpr void __cordl_internal_set_unauthAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::AuthenticatedData* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo, ::Org::BouncyCastle::Asn1::Asn1Set* recipientInfos,
                                                                             ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlgorithm,

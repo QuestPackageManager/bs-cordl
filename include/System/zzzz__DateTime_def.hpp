@@ -82,7 +82,7 @@ MARK_VAL_T(::System::DateTime);
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2368))
 // CS Name: ::System::DateTime
 struct CORDL_TYPE DateTime {

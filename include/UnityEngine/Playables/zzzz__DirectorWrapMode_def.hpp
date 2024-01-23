@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::Playables::DirectorWrapMode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10427))
 // CS Name: ::UnityEngine.Playables::DirectorWrapMode
 struct CORDL_TYPE DirectorWrapMode {

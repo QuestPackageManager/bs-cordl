@@ -22,29 +22,29 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryAssem
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3259))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryAssembly*
 class CORDL_TYPE BinaryAssembly : public ::System::Object {
 public:
   // Declarations
   /// @brief Field assemId, offset 0x10, size 0x4
-  __declspec(property(get = __get_assemId, put = __set_assemId)) int32_t assemId;
+  __declspec(property(get = __cordl_internal_get_assemId, put = __cordl_internal_set_assemId)) int32_t assemId;
 
   /// @brief Field assemblyString, offset 0x18, size 0x8
-  __declspec(property(get = __get_assemblyString, put = __set_assemblyString))::StringW assemblyString;
+  __declspec(property(get = __cordl_internal_get_assemblyString, put = __cordl_internal_set_assemblyString))::StringW assemblyString;
 
-  constexpr int32_t& __get_assemId();
+  constexpr int32_t& __cordl_internal_get_assemId();
 
-  constexpr int32_t const& __get_assemId() const;
+  constexpr int32_t const& __cordl_internal_get_assemId() const;
 
-  constexpr void __set_assemId(int32_t value);
+  constexpr void __cordl_internal_set_assemId(int32_t value);
 
-  constexpr ::StringW& __get_assemblyString();
+  constexpr ::StringW& __cordl_internal_get_assemblyString();
 
-  constexpr ::StringW const& __get_assemblyString() const;
+  constexpr ::StringW const& __cordl_internal_get_assemblyString() const;
 
-  constexpr void __set_assemblyString(::StringW value);
+  constexpr void __cordl_internal_set_assemblyString(::StringW value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryAssembly* New_ctor();
 

@@ -49,41 +49,41 @@ MARK_REF_PTR_T(::System::IO::MemoryStream);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3566))
 // CS Name: ::System.IO::MemoryStream*
 class CORDL_TYPE MemoryStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field _buffer, offset 0x28, size 0x8
-  __declspec(property(get = __get__buffer, put = __set__buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
 
   /// @brief Field _origin, offset 0x30, size 0x4
-  __declspec(property(get = __get__origin, put = __set__origin)) int32_t _origin;
+  __declspec(property(get = __cordl_internal_get__origin, put = __cordl_internal_set__origin)) int32_t _origin;
 
   /// @brief Field _position, offset 0x34, size 0x4
-  __declspec(property(get = __get__position, put = __set__position)) int32_t _position;
+  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position)) int32_t _position;
 
   /// @brief Field _length, offset 0x38, size 0x4
-  __declspec(property(get = __get__length, put = __set__length)) int32_t _length;
+  __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) int32_t _length;
 
   /// @brief Field _capacity, offset 0x3c, size 0x4
-  __declspec(property(get = __get__capacity, put = __set__capacity)) int32_t _capacity;
+  __declspec(property(get = __cordl_internal_get__capacity, put = __cordl_internal_set__capacity)) int32_t _capacity;
 
   /// @brief Field _expandable, offset 0x40, size 0x1
-  __declspec(property(get = __get__expandable, put = __set__expandable)) bool _expandable;
+  __declspec(property(get = __cordl_internal_get__expandable, put = __cordl_internal_set__expandable)) bool _expandable;
 
   /// @brief Field _writable, offset 0x41, size 0x1
-  __declspec(property(get = __get__writable, put = __set__writable)) bool _writable;
+  __declspec(property(get = __cordl_internal_get__writable, put = __cordl_internal_set__writable)) bool _writable;
 
   /// @brief Field _exposable, offset 0x42, size 0x1
-  __declspec(property(get = __get__exposable, put = __set__exposable)) bool _exposable;
+  __declspec(property(get = __cordl_internal_get__exposable, put = __cordl_internal_set__exposable)) bool _exposable;
 
   /// @brief Field _isOpen, offset 0x43, size 0x1
-  __declspec(property(get = __get__isOpen, put = __set__isOpen)) bool _isOpen;
+  __declspec(property(get = __cordl_internal_get__isOpen, put = __cordl_internal_set__isOpen)) bool _isOpen;
 
   /// @brief Field _lastReadTask, offset 0x48, size 0x8
-  __declspec(property(get = __get__lastReadTask, put = __set__lastReadTask))::System::Threading::Tasks::Task_1<int32_t>* _lastReadTask;
+  __declspec(property(get = __cordl_internal_get__lastReadTask, put = __cordl_internal_set__lastReadTask))::System::Threading::Tasks::Task_1<int32_t>* _lastReadTask;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -97,65 +97,65 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__buffer() const;
 
-  constexpr void __set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__origin();
+  constexpr int32_t& __cordl_internal_get__origin();
 
-  constexpr int32_t const& __get__origin() const;
+  constexpr int32_t const& __cordl_internal_get__origin() const;
 
-  constexpr void __set__origin(int32_t value);
+  constexpr void __cordl_internal_set__origin(int32_t value);
 
-  constexpr int32_t& __get__position();
+  constexpr int32_t& __cordl_internal_get__position();
 
-  constexpr int32_t const& __get__position() const;
+  constexpr int32_t const& __cordl_internal_get__position() const;
 
-  constexpr void __set__position(int32_t value);
+  constexpr void __cordl_internal_set__position(int32_t value);
 
-  constexpr int32_t& __get__length();
+  constexpr int32_t& __cordl_internal_get__length();
 
-  constexpr int32_t const& __get__length() const;
+  constexpr int32_t const& __cordl_internal_get__length() const;
 
-  constexpr void __set__length(int32_t value);
+  constexpr void __cordl_internal_set__length(int32_t value);
 
-  constexpr int32_t& __get__capacity();
+  constexpr int32_t& __cordl_internal_get__capacity();
 
-  constexpr int32_t const& __get__capacity() const;
+  constexpr int32_t const& __cordl_internal_get__capacity() const;
 
-  constexpr void __set__capacity(int32_t value);
+  constexpr void __cordl_internal_set__capacity(int32_t value);
 
-  constexpr bool& __get__expandable();
+  constexpr bool& __cordl_internal_get__expandable();
 
-  constexpr bool const& __get__expandable() const;
+  constexpr bool const& __cordl_internal_get__expandable() const;
 
-  constexpr void __set__expandable(bool value);
+  constexpr void __cordl_internal_set__expandable(bool value);
 
-  constexpr bool& __get__writable();
+  constexpr bool& __cordl_internal_get__writable();
 
-  constexpr bool const& __get__writable() const;
+  constexpr bool const& __cordl_internal_get__writable() const;
 
-  constexpr void __set__writable(bool value);
+  constexpr void __cordl_internal_set__writable(bool value);
 
-  constexpr bool& __get__exposable();
+  constexpr bool& __cordl_internal_get__exposable();
 
-  constexpr bool const& __get__exposable() const;
+  constexpr bool const& __cordl_internal_get__exposable() const;
 
-  constexpr void __set__exposable(bool value);
+  constexpr void __cordl_internal_set__exposable(bool value);
 
-  constexpr bool& __get__isOpen();
+  constexpr bool& __cordl_internal_get__isOpen();
 
-  constexpr bool const& __get__isOpen() const;
+  constexpr bool const& __cordl_internal_get__isOpen() const;
 
-  constexpr void __set__isOpen(bool value);
+  constexpr void __cordl_internal_set__isOpen(bool value);
 
-  constexpr ::System::Threading::Tasks::Task_1<int32_t>*& __get__lastReadTask();
+  constexpr ::System::Threading::Tasks::Task_1<int32_t>*& __cordl_internal_get__lastReadTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<int32_t>*> const& __get__lastReadTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<int32_t>*> const& __cordl_internal_get__lastReadTask() const;
 
-  constexpr void __set__lastReadTask(::System::Threading::Tasks::Task_1<int32_t>* value);
+  constexpr void __cordl_internal_set__lastReadTask(::System::Threading::Tasks::Task_1<int32_t>* value);
 
   static inline ::System::IO::MemoryStream* New_ctor();
 

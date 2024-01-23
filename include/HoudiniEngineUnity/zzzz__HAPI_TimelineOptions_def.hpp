@@ -15,7 +15,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_TimelineOptions);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9730))
 // CS Name: ::HoudiniEngineUnity::HAPI_TimelineOptions
 struct CORDL_TYPE HAPI_TimelineOptions {

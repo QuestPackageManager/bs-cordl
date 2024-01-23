@@ -59,7 +59,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::__Button___OnFinishSubmit_d__9);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10471))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10471))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13017))
 // CS Name: ::Button::ButtonClickedEvent*
 class CORDL_TYPE __Button__ButtonClickedEvent : public ::UnityEngine::Events::UnityEvent {
@@ -94,26 +94,26 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Button__Butto
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13018))
 // CS Name: ::Button::<OnFinishSubmit>d__9*
 class CORDL_TYPE __Button___OnFinishSubmit_d__9 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::UI::Button* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::UnityEngine::UI::Button> __4__this;
 
   /// @brief Field <fadeTime>5__2, offset 0x28, size 0x4
-  __declspec(property(get = __get__fadeTime_5__2, put = __set__fadeTime_5__2)) float_t _fadeTime_5__2;
+  __declspec(property(get = __cordl_internal_get__fadeTime_5__2, put = __cordl_internal_set__fadeTime_5__2)) float_t _fadeTime_5__2;
 
   /// @brief Field <elapsedTime>5__3, offset 0x2c, size 0x4
-  __declspec(property(get = __get__elapsedTime_5__3, put = __set__elapsedTime_5__3)) float_t _elapsedTime_5__3;
+  __declspec(property(get = __cordl_internal_get__elapsedTime_5__3, put = __cordl_internal_set__elapsedTime_5__3)) float_t _elapsedTime_5__3;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -137,35 +137,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::UnityEngine::UI::Button*& __get___4__this();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get___4__this() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr float_t& __get__fadeTime_5__2();
+  constexpr float_t& __cordl_internal_get__fadeTime_5__2();
 
-  constexpr float_t const& __get__fadeTime_5__2() const;
+  constexpr float_t const& __cordl_internal_get__fadeTime_5__2() const;
 
-  constexpr void __set__fadeTime_5__2(float_t value);
+  constexpr void __cordl_internal_set__fadeTime_5__2(float_t value);
 
-  constexpr float_t& __get__elapsedTime_5__3();
+  constexpr float_t& __cordl_internal_get__elapsedTime_5__3();
 
-  constexpr float_t const& __get__elapsedTime_5__3() const;
+  constexpr float_t const& __cordl_internal_get__elapsedTime_5__3() const;
 
-  constexpr void __set__elapsedTime_5__3(float_t value);
+  constexpr void __cordl_internal_set__elapsedTime_5__3(float_t value);
 
   static inline ::UnityEngine::UI::__Button___OnFinishSubmit_d__9* New_ctor(int32_t __1__state);
 
@@ -208,7 +208,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* _____4__this;
+  ::UnityW<::UnityEngine::UI::Button> _____4__this;
 
   /// @brief Field <fadeTime>5__2, offset: 0x28, size: 0x4, def value: None
   float_t ____fadeTime_5__2;
@@ -236,7 +236,7 @@ static_assert(offsetof(::UnityEngine::UI::__Button___OnFinishSubmit_d__9, ____el
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 256, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13119))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13119))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13019))
 // CS Name: ::UnityEngine.UI::Button*
 class CORDL_TYPE Button : public ::UnityEngine::UI::Selectable {
@@ -247,7 +247,7 @@ public:
   using ButtonClickedEvent = ::UnityEngine::UI::__Button__ButtonClickedEvent;
 
   /// @brief Field m_OnClick, offset 0xf8, size 0x8
-  __declspec(property(get = __get_m_OnClick, put = __set_m_OnClick))::UnityEngine::UI::__Button__ButtonClickedEvent* m_OnClick;
+  __declspec(property(get = __cordl_internal_get_m_OnClick, put = __cordl_internal_set_m_OnClick))::UnityEngine::UI::__Button__ButtonClickedEvent* m_OnClick;
 
   __declspec(property(get = get_onClick, put = set_onClick))::UnityEngine::UI::__Button__ButtonClickedEvent* onClick;
 
@@ -269,11 +269,11 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
   constexpr ::UnityEngine::EventSystems::ISubmitHandler* i___UnityEngine__EventSystems__ISubmitHandler() noexcept;
 
-  constexpr ::UnityEngine::UI::__Button__ButtonClickedEvent*& __get_m_OnClick();
+  constexpr ::UnityEngine::UI::__Button__ButtonClickedEvent*& __cordl_internal_get_m_OnClick();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__Button__ButtonClickedEvent*> const& __get_m_OnClick() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__Button__ButtonClickedEvent*> const& __cordl_internal_get_m_OnClick() const;
 
-  constexpr void __set_m_OnClick(::UnityEngine::UI::__Button__ButtonClickedEvent* value);
+  constexpr void __cordl_internal_set_m_OnClick(::UnityEngine::UI::__Button__ButtonClickedEvent* value);
 
   static inline ::UnityEngine::UI::Button* New_ctor();
 

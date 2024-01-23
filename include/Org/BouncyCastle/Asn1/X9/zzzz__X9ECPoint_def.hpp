@@ -28,42 +28,42 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::X9ECPoint);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(444))
 // CS Name: ::Org.BouncyCastle.Asn1.X9::X9ECPoint*
 class CORDL_TYPE X9ECPoint : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field encoding, offset 0x10, size 0x8
-  __declspec(property(get = __get_encoding, put = __set_encoding))::Org::BouncyCastle::Asn1::Asn1OctetString* encoding;
+  __declspec(property(get = __cordl_internal_get_encoding, put = __cordl_internal_set_encoding))::Org::BouncyCastle::Asn1::Asn1OctetString* encoding;
 
   /// @brief Field c, offset 0x18, size 0x8
-  __declspec(property(get = __get_c, put = __set_c))::Org::BouncyCastle::Math::EC::ECCurve* c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::Org::BouncyCastle::Math::EC::ECCurve* c;
 
   /// @brief Field p, offset 0x20, size 0x8
-  __declspec(property(get = __get_p, put = __set_p))::Org::BouncyCastle::Math::EC::ECPoint* p;
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Org::BouncyCastle::Math::EC::ECPoint* p;
 
   __declspec(property(get = get_Point))::Org::BouncyCastle::Math::EC::ECPoint* Point;
 
   __declspec(property(get = get_IsPointCompressed)) bool IsPointCompressed;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_encoding();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_encoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_encoding() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_encoding() const;
 
-  constexpr void __set_encoding(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_encoding(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __get_c();
+  constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __cordl_internal_get_c();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& __get_c() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& __cordl_internal_get_c() const;
 
-  constexpr void __set_c(::Org::BouncyCastle::Math::EC::ECCurve* value);
+  constexpr void __cordl_internal_set_c(::Org::BouncyCastle::Math::EC::ECCurve* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __get_p();
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_p();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __get_p() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __cordl_internal_get_p() const;
 
-  constexpr void __set_p(::Org::BouncyCastle::Math::EC::ECPoint* value);
+  constexpr void __cordl_internal_set_p(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* p);
 

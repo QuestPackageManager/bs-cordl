@@ -54,8 +54,8 @@ MARK_VAL_T(::UnityEngine::UIElements::LayoutData);
 // SizeInfo { instance_size: 208, native_size: 208, calculated_instance_size: 208, calculated_native_size: 224, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(6898)), TypeDefinitionIndex(TypeDefinitionIndex(6886)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6889)), TypeDefinitionIndex(TypeDefinitionIndex(6891)), TypeDefinitionIndex(TypeDefinitionIndex(6890)), TypeDefinitionIndex(TypeDefinitionIndex(6892))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6886)), TypeDefinitionIndex(TypeDefinitionIndex(6889)), TypeDefinitionIndex(TypeDefinitionIndex(6890)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6891)), TypeDefinitionIndex(TypeDefinitionIndex(6892)), TypeDefinitionIndex(TypeDefinitionIndex(6898)), TypeDefinitionIndex(TypeDefinitionIndex(7313))] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(7357)) CS Name: ::UnityEngine.UIElements::LayoutData
 struct CORDL_TYPE LayoutData {
 public:

@@ -30,71 +30,71 @@ MARK_REF_PTR_T(::UnityEngine::GUILayoutGroup);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14592))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14592))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14622))
 // CS Name: ::UnityEngine::GUILayoutGroup*
 class CORDL_TYPE GUILayoutGroup : public ::UnityEngine::GUILayoutEntry {
 public:
   // Declarations
   /// @brief Field entries, offset 0x48, size 0x8
-  __declspec(property(get = __get_entries, put = __set_entries))::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>* entries;
+  __declspec(property(get = __cordl_internal_get_entries, put = __cordl_internal_set_entries))::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>* entries;
 
   /// @brief Field isVertical, offset 0x50, size 0x1
-  __declspec(property(get = __get_isVertical, put = __set_isVertical)) bool isVertical;
+  __declspec(property(get = __cordl_internal_get_isVertical, put = __cordl_internal_set_isVertical)) bool isVertical;
 
   /// @brief Field resetCoords, offset 0x51, size 0x1
-  __declspec(property(get = __get_resetCoords, put = __set_resetCoords)) bool resetCoords;
+  __declspec(property(get = __cordl_internal_get_resetCoords, put = __cordl_internal_set_resetCoords)) bool resetCoords;
 
   /// @brief Field spacing, offset 0x54, size 0x4
-  __declspec(property(get = __get_spacing, put = __set_spacing)) float_t spacing;
+  __declspec(property(get = __cordl_internal_get_spacing, put = __cordl_internal_set_spacing)) float_t spacing;
 
   /// @brief Field sameSize, offset 0x58, size 0x1
-  __declspec(property(get = __get_sameSize, put = __set_sameSize)) bool sameSize;
+  __declspec(property(get = __cordl_internal_get_sameSize, put = __cordl_internal_set_sameSize)) bool sameSize;
 
   /// @brief Field isWindow, offset 0x59, size 0x1
-  __declspec(property(get = __get_isWindow, put = __set_isWindow)) bool isWindow;
+  __declspec(property(get = __cordl_internal_get_isWindow, put = __cordl_internal_set_isWindow)) bool isWindow;
 
   /// @brief Field windowID, offset 0x5c, size 0x4
-  __declspec(property(get = __get_windowID, put = __set_windowID)) int32_t windowID;
+  __declspec(property(get = __cordl_internal_get_windowID, put = __cordl_internal_set_windowID)) int32_t windowID;
 
   /// @brief Field m_Cursor, offset 0x60, size 0x4
-  __declspec(property(get = __get_m_Cursor, put = __set_m_Cursor)) int32_t m_Cursor;
+  __declspec(property(get = __cordl_internal_get_m_Cursor, put = __cordl_internal_set_m_Cursor)) int32_t m_Cursor;
 
   /// @brief Field m_StretchableCountX, offset 0x64, size 0x4
-  __declspec(property(get = __get_m_StretchableCountX, put = __set_m_StretchableCountX)) int32_t m_StretchableCountX;
+  __declspec(property(get = __cordl_internal_get_m_StretchableCountX, put = __cordl_internal_set_m_StretchableCountX)) int32_t m_StretchableCountX;
 
   /// @brief Field m_StretchableCountY, offset 0x68, size 0x4
-  __declspec(property(get = __get_m_StretchableCountY, put = __set_m_StretchableCountY)) int32_t m_StretchableCountY;
+  __declspec(property(get = __cordl_internal_get_m_StretchableCountY, put = __cordl_internal_set_m_StretchableCountY)) int32_t m_StretchableCountY;
 
   /// @brief Field m_UserSpecifiedWidth, offset 0x6c, size 0x1
-  __declspec(property(get = __get_m_UserSpecifiedWidth, put = __set_m_UserSpecifiedWidth)) bool m_UserSpecifiedWidth;
+  __declspec(property(get = __cordl_internal_get_m_UserSpecifiedWidth, put = __cordl_internal_set_m_UserSpecifiedWidth)) bool m_UserSpecifiedWidth;
 
   /// @brief Field m_UserSpecifiedHeight, offset 0x6d, size 0x1
-  __declspec(property(get = __get_m_UserSpecifiedHeight, put = __set_m_UserSpecifiedHeight)) bool m_UserSpecifiedHeight;
+  __declspec(property(get = __cordl_internal_get_m_UserSpecifiedHeight, put = __cordl_internal_set_m_UserSpecifiedHeight)) bool m_UserSpecifiedHeight;
 
   /// @brief Field m_ChildMinWidth, offset 0x70, size 0x4
-  __declspec(property(get = __get_m_ChildMinWidth, put = __set_m_ChildMinWidth)) float_t m_ChildMinWidth;
+  __declspec(property(get = __cordl_internal_get_m_ChildMinWidth, put = __cordl_internal_set_m_ChildMinWidth)) float_t m_ChildMinWidth;
 
   /// @brief Field m_ChildMaxWidth, offset 0x74, size 0x4
-  __declspec(property(get = __get_m_ChildMaxWidth, put = __set_m_ChildMaxWidth)) float_t m_ChildMaxWidth;
+  __declspec(property(get = __cordl_internal_get_m_ChildMaxWidth, put = __cordl_internal_set_m_ChildMaxWidth)) float_t m_ChildMaxWidth;
 
   /// @brief Field m_ChildMinHeight, offset 0x78, size 0x4
-  __declspec(property(get = __get_m_ChildMinHeight, put = __set_m_ChildMinHeight)) float_t m_ChildMinHeight;
+  __declspec(property(get = __cordl_internal_get_m_ChildMinHeight, put = __cordl_internal_set_m_ChildMinHeight)) float_t m_ChildMinHeight;
 
   /// @brief Field m_ChildMaxHeight, offset 0x7c, size 0x4
-  __declspec(property(get = __get_m_ChildMaxHeight, put = __set_m_ChildMaxHeight)) float_t m_ChildMaxHeight;
+  __declspec(property(get = __cordl_internal_get_m_ChildMaxHeight, put = __cordl_internal_set_m_ChildMaxHeight)) float_t m_ChildMaxHeight;
 
   /// @brief Field m_MarginLeft, offset 0x80, size 0x4
-  __declspec(property(get = __get_m_MarginLeft, put = __set_m_MarginLeft)) int32_t m_MarginLeft;
+  __declspec(property(get = __cordl_internal_get_m_MarginLeft, put = __cordl_internal_set_m_MarginLeft)) int32_t m_MarginLeft;
 
   /// @brief Field m_MarginRight, offset 0x84, size 0x4
-  __declspec(property(get = __get_m_MarginRight, put = __set_m_MarginRight)) int32_t m_MarginRight;
+  __declspec(property(get = __cordl_internal_get_m_MarginRight, put = __cordl_internal_set_m_MarginRight)) int32_t m_MarginRight;
 
   /// @brief Field m_MarginTop, offset 0x88, size 0x4
-  __declspec(property(get = __get_m_MarginTop, put = __set_m_MarginTop)) int32_t m_MarginTop;
+  __declspec(property(get = __cordl_internal_get_m_MarginTop, put = __cordl_internal_set_m_MarginTop)) int32_t m_MarginTop;
 
   /// @brief Field m_MarginBottom, offset 0x8c, size 0x4
-  __declspec(property(get = __get_m_MarginBottom, put = __set_m_MarginBottom)) int32_t m_MarginBottom;
+  __declspec(property(get = __cordl_internal_get_m_MarginBottom, put = __cordl_internal_set_m_MarginBottom)) int32_t m_MarginBottom;
 
   /// @brief Field none, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_none, put = setStaticF_none))::UnityEngine::GUILayoutEntry* none;
@@ -107,125 +107,125 @@ public:
 
   __declspec(property(get = get_marginBottom)) int32_t marginBottom;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>*& __get_entries();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>*& __cordl_internal_get_entries();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>*> const& __get_entries() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>*> const& __cordl_internal_get_entries() const;
 
-  constexpr void __set_entries(::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>* value);
+  constexpr void __cordl_internal_set_entries(::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>* value);
 
-  constexpr bool& __get_isVertical();
+  constexpr bool& __cordl_internal_get_isVertical();
 
-  constexpr bool const& __get_isVertical() const;
+  constexpr bool const& __cordl_internal_get_isVertical() const;
 
-  constexpr void __set_isVertical(bool value);
+  constexpr void __cordl_internal_set_isVertical(bool value);
 
-  constexpr bool& __get_resetCoords();
+  constexpr bool& __cordl_internal_get_resetCoords();
 
-  constexpr bool const& __get_resetCoords() const;
+  constexpr bool const& __cordl_internal_get_resetCoords() const;
 
-  constexpr void __set_resetCoords(bool value);
+  constexpr void __cordl_internal_set_resetCoords(bool value);
 
-  constexpr float_t& __get_spacing();
+  constexpr float_t& __cordl_internal_get_spacing();
 
-  constexpr float_t const& __get_spacing() const;
+  constexpr float_t const& __cordl_internal_get_spacing() const;
 
-  constexpr void __set_spacing(float_t value);
+  constexpr void __cordl_internal_set_spacing(float_t value);
 
-  constexpr bool& __get_sameSize();
+  constexpr bool& __cordl_internal_get_sameSize();
 
-  constexpr bool const& __get_sameSize() const;
+  constexpr bool const& __cordl_internal_get_sameSize() const;
 
-  constexpr void __set_sameSize(bool value);
+  constexpr void __cordl_internal_set_sameSize(bool value);
 
-  constexpr bool& __get_isWindow();
+  constexpr bool& __cordl_internal_get_isWindow();
 
-  constexpr bool const& __get_isWindow() const;
+  constexpr bool const& __cordl_internal_get_isWindow() const;
 
-  constexpr void __set_isWindow(bool value);
+  constexpr void __cordl_internal_set_isWindow(bool value);
 
-  constexpr int32_t& __get_windowID();
+  constexpr int32_t& __cordl_internal_get_windowID();
 
-  constexpr int32_t const& __get_windowID() const;
+  constexpr int32_t const& __cordl_internal_get_windowID() const;
 
-  constexpr void __set_windowID(int32_t value);
+  constexpr void __cordl_internal_set_windowID(int32_t value);
 
-  constexpr int32_t& __get_m_Cursor();
+  constexpr int32_t& __cordl_internal_get_m_Cursor();
 
-  constexpr int32_t const& __get_m_Cursor() const;
+  constexpr int32_t const& __cordl_internal_get_m_Cursor() const;
 
-  constexpr void __set_m_Cursor(int32_t value);
+  constexpr void __cordl_internal_set_m_Cursor(int32_t value);
 
-  constexpr int32_t& __get_m_StretchableCountX();
+  constexpr int32_t& __cordl_internal_get_m_StretchableCountX();
 
-  constexpr int32_t const& __get_m_StretchableCountX() const;
+  constexpr int32_t const& __cordl_internal_get_m_StretchableCountX() const;
 
-  constexpr void __set_m_StretchableCountX(int32_t value);
+  constexpr void __cordl_internal_set_m_StretchableCountX(int32_t value);
 
-  constexpr int32_t& __get_m_StretchableCountY();
+  constexpr int32_t& __cordl_internal_get_m_StretchableCountY();
 
-  constexpr int32_t const& __get_m_StretchableCountY() const;
+  constexpr int32_t const& __cordl_internal_get_m_StretchableCountY() const;
 
-  constexpr void __set_m_StretchableCountY(int32_t value);
+  constexpr void __cordl_internal_set_m_StretchableCountY(int32_t value);
 
-  constexpr bool& __get_m_UserSpecifiedWidth();
+  constexpr bool& __cordl_internal_get_m_UserSpecifiedWidth();
 
-  constexpr bool const& __get_m_UserSpecifiedWidth() const;
+  constexpr bool const& __cordl_internal_get_m_UserSpecifiedWidth() const;
 
-  constexpr void __set_m_UserSpecifiedWidth(bool value);
+  constexpr void __cordl_internal_set_m_UserSpecifiedWidth(bool value);
 
-  constexpr bool& __get_m_UserSpecifiedHeight();
+  constexpr bool& __cordl_internal_get_m_UserSpecifiedHeight();
 
-  constexpr bool const& __get_m_UserSpecifiedHeight() const;
+  constexpr bool const& __cordl_internal_get_m_UserSpecifiedHeight() const;
 
-  constexpr void __set_m_UserSpecifiedHeight(bool value);
+  constexpr void __cordl_internal_set_m_UserSpecifiedHeight(bool value);
 
-  constexpr float_t& __get_m_ChildMinWidth();
+  constexpr float_t& __cordl_internal_get_m_ChildMinWidth();
 
-  constexpr float_t const& __get_m_ChildMinWidth() const;
+  constexpr float_t const& __cordl_internal_get_m_ChildMinWidth() const;
 
-  constexpr void __set_m_ChildMinWidth(float_t value);
+  constexpr void __cordl_internal_set_m_ChildMinWidth(float_t value);
 
-  constexpr float_t& __get_m_ChildMaxWidth();
+  constexpr float_t& __cordl_internal_get_m_ChildMaxWidth();
 
-  constexpr float_t const& __get_m_ChildMaxWidth() const;
+  constexpr float_t const& __cordl_internal_get_m_ChildMaxWidth() const;
 
-  constexpr void __set_m_ChildMaxWidth(float_t value);
+  constexpr void __cordl_internal_set_m_ChildMaxWidth(float_t value);
 
-  constexpr float_t& __get_m_ChildMinHeight();
+  constexpr float_t& __cordl_internal_get_m_ChildMinHeight();
 
-  constexpr float_t const& __get_m_ChildMinHeight() const;
+  constexpr float_t const& __cordl_internal_get_m_ChildMinHeight() const;
 
-  constexpr void __set_m_ChildMinHeight(float_t value);
+  constexpr void __cordl_internal_set_m_ChildMinHeight(float_t value);
 
-  constexpr float_t& __get_m_ChildMaxHeight();
+  constexpr float_t& __cordl_internal_get_m_ChildMaxHeight();
 
-  constexpr float_t const& __get_m_ChildMaxHeight() const;
+  constexpr float_t const& __cordl_internal_get_m_ChildMaxHeight() const;
 
-  constexpr void __set_m_ChildMaxHeight(float_t value);
+  constexpr void __cordl_internal_set_m_ChildMaxHeight(float_t value);
 
-  constexpr int32_t& __get_m_MarginLeft();
+  constexpr int32_t& __cordl_internal_get_m_MarginLeft();
 
-  constexpr int32_t const& __get_m_MarginLeft() const;
+  constexpr int32_t const& __cordl_internal_get_m_MarginLeft() const;
 
-  constexpr void __set_m_MarginLeft(int32_t value);
+  constexpr void __cordl_internal_set_m_MarginLeft(int32_t value);
 
-  constexpr int32_t& __get_m_MarginRight();
+  constexpr int32_t& __cordl_internal_get_m_MarginRight();
 
-  constexpr int32_t const& __get_m_MarginRight() const;
+  constexpr int32_t const& __cordl_internal_get_m_MarginRight() const;
 
-  constexpr void __set_m_MarginRight(int32_t value);
+  constexpr void __cordl_internal_set_m_MarginRight(int32_t value);
 
-  constexpr int32_t& __get_m_MarginTop();
+  constexpr int32_t& __cordl_internal_get_m_MarginTop();
 
-  constexpr int32_t const& __get_m_MarginTop() const;
+  constexpr int32_t const& __cordl_internal_get_m_MarginTop() const;
 
-  constexpr void __set_m_MarginTop(int32_t value);
+  constexpr void __cordl_internal_set_m_MarginTop(int32_t value);
 
-  constexpr int32_t& __get_m_MarginBottom();
+  constexpr int32_t& __cordl_internal_get_m_MarginBottom();
 
-  constexpr int32_t const& __get_m_MarginBottom() const;
+  constexpr int32_t const& __cordl_internal_get_m_MarginBottom() const;
 
-  constexpr void __set_m_MarginBottom(int32_t value);
+  constexpr void __cordl_internal_set_m_MarginBottom(int32_t value);
 
   static inline void setStaticF_none(::UnityEngine::GUILayoutEntry* value);
 

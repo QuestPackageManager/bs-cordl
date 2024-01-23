@@ -17,11 +17,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x2c4e978;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationMixerPlayable*>::get(), "Create", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableGraph>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationMixerPlayable*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableGraph>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -33,9 +33,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2c4e9fc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationMixerPlayable*>::get(),
-                                                                               "get_postPlaybackState", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_postPlaybackState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -47,10 +47,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2c4ea04;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationMixerPlayable*>::get(), "set_postPlaybackState", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationMixerPlayable*>::get(), "set_postPlaybackState", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState>::get() })));
     return ___internal_method;
   }
 };
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x2c4ea0c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationMixerPlayable*>::get(),
@@ -78,7 +78,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c4;
   constexpr static std::size_t addrs = 0x2c4eacc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationMixerPlayable*>::get(),
@@ -94,65 +94,65 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2c4ec90;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationMixerPlayable*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState& UnityEngine::Timeline::ActivationMixerPlayable::__get_m_PostPlaybackState() {
+constexpr ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState& UnityEngine::Timeline::ActivationMixerPlayable::__cordl_internal_get_m_PostPlaybackState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PostPlaybackState;
 }
-constexpr ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState const& UnityEngine::Timeline::ActivationMixerPlayable::__get_m_PostPlaybackState() const {
+constexpr ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState const& UnityEngine::Timeline::ActivationMixerPlayable::__cordl_internal_get_m_PostPlaybackState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PostPlaybackState;
 }
-constexpr void UnityEngine::Timeline::ActivationMixerPlayable::__set_m_PostPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value) {
+constexpr void UnityEngine::Timeline::ActivationMixerPlayable::__cordl_internal_set_m_PostPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_PostPlaybackState = value;
 }
-constexpr bool& UnityEngine::Timeline::ActivationMixerPlayable::__get_m_BoundGameObjectInitialStateIsActive() {
+constexpr bool& UnityEngine::Timeline::ActivationMixerPlayable::__cordl_internal_get_m_BoundGameObjectInitialStateIsActive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BoundGameObjectInitialStateIsActive;
 }
-constexpr bool const& UnityEngine::Timeline::ActivationMixerPlayable::__get_m_BoundGameObjectInitialStateIsActive() const {
+constexpr bool const& UnityEngine::Timeline::ActivationMixerPlayable::__cordl_internal_get_m_BoundGameObjectInitialStateIsActive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BoundGameObjectInitialStateIsActive;
 }
-constexpr void UnityEngine::Timeline::ActivationMixerPlayable::__set_m_BoundGameObjectInitialStateIsActive(bool value) {
+constexpr void UnityEngine::Timeline::ActivationMixerPlayable::__cordl_internal_set_m_BoundGameObjectInitialStateIsActive(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_BoundGameObjectInitialStateIsActive = value;
 }
-constexpr ::UnityEngine::GameObject*& UnityEngine::Timeline::ActivationMixerPlayable::__get_m_BoundGameObject() {
+constexpr ::UnityW<::UnityEngine::GameObject>& UnityEngine::Timeline::ActivationMixerPlayable::__cordl_internal_get_m_BoundGameObject() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BoundGameObject;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& UnityEngine::Timeline::ActivationMixerPlayable::__get_m_BoundGameObject() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& UnityEngine::Timeline::ActivationMixerPlayable::__cordl_internal_get_m_BoundGameObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_BoundGameObject;
 }
-constexpr void UnityEngine::Timeline::ActivationMixerPlayable::__set_m_BoundGameObject(::UnityEngine::GameObject* value) {
+constexpr void UnityEngine::Timeline::ActivationMixerPlayable::__cordl_internal_set_m_BoundGameObject(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_BoundGameObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ActivationMixerPlayable*>
 UnityEngine::Timeline::ActivationMixerPlayable::Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationMixerPlayable*>::get(), "Create", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableGraph>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationMixerPlayable*>::get(), "Create", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableGraph>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ActivationMixerPlayable*>, false>(nullptr, ___internal_method, graph, inputCount);
 }
 inline ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState UnityEngine::Timeline::ActivationMixerPlayable::get_postPlaybackState() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationMixerPlayable*>::get(),
-                                                                             "get_postPlaybackState", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_postPlaybackState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState, false>(this, ___internal_method);
 }
 inline void UnityEngine::Timeline::ActivationMixerPlayable::set_postPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationMixerPlayable*>::get(), "set_postPlaybackState", std::vector<Il2CppClass*>{},
-                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationMixerPlayable*>::get(), "set_postPlaybackState", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void UnityEngine::Timeline::ActivationMixerPlayable::OnPlayableDestroy(::UnityEngine::Playables::Playable playable) {
@@ -166,11 +166,11 @@ inline void UnityEngine::Timeline::ActivationMixerPlayable::ProcessFrame(::Unity
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playable, info, playerData);
 }
 inline ::UnityEngine::Timeline::ActivationMixerPlayable* UnityEngine::Timeline::ActivationMixerPlayable::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::Timeline::ActivationMixerPlayable*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::ActivationMixerPlayable*>());
 }
 inline void UnityEngine::Timeline::ActivationMixerPlayable::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ActivationMixerPlayable*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

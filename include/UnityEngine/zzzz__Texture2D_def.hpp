@@ -59,7 +59,7 @@ MARK_REF_PTR_T(::UnityEngine::Texture2D);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10072))
 // CS Name: ::Texture2D::EXRFlags
 struct CORDL_TYPE __Texture2D__EXRFlags {
@@ -121,7 +121,7 @@ static_assert(offsetof(::UnityEngine::__Texture2D__EXRFlags, value__) == 0x0, "O
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10071))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10071))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10073))
 // CS Name: ::UnityEngine::Texture2D*
 class CORDL_TYPE Texture2D : public ::UnityEngine::Texture {
@@ -167,22 +167,22 @@ public:
   inline void set_ignoreMipmapLimit(bool value);
 
   /// @brief Method get_whiteTexture, addr 0x2cae0c0, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* get_whiteTexture();
+  static inline ::UnityW<::UnityEngine::Texture2D> get_whiteTexture();
 
   /// @brief Method get_blackTexture, addr 0x2cae0e8, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* get_blackTexture();
+  static inline ::UnityW<::UnityEngine::Texture2D> get_blackTexture();
 
   /// @brief Method get_redTexture, addr 0x2cae110, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* get_redTexture();
+  static inline ::UnityW<::UnityEngine::Texture2D> get_redTexture();
 
   /// @brief Method get_grayTexture, addr 0x2cae138, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* get_grayTexture();
+  static inline ::UnityW<::UnityEngine::Texture2D> get_grayTexture();
 
   /// @brief Method get_linearGrayTexture, addr 0x2cae160, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* get_linearGrayTexture();
+  static inline ::UnityW<::UnityEngine::Texture2D> get_linearGrayTexture();
 
   /// @brief Method get_normalTexture, addr 0x2cae188, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* get_normalTexture();
+  static inline ::UnityW<::UnityEngine::Texture2D> get_normalTexture();
 
   /// @brief Method Compress, addr 0x2cae1b0, size 0x44, virtual false, abstract: false, final false
   inline void Compress(bool highQuality);
@@ -387,7 +387,7 @@ public:
   inline void _ctor(int32_t width, int32_t height);
 
   /// @brief Method CreateExternalTexture, addr 0x2cafb60, size 0x124, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* CreateExternalTexture(int32_t width, int32_t height, ::UnityEngine::TextureFormat format, bool mipChain, bool linear, void* nativeTex);
+  static inline ::UnityW<::UnityEngine::Texture2D> CreateExternalTexture(int32_t width, int32_t height, ::UnityEngine::TextureFormat format, bool mipChain, bool linear, void* nativeTex);
 
   /// @brief Method SetPixel, addr 0x2cafc84, size 0x9c, virtual false, abstract: false, final false
   inline void SetPixel(int32_t x, int32_t y, ::UnityEngine::Color color);

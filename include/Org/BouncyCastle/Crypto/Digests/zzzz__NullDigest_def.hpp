@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::NullDigest);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(761))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::NullDigest*
 class CORDL_TYPE NullDigest : public ::System::Object {
 public:
   // Declarations
   /// @brief Field bOut, offset 0x10, size 0x8
-  __declspec(property(get = __get_bOut, put = __set_bOut))::System::IO::MemoryStream* bOut;
+  __declspec(property(get = __cordl_internal_get_bOut, put = __cordl_internal_set_bOut))::System::IO::MemoryStream* bOut;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -40,11 +40,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
 
-  constexpr ::System::IO::MemoryStream*& __get_bOut();
+  constexpr ::System::IO::MemoryStream*& __cordl_internal_get_bOut();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& __get_bOut() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& __cordl_internal_get_bOut() const;
 
-  constexpr void __set_bOut(::System::IO::MemoryStream* value);
+  constexpr void __cordl_internal_set_bOut(::System::IO::MemoryStream* value);
 
   /// @brief Method get_AlgorithmName, addr 0x1229d6c, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();

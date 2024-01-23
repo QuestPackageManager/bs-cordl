@@ -16,7 +16,7 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2433))
 // CS Name: ::System::LazyDebugView`1<T>*
 class CORDL_TYPE LazyDebugView_1 : public ::System::Object {

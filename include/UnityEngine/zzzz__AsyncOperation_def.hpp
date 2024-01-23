@@ -20,17 +20,17 @@ MARK_REF_PTR_T(::UnityEngine::AsyncOperation);
 // SizeInfo { instance_size: 32, native_size: 16, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10191)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(10191))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10201))
 // CS Name: ::UnityEngine::AsyncOperation*
 class CORDL_TYPE AsyncOperation : public ::UnityEngine::YieldInstruction {
 public:
   // Declarations
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Ptr, put = __set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
   /// @brief Field m_completeCallback, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_completeCallback, put = __set_m_completeCallback))::System::Action_1<::UnityEngine::AsyncOperation*>* m_completeCallback;
+  __declspec(property(get = __cordl_internal_get_m_completeCallback, put = __cordl_internal_set_m_completeCallback))::System::Action_1<::UnityEngine::AsyncOperation*>* m_completeCallback;
 
   __declspec(property(get = get_isDone)) bool isDone;
 
@@ -40,17 +40,17 @@ public:
 
   __declspec(property(get = get_allowSceneActivation, put = set_allowSceneActivation)) bool allowSceneActivation;
 
-  constexpr void*& __get_m_Ptr();
+  constexpr void*& __cordl_internal_get_m_Ptr();
 
-  constexpr void* const& __get_m_Ptr() const;
+  constexpr void* const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void __set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  constexpr ::System::Action_1<::UnityEngine::AsyncOperation*>*& __get_m_completeCallback();
+  constexpr ::System::Action_1<::UnityEngine::AsyncOperation*>*& __cordl_internal_get_m_completeCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::AsyncOperation*>*> const& __get_m_completeCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::AsyncOperation*>*> const& __cordl_internal_get_m_completeCallback() const;
 
-  constexpr void __set_m_completeCallback(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
+  constexpr void __cordl_internal_set_m_completeCallback(::System::Action_1<::UnityEngine::AsyncOperation*>* value);
 
   /// @brief Method Finalize, addr 0x2cd0638, size 0xbc, virtual true, abstract: false, final false
   inline void Finalize();

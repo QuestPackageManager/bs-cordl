@@ -16,15 +16,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x248300c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::ControlFlags>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::SecurityIdentifier*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::SecurityIdentifier*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::SystemAcl*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::DiscretionaryAcl*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::ControlFlags>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::SecurityIdentifier*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::SecurityIdentifier*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::SystemAcl*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::DiscretionaryAcl*>::get() })));
     return ___internal_method;
   }
 };
@@ -37,15 +37,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x2483088;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "Init", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::ControlFlags>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::SecurityIdentifier*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::SecurityIdentifier*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::SystemAcl*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::DiscretionaryAcl*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::ControlFlags>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::SecurityIdentifier*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::SecurityIdentifier*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::SystemAcl*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::DiscretionaryAcl*>::get() })));
     return ___internal_method;
   }
 };
@@ -57,10 +57,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2483240;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "get_DiscretionaryAcl",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -72,10 +72,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x104;
   constexpr static std::size_t addrs = 0x248313c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "set_DiscretionaryAcl", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::DiscretionaryAcl*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "set_DiscretionaryAcl", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::DiscretionaryAcl*>::get() })));
     return ___internal_method;
   }
 };
@@ -87,7 +87,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2483378;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(),
@@ -103,10 +103,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2483380;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "get_IsContainer",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -118,10 +118,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2483388;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "get_IsDS",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -133,7 +133,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2483390;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(),
@@ -149,10 +149,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x248310c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "set_SystemAcl", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::SystemAcl*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "set_SystemAcl", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::SystemAcl*>::get() })));
     return ___internal_method;
   }
 };
@@ -164,94 +164,95 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x24832b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "CheckAclConsistency", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::CommonAcl*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "CheckAclConsistency", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::CommonAcl*>::get() })));
     return ___internal_method;
   }
 };
-constexpr bool& System::Security::AccessControl::CommonSecurityDescriptor::__get_is_container() {
+constexpr bool& System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_get_is_container() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_container;
 }
-constexpr bool const& System::Security::AccessControl::CommonSecurityDescriptor::__get_is_container() const {
+constexpr bool const& System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_get_is_container() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_container;
 }
-constexpr void System::Security::AccessControl::CommonSecurityDescriptor::__set_is_container(bool value) {
+constexpr void System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_set_is_container(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___is_container = value;
 }
-constexpr bool& System::Security::AccessControl::CommonSecurityDescriptor::__get_is_ds() {
+constexpr bool& System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_get_is_ds() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_ds;
 }
-constexpr bool const& System::Security::AccessControl::CommonSecurityDescriptor::__get_is_ds() const {
+constexpr bool const& System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_get_is_ds() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___is_ds;
 }
-constexpr void System::Security::AccessControl::CommonSecurityDescriptor::__set_is_ds(bool value) {
+constexpr void System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_set_is_ds(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___is_ds = value;
 }
-constexpr ::System::Security::AccessControl::ControlFlags& System::Security::AccessControl::CommonSecurityDescriptor::__get_flags() {
+constexpr ::System::Security::AccessControl::ControlFlags& System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_get_flags() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flags;
 }
-constexpr ::System::Security::AccessControl::ControlFlags const& System::Security::AccessControl::CommonSecurityDescriptor::__get_flags() const {
+constexpr ::System::Security::AccessControl::ControlFlags const& System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_get_flags() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___flags;
 }
-constexpr void System::Security::AccessControl::CommonSecurityDescriptor::__set_flags(::System::Security::AccessControl::ControlFlags value) {
+constexpr void System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_set_flags(::System::Security::AccessControl::ControlFlags value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___flags = value;
 }
-constexpr ::System::Security::Principal::SecurityIdentifier*& System::Security::AccessControl::CommonSecurityDescriptor::__get_owner() {
+constexpr ::System::Security::Principal::SecurityIdentifier*& System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_get_owner() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owner;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::SecurityIdentifier*> const& System::Security::AccessControl::CommonSecurityDescriptor::__get_owner() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::SecurityIdentifier*> const& System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_get_owner() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___owner;
 }
-constexpr void System::Security::AccessControl::CommonSecurityDescriptor::__set_owner(::System::Security::Principal::SecurityIdentifier* value) {
+constexpr void System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_set_owner(::System::Security::Principal::SecurityIdentifier* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___owner)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Security::Principal::SecurityIdentifier*& System::Security::AccessControl::CommonSecurityDescriptor::__get_group() {
+constexpr ::System::Security::Principal::SecurityIdentifier*& System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_get_group() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___group;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::SecurityIdentifier*> const& System::Security::AccessControl::CommonSecurityDescriptor::__get_group() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::SecurityIdentifier*> const& System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_get_group() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___group;
 }
-constexpr void System::Security::AccessControl::CommonSecurityDescriptor::__set_group(::System::Security::Principal::SecurityIdentifier* value) {
+constexpr void System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_set_group(::System::Security::Principal::SecurityIdentifier* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___group)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Security::AccessControl::SystemAcl*& System::Security::AccessControl::CommonSecurityDescriptor::__get_system_acl() {
+constexpr ::System::Security::AccessControl::SystemAcl*& System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_get_system_acl() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___system_acl;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::SystemAcl*> const& System::Security::AccessControl::CommonSecurityDescriptor::__get_system_acl() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::SystemAcl*> const& System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_get_system_acl() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___system_acl;
 }
-constexpr void System::Security::AccessControl::CommonSecurityDescriptor::__set_system_acl(::System::Security::AccessControl::SystemAcl* value) {
+constexpr void System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_set_system_acl(::System::Security::AccessControl::SystemAcl* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___system_acl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Security::AccessControl::DiscretionaryAcl*& System::Security::AccessControl::CommonSecurityDescriptor::__get_discretionary_acl() {
+constexpr ::System::Security::AccessControl::DiscretionaryAcl*& System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_get_discretionary_acl() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___discretionary_acl;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::DiscretionaryAcl*> const& System::Security::AccessControl::CommonSecurityDescriptor::__get_discretionary_acl() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::DiscretionaryAcl*> const&
+System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_get_discretionary_acl() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___discretionary_acl;
 }
-constexpr void System::Security::AccessControl::CommonSecurityDescriptor::__set_discretionary_acl(::System::Security::AccessControl::DiscretionaryAcl* value) {
+constexpr void System::Security::AccessControl::CommonSecurityDescriptor::__cordl_internal_set_discretionary_acl(::System::Security::AccessControl::DiscretionaryAcl* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___discretionary_acl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -259,20 +260,20 @@ inline ::System::Security::AccessControl::CommonSecurityDescriptor*
 System::Security::AccessControl::CommonSecurityDescriptor::New_ctor(bool isContainer, bool isDS, ::System::Security::AccessControl::ControlFlags flags,
                                                                     ::System::Security::Principal::SecurityIdentifier* owner, ::System::Security::Principal::SecurityIdentifier* group,
                                                                     ::System::Security::AccessControl::SystemAcl* systemAcl, ::System::Security::AccessControl::DiscretionaryAcl* discretionaryAcl) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Security::AccessControl::CommonSecurityDescriptor*>(isContainer, isDS, flags, owner, group, systemAcl, discretionaryAcl));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Security::AccessControl::CommonSecurityDescriptor*>(isContainer, isDS, flags, owner, group, systemAcl, discretionaryAcl));
 }
 inline void System::Security::AccessControl::CommonSecurityDescriptor::_ctor(bool isContainer, bool isDS, ::System::Security::AccessControl::ControlFlags flags,
                                                                              ::System::Security::Principal::SecurityIdentifier* owner, ::System::Security::Principal::SecurityIdentifier* group,
                                                                              ::System::Security::AccessControl::SystemAcl* systemAcl,
                                                                              ::System::Security::AccessControl::DiscretionaryAcl* discretionaryAcl) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::ControlFlags>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::SecurityIdentifier*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::SecurityIdentifier*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::SystemAcl*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::DiscretionaryAcl*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::ControlFlags>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::SecurityIdentifier*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::SecurityIdentifier*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::SystemAcl*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::DiscretionaryAcl*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isContainer, isDS, flags, owner, group, systemAcl, discretionaryAcl);
 }
 inline void System::Security::AccessControl::CommonSecurityDescriptor::Init(bool isContainer, bool isDS, ::System::Security::AccessControl::ControlFlags flags,
@@ -280,25 +281,25 @@ inline void System::Security::AccessControl::CommonSecurityDescriptor::Init(bool
                                                                             ::System::Security::AccessControl::SystemAcl* systemAcl,
                                                                             ::System::Security::AccessControl::DiscretionaryAcl* discretionaryAcl) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "Init", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::ControlFlags>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::SecurityIdentifier*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::SecurityIdentifier*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::SystemAcl*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::DiscretionaryAcl*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::ControlFlags>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::SecurityIdentifier*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::Principal::SecurityIdentifier*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::SystemAcl*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::DiscretionaryAcl*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isContainer, isDS, flags, owner, group, systemAcl, discretionaryAcl);
 }
 inline ::System::Security::AccessControl::DiscretionaryAcl* System::Security::AccessControl::CommonSecurityDescriptor::get_DiscretionaryAcl() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "get_DiscretionaryAcl",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Security::AccessControl::DiscretionaryAcl*, false>(this, ___internal_method);
 }
 inline void System::Security::AccessControl::CommonSecurityDescriptor::set_DiscretionaryAcl(::System::Security::AccessControl::DiscretionaryAcl* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "set_DiscretionaryAcl", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::DiscretionaryAcl*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "set_DiscretionaryAcl", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::DiscretionaryAcl*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void System::Security::AccessControl::CommonSecurityDescriptor::set_Group(::System::Security::Principal::SecurityIdentifier* value) {
@@ -310,13 +311,13 @@ inline void System::Security::AccessControl::CommonSecurityDescriptor::set_Group
 inline bool System::Security::AccessControl::CommonSecurityDescriptor::get_IsContainer() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "get_IsContainer",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline bool System::Security::AccessControl::CommonSecurityDescriptor::get_IsDS() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "get_IsDS",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void System::Security::AccessControl::CommonSecurityDescriptor::set_Owner(::System::Security::Principal::SecurityIdentifier* value) {
@@ -327,14 +328,14 @@ inline void System::Security::AccessControl::CommonSecurityDescriptor::set_Owner
 }
 inline void System::Security::AccessControl::CommonSecurityDescriptor::set_SystemAcl(::System::Security::AccessControl::SystemAcl* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "set_SystemAcl", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::SystemAcl*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "set_SystemAcl", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::SystemAcl*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void System::Security::AccessControl::CommonSecurityDescriptor::CheckAclConsistency(::System::Security::AccessControl::CommonAcl* acl) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "CheckAclConsistency", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::CommonAcl*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonSecurityDescriptor*>::get(), "CheckAclConsistency", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Security::AccessControl::CommonAcl*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, acl);
 }
 // Ctor Parameters []

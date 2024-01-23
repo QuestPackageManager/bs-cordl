@@ -23,29 +23,29 @@ MARK_REF_PTR_T(::GlobalNamespace::BlueNoiseDitheringUpdater);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14494))
 // CS Name: ::BlueNoiseDitheringUpdater*
 class CORDL_TYPE BlueNoiseDitheringUpdater : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _blueNoiseDithering, offset 0x18, size 0x8
-  __declspec(property(get = __get__blueNoiseDithering, put = __set__blueNoiseDithering))::GlobalNamespace::BlueNoiseDithering* _blueNoiseDithering;
+  __declspec(property(get = __cordl_internal_get__blueNoiseDithering, put = __cordl_internal_set__blueNoiseDithering))::UnityW<::GlobalNamespace::BlueNoiseDithering> _blueNoiseDithering;
 
   /// @brief Field _randomValueToShader, offset 0x20, size 0x8
-  __declspec(property(get = __get__randomValueToShader, put = __set__randomValueToShader))::GlobalNamespace::RandomValueToShader* _randomValueToShader;
+  __declspec(property(get = __cordl_internal_get__randomValueToShader, put = __cordl_internal_set__randomValueToShader))::UnityW<::GlobalNamespace::RandomValueToShader> _randomValueToShader;
 
-  constexpr ::GlobalNamespace::BlueNoiseDithering*& __get__blueNoiseDithering();
+  constexpr ::UnityW<::GlobalNamespace::BlueNoiseDithering>& __cordl_internal_get__blueNoiseDithering();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BlueNoiseDithering*> const& __get__blueNoiseDithering() const;
+  constexpr ::UnityW<::GlobalNamespace::BlueNoiseDithering> const& __cordl_internal_get__blueNoiseDithering() const;
 
-  constexpr void __set__blueNoiseDithering(::GlobalNamespace::BlueNoiseDithering* value);
+  constexpr void __cordl_internal_set__blueNoiseDithering(::UnityW<::GlobalNamespace::BlueNoiseDithering> value);
 
-  constexpr ::GlobalNamespace::RandomValueToShader*& __get__randomValueToShader();
+  constexpr ::UnityW<::GlobalNamespace::RandomValueToShader>& __cordl_internal_get__randomValueToShader();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomValueToShader*> const& __get__randomValueToShader() const;
+  constexpr ::UnityW<::GlobalNamespace::RandomValueToShader> const& __cordl_internal_get__randomValueToShader() const;
 
-  constexpr void __set__randomValueToShader(::GlobalNamespace::RandomValueToShader* value);
+  constexpr void __cordl_internal_set__randomValueToShader(::UnityW<::GlobalNamespace::RandomValueToShader> value);
 
   /// @brief Method OnEnable, addr 0x210aed8, size 0x164, virtual false, abstract: false, final false
   inline void OnEnable();
@@ -76,10 +76,10 @@ protected:
 
 public:
   /// @brief Field _blueNoiseDithering, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BlueNoiseDithering* ____blueNoiseDithering;
+  ::UnityW<::GlobalNamespace::BlueNoiseDithering> ____blueNoiseDithering;
 
   /// @brief Field _randomValueToShader, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::RandomValueToShader* ____randomValueToShader;
+  ::UnityW<::GlobalNamespace::RandomValueToShader> ____randomValueToShader;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -30,74 +30,74 @@ MARK_REF_PTR_T(::GlobalNamespace::RoomAdjustSettingsViewController);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5744))
 // CS Name: ::RoomAdjustSettingsViewController*
 class CORDL_TYPE RoomAdjustSettingsViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _roomCenter, offset 0x70, size 0x8
-  __declspec(property(get = __get__roomCenter, put = __set__roomCenter))::GlobalNamespace::Vector3SO* _roomCenter;
+  __declspec(property(get = __cordl_internal_get__roomCenter, put = __cordl_internal_set__roomCenter))::UnityW<::GlobalNamespace::Vector3SO> _roomCenter;
 
   /// @brief Field _roomRotation, offset 0x78, size 0x8
-  __declspec(property(get = __get__roomRotation, put = __set__roomRotation))::GlobalNamespace::FloatSO* _roomRotation;
+  __declspec(property(get = __cordl_internal_get__roomRotation, put = __cordl_internal_set__roomRotation))::UnityW<::GlobalNamespace::FloatSO> _roomRotation;
 
   /// @brief Field _xStepValuePicker, offset 0x80, size 0x8
-  __declspec(property(get = __get__xStepValuePicker, put = __set__xStepValuePicker))::GlobalNamespace::StepValuePicker* _xStepValuePicker;
+  __declspec(property(get = __cordl_internal_get__xStepValuePicker, put = __cordl_internal_set__xStepValuePicker))::UnityW<::GlobalNamespace::StepValuePicker> _xStepValuePicker;
 
   /// @brief Field _yStepValuePicker, offset 0x88, size 0x8
-  __declspec(property(get = __get__yStepValuePicker, put = __set__yStepValuePicker))::GlobalNamespace::StepValuePicker* _yStepValuePicker;
+  __declspec(property(get = __cordl_internal_get__yStepValuePicker, put = __cordl_internal_set__yStepValuePicker))::UnityW<::GlobalNamespace::StepValuePicker> _yStepValuePicker;
 
   /// @brief Field _zStepValuePicker, offset 0x90, size 0x8
-  __declspec(property(get = __get__zStepValuePicker, put = __set__zStepValuePicker))::GlobalNamespace::StepValuePicker* _zStepValuePicker;
+  __declspec(property(get = __cordl_internal_get__zStepValuePicker, put = __cordl_internal_set__zStepValuePicker))::UnityW<::GlobalNamespace::StepValuePicker> _zStepValuePicker;
 
   /// @brief Field _rotStepValuePicker, offset 0x98, size 0x8
-  __declspec(property(get = __get__rotStepValuePicker, put = __set__rotStepValuePicker))::GlobalNamespace::StepValuePicker* _rotStepValuePicker;
+  __declspec(property(get = __cordl_internal_get__rotStepValuePicker, put = __cordl_internal_set__rotStepValuePicker))::UnityW<::GlobalNamespace::StepValuePicker> _rotStepValuePicker;
 
   /// @brief Field _resetButton, offset 0xa0, size 0x8
-  __declspec(property(get = __get__resetButton, put = __set__resetButton))::UnityEngine::UI::Button* _resetButton;
+  __declspec(property(get = __cordl_internal_get__resetButton, put = __cordl_internal_set__resetButton))::UnityW<::UnityEngine::UI::Button> _resetButton;
 
-  constexpr ::GlobalNamespace::Vector3SO*& __get__roomCenter();
+  constexpr ::UnityW<::GlobalNamespace::Vector3SO>& __cordl_internal_get__roomCenter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Vector3SO*> const& __get__roomCenter() const;
+  constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& __cordl_internal_get__roomCenter() const;
 
-  constexpr void __set__roomCenter(::GlobalNamespace::Vector3SO* value);
+  constexpr void __cordl_internal_set__roomCenter(::UnityW<::GlobalNamespace::Vector3SO> value);
 
-  constexpr ::GlobalNamespace::FloatSO*& __get__roomRotation();
+  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__roomRotation();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& __get__roomRotation() const;
+  constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__roomRotation() const;
 
-  constexpr void __set__roomRotation(::GlobalNamespace::FloatSO* value);
+  constexpr void __cordl_internal_set__roomRotation(::UnityW<::GlobalNamespace::FloatSO> value);
 
-  constexpr ::GlobalNamespace::StepValuePicker*& __get__xStepValuePicker();
+  constexpr ::UnityW<::GlobalNamespace::StepValuePicker>& __cordl_internal_get__xStepValuePicker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StepValuePicker*> const& __get__xStepValuePicker() const;
+  constexpr ::UnityW<::GlobalNamespace::StepValuePicker> const& __cordl_internal_get__xStepValuePicker() const;
 
-  constexpr void __set__xStepValuePicker(::GlobalNamespace::StepValuePicker* value);
+  constexpr void __cordl_internal_set__xStepValuePicker(::UnityW<::GlobalNamespace::StepValuePicker> value);
 
-  constexpr ::GlobalNamespace::StepValuePicker*& __get__yStepValuePicker();
+  constexpr ::UnityW<::GlobalNamespace::StepValuePicker>& __cordl_internal_get__yStepValuePicker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StepValuePicker*> const& __get__yStepValuePicker() const;
+  constexpr ::UnityW<::GlobalNamespace::StepValuePicker> const& __cordl_internal_get__yStepValuePicker() const;
 
-  constexpr void __set__yStepValuePicker(::GlobalNamespace::StepValuePicker* value);
+  constexpr void __cordl_internal_set__yStepValuePicker(::UnityW<::GlobalNamespace::StepValuePicker> value);
 
-  constexpr ::GlobalNamespace::StepValuePicker*& __get__zStepValuePicker();
+  constexpr ::UnityW<::GlobalNamespace::StepValuePicker>& __cordl_internal_get__zStepValuePicker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StepValuePicker*> const& __get__zStepValuePicker() const;
+  constexpr ::UnityW<::GlobalNamespace::StepValuePicker> const& __cordl_internal_get__zStepValuePicker() const;
 
-  constexpr void __set__zStepValuePicker(::GlobalNamespace::StepValuePicker* value);
+  constexpr void __cordl_internal_set__zStepValuePicker(::UnityW<::GlobalNamespace::StepValuePicker> value);
 
-  constexpr ::GlobalNamespace::StepValuePicker*& __get__rotStepValuePicker();
+  constexpr ::UnityW<::GlobalNamespace::StepValuePicker>& __cordl_internal_get__rotStepValuePicker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StepValuePicker*> const& __get__rotStepValuePicker() const;
+  constexpr ::UnityW<::GlobalNamespace::StepValuePicker> const& __cordl_internal_get__rotStepValuePicker() const;
 
-  constexpr void __set__rotStepValuePicker(::GlobalNamespace::StepValuePicker* value);
+  constexpr void __cordl_internal_set__rotStepValuePicker(::UnityW<::GlobalNamespace::StepValuePicker> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__resetButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__resetButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__resetButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__resetButton() const;
 
-  constexpr void __set__resetButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__resetButton(::UnityW<::UnityEngine::UI::Button> value);
 
   /// @brief Method DidActivate, addr 0x22d7790, size 0x30c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -161,25 +161,25 @@ protected:
 
 public:
   /// @brief Field _roomCenter, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::Vector3SO* ____roomCenter;
+  ::UnityW<::GlobalNamespace::Vector3SO> ____roomCenter;
 
   /// @brief Field _roomRotation, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::FloatSO* ____roomRotation;
+  ::UnityW<::GlobalNamespace::FloatSO> ____roomRotation;
 
   /// @brief Field _xStepValuePicker, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::StepValuePicker* ____xStepValuePicker;
+  ::UnityW<::GlobalNamespace::StepValuePicker> ____xStepValuePicker;
 
   /// @brief Field _yStepValuePicker, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::StepValuePicker* ____yStepValuePicker;
+  ::UnityW<::GlobalNamespace::StepValuePicker> ____yStepValuePicker;
 
   /// @brief Field _zStepValuePicker, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::StepValuePicker* ____zStepValuePicker;
+  ::UnityW<::GlobalNamespace::StepValuePicker> ____zStepValuePicker;
 
   /// @brief Field _rotStepValuePicker, offset: 0x98, size: 0x8, def value: None
-  ::GlobalNamespace::StepValuePicker* ____rotStepValuePicker;
+  ::UnityW<::GlobalNamespace::StepValuePicker> ____rotStepValuePicker;
 
   /// @brief Field _resetButton, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____resetButton;
+  ::UnityW<::UnityEngine::UI::Button> ____resetButton;
 
   /// @brief Field kHorizontalMoveStep offset 0xffffffff size 0x4
   static constexpr float_t kHorizontalMoveStep{ 0.1 };

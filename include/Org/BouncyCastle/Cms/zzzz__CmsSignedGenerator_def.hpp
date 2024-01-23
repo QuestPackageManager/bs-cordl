@@ -53,32 +53,32 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsSignedGenerator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(649))
 // CS Name: ::Org.BouncyCastle.Cms::CmsSignedGenerator*
 class CORDL_TYPE CmsSignedGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _certs, offset 0x10, size 0x8
-  __declspec(property(get = __get__certs, put = __set__certs))::System::Collections::IList* _certs;
+  __declspec(property(get = __cordl_internal_get__certs, put = __cordl_internal_set__certs))::System::Collections::IList* _certs;
 
   /// @brief Field _crls, offset 0x18, size 0x8
-  __declspec(property(get = __get__crls, put = __set__crls))::System::Collections::IList* _crls;
+  __declspec(property(get = __cordl_internal_get__crls, put = __cordl_internal_set__crls))::System::Collections::IList* _crls;
 
   /// @brief Field _signers, offset 0x20, size 0x8
-  __declspec(property(get = __get__signers, put = __set__signers))::System::Collections::IList* _signers;
+  __declspec(property(get = __cordl_internal_get__signers, put = __cordl_internal_set__signers))::System::Collections::IList* _signers;
 
   /// @brief Field _digests, offset 0x28, size 0x8
-  __declspec(property(get = __get__digests, put = __set__digests))::System::Collections::IDictionary* _digests;
+  __declspec(property(get = __cordl_internal_get__digests, put = __cordl_internal_set__digests))::System::Collections::IDictionary* _digests;
 
   /// @brief Field _useDerForCerts, offset 0x30, size 0x1
-  __declspec(property(get = __get__useDerForCerts, put = __set__useDerForCerts)) bool _useDerForCerts;
+  __declspec(property(get = __cordl_internal_get__useDerForCerts, put = __cordl_internal_set__useDerForCerts)) bool _useDerForCerts;
 
   /// @brief Field _useDerForCrls, offset 0x31, size 0x1
-  __declspec(property(get = __get__useDerForCrls, put = __set__useDerForCrls)) bool _useDerForCrls;
+  __declspec(property(get = __cordl_internal_get__useDerForCrls, put = __cordl_internal_set__useDerForCrls)) bool _useDerForCrls;
 
   /// @brief Field rand, offset 0x38, size 0x8
-  __declspec(property(get = __get_rand, put = __set_rand))::Org::BouncyCastle::Security::SecureRandom* rand;
+  __declspec(property(get = __cordl_internal_get_rand, put = __cordl_internal_set_rand))::Org::BouncyCastle::Security::SecureRandom* rand;
 
   /// @brief Field Data, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Data, put = setStaticF_Data))::StringW Data;
@@ -135,47 +135,47 @@ public:
 
   __declspec(property(get = get_UseDerForCrls, put = set_UseDerForCrls)) bool UseDerForCrls;
 
-  constexpr ::System::Collections::IList*& __get__certs();
+  constexpr ::System::Collections::IList*& __cordl_internal_get__certs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get__certs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__certs() const;
 
-  constexpr void __set__certs(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set__certs(::System::Collections::IList* value);
 
-  constexpr ::System::Collections::IList*& __get__crls();
+  constexpr ::System::Collections::IList*& __cordl_internal_get__crls();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get__crls() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__crls() const;
 
-  constexpr void __set__crls(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set__crls(::System::Collections::IList* value);
 
-  constexpr ::System::Collections::IList*& __get__signers();
+  constexpr ::System::Collections::IList*& __cordl_internal_get__signers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get__signers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__signers() const;
 
-  constexpr void __set__signers(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set__signers(::System::Collections::IList* value);
 
-  constexpr ::System::Collections::IDictionary*& __get__digests();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get__digests();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get__digests() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get__digests() const;
 
-  constexpr void __set__digests(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set__digests(::System::Collections::IDictionary* value);
 
-  constexpr bool& __get__useDerForCerts();
+  constexpr bool& __cordl_internal_get__useDerForCerts();
 
-  constexpr bool const& __get__useDerForCerts() const;
+  constexpr bool const& __cordl_internal_get__useDerForCerts() const;
 
-  constexpr void __set__useDerForCerts(bool value);
+  constexpr void __cordl_internal_set__useDerForCerts(bool value);
 
-  constexpr bool& __get__useDerForCrls();
+  constexpr bool& __cordl_internal_get__useDerForCrls();
 
-  constexpr bool const& __get__useDerForCrls() const;
+  constexpr bool const& __cordl_internal_get__useDerForCrls() const;
 
-  constexpr void __set__useDerForCrls(bool value);
+  constexpr void __cordl_internal_set__useDerForCrls(bool value);
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_rand();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_rand();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_rand() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_rand() const;
 
-  constexpr void __set_rand(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_rand(::Org::BouncyCastle::Security::SecureRandom* value);
 
   static inline void setStaticF_Data(::StringW value);
 

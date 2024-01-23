@@ -37,38 +37,38 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionSelectionNavigationController____c__D
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5706))
 // CS Name: ::MissionSelectionNavigationController::<>c__DisplayClass11_0*
 class CORDL_TYPE __MissionSelectionNavigationController____c__DisplayClass11_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MissionSelectionNavigationController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MissionSelectionNavigationController> __4__this;
 
   /// @brief Field finishedCallback, offset 0x18, size 0x8
-  __declspec(property(get = __get_finishedCallback, put = __set_finishedCallback))::System::Action_1<bool>* finishedCallback;
+  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback))::System::Action_1<bool>* finishedCallback;
 
   /// @brief Field <>9__1, offset 0x20, size 0x8
-  __declspec(property(get = __get___9__1, put = __set___9__1))::System::Action* __9__1;
+  __declspec(property(get = __cordl_internal_get___9__1, put = __cordl_internal_set___9__1))::System::Action* __9__1;
 
-  constexpr ::GlobalNamespace::MissionSelectionNavigationController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MissionSelectionNavigationController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionSelectionNavigationController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionSelectionNavigationController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MissionSelectionNavigationController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MissionSelectionNavigationController> value);
 
-  constexpr ::System::Action_1<bool>*& __get_finishedCallback();
+  constexpr ::System::Action_1<bool>*& __cordl_internal_get_finishedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __get_finishedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_finishedCallback() const;
 
-  constexpr void __set_finishedCallback(::System::Action_1<bool>* value);
+  constexpr void __cordl_internal_set_finishedCallback(::System::Action_1<bool>* value);
 
-  constexpr ::System::Action*& __get___9__1();
+  constexpr ::System::Action*& __cordl_internal_get___9__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get___9__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get___9__1() const;
 
-  constexpr void __set___9__1(::System::Action* value);
+  constexpr void __cordl_internal_set___9__1(::System::Action* value);
 
   static inline ::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0* New_ctor();
 
@@ -96,7 +96,7 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::MissionSelectionNavigationController* _____4__this;
+  ::UnityW<::GlobalNamespace::MissionSelectionNavigationController> _____4__this;
 
   /// @brief Field finishedCallback, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<bool>* ___finishedCallback;
@@ -120,7 +120,7 @@ static_assert(offsetof(::GlobalNamespace::__MissionSelectionNavigationController
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13588))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13588))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5707))
 // CS Name: ::MissionSelectionNavigationController*
 class CORDL_TYPE MissionSelectionNavigationController : public ::HMUI::NavigationController {
@@ -129,44 +129,45 @@ public:
   using __c__DisplayClass11_0 = ::GlobalNamespace::__MissionSelectionNavigationController____c__DisplayClass11_0;
 
   /// @brief Field _missionSelectionMapViewController, offset 0x98, size 0x8
-  __declspec(property(get = __get__missionSelectionMapViewController,
-                      put = __set__missionSelectionMapViewController))::GlobalNamespace::MissionSelectionMapViewController* _missionSelectionMapViewController;
+  __declspec(property(get = __cordl_internal_get__missionSelectionMapViewController,
+                      put = __cordl_internal_set__missionSelectionMapViewController))::UnityW<::GlobalNamespace::MissionSelectionMapViewController> _missionSelectionMapViewController;
 
   /// @brief Field _missionLevelDetailViewController, offset 0xa0, size 0x8
-  __declspec(property(get = __get__missionLevelDetailViewController,
-                      put = __set__missionLevelDetailViewController))::GlobalNamespace::MissionLevelDetailViewController* _missionLevelDetailViewController;
+  __declspec(property(get = __cordl_internal_get__missionLevelDetailViewController,
+                      put = __cordl_internal_set__missionLevelDetailViewController))::UnityW<::GlobalNamespace::MissionLevelDetailViewController> _missionLevelDetailViewController;
 
   /// @brief Field didPressPlayButtonEvent, offset 0xa8, size 0x8
-  __declspec(property(get = __get_didPressPlayButtonEvent, put = __set_didPressPlayButtonEvent))::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* didPressPlayButtonEvent;
+  __declspec(property(get = __cordl_internal_get_didPressPlayButtonEvent,
+                      put = __cordl_internal_set_didPressPlayButtonEvent))::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* didPressPlayButtonEvent;
 
-  __declspec(property(get = get_selectedMissionNode))::GlobalNamespace::MissionNode* selectedMissionNode;
+  __declspec(property(get = get_selectedMissionNode))::UnityW<::GlobalNamespace::MissionNode> selectedMissionNode;
 
-  constexpr ::GlobalNamespace::MissionSelectionMapViewController*& __get__missionSelectionMapViewController();
+  constexpr ::UnityW<::GlobalNamespace::MissionSelectionMapViewController>& __cordl_internal_get__missionSelectionMapViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionSelectionMapViewController*> const& __get__missionSelectionMapViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionSelectionMapViewController> const& __cordl_internal_get__missionSelectionMapViewController() const;
 
-  constexpr void __set__missionSelectionMapViewController(::GlobalNamespace::MissionSelectionMapViewController* value);
+  constexpr void __cordl_internal_set__missionSelectionMapViewController(::UnityW<::GlobalNamespace::MissionSelectionMapViewController> value);
 
-  constexpr ::GlobalNamespace::MissionLevelDetailViewController*& __get__missionLevelDetailViewController();
+  constexpr ::UnityW<::GlobalNamespace::MissionLevelDetailViewController>& __cordl_internal_get__missionLevelDetailViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionLevelDetailViewController*> const& __get__missionLevelDetailViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionLevelDetailViewController> const& __cordl_internal_get__missionLevelDetailViewController() const;
 
-  constexpr void __set__missionLevelDetailViewController(::GlobalNamespace::MissionLevelDetailViewController* value);
+  constexpr void __cordl_internal_set__missionLevelDetailViewController(::UnityW<::GlobalNamespace::MissionLevelDetailViewController> value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>*& __get_didPressPlayButtonEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>*& __cordl_internal_get_didPressPlayButtonEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>*> const& __get_didPressPlayButtonEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>*> const& __cordl_internal_get_didPressPlayButtonEvent() const;
 
-  constexpr void __set_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* value);
+  constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
 
   /// @brief Method add_didPressPlayButtonEvent, addr 0x22cbcbc, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* value);
+  inline void add_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
 
   /// @brief Method remove_didPressPlayButtonEvent, addr 0x22cbd6c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didPressPlayButtonEvent(::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* value);
+  inline void remove_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
 
   /// @brief Method get_selectedMissionNode, addr 0x22cbe1c, size 0x1c, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MissionNode* get_selectedMissionNode();
+  inline ::UnityW<::GlobalNamespace::MissionNode> get_selectedMissionNode();
 
   /// @brief Method DidActivate, addr 0x22cbe38, size 0x174, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -203,13 +204,13 @@ protected:
 
 public:
   /// @brief Field _missionSelectionMapViewController, offset: 0x98, size: 0x8, def value: None
-  ::GlobalNamespace::MissionSelectionMapViewController* ____missionSelectionMapViewController;
+  ::UnityW<::GlobalNamespace::MissionSelectionMapViewController> ____missionSelectionMapViewController;
 
   /// @brief Field _missionLevelDetailViewController, offset: 0xa0, size: 0x8, def value: None
-  ::GlobalNamespace::MissionLevelDetailViewController* ____missionLevelDetailViewController;
+  ::UnityW<::GlobalNamespace::MissionLevelDetailViewController> ____missionLevelDetailViewController;
 
   /// @brief Field didPressPlayButtonEvent, offset: 0xa8, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MissionSelectionNavigationController*>* ___didPressPlayButtonEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* ___didPressPlayButtonEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

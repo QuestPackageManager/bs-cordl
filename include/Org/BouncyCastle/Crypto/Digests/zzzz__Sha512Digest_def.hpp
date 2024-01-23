@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::Sha512Digest);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(756))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(756))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(771))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::Sha512Digest*
 class CORDL_TYPE Sha512Digest : public ::Org::BouncyCastle::Crypto::Digests::LongDigest {

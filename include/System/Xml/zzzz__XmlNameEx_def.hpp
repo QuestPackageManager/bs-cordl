@@ -43,23 +43,23 @@ MARK_REF_PTR_T(::System::Xml::XmlNameEx);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11515))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11515))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11516))
 // CS Name: ::System.Xml::XmlNameEx*
 class CORDL_TYPE XmlNameEx : public ::System::Xml::XmlName {
 public:
   // Declarations
   /// @brief Field flags, offset 0x48, size 0x1
-  __declspec(property(get = __get_flags, put = __set_flags)) uint8_t flags;
+  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags)) uint8_t flags;
 
   /// @brief Field memberType, offset 0x50, size 0x8
-  __declspec(property(get = __get_memberType, put = __set_memberType))::System::Xml::Schema::XmlSchemaSimpleType* memberType;
+  __declspec(property(get = __cordl_internal_get_memberType, put = __cordl_internal_set_memberType))::System::Xml::Schema::XmlSchemaSimpleType* memberType;
 
   /// @brief Field schemaType, offset 0x58, size 0x8
-  __declspec(property(get = __get_schemaType, put = __set_schemaType))::System::Xml::Schema::XmlSchemaType* schemaType;
+  __declspec(property(get = __cordl_internal_get_schemaType, put = __cordl_internal_set_schemaType))::System::Xml::Schema::XmlSchemaType* schemaType;
 
   /// @brief Field decl, offset 0x60, size 0x8
-  __declspec(property(get = __get_decl, put = __set_decl))::System::Object* decl;
+  __declspec(property(get = __cordl_internal_get_decl, put = __cordl_internal_set_decl))::System::Object* decl;
 
   __declspec(property(get = get_Validity))::System::Xml::Schema::XmlSchemaValidity Validity;
 
@@ -75,29 +75,29 @@ public:
 
   __declspec(property(get = get_SchemaAttribute))::System::Xml::Schema::XmlSchemaAttribute* SchemaAttribute;
 
-  constexpr uint8_t& __get_flags();
+  constexpr uint8_t& __cordl_internal_get_flags();
 
-  constexpr uint8_t const& __get_flags() const;
+  constexpr uint8_t const& __cordl_internal_get_flags() const;
 
-  constexpr void __set_flags(uint8_t value);
+  constexpr void __cordl_internal_set_flags(uint8_t value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& __get_memberType();
+  constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& __cordl_internal_get_memberType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& __get_memberType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& __cordl_internal_get_memberType() const;
 
-  constexpr void __set_memberType(::System::Xml::Schema::XmlSchemaSimpleType* value);
+  constexpr void __cordl_internal_set_memberType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaType*& __get_schemaType();
+  constexpr ::System::Xml::Schema::XmlSchemaType*& __cordl_internal_get_schemaType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __get_schemaType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __cordl_internal_get_schemaType() const;
 
-  constexpr void __set_schemaType(::System::Xml::Schema::XmlSchemaType* value);
+  constexpr void __cordl_internal_set_schemaType(::System::Xml::Schema::XmlSchemaType* value);
 
-  constexpr ::System::Object*& __get_decl();
+  constexpr ::System::Object*& __cordl_internal_get_decl();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_decl() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_decl() const;
 
-  constexpr void __set_decl(::System::Object* value);
+  constexpr void __cordl_internal_set_decl(::System::Object* value);
 
   static inline ::System::Xml::XmlNameEx* New_ctor(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, ::System::Xml::XmlDocument* ownerDoc, ::System::Xml::XmlName* next,
                                                    ::System::Xml::Schema::IXmlSchemaInfo* schemaInfo);

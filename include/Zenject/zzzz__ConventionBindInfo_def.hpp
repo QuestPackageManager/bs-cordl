@@ -53,20 +53,20 @@ MARK_REF_PTR_T(::Zenject::__ConventionBindInfo____c__DisplayClass7_0);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10685))
 // CS Name: ::ConventionBindInfo::<>c__DisplayClass6_0*
 class CORDL_TYPE __ConventionBindInfo____c__DisplayClass6_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field assembly, offset 0x10, size 0x8
-  __declspec(property(get = __get_assembly, put = __set_assembly))::System::Reflection::Assembly* assembly;
+  __declspec(property(get = __cordl_internal_get_assembly, put = __cordl_internal_set_assembly))::System::Reflection::Assembly* assembly;
 
-  constexpr ::System::Reflection::Assembly*& __get_assembly();
+  constexpr ::System::Reflection::Assembly*& __cordl_internal_get_assembly();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __get_assembly() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __cordl_internal_get_assembly() const;
 
-  constexpr void __set_assembly(::System::Reflection::Assembly* value);
+  constexpr void __cordl_internal_set_assembly(::System::Reflection::Assembly* value);
 
   static inline ::Zenject::__ConventionBindInfo____c__DisplayClass6_0* New_ctor();
 
@@ -111,20 +111,20 @@ static_assert(offsetof(::Zenject::__ConventionBindInfo____c__DisplayClass6_0, __
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10686))
 // CS Name: ::ConventionBindInfo::<>c__DisplayClass7_0*
 class CORDL_TYPE __ConventionBindInfo____c__DisplayClass7_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
-  constexpr ::System::Type*& __get_type();
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Type* value);
+  constexpr void __cordl_internal_set_type(::System::Type* value);
 
   static inline ::Zenject::__ConventionBindInfo____c__DisplayClass7_0* New_ctor();
 
@@ -169,7 +169,7 @@ static_assert(offsetof(::Zenject::__ConventionBindInfo____c__DisplayClass7_0, __
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10687))
 // CS Name: ::Zenject::ConventionBindInfo*
 class CORDL_TYPE ConventionBindInfo : public ::System::Object {
@@ -180,27 +180,28 @@ public:
   using __c__DisplayClass6_0 = ::Zenject::__ConventionBindInfo____c__DisplayClass6_0;
 
   /// @brief Field _typeFilters, offset 0x10, size 0x8
-  __declspec(property(get = __get__typeFilters, put = __set__typeFilters))::System::Collections::Generic::List_1<::System::Func_2<::System::Type*, bool>*>* _typeFilters;
+  __declspec(property(get = __cordl_internal_get__typeFilters, put = __cordl_internal_set__typeFilters))::System::Collections::Generic::List_1<::System::Func_2<::System::Type*, bool>*>* _typeFilters;
 
   /// @brief Field _assemblyFilters, offset 0x18, size 0x8
-  __declspec(property(get = __get__assemblyFilters, put = __set__assemblyFilters))::System::Collections::Generic::List_1<::System::Func_2<::System::Reflection::Assembly*, bool>*>* _assemblyFilters;
+  __declspec(property(get = __cordl_internal_get__assemblyFilters,
+                      put = __cordl_internal_set__assemblyFilters))::System::Collections::Generic::List_1<::System::Func_2<::System::Reflection::Assembly*, bool>*>* _assemblyFilters;
 
   /// @brief Field _assemblyTypeCache, offset 0xffffffff, size 0x8
   static __declspec(property(
       get = getStaticF__assemblyTypeCache,
       put = setStaticF__assemblyTypeCache))::System::Collections::Generic::Dictionary_2<::System::Reflection::Assembly*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>>* _assemblyTypeCache;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Func_2<::System::Type*, bool>*>*& __get__typeFilters();
+  constexpr ::System::Collections::Generic::List_1<::System::Func_2<::System::Type*, bool>*>*& __cordl_internal_get__typeFilters();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Func_2<::System::Type*, bool>*>*> const& __get__typeFilters() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Func_2<::System::Type*, bool>*>*> const& __cordl_internal_get__typeFilters() const;
 
-  constexpr void __set__typeFilters(::System::Collections::Generic::List_1<::System::Func_2<::System::Type*, bool>*>* value);
+  constexpr void __cordl_internal_set__typeFilters(::System::Collections::Generic::List_1<::System::Func_2<::System::Type*, bool>*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Func_2<::System::Reflection::Assembly*, bool>*>*& __get__assemblyFilters();
+  constexpr ::System::Collections::Generic::List_1<::System::Func_2<::System::Reflection::Assembly*, bool>*>*& __cordl_internal_get__assemblyFilters();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Func_2<::System::Reflection::Assembly*, bool>*>*> const& __get__assemblyFilters() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Func_2<::System::Reflection::Assembly*, bool>*>*> const& __cordl_internal_get__assemblyFilters() const;
 
-  constexpr void __set__assemblyFilters(::System::Collections::Generic::List_1<::System::Func_2<::System::Reflection::Assembly*, bool>*>* value);
+  constexpr void __cordl_internal_set__assemblyFilters(::System::Collections::Generic::List_1<::System::Func_2<::System::Reflection::Assembly*, bool>*>* value);
 
   static inline void setStaticF__assemblyTypeCache(::System::Collections::Generic::Dictionary_2<::System::Reflection::Assembly*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>>* value);
 

@@ -10,8 +10,8 @@ template <typename T> inline T Microsoft::Win32::SafeHandles::SafeHandleCache_1<
 }
 template <typename T> inline bool Microsoft::Win32::SafeHandles::SafeHandleCache_1<T>::IsCachedInvalidHandle(::System::Runtime::InteropServices::SafeHandle* handle) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Microsoft::Win32::SafeHandles::SafeHandleCache_1<T>*>::get(), "IsCachedInvalidHandle", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::InteropServices::SafeHandle*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Microsoft::Win32::SafeHandles::SafeHandleCache_1<T>*>::get(), "IsCachedInvalidHandle", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::InteropServices::SafeHandle*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, handle);
 }
 // Ctor Parameters []

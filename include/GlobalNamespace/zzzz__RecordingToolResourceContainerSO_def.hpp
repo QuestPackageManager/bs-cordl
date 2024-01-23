@@ -26,57 +26,60 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingToolResourceContainerSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5966))
 // CS Name: ::RecordingToolResourceContainerSO*
 class CORDL_TYPE RecordingToolResourceContainerSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _dlcLevelPackCollection, offset 0x18, size 0x8
-  __declspec(property(get = __get__dlcLevelPackCollection, put = __set__dlcLevelPackCollection))::GlobalNamespace::BeatmapLevelPackCollectionSO* _dlcLevelPackCollection;
+  __declspec(property(get = __cordl_internal_get__dlcLevelPackCollection,
+                      put = __cordl_internal_set__dlcLevelPackCollection))::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> _dlcLevelPackCollection;
 
   /// @brief Field _ostAndExtrasPackCollection, offset 0x20, size 0x8
-  __declspec(property(get = __get__ostAndExtrasPackCollection, put = __set__ostAndExtrasPackCollection))::GlobalNamespace::BeatmapLevelPackCollectionSO* _ostAndExtrasPackCollection;
+  __declspec(property(get = __cordl_internal_get__ostAndExtrasPackCollection,
+                      put = __cordl_internal_set__ostAndExtrasPackCollection))::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> _ostAndExtrasPackCollection;
 
   /// @brief Field _environmentsList, offset 0x28, size 0x8
-  __declspec(property(get = __get__environmentsList, put = __set__environmentsList))::GlobalNamespace::EnvironmentsListSO* _environmentsList;
+  __declspec(property(get = __cordl_internal_get__environmentsList, put = __cordl_internal_set__environmentsList))::UnityW<::GlobalNamespace::EnvironmentsListSO> _environmentsList;
 
   /// @brief Field _beatmapLevelPacks, offset 0x30, size 0x8
-  __declspec(property(get = __get__beatmapLevelPacks, put = __set__beatmapLevelPacks))::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>* _beatmapLevelPacks;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelPacks,
+                      put = __cordl_internal_set__beatmapLevelPacks))::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>* _beatmapLevelPacks;
 
   __declspec(property(get = get_beatmapLevelPacks))::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>* beatmapLevelPacks;
 
-  __declspec(property(get = get_environmentsList))::GlobalNamespace::EnvironmentsListSO* environmentsList;
+  __declspec(property(get = get_environmentsList))::UnityW<::GlobalNamespace::EnvironmentsListSO> environmentsList;
 
-  constexpr ::GlobalNamespace::BeatmapLevelPackCollectionSO*& __get__dlcLevelPackCollection();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO>& __cordl_internal_get__dlcLevelPackCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPackCollectionSO*> const& __get__dlcLevelPackCollection() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> const& __cordl_internal_get__dlcLevelPackCollection() const;
 
-  constexpr void __set__dlcLevelPackCollection(::GlobalNamespace::BeatmapLevelPackCollectionSO* value);
+  constexpr void __cordl_internal_set__dlcLevelPackCollection(::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelPackCollectionSO*& __get__ostAndExtrasPackCollection();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO>& __cordl_internal_get__ostAndExtrasPackCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPackCollectionSO*> const& __get__ostAndExtrasPackCollection() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> const& __cordl_internal_get__ostAndExtrasPackCollection() const;
 
-  constexpr void __set__ostAndExtrasPackCollection(::GlobalNamespace::BeatmapLevelPackCollectionSO* value);
+  constexpr void __cordl_internal_set__ostAndExtrasPackCollection(::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> value);
 
-  constexpr ::GlobalNamespace::EnvironmentsListSO*& __get__environmentsList();
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentsListSO>& __cordl_internal_get__environmentsList();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentsListSO*> const& __get__environmentsList() const;
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentsListSO> const& __cordl_internal_get__environmentsList() const;
 
-  constexpr void __set__environmentsList(::GlobalNamespace::EnvironmentsListSO* value);
+  constexpr void __cordl_internal_set__environmentsList(::UnityW<::GlobalNamespace::EnvironmentsListSO> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>*& __get__beatmapLevelPacks();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>*& __cordl_internal_get__beatmapLevelPacks();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>*> const& __get__beatmapLevelPacks() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>*> const& __cordl_internal_get__beatmapLevelPacks() const;
 
-  constexpr void __set__beatmapLevelPacks(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>* value);
+  constexpr void __cordl_internal_set__beatmapLevelPacks(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>* value);
 
   /// @brief Method get_beatmapLevelPacks, addr 0x2308cf0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>* get_beatmapLevelPacks();
 
   /// @brief Method get_environmentsList, addr 0x2308cf8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::EnvironmentsListSO* get_environmentsList();
+  inline ::UnityW<::GlobalNamespace::EnvironmentsListSO> get_environmentsList();
 
   /// @brief Method OnEnable, addr 0x2308d00, size 0xcc, virtual true, abstract: false, final false
   inline void OnEnable();
@@ -101,13 +104,13 @@ protected:
 
 public:
   /// @brief Field _dlcLevelPackCollection, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelPackCollectionSO* ____dlcLevelPackCollection;
+  ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> ____dlcLevelPackCollection;
 
   /// @brief Field _ostAndExtrasPackCollection, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelPackCollectionSO* ____ostAndExtrasPackCollection;
+  ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> ____ostAndExtrasPackCollection;
 
   /// @brief Field _environmentsList, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::EnvironmentsListSO* ____environmentsList;
+  ::UnityW<::GlobalNamespace::EnvironmentsListSO> ____environmentsList;
 
   /// @brief Field _beatmapLevelPacks, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapLevelPack*>* ____beatmapLevelPacks;

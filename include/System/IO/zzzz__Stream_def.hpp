@@ -197,7 +197,7 @@ MARK_VAL_T(::System::IO::__Stream____ReadAsync_g__FinishReadAsync_44_0_d);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3610))
 // CS Name: ::Stream::ReadWriteParameters
 struct CORDL_TYPE __Stream__ReadWriteParameters {
@@ -239,35 +239,35 @@ static_assert(offsetof(::System::IO::__Stream__ReadWriteParameters, Count) == 0x
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 98 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 98 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3611))
 // CS Name: ::Stream::ReadWriteTask*
 class CORDL_TYPE __Stream__ReadWriteTask : public ::System::Threading::Tasks::Task_1<int32_t> {
 public:
   // Declarations
   /// @brief Field _isRead, offset 0x54, size 0x1
-  __declspec(property(get = __get__isRead, put = __set__isRead)) bool _isRead;
+  __declspec(property(get = __cordl_internal_get__isRead, put = __cordl_internal_set__isRead)) bool _isRead;
 
   /// @brief Field _apm, offset 0x55, size 0x1
-  __declspec(property(get = __get__apm, put = __set__apm)) bool _apm;
+  __declspec(property(get = __cordl_internal_get__apm, put = __cordl_internal_set__apm)) bool _apm;
 
   /// @brief Field _stream, offset 0x58, size 0x8
-  __declspec(property(get = __get__stream, put = __set__stream))::System::IO::Stream* _stream;
+  __declspec(property(get = __cordl_internal_get__stream, put = __cordl_internal_set__stream))::System::IO::Stream* _stream;
 
   /// @brief Field _buffer, offset 0x60, size 0x8
-  __declspec(property(get = __get__buffer, put = __set__buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
 
   /// @brief Field _offset, offset 0x68, size 0x4
-  __declspec(property(get = __get__offset, put = __set__offset)) int32_t _offset;
+  __declspec(property(get = __cordl_internal_get__offset, put = __cordl_internal_set__offset)) int32_t _offset;
 
   /// @brief Field _count, offset 0x6c, size 0x4
-  __declspec(property(get = __get__count, put = __set__count)) int32_t _count;
+  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
 
   /// @brief Field _callback, offset 0x70, size 0x8
-  __declspec(property(get = __get__callback, put = __set__callback))::System::AsyncCallback* _callback;
+  __declspec(property(get = __cordl_internal_get__callback, put = __cordl_internal_set__callback))::System::AsyncCallback* _callback;
 
   /// @brief Field _context, offset 0x78, size 0x8
-  __declspec(property(get = __get__context, put = __set__context))::System::Threading::ExecutionContext* _context;
+  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::System::Threading::ExecutionContext* _context;
 
   /// @brief Field s_invokeAsyncCallback, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_invokeAsyncCallback, put = setStaticF_s_invokeAsyncCallback))::System::Threading::ContextCallback* s_invokeAsyncCallback;
@@ -280,53 +280,53 @@ public:
   /// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"
   constexpr ::System::Threading::Tasks::ITaskCompletionAction* i___System__Threading__Tasks__ITaskCompletionAction() noexcept;
 
-  constexpr bool& __get__isRead();
+  constexpr bool& __cordl_internal_get__isRead();
 
-  constexpr bool const& __get__isRead() const;
+  constexpr bool const& __cordl_internal_get__isRead() const;
 
-  constexpr void __set__isRead(bool value);
+  constexpr void __cordl_internal_set__isRead(bool value);
 
-  constexpr bool& __get__apm();
+  constexpr bool& __cordl_internal_get__apm();
 
-  constexpr bool const& __get__apm() const;
+  constexpr bool const& __cordl_internal_get__apm() const;
 
-  constexpr void __set__apm(bool value);
+  constexpr void __cordl_internal_set__apm(bool value);
 
-  constexpr ::System::IO::Stream*& __get__stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get__stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get__stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__stream() const;
 
-  constexpr void __set__stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set__stream(::System::IO::Stream* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__buffer() const;
 
-  constexpr void __set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__offset();
+  constexpr int32_t& __cordl_internal_get__offset();
 
-  constexpr int32_t const& __get__offset() const;
+  constexpr int32_t const& __cordl_internal_get__offset() const;
 
-  constexpr void __set__offset(int32_t value);
+  constexpr void __cordl_internal_set__offset(int32_t value);
 
-  constexpr int32_t& __get__count();
+  constexpr int32_t& __cordl_internal_get__count();
 
-  constexpr int32_t const& __get__count() const;
+  constexpr int32_t const& __cordl_internal_get__count() const;
 
-  constexpr void __set__count(int32_t value);
+  constexpr void __cordl_internal_set__count(int32_t value);
 
-  constexpr ::System::AsyncCallback*& __get__callback();
+  constexpr ::System::AsyncCallback*& __cordl_internal_get__callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __get__callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __cordl_internal_get__callback() const;
 
-  constexpr void __set__callback(::System::AsyncCallback* value);
+  constexpr void __cordl_internal_set__callback(::System::AsyncCallback* value);
 
-  constexpr ::System::Threading::ExecutionContext*& __get__context();
+  constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get__context();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __get__context() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __cordl_internal_get__context() const;
 
-  constexpr void __set__context(::System::Threading::ExecutionContext* value);
+  constexpr void __cordl_internal_set__context(::System::Threading::ExecutionContext* value);
 
   static inline void setStaticF_s_invokeAsyncCallback(::System::Threading::ContextCallback* value);
 
@@ -415,7 +415,7 @@ static_assert(offsetof(::System::IO::__Stream__ReadWriteTask, ____context) == 0x
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3613))
 // CS Name: ::Stream::SynchronousAsyncResult::<>c*
 class CORDL_TYPE __Stream__SynchronousAsyncResult____c : public ::System::Object {
@@ -467,7 +467,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Stream__Synch
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3614))
 // CS Name: ::Stream::SynchronousAsyncResult*
 class CORDL_TYPE __Stream__SynchronousAsyncResult : public ::System::Object {
@@ -476,22 +476,22 @@ public:
   using __c = ::GlobalNamespace::__Stream__SynchronousAsyncResult____c;
 
   /// @brief Field _stateObject, offset 0x10, size 0x8
-  __declspec(property(get = __get__stateObject, put = __set__stateObject))::System::Object* _stateObject;
+  __declspec(property(get = __cordl_internal_get__stateObject, put = __cordl_internal_set__stateObject))::System::Object* _stateObject;
 
   /// @brief Field _isWrite, offset 0x18, size 0x1
-  __declspec(property(get = __get__isWrite, put = __set__isWrite)) bool _isWrite;
+  __declspec(property(get = __cordl_internal_get__isWrite, put = __cordl_internal_set__isWrite)) bool _isWrite;
 
   /// @brief Field _waitHandle, offset 0x20, size 0x8
-  __declspec(property(get = __get__waitHandle, put = __set__waitHandle))::System::Threading::ManualResetEvent* _waitHandle;
+  __declspec(property(get = __cordl_internal_get__waitHandle, put = __cordl_internal_set__waitHandle))::System::Threading::ManualResetEvent* _waitHandle;
 
   /// @brief Field _exceptionInfo, offset 0x28, size 0x8
-  __declspec(property(get = __get__exceptionInfo, put = __set__exceptionInfo))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _exceptionInfo;
+  __declspec(property(get = __cordl_internal_get__exceptionInfo, put = __cordl_internal_set__exceptionInfo))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _exceptionInfo;
 
   /// @brief Field _endXxxCalled, offset 0x30, size 0x1
-  __declspec(property(get = __get__endXxxCalled, put = __set__endXxxCalled)) bool _endXxxCalled;
+  __declspec(property(get = __cordl_internal_get__endXxxCalled, put = __cordl_internal_set__endXxxCalled)) bool _endXxxCalled;
 
   /// @brief Field _bytesRead, offset 0x34, size 0x4
-  __declspec(property(get = __get__bytesRead, put = __set__bytesRead)) int32_t _bytesRead;
+  __declspec(property(get = __cordl_internal_get__bytesRead, put = __cordl_internal_set__bytesRead)) int32_t _bytesRead;
 
   __declspec(property(get = get_IsCompleted)) bool IsCompleted;
 
@@ -507,41 +507,41 @@ public:
   /// @brief Convert to "::System::IAsyncResult"
   constexpr ::System::IAsyncResult* i___System__IAsyncResult() noexcept;
 
-  constexpr ::System::Object*& __get__stateObject();
+  constexpr ::System::Object*& __cordl_internal_get__stateObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__stateObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__stateObject() const;
 
-  constexpr void __set__stateObject(::System::Object* value);
+  constexpr void __cordl_internal_set__stateObject(::System::Object* value);
 
-  constexpr bool& __get__isWrite();
+  constexpr bool& __cordl_internal_get__isWrite();
 
-  constexpr bool const& __get__isWrite() const;
+  constexpr bool const& __cordl_internal_get__isWrite() const;
 
-  constexpr void __set__isWrite(bool value);
+  constexpr void __cordl_internal_set__isWrite(bool value);
 
-  constexpr ::System::Threading::ManualResetEvent*& __get__waitHandle();
+  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get__waitHandle();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __get__waitHandle() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get__waitHandle() const;
 
-  constexpr void __set__waitHandle(::System::Threading::ManualResetEvent* value);
+  constexpr void __cordl_internal_set__waitHandle(::System::Threading::ManualResetEvent* value);
 
-  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __get__exceptionInfo();
+  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __cordl_internal_get__exceptionInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __get__exceptionInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __cordl_internal_get__exceptionInfo() const;
 
-  constexpr void __set__exceptionInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
+  constexpr void __cordl_internal_set__exceptionInfo(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
 
-  constexpr bool& __get__endXxxCalled();
+  constexpr bool& __cordl_internal_get__endXxxCalled();
 
-  constexpr bool const& __get__endXxxCalled() const;
+  constexpr bool const& __cordl_internal_get__endXxxCalled() const;
 
-  constexpr void __set__endXxxCalled(bool value);
+  constexpr void __cordl_internal_set__endXxxCalled(bool value);
 
-  constexpr int32_t& __get__bytesRead();
+  constexpr int32_t& __cordl_internal_get__bytesRead();
 
-  constexpr int32_t const& __get__bytesRead() const;
+  constexpr int32_t const& __cordl_internal_get__bytesRead() const;
 
-  constexpr void __set__bytesRead(int32_t value);
+  constexpr void __cordl_internal_set__bytesRead(int32_t value);
 
   static inline ::System::IO::__Stream__SynchronousAsyncResult* New_ctor(int32_t bytesRead, ::System::Object* asyncStateObject);
 
@@ -633,7 +633,7 @@ static_assert(offsetof(::System::IO::__Stream__SynchronousAsyncResult, ____bytes
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3615))
 // CS Name: ::Stream::<>c*
 class CORDL_TYPE __Stream____c : public ::System::Object {
@@ -773,9 +773,9 @@ static_assert(::cordl_internals::size_check_v<::System::IO::__Stream____c, 0x10>
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3363), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3363)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3361))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3616))
-// CS Name: ::Stream::<CopyToAsyncInternal>d__28
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3361)), TypeDefinitionIndex(TypeDefinitionIndex(3363)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3363), inst: 98 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3616)) CS
+// Name: ::Stream::<CopyToAsyncInternal>d__28
 struct CORDL_TYPE __Stream___CopyToAsyncInternal_d__28 {
 public:
   // Declarations
@@ -864,7 +864,7 @@ static_assert(offsetof(::System::IO::__Stream___CopyToAsyncInternal_d__28, __u__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3617))
 // CS Name: ::Stream::<FinishWriteAsync>d__57
 struct CORDL_TYPE __Stream___FinishWriteAsync_d__57 {
@@ -931,9 +931,9 @@ static_assert(offsetof(::System::IO::__Stream___FinishWriteAsync_d__57, __u__1) 
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3358)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2437)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3358), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3618)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2437)), TypeDefinitionIndex(TypeDefinitionIndex(3358)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3358), inst: 98 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3618)) CS Name:
 // ::Stream::<<ReadAsync>g__FinishReadAsync|44_0>d
 struct CORDL_TYPE __Stream____ReadAsync_g__FinishReadAsync_44_0_d {
 public:
@@ -1007,7 +1007,7 @@ static_assert(offsetof(::System::IO::__Stream____ReadAsync_g__FinishReadAsync_44
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3619))
 // CS Name: ::System.IO::Stream*
 class CORDL_TYPE Stream : public ::System::MarshalByRefObject {
@@ -1030,10 +1030,10 @@ public:
   using ReadWriteParameters = ::System::IO::__Stream__ReadWriteParameters;
 
   /// @brief Field _activeReadWriteTask, offset 0x18, size 0x8
-  __declspec(property(get = __get__activeReadWriteTask, put = __set__activeReadWriteTask))::System::IO::__Stream__ReadWriteTask* _activeReadWriteTask;
+  __declspec(property(get = __cordl_internal_get__activeReadWriteTask, put = __cordl_internal_set__activeReadWriteTask))::System::IO::__Stream__ReadWriteTask* _activeReadWriteTask;
 
   /// @brief Field _asyncActiveSemaphore, offset 0x20, size 0x8
-  __declspec(property(get = __get__asyncActiveSemaphore, put = __set__asyncActiveSemaphore))::System::Threading::SemaphoreSlim* _asyncActiveSemaphore;
+  __declspec(property(get = __cordl_internal_get__asyncActiveSemaphore, put = __cordl_internal_set__asyncActiveSemaphore))::System::Threading::SemaphoreSlim* _asyncActiveSemaphore;
 
   /// @brief Field Null, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Null, put = setStaticF_Null))::System::IO::Stream* Null;
@@ -1066,17 +1066,17 @@ public:
   /// @brief Convert to "::System::IAsyncDisposable"
   constexpr ::System::IAsyncDisposable* i___System__IAsyncDisposable() noexcept;
 
-  constexpr ::System::IO::__Stream__ReadWriteTask*& __get__activeReadWriteTask();
+  constexpr ::System::IO::__Stream__ReadWriteTask*& __cordl_internal_get__activeReadWriteTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::__Stream__ReadWriteTask*> const& __get__activeReadWriteTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::__Stream__ReadWriteTask*> const& __cordl_internal_get__activeReadWriteTask() const;
 
-  constexpr void __set__activeReadWriteTask(::System::IO::__Stream__ReadWriteTask* value);
+  constexpr void __cordl_internal_set__activeReadWriteTask(::System::IO::__Stream__ReadWriteTask* value);
 
-  constexpr ::System::Threading::SemaphoreSlim*& __get__asyncActiveSemaphore();
+  constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__asyncActiveSemaphore();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __get__asyncActiveSemaphore() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__asyncActiveSemaphore() const;
 
-  constexpr void __set__asyncActiveSemaphore(::System::Threading::SemaphoreSlim* value);
+  constexpr void __cordl_internal_set__asyncActiveSemaphore(::System::Threading::SemaphoreSlim* value);
 
   static inline void setStaticF_Null(::System::IO::Stream* value);
 

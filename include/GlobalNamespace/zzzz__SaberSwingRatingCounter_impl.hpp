@@ -20,9 +20,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23248bc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(),
-                                                                               "get_beforeCutRating", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_beforeCutRating", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -34,9 +34,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23248c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(),
-                                                                               "get_afterCutRating", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_afterCutRating", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -48,10 +48,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x23248cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "RegisterDidChangeReceiver", std::vector<Il2CppClass*>{},
-                                   ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "RegisterDidChangeReceiver", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>::get() })));
     return ___internal_method;
   }
 };
@@ -63,10 +63,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x2324924;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "RegisterDidFinishReceiver", std::vector<Il2CppClass*>{},
-                                   ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "RegisterDidFinishReceiver", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>::get() })));
     return ___internal_method;
   }
 };
@@ -78,10 +78,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x232497c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "UnregisterDidChangeReceiver", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "UnregisterDidChangeReceiver", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>::get() })));
     return ___internal_method;
   }
 };
@@ -93,10 +93,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x23249d4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "UnregisterDidFinishReceiver", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "UnregisterDidFinishReceiver", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>::get() })));
     return ___internal_method;
   }
 };
@@ -108,13 +108,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x364;
   constexpr static std::size_t addrs = 0x2324a2c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "Init", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberMovementData*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberMovementData*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -126,12 +126,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x780;
   constexpr static std::size_t addrs = 0x2324d90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "ProcessNewData", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BladeMovementDataElement>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BladeMovementDataElement>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "ProcessNewData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BladeMovementDataElement>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BladeMovementDataElement>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -142,9 +142,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1ac;
   constexpr static std::size_t addrs = 0x2325510;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "Finish",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -155,9 +155,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x384;
   constexpr static std::size_t addrs = 0x23256bc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "DrawGizmos",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -168,9 +168,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x2325a40;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -190,328 +190,330 @@ constexpr GlobalNamespace::SaberSwingRatingCounter::operator ::GlobalNamespace::
 constexpr ::GlobalNamespace::ISaberMovementDataProcessor* GlobalNamespace::SaberSwingRatingCounter::i___GlobalNamespace__ISaberMovementDataProcessor() noexcept {
   return static_cast<::GlobalNamespace::ISaberMovementDataProcessor*>(static_cast<void*>(this));
 }
-constexpr ::GlobalNamespace::ISaberMovementData*& GlobalNamespace::SaberSwingRatingCounter::__get__saberMovementData() {
+constexpr ::GlobalNamespace::ISaberMovementData*& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__saberMovementData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberMovementData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaberMovementData*> const& GlobalNamespace::SaberSwingRatingCounter::__get__saberMovementData() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaberMovementData*> const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__saberMovementData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberMovementData;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__saberMovementData(::GlobalNamespace::ISaberMovementData* value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__saberMovementData(::GlobalNamespace::ISaberMovementData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saberMovementData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__cutPlaneNormal() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__cutPlaneNormal() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutPlaneNormal;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__cutPlaneNormal() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__cutPlaneNormal() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutPlaneNormal;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__cutPlaneNormal(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__cutPlaneNormal(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cutPlaneNormal = value;
 }
-constexpr float_t& GlobalNamespace::SaberSwingRatingCounter::__get__cutTime() {
+constexpr float_t& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__cutTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutTime;
 }
-constexpr float_t const& GlobalNamespace::SaberSwingRatingCounter::__get__cutTime() const {
+constexpr float_t const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__cutTime() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutTime;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__cutTime(float_t value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__cutTime(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cutTime = value;
 }
-constexpr float_t& GlobalNamespace::SaberSwingRatingCounter::__get__afterCutRating() {
+constexpr float_t& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__afterCutRating() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____afterCutRating;
 }
-constexpr float_t const& GlobalNamespace::SaberSwingRatingCounter::__get__afterCutRating() const {
+constexpr float_t const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__afterCutRating() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____afterCutRating;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__afterCutRating(float_t value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__afterCutRating(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____afterCutRating = value;
 }
-constexpr float_t& GlobalNamespace::SaberSwingRatingCounter::__get__beforeCutRating() {
+constexpr float_t& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__beforeCutRating() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeCutRating;
 }
-constexpr float_t const& GlobalNamespace::SaberSwingRatingCounter::__get__beforeCutRating() const {
+constexpr float_t const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__beforeCutRating() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeCutRating;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__beforeCutRating(float_t value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__beforeCutRating(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beforeCutRating = value;
 }
-constexpr ::UnityEngine::Plane& GlobalNamespace::SaberSwingRatingCounter::__get__notePlane() {
+constexpr ::UnityEngine::Plane& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__notePlane() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notePlane;
 }
-constexpr ::UnityEngine::Plane const& GlobalNamespace::SaberSwingRatingCounter::__get__notePlane() const {
+constexpr ::UnityEngine::Plane const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__notePlane() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notePlane;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__notePlane(::UnityEngine::Plane value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__notePlane(::UnityEngine::Plane value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____notePlane = value;
 }
-constexpr bool& GlobalNamespace::SaberSwingRatingCounter::__get__notePlaneWasCut() {
+constexpr bool& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__notePlaneWasCut() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notePlaneWasCut;
 }
-constexpr bool const& GlobalNamespace::SaberSwingRatingCounter::__get__notePlaneWasCut() const {
+constexpr bool const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__notePlaneWasCut() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notePlaneWasCut;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__notePlaneWasCut(bool value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__notePlaneWasCut(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____notePlaneWasCut = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__noteForward() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__noteForward() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteForward;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__noteForward() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__noteForward() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____noteForward;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__noteForward(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__noteForward(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____noteForward = value;
 }
-constexpr bool& GlobalNamespace::SaberSwingRatingCounter::__get__rateBeforeCut() {
+constexpr bool& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__rateBeforeCut() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rateBeforeCut;
 }
-constexpr bool const& GlobalNamespace::SaberSwingRatingCounter::__get__rateBeforeCut() const {
+constexpr bool const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__rateBeforeCut() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rateBeforeCut;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__rateBeforeCut(bool value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__rateBeforeCut(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rateBeforeCut = value;
 }
-constexpr bool& GlobalNamespace::SaberSwingRatingCounter::__get__rateAfterCut() {
+constexpr bool& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__rateAfterCut() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rateAfterCut;
 }
-constexpr bool const& GlobalNamespace::SaberSwingRatingCounter::__get__rateAfterCut() const {
+constexpr bool const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__rateAfterCut() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rateAfterCut;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__rateAfterCut(bool value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__rateAfterCut(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rateAfterCut = value;
 }
-constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>*& GlobalNamespace::SaberSwingRatingCounter::__get__didChangeReceivers() {
+constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>*& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__didChangeReceivers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____didChangeReceivers;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>*> const&
-GlobalNamespace::SaberSwingRatingCounter::__get__didChangeReceivers() const {
+GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__didChangeReceivers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____didChangeReceivers;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__didChangeReceivers(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>* value) {
+constexpr void
+GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__didChangeReceivers(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____didChangeReceivers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>*& GlobalNamespace::SaberSwingRatingCounter::__get__didFinishReceivers() {
+constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>*& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__didFinishReceivers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____didFinishReceivers;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>*> const&
-GlobalNamespace::SaberSwingRatingCounter::__get__didFinishReceivers() const {
+GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__didFinishReceivers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____didFinishReceivers;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__didFinishReceivers(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>* value) {
+constexpr void
+GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__didFinishReceivers(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____didFinishReceivers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__notePlaneCenter() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__notePlaneCenter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notePlaneCenter;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__notePlaneCenter() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__notePlaneCenter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____notePlaneCenter;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__notePlaneCenter(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__notePlaneCenter(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____notePlaneCenter = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__beforeCutTopPos() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__beforeCutTopPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeCutTopPos;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__beforeCutTopPos() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__beforeCutTopPos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeCutTopPos;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__beforeCutTopPos(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__beforeCutTopPos(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beforeCutTopPos = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__beforeCutBottomPos() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__beforeCutBottomPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeCutBottomPos;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__beforeCutBottomPos() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__beforeCutBottomPos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beforeCutBottomPos;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__beforeCutBottomPos(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__beforeCutBottomPos(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beforeCutBottomPos = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__afterCutTopPos() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__afterCutTopPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____afterCutTopPos;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__afterCutTopPos() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__afterCutTopPos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____afterCutTopPos;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__afterCutTopPos(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__afterCutTopPos(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____afterCutTopPos = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__afterCutBottomPos() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__afterCutBottomPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____afterCutBottomPos;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__afterCutBottomPos() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__afterCutBottomPos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____afterCutBottomPos;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__afterCutBottomPos(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__afterCutBottomPos(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____afterCutBottomPos = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__newPlaneNormal() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__newPlaneNormal() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____newPlaneNormal;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__newPlaneNormal() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__newPlaneNormal() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____newPlaneNormal;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__newPlaneNormal(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__newPlaneNormal(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____newPlaneNormal = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__cutTopPos() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__cutTopPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutTopPos;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__cutTopPos() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__cutTopPos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutTopPos;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__cutTopPos(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__cutTopPos(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cutTopPos = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__get__cutBottomPos() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__cutBottomPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutBottomPos;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__get__cutBottomPos() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__cutBottomPos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutBottomPos;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__cutBottomPos(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__cutBottomPos(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cutBottomPos = value;
 }
-constexpr bool& GlobalNamespace::SaberSwingRatingCounter::__get__finished() {
+constexpr bool& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__finished() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finished;
 }
-constexpr bool const& GlobalNamespace::SaberSwingRatingCounter::__get__finished() const {
+constexpr bool const& GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_get__finished() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finished;
 }
-constexpr void GlobalNamespace::SaberSwingRatingCounter::__set__finished(bool value) {
+constexpr void GlobalNamespace::SaberSwingRatingCounter::__cordl_internal_set__finished(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____finished = value;
 }
 inline float_t GlobalNamespace::SaberSwingRatingCounter::get_beforeCutRating() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(),
-                                                                             "get_beforeCutRating", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_beforeCutRating", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline float_t GlobalNamespace::SaberSwingRatingCounter::get_afterCutRating() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(),
-                                                                             "get_afterCutRating", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_afterCutRating", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::SaberSwingRatingCounter::RegisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "RegisterDidChangeReceiver", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "RegisterDidChangeReceiver", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, receiver);
 }
 inline void GlobalNamespace::SaberSwingRatingCounter::RegisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "RegisterDidFinishReceiver", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "RegisterDidFinishReceiver", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, receiver);
 }
 inline void GlobalNamespace::SaberSwingRatingCounter::UnregisterDidChangeReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver* receiver) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "UnregisterDidChangeReceiver", std::vector<Il2CppClass*>{},
-                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "UnregisterDidChangeReceiver", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, receiver);
 }
 inline void GlobalNamespace::SaberSwingRatingCounter::UnregisterDidFinishReceiver(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver* receiver) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "UnregisterDidFinishReceiver", std::vector<Il2CppClass*>{},
-                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "UnregisterDidFinishReceiver", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, receiver);
 }
 inline void GlobalNamespace::SaberSwingRatingCounter::Init(::GlobalNamespace::ISaberMovementData* saberMovementData, ::UnityEngine::Vector3 notePosition, ::UnityEngine::Quaternion noteRotation,
                                                            bool rateBeforeCut, bool rateAfterCut) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "Init", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberMovementData*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ISaberMovementData*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, saberMovementData, notePosition, noteRotation, rateBeforeCut, rateAfterCut);
 }
 inline void GlobalNamespace::SaberSwingRatingCounter::ProcessNewData(::GlobalNamespace::BladeMovementDataElement newData, ::GlobalNamespace::BladeMovementDataElement prevData, bool prevDataAreValid) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "ProcessNewData", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BladeMovementDataElement>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BladeMovementDataElement>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "ProcessNewData", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BladeMovementDataElement>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BladeMovementDataElement>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newData, prevData, prevDataAreValid);
 }
 inline void GlobalNamespace::SaberSwingRatingCounter::Finish() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "Finish",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::SaberSwingRatingCounter::DrawGizmos() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "DrawGizmos",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::SaberSwingRatingCounter* GlobalNamespace::SaberSwingRatingCounter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::SaberSwingRatingCounter*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SaberSwingRatingCounter*>());
 }
 inline void GlobalNamespace::SaberSwingRatingCounter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -23,22 +23,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::MPInteger);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(554))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(554))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(576))
 // CS Name: ::Org.BouncyCastle.Bcpg::MPInteger*
 class CORDL_TYPE MPInteger : public ::Org::BouncyCastle::Bcpg::BcpgObject {
 public:
   // Declarations
   /// @brief Field val, offset 0x10, size 0x8
-  __declspec(property(get = __get_val, put = __set_val))::Org::BouncyCastle::Math::BigInteger* val;
+  __declspec(property(get = __cordl_internal_get_val, put = __cordl_internal_set_val))::Org::BouncyCastle::Math::BigInteger* val;
 
   __declspec(property(get = get_Value))::Org::BouncyCastle::Math::BigInteger* Value;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_val();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_val();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_val() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_val() const;
 
-  constexpr void __set_val(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_val(::Org::BouncyCastle::Math::BigInteger* value);
 
   static inline ::Org::BouncyCastle::Bcpg::MPInteger* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 

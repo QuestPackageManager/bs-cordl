@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__LevelMissionParser__ParserFunction);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4237))
 // CS Name: ::LevelMissionParser::ParserFunction*
 class CORDL_TYPE __LevelMissionParser__ParserFunction : public ::System::MulticastDelegate {
@@ -82,7 +82,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LevelMissionP
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4238))
 // CS Name: ::LevelMissionParser*
 class CORDL_TYPE LevelMissionParser : public ::System::Object {
@@ -91,13 +91,15 @@ public:
   using ParserFunction = ::GlobalNamespace::__LevelMissionParser__ParserFunction;
 
   /// @brief Field _functions, offset 0x10, size 0x8
-  __declspec(property(get = __get__functions, put = __set__functions))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__LevelMissionParser__ParserFunction*>* _functions;
+  __declspec(property(get = __cordl_internal_get__functions,
+                      put = __cordl_internal_set__functions))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__LevelMissionParser__ParserFunction*>* _functions;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__LevelMissionParser__ParserFunction*>*& __get__functions();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__LevelMissionParser__ParserFunction*>*& __cordl_internal_get__functions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__LevelMissionParser__ParserFunction*>*> const& __get__functions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__LevelMissionParser__ParserFunction*>*> const&
+  __cordl_internal_get__functions() const;
 
-  constexpr void __set__functions(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__LevelMissionParser__ParserFunction*>* value);
+  constexpr void __cordl_internal_set__functions(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__LevelMissionParser__ParserFunction*>* value);
 
   static inline ::GlobalNamespace::LevelMissionParser* New_ctor();
 

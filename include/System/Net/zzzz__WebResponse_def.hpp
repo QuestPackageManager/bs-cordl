@@ -35,14 +35,14 @@ MARK_REF_PTR_T(::System::Net::WebResponse);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9097))
 // CS Name: ::System.Net::WebResponse*
 class CORDL_TYPE WebResponse : public ::System::MarshalByRefObject {
 public:
   // Declarations
   /// @brief Field m_IsFromCache, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_IsFromCache, put = __set_m_IsFromCache)) bool m_IsFromCache;
+  __declspec(property(get = __cordl_internal_get_m_IsFromCache, put = __cordl_internal_set_m_IsFromCache)) bool m_IsFromCache;
 
   __declspec(property(get = get_IsFromCache)) bool IsFromCache;
 
@@ -62,11 +62,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr bool& __get_m_IsFromCache();
+  constexpr bool& __cordl_internal_get_m_IsFromCache();
 
-  constexpr bool const& __get_m_IsFromCache() const;
+  constexpr bool const& __cordl_internal_get_m_IsFromCache() const;
 
-  constexpr void __set_m_IsFromCache(bool value);
+  constexpr void __cordl_internal_set_m_IsFromCache(bool value);
 
   static inline ::System::Net::WebResponse* New_ctor();
 

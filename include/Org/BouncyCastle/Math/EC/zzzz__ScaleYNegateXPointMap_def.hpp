@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1577))
 // CS Name: ::Org.BouncyCastle.Math.EC::ScaleYNegateXPointMap*
 class CORDL_TYPE ScaleYNegateXPointMap : public ::System::Object {
 public:
   // Declarations
   /// @brief Field scale, offset 0x10, size 0x8
-  __declspec(property(get = __get_scale, put = __set_scale))::Org::BouncyCastle::Math::EC::ECFieldElement* scale;
+  __declspec(property(get = __cordl_internal_get_scale, put = __cordl_internal_set_scale))::Org::BouncyCastle::Math::EC::ECFieldElement* scale;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::ECPointMap"
   constexpr operator ::Org::BouncyCastle::Math::EC::ECPointMap*() noexcept;
@@ -38,11 +38,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::ECPointMap"
   constexpr ::Org::BouncyCastle::Math::EC::ECPointMap* i___Org__BouncyCastle__Math__EC__ECPointMap() noexcept;
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement*& __get_scale();
+  constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement*& __cordl_internal_get_scale();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECFieldElement*> const& __get_scale() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECFieldElement*> const& __cordl_internal_get_scale() const;
 
-  constexpr void __set_scale(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
+  constexpr void __cordl_internal_set_scale(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
 
   static inline ::Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap* New_ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 

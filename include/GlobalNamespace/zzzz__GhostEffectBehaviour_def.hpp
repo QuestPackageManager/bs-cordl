@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GhostEffectBehaviour);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6014))
 // CS Name: ::GhostEffectBehaviour::EndBehavior
 struct CORDL_TYPE __GhostEffectBehaviour__EndBehavior {
@@ -110,7 +110,7 @@ static_assert(offsetof(::GlobalNamespace::__GhostEffectBehaviour__EndBehavior, v
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6015))
 // CS Name: ::GhostEffectBehaviour::GhostEffectType
 struct CORDL_TYPE __GhostEffectBehaviour__GhostEffectType {
@@ -160,8 +160,8 @@ static_assert(offsetof(::GlobalNamespace::__GhostEffectBehaviour__GhostEffectTyp
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 165, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6014)), TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(6015)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16090))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6016)) CS Name: ::GhostEffectBehaviour*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6014)), TypeDefinitionIndex(TypeDefinitionIndex(6015)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(16090))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6016)) CS Name: ::GhostEffectBehaviour*
 class CORDL_TYPE GhostEffectBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
@@ -170,175 +170,176 @@ public:
   using EndBehavior = ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior;
 
   /// @brief Field alphaCurve, offset 0x10, size 0x8
-  __declspec(property(get = __get_alphaCurve, put = __set_alphaCurve))::UnityEngine::AnimationCurve* alphaCurve;
+  __declspec(property(get = __cordl_internal_get_alphaCurve, put = __cordl_internal_set_alphaCurve))::UnityEngine::AnimationCurve* alphaCurve;
 
   /// @brief Field sizeCurve, offset 0x18, size 0x8
-  __declspec(property(get = __get_sizeCurve, put = __set_sizeCurve))::UnityEngine::AnimationCurve* sizeCurve;
+  __declspec(property(get = __cordl_internal_get_sizeCurve, put = __cordl_internal_set_sizeCurve))::UnityEngine::AnimationCurve* sizeCurve;
 
   /// @brief Field distanceCurve, offset 0x20, size 0x8
-  __declspec(property(get = __get_distanceCurve, put = __set_distanceCurve))::UnityEngine::AnimationCurve* distanceCurve;
+  __declspec(property(get = __cordl_internal_get_distanceCurve, put = __cordl_internal_set_distanceCurve))::UnityEngine::AnimationCurve* distanceCurve;
 
   /// @brief Field _distanceMultiplier, offset 0x28, size 0xc
-  __declspec(property(get = __get__distanceMultiplier, put = __set__distanceMultiplier))::UnityEngine::Vector3 _distanceMultiplier;
+  __declspec(property(get = __cordl_internal_get__distanceMultiplier, put = __cordl_internal_set__distanceMultiplier))::UnityEngine::Vector3 _distanceMultiplier;
 
   /// @brief Field _useStartTransform, offset 0x34, size 0x1
-  __declspec(property(get = __get__useStartTransform, put = __set__useStartTransform)) bool _useStartTransform;
+  __declspec(property(get = __cordl_internal_get__useStartTransform, put = __cordl_internal_set__useStartTransform)) bool _useStartTransform;
 
   /// @brief Field _useEndTransform, offset 0x35, size 0x1
-  __declspec(property(get = __get__useEndTransform, put = __set__useEndTransform)) bool _useEndTransform;
+  __declspec(property(get = __cordl_internal_get__useEndTransform, put = __cordl_internal_set__useEndTransform)) bool _useEndTransform;
 
   /// @brief Field _startLocalPosition, offset 0x38, size 0xc
-  __declspec(property(get = __get__startLocalPosition, put = __set__startLocalPosition))::UnityEngine::Vector3 _startLocalPosition;
+  __declspec(property(get = __cordl_internal_get__startLocalPosition, put = __cordl_internal_set__startLocalPosition))::UnityEngine::Vector3 _startLocalPosition;
 
   /// @brief Field _startTransform, offset 0x48, size 0x8
-  __declspec(property(get = __get__startTransform, put = __set__startTransform))::UnityEngine::Transform* _startTransform;
+  __declspec(property(get = __cordl_internal_get__startTransform, put = __cordl_internal_set__startTransform))::UnityW<::UnityEngine::Transform> _startTransform;
 
   /// @brief Field _endLocalPosition, offset 0x50, size 0xc
-  __declspec(property(get = __get__endLocalPosition, put = __set__endLocalPosition))::UnityEngine::Vector3 _endLocalPosition;
+  __declspec(property(get = __cordl_internal_get__endLocalPosition, put = __cordl_internal_set__endLocalPosition))::UnityEngine::Vector3 _endLocalPosition;
 
   /// @brief Field _endTransform, offset 0x60, size 0x8
-  __declspec(property(get = __get__endTransform, put = __set__endTransform))::UnityEngine::Transform* _endTransform;
+  __declspec(property(get = __cordl_internal_get__endTransform, put = __cordl_internal_set__endTransform))::UnityW<::UnityEngine::Transform> _endTransform;
 
   /// @brief Field _positionEasing, offset 0x68, size 0x4
-  __declspec(property(get = __get__positionEasing, put = __set__positionEasing))::GlobalNamespace::EaseType _positionEasing;
+  __declspec(property(get = __cordl_internal_get__positionEasing, put = __cordl_internal_set__positionEasing))::GlobalNamespace::EaseType _positionEasing;
 
   /// @brief Field _endBehavior, offset 0x6c, size 0x4
-  __declspec(property(get = __get__endBehavior, put = __set__endBehavior))::GlobalNamespace::__GhostEffectBehaviour__EndBehavior _endBehavior;
+  __declspec(property(get = __cordl_internal_get__endBehavior, put = __cordl_internal_set__endBehavior))::GlobalNamespace::__GhostEffectBehaviour__EndBehavior _endBehavior;
 
   /// @brief Field progress, offset 0x70, size 0x4
-  __declspec(property(get = __get_progress, put = __set_progress)) float_t progress;
+  __declspec(property(get = __cordl_internal_get_progress, put = __cordl_internal_set_progress)) float_t progress;
 
   /// @brief Field textMeshPros, offset 0x78, size 0x8
-  __declspec(property(get = __get_textMeshPros, put = __set_textMeshPros))::ArrayW<::TMPro::TextMeshPro*, ::Array<::TMPro::TextMeshPro*>*> textMeshPros;
+  __declspec(property(get = __cordl_internal_get_textMeshPros, put = __cordl_internal_set_textMeshPros))::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> textMeshPros;
 
   /// @brief Field _canvasGroups, offset 0x80, size 0x8
-  __declspec(property(get = __get__canvasGroups, put = __set__canvasGroups))::ArrayW<::UnityEngine::CanvasGroup*, ::Array<::UnityEngine::CanvasGroup*>*> _canvasGroups;
+  __declspec(property(get = __cordl_internal_get__canvasGroups,
+                      put = __cordl_internal_set__canvasGroups))::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> _canvasGroups;
 
   /// @brief Field _ghostEffectType, offset 0x88, size 0x4
-  __declspec(property(get = __get__ghostEffectType, put = __set__ghostEffectType))::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType _ghostEffectType;
+  __declspec(property(get = __cordl_internal_get__ghostEffectType, put = __cordl_internal_set__ghostEffectType))::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType _ghostEffectType;
 
   /// @brief Field _ghostEffectTransform, offset 0x90, size 0x8
-  __declspec(property(get = __get__ghostEffectTransform, put = __set__ghostEffectTransform))::UnityEngine::Transform* _ghostEffectTransform;
+  __declspec(property(get = __cordl_internal_get__ghostEffectTransform, put = __cordl_internal_set__ghostEffectTransform))::UnityW<::UnityEngine::Transform> _ghostEffectTransform;
 
   /// @brief Field _direction, offset 0x98, size 0xc
-  __declspec(property(get = __get__direction, put = __set__direction))::UnityEngine::Vector3 _direction;
+  __declspec(property(get = __cordl_internal_get__direction, put = __cordl_internal_set__direction))::UnityEngine::Vector3 _direction;
 
   /// @brief Field _finished, offset 0xa4, size 0x1
-  __declspec(property(get = __get__finished, put = __set__finished)) bool _finished;
+  __declspec(property(get = __cordl_internal_get__finished, put = __cordl_internal_set__finished)) bool _finished;
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_alphaCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_alphaCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_alphaCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_alphaCurve() const;
 
-  constexpr void __set_alphaCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_alphaCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_sizeCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_sizeCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_sizeCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_sizeCurve() const;
 
-  constexpr void __set_sizeCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_sizeCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_distanceCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_distanceCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_distanceCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_distanceCurve() const;
 
-  constexpr void __set_distanceCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_distanceCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::Vector3& __get__distanceMultiplier();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__distanceMultiplier();
 
-  constexpr ::UnityEngine::Vector3 const& __get__distanceMultiplier() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__distanceMultiplier() const;
 
-  constexpr void __set__distanceMultiplier(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__distanceMultiplier(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get__useStartTransform();
+  constexpr bool& __cordl_internal_get__useStartTransform();
 
-  constexpr bool const& __get__useStartTransform() const;
+  constexpr bool const& __cordl_internal_get__useStartTransform() const;
 
-  constexpr void __set__useStartTransform(bool value);
+  constexpr void __cordl_internal_set__useStartTransform(bool value);
 
-  constexpr bool& __get__useEndTransform();
+  constexpr bool& __cordl_internal_get__useEndTransform();
 
-  constexpr bool const& __get__useEndTransform() const;
+  constexpr bool const& __cordl_internal_get__useEndTransform() const;
 
-  constexpr void __set__useEndTransform(bool value);
+  constexpr void __cordl_internal_set__useEndTransform(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get__startLocalPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__startLocalPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get__startLocalPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__startLocalPosition() const;
 
-  constexpr void __set__startLocalPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__startLocalPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Transform*& __get__startTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__startTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__startTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__startTransform() const;
 
-  constexpr void __set__startTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__startTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Vector3& __get__endLocalPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__endLocalPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get__endLocalPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__endLocalPosition() const;
 
-  constexpr void __set__endLocalPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__endLocalPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Transform*& __get__endTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__endTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__endTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__endTransform() const;
 
-  constexpr void __set__endTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__endTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::GlobalNamespace::EaseType& __get__positionEasing();
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__positionEasing();
 
-  constexpr ::GlobalNamespace::EaseType const& __get__positionEasing() const;
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__positionEasing() const;
 
-  constexpr void __set__positionEasing(::GlobalNamespace::EaseType value);
+  constexpr void __cordl_internal_set__positionEasing(::GlobalNamespace::EaseType value);
 
-  constexpr ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior& __get__endBehavior();
+  constexpr ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior& __cordl_internal_get__endBehavior();
 
-  constexpr ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior const& __get__endBehavior() const;
+  constexpr ::GlobalNamespace::__GhostEffectBehaviour__EndBehavior const& __cordl_internal_get__endBehavior() const;
 
-  constexpr void __set__endBehavior(::GlobalNamespace::__GhostEffectBehaviour__EndBehavior value);
+  constexpr void __cordl_internal_set__endBehavior(::GlobalNamespace::__GhostEffectBehaviour__EndBehavior value);
 
-  constexpr float_t& __get_progress();
+  constexpr float_t& __cordl_internal_get_progress();
 
-  constexpr float_t const& __get_progress() const;
+  constexpr float_t const& __cordl_internal_get_progress() const;
 
-  constexpr void __set_progress(float_t value);
+  constexpr void __cordl_internal_set_progress(float_t value);
 
-  constexpr ::ArrayW<::TMPro::TextMeshPro*, ::Array<::TMPro::TextMeshPro*>*>& __get_textMeshPros();
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*>& __cordl_internal_get_textMeshPros();
 
-  constexpr ::ArrayW<::TMPro::TextMeshPro*, ::Array<::TMPro::TextMeshPro*>*> const& __get_textMeshPros() const;
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> const& __cordl_internal_get_textMeshPros() const;
 
-  constexpr void __set_textMeshPros(::ArrayW<::TMPro::TextMeshPro*, ::Array<::TMPro::TextMeshPro*>*> value);
+  constexpr void __cordl_internal_set_textMeshPros(::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::CanvasGroup*, ::Array<::UnityEngine::CanvasGroup*>*>& __get__canvasGroups();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*>& __cordl_internal_get__canvasGroups();
 
-  constexpr ::ArrayW<::UnityEngine::CanvasGroup*, ::Array<::UnityEngine::CanvasGroup*>*> const& __get__canvasGroups() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> const& __cordl_internal_get__canvasGroups() const;
 
-  constexpr void __set__canvasGroups(::ArrayW<::UnityEngine::CanvasGroup*, ::Array<::UnityEngine::CanvasGroup*>*> value);
+  constexpr void __cordl_internal_set__canvasGroups(::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> value);
 
-  constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType& __get__ghostEffectType();
+  constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType& __cordl_internal_get__ghostEffectType();
 
-  constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType const& __get__ghostEffectType() const;
+  constexpr ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType const& __cordl_internal_get__ghostEffectType() const;
 
-  constexpr void __set__ghostEffectType(::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType value);
+  constexpr void __cordl_internal_set__ghostEffectType(::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType value);
 
-  constexpr ::UnityEngine::Transform*& __get__ghostEffectTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__ghostEffectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__ghostEffectTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__ghostEffectTransform() const;
 
-  constexpr void __set__ghostEffectTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__ghostEffectTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Vector3& __get__direction();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__direction();
 
-  constexpr ::UnityEngine::Vector3 const& __get__direction() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__direction() const;
 
-  constexpr void __set__direction(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__direction(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get__finished();
+  constexpr bool& __cordl_internal_get__finished();
 
-  constexpr bool const& __get__finished() const;
+  constexpr bool const& __cordl_internal_get__finished() const;
 
-  constexpr void __set__finished(bool value);
+  constexpr void __cordl_internal_set__finished(bool value);
 
   /// @brief Method OnBehaviourPlay, addr 0x2317380, size 0x190, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
@@ -390,13 +391,13 @@ public:
   ::UnityEngine::Vector3 ____startLocalPosition;
 
   /// @brief Field _startTransform, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____startTransform;
+  ::UnityW<::UnityEngine::Transform> ____startTransform;
 
   /// @brief Field _endLocalPosition, offset: 0x50, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____endLocalPosition;
 
   /// @brief Field _endTransform, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____endTransform;
+  ::UnityW<::UnityEngine::Transform> ____endTransform;
 
   /// @brief Field _positionEasing, offset: 0x68, size: 0x4, def value: None
   ::GlobalNamespace::EaseType ____positionEasing;
@@ -408,16 +409,16 @@ public:
   float_t ___progress;
 
   /// @brief Field textMeshPros, offset: 0x78, size: 0x8, def value: None
-  ::ArrayW<::TMPro::TextMeshPro*, ::Array<::TMPro::TextMeshPro*>*> ___textMeshPros;
+  ::ArrayW<::UnityW<::TMPro::TextMeshPro>, ::Array<::UnityW<::TMPro::TextMeshPro>>*> ___textMeshPros;
 
   /// @brief Field _canvasGroups, offset: 0x80, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::CanvasGroup*, ::Array<::UnityEngine::CanvasGroup*>*> ____canvasGroups;
+  ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> ____canvasGroups;
 
   /// @brief Field _ghostEffectType, offset: 0x88, size: 0x4, def value: None
   ::GlobalNamespace::__GhostEffectBehaviour__GhostEffectType ____ghostEffectType;
 
   /// @brief Field _ghostEffectTransform, offset: 0x90, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____ghostEffectTransform;
+  ::UnityW<::UnityEngine::Transform> ____ghostEffectTransform;
 
   /// @brief Field _direction, offset: 0x98, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____direction;

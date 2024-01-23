@@ -42,20 +42,20 @@ MARK_REF_PTR_T(::System::ComponentModel::__ArrayConverter__ArrayPropertyDescript
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9478))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9478))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9402))
 // CS Name: ::ArrayConverter::ArrayPropertyDescriptor*
 class CORDL_TYPE __ArrayConverter__ArrayPropertyDescriptor : public ::System::ComponentModel::__TypeConverter__SimplePropertyDescriptor {
 public:
   // Declarations
   /// @brief Field _index, offset 0x98, size 0x4
-  __declspec(property(get = __get__index, put = __set__index)) int32_t _index;
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
-  constexpr int32_t& __get__index();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr int32_t const& __get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __set__index(int32_t value);
+  constexpr void __cordl_internal_set__index(int32_t value);
 
   static inline ::System::ComponentModel::__ArrayConverter__ArrayPropertyDescriptor* New_ctor(::System::Type* arrayType, ::System::Type* elementType, int32_t index);
 
@@ -97,7 +97,7 @@ static_assert(offsetof(::System::ComponentModel::__ArrayConverter__ArrayProperty
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9468))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9468))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9403))
 // CS Name: ::System.ComponentModel::ArrayConverter*
 class CORDL_TYPE ArrayConverter : public ::System::ComponentModel::CollectionConverter {

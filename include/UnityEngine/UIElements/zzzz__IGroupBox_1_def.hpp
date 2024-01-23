@@ -18,7 +18,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6938))
 // CS Name: ::UnityEngine.UIElements::IGroupBox`1<T>*
 class CORDL_TYPE IGroupBox_1 {

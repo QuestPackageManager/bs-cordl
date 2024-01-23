@@ -76,13 +76,13 @@ MARK_VAL_T(::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitD
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6381))
 // CS Name: ::TrackedDeviceRaycaster::RaycastHitData
 struct CORDL_TYPE __TrackedDeviceRaycaster__RaycastHitData {
 public:
   // Declarations
-  __declspec(property(get = get_graphic))::UnityEngine::UI::Graphic* graphic;
+  __declspec(property(get = get_graphic))::UnityW<::UnityEngine::UI::Graphic> graphic;
 
   __declspec(property(get = get_worldHitPosition))::UnityEngine::Vector3 worldHitPosition;
 
@@ -94,7 +94,7 @@ public:
   inline void _ctor(::UnityEngine::UI::Graphic* graphic, ::UnityEngine::Vector3 worldHitPosition, ::UnityEngine::Vector2 screenPosition, float_t distance);
 
   /// @brief Method get_graphic, addr 0x2ad74d0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Graphic* get_graphic();
+  inline ::UnityW<::UnityEngine::UI::Graphic> get_graphic();
 
   /// @brief Method get_worldHitPosition, addr 0x2ad74d8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_worldHitPosition();
@@ -105,10 +105,10 @@ public:
   /// @brief Method get_distance, addr 0x2ad74ec, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distance();
 
-  // Ctor Parameters [CppParam { name: "_graphic_k__BackingField", ty: "::UnityEngine::UI::Graphic*", modifiers: "", def_value: None }, CppParam { name: "_worldHitPosition_k__BackingField", ty:
-  // "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_screenPosition_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name:
-  // "_distance_k__BackingField", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr __TrackedDeviceRaycaster__RaycastHitData(::UnityEngine::UI::Graphic* _graphic_k__BackingField, ::UnityEngine::Vector3 _worldHitPosition_k__BackingField,
+  // Ctor Parameters [CppParam { name: "_graphic_k__BackingField", ty: "::UnityW<::UnityEngine::UI::Graphic>", modifiers: "", def_value: None }, CppParam { name: "_worldHitPosition_k__BackingField",
+  // ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "_screenPosition_k__BackingField", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam {
+  // name: "_distance_k__BackingField", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr __TrackedDeviceRaycaster__RaycastHitData(::UnityW<::UnityEngine::UI::Graphic> _graphic_k__BackingField, ::UnityEngine::Vector3 _worldHitPosition_k__BackingField,
                                                      ::UnityEngine::Vector2 _screenPosition_k__BackingField, float_t _distance_k__BackingField) noexcept;
 
   // Ctor Parameters []
@@ -116,7 +116,7 @@ public:
   constexpr __TrackedDeviceRaycaster__RaycastHitData();
 
   /// @brief Field <graphic>k__BackingField, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::UI::Graphic* _graphic_k__BackingField;
+  ::UnityW<::UnityEngine::UI::Graphic> _graphic_k__BackingField;
 
   /// @brief Field <worldHitPosition>k__BackingField, offset: 0x8, size: 0xc, def value: None
   ::UnityEngine::Vector3 _worldHitPosition_k__BackingField;
@@ -148,7 +148,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6382))
 // CS Name: ::TrackedDeviceRaycaster::<>c*
 class CORDL_TYPE __TrackedDeviceRaycaster____c : public ::System::Object {
@@ -201,8 +201,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::UI::__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13209)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(10204)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3869 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6383)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(13209)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3869 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6383)) CS Name:
 // ::UnityEngine.InputSystem.UI::TrackedDeviceRaycaster*
 class CORDL_TYPE TrackedDeviceRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster {
 public:
@@ -212,36 +212,37 @@ public:
   using RaycastHitData = ::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitData;
 
   /// @brief Field m_RaycastResultsCache, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_RaycastResultsCache,
-                      put = __set_m_RaycastResultsCache))::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitData>* m_RaycastResultsCache;
+  __declspec(property(
+      get = __cordl_internal_get_m_RaycastResultsCache,
+      put = __cordl_internal_set_m_RaycastResultsCache))::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitData>* m_RaycastResultsCache;
 
   /// @brief Field m_IgnoreReversedGraphics, offset 0x28, size 0x1
-  __declspec(property(get = __get_m_IgnoreReversedGraphics, put = __set_m_IgnoreReversedGraphics)) bool m_IgnoreReversedGraphics;
+  __declspec(property(get = __cordl_internal_get_m_IgnoreReversedGraphics, put = __cordl_internal_set_m_IgnoreReversedGraphics)) bool m_IgnoreReversedGraphics;
 
   /// @brief Field m_CheckFor2DOcclusion, offset 0x29, size 0x1
-  __declspec(property(get = __get_m_CheckFor2DOcclusion, put = __set_m_CheckFor2DOcclusion)) bool m_CheckFor2DOcclusion;
+  __declspec(property(get = __cordl_internal_get_m_CheckFor2DOcclusion, put = __cordl_internal_set_m_CheckFor2DOcclusion)) bool m_CheckFor2DOcclusion;
 
   /// @brief Field m_CheckFor3DOcclusion, offset 0x2a, size 0x1
-  __declspec(property(get = __get_m_CheckFor3DOcclusion, put = __set_m_CheckFor3DOcclusion)) bool m_CheckFor3DOcclusion;
+  __declspec(property(get = __cordl_internal_get_m_CheckFor3DOcclusion, put = __cordl_internal_set_m_CheckFor3DOcclusion)) bool m_CheckFor3DOcclusion;
 
   /// @brief Field m_MaxDistance, offset 0x2c, size 0x4
-  __declspec(property(get = __get_m_MaxDistance, put = __set_m_MaxDistance)) float_t m_MaxDistance;
+  __declspec(property(get = __cordl_internal_get_m_MaxDistance, put = __cordl_internal_set_m_MaxDistance)) float_t m_MaxDistance;
 
   /// @brief Field m_BlockingMask, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_BlockingMask, put = __set_m_BlockingMask))::UnityEngine::LayerMask m_BlockingMask;
+  __declspec(property(get = __cordl_internal_get_m_BlockingMask, put = __cordl_internal_set_m_BlockingMask))::UnityEngine::LayerMask m_BlockingMask;
 
   /// @brief Field m_Canvas, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_Canvas, put = __set_m_Canvas))::UnityEngine::Canvas* m_Canvas;
+  __declspec(property(get = __cordl_internal_get_m_Canvas, put = __cordl_internal_set_m_Canvas))::UnityW<::UnityEngine::Canvas> m_Canvas;
 
   /// @brief Field s_Instances, offset 0xffffffff, size 0x18
   static __declspec(property(get = getStaticF_s_Instances,
-                             put = setStaticF_s_Instances))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster*> s_Instances;
+                             put = setStaticF_s_Instances))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityW<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster>> s_Instances;
 
   /// @brief Field s_SortedGraphics, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_SortedGraphics,
                              put = setStaticF_s_SortedGraphics))::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitData>* s_SortedGraphics;
 
-  __declspec(property(get = get_eventCamera))::UnityEngine::Camera* eventCamera;
+  __declspec(property(get = get_eventCamera))::UnityW<::UnityEngine::Camera> eventCamera;
 
   __declspec(property(get = get_blockingMask, put = set_blockingMask))::UnityEngine::LayerMask blockingMask;
 
@@ -253,61 +254,61 @@ public:
 
   __declspec(property(get = get_maxDistance, put = set_maxDistance)) float_t maxDistance;
 
-  __declspec(property(get = get_canvas))::UnityEngine::Canvas* canvas;
+  __declspec(property(get = get_canvas))::UnityW<::UnityEngine::Canvas> canvas;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitData>*& __get_m_RaycastResultsCache();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitData>*& __cordl_internal_get_m_RaycastResultsCache();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitData>*> const&
-  __get_m_RaycastResultsCache() const;
+  __cordl_internal_get_m_RaycastResultsCache() const;
 
-  constexpr void __set_m_RaycastResultsCache(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitData>* value);
+  constexpr void __cordl_internal_set_m_RaycastResultsCache(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitData>* value);
 
-  constexpr bool& __get_m_IgnoreReversedGraphics();
+  constexpr bool& __cordl_internal_get_m_IgnoreReversedGraphics();
 
-  constexpr bool const& __get_m_IgnoreReversedGraphics() const;
+  constexpr bool const& __cordl_internal_get_m_IgnoreReversedGraphics() const;
 
-  constexpr void __set_m_IgnoreReversedGraphics(bool value);
+  constexpr void __cordl_internal_set_m_IgnoreReversedGraphics(bool value);
 
-  constexpr bool& __get_m_CheckFor2DOcclusion();
+  constexpr bool& __cordl_internal_get_m_CheckFor2DOcclusion();
 
-  constexpr bool const& __get_m_CheckFor2DOcclusion() const;
+  constexpr bool const& __cordl_internal_get_m_CheckFor2DOcclusion() const;
 
-  constexpr void __set_m_CheckFor2DOcclusion(bool value);
+  constexpr void __cordl_internal_set_m_CheckFor2DOcclusion(bool value);
 
-  constexpr bool& __get_m_CheckFor3DOcclusion();
+  constexpr bool& __cordl_internal_get_m_CheckFor3DOcclusion();
 
-  constexpr bool const& __get_m_CheckFor3DOcclusion() const;
+  constexpr bool const& __cordl_internal_get_m_CheckFor3DOcclusion() const;
 
-  constexpr void __set_m_CheckFor3DOcclusion(bool value);
+  constexpr void __cordl_internal_set_m_CheckFor3DOcclusion(bool value);
 
-  constexpr float_t& __get_m_MaxDistance();
+  constexpr float_t& __cordl_internal_get_m_MaxDistance();
 
-  constexpr float_t const& __get_m_MaxDistance() const;
+  constexpr float_t const& __cordl_internal_get_m_MaxDistance() const;
 
-  constexpr void __set_m_MaxDistance(float_t value);
+  constexpr void __cordl_internal_set_m_MaxDistance(float_t value);
 
-  constexpr ::UnityEngine::LayerMask& __get_m_BlockingMask();
+  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_m_BlockingMask();
 
-  constexpr ::UnityEngine::LayerMask const& __get_m_BlockingMask() const;
+  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_m_BlockingMask() const;
 
-  constexpr void __set_m_BlockingMask(::UnityEngine::LayerMask value);
+  constexpr void __cordl_internal_set_m_BlockingMask(::UnityEngine::LayerMask value);
 
-  constexpr ::UnityEngine::Canvas*& __get_m_Canvas();
+  constexpr ::UnityW<::UnityEngine::Canvas>& __cordl_internal_get_m_Canvas();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Canvas*> const& __get_m_Canvas() const;
+  constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get_m_Canvas() const;
 
-  constexpr void __set_m_Canvas(::UnityEngine::Canvas* value);
+  constexpr void __cordl_internal_set_m_Canvas(::UnityW<::UnityEngine::Canvas> value);
 
-  static inline void setStaticF_s_Instances(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster*> value);
+  static inline void setStaticF_s_Instances(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityW<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster>> value);
 
-  static inline ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster*> getStaticF_s_Instances();
+  static inline ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityW<::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster>> getStaticF_s_Instances();
 
   static inline void setStaticF_s_SortedGraphics(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitData>* value);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::UI::__TrackedDeviceRaycaster__RaycastHitData>* getStaticF_s_SortedGraphics();
 
   /// @brief Method get_eventCamera, addr 0x2ad68cc, size 0x94, virtual true, abstract: false, final false
-  inline ::UnityEngine::Camera* get_eventCamera();
+  inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
   /// @brief Method get_blockingMask, addr 0x2ad69f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_blockingMask();
@@ -359,7 +360,7 @@ public:
   static inline bool RayIntersectsRectTransform(::UnityEngine::RectTransform* transform, ::UnityEngine::Ray ray, ByRef<::UnityEngine::Vector3> worldPosition, ByRef<float_t> distance);
 
   /// @brief Method get_canvas, addr 0x2ad6960, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::Canvas* get_canvas();
+  inline ::UnityW<::UnityEngine::Canvas> get_canvas();
 
   static inline ::UnityEngine::InputSystem::UI::TrackedDeviceRaycaster* New_ctor();
 
@@ -399,7 +400,7 @@ public:
   ::UnityEngine::LayerMask ___m_BlockingMask;
 
   /// @brief Field m_Canvas, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Canvas* ___m_Canvas;
+  ::UnityW<::UnityEngine::Canvas> ___m_Canvas;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

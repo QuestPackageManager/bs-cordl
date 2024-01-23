@@ -35,29 +35,29 @@ MARK_REF_PTR_T(::BGNet::Logging::__Debug__LoggerLinkedList);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Logging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16234))
 // CS Name: ::Debug::LoggerLinkedList*
 class CORDL_TYPE __Debug__LoggerLinkedList : public ::System::Object {
 public:
   // Declarations
   /// @brief Field logger, offset 0x10, size 0x8
-  __declspec(property(get = __get_logger, put = __set_logger))::BGNet::Logging::__Debug__ILogger* logger;
+  __declspec(property(get = __cordl_internal_get_logger, put = __cordl_internal_set_logger))::BGNet::Logging::__Debug__ILogger* logger;
 
   /// @brief Field next, offset 0x18, size 0x8
-  __declspec(property(get = __get_next, put = __set_next))::BGNet::Logging::__Debug__LoggerLinkedList* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::BGNet::Logging::__Debug__LoggerLinkedList* next;
 
-  constexpr ::BGNet::Logging::__Debug__ILogger*& __get_logger();
+  constexpr ::BGNet::Logging::__Debug__ILogger*& __cordl_internal_get_logger();
 
-  constexpr ::cordl_internals::to_const_pointer<::BGNet::Logging::__Debug__ILogger*> const& __get_logger() const;
+  constexpr ::cordl_internals::to_const_pointer<::BGNet::Logging::__Debug__ILogger*> const& __cordl_internal_get_logger() const;
 
-  constexpr void __set_logger(::BGNet::Logging::__Debug__ILogger* value);
+  constexpr void __cordl_internal_set_logger(::BGNet::Logging::__Debug__ILogger* value);
 
-  constexpr ::BGNet::Logging::__Debug__LoggerLinkedList*& __get_next();
+  constexpr ::BGNet::Logging::__Debug__LoggerLinkedList*& __cordl_internal_get_next();
 
-  constexpr ::cordl_internals::to_const_pointer<::BGNet::Logging::__Debug__LoggerLinkedList*> const& __get_next() const;
+  constexpr ::cordl_internals::to_const_pointer<::BGNet::Logging::__Debug__LoggerLinkedList*> const& __cordl_internal_get_next() const;
 
-  constexpr void __set_next(::BGNet::Logging::__Debug__LoggerLinkedList* value);
+  constexpr void __cordl_internal_set_next(::BGNet::Logging::__Debug__LoggerLinkedList* value);
 
   static inline ::BGNet::Logging::__Debug__LoggerLinkedList* New_ctor(::BGNet::Logging::__Debug__ILogger* logger);
 
@@ -98,7 +98,7 @@ static_assert(offsetof(::BGNet::Logging::__Debug__LoggerLinkedList, ___next) == 
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGNet::Logging {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16235))
 // CS Name: ::Debug::ILogger*
 class CORDL_TYPE __Debug__ILogger {
@@ -132,7 +132,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGNet::Logging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16236))
 // CS Name: ::BGNet.Logging::Debug*
 class CORDL_TYPE Debug : public ::System::Object {

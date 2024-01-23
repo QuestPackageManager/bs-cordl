@@ -26,42 +26,42 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2432))
 // CS Name: ::System::Lazy`1<T>*
 class CORDL_TYPE Lazy_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _state, offset 0x10, size 0x8
-  __declspec(property(get = __get__state, put = __set__state))::System::LazyHelper* _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::System::LazyHelper* _state;
 
   /// @brief Field _factory, offset 0x18, size 0x8
-  __declspec(property(get = __get__factory, put = __set__factory))::System::Func_1<T>* _factory;
+  __declspec(property(get = __cordl_internal_get__factory, put = __cordl_internal_set__factory))::System::Func_1<T>* _factory;
 
   /// @brief Field _value, offset 0x20, size 0x8
-  __declspec(property(get = __get__value, put = __set__value)) T _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) T _value;
 
   __declspec(property(get = get_IsValueCreated)) bool IsValueCreated;
 
   __declspec(property(get = get_Value)) T Value;
 
-  constexpr ::System::LazyHelper*& __get__state();
+  constexpr ::System::LazyHelper*& __cordl_internal_get__state();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::LazyHelper*> const& __get__state() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::LazyHelper*> const& __cordl_internal_get__state() const;
 
-  constexpr void __set__state(::System::LazyHelper* value);
+  constexpr void __cordl_internal_set__state(::System::LazyHelper* value);
 
-  constexpr ::System::Func_1<T>*& __get__factory();
+  constexpr ::System::Func_1<T>*& __cordl_internal_get__factory();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __get__factory() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get__factory() const;
 
-  constexpr void __set__factory(::System::Func_1<T>* value);
+  constexpr void __cordl_internal_set__factory(::System::Func_1<T>* value);
 
-  constexpr T& __get__value();
+  constexpr T& __cordl_internal_get__value();
 
-  constexpr T const& __get__value() const;
+  constexpr T const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(T value);
+  constexpr void __cordl_internal_set__value(T value);
 
   /// @brief Method CreateViaDefaultConstructor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T CreateViaDefaultConstructor();

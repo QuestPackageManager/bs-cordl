@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlAttributeOverridesTraits);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6995))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6995))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6977))
 // CS Name: ::UnityEngine.UIElements::UxmlAttributeOverridesTraits*
 class CORDL_TYPE UxmlAttributeOverridesTraits : public ::UnityEngine::UIElements::UxmlTraits {
 public:
   // Declarations
   /// @brief Field m_ElementName, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_ElementName, put = __set_m_ElementName))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_ElementName;
+  __declspec(property(get = __cordl_internal_get_m_ElementName, put = __cordl_internal_set_m_ElementName))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_ElementName;
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_ElementName();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_ElementName();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_ElementName() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_ElementName() const;
 
-  constexpr void __set_m_ElementName(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_ElementName(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
   static inline ::UnityEngine::UIElements::UxmlAttributeOverridesTraits* New_ctor();
 

@@ -15,7 +15,7 @@ MARK_VAL_T(::Newtonsoft::Json::Linq::MergeArrayHandling);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11972))
 // CS Name: ::Newtonsoft.Json.Linq::MergeArrayHandling
 struct CORDL_TYPE MergeArrayHandling {

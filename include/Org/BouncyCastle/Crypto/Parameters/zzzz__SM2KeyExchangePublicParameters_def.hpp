@@ -20,17 +20,18 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicPara
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1085))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::SM2KeyExchangePublicParameters*
 class CORDL_TYPE SM2KeyExchangePublicParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mStaticPublicKey, offset 0x10, size 0x8
-  __declspec(property(get = __get_mStaticPublicKey, put = __set_mStaticPublicKey))::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* mStaticPublicKey;
+  __declspec(property(get = __cordl_internal_get_mStaticPublicKey, put = __cordl_internal_set_mStaticPublicKey))::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* mStaticPublicKey;
 
   /// @brief Field mEphemeralPublicKey, offset 0x18, size 0x8
-  __declspec(property(get = __get_mEphemeralPublicKey, put = __set_mEphemeralPublicKey))::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* mEphemeralPublicKey;
+  __declspec(property(get = __cordl_internal_get_mEphemeralPublicKey,
+                      put = __cordl_internal_set_mEphemeralPublicKey))::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* mEphemeralPublicKey;
 
   __declspec(property(get = get_StaticPublicKey))::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* StaticPublicKey;
 
@@ -42,17 +43,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*& __get_mStaticPublicKey();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*& __cordl_internal_get_mStaticPublicKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*> const& __get_mStaticPublicKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*> const& __cordl_internal_get_mStaticPublicKey() const;
 
-  constexpr void __set_mStaticPublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* value);
+  constexpr void __cordl_internal_set_mStaticPublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*& __get_mEphemeralPublicKey();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*& __cordl_internal_get_mEphemeralPublicKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*> const& __get_mEphemeralPublicKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters*> const& __cordl_internal_get_mEphemeralPublicKey() const;
 
-  constexpr void __set_mEphemeralPublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* value);
+  constexpr void __cordl_internal_set_mEphemeralPublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* value);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePublicParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* staticPublicKey,
                                                                                                   ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* ephemeralPublicKey);

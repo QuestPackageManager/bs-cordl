@@ -27,14 +27,14 @@ MARK_REF_PTR_T(::GlobalNamespace::CompositeLogger);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5876))
 // CS Name: ::CompositeLogger*
 class CORDL_TYPE CompositeLogger : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _loggers, offset 0x10, size 0x8
-  __declspec(property(get = __get__loggers, put = __set__loggers))::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* _loggers;
+  __declspec(property(get = __cordl_internal_get__loggers, put = __cordl_internal_set__loggers))::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* _loggers;
 
   /// @brief Convert operator to "::GlobalNamespace::IBeatSaberLogger"
   constexpr operator ::GlobalNamespace::IBeatSaberLogger*() noexcept;
@@ -42,11 +42,11 @@ public:
   /// @brief Convert to "::GlobalNamespace::IBeatSaberLogger"
   constexpr ::GlobalNamespace::IBeatSaberLogger* i___GlobalNamespace__IBeatSaberLogger() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>*& __get__loggers();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>*& __cordl_internal_get__loggers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>*> const& __get__loggers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>*> const& __cordl_internal_get__loggers() const;
 
-  constexpr void __set__loggers(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* value);
+  constexpr void __cordl_internal_set__loggers(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* value);
 
   static inline ::GlobalNamespace::CompositeLogger* New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* loggers);
 

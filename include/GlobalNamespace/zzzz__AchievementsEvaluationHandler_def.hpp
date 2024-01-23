@@ -38,276 +38,287 @@ MARK_REF_PTR_T(::GlobalNamespace::AchievementsEvaluationHandler);
 // SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 248, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4086))
 // CS Name: ::AchievementsEvaluationHandler*
 class CORDL_TYPE AchievementsEvaluationHandler : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _achievementsModel, offset 0x18, size 0x8
-  __declspec(property(get = __get__achievementsModel, put = __set__achievementsModel))::GlobalNamespace::AchievementsModelSO* _achievementsModel;
+  __declspec(property(get = __cordl_internal_get__achievementsModel, put = __cordl_internal_set__achievementsModel))::UnityW<::GlobalNamespace::AchievementsModelSO> _achievementsModel;
 
   /// @brief Field _clearedLevel100Achievement, offset 0x20, size 0x8
-  __declspec(property(get = __get__clearedLevel100Achievement, put = __set__clearedLevel100Achievement))::GlobalNamespace::AchievementSO* _clearedLevel100Achievement;
+  __declspec(property(get = __cordl_internal_get__clearedLevel100Achievement,
+                      put = __cordl_internal_set__clearedLevel100Achievement))::UnityW<::GlobalNamespace::AchievementSO> _clearedLevel100Achievement;
 
   /// @brief Field _totalScore100MillionAchievement, offset 0x28, size 0x8
-  __declspec(property(get = __get__totalScore100MillionAchievement, put = __set__totalScore100MillionAchievement))::GlobalNamespace::AchievementSO* _totalScore100MillionAchievement;
+  __declspec(property(get = __cordl_internal_get__totalScore100MillionAchievement,
+                      put = __cordl_internal_set__totalScore100MillionAchievement))::UnityW<::GlobalNamespace::AchievementSO> _totalScore100MillionAchievement;
 
   /// @brief Field _24HoursPlayedAchievement, offset 0x30, size 0x8
-  __declspec(property(get = __get__24HoursPlayedAchievement, put = __set__24HoursPlayedAchievement))::GlobalNamespace::AchievementSO* _24HoursPlayedAchievement;
+  __declspec(property(get = __cordl_internal_get__24HoursPlayedAchievement, put = __cordl_internal_set__24HoursPlayedAchievement))::UnityW<::GlobalNamespace::AchievementSO> _24HoursPlayedAchievement;
 
   /// @brief Field _kilometersTravelled100Achievement, offset 0x38, size 0x8
-  __declspec(property(get = __get__kilometersTravelled100Achievement, put = __set__kilometersTravelled100Achievement))::GlobalNamespace::AchievementSO* _kilometersTravelled100Achievement;
+  __declspec(property(get = __cordl_internal_get__kilometersTravelled100Achievement,
+                      put = __cordl_internal_set__kilometersTravelled100Achievement))::UnityW<::GlobalNamespace::AchievementSO> _kilometersTravelled100Achievement;
 
   /// @brief Field _15ExpertLevelsRankSAchievement, offset 0x40, size 0x8
-  __declspec(property(get = __get__15ExpertLevelsRankSAchievement, put = __set__15ExpertLevelsRankSAchievement))::GlobalNamespace::AchievementSO* _15ExpertLevelsRankSAchievement;
+  __declspec(property(get = __cordl_internal_get__15ExpertLevelsRankSAchievement,
+                      put = __cordl_internal_set__15ExpertLevelsRankSAchievement))::UnityW<::GlobalNamespace::AchievementSO> _15ExpertLevelsRankSAchievement;
 
   /// @brief Field _15ExpertLevelsFullComboAchievement, offset 0x48, size 0x8
-  __declspec(property(get = __get__15ExpertLevelsFullComboAchievement, put = __set__15ExpertLevelsFullComboAchievement))::GlobalNamespace::AchievementSO* _15ExpertLevelsFullComboAchievement;
+  __declspec(property(get = __cordl_internal_get__15ExpertLevelsFullComboAchievement,
+                      put = __cordl_internal_set__15ExpertLevelsFullComboAchievement))::UnityW<::GlobalNamespace::AchievementSO> _15ExpertLevelsFullComboAchievement;
 
   /// @brief Field _15HardLevelsRankSAchievement, offset 0x50, size 0x8
-  __declspec(property(get = __get__15HardLevelsRankSAchievement, put = __set__15HardLevelsRankSAchievement))::GlobalNamespace::AchievementSO* _15HardLevelsRankSAchievement;
+  __declspec(property(get = __cordl_internal_get__15HardLevelsRankSAchievement,
+                      put = __cordl_internal_set__15HardLevelsRankSAchievement))::UnityW<::GlobalNamespace::AchievementSO> _15HardLevelsRankSAchievement;
 
   /// @brief Field _15HardLevelsFullComboAchievement, offset 0x58, size 0x8
-  __declspec(property(get = __get__15HardLevelsFullComboAchievement, put = __set__15HardLevelsFullComboAchievement))::GlobalNamespace::AchievementSO* _15HardLevelsFullComboAchievement;
+  __declspec(property(get = __cordl_internal_get__15HardLevelsFullComboAchievement,
+                      put = __cordl_internal_set__15HardLevelsFullComboAchievement))::UnityW<::GlobalNamespace::AchievementSO> _15HardLevelsFullComboAchievement;
 
   /// @brief Field _expertLevelClearedWithoutModifiersAchievement, offset 0x60, size 0x8
-  __declspec(property(get = __get__expertLevelClearedWithoutModifiersAchievement,
-                      put = __set__expertLevelClearedWithoutModifiersAchievement))::GlobalNamespace::AchievementSO* _expertLevelClearedWithoutModifiersAchievement;
+  __declspec(property(get = __cordl_internal_get__expertLevelClearedWithoutModifiersAchievement,
+                      put = __cordl_internal_set__expertLevelClearedWithoutModifiersAchievement))::UnityW<::GlobalNamespace::AchievementSO> _expertLevelClearedWithoutModifiersAchievement;
 
   /// @brief Field _fullComboExpertWithoutModifiersAchievement, offset 0x68, size 0x8
-  __declspec(property(get = __get__fullComboExpertWithoutModifiersAchievement,
-                      put = __set__fullComboExpertWithoutModifiersAchievement))::GlobalNamespace::AchievementSO* _fullComboExpertWithoutModifiersAchievement;
+  __declspec(property(get = __cordl_internal_get__fullComboExpertWithoutModifiersAchievement,
+                      put = __cordl_internal_set__fullComboExpertWithoutModifiersAchievement))::UnityW<::GlobalNamespace::AchievementSO> _fullComboExpertWithoutModifiersAchievement;
 
   /// @brief Field _goodCuts10000Achievement, offset 0x70, size 0x8
-  __declspec(property(get = __get__goodCuts10000Achievement, put = __set__goodCuts10000Achievement))::GlobalNamespace::AchievementSO* _goodCuts10000Achievement;
+  __declspec(property(get = __cordl_internal_get__goodCuts10000Achievement, put = __cordl_internal_set__goodCuts10000Achievement))::UnityW<::GlobalNamespace::AchievementSO> _goodCuts10000Achievement;
 
   /// @brief Field _resultMinRankANormalWithoutModifiersAchievement, offset 0x78, size 0x8
-  __declspec(property(get = __get__resultMinRankANormalWithoutModifiersAchievement,
-                      put = __set__resultMinRankANormalWithoutModifiersAchievement))::GlobalNamespace::AchievementSO* _resultMinRankANormalWithoutModifiersAchievement;
+  __declspec(property(get = __cordl_internal_get__resultMinRankANormalWithoutModifiersAchievement,
+                      put = __cordl_internal_set__resultMinRankANormalWithoutModifiersAchievement))::UnityW<::GlobalNamespace::AchievementSO> _resultMinRankANormalWithoutModifiersAchievement;
 
   /// @brief Field _resultMinRankSHardWithoutModifiersAchievement, offset 0x80, size 0x8
-  __declspec(property(get = __get__resultMinRankSHardWithoutModifiersAchievement,
-                      put = __set__resultMinRankSHardWithoutModifiersAchievement))::GlobalNamespace::AchievementSO* _resultMinRankSHardWithoutModifiersAchievement;
+  __declspec(property(get = __cordl_internal_get__resultMinRankSHardWithoutModifiersAchievement,
+                      put = __cordl_internal_set__resultMinRankSHardWithoutModifiersAchievement))::UnityW<::GlobalNamespace::AchievementSO> _resultMinRankSHardWithoutModifiersAchievement;
 
   /// @brief Field _resultMinRankSSExpertWithoutModifiersAchievement, offset 0x88, size 0x8
-  __declspec(property(get = __get__resultMinRankSSExpertWithoutModifiersAchievement,
-                      put = __set__resultMinRankSSExpertWithoutModifiersAchievement))::GlobalNamespace::AchievementSO* _resultMinRankSSExpertWithoutModifiersAchievement;
+  __declspec(property(get = __cordl_internal_get__resultMinRankSSExpertWithoutModifiersAchievement,
+                      put = __cordl_internal_set__resultMinRankSSExpertWithoutModifiersAchievement))::UnityW<::GlobalNamespace::AchievementSO> _resultMinRankSSExpertWithoutModifiersAchievement;
 
   /// @brief Field _combo50NormalWithoutModifiersAchievement, offset 0x90, size 0x8
-  __declspec(property(get = __get__combo50NormalWithoutModifiersAchievement,
-                      put = __set__combo50NormalWithoutModifiersAchievement))::GlobalNamespace::AchievementSO* _combo50NormalWithoutModifiersAchievement;
+  __declspec(property(get = __cordl_internal_get__combo50NormalWithoutModifiersAchievement,
+                      put = __cordl_internal_set__combo50NormalWithoutModifiersAchievement))::UnityW<::GlobalNamespace::AchievementSO> _combo50NormalWithoutModifiersAchievement;
 
   /// @brief Field _combo100HardWithoutModifiersAchievement, offset 0x98, size 0x8
-  __declspec(property(get = __get__combo100HardWithoutModifiersAchievement,
-                      put = __set__combo100HardWithoutModifiersAchievement))::GlobalNamespace::AchievementSO* _combo100HardWithoutModifiersAchievement;
+  __declspec(property(get = __cordl_internal_get__combo100HardWithoutModifiersAchievement,
+                      put = __cordl_internal_set__combo100HardWithoutModifiersAchievement))::UnityW<::GlobalNamespace::AchievementSO> _combo100HardWithoutModifiersAchievement;
 
   /// @brief Field _combo500ExpertWithoutModifiersAchievement, offset 0xa0, size 0x8
-  __declspec(property(get = __get__combo500ExpertWithoutModifiersAchievement,
-                      put = __set__combo500ExpertWithoutModifiersAchievement))::GlobalNamespace::AchievementSO* _combo500ExpertWithoutModifiersAchievement;
+  __declspec(property(get = __cordl_internal_get__combo500ExpertWithoutModifiersAchievement,
+                      put = __cordl_internal_set__combo500ExpertWithoutModifiersAchievement))::UnityW<::GlobalNamespace::AchievementSO> _combo500ExpertWithoutModifiersAchievement;
 
   /// @brief Field _clearedLevelWithoutModifiersAchievement, offset 0xa8, size 0x8
-  __declspec(property(get = __get__clearedLevelWithoutModifiersAchievement,
-                      put = __set__clearedLevelWithoutModifiersAchievement))::GlobalNamespace::AchievementSO* _clearedLevelWithoutModifiersAchievement;
+  __declspec(property(get = __cordl_internal_get__clearedLevelWithoutModifiersAchievement,
+                      put = __cordl_internal_set__clearedLevelWithoutModifiersAchievement))::UnityW<::GlobalNamespace::AchievementSO> _clearedLevelWithoutModifiersAchievement;
 
   /// @brief Field _clearedLevelWithSongSpeedFasterModifierAchievement, offset 0xb0, size 0x8
-  __declspec(property(get = __get__clearedLevelWithSongSpeedFasterModifierAchievement,
-                      put = __set__clearedLevelWithSongSpeedFasterModifierAchievement))::GlobalNamespace::AchievementSO* _clearedLevelWithSongSpeedFasterModifierAchievement;
+  __declspec(property(get = __cordl_internal_get__clearedLevelWithSongSpeedFasterModifierAchievement,
+                      put = __cordl_internal_set__clearedLevelWithSongSpeedFasterModifierAchievement))::UnityW<::GlobalNamespace::AchievementSO> _clearedLevelWithSongSpeedFasterModifierAchievement;
 
   /// @brief Field _clearedLevelWithInstaFailModifierAchievement, offset 0xb8, size 0x8
-  __declspec(property(get = __get__clearedLevelWithInstaFailModifierAchievement,
-                      put = __set__clearedLevelWithInstaFailModifierAchievement))::GlobalNamespace::AchievementSO* _clearedLevelWithInstaFailModifierAchievement;
+  __declspec(property(get = __cordl_internal_get__clearedLevelWithInstaFailModifierAchievement,
+                      put = __cordl_internal_set__clearedLevelWithInstaFailModifierAchievement))::UnityW<::GlobalNamespace::AchievementSO> _clearedLevelWithInstaFailModifierAchievement;
 
   /// @brief Field _clearedLevelWithDisappearingArrowsModifierAchievement, offset 0xc0, size 0x8
-  __declspec(property(get = __get__clearedLevelWithDisappearingArrowsModifierAchievement,
-                      put = __set__clearedLevelWithDisappearingArrowsModifierAchievement))::GlobalNamespace::AchievementSO* _clearedLevelWithDisappearingArrowsModifierAchievement;
+  __declspec(
+      property(get = __cordl_internal_get__clearedLevelWithDisappearingArrowsModifierAchievement,
+               put = __cordl_internal_set__clearedLevelWithDisappearingArrowsModifierAchievement))::UnityW<::GlobalNamespace::AchievementSO> _clearedLevelWithDisappearingArrowsModifierAchievement;
 
   /// @brief Field _clearedLevelWithBatteryEnergyModifierAchievement, offset 0xc8, size 0x8
-  __declspec(property(get = __get__clearedLevelWithBatteryEnergyModifierAchievement,
-                      put = __set__clearedLevelWithBatteryEnergyModifierAchievement))::GlobalNamespace::AchievementSO* _clearedLevelWithBatteryEnergyModifierAchievement;
+  __declspec(property(get = __cordl_internal_get__clearedLevelWithBatteryEnergyModifierAchievement,
+                      put = __cordl_internal_set__clearedLevelWithBatteryEnergyModifierAchievement))::UnityW<::GlobalNamespace::AchievementSO> _clearedLevelWithBatteryEnergyModifierAchievement;
 
   /// @brief Field _cleared30MissionsAchievement, offset 0xd0, size 0x8
-  __declspec(property(get = __get__cleared30MissionsAchievement, put = __set__cleared30MissionsAchievement))::GlobalNamespace::AchievementSO* _cleared30MissionsAchievement;
+  __declspec(property(get = __cordl_internal_get__cleared30MissionsAchievement,
+                      put = __cordl_internal_set__cleared30MissionsAchievement))::UnityW<::GlobalNamespace::AchievementSO> _cleared30MissionsAchievement;
 
   /// @brief Field _finalMissionClearedAchievement, offset 0xd8, size 0x8
-  __declspec(property(get = __get__finalMissionClearedAchievement, put = __set__finalMissionClearedAchievement))::GlobalNamespace::AchievementSO* _finalMissionClearedAchievement;
+  __declspec(property(get = __cordl_internal_get__finalMissionClearedAchievement,
+                      put = __cordl_internal_set__finalMissionClearedAchievement))::UnityW<::GlobalNamespace::AchievementSO> _finalMissionClearedAchievement;
 
   /// @brief Field _allMissionClearedAchievement, offset 0xe0, size 0x8
-  __declspec(property(get = __get__allMissionClearedAchievement, put = __set__allMissionClearedAchievement))::GlobalNamespace::AchievementSO* _allMissionClearedAchievement;
+  __declspec(property(get = __cordl_internal_get__allMissionClearedAchievement,
+                      put = __cordl_internal_set__allMissionClearedAchievement))::UnityW<::GlobalNamespace::AchievementSO> _allMissionClearedAchievement;
 
   /// @brief Field _playerDataModel, offset 0xe8, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _missionNodesManager, offset 0xf0, size 0x8
-  __declspec(property(get = __get__missionNodesManager, put = __set__missionNodesManager))::GlobalNamespace::MissionNodesManager* _missionNodesManager;
+  __declspec(property(get = __cordl_internal_get__missionNodesManager, put = __cordl_internal_set__missionNodesManager))::UnityW<::GlobalNamespace::MissionNodesManager> _missionNodesManager;
 
-  constexpr ::GlobalNamespace::AchievementsModelSO*& __get__achievementsModel();
+  constexpr ::UnityW<::GlobalNamespace::AchievementsModelSO>& __cordl_internal_get__achievementsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementsModelSO*> const& __get__achievementsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementsModelSO> const& __cordl_internal_get__achievementsModel() const;
 
-  constexpr void __set__achievementsModel(::GlobalNamespace::AchievementsModelSO* value);
+  constexpr void __cordl_internal_set__achievementsModel(::UnityW<::GlobalNamespace::AchievementsModelSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__clearedLevel100Achievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__clearedLevel100Achievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__clearedLevel100Achievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__clearedLevel100Achievement() const;
 
-  constexpr void __set__clearedLevel100Achievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__clearedLevel100Achievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__totalScore100MillionAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__totalScore100MillionAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__totalScore100MillionAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__totalScore100MillionAchievement() const;
 
-  constexpr void __set__totalScore100MillionAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__totalScore100MillionAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__24HoursPlayedAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__24HoursPlayedAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__24HoursPlayedAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__24HoursPlayedAchievement() const;
 
-  constexpr void __set__24HoursPlayedAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__24HoursPlayedAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__kilometersTravelled100Achievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__kilometersTravelled100Achievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__kilometersTravelled100Achievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__kilometersTravelled100Achievement() const;
 
-  constexpr void __set__kilometersTravelled100Achievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__kilometersTravelled100Achievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__15ExpertLevelsRankSAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__15ExpertLevelsRankSAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__15ExpertLevelsRankSAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__15ExpertLevelsRankSAchievement() const;
 
-  constexpr void __set__15ExpertLevelsRankSAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__15ExpertLevelsRankSAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__15ExpertLevelsFullComboAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__15ExpertLevelsFullComboAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__15ExpertLevelsFullComboAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__15ExpertLevelsFullComboAchievement() const;
 
-  constexpr void __set__15ExpertLevelsFullComboAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__15ExpertLevelsFullComboAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__15HardLevelsRankSAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__15HardLevelsRankSAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__15HardLevelsRankSAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__15HardLevelsRankSAchievement() const;
 
-  constexpr void __set__15HardLevelsRankSAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__15HardLevelsRankSAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__15HardLevelsFullComboAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__15HardLevelsFullComboAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__15HardLevelsFullComboAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__15HardLevelsFullComboAchievement() const;
 
-  constexpr void __set__15HardLevelsFullComboAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__15HardLevelsFullComboAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__expertLevelClearedWithoutModifiersAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__expertLevelClearedWithoutModifiersAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__expertLevelClearedWithoutModifiersAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__expertLevelClearedWithoutModifiersAchievement() const;
 
-  constexpr void __set__expertLevelClearedWithoutModifiersAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__expertLevelClearedWithoutModifiersAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__fullComboExpertWithoutModifiersAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__fullComboExpertWithoutModifiersAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__fullComboExpertWithoutModifiersAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__fullComboExpertWithoutModifiersAchievement() const;
 
-  constexpr void __set__fullComboExpertWithoutModifiersAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__fullComboExpertWithoutModifiersAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__goodCuts10000Achievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__goodCuts10000Achievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__goodCuts10000Achievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__goodCuts10000Achievement() const;
 
-  constexpr void __set__goodCuts10000Achievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__goodCuts10000Achievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__resultMinRankANormalWithoutModifiersAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__resultMinRankANormalWithoutModifiersAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__resultMinRankANormalWithoutModifiersAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__resultMinRankANormalWithoutModifiersAchievement() const;
 
-  constexpr void __set__resultMinRankANormalWithoutModifiersAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__resultMinRankANormalWithoutModifiersAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__resultMinRankSHardWithoutModifiersAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__resultMinRankSHardWithoutModifiersAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__resultMinRankSHardWithoutModifiersAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__resultMinRankSHardWithoutModifiersAchievement() const;
 
-  constexpr void __set__resultMinRankSHardWithoutModifiersAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__resultMinRankSHardWithoutModifiersAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__resultMinRankSSExpertWithoutModifiersAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__resultMinRankSSExpertWithoutModifiersAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__resultMinRankSSExpertWithoutModifiersAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__resultMinRankSSExpertWithoutModifiersAchievement() const;
 
-  constexpr void __set__resultMinRankSSExpertWithoutModifiersAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__resultMinRankSSExpertWithoutModifiersAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__combo50NormalWithoutModifiersAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__combo50NormalWithoutModifiersAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__combo50NormalWithoutModifiersAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__combo50NormalWithoutModifiersAchievement() const;
 
-  constexpr void __set__combo50NormalWithoutModifiersAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__combo50NormalWithoutModifiersAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__combo100HardWithoutModifiersAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__combo100HardWithoutModifiersAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__combo100HardWithoutModifiersAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__combo100HardWithoutModifiersAchievement() const;
 
-  constexpr void __set__combo100HardWithoutModifiersAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__combo100HardWithoutModifiersAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__combo500ExpertWithoutModifiersAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__combo500ExpertWithoutModifiersAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__combo500ExpertWithoutModifiersAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__combo500ExpertWithoutModifiersAchievement() const;
 
-  constexpr void __set__combo500ExpertWithoutModifiersAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__combo500ExpertWithoutModifiersAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__clearedLevelWithoutModifiersAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__clearedLevelWithoutModifiersAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__clearedLevelWithoutModifiersAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__clearedLevelWithoutModifiersAchievement() const;
 
-  constexpr void __set__clearedLevelWithoutModifiersAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__clearedLevelWithoutModifiersAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__clearedLevelWithSongSpeedFasterModifierAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__clearedLevelWithSongSpeedFasterModifierAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__clearedLevelWithSongSpeedFasterModifierAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__clearedLevelWithSongSpeedFasterModifierAchievement() const;
 
-  constexpr void __set__clearedLevelWithSongSpeedFasterModifierAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__clearedLevelWithSongSpeedFasterModifierAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__clearedLevelWithInstaFailModifierAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__clearedLevelWithInstaFailModifierAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__clearedLevelWithInstaFailModifierAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__clearedLevelWithInstaFailModifierAchievement() const;
 
-  constexpr void __set__clearedLevelWithInstaFailModifierAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__clearedLevelWithInstaFailModifierAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__clearedLevelWithDisappearingArrowsModifierAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__clearedLevelWithDisappearingArrowsModifierAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__clearedLevelWithDisappearingArrowsModifierAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__clearedLevelWithDisappearingArrowsModifierAchievement() const;
 
-  constexpr void __set__clearedLevelWithDisappearingArrowsModifierAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__clearedLevelWithDisappearingArrowsModifierAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__clearedLevelWithBatteryEnergyModifierAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__clearedLevelWithBatteryEnergyModifierAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__clearedLevelWithBatteryEnergyModifierAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__clearedLevelWithBatteryEnergyModifierAchievement() const;
 
-  constexpr void __set__clearedLevelWithBatteryEnergyModifierAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__clearedLevelWithBatteryEnergyModifierAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__cleared30MissionsAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__cleared30MissionsAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__cleared30MissionsAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__cleared30MissionsAchievement() const;
 
-  constexpr void __set__cleared30MissionsAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__cleared30MissionsAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__finalMissionClearedAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__finalMissionClearedAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__finalMissionClearedAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__finalMissionClearedAchievement() const;
 
-  constexpr void __set__finalMissionClearedAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__finalMissionClearedAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__allMissionClearedAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__allMissionClearedAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__allMissionClearedAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__allMissionClearedAchievement() const;
 
-  constexpr void __set__allMissionClearedAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__allMissionClearedAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::GlobalNamespace::MissionNodesManager*& __get__missionNodesManager();
+  constexpr ::UnityW<::GlobalNamespace::MissionNodesManager>& __cordl_internal_get__missionNodesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNodesManager*> const& __get__missionNodesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionNodesManager> const& __cordl_internal_get__missionNodesManager() const;
 
-  constexpr void __set__missionNodesManager(::GlobalNamespace::MissionNodesManager* value);
+  constexpr void __cordl_internal_set__missionNodesManager(::UnityW<::GlobalNamespace::MissionNodesManager> value);
 
   /// @brief Method Start, addr 0x2231b48, size 0x17c, virtual false, abstract: false, final false
   inline void Start();
@@ -353,88 +364,88 @@ protected:
 
 public:
   /// @brief Field _achievementsModel, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementsModelSO* ____achievementsModel;
+  ::UnityW<::GlobalNamespace::AchievementsModelSO> ____achievementsModel;
 
   /// @brief Field _clearedLevel100Achievement, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____clearedLevel100Achievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____clearedLevel100Achievement;
 
   /// @brief Field _totalScore100MillionAchievement, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____totalScore100MillionAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____totalScore100MillionAchievement;
 
   /// @brief Field _24HoursPlayedAchievement, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____24HoursPlayedAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____24HoursPlayedAchievement;
 
   /// @brief Field _kilometersTravelled100Achievement, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____kilometersTravelled100Achievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____kilometersTravelled100Achievement;
 
   /// @brief Field _15ExpertLevelsRankSAchievement, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____15ExpertLevelsRankSAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____15ExpertLevelsRankSAchievement;
 
   /// @brief Field _15ExpertLevelsFullComboAchievement, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____15ExpertLevelsFullComboAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____15ExpertLevelsFullComboAchievement;
 
   /// @brief Field _15HardLevelsRankSAchievement, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____15HardLevelsRankSAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____15HardLevelsRankSAchievement;
 
   /// @brief Field _15HardLevelsFullComboAchievement, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____15HardLevelsFullComboAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____15HardLevelsFullComboAchievement;
 
   /// @brief Field _expertLevelClearedWithoutModifiersAchievement, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____expertLevelClearedWithoutModifiersAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____expertLevelClearedWithoutModifiersAchievement;
 
   /// @brief Field _fullComboExpertWithoutModifiersAchievement, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____fullComboExpertWithoutModifiersAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____fullComboExpertWithoutModifiersAchievement;
 
   /// @brief Field _goodCuts10000Achievement, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____goodCuts10000Achievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____goodCuts10000Achievement;
 
   /// @brief Field _resultMinRankANormalWithoutModifiersAchievement, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____resultMinRankANormalWithoutModifiersAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____resultMinRankANormalWithoutModifiersAchievement;
 
   /// @brief Field _resultMinRankSHardWithoutModifiersAchievement, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____resultMinRankSHardWithoutModifiersAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____resultMinRankSHardWithoutModifiersAchievement;
 
   /// @brief Field _resultMinRankSSExpertWithoutModifiersAchievement, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____resultMinRankSSExpertWithoutModifiersAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____resultMinRankSSExpertWithoutModifiersAchievement;
 
   /// @brief Field _combo50NormalWithoutModifiersAchievement, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____combo50NormalWithoutModifiersAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____combo50NormalWithoutModifiersAchievement;
 
   /// @brief Field _combo100HardWithoutModifiersAchievement, offset: 0x98, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____combo100HardWithoutModifiersAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____combo100HardWithoutModifiersAchievement;
 
   /// @brief Field _combo500ExpertWithoutModifiersAchievement, offset: 0xa0, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____combo500ExpertWithoutModifiersAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____combo500ExpertWithoutModifiersAchievement;
 
   /// @brief Field _clearedLevelWithoutModifiersAchievement, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____clearedLevelWithoutModifiersAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____clearedLevelWithoutModifiersAchievement;
 
   /// @brief Field _clearedLevelWithSongSpeedFasterModifierAchievement, offset: 0xb0, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____clearedLevelWithSongSpeedFasterModifierAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____clearedLevelWithSongSpeedFasterModifierAchievement;
 
   /// @brief Field _clearedLevelWithInstaFailModifierAchievement, offset: 0xb8, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____clearedLevelWithInstaFailModifierAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____clearedLevelWithInstaFailModifierAchievement;
 
   /// @brief Field _clearedLevelWithDisappearingArrowsModifierAchievement, offset: 0xc0, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____clearedLevelWithDisappearingArrowsModifierAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____clearedLevelWithDisappearingArrowsModifierAchievement;
 
   /// @brief Field _clearedLevelWithBatteryEnergyModifierAchievement, offset: 0xc8, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____clearedLevelWithBatteryEnergyModifierAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____clearedLevelWithBatteryEnergyModifierAchievement;
 
   /// @brief Field _cleared30MissionsAchievement, offset: 0xd0, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____cleared30MissionsAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____cleared30MissionsAchievement;
 
   /// @brief Field _finalMissionClearedAchievement, offset: 0xd8, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____finalMissionClearedAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____finalMissionClearedAchievement;
 
   /// @brief Field _allMissionClearedAchievement, offset: 0xe0, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____allMissionClearedAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____allMissionClearedAchievement;
 
   /// @brief Field _playerDataModel, offset: 0xe8, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _missionNodesManager, offset: 0xf0, size: 0x8, def value: None
-  ::GlobalNamespace::MissionNodesManager* ____missionNodesManager;
+  ::UnityW<::GlobalNamespace::MissionNodesManager> ____missionNodesManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

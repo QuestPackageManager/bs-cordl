@@ -23,20 +23,20 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ListViewReorderableDragAndDropControll
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6951))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6951))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6950))
 // CS Name: ::UnityEngine.UIElements::ListViewReorderableDragAndDropController*
 class CORDL_TYPE ListViewReorderableDragAndDropController : public ::UnityEngine::UIElements::BaseReorderableDragAndDropController {
 public:
   // Declarations
   /// @brief Field m_ListView, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_ListView, put = __set_m_ListView))::UnityEngine::UIElements::ListView* m_ListView;
+  __declspec(property(get = __cordl_internal_get_m_ListView, put = __cordl_internal_set_m_ListView))::UnityEngine::UIElements::ListView* m_ListView;
 
-  constexpr ::UnityEngine::UIElements::ListView*& __get_m_ListView();
+  constexpr ::UnityEngine::UIElements::ListView*& __cordl_internal_get_m_ListView();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ListView*> const& __get_m_ListView() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ListView*> const& __cordl_internal_get_m_ListView() const;
 
-  constexpr void __set_m_ListView(::UnityEngine::UIElements::ListView* value);
+  constexpr void __cordl_internal_set_m_ListView(::UnityEngine::UIElements::ListView* value);
 
   static inline ::UnityEngine::UIElements::ListViewReorderableDragAndDropController* New_ctor(::UnityEngine::UIElements::ListView* view);
 

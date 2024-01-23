@@ -34,38 +34,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::EncryptedValueBuilder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(701))
 // CS Name: ::Org.BouncyCastle.Crmf::EncryptedValueBuilder*
 class CORDL_TYPE EncryptedValueBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field wrapper, offset 0x10, size 0x8
-  __declspec(property(get = __get_wrapper, put = __set_wrapper))::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper;
+  __declspec(property(get = __cordl_internal_get_wrapper, put = __cordl_internal_set_wrapper))::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper;
 
   /// @brief Field encryptor, offset 0x18, size 0x8
-  __declspec(property(get = __get_encryptor, put = __set_encryptor))::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* encryptor;
+  __declspec(property(get = __cordl_internal_get_encryptor, put = __cordl_internal_set_encryptor))::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* encryptor;
 
   /// @brief Field padder, offset 0x20, size 0x8
-  __declspec(property(get = __get_padder, put = __set_padder))::Org::BouncyCastle::Crmf::IEncryptedValuePadder* padder;
+  __declspec(property(get = __cordl_internal_get_padder, put = __cordl_internal_set_padder))::Org::BouncyCastle::Crmf::IEncryptedValuePadder* padder;
 
-  constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper*& __get_wrapper();
+  constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper*& __cordl_internal_get_wrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IKeyWrapper*> const& __get_wrapper() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IKeyWrapper*> const& __cordl_internal_get_wrapper() const;
 
-  constexpr void __set_wrapper(::Org::BouncyCastle::Crypto::IKeyWrapper* value);
+  constexpr void __cordl_internal_set_wrapper(::Org::BouncyCastle::Crypto::IKeyWrapper* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*& __get_encryptor();
+  constexpr ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*& __cordl_internal_get_encryptor();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*> const& __get_encryptor() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*> const& __cordl_internal_get_encryptor() const;
 
-  constexpr void __set_encryptor(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* value);
+  constexpr void __cordl_internal_set_encryptor(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* value);
 
-  constexpr ::Org::BouncyCastle::Crmf::IEncryptedValuePadder*& __get_padder();
+  constexpr ::Org::BouncyCastle::Crmf::IEncryptedValuePadder*& __cordl_internal_get_padder();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crmf::IEncryptedValuePadder*> const& __get_padder() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crmf::IEncryptedValuePadder*> const& __cordl_internal_get_padder() const;
 
-  constexpr void __set_padder(::Org::BouncyCastle::Crmf::IEncryptedValuePadder* value);
+  constexpr void __cordl_internal_set_padder(::Org::BouncyCastle::Crmf::IEncryptedValuePadder* value);
 
   static inline ::Org::BouncyCastle::Crmf::EncryptedValueBuilder* New_ctor(::Org::BouncyCastle::Crypto::IKeyWrapper* wrapper, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey* encryptor);
 

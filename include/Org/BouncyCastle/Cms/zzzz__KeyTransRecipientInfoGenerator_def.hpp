@@ -52,29 +52,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(675))
 // CS Name: ::Org.BouncyCastle.Cms::KeyTransRecipientInfoGenerator*
 class CORDL_TYPE KeyTransRecipientInfoGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field recipientTbsCert, offset 0x10, size 0x8
-  __declspec(property(get = __get_recipientTbsCert, put = __set_recipientTbsCert))::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* recipientTbsCert;
+  __declspec(property(get = __cordl_internal_get_recipientTbsCert, put = __cordl_internal_set_recipientTbsCert))::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* recipientTbsCert;
 
   /// @brief Field recipientPublicKey, offset 0x18, size 0x8
-  __declspec(property(get = __get_recipientPublicKey, put = __set_recipientPublicKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* recipientPublicKey;
+  __declspec(property(get = __cordl_internal_get_recipientPublicKey, put = __cordl_internal_set_recipientPublicKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* recipientPublicKey;
 
   /// @brief Field subjectKeyIdentifier, offset 0x20, size 0x8
-  __declspec(property(get = __get_subjectKeyIdentifier, put = __set_subjectKeyIdentifier))::Org::BouncyCastle::Asn1::Asn1OctetString* subjectKeyIdentifier;
+  __declspec(property(get = __cordl_internal_get_subjectKeyIdentifier, put = __cordl_internal_set_subjectKeyIdentifier))::Org::BouncyCastle::Asn1::Asn1OctetString* subjectKeyIdentifier;
 
   /// @brief Field info, offset 0x28, size 0x8
-  __declspec(property(get = __get_info, put = __set_info))::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* info;
+  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* info;
 
   /// @brief Field issuerAndSerialNumber, offset 0x30, size 0x8
-  __declspec(property(get = __get_issuerAndSerialNumber, put = __set_issuerAndSerialNumber))::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issuerAndSerialNumber;
+  __declspec(property(get = __cordl_internal_get_issuerAndSerialNumber, put = __cordl_internal_set_issuerAndSerialNumber))::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issuerAndSerialNumber;
 
   /// @brief Field random, offset 0x38, size 0x8
-  __declspec(property(get = __get_random, put = __set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
 
   /// @brief Field Helper, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper))::Org::BouncyCastle::Cms::CmsEnvelopedHelper* Helper;
@@ -93,41 +93,41 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Cms::RecipientInfoGenerator"
   constexpr ::Org::BouncyCastle::Cms::RecipientInfoGenerator* i___Org__BouncyCastle__Cms__RecipientInfoGenerator() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*& __get_recipientTbsCert();
+  constexpr ::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*& __cordl_internal_get_recipientTbsCert();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*> const& __get_recipientTbsCert() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure*> const& __cordl_internal_get_recipientTbsCert() const;
 
-  constexpr void __set_recipientTbsCert(::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* value);
+  constexpr void __cordl_internal_set_recipientTbsCert(::Org::BouncyCastle::Asn1::X509::TbsCertificateStructure* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __get_recipientPublicKey();
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_recipientPublicKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __get_recipientPublicKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_recipientPublicKey() const;
 
-  constexpr void __set_recipientPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+  constexpr void __cordl_internal_set_recipientPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_subjectKeyIdentifier();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_subjectKeyIdentifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_subjectKeyIdentifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_subjectKeyIdentifier() const;
 
-  constexpr void __set_subjectKeyIdentifier(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_subjectKeyIdentifier(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*& __get_info();
+  constexpr ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*& __cordl_internal_get_info();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*> const& __get_info() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*> const& __cordl_internal_get_info() const;
 
-  constexpr void __set_info(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* value);
+  constexpr void __cordl_internal_set_info(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*& __get_issuerAndSerialNumber();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*& __cordl_internal_get_issuerAndSerialNumber();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*> const& __get_issuerAndSerialNumber() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*> const& __cordl_internal_get_issuerAndSerialNumber() const;
 
-  constexpr void __set_issuerAndSerialNumber(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* value);
+  constexpr void __cordl_internal_set_issuerAndSerialNumber(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* value);
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_random();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_random() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
-  constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsEnvelopedHelper* value);
 

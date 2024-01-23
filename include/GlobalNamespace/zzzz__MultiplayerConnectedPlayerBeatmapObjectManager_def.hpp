@@ -97,38 +97,38 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectManag
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5118))
 // CS Name: ::MultiplayerConnectedPlayerBeatmapObjectManager::InitData*
 class CORDL_TYPE __MultiplayerConnectedPlayerBeatmapObjectManager__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field disappearingArrows, offset 0x10, size 0x1
-  __declspec(property(get = __get_disappearingArrows, put = __set_disappearingArrows)) bool disappearingArrows;
+  __declspec(property(get = __cordl_internal_get_disappearingArrows, put = __cordl_internal_set_disappearingArrows)) bool disappearingArrows;
 
   /// @brief Field ghostNotes, offset 0x11, size 0x1
-  __declspec(property(get = __get_ghostNotes, put = __set_ghostNotes)) bool ghostNotes;
+  __declspec(property(get = __cordl_internal_get_ghostNotes, put = __cordl_internal_set_ghostNotes)) bool ghostNotes;
 
   /// @brief Field notesUniformScale, offset 0x14, size 0x4
-  __declspec(property(get = __get_notesUniformScale, put = __set_notesUniformScale)) float_t notesUniformScale;
+  __declspec(property(get = __cordl_internal_get_notesUniformScale, put = __cordl_internal_set_notesUniformScale)) float_t notesUniformScale;
 
-  constexpr bool& __get_disappearingArrows();
+  constexpr bool& __cordl_internal_get_disappearingArrows();
 
-  constexpr bool const& __get_disappearingArrows() const;
+  constexpr bool const& __cordl_internal_get_disappearingArrows() const;
 
-  constexpr void __set_disappearingArrows(bool value);
+  constexpr void __cordl_internal_set_disappearingArrows(bool value);
 
-  constexpr bool& __get_ghostNotes();
+  constexpr bool& __cordl_internal_get_ghostNotes();
 
-  constexpr bool const& __get_ghostNotes() const;
+  constexpr bool const& __cordl_internal_get_ghostNotes() const;
 
-  constexpr void __set_ghostNotes(bool value);
+  constexpr void __cordl_internal_set_ghostNotes(bool value);
 
-  constexpr float_t& __get_notesUniformScale();
+  constexpr float_t& __cordl_internal_get_notesUniformScale();
 
-  constexpr float_t const& __get_notesUniformScale() const;
+  constexpr float_t const& __cordl_internal_get_notesUniformScale() const;
 
-  constexpr void __set_notesUniformScale(float_t value);
+  constexpr void __cordl_internal_set_notesUniformScale(float_t value);
 
   static inline ::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectManager__InitData* New_ctor(bool disappearingArrows, bool ghostNotes, float_t notesUniformScale);
 
@@ -174,49 +174,51 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObj
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(4716)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5119)) CS Name: ::MultiplayerConnectedPlayerBeatmapObjectManager*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(4716)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 391
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5119)) CS Name: ::MultiplayerConnectedPlayerBeatmapObjectManager*
 class CORDL_TYPE MultiplayerConnectedPlayerBeatmapObjectManager : public ::GlobalNamespace::BeatmapObjectManager {
 public:
   // Declarations
   using InitData = ::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectManager__InitData;
 
   /// @brief Field _firstBasicNoteTime, offset 0x94, size 0x8
-  __declspec(property(get = __get__firstBasicNoteTime, put = __set__firstBasicNoteTime))::System::Nullable_1<float_t> _firstBasicNoteTime;
+  __declspec(property(get = __cordl_internal_get__firstBasicNoteTime, put = __cordl_internal_set__firstBasicNoteTime))::System::Nullable_1<float_t> _firstBasicNoteTime;
 
   /// @brief Field _gameNotePoolContainer, offset 0xa0, size 0x8
-  __declspec(property(get = __get__gameNotePoolContainer,
-                      put = __set__gameNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* _gameNotePoolContainer;
+  __declspec(property(
+      get = __cordl_internal_get__gameNotePoolContainer,
+      put = __cordl_internal_set__gameNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* _gameNotePoolContainer;
 
   /// @brief Field _burstSliderHeadGameNotePoolContainer, offset 0xa8, size 0x8
-  __declspec(property(get = __get__burstSliderHeadGameNotePoolContainer, put = __set__burstSliderHeadGameNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<
-      ::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* _burstSliderHeadGameNotePoolContainer;
+  __declspec(property(get = __cordl_internal_get__burstSliderHeadGameNotePoolContainer, put = __cordl_internal_set__burstSliderHeadGameNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<
+      ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* _burstSliderHeadGameNotePoolContainer;
 
   /// @brief Field _burstSliderGameNotePoolContainer, offset 0xb0, size 0x8
-  __declspec(property(
-      get = __get__burstSliderGameNotePoolContainer,
-      put = __set__burstSliderGameNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* _burstSliderGameNotePoolContainer;
+  __declspec(property(get = __cordl_internal_get__burstSliderGameNotePoolContainer, put = __cordl_internal_set__burstSliderGameNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<
+      ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* _burstSliderGameNotePoolContainer;
 
   /// @brief Field _burstSliderFillPoolContainer, offset 0xb8, size 0x8
-  __declspec(
-      property(get = __get__burstSliderFillPoolContainer,
-               put = __set__burstSliderFillPoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* _burstSliderFillPoolContainer;
+  __declspec(property(get = __cordl_internal_get__burstSliderFillPoolContainer, put = __cordl_internal_set__burstSliderFillPoolContainer))::GlobalNamespace::MemoryPoolContainer_1<
+      ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* _burstSliderFillPoolContainer;
 
   /// @brief Field _bombNotePoolContainer, offset 0xc0, size 0x8
-  __declspec(property(get = __get__bombNotePoolContainer,
-                      put = __set__bombNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*>* _bombNotePoolContainer;
+  __declspec(property(
+      get = __cordl_internal_get__bombNotePoolContainer,
+      put = __cordl_internal_set__bombNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController>>* _bombNotePoolContainer;
 
   /// @brief Field _obstaclePoolContainer, offset 0xc8, size 0x8
-  __declspec(property(get = __get__obstaclePoolContainer, put = __set__obstaclePoolContainer))::GlobalNamespace::MemoryPoolContainer_2<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*,
-                                                                                                                                       ::GlobalNamespace::ObstacleController*>* _obstaclePoolContainer;
+  __declspec(property(get = __cordl_internal_get__obstaclePoolContainer,
+                      put = __cordl_internal_set__obstaclePoolContainer))::GlobalNamespace::MemoryPoolContainer_2<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController>,
+                                                                                                                  ::UnityW<::GlobalNamespace::ObstacleController>>* _obstaclePoolContainer;
 
   /// @brief Field _beatmapObjectEventManager, offset 0xd0, size 0x8
-  __declspec(property(get = __get__beatmapObjectEventManager, put = __set__beatmapObjectEventManager))::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* _beatmapObjectEventManager;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectEventManager,
+                      put = __cordl_internal_set__beatmapObjectEventManager))::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* _beatmapObjectEventManager;
 
   /// @brief Field _initData, offset 0xd8, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectManager__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectManager__InitData* _initData;
 
-  __declspec(property(get = get_activeObstacleControllers))::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* activeObstacleControllers;
+  __declspec(property(get = get_activeObstacleControllers))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* activeObstacleControllers;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -224,70 +226,71 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Nullable_1<float_t>& __get__firstBasicNoteTime();
+  constexpr ::System::Nullable_1<float_t>& __cordl_internal_get__firstBasicNoteTime();
 
-  constexpr ::System::Nullable_1<float_t> const& __get__firstBasicNoteTime() const;
+  constexpr ::System::Nullable_1<float_t> const& __cordl_internal_get__firstBasicNoteTime() const;
 
-  constexpr void __set__firstBasicNoteTime(::System::Nullable_1<float_t> value);
+  constexpr void __cordl_internal_set__firstBasicNoteTime(::System::Nullable_1<float_t> value);
 
-  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*& __get__gameNotePoolContainer();
+  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*& __cordl_internal_get__gameNotePoolContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*> const&
-  __get__gameNotePoolContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*> const&
+  __cordl_internal_get__gameNotePoolContainer() const;
 
-  constexpr void __set__gameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
+  constexpr void __cordl_internal_set__gameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* value);
 
-  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*& __get__burstSliderHeadGameNotePoolContainer();
+  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*& __cordl_internal_get__burstSliderHeadGameNotePoolContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*> const&
-  __get__burstSliderHeadGameNotePoolContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*> const&
+  __cordl_internal_get__burstSliderHeadGameNotePoolContainer() const;
 
-  constexpr void __set__burstSliderHeadGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
+  constexpr void __cordl_internal_set__burstSliderHeadGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* value);
 
-  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*& __get__burstSliderGameNotePoolContainer();
+  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*& __cordl_internal_get__burstSliderGameNotePoolContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*> const&
-  __get__burstSliderGameNotePoolContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*> const&
+  __cordl_internal_get__burstSliderGameNotePoolContainer() const;
 
-  constexpr void __set__burstSliderGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
+  constexpr void __cordl_internal_set__burstSliderGameNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* value);
 
-  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*& __get__burstSliderFillPoolContainer();
+  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*& __cordl_internal_get__burstSliderFillPoolContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>*> const&
-  __get__burstSliderFillPoolContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*> const&
+  __cordl_internal_get__burstSliderFillPoolContainer() const;
 
-  constexpr void __set__burstSliderFillPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* value);
+  constexpr void __cordl_internal_set__burstSliderFillPoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* value);
 
-  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*>*& __get__bombNotePoolContainer();
+  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController>>*& __cordl_internal_get__bombNotePoolContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*>*> const&
-  __get__bombNotePoolContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController>>*> const&
+  __cordl_internal_get__bombNotePoolContainer() const;
 
-  constexpr void __set__bombNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*>* value);
+  constexpr void __cordl_internal_set__bombNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController>>* value);
 
-  constexpr ::GlobalNamespace::MemoryPoolContainer_2<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*, ::GlobalNamespace::ObstacleController*>*& __get__obstaclePoolContainer();
+  constexpr ::GlobalNamespace::MemoryPoolContainer_2<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController>, ::UnityW<::GlobalNamespace::ObstacleController>>*&
+  __cordl_internal_get__obstaclePoolContainer();
 
   constexpr ::cordl_internals::to_const_pointer<
-      ::GlobalNamespace::MemoryPoolContainer_2<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*, ::GlobalNamespace::ObstacleController*>*> const&
-  __get__obstaclePoolContainer() const;
+      ::GlobalNamespace::MemoryPoolContainer_2<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController>, ::UnityW<::GlobalNamespace::ObstacleController>>*> const&
+  __cordl_internal_get__obstaclePoolContainer() const;
 
-  constexpr void
-  __set__obstaclePoolContainer(::GlobalNamespace::MemoryPoolContainer_2<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*, ::GlobalNamespace::ObstacleController*>* value);
+  constexpr void __cordl_internal_set__obstaclePoolContainer(
+      ::GlobalNamespace::MemoryPoolContainer_2<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController>, ::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  constexpr ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& __get__beatmapObjectEventManager();
+  constexpr ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& __cordl_internal_get__beatmapObjectEventManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*> const& __get__beatmapObjectEventManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*> const& __cordl_internal_get__beatmapObjectEventManager() const;
 
-  constexpr void __set__beatmapObjectEventManager(::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* value);
+  constexpr void __cordl_internal_set__beatmapObjectEventManager(::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* value);
 
-  constexpr ::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectManager__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectManager__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectManager__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectManager__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectManager__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectManager__InitData* value);
 
   /// @brief Method get_activeObstacleControllers, addr 0x23d2bbc, size 0x50, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();
+  inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* get_activeObstacleControllers();
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerBeatmapObjectManager*
   New_ctor(::GlobalNamespace::__MultiplayerConnectedPlayerBeatmapObjectManager__InitData* initData, ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* beatmapObjectEventManager,
@@ -359,22 +362,22 @@ public:
   ::System::Nullable_1<float_t> ____firstBasicNoteTime;
 
   /// @brief Field _gameNotePoolContainer, offset: 0xa0, size: 0x8, def value: None
-  ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* ____gameNotePoolContainer;
+  ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* ____gameNotePoolContainer;
 
   /// @brief Field _burstSliderHeadGameNotePoolContainer, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* ____burstSliderHeadGameNotePoolContainer;
+  ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* ____burstSliderHeadGameNotePoolContainer;
 
   /// @brief Field _burstSliderGameNotePoolContainer, offset: 0xb0, size: 0x8, def value: None
-  ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* ____burstSliderGameNotePoolContainer;
+  ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* ____burstSliderGameNotePoolContainer;
 
   /// @brief Field _burstSliderFillPoolContainer, offset: 0xb8, size: 0x8, def value: None
-  ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController*>* ____burstSliderFillPoolContainer;
+  ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>* ____burstSliderFillPoolContainer;
 
   /// @brief Field _bombNotePoolContainer, offset: 0xc0, size: 0x8, def value: None
-  ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*>* ____bombNotePoolContainer;
+  ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController>>* ____bombNotePoolContainer;
 
   /// @brief Field _obstaclePoolContainer, offset: 0xc8, size: 0x8, def value: None
-  ::GlobalNamespace::MemoryPoolContainer_2<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*, ::GlobalNamespace::ObstacleController*>* ____obstaclePoolContainer;
+  ::GlobalNamespace::MemoryPoolContainer_2<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerObstacleController>, ::UnityW<::GlobalNamespace::ObstacleController>>* ____obstaclePoolContainer;
 
   /// @brief Field _beatmapObjectEventManager, offset: 0xd0, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* ____beatmapObjectEventManager;

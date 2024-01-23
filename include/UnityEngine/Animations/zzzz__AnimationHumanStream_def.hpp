@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Animations::AnimationHumanStream);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14896))
 // CS Name: ::UnityEngine.Animations::AnimationHumanStream
 struct CORDL_TYPE AnimationHumanStream {

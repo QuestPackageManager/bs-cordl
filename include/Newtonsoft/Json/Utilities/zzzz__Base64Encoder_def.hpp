@@ -19,47 +19,47 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::Base64Encoder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11847))
 // CS Name: ::Newtonsoft.Json.Utilities::Base64Encoder*
 class CORDL_TYPE Base64Encoder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _charsLine, offset 0x10, size 0x8
-  __declspec(property(get = __get__charsLine, put = __set__charsLine))::ArrayW<char16_t, ::Array<char16_t>*> _charsLine;
+  __declspec(property(get = __cordl_internal_get__charsLine, put = __cordl_internal_set__charsLine))::ArrayW<char16_t, ::Array<char16_t>*> _charsLine;
 
   /// @brief Field _writer, offset 0x18, size 0x8
-  __declspec(property(get = __get__writer, put = __set__writer))::System::IO::TextWriter* _writer;
+  __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer))::System::IO::TextWriter* _writer;
 
   /// @brief Field _leftOverBytes, offset 0x20, size 0x8
-  __declspec(property(get = __get__leftOverBytes, put = __set__leftOverBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> _leftOverBytes;
+  __declspec(property(get = __cordl_internal_get__leftOverBytes, put = __cordl_internal_set__leftOverBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> _leftOverBytes;
 
   /// @brief Field _leftOverBytesCount, offset 0x28, size 0x4
-  __declspec(property(get = __get__leftOverBytesCount, put = __set__leftOverBytesCount)) int32_t _leftOverBytesCount;
+  __declspec(property(get = __cordl_internal_get__leftOverBytesCount, put = __cordl_internal_set__leftOverBytesCount)) int32_t _leftOverBytesCount;
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get__charsLine();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__charsLine();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get__charsLine() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__charsLine() const;
 
-  constexpr void __set__charsLine(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set__charsLine(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr ::System::IO::TextWriter*& __get__writer();
+  constexpr ::System::IO::TextWriter*& __cordl_internal_get__writer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& __get__writer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& __cordl_internal_get__writer() const;
 
-  constexpr void __set__writer(::System::IO::TextWriter* value);
+  constexpr void __cordl_internal_set__writer(::System::IO::TextWriter* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__leftOverBytes();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__leftOverBytes();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__leftOverBytes() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__leftOverBytes() const;
 
-  constexpr void __set__leftOverBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__leftOverBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__leftOverBytesCount();
+  constexpr int32_t& __cordl_internal_get__leftOverBytesCount();
 
-  constexpr int32_t const& __get__leftOverBytesCount() const;
+  constexpr int32_t const& __cordl_internal_get__leftOverBytesCount() const;
 
-  constexpr void __set__leftOverBytesCount(int32_t value);
+  constexpr void __cordl_internal_set__leftOverBytesCount(int32_t value);
 
   static inline ::Newtonsoft::Json::Utilities::Base64Encoder* New_ctor(::System::IO::TextWriter* writer);
 

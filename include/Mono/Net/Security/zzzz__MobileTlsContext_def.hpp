@@ -48,43 +48,47 @@ MARK_REF_PTR_T(::Mono::Net::Security::MobileTlsContext);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8964))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8964))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8837))
 // CS Name: ::Mono.Net.Security::MobileTlsContext*
 class CORDL_TYPE MobileTlsContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field certificateValidator, offset 0x10, size 0x8
-  __declspec(property(get = __get_certificateValidator, put = __set_certificateValidator))::Mono::Net::Security::ChainValidationHelper* certificateValidator;
+  __declspec(property(get = __cordl_internal_get_certificateValidator, put = __cordl_internal_set_certificateValidator))::Mono::Net::Security::ChainValidationHelper* certificateValidator;
 
   /// @brief Field <Options>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Options_k__BackingField, put = __set__Options_k__BackingField))::Mono::Net::Security::MonoSslAuthenticationOptions* _Options_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Options_k__BackingField,
+                      put = __cordl_internal_set__Options_k__BackingField))::Mono::Net::Security::MonoSslAuthenticationOptions* _Options_k__BackingField;
 
   /// @brief Field <Parent>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__Parent_k__BackingField, put = __set__Parent_k__BackingField))::Mono::Net::Security::MobileAuthenticatedStream* _Parent_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Parent_k__BackingField, put = __cordl_internal_set__Parent_k__BackingField))::Mono::Net::Security::MobileAuthenticatedStream* _Parent_k__BackingField;
 
   /// @brief Field <IsServer>k__BackingField, offset 0x28, size 0x1
-  __declspec(property(get = __get__IsServer_k__BackingField, put = __set__IsServer_k__BackingField)) bool _IsServer_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsServer_k__BackingField, put = __cordl_internal_set__IsServer_k__BackingField)) bool _IsServer_k__BackingField;
 
   /// @brief Field <TargetHost>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__TargetHost_k__BackingField, put = __set__TargetHost_k__BackingField))::StringW _TargetHost_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__TargetHost_k__BackingField, put = __cordl_internal_set__TargetHost_k__BackingField))::StringW _TargetHost_k__BackingField;
 
   /// @brief Field <ServerName>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__ServerName_k__BackingField, put = __set__ServerName_k__BackingField))::StringW _ServerName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ServerName_k__BackingField, put = __cordl_internal_set__ServerName_k__BackingField))::StringW _ServerName_k__BackingField;
 
   /// @brief Field <AskForClientCertificate>k__BackingField, offset 0x40, size 0x1
-  __declspec(property(get = __get__AskForClientCertificate_k__BackingField, put = __set__AskForClientCertificate_k__BackingField)) bool _AskForClientCertificate_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__AskForClientCertificate_k__BackingField,
+                      put = __cordl_internal_set__AskForClientCertificate_k__BackingField)) bool _AskForClientCertificate_k__BackingField;
 
   /// @brief Field <EnabledProtocols>k__BackingField, offset 0x44, size 0x4
-  __declspec(property(get = __get__EnabledProtocols_k__BackingField, put = __set__EnabledProtocols_k__BackingField))::System::Security::Authentication::SslProtocols _EnabledProtocols_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__EnabledProtocols_k__BackingField,
+                      put = __cordl_internal_set__EnabledProtocols_k__BackingField))::System::Security::Authentication::SslProtocols _EnabledProtocols_k__BackingField;
 
   /// @brief Field <ClientCertificates>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __get__ClientCertificates_k__BackingField,
-                      put = __set__ClientCertificates_k__BackingField))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* _ClientCertificates_k__BackingField;
+  __declspec(
+      property(get = __cordl_internal_get__ClientCertificates_k__BackingField,
+               put = __cordl_internal_set__ClientCertificates_k__BackingField))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* _ClientCertificates_k__BackingField;
 
   /// @brief Field <LocalServerCertificate>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __get__LocalServerCertificate_k__BackingField,
-                      put = __set__LocalServerCertificate_k__BackingField))::System::Security::Cryptography::X509Certificates::X509Certificate* _LocalServerCertificate_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__LocalServerCertificate_k__BackingField,
+                      put = __cordl_internal_set__LocalServerCertificate_k__BackingField))::System::Security::Cryptography::X509Certificates::X509Certificate* _LocalServerCertificate_k__BackingField;
 
   __declspec(property(get = get_Parent))::Mono::Net::Security::MobileAuthenticatedStream* Parent;
 
@@ -114,65 +118,65 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::Mono::Net::Security::ChainValidationHelper*& __get_certificateValidator();
+  constexpr ::Mono::Net::Security::ChainValidationHelper*& __cordl_internal_get_certificateValidator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::ChainValidationHelper*> const& __get_certificateValidator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::ChainValidationHelper*> const& __cordl_internal_get_certificateValidator() const;
 
-  constexpr void __set_certificateValidator(::Mono::Net::Security::ChainValidationHelper* value);
+  constexpr void __cordl_internal_set_certificateValidator(::Mono::Net::Security::ChainValidationHelper* value);
 
-  constexpr ::Mono::Net::Security::MonoSslAuthenticationOptions*& __get__Options_k__BackingField();
+  constexpr ::Mono::Net::Security::MonoSslAuthenticationOptions*& __cordl_internal_get__Options_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MonoSslAuthenticationOptions*> const& __get__Options_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MonoSslAuthenticationOptions*> const& __cordl_internal_get__Options_k__BackingField() const;
 
-  constexpr void __set__Options_k__BackingField(::Mono::Net::Security::MonoSslAuthenticationOptions* value);
+  constexpr void __cordl_internal_set__Options_k__BackingField(::Mono::Net::Security::MonoSslAuthenticationOptions* value);
 
-  constexpr ::Mono::Net::Security::MobileAuthenticatedStream*& __get__Parent_k__BackingField();
+  constexpr ::Mono::Net::Security::MobileAuthenticatedStream*& __cordl_internal_get__Parent_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileAuthenticatedStream*> const& __get__Parent_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileAuthenticatedStream*> const& __cordl_internal_get__Parent_k__BackingField() const;
 
-  constexpr void __set__Parent_k__BackingField(::Mono::Net::Security::MobileAuthenticatedStream* value);
+  constexpr void __cordl_internal_set__Parent_k__BackingField(::Mono::Net::Security::MobileAuthenticatedStream* value);
 
-  constexpr bool& __get__IsServer_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsServer_k__BackingField();
 
-  constexpr bool const& __get__IsServer_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsServer_k__BackingField() const;
 
-  constexpr void __set__IsServer_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsServer_k__BackingField(bool value);
 
-  constexpr ::StringW& __get__TargetHost_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__TargetHost_k__BackingField();
 
-  constexpr ::StringW const& __get__TargetHost_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__TargetHost_k__BackingField() const;
 
-  constexpr void __set__TargetHost_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__TargetHost_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__ServerName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__ServerName_k__BackingField();
 
-  constexpr ::StringW const& __get__ServerName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__ServerName_k__BackingField() const;
 
-  constexpr void __set__ServerName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__ServerName_k__BackingField(::StringW value);
 
-  constexpr bool& __get__AskForClientCertificate_k__BackingField();
+  constexpr bool& __cordl_internal_get__AskForClientCertificate_k__BackingField();
 
-  constexpr bool const& __get__AskForClientCertificate_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__AskForClientCertificate_k__BackingField() const;
 
-  constexpr void __set__AskForClientCertificate_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__AskForClientCertificate_k__BackingField(bool value);
 
-  constexpr ::System::Security::Authentication::SslProtocols& __get__EnabledProtocols_k__BackingField();
+  constexpr ::System::Security::Authentication::SslProtocols& __cordl_internal_get__EnabledProtocols_k__BackingField();
 
-  constexpr ::System::Security::Authentication::SslProtocols const& __get__EnabledProtocols_k__BackingField() const;
+  constexpr ::System::Security::Authentication::SslProtocols const& __cordl_internal_get__EnabledProtocols_k__BackingField() const;
 
-  constexpr void __set__EnabledProtocols_k__BackingField(::System::Security::Authentication::SslProtocols value);
+  constexpr void __cordl_internal_set__EnabledProtocols_k__BackingField(::System::Security::Authentication::SslProtocols value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& __get__ClientCertificates_k__BackingField();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& __cordl_internal_get__ClientCertificates_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const& __get__ClientCertificates_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const& __cordl_internal_get__ClientCertificates_k__BackingField() const;
 
-  constexpr void __set__ClientCertificates_k__BackingField(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
+  constexpr void __cordl_internal_set__ClientCertificates_k__BackingField(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& __get__LocalServerCertificate_k__BackingField();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& __cordl_internal_get__LocalServerCertificate_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate*> const& __get__LocalServerCertificate_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate*> const& __cordl_internal_get__LocalServerCertificate_k__BackingField() const;
 
-  constexpr void __set__LocalServerCertificate_k__BackingField(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
+  constexpr void __cordl_internal_set__LocalServerCertificate_k__BackingField(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
 
   static inline ::Mono::Net::Security::MobileTlsContext* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, ::Mono::Net::Security::MonoSslAuthenticationOptions* options);
 

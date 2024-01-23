@@ -25,20 +25,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::CertificateRequest);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1187))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::CertificateRequest*
 class CORDL_TYPE CertificateRequest : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mCertificateTypes, offset 0x10, size 0x8
-  __declspec(property(get = __get_mCertificateTypes, put = __set_mCertificateTypes))::ArrayW<uint8_t, ::Array<uint8_t>*> mCertificateTypes;
+  __declspec(property(get = __cordl_internal_get_mCertificateTypes, put = __cordl_internal_set_mCertificateTypes))::ArrayW<uint8_t, ::Array<uint8_t>*> mCertificateTypes;
 
   /// @brief Field mSupportedSignatureAlgorithms, offset 0x18, size 0x8
-  __declspec(property(get = __get_mSupportedSignatureAlgorithms, put = __set_mSupportedSignatureAlgorithms))::System::Collections::IList* mSupportedSignatureAlgorithms;
+  __declspec(property(get = __cordl_internal_get_mSupportedSignatureAlgorithms, put = __cordl_internal_set_mSupportedSignatureAlgorithms))::System::Collections::IList* mSupportedSignatureAlgorithms;
 
   /// @brief Field mCertificateAuthorities, offset 0x20, size 0x8
-  __declspec(property(get = __get_mCertificateAuthorities, put = __set_mCertificateAuthorities))::System::Collections::IList* mCertificateAuthorities;
+  __declspec(property(get = __cordl_internal_get_mCertificateAuthorities, put = __cordl_internal_set_mCertificateAuthorities))::System::Collections::IList* mCertificateAuthorities;
 
   __declspec(property(get = get_CertificateTypes))::ArrayW<uint8_t, ::Array<uint8_t>*> CertificateTypes;
 
@@ -46,23 +46,23 @@ public:
 
   __declspec(property(get = get_CertificateAuthorities))::System::Collections::IList* CertificateAuthorities;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mCertificateTypes();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mCertificateTypes();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mCertificateTypes() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mCertificateTypes() const;
 
-  constexpr void __set_mCertificateTypes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mCertificateTypes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Collections::IList*& __get_mSupportedSignatureAlgorithms();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_mSupportedSignatureAlgorithms();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_mSupportedSignatureAlgorithms() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_mSupportedSignatureAlgorithms() const;
 
-  constexpr void __set_mSupportedSignatureAlgorithms(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_mSupportedSignatureAlgorithms(::System::Collections::IList* value);
 
-  constexpr ::System::Collections::IList*& __get_mCertificateAuthorities();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_mCertificateAuthorities();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_mCertificateAuthorities() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_mCertificateAuthorities() const;
 
-  constexpr void __set_mCertificateAuthorities(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_mCertificateAuthorities(::System::Collections::IList* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CertificateRequest* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> certificateTypes, ::System::Collections::IList* supportedSignatureAlgorithms,
                                                                                ::System::Collections::IList* certificateAuthorities);

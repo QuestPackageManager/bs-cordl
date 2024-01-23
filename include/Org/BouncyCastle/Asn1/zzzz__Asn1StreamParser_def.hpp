@@ -28,38 +28,39 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1StreamParser);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(467))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1StreamParser*
 class CORDL_TYPE Asn1StreamParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _in, offset 0x10, size 0x8
-  __declspec(property(get = __get__in, put = __set__in))::System::IO::Stream* _in;
+  __declspec(property(get = __cordl_internal_get__in, put = __cordl_internal_set__in))::System::IO::Stream* _in;
 
   /// @brief Field _limit, offset 0x18, size 0x4
-  __declspec(property(get = __get__limit, put = __set__limit)) int32_t _limit;
+  __declspec(property(get = __cordl_internal_get__limit, put = __cordl_internal_set__limit)) int32_t _limit;
 
   /// @brief Field tmpBuffers, offset 0x20, size 0x8
-  __declspec(property(get = __get_tmpBuffers, put = __set_tmpBuffers))::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> tmpBuffers;
+  __declspec(property(get = __cordl_internal_get_tmpBuffers,
+                      put = __cordl_internal_set_tmpBuffers))::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> tmpBuffers;
 
-  constexpr ::System::IO::Stream*& __get__in();
+  constexpr ::System::IO::Stream*& __cordl_internal_get__in();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get__in() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__in() const;
 
-  constexpr void __set__in(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set__in(::System::IO::Stream* value);
 
-  constexpr int32_t& __get__limit();
+  constexpr int32_t& __cordl_internal_get__limit();
 
-  constexpr int32_t const& __get__limit() const;
+  constexpr int32_t const& __cordl_internal_get__limit() const;
 
-  constexpr void __set__limit(int32_t value);
+  constexpr void __cordl_internal_set__limit(int32_t value);
 
-  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*>& __get_tmpBuffers();
+  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*>& __cordl_internal_get_tmpBuffers();
 
-  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __get_tmpBuffers() const;
+  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __cordl_internal_get_tmpBuffers() const;
 
-  constexpr void __set_tmpBuffers(::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> value);
+  constexpr void __cordl_internal_set_tmpBuffers(::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> value);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1StreamParser* New_ctor(::System::IO::Stream* inStream);
 

@@ -27,49 +27,50 @@ MARK_REF_PTR_T(::GlobalNamespace::NetworkPlayerOptionsTableCell);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13664))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5584))
 // CS Name: ::NetworkPlayerOptionsTableCell*
 class CORDL_TYPE NetworkPlayerOptionsTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
   /// @brief Field _buttons, offset 0x58, size 0x8
-  __declspec(property(get = __get__buttons, put = __set__buttons))::ArrayW<::UnityEngine::UI::Button*, ::Array<::UnityEngine::UI::Button*>*> _buttons;
+  __declspec(property(get = __cordl_internal_get__buttons, put = __cordl_internal_set__buttons))::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> _buttons;
 
   /// @brief Field _buttonTexts, offset 0x60, size 0x8
-  __declspec(property(get = __get__buttonTexts, put = __set__buttonTexts))::ArrayW<::TMPro::TextMeshProUGUI*, ::Array<::TMPro::TextMeshProUGUI*>*> _buttonTexts;
+  __declspec(property(get = __cordl_internal_get__buttonTexts,
+                      put = __cordl_internal_set__buttonTexts))::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> _buttonTexts;
 
   /// @brief Field _buttonBinder, offset 0x68, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
   /// @brief Field _player, offset 0x70, size 0x8
-  __declspec(property(get = __get__player, put = __set__player))::GlobalNamespace::INetworkPlayer* _player;
+  __declspec(property(get = __cordl_internal_get__player, put = __cordl_internal_set__player))::GlobalNamespace::INetworkPlayer* _player;
 
   __declspec(property(get = get_player, put = set_player))::GlobalNamespace::INetworkPlayer* player;
 
-  constexpr ::ArrayW<::UnityEngine::UI::Button*, ::Array<::UnityEngine::UI::Button*>*>& __get__buttons();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*>& __cordl_internal_get__buttons();
 
-  constexpr ::ArrayW<::UnityEngine::UI::Button*, ::Array<::UnityEngine::UI::Button*>*> const& __get__buttons() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> const& __cordl_internal_get__buttons() const;
 
-  constexpr void __set__buttons(::ArrayW<::UnityEngine::UI::Button*, ::Array<::UnityEngine::UI::Button*>*> value);
+  constexpr void __cordl_internal_set__buttons(::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> value);
 
-  constexpr ::ArrayW<::TMPro::TextMeshProUGUI*, ::Array<::TMPro::TextMeshProUGUI*>*>& __get__buttonTexts();
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*>& __cordl_internal_get__buttonTexts();
 
-  constexpr ::ArrayW<::TMPro::TextMeshProUGUI*, ::Array<::TMPro::TextMeshProUGUI*>*> const& __get__buttonTexts() const;
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> const& __cordl_internal_get__buttonTexts() const;
 
-  constexpr void __set__buttonTexts(::ArrayW<::TMPro::TextMeshProUGUI*, ::Array<::TMPro::TextMeshProUGUI*>*> value);
+  constexpr void __cordl_internal_set__buttonTexts(::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  constexpr ::GlobalNamespace::INetworkPlayer*& __get__player();
+  constexpr ::GlobalNamespace::INetworkPlayer*& __cordl_internal_get__player();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __get__player() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __cordl_internal_get__player() const;
 
-  constexpr void __set__player(::GlobalNamespace::INetworkPlayer* value);
+  constexpr void __cordl_internal_set__player(::GlobalNamespace::INetworkPlayer* value);
 
   /// @brief Method get_player, addr 0x22a7864, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::INetworkPlayer* get_player();
@@ -118,10 +119,10 @@ protected:
 
 public:
   /// @brief Field _buttons, offset: 0x58, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::UI::Button*, ::Array<::UnityEngine::UI::Button*>*> ____buttons;
+  ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> ____buttons;
 
   /// @brief Field _buttonTexts, offset: 0x60, size: 0x8, def value: None
-  ::ArrayW<::TMPro::TextMeshProUGUI*, ::Array<::TMPro::TextMeshProUGUI*>*> ____buttonTexts;
+  ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> ____buttonTexts;
 
   /// @brief Field _buttonBinder, offset: 0x68, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;

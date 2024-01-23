@@ -116,7 +116,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::__InputActionAsset__WriteFileJson);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6135))
 // CS Name: ::InputActionAsset::WriteFileJson
 struct CORDL_TYPE __InputActionAsset__WriteFileJson {
@@ -162,7 +162,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionAsset__WriteFile
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6136))
 // CS Name: ::InputActionAsset::ReadFileJson
 struct CORDL_TYPE __InputActionAsset__ReadFileJson {
@@ -211,38 +211,39 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionAsset__ReadFileJ
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6187)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6187))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6137))
 // CS Name: ::InputActionAsset::<get_bindings>d__8*
 class CORDL_TYPE __InputActionAsset___get_bindings_d__8 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x58
-  __declspec(property(get = __get___2__current, put = __set___2__current))::UnityEngine::InputSystem::InputBinding __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityEngine::InputSystem::InputBinding __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x70, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x78, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::InputSystem::InputActionAsset* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::UnityEngine::InputSystem::InputActionAsset> __4__this;
 
   /// @brief Field <numActionMaps>5__2, offset 0x80, size 0x4
-  __declspec(property(get = __get__numActionMaps_5__2, put = __set__numActionMaps_5__2)) int32_t _numActionMaps_5__2;
+  __declspec(property(get = __cordl_internal_get__numActionMaps_5__2, put = __cordl_internal_set__numActionMaps_5__2)) int32_t _numActionMaps_5__2;
 
   /// @brief Field <i>5__3, offset 0x84, size 0x4
-  __declspec(property(get = __get__i_5__3, put = __set__i_5__3)) int32_t _i_5__3;
+  __declspec(property(get = __cordl_internal_get__i_5__3, put = __cordl_internal_set__i_5__3)) int32_t _i_5__3;
 
   /// @brief Field <bindings>5__4, offset 0x88, size 0x8
-  __declspec(property(get = __get__bindings_5__4, put = __set__bindings_5__4))::ArrayW<::UnityEngine::InputSystem::InputBinding, ::Array<::UnityEngine::InputSystem::InputBinding>*> _bindings_5__4;
+  __declspec(property(get = __cordl_internal_get__bindings_5__4,
+                      put = __cordl_internal_set__bindings_5__4))::ArrayW<::UnityEngine::InputSystem::InputBinding, ::Array<::UnityEngine::InputSystem::InputBinding>*> _bindings_5__4;
 
   /// @brief Field <numBindings>5__5, offset 0x90, size 0x4
-  __declspec(property(get = __get__numBindings_5__5, put = __set__numBindings_5__5)) int32_t _numBindings_5__5;
+  __declspec(property(get = __cordl_internal_get__numBindings_5__5, put = __cordl_internal_set__numBindings_5__5)) int32_t _numBindings_5__5;
 
   /// @brief Field <n>5__6, offset 0x94, size 0x4
-  __declspec(property(get = __get__n_5__6, put = __set__n_5__6)) int32_t _n_5__6;
+  __declspec(property(get = __cordl_internal_get__n_5__6, put = __cordl_internal_set__n_5__6)) int32_t _n_5__6;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputBinding__get_Current))::UnityEngine::InputSystem::InputBinding
       System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputBinding__Current;
@@ -281,59 +282,59 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::InputBinding& __get___2__current();
+  constexpr ::UnityEngine::InputSystem::InputBinding& __cordl_internal_get___2__current();
 
-  constexpr ::UnityEngine::InputSystem::InputBinding const& __get___2__current() const;
+  constexpr ::UnityEngine::InputSystem::InputBinding const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::UnityEngine::InputSystem::InputBinding value);
+  constexpr void __cordl_internal_set___2__current(::UnityEngine::InputSystem::InputBinding value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionAsset*& __get___4__this();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionAsset*> const& __get___4__this() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::InputSystem::InputActionAsset* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::UnityEngine::InputSystem::InputActionAsset> value);
 
-  constexpr int32_t& __get__numActionMaps_5__2();
+  constexpr int32_t& __cordl_internal_get__numActionMaps_5__2();
 
-  constexpr int32_t const& __get__numActionMaps_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__numActionMaps_5__2() const;
 
-  constexpr void __set__numActionMaps_5__2(int32_t value);
+  constexpr void __cordl_internal_set__numActionMaps_5__2(int32_t value);
 
-  constexpr int32_t& __get__i_5__3();
+  constexpr int32_t& __cordl_internal_get__i_5__3();
 
-  constexpr int32_t const& __get__i_5__3() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__3() const;
 
-  constexpr void __set__i_5__3(int32_t value);
+  constexpr void __cordl_internal_set__i_5__3(int32_t value);
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputBinding, ::Array<::UnityEngine::InputSystem::InputBinding>*>& __get__bindings_5__4();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputBinding, ::Array<::UnityEngine::InputSystem::InputBinding>*>& __cordl_internal_get__bindings_5__4();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputBinding, ::Array<::UnityEngine::InputSystem::InputBinding>*> const& __get__bindings_5__4() const;
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputBinding, ::Array<::UnityEngine::InputSystem::InputBinding>*> const& __cordl_internal_get__bindings_5__4() const;
 
-  constexpr void __set__bindings_5__4(::ArrayW<::UnityEngine::InputSystem::InputBinding, ::Array<::UnityEngine::InputSystem::InputBinding>*> value);
+  constexpr void __cordl_internal_set__bindings_5__4(::ArrayW<::UnityEngine::InputSystem::InputBinding, ::Array<::UnityEngine::InputSystem::InputBinding>*> value);
 
-  constexpr int32_t& __get__numBindings_5__5();
+  constexpr int32_t& __cordl_internal_get__numBindings_5__5();
 
-  constexpr int32_t const& __get__numBindings_5__5() const;
+  constexpr int32_t const& __cordl_internal_get__numBindings_5__5() const;
 
-  constexpr void __set__numBindings_5__5(int32_t value);
+  constexpr void __cordl_internal_set__numBindings_5__5(int32_t value);
 
-  constexpr int32_t& __get__n_5__6();
+  constexpr int32_t& __cordl_internal_get__n_5__6();
 
-  constexpr int32_t const& __get__n_5__6() const;
+  constexpr int32_t const& __cordl_internal_get__n_5__6() const;
 
-  constexpr void __set__n_5__6(int32_t value);
+  constexpr void __cordl_internal_set__n_5__6(int32_t value);
 
   static inline ::UnityEngine::InputSystem::__InputActionAsset___get_bindings_d__8* New_ctor(int32_t __1__state);
 
@@ -385,7 +386,7 @@ public:
   int32_t _____l__initialThreadId;
 
   /// @brief Field <>4__this, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionAsset* _____4__this;
+  ::UnityW<::UnityEngine::InputSystem::InputActionAsset> _____4__this;
 
   /// @brief Field <numActionMaps>5__2, offset: 0x80, size: 0x4, def value: None
   int32_t ____numActionMaps_5__2;
@@ -430,32 +431,32 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionAsset___get_bind
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6134)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 3103 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6701)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6138)) CS Name:
-// ::InputActionAsset::<GetEnumerator>d__31*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6134)), TypeDefinitionIndex(TypeDefinitionIndex(6701)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 3103 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6138)) CS Name: ::InputActionAsset::<GetEnumerator>d__31*
 class CORDL_TYPE __InputActionAsset___GetEnumerator_d__31 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::UnityEngine::InputSystem::InputAction* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityEngine::InputSystem::InputAction* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::InputSystem::InputActionAsset* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::UnityEngine::InputSystem::InputActionAsset> __4__this;
 
   /// @brief Field <i>5__2, offset 0x28, size 0x4
-  __declspec(property(get = __get__i_5__2, put = __set__i_5__2)) int32_t _i_5__2;
+  __declspec(property(get = __cordl_internal_get__i_5__2, put = __cordl_internal_set__i_5__2)) int32_t _i_5__2;
 
   /// @brief Field <actions>5__3, offset 0x30, size 0x10
-  __declspec(property(get = __get__actions_5__3, put = __set__actions_5__3))::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputAction*> _actions_5__3;
+  __declspec(property(get = __cordl_internal_get__actions_5__3,
+                      put = __cordl_internal_set__actions_5__3))::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputAction*> _actions_5__3;
 
   /// @brief Field <actionCount>5__4, offset 0x40, size 0x4
-  __declspec(property(get = __get__actionCount_5__4, put = __set__actionCount_5__4)) int32_t _actionCount_5__4;
+  __declspec(property(get = __cordl_internal_get__actionCount_5__4, put = __cordl_internal_set__actionCount_5__4)) int32_t _actionCount_5__4;
 
   /// @brief Field <n>5__5, offset 0x44, size 0x4
-  __declspec(property(get = __get__n_5__5, put = __set__n_5__5)) int32_t _n_5__5;
+  __declspec(property(get = __cordl_internal_get__n_5__5, put = __cordl_internal_set__n_5__5)) int32_t _n_5__5;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputAction__get_Current))::UnityEngine::InputSystem::
       InputAction* System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputAction__Current;
@@ -481,47 +482,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get___2__current();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set___2__current(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionAsset*& __get___4__this();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionAsset*> const& __get___4__this() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::InputSystem::InputActionAsset* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::UnityEngine::InputSystem::InputActionAsset> value);
 
-  constexpr int32_t& __get__i_5__2();
+  constexpr int32_t& __cordl_internal_get__i_5__2();
 
-  constexpr int32_t const& __get__i_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__2() const;
 
-  constexpr void __set__i_5__2(int32_t value);
+  constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputAction*>& __get__actions_5__3();
+  constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputAction*>& __cordl_internal_get__actions_5__3();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputAction*> const& __get__actions_5__3() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get__actions_5__3() const;
 
-  constexpr void __set__actions_5__3(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputAction*> value);
+  constexpr void __cordl_internal_set__actions_5__3(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputAction*> value);
 
-  constexpr int32_t& __get__actionCount_5__4();
+  constexpr int32_t& __cordl_internal_get__actionCount_5__4();
 
-  constexpr int32_t const& __get__actionCount_5__4() const;
+  constexpr int32_t const& __cordl_internal_get__actionCount_5__4() const;
 
-  constexpr void __set__actionCount_5__4(int32_t value);
+  constexpr void __cordl_internal_set__actionCount_5__4(int32_t value);
 
-  constexpr int32_t& __get__n_5__5();
+  constexpr int32_t& __cordl_internal_get__n_5__5();
 
-  constexpr int32_t const& __get__n_5__5() const;
+  constexpr int32_t const& __cordl_internal_get__n_5__5() const;
 
-  constexpr void __set__n_5__5(int32_t value);
+  constexpr void __cordl_internal_set__n_5__5(int32_t value);
 
   static inline ::UnityEngine::InputSystem::__InputActionAsset___GetEnumerator_d__31* New_ctor(int32_t __1__state);
 
@@ -564,7 +565,7 @@ public:
   ::UnityEngine::InputSystem::InputAction* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionAsset* _____4__this;
+  ::UnityW<::UnityEngine::InputSystem::InputActionAsset> _____4__this;
 
   /// @brief Field <i>5__2, offset: 0x28, size: 0x4, def value: None
   int32_t ____i_5__2;
@@ -602,8 +603,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionAsset___GetEnume
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6187)), TypeDefinitionIndex(TypeDefinitionIndex(6142)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6139)) CS
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6142)), TypeDefinitionIndex(TypeDefinitionIndex(6187)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10210)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6139)) CS
 // Name: ::UnityEngine.InputSystem::InputActionAsset*
 class CORDL_TYPE InputActionAsset : public ::UnityEngine::ScriptableObject {
 public:
@@ -617,28 +618,29 @@ public:
   using WriteFileJson = ::UnityEngine::InputSystem::__InputActionAsset__WriteFileJson;
 
   /// @brief Field m_ActionMaps, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_ActionMaps, put = __set_m_ActionMaps))::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*> m_ActionMaps;
+  __declspec(property(get = __cordl_internal_get_m_ActionMaps,
+                      put = __cordl_internal_set_m_ActionMaps))::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*> m_ActionMaps;
 
   /// @brief Field m_ControlSchemes, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_ControlSchemes,
-                      put = __set_m_ControlSchemes))::ArrayW<::UnityEngine::InputSystem::InputControlScheme, ::Array<::UnityEngine::InputSystem::InputControlScheme>*> m_ControlSchemes;
+  __declspec(property(get = __cordl_internal_get_m_ControlSchemes,
+                      put = __cordl_internal_set_m_ControlSchemes))::ArrayW<::UnityEngine::InputSystem::InputControlScheme, ::Array<::UnityEngine::InputSystem::InputControlScheme>*> m_ControlSchemes;
 
   /// @brief Field m_SharedStateForAllMaps, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_SharedStateForAllMaps, put = __set_m_SharedStateForAllMaps))::UnityEngine::InputSystem::InputActionState* m_SharedStateForAllMaps;
+  __declspec(property(get = __cordl_internal_get_m_SharedStateForAllMaps, put = __cordl_internal_set_m_SharedStateForAllMaps))::UnityEngine::InputSystem::InputActionState* m_SharedStateForAllMaps;
 
   /// @brief Field m_BindingMask, offset 0x30, size 0x60
-  __declspec(property(get = __get_m_BindingMask, put = __set_m_BindingMask))::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> m_BindingMask;
+  __declspec(property(get = __cordl_internal_get_m_BindingMask, put = __cordl_internal_set_m_BindingMask))::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> m_BindingMask;
 
   /// @brief Field m_ParameterOverridesCount, offset 0x90, size 0x4
-  __declspec(property(get = __get_m_ParameterOverridesCount, put = __set_m_ParameterOverridesCount)) int32_t m_ParameterOverridesCount;
+  __declspec(property(get = __cordl_internal_get_m_ParameterOverridesCount, put = __cordl_internal_set_m_ParameterOverridesCount)) int32_t m_ParameterOverridesCount;
 
   /// @brief Field m_ParameterOverrides, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_ParameterOverrides,
-                      put = __set_m_ParameterOverrides))::ArrayW<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride,
-                                                                 ::Array<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride>*> m_ParameterOverrides;
+  __declspec(property(get = __cordl_internal_get_m_ParameterOverrides,
+                      put = __cordl_internal_set_m_ParameterOverrides))::ArrayW<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride,
+                                                                                ::Array<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride>*> m_ParameterOverrides;
 
   /// @brief Field m_Devices, offset 0xa0, size 0x10
-  __declspec(property(get = __get_m_Devices, put = __set_m_Devices))::UnityEngine::InputSystem::__InputActionMap__DeviceArray m_Devices;
+  __declspec(property(get = __cordl_internal_get_m_Devices, put = __cordl_internal_set_m_Devices))::UnityEngine::InputSystem::__InputActionMap__DeviceArray m_Devices;
 
   __declspec(property(get = get_enabled)) bool enabled;
 
@@ -679,50 +681,50 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*>& __get_m_ActionMaps();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*>& __cordl_internal_get_m_ActionMaps();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*> const& __get_m_ActionMaps() const;
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*> const& __cordl_internal_get_m_ActionMaps() const;
 
-  constexpr void __set_m_ActionMaps(::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*> value);
+  constexpr void __cordl_internal_set_m_ActionMaps(::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputControlScheme, ::Array<::UnityEngine::InputSystem::InputControlScheme>*>& __get_m_ControlSchemes();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputControlScheme, ::Array<::UnityEngine::InputSystem::InputControlScheme>*>& __cordl_internal_get_m_ControlSchemes();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputControlScheme, ::Array<::UnityEngine::InputSystem::InputControlScheme>*> const& __get_m_ControlSchemes() const;
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputControlScheme, ::Array<::UnityEngine::InputSystem::InputControlScheme>*> const& __cordl_internal_get_m_ControlSchemes() const;
 
-  constexpr void __set_m_ControlSchemes(::ArrayW<::UnityEngine::InputSystem::InputControlScheme, ::Array<::UnityEngine::InputSystem::InputControlScheme>*> value);
+  constexpr void __cordl_internal_set_m_ControlSchemes(::ArrayW<::UnityEngine::InputSystem::InputControlScheme, ::Array<::UnityEngine::InputSystem::InputControlScheme>*> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionState*& __get_m_SharedStateForAllMaps();
+  constexpr ::UnityEngine::InputSystem::InputActionState*& __cordl_internal_get_m_SharedStateForAllMaps();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionState*> const& __get_m_SharedStateForAllMaps() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionState*> const& __cordl_internal_get_m_SharedStateForAllMaps() const;
 
-  constexpr void __set_m_SharedStateForAllMaps(::UnityEngine::InputSystem::InputActionState* value);
+  constexpr void __cordl_internal_set_m_SharedStateForAllMaps(::UnityEngine::InputSystem::InputActionState* value);
 
-  constexpr ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding>& __get_m_BindingMask();
+  constexpr ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding>& __cordl_internal_get_m_BindingMask();
 
-  constexpr ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> const& __get_m_BindingMask() const;
+  constexpr ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> const& __cordl_internal_get_m_BindingMask() const;
 
-  constexpr void __set_m_BindingMask(::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> value);
+  constexpr void __cordl_internal_set_m_BindingMask(::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> value);
 
-  constexpr int32_t& __get_m_ParameterOverridesCount();
+  constexpr int32_t& __cordl_internal_get_m_ParameterOverridesCount();
 
-  constexpr int32_t const& __get_m_ParameterOverridesCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_ParameterOverridesCount() const;
 
-  constexpr void __set_m_ParameterOverridesCount(int32_t value);
+  constexpr void __cordl_internal_set_m_ParameterOverridesCount(int32_t value);
 
   constexpr ::ArrayW<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride, ::Array<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride>*>&
-  __get_m_ParameterOverrides();
+  __cordl_internal_get_m_ParameterOverrides();
 
   constexpr ::ArrayW<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride, ::Array<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride>*> const&
-  __get_m_ParameterOverrides() const;
+  __cordl_internal_get_m_ParameterOverrides() const;
 
-  constexpr void __set_m_ParameterOverrides(
+  constexpr void __cordl_internal_set_m_ParameterOverrides(
       ::ArrayW<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride, ::Array<::UnityEngine::InputSystem::__InputActionRebindingExtensions__ParameterOverride>*> value);
 
-  constexpr ::UnityEngine::InputSystem::__InputActionMap__DeviceArray& __get_m_Devices();
+  constexpr ::UnityEngine::InputSystem::__InputActionMap__DeviceArray& __cordl_internal_get_m_Devices();
 
-  constexpr ::UnityEngine::InputSystem::__InputActionMap__DeviceArray const& __get_m_Devices() const;
+  constexpr ::UnityEngine::InputSystem::__InputActionMap__DeviceArray const& __cordl_internal_get_m_Devices() const;
 
-  constexpr void __set_m_Devices(::UnityEngine::InputSystem::__InputActionMap__DeviceArray value);
+  constexpr void __cordl_internal_set_m_Devices(::UnityEngine::InputSystem::__InputActionMap__DeviceArray value);
 
   /// @brief Method get_enabled, addr 0x2a37c00, size 0x198, virtual false, abstract: false, final false
   inline bool get_enabled();
@@ -758,7 +760,7 @@ public:
   inline void LoadFromJson(::StringW json);
 
   /// @brief Method FromJson, addr 0x2a38c98, size 0xbc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::InputActionAsset* FromJson(::StringW json);
+  static inline ::UnityW<::UnityEngine::InputSystem::InputActionAsset> FromJson(::StringW json);
 
   /// @brief Method FindAction, addr 0x2a383c4, size 0x330, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::InputAction* FindAction(::StringW actionNameOrId, bool throwIfNotFound);

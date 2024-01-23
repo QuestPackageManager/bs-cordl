@@ -15,33 +15,33 @@ MARK_REF_PTR_T(::HMUI::StackLayoutGroup);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 90, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13091))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13091))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13563))
 // CS Name: ::HMUI::StackLayoutGroup*
 class CORDL_TYPE StackLayoutGroup : public ::UnityEngine::UI::LayoutGroup {
 public:
   // Declarations
   /// @brief Field m_ChildForceExpandWidth, offset 0x58, size 0x1
-  __declspec(property(get = __get_m_ChildForceExpandWidth, put = __set_m_ChildForceExpandWidth)) bool m_ChildForceExpandWidth;
+  __declspec(property(get = __cordl_internal_get_m_ChildForceExpandWidth, put = __cordl_internal_set_m_ChildForceExpandWidth)) bool m_ChildForceExpandWidth;
 
   /// @brief Field m_ChildForceExpandHeight, offset 0x59, size 0x1
-  __declspec(property(get = __get_m_ChildForceExpandHeight, put = __set_m_ChildForceExpandHeight)) bool m_ChildForceExpandHeight;
+  __declspec(property(get = __cordl_internal_get_m_ChildForceExpandHeight, put = __cordl_internal_set_m_ChildForceExpandHeight)) bool m_ChildForceExpandHeight;
 
   __declspec(property(get = get_childForceExpandWidth, put = set_childForceExpandWidth)) bool childForceExpandWidth;
 
   __declspec(property(get = get_childForceExpandHeight, put = set_childForceExpandHeight)) bool childForceExpandHeight;
 
-  constexpr bool& __get_m_ChildForceExpandWidth();
+  constexpr bool& __cordl_internal_get_m_ChildForceExpandWidth();
 
-  constexpr bool const& __get_m_ChildForceExpandWidth() const;
+  constexpr bool const& __cordl_internal_get_m_ChildForceExpandWidth() const;
 
-  constexpr void __set_m_ChildForceExpandWidth(bool value);
+  constexpr void __cordl_internal_set_m_ChildForceExpandWidth(bool value);
 
-  constexpr bool& __get_m_ChildForceExpandHeight();
+  constexpr bool& __cordl_internal_get_m_ChildForceExpandHeight();
 
-  constexpr bool const& __get_m_ChildForceExpandHeight() const;
+  constexpr bool const& __cordl_internal_get_m_ChildForceExpandHeight() const;
 
-  constexpr void __set_m_ChildForceExpandHeight(bool value);
+  constexpr void __cordl_internal_set_m_ChildForceExpandHeight(bool value);
 
   /// @brief Method get_childForceExpandWidth, addr 0x21243e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_childForceExpandWidth();

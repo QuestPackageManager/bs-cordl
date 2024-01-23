@@ -24,14 +24,14 @@ MARK_REF_PTR_T(::System::Security::AccessControl::PrivilegeNotHeldException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2501))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2501))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3012))
 // CS Name: ::System.Security.AccessControl::PrivilegeNotHeldException*
 class CORDL_TYPE PrivilegeNotHeldException : public ::System::UnauthorizedAccessException {
 public:
   // Declarations
   /// @brief Field _privilegeName, offset 0x90, size 0x8
-  __declspec(property(get = __get__privilegeName, put = __set__privilegeName))::StringW _privilegeName;
+  __declspec(property(get = __cordl_internal_get__privilegeName, put = __cordl_internal_set__privilegeName))::StringW _privilegeName;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
@@ -39,11 +39,11 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::StringW& __get__privilegeName();
+  constexpr ::StringW& __cordl_internal_get__privilegeName();
 
-  constexpr ::StringW const& __get__privilegeName() const;
+  constexpr ::StringW const& __cordl_internal_get__privilegeName() const;
 
-  constexpr void __set__privilegeName(::StringW value);
+  constexpr void __cordl_internal_set__privilegeName(::StringW value);
 
   static inline ::System::Security::AccessControl::PrivilegeNotHeldException* New_ctor();
 

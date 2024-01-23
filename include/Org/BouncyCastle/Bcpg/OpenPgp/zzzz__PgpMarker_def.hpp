@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1628))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1628))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1652))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpMarker*
 class CORDL_TYPE PgpMarker : public ::Org::BouncyCastle::Bcpg::OpenPgp::PgpObject {
 public:
   // Declarations
   /// @brief Field data, offset 0x10, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::Org::BouncyCastle::Bcpg::MarkerPacket* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::Org::BouncyCastle::Bcpg::MarkerPacket* data;
 
-  constexpr ::Org::BouncyCastle::Bcpg::MarkerPacket*& __get_data();
+  constexpr ::Org::BouncyCastle::Bcpg::MarkerPacket*& __cordl_internal_get_data();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::MarkerPacket*> const& __get_data() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::MarkerPacket*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::Org::BouncyCastle::Bcpg::MarkerPacket* value);
+  constexpr void __cordl_internal_set_data(::Org::BouncyCastle::Bcpg::MarkerPacket* value);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpMarker* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgInput);
 

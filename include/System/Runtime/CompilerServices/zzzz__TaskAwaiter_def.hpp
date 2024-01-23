@@ -34,29 +34,29 @@ MARK_VAL_T(::System::Runtime::CompilerServices::TaskAwaiter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3392))
 // CS Name: ::TaskAwaiter::<>c__DisplayClass11_0*
 class CORDL_TYPE __TaskAwaiter____c__DisplayClass11_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field task, offset 0x10, size 0x8
-  __declspec(property(get = __get_task, put = __set_task))::System::Threading::Tasks::Task* task;
+  __declspec(property(get = __cordl_internal_get_task, put = __cordl_internal_set_task))::System::Threading::Tasks::Task* task;
 
   /// @brief Field continuation, offset 0x18, size 0x8
-  __declspec(property(get = __get_continuation, put = __set_continuation))::System::Action* continuation;
+  __declspec(property(get = __cordl_internal_get_continuation, put = __cordl_internal_set_continuation))::System::Action* continuation;
 
-  constexpr ::System::Threading::Tasks::Task*& __get_task();
+  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_task();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __get_task() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get_task() const;
 
-  constexpr void __set_task(::System::Threading::Tasks::Task* value);
+  constexpr void __cordl_internal_set_task(::System::Threading::Tasks::Task* value);
 
-  constexpr ::System::Action*& __get_continuation();
+  constexpr ::System::Action*& __cordl_internal_get_continuation();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_continuation() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_continuation() const;
 
-  constexpr void __set_continuation(::System::Action* value);
+  constexpr void __cordl_internal_set_continuation(::System::Action* value);
 
   static inline ::System::Runtime::CompilerServices::__TaskAwaiter____c__DisplayClass11_0* New_ctor();
 
@@ -100,7 +100,7 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__TaskAwaiter____c__
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3393))
 // CS Name: ::System.Runtime.CompilerServices::TaskAwaiter
 struct CORDL_TYPE TaskAwaiter {

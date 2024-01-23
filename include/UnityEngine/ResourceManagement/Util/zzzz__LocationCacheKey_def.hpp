@@ -30,17 +30,17 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::LocationCacheKey);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13970))
 // CS Name: ::UnityEngine.ResourceManagement.Util::LocationCacheKey*
 class CORDL_TYPE LocationCacheKey : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Location, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Location, put = __set_m_Location))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* m_Location;
+  __declspec(property(get = __cordl_internal_get_m_Location, put = __cordl_internal_set_m_Location))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* m_Location;
 
   /// @brief Field m_DesiredType, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_DesiredType, put = __set_m_DesiredType))::System::Type* m_DesiredType;
+  __declspec(property(get = __cordl_internal_get_m_DesiredType, put = __cordl_internal_set_m_DesiredType))::System::Type* m_DesiredType;
 
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept;
@@ -54,17 +54,17 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
   constexpr ::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>* i___System__IEquatable_1___UnityEngine__ResourceManagement__Util__IOperationCacheKey__() noexcept;
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __get_m_Location();
+  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __cordl_internal_get_m_Location();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __get_m_Location() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __cordl_internal_get_m_Location() const;
 
-  constexpr void __set_m_Location(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
+  constexpr void __cordl_internal_set_m_Location(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  constexpr ::System::Type*& __get_m_DesiredType();
+  constexpr ::System::Type*& __cordl_internal_get_m_DesiredType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_m_DesiredType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_DesiredType() const;
 
-  constexpr void __set_m_DesiredType(::System::Type* value);
+  constexpr void __cordl_internal_set_m_DesiredType(::System::Type* value);
 
   static inline ::UnityEngine::ResourceManagement::Util::LocationCacheKey* New_ctor(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Type* desiredType);
 

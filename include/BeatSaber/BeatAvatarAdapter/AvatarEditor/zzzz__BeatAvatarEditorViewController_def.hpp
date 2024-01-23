@@ -96,65 +96,65 @@ MARK_GEN_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEdi
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15683))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15683))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15266))
 // CS Name: ::BeatAvatarEditorViewController::<>c__DisplayClass62_0*
 class CORDL_TYPE __BeatAvatarEditorViewController____c__DisplayClass62_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> __4__this;
 
   /// @brief Field colorSetter, offset 0x18, size 0x8
-  __declspec(property(get = __get_colorSetter, put = __set_colorSetter))::System::Action_1<::UnityEngine::Color>* colorSetter;
+  __declspec(property(get = __cordl_internal_get_colorSetter, put = __cordl_internal_set_colorSetter))::System::Action_1<::UnityEngine::Color>* colorSetter;
 
   /// @brief Field avatarEditPart, offset 0x20, size 0x4
-  __declspec(property(get = __get_avatarEditPart, put = __set_avatarEditPart))::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart;
+  __declspec(property(get = __cordl_internal_get_avatarEditPart, put = __cordl_internal_set_avatarEditPart))::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart;
 
   /// @brief Field currentColor, offset 0x28, size 0x8
-  __declspec(property(get = __get_currentColor, put = __set_currentColor))::System::Func_1<::UnityEngine::Color>* currentColor;
+  __declspec(property(get = __cordl_internal_get_currentColor, put = __cordl_internal_set_currentColor))::System::Func_1<::UnityEngine::Color>* currentColor;
 
   /// @brief Field uvSegment, offset 0x30, size 0x4
-  __declspec(property(get = __get_uvSegment, put = __set_uvSegment)) int32_t uvSegment;
+  __declspec(property(get = __cordl_internal_get_uvSegment, put = __cordl_internal_set_uvSegment)) int32_t uvSegment;
 
   /// @brief Field <>9__1, offset 0x38, size 0x8
-  __declspec(property(get = __get___9__1, put = __set___9__1))::System::Action_1<::UnityEngine::Color>* __9__1;
+  __declspec(property(get = __cordl_internal_get___9__1, put = __cordl_internal_set___9__1))::System::Action_1<::UnityEngine::Color>* __9__1;
 
-  constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*& __get___4__this();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*> const& __get___4__this() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> value);
 
-  constexpr ::System::Action_1<::UnityEngine::Color>*& __get_colorSetter();
+  constexpr ::System::Action_1<::UnityEngine::Color>*& __cordl_internal_get_colorSetter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& __get_colorSetter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& __cordl_internal_get_colorSetter() const;
 
-  constexpr void __set_colorSetter(::System::Action_1<::UnityEngine::Color>* value);
+  constexpr void __cordl_internal_set_colorSetter(::System::Action_1<::UnityEngine::Color>* value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart& __get_avatarEditPart();
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart& __cordl_internal_get_avatarEditPart();
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart const& __get_avatarEditPart() const;
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart const& __cordl_internal_get_avatarEditPart() const;
 
-  constexpr void __set_avatarEditPart(::BeatSaber::BeatAvatarSDK::AvatarPart value);
+  constexpr void __cordl_internal_set_avatarEditPart(::BeatSaber::BeatAvatarSDK::AvatarPart value);
 
-  constexpr ::System::Func_1<::UnityEngine::Color>*& __get_currentColor();
+  constexpr ::System::Func_1<::UnityEngine::Color>*& __cordl_internal_get_currentColor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::Color>*> const& __get_currentColor() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::Color>*> const& __cordl_internal_get_currentColor() const;
 
-  constexpr void __set_currentColor(::System::Func_1<::UnityEngine::Color>* value);
+  constexpr void __cordl_internal_set_currentColor(::System::Func_1<::UnityEngine::Color>* value);
 
-  constexpr int32_t& __get_uvSegment();
+  constexpr int32_t& __cordl_internal_get_uvSegment();
 
-  constexpr int32_t const& __get_uvSegment() const;
+  constexpr int32_t const& __cordl_internal_get_uvSegment() const;
 
-  constexpr void __set_uvSegment(int32_t value);
+  constexpr void __cordl_internal_set_uvSegment(int32_t value);
 
-  constexpr ::System::Action_1<::UnityEngine::Color>*& __get___9__1();
+  constexpr ::System::Action_1<::UnityEngine::Color>*& __cordl_internal_get___9__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& __get___9__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Color>*> const& __cordl_internal_get___9__1() const;
 
-  constexpr void __set___9__1(::System::Action_1<::UnityEngine::Color>* value);
+  constexpr void __cordl_internal_set___9__1(::System::Action_1<::UnityEngine::Color>* value);
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass62_0* New_ctor();
 
@@ -182,7 +182,7 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController* _____4__this;
+  ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> _____4__this;
 
   /// @brief Field colorSetter, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::Color>* ___colorSetter;
@@ -223,47 +223,47 @@ namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15683)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15683))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15267))
 // CS Name: ::BeatAvatarEditorViewController::<>c__DisplayClass63_0`1<T>*
 class CORDL_TYPE __BeatAvatarEditorViewController____c__DisplayClass63_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field setIdAction, offset 0x10, size 0x8
-  __declspec(property(get = __get_setIdAction, put = __set_setIdAction))::System::Action_1<::StringW>* setIdAction;
+  __declspec(property(get = __cordl_internal_get_setIdAction, put = __cordl_internal_set_setIdAction))::System::Action_1<::StringW>* setIdAction;
 
   /// @brief Field partCollection, offset 0x18, size 0x8
-  __declspec(property(get = __get_partCollection, put = __set_partCollection))::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>* partCollection;
+  __declspec(property(get = __cordl_internal_get_partCollection, put = __cordl_internal_set_partCollection))::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>* partCollection;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> __4__this;
 
   /// @brief Field avatarEditPart, offset 0x28, size 0x4
-  __declspec(property(get = __get_avatarEditPart, put = __set_avatarEditPart))::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart;
+  __declspec(property(get = __cordl_internal_get_avatarEditPart, put = __cordl_internal_set_avatarEditPart))::BeatSaber::BeatAvatarSDK::AvatarPart avatarEditPart;
 
-  constexpr ::System::Action_1<::StringW>*& __get_setIdAction();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_setIdAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_setIdAction() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_setIdAction() const;
 
-  constexpr void __set_setIdAction(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_setIdAction(::System::Action_1<::StringW>* value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>*& __get_partCollection();
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>*& __cordl_internal_get_partCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>*> const& __get_partCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>*> const& __cordl_internal_get_partCollection() const;
 
-  constexpr void __set_partCollection(::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>* value);
+  constexpr void __cordl_internal_set_partCollection(::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>* value);
 
-  constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*& __get___4__this();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*> const& __get___4__this() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart& __get_avatarEditPart();
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart& __cordl_internal_get_avatarEditPart();
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart const& __get_avatarEditPart() const;
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart const& __cordl_internal_get_avatarEditPart() const;
 
-  constexpr void __set_avatarEditPart(::BeatSaber::BeatAvatarSDK::AvatarPart value);
+  constexpr void __cordl_internal_set_avatarEditPart(::BeatSaber::BeatAvatarSDK::AvatarPart value);
 
   static inline ::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass63_0_1<T>* New_ctor();
 
@@ -294,7 +294,7 @@ public:
   ::BeatSaber::BeatAvatarSDK::AvatarPartCollection_1<T>* ___partCollection;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController* _____4__this;
+  ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> _____4__this;
 
   /// @brief Field avatarEditPart, offset: 0x28, size: 0x4, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarPart ___avatarEditPart;
@@ -307,7 +307,7 @@ public:
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 340, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605)), TypeDefinitionIndex(TypeDefinitionIndex(15683))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605)), TypeDefinitionIndex(TypeDefinitionIndex(15683))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15268))
 // CS Name: ::BeatSaber.BeatAvatarAdapter.AvatarEditor::BeatAvatarEditorViewController*
 class CORDL_TYPE BeatAvatarEditorViewController : public ::HMUI::ViewController {
@@ -318,272 +318,276 @@ public:
   using __c__DisplayClass62_0 = ::BeatSaber::BeatAvatarAdapter::AvatarEditor::__BeatAvatarEditorViewController____c__DisplayClass62_0;
 
   /// @brief Field _skinColorValuePicker, offset 0x70, size 0x8
-  __declspec(property(get = __get__skinColorValuePicker, put = __set__skinColorValuePicker))::GlobalNamespace::NamedColorListController* _skinColorValuePicker;
+  __declspec(property(get = __cordl_internal_get__skinColorValuePicker, put = __cordl_internal_set__skinColorValuePicker))::UnityW<::GlobalNamespace::NamedColorListController> _skinColorValuePicker;
 
   /// @brief Field _headTopValuePicker, offset 0x78, size 0x8
-  __declspec(property(get = __get__headTopValuePicker, put = __set__headTopValuePicker))::GlobalNamespace::NamedIntListController* _headTopValuePicker;
+  __declspec(property(get = __cordl_internal_get__headTopValuePicker, put = __cordl_internal_set__headTopValuePicker))::UnityW<::GlobalNamespace::NamedIntListController> _headTopValuePicker;
 
   /// @brief Field _eyesValuePicker, offset 0x80, size 0x8
-  __declspec(property(get = __get__eyesValuePicker, put = __set__eyesValuePicker))::GlobalNamespace::NamedIntListController* _eyesValuePicker;
+  __declspec(property(get = __cordl_internal_get__eyesValuePicker, put = __cordl_internal_set__eyesValuePicker))::UnityW<::GlobalNamespace::NamedIntListController> _eyesValuePicker;
 
   /// @brief Field _handsValuePicker, offset 0x88, size 0x8
-  __declspec(property(get = __get__handsValuePicker, put = __set__handsValuePicker))::GlobalNamespace::NamedIntListController* _handsValuePicker;
+  __declspec(property(get = __cordl_internal_get__handsValuePicker, put = __cordl_internal_set__handsValuePicker))::UnityW<::GlobalNamespace::NamedIntListController> _handsValuePicker;
 
   /// @brief Field _clothesValuePicker, offset 0x90, size 0x8
-  __declspec(property(get = __get__clothesValuePicker, put = __set__clothesValuePicker))::GlobalNamespace::NamedIntListController* _clothesValuePicker;
+  __declspec(property(get = __cordl_internal_get__clothesValuePicker, put = __cordl_internal_set__clothesValuePicker))::UnityW<::GlobalNamespace::NamedIntListController> _clothesValuePicker;
 
   /// @brief Field _headTopPrimaryColorButtonController, offset 0x98, size 0x8
-  __declspec(property(get = __get__headTopPrimaryColorButtonController,
-                      put = __set__headTopPrimaryColorButtonController))::GlobalNamespace::ColorPickerButtonController* _headTopPrimaryColorButtonController;
+  __declspec(property(get = __cordl_internal_get__headTopPrimaryColorButtonController,
+                      put = __cordl_internal_set__headTopPrimaryColorButtonController))::UnityW<::GlobalNamespace::ColorPickerButtonController> _headTopPrimaryColorButtonController;
 
   /// @brief Field _headTopSecondaryColorButtonController, offset 0xa0, size 0x8
-  __declspec(property(get = __get__headTopSecondaryColorButtonController,
-                      put = __set__headTopSecondaryColorButtonController))::GlobalNamespace::ColorPickerButtonController* _headTopSecondaryColorButtonController;
+  __declspec(property(get = __cordl_internal_get__headTopSecondaryColorButtonController,
+                      put = __cordl_internal_set__headTopSecondaryColorButtonController))::UnityW<::GlobalNamespace::ColorPickerButtonController> _headTopSecondaryColorButtonController;
 
   /// @brief Field _handsColorButtonController, offset 0xa8, size 0x8
-  __declspec(property(get = __get__handsColorButtonController, put = __set__handsColorButtonController))::GlobalNamespace::ColorPickerButtonController* _handsColorButtonController;
+  __declspec(property(get = __cordl_internal_get__handsColorButtonController,
+                      put = __cordl_internal_set__handsColorButtonController))::UnityW<::GlobalNamespace::ColorPickerButtonController> _handsColorButtonController;
 
   /// @brief Field _clothesColorButtonControllerPrimary, offset 0xb0, size 0x8
-  __declspec(property(get = __get__clothesColorButtonControllerPrimary,
-                      put = __set__clothesColorButtonControllerPrimary))::GlobalNamespace::ColorPickerButtonController* _clothesColorButtonControllerPrimary;
+  __declspec(property(get = __cordl_internal_get__clothesColorButtonControllerPrimary,
+                      put = __cordl_internal_set__clothesColorButtonControllerPrimary))::UnityW<::GlobalNamespace::ColorPickerButtonController> _clothesColorButtonControllerPrimary;
 
   /// @brief Field _clothesColorButtonControllerSecondary, offset 0xb8, size 0x8
-  __declspec(property(get = __get__clothesColorButtonControllerSecondary,
-                      put = __set__clothesColorButtonControllerSecondary))::GlobalNamespace::ColorPickerButtonController* _clothesColorButtonControllerSecondary;
+  __declspec(property(get = __cordl_internal_get__clothesColorButtonControllerSecondary,
+                      put = __cordl_internal_set__clothesColorButtonControllerSecondary))::UnityW<::GlobalNamespace::ColorPickerButtonController> _clothesColorButtonControllerSecondary;
 
   /// @brief Field _clothesColorButtonControllerDetail, offset 0xc0, size 0x8
-  __declspec(property(get = __get__clothesColorButtonControllerDetail,
-                      put = __set__clothesColorButtonControllerDetail))::GlobalNamespace::ColorPickerButtonController* _clothesColorButtonControllerDetail;
+  __declspec(property(get = __cordl_internal_get__clothesColorButtonControllerDetail,
+                      put = __cordl_internal_set__clothesColorButtonControllerDetail))::UnityW<::GlobalNamespace::ColorPickerButtonController> _clothesColorButtonControllerDetail;
 
   /// @brief Field _randomizeAllButton, offset 0xc8, size 0x8
-  __declspec(property(get = __get__randomizeAllButton, put = __set__randomizeAllButton))::UnityEngine::UI::Button* _randomizeAllButton;
+  __declspec(property(get = __cordl_internal_get__randomizeAllButton, put = __cordl_internal_set__randomizeAllButton))::UnityW<::UnityEngine::UI::Button> _randomizeAllButton;
 
   /// @brief Field _undoButton, offset 0xd0, size 0x8
-  __declspec(property(get = __get__undoButton, put = __set__undoButton))::UnityEngine::UI::Button* _undoButton;
+  __declspec(property(get = __cordl_internal_get__undoButton, put = __cordl_internal_set__undoButton))::UnityW<::UnityEngine::UI::Button> _undoButton;
 
   /// @brief Field _redoButton, offset 0xd8, size 0x8
-  __declspec(property(get = __get__redoButton, put = __set__redoButton))::UnityEngine::UI::Button* _redoButton;
+  __declspec(property(get = __cordl_internal_get__redoButton, put = __cordl_internal_set__redoButton))::UnityW<::UnityEngine::UI::Button> _redoButton;
 
   /// @brief Field _applyButton, offset 0xe0, size 0x8
-  __declspec(property(get = __get__applyButton, put = __set__applyButton))::UnityEngine::UI::Button* _applyButton;
+  __declspec(property(get = __cordl_internal_get__applyButton, put = __cordl_internal_set__applyButton))::UnityW<::UnityEngine::UI::Button> _applyButton;
 
   /// @brief Field _cancelButton, offset 0xe8, size 0x8
-  __declspec(property(get = __get__cancelButton, put = __set__cancelButton))::UnityEngine::UI::Button* _cancelButton;
+  __declspec(property(get = __cordl_internal_get__cancelButton, put = __cordl_internal_set__cancelButton))::UnityW<::UnityEngine::UI::Button> _cancelButton;
 
   /// @brief Field _applyButtonText, offset 0xf0, size 0x8
-  __declspec(property(get = __get__applyButtonText, put = __set__applyButtonText))::HMUI::CurvedTextMeshPro* _applyButtonText;
+  __declspec(property(get = __cordl_internal_get__applyButtonText, put = __cordl_internal_set__applyButtonText))::UnityW<::HMUI::CurvedTextMeshPro> _applyButtonText;
 
   /// @brief Field _eyesPreviewImage, offset 0xf8, size 0x8
-  __declspec(property(get = __get__eyesPreviewImage, put = __set__eyesPreviewImage))::UnityEngine::UI::Image* _eyesPreviewImage;
+  __declspec(property(get = __cordl_internal_get__eyesPreviewImage, put = __cordl_internal_set__eyesPreviewImage))::UnityW<::UnityEngine::UI::Image> _eyesPreviewImage;
 
   /// @brief Field _avatarPartsModel, offset 0x100, size 0x8
-  __declspec(property(get = __get__avatarPartsModel, put = __set__avatarPartsModel))::BeatSaber::BeatAvatarSDK::AvatarPartsModel* _avatarPartsModel;
+  __declspec(property(get = __cordl_internal_get__avatarPartsModel, put = __cordl_internal_set__avatarPartsModel))::BeatSaber::BeatAvatarSDK::AvatarPartsModel* _avatarPartsModel;
 
   /// @brief Field _avatarDataModel, offset 0x108, size 0x8
-  __declspec(property(get = __get__avatarDataModel, put = __set__avatarDataModel))::BeatSaber::BeatAvatarSDK::AvatarDataModel* _avatarDataModel;
+  __declspec(property(get = __cordl_internal_get__avatarDataModel, put = __cordl_internal_set__avatarDataModel))::BeatSaber::BeatAvatarSDK::AvatarDataModel* _avatarDataModel;
 
   /// @brief Field didRequestColorChangeEvent, offset 0x110, size 0x8
-  __declspec(property(get = __get_didRequestColorChangeEvent, put = __set_didRequestColorChangeEvent))::System::Action_4<::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color,
-                                                                                                                         ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t>* didRequestColorChangeEvent;
+  __declspec(property(get = __cordl_internal_get_didRequestColorChangeEvent,
+                      put = __cordl_internal_set_didRequestColorChangeEvent))::System::Action_4<::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart,
+                                                                                                int32_t>* didRequestColorChangeEvent;
 
   /// @brief Field randomizeAllButtonWasPressedEvent, offset 0x118, size 0x8
-  __declspec(property(get = __get_randomizeAllButtonWasPressedEvent, put = __set_randomizeAllButtonWasPressedEvent))::System::Action* randomizeAllButtonWasPressedEvent;
+  __declspec(property(get = __cordl_internal_get_randomizeAllButtonWasPressedEvent, put = __cordl_internal_set_randomizeAllButtonWasPressedEvent))::System::Action* randomizeAllButtonWasPressedEvent;
 
   /// @brief Field didChangedAvatarPartEvent, offset 0x120, size 0x8
-  __declspec(property(get = __get_didChangedAvatarPartEvent, put = __set_didChangedAvatarPartEvent))::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarPart>* didChangedAvatarPartEvent;
+  __declspec(property(get = __cordl_internal_get_didChangedAvatarPartEvent,
+                      put = __cordl_internal_set_didChangedAvatarPartEvent))::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarPart>* didChangedAvatarPartEvent;
 
   /// @brief Field cancelButtonWasPressedEvent, offset 0x128, size 0x8
-  __declspec(property(get = __get_cancelButtonWasPressedEvent, put = __set_cancelButtonWasPressedEvent))::System::Action* cancelButtonWasPressedEvent;
+  __declspec(property(get = __cordl_internal_get_cancelButtonWasPressedEvent, put = __cordl_internal_set_cancelButtonWasPressedEvent))::System::Action* cancelButtonWasPressedEvent;
 
   /// @brief Field okButtonWasPressedEvent, offset 0x130, size 0x8
-  __declspec(property(get = __get_okButtonWasPressedEvent, put = __set_okButtonWasPressedEvent))::System::Action* okButtonWasPressedEvent;
+  __declspec(property(get = __cordl_internal_get_okButtonWasPressedEvent, put = __cordl_internal_set_okButtonWasPressedEvent))::System::Action* okButtonWasPressedEvent;
 
   /// @brief Field _avatarEditHistory, offset 0x138, size 0x8
-  __declspec(property(get = __get__avatarEditHistory, put = __set__avatarEditHistory))::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory* _avatarEditHistory;
+  __declspec(property(get = __cordl_internal_get__avatarEditHistory, put = __cordl_internal_set__avatarEditHistory))::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory* _avatarEditHistory;
 
   /// @brief Field _buttonBinder, offset 0x140, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
   /// @brief Field _intPickerBinder, offset 0x148, size 0x8
-  __declspec(property(get = __get__intPickerBinder, put = __set__intPickerBinder))::HMUI::ValueChangedBinder_1<int32_t>* _intPickerBinder;
+  __declspec(property(get = __cordl_internal_get__intPickerBinder, put = __cordl_internal_set__intPickerBinder))::HMUI::ValueChangedBinder_1<int32_t>* _intPickerBinder;
 
   /// @brief Field _lastEditedPart, offset 0x150, size 0x4
-  __declspec(property(get = __get__lastEditedPart, put = __set__lastEditedPart))::BeatSaber::BeatAvatarSDK::AvatarPart _lastEditedPart;
+  __declspec(property(get = __cordl_internal_get__lastEditedPart, put = __cordl_internal_set__lastEditedPart))::BeatSaber::BeatAvatarSDK::AvatarPart _lastEditedPart;
 
-  constexpr ::GlobalNamespace::NamedColorListController*& __get__skinColorValuePicker();
+  constexpr ::UnityW<::GlobalNamespace::NamedColorListController>& __cordl_internal_get__skinColorValuePicker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NamedColorListController*> const& __get__skinColorValuePicker() const;
+  constexpr ::UnityW<::GlobalNamespace::NamedColorListController> const& __cordl_internal_get__skinColorValuePicker() const;
 
-  constexpr void __set__skinColorValuePicker(::GlobalNamespace::NamedColorListController* value);
+  constexpr void __cordl_internal_set__skinColorValuePicker(::UnityW<::GlobalNamespace::NamedColorListController> value);
 
-  constexpr ::GlobalNamespace::NamedIntListController*& __get__headTopValuePicker();
+  constexpr ::UnityW<::GlobalNamespace::NamedIntListController>& __cordl_internal_get__headTopValuePicker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NamedIntListController*> const& __get__headTopValuePicker() const;
+  constexpr ::UnityW<::GlobalNamespace::NamedIntListController> const& __cordl_internal_get__headTopValuePicker() const;
 
-  constexpr void __set__headTopValuePicker(::GlobalNamespace::NamedIntListController* value);
+  constexpr void __cordl_internal_set__headTopValuePicker(::UnityW<::GlobalNamespace::NamedIntListController> value);
 
-  constexpr ::GlobalNamespace::NamedIntListController*& __get__eyesValuePicker();
+  constexpr ::UnityW<::GlobalNamespace::NamedIntListController>& __cordl_internal_get__eyesValuePicker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NamedIntListController*> const& __get__eyesValuePicker() const;
+  constexpr ::UnityW<::GlobalNamespace::NamedIntListController> const& __cordl_internal_get__eyesValuePicker() const;
 
-  constexpr void __set__eyesValuePicker(::GlobalNamespace::NamedIntListController* value);
+  constexpr void __cordl_internal_set__eyesValuePicker(::UnityW<::GlobalNamespace::NamedIntListController> value);
 
-  constexpr ::GlobalNamespace::NamedIntListController*& __get__handsValuePicker();
+  constexpr ::UnityW<::GlobalNamespace::NamedIntListController>& __cordl_internal_get__handsValuePicker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NamedIntListController*> const& __get__handsValuePicker() const;
+  constexpr ::UnityW<::GlobalNamespace::NamedIntListController> const& __cordl_internal_get__handsValuePicker() const;
 
-  constexpr void __set__handsValuePicker(::GlobalNamespace::NamedIntListController* value);
+  constexpr void __cordl_internal_set__handsValuePicker(::UnityW<::GlobalNamespace::NamedIntListController> value);
 
-  constexpr ::GlobalNamespace::NamedIntListController*& __get__clothesValuePicker();
+  constexpr ::UnityW<::GlobalNamespace::NamedIntListController>& __cordl_internal_get__clothesValuePicker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NamedIntListController*> const& __get__clothesValuePicker() const;
+  constexpr ::UnityW<::GlobalNamespace::NamedIntListController> const& __cordl_internal_get__clothesValuePicker() const;
 
-  constexpr void __set__clothesValuePicker(::GlobalNamespace::NamedIntListController* value);
+  constexpr void __cordl_internal_set__clothesValuePicker(::UnityW<::GlobalNamespace::NamedIntListController> value);
 
-  constexpr ::GlobalNamespace::ColorPickerButtonController*& __get__headTopPrimaryColorButtonController();
+  constexpr ::UnityW<::GlobalNamespace::ColorPickerButtonController>& __cordl_internal_get__headTopPrimaryColorButtonController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorPickerButtonController*> const& __get__headTopPrimaryColorButtonController() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorPickerButtonController> const& __cordl_internal_get__headTopPrimaryColorButtonController() const;
 
-  constexpr void __set__headTopPrimaryColorButtonController(::GlobalNamespace::ColorPickerButtonController* value);
+  constexpr void __cordl_internal_set__headTopPrimaryColorButtonController(::UnityW<::GlobalNamespace::ColorPickerButtonController> value);
 
-  constexpr ::GlobalNamespace::ColorPickerButtonController*& __get__headTopSecondaryColorButtonController();
+  constexpr ::UnityW<::GlobalNamespace::ColorPickerButtonController>& __cordl_internal_get__headTopSecondaryColorButtonController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorPickerButtonController*> const& __get__headTopSecondaryColorButtonController() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorPickerButtonController> const& __cordl_internal_get__headTopSecondaryColorButtonController() const;
 
-  constexpr void __set__headTopSecondaryColorButtonController(::GlobalNamespace::ColorPickerButtonController* value);
+  constexpr void __cordl_internal_set__headTopSecondaryColorButtonController(::UnityW<::GlobalNamespace::ColorPickerButtonController> value);
 
-  constexpr ::GlobalNamespace::ColorPickerButtonController*& __get__handsColorButtonController();
+  constexpr ::UnityW<::GlobalNamespace::ColorPickerButtonController>& __cordl_internal_get__handsColorButtonController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorPickerButtonController*> const& __get__handsColorButtonController() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorPickerButtonController> const& __cordl_internal_get__handsColorButtonController() const;
 
-  constexpr void __set__handsColorButtonController(::GlobalNamespace::ColorPickerButtonController* value);
+  constexpr void __cordl_internal_set__handsColorButtonController(::UnityW<::GlobalNamespace::ColorPickerButtonController> value);
 
-  constexpr ::GlobalNamespace::ColorPickerButtonController*& __get__clothesColorButtonControllerPrimary();
+  constexpr ::UnityW<::GlobalNamespace::ColorPickerButtonController>& __cordl_internal_get__clothesColorButtonControllerPrimary();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorPickerButtonController*> const& __get__clothesColorButtonControllerPrimary() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorPickerButtonController> const& __cordl_internal_get__clothesColorButtonControllerPrimary() const;
 
-  constexpr void __set__clothesColorButtonControllerPrimary(::GlobalNamespace::ColorPickerButtonController* value);
+  constexpr void __cordl_internal_set__clothesColorButtonControllerPrimary(::UnityW<::GlobalNamespace::ColorPickerButtonController> value);
 
-  constexpr ::GlobalNamespace::ColorPickerButtonController*& __get__clothesColorButtonControllerSecondary();
+  constexpr ::UnityW<::GlobalNamespace::ColorPickerButtonController>& __cordl_internal_get__clothesColorButtonControllerSecondary();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorPickerButtonController*> const& __get__clothesColorButtonControllerSecondary() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorPickerButtonController> const& __cordl_internal_get__clothesColorButtonControllerSecondary() const;
 
-  constexpr void __set__clothesColorButtonControllerSecondary(::GlobalNamespace::ColorPickerButtonController* value);
+  constexpr void __cordl_internal_set__clothesColorButtonControllerSecondary(::UnityW<::GlobalNamespace::ColorPickerButtonController> value);
 
-  constexpr ::GlobalNamespace::ColorPickerButtonController*& __get__clothesColorButtonControllerDetail();
+  constexpr ::UnityW<::GlobalNamespace::ColorPickerButtonController>& __cordl_internal_get__clothesColorButtonControllerDetail();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorPickerButtonController*> const& __get__clothesColorButtonControllerDetail() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorPickerButtonController> const& __cordl_internal_get__clothesColorButtonControllerDetail() const;
 
-  constexpr void __set__clothesColorButtonControllerDetail(::GlobalNamespace::ColorPickerButtonController* value);
+  constexpr void __cordl_internal_set__clothesColorButtonControllerDetail(::UnityW<::GlobalNamespace::ColorPickerButtonController> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__randomizeAllButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__randomizeAllButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__randomizeAllButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__randomizeAllButton() const;
 
-  constexpr void __set__randomizeAllButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__randomizeAllButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__undoButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__undoButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__undoButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__undoButton() const;
 
-  constexpr void __set__undoButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__undoButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__redoButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__redoButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__redoButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__redoButton() const;
 
-  constexpr void __set__redoButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__redoButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__applyButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__applyButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__applyButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__applyButton() const;
 
-  constexpr void __set__applyButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__applyButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__cancelButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__cancelButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__cancelButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelButton() const;
 
-  constexpr void __set__cancelButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__cancelButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::HMUI::CurvedTextMeshPro*& __get__applyButtonText();
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro>& __cordl_internal_get__applyButtonText();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedTextMeshPro*> const& __get__applyButtonText() const;
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& __cordl_internal_get__applyButtonText() const;
 
-  constexpr void __set__applyButtonText(::HMUI::CurvedTextMeshPro* value);
+  constexpr void __cordl_internal_set__applyButtonText(::UnityW<::HMUI::CurvedTextMeshPro> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__eyesPreviewImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__eyesPreviewImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__eyesPreviewImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__eyesPreviewImage() const;
 
-  constexpr void __set__eyesPreviewImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__eyesPreviewImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartsModel*& __get__avatarPartsModel();
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartsModel*& __cordl_internal_get__avatarPartsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartsModel*> const& __get__avatarPartsModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartsModel*> const& __cordl_internal_get__avatarPartsModel() const;
 
-  constexpr void __set__avatarPartsModel(::BeatSaber::BeatAvatarSDK::AvatarPartsModel* value);
+  constexpr void __cordl_internal_set__avatarPartsModel(::BeatSaber::BeatAvatarSDK::AvatarPartsModel* value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& __get__avatarDataModel();
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& __cordl_internal_get__avatarDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarDataModel*> const& __get__avatarDataModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarDataModel*> const& __cordl_internal_get__avatarDataModel() const;
 
-  constexpr void __set__avatarDataModel(::BeatSaber::BeatAvatarSDK::AvatarDataModel* value);
+  constexpr void __cordl_internal_set__avatarDataModel(::BeatSaber::BeatAvatarSDK::AvatarDataModel* value);
 
-  constexpr ::System::Action_4<::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t>*& __get_didRequestColorChangeEvent();
+  constexpr ::System::Action_4<::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t>*& __cordl_internal_get_didRequestColorChangeEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_4<::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t>*> const&
-  __get_didRequestColorChangeEvent() const;
+  __cordl_internal_get_didRequestColorChangeEvent() const;
 
-  constexpr void __set_didRequestColorChangeEvent(::System::Action_4<::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t>* value);
+  constexpr void
+  __cordl_internal_set_didRequestColorChangeEvent(::System::Action_4<::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t>* value);
 
-  constexpr ::System::Action*& __get_randomizeAllButtonWasPressedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_randomizeAllButtonWasPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_randomizeAllButtonWasPressedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_randomizeAllButtonWasPressedEvent() const;
 
-  constexpr void __set_randomizeAllButtonWasPressedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_randomizeAllButtonWasPressedEvent(::System::Action* value);
 
-  constexpr ::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarPart>*& __get_didChangedAvatarPartEvent();
+  constexpr ::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarPart>*& __cordl_internal_get_didChangedAvatarPartEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarPart>*> const& __get_didChangedAvatarPartEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarPart>*> const& __cordl_internal_get_didChangedAvatarPartEvent() const;
 
-  constexpr void __set_didChangedAvatarPartEvent(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarPart>* value);
+  constexpr void __cordl_internal_set_didChangedAvatarPartEvent(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarPart>* value);
 
-  constexpr ::System::Action*& __get_cancelButtonWasPressedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_cancelButtonWasPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_cancelButtonWasPressedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_cancelButtonWasPressedEvent() const;
 
-  constexpr void __set_cancelButtonWasPressedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_cancelButtonWasPressedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_okButtonWasPressedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_okButtonWasPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_okButtonWasPressedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_okButtonWasPressedEvent() const;
 
-  constexpr void __set_okButtonWasPressedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_okButtonWasPressedEvent(::System::Action* value);
 
-  constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory*& __get__avatarEditHistory();
+  constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory*& __cordl_internal_get__avatarEditHistory();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory*> const& __get__avatarEditHistory() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory*> const& __cordl_internal_get__avatarEditHistory() const;
 
-  constexpr void __set__avatarEditHistory(::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory* value);
+  constexpr void __cordl_internal_set__avatarEditHistory(::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory* value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  constexpr ::HMUI::ValueChangedBinder_1<int32_t>*& __get__intPickerBinder();
+  constexpr ::HMUI::ValueChangedBinder_1<int32_t>*& __cordl_internal_get__intPickerBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ValueChangedBinder_1<int32_t>*> const& __get__intPickerBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ValueChangedBinder_1<int32_t>*> const& __cordl_internal_get__intPickerBinder() const;
 
-  constexpr void __set__intPickerBinder(::HMUI::ValueChangedBinder_1<int32_t>* value);
+  constexpr void __cordl_internal_set__intPickerBinder(::HMUI::ValueChangedBinder_1<int32_t>* value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart& __get__lastEditedPart();
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart& __cordl_internal_get__lastEditedPart();
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart const& __get__lastEditedPart() const;
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPart const& __cordl_internal_get__lastEditedPart() const;
 
-  constexpr void __set__lastEditedPart(::BeatSaber::BeatAvatarSDK::AvatarPart value);
+  constexpr void __cordl_internal_set__lastEditedPart(::BeatSaber::BeatAvatarSDK::AvatarPart value);
 
   /// @brief Method add_didRequestColorChangeEvent, addr 0xe12248, size 0xb4, virtual false, abstract: false, final false
   inline void add_didRequestColorChangeEvent(::System::Action_4<::System::Action_1<::UnityEngine::Color>*, ::UnityEngine::Color, ::BeatSaber::BeatAvatarSDK::AvatarPart, int32_t>* value);
@@ -755,58 +759,58 @@ protected:
 
 public:
   /// @brief Field _skinColorValuePicker, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::NamedColorListController* ____skinColorValuePicker;
+  ::UnityW<::GlobalNamespace::NamedColorListController> ____skinColorValuePicker;
 
   /// @brief Field _headTopValuePicker, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::NamedIntListController* ____headTopValuePicker;
+  ::UnityW<::GlobalNamespace::NamedIntListController> ____headTopValuePicker;
 
   /// @brief Field _eyesValuePicker, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::NamedIntListController* ____eyesValuePicker;
+  ::UnityW<::GlobalNamespace::NamedIntListController> ____eyesValuePicker;
 
   /// @brief Field _handsValuePicker, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::NamedIntListController* ____handsValuePicker;
+  ::UnityW<::GlobalNamespace::NamedIntListController> ____handsValuePicker;
 
   /// @brief Field _clothesValuePicker, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::NamedIntListController* ____clothesValuePicker;
+  ::UnityW<::GlobalNamespace::NamedIntListController> ____clothesValuePicker;
 
   /// @brief Field _headTopPrimaryColorButtonController, offset: 0x98, size: 0x8, def value: None
-  ::GlobalNamespace::ColorPickerButtonController* ____headTopPrimaryColorButtonController;
+  ::UnityW<::GlobalNamespace::ColorPickerButtonController> ____headTopPrimaryColorButtonController;
 
   /// @brief Field _headTopSecondaryColorButtonController, offset: 0xa0, size: 0x8, def value: None
-  ::GlobalNamespace::ColorPickerButtonController* ____headTopSecondaryColorButtonController;
+  ::UnityW<::GlobalNamespace::ColorPickerButtonController> ____headTopSecondaryColorButtonController;
 
   /// @brief Field _handsColorButtonController, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::ColorPickerButtonController* ____handsColorButtonController;
+  ::UnityW<::GlobalNamespace::ColorPickerButtonController> ____handsColorButtonController;
 
   /// @brief Field _clothesColorButtonControllerPrimary, offset: 0xb0, size: 0x8, def value: None
-  ::GlobalNamespace::ColorPickerButtonController* ____clothesColorButtonControllerPrimary;
+  ::UnityW<::GlobalNamespace::ColorPickerButtonController> ____clothesColorButtonControllerPrimary;
 
   /// @brief Field _clothesColorButtonControllerSecondary, offset: 0xb8, size: 0x8, def value: None
-  ::GlobalNamespace::ColorPickerButtonController* ____clothesColorButtonControllerSecondary;
+  ::UnityW<::GlobalNamespace::ColorPickerButtonController> ____clothesColorButtonControllerSecondary;
 
   /// @brief Field _clothesColorButtonControllerDetail, offset: 0xc0, size: 0x8, def value: None
-  ::GlobalNamespace::ColorPickerButtonController* ____clothesColorButtonControllerDetail;
+  ::UnityW<::GlobalNamespace::ColorPickerButtonController> ____clothesColorButtonControllerDetail;
 
   /// @brief Field _randomizeAllButton, offset: 0xc8, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____randomizeAllButton;
+  ::UnityW<::UnityEngine::UI::Button> ____randomizeAllButton;
 
   /// @brief Field _undoButton, offset: 0xd0, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____undoButton;
+  ::UnityW<::UnityEngine::UI::Button> ____undoButton;
 
   /// @brief Field _redoButton, offset: 0xd8, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____redoButton;
+  ::UnityW<::UnityEngine::UI::Button> ____redoButton;
 
   /// @brief Field _applyButton, offset: 0xe0, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____applyButton;
+  ::UnityW<::UnityEngine::UI::Button> ____applyButton;
 
   /// @brief Field _cancelButton, offset: 0xe8, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____cancelButton;
+  ::UnityW<::UnityEngine::UI::Button> ____cancelButton;
 
   /// @brief Field _applyButtonText, offset: 0xf0, size: 0x8, def value: None
-  ::HMUI::CurvedTextMeshPro* ____applyButtonText;
+  ::UnityW<::HMUI::CurvedTextMeshPro> ____applyButtonText;
 
   /// @brief Field _eyesPreviewImage, offset: 0xf8, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____eyesPreviewImage;
+  ::UnityW<::UnityEngine::UI::Image> ____eyesPreviewImage;
 
   /// @brief Field _avatarPartsModel, offset: 0x100, size: 0x8, def value: None
   ::BeatSaber::BeatAvatarSDK::AvatarPartsModel* ____avatarPartsModel;

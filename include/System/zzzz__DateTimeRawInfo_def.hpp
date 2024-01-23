@@ -20,7 +20,7 @@ MARK_VAL_T(::System::DateTimeRawInfo);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2388))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2388))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2396))
 // CS Name: ::System::DateTimeRawInfo
 struct CORDL_TYPE DateTimeRawInfo {

@@ -16,47 +16,47 @@ MARK_REF_PTR_T(::System::Security::Cryptography::SHA1Managed);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2958))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2958))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2959))
 // CS Name: ::System.Security.Cryptography::SHA1Managed*
 class CORDL_TYPE SHA1Managed : public ::System::Security::Cryptography::SHA1 {
 public:
   // Declarations
   /// @brief Field _buffer, offset 0x28, size 0x8
-  __declspec(property(get = __get__buffer, put = __set__buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
 
   /// @brief Field _count, offset 0x30, size 0x8
-  __declspec(property(get = __get__count, put = __set__count)) int64_t _count;
+  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int64_t _count;
 
   /// @brief Field _stateSHA1, offset 0x38, size 0x8
-  __declspec(property(get = __get__stateSHA1, put = __set__stateSHA1))::ArrayW<uint32_t, ::Array<uint32_t>*> _stateSHA1;
+  __declspec(property(get = __cordl_internal_get__stateSHA1, put = __cordl_internal_set__stateSHA1))::ArrayW<uint32_t, ::Array<uint32_t>*> _stateSHA1;
 
   /// @brief Field _expandedBuffer, offset 0x40, size 0x8
-  __declspec(property(get = __get__expandedBuffer, put = __set__expandedBuffer))::ArrayW<uint32_t, ::Array<uint32_t>*> _expandedBuffer;
+  __declspec(property(get = __cordl_internal_get__expandedBuffer, put = __cordl_internal_set__expandedBuffer))::ArrayW<uint32_t, ::Array<uint32_t>*> _expandedBuffer;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__buffer() const;
 
-  constexpr void __set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int64_t& __get__count();
+  constexpr int64_t& __cordl_internal_get__count();
 
-  constexpr int64_t const& __get__count() const;
+  constexpr int64_t const& __cordl_internal_get__count() const;
 
-  constexpr void __set__count(int64_t value);
+  constexpr void __cordl_internal_set__count(int64_t value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get__stateSHA1();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get__stateSHA1();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get__stateSHA1() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__stateSHA1() const;
 
-  constexpr void __set__stateSHA1(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set__stateSHA1(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get__expandedBuffer();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get__expandedBuffer();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get__expandedBuffer() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__expandedBuffer() const;
 
-  constexpr void __set__expandedBuffer(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set__expandedBuffer(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
   static inline ::System::Security::Cryptography::SHA1Managed* New_ctor();
 

@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1157))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1157))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1177))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::AbstractTlsSignerCredentials*
 class CORDL_TYPE AbstractTlsSignerCredentials : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials {

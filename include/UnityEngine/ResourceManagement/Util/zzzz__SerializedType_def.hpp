@@ -18,7 +18,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::Util::SerializedType);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13983))
 // CS Name: ::UnityEngine.ResourceManagement.Util::SerializedType
 struct CORDL_TYPE SerializedType {

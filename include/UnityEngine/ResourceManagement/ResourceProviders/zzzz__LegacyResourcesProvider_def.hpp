@@ -39,29 +39,29 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__LegacyRes
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14009))
 // CS Name: ::LegacyResourcesProvider::InternalOp*
 class CORDL_TYPE __LegacyResourcesProvider__InternalOp : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_RequestOperation, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_RequestOperation, put = __set_m_RequestOperation))::UnityEngine::ResourceRequest* m_RequestOperation;
+  __declspec(property(get = __cordl_internal_get_m_RequestOperation, put = __cordl_internal_set_m_RequestOperation))::UnityEngine::ResourceRequest* m_RequestOperation;
 
   /// @brief Field m_ProvideHandle, offset 0x18, size 0x18
-  __declspec(property(get = __get_m_ProvideHandle, put = __set_m_ProvideHandle))::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle;
+  __declspec(property(get = __cordl_internal_get_m_ProvideHandle, put = __cordl_internal_set_m_ProvideHandle))::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle;
 
-  constexpr ::UnityEngine::ResourceRequest*& __get_m_RequestOperation();
+  constexpr ::UnityEngine::ResourceRequest*& __cordl_internal_get_m_RequestOperation();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceRequest*> const& __get_m_RequestOperation() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceRequest*> const& __cordl_internal_get_m_RequestOperation() const;
 
-  constexpr void __set_m_RequestOperation(::UnityEngine::ResourceRequest* value);
+  constexpr void __cordl_internal_set_m_RequestOperation(::UnityEngine::ResourceRequest* value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& __get_m_ProvideHandle();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& __cordl_internal_get_m_ProvideHandle();
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& __get_m_ProvideHandle() const;
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& __cordl_internal_get_m_ProvideHandle() const;
 
-  constexpr void __set_m_ProvideHandle(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
+  constexpr void __cordl_internal_set_m_ProvideHandle(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
 
   /// @brief Method Start, addr 0x2bd7b44, size 0x190, virtual false, abstract: false, final false
   inline void Start(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle provideHandle);
@@ -114,7 +114,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__L
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14013))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14013))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14010))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::LegacyResourcesProvider*
 class CORDL_TYPE LegacyResourcesProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {

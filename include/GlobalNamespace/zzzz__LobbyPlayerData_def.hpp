@@ -20,23 +20,23 @@ MARK_REF_PTR_T(::GlobalNamespace::LobbyPlayerData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4498))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4498))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4504))
 // CS Name: ::LobbyPlayerData*
 class CORDL_TYPE LobbyPlayerData : public ::GlobalNamespace::LevelGameplaySetupData {
 public:
   // Declarations
   /// @brief Field <isPartyOwner>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __get__isPartyOwner_k__BackingField, put = __set__isPartyOwner_k__BackingField)) bool _isPartyOwner_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isPartyOwner_k__BackingField, put = __cordl_internal_set__isPartyOwner_k__BackingField)) bool _isPartyOwner_k__BackingField;
 
   /// @brief Field <isActive>k__BackingField, offset 0x21, size 0x1
-  __declspec(property(get = __get__isActive_k__BackingField, put = __set__isActive_k__BackingField)) bool _isActive_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isActive_k__BackingField, put = __cordl_internal_set__isActive_k__BackingField)) bool _isActive_k__BackingField;
 
   /// @brief Field <isReady>k__BackingField, offset 0x22, size 0x1
-  __declspec(property(get = __get__isReady_k__BackingField, put = __set__isReady_k__BackingField)) bool _isReady_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isReady_k__BackingField, put = __cordl_internal_set__isReady_k__BackingField)) bool _isReady_k__BackingField;
 
   /// @brief Field <isInLobby>k__BackingField, offset 0x23, size 0x1
-  __declspec(property(get = __get__isInLobby_k__BackingField, put = __set__isInLobby_k__BackingField)) bool _isInLobby_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isInLobby_k__BackingField, put = __cordl_internal_set__isInLobby_k__BackingField)) bool _isInLobby_k__BackingField;
 
   __declspec(property(get = get_isPartyOwner, put = set_isPartyOwner)) bool isPartyOwner;
 
@@ -58,29 +58,29 @@ public:
   /// @brief Convert to "::GlobalNamespace::ILevelGameplaySetupData"
   constexpr ::GlobalNamespace::ILevelGameplaySetupData* i___GlobalNamespace__ILevelGameplaySetupData() noexcept;
 
-  constexpr bool& __get__isPartyOwner_k__BackingField();
+  constexpr bool& __cordl_internal_get__isPartyOwner_k__BackingField();
 
-  constexpr bool const& __get__isPartyOwner_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isPartyOwner_k__BackingField() const;
 
-  constexpr void __set__isPartyOwner_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isPartyOwner_k__BackingField(bool value);
 
-  constexpr bool& __get__isActive_k__BackingField();
+  constexpr bool& __cordl_internal_get__isActive_k__BackingField();
 
-  constexpr bool const& __get__isActive_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isActive_k__BackingField() const;
 
-  constexpr void __set__isActive_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isActive_k__BackingField(bool value);
 
-  constexpr bool& __get__isReady_k__BackingField();
+  constexpr bool& __cordl_internal_get__isReady_k__BackingField();
 
-  constexpr bool const& __get__isReady_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isReady_k__BackingField() const;
 
-  constexpr void __set__isReady_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isReady_k__BackingField(bool value);
 
-  constexpr bool& __get__isInLobby_k__BackingField();
+  constexpr bool& __cordl_internal_get__isInLobby_k__BackingField();
 
-  constexpr bool const& __get__isInLobby_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isInLobby_k__BackingField() const;
 
-  constexpr void __set__isInLobby_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isInLobby_k__BackingField(bool value);
 
   /// @brief Method get_isPartyOwner, addr 0x235b85c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isPartyOwner();

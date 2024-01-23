@@ -10,28 +10,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x2b0f144;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer>::get(), "Compare", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer>::get(), "Compare", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>"
 constexpr UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer::operator ::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>*() {
-  return static_cast<::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>*>(static_cast<void*>(::cordl_internals::Box(this)));
+  return static_cast<::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>"
 constexpr ::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>*
 UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer::i___System__Collections__Generic__IComparer_1___UnityEngine__Vector2_() {
-  return static_cast<::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>*>(static_cast<void*>(::cordl_internals::Box(this)));
+  return static_cast<::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 inline int32_t UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer::Compare(::UnityEngine::Vector2 x, ::UnityEngine::Vector2 y) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer>::get(), "Compare", std::vector<Il2CppClass*>{},
-                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
-                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer>::get(), "Compare", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x, y);
 }
 // Ctor Parameters []

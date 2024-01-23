@@ -20,29 +20,30 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerMenuClient);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5583))
 // CS Name: ::MultiplayerMenuClient*
 class CORDL_TYPE MultiplayerMenuClient : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _menuPlayerController, offset 0x18, size 0x8
-  __declspec(property(get = __get__menuPlayerController, put = __set__menuPlayerController))::GlobalNamespace::MenuPlayerController* _menuPlayerController;
+  __declspec(property(get = __cordl_internal_get__menuPlayerController, put = __cordl_internal_set__menuPlayerController))::UnityW<::GlobalNamespace::MenuPlayerController> _menuPlayerController;
 
   /// @brief Field _nodePoseSyncStateManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__nodePoseSyncStateManager, put = __set__nodePoseSyncStateManager))::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
+  __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager,
+                      put = __cordl_internal_set__nodePoseSyncStateManager))::GlobalNamespace::INodePoseSyncStateManager* _nodePoseSyncStateManager;
 
-  constexpr ::GlobalNamespace::MenuPlayerController*& __get__menuPlayerController();
+  constexpr ::UnityW<::GlobalNamespace::MenuPlayerController>& __cordl_internal_get__menuPlayerController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuPlayerController*> const& __get__menuPlayerController() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuPlayerController> const& __cordl_internal_get__menuPlayerController() const;
 
-  constexpr void __set__menuPlayerController(::GlobalNamespace::MenuPlayerController* value);
+  constexpr void __cordl_internal_set__menuPlayerController(::UnityW<::GlobalNamespace::MenuPlayerController> value);
 
-  constexpr ::GlobalNamespace::INodePoseSyncStateManager*& __get__nodePoseSyncStateManager();
+  constexpr ::GlobalNamespace::INodePoseSyncStateManager*& __cordl_internal_get__nodePoseSyncStateManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INodePoseSyncStateManager*> const& __get__nodePoseSyncStateManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INodePoseSyncStateManager*> const& __cordl_internal_get__nodePoseSyncStateManager() const;
 
-  constexpr void __set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
+  constexpr void __cordl_internal_set__nodePoseSyncStateManager(::GlobalNamespace::INodePoseSyncStateManager* value);
 
   /// @brief Method LateUpdate, addr 0x22a74e4, size 0x378, virtual false, abstract: false, final false
   inline void LateUpdate();
@@ -67,7 +68,7 @@ protected:
 
 public:
   /// @brief Field _menuPlayerController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MenuPlayerController* ____menuPlayerController;
+  ::UnityW<::GlobalNamespace::MenuPlayerController> ____menuPlayerController;
 
   /// @brief Field _nodePoseSyncStateManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::INodePoseSyncStateManager* ____nodePoseSyncStateManager;

@@ -31,7 +31,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRTracker__Frustum);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8044))
 // CS Name: ::OVRTracker::Frustum
 struct CORDL_TYPE __OVRTracker__Frustum {
@@ -73,7 +73,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRTracker__Frustum, fov) == 0x8, "O
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8045))
 // CS Name: ::OVRTracker*
 class CORDL_TYPE OVRTracker : public ::System::Object {

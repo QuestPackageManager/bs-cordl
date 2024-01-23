@@ -30,29 +30,34 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::PoseControl);
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6216)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3894 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6322))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6323)) CS Name: ::UnityEngine.InputSystem.XR::PoseControl*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6216)), TypeDefinitionIndex(TypeDefinitionIndex(6322)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3894
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6323)) CS Name: ::UnityEngine.InputSystem.XR::PoseControl*
 class CORDL_TYPE PoseControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::XR::PoseState> {
 public:
   // Declarations
   /// @brief Field <isTracked>k__BackingField, offset 0xf0, size 0x8
-  __declspec(property(get = __get__isTracked_k__BackingField, put = __set__isTracked_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _isTracked_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isTracked_k__BackingField,
+                      put = __cordl_internal_set__isTracked_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _isTracked_k__BackingField;
 
   /// @brief Field <trackingState>k__BackingField, offset 0xf8, size 0x8
-  __declspec(property(get = __get__trackingState_k__BackingField, put = __set__trackingState_k__BackingField))::UnityEngine::InputSystem::Controls::IntegerControl* _trackingState_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__trackingState_k__BackingField,
+                      put = __cordl_internal_set__trackingState_k__BackingField))::UnityEngine::InputSystem::Controls::IntegerControl* _trackingState_k__BackingField;
 
   /// @brief Field <position>k__BackingField, offset 0x100, size 0x8
-  __declspec(property(get = __get__position_k__BackingField, put = __set__position_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _position_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__position_k__BackingField,
+                      put = __cordl_internal_set__position_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _position_k__BackingField;
 
   /// @brief Field <rotation>k__BackingField, offset 0x108, size 0x8
-  __declspec(property(get = __get__rotation_k__BackingField, put = __set__rotation_k__BackingField))::UnityEngine::InputSystem::Controls::QuaternionControl* _rotation_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rotation_k__BackingField,
+                      put = __cordl_internal_set__rotation_k__BackingField))::UnityEngine::InputSystem::Controls::QuaternionControl* _rotation_k__BackingField;
 
   /// @brief Field <velocity>k__BackingField, offset 0x110, size 0x8
-  __declspec(property(get = __get__velocity_k__BackingField, put = __set__velocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _velocity_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__velocity_k__BackingField,
+                      put = __cordl_internal_set__velocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _velocity_k__BackingField;
 
   /// @brief Field <angularVelocity>k__BackingField, offset 0x118, size 0x8
-  __declspec(property(get = __get__angularVelocity_k__BackingField,
-                      put = __set__angularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _angularVelocity_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__angularVelocity_k__BackingField,
+                      put = __cordl_internal_set__angularVelocity_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _angularVelocity_k__BackingField;
 
   __declspec(property(get = get_isTracked, put = set_isTracked))::UnityEngine::InputSystem::Controls::ButtonControl* isTracked;
 
@@ -66,41 +71,41 @@ public:
 
   __declspec(property(get = get_angularVelocity, put = set_angularVelocity))::UnityEngine::InputSystem::Controls::Vector3Control* angularVelocity;
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__isTracked_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__isTracked_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__isTracked_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__isTracked_k__BackingField() const;
 
-  constexpr void __set__isTracked_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__isTracked_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __get__trackingState_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __cordl_internal_get__trackingState_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::IntegerControl*> const& __get__trackingState_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::IntegerControl*> const& __cordl_internal_get__trackingState_k__BackingField() const;
 
-  constexpr void __set__trackingState_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
+  constexpr void __cordl_internal_set__trackingState_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__position_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__position_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__position_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__position_k__BackingField() const;
 
-  constexpr void __set__position_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__position_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __get__rotation_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __cordl_internal_get__rotation_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::QuaternionControl*> const& __get__rotation_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::QuaternionControl*> const& __cordl_internal_get__rotation_k__BackingField() const;
 
-  constexpr void __set__rotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
+  constexpr void __cordl_internal_set__rotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__velocity_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__velocity_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__velocity_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__velocity_k__BackingField() const;
 
-  constexpr void __set__velocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__velocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__angularVelocity_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__angularVelocity_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__angularVelocity_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__angularVelocity_k__BackingField() const;
 
-  constexpr void __set__angularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__angularVelocity_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
   /// @brief Method get_isTracked, addr 0x2ac52d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked();

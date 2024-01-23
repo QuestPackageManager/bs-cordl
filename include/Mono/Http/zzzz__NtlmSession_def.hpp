@@ -27,20 +27,20 @@ MARK_REF_PTR_T(::Mono::Http::NtlmSession);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8850))
 // CS Name: ::Mono.Http::NtlmSession*
 class CORDL_TYPE NtlmSession : public ::System::Object {
 public:
   // Declarations
   /// @brief Field message, offset 0x10, size 0x8
-  __declspec(property(get = __get_message, put = __set_message))::Mono::Security::Protocol::Ntlm::MessageBase* message;
+  __declspec(property(get = __cordl_internal_get_message, put = __cordl_internal_set_message))::Mono::Security::Protocol::Ntlm::MessageBase* message;
 
-  constexpr ::Mono::Security::Protocol::Ntlm::MessageBase*& __get_message();
+  constexpr ::Mono::Security::Protocol::Ntlm::MessageBase*& __cordl_internal_get_message();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Protocol::Ntlm::MessageBase*> const& __get_message() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Protocol::Ntlm::MessageBase*> const& __cordl_internal_get_message() const;
 
-  constexpr void __set_message(::Mono::Security::Protocol::Ntlm::MessageBase* value);
+  constexpr void __cordl_internal_set_message(::Mono::Security::Protocol::Ntlm::MessageBase* value);
 
   static inline ::Mono::Http::NtlmSession* New_ctor();
 

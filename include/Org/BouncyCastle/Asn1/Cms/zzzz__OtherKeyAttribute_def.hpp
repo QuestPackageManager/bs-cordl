@@ -29,33 +29,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(84))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::OtherKeyAttribute*
 class CORDL_TYPE OtherKeyAttribute : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field keyAttrId, offset 0x10, size 0x8
-  __declspec(property(get = __get_keyAttrId, put = __set_keyAttrId))::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAttrId;
+  __declspec(property(get = __cordl_internal_get_keyAttrId, put = __cordl_internal_set_keyAttrId))::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAttrId;
 
   /// @brief Field keyAttr, offset 0x18, size 0x8
-  __declspec(property(get = __get_keyAttr, put = __set_keyAttr))::Org::BouncyCastle::Asn1::Asn1Encodable* keyAttr;
+  __declspec(property(get = __cordl_internal_get_keyAttr, put = __cordl_internal_set_keyAttr))::Org::BouncyCastle::Asn1::Asn1Encodable* keyAttr;
 
   __declspec(property(get = get_KeyAttrId))::Org::BouncyCastle::Asn1::DerObjectIdentifier* KeyAttrId;
 
   __declspec(property(get = get_KeyAttr))::Org::BouncyCastle::Asn1::Asn1Encodable* KeyAttr;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_keyAttrId();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_keyAttrId();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_keyAttrId() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_keyAttrId() const;
 
-  constexpr void __set_keyAttrId(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_keyAttrId(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __get_keyAttr();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_keyAttr();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __get_keyAttr() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __cordl_internal_get_keyAttr() const;
 
-  constexpr void __set_keyAttr(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
+  constexpr void __cordl_internal_set_keyAttr(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
   /// @brief Method GetInstance, addr 0xe78abc, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::OtherKeyAttribute* GetInstance(::System::Object* obj);

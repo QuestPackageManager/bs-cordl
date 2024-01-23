@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TimeFieldAttribute);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13921))
 // CS Name: ::TimeFieldAttribute::UseEditMode
 struct CORDL_TYPE __TimeFieldAttribute__UseEditMode {
@@ -74,7 +74,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMod
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13921)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(13921))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13922))
 // CS Name: ::UnityEngine.Timeline::TimeFieldAttribute*
 class CORDL_TYPE TimeFieldAttribute : public ::UnityEngine::PropertyAttribute {
@@ -83,15 +83,16 @@ public:
   using UseEditMode = ::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode;
 
   /// @brief Field <useEditMode>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__useEditMode_k__BackingField, put = __set__useEditMode_k__BackingField))::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode _useEditMode_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__useEditMode_k__BackingField,
+                      put = __cordl_internal_set__useEditMode_k__BackingField))::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode _useEditMode_k__BackingField;
 
   __declspec(property(get = get_useEditMode))::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode useEditMode;
 
-  constexpr ::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode& __get__useEditMode_k__BackingField();
+  constexpr ::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode& __cordl_internal_get__useEditMode_k__BackingField();
 
-  constexpr ::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode const& __get__useEditMode_k__BackingField() const;
+  constexpr ::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode const& __cordl_internal_get__useEditMode_k__BackingField() const;
 
-  constexpr void __set__useEditMode_k__BackingField(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode value);
+  constexpr void __cordl_internal_set__useEditMode_k__BackingField(::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode value);
 
   /// @brief Method get_useEditMode, addr 0x2c6e760, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::__TimeFieldAttribute__UseEditMode get_useEditMode();

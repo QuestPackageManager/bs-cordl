@@ -66,23 +66,23 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDef
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5263))
 // CS Name: ::MultiplayerSpectatorController::<SwitchToDefaultSpotWithFadeCoroutine>d__17*
 class CORDL_TYPE __MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MultiplayerSpectatorController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerSpectatorController> __4__this;
 
   /// @brief Field <defaultSpot>5__2, offset 0x28, size 0x8
-  __declspec(property(get = __get__defaultSpot_5__2, put = __set__defaultSpot_5__2))::GlobalNamespace::IMultiplayerSpectatingSpot* _defaultSpot_5__2;
+  __declspec(property(get = __cordl_internal_get__defaultSpot_5__2, put = __cordl_internal_set__defaultSpot_5__2))::GlobalNamespace::IMultiplayerSpectatingSpot* _defaultSpot_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -106,29 +106,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::MultiplayerSpectatorController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerSpectatorController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerSpectatorController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerSpectatorController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MultiplayerSpectatorController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerSpectatorController> value);
 
-  constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot*& __get__defaultSpot_5__2();
+  constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot*& __cordl_internal_get__defaultSpot_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSpectatingSpot*> const& __get__defaultSpot_5__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSpectatingSpot*> const& __cordl_internal_get__defaultSpot_5__2() const;
 
-  constexpr void __set__defaultSpot_5__2(::GlobalNamespace::IMultiplayerSpectatingSpot* value);
+  constexpr void __cordl_internal_set__defaultSpot_5__2(::GlobalNamespace::IMultiplayerSpectatingSpot* value);
 
   static inline ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17* New_ctor(int32_t __1__state);
 
@@ -171,7 +171,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerSpectatorController* _____4__this;
+  ::UnityW<::GlobalNamespace::MultiplayerSpectatorController> _____4__this;
 
   /// @brief Field <defaultSpot>5__2, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSpectatingSpot* ____defaultSpot_5__2;
@@ -194,20 +194,20 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerSpectatorController___Swi
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5264))
 // CS Name: ::MultiplayerSpectatorController::<SwitchToDefaultSpotCoroutine>d__18*
 class CORDL_TYPE __MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MultiplayerSpectatorController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerSpectatorController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -231,23 +231,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::MultiplayerSpectatorController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerSpectatorController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerSpectatorController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerSpectatorController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MultiplayerSpectatorController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerSpectatorController> value);
 
   static inline ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotCoroutine_d__18* New_ctor(int32_t __1__state);
 
@@ -290,7 +290,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerSpectatorController* _____4__this;
+  ::UnityW<::GlobalNamespace::MultiplayerSpectatorController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -308,7 +308,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerSpectatorController___Swi
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5265))
 // CS Name: ::MultiplayerSpectatorController*
 class CORDL_TYPE MultiplayerSpectatorController : public ::UnityEngine::MonoBehaviour {
@@ -319,70 +319,71 @@ public:
   using _SwitchToDefaultSpotWithFadeCoroutine_d__17 = ::GlobalNamespace::__MultiplayerSpectatorController___SwitchToDefaultSpotWithFadeCoroutine_d__17;
 
   /// @brief Field _spotManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__spotManager, put = __set__spotManager))::GlobalNamespace::MultiplayerSpectatingSpotManager* _spotManager;
+  __declspec(property(get = __cordl_internal_get__spotManager, put = __cordl_internal_set__spotManager))::GlobalNamespace::MultiplayerSpectatingSpotManager* _spotManager;
 
   /// @brief Field _songController, offset 0x20, size 0x8
-  __declspec(property(get = __get__songController, put = __set__songController))::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* _songController;
+  __declspec(property(get = __cordl_internal_get__songController,
+                      put = __cordl_internal_set__songController))::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController> _songController;
 
   /// @brief Field _multiplayerController, offset 0x28, size 0x8
-  __declspec(property(get = __get__multiplayerController, put = __set__multiplayerController))::GlobalNamespace::MultiplayerController* _multiplayerController;
+  __declspec(property(get = __cordl_internal_get__multiplayerController, put = __cordl_internal_set__multiplayerController))::UnityW<::GlobalNamespace::MultiplayerController> _multiplayerController;
 
   /// @brief Field _fadeInOutController, offset 0x30, size 0x8
-  __declspec(property(get = __get__fadeInOutController, put = __set__fadeInOutController))::GlobalNamespace::FadeInOutController* _fadeInOutController;
+  __declspec(property(get = __cordl_internal_get__fadeInOutController, put = __cordl_internal_set__fadeInOutController))::UnityW<::GlobalNamespace::FadeInOutController> _fadeInOutController;
 
   /// @brief Field spectatingSpotDidChangeEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_spectatingSpotDidChangeEvent,
-                      put = __set_spectatingSpotDidChangeEvent))::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* spectatingSpotDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_spectatingSpotDidChangeEvent,
+                      put = __cordl_internal_set_spectatingSpotDidChangeEvent))::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* spectatingSpotDidChangeEvent;
 
   /// @brief Field _transform, offset 0x40, size 0x8
-  __declspec(property(get = __get__transform, put = __set__transform))::UnityEngine::Transform* _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
   /// @brief Field _currentSpot, offset 0x48, size 0x8
-  __declspec(property(get = __get__currentSpot, put = __set__currentSpot))::GlobalNamespace::IMultiplayerSpectatingSpot* _currentSpot;
+  __declspec(property(get = __cordl_internal_get__currentSpot, put = __cordl_internal_set__currentSpot))::GlobalNamespace::IMultiplayerSpectatingSpot* _currentSpot;
 
   __declspec(property(get = get_currentSpot))::GlobalNamespace::IMultiplayerSpectatingSpot* currentSpot;
 
-  constexpr ::GlobalNamespace::MultiplayerSpectatingSpotManager*& __get__spotManager();
+  constexpr ::GlobalNamespace::MultiplayerSpectatingSpotManager*& __cordl_internal_get__spotManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerSpectatingSpotManager*> const& __get__spotManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerSpectatingSpotManager*> const& __cordl_internal_get__spotManager() const;
 
-  constexpr void __set__spotManager(::GlobalNamespace::MultiplayerSpectatingSpotManager* value);
+  constexpr void __cordl_internal_set__spotManager(::GlobalNamespace::MultiplayerSpectatingSpotManager* value);
 
-  constexpr ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*& __get__songController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController>& __cordl_internal_get__songController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController*> const& __get__songController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController> const& __cordl_internal_get__songController() const;
 
-  constexpr void __set__songController(::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* value);
+  constexpr void __cordl_internal_set__songController(::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController> value);
 
-  constexpr ::GlobalNamespace::MultiplayerController*& __get__multiplayerController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get__multiplayerController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerController*> const& __get__multiplayerController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
 
-  constexpr void __set__multiplayerController(::GlobalNamespace::MultiplayerController* value);
+  constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value);
 
-  constexpr ::GlobalNamespace::FadeInOutController*& __get__fadeInOutController();
+  constexpr ::UnityW<::GlobalNamespace::FadeInOutController>& __cordl_internal_get__fadeInOutController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FadeInOutController*> const& __get__fadeInOutController() const;
+  constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& __cordl_internal_get__fadeInOutController() const;
 
-  constexpr void __set__fadeInOutController(::GlobalNamespace::FadeInOutController* value);
+  constexpr void __cordl_internal_set__fadeInOutController(::UnityW<::GlobalNamespace::FadeInOutController> value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*& __get_spectatingSpotDidChangeEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*& __cordl_internal_get_spectatingSpotDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*> const& __get_spectatingSpotDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*> const& __cordl_internal_get_spectatingSpotDidChangeEvent() const;
 
-  constexpr void __set_spectatingSpotDidChangeEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
+  constexpr void __cordl_internal_set_spectatingSpotDidChangeEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
 
-  constexpr ::UnityEngine::Transform*& __get__transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr void __set__transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot*& __get__currentSpot();
+  constexpr ::GlobalNamespace::IMultiplayerSpectatingSpot*& __cordl_internal_get__currentSpot();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSpectatingSpot*> const& __get__currentSpot() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSpectatingSpot*> const& __cordl_internal_get__currentSpot() const;
 
-  constexpr void __set__currentSpot(::GlobalNamespace::IMultiplayerSpectatingSpot* value);
+  constexpr void __cordl_internal_set__currentSpot(::GlobalNamespace::IMultiplayerSpectatingSpot* value);
 
   /// @brief Method add_spectatingSpotDidChangeEvent, addr 0x225e6b4, size 0xb0, virtual false, abstract: false, final false
   inline void add_spectatingSpotDidChangeEvent(::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* value);
@@ -446,19 +447,19 @@ public:
   ::GlobalNamespace::MultiplayerSpectatingSpotManager* ____spotManager;
 
   /// @brief Field _songController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController* ____songController;
+  ::UnityW<::GlobalNamespace::MultiplayerLocalInactivePlayerSongSyncController> ____songController;
 
   /// @brief Field _multiplayerController, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerController* ____multiplayerController;
+  ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;
 
   /// @brief Field _fadeInOutController, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::FadeInOutController* ____fadeInOutController;
+  ::UnityW<::GlobalNamespace::FadeInOutController> ____fadeInOutController;
 
   /// @brief Field spectatingSpotDidChangeEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>* ___spectatingSpotDidChangeEvent;
 
   /// @brief Field _transform, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____transform;
+  ::UnityW<::UnityEngine::Transform> ____transform;
 
   /// @brief Field _currentSpot, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSpectatingSpot* ____currentSpot;

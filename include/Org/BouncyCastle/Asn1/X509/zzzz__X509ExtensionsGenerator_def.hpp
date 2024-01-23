@@ -31,31 +31,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509ExtensionsGenerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(407))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::X509ExtensionsGenerator*
 class CORDL_TYPE X509ExtensionsGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field extensions, offset 0x10, size 0x8
-  __declspec(property(get = __get_extensions, put = __set_extensions))::System::Collections::IDictionary* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::System::Collections::IDictionary* extensions;
 
   /// @brief Field extOrdering, offset 0x18, size 0x8
-  __declspec(property(get = __get_extOrdering, put = __set_extOrdering))::System::Collections::IList* extOrdering;
+  __declspec(property(get = __cordl_internal_get_extOrdering, put = __cordl_internal_set_extOrdering))::System::Collections::IList* extOrdering;
 
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
-  constexpr ::System::Collections::IDictionary*& __get_extensions();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_extensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get_extensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_extensions() const;
 
-  constexpr void __set_extensions(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set_extensions(::System::Collections::IDictionary* value);
 
-  constexpr ::System::Collections::IList*& __get_extOrdering();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_extOrdering();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_extOrdering() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_extOrdering() const;
 
-  constexpr void __set_extOrdering(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_extOrdering(::System::Collections::IList* value);
 
   /// @brief Method Reset, addr 0x11a10a8, size 0x68, virtual false, abstract: false, final false
   inline void Reset();

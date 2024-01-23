@@ -32,34 +32,34 @@ MARK_REF_PTR_T(::System::IO::StringWriter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3586))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3586))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3624))
 // CS Name: ::System.IO::StringWriter*
 class CORDL_TYPE StringWriter : public ::System::IO::TextWriter {
 public:
   // Declarations
   /// @brief Field _sb, offset 0x30, size 0x8
-  __declspec(property(get = __get__sb, put = __set__sb))::System::Text::StringBuilder* _sb;
+  __declspec(property(get = __cordl_internal_get__sb, put = __cordl_internal_set__sb))::System::Text::StringBuilder* _sb;
 
   /// @brief Field _isOpen, offset 0x38, size 0x1
-  __declspec(property(get = __get__isOpen, put = __set__isOpen)) bool _isOpen;
+  __declspec(property(get = __cordl_internal_get__isOpen, put = __cordl_internal_set__isOpen)) bool _isOpen;
 
   /// @brief Field m_encoding, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_encoding, put = setStaticF_m_encoding))::System::Text::UnicodeEncoding* m_encoding;
 
   __declspec(property(get = get_Encoding))::System::Text::Encoding* Encoding;
 
-  constexpr ::System::Text::StringBuilder*& __get__sb();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__sb();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get__sb() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__sb() const;
 
-  constexpr void __set__sb(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set__sb(::System::Text::StringBuilder* value);
 
-  constexpr bool& __get__isOpen();
+  constexpr bool& __cordl_internal_get__isOpen();
 
-  constexpr bool const& __get__isOpen() const;
+  constexpr bool const& __cordl_internal_get__isOpen() const;
 
-  constexpr void __set__isOpen(bool value);
+  constexpr void __cordl_internal_set__isOpen(bool value);
 
   static inline void setStaticF_m_encoding(::System::Text::UnicodeEncoding* value);
 

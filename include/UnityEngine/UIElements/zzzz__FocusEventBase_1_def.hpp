@@ -28,23 +28,26 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1712 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1712 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7232))
 // CS Name: ::UnityEngine.UIElements::FocusEventBase`1<T>*
 class CORDL_TYPE FocusEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
   /// @brief Field <relatedTarget>k__BackingField, offset 0x80, size 0x8
-  __declspec(property(get = __get__relatedTarget_k__BackingField, put = __set__relatedTarget_k__BackingField))::UnityEngine::UIElements::Focusable* _relatedTarget_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__relatedTarget_k__BackingField,
+                      put = __cordl_internal_set__relatedTarget_k__BackingField))::UnityEngine::UIElements::Focusable* _relatedTarget_k__BackingField;
 
   /// @brief Field <direction>k__BackingField, offset 0x88, size 0x8
-  __declspec(property(get = __get__direction_k__BackingField, put = __set__direction_k__BackingField))::UnityEngine::UIElements::FocusChangeDirection* _direction_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__direction_k__BackingField,
+                      put = __cordl_internal_set__direction_k__BackingField))::UnityEngine::UIElements::FocusChangeDirection* _direction_k__BackingField;
 
   /// @brief Field <focusController>k__BackingField, offset 0x90, size 0x8
-  __declspec(property(get = __get__focusController_k__BackingField, put = __set__focusController_k__BackingField))::UnityEngine::UIElements::FocusController* _focusController_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__focusController_k__BackingField,
+                      put = __cordl_internal_set__focusController_k__BackingField))::UnityEngine::UIElements::FocusController* _focusController_k__BackingField;
 
   /// @brief Field <IsFocusDelegated>k__BackingField, offset 0x98, size 0x1
-  __declspec(property(get = __get__IsFocusDelegated_k__BackingField, put = __set__IsFocusDelegated_k__BackingField)) bool _IsFocusDelegated_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsFocusDelegated_k__BackingField, put = __cordl_internal_set__IsFocusDelegated_k__BackingField)) bool _IsFocusDelegated_k__BackingField;
 
   __declspec(property(get = get_relatedTarget, put = set_relatedTarget))::UnityEngine::UIElements::Focusable* relatedTarget;
 
@@ -54,29 +57,29 @@ public:
 
   __declspec(property(get = get_IsFocusDelegated, put = set_IsFocusDelegated)) bool IsFocusDelegated;
 
-  constexpr ::UnityEngine::UIElements::Focusable*& __get__relatedTarget_k__BackingField();
+  constexpr ::UnityEngine::UIElements::Focusable*& __cordl_internal_get__relatedTarget_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Focusable*> const& __get__relatedTarget_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Focusable*> const& __cordl_internal_get__relatedTarget_k__BackingField() const;
 
-  constexpr void __set__relatedTarget_k__BackingField(::UnityEngine::UIElements::Focusable* value);
+  constexpr void __cordl_internal_set__relatedTarget_k__BackingField(::UnityEngine::UIElements::Focusable* value);
 
-  constexpr ::UnityEngine::UIElements::FocusChangeDirection*& __get__direction_k__BackingField();
+  constexpr ::UnityEngine::UIElements::FocusChangeDirection*& __cordl_internal_get__direction_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::FocusChangeDirection*> const& __get__direction_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::FocusChangeDirection*> const& __cordl_internal_get__direction_k__BackingField() const;
 
-  constexpr void __set__direction_k__BackingField(::UnityEngine::UIElements::FocusChangeDirection* value);
+  constexpr void __cordl_internal_set__direction_k__BackingField(::UnityEngine::UIElements::FocusChangeDirection* value);
 
-  constexpr ::UnityEngine::UIElements::FocusController*& __get__focusController_k__BackingField();
+  constexpr ::UnityEngine::UIElements::FocusController*& __cordl_internal_get__focusController_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::FocusController*> const& __get__focusController_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::FocusController*> const& __cordl_internal_get__focusController_k__BackingField() const;
 
-  constexpr void __set__focusController_k__BackingField(::UnityEngine::UIElements::FocusController* value);
+  constexpr void __cordl_internal_set__focusController_k__BackingField(::UnityEngine::UIElements::FocusController* value);
 
-  constexpr bool& __get__IsFocusDelegated_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsFocusDelegated_k__BackingField();
 
-  constexpr bool const& __get__IsFocusDelegated_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsFocusDelegated_k__BackingField() const;
 
-  constexpr void __set__IsFocusDelegated_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsFocusDelegated_k__BackingField(bool value);
 
   /// @brief Method get_relatedTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::Focusable* get_relatedTarget();

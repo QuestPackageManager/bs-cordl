@@ -21,41 +21,42 @@ MARK_REF_PTR_T(::GlobalNamespace::LobbyGameStateModel);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12880)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12880))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4503))
 // CS Name: ::LobbyGameStateModel*
 class CORDL_TYPE LobbyGameStateModel : public ::System::Object {
 public:
   // Declarations
   /// @brief Field gameStateDidChangeEvent, offset 0x10, size 0x8
-  __declspec(property(get = __get_gameStateDidChangeEvent, put = __set_gameStateDidChangeEvent))::System::Action_1<::GlobalNamespace::MultiplayerGameState>* gameStateDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_gameStateDidChangeEvent,
+                      put = __cordl_internal_set_gameStateDidChangeEvent))::System::Action_1<::GlobalNamespace::MultiplayerGameState>* gameStateDidChangeEvent;
 
   /// @brief Field gameStateDidChangeAlwaysSentEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_gameStateDidChangeAlwaysSentEvent,
-                      put = __set_gameStateDidChangeAlwaysSentEvent))::System::Action_1<::GlobalNamespace::MultiplayerGameState>* gameStateDidChangeAlwaysSentEvent;
+  __declspec(property(get = __cordl_internal_get_gameStateDidChangeAlwaysSentEvent,
+                      put = __cordl_internal_set_gameStateDidChangeAlwaysSentEvent))::System::Action_1<::GlobalNamespace::MultiplayerGameState>* gameStateDidChangeAlwaysSentEvent;
 
   /// @brief Field _gameState, offset 0x20, size 0x4
-  __declspec(property(get = __get__gameState, put = __set__gameState))::GlobalNamespace::MultiplayerGameState _gameState;
+  __declspec(property(get = __cordl_internal_get__gameState, put = __cordl_internal_set__gameState))::GlobalNamespace::MultiplayerGameState _gameState;
 
   __declspec(property(get = get_gameState))::GlobalNamespace::MultiplayerGameState gameState;
 
-  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerGameState>*& __get_gameStateDidChangeEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerGameState>*& __cordl_internal_get_gameStateDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerGameState>*> const& __get_gameStateDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerGameState>*> const& __cordl_internal_get_gameStateDidChangeEvent() const;
 
-  constexpr void __set_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
+  constexpr void __cordl_internal_set_gameStateDidChangeEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerGameState>*& __get_gameStateDidChangeAlwaysSentEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerGameState>*& __cordl_internal_get_gameStateDidChangeAlwaysSentEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerGameState>*> const& __get_gameStateDidChangeAlwaysSentEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerGameState>*> const& __cordl_internal_get_gameStateDidChangeAlwaysSentEvent() const;
 
-  constexpr void __set_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
+  constexpr void __cordl_internal_set_gameStateDidChangeAlwaysSentEvent(::System::Action_1<::GlobalNamespace::MultiplayerGameState>* value);
 
-  constexpr ::GlobalNamespace::MultiplayerGameState& __get__gameState();
+  constexpr ::GlobalNamespace::MultiplayerGameState& __cordl_internal_get__gameState();
 
-  constexpr ::GlobalNamespace::MultiplayerGameState const& __get__gameState() const;
+  constexpr ::GlobalNamespace::MultiplayerGameState const& __cordl_internal_get__gameState() const;
 
-  constexpr void __set__gameState(::GlobalNamespace::MultiplayerGameState value);
+  constexpr void __cordl_internal_set__gameState(::GlobalNamespace::MultiplayerGameState value);
 
   /// @brief Method get_gameState, addr 0x235b51c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerGameState get_gameState();

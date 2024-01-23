@@ -22,20 +22,21 @@ MARK_REF_PTR_T(::GlobalNamespace::PerceivedLoudnessPerLevelModel);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4418))
 // CS Name: ::PerceivedLoudnessPerLevelModel*
 class CORDL_TYPE PerceivedLoudnessPerLevelModel : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _loudnessLevelPerLevelId, offset 0x10, size 0x8
-  __declspec(property(get = __get__loudnessLevelPerLevelId, put = __set__loudnessLevelPerLevelId))::System::Collections::Generic::Dictionary_2<::StringW, float_t>* _loudnessLevelPerLevelId;
+  __declspec(property(get = __cordl_internal_get__loudnessLevelPerLevelId,
+                      put = __cordl_internal_set__loudnessLevelPerLevelId))::System::Collections::Generic::Dictionary_2<::StringW, float_t>* _loudnessLevelPerLevelId;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, float_t>*& __get__loudnessLevelPerLevelId();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, float_t>*& __cordl_internal_get__loudnessLevelPerLevelId();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, float_t>*> const& __get__loudnessLevelPerLevelId() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, float_t>*> const& __cordl_internal_get__loudnessLevelPerLevelId() const;
 
-  constexpr void __set__loudnessLevelPerLevelId(::System::Collections::Generic::Dictionary_2<::StringW, float_t>* value);
+  constexpr void __cordl_internal_set__loudnessLevelPerLevelId(::System::Collections::Generic::Dictionary_2<::StringW, float_t>* value);
 
   static inline ::GlobalNamespace::PerceivedLoudnessPerLevelModel* New_ctor(::GlobalNamespace::PerceivedLoudnessPerLevelSO* loudnessPerLeveData);
 

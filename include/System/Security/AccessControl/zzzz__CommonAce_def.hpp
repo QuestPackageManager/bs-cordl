@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::System::Security::AccessControl::CommonAce);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3046))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3046))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3023))
 // CS Name: ::System.Security.AccessControl::CommonAce*
 class CORDL_TYPE CommonAce : public ::System::Security::AccessControl::QualifiedAce {

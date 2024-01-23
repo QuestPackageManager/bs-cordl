@@ -36,31 +36,31 @@ MARK_REF_PTR_T(::System::Xml::Schema::NamespaceListNode);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11599))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11599))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11601))
 // CS Name: ::System.Xml.Schema::NamespaceListNode*
 class CORDL_TYPE NamespaceListNode : public ::System::Xml::Schema::SyntaxTreeNode {
 public:
   // Declarations
   /// @brief Field namespaceList, offset 0x10, size 0x8
-  __declspec(property(get = __get_namespaceList, put = __set_namespaceList))::System::Xml::Schema::NamespaceList* namespaceList;
+  __declspec(property(get = __cordl_internal_get_namespaceList, put = __cordl_internal_set_namespaceList))::System::Xml::Schema::NamespaceList* namespaceList;
 
   /// @brief Field particle, offset 0x18, size 0x8
-  __declspec(property(get = __get_particle, put = __set_particle))::System::Object* particle;
+  __declspec(property(get = __cordl_internal_get_particle, put = __cordl_internal_set_particle))::System::Object* particle;
 
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  constexpr ::System::Xml::Schema::NamespaceList*& __get_namespaceList();
+  constexpr ::System::Xml::Schema::NamespaceList*& __cordl_internal_get_namespaceList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::NamespaceList*> const& __get_namespaceList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::NamespaceList*> const& __cordl_internal_get_namespaceList() const;
 
-  constexpr void __set_namespaceList(::System::Xml::Schema::NamespaceList* value);
+  constexpr void __cordl_internal_set_namespaceList(::System::Xml::Schema::NamespaceList* value);
 
-  constexpr ::System::Object*& __get_particle();
+  constexpr ::System::Object*& __cordl_internal_get_particle();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_particle() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_particle() const;
 
-  constexpr void __set_particle(::System::Object* value);
+  constexpr void __cordl_internal_set_particle(::System::Object* value);
 
   static inline ::System::Xml::Schema::NamespaceListNode* New_ctor(::System::Xml::Schema::NamespaceList* namespaceList, ::System::Object* particle);
 

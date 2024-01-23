@@ -29,7 +29,7 @@ MARK_VAL_T(::GlobalNamespace::LevelKey);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14717))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4627))
 // CS Name: ::LevelKey
 struct CORDL_TYPE LevelKey {
@@ -57,8 +57,8 @@ public:
   static inline bool op_Inequality(::GlobalNamespace::LevelKey left, ::GlobalNamespace::LevelKey right);
 
   // Ctor Parameters [CppParam { name: "songId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "difficulty", ty: "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value:
-  // None }, CppParam { name: "characteristic", ty: "::GlobalNamespace::BeatmapCharacteristicSO*", modifiers: "", def_value: None }]
-  constexpr LevelKey(::StringW songId, ::GlobalNamespace::BeatmapDifficulty difficulty, ::GlobalNamespace::BeatmapCharacteristicSO* characteristic) noexcept;
+  // None }, CppParam { name: "characteristic", ty: "::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>", modifiers: "", def_value: None }]
+  constexpr LevelKey(::StringW songId, ::GlobalNamespace::BeatmapDifficulty difficulty, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> characteristic) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -71,7 +71,7 @@ public:
   ::GlobalNamespace::BeatmapDifficulty difficulty;
 
   /// @brief Field characteristic, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCharacteristicSO* characteristic;
+  ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> characteristic;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -37,50 +37,50 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509CrlParser);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1866))
 // CS Name: ::Org.BouncyCastle.X509::X509CrlParser*
 class CORDL_TYPE X509CrlParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field lazyAsn1, offset 0x10, size 0x1
-  __declspec(property(get = __get_lazyAsn1, put = __set_lazyAsn1)) bool lazyAsn1;
+  __declspec(property(get = __cordl_internal_get_lazyAsn1, put = __cordl_internal_set_lazyAsn1)) bool lazyAsn1;
 
   /// @brief Field sCrlData, offset 0x18, size 0x8
-  __declspec(property(get = __get_sCrlData, put = __set_sCrlData))::Org::BouncyCastle::Asn1::Asn1Set* sCrlData;
+  __declspec(property(get = __cordl_internal_get_sCrlData, put = __cordl_internal_set_sCrlData))::Org::BouncyCastle::Asn1::Asn1Set* sCrlData;
 
   /// @brief Field sCrlDataObjectCount, offset 0x20, size 0x4
-  __declspec(property(get = __get_sCrlDataObjectCount, put = __set_sCrlDataObjectCount)) int32_t sCrlDataObjectCount;
+  __declspec(property(get = __cordl_internal_get_sCrlDataObjectCount, put = __cordl_internal_set_sCrlDataObjectCount)) int32_t sCrlDataObjectCount;
 
   /// @brief Field currentCrlStream, offset 0x28, size 0x8
-  __declspec(property(get = __get_currentCrlStream, put = __set_currentCrlStream))::System::IO::Stream* currentCrlStream;
+  __declspec(property(get = __cordl_internal_get_currentCrlStream, put = __cordl_internal_set_currentCrlStream))::System::IO::Stream* currentCrlStream;
 
   /// @brief Field PemCrlParser, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_PemCrlParser, put = setStaticF_PemCrlParser))::Org::BouncyCastle::X509::PemParser* PemCrlParser;
 
-  constexpr bool& __get_lazyAsn1();
+  constexpr bool& __cordl_internal_get_lazyAsn1();
 
-  constexpr bool const& __get_lazyAsn1() const;
+  constexpr bool const& __cordl_internal_get_lazyAsn1() const;
 
-  constexpr void __set_lazyAsn1(bool value);
+  constexpr void __cordl_internal_set_lazyAsn1(bool value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __get_sCrlData();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_sCrlData();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __get_sCrlData() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_sCrlData() const;
 
-  constexpr void __set_sCrlData(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  constexpr void __cordl_internal_set_sCrlData(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  constexpr int32_t& __get_sCrlDataObjectCount();
+  constexpr int32_t& __cordl_internal_get_sCrlDataObjectCount();
 
-  constexpr int32_t const& __get_sCrlDataObjectCount() const;
+  constexpr int32_t const& __cordl_internal_get_sCrlDataObjectCount() const;
 
-  constexpr void __set_sCrlDataObjectCount(int32_t value);
+  constexpr void __cordl_internal_set_sCrlDataObjectCount(int32_t value);
 
-  constexpr ::System::IO::Stream*& __get_currentCrlStream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_currentCrlStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_currentCrlStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_currentCrlStream() const;
 
-  constexpr void __set_currentCrlStream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_currentCrlStream(::System::IO::Stream* value);
 
   static inline void setStaticF_PemCrlParser(::Org::BouncyCastle::X509::PemParser* value);
 

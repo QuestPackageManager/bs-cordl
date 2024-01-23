@@ -26,33 +26,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::PolicyInformation);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(374))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::PolicyInformation*
 class CORDL_TYPE PolicyInformation : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field policyIdentifier, offset 0x10, size 0x8
-  __declspec(property(get = __get_policyIdentifier, put = __set_policyIdentifier))::Org::BouncyCastle::Asn1::DerObjectIdentifier* policyIdentifier;
+  __declspec(property(get = __cordl_internal_get_policyIdentifier, put = __cordl_internal_set_policyIdentifier))::Org::BouncyCastle::Asn1::DerObjectIdentifier* policyIdentifier;
 
   /// @brief Field policyQualifiers, offset 0x18, size 0x8
-  __declspec(property(get = __get_policyQualifiers, put = __set_policyQualifiers))::Org::BouncyCastle::Asn1::Asn1Sequence* policyQualifiers;
+  __declspec(property(get = __cordl_internal_get_policyQualifiers, put = __cordl_internal_set_policyQualifiers))::Org::BouncyCastle::Asn1::Asn1Sequence* policyQualifiers;
 
   __declspec(property(get = get_PolicyIdentifier))::Org::BouncyCastle::Asn1::DerObjectIdentifier* PolicyIdentifier;
 
   __declspec(property(get = get_PolicyQualifiers))::Org::BouncyCastle::Asn1::Asn1Sequence* PolicyQualifiers;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_policyIdentifier();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_policyIdentifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_policyIdentifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_policyIdentifier() const;
 
-  constexpr void __set_policyIdentifier(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_policyIdentifier(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_policyQualifiers();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_policyQualifiers();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_policyQualifiers() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_policyQualifiers() const;
 
-  constexpr void __set_policyQualifiers(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_policyQualifiers(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyInformation* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

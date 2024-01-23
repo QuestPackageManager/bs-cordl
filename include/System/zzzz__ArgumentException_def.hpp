@@ -24,22 +24,22 @@ MARK_REF_PTR_T(::System::ArgumentException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2344))
 // CS Name: ::System::ArgumentException*
 class CORDL_TYPE ArgumentException : public ::System::SystemException {
 public:
   // Declarations
   /// @brief Field _paramName, offset 0x90, size 0x8
-  __declspec(property(get = __get__paramName, put = __set__paramName))::StringW _paramName;
+  __declspec(property(get = __cordl_internal_get__paramName, put = __cordl_internal_set__paramName))::StringW _paramName;
 
   __declspec(property(get = get_Message))::StringW Message;
 
-  constexpr ::StringW& __get__paramName();
+  constexpr ::StringW& __cordl_internal_get__paramName();
 
-  constexpr ::StringW const& __get__paramName() const;
+  constexpr ::StringW const& __cordl_internal_get__paramName() const;
 
-  constexpr void __set__paramName(::StringW value);
+  constexpr void __cordl_internal_set__paramName(::StringW value);
 
   static inline ::System::ArgumentException* New_ctor();
 

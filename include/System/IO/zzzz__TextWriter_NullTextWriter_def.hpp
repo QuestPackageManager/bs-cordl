@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::IO::__TextWriter__NullTextWriter);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3586))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3586))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3583))
 // CS Name: ::TextWriter::NullTextWriter*
 class CORDL_TYPE __TextWriter__NullTextWriter : public ::System::IO::TextWriter {

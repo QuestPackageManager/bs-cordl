@@ -38,8 +38,8 @@ MARK_VAL_T(::System::Threading::CancellationTokenRegistration);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2693)), TypeDefinitionIndex(TypeDefinitionIndex(2691)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2693), inst: 4999
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(2683)) CS Name: ::System.Threading::CancellationTokenRegistration
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2691)), TypeDefinitionIndex(TypeDefinitionIndex(2693)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2693), inst: 4999
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(2683)) CS Name: ::System.Threading::CancellationTokenRegistration
 struct CORDL_TYPE CancellationTokenRegistration {
 public:
   // Declarations

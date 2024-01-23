@@ -14,38 +14,38 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEditorGameplaySceneSetupData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15408))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15408))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6046))
 // CS Name: ::BeatmapEditorGameplaySceneSetupData*
 class CORDL_TYPE BeatmapEditorGameplaySceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
   /// @brief Field useFirstPersonFlyingController, offset 0x10, size 0x1
-  __declspec(property(get = __get_useFirstPersonFlyingController, put = __set_useFirstPersonFlyingController)) bool useFirstPersonFlyingController;
+  __declspec(property(get = __cordl_internal_get_useFirstPersonFlyingController, put = __cordl_internal_set_useFirstPersonFlyingController)) bool useFirstPersonFlyingController;
 
   /// @brief Field recordVRMovement, offset 0x11, size 0x1
-  __declspec(property(get = __get_recordVRMovement, put = __set_recordVRMovement)) bool recordVRMovement;
+  __declspec(property(get = __cordl_internal_get_recordVRMovement, put = __cordl_internal_set_recordVRMovement)) bool recordVRMovement;
 
   /// @brief Field playVRMovement, offset 0x12, size 0x1
-  __declspec(property(get = __get_playVRMovement, put = __set_playVRMovement)) bool playVRMovement;
+  __declspec(property(get = __cordl_internal_get_playVRMovement, put = __cordl_internal_set_playVRMovement)) bool playVRMovement;
 
-  constexpr bool& __get_useFirstPersonFlyingController();
+  constexpr bool& __cordl_internal_get_useFirstPersonFlyingController();
 
-  constexpr bool const& __get_useFirstPersonFlyingController() const;
+  constexpr bool const& __cordl_internal_get_useFirstPersonFlyingController() const;
 
-  constexpr void __set_useFirstPersonFlyingController(bool value);
+  constexpr void __cordl_internal_set_useFirstPersonFlyingController(bool value);
 
-  constexpr bool& __get_recordVRMovement();
+  constexpr bool& __cordl_internal_get_recordVRMovement();
 
-  constexpr bool const& __get_recordVRMovement() const;
+  constexpr bool const& __cordl_internal_get_recordVRMovement() const;
 
-  constexpr void __set_recordVRMovement(bool value);
+  constexpr void __cordl_internal_set_recordVRMovement(bool value);
 
-  constexpr bool& __get_playVRMovement();
+  constexpr bool& __cordl_internal_get_playVRMovement();
 
-  constexpr bool const& __get_playVRMovement() const;
+  constexpr bool const& __cordl_internal_get_playVRMovement() const;
 
-  constexpr void __set_playVRMovement(bool value);
+  constexpr void __cordl_internal_set_playVRMovement(bool value);
 
   static inline ::GlobalNamespace::BeatmapEditorGameplaySceneSetupData* New_ctor(bool useFirstPersonFlyingController, bool recordVRMovement, bool playVRMovement);
 

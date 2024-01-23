@@ -18,22 +18,22 @@ MARK_REF_PTR_T(::HMUI::Touchable);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13042))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13042))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13566))
 // CS Name: ::HMUI::Touchable*
 class CORDL_TYPE Touchable : public ::UnityEngine::UI::Graphic {
 public:
   // Declarations
   /// @brief Field _skew, offset 0x9c, size 0x4
-  __declspec(property(get = __get__skew, put = __set__skew)) float_t _skew;
+  __declspec(property(get = __cordl_internal_get__skew, put = __cordl_internal_set__skew)) float_t _skew;
 
   __declspec(property(get = get_skew)) float_t skew;
 
-  constexpr float_t& __get__skew();
+  constexpr float_t& __cordl_internal_get__skew();
 
-  constexpr float_t const& __get__skew() const;
+  constexpr float_t const& __cordl_internal_get__skew() const;
 
-  constexpr void __set__skew(float_t value);
+  constexpr void __cordl_internal_set__skew(float_t value);
 
   /// @brief Method get_skew, addr 0x21253bc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_skew();

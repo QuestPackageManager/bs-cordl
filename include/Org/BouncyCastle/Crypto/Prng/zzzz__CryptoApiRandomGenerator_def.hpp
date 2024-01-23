@@ -22,14 +22,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1106))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::CryptoApiRandomGenerator*
 class CORDL_TYPE CryptoApiRandomGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field rndProv, offset 0x10, size 0x8
-  __declspec(property(get = __get_rndProv, put = __set_rndProv))::System::Security::Cryptography::RandomNumberGenerator* rndProv;
+  __declspec(property(get = __cordl_internal_get_rndProv, put = __cordl_internal_set_rndProv))::System::Security::Cryptography::RandomNumberGenerator* rndProv;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() noexcept;
@@ -37,11 +37,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
   constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* i___Org__BouncyCastle__Crypto__Prng__IRandomGenerator() noexcept;
 
-  constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __get_rndProv();
+  constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __cordl_internal_get_rndProv();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RandomNumberGenerator*> const& __get_rndProv() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RandomNumberGenerator*> const& __cordl_internal_get_rndProv() const;
 
-  constexpr void __set_rndProv(::System::Security::Cryptography::RandomNumberGenerator* value);
+  constexpr void __cordl_internal_set_rndProv(::System::Security::Cryptography::RandomNumberGenerator* value);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::CryptoApiRandomGenerator* New_ctor();
 

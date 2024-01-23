@@ -78,56 +78,56 @@ MARK_REF_PTR_T(::TMPro::__TMP_MaterialManager____c__DisplayClass9_0);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12397))
 // CS Name: ::TMP_MaterialManager::FallbackMaterial*
 class CORDL_TYPE __TMP_MaterialManager__FallbackMaterial : public ::System::Object {
 public:
   // Declarations
   /// @brief Field fallbackID, offset 0x10, size 0x8
-  __declspec(property(get = __get_fallbackID, put = __set_fallbackID)) int64_t fallbackID;
+  __declspec(property(get = __cordl_internal_get_fallbackID, put = __cordl_internal_set_fallbackID)) int64_t fallbackID;
 
   /// @brief Field sourceMaterial, offset 0x18, size 0x8
-  __declspec(property(get = __get_sourceMaterial, put = __set_sourceMaterial))::UnityEngine::Material* sourceMaterial;
+  __declspec(property(get = __cordl_internal_get_sourceMaterial, put = __cordl_internal_set_sourceMaterial))::UnityW<::UnityEngine::Material> sourceMaterial;
 
   /// @brief Field sourceMaterialCRC, offset 0x20, size 0x4
-  __declspec(property(get = __get_sourceMaterialCRC, put = __set_sourceMaterialCRC)) int32_t sourceMaterialCRC;
+  __declspec(property(get = __cordl_internal_get_sourceMaterialCRC, put = __cordl_internal_set_sourceMaterialCRC)) int32_t sourceMaterialCRC;
 
   /// @brief Field fallbackMaterial, offset 0x28, size 0x8
-  __declspec(property(get = __get_fallbackMaterial, put = __set_fallbackMaterial))::UnityEngine::Material* fallbackMaterial;
+  __declspec(property(get = __cordl_internal_get_fallbackMaterial, put = __cordl_internal_set_fallbackMaterial))::UnityW<::UnityEngine::Material> fallbackMaterial;
 
   /// @brief Field count, offset 0x30, size 0x4
-  __declspec(property(get = __get_count, put = __set_count)) int32_t count;
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
-  constexpr int64_t& __get_fallbackID();
+  constexpr int64_t& __cordl_internal_get_fallbackID();
 
-  constexpr int64_t const& __get_fallbackID() const;
+  constexpr int64_t const& __cordl_internal_get_fallbackID() const;
 
-  constexpr void __set_fallbackID(int64_t value);
+  constexpr void __cordl_internal_set_fallbackID(int64_t value);
 
-  constexpr ::UnityEngine::Material*& __get_sourceMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_sourceMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_sourceMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_sourceMaterial() const;
 
-  constexpr void __set_sourceMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_sourceMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr int32_t& __get_sourceMaterialCRC();
+  constexpr int32_t& __cordl_internal_get_sourceMaterialCRC();
 
-  constexpr int32_t const& __get_sourceMaterialCRC() const;
+  constexpr int32_t const& __cordl_internal_get_sourceMaterialCRC() const;
 
-  constexpr void __set_sourceMaterialCRC(int32_t value);
+  constexpr void __cordl_internal_set_sourceMaterialCRC(int32_t value);
 
-  constexpr ::UnityEngine::Material*& __get_fallbackMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_fallbackMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_fallbackMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_fallbackMaterial() const;
 
-  constexpr void __set_fallbackMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_fallbackMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr int32_t& __get_count();
+  constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr int32_t const& __get_count() const;
+  constexpr int32_t const& __cordl_internal_get_count() const;
 
-  constexpr void __set_count(int32_t value);
+  constexpr void __cordl_internal_set_count(int32_t value);
 
   static inline ::TMPro::__TMP_MaterialManager__FallbackMaterial* New_ctor();
 
@@ -152,13 +152,13 @@ public:
   int64_t ___fallbackID;
 
   /// @brief Field sourceMaterial, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Material* ___sourceMaterial;
+  ::UnityW<::UnityEngine::Material> ___sourceMaterial;
 
   /// @brief Field sourceMaterialCRC, offset: 0x20, size: 0x4, def value: None
   int32_t ___sourceMaterialCRC;
 
   /// @brief Field fallbackMaterial, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Material* ___fallbackMaterial;
+  ::UnityW<::UnityEngine::Material> ___fallbackMaterial;
 
   /// @brief Field count, offset: 0x30, size: 0x4, def value: None
   int32_t ___count;
@@ -183,47 +183,47 @@ static_assert(offsetof(::TMPro::__TMP_MaterialManager__FallbackMaterial, ___coun
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12398))
 // CS Name: ::TMP_MaterialManager::MaskingMaterial*
 class CORDL_TYPE __TMP_MaterialManager__MaskingMaterial : public ::System::Object {
 public:
   // Declarations
   /// @brief Field baseMaterial, offset 0x10, size 0x8
-  __declspec(property(get = __get_baseMaterial, put = __set_baseMaterial))::UnityEngine::Material* baseMaterial;
+  __declspec(property(get = __cordl_internal_get_baseMaterial, put = __cordl_internal_set_baseMaterial))::UnityW<::UnityEngine::Material> baseMaterial;
 
   /// @brief Field stencilMaterial, offset 0x18, size 0x8
-  __declspec(property(get = __get_stencilMaterial, put = __set_stencilMaterial))::UnityEngine::Material* stencilMaterial;
+  __declspec(property(get = __cordl_internal_get_stencilMaterial, put = __cordl_internal_set_stencilMaterial))::UnityW<::UnityEngine::Material> stencilMaterial;
 
   /// @brief Field count, offset 0x20, size 0x4
-  __declspec(property(get = __get_count, put = __set_count)) int32_t count;
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field stencilID, offset 0x24, size 0x4
-  __declspec(property(get = __get_stencilID, put = __set_stencilID)) int32_t stencilID;
+  __declspec(property(get = __cordl_internal_get_stencilID, put = __cordl_internal_set_stencilID)) int32_t stencilID;
 
-  constexpr ::UnityEngine::Material*& __get_baseMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_baseMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_baseMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_baseMaterial() const;
 
-  constexpr void __set_baseMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_baseMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get_stencilMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_stencilMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_stencilMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_stencilMaterial() const;
 
-  constexpr void __set_stencilMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr int32_t& __get_count();
+  constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr int32_t const& __get_count() const;
+  constexpr int32_t const& __cordl_internal_get_count() const;
 
-  constexpr void __set_count(int32_t value);
+  constexpr void __cordl_internal_set_count(int32_t value);
 
-  constexpr int32_t& __get_stencilID();
+  constexpr int32_t& __cordl_internal_get_stencilID();
 
-  constexpr int32_t const& __get_stencilID() const;
+  constexpr int32_t const& __cordl_internal_get_stencilID() const;
 
-  constexpr void __set_stencilID(int32_t value);
+  constexpr void __cordl_internal_set_stencilID(int32_t value);
 
   static inline ::TMPro::__TMP_MaterialManager__MaskingMaterial* New_ctor();
 
@@ -245,10 +245,10 @@ protected:
 
 public:
   /// @brief Field baseMaterial, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Material* ___baseMaterial;
+  ::UnityW<::UnityEngine::Material> ___baseMaterial;
 
   /// @brief Field stencilMaterial, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Material* ___stencilMaterial;
+  ::UnityW<::UnityEngine::Material> ___stencilMaterial;
 
   /// @brief Field count, offset: 0x20, size: 0x4, def value: None
   int32_t ___count;
@@ -274,20 +274,20 @@ static_assert(offsetof(::TMPro::__TMP_MaterialManager__MaskingMaterial, ___stenc
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12399))
 // CS Name: ::TMP_MaterialManager::<>c__DisplayClass9_0*
 class CORDL_TYPE __TMP_MaterialManager____c__DisplayClass9_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field stencilMaterial, offset 0x10, size 0x8
-  __declspec(property(get = __get_stencilMaterial, put = __set_stencilMaterial))::UnityEngine::Material* stencilMaterial;
+  __declspec(property(get = __cordl_internal_get_stencilMaterial, put = __cordl_internal_set_stencilMaterial))::UnityW<::UnityEngine::Material> stencilMaterial;
 
-  constexpr ::UnityEngine::Material*& __get_stencilMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_stencilMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_stencilMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_stencilMaterial() const;
 
-  constexpr void __set_stencilMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value);
 
   static inline ::TMPro::__TMP_MaterialManager____c__DisplayClass9_0* New_ctor();
 
@@ -312,7 +312,7 @@ protected:
 
 public:
   /// @brief Field stencilMaterial, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Material* ___stencilMaterial;
+  ::UnityW<::UnityEngine::Material> ___stencilMaterial;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -326,20 +326,20 @@ static_assert(offsetof(::TMPro::__TMP_MaterialManager____c__DisplayClass9_0, ___
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12400))
 // CS Name: ::TMP_MaterialManager::<>c__DisplayClass11_0*
 class CORDL_TYPE __TMP_MaterialManager____c__DisplayClass11_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field stencilMaterial, offset 0x10, size 0x8
-  __declspec(property(get = __get_stencilMaterial, put = __set_stencilMaterial))::UnityEngine::Material* stencilMaterial;
+  __declspec(property(get = __cordl_internal_get_stencilMaterial, put = __cordl_internal_set_stencilMaterial))::UnityW<::UnityEngine::Material> stencilMaterial;
 
-  constexpr ::UnityEngine::Material*& __get_stencilMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_stencilMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_stencilMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_stencilMaterial() const;
 
-  constexpr void __set_stencilMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value);
 
   static inline ::TMPro::__TMP_MaterialManager____c__DisplayClass11_0* New_ctor();
 
@@ -364,7 +364,7 @@ protected:
 
 public:
   /// @brief Field stencilMaterial, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Material* ___stencilMaterial;
+  ::UnityW<::UnityEngine::Material> ___stencilMaterial;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -378,20 +378,20 @@ static_assert(offsetof(::TMPro::__TMP_MaterialManager____c__DisplayClass11_0, __
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12401))
 // CS Name: ::TMP_MaterialManager::<>c__DisplayClass12_0*
 class CORDL_TYPE __TMP_MaterialManager____c__DisplayClass12_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field stencilMaterial, offset 0x10, size 0x8
-  __declspec(property(get = __get_stencilMaterial, put = __set_stencilMaterial))::UnityEngine::Material* stencilMaterial;
+  __declspec(property(get = __cordl_internal_get_stencilMaterial, put = __cordl_internal_set_stencilMaterial))::UnityW<::UnityEngine::Material> stencilMaterial;
 
-  constexpr ::UnityEngine::Material*& __get_stencilMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_stencilMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_stencilMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_stencilMaterial() const;
 
-  constexpr void __set_stencilMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_stencilMaterial(::UnityW<::UnityEngine::Material> value);
 
   static inline ::TMPro::__TMP_MaterialManager____c__DisplayClass12_0* New_ctor();
 
@@ -416,7 +416,7 @@ protected:
 
 public:
   /// @brief Field stencilMaterial, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Material* ___stencilMaterial;
+  ::UnityW<::UnityEngine::Material> ___stencilMaterial;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -430,20 +430,20 @@ static_assert(offsetof(::TMPro::__TMP_MaterialManager____c__DisplayClass12_0, __
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12402))
 // CS Name: ::TMP_MaterialManager::<>c__DisplayClass13_0*
 class CORDL_TYPE __TMP_MaterialManager____c__DisplayClass13_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field baseMaterial, offset 0x10, size 0x8
-  __declspec(property(get = __get_baseMaterial, put = __set_baseMaterial))::UnityEngine::Material* baseMaterial;
+  __declspec(property(get = __cordl_internal_get_baseMaterial, put = __cordl_internal_set_baseMaterial))::UnityW<::UnityEngine::Material> baseMaterial;
 
-  constexpr ::UnityEngine::Material*& __get_baseMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_baseMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_baseMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_baseMaterial() const;
 
-  constexpr void __set_baseMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_baseMaterial(::UnityW<::UnityEngine::Material> value);
 
   static inline ::TMPro::__TMP_MaterialManager____c__DisplayClass13_0* New_ctor();
 
@@ -468,7 +468,7 @@ protected:
 
 public:
   /// @brief Field baseMaterial, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Material* ___baseMaterial;
+  ::UnityW<::UnityEngine::Material> ___baseMaterial;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -482,7 +482,7 @@ static_assert(offsetof(::TMPro::__TMP_MaterialManager____c__DisplayClass13_0, __
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12403))
 // CS Name: ::TMPro::TMP_MaterialManager*
 class CORDL_TYPE TMP_MaterialManager : public ::System::Object {
@@ -542,16 +542,16 @@ public:
   static inline void OnPreRender();
 
   /// @brief Method GetStencilMaterial, addr 0x2c39b1c, size 0x3b4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetStencilMaterial(::UnityEngine::Material* baseMaterial, int32_t stencilID);
+  static inline ::UnityW<::UnityEngine::Material> GetStencilMaterial(::UnityEngine::Material* baseMaterial, int32_t stencilID);
 
   /// @brief Method ReleaseStencilMaterial, addr 0x2c3a9c4, size 0x1fc, virtual false, abstract: false, final false
   static inline void ReleaseStencilMaterial(::UnityEngine::Material* stencilMaterial);
 
   /// @brief Method GetBaseMaterial, addr 0x2c3abc0, size 0x164, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetBaseMaterial(::UnityEngine::Material* stencilMaterial);
+  static inline ::UnityW<::UnityEngine::Material> GetBaseMaterial(::UnityEngine::Material* stencilMaterial);
 
   /// @brief Method SetStencil, addr 0x2c3ad2c, size 0xbc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* SetStencil(::UnityEngine::Material* material, int32_t stencilID);
+  static inline ::UnityW<::UnityEngine::Material> SetStencil(::UnityEngine::Material* material, int32_t stencilID);
 
   /// @brief Method AddMaskingMaterial, addr 0x2c3ade8, size 0x274, virtual false, abstract: false, final false
   static inline void AddMaskingMaterial(::UnityEngine::Material* baseMaterial, ::UnityEngine::Material* stencilMaterial, int32_t stencilID);
@@ -569,16 +569,16 @@ public:
   static inline int32_t GetStencilID(::UnityEngine::GameObject* obj);
 
   /// @brief Method GetMaterialForRendering, addr 0x2c3bd28, size 0x1fc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetMaterialForRendering(::UnityEngine::UI::MaskableGraphic* graphic, ::UnityEngine::Material* baseMaterial);
+  static inline ::UnityW<::UnityEngine::Material> GetMaterialForRendering(::UnityEngine::UI::MaskableGraphic* graphic, ::UnityEngine::Material* baseMaterial);
 
   /// @brief Method FindRootSortOverrideCanvas, addr 0x2c3bb88, size 0x1a0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* FindRootSortOverrideCanvas(::UnityEngine::Transform* start);
+  static inline ::UnityW<::UnityEngine::Transform> FindRootSortOverrideCanvas(::UnityEngine::Transform* start);
 
   /// @brief Method GetFallbackMaterial, addr 0x2c3bf24, size 0x2d0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetFallbackMaterial(::TMPro::TMP_FontAsset* fontAsset, ::UnityEngine::Material* sourceMaterial, int32_t atlasIndex);
+  static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::TMPro::TMP_FontAsset* fontAsset, ::UnityEngine::Material* sourceMaterial, int32_t atlasIndex);
 
   /// @brief Method GetFallbackMaterial, addr 0x2c3c468, size 0x420, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetFallbackMaterial(::UnityEngine::Material* sourceMaterial, ::UnityEngine::Material* targetMaterial);
+  static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::UnityEngine::Material* sourceMaterial, ::UnityEngine::Material* targetMaterial);
 
   /// @brief Method AddFallbackMaterialReference, addr 0x2c3c888, size 0x144, virtual false, abstract: false, final false
   static inline void AddFallbackMaterialReference(::UnityEngine::Material* targetMaterial);

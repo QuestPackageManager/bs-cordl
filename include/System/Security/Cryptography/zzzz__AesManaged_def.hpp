@@ -28,14 +28,14 @@ MARK_REF_PTR_T(::System::Security::Cryptography::AesManaged);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2917))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2917))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14250))
 // CS Name: ::System.Security.Cryptography::AesManaged*
 class CORDL_TYPE AesManaged : public ::System::Security::Cryptography::Aes {
 public:
   // Declarations
   /// @brief Field m_rijndael, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_rijndael, put = __set_m_rijndael))::System::Security::Cryptography::RijndaelManaged* m_rijndael;
+  __declspec(property(get = __cordl_internal_get_m_rijndael, put = __cordl_internal_set_m_rijndael))::System::Security::Cryptography::RijndaelManaged* m_rijndael;
 
   __declspec(property(get = get_FeedbackSize)) int32_t FeedbackSize;
 
@@ -49,11 +49,11 @@ public:
 
   __declspec(property(get = get_Padding, put = set_Padding))::System::Security::Cryptography::PaddingMode Padding;
 
-  constexpr ::System::Security::Cryptography::RijndaelManaged*& __get_m_rijndael();
+  constexpr ::System::Security::Cryptography::RijndaelManaged*& __cordl_internal_get_m_rijndael();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RijndaelManaged*> const& __get_m_rijndael() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RijndaelManaged*> const& __cordl_internal_get_m_rijndael() const;
 
-  constexpr void __set_m_rijndael(::System::Security::Cryptography::RijndaelManaged* value);
+  constexpr void __cordl_internal_set_m_rijndael(::System::Security::Cryptography::RijndaelManaged* value);
 
   static inline ::System::Security::Cryptography::AesManaged* New_ctor();
 

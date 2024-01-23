@@ -61,7 +61,7 @@ MARK_REF_PTR_T(::System::Resources::__ResourceManager__ResourceManagerMediator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3436))
 // CS Name: ::ResourceManager::CultureNameResourceSetPair*
 class CORDL_TYPE __ResourceManager__CultureNameResourceSetPair : public ::System::Object {
@@ -96,20 +96,20 @@ static_assert(::cordl_internals::size_check_v<::System::Resources::__ResourceMan
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3437))
 // CS Name: ::ResourceManager::ResourceManagerMediator*
 class CORDL_TYPE __ResourceManager__ResourceManagerMediator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _rm, offset 0x10, size 0x8
-  __declspec(property(get = __get__rm, put = __set__rm))::System::Resources::ResourceManager* _rm;
+  __declspec(property(get = __cordl_internal_get__rm, put = __cordl_internal_set__rm))::System::Resources::ResourceManager* _rm;
 
-  constexpr ::System::Resources::ResourceManager*& __get__rm();
+  constexpr ::System::Resources::ResourceManager*& __cordl_internal_get__rm();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Resources::ResourceManager*> const& __get__rm() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Resources::ResourceManager*> const& __cordl_internal_get__rm() const;
 
-  constexpr void __set__rm(::System::Resources::ResourceManager* value);
+  constexpr void __cordl_internal_set__rm(::System::Resources::ResourceManager* value);
 
   static inline ::System::Resources::__ResourceManager__ResourceManagerMediator* New_ctor(::System::Resources::ResourceManager* rm);
 
@@ -145,7 +145,7 @@ static_assert(offsetof(::System::Resources::__ResourceManager__ResourceManagerMe
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3431))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3431))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3438))
 // CS Name: ::System.Resources::ResourceManager*
 class CORDL_TYPE ResourceManager : public ::System::Object {
@@ -156,37 +156,39 @@ public:
   using CultureNameResourceSetPair = ::System::Resources::__ResourceManager__CultureNameResourceSetPair;
 
   /// @brief Field ResourceSets, offset 0x10, size 0x8
-  __declspec(property(get = __get_ResourceSets, put = __set_ResourceSets))::System::Collections::Hashtable* ResourceSets;
+  __declspec(property(get = __cordl_internal_get_ResourceSets, put = __cordl_internal_set_ResourceSets))::System::Collections::Hashtable* ResourceSets;
 
   /// @brief Field _resourceSets, offset 0x18, size 0x8
-  __declspec(property(get = __get__resourceSets, put = __set__resourceSets))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>* _resourceSets;
+  __declspec(property(get = __cordl_internal_get__resourceSets,
+                      put = __cordl_internal_set__resourceSets))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>* _resourceSets;
 
   /// @brief Field MainAssembly, offset 0x20, size 0x8
-  __declspec(property(get = __get_MainAssembly, put = __set_MainAssembly))::System::Reflection::Assembly* MainAssembly;
+  __declspec(property(get = __cordl_internal_get_MainAssembly, put = __cordl_internal_set_MainAssembly))::System::Reflection::Assembly* MainAssembly;
 
   /// @brief Field _neutralResourcesCulture, offset 0x28, size 0x8
-  __declspec(property(get = __get__neutralResourcesCulture, put = __set__neutralResourcesCulture))::System::Globalization::CultureInfo* _neutralResourcesCulture;
+  __declspec(property(get = __cordl_internal_get__neutralResourcesCulture, put = __cordl_internal_set__neutralResourcesCulture))::System::Globalization::CultureInfo* _neutralResourcesCulture;
 
   /// @brief Field _lastUsedResourceCache, offset 0x30, size 0x8
-  __declspec(property(get = __get__lastUsedResourceCache, put = __set__lastUsedResourceCache))::System::Resources::__ResourceManager__CultureNameResourceSetPair* _lastUsedResourceCache;
+  __declspec(property(get = __cordl_internal_get__lastUsedResourceCache,
+                      put = __cordl_internal_set__lastUsedResourceCache))::System::Resources::__ResourceManager__CultureNameResourceSetPair* _lastUsedResourceCache;
 
   /// @brief Field UseManifest, offset 0x38, size 0x1
-  __declspec(property(get = __get_UseManifest, put = __set_UseManifest)) bool UseManifest;
+  __declspec(property(get = __cordl_internal_get_UseManifest, put = __cordl_internal_set_UseManifest)) bool UseManifest;
 
   /// @brief Field UseSatelliteAssem, offset 0x39, size 0x1
-  __declspec(property(get = __get_UseSatelliteAssem, put = __set_UseSatelliteAssem)) bool UseSatelliteAssem;
+  __declspec(property(get = __cordl_internal_get_UseSatelliteAssem, put = __cordl_internal_set_UseSatelliteAssem)) bool UseSatelliteAssem;
 
   /// @brief Field _fallbackLoc, offset 0x3c, size 0x4
-  __declspec(property(get = __get__fallbackLoc, put = __set__fallbackLoc))::System::Resources::UltimateResourceFallbackLocation _fallbackLoc;
+  __declspec(property(get = __cordl_internal_get__fallbackLoc, put = __cordl_internal_set__fallbackLoc))::System::Resources::UltimateResourceFallbackLocation _fallbackLoc;
 
   /// @brief Field _callingAssembly, offset 0x40, size 0x8
-  __declspec(property(get = __get__callingAssembly, put = __set__callingAssembly))::System::Reflection::Assembly* _callingAssembly;
+  __declspec(property(get = __cordl_internal_get__callingAssembly, put = __cordl_internal_set__callingAssembly))::System::Reflection::Assembly* _callingAssembly;
 
   /// @brief Field m_callingAssembly, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_callingAssembly, put = __set_m_callingAssembly))::System::Reflection::RuntimeAssembly* m_callingAssembly;
+  __declspec(property(get = __cordl_internal_get_m_callingAssembly, put = __cordl_internal_set_m_callingAssembly))::System::Reflection::RuntimeAssembly* m_callingAssembly;
 
   /// @brief Field resourceGroveler, offset 0x50, size 0x8
-  __declspec(property(get = __get_resourceGroveler, put = __set_resourceGroveler))::System::Resources::IResourceGroveler* resourceGroveler;
+  __declspec(property(get = __cordl_internal_get_resourceGroveler, put = __cordl_internal_set_resourceGroveler))::System::Resources::IResourceGroveler* resourceGroveler;
 
   /// @brief Field MagicNumber, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_MagicNumber, put = setStaticF_MagicNumber)) int32_t MagicNumber;
@@ -209,71 +211,71 @@ public:
   /// @brief Field DEBUG, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_DEBUG, put = setStaticF_DEBUG)) int32_t DEBUG;
 
-  constexpr ::System::Collections::Hashtable*& __get_ResourceSets();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_ResourceSets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_ResourceSets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_ResourceSets() const;
 
-  constexpr void __set_ResourceSets(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_ResourceSets(::System::Collections::Hashtable* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>*& __get__resourceSets();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>*& __cordl_internal_get__resourceSets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>*> const& __get__resourceSets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>*> const& __cordl_internal_get__resourceSets() const;
 
-  constexpr void __set__resourceSets(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>* value);
+  constexpr void __cordl_internal_set__resourceSets(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>* value);
 
-  constexpr ::System::Reflection::Assembly*& __get_MainAssembly();
+  constexpr ::System::Reflection::Assembly*& __cordl_internal_get_MainAssembly();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __get_MainAssembly() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __cordl_internal_get_MainAssembly() const;
 
-  constexpr void __set_MainAssembly(::System::Reflection::Assembly* value);
+  constexpr void __cordl_internal_set_MainAssembly(::System::Reflection::Assembly* value);
 
-  constexpr ::System::Globalization::CultureInfo*& __get__neutralResourcesCulture();
+  constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get__neutralResourcesCulture();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __get__neutralResourcesCulture() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __cordl_internal_get__neutralResourcesCulture() const;
 
-  constexpr void __set__neutralResourcesCulture(::System::Globalization::CultureInfo* value);
+  constexpr void __cordl_internal_set__neutralResourcesCulture(::System::Globalization::CultureInfo* value);
 
-  constexpr ::System::Resources::__ResourceManager__CultureNameResourceSetPair*& __get__lastUsedResourceCache();
+  constexpr ::System::Resources::__ResourceManager__CultureNameResourceSetPair*& __cordl_internal_get__lastUsedResourceCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Resources::__ResourceManager__CultureNameResourceSetPair*> const& __get__lastUsedResourceCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Resources::__ResourceManager__CultureNameResourceSetPair*> const& __cordl_internal_get__lastUsedResourceCache() const;
 
-  constexpr void __set__lastUsedResourceCache(::System::Resources::__ResourceManager__CultureNameResourceSetPair* value);
+  constexpr void __cordl_internal_set__lastUsedResourceCache(::System::Resources::__ResourceManager__CultureNameResourceSetPair* value);
 
-  constexpr bool& __get_UseManifest();
+  constexpr bool& __cordl_internal_get_UseManifest();
 
-  constexpr bool const& __get_UseManifest() const;
+  constexpr bool const& __cordl_internal_get_UseManifest() const;
 
-  constexpr void __set_UseManifest(bool value);
+  constexpr void __cordl_internal_set_UseManifest(bool value);
 
-  constexpr bool& __get_UseSatelliteAssem();
+  constexpr bool& __cordl_internal_get_UseSatelliteAssem();
 
-  constexpr bool const& __get_UseSatelliteAssem() const;
+  constexpr bool const& __cordl_internal_get_UseSatelliteAssem() const;
 
-  constexpr void __set_UseSatelliteAssem(bool value);
+  constexpr void __cordl_internal_set_UseSatelliteAssem(bool value);
 
-  constexpr ::System::Resources::UltimateResourceFallbackLocation& __get__fallbackLoc();
+  constexpr ::System::Resources::UltimateResourceFallbackLocation& __cordl_internal_get__fallbackLoc();
 
-  constexpr ::System::Resources::UltimateResourceFallbackLocation const& __get__fallbackLoc() const;
+  constexpr ::System::Resources::UltimateResourceFallbackLocation const& __cordl_internal_get__fallbackLoc() const;
 
-  constexpr void __set__fallbackLoc(::System::Resources::UltimateResourceFallbackLocation value);
+  constexpr void __cordl_internal_set__fallbackLoc(::System::Resources::UltimateResourceFallbackLocation value);
 
-  constexpr ::System::Reflection::Assembly*& __get__callingAssembly();
+  constexpr ::System::Reflection::Assembly*& __cordl_internal_get__callingAssembly();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __get__callingAssembly() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __cordl_internal_get__callingAssembly() const;
 
-  constexpr void __set__callingAssembly(::System::Reflection::Assembly* value);
+  constexpr void __cordl_internal_set__callingAssembly(::System::Reflection::Assembly* value);
 
-  constexpr ::System::Reflection::RuntimeAssembly*& __get_m_callingAssembly();
+  constexpr ::System::Reflection::RuntimeAssembly*& __cordl_internal_get_m_callingAssembly();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeAssembly*> const& __get_m_callingAssembly() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeAssembly*> const& __cordl_internal_get_m_callingAssembly() const;
 
-  constexpr void __set_m_callingAssembly(::System::Reflection::RuntimeAssembly* value);
+  constexpr void __cordl_internal_set_m_callingAssembly(::System::Reflection::RuntimeAssembly* value);
 
-  constexpr ::System::Resources::IResourceGroveler*& __get_resourceGroveler();
+  constexpr ::System::Resources::IResourceGroveler*& __cordl_internal_get_resourceGroveler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Resources::IResourceGroveler*> const& __get_resourceGroveler() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Resources::IResourceGroveler*> const& __cordl_internal_get_resourceGroveler() const;
 
-  constexpr void __set_resourceGroveler(::System::Resources::IResourceGroveler* value);
+  constexpr void __cordl_internal_set_resourceGroveler(::System::Resources::IResourceGroveler* value);
 
   static inline void setStaticF_MagicNumber(int32_t value);
 

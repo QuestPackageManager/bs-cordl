@@ -25,38 +25,38 @@ MARK_REF_PTR_T(::UnityEngine::GUILayoutEntry);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14592))
 // CS Name: ::UnityEngine::GUILayoutEntry*
 class CORDL_TYPE GUILayoutEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field minWidth, offset 0x10, size 0x4
-  __declspec(property(get = __get_minWidth, put = __set_minWidth)) float_t minWidth;
+  __declspec(property(get = __cordl_internal_get_minWidth, put = __cordl_internal_set_minWidth)) float_t minWidth;
 
   /// @brief Field maxWidth, offset 0x14, size 0x4
-  __declspec(property(get = __get_maxWidth, put = __set_maxWidth)) float_t maxWidth;
+  __declspec(property(get = __cordl_internal_get_maxWidth, put = __cordl_internal_set_maxWidth)) float_t maxWidth;
 
   /// @brief Field minHeight, offset 0x18, size 0x4
-  __declspec(property(get = __get_minHeight, put = __set_minHeight)) float_t minHeight;
+  __declspec(property(get = __cordl_internal_get_minHeight, put = __cordl_internal_set_minHeight)) float_t minHeight;
 
   /// @brief Field maxHeight, offset 0x1c, size 0x4
-  __declspec(property(get = __get_maxHeight, put = __set_maxHeight)) float_t maxHeight;
+  __declspec(property(get = __cordl_internal_get_maxHeight, put = __cordl_internal_set_maxHeight)) float_t maxHeight;
 
   /// @brief Field rect, offset 0x20, size 0x10
-  __declspec(property(get = __get_rect, put = __set_rect))::UnityEngine::Rect rect;
+  __declspec(property(get = __cordl_internal_get_rect, put = __cordl_internal_set_rect))::UnityEngine::Rect rect;
 
   /// @brief Field stretchWidth, offset 0x30, size 0x4
-  __declspec(property(get = __get_stretchWidth, put = __set_stretchWidth)) int32_t stretchWidth;
+  __declspec(property(get = __cordl_internal_get_stretchWidth, put = __cordl_internal_set_stretchWidth)) int32_t stretchWidth;
 
   /// @brief Field stretchHeight, offset 0x34, size 0x4
-  __declspec(property(get = __get_stretchHeight, put = __set_stretchHeight)) int32_t stretchHeight;
+  __declspec(property(get = __cordl_internal_get_stretchHeight, put = __cordl_internal_set_stretchHeight)) int32_t stretchHeight;
 
   /// @brief Field consideredForMargin, offset 0x38, size 0x1
-  __declspec(property(get = __get_consideredForMargin, put = __set_consideredForMargin)) bool consideredForMargin;
+  __declspec(property(get = __cordl_internal_get_consideredForMargin, put = __cordl_internal_set_consideredForMargin)) bool consideredForMargin;
 
   /// @brief Field m_Style, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_Style, put = __set_m_Style))::UnityEngine::GUIStyle* m_Style;
+  __declspec(property(get = __cordl_internal_get_m_Style, put = __cordl_internal_set_m_Style))::UnityEngine::GUIStyle* m_Style;
 
   /// @brief Field kDummyRect, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_kDummyRect, put = setStaticF_kDummyRect))::UnityEngine::Rect kDummyRect;
@@ -78,59 +78,59 @@ public:
 
   __declspec(property(get = get_marginVertical)) int32_t marginVertical;
 
-  constexpr float_t& __get_minWidth();
+  constexpr float_t& __cordl_internal_get_minWidth();
 
-  constexpr float_t const& __get_minWidth() const;
+  constexpr float_t const& __cordl_internal_get_minWidth() const;
 
-  constexpr void __set_minWidth(float_t value);
+  constexpr void __cordl_internal_set_minWidth(float_t value);
 
-  constexpr float_t& __get_maxWidth();
+  constexpr float_t& __cordl_internal_get_maxWidth();
 
-  constexpr float_t const& __get_maxWidth() const;
+  constexpr float_t const& __cordl_internal_get_maxWidth() const;
 
-  constexpr void __set_maxWidth(float_t value);
+  constexpr void __cordl_internal_set_maxWidth(float_t value);
 
-  constexpr float_t& __get_minHeight();
+  constexpr float_t& __cordl_internal_get_minHeight();
 
-  constexpr float_t const& __get_minHeight() const;
+  constexpr float_t const& __cordl_internal_get_minHeight() const;
 
-  constexpr void __set_minHeight(float_t value);
+  constexpr void __cordl_internal_set_minHeight(float_t value);
 
-  constexpr float_t& __get_maxHeight();
+  constexpr float_t& __cordl_internal_get_maxHeight();
 
-  constexpr float_t const& __get_maxHeight() const;
+  constexpr float_t const& __cordl_internal_get_maxHeight() const;
 
-  constexpr void __set_maxHeight(float_t value);
+  constexpr void __cordl_internal_set_maxHeight(float_t value);
 
-  constexpr ::UnityEngine::Rect& __get_rect();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_rect();
 
-  constexpr ::UnityEngine::Rect const& __get_rect() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_rect() const;
 
-  constexpr void __set_rect(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_rect(::UnityEngine::Rect value);
 
-  constexpr int32_t& __get_stretchWidth();
+  constexpr int32_t& __cordl_internal_get_stretchWidth();
 
-  constexpr int32_t const& __get_stretchWidth() const;
+  constexpr int32_t const& __cordl_internal_get_stretchWidth() const;
 
-  constexpr void __set_stretchWidth(int32_t value);
+  constexpr void __cordl_internal_set_stretchWidth(int32_t value);
 
-  constexpr int32_t& __get_stretchHeight();
+  constexpr int32_t& __cordl_internal_get_stretchHeight();
 
-  constexpr int32_t const& __get_stretchHeight() const;
+  constexpr int32_t const& __cordl_internal_get_stretchHeight() const;
 
-  constexpr void __set_stretchHeight(int32_t value);
+  constexpr void __cordl_internal_set_stretchHeight(int32_t value);
 
-  constexpr bool& __get_consideredForMargin();
+  constexpr bool& __cordl_internal_get_consideredForMargin();
 
-  constexpr bool const& __get_consideredForMargin() const;
+  constexpr bool const& __cordl_internal_get_consideredForMargin() const;
 
-  constexpr void __set_consideredForMargin(bool value);
+  constexpr void __cordl_internal_set_consideredForMargin(bool value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_Style();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_Style();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_Style() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_Style() const;
 
-  constexpr void __set_m_Style(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_Style(::UnityEngine::GUIStyle* value);
 
   static inline void setStaticF_kDummyRect(::UnityEngine::Rect value);
 

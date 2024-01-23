@@ -54,20 +54,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__BTSCharacterSpawnController___TimelineStoppe
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3971))
 // CS Name: ::BTSCharacterSpawnController::<TimelineStoppedDelayed>d__19*
 class CORDL_TYPE __BTSCharacterSpawnController___TimelineStoppedDelayed_d__19 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::BTSCharacterSpawnController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::BTSCharacterSpawnController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -91,23 +91,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::BTSCharacterSpawnController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterSpawnController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSCharacterSpawnController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterSpawnController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::BTSCharacterSpawnController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::BTSCharacterSpawnController> value);
 
   static inline ::GlobalNamespace::__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19* New_ctor(int32_t __1__state);
 
@@ -150,7 +150,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BTSCharacterSpawnController* _____4__this;
+  ::UnityW<::GlobalNamespace::BTSCharacterSpawnController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -168,7 +168,7 @@ static_assert(offsetof(::GlobalNamespace::__BTSCharacterSpawnController___Timeli
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3972))
 // CS Name: ::BTSCharacterSpawnController*
 class CORDL_TYPE BTSCharacterSpawnController : public ::UnityEngine::MonoBehaviour {
@@ -177,81 +177,82 @@ public:
   using _TimelineStoppedDelayed_d__19 = ::GlobalNamespace::__BTSCharacterSpawnController___TimelineStoppedDelayed_d__19;
 
   /// @brief Field _characterSpawnAnimationController, offset 0x18, size 0x8
-  __declspec(property(get = __get__characterSpawnAnimationController,
-                      put = __set__characterSpawnAnimationController))::GlobalNamespace::BTSCharacterSpawnAnimationController* _characterSpawnAnimationController;
+  __declspec(property(get = __cordl_internal_get__characterSpawnAnimationController,
+                      put = __cordl_internal_set__characterSpawnAnimationController))::UnityW<::GlobalNamespace::BTSCharacterSpawnAnimationController> _characterSpawnAnimationController;
 
   /// @brief Field _btsCharacterSpawnEventEffect, offset 0x20, size 0x8
-  __declspec(property(get = __get__btsCharacterSpawnEventEffect, put = __set__btsCharacterSpawnEventEffect))::GlobalNamespace::BTSCharacterSpawnEventEffect* _btsCharacterSpawnEventEffect;
+  __declspec(property(get = __cordl_internal_get__btsCharacterSpawnEventEffect,
+                      put = __cordl_internal_set__btsCharacterSpawnEventEffect))::UnityW<::GlobalNamespace::BTSCharacterSpawnEventEffect> _btsCharacterSpawnEventEffect;
 
   /// @brief Field _gamePause, offset 0x28, size 0x8
-  __declspec(property(get = __get__gamePause, put = __set__gamePause))::GlobalNamespace::IGamePause* _gamePause;
+  __declspec(property(get = __cordl_internal_get__gamePause, put = __cordl_internal_set__gamePause))::GlobalNamespace::IGamePause* _gamePause;
 
   /// @brief Field _levelEndActions, offset 0x30, size 0x8
-  __declspec(property(get = __get__levelEndActions, put = __set__levelEndActions))::GlobalNamespace::ILevelEndActions* _levelEndActions;
+  __declspec(property(get = __cordl_internal_get__levelEndActions, put = __cordl_internal_set__levelEndActions))::GlobalNamespace::ILevelEndActions* _levelEndActions;
 
   /// @brief Field _characterSpawned, offset 0x38, size 0x1
-  __declspec(property(get = __get__characterSpawned, put = __set__characterSpawned)) bool _characterSpawned;
+  __declspec(property(get = __cordl_internal_get__characterSpawned, put = __cordl_internal_set__characterSpawned)) bool _characterSpawned;
 
   /// @brief Field _playableDirectorTimeBeforePause, offset 0x40, size 0x8
-  __declspec(property(get = __get__playableDirectorTimeBeforePause, put = __set__playableDirectorTimeBeforePause)) double_t _playableDirectorTimeBeforePause;
+  __declspec(property(get = __cordl_internal_get__playableDirectorTimeBeforePause, put = __cordl_internal_set__playableDirectorTimeBeforePause)) double_t _playableDirectorTimeBeforePause;
 
   /// @brief Field _animatorNormalizedTimeBeforePause, offset 0x48, size 0x4
-  __declspec(property(get = __get__animatorNormalizedTimeBeforePause, put = __set__animatorNormalizedTimeBeforePause)) float_t _animatorNormalizedTimeBeforePause;
+  __declspec(property(get = __cordl_internal_get__animatorNormalizedTimeBeforePause, put = __cordl_internal_set__animatorNormalizedTimeBeforePause)) float_t _animatorNormalizedTimeBeforePause;
 
   /// @brief Field _despawnCharacterCoroutine, offset 0x50, size 0x8
-  __declspec(property(get = __get__despawnCharacterCoroutine, put = __set__despawnCharacterCoroutine))::UnityEngine::Coroutine* _despawnCharacterCoroutine;
+  __declspec(property(get = __cordl_internal_get__despawnCharacterCoroutine, put = __cordl_internal_set__despawnCharacterCoroutine))::UnityEngine::Coroutine* _despawnCharacterCoroutine;
 
   __declspec(property(get = get_isCharacterVisible)) bool isCharacterVisible;
 
   __declspec(property(get = get_isSpawned)) bool isSpawned;
 
-  constexpr ::GlobalNamespace::BTSCharacterSpawnAnimationController*& __get__characterSpawnAnimationController();
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterSpawnAnimationController>& __cordl_internal_get__characterSpawnAnimationController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSCharacterSpawnAnimationController*> const& __get__characterSpawnAnimationController() const;
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterSpawnAnimationController> const& __cordl_internal_get__characterSpawnAnimationController() const;
 
-  constexpr void __set__characterSpawnAnimationController(::GlobalNamespace::BTSCharacterSpawnAnimationController* value);
+  constexpr void __cordl_internal_set__characterSpawnAnimationController(::UnityW<::GlobalNamespace::BTSCharacterSpawnAnimationController> value);
 
-  constexpr ::GlobalNamespace::BTSCharacterSpawnEventEffect*& __get__btsCharacterSpawnEventEffect();
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterSpawnEventEffect>& __cordl_internal_get__btsCharacterSpawnEventEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSCharacterSpawnEventEffect*> const& __get__btsCharacterSpawnEventEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterSpawnEventEffect> const& __cordl_internal_get__btsCharacterSpawnEventEffect() const;
 
-  constexpr void __set__btsCharacterSpawnEventEffect(::GlobalNamespace::BTSCharacterSpawnEventEffect* value);
+  constexpr void __cordl_internal_set__btsCharacterSpawnEventEffect(::UnityW<::GlobalNamespace::BTSCharacterSpawnEventEffect> value);
 
-  constexpr ::GlobalNamespace::IGamePause*& __get__gamePause();
+  constexpr ::GlobalNamespace::IGamePause*& __cordl_internal_get__gamePause();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __get__gamePause() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __cordl_internal_get__gamePause() const;
 
-  constexpr void __set__gamePause(::GlobalNamespace::IGamePause* value);
+  constexpr void __cordl_internal_set__gamePause(::GlobalNamespace::IGamePause* value);
 
-  constexpr ::GlobalNamespace::ILevelEndActions*& __get__levelEndActions();
+  constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__levelEndActions();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelEndActions*> const& __get__levelEndActions() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelEndActions*> const& __cordl_internal_get__levelEndActions() const;
 
-  constexpr void __set__levelEndActions(::GlobalNamespace::ILevelEndActions* value);
+  constexpr void __cordl_internal_set__levelEndActions(::GlobalNamespace::ILevelEndActions* value);
 
-  constexpr bool& __get__characterSpawned();
+  constexpr bool& __cordl_internal_get__characterSpawned();
 
-  constexpr bool const& __get__characterSpawned() const;
+  constexpr bool const& __cordl_internal_get__characterSpawned() const;
 
-  constexpr void __set__characterSpawned(bool value);
+  constexpr void __cordl_internal_set__characterSpawned(bool value);
 
-  constexpr double_t& __get__playableDirectorTimeBeforePause();
+  constexpr double_t& __cordl_internal_get__playableDirectorTimeBeforePause();
 
-  constexpr double_t const& __get__playableDirectorTimeBeforePause() const;
+  constexpr double_t const& __cordl_internal_get__playableDirectorTimeBeforePause() const;
 
-  constexpr void __set__playableDirectorTimeBeforePause(double_t value);
+  constexpr void __cordl_internal_set__playableDirectorTimeBeforePause(double_t value);
 
-  constexpr float_t& __get__animatorNormalizedTimeBeforePause();
+  constexpr float_t& __cordl_internal_get__animatorNormalizedTimeBeforePause();
 
-  constexpr float_t const& __get__animatorNormalizedTimeBeforePause() const;
+  constexpr float_t const& __cordl_internal_get__animatorNormalizedTimeBeforePause() const;
 
-  constexpr void __set__animatorNormalizedTimeBeforePause(float_t value);
+  constexpr void __cordl_internal_set__animatorNormalizedTimeBeforePause(float_t value);
 
-  constexpr ::UnityEngine::Coroutine*& __get__despawnCharacterCoroutine();
+  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__despawnCharacterCoroutine();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __get__despawnCharacterCoroutine() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get__despawnCharacterCoroutine() const;
 
-  constexpr void __set__despawnCharacterCoroutine(::UnityEngine::Coroutine* value);
+  constexpr void __cordl_internal_set__despawnCharacterCoroutine(::UnityEngine::Coroutine* value);
 
   /// @brief Method get_isCharacterVisible, addr 0x221a3f8, size 0x18, virtual false, abstract: false, final false
   inline bool get_isCharacterVisible();
@@ -303,10 +304,10 @@ protected:
 
 public:
   /// @brief Field _characterSpawnAnimationController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BTSCharacterSpawnAnimationController* ____characterSpawnAnimationController;
+  ::UnityW<::GlobalNamespace::BTSCharacterSpawnAnimationController> ____characterSpawnAnimationController;
 
   /// @brief Field _btsCharacterSpawnEventEffect, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BTSCharacterSpawnEventEffect* ____btsCharacterSpawnEventEffect;
+  ::UnityW<::GlobalNamespace::BTSCharacterSpawnEventEffect> ____btsCharacterSpawnEventEffect;
 
   /// @brief Field _gamePause, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____gamePause;

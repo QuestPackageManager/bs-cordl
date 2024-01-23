@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSucc
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14146))
 // CS Name: ::EventBasedNatPunchListener::OnNatIntroductionRequest*
 class CORDL_TYPE __EventBasedNatPunchListener__OnNatIntroductionRequest : public ::System::MulticastDelegate {
@@ -94,7 +94,7 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::__EventBasedNatPunch
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14147))
 // CS Name: ::EventBasedNatPunchListener::OnNatIntroductionSuccess*
 class CORDL_TYPE __EventBasedNatPunchListener__OnNatIntroductionSuccess : public ::System::MulticastDelegate {
@@ -139,7 +139,7 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::__EventBasedNatPunch
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14148))
 // CS Name: ::LiteNetLib::EventBasedNatPunchListener*
 class CORDL_TYPE EventBasedNatPunchListener : public ::System::Object {
@@ -150,10 +150,12 @@ public:
   using OnNatIntroductionRequest = ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest;
 
   /// @brief Field NatIntroductionRequest, offset 0x10, size 0x8
-  __declspec(property(get = __get_NatIntroductionRequest, put = __set_NatIntroductionRequest))::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest* NatIntroductionRequest;
+  __declspec(property(get = __cordl_internal_get_NatIntroductionRequest,
+                      put = __cordl_internal_set_NatIntroductionRequest))::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest* NatIntroductionRequest;
 
   /// @brief Field NatIntroductionSuccess, offset 0x18, size 0x8
-  __declspec(property(get = __get_NatIntroductionSuccess, put = __set_NatIntroductionSuccess))::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess* NatIntroductionSuccess;
+  __declspec(property(get = __cordl_internal_get_NatIntroductionSuccess,
+                      put = __cordl_internal_set_NatIntroductionSuccess))::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess* NatIntroductionSuccess;
 
   /// @brief Convert operator to "::LiteNetLib::INatPunchListener"
   constexpr operator ::LiteNetLib::INatPunchListener*() noexcept;
@@ -161,17 +163,17 @@ public:
   /// @brief Convert to "::LiteNetLib::INatPunchListener"
   constexpr ::LiteNetLib::INatPunchListener* i___LiteNetLib__INatPunchListener() noexcept;
 
-  constexpr ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*& __get_NatIntroductionRequest();
+  constexpr ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*& __cordl_internal_get_NatIntroductionRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*> const& __get_NatIntroductionRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest*> const& __cordl_internal_get_NatIntroductionRequest() const;
 
-  constexpr void __set_NatIntroductionRequest(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest* value);
+  constexpr void __cordl_internal_set_NatIntroductionRequest(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest* value);
 
-  constexpr ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*& __get_NatIntroductionSuccess();
+  constexpr ::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*& __cordl_internal_get_NatIntroductionSuccess();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*> const& __get_NatIntroductionSuccess() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess*> const& __cordl_internal_get_NatIntroductionSuccess() const;
 
-  constexpr void __set_NatIntroductionSuccess(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess* value);
+  constexpr void __cordl_internal_set_NatIntroductionSuccess(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionSuccess* value);
 
   /// @brief Method add_NatIntroductionRequest, addr 0x21fa3a0, size 0x9c, virtual false, abstract: false, final false
   inline void add_NatIntroductionRequest(::LiteNetLib::__EventBasedNatPunchListener__OnNatIntroductionRequest* value);

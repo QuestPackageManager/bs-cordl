@@ -17,29 +17,29 @@ MARK_REF_PTR_T(::System::Xml::UTF16Decoder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2827))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2827))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11555))
 // CS Name: ::System.Xml::UTF16Decoder*
 class CORDL_TYPE UTF16Decoder : public ::System::Text::Decoder {
 public:
   // Declarations
   /// @brief Field bigEndian, offset 0x20, size 0x1
-  __declspec(property(get = __get_bigEndian, put = __set_bigEndian)) bool bigEndian;
+  __declspec(property(get = __cordl_internal_get_bigEndian, put = __cordl_internal_set_bigEndian)) bool bigEndian;
 
   /// @brief Field lastByte, offset 0x24, size 0x4
-  __declspec(property(get = __get_lastByte, put = __set_lastByte)) int32_t lastByte;
+  __declspec(property(get = __cordl_internal_get_lastByte, put = __cordl_internal_set_lastByte)) int32_t lastByte;
 
-  constexpr bool& __get_bigEndian();
+  constexpr bool& __cordl_internal_get_bigEndian();
 
-  constexpr bool const& __get_bigEndian() const;
+  constexpr bool const& __cordl_internal_get_bigEndian() const;
 
-  constexpr void __set_bigEndian(bool value);
+  constexpr void __cordl_internal_set_bigEndian(bool value);
 
-  constexpr int32_t& __get_lastByte();
+  constexpr int32_t& __cordl_internal_get_lastByte();
 
-  constexpr int32_t const& __get_lastByte() const;
+  constexpr int32_t const& __cordl_internal_get_lastByte() const;
 
-  constexpr void __set_lastByte(int32_t value);
+  constexpr void __cordl_internal_set_lastByte(int32_t value);
 
   static inline ::System::Xml::UTF16Decoder* New_ctor(bool bigEndian);
 

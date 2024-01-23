@@ -24,7 +24,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_TransformEuler);
 // SizeInfo { instance_size: 40, native_size: 56, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9714)), TypeDefinitionIndex(TypeDefinitionIndex(9715))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9714)), TypeDefinitionIndex(TypeDefinitionIndex(9715))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9727))
 // CS Name: ::HoudiniEngineUnity::HAPI_TransformEuler
 struct CORDL_TYPE HAPI_TransformEuler {

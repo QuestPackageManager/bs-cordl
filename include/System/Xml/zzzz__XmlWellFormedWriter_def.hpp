@@ -146,7 +146,7 @@ MARK_VAL_T(::System::Xml::__XmlWellFormedWriter__Namespace);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11477))
 // CS Name: ::XmlWellFormedWriter::State
 struct CORDL_TYPE __XmlWellFormedWriter__State {
@@ -320,7 +320,7 @@ static_assert(offsetof(::System::Xml::__XmlWellFormedWriter__State, value__) == 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11478))
 // CS Name: ::XmlWellFormedWriter::Token
 struct CORDL_TYPE __XmlWellFormedWriter__Token {
@@ -422,14 +422,14 @@ static_assert(offsetof(::System::Xml::__XmlWellFormedWriter__Token, value__) == 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11479))
 // CS Name: ::XmlWellFormedWriter::NamespaceResolverProxy*
 class CORDL_TYPE __XmlWellFormedWriter__NamespaceResolverProxy : public ::System::Object {
 public:
   // Declarations
   /// @brief Field wfWriter, offset 0x10, size 0x8
-  __declspec(property(get = __get_wfWriter, put = __set_wfWriter))::System::Xml::XmlWellFormedWriter* wfWriter;
+  __declspec(property(get = __cordl_internal_get_wfWriter, put = __cordl_internal_set_wfWriter))::System::Xml::XmlWellFormedWriter* wfWriter;
 
   /// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
   constexpr operator ::System::Xml::IXmlNamespaceResolver*() noexcept;
@@ -437,11 +437,11 @@ public:
   /// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
   constexpr ::System::Xml::IXmlNamespaceResolver* i___System__Xml__IXmlNamespaceResolver() noexcept;
 
-  constexpr ::System::Xml::XmlWellFormedWriter*& __get_wfWriter();
+  constexpr ::System::Xml::XmlWellFormedWriter*& __cordl_internal_get_wfWriter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlWellFormedWriter*> const& __get_wfWriter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlWellFormedWriter*> const& __cordl_internal_get_wfWriter() const;
 
-  constexpr void __set_wfWriter(::System::Xml::XmlWellFormedWriter* value);
+  constexpr void __cordl_internal_set_wfWriter(::System::Xml::XmlWellFormedWriter* value);
 
   static inline ::System::Xml::__XmlWellFormedWriter__NamespaceResolverProxy* New_ctor(::System::Xml::XmlWellFormedWriter* wfWriter);
 
@@ -483,7 +483,7 @@ static_assert(offsetof(::System::Xml::__XmlWellFormedWriter__NamespaceResolverPr
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11458))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11458))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11480))
 // CS Name: ::XmlWellFormedWriter::ElementScope
 struct CORDL_TYPE __XmlWellFormedWriter__ElementScope {
@@ -550,7 +550,7 @@ static_assert(offsetof(::System::Xml::__XmlWellFormedWriter__ElementScope, xmlLa
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11481))
 // CS Name: ::XmlWellFormedWriter::NamespaceKind
 struct CORDL_TYPE __XmlWellFormedWriter__NamespaceKind {
@@ -608,7 +608,7 @@ static_assert(offsetof(::System::Xml::__XmlWellFormedWriter__NamespaceKind, valu
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11481))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11481))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11482))
 // CS Name: ::XmlWellFormedWriter::Namespace
 struct CORDL_TYPE __XmlWellFormedWriter__Namespace {
@@ -661,7 +661,7 @@ static_assert(offsetof(::System::Xml::__XmlWellFormedWriter__Namespace, prevNsIn
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11483))
 // CS Name: ::XmlWellFormedWriter::AttrName
 struct CORDL_TYPE __XmlWellFormedWriter__AttrName {
@@ -714,7 +714,7 @@ static_assert(offsetof(::System::Xml::__XmlWellFormedWriter__AttrName, prev) == 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11484))
 // CS Name: ::XmlWellFormedWriter::SpecialAttribute
 struct CORDL_TYPE __XmlWellFormedWriter__SpecialAttribute {
@@ -776,7 +776,7 @@ static_assert(offsetof(::System::Xml::__XmlWellFormedWriter__SpecialAttribute, v
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11485))
 // CS Name: ::XmlWellFormedWriter::AttributeValueCache::ItemType
 struct CORDL_TYPE __XmlWellFormedWriter__AttributeValueCache__ItemType {
@@ -854,29 +854,29 @@ static_assert(offsetof(::GlobalNamespace::__XmlWellFormedWriter__AttributeValueC
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11485))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11485))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11486))
 // CS Name: ::XmlWellFormedWriter::AttributeValueCache::Item*
 class CORDL_TYPE __XmlWellFormedWriter__AttributeValueCache__Item : public ::System::Object {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __get_type, put = __set_type))::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__ItemType type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__ItemType type;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::System::Object* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::System::Object* data;
 
-  constexpr ::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__ItemType& __get_type();
+  constexpr ::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__ItemType& __cordl_internal_get_type();
 
-  constexpr ::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__ItemType const& __get_type() const;
+  constexpr ::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__ItemType const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__ItemType value);
+  constexpr void __cordl_internal_set_type(::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__ItemType value);
 
-  constexpr ::System::Object*& __get_data();
+  constexpr ::System::Object*& __cordl_internal_get_data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_data() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::System::Object* value);
+  constexpr void __cordl_internal_set_data(::System::Object* value);
 
   static inline ::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item* New_ctor();
 
@@ -920,38 +920,38 @@ static_assert(offsetof(::GlobalNamespace::__XmlWellFormedWriter__AttributeValueC
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11487))
 // CS Name: ::XmlWellFormedWriter::AttributeValueCache::BufferChunk*
 class CORDL_TYPE __XmlWellFormedWriter__AttributeValueCache__BufferChunk : public ::System::Object {
 public:
   // Declarations
   /// @brief Field buffer, offset 0x10, size 0x8
-  __declspec(property(get = __get_buffer, put = __set_buffer))::ArrayW<char16_t, ::Array<char16_t>*> buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::ArrayW<char16_t, ::Array<char16_t>*> buffer;
 
   /// @brief Field index, offset 0x18, size 0x4
-  __declspec(property(get = __get_index, put = __set_index)) int32_t index;
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   /// @brief Field count, offset 0x1c, size 0x4
-  __declspec(property(get = __get_count, put = __set_count)) int32_t count;
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_buffer();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_buffer();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_buffer() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_buffer() const;
 
-  constexpr void __set_buffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_buffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr int32_t& __get_index();
+  constexpr int32_t& __cordl_internal_get_index();
 
-  constexpr int32_t const& __get_index() const;
+  constexpr int32_t const& __cordl_internal_get_index() const;
 
-  constexpr void __set_index(int32_t value);
+  constexpr void __cordl_internal_set_index(int32_t value);
 
-  constexpr int32_t& __get_count();
+  constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr int32_t const& __get_count() const;
+  constexpr int32_t const& __cordl_internal_get_count() const;
 
-  constexpr void __set_count(int32_t value);
+  constexpr void __cordl_internal_set_count(int32_t value);
 
   static inline ::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__BufferChunk* New_ctor(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
@@ -997,7 +997,7 @@ static_assert(offsetof(::GlobalNamespace::__XmlWellFormedWriter__AttributeValueC
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11488))
 // CS Name: ::XmlWellFormedWriter::AttributeValueCache*
 class CORDL_TYPE __XmlWellFormedWriter__AttributeValueCache : public ::System::Object {
@@ -1010,53 +1010,55 @@ public:
   using ItemType = ::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__ItemType;
 
   /// @brief Field stringValue, offset 0x10, size 0x8
-  __declspec(property(get = __get_stringValue, put = __set_stringValue))::System::Text::StringBuilder* stringValue;
+  __declspec(property(get = __cordl_internal_get_stringValue, put = __cordl_internal_set_stringValue))::System::Text::StringBuilder* stringValue;
 
   /// @brief Field singleStringValue, offset 0x18, size 0x8
-  __declspec(property(get = __get_singleStringValue, put = __set_singleStringValue))::StringW singleStringValue;
+  __declspec(property(get = __cordl_internal_get_singleStringValue, put = __cordl_internal_set_singleStringValue))::StringW singleStringValue;
 
   /// @brief Field items, offset 0x20, size 0x8
-  __declspec(
-      property(get = __get_items,
-               put = __set_items))::ArrayW<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*, ::Array<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*>*> items;
+  __declspec(property(get = __cordl_internal_get_items, put = __cordl_internal_set_items))::ArrayW<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*,
+                                                                                                   ::Array<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*>*> items;
 
   /// @brief Field firstItem, offset 0x28, size 0x4
-  __declspec(property(get = __get_firstItem, put = __set_firstItem)) int32_t firstItem;
+  __declspec(property(get = __cordl_internal_get_firstItem, put = __cordl_internal_set_firstItem)) int32_t firstItem;
 
   /// @brief Field lastItem, offset 0x2c, size 0x4
-  __declspec(property(get = __get_lastItem, put = __set_lastItem)) int32_t lastItem;
+  __declspec(property(get = __cordl_internal_get_lastItem, put = __cordl_internal_set_lastItem)) int32_t lastItem;
 
   __declspec(property(get = get_StringValue))::StringW StringValue;
 
-  constexpr ::System::Text::StringBuilder*& __get_stringValue();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_stringValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get_stringValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_stringValue() const;
 
-  constexpr void __set_stringValue(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set_stringValue(::System::Text::StringBuilder* value);
 
-  constexpr ::StringW& __get_singleStringValue();
+  constexpr ::StringW& __cordl_internal_get_singleStringValue();
 
-  constexpr ::StringW const& __get_singleStringValue() const;
+  constexpr ::StringW const& __cordl_internal_get_singleStringValue() const;
 
-  constexpr void __set_singleStringValue(::StringW value);
+  constexpr void __cordl_internal_set_singleStringValue(::StringW value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*, ::Array<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*>*>& __get_items();
+  constexpr ::ArrayW<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*, ::Array<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*>*>&
+  __cordl_internal_get_items();
 
-  constexpr ::ArrayW<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*, ::Array<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*>*> const& __get_items() const;
+  constexpr ::ArrayW<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*, ::Array<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*>*> const&
+  __cordl_internal_get_items() const;
 
-  constexpr void __set_items(::ArrayW<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*, ::Array<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*>*> value);
+  constexpr void
+  __cordl_internal_set_items(::ArrayW<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*, ::Array<::GlobalNamespace::__XmlWellFormedWriter__AttributeValueCache__Item*>*> value);
 
-  constexpr int32_t& __get_firstItem();
+  constexpr int32_t& __cordl_internal_get_firstItem();
 
-  constexpr int32_t const& __get_firstItem() const;
+  constexpr int32_t const& __cordl_internal_get_firstItem() const;
 
-  constexpr void __set_firstItem(int32_t value);
+  constexpr void __cordl_internal_set_firstItem(int32_t value);
 
-  constexpr int32_t& __get_lastItem();
+  constexpr int32_t& __cordl_internal_get_lastItem();
 
-  constexpr int32_t const& __get_lastItem() const;
+  constexpr int32_t const& __cordl_internal_get_lastItem() const;
 
-  constexpr void __set_lastItem(int32_t value);
+  constexpr void __cordl_internal_set_lastItem(int32_t value);
 
   /// @brief Method get_StringValue, addr 0x287be00, size 0x34, virtual false, abstract: false, final false
   inline ::StringW get_StringValue();
@@ -1157,8 +1159,8 @@ static_assert(offsetof(::System::Xml::__XmlWellFormedWriter__AttributeValueCache
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11477)), TypeDefinitionIndex(TypeDefinitionIndex(11544)), TypeDefinitionIndex(TypeDefinitionIndex(11491)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11484)), TypeDefinitionIndex(TypeDefinitionIndex(11413))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11489)) CS Name: ::System.Xml::XmlWellFormedWriter*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11413)), TypeDefinitionIndex(TypeDefinitionIndex(11477)), TypeDefinitionIndex(TypeDefinitionIndex(11484)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11491)), TypeDefinitionIndex(TypeDefinitionIndex(11544))] Self: TypeDefinitionIndex(TypeDefinitionIndex(11489)) CS Name: ::System.Xml::XmlWellFormedWriter*
 class CORDL_TYPE XmlWellFormedWriter : public ::System::Xml::XmlWriter {
 public:
   // Declarations
@@ -1181,80 +1183,84 @@ public:
   using State = ::System::Xml::__XmlWellFormedWriter__State;
 
   /// @brief Field writer, offset 0x10, size 0x8
-  __declspec(property(get = __get_writer, put = __set_writer))::System::Xml::XmlWriter* writer;
+  __declspec(property(get = __cordl_internal_get_writer, put = __cordl_internal_set_writer))::System::Xml::XmlWriter* writer;
 
   /// @brief Field rawWriter, offset 0x18, size 0x8
-  __declspec(property(get = __get_rawWriter, put = __set_rawWriter))::System::Xml::XmlRawWriter* rawWriter;
+  __declspec(property(get = __cordl_internal_get_rawWriter, put = __cordl_internal_set_rawWriter))::System::Xml::XmlRawWriter* rawWriter;
 
   /// @brief Field predefinedNamespaces, offset 0x20, size 0x8
-  __declspec(property(get = __get_predefinedNamespaces, put = __set_predefinedNamespaces))::System::Xml::IXmlNamespaceResolver* predefinedNamespaces;
+  __declspec(property(get = __cordl_internal_get_predefinedNamespaces, put = __cordl_internal_set_predefinedNamespaces))::System::Xml::IXmlNamespaceResolver* predefinedNamespaces;
 
   /// @brief Field nsStack, offset 0x28, size 0x8
-  __declspec(property(get = __get_nsStack, put = __set_nsStack))::ArrayW<::System::Xml::__XmlWellFormedWriter__Namespace, ::Array<::System::Xml::__XmlWellFormedWriter__Namespace>*> nsStack;
+  __declspec(property(get = __cordl_internal_get_nsStack,
+                      put = __cordl_internal_set_nsStack))::ArrayW<::System::Xml::__XmlWellFormedWriter__Namespace, ::Array<::System::Xml::__XmlWellFormedWriter__Namespace>*> nsStack;
 
   /// @brief Field nsTop, offset 0x30, size 0x4
-  __declspec(property(get = __get_nsTop, put = __set_nsTop)) int32_t nsTop;
+  __declspec(property(get = __cordl_internal_get_nsTop, put = __cordl_internal_set_nsTop)) int32_t nsTop;
 
   /// @brief Field nsHashtable, offset 0x38, size 0x8
-  __declspec(property(get = __get_nsHashtable, put = __set_nsHashtable))::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* nsHashtable;
+  __declspec(property(get = __cordl_internal_get_nsHashtable, put = __cordl_internal_set_nsHashtable))::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* nsHashtable;
 
   /// @brief Field useNsHashtable, offset 0x40, size 0x1
-  __declspec(property(get = __get_useNsHashtable, put = __set_useNsHashtable)) bool useNsHashtable;
+  __declspec(property(get = __cordl_internal_get_useNsHashtable, put = __cordl_internal_set_useNsHashtable)) bool useNsHashtable;
 
   /// @brief Field elemScopeStack, offset 0x48, size 0x8
-  __declspec(property(get = __get_elemScopeStack,
-                      put = __set_elemScopeStack))::ArrayW<::System::Xml::__XmlWellFormedWriter__ElementScope, ::Array<::System::Xml::__XmlWellFormedWriter__ElementScope>*> elemScopeStack;
+  __declspec(
+      property(get = __cordl_internal_get_elemScopeStack,
+               put = __cordl_internal_set_elemScopeStack))::ArrayW<::System::Xml::__XmlWellFormedWriter__ElementScope, ::Array<::System::Xml::__XmlWellFormedWriter__ElementScope>*> elemScopeStack;
 
   /// @brief Field elemTop, offset 0x50, size 0x4
-  __declspec(property(get = __get_elemTop, put = __set_elemTop)) int32_t elemTop;
+  __declspec(property(get = __cordl_internal_get_elemTop, put = __cordl_internal_set_elemTop)) int32_t elemTop;
 
   /// @brief Field attrStack, offset 0x58, size 0x8
-  __declspec(property(get = __get_attrStack, put = __set_attrStack))::ArrayW<::System::Xml::__XmlWellFormedWriter__AttrName, ::Array<::System::Xml::__XmlWellFormedWriter__AttrName>*> attrStack;
+  __declspec(property(get = __cordl_internal_get_attrStack,
+                      put = __cordl_internal_set_attrStack))::ArrayW<::System::Xml::__XmlWellFormedWriter__AttrName, ::Array<::System::Xml::__XmlWellFormedWriter__AttrName>*> attrStack;
 
   /// @brief Field attrCount, offset 0x60, size 0x4
-  __declspec(property(get = __get_attrCount, put = __set_attrCount)) int32_t attrCount;
+  __declspec(property(get = __cordl_internal_get_attrCount, put = __cordl_internal_set_attrCount)) int32_t attrCount;
 
   /// @brief Field attrHashTable, offset 0x68, size 0x8
-  __declspec(property(get = __get_attrHashTable, put = __set_attrHashTable))::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* attrHashTable;
+  __declspec(property(get = __cordl_internal_get_attrHashTable, put = __cordl_internal_set_attrHashTable))::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* attrHashTable;
 
   /// @brief Field specAttr, offset 0x70, size 0x4
-  __declspec(property(get = __get_specAttr, put = __set_specAttr))::System::Xml::__XmlWellFormedWriter__SpecialAttribute specAttr;
+  __declspec(property(get = __cordl_internal_get_specAttr, put = __cordl_internal_set_specAttr))::System::Xml::__XmlWellFormedWriter__SpecialAttribute specAttr;
 
   /// @brief Field attrValueCache, offset 0x78, size 0x8
-  __declspec(property(get = __get_attrValueCache, put = __set_attrValueCache))::System::Xml::__XmlWellFormedWriter__AttributeValueCache* attrValueCache;
+  __declspec(property(get = __cordl_internal_get_attrValueCache, put = __cordl_internal_set_attrValueCache))::System::Xml::__XmlWellFormedWriter__AttributeValueCache* attrValueCache;
 
   /// @brief Field curDeclPrefix, offset 0x80, size 0x8
-  __declspec(property(get = __get_curDeclPrefix, put = __set_curDeclPrefix))::StringW curDeclPrefix;
+  __declspec(property(get = __cordl_internal_get_curDeclPrefix, put = __cordl_internal_set_curDeclPrefix))::StringW curDeclPrefix;
 
   /// @brief Field stateTable, offset 0x88, size 0x8
-  __declspec(property(get = __get_stateTable, put = __set_stateTable))::ArrayW<::System::Xml::__XmlWellFormedWriter__State, ::Array<::System::Xml::__XmlWellFormedWriter__State>*> stateTable;
+  __declspec(property(get = __cordl_internal_get_stateTable,
+                      put = __cordl_internal_set_stateTable))::ArrayW<::System::Xml::__XmlWellFormedWriter__State, ::Array<::System::Xml::__XmlWellFormedWriter__State>*> stateTable;
 
   /// @brief Field currentState, offset 0x90, size 0x4
-  __declspec(property(get = __get_currentState, put = __set_currentState))::System::Xml::__XmlWellFormedWriter__State currentState;
+  __declspec(property(get = __cordl_internal_get_currentState, put = __cordl_internal_set_currentState))::System::Xml::__XmlWellFormedWriter__State currentState;
 
   /// @brief Field checkCharacters, offset 0x94, size 0x1
-  __declspec(property(get = __get_checkCharacters, put = __set_checkCharacters)) bool checkCharacters;
+  __declspec(property(get = __cordl_internal_get_checkCharacters, put = __cordl_internal_set_checkCharacters)) bool checkCharacters;
 
   /// @brief Field omitDuplNamespaces, offset 0x95, size 0x1
-  __declspec(property(get = __get_omitDuplNamespaces, put = __set_omitDuplNamespaces)) bool omitDuplNamespaces;
+  __declspec(property(get = __cordl_internal_get_omitDuplNamespaces, put = __cordl_internal_set_omitDuplNamespaces)) bool omitDuplNamespaces;
 
   /// @brief Field writeEndDocumentOnClose, offset 0x96, size 0x1
-  __declspec(property(get = __get_writeEndDocumentOnClose, put = __set_writeEndDocumentOnClose)) bool writeEndDocumentOnClose;
+  __declspec(property(get = __cordl_internal_get_writeEndDocumentOnClose, put = __cordl_internal_set_writeEndDocumentOnClose)) bool writeEndDocumentOnClose;
 
   /// @brief Field conformanceLevel, offset 0x98, size 0x4
-  __declspec(property(get = __get_conformanceLevel, put = __set_conformanceLevel))::System::Xml::ConformanceLevel conformanceLevel;
+  __declspec(property(get = __cordl_internal_get_conformanceLevel, put = __cordl_internal_set_conformanceLevel))::System::Xml::ConformanceLevel conformanceLevel;
 
   /// @brief Field dtdWritten, offset 0x9c, size 0x1
-  __declspec(property(get = __get_dtdWritten, put = __set_dtdWritten)) bool dtdWritten;
+  __declspec(property(get = __cordl_internal_get_dtdWritten, put = __cordl_internal_set_dtdWritten)) bool dtdWritten;
 
   /// @brief Field xmlDeclFollows, offset 0x9d, size 0x1
-  __declspec(property(get = __get_xmlDeclFollows, put = __set_xmlDeclFollows)) bool xmlDeclFollows;
+  __declspec(property(get = __cordl_internal_get_xmlDeclFollows, put = __cordl_internal_set_xmlDeclFollows)) bool xmlDeclFollows;
 
   /// @brief Field xmlCharType, offset 0xa0, size 0x8
-  __declspec(property(get = __get_xmlCharType, put = __set_xmlCharType))::System::Xml::XmlCharType xmlCharType;
+  __declspec(property(get = __cordl_internal_get_xmlCharType, put = __cordl_internal_set_xmlCharType))::System::Xml::XmlCharType xmlCharType;
 
   /// @brief Field hasher, offset 0xa8, size 0x8
-  __declspec(property(get = __get_hasher, put = __set_hasher))::System::Xml::SecureStringHasher* hasher;
+  __declspec(property(get = __cordl_internal_get_hasher, put = __cordl_internal_set_hasher))::System::Xml::SecureStringHasher* hasher;
 
   /// @brief Field stateName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_stateName, put = setStaticF_stateName))::ArrayW<::StringW, ::Array<::StringW>*> stateName;
@@ -1283,155 +1289,155 @@ public:
 
   __declspec(property(get = get_IsClosedOrErrorState)) bool IsClosedOrErrorState;
 
-  constexpr ::System::Xml::XmlWriter*& __get_writer();
+  constexpr ::System::Xml::XmlWriter*& __cordl_internal_get_writer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlWriter*> const& __get_writer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlWriter*> const& __cordl_internal_get_writer() const;
 
-  constexpr void __set_writer(::System::Xml::XmlWriter* value);
+  constexpr void __cordl_internal_set_writer(::System::Xml::XmlWriter* value);
 
-  constexpr ::System::Xml::XmlRawWriter*& __get_rawWriter();
+  constexpr ::System::Xml::XmlRawWriter*& __cordl_internal_get_rawWriter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlRawWriter*> const& __get_rawWriter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlRawWriter*> const& __cordl_internal_get_rawWriter() const;
 
-  constexpr void __set_rawWriter(::System::Xml::XmlRawWriter* value);
+  constexpr void __cordl_internal_set_rawWriter(::System::Xml::XmlRawWriter* value);
 
-  constexpr ::System::Xml::IXmlNamespaceResolver*& __get_predefinedNamespaces();
+  constexpr ::System::Xml::IXmlNamespaceResolver*& __cordl_internal_get_predefinedNamespaces();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IXmlNamespaceResolver*> const& __get_predefinedNamespaces() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IXmlNamespaceResolver*> const& __cordl_internal_get_predefinedNamespaces() const;
 
-  constexpr void __set_predefinedNamespaces(::System::Xml::IXmlNamespaceResolver* value);
+  constexpr void __cordl_internal_set_predefinedNamespaces(::System::Xml::IXmlNamespaceResolver* value);
 
-  constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__Namespace, ::Array<::System::Xml::__XmlWellFormedWriter__Namespace>*>& __get_nsStack();
+  constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__Namespace, ::Array<::System::Xml::__XmlWellFormedWriter__Namespace>*>& __cordl_internal_get_nsStack();
 
-  constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__Namespace, ::Array<::System::Xml::__XmlWellFormedWriter__Namespace>*> const& __get_nsStack() const;
+  constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__Namespace, ::Array<::System::Xml::__XmlWellFormedWriter__Namespace>*> const& __cordl_internal_get_nsStack() const;
 
-  constexpr void __set_nsStack(::ArrayW<::System::Xml::__XmlWellFormedWriter__Namespace, ::Array<::System::Xml::__XmlWellFormedWriter__Namespace>*> value);
+  constexpr void __cordl_internal_set_nsStack(::ArrayW<::System::Xml::__XmlWellFormedWriter__Namespace, ::Array<::System::Xml::__XmlWellFormedWriter__Namespace>*> value);
 
-  constexpr int32_t& __get_nsTop();
+  constexpr int32_t& __cordl_internal_get_nsTop();
 
-  constexpr int32_t const& __get_nsTop() const;
+  constexpr int32_t const& __cordl_internal_get_nsTop() const;
 
-  constexpr void __set_nsTop(int32_t value);
+  constexpr void __cordl_internal_set_nsTop(int32_t value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __get_nsHashtable();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __cordl_internal_get_nsHashtable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& __get_nsHashtable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& __cordl_internal_get_nsHashtable() const;
 
-  constexpr void __set_nsHashtable(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
+  constexpr void __cordl_internal_set_nsHashtable(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
 
-  constexpr bool& __get_useNsHashtable();
+  constexpr bool& __cordl_internal_get_useNsHashtable();
 
-  constexpr bool const& __get_useNsHashtable() const;
+  constexpr bool const& __cordl_internal_get_useNsHashtable() const;
 
-  constexpr void __set_useNsHashtable(bool value);
+  constexpr void __cordl_internal_set_useNsHashtable(bool value);
 
-  constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__ElementScope, ::Array<::System::Xml::__XmlWellFormedWriter__ElementScope>*>& __get_elemScopeStack();
+  constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__ElementScope, ::Array<::System::Xml::__XmlWellFormedWriter__ElementScope>*>& __cordl_internal_get_elemScopeStack();
 
-  constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__ElementScope, ::Array<::System::Xml::__XmlWellFormedWriter__ElementScope>*> const& __get_elemScopeStack() const;
+  constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__ElementScope, ::Array<::System::Xml::__XmlWellFormedWriter__ElementScope>*> const& __cordl_internal_get_elemScopeStack() const;
 
-  constexpr void __set_elemScopeStack(::ArrayW<::System::Xml::__XmlWellFormedWriter__ElementScope, ::Array<::System::Xml::__XmlWellFormedWriter__ElementScope>*> value);
+  constexpr void __cordl_internal_set_elemScopeStack(::ArrayW<::System::Xml::__XmlWellFormedWriter__ElementScope, ::Array<::System::Xml::__XmlWellFormedWriter__ElementScope>*> value);
 
-  constexpr int32_t& __get_elemTop();
+  constexpr int32_t& __cordl_internal_get_elemTop();
 
-  constexpr int32_t const& __get_elemTop() const;
+  constexpr int32_t const& __cordl_internal_get_elemTop() const;
 
-  constexpr void __set_elemTop(int32_t value);
+  constexpr void __cordl_internal_set_elemTop(int32_t value);
 
-  constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__AttrName, ::Array<::System::Xml::__XmlWellFormedWriter__AttrName>*>& __get_attrStack();
+  constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__AttrName, ::Array<::System::Xml::__XmlWellFormedWriter__AttrName>*>& __cordl_internal_get_attrStack();
 
-  constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__AttrName, ::Array<::System::Xml::__XmlWellFormedWriter__AttrName>*> const& __get_attrStack() const;
+  constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__AttrName, ::Array<::System::Xml::__XmlWellFormedWriter__AttrName>*> const& __cordl_internal_get_attrStack() const;
 
-  constexpr void __set_attrStack(::ArrayW<::System::Xml::__XmlWellFormedWriter__AttrName, ::Array<::System::Xml::__XmlWellFormedWriter__AttrName>*> value);
+  constexpr void __cordl_internal_set_attrStack(::ArrayW<::System::Xml::__XmlWellFormedWriter__AttrName, ::Array<::System::Xml::__XmlWellFormedWriter__AttrName>*> value);
 
-  constexpr int32_t& __get_attrCount();
+  constexpr int32_t& __cordl_internal_get_attrCount();
 
-  constexpr int32_t const& __get_attrCount() const;
+  constexpr int32_t const& __cordl_internal_get_attrCount() const;
 
-  constexpr void __set_attrCount(int32_t value);
+  constexpr void __cordl_internal_set_attrCount(int32_t value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __get_attrHashTable();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __cordl_internal_get_attrHashTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& __get_attrHashTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& __cordl_internal_get_attrHashTable() const;
 
-  constexpr void __set_attrHashTable(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
+  constexpr void __cordl_internal_set_attrHashTable(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
 
-  constexpr ::System::Xml::__XmlWellFormedWriter__SpecialAttribute& __get_specAttr();
+  constexpr ::System::Xml::__XmlWellFormedWriter__SpecialAttribute& __cordl_internal_get_specAttr();
 
-  constexpr ::System::Xml::__XmlWellFormedWriter__SpecialAttribute const& __get_specAttr() const;
+  constexpr ::System::Xml::__XmlWellFormedWriter__SpecialAttribute const& __cordl_internal_get_specAttr() const;
 
-  constexpr void __set_specAttr(::System::Xml::__XmlWellFormedWriter__SpecialAttribute value);
+  constexpr void __cordl_internal_set_specAttr(::System::Xml::__XmlWellFormedWriter__SpecialAttribute value);
 
-  constexpr ::System::Xml::__XmlWellFormedWriter__AttributeValueCache*& __get_attrValueCache();
+  constexpr ::System::Xml::__XmlWellFormedWriter__AttributeValueCache*& __cordl_internal_get_attrValueCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlWellFormedWriter__AttributeValueCache*> const& __get_attrValueCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlWellFormedWriter__AttributeValueCache*> const& __cordl_internal_get_attrValueCache() const;
 
-  constexpr void __set_attrValueCache(::System::Xml::__XmlWellFormedWriter__AttributeValueCache* value);
+  constexpr void __cordl_internal_set_attrValueCache(::System::Xml::__XmlWellFormedWriter__AttributeValueCache* value);
 
-  constexpr ::StringW& __get_curDeclPrefix();
+  constexpr ::StringW& __cordl_internal_get_curDeclPrefix();
 
-  constexpr ::StringW const& __get_curDeclPrefix() const;
+  constexpr ::StringW const& __cordl_internal_get_curDeclPrefix() const;
 
-  constexpr void __set_curDeclPrefix(::StringW value);
+  constexpr void __cordl_internal_set_curDeclPrefix(::StringW value);
 
-  constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__State, ::Array<::System::Xml::__XmlWellFormedWriter__State>*>& __get_stateTable();
+  constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__State, ::Array<::System::Xml::__XmlWellFormedWriter__State>*>& __cordl_internal_get_stateTable();
 
-  constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__State, ::Array<::System::Xml::__XmlWellFormedWriter__State>*> const& __get_stateTable() const;
+  constexpr ::ArrayW<::System::Xml::__XmlWellFormedWriter__State, ::Array<::System::Xml::__XmlWellFormedWriter__State>*> const& __cordl_internal_get_stateTable() const;
 
-  constexpr void __set_stateTable(::ArrayW<::System::Xml::__XmlWellFormedWriter__State, ::Array<::System::Xml::__XmlWellFormedWriter__State>*> value);
+  constexpr void __cordl_internal_set_stateTable(::ArrayW<::System::Xml::__XmlWellFormedWriter__State, ::Array<::System::Xml::__XmlWellFormedWriter__State>*> value);
 
-  constexpr ::System::Xml::__XmlWellFormedWriter__State& __get_currentState();
+  constexpr ::System::Xml::__XmlWellFormedWriter__State& __cordl_internal_get_currentState();
 
-  constexpr ::System::Xml::__XmlWellFormedWriter__State const& __get_currentState() const;
+  constexpr ::System::Xml::__XmlWellFormedWriter__State const& __cordl_internal_get_currentState() const;
 
-  constexpr void __set_currentState(::System::Xml::__XmlWellFormedWriter__State value);
+  constexpr void __cordl_internal_set_currentState(::System::Xml::__XmlWellFormedWriter__State value);
 
-  constexpr bool& __get_checkCharacters();
+  constexpr bool& __cordl_internal_get_checkCharacters();
 
-  constexpr bool const& __get_checkCharacters() const;
+  constexpr bool const& __cordl_internal_get_checkCharacters() const;
 
-  constexpr void __set_checkCharacters(bool value);
+  constexpr void __cordl_internal_set_checkCharacters(bool value);
 
-  constexpr bool& __get_omitDuplNamespaces();
+  constexpr bool& __cordl_internal_get_omitDuplNamespaces();
 
-  constexpr bool const& __get_omitDuplNamespaces() const;
+  constexpr bool const& __cordl_internal_get_omitDuplNamespaces() const;
 
-  constexpr void __set_omitDuplNamespaces(bool value);
+  constexpr void __cordl_internal_set_omitDuplNamespaces(bool value);
 
-  constexpr bool& __get_writeEndDocumentOnClose();
+  constexpr bool& __cordl_internal_get_writeEndDocumentOnClose();
 
-  constexpr bool const& __get_writeEndDocumentOnClose() const;
+  constexpr bool const& __cordl_internal_get_writeEndDocumentOnClose() const;
 
-  constexpr void __set_writeEndDocumentOnClose(bool value);
+  constexpr void __cordl_internal_set_writeEndDocumentOnClose(bool value);
 
-  constexpr ::System::Xml::ConformanceLevel& __get_conformanceLevel();
+  constexpr ::System::Xml::ConformanceLevel& __cordl_internal_get_conformanceLevel();
 
-  constexpr ::System::Xml::ConformanceLevel const& __get_conformanceLevel() const;
+  constexpr ::System::Xml::ConformanceLevel const& __cordl_internal_get_conformanceLevel() const;
 
-  constexpr void __set_conformanceLevel(::System::Xml::ConformanceLevel value);
+  constexpr void __cordl_internal_set_conformanceLevel(::System::Xml::ConformanceLevel value);
 
-  constexpr bool& __get_dtdWritten();
+  constexpr bool& __cordl_internal_get_dtdWritten();
 
-  constexpr bool const& __get_dtdWritten() const;
+  constexpr bool const& __cordl_internal_get_dtdWritten() const;
 
-  constexpr void __set_dtdWritten(bool value);
+  constexpr void __cordl_internal_set_dtdWritten(bool value);
 
-  constexpr bool& __get_xmlDeclFollows();
+  constexpr bool& __cordl_internal_get_xmlDeclFollows();
 
-  constexpr bool const& __get_xmlDeclFollows() const;
+  constexpr bool const& __cordl_internal_get_xmlDeclFollows() const;
 
-  constexpr void __set_xmlDeclFollows(bool value);
+  constexpr void __cordl_internal_set_xmlDeclFollows(bool value);
 
-  constexpr ::System::Xml::XmlCharType& __get_xmlCharType();
+  constexpr ::System::Xml::XmlCharType& __cordl_internal_get_xmlCharType();
 
-  constexpr ::System::Xml::XmlCharType const& __get_xmlCharType() const;
+  constexpr ::System::Xml::XmlCharType const& __cordl_internal_get_xmlCharType() const;
 
-  constexpr void __set_xmlCharType(::System::Xml::XmlCharType value);
+  constexpr void __cordl_internal_set_xmlCharType(::System::Xml::XmlCharType value);
 
-  constexpr ::System::Xml::SecureStringHasher*& __get_hasher();
+  constexpr ::System::Xml::SecureStringHasher*& __cordl_internal_get_hasher();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::SecureStringHasher*> const& __get_hasher() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::SecureStringHasher*> const& __cordl_internal_get_hasher() const;
 
-  constexpr void __set_hasher(::System::Xml::SecureStringHasher* value);
+  constexpr void __cordl_internal_set_hasher(::System::Xml::SecureStringHasher* value);
 
   static inline void setStaticF_stateName(::ArrayW<::StringW, ::Array<::StringW>*> value);
 

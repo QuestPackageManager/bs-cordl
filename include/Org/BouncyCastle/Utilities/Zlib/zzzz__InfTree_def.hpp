@@ -19,29 +19,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::InfTree);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1823))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::InfTree*
 class CORDL_TYPE InfTree : public ::System::Object {
 public:
   // Declarations
   /// @brief Field hn, offset 0x10, size 0x8
-  __declspec(property(get = __get_hn, put = __set_hn))::ArrayW<int32_t, ::Array<int32_t>*> hn;
+  __declspec(property(get = __cordl_internal_get_hn, put = __cordl_internal_set_hn))::ArrayW<int32_t, ::Array<int32_t>*> hn;
 
   /// @brief Field v, offset 0x18, size 0x8
-  __declspec(property(get = __get_v, put = __set_v))::ArrayW<int32_t, ::Array<int32_t>*> v;
+  __declspec(property(get = __cordl_internal_get_v, put = __cordl_internal_set_v))::ArrayW<int32_t, ::Array<int32_t>*> v;
 
   /// @brief Field c, offset 0x20, size 0x8
-  __declspec(property(get = __get_c, put = __set_c))::ArrayW<int32_t, ::Array<int32_t>*> c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::ArrayW<int32_t, ::Array<int32_t>*> c;
 
   /// @brief Field r, offset 0x28, size 0x8
-  __declspec(property(get = __get_r, put = __set_r))::ArrayW<int32_t, ::Array<int32_t>*> r;
+  __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r))::ArrayW<int32_t, ::Array<int32_t>*> r;
 
   /// @brief Field u, offset 0x30, size 0x8
-  __declspec(property(get = __get_u, put = __set_u))::ArrayW<int32_t, ::Array<int32_t>*> u;
+  __declspec(property(get = __cordl_internal_get_u, put = __cordl_internal_set_u))::ArrayW<int32_t, ::Array<int32_t>*> u;
 
   /// @brief Field x, offset 0x38, size 0x8
-  __declspec(property(get = __get_x, put = __set_x))::ArrayW<int32_t, ::Array<int32_t>*> x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::ArrayW<int32_t, ::Array<int32_t>*> x;
 
   /// @brief Field fixed_tl, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_fixed_tl, put = setStaticF_fixed_tl))::ArrayW<int32_t, ::Array<int32_t>*> fixed_tl;
@@ -61,41 +61,41 @@ public:
   /// @brief Field cpdext, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_cpdext, put = setStaticF_cpdext))::ArrayW<int32_t, ::Array<int32_t>*> cpdext;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_hn();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_hn();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_hn() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_hn() const;
 
-  constexpr void __set_hn(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_hn(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_v();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_v();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_v() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_v() const;
 
-  constexpr void __set_v(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_v(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_c();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_c();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_c() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_c() const;
 
-  constexpr void __set_c(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_c(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_r();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_r();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_r() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_r() const;
 
-  constexpr void __set_r(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_r(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_u();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_u();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_u() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_u() const;
 
-  constexpr void __set_u(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_u(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_x();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_x();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_x() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_x(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   static inline void setStaticF_fixed_tl(::ArrayW<int32_t, ::Array<int32_t>*> value);
 

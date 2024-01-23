@@ -45,17 +45,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(980))
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::Asn1CipherBuilderWithKey*
 class CORDL_TYPE Asn1CipherBuilderWithKey : public ::System::Object {
 public:
   // Declarations
   /// @brief Field encKey, offset 0x10, size 0x8
-  __declspec(property(get = __get_encKey, put = __set_encKey))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* encKey;
+  __declspec(property(get = __cordl_internal_get_encKey, put = __cordl_internal_set_encKey))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* encKey;
 
   /// @brief Field algorithmIdentifier, offset 0x18, size 0x8
-  __declspec(property(get = __get_algorithmIdentifier, put = __set_algorithmIdentifier))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier;
+  __declspec(property(get = __cordl_internal_get_algorithmIdentifier, put = __cordl_internal_set_algorithmIdentifier))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier;
 
   __declspec(property(get = get_AlgorithmDetails))::System::Object* AlgorithmDetails;
 
@@ -73,17 +73,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherBuilder"
   constexpr ::Org::BouncyCastle::Crypto::ICipherBuilder* i___Org__BouncyCastle__Crypto__ICipherBuilder() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& __get_encKey();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& __cordl_internal_get_encKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::KeyParameter*> const& __get_encKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::KeyParameter*> const& __cordl_internal_get_encKey() const;
 
-  constexpr void __set_encKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
+  constexpr void __cordl_internal_set_encKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_algorithmIdentifier();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_algorithmIdentifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_algorithmIdentifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_algorithmIdentifier() const;
 
-  constexpr void __set_algorithmIdentifier(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_algorithmIdentifier(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize,
                                                                                            ::Org::BouncyCastle::Security::SecureRandom* random);

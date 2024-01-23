@@ -18,51 +18,52 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::Serialization::RootDesignerSeri
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel::Design::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9505))
 // CS Name: ::System.ComponentModel.Design.Serialization::RootDesignerSerializerAttribute*
 class CORDL_TYPE RootDesignerSerializerAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field _typeId, offset 0x10, size 0x8
-  __declspec(property(get = __get__typeId, put = __set__typeId))::StringW _typeId;
+  __declspec(property(get = __cordl_internal_get__typeId, put = __cordl_internal_set__typeId))::StringW _typeId;
 
   /// @brief Field <Reloadable>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__Reloadable_k__BackingField, put = __set__Reloadable_k__BackingField)) bool _Reloadable_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Reloadable_k__BackingField, put = __cordl_internal_set__Reloadable_k__BackingField)) bool _Reloadable_k__BackingField;
 
   /// @brief Field <SerializerTypeName>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__SerializerTypeName_k__BackingField, put = __set__SerializerTypeName_k__BackingField))::StringW _SerializerTypeName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SerializerTypeName_k__BackingField, put = __cordl_internal_set__SerializerTypeName_k__BackingField))::StringW _SerializerTypeName_k__BackingField;
 
   /// @brief Field <SerializerBaseTypeName>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__SerializerBaseTypeName_k__BackingField, put = __set__SerializerBaseTypeName_k__BackingField))::StringW _SerializerBaseTypeName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SerializerBaseTypeName_k__BackingField,
+                      put = __cordl_internal_set__SerializerBaseTypeName_k__BackingField))::StringW _SerializerBaseTypeName_k__BackingField;
 
   __declspec(property(get = get_SerializerBaseTypeName))::StringW SerializerBaseTypeName;
 
   __declspec(property(get = get_TypeId))::System::Object* TypeId;
 
-  constexpr ::StringW& __get__typeId();
+  constexpr ::StringW& __cordl_internal_get__typeId();
 
-  constexpr ::StringW const& __get__typeId() const;
+  constexpr ::StringW const& __cordl_internal_get__typeId() const;
 
-  constexpr void __set__typeId(::StringW value);
+  constexpr void __cordl_internal_set__typeId(::StringW value);
 
-  constexpr bool& __get__Reloadable_k__BackingField();
+  constexpr bool& __cordl_internal_get__Reloadable_k__BackingField();
 
-  constexpr bool const& __get__Reloadable_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__Reloadable_k__BackingField() const;
 
-  constexpr void __set__Reloadable_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__Reloadable_k__BackingField(bool value);
 
-  constexpr ::StringW& __get__SerializerTypeName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__SerializerTypeName_k__BackingField();
 
-  constexpr ::StringW const& __get__SerializerTypeName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__SerializerTypeName_k__BackingField() const;
 
-  constexpr void __set__SerializerTypeName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__SerializerTypeName_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__SerializerBaseTypeName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__SerializerBaseTypeName_k__BackingField();
 
-  constexpr ::StringW const& __get__SerializerBaseTypeName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__SerializerBaseTypeName_k__BackingField() const;
 
-  constexpr void __set__SerializerBaseTypeName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__SerializerBaseTypeName_k__BackingField(::StringW value);
 
   static inline ::System::ComponentModel::Design::Serialization::RootDesignerSerializerAttribute* New_ctor(::StringW serializerTypeName, ::StringW baseSerializerTypeName, bool reloadable);
 

@@ -131,31 +131,31 @@ MARK_REF_PTR_T(::TMPro::__TMP_Dropdown____c__DisplayClass69_0);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12347))
 // CS Name: ::TMP_Dropdown::DropdownItem*
 class CORDL_TYPE __TMP_Dropdown__DropdownItem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field m_Text, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Text, put = __set_m_Text))::TMPro::TMP_Text* m_Text;
+  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::UnityW<::TMPro::TMP_Text> m_Text;
 
   /// @brief Field m_Image, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Image, put = __set_m_Image))::UnityEngine::UI::Image* m_Image;
+  __declspec(property(get = __cordl_internal_get_m_Image, put = __cordl_internal_set_m_Image))::UnityW<::UnityEngine::UI::Image> m_Image;
 
   /// @brief Field m_RectTransform, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_RectTransform, put = __set_m_RectTransform))::UnityEngine::RectTransform* m_RectTransform;
+  __declspec(property(get = __cordl_internal_get_m_RectTransform, put = __cordl_internal_set_m_RectTransform))::UnityW<::UnityEngine::RectTransform> m_RectTransform;
 
   /// @brief Field m_Toggle, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Toggle, put = __set_m_Toggle))::UnityEngine::UI::Toggle* m_Toggle;
+  __declspec(property(get = __cordl_internal_get_m_Toggle, put = __cordl_internal_set_m_Toggle))::UnityW<::UnityEngine::UI::Toggle> m_Toggle;
 
-  __declspec(property(get = get_text, put = set_text))::TMPro::TMP_Text* text;
+  __declspec(property(get = get_text, put = set_text))::UnityW<::TMPro::TMP_Text> text;
 
-  __declspec(property(get = get_image, put = set_image))::UnityEngine::UI::Image* image;
+  __declspec(property(get = get_image, put = set_image))::UnityW<::UnityEngine::UI::Image> image;
 
-  __declspec(property(get = get_rectTransform, put = set_rectTransform))::UnityEngine::RectTransform* rectTransform;
+  __declspec(property(get = get_rectTransform, put = set_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
 
-  __declspec(property(get = get_toggle, put = set_toggle))::UnityEngine::UI::Toggle* toggle;
+  __declspec(property(get = get_toggle, put = set_toggle))::UnityW<::UnityEngine::UI::Toggle> toggle;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
@@ -175,50 +175,50 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::ICancelHandler"
   constexpr ::UnityEngine::EventSystems::ICancelHandler* i___UnityEngine__EventSystems__ICancelHandler() noexcept;
 
-  constexpr ::TMPro::TMP_Text*& __get_m_Text();
+  constexpr ::UnityW<::TMPro::TMP_Text>& __cordl_internal_get_m_Text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_Text*> const& __get_m_Text() const;
+  constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get_m_Text() const;
 
-  constexpr void __set_m_Text(::TMPro::TMP_Text* value);
+  constexpr void __cordl_internal_set_m_Text(::UnityW<::TMPro::TMP_Text> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get_m_Image();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get_m_Image();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get_m_Image() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get_m_Image() const;
 
-  constexpr void __set_m_Image(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set_m_Image(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get_m_RectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_RectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_RectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_RectTransform() const;
 
-  constexpr void __set_m_RectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_m_RectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get_m_Toggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get_m_Toggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get_m_Toggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get_m_Toggle() const;
 
-  constexpr void __set_m_Toggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set_m_Toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
   /// @brief Method get_text, addr 0x2c0756c, size 0x8, virtual false, abstract: false, final false
-  inline ::TMPro::TMP_Text* get_text();
+  inline ::UnityW<::TMPro::TMP_Text> get_text();
 
   /// @brief Method set_text, addr 0x2c07574, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::TMPro::TMP_Text* value);
 
   /// @brief Method get_image, addr 0x2c0757c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Image* get_image();
+  inline ::UnityW<::UnityEngine::UI::Image> get_image();
 
   /// @brief Method set_image, addr 0x2c07584, size 0x8, virtual false, abstract: false, final false
   inline void set_image(::UnityEngine::UI::Image* value);
 
   /// @brief Method get_rectTransform, addr 0x2c0758c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::RectTransform* get_rectTransform();
+  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
   /// @brief Method set_rectTransform, addr 0x2c07594, size 0x8, virtual false, abstract: false, final false
   inline void set_rectTransform(::UnityEngine::RectTransform* value);
 
   /// @brief Method get_toggle, addr 0x2c0759c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Toggle* get_toggle();
+  inline ::UnityW<::UnityEngine::UI::Toggle> get_toggle();
 
   /// @brief Method set_toggle, addr 0x2c075a4, size 0x8, virtual false, abstract: false, final false
   inline void set_toggle(::UnityEngine::UI::Toggle* value);
@@ -249,16 +249,16 @@ protected:
 
 public:
   /// @brief Field m_Text, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TMP_Text* ___m_Text;
+  ::UnityW<::TMPro::TMP_Text> ___m_Text;
 
   /// @brief Field m_Image, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ___m_Image;
+  ::UnityW<::UnityEngine::UI::Image> ___m_Image;
 
   /// @brief Field m_RectTransform, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___m_RectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ___m_RectTransform;
 
   /// @brief Field m_Toggle, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ___m_Toggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ___m_Toggle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -278,33 +278,33 @@ static_assert(offsetof(::TMPro::__TMP_Dropdown__DropdownItem, ___m_Toggle) == 0x
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12348))
 // CS Name: ::TMP_Dropdown::OptionData*
 class CORDL_TYPE __TMP_Dropdown__OptionData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Text, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Text, put = __set_m_Text))::StringW m_Text;
+  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::StringW m_Text;
 
   /// @brief Field m_Image, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Image, put = __set_m_Image))::UnityEngine::Sprite* m_Image;
+  __declspec(property(get = __cordl_internal_get_m_Image, put = __cordl_internal_set_m_Image))::UnityW<::UnityEngine::Sprite> m_Image;
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
-  __declspec(property(get = get_image, put = set_image))::UnityEngine::Sprite* image;
+  __declspec(property(get = get_image, put = set_image))::UnityW<::UnityEngine::Sprite> image;
 
-  constexpr ::StringW& __get_m_Text();
+  constexpr ::StringW& __cordl_internal_get_m_Text();
 
-  constexpr ::StringW const& __get_m_Text() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Text() const;
 
-  constexpr void __set_m_Text(::StringW value);
+  constexpr void __cordl_internal_set_m_Text(::StringW value);
 
-  constexpr ::UnityEngine::Sprite*& __get_m_Image();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get_m_Image();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get_m_Image() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get_m_Image() const;
 
-  constexpr void __set_m_Image(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set_m_Image(::UnityW<::UnityEngine::Sprite> value);
 
   /// @brief Method get_text, addr 0x2c076dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
@@ -313,7 +313,7 @@ public:
   inline void set_text(::StringW value);
 
   /// @brief Method get_image, addr 0x2c076ec, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Sprite* get_image();
+  inline ::UnityW<::UnityEngine::Sprite> get_image();
 
   /// @brief Method set_image, addr 0x2c076f4, size 0x8, virtual false, abstract: false, final false
   inline void set_image(::UnityEngine::Sprite* value);
@@ -356,7 +356,7 @@ public:
   ::StringW ___m_Text;
 
   /// @brief Field m_Image, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ___m_Image;
+  ::UnityW<::UnityEngine::Sprite> ___m_Image;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -372,22 +372,22 @@ static_assert(offsetof(::TMPro::__TMP_Dropdown__OptionData, ___m_Image) == 0x18,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12349))
 // CS Name: ::TMP_Dropdown::OptionDataList*
 class CORDL_TYPE __TMP_Dropdown__OptionDataList : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Options, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Options, put = __set_m_Options))::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>* m_Options;
+  __declspec(property(get = __cordl_internal_get_m_Options, put = __cordl_internal_set_m_Options))::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>* m_Options;
 
   __declspec(property(get = get_options, put = set_options))::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>* options;
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>*& __get_m_Options();
+  constexpr ::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>*& __cordl_internal_get_m_Options();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>*> const& __get_m_Options() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>*> const& __cordl_internal_get_m_Options() const;
 
-  constexpr void __set_m_Options(::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>* value);
+  constexpr void __cordl_internal_set_m_Options(::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>* value);
 
   /// @brief Method get_options, addr 0x2c07728, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>* get_options();
@@ -429,7 +429,7 @@ static_assert(offsetof(::TMPro::__TMP_Dropdown__OptionDataList, ___m_Options) ==
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 98 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 98 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12350))
 // CS Name: ::TMP_Dropdown::DropdownEvent*
 class CORDL_TYPE __TMP_Dropdown__DropdownEvent : public ::UnityEngine::Events::UnityEvent_1<int32_t> {
@@ -464,29 +464,29 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_Dropdown__DropdownE
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12351))
 // CS Name: ::TMP_Dropdown::<>c__DisplayClass69_0*
 class CORDL_TYPE __TMP_Dropdown____c__DisplayClass69_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field item, offset 0x10, size 0x8
-  __declspec(property(get = __get_item, put = __set_item))::TMPro::__TMP_Dropdown__DropdownItem* item;
+  __declspec(property(get = __cordl_internal_get_item, put = __cordl_internal_set_item))::UnityW<::TMPro::__TMP_Dropdown__DropdownItem> item;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::TMPro::TMP_Dropdown* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::TMPro::TMP_Dropdown> __4__this;
 
-  constexpr ::TMPro::__TMP_Dropdown__DropdownItem*& __get_item();
+  constexpr ::UnityW<::TMPro::__TMP_Dropdown__DropdownItem>& __cordl_internal_get_item();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_Dropdown__DropdownItem*> const& __get_item() const;
+  constexpr ::UnityW<::TMPro::__TMP_Dropdown__DropdownItem> const& __cordl_internal_get_item() const;
 
-  constexpr void __set_item(::TMPro::__TMP_Dropdown__DropdownItem* value);
+  constexpr void __cordl_internal_set_item(::UnityW<::TMPro::__TMP_Dropdown__DropdownItem> value);
 
-  constexpr ::TMPro::TMP_Dropdown*& __get___4__this();
+  constexpr ::UnityW<::TMPro::TMP_Dropdown>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_Dropdown*> const& __get___4__this() const;
+  constexpr ::UnityW<::TMPro::TMP_Dropdown> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::TMPro::TMP_Dropdown* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::TMPro::TMP_Dropdown> value);
 
   static inline ::TMPro::__TMP_Dropdown____c__DisplayClass69_0* New_ctor();
 
@@ -511,10 +511,10 @@ protected:
 
 public:
   /// @brief Field item, offset: 0x10, size: 0x8, def value: None
-  ::TMPro::__TMP_Dropdown__DropdownItem* ___item;
+  ::UnityW<::TMPro::__TMP_Dropdown__DropdownItem> ___item;
 
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TMP_Dropdown* _____4__this;
+  ::UnityW<::TMPro::TMP_Dropdown> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -530,23 +530,23 @@ static_assert(offsetof(::TMPro::__TMP_Dropdown____c__DisplayClass69_0, _____4__t
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12352))
 // CS Name: ::TMP_Dropdown::<DelayedDestroyDropdownList>d__81*
 class CORDL_TYPE __TMP_Dropdown___DelayedDestroyDropdownList_d__81 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field delay, offset 0x20, size 0x4
-  __declspec(property(get = __get_delay, put = __set_delay)) float_t delay;
+  __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::TMPro::TMP_Dropdown* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::TMPro::TMP_Dropdown> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -570,29 +570,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr float_t& __get_delay();
+  constexpr float_t& __cordl_internal_get_delay();
 
-  constexpr float_t const& __get_delay() const;
+  constexpr float_t const& __cordl_internal_get_delay() const;
 
-  constexpr void __set_delay(float_t value);
+  constexpr void __cordl_internal_set_delay(float_t value);
 
-  constexpr ::TMPro::TMP_Dropdown*& __get___4__this();
+  constexpr ::UnityW<::TMPro::TMP_Dropdown>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_Dropdown*> const& __get___4__this() const;
+  constexpr ::UnityW<::TMPro::TMP_Dropdown> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::TMPro::TMP_Dropdown* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::TMPro::TMP_Dropdown> value);
 
   static inline ::TMPro::__TMP_Dropdown___DelayedDestroyDropdownList_d__81* New_ctor(int32_t __1__state);
 
@@ -638,7 +638,7 @@ public:
   float_t ___delay;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::TMPro::TMP_Dropdown* _____4__this;
+  ::UnityW<::TMPro::TMP_Dropdown> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -658,7 +658,7 @@ static_assert(offsetof(::TMPro::__TMP_Dropdown___DelayedDestroyDropdownList_d__8
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13119))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13119))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12353))
 // CS Name: ::TMPro::TMP_Dropdown*
 class CORDL_TYPE TMP_Dropdown : public ::UnityEngine::UI::Selectable {
@@ -677,67 +677,67 @@ public:
   using DropdownItem = ::TMPro::__TMP_Dropdown__DropdownItem;
 
   /// @brief Field m_Template, offset 0xf8, size 0x8
-  __declspec(property(get = __get_m_Template, put = __set_m_Template))::UnityEngine::RectTransform* m_Template;
+  __declspec(property(get = __cordl_internal_get_m_Template, put = __cordl_internal_set_m_Template))::UnityW<::UnityEngine::RectTransform> m_Template;
 
   /// @brief Field m_CaptionText, offset 0x100, size 0x8
-  __declspec(property(get = __get_m_CaptionText, put = __set_m_CaptionText))::TMPro::TMP_Text* m_CaptionText;
+  __declspec(property(get = __cordl_internal_get_m_CaptionText, put = __cordl_internal_set_m_CaptionText))::UnityW<::TMPro::TMP_Text> m_CaptionText;
 
   /// @brief Field m_CaptionImage, offset 0x108, size 0x8
-  __declspec(property(get = __get_m_CaptionImage, put = __set_m_CaptionImage))::UnityEngine::UI::Image* m_CaptionImage;
+  __declspec(property(get = __cordl_internal_get_m_CaptionImage, put = __cordl_internal_set_m_CaptionImage))::UnityW<::UnityEngine::UI::Image> m_CaptionImage;
 
   /// @brief Field m_Placeholder, offset 0x110, size 0x8
-  __declspec(property(get = __get_m_Placeholder, put = __set_m_Placeholder))::UnityEngine::UI::Graphic* m_Placeholder;
+  __declspec(property(get = __cordl_internal_get_m_Placeholder, put = __cordl_internal_set_m_Placeholder))::UnityW<::UnityEngine::UI::Graphic> m_Placeholder;
 
   /// @brief Field m_ItemText, offset 0x118, size 0x8
-  __declspec(property(get = __get_m_ItemText, put = __set_m_ItemText))::TMPro::TMP_Text* m_ItemText;
+  __declspec(property(get = __cordl_internal_get_m_ItemText, put = __cordl_internal_set_m_ItemText))::UnityW<::TMPro::TMP_Text> m_ItemText;
 
   /// @brief Field m_ItemImage, offset 0x120, size 0x8
-  __declspec(property(get = __get_m_ItemImage, put = __set_m_ItemImage))::UnityEngine::UI::Image* m_ItemImage;
+  __declspec(property(get = __cordl_internal_get_m_ItemImage, put = __cordl_internal_set_m_ItemImage))::UnityW<::UnityEngine::UI::Image> m_ItemImage;
 
   /// @brief Field m_Value, offset 0x128, size 0x4
-  __declspec(property(get = __get_m_Value, put = __set_m_Value)) int32_t m_Value;
+  __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) int32_t m_Value;
 
   /// @brief Field m_Options, offset 0x130, size 0x8
-  __declspec(property(get = __get_m_Options, put = __set_m_Options))::TMPro::__TMP_Dropdown__OptionDataList* m_Options;
+  __declspec(property(get = __cordl_internal_get_m_Options, put = __cordl_internal_set_m_Options))::TMPro::__TMP_Dropdown__OptionDataList* m_Options;
 
   /// @brief Field m_OnValueChanged, offset 0x138, size 0x8
-  __declspec(property(get = __get_m_OnValueChanged, put = __set_m_OnValueChanged))::TMPro::__TMP_Dropdown__DropdownEvent* m_OnValueChanged;
+  __declspec(property(get = __cordl_internal_get_m_OnValueChanged, put = __cordl_internal_set_m_OnValueChanged))::TMPro::__TMP_Dropdown__DropdownEvent* m_OnValueChanged;
 
   /// @brief Field m_AlphaFadeSpeed, offset 0x140, size 0x4
-  __declspec(property(get = __get_m_AlphaFadeSpeed, put = __set_m_AlphaFadeSpeed)) float_t m_AlphaFadeSpeed;
+  __declspec(property(get = __cordl_internal_get_m_AlphaFadeSpeed, put = __cordl_internal_set_m_AlphaFadeSpeed)) float_t m_AlphaFadeSpeed;
 
   /// @brief Field m_Dropdown, offset 0x148, size 0x8
-  __declspec(property(get = __get_m_Dropdown, put = __set_m_Dropdown))::UnityEngine::GameObject* m_Dropdown;
+  __declspec(property(get = __cordl_internal_get_m_Dropdown, put = __cordl_internal_set_m_Dropdown))::UnityW<::UnityEngine::GameObject> m_Dropdown;
 
   /// @brief Field m_Blocker, offset 0x150, size 0x8
-  __declspec(property(get = __get_m_Blocker, put = __set_m_Blocker))::UnityEngine::GameObject* m_Blocker;
+  __declspec(property(get = __cordl_internal_get_m_Blocker, put = __cordl_internal_set_m_Blocker))::UnityW<::UnityEngine::GameObject> m_Blocker;
 
   /// @brief Field m_Items, offset 0x158, size 0x8
-  __declspec(property(get = __get_m_Items, put = __set_m_Items))::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__DropdownItem*>* m_Items;
+  __declspec(property(get = __cordl_internal_get_m_Items, put = __cordl_internal_set_m_Items))::System::Collections::Generic::List_1<::UnityW<::TMPro::__TMP_Dropdown__DropdownItem>>* m_Items;
 
   /// @brief Field m_AlphaTweenRunner, offset 0x160, size 0x8
-  __declspec(property(get = __get_m_AlphaTweenRunner, put = __set_m_AlphaTweenRunner))::TMPro::TweenRunner_1<::TMPro::FloatTween>* m_AlphaTweenRunner;
+  __declspec(property(get = __cordl_internal_get_m_AlphaTweenRunner, put = __cordl_internal_set_m_AlphaTweenRunner))::TMPro::TweenRunner_1<::TMPro::FloatTween>* m_AlphaTweenRunner;
 
   /// @brief Field validTemplate, offset 0x168, size 0x1
-  __declspec(property(get = __get_validTemplate, put = __set_validTemplate)) bool validTemplate;
+  __declspec(property(get = __cordl_internal_get_validTemplate, put = __cordl_internal_set_validTemplate)) bool validTemplate;
 
   /// @brief Field m_Coroutine, offset 0x170, size 0x8
-  __declspec(property(get = __get_m_Coroutine, put = __set_m_Coroutine))::UnityEngine::Coroutine* m_Coroutine;
+  __declspec(property(get = __cordl_internal_get_m_Coroutine, put = __cordl_internal_set_m_Coroutine))::UnityEngine::Coroutine* m_Coroutine;
 
   /// @brief Field s_NoOptionData, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_NoOptionData, put = setStaticF_s_NoOptionData))::TMPro::__TMP_Dropdown__OptionData* s_NoOptionData;
 
-  __declspec(property(get = get_template, put = set_template))::UnityEngine::RectTransform* _cordl_template;
+  __declspec(property(get = get_template, put = set_template))::UnityW<::UnityEngine::RectTransform> _cordl_template;
 
-  __declspec(property(get = get_captionText, put = set_captionText))::TMPro::TMP_Text* captionText;
+  __declspec(property(get = get_captionText, put = set_captionText))::UnityW<::TMPro::TMP_Text> captionText;
 
-  __declspec(property(get = get_captionImage, put = set_captionImage))::UnityEngine::UI::Image* captionImage;
+  __declspec(property(get = get_captionImage, put = set_captionImage))::UnityW<::UnityEngine::UI::Image> captionImage;
 
-  __declspec(property(get = get_placeholder, put = set_placeholder))::UnityEngine::UI::Graphic* placeholder;
+  __declspec(property(get = get_placeholder, put = set_placeholder))::UnityW<::UnityEngine::UI::Graphic> placeholder;
 
-  __declspec(property(get = get_itemText, put = set_itemText))::TMPro::TMP_Text* itemText;
+  __declspec(property(get = get_itemText, put = set_itemText))::UnityW<::TMPro::TMP_Text> itemText;
 
-  __declspec(property(get = get_itemImage, put = set_itemImage))::UnityEngine::UI::Image* itemImage;
+  __declspec(property(get = get_itemImage, put = set_itemImage))::UnityW<::UnityEngine::UI::Image> itemImage;
 
   __declspec(property(get = get_options, put = set_options))::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__OptionData*>* options;
 
@@ -773,138 +773,138 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::ICancelHandler"
   constexpr ::UnityEngine::EventSystems::ICancelHandler* i___UnityEngine__EventSystems__ICancelHandler() noexcept;
 
-  constexpr ::UnityEngine::RectTransform*& __get_m_Template();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_Template();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_Template() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_Template() const;
 
-  constexpr void __set_m_Template(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_m_Template(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::TMPro::TMP_Text*& __get_m_CaptionText();
+  constexpr ::UnityW<::TMPro::TMP_Text>& __cordl_internal_get_m_CaptionText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_Text*> const& __get_m_CaptionText() const;
+  constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get_m_CaptionText() const;
 
-  constexpr void __set_m_CaptionText(::TMPro::TMP_Text* value);
+  constexpr void __cordl_internal_set_m_CaptionText(::UnityW<::TMPro::TMP_Text> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get_m_CaptionImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get_m_CaptionImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get_m_CaptionImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get_m_CaptionImage() const;
 
-  constexpr void __set_m_CaptionImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set_m_CaptionImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::UI::Graphic*& __get_m_Placeholder();
+  constexpr ::UnityW<::UnityEngine::UI::Graphic>& __cordl_internal_get_m_Placeholder();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Graphic*> const& __get_m_Placeholder() const;
+  constexpr ::UnityW<::UnityEngine::UI::Graphic> const& __cordl_internal_get_m_Placeholder() const;
 
-  constexpr void __set_m_Placeholder(::UnityEngine::UI::Graphic* value);
+  constexpr void __cordl_internal_set_m_Placeholder(::UnityW<::UnityEngine::UI::Graphic> value);
 
-  constexpr ::TMPro::TMP_Text*& __get_m_ItemText();
+  constexpr ::UnityW<::TMPro::TMP_Text>& __cordl_internal_get_m_ItemText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_Text*> const& __get_m_ItemText() const;
+  constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get_m_ItemText() const;
 
-  constexpr void __set_m_ItemText(::TMPro::TMP_Text* value);
+  constexpr void __cordl_internal_set_m_ItemText(::UnityW<::TMPro::TMP_Text> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get_m_ItemImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get_m_ItemImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get_m_ItemImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get_m_ItemImage() const;
 
-  constexpr void __set_m_ItemImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set_m_ItemImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr int32_t& __get_m_Value();
+  constexpr int32_t& __cordl_internal_get_m_Value();
 
-  constexpr int32_t const& __get_m_Value() const;
+  constexpr int32_t const& __cordl_internal_get_m_Value() const;
 
-  constexpr void __set_m_Value(int32_t value);
+  constexpr void __cordl_internal_set_m_Value(int32_t value);
 
-  constexpr ::TMPro::__TMP_Dropdown__OptionDataList*& __get_m_Options();
+  constexpr ::TMPro::__TMP_Dropdown__OptionDataList*& __cordl_internal_get_m_Options();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_Dropdown__OptionDataList*> const& __get_m_Options() const;
+  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_Dropdown__OptionDataList*> const& __cordl_internal_get_m_Options() const;
 
-  constexpr void __set_m_Options(::TMPro::__TMP_Dropdown__OptionDataList* value);
+  constexpr void __cordl_internal_set_m_Options(::TMPro::__TMP_Dropdown__OptionDataList* value);
 
-  constexpr ::TMPro::__TMP_Dropdown__DropdownEvent*& __get_m_OnValueChanged();
+  constexpr ::TMPro::__TMP_Dropdown__DropdownEvent*& __cordl_internal_get_m_OnValueChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_Dropdown__DropdownEvent*> const& __get_m_OnValueChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::TMPro::__TMP_Dropdown__DropdownEvent*> const& __cordl_internal_get_m_OnValueChanged() const;
 
-  constexpr void __set_m_OnValueChanged(::TMPro::__TMP_Dropdown__DropdownEvent* value);
+  constexpr void __cordl_internal_set_m_OnValueChanged(::TMPro::__TMP_Dropdown__DropdownEvent* value);
 
-  constexpr float_t& __get_m_AlphaFadeSpeed();
+  constexpr float_t& __cordl_internal_get_m_AlphaFadeSpeed();
 
-  constexpr float_t const& __get_m_AlphaFadeSpeed() const;
+  constexpr float_t const& __cordl_internal_get_m_AlphaFadeSpeed() const;
 
-  constexpr void __set_m_AlphaFadeSpeed(float_t value);
+  constexpr void __cordl_internal_set_m_AlphaFadeSpeed(float_t value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_Dropdown();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_Dropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_Dropdown() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_Dropdown() const;
 
-  constexpr void __set_m_Dropdown(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_Dropdown(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_Blocker();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_Blocker();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_Blocker() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_Blocker() const;
 
-  constexpr void __set_m_Blocker(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_Blocker(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__DropdownItem*>*& __get_m_Items();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::TMPro::__TMP_Dropdown__DropdownItem>>*& __cordl_internal_get_m_Items();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__DropdownItem*>*> const& __get_m_Items() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::TMPro::__TMP_Dropdown__DropdownItem>>*> const& __cordl_internal_get_m_Items() const;
 
-  constexpr void __set_m_Items(::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__DropdownItem*>* value);
+  constexpr void __cordl_internal_set_m_Items(::System::Collections::Generic::List_1<::UnityW<::TMPro::__TMP_Dropdown__DropdownItem>>* value);
 
-  constexpr ::TMPro::TweenRunner_1<::TMPro::FloatTween>*& __get_m_AlphaTweenRunner();
+  constexpr ::TMPro::TweenRunner_1<::TMPro::FloatTween>*& __cordl_internal_get_m_AlphaTweenRunner();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TweenRunner_1<::TMPro::FloatTween>*> const& __get_m_AlphaTweenRunner() const;
+  constexpr ::cordl_internals::to_const_pointer<::TMPro::TweenRunner_1<::TMPro::FloatTween>*> const& __cordl_internal_get_m_AlphaTweenRunner() const;
 
-  constexpr void __set_m_AlphaTweenRunner(::TMPro::TweenRunner_1<::TMPro::FloatTween>* value);
+  constexpr void __cordl_internal_set_m_AlphaTweenRunner(::TMPro::TweenRunner_1<::TMPro::FloatTween>* value);
 
-  constexpr bool& __get_validTemplate();
+  constexpr bool& __cordl_internal_get_validTemplate();
 
-  constexpr bool const& __get_validTemplate() const;
+  constexpr bool const& __cordl_internal_get_validTemplate() const;
 
-  constexpr void __set_validTemplate(bool value);
+  constexpr void __cordl_internal_set_validTemplate(bool value);
 
-  constexpr ::UnityEngine::Coroutine*& __get_m_Coroutine();
+  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get_m_Coroutine();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __get_m_Coroutine() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get_m_Coroutine() const;
 
-  constexpr void __set_m_Coroutine(::UnityEngine::Coroutine* value);
+  constexpr void __cordl_internal_set_m_Coroutine(::UnityEngine::Coroutine* value);
 
   static inline void setStaticF_s_NoOptionData(::TMPro::__TMP_Dropdown__OptionData* value);
 
   static inline ::TMPro::__TMP_Dropdown__OptionData* getStaticF_s_NoOptionData();
 
   /// @brief Method get_template, addr 0x2c047c4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::RectTransform* get_template();
+  inline ::UnityW<::UnityEngine::RectTransform> get_template();
 
   /// @brief Method set_template, addr 0x2c044c0, size 0x8, virtual false, abstract: false, final false
   inline void set_template(::UnityEngine::RectTransform* value);
 
   /// @brief Method get_captionText, addr 0x2c047cc, size 0x8, virtual false, abstract: false, final false
-  inline ::TMPro::TMP_Text* get_captionText();
+  inline ::UnityW<::TMPro::TMP_Text> get_captionText();
 
   /// @brief Method set_captionText, addr 0x2c044c8, size 0x8, virtual false, abstract: false, final false
   inline void set_captionText(::TMPro::TMP_Text* value);
 
   /// @brief Method get_captionImage, addr 0x2c047d4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Image* get_captionImage();
+  inline ::UnityW<::UnityEngine::UI::Image> get_captionImage();
 
   /// @brief Method set_captionImage, addr 0x2c047dc, size 0x8, virtual false, abstract: false, final false
   inline void set_captionImage(::UnityEngine::UI::Image* value);
 
   /// @brief Method get_placeholder, addr 0x2c047e4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Graphic* get_placeholder();
+  inline ::UnityW<::UnityEngine::UI::Graphic> get_placeholder();
 
   /// @brief Method set_placeholder, addr 0x2c047ec, size 0x8, virtual false, abstract: false, final false
   inline void set_placeholder(::UnityEngine::UI::Graphic* value);
 
   /// @brief Method get_itemText, addr 0x2c047f4, size 0x8, virtual false, abstract: false, final false
-  inline ::TMPro::TMP_Text* get_itemText();
+  inline ::UnityW<::TMPro::TMP_Text> get_itemText();
 
   /// @brief Method set_itemText, addr 0x2c044d0, size 0x8, virtual false, abstract: false, final false
   inline void set_itemText(::TMPro::TMP_Text* value);
 
   /// @brief Method get_itemImage, addr 0x2c047fc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Image* get_itemImage();
+  inline ::UnityW<::UnityEngine::UI::Image> get_itemImage();
 
   /// @brief Method set_itemImage, addr 0x2c04804, size 0x8, virtual false, abstract: false, final false
   inline void set_itemImage(::UnityEngine::UI::Image* value);
@@ -966,7 +966,7 @@ public:
   inline void AddOptions(::System::Collections::Generic::List_1<::StringW>* options);
 
   /// @brief Method AddOptions, addr 0x2c05174, size 0x158, virtual false, abstract: false, final false
-  inline void AddOptions(::System::Collections::Generic::List_1<::UnityEngine::Sprite*>* options);
+  inline void AddOptions(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Sprite>>* options);
 
   /// @brief Method ClearOptions, addr 0x2c052f4, size 0xb0, virtual false, abstract: false, final false
   inline void ClearOptions();
@@ -990,26 +990,26 @@ public:
   inline void Show();
 
   /// @brief Method CreateBlocker, addr 0x2c06b94, size 0x4cc, virtual true, abstract: false, final false
-  inline ::UnityEngine::GameObject* CreateBlocker(::UnityEngine::Canvas* rootCanvas);
+  inline ::UnityW<::UnityEngine::GameObject> CreateBlocker(::UnityEngine::Canvas* rootCanvas);
 
   /// @brief Method DestroyBlocker, addr 0x2c07060, size 0x58, virtual true, abstract: false, final false
   inline void DestroyBlocker(::UnityEngine::GameObject* blocker);
 
   /// @brief Method CreateDropdownList, addr 0x2c070b8, size 0x6c, virtual true, abstract: false, final false
-  inline ::UnityEngine::GameObject* CreateDropdownList(::UnityEngine::GameObject* _cordl_template);
+  inline ::UnityW<::UnityEngine::GameObject> CreateDropdownList(::UnityEngine::GameObject* _cordl_template);
 
   /// @brief Method DestroyDropdownList, addr 0x2c07124, size 0x58, virtual true, abstract: false, final false
   inline void DestroyDropdownList(::UnityEngine::GameObject* dropdownList);
 
   /// @brief Method CreateItem, addr 0x2c0717c, size 0x6c, virtual true, abstract: false, final false
-  inline ::TMPro::__TMP_Dropdown__DropdownItem* CreateItem(::TMPro::__TMP_Dropdown__DropdownItem* itemTemplate);
+  inline ::UnityW<::TMPro::__TMP_Dropdown__DropdownItem> CreateItem(::TMPro::__TMP_Dropdown__DropdownItem* itemTemplate);
 
   /// @brief Method DestroyItem, addr 0x2c071e8, size 0x4, virtual true, abstract: false, final false
   inline void DestroyItem(::TMPro::__TMP_Dropdown__DropdownItem* item);
 
   /// @brief Method AddItem, addr 0x2c06780, size 0x2f0, virtual false, abstract: false, final false
-  inline ::TMPro::__TMP_Dropdown__DropdownItem* AddItem(::TMPro::__TMP_Dropdown__OptionData* data, bool selected, ::TMPro::__TMP_Dropdown__DropdownItem* itemTemplate,
-                                                        ::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__DropdownItem*>* items);
+  inline ::UnityW<::TMPro::__TMP_Dropdown__DropdownItem> AddItem(::TMPro::__TMP_Dropdown__OptionData* data, bool selected, ::TMPro::__TMP_Dropdown__DropdownItem* itemTemplate,
+                                                                 ::System::Collections::Generic::List_1<::UnityW<::TMPro::__TMP_Dropdown__DropdownItem>>* items);
 
   /// @brief Method AlphaFadeList, addr 0x2c071ec, size 0x80, virtual false, abstract: false, final false
   inline void AlphaFadeList(float_t duration, float_t alpha);
@@ -1047,22 +1047,22 @@ protected:
 
 public:
   /// @brief Field m_Template, offset: 0xf8, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___m_Template;
+  ::UnityW<::UnityEngine::RectTransform> ___m_Template;
 
   /// @brief Field m_CaptionText, offset: 0x100, size: 0x8, def value: None
-  ::TMPro::TMP_Text* ___m_CaptionText;
+  ::UnityW<::TMPro::TMP_Text> ___m_CaptionText;
 
   /// @brief Field m_CaptionImage, offset: 0x108, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ___m_CaptionImage;
+  ::UnityW<::UnityEngine::UI::Image> ___m_CaptionImage;
 
   /// @brief Field m_Placeholder, offset: 0x110, size: 0x8, def value: None
-  ::UnityEngine::UI::Graphic* ___m_Placeholder;
+  ::UnityW<::UnityEngine::UI::Graphic> ___m_Placeholder;
 
   /// @brief Field m_ItemText, offset: 0x118, size: 0x8, def value: None
-  ::TMPro::TMP_Text* ___m_ItemText;
+  ::UnityW<::TMPro::TMP_Text> ___m_ItemText;
 
   /// @brief Field m_ItemImage, offset: 0x120, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ___m_ItemImage;
+  ::UnityW<::UnityEngine::UI::Image> ___m_ItemImage;
 
   /// @brief Field m_Value, offset: 0x128, size: 0x4, def value: None
   int32_t ___m_Value;
@@ -1077,13 +1077,13 @@ public:
   float_t ___m_AlphaFadeSpeed;
 
   /// @brief Field m_Dropdown, offset: 0x148, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_Dropdown;
+  ::UnityW<::UnityEngine::GameObject> ___m_Dropdown;
 
   /// @brief Field m_Blocker, offset: 0x150, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_Blocker;
+  ::UnityW<::UnityEngine::GameObject> ___m_Blocker;
 
   /// @brief Field m_Items, offset: 0x158, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::TMPro::__TMP_Dropdown__DropdownItem*>* ___m_Items;
+  ::System::Collections::Generic::List_1<::UnityW<::TMPro::__TMP_Dropdown__DropdownItem>>* ___m_Items;
 
   /// @brief Field m_AlphaTweenRunner, offset: 0x160, size: 0x8, def value: None
   ::TMPro::TweenRunner_1<::TMPro::FloatTween>* ___m_AlphaTweenRunner;

@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Security::Authentication::ExtendedProtection::PolicyEnforce
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Authentication::ExtendedProtection {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8968))
 // CS Name: ::System.Security.Authentication.ExtendedProtection::PolicyEnforcement
 struct CORDL_TYPE PolicyEnforcement {

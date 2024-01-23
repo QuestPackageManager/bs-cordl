@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::UnityEngine::__Canvas__WillRenderCanvases);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15661))
 // CS Name: ::Canvas::WillRenderCanvases*
 class CORDL_TYPE __Canvas__WillRenderCanvases : public ::System::MulticastDelegate {
@@ -91,7 +91,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__Canvas__WillRende
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10187))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10187))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15662))
 // CS Name: ::UnityEngine::Canvas*
 class CORDL_TYPE Canvas : public ::UnityEngine::Behaviour {
@@ -149,11 +149,11 @@ public:
 
   __declspec(property(get = get_sortingLayerName, put = set_sortingLayerName))::StringW sortingLayerName;
 
-  __declspec(property(get = get_rootCanvas))::UnityEngine::Canvas* rootCanvas;
+  __declspec(property(get = get_rootCanvas))::UnityW<::UnityEngine::Canvas> rootCanvas;
 
   __declspec(property(get = get_renderingDisplaySize))::UnityEngine::Vector2 renderingDisplaySize;
 
-  __declspec(property(get = get_worldCamera, put = set_worldCamera))::UnityEngine::Camera* worldCamera;
+  __declspec(property(get = get_worldCamera, put = set_worldCamera))::UnityW<::UnityEngine::Camera> worldCamera;
 
   __declspec(property(get = get_normalizedSortingGridSize, put = set_normalizedSortingGridSize)) float_t normalizedSortingGridSize;
 
@@ -276,7 +276,7 @@ public:
   inline void set_sortingLayerName(::StringW value);
 
   /// @brief Method get_rootCanvas, addr 0x2eaae70, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Canvas* get_rootCanvas();
+  inline ::UnityW<::UnityEngine::Canvas> get_rootCanvas();
 
   /// @brief Method get_renderingDisplaySize, addr 0x2eaaeac, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_renderingDisplaySize();
@@ -303,7 +303,7 @@ public:
   static inline void SetExternalCanvasEnabled(bool enabled);
 
   /// @brief Method get_worldCamera, addr 0x2eab134, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Camera* get_worldCamera();
+  inline ::UnityW<::UnityEngine::Camera> get_worldCamera();
 
   /// @brief Method set_worldCamera, addr 0x2eab170, size 0x44, virtual false, abstract: false, final false
   inline void set_worldCamera(::UnityEngine::Camera* value);
@@ -321,13 +321,13 @@ public:
   inline void set_sortingGridNormalizedSize(int32_t value);
 
   /// @brief Method GetDefaultCanvasTextMaterial, addr 0x2eab2bc, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetDefaultCanvasTextMaterial();
+  static inline ::UnityW<::UnityEngine::Material> GetDefaultCanvasTextMaterial();
 
   /// @brief Method GetDefaultCanvasMaterial, addr 0x2eab2e4, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetDefaultCanvasMaterial();
+  static inline ::UnityW<::UnityEngine::Material> GetDefaultCanvasMaterial();
 
   /// @brief Method GetETC1SupportedCanvasMaterial, addr 0x2eab30c, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetETC1SupportedCanvasMaterial();
+  static inline ::UnityW<::UnityEngine::Material> GetETC1SupportedCanvasMaterial();
 
   /// @brief Method UpdateCanvasRectTransform, addr 0x2eab334, size 0x44, virtual false, abstract: false, final false
   inline void UpdateCanvasRectTransform(bool alignWithCamera);

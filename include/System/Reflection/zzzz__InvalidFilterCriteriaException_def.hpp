@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Reflection::InvalidFilterCriteriaException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2343))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2343))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3472))
 // CS Name: ::System.Reflection::InvalidFilterCriteriaException*
 class CORDL_TYPE InvalidFilterCriteriaException : public ::System::ApplicationException {

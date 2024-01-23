@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x210e958;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(
         ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds*>::get(),
@@ -27,23 +27,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x210e978;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::BloomPrePassBackgroundColorsGradient*& GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds::__get__bloomPrePassBackgroundColorsGradient() {
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient>&
+GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds::__cordl_internal_get__bloomPrePassBackgroundColorsGradient() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassBackgroundColorsGradient;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassBackgroundColorsGradient*> const&
-GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds::__get__bloomPrePassBackgroundColorsGradient() const {
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> const&
+GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds::__cordl_internal_get__bloomPrePassBackgroundColorsGradient() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassBackgroundColorsGradient;
 }
-constexpr void GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds::__set__bloomPrePassBackgroundColorsGradient(::GlobalNamespace::BloomPrePassBackgroundColorsGradient* value) {
+constexpr void GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds::__cordl_internal_set__bloomPrePassBackgroundColorsGradient(
+    ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassBackgroundColorsGradient)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
@@ -55,12 +57,12 @@ inline void GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLi
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, color);
 }
 inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds* GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds*>());
 }
 inline void GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundColorsGradientTintColorWithLightIds*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

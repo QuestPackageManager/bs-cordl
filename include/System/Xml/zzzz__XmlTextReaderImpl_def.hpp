@@ -234,7 +234,7 @@ MARK_VAL_T(::System::Xml::__XmlTextReaderImpl__ParsingState);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11460))
 // CS Name: ::XmlTextReaderImpl::ParsingFunction
 struct CORDL_TYPE __XmlTextReaderImpl__ParsingFunction {
@@ -380,7 +380,7 @@ static_assert(offsetof(::System::Xml::__XmlTextReaderImpl__ParsingFunction, valu
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11461))
 // CS Name: ::XmlTextReaderImpl::ParsingMode
 struct CORDL_TYPE __XmlTextReaderImpl__ParsingMode {
@@ -434,7 +434,7 @@ static_assert(offsetof(::System::Xml::__XmlTextReaderImpl__ParsingMode, value__)
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11462))
 // CS Name: ::XmlTextReaderImpl::EntityType
 struct CORDL_TYPE __XmlTextReaderImpl__EntityType {
@@ -508,7 +508,7 @@ static_assert(offsetof(::System::Xml::__XmlTextReaderImpl__EntityType, value__) 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11463))
 // CS Name: ::XmlTextReaderImpl::EntityExpandType
 struct CORDL_TYPE __XmlTextReaderImpl__EntityExpandType {
@@ -562,7 +562,7 @@ static_assert(offsetof(::System::Xml::__XmlTextReaderImpl__EntityExpandType, val
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11464))
 // CS Name: ::XmlTextReaderImpl::IncrementalReadState
 struct CORDL_TYPE __XmlTextReaderImpl__IncrementalReadState {
@@ -664,7 +664,7 @@ static_assert(offsetof(::System::Xml::__XmlTextReaderImpl__IncrementalReadState,
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11466))
 // CS Name: ::XmlTextReaderImpl::InitInputType
 struct CORDL_TYPE __XmlTextReaderImpl__InitInputType {
@@ -722,101 +722,101 @@ static_assert(offsetof(::System::Xml::__XmlTextReaderImpl__InitInputType, value_
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11466))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11466))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11465))
 // CS Name: ::XmlTextReaderImpl::LaterInitParam*
 class CORDL_TYPE __XmlTextReaderImpl__LaterInitParam : public ::System::Object {
 public:
   // Declarations
   /// @brief Field useAsync, offset 0x10, size 0x1
-  __declspec(property(get = __get_useAsync, put = __set_useAsync)) bool useAsync;
+  __declspec(property(get = __cordl_internal_get_useAsync, put = __cordl_internal_set_useAsync)) bool useAsync;
 
   /// @brief Field inputStream, offset 0x18, size 0x8
-  __declspec(property(get = __get_inputStream, put = __set_inputStream))::System::IO::Stream* inputStream;
+  __declspec(property(get = __cordl_internal_get_inputStream, put = __cordl_internal_set_inputStream))::System::IO::Stream* inputStream;
 
   /// @brief Field inputBytes, offset 0x20, size 0x8
-  __declspec(property(get = __get_inputBytes, put = __set_inputBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> inputBytes;
+  __declspec(property(get = __cordl_internal_get_inputBytes, put = __cordl_internal_set_inputBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> inputBytes;
 
   /// @brief Field inputByteCount, offset 0x28, size 0x4
-  __declspec(property(get = __get_inputByteCount, put = __set_inputByteCount)) int32_t inputByteCount;
+  __declspec(property(get = __cordl_internal_get_inputByteCount, put = __cordl_internal_set_inputByteCount)) int32_t inputByteCount;
 
   /// @brief Field inputbaseUri, offset 0x30, size 0x8
-  __declspec(property(get = __get_inputbaseUri, put = __set_inputbaseUri))::System::Uri* inputbaseUri;
+  __declspec(property(get = __cordl_internal_get_inputbaseUri, put = __cordl_internal_set_inputbaseUri))::System::Uri* inputbaseUri;
 
   /// @brief Field inputUriStr, offset 0x38, size 0x8
-  __declspec(property(get = __get_inputUriStr, put = __set_inputUriStr))::StringW inputUriStr;
+  __declspec(property(get = __cordl_internal_get_inputUriStr, put = __cordl_internal_set_inputUriStr))::StringW inputUriStr;
 
   /// @brief Field inputUriResolver, offset 0x40, size 0x8
-  __declspec(property(get = __get_inputUriResolver, put = __set_inputUriResolver))::System::Xml::XmlResolver* inputUriResolver;
+  __declspec(property(get = __cordl_internal_get_inputUriResolver, put = __cordl_internal_set_inputUriResolver))::System::Xml::XmlResolver* inputUriResolver;
 
   /// @brief Field inputContext, offset 0x48, size 0x8
-  __declspec(property(get = __get_inputContext, put = __set_inputContext))::System::Xml::XmlParserContext* inputContext;
+  __declspec(property(get = __cordl_internal_get_inputContext, put = __cordl_internal_set_inputContext))::System::Xml::XmlParserContext* inputContext;
 
   /// @brief Field inputTextReader, offset 0x50, size 0x8
-  __declspec(property(get = __get_inputTextReader, put = __set_inputTextReader))::System::IO::TextReader* inputTextReader;
+  __declspec(property(get = __cordl_internal_get_inputTextReader, put = __cordl_internal_set_inputTextReader))::System::IO::TextReader* inputTextReader;
 
   /// @brief Field initType, offset 0x58, size 0x4
-  __declspec(property(get = __get_initType, put = __set_initType))::System::Xml::__XmlTextReaderImpl__InitInputType initType;
+  __declspec(property(get = __cordl_internal_get_initType, put = __cordl_internal_set_initType))::System::Xml::__XmlTextReaderImpl__InitInputType initType;
 
-  constexpr bool& __get_useAsync();
+  constexpr bool& __cordl_internal_get_useAsync();
 
-  constexpr bool const& __get_useAsync() const;
+  constexpr bool const& __cordl_internal_get_useAsync() const;
 
-  constexpr void __set_useAsync(bool value);
+  constexpr void __cordl_internal_set_useAsync(bool value);
 
-  constexpr ::System::IO::Stream*& __get_inputStream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_inputStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_inputStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_inputStream() const;
 
-  constexpr void __set_inputStream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_inputStream(::System::IO::Stream* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_inputBytes();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_inputBytes();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_inputBytes() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_inputBytes() const;
 
-  constexpr void __set_inputBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_inputBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_inputByteCount();
+  constexpr int32_t& __cordl_internal_get_inputByteCount();
 
-  constexpr int32_t const& __get_inputByteCount() const;
+  constexpr int32_t const& __cordl_internal_get_inputByteCount() const;
 
-  constexpr void __set_inputByteCount(int32_t value);
+  constexpr void __cordl_internal_set_inputByteCount(int32_t value);
 
-  constexpr ::System::Uri*& __get_inputbaseUri();
+  constexpr ::System::Uri*& __cordl_internal_get_inputbaseUri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get_inputbaseUri() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_inputbaseUri() const;
 
-  constexpr void __set_inputbaseUri(::System::Uri* value);
+  constexpr void __cordl_internal_set_inputbaseUri(::System::Uri* value);
 
-  constexpr ::StringW& __get_inputUriStr();
+  constexpr ::StringW& __cordl_internal_get_inputUriStr();
 
-  constexpr ::StringW const& __get_inputUriStr() const;
+  constexpr ::StringW const& __cordl_internal_get_inputUriStr() const;
 
-  constexpr void __set_inputUriStr(::StringW value);
+  constexpr void __cordl_internal_set_inputUriStr(::StringW value);
 
-  constexpr ::System::Xml::XmlResolver*& __get_inputUriResolver();
+  constexpr ::System::Xml::XmlResolver*& __cordl_internal_get_inputUriResolver();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlResolver*> const& __get_inputUriResolver() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlResolver*> const& __cordl_internal_get_inputUriResolver() const;
 
-  constexpr void __set_inputUriResolver(::System::Xml::XmlResolver* value);
+  constexpr void __cordl_internal_set_inputUriResolver(::System::Xml::XmlResolver* value);
 
-  constexpr ::System::Xml::XmlParserContext*& __get_inputContext();
+  constexpr ::System::Xml::XmlParserContext*& __cordl_internal_get_inputContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlParserContext*> const& __get_inputContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlParserContext*> const& __cordl_internal_get_inputContext() const;
 
-  constexpr void __set_inputContext(::System::Xml::XmlParserContext* value);
+  constexpr void __cordl_internal_set_inputContext(::System::Xml::XmlParserContext* value);
 
-  constexpr ::System::IO::TextReader*& __get_inputTextReader();
+  constexpr ::System::IO::TextReader*& __cordl_internal_get_inputTextReader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextReader*> const& __get_inputTextReader() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextReader*> const& __cordl_internal_get_inputTextReader() const;
 
-  constexpr void __set_inputTextReader(::System::IO::TextReader* value);
+  constexpr void __cordl_internal_set_inputTextReader(::System::IO::TextReader* value);
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__InitInputType& __get_initType();
+  constexpr ::System::Xml::__XmlTextReaderImpl__InitInputType& __cordl_internal_get_initType();
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__InitInputType const& __get_initType() const;
+  constexpr ::System::Xml::__XmlTextReaderImpl__InitInputType const& __cordl_internal_get_initType() const;
 
-  constexpr void __set_initType(::System::Xml::__XmlTextReaderImpl__InitInputType value);
+  constexpr void __cordl_internal_set_initType(::System::Xml::__XmlTextReaderImpl__InitInputType value);
 
   // Ctor Parameters [CppParam { name: "", ty: "__XmlTextReaderImpl__LaterInitParam", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -892,7 +892,7 @@ static_assert(offsetof(::System::Xml::__XmlTextReaderImpl__LaterInitParam, ___in
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 134, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11467))
 // CS Name: ::XmlTextReaderImpl::ParsingState
 struct CORDL_TYPE __XmlTextReaderImpl__ParsingState {
@@ -1051,47 +1051,47 @@ static_assert(offsetof(::System::Xml::__XmlTextReaderImpl__ParsingState, entityR
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11458))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11458))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11468))
 // CS Name: ::XmlTextReaderImpl::XmlContext*
 class CORDL_TYPE __XmlTextReaderImpl__XmlContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field xmlSpace, offset 0x10, size 0x4
-  __declspec(property(get = __get_xmlSpace, put = __set_xmlSpace))::System::Xml::XmlSpace xmlSpace;
+  __declspec(property(get = __cordl_internal_get_xmlSpace, put = __cordl_internal_set_xmlSpace))::System::Xml::XmlSpace xmlSpace;
 
   /// @brief Field xmlLang, offset 0x18, size 0x8
-  __declspec(property(get = __get_xmlLang, put = __set_xmlLang))::StringW xmlLang;
+  __declspec(property(get = __cordl_internal_get_xmlLang, put = __cordl_internal_set_xmlLang))::StringW xmlLang;
 
   /// @brief Field defaultNamespace, offset 0x20, size 0x8
-  __declspec(property(get = __get_defaultNamespace, put = __set_defaultNamespace))::StringW defaultNamespace;
+  __declspec(property(get = __cordl_internal_get_defaultNamespace, put = __cordl_internal_set_defaultNamespace))::StringW defaultNamespace;
 
   /// @brief Field previousContext, offset 0x28, size 0x8
-  __declspec(property(get = __get_previousContext, put = __set_previousContext))::System::Xml::__XmlTextReaderImpl__XmlContext* previousContext;
+  __declspec(property(get = __cordl_internal_get_previousContext, put = __cordl_internal_set_previousContext))::System::Xml::__XmlTextReaderImpl__XmlContext* previousContext;
 
-  constexpr ::System::Xml::XmlSpace& __get_xmlSpace();
+  constexpr ::System::Xml::XmlSpace& __cordl_internal_get_xmlSpace();
 
-  constexpr ::System::Xml::XmlSpace const& __get_xmlSpace() const;
+  constexpr ::System::Xml::XmlSpace const& __cordl_internal_get_xmlSpace() const;
 
-  constexpr void __set_xmlSpace(::System::Xml::XmlSpace value);
+  constexpr void __cordl_internal_set_xmlSpace(::System::Xml::XmlSpace value);
 
-  constexpr ::StringW& __get_xmlLang();
+  constexpr ::StringW& __cordl_internal_get_xmlLang();
 
-  constexpr ::StringW const& __get_xmlLang() const;
+  constexpr ::StringW const& __cordl_internal_get_xmlLang() const;
 
-  constexpr void __set_xmlLang(::StringW value);
+  constexpr void __cordl_internal_set_xmlLang(::StringW value);
 
-  constexpr ::StringW& __get_defaultNamespace();
+  constexpr ::StringW& __cordl_internal_get_defaultNamespace();
 
-  constexpr ::StringW const& __get_defaultNamespace() const;
+  constexpr ::StringW const& __cordl_internal_get_defaultNamespace() const;
 
-  constexpr void __set_defaultNamespace(::StringW value);
+  constexpr void __cordl_internal_set_defaultNamespace(::StringW value);
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__XmlContext*& __get_previousContext();
+  constexpr ::System::Xml::__XmlTextReaderImpl__XmlContext*& __cordl_internal_get_previousContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__XmlContext*> const& __get_previousContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__XmlContext*> const& __cordl_internal_get_previousContext() const;
 
-  constexpr void __set_previousContext(::System::Xml::__XmlTextReaderImpl__XmlContext* value);
+  constexpr void __cordl_internal_set_previousContext(::System::Xml::__XmlTextReaderImpl__XmlContext* value);
 
   static inline ::System::Xml::__XmlTextReaderImpl__XmlContext* New_ctor();
 
@@ -1147,7 +1147,7 @@ static_assert(offsetof(::System::Xml::__XmlTextReaderImpl__XmlContext, ___previo
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11570))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11570))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11469))
 // CS Name: ::XmlTextReaderImpl::NoNamespaceManager*
 class CORDL_TYPE __XmlTextReaderImpl__NoNamespaceManager : public ::System::Xml::XmlNamespaceManager {
@@ -1208,14 +1208,14 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::__XmlTextReaderImpl
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11470))
 // CS Name: ::XmlTextReaderImpl::DtdParserProxy*
 class CORDL_TYPE __XmlTextReaderImpl__DtdParserProxy : public ::System::Object {
 public:
   // Declarations
   /// @brief Field reader, offset 0x10, size 0x8
-  __declspec(property(get = __get_reader, put = __set_reader))::System::Xml::XmlTextReaderImpl* reader;
+  __declspec(property(get = __cordl_internal_get_reader, put = __cordl_internal_set_reader))::System::Xml::XmlTextReaderImpl* reader;
 
   __declspec(property(get = System_Xml_IDtdParserAdapter_get_NameTable))::System::Xml::XmlNameTable* System_Xml_IDtdParserAdapter_NameTable;
 
@@ -1268,11 +1268,11 @@ public:
   /// @brief Convert to "::System::Xml::IDtdParserAdapter"
   constexpr ::System::Xml::IDtdParserAdapter* i___System__Xml__IDtdParserAdapter() noexcept;
 
-  constexpr ::System::Xml::XmlTextReaderImpl*& __get_reader();
+  constexpr ::System::Xml::XmlTextReaderImpl*& __cordl_internal_get_reader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlTextReaderImpl*> const& __get_reader() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlTextReaderImpl*> const& __cordl_internal_get_reader() const;
 
-  constexpr void __set_reader(::System::Xml::XmlTextReaderImpl* value);
+  constexpr void __cordl_internal_set_reader(::System::Xml::XmlTextReaderImpl* value);
 
   static inline ::System::Xml::__XmlTextReaderImpl__DtdParserProxy* New_ctor(::System::Xml::XmlTextReaderImpl* reader);
 
@@ -1398,68 +1398,68 @@ static_assert(offsetof(::System::Xml::__XmlTextReaderImpl__DtdParserProxy, ___re
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11532)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11571))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11532)), TypeDefinitionIndex(TypeDefinitionIndex(11571))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11471))
 // CS Name: ::XmlTextReaderImpl::NodeData*
 class CORDL_TYPE __XmlTextReaderImpl__NodeData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __get_type, put = __set_type))::System::Xml::XmlNodeType type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Xml::XmlNodeType type;
 
   /// @brief Field localName, offset 0x18, size 0x8
-  __declspec(property(get = __get_localName, put = __set_localName))::StringW localName;
+  __declspec(property(get = __cordl_internal_get_localName, put = __cordl_internal_set_localName))::StringW localName;
 
   /// @brief Field prefix, offset 0x20, size 0x8
-  __declspec(property(get = __get_prefix, put = __set_prefix))::StringW prefix;
+  __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix))::StringW prefix;
 
   /// @brief Field ns, offset 0x28, size 0x8
-  __declspec(property(get = __get_ns, put = __set_ns))::StringW ns;
+  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns))::StringW ns;
 
   /// @brief Field nameWPrefix, offset 0x30, size 0x8
-  __declspec(property(get = __get_nameWPrefix, put = __set_nameWPrefix))::StringW nameWPrefix;
+  __declspec(property(get = __cordl_internal_get_nameWPrefix, put = __cordl_internal_set_nameWPrefix))::StringW nameWPrefix;
 
   /// @brief Field value, offset 0x38, size 0x8
-  __declspec(property(get = __get_value, put = __set_value))::StringW value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::StringW value;
 
   /// @brief Field chars, offset 0x40, size 0x8
-  __declspec(property(get = __get_chars, put = __set_chars))::ArrayW<char16_t, ::Array<char16_t>*> chars;
+  __declspec(property(get = __cordl_internal_get_chars, put = __cordl_internal_set_chars))::ArrayW<char16_t, ::Array<char16_t>*> chars;
 
   /// @brief Field valueStartPos, offset 0x48, size 0x4
-  __declspec(property(get = __get_valueStartPos, put = __set_valueStartPos)) int32_t valueStartPos;
+  __declspec(property(get = __cordl_internal_get_valueStartPos, put = __cordl_internal_set_valueStartPos)) int32_t valueStartPos;
 
   /// @brief Field valueLength, offset 0x4c, size 0x4
-  __declspec(property(get = __get_valueLength, put = __set_valueLength)) int32_t valueLength;
+  __declspec(property(get = __cordl_internal_get_valueLength, put = __cordl_internal_set_valueLength)) int32_t valueLength;
 
   /// @brief Field lineInfo, offset 0x50, size 0x8
-  __declspec(property(get = __get_lineInfo, put = __set_lineInfo))::System::Xml::LineInfo lineInfo;
+  __declspec(property(get = __cordl_internal_get_lineInfo, put = __cordl_internal_set_lineInfo))::System::Xml::LineInfo lineInfo;
 
   /// @brief Field lineInfo2, offset 0x58, size 0x8
-  __declspec(property(get = __get_lineInfo2, put = __set_lineInfo2))::System::Xml::LineInfo lineInfo2;
+  __declspec(property(get = __cordl_internal_get_lineInfo2, put = __cordl_internal_set_lineInfo2))::System::Xml::LineInfo lineInfo2;
 
   /// @brief Field quoteChar, offset 0x60, size 0x2
-  __declspec(property(get = __get_quoteChar, put = __set_quoteChar)) char16_t quoteChar;
+  __declspec(property(get = __cordl_internal_get_quoteChar, put = __cordl_internal_set_quoteChar)) char16_t quoteChar;
 
   /// @brief Field depth, offset 0x64, size 0x4
-  __declspec(property(get = __get_depth, put = __set_depth)) int32_t depth;
+  __declspec(property(get = __cordl_internal_get_depth, put = __cordl_internal_set_depth)) int32_t depth;
 
   /// @brief Field isEmptyOrDefault, offset 0x68, size 0x1
-  __declspec(property(get = __get_isEmptyOrDefault, put = __set_isEmptyOrDefault)) bool isEmptyOrDefault;
+  __declspec(property(get = __cordl_internal_get_isEmptyOrDefault, put = __cordl_internal_set_isEmptyOrDefault)) bool isEmptyOrDefault;
 
   /// @brief Field entityId, offset 0x6c, size 0x4
-  __declspec(property(get = __get_entityId, put = __set_entityId)) int32_t entityId;
+  __declspec(property(get = __cordl_internal_get_entityId, put = __cordl_internal_set_entityId)) int32_t entityId;
 
   /// @brief Field xmlContextPushed, offset 0x70, size 0x1
-  __declspec(property(get = __get_xmlContextPushed, put = __set_xmlContextPushed)) bool xmlContextPushed;
+  __declspec(property(get = __cordl_internal_get_xmlContextPushed, put = __cordl_internal_set_xmlContextPushed)) bool xmlContextPushed;
 
   /// @brief Field nextAttrValueChunk, offset 0x78, size 0x8
-  __declspec(property(get = __get_nextAttrValueChunk, put = __set_nextAttrValueChunk))::System::Xml::__XmlTextReaderImpl__NodeData* nextAttrValueChunk;
+  __declspec(property(get = __cordl_internal_get_nextAttrValueChunk, put = __cordl_internal_set_nextAttrValueChunk))::System::Xml::__XmlTextReaderImpl__NodeData* nextAttrValueChunk;
 
   /// @brief Field schemaType, offset 0x80, size 0x8
-  __declspec(property(get = __get_schemaType, put = __set_schemaType))::System::Object* schemaType;
+  __declspec(property(get = __cordl_internal_get_schemaType, put = __cordl_internal_set_schemaType))::System::Object* schemaType;
 
   /// @brief Field typedValue, offset 0x88, size 0x8
-  __declspec(property(get = __get_typedValue, put = __set_typedValue))::System::Object* typedValue;
+  __declspec(property(get = __cordl_internal_get_typedValue, put = __cordl_internal_set_typedValue))::System::Object* typedValue;
 
   /// @brief Field s_None, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_None, put = setStaticF_s_None))::System::Xml::__XmlTextReaderImpl__NodeData* s_None;
@@ -1482,119 +1482,119 @@ public:
   /// @brief Convert to "::System::IComparable"
   constexpr ::System::IComparable* i___System__IComparable() noexcept;
 
-  constexpr ::System::Xml::XmlNodeType& __get_type();
+  constexpr ::System::Xml::XmlNodeType& __cordl_internal_get_type();
 
-  constexpr ::System::Xml::XmlNodeType const& __get_type() const;
+  constexpr ::System::Xml::XmlNodeType const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Xml::XmlNodeType value);
+  constexpr void __cordl_internal_set_type(::System::Xml::XmlNodeType value);
 
-  constexpr ::StringW& __get_localName();
+  constexpr ::StringW& __cordl_internal_get_localName();
 
-  constexpr ::StringW const& __get_localName() const;
+  constexpr ::StringW const& __cordl_internal_get_localName() const;
 
-  constexpr void __set_localName(::StringW value);
+  constexpr void __cordl_internal_set_localName(::StringW value);
 
-  constexpr ::StringW& __get_prefix();
+  constexpr ::StringW& __cordl_internal_get_prefix();
 
-  constexpr ::StringW const& __get_prefix() const;
+  constexpr ::StringW const& __cordl_internal_get_prefix() const;
 
-  constexpr void __set_prefix(::StringW value);
+  constexpr void __cordl_internal_set_prefix(::StringW value);
 
-  constexpr ::StringW& __get_ns();
+  constexpr ::StringW& __cordl_internal_get_ns();
 
-  constexpr ::StringW const& __get_ns() const;
+  constexpr ::StringW const& __cordl_internal_get_ns() const;
 
-  constexpr void __set_ns(::StringW value);
+  constexpr void __cordl_internal_set_ns(::StringW value);
 
-  constexpr ::StringW& __get_nameWPrefix();
+  constexpr ::StringW& __cordl_internal_get_nameWPrefix();
 
-  constexpr ::StringW const& __get_nameWPrefix() const;
+  constexpr ::StringW const& __cordl_internal_get_nameWPrefix() const;
 
-  constexpr void __set_nameWPrefix(::StringW value);
+  constexpr void __cordl_internal_set_nameWPrefix(::StringW value);
 
-  constexpr ::StringW& __get_value();
+  constexpr ::StringW& __cordl_internal_get_value();
 
-  constexpr ::StringW const& __get_value() const;
+  constexpr ::StringW const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(::StringW value);
+  constexpr void __cordl_internal_set_value(::StringW value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_chars();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_chars();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_chars() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_chars() const;
 
-  constexpr void __set_chars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_chars(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr int32_t& __get_valueStartPos();
+  constexpr int32_t& __cordl_internal_get_valueStartPos();
 
-  constexpr int32_t const& __get_valueStartPos() const;
+  constexpr int32_t const& __cordl_internal_get_valueStartPos() const;
 
-  constexpr void __set_valueStartPos(int32_t value);
+  constexpr void __cordl_internal_set_valueStartPos(int32_t value);
 
-  constexpr int32_t& __get_valueLength();
+  constexpr int32_t& __cordl_internal_get_valueLength();
 
-  constexpr int32_t const& __get_valueLength() const;
+  constexpr int32_t const& __cordl_internal_get_valueLength() const;
 
-  constexpr void __set_valueLength(int32_t value);
+  constexpr void __cordl_internal_set_valueLength(int32_t value);
 
-  constexpr ::System::Xml::LineInfo& __get_lineInfo();
+  constexpr ::System::Xml::LineInfo& __cordl_internal_get_lineInfo();
 
-  constexpr ::System::Xml::LineInfo const& __get_lineInfo() const;
+  constexpr ::System::Xml::LineInfo const& __cordl_internal_get_lineInfo() const;
 
-  constexpr void __set_lineInfo(::System::Xml::LineInfo value);
+  constexpr void __cordl_internal_set_lineInfo(::System::Xml::LineInfo value);
 
-  constexpr ::System::Xml::LineInfo& __get_lineInfo2();
+  constexpr ::System::Xml::LineInfo& __cordl_internal_get_lineInfo2();
 
-  constexpr ::System::Xml::LineInfo const& __get_lineInfo2() const;
+  constexpr ::System::Xml::LineInfo const& __cordl_internal_get_lineInfo2() const;
 
-  constexpr void __set_lineInfo2(::System::Xml::LineInfo value);
+  constexpr void __cordl_internal_set_lineInfo2(::System::Xml::LineInfo value);
 
-  constexpr char16_t& __get_quoteChar();
+  constexpr char16_t& __cordl_internal_get_quoteChar();
 
-  constexpr char16_t const& __get_quoteChar() const;
+  constexpr char16_t const& __cordl_internal_get_quoteChar() const;
 
-  constexpr void __set_quoteChar(char16_t value);
+  constexpr void __cordl_internal_set_quoteChar(char16_t value);
 
-  constexpr int32_t& __get_depth();
+  constexpr int32_t& __cordl_internal_get_depth();
 
-  constexpr int32_t const& __get_depth() const;
+  constexpr int32_t const& __cordl_internal_get_depth() const;
 
-  constexpr void __set_depth(int32_t value);
+  constexpr void __cordl_internal_set_depth(int32_t value);
 
-  constexpr bool& __get_isEmptyOrDefault();
+  constexpr bool& __cordl_internal_get_isEmptyOrDefault();
 
-  constexpr bool const& __get_isEmptyOrDefault() const;
+  constexpr bool const& __cordl_internal_get_isEmptyOrDefault() const;
 
-  constexpr void __set_isEmptyOrDefault(bool value);
+  constexpr void __cordl_internal_set_isEmptyOrDefault(bool value);
 
-  constexpr int32_t& __get_entityId();
+  constexpr int32_t& __cordl_internal_get_entityId();
 
-  constexpr int32_t const& __get_entityId() const;
+  constexpr int32_t const& __cordl_internal_get_entityId() const;
 
-  constexpr void __set_entityId(int32_t value);
+  constexpr void __cordl_internal_set_entityId(int32_t value);
 
-  constexpr bool& __get_xmlContextPushed();
+  constexpr bool& __cordl_internal_get_xmlContextPushed();
 
-  constexpr bool const& __get_xmlContextPushed() const;
+  constexpr bool const& __cordl_internal_get_xmlContextPushed() const;
 
-  constexpr void __set_xmlContextPushed(bool value);
+  constexpr void __cordl_internal_set_xmlContextPushed(bool value);
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__NodeData*& __get_nextAttrValueChunk();
+  constexpr ::System::Xml::__XmlTextReaderImpl__NodeData*& __cordl_internal_get_nextAttrValueChunk();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__NodeData*> const& __get_nextAttrValueChunk() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__NodeData*> const& __cordl_internal_get_nextAttrValueChunk() const;
 
-  constexpr void __set_nextAttrValueChunk(::System::Xml::__XmlTextReaderImpl__NodeData* value);
+  constexpr void __cordl_internal_set_nextAttrValueChunk(::System::Xml::__XmlTextReaderImpl__NodeData* value);
 
-  constexpr ::System::Object*& __get_schemaType();
+  constexpr ::System::Object*& __cordl_internal_get_schemaType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_schemaType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_schemaType() const;
 
-  constexpr void __set_schemaType(::System::Object* value);
+  constexpr void __cordl_internal_set_schemaType(::System::Object* value);
 
-  constexpr ::System::Object*& __get_typedValue();
+  constexpr ::System::Object*& __cordl_internal_get_typedValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_typedValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_typedValue() const;
 
-  constexpr void __set_typedValue(::System::Object* value);
+  constexpr void __cordl_internal_set_typedValue(::System::Object* value);
 
   static inline void setStaticF_s_None(::System::Xml::__XmlTextReaderImpl__NodeData* value);
 
@@ -1799,7 +1799,7 @@ static_assert(offsetof(::System::Xml::__XmlTextReaderImpl__NodeData, ___typedVal
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11472))
 // CS Name: ::XmlTextReaderImpl::DtdDefaultAttributeInfoToNodeDataComparer*
 class CORDL_TYPE __XmlTextReaderImpl__DtdDefaultAttributeInfoToNodeDataComparer : public ::System::Object {
@@ -1853,7 +1853,7 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::__XmlTextReaderImpl
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11473))
 // CS Name: ::XmlTextReaderImpl::OnDefaultAttributeUseDelegate*
 class CORDL_TYPE __XmlTextReaderImpl__OnDefaultAttributeUseDelegate : public ::System::MulticastDelegate {
@@ -1891,10 +1891,10 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::__XmlTextReaderImpl
 // SizeInfo { instance_size: 576, native_size: -1, calculated_instance_size: 576, calculated_native_size: 576, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11446)), TypeDefinitionIndex(TypeDefinitionIndex(11571)), TypeDefinitionIndex(TypeDefinitionIndex(11544)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11456)), TypeDefinitionIndex(TypeDefinitionIndex(11467)), TypeDefinitionIndex(TypeDefinitionIndex(11414)), TypeDefinitionIndex(TypeDefinitionIndex(11415)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11461)), TypeDefinitionIndex(TypeDefinitionIndex(11440)), TypeDefinitionIndex(TypeDefinitionIndex(11464)), TypeDefinitionIndex(TypeDefinitionIndex(11460)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11532))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11474)) CS Name: ::System.Xml::XmlTextReaderImpl*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11414)), TypeDefinitionIndex(TypeDefinitionIndex(11415)), TypeDefinitionIndex(TypeDefinitionIndex(11440)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11446)), TypeDefinitionIndex(TypeDefinitionIndex(11456)), TypeDefinitionIndex(TypeDefinitionIndex(11460)), TypeDefinitionIndex(TypeDefinitionIndex(11461)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11464)), TypeDefinitionIndex(TypeDefinitionIndex(11467)), TypeDefinitionIndex(TypeDefinitionIndex(11532)), TypeDefinitionIndex(TypeDefinitionIndex(11544)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11571))] Self: TypeDefinitionIndex(TypeDefinitionIndex(11474)) CS Name: ::System.Xml::XmlTextReaderImpl*
 class CORDL_TYPE XmlTextReaderImpl : public ::System::Xml::XmlReader {
 public:
   // Declarations
@@ -1927,235 +1927,241 @@ public:
   using ParsingFunction = ::System::Xml::__XmlTextReaderImpl__ParsingFunction;
 
   /// @brief Field laterInitParam, offset 0x10, size 0x8
-  __declspec(property(get = __get_laterInitParam, put = __set_laterInitParam))::System::Xml::__XmlTextReaderImpl__LaterInitParam* laterInitParam;
+  __declspec(property(get = __cordl_internal_get_laterInitParam, put = __cordl_internal_set_laterInitParam))::System::Xml::__XmlTextReaderImpl__LaterInitParam* laterInitParam;
 
   /// @brief Field xmlCharType, offset 0x18, size 0x8
-  __declspec(property(get = __get_xmlCharType, put = __set_xmlCharType))::System::Xml::XmlCharType xmlCharType;
+  __declspec(property(get = __cordl_internal_get_xmlCharType, put = __cordl_internal_set_xmlCharType))::System::Xml::XmlCharType xmlCharType;
 
   /// @brief Field ps, offset 0x20, size 0x78
-  __declspec(property(get = __get_ps, put = __set_ps))::System::Xml::__XmlTextReaderImpl__ParsingState ps;
+  __declspec(property(get = __cordl_internal_get_ps, put = __cordl_internal_set_ps))::System::Xml::__XmlTextReaderImpl__ParsingState ps;
 
   /// @brief Field parsingFunction, offset 0x98, size 0x4
-  __declspec(property(get = __get_parsingFunction, put = __set_parsingFunction))::System::Xml::__XmlTextReaderImpl__ParsingFunction parsingFunction;
+  __declspec(property(get = __cordl_internal_get_parsingFunction, put = __cordl_internal_set_parsingFunction))::System::Xml::__XmlTextReaderImpl__ParsingFunction parsingFunction;
 
   /// @brief Field nextParsingFunction, offset 0x9c, size 0x4
-  __declspec(property(get = __get_nextParsingFunction, put = __set_nextParsingFunction))::System::Xml::__XmlTextReaderImpl__ParsingFunction nextParsingFunction;
+  __declspec(property(get = __cordl_internal_get_nextParsingFunction, put = __cordl_internal_set_nextParsingFunction))::System::Xml::__XmlTextReaderImpl__ParsingFunction nextParsingFunction;
 
   /// @brief Field nextNextParsingFunction, offset 0xa0, size 0x4
-  __declspec(property(get = __get_nextNextParsingFunction, put = __set_nextNextParsingFunction))::System::Xml::__XmlTextReaderImpl__ParsingFunction nextNextParsingFunction;
+  __declspec(property(get = __cordl_internal_get_nextNextParsingFunction,
+                      put = __cordl_internal_set_nextNextParsingFunction))::System::Xml::__XmlTextReaderImpl__ParsingFunction nextNextParsingFunction;
 
   /// @brief Field nodes, offset 0xa8, size 0x8
-  __declspec(property(get = __get_nodes, put = __set_nodes))::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*> nodes;
+  __declspec(property(get = __cordl_internal_get_nodes,
+                      put = __cordl_internal_set_nodes))::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*> nodes;
 
   /// @brief Field curNode, offset 0xb0, size 0x8
-  __declspec(property(get = __get_curNode, put = __set_curNode))::System::Xml::__XmlTextReaderImpl__NodeData* curNode;
+  __declspec(property(get = __cordl_internal_get_curNode, put = __cordl_internal_set_curNode))::System::Xml::__XmlTextReaderImpl__NodeData* curNode;
 
   /// @brief Field index, offset 0xb8, size 0x4
-  __declspec(property(get = __get_index, put = __set_index)) int32_t index;
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   /// @brief Field curAttrIndex, offset 0xbc, size 0x4
-  __declspec(property(get = __get_curAttrIndex, put = __set_curAttrIndex)) int32_t curAttrIndex;
+  __declspec(property(get = __cordl_internal_get_curAttrIndex, put = __cordl_internal_set_curAttrIndex)) int32_t curAttrIndex;
 
   /// @brief Field attrCount, offset 0xc0, size 0x4
-  __declspec(property(get = __get_attrCount, put = __set_attrCount)) int32_t attrCount;
+  __declspec(property(get = __cordl_internal_get_attrCount, put = __cordl_internal_set_attrCount)) int32_t attrCount;
 
   /// @brief Field attrHashtable, offset 0xc4, size 0x4
-  __declspec(property(get = __get_attrHashtable, put = __set_attrHashtable)) int32_t attrHashtable;
+  __declspec(property(get = __cordl_internal_get_attrHashtable, put = __cordl_internal_set_attrHashtable)) int32_t attrHashtable;
 
   /// @brief Field attrDuplWalkCount, offset 0xc8, size 0x4
-  __declspec(property(get = __get_attrDuplWalkCount, put = __set_attrDuplWalkCount)) int32_t attrDuplWalkCount;
+  __declspec(property(get = __cordl_internal_get_attrDuplWalkCount, put = __cordl_internal_set_attrDuplWalkCount)) int32_t attrDuplWalkCount;
 
   /// @brief Field attrNeedNamespaceLookup, offset 0xcc, size 0x1
-  __declspec(property(get = __get_attrNeedNamespaceLookup, put = __set_attrNeedNamespaceLookup)) bool attrNeedNamespaceLookup;
+  __declspec(property(get = __cordl_internal_get_attrNeedNamespaceLookup, put = __cordl_internal_set_attrNeedNamespaceLookup)) bool attrNeedNamespaceLookup;
 
   /// @brief Field fullAttrCleanup, offset 0xcd, size 0x1
-  __declspec(property(get = __get_fullAttrCleanup, put = __set_fullAttrCleanup)) bool fullAttrCleanup;
+  __declspec(property(get = __cordl_internal_get_fullAttrCleanup, put = __cordl_internal_set_fullAttrCleanup)) bool fullAttrCleanup;
 
   /// @brief Field attrDuplSortingArray, offset 0xd0, size 0x8
-  __declspec(property(get = __get_attrDuplSortingArray,
-                      put = __set_attrDuplSortingArray))::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*> attrDuplSortingArray;
+  __declspec(
+      property(get = __cordl_internal_get_attrDuplSortingArray,
+               put = __cordl_internal_set_attrDuplSortingArray))::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*> attrDuplSortingArray;
 
   /// @brief Field nameTable, offset 0xd8, size 0x8
-  __declspec(property(get = __get_nameTable, put = __set_nameTable))::System::Xml::XmlNameTable* nameTable;
+  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable))::System::Xml::XmlNameTable* nameTable;
 
   /// @brief Field nameTableFromSettings, offset 0xe0, size 0x1
-  __declspec(property(get = __get_nameTableFromSettings, put = __set_nameTableFromSettings)) bool nameTableFromSettings;
+  __declspec(property(get = __cordl_internal_get_nameTableFromSettings, put = __cordl_internal_set_nameTableFromSettings)) bool nameTableFromSettings;
 
   /// @brief Field xmlResolver, offset 0xe8, size 0x8
-  __declspec(property(get = __get_xmlResolver, put = __set_xmlResolver))::System::Xml::XmlResolver* xmlResolver;
+  __declspec(property(get = __cordl_internal_get_xmlResolver, put = __cordl_internal_set_xmlResolver))::System::Xml::XmlResolver* xmlResolver;
 
   /// @brief Field url, offset 0xf0, size 0x8
-  __declspec(property(get = __get_url, put = __set_url))::StringW url;
+  __declspec(property(get = __cordl_internal_get_url, put = __cordl_internal_set_url))::StringW url;
 
   /// @brief Field normalize, offset 0xf8, size 0x1
-  __declspec(property(get = __get_normalize, put = __set_normalize)) bool normalize;
+  __declspec(property(get = __cordl_internal_get_normalize, put = __cordl_internal_set_normalize)) bool normalize;
 
   /// @brief Field supportNamespaces, offset 0xf9, size 0x1
-  __declspec(property(get = __get_supportNamespaces, put = __set_supportNamespaces)) bool supportNamespaces;
+  __declspec(property(get = __cordl_internal_get_supportNamespaces, put = __cordl_internal_set_supportNamespaces)) bool supportNamespaces;
 
   /// @brief Field whitespaceHandling, offset 0xfc, size 0x4
-  __declspec(property(get = __get_whitespaceHandling, put = __set_whitespaceHandling))::System::Xml::WhitespaceHandling whitespaceHandling;
+  __declspec(property(get = __cordl_internal_get_whitespaceHandling, put = __cordl_internal_set_whitespaceHandling))::System::Xml::WhitespaceHandling whitespaceHandling;
 
   /// @brief Field dtdProcessing, offset 0x100, size 0x4
-  __declspec(property(get = __get_dtdProcessing, put = __set_dtdProcessing))::System::Xml::DtdProcessing dtdProcessing;
+  __declspec(property(get = __cordl_internal_get_dtdProcessing, put = __cordl_internal_set_dtdProcessing))::System::Xml::DtdProcessing dtdProcessing;
 
   /// @brief Field entityHandling, offset 0x104, size 0x4
-  __declspec(property(get = __get_entityHandling, put = __set_entityHandling))::System::Xml::EntityHandling entityHandling;
+  __declspec(property(get = __cordl_internal_get_entityHandling, put = __cordl_internal_set_entityHandling))::System::Xml::EntityHandling entityHandling;
 
   /// @brief Field ignorePIs, offset 0x108, size 0x1
-  __declspec(property(get = __get_ignorePIs, put = __set_ignorePIs)) bool ignorePIs;
+  __declspec(property(get = __cordl_internal_get_ignorePIs, put = __cordl_internal_set_ignorePIs)) bool ignorePIs;
 
   /// @brief Field ignoreComments, offset 0x109, size 0x1
-  __declspec(property(get = __get_ignoreComments, put = __set_ignoreComments)) bool ignoreComments;
+  __declspec(property(get = __cordl_internal_get_ignoreComments, put = __cordl_internal_set_ignoreComments)) bool ignoreComments;
 
   /// @brief Field checkCharacters, offset 0x10a, size 0x1
-  __declspec(property(get = __get_checkCharacters, put = __set_checkCharacters)) bool checkCharacters;
+  __declspec(property(get = __cordl_internal_get_checkCharacters, put = __cordl_internal_set_checkCharacters)) bool checkCharacters;
 
   /// @brief Field lineNumberOffset, offset 0x10c, size 0x4
-  __declspec(property(get = __get_lineNumberOffset, put = __set_lineNumberOffset)) int32_t lineNumberOffset;
+  __declspec(property(get = __cordl_internal_get_lineNumberOffset, put = __cordl_internal_set_lineNumberOffset)) int32_t lineNumberOffset;
 
   /// @brief Field linePositionOffset, offset 0x110, size 0x4
-  __declspec(property(get = __get_linePositionOffset, put = __set_linePositionOffset)) int32_t linePositionOffset;
+  __declspec(property(get = __cordl_internal_get_linePositionOffset, put = __cordl_internal_set_linePositionOffset)) int32_t linePositionOffset;
 
   /// @brief Field closeInput, offset 0x114, size 0x1
-  __declspec(property(get = __get_closeInput, put = __set_closeInput)) bool closeInput;
+  __declspec(property(get = __cordl_internal_get_closeInput, put = __cordl_internal_set_closeInput)) bool closeInput;
 
   /// @brief Field maxCharactersInDocument, offset 0x118, size 0x8
-  __declspec(property(get = __get_maxCharactersInDocument, put = __set_maxCharactersInDocument)) int64_t maxCharactersInDocument;
+  __declspec(property(get = __cordl_internal_get_maxCharactersInDocument, put = __cordl_internal_set_maxCharactersInDocument)) int64_t maxCharactersInDocument;
 
   /// @brief Field maxCharactersFromEntities, offset 0x120, size 0x8
-  __declspec(property(get = __get_maxCharactersFromEntities, put = __set_maxCharactersFromEntities)) int64_t maxCharactersFromEntities;
+  __declspec(property(get = __cordl_internal_get_maxCharactersFromEntities, put = __cordl_internal_set_maxCharactersFromEntities)) int64_t maxCharactersFromEntities;
 
   /// @brief Field v1Compat, offset 0x128, size 0x1
-  __declspec(property(get = __get_v1Compat, put = __set_v1Compat)) bool v1Compat;
+  __declspec(property(get = __cordl_internal_get_v1Compat, put = __cordl_internal_set_v1Compat)) bool v1Compat;
 
   /// @brief Field namespaceManager, offset 0x130, size 0x8
-  __declspec(property(get = __get_namespaceManager, put = __set_namespaceManager))::System::Xml::XmlNamespaceManager* namespaceManager;
+  __declspec(property(get = __cordl_internal_get_namespaceManager, put = __cordl_internal_set_namespaceManager))::System::Xml::XmlNamespaceManager* namespaceManager;
 
   /// @brief Field lastPrefix, offset 0x138, size 0x8
-  __declspec(property(get = __get_lastPrefix, put = __set_lastPrefix))::StringW lastPrefix;
+  __declspec(property(get = __cordl_internal_get_lastPrefix, put = __cordl_internal_set_lastPrefix))::StringW lastPrefix;
 
   /// @brief Field xmlContext, offset 0x140, size 0x8
-  __declspec(property(get = __get_xmlContext, put = __set_xmlContext))::System::Xml::__XmlTextReaderImpl__XmlContext* xmlContext;
+  __declspec(property(get = __cordl_internal_get_xmlContext, put = __cordl_internal_set_xmlContext))::System::Xml::__XmlTextReaderImpl__XmlContext* xmlContext;
 
   /// @brief Field parsingStatesStack, offset 0x148, size 0x8
-  __declspec(property(get = __get_parsingStatesStack,
-                      put = __set_parsingStatesStack))::ArrayW<::System::Xml::__XmlTextReaderImpl__ParsingState, ::Array<::System::Xml::__XmlTextReaderImpl__ParsingState>*> parsingStatesStack;
+  __declspec(
+      property(get = __cordl_internal_get_parsingStatesStack,
+               put = __cordl_internal_set_parsingStatesStack))::ArrayW<::System::Xml::__XmlTextReaderImpl__ParsingState, ::Array<::System::Xml::__XmlTextReaderImpl__ParsingState>*> parsingStatesStack;
 
   /// @brief Field parsingStatesStackTop, offset 0x150, size 0x4
-  __declspec(property(get = __get_parsingStatesStackTop, put = __set_parsingStatesStackTop)) int32_t parsingStatesStackTop;
+  __declspec(property(get = __cordl_internal_get_parsingStatesStackTop, put = __cordl_internal_set_parsingStatesStackTop)) int32_t parsingStatesStackTop;
 
   /// @brief Field reportedBaseUri, offset 0x158, size 0x8
-  __declspec(property(get = __get_reportedBaseUri, put = __set_reportedBaseUri))::StringW reportedBaseUri;
+  __declspec(property(get = __cordl_internal_get_reportedBaseUri, put = __cordl_internal_set_reportedBaseUri))::StringW reportedBaseUri;
 
   /// @brief Field reportedEncoding, offset 0x160, size 0x8
-  __declspec(property(get = __get_reportedEncoding, put = __set_reportedEncoding))::System::Text::Encoding* reportedEncoding;
+  __declspec(property(get = __cordl_internal_get_reportedEncoding, put = __cordl_internal_set_reportedEncoding))::System::Text::Encoding* reportedEncoding;
 
   /// @brief Field dtdInfo, offset 0x168, size 0x8
-  __declspec(property(get = __get_dtdInfo, put = __set_dtdInfo))::System::Xml::IDtdInfo* dtdInfo;
+  __declspec(property(get = __cordl_internal_get_dtdInfo, put = __cordl_internal_set_dtdInfo))::System::Xml::IDtdInfo* dtdInfo;
 
   /// @brief Field fragmentType, offset 0x170, size 0x4
-  __declspec(property(get = __get_fragmentType, put = __set_fragmentType))::System::Xml::XmlNodeType fragmentType;
+  __declspec(property(get = __cordl_internal_get_fragmentType, put = __cordl_internal_set_fragmentType))::System::Xml::XmlNodeType fragmentType;
 
   /// @brief Field fragmentParserContext, offset 0x178, size 0x8
-  __declspec(property(get = __get_fragmentParserContext, put = __set_fragmentParserContext))::System::Xml::XmlParserContext* fragmentParserContext;
+  __declspec(property(get = __cordl_internal_get_fragmentParserContext, put = __cordl_internal_set_fragmentParserContext))::System::Xml::XmlParserContext* fragmentParserContext;
 
   /// @brief Field fragment, offset 0x180, size 0x1
-  __declspec(property(get = __get_fragment, put = __set_fragment)) bool fragment;
+  __declspec(property(get = __cordl_internal_get_fragment, put = __cordl_internal_set_fragment)) bool fragment;
 
   /// @brief Field incReadDecoder, offset 0x188, size 0x8
-  __declspec(property(get = __get_incReadDecoder, put = __set_incReadDecoder))::System::Xml::IncrementalReadDecoder* incReadDecoder;
+  __declspec(property(get = __cordl_internal_get_incReadDecoder, put = __cordl_internal_set_incReadDecoder))::System::Xml::IncrementalReadDecoder* incReadDecoder;
 
   /// @brief Field incReadState, offset 0x190, size 0x4
-  __declspec(property(get = __get_incReadState, put = __set_incReadState))::System::Xml::__XmlTextReaderImpl__IncrementalReadState incReadState;
+  __declspec(property(get = __cordl_internal_get_incReadState, put = __cordl_internal_set_incReadState))::System::Xml::__XmlTextReaderImpl__IncrementalReadState incReadState;
 
   /// @brief Field incReadLineInfo, offset 0x194, size 0x8
-  __declspec(property(get = __get_incReadLineInfo, put = __set_incReadLineInfo))::System::Xml::LineInfo incReadLineInfo;
+  __declspec(property(get = __cordl_internal_get_incReadLineInfo, put = __cordl_internal_set_incReadLineInfo))::System::Xml::LineInfo incReadLineInfo;
 
   /// @brief Field incReadDepth, offset 0x19c, size 0x4
-  __declspec(property(get = __get_incReadDepth, put = __set_incReadDepth)) int32_t incReadDepth;
+  __declspec(property(get = __cordl_internal_get_incReadDepth, put = __cordl_internal_set_incReadDepth)) int32_t incReadDepth;
 
   /// @brief Field incReadLeftStartPos, offset 0x1a0, size 0x4
-  __declspec(property(get = __get_incReadLeftStartPos, put = __set_incReadLeftStartPos)) int32_t incReadLeftStartPos;
+  __declspec(property(get = __cordl_internal_get_incReadLeftStartPos, put = __cordl_internal_set_incReadLeftStartPos)) int32_t incReadLeftStartPos;
 
   /// @brief Field incReadLeftEndPos, offset 0x1a4, size 0x4
-  __declspec(property(get = __get_incReadLeftEndPos, put = __set_incReadLeftEndPos)) int32_t incReadLeftEndPos;
+  __declspec(property(get = __cordl_internal_get_incReadLeftEndPos, put = __cordl_internal_set_incReadLeftEndPos)) int32_t incReadLeftEndPos;
 
   /// @brief Field attributeValueBaseEntityId, offset 0x1a8, size 0x4
-  __declspec(property(get = __get_attributeValueBaseEntityId, put = __set_attributeValueBaseEntityId)) int32_t attributeValueBaseEntityId;
+  __declspec(property(get = __cordl_internal_get_attributeValueBaseEntityId, put = __cordl_internal_set_attributeValueBaseEntityId)) int32_t attributeValueBaseEntityId;
 
   /// @brief Field emptyEntityInAttributeResolved, offset 0x1ac, size 0x1
-  __declspec(property(get = __get_emptyEntityInAttributeResolved, put = __set_emptyEntityInAttributeResolved)) bool emptyEntityInAttributeResolved;
+  __declspec(property(get = __cordl_internal_get_emptyEntityInAttributeResolved, put = __cordl_internal_set_emptyEntityInAttributeResolved)) bool emptyEntityInAttributeResolved;
 
   /// @brief Field validationEventHandling, offset 0x1b0, size 0x8
-  __declspec(property(get = __get_validationEventHandling, put = __set_validationEventHandling))::System::Xml::IValidationEventHandling* validationEventHandling;
+  __declspec(property(get = __cordl_internal_get_validationEventHandling, put = __cordl_internal_set_validationEventHandling))::System::Xml::IValidationEventHandling* validationEventHandling;
 
   /// @brief Field onDefaultAttributeUse, offset 0x1b8, size 0x8
-  __declspec(property(get = __get_onDefaultAttributeUse, put = __set_onDefaultAttributeUse))::System::Xml::__XmlTextReaderImpl__OnDefaultAttributeUseDelegate* onDefaultAttributeUse;
+  __declspec(property(get = __cordl_internal_get_onDefaultAttributeUse,
+                      put = __cordl_internal_set_onDefaultAttributeUse))::System::Xml::__XmlTextReaderImpl__OnDefaultAttributeUseDelegate* onDefaultAttributeUse;
 
   /// @brief Field validatingReaderCompatFlag, offset 0x1c0, size 0x1
-  __declspec(property(get = __get_validatingReaderCompatFlag, put = __set_validatingReaderCompatFlag)) bool validatingReaderCompatFlag;
+  __declspec(property(get = __cordl_internal_get_validatingReaderCompatFlag, put = __cordl_internal_set_validatingReaderCompatFlag)) bool validatingReaderCompatFlag;
 
   /// @brief Field addDefaultAttributesAndNormalize, offset 0x1c1, size 0x1
-  __declspec(property(get = __get_addDefaultAttributesAndNormalize, put = __set_addDefaultAttributesAndNormalize)) bool addDefaultAttributesAndNormalize;
+  __declspec(property(get = __cordl_internal_get_addDefaultAttributesAndNormalize, put = __cordl_internal_set_addDefaultAttributesAndNormalize)) bool addDefaultAttributesAndNormalize;
 
   /// @brief Field stringBuilder, offset 0x1c8, size 0x8
-  __declspec(property(get = __get_stringBuilder, put = __set_stringBuilder))::System::Text::StringBuilder* stringBuilder;
+  __declspec(property(get = __cordl_internal_get_stringBuilder, put = __cordl_internal_set_stringBuilder))::System::Text::StringBuilder* stringBuilder;
 
   /// @brief Field rootElementParsed, offset 0x1d0, size 0x1
-  __declspec(property(get = __get_rootElementParsed, put = __set_rootElementParsed)) bool rootElementParsed;
+  __declspec(property(get = __cordl_internal_get_rootElementParsed, put = __cordl_internal_set_rootElementParsed)) bool rootElementParsed;
 
   /// @brief Field standalone, offset 0x1d1, size 0x1
-  __declspec(property(get = __get_standalone, put = __set_standalone)) bool standalone;
+  __declspec(property(get = __cordl_internal_get_standalone, put = __cordl_internal_set_standalone)) bool standalone;
 
   /// @brief Field nextEntityId, offset 0x1d4, size 0x4
-  __declspec(property(get = __get_nextEntityId, put = __set_nextEntityId)) int32_t nextEntityId;
+  __declspec(property(get = __cordl_internal_get_nextEntityId, put = __cordl_internal_set_nextEntityId)) int32_t nextEntityId;
 
   /// @brief Field parsingMode, offset 0x1d8, size 0x4
-  __declspec(property(get = __get_parsingMode, put = __set_parsingMode))::System::Xml::__XmlTextReaderImpl__ParsingMode parsingMode;
+  __declspec(property(get = __cordl_internal_get_parsingMode, put = __cordl_internal_set_parsingMode))::System::Xml::__XmlTextReaderImpl__ParsingMode parsingMode;
 
   /// @brief Field readState, offset 0x1dc, size 0x4
-  __declspec(property(get = __get_readState, put = __set_readState))::System::Xml::ReadState readState;
+  __declspec(property(get = __cordl_internal_get_readState, put = __cordl_internal_set_readState))::System::Xml::ReadState readState;
 
   /// @brief Field lastEntity, offset 0x1e0, size 0x8
-  __declspec(property(get = __get_lastEntity, put = __set_lastEntity))::System::Xml::IDtdEntityInfo* lastEntity;
+  __declspec(property(get = __cordl_internal_get_lastEntity, put = __cordl_internal_set_lastEntity))::System::Xml::IDtdEntityInfo* lastEntity;
 
   /// @brief Field afterResetState, offset 0x1e8, size 0x1
-  __declspec(property(get = __get_afterResetState, put = __set_afterResetState)) bool afterResetState;
+  __declspec(property(get = __cordl_internal_get_afterResetState, put = __cordl_internal_set_afterResetState)) bool afterResetState;
 
   /// @brief Field documentStartBytePos, offset 0x1ec, size 0x4
-  __declspec(property(get = __get_documentStartBytePos, put = __set_documentStartBytePos)) int32_t documentStartBytePos;
+  __declspec(property(get = __cordl_internal_get_documentStartBytePos, put = __cordl_internal_set_documentStartBytePos)) int32_t documentStartBytePos;
 
   /// @brief Field readValueOffset, offset 0x1f0, size 0x4
-  __declspec(property(get = __get_readValueOffset, put = __set_readValueOffset)) int32_t readValueOffset;
+  __declspec(property(get = __cordl_internal_get_readValueOffset, put = __cordl_internal_set_readValueOffset)) int32_t readValueOffset;
 
   /// @brief Field charactersInDocument, offset 0x1f8, size 0x8
-  __declspec(property(get = __get_charactersInDocument, put = __set_charactersInDocument)) int64_t charactersInDocument;
+  __declspec(property(get = __cordl_internal_get_charactersInDocument, put = __cordl_internal_set_charactersInDocument)) int64_t charactersInDocument;
 
   /// @brief Field charactersFromEntities, offset 0x200, size 0x8
-  __declspec(property(get = __get_charactersFromEntities, put = __set_charactersFromEntities)) int64_t charactersFromEntities;
+  __declspec(property(get = __cordl_internal_get_charactersFromEntities, put = __cordl_internal_set_charactersFromEntities)) int64_t charactersFromEntities;
 
   /// @brief Field currentEntities, offset 0x208, size 0x8
-  __declspec(property(get = __get_currentEntities,
-                      put = __set_currentEntities))::System::Collections::Generic::Dictionary_2<::System::Xml::IDtdEntityInfo*, ::System::Xml::IDtdEntityInfo*>* currentEntities;
+  __declspec(property(get = __cordl_internal_get_currentEntities,
+                      put = __cordl_internal_set_currentEntities))::System::Collections::Generic::Dictionary_2<::System::Xml::IDtdEntityInfo*, ::System::Xml::IDtdEntityInfo*>* currentEntities;
 
   /// @brief Field disableUndeclaredEntityCheck, offset 0x210, size 0x1
-  __declspec(property(get = __get_disableUndeclaredEntityCheck, put = __set_disableUndeclaredEntityCheck)) bool disableUndeclaredEntityCheck;
+  __declspec(property(get = __cordl_internal_get_disableUndeclaredEntityCheck, put = __cordl_internal_set_disableUndeclaredEntityCheck)) bool disableUndeclaredEntityCheck;
 
   /// @brief Field outerReader, offset 0x218, size 0x8
-  __declspec(property(get = __get_outerReader, put = __set_outerReader))::System::Xml::XmlReader* outerReader;
+  __declspec(property(get = __cordl_internal_get_outerReader, put = __cordl_internal_set_outerReader))::System::Xml::XmlReader* outerReader;
 
   /// @brief Field xmlResolverIsSet, offset 0x220, size 0x1
-  __declspec(property(get = __get_xmlResolverIsSet, put = __set_xmlResolverIsSet)) bool xmlResolverIsSet;
+  __declspec(property(get = __cordl_internal_get_xmlResolverIsSet, put = __cordl_internal_set_xmlResolverIsSet)) bool xmlResolverIsSet;
 
   /// @brief Field Xml, offset 0x228, size 0x8
-  __declspec(property(get = __get_Xml, put = __set_Xml))::StringW Xml;
+  __declspec(property(get = __cordl_internal_get_Xml, put = __cordl_internal_set_Xml))::StringW Xml;
 
   /// @brief Field XmlNs, offset 0x230, size 0x8
-  __declspec(property(get = __get_XmlNs, put = __set_XmlNs))::StringW XmlNs;
+  __declspec(property(get = __cordl_internal_get_XmlNs, put = __cordl_internal_set_XmlNs))::StringW XmlNs;
 
   /// @brief Field parseText_dummyTask, offset 0x238, size 0x8
-  __declspec(property(get = __get_parseText_dummyTask, put = __set_parseText_dummyTask))::System::Threading::Tasks::Task_1<::System::Tuple_4<int32_t, int32_t, int32_t, bool>*>* parseText_dummyTask;
+  __declspec(property(get = __cordl_internal_get_parseText_dummyTask,
+                      put = __cordl_internal_set_parseText_dummyTask))::System::Threading::Tasks::Task_1<::System::Tuple_4<int32_t, int32_t, int32_t, bool>*>* parseText_dummyTask;
 
   __declspec(property(get = get_Settings))::System::Xml::XmlReaderSettings* Settings;
 
@@ -2243,461 +2249,462 @@ public:
   /// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
   constexpr ::System::Xml::IXmlNamespaceResolver* i___System__Xml__IXmlNamespaceResolver() noexcept;
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__LaterInitParam*& __get_laterInitParam();
+  constexpr ::System::Xml::__XmlTextReaderImpl__LaterInitParam*& __cordl_internal_get_laterInitParam();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__LaterInitParam*> const& __get_laterInitParam() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__LaterInitParam*> const& __cordl_internal_get_laterInitParam() const;
 
-  constexpr void __set_laterInitParam(::System::Xml::__XmlTextReaderImpl__LaterInitParam* value);
+  constexpr void __cordl_internal_set_laterInitParam(::System::Xml::__XmlTextReaderImpl__LaterInitParam* value);
 
-  constexpr ::System::Xml::XmlCharType& __get_xmlCharType();
+  constexpr ::System::Xml::XmlCharType& __cordl_internal_get_xmlCharType();
 
-  constexpr ::System::Xml::XmlCharType const& __get_xmlCharType() const;
+  constexpr ::System::Xml::XmlCharType const& __cordl_internal_get_xmlCharType() const;
 
-  constexpr void __set_xmlCharType(::System::Xml::XmlCharType value);
+  constexpr void __cordl_internal_set_xmlCharType(::System::Xml::XmlCharType value);
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingState& __get_ps();
+  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingState& __cordl_internal_get_ps();
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingState const& __get_ps() const;
+  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingState const& __cordl_internal_get_ps() const;
 
-  constexpr void __set_ps(::System::Xml::__XmlTextReaderImpl__ParsingState value);
+  constexpr void __cordl_internal_set_ps(::System::Xml::__XmlTextReaderImpl__ParsingState value);
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction& __get_parsingFunction();
+  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction& __cordl_internal_get_parsingFunction();
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction const& __get_parsingFunction() const;
+  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction const& __cordl_internal_get_parsingFunction() const;
 
-  constexpr void __set_parsingFunction(::System::Xml::__XmlTextReaderImpl__ParsingFunction value);
+  constexpr void __cordl_internal_set_parsingFunction(::System::Xml::__XmlTextReaderImpl__ParsingFunction value);
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction& __get_nextParsingFunction();
+  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction& __cordl_internal_get_nextParsingFunction();
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction const& __get_nextParsingFunction() const;
+  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction const& __cordl_internal_get_nextParsingFunction() const;
 
-  constexpr void __set_nextParsingFunction(::System::Xml::__XmlTextReaderImpl__ParsingFunction value);
+  constexpr void __cordl_internal_set_nextParsingFunction(::System::Xml::__XmlTextReaderImpl__ParsingFunction value);
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction& __get_nextNextParsingFunction();
+  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction& __cordl_internal_get_nextNextParsingFunction();
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction const& __get_nextNextParsingFunction() const;
+  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingFunction const& __cordl_internal_get_nextNextParsingFunction() const;
 
-  constexpr void __set_nextNextParsingFunction(::System::Xml::__XmlTextReaderImpl__ParsingFunction value);
+  constexpr void __cordl_internal_set_nextNextParsingFunction(::System::Xml::__XmlTextReaderImpl__ParsingFunction value);
 
-  constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*>& __get_nodes();
+  constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*>& __cordl_internal_get_nodes();
 
-  constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*> const& __get_nodes() const;
+  constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*> const& __cordl_internal_get_nodes() const;
 
-  constexpr void __set_nodes(::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*> value);
+  constexpr void __cordl_internal_set_nodes(::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*> value);
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__NodeData*& __get_curNode();
+  constexpr ::System::Xml::__XmlTextReaderImpl__NodeData*& __cordl_internal_get_curNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__NodeData*> const& __get_curNode() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__NodeData*> const& __cordl_internal_get_curNode() const;
 
-  constexpr void __set_curNode(::System::Xml::__XmlTextReaderImpl__NodeData* value);
+  constexpr void __cordl_internal_set_curNode(::System::Xml::__XmlTextReaderImpl__NodeData* value);
 
-  constexpr int32_t& __get_index();
+  constexpr int32_t& __cordl_internal_get_index();
 
-  constexpr int32_t const& __get_index() const;
+  constexpr int32_t const& __cordl_internal_get_index() const;
 
-  constexpr void __set_index(int32_t value);
+  constexpr void __cordl_internal_set_index(int32_t value);
 
-  constexpr int32_t& __get_curAttrIndex();
+  constexpr int32_t& __cordl_internal_get_curAttrIndex();
 
-  constexpr int32_t const& __get_curAttrIndex() const;
+  constexpr int32_t const& __cordl_internal_get_curAttrIndex() const;
 
-  constexpr void __set_curAttrIndex(int32_t value);
+  constexpr void __cordl_internal_set_curAttrIndex(int32_t value);
 
-  constexpr int32_t& __get_attrCount();
+  constexpr int32_t& __cordl_internal_get_attrCount();
 
-  constexpr int32_t const& __get_attrCount() const;
+  constexpr int32_t const& __cordl_internal_get_attrCount() const;
 
-  constexpr void __set_attrCount(int32_t value);
+  constexpr void __cordl_internal_set_attrCount(int32_t value);
 
-  constexpr int32_t& __get_attrHashtable();
+  constexpr int32_t& __cordl_internal_get_attrHashtable();
 
-  constexpr int32_t const& __get_attrHashtable() const;
+  constexpr int32_t const& __cordl_internal_get_attrHashtable() const;
 
-  constexpr void __set_attrHashtable(int32_t value);
+  constexpr void __cordl_internal_set_attrHashtable(int32_t value);
 
-  constexpr int32_t& __get_attrDuplWalkCount();
+  constexpr int32_t& __cordl_internal_get_attrDuplWalkCount();
 
-  constexpr int32_t const& __get_attrDuplWalkCount() const;
+  constexpr int32_t const& __cordl_internal_get_attrDuplWalkCount() const;
 
-  constexpr void __set_attrDuplWalkCount(int32_t value);
+  constexpr void __cordl_internal_set_attrDuplWalkCount(int32_t value);
 
-  constexpr bool& __get_attrNeedNamespaceLookup();
+  constexpr bool& __cordl_internal_get_attrNeedNamespaceLookup();
 
-  constexpr bool const& __get_attrNeedNamespaceLookup() const;
+  constexpr bool const& __cordl_internal_get_attrNeedNamespaceLookup() const;
 
-  constexpr void __set_attrNeedNamespaceLookup(bool value);
+  constexpr void __cordl_internal_set_attrNeedNamespaceLookup(bool value);
 
-  constexpr bool& __get_fullAttrCleanup();
+  constexpr bool& __cordl_internal_get_fullAttrCleanup();
 
-  constexpr bool const& __get_fullAttrCleanup() const;
+  constexpr bool const& __cordl_internal_get_fullAttrCleanup() const;
 
-  constexpr void __set_fullAttrCleanup(bool value);
+  constexpr void __cordl_internal_set_fullAttrCleanup(bool value);
 
-  constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*>& __get_attrDuplSortingArray();
+  constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*>& __cordl_internal_get_attrDuplSortingArray();
 
-  constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*> const& __get_attrDuplSortingArray() const;
+  constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*> const& __cordl_internal_get_attrDuplSortingArray() const;
 
-  constexpr void __set_attrDuplSortingArray(::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*> value);
+  constexpr void __cordl_internal_set_attrDuplSortingArray(::ArrayW<::System::Xml::__XmlTextReaderImpl__NodeData*, ::Array<::System::Xml::__XmlTextReaderImpl__NodeData*>*> value);
 
-  constexpr ::System::Xml::XmlNameTable*& __get_nameTable();
+  constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_nameTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __get_nameTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __cordl_internal_get_nameTable() const;
 
-  constexpr void __set_nameTable(::System::Xml::XmlNameTable* value);
+  constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
 
-  constexpr bool& __get_nameTableFromSettings();
+  constexpr bool& __cordl_internal_get_nameTableFromSettings();
 
-  constexpr bool const& __get_nameTableFromSettings() const;
+  constexpr bool const& __cordl_internal_get_nameTableFromSettings() const;
 
-  constexpr void __set_nameTableFromSettings(bool value);
+  constexpr void __cordl_internal_set_nameTableFromSettings(bool value);
 
-  constexpr ::System::Xml::XmlResolver*& __get_xmlResolver();
+  constexpr ::System::Xml::XmlResolver*& __cordl_internal_get_xmlResolver();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlResolver*> const& __get_xmlResolver() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlResolver*> const& __cordl_internal_get_xmlResolver() const;
 
-  constexpr void __set_xmlResolver(::System::Xml::XmlResolver* value);
+  constexpr void __cordl_internal_set_xmlResolver(::System::Xml::XmlResolver* value);
 
-  constexpr ::StringW& __get_url();
+  constexpr ::StringW& __cordl_internal_get_url();
 
-  constexpr ::StringW const& __get_url() const;
+  constexpr ::StringW const& __cordl_internal_get_url() const;
 
-  constexpr void __set_url(::StringW value);
+  constexpr void __cordl_internal_set_url(::StringW value);
 
-  constexpr bool& __get_normalize();
+  constexpr bool& __cordl_internal_get_normalize();
 
-  constexpr bool const& __get_normalize() const;
+  constexpr bool const& __cordl_internal_get_normalize() const;
 
-  constexpr void __set_normalize(bool value);
+  constexpr void __cordl_internal_set_normalize(bool value);
 
-  constexpr bool& __get_supportNamespaces();
+  constexpr bool& __cordl_internal_get_supportNamespaces();
 
-  constexpr bool const& __get_supportNamespaces() const;
+  constexpr bool const& __cordl_internal_get_supportNamespaces() const;
 
-  constexpr void __set_supportNamespaces(bool value);
+  constexpr void __cordl_internal_set_supportNamespaces(bool value);
 
-  constexpr ::System::Xml::WhitespaceHandling& __get_whitespaceHandling();
+  constexpr ::System::Xml::WhitespaceHandling& __cordl_internal_get_whitespaceHandling();
 
-  constexpr ::System::Xml::WhitespaceHandling const& __get_whitespaceHandling() const;
+  constexpr ::System::Xml::WhitespaceHandling const& __cordl_internal_get_whitespaceHandling() const;
 
-  constexpr void __set_whitespaceHandling(::System::Xml::WhitespaceHandling value);
+  constexpr void __cordl_internal_set_whitespaceHandling(::System::Xml::WhitespaceHandling value);
 
-  constexpr ::System::Xml::DtdProcessing& __get_dtdProcessing();
+  constexpr ::System::Xml::DtdProcessing& __cordl_internal_get_dtdProcessing();
 
-  constexpr ::System::Xml::DtdProcessing const& __get_dtdProcessing() const;
+  constexpr ::System::Xml::DtdProcessing const& __cordl_internal_get_dtdProcessing() const;
 
-  constexpr void __set_dtdProcessing(::System::Xml::DtdProcessing value);
+  constexpr void __cordl_internal_set_dtdProcessing(::System::Xml::DtdProcessing value);
 
-  constexpr ::System::Xml::EntityHandling& __get_entityHandling();
+  constexpr ::System::Xml::EntityHandling& __cordl_internal_get_entityHandling();
 
-  constexpr ::System::Xml::EntityHandling const& __get_entityHandling() const;
+  constexpr ::System::Xml::EntityHandling const& __cordl_internal_get_entityHandling() const;
 
-  constexpr void __set_entityHandling(::System::Xml::EntityHandling value);
+  constexpr void __cordl_internal_set_entityHandling(::System::Xml::EntityHandling value);
 
-  constexpr bool& __get_ignorePIs();
+  constexpr bool& __cordl_internal_get_ignorePIs();
 
-  constexpr bool const& __get_ignorePIs() const;
+  constexpr bool const& __cordl_internal_get_ignorePIs() const;
 
-  constexpr void __set_ignorePIs(bool value);
+  constexpr void __cordl_internal_set_ignorePIs(bool value);
 
-  constexpr bool& __get_ignoreComments();
+  constexpr bool& __cordl_internal_get_ignoreComments();
 
-  constexpr bool const& __get_ignoreComments() const;
+  constexpr bool const& __cordl_internal_get_ignoreComments() const;
 
-  constexpr void __set_ignoreComments(bool value);
+  constexpr void __cordl_internal_set_ignoreComments(bool value);
 
-  constexpr bool& __get_checkCharacters();
+  constexpr bool& __cordl_internal_get_checkCharacters();
 
-  constexpr bool const& __get_checkCharacters() const;
+  constexpr bool const& __cordl_internal_get_checkCharacters() const;
 
-  constexpr void __set_checkCharacters(bool value);
+  constexpr void __cordl_internal_set_checkCharacters(bool value);
 
-  constexpr int32_t& __get_lineNumberOffset();
+  constexpr int32_t& __cordl_internal_get_lineNumberOffset();
 
-  constexpr int32_t const& __get_lineNumberOffset() const;
+  constexpr int32_t const& __cordl_internal_get_lineNumberOffset() const;
 
-  constexpr void __set_lineNumberOffset(int32_t value);
+  constexpr void __cordl_internal_set_lineNumberOffset(int32_t value);
 
-  constexpr int32_t& __get_linePositionOffset();
+  constexpr int32_t& __cordl_internal_get_linePositionOffset();
 
-  constexpr int32_t const& __get_linePositionOffset() const;
+  constexpr int32_t const& __cordl_internal_get_linePositionOffset() const;
 
-  constexpr void __set_linePositionOffset(int32_t value);
+  constexpr void __cordl_internal_set_linePositionOffset(int32_t value);
 
-  constexpr bool& __get_closeInput();
+  constexpr bool& __cordl_internal_get_closeInput();
 
-  constexpr bool const& __get_closeInput() const;
+  constexpr bool const& __cordl_internal_get_closeInput() const;
 
-  constexpr void __set_closeInput(bool value);
+  constexpr void __cordl_internal_set_closeInput(bool value);
 
-  constexpr int64_t& __get_maxCharactersInDocument();
+  constexpr int64_t& __cordl_internal_get_maxCharactersInDocument();
 
-  constexpr int64_t const& __get_maxCharactersInDocument() const;
+  constexpr int64_t const& __cordl_internal_get_maxCharactersInDocument() const;
 
-  constexpr void __set_maxCharactersInDocument(int64_t value);
+  constexpr void __cordl_internal_set_maxCharactersInDocument(int64_t value);
 
-  constexpr int64_t& __get_maxCharactersFromEntities();
+  constexpr int64_t& __cordl_internal_get_maxCharactersFromEntities();
 
-  constexpr int64_t const& __get_maxCharactersFromEntities() const;
+  constexpr int64_t const& __cordl_internal_get_maxCharactersFromEntities() const;
 
-  constexpr void __set_maxCharactersFromEntities(int64_t value);
+  constexpr void __cordl_internal_set_maxCharactersFromEntities(int64_t value);
 
-  constexpr bool& __get_v1Compat();
+  constexpr bool& __cordl_internal_get_v1Compat();
 
-  constexpr bool const& __get_v1Compat() const;
+  constexpr bool const& __cordl_internal_get_v1Compat() const;
 
-  constexpr void __set_v1Compat(bool value);
+  constexpr void __cordl_internal_set_v1Compat(bool value);
 
-  constexpr ::System::Xml::XmlNamespaceManager*& __get_namespaceManager();
+  constexpr ::System::Xml::XmlNamespaceManager*& __cordl_internal_get_namespaceManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNamespaceManager*> const& __get_namespaceManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNamespaceManager*> const& __cordl_internal_get_namespaceManager() const;
 
-  constexpr void __set_namespaceManager(::System::Xml::XmlNamespaceManager* value);
+  constexpr void __cordl_internal_set_namespaceManager(::System::Xml::XmlNamespaceManager* value);
 
-  constexpr ::StringW& __get_lastPrefix();
+  constexpr ::StringW& __cordl_internal_get_lastPrefix();
 
-  constexpr ::StringW const& __get_lastPrefix() const;
+  constexpr ::StringW const& __cordl_internal_get_lastPrefix() const;
 
-  constexpr void __set_lastPrefix(::StringW value);
+  constexpr void __cordl_internal_set_lastPrefix(::StringW value);
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__XmlContext*& __get_xmlContext();
+  constexpr ::System::Xml::__XmlTextReaderImpl__XmlContext*& __cordl_internal_get_xmlContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__XmlContext*> const& __get_xmlContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__XmlContext*> const& __cordl_internal_get_xmlContext() const;
 
-  constexpr void __set_xmlContext(::System::Xml::__XmlTextReaderImpl__XmlContext* value);
+  constexpr void __cordl_internal_set_xmlContext(::System::Xml::__XmlTextReaderImpl__XmlContext* value);
 
-  constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__ParsingState, ::Array<::System::Xml::__XmlTextReaderImpl__ParsingState>*>& __get_parsingStatesStack();
+  constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__ParsingState, ::Array<::System::Xml::__XmlTextReaderImpl__ParsingState>*>& __cordl_internal_get_parsingStatesStack();
 
-  constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__ParsingState, ::Array<::System::Xml::__XmlTextReaderImpl__ParsingState>*> const& __get_parsingStatesStack() const;
+  constexpr ::ArrayW<::System::Xml::__XmlTextReaderImpl__ParsingState, ::Array<::System::Xml::__XmlTextReaderImpl__ParsingState>*> const& __cordl_internal_get_parsingStatesStack() const;
 
-  constexpr void __set_parsingStatesStack(::ArrayW<::System::Xml::__XmlTextReaderImpl__ParsingState, ::Array<::System::Xml::__XmlTextReaderImpl__ParsingState>*> value);
+  constexpr void __cordl_internal_set_parsingStatesStack(::ArrayW<::System::Xml::__XmlTextReaderImpl__ParsingState, ::Array<::System::Xml::__XmlTextReaderImpl__ParsingState>*> value);
 
-  constexpr int32_t& __get_parsingStatesStackTop();
+  constexpr int32_t& __cordl_internal_get_parsingStatesStackTop();
 
-  constexpr int32_t const& __get_parsingStatesStackTop() const;
+  constexpr int32_t const& __cordl_internal_get_parsingStatesStackTop() const;
 
-  constexpr void __set_parsingStatesStackTop(int32_t value);
+  constexpr void __cordl_internal_set_parsingStatesStackTop(int32_t value);
 
-  constexpr ::StringW& __get_reportedBaseUri();
+  constexpr ::StringW& __cordl_internal_get_reportedBaseUri();
 
-  constexpr ::StringW const& __get_reportedBaseUri() const;
+  constexpr ::StringW const& __cordl_internal_get_reportedBaseUri() const;
 
-  constexpr void __set_reportedBaseUri(::StringW value);
+  constexpr void __cordl_internal_set_reportedBaseUri(::StringW value);
 
-  constexpr ::System::Text::Encoding*& __get_reportedEncoding();
+  constexpr ::System::Text::Encoding*& __cordl_internal_get_reportedEncoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __get_reportedEncoding() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get_reportedEncoding() const;
 
-  constexpr void __set_reportedEncoding(::System::Text::Encoding* value);
+  constexpr void __cordl_internal_set_reportedEncoding(::System::Text::Encoding* value);
 
-  constexpr ::System::Xml::IDtdInfo*& __get_dtdInfo();
+  constexpr ::System::Xml::IDtdInfo*& __cordl_internal_get_dtdInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IDtdInfo*> const& __get_dtdInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IDtdInfo*> const& __cordl_internal_get_dtdInfo() const;
 
-  constexpr void __set_dtdInfo(::System::Xml::IDtdInfo* value);
+  constexpr void __cordl_internal_set_dtdInfo(::System::Xml::IDtdInfo* value);
 
-  constexpr ::System::Xml::XmlNodeType& __get_fragmentType();
+  constexpr ::System::Xml::XmlNodeType& __cordl_internal_get_fragmentType();
 
-  constexpr ::System::Xml::XmlNodeType const& __get_fragmentType() const;
+  constexpr ::System::Xml::XmlNodeType const& __cordl_internal_get_fragmentType() const;
 
-  constexpr void __set_fragmentType(::System::Xml::XmlNodeType value);
+  constexpr void __cordl_internal_set_fragmentType(::System::Xml::XmlNodeType value);
 
-  constexpr ::System::Xml::XmlParserContext*& __get_fragmentParserContext();
+  constexpr ::System::Xml::XmlParserContext*& __cordl_internal_get_fragmentParserContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlParserContext*> const& __get_fragmentParserContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlParserContext*> const& __cordl_internal_get_fragmentParserContext() const;
 
-  constexpr void __set_fragmentParserContext(::System::Xml::XmlParserContext* value);
+  constexpr void __cordl_internal_set_fragmentParserContext(::System::Xml::XmlParserContext* value);
 
-  constexpr bool& __get_fragment();
+  constexpr bool& __cordl_internal_get_fragment();
 
-  constexpr bool const& __get_fragment() const;
+  constexpr bool const& __cordl_internal_get_fragment() const;
 
-  constexpr void __set_fragment(bool value);
+  constexpr void __cordl_internal_set_fragment(bool value);
 
-  constexpr ::System::Xml::IncrementalReadDecoder*& __get_incReadDecoder();
+  constexpr ::System::Xml::IncrementalReadDecoder*& __cordl_internal_get_incReadDecoder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IncrementalReadDecoder*> const& __get_incReadDecoder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IncrementalReadDecoder*> const& __cordl_internal_get_incReadDecoder() const;
 
-  constexpr void __set_incReadDecoder(::System::Xml::IncrementalReadDecoder* value);
+  constexpr void __cordl_internal_set_incReadDecoder(::System::Xml::IncrementalReadDecoder* value);
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__IncrementalReadState& __get_incReadState();
+  constexpr ::System::Xml::__XmlTextReaderImpl__IncrementalReadState& __cordl_internal_get_incReadState();
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__IncrementalReadState const& __get_incReadState() const;
+  constexpr ::System::Xml::__XmlTextReaderImpl__IncrementalReadState const& __cordl_internal_get_incReadState() const;
 
-  constexpr void __set_incReadState(::System::Xml::__XmlTextReaderImpl__IncrementalReadState value);
+  constexpr void __cordl_internal_set_incReadState(::System::Xml::__XmlTextReaderImpl__IncrementalReadState value);
 
-  constexpr ::System::Xml::LineInfo& __get_incReadLineInfo();
+  constexpr ::System::Xml::LineInfo& __cordl_internal_get_incReadLineInfo();
 
-  constexpr ::System::Xml::LineInfo const& __get_incReadLineInfo() const;
+  constexpr ::System::Xml::LineInfo const& __cordl_internal_get_incReadLineInfo() const;
 
-  constexpr void __set_incReadLineInfo(::System::Xml::LineInfo value);
+  constexpr void __cordl_internal_set_incReadLineInfo(::System::Xml::LineInfo value);
 
-  constexpr int32_t& __get_incReadDepth();
+  constexpr int32_t& __cordl_internal_get_incReadDepth();
 
-  constexpr int32_t const& __get_incReadDepth() const;
+  constexpr int32_t const& __cordl_internal_get_incReadDepth() const;
 
-  constexpr void __set_incReadDepth(int32_t value);
+  constexpr void __cordl_internal_set_incReadDepth(int32_t value);
 
-  constexpr int32_t& __get_incReadLeftStartPos();
+  constexpr int32_t& __cordl_internal_get_incReadLeftStartPos();
 
-  constexpr int32_t const& __get_incReadLeftStartPos() const;
+  constexpr int32_t const& __cordl_internal_get_incReadLeftStartPos() const;
 
-  constexpr void __set_incReadLeftStartPos(int32_t value);
+  constexpr void __cordl_internal_set_incReadLeftStartPos(int32_t value);
 
-  constexpr int32_t& __get_incReadLeftEndPos();
+  constexpr int32_t& __cordl_internal_get_incReadLeftEndPos();
 
-  constexpr int32_t const& __get_incReadLeftEndPos() const;
+  constexpr int32_t const& __cordl_internal_get_incReadLeftEndPos() const;
 
-  constexpr void __set_incReadLeftEndPos(int32_t value);
+  constexpr void __cordl_internal_set_incReadLeftEndPos(int32_t value);
 
-  constexpr int32_t& __get_attributeValueBaseEntityId();
+  constexpr int32_t& __cordl_internal_get_attributeValueBaseEntityId();
 
-  constexpr int32_t const& __get_attributeValueBaseEntityId() const;
+  constexpr int32_t const& __cordl_internal_get_attributeValueBaseEntityId() const;
 
-  constexpr void __set_attributeValueBaseEntityId(int32_t value);
+  constexpr void __cordl_internal_set_attributeValueBaseEntityId(int32_t value);
 
-  constexpr bool& __get_emptyEntityInAttributeResolved();
+  constexpr bool& __cordl_internal_get_emptyEntityInAttributeResolved();
 
-  constexpr bool const& __get_emptyEntityInAttributeResolved() const;
+  constexpr bool const& __cordl_internal_get_emptyEntityInAttributeResolved() const;
 
-  constexpr void __set_emptyEntityInAttributeResolved(bool value);
+  constexpr void __cordl_internal_set_emptyEntityInAttributeResolved(bool value);
 
-  constexpr ::System::Xml::IValidationEventHandling*& __get_validationEventHandling();
+  constexpr ::System::Xml::IValidationEventHandling*& __cordl_internal_get_validationEventHandling();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IValidationEventHandling*> const& __get_validationEventHandling() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IValidationEventHandling*> const& __cordl_internal_get_validationEventHandling() const;
 
-  constexpr void __set_validationEventHandling(::System::Xml::IValidationEventHandling* value);
+  constexpr void __cordl_internal_set_validationEventHandling(::System::Xml::IValidationEventHandling* value);
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__OnDefaultAttributeUseDelegate*& __get_onDefaultAttributeUse();
+  constexpr ::System::Xml::__XmlTextReaderImpl__OnDefaultAttributeUseDelegate*& __cordl_internal_get_onDefaultAttributeUse();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__OnDefaultAttributeUseDelegate*> const& __get_onDefaultAttributeUse() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__XmlTextReaderImpl__OnDefaultAttributeUseDelegate*> const& __cordl_internal_get_onDefaultAttributeUse() const;
 
-  constexpr void __set_onDefaultAttributeUse(::System::Xml::__XmlTextReaderImpl__OnDefaultAttributeUseDelegate* value);
+  constexpr void __cordl_internal_set_onDefaultAttributeUse(::System::Xml::__XmlTextReaderImpl__OnDefaultAttributeUseDelegate* value);
 
-  constexpr bool& __get_validatingReaderCompatFlag();
+  constexpr bool& __cordl_internal_get_validatingReaderCompatFlag();
 
-  constexpr bool const& __get_validatingReaderCompatFlag() const;
+  constexpr bool const& __cordl_internal_get_validatingReaderCompatFlag() const;
 
-  constexpr void __set_validatingReaderCompatFlag(bool value);
+  constexpr void __cordl_internal_set_validatingReaderCompatFlag(bool value);
 
-  constexpr bool& __get_addDefaultAttributesAndNormalize();
+  constexpr bool& __cordl_internal_get_addDefaultAttributesAndNormalize();
 
-  constexpr bool const& __get_addDefaultAttributesAndNormalize() const;
+  constexpr bool const& __cordl_internal_get_addDefaultAttributesAndNormalize() const;
 
-  constexpr void __set_addDefaultAttributesAndNormalize(bool value);
+  constexpr void __cordl_internal_set_addDefaultAttributesAndNormalize(bool value);
 
-  constexpr ::System::Text::StringBuilder*& __get_stringBuilder();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_stringBuilder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get_stringBuilder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_stringBuilder() const;
 
-  constexpr void __set_stringBuilder(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set_stringBuilder(::System::Text::StringBuilder* value);
 
-  constexpr bool& __get_rootElementParsed();
+  constexpr bool& __cordl_internal_get_rootElementParsed();
 
-  constexpr bool const& __get_rootElementParsed() const;
+  constexpr bool const& __cordl_internal_get_rootElementParsed() const;
 
-  constexpr void __set_rootElementParsed(bool value);
+  constexpr void __cordl_internal_set_rootElementParsed(bool value);
 
-  constexpr bool& __get_standalone();
+  constexpr bool& __cordl_internal_get_standalone();
 
-  constexpr bool const& __get_standalone() const;
+  constexpr bool const& __cordl_internal_get_standalone() const;
 
-  constexpr void __set_standalone(bool value);
+  constexpr void __cordl_internal_set_standalone(bool value);
 
-  constexpr int32_t& __get_nextEntityId();
+  constexpr int32_t& __cordl_internal_get_nextEntityId();
 
-  constexpr int32_t const& __get_nextEntityId() const;
+  constexpr int32_t const& __cordl_internal_get_nextEntityId() const;
 
-  constexpr void __set_nextEntityId(int32_t value);
+  constexpr void __cordl_internal_set_nextEntityId(int32_t value);
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingMode& __get_parsingMode();
+  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingMode& __cordl_internal_get_parsingMode();
 
-  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingMode const& __get_parsingMode() const;
+  constexpr ::System::Xml::__XmlTextReaderImpl__ParsingMode const& __cordl_internal_get_parsingMode() const;
 
-  constexpr void __set_parsingMode(::System::Xml::__XmlTextReaderImpl__ParsingMode value);
+  constexpr void __cordl_internal_set_parsingMode(::System::Xml::__XmlTextReaderImpl__ParsingMode value);
 
-  constexpr ::System::Xml::ReadState& __get_readState();
+  constexpr ::System::Xml::ReadState& __cordl_internal_get_readState();
 
-  constexpr ::System::Xml::ReadState const& __get_readState() const;
+  constexpr ::System::Xml::ReadState const& __cordl_internal_get_readState() const;
 
-  constexpr void __set_readState(::System::Xml::ReadState value);
+  constexpr void __cordl_internal_set_readState(::System::Xml::ReadState value);
 
-  constexpr ::System::Xml::IDtdEntityInfo*& __get_lastEntity();
+  constexpr ::System::Xml::IDtdEntityInfo*& __cordl_internal_get_lastEntity();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IDtdEntityInfo*> const& __get_lastEntity() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IDtdEntityInfo*> const& __cordl_internal_get_lastEntity() const;
 
-  constexpr void __set_lastEntity(::System::Xml::IDtdEntityInfo* value);
+  constexpr void __cordl_internal_set_lastEntity(::System::Xml::IDtdEntityInfo* value);
 
-  constexpr bool& __get_afterResetState();
+  constexpr bool& __cordl_internal_get_afterResetState();
 
-  constexpr bool const& __get_afterResetState() const;
+  constexpr bool const& __cordl_internal_get_afterResetState() const;
 
-  constexpr void __set_afterResetState(bool value);
+  constexpr void __cordl_internal_set_afterResetState(bool value);
 
-  constexpr int32_t& __get_documentStartBytePos();
+  constexpr int32_t& __cordl_internal_get_documentStartBytePos();
 
-  constexpr int32_t const& __get_documentStartBytePos() const;
+  constexpr int32_t const& __cordl_internal_get_documentStartBytePos() const;
 
-  constexpr void __set_documentStartBytePos(int32_t value);
+  constexpr void __cordl_internal_set_documentStartBytePos(int32_t value);
 
-  constexpr int32_t& __get_readValueOffset();
+  constexpr int32_t& __cordl_internal_get_readValueOffset();
 
-  constexpr int32_t const& __get_readValueOffset() const;
+  constexpr int32_t const& __cordl_internal_get_readValueOffset() const;
 
-  constexpr void __set_readValueOffset(int32_t value);
+  constexpr void __cordl_internal_set_readValueOffset(int32_t value);
 
-  constexpr int64_t& __get_charactersInDocument();
+  constexpr int64_t& __cordl_internal_get_charactersInDocument();
 
-  constexpr int64_t const& __get_charactersInDocument() const;
+  constexpr int64_t const& __cordl_internal_get_charactersInDocument() const;
 
-  constexpr void __set_charactersInDocument(int64_t value);
+  constexpr void __cordl_internal_set_charactersInDocument(int64_t value);
 
-  constexpr int64_t& __get_charactersFromEntities();
+  constexpr int64_t& __cordl_internal_get_charactersFromEntities();
 
-  constexpr int64_t const& __get_charactersFromEntities() const;
+  constexpr int64_t const& __cordl_internal_get_charactersFromEntities() const;
 
-  constexpr void __set_charactersFromEntities(int64_t value);
+  constexpr void __cordl_internal_set_charactersFromEntities(int64_t value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Xml::IDtdEntityInfo*, ::System::Xml::IDtdEntityInfo*>*& __get_currentEntities();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Xml::IDtdEntityInfo*, ::System::Xml::IDtdEntityInfo*>*& __cordl_internal_get_currentEntities();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Xml::IDtdEntityInfo*, ::System::Xml::IDtdEntityInfo*>*> const& __get_currentEntities() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Xml::IDtdEntityInfo*, ::System::Xml::IDtdEntityInfo*>*> const&
+  __cordl_internal_get_currentEntities() const;
 
-  constexpr void __set_currentEntities(::System::Collections::Generic::Dictionary_2<::System::Xml::IDtdEntityInfo*, ::System::Xml::IDtdEntityInfo*>* value);
+  constexpr void __cordl_internal_set_currentEntities(::System::Collections::Generic::Dictionary_2<::System::Xml::IDtdEntityInfo*, ::System::Xml::IDtdEntityInfo*>* value);
 
-  constexpr bool& __get_disableUndeclaredEntityCheck();
+  constexpr bool& __cordl_internal_get_disableUndeclaredEntityCheck();
 
-  constexpr bool const& __get_disableUndeclaredEntityCheck() const;
+  constexpr bool const& __cordl_internal_get_disableUndeclaredEntityCheck() const;
 
-  constexpr void __set_disableUndeclaredEntityCheck(bool value);
+  constexpr void __cordl_internal_set_disableUndeclaredEntityCheck(bool value);
 
-  constexpr ::System::Xml::XmlReader*& __get_outerReader();
+  constexpr ::System::Xml::XmlReader*& __cordl_internal_get_outerReader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReader*> const& __get_outerReader() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReader*> const& __cordl_internal_get_outerReader() const;
 
-  constexpr void __set_outerReader(::System::Xml::XmlReader* value);
+  constexpr void __cordl_internal_set_outerReader(::System::Xml::XmlReader* value);
 
-  constexpr bool& __get_xmlResolverIsSet();
+  constexpr bool& __cordl_internal_get_xmlResolverIsSet();
 
-  constexpr bool const& __get_xmlResolverIsSet() const;
+  constexpr bool const& __cordl_internal_get_xmlResolverIsSet() const;
 
-  constexpr void __set_xmlResolverIsSet(bool value);
+  constexpr void __cordl_internal_set_xmlResolverIsSet(bool value);
 
-  constexpr ::StringW& __get_Xml();
+  constexpr ::StringW& __cordl_internal_get_Xml();
 
-  constexpr ::StringW const& __get_Xml() const;
+  constexpr ::StringW const& __cordl_internal_get_Xml() const;
 
-  constexpr void __set_Xml(::StringW value);
+  constexpr void __cordl_internal_set_Xml(::StringW value);
 
-  constexpr ::StringW& __get_XmlNs();
+  constexpr ::StringW& __cordl_internal_get_XmlNs();
 
-  constexpr ::StringW const& __get_XmlNs() const;
+  constexpr ::StringW const& __cordl_internal_get_XmlNs() const;
 
-  constexpr void __set_XmlNs(::StringW value);
+  constexpr void __cordl_internal_set_XmlNs(::StringW value);
 
-  constexpr ::System::Threading::Tasks::Task_1<::System::Tuple_4<int32_t, int32_t, int32_t, bool>*>*& __get_parseText_dummyTask();
+  constexpr ::System::Threading::Tasks::Task_1<::System::Tuple_4<int32_t, int32_t, int32_t, bool>*>*& __cordl_internal_get_parseText_dummyTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::System::Tuple_4<int32_t, int32_t, int32_t, bool>*>*> const& __get_parseText_dummyTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::System::Tuple_4<int32_t, int32_t, int32_t, bool>*>*> const& __cordl_internal_get_parseText_dummyTask() const;
 
-  constexpr void __set_parseText_dummyTask(::System::Threading::Tasks::Task_1<::System::Tuple_4<int32_t, int32_t, int32_t, bool>*>* value);
+  constexpr void __cordl_internal_set_parseText_dummyTask(::System::Threading::Tasks::Task_1<::System::Tuple_4<int32_t, int32_t, int32_t, bool>*>* value);
 
   static inline ::System::Xml::XmlTextReaderImpl* New_ctor(::System::Xml::XmlNameTable* nt);
 

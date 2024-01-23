@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::ContextLevelActivator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3132))
 // CS Name: ::System.Runtime.Remoting.Activation::ContextLevelActivator*
 class CORDL_TYPE ContextLevelActivator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_NextActivator, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_NextActivator, put = __set_m_NextActivator))::System::Runtime::Remoting::Activation::IActivator* m_NextActivator;
+  __declspec(property(get = __cordl_internal_get_m_NextActivator, put = __cordl_internal_set_m_NextActivator))::System::Runtime::Remoting::Activation::IActivator* m_NextActivator;
 
   __declspec(property(get = get_NextActivator))::System::Runtime::Remoting::Activation::IActivator* NextActivator;
 
@@ -40,11 +40,11 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"
   constexpr ::System::Runtime::Remoting::Activation::IActivator* i___System__Runtime__Remoting__Activation__IActivator() noexcept;
 
-  constexpr ::System::Runtime::Remoting::Activation::IActivator*& __get_m_NextActivator();
+  constexpr ::System::Runtime::Remoting::Activation::IActivator*& __cordl_internal_get_m_NextActivator();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Activation::IActivator*> const& __get_m_NextActivator() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Activation::IActivator*> const& __cordl_internal_get_m_NextActivator() const;
 
-  constexpr void __set_m_NextActivator(::System::Runtime::Remoting::Activation::IActivator* value);
+  constexpr void __cordl_internal_set_m_NextActivator(::System::Runtime::Remoting::Activation::IActivator* value);
 
   static inline ::System::Runtime::Remoting::Activation::ContextLevelActivator* New_ctor(::System::Runtime::Remoting::Activation::IActivator* next);
 

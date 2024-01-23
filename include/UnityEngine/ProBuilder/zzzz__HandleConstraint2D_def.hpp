@@ -22,32 +22,32 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::HandleConstraint2D);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12126))
 // CS Name: ::UnityEngine.ProBuilder::HandleConstraint2D*
 class CORDL_TYPE HandleConstraint2D : public ::System::Object {
 public:
   // Declarations
   /// @brief Field x, offset 0x10, size 0x4
-  __declspec(property(get = __get_x, put = __set_x)) int32_t x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) int32_t x;
 
   /// @brief Field y, offset 0x14, size 0x4
-  __declspec(property(get = __get_y, put = __set_y)) int32_t y;
+  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) int32_t y;
 
   /// @brief Field None, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_None, put = setStaticF_None))::UnityEngine::ProBuilder::HandleConstraint2D* None;
 
-  constexpr int32_t& __get_x();
+  constexpr int32_t& __cordl_internal_get_x();
 
-  constexpr int32_t const& __get_x() const;
+  constexpr int32_t const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(int32_t value);
+  constexpr void __cordl_internal_set_x(int32_t value);
 
-  constexpr int32_t& __get_y();
+  constexpr int32_t& __cordl_internal_get_y();
 
-  constexpr int32_t const& __get_y() const;
+  constexpr int32_t const& __cordl_internal_get_y() const;
 
-  constexpr void __set_y(int32_t value);
+  constexpr void __cordl_internal_set_y(int32_t value);
 
   static inline void setStaticF_None(::UnityEngine::ProBuilder::HandleConstraint2D* value);
 

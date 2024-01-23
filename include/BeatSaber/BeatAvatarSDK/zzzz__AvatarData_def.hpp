@@ -26,59 +26,64 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarData);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15680))
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarData*
 class CORDL_TYPE AvatarData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <headTopId>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__headTopId_k__BackingField, put = __set__headTopId_k__BackingField))::StringW _headTopId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__headTopId_k__BackingField, put = __cordl_internal_set__headTopId_k__BackingField))::StringW _headTopId_k__BackingField;
 
   /// @brief Field <glassesId>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__glassesId_k__BackingField, put = __set__glassesId_k__BackingField))::StringW _glassesId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__glassesId_k__BackingField, put = __cordl_internal_set__glassesId_k__BackingField))::StringW _glassesId_k__BackingField;
 
   /// @brief Field <facialHairId>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__facialHairId_k__BackingField, put = __set__facialHairId_k__BackingField))::StringW _facialHairId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__facialHairId_k__BackingField, put = __cordl_internal_set__facialHairId_k__BackingField))::StringW _facialHairId_k__BackingField;
 
   /// @brief Field <handsId>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__handsId_k__BackingField, put = __set__handsId_k__BackingField))::StringW _handsId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__handsId_k__BackingField, put = __cordl_internal_set__handsId_k__BackingField))::StringW _handsId_k__BackingField;
 
   /// @brief Field <clothesId>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__clothesId_k__BackingField, put = __set__clothesId_k__BackingField))::StringW _clothesId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__clothesId_k__BackingField, put = __cordl_internal_set__clothesId_k__BackingField))::StringW _clothesId_k__BackingField;
 
   /// @brief Field <eyesId>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__eyesId_k__BackingField, put = __set__eyesId_k__BackingField))::StringW _eyesId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__eyesId_k__BackingField, put = __cordl_internal_set__eyesId_k__BackingField))::StringW _eyesId_k__BackingField;
 
   /// @brief Field <mouthId>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __get__mouthId_k__BackingField, put = __set__mouthId_k__BackingField))::StringW _mouthId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__mouthId_k__BackingField, put = __cordl_internal_set__mouthId_k__BackingField))::StringW _mouthId_k__BackingField;
 
   /// @brief Field <headTopPrimaryColor>k__BackingField, offset 0x48, size 0x10
-  __declspec(property(get = __get__headTopPrimaryColor_k__BackingField, put = __set__headTopPrimaryColor_k__BackingField))::UnityEngine::Color _headTopPrimaryColor_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__headTopPrimaryColor_k__BackingField,
+                      put = __cordl_internal_set__headTopPrimaryColor_k__BackingField))::UnityEngine::Color _headTopPrimaryColor_k__BackingField;
 
   /// @brief Field <headTopSecondaryColor>k__BackingField, offset 0x58, size 0x10
-  __declspec(property(get = __get__headTopSecondaryColor_k__BackingField, put = __set__headTopSecondaryColor_k__BackingField))::UnityEngine::Color _headTopSecondaryColor_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__headTopSecondaryColor_k__BackingField,
+                      put = __cordl_internal_set__headTopSecondaryColor_k__BackingField))::UnityEngine::Color _headTopSecondaryColor_k__BackingField;
 
   /// @brief Field <glassesColor>k__BackingField, offset 0x68, size 0x10
-  __declspec(property(get = __get__glassesColor_k__BackingField, put = __set__glassesColor_k__BackingField))::UnityEngine::Color _glassesColor_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__glassesColor_k__BackingField, put = __cordl_internal_set__glassesColor_k__BackingField))::UnityEngine::Color _glassesColor_k__BackingField;
 
   /// @brief Field <facialHairColor>k__BackingField, offset 0x78, size 0x10
-  __declspec(property(get = __get__facialHairColor_k__BackingField, put = __set__facialHairColor_k__BackingField))::UnityEngine::Color _facialHairColor_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__facialHairColor_k__BackingField, put = __cordl_internal_set__facialHairColor_k__BackingField))::UnityEngine::Color _facialHairColor_k__BackingField;
 
   /// @brief Field <handsColor>k__BackingField, offset 0x88, size 0x10
-  __declspec(property(get = __get__handsColor_k__BackingField, put = __set__handsColor_k__BackingField))::UnityEngine::Color _handsColor_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__handsColor_k__BackingField, put = __cordl_internal_set__handsColor_k__BackingField))::UnityEngine::Color _handsColor_k__BackingField;
 
   /// @brief Field <clothesPrimaryColor>k__BackingField, offset 0x98, size 0x10
-  __declspec(property(get = __get__clothesPrimaryColor_k__BackingField, put = __set__clothesPrimaryColor_k__BackingField))::UnityEngine::Color _clothesPrimaryColor_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__clothesPrimaryColor_k__BackingField,
+                      put = __cordl_internal_set__clothesPrimaryColor_k__BackingField))::UnityEngine::Color _clothesPrimaryColor_k__BackingField;
 
   /// @brief Field <clothesSecondaryColor>k__BackingField, offset 0xa8, size 0x10
-  __declspec(property(get = __get__clothesSecondaryColor_k__BackingField, put = __set__clothesSecondaryColor_k__BackingField))::UnityEngine::Color _clothesSecondaryColor_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__clothesSecondaryColor_k__BackingField,
+                      put = __cordl_internal_set__clothesSecondaryColor_k__BackingField))::UnityEngine::Color _clothesSecondaryColor_k__BackingField;
 
   /// @brief Field <clothesDetailColor>k__BackingField, offset 0xb8, size 0x10
-  __declspec(property(get = __get__clothesDetailColor_k__BackingField, put = __set__clothesDetailColor_k__BackingField))::UnityEngine::Color _clothesDetailColor_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__clothesDetailColor_k__BackingField,
+                      put = __cordl_internal_set__clothesDetailColor_k__BackingField))::UnityEngine::Color _clothesDetailColor_k__BackingField;
 
   /// @brief Field <skinColorId>k__BackingField, offset 0xc8, size 0x8
-  __declspec(property(get = __get__skinColorId_k__BackingField, put = __set__skinColorId_k__BackingField))::StringW _skinColorId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__skinColorId_k__BackingField, put = __cordl_internal_set__skinColorId_k__BackingField))::StringW _skinColorId_k__BackingField;
 
   __declspec(property(get = get_headTopId, put = set_headTopId))::StringW headTopId;
 
@@ -118,101 +123,101 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::BeatSaber::BeatAvatarSDK::AvatarData*>"
   constexpr ::System::IEquatable_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* i___System__IEquatable_1___BeatSaber__BeatAvatarSDK__AvatarData__() noexcept;
 
-  constexpr ::StringW& __get__headTopId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__headTopId_k__BackingField();
 
-  constexpr ::StringW const& __get__headTopId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__headTopId_k__BackingField() const;
 
-  constexpr void __set__headTopId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__headTopId_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__glassesId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__glassesId_k__BackingField();
 
-  constexpr ::StringW const& __get__glassesId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__glassesId_k__BackingField() const;
 
-  constexpr void __set__glassesId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__glassesId_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__facialHairId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__facialHairId_k__BackingField();
 
-  constexpr ::StringW const& __get__facialHairId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__facialHairId_k__BackingField() const;
 
-  constexpr void __set__facialHairId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__facialHairId_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__handsId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__handsId_k__BackingField();
 
-  constexpr ::StringW const& __get__handsId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__handsId_k__BackingField() const;
 
-  constexpr void __set__handsId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__handsId_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__clothesId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__clothesId_k__BackingField();
 
-  constexpr ::StringW const& __get__clothesId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__clothesId_k__BackingField() const;
 
-  constexpr void __set__clothesId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__clothesId_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__eyesId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__eyesId_k__BackingField();
 
-  constexpr ::StringW const& __get__eyesId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__eyesId_k__BackingField() const;
 
-  constexpr void __set__eyesId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__eyesId_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__mouthId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__mouthId_k__BackingField();
 
-  constexpr ::StringW const& __get__mouthId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__mouthId_k__BackingField() const;
 
-  constexpr void __set__mouthId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__mouthId_k__BackingField(::StringW value);
 
-  constexpr ::UnityEngine::Color& __get__headTopPrimaryColor_k__BackingField();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__headTopPrimaryColor_k__BackingField();
 
-  constexpr ::UnityEngine::Color const& __get__headTopPrimaryColor_k__BackingField() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__headTopPrimaryColor_k__BackingField() const;
 
-  constexpr void __set__headTopPrimaryColor_k__BackingField(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__headTopPrimaryColor_k__BackingField(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__headTopSecondaryColor_k__BackingField();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__headTopSecondaryColor_k__BackingField();
 
-  constexpr ::UnityEngine::Color const& __get__headTopSecondaryColor_k__BackingField() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__headTopSecondaryColor_k__BackingField() const;
 
-  constexpr void __set__headTopSecondaryColor_k__BackingField(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__headTopSecondaryColor_k__BackingField(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__glassesColor_k__BackingField();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__glassesColor_k__BackingField();
 
-  constexpr ::UnityEngine::Color const& __get__glassesColor_k__BackingField() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__glassesColor_k__BackingField() const;
 
-  constexpr void __set__glassesColor_k__BackingField(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__glassesColor_k__BackingField(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__facialHairColor_k__BackingField();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__facialHairColor_k__BackingField();
 
-  constexpr ::UnityEngine::Color const& __get__facialHairColor_k__BackingField() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__facialHairColor_k__BackingField() const;
 
-  constexpr void __set__facialHairColor_k__BackingField(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__facialHairColor_k__BackingField(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__handsColor_k__BackingField();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__handsColor_k__BackingField();
 
-  constexpr ::UnityEngine::Color const& __get__handsColor_k__BackingField() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__handsColor_k__BackingField() const;
 
-  constexpr void __set__handsColor_k__BackingField(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__handsColor_k__BackingField(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__clothesPrimaryColor_k__BackingField();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__clothesPrimaryColor_k__BackingField();
 
-  constexpr ::UnityEngine::Color const& __get__clothesPrimaryColor_k__BackingField() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__clothesPrimaryColor_k__BackingField() const;
 
-  constexpr void __set__clothesPrimaryColor_k__BackingField(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__clothesPrimaryColor_k__BackingField(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__clothesSecondaryColor_k__BackingField();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__clothesSecondaryColor_k__BackingField();
 
-  constexpr ::UnityEngine::Color const& __get__clothesSecondaryColor_k__BackingField() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__clothesSecondaryColor_k__BackingField() const;
 
-  constexpr void __set__clothesSecondaryColor_k__BackingField(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__clothesSecondaryColor_k__BackingField(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__clothesDetailColor_k__BackingField();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__clothesDetailColor_k__BackingField();
 
-  constexpr ::UnityEngine::Color const& __get__clothesDetailColor_k__BackingField() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__clothesDetailColor_k__BackingField() const;
 
-  constexpr void __set__clothesDetailColor_k__BackingField(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__clothesDetailColor_k__BackingField(::UnityEngine::Color value);
 
-  constexpr ::StringW& __get__skinColorId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__skinColorId_k__BackingField();
 
-  constexpr ::StringW const& __get__skinColorId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__skinColorId_k__BackingField() const;
 
-  constexpr void __set__skinColorId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__skinColorId_k__BackingField(::StringW value);
 
   /// @brief Method get_headTopId, addr 0xe187d4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_headTopId();

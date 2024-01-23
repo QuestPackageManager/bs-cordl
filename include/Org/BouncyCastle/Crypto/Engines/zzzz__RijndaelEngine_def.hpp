@@ -23,47 +23,48 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RijndaelEngine);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(861))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RijndaelEngine*
 class CORDL_TYPE RijndaelEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field BC, offset 0x10, size 0x4
-  __declspec(property(get = __get_BC, put = __set_BC)) int32_t BC;
+  __declspec(property(get = __cordl_internal_get_BC, put = __cordl_internal_set_BC)) int32_t BC;
 
   /// @brief Field BC_MASK, offset 0x18, size 0x8
-  __declspec(property(get = __get_BC_MASK, put = __set_BC_MASK)) int64_t BC_MASK;
+  __declspec(property(get = __cordl_internal_get_BC_MASK, put = __cordl_internal_set_BC_MASK)) int64_t BC_MASK;
 
   /// @brief Field ROUNDS, offset 0x20, size 0x4
-  __declspec(property(get = __get_ROUNDS, put = __set_ROUNDS)) int32_t ROUNDS;
+  __declspec(property(get = __cordl_internal_get_ROUNDS, put = __cordl_internal_set_ROUNDS)) int32_t ROUNDS;
 
   /// @brief Field blockBits, offset 0x24, size 0x4
-  __declspec(property(get = __get_blockBits, put = __set_blockBits)) int32_t blockBits;
+  __declspec(property(get = __cordl_internal_get_blockBits, put = __cordl_internal_set_blockBits)) int32_t blockBits;
 
   /// @brief Field workingKey, offset 0x28, size 0x8
-  __declspec(property(get = __get_workingKey, put = __set_workingKey))::ArrayW<::ArrayW<int64_t, ::Array<int64_t>*>, ::Array<::ArrayW<int64_t, ::Array<int64_t>*>>*> workingKey;
+  __declspec(property(get = __cordl_internal_get_workingKey,
+                      put = __cordl_internal_set_workingKey))::ArrayW<::ArrayW<int64_t, ::Array<int64_t>*>, ::Array<::ArrayW<int64_t, ::Array<int64_t>*>>*> workingKey;
 
   /// @brief Field A0, offset 0x30, size 0x8
-  __declspec(property(get = __get_A0, put = __set_A0)) int64_t A0;
+  __declspec(property(get = __cordl_internal_get_A0, put = __cordl_internal_set_A0)) int64_t A0;
 
   /// @brief Field A1, offset 0x38, size 0x8
-  __declspec(property(get = __get_A1, put = __set_A1)) int64_t A1;
+  __declspec(property(get = __cordl_internal_get_A1, put = __cordl_internal_set_A1)) int64_t A1;
 
   /// @brief Field A2, offset 0x40, size 0x8
-  __declspec(property(get = __get_A2, put = __set_A2)) int64_t A2;
+  __declspec(property(get = __cordl_internal_get_A2, put = __cordl_internal_set_A2)) int64_t A2;
 
   /// @brief Field A3, offset 0x48, size 0x8
-  __declspec(property(get = __get_A3, put = __set_A3)) int64_t A3;
+  __declspec(property(get = __cordl_internal_get_A3, put = __cordl_internal_set_A3)) int64_t A3;
 
   /// @brief Field forEncryption, offset 0x50, size 0x1
-  __declspec(property(get = __get_forEncryption, put = __set_forEncryption)) bool forEncryption;
+  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   /// @brief Field shifts0SC, offset 0x58, size 0x8
-  __declspec(property(get = __get_shifts0SC, put = __set_shifts0SC))::ArrayW<uint8_t, ::Array<uint8_t>*> shifts0SC;
+  __declspec(property(get = __cordl_internal_get_shifts0SC, put = __cordl_internal_set_shifts0SC))::ArrayW<uint8_t, ::Array<uint8_t>*> shifts0SC;
 
   /// @brief Field shifts1SC, offset 0x60, size 0x8
-  __declspec(property(get = __get_shifts1SC, put = __set_shifts1SC))::ArrayW<uint8_t, ::Array<uint8_t>*> shifts1SC;
+  __declspec(property(get = __cordl_internal_get_shifts1SC, put = __cordl_internal_set_shifts1SC))::ArrayW<uint8_t, ::Array<uint8_t>*> shifts1SC;
 
   /// @brief Field MAXROUNDS, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_MAXROUNDS, put = setStaticF_MAXROUNDS)) int32_t MAXROUNDS;
@@ -102,77 +103,77 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr int32_t& __get_BC();
+  constexpr int32_t& __cordl_internal_get_BC();
 
-  constexpr int32_t const& __get_BC() const;
+  constexpr int32_t const& __cordl_internal_get_BC() const;
 
-  constexpr void __set_BC(int32_t value);
+  constexpr void __cordl_internal_set_BC(int32_t value);
 
-  constexpr int64_t& __get_BC_MASK();
+  constexpr int64_t& __cordl_internal_get_BC_MASK();
 
-  constexpr int64_t const& __get_BC_MASK() const;
+  constexpr int64_t const& __cordl_internal_get_BC_MASK() const;
 
-  constexpr void __set_BC_MASK(int64_t value);
+  constexpr void __cordl_internal_set_BC_MASK(int64_t value);
 
-  constexpr int32_t& __get_ROUNDS();
+  constexpr int32_t& __cordl_internal_get_ROUNDS();
 
-  constexpr int32_t const& __get_ROUNDS() const;
+  constexpr int32_t const& __cordl_internal_get_ROUNDS() const;
 
-  constexpr void __set_ROUNDS(int32_t value);
+  constexpr void __cordl_internal_set_ROUNDS(int32_t value);
 
-  constexpr int32_t& __get_blockBits();
+  constexpr int32_t& __cordl_internal_get_blockBits();
 
-  constexpr int32_t const& __get_blockBits() const;
+  constexpr int32_t const& __cordl_internal_get_blockBits() const;
 
-  constexpr void __set_blockBits(int32_t value);
+  constexpr void __cordl_internal_set_blockBits(int32_t value);
 
-  constexpr ::ArrayW<::ArrayW<int64_t, ::Array<int64_t>*>, ::Array<::ArrayW<int64_t, ::Array<int64_t>*>>*>& __get_workingKey();
+  constexpr ::ArrayW<::ArrayW<int64_t, ::Array<int64_t>*>, ::Array<::ArrayW<int64_t, ::Array<int64_t>*>>*>& __cordl_internal_get_workingKey();
 
-  constexpr ::ArrayW<::ArrayW<int64_t, ::Array<int64_t>*>, ::Array<::ArrayW<int64_t, ::Array<int64_t>*>>*> const& __get_workingKey() const;
+  constexpr ::ArrayW<::ArrayW<int64_t, ::Array<int64_t>*>, ::Array<::ArrayW<int64_t, ::Array<int64_t>*>>*> const& __cordl_internal_get_workingKey() const;
 
-  constexpr void __set_workingKey(::ArrayW<::ArrayW<int64_t, ::Array<int64_t>*>, ::Array<::ArrayW<int64_t, ::Array<int64_t>*>>*> value);
+  constexpr void __cordl_internal_set_workingKey(::ArrayW<::ArrayW<int64_t, ::Array<int64_t>*>, ::Array<::ArrayW<int64_t, ::Array<int64_t>*>>*> value);
 
-  constexpr int64_t& __get_A0();
+  constexpr int64_t& __cordl_internal_get_A0();
 
-  constexpr int64_t const& __get_A0() const;
+  constexpr int64_t const& __cordl_internal_get_A0() const;
 
-  constexpr void __set_A0(int64_t value);
+  constexpr void __cordl_internal_set_A0(int64_t value);
 
-  constexpr int64_t& __get_A1();
+  constexpr int64_t& __cordl_internal_get_A1();
 
-  constexpr int64_t const& __get_A1() const;
+  constexpr int64_t const& __cordl_internal_get_A1() const;
 
-  constexpr void __set_A1(int64_t value);
+  constexpr void __cordl_internal_set_A1(int64_t value);
 
-  constexpr int64_t& __get_A2();
+  constexpr int64_t& __cordl_internal_get_A2();
 
-  constexpr int64_t const& __get_A2() const;
+  constexpr int64_t const& __cordl_internal_get_A2() const;
 
-  constexpr void __set_A2(int64_t value);
+  constexpr void __cordl_internal_set_A2(int64_t value);
 
-  constexpr int64_t& __get_A3();
+  constexpr int64_t& __cordl_internal_get_A3();
 
-  constexpr int64_t const& __get_A3() const;
+  constexpr int64_t const& __cordl_internal_get_A3() const;
 
-  constexpr void __set_A3(int64_t value);
+  constexpr void __cordl_internal_set_A3(int64_t value);
 
-  constexpr bool& __get_forEncryption();
+  constexpr bool& __cordl_internal_get_forEncryption();
 
-  constexpr bool const& __get_forEncryption() const;
+  constexpr bool const& __cordl_internal_get_forEncryption() const;
 
-  constexpr void __set_forEncryption(bool value);
+  constexpr void __cordl_internal_set_forEncryption(bool value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_shifts0SC();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_shifts0SC();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_shifts0SC() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_shifts0SC() const;
 
-  constexpr void __set_shifts0SC(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_shifts0SC(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_shifts1SC();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_shifts1SC();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_shifts1SC() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_shifts1SC() const;
 
-  constexpr void __set_shifts1SC(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_shifts1SC(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_MAXROUNDS(int32_t value);
 

@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::SymmetricEncDataPacket);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(557))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(557))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(592))
 // CS Name: ::Org.BouncyCastle.Bcpg::SymmetricEncDataPacket*
 class CORDL_TYPE SymmetricEncDataPacket : public ::Org::BouncyCastle::Bcpg::InputStreamPacket {

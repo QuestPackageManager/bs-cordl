@@ -16,29 +16,29 @@ MARK_REF_PTR_T(::RootMotion::DemoGUIMessage);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12490))
 // CS Name: ::RootMotion::DemoGUIMessage*
 class CORDL_TYPE DemoGUIMessage : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field text, offset 0x18, size 0x8
-  __declspec(property(get = __get_text, put = __set_text))::StringW text;
+  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::StringW text;
 
   /// @brief Field color, offset 0x20, size 0x10
-  __declspec(property(get = __get_color, put = __set_color))::UnityEngine::Color color;
+  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::UnityEngine::Color color;
 
-  constexpr ::StringW& __get_text();
+  constexpr ::StringW& __cordl_internal_get_text();
 
-  constexpr ::StringW const& __get_text() const;
+  constexpr ::StringW const& __cordl_internal_get_text() const;
 
-  constexpr void __set_text(::StringW value);
+  constexpr void __cordl_internal_set_text(::StringW value);
 
-  constexpr ::UnityEngine::Color& __get_color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_color();
 
-  constexpr ::UnityEngine::Color const& __get_color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
 
-  constexpr void __set_color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
 
   /// @brief Method OnGUI, addr 0x123cce0, size 0xf8, virtual false, abstract: false, final false
   inline void OnGUI();

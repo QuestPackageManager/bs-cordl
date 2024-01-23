@@ -16,7 +16,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3834))
 // CS Name: ::System.Collections.Generic::IEqualityComparer`1<T>*
 class CORDL_TYPE IEqualityComparer_1 {

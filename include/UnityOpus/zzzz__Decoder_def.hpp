@@ -28,23 +28,23 @@ MARK_REF_PTR_T(::UnityOpus::Decoder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityOpus {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(16215))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16215))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16212))
 // CS Name: ::UnityOpus::Decoder*
 class CORDL_TYPE Decoder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field decoder, offset 0x10, size 0x8
-  __declspec(property(get = __get_decoder, put = __set_decoder)) void* decoder;
+  __declspec(property(get = __cordl_internal_get_decoder, put = __cordl_internal_set_decoder)) void* decoder;
 
   /// @brief Field channels, offset 0x18, size 0x4
-  __declspec(property(get = __get_channels, put = __set_channels))::UnityOpus::NumChannels channels;
+  __declspec(property(get = __cordl_internal_get_channels, put = __cordl_internal_set_channels))::UnityOpus::NumChannels channels;
 
   /// @brief Field softclipMem, offset 0x20, size 0x8
-  __declspec(property(get = __get_softclipMem, put = __set_softclipMem))::ArrayW<float_t, ::Array<float_t>*> softclipMem;
+  __declspec(property(get = __cordl_internal_get_softclipMem, put = __cordl_internal_set_softclipMem))::ArrayW<float_t, ::Array<float_t>*> softclipMem;
 
   /// @brief Field disposedValue, offset 0x28, size 0x1
-  __declspec(property(get = __get_disposedValue, put = __set_disposedValue)) bool disposedValue;
+  __declspec(property(get = __cordl_internal_get_disposedValue, put = __cordl_internal_set_disposedValue)) bool disposedValue;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -52,29 +52,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr void*& __get_decoder();
+  constexpr void*& __cordl_internal_get_decoder();
 
-  constexpr void* const& __get_decoder() const;
+  constexpr void* const& __cordl_internal_get_decoder() const;
 
-  constexpr void __set_decoder(void* value);
+  constexpr void __cordl_internal_set_decoder(void* value);
 
-  constexpr ::UnityOpus::NumChannels& __get_channels();
+  constexpr ::UnityOpus::NumChannels& __cordl_internal_get_channels();
 
-  constexpr ::UnityOpus::NumChannels const& __get_channels() const;
+  constexpr ::UnityOpus::NumChannels const& __cordl_internal_get_channels() const;
 
-  constexpr void __set_channels(::UnityOpus::NumChannels value);
+  constexpr void __cordl_internal_set_channels(::UnityOpus::NumChannels value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get_softclipMem();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_softclipMem();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get_softclipMem() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_softclipMem() const;
 
-  constexpr void __set_softclipMem(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set_softclipMem(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr bool& __get_disposedValue();
+  constexpr bool& __cordl_internal_get_disposedValue();
 
-  constexpr bool const& __get_disposedValue() const;
+  constexpr bool const& __cordl_internal_get_disposedValue() const;
 
-  constexpr void __set_disposedValue(bool value);
+  constexpr void __cordl_internal_set_disposedValue(bool value);
 
   static inline ::UnityOpus::Decoder* New_ctor(::UnityOpus::SamplingFrequency samplingFrequency, ::UnityOpus::NumChannels channels);
 

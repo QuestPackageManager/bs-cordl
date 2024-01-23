@@ -30,17 +30,17 @@ MARK_REF_PTR_T(::System::Collections::__SortedList__SyncSortedList);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3783))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3783))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3778))
 // CS Name: ::SortedList::SyncSortedList*
 class CORDL_TYPE __SortedList__SyncSortedList : public ::System::Collections::SortedList {
 public:
   // Declarations
   /// @brief Field _list, offset 0x48, size 0x8
-  __declspec(property(get = __get__list, put = __set__list))::System::Collections::SortedList* _list;
+  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::SortedList* _list;
 
   /// @brief Field _root, offset 0x50, size 0x8
-  __declspec(property(get = __get__root, put = __set__root))::System::Object* _root;
+  __declspec(property(get = __cordl_internal_get__root, put = __cordl_internal_set__root))::System::Object* _root;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -54,17 +54,17 @@ public:
 
   __declspec(property(get = get_Item, put = set_Item))::System::Object* Item[];
 
-  constexpr ::System::Collections::SortedList*& __get__list();
+  constexpr ::System::Collections::SortedList*& __cordl_internal_get__list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& __get__list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& __cordl_internal_get__list() const;
 
-  constexpr void __set__list(::System::Collections::SortedList* value);
+  constexpr void __cordl_internal_set__list(::System::Collections::SortedList* value);
 
-  constexpr ::System::Object*& __get__root();
+  constexpr ::System::Object*& __cordl_internal_get__root();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__root() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__root() const;
 
-  constexpr void __set__root(::System::Object* value);
+  constexpr void __cordl_internal_set__root(::System::Object* value);
 
   static inline ::System::Collections::__SortedList__SyncSortedList* New_ctor(::System::Collections::SortedList* list);
 

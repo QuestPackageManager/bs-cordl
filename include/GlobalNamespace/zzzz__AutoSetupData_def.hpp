@@ -14,47 +14,47 @@ MARK_REF_PTR_T(::GlobalNamespace::AutoSetupData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5557))
 // CS Name: ::AutoSetupData*
 class CORDL_TYPE AutoSetupData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field selectBasedOnSuggestions, offset 0x10, size 0x1
-  __declspec(property(get = __get_selectBasedOnSuggestions, put = __set_selectBasedOnSuggestions)) bool selectBasedOnSuggestions;
+  __declspec(property(get = __cordl_internal_get_selectBasedOnSuggestions, put = __cordl_internal_set_selectBasedOnSuggestions)) bool selectBasedOnSuggestions;
 
   /// @brief Field autoStartWhenAllReady, offset 0x11, size 0x1
-  __declspec(property(get = __get_autoStartWhenAllReady, put = __set_autoStartWhenAllReady)) bool autoStartWhenAllReady;
+  __declspec(property(get = __cordl_internal_get_autoStartWhenAllReady, put = __cordl_internal_set_autoStartWhenAllReady)) bool autoStartWhenAllReady;
 
   /// @brief Field forceAutoStartAfterSongSelection, offset 0x12, size 0x1
-  __declspec(property(get = __get_forceAutoStartAfterSongSelection, put = __set_forceAutoStartAfterSongSelection)) bool forceAutoStartAfterSongSelection;
+  __declspec(property(get = __cordl_internal_get_forceAutoStartAfterSongSelection, put = __cordl_internal_set_forceAutoStartAfterSongSelection)) bool forceAutoStartAfterSongSelection;
 
   /// @brief Field randomSongIfNoneSuggested, offset 0x13, size 0x1
-  __declspec(property(get = __get_randomSongIfNoneSuggested, put = __set_randomSongIfNoneSuggested)) bool randomSongIfNoneSuggested;
+  __declspec(property(get = __cordl_internal_get_randomSongIfNoneSuggested, put = __cordl_internal_set_randomSongIfNoneSuggested)) bool randomSongIfNoneSuggested;
 
-  constexpr bool& __get_selectBasedOnSuggestions();
+  constexpr bool& __cordl_internal_get_selectBasedOnSuggestions();
 
-  constexpr bool const& __get_selectBasedOnSuggestions() const;
+  constexpr bool const& __cordl_internal_get_selectBasedOnSuggestions() const;
 
-  constexpr void __set_selectBasedOnSuggestions(bool value);
+  constexpr void __cordl_internal_set_selectBasedOnSuggestions(bool value);
 
-  constexpr bool& __get_autoStartWhenAllReady();
+  constexpr bool& __cordl_internal_get_autoStartWhenAllReady();
 
-  constexpr bool const& __get_autoStartWhenAllReady() const;
+  constexpr bool const& __cordl_internal_get_autoStartWhenAllReady() const;
 
-  constexpr void __set_autoStartWhenAllReady(bool value);
+  constexpr void __cordl_internal_set_autoStartWhenAllReady(bool value);
 
-  constexpr bool& __get_forceAutoStartAfterSongSelection();
+  constexpr bool& __cordl_internal_get_forceAutoStartAfterSongSelection();
 
-  constexpr bool const& __get_forceAutoStartAfterSongSelection() const;
+  constexpr bool const& __cordl_internal_get_forceAutoStartAfterSongSelection() const;
 
-  constexpr void __set_forceAutoStartAfterSongSelection(bool value);
+  constexpr void __cordl_internal_set_forceAutoStartAfterSongSelection(bool value);
 
-  constexpr bool& __get_randomSongIfNoneSuggested();
+  constexpr bool& __cordl_internal_get_randomSongIfNoneSuggested();
 
-  constexpr bool const& __get_randomSongIfNoneSuggested() const;
+  constexpr bool const& __cordl_internal_get_randomSongIfNoneSuggested() const;
 
-  constexpr void __set_randomSongIfNoneSuggested(bool value);
+  constexpr void __cordl_internal_set_randomSongIfNoneSuggested(bool value);
 
   static inline ::GlobalNamespace::AutoSetupData* New_ctor();
 

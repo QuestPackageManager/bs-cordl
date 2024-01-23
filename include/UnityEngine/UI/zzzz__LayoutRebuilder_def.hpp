@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::__LayoutRebuilder____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13092))
 // CS Name: ::LayoutRebuilder::<>c*
 class CORDL_TYPE __LayoutRebuilder____c : public ::System::Object {
@@ -63,43 +63,43 @@ public:
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::UI::__LayoutRebuilder____c* __9;
 
   /// @brief Field <>9__10_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0))::System::Predicate_1<::UnityEngine::Component*>* __9__10_0;
+  static __declspec(property(get = getStaticF___9__10_0, put = setStaticF___9__10_0))::System::Predicate_1<::UnityW<::UnityEngine::Component>>* __9__10_0;
 
   /// @brief Field <>9__12_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0))::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* __9__12_0;
+  static __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0))::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* __9__12_0;
 
   /// @brief Field <>9__12_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__12_1, put = setStaticF___9__12_1))::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* __9__12_1;
+  static __declspec(property(get = getStaticF___9__12_1, put = setStaticF___9__12_1))::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* __9__12_1;
 
   /// @brief Field <>9__12_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__12_2, put = setStaticF___9__12_2))::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* __9__12_2;
+  static __declspec(property(get = getStaticF___9__12_2, put = setStaticF___9__12_2))::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* __9__12_2;
 
   /// @brief Field <>9__12_3, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__12_3, put = setStaticF___9__12_3))::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* __9__12_3;
+  static __declspec(property(get = getStaticF___9__12_3, put = setStaticF___9__12_3))::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* __9__12_3;
 
   static inline void setStaticF___9(::UnityEngine::UI::__LayoutRebuilder____c* value);
 
   static inline ::UnityEngine::UI::__LayoutRebuilder____c* getStaticF___9();
 
-  static inline void setStaticF___9__10_0(::System::Predicate_1<::UnityEngine::Component*>* value);
+  static inline void setStaticF___9__10_0(::System::Predicate_1<::UnityW<::UnityEngine::Component>>* value);
 
-  static inline ::System::Predicate_1<::UnityEngine::Component*>* getStaticF___9__10_0();
+  static inline ::System::Predicate_1<::UnityW<::UnityEngine::Component>>* getStaticF___9__10_0();
 
-  static inline void setStaticF___9__12_0(::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* value);
+  static inline void setStaticF___9__12_0(::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* value);
 
-  static inline ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* getStaticF___9__12_0();
+  static inline ::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* getStaticF___9__12_0();
 
-  static inline void setStaticF___9__12_1(::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* value);
+  static inline void setStaticF___9__12_1(::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* value);
 
-  static inline ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* getStaticF___9__12_1();
+  static inline ::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* getStaticF___9__12_1();
 
-  static inline void setStaticF___9__12_2(::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* value);
+  static inline void setStaticF___9__12_2(::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* value);
 
-  static inline ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* getStaticF___9__12_2();
+  static inline ::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* getStaticF___9__12_2();
 
-  static inline void setStaticF___9__12_3(::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* value);
+  static inline void setStaticF___9__12_3(::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* value);
 
-  static inline ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* getStaticF___9__12_3();
+  static inline ::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* getStaticF___9__12_3();
 
   static inline ::UnityEngine::UI::__LayoutRebuilder____c* New_ctor();
 
@@ -151,7 +151,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__LayoutRebuild
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13093))
 // CS Name: ::UnityEngine.UI::LayoutRebuilder*
 class CORDL_TYPE LayoutRebuilder : public ::System::Object {
@@ -160,15 +160,15 @@ public:
   using __c = ::UnityEngine::UI::__LayoutRebuilder____c;
 
   /// @brief Field m_ToRebuild, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_ToRebuild, put = __set_m_ToRebuild))::UnityEngine::RectTransform* m_ToRebuild;
+  __declspec(property(get = __cordl_internal_get_m_ToRebuild, put = __cordl_internal_set_m_ToRebuild))::UnityW<::UnityEngine::RectTransform> m_ToRebuild;
 
   /// @brief Field m_CachedHashFromTransform, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_CachedHashFromTransform, put = __set_m_CachedHashFromTransform)) int32_t m_CachedHashFromTransform;
+  __declspec(property(get = __cordl_internal_get_m_CachedHashFromTransform, put = __cordl_internal_set_m_CachedHashFromTransform)) int32_t m_CachedHashFromTransform;
 
   /// @brief Field s_Rebuilders, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Rebuilders, put = setStaticF_s_Rebuilders))::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UI::LayoutRebuilder*>* s_Rebuilders;
 
-  __declspec(property(get = get_transform))::UnityEngine::Transform* transform;
+  __declspec(property(get = get_transform))::UnityW<::UnityEngine::Transform> transform;
 
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
@@ -176,17 +176,17 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
   constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
-  constexpr ::UnityEngine::RectTransform*& __get_m_ToRebuild();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_ToRebuild();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_ToRebuild() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_ToRebuild() const;
 
-  constexpr void __set_m_ToRebuild(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_m_ToRebuild(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr int32_t& __get_m_CachedHashFromTransform();
+  constexpr int32_t& __cordl_internal_get_m_CachedHashFromTransform();
 
-  constexpr int32_t const& __get_m_CachedHashFromTransform() const;
+  constexpr int32_t const& __cordl_internal_get_m_CachedHashFromTransform() const;
 
-  constexpr void __set_m_CachedHashFromTransform(int32_t value);
+  constexpr void __cordl_internal_set_m_CachedHashFromTransform(int32_t value);
 
   static inline void setStaticF_s_Rebuilders(::UnityEngine::Pool::ObjectPool_1<::UnityEngine::UI::LayoutRebuilder*>* value);
 
@@ -202,13 +202,13 @@ public:
   static inline void ReapplyDrivenProperties(::UnityEngine::RectTransform* driven);
 
   /// @brief Method get_transform, addr 0x2d78148, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Transform* get_transform();
+  inline ::UnityW<::UnityEngine::Transform> get_transform();
 
   /// @brief Method IsDestroyed, addr 0x2d78150, size 0x60, virtual true, abstract: false, final true
   inline bool IsDestroyed();
 
   /// @brief Method StripDisabledBehavioursFromList, addr 0x2d781b0, size 0xfc, virtual false, abstract: false, final false
-  static inline void StripDisabledBehavioursFromList(::System::Collections::Generic::List_1<::UnityEngine::Component*>* components);
+  static inline void StripDisabledBehavioursFromList(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* components);
 
   /// @brief Method ForceRebuildLayoutImmediate, addr 0x2d782ac, size 0xdc, virtual false, abstract: false, final false
   static inline void ForceRebuildLayoutImmediate(::UnityEngine::RectTransform* layoutRoot);
@@ -217,16 +217,16 @@ public:
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
 
   /// @brief Method PerformLayoutControl, addr 0x2d7893c, size 0x3d0, virtual false, abstract: false, final false
-  inline void PerformLayoutControl(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* action);
+  inline void PerformLayoutControl(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* action);
 
   /// @brief Method PerformLayoutCalculation, addr 0x2d7863c, size 0x300, virtual false, abstract: false, final false
-  inline void PerformLayoutCalculation(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityEngine::Component*>* action);
+  inline void PerformLayoutCalculation(::UnityEngine::RectTransform* rect, ::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::Component>>* action);
 
   /// @brief Method MarkLayoutForRebuild, addr 0x2d73630, size 0x3ec, virtual false, abstract: false, final false
   static inline void MarkLayoutForRebuild(::UnityEngine::RectTransform* rect);
 
   /// @brief Method ValidController, addr 0x2d78d0c, size 0x1f4, virtual false, abstract: false, final false
-  static inline bool ValidController(::UnityEngine::RectTransform* layoutRoot, ::System::Collections::Generic::List_1<::UnityEngine::Component*>* comps);
+  static inline bool ValidController(::UnityEngine::RectTransform* layoutRoot, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Component>>* comps);
 
   /// @brief Method MarkLayoutRootForRebuild, addr 0x2d78f00, size 0x164, virtual false, abstract: false, final false
   static inline void MarkLayoutRootForRebuild(::UnityEngine::RectTransform* controller);
@@ -266,7 +266,7 @@ protected:
 
 public:
   /// @brief Field m_ToRebuild, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___m_ToRebuild;
+  ::UnityW<::UnityEngine::RectTransform> ___m_ToRebuild;
 
   /// @brief Field m_CachedHashFromTransform, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_CachedHashFromTransform;

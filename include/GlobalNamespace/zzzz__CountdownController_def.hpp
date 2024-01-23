@@ -28,86 +28,90 @@ MARK_REF_PTR_T(::GlobalNamespace::CountdownController);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5558))
 // CS Name: ::CountdownController*
 class CORDL_TYPE CountdownController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _audioSource, offset 0x18, size 0x8
-  __declspec(property(get = __get__audioSource, put = __set__audioSource))::UnityEngine::AudioSource* _audioSource;
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
 
   /// @brief Field _countdownElementControllers, offset 0x20, size 0x8
-  __declspec(property(
-      get = __get__countdownElementControllers,
-      put = __set__countdownElementControllers))::ArrayW<::GlobalNamespace::CountdownElementController*, ::Array<::GlobalNamespace::CountdownElementController*>*> _countdownElementControllers;
+  __declspec(property(get = __cordl_internal_get__countdownElementControllers,
+                      put = __cordl_internal_set__countdownElementControllers))::ArrayW<::UnityW<::GlobalNamespace::CountdownElementController>,
+                                                                                        ::Array<::UnityW<::GlobalNamespace::CountdownElementController>>*> _countdownElementControllers;
 
   /// @brief Field _timeProvider, offset 0x28, size 0x8
-  __declspec(property(get = __get__timeProvider, put = __set__timeProvider))::GlobalNamespace::ITimeProvider* _timeProvider;
+  __declspec(property(get = __cordl_internal_get__timeProvider, put = __cordl_internal_set__timeProvider))::GlobalNamespace::ITimeProvider* _timeProvider;
 
   /// @brief Field _countdownEndTime, offset 0x30, size 0x8
-  __declspec(property(get = __get__countdownEndTime, put = __set__countdownEndTime)) int64_t _countdownEndTime;
+  __declspec(property(get = __cordl_internal_get__countdownEndTime, put = __cordl_internal_set__countdownEndTime)) int64_t _countdownEndTime;
 
   /// @brief Field _currentRemainingSecond, offset 0x38, size 0x4
-  __declspec(property(get = __get__currentRemainingSecond, put = __set__currentRemainingSecond)) int32_t _currentRemainingSecond;
+  __declspec(property(get = __cordl_internal_get__currentRemainingSecond, put = __cordl_internal_set__currentRemainingSecond)) int32_t _currentRemainingSecond;
 
   /// @brief Field _gongSounded, offset 0x3c, size 0x1
-  __declspec(property(get = __get__gongSounded, put = __set__gongSounded)) bool _gongSounded;
+  __declspec(property(get = __cordl_internal_get__gongSounded, put = __cordl_internal_set__gongSounded)) bool _gongSounded;
 
   /// @brief Field _countdownRunning, offset 0x3d, size 0x1
-  __declspec(property(get = __get__countdownRunning, put = __set__countdownRunning)) bool _countdownRunning;
+  __declspec(property(get = __cordl_internal_get__countdownRunning, put = __cordl_internal_set__countdownRunning)) bool _countdownRunning;
 
   /// @brief Field _countdownElementControllerQueue, offset 0x40, size 0x8
-  __declspec(property(get = __get__countdownElementControllerQueue,
-                      put = __set__countdownElementControllerQueue))::System::Collections::Generic::Queue_1<::GlobalNamespace::CountdownElementController*>* _countdownElementControllerQueue;
+  __declspec(property(
+      get = __cordl_internal_get__countdownElementControllerQueue,
+      put = __cordl_internal_set__countdownElementControllerQueue))::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::CountdownElementController>>* _countdownElementControllerQueue;
 
-  constexpr ::UnityEngine::AudioSource*& __get__audioSource();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get__audioSource() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
 
-  constexpr void __set__audioSource(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::CountdownElementController*, ::Array<::GlobalNamespace::CountdownElementController*>*>& __get__countdownElementControllers();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::CountdownElementController>, ::Array<::UnityW<::GlobalNamespace::CountdownElementController>>*>& __cordl_internal_get__countdownElementControllers();
 
-  constexpr ::ArrayW<::GlobalNamespace::CountdownElementController*, ::Array<::GlobalNamespace::CountdownElementController*>*> const& __get__countdownElementControllers() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::CountdownElementController>, ::Array<::UnityW<::GlobalNamespace::CountdownElementController>>*> const&
+  __cordl_internal_get__countdownElementControllers() const;
 
-  constexpr void __set__countdownElementControllers(::ArrayW<::GlobalNamespace::CountdownElementController*, ::Array<::GlobalNamespace::CountdownElementController*>*> value);
+  constexpr void
+  __cordl_internal_set__countdownElementControllers(::ArrayW<::UnityW<::GlobalNamespace::CountdownElementController>, ::Array<::UnityW<::GlobalNamespace::CountdownElementController>>*> value);
 
-  constexpr ::GlobalNamespace::ITimeProvider*& __get__timeProvider();
+  constexpr ::GlobalNamespace::ITimeProvider*& __cordl_internal_get__timeProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ITimeProvider*> const& __get__timeProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ITimeProvider*> const& __cordl_internal_get__timeProvider() const;
 
-  constexpr void __set__timeProvider(::GlobalNamespace::ITimeProvider* value);
+  constexpr void __cordl_internal_set__timeProvider(::GlobalNamespace::ITimeProvider* value);
 
-  constexpr int64_t& __get__countdownEndTime();
+  constexpr int64_t& __cordl_internal_get__countdownEndTime();
 
-  constexpr int64_t const& __get__countdownEndTime() const;
+  constexpr int64_t const& __cordl_internal_get__countdownEndTime() const;
 
-  constexpr void __set__countdownEndTime(int64_t value);
+  constexpr void __cordl_internal_set__countdownEndTime(int64_t value);
 
-  constexpr int32_t& __get__currentRemainingSecond();
+  constexpr int32_t& __cordl_internal_get__currentRemainingSecond();
 
-  constexpr int32_t const& __get__currentRemainingSecond() const;
+  constexpr int32_t const& __cordl_internal_get__currentRemainingSecond() const;
 
-  constexpr void __set__currentRemainingSecond(int32_t value);
+  constexpr void __cordl_internal_set__currentRemainingSecond(int32_t value);
 
-  constexpr bool& __get__gongSounded();
+  constexpr bool& __cordl_internal_get__gongSounded();
 
-  constexpr bool const& __get__gongSounded() const;
+  constexpr bool const& __cordl_internal_get__gongSounded() const;
 
-  constexpr void __set__gongSounded(bool value);
+  constexpr void __cordl_internal_set__gongSounded(bool value);
 
-  constexpr bool& __get__countdownRunning();
+  constexpr bool& __cordl_internal_get__countdownRunning();
 
-  constexpr bool const& __get__countdownRunning() const;
+  constexpr bool const& __cordl_internal_get__countdownRunning() const;
 
-  constexpr void __set__countdownRunning(bool value);
+  constexpr void __cordl_internal_set__countdownRunning(bool value);
 
-  constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::CountdownElementController*>*& __get__countdownElementControllerQueue();
+  constexpr ::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::CountdownElementController>>*& __cordl_internal_get__countdownElementControllerQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::GlobalNamespace::CountdownElementController*>*> const& __get__countdownElementControllerQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::CountdownElementController>>*> const&
+  __cordl_internal_get__countdownElementControllerQueue() const;
 
-  constexpr void __set__countdownElementControllerQueue(::System::Collections::Generic::Queue_1<::GlobalNamespace::CountdownElementController*>* value);
+  constexpr void __cordl_internal_set__countdownElementControllerQueue(::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::CountdownElementController>>* value);
 
   /// @brief Method Awake, addr 0x22a2f54, size 0x18, virtual false, abstract: false, final false
   inline void Awake();
@@ -144,10 +148,10 @@ protected:
 
 public:
   /// @brief Field _audioSource, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ____audioSource;
+  ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
   /// @brief Field _countdownElementControllers, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::CountdownElementController*, ::Array<::GlobalNamespace::CountdownElementController*>*> ____countdownElementControllers;
+  ::ArrayW<::UnityW<::GlobalNamespace::CountdownElementController>, ::Array<::UnityW<::GlobalNamespace::CountdownElementController>>*> ____countdownElementControllers;
 
   /// @brief Field _timeProvider, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::ITimeProvider* ____timeProvider;
@@ -165,7 +169,7 @@ public:
   bool ____countdownRunning;
 
   /// @brief Field _countdownElementControllerQueue, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::Generic::Queue_1<::GlobalNamespace::CountdownElementController*>* ____countdownElementControllerQueue;
+  ::System::Collections::Generic::Queue_1<::UnityW<::GlobalNamespace::CountdownElementController>>* ____countdownElementControllerQueue;
 
   /// @brief Field kGongTime offset 0xffffffff size 0x8
   static constexpr int64_t kGongTime{ static_cast<int64_t>(0x1388) };

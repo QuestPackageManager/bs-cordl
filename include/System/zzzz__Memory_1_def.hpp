@@ -34,7 +34,7 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2437))
 // CS Name: ::System::Memory`1<T>
 struct CORDL_TYPE Memory_1 {

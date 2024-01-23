@@ -48,20 +48,20 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__BindableElement__UxmlTraits);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6737))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6737))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6800))
 // CS Name: ::BindableElement::UxmlTraits*
 class CORDL_TYPE __BindableElement__UxmlTraits : public ::UnityEngine::UIElements::__VisualElement__UxmlTraits {
 public:
   // Declarations
   /// @brief Field m_PropertyPath, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_PropertyPath, put = __set_m_PropertyPath))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_PropertyPath;
+  __declspec(property(get = __cordl_internal_get_m_PropertyPath, put = __cordl_internal_set_m_PropertyPath))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_PropertyPath;
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_PropertyPath();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_PropertyPath();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_PropertyPath() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_PropertyPath() const;
 
-  constexpr void __set_m_PropertyPath(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_PropertyPath(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
   static inline ::UnityEngine::UIElements::__BindableElement__UxmlTraits* New_ctor();
 
@@ -100,7 +100,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__BindableElement__UxmlTraits,
 // SizeInfo { instance_size: 960, native_size: -1, calculated_instance_size: 960, calculated_native_size: 960, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6744))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6801))
 // CS Name: ::UnityEngine.UIElements::BindableElement*
 class CORDL_TYPE BindableElement : public ::UnityEngine::UIElements::VisualElement {
@@ -111,10 +111,10 @@ public:
   using UxmlFactory = ::UnityEngine::UIElements::__BindableElement__UxmlFactory;
 
   /// @brief Field <binding>k__BackingField, offset 0x3b0, size 0x8
-  __declspec(property(get = __get__binding_k__BackingField, put = __set__binding_k__BackingField))::UnityEngine::UIElements::IBinding* _binding_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__binding_k__BackingField, put = __cordl_internal_set__binding_k__BackingField))::UnityEngine::UIElements::IBinding* _binding_k__BackingField;
 
   /// @brief Field <bindingPath>k__BackingField, offset 0x3b8, size 0x8
-  __declspec(property(get = __get__bindingPath_k__BackingField, put = __set__bindingPath_k__BackingField))::StringW _bindingPath_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__bindingPath_k__BackingField, put = __cordl_internal_set__bindingPath_k__BackingField))::StringW _bindingPath_k__BackingField;
 
   __declspec(property(get = get_binding))::UnityEngine::UIElements::IBinding* binding;
 
@@ -126,17 +126,17 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IBindable"
   constexpr ::UnityEngine::UIElements::IBindable* i___UnityEngine__UIElements__IBindable() noexcept;
 
-  constexpr ::UnityEngine::UIElements::IBinding*& __get__binding_k__BackingField();
+  constexpr ::UnityEngine::UIElements::IBinding*& __cordl_internal_get__binding_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IBinding*> const& __get__binding_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IBinding*> const& __cordl_internal_get__binding_k__BackingField() const;
 
-  constexpr void __set__binding_k__BackingField(::UnityEngine::UIElements::IBinding* value);
+  constexpr void __cordl_internal_set__binding_k__BackingField(::UnityEngine::UIElements::IBinding* value);
 
-  constexpr ::StringW& __get__bindingPath_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__bindingPath_k__BackingField();
 
-  constexpr ::StringW const& __get__bindingPath_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__bindingPath_k__BackingField() const;
 
-  constexpr void __set__bindingPath_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__bindingPath_k__BackingField(::StringW value);
 
   /// @brief Method get_binding, addr 0x2dbcf00, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IBinding* get_binding();
@@ -183,8 +183,8 @@ static_assert(offsetof(::UnityEngine::UIElements::BindableElement, ____bindingPa
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5256 }), TypeDefinitionIndex(TypeDefinitionIndex(6801)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6800)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6799)) CS Name: ::BindableElement::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6800)), TypeDefinitionIndex(TypeDefinitionIndex(6801)), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5256 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6799)) CS Name: ::BindableElement::UxmlFactory*
 class CORDL_TYPE __BindableElement__UxmlFactory
     : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::BindableElement*, ::UnityEngine::UIElements::__BindableElement__UxmlTraits*> {
 public:

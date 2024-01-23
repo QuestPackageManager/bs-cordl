@@ -38,13 +38,13 @@ MARK_REF_PTR_T(::UnityEngine::Tilemaps::Tilemap);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16183))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16183))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15939))
 // CS Name: ::UnityEngine.Tilemaps::Tilemap*
 class CORDL_TYPE Tilemap : public ::UnityEngine::GridLayout {
 public:
   // Declarations
-  __declspec(property(get = get_layoutGrid))::UnityEngine::Grid* layoutGrid;
+  __declspec(property(get = get_layoutGrid))::UnityW<::UnityEngine::Grid> layoutGrid;
 
   __declspec(property(get = get_cellBounds))::UnityEngine::BoundsInt cellBounds;
 
@@ -57,7 +57,7 @@ public:
   __declspec(property(get = get_orientationMatrix))::UnityEngine::Matrix4x4 orientationMatrix;
 
   /// @brief Method get_layoutGrid, addr 0x2d4f8d4, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Grid* get_layoutGrid();
+  inline ::UnityW<::UnityEngine::Grid> get_layoutGrid();
 
   /// @brief Method get_cellBounds, addr 0x2d4f910, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::BoundsInt get_cellBounds();
@@ -75,16 +75,16 @@ public:
   inline ::UnityEngine::Matrix4x4 get_orientationMatrix();
 
   /// @brief Method GetTileAsset, addr 0x2d4fc24, size 0x54, virtual false, abstract: false, final false
-  inline ::UnityEngine::Object* GetTileAsset(::UnityEngine::Vector3Int position);
+  inline ::UnityW<::UnityEngine::Object> GetTileAsset(::UnityEngine::Vector3Int position);
 
   /// @brief Method GetTile, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline T GetTile(::UnityEngine::Vector3Int position);
 
   /// @brief Method GetTileAssetsBlock, addr 0x2d4fcbc, size 0x60, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> GetTileAssetsBlock(::UnityEngine::Vector3Int position, ::UnityEngine::Vector3Int blockDimensions);
+  inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> GetTileAssetsBlock(::UnityEngine::Vector3Int position, ::UnityEngine::Vector3Int blockDimensions);
 
   /// @brief Method GetTilesBlock, addr 0x2d4fd70, size 0x194, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Tilemaps::TileBase*, ::Array<::UnityEngine::Tilemaps::TileBase*>*> GetTilesBlock(::UnityEngine::BoundsInt bounds);
+  inline ::ArrayW<::UnityW<::UnityEngine::Tilemaps::TileBase>, ::Array<::UnityW<::UnityEngine::Tilemaps::TileBase>>*> GetTilesBlock(::UnityEngine::BoundsInt bounds);
 
   /// @brief Method HasTile, addr 0x2d4ff04, size 0x84, virtual false, abstract: false, final false
   inline bool HasTile(::UnityEngine::Vector3Int position);
@@ -117,10 +117,11 @@ public:
   inline void get_orientationMatrix_Injected(ByRef<::UnityEngine::Matrix4x4> ret);
 
   /// @brief Method GetTileAsset_Injected, addr 0x2d4fc78, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Object* GetTileAsset_Injected(ByRef<::UnityEngine::Vector3Int> position);
+  inline ::UnityW<::UnityEngine::Object> GetTileAsset_Injected(ByRef<::UnityEngine::Vector3Int> position);
 
   /// @brief Method GetTileAssetsBlock_Injected, addr 0x2d4fd1c, size 0x54, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> GetTileAssetsBlock_Injected(ByRef<::UnityEngine::Vector3Int> position, ByRef<::UnityEngine::Vector3Int> blockDimensions);
+  inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> GetTileAssetsBlock_Injected(ByRef<::UnityEngine::Vector3Int> position,
+                                                                                                                          ByRef<::UnityEngine::Vector3Int> blockDimensions);
 
   /// @brief Method RefreshTile_Injected, addr 0x2d4ffdc, size 0x44, virtual false, abstract: false, final false
   inline void RefreshTile_Injected(ByRef<::UnityEngine::Vector3Int> position);

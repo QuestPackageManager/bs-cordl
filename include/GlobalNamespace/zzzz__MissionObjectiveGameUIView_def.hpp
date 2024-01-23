@@ -31,137 +31,138 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionObjectiveGameUIView);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5035))
 // CS Name: ::MissionObjectiveGameUIView*
 class CORDL_TYPE MissionObjectiveGameUIView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _notFailedIcon, offset 0x18, size 0x8
-  __declspec(property(get = __get__notFailedIcon, put = __set__notFailedIcon))::UnityEngine::Sprite* _notFailedIcon;
+  __declspec(property(get = __cordl_internal_get__notFailedIcon, put = __cordl_internal_set__notFailedIcon))::UnityW<::UnityEngine::Sprite> _notFailedIcon;
 
   /// @brief Field _failedIcon, offset 0x20, size 0x8
-  __declspec(property(get = __get__failedIcon, put = __set__failedIcon))::UnityEngine::Sprite* _failedIcon;
+  __declspec(property(get = __cordl_internal_get__failedIcon, put = __cordl_internal_set__failedIcon))::UnityW<::UnityEngine::Sprite> _failedIcon;
 
   /// @brief Field _notClearedIcon, offset 0x28, size 0x8
-  __declspec(property(get = __get__notClearedIcon, put = __set__notClearedIcon))::UnityEngine::Sprite* _notClearedIcon;
+  __declspec(property(get = __cordl_internal_get__notClearedIcon, put = __cordl_internal_set__notClearedIcon))::UnityW<::UnityEngine::Sprite> _notClearedIcon;
 
   /// @brief Field _clearedIcon, offset 0x30, size 0x8
-  __declspec(property(get = __get__clearedIcon, put = __set__clearedIcon))::UnityEngine::Sprite* _clearedIcon;
+  __declspec(property(get = __cordl_internal_get__clearedIcon, put = __cordl_internal_set__clearedIcon))::UnityW<::UnityEngine::Sprite> _clearedIcon;
 
   /// @brief Field _resultIcon, offset 0x38, size 0x8
-  __declspec(property(get = __get__resultIcon, put = __set__resultIcon))::UnityEngine::UI::Image* _resultIcon;
+  __declspec(property(get = __cordl_internal_get__resultIcon, put = __cordl_internal_set__resultIcon))::UnityW<::UnityEngine::UI::Image> _resultIcon;
 
   /// @brief Field _finalClearIconColor, offset 0x40, size 0x10
-  __declspec(property(get = __get__finalClearIconColor, put = __set__finalClearIconColor))::UnityEngine::Color _finalClearIconColor;
+  __declspec(property(get = __cordl_internal_get__finalClearIconColor, put = __cordl_internal_set__finalClearIconColor))::UnityEngine::Color _finalClearIconColor;
 
   /// @brief Field _finalFailIconColor, offset 0x50, size 0x10
-  __declspec(property(get = __get__finalFailIconColor, put = __set__finalFailIconColor))::UnityEngine::Color _finalFailIconColor;
+  __declspec(property(get = __cordl_internal_get__finalFailIconColor, put = __cordl_internal_set__finalFailIconColor))::UnityEngine::Color _finalFailIconColor;
 
   /// @brief Field _nonFinalIconColor, offset 0x60, size 0x10
-  __declspec(property(get = __get__nonFinalIconColor, put = __set__nonFinalIconColor))::UnityEngine::Color _nonFinalIconColor;
+  __declspec(property(get = __cordl_internal_get__nonFinalIconColor, put = __cordl_internal_set__nonFinalIconColor))::UnityEngine::Color _nonFinalIconColor;
 
   /// @brief Field _clearedPS, offset 0x70, size 0x8
-  __declspec(property(get = __get__clearedPS, put = __set__clearedPS))::UnityEngine::ParticleSystem* _clearedPS;
+  __declspec(property(get = __cordl_internal_get__clearedPS, put = __cordl_internal_set__clearedPS))::UnityW<::UnityEngine::ParticleSystem> _clearedPS;
 
   /// @brief Field _numberOfParticles, offset 0x78, size 0x4
-  __declspec(property(get = __get__numberOfParticles, put = __set__numberOfParticles)) int32_t _numberOfParticles;
+  __declspec(property(get = __cordl_internal_get__numberOfParticles, put = __cordl_internal_set__numberOfParticles)) int32_t _numberOfParticles;
 
   /// @brief Field _nameText, offset 0x80, size 0x8
-  __declspec(property(get = __get__nameText, put = __set__nameText))::TMPro::TextMeshProUGUI* _nameText;
+  __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText))::UnityW<::TMPro::TextMeshProUGUI> _nameText;
 
   /// @brief Field _valueText, offset 0x88, size 0x8
-  __declspec(property(get = __get__valueText, put = __set__valueText))::TMPro::TextMeshProUGUI* _valueText;
+  __declspec(property(get = __cordl_internal_get__valueText, put = __cordl_internal_set__valueText))::UnityW<::TMPro::TextMeshProUGUI> _valueText;
 
   /// @brief Field _conditionText, offset 0x90, size 0x8
-  __declspec(property(get = __get__conditionText, put = __set__conditionText))::TMPro::TextMeshProUGUI* _conditionText;
+  __declspec(property(get = __cordl_internal_get__conditionText, put = __cordl_internal_set__conditionText))::UnityW<::TMPro::TextMeshProUGUI> _conditionText;
 
   /// @brief Field _missionObjectiveChecker, offset 0x98, size 0x8
-  __declspec(property(get = __get__missionObjectiveChecker, put = __set__missionObjectiveChecker))::GlobalNamespace::MissionObjectiveChecker* _missionObjectiveChecker;
+  __declspec(property(get = __cordl_internal_get__missionObjectiveChecker,
+                      put = __cordl_internal_set__missionObjectiveChecker))::UnityW<::GlobalNamespace::MissionObjectiveChecker> _missionObjectiveChecker;
 
-  constexpr ::UnityEngine::Sprite*& __get__notFailedIcon();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__notFailedIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__notFailedIcon() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__notFailedIcon() const;
 
-  constexpr void __set__notFailedIcon(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__notFailedIcon(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__failedIcon();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__failedIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__failedIcon() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__failedIcon() const;
 
-  constexpr void __set__failedIcon(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__failedIcon(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__notClearedIcon();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__notClearedIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__notClearedIcon() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__notClearedIcon() const;
 
-  constexpr void __set__notClearedIcon(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__notClearedIcon(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__clearedIcon();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__clearedIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__clearedIcon() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__clearedIcon() const;
 
-  constexpr void __set__clearedIcon(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__clearedIcon(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__resultIcon();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__resultIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__resultIcon() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__resultIcon() const;
 
-  constexpr void __set__resultIcon(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__resultIcon(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::Color& __get__finalClearIconColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__finalClearIconColor();
 
-  constexpr ::UnityEngine::Color const& __get__finalClearIconColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__finalClearIconColor() const;
 
-  constexpr void __set__finalClearIconColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__finalClearIconColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__finalFailIconColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__finalFailIconColor();
 
-  constexpr ::UnityEngine::Color const& __get__finalFailIconColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__finalFailIconColor() const;
 
-  constexpr void __set__finalFailIconColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__finalFailIconColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__nonFinalIconColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__nonFinalIconColor();
 
-  constexpr ::UnityEngine::Color const& __get__nonFinalIconColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__nonFinalIconColor() const;
 
-  constexpr void __set__nonFinalIconColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__nonFinalIconColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::ParticleSystem*& __get__clearedPS();
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__clearedPS();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& __get__clearedPS() const;
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__clearedPS() const;
 
-  constexpr void __set__clearedPS(::UnityEngine::ParticleSystem* value);
+  constexpr void __cordl_internal_set__clearedPS(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  constexpr int32_t& __get__numberOfParticles();
+  constexpr int32_t& __cordl_internal_get__numberOfParticles();
 
-  constexpr int32_t const& __get__numberOfParticles() const;
+  constexpr int32_t const& __cordl_internal_get__numberOfParticles() const;
 
-  constexpr void __set__numberOfParticles(int32_t value);
+  constexpr void __cordl_internal_set__numberOfParticles(int32_t value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__nameText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__nameText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__nameText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__nameText() const;
 
-  constexpr void __set__nameText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__valueText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__valueText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__valueText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__valueText() const;
 
-  constexpr void __set__valueText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__valueText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__conditionText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__conditionText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__conditionText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__conditionText() const;
 
-  constexpr void __set__conditionText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__conditionText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::GlobalNamespace::MissionObjectiveChecker*& __get__missionObjectiveChecker();
+  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveChecker>& __cordl_internal_get__missionObjectiveChecker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionObjectiveChecker*> const& __get__missionObjectiveChecker() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionObjectiveChecker> const& __cordl_internal_get__missionObjectiveChecker() const;
 
-  constexpr void __set__missionObjectiveChecker(::GlobalNamespace::MissionObjectiveChecker* value);
+  constexpr void __cordl_internal_set__missionObjectiveChecker(::UnityW<::GlobalNamespace::MissionObjectiveChecker> value);
 
   /// @brief Method SetMissionObjectiveChecker, addr 0x23c1034, size 0x27c, virtual false, abstract: false, final false
   inline void SetMissionObjectiveChecker(::GlobalNamespace::MissionObjectiveChecker* missionObjectiveChecker);
@@ -198,19 +199,19 @@ protected:
 
 public:
   /// @brief Field _notFailedIcon, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____notFailedIcon;
+  ::UnityW<::UnityEngine::Sprite> ____notFailedIcon;
 
   /// @brief Field _failedIcon, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____failedIcon;
+  ::UnityW<::UnityEngine::Sprite> ____failedIcon;
 
   /// @brief Field _notClearedIcon, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____notClearedIcon;
+  ::UnityW<::UnityEngine::Sprite> ____notClearedIcon;
 
   /// @brief Field _clearedIcon, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____clearedIcon;
+  ::UnityW<::UnityEngine::Sprite> ____clearedIcon;
 
   /// @brief Field _resultIcon, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____resultIcon;
+  ::UnityW<::UnityEngine::UI::Image> ____resultIcon;
 
   /// @brief Field _finalClearIconColor, offset: 0x40, size: 0x10, def value: None
   ::UnityEngine::Color ____finalClearIconColor;
@@ -222,22 +223,22 @@ public:
   ::UnityEngine::Color ____nonFinalIconColor;
 
   /// @brief Field _clearedPS, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem* ____clearedPS;
+  ::UnityW<::UnityEngine::ParticleSystem> ____clearedPS;
 
   /// @brief Field _numberOfParticles, offset: 0x78, size: 0x4, def value: None
   int32_t ____numberOfParticles;
 
   /// @brief Field _nameText, offset: 0x80, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____nameText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
   /// @brief Field _valueText, offset: 0x88, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____valueText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____valueText;
 
   /// @brief Field _conditionText, offset: 0x90, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____conditionText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____conditionText;
 
   /// @brief Field _missionObjectiveChecker, offset: 0x98, size: 0x8, def value: None
-  ::GlobalNamespace::MissionObjectiveChecker* ____missionObjectiveChecker;
+  ::UnityW<::GlobalNamespace::MissionObjectiveChecker> ____missionObjectiveChecker;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

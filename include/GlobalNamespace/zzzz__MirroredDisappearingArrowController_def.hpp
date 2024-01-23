@@ -18,24 +18,25 @@ MARK_REF_PTR_T(::GlobalNamespace::MirroredDisappearingArrowController);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4742)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 348 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4755))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4753)) CS Name: ::MirroredDisappearingArrowController*
-class CORDL_TYPE MirroredDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::GlobalNamespace::MirroredGameNoteController*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4742)), TypeDefinitionIndex(TypeDefinitionIndex(4755)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4742), inst: 348
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4753)) CS Name: ::MirroredDisappearingArrowController*
+class CORDL_TYPE MirroredDisappearingArrowController : public ::GlobalNamespace::DisappearingArrowControllerBase_1<::UnityW<::GlobalNamespace::MirroredGameNoteController>> {
 public:
   // Declarations
   /// @brief Field _mirroredGameNoteController, offset 0x50, size 0x8
-  __declspec(property(get = __get__mirroredGameNoteController, put = __set__mirroredGameNoteController))::GlobalNamespace::MirroredGameNoteController* _mirroredGameNoteController;
+  __declspec(property(get = __cordl_internal_get__mirroredGameNoteController,
+                      put = __cordl_internal_set__mirroredGameNoteController))::UnityW<::GlobalNamespace::MirroredGameNoteController> _mirroredGameNoteController;
 
-  __declspec(property(get = get_gameNoteController))::GlobalNamespace::MirroredGameNoteController* gameNoteController;
+  __declspec(property(get = get_gameNoteController))::UnityW<::GlobalNamespace::MirroredGameNoteController> gameNoteController;
 
-  constexpr ::GlobalNamespace::MirroredGameNoteController*& __get__mirroredGameNoteController();
+  constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController>& __cordl_internal_get__mirroredGameNoteController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirroredGameNoteController*> const& __get__mirroredGameNoteController() const;
+  constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController> const& __cordl_internal_get__mirroredGameNoteController() const;
 
-  constexpr void __set__mirroredGameNoteController(::GlobalNamespace::MirroredGameNoteController* value);
+  constexpr void __cordl_internal_set__mirroredGameNoteController(::UnityW<::GlobalNamespace::MirroredGameNoteController> value);
 
   /// @brief Method get_gameNoteController, addr 0x23861c4, size 0x8, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::MirroredGameNoteController* get_gameNoteController();
+  inline ::UnityW<::GlobalNamespace::MirroredGameNoteController> get_gameNoteController();
 
   static inline ::GlobalNamespace::MirroredDisappearingArrowController* New_ctor();
 
@@ -57,7 +58,7 @@ protected:
 
 public:
   /// @brief Field _mirroredGameNoteController, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::MirroredGameNoteController* ____mirroredGameNoteController;
+  ::UnityW<::GlobalNamespace::MirroredGameNoteController> ____mirroredGameNoteController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

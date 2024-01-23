@@ -15,7 +15,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_Keyframe);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9745))
 // CS Name: ::HoudiniEngineUnity::HAPI_Keyframe
 struct CORDL_TYPE HAPI_Keyframe {

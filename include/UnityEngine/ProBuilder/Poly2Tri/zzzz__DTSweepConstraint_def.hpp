@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15340))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15340))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15329))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DTSweepConstraint*
 class CORDL_TYPE DTSweepConstraint : public ::UnityEngine::ProBuilder::Poly2Tri::TriangulationConstraint {

@@ -41,69 +41,73 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4714))
 // CS Name: ::BeatmapObjectExecutionRatingsRecorder*
 class CORDL_TYPE BeatmapObjectExecutionRatingsRecorder : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _scoreController, offset 0x18, size 0x8
-  __declspec(property(get = __get__scoreController, put = __set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
+  __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
 
   /// @brief Field _beatmapObjectManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapObjectManager, put = __set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
   /// @brief Field _playerHeadAndObstacleInteraction, offset 0x28, size 0x8
-  __declspec(property(get = __get__playerHeadAndObstacleInteraction,
-                      put = __set__playerHeadAndObstacleInteraction))::GlobalNamespace::PlayerHeadAndObstacleInteraction* _playerHeadAndObstacleInteraction;
+  __declspec(property(get = __cordl_internal_get__playerHeadAndObstacleInteraction,
+                      put = __cordl_internal_set__playerHeadAndObstacleInteraction))::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> _playerHeadAndObstacleInteraction;
 
   /// @brief Field _audioTimeSyncController, offset 0x30, size 0x8
-  __declspec(property(get = __get__audioTimeSyncController, put = __set__audioTimeSyncController))::GlobalNamespace::AudioTimeSyncController* _audioTimeSyncController;
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
+                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
   /// @brief Field _beatmapObjectExecutionRatings, offset 0x38, size 0x8
-  __declspec(property(get = __get__beatmapObjectExecutionRatings,
-                      put = __set__beatmapObjectExecutionRatings))::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>* _beatmapObjectExecutionRatings;
+  __declspec(
+      property(get = __cordl_internal_get__beatmapObjectExecutionRatings,
+               put = __cordl_internal_set__beatmapObjectExecutionRatings))::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>* _beatmapObjectExecutionRatings;
 
   /// @brief Field _hitObstacles, offset 0x40, size 0x8
-  __declspec(property(get = __get__hitObstacles, put = __set__hitObstacles))::System::Collections::Generic::HashSet_1<::GlobalNamespace::ObstacleController*>* _hitObstacles;
+  __declspec(property(get = __cordl_internal_get__hitObstacles,
+                      put = __cordl_internal_set__hitObstacles))::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::ObstacleController>>* _hitObstacles;
 
   __declspec(property(get = get_beatmapObjectExecutionRatings))::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>* beatmapObjectExecutionRatings;
 
-  constexpr ::GlobalNamespace::IScoreController*& __get__scoreController();
+  constexpr ::GlobalNamespace::IScoreController*& __cordl_internal_get__scoreController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __get__scoreController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __cordl_internal_get__scoreController() const;
 
-  constexpr void __set__scoreController(::GlobalNamespace::IScoreController* value);
+  constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __get__beatmapObjectManager();
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __get__beatmapObjectManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  constexpr ::GlobalNamespace::PlayerHeadAndObstacleInteraction*& __get__playerHeadAndObstacleInteraction();
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>& __cordl_internal_get__playerHeadAndObstacleInteraction();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerHeadAndObstacleInteraction*> const& __get__playerHeadAndObstacleInteraction() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> const& __cordl_internal_get__playerHeadAndObstacleInteraction() const;
 
-  constexpr void __set__playerHeadAndObstacleInteraction(::GlobalNamespace::PlayerHeadAndObstacleInteraction* value);
+  constexpr void __cordl_internal_set__playerHeadAndObstacleInteraction(::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> value);
 
-  constexpr ::GlobalNamespace::AudioTimeSyncController*& __get__audioTimeSyncController();
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& __get__audioTimeSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value);
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>*& __get__beatmapObjectExecutionRatings();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>*& __cordl_internal_get__beatmapObjectExecutionRatings();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>*> const& __get__beatmapObjectExecutionRatings() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>*> const&
+  __cordl_internal_get__beatmapObjectExecutionRatings() const;
 
-  constexpr void __set__beatmapObjectExecutionRatings(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>* value);
+  constexpr void __cordl_internal_set__beatmapObjectExecutionRatings(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::ObstacleController*>*& __get__hitObstacles();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get__hitObstacles();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::GlobalNamespace::ObstacleController*>*> const& __get__hitObstacles() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::ObstacleController>>*> const& __cordl_internal_get__hitObstacles() const;
 
-  constexpr void __set__hitObstacles(::System::Collections::Generic::HashSet_1<::GlobalNamespace::ObstacleController*>* value);
+  constexpr void __cordl_internal_set__hitObstacles(::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method get_beatmapObjectExecutionRatings, addr 0x237c3c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>* get_beatmapObjectExecutionRatings();
@@ -149,16 +153,16 @@ public:
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
   /// @brief Field _playerHeadAndObstacleInteraction, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerHeadAndObstacleInteraction* ____playerHeadAndObstacleInteraction;
+  ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> ____playerHeadAndObstacleInteraction;
 
   /// @brief Field _audioTimeSyncController, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::AudioTimeSyncController* ____audioTimeSyncController;
+  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
   /// @brief Field _beatmapObjectExecutionRatings, offset: 0x38, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectExecutionRating*>* ____beatmapObjectExecutionRatings;
 
   /// @brief Field _hitObstacles, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<::GlobalNamespace::ObstacleController*>* ____hitObstacles;
+  ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::ObstacleController>>* ____hitObstacles;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

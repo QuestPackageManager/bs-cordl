@@ -23,44 +23,44 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Macs::SipHash);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Macs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(946))
 // CS Name: ::Org.BouncyCastle.Crypto.Macs::SipHash*
 class CORDL_TYPE SipHash : public ::System::Object {
 public:
   // Declarations
   /// @brief Field c, offset 0x10, size 0x4
-  __declspec(property(get = __get_c, put = __set_c)) int32_t c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c)) int32_t c;
 
   /// @brief Field d, offset 0x14, size 0x4
-  __declspec(property(get = __get_d, put = __set_d)) int32_t d;
+  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d)) int32_t d;
 
   /// @brief Field k0, offset 0x18, size 0x8
-  __declspec(property(get = __get_k0, put = __set_k0)) int64_t k0;
+  __declspec(property(get = __cordl_internal_get_k0, put = __cordl_internal_set_k0)) int64_t k0;
 
   /// @brief Field k1, offset 0x20, size 0x8
-  __declspec(property(get = __get_k1, put = __set_k1)) int64_t k1;
+  __declspec(property(get = __cordl_internal_get_k1, put = __cordl_internal_set_k1)) int64_t k1;
 
   /// @brief Field v0, offset 0x28, size 0x8
-  __declspec(property(get = __get_v0, put = __set_v0)) int64_t v0;
+  __declspec(property(get = __cordl_internal_get_v0, put = __cordl_internal_set_v0)) int64_t v0;
 
   /// @brief Field v1, offset 0x30, size 0x8
-  __declspec(property(get = __get_v1, put = __set_v1)) int64_t v1;
+  __declspec(property(get = __cordl_internal_get_v1, put = __cordl_internal_set_v1)) int64_t v1;
 
   /// @brief Field v2, offset 0x38, size 0x8
-  __declspec(property(get = __get_v2, put = __set_v2)) int64_t v2;
+  __declspec(property(get = __cordl_internal_get_v2, put = __cordl_internal_set_v2)) int64_t v2;
 
   /// @brief Field v3, offset 0x40, size 0x8
-  __declspec(property(get = __get_v3, put = __set_v3)) int64_t v3;
+  __declspec(property(get = __cordl_internal_get_v3, put = __cordl_internal_set_v3)) int64_t v3;
 
   /// @brief Field m, offset 0x48, size 0x8
-  __declspec(property(get = __get_m, put = __set_m)) int64_t m;
+  __declspec(property(get = __cordl_internal_get_m, put = __cordl_internal_set_m)) int64_t m;
 
   /// @brief Field wordPos, offset 0x50, size 0x4
-  __declspec(property(get = __get_wordPos, put = __set_wordPos)) int32_t wordPos;
+  __declspec(property(get = __cordl_internal_get_wordPos, put = __cordl_internal_set_wordPos)) int32_t wordPos;
 
   /// @brief Field wordCount, offset 0x54, size 0x4
-  __declspec(property(get = __get_wordCount, put = __set_wordCount)) int32_t wordCount;
+  __declspec(property(get = __cordl_internal_get_wordCount, put = __cordl_internal_set_wordCount)) int32_t wordCount;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -70,71 +70,71 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
   constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
-  constexpr int32_t& __get_c();
+  constexpr int32_t& __cordl_internal_get_c();
 
-  constexpr int32_t const& __get_c() const;
+  constexpr int32_t const& __cordl_internal_get_c() const;
 
-  constexpr void __set_c(int32_t value);
+  constexpr void __cordl_internal_set_c(int32_t value);
 
-  constexpr int32_t& __get_d();
+  constexpr int32_t& __cordl_internal_get_d();
 
-  constexpr int32_t const& __get_d() const;
+  constexpr int32_t const& __cordl_internal_get_d() const;
 
-  constexpr void __set_d(int32_t value);
+  constexpr void __cordl_internal_set_d(int32_t value);
 
-  constexpr int64_t& __get_k0();
+  constexpr int64_t& __cordl_internal_get_k0();
 
-  constexpr int64_t const& __get_k0() const;
+  constexpr int64_t const& __cordl_internal_get_k0() const;
 
-  constexpr void __set_k0(int64_t value);
+  constexpr void __cordl_internal_set_k0(int64_t value);
 
-  constexpr int64_t& __get_k1();
+  constexpr int64_t& __cordl_internal_get_k1();
 
-  constexpr int64_t const& __get_k1() const;
+  constexpr int64_t const& __cordl_internal_get_k1() const;
 
-  constexpr void __set_k1(int64_t value);
+  constexpr void __cordl_internal_set_k1(int64_t value);
 
-  constexpr int64_t& __get_v0();
+  constexpr int64_t& __cordl_internal_get_v0();
 
-  constexpr int64_t const& __get_v0() const;
+  constexpr int64_t const& __cordl_internal_get_v0() const;
 
-  constexpr void __set_v0(int64_t value);
+  constexpr void __cordl_internal_set_v0(int64_t value);
 
-  constexpr int64_t& __get_v1();
+  constexpr int64_t& __cordl_internal_get_v1();
 
-  constexpr int64_t const& __get_v1() const;
+  constexpr int64_t const& __cordl_internal_get_v1() const;
 
-  constexpr void __set_v1(int64_t value);
+  constexpr void __cordl_internal_set_v1(int64_t value);
 
-  constexpr int64_t& __get_v2();
+  constexpr int64_t& __cordl_internal_get_v2();
 
-  constexpr int64_t const& __get_v2() const;
+  constexpr int64_t const& __cordl_internal_get_v2() const;
 
-  constexpr void __set_v2(int64_t value);
+  constexpr void __cordl_internal_set_v2(int64_t value);
 
-  constexpr int64_t& __get_v3();
+  constexpr int64_t& __cordl_internal_get_v3();
 
-  constexpr int64_t const& __get_v3() const;
+  constexpr int64_t const& __cordl_internal_get_v3() const;
 
-  constexpr void __set_v3(int64_t value);
+  constexpr void __cordl_internal_set_v3(int64_t value);
 
-  constexpr int64_t& __get_m();
+  constexpr int64_t& __cordl_internal_get_m();
 
-  constexpr int64_t const& __get_m() const;
+  constexpr int64_t const& __cordl_internal_get_m() const;
 
-  constexpr void __set_m(int64_t value);
+  constexpr void __cordl_internal_set_m(int64_t value);
 
-  constexpr int32_t& __get_wordPos();
+  constexpr int32_t& __cordl_internal_get_wordPos();
 
-  constexpr int32_t const& __get_wordPos() const;
+  constexpr int32_t const& __cordl_internal_get_wordPos() const;
 
-  constexpr void __set_wordPos(int32_t value);
+  constexpr void __cordl_internal_set_wordPos(int32_t value);
 
-  constexpr int32_t& __get_wordCount();
+  constexpr int32_t& __cordl_internal_get_wordCount();
 
-  constexpr int32_t const& __get_wordCount() const;
+  constexpr int32_t const& __cordl_internal_get_wordCount() const;
 
-  constexpr void __set_wordCount(int32_t value);
+  constexpr void __cordl_internal_set_wordCount(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::SipHash* New_ctor();
 

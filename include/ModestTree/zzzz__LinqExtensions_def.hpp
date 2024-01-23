@@ -65,26 +65,26 @@ namespace ModestTree {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10610))
 // CS Name: ::LinqExtensions::<Yield>d__0`1<T>*
 class CORDL_TYPE __LinqExtensions___Yield_d__0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current)) T __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) T __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field item, offset 0x28, size 0x8
-  __declspec(property(get = __get_item, put = __set_item)) T item;
+  __declspec(property(get = __cordl_internal_get_item, put = __cordl_internal_set_item)) T item;
 
   /// @brief Field <>3__item, offset 0x30, size 0x8
-  __declspec(property(get = __get___3__item, put = __set___3__item)) T __3__item;
+  __declspec(property(get = __cordl_internal_get___3__item, put = __cordl_internal_set___3__item)) T __3__item;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_T__get_Current)) T System_Collections_Generic_IEnumerator_T__Current;
 
@@ -120,35 +120,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr T& __get___2__current();
+  constexpr T& __cordl_internal_get___2__current();
 
-  constexpr T const& __get___2__current() const;
+  constexpr T const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(T value);
+  constexpr void __cordl_internal_set___2__current(T value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr T& __get_item();
+  constexpr T& __cordl_internal_get_item();
 
-  constexpr T const& __get_item() const;
+  constexpr T const& __cordl_internal_get_item() const;
 
-  constexpr void __set_item(T value);
+  constexpr void __cordl_internal_set_item(T value);
 
-  constexpr T& __get___3__item();
+  constexpr T& __cordl_internal_get___3__item();
 
-  constexpr T const& __get___3__item() const;
+  constexpr T const& __cordl_internal_get___3__item() const;
 
-  constexpr void __set___3__item(T value);
+  constexpr void __cordl_internal_set___3__item(T value);
 
   static inline ::ModestTree::__LinqExtensions___Yield_d__0_1<T>* New_ctor(int32_t __1__state);
 
@@ -215,7 +215,7 @@ namespace ModestTree {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10611))
 // CS Name: ::LinqExtensions::<>c__8`1<T>*
 class CORDL_TYPE __LinqExtensions____c__8_1 : public ::System::Object {
@@ -287,20 +287,20 @@ namespace ModestTree {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10612))
 // CS Name: ::LinqExtensions::<>c__DisplayClass10_0`1<T>*
 class CORDL_TYPE __LinqExtensions____c__DisplayClass10_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field value, offset 0x10, size 0x8
-  __declspec(property(get = __get_value, put = __set_value)) T value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) T value;
 
-  constexpr T& __get_value();
+  constexpr T& __cordl_internal_get_value();
 
-  constexpr T const& __get_value() const;
+  constexpr T const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(T value);
+  constexpr void __cordl_internal_set_value(T value);
 
   static inline ::ModestTree::__LinqExtensions____c__DisplayClass10_0_1<T>* New_ctor();
 
@@ -335,7 +335,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace ModestTree {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10613))
 // CS Name: ::ModestTree::LinqExtensions*
 class CORDL_TYPE LinqExtensions : public ::System::Object {

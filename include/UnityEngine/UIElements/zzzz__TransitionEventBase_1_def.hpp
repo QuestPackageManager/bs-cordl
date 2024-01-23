@@ -24,33 +24,33 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7187)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1719 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7180))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7188)) CS Name: ::UnityEngine.UIElements::TransitionEventBase`1<T>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(7187)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1719
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7188)) CS Name: ::UnityEngine.UIElements::TransitionEventBase`1<T>*
 class CORDL_TYPE TransitionEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
   /// @brief Field <stylePropertyNames>k__BackingField, offset 0x80, size 0x8
-  __declspec(property(get = __get__stylePropertyNames_k__BackingField,
-                      put = __set__stylePropertyNames_k__BackingField))::UnityEngine::UIElements::StylePropertyNameCollection _stylePropertyNames_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__stylePropertyNames_k__BackingField,
+                      put = __cordl_internal_set__stylePropertyNames_k__BackingField))::UnityEngine::UIElements::StylePropertyNameCollection _stylePropertyNames_k__BackingField;
 
   /// @brief Field <elapsedTime>k__BackingField, offset 0x88, size 0x8
-  __declspec(property(get = __get__elapsedTime_k__BackingField, put = __set__elapsedTime_k__BackingField)) double_t _elapsedTime_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__elapsedTime_k__BackingField, put = __cordl_internal_set__elapsedTime_k__BackingField)) double_t _elapsedTime_k__BackingField;
 
   __declspec(property(get = get_stylePropertyNames))::UnityEngine::UIElements::StylePropertyNameCollection stylePropertyNames;
 
   __declspec(property(put = set_elapsedTime)) double_t elapsedTime;
 
-  constexpr ::UnityEngine::UIElements::StylePropertyNameCollection& __get__stylePropertyNames_k__BackingField();
+  constexpr ::UnityEngine::UIElements::StylePropertyNameCollection& __cordl_internal_get__stylePropertyNames_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::StylePropertyNameCollection const& __get__stylePropertyNames_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::StylePropertyNameCollection const& __cordl_internal_get__stylePropertyNames_k__BackingField() const;
 
-  constexpr void __set__stylePropertyNames_k__BackingField(::UnityEngine::UIElements::StylePropertyNameCollection value);
+  constexpr void __cordl_internal_set__stylePropertyNames_k__BackingField(::UnityEngine::UIElements::StylePropertyNameCollection value);
 
-  constexpr double_t& __get__elapsedTime_k__BackingField();
+  constexpr double_t& __cordl_internal_get__elapsedTime_k__BackingField();
 
-  constexpr double_t const& __get__elapsedTime_k__BackingField() const;
+  constexpr double_t const& __cordl_internal_get__elapsedTime_k__BackingField() const;
 
-  constexpr void __set__elapsedTime_k__BackingField(double_t value);
+  constexpr void __cordl_internal_set__elapsedTime_k__BackingField(double_t value);
 
   /// @brief Method get_stylePropertyNames, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StylePropertyNameCollection get_stylePropertyNames();

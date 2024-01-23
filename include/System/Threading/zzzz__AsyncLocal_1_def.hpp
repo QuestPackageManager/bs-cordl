@@ -28,14 +28,15 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2657))
 // CS Name: ::System.Threading::AsyncLocal`1<T>*
 class CORDL_TYPE AsyncLocal_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_valueChangedHandler, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_valueChangedHandler, put = __set_m_valueChangedHandler))::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>* m_valueChangedHandler;
+  __declspec(property(get = __cordl_internal_get_m_valueChangedHandler,
+                      put = __cordl_internal_set_m_valueChangedHandler))::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>* m_valueChangedHandler;
 
   __declspec(property(put = set_Value)) T Value;
 
@@ -45,11 +46,11 @@ public:
   /// @brief Convert to "::System::Threading::IAsyncLocal"
   constexpr ::System::Threading::IAsyncLocal* i___System__Threading__IAsyncLocal() noexcept;
 
-  constexpr ::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>*& __get_m_valueChangedHandler();
+  constexpr ::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>*& __cordl_internal_get_m_valueChangedHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>*> const& __get_m_valueChangedHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>*> const& __cordl_internal_get_m_valueChangedHandler() const;
 
-  constexpr void __set_m_valueChangedHandler(::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>* value);
+  constexpr void __cordl_internal_set_m_valueChangedHandler(::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>* value);
 
   static inline ::System::Threading::AsyncLocal_1<T>* New_ctor(::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>* valueChangedHandler);
 

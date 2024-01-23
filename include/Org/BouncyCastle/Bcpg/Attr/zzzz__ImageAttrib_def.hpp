@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Attr::ImageAttrib);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::Attr {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(529))
 // CS Name: ::ImageAttrib::Format
 struct CORDL_TYPE __ImageAttrib__Format {
@@ -70,7 +70,7 @@ static_assert(offsetof(::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format, v
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::Attr {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(528))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(528))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(530))
 // CS Name: ::Org.BouncyCastle.Bcpg.Attr::ImageAttrib*
 class CORDL_TYPE ImageAttrib : public ::Org::BouncyCastle::Bcpg::UserAttributeSubpacket {
@@ -79,16 +79,16 @@ public:
   using Format = ::Org::BouncyCastle::Bcpg::Attr::__ImageAttrib__Format;
 
   /// @brief Field hdrLength, offset 0x20, size 0x4
-  __declspec(property(get = __get_hdrLength, put = __set_hdrLength)) int32_t hdrLength;
+  __declspec(property(get = __cordl_internal_get_hdrLength, put = __cordl_internal_set_hdrLength)) int32_t hdrLength;
 
   /// @brief Field _version, offset 0x24, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _encoding, offset 0x28, size 0x4
-  __declspec(property(get = __get__encoding, put = __set__encoding)) int32_t _encoding;
+  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding)) int32_t _encoding;
 
   /// @brief Field imageData, offset 0x30, size 0x8
-  __declspec(property(get = __get_imageData, put = __set_imageData))::ArrayW<uint8_t, ::Array<uint8_t>*> imageData;
+  __declspec(property(get = __cordl_internal_get_imageData, put = __cordl_internal_set_imageData))::ArrayW<uint8_t, ::Array<uint8_t>*> imageData;
 
   /// @brief Field Zeroes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Zeroes, put = setStaticF_Zeroes))::ArrayW<uint8_t, ::Array<uint8_t>*> Zeroes;
@@ -97,29 +97,29 @@ public:
 
   __declspec(property(get = get_Encoding)) int32_t Encoding;
 
-  constexpr int32_t& __get_hdrLength();
+  constexpr int32_t& __cordl_internal_get_hdrLength();
 
-  constexpr int32_t const& __get_hdrLength() const;
+  constexpr int32_t const& __cordl_internal_get_hdrLength() const;
 
-  constexpr void __set_hdrLength(int32_t value);
+  constexpr void __cordl_internal_set_hdrLength(int32_t value);
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
-  constexpr int32_t& __get__encoding();
+  constexpr int32_t& __cordl_internal_get__encoding();
 
-  constexpr int32_t const& __get__encoding() const;
+  constexpr int32_t const& __cordl_internal_get__encoding() const;
 
-  constexpr void __set__encoding(int32_t value);
+  constexpr void __cordl_internal_set__encoding(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_imageData();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_imageData();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_imageData() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_imageData() const;
 
-  constexpr void __set_imageData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_imageData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_Zeroes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

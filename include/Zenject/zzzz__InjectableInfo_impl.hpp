@@ -13,100 +13,100 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x2eb974c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectableInfo*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectSources>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectableInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectSources>::get() })));
     return ___internal_method;
   }
 };
-constexpr bool& Zenject::InjectableInfo::__get_Optional() {
+constexpr bool& Zenject::InjectableInfo::__cordl_internal_get_Optional() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Optional;
 }
-constexpr bool const& Zenject::InjectableInfo::__get_Optional() const {
+constexpr bool const& Zenject::InjectableInfo::__cordl_internal_get_Optional() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Optional;
 }
-constexpr void Zenject::InjectableInfo::__set_Optional(bool value) {
+constexpr void Zenject::InjectableInfo::__cordl_internal_set_Optional(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___Optional = value;
 }
-constexpr ::System::Object*& Zenject::InjectableInfo::__get_Identifier() {
+constexpr ::System::Object*& Zenject::InjectableInfo::__cordl_internal_get_Identifier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Identifier;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Zenject::InjectableInfo::__get_Identifier() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Zenject::InjectableInfo::__cordl_internal_get_Identifier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Identifier;
 }
-constexpr void Zenject::InjectableInfo::__set_Identifier(::System::Object* value) {
+constexpr void Zenject::InjectableInfo::__cordl_internal_set_Identifier(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___Identifier)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Zenject::InjectSources& Zenject::InjectableInfo::__get_SourceType() {
+constexpr ::Zenject::InjectSources& Zenject::InjectableInfo::__cordl_internal_get_SourceType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SourceType;
 }
-constexpr ::Zenject::InjectSources const& Zenject::InjectableInfo::__get_SourceType() const {
+constexpr ::Zenject::InjectSources const& Zenject::InjectableInfo::__cordl_internal_get_SourceType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___SourceType;
 }
-constexpr void Zenject::InjectableInfo::__set_SourceType(::Zenject::InjectSources value) {
+constexpr void Zenject::InjectableInfo::__cordl_internal_set_SourceType(::Zenject::InjectSources value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___SourceType = value;
 }
-constexpr ::StringW& Zenject::InjectableInfo::__get_MemberName() {
+constexpr ::StringW& Zenject::InjectableInfo::__cordl_internal_get_MemberName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MemberName;
 }
-constexpr ::StringW const& Zenject::InjectableInfo::__get_MemberName() const {
+constexpr ::StringW const& Zenject::InjectableInfo::__cordl_internal_get_MemberName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MemberName;
 }
-constexpr void Zenject::InjectableInfo::__set_MemberName(::StringW value) {
+constexpr void Zenject::InjectableInfo::__cordl_internal_set_MemberName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___MemberName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Type*& Zenject::InjectableInfo::__get_MemberType() {
+constexpr ::System::Type*& Zenject::InjectableInfo::__cordl_internal_get_MemberType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MemberType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::InjectableInfo::__get_MemberType() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& Zenject::InjectableInfo::__cordl_internal_get_MemberType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MemberType;
 }
-constexpr void Zenject::InjectableInfo::__set_MemberType(::System::Type* value) {
+constexpr void Zenject::InjectableInfo::__cordl_internal_set_MemberType(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___MemberType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& Zenject::InjectableInfo::__get_DefaultValue() {
+constexpr ::System::Object*& Zenject::InjectableInfo::__cordl_internal_get_DefaultValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DefaultValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Zenject::InjectableInfo::__get_DefaultValue() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Zenject::InjectableInfo::__cordl_internal_get_DefaultValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DefaultValue;
 }
-constexpr void Zenject::InjectableInfo::__set_DefaultValue(::System::Object* value) {
+constexpr void Zenject::InjectableInfo::__cordl_internal_set_DefaultValue(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DefaultValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Zenject::InjectableInfo* Zenject::InjectableInfo::New_ctor(bool optional, ::System::Object* identifier, ::StringW memberName, ::System::Type* memberType, ::System::Object* defaultValue,
                                                                     ::Zenject::InjectSources sourceType) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Zenject::InjectableInfo*>(optional, identifier, memberName, memberType, defaultValue, sourceType));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::InjectableInfo*>(optional, identifier, memberName, memberType, defaultValue, sourceType));
 }
 inline void Zenject::InjectableInfo::_ctor(bool optional, ::System::Object* identifier, ::StringW memberName, ::System::Type* memberType, ::System::Object* defaultValue,
                                            ::Zenject::InjectSources sourceType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectableInfo*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectSources>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InjectableInfo*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectSources>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, optional, identifier, memberName, memberType, defaultValue, sourceType);
 }
 // Ctor Parameters []

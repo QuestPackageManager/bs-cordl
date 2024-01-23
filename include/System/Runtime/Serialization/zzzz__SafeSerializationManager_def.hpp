@@ -41,26 +41,28 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SafeSerializationManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3227))
 // CS Name: ::System.Runtime.Serialization::SafeSerializationManager*
 class CORDL_TYPE SafeSerializationManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_serializedStates, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_serializedStates, put = __set_m_serializedStates))::System::Collections::Generic::IList_1<::System::Object*>* m_serializedStates;
+  __declspec(property(get = __cordl_internal_get_m_serializedStates, put = __cordl_internal_set_m_serializedStates))::System::Collections::Generic::IList_1<::System::Object*>* m_serializedStates;
 
   /// @brief Field m_savedSerializationInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_savedSerializationInfo, put = __set_m_savedSerializationInfo))::System::Runtime::Serialization::SerializationInfo* m_savedSerializationInfo;
+  __declspec(property(get = __cordl_internal_get_m_savedSerializationInfo,
+                      put = __cordl_internal_set_m_savedSerializationInfo))::System::Runtime::Serialization::SerializationInfo* m_savedSerializationInfo;
 
   /// @brief Field m_realObject, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_realObject, put = __set_m_realObject))::System::Object* m_realObject;
+  __declspec(property(get = __cordl_internal_get_m_realObject, put = __cordl_internal_set_m_realObject))::System::Object* m_realObject;
 
   /// @brief Field m_realType, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_realType, put = __set_m_realType))::System::RuntimeType* m_realType;
+  __declspec(property(get = __cordl_internal_get_m_realType, put = __cordl_internal_set_m_realType))::System::RuntimeType* m_realType;
 
   /// @brief Field SerializeObjectState, offset 0x30, size 0x8
-  __declspec(property(get = __get_SerializeObjectState, put = __set_SerializeObjectState))::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>* SerializeObjectState;
+  __declspec(property(get = __cordl_internal_get_SerializeObjectState,
+                      put = __cordl_internal_set_SerializeObjectState))::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>* SerializeObjectState;
 
   __declspec(property(get = get_IsActive)) bool IsActive;
 
@@ -76,35 +78,35 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::System::Collections::Generic::IList_1<::System::Object*>*& __get_m_serializedStates();
+  constexpr ::System::Collections::Generic::IList_1<::System::Object*>*& __cordl_internal_get_m_serializedStates();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::Object*>*> const& __get_m_serializedStates() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::Object*>*> const& __cordl_internal_get_m_serializedStates() const;
 
-  constexpr void __set_m_serializedStates(::System::Collections::Generic::IList_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set_m_serializedStates(::System::Collections::Generic::IList_1<::System::Object*>* value);
 
-  constexpr ::System::Runtime::Serialization::SerializationInfo*& __get_m_savedSerializationInfo();
+  constexpr ::System::Runtime::Serialization::SerializationInfo*& __cordl_internal_get_m_savedSerializationInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __get_m_savedSerializationInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __cordl_internal_get_m_savedSerializationInfo() const;
 
-  constexpr void __set_m_savedSerializationInfo(::System::Runtime::Serialization::SerializationInfo* value);
+  constexpr void __cordl_internal_set_m_savedSerializationInfo(::System::Runtime::Serialization::SerializationInfo* value);
 
-  constexpr ::System::Object*& __get_m_realObject();
+  constexpr ::System::Object*& __cordl_internal_get_m_realObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_realObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_realObject() const;
 
-  constexpr void __set_m_realObject(::System::Object* value);
+  constexpr void __cordl_internal_set_m_realObject(::System::Object* value);
 
-  constexpr ::System::RuntimeType*& __get_m_realType();
+  constexpr ::System::RuntimeType*& __cordl_internal_get_m_realType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::RuntimeType*> const& __get_m_realType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::RuntimeType*> const& __cordl_internal_get_m_realType() const;
 
-  constexpr void __set_m_realType(::System::RuntimeType* value);
+  constexpr void __cordl_internal_set_m_realType(::System::RuntimeType* value);
 
-  constexpr ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*& __get_SerializeObjectState();
+  constexpr ::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*& __cordl_internal_get_SerializeObjectState();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*> const& __get_SerializeObjectState() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>*> const& __cordl_internal_get_SerializeObjectState() const;
 
-  constexpr void __set_SerializeObjectState(::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>* value);
+  constexpr void __cordl_internal_set_SerializeObjectState(::System::EventHandler_1<::System::Runtime::Serialization::SafeSerializationEventArgs*>* value);
 
   static inline ::System::Runtime::Serialization::SafeSerializationManager* New_ctor();
 

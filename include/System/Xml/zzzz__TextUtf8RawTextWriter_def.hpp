@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::System::Xml::TextUtf8RawTextWriter);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 134, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11475))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11475))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11444))
 // CS Name: ::System.Xml::TextUtf8RawTextWriter*
 class CORDL_TYPE TextUtf8RawTextWriter : public ::System::Xml::XmlUtf8RawTextWriter {

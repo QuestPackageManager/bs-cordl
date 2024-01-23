@@ -21,7 +21,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11032))
 // CS Name: ::Zenject::IMemoryPool`4<TParam1,TParam2,TParam3,TValue>*
 class CORDL_TYPE IMemoryPool_4 {

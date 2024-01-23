@@ -15,7 +15,7 @@ MARK_VAL_T(::OVR::OpenVR::IntersectionMaskCircle_t);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8709))
 // CS Name: ::OVR.OpenVR::IntersectionMaskCircle_t
 struct CORDL_TYPE IntersectionMaskCircle_t {

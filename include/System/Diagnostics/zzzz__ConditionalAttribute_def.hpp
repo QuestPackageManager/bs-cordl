@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::System::Diagnostics::ConditionalAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3727))
 // CS Name: ::System.Diagnostics::ConditionalAttribute*
 class CORDL_TYPE ConditionalAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <ConditionString>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__ConditionString_k__BackingField, put = __set__ConditionString_k__BackingField))::StringW _ConditionString_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ConditionString_k__BackingField, put = __cordl_internal_set__ConditionString_k__BackingField))::StringW _ConditionString_k__BackingField;
 
-  constexpr ::StringW& __get__ConditionString_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__ConditionString_k__BackingField();
 
-  constexpr ::StringW const& __get__ConditionString_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__ConditionString_k__BackingField() const;
 
-  constexpr void __set__ConditionString_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__ConditionString_k__BackingField(::StringW value);
 
   static inline ::System::Diagnostics::ConditionalAttribute* New_ctor(::StringW conditionString);
 

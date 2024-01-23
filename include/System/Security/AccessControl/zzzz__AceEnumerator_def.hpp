@@ -27,17 +27,17 @@ MARK_REF_PTR_T(::System::Security::AccessControl::AceEnumerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3016))
 // CS Name: ::System.Security.AccessControl::AceEnumerator*
 class CORDL_TYPE AceEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field owner, offset 0x10, size 0x8
-  __declspec(property(get = __get_owner, put = __set_owner))::System::Security::AccessControl::GenericAcl* owner;
+  __declspec(property(get = __cordl_internal_get_owner, put = __cordl_internal_set_owner))::System::Security::AccessControl::GenericAcl* owner;
 
   /// @brief Field current, offset 0x18, size 0x4
-  __declspec(property(get = __get_current, put = __set_current)) int32_t current;
+  __declspec(property(get = __cordl_internal_get_current, put = __cordl_internal_set_current)) int32_t current;
 
   __declspec(property(get = get_Current))::System::Security::AccessControl::GenericAce* Current;
 
@@ -49,17 +49,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::System::Security::AccessControl::GenericAcl*& __get_owner();
+  constexpr ::System::Security::AccessControl::GenericAcl*& __cordl_internal_get_owner();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::GenericAcl*> const& __get_owner() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::GenericAcl*> const& __cordl_internal_get_owner() const;
 
-  constexpr void __set_owner(::System::Security::AccessControl::GenericAcl* value);
+  constexpr void __cordl_internal_set_owner(::System::Security::AccessControl::GenericAcl* value);
 
-  constexpr int32_t& __get_current();
+  constexpr int32_t& __cordl_internal_get_current();
 
-  constexpr int32_t const& __get_current() const;
+  constexpr int32_t const& __cordl_internal_get_current() const;
 
-  constexpr void __set_current(int32_t value);
+  constexpr void __cordl_internal_set_current(int32_t value);
 
   static inline ::System::Security::AccessControl::AceEnumerator* New_ctor(::System::Security::AccessControl::GenericAcl* owner);
 

@@ -81,7 +81,7 @@ MARK_REF_PTR_T(::System::Net::__CommandStream__PipelineEntry);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9033))
 // CS Name: ::CommandStream::PipelineInstruction
 struct CORDL_TYPE __CommandStream__PipelineInstruction {
@@ -143,7 +143,7 @@ static_assert(offsetof(::System::Net::__CommandStream__PipelineInstruction, valu
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9034))
 // CS Name: ::CommandStream::PipelineEntryFlags
 struct CORDL_TYPE __CommandStream__PipelineEntryFlags {
@@ -201,29 +201,29 @@ static_assert(offsetof(::System::Net::__CommandStream__PipelineEntryFlags, value
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9034)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9034))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9035))
 // CS Name: ::CommandStream::PipelineEntry*
 class CORDL_TYPE __CommandStream__PipelineEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Command, offset 0x10, size 0x8
-  __declspec(property(get = __get_Command, put = __set_Command))::StringW Command;
+  __declspec(property(get = __cordl_internal_get_Command, put = __cordl_internal_set_Command))::StringW Command;
 
   /// @brief Field Flags, offset 0x18, size 0x4
-  __declspec(property(get = __get_Flags, put = __set_Flags))::System::Net::__CommandStream__PipelineEntryFlags Flags;
+  __declspec(property(get = __cordl_internal_get_Flags, put = __cordl_internal_set_Flags))::System::Net::__CommandStream__PipelineEntryFlags Flags;
 
-  constexpr ::StringW& __get_Command();
+  constexpr ::StringW& __cordl_internal_get_Command();
 
-  constexpr ::StringW const& __get_Command() const;
+  constexpr ::StringW const& __cordl_internal_get_Command() const;
 
-  constexpr void __set_Command(::StringW value);
+  constexpr void __cordl_internal_set_Command(::StringW value);
 
-  constexpr ::System::Net::__CommandStream__PipelineEntryFlags& __get_Flags();
+  constexpr ::System::Net::__CommandStream__PipelineEntryFlags& __cordl_internal_get_Flags();
 
-  constexpr ::System::Net::__CommandStream__PipelineEntryFlags const& __get_Flags() const;
+  constexpr ::System::Net::__CommandStream__PipelineEntryFlags const& __cordl_internal_get_Flags() const;
 
-  constexpr void __set_Flags(::System::Net::__CommandStream__PipelineEntryFlags value);
+  constexpr void __cordl_internal_set_Flags(::System::Net::__CommandStream__PipelineEntryFlags value);
 
   static inline ::System::Net::__CommandStream__PipelineEntry* New_ctor(::StringW command);
 
@@ -272,7 +272,7 @@ static_assert(offsetof(::System::Net::__CommandStream__PipelineEntry, ___Flags) 
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9054))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9054))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9036))
 // CS Name: ::System.Net::CommandStream*
 class CORDL_TYPE CommandStream : public ::System::Net::NetworkStreamWrapper {
@@ -285,43 +285,44 @@ public:
   using PipelineInstruction = ::System::Net::__CommandStream__PipelineInstruction;
 
   /// @brief Field _recoverableFailure, offset 0x38, size 0x1
-  __declspec(property(get = __get__recoverableFailure, put = __set__recoverableFailure)) bool _recoverableFailure;
+  __declspec(property(get = __cordl_internal_get__recoverableFailure, put = __cordl_internal_set__recoverableFailure)) bool _recoverableFailure;
 
   /// @brief Field _request, offset 0x40, size 0x8
-  __declspec(property(get = __get__request, put = __set__request))::System::Net::WebRequest* _request;
+  __declspec(property(get = __cordl_internal_get__request, put = __cordl_internal_set__request))::System::Net::WebRequest* _request;
 
   /// @brief Field _isAsync, offset 0x48, size 0x1
-  __declspec(property(get = __get__isAsync, put = __set__isAsync)) bool _isAsync;
+  __declspec(property(get = __cordl_internal_get__isAsync, put = __cordl_internal_set__isAsync)) bool _isAsync;
 
   /// @brief Field _aborted, offset 0x49, size 0x1
-  __declspec(property(get = __get__aborted, put = __set__aborted)) bool _aborted;
+  __declspec(property(get = __cordl_internal_get__aborted, put = __cordl_internal_set__aborted)) bool _aborted;
 
   /// @brief Field _commands, offset 0x50, size 0x8
-  __declspec(property(get = __get__commands, put = __set__commands))::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> _commands;
+  __declspec(property(get = __cordl_internal_get__commands,
+                      put = __cordl_internal_set__commands))::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> _commands;
 
   /// @brief Field _index, offset 0x58, size 0x4
-  __declspec(property(get = __get__index, put = __set__index)) int32_t _index;
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
   /// @brief Field _doRead, offset 0x5c, size 0x1
-  __declspec(property(get = __get__doRead, put = __set__doRead)) bool _doRead;
+  __declspec(property(get = __cordl_internal_get__doRead, put = __cordl_internal_set__doRead)) bool _doRead;
 
   /// @brief Field _doSend, offset 0x5d, size 0x1
-  __declspec(property(get = __get__doSend, put = __set__doSend)) bool _doSend;
+  __declspec(property(get = __cordl_internal_get__doSend, put = __cordl_internal_set__doSend)) bool _doSend;
 
   /// @brief Field _currentResponseDescription, offset 0x60, size 0x8
-  __declspec(property(get = __get__currentResponseDescription, put = __set__currentResponseDescription))::System::Net::ResponseDescription* _currentResponseDescription;
+  __declspec(property(get = __cordl_internal_get__currentResponseDescription, put = __cordl_internal_set__currentResponseDescription))::System::Net::ResponseDescription* _currentResponseDescription;
 
   /// @brief Field _abortReason, offset 0x68, size 0x8
-  __declspec(property(get = __get__abortReason, put = __set__abortReason))::StringW _abortReason;
+  __declspec(property(get = __cordl_internal_get__abortReason, put = __cordl_internal_set__abortReason))::StringW _abortReason;
 
   /// @brief Field _buffer, offset 0x70, size 0x8
-  __declspec(property(get = __get__buffer, put = __set__buffer))::StringW _buffer;
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::StringW _buffer;
 
   /// @brief Field _encoding, offset 0x78, size 0x8
-  __declspec(property(get = __get__encoding, put = __set__encoding))::System::Text::Encoding* _encoding;
+  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding))::System::Text::Encoding* _encoding;
 
   /// @brief Field _decoder, offset 0x80, size 0x8
-  __declspec(property(get = __get__decoder, put = __set__decoder))::System::Text::Decoder* _decoder;
+  __declspec(property(get = __cordl_internal_get__decoder, put = __cordl_internal_set__decoder))::System::Text::Decoder* _decoder;
 
   /// @brief Field s_writeCallbackDelegate, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_writeCallbackDelegate, put = setStaticF_s_writeCallbackDelegate))::System::AsyncCallback* s_writeCallbackDelegate;
@@ -333,83 +334,83 @@ public:
 
   __declspec(property(get = get_Encoding, put = set_Encoding))::System::Text::Encoding* Encoding;
 
-  constexpr bool& __get__recoverableFailure();
+  constexpr bool& __cordl_internal_get__recoverableFailure();
 
-  constexpr bool const& __get__recoverableFailure() const;
+  constexpr bool const& __cordl_internal_get__recoverableFailure() const;
 
-  constexpr void __set__recoverableFailure(bool value);
+  constexpr void __cordl_internal_set__recoverableFailure(bool value);
 
-  constexpr ::System::Net::WebRequest*& __get__request();
+  constexpr ::System::Net::WebRequest*& __cordl_internal_get__request();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequest*> const& __get__request() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequest*> const& __cordl_internal_get__request() const;
 
-  constexpr void __set__request(::System::Net::WebRequest* value);
+  constexpr void __cordl_internal_set__request(::System::Net::WebRequest* value);
 
-  constexpr bool& __get__isAsync();
+  constexpr bool& __cordl_internal_get__isAsync();
 
-  constexpr bool const& __get__isAsync() const;
+  constexpr bool const& __cordl_internal_get__isAsync() const;
 
-  constexpr void __set__isAsync(bool value);
+  constexpr void __cordl_internal_set__isAsync(bool value);
 
-  constexpr bool& __get__aborted();
+  constexpr bool& __cordl_internal_get__aborted();
 
-  constexpr bool const& __get__aborted() const;
+  constexpr bool const& __cordl_internal_get__aborted() const;
 
-  constexpr void __set__aborted(bool value);
+  constexpr void __cordl_internal_set__aborted(bool value);
 
-  constexpr ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*>& __get__commands();
+  constexpr ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*>& __cordl_internal_get__commands();
 
-  constexpr ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> const& __get__commands() const;
+  constexpr ::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> const& __cordl_internal_get__commands() const;
 
-  constexpr void __set__commands(::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> value);
+  constexpr void __cordl_internal_set__commands(::ArrayW<::System::Net::__CommandStream__PipelineEntry*, ::Array<::System::Net::__CommandStream__PipelineEntry*>*> value);
 
-  constexpr int32_t& __get__index();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr int32_t const& __get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __set__index(int32_t value);
+  constexpr void __cordl_internal_set__index(int32_t value);
 
-  constexpr bool& __get__doRead();
+  constexpr bool& __cordl_internal_get__doRead();
 
-  constexpr bool const& __get__doRead() const;
+  constexpr bool const& __cordl_internal_get__doRead() const;
 
-  constexpr void __set__doRead(bool value);
+  constexpr void __cordl_internal_set__doRead(bool value);
 
-  constexpr bool& __get__doSend();
+  constexpr bool& __cordl_internal_get__doSend();
 
-  constexpr bool const& __get__doSend() const;
+  constexpr bool const& __cordl_internal_get__doSend() const;
 
-  constexpr void __set__doSend(bool value);
+  constexpr void __cordl_internal_set__doSend(bool value);
 
-  constexpr ::System::Net::ResponseDescription*& __get__currentResponseDescription();
+  constexpr ::System::Net::ResponseDescription*& __cordl_internal_get__currentResponseDescription();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ResponseDescription*> const& __get__currentResponseDescription() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ResponseDescription*> const& __cordl_internal_get__currentResponseDescription() const;
 
-  constexpr void __set__currentResponseDescription(::System::Net::ResponseDescription* value);
+  constexpr void __cordl_internal_set__currentResponseDescription(::System::Net::ResponseDescription* value);
 
-  constexpr ::StringW& __get__abortReason();
+  constexpr ::StringW& __cordl_internal_get__abortReason();
 
-  constexpr ::StringW const& __get__abortReason() const;
+  constexpr ::StringW const& __cordl_internal_get__abortReason() const;
 
-  constexpr void __set__abortReason(::StringW value);
+  constexpr void __cordl_internal_set__abortReason(::StringW value);
 
-  constexpr ::StringW& __get__buffer();
+  constexpr ::StringW& __cordl_internal_get__buffer();
 
-  constexpr ::StringW const& __get__buffer() const;
+  constexpr ::StringW const& __cordl_internal_get__buffer() const;
 
-  constexpr void __set__buffer(::StringW value);
+  constexpr void __cordl_internal_set__buffer(::StringW value);
 
-  constexpr ::System::Text::Encoding*& __get__encoding();
+  constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __get__encoding() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__encoding() const;
 
-  constexpr void __set__encoding(::System::Text::Encoding* value);
+  constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
 
-  constexpr ::System::Text::Decoder*& __get__decoder();
+  constexpr ::System::Text::Decoder*& __cordl_internal_get__decoder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Decoder*> const& __get__decoder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Decoder*> const& __cordl_internal_get__decoder() const;
 
-  constexpr void __set__decoder(::System::Text::Decoder* value);
+  constexpr void __cordl_internal_set__decoder(::System::Text::Decoder* value);
 
   static inline void setStaticF_s_writeCallbackDelegate(::System::AsyncCallback* value);
 

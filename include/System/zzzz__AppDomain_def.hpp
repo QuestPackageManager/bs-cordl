@@ -67,63 +67,63 @@ MARK_REF_PTR_T(::System::AppDomain);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2575))
 // CS Name: ::System::AppDomain*
 class CORDL_TYPE AppDomain : public ::System::MarshalByRefObject {
 public:
   // Declarations
   /// @brief Field _mono_app_domain, offset 0x18, size 0x8
-  __declspec(property(get = __get__mono_app_domain, put = __set__mono_app_domain)) void* _mono_app_domain;
+  __declspec(property(get = __cordl_internal_get__mono_app_domain, put = __cordl_internal_set__mono_app_domain)) void* _mono_app_domain;
 
   /// @brief Field _evidence, offset 0x20, size 0x8
-  __declspec(property(get = __get__evidence, put = __set__evidence))::System::Object* _evidence;
+  __declspec(property(get = __cordl_internal_get__evidence, put = __cordl_internal_set__evidence))::System::Object* _evidence;
 
   /// @brief Field _granted, offset 0x28, size 0x8
-  __declspec(property(get = __get__granted, put = __set__granted))::System::Object* _granted;
+  __declspec(property(get = __cordl_internal_get__granted, put = __cordl_internal_set__granted))::System::Object* _granted;
 
   /// @brief Field _principalPolicy, offset 0x30, size 0x4
-  __declspec(property(get = __get__principalPolicy, put = __set__principalPolicy)) int32_t _principalPolicy;
+  __declspec(property(get = __cordl_internal_get__principalPolicy, put = __cordl_internal_set__principalPolicy)) int32_t _principalPolicy;
 
   /// @brief Field AssemblyLoad, offset 0x38, size 0x8
-  __declspec(property(get = __get_AssemblyLoad, put = __set_AssemblyLoad))::System::AssemblyLoadEventHandler* AssemblyLoad;
+  __declspec(property(get = __cordl_internal_get_AssemblyLoad, put = __cordl_internal_set_AssemblyLoad))::System::AssemblyLoadEventHandler* AssemblyLoad;
 
   /// @brief Field AssemblyResolve, offset 0x40, size 0x8
-  __declspec(property(get = __get_AssemblyResolve, put = __set_AssemblyResolve))::System::ResolveEventHandler* AssemblyResolve;
+  __declspec(property(get = __cordl_internal_get_AssemblyResolve, put = __cordl_internal_set_AssemblyResolve))::System::ResolveEventHandler* AssemblyResolve;
 
   /// @brief Field DomainUnload, offset 0x48, size 0x8
-  __declspec(property(get = __get_DomainUnload, put = __set_DomainUnload))::System::EventHandler* DomainUnload;
+  __declspec(property(get = __cordl_internal_get_DomainUnload, put = __cordl_internal_set_DomainUnload))::System::EventHandler* DomainUnload;
 
   /// @brief Field ProcessExit, offset 0x50, size 0x8
-  __declspec(property(get = __get_ProcessExit, put = __set_ProcessExit))::System::EventHandler* ProcessExit;
+  __declspec(property(get = __cordl_internal_get_ProcessExit, put = __cordl_internal_set_ProcessExit))::System::EventHandler* ProcessExit;
 
   /// @brief Field ResourceResolve, offset 0x58, size 0x8
-  __declspec(property(get = __get_ResourceResolve, put = __set_ResourceResolve))::System::ResolveEventHandler* ResourceResolve;
+  __declspec(property(get = __cordl_internal_get_ResourceResolve, put = __cordl_internal_set_ResourceResolve))::System::ResolveEventHandler* ResourceResolve;
 
   /// @brief Field TypeResolve, offset 0x60, size 0x8
-  __declspec(property(get = __get_TypeResolve, put = __set_TypeResolve))::System::ResolveEventHandler* TypeResolve;
+  __declspec(property(get = __cordl_internal_get_TypeResolve, put = __cordl_internal_set_TypeResolve))::System::ResolveEventHandler* TypeResolve;
 
   /// @brief Field UnhandledException, offset 0x68, size 0x8
-  __declspec(property(get = __get_UnhandledException, put = __set_UnhandledException))::System::UnhandledExceptionEventHandler* UnhandledException;
+  __declspec(property(get = __cordl_internal_get_UnhandledException, put = __cordl_internal_set_UnhandledException))::System::UnhandledExceptionEventHandler* UnhandledException;
 
   /// @brief Field FirstChanceException, offset 0x70, size 0x8
-  __declspec(property(get = __get_FirstChanceException,
-                      put = __set_FirstChanceException))::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>* FirstChanceException;
+  __declspec(property(get = __cordl_internal_get_FirstChanceException,
+                      put = __cordl_internal_set_FirstChanceException))::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>* FirstChanceException;
 
   /// @brief Field _domain_manager, offset 0x78, size 0x8
-  __declspec(property(get = __get__domain_manager, put = __set__domain_manager))::System::Object* _domain_manager;
+  __declspec(property(get = __cordl_internal_get__domain_manager, put = __cordl_internal_set__domain_manager))::System::Object* _domain_manager;
 
   /// @brief Field ReflectionOnlyAssemblyResolve, offset 0x80, size 0x8
-  __declspec(property(get = __get_ReflectionOnlyAssemblyResolve, put = __set_ReflectionOnlyAssemblyResolve))::System::ResolveEventHandler* ReflectionOnlyAssemblyResolve;
+  __declspec(property(get = __cordl_internal_get_ReflectionOnlyAssemblyResolve, put = __cordl_internal_set_ReflectionOnlyAssemblyResolve))::System::ResolveEventHandler* ReflectionOnlyAssemblyResolve;
 
   /// @brief Field _activation, offset 0x88, size 0x8
-  __declspec(property(get = __get__activation, put = __set__activation))::System::Object* _activation;
+  __declspec(property(get = __cordl_internal_get__activation, put = __cordl_internal_set__activation))::System::Object* _activation;
 
   /// @brief Field _applicationIdentity, offset 0x90, size 0x8
-  __declspec(property(get = __get__applicationIdentity, put = __set__applicationIdentity))::System::Object* _applicationIdentity;
+  __declspec(property(get = __cordl_internal_get__applicationIdentity, put = __cordl_internal_set__applicationIdentity))::System::Object* _applicationIdentity;
 
   /// @brief Field compatibility_switch, offset 0x98, size 0x8
-  __declspec(property(get = __get_compatibility_switch, put = __set_compatibility_switch))::System::Collections::Generic::List_1<::StringW>* compatibility_switch;
+  __declspec(property(get = __cordl_internal_get_compatibility_switch, put = __cordl_internal_set_compatibility_switch))::System::Collections::Generic::List_1<::StringW>* compatibility_switch;
 
   /// @brief Field _process_guid, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__process_guid, put = setStaticF__process_guid))::StringW _process_guid;
@@ -140,107 +140,108 @@ public:
   static __declspec(property(get = getStaticF_assembly_resolve_in_progress_refonly,
                              put = setStaticF_assembly_resolve_in_progress_refonly))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>* assembly_resolve_in_progress_refonly;
 
-  constexpr void*& __get__mono_app_domain();
+  constexpr void*& __cordl_internal_get__mono_app_domain();
 
-  constexpr void* const& __get__mono_app_domain() const;
+  constexpr void* const& __cordl_internal_get__mono_app_domain() const;
 
-  constexpr void __set__mono_app_domain(void* value);
+  constexpr void __cordl_internal_set__mono_app_domain(void* value);
 
-  constexpr ::System::Object*& __get__evidence();
+  constexpr ::System::Object*& __cordl_internal_get__evidence();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__evidence() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__evidence() const;
 
-  constexpr void __set__evidence(::System::Object* value);
+  constexpr void __cordl_internal_set__evidence(::System::Object* value);
 
-  constexpr ::System::Object*& __get__granted();
+  constexpr ::System::Object*& __cordl_internal_get__granted();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__granted() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__granted() const;
 
-  constexpr void __set__granted(::System::Object* value);
+  constexpr void __cordl_internal_set__granted(::System::Object* value);
 
-  constexpr int32_t& __get__principalPolicy();
+  constexpr int32_t& __cordl_internal_get__principalPolicy();
 
-  constexpr int32_t const& __get__principalPolicy() const;
+  constexpr int32_t const& __cordl_internal_get__principalPolicy() const;
 
-  constexpr void __set__principalPolicy(int32_t value);
+  constexpr void __cordl_internal_set__principalPolicy(int32_t value);
 
-  constexpr ::System::AssemblyLoadEventHandler*& __get_AssemblyLoad();
+  constexpr ::System::AssemblyLoadEventHandler*& __cordl_internal_get_AssemblyLoad();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::AssemblyLoadEventHandler*> const& __get_AssemblyLoad() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::AssemblyLoadEventHandler*> const& __cordl_internal_get_AssemblyLoad() const;
 
-  constexpr void __set_AssemblyLoad(::System::AssemblyLoadEventHandler* value);
+  constexpr void __cordl_internal_set_AssemblyLoad(::System::AssemblyLoadEventHandler* value);
 
-  constexpr ::System::ResolveEventHandler*& __get_AssemblyResolve();
+  constexpr ::System::ResolveEventHandler*& __cordl_internal_get_AssemblyResolve();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ResolveEventHandler*> const& __get_AssemblyResolve() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ResolveEventHandler*> const& __cordl_internal_get_AssemblyResolve() const;
 
-  constexpr void __set_AssemblyResolve(::System::ResolveEventHandler* value);
+  constexpr void __cordl_internal_set_AssemblyResolve(::System::ResolveEventHandler* value);
 
-  constexpr ::System::EventHandler*& __get_DomainUnload();
+  constexpr ::System::EventHandler*& __cordl_internal_get_DomainUnload();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler*> const& __get_DomainUnload() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler*> const& __cordl_internal_get_DomainUnload() const;
 
-  constexpr void __set_DomainUnload(::System::EventHandler* value);
+  constexpr void __cordl_internal_set_DomainUnload(::System::EventHandler* value);
 
-  constexpr ::System::EventHandler*& __get_ProcessExit();
+  constexpr ::System::EventHandler*& __cordl_internal_get_ProcessExit();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler*> const& __get_ProcessExit() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler*> const& __cordl_internal_get_ProcessExit() const;
 
-  constexpr void __set_ProcessExit(::System::EventHandler* value);
+  constexpr void __cordl_internal_set_ProcessExit(::System::EventHandler* value);
 
-  constexpr ::System::ResolveEventHandler*& __get_ResourceResolve();
+  constexpr ::System::ResolveEventHandler*& __cordl_internal_get_ResourceResolve();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ResolveEventHandler*> const& __get_ResourceResolve() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ResolveEventHandler*> const& __cordl_internal_get_ResourceResolve() const;
 
-  constexpr void __set_ResourceResolve(::System::ResolveEventHandler* value);
+  constexpr void __cordl_internal_set_ResourceResolve(::System::ResolveEventHandler* value);
 
-  constexpr ::System::ResolveEventHandler*& __get_TypeResolve();
+  constexpr ::System::ResolveEventHandler*& __cordl_internal_get_TypeResolve();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ResolveEventHandler*> const& __get_TypeResolve() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ResolveEventHandler*> const& __cordl_internal_get_TypeResolve() const;
 
-  constexpr void __set_TypeResolve(::System::ResolveEventHandler* value);
+  constexpr void __cordl_internal_set_TypeResolve(::System::ResolveEventHandler* value);
 
-  constexpr ::System::UnhandledExceptionEventHandler*& __get_UnhandledException();
+  constexpr ::System::UnhandledExceptionEventHandler*& __cordl_internal_get_UnhandledException();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::UnhandledExceptionEventHandler*> const& __get_UnhandledException() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::UnhandledExceptionEventHandler*> const& __cordl_internal_get_UnhandledException() const;
 
-  constexpr void __set_UnhandledException(::System::UnhandledExceptionEventHandler* value);
+  constexpr void __cordl_internal_set_UnhandledException(::System::UnhandledExceptionEventHandler* value);
 
-  constexpr ::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>*& __get_FirstChanceException();
+  constexpr ::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>*& __cordl_internal_get_FirstChanceException();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>*> const& __get_FirstChanceException() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>*> const&
+  __cordl_internal_get_FirstChanceException() const;
 
-  constexpr void __set_FirstChanceException(::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>* value);
+  constexpr void __cordl_internal_set_FirstChanceException(::System::EventHandler_1<::System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs*>* value);
 
-  constexpr ::System::Object*& __get__domain_manager();
+  constexpr ::System::Object*& __cordl_internal_get__domain_manager();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__domain_manager() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__domain_manager() const;
 
-  constexpr void __set__domain_manager(::System::Object* value);
+  constexpr void __cordl_internal_set__domain_manager(::System::Object* value);
 
-  constexpr ::System::ResolveEventHandler*& __get_ReflectionOnlyAssemblyResolve();
+  constexpr ::System::ResolveEventHandler*& __cordl_internal_get_ReflectionOnlyAssemblyResolve();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ResolveEventHandler*> const& __get_ReflectionOnlyAssemblyResolve() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ResolveEventHandler*> const& __cordl_internal_get_ReflectionOnlyAssemblyResolve() const;
 
-  constexpr void __set_ReflectionOnlyAssemblyResolve(::System::ResolveEventHandler* value);
+  constexpr void __cordl_internal_set_ReflectionOnlyAssemblyResolve(::System::ResolveEventHandler* value);
 
-  constexpr ::System::Object*& __get__activation();
+  constexpr ::System::Object*& __cordl_internal_get__activation();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__activation() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__activation() const;
 
-  constexpr void __set__activation(::System::Object* value);
+  constexpr void __cordl_internal_set__activation(::System::Object* value);
 
-  constexpr ::System::Object*& __get__applicationIdentity();
+  constexpr ::System::Object*& __cordl_internal_get__applicationIdentity();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__applicationIdentity() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__applicationIdentity() const;
 
-  constexpr void __set__applicationIdentity(::System::Object* value);
+  constexpr void __cordl_internal_set__applicationIdentity(::System::Object* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_compatibility_switch();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_compatibility_switch();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_compatibility_switch() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_compatibility_switch() const;
 
-  constexpr void __set_compatibility_switch(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_compatibility_switch(::System::Collections::Generic::List_1<::StringW>* value);
 
   static inline void setStaticF__process_guid(::StringW value);
 

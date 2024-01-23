@@ -34,19 +34,19 @@ MARK_VAL_T(::UnityEngine::UIElements::Background);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7293))
 // CS Name: ::UnityEngine.UIElements::Background
 struct CORDL_TYPE Background {
 public:
   // Declarations
-  __declspec(property(get = get_texture, put = set_texture))::UnityEngine::Texture2D* texture;
+  __declspec(property(get = get_texture, put = set_texture))::UnityW<::UnityEngine::Texture2D> texture;
 
-  __declspec(property(get = get_sprite, put = set_sprite))::UnityEngine::Sprite* sprite;
+  __declspec(property(get = get_sprite, put = set_sprite))::UnityW<::UnityEngine::Sprite> sprite;
 
-  __declspec(property(get = get_renderTexture, put = set_renderTexture))::UnityEngine::RenderTexture* renderTexture;
+  __declspec(property(get = get_renderTexture, put = set_renderTexture))::UnityW<::UnityEngine::RenderTexture> renderTexture;
 
-  __declspec(property(get = get_vectorImage, put = set_vectorImage))::UnityEngine::UIElements::VectorImage* vectorImage;
+  __declspec(property(get = get_vectorImage, put = set_vectorImage))::UnityW<::UnityEngine::UIElements::VectorImage> vectorImage;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::Background>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::Background>*();
@@ -55,25 +55,25 @@ public:
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Background>* i___System__IEquatable_1___UnityEngine__UIElements__Background_();
 
   /// @brief Method get_texture, addr 0x2e6f998, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture2D* get_texture();
+  inline ::UnityW<::UnityEngine::Texture2D> get_texture();
 
   /// @brief Method set_texture, addr 0x2e6f9a0, size 0x7c, virtual false, abstract: false, final false
   inline void set_texture(::UnityEngine::Texture2D* value);
 
   /// @brief Method get_sprite, addr 0x2e6fa1c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Sprite* get_sprite();
+  inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
   /// @brief Method set_sprite, addr 0x2e6fa24, size 0x7c, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
   /// @brief Method get_renderTexture, addr 0x2e6faa0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::RenderTexture* get_renderTexture();
+  inline ::UnityW<::UnityEngine::RenderTexture> get_renderTexture();
 
   /// @brief Method set_renderTexture, addr 0x2e6faa8, size 0x7c, virtual false, abstract: false, final false
   inline void set_renderTexture(::UnityEngine::RenderTexture* value);
 
   /// @brief Method get_vectorImage, addr 0x2e6fb24, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::VectorImage* get_vectorImage();
+  inline ::UnityW<::UnityEngine::UIElements::VectorImage> get_vectorImage();
 
   /// @brief Method set_vectorImage, addr 0x2e6fb2c, size 0x7c, virtual false, abstract: false, final false
   inline void set_vectorImage(::UnityEngine::UIElements::VectorImage* value);
@@ -111,27 +111,27 @@ public:
   /// @brief Method ToString, addr 0x2e7016c, size 0x138, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  // Ctor Parameters [CppParam { name: "m_Texture", ty: "::UnityEngine::Texture2D*", modifiers: "", def_value: None }, CppParam { name: "m_Sprite", ty: "::UnityEngine::Sprite*", modifiers: "",
-  // def_value: None }, CppParam { name: "m_RenderTexture", ty: "::UnityEngine::RenderTexture*", modifiers: "", def_value: None }, CppParam { name: "m_VectorImage", ty:
-  // "::UnityEngine::UIElements::VectorImage*", modifiers: "", def_value: None }]
-  constexpr Background(::UnityEngine::Texture2D* m_Texture, ::UnityEngine::Sprite* m_Sprite, ::UnityEngine::RenderTexture* m_RenderTexture,
-                       ::UnityEngine::UIElements::VectorImage* m_VectorImage) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Texture", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "m_Sprite", ty: "::UnityW<::UnityEngine::Sprite>",
+  // modifiers: "", def_value: None }, CppParam { name: "m_RenderTexture", ty: "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }, CppParam { name: "m_VectorImage", ty:
+  // "::UnityW<::UnityEngine::UIElements::VectorImage>", modifiers: "", def_value: None }]
+  constexpr Background(::UnityW<::UnityEngine::Texture2D> m_Texture, ::UnityW<::UnityEngine::Sprite> m_Sprite, ::UnityW<::UnityEngine::RenderTexture> m_RenderTexture,
+                       ::UnityW<::UnityEngine::UIElements::VectorImage> m_VectorImage) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Background();
 
   /// @brief Field m_Texture, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::Texture2D* m_Texture;
+  ::UnityW<::UnityEngine::Texture2D> m_Texture;
 
   /// @brief Field m_Sprite, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::Sprite* m_Sprite;
+  ::UnityW<::UnityEngine::Sprite> m_Sprite;
 
   /// @brief Field m_RenderTexture, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::RenderTexture* m_RenderTexture;
+  ::UnityW<::UnityEngine::RenderTexture> m_RenderTexture;
 
   /// @brief Field m_VectorImage, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VectorImage* m_VectorImage;
+  ::UnityW<::UnityEngine::UIElements::VectorImage> m_VectorImage;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

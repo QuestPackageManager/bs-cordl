@@ -17,74 +17,74 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::PartyUpdateNotification);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13345)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13345))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13468))
 // CS Name: ::Oculus.Platform.Models::PartyUpdateNotification*
 class CORDL_TYPE PartyUpdateNotification : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Action, offset 0x10, size 0x4
-  __declspec(property(get = __get_Action, put = __set_Action))::Oculus::Platform::PartyUpdateAction Action;
+  __declspec(property(get = __cordl_internal_get_Action, put = __cordl_internal_set_Action))::Oculus::Platform::PartyUpdateAction Action;
 
   /// @brief Field PartyId, offset 0x18, size 0x8
-  __declspec(property(get = __get_PartyId, put = __set_PartyId)) uint64_t PartyId;
+  __declspec(property(get = __cordl_internal_get_PartyId, put = __cordl_internal_set_PartyId)) uint64_t PartyId;
 
   /// @brief Field SenderId, offset 0x20, size 0x8
-  __declspec(property(get = __get_SenderId, put = __set_SenderId)) uint64_t SenderId;
+  __declspec(property(get = __cordl_internal_get_SenderId, put = __cordl_internal_set_SenderId)) uint64_t SenderId;
 
   /// @brief Field UpdateTimestamp, offset 0x28, size 0x8
-  __declspec(property(get = __get_UpdateTimestamp, put = __set_UpdateTimestamp))::StringW UpdateTimestamp;
+  __declspec(property(get = __cordl_internal_get_UpdateTimestamp, put = __cordl_internal_set_UpdateTimestamp))::StringW UpdateTimestamp;
 
   /// @brief Field UserAlias, offset 0x30, size 0x8
-  __declspec(property(get = __get_UserAlias, put = __set_UserAlias))::StringW UserAlias;
+  __declspec(property(get = __cordl_internal_get_UserAlias, put = __cordl_internal_set_UserAlias))::StringW UserAlias;
 
   /// @brief Field UserId, offset 0x38, size 0x8
-  __declspec(property(get = __get_UserId, put = __set_UserId)) uint64_t UserId;
+  __declspec(property(get = __cordl_internal_get_UserId, put = __cordl_internal_set_UserId)) uint64_t UserId;
 
   /// @brief Field UserName, offset 0x40, size 0x8
-  __declspec(property(get = __get_UserName, put = __set_UserName))::StringW UserName;
+  __declspec(property(get = __cordl_internal_get_UserName, put = __cordl_internal_set_UserName))::StringW UserName;
 
-  constexpr ::Oculus::Platform::PartyUpdateAction& __get_Action();
+  constexpr ::Oculus::Platform::PartyUpdateAction& __cordl_internal_get_Action();
 
-  constexpr ::Oculus::Platform::PartyUpdateAction const& __get_Action() const;
+  constexpr ::Oculus::Platform::PartyUpdateAction const& __cordl_internal_get_Action() const;
 
-  constexpr void __set_Action(::Oculus::Platform::PartyUpdateAction value);
+  constexpr void __cordl_internal_set_Action(::Oculus::Platform::PartyUpdateAction value);
 
-  constexpr uint64_t& __get_PartyId();
+  constexpr uint64_t& __cordl_internal_get_PartyId();
 
-  constexpr uint64_t const& __get_PartyId() const;
+  constexpr uint64_t const& __cordl_internal_get_PartyId() const;
 
-  constexpr void __set_PartyId(uint64_t value);
+  constexpr void __cordl_internal_set_PartyId(uint64_t value);
 
-  constexpr uint64_t& __get_SenderId();
+  constexpr uint64_t& __cordl_internal_get_SenderId();
 
-  constexpr uint64_t const& __get_SenderId() const;
+  constexpr uint64_t const& __cordl_internal_get_SenderId() const;
 
-  constexpr void __set_SenderId(uint64_t value);
+  constexpr void __cordl_internal_set_SenderId(uint64_t value);
 
-  constexpr ::StringW& __get_UpdateTimestamp();
+  constexpr ::StringW& __cordl_internal_get_UpdateTimestamp();
 
-  constexpr ::StringW const& __get_UpdateTimestamp() const;
+  constexpr ::StringW const& __cordl_internal_get_UpdateTimestamp() const;
 
-  constexpr void __set_UpdateTimestamp(::StringW value);
+  constexpr void __cordl_internal_set_UpdateTimestamp(::StringW value);
 
-  constexpr ::StringW& __get_UserAlias();
+  constexpr ::StringW& __cordl_internal_get_UserAlias();
 
-  constexpr ::StringW const& __get_UserAlias() const;
+  constexpr ::StringW const& __cordl_internal_get_UserAlias() const;
 
-  constexpr void __set_UserAlias(::StringW value);
+  constexpr void __cordl_internal_set_UserAlias(::StringW value);
 
-  constexpr uint64_t& __get_UserId();
+  constexpr uint64_t& __cordl_internal_get_UserId();
 
-  constexpr uint64_t const& __get_UserId() const;
+  constexpr uint64_t const& __cordl_internal_get_UserId() const;
 
-  constexpr void __set_UserId(uint64_t value);
+  constexpr void __cordl_internal_set_UserId(uint64_t value);
 
-  constexpr ::StringW& __get_UserName();
+  constexpr ::StringW& __cordl_internal_get_UserName();
 
-  constexpr ::StringW const& __get_UserName() const;
+  constexpr ::StringW const& __cordl_internal_get_UserName() const;
 
-  constexpr void __set_UserName(::StringW value);
+  constexpr void __cordl_internal_set_UserName(::StringW value);
 
   static inline ::Oculus::Platform::Models::PartyUpdateNotification* New_ctor(void* o);
 

@@ -56,20 +56,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__FlickeringNeonSign___FlickeringCoroutine_d__
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4984))
 // CS Name: ::FlickeringNeonSign::<FlickeringCoroutine>d__16*
 class CORDL_TYPE __FlickeringNeonSign___FlickeringCoroutine_d__16 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::FlickeringNeonSign* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::FlickeringNeonSign> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -93,23 +93,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::FlickeringNeonSign*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::FlickeringNeonSign>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FlickeringNeonSign*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::FlickeringNeonSign> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::FlickeringNeonSign* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FlickeringNeonSign> value);
 
   static inline ::GlobalNamespace::__FlickeringNeonSign___FlickeringCoroutine_d__16* New_ctor(int32_t __1__state);
 
@@ -152,7 +152,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::FlickeringNeonSign* _____4__this;
+  ::UnityW<::GlobalNamespace::FlickeringNeonSign> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -170,7 +170,7 @@ static_assert(offsetof(::GlobalNamespace::__FlickeringNeonSign___FlickeringCorou
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4985))
 // CS Name: ::FlickeringNeonSign*
 class CORDL_TYPE FlickeringNeonSign : public ::UnityEngine::MonoBehaviour {
@@ -179,121 +179,124 @@ public:
   using _FlickeringCoroutine_d__16 = ::GlobalNamespace::__FlickeringNeonSign___FlickeringCoroutine_d__16;
 
   /// @brief Field _flickeringSprite, offset 0x18, size 0x8
-  __declspec(property(get = __get__flickeringSprite, put = __set__flickeringSprite))::UnityEngine::SpriteRenderer* _flickeringSprite;
+  __declspec(property(get = __cordl_internal_get__flickeringSprite, put = __cordl_internal_set__flickeringSprite))::UnityW<::UnityEngine::SpriteRenderer> _flickeringSprite;
 
   /// @brief Field _light, offset 0x20, size 0x8
-  __declspec(property(get = __get__light, put = __set__light))::GlobalNamespace::TubeBloomPrePassLight* _light;
+  __declspec(property(get = __cordl_internal_get__light, put = __cordl_internal_set__light))::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _light;
 
   /// @brief Field _particleSystems, offset 0x28, size 0x8
-  __declspec(property(get = __get__particleSystems, put = __set__particleSystems))::ArrayW<::UnityEngine::ParticleSystem*, ::Array<::UnityEngine::ParticleSystem*>*> _particleSystems;
+  __declspec(property(get = __cordl_internal_get__particleSystems,
+                      put = __cordl_internal_set__particleSystems))::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> _particleSystems;
 
   /// @brief Field _minOnDelay, offset 0x30, size 0x4
-  __declspec(property(get = __get__minOnDelay, put = __set__minOnDelay)) float_t _minOnDelay;
+  __declspec(property(get = __cordl_internal_get__minOnDelay, put = __cordl_internal_set__minOnDelay)) float_t _minOnDelay;
 
   /// @brief Field _maxOnDelay, offset 0x34, size 0x4
-  __declspec(property(get = __get__maxOnDelay, put = __set__maxOnDelay)) float_t _maxOnDelay;
+  __declspec(property(get = __cordl_internal_get__maxOnDelay, put = __cordl_internal_set__maxOnDelay)) float_t _maxOnDelay;
 
   /// @brief Field _minOffDelay, offset 0x38, size 0x4
-  __declspec(property(get = __get__minOffDelay, put = __set__minOffDelay)) float_t _minOffDelay;
+  __declspec(property(get = __cordl_internal_get__minOffDelay, put = __cordl_internal_set__minOffDelay)) float_t _minOffDelay;
 
   /// @brief Field _maxOffDelay, offset 0x3c, size 0x4
-  __declspec(property(get = __get__maxOffDelay, put = __set__maxOffDelay)) float_t _maxOffDelay;
+  __declspec(property(get = __cordl_internal_get__maxOffDelay, put = __cordl_internal_set__maxOffDelay)) float_t _maxOffDelay;
 
   /// @brief Field _spriteOnColor, offset 0x40, size 0x10
-  __declspec(property(get = __get__spriteOnColor, put = __set__spriteOnColor))::UnityEngine::Color _spriteOnColor;
+  __declspec(property(get = __cordl_internal_get__spriteOnColor, put = __cordl_internal_set__spriteOnColor))::UnityEngine::Color _spriteOnColor;
 
   /// @brief Field _lightOnColor, offset 0x50, size 0x10
-  __declspec(property(get = __get__lightOnColor, put = __set__lightOnColor))::UnityEngine::Color _lightOnColor;
+  __declspec(property(get = __cordl_internal_get__lightOnColor, put = __cordl_internal_set__lightOnColor))::UnityEngine::Color _lightOnColor;
 
   /// @brief Field _onMaterial, offset 0x60, size 0x8
-  __declspec(property(get = __get__onMaterial, put = __set__onMaterial))::UnityEngine::Material* _onMaterial;
+  __declspec(property(get = __cordl_internal_get__onMaterial, put = __cordl_internal_set__onMaterial))::UnityW<::UnityEngine::Material> _onMaterial;
 
   /// @brief Field _offMaterial, offset 0x68, size 0x8
-  __declspec(property(get = __get__offMaterial, put = __set__offMaterial))::UnityEngine::Material* _offMaterial;
+  __declspec(property(get = __cordl_internal_get__offMaterial, put = __cordl_internal_set__offMaterial))::UnityW<::UnityEngine::Material> _offMaterial;
 
   /// @brief Field _sparksAudioClips, offset 0x70, size 0x8
-  __declspec(property(get = __get__sparksAudioClips, put = __set__sparksAudioClips))::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> _sparksAudioClips;
+  __declspec(property(get = __cordl_internal_get__sparksAudioClips,
+                      put = __cordl_internal_set__sparksAudioClips))::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> _sparksAudioClips;
 
   /// @brief Field _sparksAudioClipPicker, offset 0x78, size 0x8
-  __declspec(property(get = __get__sparksAudioClipPicker, put = __set__sparksAudioClipPicker))::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>* _sparksAudioClipPicker;
+  __declspec(property(get = __cordl_internal_get__sparksAudioClipPicker,
+                      put = __cordl_internal_set__sparksAudioClipPicker))::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* _sparksAudioClipPicker;
 
-  constexpr ::UnityEngine::SpriteRenderer*& __get__flickeringSprite();
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer>& __cordl_internal_get__flickeringSprite();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SpriteRenderer*> const& __get__flickeringSprite() const;
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__flickeringSprite() const;
 
-  constexpr void __set__flickeringSprite(::UnityEngine::SpriteRenderer* value);
+  constexpr void __cordl_internal_set__flickeringSprite(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  constexpr ::GlobalNamespace::TubeBloomPrePassLight*& __get__light();
+  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight>& __cordl_internal_get__light();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TubeBloomPrePassLight*> const& __get__light() const;
+  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> const& __cordl_internal_get__light() const;
 
-  constexpr void __set__light(::GlobalNamespace::TubeBloomPrePassLight* value);
+  constexpr void __cordl_internal_set__light(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  constexpr ::ArrayW<::UnityEngine::ParticleSystem*, ::Array<::UnityEngine::ParticleSystem*>*>& __get__particleSystems();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*>& __cordl_internal_get__particleSystems();
 
-  constexpr ::ArrayW<::UnityEngine::ParticleSystem*, ::Array<::UnityEngine::ParticleSystem*>*> const& __get__particleSystems() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> const& __cordl_internal_get__particleSystems() const;
 
-  constexpr void __set__particleSystems(::ArrayW<::UnityEngine::ParticleSystem*, ::Array<::UnityEngine::ParticleSystem*>*> value);
+  constexpr void __cordl_internal_set__particleSystems(::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> value);
 
-  constexpr float_t& __get__minOnDelay();
+  constexpr float_t& __cordl_internal_get__minOnDelay();
 
-  constexpr float_t const& __get__minOnDelay() const;
+  constexpr float_t const& __cordl_internal_get__minOnDelay() const;
 
-  constexpr void __set__minOnDelay(float_t value);
+  constexpr void __cordl_internal_set__minOnDelay(float_t value);
 
-  constexpr float_t& __get__maxOnDelay();
+  constexpr float_t& __cordl_internal_get__maxOnDelay();
 
-  constexpr float_t const& __get__maxOnDelay() const;
+  constexpr float_t const& __cordl_internal_get__maxOnDelay() const;
 
-  constexpr void __set__maxOnDelay(float_t value);
+  constexpr void __cordl_internal_set__maxOnDelay(float_t value);
 
-  constexpr float_t& __get__minOffDelay();
+  constexpr float_t& __cordl_internal_get__minOffDelay();
 
-  constexpr float_t const& __get__minOffDelay() const;
+  constexpr float_t const& __cordl_internal_get__minOffDelay() const;
 
-  constexpr void __set__minOffDelay(float_t value);
+  constexpr void __cordl_internal_set__minOffDelay(float_t value);
 
-  constexpr float_t& __get__maxOffDelay();
+  constexpr float_t& __cordl_internal_get__maxOffDelay();
 
-  constexpr float_t const& __get__maxOffDelay() const;
+  constexpr float_t const& __cordl_internal_get__maxOffDelay() const;
 
-  constexpr void __set__maxOffDelay(float_t value);
+  constexpr void __cordl_internal_set__maxOffDelay(float_t value);
 
-  constexpr ::UnityEngine::Color& __get__spriteOnColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__spriteOnColor();
 
-  constexpr ::UnityEngine::Color const& __get__spriteOnColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__spriteOnColor() const;
 
-  constexpr void __set__spriteOnColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__spriteOnColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__lightOnColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__lightOnColor();
 
-  constexpr ::UnityEngine::Color const& __get__lightOnColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__lightOnColor() const;
 
-  constexpr void __set__lightOnColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__lightOnColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Material*& __get__onMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__onMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__onMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__onMaterial() const;
 
-  constexpr void __set__onMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__onMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get__offMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__offMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__offMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__offMaterial() const;
 
-  constexpr void __set__offMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__offMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*>& __get__sparksAudioClips();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*>& __cordl_internal_get__sparksAudioClips();
 
-  constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> const& __get__sparksAudioClips() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__sparksAudioClips() const;
 
-  constexpr void __set__sparksAudioClips(::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> value);
+  constexpr void __cordl_internal_set__sparksAudioClips(::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> value);
 
-  constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& __get__sparksAudioClipPicker();
+  constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*& __cordl_internal_get__sparksAudioClipPicker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*> const& __get__sparksAudioClipPicker() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__sparksAudioClipPicker() const;
 
-  constexpr void __set__sparksAudioClipPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>* value);
+  constexpr void __cordl_internal_set__sparksAudioClipPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* value);
 
   /// @brief Method Awake, addr 0x23b4180, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
@@ -330,13 +333,13 @@ protected:
 
 public:
   /// @brief Field _flickeringSprite, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::SpriteRenderer* ____flickeringSprite;
+  ::UnityW<::UnityEngine::SpriteRenderer> ____flickeringSprite;
 
   /// @brief Field _light, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::TubeBloomPrePassLight* ____light;
+  ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____light;
 
   /// @brief Field _particleSystems, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::ParticleSystem*, ::Array<::UnityEngine::ParticleSystem*>*> ____particleSystems;
+  ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> ____particleSystems;
 
   /// @brief Field _minOnDelay, offset: 0x30, size: 0x4, def value: None
   float_t ____minOnDelay;
@@ -357,16 +360,16 @@ public:
   ::UnityEngine::Color ____lightOnColor;
 
   /// @brief Field _onMaterial, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::Material* ____onMaterial;
+  ::UnityW<::UnityEngine::Material> ____onMaterial;
 
   /// @brief Field _offMaterial, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::Material* ____offMaterial;
+  ::UnityW<::UnityEngine::Material> ____offMaterial;
 
   /// @brief Field _sparksAudioClips, offset: 0x70, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> ____sparksAudioClips;
+  ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> ____sparksAudioClips;
 
   /// @brief Field _sparksAudioClipPicker, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>* ____sparksAudioClipPicker;
+  ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* ____sparksAudioClipPicker;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -25,14 +25,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DtlsTransport);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1237))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsTransport*
 class CORDL_TYPE DtlsTransport : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mRecordLayer, offset 0x10, size 0x8
-  __declspec(property(get = __get_mRecordLayer, put = __set_mRecordLayer))::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* mRecordLayer;
+  __declspec(property(get = __cordl_internal_get_mRecordLayer, put = __cordl_internal_set_mRecordLayer))::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* mRecordLayer;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::DatagramTransport"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::DatagramTransport*() noexcept;
@@ -46,11 +46,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCloseable* i___Org__BouncyCastle__Crypto__Tls__TlsCloseable() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer*& __get_mRecordLayer();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer*& __cordl_internal_get_mRecordLayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer*> const& __get_mRecordLayer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer*> const& __cordl_internal_get_mRecordLayer() const;
 
-  constexpr void __set_mRecordLayer(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* value);
+  constexpr void __cordl_internal_set_mRecordLayer(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsTransport* New_ctor(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer);
 

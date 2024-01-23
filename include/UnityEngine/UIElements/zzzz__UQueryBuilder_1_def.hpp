@@ -46,7 +46,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7270))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7270))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6931))
 // CS Name: ::UnityEngine.UIElements::UQueryBuilder`1<T>
 struct CORDL_TYPE UQueryBuilder_1 {

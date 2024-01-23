@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourcesAPI);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10264))
 // CS Name: ::UnityEngine::ResourcesAPI*
 class CORDL_TYPE ResourcesAPI : public ::System::Object {
@@ -60,16 +60,16 @@ public:
   inline void _ctor();
 
   /// @brief Method FindObjectsOfTypeAll, addr 0x2cde30c, size 0x3c, virtual true, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> FindObjectsOfTypeAll(::System::Type* systemTypeInstance);
+  inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeAll(::System::Type* systemTypeInstance);
 
   /// @brief Method FindShaderByName, addr 0x2cde348, size 0x3c, virtual true, abstract: false, final false
-  inline ::UnityEngine::Shader* FindShaderByName(::StringW name);
+  inline ::UnityW<::UnityEngine::Shader> FindShaderByName(::StringW name);
 
   /// @brief Method Load, addr 0x2cde384, size 0x44, virtual true, abstract: false, final false
-  inline ::UnityEngine::Object* Load(::StringW path, ::System::Type* systemTypeInstance);
+  inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
   /// @brief Method LoadAll, addr 0x2cde3c8, size 0x44, virtual true, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
+  inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
   /// @brief Method LoadAsync, addr 0x2cde40c, size 0x54, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceRequest* LoadAsync(::StringW path, ::System::Type* systemTypeInstance);

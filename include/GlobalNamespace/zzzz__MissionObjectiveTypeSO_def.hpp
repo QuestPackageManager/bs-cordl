@@ -18,20 +18,21 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionObjectiveTypeSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4463))
 // CS Name: ::MissionObjectiveTypeSO*
 class CORDL_TYPE MissionObjectiveTypeSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _objectiveName, offset 0x18, size 0x8
-  __declspec(property(get = __get__objectiveName, put = __set__objectiveName))::StringW _objectiveName;
+  __declspec(property(get = __cordl_internal_get__objectiveName, put = __cordl_internal_set__objectiveName))::StringW _objectiveName;
 
   /// @brief Field _noConditionValue, offset 0x20, size 0x1
-  __declspec(property(get = __get__noConditionValue, put = __set__noConditionValue)) bool _noConditionValue;
+  __declspec(property(get = __cordl_internal_get__noConditionValue, put = __cordl_internal_set__noConditionValue)) bool _noConditionValue;
 
   /// @brief Field _objectiveValueFormater, offset 0x28, size 0x8
-  __declspec(property(get = __get__objectiveValueFormater, put = __set__objectiveValueFormater))::GlobalNamespace::ObjectiveValueFormatterSO* _objectiveValueFormater;
+  __declspec(property(get = __cordl_internal_get__objectiveValueFormater,
+                      put = __cordl_internal_set__objectiveValueFormater))::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> _objectiveValueFormater;
 
   __declspec(property(get = get_objectiveName))::StringW objectiveName;
 
@@ -39,25 +40,25 @@ public:
 
   __declspec(property(get = get_noConditionValue)) bool noConditionValue;
 
-  __declspec(property(get = get_objectiveValueFormater))::GlobalNamespace::ObjectiveValueFormatterSO* objectiveValueFormater;
+  __declspec(property(get = get_objectiveValueFormater))::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> objectiveValueFormater;
 
-  constexpr ::StringW& __get__objectiveName();
+  constexpr ::StringW& __cordl_internal_get__objectiveName();
 
-  constexpr ::StringW const& __get__objectiveName() const;
+  constexpr ::StringW const& __cordl_internal_get__objectiveName() const;
 
-  constexpr void __set__objectiveName(::StringW value);
+  constexpr void __cordl_internal_set__objectiveName(::StringW value);
 
-  constexpr bool& __get__noConditionValue();
+  constexpr bool& __cordl_internal_get__noConditionValue();
 
-  constexpr bool const& __get__noConditionValue() const;
+  constexpr bool const& __cordl_internal_get__noConditionValue() const;
 
-  constexpr void __set__noConditionValue(bool value);
+  constexpr void __cordl_internal_set__noConditionValue(bool value);
 
-  constexpr ::GlobalNamespace::ObjectiveValueFormatterSO*& __get__objectiveValueFormater();
+  constexpr ::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO>& __cordl_internal_get__objectiveValueFormater();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObjectiveValueFormatterSO*> const& __get__objectiveValueFormater() const;
+  constexpr ::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> const& __cordl_internal_get__objectiveValueFormater() const;
 
-  constexpr void __set__objectiveValueFormater(::GlobalNamespace::ObjectiveValueFormatterSO* value);
+  constexpr void __cordl_internal_set__objectiveValueFormater(::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> value);
 
   /// @brief Method get_objectiveName, addr 0x2352e58, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_objectiveName();
@@ -69,7 +70,7 @@ public:
   inline bool get_noConditionValue();
 
   /// @brief Method get_objectiveValueFormater, addr 0x2352e74, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ObjectiveValueFormatterSO* get_objectiveValueFormater();
+  inline ::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> get_objectiveValueFormater();
 
   static inline ::GlobalNamespace::MissionObjectiveTypeSO* New_ctor();
 
@@ -97,7 +98,7 @@ public:
   bool ____noConditionValue;
 
   /// @brief Field _objectiveValueFormater, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::ObjectiveValueFormatterSO* ____objectiveValueFormater;
+  ::UnityW<::GlobalNamespace::ObjectiveValueFormatterSO> ____objectiveValueFormater;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -35,29 +35,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509CrlEntry);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1606))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1606))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1865))
 // CS Name: ::Org.BouncyCastle.X509::X509CrlEntry*
 class CORDL_TYPE X509CrlEntry : public ::Org::BouncyCastle::X509::X509ExtensionBase {
 public:
   // Declarations
   /// @brief Field c, offset 0x10, size 0x8
-  __declspec(property(get = __get_c, put = __set_c))::Org::BouncyCastle::Asn1::X509::CrlEntry* c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::Org::BouncyCastle::Asn1::X509::CrlEntry* c;
 
   /// @brief Field isIndirect, offset 0x18, size 0x1
-  __declspec(property(get = __get_isIndirect, put = __set_isIndirect)) bool isIndirect;
+  __declspec(property(get = __cordl_internal_get_isIndirect, put = __cordl_internal_set_isIndirect)) bool isIndirect;
 
   /// @brief Field previousCertificateIssuer, offset 0x20, size 0x8
-  __declspec(property(get = __get_previousCertificateIssuer, put = __set_previousCertificateIssuer))::Org::BouncyCastle::Asn1::X509::X509Name* previousCertificateIssuer;
+  __declspec(property(get = __cordl_internal_get_previousCertificateIssuer, put = __cordl_internal_set_previousCertificateIssuer))::Org::BouncyCastle::Asn1::X509::X509Name* previousCertificateIssuer;
 
   /// @brief Field certificateIssuer, offset 0x28, size 0x8
-  __declspec(property(get = __get_certificateIssuer, put = __set_certificateIssuer))::Org::BouncyCastle::Asn1::X509::X509Name* certificateIssuer;
+  __declspec(property(get = __cordl_internal_get_certificateIssuer, put = __cordl_internal_set_certificateIssuer))::Org::BouncyCastle::Asn1::X509::X509Name* certificateIssuer;
 
   /// @brief Field hashValueSet, offset 0x30, size 0x1
-  __declspec(property(get = __get_hashValueSet, put = __set_hashValueSet)) bool hashValueSet;
+  __declspec(property(get = __cordl_internal_get_hashValueSet, put = __cordl_internal_set_hashValueSet)) bool hashValueSet;
 
   /// @brief Field hashValue, offset 0x34, size 0x4
-  __declspec(property(get = __get_hashValue, put = __set_hashValue)) int32_t hashValue;
+  __declspec(property(get = __cordl_internal_get_hashValue, put = __cordl_internal_set_hashValue)) int32_t hashValue;
 
   __declspec(property(get = get_SerialNumber))::Org::BouncyCastle::Math::BigInteger* SerialNumber;
 
@@ -65,41 +65,41 @@ public:
 
   __declspec(property(get = get_HasExtensions)) bool HasExtensions;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::CrlEntry*& __get_c();
+  constexpr ::Org::BouncyCastle::Asn1::X509::CrlEntry*& __cordl_internal_get_c();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::CrlEntry*> const& __get_c() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::CrlEntry*> const& __cordl_internal_get_c() const;
 
-  constexpr void __set_c(::Org::BouncyCastle::Asn1::X509::CrlEntry* value);
+  constexpr void __cordl_internal_set_c(::Org::BouncyCastle::Asn1::X509::CrlEntry* value);
 
-  constexpr bool& __get_isIndirect();
+  constexpr bool& __cordl_internal_get_isIndirect();
 
-  constexpr bool const& __get_isIndirect() const;
+  constexpr bool const& __cordl_internal_get_isIndirect() const;
 
-  constexpr void __set_isIndirect(bool value);
+  constexpr void __cordl_internal_set_isIndirect(bool value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& __get_previousCertificateIssuer();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& __cordl_internal_get_previousCertificateIssuer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& __get_previousCertificateIssuer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& __cordl_internal_get_previousCertificateIssuer() const;
 
-  constexpr void __set_previousCertificateIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* value);
+  constexpr void __cordl_internal_set_previousCertificateIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& __get_certificateIssuer();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& __cordl_internal_get_certificateIssuer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& __get_certificateIssuer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& __cordl_internal_get_certificateIssuer() const;
 
-  constexpr void __set_certificateIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* value);
+  constexpr void __cordl_internal_set_certificateIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* value);
 
-  constexpr bool& __get_hashValueSet();
+  constexpr bool& __cordl_internal_get_hashValueSet();
 
-  constexpr bool const& __get_hashValueSet() const;
+  constexpr bool const& __cordl_internal_get_hashValueSet() const;
 
-  constexpr void __set_hashValueSet(bool value);
+  constexpr void __cordl_internal_set_hashValueSet(bool value);
 
-  constexpr int32_t& __get_hashValue();
+  constexpr int32_t& __cordl_internal_get_hashValue();
 
-  constexpr int32_t const& __get_hashValue() const;
+  constexpr int32_t const& __cordl_internal_get_hashValue() const;
 
-  constexpr void __set_hashValue(int32_t value);
+  constexpr void __cordl_internal_set_hashValue(int32_t value);
 
   static inline ::Org::BouncyCastle::X509::X509CrlEntry* New_ctor(::Org::BouncyCastle::Asn1::X509::CrlEntry* c);
 

@@ -19,23 +19,23 @@ MARK_REF_PTR_T(::Zenject::MemoryPoolBindInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10950))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10950))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10951))
 // CS Name: ::Zenject::MemoryPoolBindInfo*
 class CORDL_TYPE MemoryPoolBindInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <ShowExpandWarning>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__ShowExpandWarning_k__BackingField, put = __set__ShowExpandWarning_k__BackingField)) bool _ShowExpandWarning_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ShowExpandWarning_k__BackingField, put = __cordl_internal_set__ShowExpandWarning_k__BackingField)) bool _ShowExpandWarning_k__BackingField;
 
   /// @brief Field <ExpandMethod>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__ExpandMethod_k__BackingField, put = __set__ExpandMethod_k__BackingField))::Zenject::PoolExpandMethods _ExpandMethod_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ExpandMethod_k__BackingField, put = __cordl_internal_set__ExpandMethod_k__BackingField))::Zenject::PoolExpandMethods _ExpandMethod_k__BackingField;
 
   /// @brief Field <InitialSize>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__InitialSize_k__BackingField, put = __set__InitialSize_k__BackingField)) int32_t _InitialSize_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__InitialSize_k__BackingField, put = __cordl_internal_set__InitialSize_k__BackingField)) int32_t _InitialSize_k__BackingField;
 
   /// @brief Field <MaxSize>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__MaxSize_k__BackingField, put = __set__MaxSize_k__BackingField)) int32_t _MaxSize_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MaxSize_k__BackingField, put = __cordl_internal_set__MaxSize_k__BackingField)) int32_t _MaxSize_k__BackingField;
 
   __declspec(property(get = get_ShowExpandWarning, put = set_ShowExpandWarning)) bool ShowExpandWarning;
 
@@ -45,29 +45,29 @@ public:
 
   __declspec(property(get = get_MaxSize, put = set_MaxSize)) int32_t MaxSize;
 
-  constexpr bool& __get__ShowExpandWarning_k__BackingField();
+  constexpr bool& __cordl_internal_get__ShowExpandWarning_k__BackingField();
 
-  constexpr bool const& __get__ShowExpandWarning_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__ShowExpandWarning_k__BackingField() const;
 
-  constexpr void __set__ShowExpandWarning_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__ShowExpandWarning_k__BackingField(bool value);
 
-  constexpr ::Zenject::PoolExpandMethods& __get__ExpandMethod_k__BackingField();
+  constexpr ::Zenject::PoolExpandMethods& __cordl_internal_get__ExpandMethod_k__BackingField();
 
-  constexpr ::Zenject::PoolExpandMethods const& __get__ExpandMethod_k__BackingField() const;
+  constexpr ::Zenject::PoolExpandMethods const& __cordl_internal_get__ExpandMethod_k__BackingField() const;
 
-  constexpr void __set__ExpandMethod_k__BackingField(::Zenject::PoolExpandMethods value);
+  constexpr void __cordl_internal_set__ExpandMethod_k__BackingField(::Zenject::PoolExpandMethods value);
 
-  constexpr int32_t& __get__InitialSize_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__InitialSize_k__BackingField();
 
-  constexpr int32_t const& __get__InitialSize_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__InitialSize_k__BackingField() const;
 
-  constexpr void __set__InitialSize_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__InitialSize_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__MaxSize_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__MaxSize_k__BackingField();
 
-  constexpr int32_t const& __get__MaxSize_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__MaxSize_k__BackingField() const;
 
-  constexpr void __set__MaxSize_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__MaxSize_k__BackingField(int32_t value);
 
   static inline ::Zenject::MemoryPoolBindInfo* New_ctor();
 

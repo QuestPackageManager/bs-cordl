@@ -36,17 +36,17 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6692))
 // CS Name: ::TakeNObservable`1::Take<TValue>*
 class CORDL_TYPE __TakeNObservable_1__Take : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Observer, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Observer, put = __set_m_Observer))::System::IObserver_1<TValue>* m_Observer;
+  __declspec(property(get = __cordl_internal_get_m_Observer, put = __cordl_internal_set_m_Observer))::System::IObserver_1<TValue>* m_Observer;
 
   /// @brief Field m_Remaining, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_Remaining, put = __set_m_Remaining)) int32_t m_Remaining;
+  __declspec(property(get = __cordl_internal_get_m_Remaining, put = __cordl_internal_set_m_Remaining)) int32_t m_Remaining;
 
   /// @brief Convert operator to "::System::IObserver_1<TValue>"
   constexpr operator ::System::IObserver_1<TValue>*() noexcept;
@@ -54,17 +54,17 @@ public:
   /// @brief Convert to "::System::IObserver_1<TValue>"
   constexpr ::System::IObserver_1<TValue>* i___System__IObserver_1_TValue_() noexcept;
 
-  constexpr ::System::IObserver_1<TValue>*& __get_m_Observer();
+  constexpr ::System::IObserver_1<TValue>*& __cordl_internal_get_m_Observer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<TValue>*> const& __get_m_Observer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<TValue>*> const& __cordl_internal_get_m_Observer() const;
 
-  constexpr void __set_m_Observer(::System::IObserver_1<TValue>* value);
+  constexpr void __cordl_internal_set_m_Observer(::System::IObserver_1<TValue>* value);
 
-  constexpr int32_t& __get_m_Remaining();
+  constexpr int32_t& __cordl_internal_get_m_Remaining();
 
-  constexpr int32_t const& __get_m_Remaining() const;
+  constexpr int32_t const& __cordl_internal_get_m_Remaining() const;
 
-  constexpr void __set_m_Remaining(int32_t value);
+  constexpr void __cordl_internal_set_m_Remaining(int32_t value);
 
   static inline ::UnityEngine::InputSystem::Utilities::__TakeNObservable_1__Take<TValue>* New_ctor(::UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>* observable,
                                                                                                    ::System::IObserver_1<TValue>* observer);
@@ -111,7 +111,7 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6693))
 // CS Name: ::UnityEngine.InputSystem.Utilities::TakeNObservable`1<TValue>*
 class CORDL_TYPE TakeNObservable_1 : public ::System::Object {
@@ -120,10 +120,10 @@ public:
   using Take = ::UnityEngine::InputSystem::Utilities::__TakeNObservable_1__Take<TValue>;
 
   /// @brief Field m_Source, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Source, put = __set_m_Source))::System::IObservable_1<TValue>* m_Source;
+  __declspec(property(get = __cordl_internal_get_m_Source, put = __cordl_internal_set_m_Source))::System::IObservable_1<TValue>* m_Source;
 
   /// @brief Field m_Count, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_Count, put = __set_m_Count)) int32_t m_Count;
+  __declspec(property(get = __cordl_internal_get_m_Count, put = __cordl_internal_set_m_Count)) int32_t m_Count;
 
   /// @brief Convert operator to "::System::IObservable_1<TValue>"
   constexpr operator ::System::IObservable_1<TValue>*() noexcept;
@@ -131,17 +131,17 @@ public:
   /// @brief Convert to "::System::IObservable_1<TValue>"
   constexpr ::System::IObservable_1<TValue>* i___System__IObservable_1_TValue_() noexcept;
 
-  constexpr ::System::IObservable_1<TValue>*& __get_m_Source();
+  constexpr ::System::IObservable_1<TValue>*& __cordl_internal_get_m_Source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IObservable_1<TValue>*> const& __get_m_Source() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IObservable_1<TValue>*> const& __cordl_internal_get_m_Source() const;
 
-  constexpr void __set_m_Source(::System::IObservable_1<TValue>* value);
+  constexpr void __cordl_internal_set_m_Source(::System::IObservable_1<TValue>* value);
 
-  constexpr int32_t& __get_m_Count();
+  constexpr int32_t& __cordl_internal_get_m_Count();
 
-  constexpr int32_t const& __get_m_Count() const;
+  constexpr int32_t const& __cordl_internal_get_m_Count() const;
 
-  constexpr void __set_m_Count(int32_t value);
+  constexpr void __cordl_internal_set_m_Count(int32_t value);
 
   static inline ::UnityEngine::InputSystem::Utilities::TakeNObservable_1<TValue>* New_ctor(::System::IObservable_1<TValue>* source, int32_t count);
 

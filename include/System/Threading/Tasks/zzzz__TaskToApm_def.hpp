@@ -43,20 +43,20 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2759))
 // CS Name: ::TaskToApm::TaskWrapperAsyncResult*
 class CORDL_TYPE __TaskToApm__TaskWrapperAsyncResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Task, offset 0x10, size 0x8
-  __declspec(property(get = __get_Task, put = __set_Task))::System::Threading::Tasks::Task* Task;
+  __declspec(property(get = __cordl_internal_get_Task, put = __cordl_internal_set_Task))::System::Threading::Tasks::Task* Task;
 
   /// @brief Field _state, offset 0x18, size 0x8
-  __declspec(property(get = __get__state, put = __set__state))::System::Object* _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::System::Object* _state;
 
   /// @brief Field _completedSynchronously, offset 0x20, size 0x1
-  __declspec(property(get = __get__completedSynchronously, put = __set__completedSynchronously)) bool _completedSynchronously;
+  __declspec(property(get = __cordl_internal_get__completedSynchronously, put = __cordl_internal_set__completedSynchronously)) bool _completedSynchronously;
 
   __declspec(property(get = System_IAsyncResult_get_AsyncState))::System::Object* System_IAsyncResult_AsyncState;
 
@@ -72,23 +72,23 @@ public:
   /// @brief Convert to "::System::IAsyncResult"
   constexpr ::System::IAsyncResult* i___System__IAsyncResult() noexcept;
 
-  constexpr ::System::Threading::Tasks::Task*& __get_Task();
+  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_Task();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __get_Task() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get_Task() const;
 
-  constexpr void __set_Task(::System::Threading::Tasks::Task* value);
+  constexpr void __cordl_internal_set_Task(::System::Threading::Tasks::Task* value);
 
-  constexpr ::System::Object*& __get__state();
+  constexpr ::System::Object*& __cordl_internal_get__state();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__state() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__state() const;
 
-  constexpr void __set__state(::System::Object* value);
+  constexpr void __cordl_internal_set__state(::System::Object* value);
 
-  constexpr bool& __get__completedSynchronously();
+  constexpr bool& __cordl_internal_get__completedSynchronously();
 
-  constexpr bool const& __get__completedSynchronously() const;
+  constexpr bool const& __cordl_internal_get__completedSynchronously() const;
 
-  constexpr void __set__completedSynchronously(bool value);
+  constexpr void __cordl_internal_set__completedSynchronously(bool value);
 
   static inline ::System::Threading::Tasks::__TaskToApm__TaskWrapperAsyncResult* New_ctor(::System::Threading::Tasks::Task* task, ::System::Object* state, bool completedSynchronously);
 
@@ -146,29 +146,29 @@ static_assert(offsetof(::System::Threading::Tasks::__TaskToApm__TaskWrapperAsync
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2760))
 // CS Name: ::TaskToApm::<>c__DisplayClass3_0*
 class CORDL_TYPE __TaskToApm____c__DisplayClass3_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __get_callback, put = __set_callback))::System::AsyncCallback* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::AsyncCallback* callback;
 
   /// @brief Field asyncResult, offset 0x18, size 0x8
-  __declspec(property(get = __get_asyncResult, put = __set_asyncResult))::System::IAsyncResult* asyncResult;
+  __declspec(property(get = __cordl_internal_get_asyncResult, put = __cordl_internal_set_asyncResult))::System::IAsyncResult* asyncResult;
 
-  constexpr ::System::AsyncCallback*& __get_callback();
+  constexpr ::System::AsyncCallback*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __get_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __cordl_internal_get_callback() const;
 
-  constexpr void __set_callback(::System::AsyncCallback* value);
+  constexpr void __cordl_internal_set_callback(::System::AsyncCallback* value);
 
-  constexpr ::System::IAsyncResult*& __get_asyncResult();
+  constexpr ::System::IAsyncResult*& __cordl_internal_get_asyncResult();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IAsyncResult*> const& __get_asyncResult() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IAsyncResult*> const& __cordl_internal_get_asyncResult() const;
 
-  constexpr void __set_asyncResult(::System::IAsyncResult* value);
+  constexpr void __cordl_internal_set_asyncResult(::System::IAsyncResult* value);
 
   static inline ::System::Threading::Tasks::__TaskToApm____c__DisplayClass3_0* New_ctor();
 
@@ -212,7 +212,7 @@ static_assert(offsetof(::System::Threading::Tasks::__TaskToApm____c__DisplayClas
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2761))
 // CS Name: ::System.Threading.Tasks::TaskToApm*
 class CORDL_TYPE TaskToApm : public ::System::Object {

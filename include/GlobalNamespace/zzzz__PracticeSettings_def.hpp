@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::GlobalNamespace::PracticeSettings);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4661))
 // CS Name: ::PracticeSettings*
 class CORDL_TYPE PracticeSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _startSongTime, offset 0x10, size 0x4
-  __declspec(property(get = __get__startSongTime, put = __set__startSongTime)) float_t _startSongTime;
+  __declspec(property(get = __cordl_internal_get__startSongTime, put = __cordl_internal_set__startSongTime)) float_t _startSongTime;
 
   /// @brief Field _songSpeedMul, offset 0x14, size 0x4
-  __declspec(property(get = __get__songSpeedMul, put = __set__songSpeedMul)) float_t _songSpeedMul;
+  __declspec(property(get = __cordl_internal_get__songSpeedMul, put = __cordl_internal_set__songSpeedMul)) float_t _songSpeedMul;
 
   /// @brief Field _startInAdvanceAndClearNotes, offset 0x18, size 0x1
-  __declspec(property(get = __get__startInAdvanceAndClearNotes, put = __set__startInAdvanceAndClearNotes)) bool _startInAdvanceAndClearNotes;
+  __declspec(property(get = __cordl_internal_get__startInAdvanceAndClearNotes, put = __cordl_internal_set__startInAdvanceAndClearNotes)) bool _startInAdvanceAndClearNotes;
 
   __declspec(property(get = get_startSongTime, put = set_startSongTime)) float_t startSongTime;
 
@@ -36,23 +36,23 @@ public:
 
   __declspec(property(get = get_startInAdvanceAndClearNotes, put = set_startInAdvanceAndClearNotes)) bool startInAdvanceAndClearNotes;
 
-  constexpr float_t& __get__startSongTime();
+  constexpr float_t& __cordl_internal_get__startSongTime();
 
-  constexpr float_t const& __get__startSongTime() const;
+  constexpr float_t const& __cordl_internal_get__startSongTime() const;
 
-  constexpr void __set__startSongTime(float_t value);
+  constexpr void __cordl_internal_set__startSongTime(float_t value);
 
-  constexpr float_t& __get__songSpeedMul();
+  constexpr float_t& __cordl_internal_get__songSpeedMul();
 
-  constexpr float_t const& __get__songSpeedMul() const;
+  constexpr float_t const& __cordl_internal_get__songSpeedMul() const;
 
-  constexpr void __set__songSpeedMul(float_t value);
+  constexpr void __cordl_internal_set__songSpeedMul(float_t value);
 
-  constexpr bool& __get__startInAdvanceAndClearNotes();
+  constexpr bool& __cordl_internal_get__startInAdvanceAndClearNotes();
 
-  constexpr bool const& __get__startInAdvanceAndClearNotes() const;
+  constexpr bool const& __cordl_internal_get__startInAdvanceAndClearNotes() const;
 
-  constexpr void __set__startInAdvanceAndClearNotes(bool value);
+  constexpr void __cordl_internal_set__startInAdvanceAndClearNotes(bool value);
 
   /// @brief Method get_startSongTime, addr 0x23730f8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startSongTime();

@@ -29,33 +29,33 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::StringEnumConverter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11830))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11830))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12042))
 // CS Name: ::Newtonsoft.Json.Converters::StringEnumConverter*
 class CORDL_TYPE StringEnumConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
   /// @brief Field <CamelCaseText>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__CamelCaseText_k__BackingField, put = __set__CamelCaseText_k__BackingField)) bool _CamelCaseText_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CamelCaseText_k__BackingField, put = __cordl_internal_set__CamelCaseText_k__BackingField)) bool _CamelCaseText_k__BackingField;
 
   /// @brief Field <AllowIntegerValues>k__BackingField, offset 0x11, size 0x1
-  __declspec(property(get = __get__AllowIntegerValues_k__BackingField, put = __set__AllowIntegerValues_k__BackingField)) bool _AllowIntegerValues_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__AllowIntegerValues_k__BackingField, put = __cordl_internal_set__AllowIntegerValues_k__BackingField)) bool _AllowIntegerValues_k__BackingField;
 
   __declspec(property(get = get_CamelCaseText, put = set_CamelCaseText)) bool CamelCaseText;
 
   __declspec(property(get = get_AllowIntegerValues, put = set_AllowIntegerValues)) bool AllowIntegerValues;
 
-  constexpr bool& __get__CamelCaseText_k__BackingField();
+  constexpr bool& __cordl_internal_get__CamelCaseText_k__BackingField();
 
-  constexpr bool const& __get__CamelCaseText_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__CamelCaseText_k__BackingField() const;
 
-  constexpr void __set__CamelCaseText_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__CamelCaseText_k__BackingField(bool value);
 
-  constexpr bool& __get__AllowIntegerValues_k__BackingField();
+  constexpr bool& __cordl_internal_get__AllowIntegerValues_k__BackingField();
 
-  constexpr bool const& __get__AllowIntegerValues_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__AllowIntegerValues_k__BackingField() const;
 
-  constexpr void __set__AllowIntegerValues_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__AllowIntegerValues_k__BackingField(bool value);
 
   /// @brief Method get_CamelCaseText, addr 0x26b7030, size 0x8, virtual false, abstract: false, final false
   inline bool get_CamelCaseText();

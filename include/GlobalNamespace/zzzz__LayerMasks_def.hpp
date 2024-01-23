@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LayerMasks);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10204))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10204))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16245))
 // CS Name: ::LayerMasks*
 class CORDL_TYPE LayerMasks : public ::System::Object {

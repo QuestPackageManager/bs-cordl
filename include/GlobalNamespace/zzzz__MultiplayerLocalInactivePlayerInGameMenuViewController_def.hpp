@@ -60,155 +60,157 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalInactivePlayerInGameMenuViewCo
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5059))
 // CS Name: ::MultiplayerLocalInactivePlayerInGameMenuViewController*
 class CORDL_TYPE MultiplayerLocalInactivePlayerInGameMenuViewController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _disconnectButton, offset 0x18, size 0x8
-  __declspec(property(get = __get__disconnectButton, put = __set__disconnectButton))::UnityEngine::UI::Button* _disconnectButton;
+  __declspec(property(get = __cordl_internal_get__disconnectButton, put = __cordl_internal_set__disconnectButton))::UnityW<::UnityEngine::UI::Button> _disconnectButton;
 
   /// @brief Field _disconnectButtonLocalizedText, offset 0x20, size 0x8
-  __declspec(property(get = __get__disconnectButtonLocalizedText, put = __set__disconnectButtonLocalizedText))::Polyglot::LocalizedTextMeshProUGUI* _disconnectButtonLocalizedText;
+  __declspec(property(get = __cordl_internal_get__disconnectButtonLocalizedText,
+                      put = __cordl_internal_set__disconnectButtonLocalizedText))::UnityW<::Polyglot::LocalizedTextMeshProUGUI> _disconnectButtonLocalizedText;
 
   /// @brief Field _detailsToggle, offset 0x28, size 0x8
-  __declspec(property(get = __get__detailsToggle, put = __set__detailsToggle))::UnityEngine::UI::Toggle* _detailsToggle;
+  __declspec(property(get = __cordl_internal_get__detailsToggle, put = __cordl_internal_set__detailsToggle))::UnityW<::UnityEngine::UI::Toggle> _detailsToggle;
 
   /// @brief Field _globalCanvasGroup, offset 0x30, size 0x8
-  __declspec(property(get = __get__globalCanvasGroup, put = __set__globalCanvasGroup))::UnityEngine::CanvasGroup* _globalCanvasGroup;
+  __declspec(property(get = __cordl_internal_get__globalCanvasGroup, put = __cordl_internal_set__globalCanvasGroup))::UnityW<::UnityEngine::CanvasGroup> _globalCanvasGroup;
 
   /// @brief Field _mainBar, offset 0x38, size 0x8
-  __declspec(property(get = __get__mainBar, put = __set__mainBar))::UnityEngine::GameObject* _mainBar;
+  __declspec(property(get = __cordl_internal_get__mainBar, put = __cordl_internal_set__mainBar))::UnityW<::UnityEngine::GameObject> _mainBar;
 
   /// @brief Field _disconnectPromptView, offset 0x40, size 0x8
-  __declspec(property(get = __get__disconnectPromptView, put = __set__disconnectPromptView))::GlobalNamespace::DisconnectPromptView* _disconnectPromptView;
+  __declspec(property(get = __cordl_internal_get__disconnectPromptView, put = __cordl_internal_set__disconnectPromptView))::UnityW<::GlobalNamespace::DisconnectPromptView> _disconnectPromptView;
 
   /// @brief Field _levelBar, offset 0x48, size 0x8
-  __declspec(property(get = __get__levelBar, put = __set__levelBar))::GlobalNamespace::LevelBar* _levelBar;
+  __declspec(property(get = __cordl_internal_get__levelBar, put = __cordl_internal_set__levelBar))::UnityW<::GlobalNamespace::LevelBar> _levelBar;
 
   /// @brief Field _dontOwnSongGameObject, offset 0x50, size 0x8
-  __declspec(property(get = __get__dontOwnSongGameObject, put = __set__dontOwnSongGameObject))::UnityEngine::GameObject* _dontOwnSongGameObject;
+  __declspec(property(get = __cordl_internal_get__dontOwnSongGameObject, put = __cordl_internal_set__dontOwnSongGameObject))::UnityW<::UnityEngine::GameObject> _dontOwnSongGameObject;
 
   /// @brief Field _detailsGameObject, offset 0x58, size 0x8
-  __declspec(property(get = __get__detailsGameObject, put = __set__detailsGameObject))::UnityEngine::GameObject* _detailsGameObject;
+  __declspec(property(get = __cordl_internal_get__detailsGameObject, put = __cordl_internal_set__detailsGameObject))::UnityW<::UnityEngine::GameObject> _detailsGameObject;
 
   /// @brief Field _localPlayerInGameMenuInitData, offset 0x60, size 0x8
-  __declspec(property(get = __get__localPlayerInGameMenuInitData, put = __set__localPlayerInGameMenuInitData))::GlobalNamespace::LocalPlayerInGameMenuInitData* _localPlayerInGameMenuInitData;
+  __declspec(property(get = __cordl_internal_get__localPlayerInGameMenuInitData,
+                      put = __cordl_internal_set__localPlayerInGameMenuInitData))::GlobalNamespace::LocalPlayerInGameMenuInitData* _localPlayerInGameMenuInitData;
 
   /// @brief Field _disconnectHelper, offset 0x68, size 0x8
-  __declspec(property(get = __get__disconnectHelper, put = __set__disconnectHelper))::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* _disconnectHelper;
+  __declspec(property(get = __cordl_internal_get__disconnectHelper, put = __cordl_internal_set__disconnectHelper))::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* _disconnectHelper;
 
   /// @brief Field _multiplayerController, offset 0x70, size 0x8
-  __declspec(property(get = __get__multiplayerController, put = __set__multiplayerController))::GlobalNamespace::MultiplayerController* _multiplayerController;
+  __declspec(property(get = __cordl_internal_get__multiplayerController, put = __cordl_internal_set__multiplayerController))::UnityW<::GlobalNamespace::MultiplayerController> _multiplayerController;
 
   /// @brief Field _tweeningManager, offset 0x78, size 0x8
-  __declspec(property(get = __get__tweeningManager, put = __set__tweeningManager))::Tweening::TimeTweeningManager* _tweeningManager;
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
   /// @brief Field _buttonBinder, offset 0x80, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
   /// @brief Field _toggleBinder, offset 0x88, size 0x8
-  __declspec(property(get = __get__toggleBinder, put = __set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
+  __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
 
   /// @brief Field _fadeOutTween, offset 0x90, size 0x8
-  __declspec(property(get = __get__fadeOutTween, put = __set__fadeOutTween))::Tweening::Tween* _fadeOutTween;
+  __declspec(property(get = __cordl_internal_get__fadeOutTween, put = __cordl_internal_set__fadeOutTween))::Tweening::Tween* _fadeOutTween;
 
-  constexpr ::UnityEngine::UI::Button*& __get__disconnectButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__disconnectButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__disconnectButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__disconnectButton() const;
 
-  constexpr void __set__disconnectButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__disconnectButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::Polyglot::LocalizedTextMeshProUGUI*& __get__disconnectButtonLocalizedText();
+  constexpr ::UnityW<::Polyglot::LocalizedTextMeshProUGUI>& __cordl_internal_get__disconnectButtonLocalizedText();
 
-  constexpr ::cordl_internals::to_const_pointer<::Polyglot::LocalizedTextMeshProUGUI*> const& __get__disconnectButtonLocalizedText() const;
+  constexpr ::UnityW<::Polyglot::LocalizedTextMeshProUGUI> const& __cordl_internal_get__disconnectButtonLocalizedText() const;
 
-  constexpr void __set__disconnectButtonLocalizedText(::Polyglot::LocalizedTextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__disconnectButtonLocalizedText(::UnityW<::Polyglot::LocalizedTextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__detailsToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__detailsToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__detailsToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__detailsToggle() const;
 
-  constexpr void __set__detailsToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__detailsToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__globalCanvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__globalCanvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__globalCanvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__globalCanvasGroup() const;
 
-  constexpr void __set__globalCanvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__globalCanvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__mainBar();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__mainBar();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__mainBar() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__mainBar() const;
 
-  constexpr void __set__mainBar(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__mainBar(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::DisconnectPromptView*& __get__disconnectPromptView();
+  constexpr ::UnityW<::GlobalNamespace::DisconnectPromptView>& __cordl_internal_get__disconnectPromptView();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DisconnectPromptView*> const& __get__disconnectPromptView() const;
+  constexpr ::UnityW<::GlobalNamespace::DisconnectPromptView> const& __cordl_internal_get__disconnectPromptView() const;
 
-  constexpr void __set__disconnectPromptView(::GlobalNamespace::DisconnectPromptView* value);
+  constexpr void __cordl_internal_set__disconnectPromptView(::UnityW<::GlobalNamespace::DisconnectPromptView> value);
 
-  constexpr ::GlobalNamespace::LevelBar*& __get__levelBar();
+  constexpr ::UnityW<::GlobalNamespace::LevelBar>& __cordl_internal_get__levelBar();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelBar*> const& __get__levelBar() const;
+  constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
 
-  constexpr void __set__levelBar(::GlobalNamespace::LevelBar* value);
+  constexpr void __cordl_internal_set__levelBar(::UnityW<::GlobalNamespace::LevelBar> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__dontOwnSongGameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__dontOwnSongGameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__dontOwnSongGameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__dontOwnSongGameObject() const;
 
-  constexpr void __set__dontOwnSongGameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__dontOwnSongGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__detailsGameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__detailsGameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__detailsGameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__detailsGameObject() const;
 
-  constexpr void __set__detailsGameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__detailsGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::LocalPlayerInGameMenuInitData*& __get__localPlayerInGameMenuInitData();
+  constexpr ::GlobalNamespace::LocalPlayerInGameMenuInitData*& __cordl_internal_get__localPlayerInGameMenuInitData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LocalPlayerInGameMenuInitData*> const& __get__localPlayerInGameMenuInitData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LocalPlayerInGameMenuInitData*> const& __cordl_internal_get__localPlayerInGameMenuInitData() const;
 
-  constexpr void __set__localPlayerInGameMenuInitData(::GlobalNamespace::LocalPlayerInGameMenuInitData* value);
+  constexpr void __cordl_internal_set__localPlayerInGameMenuInitData(::GlobalNamespace::LocalPlayerInGameMenuInitData* value);
 
-  constexpr ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*& __get__disconnectHelper();
+  constexpr ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*& __cordl_internal_get__disconnectHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*> const& __get__disconnectHelper() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper*> const& __cordl_internal_get__disconnectHelper() const;
 
-  constexpr void __set__disconnectHelper(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* value);
+  constexpr void __cordl_internal_set__disconnectHelper(::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* value);
 
-  constexpr ::GlobalNamespace::MultiplayerController*& __get__multiplayerController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get__multiplayerController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerController*> const& __get__multiplayerController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
 
-  constexpr void __set__multiplayerController(::GlobalNamespace::MultiplayerController* value);
+  constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value);
 
-  constexpr ::Tweening::TimeTweeningManager*& __get__tweeningManager();
+  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& __get__tweeningManager() const;
+  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
-  constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager* value);
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  constexpr ::HMUI::ToggleBinder*& __get__toggleBinder();
+  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __get__toggleBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
 
-  constexpr void __set__toggleBinder(::HMUI::ToggleBinder* value);
+  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  constexpr ::Tweening::Tween*& __get__fadeOutTween();
+  constexpr ::Tweening::Tween*& __cordl_internal_get__fadeOutTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween*> const& __get__fadeOutTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween*> const& __cordl_internal_get__fadeOutTween() const;
 
-  constexpr void __set__fadeOutTween(::Tweening::Tween* value);
+  constexpr void __cordl_internal_set__fadeOutTween(::Tweening::Tween* value);
 
   /// @brief Method OnEnable, addr 0x23c607c, size 0x150, virtual false, abstract: false, final false
   inline void OnEnable();
@@ -263,31 +265,31 @@ protected:
 
 public:
   /// @brief Field _disconnectButton, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____disconnectButton;
+  ::UnityW<::UnityEngine::UI::Button> ____disconnectButton;
 
   /// @brief Field _disconnectButtonLocalizedText, offset: 0x20, size: 0x8, def value: None
-  ::Polyglot::LocalizedTextMeshProUGUI* ____disconnectButtonLocalizedText;
+  ::UnityW<::Polyglot::LocalizedTextMeshProUGUI> ____disconnectButtonLocalizedText;
 
   /// @brief Field _detailsToggle, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____detailsToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____detailsToggle;
 
   /// @brief Field _globalCanvasGroup, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____globalCanvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ____globalCanvasGroup;
 
   /// @brief Field _mainBar, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____mainBar;
+  ::UnityW<::UnityEngine::GameObject> ____mainBar;
 
   /// @brief Field _disconnectPromptView, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::DisconnectPromptView* ____disconnectPromptView;
+  ::UnityW<::GlobalNamespace::DisconnectPromptView> ____disconnectPromptView;
 
   /// @brief Field _levelBar, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::LevelBar* ____levelBar;
+  ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;
 
   /// @brief Field _dontOwnSongGameObject, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____dontOwnSongGameObject;
+  ::UnityW<::UnityEngine::GameObject> ____dontOwnSongGameObject;
 
   /// @brief Field _detailsGameObject, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____detailsGameObject;
+  ::UnityW<::UnityEngine::GameObject> ____detailsGameObject;
 
   /// @brief Field _localPlayerInGameMenuInitData, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::LocalPlayerInGameMenuInitData* ____localPlayerInGameMenuInitData;
@@ -296,10 +298,10 @@ public:
   ::GlobalNamespace::MultiplayerLocalPlayerDisconnectHelper* ____disconnectHelper;
 
   /// @brief Field _multiplayerController, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerController* ____multiplayerController;
+  ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;
 
   /// @brief Field _tweeningManager, offset: 0x78, size: 0x8, def value: None
-  ::Tweening::TimeTweeningManager* ____tweeningManager;
+  ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
   /// @brief Field _buttonBinder, offset: 0x80, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;

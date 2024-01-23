@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::Experimental::Rendering::TextureCreationFlags);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10403))
 // CS Name: ::UnityEngine.Experimental.Rendering::TextureCreationFlags
 struct CORDL_TYPE TextureCreationFlags {

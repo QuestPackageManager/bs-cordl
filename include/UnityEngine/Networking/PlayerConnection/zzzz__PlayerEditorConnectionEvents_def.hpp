@@ -77,8 +77,8 @@ MARK_REF_PTR_T(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnec
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 5226 }), TypeDefinitionIndex(TypeDefinitionIndex(10312)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10465))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10301)) CS Name: ::PlayerEditorConnectionEvents::MessageEvent*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10312)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
+// 5226 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10301)) CS Name: ::PlayerEditorConnectionEvents::MessageEvent*
 class CORDL_TYPE __PlayerEditorConnectionEvents__MessageEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Networking::PlayerConnection::MessageEventArgs*> {
 public:
   // Declarations
@@ -111,7 +111,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::PlayerC
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 98 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 98 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10302))
 // CS Name: ::PlayerEditorConnectionEvents::ConnectionChangeEvent*
 class CORDL_TYPE __PlayerEditorConnectionEvents__ConnectionChangeEvent : public ::UnityEngine::Events::UnityEvent_1<int32_t> {
@@ -146,40 +146,41 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::PlayerC
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10303))
 // CS Name: ::PlayerEditorConnectionEvents::MessageTypeSubscribers*
 class CORDL_TYPE __PlayerEditorConnectionEvents__MessageTypeSubscribers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_messageTypeId, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_messageTypeId, put = __set_m_messageTypeId))::StringW m_messageTypeId;
+  __declspec(property(get = __cordl_internal_get_m_messageTypeId, put = __cordl_internal_set_m_messageTypeId))::StringW m_messageTypeId;
 
   /// @brief Field subscriberCount, offset 0x18, size 0x4
-  __declspec(property(get = __get_subscriberCount, put = __set_subscriberCount)) int32_t subscriberCount;
+  __declspec(property(get = __cordl_internal_get_subscriberCount, put = __cordl_internal_set_subscriberCount)) int32_t subscriberCount;
 
   /// @brief Field messageCallback, offset 0x20, size 0x8
-  __declspec(property(get = __get_messageCallback, put = __set_messageCallback))::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent* messageCallback;
+  __declspec(property(get = __cordl_internal_get_messageCallback,
+                      put = __cordl_internal_set_messageCallback))::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent* messageCallback;
 
   __declspec(property(get = get_MessageTypeId, put = set_MessageTypeId))::System::Guid MessageTypeId;
 
-  constexpr ::StringW& __get_m_messageTypeId();
+  constexpr ::StringW& __cordl_internal_get_m_messageTypeId();
 
-  constexpr ::StringW const& __get_m_messageTypeId() const;
+  constexpr ::StringW const& __cordl_internal_get_m_messageTypeId() const;
 
-  constexpr void __set_m_messageTypeId(::StringW value);
+  constexpr void __cordl_internal_set_m_messageTypeId(::StringW value);
 
-  constexpr int32_t& __get_subscriberCount();
+  constexpr int32_t& __cordl_internal_get_subscriberCount();
 
-  constexpr int32_t const& __get_subscriberCount() const;
+  constexpr int32_t const& __cordl_internal_get_subscriberCount() const;
 
-  constexpr void __set_subscriberCount(int32_t value);
+  constexpr void __cordl_internal_set_subscriberCount(int32_t value);
 
-  constexpr ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent*& __get_messageCallback();
+  constexpr ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent*& __cordl_internal_get_messageCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent*> const& __get_messageCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent*> const& __cordl_internal_get_messageCallback() const;
 
-  constexpr void __set_messageCallback(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent* value);
+  constexpr void __cordl_internal_set_messageCallback(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent* value);
 
   /// @brief Method get_MessageTypeId, addr 0x2ce7b04, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Guid get_MessageTypeId();
@@ -231,20 +232,20 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerEdit
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10304))
 // CS Name: ::PlayerEditorConnectionEvents::<>c__DisplayClass6_0*
 class CORDL_TYPE __PlayerEditorConnectionEvents____c__DisplayClass6_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field messageId, offset 0x10, size 0x10
-  __declspec(property(get = __get_messageId, put = __set_messageId))::System::Guid messageId;
+  __declspec(property(get = __cordl_internal_get_messageId, put = __cordl_internal_set_messageId))::System::Guid messageId;
 
-  constexpr ::System::Guid& __get_messageId();
+  constexpr ::System::Guid& __cordl_internal_get_messageId();
 
-  constexpr ::System::Guid const& __get_messageId() const;
+  constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
 
-  constexpr void __set_messageId(::System::Guid value);
+  constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass6_0* New_ctor();
 
@@ -283,20 +284,20 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerEdit
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10305))
 // CS Name: ::PlayerEditorConnectionEvents::<>c__DisplayClass7_0*
 class CORDL_TYPE __PlayerEditorConnectionEvents____c__DisplayClass7_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field messageId, offset 0x10, size 0x10
-  __declspec(property(get = __get_messageId, put = __set_messageId))::System::Guid messageId;
+  __declspec(property(get = __cordl_internal_get_messageId, put = __cordl_internal_set_messageId))::System::Guid messageId;
 
-  constexpr ::System::Guid& __get_messageId();
+  constexpr ::System::Guid& __cordl_internal_get_messageId();
 
-  constexpr ::System::Guid const& __get_messageId() const;
+  constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
 
-  constexpr void __set_messageId(::System::Guid value);
+  constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass7_0* New_ctor();
 
@@ -335,20 +336,20 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerEdit
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10306))
 // CS Name: ::PlayerEditorConnectionEvents::<>c__DisplayClass8_0*
 class CORDL_TYPE __PlayerEditorConnectionEvents____c__DisplayClass8_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field messageId, offset 0x10, size 0x10
-  __declspec(property(get = __get_messageId, put = __set_messageId))::System::Guid messageId;
+  __declspec(property(get = __cordl_internal_get_messageId, put = __cordl_internal_set_messageId))::System::Guid messageId;
 
-  constexpr ::System::Guid& __get_messageId();
+  constexpr ::System::Guid& __cordl_internal_get_messageId();
 
-  constexpr ::System::Guid const& __get_messageId() const;
+  constexpr ::System::Guid const& __cordl_internal_get_messageId() const;
 
-  constexpr void __set_messageId(::System::Guid value);
+  constexpr void __cordl_internal_set_messageId(::System::Guid value);
 
   static inline ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents____c__DisplayClass8_0* New_ctor();
 
@@ -387,7 +388,7 @@ static_assert(offsetof(::UnityEngine::Networking::PlayerConnection::__PlayerEdit
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking::PlayerConnection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10307))
 // CS Name: ::UnityEngine.Networking.PlayerConnection::PlayerEditorConnectionEvents*
 class CORDL_TYPE PlayerEditorConnectionEvents : public ::System::Object {
@@ -406,34 +407,39 @@ public:
   using MessageEvent = ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageEvent;
 
   /// @brief Field messageTypeSubscribers, offset 0x10, size 0x8
-  __declspec(property(get = __get_messageTypeSubscribers, put = __set_messageTypeSubscribers))::System::Collections::Generic::List_1<
+  __declspec(property(get = __cordl_internal_get_messageTypeSubscribers, put = __cordl_internal_set_messageTypeSubscribers))::System::Collections::Generic::List_1<
       ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers*>* messageTypeSubscribers;
 
   /// @brief Field connectionEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_connectionEvent, put = __set_connectionEvent))::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* connectionEvent;
+  __declspec(property(get = __cordl_internal_get_connectionEvent,
+                      put = __cordl_internal_set_connectionEvent))::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* connectionEvent;
 
   /// @brief Field disconnectionEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_disconnectionEvent,
-                      put = __set_disconnectionEvent))::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* disconnectionEvent;
+  __declspec(property(get = __cordl_internal_get_disconnectionEvent,
+                      put = __cordl_internal_set_disconnectionEvent))::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* disconnectionEvent;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers*>*& __get_messageTypeSubscribers();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers*>*&
+  __cordl_internal_get_messageTypeSubscribers();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers*>*> const&
-  __get_messageTypeSubscribers() const;
+  __cordl_internal_get_messageTypeSubscribers() const;
 
-  constexpr void __set_messageTypeSubscribers(::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers*>* value);
+  constexpr void
+  __cordl_internal_set_messageTypeSubscribers(::System::Collections::Generic::List_1<::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__MessageTypeSubscribers*>* value);
 
-  constexpr ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent*& __get_connectionEvent();
+  constexpr ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent*& __cordl_internal_get_connectionEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent*> const& __get_connectionEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent*> const&
+  __cordl_internal_get_connectionEvent() const;
 
-  constexpr void __set_connectionEvent(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* value);
+  constexpr void __cordl_internal_set_connectionEvent(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* value);
 
-  constexpr ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent*& __get_disconnectionEvent();
+  constexpr ::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent*& __cordl_internal_get_disconnectionEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent*> const& __get_disconnectionEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent*> const&
+  __cordl_internal_get_disconnectionEvent() const;
 
-  constexpr void __set_disconnectionEvent(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* value);
+  constexpr void __cordl_internal_set_disconnectionEvent(::UnityEngine::Networking::PlayerConnection::__PlayerEditorConnectionEvents__ConnectionChangeEvent* value);
 
   /// @brief Method InvokeMessageIdSubscribers, addr 0x2ce7110, size 0x4a4, virtual false, abstract: false, final false
   inline void InvokeMessageIdSubscribers(::System::Guid messageId, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t playerId);

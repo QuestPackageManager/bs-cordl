@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15335))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::Triangulatable*
 class CORDL_TYPE Triangulatable {

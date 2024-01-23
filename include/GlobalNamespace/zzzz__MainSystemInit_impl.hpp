@@ -72,9 +72,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x384;
   constexpr static std::size_t addrs = 0x2226700;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "Init",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -86,11 +86,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1838;
   constexpr static std::size_t addrs = 0x2226b90;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallBindings", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallBindings", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -102,10 +102,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c0;
   constexpr static std::size_t addrs = 0x2228718;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallHapticsController", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallHapticsController", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
     return ___internal_method;
   }
 };
@@ -117,11 +117,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x22284c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallRichPresence", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallRichPresence", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -133,10 +133,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x22283c8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallOculusDestinationBindings", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallOculusDestinationBindings", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
     return ___internal_method;
   }
 };
@@ -148,11 +148,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x168;
   constexpr static std::size_t addrs = 0x22285b0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallPlatformLeaderboardsModel", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallPlatformLeaderboardsModel", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -164,10 +164,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x22288d8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallPS5Bindings", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallPS5Bindings", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
     return ___internal_method;
   }
 };
@@ -179,10 +179,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x22288dc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallPS4Bindings", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallPS4Bindings", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
     return ___internal_method;
   }
 };
@@ -193,891 +193,891 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x22288e0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::MainSettingsModelSO*& GlobalNamespace::MainSystemInit::__get__mainSettingsModel() {
+constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__mainSettingsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainSettingsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsModelSO*> const& GlobalNamespace::MainSystemInit::__get__mainSettingsModel() const {
+constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__mainSettingsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainSettingsModel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainSettingsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::AudioManagerSO*& GlobalNamespace::MainSystemInit::__get__audioManager() {
+constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__audioManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioManagerSO*> const& GlobalNamespace::MainSystemInit::__get__audioManager() const {
+constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__audioManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioManager;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__audioManager(::GlobalNamespace::AudioManagerSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PerceivedLoudnessPerLevelSO*& GlobalNamespace::MainSystemInit::__get__perceivedLoudnessPerLevel() {
+constexpr ::UnityW<::GlobalNamespace::PerceivedLoudnessPerLevelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__perceivedLoudnessPerLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____perceivedLoudnessPerLevel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PerceivedLoudnessPerLevelSO*> const& GlobalNamespace::MainSystemInit::__get__perceivedLoudnessPerLevel() const {
+constexpr ::UnityW<::GlobalNamespace::PerceivedLoudnessPerLevelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__perceivedLoudnessPerLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____perceivedLoudnessPerLevel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__perceivedLoudnessPerLevel(::GlobalNamespace::PerceivedLoudnessPerLevelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__perceivedLoudnessPerLevel(::UnityW<::GlobalNamespace::PerceivedLoudnessPerLevelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____perceivedLoudnessPerLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::RelativeSfxVolumePerLevelSO*& GlobalNamespace::MainSystemInit::__get__relativeSfxVolumePerLevel() {
+constexpr ::UnityW<::GlobalNamespace::RelativeSfxVolumePerLevelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__relativeSfxVolumePerLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolumePerLevel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RelativeSfxVolumePerLevelSO*> const& GlobalNamespace::MainSystemInit::__get__relativeSfxVolumePerLevel() const {
+constexpr ::UnityW<::GlobalNamespace::RelativeSfxVolumePerLevelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__relativeSfxVolumePerLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____relativeSfxVolumePerLevel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__relativeSfxVolumePerLevel(::GlobalNamespace::RelativeSfxVolumePerLevelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__relativeSfxVolumePerLevel(::UnityW<::GlobalNamespace::RelativeSfxVolumePerLevelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____relativeSfxVolumePerLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*& GlobalNamespace::MainSystemInit::__get__mirrorRendererGraphicsSettingsPresets() {
+constexpr ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets>& GlobalNamespace::MainSystemInit::__cordl_internal_get__mirrorRendererGraphicsSettingsPresets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirrorRendererGraphicsSettingsPresets;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*> const& GlobalNamespace::MainSystemInit::__get__mirrorRendererGraphicsSettingsPresets() const {
+constexpr ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__mirrorRendererGraphicsSettingsPresets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirrorRendererGraphicsSettingsPresets;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__mirrorRendererGraphicsSettingsPresets(::GlobalNamespace::MirrorRendererGraphicsSettingsPresets* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__mirrorRendererGraphicsSettingsPresets(::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirrorRendererGraphicsSettingsPresets)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*& GlobalNamespace::MainSystemInit::__get__mainEffectGraphicsSettingsPresets() {
+constexpr ::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__mainEffectGraphicsSettingsPresets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectGraphicsSettingsPresets;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*> const& GlobalNamespace::MainSystemInit::__get__mainEffectGraphicsSettingsPresets() const {
+constexpr ::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__mainEffectGraphicsSettingsPresets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectGraphicsSettingsPresets;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__mainEffectGraphicsSettingsPresets(::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__mainEffectGraphicsSettingsPresets(::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainEffectGraphicsSettingsPresets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*& GlobalNamespace::MainSystemInit::__get__bloomPrePassGraphicsSettingsPresets() {
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__bloomPrePassGraphicsSettingsPresets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassGraphicsSettingsPresets;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*> const& GlobalNamespace::MainSystemInit::__get__bloomPrePassGraphicsSettingsPresets() const {
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__bloomPrePassGraphicsSettingsPresets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassGraphicsSettingsPresets;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__bloomPrePassGraphicsSettingsPresets(::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__bloomPrePassGraphicsSettingsPresets(::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassGraphicsSettingsPresets)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MirrorRendererSO*& GlobalNamespace::MainSystemInit::__get__mirrorRenderer() {
+constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__mirrorRenderer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirrorRenderer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirrorRendererSO*> const& GlobalNamespace::MainSystemInit::__get__mirrorRenderer() const {
+constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__mirrorRenderer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirrorRenderer;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__mirrorRenderer(::GlobalNamespace::MirrorRendererSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__mirrorRenderer(::UnityW<::GlobalNamespace::MirrorRendererSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirrorRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MainEffectContainerSO*& GlobalNamespace::MainSystemInit::__get__mainEffectContainer() {
+constexpr ::UnityW<::GlobalNamespace::MainEffectContainerSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__mainEffectContainer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectContainer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainEffectContainerSO*> const& GlobalNamespace::MainSystemInit::__get__mainEffectContainer() const {
+constexpr ::UnityW<::GlobalNamespace::MainEffectContainerSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__mainEffectContainer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectContainer;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__mainEffectContainer(::GlobalNamespace::MainEffectContainerSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__mainEffectContainer(::UnityW<::GlobalNamespace::MainEffectContainerSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainEffectContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BloomPrePassEffectContainerSO*& GlobalNamespace::MainSystemInit::__get__bloomPrePassEffectContainer() {
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__bloomPrePassEffectContainer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassEffectContainer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassEffectContainerSO*> const& GlobalNamespace::MainSystemInit::__get__bloomPrePassEffectContainer() const {
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__bloomPrePassEffectContainer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassEffectContainer;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__bloomPrePassEffectContainer(::GlobalNamespace::BloomPrePassEffectContainerSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__bloomPrePassEffectContainer(::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassEffectContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::SongPackMasksModelSO*& GlobalNamespace::MainSystemInit::__get__songPackMasksModel() {
+constexpr ::UnityW<::GlobalNamespace::SongPackMasksModelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__songPackMasksModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPackMasksModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPackMasksModelSO*> const& GlobalNamespace::MainSystemInit::__get__songPackMasksModel() const {
+constexpr ::UnityW<::GlobalNamespace::SongPackMasksModelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__songPackMasksModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPackMasksModel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__songPackMasksModel(::GlobalNamespace::SongPackMasksModelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__songPackMasksModel(::UnityW<::GlobalNamespace::SongPackMasksModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songPackMasksModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::AppStaticSettingsSO*& GlobalNamespace::MainSystemInit::__get__appStaticSettings() {
+constexpr ::UnityW<::GlobalNamespace::AppStaticSettingsSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__appStaticSettings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appStaticSettings;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AppStaticSettingsSO*> const& GlobalNamespace::MainSystemInit::__get__appStaticSettings() const {
+constexpr ::UnityW<::GlobalNamespace::AppStaticSettingsSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__appStaticSettings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appStaticSettings;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__appStaticSettings(::GlobalNamespace::AppStaticSettingsSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__appStaticSettings(::UnityW<::GlobalNamespace::AppStaticSettingsSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____appStaticSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& GlobalNamespace::MainSystemInit::__get__standardLevelScenesTransitionSetupData() {
+constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__standardLevelScenesTransitionSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____standardLevelScenesTransitionSetupData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*> const&
-GlobalNamespace::MainSystemInit::__get__standardLevelScenesTransitionSetupData() const {
+constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__standardLevelScenesTransitionSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____standardLevelScenesTransitionSetupData;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__standardLevelScenesTransitionSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__standardLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____standardLevelScenesTransitionSetupData)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& GlobalNamespace::MainSystemInit::__get__missionLevelScenesTransitionSetupData() {
+constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__missionLevelScenesTransitionSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionLevelScenesTransitionSetupData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*> const&
-GlobalNamespace::MainSystemInit::__get__missionLevelScenesTransitionSetupData() const {
+constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__missionLevelScenesTransitionSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionLevelScenesTransitionSetupData;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__missionLevelScenesTransitionSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__missionLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionLevelScenesTransitionSetupData)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*& GlobalNamespace::MainSystemInit::__get__multiplayerLevelScenesTransitionSetupData() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__multiplayerLevelScenesTransitionSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerLevelScenesTransitionSetupData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*> const&
-GlobalNamespace::MainSystemInit::__get__multiplayerLevelScenesTransitionSetupData() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__multiplayerLevelScenesTransitionSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerLevelScenesTransitionSetupData;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__multiplayerLevelScenesTransitionSetupData(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__multiplayerLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerLevelScenesTransitionSetupData)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::TimeHelper*& GlobalNamespace::MainSystemInit::__get__timeHelperPrefab() {
+constexpr ::UnityW<::GlobalNamespace::TimeHelper>& GlobalNamespace::MainSystemInit::__cordl_internal_get__timeHelperPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeHelperPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TimeHelper*> const& GlobalNamespace::MainSystemInit::__get__timeHelperPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__timeHelperPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeHelperPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__timeHelperPrefab(::GlobalNamespace::TimeHelper* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__timeHelperPrefab(::UnityW<::GlobalNamespace::TimeHelper> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____timeHelperPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PlayerDataModel*& GlobalNamespace::MainSystemInit::__get__playerDataModelPrefab() {
+constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& GlobalNamespace::MainSystemInit::__cordl_internal_get__playerDataModelPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerDataModelPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& GlobalNamespace::MainSystemInit::__get__playerDataModelPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__playerDataModelPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerDataModelPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__playerDataModelPrefab(::GlobalNamespace::PlayerDataModel* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__playerDataModelPrefab(::UnityW<::GlobalNamespace::PlayerDataModel> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerDataModelPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::CampaignProgressModel*& GlobalNamespace::MainSystemInit::__get__campaignProgressModelPrefab() {
+constexpr ::UnityW<::GlobalNamespace::CampaignProgressModel>& GlobalNamespace::MainSystemInit::__cordl_internal_get__campaignProgressModelPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____campaignProgressModelPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CampaignProgressModel*> const& GlobalNamespace::MainSystemInit::__get__campaignProgressModelPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::CampaignProgressModel> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__campaignProgressModelPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____campaignProgressModelPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__campaignProgressModelPrefab(::GlobalNamespace::CampaignProgressModel* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__campaignProgressModelPrefab(::UnityW<::GlobalNamespace::CampaignProgressModel> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____campaignProgressModelPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapLevelsModel*& GlobalNamespace::MainSystemInit::__get__beatmapLevelsModelPrefab() {
+constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsModel>& GlobalNamespace::MainSystemInit::__cordl_internal_get__beatmapLevelsModelPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelsModelPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& GlobalNamespace::MainSystemInit::__get__beatmapLevelsModelPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsModel> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__beatmapLevelsModelPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelsModelPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__beatmapLevelsModelPrefab(::GlobalNamespace::BeatmapLevelsModel* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__beatmapLevelsModelPrefab(::UnityW<::GlobalNamespace::BeatmapLevelsModel> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelsModelPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::CustomLevelLoader*& GlobalNamespace::MainSystemInit::__get__customLevelLoaderPrefab() {
+constexpr ::UnityW<::GlobalNamespace::CustomLevelLoader>& GlobalNamespace::MainSystemInit::__cordl_internal_get__customLevelLoaderPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customLevelLoaderPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CustomLevelLoader*> const& GlobalNamespace::MainSystemInit::__get__customLevelLoaderPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::CustomLevelLoader> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__customLevelLoaderPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customLevelLoaderPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__customLevelLoaderPrefab(::GlobalNamespace::CustomLevelLoader* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__customLevelLoaderPrefab(::UnityW<::GlobalNamespace::CustomLevelLoader> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____customLevelLoaderPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::CachedMediaAsyncLoader*& GlobalNamespace::MainSystemInit::__get__cachedMediaAsyncLoaderPrefab() {
+constexpr ::UnityW<::GlobalNamespace::CachedMediaAsyncLoader>& GlobalNamespace::MainSystemInit::__cordl_internal_get__cachedMediaAsyncLoaderPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachedMediaAsyncLoaderPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CachedMediaAsyncLoader*> const& GlobalNamespace::MainSystemInit::__get__cachedMediaAsyncLoaderPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::CachedMediaAsyncLoader> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__cachedMediaAsyncLoaderPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cachedMediaAsyncLoaderPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__cachedMediaAsyncLoaderPrefab(::GlobalNamespace::CachedMediaAsyncLoader* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__cachedMediaAsyncLoaderPrefab(::UnityW<::GlobalNamespace::CachedMediaAsyncLoader> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cachedMediaAsyncLoaderPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::ExternalCamerasManager*& GlobalNamespace::MainSystemInit::__get__externalCamerasManagerPrefab() {
+constexpr ::UnityW<::GlobalNamespace::ExternalCamerasManager>& GlobalNamespace::MainSystemInit::__cordl_internal_get__externalCamerasManagerPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____externalCamerasManagerPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ExternalCamerasManager*> const& GlobalNamespace::MainSystemInit::__get__externalCamerasManagerPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::ExternalCamerasManager> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__externalCamerasManagerPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____externalCamerasManagerPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__externalCamerasManagerPrefab(::GlobalNamespace::ExternalCamerasManager* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__externalCamerasManagerPrefab(::UnityW<::GlobalNamespace::ExternalCamerasManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____externalCamerasManagerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerSessionManager*& GlobalNamespace::MainSystemInit::__get__multiplayerSessionManagerPrefab() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerSessionManager>& GlobalNamespace::MainSystemInit::__cordl_internal_get__multiplayerSessionManagerPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManagerPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerSessionManager*> const& GlobalNamespace::MainSystemInit::__get__multiplayerSessionManagerPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerSessionManager> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__multiplayerSessionManagerPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManagerPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__multiplayerSessionManagerPrefab(::GlobalNamespace::MultiplayerSessionManager* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__multiplayerSessionManagerPrefab(::UnityW<::GlobalNamespace::MultiplayerSessionManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerSessionManagerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::VoipManager*& GlobalNamespace::MainSystemInit::__get__voipManagerPrefab() {
+constexpr ::UnityW<::GlobalNamespace::VoipManager>& GlobalNamespace::MainSystemInit::__cordl_internal_get__voipManagerPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____voipManagerPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VoipManager*> const& GlobalNamespace::MainSystemInit::__get__voipManagerPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::VoipManager> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__voipManagerPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____voipManagerPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__voipManagerPrefab(::GlobalNamespace::VoipManager* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__voipManagerPrefab(::UnityW<::GlobalNamespace::VoipManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____voipManagerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::GameLiftNetworkPlayerModel*& GlobalNamespace::MainSystemInit::__get__gameLiftNetworkPlayerModelPrefab() {
+constexpr ::UnityW<::GlobalNamespace::GameLiftNetworkPlayerModel>& GlobalNamespace::MainSystemInit::__cordl_internal_get__gameLiftNetworkPlayerModelPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameLiftNetworkPlayerModelPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameLiftNetworkPlayerModel*> const& GlobalNamespace::MainSystemInit::__get__gameLiftNetworkPlayerModelPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::GameLiftNetworkPlayerModel> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__gameLiftNetworkPlayerModelPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameLiftNetworkPlayerModelPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__gameLiftNetworkPlayerModelPrefab(::GlobalNamespace::GameLiftNetworkPlayerModel* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__gameLiftNetworkPlayerModelPrefab(::UnityW<::GlobalNamespace::GameLiftNetworkPlayerModel> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameLiftNetworkPlayerModelPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::NetworkPlayerEntitlementChecker*& GlobalNamespace::MainSystemInit::__get__networkPlayerEntitlementCheckerPrefab() {
+constexpr ::UnityW<::GlobalNamespace::NetworkPlayerEntitlementChecker>& GlobalNamespace::MainSystemInit::__cordl_internal_get__networkPlayerEntitlementCheckerPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____networkPlayerEntitlementCheckerPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPlayerEntitlementChecker*> const& GlobalNamespace::MainSystemInit::__get__networkPlayerEntitlementCheckerPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::NetworkPlayerEntitlementChecker> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__networkPlayerEntitlementCheckerPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____networkPlayerEntitlementCheckerPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__networkPlayerEntitlementCheckerPrefab(::GlobalNamespace::NetworkPlayerEntitlementChecker* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__networkPlayerEntitlementCheckerPrefab(::UnityW<::GlobalNamespace::NetworkPlayerEntitlementChecker> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____networkPlayerEntitlementCheckerPrefab)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::HapticFeedbackManager*& GlobalNamespace::MainSystemInit::__get__hapticFeedbackControllerPrefab() {
+constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& GlobalNamespace::MainSystemInit::__cordl_internal_get__hapticFeedbackControllerPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackControllerPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HapticFeedbackManager*> const& GlobalNamespace::MainSystemInit::__get__hapticFeedbackControllerPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__hapticFeedbackControllerPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackControllerPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__hapticFeedbackControllerPrefab(::GlobalNamespace::HapticFeedbackManager* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__hapticFeedbackControllerPrefab(::UnityW<::GlobalNamespace::HapticFeedbackManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hapticFeedbackControllerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Tweening::TimeTweeningManager*& GlobalNamespace::MainSystemInit::__get__tweeningManagerPrefab() {
+constexpr ::UnityW<::Tweening::TimeTweeningManager>& GlobalNamespace::MainSystemInit::__cordl_internal_get__tweeningManagerPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tweeningManagerPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& GlobalNamespace::MainSystemInit::__get__tweeningManagerPrefab() const {
+constexpr ::UnityW<::Tweening::TimeTweeningManager> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__tweeningManagerPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tweeningManagerPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__tweeningManagerPrefab(::Tweening::TimeTweeningManager* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__tweeningManagerPrefab(::UnityW<::Tweening::TimeTweeningManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tweeningManagerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BloomPrePassLightsUpdateSystem*& GlobalNamespace::MainSystemInit::__get__lightsUpdateSystemPrefab() {
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassLightsUpdateSystem>& GlobalNamespace::MainSystemInit::__cordl_internal_get__lightsUpdateSystemPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightsUpdateSystemPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassLightsUpdateSystem*> const& GlobalNamespace::MainSystemInit::__get__lightsUpdateSystemPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassLightsUpdateSystem> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__lightsUpdateSystemPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightsUpdateSystemPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__lightsUpdateSystemPrefab(::GlobalNamespace::BloomPrePassLightsUpdateSystem* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__lightsUpdateSystemPrefab(::UnityW<::GlobalNamespace::BloomPrePassLightsUpdateSystem> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightsUpdateSystemPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::EnvironmentAudioEffectsPlayer*& GlobalNamespace::MainSystemInit::__get__environmentAudioEffectsPlayerPrefab() {
+constexpr ::UnityW<::GlobalNamespace::EnvironmentAudioEffectsPlayer>& GlobalNamespace::MainSystemInit::__cordl_internal_get__environmentAudioEffectsPlayerPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentAudioEffectsPlayerPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentAudioEffectsPlayer*> const& GlobalNamespace::MainSystemInit::__get__environmentAudioEffectsPlayerPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::EnvironmentAudioEffectsPlayer> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__environmentAudioEffectsPlayerPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____environmentAudioEffectsPlayerPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__environmentAudioEffectsPlayerPrefab(::GlobalNamespace::EnvironmentAudioEffectsPlayer* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__environmentAudioEffectsPlayerPrefab(::UnityW<::GlobalNamespace::EnvironmentAudioEffectsPlayer> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentAudioEffectsPlayerPrefab)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::NodePoseSyncStateManager*& GlobalNamespace::MainSystemInit::__get__nodePoseSyncStateManagerPrefab() {
+constexpr ::UnityW<::GlobalNamespace::NodePoseSyncStateManager>& GlobalNamespace::MainSystemInit::__cordl_internal_get__nodePoseSyncStateManagerPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodePoseSyncStateManagerPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NodePoseSyncStateManager*> const& GlobalNamespace::MainSystemInit::__get__nodePoseSyncStateManagerPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::NodePoseSyncStateManager> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__nodePoseSyncStateManagerPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodePoseSyncStateManagerPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__nodePoseSyncStateManagerPrefab(::GlobalNamespace::NodePoseSyncStateManager* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__nodePoseSyncStateManagerPrefab(::UnityW<::GlobalNamespace::NodePoseSyncStateManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nodePoseSyncStateManagerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::AlwaysOwnedContentContainerSO*& GlobalNamespace::MainSystemInit::__get__alwaysOwnedContentContainer() {
+constexpr ::UnityW<::GlobalNamespace::AlwaysOwnedContentContainerSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__alwaysOwnedContentContainer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alwaysOwnedContentContainer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AlwaysOwnedContentContainerSO*> const& GlobalNamespace::MainSystemInit::__get__alwaysOwnedContentContainer() const {
+constexpr ::UnityW<::GlobalNamespace::AlwaysOwnedContentContainerSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__alwaysOwnedContentContainer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alwaysOwnedContentContainer;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__alwaysOwnedContentContainer(::GlobalNamespace::AlwaysOwnedContentContainerSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__alwaysOwnedContentContainer(::UnityW<::GlobalNamespace::AlwaysOwnedContentContainerSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____alwaysOwnedContentContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PSVRHelper*& GlobalNamespace::MainSystemInit::__get__psVRHelperPrefab() {
+constexpr ::UnityW<::GlobalNamespace::PSVRHelper>& GlobalNamespace::MainSystemInit::__cordl_internal_get__psVRHelperPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____psVRHelperPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PSVRHelper*> const& GlobalNamespace::MainSystemInit::__get__psVRHelperPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::PSVRHelper> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__psVRHelperPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____psVRHelperPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__psVRHelperPrefab(::GlobalNamespace::PSVRHelper* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__psVRHelperPrefab(::UnityW<::GlobalNamespace::PSVRHelper> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____psVRHelperPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PSVR2Helper*& GlobalNamespace::MainSystemInit::__get__psVR2HelperPrefab() {
+constexpr ::UnityW<::GlobalNamespace::PSVR2Helper>& GlobalNamespace::MainSystemInit::__cordl_internal_get__psVR2HelperPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____psVR2HelperPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PSVR2Helper*> const& GlobalNamespace::MainSystemInit::__get__psVR2HelperPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::PSVR2Helper> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__psVR2HelperPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____psVR2HelperPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__psVR2HelperPrefab(::GlobalNamespace::PSVR2Helper* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__psVR2HelperPrefab(::UnityW<::GlobalNamespace::PSVR2Helper> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____psVR2HelperPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::OculusVRHelper*& GlobalNamespace::MainSystemInit::__get__oculusVRHelperPrefab() {
+constexpr ::UnityW<::GlobalNamespace::OculusVRHelper>& GlobalNamespace::MainSystemInit::__cordl_internal_get__oculusVRHelperPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oculusVRHelperPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusVRHelper*> const& GlobalNamespace::MainSystemInit::__get__oculusVRHelperPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::OculusVRHelper> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__oculusVRHelperPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oculusVRHelperPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__oculusVRHelperPrefab(::GlobalNamespace::OculusVRHelper* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__oculusVRHelperPrefab(::UnityW<::GlobalNamespace::OculusVRHelper> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____oculusVRHelperPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::UnityXRHelper*& GlobalNamespace::MainSystemInit::__get__unityXRHelperPrefab() {
+constexpr ::UnityW<::GlobalNamespace::UnityXRHelper>& GlobalNamespace::MainSystemInit::__cordl_internal_get__unityXRHelperPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityXRHelperPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::UnityXRHelper*> const& GlobalNamespace::MainSystemInit::__get__unityXRHelperPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::UnityXRHelper> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__unityXRHelperPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityXRHelperPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__unityXRHelperPrefab(::GlobalNamespace::UnityXRHelper* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__unityXRHelperPrefab(::UnityW<::GlobalNamespace::UnityXRHelper> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____unityXRHelperPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::DevicelessVRHelper*& GlobalNamespace::MainSystemInit::__get__devicelessVRHelperPrefab() {
+constexpr ::UnityW<::GlobalNamespace::DevicelessVRHelper>& GlobalNamespace::MainSystemInit::__cordl_internal_get__devicelessVRHelperPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____devicelessVRHelperPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DevicelessVRHelper*> const& GlobalNamespace::MainSystemInit::__get__devicelessVRHelperPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::DevicelessVRHelper> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__devicelessVRHelperPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____devicelessVRHelperPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__devicelessVRHelperPrefab(::GlobalNamespace::DevicelessVRHelper* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__devicelessVRHelperPrefab(::UnityW<::GlobalNamespace::DevicelessVRHelper> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____devicelessVRHelperPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::SteamLevelProductsModelSO*& GlobalNamespace::MainSystemInit::__get__steamLevelProductsModel() {
+constexpr ::UnityW<::GlobalNamespace::SteamLevelProductsModelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__steamLevelProductsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____steamLevelProductsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SteamLevelProductsModelSO*> const& GlobalNamespace::MainSystemInit::__get__steamLevelProductsModel() const {
+constexpr ::UnityW<::GlobalNamespace::SteamLevelProductsModelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__steamLevelProductsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____steamLevelProductsModel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__steamLevelProductsModel(::GlobalNamespace::SteamLevelProductsModelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__steamLevelProductsModel(::UnityW<::GlobalNamespace::SteamLevelProductsModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____steamLevelProductsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::OculusLevelProductsModelSO*& GlobalNamespace::MainSystemInit::__get__oculusLevelProducsModel() {
+constexpr ::UnityW<::GlobalNamespace::OculusLevelProductsModelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__oculusLevelProducsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oculusLevelProducsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusLevelProductsModelSO*> const& GlobalNamespace::MainSystemInit::__get__oculusLevelProducsModel() const {
+constexpr ::UnityW<::GlobalNamespace::OculusLevelProductsModelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__oculusLevelProducsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oculusLevelProducsModel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__oculusLevelProducsModel(::GlobalNamespace::OculusLevelProductsModelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__oculusLevelProducsModel(::UnityW<::GlobalNamespace::OculusLevelProductsModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____oculusLevelProducsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PS4LevelProductsModelSO*& GlobalNamespace::MainSystemInit::__get__ps4LevelProductsModel() {
+constexpr ::UnityW<::GlobalNamespace::PS4LevelProductsModelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps4LevelProductsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps4LevelProductsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PS4LevelProductsModelSO*> const& GlobalNamespace::MainSystemInit::__get__ps4LevelProductsModel() const {
+constexpr ::UnityW<::GlobalNamespace::PS4LevelProductsModelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps4LevelProductsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps4LevelProductsModel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__ps4LevelProductsModel(::GlobalNamespace::PS4LevelProductsModelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__ps4LevelProductsModel(::UnityW<::GlobalNamespace::PS4LevelProductsModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps4LevelProductsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PS5LevelProductsModelSO*& GlobalNamespace::MainSystemInit::__get__ps5LevelProductsModel() {
+constexpr ::UnityW<::GlobalNamespace::PS5LevelProductsModelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps5LevelProductsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5LevelProductsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PS5LevelProductsModelSO*> const& GlobalNamespace::MainSystemInit::__get__ps5LevelProductsModel() const {
+constexpr ::UnityW<::GlobalNamespace::PS5LevelProductsModelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps5LevelProductsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5LevelProductsModel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__ps5LevelProductsModel(::GlobalNamespace::PS5LevelProductsModelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__ps5LevelProductsModel(::UnityW<::GlobalNamespace::PS5LevelProductsModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps5LevelProductsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PS4LeaderboardIdsModelSO*& GlobalNamespace::MainSystemInit::__get__ps4LeaderboardIdsModel() {
+constexpr ::UnityW<::GlobalNamespace::PS4LeaderboardIdsModelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps4LeaderboardIdsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps4LeaderboardIdsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PS4LeaderboardIdsModelSO*> const& GlobalNamespace::MainSystemInit::__get__ps4LeaderboardIdsModel() const {
+constexpr ::UnityW<::GlobalNamespace::PS4LeaderboardIdsModelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps4LeaderboardIdsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps4LeaderboardIdsModel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__ps4LeaderboardIdsModel(::GlobalNamespace::PS4LeaderboardIdsModelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__ps4LeaderboardIdsModel(::UnityW<::GlobalNamespace::PS4LeaderboardIdsModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps4LeaderboardIdsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PS5LeaderboardIdsModelSO*& GlobalNamespace::MainSystemInit::__get__ps5LeaderboardIdsModel() {
+constexpr ::UnityW<::GlobalNamespace::PS5LeaderboardIdsModelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps5LeaderboardIdsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5LeaderboardIdsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PS5LeaderboardIdsModelSO*> const& GlobalNamespace::MainSystemInit::__get__ps5LeaderboardIdsModel() const {
+constexpr ::UnityW<::GlobalNamespace::PS5LeaderboardIdsModelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps5LeaderboardIdsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5LeaderboardIdsModel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__ps5LeaderboardIdsModel(::GlobalNamespace::PS5LeaderboardIdsModelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__ps5LeaderboardIdsModel(::UnityW<::GlobalNamespace::PS5LeaderboardIdsModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps5LeaderboardIdsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::LeaderboardIdsModelSO*& GlobalNamespace::MainSystemInit::__get__riftLeaderboardIdsModel() {
+constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsModelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__riftLeaderboardIdsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____riftLeaderboardIdsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LeaderboardIdsModelSO*> const& GlobalNamespace::MainSystemInit::__get__riftLeaderboardIdsModel() const {
+constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsModelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__riftLeaderboardIdsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____riftLeaderboardIdsModel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__riftLeaderboardIdsModel(::GlobalNamespace::LeaderboardIdsModelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__riftLeaderboardIdsModel(::UnityW<::GlobalNamespace::LeaderboardIdsModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____riftLeaderboardIdsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::LeaderboardIdsModelSO*& GlobalNamespace::MainSystemInit::__get__questLeaderboardIdsModel() {
+constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsModelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__questLeaderboardIdsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____questLeaderboardIdsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LeaderboardIdsModelSO*> const& GlobalNamespace::MainSystemInit::__get__questLeaderboardIdsModel() const {
+constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsModelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__questLeaderboardIdsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____questLeaderboardIdsModel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__questLeaderboardIdsModel(::GlobalNamespace::LeaderboardIdsModelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__questLeaderboardIdsModel(::UnityW<::GlobalNamespace::LeaderboardIdsModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____questLeaderboardIdsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::LeaderboardIdsModelSO*& GlobalNamespace::MainSystemInit::__get__steamLeaderboardIdsModel() {
+constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsModelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__steamLeaderboardIdsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____steamLeaderboardIdsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LeaderboardIdsModelSO*> const& GlobalNamespace::MainSystemInit::__get__steamLeaderboardIdsModel() const {
+constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsModelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__steamLeaderboardIdsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____steamLeaderboardIdsModel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__steamLeaderboardIdsModel(::GlobalNamespace::LeaderboardIdsModelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__steamLeaderboardIdsModel(::UnityW<::GlobalNamespace::LeaderboardIdsModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____steamLeaderboardIdsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::RichPresenceManager*& GlobalNamespace::MainSystemInit::__get__richPresenceManagerPrefab() {
+constexpr ::UnityW<::GlobalNamespace::RichPresenceManager>& GlobalNamespace::MainSystemInit::__cordl_internal_get__richPresenceManagerPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____richPresenceManagerPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RichPresenceManager*> const& GlobalNamespace::MainSystemInit::__get__richPresenceManagerPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::RichPresenceManager> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__richPresenceManagerPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____richPresenceManagerPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__richPresenceManagerPrefab(::GlobalNamespace::RichPresenceManager* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__richPresenceManagerPrefab(::UnityW<::GlobalNamespace::RichPresenceManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____richPresenceManagerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::DlcPromoPanelDataSO*& GlobalNamespace::MainSystemInit::__get__dlcPromoPanelData() {
+constexpr ::UnityW<::GlobalNamespace::DlcPromoPanelDataSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__dlcPromoPanelData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dlcPromoPanelData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DlcPromoPanelDataSO*> const& GlobalNamespace::MainSystemInit::__get__dlcPromoPanelData() const {
+constexpr ::UnityW<::GlobalNamespace::DlcPromoPanelDataSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__dlcPromoPanelData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dlcPromoPanelData;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__dlcPromoPanelData(::GlobalNamespace::DlcPromoPanelDataSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__dlcPromoPanelData(::UnityW<::GlobalNamespace::DlcPromoPanelDataSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dlcPromoPanelData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapLevelsPromoDataSO*& GlobalNamespace::MainSystemInit::__get__beatmapLevelsPromoData() {
+constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsPromoDataSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__beatmapLevelsPromoData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelsPromoData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsPromoDataSO*> const& GlobalNamespace::MainSystemInit::__get__beatmapLevelsPromoData() const {
+constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsPromoDataSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__beatmapLevelsPromoData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevelsPromoData;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__beatmapLevelsPromoData(::GlobalNamespace::BeatmapLevelsPromoDataSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__beatmapLevelsPromoData(::UnityW<::GlobalNamespace::BeatmapLevelsPromoDataSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelsPromoData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::NetworkConfigSO*& GlobalNamespace::MainSystemInit::__get__networkConfig() {
+constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__networkConfig() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____networkConfig;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkConfigSO*> const& GlobalNamespace::MainSystemInit::__get__networkConfig() const {
+constexpr ::UnityW<::GlobalNamespace::NetworkConfigSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__networkConfig() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____networkConfig;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__networkConfig(::GlobalNamespace::NetworkConfigSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__networkConfig(::UnityW<::GlobalNamespace::NetworkConfigSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____networkConfig)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::SteamNetworkPlayerModel*& GlobalNamespace::MainSystemInit::__get__steamNetworkPlayerModelPrefab() {
+constexpr ::UnityW<::GlobalNamespace::SteamNetworkPlayerModel>& GlobalNamespace::MainSystemInit::__cordl_internal_get__steamNetworkPlayerModelPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____steamNetworkPlayerModelPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SteamNetworkPlayerModel*> const& GlobalNamespace::MainSystemInit::__get__steamNetworkPlayerModelPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::SteamNetworkPlayerModel> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__steamNetworkPlayerModelPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____steamNetworkPlayerModelPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__steamNetworkPlayerModelPrefab(::GlobalNamespace::SteamNetworkPlayerModel* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__steamNetworkPlayerModelPrefab(::UnityW<::GlobalNamespace::SteamNetworkPlayerModel> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____steamNetworkPlayerModelPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::OculusNetworkPlayerModel*& GlobalNamespace::MainSystemInit::__get__oculusNetworkPlayerModelPrefab() {
+constexpr ::UnityW<::GlobalNamespace::OculusNetworkPlayerModel>& GlobalNamespace::MainSystemInit::__cordl_internal_get__oculusNetworkPlayerModelPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oculusNetworkPlayerModelPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusNetworkPlayerModel*> const& GlobalNamespace::MainSystemInit::__get__oculusNetworkPlayerModelPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::OculusNetworkPlayerModel> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__oculusNetworkPlayerModelPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oculusNetworkPlayerModelPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__oculusNetworkPlayerModelPrefab(::GlobalNamespace::OculusNetworkPlayerModel* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__oculusNetworkPlayerModelPrefab(::UnityW<::GlobalNamespace::OculusNetworkPlayerModel> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____oculusNetworkPlayerModelPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PS4NetworkPlayerModel*& GlobalNamespace::MainSystemInit::__get__ps4NetworkPlayerModelPrefab() {
+constexpr ::UnityW<::GlobalNamespace::PS4NetworkPlayerModel>& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps4NetworkPlayerModelPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps4NetworkPlayerModelPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PS4NetworkPlayerModel*> const& GlobalNamespace::MainSystemInit::__get__ps4NetworkPlayerModelPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::PS4NetworkPlayerModel> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps4NetworkPlayerModelPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps4NetworkPlayerModelPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__ps4NetworkPlayerModelPrefab(::GlobalNamespace::PS4NetworkPlayerModel* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__ps4NetworkPlayerModelPrefab(::UnityW<::GlobalNamespace::PS4NetworkPlayerModel> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps4NetworkPlayerModelPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PS5NetworkPlayerModel*& GlobalNamespace::MainSystemInit::__get__ps5NetworkPlayerModelPrefab() {
+constexpr ::UnityW<::GlobalNamespace::PS5NetworkPlayerModel>& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps5NetworkPlayerModelPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5NetworkPlayerModelPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PS5NetworkPlayerModel*> const& GlobalNamespace::MainSystemInit::__get__ps5NetworkPlayerModelPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::PS5NetworkPlayerModel> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps5NetworkPlayerModelPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5NetworkPlayerModelPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__ps5NetworkPlayerModelPrefab(::GlobalNamespace::PS5NetworkPlayerModel* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__ps5NetworkPlayerModelPrefab(::UnityW<::GlobalNamespace::PS5NetworkPlayerModel> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps5NetworkPlayerModelPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapCharacteristicCollectionSO*& GlobalNamespace::MainSystemInit::__get__beatmapCharacteristicCollection() {
+constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicCollectionSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__beatmapCharacteristicCollection() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristicCollection;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollectionSO*> const& GlobalNamespace::MainSystemInit::__get__beatmapCharacteristicCollection() const {
+constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicCollectionSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__beatmapCharacteristicCollection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristicCollection;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollectionSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__beatmapCharacteristicCollection(::UnityW<::GlobalNamespace::BeatmapCharacteristicCollectionSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCharacteristicCollection)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::LeaderboardScoreUploader*& GlobalNamespace::MainSystemInit::__get__leaderboardScoreUploader() {
+constexpr ::UnityW<::GlobalNamespace::LeaderboardScoreUploader>& GlobalNamespace::MainSystemInit::__cordl_internal_get__leaderboardScoreUploader() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaderboardScoreUploader;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LeaderboardScoreUploader*> const& GlobalNamespace::MainSystemInit::__get__leaderboardScoreUploader() const {
+constexpr ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__leaderboardScoreUploader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leaderboardScoreUploader;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__leaderboardScoreUploader(::GlobalNamespace::LeaderboardScoreUploader* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__leaderboardScoreUploader(::UnityW<::GlobalNamespace::LeaderboardScoreUploader> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leaderboardScoreUploader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PlatformLeaderboardsModel*& GlobalNamespace::MainSystemInit::__get__platformLeaderboardsModel() {
+constexpr ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel>& GlobalNamespace::MainSystemInit::__cordl_internal_get__platformLeaderboardsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformLeaderboardsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlatformLeaderboardsModel*> const& GlobalNamespace::MainSystemInit::__get__platformLeaderboardsModel() const {
+constexpr ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__platformLeaderboardsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____platformLeaderboardsModel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__platformLeaderboardsModel(::GlobalNamespace::PlatformLeaderboardsModel* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__platformLeaderboardsModel(::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platformLeaderboardsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::SonyAchievementIdsModelSO*& GlobalNamespace::MainSystemInit::__get__ps4AchievementIdsModel() {
+constexpr ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps4AchievementIdsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps4AchievementIdsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyAchievementIdsModelSO*> const& GlobalNamespace::MainSystemInit::__get__ps4AchievementIdsModel() const {
+constexpr ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps4AchievementIdsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps4AchievementIdsModel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__ps4AchievementIdsModel(::GlobalNamespace::SonyAchievementIdsModelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__ps4AchievementIdsModel(::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps4AchievementIdsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::SonyAchievementIdsModelSO*& GlobalNamespace::MainSystemInit::__get__ps5AchievmentIdsModel() {
+constexpr ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps5AchievmentIdsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5AchievmentIdsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyAchievementIdsModelSO*> const& GlobalNamespace::MainSystemInit::__get__ps5AchievmentIdsModel() const {
+constexpr ::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps5AchievmentIdsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5AchievmentIdsModel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__ps5AchievmentIdsModel(::GlobalNamespace::SonyAchievementIdsModelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__ps5AchievmentIdsModel(::UnityW<::GlobalNamespace::SonyAchievementIdsModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps5AchievmentIdsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::AchievementIdsModelSO*& GlobalNamespace::MainSystemInit::__get__achievementIdsModel() {
+constexpr ::UnityW<::GlobalNamespace::AchievementIdsModelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__achievementIdsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____achievementIdsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementIdsModelSO*> const& GlobalNamespace::MainSystemInit::__get__achievementIdsModel() const {
+constexpr ::UnityW<::GlobalNamespace::AchievementIdsModelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__achievementIdsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____achievementIdsModel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__achievementIdsModel(::GlobalNamespace::AchievementIdsModelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__achievementIdsModel(::UnityW<::GlobalNamespace::AchievementIdsModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____achievementIdsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::AchievementsModelSO*& GlobalNamespace::MainSystemInit::__get__achievementsModel() {
+constexpr ::UnityW<::GlobalNamespace::AchievementsModelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__achievementsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____achievementsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementsModelSO*> const& GlobalNamespace::MainSystemInit::__get__achievementsModel() const {
+constexpr ::UnityW<::GlobalNamespace::AchievementsModelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__achievementsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____achievementsModel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__achievementsModel(::GlobalNamespace::AchievementsModelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__achievementsModel(::UnityW<::GlobalNamespace::AchievementsModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____achievementsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PS5ActivityIdsModelSO*& GlobalNamespace::MainSystemInit::__get__ps5ActivityIdsModel() {
+constexpr ::UnityW<::GlobalNamespace::PS5ActivityIdsModelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps5ActivityIdsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5ActivityIdsModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PS5ActivityIdsModelSO*> const& GlobalNamespace::MainSystemInit::__get__ps5ActivityIdsModel() const {
+constexpr ::UnityW<::GlobalNamespace::PS5ActivityIdsModelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps5ActivityIdsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5ActivityIdsModel;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__ps5ActivityIdsModel(::GlobalNamespace::PS5ActivityIdsModelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__ps5ActivityIdsModel(::UnityW<::GlobalNamespace::PS5ActivityIdsModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps5ActivityIdsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapLevelSO*& GlobalNamespace::MainSystemInit::__get__anyBeatmapLevelSO() {
+constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO>& GlobalNamespace::MainSystemInit::__cordl_internal_get__anyBeatmapLevelSO() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____anyBeatmapLevelSO;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelSO*> const& GlobalNamespace::MainSystemInit::__get__anyBeatmapLevelSO() const {
+constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__anyBeatmapLevelSO() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____anyBeatmapLevelSO;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__anyBeatmapLevelSO(::GlobalNamespace::BeatmapLevelSO* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__anyBeatmapLevelSO(::UnityW<::GlobalNamespace::BeatmapLevelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____anyBeatmapLevelSO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::CoroutineStarter*& GlobalNamespace::MainSystemInit::__get__coroutineStarter() {
+constexpr ::UnityW<::GlobalNamespace::CoroutineStarter>& GlobalNamespace::MainSystemInit::__cordl_internal_get__coroutineStarter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coroutineStarter;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CoroutineStarter*> const& GlobalNamespace::MainSystemInit::__get__coroutineStarter() const {
+constexpr ::UnityW<::GlobalNamespace::CoroutineStarter> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__coroutineStarter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coroutineStarter;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__coroutineStarter(::GlobalNamespace::CoroutineStarter* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__coroutineStarter(::UnityW<::GlobalNamespace::CoroutineStarter> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____coroutineStarter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::EnvironmentCommandLineArgsProvider*& GlobalNamespace::MainSystemInit::__get__commandLineArgsProvider() {
+constexpr ::GlobalNamespace::EnvironmentCommandLineArgsProvider*& GlobalNamespace::MainSystemInit::__cordl_internal_get__commandLineArgsProvider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____commandLineArgsProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentCommandLineArgsProvider*> const& GlobalNamespace::MainSystemInit::__get__commandLineArgsProvider() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentCommandLineArgsProvider*> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__commandLineArgsProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____commandLineArgsProvider;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__commandLineArgsProvider(::GlobalNamespace::EnvironmentCommandLineArgsProvider* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__commandLineArgsProvider(::GlobalNamespace::EnvironmentCommandLineArgsProvider* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____commandLineArgsProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MenuTransitionsHelper*& GlobalNamespace::MainSystemInit::__get__menuTransitionHelperPrefab() {
+constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper>& GlobalNamespace::MainSystemInit::__cordl_internal_get__menuTransitionHelperPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuTransitionHelperPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuTransitionsHelper*> const& GlobalNamespace::MainSystemInit::__get__menuTransitionHelperPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper> const& GlobalNamespace::MainSystemInit::__cordl_internal_get__menuTransitionHelperPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____menuTransitionHelperPrefab;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__menuTransitionHelperPrefab(::GlobalNamespace::MenuTransitionsHelper* value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__menuTransitionHelperPrefab(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____menuTransitionHelperPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::MainSystemInit::__get__defaultMaxCachedBeatmapLevels() {
+constexpr int32_t& GlobalNamespace::MainSystemInit::__cordl_internal_get__defaultMaxCachedBeatmapLevels() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultMaxCachedBeatmapLevels;
 }
-constexpr int32_t const& GlobalNamespace::MainSystemInit::__get__defaultMaxCachedBeatmapLevels() const {
+constexpr int32_t const& GlobalNamespace::MainSystemInit::__cordl_internal_get__defaultMaxCachedBeatmapLevels() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultMaxCachedBeatmapLevels;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__defaultMaxCachedBeatmapLevels(int32_t value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__defaultMaxCachedBeatmapLevels(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultMaxCachedBeatmapLevels = value;
 }
-constexpr int32_t& GlobalNamespace::MainSystemInit::__get__ps4MaxCachedBeatmapLevels() {
+constexpr int32_t& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps4MaxCachedBeatmapLevels() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps4MaxCachedBeatmapLevels;
 }
-constexpr int32_t const& GlobalNamespace::MainSystemInit::__get__ps4MaxCachedBeatmapLevels() const {
+constexpr int32_t const& GlobalNamespace::MainSystemInit::__cordl_internal_get__ps4MaxCachedBeatmapLevels() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps4MaxCachedBeatmapLevels;
 }
-constexpr void GlobalNamespace::MainSystemInit::__set__ps4MaxCachedBeatmapLevels(int32_t value) {
+constexpr void GlobalNamespace::MainSystemInit::__cordl_internal_set__ps4MaxCachedBeatmapLevels(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ps4MaxCachedBeatmapLevels = value;
 }
 inline void GlobalNamespace::MainSystemInit::Init() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "Init",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MainSystemInit::InstallBindings(::Zenject::DiContainer* container, bool isRunningFromTests) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallBindings", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallBindings", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, isRunningFromTests);
 }
 inline void GlobalNamespace::MainSystemInit::InstallHapticsController(::Zenject::DiContainer* container) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallHapticsController", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallHapticsController", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container);
 }
 inline void GlobalNamespace::MainSystemInit::InstallRichPresence(::Zenject::DiContainer* container, bool isRunningFromTests) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallRichPresence", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallRichPresence", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, isRunningFromTests);
 }
 inline void GlobalNamespace::MainSystemInit::InstallOculusDestinationBindings(::Zenject::DiContainer* container) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallOculusDestinationBindings", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallOculusDestinationBindings", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container);
 }
 inline void GlobalNamespace::MainSystemInit::InstallPlatformLeaderboardsModel(::Zenject::DiContainer* container, bool isRunningFromTests) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallPlatformLeaderboardsModel", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(),
+                                                                             "InstallPlatformLeaderboardsModel", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, isRunningFromTests);
 }
 inline void GlobalNamespace::MainSystemInit::InstallPS5Bindings(::Zenject::DiContainer* container) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallPS5Bindings", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallPS5Bindings", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container);
 }
 inline void GlobalNamespace::MainSystemInit::InstallPS4Bindings(::Zenject::DiContainer* container) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallPS4Bindings", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), "InstallPS4Bindings", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container);
 }
 inline ::GlobalNamespace::MainSystemInit* GlobalNamespace::MainSystemInit::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MainSystemInit*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MainSystemInit*>());
 }
 inline void GlobalNamespace::MainSystemInit::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSystemInit*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -16,29 +16,29 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::NetSyncVoipAttenuationValue);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13463))
 // CS Name: ::Oculus.Platform.Models::NetSyncVoipAttenuationValue*
 class CORDL_TYPE NetSyncVoipAttenuationValue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Decibels, offset 0x10, size 0x4
-  __declspec(property(get = __get_Decibels, put = __set_Decibels)) float_t Decibels;
+  __declspec(property(get = __cordl_internal_get_Decibels, put = __cordl_internal_set_Decibels)) float_t Decibels;
 
   /// @brief Field Distance, offset 0x14, size 0x4
-  __declspec(property(get = __get_Distance, put = __set_Distance)) float_t Distance;
+  __declspec(property(get = __cordl_internal_get_Distance, put = __cordl_internal_set_Distance)) float_t Distance;
 
-  constexpr float_t& __get_Decibels();
+  constexpr float_t& __cordl_internal_get_Decibels();
 
-  constexpr float_t const& __get_Decibels() const;
+  constexpr float_t const& __cordl_internal_get_Decibels() const;
 
-  constexpr void __set_Decibels(float_t value);
+  constexpr void __cordl_internal_set_Decibels(float_t value);
 
-  constexpr float_t& __get_Distance();
+  constexpr float_t& __cordl_internal_get_Distance();
 
-  constexpr float_t const& __get_Distance() const;
+  constexpr float_t const& __cordl_internal_get_Distance() const;
 
-  constexpr void __set_Distance(float_t value);
+  constexpr void __cordl_internal_set_Distance(float_t value);
 
   static inline ::Oculus::Platform::Models::NetSyncVoipAttenuationValue* New_ctor(void* o);
 

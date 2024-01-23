@@ -12,10 +12,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x27fa218;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPointerEventData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::EventSystem*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPointerEventData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::EventSystem*>::get() })));
     return ___internal_method;
   }
 };
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x13b4;
   constexpr static std::size_t addrs = 0x27fc304;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPointerEventData*>::get(),
@@ -35,37 +35,37 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Ray& UnityEngine::EventSystems::OVRPointerEventData::__get_worldSpaceRay() {
+constexpr ::UnityEngine::Ray& UnityEngine::EventSystems::OVRPointerEventData::__cordl_internal_get_worldSpaceRay() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___worldSpaceRay;
 }
-constexpr ::UnityEngine::Ray const& UnityEngine::EventSystems::OVRPointerEventData::__get_worldSpaceRay() const {
+constexpr ::UnityEngine::Ray const& UnityEngine::EventSystems::OVRPointerEventData::__cordl_internal_get_worldSpaceRay() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___worldSpaceRay;
 }
-constexpr void UnityEngine::EventSystems::OVRPointerEventData::__set_worldSpaceRay(::UnityEngine::Ray value) {
+constexpr void UnityEngine::EventSystems::OVRPointerEventData::__cordl_internal_set_worldSpaceRay(::UnityEngine::Ray value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___worldSpaceRay = value;
 }
-constexpr ::UnityEngine::Vector2& UnityEngine::EventSystems::OVRPointerEventData::__get_swipeStart() {
+constexpr ::UnityEngine::Vector2& UnityEngine::EventSystems::OVRPointerEventData::__cordl_internal_get_swipeStart() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___swipeStart;
 }
-constexpr ::UnityEngine::Vector2 const& UnityEngine::EventSystems::OVRPointerEventData::__get_swipeStart() const {
+constexpr ::UnityEngine::Vector2 const& UnityEngine::EventSystems::OVRPointerEventData::__cordl_internal_get_swipeStart() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___swipeStart;
 }
-constexpr void UnityEngine::EventSystems::OVRPointerEventData::__set_swipeStart(::UnityEngine::Vector2 value) {
+constexpr void UnityEngine::EventSystems::OVRPointerEventData::__cordl_internal_set_swipeStart(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___swipeStart = value;
 }
 inline ::UnityEngine::EventSystems::OVRPointerEventData* UnityEngine::EventSystems::OVRPointerEventData::New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem) {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::EventSystems::OVRPointerEventData*>(eventSystem));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::EventSystems::OVRPointerEventData*>(eventSystem));
 }
 inline void UnityEngine::EventSystems::OVRPointerEventData::_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPointerEventData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::EventSystem*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRPointerEventData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::EventSystem*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventSystem);
 }
 inline ::StringW UnityEngine::EventSystems::OVRPointerEventData::ToString() {

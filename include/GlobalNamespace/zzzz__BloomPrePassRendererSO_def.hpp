@@ -79,29 +79,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14481))
 // CS Name: ::BloomPrePassRendererSO::PreallocationData*
 class CORDL_TYPE __BloomPrePassRendererSO__PreallocationData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field lightType, offset 0x10, size 0x8
-  __declspec(property(get = __get_lightType, put = __set_lightType))::GlobalNamespace::BloomPrePassLightTypeSO* lightType;
+  __declspec(property(get = __cordl_internal_get_lightType, put = __cordl_internal_set_lightType))::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> lightType;
 
   /// @brief Field preallocateCount, offset 0x18, size 0x4
-  __declspec(property(get = __get_preallocateCount, put = __set_preallocateCount)) int32_t preallocateCount;
+  __declspec(property(get = __cordl_internal_get_preallocateCount, put = __cordl_internal_set_preallocateCount)) int32_t preallocateCount;
 
-  constexpr ::GlobalNamespace::BloomPrePassLightTypeSO*& __get_lightType();
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>& __cordl_internal_get_lightType();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassLightTypeSO*> const& __get_lightType() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> const& __cordl_internal_get_lightType() const;
 
-  constexpr void __set_lightType(::GlobalNamespace::BloomPrePassLightTypeSO* value);
+  constexpr void __cordl_internal_set_lightType(::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> value);
 
-  constexpr int32_t& __get_preallocateCount();
+  constexpr int32_t& __cordl_internal_get_preallocateCount();
 
-  constexpr int32_t const& __get_preallocateCount() const;
+  constexpr int32_t const& __cordl_internal_get_preallocateCount() const;
 
-  constexpr void __set_preallocateCount(int32_t value);
+  constexpr void __cordl_internal_set_preallocateCount(int32_t value);
 
   static inline ::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData* New_ctor();
 
@@ -123,7 +123,7 @@ protected:
 
 public:
   /// @brief Field lightType, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::BloomPrePassLightTypeSO* ___lightType;
+  ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO> ___lightType;
 
   /// @brief Field preallocateCount, offset: 0x18, size: 0x4, def value: None
   int32_t ___preallocateCount;
@@ -142,38 +142,39 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassRendererSO__Preallocatio
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10344)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10344))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14482))
 // CS Name: ::BloomPrePassRendererSO::LightsRenderingData*
 class CORDL_TYPE __BloomPrePassRendererSO__LightsRenderingData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mesh, offset 0x10, size 0x8
-  __declspec(property(get = __get_mesh, put = __set_mesh))::UnityEngine::Mesh* mesh;
+  __declspec(property(get = __cordl_internal_get_mesh, put = __cordl_internal_set_mesh))::UnityW<::UnityEngine::Mesh> mesh;
 
   /// @brief Field lightQuads, offset 0x18, size 0x8
-  __declspec(property(get = __get_lightQuads, put = __set_lightQuads))::ArrayW<::GlobalNamespace::__BloomPrePassLight__QuadData, ::Array<::GlobalNamespace::__BloomPrePassLight__QuadData>*> lightQuads;
+  __declspec(property(get = __cordl_internal_get_lightQuads,
+                      put = __cordl_internal_set_lightQuads))::ArrayW<::GlobalNamespace::__BloomPrePassLight__QuadData, ::Array<::GlobalNamespace::__BloomPrePassLight__QuadData>*> lightQuads;
 
   /// @brief Field subMeshDescriptor, offset 0x20, size 0x30
-  __declspec(property(get = __get_subMeshDescriptor, put = __set_subMeshDescriptor))::UnityEngine::Rendering::SubMeshDescriptor subMeshDescriptor;
+  __declspec(property(get = __cordl_internal_get_subMeshDescriptor, put = __cordl_internal_set_subMeshDescriptor))::UnityEngine::Rendering::SubMeshDescriptor subMeshDescriptor;
 
-  constexpr ::UnityEngine::Mesh*& __get_mesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get_mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get_mesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get_mesh() const;
 
-  constexpr void __set_mesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set_mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassLight__QuadData, ::Array<::GlobalNamespace::__BloomPrePassLight__QuadData>*>& __get_lightQuads();
+  constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassLight__QuadData, ::Array<::GlobalNamespace::__BloomPrePassLight__QuadData>*>& __cordl_internal_get_lightQuads();
 
-  constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassLight__QuadData, ::Array<::GlobalNamespace::__BloomPrePassLight__QuadData>*> const& __get_lightQuads() const;
+  constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassLight__QuadData, ::Array<::GlobalNamespace::__BloomPrePassLight__QuadData>*> const& __cordl_internal_get_lightQuads() const;
 
-  constexpr void __set_lightQuads(::ArrayW<::GlobalNamespace::__BloomPrePassLight__QuadData, ::Array<::GlobalNamespace::__BloomPrePassLight__QuadData>*> value);
+  constexpr void __cordl_internal_set_lightQuads(::ArrayW<::GlobalNamespace::__BloomPrePassLight__QuadData, ::Array<::GlobalNamespace::__BloomPrePassLight__QuadData>*> value);
 
-  constexpr ::UnityEngine::Rendering::SubMeshDescriptor& __get_subMeshDescriptor();
+  constexpr ::UnityEngine::Rendering::SubMeshDescriptor& __cordl_internal_get_subMeshDescriptor();
 
-  constexpr ::UnityEngine::Rendering::SubMeshDescriptor const& __get_subMeshDescriptor() const;
+  constexpr ::UnityEngine::Rendering::SubMeshDescriptor const& __cordl_internal_get_subMeshDescriptor() const;
 
-  constexpr void __set_subMeshDescriptor(::UnityEngine::Rendering::SubMeshDescriptor value);
+  constexpr void __cordl_internal_set_subMeshDescriptor(::UnityEngine::Rendering::SubMeshDescriptor value);
 
   static inline ::GlobalNamespace::__BloomPrePassRendererSO__LightsRenderingData* New_ctor();
 
@@ -195,7 +196,7 @@ protected:
 
 public:
   /// @brief Field mesh, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ___mesh;
+  ::UnityW<::UnityEngine::Mesh> ___mesh;
 
   /// @brief Field lightQuads, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__BloomPrePassLight__QuadData, ::Array<::GlobalNamespace::__BloomPrePassLight__QuadData>*> ___lightQuads;
@@ -219,7 +220,7 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePassRendererSO__LightsRender
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14483))
 // CS Name: ::BloomPrePassRendererSO*
 class CORDL_TYPE BloomPrePassRendererSO : public ::GlobalNamespace::PersistentScriptableObject {
@@ -230,28 +231,28 @@ public:
   using PreallocationData = ::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData;
 
   /// @brief Field _bloomFog, offset 0x18, size 0x8
-  __declspec(property(get = __get__bloomFog, put = __set__bloomFog))::GlobalNamespace::BloomFogSO* _bloomFog;
+  __declspec(property(get = __cordl_internal_get__bloomFog, put = __cordl_internal_set__bloomFog))::UnityW<::GlobalNamespace::BloomFogSO> _bloomFog;
 
   /// @brief Field _preallocationData, offset 0x20, size 0x8
-  __declspec(property(get = __get__preallocationData, put = __set__preallocationData))::ArrayW<::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData*,
-                                                                                               ::Array<::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData*>*> _preallocationData;
+  __declspec(property(get = __cordl_internal_get__preallocationData,
+                      put = __cordl_internal_set__preallocationData))::ArrayW<::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData*,
+                                                                              ::Array<::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData*>*> _preallocationData;
 
   /// @brief Field _lightsRenderingData, offset 0x28, size 0x8
-  __declspec(property(get = __get__lightsRenderingData,
-                      put = __set__lightsRenderingData))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BloomPrePassLightTypeSO*,
-                                                                                                     ::GlobalNamespace::__BloomPrePassRendererSO__LightsRenderingData*>* _lightsRenderingData;
+  __declspec(property(get = __cordl_internal_get__lightsRenderingData, put = __cordl_internal_set__lightsRenderingData))::System::Collections::Generic::Dictionary_2<
+      ::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>, ::GlobalNamespace::__BloomPrePassRendererSO__LightsRenderingData*>* _lightsRenderingData;
 
   /// @brief Field _commandBuffer, offset 0x30, size 0x8
-  __declspec(property(get = __get__commandBuffer, put = __set__commandBuffer))::UnityEngine::Rendering::CommandBuffer* _commandBuffer;
+  __declspec(property(get = __cordl_internal_get__commandBuffer, put = __cordl_internal_set__commandBuffer))::UnityEngine::Rendering::CommandBuffer* _commandBuffer;
 
   /// @brief Field _initialized, offset 0x38, size 0x1
-  __declspec(property(get = __get__initialized, put = __set__initialized)) bool _initialized;
+  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
   /// @brief Field _blackTexture, offset 0x40, size 0x8
-  __declspec(property(get = __get__blackTexture, put = __set__blackTexture))::UnityEngine::Texture2D* _blackTexture;
+  __declspec(property(get = __cordl_internal_get__blackTexture, put = __cordl_internal_set__blackTexture))::UnityW<::UnityEngine::Texture2D> _blackTexture;
 
   /// @brief Field _lowestResBloomTexture, offset 0x48, size 0x8
-  __declspec(property(get = __get__lowestResBloomTexture, put = __set__lowestResBloomTexture))::UnityEngine::RenderTexture* _lowestResBloomTexture;
+  __declspec(property(get = __cordl_internal_get__lowestResBloomTexture, put = __cordl_internal_set__lowestResBloomTexture))::UnityW<::UnityEngine::RenderTexture> _lowestResBloomTexture;
 
   /// @brief Field _vertexTransformMatrixID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__vertexTransformMatrixID, put = setStaticF__vertexTransformMatrixID)) int32_t _vertexTransformMatrixID;
@@ -265,51 +266,54 @@ public:
   /// @brief Field _customFogTextureToScreenRatioID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__customFogTextureToScreenRatioID, put = setStaticF__customFogTextureToScreenRatioID)) int32_t _customFogTextureToScreenRatioID;
 
-  constexpr ::GlobalNamespace::BloomFogSO*& __get__bloomFog();
+  constexpr ::UnityW<::GlobalNamespace::BloomFogSO>& __cordl_internal_get__bloomFog();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogSO*> const& __get__bloomFog() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
 
-  constexpr void __set__bloomFog(::GlobalNamespace::BloomFogSO* value);
+  constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData*, ::Array<::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData*>*>& __get__preallocationData();
+  constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData*, ::Array<::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData*>*>&
+  __cordl_internal_get__preallocationData();
 
   constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData*, ::Array<::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData*>*> const&
-  __get__preallocationData() const;
-
-  constexpr void __set__preallocationData(::ArrayW<::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData*, ::Array<::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData*>*> value);
-
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BloomPrePassLightTypeSO*, ::GlobalNamespace::__BloomPrePassRendererSO__LightsRenderingData*>*& __get__lightsRenderingData();
-
-  constexpr ::cordl_internals::to_const_pointer<
-      ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BloomPrePassLightTypeSO*, ::GlobalNamespace::__BloomPrePassRendererSO__LightsRenderingData*>*> const&
-  __get__lightsRenderingData() const;
+  __cordl_internal_get__preallocationData() const;
 
   constexpr void
-  __set__lightsRenderingData(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BloomPrePassLightTypeSO*, ::GlobalNamespace::__BloomPrePassRendererSO__LightsRenderingData*>* value);
+  __cordl_internal_set__preallocationData(::ArrayW<::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData*, ::Array<::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData*>*> value);
 
-  constexpr ::UnityEngine::Rendering::CommandBuffer*& __get__commandBuffer();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>, ::GlobalNamespace::__BloomPrePassRendererSO__LightsRenderingData*>*&
+  __cordl_internal_get__lightsRenderingData();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rendering::CommandBuffer*> const& __get__commandBuffer() const;
+  constexpr ::cordl_internals::to_const_pointer<
+      ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>, ::GlobalNamespace::__BloomPrePassRendererSO__LightsRenderingData*>*> const&
+  __cordl_internal_get__lightsRenderingData() const;
 
-  constexpr void __set__commandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
+  constexpr void __cordl_internal_set__lightsRenderingData(
+      ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>, ::GlobalNamespace::__BloomPrePassRendererSO__LightsRenderingData*>* value);
 
-  constexpr bool& __get__initialized();
+  constexpr ::UnityEngine::Rendering::CommandBuffer*& __cordl_internal_get__commandBuffer();
 
-  constexpr bool const& __get__initialized() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rendering::CommandBuffer*> const& __cordl_internal_get__commandBuffer() const;
 
-  constexpr void __set__initialized(bool value);
+  constexpr void __cordl_internal_set__commandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
 
-  constexpr ::UnityEngine::Texture2D*& __get__blackTexture();
+  constexpr bool& __cordl_internal_get__initialized();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& __get__blackTexture() const;
+  constexpr bool const& __cordl_internal_get__initialized() const;
 
-  constexpr void __set__blackTexture(::UnityEngine::Texture2D* value);
+  constexpr void __cordl_internal_set__initialized(bool value);
 
-  constexpr ::UnityEngine::RenderTexture*& __get__lowestResBloomTexture();
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__blackTexture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RenderTexture*> const& __get__lowestResBloomTexture() const;
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__blackTexture() const;
 
-  constexpr void __set__lowestResBloomTexture(::UnityEngine::RenderTexture* value);
+  constexpr void __cordl_internal_set__blackTexture(::UnityW<::UnityEngine::Texture2D> value);
+
+  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__lowestResBloomTexture();
+
+  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__lowestResBloomTexture() const;
+
+  constexpr void __cordl_internal_set__lowestResBloomTexture(::UnityW<::UnityEngine::RenderTexture> value);
 
   static inline void setStaticF__vertexTransformMatrixID(int32_t value);
 
@@ -351,7 +355,7 @@ public:
   inline void SetCustomStereoCameraEyeOffset(float_t stereoCameraEyeOffset);
 
   /// @brief Method CreateBloomPrePassRenderTextureIfNeeded, addr 0x2102ef8, size 0x2f0, virtual false, abstract: false, final false
-  inline ::UnityEngine::RenderTexture* CreateBloomPrePassRenderTextureIfNeeded(::UnityEngine::RenderTexture* renderTexture, ::GlobalNamespace::IBloomPrePassParams* bloomPrePassParams);
+  inline ::UnityW<::UnityEngine::RenderTexture> CreateBloomPrePassRenderTextureIfNeeded(::UnityEngine::RenderTexture* renderTexture, ::GlobalNamespace::IBloomPrePassParams* bloomPrePassParams);
 
   /// @brief Method EnableBloomFog, addr 0x2103bf4, size 0x1c, virtual false, abstract: false, final false
   inline void EnableBloomFog();
@@ -394,13 +398,13 @@ protected:
 
 public:
   /// @brief Field _bloomFog, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BloomFogSO* ____bloomFog;
+  ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;
 
   /// @brief Field _preallocationData, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData*, ::Array<::GlobalNamespace::__BloomPrePassRendererSO__PreallocationData*>*> ____preallocationData;
 
   /// @brief Field _lightsRenderingData, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BloomPrePassLightTypeSO*, ::GlobalNamespace::__BloomPrePassRendererSO__LightsRenderingData*>* ____lightsRenderingData;
+  ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>, ::GlobalNamespace::__BloomPrePassRendererSO__LightsRenderingData*>* ____lightsRenderingData;
 
   /// @brief Field _commandBuffer, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::Rendering::CommandBuffer* ____commandBuffer;
@@ -409,10 +413,10 @@ public:
   bool ____initialized;
 
   /// @brief Field _blackTexture, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Texture2D* ____blackTexture;
+  ::UnityW<::UnityEngine::Texture2D> ____blackTexture;
 
   /// @brief Field _lowestResBloomTexture, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::RenderTexture* ____lowestResBloomTexture;
+  ::UnityW<::UnityEngine::RenderTexture> ____lowestResBloomTexture;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

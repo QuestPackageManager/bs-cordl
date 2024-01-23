@@ -17,29 +17,29 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelColorSchemeSaveData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4326))
 // CS Name: ::BeatmapLevelColorSchemeSaveData*
 class CORDL_TYPE BeatmapLevelColorSchemeSaveData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field useOverride, offset 0x10, size 0x1
-  __declspec(property(get = __get_useOverride, put = __set_useOverride)) bool useOverride;
+  __declspec(property(get = __cordl_internal_get_useOverride, put = __cordl_internal_set_useOverride)) bool useOverride;
 
   /// @brief Field colorScheme, offset 0x18, size 0x8
-  __declspec(property(get = __get_colorScheme, put = __set_colorScheme))::GlobalNamespace::__PlayerSaveData__ColorScheme* colorScheme;
+  __declspec(property(get = __cordl_internal_get_colorScheme, put = __cordl_internal_set_colorScheme))::GlobalNamespace::__PlayerSaveData__ColorScheme* colorScheme;
 
-  constexpr bool& __get_useOverride();
+  constexpr bool& __cordl_internal_get_useOverride();
 
-  constexpr bool const& __get_useOverride() const;
+  constexpr bool const& __cordl_internal_get_useOverride() const;
 
-  constexpr void __set_useOverride(bool value);
+  constexpr void __cordl_internal_set_useOverride(bool value);
 
-  constexpr ::GlobalNamespace::__PlayerSaveData__ColorScheme*& __get_colorScheme();
+  constexpr ::GlobalNamespace::__PlayerSaveData__ColorScheme*& __cordl_internal_get_colorScheme();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__ColorScheme*> const& __get_colorScheme() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PlayerSaveData__ColorScheme*> const& __cordl_internal_get_colorScheme() const;
 
-  constexpr void __set_colorScheme(::GlobalNamespace::__PlayerSaveData__ColorScheme* value);
+  constexpr void __cordl_internal_set_colorScheme(::GlobalNamespace::__PlayerSaveData__ColorScheme* value);
 
   /// @brief Method IsDefault, addr 0x233dd28, size 0x15c, virtual false, abstract: false, final false
   inline bool IsDefault();

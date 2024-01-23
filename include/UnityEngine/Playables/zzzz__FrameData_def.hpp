@@ -38,7 +38,7 @@ MARK_VAL_T(::UnityEngine::Playables::FrameData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10416))
 // CS Name: ::FrameData::Flags
 struct CORDL_TYPE __FrameData__Flags {
@@ -104,7 +104,7 @@ static_assert(offsetof(::UnityEngine::Playables::__FrameData__Flags, value__) ==
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10417))
 // CS Name: ::FrameData::EvaluationType
 struct CORDL_TYPE __FrameData__EvaluationType {
@@ -154,7 +154,7 @@ static_assert(offsetof(::UnityEngine::Playables::__FrameData__EvaluationType, va
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10438)), TypeDefinitionIndex(TypeDefinitionIndex(10416))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10416)), TypeDefinitionIndex(TypeDefinitionIndex(10438))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10418))
 // CS Name: ::UnityEngine.Playables::FrameData
 struct CORDL_TYPE FrameData {

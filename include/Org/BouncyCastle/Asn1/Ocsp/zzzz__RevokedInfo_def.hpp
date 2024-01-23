@@ -32,33 +32,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(219))
 // CS Name: ::Org.BouncyCastle.Asn1.Ocsp::RevokedInfo*
 class CORDL_TYPE RevokedInfo : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field revocationTime, offset 0x10, size 0x8
-  __declspec(property(get = __get_revocationTime, put = __set_revocationTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* revocationTime;
+  __declspec(property(get = __cordl_internal_get_revocationTime, put = __cordl_internal_set_revocationTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* revocationTime;
 
   /// @brief Field revocationReason, offset 0x18, size 0x8
-  __declspec(property(get = __get_revocationReason, put = __set_revocationReason))::Org::BouncyCastle::Asn1::X509::CrlReason* revocationReason;
+  __declspec(property(get = __cordl_internal_get_revocationReason, put = __cordl_internal_set_revocationReason))::Org::BouncyCastle::Asn1::X509::CrlReason* revocationReason;
 
   __declspec(property(get = get_RevocationTime))::Org::BouncyCastle::Asn1::DerGeneralizedTime* RevocationTime;
 
   __declspec(property(get = get_RevocationReason))::Org::BouncyCastle::Asn1::X509::CrlReason* RevocationReason;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __get_revocationTime();
+  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_revocationTime();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __get_revocationTime() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_revocationTime() const;
 
-  constexpr void __set_revocationTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
+  constexpr void __cordl_internal_set_revocationTime(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::CrlReason*& __get_revocationReason();
+  constexpr ::Org::BouncyCastle::Asn1::X509::CrlReason*& __cordl_internal_get_revocationReason();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::CrlReason*> const& __get_revocationReason() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::CrlReason*> const& __cordl_internal_get_revocationReason() const;
 
-  constexpr void __set_revocationReason(::Org::BouncyCastle::Asn1::X509::CrlReason* value);
+  constexpr void __cordl_internal_set_revocationReason(::Org::BouncyCastle::Asn1::X509::CrlReason* value);
 
   /// @brief Method GetInstance, addr 0xf8010c, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::RevokedInfo* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);

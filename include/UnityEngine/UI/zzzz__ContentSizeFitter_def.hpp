@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::ContentSizeFitter);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13076))
 // CS Name: ::ContentSizeFitter::FitMode
 struct CORDL_TYPE __ContentSizeFitter__FitMode {
@@ -88,7 +88,7 @@ static_assert(offsetof(::UnityEngine::UI::__ContentSizeFitter__FitMode, value__)
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(13076)), TypeDefinitionIndex(TypeDefinitionIndex(10278))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13076)), TypeDefinitionIndex(TypeDefinitionIndex(13214))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13077))
 // CS Name: ::UnityEngine.UI::ContentSizeFitter*
 class CORDL_TYPE ContentSizeFitter : public ::UnityEngine::EventSystems::UIBehaviour {
@@ -97,22 +97,22 @@ public:
   using FitMode = ::UnityEngine::UI::__ContentSizeFitter__FitMode;
 
   /// @brief Field m_HorizontalFit, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_HorizontalFit, put = __set_m_HorizontalFit))::UnityEngine::UI::__ContentSizeFitter__FitMode m_HorizontalFit;
+  __declspec(property(get = __cordl_internal_get_m_HorizontalFit, put = __cordl_internal_set_m_HorizontalFit))::UnityEngine::UI::__ContentSizeFitter__FitMode m_HorizontalFit;
 
   /// @brief Field m_VerticalFit, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_VerticalFit, put = __set_m_VerticalFit))::UnityEngine::UI::__ContentSizeFitter__FitMode m_VerticalFit;
+  __declspec(property(get = __cordl_internal_get_m_VerticalFit, put = __cordl_internal_set_m_VerticalFit))::UnityEngine::UI::__ContentSizeFitter__FitMode m_VerticalFit;
 
   /// @brief Field m_Rect, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Rect, put = __set_m_Rect))::UnityEngine::RectTransform* m_Rect;
+  __declspec(property(get = __cordl_internal_get_m_Rect, put = __cordl_internal_set_m_Rect))::UnityW<::UnityEngine::RectTransform> m_Rect;
 
   /// @brief Field m_Tracker, offset 0x28, size 0x1
-  __declspec(property(get = __get_m_Tracker, put = __set_m_Tracker))::UnityEngine::DrivenRectTransformTracker m_Tracker;
+  __declspec(property(get = __cordl_internal_get_m_Tracker, put = __cordl_internal_set_m_Tracker))::UnityEngine::DrivenRectTransformTracker m_Tracker;
 
   __declspec(property(get = get_horizontalFit, put = set_horizontalFit))::UnityEngine::UI::__ContentSizeFitter__FitMode horizontalFit;
 
   __declspec(property(get = get_verticalFit, put = set_verticalFit))::UnityEngine::UI::__ContentSizeFitter__FitMode verticalFit;
 
-  __declspec(property(get = get_rectTransform))::UnityEngine::RectTransform* rectTransform;
+  __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
 
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutSelfController"
   constexpr operator ::UnityEngine::UI::ILayoutSelfController*() noexcept;
@@ -126,29 +126,29 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ILayoutController"
   constexpr ::UnityEngine::UI::ILayoutController* i___UnityEngine__UI__ILayoutController() noexcept;
 
-  constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode& __get_m_HorizontalFit();
+  constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode& __cordl_internal_get_m_HorizontalFit();
 
-  constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode const& __get_m_HorizontalFit() const;
+  constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode const& __cordl_internal_get_m_HorizontalFit() const;
 
-  constexpr void __set_m_HorizontalFit(::UnityEngine::UI::__ContentSizeFitter__FitMode value);
+  constexpr void __cordl_internal_set_m_HorizontalFit(::UnityEngine::UI::__ContentSizeFitter__FitMode value);
 
-  constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode& __get_m_VerticalFit();
+  constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode& __cordl_internal_get_m_VerticalFit();
 
-  constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode const& __get_m_VerticalFit() const;
+  constexpr ::UnityEngine::UI::__ContentSizeFitter__FitMode const& __cordl_internal_get_m_VerticalFit() const;
 
-  constexpr void __set_m_VerticalFit(::UnityEngine::UI::__ContentSizeFitter__FitMode value);
+  constexpr void __cordl_internal_set_m_VerticalFit(::UnityEngine::UI::__ContentSizeFitter__FitMode value);
 
-  constexpr ::UnityEngine::RectTransform*& __get_m_Rect();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_Rect();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_Rect() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_Rect() const;
 
-  constexpr void __set_m_Rect(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_m_Rect(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::DrivenRectTransformTracker& __get_m_Tracker();
+  constexpr ::UnityEngine::DrivenRectTransformTracker& __cordl_internal_get_m_Tracker();
 
-  constexpr ::UnityEngine::DrivenRectTransformTracker const& __get_m_Tracker() const;
+  constexpr ::UnityEngine::DrivenRectTransformTracker const& __cordl_internal_get_m_Tracker() const;
 
-  constexpr void __set_m_Tracker(::UnityEngine::DrivenRectTransformTracker value);
+  constexpr void __cordl_internal_set_m_Tracker(::UnityEngine::DrivenRectTransformTracker value);
 
   /// @brief Method get_horizontalFit, addr 0x2d74720, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__ContentSizeFitter__FitMode get_horizontalFit();
@@ -163,7 +163,7 @@ public:
   inline void set_verticalFit(::UnityEngine::UI::__ContentSizeFitter__FitMode value);
 
   /// @brief Method get_rectTransform, addr 0x2d7489c, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::RectTransform* get_rectTransform();
+  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
   static inline ::UnityEngine::UI::ContentSizeFitter* New_ctor();
 
@@ -212,7 +212,7 @@ public:
   ::UnityEngine::UI::__ContentSizeFitter__FitMode ___m_VerticalFit;
 
   /// @brief Field m_Rect, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___m_Rect;
+  ::UnityW<::UnityEngine::RectTransform> ___m_Rect;
 
   /// @brief Field m_Tracker, offset: 0x28, size: 0x1, def value: None
   ::UnityEngine::DrivenRectTransformTracker ___m_Tracker;

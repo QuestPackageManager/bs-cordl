@@ -51,7 +51,7 @@ namespace LIV::SDK::Unity {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15095))
 // CS Name: ::SDKBridge::SDKInjection`1<T>
 struct CORDL_TYPE __SDKBridge__SDKInjection_1 {
@@ -85,9 +85,10 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15095), inst: 4946 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15095), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15095)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15095), inst: 4947 }), TypeDefinitionIndex(TypeDefinitionIndex(15108)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15115))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15096)) CS Name: ::LIV.SDK.Unity::SDKBridge*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15095)), TypeDefinitionIndex(TypeDefinitionIndex(15108)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15115)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15095), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(15095), inst: 4946 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15095), inst: 4947 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15096)) CS Name:
+// ::LIV.SDK.Unity::SDKBridge*
 class CORDL_TYPE SDKBridge : public ::System::Object {
 public:
   // Declarations

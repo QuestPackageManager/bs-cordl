@@ -54,8 +54,8 @@ MARK_VAL_T(::GlobalNamespace::__SelectAvatarSystemCell___ReloadIsCreated_d__17);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(15177)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5065 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5808)) CS Name: ::SelectAvatarSystemCell::<Load>d__14
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(15177)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5065 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5808)) CS Name: ::SelectAvatarSystemCell::<Load>d__14
 struct CORDL_TYPE __SelectAvatarSystemCell___Load_d__14 {
 public:
   // Declarations
@@ -72,12 +72,12 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::SelectAvatarSystemCell*", modifiers: "",
-  // def_value: None }, CppParam { name: "avatarSystemMetadata", ty: "::BeatSaber::AvatarCore::IAvatarSystemMetadata*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::AvatarCore::AvatarSelectionView*>", modifiers: "", def_value: None }]
-  constexpr __SelectAvatarSystemCell___Load_d__14(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::SelectAvatarSystemCell* __4__this,
-                                                  ::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystemMetadata,
-                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::AvatarCore::AvatarSelectionView*> __u__1) noexcept;
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::SelectAvatarSystemCell>",
+  // modifiers: "", def_value: None }, CppParam { name: "avatarSystemMetadata", ty: "::BeatSaber::AvatarCore::IAvatarSystemMetadata*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView>>", modifiers: "", def_value: None }]
+  constexpr __SelectAvatarSystemCell___Load_d__14(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+                                                  ::UnityW<::GlobalNamespace::SelectAvatarSystemCell> __4__this, ::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystemMetadata,
+                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView>> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -90,13 +90,13 @@ public:
   ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::SelectAvatarSystemCell* __4__this;
+  ::UnityW<::GlobalNamespace::SelectAvatarSystemCell> __4__this;
 
   /// @brief Field avatarSystemMetadata, offset: 0x30, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystemMetadata;
 
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::AvatarCore::AvatarSelectionView*> __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView>> __u__1;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -121,8 +121,8 @@ static_assert(offsetof(::GlobalNamespace::__SelectAvatarSystemCell___Load_d__14,
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5809)) CS Name: ::SelectAvatarSystemCell::<ReloadIsCreated>d__17
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5809)) CS Name: ::SelectAvatarSystemCell::<ReloadIsCreated>d__17
 struct CORDL_TYPE __SelectAvatarSystemCell___ReloadIsCreated_d__17 {
 public:
   // Declarations
@@ -139,11 +139,11 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::SelectAvatarSystemCell*", modifiers: "",
-  // def_value: None }, CppParam { name: "__7__wrap1", ty: "::BeatSaber::AvatarCore::AvatarSelectionView*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::SelectAvatarSystemCell>",
+  // modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty: "::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
   constexpr __SelectAvatarSystemCell___ReloadIsCreated_d__17(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                             ::GlobalNamespace::SelectAvatarSystemCell* __4__this, ::BeatSaber::AvatarCore::AvatarSelectionView* __7__wrap1,
+                                                             ::UnityW<::GlobalNamespace::SelectAvatarSystemCell> __4__this, ::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView> __7__wrap1,
                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   // Ctor Parameters []
@@ -157,10 +157,10 @@ public:
   ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::SelectAvatarSystemCell* __4__this;
+  ::UnityW<::GlobalNamespace::SelectAvatarSystemCell> __4__this;
 
   /// @brief Field <>7__wrap1, offset: 0x30, size: 0x8, def value: None
-  ::BeatSaber::AvatarCore::AvatarSelectionView* __7__wrap1;
+  ::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView> __7__wrap1;
 
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1;
@@ -188,7 +188,7 @@ static_assert(offsetof(::GlobalNamespace::__SelectAvatarSystemCell___ReloadIsCre
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13664))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5810))
 // CS Name: ::SelectAvatarSystemCell*
 class CORDL_TYPE SelectAvatarSystemCell : public ::HMUI::TableCell {
@@ -199,79 +199,81 @@ public:
   using _Load_d__14 = ::GlobalNamespace::__SelectAvatarSystemCell___Load_d__14;
 
   /// @brief Field _avatarSystemCollection, offset 0x58, size 0x8
-  __declspec(property(get = __get__avatarSystemCollection, put = __set__avatarSystemCollection))::BeatSaber::AvatarCore::AvatarSystemCollection* _avatarSystemCollection;
+  __declspec(property(get = __cordl_internal_get__avatarSystemCollection, put = __cordl_internal_set__avatarSystemCollection))::BeatSaber::AvatarCore::AvatarSystemCollection* _avatarSystemCollection;
 
   /// @brief Field didSetAvatarSystemPreferredEvent, offset 0x60, size 0x8
-  __declspec(property(get = __get_didSetAvatarSystemPreferredEvent,
-                      put = __set_didSetAvatarSystemPreferredEvent))::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* didSetAvatarSystemPreferredEvent;
+  __declspec(property(get = __cordl_internal_get_didSetAvatarSystemPreferredEvent,
+                      put = __cordl_internal_set_didSetAvatarSystemPreferredEvent))::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* didSetAvatarSystemPreferredEvent;
 
   /// @brief Field didRequestEditOfAvatarEvent, offset 0x68, size 0x8
-  __declspec(property(get = __get_didRequestEditOfAvatarEvent,
-                      put = __set_didRequestEditOfAvatarEvent))::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* didRequestEditOfAvatarEvent;
+  __declspec(property(get = __cordl_internal_get_didRequestEditOfAvatarEvent,
+                      put = __cordl_internal_set_didRequestEditOfAvatarEvent))::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* didRequestEditOfAvatarEvent;
 
   /// @brief Field didRequestCreationOfAvatarEvent, offset 0x70, size 0x8
-  __declspec(property(get = __get_didRequestCreationOfAvatarEvent,
-                      put = __set_didRequestCreationOfAvatarEvent))::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* didRequestCreationOfAvatarEvent;
+  __declspec(property(get = __cordl_internal_get_didRequestCreationOfAvatarEvent,
+                      put = __cordl_internal_set_didRequestCreationOfAvatarEvent))::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* didRequestCreationOfAvatarEvent;
 
   /// @brief Field _loadedAvatarSystemMetadata, offset 0x78, size 0x8
-  __declspec(property(get = __get__loadedAvatarSystemMetadata, put = __set__loadedAvatarSystemMetadata))::BeatSaber::AvatarCore::IAvatarSystemMetadata* _loadedAvatarSystemMetadata;
+  __declspec(property(get = __cordl_internal_get__loadedAvatarSystemMetadata,
+                      put = __cordl_internal_set__loadedAvatarSystemMetadata))::BeatSaber::AvatarCore::IAvatarSystemMetadata* _loadedAvatarSystemMetadata;
 
   /// @brief Field _selectedAvatarSystemMetadata, offset 0x80, size 0x8
-  __declspec(property(get = __get__selectedAvatarSystemMetadata, put = __set__selectedAvatarSystemMetadata))::BeatSaber::AvatarCore::IAvatarSystemMetadata* _selectedAvatarSystemMetadata;
+  __declspec(property(get = __cordl_internal_get__selectedAvatarSystemMetadata,
+                      put = __cordl_internal_set__selectedAvatarSystemMetadata))::BeatSaber::AvatarCore::IAvatarSystemMetadata* _selectedAvatarSystemMetadata;
 
   /// @brief Field _loadedSelectionView, offset 0x88, size 0x8
-  __declspec(property(get = __get__loadedSelectionView, put = __set__loadedSelectionView))::BeatSaber::AvatarCore::AvatarSelectionView* _loadedSelectionView;
+  __declspec(property(get = __cordl_internal_get__loadedSelectionView, put = __cordl_internal_set__loadedSelectionView))::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView> _loadedSelectionView;
 
   /// @brief Field _activateViewOnEnable, offset 0x90, size 0x1
-  __declspec(property(get = __get__activateViewOnEnable, put = __set__activateViewOnEnable)) bool _activateViewOnEnable;
+  __declspec(property(get = __cordl_internal_get__activateViewOnEnable, put = __cordl_internal_set__activateViewOnEnable)) bool _activateViewOnEnable;
 
-  constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection*& __get__avatarSystemCollection();
+  constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection*& __cordl_internal_get__avatarSystemCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::AvatarSystemCollection*> const& __get__avatarSystemCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::AvatarSystemCollection*> const& __cordl_internal_get__avatarSystemCollection() const;
 
-  constexpr void __set__avatarSystemCollection(::BeatSaber::AvatarCore::AvatarSystemCollection* value);
+  constexpr void __cordl_internal_set__avatarSystemCollection(::BeatSaber::AvatarCore::AvatarSystemCollection* value);
 
-  constexpr ::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*& __get_didSetAvatarSystemPreferredEvent();
+  constexpr ::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*& __cordl_internal_get_didSetAvatarSystemPreferredEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*> const& __get_didSetAvatarSystemPreferredEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*> const& __cordl_internal_get_didSetAvatarSystemPreferredEvent() const;
 
-  constexpr void __set_didSetAvatarSystemPreferredEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
+  constexpr void __cordl_internal_set_didSetAvatarSystemPreferredEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  constexpr ::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*& __get_didRequestEditOfAvatarEvent();
+  constexpr ::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*& __cordl_internal_get_didRequestEditOfAvatarEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*> const& __get_didRequestEditOfAvatarEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*> const& __cordl_internal_get_didRequestEditOfAvatarEvent() const;
 
-  constexpr void __set_didRequestEditOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
+  constexpr void __cordl_internal_set_didRequestEditOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  constexpr ::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*& __get_didRequestCreationOfAvatarEvent();
+  constexpr ::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*& __cordl_internal_get_didRequestCreationOfAvatarEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*> const& __get_didRequestCreationOfAvatarEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>*> const& __cordl_internal_get_didRequestCreationOfAvatarEvent() const;
 
-  constexpr void __set_didRequestCreationOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
+  constexpr void __cordl_internal_set_didRequestCreationOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  constexpr ::BeatSaber::AvatarCore::IAvatarSystemMetadata*& __get__loadedAvatarSystemMetadata();
+  constexpr ::BeatSaber::AvatarCore::IAvatarSystemMetadata*& __cordl_internal_get__loadedAvatarSystemMetadata();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IAvatarSystemMetadata*> const& __get__loadedAvatarSystemMetadata() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IAvatarSystemMetadata*> const& __cordl_internal_get__loadedAvatarSystemMetadata() const;
 
-  constexpr void __set__loadedAvatarSystemMetadata(::BeatSaber::AvatarCore::IAvatarSystemMetadata* value);
+  constexpr void __cordl_internal_set__loadedAvatarSystemMetadata(::BeatSaber::AvatarCore::IAvatarSystemMetadata* value);
 
-  constexpr ::BeatSaber::AvatarCore::IAvatarSystemMetadata*& __get__selectedAvatarSystemMetadata();
+  constexpr ::BeatSaber::AvatarCore::IAvatarSystemMetadata*& __cordl_internal_get__selectedAvatarSystemMetadata();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IAvatarSystemMetadata*> const& __get__selectedAvatarSystemMetadata() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::IAvatarSystemMetadata*> const& __cordl_internal_get__selectedAvatarSystemMetadata() const;
 
-  constexpr void __set__selectedAvatarSystemMetadata(::BeatSaber::AvatarCore::IAvatarSystemMetadata* value);
+  constexpr void __cordl_internal_set__selectedAvatarSystemMetadata(::BeatSaber::AvatarCore::IAvatarSystemMetadata* value);
 
-  constexpr ::BeatSaber::AvatarCore::AvatarSelectionView*& __get__loadedSelectionView();
+  constexpr ::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView>& __cordl_internal_get__loadedSelectionView();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::AvatarSelectionView*> const& __get__loadedSelectionView() const;
+  constexpr ::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView> const& __cordl_internal_get__loadedSelectionView() const;
 
-  constexpr void __set__loadedSelectionView(::BeatSaber::AvatarCore::AvatarSelectionView* value);
+  constexpr void __cordl_internal_set__loadedSelectionView(::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView> value);
 
-  constexpr bool& __get__activateViewOnEnable();
+  constexpr bool& __cordl_internal_get__activateViewOnEnable();
 
-  constexpr bool const& __get__activateViewOnEnable() const;
+  constexpr bool const& __cordl_internal_get__activateViewOnEnable() const;
 
-  constexpr void __set__activateViewOnEnable(bool value);
+  constexpr void __cordl_internal_set__activateViewOnEnable(bool value);
 
   /// @brief Method add_didSetAvatarSystemPreferredEvent, addr 0x22e8794, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSetAvatarSystemPreferredEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
@@ -359,7 +361,7 @@ public:
   ::BeatSaber::AvatarCore::IAvatarSystemMetadata* ____selectedAvatarSystemMetadata;
 
   /// @brief Field _loadedSelectionView, offset: 0x88, size: 0x8, def value: None
-  ::BeatSaber::AvatarCore::AvatarSelectionView* ____loadedSelectionView;
+  ::UnityW<::BeatSaber::AvatarCore::AvatarSelectionView> ____loadedSelectionView;
 
   /// @brief Field _activateViewOnEnable, offset: 0x90, size: 0x1, def value: None
   bool ____activateViewOnEnable;

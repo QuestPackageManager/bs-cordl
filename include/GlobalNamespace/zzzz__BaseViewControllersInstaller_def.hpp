@@ -20,32 +20,31 @@ MARK_REF_PTR_T(::GlobalNamespace::BaseViewControllersInstaller);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11147))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11147))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5387))
 // CS Name: ::BaseViewControllersInstaller*
 class CORDL_TYPE BaseViewControllersInstaller : public ::Zenject::ScriptableObjectInstaller {
 public:
   // Declarations
   /// @brief Field _simpleDialogPromptViewControllerPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__simpleDialogPromptViewControllerPrefab,
-                      put = __set__simpleDialogPromptViewControllerPrefab))::GlobalNamespace::SimpleDialogPromptViewController* _simpleDialogPromptViewControllerPrefab;
+  __declspec(property(get = __cordl_internal_get__simpleDialogPromptViewControllerPrefab,
+                      put = __cordl_internal_set__simpleDialogPromptViewControllerPrefab))::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> _simpleDialogPromptViewControllerPrefab;
 
   /// @brief Field _safeAreaFocusedSimpleDialogPromptViewControllerPrefab, offset 0x28, size 0x8
-  __declspec(property(
-      get = __get__safeAreaFocusedSimpleDialogPromptViewControllerPrefab,
-      put = __set__safeAreaFocusedSimpleDialogPromptViewControllerPrefab))::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController* _safeAreaFocusedSimpleDialogPromptViewControllerPrefab;
+  __declspec(property(get = __cordl_internal_get__safeAreaFocusedSimpleDialogPromptViewControllerPrefab, put = __cordl_internal_set__safeAreaFocusedSimpleDialogPromptViewControllerPrefab))::UnityW<
+      ::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController> _safeAreaFocusedSimpleDialogPromptViewControllerPrefab;
 
-  constexpr ::GlobalNamespace::SimpleDialogPromptViewController*& __get__simpleDialogPromptViewControllerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController>& __cordl_internal_get__simpleDialogPromptViewControllerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SimpleDialogPromptViewController*> const& __get__simpleDialogPromptViewControllerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> const& __cordl_internal_get__simpleDialogPromptViewControllerPrefab() const;
 
-  constexpr void __set__simpleDialogPromptViewControllerPrefab(::GlobalNamespace::SimpleDialogPromptViewController* value);
+  constexpr void __cordl_internal_set__simpleDialogPromptViewControllerPrefab(::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> value);
 
-  constexpr ::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController*& __get__safeAreaFocusedSimpleDialogPromptViewControllerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController>& __cordl_internal_get__safeAreaFocusedSimpleDialogPromptViewControllerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController*> const& __get__safeAreaFocusedSimpleDialogPromptViewControllerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController> const& __cordl_internal_get__safeAreaFocusedSimpleDialogPromptViewControllerPrefab() const;
 
-  constexpr void __set__safeAreaFocusedSimpleDialogPromptViewControllerPrefab(::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController* value);
+  constexpr void __cordl_internal_set__safeAreaFocusedSimpleDialogPromptViewControllerPrefab(::UnityW<::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController> value);
 
   /// @brief Method InstallBindings, addr 0x226f00c, size 0xac, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -70,10 +69,10 @@ protected:
 
 public:
   /// @brief Field _simpleDialogPromptViewControllerPrefab, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::SimpleDialogPromptViewController* ____simpleDialogPromptViewControllerPrefab;
+  ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> ____simpleDialogPromptViewControllerPrefab;
 
   /// @brief Field _safeAreaFocusedSimpleDialogPromptViewControllerPrefab, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController* ____safeAreaFocusedSimpleDialogPromptViewControllerPrefab;
+  ::UnityW<::GlobalNamespace::SafeAreaFocusedSimpleDialogPromptViewController> ____safeAreaFocusedSimpleDialogPromptViewControllerPrefab;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

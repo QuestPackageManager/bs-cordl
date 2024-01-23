@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Collections::Generic::InsertionBehavior);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Collections::Generic {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3817))
 // CS Name: ::System.Collections.Generic::InsertionBehavior
 struct CORDL_TYPE InsertionBehavior {

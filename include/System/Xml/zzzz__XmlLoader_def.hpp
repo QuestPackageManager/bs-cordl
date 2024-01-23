@@ -61,38 +61,38 @@ MARK_REF_PTR_T(::System::Xml::XmlLoader);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11514))
 // CS Name: ::System.Xml::XmlLoader*
 class CORDL_TYPE XmlLoader : public ::System::Object {
 public:
   // Declarations
   /// @brief Field doc, offset 0x10, size 0x8
-  __declspec(property(get = __get_doc, put = __set_doc))::System::Xml::XmlDocument* doc;
+  __declspec(property(get = __cordl_internal_get_doc, put = __cordl_internal_set_doc))::System::Xml::XmlDocument* doc;
 
   /// @brief Field reader, offset 0x18, size 0x8
-  __declspec(property(get = __get_reader, put = __set_reader))::System::Xml::XmlReader* reader;
+  __declspec(property(get = __cordl_internal_get_reader, put = __cordl_internal_set_reader))::System::Xml::XmlReader* reader;
 
   /// @brief Field preserveWhitespace, offset 0x20, size 0x1
-  __declspec(property(get = __get_preserveWhitespace, put = __set_preserveWhitespace)) bool preserveWhitespace;
+  __declspec(property(get = __cordl_internal_get_preserveWhitespace, put = __cordl_internal_set_preserveWhitespace)) bool preserveWhitespace;
 
-  constexpr ::System::Xml::XmlDocument*& __get_doc();
+  constexpr ::System::Xml::XmlDocument*& __cordl_internal_get_doc();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDocument*> const& __get_doc() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDocument*> const& __cordl_internal_get_doc() const;
 
-  constexpr void __set_doc(::System::Xml::XmlDocument* value);
+  constexpr void __cordl_internal_set_doc(::System::Xml::XmlDocument* value);
 
-  constexpr ::System::Xml::XmlReader*& __get_reader();
+  constexpr ::System::Xml::XmlReader*& __cordl_internal_get_reader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReader*> const& __get_reader() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlReader*> const& __cordl_internal_get_reader() const;
 
-  constexpr void __set_reader(::System::Xml::XmlReader* value);
+  constexpr void __cordl_internal_set_reader(::System::Xml::XmlReader* value);
 
-  constexpr bool& __get_preserveWhitespace();
+  constexpr bool& __cordl_internal_get_preserveWhitespace();
 
-  constexpr bool const& __get_preserveWhitespace() const;
+  constexpr bool const& __cordl_internal_get_preserveWhitespace() const;
 
-  constexpr void __set_preserveWhitespace(bool value);
+  constexpr void __cordl_internal_set_preserveWhitespace(bool value);
 
   static inline ::System::Xml::XmlLoader* New_ctor();
 

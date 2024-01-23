@@ -19,59 +19,59 @@ MARK_REF_PTR_T(::TMPro::TMP_ColorGradient);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(12333)), TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(12333))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12334))
 // CS Name: ::TMPro::TMP_ColorGradient*
 class CORDL_TYPE TMP_ColorGradient : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field colorMode, offset 0x18, size 0x4
-  __declspec(property(get = __get_colorMode, put = __set_colorMode))::TMPro::ColorMode colorMode;
+  __declspec(property(get = __cordl_internal_get_colorMode, put = __cordl_internal_set_colorMode))::TMPro::ColorMode colorMode;
 
   /// @brief Field topLeft, offset 0x1c, size 0x10
-  __declspec(property(get = __get_topLeft, put = __set_topLeft))::UnityEngine::Color topLeft;
+  __declspec(property(get = __cordl_internal_get_topLeft, put = __cordl_internal_set_topLeft))::UnityEngine::Color topLeft;
 
   /// @brief Field topRight, offset 0x2c, size 0x10
-  __declspec(property(get = __get_topRight, put = __set_topRight))::UnityEngine::Color topRight;
+  __declspec(property(get = __cordl_internal_get_topRight, put = __cordl_internal_set_topRight))::UnityEngine::Color topRight;
 
   /// @brief Field bottomLeft, offset 0x3c, size 0x10
-  __declspec(property(get = __get_bottomLeft, put = __set_bottomLeft))::UnityEngine::Color bottomLeft;
+  __declspec(property(get = __cordl_internal_get_bottomLeft, put = __cordl_internal_set_bottomLeft))::UnityEngine::Color bottomLeft;
 
   /// @brief Field bottomRight, offset 0x4c, size 0x10
-  __declspec(property(get = __get_bottomRight, put = __set_bottomRight))::UnityEngine::Color bottomRight;
+  __declspec(property(get = __cordl_internal_get_bottomRight, put = __cordl_internal_set_bottomRight))::UnityEngine::Color bottomRight;
 
   /// @brief Field k_DefaultColor, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_k_DefaultColor, put = setStaticF_k_DefaultColor))::UnityEngine::Color k_DefaultColor;
 
-  constexpr ::TMPro::ColorMode& __get_colorMode();
+  constexpr ::TMPro::ColorMode& __cordl_internal_get_colorMode();
 
-  constexpr ::TMPro::ColorMode const& __get_colorMode() const;
+  constexpr ::TMPro::ColorMode const& __cordl_internal_get_colorMode() const;
 
-  constexpr void __set_colorMode(::TMPro::ColorMode value);
+  constexpr void __cordl_internal_set_colorMode(::TMPro::ColorMode value);
 
-  constexpr ::UnityEngine::Color& __get_topLeft();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_topLeft();
 
-  constexpr ::UnityEngine::Color const& __get_topLeft() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_topLeft() const;
 
-  constexpr void __set_topLeft(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_topLeft(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get_topRight();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_topRight();
 
-  constexpr ::UnityEngine::Color const& __get_topRight() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_topRight() const;
 
-  constexpr void __set_topRight(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_topRight(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get_bottomLeft();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_bottomLeft();
 
-  constexpr ::UnityEngine::Color const& __get_bottomLeft() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_bottomLeft() const;
 
-  constexpr void __set_bottomLeft(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_bottomLeft(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get_bottomRight();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_bottomRight();
 
-  constexpr ::UnityEngine::Color const& __get_bottomRight() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_bottomRight() const;
 
-  constexpr void __set_bottomRight(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_bottomRight(::UnityEngine::Color value);
 
   static inline void setStaticF_k_DefaultColor(::UnityEngine::Color value);
 

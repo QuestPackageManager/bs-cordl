@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BezierPath);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5970))
 // CS Name: ::BezierPath::ControlMode
 struct CORDL_TYPE __BezierPath__ControlMode {
@@ -97,7 +97,7 @@ static_assert(offsetof(::GlobalNamespace::__BezierPath__ControlMode, value__) ==
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5970))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5970))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5971))
 // CS Name: ::BezierPath*
 class CORDL_TYPE BezierPath : public ::System::Object {
@@ -106,19 +106,19 @@ public:
   using ControlMode = ::GlobalNamespace::__BezierPath__ControlMode;
 
   /// @brief Field bezierPathWasModifiedEvent, offset 0x10, size 0x8
-  __declspec(property(get = __get_bezierPathWasModifiedEvent, put = __set_bezierPathWasModifiedEvent))::System::Action* bezierPathWasModifiedEvent;
+  __declspec(property(get = __cordl_internal_get_bezierPathWasModifiedEvent, put = __cordl_internal_set_bezierPathWasModifiedEvent))::System::Action* bezierPathWasModifiedEvent;
 
   /// @brief Field _points, offset 0x18, size 0x8
-  __declspec(property(get = __get__points, put = __set__points))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _points;
+  __declspec(property(get = __cordl_internal_get__points, put = __cordl_internal_set__points))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _points;
 
   /// @brief Field _controlMode, offset 0x20, size 0x4
-  __declspec(property(get = __get__controlMode, put = __set__controlMode))::GlobalNamespace::__BezierPath__ControlMode _controlMode;
+  __declspec(property(get = __cordl_internal_get__controlMode, put = __cordl_internal_set__controlMode))::GlobalNamespace::__BezierPath__ControlMode _controlMode;
 
   /// @brief Field _perAnchorNormalsAngle, offset 0x28, size 0x8
-  __declspec(property(get = __get__perAnchorNormalsAngle, put = __set__perAnchorNormalsAngle))::System::Collections::Generic::List_1<float_t>* _perAnchorNormalsAngle;
+  __declspec(property(get = __cordl_internal_get__perAnchorNormalsAngle, put = __cordl_internal_set__perAnchorNormalsAngle))::System::Collections::Generic::List_1<float_t>* _perAnchorNormalsAngle;
 
   /// @brief Field _neighbourDistances, offset 0x30, size 0x8
-  __declspec(property(get = __get__neighbourDistances, put = __set__neighbourDistances))::ArrayW<float_t, ::Array<float_t>*> _neighbourDistances;
+  __declspec(property(get = __cordl_internal_get__neighbourDistances, put = __cordl_internal_set__neighbourDistances))::ArrayW<float_t, ::Array<float_t>*> _neighbourDistances;
 
   __declspec(property(get = get_controlPointMode, put = set_controlPointMode))::GlobalNamespace::__BezierPath__ControlMode controlPointMode;
 
@@ -130,35 +130,35 @@ public:
 
   __declspec(property(get = get_Item))::UnityEngine::Vector3 Item[];
 
-  constexpr ::System::Action*& __get_bezierPathWasModifiedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_bezierPathWasModifiedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_bezierPathWasModifiedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_bezierPathWasModifiedEvent() const;
 
-  constexpr void __set_bezierPathWasModifiedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_bezierPathWasModifiedEvent(::System::Action* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __get__points();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get__points();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __get__points() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__points() const;
 
-  constexpr void __set__points(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set__points(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::GlobalNamespace::__BezierPath__ControlMode& __get__controlMode();
+  constexpr ::GlobalNamespace::__BezierPath__ControlMode& __cordl_internal_get__controlMode();
 
-  constexpr ::GlobalNamespace::__BezierPath__ControlMode const& __get__controlMode() const;
+  constexpr ::GlobalNamespace::__BezierPath__ControlMode const& __cordl_internal_get__controlMode() const;
 
-  constexpr void __set__controlMode(::GlobalNamespace::__BezierPath__ControlMode value);
+  constexpr void __cordl_internal_set__controlMode(::GlobalNamespace::__BezierPath__ControlMode value);
 
-  constexpr ::System::Collections::Generic::List_1<float_t>*& __get__perAnchorNormalsAngle();
+  constexpr ::System::Collections::Generic::List_1<float_t>*& __cordl_internal_get__perAnchorNormalsAngle();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& __get__perAnchorNormalsAngle() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& __cordl_internal_get__perAnchorNormalsAngle() const;
 
-  constexpr void __set__perAnchorNormalsAngle(::System::Collections::Generic::List_1<float_t>* value);
+  constexpr void __cordl_internal_set__perAnchorNormalsAngle(::System::Collections::Generic::List_1<float_t>* value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get__neighbourDistances();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__neighbourDistances();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get__neighbourDistances() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__neighbourDistances() const;
 
-  constexpr void __set__neighbourDistances(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set__neighbourDistances(::ArrayW<float_t, ::Array<float_t>*> value);
 
   /// @brief Method get_controlPointMode, addr 0x2309be0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BezierPath__ControlMode get_controlPointMode();

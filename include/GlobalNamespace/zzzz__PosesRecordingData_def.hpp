@@ -41,29 +41,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__PosesRecordingData__TransformsKeyframe);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5932))
 // CS Name: ::PosesRecordingData::TransformsKeyframe*
 class CORDL_TYPE __PosesRecordingData__TransformsKeyframe : public ::System::Object {
 public:
   // Declarations
   /// @brief Field poses, offset 0x10, size 0x8
-  __declspec(property(get = __get_poses, put = __set_poses))::ArrayW<::UnityEngine::Pose, ::Array<::UnityEngine::Pose>*> poses;
+  __declspec(property(get = __cordl_internal_get_poses, put = __cordl_internal_set_poses))::ArrayW<::UnityEngine::Pose, ::Array<::UnityEngine::Pose>*> poses;
 
   /// @brief Field time, offset 0x18, size 0x4
-  __declspec(property(get = __get_time, put = __set_time)) float_t time;
+  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) float_t time;
 
-  constexpr ::ArrayW<::UnityEngine::Pose, ::Array<::UnityEngine::Pose>*>& __get_poses();
+  constexpr ::ArrayW<::UnityEngine::Pose, ::Array<::UnityEngine::Pose>*>& __cordl_internal_get_poses();
 
-  constexpr ::ArrayW<::UnityEngine::Pose, ::Array<::UnityEngine::Pose>*> const& __get_poses() const;
+  constexpr ::ArrayW<::UnityEngine::Pose, ::Array<::UnityEngine::Pose>*> const& __cordl_internal_get_poses() const;
 
-  constexpr void __set_poses(::ArrayW<::UnityEngine::Pose, ::Array<::UnityEngine::Pose>*> value);
+  constexpr void __cordl_internal_set_poses(::ArrayW<::UnityEngine::Pose, ::Array<::UnityEngine::Pose>*> value);
 
-  constexpr float_t& __get_time();
+  constexpr float_t& __cordl_internal_get_time();
 
-  constexpr float_t const& __get_time() const;
+  constexpr float_t const& __cordl_internal_get_time() const;
 
-  constexpr void __set_time(float_t value);
+  constexpr void __cordl_internal_set_time(float_t value);
 
   static inline ::GlobalNamespace::__PosesRecordingData__TransformsKeyframe* New_ctor(::ArrayW<::UnityEngine::Pose, ::Array<::UnityEngine::Pose>*> poses, float_t time);
 
@@ -104,56 +104,56 @@ static_assert(offsetof(::GlobalNamespace::__PosesRecordingData__TransformsKeyfra
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5933))
 // CS Name: ::PosesRecordingData::ExternalCameraCalibration*
 class CORDL_TYPE __PosesRecordingData__ExternalCameraCalibration : public ::System::Object {
 public:
   // Declarations
   /// @brief Field fieldOfVision, offset 0x10, size 0x4
-  __declspec(property(get = __get_fieldOfVision, put = __set_fieldOfVision)) float_t fieldOfVision;
+  __declspec(property(get = __cordl_internal_get_fieldOfVision, put = __cordl_internal_set_fieldOfVision)) float_t fieldOfVision;
 
   /// @brief Field nearClip, offset 0x14, size 0x4
-  __declspec(property(get = __get_nearClip, put = __set_nearClip)) float_t nearClip;
+  __declspec(property(get = __cordl_internal_get_nearClip, put = __cordl_internal_set_nearClip)) float_t nearClip;
 
   /// @brief Field farClip, offset 0x18, size 0x4
-  __declspec(property(get = __get_farClip, put = __set_farClip)) float_t farClip;
+  __declspec(property(get = __cordl_internal_get_farClip, put = __cordl_internal_set_farClip)) float_t farClip;
 
   /// @brief Field hmdOffset, offset 0x1c, size 0x4
-  __declspec(property(get = __get_hmdOffset, put = __set_hmdOffset)) float_t hmdOffset;
+  __declspec(property(get = __cordl_internal_get_hmdOffset, put = __cordl_internal_set_hmdOffset)) float_t hmdOffset;
 
   /// @brief Field nearOffset, offset 0x20, size 0x4
-  __declspec(property(get = __get_nearOffset, put = __set_nearOffset)) float_t nearOffset;
+  __declspec(property(get = __cordl_internal_get_nearOffset, put = __cordl_internal_set_nearOffset)) float_t nearOffset;
 
-  constexpr float_t& __get_fieldOfVision();
+  constexpr float_t& __cordl_internal_get_fieldOfVision();
 
-  constexpr float_t const& __get_fieldOfVision() const;
+  constexpr float_t const& __cordl_internal_get_fieldOfVision() const;
 
-  constexpr void __set_fieldOfVision(float_t value);
+  constexpr void __cordl_internal_set_fieldOfVision(float_t value);
 
-  constexpr float_t& __get_nearClip();
+  constexpr float_t& __cordl_internal_get_nearClip();
 
-  constexpr float_t const& __get_nearClip() const;
+  constexpr float_t const& __cordl_internal_get_nearClip() const;
 
-  constexpr void __set_nearClip(float_t value);
+  constexpr void __cordl_internal_set_nearClip(float_t value);
 
-  constexpr float_t& __get_farClip();
+  constexpr float_t& __cordl_internal_get_farClip();
 
-  constexpr float_t const& __get_farClip() const;
+  constexpr float_t const& __cordl_internal_get_farClip() const;
 
-  constexpr void __set_farClip(float_t value);
+  constexpr void __cordl_internal_set_farClip(float_t value);
 
-  constexpr float_t& __get_hmdOffset();
+  constexpr float_t& __cordl_internal_get_hmdOffset();
 
-  constexpr float_t const& __get_hmdOffset() const;
+  constexpr float_t const& __cordl_internal_get_hmdOffset() const;
 
-  constexpr void __set_hmdOffset(float_t value);
+  constexpr void __cordl_internal_set_hmdOffset(float_t value);
 
-  constexpr float_t& __get_nearOffset();
+  constexpr float_t& __cordl_internal_get_nearOffset();
 
-  constexpr float_t const& __get_nearOffset() const;
+  constexpr float_t const& __cordl_internal_get_nearOffset() const;
 
-  constexpr void __set_nearOffset(float_t value);
+  constexpr void __cordl_internal_set_nearOffset(float_t value);
 
   static inline ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* New_ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
 
@@ -214,7 +214,7 @@ static_assert(offsetof(::GlobalNamespace::__PosesRecordingData__ExternalCameraCa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5934))
 // CS Name: ::PosesRecordingData*
 class CORDL_TYPE PosesRecordingData : public ::System::Object {
@@ -225,31 +225,33 @@ public:
   using TransformsKeyframe = ::GlobalNamespace::__PosesRecordingData__TransformsKeyframe;
 
   /// @brief Field objectIds, offset 0x10, size 0x8
-  __declspec(property(get = __get_objectIds, put = __set_objectIds))::ArrayW<::StringW, ::Array<::StringW>*> objectIds;
+  __declspec(property(get = __cordl_internal_get_objectIds, put = __cordl_internal_set_objectIds))::ArrayW<::StringW, ::Array<::StringW>*> objectIds;
 
   /// @brief Field keyframes, offset 0x18, size 0x8
-  __declspec(property(get = __get_keyframes, put = __set_keyframes))::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>* keyframes;
+  __declspec(property(get = __cordl_internal_get_keyframes,
+                      put = __cordl_internal_set_keyframes))::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>* keyframes;
 
   /// @brief Field externalCameraCalibration, offset 0x20, size 0x8
-  __declspec(property(get = __get_externalCameraCalibration, put = __set_externalCameraCalibration))::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration;
+  __declspec(property(get = __cordl_internal_get_externalCameraCalibration,
+                      put = __cordl_internal_set_externalCameraCalibration))::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_objectIds();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_objectIds();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_objectIds() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_objectIds() const;
 
-  constexpr void __set_objectIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_objectIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>*& __get_keyframes();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>*& __cordl_internal_get_keyframes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>*> const& __get_keyframes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>*> const& __cordl_internal_get_keyframes() const;
 
-  constexpr void __set_keyframes(::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>* value);
+  constexpr void __cordl_internal_set_keyframes(::System::Collections::Generic::List_1<::GlobalNamespace::__PosesRecordingData__TransformsKeyframe*>* value);
 
-  constexpr ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*& __get_externalCameraCalibration();
+  constexpr ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*& __cordl_internal_get_externalCameraCalibration();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*> const& __get_externalCameraCalibration() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*> const& __cordl_internal_get_externalCameraCalibration() const;
 
-  constexpr void __set_externalCameraCalibration(::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* value);
+  constexpr void __cordl_internal_set_externalCameraCalibration(::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* value);
 
   static inline ::GlobalNamespace::PosesRecordingData* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds,
                                                                 ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* externalCameraCalibration);

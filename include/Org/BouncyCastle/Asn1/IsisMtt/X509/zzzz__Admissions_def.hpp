@@ -33,42 +33,42 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(183))
 // CS Name: ::Org.BouncyCastle.Asn1.IsisMtt.X509::Admissions*
 class CORDL_TYPE Admissions : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field admissionAuthority, offset 0x10, size 0x8
-  __declspec(property(get = __get_admissionAuthority, put = __set_admissionAuthority))::Org::BouncyCastle::Asn1::X509::GeneralName* admissionAuthority;
+  __declspec(property(get = __cordl_internal_get_admissionAuthority, put = __cordl_internal_set_admissionAuthority))::Org::BouncyCastle::Asn1::X509::GeneralName* admissionAuthority;
 
   /// @brief Field namingAuthority, offset 0x18, size 0x8
-  __declspec(property(get = __get_namingAuthority, put = __set_namingAuthority))::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* namingAuthority;
+  __declspec(property(get = __cordl_internal_get_namingAuthority, put = __cordl_internal_set_namingAuthority))::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* namingAuthority;
 
   /// @brief Field professionInfos, offset 0x20, size 0x8
-  __declspec(property(get = __get_professionInfos, put = __set_professionInfos))::Org::BouncyCastle::Asn1::Asn1Sequence* professionInfos;
+  __declspec(property(get = __cordl_internal_get_professionInfos, put = __cordl_internal_set_professionInfos))::Org::BouncyCastle::Asn1::Asn1Sequence* professionInfos;
 
   __declspec(property(get = get_AdmissionAuthority))::Org::BouncyCastle::Asn1::X509::GeneralName* AdmissionAuthority;
 
   __declspec(property(get = get_NamingAuthority))::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* NamingAuthority;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __get_admissionAuthority();
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_admissionAuthority();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __get_admissionAuthority() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_admissionAuthority() const;
 
-  constexpr void __set_admissionAuthority(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+  constexpr void __cordl_internal_set_admissionAuthority(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*& __get_namingAuthority();
+  constexpr ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*& __cordl_internal_get_namingAuthority();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*> const& __get_namingAuthority() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority*> const& __cordl_internal_get_namingAuthority() const;
 
-  constexpr void __set_namingAuthority(::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* value);
+  constexpr void __cordl_internal_set_namingAuthority(::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_professionInfos();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_professionInfos();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_professionInfos() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_professionInfos() const;
 
-  constexpr void __set_professionInfos(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_professionInfos(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   /// @brief Method GetInstance, addr 0xf769d8, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Admissions* GetInstance(::System::Object* obj);

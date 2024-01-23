@@ -86,7 +86,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRPassthroughColorLut__WriteColorsAsBytesJob);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8189))
 // CS Name: ::OVRPassthroughColorLut::ColorChannels
 struct CORDL_TYPE __OVRPassthroughColorLut__ColorChannels {
@@ -136,8 +136,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughColorLut__ColorChannel
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 293 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(9999))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8190)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 293
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8190)) CS Name:
 // ::OVRPassthroughColorLut::WriteColorsAsBytesJob
 struct CORDL_TYPE __OVRPassthroughColorLut__WriteColorsAsBytesJob {
 public:
@@ -188,7 +188,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughColorLut__WriteColorsA
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 37, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8192))
 // CS Name: ::OVRPassthroughColorLut::ColorLutTextureConverter::TextureSettings
 struct CORDL_TYPE __OVRPassthroughColorLut__ColorLutTextureConverter__TextureSettings {
@@ -280,8 +280,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughColorLut__ColorLutText
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(8192))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8191)) CS Name: ::OVRPassthroughColorLut::ColorLutTextureConverter::MapColorValuesJob
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8192)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8191)) CS Name: ::OVRPassthroughColorLut::ColorLutTextureConverter::MapColorValuesJob
 struct CORDL_TYPE __OVRPassthroughColorLut__ColorLutTextureConverter__MapColorValuesJob {
 public:
   // Declarations
@@ -332,7 +332,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPassthroughColorLut__ColorLutText
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8193))
 // CS Name: ::OVRPassthroughColorLut::ColorLutTextureConverter*
 class CORDL_TYPE __OVRPassthroughColorLut__ColorLutTextureConverter : public ::System::Object {
@@ -379,8 +379,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRPassthroug
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(7830)), TypeDefinitionIndex(TypeDefinitionIndex(8189)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8194)) CS Name: ::OVRPassthroughColorLut*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(7830)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8189))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8194)) CS Name: ::OVRPassthroughColorLut*
 class CORDL_TYPE OVRPassthroughColorLut : public ::System::Object {
 public:
   // Declarations
@@ -391,31 +391,32 @@ public:
   using ColorChannels = ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels;
 
   /// @brief Field <Resolution>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__Resolution_k__BackingField, put = __set__Resolution_k__BackingField)) uint32_t _Resolution_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Resolution_k__BackingField, put = __cordl_internal_set__Resolution_k__BackingField)) uint32_t _Resolution_k__BackingField;
 
   /// @brief Field <Channels>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__Channels_k__BackingField, put = __set__Channels_k__BackingField))::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels _Channels_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Channels_k__BackingField,
+                      put = __cordl_internal_set__Channels_k__BackingField))::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels _Channels_k__BackingField;
 
   /// @brief Field <IsInitialized>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__IsInitialized_k__BackingField, put = __set__IsInitialized_k__BackingField)) bool _IsInitialized_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsInitialized_k__BackingField, put = __cordl_internal_set__IsInitialized_k__BackingField)) bool _IsInitialized_k__BackingField;
 
   /// @brief Field _colorLutHandle, offset 0x20, size 0x8
-  __declspec(property(get = __get__colorLutHandle, put = __set__colorLutHandle)) uint64_t _colorLutHandle;
+  __declspec(property(get = __cordl_internal_get__colorLutHandle, put = __cordl_internal_set__colorLutHandle)) uint64_t _colorLutHandle;
 
   /// @brief Field _allocHandle, offset 0x28, size 0x8
-  __declspec(property(get = __get__allocHandle, put = __set__allocHandle))::System::Runtime::InteropServices::GCHandle _allocHandle;
+  __declspec(property(get = __cordl_internal_get__allocHandle, put = __cordl_internal_set__allocHandle))::System::Runtime::InteropServices::GCHandle _allocHandle;
 
   /// @brief Field _lutData, offset 0x30, size 0x10
-  __declspec(property(get = __get__lutData, put = __set__lutData))::GlobalNamespace::__OVRPlugin__PassthroughColorLutData _lutData;
+  __declspec(property(get = __cordl_internal_get__lutData, put = __cordl_internal_set__lutData))::GlobalNamespace::__OVRPlugin__PassthroughColorLutData _lutData;
 
   /// @brief Field _channelCount, offset 0x40, size 0x4
-  __declspec(property(get = __get__channelCount, put = __set__channelCount)) int32_t _channelCount;
+  __declspec(property(get = __cordl_internal_get__channelCount, put = __cordl_internal_set__channelCount)) int32_t _channelCount;
 
   /// @brief Field _colorBytes, offset 0x48, size 0x8
-  __declspec(property(get = __get__colorBytes, put = __set__colorBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> _colorBytes;
+  __declspec(property(get = __cordl_internal_get__colorBytes, put = __cordl_internal_set__colorBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> _colorBytes;
 
   /// @brief Field _locker, offset 0x50, size 0x8
-  __declspec(property(get = __get__locker, put = __set__locker))::System::Object* _locker;
+  __declspec(property(get = __cordl_internal_get__locker, put = __cordl_internal_set__locker))::System::Object* _locker;
 
   __declspec(property(get = get_Resolution, put = set_Resolution)) uint32_t Resolution;
 
@@ -429,59 +430,59 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr uint32_t& __get__Resolution_k__BackingField();
+  constexpr uint32_t& __cordl_internal_get__Resolution_k__BackingField();
 
-  constexpr uint32_t const& __get__Resolution_k__BackingField() const;
+  constexpr uint32_t const& __cordl_internal_get__Resolution_k__BackingField() const;
 
-  constexpr void __set__Resolution_k__BackingField(uint32_t value);
+  constexpr void __cordl_internal_set__Resolution_k__BackingField(uint32_t value);
 
-  constexpr ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels& __get__Channels_k__BackingField();
+  constexpr ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels& __cordl_internal_get__Channels_k__BackingField();
 
-  constexpr ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels const& __get__Channels_k__BackingField() const;
+  constexpr ::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels const& __cordl_internal_get__Channels_k__BackingField() const;
 
-  constexpr void __set__Channels_k__BackingField(::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels value);
+  constexpr void __cordl_internal_set__Channels_k__BackingField(::GlobalNamespace::__OVRPassthroughColorLut__ColorChannels value);
 
-  constexpr bool& __get__IsInitialized_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsInitialized_k__BackingField();
 
-  constexpr bool const& __get__IsInitialized_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsInitialized_k__BackingField() const;
 
-  constexpr void __set__IsInitialized_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsInitialized_k__BackingField(bool value);
 
-  constexpr uint64_t& __get__colorLutHandle();
+  constexpr uint64_t& __cordl_internal_get__colorLutHandle();
 
-  constexpr uint64_t const& __get__colorLutHandle() const;
+  constexpr uint64_t const& __cordl_internal_get__colorLutHandle() const;
 
-  constexpr void __set__colorLutHandle(uint64_t value);
+  constexpr void __cordl_internal_set__colorLutHandle(uint64_t value);
 
-  constexpr ::System::Runtime::InteropServices::GCHandle& __get__allocHandle();
+  constexpr ::System::Runtime::InteropServices::GCHandle& __cordl_internal_get__allocHandle();
 
-  constexpr ::System::Runtime::InteropServices::GCHandle const& __get__allocHandle() const;
+  constexpr ::System::Runtime::InteropServices::GCHandle const& __cordl_internal_get__allocHandle() const;
 
-  constexpr void __set__allocHandle(::System::Runtime::InteropServices::GCHandle value);
+  constexpr void __cordl_internal_set__allocHandle(::System::Runtime::InteropServices::GCHandle value);
 
-  constexpr ::GlobalNamespace::__OVRPlugin__PassthroughColorLutData& __get__lutData();
+  constexpr ::GlobalNamespace::__OVRPlugin__PassthroughColorLutData& __cordl_internal_get__lutData();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__PassthroughColorLutData const& __get__lutData() const;
+  constexpr ::GlobalNamespace::__OVRPlugin__PassthroughColorLutData const& __cordl_internal_get__lutData() const;
 
-  constexpr void __set__lutData(::GlobalNamespace::__OVRPlugin__PassthroughColorLutData value);
+  constexpr void __cordl_internal_set__lutData(::GlobalNamespace::__OVRPlugin__PassthroughColorLutData value);
 
-  constexpr int32_t& __get__channelCount();
+  constexpr int32_t& __cordl_internal_get__channelCount();
 
-  constexpr int32_t const& __get__channelCount() const;
+  constexpr int32_t const& __cordl_internal_get__channelCount() const;
 
-  constexpr void __set__channelCount(int32_t value);
+  constexpr void __cordl_internal_set__channelCount(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__colorBytes();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__colorBytes();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__colorBytes() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__colorBytes() const;
 
-  constexpr void __set__colorBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__colorBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Object*& __get__locker();
+  constexpr ::System::Object*& __cordl_internal_get__locker();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__locker() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__locker() const;
 
-  constexpr void __set__locker(::System::Object* value);
+  constexpr void __cordl_internal_set__locker(::System::Object* value);
 
   /// @brief Method get_Resolution, addr 0x27c5b6c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_Resolution();

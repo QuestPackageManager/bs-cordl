@@ -18,33 +18,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::CertStatus);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1709))
 // CS Name: ::Org.BouncyCastle.Pkix::CertStatus*
 class CORDL_TYPE CertStatus : public ::System::Object {
 public:
   // Declarations
   /// @brief Field status, offset 0x10, size 0x4
-  __declspec(property(get = __get_status, put = __set_status)) int32_t status;
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status)) int32_t status;
 
   /// @brief Field revocationDate, offset 0x18, size 0x8
-  __declspec(property(get = __get_revocationDate, put = __set_revocationDate))::Org::BouncyCastle::Utilities::Date::DateTimeObject* revocationDate;
+  __declspec(property(get = __cordl_internal_get_revocationDate, put = __cordl_internal_set_revocationDate))::Org::BouncyCastle::Utilities::Date::DateTimeObject* revocationDate;
 
   __declspec(property(get = get_RevocationDate, put = set_RevocationDate))::Org::BouncyCastle::Utilities::Date::DateTimeObject* RevocationDate;
 
   __declspec(property(get = get_Status, put = set_Status)) int32_t Status;
 
-  constexpr int32_t& __get_status();
+  constexpr int32_t& __cordl_internal_get_status();
 
-  constexpr int32_t const& __get_status() const;
+  constexpr int32_t const& __cordl_internal_get_status() const;
 
-  constexpr void __set_status(int32_t value);
+  constexpr void __cordl_internal_set_status(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject*& __get_revocationDate();
+  constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject*& __cordl_internal_get_revocationDate();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Date::DateTimeObject*> const& __get_revocationDate() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Date::DateTimeObject*> const& __cordl_internal_get_revocationDate() const;
 
-  constexpr void __set_revocationDate(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
+  constexpr void __cordl_internal_set_revocationDate(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
   /// @brief Method get_RevocationDate, addr 0x10e8730, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_RevocationDate();

@@ -82,7 +82,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12259))
 // CS Name: ::ElementSelection::<>c*
 class CORDL_TYPE __ElementSelection____c : public ::System::Object {
@@ -285,20 +285,20 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12260))
 // CS Name: ::ElementSelection::<>c__DisplayClass25_0*
 class CORDL_TYPE __ElementSelection____c__DisplayClass25_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field face, offset 0x10, size 0x8
-  __declspec(property(get = __get_face, put = __set_face))::UnityEngine::ProBuilder::Face* face;
+  __declspec(property(get = __cordl_internal_get_face, put = __cordl_internal_set_face))::UnityEngine::ProBuilder::Face* face;
 
-  constexpr ::UnityEngine::ProBuilder::Face*& __get_face();
+  constexpr ::UnityEngine::ProBuilder::Face*& __cordl_internal_get_face();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const& __get_face() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const& __cordl_internal_get_face() const;
 
-  constexpr void __set_face(::UnityEngine::ProBuilder::Face* value);
+  constexpr void __cordl_internal_set_face(::UnityEngine::ProBuilder::Face* value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass25_0* New_ctor();
 
@@ -337,38 +337,38 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__ElementSelec
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12261))
 // CS Name: ::ElementSelection::<>c__DisplayClass27_0*
 class CORDL_TYPE __ElementSelection____c__DisplayClass27_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field common, offset 0x10, size 0x8
-  __declspec(property(get = __get_common, put = __set_common))::System::Collections::Generic::HashSet_1<int32_t>* common;
+  __declspec(property(get = __cordl_internal_get_common, put = __cordl_internal_set_common))::System::Collections::Generic::HashSet_1<int32_t>* common;
 
   /// @brief Field <>9__1, offset 0x18, size 0x8
-  __declspec(property(get = __get___9__1, put = __set___9__1))::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* __9__1;
+  __declspec(property(get = __cordl_internal_get___9__1, put = __cordl_internal_set___9__1))::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* __9__1;
 
   /// @brief Field <>9__2, offset 0x20, size 0x8
-  __declspec(property(get = __get___9__2, put = __set___9__2))::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* __9__2;
+  __declspec(property(get = __cordl_internal_get___9__2, put = __cordl_internal_set___9__2))::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* __9__2;
 
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __get_common();
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_common();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __get_common() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_common() const;
 
-  constexpr void __set_common(::System::Collections::Generic::HashSet_1<int32_t>* value);
+  constexpr void __cordl_internal_set_common(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
-  constexpr ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*& __get___9__1();
+  constexpr ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*& __cordl_internal_get___9__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*> const& __get___9__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*> const& __cordl_internal_get___9__1() const;
 
-  constexpr void __set___9__1(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* value);
+  constexpr void __cordl_internal_set___9__1(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* value);
 
-  constexpr ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*& __get___9__2();
+  constexpr ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*& __cordl_internal_get___9__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*> const& __get___9__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>*> const& __cordl_internal_get___9__2() const;
 
-  constexpr void __set___9__2(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* value);
+  constexpr void __cordl_internal_set___9__2(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, bool>* value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__ElementSelection____c__DisplayClass27_0* New_ctor();
 
@@ -420,7 +420,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__ElementSelec
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12262))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::ElementSelection*
 class CORDL_TYPE ElementSelection : public ::System::Object {

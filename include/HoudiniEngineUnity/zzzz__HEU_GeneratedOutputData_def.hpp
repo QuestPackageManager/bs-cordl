@@ -30,20 +30,21 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_GeneratedOutputData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9628))
 // CS Name: ::HoudiniEngineUnity::HEU_GeneratedOutputData*
 class CORDL_TYPE HEU_GeneratedOutputData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _gameObject, offset 0x10, size 0x8
-  __declspec(property(get = __get__gameObject, put = __set__gameObject))::UnityEngine::GameObject* _gameObject;
+  __declspec(property(get = __cordl_internal_get__gameObject, put = __cordl_internal_set__gameObject))::UnityW<::UnityEngine::GameObject> _gameObject;
 
   /// @brief Field _renderMaterials, offset 0x18, size 0x8
-  __declspec(property(get = __get__renderMaterials, put = __set__renderMaterials))::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> _renderMaterials;
+  __declspec(property(get = __cordl_internal_get__renderMaterials,
+                      put = __cordl_internal_set__renderMaterials))::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> _renderMaterials;
 
   /// @brief Field _colliders, offset 0x20, size 0x8
-  __declspec(property(get = __get__colliders, put = __set__colliders))::System::Collections::Generic::List_1<::UnityEngine::Collider*>* _colliders;
+  __declspec(property(get = __cordl_internal_get__colliders, put = __cordl_internal_set__colliders))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* _colliders;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>*() noexcept;
@@ -51,23 +52,23 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_GeneratedOutputData*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_GeneratedOutputData__() noexcept;
 
-  constexpr ::UnityEngine::GameObject*& __get__gameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__gameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__gameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__gameObject() const;
 
-  constexpr void __set__gameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__gameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>& __get__renderMaterials();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>& __cordl_internal_get__renderMaterials();
 
-  constexpr ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> const& __get__renderMaterials() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> const& __cordl_internal_get__renderMaterials() const;
 
-  constexpr void __set__renderMaterials(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> value);
+  constexpr void __cordl_internal_set__renderMaterials(::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Collider*>*& __get__colliders();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>*& __cordl_internal_get__colliders();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Collider*>*> const& __get__colliders() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>*> const& __cordl_internal_get__colliders() const;
 
-  constexpr void __set__colliders(::System::Collections::Generic::List_1<::UnityEngine::Collider*>* value);
+  constexpr void __cordl_internal_set__colliders(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* value);
 
   /// @brief Method IsEquivalentTo, addr 0x2157164, size 0x1ec, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_GeneratedOutputData* other);
@@ -92,13 +93,13 @@ protected:
 
 public:
   /// @brief Field _gameObject, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____gameObject;
+  ::UnityW<::UnityEngine::GameObject> ____gameObject;
 
   /// @brief Field _renderMaterials, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> ____renderMaterials;
+  ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> ____renderMaterials;
 
   /// @brief Field _colliders, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Collider*>* ____colliders;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Collider>>* ____colliders;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

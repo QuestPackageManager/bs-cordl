@@ -19,8 +19,8 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithAssetFileDownloadUpdate);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 970 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13422))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13280)) CS Name: ::Oculus.Platform::MessageWithAssetFileDownloadUpdate*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13422)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst:
+// 970 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13280)) CS Name: ::Oculus.Platform::MessageWithAssetFileDownloadUpdate*
 class CORDL_TYPE MessageWithAssetFileDownloadUpdate : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadUpdate*> {
 public:
   // Declarations

@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::BufferUtils);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11888))
 // CS Name: ::Newtonsoft.Json.Utilities::BufferUtils*
 class CORDL_TYPE BufferUtils : public ::System::Object {

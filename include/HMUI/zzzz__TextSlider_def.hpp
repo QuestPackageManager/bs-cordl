@@ -57,51 +57,52 @@ MARK_REF_PTR_T(::HMUI::TextSlider);
 // SizeInfo { instance_size: 320, native_size: -1, calculated_instance_size: 320, calculated_native_size: 313, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13119))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13119))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13560))
 // CS Name: ::HMUI::TextSlider*
 class CORDL_TYPE TextSlider : public ::UnityEngine::UI::Selectable {
 public:
   // Declarations
   /// @brief Field _valueText, offset 0xf8, size 0x8
-  __declspec(property(get = __get__valueText, put = __set__valueText))::TMPro::TextMeshProUGUI* _valueText;
+  __declspec(property(get = __cordl_internal_get__valueText, put = __cordl_internal_set__valueText))::UnityW<::TMPro::TextMeshProUGUI> _valueText;
 
   /// @brief Field _handleRect, offset 0x100, size 0x8
-  __declspec(property(get = __get__handleRect, put = __set__handleRect))::UnityEngine::RectTransform* _handleRect;
+  __declspec(property(get = __cordl_internal_get__handleRect, put = __cordl_internal_set__handleRect))::UnityW<::UnityEngine::RectTransform> _handleRect;
 
   /// @brief Field _enableDragging, offset 0x108, size 0x1
-  __declspec(property(get = __get__enableDragging, put = __set__enableDragging)) bool _enableDragging;
+  __declspec(property(get = __cordl_internal_get__enableDragging, put = __cordl_internal_set__enableDragging)) bool _enableDragging;
 
   /// @brief Field _handleSize, offset 0x10c, size 0x4
-  __declspec(property(get = __get__handleSize, put = __set__handleSize)) float_t _handleSize;
+  __declspec(property(get = __cordl_internal_get__handleSize, put = __cordl_internal_set__handleSize)) float_t _handleSize;
 
   /// @brief Field _valueSize, offset 0x110, size 0x4
-  __declspec(property(get = __get__valueSize, put = __set__valueSize)) float_t _valueSize;
+  __declspec(property(get = __cordl_internal_get__valueSize, put = __cordl_internal_set__valueSize)) float_t _valueSize;
 
   /// @brief Field _separatorSize, offset 0x114, size 0x4
-  __declspec(property(get = __get__separatorSize, put = __set__separatorSize)) float_t _separatorSize;
+  __declspec(property(get = __cordl_internal_get__separatorSize, put = __cordl_internal_set__separatorSize)) float_t _separatorSize;
 
   /// @brief Field _numberOfSteps, offset 0x118, size 0x4
-  __declspec(property(get = __get__numberOfSteps, put = __set__numberOfSteps)) int32_t _numberOfSteps;
+  __declspec(property(get = __cordl_internal_get__numberOfSteps, put = __cordl_internal_set__numberOfSteps)) int32_t _numberOfSteps;
 
   /// @brief Field _normalizedValue, offset 0x11c, size 0x4
-  __declspec(property(get = __get__normalizedValue, put = __set__normalizedValue)) float_t _normalizedValue;
+  __declspec(property(get = __cordl_internal_get__normalizedValue, put = __cordl_internal_set__normalizedValue)) float_t _normalizedValue;
 
   /// @brief Field normalizedValueDidChangeEvent, offset 0x120, size 0x8
-  __declspec(property(get = __get_normalizedValueDidChangeEvent, put = __set_normalizedValueDidChangeEvent))::System::Action_2<::HMUI::TextSlider*, float_t>* normalizedValueDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_normalizedValueDidChangeEvent,
+                      put = __cordl_internal_set_normalizedValueDidChangeEvent))::System::Action_2<::UnityW<::HMUI::TextSlider>, float_t>* normalizedValueDidChangeEvent;
 
   /// @brief Field _containerRect, offset 0x128, size 0x8
-  __declspec(property(get = __get__containerRect, put = __set__containerRect))::UnityEngine::RectTransform* _containerRect;
+  __declspec(property(get = __cordl_internal_get__containerRect, put = __cordl_internal_set__containerRect))::UnityW<::UnityEngine::RectTransform> _containerRect;
 
   /// @brief Field _handleGraphic, offset 0x130, size 0x8
-  __declspec(property(get = __get__handleGraphic, put = __set__handleGraphic))::UnityEngine::UI::Graphic* _handleGraphic;
+  __declspec(property(get = __cordl_internal_get__handleGraphic, put = __cordl_internal_set__handleGraphic))::UnityW<::UnityEngine::UI::Graphic> _handleGraphic;
 
   /// @brief Field _tracker, offset 0x138, size 0x1
-  __declspec(property(get = __get__tracker, put = __set__tracker))::UnityEngine::DrivenRectTransformTracker _tracker;
+  __declspec(property(get = __cordl_internal_get__tracker, put = __cordl_internal_set__tracker))::UnityEngine::DrivenRectTransformTracker _tracker;
 
   __declspec(property(put = set_valueTextColor))::UnityEngine::Color valueTextColor;
 
-  __declspec(property(get = get_handleRect, put = set_handleRect))::UnityEngine::RectTransform* handleRect;
+  __declspec(property(get = get_handleRect, put = set_handleRect))::UnityW<::UnityEngine::RectTransform> handleRect;
 
   __declspec(property(put = set_handleColor))::UnityEngine::Color handleColor;
 
@@ -145,83 +146,83 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
   constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__valueText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__valueText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__valueText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__valueText() const;
 
-  constexpr void __set__valueText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__valueText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__handleRect();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__handleRect();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__handleRect() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__handleRect() const;
 
-  constexpr void __set__handleRect(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__handleRect(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr bool& __get__enableDragging();
+  constexpr bool& __cordl_internal_get__enableDragging();
 
-  constexpr bool const& __get__enableDragging() const;
+  constexpr bool const& __cordl_internal_get__enableDragging() const;
 
-  constexpr void __set__enableDragging(bool value);
+  constexpr void __cordl_internal_set__enableDragging(bool value);
 
-  constexpr float_t& __get__handleSize();
+  constexpr float_t& __cordl_internal_get__handleSize();
 
-  constexpr float_t const& __get__handleSize() const;
+  constexpr float_t const& __cordl_internal_get__handleSize() const;
 
-  constexpr void __set__handleSize(float_t value);
+  constexpr void __cordl_internal_set__handleSize(float_t value);
 
-  constexpr float_t& __get__valueSize();
+  constexpr float_t& __cordl_internal_get__valueSize();
 
-  constexpr float_t const& __get__valueSize() const;
+  constexpr float_t const& __cordl_internal_get__valueSize() const;
 
-  constexpr void __set__valueSize(float_t value);
+  constexpr void __cordl_internal_set__valueSize(float_t value);
 
-  constexpr float_t& __get__separatorSize();
+  constexpr float_t& __cordl_internal_get__separatorSize();
 
-  constexpr float_t const& __get__separatorSize() const;
+  constexpr float_t const& __cordl_internal_get__separatorSize() const;
 
-  constexpr void __set__separatorSize(float_t value);
+  constexpr void __cordl_internal_set__separatorSize(float_t value);
 
-  constexpr int32_t& __get__numberOfSteps();
+  constexpr int32_t& __cordl_internal_get__numberOfSteps();
 
-  constexpr int32_t const& __get__numberOfSteps() const;
+  constexpr int32_t const& __cordl_internal_get__numberOfSteps() const;
 
-  constexpr void __set__numberOfSteps(int32_t value);
+  constexpr void __cordl_internal_set__numberOfSteps(int32_t value);
 
-  constexpr float_t& __get__normalizedValue();
+  constexpr float_t& __cordl_internal_get__normalizedValue();
 
-  constexpr float_t const& __get__normalizedValue() const;
+  constexpr float_t const& __cordl_internal_get__normalizedValue() const;
 
-  constexpr void __set__normalizedValue(float_t value);
+  constexpr void __cordl_internal_set__normalizedValue(float_t value);
 
-  constexpr ::System::Action_2<::HMUI::TextSlider*, float_t>*& __get_normalizedValueDidChangeEvent();
+  constexpr ::System::Action_2<::UnityW<::HMUI::TextSlider>, float_t>*& __cordl_internal_get_normalizedValueDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::HMUI::TextSlider*, float_t>*> const& __get_normalizedValueDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::HMUI::TextSlider>, float_t>*> const& __cordl_internal_get_normalizedValueDidChangeEvent() const;
 
-  constexpr void __set_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::TextSlider*, float_t>* value);
+  constexpr void __cordl_internal_set_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::TextSlider>, float_t>* value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__containerRect();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__containerRect();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__containerRect() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__containerRect() const;
 
-  constexpr void __set__containerRect(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__containerRect(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::UI::Graphic*& __get__handleGraphic();
+  constexpr ::UnityW<::UnityEngine::UI::Graphic>& __cordl_internal_get__handleGraphic();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Graphic*> const& __get__handleGraphic() const;
+  constexpr ::UnityW<::UnityEngine::UI::Graphic> const& __cordl_internal_get__handleGraphic() const;
 
-  constexpr void __set__handleGraphic(::UnityEngine::UI::Graphic* value);
+  constexpr void __cordl_internal_set__handleGraphic(::UnityW<::UnityEngine::UI::Graphic> value);
 
-  constexpr ::UnityEngine::DrivenRectTransformTracker& __get__tracker();
+  constexpr ::UnityEngine::DrivenRectTransformTracker& __cordl_internal_get__tracker();
 
-  constexpr ::UnityEngine::DrivenRectTransformTracker const& __get__tracker() const;
+  constexpr ::UnityEngine::DrivenRectTransformTracker const& __cordl_internal_get__tracker() const;
 
-  constexpr void __set__tracker(::UnityEngine::DrivenRectTransformTracker value);
+  constexpr void __cordl_internal_set__tracker(::UnityEngine::DrivenRectTransformTracker value);
 
   /// @brief Method set_valueTextColor, addr 0x2122024, size 0x24, virtual false, abstract: false, final false
   inline void set_valueTextColor(::UnityEngine::Color value);
 
   /// @brief Method get_handleRect, addr 0x2123790, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::RectTransform* get_handleRect();
+  inline ::UnityW<::UnityEngine::RectTransform> get_handleRect();
 
   /// @brief Method set_handleRect, addr 0x2123798, size 0x88, virtual false, abstract: false, final false
   inline void set_handleRect(::UnityEngine::RectTransform* value);
@@ -260,10 +261,10 @@ public:
   inline void set_normalizedValue(float_t value);
 
   /// @brief Method add_normalizedValueDidChangeEvent, addr 0x21216f0, size 0xb4, virtual false, abstract: false, final false
-  inline void add_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::TextSlider*, float_t>* value);
+  inline void add_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::TextSlider>, float_t>* value);
 
   /// @brief Method remove_normalizedValueDidChangeEvent, addr 0x2121830, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_normalizedValueDidChangeEvent(::System::Action_2<::HMUI::TextSlider*, float_t>* value);
+  inline void remove_normalizedValueDidChangeEvent(::System::Action_2<::UnityW<::HMUI::TextSlider>, float_t>* value);
 
   /// @brief Method Rebuild, addr 0x2123b8c, size 0x4, virtual true, abstract: false, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
@@ -322,7 +323,7 @@ public:
   inline void _ctor();
 
   /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x2124178, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
+  inline ::UnityW<::UnityEngine::Transform> UnityEngine_UI_ICanvasElement_get_transform();
 
   // Ctor Parameters [CppParam { name: "", ty: "TextSlider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -339,10 +340,10 @@ protected:
 
 public:
   /// @brief Field _valueText, offset: 0xf8, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____valueText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____valueText;
 
   /// @brief Field _handleRect, offset: 0x100, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____handleRect;
+  ::UnityW<::UnityEngine::RectTransform> ____handleRect;
 
   /// @brief Field _enableDragging, offset: 0x108, size: 0x1, def value: None
   bool ____enableDragging;
@@ -363,13 +364,13 @@ public:
   float_t ____normalizedValue;
 
   /// @brief Field normalizedValueDidChangeEvent, offset: 0x120, size: 0x8, def value: None
-  ::System::Action_2<::HMUI::TextSlider*, float_t>* ___normalizedValueDidChangeEvent;
+  ::System::Action_2<::UnityW<::HMUI::TextSlider>, float_t>* ___normalizedValueDidChangeEvent;
 
   /// @brief Field _containerRect, offset: 0x128, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____containerRect;
+  ::UnityW<::UnityEngine::RectTransform> ____containerRect;
 
   /// @brief Field _handleGraphic, offset: 0x130, size: 0x8, def value: None
-  ::UnityEngine::UI::Graphic* ____handleGraphic;
+  ::UnityW<::UnityEngine::UI::Graphic> ____handleGraphic;
 
   /// @brief Field _tracker, offset: 0x138, size: 0x1, def value: None
   ::UnityEngine::DrivenRectTransformTracker ____tracker;

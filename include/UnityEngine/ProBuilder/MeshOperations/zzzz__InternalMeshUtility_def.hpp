@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12265))
 // CS Name: ::InternalMeshUtility::<>c*
 class CORDL_TYPE __InternalMeshUtility____c : public ::System::Object {
@@ -60,22 +60,28 @@ public:
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c* __9;
 
   /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0))::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* __9__1_0;
+  static __declspec(property(get = getStaticF___9__1_0,
+                             put = setStaticF___9__1_0))::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* __9__1_0;
 
   /// @brief Field <>9__1_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_1, put = setStaticF___9__1_1))::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* __9__1_1;
+  static __declspec(property(get = getStaticF___9__1_1,
+                             put = setStaticF___9__1_1))::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* __9__1_1;
 
   /// @brief Field <>9__1_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_2, put = setStaticF___9__1_2))::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* __9__1_2;
+  static __declspec(property(get = getStaticF___9__1_2,
+                             put = setStaticF___9__1_2))::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* __9__1_2;
 
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* __9__2_0;
+  static __declspec(property(get = getStaticF___9__2_0,
+                             put = setStaticF___9__2_0))::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* __9__2_0;
 
   /// @brief Field <>9__2_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__2_1, put = setStaticF___9__2_1))::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* __9__2_1;
+  static __declspec(property(get = getStaticF___9__2_1,
+                             put = setStaticF___9__2_1))::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* __9__2_1;
 
   /// @brief Field <>9__2_2, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__2_2, put = setStaticF___9__2_2))::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* __9__2_2;
+  static __declspec(property(get = getStaticF___9__2_2,
+                             put = setStaticF___9__2_2))::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* __9__2_2;
 
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::System::Func_2<bool, bool>* __9__3_0;
@@ -84,29 +90,29 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__InternalMeshUtility____c* getStaticF___9();
 
-  static inline void setStaticF___9__1_0(::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* value);
+  static inline void setStaticF___9__1_0(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* value);
 
-  static inline ::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* getStaticF___9__1_0();
+  static inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* getStaticF___9__1_0();
 
-  static inline void setStaticF___9__1_1(::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* value);
+  static inline void setStaticF___9__1_1(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* value);
 
-  static inline ::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* getStaticF___9__1_1();
+  static inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* getStaticF___9__1_1();
 
-  static inline void setStaticF___9__1_2(::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* value);
+  static inline void setStaticF___9__1_2(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* value);
 
-  static inline ::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* getStaticF___9__1_2();
+  static inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* getStaticF___9__1_2();
 
-  static inline void setStaticF___9__2_0(::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* value);
+  static inline void setStaticF___9__2_0(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* value);
 
-  static inline ::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* getStaticF___9__2_0();
+  static inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>* getStaticF___9__2_0();
 
-  static inline void setStaticF___9__2_1(::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* value);
+  static inline void setStaticF___9__2_1(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* value);
 
-  static inline ::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* getStaticF___9__2_1();
+  static inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>>* getStaticF___9__2_1();
 
-  static inline void setStaticF___9__2_2(::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* value);
+  static inline void setStaticF___9__2_2(::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* value);
 
-  static inline ::System::Func_2<::UnityEngine::Mesh*, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* getStaticF___9__2_2();
+  static inline ::System::Func_2<::UnityW<::UnityEngine::Mesh>, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>>* getStaticF___9__2_2();
 
   static inline void setStaticF___9__3_0(::System::Func_2<bool, bool>* value);
 
@@ -162,7 +168,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12266))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::InternalMeshUtility*
 class CORDL_TYPE InternalMeshUtility : public ::System::Object {
@@ -175,7 +181,7 @@ public:
                                                                 ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* norm);
 
   /// @brief Method CreateMeshWithTransform, addr 0x2bb5bb0, size 0x10fc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::ProBuilderMesh* CreateMeshWithTransform(::UnityEngine::Transform* t, bool preserveFaces);
+  static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> CreateMeshWithTransform(::UnityEngine::Transform* t, bool preserveFaces);
 
   /// @brief Method ResetPbObjectWithMeshFilter, addr 0x2bb6fa4, size 0x11d8, virtual false, abstract: false, final false
   static inline bool ResetPbObjectWithMeshFilter(::UnityEngine::ProBuilder::ProBuilderMesh* pb, bool preserveFaces);

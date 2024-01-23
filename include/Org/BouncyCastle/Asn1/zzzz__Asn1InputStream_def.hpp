@@ -34,31 +34,32 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1InputStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(452))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(452))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(453))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1InputStream*
 class CORDL_TYPE Asn1InputStream : public ::Org::BouncyCastle::Utilities::IO::FilterStream {
 public:
   // Declarations
   /// @brief Field limit, offset 0x30, size 0x4
-  __declspec(property(get = __get_limit, put = __set_limit)) int32_t limit;
+  __declspec(property(get = __cordl_internal_get_limit, put = __cordl_internal_set_limit)) int32_t limit;
 
   /// @brief Field tmpBuffers, offset 0x38, size 0x8
-  __declspec(property(get = __get_tmpBuffers, put = __set_tmpBuffers))::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> tmpBuffers;
+  __declspec(property(get = __cordl_internal_get_tmpBuffers,
+                      put = __cordl_internal_set_tmpBuffers))::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> tmpBuffers;
 
   __declspec(property(get = get_Limit)) int32_t Limit;
 
-  constexpr int32_t& __get_limit();
+  constexpr int32_t& __cordl_internal_get_limit();
 
-  constexpr int32_t const& __get_limit() const;
+  constexpr int32_t const& __cordl_internal_get_limit() const;
 
-  constexpr void __set_limit(int32_t value);
+  constexpr void __cordl_internal_set_limit(int32_t value);
 
-  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*>& __get_tmpBuffers();
+  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*>& __cordl_internal_get_tmpBuffers();
 
-  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __get_tmpBuffers() const;
+  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __cordl_internal_get_tmpBuffers() const;
 
-  constexpr void __set_tmpBuffers(::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> value);
+  constexpr void __cordl_internal_set_tmpBuffers(::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> value);
 
   /// @brief Method FindLimit, addr 0x11b403c, size 0x134, virtual false, abstract: false, final false
   static inline int32_t FindLimit(::System::IO::Stream* input);

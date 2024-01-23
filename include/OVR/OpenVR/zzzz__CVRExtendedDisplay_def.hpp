@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRExtendedDisplay);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8268)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8268))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8559))
 // CS Name: ::OVR.OpenVR::CVRExtendedDisplay*
 class CORDL_TYPE CVRExtendedDisplay : public ::System::Object {
 public:
   // Declarations
   /// @brief Field FnTable, offset 0x10, size 0x18
-  __declspec(property(get = __get_FnTable, put = __set_FnTable))::OVR::OpenVR::IVRExtendedDisplay FnTable;
+  __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRExtendedDisplay FnTable;
 
-  constexpr ::OVR::OpenVR::IVRExtendedDisplay& __get_FnTable();
+  constexpr ::OVR::OpenVR::IVRExtendedDisplay& __cordl_internal_get_FnTable();
 
-  constexpr ::OVR::OpenVR::IVRExtendedDisplay const& __get_FnTable() const;
+  constexpr ::OVR::OpenVR::IVRExtendedDisplay const& __cordl_internal_get_FnTable() const;
 
-  constexpr void __set_FnTable(::OVR::OpenVR::IVRExtendedDisplay value);
+  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRExtendedDisplay value);
 
   static inline ::OVR::OpenVR::CVRExtendedDisplay* New_ctor(void* pInterface);
 

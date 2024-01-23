@@ -17,29 +17,29 @@ MARK_REF_PTR_T(::GlobalNamespace::FakeMirrorSettings);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15286))
 // CS Name: ::FakeMirrorSettings*
 class CORDL_TYPE FakeMirrorSettings : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _fakeMirrorTransparency, offset 0x18, size 0x4
-  __declspec(property(get = __get__fakeMirrorTransparency, put = __set__fakeMirrorTransparency)) float_t _fakeMirrorTransparency;
+  __declspec(property(get = __cordl_internal_get__fakeMirrorTransparency, put = __cordl_internal_set__fakeMirrorTransparency)) float_t _fakeMirrorTransparency;
 
   /// @brief Field _useVertexDistortion, offset 0x1c, size 0x1
-  __declspec(property(get = __get__useVertexDistortion, put = __set__useVertexDistortion)) bool _useVertexDistortion;
+  __declspec(property(get = __cordl_internal_get__useVertexDistortion, put = __cordl_internal_set__useVertexDistortion)) bool _useVertexDistortion;
 
   /// @brief Field _vertexDistortionNoiseScale, offset 0x20, size 0x4
-  __declspec(property(get = __get__vertexDistortionNoiseScale, put = __set__vertexDistortionNoiseScale)) float_t _vertexDistortionNoiseScale;
+  __declspec(property(get = __cordl_internal_get__vertexDistortionNoiseScale, put = __cordl_internal_set__vertexDistortionNoiseScale)) float_t _vertexDistortionNoiseScale;
 
   /// @brief Field _vertexDistortionStrength, offset 0x24, size 0x4
-  __declspec(property(get = __get__vertexDistortionStrength, put = __set__vertexDistortionStrength)) float_t _vertexDistortionStrength;
+  __declspec(property(get = __cordl_internal_get__vertexDistortionStrength, put = __cordl_internal_set__vertexDistortionStrength)) float_t _vertexDistortionStrength;
 
   /// @brief Field _vertexDistortionDirectionality, offset 0x28, size 0xc
-  __declspec(property(get = __get__vertexDistortionDirectionality, put = __set__vertexDistortionDirectionality))::UnityEngine::Vector3 _vertexDistortionDirectionality;
+  __declspec(property(get = __cordl_internal_get__vertexDistortionDirectionality, put = __cordl_internal_set__vertexDistortionDirectionality))::UnityEngine::Vector3 _vertexDistortionDirectionality;
 
   /// @brief Field _vertexDistortionZposMultiplier, offset 0x34, size 0x4
-  __declspec(property(get = __get__vertexDistortionZposMultiplier, put = __set__vertexDistortionZposMultiplier)) float_t _vertexDistortionZposMultiplier;
+  __declspec(property(get = __cordl_internal_get__vertexDistortionZposMultiplier, put = __cordl_internal_set__vertexDistortionZposMultiplier)) float_t _vertexDistortionZposMultiplier;
 
   /// @brief Field _fakeMirrorTransparencyId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__fakeMirrorTransparencyId, put = setStaticF__fakeMirrorTransparencyId)) int32_t _fakeMirrorTransparencyId;
@@ -58,41 +58,41 @@ public:
 
   __declspec(property(get = get_fakeMirrorTransparency, put = set_fakeMirrorTransparency)) float_t fakeMirrorTransparency;
 
-  constexpr float_t& __get__fakeMirrorTransparency();
+  constexpr float_t& __cordl_internal_get__fakeMirrorTransparency();
 
-  constexpr float_t const& __get__fakeMirrorTransparency() const;
+  constexpr float_t const& __cordl_internal_get__fakeMirrorTransparency() const;
 
-  constexpr void __set__fakeMirrorTransparency(float_t value);
+  constexpr void __cordl_internal_set__fakeMirrorTransparency(float_t value);
 
-  constexpr bool& __get__useVertexDistortion();
+  constexpr bool& __cordl_internal_get__useVertexDistortion();
 
-  constexpr bool const& __get__useVertexDistortion() const;
+  constexpr bool const& __cordl_internal_get__useVertexDistortion() const;
 
-  constexpr void __set__useVertexDistortion(bool value);
+  constexpr void __cordl_internal_set__useVertexDistortion(bool value);
 
-  constexpr float_t& __get__vertexDistortionNoiseScale();
+  constexpr float_t& __cordl_internal_get__vertexDistortionNoiseScale();
 
-  constexpr float_t const& __get__vertexDistortionNoiseScale() const;
+  constexpr float_t const& __cordl_internal_get__vertexDistortionNoiseScale() const;
 
-  constexpr void __set__vertexDistortionNoiseScale(float_t value);
+  constexpr void __cordl_internal_set__vertexDistortionNoiseScale(float_t value);
 
-  constexpr float_t& __get__vertexDistortionStrength();
+  constexpr float_t& __cordl_internal_get__vertexDistortionStrength();
 
-  constexpr float_t const& __get__vertexDistortionStrength() const;
+  constexpr float_t const& __cordl_internal_get__vertexDistortionStrength() const;
 
-  constexpr void __set__vertexDistortionStrength(float_t value);
+  constexpr void __cordl_internal_set__vertexDistortionStrength(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get__vertexDistortionDirectionality();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__vertexDistortionDirectionality();
 
-  constexpr ::UnityEngine::Vector3 const& __get__vertexDistortionDirectionality() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__vertexDistortionDirectionality() const;
 
-  constexpr void __set__vertexDistortionDirectionality(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__vertexDistortionDirectionality(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get__vertexDistortionZposMultiplier();
+  constexpr float_t& __cordl_internal_get__vertexDistortionZposMultiplier();
 
-  constexpr float_t const& __get__vertexDistortionZposMultiplier() const;
+  constexpr float_t const& __cordl_internal_get__vertexDistortionZposMultiplier() const;
 
-  constexpr void __set__vertexDistortionZposMultiplier(float_t value);
+  constexpr void __cordl_internal_set__vertexDistortionZposMultiplier(float_t value);
 
   static inline void setStaticF__fakeMirrorTransparencyId(int32_t value);
 

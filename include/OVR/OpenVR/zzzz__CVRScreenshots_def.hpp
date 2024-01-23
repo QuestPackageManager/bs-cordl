@@ -32,20 +32,20 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRScreenshots);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8514)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8514))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8573))
 // CS Name: ::OVR.OpenVR::CVRScreenshots*
 class CORDL_TYPE CVRScreenshots : public ::System::Object {
 public:
   // Declarations
   /// @brief Field FnTable, offset 0x10, size 0x38
-  __declspec(property(get = __get_FnTable, put = __set_FnTable))::OVR::OpenVR::IVRScreenshots FnTable;
+  __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRScreenshots FnTable;
 
-  constexpr ::OVR::OpenVR::IVRScreenshots& __get_FnTable();
+  constexpr ::OVR::OpenVR::IVRScreenshots& __cordl_internal_get_FnTable();
 
-  constexpr ::OVR::OpenVR::IVRScreenshots const& __get_FnTable() const;
+  constexpr ::OVR::OpenVR::IVRScreenshots const& __cordl_internal_get_FnTable() const;
 
-  constexpr void __set_FnTable(::OVR::OpenVR::IVRScreenshots value);
+  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRScreenshots value);
 
   static inline ::OVR::OpenVR::CVRScreenshots* New_ctor(void* pInterface);
 

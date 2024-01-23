@@ -130,7 +130,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__VisualTreeAsset____c__DisplayClass49_0);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7003))
 // CS Name: ::VisualTreeAsset::UsingEntry
 struct CORDL_TYPE __VisualTreeAsset__UsingEntry {
@@ -147,8 +147,8 @@ public:
   inline void _ctor(::StringW alias, ::StringW path);
 
   // Ctor Parameters [CppParam { name: "alias", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "asset",
-  // ty: "::UnityEngine::UIElements::VisualTreeAsset*", modifiers: "", def_value: None }]
-  constexpr __VisualTreeAsset__UsingEntry(::StringW alias, ::StringW path, ::UnityEngine::UIElements::VisualTreeAsset* asset) noexcept;
+  // ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: None }]
+  constexpr __VisualTreeAsset__UsingEntry(::StringW alias, ::StringW path, ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> asset) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -161,7 +161,7 @@ public:
   ::StringW path;
 
   /// @brief Field asset, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualTreeAsset* asset;
+  ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> asset;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -182,7 +182,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry,
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7004))
 // CS Name: ::VisualTreeAsset::UsingEntryComparer*
 class CORDL_TYPE __VisualTreeAsset__UsingEntryComparer : public ::System::Object {
@@ -227,7 +227,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Visua
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7005))
 // CS Name: ::VisualTreeAsset::SlotDefinition
 struct CORDL_TYPE __VisualTreeAsset__SlotDefinition {
@@ -263,7 +263,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualTreeAsset__SlotDefinit
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7006))
 // CS Name: ::VisualTreeAsset::SlotUsageEntry
 struct CORDL_TYPE __VisualTreeAsset__SlotUsageEntry {
@@ -299,47 +299,49 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualTreeAsset__SlotUsageEn
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(7003)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1698 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7007)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(7003)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1698 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7007)) CS Name:
 // ::VisualTreeAsset::<get_templateDependencies>d__17*
 class CORDL_TYPE __VisualTreeAsset___get_templateDependencies_d__17 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::UnityEngine::UIElements::VisualTreeAsset* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityW<::UnityEngine::UIElements::VisualTreeAsset> __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::UIElements::VisualTreeAsset* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::UnityEngine::UIElements::VisualTreeAsset> __4__this;
 
   /// @brief Field <sent>5__1, offset 0x30, size 0x8
-  __declspec(property(get = __get__sent_5__1, put = __set__sent_5__1))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualTreeAsset*>* _sent_5__1;
+  __declspec(property(get = __cordl_internal_get__sent_5__1,
+                      put = __cordl_internal_set__sent_5__1))::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* _sent_5__1;
 
   /// @brief Field <>s__2, offset 0x38, size 0x28
-  __declspec(property(get = __get___s__2, put = __set___s__2))::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry> __s__2;
+  __declspec(property(get = __cordl_internal_get___s__2,
+                      put = __cordl_internal_set___s__2))::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry> __s__2;
 
   /// @brief Field <entry>5__3, offset 0x60, size 0x18
-  __declspec(property(get = __get__entry_5__3, put = __set__entry_5__3))::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry _entry_5__3;
+  __declspec(property(get = __cordl_internal_get__entry_5__3, put = __cordl_internal_set__entry_5__3))::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry _entry_5__3;
 
   /// @brief Field <vta>5__4, offset 0x78, size 0x8
-  __declspec(property(get = __get__vta_5__4, put = __set__vta_5__4))::UnityEngine::UIElements::VisualTreeAsset* _vta_5__4;
+  __declspec(property(get = __cordl_internal_get__vta_5__4, put = __cordl_internal_set__vta_5__4))::UnityW<::UnityEngine::UIElements::VisualTreeAsset> _vta_5__4;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_UIElements_VisualTreeAsset__get_Current))::UnityEngine::UIElements::
-      VisualTreeAsset* System_Collections_Generic_IEnumerator_UnityEngine_UIElements_VisualTreeAsset__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_UIElements_VisualTreeAsset__get_Current))::UnityW<
+      ::UnityEngine::UIElements::VisualTreeAsset> System_Collections_Generic_IEnumerator_UnityEngine_UIElements_VisualTreeAsset__Current;
 
   __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>*
-  i___System__Collections__Generic__IEnumerable_1___UnityEngine__UIElements__VisualTreeAsset__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*
+  i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__UIElements__VisualTreeAsset__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -347,12 +349,12 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>*
-  i___System__Collections__Generic__IEnumerator_1___UnityEngine__UIElements__VisualTreeAsset__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*
+  i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__UIElements__VisualTreeAsset__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
@@ -366,53 +368,53 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::UnityEngine::UIElements::VisualTreeAsset*& __get___2__current();
+  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualTreeAsset*> const& __get___2__current() const;
+  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::UnityEngine::UIElements::VisualTreeAsset* value);
+  constexpr void __cordl_internal_set___2__current(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::UnityEngine::UIElements::VisualTreeAsset*& __get___4__this();
+  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualTreeAsset*> const& __get___4__this() const;
+  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::UIElements::VisualTreeAsset* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualTreeAsset*>*& __get__sent_5__1();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*& __cordl_internal_get__sent_5__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualTreeAsset*>*> const& __get__sent_5__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*> const& __cordl_internal_get__sent_5__1() const;
 
-  constexpr void __set__sent_5__1(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualTreeAsset*>* value);
+  constexpr void __cordl_internal_set__sent_5__1(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* value);
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>& __get___s__2();
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>& __cordl_internal_get___s__2();
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry> const& __get___s__2() const;
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry> const& __cordl_internal_get___s__2() const;
 
-  constexpr void __set___s__2(::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry> value);
+  constexpr void __cordl_internal_set___s__2(::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry> value);
 
-  constexpr ::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry& __get__entry_5__3();
+  constexpr ::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry& __cordl_internal_get__entry_5__3();
 
-  constexpr ::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry const& __get__entry_5__3() const;
+  constexpr ::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry const& __cordl_internal_get__entry_5__3() const;
 
-  constexpr void __set__entry_5__3(::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry value);
+  constexpr void __cordl_internal_set__entry_5__3(::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry value);
 
-  constexpr ::UnityEngine::UIElements::VisualTreeAsset*& __get__vta_5__4();
+  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>& __cordl_internal_get__vta_5__4();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualTreeAsset*> const& __get__vta_5__4() const;
+  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> const& __cordl_internal_get__vta_5__4() const;
 
-  constexpr void __set__vta_5__4(::UnityEngine::UIElements::VisualTreeAsset* value);
+  constexpr void __cordl_internal_set__vta_5__4(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
 
   static inline ::UnityEngine::UIElements::__VisualTreeAsset___get_templateDependencies_d__17* New_ctor(int32_t __1__state);
 
@@ -429,7 +431,7 @@ public:
   inline void __m__Finally1();
 
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.UIElements.VisualTreeAsset>.get_Current, addr 0x2e13e3c, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::VisualTreeAsset* System_Collections_Generic_IEnumerator_UnityEngine_UIElements_VisualTreeAsset__get_Current();
+  inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> System_Collections_Generic_IEnumerator_UnityEngine_UIElements_VisualTreeAsset__get_Current();
 
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2e13e44, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
@@ -438,7 +440,8 @@ public:
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.VisualTreeAsset>.GetEnumerator, addr 0x2e13e8c, size 0xa0, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::VisualTreeAsset*>* System_Collections_Generic_IEnumerable_UnityEngine_UIElements_VisualTreeAsset__GetEnumerator();
+  inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>*
+  System_Collections_Generic_IEnumerable_UnityEngine_UIElements_VisualTreeAsset__GetEnumerator();
 
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2e13f2c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
@@ -461,16 +464,16 @@ public:
   int32_t _____1__state;
 
   /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualTreeAsset* _____2__current;
+  ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> _____2__current;
 
   /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
   int32_t _____l__initialThreadId;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualTreeAsset* _____4__this;
+  ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> _____4__this;
 
   /// @brief Field <sent>5__1, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualTreeAsset*>* ____sent_5__1;
+  ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* ____sent_5__1;
 
   /// @brief Field <>s__2, offset: 0x38, size: 0x28, def value: None
   ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry> _____s__2;
@@ -479,7 +482,7 @@ public:
   ::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry ____entry_5__3;
 
   /// @brief Field <vta>5__4, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualTreeAsset* ____vta_5__4;
+  ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> ____vta_5__4;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -507,58 +510,62 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualTreeAsset___get_templa
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 397 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3842), inst: 1696 }), TypeDefinitionIndex(TypeDefinitionIndex(7013)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1694 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7008)) CS Name: ::VisualTreeAsset::<get_stylesheets>d__21*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(7013)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7279)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 397 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3842), inst: 1694 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1696 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7008)) CS Name:
+// ::VisualTreeAsset::<get_stylesheets>d__21*
 class CORDL_TYPE __VisualTreeAsset___get_stylesheets_d__21 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::UnityEngine::UIElements::StyleSheet* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityW<::UnityEngine::UIElements::StyleSheet> __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::UIElements::VisualTreeAsset* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::UnityEngine::UIElements::VisualTreeAsset> __4__this;
 
   /// @brief Field <sent>5__1, offset 0x30, size 0x8
-  __declspec(property(get = __get__sent_5__1, put = __set__sent_5__1))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::StyleSheet*>* _sent_5__1;
+  __declspec(property(get = __cordl_internal_get__sent_5__1,
+                      put = __cordl_internal_set__sent_5__1))::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* _sent_5__1;
 
   /// @brief Field <>s__2, offset 0x38, size 0x18
-  __declspec(property(get = __get___s__2, put = __set___s__2))::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::VisualElementAsset*> __s__2;
+  __declspec(property(get = __cordl_internal_get___s__2, put = __cordl_internal_set___s__2))::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::VisualElementAsset*> __s__2;
 
   /// @brief Field <vea>5__3, offset 0x50, size 0x8
-  __declspec(property(get = __get__vea_5__3, put = __set__vea_5__3))::UnityEngine::UIElements::VisualElementAsset* _vea_5__3;
+  __declspec(property(get = __cordl_internal_get__vea_5__3, put = __cordl_internal_set__vea_5__3))::UnityEngine::UIElements::VisualElementAsset* _vea_5__3;
 
   /// @brief Field <>s__4, offset 0x58, size 0x18
-  __declspec(property(get = __get___s__4, put = __set___s__4))::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::StyleSheet*> __s__4;
+  __declspec(property(get = __cordl_internal_get___s__4,
+                      put = __cordl_internal_set___s__4))::System::Collections::Generic::__List_1__Enumerator<::UnityW<::UnityEngine::UIElements::StyleSheet>> __s__4;
 
   /// @brief Field <stylesheet>5__5, offset 0x70, size 0x8
-  __declspec(property(get = __get__stylesheet_5__5, put = __set__stylesheet_5__5))::UnityEngine::UIElements::StyleSheet* _stylesheet_5__5;
+  __declspec(property(get = __cordl_internal_get__stylesheet_5__5, put = __cordl_internal_set__stylesheet_5__5))::UnityW<::UnityEngine::UIElements::StyleSheet> _stylesheet_5__5;
 
   /// @brief Field <>s__6, offset 0x78, size 0x18
-  __declspec(property(get = __get___s__6, put = __set___s__6))::System::Collections::Generic::__List_1__Enumerator<::StringW> __s__6;
+  __declspec(property(get = __cordl_internal_get___s__6, put = __cordl_internal_set___s__6))::System::Collections::Generic::__List_1__Enumerator<::StringW> __s__6;
 
   /// @brief Field <stylesheetPath>5__7, offset 0x90, size 0x8
-  __declspec(property(get = __get__stylesheetPath_5__7, put = __set__stylesheetPath_5__7))::StringW _stylesheetPath_5__7;
+  __declspec(property(get = __cordl_internal_get__stylesheetPath_5__7, put = __cordl_internal_set__stylesheetPath_5__7))::StringW _stylesheetPath_5__7;
 
   /// @brief Field <stylesheet>5__8, offset 0x98, size 0x8
-  __declspec(property(get = __get__stylesheet_5__8, put = __set__stylesheet_5__8))::UnityEngine::UIElements::StyleSheet* _stylesheet_5__8;
+  __declspec(property(get = __cordl_internal_get__stylesheet_5__8, put = __cordl_internal_set__stylesheet_5__8))::UnityW<::UnityEngine::UIElements::StyleSheet> _stylesheet_5__8;
 
-  __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_UIElements_StyleSheet__get_Current))::UnityEngine::UIElements::
-      StyleSheet* System_Collections_Generic_IEnumerator_UnityEngine_UIElements_StyleSheet__Current;
+  __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_UIElements_StyleSheet__get_Current))::UnityW<
+      ::UnityEngine::UIElements::StyleSheet> System_Collections_Generic_IEnumerator_UnityEngine_UIElements_StyleSheet__Current;
 
   __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>"
+  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>* i___System__Collections__Generic__IEnumerable_1___UnityEngine__UIElements__StyleSheet__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>"
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*
+  i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__UIElements__StyleSheet__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -566,11 +573,12 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>*() noexcept;
+  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>"
+  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>* i___System__Collections__Generic__IEnumerator_1___UnityEngine__UIElements__StyleSheet__() noexcept;
+  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>"
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*
+  i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__UIElements__StyleSheet__() noexcept;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
@@ -584,77 +592,77 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::UnityEngine::UIElements::StyleSheet*& __get___2__current();
+  constexpr ::UnityW<::UnityEngine::UIElements::StyleSheet>& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleSheet*> const& __get___2__current() const;
+  constexpr ::UnityW<::UnityEngine::UIElements::StyleSheet> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::UnityEngine::UIElements::StyleSheet* value);
+  constexpr void __cordl_internal_set___2__current(::UnityW<::UnityEngine::UIElements::StyleSheet> value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::UnityEngine::UIElements::VisualTreeAsset*& __get___4__this();
+  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualTreeAsset*> const& __get___4__this() const;
+  constexpr ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::UIElements::VisualTreeAsset* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::UnityEngine::UIElements::VisualTreeAsset> value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::StyleSheet*>*& __get__sent_5__1();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*& __cordl_internal_get__sent_5__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::StyleSheet*>*> const& __get__sent_5__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*> const& __cordl_internal_get__sent_5__1() const;
 
-  constexpr void __set__sent_5__1(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::StyleSheet*>* value);
+  constexpr void __cordl_internal_set__sent_5__1(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* value);
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::VisualElementAsset*>& __get___s__2();
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::VisualElementAsset*>& __cordl_internal_get___s__2();
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::VisualElementAsset*> const& __get___s__2() const;
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::VisualElementAsset*> const& __cordl_internal_get___s__2() const;
 
-  constexpr void __set___s__2(::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::VisualElementAsset*> value);
+  constexpr void __cordl_internal_set___s__2(::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::VisualElementAsset*> value);
 
-  constexpr ::UnityEngine::UIElements::VisualElementAsset*& __get__vea_5__3();
+  constexpr ::UnityEngine::UIElements::VisualElementAsset*& __cordl_internal_get__vea_5__3();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElementAsset*> const& __get__vea_5__3() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElementAsset*> const& __cordl_internal_get__vea_5__3() const;
 
-  constexpr void __set__vea_5__3(::UnityEngine::UIElements::VisualElementAsset* value);
+  constexpr void __cordl_internal_set__vea_5__3(::UnityEngine::UIElements::VisualElementAsset* value);
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::StyleSheet*>& __get___s__4();
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::UnityEngine::UIElements::StyleSheet>>& __cordl_internal_get___s__4();
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::StyleSheet*> const& __get___s__4() const;
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::UnityEngine::UIElements::StyleSheet>> const& __cordl_internal_get___s__4() const;
 
-  constexpr void __set___s__4(::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::StyleSheet*> value);
+  constexpr void __cordl_internal_set___s__4(::System::Collections::Generic::__List_1__Enumerator<::UnityW<::UnityEngine::UIElements::StyleSheet>> value);
 
-  constexpr ::UnityEngine::UIElements::StyleSheet*& __get__stylesheet_5__5();
+  constexpr ::UnityW<::UnityEngine::UIElements::StyleSheet>& __cordl_internal_get__stylesheet_5__5();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleSheet*> const& __get__stylesheet_5__5() const;
+  constexpr ::UnityW<::UnityEngine::UIElements::StyleSheet> const& __cordl_internal_get__stylesheet_5__5() const;
 
-  constexpr void __set__stylesheet_5__5(::UnityEngine::UIElements::StyleSheet* value);
+  constexpr void __cordl_internal_set__stylesheet_5__5(::UnityW<::UnityEngine::UIElements::StyleSheet> value);
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::StringW>& __get___s__6();
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::StringW>& __cordl_internal_get___s__6();
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::StringW> const& __get___s__6() const;
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::StringW> const& __cordl_internal_get___s__6() const;
 
-  constexpr void __set___s__6(::System::Collections::Generic::__List_1__Enumerator<::StringW> value);
+  constexpr void __cordl_internal_set___s__6(::System::Collections::Generic::__List_1__Enumerator<::StringW> value);
 
-  constexpr ::StringW& __get__stylesheetPath_5__7();
+  constexpr ::StringW& __cordl_internal_get__stylesheetPath_5__7();
 
-  constexpr ::StringW const& __get__stylesheetPath_5__7() const;
+  constexpr ::StringW const& __cordl_internal_get__stylesheetPath_5__7() const;
 
-  constexpr void __set__stylesheetPath_5__7(::StringW value);
+  constexpr void __cordl_internal_set__stylesheetPath_5__7(::StringW value);
 
-  constexpr ::UnityEngine::UIElements::StyleSheet*& __get__stylesheet_5__8();
+  constexpr ::UnityW<::UnityEngine::UIElements::StyleSheet>& __cordl_internal_get__stylesheet_5__8();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleSheet*> const& __get__stylesheet_5__8() const;
+  constexpr ::UnityW<::UnityEngine::UIElements::StyleSheet> const& __cordl_internal_get__stylesheet_5__8() const;
 
-  constexpr void __set__stylesheet_5__8(::UnityEngine::UIElements::StyleSheet* value);
+  constexpr void __cordl_internal_set__stylesheet_5__8(::UnityW<::UnityEngine::UIElements::StyleSheet> value);
 
   static inline ::UnityEngine::UIElements::__VisualTreeAsset___get_stylesheets_d__21* New_ctor(int32_t __1__state);
 
@@ -677,7 +685,7 @@ public:
   inline void __m__Finally3();
 
   /// @brief Method System.Collections.Generic.IEnumerator<UnityEngine.UIElements.StyleSheet>.get_Current, addr 0x2e146c8, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::StyleSheet* System_Collections_Generic_IEnumerator_UnityEngine_UIElements_StyleSheet__get_Current();
+  inline ::UnityW<::UnityEngine::UIElements::StyleSheet> System_Collections_Generic_IEnumerator_UnityEngine_UIElements_StyleSheet__get_Current();
 
   /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2e146d0, size 0x40, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
@@ -686,7 +694,7 @@ public:
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
   /// @brief Method System.Collections.Generic.IEnumerable<UnityEngine.UIElements.StyleSheet>.GetEnumerator, addr 0x2e14718, size 0xa0, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StyleSheet*>* System_Collections_Generic_IEnumerable_UnityEngine_UIElements_StyleSheet__GetEnumerator();
+  inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* System_Collections_Generic_IEnumerable_UnityEngine_UIElements_StyleSheet__GetEnumerator();
 
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2e147b8, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
@@ -709,16 +717,16 @@ public:
   int32_t _____1__state;
 
   /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UIElements::StyleSheet* _____2__current;
+  ::UnityW<::UnityEngine::UIElements::StyleSheet> _____2__current;
 
   /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
   int32_t _____l__initialThreadId;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualTreeAsset* _____4__this;
+  ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> _____4__this;
 
   /// @brief Field <sent>5__1, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::StyleSheet*>* ____sent_5__1;
+  ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* ____sent_5__1;
 
   /// @brief Field <>s__2, offset: 0x38, size: 0x18, def value: None
   ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::VisualElementAsset*> _____s__2;
@@ -727,10 +735,10 @@ public:
   ::UnityEngine::UIElements::VisualElementAsset* ____vea_5__3;
 
   /// @brief Field <>s__4, offset: 0x58, size: 0x18, def value: None
-  ::System::Collections::Generic::__List_1__Enumerator<::UnityEngine::UIElements::StyleSheet*> _____s__4;
+  ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::UnityEngine::UIElements::StyleSheet>> _____s__4;
 
   /// @brief Field <stylesheet>5__5, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UIElements::StyleSheet* ____stylesheet_5__5;
+  ::UnityW<::UnityEngine::UIElements::StyleSheet> ____stylesheet_5__5;
 
   /// @brief Field <>s__6, offset: 0x78, size: 0x18, def value: None
   ::System::Collections::Generic::__List_1__Enumerator<::StringW> _____s__6;
@@ -739,7 +747,7 @@ public:
   ::StringW ____stylesheetPath_5__7;
 
   /// @brief Field <stylesheet>5__8, offset: 0x98, size: 0x8, def value: None
-  ::UnityEngine::UIElements::StyleSheet* ____stylesheet_5__8;
+  ::UnityW<::UnityEngine::UIElements::StyleSheet> ____stylesheet_5__8;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -775,20 +783,20 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualTreeAsset___get_styles
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7009))
 // CS Name: ::VisualTreeAsset::<>c__DisplayClass45_0*
 class CORDL_TYPE __VisualTreeAsset____c__DisplayClass45_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field childVea, offset 0x10, size 0x8
-  __declspec(property(get = __get_childVea, put = __set_childVea))::UnityEngine::UIElements::VisualElementAsset* childVea;
+  __declspec(property(get = __cordl_internal_get_childVea, put = __cordl_internal_set_childVea))::UnityEngine::UIElements::VisualElementAsset* childVea;
 
-  constexpr ::UnityEngine::UIElements::VisualElementAsset*& __get_childVea();
+  constexpr ::UnityEngine::UIElements::VisualElementAsset*& __cordl_internal_get_childVea();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElementAsset*> const& __get_childVea() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElementAsset*> const& __cordl_internal_get_childVea() const;
 
-  constexpr void __set_childVea(::UnityEngine::UIElements::VisualElementAsset* value);
+  constexpr void __cordl_internal_set_childVea(::UnityEngine::UIElements::VisualElementAsset* value);
 
   static inline ::UnityEngine::UIElements::__VisualTreeAsset____c__DisplayClass45_0* New_ctor();
 
@@ -827,7 +835,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualTreeAsset____c__Displa
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7010))
 // CS Name: ::VisualTreeAsset::<>c__DisplayClass49_0
 struct CORDL_TYPE __VisualTreeAsset____c__DisplayClass49_0 {
@@ -858,7 +866,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualTreeAsset____c__Displa
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7011))
 // CS Name: ::UnityEngine.UIElements::VisualTreeAsset*
 class CORDL_TYPE VisualTreeAsset : public ::UnityEngine::ScriptableObject {
@@ -881,32 +889,35 @@ public:
   using UsingEntry = ::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry;
 
   /// @brief Field m_ImportedWithErrors, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_ImportedWithErrors, put = __set_m_ImportedWithErrors)) bool m_ImportedWithErrors;
+  __declspec(property(get = __cordl_internal_get_m_ImportedWithErrors, put = __cordl_internal_set_m_ImportedWithErrors)) bool m_ImportedWithErrors;
 
   /// @brief Field m_ImportedWithWarnings, offset 0x19, size 0x1
-  __declspec(property(get = __get_m_ImportedWithWarnings, put = __set_m_ImportedWithWarnings)) bool m_ImportedWithWarnings;
+  __declspec(property(get = __cordl_internal_get_m_ImportedWithWarnings, put = __cordl_internal_set_m_ImportedWithWarnings)) bool m_ImportedWithWarnings;
 
   /// @brief Field m_Usings, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Usings, put = __set_m_Usings))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>* m_Usings;
+  __declspec(property(get = __cordl_internal_get_m_Usings,
+                      put = __cordl_internal_set_m_Usings))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>* m_Usings;
 
   /// @brief Field inlineSheet, offset 0x28, size 0x8
-  __declspec(property(get = __get_inlineSheet, put = __set_inlineSheet))::UnityEngine::UIElements::StyleSheet* inlineSheet;
+  __declspec(property(get = __cordl_internal_get_inlineSheet, put = __cordl_internal_set_inlineSheet))::UnityW<::UnityEngine::UIElements::StyleSheet> inlineSheet;
 
   /// @brief Field m_VisualElementAssets, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_VisualElementAssets,
-                      put = __set_m_VisualElementAssets))::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>* m_VisualElementAssets;
+  __declspec(property(get = __cordl_internal_get_m_VisualElementAssets,
+                      put = __cordl_internal_set_m_VisualElementAssets))::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>* m_VisualElementAssets;
 
   /// @brief Field m_TemplateAssets, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_TemplateAssets, put = __set_m_TemplateAssets))::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>* m_TemplateAssets;
+  __declspec(property(get = __cordl_internal_get_m_TemplateAssets,
+                      put = __cordl_internal_set_m_TemplateAssets))::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>* m_TemplateAssets;
 
   /// @brief Field m_Slots, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_Slots, put = __set_m_Slots))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotDefinition>* m_Slots;
+  __declspec(property(get = __cordl_internal_get_m_Slots,
+                      put = __cordl_internal_set_m_Slots))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotDefinition>* m_Slots;
 
   /// @brief Field m_ContentContainerId, offset 0x48, size 0x4
-  __declspec(property(get = __get_m_ContentContainerId, put = __set_m_ContentContainerId)) int32_t m_ContentContainerId;
+  __declspec(property(get = __cordl_internal_get_m_ContentContainerId, put = __cordl_internal_set_m_ContentContainerId)) int32_t m_ContentContainerId;
 
   /// @brief Field m_ContentHash, offset 0x4c, size 0x4
-  __declspec(property(get = __get_m_ContentHash, put = __set_m_ContentHash)) int32_t m_ContentHash;
+  __declspec(property(get = __cordl_internal_get_m_ContentHash, put = __cordl_internal_set_m_ContentHash)) int32_t m_ContentHash;
 
   /// @brief Field LinkedVEAInTemplatePropertyName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_LinkedVEAInTemplatePropertyName, put = setStaticF_LinkedVEAInTemplatePropertyName))::StringW LinkedVEAInTemplatePropertyName;
@@ -920,9 +931,9 @@ public:
 
   __declspec(property(get = get_importedWithWarnings, put = set_importedWithWarnings)) bool importedWithWarnings;
 
-  __declspec(property(get = get_templateDependencies))::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>* templateDependencies;
+  __declspec(property(get = get_templateDependencies))::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* templateDependencies;
 
-  __declspec(property(get = get_stylesheets))::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>* stylesheets;
+  __declspec(property(get = get_stylesheets))::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* stylesheets;
 
   __declspec(property(get = get_visualElementAssets, put = set_visualElementAssets))::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>* visualElementAssets;
 
@@ -934,59 +945,59 @@ public:
 
   __declspec(property(get = get_contentHash, put = set_contentHash)) int32_t contentHash;
 
-  constexpr bool& __get_m_ImportedWithErrors();
+  constexpr bool& __cordl_internal_get_m_ImportedWithErrors();
 
-  constexpr bool const& __get_m_ImportedWithErrors() const;
+  constexpr bool const& __cordl_internal_get_m_ImportedWithErrors() const;
 
-  constexpr void __set_m_ImportedWithErrors(bool value);
+  constexpr void __cordl_internal_set_m_ImportedWithErrors(bool value);
 
-  constexpr bool& __get_m_ImportedWithWarnings();
+  constexpr bool& __cordl_internal_get_m_ImportedWithWarnings();
 
-  constexpr bool const& __get_m_ImportedWithWarnings() const;
+  constexpr bool const& __cordl_internal_get_m_ImportedWithWarnings() const;
 
-  constexpr void __set_m_ImportedWithWarnings(bool value);
+  constexpr void __cordl_internal_set_m_ImportedWithWarnings(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>*& __get_m_Usings();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>*& __cordl_internal_get_m_Usings();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>*> const& __get_m_Usings() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>*> const& __cordl_internal_get_m_Usings() const;
 
-  constexpr void __set_m_Usings(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>* value);
+  constexpr void __cordl_internal_set_m_Usings(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>* value);
 
-  constexpr ::UnityEngine::UIElements::StyleSheet*& __get_inlineSheet();
+  constexpr ::UnityW<::UnityEngine::UIElements::StyleSheet>& __cordl_internal_get_inlineSheet();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleSheet*> const& __get_inlineSheet() const;
+  constexpr ::UnityW<::UnityEngine::UIElements::StyleSheet> const& __cordl_internal_get_inlineSheet() const;
 
-  constexpr void __set_inlineSheet(::UnityEngine::UIElements::StyleSheet* value);
+  constexpr void __cordl_internal_set_inlineSheet(::UnityW<::UnityEngine::UIElements::StyleSheet> value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>*& __get_m_VisualElementAssets();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>*& __cordl_internal_get_m_VisualElementAssets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>*> const& __get_m_VisualElementAssets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>*> const& __cordl_internal_get_m_VisualElementAssets() const;
 
-  constexpr void __set_m_VisualElementAssets(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>* value);
+  constexpr void __cordl_internal_set_m_VisualElementAssets(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>*& __get_m_TemplateAssets();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>*& __cordl_internal_get_m_TemplateAssets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>*> const& __get_m_TemplateAssets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>*> const& __cordl_internal_get_m_TemplateAssets() const;
 
-  constexpr void __set_m_TemplateAssets(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>* value);
+  constexpr void __cordl_internal_set_m_TemplateAssets(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotDefinition>*& __get_m_Slots();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotDefinition>*& __cordl_internal_get_m_Slots();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotDefinition>*> const& __get_m_Slots() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotDefinition>*> const& __cordl_internal_get_m_Slots() const;
 
-  constexpr void __set_m_Slots(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotDefinition>* value);
+  constexpr void __cordl_internal_set_m_Slots(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__SlotDefinition>* value);
 
-  constexpr int32_t& __get_m_ContentContainerId();
+  constexpr int32_t& __cordl_internal_get_m_ContentContainerId();
 
-  constexpr int32_t const& __get_m_ContentContainerId() const;
+  constexpr int32_t const& __cordl_internal_get_m_ContentContainerId() const;
 
-  constexpr void __set_m_ContentContainerId(int32_t value);
+  constexpr void __cordl_internal_set_m_ContentContainerId(int32_t value);
 
-  constexpr int32_t& __get_m_ContentHash();
+  constexpr int32_t& __cordl_internal_get_m_ContentHash();
 
-  constexpr int32_t const& __get_m_ContentHash() const;
+  constexpr int32_t const& __cordl_internal_get_m_ContentHash() const;
 
-  constexpr void __set_m_ContentHash(int32_t value);
+  constexpr void __cordl_internal_set_m_ContentHash(int32_t value);
 
   static inline void setStaticF_LinkedVEAInTemplatePropertyName(::StringW value);
 
@@ -1012,10 +1023,10 @@ public:
   inline int32_t GetNextChildSerialNumber();
 
   /// @brief Method get_templateDependencies, addr 0x2e114c8, size 0x64, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::VisualTreeAsset*>* get_templateDependencies();
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::VisualTreeAsset>>* get_templateDependencies();
 
   /// @brief Method get_stylesheets, addr 0x2e11570, size 0x64, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::StyleSheet*>* get_stylesheets();
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_stylesheets();
 
   /// @brief Method get_visualElementAssets, addr 0x2e11618, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>* get_visualElementAssets();
@@ -1076,7 +1087,7 @@ public:
   inline bool TryGetSlotInsertionPoint(int32_t insertionPointId, ByRef<::StringW> slotName);
 
   /// @brief Method ResolveTemplate, addr 0x2e131d8, size 0x270, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualTreeAsset* ResolveTemplate(::StringW templateName);
+  inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> ResolveTemplate(::StringW templateName);
 
   /// @brief Method Create, addr 0x2e12b1c, size 0x5c0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* Create(::UnityEngine::UIElements::VisualElementAsset* asset, ::UnityEngine::UIElements::CreationContext ctx);
@@ -1125,7 +1136,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__VisualTreeAsset__UsingEntry>* ___m_Usings;
 
   /// @brief Field inlineSheet, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UIElements::StyleSheet* ___inlineSheet;
+  ::UnityW<::UnityEngine::UIElements::StyleSheet> ___inlineSheet;
 
   /// @brief Field m_VisualElementAssets, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElementAsset*>* ___m_VisualElementAssets;

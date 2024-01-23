@@ -24,7 +24,7 @@ MARK_VAL_T(::IgnoranceThirdparty::__Volatile__PaddedLong);
 // SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace IgnoranceThirdparty {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15211))
 // CS Name: ::Volatile::PaddedLong
 #pragma pack(push, 0)
@@ -32,13 +32,13 @@ struct CORDL_TYPE __Volatile__PaddedLong {
 public:
   // Declarations
   /// @brief Field _value, offset 0x40, size 0x8
-  __declspec(property(get = __get__value, put = __set__value)) int64_t _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) int64_t _value;
 
-  constexpr int64_t& __get__value();
+  constexpr int64_t& __cordl_internal_get__value();
 
-  constexpr int64_t const& __get__value() const;
+  constexpr int64_t const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(int64_t value);
+  constexpr void __cordl_internal_set__value(int64_t value);
 
   /// @brief Method .ctor, addr 0x21eeb40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t value);
@@ -129,7 +129,7 @@ static_assert(::cordl_internals::size_check_v<::IgnoranceThirdparty::__Volatile_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace IgnoranceThirdparty {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15212))
 // CS Name: ::IgnoranceThirdparty::Volatile*
 class CORDL_TYPE Volatile : public ::System::Object {

@@ -32,119 +32,119 @@ MARK_REF_PTR_T(::Tayx::Graphy::Audio::G_AudioGraph);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Audio {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15080))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15080))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15086))
 // CS Name: ::Tayx.Graphy.Audio::G_AudioGraph*
 class CORDL_TYPE G_AudioGraph : public ::Tayx::Graphy::Graph::G_Graph {
 public:
   // Declarations
   /// @brief Field m_imageGraph, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_imageGraph, put = __set_m_imageGraph))::UnityEngine::UI::Image* m_imageGraph;
+  __declspec(property(get = __cordl_internal_get_m_imageGraph, put = __cordl_internal_set_m_imageGraph))::UnityW<::UnityEngine::UI::Image> m_imageGraph;
 
   /// @brief Field m_imageGraphHighestValues, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_imageGraphHighestValues, put = __set_m_imageGraphHighestValues))::UnityEngine::UI::Image* m_imageGraphHighestValues;
+  __declspec(property(get = __cordl_internal_get_m_imageGraphHighestValues, put = __cordl_internal_set_m_imageGraphHighestValues))::UnityW<::UnityEngine::UI::Image> m_imageGraphHighestValues;
 
   /// @brief Field ShaderFull, offset 0x28, size 0x8
-  __declspec(property(get = __get_ShaderFull, put = __set_ShaderFull))::UnityEngine::Shader* ShaderFull;
+  __declspec(property(get = __cordl_internal_get_ShaderFull, put = __cordl_internal_set_ShaderFull))::UnityW<::UnityEngine::Shader> ShaderFull;
 
   /// @brief Field ShaderLight, offset 0x30, size 0x8
-  __declspec(property(get = __get_ShaderLight, put = __set_ShaderLight))::UnityEngine::Shader* ShaderLight;
+  __declspec(property(get = __cordl_internal_get_ShaderLight, put = __cordl_internal_set_ShaderLight))::UnityW<::UnityEngine::Shader> ShaderLight;
 
   /// @brief Field m_isInitialized, offset 0x38, size 0x1
-  __declspec(property(get = __get_m_isInitialized, put = __set_m_isInitialized)) bool m_isInitialized;
+  __declspec(property(get = __cordl_internal_get_m_isInitialized, put = __cordl_internal_set_m_isInitialized)) bool m_isInitialized;
 
   /// @brief Field m_graphyManager, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_graphyManager, put = __set_m_graphyManager))::Tayx::Graphy::GraphyManager* m_graphyManager;
+  __declspec(property(get = __cordl_internal_get_m_graphyManager, put = __cordl_internal_set_m_graphyManager))::UnityW<::Tayx::Graphy::GraphyManager> m_graphyManager;
 
   /// @brief Field m_audioMonitor, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_audioMonitor, put = __set_m_audioMonitor))::Tayx::Graphy::Audio::G_AudioMonitor* m_audioMonitor;
+  __declspec(property(get = __cordl_internal_get_m_audioMonitor, put = __cordl_internal_set_m_audioMonitor))::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> m_audioMonitor;
 
   /// @brief Field m_resolution, offset 0x50, size 0x4
-  __declspec(property(get = __get_m_resolution, put = __set_m_resolution)) int32_t m_resolution;
+  __declspec(property(get = __cordl_internal_get_m_resolution, put = __cordl_internal_set_m_resolution)) int32_t m_resolution;
 
   /// @brief Field m_shaderGraph, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_shaderGraph, put = __set_m_shaderGraph))::Tayx::Graphy::G_GraphShader* m_shaderGraph;
+  __declspec(property(get = __cordl_internal_get_m_shaderGraph, put = __cordl_internal_set_m_shaderGraph))::Tayx::Graphy::G_GraphShader* m_shaderGraph;
 
   /// @brief Field m_shaderGraphHighestValues, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_shaderGraphHighestValues, put = __set_m_shaderGraphHighestValues))::Tayx::Graphy::G_GraphShader* m_shaderGraphHighestValues;
+  __declspec(property(get = __cordl_internal_get_m_shaderGraphHighestValues, put = __cordl_internal_set_m_shaderGraphHighestValues))::Tayx::Graphy::G_GraphShader* m_shaderGraphHighestValues;
 
   /// @brief Field m_graphArray, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_graphArray, put = __set_m_graphArray))::ArrayW<float_t, ::Array<float_t>*> m_graphArray;
+  __declspec(property(get = __cordl_internal_get_m_graphArray, put = __cordl_internal_set_m_graphArray))::ArrayW<float_t, ::Array<float_t>*> m_graphArray;
 
   /// @brief Field m_graphArrayHighestValue, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_graphArrayHighestValue, put = __set_m_graphArrayHighestValue))::ArrayW<float_t, ::Array<float_t>*> m_graphArrayHighestValue;
+  __declspec(property(get = __cordl_internal_get_m_graphArrayHighestValue, put = __cordl_internal_set_m_graphArrayHighestValue))::ArrayW<float_t, ::Array<float_t>*> m_graphArrayHighestValue;
 
-  constexpr ::UnityEngine::UI::Image*& __get_m_imageGraph();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get_m_imageGraph();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get_m_imageGraph() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get_m_imageGraph() const;
 
-  constexpr void __set_m_imageGraph(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set_m_imageGraph(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get_m_imageGraphHighestValues();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get_m_imageGraphHighestValues();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get_m_imageGraphHighestValues() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get_m_imageGraphHighestValues() const;
 
-  constexpr void __set_m_imageGraphHighestValues(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set_m_imageGraphHighestValues(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::Shader*& __get_ShaderFull();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_ShaderFull();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get_ShaderFull() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_ShaderFull() const;
 
-  constexpr void __set_ShaderFull(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set_ShaderFull(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr ::UnityEngine::Shader*& __get_ShaderLight();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_ShaderLight();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get_ShaderLight() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_ShaderLight() const;
 
-  constexpr void __set_ShaderLight(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set_ShaderLight(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr bool& __get_m_isInitialized();
+  constexpr bool& __cordl_internal_get_m_isInitialized();
 
-  constexpr bool const& __get_m_isInitialized() const;
+  constexpr bool const& __cordl_internal_get_m_isInitialized() const;
 
-  constexpr void __set_m_isInitialized(bool value);
+  constexpr void __cordl_internal_set_m_isInitialized(bool value);
 
-  constexpr ::Tayx::Graphy::GraphyManager*& __get_m_graphyManager();
+  constexpr ::UnityW<::Tayx::Graphy::GraphyManager>& __cordl_internal_get_m_graphyManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::GraphyManager*> const& __get_m_graphyManager() const;
+  constexpr ::UnityW<::Tayx::Graphy::GraphyManager> const& __cordl_internal_get_m_graphyManager() const;
 
-  constexpr void __set_m_graphyManager(::Tayx::Graphy::GraphyManager* value);
+  constexpr void __cordl_internal_set_m_graphyManager(::UnityW<::Tayx::Graphy::GraphyManager> value);
 
-  constexpr ::Tayx::Graphy::Audio::G_AudioMonitor*& __get_m_audioMonitor();
+  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor>& __cordl_internal_get_m_audioMonitor();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Audio::G_AudioMonitor*> const& __get_m_audioMonitor() const;
+  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> const& __cordl_internal_get_m_audioMonitor() const;
 
-  constexpr void __set_m_audioMonitor(::Tayx::Graphy::Audio::G_AudioMonitor* value);
+  constexpr void __cordl_internal_set_m_audioMonitor(::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> value);
 
-  constexpr int32_t& __get_m_resolution();
+  constexpr int32_t& __cordl_internal_get_m_resolution();
 
-  constexpr int32_t const& __get_m_resolution() const;
+  constexpr int32_t const& __cordl_internal_get_m_resolution() const;
 
-  constexpr void __set_m_resolution(int32_t value);
+  constexpr void __cordl_internal_set_m_resolution(int32_t value);
 
-  constexpr ::Tayx::Graphy::G_GraphShader*& __get_m_shaderGraph();
+  constexpr ::Tayx::Graphy::G_GraphShader*& __cordl_internal_get_m_shaderGraph();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::G_GraphShader*> const& __get_m_shaderGraph() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::G_GraphShader*> const& __cordl_internal_get_m_shaderGraph() const;
 
-  constexpr void __set_m_shaderGraph(::Tayx::Graphy::G_GraphShader* value);
+  constexpr void __cordl_internal_set_m_shaderGraph(::Tayx::Graphy::G_GraphShader* value);
 
-  constexpr ::Tayx::Graphy::G_GraphShader*& __get_m_shaderGraphHighestValues();
+  constexpr ::Tayx::Graphy::G_GraphShader*& __cordl_internal_get_m_shaderGraphHighestValues();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::G_GraphShader*> const& __get_m_shaderGraphHighestValues() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::G_GraphShader*> const& __cordl_internal_get_m_shaderGraphHighestValues() const;
 
-  constexpr void __set_m_shaderGraphHighestValues(::Tayx::Graphy::G_GraphShader* value);
+  constexpr void __cordl_internal_set_m_shaderGraphHighestValues(::Tayx::Graphy::G_GraphShader* value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get_m_graphArray();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_m_graphArray();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get_m_graphArray() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_m_graphArray() const;
 
-  constexpr void __set_m_graphArray(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set_m_graphArray(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get_m_graphArrayHighestValue();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_m_graphArrayHighestValue();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get_m_graphArrayHighestValue() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_m_graphArrayHighestValue() const;
 
-  constexpr void __set_m_graphArrayHighestValue(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set_m_graphArrayHighestValue(::ArrayW<float_t, ::Array<float_t>*> value);
 
   /// @brief Method OnEnable, addr 0x2a094f0, size 0x50, virtual false, abstract: false, final false
   inline void OnEnable();
@@ -184,25 +184,25 @@ protected:
 
 public:
   /// @brief Field m_imageGraph, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ___m_imageGraph;
+  ::UnityW<::UnityEngine::UI::Image> ___m_imageGraph;
 
   /// @brief Field m_imageGraphHighestValues, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ___m_imageGraphHighestValues;
+  ::UnityW<::UnityEngine::UI::Image> ___m_imageGraphHighestValues;
 
   /// @brief Field ShaderFull, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Shader* ___ShaderFull;
+  ::UnityW<::UnityEngine::Shader> ___ShaderFull;
 
   /// @brief Field ShaderLight, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Shader* ___ShaderLight;
+  ::UnityW<::UnityEngine::Shader> ___ShaderLight;
 
   /// @brief Field m_isInitialized, offset: 0x38, size: 0x1, def value: None
   bool ___m_isInitialized;
 
   /// @brief Field m_graphyManager, offset: 0x40, size: 0x8, def value: None
-  ::Tayx::Graphy::GraphyManager* ___m_graphyManager;
+  ::UnityW<::Tayx::Graphy::GraphyManager> ___m_graphyManager;
 
   /// @brief Field m_audioMonitor, offset: 0x48, size: 0x8, def value: None
-  ::Tayx::Graphy::Audio::G_AudioMonitor* ___m_audioMonitor;
+  ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> ___m_audioMonitor;
 
   /// @brief Field m_resolution, offset: 0x50, size: 0x4, def value: None
   int32_t ___m_resolution;

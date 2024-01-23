@@ -15,7 +15,7 @@ MARK_VAL_T(::BGNet::Core::DeliveryMethod);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace BGNet::Core {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13002))
 // CS Name: ::BGNet.Core::DeliveryMethod
 struct CORDL_TYPE DeliveryMethod {

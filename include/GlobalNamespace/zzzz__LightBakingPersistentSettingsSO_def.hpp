@@ -65,69 +65,76 @@ MARK_REF_PTR_T(::GlobalNamespace::LightBakingPersistentSettingsSO);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5862))
 // CS Name: ::LightBakingPersistentSettingsSO*
 class CORDL_TYPE LightBakingPersistentSettingsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _reflectionsCount, offset 0x18, size 0x4
-  __declspec(property(get = __get__reflectionsCount, put = __set__reflectionsCount)) int32_t _reflectionsCount;
+  __declspec(property(get = __cordl_internal_get__reflectionsCount, put = __cordl_internal_set__reflectionsCount)) int32_t _reflectionsCount;
 
   /// @brief Field _bloomPrePassEffectToneMappingOff, offset 0x20, size 0x8
-  __declspec(property(get = __get__bloomPrePassEffectToneMappingOff, put = __set__bloomPrePassEffectToneMappingOff))::GlobalNamespace::BloomPrePassEffectSO* _bloomPrePassEffectToneMappingOff;
+  __declspec(property(get = __cordl_internal_get__bloomPrePassEffectToneMappingOff,
+                      put = __cordl_internal_set__bloomPrePassEffectToneMappingOff))::UnityW<::GlobalNamespace::BloomPrePassEffectSO> _bloomPrePassEffectToneMappingOff;
 
   /// @brief Field _mainEffectForBaking, offset 0x28, size 0x8
-  __declspec(property(get = __get__mainEffectForBaking, put = __set__mainEffectForBaking))::GlobalNamespace::MainEffectSO* _mainEffectForBaking;
+  __declspec(property(get = __cordl_internal_get__mainEffectForBaking, put = __cordl_internal_set__mainEffectForBaking))::UnityW<::GlobalNamespace::MainEffectSO> _mainEffectForBaking;
 
   /// @brief Field _colorFromSchemeAlpha, offset 0x30, size 0x4
-  __declspec(property(get = __get__colorFromSchemeAlpha, put = __set__colorFromSchemeAlpha)) float_t _colorFromSchemeAlpha;
+  __declspec(property(get = __cordl_internal_get__colorFromSchemeAlpha, put = __cordl_internal_set__colorFromSchemeAlpha)) float_t _colorFromSchemeAlpha;
 
   /// @brief Field _bakedLightEditorColors, offset 0x38, size 0x8
-  __declspec(property(get = __get__bakedLightEditorColors, put = __set__bakedLightEditorColors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _bakedLightEditorColors;
+  __declspec(property(get = __cordl_internal_get__bakedLightEditorColors,
+                      put = __cordl_internal_set__bakedLightEditorColors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _bakedLightEditorColors;
 
   /// @brief Field _mainSettingsModel, offset 0x40, size 0x8
-  __declspec(property(get = __get__mainSettingsModel, put = __set__mainSettingsModel))::GlobalNamespace::MainSettingsModelSO* _mainSettingsModel;
+  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
   /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset 0x48, size 0x8
-  __declspec(property(get = __get__mirrorRendererGraphicsSettingsPresets,
-                      put = __set__mirrorRendererGraphicsSettingsPresets))::GlobalNamespace::MirrorRendererGraphicsSettingsPresets* _mirrorRendererGraphicsSettingsPresets;
+  __declspec(property(get = __cordl_internal_get__mirrorRendererGraphicsSettingsPresets,
+                      put = __cordl_internal_set__mirrorRendererGraphicsSettingsPresets))::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> _mirrorRendererGraphicsSettingsPresets;
 
   /// @brief Field _mainEffectGraphicsSettingsPresets, offset 0x50, size 0x8
-  __declspec(property(get = __get__mainEffectGraphicsSettingsPresets,
-                      put = __set__mainEffectGraphicsSettingsPresets))::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO* _mainEffectGraphicsSettingsPresets;
+  __declspec(property(get = __cordl_internal_get__mainEffectGraphicsSettingsPresets,
+                      put = __cordl_internal_set__mainEffectGraphicsSettingsPresets))::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO> _mainEffectGraphicsSettingsPresets;
 
   /// @brief Field _bloomPrePassGraphicsSettingsPresets, offset 0x58, size 0x8
-  __declspec(property(get = __get__bloomPrePassGraphicsSettingsPresets,
-                      put = __set__bloomPrePassGraphicsSettingsPresets))::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* _bloomPrePassGraphicsSettingsPresets;
+  __declspec(property(get = __cordl_internal_get__bloomPrePassGraphicsSettingsPresets,
+                      put = __cordl_internal_set__bloomPrePassGraphicsSettingsPresets))::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO> _bloomPrePassGraphicsSettingsPresets;
 
   /// @brief Field _mirrorRenderer, offset 0x60, size 0x8
-  __declspec(property(get = __get__mirrorRenderer, put = __set__mirrorRenderer))::GlobalNamespace::MirrorRendererSO* _mirrorRenderer;
+  __declspec(property(get = __cordl_internal_get__mirrorRenderer, put = __cordl_internal_set__mirrorRenderer))::UnityW<::GlobalNamespace::MirrorRendererSO> _mirrorRenderer;
 
   /// @brief Field _mainEffectContainer, offset 0x68, size 0x8
-  __declspec(property(get = __get__mainEffectContainer, put = __set__mainEffectContainer))::GlobalNamespace::MainEffectContainerSO* _mainEffectContainer;
+  __declspec(property(get = __cordl_internal_get__mainEffectContainer, put = __cordl_internal_set__mainEffectContainer))::UnityW<::GlobalNamespace::MainEffectContainerSO> _mainEffectContainer;
 
   /// @brief Field _bloomPrePassEffectContainer, offset 0x70, size 0x8
-  __declspec(property(get = __get__bloomPrePassEffectContainer, put = __set__bloomPrePassEffectContainer))::GlobalNamespace::BloomPrePassEffectContainerSO* _bloomPrePassEffectContainer;
+  __declspec(property(get = __cordl_internal_get__bloomPrePassEffectContainer,
+                      put = __cordl_internal_set__bloomPrePassEffectContainer))::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> _bloomPrePassEffectContainer;
 
   /// @brief Field _bakedLightDataLoaderPrefab, offset 0x78, size 0x8
-  __declspec(property(get = __get__bakedLightDataLoaderPrefab, put = __set__bakedLightDataLoaderPrefab))::GlobalNamespace::BakedLightDataLoader* _bakedLightDataLoaderPrefab;
+  __declspec(property(get = __cordl_internal_get__bakedLightDataLoaderPrefab,
+                      put = __cordl_internal_set__bakedLightDataLoaderPrefab))::UnityW<::GlobalNamespace::BakedLightDataLoader> _bakedLightDataLoaderPrefab;
 
   /// @brief Field _bakedReflectionProbePrefab, offset 0x80, size 0x8
-  __declspec(property(get = __get__bakedReflectionProbePrefab, put = __set__bakedReflectionProbePrefab))::GlobalNamespace::BakedReflectionProbe* _bakedReflectionProbePrefab;
+  __declspec(property(get = __cordl_internal_get__bakedReflectionProbePrefab,
+                      put = __cordl_internal_set__bakedReflectionProbePrefab))::UnityW<::GlobalNamespace::BakedReflectionProbe> _bakedReflectionProbePrefab;
 
   /// @brief Field _lightmapLightsWithIds, offset 0x88, size 0x8
-  __declspec(property(get = __get__lightmapLightsWithIds, put = __set__lightmapLightsWithIds))::GlobalNamespace::LightmapLightsWithIds* _lightmapLightsWithIds;
+  __declspec(property(get = __cordl_internal_get__lightmapLightsWithIds, put = __cordl_internal_set__lightmapLightsWithIds))::UnityW<::GlobalNamespace::LightmapLightsWithIds> _lightmapLightsWithIds;
 
   /// @brief Field _fakeMirrorObjectsInstallerPrefab, offset 0x90, size 0x8
-  __declspec(property(get = __get__fakeMirrorObjectsInstallerPrefab, put = __set__fakeMirrorObjectsInstallerPrefab))::GlobalNamespace::FakeMirrorObjectsInstaller* _fakeMirrorObjectsInstallerPrefab;
+  __declspec(property(get = __cordl_internal_get__fakeMirrorObjectsInstallerPrefab,
+                      put = __cordl_internal_set__fakeMirrorObjectsInstallerPrefab))::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller> _fakeMirrorObjectsInstallerPrefab;
 
   /// @brief Field _fakeMirrorSettingsPrefab, offset 0x98, size 0x8
-  __declspec(property(get = __get__fakeMirrorSettingsPrefab, put = __set__fakeMirrorSettingsPrefab))::GlobalNamespace::FakeMirrorSettings* _fakeMirrorSettingsPrefab;
+  __declspec(property(get = __cordl_internal_get__fakeMirrorSettingsPrefab,
+                      put = __cordl_internal_set__fakeMirrorSettingsPrefab))::UnityW<::GlobalNamespace::FakeMirrorSettings> _fakeMirrorSettingsPrefab;
 
   /// @brief Field _defaultDepthOnlyWriteMaterialForFakeMirror, offset 0xa0, size 0x8
-  __declspec(property(get = __get__defaultDepthOnlyWriteMaterialForFakeMirror,
-                      put = __set__defaultDepthOnlyWriteMaterialForFakeMirror))::UnityEngine::Material* _defaultDepthOnlyWriteMaterialForFakeMirror;
+  __declspec(property(get = __cordl_internal_get__defaultDepthOnlyWriteMaterialForFakeMirror,
+                      put = __cordl_internal_set__defaultDepthOnlyWriteMaterialForFakeMirror))::UnityW<::UnityEngine::Material> _defaultDepthOnlyWriteMaterialForFakeMirror;
 
   __declspec(property(get = get_reflectionsCount, put = set_reflectionsCount)) int32_t reflectionsCount;
 
@@ -135,127 +142,127 @@ public:
 
   __declspec(property(get = get_bakedLightEditorColors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> bakedLightEditorColors;
 
-  __declspec(property(get = get_defaultDepthOnlyWriteMaterialForFakeMirror))::UnityEngine::Material* defaultDepthOnlyWriteMaterialForFakeMirror;
+  __declspec(property(get = get_defaultDepthOnlyWriteMaterialForFakeMirror))::UnityW<::UnityEngine::Material> defaultDepthOnlyWriteMaterialForFakeMirror;
 
   __declspec(property(get = get_mainEffectForBakingIsOn, put = set_mainEffectForBakingIsOn)) bool mainEffectForBakingIsOn;
 
-  __declspec(property(get = get_bakedLightDataLoaderPrefab))::GlobalNamespace::BakedLightDataLoader* bakedLightDataLoaderPrefab;
+  __declspec(property(get = get_bakedLightDataLoaderPrefab))::UnityW<::GlobalNamespace::BakedLightDataLoader> bakedLightDataLoaderPrefab;
 
-  __declspec(property(get = get_bakedReflectionProbePrefab))::GlobalNamespace::BakedReflectionProbe* bakedReflectionProbePrefab;
+  __declspec(property(get = get_bakedReflectionProbePrefab))::UnityW<::GlobalNamespace::BakedReflectionProbe> bakedReflectionProbePrefab;
 
-  __declspec(property(get = get_lightmapLightsWithIds))::GlobalNamespace::LightmapLightsWithIds* lightmapLightsWithIds;
+  __declspec(property(get = get_lightmapLightsWithIds))::UnityW<::GlobalNamespace::LightmapLightsWithIds> lightmapLightsWithIds;
 
-  __declspec(property(get = get_fakeMirrorObjectsInstallerPrefab))::GlobalNamespace::FakeMirrorObjectsInstaller* fakeMirrorObjectsInstallerPrefab;
+  __declspec(property(get = get_fakeMirrorObjectsInstallerPrefab))::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller> fakeMirrorObjectsInstallerPrefab;
 
-  __declspec(property(get = get_fakeMirrorSettingsPrefab))::GlobalNamespace::FakeMirrorSettings* fakeMirrorSettingsPrefab;
+  __declspec(property(get = get_fakeMirrorSettingsPrefab))::UnityW<::GlobalNamespace::FakeMirrorSettings> fakeMirrorSettingsPrefab;
 
-  constexpr int32_t& __get__reflectionsCount();
+  constexpr int32_t& __cordl_internal_get__reflectionsCount();
 
-  constexpr int32_t const& __get__reflectionsCount() const;
+  constexpr int32_t const& __cordl_internal_get__reflectionsCount() const;
 
-  constexpr void __set__reflectionsCount(int32_t value);
+  constexpr void __cordl_internal_set__reflectionsCount(int32_t value);
 
-  constexpr ::GlobalNamespace::BloomPrePassEffectSO*& __get__bloomPrePassEffectToneMappingOff();
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO>& __cordl_internal_get__bloomPrePassEffectToneMappingOff();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassEffectSO*> const& __get__bloomPrePassEffectToneMappingOff() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> const& __cordl_internal_get__bloomPrePassEffectToneMappingOff() const;
 
-  constexpr void __set__bloomPrePassEffectToneMappingOff(::GlobalNamespace::BloomPrePassEffectSO* value);
+  constexpr void __cordl_internal_set__bloomPrePassEffectToneMappingOff(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value);
 
-  constexpr ::GlobalNamespace::MainEffectSO*& __get__mainEffectForBaking();
+  constexpr ::UnityW<::GlobalNamespace::MainEffectSO>& __cordl_internal_get__mainEffectForBaking();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainEffectSO*> const& __get__mainEffectForBaking() const;
+  constexpr ::UnityW<::GlobalNamespace::MainEffectSO> const& __cordl_internal_get__mainEffectForBaking() const;
 
-  constexpr void __set__mainEffectForBaking(::GlobalNamespace::MainEffectSO* value);
+  constexpr void __cordl_internal_set__mainEffectForBaking(::UnityW<::GlobalNamespace::MainEffectSO> value);
 
-  constexpr float_t& __get__colorFromSchemeAlpha();
+  constexpr float_t& __cordl_internal_get__colorFromSchemeAlpha();
 
-  constexpr float_t const& __get__colorFromSchemeAlpha() const;
+  constexpr float_t const& __cordl_internal_get__colorFromSchemeAlpha() const;
 
-  constexpr void __set__colorFromSchemeAlpha(float_t value);
+  constexpr void __cordl_internal_set__colorFromSchemeAlpha(float_t value);
 
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __get__bakedLightEditorColors();
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __cordl_internal_get__bakedLightEditorColors();
 
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __get__bakedLightEditorColors() const;
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __cordl_internal_get__bakedLightEditorColors() const;
 
-  constexpr void __set__bakedLightEditorColors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
+  constexpr void __cordl_internal_set__bakedLightEditorColors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
 
-  constexpr ::GlobalNamespace::MainSettingsModelSO*& __get__mainSettingsModel();
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsModelSO*> const& __get__mainSettingsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
 
-  constexpr void __set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO* value);
+  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
-  constexpr ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*& __get__mirrorRendererGraphicsSettingsPresets();
+  constexpr ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets>& __cordl_internal_get__mirrorRendererGraphicsSettingsPresets();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets*> const& __get__mirrorRendererGraphicsSettingsPresets() const;
+  constexpr ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> const& __cordl_internal_get__mirrorRendererGraphicsSettingsPresets() const;
 
-  constexpr void __set__mirrorRendererGraphicsSettingsPresets(::GlobalNamespace::MirrorRendererGraphicsSettingsPresets* value);
+  constexpr void __cordl_internal_set__mirrorRendererGraphicsSettingsPresets(::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> value);
 
-  constexpr ::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*& __get__mainEffectGraphicsSettingsPresets();
+  constexpr ::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO>& __cordl_internal_get__mainEffectGraphicsSettingsPresets();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO*> const& __get__mainEffectGraphicsSettingsPresets() const;
+  constexpr ::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO> const& __cordl_internal_get__mainEffectGraphicsSettingsPresets() const;
 
-  constexpr void __set__mainEffectGraphicsSettingsPresets(::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO* value);
+  constexpr void __cordl_internal_set__mainEffectGraphicsSettingsPresets(::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO> value);
 
-  constexpr ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*& __get__bloomPrePassGraphicsSettingsPresets();
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO>& __cordl_internal_get__bloomPrePassGraphicsSettingsPresets();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*> const& __get__bloomPrePassGraphicsSettingsPresets() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO> const& __cordl_internal_get__bloomPrePassGraphicsSettingsPresets() const;
 
-  constexpr void __set__bloomPrePassGraphicsSettingsPresets(::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* value);
+  constexpr void __cordl_internal_set__bloomPrePassGraphicsSettingsPresets(::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO> value);
 
-  constexpr ::GlobalNamespace::MirrorRendererSO*& __get__mirrorRenderer();
+  constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO>& __cordl_internal_get__mirrorRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirrorRendererSO*> const& __get__mirrorRenderer() const;
+  constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO> const& __cordl_internal_get__mirrorRenderer() const;
 
-  constexpr void __set__mirrorRenderer(::GlobalNamespace::MirrorRendererSO* value);
+  constexpr void __cordl_internal_set__mirrorRenderer(::UnityW<::GlobalNamespace::MirrorRendererSO> value);
 
-  constexpr ::GlobalNamespace::MainEffectContainerSO*& __get__mainEffectContainer();
+  constexpr ::UnityW<::GlobalNamespace::MainEffectContainerSO>& __cordl_internal_get__mainEffectContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainEffectContainerSO*> const& __get__mainEffectContainer() const;
+  constexpr ::UnityW<::GlobalNamespace::MainEffectContainerSO> const& __cordl_internal_get__mainEffectContainer() const;
 
-  constexpr void __set__mainEffectContainer(::GlobalNamespace::MainEffectContainerSO* value);
+  constexpr void __cordl_internal_set__mainEffectContainer(::UnityW<::GlobalNamespace::MainEffectContainerSO> value);
 
-  constexpr ::GlobalNamespace::BloomPrePassEffectContainerSO*& __get__bloomPrePassEffectContainer();
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>& __cordl_internal_get__bloomPrePassEffectContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassEffectContainerSO*> const& __get__bloomPrePassEffectContainer() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> const& __cordl_internal_get__bloomPrePassEffectContainer() const;
 
-  constexpr void __set__bloomPrePassEffectContainer(::GlobalNamespace::BloomPrePassEffectContainerSO* value);
+  constexpr void __cordl_internal_set__bloomPrePassEffectContainer(::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> value);
 
-  constexpr ::GlobalNamespace::BakedLightDataLoader*& __get__bakedLightDataLoaderPrefab();
+  constexpr ::UnityW<::GlobalNamespace::BakedLightDataLoader>& __cordl_internal_get__bakedLightDataLoaderPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BakedLightDataLoader*> const& __get__bakedLightDataLoaderPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::BakedLightDataLoader> const& __cordl_internal_get__bakedLightDataLoaderPrefab() const;
 
-  constexpr void __set__bakedLightDataLoaderPrefab(::GlobalNamespace::BakedLightDataLoader* value);
+  constexpr void __cordl_internal_set__bakedLightDataLoaderPrefab(::UnityW<::GlobalNamespace::BakedLightDataLoader> value);
 
-  constexpr ::GlobalNamespace::BakedReflectionProbe*& __get__bakedReflectionProbePrefab();
+  constexpr ::UnityW<::GlobalNamespace::BakedReflectionProbe>& __cordl_internal_get__bakedReflectionProbePrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BakedReflectionProbe*> const& __get__bakedReflectionProbePrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::BakedReflectionProbe> const& __cordl_internal_get__bakedReflectionProbePrefab() const;
 
-  constexpr void __set__bakedReflectionProbePrefab(::GlobalNamespace::BakedReflectionProbe* value);
+  constexpr void __cordl_internal_set__bakedReflectionProbePrefab(::UnityW<::GlobalNamespace::BakedReflectionProbe> value);
 
-  constexpr ::GlobalNamespace::LightmapLightsWithIds*& __get__lightmapLightsWithIds();
+  constexpr ::UnityW<::GlobalNamespace::LightmapLightsWithIds>& __cordl_internal_get__lightmapLightsWithIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightmapLightsWithIds*> const& __get__lightmapLightsWithIds() const;
+  constexpr ::UnityW<::GlobalNamespace::LightmapLightsWithIds> const& __cordl_internal_get__lightmapLightsWithIds() const;
 
-  constexpr void __set__lightmapLightsWithIds(::GlobalNamespace::LightmapLightsWithIds* value);
+  constexpr void __cordl_internal_set__lightmapLightsWithIds(::UnityW<::GlobalNamespace::LightmapLightsWithIds> value);
 
-  constexpr ::GlobalNamespace::FakeMirrorObjectsInstaller*& __get__fakeMirrorObjectsInstallerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller>& __cordl_internal_get__fakeMirrorObjectsInstallerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FakeMirrorObjectsInstaller*> const& __get__fakeMirrorObjectsInstallerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller> const& __cordl_internal_get__fakeMirrorObjectsInstallerPrefab() const;
 
-  constexpr void __set__fakeMirrorObjectsInstallerPrefab(::GlobalNamespace::FakeMirrorObjectsInstaller* value);
+  constexpr void __cordl_internal_set__fakeMirrorObjectsInstallerPrefab(::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller> value);
 
-  constexpr ::GlobalNamespace::FakeMirrorSettings*& __get__fakeMirrorSettingsPrefab();
+  constexpr ::UnityW<::GlobalNamespace::FakeMirrorSettings>& __cordl_internal_get__fakeMirrorSettingsPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FakeMirrorSettings*> const& __get__fakeMirrorSettingsPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::FakeMirrorSettings> const& __cordl_internal_get__fakeMirrorSettingsPrefab() const;
 
-  constexpr void __set__fakeMirrorSettingsPrefab(::GlobalNamespace::FakeMirrorSettings* value);
+  constexpr void __cordl_internal_set__fakeMirrorSettingsPrefab(::UnityW<::GlobalNamespace::FakeMirrorSettings> value);
 
-  constexpr ::UnityEngine::Material*& __get__defaultDepthOnlyWriteMaterialForFakeMirror();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__defaultDepthOnlyWriteMaterialForFakeMirror();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__defaultDepthOnlyWriteMaterialForFakeMirror() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__defaultDepthOnlyWriteMaterialForFakeMirror() const;
 
-  constexpr void __set__defaultDepthOnlyWriteMaterialForFakeMirror(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__defaultDepthOnlyWriteMaterialForFakeMirror(::UnityW<::UnityEngine::Material> value);
 
   /// @brief Method get_reflectionsCount, addr 0x22f79c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_reflectionsCount();
@@ -273,7 +280,7 @@ public:
   inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> get_bakedLightEditorColors();
 
   /// @brief Method get_defaultDepthOnlyWriteMaterialForFakeMirror, addr 0x22f79ec, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* get_defaultDepthOnlyWriteMaterialForFakeMirror();
+  inline ::UnityW<::UnityEngine::Material> get_defaultDepthOnlyWriteMaterialForFakeMirror();
 
   /// @brief Method get_mainEffectForBakingIsOn, addr 0x22f79f4, size 0x70, virtual false, abstract: false, final false
   inline bool get_mainEffectForBakingIsOn();
@@ -282,19 +289,19 @@ public:
   inline void set_mainEffectForBakingIsOn(bool value);
 
   /// @brief Method get_bakedLightDataLoaderPrefab, addr 0x22f7b14, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BakedLightDataLoader* get_bakedLightDataLoaderPrefab();
+  inline ::UnityW<::GlobalNamespace::BakedLightDataLoader> get_bakedLightDataLoaderPrefab();
 
   /// @brief Method get_bakedReflectionProbePrefab, addr 0x22f7b1c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BakedReflectionProbe* get_bakedReflectionProbePrefab();
+  inline ::UnityW<::GlobalNamespace::BakedReflectionProbe> get_bakedReflectionProbePrefab();
 
   /// @brief Method get_lightmapLightsWithIds, addr 0x22f7b24, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::LightmapLightsWithIds* get_lightmapLightsWithIds();
+  inline ::UnityW<::GlobalNamespace::LightmapLightsWithIds> get_lightmapLightsWithIds();
 
   /// @brief Method get_fakeMirrorObjectsInstallerPrefab, addr 0x22f7b2c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::FakeMirrorObjectsInstaller* get_fakeMirrorObjectsInstallerPrefab();
+  inline ::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller> get_fakeMirrorObjectsInstallerPrefab();
 
   /// @brief Method get_fakeMirrorSettingsPrefab, addr 0x22f7b34, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::FakeMirrorSettings* get_fakeMirrorSettingsPrefab();
+  inline ::UnityW<::GlobalNamespace::FakeMirrorSettings> get_fakeMirrorSettingsPrefab();
 
   /// @brief Method SetGraphicsSettingsForBaking, addr 0x22f7b3c, size 0x254, virtual false, abstract: false, final false
   inline void SetGraphicsSettingsForBaking();
@@ -331,10 +338,10 @@ public:
   int32_t ____reflectionsCount;
 
   /// @brief Field _bloomPrePassEffectToneMappingOff, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BloomPrePassEffectSO* ____bloomPrePassEffectToneMappingOff;
+  ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> ____bloomPrePassEffectToneMappingOff;
 
   /// @brief Field _mainEffectForBaking, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MainEffectSO* ____mainEffectForBaking;
+  ::UnityW<::GlobalNamespace::MainEffectSO> ____mainEffectForBaking;
 
   /// @brief Field _colorFromSchemeAlpha, offset: 0x30, size: 0x4, def value: None
   float_t ____colorFromSchemeAlpha;
@@ -343,43 +350,43 @@ public:
   ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> ____bakedLightEditorColors;
 
   /// @brief Field _mainSettingsModel, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::MainSettingsModelSO* ____mainSettingsModel;
+  ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
 
   /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::MirrorRendererGraphicsSettingsPresets* ____mirrorRendererGraphicsSettingsPresets;
+  ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> ____mirrorRendererGraphicsSettingsPresets;
 
   /// @brief Field _mainEffectGraphicsSettingsPresets, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO* ____mainEffectGraphicsSettingsPresets;
+  ::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO> ____mainEffectGraphicsSettingsPresets;
 
   /// @brief Field _bloomPrePassGraphicsSettingsPresets, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO* ____bloomPrePassGraphicsSettingsPresets;
+  ::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO> ____bloomPrePassGraphicsSettingsPresets;
 
   /// @brief Field _mirrorRenderer, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::MirrorRendererSO* ____mirrorRenderer;
+  ::UnityW<::GlobalNamespace::MirrorRendererSO> ____mirrorRenderer;
 
   /// @brief Field _mainEffectContainer, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::MainEffectContainerSO* ____mainEffectContainer;
+  ::UnityW<::GlobalNamespace::MainEffectContainerSO> ____mainEffectContainer;
 
   /// @brief Field _bloomPrePassEffectContainer, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::BloomPrePassEffectContainerSO* ____bloomPrePassEffectContainer;
+  ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> ____bloomPrePassEffectContainer;
 
   /// @brief Field _bakedLightDataLoaderPrefab, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::BakedLightDataLoader* ____bakedLightDataLoaderPrefab;
+  ::UnityW<::GlobalNamespace::BakedLightDataLoader> ____bakedLightDataLoaderPrefab;
 
   /// @brief Field _bakedReflectionProbePrefab, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::BakedReflectionProbe* ____bakedReflectionProbePrefab;
+  ::UnityW<::GlobalNamespace::BakedReflectionProbe> ____bakedReflectionProbePrefab;
 
   /// @brief Field _lightmapLightsWithIds, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::LightmapLightsWithIds* ____lightmapLightsWithIds;
+  ::UnityW<::GlobalNamespace::LightmapLightsWithIds> ____lightmapLightsWithIds;
 
   /// @brief Field _fakeMirrorObjectsInstallerPrefab, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::FakeMirrorObjectsInstaller* ____fakeMirrorObjectsInstallerPrefab;
+  ::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller> ____fakeMirrorObjectsInstallerPrefab;
 
   /// @brief Field _fakeMirrorSettingsPrefab, offset: 0x98, size: 0x8, def value: None
-  ::GlobalNamespace::FakeMirrorSettings* ____fakeMirrorSettingsPrefab;
+  ::UnityW<::GlobalNamespace::FakeMirrorSettings> ____fakeMirrorSettingsPrefab;
 
   /// @brief Field _defaultDepthOnlyWriteMaterialForFakeMirror, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::Material* ____defaultDepthOnlyWriteMaterialForFakeMirror;
+  ::UnityW<::UnityEngine::Material> ____defaultDepthOnlyWriteMaterialForFakeMirror;
 
   /// @brief Field kDefaultMirrorGraphicsSettings offset 0xffffffff size 0x4
   static constexpr int32_t kDefaultMirrorGraphicsSettings{ static_cast<int32_t>(0x0) };

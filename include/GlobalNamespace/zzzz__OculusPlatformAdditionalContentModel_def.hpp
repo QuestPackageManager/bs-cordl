@@ -154,9 +154,9 @@ MARK_VAL_T(::GlobalNamespace::__OculusPlatformAdditionalContentModel___OpenLevel
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(16270)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4107)) CS Name: ::OculusPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__10
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 397 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4107)) CS Name: ::OculusPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__10
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__10 {
 public:
   // Declarations
@@ -243,9 +243,9 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(16270))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4108)) CS Name: ::OculusPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__14
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 880 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4108)) CS Name: ::OculusPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__14
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__14 {
 public:
   // Declarations
@@ -318,9 +318,9 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4109)) CS Name: ::OculusPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__15
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 880 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4109)) CS Name: ::OculusPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__15
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__15 {
 public:
   // Declarations
@@ -393,9 +393,10 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 903 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(4097)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4110)) CS Name: ::OculusPlatformAdditionalContentModel::<IsDataValidAsync>d__16
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4097)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 903 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4110)) CS Name:
+// ::OculusPlatformAdditionalContentModel::<IsDataValidAsync>d__16
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___IsDataValidAsync_d__16 {
 public:
   // Declarations
@@ -468,10 +469,10 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(13475)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5058 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 1182 }), TypeDefinitionIndex(TypeDefinitionIndex(16271)), TypeDefinitionIndex(TypeDefinitionIndex(13262))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4111)) CS Name: ::OculusPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__17
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13475)), TypeDefinitionIndex(TypeDefinitionIndex(16271)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 5058 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(13262), inst: 1182 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4111)) CS Name: ::OculusPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__17
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__17 {
 public:
   // Declarations
@@ -544,11 +545,11 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13475)), TypeDefinitionIndex(TypeDefinitionIndex(16271)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 1182 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5058 }), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4112)) CS
-// Name: ::OculusPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__18
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13262)), TypeDefinitionIndex(TypeDefinitionIndex(13475)), TypeDefinitionIndex(TypeDefinitionIndex(16271)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 397 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5058 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 895 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 1182 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4112)) CS Name:
+// ::OculusPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__18
 struct CORDL_TYPE __OculusPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__18 {
 public:
   // Declarations
@@ -628,23 +629,22 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4113))
 // CS Name: ::OculusPlatformAdditionalContentModel::<>c__DisplayClass19_0*
 class CORDL_TYPE __OculusPlatformAdditionalContentModel____c__DisplayClass19_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field launchCheckoutFlowTaskSource, offset 0x10, size 0x8
-  __declspec(property(
-      get = __get_launchCheckoutFlowTaskSource,
-      put = __set_launchCheckoutFlowTaskSource))::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* launchCheckoutFlowTaskSource;
+  __declspec(property(get = __cordl_internal_get_launchCheckoutFlowTaskSource, put = __cordl_internal_set_launchCheckoutFlowTaskSource))::System::Threading::Tasks::TaskCompletionSource_1<
+      ::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* launchCheckoutFlowTaskSource;
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>*& __get_launchCheckoutFlowTaskSource();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>*& __cordl_internal_get_launchCheckoutFlowTaskSource();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>*> const&
-  __get_launchCheckoutFlowTaskSource() const;
+  __cordl_internal_get_launchCheckoutFlowTaskSource() const;
 
-  constexpr void __set_launchCheckoutFlowTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* value);
+  constexpr void __cordl_internal_set_launchCheckoutFlowTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::Purchase*>*>* value);
 
   static inline ::GlobalNamespace::__OculusPlatformAdditionalContentModel____c__DisplayClass19_0* New_ctor();
 
@@ -683,50 +683,49 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4114))
 // CS Name: ::OculusPlatformAdditionalContentModel::<>c__DisplayClass21_0*
 class CORDL_TYPE __OculusPlatformAdditionalContentModel____c__DisplayClass21_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field cancellationToken, offset 0x10, size 0x8
-  __declspec(property(get = __get_cancellationToken, put = __set_cancellationToken))::System::Threading::CancellationToken cancellationToken;
+  __declspec(property(get = __cordl_internal_get_cancellationToken, put = __cordl_internal_set_cancellationToken))::System::Threading::CancellationToken cancellationToken;
 
   /// @brief Field getViewerPurchasesTaskSource, offset 0x18, size 0x8
-  __declspec(property(
-      get = __get_getViewerPurchasesTaskSource,
-      put = __set_getViewerPurchasesTaskSource))::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>* getViewerPurchasesTaskSource;
+  __declspec(property(get = __cordl_internal_get_getViewerPurchasesTaskSource, put = __cordl_internal_set_getViewerPurchasesTaskSource))::System::Threading::Tasks::TaskCompletionSource_1<
+      ::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>* getViewerPurchasesTaskSource;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusPlatformAdditionalContentModel* __4__this;
 
   /// @brief Field <>9__1, offset 0x28, size 0x8
-  __declspec(property(get = __get___9__1, put = __set___9__1))::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PurchaseList*>* __9__1;
+  __declspec(property(get = __cordl_internal_get___9__1, put = __cordl_internal_set___9__1))::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PurchaseList*>* __9__1;
 
-  constexpr ::System::Threading::CancellationToken& __get_cancellationToken();
+  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_cancellationToken();
 
-  constexpr ::System::Threading::CancellationToken const& __get_cancellationToken() const;
+  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
 
-  constexpr void __set_cancellationToken(::System::Threading::CancellationToken value);
+  constexpr void __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value);
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>*& __get_getViewerPurchasesTaskSource();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>*& __cordl_internal_get_getViewerPurchasesTaskSource();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>*> const&
-  __get_getViewerPurchasesTaskSource() const;
+  __cordl_internal_get_getViewerPurchasesTaskSource() const;
 
-  constexpr void __set_getViewerPurchasesTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>* value);
+  constexpr void __cordl_internal_set_getViewerPurchasesTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult>* value);
 
-  constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel*& __get___4__this();
+  constexpr ::GlobalNamespace::OculusPlatformAdditionalContentModel*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusPlatformAdditionalContentModel*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusPlatformAdditionalContentModel*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::OculusPlatformAdditionalContentModel* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::OculusPlatformAdditionalContentModel* value);
 
-  constexpr ::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PurchaseList*>*& __get___9__1();
+  constexpr ::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PurchaseList*>*& __cordl_internal_get___9__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PurchaseList*>*> const& __get___9__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PurchaseList*>*> const& __cordl_internal_get___9__1() const;
 
-  constexpr void __set___9__1(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PurchaseList*>* value);
+  constexpr void __cordl_internal_set___9__1(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PurchaseList*>* value);
 
   static inline ::GlobalNamespace::__OculusPlatformAdditionalContentModel____c__DisplayClass21_0* New_ctor();
 
@@ -783,7 +782,7 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformAdditionalContentModel
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4100))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4100))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4115))
 // CS Name: ::OculusPlatformAdditionalContentModel*
 class CORDL_TYPE OculusPlatformAdditionalContentModel : public ::GlobalNamespace::AdditionalContentModel {
@@ -806,75 +805,74 @@ public:
   using _GetRedirectedLevelPackProductData_d__10 = ::GlobalNamespace::__OculusPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__10;
 
   /// @brief Field _entitlementsSKU, offset 0x28, size 0x8
-  __declspec(property(get = __get__entitlementsSKU, put = __set__entitlementsSKU))::System::Collections::Generic::HashSet_1<::StringW>* _entitlementsSKU;
+  __declspec(property(get = __cordl_internal_get__entitlementsSKU, put = __cordl_internal_set__entitlementsSKU))::System::Collections::Generic::HashSet_1<::StringW>* _entitlementsSKU;
 
   /// @brief Field _semaphoreSlim, offset 0x30, size 0x8
-  __declspec(property(get = __get__semaphoreSlim, put = __set__semaphoreSlim))::System::Threading::SemaphoreSlim* _semaphoreSlim;
+  __declspec(property(get = __cordl_internal_get__semaphoreSlim, put = __cordl_internal_set__semaphoreSlim))::System::Threading::SemaphoreSlim* _semaphoreSlim;
 
   /// @brief Field _isDataValid, offset 0x38, size 0x1
-  __declspec(property(get = __get__isDataValid, put = __set__isDataValid)) bool _isDataValid;
+  __declspec(property(get = __cordl_internal_get__isDataValid, put = __cordl_internal_set__isDataValid)) bool _isDataValid;
 
   /// @brief Field _levelIdToProductData, offset 0x40, size 0x8
-  __declspec(
-      property(get = __get__levelIdToProductData,
-               put = __set__levelIdToProductData))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*>* _levelIdToProductData;
+  __declspec(property(get = __cordl_internal_get__levelIdToProductData, put = __cordl_internal_set__levelIdToProductData))::System::Collections::Generic::Dictionary_2<
+      ::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*>* _levelIdToProductData;
 
   /// @brief Field _levelPackIdToProductData, offset 0x48, size 0x8
-  __declspec(property(
-      get = __get__levelPackIdToProductData,
-      put = __set__levelPackIdToProductData))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>* _levelPackIdToProductData;
+  __declspec(property(get = __cordl_internal_get__levelPackIdToProductData, put = __cordl_internal_set__levelPackIdToProductData))::System::Collections::Generic::Dictionary_2<
+      ::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>* _levelPackIdToProductData;
 
   /// @brief Field _levelPackRedirectionData, offset 0x50, size 0x8
-  __declspec(property(get = __get__levelPackRedirectionData, put = __set__levelPackRedirectionData))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get__levelPackRedirectionData, put = __cordl_internal_set__levelPackRedirectionData))::System::Collections::Generic::Dictionary_2<
       ::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*>* _levelPackRedirectionData;
 
   /// @brief Field _assetFileToSku, offset 0x58, size 0x8
-  __declspec(property(get = __get__assetFileToSku, put = __set__assetFileToSku))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _assetFileToSku;
+  __declspec(property(get = __cordl_internal_get__assetFileToSku, put = __cordl_internal_set__assetFileToSku))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _assetFileToSku;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __get__entitlementsSKU();
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__entitlementsSKU();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __get__entitlementsSKU() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__entitlementsSKU() const;
 
-  constexpr void __set__entitlementsSKU(::System::Collections::Generic::HashSet_1<::StringW>* value);
+  constexpr void __cordl_internal_set__entitlementsSKU(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  constexpr ::System::Threading::SemaphoreSlim*& __get__semaphoreSlim();
+  constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__semaphoreSlim();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __get__semaphoreSlim() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__semaphoreSlim() const;
 
-  constexpr void __set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
+  constexpr void __cordl_internal_set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
 
-  constexpr bool& __get__isDataValid();
+  constexpr bool& __cordl_internal_get__isDataValid();
 
-  constexpr bool const& __get__isDataValid() const;
+  constexpr bool const& __cordl_internal_get__isDataValid() const;
 
-  constexpr void __set__isDataValid(bool value);
+  constexpr void __cordl_internal_set__isDataValid(bool value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*>*& __get__levelIdToProductData();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*>*& __cordl_internal_get__levelIdToProductData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*>*> const&
-  __get__levelIdToProductData() const;
+  __cordl_internal_get__levelIdToProductData() const;
 
-  constexpr void __set__levelIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*>* value);
+  constexpr void __cordl_internal_set__levelIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelProductData*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>*& __get__levelPackIdToProductData();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>*& __cordl_internal_get__levelPackIdToProductData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>*> const&
-  __get__levelPackIdToProductData() const;
+  __cordl_internal_get__levelPackIdToProductData() const;
 
-  constexpr void __set__levelPackIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>* value);
+  constexpr void __cordl_internal_set__levelPackIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackProductData*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*>*& __get__levelPackRedirectionData();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*>*& __cordl_internal_get__levelPackRedirectionData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*>*> const&
-  __get__levelPackRedirectionData() const;
+  __cordl_internal_get__levelPackRedirectionData() const;
 
-  constexpr void __set__levelPackRedirectionData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*>* value);
+  constexpr void
+  __cordl_internal_set__levelPackRedirectionData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__OculusLevelProductsModelSO__LevelPackRedirectionData*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __get__assetFileToSku();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __cordl_internal_get__assetFileToSku();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> const& __get__assetFileToSku() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> const& __cordl_internal_get__assetFileToSku() const;
 
-  constexpr void __set__assetFileToSku(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
+  constexpr void __cordl_internal_set__assetFileToSku(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
 
   static inline ::GlobalNamespace::OculusPlatformAdditionalContentModel* New_ctor(::GlobalNamespace::OculusLevelProductsModelSO* oculusLevelProductsModel,
                                                                                   ::GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer);

@@ -23,26 +23,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::XteaEngine);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(885))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::XteaEngine*
 class CORDL_TYPE XteaEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _S, offset 0x10, size 0x8
-  __declspec(property(get = __get__S, put = __set__S))::ArrayW<uint32_t, ::Array<uint32_t>*> _S;
+  __declspec(property(get = __cordl_internal_get__S, put = __cordl_internal_set__S))::ArrayW<uint32_t, ::Array<uint32_t>*> _S;
 
   /// @brief Field _sum0, offset 0x18, size 0x8
-  __declspec(property(get = __get__sum0, put = __set__sum0))::ArrayW<uint32_t, ::Array<uint32_t>*> _sum0;
+  __declspec(property(get = __cordl_internal_get__sum0, put = __cordl_internal_set__sum0))::ArrayW<uint32_t, ::Array<uint32_t>*> _sum0;
 
   /// @brief Field _sum1, offset 0x20, size 0x8
-  __declspec(property(get = __get__sum1, put = __set__sum1))::ArrayW<uint32_t, ::Array<uint32_t>*> _sum1;
+  __declspec(property(get = __cordl_internal_get__sum1, put = __cordl_internal_set__sum1))::ArrayW<uint32_t, ::Array<uint32_t>*> _sum1;
 
   /// @brief Field _initialised, offset 0x28, size 0x1
-  __declspec(property(get = __get__initialised, put = __set__initialised)) bool _initialised;
+  __declspec(property(get = __cordl_internal_get__initialised, put = __cordl_internal_set__initialised)) bool _initialised;
 
   /// @brief Field _forEncryption, offset 0x29, size 0x1
-  __declspec(property(get = __get__forEncryption, put = __set__forEncryption)) bool _forEncryption;
+  __declspec(property(get = __cordl_internal_get__forEncryption, put = __cordl_internal_set__forEncryption)) bool _forEncryption;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -54,35 +54,35 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get__S();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get__S();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get__S() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__S() const;
 
-  constexpr void __set__S(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set__S(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get__sum0();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get__sum0();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get__sum0() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__sum0() const;
 
-  constexpr void __set__sum0(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set__sum0(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get__sum1();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get__sum1();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get__sum1() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__sum1() const;
 
-  constexpr void __set__sum1(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set__sum1(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr bool& __get__initialised();
+  constexpr bool& __cordl_internal_get__initialised();
 
-  constexpr bool const& __get__initialised() const;
+  constexpr bool const& __cordl_internal_get__initialised() const;
 
-  constexpr void __set__initialised(bool value);
+  constexpr void __cordl_internal_set__initialised(bool value);
 
-  constexpr bool& __get__forEncryption();
+  constexpr bool& __cordl_internal_get__forEncryption();
 
-  constexpr bool const& __get__forEncryption() const;
+  constexpr bool const& __cordl_internal_get__forEncryption() const;
 
-  constexpr void __set__forEncryption(bool value);
+  constexpr void __cordl_internal_set__forEncryption(bool value);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::XteaEngine* New_ctor();
 

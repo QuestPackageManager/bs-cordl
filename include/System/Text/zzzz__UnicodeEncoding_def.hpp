@@ -43,31 +43,31 @@ MARK_REF_PTR_T(::System::Text::__UnicodeEncoding__Decoder);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 54, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2835))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2835))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2866))
 // CS Name: ::UnicodeEncoding::Decoder*
 class CORDL_TYPE __UnicodeEncoding__Decoder : public ::System::Text::DecoderNLS {
 public:
   // Declarations
   /// @brief Field lastByte, offset 0x30, size 0x4
-  __declspec(property(get = __get_lastByte, put = __set_lastByte)) int32_t lastByte;
+  __declspec(property(get = __cordl_internal_get_lastByte, put = __cordl_internal_set_lastByte)) int32_t lastByte;
 
   /// @brief Field lastChar, offset 0x34, size 0x2
-  __declspec(property(get = __get_lastChar, put = __set_lastChar)) char16_t lastChar;
+  __declspec(property(get = __cordl_internal_get_lastChar, put = __cordl_internal_set_lastChar)) char16_t lastChar;
 
   __declspec(property(get = get_HasState)) bool HasState;
 
-  constexpr int32_t& __get_lastByte();
+  constexpr int32_t& __cordl_internal_get_lastByte();
 
-  constexpr int32_t const& __get_lastByte() const;
+  constexpr int32_t const& __cordl_internal_get_lastByte() const;
 
-  constexpr void __set_lastByte(int32_t value);
+  constexpr void __cordl_internal_set_lastByte(int32_t value);
 
-  constexpr char16_t& __get_lastChar();
+  constexpr char16_t& __cordl_internal_get_lastChar();
 
-  constexpr char16_t const& __get_lastChar() const;
+  constexpr char16_t const& __cordl_internal_get_lastChar() const;
 
-  constexpr void __set_lastChar(char16_t value);
+  constexpr void __cordl_internal_set_lastChar(char16_t value);
 
   static inline ::System::Text::__UnicodeEncoding__Decoder* New_ctor(::System::Text::UnicodeEncoding* encoding);
 
@@ -114,7 +114,7 @@ static_assert(offsetof(::System::Text::__UnicodeEncoding__Decoder, ___lastChar) 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 59, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2874))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2874))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2867))
 // CS Name: ::System.Text::UnicodeEncoding*
 class CORDL_TYPE UnicodeEncoding : public ::System::Text::Encoding {
@@ -123,13 +123,13 @@ public:
   using Decoder = ::System::Text::__UnicodeEncoding__Decoder;
 
   /// @brief Field isThrowException, offset 0x38, size 0x1
-  __declspec(property(get = __get_isThrowException, put = __set_isThrowException)) bool isThrowException;
+  __declspec(property(get = __cordl_internal_get_isThrowException, put = __cordl_internal_set_isThrowException)) bool isThrowException;
 
   /// @brief Field bigEndian, offset 0x39, size 0x1
-  __declspec(property(get = __get_bigEndian, put = __set_bigEndian)) bool bigEndian;
+  __declspec(property(get = __cordl_internal_get_bigEndian, put = __cordl_internal_set_bigEndian)) bool bigEndian;
 
   /// @brief Field byteOrderMark, offset 0x3a, size 0x1
-  __declspec(property(get = __get_byteOrderMark, put = __set_byteOrderMark)) bool byteOrderMark;
+  __declspec(property(get = __cordl_internal_get_byteOrderMark, put = __cordl_internal_set_byteOrderMark)) bool byteOrderMark;
 
   /// @brief Field s_bigEndianDefault, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_bigEndianDefault, put = setStaticF_s_bigEndianDefault))::System::Text::UnicodeEncoding* s_bigEndianDefault;
@@ -148,23 +148,23 @@ public:
 
   __declspec(property(get = get_Preamble))::System::ReadOnlySpan_1<uint8_t> Preamble;
 
-  constexpr bool& __get_isThrowException();
+  constexpr bool& __cordl_internal_get_isThrowException();
 
-  constexpr bool const& __get_isThrowException() const;
+  constexpr bool const& __cordl_internal_get_isThrowException() const;
 
-  constexpr void __set_isThrowException(bool value);
+  constexpr void __cordl_internal_set_isThrowException(bool value);
 
-  constexpr bool& __get_bigEndian();
+  constexpr bool& __cordl_internal_get_bigEndian();
 
-  constexpr bool const& __get_bigEndian() const;
+  constexpr bool const& __cordl_internal_get_bigEndian() const;
 
-  constexpr void __set_bigEndian(bool value);
+  constexpr void __cordl_internal_set_bigEndian(bool value);
 
-  constexpr bool& __get_byteOrderMark();
+  constexpr bool& __cordl_internal_get_byteOrderMark();
 
-  constexpr bool const& __get_byteOrderMark() const;
+  constexpr bool const& __cordl_internal_get_byteOrderMark() const;
 
-  constexpr void __set_byteOrderMark(bool value);
+  constexpr void __cordl_internal_set_byteOrderMark(bool value);
 
   static inline void setStaticF_s_bigEndianDefault(::System::Text::UnicodeEncoding* value);
 

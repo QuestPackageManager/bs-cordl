@@ -82,7 +82,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14312))
 // CS Name: ::HashSet`1::ElementCount<T>
 struct CORDL_TYPE __HashSet_1__ElementCount {
@@ -114,7 +114,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14313))
 // CS Name: ::HashSet`1::Slot<T>
 struct CORDL_TYPE __HashSet_1__Slot {
@@ -150,7 +150,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14314))
 // CS Name: ::HashSet`1::Enumerator<T>
 struct CORDL_TYPE __HashSet_1__Enumerator {
@@ -229,7 +229,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14315))
 // CS Name: ::System.Collections.Generic::HashSet`1<T>*
 class CORDL_TYPE HashSet_1 : public ::System::Object {
@@ -242,28 +242,29 @@ public:
   using ElementCount = ::System::Collections::Generic::__HashSet_1__ElementCount<T>;
 
   /// @brief Field _buckets, offset 0x10, size 0x8
-  __declspec(property(get = __get__buckets, put = __set__buckets))::ArrayW<int32_t, ::Array<int32_t>*> _buckets;
+  __declspec(property(get = __cordl_internal_get__buckets, put = __cordl_internal_set__buckets))::ArrayW<int32_t, ::Array<int32_t>*> _buckets;
 
   /// @brief Field _slots, offset 0x18, size 0x8
-  __declspec(property(get = __get__slots, put = __set__slots))::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*> _slots;
+  __declspec(property(get = __cordl_internal_get__slots,
+                      put = __cordl_internal_set__slots))::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*> _slots;
 
   /// @brief Field _count, offset 0x20, size 0x4
-  __declspec(property(get = __get__count, put = __set__count)) int32_t _count;
+  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
 
   /// @brief Field _lastIndex, offset 0x24, size 0x4
-  __declspec(property(get = __get__lastIndex, put = __set__lastIndex)) int32_t _lastIndex;
+  __declspec(property(get = __cordl_internal_get__lastIndex, put = __cordl_internal_set__lastIndex)) int32_t _lastIndex;
 
   /// @brief Field _freeList, offset 0x28, size 0x4
-  __declspec(property(get = __get__freeList, put = __set__freeList)) int32_t _freeList;
+  __declspec(property(get = __cordl_internal_get__freeList, put = __cordl_internal_set__freeList)) int32_t _freeList;
 
   /// @brief Field _comparer, offset 0x30, size 0x8
-  __declspec(property(get = __get__comparer, put = __set__comparer))::System::Collections::Generic::IEqualityComparer_1<T>* _comparer;
+  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::System::Collections::Generic::IEqualityComparer_1<T>* _comparer;
 
   /// @brief Field _version, offset 0x38, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _siInfo, offset 0x40, size 0x8
-  __declspec(property(get = __get__siInfo, put = __set__siInfo))::System::Runtime::Serialization::SerializationInfo* _siInfo;
+  __declspec(property(get = __cordl_internal_get__siInfo, put = __cordl_internal_set__siInfo))::System::Runtime::Serialization::SerializationInfo* _siInfo;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -307,53 +308,53 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__buckets();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__buckets();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__buckets() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__buckets() const;
 
-  constexpr void __set__buckets(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__buckets(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*>& __get__slots();
+  constexpr ::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*>& __cordl_internal_get__slots();
 
-  constexpr ::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*> const& __get__slots() const;
+  constexpr ::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*> const& __cordl_internal_get__slots() const;
 
-  constexpr void __set__slots(::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*> value);
+  constexpr void __cordl_internal_set__slots(::ArrayW<::System::Collections::Generic::__HashSet_1__Slot<T>, ::Array<::System::Collections::Generic::__HashSet_1__Slot<T>>*> value);
 
-  constexpr int32_t& __get__count();
+  constexpr int32_t& __cordl_internal_get__count();
 
-  constexpr int32_t const& __get__count() const;
+  constexpr int32_t const& __cordl_internal_get__count() const;
 
-  constexpr void __set__count(int32_t value);
+  constexpr void __cordl_internal_set__count(int32_t value);
 
-  constexpr int32_t& __get__lastIndex();
+  constexpr int32_t& __cordl_internal_get__lastIndex();
 
-  constexpr int32_t const& __get__lastIndex() const;
+  constexpr int32_t const& __cordl_internal_get__lastIndex() const;
 
-  constexpr void __set__lastIndex(int32_t value);
+  constexpr void __cordl_internal_set__lastIndex(int32_t value);
 
-  constexpr int32_t& __get__freeList();
+  constexpr int32_t& __cordl_internal_get__freeList();
 
-  constexpr int32_t const& __get__freeList() const;
+  constexpr int32_t const& __cordl_internal_get__freeList() const;
 
-  constexpr void __set__freeList(int32_t value);
+  constexpr void __cordl_internal_set__freeList(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<T>*& __get__comparer();
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<T>*& __cordl_internal_get__comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<T>*> const& __get__comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<T>*> const& __cordl_internal_get__comparer() const;
 
-  constexpr void __set__comparer(::System::Collections::Generic::IEqualityComparer_1<T>* value);
+  constexpr void __cordl_internal_set__comparer(::System::Collections::Generic::IEqualityComparer_1<T>* value);
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
-  constexpr ::System::Runtime::Serialization::SerializationInfo*& __get__siInfo();
+  constexpr ::System::Runtime::Serialization::SerializationInfo*& __cordl_internal_get__siInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __get__siInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __cordl_internal_get__siInfo() const;
 
-  constexpr void __set__siInfo(::System::Runtime::Serialization::SerializationInfo* value);
+  constexpr void __cordl_internal_set__siInfo(::System::Runtime::Serialization::SerializationInfo* value);
 
   static inline ::System::Collections::Generic::HashSet_1<T>* New_ctor();
 

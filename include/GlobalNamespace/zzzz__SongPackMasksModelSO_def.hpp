@@ -28,56 +28,59 @@ MARK_REF_PTR_T(::GlobalNamespace::SongPackMasksModelSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4522))
 // CS Name: ::SongPackMasksModelSO*
 class CORDL_TYPE SongPackMasksModelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _defaultSongPackMaskItems, offset 0x18, size 0x8
-  __declspec(property(get = __get__defaultSongPackMaskItems, put = __set__defaultSongPackMaskItems))::System::Collections::Generic::List_1<::StringW>* _defaultSongPackMaskItems;
+  __declspec(property(get = __cordl_internal_get__defaultSongPackMaskItems,
+                      put = __cordl_internal_set__defaultSongPackMaskItems))::System::Collections::Generic::List_1<::StringW>* _defaultSongPackMaskItems;
 
   /// @brief Field _customSongPackMaskItems, offset 0x20, size 0x8
-  __declspec(property(get = __get__customSongPackMaskItems,
-                      put = __set__customSongPackMaskItems))::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> _customSongPackMaskItems;
+  __declspec(
+      property(get = __cordl_internal_get__customSongPackMaskItems,
+               put = __cordl_internal_set__customSongPackMaskItems))::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> _customSongPackMaskItems;
 
   /// @brief Field _ostAndExtrasCollection, offset 0x28, size 0x8
-  __declspec(property(get = __get__ostAndExtrasCollection, put = __set__ostAndExtrasCollection))::GlobalNamespace::BeatmapLevelPackCollectionSO* _ostAndExtrasCollection;
+  __declspec(property(get = __cordl_internal_get__ostAndExtrasCollection,
+                      put = __cordl_internal_set__ostAndExtrasCollection))::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> _ostAndExtrasCollection;
 
   /// @brief Field _dlcCollection, offset 0x30, size 0x8
-  __declspec(property(get = __get__dlcCollection, put = __set__dlcCollection))::GlobalNamespace::BeatmapLevelPackCollectionSO* _dlcCollection;
+  __declspec(property(get = __cordl_internal_get__dlcCollection, put = __cordl_internal_set__dlcCollection))::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> _dlcCollection;
 
   __declspec(property(get = get_defaultSongPackMaskItems))::System::Collections::Generic::IReadOnlyList_1<::StringW>* defaultSongPackMaskItems;
 
   __declspec(property(get = get_customSongPackMaskItems))::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> customSongPackMaskItems;
 
-  __declspec(property(get = get_ostAndExtrasCollection))::GlobalNamespace::BeatmapLevelPackCollectionSO* ostAndExtrasCollection;
+  __declspec(property(get = get_ostAndExtrasCollection))::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> ostAndExtrasCollection;
 
-  __declspec(property(get = get_dlcCollection))::GlobalNamespace::BeatmapLevelPackCollectionSO* dlcCollection;
+  __declspec(property(get = get_dlcCollection))::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> dlcCollection;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get__defaultSongPackMaskItems();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__defaultSongPackMaskItems();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get__defaultSongPackMaskItems() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__defaultSongPackMaskItems() const;
 
-  constexpr void __set__defaultSongPackMaskItems(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set__defaultSongPackMaskItems(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*>& __get__customSongPackMaskItems();
+  constexpr ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*>& __cordl_internal_get__customSongPackMaskItems();
 
-  constexpr ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> const& __get__customSongPackMaskItems() const;
+  constexpr ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> const& __cordl_internal_get__customSongPackMaskItems() const;
 
-  constexpr void __set__customSongPackMaskItems(::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> value);
+  constexpr void __cordl_internal_set__customSongPackMaskItems(::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelPackCollectionSO*& __get__ostAndExtrasCollection();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO>& __cordl_internal_get__ostAndExtrasCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPackCollectionSO*> const& __get__ostAndExtrasCollection() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> const& __cordl_internal_get__ostAndExtrasCollection() const;
 
-  constexpr void __set__ostAndExtrasCollection(::GlobalNamespace::BeatmapLevelPackCollectionSO* value);
+  constexpr void __cordl_internal_set__ostAndExtrasCollection(::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelPackCollectionSO*& __get__dlcCollection();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO>& __cordl_internal_get__dlcCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPackCollectionSO*> const& __get__dlcCollection() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> const& __cordl_internal_get__dlcCollection() const;
 
-  constexpr void __set__dlcCollection(::GlobalNamespace::BeatmapLevelPackCollectionSO* value);
+  constexpr void __cordl_internal_set__dlcCollection(::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> value);
 
   /// @brief Method get_defaultSongPackMaskItems, addr 0x236461c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_defaultSongPackMaskItems();
@@ -86,10 +89,10 @@ public:
   inline ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> get_customSongPackMaskItems();
 
   /// @brief Method get_ostAndExtrasCollection, addr 0x236462c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapLevelPackCollectionSO* get_ostAndExtrasCollection();
+  inline ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> get_ostAndExtrasCollection();
 
   /// @brief Method get_dlcCollection, addr 0x2364634, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapLevelPackCollectionSO* get_dlcCollection();
+  inline ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> get_dlcCollection();
 
   static inline ::GlobalNamespace::SongPackMasksModelSO* New_ctor();
 
@@ -117,10 +120,10 @@ public:
   ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> ____customSongPackMaskItems;
 
   /// @brief Field _ostAndExtrasCollection, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelPackCollectionSO* ____ostAndExtrasCollection;
+  ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> ____ostAndExtrasCollection;
 
   /// @brief Field _dlcCollection, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelPackCollectionSO* ____dlcCollection;
+  ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> ____dlcCollection;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

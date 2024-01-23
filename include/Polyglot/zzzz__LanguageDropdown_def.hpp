@@ -20,14 +20,14 @@ MARK_REF_PTR_T(::Polyglot::LanguageDropdown);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15557))
 // CS Name: ::Polyglot::LanguageDropdown*
 class CORDL_TYPE LanguageDropdown : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field dropdown, offset 0x18, size 0x8
-  __declspec(property(get = __get_dropdown, put = __set_dropdown))::UnityEngine::UI::Dropdown* dropdown;
+  __declspec(property(get = __cordl_internal_get_dropdown, put = __cordl_internal_set_dropdown))::UnityW<::UnityEngine::UI::Dropdown> dropdown;
 
   /// @brief Convert operator to "::Polyglot::ILocalize"
   constexpr operator ::Polyglot::ILocalize*() noexcept;
@@ -35,11 +35,11 @@ public:
   /// @brief Convert to "::Polyglot::ILocalize"
   constexpr ::Polyglot::ILocalize* i___Polyglot__ILocalize() noexcept;
 
-  constexpr ::UnityEngine::UI::Dropdown*& __get_dropdown();
+  constexpr ::UnityW<::UnityEngine::UI::Dropdown>& __cordl_internal_get_dropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Dropdown*> const& __get_dropdown() const;
+  constexpr ::UnityW<::UnityEngine::UI::Dropdown> const& __cordl_internal_get_dropdown() const;
 
-  constexpr void __set_dropdown(::UnityEngine::UI::Dropdown* value);
+  constexpr void __cordl_internal_set_dropdown(::UnityW<::UnityEngine::UI::Dropdown> value);
 
   /// @brief Method Reset, addr 0x2802824, size 0x50, virtual false, abstract: false, final false
   inline void Reset();
@@ -73,7 +73,7 @@ protected:
 
 public:
   /// @brief Field dropdown, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Dropdown* ___dropdown;
+  ::UnityW<::UnityEngine::UI::Dropdown> ___dropdown;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

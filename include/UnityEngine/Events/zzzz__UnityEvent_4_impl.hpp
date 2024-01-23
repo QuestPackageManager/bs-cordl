@@ -6,26 +6,26 @@
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/Events/zzzz__BaseInvokableCall_def.hpp"
 template <typename T0, typename T1, typename T2, typename T3>
-constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& UnityEngine::Events::UnityEvent_4<T0, T1, T2, T3>::__get_m_InvokeArray() {
+constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& UnityEngine::Events::UnityEvent_4<T0, T1, T2, T3>::__cordl_internal_get_m_InvokeArray() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InvokeArray;
 }
 template <typename T0, typename T1, typename T2, typename T3>
-constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& UnityEngine::Events::UnityEvent_4<T0, T1, T2, T3>::__get_m_InvokeArray() const {
+constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& UnityEngine::Events::UnityEvent_4<T0, T1, T2, T3>::__cordl_internal_get_m_InvokeArray() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InvokeArray;
 }
 template <typename T0, typename T1, typename T2, typename T3>
-constexpr void UnityEngine::Events::UnityEvent_4<T0, T1, T2, T3>::__set_m_InvokeArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value) {
+constexpr void UnityEngine::Events::UnityEvent_4<T0, T1, T2, T3>::__cordl_internal_set_m_InvokeArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_InvokeArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T0, typename T1, typename T2, typename T3> inline ::UnityEngine::Events::UnityEvent_4<T0, T1, T2, T3>* UnityEngine::Events::UnityEvent_4<T0, T1, T2, T3>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::Events::UnityEvent_4<T0, T1, T2, T3>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Events::UnityEvent_4<T0, T1, T2, T3>*>());
 }
 template <typename T0, typename T1, typename T2, typename T3> inline void UnityEngine::Events::UnityEvent_4<T0, T1, T2, T3>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::UnityEvent_4<T0, T1, T2, T3>*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T0, typename T1, typename T2, typename T3>

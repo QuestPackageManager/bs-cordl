@@ -40,40 +40,40 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexReplacement);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8928))
 // CS Name: ::System.Text.RegularExpressions::RegexReplacement*
 class CORDL_TYPE RegexReplacement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _strings, offset 0x10, size 0x8
-  __declspec(property(get = __get__strings, put = __set__strings))::System::Collections::Generic::List_1<::StringW>* _strings;
+  __declspec(property(get = __cordl_internal_get__strings, put = __cordl_internal_set__strings))::System::Collections::Generic::List_1<::StringW>* _strings;
 
   /// @brief Field _rules, offset 0x18, size 0x8
-  __declspec(property(get = __get__rules, put = __set__rules))::System::Collections::Generic::List_1<int32_t>* _rules;
+  __declspec(property(get = __cordl_internal_get__rules, put = __cordl_internal_set__rules))::System::Collections::Generic::List_1<int32_t>* _rules;
 
   /// @brief Field <Pattern>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__Pattern_k__BackingField, put = __set__Pattern_k__BackingField))::StringW _Pattern_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Pattern_k__BackingField, put = __cordl_internal_set__Pattern_k__BackingField))::StringW _Pattern_k__BackingField;
 
   __declspec(property(get = get_Pattern))::StringW Pattern;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get__strings();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__strings();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get__strings() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__strings() const;
 
-  constexpr void __set__strings(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set__strings(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get__rules();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get__rules();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get__rules() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get__rules() const;
 
-  constexpr void __set__rules(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set__rules(::System::Collections::Generic::List_1<int32_t>* value);
 
-  constexpr ::StringW& __get__Pattern_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Pattern_k__BackingField();
 
-  constexpr ::StringW const& __get__Pattern_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Pattern_k__BackingField() const;
 
-  constexpr void __set__Pattern_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Pattern_k__BackingField(::StringW value);
 
   static inline ::System::Text::RegularExpressions::RegexReplacement* New_ctor(::StringW rep, ::System::Text::RegularExpressions::RegexNode* concat, ::System::Collections::Hashtable* _caps);
 

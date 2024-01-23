@@ -120,7 +120,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__PanelEventHandler__PointerEvent);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13158))
 // CS Name: ::PanelEventHandler::PointerEventType
 struct CORDL_TYPE __PanelEventHandler__PointerEventType {
@@ -174,64 +174,64 @@ static_assert(offsetof(::UnityEngine::UIElements::__PanelEventHandler__PointerEv
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14602)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13159)) CS Name: ::PanelEventHandler::PointerEvent*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14602))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13159)) CS Name: ::PanelEventHandler::PointerEvent*
 class CORDL_TYPE __PanelEventHandler__PointerEvent : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <pointerId>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__pointerId_k__BackingField, put = __set__pointerId_k__BackingField)) int32_t _pointerId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__pointerId_k__BackingField, put = __cordl_internal_set__pointerId_k__BackingField)) int32_t _pointerId_k__BackingField;
 
   /// @brief Field <pointerType>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__pointerType_k__BackingField, put = __set__pointerType_k__BackingField))::StringW _pointerType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__pointerType_k__BackingField, put = __cordl_internal_set__pointerType_k__BackingField))::StringW _pointerType_k__BackingField;
 
   /// @brief Field <isPrimary>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __get__isPrimary_k__BackingField, put = __set__isPrimary_k__BackingField)) bool _isPrimary_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isPrimary_k__BackingField, put = __cordl_internal_set__isPrimary_k__BackingField)) bool _isPrimary_k__BackingField;
 
   /// @brief Field <button>k__BackingField, offset 0x24, size 0x4
-  __declspec(property(get = __get__button_k__BackingField, put = __set__button_k__BackingField)) int32_t _button_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__button_k__BackingField, put = __cordl_internal_set__button_k__BackingField)) int32_t _button_k__BackingField;
 
   /// @brief Field <pressedButtons>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__pressedButtons_k__BackingField, put = __set__pressedButtons_k__BackingField)) int32_t _pressedButtons_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__pressedButtons_k__BackingField, put = __cordl_internal_set__pressedButtons_k__BackingField)) int32_t _pressedButtons_k__BackingField;
 
   /// @brief Field <position>k__BackingField, offset 0x2c, size 0xc
-  __declspec(property(get = __get__position_k__BackingField, put = __set__position_k__BackingField))::UnityEngine::Vector3 _position_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__position_k__BackingField, put = __cordl_internal_set__position_k__BackingField))::UnityEngine::Vector3 _position_k__BackingField;
 
   /// @brief Field <localPosition>k__BackingField, offset 0x38, size 0xc
-  __declspec(property(get = __get__localPosition_k__BackingField, put = __set__localPosition_k__BackingField))::UnityEngine::Vector3 _localPosition_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__localPosition_k__BackingField, put = __cordl_internal_set__localPosition_k__BackingField))::UnityEngine::Vector3 _localPosition_k__BackingField;
 
   /// @brief Field <deltaPosition>k__BackingField, offset 0x44, size 0xc
-  __declspec(property(get = __get__deltaPosition_k__BackingField, put = __set__deltaPosition_k__BackingField))::UnityEngine::Vector3 _deltaPosition_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__deltaPosition_k__BackingField, put = __cordl_internal_set__deltaPosition_k__BackingField))::UnityEngine::Vector3 _deltaPosition_k__BackingField;
 
   /// @brief Field <deltaTime>k__BackingField, offset 0x50, size 0x4
-  __declspec(property(get = __get__deltaTime_k__BackingField, put = __set__deltaTime_k__BackingField)) float_t _deltaTime_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__deltaTime_k__BackingField, put = __cordl_internal_set__deltaTime_k__BackingField)) float_t _deltaTime_k__BackingField;
 
   /// @brief Field <clickCount>k__BackingField, offset 0x54, size 0x4
-  __declspec(property(get = __get__clickCount_k__BackingField, put = __set__clickCount_k__BackingField)) int32_t _clickCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__clickCount_k__BackingField, put = __cordl_internal_set__clickCount_k__BackingField)) int32_t _clickCount_k__BackingField;
 
   /// @brief Field <pressure>k__BackingField, offset 0x58, size 0x4
-  __declspec(property(get = __get__pressure_k__BackingField, put = __set__pressure_k__BackingField)) float_t _pressure_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__pressure_k__BackingField, put = __cordl_internal_set__pressure_k__BackingField)) float_t _pressure_k__BackingField;
 
   /// @brief Field <tangentialPressure>k__BackingField, offset 0x5c, size 0x4
-  __declspec(property(get = __get__tangentialPressure_k__BackingField, put = __set__tangentialPressure_k__BackingField)) float_t _tangentialPressure_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__tangentialPressure_k__BackingField, put = __cordl_internal_set__tangentialPressure_k__BackingField)) float_t _tangentialPressure_k__BackingField;
 
   /// @brief Field <altitudeAngle>k__BackingField, offset 0x60, size 0x4
-  __declspec(property(get = __get__altitudeAngle_k__BackingField, put = __set__altitudeAngle_k__BackingField)) float_t _altitudeAngle_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__altitudeAngle_k__BackingField, put = __cordl_internal_set__altitudeAngle_k__BackingField)) float_t _altitudeAngle_k__BackingField;
 
   /// @brief Field <azimuthAngle>k__BackingField, offset 0x64, size 0x4
-  __declspec(property(get = __get__azimuthAngle_k__BackingField, put = __set__azimuthAngle_k__BackingField)) float_t _azimuthAngle_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__azimuthAngle_k__BackingField, put = __cordl_internal_set__azimuthAngle_k__BackingField)) float_t _azimuthAngle_k__BackingField;
 
   /// @brief Field <twist>k__BackingField, offset 0x68, size 0x4
-  __declspec(property(get = __get__twist_k__BackingField, put = __set__twist_k__BackingField)) float_t _twist_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__twist_k__BackingField, put = __cordl_internal_set__twist_k__BackingField)) float_t _twist_k__BackingField;
 
   /// @brief Field <radius>k__BackingField, offset 0x6c, size 0x8
-  __declspec(property(get = __get__radius_k__BackingField, put = __set__radius_k__BackingField))::UnityEngine::Vector2 _radius_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__radius_k__BackingField, put = __cordl_internal_set__radius_k__BackingField))::UnityEngine::Vector2 _radius_k__BackingField;
 
   /// @brief Field <radiusVariance>k__BackingField, offset 0x74, size 0x8
-  __declspec(property(get = __get__radiusVariance_k__BackingField, put = __set__radiusVariance_k__BackingField))::UnityEngine::Vector2 _radiusVariance_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__radiusVariance_k__BackingField, put = __cordl_internal_set__radiusVariance_k__BackingField))::UnityEngine::Vector2 _radiusVariance_k__BackingField;
 
   /// @brief Field <modifiers>k__BackingField, offset 0x7c, size 0x4
-  __declspec(property(get = __get__modifiers_k__BackingField, put = __set__modifiers_k__BackingField))::UnityEngine::EventModifiers _modifiers_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__modifiers_k__BackingField, put = __cordl_internal_set__modifiers_k__BackingField))::UnityEngine::EventModifiers _modifiers_k__BackingField;
 
   __declspec(property(get = get_pointerId, put = set_pointerId)) int32_t pointerId;
 
@@ -285,113 +285,113 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IPointerEvent"
   constexpr ::UnityEngine::UIElements::IPointerEvent* i___UnityEngine__UIElements__IPointerEvent() noexcept;
 
-  constexpr int32_t& __get__pointerId_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__pointerId_k__BackingField();
 
-  constexpr int32_t const& __get__pointerId_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__pointerId_k__BackingField() const;
 
-  constexpr void __set__pointerId_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__pointerId_k__BackingField(int32_t value);
 
-  constexpr ::StringW& __get__pointerType_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__pointerType_k__BackingField();
 
-  constexpr ::StringW const& __get__pointerType_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__pointerType_k__BackingField() const;
 
-  constexpr void __set__pointerType_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__pointerType_k__BackingField(::StringW value);
 
-  constexpr bool& __get__isPrimary_k__BackingField();
+  constexpr bool& __cordl_internal_get__isPrimary_k__BackingField();
 
-  constexpr bool const& __get__isPrimary_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isPrimary_k__BackingField() const;
 
-  constexpr void __set__isPrimary_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isPrimary_k__BackingField(bool value);
 
-  constexpr int32_t& __get__button_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__button_k__BackingField();
 
-  constexpr int32_t const& __get__button_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__button_k__BackingField() const;
 
-  constexpr void __set__button_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__button_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__pressedButtons_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__pressedButtons_k__BackingField();
 
-  constexpr int32_t const& __get__pressedButtons_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__pressedButtons_k__BackingField() const;
 
-  constexpr void __set__pressedButtons_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__pressedButtons_k__BackingField(int32_t value);
 
-  constexpr ::UnityEngine::Vector3& __get__position_k__BackingField();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__position_k__BackingField();
 
-  constexpr ::UnityEngine::Vector3 const& __get__position_k__BackingField() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__position_k__BackingField() const;
 
-  constexpr void __set__position_k__BackingField(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__position_k__BackingField(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__localPosition_k__BackingField();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__localPosition_k__BackingField();
 
-  constexpr ::UnityEngine::Vector3 const& __get__localPosition_k__BackingField() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__localPosition_k__BackingField() const;
 
-  constexpr void __set__localPosition_k__BackingField(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__localPosition_k__BackingField(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__deltaPosition_k__BackingField();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__deltaPosition_k__BackingField();
 
-  constexpr ::UnityEngine::Vector3 const& __get__deltaPosition_k__BackingField() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__deltaPosition_k__BackingField() const;
 
-  constexpr void __set__deltaPosition_k__BackingField(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__deltaPosition_k__BackingField(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get__deltaTime_k__BackingField();
+  constexpr float_t& __cordl_internal_get__deltaTime_k__BackingField();
 
-  constexpr float_t const& __get__deltaTime_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__deltaTime_k__BackingField() const;
 
-  constexpr void __set__deltaTime_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__deltaTime_k__BackingField(float_t value);
 
-  constexpr int32_t& __get__clickCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__clickCount_k__BackingField();
 
-  constexpr int32_t const& __get__clickCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__clickCount_k__BackingField() const;
 
-  constexpr void __set__clickCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__clickCount_k__BackingField(int32_t value);
 
-  constexpr float_t& __get__pressure_k__BackingField();
+  constexpr float_t& __cordl_internal_get__pressure_k__BackingField();
 
-  constexpr float_t const& __get__pressure_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__pressure_k__BackingField() const;
 
-  constexpr void __set__pressure_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__pressure_k__BackingField(float_t value);
 
-  constexpr float_t& __get__tangentialPressure_k__BackingField();
+  constexpr float_t& __cordl_internal_get__tangentialPressure_k__BackingField();
 
-  constexpr float_t const& __get__tangentialPressure_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__tangentialPressure_k__BackingField() const;
 
-  constexpr void __set__tangentialPressure_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__tangentialPressure_k__BackingField(float_t value);
 
-  constexpr float_t& __get__altitudeAngle_k__BackingField();
+  constexpr float_t& __cordl_internal_get__altitudeAngle_k__BackingField();
 
-  constexpr float_t const& __get__altitudeAngle_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__altitudeAngle_k__BackingField() const;
 
-  constexpr void __set__altitudeAngle_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__altitudeAngle_k__BackingField(float_t value);
 
-  constexpr float_t& __get__azimuthAngle_k__BackingField();
+  constexpr float_t& __cordl_internal_get__azimuthAngle_k__BackingField();
 
-  constexpr float_t const& __get__azimuthAngle_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__azimuthAngle_k__BackingField() const;
 
-  constexpr void __set__azimuthAngle_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__azimuthAngle_k__BackingField(float_t value);
 
-  constexpr float_t& __get__twist_k__BackingField();
+  constexpr float_t& __cordl_internal_get__twist_k__BackingField();
 
-  constexpr float_t const& __get__twist_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__twist_k__BackingField() const;
 
-  constexpr void __set__twist_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__twist_k__BackingField(float_t value);
 
-  constexpr ::UnityEngine::Vector2& __get__radius_k__BackingField();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__radius_k__BackingField();
 
-  constexpr ::UnityEngine::Vector2 const& __get__radius_k__BackingField() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__radius_k__BackingField() const;
 
-  constexpr void __set__radius_k__BackingField(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__radius_k__BackingField(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get__radiusVariance_k__BackingField();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__radiusVariance_k__BackingField();
 
-  constexpr ::UnityEngine::Vector2 const& __get__radiusVariance_k__BackingField() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__radiusVariance_k__BackingField() const;
 
-  constexpr void __set__radiusVariance_k__BackingField(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__radiusVariance_k__BackingField(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::EventModifiers& __get__modifiers_k__BackingField();
+  constexpr ::UnityEngine::EventModifiers& __cordl_internal_get__modifiers_k__BackingField();
 
-  constexpr ::UnityEngine::EventModifiers const& __get__modifiers_k__BackingField() const;
+  constexpr ::UnityEngine::EventModifiers const& __cordl_internal_get__modifiers_k__BackingField() const;
 
-  constexpr void __set__modifiers_k__BackingField(::UnityEngine::EventModifiers value);
+  constexpr void __cordl_internal_set__modifiers_k__BackingField(::UnityEngine::EventModifiers value);
 
   /// @brief Method get_pointerId, addr 0x2d94a50, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_pointerId();
@@ -645,7 +645,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__PanelEventHandler__PointerEv
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(14602))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(14602))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13160))
 // CS Name: ::UnityEngine.UIElements::PanelEventHandler*
 class CORDL_TYPE PanelEventHandler : public ::UnityEngine::EventSystems::UIBehaviour {
@@ -656,25 +656,25 @@ public:
   using PointerEventType = ::UnityEngine::UIElements::__PanelEventHandler__PointerEventType;
 
   /// @brief Field m_Panel, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Panel, put = __set_m_Panel))::UnityEngine::UIElements::BaseRuntimePanel* m_Panel;
+  __declspec(property(get = __cordl_internal_get_m_Panel, put = __cordl_internal_set_m_Panel))::UnityEngine::UIElements::BaseRuntimePanel* m_Panel;
 
   /// @brief Field m_PointerEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_PointerEvent, put = __set_m_PointerEvent))::UnityEngine::UIElements::__PanelEventHandler__PointerEvent* m_PointerEvent;
+  __declspec(property(get = __cordl_internal_get_m_PointerEvent, put = __cordl_internal_set_m_PointerEvent))::UnityEngine::UIElements::__PanelEventHandler__PointerEvent* m_PointerEvent;
 
   /// @brief Field m_Selecting, offset 0x28, size 0x1
-  __declspec(property(get = __get_m_Selecting, put = __set_m_Selecting)) bool m_Selecting;
+  __declspec(property(get = __cordl_internal_get_m_Selecting, put = __cordl_internal_set_m_Selecting)) bool m_Selecting;
 
   /// @brief Field m_Event, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Event, put = __set_m_Event))::UnityEngine::Event* m_Event;
+  __declspec(property(get = __cordl_internal_get_m_Event, put = __cordl_internal_set_m_Event))::UnityEngine::Event* m_Event;
 
   /// @brief Field s_Modifiers, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_Modifiers, put = setStaticF_s_Modifiers))::UnityEngine::EventModifiers s_Modifiers;
 
   __declspec(property(get = get_panel, put = set_panel))::UnityEngine::UIElements::IPanel* panel;
 
-  __declspec(property(get = get_selectableGameObject))::UnityEngine::GameObject* selectableGameObject;
+  __declspec(property(get = get_selectableGameObject))::UnityW<::UnityEngine::GameObject> selectableGameObject;
 
-  __declspec(property(get = get_eventSystem))::UnityEngine::EventSystems::EventSystem* eventSystem;
+  __declspec(property(get = get_eventSystem))::UnityW<::UnityEngine::EventSystems::EventSystem> eventSystem;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerMoveHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerMoveHandler*() noexcept;
@@ -754,29 +754,29 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IRuntimePanelComponent"
   constexpr ::UnityEngine::UIElements::IRuntimePanelComponent* i___UnityEngine__UIElements__IRuntimePanelComponent() noexcept;
 
-  constexpr ::UnityEngine::UIElements::BaseRuntimePanel*& __get_m_Panel();
+  constexpr ::UnityEngine::UIElements::BaseRuntimePanel*& __cordl_internal_get_m_Panel();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseRuntimePanel*> const& __get_m_Panel() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseRuntimePanel*> const& __cordl_internal_get_m_Panel() const;
 
-  constexpr void __set_m_Panel(::UnityEngine::UIElements::BaseRuntimePanel* value);
+  constexpr void __cordl_internal_set_m_Panel(::UnityEngine::UIElements::BaseRuntimePanel* value);
 
-  constexpr ::UnityEngine::UIElements::__PanelEventHandler__PointerEvent*& __get_m_PointerEvent();
+  constexpr ::UnityEngine::UIElements::__PanelEventHandler__PointerEvent*& __cordl_internal_get_m_PointerEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__PanelEventHandler__PointerEvent*> const& __get_m_PointerEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__PanelEventHandler__PointerEvent*> const& __cordl_internal_get_m_PointerEvent() const;
 
-  constexpr void __set_m_PointerEvent(::UnityEngine::UIElements::__PanelEventHandler__PointerEvent* value);
+  constexpr void __cordl_internal_set_m_PointerEvent(::UnityEngine::UIElements::__PanelEventHandler__PointerEvent* value);
 
-  constexpr bool& __get_m_Selecting();
+  constexpr bool& __cordl_internal_get_m_Selecting();
 
-  constexpr bool const& __get_m_Selecting() const;
+  constexpr bool const& __cordl_internal_get_m_Selecting() const;
 
-  constexpr void __set_m_Selecting(bool value);
+  constexpr void __cordl_internal_set_m_Selecting(bool value);
 
-  constexpr ::UnityEngine::Event*& __get_m_Event();
+  constexpr ::UnityEngine::Event*& __cordl_internal_get_m_Event();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Event*> const& __get_m_Event() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Event*> const& __cordl_internal_get_m_Event() const;
 
-  constexpr void __set_m_Event(::UnityEngine::Event* value);
+  constexpr void __cordl_internal_set_m_Event(::UnityEngine::Event* value);
 
   static inline void setStaticF_s_Modifiers(::UnityEngine::EventModifiers value);
 
@@ -789,10 +789,10 @@ public:
   inline void set_panel(::UnityEngine::UIElements::IPanel* value);
 
   /// @brief Method get_selectableGameObject, addr 0x2d92834, size 0x18, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_selectableGameObject();
+  inline ::UnityW<::UnityEngine::GameObject> get_selectableGameObject();
 
   /// @brief Method get_eventSystem, addr 0x2d9284c, size 0xd4, virtual false, abstract: false, final false
-  inline ::UnityEngine::EventSystems::EventSystem* get_eventSystem();
+  inline ::UnityW<::UnityEngine::EventSystems::EventSystem> get_eventSystem();
 
   /// @brief Method OnEnable, addr 0x2d92920, size 0x4, virtual true, abstract: false, final false
   inline void OnEnable();

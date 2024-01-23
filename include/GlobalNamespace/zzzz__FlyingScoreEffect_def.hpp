@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__FlyingScoreEffect__Pool);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(4852))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4852)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4854))
 // CS Name: ::FlyingScoreEffect*
 class CORDL_TYPE FlyingScoreEffect : public ::GlobalNamespace::FlyingObjectEffect {
@@ -61,25 +61,26 @@ public:
   using Pool = ::GlobalNamespace::__FlyingScoreEffect__Pool;
 
   /// @brief Field _fadeAnimationCurve, offset 0x80, size 0x8
-  __declspec(property(get = __get__fadeAnimationCurve, put = __set__fadeAnimationCurve))::UnityEngine::AnimationCurve* _fadeAnimationCurve;
+  __declspec(property(get = __cordl_internal_get__fadeAnimationCurve, put = __cordl_internal_set__fadeAnimationCurve))::UnityEngine::AnimationCurve* _fadeAnimationCurve;
 
   /// @brief Field _maxCutDistanceScoreIndicator, offset 0x88, size 0x8
-  __declspec(property(get = __get__maxCutDistanceScoreIndicator, put = __set__maxCutDistanceScoreIndicator))::UnityEngine::SpriteRenderer* _maxCutDistanceScoreIndicator;
+  __declspec(property(get = __cordl_internal_get__maxCutDistanceScoreIndicator,
+                      put = __cordl_internal_set__maxCutDistanceScoreIndicator))::UnityW<::UnityEngine::SpriteRenderer> _maxCutDistanceScoreIndicator;
 
   /// @brief Field _text, offset 0x90, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::TMPro::TextMeshPro* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshPro> _text;
 
   /// @brief Field _color, offset 0x98, size 0x10
-  __declspec(property(get = __get__color, put = __set__color))::UnityEngine::Color _color;
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
   /// @brief Field _colorAMultiplier, offset 0xa8, size 0x4
-  __declspec(property(get = __get__colorAMultiplier, put = __set__colorAMultiplier)) float_t _colorAMultiplier;
+  __declspec(property(get = __cordl_internal_get__colorAMultiplier, put = __cordl_internal_set__colorAMultiplier)) float_t _colorAMultiplier;
 
   /// @brief Field _registeredToCallbacks, offset 0xac, size 0x1
-  __declspec(property(get = __get__registeredToCallbacks, put = __set__registeredToCallbacks)) bool _registeredToCallbacks;
+  __declspec(property(get = __cordl_internal_get__registeredToCallbacks, put = __cordl_internal_set__registeredToCallbacks)) bool _registeredToCallbacks;
 
   /// @brief Field _cutScoreBuffer, offset 0xb0, size 0x8
-  __declspec(property(get = __get__cutScoreBuffer, put = __set__cutScoreBuffer))::GlobalNamespace::IReadonlyCutScoreBuffer* _cutScoreBuffer;
+  __declspec(property(get = __cordl_internal_get__cutScoreBuffer, put = __cordl_internal_set__cutScoreBuffer))::GlobalNamespace::IReadonlyCutScoreBuffer* _cutScoreBuffer;
 
   /// @brief Convert operator to "::GlobalNamespace::ICutScoreBufferDidChangeReceiver"
   constexpr operator ::GlobalNamespace::ICutScoreBufferDidChangeReceiver*() noexcept;
@@ -93,47 +94,47 @@ public:
   /// @brief Convert to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
   constexpr ::GlobalNamespace::ICutScoreBufferDidFinishReceiver* i___GlobalNamespace__ICutScoreBufferDidFinishReceiver() noexcept;
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__fadeAnimationCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__fadeAnimationCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__fadeAnimationCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__fadeAnimationCurve() const;
 
-  constexpr void __set__fadeAnimationCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__fadeAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::SpriteRenderer*& __get__maxCutDistanceScoreIndicator();
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer>& __cordl_internal_get__maxCutDistanceScoreIndicator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SpriteRenderer*> const& __get__maxCutDistanceScoreIndicator() const;
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__maxCutDistanceScoreIndicator() const;
 
-  constexpr void __set__maxCutDistanceScoreIndicator(::UnityEngine::SpriteRenderer* value);
+  constexpr void __cordl_internal_set__maxCutDistanceScoreIndicator(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  constexpr ::TMPro::TextMeshPro*& __get__text();
+  constexpr ::UnityW<::TMPro::TextMeshPro>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshPro*> const& __get__text() const;
+  constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::TMPro::TextMeshPro* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value);
 
-  constexpr ::UnityEngine::Color& __get__color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::UnityEngine::Color const& __get__color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr void __set__color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  constexpr float_t& __get__colorAMultiplier();
+  constexpr float_t& __cordl_internal_get__colorAMultiplier();
 
-  constexpr float_t const& __get__colorAMultiplier() const;
+  constexpr float_t const& __cordl_internal_get__colorAMultiplier() const;
 
-  constexpr void __set__colorAMultiplier(float_t value);
+  constexpr void __cordl_internal_set__colorAMultiplier(float_t value);
 
-  constexpr bool& __get__registeredToCallbacks();
+  constexpr bool& __cordl_internal_get__registeredToCallbacks();
 
-  constexpr bool const& __get__registeredToCallbacks() const;
+  constexpr bool const& __cordl_internal_get__registeredToCallbacks() const;
 
-  constexpr void __set__registeredToCallbacks(bool value);
+  constexpr void __cordl_internal_set__registeredToCallbacks(bool value);
 
-  constexpr ::GlobalNamespace::IReadonlyCutScoreBuffer*& __get__cutScoreBuffer();
+  constexpr ::GlobalNamespace::IReadonlyCutScoreBuffer*& __cordl_internal_get__cutScoreBuffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyCutScoreBuffer*> const& __get__cutScoreBuffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyCutScoreBuffer*> const& __cordl_internal_get__cutScoreBuffer() const;
 
-  constexpr void __set__cutScoreBuffer(::GlobalNamespace::IReadonlyCutScoreBuffer* value);
+  constexpr void __cordl_internal_set__cutScoreBuffer(::GlobalNamespace::IReadonlyCutScoreBuffer* value);
 
   /// @brief Method InitAndPresent, addr 0x2398790, size 0x4e4, virtual false, abstract: false, final false
   inline void InitAndPresent(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Color color);
@@ -176,10 +177,10 @@ public:
   ::UnityEngine::AnimationCurve* ____fadeAnimationCurve;
 
   /// @brief Field _maxCutDistanceScoreIndicator, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::SpriteRenderer* ____maxCutDistanceScoreIndicator;
+  ::UnityW<::UnityEngine::SpriteRenderer> ____maxCutDistanceScoreIndicator;
 
   /// @brief Field _text, offset: 0x90, size: 0x8, def value: None
-  ::TMPro::TextMeshPro* ____text;
+  ::UnityW<::TMPro::TextMeshPro> ____text;
 
   /// @brief Field _color, offset: 0x98, size: 0x10, def value: None
   ::UnityEngine::Color ____color;
@@ -217,9 +218,9 @@ static_assert(offsetof(::GlobalNamespace::FlyingScoreEffect, ____cutScoreBuffer)
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4854)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2811 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4853)) CS Name: ::FlyingScoreEffect::Pool*
-class CORDL_TYPE __FlyingScoreEffect__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FlyingScoreEffect*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4854)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2811 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4853)) CS Name: ::FlyingScoreEffect::Pool*
+class CORDL_TYPE __FlyingScoreEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::FlyingScoreEffect>> {
 public:
   // Declarations
   /// @brief Method OnDespawned, addr 0x2398f2c, size 0x60, virtual true, abstract: false, final false

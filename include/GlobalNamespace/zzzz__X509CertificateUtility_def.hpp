@@ -87,14 +87,14 @@ MARK_REF_PTR_T(::GlobalNamespace::__X509CertificateUtility____c);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12994))
 // CS Name: ::X509CertificateUtility::PasswordFinder*
 class CORDL_TYPE __X509CertificateUtility__PasswordFinder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _password, offset 0x10, size 0x8
-  __declspec(property(get = __get__password, put = __set__password))::ArrayW<char16_t, ::Array<char16_t>*> _password;
+  __declspec(property(get = __cordl_internal_get__password, put = __cordl_internal_set__password))::ArrayW<char16_t, ::Array<char16_t>*> _password;
 
   /// @brief Convert operator to "::Org::BouncyCastle::OpenSsl::IPasswordFinder"
   constexpr operator ::Org::BouncyCastle::OpenSsl::IPasswordFinder*() noexcept;
@@ -102,11 +102,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::OpenSsl::IPasswordFinder"
   constexpr ::Org::BouncyCastle::OpenSsl::IPasswordFinder* i___Org__BouncyCastle__OpenSsl__IPasswordFinder() noexcept;
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get__password();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__password();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get__password() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__password() const;
 
-  constexpr void __set__password(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set__password(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
   static inline ::GlobalNamespace::__X509CertificateUtility__PasswordFinder* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> password);
 
@@ -150,14 +150,14 @@ static_assert(offsetof(::GlobalNamespace::__X509CertificateUtility__PasswordFind
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12995))
 // CS Name: ::X509CertificateUtility::RSACertificateEncryptionProvider*
 class CORDL_TYPE __X509CertificateUtility__RSACertificateEncryptionProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _signer, offset 0x10, size 0x8
-  __declspec(property(get = __get__signer, put = __set__signer))::Org::BouncyCastle::Crypto::ISigner* _signer;
+  __declspec(property(get = __cordl_internal_get__signer, put = __cordl_internal_set__signer))::Org::BouncyCastle::Crypto::ISigner* _signer;
 
   /// @brief Convert operator to "::GlobalNamespace::ICertificateEncryptionProvider"
   constexpr operator ::GlobalNamespace::ICertificateEncryptionProvider*() noexcept;
@@ -171,11 +171,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __get__signer();
+  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get__signer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __get__signer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __cordl_internal_get__signer() const;
 
-  constexpr void __set__signer(::Org::BouncyCastle::Crypto::ISigner* value);
+  constexpr void __cordl_internal_set__signer(::Org::BouncyCastle::Crypto::ISigner* value);
 
   static inline ::GlobalNamespace::__X509CertificateUtility__RSACertificateEncryptionProvider* New_ctor(::Org::BouncyCastle::Crypto::Parameters::RsaPrivateCrtKeyParameters* privateKey);
 
@@ -217,38 +217,39 @@ static_assert(offsetof(::GlobalNamespace::__X509CertificateUtility__RSACertifica
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12996))
 // CS Name: ::X509CertificateUtility::<GetCertificateList>d__9*
 class CORDL_TYPE __X509CertificateUtility___GetCertificateList_d__9 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Security::Cryptography::X509Certificates::X509Certificate2* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Security::Cryptography::X509Certificates::X509Certificate2* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field certificatePem, offset 0x28, size 0x8
-  __declspec(property(get = __get_certificatePem, put = __set_certificatePem))::StringW certificatePem;
+  __declspec(property(get = __cordl_internal_get_certificatePem, put = __cordl_internal_set_certificatePem))::StringW certificatePem;
 
   /// @brief Field <>3__certificatePem, offset 0x30, size 0x8
-  __declspec(property(get = __get___3__certificatePem, put = __set___3__certificatePem))::StringW __3__certificatePem;
+  __declspec(property(get = __cordl_internal_get___3__certificatePem, put = __cordl_internal_set___3__certificatePem))::StringW __3__certificatePem;
 
   /// @brief Field certificateChainPem, offset 0x38, size 0x8
-  __declspec(property(get = __get_certificateChainPem, put = __set_certificateChainPem))::StringW certificateChainPem;
+  __declspec(property(get = __cordl_internal_get_certificateChainPem, put = __cordl_internal_set_certificateChainPem))::StringW certificateChainPem;
 
   /// @brief Field <>3__certificateChainPem, offset 0x40, size 0x8
-  __declspec(property(get = __get___3__certificateChainPem, put = __set___3__certificateChainPem))::StringW __3__certificateChainPem;
+  __declspec(property(get = __cordl_internal_get___3__certificateChainPem, put = __cordl_internal_set___3__certificateChainPem))::StringW __3__certificateChainPem;
 
   /// @brief Field <x509CertificateParser>5__2, offset 0x48, size 0x8
-  __declspec(property(get = __get__x509CertificateParser_5__2, put = __set__x509CertificateParser_5__2))::Org::BouncyCastle::X509::X509CertificateParser* _x509CertificateParser_5__2;
+  __declspec(property(get = __cordl_internal_get__x509CertificateParser_5__2,
+                      put = __cordl_internal_set__x509CertificateParser_5__2))::Org::BouncyCastle::X509::X509CertificateParser* _x509CertificateParser_5__2;
 
   /// @brief Field <>7__wrap2, offset 0x50, size 0x8
-  __declspec(property(get = __get___7__wrap2, put = __set___7__wrap2))::System::Collections::IEnumerator* __7__wrap2;
+  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2))::System::Collections::IEnumerator* __7__wrap2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Security_Cryptography_X509Certificates_X509Certificate2__get_Current))::System::Security::Cryptography::X509Certificates::
       X509Certificate2* System_Collections_Generic_IEnumerator_System_Security_Cryptography_X509Certificates_X509Certificate2__Current;
@@ -287,59 +288,59 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*& __get___2__current();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Security::Cryptography::X509Certificates::X509Certificate2* value);
+  constexpr void __cordl_internal_set___2__current(::System::Security::Cryptography::X509Certificates::X509Certificate2* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::StringW& __get_certificatePem();
+  constexpr ::StringW& __cordl_internal_get_certificatePem();
 
-  constexpr ::StringW const& __get_certificatePem() const;
+  constexpr ::StringW const& __cordl_internal_get_certificatePem() const;
 
-  constexpr void __set_certificatePem(::StringW value);
+  constexpr void __cordl_internal_set_certificatePem(::StringW value);
 
-  constexpr ::StringW& __get___3__certificatePem();
+  constexpr ::StringW& __cordl_internal_get___3__certificatePem();
 
-  constexpr ::StringW const& __get___3__certificatePem() const;
+  constexpr ::StringW const& __cordl_internal_get___3__certificatePem() const;
 
-  constexpr void __set___3__certificatePem(::StringW value);
+  constexpr void __cordl_internal_set___3__certificatePem(::StringW value);
 
-  constexpr ::StringW& __get_certificateChainPem();
+  constexpr ::StringW& __cordl_internal_get_certificateChainPem();
 
-  constexpr ::StringW const& __get_certificateChainPem() const;
+  constexpr ::StringW const& __cordl_internal_get_certificateChainPem() const;
 
-  constexpr void __set_certificateChainPem(::StringW value);
+  constexpr void __cordl_internal_set_certificateChainPem(::StringW value);
 
-  constexpr ::StringW& __get___3__certificateChainPem();
+  constexpr ::StringW& __cordl_internal_get___3__certificateChainPem();
 
-  constexpr ::StringW const& __get___3__certificateChainPem() const;
+  constexpr ::StringW const& __cordl_internal_get___3__certificateChainPem() const;
 
-  constexpr void __set___3__certificateChainPem(::StringW value);
+  constexpr void __cordl_internal_set___3__certificateChainPem(::StringW value);
 
-  constexpr ::Org::BouncyCastle::X509::X509CertificateParser*& __get__x509CertificateParser_5__2();
+  constexpr ::Org::BouncyCastle::X509::X509CertificateParser*& __cordl_internal_get__x509CertificateParser_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509CertificateParser*> const& __get__x509CertificateParser_5__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509CertificateParser*> const& __cordl_internal_get__x509CertificateParser_5__2() const;
 
-  constexpr void __set__x509CertificateParser_5__2(::Org::BouncyCastle::X509::X509CertificateParser* value);
+  constexpr void __cordl_internal_set__x509CertificateParser_5__2(::Org::BouncyCastle::X509::X509CertificateParser* value);
 
-  constexpr ::System::Collections::IEnumerator*& __get___7__wrap2();
+  constexpr ::System::Collections::IEnumerator*& __cordl_internal_get___7__wrap2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __get___7__wrap2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __cordl_internal_get___7__wrap2() const;
 
-  constexpr void __set___7__wrap2(::System::Collections::IEnumerator* value);
+  constexpr void __cordl_internal_set___7__wrap2(::System::Collections::IEnumerator* value);
 
   static inline ::GlobalNamespace::__X509CertificateUtility___GetCertificateList_d__9* New_ctor(int32_t __1__state);
 
@@ -442,7 +443,7 @@ static_assert(offsetof(::GlobalNamespace::__X509CertificateUtility___GetCertific
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12997))
 // CS Name: ::X509CertificateUtility::<>c*
 class CORDL_TYPE __X509CertificateUtility____c : public ::System::Object {
@@ -504,7 +505,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__X509Certifica
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12998))
 // CS Name: ::X509CertificateUtility*
 class CORDL_TYPE X509CertificateUtility : public ::System::Object {

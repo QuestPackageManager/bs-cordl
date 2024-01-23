@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData);
 // SizeInfo { instance_size: 32, native_size: 40, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Scripting::APIUpdating {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10320))
 // CS Name: ::UnityEngine.Scripting.APIUpdating::MovedFromAttributeData
 struct CORDL_TYPE MovedFromAttributeData {

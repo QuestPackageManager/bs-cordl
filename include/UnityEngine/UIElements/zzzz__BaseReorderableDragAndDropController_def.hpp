@@ -42,20 +42,20 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::BaseReorderableDragAndDropController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6951))
 // CS Name: ::UnityEngine.UIElements::BaseReorderableDragAndDropController*
 class CORDL_TYPE BaseReorderableDragAndDropController : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_View, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_View, put = __set_m_View))::UnityEngine::UIElements::BaseVerticalCollectionView* m_View;
+  __declspec(property(get = __cordl_internal_get_m_View, put = __cordl_internal_set_m_View))::UnityEngine::UIElements::BaseVerticalCollectionView* m_View;
 
   /// @brief Field m_SelectedIndices, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_SelectedIndices, put = __set_m_SelectedIndices))::System::Collections::Generic::List_1<int32_t>* m_SelectedIndices;
+  __declspec(property(get = __cordl_internal_get_m_SelectedIndices, put = __cordl_internal_set_m_SelectedIndices))::System::Collections::Generic::List_1<int32_t>* m_SelectedIndices;
 
   /// @brief Field <enableReordering>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __get__enableReordering_k__BackingField, put = __set__enableReordering_k__BackingField)) bool _enableReordering_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__enableReordering_k__BackingField, put = __cordl_internal_set__enableReordering_k__BackingField)) bool _enableReordering_k__BackingField;
 
   __declspec(property(get = get_enableReordering, put = set_enableReordering)) bool enableReordering;
 
@@ -78,23 +78,23 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IReorderable"
   constexpr ::UnityEngine::UIElements::IReorderable* i___UnityEngine__UIElements__IReorderable() noexcept;
 
-  constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView*& __get_m_View();
+  constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView*& __cordl_internal_get_m_View();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVerticalCollectionView*> const& __get_m_View() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVerticalCollectionView*> const& __cordl_internal_get_m_View() const;
 
-  constexpr void __set_m_View(::UnityEngine::UIElements::BaseVerticalCollectionView* value);
+  constexpr void __cordl_internal_set_m_View(::UnityEngine::UIElements::BaseVerticalCollectionView* value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get_m_SelectedIndices();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_SelectedIndices();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get_m_SelectedIndices() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_SelectedIndices() const;
 
-  constexpr void __set_m_SelectedIndices(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_SelectedIndices(::System::Collections::Generic::List_1<int32_t>* value);
 
-  constexpr bool& __get__enableReordering_k__BackingField();
+  constexpr bool& __cordl_internal_get__enableReordering_k__BackingField();
 
-  constexpr bool const& __get__enableReordering_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__enableReordering_k__BackingField() const;
 
-  constexpr void __set__enableReordering_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__enableReordering_k__BackingField(bool value);
 
   static inline ::UnityEngine::UIElements::BaseReorderableDragAndDropController* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* view);
 

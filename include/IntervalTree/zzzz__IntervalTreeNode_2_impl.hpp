@@ -38,23 +38,23 @@ template <typename TKey, typename TValue> inline ::System::Func_2<::IntervalTree
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>*>::get>();
 }
 template <typename TKey, typename TValue> inline ::IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>* IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>*>());
 }
 template <typename TKey, typename TValue> inline void IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TKey, typename TValue> inline TKey IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>::_get_Max_b__13_0(::IntervalTree::RangeValuePair_2<TKey, TValue> i) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>*>::get(), "<get_Max>b__13_0", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::IntervalTree::RangeValuePair_2<TKey, TValue>>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>*>::get(), "<get_Max>b__13_0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::IntervalTree::RangeValuePair_2<TKey, TValue>>::get() })));
   return ::cordl_internals::RunMethodRethrow<TKey, false>(this, ___internal_method, i);
 }
 template <typename TKey, typename TValue> inline TKey IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>::_get_Min_b__15_0(::IntervalTree::RangeValuePair_2<TKey, TValue> i) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>*>::get(), "<get_Min>b__15_0", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::IntervalTree::RangeValuePair_2<TKey, TValue>>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::__IntervalTreeNode_2____c<TKey, TValue>*>::get(), "<get_Min>b__15_0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::IntervalTree::RangeValuePair_2<TKey, TValue>>::get() })));
   return ::cordl_internals::RunMethodRethrow<TKey, false>(this, ___internal_method, i);
 }
 // Ctor Parameters []
@@ -70,120 +70,122 @@ constexpr ::System::Collections::Generic::IComparer_1<::IntervalTree::RangeValue
 IntervalTree::IntervalTreeNode_2<TKey, TValue>::i___System__Collections__Generic__IComparer_1___IntervalTree__RangeValuePair_2_TKey_TValue__() noexcept {
   return static_cast<::System::Collections::Generic::IComparer_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>(static_cast<void*>(this));
 }
-template <typename TKey, typename TValue> constexpr TKey& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__get_center() {
+template <typename TKey, typename TValue> constexpr TKey& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__cordl_internal_get_center() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___center;
 }
-template <typename TKey, typename TValue> constexpr TKey const& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__get_center() const {
+template <typename TKey, typename TValue> constexpr TKey const& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__cordl_internal_get_center() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___center;
 }
-template <typename TKey, typename TValue> constexpr void IntervalTree::IntervalTreeNode_2<TKey, TValue>::__set_center(TKey value) {
+template <typename TKey, typename TValue> constexpr void IntervalTree::IntervalTreeNode_2<TKey, TValue>::__cordl_internal_set_center(TKey value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___center)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename TKey, typename TValue> constexpr ::IntervalTree::IntervalTreeNode_2<TKey, TValue>*& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__get_leftNode() {
+template <typename TKey, typename TValue> constexpr ::IntervalTree::IntervalTreeNode_2<TKey, TValue>*& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__cordl_internal_get_leftNode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftNode;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*> const& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__get_leftNode() const {
+constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*> const& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__cordl_internal_get_leftNode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___leftNode;
 }
-template <typename TKey, typename TValue> constexpr void IntervalTree::IntervalTreeNode_2<TKey, TValue>::__set_leftNode(::IntervalTree::IntervalTreeNode_2<TKey, TValue>* value) {
+template <typename TKey, typename TValue> constexpr void IntervalTree::IntervalTreeNode_2<TKey, TValue>::__cordl_internal_set_leftNode(::IntervalTree::IntervalTreeNode_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___leftNode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename TKey, typename TValue> constexpr ::IntervalTree::IntervalTreeNode_2<TKey, TValue>*& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__get_rightNode() {
+template <typename TKey, typename TValue> constexpr ::IntervalTree::IntervalTreeNode_2<TKey, TValue>*& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__cordl_internal_get_rightNode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightNode;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*> const& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__get_rightNode() const {
+constexpr ::cordl_internals::to_const_pointer<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*> const& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__cordl_internal_get_rightNode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rightNode;
 }
-template <typename TKey, typename TValue> constexpr void IntervalTree::IntervalTreeNode_2<TKey, TValue>::__set_rightNode(::IntervalTree::IntervalTreeNode_2<TKey, TValue>* value) {
+template <typename TKey, typename TValue> constexpr void IntervalTree::IntervalTreeNode_2<TKey, TValue>::__cordl_internal_set_rightNode(::IntervalTree::IntervalTreeNode_2<TKey, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___rightNode)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue>
-constexpr ::ArrayW<::IntervalTree::RangeValuePair_2<TKey, TValue>, ::Array<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__get_items() {
+constexpr ::ArrayW<::IntervalTree::RangeValuePair_2<TKey, TValue>, ::Array<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>&
+IntervalTree::IntervalTreeNode_2<TKey, TValue>::__cordl_internal_get_items() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___items;
 }
 template <typename TKey, typename TValue>
 constexpr ::ArrayW<::IntervalTree::RangeValuePair_2<TKey, TValue>, ::Array<::IntervalTree::RangeValuePair_2<TKey, TValue>>*> const&
-IntervalTree::IntervalTreeNode_2<TKey, TValue>::__get_items() const {
+IntervalTree::IntervalTreeNode_2<TKey, TValue>::__cordl_internal_get_items() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___items;
 }
 template <typename TKey, typename TValue>
-constexpr void IntervalTree::IntervalTreeNode_2<TKey, TValue>::__set_items(::ArrayW<::IntervalTree::RangeValuePair_2<TKey, TValue>, ::Array<::IntervalTree::RangeValuePair_2<TKey, TValue>>*> value) {
+constexpr void
+IntervalTree::IntervalTreeNode_2<TKey, TValue>::__cordl_internal_set_items(::ArrayW<::IntervalTree::RangeValuePair_2<TKey, TValue>, ::Array<::IntervalTree::RangeValuePair_2<TKey, TValue>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___items)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename TKey, typename TValue> constexpr ::System::Collections::Generic::IComparer_1<TKey>*& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__get_comparer() {
+template <typename TKey, typename TValue> constexpr ::System::Collections::Generic::IComparer_1<TKey>*& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__cordl_internal_get_comparer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
 template <typename TKey, typename TValue>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<TKey>*> const& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__get_comparer() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<TKey>*> const& IntervalTree::IntervalTreeNode_2<TKey, TValue>::__cordl_internal_get_comparer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___comparer;
 }
-template <typename TKey, typename TValue> constexpr void IntervalTree::IntervalTreeNode_2<TKey, TValue>::__set_comparer(::System::Collections::Generic::IComparer_1<TKey>* value) {
+template <typename TKey, typename TValue> constexpr void IntervalTree::IntervalTreeNode_2<TKey, TValue>::__cordl_internal_set_comparer(::System::Collections::Generic::IComparer_1<TKey>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___comparer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename TKey, typename TValue>
 inline ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* IntervalTree::IntervalTreeNode_2<TKey, TValue>::New_ctor(::System::Collections::Generic::IComparer_1<TKey>* comparer) {
-  return THROW_UNLESS(::il2cpp_utils::New<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*>(comparer));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*>(comparer));
 }
 template <typename TKey, typename TValue> inline void IntervalTree::IntervalTreeNode_2<TKey, TValue>::_ctor(::System::Collections::Generic::IComparer_1<TKey>* comparer) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IComparer_1<TKey>*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IComparer_1<TKey>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, comparer);
 }
 template <typename TKey, typename TValue>
 inline ::IntervalTree::IntervalTreeNode_2<TKey, TValue>*
 IntervalTree::IntervalTreeNode_2<TKey, TValue>::New_ctor(::System::Collections::Generic::IList_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* items,
                                                          ::System::Collections::Generic::IComparer_1<TKey>* comparer) {
-  return THROW_UNLESS(::il2cpp_utils::New<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*>(items, comparer));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*>(items, comparer));
 }
 template <typename TKey, typename TValue>
 inline void IntervalTree::IntervalTreeNode_2<TKey, TValue>::_ctor(::System::Collections::Generic::IList_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>* items,
                                                                   ::System::Collections::Generic::IComparer_1<TKey>* comparer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IComparer_1<TKey>*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<::IntervalTree::RangeValuePair_2<TKey, TValue>>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IComparer_1<TKey>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, items, comparer);
 }
 template <typename TKey, typename TValue> inline ::System::Collections::Generic::IEnumerable_1<TValue>* IntervalTree::IntervalTreeNode_2<TKey, TValue>::Query(TKey value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*>::get(), "Query", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*>::get(), "Query",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TValue>*, false>(this, ___internal_method, value);
 }
 template <typename TKey, typename TValue> inline ::System::Collections::Generic::List_1<TValue>* IntervalTree::IntervalTreeNode_2<TKey, TValue>::Query(TKey from, TKey to) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*>::get(), "Query", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*>::get(), "Query", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<TValue>*, false>(this, ___internal_method, from, to);
 }
 template <typename TKey, typename TValue> inline ::System::Collections::Generic::IEnumerable_1<TValue>* IntervalTree::IntervalTreeNode_2<TKey, TValue>::QueryClosestPrev(TKey value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*>::get(), "QueryClosestPrev",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<TValue>*, false>(this, ___internal_method, value);
 }
 template <typename TKey, typename TValue> inline ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* IntervalTree::IntervalTreeNode_2<TKey, TValue>::GetClosestNodeTo(TKey key) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*>::get(), "GetClosestNodeTo",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TKey>::get() })));
   return ::cordl_internals::RunMethodRethrow<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*, false>(this, ___internal_method, key);
 }
 template <typename TKey, typename TValue>
@@ -192,19 +194,19 @@ IntervalTree::IntervalTreeNode_2<TKey, TValue>::System_Collections_Generic_IComp
                                                                                                                                        ::IntervalTree::RangeValuePair_2<TKey, TValue> y) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*>::get(),
-                                               "System.Collections.Generic.IComparer<IntervalTree.RangeValuePair<TKey,TValue>>.Compare", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::IntervalTree::RangeValuePair_2<TKey, TValue>>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::IntervalTree::RangeValuePair_2<TKey, TValue>>::get() })));
+                                               "System.Collections.Generic.IComparer<IntervalTree.RangeValuePair<TKey,TValue>>.Compare", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::IntervalTree::RangeValuePair_2<TKey, TValue>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::IntervalTree::RangeValuePair_2<TKey, TValue>>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x, y);
 }
 template <typename TKey, typename TValue> inline TKey IntervalTree::IntervalTreeNode_2<TKey, TValue>::get_Max() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*>::get(),
-                                                                             "get_Max", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_Max", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<TKey, false>(this, ___internal_method);
 }
 template <typename TKey, typename TValue> inline TKey IntervalTree::IntervalTreeNode_2<TKey, TValue>::get_Min() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::IntervalTreeNode_2<TKey, TValue>*>::get(),
-                                                                             "get_Min", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_Min", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<TKey, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -24,7 +24,7 @@ MARK_VAL_T(::UnityEngine::Rendering::SubMeshDescriptor);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(10109))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10109)), TypeDefinitionIndex(TypeDefinitionIndex(10164))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10344))
 // CS Name: ::UnityEngine.Rendering::SubMeshDescriptor
 struct CORDL_TYPE SubMeshDescriptor {

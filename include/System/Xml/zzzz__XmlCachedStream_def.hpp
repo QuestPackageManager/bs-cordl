@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::System::Xml::XmlCachedStream);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3566))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11554))
 // CS Name: ::System.Xml::XmlCachedStream*
 class CORDL_TYPE XmlCachedStream : public ::System::IO::MemoryStream {
 public:
   // Declarations
   /// @brief Field uri, offset 0x50, size 0x8
-  __declspec(property(get = __get_uri, put = __set_uri))::System::Uri* uri;
+  __declspec(property(get = __cordl_internal_get_uri, put = __cordl_internal_set_uri))::System::Uri* uri;
 
-  constexpr ::System::Uri*& __get_uri();
+  constexpr ::System::Uri*& __cordl_internal_get_uri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get_uri() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_uri() const;
 
-  constexpr void __set_uri(::System::Uri* value);
+  constexpr void __cordl_internal_set_uri(::System::Uri* value);
 
   static inline ::System::Xml::XmlCachedStream* New_ctor(::System::Uri* uri, ::System::IO::Stream* stream);
 

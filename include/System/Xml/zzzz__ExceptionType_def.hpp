@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Xml::ExceptionType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11546))
 // CS Name: ::System.Xml::ExceptionType
 struct CORDL_TYPE ExceptionType {

@@ -40,24 +40,25 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Icao::LdsSecurityObject);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Icao {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(177))
 // CS Name: ::Org.BouncyCastle.Asn1.Icao::LdsSecurityObject*
 class CORDL_TYPE LdsSecurityObject : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __get_version, put = __set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
   /// @brief Field digestAlgorithmIdentifier, offset 0x18, size 0x8
-  __declspec(property(get = __get_digestAlgorithmIdentifier, put = __set_digestAlgorithmIdentifier))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier;
+  __declspec(property(get = __cordl_internal_get_digestAlgorithmIdentifier,
+                      put = __cordl_internal_set_digestAlgorithmIdentifier))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlgorithmIdentifier;
 
   /// @brief Field datagroupHash, offset 0x20, size 0x8
-  __declspec(property(get = __get_datagroupHash,
-                      put = __set_datagroupHash))::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*, ::Array<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*>*> datagroupHash;
+  __declspec(property(get = __cordl_internal_get_datagroupHash,
+                      put = __cordl_internal_set_datagroupHash))::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*, ::Array<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*>*> datagroupHash;
 
   /// @brief Field versionInfo, offset 0x28, size 0x8
-  __declspec(property(get = __get_versionInfo, put = __set_versionInfo))::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* versionInfo;
+  __declspec(property(get = __cordl_internal_get_versionInfo, put = __cordl_internal_set_versionInfo))::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* versionInfo;
 
   __declspec(property(get = get_Version))::Org::BouncyCastle::Math::BigInteger* Version;
 
@@ -65,29 +66,29 @@ public:
 
   __declspec(property(get = get_VersionInfo))::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* VersionInfo;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_version();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_version() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_digestAlgorithmIdentifier();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_digestAlgorithmIdentifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_digestAlgorithmIdentifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_digestAlgorithmIdentifier() const;
 
-  constexpr void __set_digestAlgorithmIdentifier(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_digestAlgorithmIdentifier(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*, ::Array<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*>*>& __get_datagroupHash();
+  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*, ::Array<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*>*>& __cordl_internal_get_datagroupHash();
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*, ::Array<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*>*> const& __get_datagroupHash() const;
+  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*, ::Array<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*>*> const& __cordl_internal_get_datagroupHash() const;
 
-  constexpr void __set_datagroupHash(::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*, ::Array<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*>*> value);
+  constexpr void __cordl_internal_set_datagroupHash(::ArrayW<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*, ::Array<::Org::BouncyCastle::Asn1::Icao::DataGroupHash*>*> value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo*& __get_versionInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo*& __cordl_internal_get_versionInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo*> const& __get_versionInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo*> const& __cordl_internal_get_versionInfo() const;
 
-  constexpr void __set_versionInfo(::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* value);
+  constexpr void __cordl_internal_set_versionInfo(::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* value);
 
   /// @brief Method GetInstance, addr 0xf74da4, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsSecurityObject* GetInstance(::System::Object* obj);

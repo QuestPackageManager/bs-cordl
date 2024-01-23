@@ -61,20 +61,20 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayCl
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11862))
 // CS Name: ::ReflectionObject::<>c__DisplayClass13_0*
 class CORDL_TYPE __ReflectionObject____c__DisplayClass13_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ctor, offset 0x10, size 0x8
-  __declspec(property(get = __get_ctor, put = __set_ctor))::System::Func_1<::System::Object*>* ctor;
+  __declspec(property(get = __cordl_internal_get_ctor, put = __cordl_internal_set_ctor))::System::Func_1<::System::Object*>* ctor;
 
-  constexpr ::System::Func_1<::System::Object*>*& __get_ctor();
+  constexpr ::System::Func_1<::System::Object*>*& __cordl_internal_get_ctor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Object*>*> const& __get_ctor() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Object*>*> const& __cordl_internal_get_ctor() const;
 
-  constexpr void __set_ctor(::System::Func_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set_ctor(::System::Func_1<::System::Object*>* value);
 
   static inline ::Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_0* New_ctor();
 
@@ -113,20 +113,20 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__ReflectionObject____c__D
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11863))
 // CS Name: ::ReflectionObject::<>c__DisplayClass13_1*
 class CORDL_TYPE __ReflectionObject____c__DisplayClass13_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field call, offset 0x10, size 0x8
-  __declspec(property(get = __get_call, put = __set_call))::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* call;
+  __declspec(property(get = __cordl_internal_get_call, put = __cordl_internal_set_call))::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* call;
 
-  constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& __get_call();
+  constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& __cordl_internal_get_call();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const& __get_call() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const& __cordl_internal_get_call() const;
 
-  constexpr void __set_call(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
+  constexpr void __cordl_internal_set_call(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
   static inline ::Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_1* New_ctor();
 
@@ -165,20 +165,20 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__ReflectionObject____c__D
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11864))
 // CS Name: ::ReflectionObject::<>c__DisplayClass13_2*
 class CORDL_TYPE __ReflectionObject____c__DisplayClass13_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field call, offset 0x10, size 0x8
-  __declspec(property(get = __get_call, put = __set_call))::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* call;
+  __declspec(property(get = __cordl_internal_get_call, put = __cordl_internal_set_call))::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* call;
 
-  constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& __get_call();
+  constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& __cordl_internal_get_call();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const& __get_call() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const& __cordl_internal_get_call() const;
 
-  constexpr void __set_call(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
+  constexpr void __cordl_internal_set_call(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
   static inline ::Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_2* New_ctor();
 
@@ -217,7 +217,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__ReflectionObject____c__D
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11865))
 // CS Name: ::Newtonsoft.Json.Utilities::ReflectionObject*
 class CORDL_TYPE ReflectionObject : public ::System::Object {
@@ -230,28 +230,30 @@ public:
   using __c__DisplayClass13_0 = ::Newtonsoft::Json::Utilities::__ReflectionObject____c__DisplayClass13_0;
 
   /// @brief Field <Creator>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Creator_k__BackingField, put = __set__Creator_k__BackingField))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _Creator_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Creator_k__BackingField,
+                      put = __cordl_internal_set__Creator_k__BackingField))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* _Creator_k__BackingField;
 
   /// @brief Field <Members>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Members_k__BackingField,
-                      put = __set__Members_k__BackingField))::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* _Members_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__Members_k__BackingField,
+      put = __cordl_internal_set__Members_k__BackingField))::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* _Members_k__BackingField;
 
   __declspec(property(get = get_Creator, put = set_Creator))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* Creator;
 
   __declspec(property(get = get_Members, put = set_Members))::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* Members;
 
-  constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __get__Creator_k__BackingField();
+  constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __cordl_internal_get__Creator_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const& __get__Creator_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const& __cordl_internal_get__Creator_k__BackingField() const;
 
-  constexpr void __set__Creator_k__BackingField(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set__Creator_k__BackingField(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>*& __get__Members_k__BackingField();
+  constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>*& __cordl_internal_get__Members_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>*> const&
-  __get__Members_k__BackingField() const;
+  __cordl_internal_get__Members_k__BackingField() const;
 
-  constexpr void __set__Members_k__BackingField(::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* value);
+  constexpr void __cordl_internal_set__Members_k__BackingField(::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Utilities::ReflectionMember*>* value);
 
   /// @brief Method get_Creator, addr 0x265a778, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* get_Creator();

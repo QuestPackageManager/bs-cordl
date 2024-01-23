@@ -25,48 +25,48 @@ MARK_REF_PTR_T(::UnityEngine::Networking::DownloadHandlerTexture);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15580)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(16141)) CS Name: ::UnityEngine.Networking::DownloadHandlerTexture*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(15580)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16141)) CS Name: ::UnityEngine.Networking::DownloadHandlerTexture*
 class CORDL_TYPE DownloadHandlerTexture : public ::UnityEngine::Networking::DownloadHandler {
 public:
   // Declarations
   /// @brief Field m_NativeData, offset 0x18, size 0x10
-  __declspec(property(get = __get_m_NativeData, put = __set_m_NativeData))::Unity::Collections::NativeArray_1<uint8_t> m_NativeData;
+  __declspec(property(get = __cordl_internal_get_m_NativeData, put = __cordl_internal_set_m_NativeData))::Unity::Collections::NativeArray_1<uint8_t> m_NativeData;
 
   /// @brief Field mTexture, offset 0x28, size 0x8
-  __declspec(property(get = __get_mTexture, put = __set_mTexture))::UnityEngine::Texture2D* mTexture;
+  __declspec(property(get = __cordl_internal_get_mTexture, put = __cordl_internal_set_mTexture))::UnityW<::UnityEngine::Texture2D> mTexture;
 
   /// @brief Field mHasTexture, offset 0x30, size 0x1
-  __declspec(property(get = __get_mHasTexture, put = __set_mHasTexture)) bool mHasTexture;
+  __declspec(property(get = __cordl_internal_get_mHasTexture, put = __cordl_internal_set_mHasTexture)) bool mHasTexture;
 
   /// @brief Field mNonReadable, offset 0x31, size 0x1
-  __declspec(property(get = __get_mNonReadable, put = __set_mNonReadable)) bool mNonReadable;
+  __declspec(property(get = __cordl_internal_get_mNonReadable, put = __cordl_internal_set_mNonReadable)) bool mNonReadable;
 
-  __declspec(property(get = get_texture))::UnityEngine::Texture2D* texture;
+  __declspec(property(get = get_texture))::UnityW<::UnityEngine::Texture2D> texture;
 
-  constexpr ::Unity::Collections::NativeArray_1<uint8_t>& __get_m_NativeData();
+  constexpr ::Unity::Collections::NativeArray_1<uint8_t>& __cordl_internal_get_m_NativeData();
 
-  constexpr ::Unity::Collections::NativeArray_1<uint8_t> const& __get_m_NativeData() const;
+  constexpr ::Unity::Collections::NativeArray_1<uint8_t> const& __cordl_internal_get_m_NativeData() const;
 
-  constexpr void __set_m_NativeData(::Unity::Collections::NativeArray_1<uint8_t> value);
+  constexpr void __cordl_internal_set_m_NativeData(::Unity::Collections::NativeArray_1<uint8_t> value);
 
-  constexpr ::UnityEngine::Texture2D*& __get_mTexture();
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get_mTexture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& __get_mTexture() const;
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get_mTexture() const;
 
-  constexpr void __set_mTexture(::UnityEngine::Texture2D* value);
+  constexpr void __cordl_internal_set_mTexture(::UnityW<::UnityEngine::Texture2D> value);
 
-  constexpr bool& __get_mHasTexture();
+  constexpr bool& __cordl_internal_get_mHasTexture();
 
-  constexpr bool const& __get_mHasTexture() const;
+  constexpr bool const& __cordl_internal_get_mHasTexture() const;
 
-  constexpr void __set_mHasTexture(bool value);
+  constexpr void __cordl_internal_set_mHasTexture(bool value);
 
-  constexpr bool& __get_mNonReadable();
+  constexpr bool& __cordl_internal_get_mNonReadable();
 
-  constexpr bool const& __get_mNonReadable() const;
+  constexpr bool const& __cordl_internal_get_mNonReadable() const;
 
-  constexpr void __set_mNonReadable(bool value);
+  constexpr void __cordl_internal_set_mNonReadable(bool value);
 
   /// @brief Method Create, addr 0x2eb0e70, size 0x44, virtual false, abstract: false, final false
   static inline void* Create(::UnityEngine::Networking::DownloadHandlerTexture* obj, bool readable);
@@ -86,16 +86,16 @@ public:
   inline void Dispose();
 
   /// @brief Method get_texture, addr 0x2eb0f30, size 0x4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture2D* get_texture();
+  inline ::UnityW<::UnityEngine::Texture2D> get_texture();
 
   /// @brief Method InternalGetTexture, addr 0x2eb0f34, size 0x110, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture2D* InternalGetTexture();
+  inline ::UnityW<::UnityEngine::Texture2D> InternalGetTexture();
 
   /// @brief Method InternalGetTextureNative, addr 0x2eb1044, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture2D* InternalGetTextureNative();
+  inline ::UnityW<::UnityEngine::Texture2D> InternalGetTextureNative();
 
   /// @brief Method GetContent, addr 0x2eb1080, size 0x54, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* GetContent(::UnityEngine::Networking::UnityWebRequest* www);
+  static inline ::UnityW<::UnityEngine::Texture2D> GetContent(::UnityEngine::Networking::UnityWebRequest* www);
 
   // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerTexture", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -115,7 +115,7 @@ public:
   ::Unity::Collections::NativeArray_1<uint8_t> ___m_NativeData;
 
   /// @brief Field mTexture, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Texture2D* ___mTexture;
+  ::UnityW<::UnityEngine::Texture2D> ___mTexture;
 
   /// @brief Field mHasTexture, offset: 0x30, size: 0x1, def value: None
   bool ___mHasTexture;

@@ -37,74 +37,74 @@ MARK_REF_PTR_T(::System::Net::Cookie);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 154, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9119)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9119))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9120))
 // CS Name: ::System.Net::Cookie*
 class CORDL_TYPE Cookie : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_comment, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_comment, put = __set_m_comment))::StringW m_comment;
+  __declspec(property(get = __cordl_internal_get_m_comment, put = __cordl_internal_set_m_comment))::StringW m_comment;
 
   /// @brief Field m_commentUri, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_commentUri, put = __set_m_commentUri))::System::Uri* m_commentUri;
+  __declspec(property(get = __cordl_internal_get_m_commentUri, put = __cordl_internal_set_m_commentUri))::System::Uri* m_commentUri;
 
   /// @brief Field m_cookieVariant, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_cookieVariant, put = __set_m_cookieVariant))::System::Net::CookieVariant m_cookieVariant;
+  __declspec(property(get = __cordl_internal_get_m_cookieVariant, put = __cordl_internal_set_m_cookieVariant))::System::Net::CookieVariant m_cookieVariant;
 
   /// @brief Field m_discard, offset 0x24, size 0x1
-  __declspec(property(get = __get_m_discard, put = __set_m_discard)) bool m_discard;
+  __declspec(property(get = __cordl_internal_get_m_discard, put = __cordl_internal_set_m_discard)) bool m_discard;
 
   /// @brief Field m_domain, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_domain, put = __set_m_domain))::StringW m_domain;
+  __declspec(property(get = __cordl_internal_get_m_domain, put = __cordl_internal_set_m_domain))::StringW m_domain;
 
   /// @brief Field m_domain_implicit, offset 0x30, size 0x1
-  __declspec(property(get = __get_m_domain_implicit, put = __set_m_domain_implicit)) bool m_domain_implicit;
+  __declspec(property(get = __cordl_internal_get_m_domain_implicit, put = __cordl_internal_set_m_domain_implicit)) bool m_domain_implicit;
 
   /// @brief Field m_expires, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_expires, put = __set_m_expires))::System::DateTime m_expires;
+  __declspec(property(get = __cordl_internal_get_m_expires, put = __cordl_internal_set_m_expires))::System::DateTime m_expires;
 
   /// @brief Field m_name, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_name, put = __set_m_name))::StringW m_name;
+  __declspec(property(get = __cordl_internal_get_m_name, put = __cordl_internal_set_m_name))::StringW m_name;
 
   /// @brief Field m_path, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_path, put = __set_m_path))::StringW m_path;
+  __declspec(property(get = __cordl_internal_get_m_path, put = __cordl_internal_set_m_path))::StringW m_path;
 
   /// @brief Field m_path_implicit, offset 0x50, size 0x1
-  __declspec(property(get = __get_m_path_implicit, put = __set_m_path_implicit)) bool m_path_implicit;
+  __declspec(property(get = __cordl_internal_get_m_path_implicit, put = __cordl_internal_set_m_path_implicit)) bool m_path_implicit;
 
   /// @brief Field m_port, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_port, put = __set_m_port))::StringW m_port;
+  __declspec(property(get = __cordl_internal_get_m_port, put = __cordl_internal_set_m_port))::StringW m_port;
 
   /// @brief Field m_port_implicit, offset 0x60, size 0x1
-  __declspec(property(get = __get_m_port_implicit, put = __set_m_port_implicit)) bool m_port_implicit;
+  __declspec(property(get = __cordl_internal_get_m_port_implicit, put = __cordl_internal_set_m_port_implicit)) bool m_port_implicit;
 
   /// @brief Field m_port_list, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_port_list, put = __set_m_port_list))::ArrayW<int32_t, ::Array<int32_t>*> m_port_list;
+  __declspec(property(get = __cordl_internal_get_m_port_list, put = __cordl_internal_set_m_port_list))::ArrayW<int32_t, ::Array<int32_t>*> m_port_list;
 
   /// @brief Field m_secure, offset 0x70, size 0x1
-  __declspec(property(get = __get_m_secure, put = __set_m_secure)) bool m_secure;
+  __declspec(property(get = __cordl_internal_get_m_secure, put = __cordl_internal_set_m_secure)) bool m_secure;
 
   /// @brief Field m_httpOnly, offset 0x71, size 0x1
-  __declspec(property(get = __get_m_httpOnly, put = __set_m_httpOnly)) bool m_httpOnly;
+  __declspec(property(get = __cordl_internal_get_m_httpOnly, put = __cordl_internal_set_m_httpOnly)) bool m_httpOnly;
 
   /// @brief Field m_timeStamp, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_timeStamp, put = __set_m_timeStamp))::System::DateTime m_timeStamp;
+  __declspec(property(get = __cordl_internal_get_m_timeStamp, put = __cordl_internal_set_m_timeStamp))::System::DateTime m_timeStamp;
 
   /// @brief Field m_value, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_value, put = __set_m_value))::StringW m_value;
+  __declspec(property(get = __cordl_internal_get_m_value, put = __cordl_internal_set_m_value))::StringW m_value;
 
   /// @brief Field m_version, offset 0x88, size 0x4
-  __declspec(property(get = __get_m_version, put = __set_m_version)) int32_t m_version;
+  __declspec(property(get = __cordl_internal_get_m_version, put = __cordl_internal_set_m_version)) int32_t m_version;
 
   /// @brief Field m_domainKey, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_domainKey, put = __set_m_domainKey))::StringW m_domainKey;
+  __declspec(property(get = __cordl_internal_get_m_domainKey, put = __cordl_internal_set_m_domainKey))::StringW m_domainKey;
 
   /// @brief Field IsQuotedVersion, offset 0x98, size 0x1
-  __declspec(property(get = __get_IsQuotedVersion, put = __set_IsQuotedVersion)) bool IsQuotedVersion;
+  __declspec(property(get = __cordl_internal_get_IsQuotedVersion, put = __cordl_internal_set_IsQuotedVersion)) bool IsQuotedVersion;
 
   /// @brief Field IsQuotedDomain, offset 0x99, size 0x1
-  __declspec(property(get = __get_IsQuotedDomain, put = __set_IsQuotedDomain)) bool IsQuotedDomain;
+  __declspec(property(get = __cordl_internal_get_IsQuotedDomain, put = __cordl_internal_set_IsQuotedDomain)) bool IsQuotedDomain;
 
   /// @brief Field PortSplitDelimiters, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_PortSplitDelimiters, put = setStaticF_PortSplitDelimiters))::ArrayW<char16_t, ::Array<char16_t>*> PortSplitDelimiters;
@@ -160,131 +160,131 @@ public:
 
   __declspec(property(get = get__Version))::StringW _Version;
 
-  constexpr ::StringW& __get_m_comment();
+  constexpr ::StringW& __cordl_internal_get_m_comment();
 
-  constexpr ::StringW const& __get_m_comment() const;
+  constexpr ::StringW const& __cordl_internal_get_m_comment() const;
 
-  constexpr void __set_m_comment(::StringW value);
+  constexpr void __cordl_internal_set_m_comment(::StringW value);
 
-  constexpr ::System::Uri*& __get_m_commentUri();
+  constexpr ::System::Uri*& __cordl_internal_get_m_commentUri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get_m_commentUri() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_m_commentUri() const;
 
-  constexpr void __set_m_commentUri(::System::Uri* value);
+  constexpr void __cordl_internal_set_m_commentUri(::System::Uri* value);
 
-  constexpr ::System::Net::CookieVariant& __get_m_cookieVariant();
+  constexpr ::System::Net::CookieVariant& __cordl_internal_get_m_cookieVariant();
 
-  constexpr ::System::Net::CookieVariant const& __get_m_cookieVariant() const;
+  constexpr ::System::Net::CookieVariant const& __cordl_internal_get_m_cookieVariant() const;
 
-  constexpr void __set_m_cookieVariant(::System::Net::CookieVariant value);
+  constexpr void __cordl_internal_set_m_cookieVariant(::System::Net::CookieVariant value);
 
-  constexpr bool& __get_m_discard();
+  constexpr bool& __cordl_internal_get_m_discard();
 
-  constexpr bool const& __get_m_discard() const;
+  constexpr bool const& __cordl_internal_get_m_discard() const;
 
-  constexpr void __set_m_discard(bool value);
+  constexpr void __cordl_internal_set_m_discard(bool value);
 
-  constexpr ::StringW& __get_m_domain();
+  constexpr ::StringW& __cordl_internal_get_m_domain();
 
-  constexpr ::StringW const& __get_m_domain() const;
+  constexpr ::StringW const& __cordl_internal_get_m_domain() const;
 
-  constexpr void __set_m_domain(::StringW value);
+  constexpr void __cordl_internal_set_m_domain(::StringW value);
 
-  constexpr bool& __get_m_domain_implicit();
+  constexpr bool& __cordl_internal_get_m_domain_implicit();
 
-  constexpr bool const& __get_m_domain_implicit() const;
+  constexpr bool const& __cordl_internal_get_m_domain_implicit() const;
 
-  constexpr void __set_m_domain_implicit(bool value);
+  constexpr void __cordl_internal_set_m_domain_implicit(bool value);
 
-  constexpr ::System::DateTime& __get_m_expires();
+  constexpr ::System::DateTime& __cordl_internal_get_m_expires();
 
-  constexpr ::System::DateTime const& __get_m_expires() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_m_expires() const;
 
-  constexpr void __set_m_expires(::System::DateTime value);
+  constexpr void __cordl_internal_set_m_expires(::System::DateTime value);
 
-  constexpr ::StringW& __get_m_name();
+  constexpr ::StringW& __cordl_internal_get_m_name();
 
-  constexpr ::StringW const& __get_m_name() const;
+  constexpr ::StringW const& __cordl_internal_get_m_name() const;
 
-  constexpr void __set_m_name(::StringW value);
+  constexpr void __cordl_internal_set_m_name(::StringW value);
 
-  constexpr ::StringW& __get_m_path();
+  constexpr ::StringW& __cordl_internal_get_m_path();
 
-  constexpr ::StringW const& __get_m_path() const;
+  constexpr ::StringW const& __cordl_internal_get_m_path() const;
 
-  constexpr void __set_m_path(::StringW value);
+  constexpr void __cordl_internal_set_m_path(::StringW value);
 
-  constexpr bool& __get_m_path_implicit();
+  constexpr bool& __cordl_internal_get_m_path_implicit();
 
-  constexpr bool const& __get_m_path_implicit() const;
+  constexpr bool const& __cordl_internal_get_m_path_implicit() const;
 
-  constexpr void __set_m_path_implicit(bool value);
+  constexpr void __cordl_internal_set_m_path_implicit(bool value);
 
-  constexpr ::StringW& __get_m_port();
+  constexpr ::StringW& __cordl_internal_get_m_port();
 
-  constexpr ::StringW const& __get_m_port() const;
+  constexpr ::StringW const& __cordl_internal_get_m_port() const;
 
-  constexpr void __set_m_port(::StringW value);
+  constexpr void __cordl_internal_set_m_port(::StringW value);
 
-  constexpr bool& __get_m_port_implicit();
+  constexpr bool& __cordl_internal_get_m_port_implicit();
 
-  constexpr bool const& __get_m_port_implicit() const;
+  constexpr bool const& __cordl_internal_get_m_port_implicit() const;
 
-  constexpr void __set_m_port_implicit(bool value);
+  constexpr void __cordl_internal_set_m_port_implicit(bool value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_m_port_list();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_port_list();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_m_port_list() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_port_list() const;
 
-  constexpr void __set_m_port_list(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_m_port_list(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr bool& __get_m_secure();
+  constexpr bool& __cordl_internal_get_m_secure();
 
-  constexpr bool const& __get_m_secure() const;
+  constexpr bool const& __cordl_internal_get_m_secure() const;
 
-  constexpr void __set_m_secure(bool value);
+  constexpr void __cordl_internal_set_m_secure(bool value);
 
-  constexpr bool& __get_m_httpOnly();
+  constexpr bool& __cordl_internal_get_m_httpOnly();
 
-  constexpr bool const& __get_m_httpOnly() const;
+  constexpr bool const& __cordl_internal_get_m_httpOnly() const;
 
-  constexpr void __set_m_httpOnly(bool value);
+  constexpr void __cordl_internal_set_m_httpOnly(bool value);
 
-  constexpr ::System::DateTime& __get_m_timeStamp();
+  constexpr ::System::DateTime& __cordl_internal_get_m_timeStamp();
 
-  constexpr ::System::DateTime const& __get_m_timeStamp() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_m_timeStamp() const;
 
-  constexpr void __set_m_timeStamp(::System::DateTime value);
+  constexpr void __cordl_internal_set_m_timeStamp(::System::DateTime value);
 
-  constexpr ::StringW& __get_m_value();
+  constexpr ::StringW& __cordl_internal_get_m_value();
 
-  constexpr ::StringW const& __get_m_value() const;
+  constexpr ::StringW const& __cordl_internal_get_m_value() const;
 
-  constexpr void __set_m_value(::StringW value);
+  constexpr void __cordl_internal_set_m_value(::StringW value);
 
-  constexpr int32_t& __get_m_version();
+  constexpr int32_t& __cordl_internal_get_m_version();
 
-  constexpr int32_t const& __get_m_version() const;
+  constexpr int32_t const& __cordl_internal_get_m_version() const;
 
-  constexpr void __set_m_version(int32_t value);
+  constexpr void __cordl_internal_set_m_version(int32_t value);
 
-  constexpr ::StringW& __get_m_domainKey();
+  constexpr ::StringW& __cordl_internal_get_m_domainKey();
 
-  constexpr ::StringW const& __get_m_domainKey() const;
+  constexpr ::StringW const& __cordl_internal_get_m_domainKey() const;
 
-  constexpr void __set_m_domainKey(::StringW value);
+  constexpr void __cordl_internal_set_m_domainKey(::StringW value);
 
-  constexpr bool& __get_IsQuotedVersion();
+  constexpr bool& __cordl_internal_get_IsQuotedVersion();
 
-  constexpr bool const& __get_IsQuotedVersion() const;
+  constexpr bool const& __cordl_internal_get_IsQuotedVersion() const;
 
-  constexpr void __set_IsQuotedVersion(bool value);
+  constexpr void __cordl_internal_set_IsQuotedVersion(bool value);
 
-  constexpr bool& __get_IsQuotedDomain();
+  constexpr bool& __cordl_internal_get_IsQuotedDomain();
 
-  constexpr bool const& __get_IsQuotedDomain() const;
+  constexpr bool const& __cordl_internal_get_IsQuotedDomain() const;
 
-  constexpr void __set_IsQuotedDomain(bool value);
+  constexpr void __cordl_internal_set_IsQuotedDomain(bool value);
 
   static inline void setStaticF_PortSplitDelimiters(::ArrayW<char16_t, ::Array<char16_t>*> value);
 

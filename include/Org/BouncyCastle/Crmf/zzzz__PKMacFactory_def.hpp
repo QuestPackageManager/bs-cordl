@@ -28,17 +28,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::PKMacFactory);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(708))
 // CS Name: ::Org.BouncyCastle.Crmf::PKMacFactory*
 class CORDL_TYPE PKMacFactory : public ::System::Object {
 public:
   // Declarations
   /// @brief Field parameters, offset 0x10, size 0x8
-  __declspec(property(get = __get_parameters, put = __set_parameters))::Org::BouncyCastle::Asn1::Cmp::PbmParameter* parameters;
+  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::Org::BouncyCastle::Asn1::Cmp::PbmParameter* parameters;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::ArrayW<uint8_t, ::Array<uint8_t>*> key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::ArrayW<uint8_t, ::Array<uint8_t>*> key;
 
   __declspec(property(get = get_AlgorithmDetails))::System::Object* AlgorithmDetails;
 
@@ -48,17 +48,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMacFactory"
   constexpr ::Org::BouncyCastle::Crypto::IMacFactory* i___Org__BouncyCastle__Crypto__IMacFactory() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PbmParameter*& __get_parameters();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PbmParameter*& __cordl_internal_get_parameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PbmParameter*> const& __get_parameters() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PbmParameter*> const& __cordl_internal_get_parameters() const;
 
-  constexpr void __set_parameters(::Org::BouncyCastle::Asn1::Cmp::PbmParameter* value);
+  constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Asn1::Cmp::PbmParameter* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_key();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_key();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_key() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crmf::PKMacFactory* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::Org::BouncyCastle::Asn1::Cmp::PbmParameter* parameters);
 

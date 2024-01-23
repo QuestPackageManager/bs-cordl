@@ -26,78 +26,78 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Composites::TwoModifiersComposite);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Composites {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6189))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6189))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6718))
 // CS Name: ::UnityEngine.InputSystem.Composites::TwoModifiersComposite*
 class CORDL_TYPE TwoModifiersComposite : public ::UnityEngine::InputSystem::InputBindingComposite {
 public:
   // Declarations
   /// @brief Field modifier1, offset 0x10, size 0x4
-  __declspec(property(get = __get_modifier1, put = __set_modifier1)) int32_t modifier1;
+  __declspec(property(get = __cordl_internal_get_modifier1, put = __cordl_internal_set_modifier1)) int32_t modifier1;
 
   /// @brief Field modifier2, offset 0x14, size 0x4
-  __declspec(property(get = __get_modifier2, put = __set_modifier2)) int32_t modifier2;
+  __declspec(property(get = __cordl_internal_get_modifier2, put = __cordl_internal_set_modifier2)) int32_t modifier2;
 
   /// @brief Field binding, offset 0x18, size 0x4
-  __declspec(property(get = __get_binding, put = __set_binding)) int32_t binding;
+  __declspec(property(get = __cordl_internal_get_binding, put = __cordl_internal_set_binding)) int32_t binding;
 
   /// @brief Field overrideModifiersNeedToBePressedFirst, offset 0x1c, size 0x1
-  __declspec(property(get = __get_overrideModifiersNeedToBePressedFirst, put = __set_overrideModifiersNeedToBePressedFirst)) bool overrideModifiersNeedToBePressedFirst;
+  __declspec(property(get = __cordl_internal_get_overrideModifiersNeedToBePressedFirst, put = __cordl_internal_set_overrideModifiersNeedToBePressedFirst)) bool overrideModifiersNeedToBePressedFirst;
 
   /// @brief Field m_ValueSizeInBytes, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_ValueSizeInBytes, put = __set_m_ValueSizeInBytes)) int32_t m_ValueSizeInBytes;
+  __declspec(property(get = __cordl_internal_get_m_ValueSizeInBytes, put = __cordl_internal_set_m_ValueSizeInBytes)) int32_t m_ValueSizeInBytes;
 
   /// @brief Field m_ValueType, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_ValueType, put = __set_m_ValueType))::System::Type* m_ValueType;
+  __declspec(property(get = __cordl_internal_get_m_ValueType, put = __cordl_internal_set_m_ValueType))::System::Type* m_ValueType;
 
   /// @brief Field m_BindingIsButton, offset 0x30, size 0x1
-  __declspec(property(get = __get_m_BindingIsButton, put = __set_m_BindingIsButton)) bool m_BindingIsButton;
+  __declspec(property(get = __cordl_internal_get_m_BindingIsButton, put = __cordl_internal_set_m_BindingIsButton)) bool m_BindingIsButton;
 
   __declspec(property(get = get_valueType))::System::Type* valueType;
 
   __declspec(property(get = get_valueSizeInBytes)) int32_t valueSizeInBytes;
 
-  constexpr int32_t& __get_modifier1();
+  constexpr int32_t& __cordl_internal_get_modifier1();
 
-  constexpr int32_t const& __get_modifier1() const;
+  constexpr int32_t const& __cordl_internal_get_modifier1() const;
 
-  constexpr void __set_modifier1(int32_t value);
+  constexpr void __cordl_internal_set_modifier1(int32_t value);
 
-  constexpr int32_t& __get_modifier2();
+  constexpr int32_t& __cordl_internal_get_modifier2();
 
-  constexpr int32_t const& __get_modifier2() const;
+  constexpr int32_t const& __cordl_internal_get_modifier2() const;
 
-  constexpr void __set_modifier2(int32_t value);
+  constexpr void __cordl_internal_set_modifier2(int32_t value);
 
-  constexpr int32_t& __get_binding();
+  constexpr int32_t& __cordl_internal_get_binding();
 
-  constexpr int32_t const& __get_binding() const;
+  constexpr int32_t const& __cordl_internal_get_binding() const;
 
-  constexpr void __set_binding(int32_t value);
+  constexpr void __cordl_internal_set_binding(int32_t value);
 
-  constexpr bool& __get_overrideModifiersNeedToBePressedFirst();
+  constexpr bool& __cordl_internal_get_overrideModifiersNeedToBePressedFirst();
 
-  constexpr bool const& __get_overrideModifiersNeedToBePressedFirst() const;
+  constexpr bool const& __cordl_internal_get_overrideModifiersNeedToBePressedFirst() const;
 
-  constexpr void __set_overrideModifiersNeedToBePressedFirst(bool value);
+  constexpr void __cordl_internal_set_overrideModifiersNeedToBePressedFirst(bool value);
 
-  constexpr int32_t& __get_m_ValueSizeInBytes();
+  constexpr int32_t& __cordl_internal_get_m_ValueSizeInBytes();
 
-  constexpr int32_t const& __get_m_ValueSizeInBytes() const;
+  constexpr int32_t const& __cordl_internal_get_m_ValueSizeInBytes() const;
 
-  constexpr void __set_m_ValueSizeInBytes(int32_t value);
+  constexpr void __cordl_internal_set_m_ValueSizeInBytes(int32_t value);
 
-  constexpr ::System::Type*& __get_m_ValueType();
+  constexpr ::System::Type*& __cordl_internal_get_m_ValueType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_m_ValueType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_ValueType() const;
 
-  constexpr void __set_m_ValueType(::System::Type* value);
+  constexpr void __cordl_internal_set_m_ValueType(::System::Type* value);
 
-  constexpr bool& __get_m_BindingIsButton();
+  constexpr bool& __cordl_internal_get_m_BindingIsButton();
 
-  constexpr bool const& __get_m_BindingIsButton() const;
+  constexpr bool const& __cordl_internal_get_m_BindingIsButton() const;
 
-  constexpr void __set_m_BindingIsButton(bool value);
+  constexpr void __cordl_internal_set_m_BindingIsButton(bool value);
 
   /// @brief Method get_valueType, addr 0x2a5b780, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_valueType();

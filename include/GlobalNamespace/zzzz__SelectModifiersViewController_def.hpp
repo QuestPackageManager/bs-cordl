@@ -20,23 +20,23 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectModifiersViewController);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5721))
 // CS Name: ::SelectModifiersViewController*
 class CORDL_TYPE SelectModifiersViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _gameplayModifiersPanelController, offset 0x70, size 0x8
-  __declspec(property(get = __get__gameplayModifiersPanelController,
-                      put = __set__gameplayModifiersPanelController))::GlobalNamespace::GameplayModifiersPanelController* _gameplayModifiersPanelController;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiersPanelController,
+                      put = __cordl_internal_set__gameplayModifiersPanelController))::UnityW<::GlobalNamespace::GameplayModifiersPanelController> _gameplayModifiersPanelController;
 
   __declspec(property(get = get_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
-  constexpr ::GlobalNamespace::GameplayModifiersPanelController*& __get__gameplayModifiersPanelController();
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController>& __cordl_internal_get__gameplayModifiersPanelController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiersPanelController*> const& __get__gameplayModifiersPanelController() const;
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> const& __cordl_internal_get__gameplayModifiersPanelController() const;
 
-  constexpr void __set__gameplayModifiersPanelController(::GlobalNamespace::GameplayModifiersPanelController* value);
+  constexpr void __cordl_internal_set__gameplayModifiersPanelController(::UnityW<::GlobalNamespace::GameplayModifiersPanelController> value);
 
   /// @brief Method get_gameplayModifiers, addr 0x22d0164, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
@@ -67,7 +67,7 @@ protected:
 
 public:
   /// @brief Field _gameplayModifiersPanelController, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::GameplayModifiersPanelController* ____gameplayModifiersPanelController;
+  ::UnityW<::GlobalNamespace::GameplayModifiersPanelController> ____gameplayModifiersPanelController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

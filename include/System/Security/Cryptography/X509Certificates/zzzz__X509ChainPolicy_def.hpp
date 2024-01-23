@@ -43,38 +43,38 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509ChainPoli
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8986)), TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(2368)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(8989))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9008))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8986)), TypeDefinitionIndex(TypeDefinitionIndex(8987)), TypeDefinitionIndex(TypeDefinitionIndex(8989))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9008))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ChainPolicy*
 class CORDL_TYPE X509ChainPolicy : public ::System::Object {
 public:
   // Declarations
   /// @brief Field apps, offset 0x10, size 0x8
-  __declspec(property(get = __get_apps, put = __set_apps))::System::Security::Cryptography::OidCollection* apps;
+  __declspec(property(get = __cordl_internal_get_apps, put = __cordl_internal_set_apps))::System::Security::Cryptography::OidCollection* apps;
 
   /// @brief Field cert, offset 0x18, size 0x8
-  __declspec(property(get = __get_cert, put = __set_cert))::System::Security::Cryptography::OidCollection* cert;
+  __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert))::System::Security::Cryptography::OidCollection* cert;
 
   /// @brief Field store, offset 0x20, size 0x8
-  __declspec(property(get = __get_store, put = __set_store))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* store;
+  __declspec(property(get = __cordl_internal_get_store, put = __cordl_internal_set_store))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* store;
 
   /// @brief Field store2, offset 0x28, size 0x8
-  __declspec(property(get = __get_store2, put = __set_store2))::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* store2;
+  __declspec(property(get = __cordl_internal_get_store2, put = __cordl_internal_set_store2))::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* store2;
 
   /// @brief Field rflag, offset 0x30, size 0x4
-  __declspec(property(get = __get_rflag, put = __set_rflag))::System::Security::Cryptography::X509Certificates::X509RevocationFlag rflag;
+  __declspec(property(get = __cordl_internal_get_rflag, put = __cordl_internal_set_rflag))::System::Security::Cryptography::X509Certificates::X509RevocationFlag rflag;
 
   /// @brief Field mode, offset 0x34, size 0x4
-  __declspec(property(get = __get_mode, put = __set_mode))::System::Security::Cryptography::X509Certificates::X509RevocationMode mode;
+  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode))::System::Security::Cryptography::X509Certificates::X509RevocationMode mode;
 
   /// @brief Field timeout, offset 0x38, size 0x8
-  __declspec(property(get = __get_timeout, put = __set_timeout))::System::TimeSpan timeout;
+  __declspec(property(get = __cordl_internal_get_timeout, put = __cordl_internal_set_timeout))::System::TimeSpan timeout;
 
   /// @brief Field vflags, offset 0x40, size 0x4
-  __declspec(property(get = __get_vflags, put = __set_vflags))::System::Security::Cryptography::X509Certificates::X509VerificationFlags vflags;
+  __declspec(property(get = __cordl_internal_get_vflags, put = __cordl_internal_set_vflags))::System::Security::Cryptography::X509Certificates::X509VerificationFlags vflags;
 
   /// @brief Field vtime, offset 0x48, size 0x8
-  __declspec(property(get = __get_vtime, put = __set_vtime))::System::DateTime vtime;
+  __declspec(property(get = __cordl_internal_get_vtime, put = __cordl_internal_set_vtime))::System::DateTime vtime;
 
   __declspec(property(get = get_ExtraStore))::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* ExtraStore;
 
@@ -88,59 +88,59 @@ public:
 
   __declspec(property(get = get_VerificationTime, put = set_VerificationTime))::System::DateTime VerificationTime;
 
-  constexpr ::System::Security::Cryptography::OidCollection*& __get_apps();
+  constexpr ::System::Security::Cryptography::OidCollection*& __cordl_internal_get_apps();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::OidCollection*> const& __get_apps() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::OidCollection*> const& __cordl_internal_get_apps() const;
 
-  constexpr void __set_apps(::System::Security::Cryptography::OidCollection* value);
+  constexpr void __cordl_internal_set_apps(::System::Security::Cryptography::OidCollection* value);
 
-  constexpr ::System::Security::Cryptography::OidCollection*& __get_cert();
+  constexpr ::System::Security::Cryptography::OidCollection*& __cordl_internal_get_cert();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::OidCollection*> const& __get_cert() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::OidCollection*> const& __cordl_internal_get_cert() const;
 
-  constexpr void __set_cert(::System::Security::Cryptography::OidCollection* value);
+  constexpr void __cordl_internal_set_cert(::System::Security::Cryptography::OidCollection* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& __get_store();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& __cordl_internal_get_store();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const& __get_store() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const& __cordl_internal_get_store() const;
 
-  constexpr void __set_store(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
+  constexpr void __cordl_internal_set_store(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& __get_store2();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*& __cordl_internal_get_store2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*> const& __get_store2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate2Collection*> const& __cordl_internal_get_store2() const;
 
-  constexpr void __set_store2(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* value);
+  constexpr void __cordl_internal_set_store2(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationFlag& __get_rflag();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationFlag& __cordl_internal_get_rflag();
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationFlag const& __get_rflag() const;
+  constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationFlag const& __cordl_internal_get_rflag() const;
 
-  constexpr void __set_rflag(::System::Security::Cryptography::X509Certificates::X509RevocationFlag value);
+  constexpr void __cordl_internal_set_rflag(::System::Security::Cryptography::X509Certificates::X509RevocationFlag value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationMode& __get_mode();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationMode& __cordl_internal_get_mode();
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationMode const& __get_mode() const;
+  constexpr ::System::Security::Cryptography::X509Certificates::X509RevocationMode const& __cordl_internal_get_mode() const;
 
-  constexpr void __set_mode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
+  constexpr void __cordl_internal_set_mode(::System::Security::Cryptography::X509Certificates::X509RevocationMode value);
 
-  constexpr ::System::TimeSpan& __get_timeout();
+  constexpr ::System::TimeSpan& __cordl_internal_get_timeout();
 
-  constexpr ::System::TimeSpan const& __get_timeout() const;
+  constexpr ::System::TimeSpan const& __cordl_internal_get_timeout() const;
 
-  constexpr void __set_timeout(::System::TimeSpan value);
+  constexpr void __cordl_internal_set_timeout(::System::TimeSpan value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509VerificationFlags& __get_vflags();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509VerificationFlags& __cordl_internal_get_vflags();
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const& __get_vflags() const;
+  constexpr ::System::Security::Cryptography::X509Certificates::X509VerificationFlags const& __cordl_internal_get_vflags() const;
 
-  constexpr void __set_vflags(::System::Security::Cryptography::X509Certificates::X509VerificationFlags value);
+  constexpr void __cordl_internal_set_vflags(::System::Security::Cryptography::X509Certificates::X509VerificationFlags value);
 
-  constexpr ::System::DateTime& __get_vtime();
+  constexpr ::System::DateTime& __cordl_internal_get_vtime();
 
-  constexpr ::System::DateTime const& __get_vtime() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_vtime() const;
 
-  constexpr void __set_vtime(::System::DateTime value);
+  constexpr void __cordl_internal_set_vtime(::System::DateTime value);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* New_ctor();
 

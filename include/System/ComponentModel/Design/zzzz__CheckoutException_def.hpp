@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::ComponentModel::Design::CheckoutException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel::Design {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3302))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3302))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9496))
 // CS Name: ::System.ComponentModel.Design::CheckoutException*
 class CORDL_TYPE CheckoutException : public ::System::Runtime::InteropServices::ExternalException {

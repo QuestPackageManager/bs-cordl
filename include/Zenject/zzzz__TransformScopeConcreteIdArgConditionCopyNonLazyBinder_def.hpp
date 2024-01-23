@@ -33,22 +33,23 @@ MARK_REF_PTR_T(::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder)
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10926))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10926))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10919))
 // CS Name: ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder*
 class CORDL_TYPE TransformScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder {
 public:
   // Declarations
   /// @brief Field <GameObjectInfo>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__GameObjectInfo_k__BackingField, put = __set__GameObjectInfo_k__BackingField))::Zenject::GameObjectCreationParameters* _GameObjectInfo_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__GameObjectInfo_k__BackingField,
+                      put = __cordl_internal_set__GameObjectInfo_k__BackingField))::Zenject::GameObjectCreationParameters* _GameObjectInfo_k__BackingField;
 
   __declspec(property(get = get_GameObjectInfo, put = set_GameObjectInfo))::Zenject::GameObjectCreationParameters* GameObjectInfo;
 
-  constexpr ::Zenject::GameObjectCreationParameters*& __get__GameObjectInfo_k__BackingField();
+  constexpr ::Zenject::GameObjectCreationParameters*& __cordl_internal_get__GameObjectInfo_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __get__GameObjectInfo_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __cordl_internal_get__GameObjectInfo_k__BackingField() const;
 
-  constexpr void __set__GameObjectInfo_k__BackingField(::Zenject::GameObjectCreationParameters* value);
+  constexpr void __cordl_internal_set__GameObjectInfo_k__BackingField(::Zenject::GameObjectCreationParameters* value);
 
   static inline ::Zenject::TransformScopeConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectInfo);
 
@@ -65,7 +66,7 @@ public:
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransform(::UnityEngine::Transform* parent);
 
   /// @brief Method UnderTransform, addr 0x2eda0f0, size 0x1c, virtual false, abstract: false, final false
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransform(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::Transform*>* parentGetter);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransform(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>* parentGetter);
 
   /// @brief Method UnderTransformGroup, addr 0x2eda10c, size 0x1c, virtual false, abstract: false, final false
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* UnderTransformGroup(::StringW transformGroupname);

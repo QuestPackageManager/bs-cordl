@@ -8,22 +8,22 @@ constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer::__ifreq_mtu___ifr_name_e__FixedBuffer() {}
-constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer& System::Net::NetworkInformation::AixStructs::ifreq_mtu::__get_ifr_name() {
+constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer& System::Net::NetworkInformation::AixStructs::ifreq_mtu::__cordl_internal_get_ifr_name() {
   return this->___ifr_name;
 }
-constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer const& System::Net::NetworkInformation::AixStructs::ifreq_mtu::__get_ifr_name() const {
+constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer const& System::Net::NetworkInformation::AixStructs::ifreq_mtu::__cordl_internal_get_ifr_name() const {
   return this->___ifr_name;
 }
-constexpr void System::Net::NetworkInformation::AixStructs::ifreq_mtu::__set_ifr_name(::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer value) {
+constexpr void System::Net::NetworkInformation::AixStructs::ifreq_mtu::__cordl_internal_set_ifr_name(::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer value) {
   this->___ifr_name = value;
 }
-constexpr int32_t& System::Net::NetworkInformation::AixStructs::ifreq_mtu::__get_ifru_mtu() {
+constexpr int32_t& System::Net::NetworkInformation::AixStructs::ifreq_mtu::__cordl_internal_get_ifru_mtu() {
   return this->___ifru_mtu;
 }
-constexpr int32_t const& System::Net::NetworkInformation::AixStructs::ifreq_mtu::__get_ifru_mtu() const {
+constexpr int32_t const& System::Net::NetworkInformation::AixStructs::ifreq_mtu::__cordl_internal_get_ifru_mtu() const {
   return this->___ifru_mtu;
 }
-constexpr void System::Net::NetworkInformation::AixStructs::ifreq_mtu::__set_ifru_mtu(int32_t value) {
+constexpr void System::Net::NetworkInformation::AixStructs::ifreq_mtu::__cordl_internal_set_ifru_mtu(int32_t value) {
   this->___ifru_mtu = value;
 }
 // Ctor Parameters [CppParam { name: "ifr_name", ty: "::System::Net::NetworkInformation::AixStructs::__ifreq_mtu___ifr_name_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name:

@@ -17,42 +17,42 @@ MARK_REF_PTR_T(::GlobalNamespace::ReflectionProbeDataSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5867))
 // CS Name: ::ReflectionProbeDataSO*
 class CORDL_TYPE ReflectionProbeDataSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _reflectionProbeCubemap1, offset 0x18, size 0x8
-  __declspec(property(get = __get__reflectionProbeCubemap1, put = __set__reflectionProbeCubemap1))::UnityEngine::Cubemap* _reflectionProbeCubemap1;
+  __declspec(property(get = __cordl_internal_get__reflectionProbeCubemap1, put = __cordl_internal_set__reflectionProbeCubemap1))::UnityW<::UnityEngine::Cubemap> _reflectionProbeCubemap1;
 
   /// @brief Field _reflectionProbeCubemap2, offset 0x20, size 0x8
-  __declspec(property(get = __get__reflectionProbeCubemap2, put = __set__reflectionProbeCubemap2))::UnityEngine::Cubemap* _reflectionProbeCubemap2;
+  __declspec(property(get = __cordl_internal_get__reflectionProbeCubemap2, put = __cordl_internal_set__reflectionProbeCubemap2))::UnityW<::UnityEngine::Cubemap> _reflectionProbeCubemap2;
 
-  __declspec(property(get = get_reflectionProbeCubemap1, put = set_reflectionProbeCubemap1))::UnityEngine::Cubemap* reflectionProbeCubemap1;
+  __declspec(property(get = get_reflectionProbeCubemap1, put = set_reflectionProbeCubemap1))::UnityW<::UnityEngine::Cubemap> reflectionProbeCubemap1;
 
-  __declspec(property(get = get_reflectionProbeCubemap2, put = set_reflectionProbeCubemap2))::UnityEngine::Cubemap* reflectionProbeCubemap2;
+  __declspec(property(get = get_reflectionProbeCubemap2, put = set_reflectionProbeCubemap2))::UnityW<::UnityEngine::Cubemap> reflectionProbeCubemap2;
 
-  constexpr ::UnityEngine::Cubemap*& __get__reflectionProbeCubemap1();
+  constexpr ::UnityW<::UnityEngine::Cubemap>& __cordl_internal_get__reflectionProbeCubemap1();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Cubemap*> const& __get__reflectionProbeCubemap1() const;
+  constexpr ::UnityW<::UnityEngine::Cubemap> const& __cordl_internal_get__reflectionProbeCubemap1() const;
 
-  constexpr void __set__reflectionProbeCubemap1(::UnityEngine::Cubemap* value);
+  constexpr void __cordl_internal_set__reflectionProbeCubemap1(::UnityW<::UnityEngine::Cubemap> value);
 
-  constexpr ::UnityEngine::Cubemap*& __get__reflectionProbeCubemap2();
+  constexpr ::UnityW<::UnityEngine::Cubemap>& __cordl_internal_get__reflectionProbeCubemap2();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Cubemap*> const& __get__reflectionProbeCubemap2() const;
+  constexpr ::UnityW<::UnityEngine::Cubemap> const& __cordl_internal_get__reflectionProbeCubemap2() const;
 
-  constexpr void __set__reflectionProbeCubemap2(::UnityEngine::Cubemap* value);
+  constexpr void __cordl_internal_set__reflectionProbeCubemap2(::UnityW<::UnityEngine::Cubemap> value);
 
   /// @brief Method get_reflectionProbeCubemap1, addr 0x22f8488, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Cubemap* get_reflectionProbeCubemap1();
+  inline ::UnityW<::UnityEngine::Cubemap> get_reflectionProbeCubemap1();
 
   /// @brief Method set_reflectionProbeCubemap1, addr 0x22f8490, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeCubemap1(::UnityEngine::Cubemap* value);
 
   /// @brief Method get_reflectionProbeCubemap2, addr 0x22f8498, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Cubemap* get_reflectionProbeCubemap2();
+  inline ::UnityW<::UnityEngine::Cubemap> get_reflectionProbeCubemap2();
 
   /// @brief Method set_reflectionProbeCubemap2, addr 0x22f84a0, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeCubemap2(::UnityEngine::Cubemap* value);
@@ -77,10 +77,10 @@ protected:
 
 public:
   /// @brief Field _reflectionProbeCubemap1, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Cubemap* ____reflectionProbeCubemap1;
+  ::UnityW<::UnityEngine::Cubemap> ____reflectionProbeCubemap1;
 
   /// @brief Field _reflectionProbeCubemap2, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Cubemap* ____reflectionProbeCubemap2;
+  ::UnityW<::UnityEngine::Cubemap> ____reflectionProbeCubemap2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

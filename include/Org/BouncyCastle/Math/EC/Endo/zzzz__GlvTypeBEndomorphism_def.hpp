@@ -33,17 +33,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Endo {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1523))
 // CS Name: ::Org.BouncyCastle.Math.EC.Endo::GlvTypeBEndomorphism*
 class CORDL_TYPE GlvTypeBEndomorphism : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_parameters, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_parameters, put = __set_m_parameters))::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* m_parameters;
+  __declspec(property(get = __cordl_internal_get_m_parameters, put = __cordl_internal_set_m_parameters))::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* m_parameters;
 
   /// @brief Field m_pointMap, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_pointMap, put = __set_m_pointMap))::Org::BouncyCastle::Math::EC::ECPointMap* m_pointMap;
+  __declspec(property(get = __cordl_internal_get_m_pointMap, put = __cordl_internal_set_m_pointMap))::Org::BouncyCastle::Math::EC::ECPointMap* m_pointMap;
 
   __declspec(property(get = get_PointMap))::Org::BouncyCastle::Math::EC::ECPointMap* PointMap;
 
@@ -61,17 +61,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism"
   constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* i___Org__BouncyCastle__Math__EC__Endo__ECEndomorphism() noexcept;
 
-  constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*& __get_m_parameters();
+  constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*& __cordl_internal_get_m_parameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*> const& __get_m_parameters() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*> const& __cordl_internal_get_m_parameters() const;
 
-  constexpr void __set_m_parameters(::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* value);
+  constexpr void __cordl_internal_set_m_parameters(::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECPointMap*& __get_m_pointMap();
+  constexpr ::Org::BouncyCastle::Math::EC::ECPointMap*& __cordl_internal_get_m_pointMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPointMap*> const& __get_m_pointMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPointMap*> const& __cordl_internal_get_m_pointMap() const;
 
-  constexpr void __set_m_pointMap(::Org::BouncyCastle::Math::EC::ECPointMap* value);
+  constexpr void __cordl_internal_set_m_pointMap(::Org::BouncyCastle::Math::EC::ECPointMap* value);
 
   static inline ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBEndomorphism* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters* parameters);
 

@@ -43,20 +43,20 @@ MARK_VAL_T(::UnityEngine::ProBuilder::EdgeLookup);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12118))
 // CS Name: ::EdgeLookup::<>c__DisplayClass16_0*
 class CORDL_TYPE __EdgeLookup____c__DisplayClass16_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field lookup, offset 0x10, size 0x8
-  __declspec(property(get = __get_lookup, put = __set_lookup))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup;
+  __declspec(property(get = __cordl_internal_get_lookup, put = __cordl_internal_set_lookup))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __get_lookup();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __cordl_internal_get_lookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __get_lookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __cordl_internal_get_lookup() const;
 
-  constexpr void __set_lookup(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
+  constexpr void __cordl_internal_set_lookup(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
 
   static inline ::UnityEngine::ProBuilder::__EdgeLookup____c__DisplayClass16_0* New_ctor();
 
@@ -95,7 +95,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__EdgeLookup____c__DisplayClas
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12117))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12117))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12119))
 // CS Name: ::UnityEngine.ProBuilder::EdgeLookup
 struct CORDL_TYPE EdgeLookup {

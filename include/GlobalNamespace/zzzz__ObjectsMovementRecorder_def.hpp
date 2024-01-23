@@ -74,7 +74,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__ObjectsMovementRecorder__InitData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5917))
 // CS Name: ::ObjectsMovementRecorder::Mode
 struct CORDL_TYPE __ObjectsMovementRecorder__Mode {
@@ -128,7 +128,7 @@ static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__Mode, value
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5918))
 // CS Name: ::ObjectsMovementRecorder::CameraView
 struct CORDL_TYPE __ObjectsMovementRecorder__CameraView {
@@ -178,121 +178,123 @@ static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__CameraView,
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5917)), TypeDefinitionIndex(TypeDefinitionIndex(5918))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5917)), TypeDefinitionIndex(TypeDefinitionIndex(5918))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5919))
 // CS Name: ::ObjectsMovementRecorder::InitData*
 class CORDL_TYPE __ObjectsMovementRecorder__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mode, offset 0x10, size 0x4
-  __declspec(property(get = __get_mode, put = __set_mode))::GlobalNamespace::__ObjectsMovementRecorder__Mode mode;
+  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode))::GlobalNamespace::__ObjectsMovementRecorder__Mode mode;
 
   /// @brief Field recordingPath, offset 0x18, size 0x8
-  __declspec(property(get = __get_recordingPath, put = __set_recordingPath))::StringW recordingPath;
+  __declspec(property(get = __cordl_internal_get_recordingPath, put = __cordl_internal_set_recordingPath))::StringW recordingPath;
 
   /// @brief Field cameraView, offset 0x20, size 0x4
-  __declspec(property(get = __get_cameraView, put = __set_cameraView))::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView;
+  __declspec(property(get = __cordl_internal_get_cameraView, put = __cordl_internal_set_cameraView))::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView;
 
   /// @brief Field addDateTimeSuffixToRecordingName, offset 0x24, size 0x1
-  __declspec(property(get = __get_addDateTimeSuffixToRecordingName, put = __set_addDateTimeSuffixToRecordingName)) bool addDateTimeSuffixToRecordingName;
+  __declspec(property(get = __cordl_internal_get_addDateTimeSuffixToRecordingName, put = __cordl_internal_set_addDateTimeSuffixToRecordingName)) bool addDateTimeSuffixToRecordingName;
 
   /// @brief Field screenshotRecording, offset 0x25, size 0x1
-  __declspec(property(get = __get_screenshotRecording, put = __set_screenshotRecording)) bool screenshotRecording;
+  __declspec(property(get = __cordl_internal_get_screenshotRecording, put = __cordl_internal_set_screenshotRecording)) bool screenshotRecording;
 
   /// @brief Field screenshotWidth, offset 0x28, size 0x4
-  __declspec(property(get = __get_screenshotWidth, put = __set_screenshotWidth)) int32_t screenshotWidth;
+  __declspec(property(get = __cordl_internal_get_screenshotWidth, put = __cordl_internal_set_screenshotWidth)) int32_t screenshotWidth;
 
   /// @brief Field screenshotHeight, offset 0x2c, size 0x4
-  __declspec(property(get = __get_screenshotHeight, put = __set_screenshotHeight)) int32_t screenshotHeight;
+  __declspec(property(get = __cordl_internal_get_screenshotHeight, put = __cordl_internal_set_screenshotHeight)) int32_t screenshotHeight;
 
   /// @brief Field framerate, offset 0x30, size 0x4
-  __declspec(property(get = __get_framerate, put = __set_framerate)) int32_t framerate;
+  __declspec(property(get = __cordl_internal_get_framerate, put = __cordl_internal_set_framerate)) int32_t framerate;
 
   /// @brief Field playbackScreenshots, offset 0x38, size 0x8
-  __declspec(property(
-      get = __get_playbackScreenshots,
-      put = __set_playbackScreenshots))::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> playbackScreenshots;
+  __declspec(property(get = __cordl_internal_get_playbackScreenshots,
+                      put = __cordl_internal_set_playbackScreenshots))::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*,
+                                                                               ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> playbackScreenshots;
 
   /// @brief Field saveToOldFormat, offset 0x40, size 0x1
-  __declspec(property(get = __get_saveToOldFormat, put = __set_saveToOldFormat)) bool saveToOldFormat;
+  __declspec(property(get = __cordl_internal_get_saveToOldFormat, put = __cordl_internal_set_saveToOldFormat)) bool saveToOldFormat;
 
   /// @brief Field posesSerializer, offset 0x48, size 0x8
-  __declspec(property(get = __get_posesSerializer, put = __set_posesSerializer))::GlobalNamespace::IPosesSerializer* posesSerializer;
+  __declspec(property(get = __cordl_internal_get_posesSerializer, put = __cordl_internal_set_posesSerializer))::GlobalNamespace::IPosesSerializer* posesSerializer;
 
   /// @brief Field logger, offset 0x50, size 0x8
-  __declspec(property(get = __get_logger, put = __set_logger))::GlobalNamespace::IBeatSaberLogger* logger;
+  __declspec(property(get = __cordl_internal_get_logger, put = __cordl_internal_set_logger))::GlobalNamespace::IBeatSaberLogger* logger;
 
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode& __get_mode();
+  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode& __cordl_internal_get_mode();
 
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode const& __get_mode() const;
+  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode const& __cordl_internal_get_mode() const;
 
-  constexpr void __set_mode(::GlobalNamespace::__ObjectsMovementRecorder__Mode value);
+  constexpr void __cordl_internal_set_mode(::GlobalNamespace::__ObjectsMovementRecorder__Mode value);
 
-  constexpr ::StringW& __get_recordingPath();
+  constexpr ::StringW& __cordl_internal_get_recordingPath();
 
-  constexpr ::StringW const& __get_recordingPath() const;
+  constexpr ::StringW const& __cordl_internal_get_recordingPath() const;
 
-  constexpr void __set_recordingPath(::StringW value);
+  constexpr void __cordl_internal_set_recordingPath(::StringW value);
 
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView& __get_cameraView();
+  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView& __cordl_internal_get_cameraView();
 
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView const& __get_cameraView() const;
+  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView const& __cordl_internal_get_cameraView() const;
 
-  constexpr void __set_cameraView(::GlobalNamespace::__ObjectsMovementRecorder__CameraView value);
+  constexpr void __cordl_internal_set_cameraView(::GlobalNamespace::__ObjectsMovementRecorder__CameraView value);
 
-  constexpr bool& __get_addDateTimeSuffixToRecordingName();
+  constexpr bool& __cordl_internal_get_addDateTimeSuffixToRecordingName();
 
-  constexpr bool const& __get_addDateTimeSuffixToRecordingName() const;
+  constexpr bool const& __cordl_internal_get_addDateTimeSuffixToRecordingName() const;
 
-  constexpr void __set_addDateTimeSuffixToRecordingName(bool value);
+  constexpr void __cordl_internal_set_addDateTimeSuffixToRecordingName(bool value);
 
-  constexpr bool& __get_screenshotRecording();
+  constexpr bool& __cordl_internal_get_screenshotRecording();
 
-  constexpr bool const& __get_screenshotRecording() const;
+  constexpr bool const& __cordl_internal_get_screenshotRecording() const;
 
-  constexpr void __set_screenshotRecording(bool value);
+  constexpr void __cordl_internal_set_screenshotRecording(bool value);
 
-  constexpr int32_t& __get_screenshotWidth();
+  constexpr int32_t& __cordl_internal_get_screenshotWidth();
 
-  constexpr int32_t const& __get_screenshotWidth() const;
+  constexpr int32_t const& __cordl_internal_get_screenshotWidth() const;
 
-  constexpr void __set_screenshotWidth(int32_t value);
+  constexpr void __cordl_internal_set_screenshotWidth(int32_t value);
 
-  constexpr int32_t& __get_screenshotHeight();
+  constexpr int32_t& __cordl_internal_get_screenshotHeight();
 
-  constexpr int32_t const& __get_screenshotHeight() const;
+  constexpr int32_t const& __cordl_internal_get_screenshotHeight() const;
 
-  constexpr void __set_screenshotHeight(int32_t value);
+  constexpr void __cordl_internal_set_screenshotHeight(int32_t value);
 
-  constexpr int32_t& __get_framerate();
+  constexpr int32_t& __cordl_internal_get_framerate();
 
-  constexpr int32_t const& __get_framerate() const;
+  constexpr int32_t const& __cordl_internal_get_framerate() const;
 
-  constexpr void __set_framerate(int32_t value);
+  constexpr void __cordl_internal_set_framerate(int32_t value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>& __get_playbackScreenshots();
+  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>& __cordl_internal_get_playbackScreenshots();
 
-  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> const& __get_playbackScreenshots() const;
+  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> const&
+  __cordl_internal_get_playbackScreenshots() const;
 
-  constexpr void __set_playbackScreenshots(::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> value);
+  constexpr void
+  __cordl_internal_set_playbackScreenshots(::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> value);
 
-  constexpr bool& __get_saveToOldFormat();
+  constexpr bool& __cordl_internal_get_saveToOldFormat();
 
-  constexpr bool const& __get_saveToOldFormat() const;
+  constexpr bool const& __cordl_internal_get_saveToOldFormat() const;
 
-  constexpr void __set_saveToOldFormat(bool value);
+  constexpr void __cordl_internal_set_saveToOldFormat(bool value);
 
-  constexpr ::GlobalNamespace::IPosesSerializer*& __get_posesSerializer();
+  constexpr ::GlobalNamespace::IPosesSerializer*& __cordl_internal_get_posesSerializer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPosesSerializer*> const& __get_posesSerializer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPosesSerializer*> const& __cordl_internal_get_posesSerializer() const;
 
-  constexpr void __set_posesSerializer(::GlobalNamespace::IPosesSerializer* value);
+  constexpr void __cordl_internal_set_posesSerializer(::GlobalNamespace::IPosesSerializer* value);
 
-  constexpr ::GlobalNamespace::IBeatSaberLogger*& __get_logger();
+  constexpr ::GlobalNamespace::IBeatSaberLogger*& __cordl_internal_get_logger();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __get_logger() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __cordl_internal_get_logger() const;
 
-  constexpr void __set_logger(::GlobalNamespace::IBeatSaberLogger* value);
+  constexpr void __cordl_internal_set_logger(::GlobalNamespace::IBeatSaberLogger* value);
 
   static inline ::GlobalNamespace::__ObjectsMovementRecorder__InitData*
   New_ctor(::GlobalNamespace::__ObjectsMovementRecorder__Mode mode, ::StringW recordingPath, ::GlobalNamespace::__ObjectsMovementRecorder__CameraView cameraView, bool addDateTimeSuffixToRecordingName,
@@ -390,7 +392,7 @@ static_assert(offsetof(::GlobalNamespace::__ObjectsMovementRecorder__InitData, _
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5917)), TypeDefinitionIndex(TypeDefinitionIndex(5918)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5917)), TypeDefinitionIndex(TypeDefinitionIndex(5918)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5920))
 // CS Name: ::ObjectsMovementRecorder*
 class CORDL_TYPE ObjectsMovementRecorder : public ::UnityEngine::MonoBehaviour {
@@ -403,159 +405,163 @@ public:
   using Mode = ::GlobalNamespace::__ObjectsMovementRecorder__Mode;
 
   /// @brief Field _poseObjects, offset 0x18, size 0x8
-  __declspec(property(get = __get__poseObjects, put = __set__poseObjects))::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> _poseObjects;
+  __declspec(property(get = __cordl_internal_get__poseObjects, put = __cordl_internal_set__poseObjects))::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> _poseObjects;
 
   /// @brief Field _livPoseObjectId, offset 0x20, size 0x8
-  __declspec(property(get = __get__livPoseObjectId, put = __set__livPoseObjectId))::GlobalNamespace::PoseObjectIdSO* _livPoseObjectId;
+  __declspec(property(get = __cordl_internal_get__livPoseObjectId, put = __cordl_internal_set__livPoseObjectId))::UnityW<::GlobalNamespace::PoseObjectIdSO> _livPoseObjectId;
 
   /// @brief Field _recorder, offset 0x28, size 0x8
-  __declspec(property(get = __get__recorder, put = __set__recorder))::GlobalNamespace::PosesRecorder* _recorder;
+  __declspec(property(get = __cordl_internal_get__recorder, put = __cordl_internal_set__recorder))::UnityW<::GlobalNamespace::PosesRecorder> _recorder;
 
   /// @brief Field _playback, offset 0x30, size 0x8
-  __declspec(property(get = __get__playback, put = __set__playback))::GlobalNamespace::PosesPlayback* _playback;
+  __declspec(property(get = __cordl_internal_get__playback, put = __cordl_internal_set__playback))::UnityW<::GlobalNamespace::PosesPlayback> _playback;
 
   /// @brief Field _playbackScreenshotRecorder, offset 0x38, size 0x8
-  __declspec(property(get = __get__playbackScreenshotRecorder, put = __set__playbackScreenshotRecorder))::GlobalNamespace::PlaybackScreenshotRecorder* _playbackScreenshotRecorder;
+  __declspec(property(get = __cordl_internal_get__playbackScreenshotRecorder,
+                      put = __cordl_internal_set__playbackScreenshotRecorder))::UnityW<::GlobalNamespace::PlaybackScreenshotRecorder> _playbackScreenshotRecorder;
 
   /// @brief Field _playbackRender, offset 0x40, size 0x8
-  __declspec(property(get = __get__playbackRender, put = __set__playbackRender))::GlobalNamespace::PlaybackRenderer* _playbackRender;
+  __declspec(property(get = __cordl_internal_get__playbackRender, put = __cordl_internal_set__playbackRender))::UnityW<::GlobalNamespace::PlaybackRenderer> _playbackRender;
 
   /// @brief Field _externalCameraPrefab, offset 0x48, size 0x8
-  __declspec(property(get = __get__externalCameraPrefab, put = __set__externalCameraPrefab))::UnityEngine::Camera* _externalCameraPrefab;
+  __declspec(property(get = __cordl_internal_get__externalCameraPrefab, put = __cordl_internal_set__externalCameraPrefab))::UnityW<::UnityEngine::Camera> _externalCameraPrefab;
 
   /// @brief Field _audioTimeSyncController, offset 0x50, size 0x8
-  __declspec(property(get = __get__audioTimeSyncController, put = __set__audioTimeSyncController))::GlobalNamespace::AudioTimeSyncController* _audioTimeSyncController;
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
+                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
   /// @brief Field _hmdCamera, offset 0x58, size 0x8
-  __declspec(property(get = __get__hmdCamera, put = __set__hmdCamera))::UnityEngine::Camera* _hmdCamera;
+  __declspec(property(get = __cordl_internal_get__hmdCamera, put = __cordl_internal_set__hmdCamera))::UnityW<::UnityEngine::Camera> _hmdCamera;
 
   /// @brief Field _initData, offset 0x60, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__ObjectsMovementRecorder__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__ObjectsMovementRecorder__InitData* _initData;
 
   /// @brief Field _mode, offset 0x68, size 0x4
-  __declspec(property(get = __get__mode, put = __set__mode))::GlobalNamespace::__ObjectsMovementRecorder__Mode _mode;
+  __declspec(property(get = __cordl_internal_get__mode, put = __cordl_internal_set__mode))::GlobalNamespace::__ObjectsMovementRecorder__Mode _mode;
 
   /// @brief Field _recordingPath, offset 0x70, size 0x8
-  __declspec(property(get = __get__recordingPath, put = __set__recordingPath))::StringW _recordingPath;
+  __declspec(property(get = __cordl_internal_get__recordingPath, put = __cordl_internal_set__recordingPath))::StringW _recordingPath;
 
   /// @brief Field _cameraView, offset 0x78, size 0x4
-  __declspec(property(get = __get__cameraView, put = __set__cameraView))::GlobalNamespace::__ObjectsMovementRecorder__CameraView _cameraView;
+  __declspec(property(get = __cordl_internal_get__cameraView, put = __cordl_internal_set__cameraView))::GlobalNamespace::__ObjectsMovementRecorder__CameraView _cameraView;
 
   /// @brief Field _externalCamera, offset 0x80, size 0x8
-  __declspec(property(get = __get__externalCamera, put = __set__externalCamera))::UnityEngine::Camera* _externalCamera;
+  __declspec(property(get = __cordl_internal_get__externalCamera, put = __cordl_internal_set__externalCamera))::UnityW<::UnityEngine::Camera> _externalCamera;
 
   /// @brief Field _playbackScreenshots, offset 0x88, size 0x8
-  __declspec(property(
-      get = __get__playbackScreenshots,
-      put = __set__playbackScreenshots))::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> _playbackScreenshots;
+  __declspec(property(get = __cordl_internal_get__playbackScreenshots,
+                      put = __cordl_internal_set__playbackScreenshots))::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*,
+                                                                                ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> _playbackScreenshots;
 
   /// @brief Field _logger, offset 0x90, size 0x8
-  __declspec(property(get = __get__logger, put = __set__logger))::GlobalNamespace::IBeatSaberLogger* _logger;
+  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger))::GlobalNamespace::IBeatSaberLogger* _logger;
 
   /// @brief Field _posesSerializer, offset 0x98, size 0x8
-  __declspec(property(get = __get__posesSerializer, put = __set__posesSerializer))::GlobalNamespace::IPosesSerializer* _posesSerializer;
+  __declspec(property(get = __cordl_internal_get__posesSerializer, put = __cordl_internal_set__posesSerializer))::GlobalNamespace::IPosesSerializer* _posesSerializer;
 
-  constexpr ::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*>& __get__poseObjects();
+  constexpr ::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*>& __cordl_internal_get__poseObjects();
 
-  constexpr ::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> const& __get__poseObjects() const;
+  constexpr ::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> const& __cordl_internal_get__poseObjects() const;
 
-  constexpr void __set__poseObjects(::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> value);
+  constexpr void __cordl_internal_set__poseObjects(::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> value);
 
-  constexpr ::GlobalNamespace::PoseObjectIdSO*& __get__livPoseObjectId();
+  constexpr ::UnityW<::GlobalNamespace::PoseObjectIdSO>& __cordl_internal_get__livPoseObjectId();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PoseObjectIdSO*> const& __get__livPoseObjectId() const;
+  constexpr ::UnityW<::GlobalNamespace::PoseObjectIdSO> const& __cordl_internal_get__livPoseObjectId() const;
 
-  constexpr void __set__livPoseObjectId(::GlobalNamespace::PoseObjectIdSO* value);
+  constexpr void __cordl_internal_set__livPoseObjectId(::UnityW<::GlobalNamespace::PoseObjectIdSO> value);
 
-  constexpr ::GlobalNamespace::PosesRecorder*& __get__recorder();
+  constexpr ::UnityW<::GlobalNamespace::PosesRecorder>& __cordl_internal_get__recorder();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PosesRecorder*> const& __get__recorder() const;
+  constexpr ::UnityW<::GlobalNamespace::PosesRecorder> const& __cordl_internal_get__recorder() const;
 
-  constexpr void __set__recorder(::GlobalNamespace::PosesRecorder* value);
+  constexpr void __cordl_internal_set__recorder(::UnityW<::GlobalNamespace::PosesRecorder> value);
 
-  constexpr ::GlobalNamespace::PosesPlayback*& __get__playback();
+  constexpr ::UnityW<::GlobalNamespace::PosesPlayback>& __cordl_internal_get__playback();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PosesPlayback*> const& __get__playback() const;
+  constexpr ::UnityW<::GlobalNamespace::PosesPlayback> const& __cordl_internal_get__playback() const;
 
-  constexpr void __set__playback(::GlobalNamespace::PosesPlayback* value);
+  constexpr void __cordl_internal_set__playback(::UnityW<::GlobalNamespace::PosesPlayback> value);
 
-  constexpr ::GlobalNamespace::PlaybackScreenshotRecorder*& __get__playbackScreenshotRecorder();
+  constexpr ::UnityW<::GlobalNamespace::PlaybackScreenshotRecorder>& __cordl_internal_get__playbackScreenshotRecorder();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlaybackScreenshotRecorder*> const& __get__playbackScreenshotRecorder() const;
+  constexpr ::UnityW<::GlobalNamespace::PlaybackScreenshotRecorder> const& __cordl_internal_get__playbackScreenshotRecorder() const;
 
-  constexpr void __set__playbackScreenshotRecorder(::GlobalNamespace::PlaybackScreenshotRecorder* value);
+  constexpr void __cordl_internal_set__playbackScreenshotRecorder(::UnityW<::GlobalNamespace::PlaybackScreenshotRecorder> value);
 
-  constexpr ::GlobalNamespace::PlaybackRenderer*& __get__playbackRender();
+  constexpr ::UnityW<::GlobalNamespace::PlaybackRenderer>& __cordl_internal_get__playbackRender();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlaybackRenderer*> const& __get__playbackRender() const;
+  constexpr ::UnityW<::GlobalNamespace::PlaybackRenderer> const& __cordl_internal_get__playbackRender() const;
 
-  constexpr void __set__playbackRender(::GlobalNamespace::PlaybackRenderer* value);
+  constexpr void __cordl_internal_set__playbackRender(::UnityW<::GlobalNamespace::PlaybackRenderer> value);
 
-  constexpr ::UnityEngine::Camera*& __get__externalCameraPrefab();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__externalCameraPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get__externalCameraPrefab() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__externalCameraPrefab() const;
 
-  constexpr void __set__externalCameraPrefab(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set__externalCameraPrefab(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr ::GlobalNamespace::AudioTimeSyncController*& __get__audioTimeSyncController();
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& __get__audioTimeSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value);
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  constexpr ::UnityEngine::Camera*& __get__hmdCamera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__hmdCamera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get__hmdCamera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__hmdCamera() const;
 
-  constexpr void __set__hmdCamera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set__hmdCamera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ObjectsMovementRecorder__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ObjectsMovementRecorder__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__ObjectsMovementRecorder__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__ObjectsMovementRecorder__InitData* value);
 
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode& __get__mode();
+  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode& __cordl_internal_get__mode();
 
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode const& __get__mode() const;
+  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__Mode const& __cordl_internal_get__mode() const;
 
-  constexpr void __set__mode(::GlobalNamespace::__ObjectsMovementRecorder__Mode value);
+  constexpr void __cordl_internal_set__mode(::GlobalNamespace::__ObjectsMovementRecorder__Mode value);
 
-  constexpr ::StringW& __get__recordingPath();
+  constexpr ::StringW& __cordl_internal_get__recordingPath();
 
-  constexpr ::StringW const& __get__recordingPath() const;
+  constexpr ::StringW const& __cordl_internal_get__recordingPath() const;
 
-  constexpr void __set__recordingPath(::StringW value);
+  constexpr void __cordl_internal_set__recordingPath(::StringW value);
 
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView& __get__cameraView();
+  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView& __cordl_internal_get__cameraView();
 
-  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView const& __get__cameraView() const;
+  constexpr ::GlobalNamespace::__ObjectsMovementRecorder__CameraView const& __cordl_internal_get__cameraView() const;
 
-  constexpr void __set__cameraView(::GlobalNamespace::__ObjectsMovementRecorder__CameraView value);
+  constexpr void __cordl_internal_set__cameraView(::GlobalNamespace::__ObjectsMovementRecorder__CameraView value);
 
-  constexpr ::UnityEngine::Camera*& __get__externalCamera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__externalCamera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get__externalCamera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__externalCamera() const;
 
-  constexpr void __set__externalCamera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set__externalCamera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>& __get__playbackScreenshots();
+  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>& __cordl_internal_get__playbackScreenshots();
 
-  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> const& __get__playbackScreenshots() const;
+  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> const&
+  __cordl_internal_get__playbackScreenshots() const;
 
-  constexpr void __set__playbackScreenshots(::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> value);
+  constexpr void
+  __cordl_internal_set__playbackScreenshots(::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> value);
 
-  constexpr ::GlobalNamespace::IBeatSaberLogger*& __get__logger();
+  constexpr ::GlobalNamespace::IBeatSaberLogger*& __cordl_internal_get__logger();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __get__logger() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __cordl_internal_get__logger() const;
 
-  constexpr void __set__logger(::GlobalNamespace::IBeatSaberLogger* value);
+  constexpr void __cordl_internal_set__logger(::GlobalNamespace::IBeatSaberLogger* value);
 
-  constexpr ::GlobalNamespace::IPosesSerializer*& __get__posesSerializer();
+  constexpr ::GlobalNamespace::IPosesSerializer*& __cordl_internal_get__posesSerializer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPosesSerializer*> const& __get__posesSerializer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPosesSerializer*> const& __cordl_internal_get__posesSerializer() const;
 
-  constexpr void __set__posesSerializer(::GlobalNamespace::IPosesSerializer* value);
+  constexpr void __cordl_internal_set__posesSerializer(::GlobalNamespace::IPosesSerializer* value);
 
   /// @brief Method Init, addr 0x22fef7c, size 0x704, virtual false, abstract: false, final false
   inline void Init();
@@ -589,28 +595,28 @@ public:
   ::ArrayW<::GlobalNamespace::PoseObject*, ::Array<::GlobalNamespace::PoseObject*>*> ____poseObjects;
 
   /// @brief Field _livPoseObjectId, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::PoseObjectIdSO* ____livPoseObjectId;
+  ::UnityW<::GlobalNamespace::PoseObjectIdSO> ____livPoseObjectId;
 
   /// @brief Field _recorder, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::PosesRecorder* ____recorder;
+  ::UnityW<::GlobalNamespace::PosesRecorder> ____recorder;
 
   /// @brief Field _playback, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::PosesPlayback* ____playback;
+  ::UnityW<::GlobalNamespace::PosesPlayback> ____playback;
 
   /// @brief Field _playbackScreenshotRecorder, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::PlaybackScreenshotRecorder* ____playbackScreenshotRecorder;
+  ::UnityW<::GlobalNamespace::PlaybackScreenshotRecorder> ____playbackScreenshotRecorder;
 
   /// @brief Field _playbackRender, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::PlaybackRenderer* ____playbackRender;
+  ::UnityW<::GlobalNamespace::PlaybackRenderer> ____playbackRender;
 
   /// @brief Field _externalCameraPrefab, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Camera* ____externalCameraPrefab;
+  ::UnityW<::UnityEngine::Camera> ____externalCameraPrefab;
 
   /// @brief Field _audioTimeSyncController, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::AudioTimeSyncController* ____audioTimeSyncController;
+  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
   /// @brief Field _hmdCamera, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::Camera* ____hmdCamera;
+  ::UnityW<::UnityEngine::Camera> ____hmdCamera;
 
   /// @brief Field _initData, offset: 0x60, size: 0x8, def value: None
   ::GlobalNamespace::__ObjectsMovementRecorder__InitData* ____initData;
@@ -625,7 +631,7 @@ public:
   ::GlobalNamespace::__ObjectsMovementRecorder__CameraView ____cameraView;
 
   /// @brief Field _externalCamera, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::Camera* ____externalCamera;
+  ::UnityW<::UnityEngine::Camera> ____externalCamera;
 
   /// @brief Field _playbackScreenshots, offset: 0x88, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> ____playbackScreenshots;

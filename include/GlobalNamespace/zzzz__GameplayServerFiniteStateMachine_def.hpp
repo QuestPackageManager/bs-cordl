@@ -49,7 +49,7 @@ MARK_VAL_T(::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12686))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12761))
 // CS Name: ::GameplayServerFiniteStateMachine::InitParams
 struct CORDL_TYPE __GameplayServerFiniteStateMachine__InitParams {
@@ -115,7 +115,7 @@ static_assert(offsetof(::GlobalNamespace::__GameplayServerFiniteStateMachine__In
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12762))
 // CS Name: ::GameplayServerFiniteStateMachine*
 class CORDL_TYPE GameplayServerFiniteStateMachine : public ::System::Object {
@@ -124,35 +124,40 @@ public:
   using InitParams = ::GlobalNamespace::__GameplayServerFiniteStateMachine__InitParams;
 
   /// @brief Field <taskUtility>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__taskUtility_k__BackingField, put = __set__taskUtility_k__BackingField))::BGNet::Core::ITaskUtility* _taskUtility_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__taskUtility_k__BackingField, put = __cordl_internal_set__taskUtility_k__BackingField))::BGNet::Core::ITaskUtility* _taskUtility_k__BackingField;
 
   /// @brief Field <multiplayerSessionManager>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager_k__BackingField,
-                      put = __set__multiplayerSessionManager_k__BackingField))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager_k__BackingField,
+                      put = __cordl_internal_set__multiplayerSessionManager_k__BackingField))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager_k__BackingField;
 
   /// @brief Field <ownerUserId>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__ownerUserId_k__BackingField, put = __set__ownerUserId_k__BackingField))::StringW _ownerUserId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ownerUserId_k__BackingField, put = __cordl_internal_set__ownerUserId_k__BackingField))::StringW _ownerUserId_k__BackingField;
 
   /// @brief Field <selectionMask>k__BackingField, offset 0x28, size 0x28
-  __declspec(property(get = __get__selectionMask_k__BackingField, put = __set__selectionMask_k__BackingField))::GlobalNamespace::BeatmapLevelSelectionMask _selectionMask_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__selectionMask_k__BackingField,
+                      put = __cordl_internal_set__selectionMask_k__BackingField))::GlobalNamespace::BeatmapLevelSelectionMask _selectionMask_k__BackingField;
 
   /// @brief Field <configuration>k__BackingField, offset 0x50, size 0x18
-  __declspec(property(get = __get__configuration_k__BackingField, put = __set__configuration_k__BackingField))::GlobalNamespace::GameplayServerConfiguration _configuration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__configuration_k__BackingField,
+                      put = __cordl_internal_set__configuration_k__BackingField))::GlobalNamespace::GameplayServerConfiguration _configuration_k__BackingField;
 
   /// @brief Field <beatmapProvider>k__BackingField, offset 0x68, size 0x8
-  __declspec(property(get = __get__beatmapProvider_k__BackingField, put = __set__beatmapProvider_k__BackingField))::GlobalNamespace::IServerBeatmapProvider* _beatmapProvider_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__beatmapProvider_k__BackingField,
+                      put = __cordl_internal_set__beatmapProvider_k__BackingField))::GlobalNamespace::IServerBeatmapProvider* _beatmapProvider_k__BackingField;
 
   /// @brief Field <menuRpcManager>k__BackingField, offset 0x70, size 0x8
-  __declspec(property(get = __get__menuRpcManager_k__BackingField, put = __set__menuRpcManager_k__BackingField))::GlobalNamespace::MenuRpcManager* _menuRpcManager_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__menuRpcManager_k__BackingField,
+                      put = __cordl_internal_set__menuRpcManager_k__BackingField))::GlobalNamespace::MenuRpcManager* _menuRpcManager_k__BackingField;
 
   /// @brief Field <gameplayRpcManager>k__BackingField, offset 0x78, size 0x8
-  __declspec(property(get = __get__gameplayRpcManager_k__BackingField, put = __set__gameplayRpcManager_k__BackingField))::GlobalNamespace::GameplayRpcManager* _gameplayRpcManager_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__gameplayRpcManager_k__BackingField,
+                      put = __cordl_internal_set__gameplayRpcManager_k__BackingField))::GlobalNamespace::GameplayRpcManager* _gameplayRpcManager_k__BackingField;
 
   /// @brief Field state, offset 0x80, size 0x8
-  __declspec(property(get = __get_state, put = __set_state))::GlobalNamespace::GameState* state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::GlobalNamespace::GameState* state;
 
   /// @brief Field enteringState, offset 0x88, size 0x1
-  __declspec(property(get = __get_enteringState, put = __set_enteringState)) bool enteringState;
+  __declspec(property(get = __cordl_internal_get_enteringState, put = __cordl_internal_set_enteringState)) bool enteringState;
 
   __declspec(property(get = get_taskUtility, put = set_taskUtility))::BGNet::Core::ITaskUtility* taskUtility;
 
@@ -170,65 +175,65 @@ public:
 
   __declspec(property(get = get_gameplayRpcManager, put = set_gameplayRpcManager))::GlobalNamespace::GameplayRpcManager* gameplayRpcManager;
 
-  constexpr ::BGNet::Core::ITaskUtility*& __get__taskUtility_k__BackingField();
+  constexpr ::BGNet::Core::ITaskUtility*& __cordl_internal_get__taskUtility_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& __get__taskUtility_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& __cordl_internal_get__taskUtility_k__BackingField() const;
 
-  constexpr void __set__taskUtility_k__BackingField(::BGNet::Core::ITaskUtility* value);
+  constexpr void __cordl_internal_set__taskUtility_k__BackingField(::BGNet::Core::ITaskUtility* value);
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager_k__BackingField();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager_k__BackingField() const;
 
-  constexpr void __set__multiplayerSessionManager_k__BackingField(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager_k__BackingField(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr ::StringW& __get__ownerUserId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__ownerUserId_k__BackingField();
 
-  constexpr ::StringW const& __get__ownerUserId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__ownerUserId_k__BackingField() const;
 
-  constexpr void __set__ownerUserId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__ownerUserId_k__BackingField(::StringW value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __get__selectionMask_k__BackingField();
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __cordl_internal_get__selectionMask_k__BackingField();
 
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __get__selectionMask_k__BackingField() const;
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __cordl_internal_get__selectionMask_k__BackingField() const;
 
-  constexpr void __set__selectionMask_k__BackingField(::GlobalNamespace::BeatmapLevelSelectionMask value);
+  constexpr void __cordl_internal_set__selectionMask_k__BackingField(::GlobalNamespace::BeatmapLevelSelectionMask value);
 
-  constexpr ::GlobalNamespace::GameplayServerConfiguration& __get__configuration_k__BackingField();
+  constexpr ::GlobalNamespace::GameplayServerConfiguration& __cordl_internal_get__configuration_k__BackingField();
 
-  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __get__configuration_k__BackingField() const;
+  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __cordl_internal_get__configuration_k__BackingField() const;
 
-  constexpr void __set__configuration_k__BackingField(::GlobalNamespace::GameplayServerConfiguration value);
+  constexpr void __cordl_internal_set__configuration_k__BackingField(::GlobalNamespace::GameplayServerConfiguration value);
 
-  constexpr ::GlobalNamespace::IServerBeatmapProvider*& __get__beatmapProvider_k__BackingField();
+  constexpr ::GlobalNamespace::IServerBeatmapProvider*& __cordl_internal_get__beatmapProvider_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IServerBeatmapProvider*> const& __get__beatmapProvider_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IServerBeatmapProvider*> const& __cordl_internal_get__beatmapProvider_k__BackingField() const;
 
-  constexpr void __set__beatmapProvider_k__BackingField(::GlobalNamespace::IServerBeatmapProvider* value);
+  constexpr void __cordl_internal_set__beatmapProvider_k__BackingField(::GlobalNamespace::IServerBeatmapProvider* value);
 
-  constexpr ::GlobalNamespace::MenuRpcManager*& __get__menuRpcManager_k__BackingField();
+  constexpr ::GlobalNamespace::MenuRpcManager*& __cordl_internal_get__menuRpcManager_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuRpcManager*> const& __get__menuRpcManager_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuRpcManager*> const& __cordl_internal_get__menuRpcManager_k__BackingField() const;
 
-  constexpr void __set__menuRpcManager_k__BackingField(::GlobalNamespace::MenuRpcManager* value);
+  constexpr void __cordl_internal_set__menuRpcManager_k__BackingField(::GlobalNamespace::MenuRpcManager* value);
 
-  constexpr ::GlobalNamespace::GameplayRpcManager*& __get__gameplayRpcManager_k__BackingField();
+  constexpr ::GlobalNamespace::GameplayRpcManager*& __cordl_internal_get__gameplayRpcManager_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayRpcManager*> const& __get__gameplayRpcManager_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayRpcManager*> const& __cordl_internal_get__gameplayRpcManager_k__BackingField() const;
 
-  constexpr void __set__gameplayRpcManager_k__BackingField(::GlobalNamespace::GameplayRpcManager* value);
+  constexpr void __cordl_internal_set__gameplayRpcManager_k__BackingField(::GlobalNamespace::GameplayRpcManager* value);
 
-  constexpr ::GlobalNamespace::GameState*& __get_state();
+  constexpr ::GlobalNamespace::GameState*& __cordl_internal_get_state();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameState*> const& __get_state() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameState*> const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(::GlobalNamespace::GameState* value);
+  constexpr void __cordl_internal_set_state(::GlobalNamespace::GameState* value);
 
-  constexpr bool& __get_enteringState();
+  constexpr bool& __cordl_internal_get_enteringState();
 
-  constexpr bool const& __get_enteringState() const;
+  constexpr bool const& __cordl_internal_get_enteringState() const;
 
-  constexpr void __set_enteringState(bool value);
+  constexpr void __cordl_internal_set_enteringState(bool value);
 
   /// @brief Method get_taskUtility, addr 0xe3bf38, size 0x8, virtual false, abstract: false, final false
   inline ::BGNet::Core::ITaskUtility* get_taskUtility();

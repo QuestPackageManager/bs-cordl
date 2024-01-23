@@ -45,74 +45,74 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(399))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::V2TbsCertListGenerator*
 class CORDL_TYPE V2TbsCertListGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __get_version, put = __set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
   /// @brief Field signature, offset 0x18, size 0x8
-  __declspec(property(get = __get_signature, put = __set_signature))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature;
+  __declspec(property(get = __cordl_internal_get_signature, put = __cordl_internal_set_signature))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signature;
 
   /// @brief Field issuer, offset 0x20, size 0x8
-  __declspec(property(get = __get_issuer, put = __set_issuer))::Org::BouncyCastle::Asn1::X509::X509Name* issuer;
+  __declspec(property(get = __cordl_internal_get_issuer, put = __cordl_internal_set_issuer))::Org::BouncyCastle::Asn1::X509::X509Name* issuer;
 
   /// @brief Field thisUpdate, offset 0x28, size 0x8
-  __declspec(property(get = __get_thisUpdate, put = __set_thisUpdate))::Org::BouncyCastle::Asn1::X509::Time* thisUpdate;
+  __declspec(property(get = __cordl_internal_get_thisUpdate, put = __cordl_internal_set_thisUpdate))::Org::BouncyCastle::Asn1::X509::Time* thisUpdate;
 
   /// @brief Field nextUpdate, offset 0x30, size 0x8
-  __declspec(property(get = __get_nextUpdate, put = __set_nextUpdate))::Org::BouncyCastle::Asn1::X509::Time* nextUpdate;
+  __declspec(property(get = __cordl_internal_get_nextUpdate, put = __cordl_internal_set_nextUpdate))::Org::BouncyCastle::Asn1::X509::Time* nextUpdate;
 
   /// @brief Field extensions, offset 0x38, size 0x8
-  __declspec(property(get = __get_extensions, put = __set_extensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions;
 
   /// @brief Field crlEntries, offset 0x40, size 0x8
-  __declspec(property(get = __get_crlEntries, put = __set_crlEntries))::System::Collections::IList* crlEntries;
+  __declspec(property(get = __cordl_internal_get_crlEntries, put = __cordl_internal_set_crlEntries))::System::Collections::IList* crlEntries;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_version();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_version() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_signature();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_signature();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_signature() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_signature() const;
 
-  constexpr void __set_signature(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_signature(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& __get_issuer();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& __cordl_internal_get_issuer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& __get_issuer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& __cordl_internal_get_issuer() const;
 
-  constexpr void __set_issuer(::Org::BouncyCastle::Asn1::X509::X509Name* value);
+  constexpr void __cordl_internal_set_issuer(::Org::BouncyCastle::Asn1::X509::X509Name* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::Time*& __get_thisUpdate();
+  constexpr ::Org::BouncyCastle::Asn1::X509::Time*& __cordl_internal_get_thisUpdate();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::Time*> const& __get_thisUpdate() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::Time*> const& __cordl_internal_get_thisUpdate() const;
 
-  constexpr void __set_thisUpdate(::Org::BouncyCastle::Asn1::X509::Time* value);
+  constexpr void __cordl_internal_set_thisUpdate(::Org::BouncyCastle::Asn1::X509::Time* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::Time*& __get_nextUpdate();
+  constexpr ::Org::BouncyCastle::Asn1::X509::Time*& __cordl_internal_get_nextUpdate();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::Time*> const& __get_nextUpdate() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::Time*> const& __cordl_internal_get_nextUpdate() const;
 
-  constexpr void __set_nextUpdate(::Org::BouncyCastle::Asn1::X509::Time* value);
+  constexpr void __cordl_internal_set_nextUpdate(::Org::BouncyCastle::Asn1::X509::Time* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __get_extensions();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_extensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __get_extensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __cordl_internal_get_extensions() const;
 
-  constexpr void __set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
+  constexpr void __cordl_internal_set_extensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
-  constexpr ::System::Collections::IList*& __get_crlEntries();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_crlEntries();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_crlEntries() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_crlEntries() const;
 
-  constexpr void __set_crlEntries(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_crlEntries(::System::Collections::IList* value);
 
   static inline ::Org::BouncyCastle::Asn1::X509::V2TbsCertListGenerator* New_ctor();
 

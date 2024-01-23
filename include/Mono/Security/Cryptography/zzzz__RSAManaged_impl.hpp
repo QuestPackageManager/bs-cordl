@@ -15,10 +15,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x130;
   constexpr static std::size_t addrs = 0x240a2ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
     return ___internal_method;
   }
 };
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x240a3dc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*>::get(),
@@ -39,12 +39,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 inline ::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler* Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler::New_ctor(::System::Object* object, void* method) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*>(object, method));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*>(object, method));
 }
 inline void Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler::_ctor(::System::Object* object, void* method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 inline void Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler::Invoke(::System::Object* sender, ::System::EventArgs* e) {
@@ -62,9 +62,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2408094;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -75,10 +75,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0x240809c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -89,7 +89,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x240818c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(), 1));
@@ -104,9 +104,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x268;
   constexpr static std::size_t addrs = 0x240822c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(),
-                                                                               "GenerateKeyPair", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "GenerateKeyPair", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -118,7 +118,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x2408aa4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(), 6));
@@ -133,9 +133,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x2408b48;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(),
-                                                                               "get_PublicOnly", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_PublicOnly", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -147,7 +147,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10c;
   constexpr static std::size_t addrs = 0x2408c98;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(), 10));
@@ -162,7 +162,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x334;
   constexpr static std::size_t addrs = 0x2409158;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(), 11));
@@ -177,7 +177,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x46c;
   constexpr static std::size_t addrs = 0x24095b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(), 12));
@@ -191,7 +191,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x204;
   constexpr static std::size_t addrs = 0x2409a24;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(), 5));
@@ -206,7 +206,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x684;
   constexpr static std::size_t addrs = 0x2409c28;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(), 9));
@@ -221,185 +221,186 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x2409058;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(), "GetPaddedValue", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Math::BigInteger*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(), "GetPaddedValue", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Math::BigInteger*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr bool& Mono::Security::Cryptography::RSAManaged::__get_isCRTpossible() {
+constexpr bool& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_isCRTpossible() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isCRTpossible;
 }
-constexpr bool const& Mono::Security::Cryptography::RSAManaged::__get_isCRTpossible() const {
+constexpr bool const& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_isCRTpossible() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isCRTpossible;
 }
-constexpr void Mono::Security::Cryptography::RSAManaged::__set_isCRTpossible(bool value) {
+constexpr void Mono::Security::Cryptography::RSAManaged::__cordl_internal_set_isCRTpossible(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isCRTpossible = value;
 }
-constexpr bool& Mono::Security::Cryptography::RSAManaged::__get_keyBlinding() {
+constexpr bool& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_keyBlinding() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyBlinding;
 }
-constexpr bool const& Mono::Security::Cryptography::RSAManaged::__get_keyBlinding() const {
+constexpr bool const& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_keyBlinding() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keyBlinding;
 }
-constexpr void Mono::Security::Cryptography::RSAManaged::__set_keyBlinding(bool value) {
+constexpr void Mono::Security::Cryptography::RSAManaged::__cordl_internal_set_keyBlinding(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___keyBlinding = value;
 }
-constexpr bool& Mono::Security::Cryptography::RSAManaged::__get_keypairGenerated() {
+constexpr bool& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_keypairGenerated() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keypairGenerated;
 }
-constexpr bool const& Mono::Security::Cryptography::RSAManaged::__get_keypairGenerated() const {
+constexpr bool const& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_keypairGenerated() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___keypairGenerated;
 }
-constexpr void Mono::Security::Cryptography::RSAManaged::__set_keypairGenerated(bool value) {
+constexpr void Mono::Security::Cryptography::RSAManaged::__cordl_internal_set_keypairGenerated(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___keypairGenerated = value;
 }
-constexpr bool& Mono::Security::Cryptography::RSAManaged::__get_m_disposed() {
+constexpr bool& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_m_disposed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_disposed;
 }
-constexpr bool const& Mono::Security::Cryptography::RSAManaged::__get_m_disposed() const {
+constexpr bool const& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_m_disposed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_disposed;
 }
-constexpr void Mono::Security::Cryptography::RSAManaged::__set_m_disposed(bool value) {
+constexpr void Mono::Security::Cryptography::RSAManaged::__cordl_internal_set_m_disposed(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_disposed = value;
 }
-constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__get_d() {
+constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_d() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__get_d() const {
+constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_d() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
-constexpr void Mono::Security::Cryptography::RSAManaged::__set_d(::Mono::Math::BigInteger* value) {
+constexpr void Mono::Security::Cryptography::RSAManaged::__cordl_internal_set_d(::Mono::Math::BigInteger* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___d)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__get_p() {
+constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_p() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__get_p() const {
+constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_p() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___p;
 }
-constexpr void Mono::Security::Cryptography::RSAManaged::__set_p(::Mono::Math::BigInteger* value) {
+constexpr void Mono::Security::Cryptography::RSAManaged::__cordl_internal_set_p(::Mono::Math::BigInteger* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___p)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__get_q() {
+constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_q() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___q;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__get_q() const {
+constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_q() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___q;
 }
-constexpr void Mono::Security::Cryptography::RSAManaged::__set_q(::Mono::Math::BigInteger* value) {
+constexpr void Mono::Security::Cryptography::RSAManaged::__cordl_internal_set_q(::Mono::Math::BigInteger* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___q)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__get_dp() {
+constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_dp() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dp;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__get_dp() const {
+constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_dp() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dp;
 }
-constexpr void Mono::Security::Cryptography::RSAManaged::__set_dp(::Mono::Math::BigInteger* value) {
+constexpr void Mono::Security::Cryptography::RSAManaged::__cordl_internal_set_dp(::Mono::Math::BigInteger* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dp)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__get_dq() {
+constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_dq() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dq;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__get_dq() const {
+constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_dq() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dq;
 }
-constexpr void Mono::Security::Cryptography::RSAManaged::__set_dq(::Mono::Math::BigInteger* value) {
+constexpr void Mono::Security::Cryptography::RSAManaged::__cordl_internal_set_dq(::Mono::Math::BigInteger* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dq)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__get_qInv() {
+constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_qInv() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___qInv;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__get_qInv() const {
+constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_qInv() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___qInv;
 }
-constexpr void Mono::Security::Cryptography::RSAManaged::__set_qInv(::Mono::Math::BigInteger* value) {
+constexpr void Mono::Security::Cryptography::RSAManaged::__cordl_internal_set_qInv(::Mono::Math::BigInteger* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___qInv)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__get_n() {
+constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_n() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___n;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__get_n() const {
+constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_n() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___n;
 }
-constexpr void Mono::Security::Cryptography::RSAManaged::__set_n(::Mono::Math::BigInteger* value) {
+constexpr void Mono::Security::Cryptography::RSAManaged::__cordl_internal_set_n(::Mono::Math::BigInteger* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___n)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__get_e() {
+constexpr ::Mono::Math::BigInteger*& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_e() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__get_e() const {
+constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_e() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___e;
 }
-constexpr void Mono::Security::Cryptography::RSAManaged::__set_e(::Mono::Math::BigInteger* value) {
+constexpr void Mono::Security::Cryptography::RSAManaged::__cordl_internal_set_e(::Mono::Math::BigInteger* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___e)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*& Mono::Security::Cryptography::RSAManaged::__get_KeyGenerated() {
+constexpr ::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*& Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_KeyGenerated() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___KeyGenerated;
 }
-constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*> const& Mono::Security::Cryptography::RSAManaged::__get_KeyGenerated() const {
+constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler*> const&
+Mono::Security::Cryptography::RSAManaged::__cordl_internal_get_KeyGenerated() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___KeyGenerated;
 }
-constexpr void Mono::Security::Cryptography::RSAManaged::__set_KeyGenerated(::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler* value) {
+constexpr void Mono::Security::Cryptography::RSAManaged::__cordl_internal_set_KeyGenerated(::Mono::Security::Cryptography::__RSAManaged__KeyGeneratedEventHandler* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___KeyGenerated)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Mono::Security::Cryptography::RSAManaged* Mono::Security::Cryptography::RSAManaged::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::Mono::Security::Cryptography::RSAManaged*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Cryptography::RSAManaged*>());
 }
 inline void Mono::Security::Cryptography::RSAManaged::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::Mono::Security::Cryptography::RSAManaged* Mono::Security::Cryptography::RSAManaged::New_ctor(int32_t keySize) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Mono::Security::Cryptography::RSAManaged*>(keySize));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::Cryptography::RSAManaged*>(keySize));
 }
 inline void Mono::Security::Cryptography::RSAManaged::_ctor(int32_t keySize) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, keySize);
 }
 inline void Mono::Security::Cryptography::RSAManaged::Finalize() {
@@ -409,7 +410,7 @@ inline void Mono::Security::Cryptography::RSAManaged::Finalize() {
 }
 inline void Mono::Security::Cryptography::RSAManaged::GenerateKeyPair() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(),
-                                                                             "GenerateKeyPair", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "GenerateKeyPair", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline int32_t Mono::Security::Cryptography::RSAManaged::get_KeySize() {
@@ -419,7 +420,7 @@ inline int32_t Mono::Security::Cryptography::RSAManaged::get_KeySize() {
 }
 inline bool Mono::Security::Cryptography::RSAManaged::get_PublicOnly() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(),
-                                                                             "get_PublicOnly", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_PublicOnly", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Mono::Security::Cryptography::RSAManaged::EncryptValue(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb) {
@@ -448,10 +449,10 @@ inline ::StringW Mono::Security::Cryptography::RSAManaged::ToXmlString(bool incl
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, includePrivateParameters);
 }
 inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Mono::Security::Cryptography::RSAManaged::GetPaddedValue(::Mono::Math::BigInteger* value, int32_t length) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(), "GetPaddedValue", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Math::BigInteger*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::RSAManaged*>::get(), "GetPaddedValue", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Math::BigInteger*>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method, value, length);
 }
 // Ctor Parameters []

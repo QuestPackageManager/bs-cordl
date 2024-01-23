@@ -24,14 +24,14 @@ MARK_REF_PTR_T(::GlobalNamespace::PreviewDifficultyBeatmapSetExtensions);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4242))
 // CS Name: ::PreviewDifficultyBeatmapSetExtensions*
 class CORDL_TYPE PreviewDifficultyBeatmapSetExtensions : public ::System::Object {
 public:
   // Declarations
   /// @brief Method GetBeatmapCharacteristics, addr 0x232d1a0, size 0xec, virtual false, abstract: false, final false
-  static inline ::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*, ::Array<::GlobalNamespace::BeatmapCharacteristicSO*>*>
+  static inline ::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*>
   GetBeatmapCharacteristics(::ArrayW<::GlobalNamespace::PreviewDifficultyBeatmapSet*, ::Array<::GlobalNamespace::PreviewDifficultyBeatmapSet*>*> previewDifficultyBeatmapSet);
 
   /// @brief Method GetPreviewDifficultyBeatmapSetWithout360Movement, addr 0x232d28c, size 0x144, virtual false, abstract: false, final false

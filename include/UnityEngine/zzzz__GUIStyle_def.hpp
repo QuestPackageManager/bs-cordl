@@ -49,53 +49,53 @@ MARK_REF_PTR_T(::UnityEngine::GUIStyle);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14625))
 // CS Name: ::UnityEngine::GUIStyle*
 class CORDL_TYPE GUIStyle : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Ptr, put = __set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
   /// @brief Field m_Normal, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Normal, put = __set_m_Normal))::UnityEngine::GUIStyleState* m_Normal;
+  __declspec(property(get = __cordl_internal_get_m_Normal, put = __cordl_internal_set_m_Normal))::UnityEngine::GUIStyleState* m_Normal;
 
   /// @brief Field m_Hover, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Hover, put = __set_m_Hover))::UnityEngine::GUIStyleState* m_Hover;
+  __declspec(property(get = __cordl_internal_get_m_Hover, put = __cordl_internal_set_m_Hover))::UnityEngine::GUIStyleState* m_Hover;
 
   /// @brief Field m_Active, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Active, put = __set_m_Active))::UnityEngine::GUIStyleState* m_Active;
+  __declspec(property(get = __cordl_internal_get_m_Active, put = __cordl_internal_set_m_Active))::UnityEngine::GUIStyleState* m_Active;
 
   /// @brief Field m_Focused, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Focused, put = __set_m_Focused))::UnityEngine::GUIStyleState* m_Focused;
+  __declspec(property(get = __cordl_internal_get_m_Focused, put = __cordl_internal_set_m_Focused))::UnityEngine::GUIStyleState* m_Focused;
 
   /// @brief Field m_OnNormal, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_OnNormal, put = __set_m_OnNormal))::UnityEngine::GUIStyleState* m_OnNormal;
+  __declspec(property(get = __cordl_internal_get_m_OnNormal, put = __cordl_internal_set_m_OnNormal))::UnityEngine::GUIStyleState* m_OnNormal;
 
   /// @brief Field m_OnHover, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_OnHover, put = __set_m_OnHover))::UnityEngine::GUIStyleState* m_OnHover;
+  __declspec(property(get = __cordl_internal_get_m_OnHover, put = __cordl_internal_set_m_OnHover))::UnityEngine::GUIStyleState* m_OnHover;
 
   /// @brief Field m_OnActive, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_OnActive, put = __set_m_OnActive))::UnityEngine::GUIStyleState* m_OnActive;
+  __declspec(property(get = __cordl_internal_get_m_OnActive, put = __cordl_internal_set_m_OnActive))::UnityEngine::GUIStyleState* m_OnActive;
 
   /// @brief Field m_OnFocused, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_OnFocused, put = __set_m_OnFocused))::UnityEngine::GUIStyleState* m_OnFocused;
+  __declspec(property(get = __cordl_internal_get_m_OnFocused, put = __cordl_internal_set_m_OnFocused))::UnityEngine::GUIStyleState* m_OnFocused;
 
   /// @brief Field m_Border, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_Border, put = __set_m_Border))::UnityEngine::RectOffset* m_Border;
+  __declspec(property(get = __cordl_internal_get_m_Border, put = __cordl_internal_set_m_Border))::UnityEngine::RectOffset* m_Border;
 
   /// @brief Field m_Padding, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_Padding, put = __set_m_Padding))::UnityEngine::RectOffset* m_Padding;
+  __declspec(property(get = __cordl_internal_get_m_Padding, put = __cordl_internal_set_m_Padding))::UnityEngine::RectOffset* m_Padding;
 
   /// @brief Field m_Margin, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_Margin, put = __set_m_Margin))::UnityEngine::RectOffset* m_Margin;
+  __declspec(property(get = __cordl_internal_get_m_Margin, put = __cordl_internal_set_m_Margin))::UnityEngine::RectOffset* m_Margin;
 
   /// @brief Field m_Overflow, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_Overflow, put = __set_m_Overflow))::UnityEngine::RectOffset* m_Overflow;
+  __declspec(property(get = __cordl_internal_get_m_Overflow, put = __cordl_internal_set_m_Overflow))::UnityEngine::RectOffset* m_Overflow;
 
   /// @brief Field m_Name, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_Name, put = __set_m_Name))::StringW m_Name;
+  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name))::StringW m_Name;
 
   /// @brief Field showKeyboardFocus, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_showKeyboardFocus, put = setStaticF_showKeyboardFocus)) bool showKeyboardFocus;
@@ -105,7 +105,7 @@ public:
 
   __declspec(property(get = get_rawName, put = set_rawName))::StringW rawName;
 
-  __declspec(property(get = get_font, put = set_font))::UnityEngine::Font* font;
+  __declspec(property(get = get_font, put = set_font))::UnityW<::UnityEngine::Font> font;
 
   __declspec(property(get = get_imagePosition))::UnityEngine::ImagePosition imagePosition;
 
@@ -143,89 +143,89 @@ public:
 
   __declspec(property(get = get_isHeightDependantOnWidth)) bool isHeightDependantOnWidth;
 
-  constexpr void*& __get_m_Ptr();
+  constexpr void*& __cordl_internal_get_m_Ptr();
 
-  constexpr void* const& __get_m_Ptr() const;
+  constexpr void* const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void __set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(void* value);
 
-  constexpr ::UnityEngine::GUIStyleState*& __get_m_Normal();
+  constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_Normal();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyleState*> const& __get_m_Normal() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyleState*> const& __cordl_internal_get_m_Normal() const;
 
-  constexpr void __set_m_Normal(::UnityEngine::GUIStyleState* value);
+  constexpr void __cordl_internal_set_m_Normal(::UnityEngine::GUIStyleState* value);
 
-  constexpr ::UnityEngine::GUIStyleState*& __get_m_Hover();
+  constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_Hover();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyleState*> const& __get_m_Hover() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyleState*> const& __cordl_internal_get_m_Hover() const;
 
-  constexpr void __set_m_Hover(::UnityEngine::GUIStyleState* value);
+  constexpr void __cordl_internal_set_m_Hover(::UnityEngine::GUIStyleState* value);
 
-  constexpr ::UnityEngine::GUIStyleState*& __get_m_Active();
+  constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_Active();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyleState*> const& __get_m_Active() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyleState*> const& __cordl_internal_get_m_Active() const;
 
-  constexpr void __set_m_Active(::UnityEngine::GUIStyleState* value);
+  constexpr void __cordl_internal_set_m_Active(::UnityEngine::GUIStyleState* value);
 
-  constexpr ::UnityEngine::GUIStyleState*& __get_m_Focused();
+  constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_Focused();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyleState*> const& __get_m_Focused() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyleState*> const& __cordl_internal_get_m_Focused() const;
 
-  constexpr void __set_m_Focused(::UnityEngine::GUIStyleState* value);
+  constexpr void __cordl_internal_set_m_Focused(::UnityEngine::GUIStyleState* value);
 
-  constexpr ::UnityEngine::GUIStyleState*& __get_m_OnNormal();
+  constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_OnNormal();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyleState*> const& __get_m_OnNormal() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyleState*> const& __cordl_internal_get_m_OnNormal() const;
 
-  constexpr void __set_m_OnNormal(::UnityEngine::GUIStyleState* value);
+  constexpr void __cordl_internal_set_m_OnNormal(::UnityEngine::GUIStyleState* value);
 
-  constexpr ::UnityEngine::GUIStyleState*& __get_m_OnHover();
+  constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_OnHover();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyleState*> const& __get_m_OnHover() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyleState*> const& __cordl_internal_get_m_OnHover() const;
 
-  constexpr void __set_m_OnHover(::UnityEngine::GUIStyleState* value);
+  constexpr void __cordl_internal_set_m_OnHover(::UnityEngine::GUIStyleState* value);
 
-  constexpr ::UnityEngine::GUIStyleState*& __get_m_OnActive();
+  constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_OnActive();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyleState*> const& __get_m_OnActive() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyleState*> const& __cordl_internal_get_m_OnActive() const;
 
-  constexpr void __set_m_OnActive(::UnityEngine::GUIStyleState* value);
+  constexpr void __cordl_internal_set_m_OnActive(::UnityEngine::GUIStyleState* value);
 
-  constexpr ::UnityEngine::GUIStyleState*& __get_m_OnFocused();
+  constexpr ::UnityEngine::GUIStyleState*& __cordl_internal_get_m_OnFocused();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyleState*> const& __get_m_OnFocused() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyleState*> const& __cordl_internal_get_m_OnFocused() const;
 
-  constexpr void __set_m_OnFocused(::UnityEngine::GUIStyleState* value);
+  constexpr void __cordl_internal_set_m_OnFocused(::UnityEngine::GUIStyleState* value);
 
-  constexpr ::UnityEngine::RectOffset*& __get_m_Border();
+  constexpr ::UnityEngine::RectOffset*& __cordl_internal_get_m_Border();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectOffset*> const& __get_m_Border() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectOffset*> const& __cordl_internal_get_m_Border() const;
 
-  constexpr void __set_m_Border(::UnityEngine::RectOffset* value);
+  constexpr void __cordl_internal_set_m_Border(::UnityEngine::RectOffset* value);
 
-  constexpr ::UnityEngine::RectOffset*& __get_m_Padding();
+  constexpr ::UnityEngine::RectOffset*& __cordl_internal_get_m_Padding();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectOffset*> const& __get_m_Padding() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectOffset*> const& __cordl_internal_get_m_Padding() const;
 
-  constexpr void __set_m_Padding(::UnityEngine::RectOffset* value);
+  constexpr void __cordl_internal_set_m_Padding(::UnityEngine::RectOffset* value);
 
-  constexpr ::UnityEngine::RectOffset*& __get_m_Margin();
+  constexpr ::UnityEngine::RectOffset*& __cordl_internal_get_m_Margin();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectOffset*> const& __get_m_Margin() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectOffset*> const& __cordl_internal_get_m_Margin() const;
 
-  constexpr void __set_m_Margin(::UnityEngine::RectOffset* value);
+  constexpr void __cordl_internal_set_m_Margin(::UnityEngine::RectOffset* value);
 
-  constexpr ::UnityEngine::RectOffset*& __get_m_Overflow();
+  constexpr ::UnityEngine::RectOffset*& __cordl_internal_get_m_Overflow();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectOffset*> const& __get_m_Overflow() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectOffset*> const& __cordl_internal_get_m_Overflow() const;
 
-  constexpr void __set_m_Overflow(::UnityEngine::RectOffset* value);
+  constexpr void __cordl_internal_set_m_Overflow(::UnityEngine::RectOffset* value);
 
-  constexpr ::StringW& __get_m_Name();
+  constexpr ::StringW& __cordl_internal_get_m_Name();
 
-  constexpr ::StringW const& __get_m_Name() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Name() const;
 
-  constexpr void __set_m_Name(::StringW value);
+  constexpr void __cordl_internal_set_m_Name(::StringW value);
 
   static inline void setStaticF_showKeyboardFocus(bool value);
 
@@ -242,7 +242,7 @@ public:
   inline void set_rawName(::StringW value);
 
   /// @brief Method get_font, addr 0x2d0c9dc, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Font* get_font();
+  inline ::UnityW<::UnityEngine::Font> get_font();
 
   /// @brief Method set_font, addr 0x2d0ca18, size 0x44, virtual false, abstract: false, final false
   inline void set_font(::UnityEngine::Font* value);

@@ -12,9 +12,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2315858;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomControlPlayableAsset*>::get(),
-                                                                               "get_clipCaps", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_clipCaps", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -25,9 +25,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x2315860;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomControlPlayableAsset*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -39,29 +39,29 @@ constexpr GlobalNamespace::CustomControlPlayableAsset::operator ::UnityEngine::T
 constexpr ::UnityEngine::Timeline::ITimelineClipAsset* GlobalNamespace::CustomControlPlayableAsset::i___UnityEngine__Timeline__ITimelineClipAsset() noexcept {
   return static_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(static_cast<void*>(this));
 }
-constexpr ::GlobalNamespace::AvatarColorBehaviour*& GlobalNamespace::CustomControlPlayableAsset::__get__template() {
+constexpr ::GlobalNamespace::AvatarColorBehaviour*& GlobalNamespace::CustomControlPlayableAsset::__cordl_internal_get__template() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____template;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AvatarColorBehaviour*> const& GlobalNamespace::CustomControlPlayableAsset::__get__template() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AvatarColorBehaviour*> const& GlobalNamespace::CustomControlPlayableAsset::__cordl_internal_get__template() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____template;
 }
-constexpr void GlobalNamespace::CustomControlPlayableAsset::__set__template(::GlobalNamespace::AvatarColorBehaviour* value) {
+constexpr void GlobalNamespace::CustomControlPlayableAsset::__cordl_internal_set__template(::GlobalNamespace::AvatarColorBehaviour* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____template)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Timeline::ClipCaps GlobalNamespace::CustomControlPlayableAsset::get_clipCaps() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomControlPlayableAsset*>::get(),
-                                                                             "get_clipCaps", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_clipCaps", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Timeline::ClipCaps, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::CustomControlPlayableAsset* GlobalNamespace::CustomControlPlayableAsset::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::CustomControlPlayableAsset*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CustomControlPlayableAsset*>());
 }
 inline void GlobalNamespace::CustomControlPlayableAsset::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomControlPlayableAsset*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

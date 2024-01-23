@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Oculus::Platform::MessageWithLeaderboardDidUpdate);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(13262))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13262)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13262), inst: 105 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13333))
 // CS Name: ::Oculus.Platform::MessageWithLeaderboardDidUpdate*
 class CORDL_TYPE MessageWithLeaderboardDidUpdate : public ::Oculus::Platform::Message_1<bool> {

@@ -24,9 +24,9 @@ MARK_REF_PTR_T(::GlobalNamespace::PS5PlatformAdditionalContentModel);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4563)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4601), inst: 4983 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4601))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4564)) CS Name: ::PS5PlatformAdditionalContentModel*
-class CORDL_TYPE PS5PlatformAdditionalContentModel : public ::GlobalNamespace::SonyPlatformAdditionalContentModel_1<::GlobalNamespace::PS5LevelProductsModelSO*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4563)), TypeDefinitionIndex(TypeDefinitionIndex(4601)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(4601), inst: 4983
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4564)) CS Name: ::PS5PlatformAdditionalContentModel*
+class CORDL_TYPE PS5PlatformAdditionalContentModel : public ::GlobalNamespace::SonyPlatformAdditionalContentModel_1<::UnityW<::GlobalNamespace::PS5LevelProductsModelSO>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::PS5PlatformAdditionalContentModel* New_ctor(::GlobalNamespace::PS5LevelProductsModelSO* ps5LevelProductsModel,

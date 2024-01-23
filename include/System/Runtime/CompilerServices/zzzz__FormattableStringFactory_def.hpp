@@ -34,33 +34,33 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::__FormattableStringFactory__
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2383))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2383))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3370))
 // CS Name: ::FormattableStringFactory::ConcreteFormattableString*
 class CORDL_TYPE __FormattableStringFactory__ConcreteFormattableString : public ::System::FormattableString {
 public:
   // Declarations
   /// @brief Field _format, offset 0x10, size 0x8
-  __declspec(property(get = __get__format, put = __set__format))::StringW _format;
+  __declspec(property(get = __cordl_internal_get__format, put = __cordl_internal_set__format))::StringW _format;
 
   /// @brief Field _arguments, offset 0x18, size 0x8
-  __declspec(property(get = __get__arguments, put = __set__arguments))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _arguments;
+  __declspec(property(get = __cordl_internal_get__arguments, put = __cordl_internal_set__arguments))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _arguments;
 
   __declspec(property(get = get_Format))::StringW Format;
 
   __declspec(property(get = get_ArgumentCount)) int32_t ArgumentCount;
 
-  constexpr ::StringW& __get__format();
+  constexpr ::StringW& __cordl_internal_get__format();
 
-  constexpr ::StringW const& __get__format() const;
+  constexpr ::StringW const& __cordl_internal_get__format() const;
 
-  constexpr void __set__format(::StringW value);
+  constexpr void __cordl_internal_set__format(::StringW value);
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get__arguments();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__arguments();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get__arguments() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__arguments() const;
 
-  constexpr void __set__arguments(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set__arguments(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
   static inline ::System::Runtime::CompilerServices::__FormattableStringFactory__ConcreteFormattableString* New_ctor(::StringW format,
                                                                                                                      ::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments);
@@ -117,7 +117,7 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__FormattableStringF
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3371))
 // CS Name: ::System.Runtime.CompilerServices::FormattableStringFactory*
 class CORDL_TYPE FormattableStringFactory : public ::System::Object {

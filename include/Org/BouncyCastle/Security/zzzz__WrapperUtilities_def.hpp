@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Security::__WrapperUtilities__BufferedCipher
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1760))
 // CS Name: ::WrapperUtilities::WrapAlgorithm
 struct CORDL_TYPE __WrapperUtilities__WrapAlgorithm {
@@ -121,17 +121,17 @@ static_assert(offsetof(::Org::BouncyCastle::Security::__WrapperUtilities__WrapAl
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1761))
 // CS Name: ::WrapperUtilities::BufferedCipherWrapper*
 class CORDL_TYPE __WrapperUtilities__BufferedCipherWrapper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field cipher, offset 0x10, size 0x8
-  __declspec(property(get = __get_cipher, put = __set_cipher))::Org::BouncyCastle::Crypto::IBufferedCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::IBufferedCipher* cipher;
 
   /// @brief Field forWrapping, offset 0x18, size 0x1
-  __declspec(property(get = __get_forWrapping, put = __set_forWrapping)) bool forWrapping;
+  __declspec(property(get = __cordl_internal_get_forWrapping, put = __cordl_internal_set_forWrapping)) bool forWrapping;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -141,17 +141,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr ::Org::BouncyCastle::Crypto::IWrapper* i___Org__BouncyCastle__Crypto__IWrapper() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __get_cipher();
+  constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __cordl_internal_get_cipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBufferedCipher*> const& __get_cipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBufferedCipher*> const& __cordl_internal_get_cipher() const;
 
-  constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IBufferedCipher* value);
+  constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::IBufferedCipher* value);
 
-  constexpr bool& __get_forWrapping();
+  constexpr bool& __cordl_internal_get_forWrapping();
 
-  constexpr bool const& __get_forWrapping() const;
+  constexpr bool const& __cordl_internal_get_forWrapping() const;
 
-  constexpr void __set_forWrapping(bool value);
+  constexpr void __cordl_internal_set_forWrapping(bool value);
 
   static inline ::Org::BouncyCastle::Security::__WrapperUtilities__BufferedCipherWrapper* New_ctor(::Org::BouncyCastle::Crypto::IBufferedCipher* cipher);
 
@@ -204,7 +204,7 @@ static_assert(offsetof(::Org::BouncyCastle::Security::__WrapperUtilities__Buffer
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1762))
 // CS Name: ::Org.BouncyCastle.Security::WrapperUtilities*
 class CORDL_TYPE WrapperUtilities : public ::System::Object {

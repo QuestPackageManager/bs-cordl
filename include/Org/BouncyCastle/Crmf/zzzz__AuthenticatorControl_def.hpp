@@ -27,14 +27,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::AuthenticatorControl);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(695))
 // CS Name: ::Org.BouncyCastle.Crmf::AuthenticatorControl*
 class CORDL_TYPE AuthenticatorControl : public ::System::Object {
 public:
   // Declarations
   /// @brief Field token, offset 0x10, size 0x8
-  __declspec(property(get = __get_token, put = __set_token))::Org::BouncyCastle::Asn1::DerUtf8String* token;
+  __declspec(property(get = __cordl_internal_get_token, put = __cordl_internal_set_token))::Org::BouncyCastle::Asn1::DerUtf8String* token;
 
   /// @brief Field type, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_type, put = setStaticF_type))::Org::BouncyCastle::Asn1::DerObjectIdentifier* type;
@@ -49,11 +49,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crmf::IControl"
   constexpr ::Org::BouncyCastle::Crmf::IControl* i___Org__BouncyCastle__Crmf__IControl() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerUtf8String*& __get_token();
+  constexpr ::Org::BouncyCastle::Asn1::DerUtf8String*& __cordl_internal_get_token();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerUtf8String*> const& __get_token() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerUtf8String*> const& __cordl_internal_get_token() const;
 
-  constexpr void __set_token(::Org::BouncyCastle::Asn1::DerUtf8String* value);
+  constexpr void __cordl_internal_set_token(::Org::BouncyCastle::Asn1::DerUtf8String* value);
 
   static inline void setStaticF_type(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 

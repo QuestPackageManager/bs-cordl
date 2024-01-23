@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8740))
 // CS Name: ::OVRPhysicsRaycaster::<>c*
 class CORDL_TYPE __OVRPhysicsRaycaster____c : public ::System::Object {
@@ -114,7 +114,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::__OVR
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(13209))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(13209))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8741))
 // CS Name: ::UnityEngine.EventSystems::OVRPhysicsRaycaster*
 class CORDL_TYPE OVRPhysicsRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster {
@@ -123,12 +123,12 @@ public:
   using __c = ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c;
 
   /// @brief Field m_EventMask, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_EventMask, put = __set_m_EventMask))::UnityEngine::LayerMask m_EventMask;
+  __declspec(property(get = __cordl_internal_get_m_EventMask, put = __cordl_internal_set_m_EventMask))::UnityEngine::LayerMask m_EventMask;
 
   /// @brief Field sortOrder, offset 0x24, size 0x4
-  __declspec(property(get = __get_sortOrder, put = __set_sortOrder)) int32_t sortOrder;
+  __declspec(property(get = __cordl_internal_get_sortOrder, put = __cordl_internal_set_sortOrder)) int32_t sortOrder;
 
-  __declspec(property(get = get_eventCamera))::UnityEngine::Camera* eventCamera;
+  __declspec(property(get = get_eventCamera))::UnityW<::UnityEngine::Camera> eventCamera;
 
   __declspec(property(get = get_depth)) int32_t depth;
 
@@ -138,17 +138,17 @@ public:
 
   __declspec(property(get = get_eventMask, put = set_eventMask))::UnityEngine::LayerMask eventMask;
 
-  constexpr ::UnityEngine::LayerMask& __get_m_EventMask();
+  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_m_EventMask();
 
-  constexpr ::UnityEngine::LayerMask const& __get_m_EventMask() const;
+  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_m_EventMask() const;
 
-  constexpr void __set_m_EventMask(::UnityEngine::LayerMask value);
+  constexpr void __cordl_internal_set_m_EventMask(::UnityEngine::LayerMask value);
 
-  constexpr int32_t& __get_sortOrder();
+  constexpr int32_t& __cordl_internal_get_sortOrder();
 
-  constexpr int32_t const& __get_sortOrder() const;
+  constexpr int32_t const& __cordl_internal_get_sortOrder() const;
 
-  constexpr void __set_sortOrder(int32_t value);
+  constexpr void __cordl_internal_set_sortOrder(int32_t value);
 
   static inline ::UnityEngine::EventSystems::OVRPhysicsRaycaster* New_ctor();
 
@@ -156,7 +156,7 @@ public:
   inline void _ctor();
 
   /// @brief Method get_eventCamera, addr 0x27fbb68, size 0x58, virtual true, abstract: false, final false
-  inline ::UnityEngine::Camera* get_eventCamera();
+  inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
   /// @brief Method get_depth, addr 0x27fbbc0, size 0xc4, virtual true, abstract: false, final false
   inline int32_t get_depth();

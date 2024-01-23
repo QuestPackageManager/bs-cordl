@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Security::CipherUtilities);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1740))
 // CS Name: ::CipherUtilities::CipherAlgorithm
 struct CORDL_TYPE __CipherUtilities__CipherAlgorithm {
@@ -251,7 +251,7 @@ static_assert(offsetof(::Org::BouncyCastle::Security::__CipherUtilities__CipherA
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1741))
 // CS Name: ::CipherUtilities::CipherMode
 struct CORDL_TYPE __CipherUtilities__CipherMode {
@@ -349,7 +349,7 @@ static_assert(offsetof(::Org::BouncyCastle::Security::__CipherUtilities__CipherM
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1742))
 // CS Name: ::CipherUtilities::CipherPadding
 struct CORDL_TYPE __CipherUtilities__CipherPadding {
@@ -519,7 +519,7 @@ static_assert(offsetof(::Org::BouncyCastle::Security::__CipherUtilities__CipherP
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1743))
 // CS Name: ::Org.BouncyCastle.Security::CipherUtilities*
 class CORDL_TYPE CipherUtilities : public ::System::Object {

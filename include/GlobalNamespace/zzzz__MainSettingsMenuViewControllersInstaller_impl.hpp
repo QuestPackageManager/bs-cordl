@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x2272078;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsMenuViewControllersInstaller*>::get(),
@@ -27,87 +27,84 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x227212c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsMenuViewControllersInstaller*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::MainSettingsMenuViewController*& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__defaultSettingsMenuViewController() {
+constexpr ::UnityW<::GlobalNamespace::MainSettingsMenuViewController>& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_get__defaultSettingsMenuViewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultSettingsMenuViewController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsMenuViewController*> const&
-GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__defaultSettingsMenuViewController() const {
+constexpr ::UnityW<::GlobalNamespace::MainSettingsMenuViewController> const&
+GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_get__defaultSettingsMenuViewController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultSettingsMenuViewController;
 }
-constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__set__defaultSettingsMenuViewController(::GlobalNamespace::MainSettingsMenuViewController* value) {
+constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_set__defaultSettingsMenuViewController(::UnityW<::GlobalNamespace::MainSettingsMenuViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultSettingsMenuViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MainSettingsMenuViewController*& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__oculusPCSettingsMenuViewController() {
+constexpr ::UnityW<::GlobalNamespace::MainSettingsMenuViewController>& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_get__oculusPCSettingsMenuViewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oculusPCSettingsMenuViewController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsMenuViewController*> const&
-GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__oculusPCSettingsMenuViewController() const {
+constexpr ::UnityW<::GlobalNamespace::MainSettingsMenuViewController> const&
+GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_get__oculusPCSettingsMenuViewController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oculusPCSettingsMenuViewController;
 }
-constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__set__oculusPCSettingsMenuViewController(::GlobalNamespace::MainSettingsMenuViewController* value) {
+constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_set__oculusPCSettingsMenuViewController(::UnityW<::GlobalNamespace::MainSettingsMenuViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____oculusPCSettingsMenuViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MainSettingsMenuViewController*& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__questSettingsMenuViewController() {
+constexpr ::UnityW<::GlobalNamespace::MainSettingsMenuViewController>& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_get__questSettingsMenuViewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____questSettingsMenuViewController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsMenuViewController*> const&
-GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__questSettingsMenuViewController() const {
+constexpr ::UnityW<::GlobalNamespace::MainSettingsMenuViewController> const& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_get__questSettingsMenuViewController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____questSettingsMenuViewController;
 }
-constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__set__questSettingsMenuViewController(::GlobalNamespace::MainSettingsMenuViewController* value) {
+constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_set__questSettingsMenuViewController(::UnityW<::GlobalNamespace::MainSettingsMenuViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____questSettingsMenuViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MainSettingsMenuViewController*& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__psvrSettingsMenuViewController() {
+constexpr ::UnityW<::GlobalNamespace::MainSettingsMenuViewController>& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_get__psvrSettingsMenuViewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____psvrSettingsMenuViewController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsMenuViewController*> const&
-GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__psvrSettingsMenuViewController() const {
+constexpr ::UnityW<::GlobalNamespace::MainSettingsMenuViewController> const& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_get__psvrSettingsMenuViewController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____psvrSettingsMenuViewController;
 }
-constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__set__psvrSettingsMenuViewController(::GlobalNamespace::MainSettingsMenuViewController* value) {
+constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_set__psvrSettingsMenuViewController(::UnityW<::GlobalNamespace::MainSettingsMenuViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____psvrSettingsMenuViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MainSettingsMenuViewController*& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__psvr2SettingsMenuViewController() {
+constexpr ::UnityW<::GlobalNamespace::MainSettingsMenuViewController>& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_get__psvr2SettingsMenuViewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____psvr2SettingsMenuViewController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsMenuViewController*> const&
-GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__psvr2SettingsMenuViewController() const {
+constexpr ::UnityW<::GlobalNamespace::MainSettingsMenuViewController> const& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_get__psvr2SettingsMenuViewController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____psvr2SettingsMenuViewController;
 }
-constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__set__psvr2SettingsMenuViewController(::GlobalNamespace::MainSettingsMenuViewController* value) {
+constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_set__psvr2SettingsMenuViewController(::UnityW<::GlobalNamespace::MainSettingsMenuViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____psvr2SettingsMenuViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::TabBarViewController*& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__tabBarViewControllerPrefab() {
+constexpr ::UnityW<::GlobalNamespace::TabBarViewController>& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_get__tabBarViewControllerPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tabBarViewControllerPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TabBarViewController*> const& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__get__tabBarViewControllerPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::TabBarViewController> const& GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_get__tabBarViewControllerPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tabBarViewControllerPrefab;
 }
-constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__set__tabBarViewControllerPrefab(::GlobalNamespace::TabBarViewController* value) {
+constexpr void GlobalNamespace::MainSettingsMenuViewControllersInstaller::__cordl_internal_set__tabBarViewControllerPrefab(::UnityW<::GlobalNamespace::TabBarViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tabBarViewControllerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -118,12 +115,12 @@ inline void GlobalNamespace::MainSettingsMenuViewControllersInstaller::InstallBi
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::MainSettingsMenuViewControllersInstaller* GlobalNamespace::MainSettingsMenuViewControllersInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MainSettingsMenuViewControllersInstaller*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MainSettingsMenuViewControllersInstaller*>());
 }
 inline void GlobalNamespace::MainSettingsMenuViewControllersInstaller::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsMenuViewControllersInstaller*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

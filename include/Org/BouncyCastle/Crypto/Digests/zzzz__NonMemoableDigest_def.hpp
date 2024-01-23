@@ -20,14 +20,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::NonMemoableDigest);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(760))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::NonMemoableDigest*
 class CORDL_TYPE NonMemoableDigest : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mBaseDigest, offset 0x10, size 0x8
-  __declspec(property(get = __get_mBaseDigest, put = __set_mBaseDigest))::Org::BouncyCastle::Crypto::IDigest* mBaseDigest;
+  __declspec(property(get = __cordl_internal_get_mBaseDigest, put = __cordl_internal_set_mBaseDigest))::Org::BouncyCastle::Crypto::IDigest* mBaseDigest;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -37,11 +37,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_mBaseDigest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mBaseDigest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_mBaseDigest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_mBaseDigest() const;
 
-  constexpr void __set_mBaseDigest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_mBaseDigest(::Org::BouncyCastle::Crypto::IDigest* value);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::NonMemoableDigest* New_ctor(::Org::BouncyCastle::Crypto::IDigest* baseDigest);
 

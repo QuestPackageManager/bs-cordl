@@ -14,11 +14,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x22569f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayerResultsData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectedPlayer*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerLevelCompletionResults*>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayerResultsData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectedPlayer*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerLevelCompletionResults*>::get() })));
     return ___internal_method;
   }
 };
@@ -30,10 +30,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1e0;
   constexpr static std::size_t addrs = 0x2256a24;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayerResultsData*>::get(), "CompareTo",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayerResultsData*>::get(), "CompareTo",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
@@ -45,59 +45,59 @@ constexpr GlobalNamespace::MultiplayerPlayerResultsData::operator ::System::ICom
 constexpr ::System::IComparable* GlobalNamespace::MultiplayerPlayerResultsData::i___System__IComparable() noexcept {
   return static_cast<::System::IComparable*>(static_cast<void*>(this));
 }
-constexpr ::GlobalNamespace::IConnectedPlayer*& GlobalNamespace::MultiplayerPlayerResultsData::__get_connectedPlayer() {
+constexpr ::GlobalNamespace::IConnectedPlayer*& GlobalNamespace::MultiplayerPlayerResultsData::__cordl_internal_get_connectedPlayer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectedPlayer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& GlobalNamespace::MultiplayerPlayerResultsData::__get_connectedPlayer() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& GlobalNamespace::MultiplayerPlayerResultsData::__cordl_internal_get_connectedPlayer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectedPlayer;
 }
-constexpr void GlobalNamespace::MultiplayerPlayerResultsData::__set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value) {
+constexpr void GlobalNamespace::MultiplayerPlayerResultsData::__cordl_internal_set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___connectedPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults*& GlobalNamespace::MultiplayerPlayerResultsData::__get_multiplayerLevelCompletionResults() {
+constexpr ::GlobalNamespace::MultiplayerLevelCompletionResults*& GlobalNamespace::MultiplayerPlayerResultsData::__cordl_internal_get_multiplayerLevelCompletionResults() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplayerLevelCompletionResults;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelCompletionResults*> const&
-GlobalNamespace::MultiplayerPlayerResultsData::__get_multiplayerLevelCompletionResults() const {
+GlobalNamespace::MultiplayerPlayerResultsData::__cordl_internal_get_multiplayerLevelCompletionResults() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___multiplayerLevelCompletionResults;
 }
-constexpr void GlobalNamespace::MultiplayerPlayerResultsData::__set_multiplayerLevelCompletionResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value) {
+constexpr void GlobalNamespace::MultiplayerPlayerResultsData::__cordl_internal_set_multiplayerLevelCompletionResults(::GlobalNamespace::MultiplayerLevelCompletionResults* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___multiplayerLevelCompletionResults)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerBadgeAwardData*& GlobalNamespace::MultiplayerPlayerResultsData::__get_badge() {
+constexpr ::GlobalNamespace::MultiplayerBadgeAwardData*& GlobalNamespace::MultiplayerPlayerResultsData::__cordl_internal_get_badge() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___badge;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerBadgeAwardData*> const& GlobalNamespace::MultiplayerPlayerResultsData::__get_badge() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerBadgeAwardData*> const& GlobalNamespace::MultiplayerPlayerResultsData::__cordl_internal_get_badge() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___badge;
 }
-constexpr void GlobalNamespace::MultiplayerPlayerResultsData::__set_badge(::GlobalNamespace::MultiplayerBadgeAwardData* value) {
+constexpr void GlobalNamespace::MultiplayerPlayerResultsData::__cordl_internal_set_badge(::GlobalNamespace::MultiplayerBadgeAwardData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___badge)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::MultiplayerPlayerResultsData*
 GlobalNamespace::MultiplayerPlayerResultsData::New_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MultiplayerPlayerResultsData*>(connectedPlayer, multiplayerLevelCompletionResults));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerPlayerResultsData*>(connectedPlayer, multiplayerLevelCompletionResults));
 }
 inline void GlobalNamespace::MultiplayerPlayerResultsData::_ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer,
                                                                  ::GlobalNamespace::MultiplayerLevelCompletionResults* multiplayerLevelCompletionResults) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayerResultsData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectedPlayer*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerLevelCompletionResults*>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayerResultsData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectedPlayer*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerLevelCompletionResults*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, connectedPlayer, multiplayerLevelCompletionResults);
 }
 inline int32_t GlobalNamespace::MultiplayerPlayerResultsData::CompareTo(::System::Object* obj) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayerResultsData*>::get(), "CompareTo",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerPlayerResultsData*>::get(), "CompareTo",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, obj);
 }
 // Ctor Parameters []

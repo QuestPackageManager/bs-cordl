@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11441))
 // CS Name: ::SecureStringHasher::HashCodeOfStringDelegate*
 class CORDL_TYPE __SecureStringHasher__HashCodeOfStringDelegate : public ::System::MulticastDelegate {
@@ -68,7 +68,7 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::__SecureStringHashe
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11442))
 // CS Name: ::System.Xml::SecureStringHasher*
 class CORDL_TYPE SecureStringHasher : public ::System::Object {
@@ -77,7 +77,7 @@ public:
   using HashCodeOfStringDelegate = ::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate;
 
   /// @brief Field hashCodeRandomizer, offset 0x10, size 0x4
-  __declspec(property(get = __get_hashCodeRandomizer, put = __set_hashCodeRandomizer)) int32_t hashCodeRandomizer;
+  __declspec(property(get = __cordl_internal_get_hashCodeRandomizer, put = __cordl_internal_set_hashCodeRandomizer)) int32_t hashCodeRandomizer;
 
   /// @brief Field hashCodeDelegate, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_hashCodeDelegate, put = setStaticF_hashCodeDelegate))::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* hashCodeDelegate;
@@ -88,11 +88,11 @@ public:
   /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::StringW>"
   constexpr ::System::Collections::Generic::IEqualityComparer_1<::StringW>* i___System__Collections__Generic__IEqualityComparer_1___StringW_() noexcept;
 
-  constexpr int32_t& __get_hashCodeRandomizer();
+  constexpr int32_t& __cordl_internal_get_hashCodeRandomizer();
 
-  constexpr int32_t const& __get_hashCodeRandomizer() const;
+  constexpr int32_t const& __cordl_internal_get_hashCodeRandomizer() const;
 
-  constexpr void __set_hashCodeRandomizer(int32_t value);
+  constexpr void __cordl_internal_set_hashCodeRandomizer(int32_t value);
 
   static inline void setStaticF_hashCodeDelegate(::System::Xml::__SecureStringHasher__HashCodeOfStringDelegate* value);
 

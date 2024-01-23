@@ -26,14 +26,14 @@ MARK_REF_PTR_T(::GlobalNamespace::SignalOnPointerClick);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14397))
 // CS Name: ::SignalOnPointerClick*
 class CORDL_TYPE SignalOnPointerClick : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _inputFieldClickedSignal, offset 0x18, size 0x8
-  __declspec(property(get = __get__inputFieldClickedSignal, put = __set__inputFieldClickedSignal))::GlobalNamespace::Signal* _inputFieldClickedSignal;
+  __declspec(property(get = __cordl_internal_get__inputFieldClickedSignal, put = __cordl_internal_set__inputFieldClickedSignal))::UnityW<::GlobalNamespace::Signal> _inputFieldClickedSignal;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept;
@@ -47,11 +47,11 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
   constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
-  constexpr ::GlobalNamespace::Signal*& __get__inputFieldClickedSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__inputFieldClickedSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__inputFieldClickedSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__inputFieldClickedSignal() const;
 
-  constexpr void __set__inputFieldClickedSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__inputFieldClickedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
   /// @brief Method OnPointerClick, addr 0x20f590c, size 0x20, virtual true, abstract: false, final true
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
@@ -76,7 +76,7 @@ protected:
 
 public:
   /// @brief Field _inputFieldClickedSignal, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____inputFieldClickedSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____inputFieldClickedSignal;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

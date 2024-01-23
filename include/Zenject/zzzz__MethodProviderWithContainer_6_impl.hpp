@@ -22,18 +22,18 @@ constexpr ::Zenject::IProvider* Zenject::MethodProviderWithContainer_6<TParam1, 
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
 constexpr ::System::Func_7<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*&
-Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>::__get__method() {
+Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>::__cordl_internal_get__method() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____method;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
 constexpr ::cordl_internals::to_const_pointer<::System::Func_7<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*> const&
-Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>::__get__method() const {
+Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>::__cordl_internal_get__method() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____method;
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
-constexpr void Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>::__set__method(
+constexpr void Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>::__cordl_internal_set__method(
     ::System::Func_7<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____method)), cordl_internals::convert(std::forward<decltype(value)>(value)));
@@ -42,15 +42,15 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 inline ::Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*
 Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>::New_ctor(
     ::System::Func_7<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* method) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*>(method));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*>(method));
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
 inline void Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>::_ctor(
     ::System::Func_7<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* method) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*>::get(), ".ctor",
-                                 std::vector<Il2CppClass*>{},
-                                 ::std::vector<Il2CppType const*>{
+                                 std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{
                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_7<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, method);
 }
@@ -58,21 +58,21 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 inline bool Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>::get_IsCached() {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*>::get(),
-                                  "get_IsCached", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                  "get_IsCached", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
 inline bool Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>::get_TypeVariesBasedOnMemberType() {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*>::get(),
-                                  "get_TypeVariesBasedOnMemberType", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                  "get_TypeVariesBasedOnMemberType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
 inline ::System::Type* Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>::GetInstanceType(::Zenject::InjectContext* context) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*>::get(), "GetInstanceType",
-      std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get() })));
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, context);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
@@ -81,11 +81,11 @@ inline void Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TP
     ::System::Collections::Generic::List_1<::System::Object*>* buffer) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MethodProviderWithContainer_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>*>::get(),
-                                  "GetAllInstancesWithInjectSplit", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Action*>>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Object*>*>::get() })));
+                                  "GetAllInstancesWithInjectSplit", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::InjectContext*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::System::Action*>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::System::Object*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context, args, injectAction, buffer);
 }
 // Ctor Parameters []

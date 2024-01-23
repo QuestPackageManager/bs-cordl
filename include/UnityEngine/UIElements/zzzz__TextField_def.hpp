@@ -53,20 +53,20 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__TextField__UxmlTraits);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7096)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7096), inst: 397 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7096)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7096), inst: 397 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7059))
 // CS Name: ::TextField::UxmlTraits*
 class CORDL_TYPE __TextField__UxmlTraits : public ::UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<::StringW> {
 public:
   // Declarations
   /// @brief Field m_Multiline, offset 0xb8, size 0x8
-  __declspec(property(get = __get_m_Multiline, put = __set_m_Multiline))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Multiline;
+  __declspec(property(get = __cordl_internal_get_m_Multiline, put = __cordl_internal_set_m_Multiline))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Multiline;
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __get_m_Multiline();
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Multiline();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __get_m_Multiline() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_Multiline() const;
 
-  constexpr void __set_m_Multiline(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Multiline(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
   /// @brief Method Init, addr 0x2e29338, size 0x114, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
@@ -105,7 +105,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__TextField__UxmlTraits, ___m_
 // SizeInfo { instance_size: 1056, native_size: -1, calculated_instance_size: 1056, calculated_native_size: 1056, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7098)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7098), inst: 397 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7098)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7098), inst: 397 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7061))
 // CS Name: ::UnityEngine.UIElements::TextField*
 class CORDL_TYPE TextField : public ::UnityEngine::UIElements::TextInputBaseField_1<::StringW> {
@@ -201,8 +201,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TextFie
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7061)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5280 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7059)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7058)) CS Name: ::TextField::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7059)), TypeDefinitionIndex(TypeDefinitionIndex(7061)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5280 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7058)) CS Name: ::TextField::UxmlFactory*
 class CORDL_TYPE __TextField__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TextField*, ::UnityEngine::UIElements::__TextField__UxmlTraits*> {
 public:
   // Declarations
@@ -235,14 +235,14 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TextF
 // SizeInfo { instance_size: 1048, native_size: -1, calculated_instance_size: 1048, calculated_native_size: 1041, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7097), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(7097))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7097)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7097), inst: 397 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7060))
 // CS Name: ::TextField::TextInput*
 class CORDL_TYPE __TextField__TextInput : public ::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<::StringW> {
 public:
   // Declarations
   /// @brief Field m_Multiline, offset 0x410, size 0x1
-  __declspec(property(get = __get_m_Multiline, put = __set_m_Multiline)) bool m_Multiline;
+  __declspec(property(get = __cordl_internal_get_m_Multiline, put = __cordl_internal_set_m_Multiline)) bool m_Multiline;
 
   __declspec(property(get = get_parentTextField))::UnityEngine::UIElements::TextField* parentTextField;
 
@@ -250,11 +250,11 @@ public:
 
   __declspec(property(put = set_isPasswordField)) bool isPasswordField;
 
-  constexpr bool& __get_m_Multiline();
+  constexpr bool& __cordl_internal_get_m_Multiline();
 
-  constexpr bool const& __get_m_Multiline() const;
+  constexpr bool const& __cordl_internal_get_m_Multiline() const;
 
-  constexpr void __set_m_Multiline(bool value);
+  constexpr void __cordl_internal_set_m_Multiline(bool value);
 
   /// @brief Method get_parentTextField, addr 0x2e294ec, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextField* get_parentTextField();

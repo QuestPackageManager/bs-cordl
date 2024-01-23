@@ -29,33 +29,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Tsp::TimeStampResp);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(317))
 // CS Name: ::Org.BouncyCastle.Asn1.Tsp::TimeStampResp*
 class CORDL_TYPE TimeStampResp : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field pkiStatusInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_pkiStatusInfo, put = __set_pkiStatusInfo))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo;
+  __declspec(property(get = __cordl_internal_get_pkiStatusInfo, put = __cordl_internal_set_pkiStatusInfo))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo;
 
   /// @brief Field timeStampToken, offset 0x18, size 0x8
-  __declspec(property(get = __get_timeStampToken, put = __set_timeStampToken))::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStampToken;
+  __declspec(property(get = __cordl_internal_get_timeStampToken, put = __cordl_internal_set_timeStampToken))::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStampToken;
 
   __declspec(property(get = get_Status))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* Status;
 
   __declspec(property(get = get_TimeStampToken))::Org::BouncyCastle::Asn1::Cms::ContentInfo* TimeStampToken;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*& __get_pkiStatusInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*& __cordl_internal_get_pkiStatusInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*> const& __get_pkiStatusInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*> const& __cordl_internal_get_pkiStatusInfo() const;
 
-  constexpr void __set_pkiStatusInfo(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* value);
+  constexpr void __cordl_internal_set_pkiStatusInfo(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __get_timeStampToken();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __cordl_internal_get_timeStampToken();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __get_timeStampToken() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __cordl_internal_get_timeStampToken() const;
 
-  constexpr void __set_timeStampToken(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
+  constexpr void __cordl_internal_set_timeStampToken(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
   /// @brief Method GetInstance, addr 0x1079878, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* GetInstance(::System::Object* obj);

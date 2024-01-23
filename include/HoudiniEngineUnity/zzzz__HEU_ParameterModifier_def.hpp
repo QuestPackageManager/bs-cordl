@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ParameterModifier);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9761))
 // CS Name: ::HEU_ParameterModifier::ModifierAction
 struct CORDL_TYPE __HEU_ParameterModifier__ModifierAction {
@@ -90,7 +90,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAc
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9761))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9761))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9762))
 // CS Name: ::HoudiniEngineUnity::HEU_ParameterModifier*
 class CORDL_TYPE HEU_ParameterModifier : public ::System::Object {
@@ -99,22 +99,22 @@ public:
   using ModifierAction = ::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction;
 
   /// @brief Field _parameterIndex, offset 0x10, size 0x4
-  __declspec(property(get = __get__parameterIndex, put = __set__parameterIndex)) int32_t _parameterIndex;
+  __declspec(property(get = __cordl_internal_get__parameterIndex, put = __cordl_internal_set__parameterIndex)) int32_t _parameterIndex;
 
   /// @brief Field _action, offset 0x14, size 0x4
-  __declspec(property(get = __get__action, put = __set__action))::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction _action;
+  __declspec(property(get = __cordl_internal_get__action, put = __cordl_internal_set__action))::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction _action;
 
   /// @brief Field _instanceIndex, offset 0x18, size 0x4
-  __declspec(property(get = __get__instanceIndex, put = __set__instanceIndex)) int32_t _instanceIndex;
+  __declspec(property(get = __cordl_internal_get__instanceIndex, put = __cordl_internal_set__instanceIndex)) int32_t _instanceIndex;
 
   /// @brief Field _modifierValue, offset 0x1c, size 0x4
-  __declspec(property(get = __get__modifierValue, put = __set__modifierValue)) int32_t _modifierValue;
+  __declspec(property(get = __cordl_internal_get__modifierValue, put = __cordl_internal_set__modifierValue)) int32_t _modifierValue;
 
   /// @brief Field _floatValue, offset 0x20, size 0x4
-  __declspec(property(get = __get__floatValue, put = __set__floatValue)) float_t _floatValue;
+  __declspec(property(get = __cordl_internal_get__floatValue, put = __cordl_internal_set__floatValue)) float_t _floatValue;
 
   /// @brief Field _intValue, offset 0x24, size 0x4
-  __declspec(property(get = __get__intValue, put = __set__intValue)) int32_t _intValue;
+  __declspec(property(get = __cordl_internal_get__intValue, put = __cordl_internal_set__intValue)) int32_t _intValue;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterModifier*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterModifier*>*() noexcept;
@@ -122,41 +122,41 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterModifier*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterModifier*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_ParameterModifier__() noexcept;
 
-  constexpr int32_t& __get__parameterIndex();
+  constexpr int32_t& __cordl_internal_get__parameterIndex();
 
-  constexpr int32_t const& __get__parameterIndex() const;
+  constexpr int32_t const& __cordl_internal_get__parameterIndex() const;
 
-  constexpr void __set__parameterIndex(int32_t value);
+  constexpr void __cordl_internal_set__parameterIndex(int32_t value);
 
-  constexpr ::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction& __get__action();
+  constexpr ::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction& __cordl_internal_get__action();
 
-  constexpr ::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction const& __get__action() const;
+  constexpr ::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction const& __cordl_internal_get__action() const;
 
-  constexpr void __set__action(::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction value);
+  constexpr void __cordl_internal_set__action(::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction value);
 
-  constexpr int32_t& __get__instanceIndex();
+  constexpr int32_t& __cordl_internal_get__instanceIndex();
 
-  constexpr int32_t const& __get__instanceIndex() const;
+  constexpr int32_t const& __cordl_internal_get__instanceIndex() const;
 
-  constexpr void __set__instanceIndex(int32_t value);
+  constexpr void __cordl_internal_set__instanceIndex(int32_t value);
 
-  constexpr int32_t& __get__modifierValue();
+  constexpr int32_t& __cordl_internal_get__modifierValue();
 
-  constexpr int32_t const& __get__modifierValue() const;
+  constexpr int32_t const& __cordl_internal_get__modifierValue() const;
 
-  constexpr void __set__modifierValue(int32_t value);
+  constexpr void __cordl_internal_set__modifierValue(int32_t value);
 
-  constexpr float_t& __get__floatValue();
+  constexpr float_t& __cordl_internal_get__floatValue();
 
-  constexpr float_t const& __get__floatValue() const;
+  constexpr float_t const& __cordl_internal_get__floatValue() const;
 
-  constexpr void __set__floatValue(float_t value);
+  constexpr void __cordl_internal_set__floatValue(float_t value);
 
-  constexpr int32_t& __get__intValue();
+  constexpr int32_t& __cordl_internal_get__intValue();
 
-  constexpr int32_t const& __get__intValue() const;
+  constexpr int32_t const& __cordl_internal_get__intValue() const;
 
-  constexpr void __set__intValue(int32_t value);
+  constexpr void __cordl_internal_set__intValue(int32_t value);
 
   /// @brief Method GetNewModifier, addr 0x2192d40, size 0x84, virtual false, abstract: false, final false
   static inline ::HoudiniEngineUnity::HEU_ParameterModifier* GetNewModifier(::HoudiniEngineUnity::__HEU_ParameterModifier__ModifierAction action, int32_t parameterIndex, int32_t instanceIndex,

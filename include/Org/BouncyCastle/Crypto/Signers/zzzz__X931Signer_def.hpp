@@ -32,29 +32,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::X931Signer);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1155))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::X931Signer*
 class CORDL_TYPE X931Signer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field digest, offset 0x10, size 0x8
-  __declspec(property(get = __get_digest, put = __set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
 
   /// @brief Field cipher, offset 0x18, size 0x8
-  __declspec(property(get = __get_cipher, put = __set_cipher))::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher;
 
   /// @brief Field kParam, offset 0x20, size 0x8
-  __declspec(property(get = __get_kParam, put = __set_kParam))::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* kParam;
+  __declspec(property(get = __cordl_internal_get_kParam, put = __cordl_internal_set_kParam))::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* kParam;
 
   /// @brief Field trailer, offset 0x28, size 0x4
-  __declspec(property(get = __get_trailer, put = __set_trailer)) int32_t trailer;
+  __declspec(property(get = __cordl_internal_get_trailer, put = __cordl_internal_set_trailer)) int32_t trailer;
 
   /// @brief Field keyBits, offset 0x2c, size 0x4
-  __declspec(property(get = __get_keyBits, put = __set_keyBits)) int32_t keyBits;
+  __declspec(property(get = __cordl_internal_get_keyBits, put = __cordl_internal_set_keyBits)) int32_t keyBits;
 
   /// @brief Field block, offset 0x30, size 0x8
-  __declspec(property(get = __get_block, put = __set_block))::ArrayW<uint8_t, ::Array<uint8_t>*> block;
+  __declspec(property(get = __cordl_internal_get_block, put = __cordl_internal_set_block))::ArrayW<uint8_t, ::Array<uint8_t>*> block;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -64,41 +64,41 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_digest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_digest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
 
-  constexpr void __set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& __get_cipher();
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& __cordl_internal_get_cipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*> const& __get_cipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*> const& __cordl_internal_get_cipher() const;
 
-  constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
+  constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __get_kParam();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __cordl_internal_get_kParam();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*> const& __get_kParam() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*> const& __cordl_internal_get_kParam() const;
 
-  constexpr void __set_kParam(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
+  constexpr void __cordl_internal_set_kParam(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
 
-  constexpr int32_t& __get_trailer();
+  constexpr int32_t& __cordl_internal_get_trailer();
 
-  constexpr int32_t const& __get_trailer() const;
+  constexpr int32_t const& __cordl_internal_get_trailer() const;
 
-  constexpr void __set_trailer(int32_t value);
+  constexpr void __cordl_internal_set_trailer(int32_t value);
 
-  constexpr int32_t& __get_keyBits();
+  constexpr int32_t& __cordl_internal_get_keyBits();
 
-  constexpr int32_t const& __get_keyBits() const;
+  constexpr int32_t const& __cordl_internal_get_keyBits() const;
 
-  constexpr void __set_keyBits(int32_t value);
+  constexpr void __cordl_internal_set_keyBits(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_block();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_block();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_block() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_block() const;
 
-  constexpr void __set_block(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_block(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::X931Signer* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* cipher, ::Org::BouncyCastle::Crypto::IDigest* digest, bool isImplicit);
 

@@ -23,38 +23,38 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Utility::DiagnosticInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Utility {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14100))
 // CS Name: ::UnityEngine.AddressableAssets.Utility::DiagnosticInfo*
 class CORDL_TYPE DiagnosticInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DisplayName, offset 0x10, size 0x8
-  __declspec(property(get = __get_DisplayName, put = __set_DisplayName))::StringW DisplayName;
+  __declspec(property(get = __cordl_internal_get_DisplayName, put = __cordl_internal_set_DisplayName))::StringW DisplayName;
 
   /// @brief Field ObjectId, offset 0x18, size 0x4
-  __declspec(property(get = __get_ObjectId, put = __set_ObjectId)) int32_t ObjectId;
+  __declspec(property(get = __cordl_internal_get_ObjectId, put = __cordl_internal_set_ObjectId)) int32_t ObjectId;
 
   /// @brief Field Dependencies, offset 0x20, size 0x8
-  __declspec(property(get = __get_Dependencies, put = __set_Dependencies))::ArrayW<int32_t, ::Array<int32_t>*> Dependencies;
+  __declspec(property(get = __cordl_internal_get_Dependencies, put = __cordl_internal_set_Dependencies))::ArrayW<int32_t, ::Array<int32_t>*> Dependencies;
 
-  constexpr ::StringW& __get_DisplayName();
+  constexpr ::StringW& __cordl_internal_get_DisplayName();
 
-  constexpr ::StringW const& __get_DisplayName() const;
+  constexpr ::StringW const& __cordl_internal_get_DisplayName() const;
 
-  constexpr void __set_DisplayName(::StringW value);
+  constexpr void __cordl_internal_set_DisplayName(::StringW value);
 
-  constexpr int32_t& __get_ObjectId();
+  constexpr int32_t& __cordl_internal_get_ObjectId();
 
-  constexpr int32_t const& __get_ObjectId() const;
+  constexpr int32_t const& __cordl_internal_get_ObjectId() const;
 
-  constexpr void __set_ObjectId(int32_t value);
+  constexpr void __cordl_internal_set_ObjectId(int32_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_Dependencies();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_Dependencies();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_Dependencies() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_Dependencies() const;
 
-  constexpr void __set_Dependencies(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_Dependencies(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   /// @brief Method CreateEvent, addr 0x2a28770, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent CreateEvent(::StringW category, ::UnityEngine::ResourceManagement::__ResourceManager__DiagnosticEventType eventType,

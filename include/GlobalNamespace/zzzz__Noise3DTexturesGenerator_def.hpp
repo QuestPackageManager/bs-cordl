@@ -42,7 +42,7 @@ MARK_VAL_T(::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsC
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15300))
 // CS Name: ::Noise3DTexturesGenerator::MaterialTextureParamsCouple
 struct CORDL_TYPE __Noise3DTexturesGenerator__MaterialTextureParamsCouple {
@@ -83,15 +83,15 @@ static_assert(offsetof(::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15301))
 // CS Name: ::Noise3DTexturesGenerator::MaterialPropertyNameCouple
 struct CORDL_TYPE __Noise3DTexturesGenerator__MaterialPropertyNameCouple {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "texturePropertyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "material", ty: "::UnityEngine::Material*", modifiers: "", def_value:
-  // None }]
-  constexpr __Noise3DTexturesGenerator__MaterialPropertyNameCouple(::StringW texturePropertyName, ::UnityEngine::Material* material) noexcept;
+  // Ctor Parameters [CppParam { name: "texturePropertyName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "",
+  // def_value: None }]
+  constexpr __Noise3DTexturesGenerator__MaterialPropertyNameCouple(::StringW texturePropertyName, ::UnityW<::UnityEngine::Material> material) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -101,7 +101,7 @@ public:
   ::StringW texturePropertyName;
 
   /// @brief Field material, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::Material* material;
+  ::UnityW<::UnityEngine::Material> material;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -120,7 +120,7 @@ static_assert(offsetof(::GlobalNamespace::__Noise3DTexturesGenerator__MaterialPr
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15302))
 // CS Name: ::Noise3DTexturesGenerator*
 class CORDL_TYPE Noise3DTexturesGenerator : public ::UnityEngine::MonoBehaviour {
@@ -131,23 +131,24 @@ public:
   using MaterialTextureParamsCouple = ::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple;
 
   /// @brief Field _data, offset 0x18, size 0x8
-  __declspec(property(get = __get__data, put = __set__data))::ArrayW<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple,
-                                                                     ::Array<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple>*> _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::ArrayW<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple,
+                                                                                                   ::Array<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple>*> _data;
 
   /// @brief Field _texture, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__texture, put = setStaticF__texture))::UnityEngine::Texture3D* _texture;
+  static __declspec(property(get = getStaticF__texture, put = setStaticF__texture))::UnityW<::UnityEngine::Texture3D> _texture;
 
-  constexpr ::ArrayW<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple, ::Array<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple>*>& __get__data();
+  constexpr ::ArrayW<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple, ::Array<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple>*>&
+  __cordl_internal_get__data();
 
   constexpr ::ArrayW<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple, ::Array<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple>*> const&
-  __get__data() const;
+  __cordl_internal_get__data() const;
 
-  constexpr void
-  __set__data(::ArrayW<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple, ::Array<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple>*> value);
+  constexpr void __cordl_internal_set__data(
+      ::ArrayW<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple, ::Array<::GlobalNamespace::__Noise3DTexturesGenerator__MaterialTextureParamsCouple>*> value);
 
-  static inline void setStaticF__texture(::UnityEngine::Texture3D* value);
+  static inline void setStaticF__texture(::UnityW<::UnityEngine::Texture3D> value);
 
-  static inline ::UnityEngine::Texture3D* getStaticF__texture();
+  static inline ::UnityW<::UnityEngine::Texture3D> getStaticF__texture();
 
   /// @brief Method Awake, addr 0x280afac, size 0x210, virtual false, abstract: false, final false
   inline void Awake();

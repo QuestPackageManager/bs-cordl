@@ -31,20 +31,20 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TAntecedentResult, typename TResult>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5126 }), TypeDefinitionIndex(TypeDefinitionIndex(2773))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5126 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2800))
 // CS Name: ::System.Threading.Tasks::ContinuationResultTaskFromResultTask`2<TAntecedentResult,TResult>*
 class CORDL_TYPE ContinuationResultTaskFromResultTask_2 : public ::System::Threading::Tasks::Task_1<TResult> {
 public:
   // Declarations
   /// @brief Field m_antecedent, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_antecedent, put = __set_m_antecedent))::System::Threading::Tasks::Task_1<TAntecedentResult>* m_antecedent;
+  __declspec(property(get = __cordl_internal_get_m_antecedent, put = __cordl_internal_set_m_antecedent))::System::Threading::Tasks::Task_1<TAntecedentResult>* m_antecedent;
 
-  constexpr ::System::Threading::Tasks::Task_1<TAntecedentResult>*& __get_m_antecedent();
+  constexpr ::System::Threading::Tasks::Task_1<TAntecedentResult>*& __cordl_internal_get_m_antecedent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<TAntecedentResult>*> const& __get_m_antecedent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<TAntecedentResult>*> const& __cordl_internal_get_m_antecedent() const;
 
-  constexpr void __set_m_antecedent(::System::Threading::Tasks::Task_1<TAntecedentResult>* value);
+  constexpr void __cordl_internal_set_m_antecedent(::System::Threading::Tasks::Task_1<TAntecedentResult>* value);
 
   static inline ::System::Threading::Tasks::ContinuationResultTaskFromResultTask_2<TAntecedentResult, TResult>* New_ctor(::System::Threading::Tasks::Task_1<TAntecedentResult>* antecedent,
                                                                                                                          ::System::Delegate* function, ::System::Object* state,

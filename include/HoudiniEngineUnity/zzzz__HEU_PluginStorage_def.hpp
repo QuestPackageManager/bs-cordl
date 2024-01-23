@@ -54,7 +54,7 @@ MARK_GEN_REF_PTR_T(::HoudiniEngineUnity::__HEU_PluginStorage__StoreDataArray_1);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9677))
 // CS Name: ::HEU_PluginStorage::DataType
 struct CORDL_TYPE __HEU_PluginStorage__DataType {
@@ -116,29 +116,29 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_PluginStorage__DataType, valu
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9677))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9677))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9678))
 // CS Name: ::HEU_PluginStorage::StoreData*
 class CORDL_TYPE __HEU_PluginStorage__StoreData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _type, offset 0x10, size 0x4
-  __declspec(property(get = __get__type, put = __set__type))::HoudiniEngineUnity::__HEU_PluginStorage__DataType _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::HoudiniEngineUnity::__HEU_PluginStorage__DataType _type;
 
   /// @brief Field _valueStr, offset 0x18, size 0x8
-  __declspec(property(get = __get__valueStr, put = __set__valueStr))::StringW _valueStr;
+  __declspec(property(get = __cordl_internal_get__valueStr, put = __cordl_internal_set__valueStr))::StringW _valueStr;
 
-  constexpr ::HoudiniEngineUnity::__HEU_PluginStorage__DataType& __get__type();
+  constexpr ::HoudiniEngineUnity::__HEU_PluginStorage__DataType& __cordl_internal_get__type();
 
-  constexpr ::HoudiniEngineUnity::__HEU_PluginStorage__DataType const& __get__type() const;
+  constexpr ::HoudiniEngineUnity::__HEU_PluginStorage__DataType const& __cordl_internal_get__type() const;
 
-  constexpr void __set__type(::HoudiniEngineUnity::__HEU_PluginStorage__DataType value);
+  constexpr void __cordl_internal_set__type(::HoudiniEngineUnity::__HEU_PluginStorage__DataType value);
 
-  constexpr ::StringW& __get__valueStr();
+  constexpr ::StringW& __cordl_internal_get__valueStr();
 
-  constexpr ::StringW const& __get__valueStr() const;
+  constexpr ::StringW const& __cordl_internal_get__valueStr() const;
 
-  constexpr void __set__valueStr(::StringW value);
+  constexpr void __cordl_internal_set__valueStr(::StringW value);
 
   static inline ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData* New_ctor();
 
@@ -181,20 +181,20 @@ namespace HoudiniEngineUnity {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9679))
 // CS Name: ::HEU_PluginStorage::StoreDataArray`1<T>*
 class CORDL_TYPE __HEU_PluginStorage__StoreDataArray_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _array, offset 0x10, size 0x8
-  __declspec(property(get = __get__array, put = __set__array))::ArrayW<T, ::Array<T>*> _array;
+  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::ArrayW<T, ::Array<T>*> _array;
 
-  constexpr ::ArrayW<T, ::Array<T>*>& __get__array();
+  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__array();
 
-  constexpr ::ArrayW<T, ::Array<T>*> const& __get__array() const;
+  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__array() const;
 
-  constexpr void __set__array(::ArrayW<T, ::Array<T>*> value);
+  constexpr void __cordl_internal_set__array(::ArrayW<T, ::Array<T>*> value);
 
   static inline ::HoudiniEngineUnity::__HEU_PluginStorage__StoreDataArray_1<T>* New_ctor();
 
@@ -226,7 +226,7 @@ public:
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9680))
 // CS Name: ::HoudiniEngineUnity::HEU_PluginStorage*
 class CORDL_TYPE HEU_PluginStorage : public ::System::Object {
@@ -239,36 +239,38 @@ public:
   using DataType = ::HoudiniEngineUnity::__HEU_PluginStorage__DataType;
 
   /// @brief Field _dataMap, offset 0x10, size 0x8
-  __declspec(property(get = __get__dataMap, put = __set__dataMap))::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData*>* _dataMap;
+  __declspec(property(get = __cordl_internal_get__dataMap,
+                      put = __cordl_internal_set__dataMap))::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData*>* _dataMap;
 
   /// @brief Field _envPathMap, offset 0x18, size 0x8
-  __declspec(property(get = __get__envPathMap, put = __set__envPathMap))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _envPathMap;
+  __declspec(property(get = __cordl_internal_get__envPathMap, put = __cordl_internal_set__envPathMap))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _envPathMap;
 
   /// @brief Field _requiresSave, offset 0x20, size 0x1
-  __declspec(property(get = __get__requiresSave, put = __set__requiresSave)) bool _requiresSave;
+  __declspec(property(get = __cordl_internal_get__requiresSave, put = __cordl_internal_set__requiresSave)) bool _requiresSave;
 
   /// @brief Field _instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__instance, put = setStaticF__instance))::HoudiniEngineUnity::HEU_PluginStorage* _instance;
 
   __declspec(property(get = get_RequiresSave)) bool RequiresSave;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData*>*& __get__dataMap();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData*>*& __cordl_internal_get__dataMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData*>*> const& __get__dataMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData*>*> const&
+  __cordl_internal_get__dataMap() const;
 
-  constexpr void __set__dataMap(::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData*>* value);
+  constexpr void __cordl_internal_set__dataMap(::System::Collections::Generic::Dictionary_2<::StringW, ::HoudiniEngineUnity::__HEU_PluginStorage__StoreData*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __get__envPathMap();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*& __cordl_internal_get__envPathMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> const& __get__envPathMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*> const& __cordl_internal_get__envPathMap() const;
 
-  constexpr void __set__envPathMap(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
+  constexpr void __cordl_internal_set__envPathMap(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
 
-  constexpr bool& __get__requiresSave();
+  constexpr bool& __cordl_internal_get__requiresSave();
 
-  constexpr bool const& __get__requiresSave() const;
+  constexpr bool const& __cordl_internal_get__requiresSave() const;
 
-  constexpr void __set__requiresSave(bool value);
+  constexpr void __cordl_internal_set__requiresSave(bool value);
 
   static inline void setStaticF__instance(::HoudiniEngineUnity::HEU_PluginStorage* value);
 

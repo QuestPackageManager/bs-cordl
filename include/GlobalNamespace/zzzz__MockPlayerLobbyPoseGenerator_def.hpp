@@ -23,17 +23,19 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerLobbyPoseGenerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15522))
 // CS Name: ::MockPlayerLobbyPoseGenerator*
 class CORDL_TYPE MockPlayerLobbyPoseGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field multiplayerSessionManager, offset 0x10, size 0x8
-  __declspec(property(get = __get_multiplayerSessionManager, put = __set_multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get_multiplayerSessionManager,
+                      put = __cordl_internal_set_multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
 
   /// @brief Field mockNodePoseSyncStateSender, offset 0x18, size 0x8
-  __declspec(property(get = __get_mockNodePoseSyncStateSender, put = __set_mockNodePoseSyncStateSender))::GlobalNamespace::MockNodePoseSyncStateSender* mockNodePoseSyncStateSender;
+  __declspec(property(get = __cordl_internal_get_mockNodePoseSyncStateSender,
+                      put = __cordl_internal_set_mockNodePoseSyncStateSender))::GlobalNamespace::MockNodePoseSyncStateSender* mockNodePoseSyncStateSender;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -41,17 +43,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get_multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get_multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get_multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get_multiplayerSessionManager() const;
 
-  constexpr void __set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr ::GlobalNamespace::MockNodePoseSyncStateSender*& __get_mockNodePoseSyncStateSender();
+  constexpr ::GlobalNamespace::MockNodePoseSyncStateSender*& __cordl_internal_get_mockNodePoseSyncStateSender();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockNodePoseSyncStateSender*> const& __get_mockNodePoseSyncStateSender() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockNodePoseSyncStateSender*> const& __cordl_internal_get_mockNodePoseSyncStateSender() const;
 
-  constexpr void __set_mockNodePoseSyncStateSender(::GlobalNamespace::MockNodePoseSyncStateSender* value);
+  constexpr void __cordl_internal_set_mockNodePoseSyncStateSender(::GlobalNamespace::MockNodePoseSyncStateSender* value);
 
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGenerator* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 

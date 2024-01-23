@@ -20,94 +20,94 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::Sha512tDigest);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(756))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(756))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(772))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::Sha512tDigest*
 class CORDL_TYPE Sha512tDigest : public ::Org::BouncyCastle::Crypto::Digests::LongDigest {
 public:
   // Declarations
   /// @brief Field digestLength, offset 0x84, size 0x4
-  __declspec(property(get = __get_digestLength, put = __set_digestLength)) int32_t digestLength;
+  __declspec(property(get = __cordl_internal_get_digestLength, put = __cordl_internal_set_digestLength)) int32_t digestLength;
 
   /// @brief Field H1t, offset 0x88, size 0x8
-  __declspec(property(get = __get_H1t, put = __set_H1t)) uint64_t H1t;
+  __declspec(property(get = __cordl_internal_get_H1t, put = __cordl_internal_set_H1t)) uint64_t H1t;
 
   /// @brief Field H2t, offset 0x90, size 0x8
-  __declspec(property(get = __get_H2t, put = __set_H2t)) uint64_t H2t;
+  __declspec(property(get = __cordl_internal_get_H2t, put = __cordl_internal_set_H2t)) uint64_t H2t;
 
   /// @brief Field H3t, offset 0x98, size 0x8
-  __declspec(property(get = __get_H3t, put = __set_H3t)) uint64_t H3t;
+  __declspec(property(get = __cordl_internal_get_H3t, put = __cordl_internal_set_H3t)) uint64_t H3t;
 
   /// @brief Field H4t, offset 0xa0, size 0x8
-  __declspec(property(get = __get_H4t, put = __set_H4t)) uint64_t H4t;
+  __declspec(property(get = __cordl_internal_get_H4t, put = __cordl_internal_set_H4t)) uint64_t H4t;
 
   /// @brief Field H5t, offset 0xa8, size 0x8
-  __declspec(property(get = __get_H5t, put = __set_H5t)) uint64_t H5t;
+  __declspec(property(get = __cordl_internal_get_H5t, put = __cordl_internal_set_H5t)) uint64_t H5t;
 
   /// @brief Field H6t, offset 0xb0, size 0x8
-  __declspec(property(get = __get_H6t, put = __set_H6t)) uint64_t H6t;
+  __declspec(property(get = __cordl_internal_get_H6t, put = __cordl_internal_set_H6t)) uint64_t H6t;
 
   /// @brief Field H7t, offset 0xb8, size 0x8
-  __declspec(property(get = __get_H7t, put = __set_H7t)) uint64_t H7t;
+  __declspec(property(get = __cordl_internal_get_H7t, put = __cordl_internal_set_H7t)) uint64_t H7t;
 
   /// @brief Field H8t, offset 0xc0, size 0x8
-  __declspec(property(get = __get_H8t, put = __set_H8t)) uint64_t H8t;
+  __declspec(property(get = __cordl_internal_get_H8t, put = __cordl_internal_set_H8t)) uint64_t H8t;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
-  constexpr int32_t& __get_digestLength();
+  constexpr int32_t& __cordl_internal_get_digestLength();
 
-  constexpr int32_t const& __get_digestLength() const;
+  constexpr int32_t const& __cordl_internal_get_digestLength() const;
 
-  constexpr void __set_digestLength(int32_t value);
+  constexpr void __cordl_internal_set_digestLength(int32_t value);
 
-  constexpr uint64_t& __get_H1t();
+  constexpr uint64_t& __cordl_internal_get_H1t();
 
-  constexpr uint64_t const& __get_H1t() const;
+  constexpr uint64_t const& __cordl_internal_get_H1t() const;
 
-  constexpr void __set_H1t(uint64_t value);
+  constexpr void __cordl_internal_set_H1t(uint64_t value);
 
-  constexpr uint64_t& __get_H2t();
+  constexpr uint64_t& __cordl_internal_get_H2t();
 
-  constexpr uint64_t const& __get_H2t() const;
+  constexpr uint64_t const& __cordl_internal_get_H2t() const;
 
-  constexpr void __set_H2t(uint64_t value);
+  constexpr void __cordl_internal_set_H2t(uint64_t value);
 
-  constexpr uint64_t& __get_H3t();
+  constexpr uint64_t& __cordl_internal_get_H3t();
 
-  constexpr uint64_t const& __get_H3t() const;
+  constexpr uint64_t const& __cordl_internal_get_H3t() const;
 
-  constexpr void __set_H3t(uint64_t value);
+  constexpr void __cordl_internal_set_H3t(uint64_t value);
 
-  constexpr uint64_t& __get_H4t();
+  constexpr uint64_t& __cordl_internal_get_H4t();
 
-  constexpr uint64_t const& __get_H4t() const;
+  constexpr uint64_t const& __cordl_internal_get_H4t() const;
 
-  constexpr void __set_H4t(uint64_t value);
+  constexpr void __cordl_internal_set_H4t(uint64_t value);
 
-  constexpr uint64_t& __get_H5t();
+  constexpr uint64_t& __cordl_internal_get_H5t();
 
-  constexpr uint64_t const& __get_H5t() const;
+  constexpr uint64_t const& __cordl_internal_get_H5t() const;
 
-  constexpr void __set_H5t(uint64_t value);
+  constexpr void __cordl_internal_set_H5t(uint64_t value);
 
-  constexpr uint64_t& __get_H6t();
+  constexpr uint64_t& __cordl_internal_get_H6t();
 
-  constexpr uint64_t const& __get_H6t() const;
+  constexpr uint64_t const& __cordl_internal_get_H6t() const;
 
-  constexpr void __set_H6t(uint64_t value);
+  constexpr void __cordl_internal_set_H6t(uint64_t value);
 
-  constexpr uint64_t& __get_H7t();
+  constexpr uint64_t& __cordl_internal_get_H7t();
 
-  constexpr uint64_t const& __get_H7t() const;
+  constexpr uint64_t const& __cordl_internal_get_H7t() const;
 
-  constexpr void __set_H7t(uint64_t value);
+  constexpr void __cordl_internal_set_H7t(uint64_t value);
 
-  constexpr uint64_t& __get_H8t();
+  constexpr uint64_t& __cordl_internal_get_H8t();
 
-  constexpr uint64_t const& __get_H8t() const;
+  constexpr uint64_t const& __cordl_internal_get_H8t() const;
 
-  constexpr void __set_H8t(uint64_t value);
+  constexpr void __cordl_internal_set_H8t(uint64_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Sha512tDigest* New_ctor(int32_t bitLength);
 

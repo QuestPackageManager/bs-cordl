@@ -19,7 +19,7 @@ MARK_VAL_T(::UnityEngine::CachedAssetBundle);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10261))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10261))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10144))
 // CS Name: ::UnityEngine::CachedAssetBundle
 struct CORDL_TYPE CachedAssetBundle {

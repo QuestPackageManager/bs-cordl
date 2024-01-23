@@ -33,110 +33,111 @@ MARK_REF_PTR_T(::GlobalNamespace::SongProgressUIController);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5048))
 // CS Name: ::SongProgressUIController*
 class CORDL_TYPE SongProgressUIController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _slider, offset 0x18, size 0x8
-  __declspec(property(get = __get__slider, put = __set__slider))::UnityEngine::UI::Slider* _slider;
+  __declspec(property(get = __cordl_internal_get__slider, put = __cordl_internal_set__slider))::UnityW<::UnityEngine::UI::Slider> _slider;
 
   /// @brief Field _progressImage, offset 0x20, size 0x8
-  __declspec(property(get = __get__progressImage, put = __set__progressImage))::UnityEngine::UI::Image* _progressImage;
+  __declspec(property(get = __cordl_internal_get__progressImage, put = __cordl_internal_set__progressImage))::UnityW<::UnityEngine::UI::Image> _progressImage;
 
   /// @brief Field _durationMinutesText, offset 0x28, size 0x8
-  __declspec(property(get = __get__durationMinutesText, put = __set__durationMinutesText))::TMPro::TextMeshProUGUI* _durationMinutesText;
+  __declspec(property(get = __cordl_internal_get__durationMinutesText, put = __cordl_internal_set__durationMinutesText))::UnityW<::TMPro::TextMeshProUGUI> _durationMinutesText;
 
   /// @brief Field _durationSecondsText, offset 0x30, size 0x8
-  __declspec(property(get = __get__durationSecondsText, put = __set__durationSecondsText))::TMPro::TextMeshProUGUI* _durationSecondsText;
+  __declspec(property(get = __cordl_internal_get__durationSecondsText, put = __cordl_internal_set__durationSecondsText))::UnityW<::TMPro::TextMeshProUGUI> _durationSecondsText;
 
   /// @brief Field _progressMinutesText, offset 0x38, size 0x8
-  __declspec(property(get = __get__progressMinutesText, put = __set__progressMinutesText))::TMPro::TextMeshProUGUI* _progressMinutesText;
+  __declspec(property(get = __cordl_internal_get__progressMinutesText, put = __cordl_internal_set__progressMinutesText))::UnityW<::TMPro::TextMeshProUGUI> _progressMinutesText;
 
   /// @brief Field _progressSecondsText, offset 0x40, size 0x8
-  __declspec(property(get = __get__progressSecondsText, put = __set__progressSecondsText))::TMPro::TextMeshProUGUI* _progressSecondsText;
+  __declspec(property(get = __cordl_internal_get__progressSecondsText, put = __cordl_internal_set__progressSecondsText))::UnityW<::TMPro::TextMeshProUGUI> _progressSecondsText;
 
   /// @brief Field _audioTimeSource, offset 0x48, size 0x8
-  __declspec(property(get = __get__audioTimeSource, put = __set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
   /// @brief Field _prevMinutes, offset 0x50, size 0x4
-  __declspec(property(get = __get__prevMinutes, put = __set__prevMinutes)) int32_t _prevMinutes;
+  __declspec(property(get = __cordl_internal_get__prevMinutes, put = __cordl_internal_set__prevMinutes)) int32_t _prevMinutes;
 
   /// @brief Field _prevSeconds, offset 0x54, size 0x4
-  __declspec(property(get = __get__prevSeconds, put = __set__prevSeconds)) int32_t _prevSeconds;
+  __declspec(property(get = __cordl_internal_get__prevSeconds, put = __cordl_internal_set__prevSeconds)) int32_t _prevSeconds;
 
   /// @brief Field _stringBuilder, offset 0x58, size 0x8
-  __declspec(property(get = __get__stringBuilder, put = __set__stringBuilder))::System::Text::StringBuilder* _stringBuilder;
+  __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder))::System::Text::StringBuilder* _stringBuilder;
 
   /// @brief Field _progressImageRectTransform, offset 0x60, size 0x8
-  __declspec(property(get = __get__progressImageRectTransform, put = __set__progressImageRectTransform))::UnityEngine::RectTransform* _progressImageRectTransform;
+  __declspec(property(get = __cordl_internal_get__progressImageRectTransform,
+                      put = __cordl_internal_set__progressImageRectTransform))::UnityW<::UnityEngine::RectTransform> _progressImageRectTransform;
 
-  constexpr ::UnityEngine::UI::Slider*& __get__slider();
+  constexpr ::UnityW<::UnityEngine::UI::Slider>& __cordl_internal_get__slider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Slider*> const& __get__slider() const;
+  constexpr ::UnityW<::UnityEngine::UI::Slider> const& __cordl_internal_get__slider() const;
 
-  constexpr void __set__slider(::UnityEngine::UI::Slider* value);
+  constexpr void __cordl_internal_set__slider(::UnityW<::UnityEngine::UI::Slider> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__progressImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__progressImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__progressImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__progressImage() const;
 
-  constexpr void __set__progressImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__progressImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__durationMinutesText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__durationMinutesText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__durationMinutesText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__durationMinutesText() const;
 
-  constexpr void __set__durationMinutesText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__durationMinutesText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__durationSecondsText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__durationSecondsText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__durationSecondsText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__durationSecondsText() const;
 
-  constexpr void __set__durationSecondsText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__durationSecondsText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__progressMinutesText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__progressMinutesText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__progressMinutesText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__progressMinutesText() const;
 
-  constexpr void __set__progressMinutesText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__progressMinutesText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__progressSecondsText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__progressSecondsText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__progressSecondsText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__progressSecondsText() const;
 
-  constexpr void __set__progressSecondsText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__progressSecondsText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __get__audioTimeSource();
+  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __get__audioTimeSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  constexpr int32_t& __get__prevMinutes();
+  constexpr int32_t& __cordl_internal_get__prevMinutes();
 
-  constexpr int32_t const& __get__prevMinutes() const;
+  constexpr int32_t const& __cordl_internal_get__prevMinutes() const;
 
-  constexpr void __set__prevMinutes(int32_t value);
+  constexpr void __cordl_internal_set__prevMinutes(int32_t value);
 
-  constexpr int32_t& __get__prevSeconds();
+  constexpr int32_t& __cordl_internal_get__prevSeconds();
 
-  constexpr int32_t const& __get__prevSeconds() const;
+  constexpr int32_t const& __cordl_internal_get__prevSeconds() const;
 
-  constexpr void __set__prevSeconds(int32_t value);
+  constexpr void __cordl_internal_set__prevSeconds(int32_t value);
 
-  constexpr ::System::Text::StringBuilder*& __get__stringBuilder();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__stringBuilder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get__stringBuilder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__stringBuilder() const;
 
-  constexpr void __set__stringBuilder(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__progressImageRectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__progressImageRectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__progressImageRectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__progressImageRectTransform() const;
 
-  constexpr void __set__progressImageRectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__progressImageRectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
   /// @brief Method Start, addr 0x23c32f8, size 0x1a4, virtual false, abstract: false, final false
   inline void Start();
@@ -164,22 +165,22 @@ protected:
 
 public:
   /// @brief Field _slider, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Slider* ____slider;
+  ::UnityW<::UnityEngine::UI::Slider> ____slider;
 
   /// @brief Field _progressImage, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____progressImage;
+  ::UnityW<::UnityEngine::UI::Image> ____progressImage;
 
   /// @brief Field _durationMinutesText, offset: 0x28, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____durationMinutesText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____durationMinutesText;
 
   /// @brief Field _durationSecondsText, offset: 0x30, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____durationSecondsText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____durationSecondsText;
 
   /// @brief Field _progressMinutesText, offset: 0x38, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____progressMinutesText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____progressMinutesText;
 
   /// @brief Field _progressSecondsText, offset: 0x40, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____progressSecondsText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____progressSecondsText;
 
   /// @brief Field _audioTimeSource, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
@@ -194,7 +195,7 @@ public:
   ::System::Text::StringBuilder* ____stringBuilder;
 
   /// @brief Field _progressImageRectTransform, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____progressImageRectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ____progressImageRectTransform;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,17 +21,17 @@ MARK_REF_PTR_T(::GlobalNamespace::BakedLightDataLoader);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5851))
 // CS Name: ::BakedLightDataLoader*
 class CORDL_TYPE BakedLightDataLoader : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _lightmapData, offset 0x18, size 0x8
-  __declspec(property(get = __get__lightmapData, put = __set__lightmapData))::GlobalNamespace::LightmapDataSO* _lightmapData;
+  __declspec(property(get = __cordl_internal_get__lightmapData, put = __cordl_internal_set__lightmapData))::UnityW<::GlobalNamespace::LightmapDataSO> _lightmapData;
 
   /// @brief Field _blackTexture, offset 0x20, size 0x8
-  __declspec(property(get = __get__blackTexture, put = __set__blackTexture))::UnityEngine::Texture2D* _blackTexture;
+  __declspec(property(get = __cordl_internal_get__blackTexture, put = __cordl_internal_set__blackTexture))::UnityW<::UnityEngine::Texture2D> _blackTexture;
 
   /// @brief Field _lightMap1PropertyId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__lightMap1PropertyId, put = setStaticF__lightMap1PropertyId)) int32_t _lightMap1PropertyId;
@@ -39,19 +39,19 @@ public:
   /// @brief Field _lightMap2PropertyId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__lightMap2PropertyId, put = setStaticF__lightMap2PropertyId)) int32_t _lightMap2PropertyId;
 
-  __declspec(property(get = get_lightmapData, put = set_lightmapData))::GlobalNamespace::LightmapDataSO* lightmapData;
+  __declspec(property(get = get_lightmapData, put = set_lightmapData))::UnityW<::GlobalNamespace::LightmapDataSO> lightmapData;
 
-  constexpr ::GlobalNamespace::LightmapDataSO*& __get__lightmapData();
+  constexpr ::UnityW<::GlobalNamespace::LightmapDataSO>& __cordl_internal_get__lightmapData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightmapDataSO*> const& __get__lightmapData() const;
+  constexpr ::UnityW<::GlobalNamespace::LightmapDataSO> const& __cordl_internal_get__lightmapData() const;
 
-  constexpr void __set__lightmapData(::GlobalNamespace::LightmapDataSO* value);
+  constexpr void __cordl_internal_set__lightmapData(::UnityW<::GlobalNamespace::LightmapDataSO> value);
 
-  constexpr ::UnityEngine::Texture2D*& __get__blackTexture();
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__blackTexture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& __get__blackTexture() const;
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__blackTexture() const;
 
-  constexpr void __set__blackTexture(::UnityEngine::Texture2D* value);
+  constexpr void __cordl_internal_set__blackTexture(::UnityW<::UnityEngine::Texture2D> value);
 
   static inline void setStaticF__lightMap1PropertyId(int32_t value);
 
@@ -62,7 +62,7 @@ public:
   static inline int32_t getStaticF__lightMap2PropertyId();
 
   /// @brief Method get_lightmapData, addr 0x22f570c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::LightmapDataSO* get_lightmapData();
+  inline ::UnityW<::GlobalNamespace::LightmapDataSO> get_lightmapData();
 
   /// @brief Method set_lightmapData, addr 0x22f5714, size 0x8, virtual false, abstract: false, final false
   inline void set_lightmapData(::GlobalNamespace::LightmapDataSO* value);
@@ -93,10 +93,10 @@ protected:
 
 public:
   /// @brief Field _lightmapData, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::LightmapDataSO* ____lightmapData;
+  ::UnityW<::GlobalNamespace::LightmapDataSO> ____lightmapData;
 
   /// @brief Field _blackTexture, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Texture2D* ____blackTexture;
+  ::UnityW<::UnityEngine::Texture2D> ____blackTexture;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

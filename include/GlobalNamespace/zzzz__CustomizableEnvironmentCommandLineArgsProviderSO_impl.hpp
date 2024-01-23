@@ -11,10 +11,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x174;
   constexpr static std::size_t addrs = 0x2304f68;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO*>::get(),
-                                                 "GetCommandLineArgs", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "GetCommandLineArgs", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -26,10 +26,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23050e4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -41,39 +41,39 @@ constexpr GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::ope
 constexpr ::GlobalNamespace::ICommandLineArgsProvider* GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::i___GlobalNamespace__ICommandLineArgsProvider() noexcept {
   return static_cast<::GlobalNamespace::ICommandLineArgsProvider*>(static_cast<void*>(this));
 }
-constexpr bool& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__get__useCustomCommandLineArgs() {
+constexpr bool& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__cordl_internal_get__useCustomCommandLineArgs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useCustomCommandLineArgs;
 }
-constexpr bool const& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__get__useCustomCommandLineArgs() const {
+constexpr bool const& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__cordl_internal_get__useCustomCommandLineArgs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useCustomCommandLineArgs;
 }
-constexpr void GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__set__useCustomCommandLineArgs(bool value) {
+constexpr void GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__cordl_internal_set__useCustomCommandLineArgs(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useCustomCommandLineArgs = value;
 }
-constexpr bool& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__get__useEnvironmentCommandLineArgs() {
+constexpr bool& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__cordl_internal_get__useEnvironmentCommandLineArgs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useEnvironmentCommandLineArgs;
 }
-constexpr bool const& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__get__useEnvironmentCommandLineArgs() const {
+constexpr bool const& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__cordl_internal_get__useEnvironmentCommandLineArgs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useEnvironmentCommandLineArgs;
 }
-constexpr void GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__set__useEnvironmentCommandLineArgs(bool value) {
+constexpr void GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__cordl_internal_set__useEnvironmentCommandLineArgs(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useEnvironmentCommandLineArgs = value;
 }
-constexpr ::StringW& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__get__customCommandLineArgs() {
+constexpr ::StringW& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__cordl_internal_get__customCommandLineArgs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customCommandLineArgs;
 }
-constexpr ::StringW const& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__get__customCommandLineArgs() const {
+constexpr ::StringW const& GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__cordl_internal_get__customCommandLineArgs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____customCommandLineArgs;
 }
-constexpr void GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__set__customCommandLineArgs(::StringW value) {
+constexpr void GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::__cordl_internal_set__customCommandLineArgs(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____customCommandLineArgs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -89,16 +89,16 @@ inline ::GlobalNamespace::EnvironmentCommandLineArgsProvider* GlobalNamespace::C
 inline ::ArrayW<::StringW, ::Array<::StringW>*> GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::GetCommandLineArgs() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO*>::get(),
-                                               "GetCommandLineArgs", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "GetCommandLineArgs", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW, ::Array<::StringW>*>, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO* GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO*>());
 }
 inline void GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomizableEnvironmentCommandLineArgsProviderSO*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

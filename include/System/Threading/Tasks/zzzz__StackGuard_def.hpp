@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::System::Threading::Tasks::StackGuard);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2793))
 // CS Name: ::System.Threading.Tasks::StackGuard*
 class CORDL_TYPE StackGuard : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_inliningDepth, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_inliningDepth, put = __set_m_inliningDepth)) int32_t m_inliningDepth;
+  __declspec(property(get = __cordl_internal_get_m_inliningDepth, put = __cordl_internal_set_m_inliningDepth)) int32_t m_inliningDepth;
 
-  constexpr int32_t& __get_m_inliningDepth();
+  constexpr int32_t& __cordl_internal_get_m_inliningDepth();
 
-  constexpr int32_t const& __get_m_inliningDepth() const;
+  constexpr int32_t const& __cordl_internal_get_m_inliningDepth() const;
 
-  constexpr void __set_m_inliningDepth(int32_t value);
+  constexpr void __cordl_internal_set_m_inliningDepth(int32_t value);
 
   /// @brief Method TryBeginInliningScope, addr 0x262b39c, size 0x40, virtual false, abstract: false, final false
   inline bool TryBeginInliningScope();

@@ -22,40 +22,42 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::PointerDispatchState);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6775))
 // CS Name: ::UnityEngine.UIElements::PointerDispatchState*
 class CORDL_TYPE PointerDispatchState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_PendingPointerCapture, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_PendingPointerCapture,
-                      put = __set_m_PendingPointerCapture))::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> m_PendingPointerCapture;
+  __declspec(
+      property(get = __cordl_internal_get_m_PendingPointerCapture,
+               put = __cordl_internal_set_m_PendingPointerCapture))::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> m_PendingPointerCapture;
 
   /// @brief Field m_PointerCapture, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_PointerCapture,
-                      put = __set_m_PointerCapture))::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> m_PointerCapture;
+  __declspec(property(get = __cordl_internal_get_m_PointerCapture,
+                      put = __cordl_internal_set_m_PointerCapture))::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> m_PointerCapture;
 
   /// @brief Field m_ShouldSendCompatibilityMouseEvents, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_ShouldSendCompatibilityMouseEvents, put = __set_m_ShouldSendCompatibilityMouseEvents))::ArrayW<bool, ::Array<bool>*> m_ShouldSendCompatibilityMouseEvents;
+  __declspec(property(get = __cordl_internal_get_m_ShouldSendCompatibilityMouseEvents,
+                      put = __cordl_internal_set_m_ShouldSendCompatibilityMouseEvents))::ArrayW<bool, ::Array<bool>*> m_ShouldSendCompatibilityMouseEvents;
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*>& __get_m_PendingPointerCapture();
+  constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*>& __cordl_internal_get_m_PendingPointerCapture();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> const& __get_m_PendingPointerCapture() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> const& __cordl_internal_get_m_PendingPointerCapture() const;
 
-  constexpr void __set_m_PendingPointerCapture(::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> value);
+  constexpr void __cordl_internal_set_m_PendingPointerCapture(::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*>& __get_m_PointerCapture();
+  constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*>& __cordl_internal_get_m_PointerCapture();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> const& __get_m_PointerCapture() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> const& __cordl_internal_get_m_PointerCapture() const;
 
-  constexpr void __set_m_PointerCapture(::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> value);
+  constexpr void __cordl_internal_set_m_PointerCapture(::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get_m_ShouldSendCompatibilityMouseEvents();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get_m_ShouldSendCompatibilityMouseEvents();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get_m_ShouldSendCompatibilityMouseEvents() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_m_ShouldSendCompatibilityMouseEvents() const;
 
-  constexpr void __set_m_ShouldSendCompatibilityMouseEvents(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set_m_ShouldSendCompatibilityMouseEvents(::ArrayW<bool, ::Array<bool>*> value);
 
   static inline ::UnityEngine::UIElements::PointerDispatchState* New_ctor();
 

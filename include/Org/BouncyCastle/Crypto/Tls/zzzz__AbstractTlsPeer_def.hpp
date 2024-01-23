@@ -31,14 +31,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::AbstractTlsPeer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1163))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::AbstractTlsPeer*
 class CORDL_TYPE AbstractTlsPeer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mCloseHandle, offset 0x10, size 0x8
-  __declspec(property(get = __get_mCloseHandle, put = __set_mCloseHandle))::Org::BouncyCastle::Crypto::Tls::TlsCloseable* mCloseHandle;
+  __declspec(property(get = __cordl_internal_get_mCloseHandle, put = __cordl_internal_set_mCloseHandle))::Org::BouncyCastle::Crypto::Tls::TlsCloseable* mCloseHandle;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsPeer"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsPeer*() noexcept;
@@ -46,11 +46,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsPeer"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPeer* i___Org__BouncyCastle__Crypto__Tls__TlsPeer() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCloseable*& __get_mCloseHandle();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCloseable*& __cordl_internal_get_mCloseHandle();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCloseable*> const& __get_mCloseHandle() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCloseable*> const& __cordl_internal_get_mCloseHandle() const;
 
-  constexpr void __set_mCloseHandle(::Org::BouncyCastle::Crypto::Tls::TlsCloseable* value);
+  constexpr void __cordl_internal_set_mCloseHandle(::Org::BouncyCastle::Crypto::Tls::TlsCloseable* value);
 
   /// @brief Method Cancel, addr 0xf5a35c, size 0xac, virtual true, abstract: false, final false
   inline void Cancel();

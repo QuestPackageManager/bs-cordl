@@ -16,23 +16,23 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::UnwrapParameters);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12211))
 // CS Name: ::UnityEngine.ProBuilder::UnwrapParameters*
 class CORDL_TYPE UnwrapParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_HardAngle, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_HardAngle, put = __set_m_HardAngle)) float_t m_HardAngle;
+  __declspec(property(get = __cordl_internal_get_m_HardAngle, put = __cordl_internal_set_m_HardAngle)) float_t m_HardAngle;
 
   /// @brief Field m_PackMargin, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_PackMargin, put = __set_m_PackMargin)) float_t m_PackMargin;
+  __declspec(property(get = __cordl_internal_get_m_PackMargin, put = __cordl_internal_set_m_PackMargin)) float_t m_PackMargin;
 
   /// @brief Field m_AngleError, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_AngleError, put = __set_m_AngleError)) float_t m_AngleError;
+  __declspec(property(get = __cordl_internal_get_m_AngleError, put = __cordl_internal_set_m_AngleError)) float_t m_AngleError;
 
   /// @brief Field m_AreaError, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_AreaError, put = __set_m_AreaError)) float_t m_AreaError;
+  __declspec(property(get = __cordl_internal_get_m_AreaError, put = __cordl_internal_set_m_AreaError)) float_t m_AreaError;
 
   __declspec(property(get = get_hardAngle, put = set_hardAngle)) float_t hardAngle;
 
@@ -42,29 +42,29 @@ public:
 
   __declspec(property(get = get_areaError, put = set_areaError)) float_t areaError;
 
-  constexpr float_t& __get_m_HardAngle();
+  constexpr float_t& __cordl_internal_get_m_HardAngle();
 
-  constexpr float_t const& __get_m_HardAngle() const;
+  constexpr float_t const& __cordl_internal_get_m_HardAngle() const;
 
-  constexpr void __set_m_HardAngle(float_t value);
+  constexpr void __cordl_internal_set_m_HardAngle(float_t value);
 
-  constexpr float_t& __get_m_PackMargin();
+  constexpr float_t& __cordl_internal_get_m_PackMargin();
 
-  constexpr float_t const& __get_m_PackMargin() const;
+  constexpr float_t const& __cordl_internal_get_m_PackMargin() const;
 
-  constexpr void __set_m_PackMargin(float_t value);
+  constexpr void __cordl_internal_set_m_PackMargin(float_t value);
 
-  constexpr float_t& __get_m_AngleError();
+  constexpr float_t& __cordl_internal_get_m_AngleError();
 
-  constexpr float_t const& __get_m_AngleError() const;
+  constexpr float_t const& __cordl_internal_get_m_AngleError() const;
 
-  constexpr void __set_m_AngleError(float_t value);
+  constexpr void __cordl_internal_set_m_AngleError(float_t value);
 
-  constexpr float_t& __get_m_AreaError();
+  constexpr float_t& __cordl_internal_get_m_AreaError();
 
-  constexpr float_t const& __get_m_AreaError() const;
+  constexpr float_t const& __cordl_internal_get_m_AreaError() const;
 
-  constexpr void __set_m_AreaError(float_t value);
+  constexpr void __cordl_internal_set_m_AreaError(float_t value);
 
   /// @brief Method get_hardAngle, addr 0x2b7cfe8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_hardAngle();

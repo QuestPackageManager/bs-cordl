@@ -18,7 +18,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4745))
 // CS Name: ::ICubeNoteControllerInitializable`1<T>*
 class CORDL_TYPE ICubeNoteControllerInitializable_1 {

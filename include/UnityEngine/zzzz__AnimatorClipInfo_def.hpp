@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AnimatorClipInfo);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14878))
 // CS Name: ::UnityEngine::AnimatorClipInfo
 struct CORDL_TYPE AnimatorClipInfo {

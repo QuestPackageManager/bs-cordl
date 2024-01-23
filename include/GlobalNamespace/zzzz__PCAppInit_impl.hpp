@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x2229668;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PCAppInit*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PCAppInit*>::get(), 10));
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x22296d0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PCAppInit*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PCAppInit*>::get(), 11));
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x222976c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PCAppInit*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PCAppInit*>::get(), 12));
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1ec;
   constexpr static std::size_t addrs = 0x2229840;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PCAppInit*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PCAppInit*>::get(), 8));
@@ -68,57 +68,57 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2229a2c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PCAppInit*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::MainSystemInit*& GlobalNamespace::PCAppInit::__get__mainSystemInit() {
+constexpr ::UnityW<::GlobalNamespace::MainSystemInit>& GlobalNamespace::PCAppInit::__cordl_internal_get__mainSystemInit() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainSystemInit;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSystemInit*> const& GlobalNamespace::PCAppInit::__get__mainSystemInit() const {
+constexpr ::UnityW<::GlobalNamespace::MainSystemInit> const& GlobalNamespace::PCAppInit::__cordl_internal_get__mainSystemInit() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainSystemInit;
 }
-constexpr void GlobalNamespace::PCAppInit::__set__mainSystemInit(::GlobalNamespace::MainSystemInit* value) {
+constexpr void GlobalNamespace::PCAppInit::__cordl_internal_set__mainSystemInit(::UnityW<::GlobalNamespace::MainSystemInit> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainSystemInit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::DefaultScenesTransitionsFromInit*& GlobalNamespace::PCAppInit::__get__defaultScenesTransitionsFromInit() {
+constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit>& GlobalNamespace::PCAppInit::__cordl_internal_get__defaultScenesTransitionsFromInit() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultScenesTransitionsFromInit;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DefaultScenesTransitionsFromInit*> const& GlobalNamespace::PCAppInit::__get__defaultScenesTransitionsFromInit() const {
+constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& GlobalNamespace::PCAppInit::__cordl_internal_get__defaultScenesTransitionsFromInit() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultScenesTransitionsFromInit;
 }
-constexpr void GlobalNamespace::PCAppInit::__set__defaultScenesTransitionsFromInit(::GlobalNamespace::DefaultScenesTransitionsFromInit* value) {
+constexpr void GlobalNamespace::PCAppInit::__cordl_internal_set__defaultScenesTransitionsFromInit(::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultScenesTransitionsFromInit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::PCAppInit::__get__goStraightToMenuCommandArgument() {
+constexpr ::StringW& GlobalNamespace::PCAppInit::__cordl_internal_get__goStraightToMenuCommandArgument() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goStraightToMenuCommandArgument;
 }
-constexpr ::StringW const& GlobalNamespace::PCAppInit::__get__goStraightToMenuCommandArgument() const {
+constexpr ::StringW const& GlobalNamespace::PCAppInit::__cordl_internal_get__goStraightToMenuCommandArgument() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goStraightToMenuCommandArgument;
 }
-constexpr void GlobalNamespace::PCAppInit::__set__goStraightToMenuCommandArgument(::StringW value) {
+constexpr void GlobalNamespace::PCAppInit::__cordl_internal_set__goStraightToMenuCommandArgument(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____goStraightToMenuCommandArgument)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::PCAppInit::__get__goStraightToEditorCommandArgument() {
+constexpr ::StringW& GlobalNamespace::PCAppInit::__cordl_internal_get__goStraightToEditorCommandArgument() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goStraightToEditorCommandArgument;
 }
-constexpr ::StringW const& GlobalNamespace::PCAppInit::__get__goStraightToEditorCommandArgument() const {
+constexpr ::StringW const& GlobalNamespace::PCAppInit::__cordl_internal_get__goStraightToEditorCommandArgument() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goStraightToEditorCommandArgument;
 }
-constexpr void GlobalNamespace::PCAppInit::__set__goStraightToEditorCommandArgument(::StringW value) {
+constexpr void GlobalNamespace::PCAppInit::__cordl_internal_set__goStraightToEditorCommandArgument(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____goStraightToEditorCommandArgument)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -143,11 +143,11 @@ inline void GlobalNamespace::PCAppInit::InstallBindings() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::PCAppInit* GlobalNamespace::PCAppInit::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::PCAppInit*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PCAppInit*>());
 }
 inline void GlobalNamespace::PCAppInit::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PCAppInit*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

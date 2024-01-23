@@ -31,14 +31,14 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::JSONString);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9869))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9869))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9875))
 // CS Name: ::HoudiniEngineUnity::JSONString*
 class CORDL_TYPE JSONString : public ::HoudiniEngineUnity::JSONNode {
 public:
   // Declarations
   /// @brief Field m_Data, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Data, put = __set_m_Data))::StringW m_Data;
+  __declspec(property(get = __cordl_internal_get_m_Data, put = __cordl_internal_set_m_Data))::StringW m_Data;
 
   __declspec(property(get = get_Tag))::HoudiniEngineUnity::JSONNodeType Tag;
 
@@ -46,11 +46,11 @@ public:
 
   __declspec(property(get = get_Value, put = set_Value))::StringW Value;
 
-  constexpr ::StringW& __get_m_Data();
+  constexpr ::StringW& __cordl_internal_get_m_Data();
 
-  constexpr ::StringW const& __get_m_Data() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Data() const;
 
-  constexpr void __set_m_Data(::StringW value);
+  constexpr void __cordl_internal_set_m_Data(::StringW value);
 
   /// @brief Method get_Tag, addr 0x21da854, size 0x8, virtual true, abstract: false, final false
   inline ::HoudiniEngineUnity::JSONNodeType get_Tag();

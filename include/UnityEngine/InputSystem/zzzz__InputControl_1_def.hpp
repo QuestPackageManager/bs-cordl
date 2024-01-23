@@ -29,15 +29,15 @@ namespace UnityEngine::InputSystem {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3865 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 3898 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(6236))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6216))
-// CS Name: ::UnityEngine.InputSystem::InputControl`1<TValue>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6215)), TypeDefinitionIndex(TypeDefinitionIndex(6236)), TypeDefinitionIndex(TypeDefinitionIndex(6669)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 3898 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3865 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(6216)) CS Name: ::UnityEngine.InputSystem::InputControl`1<TValue>*
 class CORDL_TYPE InputControl_1 : public ::UnityEngine::InputSystem::InputControl {
 public:
   // Declarations
   /// @brief Field m_ProcessorStack, offset 0xd8, size 0x18
-  __declspec(property(get = __get_m_ProcessorStack,
-                      put = __set_m_ProcessorStack))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputProcessor_1<TValue>*> m_ProcessorStack;
+  __declspec(property(get = __cordl_internal_get_m_ProcessorStack,
+                      put = __cordl_internal_set_m_ProcessorStack))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputProcessor_1<TValue>*> m_ProcessorStack;
 
   __declspec(property(get = get_valueType))::System::Type* valueType;
 
@@ -45,11 +45,11 @@ public:
 
   __declspec(property(get = get_processors))::ArrayW<::UnityEngine::InputSystem::InputProcessor_1<TValue>*, ::Array<::UnityEngine::InputSystem::InputProcessor_1<TValue>*>*> processors;
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputProcessor_1<TValue>*>& __get_m_ProcessorStack();
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputProcessor_1<TValue>*>& __cordl_internal_get_m_ProcessorStack();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputProcessor_1<TValue>*> const& __get_m_ProcessorStack() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputProcessor_1<TValue>*> const& __cordl_internal_get_m_ProcessorStack() const;
 
-  constexpr void __set_m_ProcessorStack(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputProcessor_1<TValue>*> value);
+  constexpr void __cordl_internal_set_m_ProcessorStack(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputProcessor_1<TValue>*> value);
 
   /// @brief Method get_valueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Type* get_valueType();

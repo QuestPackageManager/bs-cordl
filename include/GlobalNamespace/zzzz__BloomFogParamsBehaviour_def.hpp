@@ -30,47 +30,47 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomFogParamsBehaviour);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10425))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6007))
 // CS Name: ::BloomFogParamsBehaviour*
 class CORDL_TYPE BloomFogParamsBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
   /// @brief Field _bloomFogParams, offset 0x10, size 0x8
-  __declspec(property(get = __get__bloomFogParams, put = __set__bloomFogParams))::GlobalNamespace::BloomFogEnvironmentParams* _bloomFogParams;
+  __declspec(property(get = __cordl_internal_get__bloomFogParams, put = __cordl_internal_set__bloomFogParams))::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> _bloomFogParams;
 
   /// @brief Field _blend, offset 0x18, size 0x4
-  __declspec(property(get = __get__blend, put = __set__blend)) float_t _blend;
+  __declspec(property(get = __cordl_internal_get__blend, put = __cordl_internal_set__blend)) float_t _blend;
 
   /// @brief Field _bloomFog, offset 0x20, size 0x8
-  __declspec(property(get = __get__bloomFog, put = __set__bloomFog))::GlobalNamespace::BloomFogSO* _bloomFog;
+  __declspec(property(get = __cordl_internal_get__bloomFog, put = __cordl_internal_set__bloomFog))::UnityW<::GlobalNamespace::BloomFogSO> _bloomFog;
 
   /// @brief Field _initialized, offset 0x28, size 0x1
-  __declspec(property(get = __get__initialized, put = __set__initialized)) bool _initialized;
+  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
-  constexpr ::GlobalNamespace::BloomFogEnvironmentParams*& __get__bloomFogParams();
+  constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams>& __cordl_internal_get__bloomFogParams();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogEnvironmentParams*> const& __get__bloomFogParams() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> const& __cordl_internal_get__bloomFogParams() const;
 
-  constexpr void __set__bloomFogParams(::GlobalNamespace::BloomFogEnvironmentParams* value);
+  constexpr void __cordl_internal_set__bloomFogParams(::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> value);
 
-  constexpr float_t& __get__blend();
+  constexpr float_t& __cordl_internal_get__blend();
 
-  constexpr float_t const& __get__blend() const;
+  constexpr float_t const& __cordl_internal_get__blend() const;
 
-  constexpr void __set__blend(float_t value);
+  constexpr void __cordl_internal_set__blend(float_t value);
 
-  constexpr ::GlobalNamespace::BloomFogSO*& __get__bloomFog();
+  constexpr ::UnityW<::GlobalNamespace::BloomFogSO>& __cordl_internal_get__bloomFog();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogSO*> const& __get__bloomFog() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
 
-  constexpr void __set__bloomFog(::GlobalNamespace::BloomFogSO* value);
+  constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value);
 
-  constexpr bool& __get__initialized();
+  constexpr bool& __cordl_internal_get__initialized();
 
-  constexpr bool const& __get__initialized() const;
+  constexpr bool const& __cordl_internal_get__initialized() const;
 
-  constexpr void __set__initialized(bool value);
+  constexpr void __cordl_internal_set__initialized(bool value);
 
   /// @brief Method ProcessFrame, addr 0x2315668, size 0x158, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* playerData);
@@ -98,13 +98,13 @@ protected:
 
 public:
   /// @brief Field _bloomFogParams, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::BloomFogEnvironmentParams* ____bloomFogParams;
+  ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> ____bloomFogParams;
 
   /// @brief Field _blend, offset: 0x18, size: 0x4, def value: None
   float_t ____blend;
 
   /// @brief Field _bloomFog, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BloomFogSO* ____bloomFog;
+  ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;
 
   /// @brief Field _initialized, offset: 0x28, size: 0x1, def value: None
   bool ____initialized;

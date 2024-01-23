@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::__FontFeatureTable____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13702))
 // CS Name: ::FontFeatureTable::<>c*
 class CORDL_TYPE __FontFeatureTable____c : public ::System::Object {
@@ -96,7 +96,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::__F
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13703))
 // CS Name: ::UnityEngine.TextCore.Text::FontFeatureTable*
 class CORDL_TYPE FontFeatureTable : public ::System::Object {
@@ -105,28 +105,29 @@ public:
   using __c = ::UnityEngine::TextCore::Text::__FontFeatureTable____c;
 
   /// @brief Field m_GlyphPairAdjustmentRecords, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_GlyphPairAdjustmentRecords,
-                      put = __set_m_GlyphPairAdjustmentRecords))::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* m_GlyphPairAdjustmentRecords;
+  __declspec(property(
+      get = __cordl_internal_get_m_GlyphPairAdjustmentRecords,
+      put = __cordl_internal_set_m_GlyphPairAdjustmentRecords))::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* m_GlyphPairAdjustmentRecords;
 
   /// @brief Field m_GlyphPairAdjustmentRecordLookup, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_GlyphPairAdjustmentRecordLookup, put = __set_m_GlyphPairAdjustmentRecordLookup))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get_m_GlyphPairAdjustmentRecordLookup, put = __cordl_internal_set_m_GlyphPairAdjustmentRecordLookup))::System::Collections::Generic::Dictionary_2<
       uint32_t, ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* m_GlyphPairAdjustmentRecordLookup;
 
   __declspec(property(get = get_glyphPairAdjustmentRecords))::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* glyphPairAdjustmentRecords;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*& __get_m_GlyphPairAdjustmentRecords();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*& __cordl_internal_get_m_GlyphPairAdjustmentRecords();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*> const&
-  __get_m_GlyphPairAdjustmentRecords() const;
+  __cordl_internal_get_m_GlyphPairAdjustmentRecords() const;
 
-  constexpr void __set_m_GlyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* value);
+  constexpr void __cordl_internal_set_m_GlyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*& __get_m_GlyphPairAdjustmentRecordLookup();
+  constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*& __cordl_internal_get_m_GlyphPairAdjustmentRecordLookup();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*> const&
-  __get_m_GlyphPairAdjustmentRecordLookup() const;
+  __cordl_internal_get_m_GlyphPairAdjustmentRecordLookup() const;
 
-  constexpr void __set_m_GlyphPairAdjustmentRecordLookup(::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* value);
+  constexpr void __cordl_internal_set_m_GlyphPairAdjustmentRecordLookup(::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* value);
 
   /// @brief Method get_glyphPairAdjustmentRecords, addr 0x2d3f20c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* get_glyphPairAdjustmentRecords();

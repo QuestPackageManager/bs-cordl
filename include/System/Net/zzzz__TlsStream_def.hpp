@@ -38,38 +38,39 @@ MARK_REF_PTR_T(::System::Net::TlsStream);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9324))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9324))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9026))
 // CS Name: ::System.Net::TlsStream*
 class CORDL_TYPE TlsStream : public ::System::Net::Sockets::NetworkStream {
 public:
   // Declarations
   /// @brief Field _sslStream, offset 0x48, size 0x8
-  __declspec(property(get = __get__sslStream, put = __set__sslStream))::System::Net::Security::SslStream* _sslStream;
+  __declspec(property(get = __cordl_internal_get__sslStream, put = __cordl_internal_set__sslStream))::System::Net::Security::SslStream* _sslStream;
 
   /// @brief Field _host, offset 0x50, size 0x8
-  __declspec(property(get = __get__host, put = __set__host))::StringW _host;
+  __declspec(property(get = __cordl_internal_get__host, put = __cordl_internal_set__host))::StringW _host;
 
   /// @brief Field _clientCertificates, offset 0x58, size 0x8
-  __declspec(property(get = __get__clientCertificates, put = __set__clientCertificates))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* _clientCertificates;
+  __declspec(property(get = __cordl_internal_get__clientCertificates,
+                      put = __cordl_internal_set__clientCertificates))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* _clientCertificates;
 
-  constexpr ::System::Net::Security::SslStream*& __get__sslStream();
+  constexpr ::System::Net::Security::SslStream*& __cordl_internal_get__sslStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslStream*> const& __get__sslStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslStream*> const& __cordl_internal_get__sslStream() const;
 
-  constexpr void __set__sslStream(::System::Net::Security::SslStream* value);
+  constexpr void __cordl_internal_set__sslStream(::System::Net::Security::SslStream* value);
 
-  constexpr ::StringW& __get__host();
+  constexpr ::StringW& __cordl_internal_get__host();
 
-  constexpr ::StringW const& __get__host() const;
+  constexpr ::StringW const& __cordl_internal_get__host() const;
 
-  constexpr void __set__host(::StringW value);
+  constexpr void __cordl_internal_set__host(::StringW value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& __get__clientCertificates();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& __cordl_internal_get__clientCertificates();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const& __get__clientCertificates() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const& __cordl_internal_get__clientCertificates() const;
 
-  constexpr void __set__clientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
+  constexpr void __cordl_internal_set__clientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
   static inline ::System::Net::TlsStream* New_ctor(::System::Net::Sockets::NetworkStream* stream, ::System::Net::Sockets::Socket* socket, ::StringW host,
                                                    ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* clientCertificates);

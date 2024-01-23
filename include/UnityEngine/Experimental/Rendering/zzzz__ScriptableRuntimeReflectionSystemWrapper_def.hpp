@@ -18,23 +18,23 @@ MARK_REF_PTR_T(::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflecti
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10409))
 // CS Name: ::UnityEngine.Experimental.Rendering::ScriptableRuntimeReflectionSystemWrapper*
 class CORDL_TYPE ScriptableRuntimeReflectionSystemWrapper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <implementation>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__implementation_k__BackingField,
-                      put = __set__implementation_k__BackingField))::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* _implementation_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__implementation_k__BackingField,
+                      put = __cordl_internal_set__implementation_k__BackingField))::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* _implementation_k__BackingField;
 
   __declspec(property(get = get_implementation, put = set_implementation))::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* implementation;
 
-  constexpr ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*& __get__implementation_k__BackingField();
+  constexpr ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*& __cordl_internal_get__implementation_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*> const& __get__implementation_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem*> const& __cordl_internal_get__implementation_k__BackingField() const;
 
-  constexpr void __set__implementation_k__BackingField(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
+  constexpr void __cordl_internal_set__implementation_k__BackingField(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
   /// @brief Method get_implementation, addr 0x2cf45ac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* get_implementation();

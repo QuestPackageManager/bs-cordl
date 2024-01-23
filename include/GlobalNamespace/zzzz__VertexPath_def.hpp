@@ -33,7 +33,7 @@ MARK_VAL_T(::GlobalNamespace::__VertexPath__Vertex);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5973))
 // CS Name: ::VertexPath::Vertex
 struct CORDL_TYPE __VertexPath__Vertex {
@@ -75,7 +75,7 @@ static_assert(offsetof(::GlobalNamespace::__VertexPath__Vertex, normal) == 0x18,
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5974))
 // CS Name: ::VertexPath*
 class CORDL_TYPE VertexPath : public ::System::Object {
@@ -84,54 +84,56 @@ public:
   using Vertex = ::GlobalNamespace::__VertexPath__Vertex;
 
   /// @brief Field vertexCount, offset 0x10, size 0x4
-  __declspec(property(get = __get_vertexCount, put = __set_vertexCount)) int32_t vertexCount;
+  __declspec(property(get = __cordl_internal_get_vertexCount, put = __cordl_internal_set_vertexCount)) int32_t vertexCount;
 
   /// @brief Field _localVertices, offset 0x18, size 0x8
-  __declspec(property(get = __get__localVertices, put = __set__localVertices))::ArrayW<::GlobalNamespace::__VertexPath__Vertex, ::Array<::GlobalNamespace::__VertexPath__Vertex>*> _localVertices;
+  __declspec(property(get = __cordl_internal_get__localVertices,
+                      put = __cordl_internal_set__localVertices))::ArrayW<::GlobalNamespace::__VertexPath__Vertex, ::Array<::GlobalNamespace::__VertexPath__Vertex>*> _localVertices;
 
   /// @brief Field _length, offset 0x20, size 0x4
-  __declspec(property(get = __get__length, put = __set__length)) float_t _length;
+  __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) float_t _length;
 
   /// @brief Field _cumulativeLengthAtEachVertex, offset 0x28, size 0x8
-  __declspec(property(get = __get__cumulativeLengthAtEachVertex, put = __set__cumulativeLengthAtEachVertex))::ArrayW<float_t, ::Array<float_t>*> _cumulativeLengthAtEachVertex;
+  __declspec(property(get = __cordl_internal_get__cumulativeLengthAtEachVertex,
+                      put = __cordl_internal_set__cumulativeLengthAtEachVertex))::ArrayW<float_t, ::Array<float_t>*> _cumulativeLengthAtEachVertex;
 
   /// @brief Field _anchorVertexMap, offset 0x30, size 0x8
-  __declspec(property(get = __get__anchorVertexMap, put = __set__anchorVertexMap))::ArrayW<int32_t, ::Array<int32_t>*> _anchorVertexMap;
+  __declspec(property(get = __cordl_internal_get__anchorVertexMap, put = __cordl_internal_set__anchorVertexMap))::ArrayW<int32_t, ::Array<int32_t>*> _anchorVertexMap;
 
   /// @brief Field _back, offset 0xffffffff, size 0xc
   static __declspec(property(get = getStaticF__back, put = setStaticF__back))::UnityEngine::Vector3 _back;
 
   __declspec(property(get = get_length)) float_t length;
 
-  constexpr int32_t& __get_vertexCount();
+  constexpr int32_t& __cordl_internal_get_vertexCount();
 
-  constexpr int32_t const& __get_vertexCount() const;
+  constexpr int32_t const& __cordl_internal_get_vertexCount() const;
 
-  constexpr void __set_vertexCount(int32_t value);
+  constexpr void __cordl_internal_set_vertexCount(int32_t value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__VertexPath__Vertex, ::Array<::GlobalNamespace::__VertexPath__Vertex>*>& __get__localVertices();
+  constexpr ::ArrayW<::GlobalNamespace::__VertexPath__Vertex, ::Array<::GlobalNamespace::__VertexPath__Vertex>*>& __cordl_internal_get__localVertices();
 
-  constexpr ::ArrayW<::GlobalNamespace::__VertexPath__Vertex, ::Array<::GlobalNamespace::__VertexPath__Vertex>*> const& __get__localVertices() const;
+  constexpr ::ArrayW<::GlobalNamespace::__VertexPath__Vertex, ::Array<::GlobalNamespace::__VertexPath__Vertex>*> const& __cordl_internal_get__localVertices() const;
 
-  constexpr void __set__localVertices(::ArrayW<::GlobalNamespace::__VertexPath__Vertex, ::Array<::GlobalNamespace::__VertexPath__Vertex>*> value);
+  constexpr void __cordl_internal_set__localVertices(::ArrayW<::GlobalNamespace::__VertexPath__Vertex, ::Array<::GlobalNamespace::__VertexPath__Vertex>*> value);
 
-  constexpr float_t& __get__length();
+  constexpr float_t& __cordl_internal_get__length();
 
-  constexpr float_t const& __get__length() const;
+  constexpr float_t const& __cordl_internal_get__length() const;
 
-  constexpr void __set__length(float_t value);
+  constexpr void __cordl_internal_set__length(float_t value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get__cumulativeLengthAtEachVertex();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__cumulativeLengthAtEachVertex();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get__cumulativeLengthAtEachVertex() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__cumulativeLengthAtEachVertex() const;
 
-  constexpr void __set__cumulativeLengthAtEachVertex(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set__cumulativeLengthAtEachVertex(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__anchorVertexMap();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__anchorVertexMap();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__anchorVertexMap() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__anchorVertexMap() const;
 
-  constexpr void __set__anchorVertexMap(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__anchorVertexMap(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   static inline void setStaticF__back(::UnityEngine::Vector3 value);
 

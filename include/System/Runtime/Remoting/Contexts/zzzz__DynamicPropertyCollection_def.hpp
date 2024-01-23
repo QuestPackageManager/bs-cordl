@@ -35,29 +35,29 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::__DynamicPropertyCollectio
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3099))
 // CS Name: ::DynamicPropertyCollection::DynamicPropertyReg*
 class CORDL_TYPE __DynamicPropertyCollection__DynamicPropertyReg : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Property, offset 0x10, size 0x8
-  __declspec(property(get = __get_Property, put = __set_Property))::System::Runtime::Remoting::Contexts::IDynamicProperty* Property;
+  __declspec(property(get = __cordl_internal_get_Property, put = __cordl_internal_set_Property))::System::Runtime::Remoting::Contexts::IDynamicProperty* Property;
 
   /// @brief Field Sink, offset 0x18, size 0x8
-  __declspec(property(get = __get_Sink, put = __set_Sink))::System::Runtime::Remoting::Contexts::IDynamicMessageSink* Sink;
+  __declspec(property(get = __cordl_internal_get_Sink, put = __cordl_internal_set_Sink))::System::Runtime::Remoting::Contexts::IDynamicMessageSink* Sink;
 
-  constexpr ::System::Runtime::Remoting::Contexts::IDynamicProperty*& __get_Property();
+  constexpr ::System::Runtime::Remoting::Contexts::IDynamicProperty*& __cordl_internal_get_Property();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::IDynamicProperty*> const& __get_Property() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::IDynamicProperty*> const& __cordl_internal_get_Property() const;
 
-  constexpr void __set_Property(::System::Runtime::Remoting::Contexts::IDynamicProperty* value);
+  constexpr void __cordl_internal_set_Property(::System::Runtime::Remoting::Contexts::IDynamicProperty* value);
 
-  constexpr ::System::Runtime::Remoting::Contexts::IDynamicMessageSink*& __get_Sink();
+  constexpr ::System::Runtime::Remoting::Contexts::IDynamicMessageSink*& __cordl_internal_get_Sink();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::IDynamicMessageSink*> const& __get_Sink() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::IDynamicMessageSink*> const& __cordl_internal_get_Sink() const;
 
-  constexpr void __set_Sink(::System::Runtime::Remoting::Contexts::IDynamicMessageSink* value);
+  constexpr void __cordl_internal_set_Sink(::System::Runtime::Remoting::Contexts::IDynamicMessageSink* value);
 
   static inline ::System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg* New_ctor();
 
@@ -98,7 +98,7 @@ static_assert(offsetof(::System::Runtime::Remoting::Contexts::__DynamicPropertyC
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3100))
 // CS Name: ::System.Runtime.Remoting.Contexts::DynamicPropertyCollection*
 class CORDL_TYPE DynamicPropertyCollection : public ::System::Object {
@@ -107,15 +107,15 @@ public:
   using DynamicPropertyReg = ::System::Runtime::Remoting::Contexts::__DynamicPropertyCollection__DynamicPropertyReg;
 
   /// @brief Field _properties, offset 0x10, size 0x8
-  __declspec(property(get = __get__properties, put = __set__properties))::System::Collections::ArrayList* _properties;
+  __declspec(property(get = __cordl_internal_get__properties, put = __cordl_internal_set__properties))::System::Collections::ArrayList* _properties;
 
   __declspec(property(get = get_HasProperties)) bool HasProperties;
 
-  constexpr ::System::Collections::ArrayList*& __get__properties();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__properties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get__properties() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__properties() const;
 
-  constexpr void __set__properties(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set__properties(::System::Collections::ArrayList* value);
 
   /// @brief Method get_HasProperties, addr 0x249c7ac, size 0x30, virtual false, abstract: false, final false
   inline bool get_HasProperties();

@@ -28,23 +28,23 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaComplexType);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11742)), TypeDefinitionIndex(TypeDefinitionIndex(11724))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11724)), TypeDefinitionIndex(TypeDefinitionIndex(11742))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11720))
 // CS Name: ::System.Xml.Schema::XmlSchemaComplexType*
 class CORDL_TYPE XmlSchemaComplexType : public ::System::Xml::Schema::XmlSchemaType {
 public:
   // Declarations
   /// @brief Field block, offset 0x3c, size 0x4
-  __declspec(property(get = __get_block, put = __set_block))::System::Xml::Schema::XmlSchemaDerivationMethod block;
+  __declspec(property(get = __cordl_internal_get_block, put = __cordl_internal_set_block))::System::Xml::Schema::XmlSchemaDerivationMethod block;
 
   /// @brief Field contentTypeParticle, offset 0x40, size 0x8
-  __declspec(property(get = __get_contentTypeParticle, put = __set_contentTypeParticle))::System::Xml::Schema::XmlSchemaParticle* contentTypeParticle;
+  __declspec(property(get = __cordl_internal_get_contentTypeParticle, put = __cordl_internal_set_contentTypeParticle))::System::Xml::Schema::XmlSchemaParticle* contentTypeParticle;
 
   /// @brief Field attributeWildcard, offset 0x48, size 0x8
-  __declspec(property(get = __get_attributeWildcard, put = __set_attributeWildcard))::System::Xml::Schema::XmlSchemaAnyAttribute* attributeWildcard;
+  __declspec(property(get = __cordl_internal_get_attributeWildcard, put = __cordl_internal_set_attributeWildcard))::System::Xml::Schema::XmlSchemaAnyAttribute* attributeWildcard;
 
   /// @brief Field pvFlags, offset 0x50, size 0x1
-  __declspec(property(get = __get_pvFlags, put = __set_pvFlags)) uint8_t pvFlags;
+  __declspec(property(get = __cordl_internal_get_pvFlags, put = __cordl_internal_set_pvFlags)) uint8_t pvFlags;
 
   /// @brief Field anyTypeLax, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_anyTypeLax, put = setStaticF_anyTypeLax))::System::Xml::Schema::XmlSchemaComplexType* anyTypeLax;
@@ -59,29 +59,29 @@ public:
 
   __declspec(property(get = get_ContentTypeParticle))::System::Xml::Schema::XmlSchemaParticle* ContentTypeParticle;
 
-  constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod& __get_block();
+  constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod& __cordl_internal_get_block();
 
-  constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod const& __get_block() const;
+  constexpr ::System::Xml::Schema::XmlSchemaDerivationMethod const& __cordl_internal_get_block() const;
 
-  constexpr void __set_block(::System::Xml::Schema::XmlSchemaDerivationMethod value);
+  constexpr void __cordl_internal_set_block(::System::Xml::Schema::XmlSchemaDerivationMethod value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaParticle*& __get_contentTypeParticle();
+  constexpr ::System::Xml::Schema::XmlSchemaParticle*& __cordl_internal_get_contentTypeParticle();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaParticle*> const& __get_contentTypeParticle() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaParticle*> const& __cordl_internal_get_contentTypeParticle() const;
 
-  constexpr void __set_contentTypeParticle(::System::Xml::Schema::XmlSchemaParticle* value);
+  constexpr void __cordl_internal_set_contentTypeParticle(::System::Xml::Schema::XmlSchemaParticle* value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute*& __get_attributeWildcard();
+  constexpr ::System::Xml::Schema::XmlSchemaAnyAttribute*& __cordl_internal_get_attributeWildcard();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAnyAttribute*> const& __get_attributeWildcard() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAnyAttribute*> const& __cordl_internal_get_attributeWildcard() const;
 
-  constexpr void __set_attributeWildcard(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
+  constexpr void __cordl_internal_set_attributeWildcard(::System::Xml::Schema::XmlSchemaAnyAttribute* value);
 
-  constexpr uint8_t& __get_pvFlags();
+  constexpr uint8_t& __cordl_internal_get_pvFlags();
 
-  constexpr uint8_t const& __get_pvFlags() const;
+  constexpr uint8_t const& __cordl_internal_get_pvFlags() const;
 
-  constexpr void __set_pvFlags(uint8_t value);
+  constexpr void __cordl_internal_set_pvFlags(uint8_t value);
 
   static inline void setStaticF_anyTypeLax(::System::Xml::Schema::XmlSchemaComplexType* value);
 

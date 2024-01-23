@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__HeartbeatMessage__PayloadBuff
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3566))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1248))
 // CS Name: ::HeartbeatMessage::PayloadBuffer*
 class CORDL_TYPE __HeartbeatMessage__PayloadBuffer : public ::System::IO::MemoryStream {
@@ -68,7 +68,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1249))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::HeartbeatMessage*
 class CORDL_TYPE HeartbeatMessage : public ::System::Object {
@@ -77,31 +77,31 @@ public:
   using PayloadBuffer = ::Org::BouncyCastle::Crypto::Tls::__HeartbeatMessage__PayloadBuffer;
 
   /// @brief Field mType, offset 0x10, size 0x1
-  __declspec(property(get = __get_mType, put = __set_mType)) uint8_t mType;
+  __declspec(property(get = __cordl_internal_get_mType, put = __cordl_internal_set_mType)) uint8_t mType;
 
   /// @brief Field mPayload, offset 0x18, size 0x8
-  __declspec(property(get = __get_mPayload, put = __set_mPayload))::ArrayW<uint8_t, ::Array<uint8_t>*> mPayload;
+  __declspec(property(get = __cordl_internal_get_mPayload, put = __cordl_internal_set_mPayload))::ArrayW<uint8_t, ::Array<uint8_t>*> mPayload;
 
   /// @brief Field mPaddingLength, offset 0x20, size 0x4
-  __declspec(property(get = __get_mPaddingLength, put = __set_mPaddingLength)) int32_t mPaddingLength;
+  __declspec(property(get = __cordl_internal_get_mPaddingLength, put = __cordl_internal_set_mPaddingLength)) int32_t mPaddingLength;
 
-  constexpr uint8_t& __get_mType();
+  constexpr uint8_t& __cordl_internal_get_mType();
 
-  constexpr uint8_t const& __get_mType() const;
+  constexpr uint8_t const& __cordl_internal_get_mType() const;
 
-  constexpr void __set_mType(uint8_t value);
+  constexpr void __cordl_internal_set_mType(uint8_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mPayload();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPayload();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mPayload() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPayload() const;
 
-  constexpr void __set_mPayload(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mPayload(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_mPaddingLength();
+  constexpr int32_t& __cordl_internal_get_mPaddingLength();
 
-  constexpr int32_t const& __get_mPaddingLength() const;
+  constexpr int32_t const& __cordl_internal_get_mPaddingLength() const;
 
-  constexpr void __set_mPaddingLength(int32_t value);
+  constexpr void __cordl_internal_set_mPaddingLength(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatMessage* New_ctor(uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> payload, int32_t paddingLength);
 

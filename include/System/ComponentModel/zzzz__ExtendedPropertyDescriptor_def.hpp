@@ -31,17 +31,17 @@ MARK_REF_PTR_T(::System::ComponentModel::ExtendedPropertyDescriptor);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9444))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9444))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9427))
 // CS Name: ::System.ComponentModel::ExtendedPropertyDescriptor*
 class CORDL_TYPE ExtendedPropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor {
 public:
   // Declarations
   /// @brief Field _extenderInfo, offset 0x88, size 0x8
-  __declspec(property(get = __get__extenderInfo, put = __set__extenderInfo))::System::ComponentModel::ReflectPropertyDescriptor* _extenderInfo;
+  __declspec(property(get = __cordl_internal_get__extenderInfo, put = __cordl_internal_set__extenderInfo))::System::ComponentModel::ReflectPropertyDescriptor* _extenderInfo;
 
   /// @brief Field _provider, offset 0x90, size 0x8
-  __declspec(property(get = __get__provider, put = __set__provider))::System::ComponentModel::IExtenderProvider* _provider;
+  __declspec(property(get = __cordl_internal_get__provider, put = __cordl_internal_set__provider))::System::ComponentModel::IExtenderProvider* _provider;
 
   __declspec(property(get = get_ComponentType))::System::Type* ComponentType;
 
@@ -51,17 +51,17 @@ public:
 
   __declspec(property(get = get_DisplayName))::StringW DisplayName;
 
-  constexpr ::System::ComponentModel::ReflectPropertyDescriptor*& __get__extenderInfo();
+  constexpr ::System::ComponentModel::ReflectPropertyDescriptor*& __cordl_internal_get__extenderInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ReflectPropertyDescriptor*> const& __get__extenderInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ReflectPropertyDescriptor*> const& __cordl_internal_get__extenderInfo() const;
 
-  constexpr void __set__extenderInfo(::System::ComponentModel::ReflectPropertyDescriptor* value);
+  constexpr void __cordl_internal_set__extenderInfo(::System::ComponentModel::ReflectPropertyDescriptor* value);
 
-  constexpr ::System::ComponentModel::IExtenderProvider*& __get__provider();
+  constexpr ::System::ComponentModel::IExtenderProvider*& __cordl_internal_get__provider();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::IExtenderProvider*> const& __get__provider() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::IExtenderProvider*> const& __cordl_internal_get__provider() const;
 
-  constexpr void __set__provider(::System::ComponentModel::IExtenderProvider* value);
+  constexpr void __cordl_internal_set__provider(::System::ComponentModel::IExtenderProvider* value);
 
   static inline ::System::ComponentModel::ExtendedPropertyDescriptor* New_ctor(::System::ComponentModel::ReflectPropertyDescriptor* extenderInfo, ::System::Type* receiverType,
                                                                                ::System::ComponentModel::IExtenderProvider* provider,

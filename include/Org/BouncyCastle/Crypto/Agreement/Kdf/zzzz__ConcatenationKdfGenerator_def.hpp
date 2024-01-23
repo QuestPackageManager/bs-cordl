@@ -25,23 +25,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGene
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement::Kdf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(722))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement.Kdf::ConcatenationKdfGenerator*
 class CORDL_TYPE ConcatenationKdfGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mDigest, offset 0x10, size 0x8
-  __declspec(property(get = __get_mDigest, put = __set_mDigest))::Org::BouncyCastle::Crypto::IDigest* mDigest;
+  __declspec(property(get = __cordl_internal_get_mDigest, put = __cordl_internal_set_mDigest))::Org::BouncyCastle::Crypto::IDigest* mDigest;
 
   /// @brief Field mShared, offset 0x18, size 0x8
-  __declspec(property(get = __get_mShared, put = __set_mShared))::ArrayW<uint8_t, ::Array<uint8_t>*> mShared;
+  __declspec(property(get = __cordl_internal_get_mShared, put = __cordl_internal_set_mShared))::ArrayW<uint8_t, ::Array<uint8_t>*> mShared;
 
   /// @brief Field mOtherInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get_mOtherInfo, put = __set_mOtherInfo))::ArrayW<uint8_t, ::Array<uint8_t>*> mOtherInfo;
+  __declspec(property(get = __cordl_internal_get_mOtherInfo, put = __cordl_internal_set_mOtherInfo))::ArrayW<uint8_t, ::Array<uint8_t>*> mOtherInfo;
 
   /// @brief Field mHLen, offset 0x28, size 0x4
-  __declspec(property(get = __get_mHLen, put = __set_mHLen)) int32_t mHLen;
+  __declspec(property(get = __cordl_internal_get_mHLen, put = __cordl_internal_set_mHLen)) int32_t mHLen;
 
   __declspec(property(get = get_Digest))::Org::BouncyCastle::Crypto::IDigest* Digest;
 
@@ -51,29 +51,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction* i___Org__BouncyCastle__Crypto__IDerivationFunction() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_mDigest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mDigest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_mDigest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_mDigest() const;
 
-  constexpr void __set_mDigest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_mDigest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mShared();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mShared();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mShared() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mShared() const;
 
-  constexpr void __set_mShared(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mShared(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mOtherInfo();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mOtherInfo();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mOtherInfo() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mOtherInfo() const;
 
-  constexpr void __set_mOtherInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mOtherInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_mHLen();
+  constexpr int32_t& __cordl_internal_get_mHLen();
 
-  constexpr int32_t const& __get_mHLen() const;
+  constexpr int32_t const& __cordl_internal_get_mHLen() const;
 
-  constexpr void __set_mHLen(int32_t value);
+  constexpr void __cordl_internal_set_mHLen(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Agreement::Kdf::ConcatenationKdfGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 

@@ -19,23 +19,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1061))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::KdfCounterParameters*
 class CORDL_TYPE KdfCounterParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ki, offset 0x10, size 0x8
-  __declspec(property(get = __get_ki, put = __set_ki))::ArrayW<uint8_t, ::Array<uint8_t>*> ki;
+  __declspec(property(get = __cordl_internal_get_ki, put = __cordl_internal_set_ki))::ArrayW<uint8_t, ::Array<uint8_t>*> ki;
 
   /// @brief Field fixedInputDataCounterPrefix, offset 0x18, size 0x8
-  __declspec(property(get = __get_fixedInputDataCounterPrefix, put = __set_fixedInputDataCounterPrefix))::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterPrefix;
+  __declspec(property(get = __cordl_internal_get_fixedInputDataCounterPrefix, put = __cordl_internal_set_fixedInputDataCounterPrefix))::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterPrefix;
 
   /// @brief Field fixedInputDataCounterSuffix, offset 0x20, size 0x8
-  __declspec(property(get = __get_fixedInputDataCounterSuffix, put = __set_fixedInputDataCounterSuffix))::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterSuffix;
+  __declspec(property(get = __cordl_internal_get_fixedInputDataCounterSuffix, put = __cordl_internal_set_fixedInputDataCounterSuffix))::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterSuffix;
 
   /// @brief Field r, offset 0x28, size 0x4
-  __declspec(property(get = __get_r, put = __set_r)) int32_t r;
+  __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r)) int32_t r;
 
   __declspec(property(get = get_Ki))::ArrayW<uint8_t, ::Array<uint8_t>*> Ki;
 
@@ -53,29 +53,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr ::Org::BouncyCastle::Crypto::IDerivationParameters* i___Org__BouncyCastle__Crypto__IDerivationParameters() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_ki();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_ki();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_ki() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_ki() const;
 
-  constexpr void __set_ki(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_ki(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_fixedInputDataCounterPrefix();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_fixedInputDataCounterPrefix();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_fixedInputDataCounterPrefix() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_fixedInputDataCounterPrefix() const;
 
-  constexpr void __set_fixedInputDataCounterPrefix(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_fixedInputDataCounterPrefix(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_fixedInputDataCounterSuffix();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_fixedInputDataCounterSuffix();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_fixedInputDataCounterSuffix() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_fixedInputDataCounterSuffix() const;
 
-  constexpr void __set_fixedInputDataCounterSuffix(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_fixedInputDataCounterSuffix(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_r();
+  constexpr int32_t& __cordl_internal_get_r();
 
-  constexpr int32_t const& __get_r() const;
+  constexpr int32_t const& __cordl_internal_get_r() const;
 
-  constexpr void __set_r(int32_t value);
+  constexpr void __cordl_internal_set_r(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfCounterParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputDataCounterSuffix,
                                                                                         int32_t r);

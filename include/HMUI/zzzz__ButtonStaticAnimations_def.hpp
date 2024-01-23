@@ -23,65 +23,65 @@ MARK_REF_PTR_T(::HMUI::ButtonStaticAnimations);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13621))
 // CS Name: ::HMUI::ButtonStaticAnimations*
 class CORDL_TYPE ButtonStaticAnimations : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _button, offset 0x18, size 0x8
-  __declspec(property(get = __get__button, put = __set__button))::HMUI::NoTransitionsButton* _button;
+  __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button))::UnityW<::HMUI::NoTransitionsButton> _button;
 
   /// @brief Field _normalClip, offset 0x20, size 0x8
-  __declspec(property(get = __get__normalClip, put = __set__normalClip))::UnityEngine::AnimationClip* _normalClip;
+  __declspec(property(get = __cordl_internal_get__normalClip, put = __cordl_internal_set__normalClip))::UnityW<::UnityEngine::AnimationClip> _normalClip;
 
   /// @brief Field _highlightedClip, offset 0x28, size 0x8
-  __declspec(property(get = __get__highlightedClip, put = __set__highlightedClip))::UnityEngine::AnimationClip* _highlightedClip;
+  __declspec(property(get = __cordl_internal_get__highlightedClip, put = __cordl_internal_set__highlightedClip))::UnityW<::UnityEngine::AnimationClip> _highlightedClip;
 
   /// @brief Field _pressedClip, offset 0x30, size 0x8
-  __declspec(property(get = __get__pressedClip, put = __set__pressedClip))::UnityEngine::AnimationClip* _pressedClip;
+  __declspec(property(get = __cordl_internal_get__pressedClip, put = __cordl_internal_set__pressedClip))::UnityW<::UnityEngine::AnimationClip> _pressedClip;
 
   /// @brief Field _disabledClip, offset 0x38, size 0x8
-  __declspec(property(get = __get__disabledClip, put = __set__disabledClip))::UnityEngine::AnimationClip* _disabledClip;
+  __declspec(property(get = __cordl_internal_get__disabledClip, put = __cordl_internal_set__disabledClip))::UnityW<::UnityEngine::AnimationClip> _disabledClip;
 
   /// @brief Field _didStart, offset 0x40, size 0x1
-  __declspec(property(get = __get__didStart, put = __set__didStart)) bool _didStart;
+  __declspec(property(get = __cordl_internal_get__didStart, put = __cordl_internal_set__didStart)) bool _didStart;
 
-  constexpr ::HMUI::NoTransitionsButton*& __get__button();
+  constexpr ::UnityW<::HMUI::NoTransitionsButton>& __cordl_internal_get__button();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::NoTransitionsButton*> const& __get__button() const;
+  constexpr ::UnityW<::HMUI::NoTransitionsButton> const& __cordl_internal_get__button() const;
 
-  constexpr void __set__button(::HMUI::NoTransitionsButton* value);
+  constexpr void __cordl_internal_set__button(::UnityW<::HMUI::NoTransitionsButton> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__normalClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__normalClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__normalClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__normalClip() const;
 
-  constexpr void __set__normalClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__normalClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__highlightedClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__highlightedClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__highlightedClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__highlightedClip() const;
 
-  constexpr void __set__highlightedClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__highlightedClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__pressedClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__pressedClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__pressedClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__pressedClip() const;
 
-  constexpr void __set__pressedClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__pressedClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__disabledClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__disabledClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__disabledClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__disabledClip() const;
 
-  constexpr void __set__disabledClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__disabledClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr bool& __get__didStart();
+  constexpr bool& __cordl_internal_get__didStart();
 
-  constexpr bool const& __get__didStart() const;
+  constexpr bool const& __cordl_internal_get__didStart() const;
 
-  constexpr void __set__didStart(bool value);
+  constexpr void __cordl_internal_set__didStart(bool value);
 
   /// @brief Method Awake, addr 0x2130848, size 0x88, virtual false, abstract: false, final false
   inline void Awake();
@@ -118,19 +118,19 @@ protected:
 
 public:
   /// @brief Field _button, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::NoTransitionsButton* ____button;
+  ::UnityW<::HMUI::NoTransitionsButton> ____button;
 
   /// @brief Field _normalClip, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____normalClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____normalClip;
 
   /// @brief Field _highlightedClip, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____highlightedClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____highlightedClip;
 
   /// @brief Field _pressedClip, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____pressedClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____pressedClip;
 
   /// @brief Field _disabledClip, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____disabledClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____disabledClip;
 
   /// @brief Field _didStart, offset: 0x40, size: 0x1, def value: None
   bool ____didStart;

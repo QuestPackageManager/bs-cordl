@@ -20,38 +20,38 @@ MARK_REF_PTR_T(::GlobalNamespace::IntListSettingsController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16149))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16149))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5596))
 // CS Name: ::IntListSettingsController*
 class CORDL_TYPE IntListSettingsController : public ::GlobalNamespace::ListSettingsController {
 public:
   // Declarations
   /// @brief Field _customNumberOfElements, offset 0x28, size 0x4
-  __declspec(property(get = __get__customNumberOfElements, put = __set__customNumberOfElements)) int32_t _customNumberOfElements;
+  __declspec(property(get = __cordl_internal_get__customNumberOfElements, put = __cordl_internal_set__customNumberOfElements)) int32_t _customNumberOfElements;
 
   /// @brief Field _customIndex, offset 0x2c, size 0x4
-  __declspec(property(get = __get__customIndex, put = __set__customIndex)) int32_t _customIndex;
+  __declspec(property(get = __cordl_internal_get__customIndex, put = __cordl_internal_set__customIndex)) int32_t _customIndex;
 
   /// @brief Field valueChangedEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_valueChangedEvent, put = __set_valueChangedEvent))::System::Action_1<int32_t>* valueChangedEvent;
+  __declspec(property(get = __cordl_internal_get_valueChangedEvent, put = __cordl_internal_set_valueChangedEvent))::System::Action_1<int32_t>* valueChangedEvent;
 
-  constexpr int32_t& __get__customNumberOfElements();
+  constexpr int32_t& __cordl_internal_get__customNumberOfElements();
 
-  constexpr int32_t const& __get__customNumberOfElements() const;
+  constexpr int32_t const& __cordl_internal_get__customNumberOfElements() const;
 
-  constexpr void __set__customNumberOfElements(int32_t value);
+  constexpr void __cordl_internal_set__customNumberOfElements(int32_t value);
 
-  constexpr int32_t& __get__customIndex();
+  constexpr int32_t& __cordl_internal_get__customIndex();
 
-  constexpr int32_t const& __get__customIndex() const;
+  constexpr int32_t const& __cordl_internal_get__customIndex() const;
 
-  constexpr void __set__customIndex(int32_t value);
+  constexpr void __cordl_internal_set__customIndex(int32_t value);
 
-  constexpr ::System::Action_1<int32_t>*& __get_valueChangedEvent();
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_valueChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __get_valueChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_valueChangedEvent() const;
 
-  constexpr void __set_valueChangedEvent(::System::Action_1<int32_t>* value);
+  constexpr void __cordl_internal_set_valueChangedEvent(::System::Action_1<int32_t>* value);
 
   /// @brief Method add_valueChangedEvent, addr 0x22aac88, size 0xb0, virtual false, abstract: false, final false
   inline void add_valueChangedEvent(::System::Action_1<int32_t>* value);

@@ -22,33 +22,33 @@ MARK_REF_PTR_T(::TMPro::TMP_SpriteCharacter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12448))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12448))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12422))
 // CS Name: ::TMPro::TMP_SpriteCharacter*
 class CORDL_TYPE TMP_SpriteCharacter : public ::TMPro::TMP_TextElement {
 public:
   // Declarations
   /// @brief Field m_Name, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Name, put = __set_m_Name))::StringW m_Name;
+  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name))::StringW m_Name;
 
   /// @brief Field m_HashCode, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_HashCode, put = __set_m_HashCode)) int32_t m_HashCode;
+  __declspec(property(get = __cordl_internal_get_m_HashCode, put = __cordl_internal_set_m_HashCode)) int32_t m_HashCode;
 
   __declspec(property(get = get_name, put = set_name))::StringW name;
 
   __declspec(property(get = get_hashCode)) int32_t hashCode;
 
-  constexpr ::StringW& __get_m_Name();
+  constexpr ::StringW& __cordl_internal_get_m_Name();
 
-  constexpr ::StringW const& __get_m_Name() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Name() const;
 
-  constexpr void __set_m_Name(::StringW value);
+  constexpr void __cordl_internal_set_m_Name(::StringW value);
 
-  constexpr int32_t& __get_m_HashCode();
+  constexpr int32_t& __cordl_internal_get_m_HashCode();
 
-  constexpr int32_t const& __get_m_HashCode() const;
+  constexpr int32_t const& __cordl_internal_get_m_HashCode() const;
 
-  constexpr void __set_m_HashCode(int32_t value);
+  constexpr void __cordl_internal_set_m_HashCode(int32_t value);
 
   /// @brief Method get_name, addr 0x2c44838, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();

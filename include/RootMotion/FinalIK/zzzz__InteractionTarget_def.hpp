@@ -37,29 +37,29 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__InteractionTarget__Multiplier);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12600))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12600))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12607))
 // CS Name: ::InteractionTarget::Multiplier*
 class CORDL_TYPE __InteractionTarget__Multiplier : public ::System::Object {
 public:
   // Declarations
   /// @brief Field curve, offset 0x10, size 0x4
-  __declspec(property(get = __get_curve, put = __set_curve))::GlobalNamespace::__InteractionObject__WeightCurve__Type curve;
+  __declspec(property(get = __cordl_internal_get_curve, put = __cordl_internal_set_curve))::GlobalNamespace::__InteractionObject__WeightCurve__Type curve;
 
   /// @brief Field multiplier, offset 0x14, size 0x4
-  __declspec(property(get = __get_multiplier, put = __set_multiplier)) float_t multiplier;
+  __declspec(property(get = __cordl_internal_get_multiplier, put = __cordl_internal_set_multiplier)) float_t multiplier;
 
-  constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type& __get_curve();
+  constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type& __cordl_internal_get_curve();
 
-  constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type const& __get_curve() const;
+  constexpr ::GlobalNamespace::__InteractionObject__WeightCurve__Type const& __cordl_internal_get_curve() const;
 
-  constexpr void __set_curve(::GlobalNamespace::__InteractionObject__WeightCurve__Type value);
+  constexpr void __cordl_internal_set_curve(::GlobalNamespace::__InteractionObject__WeightCurve__Type value);
 
-  constexpr float_t& __get_multiplier();
+  constexpr float_t& __cordl_internal_get_multiplier();
 
-  constexpr float_t const& __get_multiplier() const;
+  constexpr float_t const& __cordl_internal_get_multiplier() const;
 
-  constexpr void __set_multiplier(float_t value);
+  constexpr void __cordl_internal_set_multiplier(float_t value);
 
   static inline ::RootMotion::FinalIK::__InteractionTarget__Multiplier* New_ctor();
 
@@ -100,103 +100,104 @@ static_assert(offsetof(::RootMotion::FinalIK::__InteractionTarget__Multiplier, _
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12571)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12608)) CS Name: ::RootMotion.FinalIK::InteractionTarget*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12571))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12608)) CS Name: ::RootMotion.FinalIK::InteractionTarget*
 class CORDL_TYPE InteractionTarget : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using Multiplier = ::RootMotion::FinalIK::__InteractionTarget__Multiplier;
 
   /// @brief Field effectorType, offset 0x18, size 0x4
-  __declspec(property(get = __get_effectorType, put = __set_effectorType))::RootMotion::FinalIK::FullBodyBipedEffector effectorType;
+  __declspec(property(get = __cordl_internal_get_effectorType, put = __cordl_internal_set_effectorType))::RootMotion::FinalIK::FullBodyBipedEffector effectorType;
 
   /// @brief Field multipliers, offset 0x20, size 0x8
-  __declspec(property(get = __get_multipliers,
-                      put = __set_multipliers))::ArrayW<::RootMotion::FinalIK::__InteractionTarget__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionTarget__Multiplier*>*> multipliers;
+  __declspec(
+      property(get = __cordl_internal_get_multipliers,
+               put = __cordl_internal_set_multipliers))::ArrayW<::RootMotion::FinalIK::__InteractionTarget__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionTarget__Multiplier*>*> multipliers;
 
   /// @brief Field interactionSpeedMlp, offset 0x28, size 0x4
-  __declspec(property(get = __get_interactionSpeedMlp, put = __set_interactionSpeedMlp)) float_t interactionSpeedMlp;
+  __declspec(property(get = __cordl_internal_get_interactionSpeedMlp, put = __cordl_internal_set_interactionSpeedMlp)) float_t interactionSpeedMlp;
 
   /// @brief Field pivot, offset 0x30, size 0x8
-  __declspec(property(get = __get_pivot, put = __set_pivot))::UnityEngine::Transform* pivot;
+  __declspec(property(get = __cordl_internal_get_pivot, put = __cordl_internal_set_pivot))::UnityW<::UnityEngine::Transform> pivot;
 
   /// @brief Field twistAxis, offset 0x38, size 0xc
-  __declspec(property(get = __get_twistAxis, put = __set_twistAxis))::UnityEngine::Vector3 twistAxis;
+  __declspec(property(get = __cordl_internal_get_twistAxis, put = __cordl_internal_set_twistAxis))::UnityEngine::Vector3 twistAxis;
 
   /// @brief Field twistWeight, offset 0x44, size 0x4
-  __declspec(property(get = __get_twistWeight, put = __set_twistWeight)) float_t twistWeight;
+  __declspec(property(get = __cordl_internal_get_twistWeight, put = __cordl_internal_set_twistWeight)) float_t twistWeight;
 
   /// @brief Field swingWeight, offset 0x48, size 0x4
-  __declspec(property(get = __get_swingWeight, put = __set_swingWeight)) float_t swingWeight;
+  __declspec(property(get = __cordl_internal_get_swingWeight, put = __cordl_internal_set_swingWeight)) float_t swingWeight;
 
   /// @brief Field rotateOnce, offset 0x4c, size 0x1
-  __declspec(property(get = __get_rotateOnce, put = __set_rotateOnce)) bool rotateOnce;
+  __declspec(property(get = __cordl_internal_get_rotateOnce, put = __cordl_internal_set_rotateOnce)) bool rotateOnce;
 
   /// @brief Field defaultLocalRotation, offset 0x50, size 0x10
-  __declspec(property(get = __get_defaultLocalRotation, put = __set_defaultLocalRotation))::UnityEngine::Quaternion defaultLocalRotation;
+  __declspec(property(get = __cordl_internal_get_defaultLocalRotation, put = __cordl_internal_set_defaultLocalRotation))::UnityEngine::Quaternion defaultLocalRotation;
 
   /// @brief Field lastPivot, offset 0x60, size 0x8
-  __declspec(property(get = __get_lastPivot, put = __set_lastPivot))::UnityEngine::Transform* lastPivot;
+  __declspec(property(get = __cordl_internal_get_lastPivot, put = __cordl_internal_set_lastPivot))::UnityW<::UnityEngine::Transform> lastPivot;
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& __get_effectorType();
+  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& __cordl_internal_get_effectorType();
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& __get_effectorType() const;
+  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& __cordl_internal_get_effectorType() const;
 
-  constexpr void __set_effectorType(::RootMotion::FinalIK::FullBodyBipedEffector value);
+  constexpr void __cordl_internal_set_effectorType(::RootMotion::FinalIK::FullBodyBipedEffector value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionTarget__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionTarget__Multiplier*>*>& __get_multipliers();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionTarget__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionTarget__Multiplier*>*>& __cordl_internal_get_multipliers();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionTarget__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionTarget__Multiplier*>*> const& __get_multipliers() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__InteractionTarget__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionTarget__Multiplier*>*> const& __cordl_internal_get_multipliers() const;
 
-  constexpr void __set_multipliers(::ArrayW<::RootMotion::FinalIK::__InteractionTarget__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionTarget__Multiplier*>*> value);
+  constexpr void __cordl_internal_set_multipliers(::ArrayW<::RootMotion::FinalIK::__InteractionTarget__Multiplier*, ::Array<::RootMotion::FinalIK::__InteractionTarget__Multiplier*>*> value);
 
-  constexpr float_t& __get_interactionSpeedMlp();
+  constexpr float_t& __cordl_internal_get_interactionSpeedMlp();
 
-  constexpr float_t const& __get_interactionSpeedMlp() const;
+  constexpr float_t const& __cordl_internal_get_interactionSpeedMlp() const;
 
-  constexpr void __set_interactionSpeedMlp(float_t value);
+  constexpr void __cordl_internal_set_interactionSpeedMlp(float_t value);
 
-  constexpr ::UnityEngine::Transform*& __get_pivot();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_pivot();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_pivot() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_pivot() const;
 
-  constexpr void __set_pivot(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_pivot(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Vector3& __get_twistAxis();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_twistAxis();
 
-  constexpr ::UnityEngine::Vector3 const& __get_twistAxis() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_twistAxis() const;
 
-  constexpr void __set_twistAxis(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_twistAxis(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get_twistWeight();
+  constexpr float_t& __cordl_internal_get_twistWeight();
 
-  constexpr float_t const& __get_twistWeight() const;
+  constexpr float_t const& __cordl_internal_get_twistWeight() const;
 
-  constexpr void __set_twistWeight(float_t value);
+  constexpr void __cordl_internal_set_twistWeight(float_t value);
 
-  constexpr float_t& __get_swingWeight();
+  constexpr float_t& __cordl_internal_get_swingWeight();
 
-  constexpr float_t const& __get_swingWeight() const;
+  constexpr float_t const& __cordl_internal_get_swingWeight() const;
 
-  constexpr void __set_swingWeight(float_t value);
+  constexpr void __cordl_internal_set_swingWeight(float_t value);
 
-  constexpr bool& __get_rotateOnce();
+  constexpr bool& __cordl_internal_get_rotateOnce();
 
-  constexpr bool const& __get_rotateOnce() const;
+  constexpr bool const& __cordl_internal_get_rotateOnce() const;
 
-  constexpr void __set_rotateOnce(bool value);
+  constexpr void __cordl_internal_set_rotateOnce(bool value);
 
-  constexpr ::UnityEngine::Quaternion& __get_defaultLocalRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_defaultLocalRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_defaultLocalRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_defaultLocalRotation() const;
 
-  constexpr void __set_defaultLocalRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_defaultLocalRotation(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Transform*& __get_lastPivot();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_lastPivot();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_lastPivot() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_lastPivot() const;
 
-  constexpr void __set_lastPivot(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_lastPivot(::UnityW<::UnityEngine::Transform> value);
 
   /// @brief Method OpenUserManual, addr 0x128b520, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();
@@ -260,7 +261,7 @@ public:
   float_t ___interactionSpeedMlp;
 
   /// @brief Field pivot, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___pivot;
+  ::UnityW<::UnityEngine::Transform> ___pivot;
 
   /// @brief Field twistAxis, offset: 0x38, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___twistAxis;
@@ -278,7 +279,7 @@ public:
   ::UnityEngine::Quaternion ___defaultLocalRotation;
 
   /// @brief Field lastPivot, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___lastPivot;
+  ::UnityW<::UnityEngine::Transform> ___lastPivot;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

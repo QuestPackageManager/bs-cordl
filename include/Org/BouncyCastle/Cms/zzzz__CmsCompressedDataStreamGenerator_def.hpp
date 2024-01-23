@@ -34,47 +34,47 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::__CmsCompressedDataStreamGenerator__Cms
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(484))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(631))
 // CS Name: ::CmsCompressedDataStreamGenerator::CmsCompressedOutputStream*
 class CORDL_TYPE __CmsCompressedDataStreamGenerator__CmsCompressedOutputStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
   // Declarations
   /// @brief Field _out, offset 0x30, size 0x8
-  __declspec(property(get = __get__out, put = __set__out))::Org::BouncyCastle::Utilities::Zlib::ZOutputStream* _out;
+  __declspec(property(get = __cordl_internal_get__out, put = __cordl_internal_set__out))::Org::BouncyCastle::Utilities::Zlib::ZOutputStream* _out;
 
   /// @brief Field _sGen, offset 0x38, size 0x8
-  __declspec(property(get = __get__sGen, put = __set__sGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* _sGen;
+  __declspec(property(get = __cordl_internal_get__sGen, put = __cordl_internal_set__sGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* _sGen;
 
   /// @brief Field _cGen, offset 0x40, size 0x8
-  __declspec(property(get = __get__cGen, put = __set__cGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* _cGen;
+  __declspec(property(get = __cordl_internal_get__cGen, put = __cordl_internal_set__cGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* _cGen;
 
   /// @brief Field _eiGen, offset 0x48, size 0x8
-  __declspec(property(get = __get__eiGen, put = __set__eiGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* _eiGen;
+  __declspec(property(get = __cordl_internal_get__eiGen, put = __cordl_internal_set__eiGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* _eiGen;
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream*& __get__out();
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream*& __cordl_internal_get__out();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::ZOutputStream*> const& __get__out() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::ZOutputStream*> const& __cordl_internal_get__out() const;
 
-  constexpr void __set__out(::Org::BouncyCastle::Utilities::Zlib::ZOutputStream* value);
+  constexpr void __cordl_internal_set__out(::Org::BouncyCastle::Utilities::Zlib::ZOutputStream* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __get__sGen();
+  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __cordl_internal_get__sGen();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __get__sGen() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __cordl_internal_get__sGen() const;
 
-  constexpr void __set__sGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
+  constexpr void __cordl_internal_set__sGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __get__cGen();
+  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __cordl_internal_get__cGen();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __get__cGen() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __cordl_internal_get__cGen() const;
 
-  constexpr void __set__cGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
+  constexpr void __cordl_internal_set__cGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __get__eiGen();
+  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __cordl_internal_get__eiGen();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __get__eiGen() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __cordl_internal_get__eiGen() const;
 
-  constexpr void __set__eiGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
+  constexpr void __cordl_internal_set__eiGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
 
   static inline ::Org::BouncyCastle::Cms::__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream* New_ctor(::Org::BouncyCastle::Utilities::Zlib::ZOutputStream* outStream,
                                                                                                                   ::Org::BouncyCastle::Asn1::BerSequenceGenerator* sGen,
@@ -138,7 +138,7 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsCompressedDataStreamGenera
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(632))
 // CS Name: ::Org.BouncyCastle.Cms::CmsCompressedDataStreamGenerator*
 class CORDL_TYPE CmsCompressedDataStreamGenerator : public ::System::Object {
@@ -147,13 +147,13 @@ public:
   using CmsCompressedOutputStream = ::Org::BouncyCastle::Cms::__CmsCompressedDataStreamGenerator__CmsCompressedOutputStream;
 
   /// @brief Field _bufferSize, offset 0x10, size 0x4
-  __declspec(property(get = __get__bufferSize, put = __set__bufferSize)) int32_t _bufferSize;
+  __declspec(property(get = __cordl_internal_get__bufferSize, put = __cordl_internal_set__bufferSize)) int32_t _bufferSize;
 
-  constexpr int32_t& __get__bufferSize();
+  constexpr int32_t& __cordl_internal_get__bufferSize();
 
-  constexpr int32_t const& __get__bufferSize() const;
+  constexpr int32_t const& __cordl_internal_get__bufferSize() const;
 
-  constexpr void __set__bufferSize(int32_t value);
+  constexpr void __cordl_internal_set__bufferSize(int32_t value);
 
   static inline ::Org::BouncyCastle::Cms::CmsCompressedDataStreamGenerator* New_ctor();
 

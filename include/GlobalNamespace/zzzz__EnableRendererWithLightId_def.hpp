@@ -21,38 +21,38 @@ MARK_REF_PTR_T(::GlobalNamespace::EnableRendererWithLightId);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14542))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14529))
 // CS Name: ::EnableRendererWithLightId*
 class CORDL_TYPE EnableRendererWithLightId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
   // Declarations
   /// @brief Field _renderer, offset 0x30, size 0x8
-  __declspec(property(get = __get__renderer, put = __set__renderer))::UnityEngine::Renderer* _renderer;
+  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::Renderer> _renderer;
 
   /// @brief Field _hideAlphaRangeMin, offset 0x38, size 0x4
-  __declspec(property(get = __get__hideAlphaRangeMin, put = __set__hideAlphaRangeMin)) float_t _hideAlphaRangeMin;
+  __declspec(property(get = __cordl_internal_get__hideAlphaRangeMin, put = __cordl_internal_set__hideAlphaRangeMin)) float_t _hideAlphaRangeMin;
 
   /// @brief Field _hideAlphaRangeMax, offset 0x3c, size 0x4
-  __declspec(property(get = __get__hideAlphaRangeMax, put = __set__hideAlphaRangeMax)) float_t _hideAlphaRangeMax;
+  __declspec(property(get = __cordl_internal_get__hideAlphaRangeMax, put = __cordl_internal_set__hideAlphaRangeMax)) float_t _hideAlphaRangeMax;
 
-  constexpr ::UnityEngine::Renderer*& __get__renderer();
+  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get__renderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Renderer*> const& __get__renderer() const;
+  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get__renderer() const;
 
-  constexpr void __set__renderer(::UnityEngine::Renderer* value);
+  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  constexpr float_t& __get__hideAlphaRangeMin();
+  constexpr float_t& __cordl_internal_get__hideAlphaRangeMin();
 
-  constexpr float_t const& __get__hideAlphaRangeMin() const;
+  constexpr float_t const& __cordl_internal_get__hideAlphaRangeMin() const;
 
-  constexpr void __set__hideAlphaRangeMin(float_t value);
+  constexpr void __cordl_internal_set__hideAlphaRangeMin(float_t value);
 
-  constexpr float_t& __get__hideAlphaRangeMax();
+  constexpr float_t& __cordl_internal_get__hideAlphaRangeMax();
 
-  constexpr float_t const& __get__hideAlphaRangeMax() const;
+  constexpr float_t const& __cordl_internal_get__hideAlphaRangeMax() const;
 
-  constexpr void __set__hideAlphaRangeMax(float_t value);
+  constexpr void __cordl_internal_set__hideAlphaRangeMax(float_t value);
 
   /// @brief Method ColorWasSet, addr 0x210f21c, size 0x44, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
@@ -77,7 +77,7 @@ protected:
 
 public:
   /// @brief Field _renderer, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Renderer* ____renderer;
+  ::UnityW<::UnityEngine::Renderer> ____renderer;
 
   /// @brief Field _hideAlphaRangeMin, offset: 0x38, size: 0x4, def value: None
   float_t ____hideAlphaRangeMin;

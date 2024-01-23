@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerSpectatingSpot);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5258))
 // CS Name: ::IMultiplayerSpectatingSpot*
 class CORDL_TYPE IMultiplayerSpectatingSpot {
@@ -33,7 +33,7 @@ public:
 
   __declspec(property(get = get_observable))::GlobalNamespace::IMultiplayerObservable* observable;
 
-  __declspec(property(get = get_transform))::UnityEngine::Transform* transform;
+  __declspec(property(get = get_transform))::UnityW<::UnityEngine::Transform> transform;
 
   __declspec(property(get = get_spotName))::StringW spotName;
 
@@ -50,7 +50,7 @@ public:
   inline ::GlobalNamespace::IMultiplayerObservable* get_observable();
 
   /// @brief Method get_transform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::Transform* get_transform();
+  inline ::UnityW<::UnityEngine::Transform> get_transform();
 
   /// @brief Method get_spotName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::StringW get_spotName();

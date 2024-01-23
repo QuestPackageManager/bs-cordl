@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::RandomAnimationStartTime);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14376))
 // CS Name: ::RandomAnimationStartTime*
 class CORDL_TYPE RandomAnimationStartTime : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _animation, offset 0x18, size 0x8
-  __declspec(property(get = __get__animation, put = __set__animation))::UnityEngine::Animation* _animation;
+  __declspec(property(get = __cordl_internal_get__animation, put = __cordl_internal_set__animation))::UnityW<::UnityEngine::Animation> _animation;
 
-  constexpr ::UnityEngine::Animation*& __get__animation();
+  constexpr ::UnityW<::UnityEngine::Animation>& __cordl_internal_get__animation();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animation*> const& __get__animation() const;
+  constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
 
-  constexpr void __set__animation(::UnityEngine::Animation* value);
+  constexpr void __cordl_internal_set__animation(::UnityW<::UnityEngine::Animation> value);
 
   /// @brief Method Start, addr 0x20f39a4, size 0x2e4, virtual false, abstract: false, final false
   inline void Start();
@@ -55,7 +55,7 @@ protected:
 
 public:
   /// @brief Field _animation, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Animation* ____animation;
+  ::UnityW<::UnityEngine::Animation> ____animation;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

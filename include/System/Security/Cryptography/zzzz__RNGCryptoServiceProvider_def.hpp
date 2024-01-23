@@ -20,23 +20,23 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RNGCryptoServiceProvider);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2946))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2946))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2982))
 // CS Name: ::System.Security.Cryptography::RNGCryptoServiceProvider*
 class CORDL_TYPE RNGCryptoServiceProvider : public ::System::Security::Cryptography::RandomNumberGenerator {
 public:
   // Declarations
   /// @brief Field _handle, offset 0x10, size 0x8
-  __declspec(property(get = __get__handle, put = __set__handle)) void* _handle;
+  __declspec(property(get = __cordl_internal_get__handle, put = __cordl_internal_set__handle)) void* _handle;
 
   /// @brief Field _lock, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__lock, put = setStaticF__lock))::System::Object* _lock;
 
-  constexpr void*& __get__handle();
+  constexpr void*& __cordl_internal_get__handle();
 
-  constexpr void* const& __get__handle() const;
+  constexpr void* const& __cordl_internal_get__handle() const;
 
-  constexpr void __set__handle(void* value);
+  constexpr void __cordl_internal_set__handle(void* value);
 
   static inline void setStaticF__lock(::System::Object* value);
 

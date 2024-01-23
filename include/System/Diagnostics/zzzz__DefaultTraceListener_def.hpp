@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::System::Diagnostics::DefaultTraceListener);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8943))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8943))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8958))
 // CS Name: ::System.Diagnostics::DefaultTraceListener*
 class CORDL_TYPE DefaultTraceListener : public ::System::Diagnostics::TraceListener {
 public:
   // Declarations
   /// @brief Field logFileName, offset 0x38, size 0x8
-  __declspec(property(get = __get_logFileName, put = __set_logFileName))::StringW logFileName;
+  __declspec(property(get = __cordl_internal_get_logFileName, put = __cordl_internal_set_logFileName))::StringW logFileName;
 
   /// @brief Field OnWin32, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_OnWin32, put = setStaticF_OnWin32)) bool OnWin32;
@@ -35,11 +35,11 @@ public:
 
   __declspec(property(get = get_LogFileName))::StringW LogFileName;
 
-  constexpr ::StringW& __get_logFileName();
+  constexpr ::StringW& __cordl_internal_get_logFileName();
 
-  constexpr ::StringW const& __get_logFileName() const;
+  constexpr ::StringW const& __cordl_internal_get_logFileName() const;
 
-  constexpr void __set_logFileName(::StringW value);
+  constexpr void __cordl_internal_set_logFileName(::StringW value);
 
   static inline void setStaticF_OnWin32(bool value);
 

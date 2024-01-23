@@ -38,47 +38,47 @@ MARK_REF_PTR_T(::System::ComponentModel::MemberDescriptor);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9474))
 // CS Name: ::System.ComponentModel::MemberDescriptor*
 class CORDL_TYPE MemberDescriptor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field displayName, offset 0x18, size 0x8
-  __declspec(property(get = __get_displayName, put = __set_displayName))::StringW displayName;
+  __declspec(property(get = __cordl_internal_get_displayName, put = __cordl_internal_set_displayName))::StringW displayName;
 
   /// @brief Field nameHash, offset 0x20, size 0x4
-  __declspec(property(get = __get_nameHash, put = __set_nameHash)) int32_t nameHash;
+  __declspec(property(get = __cordl_internal_get_nameHash, put = __cordl_internal_set_nameHash)) int32_t nameHash;
 
   /// @brief Field attributeCollection, offset 0x28, size 0x8
-  __declspec(property(get = __get_attributeCollection, put = __set_attributeCollection))::System::ComponentModel::AttributeCollection* attributeCollection;
+  __declspec(property(get = __cordl_internal_get_attributeCollection, put = __cordl_internal_set_attributeCollection))::System::ComponentModel::AttributeCollection* attributeCollection;
 
   /// @brief Field attributes, offset 0x30, size 0x8
-  __declspec(property(get = __get_attributes, put = __set_attributes))::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes;
+  __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes))::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes;
 
   /// @brief Field originalAttributes, offset 0x38, size 0x8
-  __declspec(property(get = __get_originalAttributes, put = __set_originalAttributes))::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> originalAttributes;
+  __declspec(property(get = __cordl_internal_get_originalAttributes, put = __cordl_internal_set_originalAttributes))::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> originalAttributes;
 
   /// @brief Field attributesFiltered, offset 0x40, size 0x1
-  __declspec(property(get = __get_attributesFiltered, put = __set_attributesFiltered)) bool attributesFiltered;
+  __declspec(property(get = __cordl_internal_get_attributesFiltered, put = __cordl_internal_set_attributesFiltered)) bool attributesFiltered;
 
   /// @brief Field attributesFilled, offset 0x41, size 0x1
-  __declspec(property(get = __get_attributesFilled, put = __set_attributesFilled)) bool attributesFilled;
+  __declspec(property(get = __cordl_internal_get_attributesFilled, put = __cordl_internal_set_attributesFilled)) bool attributesFilled;
 
   /// @brief Field metadataVersion, offset 0x44, size 0x4
-  __declspec(property(get = __get_metadataVersion, put = __set_metadataVersion)) int32_t metadataVersion;
+  __declspec(property(get = __cordl_internal_get_metadataVersion, put = __cordl_internal_set_metadataVersion)) int32_t metadataVersion;
 
   /// @brief Field category, offset 0x48, size 0x8
-  __declspec(property(get = __get_category, put = __set_category))::StringW category;
+  __declspec(property(get = __cordl_internal_get_category, put = __cordl_internal_set_category))::StringW category;
 
   /// @brief Field description, offset 0x50, size 0x8
-  __declspec(property(get = __get_description, put = __set_description))::StringW description;
+  __declspec(property(get = __cordl_internal_get_description, put = __cordl_internal_set_description))::StringW description;
 
   /// @brief Field lockCookie, offset 0x58, size 0x8
-  __declspec(property(get = __get_lockCookie, put = __set_lockCookie))::System::Object* lockCookie;
+  __declspec(property(get = __cordl_internal_get_lockCookie, put = __cordl_internal_set_lockCookie))::System::Object* lockCookie;
 
   __declspec(property(get = get_AttributeArray, put = set_AttributeArray))::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> AttributeArray;
 
@@ -90,77 +90,77 @@ public:
 
   __declspec(property(get = get_DisplayName))::StringW DisplayName;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::StringW& __get_displayName();
+  constexpr ::StringW& __cordl_internal_get_displayName();
 
-  constexpr ::StringW const& __get_displayName() const;
+  constexpr ::StringW const& __cordl_internal_get_displayName() const;
 
-  constexpr void __set_displayName(::StringW value);
+  constexpr void __cordl_internal_set_displayName(::StringW value);
 
-  constexpr int32_t& __get_nameHash();
+  constexpr int32_t& __cordl_internal_get_nameHash();
 
-  constexpr int32_t const& __get_nameHash() const;
+  constexpr int32_t const& __cordl_internal_get_nameHash() const;
 
-  constexpr void __set_nameHash(int32_t value);
+  constexpr void __cordl_internal_set_nameHash(int32_t value);
 
-  constexpr ::System::ComponentModel::AttributeCollection*& __get_attributeCollection();
+  constexpr ::System::ComponentModel::AttributeCollection*& __cordl_internal_get_attributeCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::AttributeCollection*> const& __get_attributeCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::AttributeCollection*> const& __cordl_internal_get_attributeCollection() const;
 
-  constexpr void __set_attributeCollection(::System::ComponentModel::AttributeCollection* value);
+  constexpr void __cordl_internal_set_attributeCollection(::System::ComponentModel::AttributeCollection* value);
 
-  constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>& __get_attributes();
+  constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>& __cordl_internal_get_attributes();
 
-  constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> const& __get_attributes() const;
+  constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> const& __cordl_internal_get_attributes() const;
 
-  constexpr void __set_attributes(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value);
+  constexpr void __cordl_internal_set_attributes(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value);
 
-  constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>& __get_originalAttributes();
+  constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>& __cordl_internal_get_originalAttributes();
 
-  constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> const& __get_originalAttributes() const;
+  constexpr ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> const& __cordl_internal_get_originalAttributes() const;
 
-  constexpr void __set_originalAttributes(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value);
+  constexpr void __cordl_internal_set_originalAttributes(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> value);
 
-  constexpr bool& __get_attributesFiltered();
+  constexpr bool& __cordl_internal_get_attributesFiltered();
 
-  constexpr bool const& __get_attributesFiltered() const;
+  constexpr bool const& __cordl_internal_get_attributesFiltered() const;
 
-  constexpr void __set_attributesFiltered(bool value);
+  constexpr void __cordl_internal_set_attributesFiltered(bool value);
 
-  constexpr bool& __get_attributesFilled();
+  constexpr bool& __cordl_internal_get_attributesFilled();
 
-  constexpr bool const& __get_attributesFilled() const;
+  constexpr bool const& __cordl_internal_get_attributesFilled() const;
 
-  constexpr void __set_attributesFilled(bool value);
+  constexpr void __cordl_internal_set_attributesFilled(bool value);
 
-  constexpr int32_t& __get_metadataVersion();
+  constexpr int32_t& __cordl_internal_get_metadataVersion();
 
-  constexpr int32_t const& __get_metadataVersion() const;
+  constexpr int32_t const& __cordl_internal_get_metadataVersion() const;
 
-  constexpr void __set_metadataVersion(int32_t value);
+  constexpr void __cordl_internal_set_metadataVersion(int32_t value);
 
-  constexpr ::StringW& __get_category();
+  constexpr ::StringW& __cordl_internal_get_category();
 
-  constexpr ::StringW const& __get_category() const;
+  constexpr ::StringW const& __cordl_internal_get_category() const;
 
-  constexpr void __set_category(::StringW value);
+  constexpr void __cordl_internal_set_category(::StringW value);
 
-  constexpr ::StringW& __get_description();
+  constexpr ::StringW& __cordl_internal_get_description();
 
-  constexpr ::StringW const& __get_description() const;
+  constexpr ::StringW const& __cordl_internal_get_description() const;
 
-  constexpr void __set_description(::StringW value);
+  constexpr void __cordl_internal_set_description(::StringW value);
 
-  constexpr ::System::Object*& __get_lockCookie();
+  constexpr ::System::Object*& __cordl_internal_get_lockCookie();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_lockCookie() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_lockCookie() const;
 
-  constexpr void __set_lockCookie(::System::Object* value);
+  constexpr void __cordl_internal_set_lockCookie(::System::Object* value);
 
   static inline ::System::ComponentModel::MemberDescriptor* New_ctor(::StringW name, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 

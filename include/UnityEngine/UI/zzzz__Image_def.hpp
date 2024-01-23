@@ -114,7 +114,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::Image);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13048))
 // CS Name: ::Image::Type
 struct CORDL_TYPE __Image__Type {
@@ -172,7 +172,7 @@ static_assert(offsetof(::UnityEngine::UI::__Image__Type, value__) == 0x0, "Offse
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13049))
 // CS Name: ::Image::FillMethod
 struct CORDL_TYPE __Image__FillMethod {
@@ -234,7 +234,7 @@ static_assert(offsetof(::UnityEngine::UI::__Image__FillMethod, value__) == 0x0, 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13050))
 // CS Name: ::Image::OriginHorizontal
 struct CORDL_TYPE __Image__OriginHorizontal {
@@ -284,7 +284,7 @@ static_assert(offsetof(::UnityEngine::UI::__Image__OriginHorizontal, value__) ==
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13051))
 // CS Name: ::Image::OriginVertical
 struct CORDL_TYPE __Image__OriginVertical {
@@ -334,7 +334,7 @@ static_assert(offsetof(::UnityEngine::UI::__Image__OriginVertical, value__) == 0
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13052))
 // CS Name: ::Image::Origin90
 struct CORDL_TYPE __Image__Origin90 {
@@ -392,7 +392,7 @@ static_assert(offsetof(::UnityEngine::UI::__Image__Origin90, value__) == 0x0, "O
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13053))
 // CS Name: ::Image::Origin180
 struct CORDL_TYPE __Image__Origin180 {
@@ -450,7 +450,7 @@ static_assert(offsetof(::UnityEngine::UI::__Image__Origin180, value__) == 0x0, "
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13054))
 // CS Name: ::Image::Origin360
 struct CORDL_TYPE __Image__Origin360 {
@@ -508,7 +508,7 @@ static_assert(offsetof(::UnityEngine::UI::__Image__Origin360, value__) == 0x0, "
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13099)), TypeDefinitionIndex(TypeDefinitionIndex(13048)), TypeDefinitionIndex(TypeDefinitionIndex(13049))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13048)), TypeDefinitionIndex(TypeDefinitionIndex(13049)), TypeDefinitionIndex(TypeDefinitionIndex(13099))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13055))
 // CS Name: ::UnityEngine.UI::Image*
 class CORDL_TYPE Image : public ::UnityEngine::UI::MaskableGraphic {
@@ -529,49 +529,49 @@ public:
   using Type = ::UnityEngine::UI::__Image__Type;
 
   /// @brief Field m_Sprite, offset 0xd0, size 0x8
-  __declspec(property(get = __get_m_Sprite, put = __set_m_Sprite))::UnityEngine::Sprite* m_Sprite;
+  __declspec(property(get = __cordl_internal_get_m_Sprite, put = __cordl_internal_set_m_Sprite))::UnityW<::UnityEngine::Sprite> m_Sprite;
 
   /// @brief Field m_OverrideSprite, offset 0xd8, size 0x8
-  __declspec(property(get = __get_m_OverrideSprite, put = __set_m_OverrideSprite))::UnityEngine::Sprite* m_OverrideSprite;
+  __declspec(property(get = __cordl_internal_get_m_OverrideSprite, put = __cordl_internal_set_m_OverrideSprite))::UnityW<::UnityEngine::Sprite> m_OverrideSprite;
 
   /// @brief Field m_Type, offset 0xe0, size 0x4
-  __declspec(property(get = __get_m_Type, put = __set_m_Type))::UnityEngine::UI::__Image__Type m_Type;
+  __declspec(property(get = __cordl_internal_get_m_Type, put = __cordl_internal_set_m_Type))::UnityEngine::UI::__Image__Type m_Type;
 
   /// @brief Field m_PreserveAspect, offset 0xe4, size 0x1
-  __declspec(property(get = __get_m_PreserveAspect, put = __set_m_PreserveAspect)) bool m_PreserveAspect;
+  __declspec(property(get = __cordl_internal_get_m_PreserveAspect, put = __cordl_internal_set_m_PreserveAspect)) bool m_PreserveAspect;
 
   /// @brief Field m_FillCenter, offset 0xe5, size 0x1
-  __declspec(property(get = __get_m_FillCenter, put = __set_m_FillCenter)) bool m_FillCenter;
+  __declspec(property(get = __cordl_internal_get_m_FillCenter, put = __cordl_internal_set_m_FillCenter)) bool m_FillCenter;
 
   /// @brief Field m_FillMethod, offset 0xe8, size 0x4
-  __declspec(property(get = __get_m_FillMethod, put = __set_m_FillMethod))::UnityEngine::UI::__Image__FillMethod m_FillMethod;
+  __declspec(property(get = __cordl_internal_get_m_FillMethod, put = __cordl_internal_set_m_FillMethod))::UnityEngine::UI::__Image__FillMethod m_FillMethod;
 
   /// @brief Field m_FillAmount, offset 0xec, size 0x4
-  __declspec(property(get = __get_m_FillAmount, put = __set_m_FillAmount)) float_t m_FillAmount;
+  __declspec(property(get = __cordl_internal_get_m_FillAmount, put = __cordl_internal_set_m_FillAmount)) float_t m_FillAmount;
 
   /// @brief Field m_FillClockwise, offset 0xf0, size 0x1
-  __declspec(property(get = __get_m_FillClockwise, put = __set_m_FillClockwise)) bool m_FillClockwise;
+  __declspec(property(get = __cordl_internal_get_m_FillClockwise, put = __cordl_internal_set_m_FillClockwise)) bool m_FillClockwise;
 
   /// @brief Field m_FillOrigin, offset 0xf4, size 0x4
-  __declspec(property(get = __get_m_FillOrigin, put = __set_m_FillOrigin)) int32_t m_FillOrigin;
+  __declspec(property(get = __cordl_internal_get_m_FillOrigin, put = __cordl_internal_set_m_FillOrigin)) int32_t m_FillOrigin;
 
   /// @brief Field m_AlphaHitTestMinimumThreshold, offset 0xf8, size 0x4
-  __declspec(property(get = __get_m_AlphaHitTestMinimumThreshold, put = __set_m_AlphaHitTestMinimumThreshold)) float_t m_AlphaHitTestMinimumThreshold;
+  __declspec(property(get = __cordl_internal_get_m_AlphaHitTestMinimumThreshold, put = __cordl_internal_set_m_AlphaHitTestMinimumThreshold)) float_t m_AlphaHitTestMinimumThreshold;
 
   /// @brief Field m_Tracked, offset 0xfc, size 0x1
-  __declspec(property(get = __get_m_Tracked, put = __set_m_Tracked)) bool m_Tracked;
+  __declspec(property(get = __cordl_internal_get_m_Tracked, put = __cordl_internal_set_m_Tracked)) bool m_Tracked;
 
   /// @brief Field m_UseSpriteMesh, offset 0xfd, size 0x1
-  __declspec(property(get = __get_m_UseSpriteMesh, put = __set_m_UseSpriteMesh)) bool m_UseSpriteMesh;
+  __declspec(property(get = __cordl_internal_get_m_UseSpriteMesh, put = __cordl_internal_set_m_UseSpriteMesh)) bool m_UseSpriteMesh;
 
   /// @brief Field m_PixelsPerUnitMultiplier, offset 0x100, size 0x4
-  __declspec(property(get = __get_m_PixelsPerUnitMultiplier, put = __set_m_PixelsPerUnitMultiplier)) float_t m_PixelsPerUnitMultiplier;
+  __declspec(property(get = __cordl_internal_get_m_PixelsPerUnitMultiplier, put = __cordl_internal_set_m_PixelsPerUnitMultiplier)) float_t m_PixelsPerUnitMultiplier;
 
   /// @brief Field m_CachedReferencePixelsPerUnit, offset 0x104, size 0x4
-  __declspec(property(get = __get_m_CachedReferencePixelsPerUnit, put = __set_m_CachedReferencePixelsPerUnit)) float_t m_CachedReferencePixelsPerUnit;
+  __declspec(property(get = __cordl_internal_get_m_CachedReferencePixelsPerUnit, put = __cordl_internal_set_m_CachedReferencePixelsPerUnit)) float_t m_CachedReferencePixelsPerUnit;
 
   /// @brief Field s_ETC1DefaultUI, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ETC1DefaultUI, put = setStaticF_s_ETC1DefaultUI))::UnityEngine::Material* s_ETC1DefaultUI;
+  static __declspec(property(get = getStaticF_s_ETC1DefaultUI, put = setStaticF_s_ETC1DefaultUI))::UnityW<::UnityEngine::Material> s_ETC1DefaultUI;
 
   /// @brief Field s_VertScratch, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_VertScratch, put = setStaticF_s_VertScratch))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> s_VertScratch;
@@ -587,16 +587,16 @@ public:
 
   /// @brief Field m_TrackedTexturelessImages, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_m_TrackedTexturelessImages,
-                             put = setStaticF_m_TrackedTexturelessImages))::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* m_TrackedTexturelessImages;
+                             put = setStaticF_m_TrackedTexturelessImages))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* m_TrackedTexturelessImages;
 
   /// @brief Field s_Initialized, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_s_Initialized, put = setStaticF_s_Initialized)) bool s_Initialized;
 
-  __declspec(property(get = get_sprite, put = set_sprite))::UnityEngine::Sprite* sprite;
+  __declspec(property(get = get_sprite, put = set_sprite))::UnityW<::UnityEngine::Sprite> sprite;
 
-  __declspec(property(get = get_overrideSprite, put = set_overrideSprite))::UnityEngine::Sprite* overrideSprite;
+  __declspec(property(get = get_overrideSprite, put = set_overrideSprite))::UnityW<::UnityEngine::Sprite> overrideSprite;
 
-  __declspec(property(get = get_activeSprite))::UnityEngine::Sprite* activeSprite;
+  __declspec(property(get = get_activeSprite))::UnityW<::UnityEngine::Sprite> activeSprite;
 
   __declspec(property(get = get_type, put = set_type))::UnityEngine::UI::__Image__Type type;
 
@@ -618,7 +618,7 @@ public:
 
   __declspec(property(get = get_useSpriteMesh, put = set_useSpriteMesh)) bool useSpriteMesh;
 
-  __declspec(property(get = get_mainTexture))::UnityEngine::Texture* mainTexture;
+  __declspec(property(get = get_mainTexture))::UnityW<::UnityEngine::Texture> mainTexture;
 
   __declspec(property(get = get_hasBorder)) bool hasBorder;
 
@@ -628,7 +628,7 @@ public:
 
   __declspec(property(get = get_multipliedPixelsPerUnit)) float_t multipliedPixelsPerUnit;
 
-  __declspec(property(get = get_material, put = set_material))::UnityEngine::Material* material;
+  __declspec(property(get = get_material, put = set_material))::UnityW<::UnityEngine::Material> material;
 
   __declspec(property(get = get_minWidth)) float_t minWidth;
 
@@ -662,93 +662,93 @@ public:
   /// @brief Convert to "::UnityEngine::ICanvasRaycastFilter"
   constexpr ::UnityEngine::ICanvasRaycastFilter* i___UnityEngine__ICanvasRaycastFilter() noexcept;
 
-  constexpr ::UnityEngine::Sprite*& __get_m_Sprite();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get_m_Sprite();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get_m_Sprite() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get_m_Sprite() const;
 
-  constexpr void __set_m_Sprite(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set_m_Sprite(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Sprite*& __get_m_OverrideSprite();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get_m_OverrideSprite();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get_m_OverrideSprite() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get_m_OverrideSprite() const;
 
-  constexpr void __set_m_OverrideSprite(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set_m_OverrideSprite(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::UI::__Image__Type& __get_m_Type();
+  constexpr ::UnityEngine::UI::__Image__Type& __cordl_internal_get_m_Type();
 
-  constexpr ::UnityEngine::UI::__Image__Type const& __get_m_Type() const;
+  constexpr ::UnityEngine::UI::__Image__Type const& __cordl_internal_get_m_Type() const;
 
-  constexpr void __set_m_Type(::UnityEngine::UI::__Image__Type value);
+  constexpr void __cordl_internal_set_m_Type(::UnityEngine::UI::__Image__Type value);
 
-  constexpr bool& __get_m_PreserveAspect();
+  constexpr bool& __cordl_internal_get_m_PreserveAspect();
 
-  constexpr bool const& __get_m_PreserveAspect() const;
+  constexpr bool const& __cordl_internal_get_m_PreserveAspect() const;
 
-  constexpr void __set_m_PreserveAspect(bool value);
+  constexpr void __cordl_internal_set_m_PreserveAspect(bool value);
 
-  constexpr bool& __get_m_FillCenter();
+  constexpr bool& __cordl_internal_get_m_FillCenter();
 
-  constexpr bool const& __get_m_FillCenter() const;
+  constexpr bool const& __cordl_internal_get_m_FillCenter() const;
 
-  constexpr void __set_m_FillCenter(bool value);
+  constexpr void __cordl_internal_set_m_FillCenter(bool value);
 
-  constexpr ::UnityEngine::UI::__Image__FillMethod& __get_m_FillMethod();
+  constexpr ::UnityEngine::UI::__Image__FillMethod& __cordl_internal_get_m_FillMethod();
 
-  constexpr ::UnityEngine::UI::__Image__FillMethod const& __get_m_FillMethod() const;
+  constexpr ::UnityEngine::UI::__Image__FillMethod const& __cordl_internal_get_m_FillMethod() const;
 
-  constexpr void __set_m_FillMethod(::UnityEngine::UI::__Image__FillMethod value);
+  constexpr void __cordl_internal_set_m_FillMethod(::UnityEngine::UI::__Image__FillMethod value);
 
-  constexpr float_t& __get_m_FillAmount();
+  constexpr float_t& __cordl_internal_get_m_FillAmount();
 
-  constexpr float_t const& __get_m_FillAmount() const;
+  constexpr float_t const& __cordl_internal_get_m_FillAmount() const;
 
-  constexpr void __set_m_FillAmount(float_t value);
+  constexpr void __cordl_internal_set_m_FillAmount(float_t value);
 
-  constexpr bool& __get_m_FillClockwise();
+  constexpr bool& __cordl_internal_get_m_FillClockwise();
 
-  constexpr bool const& __get_m_FillClockwise() const;
+  constexpr bool const& __cordl_internal_get_m_FillClockwise() const;
 
-  constexpr void __set_m_FillClockwise(bool value);
+  constexpr void __cordl_internal_set_m_FillClockwise(bool value);
 
-  constexpr int32_t& __get_m_FillOrigin();
+  constexpr int32_t& __cordl_internal_get_m_FillOrigin();
 
-  constexpr int32_t const& __get_m_FillOrigin() const;
+  constexpr int32_t const& __cordl_internal_get_m_FillOrigin() const;
 
-  constexpr void __set_m_FillOrigin(int32_t value);
+  constexpr void __cordl_internal_set_m_FillOrigin(int32_t value);
 
-  constexpr float_t& __get_m_AlphaHitTestMinimumThreshold();
+  constexpr float_t& __cordl_internal_get_m_AlphaHitTestMinimumThreshold();
 
-  constexpr float_t const& __get_m_AlphaHitTestMinimumThreshold() const;
+  constexpr float_t const& __cordl_internal_get_m_AlphaHitTestMinimumThreshold() const;
 
-  constexpr void __set_m_AlphaHitTestMinimumThreshold(float_t value);
+  constexpr void __cordl_internal_set_m_AlphaHitTestMinimumThreshold(float_t value);
 
-  constexpr bool& __get_m_Tracked();
+  constexpr bool& __cordl_internal_get_m_Tracked();
 
-  constexpr bool const& __get_m_Tracked() const;
+  constexpr bool const& __cordl_internal_get_m_Tracked() const;
 
-  constexpr void __set_m_Tracked(bool value);
+  constexpr void __cordl_internal_set_m_Tracked(bool value);
 
-  constexpr bool& __get_m_UseSpriteMesh();
+  constexpr bool& __cordl_internal_get_m_UseSpriteMesh();
 
-  constexpr bool const& __get_m_UseSpriteMesh() const;
+  constexpr bool const& __cordl_internal_get_m_UseSpriteMesh() const;
 
-  constexpr void __set_m_UseSpriteMesh(bool value);
+  constexpr void __cordl_internal_set_m_UseSpriteMesh(bool value);
 
-  constexpr float_t& __get_m_PixelsPerUnitMultiplier();
+  constexpr float_t& __cordl_internal_get_m_PixelsPerUnitMultiplier();
 
-  constexpr float_t const& __get_m_PixelsPerUnitMultiplier() const;
+  constexpr float_t const& __cordl_internal_get_m_PixelsPerUnitMultiplier() const;
 
-  constexpr void __set_m_PixelsPerUnitMultiplier(float_t value);
+  constexpr void __cordl_internal_set_m_PixelsPerUnitMultiplier(float_t value);
 
-  constexpr float_t& __get_m_CachedReferencePixelsPerUnit();
+  constexpr float_t& __cordl_internal_get_m_CachedReferencePixelsPerUnit();
 
-  constexpr float_t const& __get_m_CachedReferencePixelsPerUnit() const;
+  constexpr float_t const& __cordl_internal_get_m_CachedReferencePixelsPerUnit() const;
 
-  constexpr void __set_m_CachedReferencePixelsPerUnit(float_t value);
+  constexpr void __cordl_internal_set_m_CachedReferencePixelsPerUnit(float_t value);
 
-  static inline void setStaticF_s_ETC1DefaultUI(::UnityEngine::Material* value);
+  static inline void setStaticF_s_ETC1DefaultUI(::UnityW<::UnityEngine::Material> value);
 
-  static inline ::UnityEngine::Material* getStaticF_s_ETC1DefaultUI();
+  static inline ::UnityW<::UnityEngine::Material> getStaticF_s_ETC1DefaultUI();
 
   static inline void setStaticF_s_VertScratch(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
 
@@ -766,16 +766,16 @@ public:
 
   static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> getStaticF_s_Uv();
 
-  static inline void setStaticF_m_TrackedTexturelessImages(::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* value);
+  static inline void setStaticF_m_TrackedTexturelessImages(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* value);
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* getStaticF_m_TrackedTexturelessImages();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* getStaticF_m_TrackedTexturelessImages();
 
   static inline void setStaticF_s_Initialized(bool value);
 
   static inline bool getStaticF_s_Initialized();
 
   /// @brief Method get_sprite, addr 0x2d60ea4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Sprite* get_sprite();
+  inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
   /// @brief Method set_sprite, addr 0x2d53ffc, size 0x2e8, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
@@ -784,13 +784,13 @@ public:
   inline void DisableSpriteOptimizations();
 
   /// @brief Method get_overrideSprite, addr 0x2d60fa0, size 0x4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Sprite* get_overrideSprite();
+  inline ::UnityW<::UnityEngine::Sprite> get_overrideSprite();
 
   /// @brief Method set_overrideSprite, addr 0x2d6101c, size 0x88, virtual false, abstract: false, final false
   inline void set_overrideSprite(::UnityEngine::Sprite* value);
 
   /// @brief Method get_activeSprite, addr 0x2d60fa4, size 0x78, virtual false, abstract: false, final false
-  inline ::UnityEngine::Sprite* get_activeSprite();
+  inline ::UnityW<::UnityEngine::Sprite> get_activeSprite();
 
   /// @brief Method get_type, addr 0x2d610a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__Image__Type get_type();
@@ -858,10 +858,10 @@ public:
   inline void _ctor();
 
   /// @brief Method get_defaultETC1GraphicMaterial, addr 0x2d614dc, size 0xdc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* get_defaultETC1GraphicMaterial();
+  static inline ::UnityW<::UnityEngine::Material> get_defaultETC1GraphicMaterial();
 
   /// @brief Method get_mainTexture, addr 0x2d615b8, size 0x178, virtual true, abstract: false, final false
-  inline ::UnityEngine::Texture* get_mainTexture();
+  inline ::UnityW<::UnityEngine::Texture> get_mainTexture();
 
   /// @brief Method get_hasBorder, addr 0x2d61730, size 0xb8, virtual false, abstract: false, final false
   inline bool get_hasBorder();
@@ -879,7 +879,7 @@ public:
   inline float_t get_multipliedPixelsPerUnit();
 
   /// @brief Method get_material, addr 0x2d61920, size 0x12c, virtual true, abstract: false, final false
-  inline ::UnityEngine::Material* get_material();
+  inline ::UnityW<::UnityEngine::Material> get_material();
 
   /// @brief Method set_material, addr 0x2d61a4c, size 0x4, virtual true, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
@@ -1010,10 +1010,10 @@ protected:
 
 public:
   /// @brief Field m_Sprite, offset: 0xd0, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ___m_Sprite;
+  ::UnityW<::UnityEngine::Sprite> ___m_Sprite;
 
   /// @brief Field m_OverrideSprite, offset: 0xd8, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ___m_OverrideSprite;
+  ::UnityW<::UnityEngine::Sprite> ___m_OverrideSprite;
 
   /// @brief Field m_Type, offset: 0xe0, size: 0x4, def value: None
   ::UnityEngine::UI::__Image__Type ___m_Type;

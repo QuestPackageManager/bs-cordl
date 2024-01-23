@@ -21,37 +21,37 @@ MARK_REF_PTR_T(::UnityEngine::ResourceRequest);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10201))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10201))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10262))
 // CS Name: ::UnityEngine::ResourceRequest*
 class CORDL_TYPE ResourceRequest : public ::UnityEngine::AsyncOperation {
 public:
   // Declarations
   /// @brief Field m_Path, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Path, put = __set_m_Path))::StringW m_Path;
+  __declspec(property(get = __cordl_internal_get_m_Path, put = __cordl_internal_set_m_Path))::StringW m_Path;
 
   /// @brief Field m_Type, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Type, put = __set_m_Type))::System::Type* m_Type;
+  __declspec(property(get = __cordl_internal_get_m_Type, put = __cordl_internal_set_m_Type))::System::Type* m_Type;
 
-  __declspec(property(get = get_asset))::UnityEngine::Object* asset;
+  __declspec(property(get = get_asset))::UnityW<::UnityEngine::Object> asset;
 
-  constexpr ::StringW& __get_m_Path();
+  constexpr ::StringW& __cordl_internal_get_m_Path();
 
-  constexpr ::StringW const& __get_m_Path() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Path() const;
 
-  constexpr void __set_m_Path(::StringW value);
+  constexpr void __cordl_internal_set_m_Path(::StringW value);
 
-  constexpr ::System::Type*& __get_m_Type();
+  constexpr ::System::Type*& __cordl_internal_get_m_Type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_m_Type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_Type() const;
 
-  constexpr void __set_m_Type(::System::Type* value);
+  constexpr void __cordl_internal_set_m_Type(::System::Type* value);
 
   /// @brief Method GetResult, addr 0x2cddfec, size 0xc, virtual true, abstract: false, final false
-  inline ::UnityEngine::Object* GetResult();
+  inline ::UnityW<::UnityEngine::Object> GetResult();
 
   /// @brief Method get_asset, addr 0x2cde070, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Object* get_asset();
+  inline ::UnityW<::UnityEngine::Object> get_asset();
 
   static inline ::UnityEngine::ResourceRequest* New_ctor();
 

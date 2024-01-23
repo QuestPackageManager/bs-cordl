@@ -20,83 +20,83 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_OutputAttribute);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9707)), TypeDefinitionIndex(TypeDefinitionIndex(9703)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9703)), TypeDefinitionIndex(TypeDefinitionIndex(9707))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9666))
 // CS Name: ::HoudiniEngineUnity::HEU_OutputAttribute*
 class CORDL_TYPE HEU_OutputAttribute : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _name, offset 0x10, size 0x8
-  __declspec(property(get = __get__name, put = __set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
   /// @brief Field _class, offset 0x18, size 0x4
-  __declspec(property(get = __get__class, put = __set__class))::HoudiniEngineUnity::HAPI_AttributeOwner _class;
+  __declspec(property(get = __cordl_internal_get__class, put = __cordl_internal_set__class))::HoudiniEngineUnity::HAPI_AttributeOwner _class;
 
   /// @brief Field _type, offset 0x1c, size 0x4
-  __declspec(property(get = __get__type, put = __set__type))::HoudiniEngineUnity::HAPI_StorageType _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::HoudiniEngineUnity::HAPI_StorageType _type;
 
   /// @brief Field _count, offset 0x20, size 0x4
-  __declspec(property(get = __get__count, put = __set__count)) int32_t _count;
+  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
 
   /// @brief Field _tupleSize, offset 0x24, size 0x4
-  __declspec(property(get = __get__tupleSize, put = __set__tupleSize)) int32_t _tupleSize;
+  __declspec(property(get = __cordl_internal_get__tupleSize, put = __cordl_internal_set__tupleSize)) int32_t _tupleSize;
 
   /// @brief Field _intValues, offset 0x28, size 0x8
-  __declspec(property(get = __get__intValues, put = __set__intValues))::ArrayW<int32_t, ::Array<int32_t>*> _intValues;
+  __declspec(property(get = __cordl_internal_get__intValues, put = __cordl_internal_set__intValues))::ArrayW<int32_t, ::Array<int32_t>*> _intValues;
 
   /// @brief Field _floatValues, offset 0x30, size 0x8
-  __declspec(property(get = __get__floatValues, put = __set__floatValues))::ArrayW<float_t, ::Array<float_t>*> _floatValues;
+  __declspec(property(get = __cordl_internal_get__floatValues, put = __cordl_internal_set__floatValues))::ArrayW<float_t, ::Array<float_t>*> _floatValues;
 
   /// @brief Field _stringValues, offset 0x38, size 0x8
-  __declspec(property(get = __get__stringValues, put = __set__stringValues))::ArrayW<::StringW, ::Array<::StringW>*> _stringValues;
+  __declspec(property(get = __cordl_internal_get__stringValues, put = __cordl_internal_set__stringValues))::ArrayW<::StringW, ::Array<::StringW>*> _stringValues;
 
-  constexpr ::StringW& __get__name();
+  constexpr ::StringW& __cordl_internal_get__name();
 
-  constexpr ::StringW const& __get__name() const;
+  constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr void __set__name(::StringW value);
+  constexpr void __cordl_internal_set__name(::StringW value);
 
-  constexpr ::HoudiniEngineUnity::HAPI_AttributeOwner& __get__class();
+  constexpr ::HoudiniEngineUnity::HAPI_AttributeOwner& __cordl_internal_get__class();
 
-  constexpr ::HoudiniEngineUnity::HAPI_AttributeOwner const& __get__class() const;
+  constexpr ::HoudiniEngineUnity::HAPI_AttributeOwner const& __cordl_internal_get__class() const;
 
-  constexpr void __set__class(::HoudiniEngineUnity::HAPI_AttributeOwner value);
+  constexpr void __cordl_internal_set__class(::HoudiniEngineUnity::HAPI_AttributeOwner value);
 
-  constexpr ::HoudiniEngineUnity::HAPI_StorageType& __get__type();
+  constexpr ::HoudiniEngineUnity::HAPI_StorageType& __cordl_internal_get__type();
 
-  constexpr ::HoudiniEngineUnity::HAPI_StorageType const& __get__type() const;
+  constexpr ::HoudiniEngineUnity::HAPI_StorageType const& __cordl_internal_get__type() const;
 
-  constexpr void __set__type(::HoudiniEngineUnity::HAPI_StorageType value);
+  constexpr void __cordl_internal_set__type(::HoudiniEngineUnity::HAPI_StorageType value);
 
-  constexpr int32_t& __get__count();
+  constexpr int32_t& __cordl_internal_get__count();
 
-  constexpr int32_t const& __get__count() const;
+  constexpr int32_t const& __cordl_internal_get__count() const;
 
-  constexpr void __set__count(int32_t value);
+  constexpr void __cordl_internal_set__count(int32_t value);
 
-  constexpr int32_t& __get__tupleSize();
+  constexpr int32_t& __cordl_internal_get__tupleSize();
 
-  constexpr int32_t const& __get__tupleSize() const;
+  constexpr int32_t const& __cordl_internal_get__tupleSize() const;
 
-  constexpr void __set__tupleSize(int32_t value);
+  constexpr void __cordl_internal_set__tupleSize(int32_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__intValues();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__intValues();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__intValues() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__intValues() const;
 
-  constexpr void __set__intValues(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__intValues(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get__floatValues();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__floatValues();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get__floatValues() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__floatValues() const;
 
-  constexpr void __set__floatValues(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set__floatValues(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__stringValues();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__stringValues();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__stringValues() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__stringValues() const;
 
-  constexpr void __set__stringValues(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__stringValues(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
   static inline ::HoudiniEngineUnity::HEU_OutputAttribute* New_ctor();
 

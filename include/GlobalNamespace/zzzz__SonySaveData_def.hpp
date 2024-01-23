@@ -25,14 +25,14 @@ MARK_REF_PTR_T(::GlobalNamespace::SonySaveData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14389))
 // CS Name: ::SonySaveData*
 class CORDL_TYPE SonySaveData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _isMarkedForSave, offset 0x10, size 0x1
-  __declspec(property(get = __get__isMarkedForSave, put = __set__isMarkedForSave)) bool _isMarkedForSave;
+  __declspec(property(get = __cordl_internal_get__isMarkedForSave, put = __cordl_internal_set__isMarkedForSave)) bool _isMarkedForSave;
 
   /// @brief Convert operator to "::GlobalNamespace::ISaveData"
   constexpr operator ::GlobalNamespace::ISaveData*() noexcept;
@@ -46,11 +46,11 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  constexpr bool& __get__isMarkedForSave();
+  constexpr bool& __cordl_internal_get__isMarkedForSave();
 
-  constexpr bool const& __get__isMarkedForSave() const;
+  constexpr bool const& __cordl_internal_get__isMarkedForSave() const;
 
-  constexpr void __set__isMarkedForSave(bool value);
+  constexpr void __cordl_internal_set__isMarkedForSave(bool value);
 
   /// @brief Method RegisterForTicking, addr 0x20f53dc, size 0x20, virtual false, abstract: false, final false
   inline void RegisterForTicking(::Zenject::TickableManager* tickableManager);

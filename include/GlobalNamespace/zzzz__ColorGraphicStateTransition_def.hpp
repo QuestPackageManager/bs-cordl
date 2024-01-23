@@ -27,33 +27,33 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorGraphicStateTransition);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13042)), TypeDefinitionIndex(TypeDefinitionIndex(5442)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 923
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5446)) CS Name: ::ColorGraphicStateTransition*
-class CORDL_TYPE ColorGraphicStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::UI::Graphic*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5442)), TypeDefinitionIndex(TypeDefinitionIndex(13042)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 923
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5446)) CS Name: ::ColorGraphicStateTransition*
+class CORDL_TYPE ColorGraphicStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityW<::UnityEngine::UI::Graphic>> {
 public:
   // Declarations
   /// @brief Field _transition, offset 0x28, size 0x8
-  __declspec(property(get = __get__transition, put = __set__transition))::GlobalNamespace::ColorTransitionSO* _transition;
+  __declspec(property(get = __cordl_internal_get__transition, put = __cordl_internal_set__transition))::UnityW<::GlobalNamespace::ColorTransitionSO> _transition;
 
   /// @brief Field _colorTween, offset 0x30, size 0x8
-  __declspec(property(get = __get__colorTween, put = __set__colorTween))::Tweening::ColorTween* _colorTween;
+  __declspec(property(get = __cordl_internal_get__colorTween, put = __cordl_internal_set__colorTween))::Tweening::ColorTween* _colorTween;
 
-  __declspec(property(get = get_transition))::GlobalNamespace::BaseTransitionSO* transition;
+  __declspec(property(get = get_transition))::UnityW<::GlobalNamespace::BaseTransitionSO> transition;
 
-  constexpr ::GlobalNamespace::ColorTransitionSO*& __get__transition();
+  constexpr ::UnityW<::GlobalNamespace::ColorTransitionSO>& __cordl_internal_get__transition();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorTransitionSO*> const& __get__transition() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorTransitionSO> const& __cordl_internal_get__transition() const;
 
-  constexpr void __set__transition(::GlobalNamespace::ColorTransitionSO* value);
+  constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::ColorTransitionSO> value);
 
-  constexpr ::Tweening::ColorTween*& __get__colorTween();
+  constexpr ::Tweening::ColorTween*& __cordl_internal_get__colorTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __get__colorTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __cordl_internal_get__colorTween() const;
 
-  constexpr void __set__colorTween(::Tweening::ColorTween* value);
+  constexpr void __cordl_internal_set__colorTween(::Tweening::ColorTween* value);
 
   /// @brief Method get_transition, addr 0x227d2bc, size 0x8, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::BaseTransitionSO* get_transition();
+  inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
 
   /// @brief Method TransitionToNormalState, addr 0x227d2c4, size 0x2c, virtual true, abstract: false, final false
   inline void TransitionToNormalState();
@@ -120,7 +120,7 @@ protected:
 
 public:
   /// @brief Field _transition, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::ColorTransitionSO* ____transition;
+  ::UnityW<::GlobalNamespace::ColorTransitionSO> ____transition;
 
   /// @brief Field _colorTween, offset: 0x30, size: 0x8, def value: None
   ::Tweening::ColorTween* ____colorTween;

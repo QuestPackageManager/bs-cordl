@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::GlobalNamespace::GetXPlatformAccessTokenResponse);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15999))
 // CS Name: ::GetXPlatformAccessTokenResponse*
 class CORDL_TYPE GetXPlatformAccessTokenResponse : public ::System::Object {
 public:
   // Declarations
   /// @brief Field accessToken, offset 0x10, size 0x8
-  __declspec(property(get = __get_accessToken, put = __set_accessToken))::StringW accessToken;
+  __declspec(property(get = __cordl_internal_get_accessToken, put = __cordl_internal_set_accessToken))::StringW accessToken;
 
-  constexpr ::StringW& __get_accessToken();
+  constexpr ::StringW& __cordl_internal_get_accessToken();
 
-  constexpr ::StringW const& __get_accessToken() const;
+  constexpr ::StringW const& __cordl_internal_get_accessToken() const;
 
-  constexpr void __set_accessToken(::StringW value);
+  constexpr void __cordl_internal_set_accessToken(::StringW value);
 
   static inline ::GlobalNamespace::GetXPlatformAccessTokenResponse* New_ctor(::StringW accessToken);
 

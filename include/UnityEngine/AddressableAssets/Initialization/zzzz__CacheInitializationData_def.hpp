@@ -16,26 +16,26 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Initialization::CacheInitializa
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14120))
 // CS Name: ::UnityEngine.AddressableAssets.Initialization::CacheInitializationData*
 class CORDL_TYPE CacheInitializationData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_CompressionEnabled, offset 0x10, size 0x1
-  __declspec(property(get = __get_m_CompressionEnabled, put = __set_m_CompressionEnabled)) bool m_CompressionEnabled;
+  __declspec(property(get = __cordl_internal_get_m_CompressionEnabled, put = __cordl_internal_set_m_CompressionEnabled)) bool m_CompressionEnabled;
 
   /// @brief Field m_CacheDirectoryOverride, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_CacheDirectoryOverride, put = __set_m_CacheDirectoryOverride))::StringW m_CacheDirectoryOverride;
+  __declspec(property(get = __cordl_internal_get_m_CacheDirectoryOverride, put = __cordl_internal_set_m_CacheDirectoryOverride))::StringW m_CacheDirectoryOverride;
 
   /// @brief Field m_ExpirationDelay, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_ExpirationDelay, put = __set_m_ExpirationDelay)) int32_t m_ExpirationDelay;
+  __declspec(property(get = __cordl_internal_get_m_ExpirationDelay, put = __cordl_internal_set_m_ExpirationDelay)) int32_t m_ExpirationDelay;
 
   /// @brief Field m_LimitCacheSize, offset 0x24, size 0x1
-  __declspec(property(get = __get_m_LimitCacheSize, put = __set_m_LimitCacheSize)) bool m_LimitCacheSize;
+  __declspec(property(get = __cordl_internal_get_m_LimitCacheSize, put = __cordl_internal_set_m_LimitCacheSize)) bool m_LimitCacheSize;
 
   /// @brief Field m_MaximumCacheSize, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_MaximumCacheSize, put = __set_m_MaximumCacheSize)) int64_t m_MaximumCacheSize;
+  __declspec(property(get = __cordl_internal_get_m_MaximumCacheSize, put = __cordl_internal_set_m_MaximumCacheSize)) int64_t m_MaximumCacheSize;
 
   __declspec(property(get = get_CompressionEnabled, put = set_CompressionEnabled)) bool CompressionEnabled;
 
@@ -47,35 +47,35 @@ public:
 
   __declspec(property(get = get_MaximumCacheSize, put = set_MaximumCacheSize)) int64_t MaximumCacheSize;
 
-  constexpr bool& __get_m_CompressionEnabled();
+  constexpr bool& __cordl_internal_get_m_CompressionEnabled();
 
-  constexpr bool const& __get_m_CompressionEnabled() const;
+  constexpr bool const& __cordl_internal_get_m_CompressionEnabled() const;
 
-  constexpr void __set_m_CompressionEnabled(bool value);
+  constexpr void __cordl_internal_set_m_CompressionEnabled(bool value);
 
-  constexpr ::StringW& __get_m_CacheDirectoryOverride();
+  constexpr ::StringW& __cordl_internal_get_m_CacheDirectoryOverride();
 
-  constexpr ::StringW const& __get_m_CacheDirectoryOverride() const;
+  constexpr ::StringW const& __cordl_internal_get_m_CacheDirectoryOverride() const;
 
-  constexpr void __set_m_CacheDirectoryOverride(::StringW value);
+  constexpr void __cordl_internal_set_m_CacheDirectoryOverride(::StringW value);
 
-  constexpr int32_t& __get_m_ExpirationDelay();
+  constexpr int32_t& __cordl_internal_get_m_ExpirationDelay();
 
-  constexpr int32_t const& __get_m_ExpirationDelay() const;
+  constexpr int32_t const& __cordl_internal_get_m_ExpirationDelay() const;
 
-  constexpr void __set_m_ExpirationDelay(int32_t value);
+  constexpr void __cordl_internal_set_m_ExpirationDelay(int32_t value);
 
-  constexpr bool& __get_m_LimitCacheSize();
+  constexpr bool& __cordl_internal_get_m_LimitCacheSize();
 
-  constexpr bool const& __get_m_LimitCacheSize() const;
+  constexpr bool const& __cordl_internal_get_m_LimitCacheSize() const;
 
-  constexpr void __set_m_LimitCacheSize(bool value);
+  constexpr void __cordl_internal_set_m_LimitCacheSize(bool value);
 
-  constexpr int64_t& __get_m_MaximumCacheSize();
+  constexpr int64_t& __cordl_internal_get_m_MaximumCacheSize();
 
-  constexpr int64_t const& __get_m_MaximumCacheSize() const;
+  constexpr int64_t const& __cordl_internal_get_m_MaximumCacheSize() const;
 
-  constexpr void __set_m_MaximumCacheSize(int64_t value);
+  constexpr void __cordl_internal_set_m_MaximumCacheSize(int64_t value);
 
   /// @brief Method get_CompressionEnabled, addr 0x2a30900, size 0x8, virtual false, abstract: false, final false
   inline bool get_CompressionEnabled();

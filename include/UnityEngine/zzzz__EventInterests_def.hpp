@@ -17,7 +17,7 @@ MARK_VAL_T(::UnityEngine::EventInterests);
 // SizeInfo { instance_size: 3, native_size: 12, calculated_instance_size: 3, calculated_native_size: 19, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14604))
 // CS Name: ::UnityEngine::EventInterests
 struct CORDL_TYPE EventInterests {

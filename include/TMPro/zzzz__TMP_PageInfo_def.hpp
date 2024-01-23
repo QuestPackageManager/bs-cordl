@@ -16,7 +16,7 @@ MARK_VAL_T(::TMPro::TMP_PageInfo);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12318))
 // CS Name: ::TMPro::TMP_PageInfo
 struct CORDL_TYPE TMP_PageInfo {

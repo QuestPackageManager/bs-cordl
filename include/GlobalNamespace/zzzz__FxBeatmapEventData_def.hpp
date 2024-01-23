@@ -16,38 +16,38 @@ MARK_REF_PTR_T(::GlobalNamespace::FxBeatmapEventData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14727))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14727))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14731))
 // CS Name: ::FxBeatmapEventData*
 class CORDL_TYPE FxBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
 public:
   // Declarations
   /// @brief Field groupId, offset 0x30, size 0x4
-  __declspec(property(get = __get_groupId, put = __set_groupId)) int32_t groupId;
+  __declspec(property(get = __cordl_internal_get_groupId, put = __cordl_internal_set_groupId)) int32_t groupId;
 
   /// @brief Field elementId, offset 0x34, size 0x4
-  __declspec(property(get = __get_elementId, put = __set_elementId)) int32_t elementId;
+  __declspec(property(get = __cordl_internal_get_elementId, put = __cordl_internal_set_elementId)) int32_t elementId;
 
   /// @brief Field usePreviousEventValue, offset 0x38, size 0x1
-  __declspec(property(get = __get_usePreviousEventValue, put = __set_usePreviousEventValue)) bool usePreviousEventValue;
+  __declspec(property(get = __cordl_internal_get_usePreviousEventValue, put = __cordl_internal_set_usePreviousEventValue)) bool usePreviousEventValue;
 
-  constexpr int32_t& __get_groupId();
+  constexpr int32_t& __cordl_internal_get_groupId();
 
-  constexpr int32_t const& __get_groupId() const;
+  constexpr int32_t const& __cordl_internal_get_groupId() const;
 
-  constexpr void __set_groupId(int32_t value);
+  constexpr void __cordl_internal_set_groupId(int32_t value);
 
-  constexpr int32_t& __get_elementId();
+  constexpr int32_t& __cordl_internal_get_elementId();
 
-  constexpr int32_t const& __get_elementId() const;
+  constexpr int32_t const& __cordl_internal_get_elementId() const;
 
-  constexpr void __set_elementId(int32_t value);
+  constexpr void __cordl_internal_set_elementId(int32_t value);
 
-  constexpr bool& __get_usePreviousEventValue();
+  constexpr bool& __cordl_internal_get_usePreviousEventValue();
 
-  constexpr bool const& __get_usePreviousEventValue() const;
+  constexpr bool const& __cordl_internal_get_usePreviousEventValue() const;
 
-  constexpr void __set_usePreviousEventValue(bool value);
+  constexpr void __cordl_internal_set_usePreviousEventValue(bool value);
 
   static inline ::GlobalNamespace::FxBeatmapEventData* New_ctor(float_t time, int32_t groupId, int32_t elementId, bool usePreviousEventValue);
 

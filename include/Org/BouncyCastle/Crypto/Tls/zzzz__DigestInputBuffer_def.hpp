@@ -27,20 +27,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__DigestInputBuffer__DigStream)
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(484))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1219))
 // CS Name: ::DigestInputBuffer::DigStream*
 class CORDL_TYPE __DigestInputBuffer__DigStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
   // Declarations
   /// @brief Field d, offset 0x30, size 0x8
-  __declspec(property(get = __get_d, put = __set_d))::Org::BouncyCastle::Crypto::IDigest* d;
+  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d))::Org::BouncyCastle::Crypto::IDigest* d;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_d();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_d();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_d() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_d() const;
 
-  constexpr void __set_d(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_d(::Org::BouncyCastle::Crypto::IDigest* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__DigestInputBuffer__DigStream* New_ctor(::Org::BouncyCastle::Crypto::IDigest* d);
 
@@ -82,7 +82,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DigestInputBuffer__Di
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3566))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1220))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DigestInputBuffer*
 class CORDL_TYPE DigestInputBuffer : public ::System::IO::MemoryStream {

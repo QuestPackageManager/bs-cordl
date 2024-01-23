@@ -35,20 +35,20 @@ MARK_REF_PTR_T(::System::Xml::XmlRegisteredNonCachedStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11553))
 // CS Name: ::System.Xml::XmlRegisteredNonCachedStream*
 class CORDL_TYPE XmlRegisteredNonCachedStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field stream, offset 0x28, size 0x8
-  __declspec(property(get = __get_stream, put = __set_stream))::System::IO::Stream* stream;
+  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
 
   /// @brief Field downloadManager, offset 0x30, size 0x8
-  __declspec(property(get = __get_downloadManager, put = __set_downloadManager))::System::Xml::XmlDownloadManager* downloadManager;
+  __declspec(property(get = __cordl_internal_get_downloadManager, put = __cordl_internal_set_downloadManager))::System::Xml::XmlDownloadManager* downloadManager;
 
   /// @brief Field host, offset 0x38, size 0x8
-  __declspec(property(get = __get_host, put = __set_host))::StringW host;
+  __declspec(property(get = __cordl_internal_get_host, put = __cordl_internal_set_host))::StringW host;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -60,23 +60,23 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr ::System::IO::Stream*& __get_stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
 
-  constexpr void __set_stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
 
-  constexpr ::System::Xml::XmlDownloadManager*& __get_downloadManager();
+  constexpr ::System::Xml::XmlDownloadManager*& __cordl_internal_get_downloadManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDownloadManager*> const& __get_downloadManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDownloadManager*> const& __cordl_internal_get_downloadManager() const;
 
-  constexpr void __set_downloadManager(::System::Xml::XmlDownloadManager* value);
+  constexpr void __cordl_internal_set_downloadManager(::System::Xml::XmlDownloadManager* value);
 
-  constexpr ::StringW& __get_host();
+  constexpr ::StringW& __cordl_internal_get_host();
 
-  constexpr ::StringW const& __get_host() const;
+  constexpr ::StringW const& __cordl_internal_get_host() const;
 
-  constexpr void __set_host(::StringW value);
+  constexpr void __cordl_internal_set_host(::StringW value);
 
   static inline ::System::Xml::XmlRegisteredNonCachedStream* New_ctor(::System::IO::Stream* stream, ::System::Xml::XmlDownloadManager* downloadManager, ::StringW host);
 

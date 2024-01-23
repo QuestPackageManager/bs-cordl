@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::MontgomeryLadderMultip
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1527))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1527))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1535))
 // CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::MontgomeryLadderMultiplier*
 class CORDL_TYPE MontgomeryLadderMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {

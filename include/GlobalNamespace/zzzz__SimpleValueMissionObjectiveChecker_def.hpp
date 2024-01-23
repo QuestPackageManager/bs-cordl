@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleValueMissionObjectiveChecker);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5093))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5093))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5098))
 // CS Name: ::SimpleValueMissionObjectiveChecker*
 class CORDL_TYPE SimpleValueMissionObjectiveChecker : public ::GlobalNamespace::MissionObjectiveChecker {

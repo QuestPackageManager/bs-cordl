@@ -45,41 +45,41 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certifica
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2991))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Certificate*
 class CORDL_TYPE X509Certificate : public ::System::Object {
 public:
   // Declarations
   /// @brief Field impl, offset 0x10, size 0x8
-  __declspec(property(get = __get_impl, put = __set_impl))::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl;
+  __declspec(property(get = __cordl_internal_get_impl, put = __cordl_internal_set_impl))::System::Security::Cryptography::X509Certificates::X509CertificateImpl* impl;
 
   /// @brief Field lazyCertHash, offset 0x18, size 0x8
-  __declspec(property(get = __get_lazyCertHash, put = __set_lazyCertHash))::ArrayW<uint8_t, ::Array<uint8_t>*> lazyCertHash;
+  __declspec(property(get = __cordl_internal_get_lazyCertHash, put = __cordl_internal_set_lazyCertHash))::ArrayW<uint8_t, ::Array<uint8_t>*> lazyCertHash;
 
   /// @brief Field lazySerialNumber, offset 0x20, size 0x8
-  __declspec(property(get = __get_lazySerialNumber, put = __set_lazySerialNumber))::ArrayW<uint8_t, ::Array<uint8_t>*> lazySerialNumber;
+  __declspec(property(get = __cordl_internal_get_lazySerialNumber, put = __cordl_internal_set_lazySerialNumber))::ArrayW<uint8_t, ::Array<uint8_t>*> lazySerialNumber;
 
   /// @brief Field lazyIssuer, offset 0x28, size 0x8
-  __declspec(property(get = __get_lazyIssuer, put = __set_lazyIssuer))::StringW lazyIssuer;
+  __declspec(property(get = __cordl_internal_get_lazyIssuer, put = __cordl_internal_set_lazyIssuer))::StringW lazyIssuer;
 
   /// @brief Field lazySubject, offset 0x30, size 0x8
-  __declspec(property(get = __get_lazySubject, put = __set_lazySubject))::StringW lazySubject;
+  __declspec(property(get = __cordl_internal_get_lazySubject, put = __cordl_internal_set_lazySubject))::StringW lazySubject;
 
   /// @brief Field lazyKeyAlgorithm, offset 0x38, size 0x8
-  __declspec(property(get = __get_lazyKeyAlgorithm, put = __set_lazyKeyAlgorithm))::StringW lazyKeyAlgorithm;
+  __declspec(property(get = __cordl_internal_get_lazyKeyAlgorithm, put = __cordl_internal_set_lazyKeyAlgorithm))::StringW lazyKeyAlgorithm;
 
   /// @brief Field lazyKeyAlgorithmParameters, offset 0x40, size 0x8
-  __declspec(property(get = __get_lazyKeyAlgorithmParameters, put = __set_lazyKeyAlgorithmParameters))::ArrayW<uint8_t, ::Array<uint8_t>*> lazyKeyAlgorithmParameters;
+  __declspec(property(get = __cordl_internal_get_lazyKeyAlgorithmParameters, put = __cordl_internal_set_lazyKeyAlgorithmParameters))::ArrayW<uint8_t, ::Array<uint8_t>*> lazyKeyAlgorithmParameters;
 
   /// @brief Field lazyPublicKey, offset 0x48, size 0x8
-  __declspec(property(get = __get_lazyPublicKey, put = __set_lazyPublicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> lazyPublicKey;
+  __declspec(property(get = __cordl_internal_get_lazyPublicKey, put = __cordl_internal_set_lazyPublicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> lazyPublicKey;
 
   /// @brief Field lazyNotBefore, offset 0x50, size 0x8
-  __declspec(property(get = __get_lazyNotBefore, put = __set_lazyNotBefore))::System::DateTime lazyNotBefore;
+  __declspec(property(get = __cordl_internal_get_lazyNotBefore, put = __cordl_internal_set_lazyNotBefore))::System::DateTime lazyNotBefore;
 
   /// @brief Field lazyNotAfter, offset 0x58, size 0x8
-  __declspec(property(get = __get_lazyNotAfter, put = __set_lazyNotAfter))::System::DateTime lazyNotAfter;
+  __declspec(property(get = __cordl_internal_get_lazyNotAfter, put = __cordl_internal_set_lazyNotAfter))::System::DateTime lazyNotAfter;
 
   __declspec(property(get = get_Issuer))::StringW Issuer;
 
@@ -107,65 +107,65 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateImpl*& __get_impl();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateImpl*& __cordl_internal_get_impl();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*> const& __get_impl() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateImpl*> const& __cordl_internal_get_impl() const;
 
-  constexpr void __set_impl(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* value);
+  constexpr void __cordl_internal_set_impl(::System::Security::Cryptography::X509Certificates::X509CertificateImpl* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_lazyCertHash();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_lazyCertHash();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_lazyCertHash() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_lazyCertHash() const;
 
-  constexpr void __set_lazyCertHash(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_lazyCertHash(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_lazySerialNumber();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_lazySerialNumber();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_lazySerialNumber() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_lazySerialNumber() const;
 
-  constexpr void __set_lazySerialNumber(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_lazySerialNumber(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::StringW& __get_lazyIssuer();
+  constexpr ::StringW& __cordl_internal_get_lazyIssuer();
 
-  constexpr ::StringW const& __get_lazyIssuer() const;
+  constexpr ::StringW const& __cordl_internal_get_lazyIssuer() const;
 
-  constexpr void __set_lazyIssuer(::StringW value);
+  constexpr void __cordl_internal_set_lazyIssuer(::StringW value);
 
-  constexpr ::StringW& __get_lazySubject();
+  constexpr ::StringW& __cordl_internal_get_lazySubject();
 
-  constexpr ::StringW const& __get_lazySubject() const;
+  constexpr ::StringW const& __cordl_internal_get_lazySubject() const;
 
-  constexpr void __set_lazySubject(::StringW value);
+  constexpr void __cordl_internal_set_lazySubject(::StringW value);
 
-  constexpr ::StringW& __get_lazyKeyAlgorithm();
+  constexpr ::StringW& __cordl_internal_get_lazyKeyAlgorithm();
 
-  constexpr ::StringW const& __get_lazyKeyAlgorithm() const;
+  constexpr ::StringW const& __cordl_internal_get_lazyKeyAlgorithm() const;
 
-  constexpr void __set_lazyKeyAlgorithm(::StringW value);
+  constexpr void __cordl_internal_set_lazyKeyAlgorithm(::StringW value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_lazyKeyAlgorithmParameters();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_lazyKeyAlgorithmParameters();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_lazyKeyAlgorithmParameters() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_lazyKeyAlgorithmParameters() const;
 
-  constexpr void __set_lazyKeyAlgorithmParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_lazyKeyAlgorithmParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_lazyPublicKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_lazyPublicKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_lazyPublicKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_lazyPublicKey() const;
 
-  constexpr void __set_lazyPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_lazyPublicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::DateTime& __get_lazyNotBefore();
+  constexpr ::System::DateTime& __cordl_internal_get_lazyNotBefore();
 
-  constexpr ::System::DateTime const& __get_lazyNotBefore() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_lazyNotBefore() const;
 
-  constexpr void __set_lazyNotBefore(::System::DateTime value);
+  constexpr void __cordl_internal_set_lazyNotBefore(::System::DateTime value);
 
-  constexpr ::System::DateTime& __get_lazyNotAfter();
+  constexpr ::System::DateTime& __cordl_internal_get_lazyNotAfter();
 
-  constexpr ::System::DateTime const& __get_lazyNotAfter() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_lazyNotAfter() const;
 
-  constexpr void __set_lazyNotAfter(::System::DateTime value);
+  constexpr void __cordl_internal_set_lazyNotAfter(::System::DateTime value);
 
   /// @brief Method Reset, addr 0x2474ae4, size 0xb8, virtual true, abstract: false, final false
   inline void Reset();

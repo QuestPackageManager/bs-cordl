@@ -27,47 +27,47 @@ MARK_VAL_T(::System::Xml::Linq::NamespaceResolver);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15447))
 // CS Name: ::NamespaceResolver::NamespaceDeclaration*
 class CORDL_TYPE __NamespaceResolver__NamespaceDeclaration : public ::System::Object {
 public:
   // Declarations
   /// @brief Field prefix, offset 0x10, size 0x8
-  __declspec(property(get = __get_prefix, put = __set_prefix))::StringW prefix;
+  __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix))::StringW prefix;
 
   /// @brief Field ns, offset 0x18, size 0x8
-  __declspec(property(get = __get_ns, put = __set_ns))::System::Xml::Linq::XNamespace* ns;
+  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns))::System::Xml::Linq::XNamespace* ns;
 
   /// @brief Field scope, offset 0x20, size 0x4
-  __declspec(property(get = __get_scope, put = __set_scope)) int32_t scope;
+  __declspec(property(get = __cordl_internal_get_scope, put = __cordl_internal_set_scope)) int32_t scope;
 
   /// @brief Field prev, offset 0x28, size 0x8
-  __declspec(property(get = __get_prev, put = __set_prev))::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration* prev;
+  __declspec(property(get = __cordl_internal_get_prev, put = __cordl_internal_set_prev))::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration* prev;
 
-  constexpr ::StringW& __get_prefix();
+  constexpr ::StringW& __cordl_internal_get_prefix();
 
-  constexpr ::StringW const& __get_prefix() const;
+  constexpr ::StringW const& __cordl_internal_get_prefix() const;
 
-  constexpr void __set_prefix(::StringW value);
+  constexpr void __cordl_internal_set_prefix(::StringW value);
 
-  constexpr ::System::Xml::Linq::XNamespace*& __get_ns();
+  constexpr ::System::Xml::Linq::XNamespace*& __cordl_internal_get_ns();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XNamespace*> const& __get_ns() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XNamespace*> const& __cordl_internal_get_ns() const;
 
-  constexpr void __set_ns(::System::Xml::Linq::XNamespace* value);
+  constexpr void __cordl_internal_set_ns(::System::Xml::Linq::XNamespace* value);
 
-  constexpr int32_t& __get_scope();
+  constexpr int32_t& __cordl_internal_get_scope();
 
-  constexpr int32_t const& __get_scope() const;
+  constexpr int32_t const& __cordl_internal_get_scope() const;
 
-  constexpr void __set_scope(int32_t value);
+  constexpr void __cordl_internal_set_scope(int32_t value);
 
-  constexpr ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration*& __get_prev();
+  constexpr ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration*& __cordl_internal_get_prev();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration*> const& __get_prev() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration*> const& __cordl_internal_get_prev() const;
 
-  constexpr void __set_prev(::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration* value);
+  constexpr void __cordl_internal_set_prev(::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration* value);
 
   static inline ::System::Xml::Linq::__NamespaceResolver__NamespaceDeclaration* New_ctor();
 
@@ -118,7 +118,7 @@ static_assert(offsetof(::System::Xml::Linq::__NamespaceResolver__NamespaceDeclar
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15448))
 // CS Name: ::System.Xml.Linq::NamespaceResolver
 struct CORDL_TYPE NamespaceResolver {

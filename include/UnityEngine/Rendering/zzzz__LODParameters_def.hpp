@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::Rendering::LODParameters);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10355))
 // CS Name: ::UnityEngine.Rendering::LODParameters
 struct CORDL_TYPE LODParameters {

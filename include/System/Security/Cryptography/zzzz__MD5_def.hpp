@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::MD5);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2916))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2916))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2945))
 // CS Name: ::System.Security.Cryptography::MD5*
 class CORDL_TYPE MD5 : public ::System::Security::Cryptography::HashAlgorithm {

@@ -29,7 +29,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Layouts::__InputDeviceDescription__Device
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6619))
 // CS Name: ::InputDeviceDescription::DeviceDescriptionJson
 struct CORDL_TYPE __InputDeviceDescription__DeviceDescriptionJson {
@@ -93,7 +93,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputDeviceDescrip
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6620))
 // CS Name: ::UnityEngine.InputSystem.Layouts::InputDeviceDescription
 struct CORDL_TYPE InputDeviceDescription {

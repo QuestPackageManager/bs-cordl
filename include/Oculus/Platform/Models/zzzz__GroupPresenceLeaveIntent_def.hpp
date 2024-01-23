@@ -16,38 +16,38 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::GroupPresenceLeaveIntent);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13435))
 // CS Name: ::Oculus.Platform.Models::GroupPresenceLeaveIntent*
 class CORDL_TYPE GroupPresenceLeaveIntent : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DestinationApiName, offset 0x10, size 0x8
-  __declspec(property(get = __get_DestinationApiName, put = __set_DestinationApiName))::StringW DestinationApiName;
+  __declspec(property(get = __cordl_internal_get_DestinationApiName, put = __cordl_internal_set_DestinationApiName))::StringW DestinationApiName;
 
   /// @brief Field LobbySessionId, offset 0x18, size 0x8
-  __declspec(property(get = __get_LobbySessionId, put = __set_LobbySessionId))::StringW LobbySessionId;
+  __declspec(property(get = __cordl_internal_get_LobbySessionId, put = __cordl_internal_set_LobbySessionId))::StringW LobbySessionId;
 
   /// @brief Field MatchSessionId, offset 0x20, size 0x8
-  __declspec(property(get = __get_MatchSessionId, put = __set_MatchSessionId))::StringW MatchSessionId;
+  __declspec(property(get = __cordl_internal_get_MatchSessionId, put = __cordl_internal_set_MatchSessionId))::StringW MatchSessionId;
 
-  constexpr ::StringW& __get_DestinationApiName();
+  constexpr ::StringW& __cordl_internal_get_DestinationApiName();
 
-  constexpr ::StringW const& __get_DestinationApiName() const;
+  constexpr ::StringW const& __cordl_internal_get_DestinationApiName() const;
 
-  constexpr void __set_DestinationApiName(::StringW value);
+  constexpr void __cordl_internal_set_DestinationApiName(::StringW value);
 
-  constexpr ::StringW& __get_LobbySessionId();
+  constexpr ::StringW& __cordl_internal_get_LobbySessionId();
 
-  constexpr ::StringW const& __get_LobbySessionId() const;
+  constexpr ::StringW const& __cordl_internal_get_LobbySessionId() const;
 
-  constexpr void __set_LobbySessionId(::StringW value);
+  constexpr void __cordl_internal_set_LobbySessionId(::StringW value);
 
-  constexpr ::StringW& __get_MatchSessionId();
+  constexpr ::StringW& __cordl_internal_get_MatchSessionId();
 
-  constexpr ::StringW const& __get_MatchSessionId() const;
+  constexpr ::StringW const& __cordl_internal_get_MatchSessionId() const;
 
-  constexpr void __set_MatchSessionId(::StringW value);
+  constexpr void __cordl_internal_set_MatchSessionId(::StringW value);
 
   static inline ::Oculus::Platform::Models::GroupPresenceLeaveIntent* New_ctor(void* o);
 

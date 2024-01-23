@@ -222,7 +222,7 @@ MARK_VAL_T(::GlobalNamespace::__LiteNetLibConnectionManager___BackgroundShutdown
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12820))
 // CS Name: ::LiteNetLibConnectionManager::NetworkMode
 struct CORDL_TYPE __LiteNetLibConnectionManager__NetworkMode {
@@ -276,7 +276,7 @@ static_assert(offsetof(::GlobalNamespace::__LiteNetLibConnectionManager__Network
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12821))
 // CS Name: ::LiteNetLibConnectionManager::ConnectionState
 struct CORDL_TYPE __LiteNetLibConnectionManager__ConnectionState {
@@ -334,32 +334,32 @@ static_assert(offsetof(::GlobalNamespace::__LiteNetLibConnectionManager__Connect
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12822))
 // CS Name: ::LiteNetLibConnectionManager::LiteNetLibConnectionParamsBase*
 class CORDL_TYPE __LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase : public ::System::Object {
 public:
   // Declarations
   /// @brief Field connectionRequestHandler, offset 0x10, size 0x8
-  __declspec(property(get = __get_connectionRequestHandler, put = __set_connectionRequestHandler))::GlobalNamespace::IConnectionRequestHandler* connectionRequestHandler;
+  __declspec(property(get = __cordl_internal_get_connectionRequestHandler, put = __cordl_internal_set_connectionRequestHandler))::GlobalNamespace::IConnectionRequestHandler* connectionRequestHandler;
 
   /// @brief Field port, offset 0x18, size 0x4
-  __declspec(property(get = __get_port, put = __set_port)) int32_t port;
+  __declspec(property(get = __cordl_internal_get_port, put = __cordl_internal_set_port)) int32_t port;
 
   /// @brief Field filterUnencryptedTraffic, offset 0x1c, size 0x1
-  __declspec(property(get = __get_filterUnencryptedTraffic, put = __set_filterUnencryptedTraffic)) bool filterUnencryptedTraffic;
+  __declspec(property(get = __cordl_internal_get_filterUnencryptedTraffic, put = __cordl_internal_set_filterUnencryptedTraffic)) bool filterUnencryptedTraffic;
 
   /// @brief Field enableUnconnectedMessages, offset 0x1d, size 0x1
-  __declspec(property(get = __get_enableUnconnectedMessages, put = __set_enableUnconnectedMessages)) bool enableUnconnectedMessages;
+  __declspec(property(get = __cordl_internal_get_enableUnconnectedMessages, put = __cordl_internal_set_enableUnconnectedMessages)) bool enableUnconnectedMessages;
 
   /// @brief Field enableBackgroundSentry, offset 0x1e, size 0x1
-  __declspec(property(get = __get_enableBackgroundSentry, put = __set_enableBackgroundSentry)) bool enableBackgroundSentry;
+  __declspec(property(get = __cordl_internal_get_enableBackgroundSentry, put = __cordl_internal_set_enableBackgroundSentry)) bool enableBackgroundSentry;
 
   /// @brief Field enableStatistics, offset 0x1f, size 0x1
-  __declspec(property(get = __get_enableStatistics, put = __set_enableStatistics)) bool enableStatistics;
+  __declspec(property(get = __cordl_internal_get_enableStatistics, put = __cordl_internal_set_enableStatistics)) bool enableStatistics;
 
   /// @brief Field disconnectTimeoutMs, offset 0x20, size 0x4
-  __declspec(property(get = __get_disconnectTimeoutMs, put = __set_disconnectTimeoutMs)) int32_t disconnectTimeoutMs;
+  __declspec(property(get = __cordl_internal_get_disconnectTimeoutMs, put = __cordl_internal_set_disconnectTimeoutMs)) int32_t disconnectTimeoutMs;
 
   /// @brief Convert operator to "::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::LiteNetLibConnectionManager*>"
   constexpr operator ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::LiteNetLibConnectionManager*>*() noexcept;
@@ -368,47 +368,47 @@ public:
   constexpr ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::LiteNetLibConnectionManager*>*
   i___GlobalNamespace__IConnectionInitParams_1___GlobalNamespace__LiteNetLibConnectionManager__() noexcept;
 
-  constexpr ::GlobalNamespace::IConnectionRequestHandler*& __get_connectionRequestHandler();
+  constexpr ::GlobalNamespace::IConnectionRequestHandler*& __cordl_internal_get_connectionRequestHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectionRequestHandler*> const& __get_connectionRequestHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectionRequestHandler*> const& __cordl_internal_get_connectionRequestHandler() const;
 
-  constexpr void __set_connectionRequestHandler(::GlobalNamespace::IConnectionRequestHandler* value);
+  constexpr void __cordl_internal_set_connectionRequestHandler(::GlobalNamespace::IConnectionRequestHandler* value);
 
-  constexpr int32_t& __get_port();
+  constexpr int32_t& __cordl_internal_get_port();
 
-  constexpr int32_t const& __get_port() const;
+  constexpr int32_t const& __cordl_internal_get_port() const;
 
-  constexpr void __set_port(int32_t value);
+  constexpr void __cordl_internal_set_port(int32_t value);
 
-  constexpr bool& __get_filterUnencryptedTraffic();
+  constexpr bool& __cordl_internal_get_filterUnencryptedTraffic();
 
-  constexpr bool const& __get_filterUnencryptedTraffic() const;
+  constexpr bool const& __cordl_internal_get_filterUnencryptedTraffic() const;
 
-  constexpr void __set_filterUnencryptedTraffic(bool value);
+  constexpr void __cordl_internal_set_filterUnencryptedTraffic(bool value);
 
-  constexpr bool& __get_enableUnconnectedMessages();
+  constexpr bool& __cordl_internal_get_enableUnconnectedMessages();
 
-  constexpr bool const& __get_enableUnconnectedMessages() const;
+  constexpr bool const& __cordl_internal_get_enableUnconnectedMessages() const;
 
-  constexpr void __set_enableUnconnectedMessages(bool value);
+  constexpr void __cordl_internal_set_enableUnconnectedMessages(bool value);
 
-  constexpr bool& __get_enableBackgroundSentry();
+  constexpr bool& __cordl_internal_get_enableBackgroundSentry();
 
-  constexpr bool const& __get_enableBackgroundSentry() const;
+  constexpr bool const& __cordl_internal_get_enableBackgroundSentry() const;
 
-  constexpr void __set_enableBackgroundSentry(bool value);
+  constexpr void __cordl_internal_set_enableBackgroundSentry(bool value);
 
-  constexpr bool& __get_enableStatistics();
+  constexpr bool& __cordl_internal_get_enableStatistics();
 
-  constexpr bool const& __get_enableStatistics() const;
+  constexpr bool const& __cordl_internal_get_enableStatistics() const;
 
-  constexpr void __set_enableStatistics(bool value);
+  constexpr void __cordl_internal_set_enableStatistics(bool value);
 
-  constexpr int32_t& __get_disconnectTimeoutMs();
+  constexpr int32_t& __cordl_internal_get_disconnectTimeoutMs();
 
-  constexpr int32_t const& __get_disconnectTimeoutMs() const;
+  constexpr int32_t const& __cordl_internal_get_disconnectTimeoutMs() const;
 
-  constexpr void __set_disconnectTimeoutMs(int32_t value);
+  constexpr void __cordl_internal_set_disconnectTimeoutMs(int32_t value);
 
   static inline ::GlobalNamespace::__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase* New_ctor();
 
@@ -474,29 +474,29 @@ static_assert(offsetof(::GlobalNamespace::__LiteNetLibConnectionManager__LiteNet
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12822))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12822))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12823))
 // CS Name: ::LiteNetLibConnectionManager::StartServerParams*
 class CORDL_TYPE __LiteNetLibConnectionManager__StartServerParams : public ::GlobalNamespace::__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase {
 public:
   // Declarations
   /// @brief Field userId, offset 0x28, size 0x8
-  __declspec(property(get = __get_userId, put = __set_userId))::StringW userId;
+  __declspec(property(get = __cordl_internal_get_userId, put = __cordl_internal_set_userId))::StringW userId;
 
   /// @brief Field userName, offset 0x30, size 0x8
-  __declspec(property(get = __get_userName, put = __set_userName))::StringW userName;
+  __declspec(property(get = __cordl_internal_get_userName, put = __cordl_internal_set_userName))::StringW userName;
 
-  constexpr ::StringW& __get_userId();
+  constexpr ::StringW& __cordl_internal_get_userId();
 
-  constexpr ::StringW const& __get_userId() const;
+  constexpr ::StringW const& __cordl_internal_get_userId() const;
 
-  constexpr void __set_userId(::StringW value);
+  constexpr void __cordl_internal_set_userId(::StringW value);
 
-  constexpr ::StringW& __get_userName();
+  constexpr ::StringW& __cordl_internal_get_userName();
 
-  constexpr ::StringW const& __get_userName() const;
+  constexpr ::StringW const& __cordl_internal_get_userName() const;
 
-  constexpr void __set_userName(::StringW value);
+  constexpr void __cordl_internal_set_userName(::StringW value);
 
   static inline ::GlobalNamespace::__LiteNetLibConnectionManager__StartServerParams* New_ctor();
 
@@ -537,7 +537,7 @@ static_assert(offsetof(::GlobalNamespace::__LiteNetLibConnectionManager__StartSe
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12822))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12822))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12824))
 // CS Name: ::LiteNetLibConnectionManager::StartClientParams*
 class CORDL_TYPE __LiteNetLibConnectionManager__StartClientParams : public ::GlobalNamespace::__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase {
@@ -572,65 +572,65 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LiteNetLibCon
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12822))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12822))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12825))
 // CS Name: ::LiteNetLibConnectionManager::ConnectToServerParams*
 class CORDL_TYPE __LiteNetLibConnectionManager__ConnectToServerParams : public ::GlobalNamespace::__LiteNetLibConnectionManager__LiteNetLibConnectionParamsBase {
 public:
   // Declarations
   /// @brief Field userId, offset 0x28, size 0x8
-  __declspec(property(get = __get_userId, put = __set_userId))::StringW userId;
+  __declspec(property(get = __cordl_internal_get_userId, put = __cordl_internal_set_userId))::StringW userId;
 
   /// @brief Field userName, offset 0x30, size 0x8
-  __declspec(property(get = __get_userName, put = __set_userName))::StringW userName;
+  __declspec(property(get = __cordl_internal_get_userName, put = __cordl_internal_set_userName))::StringW userName;
 
   /// @brief Field endPoint, offset 0x38, size 0x8
-  __declspec(property(get = __get_endPoint, put = __set_endPoint))::System::Net::IPEndPoint* endPoint;
+  __declspec(property(get = __cordl_internal_get_endPoint, put = __cordl_internal_set_endPoint))::System::Net::IPEndPoint* endPoint;
 
   /// @brief Field serverUserId, offset 0x40, size 0x8
-  __declspec(property(get = __get_serverUserId, put = __set_serverUserId))::StringW serverUserId;
+  __declspec(property(get = __cordl_internal_get_serverUserId, put = __cordl_internal_set_serverUserId))::StringW serverUserId;
 
   /// @brief Field serverUserName, offset 0x48, size 0x8
-  __declspec(property(get = __get_serverUserName, put = __set_serverUserName))::StringW serverUserName;
+  __declspec(property(get = __cordl_internal_get_serverUserName, put = __cordl_internal_set_serverUserName))::StringW serverUserName;
 
   /// @brief Field serverIsConnectionOwner, offset 0x50, size 0x1
-  __declspec(property(get = __get_serverIsConnectionOwner, put = __set_serverIsConnectionOwner)) bool serverIsConnectionOwner;
+  __declspec(property(get = __cordl_internal_get_serverIsConnectionOwner, put = __cordl_internal_set_serverIsConnectionOwner)) bool serverIsConnectionOwner;
 
-  constexpr ::StringW& __get_userId();
+  constexpr ::StringW& __cordl_internal_get_userId();
 
-  constexpr ::StringW const& __get_userId() const;
+  constexpr ::StringW const& __cordl_internal_get_userId() const;
 
-  constexpr void __set_userId(::StringW value);
+  constexpr void __cordl_internal_set_userId(::StringW value);
 
-  constexpr ::StringW& __get_userName();
+  constexpr ::StringW& __cordl_internal_get_userName();
 
-  constexpr ::StringW const& __get_userName() const;
+  constexpr ::StringW const& __cordl_internal_get_userName() const;
 
-  constexpr void __set_userName(::StringW value);
+  constexpr void __cordl_internal_set_userName(::StringW value);
 
-  constexpr ::System::Net::IPEndPoint*& __get_endPoint();
+  constexpr ::System::Net::IPEndPoint*& __cordl_internal_get_endPoint();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __get_endPoint() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get_endPoint() const;
 
-  constexpr void __set_endPoint(::System::Net::IPEndPoint* value);
+  constexpr void __cordl_internal_set_endPoint(::System::Net::IPEndPoint* value);
 
-  constexpr ::StringW& __get_serverUserId();
+  constexpr ::StringW& __cordl_internal_get_serverUserId();
 
-  constexpr ::StringW const& __get_serverUserId() const;
+  constexpr ::StringW const& __cordl_internal_get_serverUserId() const;
 
-  constexpr void __set_serverUserId(::StringW value);
+  constexpr void __cordl_internal_set_serverUserId(::StringW value);
 
-  constexpr ::StringW& __get_serverUserName();
+  constexpr ::StringW& __cordl_internal_get_serverUserName();
 
-  constexpr ::StringW const& __get_serverUserName() const;
+  constexpr ::StringW const& __cordl_internal_get_serverUserName() const;
 
-  constexpr void __set_serverUserName(::StringW value);
+  constexpr void __cordl_internal_set_serverUserName(::StringW value);
 
-  constexpr bool& __get_serverIsConnectionOwner();
+  constexpr bool& __cordl_internal_get_serverIsConnectionOwner();
 
-  constexpr bool const& __get_serverIsConnectionOwner() const;
+  constexpr bool const& __cordl_internal_get_serverIsConnectionOwner() const;
 
-  constexpr void __set_serverIsConnectionOwner(bool value);
+  constexpr void __cordl_internal_set_serverIsConnectionOwner(bool value);
 
   static inline ::GlobalNamespace::__LiteNetLibConnectionManager__ConnectToServerParams* New_ctor();
 
@@ -691,23 +691,23 @@ static_assert(offsetof(::GlobalNamespace::__LiteNetLibConnectionManager__Connect
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12826))
 // CS Name: ::LiteNetLibConnectionManager::NetPeerConnectionRequest*
 class CORDL_TYPE __LiteNetLibConnectionManager__NetPeerConnectionRequest : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _userId, offset 0x10, size 0x8
-  __declspec(property(get = __get__userId, put = __set__userId))::StringW _userId;
+  __declspec(property(get = __cordl_internal_get__userId, put = __cordl_internal_set__userId))::StringW _userId;
 
   /// @brief Field _userName, offset 0x18, size 0x8
-  __declspec(property(get = __get__userName, put = __set__userName))::StringW _userName;
+  __declspec(property(get = __cordl_internal_get__userName, put = __cordl_internal_set__userName))::StringW _userName;
 
   /// @brief Field _isConnectionOwner, offset 0x20, size 0x1
-  __declspec(property(get = __get__isConnectionOwner, put = __set__isConnectionOwner)) bool _isConnectionOwner;
+  __declspec(property(get = __cordl_internal_get__isConnectionOwner, put = __cordl_internal_set__isConnectionOwner)) bool _isConnectionOwner;
 
   /// @brief Field _request, offset 0x28, size 0x8
-  __declspec(property(get = __get__request, put = __set__request))::LiteNetLib::ConnectionRequest* _request;
+  __declspec(property(get = __cordl_internal_get__request, put = __cordl_internal_set__request))::LiteNetLib::ConnectionRequest* _request;
 
   __declspec(property(get = get_userId))::StringW userId;
 
@@ -717,29 +717,29 @@ public:
 
   __declspec(property(get = get_endPoint))::System::Net::IPEndPoint* endPoint;
 
-  constexpr ::StringW& __get__userId();
+  constexpr ::StringW& __cordl_internal_get__userId();
 
-  constexpr ::StringW const& __get__userId() const;
+  constexpr ::StringW const& __cordl_internal_get__userId() const;
 
-  constexpr void __set__userId(::StringW value);
+  constexpr void __cordl_internal_set__userId(::StringW value);
 
-  constexpr ::StringW& __get__userName();
+  constexpr ::StringW& __cordl_internal_get__userName();
 
-  constexpr ::StringW const& __get__userName() const;
+  constexpr ::StringW const& __cordl_internal_get__userName() const;
 
-  constexpr void __set__userName(::StringW value);
+  constexpr void __cordl_internal_set__userName(::StringW value);
 
-  constexpr bool& __get__isConnectionOwner();
+  constexpr bool& __cordl_internal_get__isConnectionOwner();
 
-  constexpr bool const& __get__isConnectionOwner() const;
+  constexpr bool const& __cordl_internal_get__isConnectionOwner() const;
 
-  constexpr void __set__isConnectionOwner(bool value);
+  constexpr void __cordl_internal_set__isConnectionOwner(bool value);
 
-  constexpr ::LiteNetLib::ConnectionRequest*& __get__request();
+  constexpr ::LiteNetLib::ConnectionRequest*& __cordl_internal_get__request();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::ConnectionRequest*> const& __get__request() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::ConnectionRequest*> const& __cordl_internal_get__request() const;
 
-  constexpr void __set__request(::LiteNetLib::ConnectionRequest* value);
+  constexpr void __cordl_internal_set__request(::LiteNetLib::ConnectionRequest* value);
 
   /// @brief Method get_userId, addr 0xe4261c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userId();
@@ -806,23 +806,23 @@ static_assert(offsetof(::GlobalNamespace::__LiteNetLibConnectionManager__NetPeer
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12827))
 // CS Name: ::LiteNetLibConnectionManager::NetPeerConnection*
 class CORDL_TYPE __LiteNetLibConnectionManager__NetPeerConnection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _userId, offset 0x10, size 0x8
-  __declspec(property(get = __get__userId, put = __set__userId))::StringW _userId;
+  __declspec(property(get = __cordl_internal_get__userId, put = __cordl_internal_set__userId))::StringW _userId;
 
   /// @brief Field _userName, offset 0x18, size 0x8
-  __declspec(property(get = __get__userName, put = __set__userName))::StringW _userName;
+  __declspec(property(get = __cordl_internal_get__userName, put = __cordl_internal_set__userName))::StringW _userName;
 
   /// @brief Field _isConnectionOwner, offset 0x20, size 0x1
-  __declspec(property(get = __get__isConnectionOwner, put = __set__isConnectionOwner)) bool _isConnectionOwner;
+  __declspec(property(get = __cordl_internal_get__isConnectionOwner, put = __cordl_internal_set__isConnectionOwner)) bool _isConnectionOwner;
 
   /// @brief Field netPeer, offset 0x28, size 0x8
-  __declspec(property(get = __get_netPeer, put = __set_netPeer))::LiteNetLib::NetPeer* netPeer;
+  __declspec(property(get = __cordl_internal_get_netPeer, put = __cordl_internal_set_netPeer))::LiteNetLib::NetPeer* netPeer;
 
   __declspec(property(get = get_userId))::StringW userId;
 
@@ -843,29 +843,29 @@ public:
   constexpr ::System::IEquatable_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnection*>*
   i___System__IEquatable_1___GlobalNamespace____LiteNetLibConnectionManager__NetPeerConnection__() noexcept;
 
-  constexpr ::StringW& __get__userId();
+  constexpr ::StringW& __cordl_internal_get__userId();
 
-  constexpr ::StringW const& __get__userId() const;
+  constexpr ::StringW const& __cordl_internal_get__userId() const;
 
-  constexpr void __set__userId(::StringW value);
+  constexpr void __cordl_internal_set__userId(::StringW value);
 
-  constexpr ::StringW& __get__userName();
+  constexpr ::StringW& __cordl_internal_get__userName();
 
-  constexpr ::StringW const& __get__userName() const;
+  constexpr ::StringW const& __cordl_internal_get__userName() const;
 
-  constexpr void __set__userName(::StringW value);
+  constexpr void __cordl_internal_set__userName(::StringW value);
 
-  constexpr bool& __get__isConnectionOwner();
+  constexpr bool& __cordl_internal_get__isConnectionOwner();
 
-  constexpr bool const& __get__isConnectionOwner() const;
+  constexpr bool const& __cordl_internal_get__isConnectionOwner() const;
 
-  constexpr void __set__isConnectionOwner(bool value);
+  constexpr void __cordl_internal_set__isConnectionOwner(bool value);
 
-  constexpr ::LiteNetLib::NetPeer*& __get_netPeer();
+  constexpr ::LiteNetLib::NetPeer*& __cordl_internal_get_netPeer();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPeer*> const& __get_netPeer() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPeer*> const& __cordl_internal_get_netPeer() const;
 
-  constexpr void __set_netPeer(::LiteNetLib::NetPeer* value);
+  constexpr void __cordl_internal_set_netPeer(::LiteNetLib::NetPeer* value);
 
   /// @brief Method get_userId, addr 0xe426b0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_userId();
@@ -940,7 +940,7 @@ static_assert(offsetof(::GlobalNamespace::__LiteNetLibConnectionManager__NetPeer
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12828))
 // CS Name: ::LiteNetLibConnectionManager::<>c*
 class CORDL_TYPE __LiteNetLibConnectionManager____c : public ::System::Object {
@@ -992,7 +992,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LiteNetLibCon
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12829))
 // CS Name: ::LiteNetLibConnectionManager::<BackgroundDisconnectSentry>d__126
 struct CORDL_TYPE __LiteNetLibConnectionManager___BackgroundDisconnectSentry_d__126 {
@@ -1060,7 +1060,7 @@ static_assert(offsetof(::GlobalNamespace::__LiteNetLibConnectionManager___Backgr
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12830))
 // CS Name: ::LiteNetLibConnectionManager::<BackgroundShutdownSentry>d__127
 struct CORDL_TYPE __LiteNetLibConnectionManager___BackgroundShutdownSentry_d__127 {
@@ -1128,7 +1128,7 @@ static_assert(offsetof(::GlobalNamespace::__LiteNetLibConnectionManager___Backgr
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12821)), TypeDefinitionIndex(TypeDefinitionIndex(12820)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12820)), TypeDefinitionIndex(TypeDefinitionIndex(12821))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12831))
 // CS Name: ::LiteNetLibConnectionManager*
 class CORDL_TYPE LiteNetLibConnectionManager : public ::System::Object {
@@ -1157,94 +1157,104 @@ public:
   using NetworkMode = ::GlobalNamespace::__LiteNetLibConnectionManager__NetworkMode;
 
   /// @brief Field _unconnectedPacketHeader, offset 0x10, size 0x8
-  __declspec(property(get = __get__unconnectedPacketHeader, put = __set__unconnectedPacketHeader))::ArrayW<uint8_t, ::Array<uint8_t>*> _unconnectedPacketHeader;
+  __declspec(property(get = __cordl_internal_get__unconnectedPacketHeader, put = __cordl_internal_set__unconnectedPacketHeader))::ArrayW<uint8_t, ::Array<uint8_t>*> _unconnectedPacketHeader;
 
   /// @brief Field _netManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__netManager, put = __set__netManager))::LiteNetLib::NetManager* _netManager;
+  __declspec(property(get = __cordl_internal_get__netManager, put = __cordl_internal_set__netManager))::LiteNetLib::NetManager* _netManager;
 
   /// @brief Field _encryptionLayer, offset 0x20, size 0x8
-  __declspec(property(get = __get__encryptionLayer, put = __set__encryptionLayer))::GlobalNamespace::PacketEncryptionLayer* _encryptionLayer;
+  __declspec(property(get = __cordl_internal_get__encryptionLayer, put = __cordl_internal_set__encryptionLayer))::GlobalNamespace::PacketEncryptionLayer* _encryptionLayer;
 
   /// @brief Field _taskUtility, offset 0x28, size 0x8
-  __declspec(property(get = __get__taskUtility, put = __set__taskUtility))::BGNet::Core::ITaskUtility* _taskUtility;
+  __declspec(property(get = __cordl_internal_get__taskUtility, put = __cordl_internal_set__taskUtility))::BGNet::Core::ITaskUtility* _taskUtility;
 
   /// @brief Field _connections, offset 0x30, size 0x8
-  __declspec(property(get = __get__connections, put = __set__connections))::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnection*>* _connections;
+  __declspec(property(get = __cordl_internal_get__connections,
+                      put = __cordl_internal_set__connections))::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnection*>* _connections;
 
   /// @brief Field _pendingConnections, offset 0x38, size 0x8
-  __declspec(property(get = __get__pendingConnections,
-                      put = __set__pendingConnections))::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnection*>* _pendingConnections;
+  __declspec(property(get = __cordl_internal_get__pendingConnections,
+                      put = __cordl_internal_set__pendingConnections))::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnection*>* _pendingConnections;
 
   /// @brief Field _pendingRequests, offset 0x40, size 0x8
-  __declspec(property(get = __get__pendingRequests,
-                      put = __set__pendingRequests))::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnectionRequest*>* _pendingRequests;
+  __declspec(
+      property(get = __cordl_internal_get__pendingRequests,
+               put = __cordl_internal_set__pendingRequests))::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnectionRequest*>* _pendingRequests;
 
   /// @brief Field _pendingReconnections, offset 0x48, size 0x8
-  __declspec(property(get = __get__pendingReconnections, put = __set__pendingReconnections))::System::Collections::Generic::HashSet_1<::System::Net::IPEndPoint*>* _pendingReconnections;
+  __declspec(property(get = __cordl_internal_get__pendingReconnections,
+                      put = __cordl_internal_set__pendingReconnections))::System::Collections::Generic::HashSet_1<::System::Net::IPEndPoint*>* _pendingReconnections;
 
   /// @brief Field _userId, offset 0x50, size 0x8
-  __declspec(property(get = __get__userId, put = __set__userId))::StringW _userId;
+  __declspec(property(get = __cordl_internal_get__userId, put = __cordl_internal_set__userId))::StringW _userId;
 
   /// @brief Field _userName, offset 0x58, size 0x8
-  __declspec(property(get = __get__userName, put = __set__userName))::StringW _userName;
+  __declspec(property(get = __cordl_internal_get__userName, put = __cordl_internal_set__userName))::StringW _userName;
 
   /// @brief Field _connectionRequestHandler, offset 0x60, size 0x8
-  __declspec(property(get = __get__connectionRequestHandler, put = __set__connectionRequestHandler))::GlobalNamespace::IConnectionRequestHandler* _connectionRequestHandler;
+  __declspec(property(get = __cordl_internal_get__connectionRequestHandler,
+                      put = __cordl_internal_set__connectionRequestHandler))::GlobalNamespace::IConnectionRequestHandler* _connectionRequestHandler;
 
   /// @brief Field _mode, offset 0x68, size 0x4
-  __declspec(property(get = __get__mode, put = __set__mode))::GlobalNamespace::__LiteNetLibConnectionManager__NetworkMode _mode;
+  __declspec(property(get = __cordl_internal_get__mode, put = __cordl_internal_set__mode))::GlobalNamespace::__LiteNetLibConnectionManager__NetworkMode _mode;
 
   /// @brief Field _connectionState, offset 0x6c, size 0x4
-  __declspec(property(get = __get__connectionState, put = __set__connectionState))::GlobalNamespace::__LiteNetLibConnectionManager__ConnectionState _connectionState;
+  __declspec(property(get = __cordl_internal_get__connectionState, put = __cordl_internal_set__connectionState))::GlobalNamespace::__LiteNetLibConnectionManager__ConnectionState _connectionState;
 
   /// @brief Field _backgroundSentryDisconnectCts, offset 0x70, size 0x8
-  __declspec(property(get = __get__backgroundSentryDisconnectCts, put = __set__backgroundSentryDisconnectCts))::System::Threading::CancellationTokenSource* _backgroundSentryDisconnectCts;
+  __declspec(property(get = __cordl_internal_get__backgroundSentryDisconnectCts,
+                      put = __cordl_internal_set__backgroundSentryDisconnectCts))::System::Threading::CancellationTokenSource* _backgroundSentryDisconnectCts;
 
   /// @brief Field _backgroundSentryShutdownCts, offset 0x78, size 0x8
-  __declspec(property(get = __get__backgroundSentryShutdownCts, put = __set__backgroundSentryShutdownCts))::System::Threading::CancellationTokenSource* _backgroundSentryShutdownCts;
+  __declspec(property(get = __cordl_internal_get__backgroundSentryShutdownCts,
+                      put = __cordl_internal_set__backgroundSentryShutdownCts))::System::Threading::CancellationTokenSource* _backgroundSentryShutdownCts;
 
   /// @brief Field _sentryDisconnected, offset 0x80, size 0x1
-  __declspec(property(get = __get__sentryDisconnected, put = __set__sentryDisconnected)) bool _sentryDisconnected;
+  __declspec(property(get = __cordl_internal_get__sentryDisconnected, put = __cordl_internal_set__sentryDisconnected)) bool _sentryDisconnected;
 
   /// @brief Field _sentryShutdown, offset 0x81, size 0x1
-  __declspec(property(get = __get__sentryShutdown, put = __set__sentryShutdown)) bool _sentryShutdown;
+  __declspec(property(get = __cordl_internal_get__sentryShutdown, put = __cordl_internal_set__sentryShutdown)) bool _sentryShutdown;
 
   /// @brief Field _lastPollUpdateTime, offset 0x88, size 0x8
-  __declspec(property(get = __get__lastPollUpdateTime, put = __set__lastPollUpdateTime)) int64_t _lastPollUpdateTime;
+  __declspec(property(get = __cordl_internal_get__lastPollUpdateTime, put = __cordl_internal_set__lastPollUpdateTime)) int64_t _lastPollUpdateTime;
 
   /// @brief Field _lastStatisticsUpdateTime, offset 0x90, size 0x8
-  __declspec(property(get = __get__lastStatisticsUpdateTime, put = __set__lastStatisticsUpdateTime)) int64_t _lastStatisticsUpdateTime;
+  __declspec(property(get = __cordl_internal_get__lastStatisticsUpdateTime, put = __cordl_internal_set__lastStatisticsUpdateTime)) int64_t _lastStatisticsUpdateTime;
 
   /// @brief Field onInitializedEvent, offset 0x98, size 0x8
-  __declspec(property(get = __get_onInitializedEvent, put = __set_onInitializedEvent))::System::Action* onInitializedEvent;
+  __declspec(property(get = __cordl_internal_get_onInitializedEvent, put = __cordl_internal_set_onInitializedEvent))::System::Action* onInitializedEvent;
 
   /// @brief Field onConnectedEvent, offset 0xa0, size 0x8
-  __declspec(property(get = __get_onConnectedEvent, put = __set_onConnectedEvent))::System::Action* onConnectedEvent;
+  __declspec(property(get = __cordl_internal_get_onConnectedEvent, put = __cordl_internal_set_onConnectedEvent))::System::Action* onConnectedEvent;
 
   /// @brief Field onDisconnectedEvent, offset 0xa8, size 0x8
-  __declspec(property(get = __get_onDisconnectedEvent, put = __set_onDisconnectedEvent))::System::Action_1<::GlobalNamespace::DisconnectedReason>* onDisconnectedEvent;
+  __declspec(property(get = __cordl_internal_get_onDisconnectedEvent, put = __cordl_internal_set_onDisconnectedEvent))::System::Action_1<::GlobalNamespace::DisconnectedReason>* onDisconnectedEvent;
 
   /// @brief Field onConnectionFailedEvent, offset 0xb0, size 0x8
-  __declspec(property(get = __get_onConnectionFailedEvent, put = __set_onConnectionFailedEvent))::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onConnectionFailedEvent;
+  __declspec(property(get = __cordl_internal_get_onConnectionFailedEvent,
+                      put = __cordl_internal_set_onConnectionFailedEvent))::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onConnectionFailedEvent;
 
   /// @brief Field onConnectionConnectedEvent, offset 0xb8, size 0x8
-  __declspec(property(get = __get_onConnectionConnectedEvent, put = __set_onConnectionConnectedEvent))::System::Action_1<::GlobalNamespace::IConnection*>* onConnectionConnectedEvent;
+  __declspec(property(get = __cordl_internal_get_onConnectionConnectedEvent,
+                      put = __cordl_internal_set_onConnectionConnectedEvent))::System::Action_1<::GlobalNamespace::IConnection*>* onConnectionConnectedEvent;
 
   /// @brief Field onConnectionDisconnectedEvent, offset 0xc0, size 0x8
-  __declspec(property(get = __get_onConnectionDisconnectedEvent,
-                      put = __set_onConnectionDisconnectedEvent))::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* onConnectionDisconnectedEvent;
+  __declspec(
+      property(get = __cordl_internal_get_onConnectionDisconnectedEvent,
+               put = __cordl_internal_set_onConnectionDisconnectedEvent))::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* onConnectionDisconnectedEvent;
 
   /// @brief Field onReceivedDataEvent, offset 0xc8, size 0x8
-  __declspec(property(get = __get_onReceivedDataEvent,
-                      put = __set_onReceivedDataEvent))::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* onReceivedDataEvent;
+  __declspec(property(
+      get = __cordl_internal_get_onReceivedDataEvent,
+      put = __cordl_internal_set_onReceivedDataEvent))::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* onReceivedDataEvent;
 
   /// @brief Field onReceiveUnconnectedDataEvent, offset 0xd0, size 0x8
-  __declspec(property(get = __get_onReceiveUnconnectedDataEvent,
-                      put = __set_onReceiveUnconnectedDataEvent))::System::Action_2<::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataReader*>* onReceiveUnconnectedDataEvent;
+  __declspec(property(get = __cordl_internal_get_onReceiveUnconnectedDataEvent,
+                      put = __cordl_internal_set_onReceiveUnconnectedDataEvent))::System::Action_2<::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataReader*>* onReceiveUnconnectedDataEvent;
 
   /// @brief Field onStatisticsUpdatedEvent, offset 0xd8, size 0x8
-  __declspec(property(get = __get_onStatisticsUpdatedEvent,
-                      put = __set_onStatisticsUpdatedEvent))::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate* onStatisticsUpdatedEvent;
+  __declspec(property(get = __cordl_internal_get_onStatisticsUpdatedEvent,
+                      put = __cordl_internal_set_onStatisticsUpdatedEvent))::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate* onStatisticsUpdatedEvent;
 
   __declspec(property(get = get_userId))::StringW userId;
 
@@ -1300,175 +1310,178 @@ public:
   /// @brief Convert to "::LiteNetLib::INetEventListener"
   constexpr ::LiteNetLib::INetEventListener* i___LiteNetLib__INetEventListener() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__unconnectedPacketHeader();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__unconnectedPacketHeader();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__unconnectedPacketHeader() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__unconnectedPacketHeader() const;
 
-  constexpr void __set__unconnectedPacketHeader(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__unconnectedPacketHeader(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::LiteNetLib::NetManager*& __get__netManager();
+  constexpr ::LiteNetLib::NetManager*& __cordl_internal_get__netManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetManager*> const& __get__netManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetManager*> const& __cordl_internal_get__netManager() const;
 
-  constexpr void __set__netManager(::LiteNetLib::NetManager* value);
+  constexpr void __cordl_internal_set__netManager(::LiteNetLib::NetManager* value);
 
-  constexpr ::GlobalNamespace::PacketEncryptionLayer*& __get__encryptionLayer();
+  constexpr ::GlobalNamespace::PacketEncryptionLayer*& __cordl_internal_get__encryptionLayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PacketEncryptionLayer*> const& __get__encryptionLayer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PacketEncryptionLayer*> const& __cordl_internal_get__encryptionLayer() const;
 
-  constexpr void __set__encryptionLayer(::GlobalNamespace::PacketEncryptionLayer* value);
+  constexpr void __cordl_internal_set__encryptionLayer(::GlobalNamespace::PacketEncryptionLayer* value);
 
-  constexpr ::BGNet::Core::ITaskUtility*& __get__taskUtility();
+  constexpr ::BGNet::Core::ITaskUtility*& __cordl_internal_get__taskUtility();
 
-  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& __get__taskUtility() const;
+  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& __cordl_internal_get__taskUtility() const;
 
-  constexpr void __set__taskUtility(::BGNet::Core::ITaskUtility* value);
+  constexpr void __cordl_internal_set__taskUtility(::BGNet::Core::ITaskUtility* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnection*>*& __get__connections();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnection*>*& __cordl_internal_get__connections();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnection*>*> const& __get__connections() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnection*>*> const&
+  __cordl_internal_get__connections() const;
 
-  constexpr void __set__connections(::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnection*>* value);
+  constexpr void __cordl_internal_set__connections(::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnection*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnection*>*& __get__pendingConnections();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnection*>*& __cordl_internal_get__pendingConnections();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnection*>*> const& __get__pendingConnections() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnection*>*> const&
+  __cordl_internal_get__pendingConnections() const;
 
-  constexpr void __set__pendingConnections(::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnection*>* value);
+  constexpr void __cordl_internal_set__pendingConnections(::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnection*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnectionRequest*>*& __get__pendingRequests();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnectionRequest*>*& __cordl_internal_get__pendingRequests();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnectionRequest*>*> const&
-  __get__pendingRequests() const;
+  __cordl_internal_get__pendingRequests() const;
 
-  constexpr void __set__pendingRequests(::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnectionRequest*>* value);
+  constexpr void __cordl_internal_set__pendingRequests(::System::Collections::Generic::List_1<::GlobalNamespace::__LiteNetLibConnectionManager__NetPeerConnectionRequest*>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::System::Net::IPEndPoint*>*& __get__pendingReconnections();
+  constexpr ::System::Collections::Generic::HashSet_1<::System::Net::IPEndPoint*>*& __cordl_internal_get__pendingReconnections();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Net::IPEndPoint*>*> const& __get__pendingReconnections() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Net::IPEndPoint*>*> const& __cordl_internal_get__pendingReconnections() const;
 
-  constexpr void __set__pendingReconnections(::System::Collections::Generic::HashSet_1<::System::Net::IPEndPoint*>* value);
+  constexpr void __cordl_internal_set__pendingReconnections(::System::Collections::Generic::HashSet_1<::System::Net::IPEndPoint*>* value);
 
-  constexpr ::StringW& __get__userId();
+  constexpr ::StringW& __cordl_internal_get__userId();
 
-  constexpr ::StringW const& __get__userId() const;
+  constexpr ::StringW const& __cordl_internal_get__userId() const;
 
-  constexpr void __set__userId(::StringW value);
+  constexpr void __cordl_internal_set__userId(::StringW value);
 
-  constexpr ::StringW& __get__userName();
+  constexpr ::StringW& __cordl_internal_get__userName();
 
-  constexpr ::StringW const& __get__userName() const;
+  constexpr ::StringW const& __cordl_internal_get__userName() const;
 
-  constexpr void __set__userName(::StringW value);
+  constexpr void __cordl_internal_set__userName(::StringW value);
 
-  constexpr ::GlobalNamespace::IConnectionRequestHandler*& __get__connectionRequestHandler();
+  constexpr ::GlobalNamespace::IConnectionRequestHandler*& __cordl_internal_get__connectionRequestHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectionRequestHandler*> const& __get__connectionRequestHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectionRequestHandler*> const& __cordl_internal_get__connectionRequestHandler() const;
 
-  constexpr void __set__connectionRequestHandler(::GlobalNamespace::IConnectionRequestHandler* value);
+  constexpr void __cordl_internal_set__connectionRequestHandler(::GlobalNamespace::IConnectionRequestHandler* value);
 
-  constexpr ::GlobalNamespace::__LiteNetLibConnectionManager__NetworkMode& __get__mode();
+  constexpr ::GlobalNamespace::__LiteNetLibConnectionManager__NetworkMode& __cordl_internal_get__mode();
 
-  constexpr ::GlobalNamespace::__LiteNetLibConnectionManager__NetworkMode const& __get__mode() const;
+  constexpr ::GlobalNamespace::__LiteNetLibConnectionManager__NetworkMode const& __cordl_internal_get__mode() const;
 
-  constexpr void __set__mode(::GlobalNamespace::__LiteNetLibConnectionManager__NetworkMode value);
+  constexpr void __cordl_internal_set__mode(::GlobalNamespace::__LiteNetLibConnectionManager__NetworkMode value);
 
-  constexpr ::GlobalNamespace::__LiteNetLibConnectionManager__ConnectionState& __get__connectionState();
+  constexpr ::GlobalNamespace::__LiteNetLibConnectionManager__ConnectionState& __cordl_internal_get__connectionState();
 
-  constexpr ::GlobalNamespace::__LiteNetLibConnectionManager__ConnectionState const& __get__connectionState() const;
+  constexpr ::GlobalNamespace::__LiteNetLibConnectionManager__ConnectionState const& __cordl_internal_get__connectionState() const;
 
-  constexpr void __set__connectionState(::GlobalNamespace::__LiteNetLibConnectionManager__ConnectionState value);
+  constexpr void __cordl_internal_set__connectionState(::GlobalNamespace::__LiteNetLibConnectionManager__ConnectionState value);
 
-  constexpr ::System::Threading::CancellationTokenSource*& __get__backgroundSentryDisconnectCts();
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__backgroundSentryDisconnectCts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __get__backgroundSentryDisconnectCts() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__backgroundSentryDisconnectCts() const;
 
-  constexpr void __set__backgroundSentryDisconnectCts(::System::Threading::CancellationTokenSource* value);
+  constexpr void __cordl_internal_set__backgroundSentryDisconnectCts(::System::Threading::CancellationTokenSource* value);
 
-  constexpr ::System::Threading::CancellationTokenSource*& __get__backgroundSentryShutdownCts();
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__backgroundSentryShutdownCts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __get__backgroundSentryShutdownCts() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__backgroundSentryShutdownCts() const;
 
-  constexpr void __set__backgroundSentryShutdownCts(::System::Threading::CancellationTokenSource* value);
+  constexpr void __cordl_internal_set__backgroundSentryShutdownCts(::System::Threading::CancellationTokenSource* value);
 
-  constexpr bool& __get__sentryDisconnected();
+  constexpr bool& __cordl_internal_get__sentryDisconnected();
 
-  constexpr bool const& __get__sentryDisconnected() const;
+  constexpr bool const& __cordl_internal_get__sentryDisconnected() const;
 
-  constexpr void __set__sentryDisconnected(bool value);
+  constexpr void __cordl_internal_set__sentryDisconnected(bool value);
 
-  constexpr bool& __get__sentryShutdown();
+  constexpr bool& __cordl_internal_get__sentryShutdown();
 
-  constexpr bool const& __get__sentryShutdown() const;
+  constexpr bool const& __cordl_internal_get__sentryShutdown() const;
 
-  constexpr void __set__sentryShutdown(bool value);
+  constexpr void __cordl_internal_set__sentryShutdown(bool value);
 
-  constexpr int64_t& __get__lastPollUpdateTime();
+  constexpr int64_t& __cordl_internal_get__lastPollUpdateTime();
 
-  constexpr int64_t const& __get__lastPollUpdateTime() const;
+  constexpr int64_t const& __cordl_internal_get__lastPollUpdateTime() const;
 
-  constexpr void __set__lastPollUpdateTime(int64_t value);
+  constexpr void __cordl_internal_set__lastPollUpdateTime(int64_t value);
 
-  constexpr int64_t& __get__lastStatisticsUpdateTime();
+  constexpr int64_t& __cordl_internal_get__lastStatisticsUpdateTime();
 
-  constexpr int64_t const& __get__lastStatisticsUpdateTime() const;
+  constexpr int64_t const& __cordl_internal_get__lastStatisticsUpdateTime() const;
 
-  constexpr void __set__lastStatisticsUpdateTime(int64_t value);
+  constexpr void __cordl_internal_set__lastStatisticsUpdateTime(int64_t value);
 
-  constexpr ::System::Action*& __get_onInitializedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_onInitializedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_onInitializedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_onInitializedEvent() const;
 
-  constexpr void __set_onInitializedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_onInitializedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_onConnectedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_onConnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_onConnectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_onConnectedEvent() const;
 
-  constexpr void __set_onConnectedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_onConnectedEvent(::System::Action* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>*& __get_onDisconnectedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>*& __cordl_internal_get_onDisconnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::DisconnectedReason>*> const& __get_onDisconnectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::DisconnectedReason>*> const& __cordl_internal_get_onDisconnectedEvent() const;
 
-  constexpr void __set_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
+  constexpr void __cordl_internal_set_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& __get_onConnectionFailedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& __cordl_internal_get_onConnectionFailedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*> const& __get_onConnectionFailedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*> const& __cordl_internal_get_onConnectionFailedEvent() const;
 
-  constexpr void __set_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
+  constexpr void __cordl_internal_set_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::IConnection*>*& __get_onConnectionConnectedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::IConnection*>*& __cordl_internal_get_onConnectionConnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnection*>*> const& __get_onConnectionConnectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnection*>*> const& __cordl_internal_get_onConnectionConnectedEvent() const;
 
-  constexpr void __set_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
+  constexpr void __cordl_internal_set_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*& __get_onConnectionDisconnectedEvent();
+  constexpr ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*& __cordl_internal_get_onConnectionDisconnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*> const& __get_onConnectionDisconnectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*> const&
+  __cordl_internal_get_onConnectionDisconnectedEvent() const;
 
-  constexpr void __set_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
+  constexpr void __cordl_internal_set_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
-  constexpr ::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*& __get_onReceivedDataEvent();
+  constexpr ::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*& __cordl_internal_get_onReceivedDataEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*> const&
-  __get_onReceivedDataEvent() const;
+  __cordl_internal_get_onReceivedDataEvent() const;
 
-  constexpr void __set_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
+  constexpr void __cordl_internal_set_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
-  constexpr ::System::Action_2<::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataReader*>*& __get_onReceiveUnconnectedDataEvent();
+  constexpr ::System::Action_2<::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataReader*>*& __cordl_internal_get_onReceiveUnconnectedDataEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataReader*>*> const& __get_onReceiveUnconnectedDataEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataReader*>*> const& __cordl_internal_get_onReceiveUnconnectedDataEvent() const;
 
-  constexpr void __set_onReceiveUnconnectedDataEvent(::System::Action_2<::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataReader*>* value);
+  constexpr void __cordl_internal_set_onReceiveUnconnectedDataEvent(::System::Action_2<::System::Net::IPEndPoint*, ::LiteNetLib::Utils::NetDataReader*>* value);
 
-  constexpr ::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate*& __get_onStatisticsUpdatedEvent();
+  constexpr ::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate*& __cordl_internal_get_onStatisticsUpdatedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate*> const& __get_onStatisticsUpdatedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate*> const& __cordl_internal_get_onStatisticsUpdatedEvent() const;
 
-  constexpr void __set_onStatisticsUpdatedEvent(::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate* value);
+  constexpr void __cordl_internal_set_onStatisticsUpdatedEvent(::GlobalNamespace::__NetworkStatisticsState__NetworkStatisticsUpdateDelegate* value);
 
   /// @brief Method add_onInitializedEvent, addr 0xe3f5f8, size 0x9c, virtual true, abstract: false, final true
   inline void add_onInitializedEvent(::System::Action* value);

@@ -29,20 +29,20 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorCached);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11294))
 // CS Name: ::Zenject::SubContainerCreatorCached*
 class CORDL_TYPE SubContainerCreatorCached : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _subCreator, offset 0x10, size 0x8
-  __declspec(property(get = __get__subCreator, put = __set__subCreator))::Zenject::ISubContainerCreator* _subCreator;
+  __declspec(property(get = __cordl_internal_get__subCreator, put = __cordl_internal_set__subCreator))::Zenject::ISubContainerCreator* _subCreator;
 
   /// @brief Field _isLookingUp, offset 0x18, size 0x1
-  __declspec(property(get = __get__isLookingUp, put = __set__isLookingUp)) bool _isLookingUp;
+  __declspec(property(get = __cordl_internal_get__isLookingUp, put = __cordl_internal_set__isLookingUp)) bool _isLookingUp;
 
   /// @brief Field _subContainer, offset 0x20, size 0x8
-  __declspec(property(get = __get__subContainer, put = __set__subContainer))::Zenject::DiContainer* _subContainer;
+  __declspec(property(get = __cordl_internal_get__subContainer, put = __cordl_internal_set__subContainer))::Zenject::DiContainer* _subContainer;
 
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
@@ -50,23 +50,23 @@ public:
   /// @brief Convert to "::Zenject::ISubContainerCreator"
   constexpr ::Zenject::ISubContainerCreator* i___Zenject__ISubContainerCreator() noexcept;
 
-  constexpr ::Zenject::ISubContainerCreator*& __get__subCreator();
+  constexpr ::Zenject::ISubContainerCreator*& __cordl_internal_get__subCreator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::ISubContainerCreator*> const& __get__subCreator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::ISubContainerCreator*> const& __cordl_internal_get__subCreator() const;
 
-  constexpr void __set__subCreator(::Zenject::ISubContainerCreator* value);
+  constexpr void __cordl_internal_set__subCreator(::Zenject::ISubContainerCreator* value);
 
-  constexpr bool& __get__isLookingUp();
+  constexpr bool& __cordl_internal_get__isLookingUp();
 
-  constexpr bool const& __get__isLookingUp() const;
+  constexpr bool const& __cordl_internal_get__isLookingUp() const;
 
-  constexpr void __set__isLookingUp(bool value);
+  constexpr void __cordl_internal_set__isLookingUp(bool value);
 
-  constexpr ::Zenject::DiContainer*& __get__subContainer();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__subContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__subContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__subContainer() const;
 
-  constexpr void __set__subContainer(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__subContainer(::Zenject::DiContainer* value);
 
   static inline ::Zenject::SubContainerCreatorCached* New_ctor(::Zenject::ISubContainerCreator* subCreator);
 

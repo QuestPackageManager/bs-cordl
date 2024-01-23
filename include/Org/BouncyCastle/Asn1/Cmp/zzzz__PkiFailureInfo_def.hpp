@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::PkiFailureInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(34))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(34))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(35))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::PkiFailureInfo*
 class CORDL_TYPE PkiFailureInfo : public ::Org::BouncyCastle::Asn1::DerBitString {

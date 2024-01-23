@@ -67,14 +67,14 @@ MARK_REF_PTR_T(::System::IO::Compression::GZipStream);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Compression {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9547))
 // CS Name: ::System.IO.Compression::GZipStream*
 class CORDL_TYPE GZipStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field _deflateStream, offset 0x28, size 0x8
-  __declspec(property(get = __get__deflateStream, put = __set__deflateStream))::System::IO::Compression::DeflateStream* _deflateStream;
+  __declspec(property(get = __cordl_internal_get__deflateStream, put = __cordl_internal_set__deflateStream))::System::IO::Compression::DeflateStream* _deflateStream;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -86,11 +86,11 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr ::System::IO::Compression::DeflateStream*& __get__deflateStream();
+  constexpr ::System::IO::Compression::DeflateStream*& __cordl_internal_get__deflateStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Compression::DeflateStream*> const& __get__deflateStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Compression::DeflateStream*> const& __cordl_internal_get__deflateStream() const;
 
-  constexpr void __set__deflateStream(::System::IO::Compression::DeflateStream* value);
+  constexpr void __cordl_internal_set__deflateStream(::System::IO::Compression::DeflateStream* value);
 
   static inline ::System::IO::Compression::GZipStream* New_ctor(::System::IO::Stream* stream, ::System::IO::Compression::CompressionMode mode);
 

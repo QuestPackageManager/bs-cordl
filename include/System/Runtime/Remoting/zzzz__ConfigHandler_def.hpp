@@ -41,35 +41,35 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ConfigHandler);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3065))
 // CS Name: ::System.Runtime.Remoting::ConfigHandler*
 class CORDL_TYPE ConfigHandler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field typeEntries, offset 0x10, size 0x8
-  __declspec(property(get = __get_typeEntries, put = __set_typeEntries))::System::Collections::ArrayList* typeEntries;
+  __declspec(property(get = __cordl_internal_get_typeEntries, put = __cordl_internal_set_typeEntries))::System::Collections::ArrayList* typeEntries;
 
   /// @brief Field channelInstances, offset 0x18, size 0x8
-  __declspec(property(get = __get_channelInstances, put = __set_channelInstances))::System::Collections::ArrayList* channelInstances;
+  __declspec(property(get = __cordl_internal_get_channelInstances, put = __cordl_internal_set_channelInstances))::System::Collections::ArrayList* channelInstances;
 
   /// @brief Field currentChannel, offset 0x20, size 0x8
-  __declspec(property(get = __get_currentChannel, put = __set_currentChannel))::System::Runtime::Remoting::ChannelData* currentChannel;
+  __declspec(property(get = __cordl_internal_get_currentChannel, put = __cordl_internal_set_currentChannel))::System::Runtime::Remoting::ChannelData* currentChannel;
 
   /// @brief Field currentProviderData, offset 0x28, size 0x8
-  __declspec(property(get = __get_currentProviderData, put = __set_currentProviderData))::System::Collections::Stack* currentProviderData;
+  __declspec(property(get = __cordl_internal_get_currentProviderData, put = __cordl_internal_set_currentProviderData))::System::Collections::Stack* currentProviderData;
 
   /// @brief Field currentClientUrl, offset 0x30, size 0x8
-  __declspec(property(get = __get_currentClientUrl, put = __set_currentClientUrl))::StringW currentClientUrl;
+  __declspec(property(get = __cordl_internal_get_currentClientUrl, put = __cordl_internal_set_currentClientUrl))::StringW currentClientUrl;
 
   /// @brief Field appName, offset 0x38, size 0x8
-  __declspec(property(get = __get_appName, put = __set_appName))::StringW appName;
+  __declspec(property(get = __cordl_internal_get_appName, put = __cordl_internal_set_appName))::StringW appName;
 
   /// @brief Field currentXmlPath, offset 0x40, size 0x8
-  __declspec(property(get = __get_currentXmlPath, put = __set_currentXmlPath))::StringW currentXmlPath;
+  __declspec(property(get = __cordl_internal_get_currentXmlPath, put = __cordl_internal_set_currentXmlPath))::StringW currentXmlPath;
 
   /// @brief Field onlyDelayedChannels, offset 0x48, size 0x1
-  __declspec(property(get = __get_onlyDelayedChannels, put = __set_onlyDelayedChannels)) bool onlyDelayedChannels;
+  __declspec(property(get = __cordl_internal_get_onlyDelayedChannels, put = __cordl_internal_set_onlyDelayedChannels)) bool onlyDelayedChannels;
 
   /// @brief Convert operator to "::Mono::Xml::__SmallXmlParser__IContentHandler"
   constexpr operator ::Mono::Xml::__SmallXmlParser__IContentHandler*() noexcept;
@@ -77,53 +77,53 @@ public:
   /// @brief Convert to "::Mono::Xml::__SmallXmlParser__IContentHandler"
   constexpr ::Mono::Xml::__SmallXmlParser__IContentHandler* i___Mono__Xml____SmallXmlParser__IContentHandler() noexcept;
 
-  constexpr ::System::Collections::ArrayList*& __get_typeEntries();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_typeEntries();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_typeEntries() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_typeEntries() const;
 
-  constexpr void __set_typeEntries(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_typeEntries(::System::Collections::ArrayList* value);
 
-  constexpr ::System::Collections::ArrayList*& __get_channelInstances();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_channelInstances();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_channelInstances() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_channelInstances() const;
 
-  constexpr void __set_channelInstances(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_channelInstances(::System::Collections::ArrayList* value);
 
-  constexpr ::System::Runtime::Remoting::ChannelData*& __get_currentChannel();
+  constexpr ::System::Runtime::Remoting::ChannelData*& __cordl_internal_get_currentChannel();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::ChannelData*> const& __get_currentChannel() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::ChannelData*> const& __cordl_internal_get_currentChannel() const;
 
-  constexpr void __set_currentChannel(::System::Runtime::Remoting::ChannelData* value);
+  constexpr void __cordl_internal_set_currentChannel(::System::Runtime::Remoting::ChannelData* value);
 
-  constexpr ::System::Collections::Stack*& __get_currentProviderData();
+  constexpr ::System::Collections::Stack*& __cordl_internal_get_currentProviderData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& __get_currentProviderData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& __cordl_internal_get_currentProviderData() const;
 
-  constexpr void __set_currentProviderData(::System::Collections::Stack* value);
+  constexpr void __cordl_internal_set_currentProviderData(::System::Collections::Stack* value);
 
-  constexpr ::StringW& __get_currentClientUrl();
+  constexpr ::StringW& __cordl_internal_get_currentClientUrl();
 
-  constexpr ::StringW const& __get_currentClientUrl() const;
+  constexpr ::StringW const& __cordl_internal_get_currentClientUrl() const;
 
-  constexpr void __set_currentClientUrl(::StringW value);
+  constexpr void __cordl_internal_set_currentClientUrl(::StringW value);
 
-  constexpr ::StringW& __get_appName();
+  constexpr ::StringW& __cordl_internal_get_appName();
 
-  constexpr ::StringW const& __get_appName() const;
+  constexpr ::StringW const& __cordl_internal_get_appName() const;
 
-  constexpr void __set_appName(::StringW value);
+  constexpr void __cordl_internal_set_appName(::StringW value);
 
-  constexpr ::StringW& __get_currentXmlPath();
+  constexpr ::StringW& __cordl_internal_get_currentXmlPath();
 
-  constexpr ::StringW const& __get_currentXmlPath() const;
+  constexpr ::StringW const& __cordl_internal_get_currentXmlPath() const;
 
-  constexpr void __set_currentXmlPath(::StringW value);
+  constexpr void __cordl_internal_set_currentXmlPath(::StringW value);
 
-  constexpr bool& __get_onlyDelayedChannels();
+  constexpr bool& __cordl_internal_get_onlyDelayedChannels();
 
-  constexpr bool const& __get_onlyDelayedChannels() const;
+  constexpr bool const& __cordl_internal_get_onlyDelayedChannels() const;
 
-  constexpr void __set_onlyDelayedChannels(bool value);
+  constexpr void __cordl_internal_set_onlyDelayedChannels(bool value);
 
   static inline ::System::Runtime::Remoting::ConfigHandler* New_ctor(bool onlyDelayedChannels);
 

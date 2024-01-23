@@ -58,7 +58,7 @@ MARK_VAL_T(::GlobalNamespace::__ScenesTransitionSetupDataSO____BeforeScenesWillB
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15415))
 // CS Name: ::ScenesTransitionSetupDataSO::<BeforeScenesWillBeActivated>d__10
 struct CORDL_TYPE __ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10 {
@@ -77,11 +77,11 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::ScenesTransitionSetupDataSO*", modifiers:
-  // "", def_value: None }, CppParam { name: "runAsync", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "",
-  // def_value: None }]
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>",
+  // modifiers: "", def_value: None }, CppParam { name: "runAsync", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
+  // modifiers: "", def_value: None }]
   constexpr __ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                              ::GlobalNamespace::ScenesTransitionSetupDataSO* __4__this, bool runAsync,
+                                                                              ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> __4__this, bool runAsync,
                                                                               ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   // Ctor Parameters []
@@ -95,7 +95,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::ScenesTransitionSetupDataSO* __4__this;
+  ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> __4__this;
 
   /// @brief Field runAsync, offset: 0x30, size: 0x1, def value: None
   bool runAsync;
@@ -126,7 +126,7 @@ static_assert(offsetof(::GlobalNamespace::__ScenesTransitionSetupDataSO___Before
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15416))
 // CS Name: ::ScenesTransitionSetupDataSO::<<BeforeScenesWillBeActivated>b__10_0>d
 struct CORDL_TYPE __ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d {
@@ -145,10 +145,10 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::ScenesTransitionSetupDataSO*", modifiers:
-  // "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>",
+  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
   constexpr __ScenesTransitionSetupDataSO____BeforeScenesWillBeActivated_b__10_0_d(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                                                   ::GlobalNamespace::ScenesTransitionSetupDataSO* __4__this,
+                                                                                   ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> __4__this,
                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   // Ctor Parameters []
@@ -162,7 +162,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::ScenesTransitionSetupDataSO* __4__this;
+  ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> __4__this;
 
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
@@ -188,7 +188,7 @@ static_assert(offsetof(::GlobalNamespace::__ScenesTransitionSetupDataSO____Befor
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15417))
 // CS Name: ::ScenesTransitionSetupDataSO*
 class CORDL_TYPE ScenesTransitionSetupDataSO : public ::GlobalNamespace::PersistentScriptableObject {
@@ -199,41 +199,41 @@ public:
   using _BeforeScenesWillBeActivated_d__10 = ::GlobalNamespace::__ScenesTransitionSetupDataSO___BeforeScenesWillBeActivated_d__10;
 
   /// @brief Field <scenes>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__scenes_k__BackingField,
-                      put = __set__scenes_k__BackingField))::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> _scenes_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__scenes_k__BackingField,
+                      put = __cordl_internal_set__scenes_k__BackingField))::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> _scenes_k__BackingField;
 
   /// @brief Field _sceneSetupDataArray, offset 0x20, size 0x8
-  __declspec(property(get = __get__sceneSetupDataArray,
-                      put = __set__sceneSetupDataArray))::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> _sceneSetupDataArray;
+  __declspec(property(get = __cordl_internal_get__sceneSetupDataArray,
+                      put = __cordl_internal_set__sceneSetupDataArray))::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> _sceneSetupDataArray;
 
   /// @brief Field <beforeScenesWillBeActivatedTaskIsComplete>k__BackingField, offset 0x28, size 0x1
-  __declspec(property(get = __get__beforeScenesWillBeActivatedTaskIsComplete_k__BackingField,
-                      put = __set__beforeScenesWillBeActivatedTaskIsComplete_k__BackingField)) bool _beforeScenesWillBeActivatedTaskIsComplete_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__beforeScenesWillBeActivatedTaskIsComplete_k__BackingField,
+                      put = __cordl_internal_set__beforeScenesWillBeActivatedTaskIsComplete_k__BackingField)) bool _beforeScenesWillBeActivatedTaskIsComplete_k__BackingField;
 
-  __declspec(property(get = get_scenes, put = set_scenes))::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> scenes;
+  __declspec(property(get = get_scenes, put = set_scenes))::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> scenes;
 
   __declspec(property(get = get_beforeScenesWillBeActivatedTaskIsComplete, put = set_beforeScenesWillBeActivatedTaskIsComplete)) bool beforeScenesWillBeActivatedTaskIsComplete;
 
-  constexpr ::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*>& __get__scenes_k__BackingField();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*>& __cordl_internal_get__scenes_k__BackingField();
 
-  constexpr ::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> const& __get__scenes_k__BackingField() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> const& __cordl_internal_get__scenes_k__BackingField() const;
 
-  constexpr void __set__scenes_k__BackingField(::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> value);
+  constexpr void __cordl_internal_set__scenes_k__BackingField(::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*>& __get__sceneSetupDataArray();
+  constexpr ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*>& __cordl_internal_get__sceneSetupDataArray();
 
-  constexpr ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> const& __get__sceneSetupDataArray() const;
+  constexpr ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> const& __cordl_internal_get__sceneSetupDataArray() const;
 
-  constexpr void __set__sceneSetupDataArray(::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> value);
+  constexpr void __cordl_internal_set__sceneSetupDataArray(::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> value);
 
-  constexpr bool& __get__beforeScenesWillBeActivatedTaskIsComplete_k__BackingField();
+  constexpr bool& __cordl_internal_get__beforeScenesWillBeActivatedTaskIsComplete_k__BackingField();
 
-  constexpr bool const& __get__beforeScenesWillBeActivatedTaskIsComplete_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__beforeScenesWillBeActivatedTaskIsComplete_k__BackingField() const;
 
-  constexpr void __set__beforeScenesWillBeActivatedTaskIsComplete_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__beforeScenesWillBeActivatedTaskIsComplete_k__BackingField(bool value);
 
   /// @brief Method get_scenes, addr 0xe236c8, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> get_scenes();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> get_scenes();
 
   /// @brief Method set_scenes, addr 0xe236d0, size 0x8, virtual false, abstract: false, final false
   inline void set_scenes(::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> value);
@@ -280,7 +280,7 @@ protected:
 
 public:
   /// @brief Field <scenes>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> ____scenes_k__BackingField;
+  ::ArrayW<::UnityW<::GlobalNamespace::SceneInfo>, ::Array<::UnityW<::GlobalNamespace::SceneInfo>>*> ____scenes_k__BackingField;
 
   /// @brief Field _sceneSetupDataArray, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> ____sceneSetupDataArray;

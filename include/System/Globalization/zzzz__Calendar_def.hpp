@@ -29,20 +29,20 @@ MARK_REF_PTR_T(::System::Globalization::Calendar);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3696))
 // CS Name: ::System.Globalization::Calendar*
 class CORDL_TYPE Calendar : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_currentEraValue, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_currentEraValue, put = __set_m_currentEraValue)) int32_t m_currentEraValue;
+  __declspec(property(get = __cordl_internal_get_m_currentEraValue, put = __cordl_internal_set_m_currentEraValue)) int32_t m_currentEraValue;
 
   /// @brief Field m_isReadOnly, offset 0x14, size 0x1
-  __declspec(property(get = __get_m_isReadOnly, put = __set_m_isReadOnly)) bool m_isReadOnly;
+  __declspec(property(get = __cordl_internal_get_m_isReadOnly, put = __cordl_internal_set_m_isReadOnly)) bool m_isReadOnly;
 
   /// @brief Field twoDigitYearMax, offset 0x18, size 0x4
-  __declspec(property(get = __get_twoDigitYearMax, put = __set_twoDigitYearMax)) int32_t twoDigitYearMax;
+  __declspec(property(get = __cordl_internal_get_twoDigitYearMax, put = __cordl_internal_set_twoDigitYearMax)) int32_t twoDigitYearMax;
 
   __declspec(property(get = get_MinSupportedDateTime))::System::DateTime MinSupportedDateTime;
 
@@ -64,23 +64,23 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr int32_t& __get_m_currentEraValue();
+  constexpr int32_t& __cordl_internal_get_m_currentEraValue();
 
-  constexpr int32_t const& __get_m_currentEraValue() const;
+  constexpr int32_t const& __cordl_internal_get_m_currentEraValue() const;
 
-  constexpr void __set_m_currentEraValue(int32_t value);
+  constexpr void __cordl_internal_set_m_currentEraValue(int32_t value);
 
-  constexpr bool& __get_m_isReadOnly();
+  constexpr bool& __cordl_internal_get_m_isReadOnly();
 
-  constexpr bool const& __get_m_isReadOnly() const;
+  constexpr bool const& __cordl_internal_get_m_isReadOnly() const;
 
-  constexpr void __set_m_isReadOnly(bool value);
+  constexpr void __cordl_internal_set_m_isReadOnly(bool value);
 
-  constexpr int32_t& __get_twoDigitYearMax();
+  constexpr int32_t& __cordl_internal_get_twoDigitYearMax();
 
-  constexpr int32_t const& __get_twoDigitYearMax() const;
+  constexpr int32_t const& __cordl_internal_get_twoDigitYearMax() const;
 
-  constexpr void __set_twoDigitYearMax(int32_t value);
+  constexpr void __cordl_internal_set_twoDigitYearMax(int32_t value);
 
   /// @brief Method get_MinSupportedDateTime, addr 0x255e0b4, size 0x58, virtual true, abstract: false, final false
   inline ::System::DateTime get_MinSupportedDateTime();

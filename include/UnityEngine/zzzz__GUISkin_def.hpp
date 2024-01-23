@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::UnityEngine::__GUISkin__SkinChangedDelegate);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14620))
 // CS Name: ::GUISkin::SkinChangedDelegate*
 class CORDL_TYPE __GUISkin__SkinChangedDelegate : public ::System::MulticastDelegate {
@@ -81,7 +81,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__GUISkin__SkinChan
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14621))
 // CS Name: ::UnityEngine::GUISkin*
 class CORDL_TYPE GUISkin : public ::UnityEngine::ScriptableObject {
@@ -90,85 +90,86 @@ public:
   using SkinChangedDelegate = ::UnityEngine::__GUISkin__SkinChangedDelegate;
 
   /// @brief Field m_Font, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Font, put = __set_m_Font))::UnityEngine::Font* m_Font;
+  __declspec(property(get = __cordl_internal_get_m_Font, put = __cordl_internal_set_m_Font))::UnityW<::UnityEngine::Font> m_Font;
 
   /// @brief Field m_box, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_box, put = __set_m_box))::UnityEngine::GUIStyle* m_box;
+  __declspec(property(get = __cordl_internal_get_m_box, put = __cordl_internal_set_m_box))::UnityEngine::GUIStyle* m_box;
 
   /// @brief Field m_button, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_button, put = __set_m_button))::UnityEngine::GUIStyle* m_button;
+  __declspec(property(get = __cordl_internal_get_m_button, put = __cordl_internal_set_m_button))::UnityEngine::GUIStyle* m_button;
 
   /// @brief Field m_toggle, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_toggle, put = __set_m_toggle))::UnityEngine::GUIStyle* m_toggle;
+  __declspec(property(get = __cordl_internal_get_m_toggle, put = __cordl_internal_set_m_toggle))::UnityEngine::GUIStyle* m_toggle;
 
   /// @brief Field m_label, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_label, put = __set_m_label))::UnityEngine::GUIStyle* m_label;
+  __declspec(property(get = __cordl_internal_get_m_label, put = __cordl_internal_set_m_label))::UnityEngine::GUIStyle* m_label;
 
   /// @brief Field m_textField, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_textField, put = __set_m_textField))::UnityEngine::GUIStyle* m_textField;
+  __declspec(property(get = __cordl_internal_get_m_textField, put = __cordl_internal_set_m_textField))::UnityEngine::GUIStyle* m_textField;
 
   /// @brief Field m_textArea, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_textArea, put = __set_m_textArea))::UnityEngine::GUIStyle* m_textArea;
+  __declspec(property(get = __cordl_internal_get_m_textArea, put = __cordl_internal_set_m_textArea))::UnityEngine::GUIStyle* m_textArea;
 
   /// @brief Field m_window, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_window, put = __set_m_window))::UnityEngine::GUIStyle* m_window;
+  __declspec(property(get = __cordl_internal_get_m_window, put = __cordl_internal_set_m_window))::UnityEngine::GUIStyle* m_window;
 
   /// @brief Field m_horizontalSlider, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_horizontalSlider, put = __set_m_horizontalSlider))::UnityEngine::GUIStyle* m_horizontalSlider;
+  __declspec(property(get = __cordl_internal_get_m_horizontalSlider, put = __cordl_internal_set_m_horizontalSlider))::UnityEngine::GUIStyle* m_horizontalSlider;
 
   /// @brief Field m_horizontalSliderThumb, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_horizontalSliderThumb, put = __set_m_horizontalSliderThumb))::UnityEngine::GUIStyle* m_horizontalSliderThumb;
+  __declspec(property(get = __cordl_internal_get_m_horizontalSliderThumb, put = __cordl_internal_set_m_horizontalSliderThumb))::UnityEngine::GUIStyle* m_horizontalSliderThumb;
 
   /// @brief Field m_horizontalSliderThumbExtent, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_horizontalSliderThumbExtent, put = __set_m_horizontalSliderThumbExtent))::UnityEngine::GUIStyle* m_horizontalSliderThumbExtent;
+  __declspec(property(get = __cordl_internal_get_m_horizontalSliderThumbExtent, put = __cordl_internal_set_m_horizontalSliderThumbExtent))::UnityEngine::GUIStyle* m_horizontalSliderThumbExtent;
 
   /// @brief Field m_verticalSlider, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_verticalSlider, put = __set_m_verticalSlider))::UnityEngine::GUIStyle* m_verticalSlider;
+  __declspec(property(get = __cordl_internal_get_m_verticalSlider, put = __cordl_internal_set_m_verticalSlider))::UnityEngine::GUIStyle* m_verticalSlider;
 
   /// @brief Field m_verticalSliderThumb, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_verticalSliderThumb, put = __set_m_verticalSliderThumb))::UnityEngine::GUIStyle* m_verticalSliderThumb;
+  __declspec(property(get = __cordl_internal_get_m_verticalSliderThumb, put = __cordl_internal_set_m_verticalSliderThumb))::UnityEngine::GUIStyle* m_verticalSliderThumb;
 
   /// @brief Field m_verticalSliderThumbExtent, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_verticalSliderThumbExtent, put = __set_m_verticalSliderThumbExtent))::UnityEngine::GUIStyle* m_verticalSliderThumbExtent;
+  __declspec(property(get = __cordl_internal_get_m_verticalSliderThumbExtent, put = __cordl_internal_set_m_verticalSliderThumbExtent))::UnityEngine::GUIStyle* m_verticalSliderThumbExtent;
 
   /// @brief Field m_SliderMixed, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_SliderMixed, put = __set_m_SliderMixed))::UnityEngine::GUIStyle* m_SliderMixed;
+  __declspec(property(get = __cordl_internal_get_m_SliderMixed, put = __cordl_internal_set_m_SliderMixed))::UnityEngine::GUIStyle* m_SliderMixed;
 
   /// @brief Field m_horizontalScrollbar, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_horizontalScrollbar, put = __set_m_horizontalScrollbar))::UnityEngine::GUIStyle* m_horizontalScrollbar;
+  __declspec(property(get = __cordl_internal_get_m_horizontalScrollbar, put = __cordl_internal_set_m_horizontalScrollbar))::UnityEngine::GUIStyle* m_horizontalScrollbar;
 
   /// @brief Field m_horizontalScrollbarThumb, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_horizontalScrollbarThumb, put = __set_m_horizontalScrollbarThumb))::UnityEngine::GUIStyle* m_horizontalScrollbarThumb;
+  __declspec(property(get = __cordl_internal_get_m_horizontalScrollbarThumb, put = __cordl_internal_set_m_horizontalScrollbarThumb))::UnityEngine::GUIStyle* m_horizontalScrollbarThumb;
 
   /// @brief Field m_horizontalScrollbarLeftButton, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_horizontalScrollbarLeftButton, put = __set_m_horizontalScrollbarLeftButton))::UnityEngine::GUIStyle* m_horizontalScrollbarLeftButton;
+  __declspec(property(get = __cordl_internal_get_m_horizontalScrollbarLeftButton, put = __cordl_internal_set_m_horizontalScrollbarLeftButton))::UnityEngine::GUIStyle* m_horizontalScrollbarLeftButton;
 
   /// @brief Field m_horizontalScrollbarRightButton, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_horizontalScrollbarRightButton, put = __set_m_horizontalScrollbarRightButton))::UnityEngine::GUIStyle* m_horizontalScrollbarRightButton;
+  __declspec(property(get = __cordl_internal_get_m_horizontalScrollbarRightButton,
+                      put = __cordl_internal_set_m_horizontalScrollbarRightButton))::UnityEngine::GUIStyle* m_horizontalScrollbarRightButton;
 
   /// @brief Field m_verticalScrollbar, offset 0xb0, size 0x8
-  __declspec(property(get = __get_m_verticalScrollbar, put = __set_m_verticalScrollbar))::UnityEngine::GUIStyle* m_verticalScrollbar;
+  __declspec(property(get = __cordl_internal_get_m_verticalScrollbar, put = __cordl_internal_set_m_verticalScrollbar))::UnityEngine::GUIStyle* m_verticalScrollbar;
 
   /// @brief Field m_verticalScrollbarThumb, offset 0xb8, size 0x8
-  __declspec(property(get = __get_m_verticalScrollbarThumb, put = __set_m_verticalScrollbarThumb))::UnityEngine::GUIStyle* m_verticalScrollbarThumb;
+  __declspec(property(get = __cordl_internal_get_m_verticalScrollbarThumb, put = __cordl_internal_set_m_verticalScrollbarThumb))::UnityEngine::GUIStyle* m_verticalScrollbarThumb;
 
   /// @brief Field m_verticalScrollbarUpButton, offset 0xc0, size 0x8
-  __declspec(property(get = __get_m_verticalScrollbarUpButton, put = __set_m_verticalScrollbarUpButton))::UnityEngine::GUIStyle* m_verticalScrollbarUpButton;
+  __declspec(property(get = __cordl_internal_get_m_verticalScrollbarUpButton, put = __cordl_internal_set_m_verticalScrollbarUpButton))::UnityEngine::GUIStyle* m_verticalScrollbarUpButton;
 
   /// @brief Field m_verticalScrollbarDownButton, offset 0xc8, size 0x8
-  __declspec(property(get = __get_m_verticalScrollbarDownButton, put = __set_m_verticalScrollbarDownButton))::UnityEngine::GUIStyle* m_verticalScrollbarDownButton;
+  __declspec(property(get = __cordl_internal_get_m_verticalScrollbarDownButton, put = __cordl_internal_set_m_verticalScrollbarDownButton))::UnityEngine::GUIStyle* m_verticalScrollbarDownButton;
 
   /// @brief Field m_ScrollView, offset 0xd0, size 0x8
-  __declspec(property(get = __get_m_ScrollView, put = __set_m_ScrollView))::UnityEngine::GUIStyle* m_ScrollView;
+  __declspec(property(get = __cordl_internal_get_m_ScrollView, put = __cordl_internal_set_m_ScrollView))::UnityEngine::GUIStyle* m_ScrollView;
 
   /// @brief Field m_CustomStyles, offset 0xd8, size 0x8
-  __declspec(property(get = __get_m_CustomStyles, put = __set_m_CustomStyles))::ArrayW<::UnityEngine::GUIStyle*, ::Array<::UnityEngine::GUIStyle*>*> m_CustomStyles;
+  __declspec(property(get = __cordl_internal_get_m_CustomStyles, put = __cordl_internal_set_m_CustomStyles))::ArrayW<::UnityEngine::GUIStyle*, ::Array<::UnityEngine::GUIStyle*>*> m_CustomStyles;
 
   /// @brief Field m_Settings, offset 0xe0, size 0x8
-  __declspec(property(get = __get_m_Settings, put = __set_m_Settings))::UnityEngine::GUISettings* m_Settings;
+  __declspec(property(get = __cordl_internal_get_m_Settings, put = __cordl_internal_set_m_Settings))::UnityEngine::GUISettings* m_Settings;
 
   /// @brief Field m_Styles, offset 0xe8, size 0x8
-  __declspec(property(get = __get_m_Styles, put = __set_m_Styles))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::GUIStyle*>* m_Styles;
+  __declspec(property(get = __cordl_internal_get_m_Styles, put = __cordl_internal_set_m_Styles))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::GUIStyle*>* m_Styles;
 
   /// @brief Field ms_Error, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ms_Error, put = setStaticF_ms_Error))::UnityEngine::GUIStyle* ms_Error;
@@ -177,9 +178,9 @@ public:
   static __declspec(property(get = getStaticF_m_SkinChanged, put = setStaticF_m_SkinChanged))::UnityEngine::__GUISkin__SkinChangedDelegate* m_SkinChanged;
 
   /// @brief Field current, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_current, put = setStaticF_current))::UnityEngine::GUISkin* current;
+  static __declspec(property(get = getStaticF_current, put = setStaticF_current))::UnityW<::UnityEngine::GUISkin> current;
 
-  __declspec(property(get = get_font, put = set_font))::UnityEngine::Font* font;
+  __declspec(property(get = get_font, put = set_font))::UnityW<::UnityEngine::Font> font;
 
   __declspec(property(get = get_box, put = set_box))::UnityEngine::GUIStyle* box;
 
@@ -231,167 +232,167 @@ public:
 
   __declspec(property(get = get_settings))::UnityEngine::GUISettings* settings;
 
-  constexpr ::UnityEngine::Font*& __get_m_Font();
+  constexpr ::UnityW<::UnityEngine::Font>& __cordl_internal_get_m_Font();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Font*> const& __get_m_Font() const;
+  constexpr ::UnityW<::UnityEngine::Font> const& __cordl_internal_get_m_Font() const;
 
-  constexpr void __set_m_Font(::UnityEngine::Font* value);
+  constexpr void __cordl_internal_set_m_Font(::UnityW<::UnityEngine::Font> value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_box();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_box();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_box() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_box() const;
 
-  constexpr void __set_m_box(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_box(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_button();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_button();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_button() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_button() const;
 
-  constexpr void __set_m_button(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_button(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_toggle();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_toggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_toggle() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_toggle() const;
 
-  constexpr void __set_m_toggle(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_toggle(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_label();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_label();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_label() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_label() const;
 
-  constexpr void __set_m_label(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_label(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_textField();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_textField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_textField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_textField() const;
 
-  constexpr void __set_m_textField(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_textField(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_textArea();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_textArea();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_textArea() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_textArea() const;
 
-  constexpr void __set_m_textArea(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_textArea(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_window();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_window();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_window() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_window() const;
 
-  constexpr void __set_m_window(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_window(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_horizontalSlider();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_horizontalSlider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_horizontalSlider() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_horizontalSlider() const;
 
-  constexpr void __set_m_horizontalSlider(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_horizontalSlider(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_horizontalSliderThumb();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_horizontalSliderThumb();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_horizontalSliderThumb() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_horizontalSliderThumb() const;
 
-  constexpr void __set_m_horizontalSliderThumb(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_horizontalSliderThumb(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_horizontalSliderThumbExtent();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_horizontalSliderThumbExtent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_horizontalSliderThumbExtent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_horizontalSliderThumbExtent() const;
 
-  constexpr void __set_m_horizontalSliderThumbExtent(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_horizontalSliderThumbExtent(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_verticalSlider();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_verticalSlider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_verticalSlider() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_verticalSlider() const;
 
-  constexpr void __set_m_verticalSlider(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_verticalSlider(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_verticalSliderThumb();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_verticalSliderThumb();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_verticalSliderThumb() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_verticalSliderThumb() const;
 
-  constexpr void __set_m_verticalSliderThumb(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_verticalSliderThumb(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_verticalSliderThumbExtent();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_verticalSliderThumbExtent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_verticalSliderThumbExtent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_verticalSliderThumbExtent() const;
 
-  constexpr void __set_m_verticalSliderThumbExtent(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_verticalSliderThumbExtent(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_SliderMixed();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_SliderMixed();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_SliderMixed() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_SliderMixed() const;
 
-  constexpr void __set_m_SliderMixed(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_SliderMixed(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_horizontalScrollbar();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_horizontalScrollbar();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_horizontalScrollbar() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_horizontalScrollbar() const;
 
-  constexpr void __set_m_horizontalScrollbar(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_horizontalScrollbar(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_horizontalScrollbarThumb();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_horizontalScrollbarThumb();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_horizontalScrollbarThumb() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_horizontalScrollbarThumb() const;
 
-  constexpr void __set_m_horizontalScrollbarThumb(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_horizontalScrollbarThumb(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_horizontalScrollbarLeftButton();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_horizontalScrollbarLeftButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_horizontalScrollbarLeftButton() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_horizontalScrollbarLeftButton() const;
 
-  constexpr void __set_m_horizontalScrollbarLeftButton(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_horizontalScrollbarLeftButton(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_horizontalScrollbarRightButton();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_horizontalScrollbarRightButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_horizontalScrollbarRightButton() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_horizontalScrollbarRightButton() const;
 
-  constexpr void __set_m_horizontalScrollbarRightButton(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_horizontalScrollbarRightButton(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_verticalScrollbar();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_verticalScrollbar();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_verticalScrollbar() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_verticalScrollbar() const;
 
-  constexpr void __set_m_verticalScrollbar(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_verticalScrollbar(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_verticalScrollbarThumb();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_verticalScrollbarThumb();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_verticalScrollbarThumb() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_verticalScrollbarThumb() const;
 
-  constexpr void __set_m_verticalScrollbarThumb(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_verticalScrollbarThumb(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_verticalScrollbarUpButton();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_verticalScrollbarUpButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_verticalScrollbarUpButton() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_verticalScrollbarUpButton() const;
 
-  constexpr void __set_m_verticalScrollbarUpButton(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_verticalScrollbarUpButton(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_verticalScrollbarDownButton();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_verticalScrollbarDownButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_verticalScrollbarDownButton() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_verticalScrollbarDownButton() const;
 
-  constexpr void __set_m_verticalScrollbarDownButton(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_verticalScrollbarDownButton(::UnityEngine::GUIStyle* value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_m_ScrollView();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_m_ScrollView();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_m_ScrollView() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_m_ScrollView() const;
 
-  constexpr void __set_m_ScrollView(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_m_ScrollView(::UnityEngine::GUIStyle* value);
 
-  constexpr ::ArrayW<::UnityEngine::GUIStyle*, ::Array<::UnityEngine::GUIStyle*>*>& __get_m_CustomStyles();
+  constexpr ::ArrayW<::UnityEngine::GUIStyle*, ::Array<::UnityEngine::GUIStyle*>*>& __cordl_internal_get_m_CustomStyles();
 
-  constexpr ::ArrayW<::UnityEngine::GUIStyle*, ::Array<::UnityEngine::GUIStyle*>*> const& __get_m_CustomStyles() const;
+  constexpr ::ArrayW<::UnityEngine::GUIStyle*, ::Array<::UnityEngine::GUIStyle*>*> const& __cordl_internal_get_m_CustomStyles() const;
 
-  constexpr void __set_m_CustomStyles(::ArrayW<::UnityEngine::GUIStyle*, ::Array<::UnityEngine::GUIStyle*>*> value);
+  constexpr void __cordl_internal_set_m_CustomStyles(::ArrayW<::UnityEngine::GUIStyle*, ::Array<::UnityEngine::GUIStyle*>*> value);
 
-  constexpr ::UnityEngine::GUISettings*& __get_m_Settings();
+  constexpr ::UnityEngine::GUISettings*& __cordl_internal_get_m_Settings();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUISettings*> const& __get_m_Settings() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUISettings*> const& __cordl_internal_get_m_Settings() const;
 
-  constexpr void __set_m_Settings(::UnityEngine::GUISettings* value);
+  constexpr void __cordl_internal_set_m_Settings(::UnityEngine::GUISettings* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::GUIStyle*>*& __get_m_Styles();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::GUIStyle*>*& __cordl_internal_get_m_Styles();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::GUIStyle*>*> const& __get_m_Styles() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::GUIStyle*>*> const& __cordl_internal_get_m_Styles() const;
 
-  constexpr void __set_m_Styles(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::GUIStyle*>* value);
+  constexpr void __cordl_internal_set_m_Styles(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::GUIStyle*>* value);
 
   static inline void setStaticF_ms_Error(::UnityEngine::GUIStyle* value);
 
@@ -401,9 +402,9 @@ public:
 
   static inline ::UnityEngine::__GUISkin__SkinChangedDelegate* getStaticF_m_SkinChanged();
 
-  static inline void setStaticF_current(::UnityEngine::GUISkin* value);
+  static inline void setStaticF_current(::UnityW<::UnityEngine::GUISkin> value);
 
-  static inline ::UnityEngine::GUISkin* getStaticF_current();
+  static inline ::UnityW<::UnityEngine::GUISkin> getStaticF_current();
 
   static inline ::UnityEngine::GUISkin* New_ctor();
 
@@ -417,7 +418,7 @@ public:
   static inline void CleanupRoots();
 
   /// @brief Method get_font, addr 0x2d08a7c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Font* get_font();
+  inline ::UnityW<::UnityEngine::Font> get_font();
 
   /// @brief Method set_font, addr 0x2d08a84, size 0xcc, virtual false, abstract: false, final false
   inline void set_font(::UnityEngine::Font* value);
@@ -605,7 +606,7 @@ protected:
 
 public:
   /// @brief Field m_Font, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Font* ___m_Font;
+  ::UnityW<::UnityEngine::Font> ___m_Font;
 
   /// @brief Field m_box, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::GUIStyle* ___m_box;

@@ -20,17 +20,17 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::MessageBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13767))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13767))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13765))
 // CS Name: ::Mono.Security.Protocol.Ntlm::MessageBase*
 class CORDL_TYPE MessageBase : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _type, offset 0x10, size 0x4
-  __declspec(property(get = __get__type, put = __set__type)) int32_t _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type)) int32_t _type;
 
   /// @brief Field _flags, offset 0x14, size 0x4
-  __declspec(property(get = __get__flags, put = __set__flags))::Mono::Security::Protocol::Ntlm::NtlmFlags _flags;
+  __declspec(property(get = __cordl_internal_get__flags, put = __cordl_internal_set__flags))::Mono::Security::Protocol::Ntlm::NtlmFlags _flags;
 
   /// @brief Field header, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_header, put = setStaticF_header))::ArrayW<uint8_t, ::Array<uint8_t>*> header;
@@ -39,17 +39,17 @@ public:
 
   __declspec(property(get = get_Type)) int32_t Type;
 
-  constexpr int32_t& __get__type();
+  constexpr int32_t& __cordl_internal_get__type();
 
-  constexpr int32_t const& __get__type() const;
+  constexpr int32_t const& __cordl_internal_get__type() const;
 
-  constexpr void __set__type(int32_t value);
+  constexpr void __cordl_internal_set__type(int32_t value);
 
-  constexpr ::Mono::Security::Protocol::Ntlm::NtlmFlags& __get__flags();
+  constexpr ::Mono::Security::Protocol::Ntlm::NtlmFlags& __cordl_internal_get__flags();
 
-  constexpr ::Mono::Security::Protocol::Ntlm::NtlmFlags const& __get__flags() const;
+  constexpr ::Mono::Security::Protocol::Ntlm::NtlmFlags const& __cordl_internal_get__flags() const;
 
-  constexpr void __set__flags(::Mono::Security::Protocol::Ntlm::NtlmFlags value);
+  constexpr void __cordl_internal_set__flags(::Mono::Security::Protocol::Ntlm::NtlmFlags value);
 
   static inline void setStaticF_header(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

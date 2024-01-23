@@ -30,47 +30,47 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBer
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(484))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(482))
 // CS Name: ::BerOctetStringGenerator::BufferedBerOctetStream*
 class CORDL_TYPE __BerOctetStringGenerator__BufferedBerOctetStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
   // Declarations
   /// @brief Field _buf, offset 0x30, size 0x8
-  __declspec(property(get = __get__buf, put = __set__buf))::ArrayW<uint8_t, ::Array<uint8_t>*> _buf;
+  __declspec(property(get = __cordl_internal_get__buf, put = __cordl_internal_set__buf))::ArrayW<uint8_t, ::Array<uint8_t>*> _buf;
 
   /// @brief Field _off, offset 0x38, size 0x4
-  __declspec(property(get = __get__off, put = __set__off)) int32_t _off;
+  __declspec(property(get = __cordl_internal_get__off, put = __cordl_internal_set__off)) int32_t _off;
 
   /// @brief Field _gen, offset 0x40, size 0x8
-  __declspec(property(get = __get__gen, put = __set__gen))::Org::BouncyCastle::Asn1::BerOctetStringGenerator* _gen;
+  __declspec(property(get = __cordl_internal_get__gen, put = __cordl_internal_set__gen))::Org::BouncyCastle::Asn1::BerOctetStringGenerator* _gen;
 
   /// @brief Field _derOut, offset 0x48, size 0x8
-  __declspec(property(get = __get__derOut, put = __set__derOut))::Org::BouncyCastle::Asn1::DerOutputStream* _derOut;
+  __declspec(property(get = __cordl_internal_get__derOut, put = __cordl_internal_set__derOut))::Org::BouncyCastle::Asn1::DerOutputStream* _derOut;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__buf();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__buf();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__buf() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__buf() const;
 
-  constexpr void __set__buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__off();
+  constexpr int32_t& __cordl_internal_get__off();
 
-  constexpr int32_t const& __get__off() const;
+  constexpr int32_t const& __cordl_internal_get__off() const;
 
-  constexpr void __set__off(int32_t value);
+  constexpr void __cordl_internal_set__off(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Asn1::BerOctetStringGenerator*& __get__gen();
+  constexpr ::Org::BouncyCastle::Asn1::BerOctetStringGenerator*& __cordl_internal_get__gen();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerOctetStringGenerator*> const& __get__gen() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerOctetStringGenerator*> const& __cordl_internal_get__gen() const;
 
-  constexpr void __set__gen(::Org::BouncyCastle::Asn1::BerOctetStringGenerator* value);
+  constexpr void __cordl_internal_set__gen(::Org::BouncyCastle::Asn1::BerOctetStringGenerator* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerOutputStream*& __get__derOut();
+  constexpr ::Org::BouncyCastle::Asn1::DerOutputStream*& __cordl_internal_get__derOut();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerOutputStream*> const& __get__derOut() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerOutputStream*> const& __cordl_internal_get__derOut() const;
 
-  constexpr void __set__derOut(::Org::BouncyCastle::Asn1::DerOutputStream* value);
+  constexpr void __cordl_internal_set__derOut(::Org::BouncyCastle::Asn1::DerOutputStream* value);
 
   static inline ::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__BufferedBerOctetStream* New_ctor(::Org::BouncyCastle::Asn1::BerOctetStringGenerator* gen,
                                                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
@@ -131,7 +131,7 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::__BerOctetStringGenerator__Buf
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(476))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(476))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(483))
 // CS Name: ::Org.BouncyCastle.Asn1::BerOctetStringGenerator*
 class CORDL_TYPE BerOctetStringGenerator : public ::Org::BouncyCastle::Asn1::BerGenerator {

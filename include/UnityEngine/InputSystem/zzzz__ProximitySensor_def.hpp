@@ -17,25 +17,26 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::ProximitySensor);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6274))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6274))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6283))
 // CS Name: ::UnityEngine.InputSystem::ProximitySensor*
 class CORDL_TYPE ProximitySensor : public ::UnityEngine::InputSystem::Sensor {
 public:
   // Declarations
   /// @brief Field <distance>k__BackingField, offset 0x158, size 0x8
-  __declspec(property(get = __get__distance_k__BackingField, put = __set__distance_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _distance_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__distance_k__BackingField,
+                      put = __cordl_internal_set__distance_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _distance_k__BackingField;
 
   /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField))::UnityEngine::InputSystem::ProximitySensor* _current_k__BackingField;
 
   __declspec(property(get = get_distance, put = set_distance))::UnityEngine::InputSystem::Controls::AxisControl* distance;
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __get__distance_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__distance_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __get__distance_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__distance_k__BackingField() const;
 
-  constexpr void __set__distance_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+  constexpr void __cordl_internal_set__distance_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::ProximitySensor* value);
 

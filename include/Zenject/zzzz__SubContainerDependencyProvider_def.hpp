@@ -42,23 +42,23 @@ MARK_REF_PTR_T(::Zenject::SubContainerDependencyProvider);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11297))
 // CS Name: ::Zenject::SubContainerDependencyProvider*
 class CORDL_TYPE SubContainerDependencyProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _subContainerCreator, offset 0x10, size 0x8
-  __declspec(property(get = __get__subContainerCreator, put = __set__subContainerCreator))::Zenject::ISubContainerCreator* _subContainerCreator;
+  __declspec(property(get = __cordl_internal_get__subContainerCreator, put = __cordl_internal_set__subContainerCreator))::Zenject::ISubContainerCreator* _subContainerCreator;
 
   /// @brief Field _dependencyType, offset 0x18, size 0x8
-  __declspec(property(get = __get__dependencyType, put = __set__dependencyType))::System::Type* _dependencyType;
+  __declspec(property(get = __cordl_internal_get__dependencyType, put = __cordl_internal_set__dependencyType))::System::Type* _dependencyType;
 
   /// @brief Field _identifier, offset 0x20, size 0x8
-  __declspec(property(get = __get__identifier, put = __set__identifier))::System::Object* _identifier;
+  __declspec(property(get = __cordl_internal_get__identifier, put = __cordl_internal_set__identifier))::System::Object* _identifier;
 
   /// @brief Field _resolveAll, offset 0x28, size 0x1
-  __declspec(property(get = __get__resolveAll, put = __set__resolveAll)) bool _resolveAll;
+  __declspec(property(get = __cordl_internal_get__resolveAll, put = __cordl_internal_set__resolveAll)) bool _resolveAll;
 
   __declspec(property(get = get_IsCached)) bool IsCached;
 
@@ -70,29 +70,29 @@ public:
   /// @brief Convert to "::Zenject::IProvider"
   constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  constexpr ::Zenject::ISubContainerCreator*& __get__subContainerCreator();
+  constexpr ::Zenject::ISubContainerCreator*& __cordl_internal_get__subContainerCreator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::ISubContainerCreator*> const& __get__subContainerCreator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::ISubContainerCreator*> const& __cordl_internal_get__subContainerCreator() const;
 
-  constexpr void __set__subContainerCreator(::Zenject::ISubContainerCreator* value);
+  constexpr void __cordl_internal_set__subContainerCreator(::Zenject::ISubContainerCreator* value);
 
-  constexpr ::System::Type*& __get__dependencyType();
+  constexpr ::System::Type*& __cordl_internal_get__dependencyType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__dependencyType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__dependencyType() const;
 
-  constexpr void __set__dependencyType(::System::Type* value);
+  constexpr void __cordl_internal_set__dependencyType(::System::Type* value);
 
-  constexpr ::System::Object*& __get__identifier();
+  constexpr ::System::Object*& __cordl_internal_get__identifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__identifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__identifier() const;
 
-  constexpr void __set__identifier(::System::Object* value);
+  constexpr void __cordl_internal_set__identifier(::System::Object* value);
 
-  constexpr bool& __get__resolveAll();
+  constexpr bool& __cordl_internal_get__resolveAll();
 
-  constexpr bool const& __get__resolveAll() const;
+  constexpr bool const& __cordl_internal_get__resolveAll() const;
 
-  constexpr void __set__resolveAll(bool value);
+  constexpr void __cordl_internal_set__resolveAll(bool value);
 
   static inline ::Zenject::SubContainerDependencyProvider* New_ctor(::System::Type* dependencyType, ::System::Object* identifier, ::Zenject::ISubContainerCreator* subContainerCreator,
                                                                     bool resolveAll);

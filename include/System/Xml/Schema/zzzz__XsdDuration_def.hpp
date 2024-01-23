@@ -37,7 +37,7 @@ MARK_VAL_T(::System::Xml::Schema::XsdDuration);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11764))
 // CS Name: ::XsdDuration::Parts
 struct CORDL_TYPE __XsdDuration__Parts {
@@ -107,7 +107,7 @@ static_assert(offsetof(::System::Xml::Schema::__XsdDuration__Parts, value__) == 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11765))
 // CS Name: ::XsdDuration::DurationType
 struct CORDL_TYPE __XsdDuration__DurationType {
@@ -161,7 +161,7 @@ static_assert(offsetof(::System::Xml::Schema::__XsdDuration__DurationType, value
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11766))
 // CS Name: ::System.Xml.Schema::XsdDuration
 struct CORDL_TYPE XsdDuration {

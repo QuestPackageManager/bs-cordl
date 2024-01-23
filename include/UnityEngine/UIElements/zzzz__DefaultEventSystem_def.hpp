@@ -88,7 +88,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__DefaultEventSystem____c);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6763))
 // CS Name: ::DefaultEventSystem::UpdateMode
 struct CORDL_TYPE __DefaultEventSystem__UpdateMode {
@@ -138,7 +138,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__DefaultEventSystem__UpdateMo
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6764))
 // CS Name: ::DefaultEventSystem::IInput*
 class CORDL_TYPE __DefaultEventSystem__IInput {
@@ -179,7 +179,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6765))
 // CS Name: ::DefaultEventSystem::Input*
 class CORDL_TYPE __DefaultEventSystem__Input : public ::System::Object {
@@ -239,7 +239,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Defau
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6766))
 // CS Name: ::DefaultEventSystem::NoInput*
 class CORDL_TYPE __DefaultEventSystem__NoInput : public ::System::Object {
@@ -299,7 +299,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Defau
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6767))
 // CS Name: ::DefaultEventSystem::<>c*
 class CORDL_TYPE __DefaultEventSystem____c : public ::System::Object {
@@ -421,7 +421,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Defau
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6768))
 // CS Name: ::UnityEngine.UIElements::DefaultEventSystem*
 class CORDL_TYPE DefaultEventSystem : public ::System::Object {
@@ -438,43 +438,43 @@ public:
   using UpdateMode = ::UnityEngine::UIElements::__DefaultEventSystem__UpdateMode;
 
   /// @brief Field m_Input, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Input, put = __set_m_Input))::UnityEngine::UIElements::__DefaultEventSystem__IInput* m_Input;
+  __declspec(property(get = __cordl_internal_get_m_Input, put = __cordl_internal_set_m_Input))::UnityEngine::UIElements::__DefaultEventSystem__IInput* m_Input;
 
   /// @brief Field m_HorizontalAxis, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_HorizontalAxis, put = __set_m_HorizontalAxis))::StringW m_HorizontalAxis;
+  __declspec(property(get = __cordl_internal_get_m_HorizontalAxis, put = __cordl_internal_set_m_HorizontalAxis))::StringW m_HorizontalAxis;
 
   /// @brief Field m_VerticalAxis, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_VerticalAxis, put = __set_m_VerticalAxis))::StringW m_VerticalAxis;
+  __declspec(property(get = __cordl_internal_get_m_VerticalAxis, put = __cordl_internal_set_m_VerticalAxis))::StringW m_VerticalAxis;
 
   /// @brief Field m_SubmitButton, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_SubmitButton, put = __set_m_SubmitButton))::StringW m_SubmitButton;
+  __declspec(property(get = __cordl_internal_get_m_SubmitButton, put = __cordl_internal_set_m_SubmitButton))::StringW m_SubmitButton;
 
   /// @brief Field m_CancelButton, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_CancelButton, put = __set_m_CancelButton))::StringW m_CancelButton;
+  __declspec(property(get = __cordl_internal_get_m_CancelButton, put = __cordl_internal_set_m_CancelButton))::StringW m_CancelButton;
 
   /// @brief Field m_InputActionsPerSecond, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_InputActionsPerSecond, put = __set_m_InputActionsPerSecond)) float_t m_InputActionsPerSecond;
+  __declspec(property(get = __cordl_internal_get_m_InputActionsPerSecond, put = __cordl_internal_set_m_InputActionsPerSecond)) float_t m_InputActionsPerSecond;
 
   /// @brief Field m_RepeatDelay, offset 0x3c, size 0x4
-  __declspec(property(get = __get_m_RepeatDelay, put = __set_m_RepeatDelay)) float_t m_RepeatDelay;
+  __declspec(property(get = __cordl_internal_get_m_RepeatDelay, put = __cordl_internal_set_m_RepeatDelay)) float_t m_RepeatDelay;
 
   /// @brief Field m_SendingTouchEvents, offset 0x40, size 0x1
-  __declspec(property(get = __get_m_SendingTouchEvents, put = __set_m_SendingTouchEvents)) bool m_SendingTouchEvents;
+  __declspec(property(get = __cordl_internal_get_m_SendingTouchEvents, put = __cordl_internal_set_m_SendingTouchEvents)) bool m_SendingTouchEvents;
 
   /// @brief Field m_Event, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_Event, put = __set_m_Event))::UnityEngine::Event* m_Event;
+  __declspec(property(get = __cordl_internal_get_m_Event, put = __cordl_internal_set_m_Event))::UnityEngine::Event* m_Event;
 
   /// @brief Field m_FocusedPanel, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_FocusedPanel, put = __set_m_FocusedPanel))::UnityEngine::UIElements::BaseRuntimePanel* m_FocusedPanel;
+  __declspec(property(get = __cordl_internal_get_m_FocusedPanel, put = __cordl_internal_set_m_FocusedPanel))::UnityEngine::UIElements::BaseRuntimePanel* m_FocusedPanel;
 
   /// @brief Field m_ConsecutiveMoveCount, offset 0x58, size 0x4
-  __declspec(property(get = __get_m_ConsecutiveMoveCount, put = __set_m_ConsecutiveMoveCount)) int32_t m_ConsecutiveMoveCount;
+  __declspec(property(get = __cordl_internal_get_m_ConsecutiveMoveCount, put = __cordl_internal_set_m_ConsecutiveMoveCount)) int32_t m_ConsecutiveMoveCount;
 
   /// @brief Field m_LastMoveVector, offset 0x5c, size 0x8
-  __declspec(property(get = __get_m_LastMoveVector, put = __set_m_LastMoveVector))::UnityEngine::Vector2 m_LastMoveVector;
+  __declspec(property(get = __cordl_internal_get_m_LastMoveVector, put = __cordl_internal_set_m_LastMoveVector))::UnityEngine::Vector2 m_LastMoveVector;
 
   /// @brief Field m_PrevActionTime, offset 0x64, size 0x4
-  __declspec(property(get = __get_m_PrevActionTime, put = __set_m_PrevActionTime)) float_t m_PrevActionTime;
+  __declspec(property(get = __cordl_internal_get_m_PrevActionTime, put = __cordl_internal_set_m_PrevActionTime)) float_t m_PrevActionTime;
 
   /// @brief Field IsEditorRemoteConnected, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_IsEditorRemoteConnected, put = setStaticF_IsEditorRemoteConnected))::System::Func_1<bool>* IsEditorRemoteConnected;
@@ -485,83 +485,83 @@ public:
 
   __declspec(property(get = get_focusedPanel, put = set_focusedPanel))::UnityEngine::UIElements::BaseRuntimePanel* focusedPanel;
 
-  constexpr ::UnityEngine::UIElements::__DefaultEventSystem__IInput*& __get_m_Input();
+  constexpr ::UnityEngine::UIElements::__DefaultEventSystem__IInput*& __cordl_internal_get_m_Input();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__DefaultEventSystem__IInput*> const& __get_m_Input() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__DefaultEventSystem__IInput*> const& __cordl_internal_get_m_Input() const;
 
-  constexpr void __set_m_Input(::UnityEngine::UIElements::__DefaultEventSystem__IInput* value);
+  constexpr void __cordl_internal_set_m_Input(::UnityEngine::UIElements::__DefaultEventSystem__IInput* value);
 
-  constexpr ::StringW& __get_m_HorizontalAxis();
+  constexpr ::StringW& __cordl_internal_get_m_HorizontalAxis();
 
-  constexpr ::StringW const& __get_m_HorizontalAxis() const;
+  constexpr ::StringW const& __cordl_internal_get_m_HorizontalAxis() const;
 
-  constexpr void __set_m_HorizontalAxis(::StringW value);
+  constexpr void __cordl_internal_set_m_HorizontalAxis(::StringW value);
 
-  constexpr ::StringW& __get_m_VerticalAxis();
+  constexpr ::StringW& __cordl_internal_get_m_VerticalAxis();
 
-  constexpr ::StringW const& __get_m_VerticalAxis() const;
+  constexpr ::StringW const& __cordl_internal_get_m_VerticalAxis() const;
 
-  constexpr void __set_m_VerticalAxis(::StringW value);
+  constexpr void __cordl_internal_set_m_VerticalAxis(::StringW value);
 
-  constexpr ::StringW& __get_m_SubmitButton();
+  constexpr ::StringW& __cordl_internal_get_m_SubmitButton();
 
-  constexpr ::StringW const& __get_m_SubmitButton() const;
+  constexpr ::StringW const& __cordl_internal_get_m_SubmitButton() const;
 
-  constexpr void __set_m_SubmitButton(::StringW value);
+  constexpr void __cordl_internal_set_m_SubmitButton(::StringW value);
 
-  constexpr ::StringW& __get_m_CancelButton();
+  constexpr ::StringW& __cordl_internal_get_m_CancelButton();
 
-  constexpr ::StringW const& __get_m_CancelButton() const;
+  constexpr ::StringW const& __cordl_internal_get_m_CancelButton() const;
 
-  constexpr void __set_m_CancelButton(::StringW value);
+  constexpr void __cordl_internal_set_m_CancelButton(::StringW value);
 
-  constexpr float_t& __get_m_InputActionsPerSecond();
+  constexpr float_t& __cordl_internal_get_m_InputActionsPerSecond();
 
-  constexpr float_t const& __get_m_InputActionsPerSecond() const;
+  constexpr float_t const& __cordl_internal_get_m_InputActionsPerSecond() const;
 
-  constexpr void __set_m_InputActionsPerSecond(float_t value);
+  constexpr void __cordl_internal_set_m_InputActionsPerSecond(float_t value);
 
-  constexpr float_t& __get_m_RepeatDelay();
+  constexpr float_t& __cordl_internal_get_m_RepeatDelay();
 
-  constexpr float_t const& __get_m_RepeatDelay() const;
+  constexpr float_t const& __cordl_internal_get_m_RepeatDelay() const;
 
-  constexpr void __set_m_RepeatDelay(float_t value);
+  constexpr void __cordl_internal_set_m_RepeatDelay(float_t value);
 
-  constexpr bool& __get_m_SendingTouchEvents();
+  constexpr bool& __cordl_internal_get_m_SendingTouchEvents();
 
-  constexpr bool const& __get_m_SendingTouchEvents() const;
+  constexpr bool const& __cordl_internal_get_m_SendingTouchEvents() const;
 
-  constexpr void __set_m_SendingTouchEvents(bool value);
+  constexpr void __cordl_internal_set_m_SendingTouchEvents(bool value);
 
-  constexpr ::UnityEngine::Event*& __get_m_Event();
+  constexpr ::UnityEngine::Event*& __cordl_internal_get_m_Event();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Event*> const& __get_m_Event() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Event*> const& __cordl_internal_get_m_Event() const;
 
-  constexpr void __set_m_Event(::UnityEngine::Event* value);
+  constexpr void __cordl_internal_set_m_Event(::UnityEngine::Event* value);
 
-  constexpr ::UnityEngine::UIElements::BaseRuntimePanel*& __get_m_FocusedPanel();
+  constexpr ::UnityEngine::UIElements::BaseRuntimePanel*& __cordl_internal_get_m_FocusedPanel();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseRuntimePanel*> const& __get_m_FocusedPanel() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseRuntimePanel*> const& __cordl_internal_get_m_FocusedPanel() const;
 
-  constexpr void __set_m_FocusedPanel(::UnityEngine::UIElements::BaseRuntimePanel* value);
+  constexpr void __cordl_internal_set_m_FocusedPanel(::UnityEngine::UIElements::BaseRuntimePanel* value);
 
-  constexpr int32_t& __get_m_ConsecutiveMoveCount();
+  constexpr int32_t& __cordl_internal_get_m_ConsecutiveMoveCount();
 
-  constexpr int32_t const& __get_m_ConsecutiveMoveCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_ConsecutiveMoveCount() const;
 
-  constexpr void __set_m_ConsecutiveMoveCount(int32_t value);
+  constexpr void __cordl_internal_set_m_ConsecutiveMoveCount(int32_t value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_LastMoveVector();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_LastMoveVector();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_LastMoveVector() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_LastMoveVector() const;
 
-  constexpr void __set_m_LastMoveVector(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_LastMoveVector(::UnityEngine::Vector2 value);
 
-  constexpr float_t& __get_m_PrevActionTime();
+  constexpr float_t& __cordl_internal_get_m_PrevActionTime();
 
-  constexpr float_t const& __get_m_PrevActionTime() const;
+  constexpr float_t const& __cordl_internal_get_m_PrevActionTime() const;
 
-  constexpr void __set_m_PrevActionTime(float_t value);
+  constexpr void __cordl_internal_set_m_PrevActionTime(float_t value);
 
   static inline void setStaticF_IsEditorRemoteConnected(::System::Func_1<bool>* value);
 

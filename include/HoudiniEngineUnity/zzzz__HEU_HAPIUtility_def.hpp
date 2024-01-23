@@ -82,7 +82,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_HAPIUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9672))
 // CS Name: ::HoudiniEngineUnity::HEU_HAPIUtility*
 class CORDL_TYPE HEU_HAPIUtility : public ::System::Object {
@@ -122,8 +122,8 @@ public:
   static inline ::StringW LocateValidFilePath(::StringW assetName, ::StringW inFilePath);
 
   /// @brief Method InstantiateHDA, addr 0x2186254, size 0x260, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* InstantiateHDA(::StringW filePath, ::UnityEngine::Vector3 initialPosition, ::HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync,
-                                                          bool bLoadFromMemory, bool bAlwaysOverwriteOnLoad, ::UnityEngine::GameObject* rootGO);
+  static inline ::UnityW<::UnityEngine::GameObject> InstantiateHDA(::StringW filePath, ::UnityEngine::Vector3 initialPosition, ::HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync,
+                                                                   bool bLoadFromMemory, bool bAlwaysOverwriteOnLoad, ::UnityEngine::GameObject* rootGO);
 
   /// @brief Method LoadHDAFile, addr 0x21865a4, size 0x220, virtual false, abstract: false, final false
   static inline bool LoadHDAFile(::HoudiniEngineUnity::HEU_SessionBase* session, ::StringW assetPath, ByRef<int32_t> assetLibraryID, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> assetNames);
@@ -150,19 +150,19 @@ public:
   static inline bool ProcessHoudiniCookStatus(::HoudiniEngineUnity::HEU_SessionBase* session, ::StringW assetName);
 
   /// @brief Method CreateNewAsset, addr 0x2186fe0, size 0x3b0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* CreateNewAsset(::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType assetType, ::StringW rootName, ::UnityEngine::Transform* parentTransform,
-                                                          ::HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync, ::UnityEngine::GameObject* rootGO);
+  static inline ::UnityW<::UnityEngine::GameObject> CreateNewAsset(::HoudiniEngineUnity::__HEU_HoudiniAsset__HEU_AssetType assetType, ::StringW rootName, ::UnityEngine::Transform* parentTransform,
+                                                                   ::HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync, ::UnityEngine::GameObject* rootGO);
 
   /// @brief Method CreateNewCurveAsset, addr 0x2187390, size 0x24, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* CreateNewCurveAsset(::StringW name, ::UnityEngine::Transform* parentTransform, ::HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync,
-                                                               ::UnityEngine::GameObject* rootGO);
+  static inline ::UnityW<::UnityEngine::GameObject> CreateNewCurveAsset(::StringW name, ::UnityEngine::Transform* parentTransform, ::HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync,
+                                                                        ::UnityEngine::GameObject* rootGO);
 
   /// @brief Method CreateNewInputAsset, addr 0x21873b4, size 0x24, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* CreateNewInputAsset(::StringW name, ::UnityEngine::Transform* parentTransform, ::HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync,
-                                                               ::UnityEngine::GameObject* rootGO);
+  static inline ::UnityW<::UnityEngine::GameObject> CreateNewInputAsset(::StringW name, ::UnityEngine::Transform* parentTransform, ::HoudiniEngineUnity::HEU_SessionBase* session, bool bBuildAsync,
+                                                                        ::UnityEngine::GameObject* rootGO);
 
   /// @brief Method LoadGeoWithNewGeoSync, addr 0x21873d8, size 0x8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* LoadGeoWithNewGeoSync(::HoudiniEngineUnity::HEU_SessionBase* session);
+  static inline ::UnityW<::UnityEngine::GameObject> LoadGeoWithNewGeoSync(::HoudiniEngineUnity::HEU_SessionBase* session);
 
   /// @brief Method DestroyChildren, addr 0x21873e0, size 0x47c, virtual false, abstract: false, final false
   static inline void DestroyChildren(::UnityEngine::Transform* inTransform);
@@ -177,7 +177,7 @@ public:
   static inline bool IsNodeValidInHoudini(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t nodeID);
 
   /// @brief Method GetAssetInScene, addr 0x218790c, size 0x104, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::HEU_HoudiniAssetRoot* GetAssetInScene(int32_t assetID);
+  static inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot> GetAssetInScene(int32_t assetID);
 
   /// @brief Method ApplyWorldTransfromFromHoudiniToUnity, addr 0x2187a10, size 0x1e8, virtual false, abstract: false, final false
   static inline void ApplyWorldTransfromFromHoudiniToUnity(ByRef<::HoudiniEngineUnity::HAPI_Transform> hapiTransform, ::UnityEngine::Transform* unityTransform);

@@ -15,65 +15,65 @@ MARK_REF_PTR_T(::UnityEngine::ColorUsageAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10180))
 // CS Name: ::UnityEngine::ColorUsageAttribute*
 class CORDL_TYPE ColorUsageAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   /// @brief Field showAlpha, offset 0x10, size 0x1
-  __declspec(property(get = __get_showAlpha, put = __set_showAlpha)) bool showAlpha;
+  __declspec(property(get = __cordl_internal_get_showAlpha, put = __cordl_internal_set_showAlpha)) bool showAlpha;
 
   /// @brief Field hdr, offset 0x11, size 0x1
-  __declspec(property(get = __get_hdr, put = __set_hdr)) bool hdr;
+  __declspec(property(get = __cordl_internal_get_hdr, put = __cordl_internal_set_hdr)) bool hdr;
 
   /// @brief Field minBrightness, offset 0x14, size 0x4
-  __declspec(property(get = __get_minBrightness, put = __set_minBrightness)) float_t minBrightness;
+  __declspec(property(get = __cordl_internal_get_minBrightness, put = __cordl_internal_set_minBrightness)) float_t minBrightness;
 
   /// @brief Field maxBrightness, offset 0x18, size 0x4
-  __declspec(property(get = __get_maxBrightness, put = __set_maxBrightness)) float_t maxBrightness;
+  __declspec(property(get = __cordl_internal_get_maxBrightness, put = __cordl_internal_set_maxBrightness)) float_t maxBrightness;
 
   /// @brief Field minExposureValue, offset 0x1c, size 0x4
-  __declspec(property(get = __get_minExposureValue, put = __set_minExposureValue)) float_t minExposureValue;
+  __declspec(property(get = __cordl_internal_get_minExposureValue, put = __cordl_internal_set_minExposureValue)) float_t minExposureValue;
 
   /// @brief Field maxExposureValue, offset 0x20, size 0x4
-  __declspec(property(get = __get_maxExposureValue, put = __set_maxExposureValue)) float_t maxExposureValue;
+  __declspec(property(get = __cordl_internal_get_maxExposureValue, put = __cordl_internal_set_maxExposureValue)) float_t maxExposureValue;
 
-  constexpr bool& __get_showAlpha();
+  constexpr bool& __cordl_internal_get_showAlpha();
 
-  constexpr bool const& __get_showAlpha() const;
+  constexpr bool const& __cordl_internal_get_showAlpha() const;
 
-  constexpr void __set_showAlpha(bool value);
+  constexpr void __cordl_internal_set_showAlpha(bool value);
 
-  constexpr bool& __get_hdr();
+  constexpr bool& __cordl_internal_get_hdr();
 
-  constexpr bool const& __get_hdr() const;
+  constexpr bool const& __cordl_internal_get_hdr() const;
 
-  constexpr void __set_hdr(bool value);
+  constexpr void __cordl_internal_set_hdr(bool value);
 
-  constexpr float_t& __get_minBrightness();
+  constexpr float_t& __cordl_internal_get_minBrightness();
 
-  constexpr float_t const& __get_minBrightness() const;
+  constexpr float_t const& __cordl_internal_get_minBrightness() const;
 
-  constexpr void __set_minBrightness(float_t value);
+  constexpr void __cordl_internal_set_minBrightness(float_t value);
 
-  constexpr float_t& __get_maxBrightness();
+  constexpr float_t& __cordl_internal_get_maxBrightness();
 
-  constexpr float_t const& __get_maxBrightness() const;
+  constexpr float_t const& __cordl_internal_get_maxBrightness() const;
 
-  constexpr void __set_maxBrightness(float_t value);
+  constexpr void __cordl_internal_set_maxBrightness(float_t value);
 
-  constexpr float_t& __get_minExposureValue();
+  constexpr float_t& __cordl_internal_get_minExposureValue();
 
-  constexpr float_t const& __get_minExposureValue() const;
+  constexpr float_t const& __cordl_internal_get_minExposureValue() const;
 
-  constexpr void __set_minExposureValue(float_t value);
+  constexpr void __cordl_internal_set_minExposureValue(float_t value);
 
-  constexpr float_t& __get_maxExposureValue();
+  constexpr float_t& __cordl_internal_get_maxExposureValue();
 
-  constexpr float_t const& __get_maxExposureValue() const;
+  constexpr float_t const& __cordl_internal_get_maxExposureValue() const;
 
-  constexpr void __set_maxExposureValue(float_t value);
+  constexpr void __cordl_internal_set_maxExposureValue(float_t value);
 
   static inline ::UnityEngine::ColorUsageAttribute* New_ctor(bool showAlpha);
 

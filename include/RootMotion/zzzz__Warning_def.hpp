@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::RootMotion::__Warning__Logger);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12502))
 // CS Name: ::Warning::Logger*
 class CORDL_TYPE __Warning__Logger : public ::System::MulticastDelegate {
@@ -80,7 +80,7 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::__Warning__Logger, 0
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12503))
 // CS Name: ::RootMotion::Warning*
 class CORDL_TYPE Warning : public ::System::Object {

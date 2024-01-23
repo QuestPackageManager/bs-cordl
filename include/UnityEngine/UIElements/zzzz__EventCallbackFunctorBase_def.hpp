@@ -32,33 +32,34 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::EventCallbackFunctorBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7163)), TypeDefinitionIndex(TypeDefinitionIndex(7164))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7163)), TypeDefinitionIndex(TypeDefinitionIndex(7164))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7183))
 // CS Name: ::UnityEngine.UIElements::EventCallbackFunctorBase*
 class CORDL_TYPE EventCallbackFunctorBase : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <phase>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__phase_k__BackingField, put = __set__phase_k__BackingField))::UnityEngine::UIElements::CallbackPhase _phase_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__phase_k__BackingField, put = __cordl_internal_set__phase_k__BackingField))::UnityEngine::UIElements::CallbackPhase _phase_k__BackingField;
 
   /// @brief Field <invokePolicy>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__invokePolicy_k__BackingField, put = __set__invokePolicy_k__BackingField))::UnityEngine::UIElements::InvokePolicy _invokePolicy_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__invokePolicy_k__BackingField,
+                      put = __cordl_internal_set__invokePolicy_k__BackingField))::UnityEngine::UIElements::InvokePolicy _invokePolicy_k__BackingField;
 
   __declspec(property(get = get_phase))::UnityEngine::UIElements::CallbackPhase phase;
 
   __declspec(property(get = get_invokePolicy))::UnityEngine::UIElements::InvokePolicy invokePolicy;
 
-  constexpr ::UnityEngine::UIElements::CallbackPhase& __get__phase_k__BackingField();
+  constexpr ::UnityEngine::UIElements::CallbackPhase& __cordl_internal_get__phase_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::CallbackPhase const& __get__phase_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::CallbackPhase const& __cordl_internal_get__phase_k__BackingField() const;
 
-  constexpr void __set__phase_k__BackingField(::UnityEngine::UIElements::CallbackPhase value);
+  constexpr void __cordl_internal_set__phase_k__BackingField(::UnityEngine::UIElements::CallbackPhase value);
 
-  constexpr ::UnityEngine::UIElements::InvokePolicy& __get__invokePolicy_k__BackingField();
+  constexpr ::UnityEngine::UIElements::InvokePolicy& __cordl_internal_get__invokePolicy_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::InvokePolicy const& __get__invokePolicy_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::InvokePolicy const& __cordl_internal_get__invokePolicy_k__BackingField() const;
 
-  constexpr void __set__invokePolicy_k__BackingField(::UnityEngine::UIElements::InvokePolicy value);
+  constexpr void __cordl_internal_set__invokePolicy_k__BackingField(::UnityEngine::UIElements::InvokePolicy value);
 
   /// @brief Method get_phase, addr 0x2e4e050, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::CallbackPhase get_phase();

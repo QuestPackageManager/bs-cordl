@@ -31,114 +31,114 @@ MARK_REF_PTR_T(::GlobalNamespace::NetworkPlayerTableCell);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 193, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13664))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5588))
 // CS Name: ::NetworkPlayerTableCell*
 class CORDL_TYPE NetworkPlayerTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
   /// @brief Field _playerNameText, offset 0x58, size 0x8
-  __declspec(property(get = __get__playerNameText, put = __set__playerNameText))::TMPro::TextMeshProUGUI* _playerNameText;
+  __declspec(property(get = __cordl_internal_get__playerNameText, put = __cordl_internal_set__playerNameText))::UnityW<::TMPro::TextMeshProUGUI> _playerNameText;
 
   /// @brief Field _separator, offset 0x60, size 0x8
-  __declspec(property(get = __get__separator, put = __set__separator))::UnityEngine::GameObject* _separator;
+  __declspec(property(get = __cordl_internal_get__separator, put = __cordl_internal_set__separator))::UnityW<::UnityEngine::GameObject> _separator;
 
   /// @brief Field _privateIcon, offset 0x68, size 0x8
-  __declspec(property(get = __get__privateIcon, put = __set__privateIcon))::UnityEngine::UI::Image* _privateIcon;
+  __declspec(property(get = __cordl_internal_get__privateIcon, put = __cordl_internal_set__privateIcon))::UnityW<::UnityEngine::UI::Image> _privateIcon;
 
   /// @brief Field _spectateIcon, offset 0x70, size 0x8
-  __declspec(property(get = __get__spectateIcon, put = __set__spectateIcon))::UnityEngine::UI::Image* _spectateIcon;
+  __declspec(property(get = __cordl_internal_get__spectateIcon, put = __cordl_internal_set__spectateIcon))::UnityW<::UnityEngine::UI::Image> _spectateIcon;
 
   /// @brief Field _partyLeaderIcon, offset 0x78, size 0x8
-  __declspec(property(get = __get__partyLeaderIcon, put = __set__partyLeaderIcon))::UnityEngine::UI::Image* _partyLeaderIcon;
+  __declspec(property(get = __cordl_internal_get__partyLeaderIcon, put = __cordl_internal_set__partyLeaderIcon))::UnityW<::UnityEngine::UI::Image> _partyLeaderIcon;
 
   /// @brief Field _bgImage, offset 0x80, size 0x8
-  __declspec(property(get = __get__bgImage, put = __set__bgImage))::UnityEngine::UI::Image* _bgImage;
+  __declspec(property(get = __cordl_internal_get__bgImage, put = __cordl_internal_set__bgImage))::UnityW<::UnityEngine::UI::Image> _bgImage;
 
   /// @brief Field _highlightImage, offset 0x88, size 0x8
-  __declspec(property(get = __get__highlightImage, put = __set__highlightImage))::UnityEngine::UI::Image* _highlightImage;
+  __declspec(property(get = __cordl_internal_get__highlightImage, put = __cordl_internal_set__highlightImage))::UnityW<::UnityEngine::UI::Image> _highlightImage;
 
   /// @brief Field _textColorNormal, offset 0x90, size 0x10
-  __declspec(property(get = __get__textColorNormal, put = __set__textColorNormal))::UnityEngine::Color _textColorNormal;
+  __declspec(property(get = __cordl_internal_get__textColorNormal, put = __cordl_internal_set__textColorNormal))::UnityEngine::Color _textColorNormal;
 
   /// @brief Field _textColorMe, offset 0xa0, size 0x10
-  __declspec(property(get = __get__textColorMe, put = __set__textColorMe))::UnityEngine::Color _textColorMe;
+  __declspec(property(get = __cordl_internal_get__textColorMe, put = __cordl_internal_set__textColorMe))::UnityEngine::Color _textColorMe;
 
   /// @brief Field _textColorSelected, offset 0xb0, size 0x10
-  __declspec(property(get = __get__textColorSelected, put = __set__textColorSelected))::UnityEngine::Color _textColorSelected;
+  __declspec(property(get = __cordl_internal_get__textColorSelected, put = __cordl_internal_set__textColorSelected))::UnityEngine::Color _textColorSelected;
 
   /// @brief Field _isMe, offset 0xc0, size 0x1
-  __declspec(property(get = __get__isMe, put = __set__isMe)) bool _isMe;
+  __declspec(property(get = __cordl_internal_get__isMe, put = __cordl_internal_set__isMe)) bool _isMe;
 
   __declspec(property(get = get_showSeparator, put = set_showSeparator)) bool showSeparator;
 
   __declspec(property(get = get_activeColor))::UnityEngine::Color activeColor;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__playerNameText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__playerNameText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__playerNameText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__playerNameText() const;
 
-  constexpr void __set__playerNameText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__playerNameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__separator();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__separator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__separator() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__separator() const;
 
-  constexpr void __set__separator(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__separator(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__privateIcon();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__privateIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__privateIcon() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__privateIcon() const;
 
-  constexpr void __set__privateIcon(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__privateIcon(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__spectateIcon();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__spectateIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__spectateIcon() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__spectateIcon() const;
 
-  constexpr void __set__spectateIcon(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__spectateIcon(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__partyLeaderIcon();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__partyLeaderIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__partyLeaderIcon() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__partyLeaderIcon() const;
 
-  constexpr void __set__partyLeaderIcon(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__partyLeaderIcon(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__bgImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__bgImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__bgImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
 
-  constexpr void __set__bgImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__bgImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__highlightImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__highlightImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__highlightImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__highlightImage() const;
 
-  constexpr void __set__highlightImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__highlightImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::Color& __get__textColorNormal();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__textColorNormal();
 
-  constexpr ::UnityEngine::Color const& __get__textColorNormal() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__textColorNormal() const;
 
-  constexpr void __set__textColorNormal(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__textColorNormal(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__textColorMe();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__textColorMe();
 
-  constexpr ::UnityEngine::Color const& __get__textColorMe() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__textColorMe() const;
 
-  constexpr void __set__textColorMe(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__textColorMe(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__textColorSelected();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__textColorSelected();
 
-  constexpr ::UnityEngine::Color const& __get__textColorSelected() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__textColorSelected() const;
 
-  constexpr void __set__textColorSelected(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__textColorSelected(::UnityEngine::Color value);
 
-  constexpr bool& __get__isMe();
+  constexpr bool& __cordl_internal_get__isMe();
 
-  constexpr bool const& __get__isMe() const;
+  constexpr bool const& __cordl_internal_get__isMe() const;
 
-  constexpr void __set__isMe(bool value);
+  constexpr void __cordl_internal_set__isMe(bool value);
 
   /// @brief Method get_showSeparator, addr 0x22a9ab0, size 0x1c, virtual false, abstract: false, final false
   inline bool get_showSeparator();
@@ -181,25 +181,25 @@ protected:
 
 public:
   /// @brief Field _playerNameText, offset: 0x58, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____playerNameText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____playerNameText;
 
   /// @brief Field _separator, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____separator;
+  ::UnityW<::UnityEngine::GameObject> ____separator;
 
   /// @brief Field _privateIcon, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____privateIcon;
+  ::UnityW<::UnityEngine::UI::Image> ____privateIcon;
 
   /// @brief Field _spectateIcon, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____spectateIcon;
+  ::UnityW<::UnityEngine::UI::Image> ____spectateIcon;
 
   /// @brief Field _partyLeaderIcon, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____partyLeaderIcon;
+  ::UnityW<::UnityEngine::UI::Image> ____partyLeaderIcon;
 
   /// @brief Field _bgImage, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____bgImage;
+  ::UnityW<::UnityEngine::UI::Image> ____bgImage;
 
   /// @brief Field _highlightImage, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____highlightImage;
+  ::UnityW<::UnityEngine::UI::Image> ____highlightImage;
 
   /// @brief Field _textColorNormal, offset: 0x90, size: 0x10, def value: None
   ::UnityEngine::Color ____textColorNormal;

@@ -15,22 +15,22 @@ MARK_REF_PTR_T(::UnityEngine::Assertions::AssertionException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Assertions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10316))
 // CS Name: ::UnityEngine.Assertions::AssertionException*
 class CORDL_TYPE AssertionException : public ::System::Exception {
 public:
   // Declarations
   /// @brief Field m_UserMessage, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_UserMessage, put = __set_m_UserMessage))::StringW m_UserMessage;
+  __declspec(property(get = __cordl_internal_get_m_UserMessage, put = __cordl_internal_set_m_UserMessage))::StringW m_UserMessage;
 
   __declspec(property(get = get_Message))::StringW Message;
 
-  constexpr ::StringW& __get_m_UserMessage();
+  constexpr ::StringW& __cordl_internal_get_m_UserMessage();
 
-  constexpr ::StringW const& __get_m_UserMessage() const;
+  constexpr ::StringW const& __cordl_internal_get_m_UserMessage() const;
 
-  constexpr void __set_m_UserMessage(::StringW value);
+  constexpr void __cordl_internal_set_m_UserMessage(::StringW value);
 
   static inline ::UnityEngine::Assertions::AssertionException* New_ctor(::StringW message, ::StringW userMessage);
 

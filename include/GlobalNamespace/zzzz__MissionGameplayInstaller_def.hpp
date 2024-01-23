@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionGameplayInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5397))
 // CS Name: ::MissionGameplayInstaller*
 class CORDL_TYPE MissionGameplayInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
   /// @brief Field _sceneSetupData, offset 0x20, size 0x8
-  __declspec(property(get = __get__sceneSetupData, put = __set__sceneSetupData))::GlobalNamespace::MissionGameplaySceneSetupData* _sceneSetupData;
+  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::MissionGameplaySceneSetupData* _sceneSetupData;
 
-  constexpr ::GlobalNamespace::MissionGameplaySceneSetupData*& __get__sceneSetupData();
+  constexpr ::GlobalNamespace::MissionGameplaySceneSetupData*& __cordl_internal_get__sceneSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionGameplaySceneSetupData*> const& __get__sceneSetupData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionGameplaySceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
 
-  constexpr void __set__sceneSetupData(::GlobalNamespace::MissionGameplaySceneSetupData* value);
+  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::MissionGameplaySceneSetupData* value);
 
   /// @brief Method InstallBindings, addr 0x2272134, size 0x490, virtual true, abstract: false, final false
   inline void InstallBindings();

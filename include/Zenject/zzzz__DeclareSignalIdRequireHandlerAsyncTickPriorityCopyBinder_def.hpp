@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBind
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10652))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10652))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10651))
 // CS Name: ::Zenject::DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder*
 class CORDL_TYPE DeclareSignalIdRequireHandlerAsyncTickPriorityCopyBinder : public ::Zenject::DeclareSignalRequireHandlerAsyncTickPriorityCopyBinder {

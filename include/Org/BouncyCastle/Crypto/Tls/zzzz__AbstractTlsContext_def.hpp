@@ -38,32 +38,32 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1167))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::AbstractTlsContext*
 class CORDL_TYPE AbstractTlsContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mNonceRandom, offset 0x10, size 0x8
-  __declspec(property(get = __get_mNonceRandom, put = __set_mNonceRandom))::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* mNonceRandom;
+  __declspec(property(get = __cordl_internal_get_mNonceRandom, put = __cordl_internal_set_mNonceRandom))::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* mNonceRandom;
 
   /// @brief Field mSecureRandom, offset 0x18, size 0x8
-  __declspec(property(get = __get_mSecureRandom, put = __set_mSecureRandom))::Org::BouncyCastle::Security::SecureRandom* mSecureRandom;
+  __declspec(property(get = __cordl_internal_get_mSecureRandom, put = __cordl_internal_set_mSecureRandom))::Org::BouncyCastle::Security::SecureRandom* mSecureRandom;
 
   /// @brief Field mSecurityParameters, offset 0x20, size 0x8
-  __declspec(property(get = __get_mSecurityParameters, put = __set_mSecurityParameters))::Org::BouncyCastle::Crypto::Tls::SecurityParameters* mSecurityParameters;
+  __declspec(property(get = __cordl_internal_get_mSecurityParameters, put = __cordl_internal_set_mSecurityParameters))::Org::BouncyCastle::Crypto::Tls::SecurityParameters* mSecurityParameters;
 
   /// @brief Field mClientVersion, offset 0x28, size 0x8
-  __declspec(property(get = __get_mClientVersion, put = __set_mClientVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* mClientVersion;
+  __declspec(property(get = __cordl_internal_get_mClientVersion, put = __cordl_internal_set_mClientVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* mClientVersion;
 
   /// @brief Field mServerVersion, offset 0x30, size 0x8
-  __declspec(property(get = __get_mServerVersion, put = __set_mServerVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* mServerVersion;
+  __declspec(property(get = __cordl_internal_get_mServerVersion, put = __cordl_internal_set_mServerVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* mServerVersion;
 
   /// @brief Field mSession, offset 0x38, size 0x8
-  __declspec(property(get = __get_mSession, put = __set_mSession))::Org::BouncyCastle::Crypto::Tls::TlsSession* mSession;
+  __declspec(property(get = __cordl_internal_get_mSession, put = __cordl_internal_set_mSession))::Org::BouncyCastle::Crypto::Tls::TlsSession* mSession;
 
   /// @brief Field mUserObject, offset 0x40, size 0x8
-  __declspec(property(get = __get_mUserObject, put = __set_mUserObject))::System::Object* mUserObject;
+  __declspec(property(get = __cordl_internal_get_mUserObject, put = __cordl_internal_set_mUserObject))::System::Object* mUserObject;
 
   /// @brief Field counter, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_counter, put = setStaticF_counter)) int64_t counter;
@@ -90,47 +90,47 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext* i___Org__BouncyCastle__Crypto__Tls__TlsContext() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*& __get_mNonceRandom();
+  constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*& __cordl_internal_get_mNonceRandom();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*> const& __get_mNonceRandom() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*> const& __cordl_internal_get_mNonceRandom() const;
 
-  constexpr void __set_mNonceRandom(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* value);
+  constexpr void __cordl_internal_set_mNonceRandom(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* value);
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_mSecureRandom();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_mSecureRandom();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_mSecureRandom() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_mSecureRandom() const;
 
-  constexpr void __set_mSecureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_mSecureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::SecurityParameters*& __get_mSecurityParameters();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::SecurityParameters*& __cordl_internal_get_mSecurityParameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*> const& __get_mSecurityParameters() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*> const& __cordl_internal_get_mSecurityParameters() const;
 
-  constexpr void __set_mSecurityParameters(::Org::BouncyCastle::Crypto::Tls::SecurityParameters* value);
+  constexpr void __cordl_internal_set_mSecurityParameters(::Org::BouncyCastle::Crypto::Tls::SecurityParameters* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*& __get_mClientVersion();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*& __cordl_internal_get_mClientVersion();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*> const& __get_mClientVersion() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*> const& __cordl_internal_get_mClientVersion() const;
 
-  constexpr void __set_mClientVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
+  constexpr void __cordl_internal_set_mClientVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*& __get_mServerVersion();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*& __cordl_internal_get_mServerVersion();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*> const& __get_mServerVersion() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*> const& __cordl_internal_get_mServerVersion() const;
 
-  constexpr void __set_mServerVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
+  constexpr void __cordl_internal_set_mServerVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSession*& __get_mSession();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSession*& __cordl_internal_get_mSession();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSession*> const& __get_mSession() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSession*> const& __cordl_internal_get_mSession() const;
 
-  constexpr void __set_mSession(::Org::BouncyCastle::Crypto::Tls::TlsSession* value);
+  constexpr void __cordl_internal_set_mSession(::Org::BouncyCastle::Crypto::Tls::TlsSession* value);
 
-  constexpr ::System::Object*& __get_mUserObject();
+  constexpr ::System::Object*& __cordl_internal_get_mUserObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_mUserObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_mUserObject() const;
 
-  constexpr void __set_mUserObject(::System::Object* value);
+  constexpr void __cordl_internal_set_mUserObject(::System::Object* value);
 
   static inline void setStaticF_counter(int64_t value);
 

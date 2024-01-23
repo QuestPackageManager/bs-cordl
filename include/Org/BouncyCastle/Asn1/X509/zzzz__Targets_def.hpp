@@ -27,20 +27,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::Targets);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(388))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::Targets*
 class CORDL_TYPE Targets : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field targets, offset 0x10, size 0x8
-  __declspec(property(get = __get_targets, put = __set_targets))::Org::BouncyCastle::Asn1::Asn1Sequence* targets;
+  __declspec(property(get = __cordl_internal_get_targets, put = __cordl_internal_set_targets))::Org::BouncyCastle::Asn1::Asn1Sequence* targets;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_targets();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_targets();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_targets() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_targets() const;
 
-  constexpr void __set_targets(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_targets(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   /// @brief Method GetInstance, addr 0x1198150, size 0x18c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Targets* GetInstance(::System::Object* obj);

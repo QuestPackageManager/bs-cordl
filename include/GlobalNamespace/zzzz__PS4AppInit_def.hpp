@@ -33,59 +33,61 @@ MARK_REF_PTR_T(::GlobalNamespace::PS4AppInit);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15392))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15392))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4040))
 // CS Name: ::PS4AppInit*
 class CORDL_TYPE PS4AppInit : public ::GlobalNamespace::AppInit {
 public:
   // Declarations
   /// @brief Field _mainSystemInit, offset 0x48, size 0x8
-  __declspec(property(get = __get__mainSystemInit, put = __set__mainSystemInit))::GlobalNamespace::MainSystemInit* _mainSystemInit;
+  __declspec(property(get = __cordl_internal_get__mainSystemInit, put = __cordl_internal_set__mainSystemInit))::UnityW<::GlobalNamespace::MainSystemInit> _mainSystemInit;
 
   /// @brief Field _defaultScenesTransitionsFromInit, offset 0x50, size 0x8
-  __declspec(property(get = __get__defaultScenesTransitionsFromInit,
-                      put = __set__defaultScenesTransitionsFromInit))::GlobalNamespace::DefaultScenesTransitionsFromInit* _defaultScenesTransitionsFromInit;
+  __declspec(property(get = __cordl_internal_get__defaultScenesTransitionsFromInit,
+                      put = __cordl_internal_set__defaultScenesTransitionsFromInit))::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> _defaultScenesTransitionsFromInit;
 
   /// @brief Field _appInitScenesTransitionSetupDataContainer, offset 0x58, size 0x8
-  __declspec(property(get = __get__appInitScenesTransitionSetupDataContainer,
-                      put = __set__appInitScenesTransitionSetupDataContainer))::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* _appInitScenesTransitionSetupDataContainer;
+  __declspec(property(
+      get = __cordl_internal_get__appInitScenesTransitionSetupDataContainer,
+      put = __cordl_internal_set__appInitScenesTransitionSetupDataContainer))::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> _appInitScenesTransitionSetupDataContainer;
 
   /// @brief Field _activePublisherSKUSettingsSO, offset 0x60, size 0x8
-  __declspec(property(get = __get__activePublisherSKUSettingsSO, put = __set__activePublisherSKUSettingsSO))::GlobalNamespace::PS4ActivePublisherSKUSettingsSO* _activePublisherSKUSettingsSO;
+  __declspec(property(get = __cordl_internal_get__activePublisherSKUSettingsSO,
+                      put = __cordl_internal_set__activePublisherSKUSettingsSO))::UnityW<::GlobalNamespace::PS4ActivePublisherSKUSettingsSO> _activePublisherSKUSettingsSO;
 
   /// @brief Field _sonyOnGoingToBackgroundSaveHandler, offset 0x68, size 0x8
-  __declspec(property(get = __get__sonyOnGoingToBackgroundSaveHandler,
-                      put = __set__sonyOnGoingToBackgroundSaveHandler))::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler* _sonyOnGoingToBackgroundSaveHandler;
+  __declspec(property(get = __cordl_internal_get__sonyOnGoingToBackgroundSaveHandler,
+                      put = __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler))::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> _sonyOnGoingToBackgroundSaveHandler;
 
-  constexpr ::GlobalNamespace::MainSystemInit*& __get__mainSystemInit();
+  constexpr ::UnityW<::GlobalNamespace::MainSystemInit>& __cordl_internal_get__mainSystemInit();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSystemInit*> const& __get__mainSystemInit() const;
+  constexpr ::UnityW<::GlobalNamespace::MainSystemInit> const& __cordl_internal_get__mainSystemInit() const;
 
-  constexpr void __set__mainSystemInit(::GlobalNamespace::MainSystemInit* value);
+  constexpr void __cordl_internal_set__mainSystemInit(::UnityW<::GlobalNamespace::MainSystemInit> value);
 
-  constexpr ::GlobalNamespace::DefaultScenesTransitionsFromInit*& __get__defaultScenesTransitionsFromInit();
+  constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit>& __cordl_internal_get__defaultScenesTransitionsFromInit();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DefaultScenesTransitionsFromInit*> const& __get__defaultScenesTransitionsFromInit() const;
+  constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& __cordl_internal_get__defaultScenesTransitionsFromInit() const;
 
-  constexpr void __set__defaultScenesTransitionsFromInit(::GlobalNamespace::DefaultScenesTransitionsFromInit* value);
+  constexpr void __cordl_internal_set__defaultScenesTransitionsFromInit(::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> value);
 
-  constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*& __get__appInitScenesTransitionSetupDataContainer();
+  constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO>& __cordl_internal_get__appInitScenesTransitionSetupDataContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*> const& __get__appInitScenesTransitionSetupDataContainer() const;
+  constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> const& __cordl_internal_get__appInitScenesTransitionSetupDataContainer() const;
 
-  constexpr void __set__appInitScenesTransitionSetupDataContainer(::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* value);
+  constexpr void __cordl_internal_set__appInitScenesTransitionSetupDataContainer(::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> value);
 
-  constexpr ::GlobalNamespace::PS4ActivePublisherSKUSettingsSO*& __get__activePublisherSKUSettingsSO();
+  constexpr ::UnityW<::GlobalNamespace::PS4ActivePublisherSKUSettingsSO>& __cordl_internal_get__activePublisherSKUSettingsSO();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PS4ActivePublisherSKUSettingsSO*> const& __get__activePublisherSKUSettingsSO() const;
+  constexpr ::UnityW<::GlobalNamespace::PS4ActivePublisherSKUSettingsSO> const& __cordl_internal_get__activePublisherSKUSettingsSO() const;
 
-  constexpr void __set__activePublisherSKUSettingsSO(::GlobalNamespace::PS4ActivePublisherSKUSettingsSO* value);
+  constexpr void __cordl_internal_set__activePublisherSKUSettingsSO(::UnityW<::GlobalNamespace::PS4ActivePublisherSKUSettingsSO> value);
 
-  constexpr ::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler*& __get__sonyOnGoingToBackgroundSaveHandler();
+  constexpr ::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler>& __cordl_internal_get__sonyOnGoingToBackgroundSaveHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler*> const& __get__sonyOnGoingToBackgroundSaveHandler() const;
+  constexpr ::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> const& __cordl_internal_get__sonyOnGoingToBackgroundSaveHandler() const;
 
-  constexpr void __set__sonyOnGoingToBackgroundSaveHandler(::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler* value);
+  constexpr void __cordl_internal_set__sonyOnGoingToBackgroundSaveHandler(::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> value);
 
   /// @brief Method InitializeModules, addr 0x2229e50, size 0x68, virtual false, abstract: false, final false
   static inline int32_t InitializeModules();
@@ -122,19 +124,19 @@ protected:
 
 public:
   /// @brief Field _mainSystemInit, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::MainSystemInit* ____mainSystemInit;
+  ::UnityW<::GlobalNamespace::MainSystemInit> ____mainSystemInit;
 
   /// @brief Field _defaultScenesTransitionsFromInit, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::DefaultScenesTransitionsFromInit* ____defaultScenesTransitionsFromInit;
+  ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> ____defaultScenesTransitionsFromInit;
 
   /// @brief Field _appInitScenesTransitionSetupDataContainer, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* ____appInitScenesTransitionSetupDataContainer;
+  ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> ____appInitScenesTransitionSetupDataContainer;
 
   /// @brief Field _activePublisherSKUSettingsSO, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::PS4ActivePublisherSKUSettingsSO* ____activePublisherSKUSettingsSO;
+  ::UnityW<::GlobalNamespace::PS4ActivePublisherSKUSettingsSO> ____activePublisherSKUSettingsSO;
 
   /// @brief Field _sonyOnGoingToBackgroundSaveHandler, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler* ____sonyOnGoingToBackgroundSaveHandler;
+  ::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> ____sonyOnGoingToBackgroundSaveHandler;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

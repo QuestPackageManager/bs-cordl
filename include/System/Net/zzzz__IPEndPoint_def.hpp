@@ -31,17 +31,17 @@ MARK_REF_PTR_T(::System::Net::IPEndPoint);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9061))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9061))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9032))
 // CS Name: ::System.Net::IPEndPoint*
 class CORDL_TYPE IPEndPoint : public ::System::Net::EndPoint {
 public:
   // Declarations
   /// @brief Field _address, offset 0x10, size 0x8
-  __declspec(property(get = __get__address, put = __set__address))::System::Net::IPAddress* _address;
+  __declspec(property(get = __cordl_internal_get__address, put = __cordl_internal_set__address))::System::Net::IPAddress* _address;
 
   /// @brief Field _port, offset 0x18, size 0x4
-  __declspec(property(get = __get__port, put = __set__port)) int32_t _port;
+  __declspec(property(get = __cordl_internal_get__port, put = __cordl_internal_set__port)) int32_t _port;
 
   /// @brief Field Any, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Any, put = setStaticF_Any))::System::Net::IPEndPoint* Any;
@@ -55,17 +55,17 @@ public:
 
   __declspec(property(get = get_Port)) int32_t Port;
 
-  constexpr ::System::Net::IPAddress*& __get__address();
+  constexpr ::System::Net::IPAddress*& __cordl_internal_get__address();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPAddress*> const& __get__address() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPAddress*> const& __cordl_internal_get__address() const;
 
-  constexpr void __set__address(::System::Net::IPAddress* value);
+  constexpr void __cordl_internal_set__address(::System::Net::IPAddress* value);
 
-  constexpr int32_t& __get__port();
+  constexpr int32_t& __cordl_internal_get__port();
 
-  constexpr int32_t const& __get__port() const;
+  constexpr int32_t const& __cordl_internal_get__port() const;
 
-  constexpr void __set__port(int32_t value);
+  constexpr void __cordl_internal_set__port(int32_t value);
 
   static inline void setStaticF_Any(::System::Net::IPEndPoint* value);
 

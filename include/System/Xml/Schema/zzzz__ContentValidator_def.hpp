@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::System::Xml::Schema::ContentValidator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 22, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11722))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11722))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11610))
 // CS Name: ::System.Xml.Schema::ContentValidator*
 class CORDL_TYPE ContentValidator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field contentType, offset 0x10, size 0x4
-  __declspec(property(get = __get_contentType, put = __set_contentType))::System::Xml::Schema::XmlSchemaContentType contentType;
+  __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType))::System::Xml::Schema::XmlSchemaContentType contentType;
 
   /// @brief Field isOpen, offset 0x14, size 0x1
-  __declspec(property(get = __get_isOpen, put = __set_isOpen)) bool isOpen;
+  __declspec(property(get = __cordl_internal_get_isOpen, put = __cordl_internal_set_isOpen)) bool isOpen;
 
   /// @brief Field isEmptiable, offset 0x15, size 0x1
-  __declspec(property(get = __get_isEmptiable, put = __set_isEmptiable)) bool isEmptiable;
+  __declspec(property(get = __cordl_internal_get_isEmptiable, put = __cordl_internal_set_isEmptiable)) bool isEmptiable;
 
   /// @brief Field Empty, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty))::System::Xml::Schema::ContentValidator* Empty;
@@ -49,23 +49,23 @@ public:
 
   __declspec(property(get = get_IsOpen)) bool IsOpen;
 
-  constexpr ::System::Xml::Schema::XmlSchemaContentType& __get_contentType();
+  constexpr ::System::Xml::Schema::XmlSchemaContentType& __cordl_internal_get_contentType();
 
-  constexpr ::System::Xml::Schema::XmlSchemaContentType const& __get_contentType() const;
+  constexpr ::System::Xml::Schema::XmlSchemaContentType const& __cordl_internal_get_contentType() const;
 
-  constexpr void __set_contentType(::System::Xml::Schema::XmlSchemaContentType value);
+  constexpr void __cordl_internal_set_contentType(::System::Xml::Schema::XmlSchemaContentType value);
 
-  constexpr bool& __get_isOpen();
+  constexpr bool& __cordl_internal_get_isOpen();
 
-  constexpr bool const& __get_isOpen() const;
+  constexpr bool const& __cordl_internal_get_isOpen() const;
 
-  constexpr void __set_isOpen(bool value);
+  constexpr void __cordl_internal_set_isOpen(bool value);
 
-  constexpr bool& __get_isEmptiable();
+  constexpr bool& __cordl_internal_get_isEmptiable();
 
-  constexpr bool const& __get_isEmptiable() const;
+  constexpr bool const& __cordl_internal_get_isEmptiable() const;
 
-  constexpr void __set_isEmptiable(bool value);
+  constexpr void __cordl_internal_set_isEmptiable(bool value);
 
   static inline void setStaticF_Empty(::System::Xml::Schema::ContentValidator* value);
 

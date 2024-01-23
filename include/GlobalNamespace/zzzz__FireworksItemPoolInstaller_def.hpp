@@ -20,29 +20,30 @@ MARK_REF_PTR_T(::GlobalNamespace::FireworksItemPoolInstaller);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4849))
 // CS Name: ::FireworksItemPoolInstaller*
 class CORDL_TYPE FireworksItemPoolInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
   /// @brief Field _fireworksController, offset 0x20, size 0x8
-  __declspec(property(get = __get__fireworksController, put = __set__fireworksController))::GlobalNamespace::FireworksController* _fireworksController;
+  __declspec(property(get = __cordl_internal_get__fireworksController, put = __cordl_internal_set__fireworksController))::UnityW<::GlobalNamespace::FireworksController> _fireworksController;
 
   /// @brief Field _fireworkItemControllerPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __get__fireworkItemControllerPrefab, put = __set__fireworkItemControllerPrefab))::GlobalNamespace::FireworkItemController* _fireworkItemControllerPrefab;
+  __declspec(property(get = __cordl_internal_get__fireworkItemControllerPrefab,
+                      put = __cordl_internal_set__fireworkItemControllerPrefab))::UnityW<::GlobalNamespace::FireworkItemController> _fireworkItemControllerPrefab;
 
-  constexpr ::GlobalNamespace::FireworksController*& __get__fireworksController();
+  constexpr ::UnityW<::GlobalNamespace::FireworksController>& __cordl_internal_get__fireworksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FireworksController*> const& __get__fireworksController() const;
+  constexpr ::UnityW<::GlobalNamespace::FireworksController> const& __cordl_internal_get__fireworksController() const;
 
-  constexpr void __set__fireworksController(::GlobalNamespace::FireworksController* value);
+  constexpr void __cordl_internal_set__fireworksController(::UnityW<::GlobalNamespace::FireworksController> value);
 
-  constexpr ::GlobalNamespace::FireworkItemController*& __get__fireworkItemControllerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::FireworkItemController>& __cordl_internal_get__fireworkItemControllerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FireworkItemController*> const& __get__fireworkItemControllerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::FireworkItemController> const& __cordl_internal_get__fireworkItemControllerPrefab() const;
 
-  constexpr void __set__fireworkItemControllerPrefab(::GlobalNamespace::FireworkItemController* value);
+  constexpr void __cordl_internal_set__fireworkItemControllerPrefab(::UnityW<::GlobalNamespace::FireworkItemController> value);
 
   /// @brief Method InstallBindings, addr 0x2397dec, size 0x94, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -67,10 +68,10 @@ protected:
 
 public:
   /// @brief Field _fireworksController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::FireworksController* ____fireworksController;
+  ::UnityW<::GlobalNamespace::FireworksController> ____fireworksController;
 
   /// @brief Field _fireworkItemControllerPrefab, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::FireworkItemController* ____fireworkItemControllerPrefab;
+  ::UnityW<::GlobalNamespace::FireworkItemController> ____fireworkItemControllerPrefab;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

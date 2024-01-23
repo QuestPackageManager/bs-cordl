@@ -21,191 +21,191 @@ MARK_REF_PTR_T(::GlobalNamespace::PerformancePreset);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4442))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4442))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4443))
 // CS Name: ::PerformancePreset*
 class CORDL_TYPE PerformancePreset : public ::System::Object {
 public:
   // Declarations
   /// @brief Field dataVersion, offset 0x10, size 0x4
-  __declspec(property(get = __get_dataVersion, put = __set_dataVersion)) uint32_t dataVersion;
+  __declspec(property(get = __cordl_internal_get_dataVersion, put = __cordl_internal_set_dataVersion)) uint32_t dataVersion;
 
   /// @brief Field presetName, offset 0x18, size 0x8
-  __declspec(property(get = __get_presetName, put = __set_presetName))::StringW presetName;
+  __declspec(property(get = __cordl_internal_get_presetName, put = __cordl_internal_set_presetName))::StringW presetName;
 
   /// @brief Field presetNameLocalizationTag, offset 0x20, size 0x8
-  __declspec(property(get = __get_presetNameLocalizationTag, put = __set_presetNameLocalizationTag))::StringW presetNameLocalizationTag;
+  __declspec(property(get = __cordl_internal_get_presetNameLocalizationTag, put = __cordl_internal_set_presetNameLocalizationTag))::StringW presetNameLocalizationTag;
 
   /// @brief Field renderViewportScale, offset 0x28, size 0x4
-  __declspec(property(get = __get_renderViewportScale, put = __set_renderViewportScale)) float_t renderViewportScale;
+  __declspec(property(get = __cordl_internal_get_renderViewportScale, put = __cordl_internal_set_renderViewportScale)) float_t renderViewportScale;
 
   /// @brief Field vrResolutionScale, offset 0x2c, size 0x4
-  __declspec(property(get = __get_vrResolutionScale, put = __set_vrResolutionScale)) float_t vrResolutionScale;
+  __declspec(property(get = __cordl_internal_get_vrResolutionScale, put = __cordl_internal_set_vrResolutionScale)) float_t vrResolutionScale;
 
   /// @brief Field menuVRResolutionScaleMultiplier, offset 0x30, size 0x4
-  __declspec(property(get = __get_menuVRResolutionScaleMultiplier, put = __set_menuVRResolutionScaleMultiplier)) float_t menuVRResolutionScaleMultiplier;
+  __declspec(property(get = __cordl_internal_get_menuVRResolutionScaleMultiplier, put = __cordl_internal_set_menuVRResolutionScaleMultiplier)) float_t menuVRResolutionScaleMultiplier;
 
   /// @brief Field antiAliasingLevel, offset 0x34, size 0x4
-  __declspec(property(get = __get_antiAliasingLevel, put = __set_antiAliasingLevel)) int32_t antiAliasingLevel;
+  __declspec(property(get = __cordl_internal_get_antiAliasingLevel, put = __cordl_internal_set_antiAliasingLevel)) int32_t antiAliasingLevel;
 
   /// @brief Field targetFramerate, offset 0x38, size 0x4
-  __declspec(property(get = __get_targetFramerate, put = __set_targetFramerate)) float_t targetFramerate;
+  __declspec(property(get = __cordl_internal_get_targetFramerate, put = __cordl_internal_set_targetFramerate)) float_t targetFramerate;
 
   /// @brief Field vSyncCount, offset 0x3c, size 0x4
-  __declspec(property(get = __get_vSyncCount, put = __set_vSyncCount)) int32_t vSyncCount;
+  __declspec(property(get = __cordl_internal_get_vSyncCount, put = __cordl_internal_set_vSyncCount)) int32_t vSyncCount;
 
   /// @brief Field maxQueuedFrames, offset 0x40, size 0x4
-  __declspec(property(get = __get_maxQueuedFrames, put = __set_maxQueuedFrames)) int32_t maxQueuedFrames;
+  __declspec(property(get = __cordl_internal_get_maxQueuedFrames, put = __cordl_internal_set_maxQueuedFrames)) int32_t maxQueuedFrames;
 
   /// @brief Field mirrorGraphics, offset 0x44, size 0x4
-  __declspec(property(get = __get_mirrorGraphics, put = __set_mirrorGraphics)) int32_t mirrorGraphics;
+  __declspec(property(get = __cordl_internal_get_mirrorGraphics, put = __cordl_internal_set_mirrorGraphics)) int32_t mirrorGraphics;
 
   /// @brief Field mainEffectGraphics, offset 0x48, size 0x4
-  __declspec(property(get = __get_mainEffectGraphics, put = __set_mainEffectGraphics)) int32_t mainEffectGraphics;
+  __declspec(property(get = __cordl_internal_get_mainEffectGraphics, put = __cordl_internal_set_mainEffectGraphics)) int32_t mainEffectGraphics;
 
   /// @brief Field bloomGraphics, offset 0x4c, size 0x4
-  __declspec(property(get = __get_bloomGraphics, put = __set_bloomGraphics)) int32_t bloomGraphics;
+  __declspec(property(get = __cordl_internal_get_bloomGraphics, put = __cordl_internal_set_bloomGraphics)) int32_t bloomGraphics;
 
   /// @brief Field smokeGraphics, offset 0x50, size 0x1
-  __declspec(property(get = __get_smokeGraphics, put = __set_smokeGraphics)) bool smokeGraphics;
+  __declspec(property(get = __cordl_internal_get_smokeGraphics, put = __cordl_internal_set_smokeGraphics)) bool smokeGraphics;
 
   /// @brief Field burnMarkTrails, offset 0x51, size 0x1
-  __declspec(property(get = __get_burnMarkTrails, put = __set_burnMarkTrails)) bool burnMarkTrails;
+  __declspec(property(get = __cordl_internal_get_burnMarkTrails, put = __cordl_internal_set_burnMarkTrails)) bool burnMarkTrails;
 
   /// @brief Field screenDisplacementEffects, offset 0x52, size 0x1
-  __declspec(property(get = __get_screenDisplacementEffects, put = __set_screenDisplacementEffects)) bool screenDisplacementEffects;
+  __declspec(property(get = __cordl_internal_get_screenDisplacementEffects, put = __cordl_internal_set_screenDisplacementEffects)) bool screenDisplacementEffects;
 
   /// @brief Field maxShockwaveParticles, offset 0x54, size 0x4
-  __declspec(property(get = __get_maxShockwaveParticles, put = __set_maxShockwaveParticles)) int32_t maxShockwaveParticles;
+  __declspec(property(get = __cordl_internal_get_maxShockwaveParticles, put = __cordl_internal_set_maxShockwaveParticles)) int32_t maxShockwaveParticles;
 
   /// @brief Field maxNumberOfCutSoundEffects, offset 0x58, size 0x4
-  __declspec(property(get = __get_maxNumberOfCutSoundEffects, put = __set_maxNumberOfCutSoundEffects)) int32_t maxNumberOfCutSoundEffects;
+  __declspec(property(get = __cordl_internal_get_maxNumberOfCutSoundEffects, put = __cordl_internal_set_maxNumberOfCutSoundEffects)) int32_t maxNumberOfCutSoundEffects;
 
   /// @brief Field obstaclesQuality, offset 0x5c, size 0x4
-  __declspec(property(get = __get_obstaclesQuality, put = __set_obstaclesQuality))::GlobalNamespace::ObstaclesQuality obstaclesQuality;
+  __declspec(property(get = __cordl_internal_get_obstaclesQuality, put = __cordl_internal_set_obstaclesQuality))::GlobalNamespace::ObstaclesQuality obstaclesQuality;
 
   /// @brief Field questSettings, offset 0x60, size 0x8
-  __declspec(property(get = __get_questSettings, put = __set_questSettings))::GlobalNamespace::QuestPerformanceSettings* questSettings;
+  __declspec(property(get = __cordl_internal_get_questSettings, put = __cordl_internal_set_questSettings))::GlobalNamespace::QuestPerformanceSettings* questSettings;
 
-  constexpr uint32_t& __get_dataVersion();
+  constexpr uint32_t& __cordl_internal_get_dataVersion();
 
-  constexpr uint32_t const& __get_dataVersion() const;
+  constexpr uint32_t const& __cordl_internal_get_dataVersion() const;
 
-  constexpr void __set_dataVersion(uint32_t value);
+  constexpr void __cordl_internal_set_dataVersion(uint32_t value);
 
-  constexpr ::StringW& __get_presetName();
+  constexpr ::StringW& __cordl_internal_get_presetName();
 
-  constexpr ::StringW const& __get_presetName() const;
+  constexpr ::StringW const& __cordl_internal_get_presetName() const;
 
-  constexpr void __set_presetName(::StringW value);
+  constexpr void __cordl_internal_set_presetName(::StringW value);
 
-  constexpr ::StringW& __get_presetNameLocalizationTag();
+  constexpr ::StringW& __cordl_internal_get_presetNameLocalizationTag();
 
-  constexpr ::StringW const& __get_presetNameLocalizationTag() const;
+  constexpr ::StringW const& __cordl_internal_get_presetNameLocalizationTag() const;
 
-  constexpr void __set_presetNameLocalizationTag(::StringW value);
+  constexpr void __cordl_internal_set_presetNameLocalizationTag(::StringW value);
 
-  constexpr float_t& __get_renderViewportScale();
+  constexpr float_t& __cordl_internal_get_renderViewportScale();
 
-  constexpr float_t const& __get_renderViewportScale() const;
+  constexpr float_t const& __cordl_internal_get_renderViewportScale() const;
 
-  constexpr void __set_renderViewportScale(float_t value);
+  constexpr void __cordl_internal_set_renderViewportScale(float_t value);
 
-  constexpr float_t& __get_vrResolutionScale();
+  constexpr float_t& __cordl_internal_get_vrResolutionScale();
 
-  constexpr float_t const& __get_vrResolutionScale() const;
+  constexpr float_t const& __cordl_internal_get_vrResolutionScale() const;
 
-  constexpr void __set_vrResolutionScale(float_t value);
+  constexpr void __cordl_internal_set_vrResolutionScale(float_t value);
 
-  constexpr float_t& __get_menuVRResolutionScaleMultiplier();
+  constexpr float_t& __cordl_internal_get_menuVRResolutionScaleMultiplier();
 
-  constexpr float_t const& __get_menuVRResolutionScaleMultiplier() const;
+  constexpr float_t const& __cordl_internal_get_menuVRResolutionScaleMultiplier() const;
 
-  constexpr void __set_menuVRResolutionScaleMultiplier(float_t value);
+  constexpr void __cordl_internal_set_menuVRResolutionScaleMultiplier(float_t value);
 
-  constexpr int32_t& __get_antiAliasingLevel();
+  constexpr int32_t& __cordl_internal_get_antiAliasingLevel();
 
-  constexpr int32_t const& __get_antiAliasingLevel() const;
+  constexpr int32_t const& __cordl_internal_get_antiAliasingLevel() const;
 
-  constexpr void __set_antiAliasingLevel(int32_t value);
+  constexpr void __cordl_internal_set_antiAliasingLevel(int32_t value);
 
-  constexpr float_t& __get_targetFramerate();
+  constexpr float_t& __cordl_internal_get_targetFramerate();
 
-  constexpr float_t const& __get_targetFramerate() const;
+  constexpr float_t const& __cordl_internal_get_targetFramerate() const;
 
-  constexpr void __set_targetFramerate(float_t value);
+  constexpr void __cordl_internal_set_targetFramerate(float_t value);
 
-  constexpr int32_t& __get_vSyncCount();
+  constexpr int32_t& __cordl_internal_get_vSyncCount();
 
-  constexpr int32_t const& __get_vSyncCount() const;
+  constexpr int32_t const& __cordl_internal_get_vSyncCount() const;
 
-  constexpr void __set_vSyncCount(int32_t value);
+  constexpr void __cordl_internal_set_vSyncCount(int32_t value);
 
-  constexpr int32_t& __get_maxQueuedFrames();
+  constexpr int32_t& __cordl_internal_get_maxQueuedFrames();
 
-  constexpr int32_t const& __get_maxQueuedFrames() const;
+  constexpr int32_t const& __cordl_internal_get_maxQueuedFrames() const;
 
-  constexpr void __set_maxQueuedFrames(int32_t value);
+  constexpr void __cordl_internal_set_maxQueuedFrames(int32_t value);
 
-  constexpr int32_t& __get_mirrorGraphics();
+  constexpr int32_t& __cordl_internal_get_mirrorGraphics();
 
-  constexpr int32_t const& __get_mirrorGraphics() const;
+  constexpr int32_t const& __cordl_internal_get_mirrorGraphics() const;
 
-  constexpr void __set_mirrorGraphics(int32_t value);
+  constexpr void __cordl_internal_set_mirrorGraphics(int32_t value);
 
-  constexpr int32_t& __get_mainEffectGraphics();
+  constexpr int32_t& __cordl_internal_get_mainEffectGraphics();
 
-  constexpr int32_t const& __get_mainEffectGraphics() const;
+  constexpr int32_t const& __cordl_internal_get_mainEffectGraphics() const;
 
-  constexpr void __set_mainEffectGraphics(int32_t value);
+  constexpr void __cordl_internal_set_mainEffectGraphics(int32_t value);
 
-  constexpr int32_t& __get_bloomGraphics();
+  constexpr int32_t& __cordl_internal_get_bloomGraphics();
 
-  constexpr int32_t const& __get_bloomGraphics() const;
+  constexpr int32_t const& __cordl_internal_get_bloomGraphics() const;
 
-  constexpr void __set_bloomGraphics(int32_t value);
+  constexpr void __cordl_internal_set_bloomGraphics(int32_t value);
 
-  constexpr bool& __get_smokeGraphics();
+  constexpr bool& __cordl_internal_get_smokeGraphics();
 
-  constexpr bool const& __get_smokeGraphics() const;
+  constexpr bool const& __cordl_internal_get_smokeGraphics() const;
 
-  constexpr void __set_smokeGraphics(bool value);
+  constexpr void __cordl_internal_set_smokeGraphics(bool value);
 
-  constexpr bool& __get_burnMarkTrails();
+  constexpr bool& __cordl_internal_get_burnMarkTrails();
 
-  constexpr bool const& __get_burnMarkTrails() const;
+  constexpr bool const& __cordl_internal_get_burnMarkTrails() const;
 
-  constexpr void __set_burnMarkTrails(bool value);
+  constexpr void __cordl_internal_set_burnMarkTrails(bool value);
 
-  constexpr bool& __get_screenDisplacementEffects();
+  constexpr bool& __cordl_internal_get_screenDisplacementEffects();
 
-  constexpr bool const& __get_screenDisplacementEffects() const;
+  constexpr bool const& __cordl_internal_get_screenDisplacementEffects() const;
 
-  constexpr void __set_screenDisplacementEffects(bool value);
+  constexpr void __cordl_internal_set_screenDisplacementEffects(bool value);
 
-  constexpr int32_t& __get_maxShockwaveParticles();
+  constexpr int32_t& __cordl_internal_get_maxShockwaveParticles();
 
-  constexpr int32_t const& __get_maxShockwaveParticles() const;
+  constexpr int32_t const& __cordl_internal_get_maxShockwaveParticles() const;
 
-  constexpr void __set_maxShockwaveParticles(int32_t value);
+  constexpr void __cordl_internal_set_maxShockwaveParticles(int32_t value);
 
-  constexpr int32_t& __get_maxNumberOfCutSoundEffects();
+  constexpr int32_t& __cordl_internal_get_maxNumberOfCutSoundEffects();
 
-  constexpr int32_t const& __get_maxNumberOfCutSoundEffects() const;
+  constexpr int32_t const& __cordl_internal_get_maxNumberOfCutSoundEffects() const;
 
-  constexpr void __set_maxNumberOfCutSoundEffects(int32_t value);
+  constexpr void __cordl_internal_set_maxNumberOfCutSoundEffects(int32_t value);
 
-  constexpr ::GlobalNamespace::ObstaclesQuality& __get_obstaclesQuality();
+  constexpr ::GlobalNamespace::ObstaclesQuality& __cordl_internal_get_obstaclesQuality();
 
-  constexpr ::GlobalNamespace::ObstaclesQuality const& __get_obstaclesQuality() const;
+  constexpr ::GlobalNamespace::ObstaclesQuality const& __cordl_internal_get_obstaclesQuality() const;
 
-  constexpr void __set_obstaclesQuality(::GlobalNamespace::ObstaclesQuality value);
+  constexpr void __cordl_internal_set_obstaclesQuality(::GlobalNamespace::ObstaclesQuality value);
 
-  constexpr ::GlobalNamespace::QuestPerformanceSettings*& __get_questSettings();
+  constexpr ::GlobalNamespace::QuestPerformanceSettings*& __cordl_internal_get_questSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::QuestPerformanceSettings*> const& __get_questSettings() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::QuestPerformanceSettings*> const& __cordl_internal_get_questSettings() const;
 
-  constexpr void __set_questSettings(::GlobalNamespace::QuestPerformanceSettings* value);
+  constexpr void __cordl_internal_set_questSettings(::GlobalNamespace::QuestPerformanceSettings* value);
 
   static inline ::GlobalNamespace::PerformancePreset* New_ctor();
 

@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InstancedInput);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9653))
 // CS Name: ::HoudiniEngineUnity::HEU_InstancedInput*
 class CORDL_TYPE HEU_InstancedInput : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _instancedGameObject, offset 0x10, size 0x8
-  __declspec(property(get = __get__instancedGameObject, put = __set__instancedGameObject))::UnityEngine::GameObject* _instancedGameObject;
+  __declspec(property(get = __cordl_internal_get__instancedGameObject, put = __cordl_internal_set__instancedGameObject))::UnityW<::UnityEngine::GameObject> _instancedGameObject;
 
   /// @brief Field _rotationOffset, offset 0x18, size 0xc
-  __declspec(property(get = __get__rotationOffset, put = __set__rotationOffset))::UnityEngine::Vector3 _rotationOffset;
+  __declspec(property(get = __cordl_internal_get__rotationOffset, put = __cordl_internal_set__rotationOffset))::UnityEngine::Vector3 _rotationOffset;
 
   /// @brief Field _scaleOffset, offset 0x24, size 0xc
-  __declspec(property(get = __get__scaleOffset, put = __set__scaleOffset))::UnityEngine::Vector3 _scaleOffset;
+  __declspec(property(get = __cordl_internal_get__scaleOffset, put = __cordl_internal_set__scaleOffset))::UnityEngine::Vector3 _scaleOffset;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>*() noexcept;
@@ -42,23 +42,23 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InstancedInput*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_InstancedInput__() noexcept;
 
-  constexpr ::UnityEngine::GameObject*& __get__instancedGameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__instancedGameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__instancedGameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__instancedGameObject() const;
 
-  constexpr void __set__instancedGameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__instancedGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::Vector3& __get__rotationOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__rotationOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__rotationOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__rotationOffset() const;
 
-  constexpr void __set__rotationOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__rotationOffset(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__scaleOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__scaleOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__scaleOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__scaleOffset() const;
 
-  constexpr void __set__scaleOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__scaleOffset(::UnityEngine::Vector3 value);
 
   /// @brief Method IsEquivalentTo, addr 0x217289c, size 0x1a0, virtual true, abstract: false, final true
   inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstancedInput* other);
@@ -83,7 +83,7 @@ protected:
 
 public:
   /// @brief Field _instancedGameObject, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____instancedGameObject;
+  ::UnityW<::UnityEngine::GameObject> ____instancedGameObject;
 
   /// @brief Field _rotationOffset, offset: 0x18, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____rotationOffset;

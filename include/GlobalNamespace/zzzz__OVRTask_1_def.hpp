@@ -115,7 +115,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8067))
 // CS Name: ::OVRTask`1::CallbackInvoker<TResult>*
 class CORDL_TYPE __OVRTask_1__CallbackInvoker : public ::System::MulticastDelegate {
@@ -159,7 +159,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8068))
 // CS Name: ::OVRTask`1::CallbackRemover<TResult>*
 class CORDL_TYPE __OVRTask_1__CallbackRemover : public ::System::MulticastDelegate {
@@ -203,7 +203,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8069))
 // CS Name: ::OVRTask`1::InternalDataRemover<TResult>*
 class CORDL_TYPE __OVRTask_1__InternalDataRemover : public ::System::MulticastDelegate {
@@ -247,7 +247,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult, typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8070))
 // CS Name: ::OVRTask`1::InternalData`1<TResult,T>*
 class CORDL_TYPE __OVRTask_1__InternalData_1 : public ::System::Object {
@@ -310,7 +310,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult, typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8071))
 // CS Name: ::OVRTask`1::IncrementalResultSubscriber`1<TResult,T>*
 class CORDL_TYPE __OVRTask_1__IncrementalResultSubscriber_1 : public ::System::Object {
@@ -373,7 +373,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8075))
 // CS Name: ::OVRTask`1<TResult>
 struct CORDL_TYPE OVRTask_1 {
@@ -577,7 +577,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8075)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8075), inst: 4789 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8075)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(8075), inst: 4789 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8072))
 // CS Name: ::OVRTask`1::Awaiter<TResult>
 struct CORDL_TYPE __OVRTask_1__Awaiter {
@@ -626,7 +626,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8073))
 // CS Name: ::OVRTask`1::Callback<TResult>
 struct CORDL_TYPE __OVRTask_1__Callback {
@@ -702,7 +702,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult, typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8074))
 // CS Name: ::OVRTask`1::CallbackWithState`1<TResult,T>
 struct CORDL_TYPE __OVRTask_1__CallbackWithState_1 {

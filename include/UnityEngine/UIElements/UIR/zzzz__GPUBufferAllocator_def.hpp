@@ -21,31 +21,31 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::GPUBufferAllocator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7437))
 // CS Name: ::UnityEngine.UIElements.UIR::GPUBufferAllocator*
 class CORDL_TYPE GPUBufferAllocator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Low, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Low, put = __set_m_Low))::UnityEngine::UIElements::UIR::BestFitAllocator* m_Low;
+  __declspec(property(get = __cordl_internal_get_m_Low, put = __cordl_internal_set_m_Low))::UnityEngine::UIElements::UIR::BestFitAllocator* m_Low;
 
   /// @brief Field m_High, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_High, put = __set_m_High))::UnityEngine::UIElements::UIR::BestFitAllocator* m_High;
+  __declspec(property(get = __cordl_internal_get_m_High, put = __cordl_internal_set_m_High))::UnityEngine::UIElements::UIR::BestFitAllocator* m_High;
 
   __declspec(property(get = get_isEmpty)) bool isEmpty;
 
-  constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator*& __get_m_Low();
+  constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator*& __cordl_internal_get_m_Low();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BestFitAllocator*> const& __get_m_Low() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BestFitAllocator*> const& __cordl_internal_get_m_Low() const;
 
-  constexpr void __set_m_Low(::UnityEngine::UIElements::UIR::BestFitAllocator* value);
+  constexpr void __cordl_internal_set_m_Low(::UnityEngine::UIElements::UIR::BestFitAllocator* value);
 
-  constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator*& __get_m_High();
+  constexpr ::UnityEngine::UIElements::UIR::BestFitAllocator*& __cordl_internal_get_m_High();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BestFitAllocator*> const& __get_m_High() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BestFitAllocator*> const& __cordl_internal_get_m_High() const;
 
-  constexpr void __set_m_High(::UnityEngine::UIElements::UIR::BestFitAllocator* value);
+  constexpr void __cordl_internal_set_m_High(::UnityEngine::UIElements::UIR::BestFitAllocator* value);
 
   static inline ::UnityEngine::UIElements::UIR::GPUBufferAllocator* New_ctor(uint32_t maxSize);
 

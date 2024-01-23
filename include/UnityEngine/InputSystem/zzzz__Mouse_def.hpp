@@ -32,32 +32,39 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Mouse);
 // SizeInfo { instance_size: 440, native_size: -1, calculated_instance_size: 440, calculated_native_size: 440, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6247))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6247))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6244))
 // CS Name: ::UnityEngine.InputSystem::Mouse*
 class CORDL_TYPE Mouse : public ::UnityEngine::InputSystem::Pointer {
 public:
   // Declarations
   /// @brief Field <scroll>k__BackingField, offset 0x180, size 0x8
-  __declspec(property(get = __get__scroll_k__BackingField, put = __set__scroll_k__BackingField))::UnityEngine::InputSystem::Controls::DeltaControl* _scroll_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__scroll_k__BackingField,
+                      put = __cordl_internal_set__scroll_k__BackingField))::UnityEngine::InputSystem::Controls::DeltaControl* _scroll_k__BackingField;
 
   /// @brief Field <leftButton>k__BackingField, offset 0x188, size 0x8
-  __declspec(property(get = __get__leftButton_k__BackingField, put = __set__leftButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _leftButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__leftButton_k__BackingField,
+                      put = __cordl_internal_set__leftButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _leftButton_k__BackingField;
 
   /// @brief Field <middleButton>k__BackingField, offset 0x190, size 0x8
-  __declspec(property(get = __get__middleButton_k__BackingField, put = __set__middleButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _middleButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__middleButton_k__BackingField,
+                      put = __cordl_internal_set__middleButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _middleButton_k__BackingField;
 
   /// @brief Field <rightButton>k__BackingField, offset 0x198, size 0x8
-  __declspec(property(get = __get__rightButton_k__BackingField, put = __set__rightButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _rightButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rightButton_k__BackingField,
+                      put = __cordl_internal_set__rightButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _rightButton_k__BackingField;
 
   /// @brief Field <backButton>k__BackingField, offset 0x1a0, size 0x8
-  __declspec(property(get = __get__backButton_k__BackingField, put = __set__backButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _backButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__backButton_k__BackingField,
+                      put = __cordl_internal_set__backButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _backButton_k__BackingField;
 
   /// @brief Field <forwardButton>k__BackingField, offset 0x1a8, size 0x8
-  __declspec(property(get = __get__forwardButton_k__BackingField, put = __set__forwardButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _forwardButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__forwardButton_k__BackingField,
+                      put = __cordl_internal_set__forwardButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _forwardButton_k__BackingField;
 
   /// @brief Field <clickCount>k__BackingField, offset 0x1b0, size 0x8
-  __declspec(property(get = __get__clickCount_k__BackingField, put = __set__clickCount_k__BackingField))::UnityEngine::InputSystem::Controls::IntegerControl* _clickCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__clickCount_k__BackingField,
+                      put = __cordl_internal_set__clickCount_k__BackingField))::UnityEngine::InputSystem::Controls::IntegerControl* _clickCount_k__BackingField;
 
   /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField))::UnityEngine::InputSystem::Mouse* _current_k__BackingField;
@@ -85,47 +92,47 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver* i___UnityEngine__InputSystem__LowLevel__IInputStateCallbackReceiver() noexcept;
 
-  constexpr ::UnityEngine::InputSystem::Controls::DeltaControl*& __get__scroll_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::DeltaControl*& __cordl_internal_get__scroll_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::DeltaControl*> const& __get__scroll_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::DeltaControl*> const& __cordl_internal_get__scroll_k__BackingField() const;
 
-  constexpr void __set__scroll_k__BackingField(::UnityEngine::InputSystem::Controls::DeltaControl* value);
+  constexpr void __cordl_internal_set__scroll_k__BackingField(::UnityEngine::InputSystem::Controls::DeltaControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__leftButton_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__leftButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__leftButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__leftButton_k__BackingField() const;
 
-  constexpr void __set__leftButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__leftButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__middleButton_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__middleButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__middleButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__middleButton_k__BackingField() const;
 
-  constexpr void __set__middleButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__middleButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__rightButton_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__rightButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__rightButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__rightButton_k__BackingField() const;
 
-  constexpr void __set__rightButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__rightButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__backButton_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__backButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__backButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__backButton_k__BackingField() const;
 
-  constexpr void __set__backButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__backButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__forwardButton_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__forwardButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__forwardButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__forwardButton_k__BackingField() const;
 
-  constexpr void __set__forwardButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__forwardButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __get__clickCount_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __cordl_internal_get__clickCount_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::IntegerControl*> const& __get__clickCount_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::IntegerControl*> const& __cordl_internal_get__clickCount_k__BackingField() const;
 
-  constexpr void __set__clickCount_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
+  constexpr void __cordl_internal_set__clickCount_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Mouse* value);
 

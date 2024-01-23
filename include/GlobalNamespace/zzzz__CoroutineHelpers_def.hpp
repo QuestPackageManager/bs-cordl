@@ -45,23 +45,23 @@ MARK_REF_PTR_T(::GlobalNamespace::__CoroutineHelpers___ExecuteAfterDelayCoroutin
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15848))
 // CS Name: ::CoroutineHelpers::<ExecuteAfterDelayCoroutine>d__0*
 class CORDL_TYPE __CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field timeSeconds, offset 0x20, size 0x4
-  __declspec(property(get = __get_timeSeconds, put = __set_timeSeconds)) float_t timeSeconds;
+  __declspec(property(get = __cordl_internal_get_timeSeconds, put = __cordl_internal_set_timeSeconds)) float_t timeSeconds;
 
   /// @brief Field action, offset 0x28, size 0x8
-  __declspec(property(get = __get_action, put = __set_action))::System::Action* action;
+  __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action))::System::Action* action;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -85,29 +85,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr float_t& __get_timeSeconds();
+  constexpr float_t& __cordl_internal_get_timeSeconds();
 
-  constexpr float_t const& __get_timeSeconds() const;
+  constexpr float_t const& __cordl_internal_get_timeSeconds() const;
 
-  constexpr void __set_timeSeconds(float_t value);
+  constexpr void __cordl_internal_set_timeSeconds(float_t value);
 
-  constexpr ::System::Action*& __get_action();
+  constexpr ::System::Action*& __cordl_internal_get_action();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_action() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_action() const;
 
-  constexpr void __set_action(::System::Action* value);
+  constexpr void __cordl_internal_set_action(::System::Action* value);
 
   static inline ::GlobalNamespace::__CoroutineHelpers___ExecuteAfterDelayCoroutine_d__0* New_ctor(int32_t __1__state);
 
@@ -173,7 +173,7 @@ static_assert(offsetof(::GlobalNamespace::__CoroutineHelpers___ExecuteAfterDelay
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15849))
 // CS Name: ::CoroutineHelpers*
 class CORDL_TYPE CoroutineHelpers : public ::System::Object {

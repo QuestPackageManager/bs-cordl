@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::System::IO::Compression::__DeflateStreamNative__UnmanagedReadOr
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO::Compression {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9551))
 // CS Name: ::DeflateStreamNative::UnmanagedReadOrWrite*
 class CORDL_TYPE __DeflateStreamNative__UnmanagedReadOrWrite : public ::System::MulticastDelegate {
@@ -84,7 +84,7 @@ static_assert(::cordl_internals::size_check_v<::System::IO::Compression::__Defla
 // SizeInfo { instance_size: 32, native_size: 8, calculated_instance_size: 32, calculated_native_size: 30, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO::Compression {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3334))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3334))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9552))
 // CS Name: ::DeflateStreamNative::SafeDeflateStreamHandle*
 class CORDL_TYPE __DeflateStreamNative__SafeDeflateStreamHandle : public ::System::Runtime::InteropServices::SafeHandle {
@@ -127,7 +127,7 @@ static_assert(::cordl_internals::size_check_v<::System::IO::Compression::__Defla
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Compression {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9553))
 // CS Name: ::System.IO.Compression::DeflateStreamNative*
 class CORDL_TYPE DeflateStreamNative : public ::System::Object {
@@ -138,67 +138,67 @@ public:
   using UnmanagedReadOrWrite = ::System::IO::Compression::__DeflateStreamNative__UnmanagedReadOrWrite;
 
   /// @brief Field feeder, offset 0x10, size 0x8
-  __declspec(property(get = __get_feeder, put = __set_feeder))::System::IO::Compression::__DeflateStreamNative__UnmanagedReadOrWrite* feeder;
+  __declspec(property(get = __cordl_internal_get_feeder, put = __cordl_internal_set_feeder))::System::IO::Compression::__DeflateStreamNative__UnmanagedReadOrWrite* feeder;
 
   /// @brief Field base_stream, offset 0x18, size 0x8
-  __declspec(property(get = __get_base_stream, put = __set_base_stream))::System::IO::Stream* base_stream;
+  __declspec(property(get = __cordl_internal_get_base_stream, put = __cordl_internal_set_base_stream))::System::IO::Stream* base_stream;
 
   /// @brief Field z_stream, offset 0x20, size 0x8
-  __declspec(property(get = __get_z_stream, put = __set_z_stream))::System::IO::Compression::__DeflateStreamNative__SafeDeflateStreamHandle* z_stream;
+  __declspec(property(get = __cordl_internal_get_z_stream, put = __cordl_internal_set_z_stream))::System::IO::Compression::__DeflateStreamNative__SafeDeflateStreamHandle* z_stream;
 
   /// @brief Field data, offset 0x28, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::System::Runtime::InteropServices::GCHandle data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::System::Runtime::InteropServices::GCHandle data;
 
   /// @brief Field disposed, offset 0x30, size 0x1
-  __declspec(property(get = __get_disposed, put = __set_disposed)) bool disposed;
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field io_buffer, offset 0x38, size 0x8
-  __declspec(property(get = __get_io_buffer, put = __set_io_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> io_buffer;
+  __declspec(property(get = __cordl_internal_get_io_buffer, put = __cordl_internal_set_io_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> io_buffer;
 
   /// @brief Field last_error, offset 0x40, size 0x8
-  __declspec(property(get = __get_last_error, put = __set_last_error))::System::Exception* last_error;
+  __declspec(property(get = __cordl_internal_get_last_error, put = __cordl_internal_set_last_error))::System::Exception* last_error;
 
-  constexpr ::System::IO::Compression::__DeflateStreamNative__UnmanagedReadOrWrite*& __get_feeder();
+  constexpr ::System::IO::Compression::__DeflateStreamNative__UnmanagedReadOrWrite*& __cordl_internal_get_feeder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Compression::__DeflateStreamNative__UnmanagedReadOrWrite*> const& __get_feeder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Compression::__DeflateStreamNative__UnmanagedReadOrWrite*> const& __cordl_internal_get_feeder() const;
 
-  constexpr void __set_feeder(::System::IO::Compression::__DeflateStreamNative__UnmanagedReadOrWrite* value);
+  constexpr void __cordl_internal_set_feeder(::System::IO::Compression::__DeflateStreamNative__UnmanagedReadOrWrite* value);
 
-  constexpr ::System::IO::Stream*& __get_base_stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_base_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_base_stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_base_stream() const;
 
-  constexpr void __set_base_stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_base_stream(::System::IO::Stream* value);
 
-  constexpr ::System::IO::Compression::__DeflateStreamNative__SafeDeflateStreamHandle*& __get_z_stream();
+  constexpr ::System::IO::Compression::__DeflateStreamNative__SafeDeflateStreamHandle*& __cordl_internal_get_z_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Compression::__DeflateStreamNative__SafeDeflateStreamHandle*> const& __get_z_stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Compression::__DeflateStreamNative__SafeDeflateStreamHandle*> const& __cordl_internal_get_z_stream() const;
 
-  constexpr void __set_z_stream(::System::IO::Compression::__DeflateStreamNative__SafeDeflateStreamHandle* value);
+  constexpr void __cordl_internal_set_z_stream(::System::IO::Compression::__DeflateStreamNative__SafeDeflateStreamHandle* value);
 
-  constexpr ::System::Runtime::InteropServices::GCHandle& __get_data();
+  constexpr ::System::Runtime::InteropServices::GCHandle& __cordl_internal_get_data();
 
-  constexpr ::System::Runtime::InteropServices::GCHandle const& __get_data() const;
+  constexpr ::System::Runtime::InteropServices::GCHandle const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::System::Runtime::InteropServices::GCHandle value);
+  constexpr void __cordl_internal_set_data(::System::Runtime::InteropServices::GCHandle value);
 
-  constexpr bool& __get_disposed();
+  constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr bool const& __get_disposed() const;
+  constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __set_disposed(bool value);
+  constexpr void __cordl_internal_set_disposed(bool value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_io_buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_io_buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_io_buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_io_buffer() const;
 
-  constexpr void __set_io_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_io_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Exception*& __get_last_error();
+  constexpr ::System::Exception*& __cordl_internal_get_last_error();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __get_last_error() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get_last_error() const;
 
-  constexpr void __set_last_error(::System::Exception* value);
+  constexpr void __cordl_internal_set_last_error(::System::Exception* value);
 
   static inline ::System::IO::Compression::DeflateStreamNative* New_ctor();
 

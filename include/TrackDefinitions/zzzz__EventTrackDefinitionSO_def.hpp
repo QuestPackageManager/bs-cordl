@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::TrackDefinitions::EventTrackDefinitionSO);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TrackDefinitions {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16062))
 // CS Name: ::EventTrackDefinitionSO::DataTransformationType
 struct CORDL_TYPE __EventTrackDefinitionSO__DataTransformationType {
@@ -97,7 +97,7 @@ static_assert(offsetof(::TrackDefinitions::__EventTrackDefinitionSO__DataTransfo
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TrackDefinitions {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16063))
 // CS Name: ::EventTrackDefinitionSO::MarkerType
 struct CORDL_TYPE __EventTrackDefinitionSO__MarkerType {
@@ -159,7 +159,7 @@ static_assert(offsetof(::TrackDefinitions::__EventTrackDefinitionSO__MarkerType,
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TrackDefinitions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16062)), TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(16063))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(16062)), TypeDefinitionIndex(TypeDefinitionIndex(16063))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16064))
 // CS Name: ::TrackDefinitions::EventTrackDefinitionSO*
 class CORDL_TYPE EventTrackDefinitionSO : public ::GlobalNamespace::PersistentScriptableObject {
@@ -170,16 +170,17 @@ public:
   using DataTransformationType = ::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType;
 
   /// @brief Field _dataTransformationType, offset 0x18, size 0x4
-  __declspec(property(get = __get__dataTransformationType, put = __set__dataTransformationType))::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType _dataTransformationType;
+  __declspec(property(get = __cordl_internal_get__dataTransformationType,
+                      put = __cordl_internal_set__dataTransformationType))::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType _dataTransformationType;
 
   /// @brief Field _markerType, offset 0x1c, size 0x4
-  __declspec(property(get = __get__markerType, put = __set__markerType))::TrackDefinitions::__EventTrackDefinitionSO__MarkerType _markerType;
+  __declspec(property(get = __cordl_internal_get__markerType, put = __cordl_internal_set__markerType))::TrackDefinitions::__EventTrackDefinitionSO__MarkerType _markerType;
 
   /// @brief Field _visible, offset 0x20, size 0x1
-  __declspec(property(get = __get__visible, put = __set__visible)) bool _visible;
+  __declspec(property(get = __cordl_internal_get__visible, put = __cordl_internal_set__visible)) bool _visible;
 
   /// @brief Field _needsFiltering, offset 0x21, size 0x1
-  __declspec(property(get = __get__needsFiltering, put = __set__needsFiltering)) bool _needsFiltering;
+  __declspec(property(get = __cordl_internal_get__needsFiltering, put = __cordl_internal_set__needsFiltering)) bool _needsFiltering;
 
   __declspec(property(get = get_visible)) bool visible;
 
@@ -189,29 +190,29 @@ public:
 
   __declspec(property(get = get_needsFiltering)) bool needsFiltering;
 
-  constexpr ::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType& __get__dataTransformationType();
+  constexpr ::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType& __cordl_internal_get__dataTransformationType();
 
-  constexpr ::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType const& __get__dataTransformationType() const;
+  constexpr ::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType const& __cordl_internal_get__dataTransformationType() const;
 
-  constexpr void __set__dataTransformationType(::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType value);
+  constexpr void __cordl_internal_set__dataTransformationType(::TrackDefinitions::__EventTrackDefinitionSO__DataTransformationType value);
 
-  constexpr ::TrackDefinitions::__EventTrackDefinitionSO__MarkerType& __get__markerType();
+  constexpr ::TrackDefinitions::__EventTrackDefinitionSO__MarkerType& __cordl_internal_get__markerType();
 
-  constexpr ::TrackDefinitions::__EventTrackDefinitionSO__MarkerType const& __get__markerType() const;
+  constexpr ::TrackDefinitions::__EventTrackDefinitionSO__MarkerType const& __cordl_internal_get__markerType() const;
 
-  constexpr void __set__markerType(::TrackDefinitions::__EventTrackDefinitionSO__MarkerType value);
+  constexpr void __cordl_internal_set__markerType(::TrackDefinitions::__EventTrackDefinitionSO__MarkerType value);
 
-  constexpr bool& __get__visible();
+  constexpr bool& __cordl_internal_get__visible();
 
-  constexpr bool const& __get__visible() const;
+  constexpr bool const& __cordl_internal_get__visible() const;
 
-  constexpr void __set__visible(bool value);
+  constexpr void __cordl_internal_set__visible(bool value);
 
-  constexpr bool& __get__needsFiltering();
+  constexpr bool& __cordl_internal_get__needsFiltering();
 
-  constexpr bool const& __get__needsFiltering() const;
+  constexpr bool const& __cordl_internal_get__needsFiltering() const;
 
-  constexpr void __set__needsFiltering(bool value);
+  constexpr void __cordl_internal_set__needsFiltering(bool value);
 
   /// @brief Method get_visible, addr 0x2a0b030, size 0x8, virtual false, abstract: false, final false
   inline bool get_visible();

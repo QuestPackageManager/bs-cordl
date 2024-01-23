@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10182))
 // CS Name: ::UnityEngine::TouchScreenKeyboard_InternalConstructorHelperArguments
 struct CORDL_TYPE TouchScreenKeyboard_InternalConstructorHelperArguments {

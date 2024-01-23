@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::SerpentEngine);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(869))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(869))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(870))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::SerpentEngine*
 class CORDL_TYPE SerpentEngine : public ::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase {

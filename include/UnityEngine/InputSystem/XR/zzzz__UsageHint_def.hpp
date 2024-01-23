@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::UsageHint);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6334))
 // CS Name: ::UnityEngine.InputSystem.XR::UsageHint
 struct CORDL_TYPE UsageHint {

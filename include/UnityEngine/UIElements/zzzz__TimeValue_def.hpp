@@ -27,7 +27,7 @@ MARK_VAL_T(::UnityEngine::UIElements::TimeValue);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7321))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7321))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7322))
 // CS Name: ::UnityEngine.UIElements::TimeValue
 struct CORDL_TYPE TimeValue {

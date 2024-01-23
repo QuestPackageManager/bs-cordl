@@ -23,7 +23,7 @@ MARK_VAL_T(::System::ConsoleScreenBufferInfo);
 // SizeInfo { instance_size: 22, native_size: 22, calculated_instance_size: 22, calculated_native_size: 38, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2646)), TypeDefinitionIndex(TypeDefinitionIndex(2645))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2645)), TypeDefinitionIndex(TypeDefinitionIndex(2646))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2647))
 // CS Name: ::System::ConsoleScreenBufferInfo
 struct CORDL_TYPE ConsoleScreenBufferInfo {

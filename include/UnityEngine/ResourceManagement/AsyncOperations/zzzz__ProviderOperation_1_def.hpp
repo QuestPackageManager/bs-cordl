@@ -77,58 +77,60 @@ namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14036)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 790 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }), TypeDefinitionIndex(TypeDefinitionIndex(14034))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14034)), TypeDefinitionIndex(TypeDefinitionIndex(14036)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 790 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(14040)) CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::ProviderOperation`1<TObject>*
 class CORDL_TYPE ProviderOperation_1 : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject> {
 public:
   // Declarations
   /// @brief Field m_ReleaseDependenciesOnFailure, offset 0x88, size 0x1
-  __declspec(property(get = __get_m_ReleaseDependenciesOnFailure, put = __set_m_ReleaseDependenciesOnFailure)) bool m_ReleaseDependenciesOnFailure;
+  __declspec(property(get = __cordl_internal_get_m_ReleaseDependenciesOnFailure, put = __cordl_internal_set_m_ReleaseDependenciesOnFailure)) bool m_ReleaseDependenciesOnFailure;
 
   /// @brief Field m_CompletionCallback, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_CompletionCallback, put = __set_m_CompletionCallback))::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>* m_CompletionCallback;
+  __declspec(property(get = __cordl_internal_get_m_CompletionCallback,
+                      put = __cordl_internal_set_m_CompletionCallback))::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>* m_CompletionCallback;
 
   /// @brief Field m_GetDepCallback, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_GetDepCallback, put = __set_m_GetDepCallback))::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>* m_GetDepCallback;
+  __declspec(property(get = __cordl_internal_get_m_GetDepCallback,
+                      put = __cordl_internal_set_m_GetDepCallback))::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>* m_GetDepCallback;
 
   /// @brief Field m_GetProgressCallback, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_GetProgressCallback, put = __set_m_GetProgressCallback))::System::Func_1<float_t>* m_GetProgressCallback;
+  __declspec(property(get = __cordl_internal_get_m_GetProgressCallback, put = __cordl_internal_set_m_GetProgressCallback))::System::Func_1<float_t>* m_GetProgressCallback;
 
   /// @brief Field m_GetDownloadProgressCallback, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_GetDownloadProgressCallback,
-                      put = __set_m_GetDownloadProgressCallback))::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* m_GetDownloadProgressCallback;
+  __declspec(property(get = __cordl_internal_get_m_GetDownloadProgressCallback,
+                      put = __cordl_internal_set_m_GetDownloadProgressCallback))::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* m_GetDownloadProgressCallback;
 
   /// @brief Field m_WaitForCompletionCallback, offset 0xb0, size 0x8
-  __declspec(property(get = __get_m_WaitForCompletionCallback, put = __set_m_WaitForCompletionCallback))::System::Func_1<bool>* m_WaitForCompletionCallback;
+  __declspec(property(get = __cordl_internal_get_m_WaitForCompletionCallback, put = __cordl_internal_set_m_WaitForCompletionCallback))::System::Func_1<bool>* m_WaitForCompletionCallback;
 
   /// @brief Field m_DownloadStatus, offset 0xb8, size 0x18
-  __declspec(property(get = __get_m_DownloadStatus, put = __set_m_DownloadStatus))::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus m_DownloadStatus;
+  __declspec(property(get = __cordl_internal_get_m_DownloadStatus, put = __cordl_internal_set_m_DownloadStatus))::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus m_DownloadStatus;
 
   /// @brief Field m_Provider, offset 0xd0, size 0x8
-  __declspec(property(get = __get_m_Provider, put = __set_m_Provider))::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* m_Provider;
+  __declspec(property(get = __cordl_internal_get_m_Provider, put = __cordl_internal_set_m_Provider))::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* m_Provider;
 
   /// @brief Field m_DepOp, offset 0xd8, size 0x20
-  __declspec(property(get = __get_m_DepOp, put = __set_m_DepOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
+  __declspec(property(get = __cordl_internal_get_m_DepOp, put = __cordl_internal_set_m_DepOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> m_DepOp;
 
   /// @brief Field m_Location, offset 0xf8, size 0x8
-  __declspec(property(get = __get_m_Location, put = __set_m_Location))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* m_Location;
+  __declspec(property(get = __cordl_internal_get_m_Location, put = __cordl_internal_set_m_Location))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* m_Location;
 
   /// @brief Field m_ProvideHandleVersion, offset 0x100, size 0x4
-  __declspec(property(get = __get_m_ProvideHandleVersion, put = __set_m_ProvideHandleVersion)) int32_t m_ProvideHandleVersion;
+  __declspec(property(get = __cordl_internal_get_m_ProvideHandleVersion, put = __cordl_internal_set_m_ProvideHandleVersion)) int32_t m_ProvideHandleVersion;
 
   /// @brief Field m_NeedsRelease, offset 0x104, size 0x1
-  __declspec(property(get = __get_m_NeedsRelease, put = __set_m_NeedsRelease)) bool m_NeedsRelease;
+  __declspec(property(get = __cordl_internal_get_m_NeedsRelease, put = __cordl_internal_set_m_NeedsRelease)) bool m_NeedsRelease;
 
   /// @brief Field <UnityEngine.ResourceManagement.AsyncOperations.ICachable.Key>k__BackingField, offset 0x108, size 0x8
-  __declspec(property(get = __get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField,
-                      put = __set__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField))::UnityEngine::ResourceManagement::Util::
+  __declspec(property(get = __cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField,
+                      put = __cordl_internal_set__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField))::UnityEngine::ResourceManagement::Util::
       IOperationCacheKey* _UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField;
 
   /// @brief Field m_ResourceManager, offset 0x110, size 0x8
-  __declspec(property(get = __get_m_ResourceManager, put = __set_m_ResourceManager))::UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager;
+  __declspec(property(get = __cordl_internal_get_m_ResourceManager, put = __cordl_internal_set_m_ResourceManager))::UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager;
 
   __declspec(property(
       get = UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Key,
@@ -158,96 +160,97 @@ public:
   /// @brief Convert to "::UnityEngine::ResourceManagement::AsyncOperations::ICachable"
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::ICachable* i___UnityEngine__ResourceManagement__AsyncOperations__ICachable() noexcept;
 
-  constexpr bool& __get_m_ReleaseDependenciesOnFailure();
+  constexpr bool& __cordl_internal_get_m_ReleaseDependenciesOnFailure();
 
-  constexpr bool const& __get_m_ReleaseDependenciesOnFailure() const;
+  constexpr bool const& __cordl_internal_get_m_ReleaseDependenciesOnFailure() const;
 
-  constexpr void __set_m_ReleaseDependenciesOnFailure(bool value);
+  constexpr void __cordl_internal_set_m_ReleaseDependenciesOnFailure(bool value);
 
-  constexpr ::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>*& __get_m_CompletionCallback();
+  constexpr ::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>*& __cordl_internal_get_m_CompletionCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>*> const& __get_m_CompletionCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>*> const& __cordl_internal_get_m_CompletionCallback() const;
 
-  constexpr void __set_m_CompletionCallback(::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>* value);
+  constexpr void __cordl_internal_set_m_CompletionCallback(::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>* value);
 
-  constexpr ::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>*& __get_m_GetDepCallback();
+  constexpr ::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>*& __cordl_internal_get_m_GetDepCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>*> const& __get_m_GetDepCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>*> const& __cordl_internal_get_m_GetDepCallback() const;
 
-  constexpr void __set_m_GetDepCallback(::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>* value);
+  constexpr void __cordl_internal_set_m_GetDepCallback(::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>* value);
 
-  constexpr ::System::Func_1<float_t>*& __get_m_GetProgressCallback();
+  constexpr ::System::Func_1<float_t>*& __cordl_internal_get_m_GetProgressCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<float_t>*> const& __get_m_GetProgressCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<float_t>*> const& __cordl_internal_get_m_GetProgressCallback() const;
 
-  constexpr void __set_m_GetProgressCallback(::System::Func_1<float_t>* value);
+  constexpr void __cordl_internal_set_m_GetProgressCallback(::System::Func_1<float_t>* value);
 
-  constexpr ::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>*& __get_m_GetDownloadProgressCallback();
+  constexpr ::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>*& __cordl_internal_get_m_GetDownloadProgressCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>*> const& __get_m_GetDownloadProgressCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>*> const&
+  __cordl_internal_get_m_GetDownloadProgressCallback() const;
 
-  constexpr void __set_m_GetDownloadProgressCallback(::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* value);
+  constexpr void __cordl_internal_set_m_GetDownloadProgressCallback(::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* value);
 
-  constexpr ::System::Func_1<bool>*& __get_m_WaitForCompletionCallback();
+  constexpr ::System::Func_1<bool>*& __cordl_internal_get_m_WaitForCompletionCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& __get_m_WaitForCompletionCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& __cordl_internal_get_m_WaitForCompletionCallback() const;
 
-  constexpr void __set_m_WaitForCompletionCallback(::System::Func_1<bool>* value);
+  constexpr void __cordl_internal_set_m_WaitForCompletionCallback(::System::Func_1<bool>* value);
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus& __get_m_DownloadStatus();
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus& __cordl_internal_get_m_DownloadStatus();
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus const& __get_m_DownloadStatus() const;
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus const& __cordl_internal_get_m_DownloadStatus() const;
 
-  constexpr void __set_m_DownloadStatus(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus value);
+  constexpr void __cordl_internal_set_m_DownloadStatus(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*& __get_m_Provider();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*& __cordl_internal_get_m_Provider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*> const& __get_m_Provider() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*> const& __cordl_internal_get_m_Provider() const;
 
-  constexpr void __set_m_Provider(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* value);
+  constexpr void __cordl_internal_set_m_Provider(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* value);
 
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>&
-  __get_m_DepOp();
+  __cordl_internal_get_m_DepOp();
 
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
-  __get_m_DepOp() const;
+  __cordl_internal_get_m_DepOp() const;
 
-  constexpr void __set_m_DepOp(
+  constexpr void __cordl_internal_set_m_DepOp(
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
           value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __get_m_Location();
+  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __cordl_internal_get_m_Location();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __get_m_Location() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __cordl_internal_get_m_Location() const;
 
-  constexpr void __set_m_Location(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
+  constexpr void __cordl_internal_set_m_Location(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  constexpr int32_t& __get_m_ProvideHandleVersion();
+  constexpr int32_t& __cordl_internal_get_m_ProvideHandleVersion();
 
-  constexpr int32_t const& __get_m_ProvideHandleVersion() const;
+  constexpr int32_t const& __cordl_internal_get_m_ProvideHandleVersion() const;
 
-  constexpr void __set_m_ProvideHandleVersion(int32_t value);
+  constexpr void __cordl_internal_set_m_ProvideHandleVersion(int32_t value);
 
-  constexpr bool& __get_m_NeedsRelease();
+  constexpr bool& __cordl_internal_get_m_NeedsRelease();
 
-  constexpr bool const& __get_m_NeedsRelease() const;
+  constexpr bool const& __cordl_internal_get_m_NeedsRelease() const;
 
-  constexpr void __set_m_NeedsRelease(bool value);
+  constexpr void __cordl_internal_set_m_NeedsRelease(bool value);
 
-  constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*& __get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField();
+  constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*& __cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*> const&
-  __get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField() const;
+  __cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField() const;
 
-  constexpr void __set__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* value);
+  constexpr void __cordl_internal_set__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceManager*& __get_m_ResourceManager();
+  constexpr ::UnityEngine::ResourceManagement::ResourceManager*& __cordl_internal_get_m_ResourceManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceManager*> const& __get_m_ResourceManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceManager*> const& __cordl_internal_get_m_ResourceManager() const;
 
-  constexpr void __set_m_ResourceManager(::UnityEngine::ResourceManagement::ResourceManager* value);
+  constexpr void __cordl_internal_set_m_ResourceManager(::UnityEngine::ResourceManagement::ResourceManager* value);
 
   /// @brief Method UnityEngine.ResourceManagement.AsyncOperations.ICachable.get_Key, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Key();

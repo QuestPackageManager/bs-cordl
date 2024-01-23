@@ -39,47 +39,47 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberTrailRenderer);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10164))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4877))
 // CS Name: ::SaberTrailRenderer*
 class CORDL_TYPE SaberTrailRenderer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _meshRenderer, offset 0x18, size 0x8
-  __declspec(property(get = __get__meshRenderer, put = __set__meshRenderer))::UnityEngine::MeshRenderer* _meshRenderer;
+  __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer))::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
 
   /// @brief Field _meshFilter, offset 0x20, size 0x8
-  __declspec(property(get = __get__meshFilter, put = __set__meshFilter))::UnityEngine::MeshFilter* _meshFilter;
+  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter))::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
   /// @brief Field _mesh, offset 0x28, size 0x8
-  __declspec(property(get = __get__mesh, put = __set__mesh))::UnityEngine::Mesh* _mesh;
+  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh))::UnityW<::UnityEngine::Mesh> _mesh;
 
   /// @brief Field _vertices, offset 0x30, size 0x8
-  __declspec(property(get = __get__vertices, put = __set__vertices))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _vertices;
+  __declspec(property(get = __cordl_internal_get__vertices, put = __cordl_internal_set__vertices))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _vertices;
 
   /// @brief Field _indices, offset 0x38, size 0x8
-  __declspec(property(get = __get__indices, put = __set__indices))::ArrayW<int32_t, ::Array<int32_t>*> _indices;
+  __declspec(property(get = __cordl_internal_get__indices, put = __cordl_internal_set__indices))::ArrayW<int32_t, ::Array<int32_t>*> _indices;
 
   /// @brief Field _uvs, offset 0x40, size 0x8
-  __declspec(property(get = __get__uvs, put = __set__uvs))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> _uvs;
+  __declspec(property(get = __cordl_internal_get__uvs, put = __cordl_internal_set__uvs))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> _uvs;
 
   /// @brief Field _colors, offset 0x48, size 0x8
-  __declspec(property(get = __get__colors, put = __set__colors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _colors;
+  __declspec(property(get = __cordl_internal_get__colors, put = __cordl_internal_set__colors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _colors;
 
   /// @brief Field _trailWidth, offset 0x50, size 0x4
-  __declspec(property(get = __get__trailWidth, put = __set__trailWidth)) float_t _trailWidth;
+  __declspec(property(get = __cordl_internal_get__trailWidth, put = __cordl_internal_set__trailWidth)) float_t _trailWidth;
 
   /// @brief Field _trailDuration, offset 0x54, size 0x4
-  __declspec(property(get = __get__trailDuration, put = __set__trailDuration)) float_t _trailDuration;
+  __declspec(property(get = __cordl_internal_get__trailDuration, put = __cordl_internal_set__trailDuration)) float_t _trailDuration;
 
   /// @brief Field _segmentDuration, offset 0x58, size 0x4
-  __declspec(property(get = __get__segmentDuration, put = __set__segmentDuration)) float_t _segmentDuration;
+  __declspec(property(get = __cordl_internal_get__segmentDuration, put = __cordl_internal_set__segmentDuration)) float_t _segmentDuration;
 
   /// @brief Field _granularity, offset 0x5c, size 0x4
-  __declspec(property(get = __get__granularity, put = __set__granularity)) int32_t _granularity;
+  __declspec(property(get = __cordl_internal_get__granularity, put = __cordl_internal_set__granularity)) int32_t _granularity;
 
   /// @brief Field _whiteSectionMaxDuration, offset 0x60, size 0x4
-  __declspec(property(get = __get__whiteSectionMaxDuration, put = __set__whiteSectionMaxDuration)) float_t _whiteSectionMaxDuration;
+  __declspec(property(get = __cordl_internal_get__whiteSectionMaxDuration, put = __cordl_internal_set__whiteSectionMaxDuration)) float_t _whiteSectionMaxDuration;
 
   /// @brief Field _bounds, offset 0xffffffff, size 0x18
   static __declspec(property(get = getStaticF__bounds, put = setStaticF__bounds))::UnityEngine::Bounds _bounds;
@@ -87,77 +87,77 @@ public:
   /// @brief Field _saberTravelledDistanceId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__saberTravelledDistanceId, put = setStaticF__saberTravelledDistanceId)) int32_t _saberTravelledDistanceId;
 
-  constexpr ::UnityEngine::MeshRenderer*& __get__meshRenderer();
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__meshRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshRenderer*> const& __get__meshRenderer() const;
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__meshRenderer() const;
 
-  constexpr void __set__meshRenderer(::UnityEngine::MeshRenderer* value);
+  constexpr void __cordl_internal_set__meshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  constexpr ::UnityEngine::MeshFilter*& __get__meshFilter();
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__meshFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& __get__meshFilter() const;
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__meshFilter() const;
 
-  constexpr void __set__meshFilter(::UnityEngine::MeshFilter* value);
+  constexpr void __cordl_internal_set__meshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  constexpr ::UnityEngine::Mesh*& __get__mesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get__mesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
 
-  constexpr void __set__mesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get__vertices();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__vertices();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get__vertices() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__vertices() const;
 
-  constexpr void __set__vertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set__vertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__indices();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__indices();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__indices() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__indices() const;
 
-  constexpr void __set__indices(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__indices(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __get__uvs();
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __cordl_internal_get__uvs();
 
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __get__uvs() const;
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __cordl_internal_get__uvs() const;
 
-  constexpr void __set__uvs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
+  constexpr void __cordl_internal_set__uvs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __get__colors();
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __cordl_internal_get__colors();
 
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __get__colors() const;
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __cordl_internal_get__colors() const;
 
-  constexpr void __set__colors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
+  constexpr void __cordl_internal_set__colors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
 
-  constexpr float_t& __get__trailWidth();
+  constexpr float_t& __cordl_internal_get__trailWidth();
 
-  constexpr float_t const& __get__trailWidth() const;
+  constexpr float_t const& __cordl_internal_get__trailWidth() const;
 
-  constexpr void __set__trailWidth(float_t value);
+  constexpr void __cordl_internal_set__trailWidth(float_t value);
 
-  constexpr float_t& __get__trailDuration();
+  constexpr float_t& __cordl_internal_get__trailDuration();
 
-  constexpr float_t const& __get__trailDuration() const;
+  constexpr float_t const& __cordl_internal_get__trailDuration() const;
 
-  constexpr void __set__trailDuration(float_t value);
+  constexpr void __cordl_internal_set__trailDuration(float_t value);
 
-  constexpr float_t& __get__segmentDuration();
+  constexpr float_t& __cordl_internal_get__segmentDuration();
 
-  constexpr float_t const& __get__segmentDuration() const;
+  constexpr float_t const& __cordl_internal_get__segmentDuration() const;
 
-  constexpr void __set__segmentDuration(float_t value);
+  constexpr void __cordl_internal_set__segmentDuration(float_t value);
 
-  constexpr int32_t& __get__granularity();
+  constexpr int32_t& __cordl_internal_get__granularity();
 
-  constexpr int32_t const& __get__granularity() const;
+  constexpr int32_t const& __cordl_internal_get__granularity() const;
 
-  constexpr void __set__granularity(int32_t value);
+  constexpr void __cordl_internal_set__granularity(int32_t value);
 
-  constexpr float_t& __get__whiteSectionMaxDuration();
+  constexpr float_t& __cordl_internal_get__whiteSectionMaxDuration();
 
-  constexpr float_t const& __get__whiteSectionMaxDuration() const;
+  constexpr float_t const& __cordl_internal_get__whiteSectionMaxDuration() const;
 
-  constexpr void __set__whiteSectionMaxDuration(float_t value);
+  constexpr void __cordl_internal_set__whiteSectionMaxDuration(float_t value);
 
   static inline void setStaticF__bounds(::UnityEngine::Bounds value);
 
@@ -214,13 +214,13 @@ protected:
 
 public:
   /// @brief Field _meshRenderer, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::MeshRenderer* ____meshRenderer;
+  ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
 
   /// @brief Field _meshFilter, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* ____meshFilter;
+  ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 
   /// @brief Field _mesh, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ____mesh;
+  ::UnityW<::UnityEngine::Mesh> ____mesh;
 
   /// @brief Field _vertices, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ____vertices;

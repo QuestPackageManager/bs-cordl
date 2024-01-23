@@ -19,7 +19,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Utilities::PredictiveParser);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6698))
 // CS Name: ::UnityEngine.InputSystem.Utilities::PredictiveParser
 struct CORDL_TYPE PredictiveParser {

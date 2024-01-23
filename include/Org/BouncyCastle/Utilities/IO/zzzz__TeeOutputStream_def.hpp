@@ -19,29 +19,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::TeeOutputStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(484))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1815))
 // CS Name: ::Org.BouncyCastle.Utilities.IO::TeeOutputStream*
 class CORDL_TYPE TeeOutputStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
   // Declarations
   /// @brief Field output, offset 0x30, size 0x8
-  __declspec(property(get = __get_output, put = __set_output))::System::IO::Stream* output;
+  __declspec(property(get = __cordl_internal_get_output, put = __cordl_internal_set_output))::System::IO::Stream* output;
 
   /// @brief Field tee, offset 0x38, size 0x8
-  __declspec(property(get = __get_tee, put = __set_tee))::System::IO::Stream* tee;
+  __declspec(property(get = __cordl_internal_get_tee, put = __cordl_internal_set_tee))::System::IO::Stream* tee;
 
-  constexpr ::System::IO::Stream*& __get_output();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_output();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_output() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_output() const;
 
-  constexpr void __set_output(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_output(::System::IO::Stream* value);
 
-  constexpr ::System::IO::Stream*& __get_tee();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_tee();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_tee() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_tee() const;
 
-  constexpr void __set_tee(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_tee(::System::IO::Stream* value);
 
   static inline ::Org::BouncyCastle::Utilities::IO::TeeOutputStream* New_ctor(::System::IO::Stream* output, ::System::IO::Stream* tee);
 

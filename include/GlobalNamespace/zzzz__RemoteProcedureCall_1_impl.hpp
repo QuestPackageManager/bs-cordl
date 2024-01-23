@@ -5,22 +5,22 @@
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-template <typename T0> constexpr ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>*& GlobalNamespace::RemoteProcedureCall_1<T0>::__get__value0() {
+template <typename T0> constexpr ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>*& GlobalNamespace::RemoteProcedureCall_1<T0>::__cordl_internal_get__value0() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value0;
 }
 template <typename T0>
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>*> const& GlobalNamespace::RemoteProcedureCall_1<T0>::__get__value0() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>*> const& GlobalNamespace::RemoteProcedureCall_1<T0>::__cordl_internal_get__value0() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value0;
 }
-template <typename T0> constexpr void GlobalNamespace::RemoteProcedureCall_1<T0>::__set__value0(::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>* value) {
+template <typename T0> constexpr void GlobalNamespace::RemoteProcedureCall_1<T0>::__cordl_internal_set__value0(::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value0)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 template <typename T0> inline T0 GlobalNamespace::RemoteProcedureCall_1<T0>::get_value0() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteProcedureCall_1<T0>*>::get(), "get_value0",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<T0, false>(this, ___internal_method);
 }
 template <typename T0> inline void GlobalNamespace::RemoteProcedureCall_1<T0>::SerializeData(::LiteNetLib::Utils::NetDataWriter* writer, uint32_t protocolVersion) {
@@ -35,8 +35,8 @@ template <typename T0> inline void GlobalNamespace::RemoteProcedureCall_1<T0>::D
 }
 template <typename T0> inline ::GlobalNamespace::IRemoteProcedureCall* GlobalNamespace::RemoteProcedureCall_1<T0>::Init(int64_t syncTime, T0 value0) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteProcedureCall_1<T0>*>::get(), "Init", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T0>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteProcedureCall_1<T0>*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T0>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IRemoteProcedureCall*, false>(this, ___internal_method, syncTime, value0);
 }
 template <typename T0> inline void GlobalNamespace::RemoteProcedureCall_1<T0>::Release() {
@@ -45,11 +45,11 @@ template <typename T0> inline void GlobalNamespace::RemoteProcedureCall_1<T0>::R
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T0> inline ::GlobalNamespace::RemoteProcedureCall_1<T0>* GlobalNamespace::RemoteProcedureCall_1<T0>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::RemoteProcedureCall_1<T0>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RemoteProcedureCall_1<T0>*>());
 }
 template <typename T0> inline void GlobalNamespace::RemoteProcedureCall_1<T0>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RemoteProcedureCall_1<T0>*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

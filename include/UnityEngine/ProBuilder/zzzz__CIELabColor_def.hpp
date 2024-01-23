@@ -22,38 +22,38 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::CIELabColor);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12115))
 // CS Name: ::UnityEngine.ProBuilder::CIELabColor*
 class CORDL_TYPE CIELabColor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field L, offset 0x10, size 0x4
-  __declspec(property(get = __get_L, put = __set_L)) float_t L;
+  __declspec(property(get = __cordl_internal_get_L, put = __cordl_internal_set_L)) float_t L;
 
   /// @brief Field a, offset 0x14, size 0x4
-  __declspec(property(get = __get_a, put = __set_a)) float_t a;
+  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a)) float_t a;
 
   /// @brief Field b, offset 0x18, size 0x4
-  __declspec(property(get = __get_b, put = __set_b)) float_t b;
+  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) float_t b;
 
-  constexpr float_t& __get_L();
+  constexpr float_t& __cordl_internal_get_L();
 
-  constexpr float_t const& __get_L() const;
+  constexpr float_t const& __cordl_internal_get_L() const;
 
-  constexpr void __set_L(float_t value);
+  constexpr void __cordl_internal_set_L(float_t value);
 
-  constexpr float_t& __get_a();
+  constexpr float_t& __cordl_internal_get_a();
 
-  constexpr float_t const& __get_a() const;
+  constexpr float_t const& __cordl_internal_get_a() const;
 
-  constexpr void __set_a(float_t value);
+  constexpr void __cordl_internal_set_a(float_t value);
 
-  constexpr float_t& __get_b();
+  constexpr float_t& __cordl_internal_get_b();
 
-  constexpr float_t const& __get_b() const;
+  constexpr float_t const& __cordl_internal_get_b() const;
 
-  constexpr void __set_b(float_t value);
+  constexpr void __cordl_internal_set_b(float_t value);
 
   static inline ::UnityEngine::ProBuilder::CIELabColor* New_ctor(float_t L, float_t a, float_t b);
 

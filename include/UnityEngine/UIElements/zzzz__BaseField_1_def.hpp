@@ -61,20 +61,20 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6800))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6800))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7129))
 // CS Name: ::BaseField`1::UxmlTraits<TValueType>*
 class CORDL_TYPE __BaseField_1__UxmlTraits : public ::UnityEngine::UIElements::__BindableElement__UxmlTraits {
 public:
   // Declarations
   /// @brief Field m_Label, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_Label, put = __set_m_Label))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Label;
+  __declspec(property(get = __cordl_internal_get_m_Label, put = __cordl_internal_set_m_Label))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Label;
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_Label();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Label();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_Label() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Label() const;
 
-  constexpr void __set_m_Label(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Label(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
   static inline ::UnityEngine::UIElements::__BaseField_1__UxmlTraits<TValueType>* New_ctor();
 
@@ -114,8 +114,8 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6801)), TypeDefinitionIndex(TypeDefinitionIndex(7306)), TypeDefinitionIndex(TypeDefinitionIndex(10159)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 391 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7130)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6801)), TypeDefinitionIndex(TypeDefinitionIndex(7306)), TypeDefinitionIndex(TypeDefinitionIndex(10159)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 391 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7130)) CS Name:
 // ::UnityEngine.UIElements::BaseField`1<TValueType>*
 class CORDL_TYPE BaseField_1 : public ::UnityEngine::UIElements::BindableElement {
 public:
@@ -123,34 +123,35 @@ public:
   using UxmlTraits = ::UnityEngine::UIElements::__BaseField_1__UxmlTraits<TValueType>;
 
   /// @brief Field m_LabelWidthRatio, offset 0x3c0, size 0x4
-  __declspec(property(get = __get_m_LabelWidthRatio, put = __set_m_LabelWidthRatio)) float_t m_LabelWidthRatio;
+  __declspec(property(get = __cordl_internal_get_m_LabelWidthRatio, put = __cordl_internal_set_m_LabelWidthRatio)) float_t m_LabelWidthRatio;
 
   /// @brief Field m_LabelExtraPadding, offset 0x3c4, size 0x4
-  __declspec(property(get = __get_m_LabelExtraPadding, put = __set_m_LabelExtraPadding)) float_t m_LabelExtraPadding;
+  __declspec(property(get = __cordl_internal_get_m_LabelExtraPadding, put = __cordl_internal_set_m_LabelExtraPadding)) float_t m_LabelExtraPadding;
 
   /// @brief Field m_LabelBaseMinWidth, offset 0x3c8, size 0x4
-  __declspec(property(get = __get_m_LabelBaseMinWidth, put = __set_m_LabelBaseMinWidth)) float_t m_LabelBaseMinWidth;
+  __declspec(property(get = __cordl_internal_get_m_LabelBaseMinWidth, put = __cordl_internal_set_m_LabelBaseMinWidth)) float_t m_LabelBaseMinWidth;
 
   /// @brief Field m_VisualInput, offset 0x3d0, size 0x8
-  __declspec(property(get = __get_m_VisualInput, put = __set_m_VisualInput))::UnityEngine::UIElements::VisualElement* m_VisualInput;
+  __declspec(property(get = __cordl_internal_get_m_VisualInput, put = __cordl_internal_set_m_VisualInput))::UnityEngine::UIElements::VisualElement* m_VisualInput;
 
   /// @brief Field m_Value, offset 0x3d8, size 0x8
-  __declspec(property(get = __get_m_Value, put = __set_m_Value)) TValueType m_Value;
+  __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) TValueType m_Value;
 
   /// @brief Field <labelElement>k__BackingField, offset 0x3e0, size 0x8
-  __declspec(property(get = __get__labelElement_k__BackingField, put = __set__labelElement_k__BackingField))::UnityEngine::UIElements::Label* _labelElement_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__labelElement_k__BackingField,
+                      put = __cordl_internal_set__labelElement_k__BackingField))::UnityEngine::UIElements::Label* _labelElement_k__BackingField;
 
   /// @brief Field m_ShowMixedValue, offset 0x3e8, size 0x1
-  __declspec(property(get = __get_m_ShowMixedValue, put = __set_m_ShowMixedValue)) bool m_ShowMixedValue;
+  __declspec(property(get = __cordl_internal_get_m_ShowMixedValue, put = __cordl_internal_set_m_ShowMixedValue)) bool m_ShowMixedValue;
 
   /// @brief Field m_MixedValueLabel, offset 0x3f0, size 0x8
-  __declspec(property(get = __get_m_MixedValueLabel, put = __set_m_MixedValueLabel))::UnityEngine::UIElements::Label* m_MixedValueLabel;
+  __declspec(property(get = __cordl_internal_get_m_MixedValueLabel, put = __cordl_internal_set_m_MixedValueLabel))::UnityEngine::UIElements::Label* m_MixedValueLabel;
 
   /// @brief Field m_CachedInspectorElement, offset 0x3f8, size 0x8
-  __declspec(property(get = __get_m_CachedInspectorElement, put = __set_m_CachedInspectorElement))::UnityEngine::UIElements::VisualElement* m_CachedInspectorElement;
+  __declspec(property(get = __cordl_internal_get_m_CachedInspectorElement, put = __cordl_internal_set_m_CachedInspectorElement))::UnityEngine::UIElements::VisualElement* m_CachedInspectorElement;
 
   /// @brief Field m_CachedListAndFoldoutDepth, offset 0x400, size 0x4
-  __declspec(property(get = __get_m_CachedListAndFoldoutDepth, put = __set_m_CachedListAndFoldoutDepth)) int32_t m_CachedListAndFoldoutDepth;
+  __declspec(property(get = __cordl_internal_get_m_CachedListAndFoldoutDepth, put = __cordl_internal_set_m_CachedListAndFoldoutDepth)) int32_t m_CachedListAndFoldoutDepth;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
@@ -214,65 +215,65 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<TValueType>"
   constexpr ::UnityEngine::UIElements::INotifyValueChanged_1<TValueType>* i___UnityEngine__UIElements__INotifyValueChanged_1_TValueType_() noexcept;
 
-  constexpr float_t& __get_m_LabelWidthRatio();
+  constexpr float_t& __cordl_internal_get_m_LabelWidthRatio();
 
-  constexpr float_t const& __get_m_LabelWidthRatio() const;
+  constexpr float_t const& __cordl_internal_get_m_LabelWidthRatio() const;
 
-  constexpr void __set_m_LabelWidthRatio(float_t value);
+  constexpr void __cordl_internal_set_m_LabelWidthRatio(float_t value);
 
-  constexpr float_t& __get_m_LabelExtraPadding();
+  constexpr float_t& __cordl_internal_get_m_LabelExtraPadding();
 
-  constexpr float_t const& __get_m_LabelExtraPadding() const;
+  constexpr float_t const& __cordl_internal_get_m_LabelExtraPadding() const;
 
-  constexpr void __set_m_LabelExtraPadding(float_t value);
+  constexpr void __cordl_internal_set_m_LabelExtraPadding(float_t value);
 
-  constexpr float_t& __get_m_LabelBaseMinWidth();
+  constexpr float_t& __cordl_internal_get_m_LabelBaseMinWidth();
 
-  constexpr float_t const& __get_m_LabelBaseMinWidth() const;
+  constexpr float_t const& __cordl_internal_get_m_LabelBaseMinWidth() const;
 
-  constexpr void __set_m_LabelBaseMinWidth(float_t value);
+  constexpr void __cordl_internal_set_m_LabelBaseMinWidth(float_t value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_VisualInput();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_VisualInput();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_VisualInput() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_VisualInput() const;
 
-  constexpr void __set_m_VisualInput(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_VisualInput(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr TValueType& __get_m_Value();
+  constexpr TValueType& __cordl_internal_get_m_Value();
 
-  constexpr TValueType const& __get_m_Value() const;
+  constexpr TValueType const& __cordl_internal_get_m_Value() const;
 
-  constexpr void __set_m_Value(TValueType value);
+  constexpr void __cordl_internal_set_m_Value(TValueType value);
 
-  constexpr ::UnityEngine::UIElements::Label*& __get__labelElement_k__BackingField();
+  constexpr ::UnityEngine::UIElements::Label*& __cordl_internal_get__labelElement_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*> const& __get__labelElement_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*> const& __cordl_internal_get__labelElement_k__BackingField() const;
 
-  constexpr void __set__labelElement_k__BackingField(::UnityEngine::UIElements::Label* value);
+  constexpr void __cordl_internal_set__labelElement_k__BackingField(::UnityEngine::UIElements::Label* value);
 
-  constexpr bool& __get_m_ShowMixedValue();
+  constexpr bool& __cordl_internal_get_m_ShowMixedValue();
 
-  constexpr bool const& __get_m_ShowMixedValue() const;
+  constexpr bool const& __cordl_internal_get_m_ShowMixedValue() const;
 
-  constexpr void __set_m_ShowMixedValue(bool value);
+  constexpr void __cordl_internal_set_m_ShowMixedValue(bool value);
 
-  constexpr ::UnityEngine::UIElements::Label*& __get_m_MixedValueLabel();
+  constexpr ::UnityEngine::UIElements::Label*& __cordl_internal_get_m_MixedValueLabel();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*> const& __get_m_MixedValueLabel() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*> const& __cordl_internal_get_m_MixedValueLabel() const;
 
-  constexpr void __set_m_MixedValueLabel(::UnityEngine::UIElements::Label* value);
+  constexpr void __cordl_internal_set_m_MixedValueLabel(::UnityEngine::UIElements::Label* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_CachedInspectorElement();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_CachedInspectorElement();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_CachedInspectorElement() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_CachedInspectorElement() const;
 
-  constexpr void __set_m_CachedInspectorElement(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_CachedInspectorElement(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr int32_t& __get_m_CachedListAndFoldoutDepth();
+  constexpr int32_t& __cordl_internal_get_m_CachedListAndFoldoutDepth();
 
-  constexpr int32_t const& __get_m_CachedListAndFoldoutDepth() const;
+  constexpr int32_t const& __cordl_internal_get_m_CachedListAndFoldoutDepth() const;
 
-  constexpr void __set_m_CachedListAndFoldoutDepth(int32_t value);
+  constexpr void __cordl_internal_set_m_CachedListAndFoldoutDepth(int32_t value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 

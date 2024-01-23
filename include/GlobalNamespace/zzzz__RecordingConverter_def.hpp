@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingConverter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5942))
 // CS Name: ::RecordingConverter*
 class CORDL_TYPE RecordingConverter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _logger, offset 0x10, size 0x8
-  __declspec(property(get = __get__logger, put = __set__logger))::GlobalNamespace::IBeatSaberLogger* _logger;
+  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger))::GlobalNamespace::IBeatSaberLogger* _logger;
 
-  constexpr ::GlobalNamespace::IBeatSaberLogger*& __get__logger();
+  constexpr ::GlobalNamespace::IBeatSaberLogger*& __cordl_internal_get__logger();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __get__logger() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __cordl_internal_get__logger() const;
 
-  constexpr void __set__logger(::GlobalNamespace::IBeatSaberLogger* value);
+  constexpr void __cordl_internal_set__logger(::GlobalNamespace::IBeatSaberLogger* value);
 
   static inline ::GlobalNamespace::RecordingConverter* New_ctor(::GlobalNamespace::IBeatSaberLogger* logger);
 

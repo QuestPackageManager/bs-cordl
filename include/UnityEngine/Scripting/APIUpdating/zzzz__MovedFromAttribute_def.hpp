@@ -16,20 +16,20 @@ MARK_REF_PTR_T(::UnityEngine::Scripting::APIUpdating::MovedFromAttribute);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Scripting::APIUpdating {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10320)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(10320))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10321))
 // CS Name: ::UnityEngine.Scripting.APIUpdating::MovedFromAttribute*
 class CORDL_TYPE MovedFromAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field data, offset 0x10, size 0x20
-  __declspec(property(get = __get_data, put = __set_data))::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData data;
 
-  constexpr ::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData& __get_data();
+  constexpr ::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData& __cordl_internal_get_data();
 
-  constexpr ::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData const& __get_data() const;
+  constexpr ::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData value);
+  constexpr void __cordl_internal_set_data(::UnityEngine::Scripting::APIUpdating::MovedFromAttributeData value);
 
   static inline ::UnityEngine::Scripting::APIUpdating::MovedFromAttribute* New_ctor(bool autoUpdateAPI, ::StringW sourceNamespace, ::StringW sourceAssembly, ::StringW sourceClassName);
 

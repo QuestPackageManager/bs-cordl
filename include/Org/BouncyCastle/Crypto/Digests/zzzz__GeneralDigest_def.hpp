@@ -23,20 +23,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::GeneralDigest);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(750))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::GeneralDigest*
 class CORDL_TYPE GeneralDigest : public ::System::Object {
 public:
   // Declarations
   /// @brief Field xBuf, offset 0x10, size 0x8
-  __declspec(property(get = __get_xBuf, put = __set_xBuf))::ArrayW<uint8_t, ::Array<uint8_t>*> xBuf;
+  __declspec(property(get = __cordl_internal_get_xBuf, put = __cordl_internal_set_xBuf))::ArrayW<uint8_t, ::Array<uint8_t>*> xBuf;
 
   /// @brief Field xBufOff, offset 0x18, size 0x4
-  __declspec(property(get = __get_xBufOff, put = __set_xBufOff)) int32_t xBufOff;
+  __declspec(property(get = __cordl_internal_get_xBufOff, put = __cordl_internal_set_xBufOff)) int32_t xBufOff;
 
   /// @brief Field byteCount, offset 0x20, size 0x8
-  __declspec(property(get = __get_byteCount, put = __set_byteCount)) int64_t byteCount;
+  __declspec(property(get = __cordl_internal_get_byteCount, put = __cordl_internal_set_byteCount)) int64_t byteCount;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -52,23 +52,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr ::Org::BouncyCastle::Utilities::IMemoable* i___Org__BouncyCastle__Utilities__IMemoable() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_xBuf();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_xBuf();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_xBuf() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_xBuf() const;
 
-  constexpr void __set_xBuf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_xBuf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_xBufOff();
+  constexpr int32_t& __cordl_internal_get_xBufOff();
 
-  constexpr int32_t const& __get_xBufOff() const;
+  constexpr int32_t const& __cordl_internal_get_xBufOff() const;
 
-  constexpr void __set_xBufOff(int32_t value);
+  constexpr void __cordl_internal_set_xBufOff(int32_t value);
 
-  constexpr int64_t& __get_byteCount();
+  constexpr int64_t& __cordl_internal_get_byteCount();
 
-  constexpr int64_t const& __get_byteCount() const;
+  constexpr int64_t const& __cordl_internal_get_byteCount() const;
 
-  constexpr void __set_byteCount(int64_t value);
+  constexpr void __cordl_internal_set_byteCount(int64_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Digests::GeneralDigest* New_ctor();
 

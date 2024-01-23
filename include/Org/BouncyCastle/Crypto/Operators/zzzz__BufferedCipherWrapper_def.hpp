@@ -27,17 +27,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(982))
 // CS Name: ::Org.BouncyCastle.Crypto.Operators::BufferedCipherWrapper*
 class CORDL_TYPE BufferedCipherWrapper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field bufferedCipher, offset 0x10, size 0x8
-  __declspec(property(get = __get_bufferedCipher, put = __set_bufferedCipher))::Org::BouncyCastle::Crypto::IBufferedCipher* bufferedCipher;
+  __declspec(property(get = __cordl_internal_get_bufferedCipher, put = __cordl_internal_set_bufferedCipher))::Org::BouncyCastle::Crypto::IBufferedCipher* bufferedCipher;
 
   /// @brief Field stream, offset 0x18, size 0x8
-  __declspec(property(get = __get_stream, put = __set_stream))::Org::BouncyCastle::Crypto::IO::CipherStream* stream;
+  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::Org::BouncyCastle::Crypto::IO::CipherStream* stream;
 
   __declspec(property(get = get_Stream))::System::IO::Stream* Stream;
 
@@ -47,17 +47,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipher"
   constexpr ::Org::BouncyCastle::Crypto::ICipher* i___Org__BouncyCastle__Crypto__ICipher() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __get_bufferedCipher();
+  constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __cordl_internal_get_bufferedCipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBufferedCipher*> const& __get_bufferedCipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBufferedCipher*> const& __cordl_internal_get_bufferedCipher() const;
 
-  constexpr void __set_bufferedCipher(::Org::BouncyCastle::Crypto::IBufferedCipher* value);
+  constexpr void __cordl_internal_set_bufferedCipher(::Org::BouncyCastle::Crypto::IBufferedCipher* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IO::CipherStream*& __get_stream();
+  constexpr ::Org::BouncyCastle::Crypto::IO::CipherStream*& __cordl_internal_get_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IO::CipherStream*> const& __get_stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IO::CipherStream*> const& __cordl_internal_get_stream() const;
 
-  constexpr void __set_stream(::Org::BouncyCastle::Crypto::IO::CipherStream* value);
+  constexpr void __cordl_internal_set_stream(::Org::BouncyCastle::Crypto::IO::CipherStream* value);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper* New_ctor(::Org::BouncyCastle::Crypto::IBufferedCipher* bufferedCipher, ::System::IO::Stream* source);
 

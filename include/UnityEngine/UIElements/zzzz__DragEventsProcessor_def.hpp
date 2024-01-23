@@ -61,7 +61,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DragEventsProcessor);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6968))
 // CS Name: ::DragEventsProcessor::DragState
 struct CORDL_TYPE __DragEventsProcessor__DragState {
@@ -115,7 +115,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__DragEventsProcessor__DragSta
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(6968)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6968)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6969))
 // CS Name: ::UnityEngine.UIElements::DragEventsProcessor*
 class CORDL_TYPE DragEventsProcessor : public ::System::Object {
@@ -124,19 +124,19 @@ public:
   using DragState = ::UnityEngine::UIElements::__DragEventsProcessor__DragState;
 
   /// @brief Field m_IsRegistered, offset 0x10, size 0x1
-  __declspec(property(get = __get_m_IsRegistered, put = __set_m_IsRegistered)) bool m_IsRegistered;
+  __declspec(property(get = __cordl_internal_get_m_IsRegistered, put = __cordl_internal_set_m_IsRegistered)) bool m_IsRegistered;
 
   /// @brief Field m_DragState, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_DragState, put = __set_m_DragState))::UnityEngine::UIElements::__DragEventsProcessor__DragState m_DragState;
+  __declspec(property(get = __cordl_internal_get_m_DragState, put = __cordl_internal_set_m_DragState))::UnityEngine::UIElements::__DragEventsProcessor__DragState m_DragState;
 
   /// @brief Field m_Start, offset 0x18, size 0xc
-  __declspec(property(get = __get_m_Start, put = __set_m_Start))::UnityEngine::Vector3 m_Start;
+  __declspec(property(get = __cordl_internal_get_m_Start, put = __cordl_internal_set_m_Start))::UnityEngine::Vector3 m_Start;
 
   /// @brief Field m_Target, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Target, put = __set_m_Target))::UnityEngine::UIElements::VisualElement* m_Target;
+  __declspec(property(get = __cordl_internal_get_m_Target, put = __cordl_internal_set_m_Target))::UnityEngine::UIElements::VisualElement* m_Target;
 
   /// @brief Field dragAndDropClient, offset 0x30, size 0x8
-  __declspec(property(get = __get_dragAndDropClient, put = __set_dragAndDropClient))::UnityEngine::UIElements::DefaultDragAndDropClient* dragAndDropClient;
+  __declspec(property(get = __cordl_internal_get_dragAndDropClient, put = __cordl_internal_set_dragAndDropClient))::UnityEngine::UIElements::DefaultDragAndDropClient* dragAndDropClient;
 
   __declspec(property(get = get_supportsDragEvents)) bool supportsDragEvents;
 
@@ -144,35 +144,35 @@ public:
 
   __declspec(property(get = get_isEditorContext)) bool isEditorContext;
 
-  constexpr bool& __get_m_IsRegistered();
+  constexpr bool& __cordl_internal_get_m_IsRegistered();
 
-  constexpr bool const& __get_m_IsRegistered() const;
+  constexpr bool const& __cordl_internal_get_m_IsRegistered() const;
 
-  constexpr void __set_m_IsRegistered(bool value);
+  constexpr void __cordl_internal_set_m_IsRegistered(bool value);
 
-  constexpr ::UnityEngine::UIElements::__DragEventsProcessor__DragState& __get_m_DragState();
+  constexpr ::UnityEngine::UIElements::__DragEventsProcessor__DragState& __cordl_internal_get_m_DragState();
 
-  constexpr ::UnityEngine::UIElements::__DragEventsProcessor__DragState const& __get_m_DragState() const;
+  constexpr ::UnityEngine::UIElements::__DragEventsProcessor__DragState const& __cordl_internal_get_m_DragState() const;
 
-  constexpr void __set_m_DragState(::UnityEngine::UIElements::__DragEventsProcessor__DragState value);
+  constexpr void __cordl_internal_set_m_DragState(::UnityEngine::UIElements::__DragEventsProcessor__DragState value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_Start();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_Start();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_Start() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_Start() const;
 
-  constexpr void __set_m_Start(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_Start(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_Target();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Target();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_Target() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Target() const;
 
-  constexpr void __set_m_Target(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_Target(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::DefaultDragAndDropClient*& __get_dragAndDropClient();
+  constexpr ::UnityEngine::UIElements::DefaultDragAndDropClient*& __cordl_internal_get_dragAndDropClient();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DefaultDragAndDropClient*> const& __get_dragAndDropClient() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DefaultDragAndDropClient*> const& __cordl_internal_get_dragAndDropClient() const;
 
-  constexpr void __set_dragAndDropClient(::UnityEngine::UIElements::DefaultDragAndDropClient* value);
+  constexpr void __cordl_internal_set_dragAndDropClient(::UnityEngine::UIElements::DefaultDragAndDropClient* value);
 
   /// @brief Method get_supportsDragEvents, addr 0x2e0d2f8, size 0x8, virtual true, abstract: false, final false
   inline bool get_supportsDragEvents();

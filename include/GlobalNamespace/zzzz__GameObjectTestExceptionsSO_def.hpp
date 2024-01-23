@@ -30,45 +30,45 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestEx
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4192))
 // CS Name: ::GameObjectTestExceptionsSO::GameObjectTestException*
 class CORDL_TYPE __GameObjectTestExceptionsSO__GameObjectTestException : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _environmentInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get__environmentInfo, put = __set__environmentInfo))::GlobalNamespace::EnvironmentInfoSO* _environmentInfo;
+  __declspec(property(get = __cordl_internal_get__environmentInfo, put = __cordl_internal_set__environmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> _environmentInfo;
 
   /// @brief Field _exceptionNotes, offset 0x18, size 0x8
-  __declspec(property(get = __get__exceptionNotes, put = __set__exceptionNotes))::StringW _exceptionNotes;
+  __declspec(property(get = __cordl_internal_get__exceptionNotes, put = __cordl_internal_set__exceptionNotes))::StringW _exceptionNotes;
 
   /// @brief Field _sceneHierarchies, offset 0x20, size 0x8
-  __declspec(property(get = __get__sceneHierarchies, put = __set__sceneHierarchies))::ArrayW<::StringW, ::Array<::StringW>*> _sceneHierarchies;
+  __declspec(property(get = __cordl_internal_get__sceneHierarchies, put = __cordl_internal_set__sceneHierarchies))::ArrayW<::StringW, ::Array<::StringW>*> _sceneHierarchies;
 
-  __declspec(property(get = get_environmentInfo))::GlobalNamespace::EnvironmentInfoSO* environmentInfo;
+  __declspec(property(get = get_environmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
 
   __declspec(property(get = get_sceneHierarchies))::ArrayW<::StringW, ::Array<::StringW>*> sceneHierarchies;
 
-  constexpr ::GlobalNamespace::EnvironmentInfoSO*& __get__environmentInfo();
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO>& __cordl_internal_get__environmentInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentInfoSO*> const& __get__environmentInfo() const;
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO> const& __cordl_internal_get__environmentInfo() const;
 
-  constexpr void __set__environmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
+  constexpr void __cordl_internal_set__environmentInfo(::UnityW<::GlobalNamespace::EnvironmentInfoSO> value);
 
-  constexpr ::StringW& __get__exceptionNotes();
+  constexpr ::StringW& __cordl_internal_get__exceptionNotes();
 
-  constexpr ::StringW const& __get__exceptionNotes() const;
+  constexpr ::StringW const& __cordl_internal_get__exceptionNotes() const;
 
-  constexpr void __set__exceptionNotes(::StringW value);
+  constexpr void __cordl_internal_set__exceptionNotes(::StringW value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__sceneHierarchies();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__sceneHierarchies();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__sceneHierarchies() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__sceneHierarchies() const;
 
-  constexpr void __set__sceneHierarchies(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__sceneHierarchies(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
   /// @brief Method get_environmentInfo, addr 0x23238ac, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
+  inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfo();
 
   /// @brief Method get_sceneHierarchies, addr 0x23238b4, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_sceneHierarchies();
@@ -93,7 +93,7 @@ protected:
 
 public:
   /// @brief Field _environmentInfo, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::EnvironmentInfoSO* ____environmentInfo;
+  ::UnityW<::GlobalNamespace::EnvironmentInfoSO> ____environmentInfo;
 
   /// @brief Field _exceptionNotes, offset: 0x18, size: 0x8, def value: None
   ::StringW ____exceptionNotes;
@@ -117,7 +117,7 @@ static_assert(offsetof(::GlobalNamespace::__GameObjectTestExceptionsSO__GameObje
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4193))
 // CS Name: ::GameObjectTestExceptionsSO*
 class CORDL_TYPE GameObjectTestExceptionsSO : public ::GlobalNamespace::PersistentScriptableObject {
@@ -126,21 +126,20 @@ public:
   using GameObjectTestException = ::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException;
 
   /// @brief Field tubeBloomPrePassLightIgnores, offset 0x18, size 0x8
-  __declspec(property(get = __get_tubeBloomPrePassLightIgnores,
-                      put = __set_tubeBloomPrePassLightIgnores))::ArrayW<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*,
-                                                                         ::Array<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*>*> tubeBloomPrePassLightIgnores;
+  __declspec(property(get = __cordl_internal_get_tubeBloomPrePassLightIgnores, put = __cordl_internal_set_tubeBloomPrePassLightIgnores))::ArrayW<
+      ::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*, ::Array<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*>*> tubeBloomPrePassLightIgnores;
 
   constexpr ::ArrayW<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*, ::Array<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*>*>&
-  __get_tubeBloomPrePassLightIgnores();
+  __cordl_internal_get_tubeBloomPrePassLightIgnores();
 
   constexpr ::ArrayW<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*, ::Array<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*>*> const&
-  __get_tubeBloomPrePassLightIgnores() const;
+  __cordl_internal_get_tubeBloomPrePassLightIgnores() const;
 
-  constexpr void __set_tubeBloomPrePassLightIgnores(
+  constexpr void __cordl_internal_set_tubeBloomPrePassLightIgnores(
       ::ArrayW<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*, ::Array<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*>*> value);
 
   /// @brief Method GetExceptionAsDictionary, addr 0x23237c4, size 0xe0, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentInfoSO*, ::ArrayW<::StringW, ::Array<::StringW>*>>* GetExceptionAsDictionary(
+  static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::ArrayW<::StringW, ::Array<::StringW>*>>* GetExceptionAsDictionary(
       ::ArrayW<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*, ::Array<::GlobalNamespace::__GameObjectTestExceptionsSO__GameObjectTestException*>*> testExceptionArray);
 
   static inline ::GlobalNamespace::GameObjectTestExceptionsSO* New_ctor();

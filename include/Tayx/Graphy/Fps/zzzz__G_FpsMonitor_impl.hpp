@@ -11,9 +11,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2a0912c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::__G_FpsMonitor____c*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -25,10 +25,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x2a09134;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::__G_FpsMonitor____c*>::get(), "<Update>b__25_0", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::__G_FpsMonitor____c*>::get(), "<Update>b__25_0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
     return ___internal_method;
   }
 };
@@ -47,17 +47,17 @@ inline ::System::Comparison_1<int16_t>* Tayx::Graphy::Fps::__G_FpsMonitor____c::
   return ::cordl_internals::getStaticField<::System::Comparison_1<int16_t>*, "<>9__25_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::__G_FpsMonitor____c*>::get>();
 }
 inline ::Tayx::Graphy::Fps::__G_FpsMonitor____c* Tayx::Graphy::Fps::__G_FpsMonitor____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::Tayx::Graphy::Fps::__G_FpsMonitor____c*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tayx::Graphy::Fps::__G_FpsMonitor____c*>());
 }
 inline void Tayx::Graphy::Fps::__G_FpsMonitor____c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::__G_FpsMonitor____c*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline int32_t Tayx::Graphy::Fps::__G_FpsMonitor____c::_Update_b__25_0(int16_t x, int16_t y) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::__G_FpsMonitor____c*>::get(), "<Update>b__25_0", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::__G_FpsMonitor____c*>::get(), "<Update>b__25_0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x, y);
 }
 // Ctor Parameters []
@@ -69,9 +69,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2a08cd8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "get_CurrentFPS",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -82,10 +82,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2a08ce0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "set_CurrentFPS", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "set_CurrentFPS", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
     return ___internal_method;
   }
 };
@@ -96,9 +96,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2a08ce8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "get_AverageFPS",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -109,10 +109,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2a08cf0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "set_AverageFPS", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "set_AverageFPS", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
     return ___internal_method;
   }
 };
@@ -123,9 +123,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2a08cf8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "get_OnePercentFPS",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -136,10 +136,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2a08d00;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "set_OnePercentFPS", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "set_OnePercentFPS", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
     return ___internal_method;
   }
 };
@@ -150,9 +150,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2a08d08;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "get_Zero1PercentFps",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -163,10 +163,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2a08d10;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "set_Zero1PercentFps", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "set_Zero1PercentFps", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
     return ___internal_method;
   }
 };
@@ -177,9 +177,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2a08d18;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "Awake",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -190,9 +190,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x390;
   constexpr static std::size_t addrs = 0x2a08d1c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "Update",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -203,9 +203,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x2a08a50;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "UpdateParameters",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -216,9 +216,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x2a03620;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "Init",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -229,226 +229,226 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x2a090ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_fpsSamples() {
+constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get_m_fpsSamples() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsSamples;
 }
-constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_fpsSamples() const {
+constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get_m_fpsSamples() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsSamples;
 }
-constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set_m_fpsSamples(::ArrayW<int16_t, ::Array<int16_t>*> value) {
+constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_set_m_fpsSamples(::ArrayW<int16_t, ::Array<int16_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_fpsSamples)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_fpsSamplesSorted() {
+constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get_m_fpsSamplesSorted() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsSamplesSorted;
 }
-constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_fpsSamplesSorted() const {
+constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get_m_fpsSamplesSorted() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsSamplesSorted;
 }
-constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set_m_fpsSamplesSorted(::ArrayW<int16_t, ::Array<int16_t>*> value) {
+constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_set_m_fpsSamplesSorted(::ArrayW<int16_t, ::Array<int16_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_fpsSamplesSorted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_fpsSamplesCapacity() {
+constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get_m_fpsSamplesCapacity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsSamplesCapacity;
 }
-constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_fpsSamplesCapacity() const {
+constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get_m_fpsSamplesCapacity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsSamplesCapacity;
 }
-constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set_m_fpsSamplesCapacity(int16_t value) {
+constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_set_m_fpsSamplesCapacity(int16_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_fpsSamplesCapacity = value;
 }
-constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_onePercentSamples() {
+constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get_m_onePercentSamples() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_onePercentSamples;
 }
-constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_onePercentSamples() const {
+constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get_m_onePercentSamples() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_onePercentSamples;
 }
-constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set_m_onePercentSamples(int16_t value) {
+constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_set_m_onePercentSamples(int16_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_onePercentSamples = value;
 }
-constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_zero1PercentSamples() {
+constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get_m_zero1PercentSamples() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_zero1PercentSamples;
 }
-constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_zero1PercentSamples() const {
+constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get_m_zero1PercentSamples() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_zero1PercentSamples;
 }
-constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set_m_zero1PercentSamples(int16_t value) {
+constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_set_m_zero1PercentSamples(int16_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_zero1PercentSamples = value;
 }
-constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_fpsSamplesCount() {
+constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get_m_fpsSamplesCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsSamplesCount;
 }
-constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_fpsSamplesCount() const {
+constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get_m_fpsSamplesCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_fpsSamplesCount;
 }
-constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set_m_fpsSamplesCount(int16_t value) {
+constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_set_m_fpsSamplesCount(int16_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_fpsSamplesCount = value;
 }
-constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_indexSample() {
+constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get_m_indexSample() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_indexSample;
 }
-constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_indexSample() const {
+constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get_m_indexSample() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_indexSample;
 }
-constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set_m_indexSample(int16_t value) {
+constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_set_m_indexSample(int16_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_indexSample = value;
 }
-constexpr float_t& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_unscaledDeltaTime() {
+constexpr float_t& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get_m_unscaledDeltaTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_unscaledDeltaTime;
 }
-constexpr float_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get_m_unscaledDeltaTime() const {
+constexpr float_t const& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get_m_unscaledDeltaTime() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_unscaledDeltaTime;
 }
-constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set_m_unscaledDeltaTime(float_t value) {
+constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_set_m_unscaledDeltaTime(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_unscaledDeltaTime = value;
 }
-constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get__CurrentFPS_k__BackingField() {
+constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get__CurrentFPS_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CurrentFPS_k__BackingField;
 }
-constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get__CurrentFPS_k__BackingField() const {
+constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get__CurrentFPS_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CurrentFPS_k__BackingField;
 }
-constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set__CurrentFPS_k__BackingField(int16_t value) {
+constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_set__CurrentFPS_k__BackingField(int16_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____CurrentFPS_k__BackingField = value;
 }
-constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get__AverageFPS_k__BackingField() {
+constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get__AverageFPS_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AverageFPS_k__BackingField;
 }
-constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get__AverageFPS_k__BackingField() const {
+constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get__AverageFPS_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____AverageFPS_k__BackingField;
 }
-constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set__AverageFPS_k__BackingField(int16_t value) {
+constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_set__AverageFPS_k__BackingField(int16_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____AverageFPS_k__BackingField = value;
 }
-constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get__OnePercentFPS_k__BackingField() {
+constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get__OnePercentFPS_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OnePercentFPS_k__BackingField;
 }
-constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get__OnePercentFPS_k__BackingField() const {
+constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get__OnePercentFPS_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____OnePercentFPS_k__BackingField;
 }
-constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set__OnePercentFPS_k__BackingField(int16_t value) {
+constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_set__OnePercentFPS_k__BackingField(int16_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____OnePercentFPS_k__BackingField = value;
 }
-constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__get__Zero1PercentFps_k__BackingField() {
+constexpr int16_t& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get__Zero1PercentFps_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Zero1PercentFps_k__BackingField;
 }
-constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__get__Zero1PercentFps_k__BackingField() const {
+constexpr int16_t const& Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_get__Zero1PercentFps_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Zero1PercentFps_k__BackingField;
 }
-constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__set__Zero1PercentFps_k__BackingField(int16_t value) {
+constexpr void Tayx::Graphy::Fps::G_FpsMonitor::__cordl_internal_set__Zero1PercentFps_k__BackingField(int16_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____Zero1PercentFps_k__BackingField = value;
 }
 inline int16_t Tayx::Graphy::Fps::G_FpsMonitor::get_CurrentFPS() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "get_CurrentFPS",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int16_t, false>(this, ___internal_method);
 }
 inline void Tayx::Graphy::Fps::G_FpsMonitor::set_CurrentFPS(int16_t value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "set_CurrentFPS", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "set_CurrentFPS",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline int16_t Tayx::Graphy::Fps::G_FpsMonitor::get_AverageFPS() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "get_AverageFPS",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int16_t, false>(this, ___internal_method);
 }
 inline void Tayx::Graphy::Fps::G_FpsMonitor::set_AverageFPS(int16_t value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "set_AverageFPS", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "set_AverageFPS",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline int16_t Tayx::Graphy::Fps::G_FpsMonitor::get_OnePercentFPS() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "get_OnePercentFPS",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int16_t, false>(this, ___internal_method);
 }
 inline void Tayx::Graphy::Fps::G_FpsMonitor::set_OnePercentFPS(int16_t value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "set_OnePercentFPS", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "set_OnePercentFPS",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline int16_t Tayx::Graphy::Fps::G_FpsMonitor::get_Zero1PercentFps() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "get_Zero1PercentFps",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int16_t, false>(this, ___internal_method);
 }
 inline void Tayx::Graphy::Fps::G_FpsMonitor::set_Zero1PercentFps(int16_t value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "set_Zero1PercentFps", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "set_Zero1PercentFps",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void Tayx::Graphy::Fps::G_FpsMonitor::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "Awake",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void Tayx::Graphy::Fps::G_FpsMonitor::Update() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "Update",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void Tayx::Graphy::Fps::G_FpsMonitor::UpdateParameters() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "UpdateParameters",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void Tayx::Graphy::Fps::G_FpsMonitor::Init() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), "Init",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::Tayx::Graphy::Fps::G_FpsMonitor* Tayx::Graphy::Fps::G_FpsMonitor::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::Tayx::Graphy::Fps::G_FpsMonitor*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Tayx::Graphy::Fps::G_FpsMonitor*>());
 }
 inline void Tayx::Graphy::Fps::G_FpsMonitor::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsMonitor*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

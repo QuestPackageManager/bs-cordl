@@ -1,39 +1,39 @@
 #pragma once
 #include "UnityEngineInternal/Input/zzzz__NativeInputEventBuffer_def.hpp"
-constexpr ::cordl_internals::Ptr<void>& UnityEngineInternal::Input::NativeInputEventBuffer::__get_eventBuffer() {
+constexpr ::cordl_internals::Ptr<void>& UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_get_eventBuffer() {
   return this->___eventBuffer;
 }
-constexpr ::cordl_internals::Ptr<void> const& UnityEngineInternal::Input::NativeInputEventBuffer::__get_eventBuffer() const {
+constexpr ::cordl_internals::Ptr<void> const& UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_get_eventBuffer() const {
   return this->___eventBuffer;
 }
-constexpr void UnityEngineInternal::Input::NativeInputEventBuffer::__set_eventBuffer(::cordl_internals::Ptr<void> value) {
+constexpr void UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_set_eventBuffer(::cordl_internals::Ptr<void> value) {
   this->___eventBuffer = value;
 }
-constexpr int32_t& UnityEngineInternal::Input::NativeInputEventBuffer::__get_eventCount() {
+constexpr int32_t& UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_get_eventCount() {
   return this->___eventCount;
 }
-constexpr int32_t const& UnityEngineInternal::Input::NativeInputEventBuffer::__get_eventCount() const {
+constexpr int32_t const& UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_get_eventCount() const {
   return this->___eventCount;
 }
-constexpr void UnityEngineInternal::Input::NativeInputEventBuffer::__set_eventCount(int32_t value) {
+constexpr void UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_set_eventCount(int32_t value) {
   this->___eventCount = value;
 }
-constexpr int32_t& UnityEngineInternal::Input::NativeInputEventBuffer::__get_sizeInBytes() {
+constexpr int32_t& UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_get_sizeInBytes() {
   return this->___sizeInBytes;
 }
-constexpr int32_t const& UnityEngineInternal::Input::NativeInputEventBuffer::__get_sizeInBytes() const {
+constexpr int32_t const& UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_get_sizeInBytes() const {
   return this->___sizeInBytes;
 }
-constexpr void UnityEngineInternal::Input::NativeInputEventBuffer::__set_sizeInBytes(int32_t value) {
+constexpr void UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_set_sizeInBytes(int32_t value) {
   this->___sizeInBytes = value;
 }
-constexpr int32_t& UnityEngineInternal::Input::NativeInputEventBuffer::__get_capacityInBytes() {
+constexpr int32_t& UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_get_capacityInBytes() {
   return this->___capacityInBytes;
 }
-constexpr int32_t const& UnityEngineInternal::Input::NativeInputEventBuffer::__get_capacityInBytes() const {
+constexpr int32_t const& UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_get_capacityInBytes() const {
   return this->___capacityInBytes;
 }
-constexpr void UnityEngineInternal::Input::NativeInputEventBuffer::__set_capacityInBytes(int32_t value) {
+constexpr void UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_set_capacityInBytes(int32_t value) {
   this->___capacityInBytes = value;
 }
 // Ctor Parameters [CppParam { name: "eventBuffer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "eventCount", ty: "int32_t", modifiers: "",

@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::RuntimeFeature);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3382))
 // CS Name: ::System.Runtime.CompilerServices::RuntimeFeature*
 class CORDL_TYPE RuntimeFeature : public ::System::Object {

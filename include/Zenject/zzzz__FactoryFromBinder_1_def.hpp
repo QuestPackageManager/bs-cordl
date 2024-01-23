@@ -99,38 +99,38 @@ namespace Zenject {
 // cpp template
 template <typename TContract, typename TObj>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15712))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15712))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10711))
 // CS Name: ::FactoryFromBinder`1::<>c__DisplayClass3_0`1<TContract,TObj>*
 class CORDL_TYPE __FactoryFromBinder_1____c__DisplayClass3_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field subIdentifier, offset 0x10, size 0x8
-  __declspec(property(get = __get_subIdentifier, put = __set_subIdentifier))::System::Object* subIdentifier;
+  __declspec(property(get = __cordl_internal_get_subIdentifier, put = __cordl_internal_set_subIdentifier))::System::Object* subIdentifier;
 
   /// @brief Field method, offset 0x18, size 0x8
-  __declspec(property(get = __get_method, put = __set_method))::System::Func_2<TObj, TContract>* method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::System::Func_2<TObj, TContract>* method;
 
   /// @brief Field source, offset 0x20, size 0x4
-  __declspec(property(get = __get_source, put = __set_source))::Zenject::InjectSources source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::Zenject::InjectSources source;
 
-  constexpr ::System::Object*& __get_subIdentifier();
+  constexpr ::System::Object*& __cordl_internal_get_subIdentifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_subIdentifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_subIdentifier() const;
 
-  constexpr void __set_subIdentifier(::System::Object* value);
+  constexpr void __cordl_internal_set_subIdentifier(::System::Object* value);
 
-  constexpr ::System::Func_2<TObj, TContract>*& __get_method();
+  constexpr ::System::Func_2<TObj, TContract>*& __cordl_internal_get_method();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TObj, TContract>*> const& __get_method() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TObj, TContract>*> const& __cordl_internal_get_method() const;
 
-  constexpr void __set_method(::System::Func_2<TObj, TContract>* value);
+  constexpr void __cordl_internal_set_method(::System::Func_2<TObj, TContract>* value);
 
-  constexpr ::Zenject::InjectSources& __get_source();
+  constexpr ::Zenject::InjectSources& __cordl_internal_get_source();
 
-  constexpr ::Zenject::InjectSources const& __get_source() const;
+  constexpr ::Zenject::InjectSources const& __cordl_internal_get_source() const;
 
-  constexpr void __set_source(::Zenject::InjectSources value);
+  constexpr void __cordl_internal_set_source(::Zenject::InjectSources value);
 
   static inline ::Zenject::__FactoryFromBinder_1____c__DisplayClass3_0_1<TContract, TObj>* New_ctor();
 
@@ -179,20 +179,20 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10712))
 // CS Name: ::FactoryFromBinder`1::<>c__DisplayClass4_0<TContract>*
 class CORDL_TYPE __FactoryFromBinder_1____c__DisplayClass4_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field method, offset 0x10, size 0x8
-  __declspec(property(get = __get_method, put = __set_method))::System::Func_2<::Zenject::DiContainer*, TContract>* method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::System::Func_2<::Zenject::DiContainer*, TContract>* method;
 
-  constexpr ::System::Func_2<::Zenject::DiContainer*, TContract>*& __get_method();
+  constexpr ::System::Func_2<::Zenject::DiContainer*, TContract>*& __cordl_internal_get_method();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::DiContainer*, TContract>*> const& __get_method() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::DiContainer*, TContract>*> const& __cordl_internal_get_method() const;
 
-  constexpr void __set_method(::System::Func_2<::Zenject::DiContainer*, TContract>* value);
+  constexpr void __cordl_internal_set_method(::System::Func_2<::Zenject::DiContainer*, TContract>* value);
 
   static inline ::Zenject::__FactoryFromBinder_1____c__DisplayClass4_0<TContract>* New_ctor();
 
@@ -235,7 +235,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract, typename TSubFactory>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10713))
 // CS Name: ::FactoryFromBinder`1::<>c__5`1<TContract,TSubFactory>*
 class CORDL_TYPE __FactoryFromBinder_1____c__5_1 : public ::System::Object {
@@ -293,38 +293,38 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10714))
 // CS Name: ::FactoryFromBinder`1::<>c__DisplayClass8_0<TContract>*
 class CORDL_TYPE __FactoryFromBinder_1____c__DisplayClass8_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::FactoryFromBinder_1<TContract>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::FactoryFromBinder_1<TContract>* __4__this;
 
   /// @brief Field includeInactive, offset 0x18, size 0x1
-  __declspec(property(get = __get_includeInactive, put = __set_includeInactive)) bool includeInactive;
+  __declspec(property(get = __cordl_internal_get_includeInactive, put = __cordl_internal_set_includeInactive)) bool includeInactive;
 
   /// @brief Field <>9__1, offset 0x20, size 0x8
-  __declspec(property(get = __get___9__1, put = __set___9__1))::System::Func_2<::UnityEngine::GameObject*, TContract>* __9__1;
+  __declspec(property(get = __cordl_internal_get___9__1, put = __cordl_internal_set___9__1))::System::Func_2<::UnityW<::UnityEngine::GameObject>, TContract>* __9__1;
 
-  constexpr ::Zenject::FactoryFromBinder_1<TContract>*& __get___4__this();
+  constexpr ::Zenject::FactoryFromBinder_1<TContract>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::FactoryFromBinder_1<TContract>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::FactoryFromBinder_1<TContract>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::FactoryFromBinder_1<TContract>* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::FactoryFromBinder_1<TContract>* value);
 
-  constexpr bool& __get_includeInactive();
+  constexpr bool& __cordl_internal_get_includeInactive();
 
-  constexpr bool const& __get_includeInactive() const;
+  constexpr bool const& __cordl_internal_get_includeInactive() const;
 
-  constexpr void __set_includeInactive(bool value);
+  constexpr void __cordl_internal_set_includeInactive(bool value);
 
-  constexpr ::System::Func_2<::UnityEngine::GameObject*, TContract>*& __get___9__1();
+  constexpr ::System::Func_2<::UnityW<::UnityEngine::GameObject>, TContract>*& __cordl_internal_get___9__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::GameObject*, TContract>*> const& __get___9__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityW<::UnityEngine::GameObject>, TContract>*> const& __cordl_internal_get___9__1() const;
 
-  constexpr void __set___9__1(::System::Func_2<::UnityEngine::GameObject*, TContract>* value);
+  constexpr void __cordl_internal_set___9__1(::System::Func_2<::UnityW<::UnityEngine::GameObject>, TContract>* value);
 
   static inline ::Zenject::__FactoryFromBinder_1____c__DisplayClass8_0<TContract>* New_ctor();
 
@@ -364,7 +364,7 @@ public:
   bool ___includeInactive;
 
   /// @brief Field <>9__1, offset: 0x20, size: 0x8, def value: None
-  ::System::Func_2<::UnityEngine::GameObject*, TContract>* _____9__1;
+  ::System::Func_2<::UnityW<::UnityEngine::GameObject>, TContract>* _____9__1;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -376,7 +376,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10715))
 // CS Name: ::FactoryFromBinder`1::<>c<TContract>*
 class CORDL_TYPE __FactoryFromBinder_1____c : public ::System::Object {
@@ -434,7 +434,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10846))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10846))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10716))
 // CS Name: ::Zenject::FactoryFromBinder`1<TContract>*
 class CORDL_TYPE FactoryFromBinder_1 : public ::Zenject::FactoryFromBinderBase {

@@ -8,12 +8,12 @@ template <typename TBase, typename TIn, typename TOut> inline TOut GlobalNamespa
   return ::cordl_internals::RunMethodRethrow<TOut, false>(this, ___internal_method, item);
 }
 template <typename TBase, typename TIn, typename TOut> inline ::GlobalNamespace::DefaultDataConvertor_3<TBase, TIn, TOut>* GlobalNamespace::DefaultDataConvertor_3<TBase, TIn, TOut>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::DefaultDataConvertor_3<TBase, TIn, TOut>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DefaultDataConvertor_3<TBase, TIn, TOut>*>());
 }
 template <typename TBase, typename TIn, typename TOut> inline void GlobalNamespace::DefaultDataConvertor_3<TBase, TIn, TOut>::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DefaultDataConvertor_3<TBase, TIn, TOut>*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

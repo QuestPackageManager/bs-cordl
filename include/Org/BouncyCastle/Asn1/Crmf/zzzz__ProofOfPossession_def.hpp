@@ -36,17 +36,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(121))
 // CS Name: ::Org.BouncyCastle.Asn1.Crmf::ProofOfPossession*
 class CORDL_TYPE ProofOfPossession : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field tagNo, offset 0x10, size 0x4
-  __declspec(property(get = __get_tagNo, put = __set_tagNo)) int32_t tagNo;
+  __declspec(property(get = __cordl_internal_get_tagNo, put = __cordl_internal_set_tagNo)) int32_t tagNo;
 
   /// @brief Field obj, offset 0x18, size 0x8
-  __declspec(property(get = __get_obj, put = __set_obj))::Org::BouncyCastle::Asn1::Asn1Encodable* obj;
+  __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj))::Org::BouncyCastle::Asn1::Asn1Encodable* obj;
 
   __declspec(property(get = get_Type)) int32_t Type;
 
@@ -58,17 +58,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
-  constexpr int32_t& __get_tagNo();
+  constexpr int32_t& __cordl_internal_get_tagNo();
 
-  constexpr int32_t const& __get_tagNo() const;
+  constexpr int32_t const& __cordl_internal_get_tagNo() const;
 
-  constexpr void __set_tagNo(int32_t value);
+  constexpr void __cordl_internal_set_tagNo(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __get_obj();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_obj();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __get_obj() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __cordl_internal_get_obj() const;
 
-  constexpr void __set_obj(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
+  constexpr void __cordl_internal_set_obj(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::ProofOfPossession* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 

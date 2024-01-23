@@ -32,20 +32,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySourceProvid
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1103))
 // CS Name: ::CryptoApiEntropySourceProvider::CryptoApiEntropySource*
 class CORDL_TYPE __CryptoApiEntropySourceProvider__CryptoApiEntropySource : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mRng, offset 0x10, size 0x8
-  __declspec(property(get = __get_mRng, put = __set_mRng))::System::Security::Cryptography::RandomNumberGenerator* mRng;
+  __declspec(property(get = __cordl_internal_get_mRng, put = __cordl_internal_set_mRng))::System::Security::Cryptography::RandomNumberGenerator* mRng;
 
   /// @brief Field mPredictionResistant, offset 0x18, size 0x1
-  __declspec(property(get = __get_mPredictionResistant, put = __set_mPredictionResistant)) bool mPredictionResistant;
+  __declspec(property(get = __cordl_internal_get_mPredictionResistant, put = __cordl_internal_set_mPredictionResistant)) bool mPredictionResistant;
 
   /// @brief Field mEntropySize, offset 0x1c, size 0x4
-  __declspec(property(get = __get_mEntropySize, put = __set_mEntropySize)) int32_t mEntropySize;
+  __declspec(property(get = __cordl_internal_get_mEntropySize, put = __cordl_internal_set_mEntropySize)) int32_t mEntropySize;
 
   __declspec(property(get = Org_BouncyCastle_Crypto_IEntropySource_get_IsPredictionResistant)) bool Org_BouncyCastle_Crypto_IEntropySource_IsPredictionResistant;
 
@@ -57,23 +57,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IEntropySource"
   constexpr ::Org::BouncyCastle::Crypto::IEntropySource* i___Org__BouncyCastle__Crypto__IEntropySource() noexcept;
 
-  constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __get_mRng();
+  constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __cordl_internal_get_mRng();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RandomNumberGenerator*> const& __get_mRng() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RandomNumberGenerator*> const& __cordl_internal_get_mRng() const;
 
-  constexpr void __set_mRng(::System::Security::Cryptography::RandomNumberGenerator* value);
+  constexpr void __cordl_internal_set_mRng(::System::Security::Cryptography::RandomNumberGenerator* value);
 
-  constexpr bool& __get_mPredictionResistant();
+  constexpr bool& __cordl_internal_get_mPredictionResistant();
 
-  constexpr bool const& __get_mPredictionResistant() const;
+  constexpr bool const& __cordl_internal_get_mPredictionResistant() const;
 
-  constexpr void __set_mPredictionResistant(bool value);
+  constexpr void __cordl_internal_set_mPredictionResistant(bool value);
 
-  constexpr int32_t& __get_mEntropySize();
+  constexpr int32_t& __cordl_internal_get_mEntropySize();
 
-  constexpr int32_t const& __get_mEntropySize() const;
+  constexpr int32_t const& __cordl_internal_get_mEntropySize() const;
 
-  constexpr void __set_mEntropySize(int32_t value);
+  constexpr void __cordl_internal_set_mEntropySize(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySourceProvider__CryptoApiEntropySource* New_ctor(::System::Security::Cryptography::RandomNumberGenerator* rng,
                                                                                                                       bool predictionResistant, int32_t entropySize);
@@ -129,7 +129,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySour
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1104))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::CryptoApiEntropySourceProvider*
 class CORDL_TYPE CryptoApiEntropySourceProvider : public ::System::Object {
@@ -138,10 +138,10 @@ public:
   using CryptoApiEntropySource = ::Org::BouncyCastle::Crypto::Prng::__CryptoApiEntropySourceProvider__CryptoApiEntropySource;
 
   /// @brief Field mRng, offset 0x10, size 0x8
-  __declspec(property(get = __get_mRng, put = __set_mRng))::System::Security::Cryptography::RandomNumberGenerator* mRng;
+  __declspec(property(get = __cordl_internal_get_mRng, put = __cordl_internal_set_mRng))::System::Security::Cryptography::RandomNumberGenerator* mRng;
 
   /// @brief Field mPredictionResistant, offset 0x18, size 0x1
-  __declspec(property(get = __get_mPredictionResistant, put = __set_mPredictionResistant)) bool mPredictionResistant;
+  __declspec(property(get = __cordl_internal_get_mPredictionResistant, put = __cordl_internal_set_mPredictionResistant)) bool mPredictionResistant;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IEntropySourceProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::IEntropySourceProvider*() noexcept;
@@ -149,17 +149,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IEntropySourceProvider"
   constexpr ::Org::BouncyCastle::Crypto::IEntropySourceProvider* i___Org__BouncyCastle__Crypto__IEntropySourceProvider() noexcept;
 
-  constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __get_mRng();
+  constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __cordl_internal_get_mRng();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RandomNumberGenerator*> const& __get_mRng() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RandomNumberGenerator*> const& __cordl_internal_get_mRng() const;
 
-  constexpr void __set_mRng(::System::Security::Cryptography::RandomNumberGenerator* value);
+  constexpr void __cordl_internal_set_mRng(::System::Security::Cryptography::RandomNumberGenerator* value);
 
-  constexpr bool& __get_mPredictionResistant();
+  constexpr bool& __cordl_internal_get_mPredictionResistant();
 
-  constexpr bool const& __get_mPredictionResistant() const;
+  constexpr bool const& __cordl_internal_get_mPredictionResistant() const;
 
-  constexpr void __set_mPredictionResistant(bool value);
+  constexpr void __cordl_internal_set_mPredictionResistant(bool value);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::CryptoApiEntropySourceProvider* New_ctor();
 

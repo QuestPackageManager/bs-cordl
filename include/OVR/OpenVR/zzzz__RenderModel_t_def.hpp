@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::RenderModel_t);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8715))
 // CS Name: ::OVR.OpenVR::RenderModel_t
 struct CORDL_TYPE RenderModel_t {

@@ -29,58 +29,60 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 71, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15344)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15349), inst:
-// 1983 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15349), inst: 1982 }), TypeDefinitionIndex(TypeDefinitionIndex(15349)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15351))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15323)) CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DelaunayTriangle*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15344)), TypeDefinitionIndex(TypeDefinitionIndex(15349)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15351)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15349), inst: 1982 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(15349), inst: 1983 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15323)) CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DelaunayTriangle*
 class CORDL_TYPE DelaunayTriangle : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Points, offset 0x10, size 0x18
-  __declspec(property(get = __get_Points, put = __set_Points))::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> Points;
+  __declspec(property(get = __cordl_internal_get_Points,
+                      put = __cordl_internal_set_Points))::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> Points;
 
   /// @brief Field Neighbors, offset 0x28, size 0x18
-  __declspec(property(get = __get_Neighbors, put = __set_Neighbors))::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*> Neighbors;
+  __declspec(property(get = __cordl_internal_get_Neighbors,
+                      put = __cordl_internal_set_Neighbors))::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*> Neighbors;
 
   /// @brief Field EdgeIsConstrained, offset 0x40, size 0x3
-  __declspec(property(get = __get_EdgeIsConstrained, put = __set_EdgeIsConstrained))::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 EdgeIsConstrained;
+  __declspec(property(get = __cordl_internal_get_EdgeIsConstrained, put = __cordl_internal_set_EdgeIsConstrained))::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 EdgeIsConstrained;
 
   /// @brief Field EdgeIsDelaunay, offset 0x43, size 0x3
-  __declspec(property(get = __get_EdgeIsDelaunay, put = __set_EdgeIsDelaunay))::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 EdgeIsDelaunay;
+  __declspec(property(get = __cordl_internal_get_EdgeIsDelaunay, put = __cordl_internal_set_EdgeIsDelaunay))::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 EdgeIsDelaunay;
 
   /// @brief Field <IsInterior>k__BackingField, offset 0x46, size 0x1
-  __declspec(property(get = __get__IsInterior_k__BackingField, put = __set__IsInterior_k__BackingField)) bool _IsInterior_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsInterior_k__BackingField, put = __cordl_internal_set__IsInterior_k__BackingField)) bool _IsInterior_k__BackingField;
 
   __declspec(property(get = get_IsInterior, put = set_IsInterior)) bool IsInterior;
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>& __get_Points();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>& __cordl_internal_get_Points();
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __get_Points() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get_Points() const;
 
-  constexpr void __set_Points(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> value);
+  constexpr void __cordl_internal_set_Points(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>& __get_Neighbors();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>& __cordl_internal_get_Neighbors();
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*> const& __get_Neighbors() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*> const& __cordl_internal_get_Neighbors() const;
 
-  constexpr void __set_Neighbors(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*> value);
+  constexpr void __cordl_internal_set_Neighbors(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*> value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& __get_EdgeIsConstrained();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& __cordl_internal_get_EdgeIsConstrained();
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 const& __get_EdgeIsConstrained() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 const& __cordl_internal_get_EdgeIsConstrained() const;
 
-  constexpr void __set_EdgeIsConstrained(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value);
+  constexpr void __cordl_internal_set_EdgeIsConstrained(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& __get_EdgeIsDelaunay();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3& __cordl_internal_get_EdgeIsDelaunay();
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 const& __get_EdgeIsDelaunay() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 const& __cordl_internal_get_EdgeIsDelaunay() const;
 
-  constexpr void __set_EdgeIsDelaunay(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value);
+  constexpr void __cordl_internal_set_EdgeIsDelaunay(::UnityEngine::ProBuilder::Poly2Tri::FixedBitArray3 value);
 
-  constexpr bool& __get__IsInterior_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsInterior_k__BackingField();
 
-  constexpr bool const& __get__IsInterior_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsInterior_k__BackingField() const;
 
-  constexpr void __set__IsInterior_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsInterior_k__BackingField(bool value);
 
   /// @brief Method get_IsInterior, addr 0x2b2f430, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInterior();

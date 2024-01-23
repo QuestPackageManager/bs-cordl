@@ -20,47 +20,47 @@ MARK_REF_PTR_T(::GlobalNamespace::LeaderboardEntry);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5533))
 // CS Name: ::LeaderboardEntry*
 class CORDL_TYPE LeaderboardEntry : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _scoreText, offset 0x18, size 0x8
-  __declspec(property(get = __get__scoreText, put = __set__scoreText))::TMPro::TextMeshProUGUI* _scoreText;
+  __declspec(property(get = __cordl_internal_get__scoreText, put = __cordl_internal_set__scoreText))::UnityW<::TMPro::TextMeshProUGUI> _scoreText;
 
   /// @brief Field _playerNameText, offset 0x20, size 0x8
-  __declspec(property(get = __get__playerNameText, put = __set__playerNameText))::TMPro::TextMeshProUGUI* _playerNameText;
+  __declspec(property(get = __cordl_internal_get__playerNameText, put = __cordl_internal_set__playerNameText))::UnityW<::TMPro::TextMeshProUGUI> _playerNameText;
 
   /// @brief Field _rankText, offset 0x28, size 0x8
-  __declspec(property(get = __get__rankText, put = __set__rankText))::TMPro::TextMeshProUGUI* _rankText;
+  __declspec(property(get = __cordl_internal_get__rankText, put = __cordl_internal_set__rankText))::UnityW<::TMPro::TextMeshProUGUI> _rankText;
 
   /// @brief Field _color, offset 0x30, size 0x10
-  __declspec(property(get = __get__color, put = __set__color))::UnityEngine::Color _color;
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__scoreText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__scoreText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__scoreText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__scoreText() const;
 
-  constexpr void __set__scoreText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__playerNameText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__playerNameText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__playerNameText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__playerNameText() const;
 
-  constexpr void __set__playerNameText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__playerNameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__rankText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__rankText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__rankText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__rankText() const;
 
-  constexpr void __set__rankText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__rankText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::Color& __get__color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::UnityEngine::Color const& __get__color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr void __set__color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
   /// @brief Method SetScore, addr 0x229e66c, size 0x190, virtual false, abstract: false, final false
   inline void SetScore(int32_t score, ::StringW playerName, int32_t rank, bool highlighted, bool showSeparator);
@@ -85,13 +85,13 @@ protected:
 
 public:
   /// @brief Field _scoreText, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____scoreText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____scoreText;
 
   /// @brief Field _playerNameText, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____playerNameText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____playerNameText;
 
   /// @brief Field _rankText, offset: 0x28, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____rankText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____rankText;
 
   /// @brief Field _color, offset: 0x30, size: 0x10, def value: None
   ::UnityEngine::Color ____color;

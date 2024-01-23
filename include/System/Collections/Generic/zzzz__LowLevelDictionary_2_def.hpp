@@ -35,38 +35,38 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3848))
 // CS Name: ::LowLevelDictionary`2::Entry<TKey,TValue>*
 class CORDL_TYPE __LowLevelDictionary_2__Entry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _key, offset 0x10, size 0x8
-  __declspec(property(get = __get__key, put = __set__key)) TKey _key;
+  __declspec(property(get = __cordl_internal_get__key, put = __cordl_internal_set__key)) TKey _key;
 
   /// @brief Field _value, offset 0x18, size 0x8
-  __declspec(property(get = __get__value, put = __set__value)) TValue _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) TValue _value;
 
   /// @brief Field _next, offset 0x20, size 0x8
-  __declspec(property(get = __get__next, put = __set__next))::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* _next;
+  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next))::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* _next;
 
-  constexpr TKey& __get__key();
+  constexpr TKey& __cordl_internal_get__key();
 
-  constexpr TKey const& __get__key() const;
+  constexpr TKey const& __cordl_internal_get__key() const;
 
-  constexpr void __set__key(TKey value);
+  constexpr void __cordl_internal_set__key(TKey value);
 
-  constexpr TValue& __get__value();
+  constexpr TValue& __cordl_internal_get__value();
 
-  constexpr TValue const& __get__value() const;
+  constexpr TValue const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(TValue value);
+  constexpr void __cordl_internal_set__value(TValue value);
 
-  constexpr ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*& __get__next();
+  constexpr ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*& __cordl_internal_get__next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*> const& __get__next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*> const& __cordl_internal_get__next() const;
 
-  constexpr void __set__next(::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__next(::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* value);
 
   static inline ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>* New_ctor();
 
@@ -106,7 +106,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue, typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3849))
 // CS Name: ::LowLevelDictionary`2::DefaultComparer`1<TKey,TValue,T>*
 class CORDL_TYPE __LowLevelDictionary_2__DefaultComparer_1 : public ::System::Object {
@@ -153,7 +153,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3850))
 // CS Name: ::System.Collections.Generic::LowLevelDictionary`2<TKey,TValue>*
 class CORDL_TYPE LowLevelDictionary_2 : public ::System::Object {
@@ -164,46 +164,47 @@ public:
   using Entry = ::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>;
 
   /// @brief Field _buckets, offset 0x10, size 0x8
-  __declspec(property(get = __get__buckets, put = __set__buckets))::ArrayW<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*,
-                                                                           ::Array<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*>*> _buckets;
+  __declspec(property(get = __cordl_internal_get__buckets,
+                      put = __cordl_internal_set__buckets))::ArrayW<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*,
+                                                                    ::Array<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*>*> _buckets;
 
   /// @brief Field _numEntries, offset 0x18, size 0x4
-  __declspec(property(get = __get__numEntries, put = __set__numEntries)) int32_t _numEntries;
+  __declspec(property(get = __cordl_internal_get__numEntries, put = __cordl_internal_set__numEntries)) int32_t _numEntries;
 
   /// @brief Field _version, offset 0x1c, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _comparer, offset 0x20, size 0x8
-  __declspec(property(get = __get__comparer, put = __set__comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* _comparer;
+  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* _comparer;
 
   __declspec(property(put = set_Item)) TKey Item;
 
   constexpr ::ArrayW<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*, ::Array<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*>*>&
-  __get__buckets();
+  __cordl_internal_get__buckets();
 
   constexpr ::ArrayW<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*, ::Array<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*>*> const&
-  __get__buckets() const;
+  __cordl_internal_get__buckets() const;
 
-  constexpr void
-  __set__buckets(::ArrayW<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*, ::Array<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*>*> value);
+  constexpr void __cordl_internal_set__buckets(
+      ::ArrayW<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*, ::Array<::System::Collections::Generic::__LowLevelDictionary_2__Entry<TKey, TValue>*>*> value);
 
-  constexpr int32_t& __get__numEntries();
+  constexpr int32_t& __cordl_internal_get__numEntries();
 
-  constexpr int32_t const& __get__numEntries() const;
+  constexpr int32_t const& __cordl_internal_get__numEntries() const;
 
-  constexpr void __set__numEntries(int32_t value);
+  constexpr void __cordl_internal_set__numEntries(int32_t value);
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __get__comparer();
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __cordl_internal_get__comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& __get__comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& __cordl_internal_get__comparer() const;
 
-  constexpr void __set__comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value);
+  constexpr void __cordl_internal_set__comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value);
 
   static inline ::System::Collections::Generic::LowLevelDictionary_2<TKey, TValue>* New_ctor();
 

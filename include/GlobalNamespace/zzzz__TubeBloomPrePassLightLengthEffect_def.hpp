@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::GlobalNamespace::TubeBloomPrePassLightLengthEffect);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4909))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4909))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4916))
 // CS Name: ::TubeBloomPrePassLightLengthEffect*
 class CORDL_TYPE TubeBloomPrePassLightLengthEffect : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
   // Declarations
   /// @brief Field _tubeBloomPrePassLight, offset 0x18, size 0x8
-  __declspec(property(get = __get__tubeBloomPrePassLight, put = __set__tubeBloomPrePassLight))::GlobalNamespace::TubeBloomPrePassLight* _tubeBloomPrePassLight;
+  __declspec(property(get = __cordl_internal_get__tubeBloomPrePassLight, put = __cordl_internal_set__tubeBloomPrePassLight))::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _tubeBloomPrePassLight;
 
-  constexpr ::GlobalNamespace::TubeBloomPrePassLight*& __get__tubeBloomPrePassLight();
+  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight>& __cordl_internal_get__tubeBloomPrePassLight();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TubeBloomPrePassLight*> const& __get__tubeBloomPrePassLight() const;
+  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> const& __cordl_internal_get__tubeBloomPrePassLight() const;
 
-  constexpr void __set__tubeBloomPrePassLight(::GlobalNamespace::TubeBloomPrePassLight* value);
+  constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
   /// @brief Method SetValue, addr 0x23a71f4, size 0x2c, virtual true, abstract: false, final false
   inline void SetValue(float_t value);
@@ -59,7 +59,7 @@ protected:
 
 public:
   /// @brief Field _tubeBloomPrePassLight, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::TubeBloomPrePassLight* ____tubeBloomPrePassLight;
+  ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

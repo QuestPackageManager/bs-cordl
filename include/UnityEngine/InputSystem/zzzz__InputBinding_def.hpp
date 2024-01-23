@@ -66,7 +66,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::InputBinding);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6183))
 // CS Name: ::InputBinding::DisplayStringOptions
 struct CORDL_TYPE __InputBinding__DisplayStringOptions {
@@ -124,7 +124,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputBinding__DisplayString
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6184))
 // CS Name: ::InputBinding::MatchOptions
 struct CORDL_TYPE __InputBinding__MatchOptions {
@@ -170,7 +170,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputBinding__MatchOptions,
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6185))
 // CS Name: ::InputBinding::Flags
 struct CORDL_TYPE __InputBinding__Flags {
@@ -224,7 +224,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputBinding__Flags, value_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6186))
 // CS Name: ::InputBinding::<>c*
 class CORDL_TYPE __InputBinding____c : public ::System::Object {
@@ -276,7 +276,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6185))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6185))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6187))
 // CS Name: ::UnityEngine.InputSystem::InputBinding
 struct CORDL_TYPE InputBinding {

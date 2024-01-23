@@ -28,20 +28,20 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexMatchTimeoutException);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2487))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2487))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8923))
 // CS Name: ::System.Text.RegularExpressions::RegexMatchTimeoutException*
 class CORDL_TYPE RegexMatchTimeoutException : public ::System::TimeoutException {
 public:
   // Declarations
   /// @brief Field <Input>k__BackingField, offset 0x90, size 0x8
-  __declspec(property(get = __get__Input_k__BackingField, put = __set__Input_k__BackingField))::StringW _Input_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Input_k__BackingField, put = __cordl_internal_set__Input_k__BackingField))::StringW _Input_k__BackingField;
 
   /// @brief Field <Pattern>k__BackingField, offset 0x98, size 0x8
-  __declspec(property(get = __get__Pattern_k__BackingField, put = __set__Pattern_k__BackingField))::StringW _Pattern_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Pattern_k__BackingField, put = __cordl_internal_set__Pattern_k__BackingField))::StringW _Pattern_k__BackingField;
 
   /// @brief Field <MatchTimeout>k__BackingField, offset 0xa0, size 0x8
-  __declspec(property(get = __get__MatchTimeout_k__BackingField, put = __set__MatchTimeout_k__BackingField))::System::TimeSpan _MatchTimeout_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MatchTimeout_k__BackingField, put = __cordl_internal_set__MatchTimeout_k__BackingField))::System::TimeSpan _MatchTimeout_k__BackingField;
 
   __declspec(property(get = get_Input))::StringW Input;
 
@@ -55,23 +55,23 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::StringW& __get__Input_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Input_k__BackingField();
 
-  constexpr ::StringW const& __get__Input_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Input_k__BackingField() const;
 
-  constexpr void __set__Input_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Input_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__Pattern_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Pattern_k__BackingField();
 
-  constexpr ::StringW const& __get__Pattern_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Pattern_k__BackingField() const;
 
-  constexpr void __set__Pattern_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Pattern_k__BackingField(::StringW value);
 
-  constexpr ::System::TimeSpan& __get__MatchTimeout_k__BackingField();
+  constexpr ::System::TimeSpan& __cordl_internal_get__MatchTimeout_k__BackingField();
 
-  constexpr ::System::TimeSpan const& __get__MatchTimeout_k__BackingField() const;
+  constexpr ::System::TimeSpan const& __cordl_internal_get__MatchTimeout_k__BackingField() const;
 
-  constexpr void __set__MatchTimeout_k__BackingField(::System::TimeSpan value);
+  constexpr void __cordl_internal_set__MatchTimeout_k__BackingField(::System::TimeSpan value);
 
   static inline ::System::Text::RegularExpressions::RegexMatchTimeoutException* New_ctor(::StringW regexInput, ::StringW regexPattern, ::System::TimeSpan matchTimeout);
 

@@ -54,200 +54,204 @@ MARK_REF_PTR_T(::GlobalNamespace::LobbySetupViewController);
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 266, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5717))
 // CS Name: ::LobbySetupViewController*
 class CORDL_TYPE LobbySetupViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _startGameReadyButton, offset 0x70, size 0x8
-  __declspec(property(get = __get__startGameReadyButton, put = __set__startGameReadyButton))::UnityEngine::UI::Button* _startGameReadyButton;
+  __declspec(property(get = __cordl_internal_get__startGameReadyButton, put = __cordl_internal_set__startGameReadyButton))::UnityW<::UnityEngine::UI::Button> _startGameReadyButton;
 
   /// @brief Field _cancelGameUnreadyButton, offset 0x78, size 0x8
-  __declspec(property(get = __get__cancelGameUnreadyButton, put = __set__cancelGameUnreadyButton))::UnityEngine::UI::Button* _cancelGameUnreadyButton;
+  __declspec(property(get = __cordl_internal_get__cancelGameUnreadyButton, put = __cordl_internal_set__cancelGameUnreadyButton))::UnityW<::UnityEngine::UI::Button> _cancelGameUnreadyButton;
 
   /// @brief Field _startReadyText, offset 0x80, size 0x8
-  __declspec(property(get = __get__startReadyText, put = __set__startReadyText))::Polyglot::LocalizedTextMeshProUGUI* _startReadyText;
+  __declspec(property(get = __cordl_internal_get__startReadyText, put = __cordl_internal_set__startReadyText))::UnityW<::Polyglot::LocalizedTextMeshProUGUI> _startReadyText;
 
   /// @brief Field _cancelUnreadyText, offset 0x88, size 0x8
-  __declspec(property(get = __get__cancelUnreadyText, put = __set__cancelUnreadyText))::Polyglot::LocalizedTextMeshProUGUI* _cancelUnreadyText;
+  __declspec(property(get = __cordl_internal_get__cancelUnreadyText, put = __cordl_internal_set__cancelUnreadyText))::UnityW<::Polyglot::LocalizedTextMeshProUGUI> _cancelUnreadyText;
 
   /// @brief Field _serverSettings, offset 0x90, size 0x8
-  __declspec(property(get = __get__serverSettings, put = __set__serverSettings))::GlobalNamespace::GameServersFilterText* _serverSettings;
+  __declspec(property(get = __cordl_internal_get__serverSettings, put = __cordl_internal_set__serverSettings))::UnityW<::GlobalNamespace::GameServersFilterText> _serverSettings;
 
   /// @brief Field _suggestionHeader, offset 0x98, size 0x8
-  __declspec(property(get = __get__suggestionHeader, put = __set__suggestionHeader))::UnityEngine::GameObject* _suggestionHeader;
+  __declspec(property(get = __cordl_internal_get__suggestionHeader, put = __cordl_internal_set__suggestionHeader))::UnityW<::UnityEngine::GameObject> _suggestionHeader;
 
   /// @brief Field _beatmapSelectionView, offset 0xa0, size 0x8
-  __declspec(property(get = __get__beatmapSelectionView, put = __set__beatmapSelectionView))::GlobalNamespace::EditableBeatmapSelectionView* _beatmapSelectionView;
+  __declspec(property(get = __cordl_internal_get__beatmapSelectionView,
+                      put = __cordl_internal_set__beatmapSelectionView))::UnityW<::GlobalNamespace::EditableBeatmapSelectionView> _beatmapSelectionView;
 
   /// @brief Field _modifiersSelectionView, offset 0xa8, size 0x8
-  __declspec(property(get = __get__modifiersSelectionView, put = __set__modifiersSelectionView))::GlobalNamespace::EditableModifiersSelectionView* _modifiersSelectionView;
+  __declspec(property(get = __cordl_internal_get__modifiersSelectionView,
+                      put = __cordl_internal_set__modifiersSelectionView))::UnityW<::GlobalNamespace::EditableModifiersSelectionView> _modifiersSelectionView;
 
   /// @brief Field _cantStartGameHoverHint, offset 0xb0, size 0x8
-  __declspec(property(get = __get__cantStartGameHoverHint, put = __set__cantStartGameHoverHint))::HMUI::HoverHint* _cantStartGameHoverHint;
+  __declspec(property(get = __cordl_internal_get__cantStartGameHoverHint, put = __cordl_internal_set__cantStartGameHoverHint))::UnityW<::HMUI::HoverHint> _cantStartGameHoverHint;
 
   /// @brief Field _playerMissingLevelHoverHintWrapper, offset 0xb8, size 0x8
-  __declspec(property(get = __get__playerMissingLevelHoverHintWrapper, put = __set__playerMissingLevelHoverHintWrapper))::UnityEngine::GameObject* _playerMissingLevelHoverHintWrapper;
+  __declspec(property(get = __cordl_internal_get__playerMissingLevelHoverHintWrapper,
+                      put = __cordl_internal_set__playerMissingLevelHoverHintWrapper))::UnityW<::UnityEngine::GameObject> _playerMissingLevelHoverHintWrapper;
 
   /// @brief Field _playersMissingLevelHoverHint, offset 0xc0, size 0x8
-  __declspec(property(get = __get__playersMissingLevelHoverHint, put = __set__playersMissingLevelHoverHint))::HMUI::HoverHint* _playersMissingLevelHoverHint;
+  __declspec(property(get = __cordl_internal_get__playersMissingLevelHoverHint, put = __cordl_internal_set__playersMissingLevelHoverHint))::UnityW<::HMUI::HoverHint> _playersMissingLevelHoverHint;
 
   /// @brief Field _spectatorWarningTextWrapper, offset 0xc8, size 0x8
-  __declspec(property(get = __get__spectatorWarningTextWrapper, put = __set__spectatorWarningTextWrapper))::UnityEngine::GameObject* _spectatorWarningTextWrapper;
+  __declspec(property(get = __cordl_internal_get__spectatorWarningTextWrapper,
+                      put = __cordl_internal_set__spectatorWarningTextWrapper))::UnityW<::UnityEngine::GameObject> _spectatorWarningTextWrapper;
 
   /// @brief Field _toggleBinder, offset 0xd0, size 0x8
-  __declspec(property(get = __get__toggleBinder, put = __set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
+  __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
 
   /// @brief Field selectBeatmapEvent, offset 0xd8, size 0x8
-  __declspec(property(get = __get_selectBeatmapEvent, put = __set_selectBeatmapEvent))::System::Action* selectBeatmapEvent;
+  __declspec(property(get = __cordl_internal_get_selectBeatmapEvent, put = __cordl_internal_set_selectBeatmapEvent))::System::Action* selectBeatmapEvent;
 
   /// @brief Field selectModifiersEvent, offset 0xe0, size 0x8
-  __declspec(property(get = __get_selectModifiersEvent, put = __set_selectModifiersEvent))::System::Action* selectModifiersEvent;
+  __declspec(property(get = __cordl_internal_get_selectModifiersEvent, put = __cordl_internal_set_selectModifiersEvent))::System::Action* selectModifiersEvent;
 
   /// @brief Field startGameOrReadyEvent, offset 0xe8, size 0x8
-  __declspec(property(get = __get_startGameOrReadyEvent, put = __set_startGameOrReadyEvent))::System::Action* startGameOrReadyEvent;
+  __declspec(property(get = __cordl_internal_get_startGameOrReadyEvent, put = __cordl_internal_set_startGameOrReadyEvent))::System::Action* startGameOrReadyEvent;
 
   /// @brief Field cancelGameOrUnreadyEvent, offset 0xf0, size 0x8
-  __declspec(property(get = __get_cancelGameOrUnreadyEvent, put = __set_cancelGameOrUnreadyEvent))::System::Action* cancelGameOrUnreadyEvent;
+  __declspec(property(get = __cordl_internal_get_cancelGameOrUnreadyEvent, put = __cordl_internal_set_cancelGameOrUnreadyEvent))::System::Action* cancelGameOrUnreadyEvent;
 
   /// @brief Field clearSuggestedBeatmapEvent, offset 0xf8, size 0x8
-  __declspec(property(get = __get_clearSuggestedBeatmapEvent, put = __set_clearSuggestedBeatmapEvent))::System::Action* clearSuggestedBeatmapEvent;
+  __declspec(property(get = __cordl_internal_get_clearSuggestedBeatmapEvent, put = __cordl_internal_set_clearSuggestedBeatmapEvent))::System::Action* clearSuggestedBeatmapEvent;
 
   /// @brief Field clearSuggestedModifiersEvent, offset 0x100, size 0x8
-  __declspec(property(get = __get_clearSuggestedModifiersEvent, put = __set_clearSuggestedModifiersEvent))::System::Action* clearSuggestedModifiersEvent;
+  __declspec(property(get = __cordl_internal_get_clearSuggestedModifiersEvent, put = __cordl_internal_set_clearSuggestedModifiersEvent))::System::Action* clearSuggestedModifiersEvent;
 
   /// @brief Field _isPartyOwner, offset 0x108, size 0x1
-  __declspec(property(get = __get__isPartyOwner, put = __set__isPartyOwner)) bool _isPartyOwner;
+  __declspec(property(get = __cordl_internal_get__isPartyOwner, put = __cordl_internal_set__isPartyOwner)) bool _isPartyOwner;
 
   /// @brief Field _isQuickStart, offset 0x109, size 0x1
-  __declspec(property(get = __get__isQuickStart, put = __set__isQuickStart)) bool _isQuickStart;
+  __declspec(property(get = __cordl_internal_get__isQuickStart, put = __cordl_internal_set__isQuickStart)) bool _isQuickStart;
 
-  constexpr ::UnityEngine::UI::Button*& __get__startGameReadyButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__startGameReadyButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__startGameReadyButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__startGameReadyButton() const;
 
-  constexpr void __set__startGameReadyButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__startGameReadyButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__cancelGameUnreadyButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__cancelGameUnreadyButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__cancelGameUnreadyButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelGameUnreadyButton() const;
 
-  constexpr void __set__cancelGameUnreadyButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__cancelGameUnreadyButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::Polyglot::LocalizedTextMeshProUGUI*& __get__startReadyText();
+  constexpr ::UnityW<::Polyglot::LocalizedTextMeshProUGUI>& __cordl_internal_get__startReadyText();
 
-  constexpr ::cordl_internals::to_const_pointer<::Polyglot::LocalizedTextMeshProUGUI*> const& __get__startReadyText() const;
+  constexpr ::UnityW<::Polyglot::LocalizedTextMeshProUGUI> const& __cordl_internal_get__startReadyText() const;
 
-  constexpr void __set__startReadyText(::Polyglot::LocalizedTextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__startReadyText(::UnityW<::Polyglot::LocalizedTextMeshProUGUI> value);
 
-  constexpr ::Polyglot::LocalizedTextMeshProUGUI*& __get__cancelUnreadyText();
+  constexpr ::UnityW<::Polyglot::LocalizedTextMeshProUGUI>& __cordl_internal_get__cancelUnreadyText();
 
-  constexpr ::cordl_internals::to_const_pointer<::Polyglot::LocalizedTextMeshProUGUI*> const& __get__cancelUnreadyText() const;
+  constexpr ::UnityW<::Polyglot::LocalizedTextMeshProUGUI> const& __cordl_internal_get__cancelUnreadyText() const;
 
-  constexpr void __set__cancelUnreadyText(::Polyglot::LocalizedTextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__cancelUnreadyText(::UnityW<::Polyglot::LocalizedTextMeshProUGUI> value);
 
-  constexpr ::GlobalNamespace::GameServersFilterText*& __get__serverSettings();
+  constexpr ::UnityW<::GlobalNamespace::GameServersFilterText>& __cordl_internal_get__serverSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameServersFilterText*> const& __get__serverSettings() const;
+  constexpr ::UnityW<::GlobalNamespace::GameServersFilterText> const& __cordl_internal_get__serverSettings() const;
 
-  constexpr void __set__serverSettings(::GlobalNamespace::GameServersFilterText* value);
+  constexpr void __cordl_internal_set__serverSettings(::UnityW<::GlobalNamespace::GameServersFilterText> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__suggestionHeader();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__suggestionHeader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__suggestionHeader() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__suggestionHeader() const;
 
-  constexpr void __set__suggestionHeader(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__suggestionHeader(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::EditableBeatmapSelectionView*& __get__beatmapSelectionView();
+  constexpr ::UnityW<::GlobalNamespace::EditableBeatmapSelectionView>& __cordl_internal_get__beatmapSelectionView();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EditableBeatmapSelectionView*> const& __get__beatmapSelectionView() const;
+  constexpr ::UnityW<::GlobalNamespace::EditableBeatmapSelectionView> const& __cordl_internal_get__beatmapSelectionView() const;
 
-  constexpr void __set__beatmapSelectionView(::GlobalNamespace::EditableBeatmapSelectionView* value);
+  constexpr void __cordl_internal_set__beatmapSelectionView(::UnityW<::GlobalNamespace::EditableBeatmapSelectionView> value);
 
-  constexpr ::GlobalNamespace::EditableModifiersSelectionView*& __get__modifiersSelectionView();
+  constexpr ::UnityW<::GlobalNamespace::EditableModifiersSelectionView>& __cordl_internal_get__modifiersSelectionView();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EditableModifiersSelectionView*> const& __get__modifiersSelectionView() const;
+  constexpr ::UnityW<::GlobalNamespace::EditableModifiersSelectionView> const& __cordl_internal_get__modifiersSelectionView() const;
 
-  constexpr void __set__modifiersSelectionView(::GlobalNamespace::EditableModifiersSelectionView* value);
+  constexpr void __cordl_internal_set__modifiersSelectionView(::UnityW<::GlobalNamespace::EditableModifiersSelectionView> value);
 
-  constexpr ::HMUI::HoverHint*& __get__cantStartGameHoverHint();
+  constexpr ::UnityW<::HMUI::HoverHint>& __cordl_internal_get__cantStartGameHoverHint();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverHint*> const& __get__cantStartGameHoverHint() const;
+  constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get__cantStartGameHoverHint() const;
 
-  constexpr void __set__cantStartGameHoverHint(::HMUI::HoverHint* value);
+  constexpr void __cordl_internal_set__cantStartGameHoverHint(::UnityW<::HMUI::HoverHint> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__playerMissingLevelHoverHintWrapper();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__playerMissingLevelHoverHintWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__playerMissingLevelHoverHintWrapper() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__playerMissingLevelHoverHintWrapper() const;
 
-  constexpr void __set__playerMissingLevelHoverHintWrapper(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__playerMissingLevelHoverHintWrapper(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::HMUI::HoverHint*& __get__playersMissingLevelHoverHint();
+  constexpr ::UnityW<::HMUI::HoverHint>& __cordl_internal_get__playersMissingLevelHoverHint();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverHint*> const& __get__playersMissingLevelHoverHint() const;
+  constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get__playersMissingLevelHoverHint() const;
 
-  constexpr void __set__playersMissingLevelHoverHint(::HMUI::HoverHint* value);
+  constexpr void __cordl_internal_set__playersMissingLevelHoverHint(::UnityW<::HMUI::HoverHint> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__spectatorWarningTextWrapper();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__spectatorWarningTextWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__spectatorWarningTextWrapper() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__spectatorWarningTextWrapper() const;
 
-  constexpr void __set__spectatorWarningTextWrapper(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__spectatorWarningTextWrapper(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::HMUI::ToggleBinder*& __get__toggleBinder();
+  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __get__toggleBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
 
-  constexpr void __set__toggleBinder(::HMUI::ToggleBinder* value);
+  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  constexpr ::System::Action*& __get_selectBeatmapEvent();
+  constexpr ::System::Action*& __cordl_internal_get_selectBeatmapEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_selectBeatmapEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_selectBeatmapEvent() const;
 
-  constexpr void __set_selectBeatmapEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_selectBeatmapEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_selectModifiersEvent();
+  constexpr ::System::Action*& __cordl_internal_get_selectModifiersEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_selectModifiersEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_selectModifiersEvent() const;
 
-  constexpr void __set_selectModifiersEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_selectModifiersEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_startGameOrReadyEvent();
+  constexpr ::System::Action*& __cordl_internal_get_startGameOrReadyEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_startGameOrReadyEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_startGameOrReadyEvent() const;
 
-  constexpr void __set_startGameOrReadyEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_startGameOrReadyEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_cancelGameOrUnreadyEvent();
+  constexpr ::System::Action*& __cordl_internal_get_cancelGameOrUnreadyEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_cancelGameOrUnreadyEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_cancelGameOrUnreadyEvent() const;
 
-  constexpr void __set_cancelGameOrUnreadyEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_cancelGameOrUnreadyEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_clearSuggestedBeatmapEvent();
+  constexpr ::System::Action*& __cordl_internal_get_clearSuggestedBeatmapEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_clearSuggestedBeatmapEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_clearSuggestedBeatmapEvent() const;
 
-  constexpr void __set_clearSuggestedBeatmapEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_clearSuggestedBeatmapEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_clearSuggestedModifiersEvent();
+  constexpr ::System::Action*& __cordl_internal_get_clearSuggestedModifiersEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_clearSuggestedModifiersEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_clearSuggestedModifiersEvent() const;
 
-  constexpr void __set_clearSuggestedModifiersEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_clearSuggestedModifiersEvent(::System::Action* value);
 
-  constexpr bool& __get__isPartyOwner();
+  constexpr bool& __cordl_internal_get__isPartyOwner();
 
-  constexpr bool const& __get__isPartyOwner() const;
+  constexpr bool const& __cordl_internal_get__isPartyOwner() const;
 
-  constexpr void __set__isPartyOwner(bool value);
+  constexpr void __cordl_internal_set__isPartyOwner(bool value);
 
-  constexpr bool& __get__isQuickStart();
+  constexpr bool& __cordl_internal_get__isQuickStart();
 
-  constexpr bool const& __get__isQuickStart() const;
+  constexpr bool const& __cordl_internal_get__isQuickStart() const;
 
-  constexpr void __set__isQuickStart(bool value);
+  constexpr void __cordl_internal_set__isQuickStart(bool value);
 
   /// @brief Method add_selectBeatmapEvent, addr 0x22cddf0, size 0x9c, virtual false, abstract: false, final false
   inline void add_selectBeatmapEvent(::System::Action* value);
@@ -347,40 +351,40 @@ protected:
 
 public:
   /// @brief Field _startGameReadyButton, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____startGameReadyButton;
+  ::UnityW<::UnityEngine::UI::Button> ____startGameReadyButton;
 
   /// @brief Field _cancelGameUnreadyButton, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____cancelGameUnreadyButton;
+  ::UnityW<::UnityEngine::UI::Button> ____cancelGameUnreadyButton;
 
   /// @brief Field _startReadyText, offset: 0x80, size: 0x8, def value: None
-  ::Polyglot::LocalizedTextMeshProUGUI* ____startReadyText;
+  ::UnityW<::Polyglot::LocalizedTextMeshProUGUI> ____startReadyText;
 
   /// @brief Field _cancelUnreadyText, offset: 0x88, size: 0x8, def value: None
-  ::Polyglot::LocalizedTextMeshProUGUI* ____cancelUnreadyText;
+  ::UnityW<::Polyglot::LocalizedTextMeshProUGUI> ____cancelUnreadyText;
 
   /// @brief Field _serverSettings, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::GameServersFilterText* ____serverSettings;
+  ::UnityW<::GlobalNamespace::GameServersFilterText> ____serverSettings;
 
   /// @brief Field _suggestionHeader, offset: 0x98, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____suggestionHeader;
+  ::UnityW<::UnityEngine::GameObject> ____suggestionHeader;
 
   /// @brief Field _beatmapSelectionView, offset: 0xa0, size: 0x8, def value: None
-  ::GlobalNamespace::EditableBeatmapSelectionView* ____beatmapSelectionView;
+  ::UnityW<::GlobalNamespace::EditableBeatmapSelectionView> ____beatmapSelectionView;
 
   /// @brief Field _modifiersSelectionView, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::EditableModifiersSelectionView* ____modifiersSelectionView;
+  ::UnityW<::GlobalNamespace::EditableModifiersSelectionView> ____modifiersSelectionView;
 
   /// @brief Field _cantStartGameHoverHint, offset: 0xb0, size: 0x8, def value: None
-  ::HMUI::HoverHint* ____cantStartGameHoverHint;
+  ::UnityW<::HMUI::HoverHint> ____cantStartGameHoverHint;
 
   /// @brief Field _playerMissingLevelHoverHintWrapper, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____playerMissingLevelHoverHintWrapper;
+  ::UnityW<::UnityEngine::GameObject> ____playerMissingLevelHoverHintWrapper;
 
   /// @brief Field _playersMissingLevelHoverHint, offset: 0xc0, size: 0x8, def value: None
-  ::HMUI::HoverHint* ____playersMissingLevelHoverHint;
+  ::UnityW<::HMUI::HoverHint> ____playersMissingLevelHoverHint;
 
   /// @brief Field _spectatorWarningTextWrapper, offset: 0xc8, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____spectatorWarningTextWrapper;
+  ::UnityW<::UnityEngine::GameObject> ____spectatorWarningTextWrapper;
 
   /// @brief Field _toggleBinder, offset: 0xd0, size: 0x8, def value: None
   ::HMUI::ToggleBinder* ____toggleBinder;

@@ -34,22 +34,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ECNamedDomainParameters)
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1033))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1033))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1034))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::ECNamedDomainParameters*
 class CORDL_TYPE ECNamedDomainParameters : public ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters {
 public:
   // Declarations
   /// @brief Field name, offset 0x40, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::Org::BouncyCastle::Asn1::DerObjectIdentifier* name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::Org::BouncyCastle::Asn1::DerObjectIdentifier* name;
 
   __declspec(property(get = get_Name))::Org::BouncyCastle::Asn1::DerObjectIdentifier* Name;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_name();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_name();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_name() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_name(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
   /// @brief Method get_Name, addr 0xf32da0, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Name();

@@ -47,33 +47,33 @@ MARK_REF_PTR_T(::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4002))
 // CS Name: ::LevelFailedTextOverride::LanguageOverride*
 class CORDL_TYPE __LevelFailedTextOverride__LanguageOverride : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _language, offset 0x10, size 0x4
-  __declspec(property(get = __get__language, put = __set__language))::Polyglot::Language _language;
+  __declspec(property(get = __cordl_internal_get__language, put = __cordl_internal_set__language))::Polyglot::Language _language;
 
   /// @brief Field _overrideText, offset 0x18, size 0x8
-  __declspec(property(get = __get__overrideText, put = __set__overrideText))::StringW _overrideText;
+  __declspec(property(get = __cordl_internal_get__overrideText, put = __cordl_internal_set__overrideText))::StringW _overrideText;
 
   __declspec(property(get = get_language))::Polyglot::Language language;
 
   __declspec(property(get = get_overrideText))::StringW overrideText;
 
-  constexpr ::Polyglot::Language& __get__language();
+  constexpr ::Polyglot::Language& __cordl_internal_get__language();
 
-  constexpr ::Polyglot::Language const& __get__language() const;
+  constexpr ::Polyglot::Language const& __cordl_internal_get__language() const;
 
-  constexpr void __set__language(::Polyglot::Language value);
+  constexpr void __cordl_internal_set__language(::Polyglot::Language value);
 
-  constexpr ::StringW& __get__overrideText();
+  constexpr ::StringW& __cordl_internal_get__overrideText();
 
-  constexpr ::StringW const& __get__overrideText() const;
+  constexpr ::StringW const& __cordl_internal_get__overrideText() const;
 
-  constexpr void __set__overrideText(::StringW value);
+  constexpr void __cordl_internal_set__overrideText(::StringW value);
 
   /// @brief Method get_language, addr 0x2220ff0, size 0x8, virtual false, abstract: false, final false
   inline ::Polyglot::Language get_language();
@@ -120,20 +120,20 @@ static_assert(offsetof(::GlobalNamespace::__LevelFailedTextOverride__LanguageOve
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4003))
 // CS Name: ::LevelFailedTextOverride::<>c__DisplayClass6_0*
 class CORDL_TYPE __LevelFailedTextOverride____c__DisplayClass6_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field selectedLanguage, offset 0x10, size 0x4
-  __declspec(property(get = __get_selectedLanguage, put = __set_selectedLanguage))::Polyglot::Language selectedLanguage;
+  __declspec(property(get = __cordl_internal_get_selectedLanguage, put = __cordl_internal_set_selectedLanguage))::Polyglot::Language selectedLanguage;
 
-  constexpr ::Polyglot::Language& __get_selectedLanguage();
+  constexpr ::Polyglot::Language& __cordl_internal_get_selectedLanguage();
 
-  constexpr ::Polyglot::Language const& __get_selectedLanguage() const;
+  constexpr ::Polyglot::Language const& __cordl_internal_get_selectedLanguage() const;
 
-  constexpr void __set_selectedLanguage(::Polyglot::Language value);
+  constexpr void __cordl_internal_set_selectedLanguage(::Polyglot::Language value);
 
   static inline ::GlobalNamespace::__LevelFailedTextOverride____c__DisplayClass6_0* New_ctor();
 
@@ -172,7 +172,7 @@ static_assert(offsetof(::GlobalNamespace::__LevelFailedTextOverride____c__Displa
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4004))
 // CS Name: ::LevelFailedTextOverride*
 class CORDL_TYPE LevelFailedTextOverride : public ::UnityEngine::MonoBehaviour {
@@ -183,53 +183,58 @@ public:
   using LanguageOverride = ::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride;
 
   /// @brief Field _perLanguageOverrides, offset 0x18, size 0x8
-  __declspec(property(get = __get__perLanguageOverrides, put = __set__perLanguageOverrides))::ArrayW<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*,
-                                                                                                     ::Array<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>*> _perLanguageOverrides;
+  __declspec(property(get = __cordl_internal_get__perLanguageOverrides,
+                      put = __cordl_internal_set__perLanguageOverrides))::ArrayW<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*,
+                                                                                 ::Array<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>*> _perLanguageOverrides;
 
   /// @brief Field _beatmapLevelPacks, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapLevelPacks,
-                      put = __set__beatmapLevelPacks))::ArrayW<::GlobalNamespace::PreviewBeatmapLevelPackSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelPackSO*>*> _beatmapLevelPacks;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelPacks,
+                      put = __cordl_internal_set__beatmapLevelPacks))::ArrayW<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>,
+                                                                              ::Array<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>>*> _beatmapLevelPacks;
 
   /// @brief Field _beatmapLevels, offset 0x28, size 0x8
-  __declspec(property(get = __get__beatmapLevels, put = __set__beatmapLevels))::ArrayW<::GlobalNamespace::PreviewBeatmapLevelSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelSO*>*> _beatmapLevels;
+  __declspec(
+      property(get = __cordl_internal_get__beatmapLevels,
+               put = __cordl_internal_set__beatmapLevels))::ArrayW<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>>*> _beatmapLevels;
 
   /// @brief Field _levelFailedTextEffect, offset 0x30, size 0x8
-  __declspec(property(get = __get__levelFailedTextEffect, put = __set__levelFailedTextEffect))::GlobalNamespace::LevelFailedText* _levelFailedTextEffect;
+  __declspec(property(get = __cordl_internal_get__levelFailedTextEffect, put = __cordl_internal_set__levelFailedTextEffect))::UnityW<::GlobalNamespace::LevelFailedText> _levelFailedTextEffect;
 
   /// @brief Field _difficultyBeatmap, offset 0x38, size 0x8
-  __declspec(property(get = __get__difficultyBeatmap, put = __set__difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* _difficultyBeatmap;
+  __declspec(property(get = __cordl_internal_get__difficultyBeatmap, put = __cordl_internal_set__difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* _difficultyBeatmap;
 
-  constexpr ::ArrayW<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*, ::Array<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>*>& __get__perLanguageOverrides();
+  constexpr ::ArrayW<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*, ::Array<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>*>&
+  __cordl_internal_get__perLanguageOverrides();
 
   constexpr ::ArrayW<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*, ::Array<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>*> const&
-  __get__perLanguageOverrides() const;
+  __cordl_internal_get__perLanguageOverrides() const;
 
-  constexpr void
-  __set__perLanguageOverrides(::ArrayW<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*, ::Array<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>*> value);
+  constexpr void __cordl_internal_set__perLanguageOverrides(
+      ::ArrayW<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*, ::Array<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::PreviewBeatmapLevelPackSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelPackSO*>*>& __get__beatmapLevelPacks();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>, ::Array<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>>*>& __cordl_internal_get__beatmapLevelPacks();
 
-  constexpr ::ArrayW<::GlobalNamespace::PreviewBeatmapLevelPackSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelPackSO*>*> const& __get__beatmapLevelPacks() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>, ::Array<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>>*> const& __cordl_internal_get__beatmapLevelPacks() const;
 
-  constexpr void __set__beatmapLevelPacks(::ArrayW<::GlobalNamespace::PreviewBeatmapLevelPackSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelPackSO*>*> value);
+  constexpr void __cordl_internal_set__beatmapLevelPacks(::ArrayW<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>, ::Array<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::PreviewBeatmapLevelSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelSO*>*>& __get__beatmapLevels();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>>*>& __cordl_internal_get__beatmapLevels();
 
-  constexpr ::ArrayW<::GlobalNamespace::PreviewBeatmapLevelSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelSO*>*> const& __get__beatmapLevels() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>>*> const& __cordl_internal_get__beatmapLevels() const;
 
-  constexpr void __set__beatmapLevels(::ArrayW<::GlobalNamespace::PreviewBeatmapLevelSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelSO*>*> value);
+  constexpr void __cordl_internal_set__beatmapLevels(::ArrayW<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>>*> value);
 
-  constexpr ::GlobalNamespace::LevelFailedText*& __get__levelFailedTextEffect();
+  constexpr ::UnityW<::GlobalNamespace::LevelFailedText>& __cordl_internal_get__levelFailedTextEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelFailedText*> const& __get__levelFailedTextEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::LevelFailedText> const& __cordl_internal_get__levelFailedTextEffect() const;
 
-  constexpr void __set__levelFailedTextEffect(::GlobalNamespace::LevelFailedText* value);
+  constexpr void __cordl_internal_set__levelFailedTextEffect(::UnityW<::GlobalNamespace::LevelFailedText> value);
 
-  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __get__difficultyBeatmap();
+  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __cordl_internal_get__difficultyBeatmap();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __get__difficultyBeatmap() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __cordl_internal_get__difficultyBeatmap() const;
 
-  constexpr void __set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
+  constexpr void __cordl_internal_set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
 
   /// @brief Method Start, addr 0x2220958, size 0x688, virtual false, abstract: false, final false
   inline void Start();
@@ -257,13 +262,13 @@ public:
   ::ArrayW<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*, ::Array<::GlobalNamespace::__LevelFailedTextOverride__LanguageOverride*>*> ____perLanguageOverrides;
 
   /// @brief Field _beatmapLevelPacks, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::PreviewBeatmapLevelPackSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelPackSO*>*> ____beatmapLevelPacks;
+  ::ArrayW<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>, ::Array<::UnityW<::GlobalNamespace::PreviewBeatmapLevelPackSO>>*> ____beatmapLevelPacks;
 
   /// @brief Field _beatmapLevels, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::PreviewBeatmapLevelSO*, ::Array<::GlobalNamespace::PreviewBeatmapLevelSO*>*> ____beatmapLevels;
+  ::ArrayW<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::PreviewBeatmapLevelSO>>*> ____beatmapLevels;
 
   /// @brief Field _levelFailedTextEffect, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::LevelFailedText* ____levelFailedTextEffect;
+  ::UnityW<::GlobalNamespace::LevelFailedText> ____levelFailedTextEffect;
 
   /// @brief Field _difficultyBeatmap, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IDifficultyBeatmap* ____difficultyBeatmap;

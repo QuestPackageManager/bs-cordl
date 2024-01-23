@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Mono::Security::ASN1Convert);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13738))
 // CS Name: ::Mono.Security::ASN1Convert*
 class CORDL_TYPE ASN1Convert : public ::System::Object {

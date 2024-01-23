@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Users::InputUserPairingOptions);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6367))
 // CS Name: ::UnityEngine.InputSystem.Users::InputUserPairingOptions
 struct CORDL_TYPE InputUserPairingOptions {

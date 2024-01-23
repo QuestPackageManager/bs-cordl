@@ -44,20 +44,20 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonFormatterConverter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11912))
 // CS Name: ::Newtonsoft.Json.Serialization::JsonFormatterConverter*
 class CORDL_TYPE JsonFormatterConverter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _reader, offset 0x10, size 0x8
-  __declspec(property(get = __get__reader, put = __set__reader))::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* _reader;
+  __declspec(property(get = __cordl_internal_get__reader, put = __cordl_internal_set__reader))::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* _reader;
 
   /// @brief Field _contract, offset 0x18, size 0x8
-  __declspec(property(get = __get__contract, put = __set__contract))::Newtonsoft::Json::Serialization::JsonISerializableContract* _contract;
+  __declspec(property(get = __cordl_internal_get__contract, put = __cordl_internal_set__contract))::Newtonsoft::Json::Serialization::JsonISerializableContract* _contract;
 
   /// @brief Field _member, offset 0x20, size 0x8
-  __declspec(property(get = __get__member, put = __set__member))::Newtonsoft::Json::Serialization::JsonProperty* _member;
+  __declspec(property(get = __cordl_internal_get__member, put = __cordl_internal_set__member))::Newtonsoft::Json::Serialization::JsonProperty* _member;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::IFormatterConverter"
   constexpr operator ::System::Runtime::Serialization::IFormatterConverter*() noexcept;
@@ -65,23 +65,23 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::IFormatterConverter"
   constexpr ::System::Runtime::Serialization::IFormatterConverter* i___System__Runtime__Serialization__IFormatterConverter() noexcept;
 
-  constexpr ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*& __get__reader();
+  constexpr ::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*& __cordl_internal_get__reader();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*> const& __get__reader() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonSerializerInternalReader*> const& __cordl_internal_get__reader() const;
 
-  constexpr void __set__reader(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* value);
+  constexpr void __cordl_internal_set__reader(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* value);
 
-  constexpr ::Newtonsoft::Json::Serialization::JsonISerializableContract*& __get__contract();
+  constexpr ::Newtonsoft::Json::Serialization::JsonISerializableContract*& __cordl_internal_get__contract();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonISerializableContract*> const& __get__contract() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonISerializableContract*> const& __cordl_internal_get__contract() const;
 
-  constexpr void __set__contract(::Newtonsoft::Json::Serialization::JsonISerializableContract* value);
+  constexpr void __cordl_internal_set__contract(::Newtonsoft::Json::Serialization::JsonISerializableContract* value);
 
-  constexpr ::Newtonsoft::Json::Serialization::JsonProperty*& __get__member();
+  constexpr ::Newtonsoft::Json::Serialization::JsonProperty*& __cordl_internal_get__member();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonProperty*> const& __get__member() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonProperty*> const& __cordl_internal_get__member() const;
 
-  constexpr void __set__member(::Newtonsoft::Json::Serialization::JsonProperty* value);
+  constexpr void __cordl_internal_set__member(::Newtonsoft::Json::Serialization::JsonProperty* value);
 
   static inline ::Newtonsoft::Json::Serialization::JsonFormatterConverter* New_ctor(::Newtonsoft::Json::Serialization::JsonSerializerInternalReader* reader,
                                                                                     ::Newtonsoft::Json::Serialization::JsonISerializableContract* contract,

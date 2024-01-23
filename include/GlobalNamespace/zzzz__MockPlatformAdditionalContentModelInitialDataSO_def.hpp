@@ -21,22 +21,23 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataS
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4105))
 // CS Name: ::MockPlatformAdditionalContentModelInitialDataSO*
 class CORDL_TYPE MockPlatformAdditionalContentModelInitialDataSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _levelsEntitlements, offset 0x18, size 0x8
-  __declspec(property(get = __get__levelsEntitlements,
-                      put = __set__levelsEntitlements))::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> _levelsEntitlements;
+  __declspec(property(get = __cordl_internal_get__levelsEntitlements,
+                      put = __cordl_internal_set__levelsEntitlements))::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> _levelsEntitlements;
 
   /// @brief Field _levelPacksEntitlements, offset 0x20, size 0x8
-  __declspec(property(get = __get__levelPacksEntitlements,
-                      put = __set__levelPacksEntitlements))::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> _levelPacksEntitlements;
+  __declspec(
+      property(get = __cordl_internal_get__levelPacksEntitlements,
+               put = __cordl_internal_set__levelPacksEntitlements))::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> _levelPacksEntitlements;
 
   /// @brief Field _packBetterBuyThanLevel, offset 0x28, size 0x1
-  __declspec(property(get = __get__packBetterBuyThanLevel, put = __set__packBetterBuyThanLevel)) bool _packBetterBuyThanLevel;
+  __declspec(property(get = __cordl_internal_get__packBetterBuyThanLevel, put = __cordl_internal_set__packBetterBuyThanLevel)) bool _packBetterBuyThanLevel;
 
   __declspec(property(get = get_levelsEntitlements))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* levelsEntitlements;
 
@@ -44,23 +45,23 @@ public:
 
   __declspec(property(get = get_packBetterBuyThanLevel)) bool packBetterBuyThanLevel;
 
-  constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*>& __get__levelsEntitlements();
+  constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*>& __cordl_internal_get__levelsEntitlements();
 
-  constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> const& __get__levelsEntitlements() const;
+  constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> const& __cordl_internal_get__levelsEntitlements() const;
 
-  constexpr void __set__levelsEntitlements(::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> value);
+  constexpr void __cordl_internal_set__levelsEntitlements(::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*>& __get__levelPacksEntitlements();
+  constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*>& __cordl_internal_get__levelPacksEntitlements();
 
-  constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> const& __get__levelPacksEntitlements() const;
+  constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> const& __cordl_internal_get__levelPacksEntitlements() const;
 
-  constexpr void __set__levelPacksEntitlements(::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> value);
+  constexpr void __cordl_internal_set__levelPacksEntitlements(::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> value);
 
-  constexpr bool& __get__packBetterBuyThanLevel();
+  constexpr bool& __cordl_internal_get__packBetterBuyThanLevel();
 
-  constexpr bool const& __get__packBetterBuyThanLevel() const;
+  constexpr bool const& __cordl_internal_get__packBetterBuyThanLevel() const;
 
-  constexpr void __set__packBetterBuyThanLevel(bool value);
+  constexpr void __cordl_internal_set__packBetterBuyThanLevel(bool value);
 
   /// @brief Method get_levelsEntitlements, addr 0x2235244, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* get_levelsEntitlements();

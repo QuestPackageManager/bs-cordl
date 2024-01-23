@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Net::HttpListenerException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9492))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9492))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9063))
 // CS Name: ::System.Net::HttpListenerException*
 class CORDL_TYPE HttpListenerException : public ::System::ComponentModel::Win32Exception {

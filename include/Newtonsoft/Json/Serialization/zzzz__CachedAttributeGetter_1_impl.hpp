@@ -14,9 +14,9 @@ template <typename T> inline ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::CachedAttributeGetter_1<T>*>::get>();
 }
 template <typename T> inline T Newtonsoft::Json::Serialization::CachedAttributeGetter_1<T>::GetAttribute(::System::Object* type) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::CachedAttributeGetter_1<T>*>::get(), "GetAttribute",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::CachedAttributeGetter_1<T>*>::get(), "GetAttribute",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, type);
 }
 // Ctor Parameters []

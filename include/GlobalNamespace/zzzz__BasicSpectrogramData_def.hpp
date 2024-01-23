@@ -23,69 +23,69 @@ MARK_REF_PTR_T(::GlobalNamespace::BasicSpectrogramData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4998))
 // CS Name: ::BasicSpectrogramData*
 class CORDL_TYPE BasicSpectrogramData : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _audioSource, offset 0x18, size 0x8
-  __declspec(property(get = __get__audioSource, put = __set__audioSource))::UnityEngine::AudioSource* _audioSource;
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
 
   /// @brief Field _instantChangeThreshold, offset 0x20, size 0x4
-  __declspec(property(get = __get__instantChangeThreshold, put = __set__instantChangeThreshold)) float_t _instantChangeThreshold;
+  __declspec(property(get = __cordl_internal_get__instantChangeThreshold, put = __cordl_internal_set__instantChangeThreshold)) float_t _instantChangeThreshold;
 
   /// @brief Field _hasData, offset 0x24, size 0x1
-  __declspec(property(get = __get__hasData, put = __set__hasData)) bool _hasData;
+  __declspec(property(get = __cordl_internal_get__hasData, put = __cordl_internal_set__hasData)) bool _hasData;
 
   /// @brief Field _hasProcessedData, offset 0x25, size 0x1
-  __declspec(property(get = __get__hasProcessedData, put = __set__hasProcessedData)) bool _hasProcessedData;
+  __declspec(property(get = __cordl_internal_get__hasProcessedData, put = __cordl_internal_set__hasProcessedData)) bool _hasProcessedData;
 
   /// @brief Field _samples, offset 0x28, size 0x8
-  __declspec(property(get = __get__samples, put = __set__samples))::ArrayW<float_t, ::Array<float_t>*> _samples;
+  __declspec(property(get = __cordl_internal_get__samples, put = __cordl_internal_set__samples))::ArrayW<float_t, ::Array<float_t>*> _samples;
 
   /// @brief Field _processedSamples, offset 0x30, size 0x8
-  __declspec(property(get = __get__processedSamples, put = __set__processedSamples))::System::Collections::Generic::List_1<float_t>* _processedSamples;
+  __declspec(property(get = __cordl_internal_get__processedSamples, put = __cordl_internal_set__processedSamples))::System::Collections::Generic::List_1<float_t>* _processedSamples;
 
   __declspec(property(get = get_Samples))::ArrayW<float_t, ::Array<float_t>*> Samples;
 
   __declspec(property(get = get_ProcessedSamples))::System::Collections::Generic::List_1<float_t>* ProcessedSamples;
 
-  constexpr ::UnityEngine::AudioSource*& __get__audioSource();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get__audioSource() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
 
-  constexpr void __set__audioSource(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr float_t& __get__instantChangeThreshold();
+  constexpr float_t& __cordl_internal_get__instantChangeThreshold();
 
-  constexpr float_t const& __get__instantChangeThreshold() const;
+  constexpr float_t const& __cordl_internal_get__instantChangeThreshold() const;
 
-  constexpr void __set__instantChangeThreshold(float_t value);
+  constexpr void __cordl_internal_set__instantChangeThreshold(float_t value);
 
-  constexpr bool& __get__hasData();
+  constexpr bool& __cordl_internal_get__hasData();
 
-  constexpr bool const& __get__hasData() const;
+  constexpr bool const& __cordl_internal_get__hasData() const;
 
-  constexpr void __set__hasData(bool value);
+  constexpr void __cordl_internal_set__hasData(bool value);
 
-  constexpr bool& __get__hasProcessedData();
+  constexpr bool& __cordl_internal_get__hasProcessedData();
 
-  constexpr bool const& __get__hasProcessedData() const;
+  constexpr bool const& __cordl_internal_get__hasProcessedData() const;
 
-  constexpr void __set__hasProcessedData(bool value);
+  constexpr void __cordl_internal_set__hasProcessedData(bool value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get__samples();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__samples();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get__samples() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__samples() const;
 
-  constexpr void __set__samples(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set__samples(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr ::System::Collections::Generic::List_1<float_t>*& __get__processedSamples();
+  constexpr ::System::Collections::Generic::List_1<float_t>*& __cordl_internal_get__processedSamples();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& __get__processedSamples() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<float_t>*> const& __cordl_internal_get__processedSamples() const;
 
-  constexpr void __set__processedSamples(::System::Collections::Generic::List_1<float_t>* value);
+  constexpr void __cordl_internal_set__processedSamples(::System::Collections::Generic::List_1<float_t>* value);
 
   /// @brief Method get_Samples, addr 0x23b6928, size 0x98, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_Samples();
@@ -122,7 +122,7 @@ protected:
 
 public:
   /// @brief Field _audioSource, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ____audioSource;
+  ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
   /// @brief Field _instantChangeThreshold, offset: 0x20, size: 0x4, def value: None
   float_t ____instantChangeThreshold;

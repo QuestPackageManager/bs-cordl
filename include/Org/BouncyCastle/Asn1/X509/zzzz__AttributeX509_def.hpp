@@ -33,33 +33,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::AttributeX509);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(293))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::AttributeX509*
 class CORDL_TYPE AttributeX509 : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field attrType, offset 0x10, size 0x8
-  __declspec(property(get = __get_attrType, put = __set_attrType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType;
+  __declspec(property(get = __cordl_internal_get_attrType, put = __cordl_internal_set_attrType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* attrType;
 
   /// @brief Field attrValues, offset 0x18, size 0x8
-  __declspec(property(get = __get_attrValues, put = __set_attrValues))::Org::BouncyCastle::Asn1::Asn1Set* attrValues;
+  __declspec(property(get = __cordl_internal_get_attrValues, put = __cordl_internal_set_attrValues))::Org::BouncyCastle::Asn1::Asn1Set* attrValues;
 
   __declspec(property(get = get_AttrType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* AttrType;
 
   __declspec(property(get = get_AttrValues))::Org::BouncyCastle::Asn1::Asn1Set* AttrValues;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_attrType();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_attrType();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_attrType() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_attrType() const;
 
-  constexpr void __set_attrType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_attrType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __get_attrValues();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_attrValues();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __get_attrValues() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_attrValues() const;
 
-  constexpr void __set_attrValues(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  constexpr void __cordl_internal_set_attrValues(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
   /// @brief Method GetInstance, addr 0x1073ffc, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::AttributeX509* GetInstance(::System::Object* obj);

@@ -267,7 +267,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::EC::__CustomNamedCurves__SecT571R1Ho
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(785))
 // CS Name: ::CustomNamedCurves::Curve25519Holder*
 class CORDL_TYPE __CustomNamedCurves__Curve25519Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -312,7 +312,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(786))
 // CS Name: ::CustomNamedCurves::SecP128R1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecP128R1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -357,7 +357,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(787))
 // CS Name: ::CustomNamedCurves::SecP160K1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecP160K1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -402,7 +402,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(788))
 // CS Name: ::CustomNamedCurves::SecP160R1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecP160R1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -447,7 +447,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(789))
 // CS Name: ::CustomNamedCurves::SecP160R2Holder*
 class CORDL_TYPE __CustomNamedCurves__SecP160R2Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -492,7 +492,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(790))
 // CS Name: ::CustomNamedCurves::SecP192K1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecP192K1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -537,7 +537,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(791))
 // CS Name: ::CustomNamedCurves::SecP192R1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecP192R1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -582,7 +582,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(792))
 // CS Name: ::CustomNamedCurves::SecP224K1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecP224K1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -627,7 +627,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(793))
 // CS Name: ::CustomNamedCurves::SecP224R1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecP224R1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -672,7 +672,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(794))
 // CS Name: ::CustomNamedCurves::SecP256K1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecP256K1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -717,7 +717,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(795))
 // CS Name: ::CustomNamedCurves::SecP256R1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecP256R1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -762,7 +762,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(796))
 // CS Name: ::CustomNamedCurves::SecP384R1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecP384R1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -807,7 +807,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(797))
 // CS Name: ::CustomNamedCurves::SecP521R1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecP521R1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -852,7 +852,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(798))
 // CS Name: ::CustomNamedCurves::SecT113R1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT113R1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -897,7 +897,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(799))
 // CS Name: ::CustomNamedCurves::SecT113R2Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT113R2Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -942,7 +942,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(800))
 // CS Name: ::CustomNamedCurves::SecT131R1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT131R1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -987,7 +987,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(801))
 // CS Name: ::CustomNamedCurves::SecT131R2Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT131R2Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -1032,7 +1032,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(802))
 // CS Name: ::CustomNamedCurves::SecT163K1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT163K1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -1077,7 +1077,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(803))
 // CS Name: ::CustomNamedCurves::SecT163R1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT163R1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -1122,7 +1122,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(804))
 // CS Name: ::CustomNamedCurves::SecT163R2Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT163R2Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -1167,7 +1167,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(805))
 // CS Name: ::CustomNamedCurves::SecT193R1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT193R1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -1212,7 +1212,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(806))
 // CS Name: ::CustomNamedCurves::SecT193R2Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT193R2Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -1257,7 +1257,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(807))
 // CS Name: ::CustomNamedCurves::SecT233K1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT233K1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -1302,7 +1302,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(808))
 // CS Name: ::CustomNamedCurves::SecT233R1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT233R1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -1347,7 +1347,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(809))
 // CS Name: ::CustomNamedCurves::SecT239K1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT239K1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -1392,7 +1392,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(810))
 // CS Name: ::CustomNamedCurves::SecT283K1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT283K1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -1437,7 +1437,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(811))
 // CS Name: ::CustomNamedCurves::SecT283R1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT283R1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -1482,7 +1482,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(812))
 // CS Name: ::CustomNamedCurves::SecT409K1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT409K1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -1527,7 +1527,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(813))
 // CS Name: ::CustomNamedCurves::SecT409R1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT409R1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -1572,7 +1572,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(814))
 // CS Name: ::CustomNamedCurves::SecT571K1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT571K1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -1617,7 +1617,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(815))
 // CS Name: ::CustomNamedCurves::SecT571R1Holder*
 class CORDL_TYPE __CustomNamedCurves__SecT571R1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -1662,7 +1662,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(816))
 // CS Name: ::CustomNamedCurves::SM2P256V1Holder*
 class CORDL_TYPE __CustomNamedCurves__SM2P256V1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -1707,7 +1707,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::EC::_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(817))
 // CS Name: ::Org.BouncyCastle.Crypto.EC::CustomNamedCurves*
 class CORDL_TYPE CustomNamedCurves : public ::System::Object {

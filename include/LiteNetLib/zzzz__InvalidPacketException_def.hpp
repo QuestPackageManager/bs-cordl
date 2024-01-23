@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::LiteNetLib::InvalidPacketException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2344))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2344))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14160))
 // CS Name: ::LiteNetLib::InvalidPacketException*
 class CORDL_TYPE InvalidPacketException : public ::System::ArgumentException {

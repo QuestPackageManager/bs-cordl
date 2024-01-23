@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Threading::Tasks::Sources::ValueTaskSourceStatus);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading::Tasks::Sources {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2822))
 // CS Name: ::System.Threading.Tasks.Sources::ValueTaskSourceStatus
 struct CORDL_TYPE ValueTaskSourceStatus {

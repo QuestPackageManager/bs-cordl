@@ -25,7 +25,7 @@ MARK_VAL_T(::HoudiniEngineUnity::TransformData);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9823))
 // CS Name: ::HoudiniEngineUnity::TransformData
 struct CORDL_TYPE TransformData {
@@ -42,10 +42,10 @@ public:
 
   // Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "",
   // def_value: None }, CppParam { name: "localPosition", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }, CppParam { name: "localScale", ty: "::UnityEngine::Vector3", modifiers: "",
-  // def_value: None }, CppParam { name: "localRotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "parent", ty: "::UnityEngine::Transform*", modifiers: "",
-  // def_value: None }]
+  // def_value: None }, CppParam { name: "localRotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: None }, CppParam { name: "parent", ty: "::UnityW<::UnityEngine::Transform>",
+  // modifiers: "", def_value: None }]
   constexpr TransformData(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 localPosition, ::UnityEngine::Vector3 localScale,
-                          ::UnityEngine::Quaternion localRotation, ::UnityEngine::Transform* parent) noexcept;
+                          ::UnityEngine::Quaternion localRotation, ::UnityW<::UnityEngine::Transform> parent) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -67,7 +67,7 @@ public:
   ::UnityEngine::Quaternion localRotation;
 
   /// @brief Field parent, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Transform* parent;
+  ::UnityW<::UnityEngine::Transform> parent;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };

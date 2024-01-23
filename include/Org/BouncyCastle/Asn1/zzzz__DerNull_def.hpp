@@ -22,23 +22,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerNull);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(454))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(454))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(477))
 // CS Name: ::Org.BouncyCastle.Asn1::DerNull*
 class CORDL_TYPE DerNull : public ::Org::BouncyCastle::Asn1::Asn1Null {
 public:
   // Declarations
   /// @brief Field zeroBytes, offset 0x10, size 0x8
-  __declspec(property(get = __get_zeroBytes, put = __set_zeroBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> zeroBytes;
+  __declspec(property(get = __cordl_internal_get_zeroBytes, put = __cordl_internal_set_zeroBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> zeroBytes;
 
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::DerNull* Instance;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_zeroBytes();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_zeroBytes();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_zeroBytes() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_zeroBytes() const;
 
-  constexpr void __set_zeroBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_zeroBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::DerNull* value);
 

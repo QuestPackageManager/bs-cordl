@@ -16,19 +16,19 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::ChallengeList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13430)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst: 1171 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13426))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13427)) CS Name: ::Oculus.Platform.Models::ChallengeList*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13426)), TypeDefinitionIndex(TypeDefinitionIndex(13430)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13430), inst:
+// 1171 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13427)) CS Name: ::Oculus.Platform.Models::ChallengeList*
 class CORDL_TYPE ChallengeList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Challenge*> {
 public:
   // Declarations
   /// @brief Field TotalCount, offset 0x28, size 0x8
-  __declspec(property(get = __get_TotalCount, put = __set_TotalCount)) uint64_t TotalCount;
+  __declspec(property(get = __cordl_internal_get_TotalCount, put = __cordl_internal_set_TotalCount)) uint64_t TotalCount;
 
-  constexpr uint64_t& __get_TotalCount();
+  constexpr uint64_t& __cordl_internal_get_TotalCount();
 
-  constexpr uint64_t const& __get_TotalCount() const;
+  constexpr uint64_t const& __cordl_internal_get_TotalCount() const;
 
-  constexpr void __set_TotalCount(uint64_t value);
+  constexpr void __cordl_internal_set_TotalCount(uint64_t value);
 
   static inline ::Oculus::Platform::Models::ChallengeList* New_ctor(void* a);
 

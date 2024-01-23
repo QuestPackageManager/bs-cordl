@@ -66,103 +66,103 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9527))
 // CS Name: ::ConcurrentBag`1::WorkStealingQueue<T>*
 class CORDL_TYPE __ConcurrentBag_1__WorkStealingQueue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _headIndex, offset 0x10, size 0x4
-  __declspec(property(get = __get__headIndex, put = __set__headIndex)) int32_t _headIndex;
+  __declspec(property(get = __cordl_internal_get__headIndex, put = __cordl_internal_set__headIndex)) int32_t _headIndex;
 
   /// @brief Field _tailIndex, offset 0x14, size 0x4
-  __declspec(property(get = __get__tailIndex, put = __set__tailIndex)) int32_t _tailIndex;
+  __declspec(property(get = __cordl_internal_get__tailIndex, put = __cordl_internal_set__tailIndex)) int32_t _tailIndex;
 
   /// @brief Field _array, offset 0x18, size 0x8
-  __declspec(property(get = __get__array, put = __set__array))::ArrayW<T, ::Array<T>*> _array;
+  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::ArrayW<T, ::Array<T>*> _array;
 
   /// @brief Field _mask, offset 0x20, size 0x4
-  __declspec(property(get = __get__mask, put = __set__mask)) int32_t _mask;
+  __declspec(property(get = __cordl_internal_get__mask, put = __cordl_internal_set__mask)) int32_t _mask;
 
   /// @brief Field _addTakeCount, offset 0x24, size 0x4
-  __declspec(property(get = __get__addTakeCount, put = __set__addTakeCount)) int32_t _addTakeCount;
+  __declspec(property(get = __cordl_internal_get__addTakeCount, put = __cordl_internal_set__addTakeCount)) int32_t _addTakeCount;
 
   /// @brief Field _stealCount, offset 0x28, size 0x4
-  __declspec(property(get = __get__stealCount, put = __set__stealCount)) int32_t _stealCount;
+  __declspec(property(get = __cordl_internal_get__stealCount, put = __cordl_internal_set__stealCount)) int32_t _stealCount;
 
   /// @brief Field _currentOp, offset 0x2c, size 0x4
-  __declspec(property(get = __get__currentOp, put = __set__currentOp)) int32_t _currentOp;
+  __declspec(property(get = __cordl_internal_get__currentOp, put = __cordl_internal_set__currentOp)) int32_t _currentOp;
 
   /// @brief Field _frozen, offset 0x30, size 0x1
-  __declspec(property(get = __get__frozen, put = __set__frozen)) bool _frozen;
+  __declspec(property(get = __cordl_internal_get__frozen, put = __cordl_internal_set__frozen)) bool _frozen;
 
   /// @brief Field _nextQueue, offset 0x38, size 0x8
-  __declspec(property(get = __get__nextQueue, put = __set__nextQueue))::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* _nextQueue;
+  __declspec(property(get = __cordl_internal_get__nextQueue, put = __cordl_internal_set__nextQueue))::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* _nextQueue;
 
   /// @brief Field _ownerThreadId, offset 0x40, size 0x4
-  __declspec(property(get = __get__ownerThreadId, put = __set__ownerThreadId)) int32_t _ownerThreadId;
+  __declspec(property(get = __cordl_internal_get__ownerThreadId, put = __cordl_internal_set__ownerThreadId)) int32_t _ownerThreadId;
 
   __declspec(property(get = get_DangerousCount)) int32_t DangerousCount;
 
-  constexpr int32_t& __get__headIndex();
+  constexpr int32_t& __cordl_internal_get__headIndex();
 
-  constexpr int32_t const& __get__headIndex() const;
+  constexpr int32_t const& __cordl_internal_get__headIndex() const;
 
-  constexpr void __set__headIndex(int32_t value);
+  constexpr void __cordl_internal_set__headIndex(int32_t value);
 
-  constexpr int32_t& __get__tailIndex();
+  constexpr int32_t& __cordl_internal_get__tailIndex();
 
-  constexpr int32_t const& __get__tailIndex() const;
+  constexpr int32_t const& __cordl_internal_get__tailIndex() const;
 
-  constexpr void __set__tailIndex(int32_t value);
+  constexpr void __cordl_internal_set__tailIndex(int32_t value);
 
-  constexpr ::ArrayW<T, ::Array<T>*>& __get__array();
+  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__array();
 
-  constexpr ::ArrayW<T, ::Array<T>*> const& __get__array() const;
+  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__array() const;
 
-  constexpr void __set__array(::ArrayW<T, ::Array<T>*> value);
+  constexpr void __cordl_internal_set__array(::ArrayW<T, ::Array<T>*> value);
 
-  constexpr int32_t& __get__mask();
+  constexpr int32_t& __cordl_internal_get__mask();
 
-  constexpr int32_t const& __get__mask() const;
+  constexpr int32_t const& __cordl_internal_get__mask() const;
 
-  constexpr void __set__mask(int32_t value);
+  constexpr void __cordl_internal_set__mask(int32_t value);
 
-  constexpr int32_t& __get__addTakeCount();
+  constexpr int32_t& __cordl_internal_get__addTakeCount();
 
-  constexpr int32_t const& __get__addTakeCount() const;
+  constexpr int32_t const& __cordl_internal_get__addTakeCount() const;
 
-  constexpr void __set__addTakeCount(int32_t value);
+  constexpr void __cordl_internal_set__addTakeCount(int32_t value);
 
-  constexpr int32_t& __get__stealCount();
+  constexpr int32_t& __cordl_internal_get__stealCount();
 
-  constexpr int32_t const& __get__stealCount() const;
+  constexpr int32_t const& __cordl_internal_get__stealCount() const;
 
-  constexpr void __set__stealCount(int32_t value);
+  constexpr void __cordl_internal_set__stealCount(int32_t value);
 
-  constexpr int32_t& __get__currentOp();
+  constexpr int32_t& __cordl_internal_get__currentOp();
 
-  constexpr int32_t const& __get__currentOp() const;
+  constexpr int32_t const& __cordl_internal_get__currentOp() const;
 
-  constexpr void __set__currentOp(int32_t value);
+  constexpr void __cordl_internal_set__currentOp(int32_t value);
 
-  constexpr bool& __get__frozen();
+  constexpr bool& __cordl_internal_get__frozen();
 
-  constexpr bool const& __get__frozen() const;
+  constexpr bool const& __cordl_internal_get__frozen() const;
 
-  constexpr void __set__frozen(bool value);
+  constexpr void __cordl_internal_set__frozen(bool value);
 
-  constexpr ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*& __get__nextQueue();
+  constexpr ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*& __cordl_internal_get__nextQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*> const& __get__nextQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*> const& __cordl_internal_get__nextQueue() const;
 
-  constexpr void __set__nextQueue(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* value);
+  constexpr void __cordl_internal_set__nextQueue(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* value);
 
-  constexpr int32_t& __get__ownerThreadId();
+  constexpr int32_t& __cordl_internal_get__ownerThreadId();
 
-  constexpr int32_t const& __get__ownerThreadId() const;
+  constexpr int32_t const& __cordl_internal_get__ownerThreadId() const;
 
-  constexpr void __set__ownerThreadId(int32_t value);
+  constexpr void __cordl_internal_set__ownerThreadId(int32_t value);
 
   static inline ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* New_ctor(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* nextQueue);
 
@@ -247,20 +247,20 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9528))
 // CS Name: ::ConcurrentBag`1::Enumerator<T>*
 class CORDL_TYPE __ConcurrentBag_1__Enumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _array, offset 0x10, size 0x8
-  __declspec(property(get = __get__array, put = __set__array))::ArrayW<T, ::Array<T>*> _array;
+  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::ArrayW<T, ::Array<T>*> _array;
 
   /// @brief Field _current, offset 0x18, size 0x8
-  __declspec(property(get = __get__current, put = __set__current)) T _current;
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current)) T _current;
 
   /// @brief Field _index, offset 0x20, size 0x4
-  __declspec(property(get = __get__index, put = __set__index)) int32_t _index;
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
   __declspec(property(get = get_Current)) T Current;
 
@@ -284,23 +284,23 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::ArrayW<T, ::Array<T>*>& __get__array();
+  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__array();
 
-  constexpr ::ArrayW<T, ::Array<T>*> const& __get__array() const;
+  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__array() const;
 
-  constexpr void __set__array(::ArrayW<T, ::Array<T>*> value);
+  constexpr void __cordl_internal_set__array(::ArrayW<T, ::Array<T>*> value);
 
-  constexpr T& __get__current();
+  constexpr T& __cordl_internal_get__current();
 
-  constexpr T const& __get__current() const;
+  constexpr T const& __cordl_internal_get__current() const;
 
-  constexpr void __set__current(T value);
+  constexpr void __cordl_internal_set__current(T value);
 
-  constexpr int32_t& __get__index();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr int32_t const& __get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __set__index(int32_t value);
+  constexpr void __cordl_internal_set__index(int32_t value);
 
   static inline ::System::Collections::Concurrent::__ConcurrentBag_1__Enumerator<T>* New_ctor(::ArrayW<T, ::Array<T>*> array);
 
@@ -355,7 +355,7 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9529))
 // CS Name: ::System.Collections.Concurrent::ConcurrentBag`1<T>*
 class CORDL_TYPE ConcurrentBag_1 : public ::System::Object {
@@ -366,13 +366,15 @@ public:
   using WorkStealingQueue = ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>;
 
   /// @brief Field _locals, offset 0x10, size 0x8
-  __declspec(property(get = __get__locals, put = __set__locals))::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>* _locals;
+  __declspec(property(get = __cordl_internal_get__locals,
+                      put = __cordl_internal_set__locals))::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>* _locals;
 
   /// @brief Field _workStealingQueues, offset 0x18, size 0x8
-  __declspec(property(get = __get__workStealingQueues, put = __set__workStealingQueues))::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* _workStealingQueues;
+  __declspec(property(get = __cordl_internal_get__workStealingQueues,
+                      put = __cordl_internal_set__workStealingQueues))::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* _workStealingQueues;
 
   /// @brief Field _emptyToNonEmptyListTransitionCount, offset 0x20, size 0x8
-  __declspec(property(get = __get__emptyToNonEmptyListTransitionCount, put = __set__emptyToNonEmptyListTransitionCount)) int64_t _emptyToNonEmptyListTransitionCount;
+  __declspec(property(get = __cordl_internal_get__emptyToNonEmptyListTransitionCount, put = __cordl_internal_set__emptyToNonEmptyListTransitionCount)) int64_t _emptyToNonEmptyListTransitionCount;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -414,23 +416,24 @@ public:
   /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
   constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept;
 
-  constexpr ::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>*& __get__locals();
+  constexpr ::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>*& __cordl_internal_get__locals();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>*> const& __get__locals() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>*> const&
+  __cordl_internal_get__locals() const;
 
-  constexpr void __set__locals(::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>* value);
+  constexpr void __cordl_internal_set__locals(::System::Threading::ThreadLocal_1<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*>* value);
 
-  constexpr ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*& __get__workStealingQueues();
+  constexpr ::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*& __cordl_internal_get__workStealingQueues();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*> const& __get__workStealingQueues() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>*> const& __cordl_internal_get__workStealingQueues() const;
 
-  constexpr void __set__workStealingQueues(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* value);
+  constexpr void __cordl_internal_set__workStealingQueues(::System::Collections::Concurrent::__ConcurrentBag_1__WorkStealingQueue<T>* value);
 
-  constexpr int64_t& __get__emptyToNonEmptyListTransitionCount();
+  constexpr int64_t& __cordl_internal_get__emptyToNonEmptyListTransitionCount();
 
-  constexpr int64_t const& __get__emptyToNonEmptyListTransitionCount() const;
+  constexpr int64_t const& __cordl_internal_get__emptyToNonEmptyListTransitionCount() const;
 
-  constexpr void __set__emptyToNonEmptyListTransitionCount(int64_t value);
+  constexpr void __cordl_internal_set__emptyToNonEmptyListTransitionCount(int64_t value);
 
   static inline ::System::Collections::Concurrent::ConcurrentBag_1<T>* New_ctor();
 

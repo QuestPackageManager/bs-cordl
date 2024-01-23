@@ -33,20 +33,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::CertRequest);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(106))
 // CS Name: ::Org.BouncyCastle.Asn1.Crmf::CertRequest*
 class CORDL_TYPE CertRequest : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field certReqId, offset 0x10, size 0x8
-  __declspec(property(get = __get_certReqId, put = __set_certReqId))::Org::BouncyCastle::Asn1::DerInteger* certReqId;
+  __declspec(property(get = __cordl_internal_get_certReqId, put = __cordl_internal_set_certReqId))::Org::BouncyCastle::Asn1::DerInteger* certReqId;
 
   /// @brief Field certTemplate, offset 0x18, size 0x8
-  __declspec(property(get = __get_certTemplate, put = __set_certTemplate))::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certTemplate;
+  __declspec(property(get = __cordl_internal_get_certTemplate, put = __cordl_internal_set_certTemplate))::Org::BouncyCastle::Asn1::Crmf::CertTemplate* certTemplate;
 
   /// @brief Field controls, offset 0x20, size 0x8
-  __declspec(property(get = __get_controls, put = __set_controls))::Org::BouncyCastle::Asn1::Crmf::Controls* controls;
+  __declspec(property(get = __cordl_internal_get_controls, put = __cordl_internal_set_controls))::Org::BouncyCastle::Asn1::Crmf::Controls* controls;
 
   __declspec(property(get = get_CertReqID))::Org::BouncyCastle::Asn1::DerInteger* CertReqID;
 
@@ -54,23 +54,23 @@ public:
 
   __declspec(property(get = get_Controls))::Org::BouncyCastle::Asn1::Crmf::Controls* Controls;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_certReqId();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_certReqId();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_certReqId() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_certReqId() const;
 
-  constexpr void __set_certReqId(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_certReqId(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplate*& __get_certTemplate();
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::CertTemplate*& __cordl_internal_get_certTemplate();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertTemplate*> const& __get_certTemplate() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertTemplate*> const& __cordl_internal_get_certTemplate() const;
 
-  constexpr void __set_certTemplate(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* value);
+  constexpr void __cordl_internal_set_certTemplate(::Org::BouncyCastle::Asn1::Crmf::CertTemplate* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::Controls*& __get_controls();
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::Controls*& __cordl_internal_get_controls();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::Controls*> const& __get_controls() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::Controls*> const& __cordl_internal_get_controls() const;
 
-  constexpr void __set_controls(::Org::BouncyCastle::Asn1::Crmf::Controls* value);
+  constexpr void __cordl_internal_set_controls(::Org::BouncyCastle::Asn1::Crmf::Controls* value);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::CertRequest* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

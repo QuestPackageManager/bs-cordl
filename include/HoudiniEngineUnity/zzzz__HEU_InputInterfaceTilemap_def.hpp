@@ -42,29 +42,29 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_InputInterfaceTilemap__HEU_InputDataT
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9838))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9838))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9846))
 // CS Name: ::HEU_InputInterfaceTilemap::HEU_InputDataTilemap*
 class CORDL_TYPE __HEU_InputInterfaceTilemap__HEU_InputDataTilemap : public ::HoudiniEngineUnity::HEU_InputData {
 public:
   // Declarations
   /// @brief Field _tilemap, offset 0x18, size 0x8
-  __declspec(property(get = __get__tilemap, put = __set__tilemap))::UnityEngine::Tilemaps::Tilemap* _tilemap;
+  __declspec(property(get = __cordl_internal_get__tilemap, put = __cordl_internal_set__tilemap))::UnityW<::UnityEngine::Tilemaps::Tilemap> _tilemap;
 
   /// @brief Field _transform, offset 0x20, size 0x8
-  __declspec(property(get = __get__transform, put = __set__transform))::UnityEngine::Transform* _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
-  constexpr ::UnityEngine::Tilemaps::Tilemap*& __get__tilemap();
+  constexpr ::UnityW<::UnityEngine::Tilemaps::Tilemap>& __cordl_internal_get__tilemap();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Tilemaps::Tilemap*> const& __get__tilemap() const;
+  constexpr ::UnityW<::UnityEngine::Tilemaps::Tilemap> const& __cordl_internal_get__tilemap() const;
 
-  constexpr void __set__tilemap(::UnityEngine::Tilemaps::Tilemap* value);
+  constexpr void __cordl_internal_set__tilemap(::UnityW<::UnityEngine::Tilemaps::Tilemap> value);
 
-  constexpr ::UnityEngine::Transform*& __get__transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr void __set__transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
   static inline ::HoudiniEngineUnity::__HEU_InputInterfaceTilemap__HEU_InputDataTilemap* New_ctor();
 
@@ -86,10 +86,10 @@ protected:
 
 public:
   /// @brief Field _tilemap, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Tilemaps::Tilemap* ____tilemap;
+  ::UnityW<::UnityEngine::Tilemaps::Tilemap> ____tilemap;
 
   /// @brief Field _transform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____transform;
+  ::UnityW<::UnityEngine::Transform> ____transform;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -105,7 +105,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_InputInterfaceTilemap__HEU_In
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9839))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9839))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9847))
 // CS Name: ::HoudiniEngineUnity::HEU_InputInterfaceTilemap*
 class CORDL_TYPE HEU_InputInterfaceTilemap : public ::HoudiniEngineUnity::HEU_InputInterface {
@@ -114,13 +114,13 @@ public:
   using HEU_InputDataTilemap = ::HoudiniEngineUnity::__HEU_InputInterfaceTilemap__HEU_InputDataTilemap;
 
   /// @brief Field settings, offset 0x18, size 0x8
-  __declspec(property(get = __get_settings, put = __set_settings))::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* settings;
+  __declspec(property(get = __cordl_internal_get_settings, put = __cordl_internal_set_settings))::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* settings;
 
-  constexpr ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*& __get_settings();
+  constexpr ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*& __cordl_internal_get_settings();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*> const& __get_settings() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*> const& __cordl_internal_get_settings() const;
 
-  constexpr void __set_settings(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* value);
+  constexpr void __cordl_internal_set_settings(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* value);
 
   static inline ::HoudiniEngineUnity::HEU_InputInterfaceTilemap* New_ctor();
 

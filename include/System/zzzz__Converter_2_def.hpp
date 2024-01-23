@@ -20,7 +20,7 @@ namespace System {
 // cpp template
 template <typename TInput, typename TOutput>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2340))
 // CS Name: ::System::Converter`2<TInput,TOutput>*
 class CORDL_TYPE Converter_2 : public ::System::MulticastDelegate {

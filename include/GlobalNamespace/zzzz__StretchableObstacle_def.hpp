@@ -37,43 +37,43 @@ MARK_REF_PTR_T(::GlobalNamespace::StretchableObstacle);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4798))
 // CS Name: ::StretchableObstacle*
 class CORDL_TYPE StretchableObstacle : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _edgeSize, offset 0x18, size 0x4
-  __declspec(property(get = __get__edgeSize, put = __set__edgeSize)) float_t _edgeSize;
+  __declspec(property(get = __cordl_internal_get__edgeSize, put = __cordl_internal_set__edgeSize)) float_t _edgeSize;
 
   /// @brief Field _coreOffset, offset 0x1c, size 0x4
-  __declspec(property(get = __get__coreOffset, put = __set__coreOffset)) float_t _coreOffset;
+  __declspec(property(get = __cordl_internal_get__coreOffset, put = __cordl_internal_set__coreOffset)) float_t _coreOffset;
 
   /// @brief Field _addColorMultiplier, offset 0x20, size 0x4
-  __declspec(property(get = __get__addColorMultiplier, put = __set__addColorMultiplier)) float_t _addColorMultiplier;
+  __declspec(property(get = __cordl_internal_get__addColorMultiplier, put = __cordl_internal_set__addColorMultiplier)) float_t _addColorMultiplier;
 
   /// @brief Field _obstacleCoreLerpToWhiteFactor, offset 0x24, size 0x4
-  __declspec(property(get = __get__obstacleCoreLerpToWhiteFactor, put = __set__obstacleCoreLerpToWhiteFactor)) float_t _obstacleCoreLerpToWhiteFactor;
+  __declspec(property(get = __cordl_internal_get__obstacleCoreLerpToWhiteFactor, put = __cordl_internal_set__obstacleCoreLerpToWhiteFactor)) float_t _obstacleCoreLerpToWhiteFactor;
 
   /// @brief Field _fakeGlowOffset, offset 0x28, size 0xc
-  __declspec(property(get = __get__fakeGlowOffset, put = __set__fakeGlowOffset))::UnityEngine::Vector3 _fakeGlowOffset;
+  __declspec(property(get = __cordl_internal_get__fakeGlowOffset, put = __cordl_internal_set__fakeGlowOffset))::UnityEngine::Vector3 _fakeGlowOffset;
 
   /// @brief Field _obstacleCore, offset 0x38, size 0x8
-  __declspec(property(get = __get__obstacleCore, put = __set__obstacleCore))::UnityEngine::Transform* _obstacleCore;
+  __declspec(property(get = __cordl_internal_get__obstacleCore, put = __cordl_internal_set__obstacleCore))::UnityW<::UnityEngine::Transform> _obstacleCore;
 
   /// @brief Field _materialPropertyBlockControllers, offset 0x40, size 0x8
-  __declspec(property(get = __get__materialPropertyBlockControllers,
-                      put = __set__materialPropertyBlockControllers))::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*,
-                                                                              ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> _materialPropertyBlockControllers;
+  __declspec(property(get = __cordl_internal_get__materialPropertyBlockControllers,
+                      put = __cordl_internal_set__materialPropertyBlockControllers))::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>,
+                                                                                             ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> _materialPropertyBlockControllers;
 
   /// @brief Field _obstacleFrame, offset 0x48, size 0x8
-  __declspec(property(get = __get__obstacleFrame, put = __set__obstacleFrame))::GlobalNamespace::ParametricBoxFrameController* _obstacleFrame;
+  __declspec(property(get = __cordl_internal_get__obstacleFrame, put = __cordl_internal_set__obstacleFrame))::UnityW<::GlobalNamespace::ParametricBoxFrameController> _obstacleFrame;
 
   /// @brief Field _obstacleFakeGlow, offset 0x50, size 0x8
-  __declspec(property(get = __get__obstacleFakeGlow, put = __set__obstacleFakeGlow))::GlobalNamespace::ParametricBoxFakeGlowController* _obstacleFakeGlow;
+  __declspec(property(get = __cordl_internal_get__obstacleFakeGlow, put = __cordl_internal_set__obstacleFakeGlow))::UnityW<::GlobalNamespace::ParametricBoxFakeGlowController> _obstacleFakeGlow;
 
   /// @brief Field _bounds, offset 0x58, size 0x18
-  __declspec(property(get = __get__bounds, put = __set__bounds))::UnityEngine::Bounds _bounds;
+  __declspec(property(get = __cordl_internal_get__bounds, put = __cordl_internal_set__bounds))::UnityEngine::Bounds _bounds;
 
   /// @brief Field _uvScaleID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__uvScaleID, put = setStaticF__uvScaleID)) int32_t _uvScaleID;
@@ -89,65 +89,68 @@ public:
 
   __declspec(property(get = get_bounds))::UnityEngine::Bounds bounds;
 
-  constexpr float_t& __get__edgeSize();
+  constexpr float_t& __cordl_internal_get__edgeSize();
 
-  constexpr float_t const& __get__edgeSize() const;
+  constexpr float_t const& __cordl_internal_get__edgeSize() const;
 
-  constexpr void __set__edgeSize(float_t value);
+  constexpr void __cordl_internal_set__edgeSize(float_t value);
 
-  constexpr float_t& __get__coreOffset();
+  constexpr float_t& __cordl_internal_get__coreOffset();
 
-  constexpr float_t const& __get__coreOffset() const;
+  constexpr float_t const& __cordl_internal_get__coreOffset() const;
 
-  constexpr void __set__coreOffset(float_t value);
+  constexpr void __cordl_internal_set__coreOffset(float_t value);
 
-  constexpr float_t& __get__addColorMultiplier();
+  constexpr float_t& __cordl_internal_get__addColorMultiplier();
 
-  constexpr float_t const& __get__addColorMultiplier() const;
+  constexpr float_t const& __cordl_internal_get__addColorMultiplier() const;
 
-  constexpr void __set__addColorMultiplier(float_t value);
+  constexpr void __cordl_internal_set__addColorMultiplier(float_t value);
 
-  constexpr float_t& __get__obstacleCoreLerpToWhiteFactor();
+  constexpr float_t& __cordl_internal_get__obstacleCoreLerpToWhiteFactor();
 
-  constexpr float_t const& __get__obstacleCoreLerpToWhiteFactor() const;
+  constexpr float_t const& __cordl_internal_get__obstacleCoreLerpToWhiteFactor() const;
 
-  constexpr void __set__obstacleCoreLerpToWhiteFactor(float_t value);
+  constexpr void __cordl_internal_set__obstacleCoreLerpToWhiteFactor(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get__fakeGlowOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__fakeGlowOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__fakeGlowOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__fakeGlowOffset() const;
 
-  constexpr void __set__fakeGlowOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__fakeGlowOffset(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Transform*& __get__obstacleCore();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__obstacleCore();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__obstacleCore() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__obstacleCore() const;
 
-  constexpr void __set__obstacleCore(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__obstacleCore(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*>& __get__materialPropertyBlockControllers();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*>&
+  __cordl_internal_get__materialPropertyBlockControllers();
 
-  constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> const& __get__materialPropertyBlockControllers() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> const&
+  __cordl_internal_get__materialPropertyBlockControllers() const;
 
-  constexpr void __set__materialPropertyBlockControllers(::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> value);
+  constexpr void __cordl_internal_set__materialPropertyBlockControllers(
+      ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> value);
 
-  constexpr ::GlobalNamespace::ParametricBoxFrameController*& __get__obstacleFrame();
+  constexpr ::UnityW<::GlobalNamespace::ParametricBoxFrameController>& __cordl_internal_get__obstacleFrame();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ParametricBoxFrameController*> const& __get__obstacleFrame() const;
+  constexpr ::UnityW<::GlobalNamespace::ParametricBoxFrameController> const& __cordl_internal_get__obstacleFrame() const;
 
-  constexpr void __set__obstacleFrame(::GlobalNamespace::ParametricBoxFrameController* value);
+  constexpr void __cordl_internal_set__obstacleFrame(::UnityW<::GlobalNamespace::ParametricBoxFrameController> value);
 
-  constexpr ::GlobalNamespace::ParametricBoxFakeGlowController*& __get__obstacleFakeGlow();
+  constexpr ::UnityW<::GlobalNamespace::ParametricBoxFakeGlowController>& __cordl_internal_get__obstacleFakeGlow();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ParametricBoxFakeGlowController*> const& __get__obstacleFakeGlow() const;
+  constexpr ::UnityW<::GlobalNamespace::ParametricBoxFakeGlowController> const& __cordl_internal_get__obstacleFakeGlow() const;
 
-  constexpr void __set__obstacleFakeGlow(::GlobalNamespace::ParametricBoxFakeGlowController* value);
+  constexpr void __cordl_internal_set__obstacleFakeGlow(::UnityW<::GlobalNamespace::ParametricBoxFakeGlowController> value);
 
-  constexpr ::UnityEngine::Bounds& __get__bounds();
+  constexpr ::UnityEngine::Bounds& __cordl_internal_get__bounds();
 
-  constexpr ::UnityEngine::Bounds const& __get__bounds() const;
+  constexpr ::UnityEngine::Bounds const& __cordl_internal_get__bounds() const;
 
-  constexpr void __set__bounds(::UnityEngine::Bounds value);
+  constexpr void __cordl_internal_set__bounds(::UnityEngine::Bounds value);
 
   static inline void setStaticF__uvScaleID(int32_t value);
 
@@ -209,16 +212,16 @@ public:
   ::UnityEngine::Vector3 ____fakeGlowOffset;
 
   /// @brief Field _obstacleCore, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____obstacleCore;
+  ::UnityW<::UnityEngine::Transform> ____obstacleCore;
 
   /// @brief Field _materialPropertyBlockControllers, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> ____materialPropertyBlockControllers;
+  ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> ____materialPropertyBlockControllers;
 
   /// @brief Field _obstacleFrame, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::ParametricBoxFrameController* ____obstacleFrame;
+  ::UnityW<::GlobalNamespace::ParametricBoxFrameController> ____obstacleFrame;
 
   /// @brief Field _obstacleFakeGlow, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::ParametricBoxFakeGlowController* ____obstacleFakeGlow;
+  ::UnityW<::GlobalNamespace::ParametricBoxFakeGlowController> ____obstacleFakeGlow;
 
   /// @brief Field _bounds, offset: 0x58, size: 0x18, def value: None
   ::UnityEngine::Bounds ____bounds;

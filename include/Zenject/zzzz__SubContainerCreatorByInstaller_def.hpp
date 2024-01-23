@@ -38,23 +38,23 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByInstaller);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11243))
 // CS Name: ::Zenject::SubContainerCreatorByInstaller*
 class CORDL_TYPE SubContainerCreatorByInstaller : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _installerType, offset 0x10, size 0x8
-  __declspec(property(get = __get__installerType, put = __set__installerType))::System::Type* _installerType;
+  __declspec(property(get = __cordl_internal_get__installerType, put = __cordl_internal_set__installerType))::System::Type* _installerType;
 
   /// @brief Field _container, offset 0x18, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _extraArgs, offset 0x20, size 0x8
-  __declspec(property(get = __get__extraArgs, put = __set__extraArgs))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* _extraArgs;
+  __declspec(property(get = __cordl_internal_get__extraArgs, put = __cordl_internal_set__extraArgs))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* _extraArgs;
 
   /// @brief Field _containerBindInfo, offset 0x28, size 0x8
-  __declspec(property(get = __get__containerBindInfo, put = __set__containerBindInfo))::Zenject::SubContainerCreatorBindInfo* _containerBindInfo;
+  __declspec(property(get = __cordl_internal_get__containerBindInfo, put = __cordl_internal_set__containerBindInfo))::Zenject::SubContainerCreatorBindInfo* _containerBindInfo;
 
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
@@ -62,29 +62,29 @@ public:
   /// @brief Convert to "::Zenject::ISubContainerCreator"
   constexpr ::Zenject::ISubContainerCreator* i___Zenject__ISubContainerCreator() noexcept;
 
-  constexpr ::System::Type*& __get__installerType();
+  constexpr ::System::Type*& __cordl_internal_get__installerType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__installerType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__installerType() const;
 
-  constexpr void __set__installerType(::System::Type* value);
+  constexpr void __cordl_internal_set__installerType(::System::Type* value);
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __get__extraArgs();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get__extraArgs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __get__extraArgs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __cordl_internal_get__extraArgs() const;
 
-  constexpr void __set__extraArgs(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
+  constexpr void __cordl_internal_set__extraArgs(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
 
-  constexpr ::Zenject::SubContainerCreatorBindInfo*& __get__containerBindInfo();
+  constexpr ::Zenject::SubContainerCreatorBindInfo*& __cordl_internal_get__containerBindInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorBindInfo*> const& __get__containerBindInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorBindInfo*> const& __cordl_internal_get__containerBindInfo() const;
 
-  constexpr void __set__containerBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
+  constexpr void __cordl_internal_set__containerBindInfo(::Zenject::SubContainerCreatorBindInfo* value);
 
   static inline ::Zenject::SubContainerCreatorByInstaller* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType,
                                                                     ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs);

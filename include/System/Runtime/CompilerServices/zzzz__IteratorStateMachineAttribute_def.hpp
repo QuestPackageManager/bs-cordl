@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::IteratorStateMachineAttribut
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3384))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3384))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3380))
 // CS Name: ::System.Runtime.CompilerServices::IteratorStateMachineAttribute*
 class CORDL_TYPE IteratorStateMachineAttribute : public ::System::Runtime::CompilerServices::StateMachineAttribute {

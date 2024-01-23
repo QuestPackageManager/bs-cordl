@@ -54,17 +54,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509Extensions);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(406))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::X509Extensions*
 class CORDL_TYPE X509Extensions : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field extensions, offset 0x10, size 0x8
-  __declspec(property(get = __get_extensions, put = __set_extensions))::System::Collections::IDictionary* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions, put = __cordl_internal_set_extensions))::System::Collections::IDictionary* extensions;
 
   /// @brief Field ordering, offset 0x18, size 0x8
-  __declspec(property(get = __get_ordering, put = __set_ordering))::System::Collections::IList* ordering;
+  __declspec(property(get = __cordl_internal_get_ordering, put = __cordl_internal_set_ordering))::System::Collections::IList* ordering;
 
   /// @brief Field SubjectDirectoryAttributes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SubjectDirectoryAttributes, put = setStaticF_SubjectDirectoryAttributes))::Org::BouncyCastle::Asn1::DerObjectIdentifier* SubjectDirectoryAttributes;
@@ -164,17 +164,17 @@ public:
 
   __declspec(property(get = get_ExtensionOids))::System::Collections::IEnumerable* ExtensionOids;
 
-  constexpr ::System::Collections::IDictionary*& __get_extensions();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_extensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get_extensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_extensions() const;
 
-  constexpr void __set_extensions(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set_extensions(::System::Collections::IDictionary* value);
 
-  constexpr ::System::Collections::IList*& __get_ordering();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_ordering();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_ordering() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_ordering() const;
 
-  constexpr void __set_ordering(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_ordering(::System::Collections::IList* value);
 
   static inline void setStaticF_SubjectDirectoryAttributes(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 

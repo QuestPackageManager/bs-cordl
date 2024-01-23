@@ -23,20 +23,20 @@ MARK_REF_PTR_T(::System::IO::__TextReader__SyncTextReader);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3582))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3582))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3580))
 // CS Name: ::TextReader::SyncTextReader*
 class CORDL_TYPE __TextReader__SyncTextReader : public ::System::IO::TextReader {
 public:
   // Declarations
   /// @brief Field _in, offset 0x18, size 0x8
-  __declspec(property(get = __get__in, put = __set__in))::System::IO::TextReader* _in;
+  __declspec(property(get = __cordl_internal_get__in, put = __cordl_internal_set__in))::System::IO::TextReader* _in;
 
-  constexpr ::System::IO::TextReader*& __get__in();
+  constexpr ::System::IO::TextReader*& __cordl_internal_get__in();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextReader*> const& __get__in() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextReader*> const& __cordl_internal_get__in() const;
 
-  constexpr void __set__in(::System::IO::TextReader* value);
+  constexpr void __cordl_internal_set__in(::System::IO::TextReader* value);
 
   static inline ::System::IO::__TextReader__SyncTextReader* New_ctor(::System::IO::TextReader* t);
 

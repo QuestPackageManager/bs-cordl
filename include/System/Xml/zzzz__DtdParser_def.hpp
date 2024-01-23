@@ -102,7 +102,7 @@ MARK_REF_PTR_T(::System::Xml::__DtdParser__UndeclaredNotation);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11536))
 // CS Name: ::DtdParser::Token
 struct CORDL_TYPE __DtdParser__Token {
@@ -336,7 +336,7 @@ static_assert(offsetof(::System::Xml::__DtdParser__Token, value__) == 0x0, "Offs
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11537))
 // CS Name: ::DtdParser::ScanningFunction
 struct CORDL_TYPE __DtdParser__ScanningFunction {
@@ -514,7 +514,7 @@ static_assert(offsetof(::System::Xml::__DtdParser__ScanningFunction, value__) ==
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11538))
 // CS Name: ::DtdParser::LiteralType
 struct CORDL_TYPE __DtdParser__LiteralType {
@@ -568,47 +568,47 @@ static_assert(offsetof(::System::Xml::__DtdParser__LiteralType, value__) == 0x0,
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11539))
 // CS Name: ::DtdParser::UndeclaredNotation*
 class CORDL_TYPE __DtdParser__UndeclaredNotation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field lineNo, offset 0x18, size 0x4
-  __declspec(property(get = __get_lineNo, put = __set_lineNo)) int32_t lineNo;
+  __declspec(property(get = __cordl_internal_get_lineNo, put = __cordl_internal_set_lineNo)) int32_t lineNo;
 
   /// @brief Field linePos, offset 0x1c, size 0x4
-  __declspec(property(get = __get_linePos, put = __set_linePos)) int32_t linePos;
+  __declspec(property(get = __cordl_internal_get_linePos, put = __cordl_internal_set_linePos)) int32_t linePos;
 
   /// @brief Field next, offset 0x20, size 0x8
-  __declspec(property(get = __get_next, put = __set_next))::System::Xml::__DtdParser__UndeclaredNotation* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Xml::__DtdParser__UndeclaredNotation* next;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr int32_t& __get_lineNo();
+  constexpr int32_t& __cordl_internal_get_lineNo();
 
-  constexpr int32_t const& __get_lineNo() const;
+  constexpr int32_t const& __cordl_internal_get_lineNo() const;
 
-  constexpr void __set_lineNo(int32_t value);
+  constexpr void __cordl_internal_set_lineNo(int32_t value);
 
-  constexpr int32_t& __get_linePos();
+  constexpr int32_t& __cordl_internal_get_linePos();
 
-  constexpr int32_t const& __get_linePos() const;
+  constexpr int32_t const& __cordl_internal_get_linePos() const;
 
-  constexpr void __set_linePos(int32_t value);
+  constexpr void __cordl_internal_set_linePos(int32_t value);
 
-  constexpr ::System::Xml::__DtdParser__UndeclaredNotation*& __get_next();
+  constexpr ::System::Xml::__DtdParser__UndeclaredNotation*& __cordl_internal_get_next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__DtdParser__UndeclaredNotation*> const& __get_next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::__DtdParser__UndeclaredNotation*> const& __cordl_internal_get_next() const;
 
-  constexpr void __set_next(::System::Xml::__DtdParser__UndeclaredNotation* value);
+  constexpr void __cordl_internal_set_next(::System::Xml::__DtdParser__UndeclaredNotation* value);
 
   static inline ::System::Xml::__DtdParser__UndeclaredNotation* New_ctor(::StringW name, int32_t lineNo, int32_t linePos);
 
@@ -659,29 +659,29 @@ static_assert(offsetof(::System::Xml::__DtdParser__UndeclaredNotation, ___next) 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11536)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11536))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11540))
 // CS Name: ::DtdParser::ParseElementOnlyContent_LocalFrame*
 class CORDL_TYPE __DtdParser__ParseElementOnlyContent_LocalFrame : public ::System::Object {
 public:
   // Declarations
   /// @brief Field startParenEntityId, offset 0x10, size 0x4
-  __declspec(property(get = __get_startParenEntityId, put = __set_startParenEntityId)) int32_t startParenEntityId;
+  __declspec(property(get = __cordl_internal_get_startParenEntityId, put = __cordl_internal_set_startParenEntityId)) int32_t startParenEntityId;
 
   /// @brief Field parsingSchema, offset 0x14, size 0x4
-  __declspec(property(get = __get_parsingSchema, put = __set_parsingSchema))::System::Xml::__DtdParser__Token parsingSchema;
+  __declspec(property(get = __cordl_internal_get_parsingSchema, put = __cordl_internal_set_parsingSchema))::System::Xml::__DtdParser__Token parsingSchema;
 
-  constexpr int32_t& __get_startParenEntityId();
+  constexpr int32_t& __cordl_internal_get_startParenEntityId();
 
-  constexpr int32_t const& __get_startParenEntityId() const;
+  constexpr int32_t const& __cordl_internal_get_startParenEntityId() const;
 
-  constexpr void __set_startParenEntityId(int32_t value);
+  constexpr void __cordl_internal_set_startParenEntityId(int32_t value);
 
-  constexpr ::System::Xml::__DtdParser__Token& __get_parsingSchema();
+  constexpr ::System::Xml::__DtdParser__Token& __cordl_internal_get_parsingSchema();
 
-  constexpr ::System::Xml::__DtdParser__Token const& __get_parsingSchema() const;
+  constexpr ::System::Xml::__DtdParser__Token const& __cordl_internal_get_parsingSchema() const;
 
-  constexpr void __set_parsingSchema(::System::Xml::__DtdParser__Token value);
+  constexpr void __cordl_internal_set_parsingSchema(::System::Xml::__DtdParser__Token value);
 
   static inline ::System::Xml::__DtdParser__ParseElementOnlyContent_LocalFrame* New_ctor(int32_t startParentEntityIdParam);
 
@@ -722,8 +722,8 @@ static_assert(offsetof(::System::Xml::__DtdParser__ParseElementOnlyContent_Local
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11544)), TypeDefinitionIndex(TypeDefinitionIndex(11532)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11537))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11541)) CS Name: ::System.Xml::DtdParser*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11532)), TypeDefinitionIndex(TypeDefinitionIndex(11537)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11544))] Self: TypeDefinitionIndex(TypeDefinitionIndex(11541)) CS Name: ::System.Xml::DtdParser*
 class CORDL_TYPE DtdParser : public ::System::Object {
 public:
   // Declarations
@@ -738,104 +738,105 @@ public:
   using Token = ::System::Xml::__DtdParser__Token;
 
   /// @brief Field readerAdapter, offset 0x10, size 0x8
-  __declspec(property(get = __get_readerAdapter, put = __set_readerAdapter))::System::Xml::IDtdParserAdapter* readerAdapter;
+  __declspec(property(get = __cordl_internal_get_readerAdapter, put = __cordl_internal_set_readerAdapter))::System::Xml::IDtdParserAdapter* readerAdapter;
 
   /// @brief Field readerAdapterWithValidation, offset 0x18, size 0x8
-  __declspec(property(get = __get_readerAdapterWithValidation, put = __set_readerAdapterWithValidation))::System::Xml::IDtdParserAdapterWithValidation* readerAdapterWithValidation;
+  __declspec(property(get = __cordl_internal_get_readerAdapterWithValidation,
+                      put = __cordl_internal_set_readerAdapterWithValidation))::System::Xml::IDtdParserAdapterWithValidation* readerAdapterWithValidation;
 
   /// @brief Field nameTable, offset 0x20, size 0x8
-  __declspec(property(get = __get_nameTable, put = __set_nameTable))::System::Xml::XmlNameTable* nameTable;
+  __declspec(property(get = __cordl_internal_get_nameTable, put = __cordl_internal_set_nameTable))::System::Xml::XmlNameTable* nameTable;
 
   /// @brief Field schemaInfo, offset 0x28, size 0x8
-  __declspec(property(get = __get_schemaInfo, put = __set_schemaInfo))::System::Xml::Schema::SchemaInfo* schemaInfo;
+  __declspec(property(get = __cordl_internal_get_schemaInfo, put = __cordl_internal_set_schemaInfo))::System::Xml::Schema::SchemaInfo* schemaInfo;
 
   /// @brief Field xmlCharType, offset 0x30, size 0x8
-  __declspec(property(get = __get_xmlCharType, put = __set_xmlCharType))::System::Xml::XmlCharType xmlCharType;
+  __declspec(property(get = __cordl_internal_get_xmlCharType, put = __cordl_internal_set_xmlCharType))::System::Xml::XmlCharType xmlCharType;
 
   /// @brief Field systemId, offset 0x38, size 0x8
-  __declspec(property(get = __get_systemId, put = __set_systemId))::StringW systemId;
+  __declspec(property(get = __cordl_internal_get_systemId, put = __cordl_internal_set_systemId))::StringW systemId;
 
   /// @brief Field publicId, offset 0x40, size 0x8
-  __declspec(property(get = __get_publicId, put = __set_publicId))::StringW publicId;
+  __declspec(property(get = __cordl_internal_get_publicId, put = __cordl_internal_set_publicId))::StringW publicId;
 
   /// @brief Field normalize, offset 0x48, size 0x1
-  __declspec(property(get = __get_normalize, put = __set_normalize)) bool normalize;
+  __declspec(property(get = __cordl_internal_get_normalize, put = __cordl_internal_set_normalize)) bool normalize;
 
   /// @brief Field validate, offset 0x49, size 0x1
-  __declspec(property(get = __get_validate, put = __set_validate)) bool validate;
+  __declspec(property(get = __cordl_internal_get_validate, put = __cordl_internal_set_validate)) bool validate;
 
   /// @brief Field supportNamespaces, offset 0x4a, size 0x1
-  __declspec(property(get = __get_supportNamespaces, put = __set_supportNamespaces)) bool supportNamespaces;
+  __declspec(property(get = __cordl_internal_get_supportNamespaces, put = __cordl_internal_set_supportNamespaces)) bool supportNamespaces;
 
   /// @brief Field v1Compat, offset 0x4b, size 0x1
-  __declspec(property(get = __get_v1Compat, put = __set_v1Compat)) bool v1Compat;
+  __declspec(property(get = __cordl_internal_get_v1Compat, put = __cordl_internal_set_v1Compat)) bool v1Compat;
 
   /// @brief Field chars, offset 0x50, size 0x8
-  __declspec(property(get = __get_chars, put = __set_chars))::ArrayW<char16_t, ::Array<char16_t>*> chars;
+  __declspec(property(get = __cordl_internal_get_chars, put = __cordl_internal_set_chars))::ArrayW<char16_t, ::Array<char16_t>*> chars;
 
   /// @brief Field charsUsed, offset 0x58, size 0x4
-  __declspec(property(get = __get_charsUsed, put = __set_charsUsed)) int32_t charsUsed;
+  __declspec(property(get = __cordl_internal_get_charsUsed, put = __cordl_internal_set_charsUsed)) int32_t charsUsed;
 
   /// @brief Field curPos, offset 0x5c, size 0x4
-  __declspec(property(get = __get_curPos, put = __set_curPos)) int32_t curPos;
+  __declspec(property(get = __cordl_internal_get_curPos, put = __cordl_internal_set_curPos)) int32_t curPos;
 
   /// @brief Field scanningFunction, offset 0x60, size 0x4
-  __declspec(property(get = __get_scanningFunction, put = __set_scanningFunction))::System::Xml::__DtdParser__ScanningFunction scanningFunction;
+  __declspec(property(get = __cordl_internal_get_scanningFunction, put = __cordl_internal_set_scanningFunction))::System::Xml::__DtdParser__ScanningFunction scanningFunction;
 
   /// @brief Field nextScaningFunction, offset 0x64, size 0x4
-  __declspec(property(get = __get_nextScaningFunction, put = __set_nextScaningFunction))::System::Xml::__DtdParser__ScanningFunction nextScaningFunction;
+  __declspec(property(get = __cordl_internal_get_nextScaningFunction, put = __cordl_internal_set_nextScaningFunction))::System::Xml::__DtdParser__ScanningFunction nextScaningFunction;
 
   /// @brief Field savedScanningFunction, offset 0x68, size 0x4
-  __declspec(property(get = __get_savedScanningFunction, put = __set_savedScanningFunction))::System::Xml::__DtdParser__ScanningFunction savedScanningFunction;
+  __declspec(property(get = __cordl_internal_get_savedScanningFunction, put = __cordl_internal_set_savedScanningFunction))::System::Xml::__DtdParser__ScanningFunction savedScanningFunction;
 
   /// @brief Field whitespaceSeen, offset 0x6c, size 0x1
-  __declspec(property(get = __get_whitespaceSeen, put = __set_whitespaceSeen)) bool whitespaceSeen;
+  __declspec(property(get = __cordl_internal_get_whitespaceSeen, put = __cordl_internal_set_whitespaceSeen)) bool whitespaceSeen;
 
   /// @brief Field tokenStartPos, offset 0x70, size 0x4
-  __declspec(property(get = __get_tokenStartPos, put = __set_tokenStartPos)) int32_t tokenStartPos;
+  __declspec(property(get = __cordl_internal_get_tokenStartPos, put = __cordl_internal_set_tokenStartPos)) int32_t tokenStartPos;
 
   /// @brief Field colonPos, offset 0x74, size 0x4
-  __declspec(property(get = __get_colonPos, put = __set_colonPos)) int32_t colonPos;
+  __declspec(property(get = __cordl_internal_get_colonPos, put = __cordl_internal_set_colonPos)) int32_t colonPos;
 
   /// @brief Field internalSubsetValueSb, offset 0x78, size 0x8
-  __declspec(property(get = __get_internalSubsetValueSb, put = __set_internalSubsetValueSb))::System::Text::StringBuilder* internalSubsetValueSb;
+  __declspec(property(get = __cordl_internal_get_internalSubsetValueSb, put = __cordl_internal_set_internalSubsetValueSb))::System::Text::StringBuilder* internalSubsetValueSb;
 
   /// @brief Field externalEntitiesDepth, offset 0x80, size 0x4
-  __declspec(property(get = __get_externalEntitiesDepth, put = __set_externalEntitiesDepth)) int32_t externalEntitiesDepth;
+  __declspec(property(get = __cordl_internal_get_externalEntitiesDepth, put = __cordl_internal_set_externalEntitiesDepth)) int32_t externalEntitiesDepth;
 
   /// @brief Field currentEntityId, offset 0x84, size 0x4
-  __declspec(property(get = __get_currentEntityId, put = __set_currentEntityId)) int32_t currentEntityId;
+  __declspec(property(get = __cordl_internal_get_currentEntityId, put = __cordl_internal_set_currentEntityId)) int32_t currentEntityId;
 
   /// @brief Field freeFloatingDtd, offset 0x88, size 0x1
-  __declspec(property(get = __get_freeFloatingDtd, put = __set_freeFloatingDtd)) bool freeFloatingDtd;
+  __declspec(property(get = __cordl_internal_get_freeFloatingDtd, put = __cordl_internal_set_freeFloatingDtd)) bool freeFloatingDtd;
 
   /// @brief Field hasFreeFloatingInternalSubset, offset 0x89, size 0x1
-  __declspec(property(get = __get_hasFreeFloatingInternalSubset, put = __set_hasFreeFloatingInternalSubset)) bool hasFreeFloatingInternalSubset;
+  __declspec(property(get = __cordl_internal_get_hasFreeFloatingInternalSubset, put = __cordl_internal_set_hasFreeFloatingInternalSubset)) bool hasFreeFloatingInternalSubset;
 
   /// @brief Field stringBuilder, offset 0x90, size 0x8
-  __declspec(property(get = __get_stringBuilder, put = __set_stringBuilder))::System::Text::StringBuilder* stringBuilder;
+  __declspec(property(get = __cordl_internal_get_stringBuilder, put = __cordl_internal_set_stringBuilder))::System::Text::StringBuilder* stringBuilder;
 
   /// @brief Field condSectionDepth, offset 0x98, size 0x4
-  __declspec(property(get = __get_condSectionDepth, put = __set_condSectionDepth)) int32_t condSectionDepth;
+  __declspec(property(get = __cordl_internal_get_condSectionDepth, put = __cordl_internal_set_condSectionDepth)) int32_t condSectionDepth;
 
   /// @brief Field literalLineInfo, offset 0x9c, size 0x8
-  __declspec(property(get = __get_literalLineInfo, put = __set_literalLineInfo))::System::Xml::LineInfo literalLineInfo;
+  __declspec(property(get = __cordl_internal_get_literalLineInfo, put = __cordl_internal_set_literalLineInfo))::System::Xml::LineInfo literalLineInfo;
 
   /// @brief Field literalQuoteChar, offset 0xa4, size 0x2
-  __declspec(property(get = __get_literalQuoteChar, put = __set_literalQuoteChar)) char16_t literalQuoteChar;
+  __declspec(property(get = __cordl_internal_get_literalQuoteChar, put = __cordl_internal_set_literalQuoteChar)) char16_t literalQuoteChar;
 
   /// @brief Field documentBaseUri, offset 0xa8, size 0x8
-  __declspec(property(get = __get_documentBaseUri, put = __set_documentBaseUri))::StringW documentBaseUri;
+  __declspec(property(get = __cordl_internal_get_documentBaseUri, put = __cordl_internal_set_documentBaseUri))::StringW documentBaseUri;
 
   /// @brief Field externalDtdBaseUri, offset 0xb0, size 0x8
-  __declspec(property(get = __get_externalDtdBaseUri, put = __set_externalDtdBaseUri))::StringW externalDtdBaseUri;
+  __declspec(property(get = __cordl_internal_get_externalDtdBaseUri, put = __cordl_internal_set_externalDtdBaseUri))::StringW externalDtdBaseUri;
 
   /// @brief Field undeclaredNotations, offset 0xb8, size 0x8
-  __declspec(property(get = __get_undeclaredNotations,
-                      put = __set_undeclaredNotations))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::__DtdParser__UndeclaredNotation*>* undeclaredNotations;
+  __declspec(property(get = __cordl_internal_get_undeclaredNotations,
+                      put = __cordl_internal_set_undeclaredNotations))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::__DtdParser__UndeclaredNotation*>* undeclaredNotations;
 
   /// @brief Field condSectionEntityIds, offset 0xc0, size 0x8
-  __declspec(property(get = __get_condSectionEntityIds, put = __set_condSectionEntityIds))::ArrayW<int32_t, ::Array<int32_t>*> condSectionEntityIds;
+  __declspec(property(get = __cordl_internal_get_condSectionEntityIds, put = __cordl_internal_set_condSectionEntityIds))::ArrayW<int32_t, ::Array<int32_t>*> condSectionEntityIds;
 
   __declspec(property(get = get_ParsingInternalSubset)) bool ParsingInternalSubset;
 
@@ -861,203 +862,204 @@ public:
   /// @brief Convert to "::System::Xml::IDtdParser"
   constexpr ::System::Xml::IDtdParser* i___System__Xml__IDtdParser() noexcept;
 
-  constexpr ::System::Xml::IDtdParserAdapter*& __get_readerAdapter();
+  constexpr ::System::Xml::IDtdParserAdapter*& __cordl_internal_get_readerAdapter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IDtdParserAdapter*> const& __get_readerAdapter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IDtdParserAdapter*> const& __cordl_internal_get_readerAdapter() const;
 
-  constexpr void __set_readerAdapter(::System::Xml::IDtdParserAdapter* value);
+  constexpr void __cordl_internal_set_readerAdapter(::System::Xml::IDtdParserAdapter* value);
 
-  constexpr ::System::Xml::IDtdParserAdapterWithValidation*& __get_readerAdapterWithValidation();
+  constexpr ::System::Xml::IDtdParserAdapterWithValidation*& __cordl_internal_get_readerAdapterWithValidation();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IDtdParserAdapterWithValidation*> const& __get_readerAdapterWithValidation() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::IDtdParserAdapterWithValidation*> const& __cordl_internal_get_readerAdapterWithValidation() const;
 
-  constexpr void __set_readerAdapterWithValidation(::System::Xml::IDtdParserAdapterWithValidation* value);
+  constexpr void __cordl_internal_set_readerAdapterWithValidation(::System::Xml::IDtdParserAdapterWithValidation* value);
 
-  constexpr ::System::Xml::XmlNameTable*& __get_nameTable();
+  constexpr ::System::Xml::XmlNameTable*& __cordl_internal_get_nameTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __get_nameTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNameTable*> const& __cordl_internal_get_nameTable() const;
 
-  constexpr void __set_nameTable(::System::Xml::XmlNameTable* value);
+  constexpr void __cordl_internal_set_nameTable(::System::Xml::XmlNameTable* value);
 
-  constexpr ::System::Xml::Schema::SchemaInfo*& __get_schemaInfo();
+  constexpr ::System::Xml::Schema::SchemaInfo*& __cordl_internal_get_schemaInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaInfo*> const& __get_schemaInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaInfo*> const& __cordl_internal_get_schemaInfo() const;
 
-  constexpr void __set_schemaInfo(::System::Xml::Schema::SchemaInfo* value);
+  constexpr void __cordl_internal_set_schemaInfo(::System::Xml::Schema::SchemaInfo* value);
 
-  constexpr ::System::Xml::XmlCharType& __get_xmlCharType();
+  constexpr ::System::Xml::XmlCharType& __cordl_internal_get_xmlCharType();
 
-  constexpr ::System::Xml::XmlCharType const& __get_xmlCharType() const;
+  constexpr ::System::Xml::XmlCharType const& __cordl_internal_get_xmlCharType() const;
 
-  constexpr void __set_xmlCharType(::System::Xml::XmlCharType value);
+  constexpr void __cordl_internal_set_xmlCharType(::System::Xml::XmlCharType value);
 
-  constexpr ::StringW& __get_systemId();
+  constexpr ::StringW& __cordl_internal_get_systemId();
 
-  constexpr ::StringW const& __get_systemId() const;
+  constexpr ::StringW const& __cordl_internal_get_systemId() const;
 
-  constexpr void __set_systemId(::StringW value);
+  constexpr void __cordl_internal_set_systemId(::StringW value);
 
-  constexpr ::StringW& __get_publicId();
+  constexpr ::StringW& __cordl_internal_get_publicId();
 
-  constexpr ::StringW const& __get_publicId() const;
+  constexpr ::StringW const& __cordl_internal_get_publicId() const;
 
-  constexpr void __set_publicId(::StringW value);
+  constexpr void __cordl_internal_set_publicId(::StringW value);
 
-  constexpr bool& __get_normalize();
+  constexpr bool& __cordl_internal_get_normalize();
 
-  constexpr bool const& __get_normalize() const;
+  constexpr bool const& __cordl_internal_get_normalize() const;
 
-  constexpr void __set_normalize(bool value);
+  constexpr void __cordl_internal_set_normalize(bool value);
 
-  constexpr bool& __get_validate();
+  constexpr bool& __cordl_internal_get_validate();
 
-  constexpr bool const& __get_validate() const;
+  constexpr bool const& __cordl_internal_get_validate() const;
 
-  constexpr void __set_validate(bool value);
+  constexpr void __cordl_internal_set_validate(bool value);
 
-  constexpr bool& __get_supportNamespaces();
+  constexpr bool& __cordl_internal_get_supportNamespaces();
 
-  constexpr bool const& __get_supportNamespaces() const;
+  constexpr bool const& __cordl_internal_get_supportNamespaces() const;
 
-  constexpr void __set_supportNamespaces(bool value);
+  constexpr void __cordl_internal_set_supportNamespaces(bool value);
 
-  constexpr bool& __get_v1Compat();
+  constexpr bool& __cordl_internal_get_v1Compat();
 
-  constexpr bool const& __get_v1Compat() const;
+  constexpr bool const& __cordl_internal_get_v1Compat() const;
 
-  constexpr void __set_v1Compat(bool value);
+  constexpr void __cordl_internal_set_v1Compat(bool value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_chars();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_chars();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_chars() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_chars() const;
 
-  constexpr void __set_chars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_chars(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr int32_t& __get_charsUsed();
+  constexpr int32_t& __cordl_internal_get_charsUsed();
 
-  constexpr int32_t const& __get_charsUsed() const;
+  constexpr int32_t const& __cordl_internal_get_charsUsed() const;
 
-  constexpr void __set_charsUsed(int32_t value);
+  constexpr void __cordl_internal_set_charsUsed(int32_t value);
 
-  constexpr int32_t& __get_curPos();
+  constexpr int32_t& __cordl_internal_get_curPos();
 
-  constexpr int32_t const& __get_curPos() const;
+  constexpr int32_t const& __cordl_internal_get_curPos() const;
 
-  constexpr void __set_curPos(int32_t value);
+  constexpr void __cordl_internal_set_curPos(int32_t value);
 
-  constexpr ::System::Xml::__DtdParser__ScanningFunction& __get_scanningFunction();
+  constexpr ::System::Xml::__DtdParser__ScanningFunction& __cordl_internal_get_scanningFunction();
 
-  constexpr ::System::Xml::__DtdParser__ScanningFunction const& __get_scanningFunction() const;
+  constexpr ::System::Xml::__DtdParser__ScanningFunction const& __cordl_internal_get_scanningFunction() const;
 
-  constexpr void __set_scanningFunction(::System::Xml::__DtdParser__ScanningFunction value);
+  constexpr void __cordl_internal_set_scanningFunction(::System::Xml::__DtdParser__ScanningFunction value);
 
-  constexpr ::System::Xml::__DtdParser__ScanningFunction& __get_nextScaningFunction();
+  constexpr ::System::Xml::__DtdParser__ScanningFunction& __cordl_internal_get_nextScaningFunction();
 
-  constexpr ::System::Xml::__DtdParser__ScanningFunction const& __get_nextScaningFunction() const;
+  constexpr ::System::Xml::__DtdParser__ScanningFunction const& __cordl_internal_get_nextScaningFunction() const;
 
-  constexpr void __set_nextScaningFunction(::System::Xml::__DtdParser__ScanningFunction value);
+  constexpr void __cordl_internal_set_nextScaningFunction(::System::Xml::__DtdParser__ScanningFunction value);
 
-  constexpr ::System::Xml::__DtdParser__ScanningFunction& __get_savedScanningFunction();
+  constexpr ::System::Xml::__DtdParser__ScanningFunction& __cordl_internal_get_savedScanningFunction();
 
-  constexpr ::System::Xml::__DtdParser__ScanningFunction const& __get_savedScanningFunction() const;
+  constexpr ::System::Xml::__DtdParser__ScanningFunction const& __cordl_internal_get_savedScanningFunction() const;
 
-  constexpr void __set_savedScanningFunction(::System::Xml::__DtdParser__ScanningFunction value);
+  constexpr void __cordl_internal_set_savedScanningFunction(::System::Xml::__DtdParser__ScanningFunction value);
 
-  constexpr bool& __get_whitespaceSeen();
+  constexpr bool& __cordl_internal_get_whitespaceSeen();
 
-  constexpr bool const& __get_whitespaceSeen() const;
+  constexpr bool const& __cordl_internal_get_whitespaceSeen() const;
 
-  constexpr void __set_whitespaceSeen(bool value);
+  constexpr void __cordl_internal_set_whitespaceSeen(bool value);
 
-  constexpr int32_t& __get_tokenStartPos();
+  constexpr int32_t& __cordl_internal_get_tokenStartPos();
 
-  constexpr int32_t const& __get_tokenStartPos() const;
+  constexpr int32_t const& __cordl_internal_get_tokenStartPos() const;
 
-  constexpr void __set_tokenStartPos(int32_t value);
+  constexpr void __cordl_internal_set_tokenStartPos(int32_t value);
 
-  constexpr int32_t& __get_colonPos();
+  constexpr int32_t& __cordl_internal_get_colonPos();
 
-  constexpr int32_t const& __get_colonPos() const;
+  constexpr int32_t const& __cordl_internal_get_colonPos() const;
 
-  constexpr void __set_colonPos(int32_t value);
+  constexpr void __cordl_internal_set_colonPos(int32_t value);
 
-  constexpr ::System::Text::StringBuilder*& __get_internalSubsetValueSb();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_internalSubsetValueSb();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get_internalSubsetValueSb() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_internalSubsetValueSb() const;
 
-  constexpr void __set_internalSubsetValueSb(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set_internalSubsetValueSb(::System::Text::StringBuilder* value);
 
-  constexpr int32_t& __get_externalEntitiesDepth();
+  constexpr int32_t& __cordl_internal_get_externalEntitiesDepth();
 
-  constexpr int32_t const& __get_externalEntitiesDepth() const;
+  constexpr int32_t const& __cordl_internal_get_externalEntitiesDepth() const;
 
-  constexpr void __set_externalEntitiesDepth(int32_t value);
+  constexpr void __cordl_internal_set_externalEntitiesDepth(int32_t value);
 
-  constexpr int32_t& __get_currentEntityId();
+  constexpr int32_t& __cordl_internal_get_currentEntityId();
 
-  constexpr int32_t const& __get_currentEntityId() const;
+  constexpr int32_t const& __cordl_internal_get_currentEntityId() const;
 
-  constexpr void __set_currentEntityId(int32_t value);
+  constexpr void __cordl_internal_set_currentEntityId(int32_t value);
 
-  constexpr bool& __get_freeFloatingDtd();
+  constexpr bool& __cordl_internal_get_freeFloatingDtd();
 
-  constexpr bool const& __get_freeFloatingDtd() const;
+  constexpr bool const& __cordl_internal_get_freeFloatingDtd() const;
 
-  constexpr void __set_freeFloatingDtd(bool value);
+  constexpr void __cordl_internal_set_freeFloatingDtd(bool value);
 
-  constexpr bool& __get_hasFreeFloatingInternalSubset();
+  constexpr bool& __cordl_internal_get_hasFreeFloatingInternalSubset();
 
-  constexpr bool const& __get_hasFreeFloatingInternalSubset() const;
+  constexpr bool const& __cordl_internal_get_hasFreeFloatingInternalSubset() const;
 
-  constexpr void __set_hasFreeFloatingInternalSubset(bool value);
+  constexpr void __cordl_internal_set_hasFreeFloatingInternalSubset(bool value);
 
-  constexpr ::System::Text::StringBuilder*& __get_stringBuilder();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_stringBuilder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get_stringBuilder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_stringBuilder() const;
 
-  constexpr void __set_stringBuilder(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set_stringBuilder(::System::Text::StringBuilder* value);
 
-  constexpr int32_t& __get_condSectionDepth();
+  constexpr int32_t& __cordl_internal_get_condSectionDepth();
 
-  constexpr int32_t const& __get_condSectionDepth() const;
+  constexpr int32_t const& __cordl_internal_get_condSectionDepth() const;
 
-  constexpr void __set_condSectionDepth(int32_t value);
+  constexpr void __cordl_internal_set_condSectionDepth(int32_t value);
 
-  constexpr ::System::Xml::LineInfo& __get_literalLineInfo();
+  constexpr ::System::Xml::LineInfo& __cordl_internal_get_literalLineInfo();
 
-  constexpr ::System::Xml::LineInfo const& __get_literalLineInfo() const;
+  constexpr ::System::Xml::LineInfo const& __cordl_internal_get_literalLineInfo() const;
 
-  constexpr void __set_literalLineInfo(::System::Xml::LineInfo value);
+  constexpr void __cordl_internal_set_literalLineInfo(::System::Xml::LineInfo value);
 
-  constexpr char16_t& __get_literalQuoteChar();
+  constexpr char16_t& __cordl_internal_get_literalQuoteChar();
 
-  constexpr char16_t const& __get_literalQuoteChar() const;
+  constexpr char16_t const& __cordl_internal_get_literalQuoteChar() const;
 
-  constexpr void __set_literalQuoteChar(char16_t value);
+  constexpr void __cordl_internal_set_literalQuoteChar(char16_t value);
 
-  constexpr ::StringW& __get_documentBaseUri();
+  constexpr ::StringW& __cordl_internal_get_documentBaseUri();
 
-  constexpr ::StringW const& __get_documentBaseUri() const;
+  constexpr ::StringW const& __cordl_internal_get_documentBaseUri() const;
 
-  constexpr void __set_documentBaseUri(::StringW value);
+  constexpr void __cordl_internal_set_documentBaseUri(::StringW value);
 
-  constexpr ::StringW& __get_externalDtdBaseUri();
+  constexpr ::StringW& __cordl_internal_get_externalDtdBaseUri();
 
-  constexpr ::StringW const& __get_externalDtdBaseUri() const;
+  constexpr ::StringW const& __cordl_internal_get_externalDtdBaseUri() const;
 
-  constexpr void __set_externalDtdBaseUri(::StringW value);
+  constexpr void __cordl_internal_set_externalDtdBaseUri(::StringW value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::__DtdParser__UndeclaredNotation*>*& __get_undeclaredNotations();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::__DtdParser__UndeclaredNotation*>*& __cordl_internal_get_undeclaredNotations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::__DtdParser__UndeclaredNotation*>*> const& __get_undeclaredNotations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::__DtdParser__UndeclaredNotation*>*> const&
+  __cordl_internal_get_undeclaredNotations() const;
 
-  constexpr void __set_undeclaredNotations(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::__DtdParser__UndeclaredNotation*>* value);
+  constexpr void __cordl_internal_set_undeclaredNotations(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Xml::__DtdParser__UndeclaredNotation*>* value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_condSectionEntityIds();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_condSectionEntityIds();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_condSectionEntityIds() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_condSectionEntityIds() const;
 
-  constexpr void __set_condSectionEntityIds(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_condSectionEntityIds(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   static inline ::System::Xml::DtdParser* New_ctor();
 

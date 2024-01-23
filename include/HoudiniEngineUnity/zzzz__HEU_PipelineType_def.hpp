@@ -15,7 +15,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HEU_PipelineType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9853))
 // CS Name: ::HoudiniEngineUnity::HEU_PipelineType
 struct CORDL_TYPE HEU_PipelineType {

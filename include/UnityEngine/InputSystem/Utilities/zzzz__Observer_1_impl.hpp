@@ -13,58 +13,59 @@ template <typename TValue> constexpr UnityEngine::InputSystem::Utilities::Observ
 template <typename TValue> constexpr ::System::IObserver_1<TValue>* UnityEngine::InputSystem::Utilities::Observer_1<TValue>::i___System__IObserver_1_TValue_() noexcept {
   return static_cast<::System::IObserver_1<TValue>*>(static_cast<void*>(this));
 }
-template <typename TValue> constexpr ::System::Action_1<TValue>*& UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__get_m_OnNext() {
+template <typename TValue> constexpr ::System::Action_1<TValue>*& UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__cordl_internal_get_m_OnNext() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnNext;
 }
-template <typename TValue> constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TValue>*> const& UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__get_m_OnNext() const {
+template <typename TValue>
+constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TValue>*> const& UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__cordl_internal_get_m_OnNext() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnNext;
 }
-template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__set_m_OnNext(::System::Action_1<TValue>* value) {
+template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__cordl_internal_set_m_OnNext(::System::Action_1<TValue>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnNext)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename TValue> constexpr ::System::Action*& UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__get_m_OnCompleted() {
+template <typename TValue> constexpr ::System::Action*& UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__cordl_internal_get_m_OnCompleted() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnCompleted;
 }
-template <typename TValue> constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__get_m_OnCompleted() const {
+template <typename TValue> constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__cordl_internal_get_m_OnCompleted() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnCompleted;
 }
-template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__set_m_OnCompleted(::System::Action* value) {
+template <typename TValue> constexpr void UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__cordl_internal_set_m_OnCompleted(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OnCompleted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 /// @param onCompleted: ::System::Action* (default: nullptr)
 template <typename TValue>
 inline ::UnityEngine::InputSystem::Utilities::Observer_1<TValue>* UnityEngine::InputSystem::Utilities::Observer_1<TValue>::New_ctor(::System::Action_1<TValue>* onNext, ::System::Action* onCompleted) {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::InputSystem::Utilities::Observer_1<TValue>*>(onNext, onCompleted));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::Utilities::Observer_1<TValue>*>(onNext, onCompleted));
 }
 /// @param onCompleted: ::System::Action* (default: nullptr)
 template <typename TValue> inline void UnityEngine::InputSystem::Utilities::Observer_1<TValue>::_ctor(::System::Action_1<TValue>* onNext, ::System::Action* onCompleted) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::Observer_1<TValue>*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<TValue>*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::Observer_1<TValue>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<TValue>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, onNext, onCompleted);
 }
 template <typename TValue> inline void UnityEngine::InputSystem::Utilities::Observer_1<TValue>::OnCompleted() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::Observer_1<TValue>*>::get(),
-                                                                             "OnCompleted", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "OnCompleted", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValue> inline void UnityEngine::InputSystem::Utilities::Observer_1<TValue>::OnError(::System::Exception* error) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::Observer_1<TValue>*>::get(), "OnError",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::Observer_1<TValue>*>::get(), "OnError",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, error);
 }
 template <typename TValue> inline void UnityEngine::InputSystem::Utilities::Observer_1<TValue>::OnNext(TValue evt) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::Observer_1<TValue>*>::get(), "OnNext",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValue>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
 }
 // Ctor Parameters []

@@ -18,17 +18,18 @@ MARK_REF_PTR_T(::GlobalNamespace::MockAudioTimeSource);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4067))
 // CS Name: ::MockAudioTimeSource*
 class CORDL_TYPE MockAudioTimeSource : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field <songTime>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__songTime_k__BackingField, put = __set__songTime_k__BackingField)) float_t _songTime_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__songTime_k__BackingField, put = __cordl_internal_set__songTime_k__BackingField)) float_t _songTime_k__BackingField;
 
   /// @brief Field <lastFrameDeltaSongTime>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__lastFrameDeltaSongTime_k__BackingField, put = __set__lastFrameDeltaSongTime_k__BackingField)) float_t _lastFrameDeltaSongTime_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lastFrameDeltaSongTime_k__BackingField,
+                      put = __cordl_internal_set__lastFrameDeltaSongTime_k__BackingField)) float_t _lastFrameDeltaSongTime_k__BackingField;
 
   __declspec(property(get = get_songTime, put = set_songTime)) float_t songTime;
 
@@ -46,17 +47,17 @@ public:
   /// @brief Convert to "::GlobalNamespace::IAudioTimeSource"
   constexpr ::GlobalNamespace::IAudioTimeSource* i___GlobalNamespace__IAudioTimeSource() noexcept;
 
-  constexpr float_t& __get__songTime_k__BackingField();
+  constexpr float_t& __cordl_internal_get__songTime_k__BackingField();
 
-  constexpr float_t const& __get__songTime_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__songTime_k__BackingField() const;
 
-  constexpr void __set__songTime_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__songTime_k__BackingField(float_t value);
 
-  constexpr float_t& __get__lastFrameDeltaSongTime_k__BackingField();
+  constexpr float_t& __cordl_internal_get__lastFrameDeltaSongTime_k__BackingField();
 
-  constexpr float_t const& __get__lastFrameDeltaSongTime_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__lastFrameDeltaSongTime_k__BackingField() const;
 
-  constexpr void __set__lastFrameDeltaSongTime_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__lastFrameDeltaSongTime_k__BackingField(float_t value);
 
   /// @brief Method get_songTime, addr 0x222e17c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_songTime();

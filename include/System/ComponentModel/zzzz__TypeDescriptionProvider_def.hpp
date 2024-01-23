@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::System::ComponentModel::__TypeDescriptionProvider__EmptyCustomT
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9414))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9414))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9459))
 // CS Name: ::TypeDescriptionProvider::EmptyCustomTypeDescriptor*
 class CORDL_TYPE __TypeDescriptionProvider__EmptyCustomTypeDescriptor : public ::System::ComponentModel::CustomTypeDescriptor {
@@ -73,7 +73,7 @@ static_assert(::cordl_internals::size_check_v<::System::ComponentModel::__TypeDe
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9460))
 // CS Name: ::System.ComponentModel::TypeDescriptionProvider*
 class CORDL_TYPE TypeDescriptionProvider : public ::System::Object {
@@ -82,22 +82,23 @@ public:
   using EmptyCustomTypeDescriptor = ::System::ComponentModel::__TypeDescriptionProvider__EmptyCustomTypeDescriptor;
 
   /// @brief Field _parent, offset 0x10, size 0x8
-  __declspec(property(get = __get__parent, put = __set__parent))::System::ComponentModel::TypeDescriptionProvider* _parent;
+  __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent))::System::ComponentModel::TypeDescriptionProvider* _parent;
 
   /// @brief Field _emptyDescriptor, offset 0x18, size 0x8
-  __declspec(property(get = __get__emptyDescriptor, put = __set__emptyDescriptor))::System::ComponentModel::__TypeDescriptionProvider__EmptyCustomTypeDescriptor* _emptyDescriptor;
+  __declspec(property(get = __cordl_internal_get__emptyDescriptor,
+                      put = __cordl_internal_set__emptyDescriptor))::System::ComponentModel::__TypeDescriptionProvider__EmptyCustomTypeDescriptor* _emptyDescriptor;
 
-  constexpr ::System::ComponentModel::TypeDescriptionProvider*& __get__parent();
+  constexpr ::System::ComponentModel::TypeDescriptionProvider*& __cordl_internal_get__parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::TypeDescriptionProvider*> const& __get__parent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::TypeDescriptionProvider*> const& __cordl_internal_get__parent() const;
 
-  constexpr void __set__parent(::System::ComponentModel::TypeDescriptionProvider* value);
+  constexpr void __cordl_internal_set__parent(::System::ComponentModel::TypeDescriptionProvider* value);
 
-  constexpr ::System::ComponentModel::__TypeDescriptionProvider__EmptyCustomTypeDescriptor*& __get__emptyDescriptor();
+  constexpr ::System::ComponentModel::__TypeDescriptionProvider__EmptyCustomTypeDescriptor*& __cordl_internal_get__emptyDescriptor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::__TypeDescriptionProvider__EmptyCustomTypeDescriptor*> const& __get__emptyDescriptor() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::__TypeDescriptionProvider__EmptyCustomTypeDescriptor*> const& __cordl_internal_get__emptyDescriptor() const;
 
-  constexpr void __set__emptyDescriptor(::System::ComponentModel::__TypeDescriptionProvider__EmptyCustomTypeDescriptor* value);
+  constexpr void __cordl_internal_set__emptyDescriptor(::System::ComponentModel::__TypeDescriptionProvider__EmptyCustomTypeDescriptor* value);
 
   static inline ::System::ComponentModel::TypeDescriptionProvider* New_ctor();
 

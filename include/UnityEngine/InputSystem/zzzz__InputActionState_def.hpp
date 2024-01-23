@@ -191,7 +191,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6171))
 // CS Name: ::InputActionState::InteractionState::Flags
 struct CORDL_TYPE __InputActionState__InteractionState__Flags {
@@ -237,7 +237,7 @@ static_assert(offsetof(::GlobalNamespace::__InputActionState__InteractionState__
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6172))
 // CS Name: ::InputActionState::InteractionState
 #pragma pack(push, 0)
@@ -247,34 +247,35 @@ public:
   using Flags = ::GlobalNamespace::__InputActionState__InteractionState__Flags;
 
   /// @brief Field m_TriggerControlIndex, offset 0x0, size 0x2
-  __declspec(property(get = __get_m_TriggerControlIndex, put = __set_m_TriggerControlIndex)) uint16_t m_TriggerControlIndex;
+  __declspec(property(get = __cordl_internal_get_m_TriggerControlIndex, put = __cordl_internal_set_m_TriggerControlIndex)) uint16_t m_TriggerControlIndex;
 
   /// @brief Field m_Phase, offset 0x2, size 0x1
-  __declspec(property(get = __get_m_Phase, put = __set_m_Phase)) uint8_t m_Phase;
+  __declspec(property(get = __cordl_internal_get_m_Phase, put = __cordl_internal_set_m_Phase)) uint8_t m_Phase;
 
   /// @brief Field m_Flags, offset 0x3, size 0x1
-  __declspec(property(get = __get_m_Flags, put = __set_m_Flags)) uint8_t m_Flags;
+  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags)) uint8_t m_Flags;
 
   /// @brief Field m_TimerDuration, offset 0x4, size 0x4
-  __declspec(property(get = __get_m_TimerDuration, put = __set_m_TimerDuration)) float_t m_TimerDuration;
+  __declspec(property(get = __cordl_internal_get_m_TimerDuration, put = __cordl_internal_set_m_TimerDuration)) float_t m_TimerDuration;
 
   /// @brief Field m_StartTime, offset 0x8, size 0x8
-  __declspec(property(get = __get_m_StartTime, put = __set_m_StartTime)) double_t m_StartTime;
+  __declspec(property(get = __cordl_internal_get_m_StartTime, put = __cordl_internal_set_m_StartTime)) double_t m_StartTime;
 
   /// @brief Field m_TimerStartTime, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_TimerStartTime, put = __set_m_TimerStartTime)) double_t m_TimerStartTime;
+  __declspec(property(get = __cordl_internal_get_m_TimerStartTime, put = __cordl_internal_set_m_TimerStartTime)) double_t m_TimerStartTime;
 
   /// @brief Field m_PerformedTime, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_PerformedTime, put = __set_m_PerformedTime)) double_t m_PerformedTime;
+  __declspec(property(get = __cordl_internal_get_m_PerformedTime, put = __cordl_internal_set_m_PerformedTime)) double_t m_PerformedTime;
 
   /// @brief Field m_TotalTimeoutCompletionTimeDone, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_TotalTimeoutCompletionTimeDone, put = __set_m_TotalTimeoutCompletionTimeDone)) float_t m_TotalTimeoutCompletionTimeDone;
+  __declspec(property(get = __cordl_internal_get_m_TotalTimeoutCompletionTimeDone, put = __cordl_internal_set_m_TotalTimeoutCompletionTimeDone)) float_t m_TotalTimeoutCompletionTimeDone;
 
   /// @brief Field m_TotalTimeoutCompletionTimeRemaining, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_TotalTimeoutCompletionTimeRemaining, put = __set_m_TotalTimeoutCompletionTimeRemaining)) float_t m_TotalTimeoutCompletionTimeRemaining;
+  __declspec(property(get = __cordl_internal_get_m_TotalTimeoutCompletionTimeRemaining,
+                      put = __cordl_internal_set_m_TotalTimeoutCompletionTimeRemaining)) float_t m_TotalTimeoutCompletionTimeRemaining;
 
   /// @brief Field m_TimerMonitorIndex, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_TimerMonitorIndex, put = __set_m_TimerMonitorIndex)) int64_t m_TimerMonitorIndex;
+  __declspec(property(get = __cordl_internal_get_m_TimerMonitorIndex, put = __cordl_internal_set_m_TimerMonitorIndex)) int64_t m_TimerMonitorIndex;
 
   __declspec(property(get = get_triggerControlIndex, put = set_triggerControlIndex)) int32_t triggerControlIndex;
 
@@ -296,65 +297,65 @@ public:
 
   __declspec(property(get = get_phase, put = set_phase))::UnityEngine::InputSystem::InputActionPhase phase;
 
-  constexpr uint16_t& __get_m_TriggerControlIndex();
+  constexpr uint16_t& __cordl_internal_get_m_TriggerControlIndex();
 
-  constexpr uint16_t const& __get_m_TriggerControlIndex() const;
+  constexpr uint16_t const& __cordl_internal_get_m_TriggerControlIndex() const;
 
-  constexpr void __set_m_TriggerControlIndex(uint16_t value);
+  constexpr void __cordl_internal_set_m_TriggerControlIndex(uint16_t value);
 
-  constexpr uint8_t& __get_m_Phase();
+  constexpr uint8_t& __cordl_internal_get_m_Phase();
 
-  constexpr uint8_t const& __get_m_Phase() const;
+  constexpr uint8_t const& __cordl_internal_get_m_Phase() const;
 
-  constexpr void __set_m_Phase(uint8_t value);
+  constexpr void __cordl_internal_set_m_Phase(uint8_t value);
 
-  constexpr uint8_t& __get_m_Flags();
+  constexpr uint8_t& __cordl_internal_get_m_Flags();
 
-  constexpr uint8_t const& __get_m_Flags() const;
+  constexpr uint8_t const& __cordl_internal_get_m_Flags() const;
 
-  constexpr void __set_m_Flags(uint8_t value);
+  constexpr void __cordl_internal_set_m_Flags(uint8_t value);
 
-  constexpr float_t& __get_m_TimerDuration();
+  constexpr float_t& __cordl_internal_get_m_TimerDuration();
 
-  constexpr float_t const& __get_m_TimerDuration() const;
+  constexpr float_t const& __cordl_internal_get_m_TimerDuration() const;
 
-  constexpr void __set_m_TimerDuration(float_t value);
+  constexpr void __cordl_internal_set_m_TimerDuration(float_t value);
 
-  constexpr double_t& __get_m_StartTime();
+  constexpr double_t& __cordl_internal_get_m_StartTime();
 
-  constexpr double_t const& __get_m_StartTime() const;
+  constexpr double_t const& __cordl_internal_get_m_StartTime() const;
 
-  constexpr void __set_m_StartTime(double_t value);
+  constexpr void __cordl_internal_set_m_StartTime(double_t value);
 
-  constexpr double_t& __get_m_TimerStartTime();
+  constexpr double_t& __cordl_internal_get_m_TimerStartTime();
 
-  constexpr double_t const& __get_m_TimerStartTime() const;
+  constexpr double_t const& __cordl_internal_get_m_TimerStartTime() const;
 
-  constexpr void __set_m_TimerStartTime(double_t value);
+  constexpr void __cordl_internal_set_m_TimerStartTime(double_t value);
 
-  constexpr double_t& __get_m_PerformedTime();
+  constexpr double_t& __cordl_internal_get_m_PerformedTime();
 
-  constexpr double_t const& __get_m_PerformedTime() const;
+  constexpr double_t const& __cordl_internal_get_m_PerformedTime() const;
 
-  constexpr void __set_m_PerformedTime(double_t value);
+  constexpr void __cordl_internal_set_m_PerformedTime(double_t value);
 
-  constexpr float_t& __get_m_TotalTimeoutCompletionTimeDone();
+  constexpr float_t& __cordl_internal_get_m_TotalTimeoutCompletionTimeDone();
 
-  constexpr float_t const& __get_m_TotalTimeoutCompletionTimeDone() const;
+  constexpr float_t const& __cordl_internal_get_m_TotalTimeoutCompletionTimeDone() const;
 
-  constexpr void __set_m_TotalTimeoutCompletionTimeDone(float_t value);
+  constexpr void __cordl_internal_set_m_TotalTimeoutCompletionTimeDone(float_t value);
 
-  constexpr float_t& __get_m_TotalTimeoutCompletionTimeRemaining();
+  constexpr float_t& __cordl_internal_get_m_TotalTimeoutCompletionTimeRemaining();
 
-  constexpr float_t const& __get_m_TotalTimeoutCompletionTimeRemaining() const;
+  constexpr float_t const& __cordl_internal_get_m_TotalTimeoutCompletionTimeRemaining() const;
 
-  constexpr void __set_m_TotalTimeoutCompletionTimeRemaining(float_t value);
+  constexpr void __cordl_internal_set_m_TotalTimeoutCompletionTimeRemaining(float_t value);
 
-  constexpr int64_t& __get_m_TimerMonitorIndex();
+  constexpr int64_t& __cordl_internal_get_m_TimerMonitorIndex();
 
-  constexpr int64_t const& __get_m_TimerMonitorIndex() const;
+  constexpr int64_t const& __cordl_internal_get_m_TimerMonitorIndex() const;
 
-  constexpr void __set_m_TimerMonitorIndex(int64_t value);
+  constexpr void __cordl_internal_set_m_TimerMonitorIndex(int64_t value);
 
   /// @brief Method get_triggerControlIndex, addr 0x2a4ea40, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_triggerControlIndex();
@@ -589,7 +590,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6173))
 // CS Name: ::InputActionState::BindingState::Flags
 struct CORDL_TYPE __InputActionState__BindingState__Flags {
@@ -655,7 +656,7 @@ static_assert(offsetof(::GlobalNamespace::__InputActionState__BindingState__Flag
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6174))
 // CS Name: ::InputActionState::BindingState
 #pragma pack(push, 0)
@@ -665,46 +666,46 @@ public:
   using Flags = ::GlobalNamespace::__InputActionState__BindingState__Flags;
 
   /// @brief Field m_ControlCount, offset 0x0, size 0x1
-  __declspec(property(get = __get_m_ControlCount, put = __set_m_ControlCount)) uint8_t m_ControlCount;
+  __declspec(property(get = __cordl_internal_get_m_ControlCount, put = __cordl_internal_set_m_ControlCount)) uint8_t m_ControlCount;
 
   /// @brief Field m_InteractionCount, offset 0x1, size 0x1
-  __declspec(property(get = __get_m_InteractionCount, put = __set_m_InteractionCount)) uint8_t m_InteractionCount;
+  __declspec(property(get = __cordl_internal_get_m_InteractionCount, put = __cordl_internal_set_m_InteractionCount)) uint8_t m_InteractionCount;
 
   /// @brief Field m_ProcessorCount, offset 0x2, size 0x1
-  __declspec(property(get = __get_m_ProcessorCount, put = __set_m_ProcessorCount)) uint8_t m_ProcessorCount;
+  __declspec(property(get = __cordl_internal_get_m_ProcessorCount, put = __cordl_internal_set_m_ProcessorCount)) uint8_t m_ProcessorCount;
 
   /// @brief Field m_MapIndex, offset 0x3, size 0x1
-  __declspec(property(get = __get_m_MapIndex, put = __set_m_MapIndex)) uint8_t m_MapIndex;
+  __declspec(property(get = __cordl_internal_get_m_MapIndex, put = __cordl_internal_set_m_MapIndex)) uint8_t m_MapIndex;
 
   /// @brief Field m_Flags, offset 0x4, size 0x1
-  __declspec(property(get = __get_m_Flags, put = __set_m_Flags)) uint8_t m_Flags;
+  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags)) uint8_t m_Flags;
 
   /// @brief Field m_PartIndex, offset 0x5, size 0x1
-  __declspec(property(get = __get_m_PartIndex, put = __set_m_PartIndex)) uint8_t m_PartIndex;
+  __declspec(property(get = __cordl_internal_get_m_PartIndex, put = __cordl_internal_set_m_PartIndex)) uint8_t m_PartIndex;
 
   /// @brief Field m_ActionIndex, offset 0x6, size 0x2
-  __declspec(property(get = __get_m_ActionIndex, put = __set_m_ActionIndex)) uint16_t m_ActionIndex;
+  __declspec(property(get = __cordl_internal_get_m_ActionIndex, put = __cordl_internal_set_m_ActionIndex)) uint16_t m_ActionIndex;
 
   /// @brief Field m_CompositeOrCompositeBindingIndex, offset 0x8, size 0x2
-  __declspec(property(get = __get_m_CompositeOrCompositeBindingIndex, put = __set_m_CompositeOrCompositeBindingIndex)) uint16_t m_CompositeOrCompositeBindingIndex;
+  __declspec(property(get = __cordl_internal_get_m_CompositeOrCompositeBindingIndex, put = __cordl_internal_set_m_CompositeOrCompositeBindingIndex)) uint16_t m_CompositeOrCompositeBindingIndex;
 
   /// @brief Field m_ProcessorStartIndex, offset 0xa, size 0x2
-  __declspec(property(get = __get_m_ProcessorStartIndex, put = __set_m_ProcessorStartIndex)) uint16_t m_ProcessorStartIndex;
+  __declspec(property(get = __cordl_internal_get_m_ProcessorStartIndex, put = __cordl_internal_set_m_ProcessorStartIndex)) uint16_t m_ProcessorStartIndex;
 
   /// @brief Field m_InteractionStartIndex, offset 0xc, size 0x2
-  __declspec(property(get = __get_m_InteractionStartIndex, put = __set_m_InteractionStartIndex)) uint16_t m_InteractionStartIndex;
+  __declspec(property(get = __cordl_internal_get_m_InteractionStartIndex, put = __cordl_internal_set_m_InteractionStartIndex)) uint16_t m_InteractionStartIndex;
 
   /// @brief Field m_ControlStartIndex, offset 0xe, size 0x2
-  __declspec(property(get = __get_m_ControlStartIndex, put = __set_m_ControlStartIndex)) uint16_t m_ControlStartIndex;
+  __declspec(property(get = __cordl_internal_get_m_ControlStartIndex, put = __cordl_internal_set_m_ControlStartIndex)) uint16_t m_ControlStartIndex;
 
   /// @brief Field m_PressTime, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_PressTime, put = __set_m_PressTime)) double_t m_PressTime;
+  __declspec(property(get = __cordl_internal_get_m_PressTime, put = __cordl_internal_set_m_PressTime)) double_t m_PressTime;
 
   /// @brief Field m_TriggerEventIdForComposite, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_TriggerEventIdForComposite, put = __set_m_TriggerEventIdForComposite)) int32_t m_TriggerEventIdForComposite;
+  __declspec(property(get = __cordl_internal_get_m_TriggerEventIdForComposite, put = __cordl_internal_set_m_TriggerEventIdForComposite)) int32_t m_TriggerEventIdForComposite;
 
   /// @brief Field __padding, offset 0x1c, size 0x4
-  __declspec(property(get = __get___padding, put = __set___padding)) int32_t __padding;
+  __declspec(property(get = __cordl_internal_get___padding, put = __cordl_internal_set___padding)) int32_t __padding;
 
   __declspec(property(get = get_controlStartIndex, put = set_controlStartIndex)) int32_t controlStartIndex;
 
@@ -746,89 +747,89 @@ public:
 
   __declspec(property(get = get_partIndex, put = set_partIndex)) int32_t partIndex;
 
-  constexpr uint8_t& __get_m_ControlCount();
+  constexpr uint8_t& __cordl_internal_get_m_ControlCount();
 
-  constexpr uint8_t const& __get_m_ControlCount() const;
+  constexpr uint8_t const& __cordl_internal_get_m_ControlCount() const;
 
-  constexpr void __set_m_ControlCount(uint8_t value);
+  constexpr void __cordl_internal_set_m_ControlCount(uint8_t value);
 
-  constexpr uint8_t& __get_m_InteractionCount();
+  constexpr uint8_t& __cordl_internal_get_m_InteractionCount();
 
-  constexpr uint8_t const& __get_m_InteractionCount() const;
+  constexpr uint8_t const& __cordl_internal_get_m_InteractionCount() const;
 
-  constexpr void __set_m_InteractionCount(uint8_t value);
+  constexpr void __cordl_internal_set_m_InteractionCount(uint8_t value);
 
-  constexpr uint8_t& __get_m_ProcessorCount();
+  constexpr uint8_t& __cordl_internal_get_m_ProcessorCount();
 
-  constexpr uint8_t const& __get_m_ProcessorCount() const;
+  constexpr uint8_t const& __cordl_internal_get_m_ProcessorCount() const;
 
-  constexpr void __set_m_ProcessorCount(uint8_t value);
+  constexpr void __cordl_internal_set_m_ProcessorCount(uint8_t value);
 
-  constexpr uint8_t& __get_m_MapIndex();
+  constexpr uint8_t& __cordl_internal_get_m_MapIndex();
 
-  constexpr uint8_t const& __get_m_MapIndex() const;
+  constexpr uint8_t const& __cordl_internal_get_m_MapIndex() const;
 
-  constexpr void __set_m_MapIndex(uint8_t value);
+  constexpr void __cordl_internal_set_m_MapIndex(uint8_t value);
 
-  constexpr uint8_t& __get_m_Flags();
+  constexpr uint8_t& __cordl_internal_get_m_Flags();
 
-  constexpr uint8_t const& __get_m_Flags() const;
+  constexpr uint8_t const& __cordl_internal_get_m_Flags() const;
 
-  constexpr void __set_m_Flags(uint8_t value);
+  constexpr void __cordl_internal_set_m_Flags(uint8_t value);
 
-  constexpr uint8_t& __get_m_PartIndex();
+  constexpr uint8_t& __cordl_internal_get_m_PartIndex();
 
-  constexpr uint8_t const& __get_m_PartIndex() const;
+  constexpr uint8_t const& __cordl_internal_get_m_PartIndex() const;
 
-  constexpr void __set_m_PartIndex(uint8_t value);
+  constexpr void __cordl_internal_set_m_PartIndex(uint8_t value);
 
-  constexpr uint16_t& __get_m_ActionIndex();
+  constexpr uint16_t& __cordl_internal_get_m_ActionIndex();
 
-  constexpr uint16_t const& __get_m_ActionIndex() const;
+  constexpr uint16_t const& __cordl_internal_get_m_ActionIndex() const;
 
-  constexpr void __set_m_ActionIndex(uint16_t value);
+  constexpr void __cordl_internal_set_m_ActionIndex(uint16_t value);
 
-  constexpr uint16_t& __get_m_CompositeOrCompositeBindingIndex();
+  constexpr uint16_t& __cordl_internal_get_m_CompositeOrCompositeBindingIndex();
 
-  constexpr uint16_t const& __get_m_CompositeOrCompositeBindingIndex() const;
+  constexpr uint16_t const& __cordl_internal_get_m_CompositeOrCompositeBindingIndex() const;
 
-  constexpr void __set_m_CompositeOrCompositeBindingIndex(uint16_t value);
+  constexpr void __cordl_internal_set_m_CompositeOrCompositeBindingIndex(uint16_t value);
 
-  constexpr uint16_t& __get_m_ProcessorStartIndex();
+  constexpr uint16_t& __cordl_internal_get_m_ProcessorStartIndex();
 
-  constexpr uint16_t const& __get_m_ProcessorStartIndex() const;
+  constexpr uint16_t const& __cordl_internal_get_m_ProcessorStartIndex() const;
 
-  constexpr void __set_m_ProcessorStartIndex(uint16_t value);
+  constexpr void __cordl_internal_set_m_ProcessorStartIndex(uint16_t value);
 
-  constexpr uint16_t& __get_m_InteractionStartIndex();
+  constexpr uint16_t& __cordl_internal_get_m_InteractionStartIndex();
 
-  constexpr uint16_t const& __get_m_InteractionStartIndex() const;
+  constexpr uint16_t const& __cordl_internal_get_m_InteractionStartIndex() const;
 
-  constexpr void __set_m_InteractionStartIndex(uint16_t value);
+  constexpr void __cordl_internal_set_m_InteractionStartIndex(uint16_t value);
 
-  constexpr uint16_t& __get_m_ControlStartIndex();
+  constexpr uint16_t& __cordl_internal_get_m_ControlStartIndex();
 
-  constexpr uint16_t const& __get_m_ControlStartIndex() const;
+  constexpr uint16_t const& __cordl_internal_get_m_ControlStartIndex() const;
 
-  constexpr void __set_m_ControlStartIndex(uint16_t value);
+  constexpr void __cordl_internal_set_m_ControlStartIndex(uint16_t value);
 
-  constexpr double_t& __get_m_PressTime();
+  constexpr double_t& __cordl_internal_get_m_PressTime();
 
-  constexpr double_t const& __get_m_PressTime() const;
+  constexpr double_t const& __cordl_internal_get_m_PressTime() const;
 
-  constexpr void __set_m_PressTime(double_t value);
+  constexpr void __cordl_internal_set_m_PressTime(double_t value);
 
-  constexpr int32_t& __get_m_TriggerEventIdForComposite();
+  constexpr int32_t& __cordl_internal_get_m_TriggerEventIdForComposite();
 
-  constexpr int32_t const& __get_m_TriggerEventIdForComposite() const;
+  constexpr int32_t const& __cordl_internal_get_m_TriggerEventIdForComposite() const;
 
-  constexpr void __set_m_TriggerEventIdForComposite(int32_t value);
+  constexpr void __cordl_internal_set_m_TriggerEventIdForComposite(int32_t value);
 
-  constexpr int32_t& __get___padding();
+  constexpr int32_t& __cordl_internal_get___padding();
 
-  constexpr int32_t const& __get___padding() const;
+  constexpr int32_t const& __cordl_internal_get___padding() const;
 
-  constexpr void __set___padding(int32_t value);
+  constexpr void __cordl_internal_set___padding(int32_t value);
 
   /// @brief Method get_controlStartIndex, addr 0x2a54484, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_controlStartIndex();
@@ -1178,7 +1179,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6175))
 // CS Name: ::InputActionState::TriggerState::Flags
 struct CORDL_TYPE __InputActionState__TriggerState__Flags {
@@ -1248,7 +1249,7 @@ static_assert(offsetof(::GlobalNamespace::__InputActionState__TriggerState__Flag
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6176))
 // CS Name: ::InputActionState::TriggerState
 #pragma pack(push, 0)
@@ -1258,43 +1259,43 @@ public:
   using Flags = ::GlobalNamespace::__InputActionState__TriggerState__Flags;
 
   /// @brief Field m_Phase, offset 0x0, size 0x1
-  __declspec(property(get = __get_m_Phase, put = __set_m_Phase)) uint8_t m_Phase;
+  __declspec(property(get = __cordl_internal_get_m_Phase, put = __cordl_internal_set_m_Phase)) uint8_t m_Phase;
 
   /// @brief Field m_Flags, offset 0x1, size 0x1
-  __declspec(property(get = __get_m_Flags, put = __set_m_Flags)) uint8_t m_Flags;
+  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags)) uint8_t m_Flags;
 
   /// @brief Field m_MapIndex, offset 0x2, size 0x1
-  __declspec(property(get = __get_m_MapIndex, put = __set_m_MapIndex)) uint8_t m_MapIndex;
+  __declspec(property(get = __cordl_internal_get_m_MapIndex, put = __cordl_internal_set_m_MapIndex)) uint8_t m_MapIndex;
 
   /// @brief Field m_ControlIndex, offset 0x4, size 0x2
-  __declspec(property(get = __get_m_ControlIndex, put = __set_m_ControlIndex)) uint16_t m_ControlIndex;
+  __declspec(property(get = __cordl_internal_get_m_ControlIndex, put = __cordl_internal_set_m_ControlIndex)) uint16_t m_ControlIndex;
 
   /// @brief Field m_Time, offset 0x8, size 0x8
-  __declspec(property(get = __get_m_Time, put = __set_m_Time)) double_t m_Time;
+  __declspec(property(get = __cordl_internal_get_m_Time, put = __cordl_internal_set_m_Time)) double_t m_Time;
 
   /// @brief Field m_StartTime, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_StartTime, put = __set_m_StartTime)) double_t m_StartTime;
+  __declspec(property(get = __cordl_internal_get_m_StartTime, put = __cordl_internal_set_m_StartTime)) double_t m_StartTime;
 
   /// @brief Field m_BindingIndex, offset 0x18, size 0x2
-  __declspec(property(get = __get_m_BindingIndex, put = __set_m_BindingIndex)) uint16_t m_BindingIndex;
+  __declspec(property(get = __cordl_internal_get_m_BindingIndex, put = __cordl_internal_set_m_BindingIndex)) uint16_t m_BindingIndex;
 
   /// @brief Field m_InteractionIndex, offset 0x1a, size 0x2
-  __declspec(property(get = __get_m_InteractionIndex, put = __set_m_InteractionIndex)) uint16_t m_InteractionIndex;
+  __declspec(property(get = __cordl_internal_get_m_InteractionIndex, put = __cordl_internal_set_m_InteractionIndex)) uint16_t m_InteractionIndex;
 
   /// @brief Field m_Magnitude, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_Magnitude, put = __set_m_Magnitude)) float_t m_Magnitude;
+  __declspec(property(get = __cordl_internal_get_m_Magnitude, put = __cordl_internal_set_m_Magnitude)) float_t m_Magnitude;
 
   /// @brief Field m_LastPerformedInUpdate, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_LastPerformedInUpdate, put = __set_m_LastPerformedInUpdate)) uint32_t m_LastPerformedInUpdate;
+  __declspec(property(get = __cordl_internal_get_m_LastPerformedInUpdate, put = __cordl_internal_set_m_LastPerformedInUpdate)) uint32_t m_LastPerformedInUpdate;
 
   /// @brief Field m_LastCanceledInUpdate, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_LastCanceledInUpdate, put = __set_m_LastCanceledInUpdate)) uint32_t m_LastCanceledInUpdate;
+  __declspec(property(get = __cordl_internal_get_m_LastCanceledInUpdate, put = __cordl_internal_set_m_LastCanceledInUpdate)) uint32_t m_LastCanceledInUpdate;
 
   /// @brief Field m_PressedInUpdate, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_PressedInUpdate, put = __set_m_PressedInUpdate)) uint32_t m_PressedInUpdate;
+  __declspec(property(get = __cordl_internal_get_m_PressedInUpdate, put = __cordl_internal_set_m_PressedInUpdate)) uint32_t m_PressedInUpdate;
 
   /// @brief Field m_ReleasedInUpdate, offset 0x2c, size 0x4
-  __declspec(property(get = __get_m_ReleasedInUpdate, put = __set_m_ReleasedInUpdate)) uint32_t m_ReleasedInUpdate;
+  __declspec(property(get = __cordl_internal_get_m_ReleasedInUpdate, put = __cordl_internal_set_m_ReleasedInUpdate)) uint32_t m_ReleasedInUpdate;
 
   __declspec(property(get = get_phase, put = set_phase))::UnityEngine::InputSystem::InputActionPhase phase;
 
@@ -1346,83 +1347,83 @@ public:
 
   __declspec(property(get = get_flags, put = set_flags))::GlobalNamespace::__InputActionState__TriggerState__Flags flags;
 
-  constexpr uint8_t& __get_m_Phase();
+  constexpr uint8_t& __cordl_internal_get_m_Phase();
 
-  constexpr uint8_t const& __get_m_Phase() const;
+  constexpr uint8_t const& __cordl_internal_get_m_Phase() const;
 
-  constexpr void __set_m_Phase(uint8_t value);
+  constexpr void __cordl_internal_set_m_Phase(uint8_t value);
 
-  constexpr uint8_t& __get_m_Flags();
+  constexpr uint8_t& __cordl_internal_get_m_Flags();
 
-  constexpr uint8_t const& __get_m_Flags() const;
+  constexpr uint8_t const& __cordl_internal_get_m_Flags() const;
 
-  constexpr void __set_m_Flags(uint8_t value);
+  constexpr void __cordl_internal_set_m_Flags(uint8_t value);
 
-  constexpr uint8_t& __get_m_MapIndex();
+  constexpr uint8_t& __cordl_internal_get_m_MapIndex();
 
-  constexpr uint8_t const& __get_m_MapIndex() const;
+  constexpr uint8_t const& __cordl_internal_get_m_MapIndex() const;
 
-  constexpr void __set_m_MapIndex(uint8_t value);
+  constexpr void __cordl_internal_set_m_MapIndex(uint8_t value);
 
-  constexpr uint16_t& __get_m_ControlIndex();
+  constexpr uint16_t& __cordl_internal_get_m_ControlIndex();
 
-  constexpr uint16_t const& __get_m_ControlIndex() const;
+  constexpr uint16_t const& __cordl_internal_get_m_ControlIndex() const;
 
-  constexpr void __set_m_ControlIndex(uint16_t value);
+  constexpr void __cordl_internal_set_m_ControlIndex(uint16_t value);
 
-  constexpr double_t& __get_m_Time();
+  constexpr double_t& __cordl_internal_get_m_Time();
 
-  constexpr double_t const& __get_m_Time() const;
+  constexpr double_t const& __cordl_internal_get_m_Time() const;
 
-  constexpr void __set_m_Time(double_t value);
+  constexpr void __cordl_internal_set_m_Time(double_t value);
 
-  constexpr double_t& __get_m_StartTime();
+  constexpr double_t& __cordl_internal_get_m_StartTime();
 
-  constexpr double_t const& __get_m_StartTime() const;
+  constexpr double_t const& __cordl_internal_get_m_StartTime() const;
 
-  constexpr void __set_m_StartTime(double_t value);
+  constexpr void __cordl_internal_set_m_StartTime(double_t value);
 
-  constexpr uint16_t& __get_m_BindingIndex();
+  constexpr uint16_t& __cordl_internal_get_m_BindingIndex();
 
-  constexpr uint16_t const& __get_m_BindingIndex() const;
+  constexpr uint16_t const& __cordl_internal_get_m_BindingIndex() const;
 
-  constexpr void __set_m_BindingIndex(uint16_t value);
+  constexpr void __cordl_internal_set_m_BindingIndex(uint16_t value);
 
-  constexpr uint16_t& __get_m_InteractionIndex();
+  constexpr uint16_t& __cordl_internal_get_m_InteractionIndex();
 
-  constexpr uint16_t const& __get_m_InteractionIndex() const;
+  constexpr uint16_t const& __cordl_internal_get_m_InteractionIndex() const;
 
-  constexpr void __set_m_InteractionIndex(uint16_t value);
+  constexpr void __cordl_internal_set_m_InteractionIndex(uint16_t value);
 
-  constexpr float_t& __get_m_Magnitude();
+  constexpr float_t& __cordl_internal_get_m_Magnitude();
 
-  constexpr float_t const& __get_m_Magnitude() const;
+  constexpr float_t const& __cordl_internal_get_m_Magnitude() const;
 
-  constexpr void __set_m_Magnitude(float_t value);
+  constexpr void __cordl_internal_set_m_Magnitude(float_t value);
 
-  constexpr uint32_t& __get_m_LastPerformedInUpdate();
+  constexpr uint32_t& __cordl_internal_get_m_LastPerformedInUpdate();
 
-  constexpr uint32_t const& __get_m_LastPerformedInUpdate() const;
+  constexpr uint32_t const& __cordl_internal_get_m_LastPerformedInUpdate() const;
 
-  constexpr void __set_m_LastPerformedInUpdate(uint32_t value);
+  constexpr void __cordl_internal_set_m_LastPerformedInUpdate(uint32_t value);
 
-  constexpr uint32_t& __get_m_LastCanceledInUpdate();
+  constexpr uint32_t& __cordl_internal_get_m_LastCanceledInUpdate();
 
-  constexpr uint32_t const& __get_m_LastCanceledInUpdate() const;
+  constexpr uint32_t const& __cordl_internal_get_m_LastCanceledInUpdate() const;
 
-  constexpr void __set_m_LastCanceledInUpdate(uint32_t value);
+  constexpr void __cordl_internal_set_m_LastCanceledInUpdate(uint32_t value);
 
-  constexpr uint32_t& __get_m_PressedInUpdate();
+  constexpr uint32_t& __cordl_internal_get_m_PressedInUpdate();
 
-  constexpr uint32_t const& __get_m_PressedInUpdate() const;
+  constexpr uint32_t const& __cordl_internal_get_m_PressedInUpdate() const;
 
-  constexpr void __set_m_PressedInUpdate(uint32_t value);
+  constexpr void __cordl_internal_set_m_PressedInUpdate(uint32_t value);
 
-  constexpr uint32_t& __get_m_ReleasedInUpdate();
+  constexpr uint32_t& __cordl_internal_get_m_ReleasedInUpdate();
 
-  constexpr uint32_t const& __get_m_ReleasedInUpdate() const;
+  constexpr uint32_t const& __cordl_internal_get_m_ReleasedInUpdate() const;
 
-  constexpr void __set_m_ReleasedInUpdate(uint32_t value);
+  constexpr void __cordl_internal_set_m_ReleasedInUpdate(uint32_t value);
 
   /// @brief Method get_phase, addr 0x2a54b38, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionPhase get_phase();
@@ -1781,7 +1782,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6177))
 // CS Name: ::InputActionState::ActionMapIndices
 struct CORDL_TYPE __InputActionState__ActionMapIndices {
@@ -1874,7 +1875,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionState__ActionMap
 // SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6178))
 // CS Name: ::InputActionState::UnmanagedMemory
 struct CORDL_TYPE __InputActionState__UnmanagedMemory {
@@ -2041,11 +2042,11 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionState__Unmanaged
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2324)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 995
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6140)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 987 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(2323)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 2 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 565 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3866 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6660))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6179)) CS Name: ::InputActionState::GlobalState
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(2324)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(6140)), TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(6669)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 2 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2324), inst: 565 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 987 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 995 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3866 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6179)) CS Name: ::InputActionState::GlobalState
 struct CORDL_TYPE __InputActionState__GlobalState {
 public:
   // Declarations
@@ -2090,7 +2091,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputActionState__GlobalSta
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6180))
 // CS Name: ::InputActionState::<>c*
 class CORDL_TYPE __InputActionState____c : public ::System::Object {
@@ -2154,8 +2155,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6179)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6536)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6178))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6181)) CS Name: ::UnityEngine.InputSystem::InputActionState*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6178)), TypeDefinitionIndex(TypeDefinitionIndex(6179)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6536))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6181)) CS Name: ::UnityEngine.InputSystem::InputActionState*
 class CORDL_TYPE InputActionState : public ::System::Object {
 public:
   // Declarations
@@ -2174,45 +2175,49 @@ public:
   using InteractionState = ::UnityEngine::InputSystem::__InputActionState__InteractionState;
 
   /// @brief Field maps, offset 0x10, size 0x8
-  __declspec(property(get = __get_maps, put = __set_maps))::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*> maps;
+  __declspec(property(get = __cordl_internal_get_maps,
+                      put = __cordl_internal_set_maps))::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*> maps;
 
   /// @brief Field controls, offset 0x18, size 0x8
-  __declspec(property(get = __get_controls, put = __set_controls))::ArrayW<::UnityEngine::InputSystem::InputControl*, ::Array<::UnityEngine::InputSystem::InputControl*>*> controls;
+  __declspec(property(get = __cordl_internal_get_controls,
+                      put = __cordl_internal_set_controls))::ArrayW<::UnityEngine::InputSystem::InputControl*, ::Array<::UnityEngine::InputSystem::InputControl*>*> controls;
 
   /// @brief Field interactions, offset 0x20, size 0x8
-  __declspec(property(get = __get_interactions,
-                      put = __set_interactions))::ArrayW<::UnityEngine::InputSystem::IInputInteraction*, ::Array<::UnityEngine::InputSystem::IInputInteraction*>*> interactions;
+  __declspec(property(get = __cordl_internal_get_interactions,
+                      put = __cordl_internal_set_interactions))::ArrayW<::UnityEngine::InputSystem::IInputInteraction*, ::Array<::UnityEngine::InputSystem::IInputInteraction*>*> interactions;
 
   /// @brief Field processors, offset 0x28, size 0x8
-  __declspec(property(get = __get_processors, put = __set_processors))::ArrayW<::UnityEngine::InputSystem::InputProcessor*, ::Array<::UnityEngine::InputSystem::InputProcessor*>*> processors;
+  __declspec(property(get = __cordl_internal_get_processors,
+                      put = __cordl_internal_set_processors))::ArrayW<::UnityEngine::InputSystem::InputProcessor*, ::Array<::UnityEngine::InputSystem::InputProcessor*>*> processors;
 
   /// @brief Field composites, offset 0x30, size 0x8
-  __declspec(property(get = __get_composites,
-                      put = __set_composites))::ArrayW<::UnityEngine::InputSystem::InputBindingComposite*, ::Array<::UnityEngine::InputSystem::InputBindingComposite*>*> composites;
+  __declspec(property(get = __cordl_internal_get_composites,
+                      put = __cordl_internal_set_composites))::ArrayW<::UnityEngine::InputSystem::InputBindingComposite*, ::Array<::UnityEngine::InputSystem::InputBindingComposite*>*> composites;
 
   /// @brief Field totalProcessorCount, offset 0x38, size 0x4
-  __declspec(property(get = __get_totalProcessorCount, put = __set_totalProcessorCount)) int32_t totalProcessorCount;
+  __declspec(property(get = __cordl_internal_get_totalProcessorCount, put = __cordl_internal_set_totalProcessorCount)) int32_t totalProcessorCount;
 
   /// @brief Field memory, offset 0x40, size 0x80
-  __declspec(property(get = __get_memory, put = __set_memory))::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory memory;
+  __declspec(property(get = __cordl_internal_get_memory, put = __cordl_internal_set_memory))::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory memory;
 
   /// @brief Field m_OnBeforeUpdateHooked, offset 0xc0, size 0x1
-  __declspec(property(get = __get_m_OnBeforeUpdateHooked, put = __set_m_OnBeforeUpdateHooked)) bool m_OnBeforeUpdateHooked;
+  __declspec(property(get = __cordl_internal_get_m_OnBeforeUpdateHooked, put = __cordl_internal_set_m_OnBeforeUpdateHooked)) bool m_OnBeforeUpdateHooked;
 
   /// @brief Field m_OnAfterUpdateHooked, offset 0xc1, size 0x1
-  __declspec(property(get = __get_m_OnAfterUpdateHooked, put = __set_m_OnAfterUpdateHooked)) bool m_OnAfterUpdateHooked;
+  __declspec(property(get = __cordl_internal_get_m_OnAfterUpdateHooked, put = __cordl_internal_set_m_OnAfterUpdateHooked)) bool m_OnAfterUpdateHooked;
 
   /// @brief Field m_InProcessControlStateChange, offset 0xc2, size 0x1
-  __declspec(property(get = __get_m_InProcessControlStateChange, put = __set_m_InProcessControlStateChange)) bool m_InProcessControlStateChange;
+  __declspec(property(get = __cordl_internal_get_m_InProcessControlStateChange, put = __cordl_internal_set_m_InProcessControlStateChange)) bool m_InProcessControlStateChange;
 
   /// @brief Field m_CurrentlyProcessingThisEvent, offset 0xc8, size 0x8
-  __declspec(property(get = __get_m_CurrentlyProcessingThisEvent, put = __set_m_CurrentlyProcessingThisEvent))::UnityEngine::InputSystem::LowLevel::InputEventPtr m_CurrentlyProcessingThisEvent;
+  __declspec(property(get = __cordl_internal_get_m_CurrentlyProcessingThisEvent,
+                      put = __cordl_internal_set_m_CurrentlyProcessingThisEvent))::UnityEngine::InputSystem::LowLevel::InputEventPtr m_CurrentlyProcessingThisEvent;
 
   /// @brief Field m_OnBeforeUpdateDelegate, offset 0xd0, size 0x8
-  __declspec(property(get = __get_m_OnBeforeUpdateDelegate, put = __set_m_OnBeforeUpdateDelegate))::System::Action* m_OnBeforeUpdateDelegate;
+  __declspec(property(get = __cordl_internal_get_m_OnBeforeUpdateDelegate, put = __cordl_internal_set_m_OnBeforeUpdateDelegate))::System::Action* m_OnBeforeUpdateDelegate;
 
   /// @brief Field m_OnAfterUpdateDelegate, offset 0xd8, size 0x8
-  __declspec(property(get = __get_m_OnAfterUpdateDelegate, put = __set_m_OnAfterUpdateDelegate))::System::Action* m_OnAfterUpdateDelegate;
+  __declspec(property(get = __cordl_internal_get_m_OnAfterUpdateDelegate, put = __cordl_internal_set_m_OnAfterUpdateDelegate))::System::Action* m_OnAfterUpdateDelegate;
 
   /// @brief Field s_GlobalState, offset 0xffffffff, size 0xb8
   static __declspec(property(get = getStaticF_s_GlobalState, put = setStaticF_s_GlobalState))::UnityEngine::InputSystem::__InputActionState__GlobalState s_GlobalState;
@@ -2265,83 +2270,83 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*>& __get_maps();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*>& __cordl_internal_get_maps();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*> const& __get_maps() const;
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*> const& __cordl_internal_get_maps() const;
 
-  constexpr void __set_maps(::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*> value);
+  constexpr void __cordl_internal_set_maps(::ArrayW<::UnityEngine::InputSystem::InputActionMap*, ::Array<::UnityEngine::InputSystem::InputActionMap*>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputControl*, ::Array<::UnityEngine::InputSystem::InputControl*>*>& __get_controls();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputControl*, ::Array<::UnityEngine::InputSystem::InputControl*>*>& __cordl_internal_get_controls();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputControl*, ::Array<::UnityEngine::InputSystem::InputControl*>*> const& __get_controls() const;
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputControl*, ::Array<::UnityEngine::InputSystem::InputControl*>*> const& __cordl_internal_get_controls() const;
 
-  constexpr void __set_controls(::ArrayW<::UnityEngine::InputSystem::InputControl*, ::Array<::UnityEngine::InputSystem::InputControl*>*> value);
+  constexpr void __cordl_internal_set_controls(::ArrayW<::UnityEngine::InputSystem::InputControl*, ::Array<::UnityEngine::InputSystem::InputControl*>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::IInputInteraction*, ::Array<::UnityEngine::InputSystem::IInputInteraction*>*>& __get_interactions();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::IInputInteraction*, ::Array<::UnityEngine::InputSystem::IInputInteraction*>*>& __cordl_internal_get_interactions();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::IInputInteraction*, ::Array<::UnityEngine::InputSystem::IInputInteraction*>*> const& __get_interactions() const;
+  constexpr ::ArrayW<::UnityEngine::InputSystem::IInputInteraction*, ::Array<::UnityEngine::InputSystem::IInputInteraction*>*> const& __cordl_internal_get_interactions() const;
 
-  constexpr void __set_interactions(::ArrayW<::UnityEngine::InputSystem::IInputInteraction*, ::Array<::UnityEngine::InputSystem::IInputInteraction*>*> value);
+  constexpr void __cordl_internal_set_interactions(::ArrayW<::UnityEngine::InputSystem::IInputInteraction*, ::Array<::UnityEngine::InputSystem::IInputInteraction*>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputProcessor*, ::Array<::UnityEngine::InputSystem::InputProcessor*>*>& __get_processors();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputProcessor*, ::Array<::UnityEngine::InputSystem::InputProcessor*>*>& __cordl_internal_get_processors();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputProcessor*, ::Array<::UnityEngine::InputSystem::InputProcessor*>*> const& __get_processors() const;
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputProcessor*, ::Array<::UnityEngine::InputSystem::InputProcessor*>*> const& __cordl_internal_get_processors() const;
 
-  constexpr void __set_processors(::ArrayW<::UnityEngine::InputSystem::InputProcessor*, ::Array<::UnityEngine::InputSystem::InputProcessor*>*> value);
+  constexpr void __cordl_internal_set_processors(::ArrayW<::UnityEngine::InputSystem::InputProcessor*, ::Array<::UnityEngine::InputSystem::InputProcessor*>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputBindingComposite*, ::Array<::UnityEngine::InputSystem::InputBindingComposite*>*>& __get_composites();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputBindingComposite*, ::Array<::UnityEngine::InputSystem::InputBindingComposite*>*>& __cordl_internal_get_composites();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::InputBindingComposite*, ::Array<::UnityEngine::InputSystem::InputBindingComposite*>*> const& __get_composites() const;
+  constexpr ::ArrayW<::UnityEngine::InputSystem::InputBindingComposite*, ::Array<::UnityEngine::InputSystem::InputBindingComposite*>*> const& __cordl_internal_get_composites() const;
 
-  constexpr void __set_composites(::ArrayW<::UnityEngine::InputSystem::InputBindingComposite*, ::Array<::UnityEngine::InputSystem::InputBindingComposite*>*> value);
+  constexpr void __cordl_internal_set_composites(::ArrayW<::UnityEngine::InputSystem::InputBindingComposite*, ::Array<::UnityEngine::InputSystem::InputBindingComposite*>*> value);
 
-  constexpr int32_t& __get_totalProcessorCount();
+  constexpr int32_t& __cordl_internal_get_totalProcessorCount();
 
-  constexpr int32_t const& __get_totalProcessorCount() const;
+  constexpr int32_t const& __cordl_internal_get_totalProcessorCount() const;
 
-  constexpr void __set_totalProcessorCount(int32_t value);
+  constexpr void __cordl_internal_set_totalProcessorCount(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory& __get_memory();
+  constexpr ::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory& __cordl_internal_get_memory();
 
-  constexpr ::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory const& __get_memory() const;
+  constexpr ::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory const& __cordl_internal_get_memory() const;
 
-  constexpr void __set_memory(::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory value);
+  constexpr void __cordl_internal_set_memory(::UnityEngine::InputSystem::__InputActionState__UnmanagedMemory value);
 
-  constexpr bool& __get_m_OnBeforeUpdateHooked();
+  constexpr bool& __cordl_internal_get_m_OnBeforeUpdateHooked();
 
-  constexpr bool const& __get_m_OnBeforeUpdateHooked() const;
+  constexpr bool const& __cordl_internal_get_m_OnBeforeUpdateHooked() const;
 
-  constexpr void __set_m_OnBeforeUpdateHooked(bool value);
+  constexpr void __cordl_internal_set_m_OnBeforeUpdateHooked(bool value);
 
-  constexpr bool& __get_m_OnAfterUpdateHooked();
+  constexpr bool& __cordl_internal_get_m_OnAfterUpdateHooked();
 
-  constexpr bool const& __get_m_OnAfterUpdateHooked() const;
+  constexpr bool const& __cordl_internal_get_m_OnAfterUpdateHooked() const;
 
-  constexpr void __set_m_OnAfterUpdateHooked(bool value);
+  constexpr void __cordl_internal_set_m_OnAfterUpdateHooked(bool value);
 
-  constexpr bool& __get_m_InProcessControlStateChange();
+  constexpr bool& __cordl_internal_get_m_InProcessControlStateChange();
 
-  constexpr bool const& __get_m_InProcessControlStateChange() const;
+  constexpr bool const& __cordl_internal_get_m_InProcessControlStateChange() const;
 
-  constexpr void __set_m_InProcessControlStateChange(bool value);
+  constexpr void __cordl_internal_set_m_InProcessControlStateChange(bool value);
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr& __get_m_CurrentlyProcessingThisEvent();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr& __cordl_internal_get_m_CurrentlyProcessingThisEvent();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr const& __get_m_CurrentlyProcessingThisEvent() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr const& __cordl_internal_get_m_CurrentlyProcessingThisEvent() const;
 
-  constexpr void __set_m_CurrentlyProcessingThisEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr value);
+  constexpr void __cordl_internal_set_m_CurrentlyProcessingThisEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr value);
 
-  constexpr ::System::Action*& __get_m_OnBeforeUpdateDelegate();
+  constexpr ::System::Action*& __cordl_internal_get_m_OnBeforeUpdateDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_m_OnBeforeUpdateDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_m_OnBeforeUpdateDelegate() const;
 
-  constexpr void __set_m_OnBeforeUpdateDelegate(::System::Action* value);
+  constexpr void __cordl_internal_set_m_OnBeforeUpdateDelegate(::System::Action* value);
 
-  constexpr ::System::Action*& __get_m_OnAfterUpdateDelegate();
+  constexpr ::System::Action*& __cordl_internal_get_m_OnAfterUpdateDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_m_OnAfterUpdateDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_m_OnAfterUpdateDelegate() const;
 
-  constexpr void __set_m_OnAfterUpdateDelegate(::System::Action* value);
+  constexpr void __cordl_internal_set_m_OnAfterUpdateDelegate(::System::Action* value);
 
   static inline void setStaticF_s_GlobalState(::UnityEngine::InputSystem::__InputActionState__GlobalState value);
 

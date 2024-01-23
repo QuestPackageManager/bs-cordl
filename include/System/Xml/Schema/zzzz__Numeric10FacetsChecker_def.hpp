@@ -35,32 +35,32 @@ MARK_REF_PTR_T(::System::Xml::Schema::Numeric10FacetsChecker);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2655)), TypeDefinitionIndex(TypeDefinitionIndex(11686))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2655)), TypeDefinitionIndex(TypeDefinitionIndex(11686))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11687))
 // CS Name: ::System.Xml.Schema::Numeric10FacetsChecker*
 class CORDL_TYPE Numeric10FacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
   /// @brief Field maxValue, offset 0x10, size 0x10
-  __declspec(property(get = __get_maxValue, put = __set_maxValue))::System::Decimal maxValue;
+  __declspec(property(get = __cordl_internal_get_maxValue, put = __cordl_internal_set_maxValue))::System::Decimal maxValue;
 
   /// @brief Field minValue, offset 0x20, size 0x10
-  __declspec(property(get = __get_minValue, put = __set_minValue))::System::Decimal minValue;
+  __declspec(property(get = __cordl_internal_get_minValue, put = __cordl_internal_set_minValue))::System::Decimal minValue;
 
   /// @brief Field signs, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_signs, put = setStaticF_signs))::ArrayW<char16_t, ::Array<char16_t>*> signs;
 
-  constexpr ::System::Decimal& __get_maxValue();
+  constexpr ::System::Decimal& __cordl_internal_get_maxValue();
 
-  constexpr ::System::Decimal const& __get_maxValue() const;
+  constexpr ::System::Decimal const& __cordl_internal_get_maxValue() const;
 
-  constexpr void __set_maxValue(::System::Decimal value);
+  constexpr void __cordl_internal_set_maxValue(::System::Decimal value);
 
-  constexpr ::System::Decimal& __get_minValue();
+  constexpr ::System::Decimal& __cordl_internal_get_minValue();
 
-  constexpr ::System::Decimal const& __get_minValue() const;
+  constexpr ::System::Decimal const& __cordl_internal_get_minValue() const;
 
-  constexpr void __set_minValue(::System::Decimal value);
+  constexpr void __cordl_internal_set_minValue(::System::Decimal value);
 
   static inline void setStaticF_signs(::ArrayW<char16_t, ::Array<char16_t>*> value);
 

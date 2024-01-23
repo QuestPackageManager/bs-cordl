@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::System::LocalDataStoreSlot);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2544))
 // CS Name: ::System::LocalDataStoreSlot*
 class CORDL_TYPE LocalDataStoreSlot : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_mgr, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_mgr, put = __set_m_mgr))::System::LocalDataStoreMgr* m_mgr;
+  __declspec(property(get = __cordl_internal_get_m_mgr, put = __cordl_internal_set_m_mgr))::System::LocalDataStoreMgr* m_mgr;
 
   /// @brief Field m_slot, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_slot, put = __set_m_slot)) int32_t m_slot;
+  __declspec(property(get = __cordl_internal_get_m_slot, put = __cordl_internal_set_m_slot)) int32_t m_slot;
 
   /// @brief Field m_cookie, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_cookie, put = __set_m_cookie)) int64_t m_cookie;
+  __declspec(property(get = __cordl_internal_get_m_cookie, put = __cordl_internal_set_m_cookie)) int64_t m_cookie;
 
   __declspec(property(get = get_Manager))::System::LocalDataStoreMgr* Manager;
 
@@ -39,23 +39,23 @@ public:
 
   __declspec(property(get = get_Cookie)) int64_t Cookie;
 
-  constexpr ::System::LocalDataStoreMgr*& __get_m_mgr();
+  constexpr ::System::LocalDataStoreMgr*& __cordl_internal_get_m_mgr();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::LocalDataStoreMgr*> const& __get_m_mgr() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::LocalDataStoreMgr*> const& __cordl_internal_get_m_mgr() const;
 
-  constexpr void __set_m_mgr(::System::LocalDataStoreMgr* value);
+  constexpr void __cordl_internal_set_m_mgr(::System::LocalDataStoreMgr* value);
 
-  constexpr int32_t& __get_m_slot();
+  constexpr int32_t& __cordl_internal_get_m_slot();
 
-  constexpr int32_t const& __get_m_slot() const;
+  constexpr int32_t const& __cordl_internal_get_m_slot() const;
 
-  constexpr void __set_m_slot(int32_t value);
+  constexpr void __cordl_internal_set_m_slot(int32_t value);
 
-  constexpr int64_t& __get_m_cookie();
+  constexpr int64_t& __cordl_internal_get_m_cookie();
 
-  constexpr int64_t const& __get_m_cookie() const;
+  constexpr int64_t const& __cordl_internal_get_m_cookie() const;
 
-  constexpr void __set_m_cookie(int64_t value);
+  constexpr void __cordl_internal_set_m_cookie(int64_t value);
 
   static inline ::System::LocalDataStoreSlot* New_ctor(::System::LocalDataStoreMgr* mgr, int32_t slot, int64_t cookie);
 

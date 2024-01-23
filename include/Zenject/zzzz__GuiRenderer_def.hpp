@@ -24,20 +24,20 @@ MARK_REF_PTR_T(::Zenject::GuiRenderer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11316))
 // CS Name: ::Zenject::GuiRenderer*
 class CORDL_TYPE GuiRenderer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _renderableManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__renderableManager, put = __set__renderableManager))::Zenject::GuiRenderableManager* _renderableManager;
+  __declspec(property(get = __cordl_internal_get__renderableManager, put = __cordl_internal_set__renderableManager))::Zenject::GuiRenderableManager* _renderableManager;
 
-  constexpr ::Zenject::GuiRenderableManager*& __get__renderableManager();
+  constexpr ::Zenject::GuiRenderableManager*& __cordl_internal_get__renderableManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::GuiRenderableManager*> const& __get__renderableManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::GuiRenderableManager*> const& __cordl_internal_get__renderableManager() const;
 
-  constexpr void __set__renderableManager(::Zenject::GuiRenderableManager* value);
+  constexpr void __cordl_internal_set__renderableManager(::Zenject::GuiRenderableManager* value);
 
   /// @brief Method Construct, addr 0x2f12f84, size 0x8, virtual false, abstract: false, final false
   inline void Construct(::Zenject::GuiRenderableManager* renderableManager);

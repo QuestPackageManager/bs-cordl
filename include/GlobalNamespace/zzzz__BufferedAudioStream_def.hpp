@@ -20,56 +20,56 @@ MARK_REF_PTR_T(::GlobalNamespace::BufferedAudioStream);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13220))
 // CS Name: ::BufferedAudioStream*
 class CORDL_TYPE BufferedAudioStream : public ::System::Object {
 public:
   // Declarations
   /// @brief Field audio, offset 0x10, size 0x8
-  __declspec(property(get = __get_audio, put = __set_audio))::UnityEngine::AudioSource* audio;
+  __declspec(property(get = __cordl_internal_get_audio, put = __cordl_internal_set_audio))::UnityW<::UnityEngine::AudioSource> audio;
 
   /// @brief Field audioBuffer, offset 0x18, size 0x8
-  __declspec(property(get = __get_audioBuffer, put = __set_audioBuffer))::ArrayW<float_t, ::Array<float_t>*> audioBuffer;
+  __declspec(property(get = __cordl_internal_get_audioBuffer, put = __cordl_internal_set_audioBuffer))::ArrayW<float_t, ::Array<float_t>*> audioBuffer;
 
   /// @brief Field writePos, offset 0x20, size 0x4
-  __declspec(property(get = __get_writePos, put = __set_writePos)) int32_t writePos;
+  __declspec(property(get = __cordl_internal_get_writePos, put = __cordl_internal_set_writePos)) int32_t writePos;
 
   /// @brief Field playbackDelayRemaining, offset 0x24, size 0x4
-  __declspec(property(get = __get_playbackDelayRemaining, put = __set_playbackDelayRemaining)) float_t playbackDelayRemaining;
+  __declspec(property(get = __cordl_internal_get_playbackDelayRemaining, put = __cordl_internal_set_playbackDelayRemaining)) float_t playbackDelayRemaining;
 
   /// @brief Field remainingBufferTime, offset 0x28, size 0x4
-  __declspec(property(get = __get_remainingBufferTime, put = __set_remainingBufferTime)) float_t remainingBufferTime;
+  __declspec(property(get = __cordl_internal_get_remainingBufferTime, put = __cordl_internal_set_remainingBufferTime)) float_t remainingBufferTime;
 
-  constexpr ::UnityEngine::AudioSource*& __get_audio();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get_audio();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get_audio() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get_audio() const;
 
-  constexpr void __set_audio(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set_audio(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get_audioBuffer();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_audioBuffer();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get_audioBuffer() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_audioBuffer() const;
 
-  constexpr void __set_audioBuffer(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set_audioBuffer(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr int32_t& __get_writePos();
+  constexpr int32_t& __cordl_internal_get_writePos();
 
-  constexpr int32_t const& __get_writePos() const;
+  constexpr int32_t const& __cordl_internal_get_writePos() const;
 
-  constexpr void __set_writePos(int32_t value);
+  constexpr void __cordl_internal_set_writePos(int32_t value);
 
-  constexpr float_t& __get_playbackDelayRemaining();
+  constexpr float_t& __cordl_internal_get_playbackDelayRemaining();
 
-  constexpr float_t const& __get_playbackDelayRemaining() const;
+  constexpr float_t const& __cordl_internal_get_playbackDelayRemaining() const;
 
-  constexpr void __set_playbackDelayRemaining(float_t value);
+  constexpr void __cordl_internal_set_playbackDelayRemaining(float_t value);
 
-  constexpr float_t& __get_remainingBufferTime();
+  constexpr float_t& __cordl_internal_get_remainingBufferTime();
 
-  constexpr float_t const& __get_remainingBufferTime() const;
+  constexpr float_t const& __cordl_internal_get_remainingBufferTime() const;
 
-  constexpr void __set_remainingBufferTime(float_t value);
+  constexpr void __cordl_internal_set_remainingBufferTime(float_t value);
 
   static inline ::GlobalNamespace::BufferedAudioStream* New_ctor(::UnityEngine::AudioSource* audio);
 
@@ -100,7 +100,7 @@ protected:
 
 public:
   /// @brief Field audio, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ___audio;
+  ::UnityW<::UnityEngine::AudioSource> ___audio;
 
   /// @brief Field audioBuffer, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<float_t, ::Array<float_t>*> ___audioBuffer;

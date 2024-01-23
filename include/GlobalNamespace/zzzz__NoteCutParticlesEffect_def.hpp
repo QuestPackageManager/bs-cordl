@@ -26,128 +26,132 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteCutParticlesEffect);
 // SizeInfo { instance_size: 560, native_size: -1, calculated_instance_size: 560, calculated_native_size: 560, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15889)), TypeDefinitionIndex(TypeDefinitionIndex(15882)), TypeDefinitionIndex(TypeDefinitionIndex(15886)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15884))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4871)) CS Name: ::NoteCutParticlesEffect*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15882)), TypeDefinitionIndex(TypeDefinitionIndex(15884)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15886)), TypeDefinitionIndex(TypeDefinitionIndex(15889))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4871)) CS Name: ::NoteCutParticlesEffect*
 class CORDL_TYPE NoteCutParticlesEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _sparklesPS, offset 0x18, size 0x8
-  __declspec(property(get = __get__sparklesPS, put = __set__sparklesPS))::UnityEngine::ParticleSystem* _sparklesPS;
+  __declspec(property(get = __cordl_internal_get__sparklesPS, put = __cordl_internal_set__sparklesPS))::UnityW<::UnityEngine::ParticleSystem> _sparklesPS;
 
   /// @brief Field _explosionPS, offset 0x20, size 0x8
-  __declspec(property(get = __get__explosionPS, put = __set__explosionPS))::UnityEngine::ParticleSystem* _explosionPS;
+  __declspec(property(get = __cordl_internal_get__explosionPS, put = __cordl_internal_set__explosionPS))::UnityW<::UnityEngine::ParticleSystem> _explosionPS;
 
   /// @brief Field _explosionCorePS, offset 0x28, size 0x8
-  __declspec(property(get = __get__explosionCorePS, put = __set__explosionCorePS))::UnityEngine::ParticleSystem* _explosionCorePS;
+  __declspec(property(get = __cordl_internal_get__explosionCorePS, put = __cordl_internal_set__explosionCorePS))::UnityW<::UnityEngine::ParticleSystem> _explosionCorePS;
 
   /// @brief Field _explosionPrePassBloomPS, offset 0x30, size 0x8
-  __declspec(property(get = __get__explosionPrePassBloomPS, put = __set__explosionPrePassBloomPS))::UnityEngine::ParticleSystem* _explosionPrePassBloomPS;
+  __declspec(property(get = __cordl_internal_get__explosionPrePassBloomPS, put = __cordl_internal_set__explosionPrePassBloomPS))::UnityW<::UnityEngine::ParticleSystem> _explosionPrePassBloomPS;
 
   /// @brief Field _sparklesPSEmitParams, offset 0x38, size 0x90
-  __declspec(property(get = __get__sparklesPSEmitParams, put = __set__sparklesPSEmitParams))::UnityEngine::__ParticleSystem__EmitParams _sparklesPSEmitParams;
+  __declspec(property(get = __cordl_internal_get__sparklesPSEmitParams, put = __cordl_internal_set__sparklesPSEmitParams))::UnityEngine::__ParticleSystem__EmitParams _sparklesPSEmitParams;
 
   /// @brief Field _sparklesPSMainModule, offset 0xc8, size 0x8
-  __declspec(property(get = __get__sparklesPSMainModule, put = __set__sparklesPSMainModule))::UnityEngine::__ParticleSystem__MainModule _sparklesPSMainModule;
+  __declspec(property(get = __cordl_internal_get__sparklesPSMainModule, put = __cordl_internal_set__sparklesPSMainModule))::UnityEngine::__ParticleSystem__MainModule _sparklesPSMainModule;
 
   /// @brief Field _sparklesPSShapeModule, offset 0xd0, size 0x8
-  __declspec(property(get = __get__sparklesPSShapeModule, put = __set__sparklesPSShapeModule))::UnityEngine::__ParticleSystem__ShapeModule _sparklesPSShapeModule;
+  __declspec(property(get = __cordl_internal_get__sparklesPSShapeModule, put = __cordl_internal_set__sparklesPSShapeModule))::UnityEngine::__ParticleSystem__ShapeModule _sparklesPSShapeModule;
 
   /// @brief Field _sparklesLifetimeMinMaxCurve, offset 0xd8, size 0x20
-  __declspec(property(get = __get__sparklesLifetimeMinMaxCurve, put = __set__sparklesLifetimeMinMaxCurve))::UnityEngine::__ParticleSystem__MinMaxCurve _sparklesLifetimeMinMaxCurve;
+  __declspec(property(get = __cordl_internal_get__sparklesLifetimeMinMaxCurve,
+                      put = __cordl_internal_set__sparklesLifetimeMinMaxCurve))::UnityEngine::__ParticleSystem__MinMaxCurve _sparklesLifetimeMinMaxCurve;
 
   /// @brief Field _explosionPSEmitParams, offset 0xf8, size 0x90
-  __declspec(property(get = __get__explosionPSEmitParams, put = __set__explosionPSEmitParams))::UnityEngine::__ParticleSystem__EmitParams _explosionPSEmitParams;
+  __declspec(property(get = __cordl_internal_get__explosionPSEmitParams, put = __cordl_internal_set__explosionPSEmitParams))::UnityEngine::__ParticleSystem__EmitParams _explosionPSEmitParams;
 
   /// @brief Field _explosionCorePSEmitParams, offset 0x188, size 0x90
-  __declspec(property(get = __get__explosionCorePSEmitParams, put = __set__explosionCorePSEmitParams))::UnityEngine::__ParticleSystem__EmitParams _explosionCorePSEmitParams;
+  __declspec(property(get = __cordl_internal_get__explosionCorePSEmitParams,
+                      put = __cordl_internal_set__explosionCorePSEmitParams))::UnityEngine::__ParticleSystem__EmitParams _explosionCorePSEmitParams;
 
   /// @brief Field _explosionCorePSMainModule, offset 0x218, size 0x8
-  __declspec(property(get = __get__explosionCorePSMainModule, put = __set__explosionCorePSMainModule))::UnityEngine::__ParticleSystem__MainModule _explosionCorePSMainModule;
+  __declspec(property(get = __cordl_internal_get__explosionCorePSMainModule,
+                      put = __cordl_internal_set__explosionCorePSMainModule))::UnityEngine::__ParticleSystem__MainModule _explosionCorePSMainModule;
 
   /// @brief Field _explosionCorePSShapeModule, offset 0x220, size 0x8
-  __declspec(property(get = __get__explosionCorePSShapeModule, put = __set__explosionCorePSShapeModule))::UnityEngine::__ParticleSystem__ShapeModule _explosionCorePSShapeModule;
+  __declspec(property(get = __cordl_internal_get__explosionCorePSShapeModule,
+                      put = __cordl_internal_set__explosionCorePSShapeModule))::UnityEngine::__ParticleSystem__ShapeModule _explosionCorePSShapeModule;
 
   /// @brief Field _explosionPrePassBloomPSShapeModule, offset 0x228, size 0x8
-  __declspec(property(get = __get__explosionPrePassBloomPSShapeModule,
-                      put = __set__explosionPrePassBloomPSShapeModule))::UnityEngine::__ParticleSystem__ShapeModule _explosionPrePassBloomPSShapeModule;
+  __declspec(property(get = __cordl_internal_get__explosionPrePassBloomPSShapeModule,
+                      put = __cordl_internal_set__explosionPrePassBloomPSShapeModule))::UnityEngine::__ParticleSystem__ShapeModule _explosionPrePassBloomPSShapeModule;
 
-  constexpr ::UnityEngine::ParticleSystem*& __get__sparklesPS();
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__sparklesPS();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& __get__sparklesPS() const;
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__sparklesPS() const;
 
-  constexpr void __set__sparklesPS(::UnityEngine::ParticleSystem* value);
+  constexpr void __cordl_internal_set__sparklesPS(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  constexpr ::UnityEngine::ParticleSystem*& __get__explosionPS();
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__explosionPS();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& __get__explosionPS() const;
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__explosionPS() const;
 
-  constexpr void __set__explosionPS(::UnityEngine::ParticleSystem* value);
+  constexpr void __cordl_internal_set__explosionPS(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  constexpr ::UnityEngine::ParticleSystem*& __get__explosionCorePS();
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__explosionCorePS();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& __get__explosionCorePS() const;
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__explosionCorePS() const;
 
-  constexpr void __set__explosionCorePS(::UnityEngine::ParticleSystem* value);
+  constexpr void __cordl_internal_set__explosionCorePS(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  constexpr ::UnityEngine::ParticleSystem*& __get__explosionPrePassBloomPS();
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__explosionPrePassBloomPS();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& __get__explosionPrePassBloomPS() const;
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__explosionPrePassBloomPS() const;
 
-  constexpr void __set__explosionPrePassBloomPS(::UnityEngine::ParticleSystem* value);
+  constexpr void __cordl_internal_set__explosionPrePassBloomPS(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams& __get__sparklesPSEmitParams();
+  constexpr ::UnityEngine::__ParticleSystem__EmitParams& __cordl_internal_get__sparklesPSEmitParams();
 
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams const& __get__sparklesPSEmitParams() const;
+  constexpr ::UnityEngine::__ParticleSystem__EmitParams const& __cordl_internal_get__sparklesPSEmitParams() const;
 
-  constexpr void __set__sparklesPSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
+  constexpr void __cordl_internal_set__sparklesPSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
 
-  constexpr ::UnityEngine::__ParticleSystem__MainModule& __get__sparklesPSMainModule();
+  constexpr ::UnityEngine::__ParticleSystem__MainModule& __cordl_internal_get__sparklesPSMainModule();
 
-  constexpr ::UnityEngine::__ParticleSystem__MainModule const& __get__sparklesPSMainModule() const;
+  constexpr ::UnityEngine::__ParticleSystem__MainModule const& __cordl_internal_get__sparklesPSMainModule() const;
 
-  constexpr void __set__sparklesPSMainModule(::UnityEngine::__ParticleSystem__MainModule value);
+  constexpr void __cordl_internal_set__sparklesPSMainModule(::UnityEngine::__ParticleSystem__MainModule value);
 
-  constexpr ::UnityEngine::__ParticleSystem__ShapeModule& __get__sparklesPSShapeModule();
+  constexpr ::UnityEngine::__ParticleSystem__ShapeModule& __cordl_internal_get__sparklesPSShapeModule();
 
-  constexpr ::UnityEngine::__ParticleSystem__ShapeModule const& __get__sparklesPSShapeModule() const;
+  constexpr ::UnityEngine::__ParticleSystem__ShapeModule const& __cordl_internal_get__sparklesPSShapeModule() const;
 
-  constexpr void __set__sparklesPSShapeModule(::UnityEngine::__ParticleSystem__ShapeModule value);
+  constexpr void __cordl_internal_set__sparklesPSShapeModule(::UnityEngine::__ParticleSystem__ShapeModule value);
 
-  constexpr ::UnityEngine::__ParticleSystem__MinMaxCurve& __get__sparklesLifetimeMinMaxCurve();
+  constexpr ::UnityEngine::__ParticleSystem__MinMaxCurve& __cordl_internal_get__sparklesLifetimeMinMaxCurve();
 
-  constexpr ::UnityEngine::__ParticleSystem__MinMaxCurve const& __get__sparklesLifetimeMinMaxCurve() const;
+  constexpr ::UnityEngine::__ParticleSystem__MinMaxCurve const& __cordl_internal_get__sparklesLifetimeMinMaxCurve() const;
 
-  constexpr void __set__sparklesLifetimeMinMaxCurve(::UnityEngine::__ParticleSystem__MinMaxCurve value);
+  constexpr void __cordl_internal_set__sparklesLifetimeMinMaxCurve(::UnityEngine::__ParticleSystem__MinMaxCurve value);
 
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams& __get__explosionPSEmitParams();
+  constexpr ::UnityEngine::__ParticleSystem__EmitParams& __cordl_internal_get__explosionPSEmitParams();
 
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams const& __get__explosionPSEmitParams() const;
+  constexpr ::UnityEngine::__ParticleSystem__EmitParams const& __cordl_internal_get__explosionPSEmitParams() const;
 
-  constexpr void __set__explosionPSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
+  constexpr void __cordl_internal_set__explosionPSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
 
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams& __get__explosionCorePSEmitParams();
+  constexpr ::UnityEngine::__ParticleSystem__EmitParams& __cordl_internal_get__explosionCorePSEmitParams();
 
-  constexpr ::UnityEngine::__ParticleSystem__EmitParams const& __get__explosionCorePSEmitParams() const;
+  constexpr ::UnityEngine::__ParticleSystem__EmitParams const& __cordl_internal_get__explosionCorePSEmitParams() const;
 
-  constexpr void __set__explosionCorePSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
+  constexpr void __cordl_internal_set__explosionCorePSEmitParams(::UnityEngine::__ParticleSystem__EmitParams value);
 
-  constexpr ::UnityEngine::__ParticleSystem__MainModule& __get__explosionCorePSMainModule();
+  constexpr ::UnityEngine::__ParticleSystem__MainModule& __cordl_internal_get__explosionCorePSMainModule();
 
-  constexpr ::UnityEngine::__ParticleSystem__MainModule const& __get__explosionCorePSMainModule() const;
+  constexpr ::UnityEngine::__ParticleSystem__MainModule const& __cordl_internal_get__explosionCorePSMainModule() const;
 
-  constexpr void __set__explosionCorePSMainModule(::UnityEngine::__ParticleSystem__MainModule value);
+  constexpr void __cordl_internal_set__explosionCorePSMainModule(::UnityEngine::__ParticleSystem__MainModule value);
 
-  constexpr ::UnityEngine::__ParticleSystem__ShapeModule& __get__explosionCorePSShapeModule();
+  constexpr ::UnityEngine::__ParticleSystem__ShapeModule& __cordl_internal_get__explosionCorePSShapeModule();
 
-  constexpr ::UnityEngine::__ParticleSystem__ShapeModule const& __get__explosionCorePSShapeModule() const;
+  constexpr ::UnityEngine::__ParticleSystem__ShapeModule const& __cordl_internal_get__explosionCorePSShapeModule() const;
 
-  constexpr void __set__explosionCorePSShapeModule(::UnityEngine::__ParticleSystem__ShapeModule value);
+  constexpr void __cordl_internal_set__explosionCorePSShapeModule(::UnityEngine::__ParticleSystem__ShapeModule value);
 
-  constexpr ::UnityEngine::__ParticleSystem__ShapeModule& __get__explosionPrePassBloomPSShapeModule();
+  constexpr ::UnityEngine::__ParticleSystem__ShapeModule& __cordl_internal_get__explosionPrePassBloomPSShapeModule();
 
-  constexpr ::UnityEngine::__ParticleSystem__ShapeModule const& __get__explosionPrePassBloomPSShapeModule() const;
+  constexpr ::UnityEngine::__ParticleSystem__ShapeModule const& __cordl_internal_get__explosionPrePassBloomPSShapeModule() const;
 
-  constexpr void __set__explosionPrePassBloomPSShapeModule(::UnityEngine::__ParticleSystem__ShapeModule value);
+  constexpr void __cordl_internal_set__explosionPrePassBloomPSShapeModule(::UnityEngine::__ParticleSystem__ShapeModule value);
 
   /// @brief Method Awake, addr 0x239a95c, size 0x148, virtual false, abstract: false, final false
   inline void Awake();
@@ -176,16 +180,16 @@ protected:
 
 public:
   /// @brief Field _sparklesPS, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem* ____sparklesPS;
+  ::UnityW<::UnityEngine::ParticleSystem> ____sparklesPS;
 
   /// @brief Field _explosionPS, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem* ____explosionPS;
+  ::UnityW<::UnityEngine::ParticleSystem> ____explosionPS;
 
   /// @brief Field _explosionCorePS, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem* ____explosionCorePS;
+  ::UnityW<::UnityEngine::ParticleSystem> ____explosionCorePS;
 
   /// @brief Field _explosionPrePassBloomPS, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem* ____explosionPrePassBloomPS;
+  ::UnityW<::UnityEngine::ParticleSystem> ____explosionPrePassBloomPS;
 
   /// @brief Field _sparklesPSEmitParams, offset: 0x38, size: 0x90, def value: None
   ::UnityEngine::__ParticleSystem__EmitParams ____sparklesPSEmitParams;

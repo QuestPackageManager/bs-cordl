@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::NotificationBitmap_t);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8718))
 // CS Name: ::OVR.OpenVR::NotificationBitmap_t
 struct CORDL_TYPE NotificationBitmap_t {

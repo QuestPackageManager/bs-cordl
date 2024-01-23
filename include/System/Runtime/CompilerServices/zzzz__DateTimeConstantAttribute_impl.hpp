@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x24daf38;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::DateTimeConstantAttribute*>::get(),
@@ -19,15 +19,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::DateTime& System::Runtime::CompilerServices::DateTimeConstantAttribute::__get__date() {
+constexpr ::System::DateTime& System::Runtime::CompilerServices::DateTimeConstantAttribute::__cordl_internal_get__date() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____date;
 }
-constexpr ::System::DateTime const& System::Runtime::CompilerServices::DateTimeConstantAttribute::__get__date() const {
+constexpr ::System::DateTime const& System::Runtime::CompilerServices::DateTimeConstantAttribute::__cordl_internal_get__date() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____date;
 }
-constexpr void System::Runtime::CompilerServices::DateTimeConstantAttribute::__set__date(::System::DateTime value) {
+constexpr void System::Runtime::CompilerServices::DateTimeConstantAttribute::__cordl_internal_set__date(::System::DateTime value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____date = value;
 }

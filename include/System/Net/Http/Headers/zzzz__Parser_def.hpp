@@ -110,7 +110,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::__Parser__Uri);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14689))
 // CS Name: ::Parser::Token*
 class CORDL_TYPE __Parser__Token : public ::System::Object {
@@ -146,7 +146,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14690))
 // CS Name: ::Parser::DateTime::<>c*
 class CORDL_TYPE __Parser__DateTime____c : public ::System::Object {
@@ -191,7 +191,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Parser__DateT
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14691))
 // CS Name: ::Parser::DateTime*
 class CORDL_TYPE __Parser__DateTime : public ::System::Object {
@@ -233,7 +233,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14692))
 // CS Name: ::Parser::EmailAddress*
 class CORDL_TYPE __Parser__EmailAddress : public ::System::Object {
@@ -266,7 +266,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14693))
 // CS Name: ::Parser::Host*
 class CORDL_TYPE __Parser__Host : public ::System::Object {
@@ -299,7 +299,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14694))
 // CS Name: ::Parser::Int*
 class CORDL_TYPE __Parser__Int : public ::System::Object {
@@ -332,7 +332,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14695))
 // CS Name: ::Parser::Long*
 class CORDL_TYPE __Parser__Long : public ::System::Object {
@@ -365,7 +365,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14696))
 // CS Name: ::Parser::MD5::<>c*
 class CORDL_TYPE __Parser__MD5____c : public ::System::Object {
@@ -410,7 +410,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Parser__MD5__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14697))
 // CS Name: ::Parser::MD5*
 class CORDL_TYPE __Parser__MD5 : public ::System::Object {
@@ -452,7 +452,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14698))
 // CS Name: ::Parser::TimeSpanSeconds*
 class CORDL_TYPE __Parser__TimeSpanSeconds : public ::System::Object {
@@ -485,7 +485,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14699))
 // CS Name: ::Parser::Uri*
 class CORDL_TYPE __Parser__Uri : public ::System::Object {
@@ -518,7 +518,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::Headers::__Pa
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14700))
 // CS Name: ::System.Net.Http.Headers::Parser*
 class CORDL_TYPE Parser : public ::System::Object {

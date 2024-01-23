@@ -27,14 +27,14 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::OnScreen::OnScreenButton);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6388))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6388))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6386))
 // CS Name: ::UnityEngine.InputSystem.OnScreen::OnScreenButton*
 class CORDL_TYPE OnScreenButton : public ::UnityEngine::InputSystem::OnScreen::OnScreenControl {
 public:
   // Declarations
   /// @brief Field m_ControlPath, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_ControlPath, put = __set_m_ControlPath))::StringW m_ControlPath;
+  __declspec(property(get = __cordl_internal_get_m_ControlPath, put = __cordl_internal_set_m_ControlPath))::StringW m_ControlPath;
 
   __declspec(property(get = get_controlPathInternal, put = set_controlPathInternal))::StringW controlPathInternal;
 
@@ -56,11 +56,11 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
-  constexpr ::StringW& __get_m_ControlPath();
+  constexpr ::StringW& __cordl_internal_get_m_ControlPath();
 
-  constexpr ::StringW const& __get_m_ControlPath() const;
+  constexpr ::StringW const& __cordl_internal_get_m_ControlPath() const;
 
-  constexpr void __set_m_ControlPath(::StringW value);
+  constexpr void __cordl_internal_set_m_ControlPath(::StringW value);
 
   /// @brief Method OnPointerUp, addr 0x2ad8ac8, size 0x4c, virtual true, abstract: false, final true
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);

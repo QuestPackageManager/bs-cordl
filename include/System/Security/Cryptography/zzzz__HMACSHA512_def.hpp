@@ -16,22 +16,22 @@ MARK_REF_PTR_T(::System::Security::Cryptography::HMACSHA512);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 98, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2934))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2934))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2940))
 // CS Name: ::System.Security.Cryptography::HMACSHA512*
 class CORDL_TYPE HMACSHA512 : public ::System::Security::Cryptography::HMAC {
 public:
   // Declarations
   /// @brief Field m_useLegacyBlockSize, offset 0x61, size 0x1
-  __declspec(property(get = __get_m_useLegacyBlockSize, put = __set_m_useLegacyBlockSize)) bool m_useLegacyBlockSize;
+  __declspec(property(get = __cordl_internal_get_m_useLegacyBlockSize, put = __cordl_internal_set_m_useLegacyBlockSize)) bool m_useLegacyBlockSize;
 
   __declspec(property(get = get_BlockSize)) int32_t BlockSize;
 
-  constexpr bool& __get_m_useLegacyBlockSize();
+  constexpr bool& __cordl_internal_get_m_useLegacyBlockSize();
 
-  constexpr bool const& __get_m_useLegacyBlockSize() const;
+  constexpr bool const& __cordl_internal_get_m_useLegacyBlockSize() const;
 
-  constexpr void __set_m_useLegacyBlockSize(bool value);
+  constexpr void __cordl_internal_set_m_useLegacyBlockSize(bool value);
 
   static inline ::System::Security::Cryptography::HMACSHA512* New_ctor();
 

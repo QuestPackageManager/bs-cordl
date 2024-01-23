@@ -23,33 +23,33 @@ MARK_REF_PTR_T(::System::Xml::Schema::InteriorNode);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11599))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11599))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11602))
 // CS Name: ::System.Xml.Schema::InteriorNode*
 class CORDL_TYPE InteriorNode : public ::System::Xml::Schema::SyntaxTreeNode {
 public:
   // Declarations
   /// @brief Field leftChild, offset 0x10, size 0x8
-  __declspec(property(get = __get_leftChild, put = __set_leftChild))::System::Xml::Schema::SyntaxTreeNode* leftChild;
+  __declspec(property(get = __cordl_internal_get_leftChild, put = __cordl_internal_set_leftChild))::System::Xml::Schema::SyntaxTreeNode* leftChild;
 
   /// @brief Field rightChild, offset 0x18, size 0x8
-  __declspec(property(get = __get_rightChild, put = __set_rightChild))::System::Xml::Schema::SyntaxTreeNode* rightChild;
+  __declspec(property(get = __cordl_internal_get_rightChild, put = __cordl_internal_set_rightChild))::System::Xml::Schema::SyntaxTreeNode* rightChild;
 
   __declspec(property(get = get_LeftChild, put = set_LeftChild))::System::Xml::Schema::SyntaxTreeNode* LeftChild;
 
   __declspec(property(get = get_RightChild, put = set_RightChild))::System::Xml::Schema::SyntaxTreeNode* RightChild;
 
-  constexpr ::System::Xml::Schema::SyntaxTreeNode*& __get_leftChild();
+  constexpr ::System::Xml::Schema::SyntaxTreeNode*& __cordl_internal_get_leftChild();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SyntaxTreeNode*> const& __get_leftChild() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SyntaxTreeNode*> const& __cordl_internal_get_leftChild() const;
 
-  constexpr void __set_leftChild(::System::Xml::Schema::SyntaxTreeNode* value);
+  constexpr void __cordl_internal_set_leftChild(::System::Xml::Schema::SyntaxTreeNode* value);
 
-  constexpr ::System::Xml::Schema::SyntaxTreeNode*& __get_rightChild();
+  constexpr ::System::Xml::Schema::SyntaxTreeNode*& __cordl_internal_get_rightChild();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SyntaxTreeNode*> const& __get_rightChild() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SyntaxTreeNode*> const& __cordl_internal_get_rightChild() const;
 
-  constexpr void __set_rightChild(::System::Xml::Schema::SyntaxTreeNode* value);
+  constexpr void __cordl_internal_set_rightChild(::System::Xml::Schema::SyntaxTreeNode* value);
 
   /// @brief Method get_LeftChild, addr 0x28ae1ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SyntaxTreeNode* get_LeftChild();

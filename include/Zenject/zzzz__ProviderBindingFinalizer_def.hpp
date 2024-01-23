@@ -59,7 +59,7 @@ MARK_REF_PTR_T(::Zenject::__ProviderBindingFinalizer____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10965))
 // CS Name: ::ProviderBindingFinalizer::<>c*
 class CORDL_TYPE __ProviderBindingFinalizer____c : public ::System::Object {
@@ -127,7 +127,7 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__ProviderBindingFinali
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10966))
 // CS Name: ::Zenject::ProviderBindingFinalizer*
 class CORDL_TYPE ProviderBindingFinalizer : public ::System::Object {
@@ -136,7 +136,7 @@ public:
   using __c = ::Zenject::__ProviderBindingFinalizer____c;
 
   /// @brief Field <BindInfo>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__BindInfo_k__BackingField, put = __set__BindInfo_k__BackingField))::Zenject::BindInfo* _BindInfo_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BindInfo_k__BackingField, put = __cordl_internal_set__BindInfo_k__BackingField))::Zenject::BindInfo* _BindInfo_k__BackingField;
 
   __declspec(property(get = get_BindingInheritanceMethod))::Zenject::BindingInheritanceMethods BindingInheritanceMethod;
 
@@ -148,11 +148,11 @@ public:
   /// @brief Convert to "::Zenject::IBindingFinalizer"
   constexpr ::Zenject::IBindingFinalizer* i___Zenject__IBindingFinalizer() noexcept;
 
-  constexpr ::Zenject::BindInfo*& __get__BindInfo_k__BackingField();
+  constexpr ::Zenject::BindInfo*& __cordl_internal_get__BindInfo_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindInfo*> const& __get__BindInfo_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindInfo*> const& __cordl_internal_get__BindInfo_k__BackingField() const;
 
-  constexpr void __set__BindInfo_k__BackingField(::Zenject::BindInfo* value);
+  constexpr void __cordl_internal_set__BindInfo_k__BackingField(::Zenject::BindInfo* value);
 
   static inline ::Zenject::ProviderBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo);
 

@@ -19,21 +19,21 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::InputValue);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 424 }), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6133))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6310)) CS Name: ::UnityEngine.InputSystem::InputValue*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6133)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 424 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6310)) CS Name: ::UnityEngine.InputSystem::InputValue*
 class CORDL_TYPE InputValue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Context, offset 0x10, size 0x18
-  __declspec(property(get = __get_m_Context, put = __set_m_Context))::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> m_Context;
+  __declspec(property(get = __cordl_internal_get_m_Context, put = __cordl_internal_set_m_Context))::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> m_Context;
 
   __declspec(property(get = get_isPressed)) bool isPressed;
 
-  constexpr ::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>& __get_m_Context();
+  constexpr ::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>& __cordl_internal_get_m_Context();
 
-  constexpr ::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> const& __get_m_Context() const;
+  constexpr ::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> const& __cordl_internal_get_m_Context() const;
 
-  constexpr void __set_m_Context(::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> value);
+  constexpr void __cordl_internal_set_m_Context(::System::Nullable_1<::UnityEngine::InputSystem::__InputAction__CallbackContext> value);
 
   /// @brief Method Get, addr 0x2abc030, size 0x64, virtual false, abstract: false, final false
   inline ::System::Object* Get();

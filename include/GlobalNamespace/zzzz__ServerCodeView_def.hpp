@@ -24,56 +24,56 @@ MARK_REF_PTR_T(::GlobalNamespace::ServerCodeView);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5811))
 // CS Name: ::ServerCodeView*
 class CORDL_TYPE ServerCodeView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _serverCodeText, offset 0x18, size 0x8
-  __declspec(property(get = __get__serverCodeText, put = __set__serverCodeText))::TMPro::TextMeshProUGUI* _serverCodeText;
+  __declspec(property(get = __cordl_internal_get__serverCodeText, put = __cordl_internal_set__serverCodeText))::UnityW<::TMPro::TextMeshProUGUI> _serverCodeText;
 
   /// @brief Field _button, offset 0x20, size 0x8
-  __declspec(property(get = __get__button, put = __set__button))::UnityEngine::UI::Button* _button;
+  __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button))::UnityW<::UnityEngine::UI::Button> _button;
 
   /// @brief Field _buttonBinder, offset 0x28, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
   /// @brief Field _serverCode, offset 0x30, size 0x8
-  __declspec(property(get = __get__serverCode, put = __set__serverCode))::StringW _serverCode;
+  __declspec(property(get = __cordl_internal_get__serverCode, put = __cordl_internal_set__serverCode))::StringW _serverCode;
 
   /// @brief Field _codeIsShown, offset 0x38, size 0x1
-  __declspec(property(get = __get__codeIsShown, put = __set__codeIsShown)) bool _codeIsShown;
+  __declspec(property(get = __cordl_internal_get__codeIsShown, put = __cordl_internal_set__codeIsShown)) bool _codeIsShown;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__serverCodeText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__serverCodeText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__serverCodeText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__serverCodeText() const;
 
-  constexpr void __set__serverCodeText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__serverCodeText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__button();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__button() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
 
-  constexpr void __set__button(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  constexpr ::StringW& __get__serverCode();
+  constexpr ::StringW& __cordl_internal_get__serverCode();
 
-  constexpr ::StringW const& __get__serverCode() const;
+  constexpr ::StringW const& __cordl_internal_get__serverCode() const;
 
-  constexpr void __set__serverCode(::StringW value);
+  constexpr void __cordl_internal_set__serverCode(::StringW value);
 
-  constexpr bool& __get__codeIsShown();
+  constexpr bool& __cordl_internal_get__codeIsShown();
 
-  constexpr bool const& __get__codeIsShown() const;
+  constexpr bool const& __cordl_internal_get__codeIsShown() const;
 
-  constexpr void __set__codeIsShown(bool value);
+  constexpr void __cordl_internal_set__codeIsShown(bool value);
 
   /// @brief Method SetCode, addr 0x22e9838, size 0xc, virtual false, abstract: false, final false
   inline void SetCode(::StringW serverCode);
@@ -110,10 +110,10 @@ protected:
 
 public:
   /// @brief Field _serverCodeText, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____serverCodeText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____serverCodeText;
 
   /// @brief Field _button, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____button;
+  ::UnityW<::UnityEngine::UI::Button> ____button;
 
   /// @brief Field _buttonBinder, offset: 0x28, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;

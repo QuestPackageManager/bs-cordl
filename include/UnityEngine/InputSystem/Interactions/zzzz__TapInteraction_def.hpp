@@ -22,20 +22,20 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Interactions::TapInteraction);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Interactions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6652))
 // CS Name: ::UnityEngine.InputSystem.Interactions::TapInteraction*
 class CORDL_TYPE TapInteraction : public ::System::Object {
 public:
   // Declarations
   /// @brief Field duration, offset 0x10, size 0x4
-  __declspec(property(get = __get_duration, put = __set_duration)) float_t duration;
+  __declspec(property(get = __cordl_internal_get_duration, put = __cordl_internal_set_duration)) float_t duration;
 
   /// @brief Field pressPoint, offset 0x14, size 0x4
-  __declspec(property(get = __get_pressPoint, put = __set_pressPoint)) float_t pressPoint;
+  __declspec(property(get = __cordl_internal_get_pressPoint, put = __cordl_internal_set_pressPoint)) float_t pressPoint;
 
   /// @brief Field m_TapStartTime, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_TapStartTime, put = __set_m_TapStartTime)) double_t m_TapStartTime;
+  __declspec(property(get = __cordl_internal_get_m_TapStartTime, put = __cordl_internal_set_m_TapStartTime)) double_t m_TapStartTime;
 
   __declspec(property(get = get_durationOrDefault)) float_t durationOrDefault;
 
@@ -49,23 +49,23 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::IInputInteraction"
   constexpr ::UnityEngine::InputSystem::IInputInteraction* i___UnityEngine__InputSystem__IInputInteraction() noexcept;
 
-  constexpr float_t& __get_duration();
+  constexpr float_t& __cordl_internal_get_duration();
 
-  constexpr float_t const& __get_duration() const;
+  constexpr float_t const& __cordl_internal_get_duration() const;
 
-  constexpr void __set_duration(float_t value);
+  constexpr void __cordl_internal_set_duration(float_t value);
 
-  constexpr float_t& __get_pressPoint();
+  constexpr float_t& __cordl_internal_get_pressPoint();
 
-  constexpr float_t const& __get_pressPoint() const;
+  constexpr float_t const& __cordl_internal_get_pressPoint() const;
 
-  constexpr void __set_pressPoint(float_t value);
+  constexpr void __cordl_internal_set_pressPoint(float_t value);
 
-  constexpr double_t& __get_m_TapStartTime();
+  constexpr double_t& __cordl_internal_get_m_TapStartTime();
 
-  constexpr double_t const& __get_m_TapStartTime() const;
+  constexpr double_t const& __cordl_internal_get_m_TapStartTime() const;
 
-  constexpr void __set_m_TapStartTime(double_t value);
+  constexpr void __cordl_internal_set_m_TapStartTime(double_t value);
 
   /// @brief Method get_durationOrDefault, addr 0x2b0d234, size 0x70, virtual false, abstract: false, final false
   inline float_t get_durationOrDefault();

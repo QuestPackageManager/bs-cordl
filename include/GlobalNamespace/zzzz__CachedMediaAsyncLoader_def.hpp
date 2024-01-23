@@ -52,9 +52,9 @@ MARK_VAL_T(::GlobalNamespace::__CachedMediaAsyncLoader___LoadSpriteAsync_d__3);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(10291))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(5910)) CS Name: ::CachedMediaAsyncLoader::<LoadSpriteAsync>d__3
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10291)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 777 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 777 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5910)) CS Name: ::CachedMediaAsyncLoader::<LoadSpriteAsync>d__3
 struct CORDL_TYPE __CachedMediaAsyncLoader___LoadSpriteAsync_d__3 {
 public:
   // Declarations
@@ -71,13 +71,13 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::CachedMediaAsyncLoader*", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "cancellationToken",
-  // ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite*>",
-  // modifiers: "", def_value: None }]
-  constexpr __CachedMediaAsyncLoader___LoadSpriteAsync_d__3(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite*> __t__builder,
-                                                            ::GlobalNamespace::CachedMediaAsyncLoader* __4__this, ::StringW path, ::System::Threading::CancellationToken cancellationToken,
-                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite*> __u__1) noexcept;
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::CachedMediaAsyncLoader>", modifiers: "", def_value: None }, CppParam { name: "path", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
+  // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>>", modifiers: "", def_value: None }]
+  constexpr __CachedMediaAsyncLoader___LoadSpriteAsync_d__3(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityW<::UnityEngine::Sprite>> __t__builder,
+                                                            ::UnityW<::GlobalNamespace::CachedMediaAsyncLoader> __4__this, ::StringW path, ::System::Threading::CancellationToken cancellationToken,
+                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -87,10 +87,10 @@ public:
   int32_t __1__state;
 
   /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityEngine::Sprite*> __t__builder;
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityW<::UnityEngine::Sprite>> __t__builder;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::CachedMediaAsyncLoader* __4__this;
+  ::UnityW<::GlobalNamespace::CachedMediaAsyncLoader> __4__this;
 
   /// @brief Field path, offset: 0x28, size: 0x8, def value: None
   ::StringW path;
@@ -99,7 +99,7 @@ public:
   ::System::Threading::CancellationToken cancellationToken;
 
   /// @brief Field <>u__1, offset: 0x38, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Sprite*> __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Sprite>> __u__1;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -126,7 +126,7 @@ static_assert(offsetof(::GlobalNamespace::__CachedMediaAsyncLoader___LoadSpriteA
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5911))
 // CS Name: ::CachedMediaAsyncLoader*
 class CORDL_TYPE CachedMediaAsyncLoader : public ::UnityEngine::MonoBehaviour {
@@ -135,10 +135,11 @@ public:
   using _LoadSpriteAsync_d__3 = ::GlobalNamespace::__CachedMediaAsyncLoader___LoadSpriteAsync_d__3;
 
   /// @brief Field _maxNumberOfSpriteCachedElements, offset 0x18, size 0x4
-  __declspec(property(get = __get__maxNumberOfSpriteCachedElements, put = __set__maxNumberOfSpriteCachedElements)) int32_t _maxNumberOfSpriteCachedElements;
+  __declspec(property(get = __cordl_internal_get__maxNumberOfSpriteCachedElements, put = __cordl_internal_set__maxNumberOfSpriteCachedElements)) int32_t _maxNumberOfSpriteCachedElements;
 
   /// @brief Field _spriteAsyncCachedLoader, offset 0x20, size 0x8
-  __declspec(property(get = __get__spriteAsyncCachedLoader, put = __set__spriteAsyncCachedLoader))::GlobalNamespace::AsyncCachedLoader_2<::StringW, ::UnityEngine::Sprite*>* _spriteAsyncCachedLoader;
+  __declspec(property(get = __cordl_internal_get__spriteAsyncCachedLoader,
+                      put = __cordl_internal_set__spriteAsyncCachedLoader))::GlobalNamespace::AsyncCachedLoader_2<::StringW, ::UnityW<::UnityEngine::Sprite>>* _spriteAsyncCachedLoader;
 
   /// @brief Convert operator to "::GlobalNamespace::ISpriteAsyncLoader"
   constexpr operator ::GlobalNamespace::ISpriteAsyncLoader*() noexcept;
@@ -146,23 +147,23 @@ public:
   /// @brief Convert to "::GlobalNamespace::ISpriteAsyncLoader"
   constexpr ::GlobalNamespace::ISpriteAsyncLoader* i___GlobalNamespace__ISpriteAsyncLoader() noexcept;
 
-  constexpr int32_t& __get__maxNumberOfSpriteCachedElements();
+  constexpr int32_t& __cordl_internal_get__maxNumberOfSpriteCachedElements();
 
-  constexpr int32_t const& __get__maxNumberOfSpriteCachedElements() const;
+  constexpr int32_t const& __cordl_internal_get__maxNumberOfSpriteCachedElements() const;
 
-  constexpr void __set__maxNumberOfSpriteCachedElements(int32_t value);
+  constexpr void __cordl_internal_set__maxNumberOfSpriteCachedElements(int32_t value);
 
-  constexpr ::GlobalNamespace::AsyncCachedLoader_2<::StringW, ::UnityEngine::Sprite*>*& __get__spriteAsyncCachedLoader();
+  constexpr ::GlobalNamespace::AsyncCachedLoader_2<::StringW, ::UnityW<::UnityEngine::Sprite>>*& __cordl_internal_get__spriteAsyncCachedLoader();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AsyncCachedLoader_2<::StringW, ::UnityEngine::Sprite*>*> const& __get__spriteAsyncCachedLoader() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AsyncCachedLoader_2<::StringW, ::UnityW<::UnityEngine::Sprite>>*> const& __cordl_internal_get__spriteAsyncCachedLoader() const;
 
-  constexpr void __set__spriteAsyncCachedLoader(::GlobalNamespace::AsyncCachedLoader_2<::StringW, ::UnityEngine::Sprite*>* value);
+  constexpr void __cordl_internal_set__spriteAsyncCachedLoader(::GlobalNamespace::AsyncCachedLoader_2<::StringW, ::UnityW<::UnityEngine::Sprite>>* value);
 
   /// @brief Method ClearCache, addr 0x22fe8c8, size 0x58, virtual false, abstract: false, final false
   inline void ClearCache();
 
   /// @brief Method LoadSpriteAsync, addr 0x22fe920, size 0x104, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
+  inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* LoadSpriteAsync(::StringW path, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::CachedMediaAsyncLoader* New_ctor();
 
@@ -187,7 +188,7 @@ public:
   int32_t ____maxNumberOfSpriteCachedElements;
 
   /// @brief Field _spriteAsyncCachedLoader, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::AsyncCachedLoader_2<::StringW, ::UnityEngine::Sprite*>* ____spriteAsyncCachedLoader;
+  ::GlobalNamespace::AsyncCachedLoader_2<::StringW, ::UnityW<::UnityEngine::Sprite>>* ____spriteAsyncCachedLoader;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,20 +22,20 @@ MARK_REF_PTR_T(::System::Globalization::DaylightTime);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2484))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3671))
 // CS Name: ::System.Globalization::DaylightTime*
 class CORDL_TYPE DaylightTime : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _start, offset 0x10, size 0x8
-  __declspec(property(get = __get__start, put = __set__start))::System::DateTime _start;
+  __declspec(property(get = __cordl_internal_get__start, put = __cordl_internal_set__start))::System::DateTime _start;
 
   /// @brief Field _end, offset 0x18, size 0x8
-  __declspec(property(get = __get__end, put = __set__end))::System::DateTime _end;
+  __declspec(property(get = __cordl_internal_get__end, put = __cordl_internal_set__end))::System::DateTime _end;
 
   /// @brief Field _delta, offset 0x20, size 0x8
-  __declspec(property(get = __get__delta, put = __set__delta))::System::TimeSpan _delta;
+  __declspec(property(get = __cordl_internal_get__delta, put = __cordl_internal_set__delta))::System::TimeSpan _delta;
 
   __declspec(property(get = get_Start))::System::DateTime Start;
 
@@ -43,23 +43,23 @@ public:
 
   __declspec(property(get = get_Delta))::System::TimeSpan Delta;
 
-  constexpr ::System::DateTime& __get__start();
+  constexpr ::System::DateTime& __cordl_internal_get__start();
 
-  constexpr ::System::DateTime const& __get__start() const;
+  constexpr ::System::DateTime const& __cordl_internal_get__start() const;
 
-  constexpr void __set__start(::System::DateTime value);
+  constexpr void __cordl_internal_set__start(::System::DateTime value);
 
-  constexpr ::System::DateTime& __get__end();
+  constexpr ::System::DateTime& __cordl_internal_get__end();
 
-  constexpr ::System::DateTime const& __get__end() const;
+  constexpr ::System::DateTime const& __cordl_internal_get__end() const;
 
-  constexpr void __set__end(::System::DateTime value);
+  constexpr void __cordl_internal_set__end(::System::DateTime value);
 
-  constexpr ::System::TimeSpan& __get__delta();
+  constexpr ::System::TimeSpan& __cordl_internal_get__delta();
 
-  constexpr ::System::TimeSpan const& __get__delta() const;
+  constexpr ::System::TimeSpan const& __cordl_internal_get__delta() const;
 
-  constexpr void __set__delta(::System::TimeSpan value);
+  constexpr void __cordl_internal_set__delta(::System::TimeSpan value);
 
   static inline ::System::Globalization::DaylightTime* New_ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta);
 

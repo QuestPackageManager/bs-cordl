@@ -35,14 +35,14 @@ MARK_REF_PTR_T(::System::IO::__TextWriter__SyncTextWriter);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3586))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3586))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3584))
 // CS Name: ::TextWriter::SyncTextWriter*
 class CORDL_TYPE __TextWriter__SyncTextWriter : public ::System::IO::TextWriter {
 public:
   // Declarations
   /// @brief Field _out, offset 0x30, size 0x8
-  __declspec(property(get = __get__out, put = __set__out))::System::IO::TextWriter* _out;
+  __declspec(property(get = __cordl_internal_get__out, put = __cordl_internal_set__out))::System::IO::TextWriter* _out;
 
   __declspec(property(get = get_Encoding))::System::Text::Encoding* Encoding;
 
@@ -56,11 +56,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::IO::TextWriter*& __get__out();
+  constexpr ::System::IO::TextWriter*& __cordl_internal_get__out();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& __get__out() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& __cordl_internal_get__out() const;
 
-  constexpr void __set__out(::System::IO::TextWriter* value);
+  constexpr void __cordl_internal_set__out(::System::IO::TextWriter* value);
 
   static inline ::System::IO::__TextWriter__SyncTextWriter* New_ctor(::System::IO::TextWriter* t);
 

@@ -7,10 +7,10 @@
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector3Int_def.hpp"
-// Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TileAsset", ty: "::UnityEngine::Object*", modifiers: "",
-// def_value: Some("nullptr") }, CppParam { name: "m_Color", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Transform", ty: "::UnityEngine::Matrix4x4",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::Tilemaps::TileChangeData::TileChangeData(::UnityEngine::Vector3Int m_Position, ::UnityEngine::Object* m_TileAsset, ::UnityEngine::Color m_Color,
+// Ctor Parameters [CppParam { name: "m_Position", ty: "::UnityEngine::Vector3Int", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_TileAsset", ty: "::UnityW<::UnityEngine::Object>",
+// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "m_Color", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Transform", ty:
+// "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::Tilemaps::TileChangeData::TileChangeData(::UnityEngine::Vector3Int m_Position, ::UnityW<::UnityEngine::Object> m_TileAsset, ::UnityEngine::Color m_Color,
                                                                   ::UnityEngine::Matrix4x4 m_Transform) noexcept {
   this->m_Position = m_Position;
   this->m_TileAsset = m_TileAsset;

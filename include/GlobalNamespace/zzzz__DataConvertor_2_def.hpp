@@ -28,20 +28,22 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T, typename TParam>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4295))
 // CS Name: ::DataConvertor`2<T,TParam>*
 class CORDL_TYPE DataConvertor_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _convertors, offset 0x10, size 0x8
-  __declspec(property(get = __get__convertors, put = __set__convertors))::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::DataItemConvertor_2<T, TParam>*>* _convertors;
+  __declspec(property(get = __cordl_internal_get__convertors,
+                      put = __cordl_internal_set__convertors))::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::DataItemConvertor_2<T, TParam>*>* _convertors;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::DataItemConvertor_2<T, TParam>*>*& __get__convertors();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::DataItemConvertor_2<T, TParam>*>*& __cordl_internal_get__convertors();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::DataItemConvertor_2<T, TParam>*>*> const& __get__convertors() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::DataItemConvertor_2<T, TParam>*>*> const&
+  __cordl_internal_get__convertors() const;
 
-  constexpr void __set__convertors(::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::DataItemConvertor_2<T, TParam>*>* value);
+  constexpr void __cordl_internal_set__convertors(::System::Collections::Generic::Dictionary_2<::System::Type*, ::GlobalNamespace::DataItemConvertor_2<T, TParam>*>* value);
 
   /// @brief Method ProcessItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T ProcessItem(::System::Object* item, TParam param);

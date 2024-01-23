@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleCursor);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6808)), TypeDefinitionIndex(TypeDefinitionIndex(7300))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6808)), TypeDefinitionIndex(TypeDefinitionIndex(7300))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7292))
 // CS Name: ::UnityEngine.UIElements::StyleCursor
 struct CORDL_TYPE StyleCursor {

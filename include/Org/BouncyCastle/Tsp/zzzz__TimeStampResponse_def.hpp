@@ -35,33 +35,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TimeStampResponse);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1766))
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampResponse*
 class CORDL_TYPE TimeStampResponse : public ::System::Object {
 public:
   // Declarations
   /// @brief Field resp, offset 0x10, size 0x8
-  __declspec(property(get = __get_resp, put = __set_resp))::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* resp;
+  __declspec(property(get = __cordl_internal_get_resp, put = __cordl_internal_set_resp))::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* resp;
 
   /// @brief Field timeStampToken, offset 0x18, size 0x8
-  __declspec(property(get = __get_timeStampToken, put = __set_timeStampToken))::Org::BouncyCastle::Tsp::TimeStampToken* timeStampToken;
+  __declspec(property(get = __cordl_internal_get_timeStampToken, put = __cordl_internal_set_timeStampToken))::Org::BouncyCastle::Tsp::TimeStampToken* timeStampToken;
 
   __declspec(property(get = get_Status)) int32_t Status;
 
   __declspec(property(get = get_TimeStampToken))::Org::BouncyCastle::Tsp::TimeStampToken* TimeStampToken;
 
-  constexpr ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp*& __get_resp();
+  constexpr ::Org::BouncyCastle::Asn1::Tsp::TimeStampResp*& __cordl_internal_get_resp();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Tsp::TimeStampResp*> const& __get_resp() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Tsp::TimeStampResp*> const& __cordl_internal_get_resp() const;
 
-  constexpr void __set_resp(::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* value);
+  constexpr void __cordl_internal_set_resp(::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* value);
 
-  constexpr ::Org::BouncyCastle::Tsp::TimeStampToken*& __get_timeStampToken();
+  constexpr ::Org::BouncyCastle::Tsp::TimeStampToken*& __cordl_internal_get_timeStampToken();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Tsp::TimeStampToken*> const& __get_timeStampToken() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Tsp::TimeStampToken*> const& __cordl_internal_get_timeStampToken() const;
 
-  constexpr void __set_timeStampToken(::Org::BouncyCastle::Tsp::TimeStampToken* value);
+  constexpr void __cordl_internal_set_timeStampToken(::Org::BouncyCastle::Tsp::TimeStampToken* value);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampResponse* New_ctor(::Org::BouncyCastle::Asn1::Tsp::TimeStampResp* resp);
 

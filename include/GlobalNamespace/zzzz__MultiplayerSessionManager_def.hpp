@@ -105,7 +105,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerSessionManager____c__DisplayClass
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12881))
 // CS Name: ::MultiplayerSessionManager::MessageType
 struct CORDL_TYPE __MultiplayerSessionManager__MessageType {
@@ -175,7 +175,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerSessionManager__MessageTy
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12882))
 // CS Name: ::MultiplayerSessionManager::SessionType
 struct CORDL_TYPE __MultiplayerSessionManager__SessionType {
@@ -229,7 +229,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerSessionManager__SessionTy
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12883))
 // CS Name: ::MultiplayerSessionManager::ConnectionState
 struct CORDL_TYPE __MultiplayerSessionManager__ConnectionState {
@@ -287,20 +287,20 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerSessionManager__Connectio
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12884))
 // CS Name: ::MultiplayerSessionManager::<>c__DisplayClass98_0*
 class CORDL_TYPE __MultiplayerSessionManager____c__DisplayClass98_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field userId, offset 0x10, size 0x8
-  __declspec(property(get = __get_userId, put = __set_userId))::StringW userId;
+  __declspec(property(get = __cordl_internal_get_userId, put = __cordl_internal_set_userId))::StringW userId;
 
-  constexpr ::StringW& __get_userId();
+  constexpr ::StringW& __cordl_internal_get_userId();
 
-  constexpr ::StringW const& __get_userId() const;
+  constexpr ::StringW const& __cordl_internal_get_userId() const;
 
-  constexpr void __set_userId(::StringW value);
+  constexpr void __cordl_internal_set_userId(::StringW value);
 
   static inline ::GlobalNamespace::__MultiplayerSessionManager____c__DisplayClass98_0* New_ctor();
 
@@ -339,7 +339,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerSessionManager____c__Disp
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12885))
 // CS Name: ::MultiplayerSessionManager::<>c*
 class CORDL_TYPE __MultiplayerSessionManager____c : public ::System::Object {
@@ -391,7 +391,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerSe
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12966)), TypeDefinitionIndex(TypeDefinitionIndex(12883))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12883)), TypeDefinitionIndex(TypeDefinitionIndex(12966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12886))
 // CS Name: ::MultiplayerSessionManager*
 class CORDL_TYPE MultiplayerSessionManager : public ::GlobalNamespace::StandaloneMonobehavior {
@@ -408,58 +408,64 @@ public:
   using MessageType = ::GlobalNamespace::__MultiplayerSessionManager__MessageType;
 
   /// @brief Field _packetSerializer, offset 0x38, size 0x8
-  __declspec(property(
-      get = __get__packetSerializer,
-      put = __set__packetSerializer))::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__MultiplayerSessionManager__MessageType, ::GlobalNamespace::IConnectedPlayer*>* _packetSerializer;
+  __declspec(property(get = __cordl_internal_get__packetSerializer,
+                      put = __cordl_internal_set__packetSerializer))::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__MultiplayerSessionManager__MessageType,
+                                                                                                                 ::GlobalNamespace::IConnectedPlayer*>* _packetSerializer;
 
   /// @brief Field _connectedPlayers, offset 0x40, size 0x8
-  __declspec(property(get = __get__connectedPlayers, put = __set__connectedPlayers))::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* _connectedPlayers;
+  __declspec(property(get = __cordl_internal_get__connectedPlayers,
+                      put = __cordl_internal_set__connectedPlayers))::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* _connectedPlayers;
 
   /// @brief Field _localPlayerState, offset 0x48, size 0x8
-  __declspec(property(get = __get__localPlayerState, put = __set__localPlayerState))::System::Collections::Generic::HashSet_1<::StringW>* _localPlayerState;
+  __declspec(property(get = __cordl_internal_get__localPlayerState, put = __cordl_internal_set__localPlayerState))::System::Collections::Generic::HashSet_1<::StringW>* _localPlayerState;
 
   /// @brief Field _maxPlayerCount, offset 0x50, size 0x4
-  __declspec(property(get = __get__maxPlayerCount, put = __set__maxPlayerCount)) int32_t _maxPlayerCount;
+  __declspec(property(get = __cordl_internal_get__maxPlayerCount, put = __cordl_internal_set__maxPlayerCount)) int32_t _maxPlayerCount;
 
   /// @brief Field _connectionState, offset 0x54, size 0x4
-  __declspec(property(get = __get__connectionState, put = __set__connectionState))::GlobalNamespace::__MultiplayerSessionManager__ConnectionState _connectionState;
+  __declspec(property(get = __cordl_internal_get__connectionState, put = __cordl_internal_set__connectionState))::GlobalNamespace::__MultiplayerSessionManager__ConnectionState _connectionState;
 
   /// @brief Field _freeSortIndices, offset 0x58, size 0x8
-  __declspec(property(get = __get__freeSortIndices, put = __set__freeSortIndices))::System::Collections::Generic::Queue_1<int32_t>* _freeSortIndices;
+  __declspec(property(get = __cordl_internal_get__freeSortIndices, put = __cordl_internal_set__freeSortIndices))::System::Collections::Generic::Queue_1<int32_t>* _freeSortIndices;
 
   /// @brief Field connectedEvent, offset 0x60, size 0x8
-  __declspec(property(get = __get_connectedEvent, put = __set_connectedEvent))::System::Action* connectedEvent;
+  __declspec(property(get = __cordl_internal_get_connectedEvent, put = __cordl_internal_set_connectedEvent))::System::Action* connectedEvent;
 
   /// @brief Field connectionFailedEvent, offset 0x68, size 0x8
-  __declspec(property(get = __get_connectionFailedEvent, put = __set_connectionFailedEvent))::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* connectionFailedEvent;
+  __declspec(property(get = __cordl_internal_get_connectionFailedEvent,
+                      put = __cordl_internal_set_connectionFailedEvent))::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* connectionFailedEvent;
 
   /// @brief Field playerConnectedEvent, offset 0x70, size 0x8
-  __declspec(property(get = __get_playerConnectedEvent, put = __set_playerConnectedEvent))::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* playerConnectedEvent;
+  __declspec(property(get = __cordl_internal_get_playerConnectedEvent, put = __cordl_internal_set_playerConnectedEvent))::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* playerConnectedEvent;
 
   /// @brief Field playerDisconnectedEvent, offset 0x78, size 0x8
-  __declspec(property(get = __get_playerDisconnectedEvent, put = __set_playerDisconnectedEvent))::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* playerDisconnectedEvent;
+  __declspec(property(get = __cordl_internal_get_playerDisconnectedEvent,
+                      put = __cordl_internal_set_playerDisconnectedEvent))::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* playerDisconnectedEvent;
 
   /// @brief Field playerAvatarChangedEvent, offset 0x80, size 0x8
-  __declspec(property(get = __get_playerAvatarChangedEvent, put = __set_playerAvatarChangedEvent))::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* playerAvatarChangedEvent;
+  __declspec(property(get = __cordl_internal_get_playerAvatarChangedEvent,
+                      put = __cordl_internal_set_playerAvatarChangedEvent))::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* playerAvatarChangedEvent;
 
   /// @brief Field playerStateChangedEvent, offset 0x88, size 0x8
-  __declspec(property(get = __get_playerStateChangedEvent, put = __set_playerStateChangedEvent))::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* playerStateChangedEvent;
+  __declspec(property(get = __cordl_internal_get_playerStateChangedEvent,
+                      put = __cordl_internal_set_playerStateChangedEvent))::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* playerStateChangedEvent;
 
   /// @brief Field connectionOwnerStateChangedEvent, offset 0x90, size 0x8
-  __declspec(property(get = __get_connectionOwnerStateChangedEvent,
-                      put = __set_connectionOwnerStateChangedEvent))::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* connectionOwnerStateChangedEvent;
+  __declspec(property(get = __cordl_internal_get_connectionOwnerStateChangedEvent,
+                      put = __cordl_internal_set_connectionOwnerStateChangedEvent))::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* connectionOwnerStateChangedEvent;
 
   /// @brief Field disconnectedEvent, offset 0x98, size 0x8
-  __declspec(property(get = __get_disconnectedEvent, put = __set_disconnectedEvent))::System::Action_1<::GlobalNamespace::DisconnectedReason>* disconnectedEvent;
+  __declspec(property(get = __cordl_internal_get_disconnectedEvent, put = __cordl_internal_set_disconnectedEvent))::System::Action_1<::GlobalNamespace::DisconnectedReason>* disconnectedEvent;
 
   /// @brief Field pollUpdateEvent, offset 0xa0, size 0x8
-  __declspec(property(get = __get_pollUpdateEvent, put = __set_pollUpdateEvent))::System::Action* pollUpdateEvent;
+  __declspec(property(get = __cordl_internal_get_pollUpdateEvent, put = __cordl_internal_set_pollUpdateEvent))::System::Action* pollUpdateEvent;
 
   /// @brief Field <connectionOwner>k__BackingField, offset 0xa8, size 0x8
-  __declspec(property(get = __get__connectionOwner_k__BackingField, put = __set__connectionOwner_k__BackingField))::GlobalNamespace::IConnectedPlayer* _connectionOwner_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__connectionOwner_k__BackingField,
+                      put = __cordl_internal_set__connectionOwner_k__BackingField))::GlobalNamespace::IConnectedPlayer* _connectionOwner_k__BackingField;
 
   /// @brief Field _connectedPlayerManager, offset 0xb0, size 0x8
-  __declspec(property(get = __get__connectedPlayerManager, put = __set__connectedPlayerManager))::GlobalNamespace::ConnectedPlayerManager* _connectedPlayerManager;
+  __declspec(property(get = __cordl_internal_get__connectedPlayerManager, put = __cordl_internal_set__connectedPlayerManager))::GlobalNamespace::ConnectedPlayerManager* _connectedPlayerManager;
 
   __declspec(property(get = get_isConnectionOwner)) bool isConnectionOwner;
 
@@ -495,108 +501,109 @@ public:
   /// @brief Convert to "::GlobalNamespace::IMultiplayerSessionManager"
   constexpr ::GlobalNamespace::IMultiplayerSessionManager* i___GlobalNamespace__IMultiplayerSessionManager() noexcept;
 
-  constexpr ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__MultiplayerSessionManager__MessageType, ::GlobalNamespace::IConnectedPlayer*>*& __get__packetSerializer();
+  constexpr ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__MultiplayerSessionManager__MessageType, ::GlobalNamespace::IConnectedPlayer*>*& __cordl_internal_get__packetSerializer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__MultiplayerSessionManager__MessageType, ::GlobalNamespace::IConnectedPlayer*>*> const&
-  __get__packetSerializer() const;
+  __cordl_internal_get__packetSerializer() const;
 
-  constexpr void __set__packetSerializer(::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__MultiplayerSessionManager__MessageType, ::GlobalNamespace::IConnectedPlayer*>* value);
+  constexpr void
+  __cordl_internal_set__packetSerializer(::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__MultiplayerSessionManager__MessageType, ::GlobalNamespace::IConnectedPlayer*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*& __get__connectedPlayers();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*& __cordl_internal_get__connectedPlayers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*> const& __get__connectedPlayers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>*> const& __cordl_internal_get__connectedPlayers() const;
 
-  constexpr void __set__connectedPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* value);
+  constexpr void __cordl_internal_set__connectedPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __get__localPlayerState();
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__localPlayerState();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __get__localPlayerState() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__localPlayerState() const;
 
-  constexpr void __set__localPlayerState(::System::Collections::Generic::HashSet_1<::StringW>* value);
+  constexpr void __cordl_internal_set__localPlayerState(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  constexpr int32_t& __get__maxPlayerCount();
+  constexpr int32_t& __cordl_internal_get__maxPlayerCount();
 
-  constexpr int32_t const& __get__maxPlayerCount() const;
+  constexpr int32_t const& __cordl_internal_get__maxPlayerCount() const;
 
-  constexpr void __set__maxPlayerCount(int32_t value);
+  constexpr void __cordl_internal_set__maxPlayerCount(int32_t value);
 
-  constexpr ::GlobalNamespace::__MultiplayerSessionManager__ConnectionState& __get__connectionState();
+  constexpr ::GlobalNamespace::__MultiplayerSessionManager__ConnectionState& __cordl_internal_get__connectionState();
 
-  constexpr ::GlobalNamespace::__MultiplayerSessionManager__ConnectionState const& __get__connectionState() const;
+  constexpr ::GlobalNamespace::__MultiplayerSessionManager__ConnectionState const& __cordl_internal_get__connectionState() const;
 
-  constexpr void __set__connectionState(::GlobalNamespace::__MultiplayerSessionManager__ConnectionState value);
+  constexpr void __cordl_internal_set__connectionState(::GlobalNamespace::__MultiplayerSessionManager__ConnectionState value);
 
-  constexpr ::System::Collections::Generic::Queue_1<int32_t>*& __get__freeSortIndices();
+  constexpr ::System::Collections::Generic::Queue_1<int32_t>*& __cordl_internal_get__freeSortIndices();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<int32_t>*> const& __get__freeSortIndices() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<int32_t>*> const& __cordl_internal_get__freeSortIndices() const;
 
-  constexpr void __set__freeSortIndices(::System::Collections::Generic::Queue_1<int32_t>* value);
+  constexpr void __cordl_internal_set__freeSortIndices(::System::Collections::Generic::Queue_1<int32_t>* value);
 
-  constexpr ::System::Action*& __get_connectedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_connectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_connectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_connectedEvent() const;
 
-  constexpr void __set_connectedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_connectedEvent(::System::Action* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& __get_connectionFailedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& __cordl_internal_get_connectionFailedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*> const& __get_connectionFailedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*> const& __cordl_internal_get_connectionFailedEvent() const;
 
-  constexpr void __set_connectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
+  constexpr void __cordl_internal_set_connectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& __get_playerConnectedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& __cordl_internal_get_playerConnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*> const& __get_playerConnectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*> const& __cordl_internal_get_playerConnectedEvent() const;
 
-  constexpr void __set_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
+  constexpr void __cordl_internal_set_playerConnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& __get_playerDisconnectedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& __cordl_internal_get_playerDisconnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*> const& __get_playerDisconnectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*> const& __cordl_internal_get_playerDisconnectedEvent() const;
 
-  constexpr void __set_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
+  constexpr void __cordl_internal_set_playerDisconnectedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& __get_playerAvatarChangedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& __cordl_internal_get_playerAvatarChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*> const& __get_playerAvatarChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*> const& __cordl_internal_get_playerAvatarChangedEvent() const;
 
-  constexpr void __set_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
+  constexpr void __cordl_internal_set_playerAvatarChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& __get_playerStateChangedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& __cordl_internal_get_playerStateChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*> const& __get_playerStateChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*> const& __cordl_internal_get_playerStateChangedEvent() const;
 
-  constexpr void __set_playerStateChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
+  constexpr void __cordl_internal_set_playerStateChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& __get_connectionOwnerStateChangedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*& __cordl_internal_get_connectionOwnerStateChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*> const& __get_connectionOwnerStateChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnectedPlayer*>*> const& __cordl_internal_get_connectionOwnerStateChangedEvent() const;
 
-  constexpr void __set_connectionOwnerStateChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
+  constexpr void __cordl_internal_set_connectionOwnerStateChangedEvent(::System::Action_1<::GlobalNamespace::IConnectedPlayer*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>*& __get_disconnectedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>*& __cordl_internal_get_disconnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::DisconnectedReason>*> const& __get_disconnectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::DisconnectedReason>*> const& __cordl_internal_get_disconnectedEvent() const;
 
-  constexpr void __set_disconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
+  constexpr void __cordl_internal_set_disconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  constexpr ::System::Action*& __get_pollUpdateEvent();
+  constexpr ::System::Action*& __cordl_internal_get_pollUpdateEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_pollUpdateEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_pollUpdateEvent() const;
 
-  constexpr void __set_pollUpdateEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_pollUpdateEvent(::System::Action* value);
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __get__connectionOwner_k__BackingField();
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectionOwner_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __get__connectionOwner_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectionOwner_k__BackingField() const;
 
-  constexpr void __set__connectionOwner_k__BackingField(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__connectionOwner_k__BackingField(::GlobalNamespace::IConnectedPlayer* value);
 
-  constexpr ::GlobalNamespace::ConnectedPlayerManager*& __get__connectedPlayerManager();
+  constexpr ::GlobalNamespace::ConnectedPlayerManager*& __cordl_internal_get__connectedPlayerManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ConnectedPlayerManager*> const& __get__connectedPlayerManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ConnectedPlayerManager*> const& __cordl_internal_get__connectedPlayerManager() const;
 
-  constexpr void __set__connectedPlayerManager(::GlobalNamespace::ConnectedPlayerManager* value);
+  constexpr void __cordl_internal_set__connectedPlayerManager(::GlobalNamespace::ConnectedPlayerManager* value);
 
   /// @brief Method add_connectedEvent, addr 0xe49d90, size 0x9c, virtual true, abstract: false, final true
   inline void add_connectedEvent(::System::Action* value);

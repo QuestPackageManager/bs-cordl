@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012_256Digest);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(752))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(752))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(753))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::Gost3411_2012_256Digest*
 class CORDL_TYPE Gost3411_2012_256Digest : public ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest {

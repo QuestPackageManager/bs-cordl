@@ -34,7 +34,7 @@ MARK_VAL_T(::UnityEngine::Playables::PlayableGraph);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10435))
 // CS Name: ::UnityEngine.Playables::PlayableGraph
 struct CORDL_TYPE PlayableGraph {

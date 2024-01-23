@@ -70,7 +70,7 @@ MARK_VAL_T(::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams);
 // SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 85, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16090))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4859))
 // CS Name: ::GhostDuplicationEffect::GhostEffectParams
 struct CORDL_TYPE __GhostDuplicationEffect__GhostEffectParams {
@@ -163,38 +163,38 @@ static_assert(offsetof(::GlobalNamespace::__GhostDuplicationEffect__GhostEffectP
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4859))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4859)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4860))
 // CS Name: ::GhostDuplicationEffect::<>c__DisplayClass7_0*
 class CORDL_TYPE __GhostDuplicationEffect____c__DisplayClass7_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::GhostDuplicationEffect* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::GhostDuplicationEffect> __4__this;
 
   /// @brief Field ghostEffectParams, offset 0x18, size 0x48
-  __declspec(property(get = __get_ghostEffectParams, put = __set_ghostEffectParams))::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams ghostEffectParams;
+  __declspec(property(get = __cordl_internal_get_ghostEffectParams, put = __cordl_internal_set_ghostEffectParams))::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams ghostEffectParams;
 
   /// @brief Field direction, offset 0x60, size 0xc
-  __declspec(property(get = __get_direction, put = __set_direction))::UnityEngine::Vector3 direction;
+  __declspec(property(get = __cordl_internal_get_direction, put = __cordl_internal_set_direction))::UnityEngine::Vector3 direction;
 
-  constexpr ::GlobalNamespace::GhostDuplicationEffect*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::GhostDuplicationEffect>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GhostDuplicationEffect*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::GhostDuplicationEffect> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::GhostDuplicationEffect* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GhostDuplicationEffect> value);
 
-  constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams& __get_ghostEffectParams();
+  constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams& __cordl_internal_get_ghostEffectParams();
 
-  constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams const& __get_ghostEffectParams() const;
+  constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams const& __cordl_internal_get_ghostEffectParams() const;
 
-  constexpr void __set_ghostEffectParams(::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams value);
+  constexpr void __cordl_internal_set_ghostEffectParams(::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams value);
 
-  constexpr ::UnityEngine::Vector3& __get_direction();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_direction();
 
-  constexpr ::UnityEngine::Vector3 const& __get_direction() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_direction() const;
 
-  constexpr void __set_direction(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_direction(::UnityEngine::Vector3 value);
 
   static inline ::GlobalNamespace::__GhostDuplicationEffect____c__DisplayClass7_0* New_ctor();
 
@@ -228,7 +228,7 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::GhostDuplicationEffect* _____4__this;
+  ::UnityW<::GlobalNamespace::GhostDuplicationEffect> _____4__this;
 
   /// @brief Field ghostEffectParams, offset: 0x18, size: 0x48, def value: None
   ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams ___ghostEffectParams;
@@ -252,23 +252,23 @@ static_assert(offsetof(::GlobalNamespace::__GhostDuplicationEffect____c__Display
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4861))
 // CS Name: ::GhostDuplicationEffect::<HideRedundantWithDelay>d__8*
 class CORDL_TYPE __GhostDuplicationEffect___HideRedundantWithDelay_d__8 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field delay, offset 0x20, size 0x4
-  __declspec(property(get = __get_delay, put = __set_delay)) float_t delay;
+  __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::GhostDuplicationEffect* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::GhostDuplicationEffect> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -292,29 +292,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr float_t& __get_delay();
+  constexpr float_t& __cordl_internal_get_delay();
 
-  constexpr float_t const& __get_delay() const;
+  constexpr float_t const& __cordl_internal_get_delay() const;
 
-  constexpr void __set_delay(float_t value);
+  constexpr void __cordl_internal_set_delay(float_t value);
 
-  constexpr ::GlobalNamespace::GhostDuplicationEffect*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::GhostDuplicationEffect>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GhostDuplicationEffect*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::GhostDuplicationEffect> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::GhostDuplicationEffect* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::GhostDuplicationEffect> value);
 
   static inline ::GlobalNamespace::__GhostDuplicationEffect___HideRedundantWithDelay_d__8* New_ctor(int32_t __1__state);
 
@@ -360,7 +360,7 @@ public:
   float_t ___delay;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::GhostDuplicationEffect* _____4__this;
+  ::UnityW<::GlobalNamespace::GhostDuplicationEffect> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -380,7 +380,7 @@ static_assert(offsetof(::GlobalNamespace::__GhostDuplicationEffect___HideRedunda
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4862))
 // CS Name: ::GhostDuplicationEffect*
 class CORDL_TYPE GhostDuplicationEffect : public ::UnityEngine::MonoBehaviour {
@@ -393,13 +393,14 @@ public:
   using GhostEffectParams = ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams;
 
   /// @brief Field _canvases, offset 0x18, size 0x8
-  __declspec(property(get = __get__canvases, put = __set__canvases))::ArrayW<::UnityEngine::CanvasGroup*, ::Array<::UnityEngine::CanvasGroup*>*> _canvases;
+  __declspec(property(get = __cordl_internal_get__canvases,
+                      put = __cordl_internal_set__canvases))::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> _canvases;
 
   /// @brief Field isInitialized, offset 0x20, size 0x1
-  __declspec(property(get = __get_isInitialized, put = __set_isInitialized)) bool isInitialized;
+  __declspec(property(get = __cordl_internal_get_isInitialized, put = __cordl_internal_set_isInitialized)) bool isInitialized;
 
   /// @brief Field _tweeningManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__tweeningManager, put = __set__tweeningManager))::Tweening::TimeTweeningManager* _tweeningManager;
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
   __declspec(property(put = set_hide)) bool hide;
 
@@ -407,23 +408,23 @@ public:
 
   __declspec(property(get = get_alpha, put = set_alpha)) float_t alpha;
 
-  constexpr ::ArrayW<::UnityEngine::CanvasGroup*, ::Array<::UnityEngine::CanvasGroup*>*>& __get__canvases();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*>& __cordl_internal_get__canvases();
 
-  constexpr ::ArrayW<::UnityEngine::CanvasGroup*, ::Array<::UnityEngine::CanvasGroup*>*> const& __get__canvases() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> const& __cordl_internal_get__canvases() const;
 
-  constexpr void __set__canvases(::ArrayW<::UnityEngine::CanvasGroup*, ::Array<::UnityEngine::CanvasGroup*>*> value);
+  constexpr void __cordl_internal_set__canvases(::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> value);
 
-  constexpr bool& __get_isInitialized();
+  constexpr bool& __cordl_internal_get_isInitialized();
 
-  constexpr bool const& __get_isInitialized() const;
+  constexpr bool const& __cordl_internal_get_isInitialized() const;
 
-  constexpr void __set_isInitialized(bool value);
+  constexpr void __cordl_internal_set_isInitialized(bool value);
 
-  constexpr ::Tweening::TimeTweeningManager*& __get__tweeningManager();
+  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& __get__tweeningManager() const;
+  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
-  constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager* value);
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
   /// @brief Method OnDestroy, addr 0x23992b4, size 0x88, virtual true, abstract: false, final false
   inline void OnDestroy();
@@ -478,13 +479,13 @@ protected:
 
 public:
   /// @brief Field _canvases, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::CanvasGroup*, ::Array<::UnityEngine::CanvasGroup*>*> ____canvases;
+  ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> ____canvases;
 
   /// @brief Field isInitialized, offset: 0x20, size: 0x1, def value: None
   bool ___isInitialized;
 
   /// @brief Field _tweeningManager, offset: 0x28, size: 0x8, def value: None
-  ::Tweening::TimeTweeningManager* ____tweeningManager;
+  ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

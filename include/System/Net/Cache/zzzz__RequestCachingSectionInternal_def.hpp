@@ -14,20 +14,20 @@ MARK_REF_PTR_T(::System::Net::Cache::RequestCachingSectionInternal);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Net::Cache {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9319))
 // CS Name: ::System.Net.Cache::RequestCachingSectionInternal*
 class CORDL_TYPE RequestCachingSectionInternal : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DisableAllCaching, offset 0x10, size 0x1
-  __declspec(property(get = __get_DisableAllCaching, put = __set_DisableAllCaching)) bool DisableAllCaching;
+  __declspec(property(get = __cordl_internal_get_DisableAllCaching, put = __cordl_internal_set_DisableAllCaching)) bool DisableAllCaching;
 
-  constexpr bool& __get_DisableAllCaching();
+  constexpr bool& __cordl_internal_get_DisableAllCaching();
 
-  constexpr bool const& __get_DisableAllCaching() const;
+  constexpr bool const& __cordl_internal_get_DisableAllCaching() const;
 
-  constexpr void __set_DisableAllCaching(bool value);
+  constexpr void __cordl_internal_set_DisableAllCaching(bool value);
 
   static inline ::System::Net::Cache::RequestCachingSectionInternal* New_ctor();
 

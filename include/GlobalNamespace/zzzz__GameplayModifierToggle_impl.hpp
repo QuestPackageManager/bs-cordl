@@ -10,28 +10,28 @@
 //  Writing Method size for method: ::GlobalNamespace::GameplayModifierToggle.get_toggle
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Toggle* (::GlobalNamespace::GameplayModifierToggle::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Toggle> (::GlobalNamespace::GameplayModifierToggle::*)()>(
     &::GlobalNamespace::GameplayModifierToggle::get_toggle)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x229e1ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierToggle*>::get(), "get_toggle",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::GameplayModifierToggle.get_gameplayModifier
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifierParamsSO* (::GlobalNamespace::GameplayModifierToggle::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::GameplayModifierParamsSO> (::GlobalNamespace::GameplayModifierToggle::*)()>(
     &::GlobalNamespace::GameplayModifierToggle::get_gameplayModifier)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x229e1b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierToggle*>::get(),
-                                                                               "get_gameplayModifier", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_gameplayModifier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -42,9 +42,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x37c;
   constexpr static std::size_t addrs = 0x229e1bc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierToggle*>::get(), "Start",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -55,117 +55,117 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x229e538;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierToggle*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::GameplayModifierParamsSO*& GlobalNamespace::GameplayModifierToggle::__get__gameplayModifier() {
+constexpr ::UnityW<::GlobalNamespace::GameplayModifierParamsSO>& GlobalNamespace::GameplayModifierToggle::__cordl_internal_get__gameplayModifier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifier;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& GlobalNamespace::GameplayModifierToggle::__get__gameplayModifier() const {
+constexpr ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> const& GlobalNamespace::GameplayModifierToggle::__cordl_internal_get__gameplayModifier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifier;
 }
-constexpr void GlobalNamespace::GameplayModifierToggle::__set__gameplayModifier(::GlobalNamespace::GameplayModifierParamsSO* value) {
+constexpr void GlobalNamespace::GameplayModifierToggle::__cordl_internal_set__gameplayModifier(::UnityW<::GlobalNamespace::GameplayModifierParamsSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifier)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::TMPro::TextMeshProUGUI*& GlobalNamespace::GameplayModifierToggle::__get__nameText() {
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::GameplayModifierToggle::__cordl_internal_get__nameText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nameText;
 }
-constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& GlobalNamespace::GameplayModifierToggle::__get__nameText() const {
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::GameplayModifierToggle::__cordl_internal_get__nameText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nameText;
 }
-constexpr void GlobalNamespace::GameplayModifierToggle::__set__nameText(::TMPro::TextMeshProUGUI* value) {
+constexpr void GlobalNamespace::GameplayModifierToggle::__cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nameText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::TMPro::TextMeshProUGUI*& GlobalNamespace::GameplayModifierToggle::__get__multiplierText() {
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::GameplayModifierToggle::__cordl_internal_get__multiplierText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplierText;
 }
-constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& GlobalNamespace::GameplayModifierToggle::__get__multiplierText() const {
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::GameplayModifierToggle::__cordl_internal_get__multiplierText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplierText;
 }
-constexpr void GlobalNamespace::GameplayModifierToggle::__set__multiplierText(::TMPro::TextMeshProUGUI* value) {
+constexpr void GlobalNamespace::GameplayModifierToggle::__cordl_internal_set__multiplierText(::UnityW<::TMPro::TextMeshProUGUI> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplierText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::HoverTextSetter*& GlobalNamespace::GameplayModifierToggle::__get__hoverTextSetter() {
+constexpr ::UnityW<::HMUI::HoverTextSetter>& GlobalNamespace::GameplayModifierToggle::__cordl_internal_get__hoverTextSetter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hoverTextSetter;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverTextSetter*> const& GlobalNamespace::GameplayModifierToggle::__get__hoverTextSetter() const {
+constexpr ::UnityW<::HMUI::HoverTextSetter> const& GlobalNamespace::GameplayModifierToggle::__cordl_internal_get__hoverTextSetter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hoverTextSetter;
 }
-constexpr void GlobalNamespace::GameplayModifierToggle::__set__hoverTextSetter(::HMUI::HoverTextSetter* value) {
+constexpr void GlobalNamespace::GameplayModifierToggle::__cordl_internal_set__hoverTextSetter(::UnityW<::HMUI::HoverTextSetter> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hoverTextSetter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Image*& GlobalNamespace::GameplayModifierToggle::__get__icon() {
+constexpr ::UnityW<::UnityEngine::UI::Image>& GlobalNamespace::GameplayModifierToggle::__cordl_internal_get__icon() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____icon;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& GlobalNamespace::GameplayModifierToggle::__get__icon() const {
+constexpr ::UnityW<::UnityEngine::UI::Image> const& GlobalNamespace::GameplayModifierToggle::__cordl_internal_get__icon() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____icon;
 }
-constexpr void GlobalNamespace::GameplayModifierToggle::__set__icon(::UnityEngine::UI::Image* value) {
+constexpr void GlobalNamespace::GameplayModifierToggle::__cordl_internal_set__icon(::UnityW<::UnityEngine::UI::Image> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____icon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::GameplayModifierToggle::__get__toggle() {
+constexpr ::UnityW<::UnityEngine::UI::Toggle>& GlobalNamespace::GameplayModifierToggle::__cordl_internal_get__toggle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggle;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::GameplayModifierToggle::__get__toggle() const {
+constexpr ::UnityW<::UnityEngine::UI::Toggle> const& GlobalNamespace::GameplayModifierToggle::__cordl_internal_get__toggle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggle;
 }
-constexpr void GlobalNamespace::GameplayModifierToggle::__set__toggle(::UnityEngine::UI::Toggle* value) {
+constexpr void GlobalNamespace::GameplayModifierToggle::__cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::GameplayModifierToggle::__get__positiveColor() {
+constexpr ::UnityEngine::Color& GlobalNamespace::GameplayModifierToggle::__cordl_internal_get__positiveColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positiveColor;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::GameplayModifierToggle::__get__positiveColor() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::GameplayModifierToggle::__cordl_internal_get__positiveColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positiveColor;
 }
-constexpr void GlobalNamespace::GameplayModifierToggle::__set__positiveColor(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::GameplayModifierToggle::__cordl_internal_set__positiveColor(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____positiveColor = value;
 }
-inline ::UnityEngine::UI::Toggle* GlobalNamespace::GameplayModifierToggle::get_toggle() {
+inline ::UnityW<::UnityEngine::UI::Toggle> GlobalNamespace::GameplayModifierToggle::get_toggle() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierToggle*>::get(), "get_toggle",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UI::Toggle*, false>(this, ___internal_method);
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::UI::Toggle>, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::GameplayModifierParamsSO* GlobalNamespace::GameplayModifierToggle::get_gameplayModifier() {
+inline ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> GlobalNamespace::GameplayModifierToggle::get_gameplayModifier() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierToggle*>::get(),
-                                                                             "get_gameplayModifier", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::GameplayModifierParamsSO*, false>(this, ___internal_method);
+                                                                             "get_gameplayModifier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::GameplayModifierToggle::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierToggle*>::get(), "Start",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::GameplayModifierToggle* GlobalNamespace::GameplayModifierToggle::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::GameplayModifierToggle*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayModifierToggle*>());
 }
 inline void GlobalNamespace::GameplayModifierToggle::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierToggle*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

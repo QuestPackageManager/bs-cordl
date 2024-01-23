@@ -36,45 +36,47 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::SignaturePacket);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(572)), TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(580))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(572)), TypeDefinitionIndex(TypeDefinitionIndex(580))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(589))
 // CS Name: ::Org.BouncyCastle.Bcpg::SignaturePacket*
 class CORDL_TYPE SignaturePacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
   // Declarations
   /// @brief Field version, offset 0x10, size 0x4
-  __declspec(property(get = __get_version, put = __set_version)) int32_t version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
   /// @brief Field signatureType, offset 0x14, size 0x4
-  __declspec(property(get = __get_signatureType, put = __set_signatureType)) int32_t signatureType;
+  __declspec(property(get = __cordl_internal_get_signatureType, put = __cordl_internal_set_signatureType)) int32_t signatureType;
 
   /// @brief Field creationTime, offset 0x18, size 0x8
-  __declspec(property(get = __get_creationTime, put = __set_creationTime)) int64_t creationTime;
+  __declspec(property(get = __cordl_internal_get_creationTime, put = __cordl_internal_set_creationTime)) int64_t creationTime;
 
   /// @brief Field keyId, offset 0x20, size 0x8
-  __declspec(property(get = __get_keyId, put = __set_keyId)) int64_t keyId;
+  __declspec(property(get = __cordl_internal_get_keyId, put = __cordl_internal_set_keyId)) int64_t keyId;
 
   /// @brief Field keyAlgorithm, offset 0x28, size 0x4
-  __declspec(property(get = __get_keyAlgorithm, put = __set_keyAlgorithm))::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm;
+  __declspec(property(get = __cordl_internal_get_keyAlgorithm, put = __cordl_internal_set_keyAlgorithm))::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm;
 
   /// @brief Field hashAlgorithm, offset 0x2c, size 0x4
-  __declspec(property(get = __get_hashAlgorithm, put = __set_hashAlgorithm))::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm;
+  __declspec(property(get = __cordl_internal_get_hashAlgorithm, put = __cordl_internal_set_hashAlgorithm))::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm;
 
   /// @brief Field signature, offset 0x30, size 0x8
-  __declspec(property(get = __get_signature, put = __set_signature))::ArrayW<::Org::BouncyCastle::Bcpg::MPInteger*, ::Array<::Org::BouncyCastle::Bcpg::MPInteger*>*> signature;
+  __declspec(property(get = __cordl_internal_get_signature,
+                      put = __cordl_internal_set_signature))::ArrayW<::Org::BouncyCastle::Bcpg::MPInteger*, ::Array<::Org::BouncyCastle::Bcpg::MPInteger*>*> signature;
 
   /// @brief Field fingerprint, offset 0x38, size 0x8
-  __declspec(property(get = __get_fingerprint, put = __set_fingerprint))::ArrayW<uint8_t, ::Array<uint8_t>*> fingerprint;
+  __declspec(property(get = __cordl_internal_get_fingerprint, put = __cordl_internal_set_fingerprint))::ArrayW<uint8_t, ::Array<uint8_t>*> fingerprint;
 
   /// @brief Field hashedData, offset 0x40, size 0x8
-  __declspec(property(get = __get_hashedData, put = __set_hashedData))::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> hashedData;
+  __declspec(property(get = __cordl_internal_get_hashedData,
+                      put = __cordl_internal_set_hashedData))::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> hashedData;
 
   /// @brief Field unhashedData, offset 0x48, size 0x8
-  __declspec(property(get = __get_unhashedData,
-                      put = __set_unhashedData))::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> unhashedData;
+  __declspec(property(get = __cordl_internal_get_unhashedData,
+                      put = __cordl_internal_set_unhashedData))::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> unhashedData;
 
   /// @brief Field signatureEncoding, offset 0x50, size 0x8
-  __declspec(property(get = __get_signatureEncoding, put = __set_signatureEncoding))::ArrayW<uint8_t, ::Array<uint8_t>*> signatureEncoding;
+  __declspec(property(get = __cordl_internal_get_signatureEncoding, put = __cordl_internal_set_signatureEncoding))::ArrayW<uint8_t, ::Array<uint8_t>*> signatureEncoding;
 
   __declspec(property(get = get_Version)) int32_t Version;
 
@@ -88,71 +90,71 @@ public:
 
   __declspec(property(get = get_CreationTime)) int64_t CreationTime;
 
-  constexpr int32_t& __get_version();
+  constexpr int32_t& __cordl_internal_get_version();
 
-  constexpr int32_t const& __get_version() const;
+  constexpr int32_t const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(int32_t value);
+  constexpr void __cordl_internal_set_version(int32_t value);
 
-  constexpr int32_t& __get_signatureType();
+  constexpr int32_t& __cordl_internal_get_signatureType();
 
-  constexpr int32_t const& __get_signatureType() const;
+  constexpr int32_t const& __cordl_internal_get_signatureType() const;
 
-  constexpr void __set_signatureType(int32_t value);
+  constexpr void __cordl_internal_set_signatureType(int32_t value);
 
-  constexpr int64_t& __get_creationTime();
+  constexpr int64_t& __cordl_internal_get_creationTime();
 
-  constexpr int64_t const& __get_creationTime() const;
+  constexpr int64_t const& __cordl_internal_get_creationTime() const;
 
-  constexpr void __set_creationTime(int64_t value);
+  constexpr void __cordl_internal_set_creationTime(int64_t value);
 
-  constexpr int64_t& __get_keyId();
+  constexpr int64_t& __cordl_internal_get_keyId();
 
-  constexpr int64_t const& __get_keyId() const;
+  constexpr int64_t const& __cordl_internal_get_keyId() const;
 
-  constexpr void __set_keyId(int64_t value);
+  constexpr void __cordl_internal_set_keyId(int64_t value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag& __get_keyAlgorithm();
+  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag& __cordl_internal_get_keyAlgorithm();
 
-  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const& __get_keyAlgorithm() const;
+  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const& __cordl_internal_get_keyAlgorithm() const;
 
-  constexpr void __set_keyAlgorithm(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag value);
+  constexpr void __cordl_internal_set_keyAlgorithm(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag& __get_hashAlgorithm();
+  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag& __cordl_internal_get_hashAlgorithm();
 
-  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag const& __get_hashAlgorithm() const;
+  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag const& __cordl_internal_get_hashAlgorithm() const;
 
-  constexpr void __set_hashAlgorithm(::Org::BouncyCastle::Bcpg::HashAlgorithmTag value);
+  constexpr void __cordl_internal_set_hashAlgorithm(::Org::BouncyCastle::Bcpg::HashAlgorithmTag value);
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::MPInteger*, ::Array<::Org::BouncyCastle::Bcpg::MPInteger*>*>& __get_signature();
+  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::MPInteger*, ::Array<::Org::BouncyCastle::Bcpg::MPInteger*>*>& __cordl_internal_get_signature();
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::MPInteger*, ::Array<::Org::BouncyCastle::Bcpg::MPInteger*>*> const& __get_signature() const;
+  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::MPInteger*, ::Array<::Org::BouncyCastle::Bcpg::MPInteger*>*> const& __cordl_internal_get_signature() const;
 
-  constexpr void __set_signature(::ArrayW<::Org::BouncyCastle::Bcpg::MPInteger*, ::Array<::Org::BouncyCastle::Bcpg::MPInteger*>*> value);
+  constexpr void __cordl_internal_set_signature(::ArrayW<::Org::BouncyCastle::Bcpg::MPInteger*, ::Array<::Org::BouncyCastle::Bcpg::MPInteger*>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_fingerprint();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_fingerprint();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_fingerprint() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_fingerprint() const;
 
-  constexpr void __set_fingerprint(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_fingerprint(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*>& __get_hashedData();
+  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*>& __cordl_internal_get_hashedData();
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> const& __get_hashedData() const;
+  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> const& __cordl_internal_get_hashedData() const;
 
-  constexpr void __set_hashedData(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> value);
+  constexpr void __cordl_internal_set_hashedData(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> value);
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*>& __get_unhashedData();
+  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*>& __cordl_internal_get_unhashedData();
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> const& __get_unhashedData() const;
+  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> const& __cordl_internal_get_unhashedData() const;
 
-  constexpr void __set_unhashedData(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> value);
+  constexpr void __cordl_internal_set_unhashedData(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_signatureEncoding();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_signatureEncoding();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_signatureEncoding() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_signatureEncoding() const;
 
-  constexpr void __set_signatureEncoding(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_signatureEncoding(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Bcpg::SignaturePacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 

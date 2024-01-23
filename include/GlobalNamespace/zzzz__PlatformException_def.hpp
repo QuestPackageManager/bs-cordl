@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PlatformException);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4036))
 // CS Name: ::PlatformException::ErrorType
 struct CORDL_TYPE __PlatformException__ErrorType {
@@ -82,7 +82,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformException__ErrorType, value_
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561)), TypeDefinitionIndex(TypeDefinitionIndex(4036))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561)), TypeDefinitionIndex(TypeDefinitionIndex(4036))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4037))
 // CS Name: ::PlatformException*
 class CORDL_TYPE PlatformException : public ::System::Exception {
@@ -91,31 +91,31 @@ public:
   using ErrorType = ::GlobalNamespace::__PlatformException__ErrorType;
 
   /// @brief Field error, offset 0x8c, size 0x4
-  __declspec(property(get = __get_error, put = __set_error))::GlobalNamespace::__PlatformException__ErrorType error;
+  __declspec(property(get = __cordl_internal_get_error, put = __cordl_internal_set_error))::GlobalNamespace::__PlatformException__ErrorType error;
 
   /// @brief Field code, offset 0x90, size 0x4
-  __declspec(property(get = __get_code, put = __set_code)) int32_t code;
+  __declspec(property(get = __cordl_internal_get_code, put = __cordl_internal_set_code)) int32_t code;
 
   /// @brief Field httpCode, offset 0x94, size 0x4
-  __declspec(property(get = __get_httpCode, put = __set_httpCode)) int32_t httpCode;
+  __declspec(property(get = __cordl_internal_get_httpCode, put = __cordl_internal_set_httpCode)) int32_t httpCode;
 
-  constexpr ::GlobalNamespace::__PlatformException__ErrorType& __get_error();
+  constexpr ::GlobalNamespace::__PlatformException__ErrorType& __cordl_internal_get_error();
 
-  constexpr ::GlobalNamespace::__PlatformException__ErrorType const& __get_error() const;
+  constexpr ::GlobalNamespace::__PlatformException__ErrorType const& __cordl_internal_get_error() const;
 
-  constexpr void __set_error(::GlobalNamespace::__PlatformException__ErrorType value);
+  constexpr void __cordl_internal_set_error(::GlobalNamespace::__PlatformException__ErrorType value);
 
-  constexpr int32_t& __get_code();
+  constexpr int32_t& __cordl_internal_get_code();
 
-  constexpr int32_t const& __get_code() const;
+  constexpr int32_t const& __cordl_internal_get_code() const;
 
-  constexpr void __set_code(int32_t value);
+  constexpr void __cordl_internal_set_code(int32_t value);
 
-  constexpr int32_t& __get_httpCode();
+  constexpr int32_t& __cordl_internal_get_httpCode();
 
-  constexpr int32_t const& __get_httpCode() const;
+  constexpr int32_t const& __cordl_internal_get_httpCode() const;
 
-  constexpr void __set_httpCode(int32_t value);
+  constexpr void __cordl_internal_set_httpCode(int32_t value);
 
   static inline ::GlobalNamespace::PlatformException* New_ctor(::GlobalNamespace::__PlatformException__ErrorType error, ::StringW message, ::System::Exception* innerException);
 

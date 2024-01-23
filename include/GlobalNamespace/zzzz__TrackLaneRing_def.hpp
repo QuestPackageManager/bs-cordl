@@ -22,103 +22,103 @@ MARK_REF_PTR_T(::GlobalNamespace::TrackLaneRing);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5003))
 // CS Name: ::TrackLaneRing*
 class CORDL_TYPE TrackLaneRing : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _prevRotZ, offset 0x18, size 0x4
-  __declspec(property(get = __get__prevRotZ, put = __set__prevRotZ)) float_t _prevRotZ;
+  __declspec(property(get = __cordl_internal_get__prevRotZ, put = __cordl_internal_set__prevRotZ)) float_t _prevRotZ;
 
   /// @brief Field _rotZ, offset 0x1c, size 0x4
-  __declspec(property(get = __get__rotZ, put = __set__rotZ)) float_t _rotZ;
+  __declspec(property(get = __cordl_internal_get__rotZ, put = __cordl_internal_set__rotZ)) float_t _rotZ;
 
   /// @brief Field _destRotZ, offset 0x20, size 0x4
-  __declspec(property(get = __get__destRotZ, put = __set__destRotZ)) float_t _destRotZ;
+  __declspec(property(get = __cordl_internal_get__destRotZ, put = __cordl_internal_set__destRotZ)) float_t _destRotZ;
 
   /// @brief Field _rotationSpeed, offset 0x24, size 0x4
-  __declspec(property(get = __get__rotationSpeed, put = __set__rotationSpeed)) float_t _rotationSpeed;
+  __declspec(property(get = __cordl_internal_get__rotationSpeed, put = __cordl_internal_set__rotationSpeed)) float_t _rotationSpeed;
 
   /// @brief Field _prevPosZ, offset 0x28, size 0x4
-  __declspec(property(get = __get__prevPosZ, put = __set__prevPosZ)) float_t _prevPosZ;
+  __declspec(property(get = __cordl_internal_get__prevPosZ, put = __cordl_internal_set__prevPosZ)) float_t _prevPosZ;
 
   /// @brief Field _posZ, offset 0x2c, size 0x4
-  __declspec(property(get = __get__posZ, put = __set__posZ)) float_t _posZ;
+  __declspec(property(get = __cordl_internal_get__posZ, put = __cordl_internal_set__posZ)) float_t _posZ;
 
   /// @brief Field _destPosZ, offset 0x30, size 0x4
-  __declspec(property(get = __get__destPosZ, put = __set__destPosZ)) float_t _destPosZ;
+  __declspec(property(get = __cordl_internal_get__destPosZ, put = __cordl_internal_set__destPosZ)) float_t _destPosZ;
 
   /// @brief Field _moveSpeed, offset 0x34, size 0x4
-  __declspec(property(get = __get__moveSpeed, put = __set__moveSpeed)) float_t _moveSpeed;
+  __declspec(property(get = __cordl_internal_get__moveSpeed, put = __cordl_internal_set__moveSpeed)) float_t _moveSpeed;
 
   /// @brief Field _positionOffset, offset 0x38, size 0xc
-  __declspec(property(get = __get__positionOffset, put = __set__positionOffset))::UnityEngine::Vector3 _positionOffset;
+  __declspec(property(get = __cordl_internal_get__positionOffset, put = __cordl_internal_set__positionOffset))::UnityEngine::Vector3 _positionOffset;
 
   /// @brief Field _transform, offset 0x48, size 0x8
-  __declspec(property(get = __get__transform, put = __set__transform))::UnityEngine::Transform* _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
   __declspec(property(get = get_destRotZ)) float_t destRotZ;
 
-  constexpr float_t& __get__prevRotZ();
+  constexpr float_t& __cordl_internal_get__prevRotZ();
 
-  constexpr float_t const& __get__prevRotZ() const;
+  constexpr float_t const& __cordl_internal_get__prevRotZ() const;
 
-  constexpr void __set__prevRotZ(float_t value);
+  constexpr void __cordl_internal_set__prevRotZ(float_t value);
 
-  constexpr float_t& __get__rotZ();
+  constexpr float_t& __cordl_internal_get__rotZ();
 
-  constexpr float_t const& __get__rotZ() const;
+  constexpr float_t const& __cordl_internal_get__rotZ() const;
 
-  constexpr void __set__rotZ(float_t value);
+  constexpr void __cordl_internal_set__rotZ(float_t value);
 
-  constexpr float_t& __get__destRotZ();
+  constexpr float_t& __cordl_internal_get__destRotZ();
 
-  constexpr float_t const& __get__destRotZ() const;
+  constexpr float_t const& __cordl_internal_get__destRotZ() const;
 
-  constexpr void __set__destRotZ(float_t value);
+  constexpr void __cordl_internal_set__destRotZ(float_t value);
 
-  constexpr float_t& __get__rotationSpeed();
+  constexpr float_t& __cordl_internal_get__rotationSpeed();
 
-  constexpr float_t const& __get__rotationSpeed() const;
+  constexpr float_t const& __cordl_internal_get__rotationSpeed() const;
 
-  constexpr void __set__rotationSpeed(float_t value);
+  constexpr void __cordl_internal_set__rotationSpeed(float_t value);
 
-  constexpr float_t& __get__prevPosZ();
+  constexpr float_t& __cordl_internal_get__prevPosZ();
 
-  constexpr float_t const& __get__prevPosZ() const;
+  constexpr float_t const& __cordl_internal_get__prevPosZ() const;
 
-  constexpr void __set__prevPosZ(float_t value);
+  constexpr void __cordl_internal_set__prevPosZ(float_t value);
 
-  constexpr float_t& __get__posZ();
+  constexpr float_t& __cordl_internal_get__posZ();
 
-  constexpr float_t const& __get__posZ() const;
+  constexpr float_t const& __cordl_internal_get__posZ() const;
 
-  constexpr void __set__posZ(float_t value);
+  constexpr void __cordl_internal_set__posZ(float_t value);
 
-  constexpr float_t& __get__destPosZ();
+  constexpr float_t& __cordl_internal_get__destPosZ();
 
-  constexpr float_t const& __get__destPosZ() const;
+  constexpr float_t const& __cordl_internal_get__destPosZ() const;
 
-  constexpr void __set__destPosZ(float_t value);
+  constexpr void __cordl_internal_set__destPosZ(float_t value);
 
-  constexpr float_t& __get__moveSpeed();
+  constexpr float_t& __cordl_internal_get__moveSpeed();
 
-  constexpr float_t const& __get__moveSpeed() const;
+  constexpr float_t const& __cordl_internal_get__moveSpeed() const;
 
-  constexpr void __set__moveSpeed(float_t value);
+  constexpr void __cordl_internal_set__moveSpeed(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get__positionOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__positionOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__positionOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__positionOffset() const;
 
-  constexpr void __set__positionOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__positionOffset(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Transform*& __get__transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr void __set__transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
   /// @brief Method get_destRotZ, addr 0x23b7798, size 0x8, virtual false, abstract: false, final false
   inline float_t get_destRotZ();
@@ -191,7 +191,7 @@ public:
   ::UnityEngine::Vector3 ____positionOffset;
 
   /// @brief Field _transform, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____transform;
+  ::UnityW<::UnityEngine::Transform> ____transform;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

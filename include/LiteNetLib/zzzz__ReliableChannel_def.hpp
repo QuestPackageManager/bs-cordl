@@ -32,7 +32,7 @@ MARK_VAL_T(::LiteNetLib::__ReliableChannel__PendingPacket);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14184))
 // CS Name: ::ReliableChannel::PendingPacket
 struct CORDL_TYPE __ReliableChannel__PendingPacket {
@@ -86,7 +86,7 @@ static_assert(offsetof(::LiteNetLib::__ReliableChannel__PendingPacket, _isSent) 
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14127)), TypeDefinitionIndex(TypeDefinitionIndex(14155))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14127)), TypeDefinitionIndex(TypeDefinitionIndex(14155))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14185))
 // CS Name: ::LiteNetLib::ReliableChannel*
 class CORDL_TYPE ReliableChannel : public ::LiteNetLib::BaseChannel {
@@ -95,122 +95,122 @@ public:
   using PendingPacket = ::LiteNetLib::__ReliableChannel__PendingPacket;
 
   /// @brief Field _outgoingAcks, offset 0x28, size 0x8
-  __declspec(property(get = __get__outgoingAcks, put = __set__outgoingAcks))::LiteNetLib::NetPacket* _outgoingAcks;
+  __declspec(property(get = __cordl_internal_get__outgoingAcks, put = __cordl_internal_set__outgoingAcks))::LiteNetLib::NetPacket* _outgoingAcks;
 
   /// @brief Field _pendingPackets, offset 0x30, size 0x8
-  __declspec(property(get = __get__pendingPackets,
-                      put = __set__pendingPackets))::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*> _pendingPackets;
+  __declspec(property(get = __cordl_internal_get__pendingPackets,
+                      put = __cordl_internal_set__pendingPackets))::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*> _pendingPackets;
 
   /// @brief Field _receivedPackets, offset 0x38, size 0x8
-  __declspec(property(get = __get__receivedPackets, put = __set__receivedPackets))::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> _receivedPackets;
+  __declspec(property(get = __cordl_internal_get__receivedPackets, put = __cordl_internal_set__receivedPackets))::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> _receivedPackets;
 
   /// @brief Field _earlyReceived, offset 0x40, size 0x8
-  __declspec(property(get = __get__earlyReceived, put = __set__earlyReceived))::ArrayW<bool, ::Array<bool>*> _earlyReceived;
+  __declspec(property(get = __cordl_internal_get__earlyReceived, put = __cordl_internal_set__earlyReceived))::ArrayW<bool, ::Array<bool>*> _earlyReceived;
 
   /// @brief Field _localSeqence, offset 0x48, size 0x4
-  __declspec(property(get = __get__localSeqence, put = __set__localSeqence)) int32_t _localSeqence;
+  __declspec(property(get = __cordl_internal_get__localSeqence, put = __cordl_internal_set__localSeqence)) int32_t _localSeqence;
 
   /// @brief Field _remoteSequence, offset 0x4c, size 0x4
-  __declspec(property(get = __get__remoteSequence, put = __set__remoteSequence)) int32_t _remoteSequence;
+  __declspec(property(get = __cordl_internal_get__remoteSequence, put = __cordl_internal_set__remoteSequence)) int32_t _remoteSequence;
 
   /// @brief Field _localWindowStart, offset 0x50, size 0x4
-  __declspec(property(get = __get__localWindowStart, put = __set__localWindowStart)) int32_t _localWindowStart;
+  __declspec(property(get = __cordl_internal_get__localWindowStart, put = __cordl_internal_set__localWindowStart)) int32_t _localWindowStart;
 
   /// @brief Field _remoteWindowStart, offset 0x54, size 0x4
-  __declspec(property(get = __get__remoteWindowStart, put = __set__remoteWindowStart)) int32_t _remoteWindowStart;
+  __declspec(property(get = __cordl_internal_get__remoteWindowStart, put = __cordl_internal_set__remoteWindowStart)) int32_t _remoteWindowStart;
 
   /// @brief Field _mustSendAcks, offset 0x58, size 0x1
-  __declspec(property(get = __get__mustSendAcks, put = __set__mustSendAcks)) bool _mustSendAcks;
+  __declspec(property(get = __cordl_internal_get__mustSendAcks, put = __cordl_internal_set__mustSendAcks)) bool _mustSendAcks;
 
   /// @brief Field _deliveryMethod, offset 0x59, size 0x1
-  __declspec(property(get = __get__deliveryMethod, put = __set__deliveryMethod))::LiteNetLib::DeliveryMethod _deliveryMethod;
+  __declspec(property(get = __cordl_internal_get__deliveryMethod, put = __cordl_internal_set__deliveryMethod))::LiteNetLib::DeliveryMethod _deliveryMethod;
 
   /// @brief Field _ordered, offset 0x5a, size 0x1
-  __declspec(property(get = __get__ordered, put = __set__ordered)) bool _ordered;
+  __declspec(property(get = __cordl_internal_get__ordered, put = __cordl_internal_set__ordered)) bool _ordered;
 
   /// @brief Field _windowSize, offset 0x5c, size 0x4
-  __declspec(property(get = __get__windowSize, put = __set__windowSize)) int32_t _windowSize;
+  __declspec(property(get = __cordl_internal_get__windowSize, put = __cordl_internal_set__windowSize)) int32_t _windowSize;
 
   /// @brief Field _id, offset 0x60, size 0x1
-  __declspec(property(get = __get__id, put = __set__id)) uint8_t _id;
+  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) uint8_t _id;
 
-  constexpr ::LiteNetLib::NetPacket*& __get__outgoingAcks();
+  constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__outgoingAcks();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __get__outgoingAcks() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__outgoingAcks() const;
 
-  constexpr void __set__outgoingAcks(::LiteNetLib::NetPacket* value);
+  constexpr void __cordl_internal_set__outgoingAcks(::LiteNetLib::NetPacket* value);
 
-  constexpr ::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*>& __get__pendingPackets();
+  constexpr ::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*>& __cordl_internal_get__pendingPackets();
 
-  constexpr ::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*> const& __get__pendingPackets() const;
+  constexpr ::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*> const& __cordl_internal_get__pendingPackets() const;
 
-  constexpr void __set__pendingPackets(::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*> value);
+  constexpr void __cordl_internal_set__pendingPackets(::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*> value);
 
-  constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*>& __get__receivedPackets();
+  constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*>& __cordl_internal_get__receivedPackets();
 
-  constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> const& __get__receivedPackets() const;
+  constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> const& __cordl_internal_get__receivedPackets() const;
 
-  constexpr void __set__receivedPackets(::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> value);
+  constexpr void __cordl_internal_set__receivedPackets(::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get__earlyReceived();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get__earlyReceived();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get__earlyReceived() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get__earlyReceived() const;
 
-  constexpr void __set__earlyReceived(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set__earlyReceived(::ArrayW<bool, ::Array<bool>*> value);
 
-  constexpr int32_t& __get__localSeqence();
+  constexpr int32_t& __cordl_internal_get__localSeqence();
 
-  constexpr int32_t const& __get__localSeqence() const;
+  constexpr int32_t const& __cordl_internal_get__localSeqence() const;
 
-  constexpr void __set__localSeqence(int32_t value);
+  constexpr void __cordl_internal_set__localSeqence(int32_t value);
 
-  constexpr int32_t& __get__remoteSequence();
+  constexpr int32_t& __cordl_internal_get__remoteSequence();
 
-  constexpr int32_t const& __get__remoteSequence() const;
+  constexpr int32_t const& __cordl_internal_get__remoteSequence() const;
 
-  constexpr void __set__remoteSequence(int32_t value);
+  constexpr void __cordl_internal_set__remoteSequence(int32_t value);
 
-  constexpr int32_t& __get__localWindowStart();
+  constexpr int32_t& __cordl_internal_get__localWindowStart();
 
-  constexpr int32_t const& __get__localWindowStart() const;
+  constexpr int32_t const& __cordl_internal_get__localWindowStart() const;
 
-  constexpr void __set__localWindowStart(int32_t value);
+  constexpr void __cordl_internal_set__localWindowStart(int32_t value);
 
-  constexpr int32_t& __get__remoteWindowStart();
+  constexpr int32_t& __cordl_internal_get__remoteWindowStart();
 
-  constexpr int32_t const& __get__remoteWindowStart() const;
+  constexpr int32_t const& __cordl_internal_get__remoteWindowStart() const;
 
-  constexpr void __set__remoteWindowStart(int32_t value);
+  constexpr void __cordl_internal_set__remoteWindowStart(int32_t value);
 
-  constexpr bool& __get__mustSendAcks();
+  constexpr bool& __cordl_internal_get__mustSendAcks();
 
-  constexpr bool const& __get__mustSendAcks() const;
+  constexpr bool const& __cordl_internal_get__mustSendAcks() const;
 
-  constexpr void __set__mustSendAcks(bool value);
+  constexpr void __cordl_internal_set__mustSendAcks(bool value);
 
-  constexpr ::LiteNetLib::DeliveryMethod& __get__deliveryMethod();
+  constexpr ::LiteNetLib::DeliveryMethod& __cordl_internal_get__deliveryMethod();
 
-  constexpr ::LiteNetLib::DeliveryMethod const& __get__deliveryMethod() const;
+  constexpr ::LiteNetLib::DeliveryMethod const& __cordl_internal_get__deliveryMethod() const;
 
-  constexpr void __set__deliveryMethod(::LiteNetLib::DeliveryMethod value);
+  constexpr void __cordl_internal_set__deliveryMethod(::LiteNetLib::DeliveryMethod value);
 
-  constexpr bool& __get__ordered();
+  constexpr bool& __cordl_internal_get__ordered();
 
-  constexpr bool const& __get__ordered() const;
+  constexpr bool const& __cordl_internal_get__ordered() const;
 
-  constexpr void __set__ordered(bool value);
+  constexpr void __cordl_internal_set__ordered(bool value);
 
-  constexpr int32_t& __get__windowSize();
+  constexpr int32_t& __cordl_internal_get__windowSize();
 
-  constexpr int32_t const& __get__windowSize() const;
+  constexpr int32_t const& __cordl_internal_get__windowSize() const;
 
-  constexpr void __set__windowSize(int32_t value);
+  constexpr void __cordl_internal_set__windowSize(int32_t value);
 
-  constexpr uint8_t& __get__id();
+  constexpr uint8_t& __cordl_internal_get__id();
 
-  constexpr uint8_t const& __get__id() const;
+  constexpr uint8_t const& __cordl_internal_get__id() const;
 
-  constexpr void __set__id(uint8_t value);
+  constexpr void __cordl_internal_set__id(uint8_t value);
 
   static inline ::LiteNetLib::ReliableChannel* New_ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id);
 

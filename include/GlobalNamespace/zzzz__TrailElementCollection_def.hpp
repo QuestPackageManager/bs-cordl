@@ -32,7 +32,7 @@ MARK_VAL_T(::GlobalNamespace::__TrailElementCollection__InterpolationState);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4880))
 // CS Name: ::TrailElementCollection::InterpolationState
 struct CORDL_TYPE __TrailElementCollection__InterpolationState {
@@ -68,7 +68,7 @@ static_assert(offsetof(::GlobalNamespace::__TrailElementCollection__Interpolatio
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4881))
 // CS Name: ::TrailElementCollection*
 class CORDL_TYPE TrailElementCollection : public ::System::Object {
@@ -77,40 +77,40 @@ public:
   using InterpolationState = ::GlobalNamespace::__TrailElementCollection__InterpolationState;
 
   /// @brief Field _capacity, offset 0x10, size 0x4
-  __declspec(property(get = __get__capacity, put = __set__capacity)) int32_t _capacity;
+  __declspec(property(get = __cordl_internal_get__capacity, put = __cordl_internal_set__capacity)) int32_t _capacity;
 
   /// @brief Field _snapshots, offset 0x18, size 0x8
-  __declspec(property(get = __get__snapshots, put = __set__snapshots))::ArrayW<::GlobalNamespace::TrailElement*, ::Array<::GlobalNamespace::TrailElement*>*> _snapshots;
+  __declspec(property(get = __cordl_internal_get__snapshots, put = __cordl_internal_set__snapshots))::ArrayW<::GlobalNamespace::TrailElement*, ::Array<::GlobalNamespace::TrailElement*>*> _snapshots;
 
   /// @brief Field _headIndex, offset 0x20, size 0x4
-  __declspec(property(get = __get__headIndex, put = __set__headIndex)) int32_t _headIndex;
+  __declspec(property(get = __cordl_internal_get__headIndex, put = __cordl_internal_set__headIndex)) int32_t _headIndex;
 
   /// @brief Field _totalDistance, offset 0x24, size 0x4
-  __declspec(property(get = __get__totalDistance, put = __set__totalDistance)) float_t _totalDistance;
+  __declspec(property(get = __cordl_internal_get__totalDistance, put = __cordl_internal_set__totalDistance)) float_t _totalDistance;
 
-  constexpr int32_t& __get__capacity();
+  constexpr int32_t& __cordl_internal_get__capacity();
 
-  constexpr int32_t const& __get__capacity() const;
+  constexpr int32_t const& __cordl_internal_get__capacity() const;
 
-  constexpr void __set__capacity(int32_t value);
+  constexpr void __cordl_internal_set__capacity(int32_t value);
 
-  constexpr ::ArrayW<::GlobalNamespace::TrailElement*, ::Array<::GlobalNamespace::TrailElement*>*>& __get__snapshots();
+  constexpr ::ArrayW<::GlobalNamespace::TrailElement*, ::Array<::GlobalNamespace::TrailElement*>*>& __cordl_internal_get__snapshots();
 
-  constexpr ::ArrayW<::GlobalNamespace::TrailElement*, ::Array<::GlobalNamespace::TrailElement*>*> const& __get__snapshots() const;
+  constexpr ::ArrayW<::GlobalNamespace::TrailElement*, ::Array<::GlobalNamespace::TrailElement*>*> const& __cordl_internal_get__snapshots() const;
 
-  constexpr void __set__snapshots(::ArrayW<::GlobalNamespace::TrailElement*, ::Array<::GlobalNamespace::TrailElement*>*> value);
+  constexpr void __cordl_internal_set__snapshots(::ArrayW<::GlobalNamespace::TrailElement*, ::Array<::GlobalNamespace::TrailElement*>*> value);
 
-  constexpr int32_t& __get__headIndex();
+  constexpr int32_t& __cordl_internal_get__headIndex();
 
-  constexpr int32_t const& __get__headIndex() const;
+  constexpr int32_t const& __cordl_internal_get__headIndex() const;
 
-  constexpr void __set__headIndex(int32_t value);
+  constexpr void __cordl_internal_set__headIndex(int32_t value);
 
-  constexpr float_t& __get__totalDistance();
+  constexpr float_t& __cordl_internal_get__totalDistance();
 
-  constexpr float_t const& __get__totalDistance() const;
+  constexpr float_t const& __cordl_internal_get__totalDistance() const;
 
-  constexpr void __set__totalDistance(float_t value);
+  constexpr void __cordl_internal_set__totalDistance(float_t value);
 
   static inline ::GlobalNamespace::TrailElementCollection* New_ctor(int32_t capacity, ::UnityEngine::Vector3 defaultStartPosition, ::UnityEngine::Vector3 defaultEndPosition, float_t time);
 

@@ -28,7 +28,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TData>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12891))
 // CS Name: ::INetworkPacketSubSerializer`1<TData>*
 class CORDL_TYPE INetworkPacketSubSerializer_1 {

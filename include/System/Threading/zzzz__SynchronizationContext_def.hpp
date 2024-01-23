@@ -26,14 +26,14 @@ MARK_REF_PTR_T(::System::Threading::SynchronizationContext);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2716)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2716))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2717))
 // CS Name: ::System.Threading::SynchronizationContext*
 class CORDL_TYPE SynchronizationContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _props, offset 0x10, size 0x4
-  __declspec(property(get = __get__props, put = __set__props))::System::Threading::SynchronizationContextProperties _props;
+  __declspec(property(get = __cordl_internal_get__props, put = __cordl_internal_set__props))::System::Threading::SynchronizationContextProperties _props;
 
   /// @brief Field s_cachedPreparedType1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_cachedPreparedType1, put = setStaticF_s_cachedPreparedType1))::System::Type* s_cachedPreparedType1;
@@ -50,11 +50,11 @@ public:
   /// @brief Field s_cachedPreparedType5, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_cachedPreparedType5, put = setStaticF_s_cachedPreparedType5))::System::Type* s_cachedPreparedType5;
 
-  constexpr ::System::Threading::SynchronizationContextProperties& __get__props();
+  constexpr ::System::Threading::SynchronizationContextProperties& __cordl_internal_get__props();
 
-  constexpr ::System::Threading::SynchronizationContextProperties const& __get__props() const;
+  constexpr ::System::Threading::SynchronizationContextProperties const& __cordl_internal_get__props() const;
 
-  constexpr void __set__props(::System::Threading::SynchronizationContextProperties value);
+  constexpr void __cordl_internal_set__props(::System::Threading::SynchronizationContextProperties value);
 
   static inline void setStaticF_s_cachedPreparedType1(::System::Type* value);
 

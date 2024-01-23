@@ -26,74 +26,74 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_TOPNetworkData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9770))
 // CS Name: ::HoudiniEngineUnity::HEU_TOPNetworkData*
 class CORDL_TYPE HEU_TOPNetworkData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _nodeID, offset 0x10, size 0x4
-  __declspec(property(get = __get__nodeID, put = __set__nodeID)) int32_t _nodeID;
+  __declspec(property(get = __cordl_internal_get__nodeID, put = __cordl_internal_set__nodeID)) int32_t _nodeID;
 
   /// @brief Field _nodeName, offset 0x18, size 0x8
-  __declspec(property(get = __get__nodeName, put = __set__nodeName))::StringW _nodeName;
+  __declspec(property(get = __cordl_internal_get__nodeName, put = __cordl_internal_set__nodeName))::StringW _nodeName;
 
   /// @brief Field _topNodes, offset 0x20, size 0x8
-  __declspec(property(get = __get__topNodes, put = __set__topNodes))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>* _topNodes;
+  __declspec(property(get = __cordl_internal_get__topNodes, put = __cordl_internal_set__topNodes))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>* _topNodes;
 
   /// @brief Field _topNodeNames, offset 0x28, size 0x8
-  __declspec(property(get = __get__topNodeNames, put = __set__topNodeNames))::ArrayW<::StringW, ::Array<::StringW>*> _topNodeNames;
+  __declspec(property(get = __cordl_internal_get__topNodeNames, put = __cordl_internal_set__topNodeNames))::ArrayW<::StringW, ::Array<::StringW>*> _topNodeNames;
 
   /// @brief Field _selectedTOPIndex, offset 0x30, size 0x4
-  __declspec(property(get = __get__selectedTOPIndex, put = __set__selectedTOPIndex)) int32_t _selectedTOPIndex;
+  __declspec(property(get = __cordl_internal_get__selectedTOPIndex, put = __cordl_internal_set__selectedTOPIndex)) int32_t _selectedTOPIndex;
 
   /// @brief Field _parentName, offset 0x38, size 0x8
-  __declspec(property(get = __get__parentName, put = __set__parentName))::StringW _parentName;
+  __declspec(property(get = __cordl_internal_get__parentName, put = __cordl_internal_set__parentName))::StringW _parentName;
 
   /// @brief Field _tags, offset 0x40, size 0x8
-  __declspec(property(get = __get__tags, put = __set__tags))::HoudiniEngineUnity::TOPNodeTags* _tags;
+  __declspec(property(get = __cordl_internal_get__tags, put = __cordl_internal_set__tags))::HoudiniEngineUnity::TOPNodeTags* _tags;
 
-  constexpr int32_t& __get__nodeID();
+  constexpr int32_t& __cordl_internal_get__nodeID();
 
-  constexpr int32_t const& __get__nodeID() const;
+  constexpr int32_t const& __cordl_internal_get__nodeID() const;
 
-  constexpr void __set__nodeID(int32_t value);
+  constexpr void __cordl_internal_set__nodeID(int32_t value);
 
-  constexpr ::StringW& __get__nodeName();
+  constexpr ::StringW& __cordl_internal_get__nodeName();
 
-  constexpr ::StringW const& __get__nodeName() const;
+  constexpr ::StringW const& __cordl_internal_get__nodeName() const;
 
-  constexpr void __set__nodeName(::StringW value);
+  constexpr void __cordl_internal_set__nodeName(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>*& __get__topNodes();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>*& __cordl_internal_get__topNodes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>*> const& __get__topNodes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>*> const& __cordl_internal_get__topNodes() const;
 
-  constexpr void __set__topNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>* value);
+  constexpr void __cordl_internal_set__topNodes(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNodeData*>* value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__topNodeNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__topNodeNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__topNodeNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__topNodeNames() const;
 
-  constexpr void __set__topNodeNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__topNodeNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr int32_t& __get__selectedTOPIndex();
+  constexpr int32_t& __cordl_internal_get__selectedTOPIndex();
 
-  constexpr int32_t const& __get__selectedTOPIndex() const;
+  constexpr int32_t const& __cordl_internal_get__selectedTOPIndex() const;
 
-  constexpr void __set__selectedTOPIndex(int32_t value);
+  constexpr void __cordl_internal_set__selectedTOPIndex(int32_t value);
 
-  constexpr ::StringW& __get__parentName();
+  constexpr ::StringW& __cordl_internal_get__parentName();
 
-  constexpr ::StringW const& __get__parentName() const;
+  constexpr ::StringW const& __cordl_internal_get__parentName() const;
 
-  constexpr void __set__parentName(::StringW value);
+  constexpr void __cordl_internal_set__parentName(::StringW value);
 
-  constexpr ::HoudiniEngineUnity::TOPNodeTags*& __get__tags();
+  constexpr ::HoudiniEngineUnity::TOPNodeTags*& __cordl_internal_get__tags();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::TOPNodeTags*> const& __get__tags() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::TOPNodeTags*> const& __cordl_internal_get__tags() const;
 
-  constexpr void __set__tags(::HoudiniEngineUnity::TOPNodeTags* value);
+  constexpr void __cordl_internal_set__tags(::HoudiniEngineUnity::TOPNodeTags* value);
 
   static inline ::HoudiniEngineUnity::HEU_TOPNetworkData* New_ctor();
 

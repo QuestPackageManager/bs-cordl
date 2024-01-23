@@ -20,23 +20,23 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::SafeBuffer);
 // SizeInfo { instance_size: 40, native_size: 8, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2301)), TypeDefinitionIndex(TypeDefinitionIndex(2638))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2301)), TypeDefinitionIndex(TypeDefinitionIndex(2638))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3309))
 // CS Name: ::System.Runtime.InteropServices::SafeBuffer*
 class CORDL_TYPE SafeBuffer : public ::Microsoft::Win32::SafeHandles::SafeHandleZeroOrMinusOneIsInvalid {
 public:
   // Declarations
   /// @brief Field _numBytes, offset 0x20, size 0x8
-  __declspec(property(get = __get__numBytes, put = __set__numBytes)) void* _numBytes;
+  __declspec(property(get = __cordl_internal_get__numBytes, put = __cordl_internal_set__numBytes)) void* _numBytes;
 
   /// @brief Field Uninitialized, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Uninitialized, put = setStaticF_Uninitialized)) void* Uninitialized;
 
-  constexpr void*& __get__numBytes();
+  constexpr void*& __cordl_internal_get__numBytes();
 
-  constexpr void* const& __get__numBytes() const;
+  constexpr void* const& __cordl_internal_get__numBytes() const;
 
-  constexpr void __set__numBytes(void* value);
+  constexpr void __cordl_internal_set__numBytes(void* value);
 
   static inline void setStaticF_Uninitialized(void* value);
 

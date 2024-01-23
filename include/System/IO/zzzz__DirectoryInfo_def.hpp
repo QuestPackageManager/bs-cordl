@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::System::IO::DirectoryInfo);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3596))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3596))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3590))
 // CS Name: ::System.IO::DirectoryInfo*
 class CORDL_TYPE DirectoryInfo : public ::System::IO::FileSystemInfo {

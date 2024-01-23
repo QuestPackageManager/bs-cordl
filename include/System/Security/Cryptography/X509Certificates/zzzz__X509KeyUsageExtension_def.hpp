@@ -28,31 +28,31 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509KeyUsageE
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9011)), TypeDefinitionIndex(TypeDefinitionIndex(8984)), TypeDefinitionIndex(TypeDefinitionIndex(8976))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8976)), TypeDefinitionIndex(TypeDefinitionIndex(8984)), TypeDefinitionIndex(TypeDefinitionIndex(9011))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9015))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509KeyUsageExtension*
 class CORDL_TYPE X509KeyUsageExtension : public ::System::Security::Cryptography::X509Certificates::X509Extension {
 public:
   // Declarations
   /// @brief Field _keyUsages, offset 0x24, size 0x4
-  __declspec(property(get = __get__keyUsages, put = __set__keyUsages))::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags _keyUsages;
+  __declspec(property(get = __cordl_internal_get__keyUsages, put = __cordl_internal_set__keyUsages))::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags _keyUsages;
 
   /// @brief Field _status, offset 0x28, size 0x4
-  __declspec(property(get = __get__status, put = __set__status))::System::Security::Cryptography::AsnDecodeStatus _status;
+  __declspec(property(get = __cordl_internal_get__status, put = __cordl_internal_set__status))::System::Security::Cryptography::AsnDecodeStatus _status;
 
   __declspec(property(get = get_KeyUsages))::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags KeyUsages;
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags& __get__keyUsages();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags& __cordl_internal_get__keyUsages();
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const& __get__keyUsages() const;
+  constexpr ::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags const& __cordl_internal_get__keyUsages() const;
 
-  constexpr void __set__keyUsages(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags value);
+  constexpr void __cordl_internal_set__keyUsages(::System::Security::Cryptography::X509Certificates::X509KeyUsageFlags value);
 
-  constexpr ::System::Security::Cryptography::AsnDecodeStatus& __get__status();
+  constexpr ::System::Security::Cryptography::AsnDecodeStatus& __cordl_internal_get__status();
 
-  constexpr ::System::Security::Cryptography::AsnDecodeStatus const& __get__status() const;
+  constexpr ::System::Security::Cryptography::AsnDecodeStatus const& __cordl_internal_get__status() const;
 
-  constexpr void __set__status(::System::Security::Cryptography::AsnDecodeStatus value);
+  constexpr void __cordl_internal_set__status(::System::Security::Cryptography::AsnDecodeStatus value);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension* New_ctor();
 

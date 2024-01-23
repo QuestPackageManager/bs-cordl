@@ -24,14 +24,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Security::SecureRandom);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2461))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2461))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1111))
 // CS Name: ::Org.BouncyCastle.Security::SecureRandom*
 class CORDL_TYPE SecureRandom : public ::System::Random {
 public:
   // Declarations
   /// @brief Field generator, offset 0x20, size 0x8
-  __declspec(property(get = __get_generator, put = __set_generator))::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator;
+  __declspec(property(get = __cordl_internal_get_generator, put = __cordl_internal_set_generator))::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator;
 
   /// @brief Field counter, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_counter, put = setStaticF_counter)) int64_t counter;
@@ -42,11 +42,11 @@ public:
   /// @brief Field DoubleScale, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_DoubleScale, put = setStaticF_DoubleScale)) double_t DoubleScale;
 
-  constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*& __get_generator();
+  constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*& __cordl_internal_get_generator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*> const& __get_generator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*> const& __cordl_internal_get_generator() const;
 
-  constexpr void __set_generator(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* value);
+  constexpr void __cordl_internal_set_generator(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* value);
 
   static inline void setStaticF_counter(int64_t value);
 

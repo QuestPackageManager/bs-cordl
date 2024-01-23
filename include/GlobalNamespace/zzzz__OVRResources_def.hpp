@@ -39,20 +39,20 @@ MARK_GEN_REF_PTR_T(::GlobalNamespace::__OVRResources____c__DisplayClass3_0_1);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7951))
 // CS Name: ::OVRResources::<>c__DisplayClass2_0*
 class CORDL_TYPE __OVRResources____c__DisplayClass2_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field path, offset 0x10, size 0x8
-  __declspec(property(get = __get_path, put = __set_path))::StringW path;
+  __declspec(property(get = __cordl_internal_get_path, put = __cordl_internal_set_path))::StringW path;
 
-  constexpr ::StringW& __get_path();
+  constexpr ::StringW& __cordl_internal_get_path();
 
-  constexpr ::StringW const& __get_path() const;
+  constexpr ::StringW const& __cordl_internal_get_path() const;
 
-  constexpr void __set_path(::StringW value);
+  constexpr void __cordl_internal_set_path(::StringW value);
 
   static inline ::GlobalNamespace::__OVRResources____c__DisplayClass2_0* New_ctor();
 
@@ -93,20 +93,20 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7952))
 // CS Name: ::OVRResources::<>c__DisplayClass3_0`1<T>*
 class CORDL_TYPE __OVRResources____c__DisplayClass3_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field path, offset 0x10, size 0x8
-  __declspec(property(get = __get_path, put = __set_path))::StringW path;
+  __declspec(property(get = __cordl_internal_get_path, put = __cordl_internal_set_path))::StringW path;
 
-  constexpr ::StringW& __get_path();
+  constexpr ::StringW& __cordl_internal_get_path();
 
-  constexpr ::StringW const& __get_path() const;
+  constexpr ::StringW const& __cordl_internal_get_path() const;
 
-  constexpr void __set_path(::StringW value);
+  constexpr void __cordl_internal_set_path(::StringW value);
 
   static inline ::GlobalNamespace::__OVRResources____c__DisplayClass3_0_1<T>* New_ctor();
 
@@ -141,7 +141,7 @@ public:
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7953))
 // CS Name: ::OVRResources*
 class CORDL_TYPE OVRResources : public ::UnityEngine::MonoBehaviour {
@@ -152,21 +152,21 @@ public:
   using __c__DisplayClass2_0 = ::GlobalNamespace::__OVRResources____c__DisplayClass2_0;
 
   /// @brief Field resourceBundle, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_resourceBundle, put = setStaticF_resourceBundle))::UnityEngine::AssetBundle* resourceBundle;
+  static __declspec(property(get = getStaticF_resourceBundle, put = setStaticF_resourceBundle))::UnityW<::UnityEngine::AssetBundle> resourceBundle;
 
   /// @brief Field assetNames, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_assetNames, put = setStaticF_assetNames))::System::Collections::Generic::List_1<::StringW>* assetNames;
 
-  static inline void setStaticF_resourceBundle(::UnityEngine::AssetBundle* value);
+  static inline void setStaticF_resourceBundle(::UnityW<::UnityEngine::AssetBundle> value);
 
-  static inline ::UnityEngine::AssetBundle* getStaticF_resourceBundle();
+  static inline ::UnityW<::UnityEngine::AssetBundle> getStaticF_resourceBundle();
 
   static inline void setStaticF_assetNames(::System::Collections::Generic::List_1<::StringW>* value);
 
   static inline ::System::Collections::Generic::List_1<::StringW>* getStaticF_assetNames();
 
   /// @brief Method Load, addr 0x277f1c4, size 0x1e4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Load(::StringW path);
+  static inline ::UnityW<::UnityEngine::Object> Load(::StringW path);
 
   /// @brief Method Load, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Load(::StringW path);

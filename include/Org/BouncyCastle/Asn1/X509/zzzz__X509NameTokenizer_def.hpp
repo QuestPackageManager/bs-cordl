@@ -19,47 +19,47 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::X509NameTokenizer);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(409))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::X509NameTokenizer*
 class CORDL_TYPE X509NameTokenizer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field value, offset 0x10, size 0x8
-  __declspec(property(get = __get_value, put = __set_value))::StringW value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::StringW value;
 
   /// @brief Field index, offset 0x18, size 0x4
-  __declspec(property(get = __get_index, put = __set_index)) int32_t index;
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   /// @brief Field separator, offset 0x1c, size 0x2
-  __declspec(property(get = __get_separator, put = __set_separator)) char16_t separator;
+  __declspec(property(get = __cordl_internal_get_separator, put = __cordl_internal_set_separator)) char16_t separator;
 
   /// @brief Field buffer, offset 0x20, size 0x8
-  __declspec(property(get = __get_buffer, put = __set_buffer))::System::Text::StringBuilder* buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::System::Text::StringBuilder* buffer;
 
-  constexpr ::StringW& __get_value();
+  constexpr ::StringW& __cordl_internal_get_value();
 
-  constexpr ::StringW const& __get_value() const;
+  constexpr ::StringW const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(::StringW value);
+  constexpr void __cordl_internal_set_value(::StringW value);
 
-  constexpr int32_t& __get_index();
+  constexpr int32_t& __cordl_internal_get_index();
 
-  constexpr int32_t const& __get_index() const;
+  constexpr int32_t const& __cordl_internal_get_index() const;
 
-  constexpr void __set_index(int32_t value);
+  constexpr void __cordl_internal_set_index(int32_t value);
 
-  constexpr char16_t& __get_separator();
+  constexpr char16_t& __cordl_internal_get_separator();
 
-  constexpr char16_t const& __get_separator() const;
+  constexpr char16_t const& __cordl_internal_get_separator() const;
 
-  constexpr void __set_separator(char16_t value);
+  constexpr void __cordl_internal_set_separator(char16_t value);
 
-  constexpr ::System::Text::StringBuilder*& __get_buffer();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_buffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get_buffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_buffer() const;
 
-  constexpr void __set_buffer(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set_buffer(::System::Text::StringBuilder* value);
 
   static inline ::Org::BouncyCastle::Asn1::X509::X509NameTokenizer* New_ctor(::StringW oid);
 

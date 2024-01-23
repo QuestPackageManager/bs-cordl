@@ -46,31 +46,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(360))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::ExtendedKeyUsage*
 class CORDL_TYPE ExtendedKeyUsage : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field usageTable, offset 0x10, size 0x8
-  __declspec(property(get = __get_usageTable, put = __set_usageTable))::System::Collections::IDictionary* usageTable;
+  __declspec(property(get = __cordl_internal_get_usageTable, put = __cordl_internal_set_usageTable))::System::Collections::IDictionary* usageTable;
 
   /// @brief Field seq, offset 0x18, size 0x8
-  __declspec(property(get = __get_seq, put = __set_seq))::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
+  __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq))::Org::BouncyCastle::Asn1::Asn1Sequence* seq;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  constexpr ::System::Collections::IDictionary*& __get_usageTable();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_usageTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get_usageTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_usageTable() const;
 
-  constexpr void __set_usageTable(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set_usageTable(::System::Collections::IDictionary* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_seq();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_seq();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_seq() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_seq() const;
 
-  constexpr void __set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   /// @brief Method GetInstance, addr 0x118ce68, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::ExtendedKeyUsage* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);

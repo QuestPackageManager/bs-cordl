@@ -11,10 +11,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2d1b498;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>::get(), "get_id",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>::get(),
@@ -42,10 +42,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d1b4a0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>::get(),
-                                                 "UnityEngine.ISubsystemDescriptor.Create", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "UnityEngine.ISubsystemDescriptor.Create", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -57,10 +57,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2d1b4ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -72,22 +72,22 @@ constexpr UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider
 constexpr ::UnityEngine::ISubsystemDescriptor* UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::i___UnityEngine__ISubsystemDescriptor() noexcept {
   return static_cast<::UnityEngine::ISubsystemDescriptor*>(static_cast<void*>(this));
 }
-constexpr ::StringW& UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::__get__id_k__BackingField() {
+constexpr ::StringW& UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::__cordl_internal_get__id_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id_k__BackingField;
 }
-constexpr ::StringW const& UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::__get__id_k__BackingField() const {
+constexpr ::StringW const& UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::__cordl_internal_get__id_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id_k__BackingField;
 }
-constexpr void UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::__set__id_k__BackingField(::StringW value) {
+constexpr void UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::__cordl_internal_set__id_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____id_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::StringW UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::get_id() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>::get(), "get_id",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::UnityEngine::ISubsystem* UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::CreateImpl() {
@@ -99,16 +99,16 @@ inline ::UnityEngine::ISubsystem* UnityEngine::SubsystemsImplementation::Subsyst
 inline ::UnityEngine::ISubsystem* UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::UnityEngine_ISubsystemDescriptor_Create() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>::get(),
-                                               "UnityEngine.ISubsystemDescriptor.Create", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "UnityEngine.ISubsystemDescriptor.Create", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ISubsystem*, false>(this, ___internal_method);
 }
 inline ::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider* UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>());
 }
 inline void UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

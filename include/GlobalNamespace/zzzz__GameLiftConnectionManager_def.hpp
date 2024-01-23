@@ -156,7 +156,7 @@ MARK_VAL_T(::GlobalNamespace::__GameLiftConnectionManager___GameLiftConnectToSer
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12732))
 // CS Name: ::GameLiftConnectionManager::ConnectionState
 struct CORDL_TYPE __GameLiftConnectionManager__ConnectionState {
@@ -214,24 +214,25 @@ static_assert(offsetof(::GlobalNamespace::__GameLiftConnectionManager__Connectio
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12733))
 // CS Name: ::GameLiftConnectionManager::GameLiftConnectionManagerParamsBase*
 class CORDL_TYPE __GameLiftConnectionManager__GameLiftConnectionManagerParamsBase : public ::System::Object {
 public:
   // Declarations
   /// @brief Field authenticationTokenProviderTask, offset 0x10, size 0x8
-  __declspec(property(get = __get_authenticationTokenProviderTask,
-                      put = __set_authenticationTokenProviderTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* authenticationTokenProviderTask;
+  __declspec(property(get = __cordl_internal_get_authenticationTokenProviderTask,
+                      put = __cordl_internal_set_authenticationTokenProviderTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* authenticationTokenProviderTask;
 
   /// @brief Field gameLiftPlayerSessionProvider, offset 0x18, size 0x8
-  __declspec(property(get = __get_gameLiftPlayerSessionProvider, put = __set_gameLiftPlayerSessionProvider))::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider* gameLiftPlayerSessionProvider;
+  __declspec(property(get = __cordl_internal_get_gameLiftPlayerSessionProvider,
+                      put = __cordl_internal_set_gameLiftPlayerSessionProvider))::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider* gameLiftPlayerSessionProvider;
 
   /// @brief Field selectionMask, offset 0x20, size 0x28
-  __declspec(property(get = __get_selectionMask, put = __set_selectionMask))::GlobalNamespace::BeatmapLevelSelectionMask selectionMask;
+  __declspec(property(get = __cordl_internal_get_selectionMask, put = __cordl_internal_set_selectionMask))::GlobalNamespace::BeatmapLevelSelectionMask selectionMask;
 
   /// @brief Field configuration, offset 0x48, size 0x18
-  __declspec(property(get = __get_configuration, put = __set_configuration))::GlobalNamespace::GameplayServerConfiguration configuration;
+  __declspec(property(get = __cordl_internal_get_configuration, put = __cordl_internal_set_configuration))::GlobalNamespace::GameplayServerConfiguration configuration;
 
   /// @brief Convert operator to "::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>"
   constexpr operator ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>*() noexcept;
@@ -240,29 +241,30 @@ public:
   constexpr ::GlobalNamespace::IConnectionInitParams_1<::GlobalNamespace::GameLiftConnectionManager*>*
   i___GlobalNamespace__IConnectionInitParams_1___GlobalNamespace__GameLiftConnectionManager__() noexcept;
 
-  constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*& __get_authenticationTokenProviderTask();
+  constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*& __cordl_internal_get_authenticationTokenProviderTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*> const& __get_authenticationTokenProviderTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*> const&
+  __cordl_internal_get_authenticationTokenProviderTask() const;
 
-  constexpr void __set_authenticationTokenProviderTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* value);
+  constexpr void __cordl_internal_set_authenticationTokenProviderTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* value);
 
-  constexpr ::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider*& __get_gameLiftPlayerSessionProvider();
+  constexpr ::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider*& __cordl_internal_get_gameLiftPlayerSessionProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider*> const& __get_gameLiftPlayerSessionProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider*> const& __cordl_internal_get_gameLiftPlayerSessionProvider() const;
 
-  constexpr void __set_gameLiftPlayerSessionProvider(::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider* value);
+  constexpr void __cordl_internal_set_gameLiftPlayerSessionProvider(::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider* value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __get_selectionMask();
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __cordl_internal_get_selectionMask();
 
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __get_selectionMask() const;
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __cordl_internal_get_selectionMask() const;
 
-  constexpr void __set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
+  constexpr void __cordl_internal_set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
 
-  constexpr ::GlobalNamespace::GameplayServerConfiguration& __get_configuration();
+  constexpr ::GlobalNamespace::GameplayServerConfiguration& __cordl_internal_get_configuration();
 
-  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __get_configuration() const;
+  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __cordl_internal_get_configuration() const;
 
-  constexpr void __set_configuration(::GlobalNamespace::GameplayServerConfiguration value);
+  constexpr void __cordl_internal_set_configuration(::GlobalNamespace::GameplayServerConfiguration value);
 
   static inline ::GlobalNamespace::__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase* New_ctor();
 
@@ -313,29 +315,29 @@ static_assert(offsetof(::GlobalNamespace::__GameLiftConnectionManager__GameLiftC
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12733))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12733))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12734))
 // CS Name: ::GameLiftConnectionManager::ConnectToServerParams*
 class CORDL_TYPE __GameLiftConnectionManager__ConnectToServerParams : public ::GlobalNamespace::__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase {
 public:
   // Declarations
   /// @brief Field secret, offset 0x60, size 0x8
-  __declspec(property(get = __get_secret, put = __set_secret))::StringW secret;
+  __declspec(property(get = __cordl_internal_get_secret, put = __cordl_internal_set_secret))::StringW secret;
 
   /// @brief Field code, offset 0x68, size 0x8
-  __declspec(property(get = __get_code, put = __set_code))::StringW code;
+  __declspec(property(get = __cordl_internal_get_code, put = __cordl_internal_set_code))::StringW code;
 
-  constexpr ::StringW& __get_secret();
+  constexpr ::StringW& __cordl_internal_get_secret();
 
-  constexpr ::StringW const& __get_secret() const;
+  constexpr ::StringW const& __cordl_internal_get_secret() const;
 
-  constexpr void __set_secret(::StringW value);
+  constexpr void __cordl_internal_set_secret(::StringW value);
 
-  constexpr ::StringW& __get_code();
+  constexpr ::StringW& __cordl_internal_get_code();
 
-  constexpr ::StringW const& __get_code() const;
+  constexpr ::StringW const& __cordl_internal_get_code() const;
 
-  constexpr void __set_code(::StringW value);
+  constexpr void __cordl_internal_set_code(::StringW value);
 
   static inline ::GlobalNamespace::__GameLiftConnectionManager__ConnectToServerParams* New_ctor();
 
@@ -376,7 +378,7 @@ static_assert(offsetof(::GlobalNamespace::__GameLiftConnectionManager__ConnectTo
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12733))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12733))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12735))
 // CS Name: ::GameLiftConnectionManager::StartClientParams*
 class CORDL_TYPE __GameLiftConnectionManager__StartClientParams : public ::GlobalNamespace::__GameLiftConnectionManager__GameLiftConnectionManagerParamsBase {
@@ -411,9 +413,10 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameLiftConne
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 885 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 897 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(12775)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13013))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12736)) CS Name: ::GameLiftConnectionManager::<GameLiftConnectToServer>d__81
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12775)), TypeDefinitionIndex(TypeDefinitionIndex(13013)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 885 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 897 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12736)) CS Name:
+// ::GameLiftConnectionManager::<GameLiftConnectToServer>d__81
 struct CORDL_TYPE __GameLiftConnectionManager___GameLiftConnectToServer_d__81 {
 public:
   // Declarations
@@ -498,8 +501,8 @@ static_assert(offsetof(::GlobalNamespace::__GameLiftConnectionManager___GameLift
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12732)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12758))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12737)) CS Name: ::GameLiftConnectionManager*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12732)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12758))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12737)) CS Name: ::GameLiftConnectionManager*
 class CORDL_TYPE GameLiftConnectionManager : public ::System::Object {
 public:
   // Declarations
@@ -514,67 +517,75 @@ public:
   using ConnectionState = ::GlobalNamespace::__GameLiftConnectionManager__ConnectionState;
 
   /// @brief Field _timeProvider, offset 0x10, size 0x8
-  __declspec(property(get = __get__timeProvider, put = __set__timeProvider))::BGNet::Core::ITimeProvider* _timeProvider;
+  __declspec(property(get = __cordl_internal_get__timeProvider, put = __cordl_internal_set__timeProvider))::BGNet::Core::ITimeProvider* _timeProvider;
 
   /// @brief Field _taskUtility, offset 0x18, size 0x8
-  __declspec(property(get = __get__taskUtility, put = __set__taskUtility))::BGNet::Core::ITaskUtility* _taskUtility;
+  __declspec(property(get = __cordl_internal_get__taskUtility, put = __cordl_internal_set__taskUtility))::BGNet::Core::ITaskUtility* _taskUtility;
 
   /// @brief Field _connectionManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__connectionManager, put = __set__connectionManager))::GlobalNamespace::IConnectionManager* _connectionManager;
+  __declspec(property(get = __cordl_internal_get__connectionManager, put = __cordl_internal_set__connectionManager))::GlobalNamespace::IConnectionManager* _connectionManager;
 
   /// @brief Field _certificateValidator, offset 0x28, size 0x8
-  __declspec(property(get = __get__certificateValidator, put = __set__certificateValidator))::GlobalNamespace::ICertificateValidator* _certificateValidator;
+  __declspec(property(get = __cordl_internal_get__certificateValidator, put = __cordl_internal_set__certificateValidator))::GlobalNamespace::ICertificateValidator* _certificateValidator;
 
   /// @brief Field _code, offset 0x30, size 0x8
-  __declspec(property(get = __get__code, put = __set__code))::StringW _code;
+  __declspec(property(get = __cordl_internal_get__code, put = __cordl_internal_set__code))::StringW _code;
 
   /// @brief Field _secret, offset 0x38, size 0x8
-  __declspec(property(get = __get__secret, put = __set__secret))::StringW _secret;
+  __declspec(property(get = __cordl_internal_get__secret, put = __cordl_internal_set__secret))::StringW _secret;
 
   /// @brief Field _selectionMask, offset 0x40, size 0x28
-  __declspec(property(get = __get__selectionMask, put = __set__selectionMask))::GlobalNamespace::BeatmapLevelSelectionMask _selectionMask;
+  __declspec(property(get = __cordl_internal_get__selectionMask, put = __cordl_internal_set__selectionMask))::GlobalNamespace::BeatmapLevelSelectionMask _selectionMask;
 
   /// @brief Field _configuration, offset 0x68, size 0x18
-  __declspec(property(get = __get__configuration, put = __set__configuration))::GlobalNamespace::GameplayServerConfiguration _configuration;
+  __declspec(property(get = __cordl_internal_get__configuration, put = __cordl_internal_set__configuration))::GlobalNamespace::GameplayServerConfiguration _configuration;
 
   /// @brief Field _connectionState, offset 0x80, size 0x4
-  __declspec(property(get = __get__connectionState, put = __set__connectionState))::GlobalNamespace::__GameLiftConnectionManager__ConnectionState _connectionState;
+  __declspec(property(get = __cordl_internal_get__connectionState, put = __cordl_internal_set__connectionState))::GlobalNamespace::__GameLiftConnectionManager__ConnectionState _connectionState;
 
   /// @brief Field _connectionCancellationTokenSource, offset 0x88, size 0x8
-  __declspec(property(get = __get__connectionCancellationTokenSource, put = __set__connectionCancellationTokenSource))::System::Threading::CancellationTokenSource* _connectionCancellationTokenSource;
+  __declspec(property(get = __cordl_internal_get__connectionCancellationTokenSource,
+                      put = __cordl_internal_set__connectionCancellationTokenSource))::System::Threading::CancellationTokenSource* _connectionCancellationTokenSource;
 
   /// @brief Field _authenticationTokenProviderTask, offset 0x90, size 0x8
-  __declspec(property(get = __get__authenticationTokenProviderTask,
-                      put = __set__authenticationTokenProviderTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* _authenticationTokenProviderTask;
+  __declspec(
+      property(get = __cordl_internal_get__authenticationTokenProviderTask,
+               put = __cordl_internal_set__authenticationTokenProviderTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* _authenticationTokenProviderTask;
 
   /// @brief Field _gameLiftPlayerSessionProvider, offset 0x98, size 0x8
-  __declspec(property(get = __get__gameLiftPlayerSessionProvider, put = __set__gameLiftPlayerSessionProvider))::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider* _gameLiftPlayerSessionProvider;
+  __declspec(property(get = __cordl_internal_get__gameLiftPlayerSessionProvider,
+                      put = __cordl_internal_set__gameLiftPlayerSessionProvider))::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider* _gameLiftPlayerSessionProvider;
 
   /// @brief Field _connectionRequestHandler, offset 0xa0, size 0x8
-  __declspec(property(get = __get__connectionRequestHandler, put = __set__connectionRequestHandler))::GlobalNamespace::GameLiftClientConnectionRequestHandler* _connectionRequestHandler;
+  __declspec(property(get = __cordl_internal_get__connectionRequestHandler,
+                      put = __cordl_internal_set__connectionRequestHandler))::GlobalNamespace::GameLiftClientConnectionRequestHandler* _connectionRequestHandler;
 
   /// @brief Field onInitializedEvent, offset 0xa8, size 0x8
-  __declspec(property(get = __get_onInitializedEvent, put = __set_onInitializedEvent))::System::Action* onInitializedEvent;
+  __declspec(property(get = __cordl_internal_get_onInitializedEvent, put = __cordl_internal_set_onInitializedEvent))::System::Action* onInitializedEvent;
 
   /// @brief Field onConnectedEvent, offset 0xb0, size 0x8
-  __declspec(property(get = __get_onConnectedEvent, put = __set_onConnectedEvent))::System::Action* onConnectedEvent;
+  __declspec(property(get = __cordl_internal_get_onConnectedEvent, put = __cordl_internal_set_onConnectedEvent))::System::Action* onConnectedEvent;
 
   /// @brief Field onDisconnectedEvent, offset 0xb8, size 0x8
-  __declspec(property(get = __get_onDisconnectedEvent, put = __set_onDisconnectedEvent))::System::Action_1<::GlobalNamespace::DisconnectedReason>* onDisconnectedEvent;
+  __declspec(property(get = __cordl_internal_get_onDisconnectedEvent, put = __cordl_internal_set_onDisconnectedEvent))::System::Action_1<::GlobalNamespace::DisconnectedReason>* onDisconnectedEvent;
 
   /// @brief Field onConnectionFailedEvent, offset 0xc0, size 0x8
-  __declspec(property(get = __get_onConnectionFailedEvent, put = __set_onConnectionFailedEvent))::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onConnectionFailedEvent;
+  __declspec(property(get = __cordl_internal_get_onConnectionFailedEvent,
+                      put = __cordl_internal_set_onConnectionFailedEvent))::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* onConnectionFailedEvent;
 
   /// @brief Field onConnectionConnectedEvent, offset 0xc8, size 0x8
-  __declspec(property(get = __get_onConnectionConnectedEvent, put = __set_onConnectionConnectedEvent))::System::Action_1<::GlobalNamespace::IConnection*>* onConnectionConnectedEvent;
+  __declspec(property(get = __cordl_internal_get_onConnectionConnectedEvent,
+                      put = __cordl_internal_set_onConnectionConnectedEvent))::System::Action_1<::GlobalNamespace::IConnection*>* onConnectionConnectedEvent;
 
   /// @brief Field onConnectionDisconnectedEvent, offset 0xd0, size 0x8
-  __declspec(property(get = __get_onConnectionDisconnectedEvent,
-                      put = __set_onConnectionDisconnectedEvent))::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* onConnectionDisconnectedEvent;
+  __declspec(
+      property(get = __cordl_internal_get_onConnectionDisconnectedEvent,
+               put = __cordl_internal_set_onConnectionDisconnectedEvent))::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* onConnectionDisconnectedEvent;
 
   /// @brief Field onReceivedDataEvent, offset 0xd8, size 0x8
-  __declspec(property(get = __get_onReceivedDataEvent,
-                      put = __set_onReceivedDataEvent))::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* onReceivedDataEvent;
+  __declspec(property(
+      get = __cordl_internal_get_onReceivedDataEvent,
+      put = __cordl_internal_set_onReceivedDataEvent))::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* onReceivedDataEvent;
 
   __declspec(property(get = get_userId))::StringW userId;
 
@@ -620,126 +631,128 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::BGNet::Core::ITimeProvider*& __get__timeProvider();
+  constexpr ::BGNet::Core::ITimeProvider*& __cordl_internal_get__timeProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITimeProvider*> const& __get__timeProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITimeProvider*> const& __cordl_internal_get__timeProvider() const;
 
-  constexpr void __set__timeProvider(::BGNet::Core::ITimeProvider* value);
+  constexpr void __cordl_internal_set__timeProvider(::BGNet::Core::ITimeProvider* value);
 
-  constexpr ::BGNet::Core::ITaskUtility*& __get__taskUtility();
+  constexpr ::BGNet::Core::ITaskUtility*& __cordl_internal_get__taskUtility();
 
-  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& __get__taskUtility() const;
+  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& __cordl_internal_get__taskUtility() const;
 
-  constexpr void __set__taskUtility(::BGNet::Core::ITaskUtility* value);
+  constexpr void __cordl_internal_set__taskUtility(::BGNet::Core::ITaskUtility* value);
 
-  constexpr ::GlobalNamespace::IConnectionManager*& __get__connectionManager();
+  constexpr ::GlobalNamespace::IConnectionManager*& __cordl_internal_get__connectionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectionManager*> const& __get__connectionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectionManager*> const& __cordl_internal_get__connectionManager() const;
 
-  constexpr void __set__connectionManager(::GlobalNamespace::IConnectionManager* value);
+  constexpr void __cordl_internal_set__connectionManager(::GlobalNamespace::IConnectionManager* value);
 
-  constexpr ::GlobalNamespace::ICertificateValidator*& __get__certificateValidator();
+  constexpr ::GlobalNamespace::ICertificateValidator*& __cordl_internal_get__certificateValidator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICertificateValidator*> const& __get__certificateValidator() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICertificateValidator*> const& __cordl_internal_get__certificateValidator() const;
 
-  constexpr void __set__certificateValidator(::GlobalNamespace::ICertificateValidator* value);
+  constexpr void __cordl_internal_set__certificateValidator(::GlobalNamespace::ICertificateValidator* value);
 
-  constexpr ::StringW& __get__code();
+  constexpr ::StringW& __cordl_internal_get__code();
 
-  constexpr ::StringW const& __get__code() const;
+  constexpr ::StringW const& __cordl_internal_get__code() const;
 
-  constexpr void __set__code(::StringW value);
+  constexpr void __cordl_internal_set__code(::StringW value);
 
-  constexpr ::StringW& __get__secret();
+  constexpr ::StringW& __cordl_internal_get__secret();
 
-  constexpr ::StringW const& __get__secret() const;
+  constexpr ::StringW const& __cordl_internal_get__secret() const;
 
-  constexpr void __set__secret(::StringW value);
+  constexpr void __cordl_internal_set__secret(::StringW value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __get__selectionMask();
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __cordl_internal_get__selectionMask();
 
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __get__selectionMask() const;
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __cordl_internal_get__selectionMask() const;
 
-  constexpr void __set__selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
+  constexpr void __cordl_internal_set__selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
 
-  constexpr ::GlobalNamespace::GameplayServerConfiguration& __get__configuration();
+  constexpr ::GlobalNamespace::GameplayServerConfiguration& __cordl_internal_get__configuration();
 
-  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __get__configuration() const;
+  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __cordl_internal_get__configuration() const;
 
-  constexpr void __set__configuration(::GlobalNamespace::GameplayServerConfiguration value);
+  constexpr void __cordl_internal_set__configuration(::GlobalNamespace::GameplayServerConfiguration value);
 
-  constexpr ::GlobalNamespace::__GameLiftConnectionManager__ConnectionState& __get__connectionState();
+  constexpr ::GlobalNamespace::__GameLiftConnectionManager__ConnectionState& __cordl_internal_get__connectionState();
 
-  constexpr ::GlobalNamespace::__GameLiftConnectionManager__ConnectionState const& __get__connectionState() const;
+  constexpr ::GlobalNamespace::__GameLiftConnectionManager__ConnectionState const& __cordl_internal_get__connectionState() const;
 
-  constexpr void __set__connectionState(::GlobalNamespace::__GameLiftConnectionManager__ConnectionState value);
+  constexpr void __cordl_internal_set__connectionState(::GlobalNamespace::__GameLiftConnectionManager__ConnectionState value);
 
-  constexpr ::System::Threading::CancellationTokenSource*& __get__connectionCancellationTokenSource();
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__connectionCancellationTokenSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __get__connectionCancellationTokenSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__connectionCancellationTokenSource() const;
 
-  constexpr void __set__connectionCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+  constexpr void __cordl_internal_set__connectionCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*& __get__authenticationTokenProviderTask();
+  constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*& __cordl_internal_get__authenticationTokenProviderTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*> const& __get__authenticationTokenProviderTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*> const&
+  __cordl_internal_get__authenticationTokenProviderTask() const;
 
-  constexpr void __set__authenticationTokenProviderTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* value);
+  constexpr void __cordl_internal_set__authenticationTokenProviderTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* value);
 
-  constexpr ::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider*& __get__gameLiftPlayerSessionProvider();
+  constexpr ::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider*& __cordl_internal_get__gameLiftPlayerSessionProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider*> const& __get__gameLiftPlayerSessionProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider*> const& __cordl_internal_get__gameLiftPlayerSessionProvider() const;
 
-  constexpr void __set__gameLiftPlayerSessionProvider(::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider* value);
+  constexpr void __cordl_internal_set__gameLiftPlayerSessionProvider(::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider* value);
 
-  constexpr ::GlobalNamespace::GameLiftClientConnectionRequestHandler*& __get__connectionRequestHandler();
+  constexpr ::GlobalNamespace::GameLiftClientConnectionRequestHandler*& __cordl_internal_get__connectionRequestHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameLiftClientConnectionRequestHandler*> const& __get__connectionRequestHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameLiftClientConnectionRequestHandler*> const& __cordl_internal_get__connectionRequestHandler() const;
 
-  constexpr void __set__connectionRequestHandler(::GlobalNamespace::GameLiftClientConnectionRequestHandler* value);
+  constexpr void __cordl_internal_set__connectionRequestHandler(::GlobalNamespace::GameLiftClientConnectionRequestHandler* value);
 
-  constexpr ::System::Action*& __get_onInitializedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_onInitializedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_onInitializedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_onInitializedEvent() const;
 
-  constexpr void __set_onInitializedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_onInitializedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_onConnectedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_onConnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_onConnectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_onConnectedEvent() const;
 
-  constexpr void __set_onConnectedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_onConnectedEvent(::System::Action* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>*& __get_onDisconnectedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>*& __cordl_internal_get_onDisconnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::DisconnectedReason>*> const& __get_onDisconnectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::DisconnectedReason>*> const& __cordl_internal_get_onDisconnectedEvent() const;
 
-  constexpr void __set_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
+  constexpr void __cordl_internal_set_onDisconnectedEvent(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& __get_onConnectionFailedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*& __cordl_internal_get_onConnectionFailedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*> const& __get_onConnectionFailedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ConnectionFailedReason>*> const& __cordl_internal_get_onConnectionFailedEvent() const;
 
-  constexpr void __set_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
+  constexpr void __cordl_internal_set_onConnectionFailedEvent(::System::Action_1<::GlobalNamespace::ConnectionFailedReason>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::IConnection*>*& __get_onConnectionConnectedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::IConnection*>*& __cordl_internal_get_onConnectionConnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnection*>*> const& __get_onConnectionConnectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IConnection*>*> const& __cordl_internal_get_onConnectionConnectedEvent() const;
 
-  constexpr void __set_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
+  constexpr void __cordl_internal_set_onConnectionConnectedEvent(::System::Action_1<::GlobalNamespace::IConnection*>* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*& __get_onConnectionDisconnectedEvent();
+  constexpr ::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*& __cordl_internal_get_onConnectionDisconnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*> const& __get_onConnectionDisconnectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>*> const&
+  __cordl_internal_get_onConnectionDisconnectedEvent() const;
 
-  constexpr void __set_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
+  constexpr void __cordl_internal_set_onConnectionDisconnectedEvent(::System::Action_2<::GlobalNamespace::IConnection*, ::GlobalNamespace::DisconnectedReason>* value);
 
-  constexpr ::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*& __get_onReceivedDataEvent();
+  constexpr ::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*& __cordl_internal_get_onReceivedDataEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>*> const&
-  __get_onReceivedDataEvent() const;
+  __cordl_internal_get_onReceivedDataEvent() const;
 
-  constexpr void __set_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
+  constexpr void __cordl_internal_set_onReceivedDataEvent(::System::Action_3<::GlobalNamespace::IConnection*, ::LiteNetLib::Utils::NetDataReader*, ::BGNet::Core::DeliveryMethod>* value);
 
   /// @brief Method add_onInitializedEvent, addr 0xe36c20, size 0x9c, virtual true, abstract: false, final true
   inline void add_onInitializedEvent(::System::Action* value);

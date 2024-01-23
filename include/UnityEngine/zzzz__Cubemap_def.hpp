@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::UnityEngine::Cubemap);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10071))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10071))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10074))
 // CS Name: ::UnityEngine::Cubemap*
 class CORDL_TYPE Cubemap : public ::UnityEngine::Texture {
@@ -119,7 +119,7 @@ public:
   inline void _ctor(int32_t width, ::UnityEngine::TextureFormat textureFormat, bool mipChain);
 
   /// @brief Method CreateExternalTexture, addr 0x2cb153c, size 0x10c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Cubemap* CreateExternalTexture(int32_t width, ::UnityEngine::TextureFormat format, bool mipmap, void* nativeTex);
+  static inline ::UnityW<::UnityEngine::Cubemap> CreateExternalTexture(int32_t width, ::UnityEngine::TextureFormat format, bool mipmap, void* nativeTex);
 
   /// @brief Method ValidateIsNotCrunched, addr 0x2cb1454, size 0x58, virtual false, abstract: false, final false
   static inline void ValidateIsNotCrunched(::UnityEngine::Experimental::Rendering::TextureCreationFlags flags);

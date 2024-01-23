@@ -14,7 +14,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HEU_GenerateOptions);
 // SizeInfo { instance_size: 5, native_size: 20, calculated_instance_size: 5, calculated_native_size: 21, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9794))
 // CS Name: ::HoudiniEngineUnity::HEU_GenerateOptions
 struct CORDL_TYPE HEU_GenerateOptions {

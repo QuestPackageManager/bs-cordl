@@ -11,10 +11,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2235244;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>::get(),
-                                                 "get_levelsEntitlements", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "get_levelsEntitlements", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -26,10 +26,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x223524c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>::get(),
-                                                 "get_levelPacksEntitlements", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "get_levelPacksEntitlements", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -41,10 +41,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2235254;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>::get(),
-                                                 "get_packBetterBuyThanLevel", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "get_packBetterBuyThanLevel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -56,80 +56,80 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x223525c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*>&
-GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__get__levelsEntitlements() {
+GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__cordl_internal_get__levelsEntitlements() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelsEntitlements;
 }
 constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> const&
-GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__get__levelsEntitlements() const {
+GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__cordl_internal_get__levelsEntitlements() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelsEntitlements;
 }
-constexpr void GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__set__levelsEntitlements(
+constexpr void GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__cordl_internal_set__levelsEntitlements(
     ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelsEntitlements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*>&
-GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__get__levelPacksEntitlements() {
+GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__cordl_internal_get__levelPacksEntitlements() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPacksEntitlements;
 }
 constexpr ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> const&
-GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__get__levelPacksEntitlements() const {
+GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__cordl_internal_get__levelPacksEntitlements() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____levelPacksEntitlements;
 }
-constexpr void GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__set__levelPacksEntitlements(
+constexpr void GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__cordl_internal_set__levelPacksEntitlements(
     ::ArrayW<::GlobalNamespace::MockPlatformEntitlement*, ::Array<::GlobalNamespace::MockPlatformEntitlement*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPacksEntitlements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__get__packBetterBuyThanLevel() {
+constexpr bool& GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__cordl_internal_get__packBetterBuyThanLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packBetterBuyThanLevel;
 }
-constexpr bool const& GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__get__packBetterBuyThanLevel() const {
+constexpr bool const& GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__cordl_internal_get__packBetterBuyThanLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____packBetterBuyThanLevel;
 }
-constexpr void GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__set__packBetterBuyThanLevel(bool value) {
+constexpr void GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::__cordl_internal_set__packBetterBuyThanLevel(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____packBetterBuyThanLevel = value;
 }
 inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_levelsEntitlements() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>::get(),
-                                               "get_levelsEntitlements", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "get_levelsEntitlements", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>*, false>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>* GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_levelPacksEntitlements() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>::get(),
-                                               "get_levelPacksEntitlements", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "get_levelPacksEntitlements", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MockPlatformEntitlement*>*, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::get_packBetterBuyThanLevel() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>::get(),
-                                               "get_packBetterBuyThanLevel", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "get_packBetterBuyThanLevel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>());
 }
 inline void GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

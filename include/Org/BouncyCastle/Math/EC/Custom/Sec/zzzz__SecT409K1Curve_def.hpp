@@ -45,40 +45,40 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT409K1Curve__Sec
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1363))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1363))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1501))
 // CS Name: ::SecT409K1Curve::SecT409K1LookupTable*
 class CORDL_TYPE __SecT409K1Curve__SecT409K1LookupTable : public ::Org::BouncyCastle::Math::EC::AbstractECLookupTable {
 public:
   // Declarations
   /// @brief Field m_outer, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_outer, put = __set_m_outer))::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409K1Curve* m_outer;
+  __declspec(property(get = __cordl_internal_get_m_outer, put = __cordl_internal_set_m_outer))::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409K1Curve* m_outer;
 
   /// @brief Field m_table, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_table, put = __set_m_table))::ArrayW<uint64_t, ::Array<uint64_t>*> m_table;
+  __declspec(property(get = __cordl_internal_get_m_table, put = __cordl_internal_set_m_table))::ArrayW<uint64_t, ::Array<uint64_t>*> m_table;
 
   /// @brief Field m_size, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_size, put = __set_m_size)) int32_t m_size;
+  __declspec(property(get = __cordl_internal_get_m_size, put = __cordl_internal_set_m_size)) int32_t m_size;
 
   __declspec(property(get = get_Size)) int32_t Size;
 
-  constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409K1Curve*& __get_m_outer();
+  constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409K1Curve*& __cordl_internal_get_m_outer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409K1Curve*> const& __get_m_outer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409K1Curve*> const& __cordl_internal_get_m_outer() const;
 
-  constexpr void __set_m_outer(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409K1Curve* value);
+  constexpr void __cordl_internal_set_m_outer(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409K1Curve* value);
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_m_table();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_m_table();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_m_table() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_m_table() const;
 
-  constexpr void __set_m_table(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_m_table(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  constexpr int32_t& __get_m_size();
+  constexpr int32_t& __cordl_internal_get_m_size();
 
-  constexpr int32_t const& __get_m_size() const;
+  constexpr int32_t const& __cordl_internal_get_m_size() const;
 
-  constexpr void __set_m_size(int32_t value);
+  constexpr void __cordl_internal_set_m_size(int32_t value);
 
   static inline ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT409K1Curve__SecT409K1LookupTable* New_ctor(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409K1Curve* outer,
                                                                                                              ::ArrayW<uint64_t, ::Array<uint64_t>*> table, int32_t size);
@@ -137,7 +137,7 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT409K1Cu
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Custom::Sec {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1443))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1443))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1502))
 // CS Name: ::Org.BouncyCastle.Math.EC.Custom.Sec::SecT409K1Curve*
 class CORDL_TYPE SecT409K1Curve : public ::Org::BouncyCastle::Math::EC::AbstractF2mCurve {
@@ -146,7 +146,7 @@ public:
   using SecT409K1LookupTable = ::Org::BouncyCastle::Math::EC::Custom::Sec::__SecT409K1Curve__SecT409K1LookupTable;
 
   /// @brief Field m_infinity, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_infinity, put = __set_m_infinity))::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409K1Point* m_infinity;
+  __declspec(property(get = __cordl_internal_get_m_infinity, put = __cordl_internal_set_m_infinity))::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409K1Point* m_infinity;
 
   /// @brief Field SECT409K1_AFFINE_ZS, offset 0xffffffff, size 0x8
   static __declspec(
@@ -169,11 +169,11 @@ public:
 
   __declspec(property(get = get_K3)) int32_t K3;
 
-  constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409K1Point*& __get_m_infinity();
+  constexpr ::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409K1Point*& __cordl_internal_get_m_infinity();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409K1Point*> const& __get_m_infinity() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409K1Point*> const& __cordl_internal_get_m_infinity() const;
 
-  constexpr void __set_m_infinity(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409K1Point* value);
+  constexpr void __cordl_internal_set_m_infinity(::Org::BouncyCastle::Math::EC::Custom::Sec::SecT409K1Point* value);
 
   static inline void setStaticF_SECT409K1_AFFINE_ZS(::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> value);
 

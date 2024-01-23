@@ -23,67 +23,69 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::Syntax::Expression);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7493)), TypeDefinitionIndex(TypeDefinitionIndex(7494)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7495)), TypeDefinitionIndex(TypeDefinitionIndex(7497))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7492)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7493)), TypeDefinitionIndex(TypeDefinitionIndex(7494)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7495)), TypeDefinitionIndex(TypeDefinitionIndex(7497))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7492)) CS Name:
 // ::UnityEngine.UIElements.StyleSheets.Syntax::Expression*
 class CORDL_TYPE Expression : public ::System::Object {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __get_type, put = __set_type))::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type;
 
   /// @brief Field multiplier, offset 0x14, size 0xc
-  __declspec(property(get = __get_multiplier, put = __set_multiplier))::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier multiplier;
+  __declspec(property(get = __cordl_internal_get_multiplier, put = __cordl_internal_set_multiplier))::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier multiplier;
 
   /// @brief Field dataType, offset 0x20, size 0x4
-  __declspec(property(get = __get_dataType, put = __set_dataType))::UnityEngine::UIElements::StyleSheets::Syntax::DataType dataType;
+  __declspec(property(get = __cordl_internal_get_dataType, put = __cordl_internal_set_dataType))::UnityEngine::UIElements::StyleSheets::Syntax::DataType dataType;
 
   /// @brief Field combinator, offset 0x24, size 0x4
-  __declspec(property(get = __get_combinator, put = __set_combinator))::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator combinator;
+  __declspec(property(get = __cordl_internal_get_combinator, put = __cordl_internal_set_combinator))::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator combinator;
 
   /// @brief Field subExpressions, offset 0x28, size 0x8
-  __declspec(
-      property(get = __get_subExpressions,
-               put = __set_subExpressions))::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*, ::Array<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*> subExpressions;
+  __declspec(property(get = __cordl_internal_get_subExpressions,
+                      put = __cordl_internal_set_subExpressions))::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*,
+                                                                          ::Array<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*> subExpressions;
 
   /// @brief Field keyword, offset 0x30, size 0x8
-  __declspec(property(get = __get_keyword, put = __set_keyword))::StringW keyword;
+  __declspec(property(get = __cordl_internal_get_keyword, put = __cordl_internal_set_keyword))::StringW keyword;
 
-  constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType& __get_type();
+  constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType& __cordl_internal_get_type();
 
-  constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType const& __get_type() const;
+  constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType value);
+  constexpr void __cordl_internal_set_type(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType value);
 
-  constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier& __get_multiplier();
+  constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier& __cordl_internal_get_multiplier();
 
-  constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier const& __get_multiplier() const;
+  constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier const& __cordl_internal_get_multiplier() const;
 
-  constexpr void __set_multiplier(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier value);
+  constexpr void __cordl_internal_set_multiplier(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionMultiplier value);
 
-  constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType& __get_dataType();
+  constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType& __cordl_internal_get_dataType();
 
-  constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const& __get_dataType() const;
+  constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::DataType const& __cordl_internal_get_dataType() const;
 
-  constexpr void __set_dataType(::UnityEngine::UIElements::StyleSheets::Syntax::DataType value);
+  constexpr void __cordl_internal_set_dataType(::UnityEngine::UIElements::StyleSheets::Syntax::DataType value);
 
-  constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator& __get_combinator();
+  constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator& __cordl_internal_get_combinator();
 
-  constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator const& __get_combinator() const;
+  constexpr ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator const& __cordl_internal_get_combinator() const;
 
-  constexpr void __set_combinator(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator value);
+  constexpr void __cordl_internal_set_combinator(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator value);
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*, ::Array<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*>& __get_subExpressions();
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*, ::Array<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*>& __cordl_internal_get_subExpressions();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*, ::Array<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*> const& __get_subExpressions() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*, ::Array<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*> const&
+  __cordl_internal_get_subExpressions() const;
 
-  constexpr void __set_subExpressions(::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*, ::Array<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*> value);
+  constexpr void
+  __cordl_internal_set_subExpressions(::ArrayW<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*, ::Array<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*> value);
 
-  constexpr ::StringW& __get_keyword();
+  constexpr ::StringW& __cordl_internal_get_keyword();
 
-  constexpr ::StringW const& __get_keyword() const;
+  constexpr ::StringW const& __cordl_internal_get_keyword() const;
 
-  constexpr void __set_keyword(::StringW value);
+  constexpr void __cordl_internal_set_keyword(::StringW value);
 
   static inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* New_ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type);
 

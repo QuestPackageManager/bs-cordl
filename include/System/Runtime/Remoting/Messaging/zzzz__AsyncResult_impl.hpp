@@ -21,9 +21,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24a7848;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24a7850;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x124;
   constexpr static std::size_t addrs = 0x24a7858;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
@@ -67,7 +67,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24a797c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
@@ -83,7 +83,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24a7984;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
@@ -99,9 +99,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24a798c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
-                                                                               "get_EndInvokeCalled", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_EndInvokeCalled", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -113,10 +113,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x24a7994;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(), "set_EndInvokeCalled",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -128,7 +128,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24a79a0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
@@ -144,9 +144,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24a79a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
-                                                                               "get_NextSink", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_NextSink", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -159,7 +159,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x24a79b0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
@@ -175,7 +175,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24a79f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
@@ -191,7 +191,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24a79f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
@@ -207,10 +207,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x24a7a00;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(), "SetCompletedSynchronously",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -222,9 +222,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x110;
   constexpr static std::size_t addrs = 0x2497a4c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
-                                                                               "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "EndInvoke", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -236,7 +236,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x190;
   constexpr static std::size_t addrs = 0x24a7a0c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
@@ -252,9 +252,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24a7b9c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
-                                                                               "get_CallMessage", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_CallMessage", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -266,10 +266,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24a7ba4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(), "set_CallMessage", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(), "set_CallMessage", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>::get() })));
     return ___internal_method;
   }
 };
@@ -281,10 +281,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x24a7bac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
-                                                 "System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -296,10 +296,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x24a7bb4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(), "System.Threading.IThreadPoolWorkItem.MarkAborted",
-        std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ThreadAbortException*>::get() })));
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ThreadAbortException*>::get() })));
     return ___internal_method;
   }
 };
@@ -311,9 +311,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x24a7bb0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
-                                                                               "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "Invoke", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -341,204 +341,206 @@ constexpr System::Runtime::Remoting::Messaging::AsyncResult::operator ::System::
 constexpr ::System::Threading::IThreadPoolWorkItem* System::Runtime::Remoting::Messaging::AsyncResult::i___System__Threading__IThreadPoolWorkItem() noexcept {
   return static_cast<::System::Threading::IThreadPoolWorkItem*>(static_cast<void*>(this));
 }
-constexpr ::System::Object*& System::Runtime::Remoting::Messaging::AsyncResult::__get_async_state() {
+constexpr ::System::Object*& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_async_state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___async_state;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Remoting::Messaging::AsyncResult::__get_async_state() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_async_state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___async_state;
 }
-constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__set_async_state(::System::Object* value) {
+constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_set_async_state(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___async_state)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Threading::WaitHandle*& System::Runtime::Remoting::Messaging::AsyncResult::__get_handle() {
+constexpr ::System::Threading::WaitHandle*& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_handle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitHandle*> const& System::Runtime::Remoting::Messaging::AsyncResult::__get_handle() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitHandle*> const& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_handle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___handle;
 }
-constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__set_handle(::System::Threading::WaitHandle* value) {
+constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_set_handle(::System::Threading::WaitHandle* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___handle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& System::Runtime::Remoting::Messaging::AsyncResult::__get_async_delegate() {
+constexpr ::System::Object*& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_async_delegate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___async_delegate;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Remoting::Messaging::AsyncResult::__get_async_delegate() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_async_delegate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___async_delegate;
 }
-constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__set_async_delegate(::System::Object* value) {
+constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_set_async_delegate(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___async_delegate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr void*& System::Runtime::Remoting::Messaging::AsyncResult::__get_data() {
+constexpr void*& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_data() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
-constexpr void* const& System::Runtime::Remoting::Messaging::AsyncResult::__get_data() const {
+constexpr void* const& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_data() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___data;
 }
-constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__set_data(void* value) {
+constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_set_data(void* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___data = value;
 }
-constexpr ::System::Object*& System::Runtime::Remoting::Messaging::AsyncResult::__get_object_data() {
+constexpr ::System::Object*& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_object_data() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___object_data;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Remoting::Messaging::AsyncResult::__get_object_data() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_object_data() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___object_data;
 }
-constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__set_object_data(::System::Object* value) {
+constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_set_object_data(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___object_data)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::Runtime::Remoting::Messaging::AsyncResult::__get_sync_completed() {
+constexpr bool& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_sync_completed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sync_completed;
 }
-constexpr bool const& System::Runtime::Remoting::Messaging::AsyncResult::__get_sync_completed() const {
+constexpr bool const& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_sync_completed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sync_completed;
 }
-constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__set_sync_completed(bool value) {
+constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_set_sync_completed(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sync_completed = value;
 }
-constexpr bool& System::Runtime::Remoting::Messaging::AsyncResult::__get_completed() {
+constexpr bool& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_completed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completed;
 }
-constexpr bool const& System::Runtime::Remoting::Messaging::AsyncResult::__get_completed() const {
+constexpr bool const& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_completed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___completed;
 }
-constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__set_completed(bool value) {
+constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_set_completed(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___completed = value;
 }
-constexpr bool& System::Runtime::Remoting::Messaging::AsyncResult::__get_endinvoke_called() {
+constexpr bool& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_endinvoke_called() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endinvoke_called;
 }
-constexpr bool const& System::Runtime::Remoting::Messaging::AsyncResult::__get_endinvoke_called() const {
+constexpr bool const& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_endinvoke_called() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endinvoke_called;
 }
-constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__set_endinvoke_called(bool value) {
+constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_set_endinvoke_called(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___endinvoke_called = value;
 }
-constexpr ::System::Object*& System::Runtime::Remoting::Messaging::AsyncResult::__get_async_callback() {
+constexpr ::System::Object*& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_async_callback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___async_callback;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Remoting::Messaging::AsyncResult::__get_async_callback() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_async_callback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___async_callback;
 }
-constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__set_async_callback(::System::Object* value) {
+constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_set_async_callback(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___async_callback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Threading::ExecutionContext*& System::Runtime::Remoting::Messaging::AsyncResult::__get_current() {
+constexpr ::System::Threading::ExecutionContext*& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& System::Runtime::Remoting::Messaging::AsyncResult::__get_current() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___current;
 }
-constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__set_current(::System::Threading::ExecutionContext* value) {
+constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_set_current(::System::Threading::ExecutionContext* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Threading::ExecutionContext*& System::Runtime::Remoting::Messaging::AsyncResult::__get_original() {
+constexpr ::System::Threading::ExecutionContext*& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_original() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___original;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& System::Runtime::Remoting::Messaging::AsyncResult::__get_original() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_original() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___original;
 }
-constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__set_original(::System::Threading::ExecutionContext* value) {
+constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_set_original(::System::Threading::ExecutionContext* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___original)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int64_t& System::Runtime::Remoting::Messaging::AsyncResult::__get_add_time() {
+constexpr int64_t& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_add_time() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___add_time;
 }
-constexpr int64_t const& System::Runtime::Remoting::Messaging::AsyncResult::__get_add_time() const {
+constexpr int64_t const& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_add_time() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___add_time;
 }
-constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__set_add_time(int64_t value) {
+constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_set_add_time(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___add_time = value;
 }
-constexpr ::System::Runtime::Remoting::Messaging::MonoMethodMessage*& System::Runtime::Remoting::Messaging::AsyncResult::__get_call_message() {
+constexpr ::System::Runtime::Remoting::Messaging::MonoMethodMessage*& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_call_message() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___call_message;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::MonoMethodMessage*> const& System::Runtime::Remoting::Messaging::AsyncResult::__get_call_message() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::MonoMethodMessage*> const&
+System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_call_message() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___call_message;
 }
-constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__set_call_message(::System::Runtime::Remoting::Messaging::MonoMethodMessage* value) {
+constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_set_call_message(::System::Runtime::Remoting::Messaging::MonoMethodMessage* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___call_message)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Runtime::Remoting::Messaging::IMessageCtrl*& System::Runtime::Remoting::Messaging::AsyncResult::__get_message_ctrl() {
+constexpr ::System::Runtime::Remoting::Messaging::IMessageCtrl*& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_message_ctrl() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___message_ctrl;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageCtrl*> const& System::Runtime::Remoting::Messaging::AsyncResult::__get_message_ctrl() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageCtrl*> const&
+System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_message_ctrl() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___message_ctrl;
 }
-constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__set_message_ctrl(::System::Runtime::Remoting::Messaging::IMessageCtrl* value) {
+constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_set_message_ctrl(::System::Runtime::Remoting::Messaging::IMessageCtrl* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___message_ctrl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Runtime::Remoting::Messaging::IMessage*& System::Runtime::Remoting::Messaging::AsyncResult::__get_reply_message() {
+constexpr ::System::Runtime::Remoting::Messaging::IMessage*& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_reply_message() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reply_message;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessage*> const& System::Runtime::Remoting::Messaging::AsyncResult::__get_reply_message() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessage*> const& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_reply_message() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___reply_message;
 }
-constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__set_reply_message(::System::Runtime::Remoting::Messaging::IMessage* value) {
+constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_set_reply_message(::System::Runtime::Remoting::Messaging::IMessage* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___reply_message)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Threading::WaitCallback*& System::Runtime::Remoting::Messaging::AsyncResult::__get_orig_cb() {
+constexpr ::System::Threading::WaitCallback*& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_orig_cb() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___orig_cb;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitCallback*> const& System::Runtime::Remoting::Messaging::AsyncResult::__get_orig_cb() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Threading::WaitCallback*> const& System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_get_orig_cb() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___orig_cb;
 }
-constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__set_orig_cb(::System::Threading::WaitCallback* value) {
+constexpr void System::Runtime::Remoting::Messaging::AsyncResult::__cordl_internal_set_orig_cb(::System::Threading::WaitCallback* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___orig_cb)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Runtime::Remoting::Messaging::AsyncResult* System::Runtime::Remoting::Messaging::AsyncResult::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Runtime::Remoting::Messaging::AsyncResult*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::AsyncResult*>());
 }
 inline void System::Runtime::Remoting::Messaging::AsyncResult::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Object* System::Runtime::Remoting::Messaging::AsyncResult::get_AsyncState() {
@@ -563,13 +565,13 @@ inline bool System::Runtime::Remoting::Messaging::AsyncResult::get_IsCompleted()
 }
 inline bool System::Runtime::Remoting::Messaging::AsyncResult::get_EndInvokeCalled() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
-                                                                             "get_EndInvokeCalled", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_EndInvokeCalled", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void System::Runtime::Remoting::Messaging::AsyncResult::set_EndInvokeCalled(bool value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(), "set_EndInvokeCalled",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::System::Object* System::Runtime::Remoting::Messaging::AsyncResult::get_AsyncDelegate() {
@@ -579,7 +581,7 @@ inline ::System::Object* System::Runtime::Remoting::Messaging::AsyncResult::get_
 }
 inline ::System::Runtime::Remoting::Messaging::IMessageSink* System::Runtime::Remoting::Messaging::AsyncResult::get_NextSink() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
-                                                                             "get_NextSink", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_NextSink", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Messaging::IMessageSink*, false>(this, ___internal_method);
 }
 inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* System::Runtime::Remoting::Messaging::AsyncResult::AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
@@ -601,12 +603,12 @@ inline void System::Runtime::Remoting::Messaging::AsyncResult::SetMessageCtrl(::
 inline void System::Runtime::Remoting::Messaging::AsyncResult::SetCompletedSynchronously(bool completed) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(), "SetCompletedSynchronously",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, completed);
 }
 inline ::System::Runtime::Remoting::Messaging::IMessage* System::Runtime::Remoting::Messaging::AsyncResult::EndInvoke() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
-                                                                             "EndInvoke", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "EndInvoke", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Messaging::IMessage*, false>(this, ___internal_method);
 }
 inline ::System::Runtime::Remoting::Messaging::IMessage* System::Runtime::Remoting::Messaging::AsyncResult::SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg) {
@@ -616,29 +618,30 @@ inline ::System::Runtime::Remoting::Messaging::IMessage* System::Runtime::Remoti
 }
 inline ::System::Runtime::Remoting::Messaging::MonoMethodMessage* System::Runtime::Remoting::Messaging::AsyncResult::get_CallMessage() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
-                                                                             "get_CallMessage", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_CallMessage", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Runtime::Remoting::Messaging::MonoMethodMessage*, false>(this, ___internal_method);
 }
 inline void System::Runtime::Remoting::Messaging::AsyncResult::set_CallMessage(::System::Runtime::Remoting::Messaging::MonoMethodMessage* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(), "set_CallMessage", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(), "set_CallMessage", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::MonoMethodMessage*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void System::Runtime::Remoting::Messaging::AsyncResult::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
-                                                                             "System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
+                                               "System.Threading.IThreadPoolWorkItem.ExecuteWorkItem", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void System::Runtime::Remoting::Messaging::AsyncResult::System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(), "System.Threading.IThreadPoolWorkItem.MarkAborted",
-      std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ThreadAbortException*>::get() })));
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ThreadAbortException*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tae);
 }
 inline ::System::Object* System::Runtime::Remoting::Messaging::AsyncResult::Invoke() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
-                                                                             "Invoke", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "Invoke", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 // Ctor Parameters []

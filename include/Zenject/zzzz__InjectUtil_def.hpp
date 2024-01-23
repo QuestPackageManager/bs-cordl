@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::Zenject::__InjectUtil____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11115))
 // CS Name: ::InjectUtil::<>c*
 class CORDL_TYPE __InjectUtil____c : public ::System::Object {
@@ -102,7 +102,7 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__InjectUtil____c, 0x10
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11116))
 // CS Name: ::Zenject::InjectUtil*
 class CORDL_TYPE InjectUtil : public ::System::Object {

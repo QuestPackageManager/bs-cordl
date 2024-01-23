@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2808be4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(), 8));
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x2808bec;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(), 4));
@@ -43,9 +43,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x2808d2c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(), "OnDisable",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -57,9 +57,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x124;
   constexpr static std::size_t addrs = 0x2808c08;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(),
-                                                                               "LazyInitializeMaterials", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "LazyInitializeMaterials", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -70,7 +70,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x2808d5c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(), 5));
@@ -85,7 +85,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x27c;
   constexpr static std::size_t addrs = 0x2808dc0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(), 6));
@@ -99,237 +99,237 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x280903c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::PyramidBloomRendererSO*& GlobalNamespace::PyramidBloomMainEffectSO::__get__bloomRenderer() {
+constexpr ::UnityW<::GlobalNamespace::PyramidBloomRendererSO>& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__bloomRenderer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomRenderer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PyramidBloomRendererSO*> const& GlobalNamespace::PyramidBloomMainEffectSO::__get__bloomRenderer() const {
+constexpr ::UnityW<::GlobalNamespace::PyramidBloomRendererSO> const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__bloomRenderer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomRenderer;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__bloomRenderer(::GlobalNamespace::PyramidBloomRendererSO* value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__bloomRenderer(::UnityW<::GlobalNamespace::PyramidBloomRendererSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BloomFogSO*& GlobalNamespace::PyramidBloomMainEffectSO::__get__bloomFog() {
+constexpr ::UnityW<::GlobalNamespace::BloomFogSO>& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__bloomFog() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFog;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogSO*> const& GlobalNamespace::PyramidBloomMainEffectSO::__get__bloomFog() const {
+constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__bloomFog() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFog;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__bloomFog(::GlobalNamespace::BloomFogSO* value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomFog)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Shader*& GlobalNamespace::PyramidBloomMainEffectSO::__get__fadeShader() {
+constexpr ::UnityW<::UnityEngine::Shader>& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__fadeShader() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeShader;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& GlobalNamespace::PyramidBloomMainEffectSO::__get__fadeShader() const {
+constexpr ::UnityW<::UnityEngine::Shader> const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__fadeShader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeShader;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__fadeShader(::UnityEngine::Shader* value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__fadeShader(::UnityW<::UnityEngine::Shader> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fadeShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Shader*& GlobalNamespace::PyramidBloomMainEffectSO::__get__mainEffectShader() {
+constexpr ::UnityW<::UnityEngine::Shader>& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__mainEffectShader() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectShader;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& GlobalNamespace::PyramidBloomMainEffectSO::__get__mainEffectShader() const {
+constexpr ::UnityW<::UnityEngine::Shader> const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__mainEffectShader() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectShader;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__mainEffectShader(::UnityEngine::Shader* value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__mainEffectShader(::UnityW<::UnityEngine::Shader> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainEffectShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::PyramidBloomMainEffectSO::__get__bloomBlendFactor() {
+constexpr float_t& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__bloomBlendFactor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomBlendFactor;
 }
-constexpr float_t const& GlobalNamespace::PyramidBloomMainEffectSO::__get__bloomBlendFactor() const {
+constexpr float_t const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__bloomBlendFactor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomBlendFactor;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__bloomBlendFactor(float_t value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__bloomBlendFactor(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bloomBlendFactor = value;
 }
-constexpr float_t& GlobalNamespace::PyramidBloomMainEffectSO::__get__bloomRadius() {
+constexpr float_t& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__bloomRadius() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomRadius;
 }
-constexpr float_t const& GlobalNamespace::PyramidBloomMainEffectSO::__get__bloomRadius() const {
+constexpr float_t const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__bloomRadius() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomRadius;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__bloomRadius(float_t value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__bloomRadius(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bloomRadius = value;
 }
-constexpr float_t& GlobalNamespace::PyramidBloomMainEffectSO::__get__bloomIntensity() {
+constexpr float_t& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__bloomIntensity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomIntensity;
 }
-constexpr float_t const& GlobalNamespace::PyramidBloomMainEffectSO::__get__bloomIntensity() const {
+constexpr float_t const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__bloomIntensity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomIntensity;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__bloomIntensity(float_t value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__bloomIntensity(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bloomIntensity = value;
 }
-constexpr float_t& GlobalNamespace::PyramidBloomMainEffectSO::__get__downBloomIntensityOffset() {
+constexpr float_t& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__downBloomIntensityOffset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____downBloomIntensityOffset;
 }
-constexpr float_t const& GlobalNamespace::PyramidBloomMainEffectSO::__get__downBloomIntensityOffset() const {
+constexpr float_t const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__downBloomIntensityOffset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____downBloomIntensityOffset;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__downBloomIntensityOffset(float_t value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__downBloomIntensityOffset(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____downBloomIntensityOffset = value;
 }
-constexpr float_t& GlobalNamespace::PyramidBloomMainEffectSO::__get__pyramidWeightsParam() {
+constexpr float_t& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__pyramidWeightsParam() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pyramidWeightsParam;
 }
-constexpr float_t const& GlobalNamespace::PyramidBloomMainEffectSO::__get__pyramidWeightsParam() const {
+constexpr float_t const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__pyramidWeightsParam() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pyramidWeightsParam;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__pyramidWeightsParam(float_t value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__pyramidWeightsParam(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pyramidWeightsParam = value;
 }
-constexpr float_t& GlobalNamespace::PyramidBloomMainEffectSO::__get__alphaWeights() {
+constexpr float_t& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__alphaWeights() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alphaWeights;
 }
-constexpr float_t const& GlobalNamespace::PyramidBloomMainEffectSO::__get__alphaWeights() const {
+constexpr float_t const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__alphaWeights() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alphaWeights;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__alphaWeights(float_t value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__alphaWeights(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____alphaWeights = value;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& GlobalNamespace::PyramidBloomMainEffectSO::__get__preFilterPass() {
+constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__preFilterPass() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____preFilterPass;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& GlobalNamespace::PyramidBloomMainEffectSO::__get__preFilterPass() const {
+constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__preFilterPass() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____preFilterPass;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__preFilterPass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__preFilterPass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____preFilterPass = value;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& GlobalNamespace::PyramidBloomMainEffectSO::__get__downsamplePass() {
+constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__downsamplePass() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____downsamplePass;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& GlobalNamespace::PyramidBloomMainEffectSO::__get__downsamplePass() const {
+constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__downsamplePass() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____downsamplePass;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__downsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__downsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____downsamplePass = value;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& GlobalNamespace::PyramidBloomMainEffectSO::__get__upsamplePass() {
+constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__upsamplePass() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____upsamplePass;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& GlobalNamespace::PyramidBloomMainEffectSO::__get__upsamplePass() const {
+constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__upsamplePass() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____upsamplePass;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__upsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__upsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____upsamplePass = value;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& GlobalNamespace::PyramidBloomMainEffectSO::__get__finalUpsamplePass() {
+constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__finalUpsamplePass() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finalUpsamplePass;
 }
-constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& GlobalNamespace::PyramidBloomMainEffectSO::__get__finalUpsamplePass() const {
+constexpr ::GlobalNamespace::__PyramidBloomRendererSO__Pass const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__finalUpsamplePass() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____finalUpsamplePass;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__finalUpsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__finalUpsamplePass(::GlobalNamespace::__PyramidBloomRendererSO__Pass value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____finalUpsamplePass = value;
 }
-constexpr int32_t& GlobalNamespace::PyramidBloomMainEffectSO::__get__bloomTextureWidth() {
+constexpr int32_t& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__bloomTextureWidth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomTextureWidth;
 }
-constexpr int32_t const& GlobalNamespace::PyramidBloomMainEffectSO::__get__bloomTextureWidth() const {
+constexpr int32_t const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__bloomTextureWidth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomTextureWidth;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__bloomTextureWidth(int32_t value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__bloomTextureWidth(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bloomTextureWidth = value;
 }
-constexpr float_t& GlobalNamespace::PyramidBloomMainEffectSO::__get__baseColorBoost() {
+constexpr float_t& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__baseColorBoost() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseColorBoost;
 }
-constexpr float_t const& GlobalNamespace::PyramidBloomMainEffectSO::__get__baseColorBoost() const {
+constexpr float_t const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__baseColorBoost() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseColorBoost;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__baseColorBoost(float_t value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__baseColorBoost(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____baseColorBoost = value;
 }
-constexpr float_t& GlobalNamespace::PyramidBloomMainEffectSO::__get__baseColorBoostThreshold() {
+constexpr float_t& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__baseColorBoostThreshold() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseColorBoostThreshold;
 }
-constexpr float_t const& GlobalNamespace::PyramidBloomMainEffectSO::__get__baseColorBoostThreshold() const {
+constexpr float_t const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__baseColorBoostThreshold() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____baseColorBoostThreshold;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__baseColorBoostThreshold(float_t value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__baseColorBoostThreshold(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____baseColorBoostThreshold = value;
 }
-constexpr ::UnityEngine::Material*& GlobalNamespace::PyramidBloomMainEffectSO::__get__fadeMaterial() {
+constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__fadeMaterial() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeMaterial;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::PyramidBloomMainEffectSO::__get__fadeMaterial() const {
+constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__fadeMaterial() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fadeMaterial;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__fadeMaterial(::UnityEngine::Material* value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__fadeMaterial(::UnityW<::UnityEngine::Material> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fadeMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Material*& GlobalNamespace::PyramidBloomMainEffectSO::__get__mainEffectMaterial() {
+constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__mainEffectMaterial() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectMaterial;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::PyramidBloomMainEffectSO::__get__mainEffectMaterial() const {
+constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_get__mainEffectMaterial() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainEffectMaterial;
 }
-constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__set__mainEffectMaterial(::UnityEngine::Material* value) {
+constexpr void GlobalNamespace::PyramidBloomMainEffectSO::__cordl_internal_set__mainEffectMaterial(::UnityW<::UnityEngine::Material> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainEffectMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -364,12 +364,12 @@ inline void GlobalNamespace::PyramidBloomMainEffectSO::OnEnable() {
 }
 inline void GlobalNamespace::PyramidBloomMainEffectSO::OnDisable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(), "OnDisable",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::PyramidBloomMainEffectSO::LazyInitializeMaterials() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(),
-                                                                             "LazyInitializeMaterials", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "LazyInitializeMaterials", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::PyramidBloomMainEffectSO::PreRender() {
@@ -383,11 +383,11 @@ inline void GlobalNamespace::PyramidBloomMainEffectSO::Render(::UnityEngine::Ren
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, src, dest, fade);
 }
 inline ::GlobalNamespace::PyramidBloomMainEffectSO* GlobalNamespace::PyramidBloomMainEffectSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::PyramidBloomMainEffectSO*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PyramidBloomMainEffectSO*>());
 }
 inline void GlobalNamespace::PyramidBloomMainEffectSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

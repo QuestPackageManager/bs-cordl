@@ -20,7 +20,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::BMPAlloc);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7373))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7373))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7374))
 // CS Name: ::UnityEngine.UIElements.UIR::BMPAlloc
 struct CORDL_TYPE BMPAlloc {

@@ -47,23 +47,23 @@ MARK_REF_PTR_T(::System::Version);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2512))
 // CS Name: ::System::Version*
 class CORDL_TYPE Version : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _Major, offset 0x10, size 0x4
-  __declspec(property(get = __get__Major, put = __set__Major)) int32_t _Major;
+  __declspec(property(get = __cordl_internal_get__Major, put = __cordl_internal_set__Major)) int32_t _Major;
 
   /// @brief Field _Minor, offset 0x14, size 0x4
-  __declspec(property(get = __get__Minor, put = __set__Minor)) int32_t _Minor;
+  __declspec(property(get = __cordl_internal_get__Minor, put = __cordl_internal_set__Minor)) int32_t _Minor;
 
   /// @brief Field _Build, offset 0x18, size 0x4
-  __declspec(property(get = __get__Build, put = __set__Build)) int32_t _Build;
+  __declspec(property(get = __cordl_internal_get__Build, put = __cordl_internal_set__Build)) int32_t _Build;
 
   /// @brief Field _Revision, offset 0x1c, size 0x4
-  __declspec(property(get = __get__Revision, put = __set__Revision)) int32_t _Revision;
+  __declspec(property(get = __cordl_internal_get__Revision, put = __cordl_internal_set__Revision)) int32_t _Revision;
 
   __declspec(property(get = get_Major)) int32_t Major;
 
@@ -105,29 +105,29 @@ public:
   /// @brief Convert to "::System::ISpanFormattable"
   constexpr ::System::ISpanFormattable* i___System__ISpanFormattable() noexcept;
 
-  constexpr int32_t& __get__Major();
+  constexpr int32_t& __cordl_internal_get__Major();
 
-  constexpr int32_t const& __get__Major() const;
+  constexpr int32_t const& __cordl_internal_get__Major() const;
 
-  constexpr void __set__Major(int32_t value);
+  constexpr void __cordl_internal_set__Major(int32_t value);
 
-  constexpr int32_t& __get__Minor();
+  constexpr int32_t& __cordl_internal_get__Minor();
 
-  constexpr int32_t const& __get__Minor() const;
+  constexpr int32_t const& __cordl_internal_get__Minor() const;
 
-  constexpr void __set__Minor(int32_t value);
+  constexpr void __cordl_internal_set__Minor(int32_t value);
 
-  constexpr int32_t& __get__Build();
+  constexpr int32_t& __cordl_internal_get__Build();
 
-  constexpr int32_t const& __get__Build() const;
+  constexpr int32_t const& __cordl_internal_get__Build() const;
 
-  constexpr void __set__Build(int32_t value);
+  constexpr void __cordl_internal_set__Build(int32_t value);
 
-  constexpr int32_t& __get__Revision();
+  constexpr int32_t& __cordl_internal_get__Revision();
 
-  constexpr int32_t const& __get__Revision() const;
+  constexpr int32_t const& __cordl_internal_get__Revision() const;
 
-  constexpr void __set__Revision(int32_t value);
+  constexpr void __cordl_internal_set__Revision(int32_t value);
 
   static inline ::System::Version* New_ctor(int32_t major, int32_t minor, int32_t build, int32_t revision);
 

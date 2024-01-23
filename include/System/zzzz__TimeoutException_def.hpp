@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::TimeoutException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2487))
 // CS Name: ::System::TimeoutException*
 class CORDL_TYPE TimeoutException : public ::System::SystemException {

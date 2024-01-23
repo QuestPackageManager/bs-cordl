@@ -32,31 +32,31 @@ MARK_REF_PTR_T(::System::Collections::Specialized::NameValueCollection);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9522))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9522))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9513))
 // CS Name: ::System.Collections.Specialized::NameValueCollection*
 class CORDL_TYPE NameValueCollection : public ::System::Collections::Specialized::NameObjectCollectionBase {
 public:
   // Declarations
   /// @brief Field _all, offset 0x50, size 0x8
-  __declspec(property(get = __get__all, put = __set__all))::ArrayW<::StringW, ::Array<::StringW>*> _all;
+  __declspec(property(get = __cordl_internal_get__all, put = __cordl_internal_set__all))::ArrayW<::StringW, ::Array<::StringW>*> _all;
 
   /// @brief Field _allKeys, offset 0x58, size 0x8
-  __declspec(property(get = __get__allKeys, put = __set__allKeys))::ArrayW<::StringW, ::Array<::StringW>*> _allKeys;
+  __declspec(property(get = __cordl_internal_get__allKeys, put = __cordl_internal_set__allKeys))::ArrayW<::StringW, ::Array<::StringW>*> _allKeys;
 
   __declspec(property(get = get_Item, put = set_Item))::StringW Item[];
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__all();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__all();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__all() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__all() const;
 
-  constexpr void __set__all(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__all(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__allKeys();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__allKeys();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__allKeys() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__allKeys() const;
 
-  constexpr void __set__allKeys(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__allKeys(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
   static inline ::System::Collections::Specialized::NameValueCollection* New_ctor();
 

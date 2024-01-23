@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::__TimeStampResponseGenerator__FailInfo)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(34))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(34))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1767))
 // CS Name: ::TimeStampResponseGenerator::FailInfo*
 class CORDL_TYPE __TimeStampResponseGenerator__FailInfo : public ::Org::BouncyCastle::Asn1::DerBitString {
@@ -90,7 +90,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Tsp::__TimeSt
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(41))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(41)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1768))
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampResponseGenerator*
 class CORDL_TYPE TimeStampResponseGenerator : public ::System::Object {
@@ -99,67 +99,67 @@ public:
   using FailInfo = ::Org::BouncyCastle::Tsp::__TimeStampResponseGenerator__FailInfo;
 
   /// @brief Field status, offset 0x10, size 0x4
-  __declspec(property(get = __get_status, put = __set_status))::Org::BouncyCastle::Asn1::Cmp::PkiStatus status;
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::Org::BouncyCastle::Asn1::Cmp::PkiStatus status;
 
   /// @brief Field statusStrings, offset 0x18, size 0x8
-  __declspec(property(get = __get_statusStrings, put = __set_statusStrings))::Org::BouncyCastle::Asn1::Asn1EncodableVector* statusStrings;
+  __declspec(property(get = __cordl_internal_get_statusStrings, put = __cordl_internal_set_statusStrings))::Org::BouncyCastle::Asn1::Asn1EncodableVector* statusStrings;
 
   /// @brief Field failInfo, offset 0x20, size 0x4
-  __declspec(property(get = __get_failInfo, put = __set_failInfo)) int32_t failInfo;
+  __declspec(property(get = __cordl_internal_get_failInfo, put = __cordl_internal_set_failInfo)) int32_t failInfo;
 
   /// @brief Field tokenGenerator, offset 0x28, size 0x8
-  __declspec(property(get = __get_tokenGenerator, put = __set_tokenGenerator))::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator;
+  __declspec(property(get = __cordl_internal_get_tokenGenerator, put = __cordl_internal_set_tokenGenerator))::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator;
 
   /// @brief Field acceptedAlgorithms, offset 0x30, size 0x8
-  __declspec(property(get = __get_acceptedAlgorithms, put = __set_acceptedAlgorithms))::System::Collections::IList* acceptedAlgorithms;
+  __declspec(property(get = __cordl_internal_get_acceptedAlgorithms, put = __cordl_internal_set_acceptedAlgorithms))::System::Collections::IList* acceptedAlgorithms;
 
   /// @brief Field acceptedPolicies, offset 0x38, size 0x8
-  __declspec(property(get = __get_acceptedPolicies, put = __set_acceptedPolicies))::System::Collections::IList* acceptedPolicies;
+  __declspec(property(get = __cordl_internal_get_acceptedPolicies, put = __cordl_internal_set_acceptedPolicies))::System::Collections::IList* acceptedPolicies;
 
   /// @brief Field acceptedExtensions, offset 0x40, size 0x8
-  __declspec(property(get = __get_acceptedExtensions, put = __set_acceptedExtensions))::System::Collections::IList* acceptedExtensions;
+  __declspec(property(get = __cordl_internal_get_acceptedExtensions, put = __cordl_internal_set_acceptedExtensions))::System::Collections::IList* acceptedExtensions;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatus& __get_status();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatus& __cordl_internal_get_status();
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatus const& __get_status() const;
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatus const& __cordl_internal_get_status() const;
 
-  constexpr void __set_status(::Org::BouncyCastle::Asn1::Cmp::PkiStatus value);
+  constexpr void __cordl_internal_set_status(::Org::BouncyCastle::Asn1::Cmp::PkiStatus value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& __get_statusStrings();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& __cordl_internal_get_statusStrings();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1EncodableVector*> const& __get_statusStrings() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1EncodableVector*> const& __cordl_internal_get_statusStrings() const;
 
-  constexpr void __set_statusStrings(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
+  constexpr void __cordl_internal_set_statusStrings(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  constexpr int32_t& __get_failInfo();
+  constexpr int32_t& __cordl_internal_get_failInfo();
 
-  constexpr int32_t const& __get_failInfo() const;
+  constexpr int32_t const& __cordl_internal_get_failInfo() const;
 
-  constexpr void __set_failInfo(int32_t value);
+  constexpr void __cordl_internal_set_failInfo(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*& __get_tokenGenerator();
+  constexpr ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*& __cordl_internal_get_tokenGenerator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*> const& __get_tokenGenerator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Tsp::TimeStampTokenGenerator*> const& __cordl_internal_get_tokenGenerator() const;
 
-  constexpr void __set_tokenGenerator(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* value);
+  constexpr void __cordl_internal_set_tokenGenerator(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* value);
 
-  constexpr ::System::Collections::IList*& __get_acceptedAlgorithms();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_acceptedAlgorithms();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_acceptedAlgorithms() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_acceptedAlgorithms() const;
 
-  constexpr void __set_acceptedAlgorithms(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_acceptedAlgorithms(::System::Collections::IList* value);
 
-  constexpr ::System::Collections::IList*& __get_acceptedPolicies();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_acceptedPolicies();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_acceptedPolicies() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_acceptedPolicies() const;
 
-  constexpr void __set_acceptedPolicies(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_acceptedPolicies(::System::Collections::IList* value);
 
-  constexpr ::System::Collections::IList*& __get_acceptedExtensions();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_acceptedExtensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_acceptedExtensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_acceptedExtensions() const;
 
-  constexpr void __set_acceptedExtensions(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_acceptedExtensions(::System::Collections::IList* value);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampResponseGenerator* New_ctor(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* tokenGenerator, ::System::Collections::IList* acceptedAlgorithms);
 

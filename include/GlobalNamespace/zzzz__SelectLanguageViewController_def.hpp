@@ -23,47 +23,48 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectLanguageViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5748))
 // CS Name: ::SelectLanguageViewController*
 class CORDL_TYPE SelectLanguageViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _continueButton, offset 0x70, size 0x8
-  __declspec(property(get = __get__continueButton, put = __set__continueButton))::UnityEngine::UI::Button* _continueButton;
+  __declspec(property(get = __cordl_internal_get__continueButton, put = __cordl_internal_set__continueButton))::UnityW<::UnityEngine::UI::Button> _continueButton;
 
   /// @brief Field _languageSettingsController, offset 0x78, size 0x8
-  __declspec(property(get = __get__languageSettingsController, put = __set__languageSettingsController))::GlobalNamespace::LanguageSettingsController* _languageSettingsController;
+  __declspec(property(get = __cordl_internal_get__languageSettingsController,
+                      put = __cordl_internal_set__languageSettingsController))::UnityW<::GlobalNamespace::LanguageSettingsController> _languageSettingsController;
 
   /// @brief Field didChangeLanguageEvent, offset 0x80, size 0x8
-  __declspec(property(get = __get_didChangeLanguageEvent, put = __set_didChangeLanguageEvent))::System::Action* didChangeLanguageEvent;
+  __declspec(property(get = __cordl_internal_get_didChangeLanguageEvent, put = __cordl_internal_set_didChangeLanguageEvent))::System::Action* didChangeLanguageEvent;
 
   /// @brief Field didPressContinueButtonEvent, offset 0x88, size 0x8
-  __declspec(property(get = __get_didPressContinueButtonEvent, put = __set_didPressContinueButtonEvent))::System::Action* didPressContinueButtonEvent;
+  __declspec(property(get = __cordl_internal_get_didPressContinueButtonEvent, put = __cordl_internal_set_didPressContinueButtonEvent))::System::Action* didPressContinueButtonEvent;
 
-  constexpr ::UnityEngine::UI::Button*& __get__continueButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__continueButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
 
-  constexpr void __set__continueButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::GlobalNamespace::LanguageSettingsController*& __get__languageSettingsController();
+  constexpr ::UnityW<::GlobalNamespace::LanguageSettingsController>& __cordl_internal_get__languageSettingsController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LanguageSettingsController*> const& __get__languageSettingsController() const;
+  constexpr ::UnityW<::GlobalNamespace::LanguageSettingsController> const& __cordl_internal_get__languageSettingsController() const;
 
-  constexpr void __set__languageSettingsController(::GlobalNamespace::LanguageSettingsController* value);
+  constexpr void __cordl_internal_set__languageSettingsController(::UnityW<::GlobalNamespace::LanguageSettingsController> value);
 
-  constexpr ::System::Action*& __get_didChangeLanguageEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didChangeLanguageEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didChangeLanguageEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didChangeLanguageEvent() const;
 
-  constexpr void __set_didChangeLanguageEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didChangeLanguageEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_didPressContinueButtonEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didPressContinueButtonEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didPressContinueButtonEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressContinueButtonEvent() const;
 
-  constexpr void __set_didPressContinueButtonEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didPressContinueButtonEvent(::System::Action* value);
 
   /// @brief Method add_didChangeLanguageEvent, addr 0x22d98c4, size 0x9c, virtual false, abstract: false, final false
   inline void add_didChangeLanguageEvent(::System::Action* value);
@@ -109,10 +110,10 @@ protected:
 
 public:
   /// @brief Field _continueButton, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____continueButton;
+  ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
   /// @brief Field _languageSettingsController, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::LanguageSettingsController* ____languageSettingsController;
+  ::UnityW<::GlobalNamespace::LanguageSettingsController> ____languageSettingsController;
 
   /// @brief Field didChangeLanguageEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action* ___didChangeLanguageEvent;

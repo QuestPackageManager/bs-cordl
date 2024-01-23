@@ -25,47 +25,47 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderHapticFeedbackInteractionEffect);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15036)), TypeDefinitionIndex(TypeDefinitionIndex(4819))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4819)), TypeDefinitionIndex(TypeDefinitionIndex(15036))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4813))
 // CS Name: ::SliderHapticFeedbackInteractionEffect*
 class CORDL_TYPE SliderHapticFeedbackInteractionEffect : public ::GlobalNamespace::SliderInteractionEffect {
 public:
   // Declarations
   /// @brief Field _hapticPreset, offset 0x20, size 0x8
-  __declspec(property(get = __get__hapticPreset, put = __set__hapticPreset))::Libraries::HM::HMLib::VR::HapticPresetSO* _hapticPreset;
+  __declspec(property(get = __cordl_internal_get__hapticPreset, put = __cordl_internal_set__hapticPreset))::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> _hapticPreset;
 
   /// @brief Field _hapticFeedbackManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__hapticFeedbackManager, put = __set__hapticFeedbackManager))::GlobalNamespace::HapticFeedbackManager* _hapticFeedbackManager;
+  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager))::UnityW<::GlobalNamespace::HapticFeedbackManager> _hapticFeedbackManager;
 
   /// @brief Field _gamePause, offset 0x30, size 0x8
-  __declspec(property(get = __get__gamePause, put = __set__gamePause))::GlobalNamespace::IGamePause* _gamePause;
+  __declspec(property(get = __cordl_internal_get__gamePause, put = __cordl_internal_set__gamePause))::GlobalNamespace::IGamePause* _gamePause;
 
   /// @brief Field _saberType, offset 0x38, size 0x4
-  __declspec(property(get = __get__saberType, put = __set__saberType))::GlobalNamespace::SaberType _saberType;
+  __declspec(property(get = __cordl_internal_get__saberType, put = __cordl_internal_set__saberType))::GlobalNamespace::SaberType _saberType;
 
-  constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO*& __get__hapticPreset();
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& __cordl_internal_get__hapticPreset();
 
-  constexpr ::cordl_internals::to_const_pointer<::Libraries::HM::HMLib::VR::HapticPresetSO*> const& __get__hapticPreset() const;
+  constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& __cordl_internal_get__hapticPreset() const;
 
-  constexpr void __set__hapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* value);
+  constexpr void __cordl_internal_set__hapticPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value);
 
-  constexpr ::GlobalNamespace::HapticFeedbackManager*& __get__hapticFeedbackManager();
+  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HapticFeedbackManager*> const& __get__hapticFeedbackManager() const;
+  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
 
-  constexpr void __set__hapticFeedbackManager(::GlobalNamespace::HapticFeedbackManager* value);
+  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
 
-  constexpr ::GlobalNamespace::IGamePause*& __get__gamePause();
+  constexpr ::GlobalNamespace::IGamePause*& __cordl_internal_get__gamePause();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __get__gamePause() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __cordl_internal_get__gamePause() const;
 
-  constexpr void __set__gamePause(::GlobalNamespace::IGamePause* value);
+  constexpr void __cordl_internal_set__gamePause(::GlobalNamespace::IGamePause* value);
 
-  constexpr ::GlobalNamespace::SaberType& __get__saberType();
+  constexpr ::GlobalNamespace::SaberType& __cordl_internal_get__saberType();
 
-  constexpr ::GlobalNamespace::SaberType const& __get__saberType() const;
+  constexpr ::GlobalNamespace::SaberType const& __cordl_internal_get__saberType() const;
 
-  constexpr void __set__saberType(::GlobalNamespace::SaberType value);
+  constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
 
   /// @brief Method Start, addr 0x2392c34, size 0x40, virtual true, abstract: false, final false
   inline void Start();
@@ -102,10 +102,10 @@ protected:
 
 public:
   /// @brief Field _hapticPreset, offset: 0x20, size: 0x8, def value: None
-  ::Libraries::HM::HMLib::VR::HapticPresetSO* ____hapticPreset;
+  ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> ____hapticPreset;
 
   /// @brief Field _hapticFeedbackManager, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::HapticFeedbackManager* ____hapticFeedbackManager;
+  ::UnityW<::GlobalNamespace::HapticFeedbackManager> ____hapticFeedbackManager;
 
   /// @brief Field _gamePause, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IGamePause* ____gamePause;

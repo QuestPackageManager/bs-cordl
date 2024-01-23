@@ -17,22 +17,22 @@ MARK_REF_PTR_T(::Zenject::IfNotBoundBinder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10922))
 // CS Name: ::Zenject::IfNotBoundBinder*
 class CORDL_TYPE IfNotBoundBinder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <BindInfo>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__BindInfo_k__BackingField, put = __set__BindInfo_k__BackingField))::Zenject::BindInfo* _BindInfo_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BindInfo_k__BackingField, put = __cordl_internal_set__BindInfo_k__BackingField))::Zenject::BindInfo* _BindInfo_k__BackingField;
 
   __declspec(property(get = get_BindInfo, put = set_BindInfo))::Zenject::BindInfo* BindInfo;
 
-  constexpr ::Zenject::BindInfo*& __get__BindInfo_k__BackingField();
+  constexpr ::Zenject::BindInfo*& __cordl_internal_get__BindInfo_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindInfo*> const& __get__BindInfo_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindInfo*> const& __cordl_internal_get__BindInfo_k__BackingField() const;
 
-  constexpr void __set__BindInfo_k__BackingField(::Zenject::BindInfo* value);
+  constexpr void __cordl_internal_set__BindInfo_k__BackingField(::Zenject::BindInfo* value);
 
   static inline ::Zenject::IfNotBoundBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 

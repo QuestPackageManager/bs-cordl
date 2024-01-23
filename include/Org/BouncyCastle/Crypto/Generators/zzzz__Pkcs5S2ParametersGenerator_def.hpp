@@ -26,29 +26,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::Pkcs5S2ParametersGenerat
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(916))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(916))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(920))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::Pkcs5S2ParametersGenerator*
 class CORDL_TYPE Pkcs5S2ParametersGenerator : public ::Org::BouncyCastle::Crypto::PbeParametersGenerator {
 public:
   // Declarations
   /// @brief Field hMac, offset 0x28, size 0x8
-  __declspec(property(get = __get_hMac, put = __set_hMac))::Org::BouncyCastle::Crypto::IMac* hMac;
+  __declspec(property(get = __cordl_internal_get_hMac, put = __cordl_internal_set_hMac))::Org::BouncyCastle::Crypto::IMac* hMac;
 
   /// @brief Field state, offset 0x30, size 0x8
-  __declspec(property(get = __get_state, put = __set_state))::ArrayW<uint8_t, ::Array<uint8_t>*> state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::ArrayW<uint8_t, ::Array<uint8_t>*> state;
 
-  constexpr ::Org::BouncyCastle::Crypto::IMac*& __get_hMac();
+  constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_hMac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __get_hMac() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __cordl_internal_get_hMac() const;
 
-  constexpr void __set_hMac(::Org::BouncyCastle::Crypto::IMac* value);
+  constexpr void __cordl_internal_set_hMac(::Org::BouncyCastle::Crypto::IMac* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_state();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_state();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_state() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_state(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::Pkcs5S2ParametersGenerator* New_ctor();
 

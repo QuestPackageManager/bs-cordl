@@ -41,7 +41,7 @@ MARK_VAL_T(::System::Diagnostics::Tracing::__EventSource__EventData);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics::Tracing {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3746))
 // CS Name: ::EventSource::EventData
 struct CORDL_TYPE __EventSource__EventData {
@@ -98,7 +98,7 @@ static_assert(offsetof(::System::Diagnostics::Tracing::__EventSource__EventData,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics::Tracing {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3747))
 // CS Name: ::System.Diagnostics.Tracing::EventSource*
 class CORDL_TYPE EventSource : public ::System::Object {
@@ -107,7 +107,7 @@ public:
   using EventData = ::System::Diagnostics::Tracing::__EventSource__EventData;
 
   /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Name_k__BackingField, put = __set__Name_k__BackingField))::StringW _Name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
 
   __declspec(property(put = set_Name))::StringW Name;
 
@@ -117,11 +117,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::StringW& __get__Name_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
-  constexpr ::StringW const& __get__Name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-  constexpr void __set__Name_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
   static inline ::System::Diagnostics::Tracing::EventSource* New_ctor();
 

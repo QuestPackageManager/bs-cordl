@@ -22,14 +22,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Utilities::FilterStream);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(322))
 // CS Name: ::Org.BouncyCastle.Asn1.Utilities::FilterStream*
 class CORDL_TYPE FilterStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field s, offset 0x28, size 0x8
-  __declspec(property(get = __get_s, put = __set_s))::System::IO::Stream* s;
+  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s))::System::IO::Stream* s;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -41,11 +41,11 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr ::System::IO::Stream*& __get_s();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_s();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_s() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_s() const;
 
-  constexpr void __set_s(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_s(::System::IO::Stream* value);
 
   static inline ::Org::BouncyCastle::Asn1::Utilities::FilterStream* New_ctor(::System::IO::Stream* s);
 

@@ -26,20 +26,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsPbeKey);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(642))
 // CS Name: ::Org.BouncyCastle.Cms::CmsPbeKey*
 class CORDL_TYPE CmsPbeKey : public ::System::Object {
 public:
   // Declarations
   /// @brief Field password, offset 0x10, size 0x8
-  __declspec(property(get = __get_password, put = __set_password))::ArrayW<char16_t, ::Array<char16_t>*> password;
+  __declspec(property(get = __cordl_internal_get_password, put = __cordl_internal_set_password))::ArrayW<char16_t, ::Array<char16_t>*> password;
 
   /// @brief Field salt, offset 0x18, size 0x8
-  __declspec(property(get = __get_salt, put = __set_salt))::ArrayW<uint8_t, ::Array<uint8_t>*> salt;
+  __declspec(property(get = __cordl_internal_get_salt, put = __cordl_internal_set_salt))::ArrayW<uint8_t, ::Array<uint8_t>*> salt;
 
   /// @brief Field iterationCount, offset 0x20, size 0x4
-  __declspec(property(get = __get_iterationCount, put = __set_iterationCount)) int32_t iterationCount;
+  __declspec(property(get = __cordl_internal_get_iterationCount, put = __cordl_internal_set_iterationCount)) int32_t iterationCount;
 
   __declspec(property(get = get_Password))::StringW Password;
 
@@ -57,23 +57,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_password();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_password();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_password() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_password() const;
 
-  constexpr void __set_password(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_password(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_salt();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_salt();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_salt() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_salt() const;
 
-  constexpr void __set_salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_iterationCount();
+  constexpr int32_t& __cordl_internal_get_iterationCount();
 
-  constexpr int32_t const& __get_iterationCount() const;
+  constexpr int32_t const& __cordl_internal_get_iterationCount() const;
 
-  constexpr void __set_iterationCount(int32_t value);
+  constexpr void __cordl_internal_set_iterationCount(int32_t value);
 
   static inline ::Org::BouncyCastle::Cms::CmsPbeKey* New_ctor(::StringW password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
 

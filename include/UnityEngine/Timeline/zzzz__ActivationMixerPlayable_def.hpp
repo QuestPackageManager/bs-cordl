@@ -37,40 +37,40 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ActivationMixerPlayable);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13827)), TypeDefinitionIndex(TypeDefinitionIndex(10425))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(13827))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13825))
 // CS Name: ::UnityEngine.Timeline::ActivationMixerPlayable*
 class CORDL_TYPE ActivationMixerPlayable : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
   /// @brief Field m_PostPlaybackState, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_PostPlaybackState, put = __set_m_PostPlaybackState))::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState m_PostPlaybackState;
+  __declspec(property(get = __cordl_internal_get_m_PostPlaybackState, put = __cordl_internal_set_m_PostPlaybackState))::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState m_PostPlaybackState;
 
   /// @brief Field m_BoundGameObjectInitialStateIsActive, offset 0x14, size 0x1
-  __declspec(property(get = __get_m_BoundGameObjectInitialStateIsActive, put = __set_m_BoundGameObjectInitialStateIsActive)) bool m_BoundGameObjectInitialStateIsActive;
+  __declspec(property(get = __cordl_internal_get_m_BoundGameObjectInitialStateIsActive, put = __cordl_internal_set_m_BoundGameObjectInitialStateIsActive)) bool m_BoundGameObjectInitialStateIsActive;
 
   /// @brief Field m_BoundGameObject, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_BoundGameObject, put = __set_m_BoundGameObject))::UnityEngine::GameObject* m_BoundGameObject;
+  __declspec(property(get = __cordl_internal_get_m_BoundGameObject, put = __cordl_internal_set_m_BoundGameObject))::UnityW<::UnityEngine::GameObject> m_BoundGameObject;
 
   __declspec(property(get = get_postPlaybackState, put = set_postPlaybackState))::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState postPlaybackState;
 
-  constexpr ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState& __get_m_PostPlaybackState();
+  constexpr ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState& __cordl_internal_get_m_PostPlaybackState();
 
-  constexpr ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState const& __get_m_PostPlaybackState() const;
+  constexpr ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState const& __cordl_internal_get_m_PostPlaybackState() const;
 
-  constexpr void __set_m_PostPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
+  constexpr void __cordl_internal_set_m_PostPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
 
-  constexpr bool& __get_m_BoundGameObjectInitialStateIsActive();
+  constexpr bool& __cordl_internal_get_m_BoundGameObjectInitialStateIsActive();
 
-  constexpr bool const& __get_m_BoundGameObjectInitialStateIsActive() const;
+  constexpr bool const& __cordl_internal_get_m_BoundGameObjectInitialStateIsActive() const;
 
-  constexpr void __set_m_BoundGameObjectInitialStateIsActive(bool value);
+  constexpr void __cordl_internal_set_m_BoundGameObjectInitialStateIsActive(bool value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_BoundGameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_BoundGameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_BoundGameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_BoundGameObject() const;
 
-  constexpr void __set_m_BoundGameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_BoundGameObject(::UnityW<::UnityEngine::GameObject> value);
 
   /// @brief Method Create, addr 0x2c4e978, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ActivationMixerPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph, int32_t inputCount);
@@ -113,7 +113,7 @@ public:
   bool ___m_BoundGameObjectInitialStateIsActive;
 
   /// @brief Field m_BoundGameObject, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_BoundGameObject;
+  ::UnityW<::UnityEngine::GameObject> ___m_BoundGameObject;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

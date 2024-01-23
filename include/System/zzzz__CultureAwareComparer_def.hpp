@@ -38,17 +38,17 @@ MARK_REF_PTR_T(::System::CultureAwareComparer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3659)), TypeDefinitionIndex(TypeDefinitionIndex(2474))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2474)), TypeDefinitionIndex(TypeDefinitionIndex(3659))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2475))
 // CS Name: ::System::CultureAwareComparer*
 class CORDL_TYPE CultureAwareComparer : public ::System::StringComparer {
 public:
   // Declarations
   /// @brief Field _compareInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get__compareInfo, put = __set__compareInfo))::System::Globalization::CompareInfo* _compareInfo;
+  __declspec(property(get = __cordl_internal_get__compareInfo, put = __cordl_internal_set__compareInfo))::System::Globalization::CompareInfo* _compareInfo;
 
   /// @brief Field _options, offset 0x18, size 0x4
-  __declspec(property(get = __get__options, put = __set__options))::System::Globalization::CompareOptions _options;
+  __declspec(property(get = __cordl_internal_get__options, put = __cordl_internal_set__options))::System::Globalization::CompareOptions _options;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
@@ -56,17 +56,17 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::System::Globalization::CompareInfo*& __get__compareInfo();
+  constexpr ::System::Globalization::CompareInfo*& __cordl_internal_get__compareInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& __get__compareInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& __cordl_internal_get__compareInfo() const;
 
-  constexpr void __set__compareInfo(::System::Globalization::CompareInfo* value);
+  constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo* value);
 
-  constexpr ::System::Globalization::CompareOptions& __get__options();
+  constexpr ::System::Globalization::CompareOptions& __cordl_internal_get__options();
 
-  constexpr ::System::Globalization::CompareOptions const& __get__options() const;
+  constexpr ::System::Globalization::CompareOptions const& __cordl_internal_get__options() const;
 
-  constexpr void __set__options(::System::Globalization::CompareOptions value);
+  constexpr void __cordl_internal_set__options(::System::Globalization::CompareOptions value);
 
   static inline ::System::CultureAwareComparer* New_ctor(::System::Globalization::CultureInfo* culture, ::System::Globalization::CompareOptions options);
 

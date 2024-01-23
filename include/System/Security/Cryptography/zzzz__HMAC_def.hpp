@@ -20,78 +20,78 @@ MARK_REF_PTR_T(::System::Security::Cryptography::HMAC);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2942))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2942))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2934))
 // CS Name: ::System.Security.Cryptography::HMAC*
 class CORDL_TYPE HMAC : public ::System::Security::Cryptography::KeyedHashAlgorithm {
 public:
   // Declarations
   /// @brief Field blockSizeValue, offset 0x30, size 0x4
-  __declspec(property(get = __get_blockSizeValue, put = __set_blockSizeValue)) int32_t blockSizeValue;
+  __declspec(property(get = __cordl_internal_get_blockSizeValue, put = __cordl_internal_set_blockSizeValue)) int32_t blockSizeValue;
 
   /// @brief Field m_hashName, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_hashName, put = __set_m_hashName))::StringW m_hashName;
+  __declspec(property(get = __cordl_internal_get_m_hashName, put = __cordl_internal_set_m_hashName))::StringW m_hashName;
 
   /// @brief Field m_hash1, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_hash1, put = __set_m_hash1))::System::Security::Cryptography::HashAlgorithm* m_hash1;
+  __declspec(property(get = __cordl_internal_get_m_hash1, put = __cordl_internal_set_m_hash1))::System::Security::Cryptography::HashAlgorithm* m_hash1;
 
   /// @brief Field m_hash2, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_hash2, put = __set_m_hash2))::System::Security::Cryptography::HashAlgorithm* m_hash2;
+  __declspec(property(get = __cordl_internal_get_m_hash2, put = __cordl_internal_set_m_hash2))::System::Security::Cryptography::HashAlgorithm* m_hash2;
 
   /// @brief Field m_inner, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_inner, put = __set_m_inner))::ArrayW<uint8_t, ::Array<uint8_t>*> m_inner;
+  __declspec(property(get = __cordl_internal_get_m_inner, put = __cordl_internal_set_m_inner))::ArrayW<uint8_t, ::Array<uint8_t>*> m_inner;
 
   /// @brief Field m_outer, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_outer, put = __set_m_outer))::ArrayW<uint8_t, ::Array<uint8_t>*> m_outer;
+  __declspec(property(get = __cordl_internal_get_m_outer, put = __cordl_internal_set_m_outer))::ArrayW<uint8_t, ::Array<uint8_t>*> m_outer;
 
   /// @brief Field m_hashing, offset 0x60, size 0x1
-  __declspec(property(get = __get_m_hashing, put = __set_m_hashing)) bool m_hashing;
+  __declspec(property(get = __cordl_internal_get_m_hashing, put = __cordl_internal_set_m_hashing)) bool m_hashing;
 
   __declspec(property(get = get_BlockSizeValue, put = set_BlockSizeValue)) int32_t BlockSizeValue;
 
   __declspec(property(get = get_Key, put = set_Key))::ArrayW<uint8_t, ::Array<uint8_t>*> Key;
 
-  constexpr int32_t& __get_blockSizeValue();
+  constexpr int32_t& __cordl_internal_get_blockSizeValue();
 
-  constexpr int32_t const& __get_blockSizeValue() const;
+  constexpr int32_t const& __cordl_internal_get_blockSizeValue() const;
 
-  constexpr void __set_blockSizeValue(int32_t value);
+  constexpr void __cordl_internal_set_blockSizeValue(int32_t value);
 
-  constexpr ::StringW& __get_m_hashName();
+  constexpr ::StringW& __cordl_internal_get_m_hashName();
 
-  constexpr ::StringW const& __get_m_hashName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_hashName() const;
 
-  constexpr void __set_m_hashName(::StringW value);
+  constexpr void __cordl_internal_set_m_hashName(::StringW value);
 
-  constexpr ::System::Security::Cryptography::HashAlgorithm*& __get_m_hash1();
+  constexpr ::System::Security::Cryptography::HashAlgorithm*& __cordl_internal_get_m_hash1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::HashAlgorithm*> const& __get_m_hash1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::HashAlgorithm*> const& __cordl_internal_get_m_hash1() const;
 
-  constexpr void __set_m_hash1(::System::Security::Cryptography::HashAlgorithm* value);
+  constexpr void __cordl_internal_set_m_hash1(::System::Security::Cryptography::HashAlgorithm* value);
 
-  constexpr ::System::Security::Cryptography::HashAlgorithm*& __get_m_hash2();
+  constexpr ::System::Security::Cryptography::HashAlgorithm*& __cordl_internal_get_m_hash2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::HashAlgorithm*> const& __get_m_hash2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::HashAlgorithm*> const& __cordl_internal_get_m_hash2() const;
 
-  constexpr void __set_m_hash2(::System::Security::Cryptography::HashAlgorithm* value);
+  constexpr void __cordl_internal_set_m_hash2(::System::Security::Cryptography::HashAlgorithm* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_m_inner();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_inner();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_m_inner() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_inner() const;
 
-  constexpr void __set_m_inner(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_m_inner(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_m_outer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_outer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_m_outer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_outer() const;
 
-  constexpr void __set_m_outer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_m_outer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get_m_hashing();
+  constexpr bool& __cordl_internal_get_m_hashing();
 
-  constexpr bool const& __get_m_hashing() const;
+  constexpr bool const& __cordl_internal_get_m_hashing() const;
 
-  constexpr void __set_m_hashing(bool value);
+  constexpr void __cordl_internal_set_m_hashing(bool value);
 
   /// @brief Method get_BlockSizeValue, addr 0x245e208, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_BlockSizeValue();

@@ -16,7 +16,7 @@ MARK_VAL_T(::Unity::Jobs::LowLevel::Unsafe::JobRanges);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Jobs::LowLevel::Unsafe {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9979))
 // CS Name: ::Unity.Jobs.LowLevel.Unsafe::JobRanges
 struct CORDL_TYPE JobRanges {

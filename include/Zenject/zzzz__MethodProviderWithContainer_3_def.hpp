@@ -44,14 +44,14 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11213))
 // CS Name: ::Zenject::MethodProviderWithContainer`3<TParam1,TParam2,TValue>*
 class CORDL_TYPE MethodProviderWithContainer_3 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _method, offset 0x10, size 0x8
-  __declspec(property(get = __get__method, put = __set__method))::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>* _method;
+  __declspec(property(get = __cordl_internal_get__method, put = __cordl_internal_set__method))::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>* _method;
 
   __declspec(property(get = get_IsCached)) bool IsCached;
 
@@ -63,11 +63,11 @@ public:
   /// @brief Convert to "::Zenject::IProvider"
   constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  constexpr ::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>*& __get__method();
+  constexpr ::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>*& __cordl_internal_get__method();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>*> const& __get__method() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>*> const& __cordl_internal_get__method() const;
 
-  constexpr void __set__method(::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>* value);
+  constexpr void __cordl_internal_set__method(::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>* value);
 
   static inline ::Zenject::MethodProviderWithContainer_3<TParam1, TParam2, TValue>* New_ctor(::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>* method);
 

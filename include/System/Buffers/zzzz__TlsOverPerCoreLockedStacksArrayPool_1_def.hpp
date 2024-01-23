@@ -47,7 +47,7 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3886)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3886), inst: 4564 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3886)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3886), inst: 4564 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3886))
 // CS Name: ::TlsOverPerCoreLockedStacksArrayPool`1::MemoryPressure<T>
 struct CORDL_TYPE __TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure {
@@ -99,23 +99,24 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3887))
 // CS Name: ::TlsOverPerCoreLockedStacksArrayPool`1::PerCoreLockedStacks<T>*
 class CORDL_TYPE __TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _perCoreStacks, offset 0x10, size 0x8
-  __declspec(property(get = __get__perCoreStacks, put = __set__perCoreStacks))::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*,
-                                                                                       ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*> _perCoreStacks;
+  __declspec(property(get = __cordl_internal_get__perCoreStacks,
+                      put = __cordl_internal_set__perCoreStacks))::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*,
+                                                                          ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*> _perCoreStacks;
 
   constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*>&
-  __get__perCoreStacks();
+  __cordl_internal_get__perCoreStacks();
 
   constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*> const&
-  __get__perCoreStacks() const;
+  __cordl_internal_get__perCoreStacks() const;
 
-  constexpr void __set__perCoreStacks(
+  constexpr void __cordl_internal_set__perCoreStacks(
       ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__LockedStack<T>*>*> value);
 
   static inline ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>* New_ctor();
@@ -159,38 +160,38 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3888))
 // CS Name: ::TlsOverPerCoreLockedStacksArrayPool`1::LockedStack<T>*
 class CORDL_TYPE __TlsOverPerCoreLockedStacksArrayPool_1__LockedStack : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _arrays, offset 0x10, size 0x8
-  __declspec(property(get = __get__arrays, put = __set__arrays))::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> _arrays;
+  __declspec(property(get = __cordl_internal_get__arrays, put = __cordl_internal_set__arrays))::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> _arrays;
 
   /// @brief Field _count, offset 0x18, size 0x4
-  __declspec(property(get = __get__count, put = __set__count)) int32_t _count;
+  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
 
   /// @brief Field _firstStackItemMS, offset 0x1c, size 0x4
-  __declspec(property(get = __get__firstStackItemMS, put = __set__firstStackItemMS)) uint32_t _firstStackItemMS;
+  __declspec(property(get = __cordl_internal_get__firstStackItemMS, put = __cordl_internal_set__firstStackItemMS)) uint32_t _firstStackItemMS;
 
-  constexpr ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*>& __get__arrays();
+  constexpr ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*>& __cordl_internal_get__arrays();
 
-  constexpr ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> const& __get__arrays() const;
+  constexpr ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> const& __cordl_internal_get__arrays() const;
 
-  constexpr void __set__arrays(::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> value);
+  constexpr void __cordl_internal_set__arrays(::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> value);
 
-  constexpr int32_t& __get__count();
+  constexpr int32_t& __cordl_internal_get__count();
 
-  constexpr int32_t const& __get__count() const;
+  constexpr int32_t const& __cordl_internal_get__count() const;
 
-  constexpr void __set__count(int32_t value);
+  constexpr void __cordl_internal_set__count(int32_t value);
 
-  constexpr uint32_t& __get__firstStackItemMS();
+  constexpr uint32_t& __cordl_internal_get__firstStackItemMS();
 
-  constexpr uint32_t const& __get__firstStackItemMS() const;
+  constexpr uint32_t const& __cordl_internal_get__firstStackItemMS() const;
 
-  constexpr void __set__firstStackItemMS(uint32_t value);
+  constexpr void __cordl_internal_set__firstStackItemMS(uint32_t value);
 
   /// @brief Method TryPush, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryPush(::ArrayW<T, ::Array<T>*> array);
@@ -239,7 +240,7 @@ namespace System::Buffers {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3880)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3880), inst: 769 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3880)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3880), inst: 769 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3889))
 // CS Name: ::System.Buffers::TlsOverPerCoreLockedStacksArrayPool`1<T>*
 class CORDL_TYPE TlsOverPerCoreLockedStacksArrayPool_1 : public ::System::Buffers::ArrayPool_1<T> {
@@ -252,14 +253,15 @@ public:
   using MemoryPressure = ::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__MemoryPressure<T>;
 
   /// @brief Field _bucketArraySizes, offset 0x10, size 0x8
-  __declspec(property(get = __get__bucketArraySizes, put = __set__bucketArraySizes))::ArrayW<int32_t, ::Array<int32_t>*> _bucketArraySizes;
+  __declspec(property(get = __cordl_internal_get__bucketArraySizes, put = __cordl_internal_set__bucketArraySizes))::ArrayW<int32_t, ::Array<int32_t>*> _bucketArraySizes;
 
   /// @brief Field _buckets, offset 0x18, size 0x8
-  __declspec(property(get = __get__buckets, put = __set__buckets))::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*,
-                                                                           ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*> _buckets;
+  __declspec(property(get = __cordl_internal_get__buckets,
+                      put = __cordl_internal_set__buckets))::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*,
+                                                                    ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*> _buckets;
 
   /// @brief Field _callbackCreated, offset 0x20, size 0x4
-  __declspec(property(get = __get__callbackCreated, put = __set__callbackCreated)) int32_t _callbackCreated;
+  __declspec(property(get = __cordl_internal_get__callbackCreated, put = __cordl_internal_set__callbackCreated)) int32_t _callbackCreated;
 
   /// @brief Field t_tlsBuckets, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_t_tlsBuckets, put = setStaticF_t_tlsBuckets))::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> t_tlsBuckets;
@@ -274,29 +276,29 @@ public:
 
   __declspec(property(get = get_Id)) int32_t Id;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__bucketArraySizes();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__bucketArraySizes();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__bucketArraySizes() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__bucketArraySizes() const;
 
-  constexpr void __set__bucketArraySizes(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__bucketArraySizes(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*,
                      ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*>&
-  __get__buckets();
+  __cordl_internal_get__buckets();
 
   constexpr ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*,
                      ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*> const&
-  __get__buckets() const;
+  __cordl_internal_get__buckets() const;
 
-  constexpr void __set__buckets(
+  constexpr void __cordl_internal_set__buckets(
       ::ArrayW<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*, ::Array<::System::Buffers::__TlsOverPerCoreLockedStacksArrayPool_1__PerCoreLockedStacks<T>*>*>
           value);
 
-  constexpr int32_t& __get__callbackCreated();
+  constexpr int32_t& __cordl_internal_get__callbackCreated();
 
-  constexpr int32_t const& __get__callbackCreated() const;
+  constexpr int32_t const& __cordl_internal_get__callbackCreated() const;
 
-  constexpr void __set__callbackCreated(int32_t value);
+  constexpr void __cordl_internal_set__callbackCreated(int32_t value);
 
   static inline void setStaticF_t_tlsBuckets(::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> value);
 

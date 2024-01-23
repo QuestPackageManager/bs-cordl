@@ -378,7 +378,7 @@ MARK_VAL_T(::Mono::Unity::__UnityTls__unitytls_x509name);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8758))
 // CS Name: ::UnityTls::unitytls_error_code
 struct CORDL_TYPE __UnityTls__unitytls_error_code {
@@ -488,7 +488,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_error_code, value__) 
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8758))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8758))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8759))
 // CS Name: ::UnityTls::unitytls_errorstate
 struct CORDL_TYPE __UnityTls__unitytls_errorstate {
@@ -530,7 +530,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_errorstate, reserved)
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace Mono::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8760))
 // CS Name: ::UnityTls::unitytls_key
 #pragma pack(push, 0)
@@ -558,7 +558,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8761))
 // CS Name: ::UnityTls::unitytls_key_ref
 struct CORDL_TYPE __UnityTls__unitytls_key_ref {
@@ -589,7 +589,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_key_ref, handle) == 0
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8762))
 // CS Name: ::UnityTls::unitytls_x509_ref
 struct CORDL_TYPE __UnityTls__unitytls_x509_ref {
@@ -620,7 +620,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_x509_ref, handle) == 
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace Mono::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8763))
 // CS Name: ::UnityTls::unitytls_x509list
 #pragma pack(push, 0)
@@ -648,7 +648,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8764))
 // CS Name: ::UnityTls::unitytls_x509list_ref
 struct CORDL_TYPE __UnityTls__unitytls_x509list_ref {
@@ -679,7 +679,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_x509list_ref, handle)
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8765))
 // CS Name: ::UnityTls::unitytls_x509verify_result
 struct CORDL_TYPE __UnityTls__unitytls_x509verify_result {
@@ -785,7 +785,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_x509verify_result, va
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8766))
 // CS Name: ::UnityTls::unitytls_x509verify_callback*
 class CORDL_TYPE __UnityTls__unitytls_x509verify_callback : public ::System::MulticastDelegate {
@@ -825,7 +825,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace Mono::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8767))
 // CS Name: ::UnityTls::unitytls_tlsctx
 #pragma pack(push, 0)
@@ -853,7 +853,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace Mono::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8768))
 // CS Name: ::UnityTls::unitytls_x509name
 #pragma pack(push, 0)
@@ -881,7 +881,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8769))
 // CS Name: ::UnityTls::unitytls_ciphersuite
 struct CORDL_TYPE __UnityTls__unitytls_ciphersuite {
@@ -927,7 +927,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_ciphersuite, value__)
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8770))
 // CS Name: ::UnityTls::unitytls_protocol
 struct CORDL_TYPE __UnityTls__unitytls_protocol {
@@ -985,7 +985,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_protocol, value__) ==
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8770))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8770))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8771))
 // CS Name: ::UnityTls::unitytls_tlsctx_protocolrange
 struct CORDL_TYPE __UnityTls__unitytls_tlsctx_protocolrange {
@@ -1022,7 +1022,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange,
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8772))
 // CS Name: ::UnityTls::unitytls_tlsctx_write_callback*
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_write_callback : public ::System::MulticastDelegate {
@@ -1060,7 +1060,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8773))
 // CS Name: ::UnityTls::unitytls_tlsctx_read_callback*
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_read_callback : public ::System::MulticastDelegate {
@@ -1099,7 +1099,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8774))
 // CS Name: ::UnityTls::unitytls_tlsctx_trace_callback*
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_trace_callback : public ::System::MulticastDelegate {
@@ -1138,7 +1138,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8775))
 // CS Name: ::UnityTls::unitytls_tlsctx_certificate_callback*
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_certificate_callback : public ::System::MulticastDelegate {
@@ -1178,7 +1178,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8776))
 // CS Name: ::UnityTls::unitytls_tlsctx_x509verify_callback*
 class CORDL_TYPE __UnityTls__unitytls_tlsctx_x509verify_callback : public ::System::MulticastDelegate {
@@ -1217,7 +1217,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Unity::__UnityTls__unitytl
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8777))
 // CS Name: ::UnityTls::unitytls_tlsctx_callbacks
 struct CORDL_TYPE __UnityTls__unitytls_tlsctx_callbacks {
@@ -1260,7 +1260,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_tlsctx_callbacks, dat
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8778))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_errorstate_create_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t : public ::System::MulticastDelegate {
@@ -1298,7 +1298,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8779))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_errorstate_raise_error_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t : public ::System::MulticastDelegate {
@@ -1336,7 +1336,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8780))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_key_get_ref_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t : public ::System::MulticastDelegate {
@@ -1375,7 +1375,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8781))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_key_parse_der_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t : public ::System::MulticastDelegate {
@@ -1414,7 +1414,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8782))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_key_parse_pem_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t : public ::System::MulticastDelegate {
@@ -1453,7 +1453,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8783))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_key_free_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_key_free_t : public ::System::MulticastDelegate {
@@ -1491,7 +1491,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8784))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509_export_der_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t : public ::System::MulticastDelegate {
@@ -1530,7 +1530,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8785))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_get_ref_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t : public ::System::MulticastDelegate {
@@ -1569,7 +1569,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8786))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_get_x509_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t : public ::System::MulticastDelegate {
@@ -1608,7 +1608,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8787))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_create_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_create_t : public ::System::MulticastDelegate {
@@ -1646,7 +1646,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8788))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_append_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_append_t : public ::System::MulticastDelegate {
@@ -1685,7 +1685,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8789))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_append_der_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t : public ::System::MulticastDelegate {
@@ -1724,7 +1724,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8790))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509list_free_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509list_free_t : public ::System::MulticastDelegate {
@@ -1762,7 +1762,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8791))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509verify_default_ca_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t : public ::System::MulticastDelegate {
@@ -1802,7 +1802,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8792))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_x509verify_explicit_ca_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t : public ::System::MulticastDelegate {
@@ -1842,7 +1842,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8793))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_server_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t : public ::System::MulticastDelegate {
@@ -1882,7 +1882,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8794))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_create_client_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t : public ::System::MulticastDelegate {
@@ -1922,7 +1922,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8795))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_server_require_client_authentication_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t : public ::System::MulticastDelegate {
@@ -1963,7 +1963,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8796))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_certificate_callback_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t : public ::System::MulticastDelegate {
@@ -2002,7 +2002,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8797))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_trace_callback_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t : public ::System::MulticastDelegate {
@@ -2041,7 +2041,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8798))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_x509verify_callback_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t : public ::System::MulticastDelegate {
@@ -2080,7 +2080,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8799))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_set_supported_ciphersuites_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t : public ::System::MulticastDelegate {
@@ -2119,7 +2119,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8800))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_ciphersuite_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t : public ::System::MulticastDelegate {
@@ -2158,7 +2158,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8801))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_get_protocol_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t : public ::System::MulticastDelegate {
@@ -2197,7 +2197,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8802))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_process_handshake_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t : public ::System::MulticastDelegate {
@@ -2236,7 +2236,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8803))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_read_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t : public ::System::MulticastDelegate {
@@ -2275,7 +2275,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8804))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_write_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t : public ::System::MulticastDelegate {
@@ -2314,7 +2314,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8805))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_notify_close_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t : public ::System::MulticastDelegate {
@@ -2352,7 +2352,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8806))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_tlsctx_free_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t : public ::System::MulticastDelegate {
@@ -2390,7 +2390,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8807))
 // CS Name: ::UnityTls::unitytls_interface_struct::unitytls_random_generate_bytes_t*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t : public ::System::MulticastDelegate {
@@ -2428,7 +2428,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__UnityTls__uni
 // SizeInfo { instance_size: 280, native_size: 264, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8771)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8771))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8808))
 // CS Name: ::UnityTls::unitytls_interface_struct*
 class CORDL_TYPE __UnityTls__unitytls_interface_struct : public ::System::Object {
@@ -2495,335 +2495,361 @@ public:
   using unitytls_errorstate_create_t = ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t;
 
   /// @brief Field UNITYTLS_INVALID_HANDLE, offset 0x10, size 0x8
-  __declspec(property(get = __get_UNITYTLS_INVALID_HANDLE, put = __set_UNITYTLS_INVALID_HANDLE)) uint64_t UNITYTLS_INVALID_HANDLE;
+  __declspec(property(get = __cordl_internal_get_UNITYTLS_INVALID_HANDLE, put = __cordl_internal_set_UNITYTLS_INVALID_HANDLE)) uint64_t UNITYTLS_INVALID_HANDLE;
 
   /// @brief Field UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT, offset 0x18, size 0x8
-  __declspec(property(get = __get_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT,
-                      put = __set_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT))::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT;
+  __declspec(property(get = __cordl_internal_get_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT,
+                      put = __cordl_internal_set_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT))::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT;
 
   /// @brief Field unitytls_errorstate_create, offset 0x20, size 0x8
-  __declspec(property(get = __get_unitytls_errorstate_create,
-                      put = __set_unitytls_errorstate_create))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t* unitytls_errorstate_create;
+  __declspec(property(get = __cordl_internal_get_unitytls_errorstate_create,
+                      put = __cordl_internal_set_unitytls_errorstate_create))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t* unitytls_errorstate_create;
 
   /// @brief Field unitytls_errorstate_raise_error, offset 0x28, size 0x8
-  __declspec(property(get = __get_unitytls_errorstate_raise_error,
-                      put = __set_unitytls_errorstate_raise_error))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t* unitytls_errorstate_raise_error;
+  __declspec(
+      property(get = __cordl_internal_get_unitytls_errorstate_raise_error,
+               put = __cordl_internal_set_unitytls_errorstate_raise_error))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t* unitytls_errorstate_raise_error;
 
   /// @brief Field unitytls_key_get_ref, offset 0x30, size 0x8
-  __declspec(property(get = __get_unitytls_key_get_ref, put = __set_unitytls_key_get_ref))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t* unitytls_key_get_ref;
+  __declspec(property(get = __cordl_internal_get_unitytls_key_get_ref,
+                      put = __cordl_internal_set_unitytls_key_get_ref))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t* unitytls_key_get_ref;
 
   /// @brief Field unitytls_key_parse_der, offset 0x38, size 0x8
-  __declspec(property(get = __get_unitytls_key_parse_der,
-                      put = __set_unitytls_key_parse_der))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t* unitytls_key_parse_der;
+  __declspec(property(get = __cordl_internal_get_unitytls_key_parse_der,
+                      put = __cordl_internal_set_unitytls_key_parse_der))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t* unitytls_key_parse_der;
 
   /// @brief Field unitytls_key_parse_pem, offset 0x40, size 0x8
-  __declspec(property(get = __get_unitytls_key_parse_pem,
-                      put = __set_unitytls_key_parse_pem))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t* unitytls_key_parse_pem;
+  __declspec(property(get = __cordl_internal_get_unitytls_key_parse_pem,
+                      put = __cordl_internal_set_unitytls_key_parse_pem))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t* unitytls_key_parse_pem;
 
   /// @brief Field unitytls_key_free, offset 0x48, size 0x8
-  __declspec(property(get = __get_unitytls_key_free, put = __set_unitytls_key_free))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t* unitytls_key_free;
+  __declspec(property(get = __cordl_internal_get_unitytls_key_free,
+                      put = __cordl_internal_set_unitytls_key_free))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t* unitytls_key_free;
 
   /// @brief Field unitytls_x509_export_der, offset 0x50, size 0x8
-  __declspec(property(get = __get_unitytls_x509_export_der,
-                      put = __set_unitytls_x509_export_der))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t* unitytls_x509_export_der;
+  __declspec(property(get = __cordl_internal_get_unitytls_x509_export_der,
+                      put = __cordl_internal_set_unitytls_x509_export_der))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t* unitytls_x509_export_der;
 
   /// @brief Field unitytls_x509list_get_ref, offset 0x58, size 0x8
-  __declspec(property(get = __get_unitytls_x509list_get_ref,
-                      put = __set_unitytls_x509list_get_ref))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t* unitytls_x509list_get_ref;
+  __declspec(property(get = __cordl_internal_get_unitytls_x509list_get_ref,
+                      put = __cordl_internal_set_unitytls_x509list_get_ref))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t* unitytls_x509list_get_ref;
 
   /// @brief Field unitytls_x509list_get_x509, offset 0x60, size 0x8
-  __declspec(property(get = __get_unitytls_x509list_get_x509,
-                      put = __set_unitytls_x509list_get_x509))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t* unitytls_x509list_get_x509;
+  __declspec(property(get = __cordl_internal_get_unitytls_x509list_get_x509,
+                      put = __cordl_internal_set_unitytls_x509list_get_x509))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t* unitytls_x509list_get_x509;
 
   /// @brief Field unitytls_x509list_create, offset 0x68, size 0x8
-  __declspec(property(get = __get_unitytls_x509list_create,
-                      put = __set_unitytls_x509list_create))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t* unitytls_x509list_create;
+  __declspec(property(get = __cordl_internal_get_unitytls_x509list_create,
+                      put = __cordl_internal_set_unitytls_x509list_create))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t* unitytls_x509list_create;
 
   /// @brief Field unitytls_x509list_append, offset 0x70, size 0x8
-  __declspec(property(get = __get_unitytls_x509list_append,
-                      put = __set_unitytls_x509list_append))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t* unitytls_x509list_append;
+  __declspec(property(get = __cordl_internal_get_unitytls_x509list_append,
+                      put = __cordl_internal_set_unitytls_x509list_append))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t* unitytls_x509list_append;
 
   /// @brief Field unitytls_x509list_append_der, offset 0x78, size 0x8
-  __declspec(property(get = __get_unitytls_x509list_append_der,
-                      put = __set_unitytls_x509list_append_der))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* unitytls_x509list_append_der;
+  __declspec(property(get = __cordl_internal_get_unitytls_x509list_append_der,
+                      put = __cordl_internal_set_unitytls_x509list_append_der))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* unitytls_x509list_append_der;
 
   /// @brief Field unitytls_x509list_append_pem, offset 0x80, size 0x8
-  __declspec(property(get = __get_unitytls_x509list_append_pem,
-                      put = __set_unitytls_x509list_append_pem))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* unitytls_x509list_append_pem;
+  __declspec(property(get = __cordl_internal_get_unitytls_x509list_append_pem,
+                      put = __cordl_internal_set_unitytls_x509list_append_pem))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* unitytls_x509list_append_pem;
 
   /// @brief Field unitytls_x509list_free, offset 0x88, size 0x8
-  __declspec(property(get = __get_unitytls_x509list_free,
-                      put = __set_unitytls_x509list_free))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t* unitytls_x509list_free;
+  __declspec(property(get = __cordl_internal_get_unitytls_x509list_free,
+                      put = __cordl_internal_set_unitytls_x509list_free))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t* unitytls_x509list_free;
 
   /// @brief Field unitytls_x509verify_default_ca, offset 0x90, size 0x8
-  __declspec(property(get = __get_unitytls_x509verify_default_ca,
-                      put = __set_unitytls_x509verify_default_ca))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t* unitytls_x509verify_default_ca;
+  __declspec(
+      property(get = __cordl_internal_get_unitytls_x509verify_default_ca,
+               put = __cordl_internal_set_unitytls_x509verify_default_ca))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t* unitytls_x509verify_default_ca;
 
   /// @brief Field unitytls_x509verify_explicit_ca, offset 0x98, size 0x8
-  __declspec(property(get = __get_unitytls_x509verify_explicit_ca,
-                      put = __set_unitytls_x509verify_explicit_ca))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t* unitytls_x509verify_explicit_ca;
+  __declspec(
+      property(get = __cordl_internal_get_unitytls_x509verify_explicit_ca,
+               put = __cordl_internal_set_unitytls_x509verify_explicit_ca))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t* unitytls_x509verify_explicit_ca;
 
   /// @brief Field unitytls_tlsctx_create_server, offset 0xa0, size 0x8
-  __declspec(property(get = __get_unitytls_tlsctx_create_server,
-                      put = __set_unitytls_tlsctx_create_server))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t* unitytls_tlsctx_create_server;
+  __declspec(
+      property(get = __cordl_internal_get_unitytls_tlsctx_create_server,
+               put = __cordl_internal_set_unitytls_tlsctx_create_server))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t* unitytls_tlsctx_create_server;
 
   /// @brief Field unitytls_tlsctx_create_client, offset 0xa8, size 0x8
-  __declspec(property(get = __get_unitytls_tlsctx_create_client,
-                      put = __set_unitytls_tlsctx_create_client))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t* unitytls_tlsctx_create_client;
+  __declspec(
+      property(get = __cordl_internal_get_unitytls_tlsctx_create_client,
+               put = __cordl_internal_set_unitytls_tlsctx_create_client))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t* unitytls_tlsctx_create_client;
 
   /// @brief Field unitytls_tlsctx_server_require_client_authentication, offset 0xb0, size 0x8
-  __declspec(property(get = __get_unitytls_tlsctx_server_require_client_authentication, put = __set_unitytls_tlsctx_server_require_client_authentication))::GlobalNamespace::
-      __UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t* unitytls_tlsctx_server_require_client_authentication;
+  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_server_require_client_authentication, put = __cordl_internal_set_unitytls_tlsctx_server_require_client_authentication))::
+      GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t* unitytls_tlsctx_server_require_client_authentication;
 
   /// @brief Field unitytls_tlsctx_set_certificate_callback, offset 0xb8, size 0x8
-  __declspec(property(get = __get_unitytls_tlsctx_set_certificate_callback, put = __set_unitytls_tlsctx_set_certificate_callback))::GlobalNamespace::
+  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_set_certificate_callback, put = __cordl_internal_set_unitytls_tlsctx_set_certificate_callback))::GlobalNamespace::
       __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t* unitytls_tlsctx_set_certificate_callback;
 
   /// @brief Field unitytls_tlsctx_set_trace_callback, offset 0xc0, size 0x8
-  __declspec(
-      property(get = __get_unitytls_tlsctx_set_trace_callback,
-               put = __set_unitytls_tlsctx_set_trace_callback))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t* unitytls_tlsctx_set_trace_callback;
+  __declspec(property(
+      get = __cordl_internal_get_unitytls_tlsctx_set_trace_callback,
+      put = __cordl_internal_set_unitytls_tlsctx_set_trace_callback))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t* unitytls_tlsctx_set_trace_callback;
 
   /// @brief Field unitytls_tlsctx_set_x509verify_callback, offset 0xc8, size 0x8
-  __declspec(property(
-      get = __get_unitytls_tlsctx_set_x509verify_callback,
-      put = __set_unitytls_tlsctx_set_x509verify_callback))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t* unitytls_tlsctx_set_x509verify_callback;
+  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_set_x509verify_callback, put = __cordl_internal_set_unitytls_tlsctx_set_x509verify_callback))::GlobalNamespace::
+      __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t* unitytls_tlsctx_set_x509verify_callback;
 
   /// @brief Field unitytls_tlsctx_set_supported_ciphersuites, offset 0xd0, size 0x8
-  __declspec(property(get = __get_unitytls_tlsctx_set_supported_ciphersuites, put = __set_unitytls_tlsctx_set_supported_ciphersuites))::GlobalNamespace::
+  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_set_supported_ciphersuites, put = __cordl_internal_set_unitytls_tlsctx_set_supported_ciphersuites))::GlobalNamespace::
       __UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t* unitytls_tlsctx_set_supported_ciphersuites;
 
   /// @brief Field unitytls_tlsctx_get_ciphersuite, offset 0xd8, size 0x8
-  __declspec(property(get = __get_unitytls_tlsctx_get_ciphersuite,
-                      put = __set_unitytls_tlsctx_get_ciphersuite))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t* unitytls_tlsctx_get_ciphersuite;
+  __declspec(
+      property(get = __cordl_internal_get_unitytls_tlsctx_get_ciphersuite,
+               put = __cordl_internal_set_unitytls_tlsctx_get_ciphersuite))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t* unitytls_tlsctx_get_ciphersuite;
 
   /// @brief Field unitytls_tlsctx_get_protocol, offset 0xe0, size 0x8
-  __declspec(property(get = __get_unitytls_tlsctx_get_protocol,
-                      put = __set_unitytls_tlsctx_get_protocol))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t* unitytls_tlsctx_get_protocol;
+  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_get_protocol,
+                      put = __cordl_internal_set_unitytls_tlsctx_get_protocol))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t* unitytls_tlsctx_get_protocol;
 
   /// @brief Field unitytls_tlsctx_process_handshake, offset 0xe8, size 0x8
-  __declspec(property(get = __get_unitytls_tlsctx_process_handshake,
-                      put = __set_unitytls_tlsctx_process_handshake))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t* unitytls_tlsctx_process_handshake;
+  __declspec(property(
+      get = __cordl_internal_get_unitytls_tlsctx_process_handshake,
+      put = __cordl_internal_set_unitytls_tlsctx_process_handshake))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t* unitytls_tlsctx_process_handshake;
 
   /// @brief Field unitytls_tlsctx_read, offset 0xf0, size 0x8
-  __declspec(property(get = __get_unitytls_tlsctx_read, put = __set_unitytls_tlsctx_read))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t* unitytls_tlsctx_read;
+  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_read,
+                      put = __cordl_internal_set_unitytls_tlsctx_read))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t* unitytls_tlsctx_read;
 
   /// @brief Field unitytls_tlsctx_write, offset 0xf8, size 0x8
-  __declspec(property(get = __get_unitytls_tlsctx_write, put = __set_unitytls_tlsctx_write))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t* unitytls_tlsctx_write;
+  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_write,
+                      put = __cordl_internal_set_unitytls_tlsctx_write))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t* unitytls_tlsctx_write;
 
   /// @brief Field unitytls_tlsctx_notify_close, offset 0x100, size 0x8
-  __declspec(property(get = __get_unitytls_tlsctx_notify_close,
-                      put = __set_unitytls_tlsctx_notify_close))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t* unitytls_tlsctx_notify_close;
+  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_notify_close,
+                      put = __cordl_internal_set_unitytls_tlsctx_notify_close))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t* unitytls_tlsctx_notify_close;
 
   /// @brief Field unitytls_tlsctx_free, offset 0x108, size 0x8
-  __declspec(property(get = __get_unitytls_tlsctx_free, put = __set_unitytls_tlsctx_free))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t* unitytls_tlsctx_free;
+  __declspec(property(get = __cordl_internal_get_unitytls_tlsctx_free,
+                      put = __cordl_internal_set_unitytls_tlsctx_free))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t* unitytls_tlsctx_free;
 
   /// @brief Field unitytls_random_generate_bytes, offset 0x110, size 0x8
-  __declspec(property(get = __get_unitytls_random_generate_bytes,
-                      put = __set_unitytls_random_generate_bytes))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t* unitytls_random_generate_bytes;
+  __declspec(
+      property(get = __cordl_internal_get_unitytls_random_generate_bytes,
+               put = __cordl_internal_set_unitytls_random_generate_bytes))::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t* unitytls_random_generate_bytes;
 
-  constexpr uint64_t& __get_UNITYTLS_INVALID_HANDLE();
+  constexpr uint64_t& __cordl_internal_get_UNITYTLS_INVALID_HANDLE();
 
-  constexpr uint64_t const& __get_UNITYTLS_INVALID_HANDLE() const;
+  constexpr uint64_t const& __cordl_internal_get_UNITYTLS_INVALID_HANDLE() const;
 
-  constexpr void __set_UNITYTLS_INVALID_HANDLE(uint64_t value);
+  constexpr void __cordl_internal_set_UNITYTLS_INVALID_HANDLE(uint64_t value);
 
-  constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange& __get_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT();
+  constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange& __cordl_internal_get_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT();
 
-  constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange const& __get_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT() const;
+  constexpr ::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange const& __cordl_internal_get_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT() const;
 
-  constexpr void __set_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT(::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange value);
+  constexpr void __cordl_internal_set_UNITYTLS_TLSCTX_PROTOCOLRANGE_DEFAULT(::Mono::Unity::__UnityTls__unitytls_tlsctx_protocolrange value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t*& __get_unitytls_errorstate_create();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t*& __cordl_internal_get_unitytls_errorstate_create();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t*> const& __get_unitytls_errorstate_create() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t*> const& __cordl_internal_get_unitytls_errorstate_create() const;
 
-  constexpr void __set_unitytls_errorstate_create(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t* value);
+  constexpr void __cordl_internal_set_unitytls_errorstate_create(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_create_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t*& __get_unitytls_errorstate_raise_error();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t*& __cordl_internal_get_unitytls_errorstate_raise_error();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t*> const& __get_unitytls_errorstate_raise_error() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t*> const&
+  __cordl_internal_get_unitytls_errorstate_raise_error() const;
 
-  constexpr void __set_unitytls_errorstate_raise_error(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t* value);
+  constexpr void __cordl_internal_set_unitytls_errorstate_raise_error(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_errorstate_raise_error_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t*& __get_unitytls_key_get_ref();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t*& __cordl_internal_get_unitytls_key_get_ref();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t*> const& __get_unitytls_key_get_ref() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t*> const& __cordl_internal_get_unitytls_key_get_ref() const;
 
-  constexpr void __set_unitytls_key_get_ref(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t* value);
+  constexpr void __cordl_internal_set_unitytls_key_get_ref(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_get_ref_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t*& __get_unitytls_key_parse_der();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t*& __cordl_internal_get_unitytls_key_parse_der();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t*> const& __get_unitytls_key_parse_der() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t*> const& __cordl_internal_get_unitytls_key_parse_der() const;
 
-  constexpr void __set_unitytls_key_parse_der(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t* value);
+  constexpr void __cordl_internal_set_unitytls_key_parse_der(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_der_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t*& __get_unitytls_key_parse_pem();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t*& __cordl_internal_get_unitytls_key_parse_pem();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t*> const& __get_unitytls_key_parse_pem() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t*> const& __cordl_internal_get_unitytls_key_parse_pem() const;
 
-  constexpr void __set_unitytls_key_parse_pem(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t* value);
+  constexpr void __cordl_internal_set_unitytls_key_parse_pem(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_parse_pem_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t*& __get_unitytls_key_free();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t*& __cordl_internal_get_unitytls_key_free();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t*> const& __get_unitytls_key_free() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t*> const& __cordl_internal_get_unitytls_key_free() const;
 
-  constexpr void __set_unitytls_key_free(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t* value);
+  constexpr void __cordl_internal_set_unitytls_key_free(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_key_free_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t*& __get_unitytls_x509_export_der();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t*& __cordl_internal_get_unitytls_x509_export_der();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t*> const& __get_unitytls_x509_export_der() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t*> const& __cordl_internal_get_unitytls_x509_export_der() const;
 
-  constexpr void __set_unitytls_x509_export_der(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t* value);
+  constexpr void __cordl_internal_set_unitytls_x509_export_der(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509_export_der_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t*& __get_unitytls_x509list_get_ref();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t*& __cordl_internal_get_unitytls_x509list_get_ref();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t*> const& __get_unitytls_x509list_get_ref() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t*> const& __cordl_internal_get_unitytls_x509list_get_ref() const;
 
-  constexpr void __set_unitytls_x509list_get_ref(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t* value);
+  constexpr void __cordl_internal_set_unitytls_x509list_get_ref(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_ref_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t*& __get_unitytls_x509list_get_x509();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t*& __cordl_internal_get_unitytls_x509list_get_x509();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t*> const& __get_unitytls_x509list_get_x509() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t*> const& __cordl_internal_get_unitytls_x509list_get_x509() const;
 
-  constexpr void __set_unitytls_x509list_get_x509(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t* value);
+  constexpr void __cordl_internal_set_unitytls_x509list_get_x509(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_get_x509_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t*& __get_unitytls_x509list_create();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t*& __cordl_internal_get_unitytls_x509list_create();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t*> const& __get_unitytls_x509list_create() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t*> const& __cordl_internal_get_unitytls_x509list_create() const;
 
-  constexpr void __set_unitytls_x509list_create(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t* value);
+  constexpr void __cordl_internal_set_unitytls_x509list_create(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_create_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t*& __get_unitytls_x509list_append();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t*& __cordl_internal_get_unitytls_x509list_append();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t*> const& __get_unitytls_x509list_append() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t*> const& __cordl_internal_get_unitytls_x509list_append() const;
 
-  constexpr void __set_unitytls_x509list_append(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t* value);
+  constexpr void __cordl_internal_set_unitytls_x509list_append(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*& __get_unitytls_x509list_append_der();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*& __cordl_internal_get_unitytls_x509list_append_der();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*> const& __get_unitytls_x509list_append_der() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*> const&
+  __cordl_internal_get_unitytls_x509list_append_der() const;
 
-  constexpr void __set_unitytls_x509list_append_der(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* value);
+  constexpr void __cordl_internal_set_unitytls_x509list_append_der(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*& __get_unitytls_x509list_append_pem();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*& __cordl_internal_get_unitytls_x509list_append_pem();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*> const& __get_unitytls_x509list_append_pem() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t*> const&
+  __cordl_internal_get_unitytls_x509list_append_pem() const;
 
-  constexpr void __set_unitytls_x509list_append_pem(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* value);
+  constexpr void __cordl_internal_set_unitytls_x509list_append_pem(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_append_der_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t*& __get_unitytls_x509list_free();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t*& __cordl_internal_get_unitytls_x509list_free();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t*> const& __get_unitytls_x509list_free() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t*> const& __cordl_internal_get_unitytls_x509list_free() const;
 
-  constexpr void __set_unitytls_x509list_free(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t* value);
+  constexpr void __cordl_internal_set_unitytls_x509list_free(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509list_free_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t*& __get_unitytls_x509verify_default_ca();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t*& __cordl_internal_get_unitytls_x509verify_default_ca();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t*> const& __get_unitytls_x509verify_default_ca() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t*> const&
+  __cordl_internal_get_unitytls_x509verify_default_ca() const;
 
-  constexpr void __set_unitytls_x509verify_default_ca(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t* value);
+  constexpr void __cordl_internal_set_unitytls_x509verify_default_ca(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_default_ca_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t*& __get_unitytls_x509verify_explicit_ca();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t*& __cordl_internal_get_unitytls_x509verify_explicit_ca();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t*> const& __get_unitytls_x509verify_explicit_ca() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t*> const&
+  __cordl_internal_get_unitytls_x509verify_explicit_ca() const;
 
-  constexpr void __set_unitytls_x509verify_explicit_ca(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t* value);
+  constexpr void __cordl_internal_set_unitytls_x509verify_explicit_ca(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_x509verify_explicit_ca_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t*& __get_unitytls_tlsctx_create_server();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t*& __cordl_internal_get_unitytls_tlsctx_create_server();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t*> const& __get_unitytls_tlsctx_create_server() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t*> const&
+  __cordl_internal_get_unitytls_tlsctx_create_server() const;
 
-  constexpr void __set_unitytls_tlsctx_create_server(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t* value);
+  constexpr void __cordl_internal_set_unitytls_tlsctx_create_server(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_server_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t*& __get_unitytls_tlsctx_create_client();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t*& __cordl_internal_get_unitytls_tlsctx_create_client();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t*> const& __get_unitytls_tlsctx_create_client() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t*> const&
+  __cordl_internal_get_unitytls_tlsctx_create_client() const;
 
-  constexpr void __set_unitytls_tlsctx_create_client(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t* value);
+  constexpr void __cordl_internal_set_unitytls_tlsctx_create_client(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_create_client_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t*& __get_unitytls_tlsctx_server_require_client_authentication();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t*&
+  __cordl_internal_get_unitytls_tlsctx_server_require_client_authentication();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t*> const&
-  __get_unitytls_tlsctx_server_require_client_authentication() const;
+  __cordl_internal_get_unitytls_tlsctx_server_require_client_authentication() const;
 
-  constexpr void __set_unitytls_tlsctx_server_require_client_authentication(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t* value);
+  constexpr void
+  __cordl_internal_set_unitytls_tlsctx_server_require_client_authentication(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_server_require_client_authentication_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t*& __get_unitytls_tlsctx_set_certificate_callback();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t*& __cordl_internal_get_unitytls_tlsctx_set_certificate_callback();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t*> const&
-  __get_unitytls_tlsctx_set_certificate_callback() const;
+  __cordl_internal_get_unitytls_tlsctx_set_certificate_callback() const;
 
-  constexpr void __set_unitytls_tlsctx_set_certificate_callback(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t* value);
+  constexpr void __cordl_internal_set_unitytls_tlsctx_set_certificate_callback(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_certificate_callback_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t*& __get_unitytls_tlsctx_set_trace_callback();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t*& __cordl_internal_get_unitytls_tlsctx_set_trace_callback();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t*> const&
-  __get_unitytls_tlsctx_set_trace_callback() const;
+  __cordl_internal_get_unitytls_tlsctx_set_trace_callback() const;
 
-  constexpr void __set_unitytls_tlsctx_set_trace_callback(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t* value);
+  constexpr void __cordl_internal_set_unitytls_tlsctx_set_trace_callback(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_trace_callback_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t*& __get_unitytls_tlsctx_set_x509verify_callback();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t*& __cordl_internal_get_unitytls_tlsctx_set_x509verify_callback();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t*> const&
-  __get_unitytls_tlsctx_set_x509verify_callback() const;
+  __cordl_internal_get_unitytls_tlsctx_set_x509verify_callback() const;
 
-  constexpr void __set_unitytls_tlsctx_set_x509verify_callback(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t* value);
+  constexpr void __cordl_internal_set_unitytls_tlsctx_set_x509verify_callback(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_x509verify_callback_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t*& __get_unitytls_tlsctx_set_supported_ciphersuites();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t*& __cordl_internal_get_unitytls_tlsctx_set_supported_ciphersuites();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t*> const&
-  __get_unitytls_tlsctx_set_supported_ciphersuites() const;
+  __cordl_internal_get_unitytls_tlsctx_set_supported_ciphersuites() const;
 
-  constexpr void __set_unitytls_tlsctx_set_supported_ciphersuites(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t* value);
+  constexpr void __cordl_internal_set_unitytls_tlsctx_set_supported_ciphersuites(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_set_supported_ciphersuites_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t*& __get_unitytls_tlsctx_get_ciphersuite();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t*& __cordl_internal_get_unitytls_tlsctx_get_ciphersuite();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t*> const& __get_unitytls_tlsctx_get_ciphersuite() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t*> const&
+  __cordl_internal_get_unitytls_tlsctx_get_ciphersuite() const;
 
-  constexpr void __set_unitytls_tlsctx_get_ciphersuite(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t* value);
+  constexpr void __cordl_internal_set_unitytls_tlsctx_get_ciphersuite(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_ciphersuite_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t*& __get_unitytls_tlsctx_get_protocol();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t*& __cordl_internal_get_unitytls_tlsctx_get_protocol();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t*> const& __get_unitytls_tlsctx_get_protocol() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t*> const&
+  __cordl_internal_get_unitytls_tlsctx_get_protocol() const;
 
-  constexpr void __set_unitytls_tlsctx_get_protocol(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t* value);
+  constexpr void __cordl_internal_set_unitytls_tlsctx_get_protocol(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_get_protocol_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t*& __get_unitytls_tlsctx_process_handshake();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t*& __cordl_internal_get_unitytls_tlsctx_process_handshake();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t*> const& __get_unitytls_tlsctx_process_handshake() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t*> const&
+  __cordl_internal_get_unitytls_tlsctx_process_handshake() const;
 
-  constexpr void __set_unitytls_tlsctx_process_handshake(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t* value);
+  constexpr void __cordl_internal_set_unitytls_tlsctx_process_handshake(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_process_handshake_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t*& __get_unitytls_tlsctx_read();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t*& __cordl_internal_get_unitytls_tlsctx_read();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t*> const& __get_unitytls_tlsctx_read() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t*> const& __cordl_internal_get_unitytls_tlsctx_read() const;
 
-  constexpr void __set_unitytls_tlsctx_read(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t* value);
+  constexpr void __cordl_internal_set_unitytls_tlsctx_read(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_read_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t*& __get_unitytls_tlsctx_write();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t*& __cordl_internal_get_unitytls_tlsctx_write();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t*> const& __get_unitytls_tlsctx_write() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t*> const& __cordl_internal_get_unitytls_tlsctx_write() const;
 
-  constexpr void __set_unitytls_tlsctx_write(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t* value);
+  constexpr void __cordl_internal_set_unitytls_tlsctx_write(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_write_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t*& __get_unitytls_tlsctx_notify_close();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t*& __cordl_internal_get_unitytls_tlsctx_notify_close();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t*> const& __get_unitytls_tlsctx_notify_close() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t*> const&
+  __cordl_internal_get_unitytls_tlsctx_notify_close() const;
 
-  constexpr void __set_unitytls_tlsctx_notify_close(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t* value);
+  constexpr void __cordl_internal_set_unitytls_tlsctx_notify_close(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_notify_close_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t*& __get_unitytls_tlsctx_free();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t*& __cordl_internal_get_unitytls_tlsctx_free();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t*> const& __get_unitytls_tlsctx_free() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t*> const& __cordl_internal_get_unitytls_tlsctx_free() const;
 
-  constexpr void __set_unitytls_tlsctx_free(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t* value);
+  constexpr void __cordl_internal_set_unitytls_tlsctx_free(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_tlsctx_free_t* value);
 
-  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t*& __get_unitytls_random_generate_bytes();
+  constexpr ::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t*& __cordl_internal_get_unitytls_random_generate_bytes();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t*> const& __get_unitytls_random_generate_bytes() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t*> const&
+  __cordl_internal_get_unitytls_random_generate_bytes() const;
 
-  constexpr void __set_unitytls_random_generate_bytes(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t* value);
+  constexpr void __cordl_internal_set_unitytls_random_generate_bytes(::GlobalNamespace::__UnityTls__unitytls_interface_struct__unitytls_random_generate_bytes_t* value);
 
   static inline ::Mono::Unity::__UnityTls__unitytls_interface_struct* New_ctor();
 
@@ -3019,7 +3045,7 @@ static_assert(offsetof(::Mono::Unity::__UnityTls__unitytls_interface_struct, ___
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Unity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8809))
 // CS Name: ::Mono.Unity::UnityTls*
 class CORDL_TYPE UnityTls : public ::System::Object {

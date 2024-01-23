@@ -22,60 +22,60 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15919))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::KdTreeNode`2<TKey,TValue>*
 class CORDL_TYPE KdTreeNode_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Point, offset 0x10, size 0x8
-  __declspec(property(get = __get_Point, put = __set_Point))::ArrayW<TKey, ::Array<TKey>*> Point;
+  __declspec(property(get = __cordl_internal_get_Point, put = __cordl_internal_set_Point))::ArrayW<TKey, ::Array<TKey>*> Point;
 
   /// @brief Field Value, offset 0x18, size 0x8
-  __declspec(property(get = __get_Value, put = __set_Value)) TValue Value;
+  __declspec(property(get = __cordl_internal_get_Value, put = __cordl_internal_set_Value)) TValue Value;
 
   /// @brief Field Duplicates, offset 0x20, size 0x8
-  __declspec(property(get = __get_Duplicates, put = __set_Duplicates))::System::Collections::Generic::List_1<TValue>* Duplicates;
+  __declspec(property(get = __cordl_internal_get_Duplicates, put = __cordl_internal_set_Duplicates))::System::Collections::Generic::List_1<TValue>* Duplicates;
 
   /// @brief Field LeftChild, offset 0x28, size 0x8
-  __declspec(property(get = __get_LeftChild, put = __set_LeftChild))::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* LeftChild;
+  __declspec(property(get = __cordl_internal_get_LeftChild, put = __cordl_internal_set_LeftChild))::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* LeftChild;
 
   /// @brief Field RightChild, offset 0x30, size 0x8
-  __declspec(property(get = __get_RightChild, put = __set_RightChild))::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* RightChild;
+  __declspec(property(get = __cordl_internal_get_RightChild, put = __cordl_internal_set_RightChild))::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* RightChild;
 
   __declspec(property(get = get_Item, put = set_Item))::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* Item[];
 
   __declspec(property(get = get_IsLeaf)) bool IsLeaf;
 
-  constexpr ::ArrayW<TKey, ::Array<TKey>*>& __get_Point();
+  constexpr ::ArrayW<TKey, ::Array<TKey>*>& __cordl_internal_get_Point();
 
-  constexpr ::ArrayW<TKey, ::Array<TKey>*> const& __get_Point() const;
+  constexpr ::ArrayW<TKey, ::Array<TKey>*> const& __cordl_internal_get_Point() const;
 
-  constexpr void __set_Point(::ArrayW<TKey, ::Array<TKey>*> value);
+  constexpr void __cordl_internal_set_Point(::ArrayW<TKey, ::Array<TKey>*> value);
 
-  constexpr TValue& __get_Value();
+  constexpr TValue& __cordl_internal_get_Value();
 
-  constexpr TValue const& __get_Value() const;
+  constexpr TValue const& __cordl_internal_get_Value() const;
 
-  constexpr void __set_Value(TValue value);
+  constexpr void __cordl_internal_set_Value(TValue value);
 
-  constexpr ::System::Collections::Generic::List_1<TValue>*& __get_Duplicates();
+  constexpr ::System::Collections::Generic::List_1<TValue>*& __cordl_internal_get_Duplicates();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<TValue>*> const& __get_Duplicates() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<TValue>*> const& __cordl_internal_get_Duplicates() const;
 
-  constexpr void __set_Duplicates(::System::Collections::Generic::List_1<TValue>* value);
+  constexpr void __cordl_internal_set_Duplicates(::System::Collections::Generic::List_1<TValue>* value);
 
-  constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*& __get_LeftChild();
+  constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*& __cordl_internal_get_LeftChild();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*> const& __get_LeftChild() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*> const& __cordl_internal_get_LeftChild() const;
 
-  constexpr void __set_LeftChild(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set_LeftChild(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* value);
 
-  constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*& __get_RightChild();
+  constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*& __cordl_internal_get_RightChild();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*> const& __get_RightChild() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*> const& __cordl_internal_get_RightChild() const;
 
-  constexpr void __set_RightChild(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set_RightChild(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* value);
 
   static inline ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* New_ctor();
 

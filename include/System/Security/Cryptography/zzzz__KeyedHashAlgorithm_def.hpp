@@ -16,22 +16,22 @@ MARK_REF_PTR_T(::System::Security::Cryptography::KeyedHashAlgorithm);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2916))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2916))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2942))
 // CS Name: ::System.Security.Cryptography::KeyedHashAlgorithm*
 class CORDL_TYPE KeyedHashAlgorithm : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
   /// @brief Field KeyValue, offset 0x28, size 0x8
-  __declspec(property(get = __get_KeyValue, put = __set_KeyValue))::ArrayW<uint8_t, ::Array<uint8_t>*> KeyValue;
+  __declspec(property(get = __cordl_internal_get_KeyValue, put = __cordl_internal_set_KeyValue))::ArrayW<uint8_t, ::Array<uint8_t>*> KeyValue;
 
   __declspec(property(get = get_Key, put = set_Key))::ArrayW<uint8_t, ::Array<uint8_t>*> Key;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_KeyValue();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_KeyValue();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_KeyValue() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_KeyValue() const;
 
-  constexpr void __set_KeyValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_KeyValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::System::Security::Cryptography::KeyedHashAlgorithm* New_ctor();
 

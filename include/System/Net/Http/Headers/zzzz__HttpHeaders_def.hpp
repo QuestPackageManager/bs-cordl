@@ -75,42 +75,42 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::__HttpHeaders___GetEnumerator_d__19
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14675))
 // CS Name: ::HttpHeaders::HeaderBucket*
 class CORDL_TYPE __HttpHeaders__HeaderBucket : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Parsed, offset 0x10, size 0x8
-  __declspec(property(get = __get_Parsed, put = __set_Parsed))::System::Object* Parsed;
+  __declspec(property(get = __cordl_internal_get_Parsed, put = __cordl_internal_set_Parsed))::System::Object* Parsed;
 
   /// @brief Field values, offset 0x18, size 0x8
-  __declspec(property(get = __get_values, put = __set_values))::System::Collections::Generic::List_1<::StringW>* values;
+  __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values))::System::Collections::Generic::List_1<::StringW>* values;
 
   /// @brief Field CustomToString, offset 0x20, size 0x8
-  __declspec(property(get = __get_CustomToString, put = __set_CustomToString))::System::Func_2<::System::Object*, ::StringW>* CustomToString;
+  __declspec(property(get = __cordl_internal_get_CustomToString, put = __cordl_internal_set_CustomToString))::System::Func_2<::System::Object*, ::StringW>* CustomToString;
 
   __declspec(property(get = get_HasStringValues)) bool HasStringValues;
 
   __declspec(property(get = get_Values, put = set_Values))::System::Collections::Generic::List_1<::StringW>* Values;
 
-  constexpr ::System::Object*& __get_Parsed();
+  constexpr ::System::Object*& __cordl_internal_get_Parsed();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_Parsed() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_Parsed() const;
 
-  constexpr void __set_Parsed(::System::Object* value);
+  constexpr void __cordl_internal_set_Parsed(::System::Object* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_values();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_values() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_values() const;
 
-  constexpr void __set_values(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_values(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Func_2<::System::Object*, ::StringW>*& __get_CustomToString();
+  constexpr ::System::Func_2<::System::Object*, ::StringW>*& __cordl_internal_get_CustomToString();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::StringW>*> const& __get_CustomToString() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::StringW>*> const& __cordl_internal_get_CustomToString() const;
 
-  constexpr void __set_CustomToString(::System::Func_2<::System::Object*, ::StringW>* value);
+  constexpr void __cordl_internal_set_CustomToString(::System::Func_2<::System::Object*, ::StringW>* value);
 
   static inline ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket* New_ctor(::System::Object* parsed, ::System::Func_2<::System::Object*, ::StringW>* converter);
 
@@ -168,26 +168,27 @@ static_assert(offsetof(::System::Net::Http::Headers::__HttpHeaders__HeaderBucket
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1455 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(3832)), TypeDefinitionIndex(TypeDefinitionIndex(14675)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3832), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(3819)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 3942 })} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3819)), TypeDefinitionIndex(TypeDefinitionIndex(3832)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(14675)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1455 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3832), inst: 397 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 3942 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(14676)) CS Name: ::HttpHeaders::<GetEnumerator>d__19*
 class CORDL_TYPE __HttpHeaders___GetEnumerator_d__19 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x10
-  __declspec(property(get = __get___2__current,
-                      put = __set___2__current))::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*> __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current,
+                      put = __cordl_internal_set___2__current))::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*> __2__current;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::System::Net::Http::Headers::HttpHeaders* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Net::Http::Headers::HttpHeaders* __4__this;
 
   /// @brief Field <>7__wrap1, offset 0x30, size 0x28
-  __declspec(property(get = __get___7__wrap1,
-                      put = __set___7__wrap1))::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*> __7__wrap1;
+  __declspec(
+      property(get = __cordl_internal_get___7__wrap1,
+               put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*> __7__wrap1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Collections_Generic_IEnumerable_System_String____get_Current))::System::
       Collections::Generic::KeyValuePair_2<
@@ -215,29 +216,29 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*>& __get___2__current();
+  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*>& __cordl_internal_get___2__current();
 
-  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*> const& __get___2__current() const;
+  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*> value);
+  constexpr void __cordl_internal_set___2__current(::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*> value);
 
-  constexpr ::System::Net::Http::Headers::HttpHeaders*& __get___4__this();
+  constexpr ::System::Net::Http::Headers::HttpHeaders*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpHeaders*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpHeaders*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::System::Net::Http::Headers::HttpHeaders* value);
+  constexpr void __cordl_internal_set___4__this(::System::Net::Http::Headers::HttpHeaders* value);
 
-  constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*>& __get___7__wrap1();
+  constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*>& __cordl_internal_get___7__wrap1();
 
-  constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*> const& __get___7__wrap1() const;
+  constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*> value);
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*> value);
 
   static inline ::System::Net::Http::Headers::__HttpHeaders___GetEnumerator_d__19* New_ctor(int32_t __1__state);
 
@@ -308,8 +309,8 @@ static_assert(offsetof(::System::Net::Http::Headers::__HttpHeaders___GetEnumerat
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14673)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14677)) CS Name: ::System.Net.Http.Headers::HttpHeaders*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14673)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14677)) CS Name: ::System.Net.Http.Headers::HttpHeaders*
 class CORDL_TYPE HttpHeaders : public ::System::Object {
 public:
   // Declarations
@@ -318,16 +319,17 @@ public:
   using HeaderBucket = ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket;
 
   /// @brief Field headers, offset 0x10, size 0x8
-  __declspec(property(get = __get_headers, put = __set_headers))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*>* headers;
+  __declspec(property(get = __cordl_internal_get_headers,
+                      put = __cordl_internal_set_headers))::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*>* headers;
 
   /// @brief Field HeaderKind, offset 0x18, size 0x4
-  __declspec(property(get = __get_HeaderKind, put = __set_HeaderKind))::System::Net::Http::Headers::HttpHeaderKind HeaderKind;
+  __declspec(property(get = __cordl_internal_get_HeaderKind, put = __cordl_internal_set_HeaderKind))::System::Net::Http::Headers::HttpHeaderKind HeaderKind;
 
   /// @brief Field connectionclose, offset 0x1c, size 0x2
-  __declspec(property(get = __get_connectionclose, put = __set_connectionclose))::System::Nullable_1<bool> connectionclose;
+  __declspec(property(get = __cordl_internal_get_connectionclose, put = __cordl_internal_set_connectionclose))::System::Nullable_1<bool> connectionclose;
 
   /// @brief Field transferEncodingChunked, offset 0x1e, size 0x2
-  __declspec(property(get = __get_transferEncodingChunked, put = __set_transferEncodingChunked))::System::Nullable_1<bool> transferEncodingChunked;
+  __declspec(property(get = __cordl_internal_get_transferEncodingChunked, put = __cordl_internal_set_transferEncodingChunked))::System::Nullable_1<bool> transferEncodingChunked;
 
   /// @brief Field known_headers, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_known_headers,
@@ -346,29 +348,30 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*>*& __get_headers();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*>*& __cordl_internal_get_headers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*>*> const& __get_headers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*>*> const&
+  __cordl_internal_get_headers() const;
 
-  constexpr void __set_headers(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*>* value);
+  constexpr void __cordl_internal_set_headers(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::__HttpHeaders__HeaderBucket*>* value);
 
-  constexpr ::System::Net::Http::Headers::HttpHeaderKind& __get_HeaderKind();
+  constexpr ::System::Net::Http::Headers::HttpHeaderKind& __cordl_internal_get_HeaderKind();
 
-  constexpr ::System::Net::Http::Headers::HttpHeaderKind const& __get_HeaderKind() const;
+  constexpr ::System::Net::Http::Headers::HttpHeaderKind const& __cordl_internal_get_HeaderKind() const;
 
-  constexpr void __set_HeaderKind(::System::Net::Http::Headers::HttpHeaderKind value);
+  constexpr void __cordl_internal_set_HeaderKind(::System::Net::Http::Headers::HttpHeaderKind value);
 
-  constexpr ::System::Nullable_1<bool>& __get_connectionclose();
+  constexpr ::System::Nullable_1<bool>& __cordl_internal_get_connectionclose();
 
-  constexpr ::System::Nullable_1<bool> const& __get_connectionclose() const;
+  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get_connectionclose() const;
 
-  constexpr void __set_connectionclose(::System::Nullable_1<bool> value);
+  constexpr void __cordl_internal_set_connectionclose(::System::Nullable_1<bool> value);
 
-  constexpr ::System::Nullable_1<bool>& __get_transferEncodingChunked();
+  constexpr ::System::Nullable_1<bool>& __cordl_internal_get_transferEncodingChunked();
 
-  constexpr ::System::Nullable_1<bool> const& __get_transferEncodingChunked() const;
+  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get_transferEncodingChunked() const;
 
-  constexpr void __set_transferEncodingChunked(::System::Nullable_1<bool> value);
+  constexpr void __cordl_internal_set_transferEncodingChunked(::System::Nullable_1<bool> value);
 
   static inline void setStaticF_known_headers(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Http::Headers::HeaderInfo*>* value);
 

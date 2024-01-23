@@ -52,26 +52,26 @@ MARK_REF_PTR_T(::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCorou
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15621))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15621))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14413))
 // CS Name: ::KnucklesUnityXRHapticsHandler::<HapticsCoroutine>d__9*
 class CORDL_TYPE __KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::KnucklesUnityXRHapticsHandler* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::KnucklesUnityXRHapticsHandler* __4__this;
 
   /// @brief Field <device>5__2, offset 0x28, size 0x10
-  __declspec(property(get = __get__device_5__2, put = __set__device_5__2))::UnityEngine::XR::InputDevice _device_5__2;
+  __declspec(property(get = __cordl_internal_get__device_5__2, put = __cordl_internal_set__device_5__2))::UnityEngine::XR::InputDevice _device_5__2;
 
   /// @brief Field <waiter>5__3, offset 0x38, size 0x8
-  __declspec(property(get = __get__waiter_5__3, put = __set__waiter_5__3))::UnityEngine::WaitForSecondsRealtime* _waiter_5__3;
+  __declspec(property(get = __cordl_internal_get__waiter_5__3, put = __cordl_internal_set__waiter_5__3))::UnityEngine::WaitForSecondsRealtime* _waiter_5__3;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -95,35 +95,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::KnucklesUnityXRHapticsHandler*& __get___4__this();
+  constexpr ::GlobalNamespace::KnucklesUnityXRHapticsHandler*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::KnucklesUnityXRHapticsHandler*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::KnucklesUnityXRHapticsHandler*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::KnucklesUnityXRHapticsHandler* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::KnucklesUnityXRHapticsHandler* value);
 
-  constexpr ::UnityEngine::XR::InputDevice& __get__device_5__2();
+  constexpr ::UnityEngine::XR::InputDevice& __cordl_internal_get__device_5__2();
 
-  constexpr ::UnityEngine::XR::InputDevice const& __get__device_5__2() const;
+  constexpr ::UnityEngine::XR::InputDevice const& __cordl_internal_get__device_5__2() const;
 
-  constexpr void __set__device_5__2(::UnityEngine::XR::InputDevice value);
+  constexpr void __cordl_internal_set__device_5__2(::UnityEngine::XR::InputDevice value);
 
-  constexpr ::UnityEngine::WaitForSecondsRealtime*& __get__waiter_5__3();
+  constexpr ::UnityEngine::WaitForSecondsRealtime*& __cordl_internal_get__waiter_5__3();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::WaitForSecondsRealtime*> const& __get__waiter_5__3() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::WaitForSecondsRealtime*> const& __cordl_internal_get__waiter_5__3() const;
 
-  constexpr void __set__waiter_5__3(::UnityEngine::WaitForSecondsRealtime* value);
+  constexpr void __cordl_internal_set__waiter_5__3(::UnityEngine::WaitForSecondsRealtime* value);
 
   static inline ::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9* New_ctor(int32_t __1__state);
 
@@ -194,7 +194,7 @@ static_assert(offsetof(::GlobalNamespace::__KnucklesUnityXRHapticsHandler___Hapt
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14414))
 // CS Name: ::KnucklesUnityXRHapticsHandler*
 class CORDL_TYPE KnucklesUnityXRHapticsHandler : public ::System::Object {
@@ -203,19 +203,19 @@ public:
   using _HapticsCoroutine_d__9 = ::GlobalNamespace::__KnucklesUnityXRHapticsHandler___HapticsCoroutine_d__9;
 
   /// @brief Field _coroutineRunner, offset 0x10, size 0x8
-  __declspec(property(get = __get__coroutineRunner, put = __set__coroutineRunner))::UnityEngine::MonoBehaviour* _coroutineRunner;
+  __declspec(property(get = __cordl_internal_get__coroutineRunner, put = __cordl_internal_set__coroutineRunner))::UnityW<::UnityEngine::MonoBehaviour> _coroutineRunner;
 
   /// @brief Field _hapticsCoroutine, offset 0x18, size 0x8
-  __declspec(property(get = __get__hapticsCoroutine, put = __set__hapticsCoroutine))::UnityEngine::Coroutine* _hapticsCoroutine;
+  __declspec(property(get = __cordl_internal_get__hapticsCoroutine, put = __cordl_internal_set__hapticsCoroutine))::UnityEngine::Coroutine* _hapticsCoroutine;
 
   /// @brief Field _node, offset 0x20, size 0x4
-  __declspec(property(get = __get__node, put = __set__node))::UnityEngine::XR::XRNode _node;
+  __declspec(property(get = __cordl_internal_get__node, put = __cordl_internal_set__node))::UnityEngine::XR::XRNode _node;
 
   /// @brief Field _remainingTime, offset 0x24, size 0x4
-  __declspec(property(get = __get__remainingTime, put = __set__remainingTime)) float_t _remainingTime;
+  __declspec(property(get = __cordl_internal_get__remainingTime, put = __cordl_internal_set__remainingTime)) float_t _remainingTime;
 
   /// @brief Field _amplitude, offset 0x28, size 0x4
-  __declspec(property(get = __get__amplitude, put = __set__amplitude)) float_t _amplitude;
+  __declspec(property(get = __cordl_internal_get__amplitude, put = __cordl_internal_set__amplitude)) float_t _amplitude;
 
   /// @brief Convert operator to "::GlobalNamespace::IUnityXRHapticsHandler"
   constexpr operator ::GlobalNamespace::IUnityXRHapticsHandler*() noexcept;
@@ -229,35 +229,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::UnityEngine::MonoBehaviour*& __get__coroutineRunner();
+  constexpr ::UnityW<::UnityEngine::MonoBehaviour>& __cordl_internal_get__coroutineRunner();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MonoBehaviour*> const& __get__coroutineRunner() const;
+  constexpr ::UnityW<::UnityEngine::MonoBehaviour> const& __cordl_internal_get__coroutineRunner() const;
 
-  constexpr void __set__coroutineRunner(::UnityEngine::MonoBehaviour* value);
+  constexpr void __cordl_internal_set__coroutineRunner(::UnityW<::UnityEngine::MonoBehaviour> value);
 
-  constexpr ::UnityEngine::Coroutine*& __get__hapticsCoroutine();
+  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__hapticsCoroutine();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __get__hapticsCoroutine() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get__hapticsCoroutine() const;
 
-  constexpr void __set__hapticsCoroutine(::UnityEngine::Coroutine* value);
+  constexpr void __cordl_internal_set__hapticsCoroutine(::UnityEngine::Coroutine* value);
 
-  constexpr ::UnityEngine::XR::XRNode& __get__node();
+  constexpr ::UnityEngine::XR::XRNode& __cordl_internal_get__node();
 
-  constexpr ::UnityEngine::XR::XRNode const& __get__node() const;
+  constexpr ::UnityEngine::XR::XRNode const& __cordl_internal_get__node() const;
 
-  constexpr void __set__node(::UnityEngine::XR::XRNode value);
+  constexpr void __cordl_internal_set__node(::UnityEngine::XR::XRNode value);
 
-  constexpr float_t& __get__remainingTime();
+  constexpr float_t& __cordl_internal_get__remainingTime();
 
-  constexpr float_t const& __get__remainingTime() const;
+  constexpr float_t const& __cordl_internal_get__remainingTime() const;
 
-  constexpr void __set__remainingTime(float_t value);
+  constexpr void __cordl_internal_set__remainingTime(float_t value);
 
-  constexpr float_t& __get__amplitude();
+  constexpr float_t& __cordl_internal_get__amplitude();
 
-  constexpr float_t const& __get__amplitude() const;
+  constexpr float_t const& __cordl_internal_get__amplitude() const;
 
-  constexpr void __set__amplitude(float_t value);
+  constexpr void __cordl_internal_set__amplitude(float_t value);
 
   static inline ::GlobalNamespace::KnucklesUnityXRHapticsHandler* New_ctor(::UnityEngine::XR::XRNode node, ::UnityEngine::MonoBehaviour* coroutineRunner);
 
@@ -291,7 +291,7 @@ protected:
 
 public:
   /// @brief Field _coroutineRunner, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::MonoBehaviour* ____coroutineRunner;
+  ::UnityW<::UnityEngine::MonoBehaviour> ____coroutineRunner;
 
   /// @brief Field _hapticsCoroutine, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Coroutine* ____hapticsCoroutine;

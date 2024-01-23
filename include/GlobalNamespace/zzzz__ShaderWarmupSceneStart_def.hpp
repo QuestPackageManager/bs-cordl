@@ -41,20 +41,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__ShaderWarmupSceneStart___Start_d__2);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6083))
 // CS Name: ::ShaderWarmupSceneStart::<Start>d__2*
 class CORDL_TYPE __ShaderWarmupSceneStart___Start_d__2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::ShaderWarmupSceneStart* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::ShaderWarmupSceneStart> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -78,23 +78,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::ShaderWarmupSceneStart*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::ShaderWarmupSceneStart>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ShaderWarmupSceneStart*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::ShaderWarmupSceneStart> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::ShaderWarmupSceneStart* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::ShaderWarmupSceneStart> value);
 
   static inline ::GlobalNamespace::__ShaderWarmupSceneStart___Start_d__2* New_ctor(int32_t __1__state);
 
@@ -137,7 +137,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::ShaderWarmupSceneStart* _____4__this;
+  ::UnityW<::GlobalNamespace::ShaderWarmupSceneStart> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -155,7 +155,7 @@ static_assert(offsetof(::GlobalNamespace::__ShaderWarmupSceneStart___Start_d__2,
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6084))
 // CS Name: ::ShaderWarmupSceneStart*
 class CORDL_TYPE ShaderWarmupSceneStart : public ::UnityEngine::MonoBehaviour {
@@ -164,22 +164,22 @@ public:
   using _Start_d__2 = ::GlobalNamespace::__ShaderWarmupSceneStart___Start_d__2;
 
   /// @brief Field _sceneSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __get__sceneSetupData, put = __set__sceneSetupData))::GlobalNamespace::ShaderWarmupSceneSetupData* _sceneSetupData;
+  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::ShaderWarmupSceneSetupData* _sceneSetupData;
 
   /// @brief Field _gameScenesManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
-  constexpr ::GlobalNamespace::ShaderWarmupSceneSetupData*& __get__sceneSetupData();
+  constexpr ::GlobalNamespace::ShaderWarmupSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ShaderWarmupSceneSetupData*> const& __get__sceneSetupData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ShaderWarmupSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
 
-  constexpr void __set__sceneSetupData(::GlobalNamespace::ShaderWarmupSceneSetupData* value);
+  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::ShaderWarmupSceneSetupData* value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get__gameScenesManager();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get__gameScenesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
-  constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
   /// @brief Method Start, addr 0x2320158, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
@@ -207,7 +207,7 @@ public:
   ::GlobalNamespace::ShaderWarmupSceneSetupData* ____sceneSetupData;
 
   /// @brief Field _gameScenesManager, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
+  ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

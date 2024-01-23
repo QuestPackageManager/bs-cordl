@@ -14,20 +14,20 @@ MARK_REF_PTR_T(::Oculus::Platform::CallbackRunner);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13235))
 // CS Name: ::Oculus.Platform::CallbackRunner*
 class CORDL_TYPE CallbackRunner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field IsPersistantBetweenSceneLoads, offset 0x18, size 0x1
-  __declspec(property(get = __get_IsPersistantBetweenSceneLoads, put = __set_IsPersistantBetweenSceneLoads)) bool IsPersistantBetweenSceneLoads;
+  __declspec(property(get = __cordl_internal_get_IsPersistantBetweenSceneLoads, put = __cordl_internal_set_IsPersistantBetweenSceneLoads)) bool IsPersistantBetweenSceneLoads;
 
-  constexpr bool& __get_IsPersistantBetweenSceneLoads();
+  constexpr bool& __cordl_internal_get_IsPersistantBetweenSceneLoads();
 
-  constexpr bool const& __get_IsPersistantBetweenSceneLoads() const;
+  constexpr bool const& __cordl_internal_get_IsPersistantBetweenSceneLoads() const;
 
-  constexpr void __set_IsPersistantBetweenSceneLoads(bool value);
+  constexpr void __cordl_internal_set_IsPersistantBetweenSceneLoads(bool value);
 
   /// @brief Method ovr_UnityResetTestPlatform, addr 0x26cfaf0, size 0x64, virtual false, abstract: false, final false
   static inline void ovr_UnityResetTestPlatform();

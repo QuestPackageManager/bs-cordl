@@ -17,47 +17,47 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AchievementDefinition);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13225)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13407))
 // CS Name: ::Oculus.Platform.Models::AchievementDefinition*
 class CORDL_TYPE AchievementDefinition : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Type, offset 0x10, size 0x4
-  __declspec(property(get = __get_Type, put = __set_Type))::Oculus::Platform::AchievementType Type;
+  __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type))::Oculus::Platform::AchievementType Type;
 
   /// @brief Field Name, offset 0x18, size 0x8
-  __declspec(property(get = __get_Name, put = __set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
 
   /// @brief Field BitfieldLength, offset 0x20, size 0x4
-  __declspec(property(get = __get_BitfieldLength, put = __set_BitfieldLength)) uint32_t BitfieldLength;
+  __declspec(property(get = __cordl_internal_get_BitfieldLength, put = __cordl_internal_set_BitfieldLength)) uint32_t BitfieldLength;
 
   /// @brief Field Target, offset 0x28, size 0x8
-  __declspec(property(get = __get_Target, put = __set_Target)) uint64_t Target;
+  __declspec(property(get = __cordl_internal_get_Target, put = __cordl_internal_set_Target)) uint64_t Target;
 
-  constexpr ::Oculus::Platform::AchievementType& __get_Type();
+  constexpr ::Oculus::Platform::AchievementType& __cordl_internal_get_Type();
 
-  constexpr ::Oculus::Platform::AchievementType const& __get_Type() const;
+  constexpr ::Oculus::Platform::AchievementType const& __cordl_internal_get_Type() const;
 
-  constexpr void __set_Type(::Oculus::Platform::AchievementType value);
+  constexpr void __cordl_internal_set_Type(::Oculus::Platform::AchievementType value);
 
-  constexpr ::StringW& __get_Name();
+  constexpr ::StringW& __cordl_internal_get_Name();
 
-  constexpr ::StringW const& __get_Name() const;
+  constexpr ::StringW const& __cordl_internal_get_Name() const;
 
-  constexpr void __set_Name(::StringW value);
+  constexpr void __cordl_internal_set_Name(::StringW value);
 
-  constexpr uint32_t& __get_BitfieldLength();
+  constexpr uint32_t& __cordl_internal_get_BitfieldLength();
 
-  constexpr uint32_t const& __get_BitfieldLength() const;
+  constexpr uint32_t const& __cordl_internal_get_BitfieldLength() const;
 
-  constexpr void __set_BitfieldLength(uint32_t value);
+  constexpr void __cordl_internal_set_BitfieldLength(uint32_t value);
 
-  constexpr uint64_t& __get_Target();
+  constexpr uint64_t& __cordl_internal_get_Target();
 
-  constexpr uint64_t const& __get_Target() const;
+  constexpr uint64_t const& __cordl_internal_get_Target() const;
 
-  constexpr void __set_Target(uint64_t value);
+  constexpr void __cordl_internal_set_Target(uint64_t value);
 
   static inline ::Oculus::Platform::Models::AchievementDefinition* New_ctor(void* o);
 

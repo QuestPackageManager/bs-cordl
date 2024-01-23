@@ -44,100 +44,100 @@ MARK_REF_PTR_T(::UnityEngine::UI::__StencilMaterial__MatEntry);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10336)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10334)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10335))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13126)) CS Name: ::StencilMaterial::MatEntry*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10334)), TypeDefinitionIndex(TypeDefinitionIndex(10335)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10336))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13126)) CS Name: ::StencilMaterial::MatEntry*
 class CORDL_TYPE __StencilMaterial__MatEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field baseMat, offset 0x10, size 0x8
-  __declspec(property(get = __get_baseMat, put = __set_baseMat))::UnityEngine::Material* baseMat;
+  __declspec(property(get = __cordl_internal_get_baseMat, put = __cordl_internal_set_baseMat))::UnityW<::UnityEngine::Material> baseMat;
 
   /// @brief Field customMat, offset 0x18, size 0x8
-  __declspec(property(get = __get_customMat, put = __set_customMat))::UnityEngine::Material* customMat;
+  __declspec(property(get = __cordl_internal_get_customMat, put = __cordl_internal_set_customMat))::UnityW<::UnityEngine::Material> customMat;
 
   /// @brief Field count, offset 0x20, size 0x4
-  __declspec(property(get = __get_count, put = __set_count)) int32_t count;
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field stencilId, offset 0x24, size 0x4
-  __declspec(property(get = __get_stencilId, put = __set_stencilId)) int32_t stencilId;
+  __declspec(property(get = __cordl_internal_get_stencilId, put = __cordl_internal_set_stencilId)) int32_t stencilId;
 
   /// @brief Field operation, offset 0x28, size 0x4
-  __declspec(property(get = __get_operation, put = __set_operation))::UnityEngine::Rendering::StencilOp operation;
+  __declspec(property(get = __cordl_internal_get_operation, put = __cordl_internal_set_operation))::UnityEngine::Rendering::StencilOp operation;
 
   /// @brief Field compareFunction, offset 0x2c, size 0x4
-  __declspec(property(get = __get_compareFunction, put = __set_compareFunction))::UnityEngine::Rendering::CompareFunction compareFunction;
+  __declspec(property(get = __cordl_internal_get_compareFunction, put = __cordl_internal_set_compareFunction))::UnityEngine::Rendering::CompareFunction compareFunction;
 
   /// @brief Field readMask, offset 0x30, size 0x4
-  __declspec(property(get = __get_readMask, put = __set_readMask)) int32_t readMask;
+  __declspec(property(get = __cordl_internal_get_readMask, put = __cordl_internal_set_readMask)) int32_t readMask;
 
   /// @brief Field writeMask, offset 0x34, size 0x4
-  __declspec(property(get = __get_writeMask, put = __set_writeMask)) int32_t writeMask;
+  __declspec(property(get = __cordl_internal_get_writeMask, put = __cordl_internal_set_writeMask)) int32_t writeMask;
 
   /// @brief Field useAlphaClip, offset 0x38, size 0x1
-  __declspec(property(get = __get_useAlphaClip, put = __set_useAlphaClip)) bool useAlphaClip;
+  __declspec(property(get = __cordl_internal_get_useAlphaClip, put = __cordl_internal_set_useAlphaClip)) bool useAlphaClip;
 
   /// @brief Field colorMask, offset 0x3c, size 0x4
-  __declspec(property(get = __get_colorMask, put = __set_colorMask))::UnityEngine::Rendering::ColorWriteMask colorMask;
+  __declspec(property(get = __cordl_internal_get_colorMask, put = __cordl_internal_set_colorMask))::UnityEngine::Rendering::ColorWriteMask colorMask;
 
-  constexpr ::UnityEngine::Material*& __get_baseMat();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_baseMat();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_baseMat() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_baseMat() const;
 
-  constexpr void __set_baseMat(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_baseMat(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get_customMat();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_customMat();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_customMat() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_customMat() const;
 
-  constexpr void __set_customMat(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_customMat(::UnityW<::UnityEngine::Material> value);
 
-  constexpr int32_t& __get_count();
+  constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr int32_t const& __get_count() const;
+  constexpr int32_t const& __cordl_internal_get_count() const;
 
-  constexpr void __set_count(int32_t value);
+  constexpr void __cordl_internal_set_count(int32_t value);
 
-  constexpr int32_t& __get_stencilId();
+  constexpr int32_t& __cordl_internal_get_stencilId();
 
-  constexpr int32_t const& __get_stencilId() const;
+  constexpr int32_t const& __cordl_internal_get_stencilId() const;
 
-  constexpr void __set_stencilId(int32_t value);
+  constexpr void __cordl_internal_set_stencilId(int32_t value);
 
-  constexpr ::UnityEngine::Rendering::StencilOp& __get_operation();
+  constexpr ::UnityEngine::Rendering::StencilOp& __cordl_internal_get_operation();
 
-  constexpr ::UnityEngine::Rendering::StencilOp const& __get_operation() const;
+  constexpr ::UnityEngine::Rendering::StencilOp const& __cordl_internal_get_operation() const;
 
-  constexpr void __set_operation(::UnityEngine::Rendering::StencilOp value);
+  constexpr void __cordl_internal_set_operation(::UnityEngine::Rendering::StencilOp value);
 
-  constexpr ::UnityEngine::Rendering::CompareFunction& __get_compareFunction();
+  constexpr ::UnityEngine::Rendering::CompareFunction& __cordl_internal_get_compareFunction();
 
-  constexpr ::UnityEngine::Rendering::CompareFunction const& __get_compareFunction() const;
+  constexpr ::UnityEngine::Rendering::CompareFunction const& __cordl_internal_get_compareFunction() const;
 
-  constexpr void __set_compareFunction(::UnityEngine::Rendering::CompareFunction value);
+  constexpr void __cordl_internal_set_compareFunction(::UnityEngine::Rendering::CompareFunction value);
 
-  constexpr int32_t& __get_readMask();
+  constexpr int32_t& __cordl_internal_get_readMask();
 
-  constexpr int32_t const& __get_readMask() const;
+  constexpr int32_t const& __cordl_internal_get_readMask() const;
 
-  constexpr void __set_readMask(int32_t value);
+  constexpr void __cordl_internal_set_readMask(int32_t value);
 
-  constexpr int32_t& __get_writeMask();
+  constexpr int32_t& __cordl_internal_get_writeMask();
 
-  constexpr int32_t const& __get_writeMask() const;
+  constexpr int32_t const& __cordl_internal_get_writeMask() const;
 
-  constexpr void __set_writeMask(int32_t value);
+  constexpr void __cordl_internal_set_writeMask(int32_t value);
 
-  constexpr bool& __get_useAlphaClip();
+  constexpr bool& __cordl_internal_get_useAlphaClip();
 
-  constexpr bool const& __get_useAlphaClip() const;
+  constexpr bool const& __cordl_internal_get_useAlphaClip() const;
 
-  constexpr void __set_useAlphaClip(bool value);
+  constexpr void __cordl_internal_set_useAlphaClip(bool value);
 
-  constexpr ::UnityEngine::Rendering::ColorWriteMask& __get_colorMask();
+  constexpr ::UnityEngine::Rendering::ColorWriteMask& __cordl_internal_get_colorMask();
 
-  constexpr ::UnityEngine::Rendering::ColorWriteMask const& __get_colorMask() const;
+  constexpr ::UnityEngine::Rendering::ColorWriteMask const& __cordl_internal_get_colorMask() const;
 
-  constexpr void __set_colorMask(::UnityEngine::Rendering::ColorWriteMask value);
+  constexpr void __cordl_internal_set_colorMask(::UnityEngine::Rendering::ColorWriteMask value);
 
   static inline ::UnityEngine::UI::__StencilMaterial__MatEntry* New_ctor();
 
@@ -159,10 +159,10 @@ protected:
 
 public:
   /// @brief Field baseMat, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Material* ___baseMat;
+  ::UnityW<::UnityEngine::Material> ___baseMat;
 
   /// @brief Field customMat, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Material* ___customMat;
+  ::UnityW<::UnityEngine::Material> ___customMat;
 
   /// @brief Field count, offset: 0x20, size: 0x4, def value: None
   int32_t ___count;
@@ -218,7 +218,7 @@ static_assert(offsetof(::UnityEngine::UI::__StencilMaterial__MatEntry, ___colorM
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13127))
 // CS Name: ::UnityEngine.UI::StencilMaterial*
 class CORDL_TYPE StencilMaterial : public ::System::Object {
@@ -234,18 +234,19 @@ public:
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UI::__StencilMaterial__MatEntry*>* getStaticF_m_List();
 
   /// @brief Method Add, addr 0x2d89da4, size 0x8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* Add(::UnityEngine::Material* baseMat, int32_t stencilID);
+  static inline ::UnityW<::UnityEngine::Material> Add(::UnityEngine::Material* baseMat, int32_t stencilID);
 
   /// @brief Method Add, addr 0x2d89dac, size 0x8c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* Add(::UnityEngine::Material* baseMat, int32_t stencilID, ::UnityEngine::Rendering::StencilOp operation,
-                                             ::UnityEngine::Rendering::CompareFunction compareFunction, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask);
+  static inline ::UnityW<::UnityEngine::Material> Add(::UnityEngine::Material* baseMat, int32_t stencilID, ::UnityEngine::Rendering::StencilOp operation,
+                                                      ::UnityEngine::Rendering::CompareFunction compareFunction, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask);
 
   /// @brief Method LogWarningWhenNotInBatchmode, addr 0x2d8a750, size 0x78, virtual false, abstract: false, final false
   static inline void LogWarningWhenNotInBatchmode(::StringW warning, ::UnityEngine::Object* context);
 
   /// @brief Method Add, addr 0x2d89e38, size 0x918, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* Add(::UnityEngine::Material* baseMat, int32_t stencilID, ::UnityEngine::Rendering::StencilOp operation,
-                                             ::UnityEngine::Rendering::CompareFunction compareFunction, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask, int32_t readMask, int32_t writeMask);
+  static inline ::UnityW<::UnityEngine::Material> Add(::UnityEngine::Material* baseMat, int32_t stencilID, ::UnityEngine::Rendering::StencilOp operation,
+                                                      ::UnityEngine::Rendering::CompareFunction compareFunction, ::UnityEngine::Rendering::ColorWriteMask colorWriteMask, int32_t readMask,
+                                                      int32_t writeMask);
 
   /// @brief Method Remove, addr 0x2d8a7d8, size 0x1c0, virtual false, abstract: false, final false
   static inline void Remove(::UnityEngine::Material* customMat);

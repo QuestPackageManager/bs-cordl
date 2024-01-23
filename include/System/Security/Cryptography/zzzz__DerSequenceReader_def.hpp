@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::__DerSequenceReader____c);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8969))
 // CS Name: ::DerSequenceReader::DerTag
 struct CORDL_TYPE __DerSequenceReader__DerTag {
@@ -147,7 +147,7 @@ static_assert(offsetof(::System::Security::Cryptography::__DerSequenceReader__De
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8970))
 // CS Name: ::DerSequenceReader::<>c*
 class CORDL_TYPE __DerSequenceReader____c : public ::System::Object {
@@ -219,7 +219,7 @@ static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8971))
 // CS Name: ::System.Security.Cryptography::DerSequenceReader*
 class CORDL_TYPE DerSequenceReader : public ::System::Object {
@@ -230,16 +230,16 @@ public:
   using DerTag = ::System::Security::Cryptography::__DerSequenceReader__DerTag;
 
   /// @brief Field _data, offset 0x10, size 0x8
-  __declspec(property(get = __get__data, put = __set__data))::ArrayW<uint8_t, ::Array<uint8_t>*> _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::ArrayW<uint8_t, ::Array<uint8_t>*> _data;
 
   /// @brief Field _end, offset 0x18, size 0x4
-  __declspec(property(get = __get__end, put = __set__end)) int32_t _end;
+  __declspec(property(get = __cordl_internal_get__end, put = __cordl_internal_set__end)) int32_t _end;
 
   /// @brief Field _position, offset 0x1c, size 0x4
-  __declspec(property(get = __get__position, put = __set__position)) int32_t _position;
+  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position)) int32_t _position;
 
   /// @brief Field <ContentLength>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __get__ContentLength_k__BackingField, put = __set__ContentLength_k__BackingField)) int32_t _ContentLength_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ContentLength_k__BackingField, put = __cordl_internal_set__ContentLength_k__BackingField)) int32_t _ContentLength_k__BackingField;
 
   /// @brief Field s_validityDateTimeFormatInfo, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_validityDateTimeFormatInfo, put = setStaticF_s_validityDateTimeFormatInfo))::System::Globalization::DateTimeFormatInfo* s_validityDateTimeFormatInfo;
@@ -254,29 +254,29 @@ public:
 
   __declspec(property(get = get_HasData)) bool HasData;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__data();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__data();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__data() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__data() const;
 
-  constexpr void __set__data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__end();
+  constexpr int32_t& __cordl_internal_get__end();
 
-  constexpr int32_t const& __get__end() const;
+  constexpr int32_t const& __cordl_internal_get__end() const;
 
-  constexpr void __set__end(int32_t value);
+  constexpr void __cordl_internal_set__end(int32_t value);
 
-  constexpr int32_t& __get__position();
+  constexpr int32_t& __cordl_internal_get__position();
 
-  constexpr int32_t const& __get__position() const;
+  constexpr int32_t const& __cordl_internal_get__position() const;
 
-  constexpr void __set__position(int32_t value);
+  constexpr void __cordl_internal_set__position(int32_t value);
 
-  constexpr int32_t& __get__ContentLength_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__ContentLength_k__BackingField();
 
-  constexpr int32_t const& __get__ContentLength_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__ContentLength_k__BackingField() const;
 
-  constexpr void __set__ContentLength_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__ContentLength_k__BackingField(int32_t value);
 
   static inline void setStaticF_s_validityDateTimeFormatInfo(::System::Globalization::DateTimeFormatInfo* value);
 

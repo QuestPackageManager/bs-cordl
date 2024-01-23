@@ -32,20 +32,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(862))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RsaBlindedEngine*
 class CORDL_TYPE RsaBlindedEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field core, offset 0x10, size 0x8
-  __declspec(property(get = __get_core, put = __set_core))::Org::BouncyCastle::Crypto::IRsa* core;
+  __declspec(property(get = __cordl_internal_get_core, put = __cordl_internal_set_core))::Org::BouncyCastle::Crypto::IRsa* core;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key;
 
   /// @brief Field random, offset 0x20, size 0x8
-  __declspec(property(get = __get_random, put = __set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -55,23 +55,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IRsa*& __get_core();
+  constexpr ::Org::BouncyCastle::Crypto::IRsa*& __cordl_internal_get_core();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IRsa*> const& __get_core() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IRsa*> const& __cordl_internal_get_core() const;
 
-  constexpr void __set_core(::Org::BouncyCastle::Crypto::IRsa* value);
+  constexpr void __cordl_internal_set_core(::Org::BouncyCastle::Crypto::IRsa* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __get_key();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
+  constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_random();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_random() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
-  constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RsaBlindedEngine* New_ctor();
 

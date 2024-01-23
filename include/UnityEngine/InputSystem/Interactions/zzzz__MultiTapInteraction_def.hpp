@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Interactions::MultiTapInteraction);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Interactions {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6647))
 // CS Name: ::MultiTapInteraction::TapPhase
 struct CORDL_TYPE __MultiTapInteraction__TapPhase {
@@ -89,7 +89,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Interactions::__MultiTapInter
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Interactions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6647))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6647))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6648))
 // CS Name: ::UnityEngine.InputSystem.Interactions::MultiTapInteraction*
 class CORDL_TYPE MultiTapInteraction : public ::System::Object {
@@ -98,28 +98,29 @@ public:
   using TapPhase = ::UnityEngine::InputSystem::Interactions::__MultiTapInteraction__TapPhase;
 
   /// @brief Field tapTime, offset 0x10, size 0x4
-  __declspec(property(get = __get_tapTime, put = __set_tapTime)) float_t tapTime;
+  __declspec(property(get = __cordl_internal_get_tapTime, put = __cordl_internal_set_tapTime)) float_t tapTime;
 
   /// @brief Field tapDelay, offset 0x14, size 0x4
-  __declspec(property(get = __get_tapDelay, put = __set_tapDelay)) float_t tapDelay;
+  __declspec(property(get = __cordl_internal_get_tapDelay, put = __cordl_internal_set_tapDelay)) float_t tapDelay;
 
   /// @brief Field tapCount, offset 0x18, size 0x4
-  __declspec(property(get = __get_tapCount, put = __set_tapCount)) int32_t tapCount;
+  __declspec(property(get = __cordl_internal_get_tapCount, put = __cordl_internal_set_tapCount)) int32_t tapCount;
 
   /// @brief Field pressPoint, offset 0x1c, size 0x4
-  __declspec(property(get = __get_pressPoint, put = __set_pressPoint)) float_t pressPoint;
+  __declspec(property(get = __cordl_internal_get_pressPoint, put = __cordl_internal_set_pressPoint)) float_t pressPoint;
 
   /// @brief Field m_CurrentTapPhase, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_CurrentTapPhase, put = __set_m_CurrentTapPhase))::UnityEngine::InputSystem::Interactions::__MultiTapInteraction__TapPhase m_CurrentTapPhase;
+  __declspec(property(get = __cordl_internal_get_m_CurrentTapPhase,
+                      put = __cordl_internal_set_m_CurrentTapPhase))::UnityEngine::InputSystem::Interactions::__MultiTapInteraction__TapPhase m_CurrentTapPhase;
 
   /// @brief Field m_CurrentTapCount, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_CurrentTapCount, put = __set_m_CurrentTapCount)) int32_t m_CurrentTapCount;
+  __declspec(property(get = __cordl_internal_get_m_CurrentTapCount, put = __cordl_internal_set_m_CurrentTapCount)) int32_t m_CurrentTapCount;
 
   /// @brief Field m_CurrentTapStartTime, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_CurrentTapStartTime, put = __set_m_CurrentTapStartTime)) double_t m_CurrentTapStartTime;
+  __declspec(property(get = __cordl_internal_get_m_CurrentTapStartTime, put = __cordl_internal_set_m_CurrentTapStartTime)) double_t m_CurrentTapStartTime;
 
   /// @brief Field m_LastTapReleaseTime, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_LastTapReleaseTime, put = __set_m_LastTapReleaseTime)) double_t m_LastTapReleaseTime;
+  __declspec(property(get = __cordl_internal_get_m_LastTapReleaseTime, put = __cordl_internal_set_m_LastTapReleaseTime)) double_t m_LastTapReleaseTime;
 
   __declspec(property(get = get_tapTimeOrDefault)) float_t tapTimeOrDefault;
 
@@ -141,53 +142,53 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::IInputInteraction"
   constexpr ::UnityEngine::InputSystem::IInputInteraction* i___UnityEngine__InputSystem__IInputInteraction() noexcept;
 
-  constexpr float_t& __get_tapTime();
+  constexpr float_t& __cordl_internal_get_tapTime();
 
-  constexpr float_t const& __get_tapTime() const;
+  constexpr float_t const& __cordl_internal_get_tapTime() const;
 
-  constexpr void __set_tapTime(float_t value);
+  constexpr void __cordl_internal_set_tapTime(float_t value);
 
-  constexpr float_t& __get_tapDelay();
+  constexpr float_t& __cordl_internal_get_tapDelay();
 
-  constexpr float_t const& __get_tapDelay() const;
+  constexpr float_t const& __cordl_internal_get_tapDelay() const;
 
-  constexpr void __set_tapDelay(float_t value);
+  constexpr void __cordl_internal_set_tapDelay(float_t value);
 
-  constexpr int32_t& __get_tapCount();
+  constexpr int32_t& __cordl_internal_get_tapCount();
 
-  constexpr int32_t const& __get_tapCount() const;
+  constexpr int32_t const& __cordl_internal_get_tapCount() const;
 
-  constexpr void __set_tapCount(int32_t value);
+  constexpr void __cordl_internal_set_tapCount(int32_t value);
 
-  constexpr float_t& __get_pressPoint();
+  constexpr float_t& __cordl_internal_get_pressPoint();
 
-  constexpr float_t const& __get_pressPoint() const;
+  constexpr float_t const& __cordl_internal_get_pressPoint() const;
 
-  constexpr void __set_pressPoint(float_t value);
+  constexpr void __cordl_internal_set_pressPoint(float_t value);
 
-  constexpr ::UnityEngine::InputSystem::Interactions::__MultiTapInteraction__TapPhase& __get_m_CurrentTapPhase();
+  constexpr ::UnityEngine::InputSystem::Interactions::__MultiTapInteraction__TapPhase& __cordl_internal_get_m_CurrentTapPhase();
 
-  constexpr ::UnityEngine::InputSystem::Interactions::__MultiTapInteraction__TapPhase const& __get_m_CurrentTapPhase() const;
+  constexpr ::UnityEngine::InputSystem::Interactions::__MultiTapInteraction__TapPhase const& __cordl_internal_get_m_CurrentTapPhase() const;
 
-  constexpr void __set_m_CurrentTapPhase(::UnityEngine::InputSystem::Interactions::__MultiTapInteraction__TapPhase value);
+  constexpr void __cordl_internal_set_m_CurrentTapPhase(::UnityEngine::InputSystem::Interactions::__MultiTapInteraction__TapPhase value);
 
-  constexpr int32_t& __get_m_CurrentTapCount();
+  constexpr int32_t& __cordl_internal_get_m_CurrentTapCount();
 
-  constexpr int32_t const& __get_m_CurrentTapCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_CurrentTapCount() const;
 
-  constexpr void __set_m_CurrentTapCount(int32_t value);
+  constexpr void __cordl_internal_set_m_CurrentTapCount(int32_t value);
 
-  constexpr double_t& __get_m_CurrentTapStartTime();
+  constexpr double_t& __cordl_internal_get_m_CurrentTapStartTime();
 
-  constexpr double_t const& __get_m_CurrentTapStartTime() const;
+  constexpr double_t const& __cordl_internal_get_m_CurrentTapStartTime() const;
 
-  constexpr void __set_m_CurrentTapStartTime(double_t value);
+  constexpr void __cordl_internal_set_m_CurrentTapStartTime(double_t value);
 
-  constexpr double_t& __get_m_LastTapReleaseTime();
+  constexpr double_t& __cordl_internal_get_m_LastTapReleaseTime();
 
-  constexpr double_t const& __get_m_LastTapReleaseTime() const;
+  constexpr double_t const& __cordl_internal_get_m_LastTapReleaseTime() const;
 
-  constexpr void __set_m_LastTapReleaseTime(double_t value);
+  constexpr void __cordl_internal_set_m_LastTapReleaseTime(double_t value);
 
   /// @brief Method get_tapTimeOrDefault, addr 0x2b0c6e4, size 0x70, virtual false, abstract: false, final false
   inline float_t get_tapTimeOrDefault();

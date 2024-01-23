@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::FieldOffsetAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3331))
 // CS Name: ::System.Runtime.InteropServices::FieldOffsetAttribute*
 class CORDL_TYPE FieldOffsetAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field _val, offset 0x10, size 0x4
-  __declspec(property(get = __get__val, put = __set__val)) int32_t _val;
+  __declspec(property(get = __cordl_internal_get__val, put = __cordl_internal_set__val)) int32_t _val;
 
-  constexpr int32_t& __get__val();
+  constexpr int32_t& __cordl_internal_get__val();
 
-  constexpr int32_t const& __get__val() const;
+  constexpr int32_t const& __cordl_internal_get__val() const;
 
-  constexpr void __set__val(int32_t value);
+  constexpr void __cordl_internal_set__val(int32_t value);
 
   static inline ::System::Runtime::InteropServices::FieldOffsetAttribute* New_ctor(int32_t offset);
 

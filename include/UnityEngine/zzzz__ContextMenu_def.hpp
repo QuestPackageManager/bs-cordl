@@ -16,38 +16,38 @@ MARK_REF_PTR_T(::UnityEngine::ContextMenu);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10217))
 // CS Name: ::UnityEngine::ContextMenu*
 class CORDL_TYPE ContextMenu : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field menuItem, offset 0x10, size 0x8
-  __declspec(property(get = __get_menuItem, put = __set_menuItem))::StringW menuItem;
+  __declspec(property(get = __cordl_internal_get_menuItem, put = __cordl_internal_set_menuItem))::StringW menuItem;
 
   /// @brief Field validate, offset 0x18, size 0x1
-  __declspec(property(get = __get_validate, put = __set_validate)) bool validate;
+  __declspec(property(get = __cordl_internal_get_validate, put = __cordl_internal_set_validate)) bool validate;
 
   /// @brief Field priority, offset 0x1c, size 0x4
-  __declspec(property(get = __get_priority, put = __set_priority)) int32_t priority;
+  __declspec(property(get = __cordl_internal_get_priority, put = __cordl_internal_set_priority)) int32_t priority;
 
-  constexpr ::StringW& __get_menuItem();
+  constexpr ::StringW& __cordl_internal_get_menuItem();
 
-  constexpr ::StringW const& __get_menuItem() const;
+  constexpr ::StringW const& __cordl_internal_get_menuItem() const;
 
-  constexpr void __set_menuItem(::StringW value);
+  constexpr void __cordl_internal_set_menuItem(::StringW value);
 
-  constexpr bool& __get_validate();
+  constexpr bool& __cordl_internal_get_validate();
 
-  constexpr bool const& __get_validate() const;
+  constexpr bool const& __cordl_internal_get_validate() const;
 
-  constexpr void __set_validate(bool value);
+  constexpr void __cordl_internal_set_validate(bool value);
 
-  constexpr int32_t& __get_priority();
+  constexpr int32_t& __cordl_internal_get_priority();
 
-  constexpr int32_t const& __get_priority() const;
+  constexpr int32_t const& __cordl_internal_get_priority() const;
 
-  constexpr void __set_priority(int32_t value);
+  constexpr void __cordl_internal_set_priority(int32_t value);
 
   static inline ::UnityEngine::ContextMenu* New_ctor(::StringW itemName);
 

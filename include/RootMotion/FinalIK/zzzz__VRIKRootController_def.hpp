@@ -27,58 +27,59 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::VRIKRootController);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12674))
 // CS Name: ::RootMotion.FinalIK::VRIKRootController*
 class CORDL_TYPE VRIKRootController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field <pelvisTargetRight>k__BackingField, offset 0x18, size 0xc
-  __declspec(property(get = __get__pelvisTargetRight_k__BackingField, put = __set__pelvisTargetRight_k__BackingField))::UnityEngine::Vector3 _pelvisTargetRight_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__pelvisTargetRight_k__BackingField,
+                      put = __cordl_internal_set__pelvisTargetRight_k__BackingField))::UnityEngine::Vector3 _pelvisTargetRight_k__BackingField;
 
   /// @brief Field pelvisTarget, offset 0x28, size 0x8
-  __declspec(property(get = __get_pelvisTarget, put = __set_pelvisTarget))::UnityEngine::Transform* pelvisTarget;
+  __declspec(property(get = __cordl_internal_get_pelvisTarget, put = __cordl_internal_set_pelvisTarget))::UnityW<::UnityEngine::Transform> pelvisTarget;
 
   /// @brief Field leftFootTarget, offset 0x30, size 0x8
-  __declspec(property(get = __get_leftFootTarget, put = __set_leftFootTarget))::UnityEngine::Transform* leftFootTarget;
+  __declspec(property(get = __cordl_internal_get_leftFootTarget, put = __cordl_internal_set_leftFootTarget))::UnityW<::UnityEngine::Transform> leftFootTarget;
 
   /// @brief Field rightFootTarget, offset 0x38, size 0x8
-  __declspec(property(get = __get_rightFootTarget, put = __set_rightFootTarget))::UnityEngine::Transform* rightFootTarget;
+  __declspec(property(get = __cordl_internal_get_rightFootTarget, put = __cordl_internal_set_rightFootTarget))::UnityW<::UnityEngine::Transform> rightFootTarget;
 
   /// @brief Field ik, offset 0x40, size 0x8
-  __declspec(property(get = __get_ik, put = __set_ik))::RootMotion::FinalIK::VRIK* ik;
+  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::VRIK> ik;
 
   __declspec(property(get = get_pelvisTargetRight, put = set_pelvisTargetRight))::UnityEngine::Vector3 pelvisTargetRight;
 
-  constexpr ::UnityEngine::Vector3& __get__pelvisTargetRight_k__BackingField();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__pelvisTargetRight_k__BackingField();
 
-  constexpr ::UnityEngine::Vector3 const& __get__pelvisTargetRight_k__BackingField() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__pelvisTargetRight_k__BackingField() const;
 
-  constexpr void __set__pelvisTargetRight_k__BackingField(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__pelvisTargetRight_k__BackingField(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Transform*& __get_pelvisTarget();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_pelvisTarget();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_pelvisTarget() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_pelvisTarget() const;
 
-  constexpr void __set_pelvisTarget(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_pelvisTarget(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_leftFootTarget();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_leftFootTarget();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_leftFootTarget() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_leftFootTarget() const;
 
-  constexpr void __set_leftFootTarget(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_leftFootTarget(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_rightFootTarget();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rightFootTarget();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_rightFootTarget() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rightFootTarget() const;
 
-  constexpr void __set_rightFootTarget(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_rightFootTarget(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::RootMotion::FinalIK::VRIK*& __get_ik();
+  constexpr ::UnityW<::RootMotion::FinalIK::VRIK>& __cordl_internal_get_ik();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::VRIK*> const& __get_ik() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::VRIK> const& __cordl_internal_get_ik() const;
 
-  constexpr void __set_ik(::RootMotion::FinalIK::VRIK* value);
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::VRIK> value);
 
   /// @brief Method get_pelvisTargetRight, addr 0x129d7ac, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_pelvisTargetRight();
@@ -124,16 +125,16 @@ public:
   ::UnityEngine::Vector3 ____pelvisTargetRight_k__BackingField;
 
   /// @brief Field pelvisTarget, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___pelvisTarget;
+  ::UnityW<::UnityEngine::Transform> ___pelvisTarget;
 
   /// @brief Field leftFootTarget, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___leftFootTarget;
+  ::UnityW<::UnityEngine::Transform> ___leftFootTarget;
 
   /// @brief Field rightFootTarget, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___rightFootTarget;
+  ::UnityW<::UnityEngine::Transform> ___rightFootTarget;
 
   /// @brief Field ik, offset: 0x40, size: 0x8, def value: None
-  ::RootMotion::FinalIK::VRIK* ___ik;
+  ::UnityW<::RootMotion::FinalIK::VRIK> ___ik;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -22,29 +22,29 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryObjec
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3264))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryObjectString*
 class CORDL_TYPE BinaryObjectString : public ::System::Object {
 public:
   // Declarations
   /// @brief Field objectId, offset 0x10, size 0x4
-  __declspec(property(get = __get_objectId, put = __set_objectId)) int32_t objectId;
+  __declspec(property(get = __cordl_internal_get_objectId, put = __cordl_internal_set_objectId)) int32_t objectId;
 
   /// @brief Field value, offset 0x18, size 0x8
-  __declspec(property(get = __get_value, put = __set_value))::StringW value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::StringW value;
 
-  constexpr int32_t& __get_objectId();
+  constexpr int32_t& __cordl_internal_get_objectId();
 
-  constexpr int32_t const& __get_objectId() const;
+  constexpr int32_t const& __cordl_internal_get_objectId() const;
 
-  constexpr void __set_objectId(int32_t value);
+  constexpr void __cordl_internal_set_objectId(int32_t value);
 
-  constexpr ::StringW& __get_value();
+  constexpr ::StringW& __cordl_internal_get_value();
 
-  constexpr ::StringW const& __get_value() const;
+  constexpr ::StringW const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(::StringW value);
+  constexpr void __cordl_internal_set_value(::StringW value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* New_ctor();
 

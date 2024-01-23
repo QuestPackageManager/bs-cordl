@@ -49,7 +49,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRBoundary__BoundaryTestResult);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7527))
 // CS Name: ::OVRBoundary::Node
 struct CORDL_TYPE __OVRBoundary__Node {
@@ -103,7 +103,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRBoundary__Node, value__) == 0x0, 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7528))
 // CS Name: ::OVRBoundary::BoundaryType
 struct CORDL_TYPE __OVRBoundary__BoundaryType {
@@ -153,7 +153,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRBoundary__BoundaryType, value__) 
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7529))
 // CS Name: ::OVRBoundary::BoundaryTestResult
 struct CORDL_TYPE __OVRBoundary__BoundaryTestResult {
@@ -200,7 +200,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRBoundary__BoundaryTestResult, Clo
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7530))
 // CS Name: ::OVRBoundary*
 class CORDL_TYPE OVRBoundary : public ::System::Object {
@@ -213,7 +213,7 @@ public:
   using Node = ::GlobalNamespace::__OVRBoundary__Node;
 
   /// @brief Field cachedGeometryList, offset 0x10, size 0x8
-  __declspec(property(get = __get_cachedGeometryList, put = __set_cachedGeometryList))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* cachedGeometryList;
+  __declspec(property(get = __cordl_internal_get_cachedGeometryList, put = __cordl_internal_set_cachedGeometryList))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* cachedGeometryList;
 
   /// @brief Field cachedVector3fSize, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_cachedVector3fSize, put = setStaticF_cachedVector3fSize)) int32_t cachedVector3fSize;
@@ -224,11 +224,11 @@ public:
   /// @brief Field cachedGeometryManagedBuffer, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_cachedGeometryManagedBuffer, put = setStaticF_cachedGeometryManagedBuffer))::ArrayW<float_t, ::Array<float_t>*> cachedGeometryManagedBuffer;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __get_cachedGeometryList();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_cachedGeometryList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __get_cachedGeometryList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_cachedGeometryList() const;
 
-  constexpr void __set_cachedGeometryList(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set_cachedGeometryList(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
   static inline void setStaticF_cachedVector3fSize(int32_t value);
 

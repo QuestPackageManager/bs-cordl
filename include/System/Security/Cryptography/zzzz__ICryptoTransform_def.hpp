@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::ICryptoTransform);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2941))
 // CS Name: ::System.Security.Cryptography::ICryptoTransform*
 class CORDL_TYPE ICryptoTransform {

@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::System::Xml::Schema::LeafRangeNode);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2655)), TypeDefinitionIndex(TypeDefinitionIndex(11600))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2655)), TypeDefinitionIndex(TypeDefinitionIndex(11600))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11609))
 // CS Name: ::System.Xml.Schema::LeafRangeNode*
 class CORDL_TYPE LeafRangeNode : public ::System::Xml::Schema::LeafNode {
 public:
   // Declarations
   /// @brief Field min, offset 0x18, size 0x10
-  __declspec(property(get = __get_min, put = __set_min))::System::Decimal min;
+  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min))::System::Decimal min;
 
   /// @brief Field max, offset 0x28, size 0x10
-  __declspec(property(get = __get_max, put = __set_max))::System::Decimal max;
+  __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max))::System::Decimal max;
 
   /// @brief Field nextIteration, offset 0x38, size 0x8
-  __declspec(property(get = __get_nextIteration, put = __set_nextIteration))::System::Xml::Schema::BitSet* nextIteration;
+  __declspec(property(get = __cordl_internal_get_nextIteration, put = __cordl_internal_set_nextIteration))::System::Xml::Schema::BitSet* nextIteration;
 
   __declspec(property(get = get_Max))::System::Decimal Max;
 
@@ -42,23 +42,23 @@ public:
 
   __declspec(property(get = get_NextIteration, put = set_NextIteration))::System::Xml::Schema::BitSet* NextIteration;
 
-  constexpr ::System::Decimal& __get_min();
+  constexpr ::System::Decimal& __cordl_internal_get_min();
 
-  constexpr ::System::Decimal const& __get_min() const;
+  constexpr ::System::Decimal const& __cordl_internal_get_min() const;
 
-  constexpr void __set_min(::System::Decimal value);
+  constexpr void __cordl_internal_set_min(::System::Decimal value);
 
-  constexpr ::System::Decimal& __get_max();
+  constexpr ::System::Decimal& __cordl_internal_get_max();
 
-  constexpr ::System::Decimal const& __get_max() const;
+  constexpr ::System::Decimal const& __cordl_internal_get_max() const;
 
-  constexpr void __set_max(::System::Decimal value);
+  constexpr void __cordl_internal_set_max(::System::Decimal value);
 
-  constexpr ::System::Xml::Schema::BitSet*& __get_nextIteration();
+  constexpr ::System::Xml::Schema::BitSet*& __cordl_internal_get_nextIteration();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::BitSet*> const& __get_nextIteration() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::BitSet*> const& __cordl_internal_get_nextIteration() const;
 
-  constexpr void __set_nextIteration(::System::Xml::Schema::BitSet* value);
+  constexpr void __cordl_internal_set_nextIteration(::System::Xml::Schema::BitSet* value);
 
   /// @brief Method get_Max, addr 0x28aed00, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_Max();

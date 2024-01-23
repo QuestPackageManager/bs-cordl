@@ -25,20 +25,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher)
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Paddings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(966))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1008))
 // CS Name: ::Org.BouncyCastle.Crypto.Paddings::PaddedBufferedBlockCipher*
 class CORDL_TYPE PaddedBufferedBlockCipher : public ::Org::BouncyCastle::Crypto::BufferedBlockCipher {
 public:
   // Declarations
   /// @brief Field padding, offset 0x28, size 0x8
-  __declspec(property(get = __get_padding, put = __set_padding))::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding;
+  __declspec(property(get = __cordl_internal_get_padding, put = __cordl_internal_set_padding))::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding;
 
-  constexpr ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*& __get_padding();
+  constexpr ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*& __cordl_internal_get_padding();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*> const& __get_padding() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding*> const& __cordl_internal_get_padding() const;
 
-  constexpr void __set_padding(::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* value);
+  constexpr void __cordl_internal_set_padding(::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* value);
 
   static inline ::Org::BouncyCastle::Crypto::Paddings::PaddedBufferedBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher,
                                                                                            ::Org::BouncyCastle::Crypto::Paddings::IBlockCipherPadding* padding);

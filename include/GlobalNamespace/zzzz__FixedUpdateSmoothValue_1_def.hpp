@@ -17,38 +17,38 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14333))
 // CS Name: ::FixedUpdateSmoothValue`1<T>*
 class CORDL_TYPE FixedUpdateSmoothValue_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _currentSmoothedValue, offset 0x10, size 0x8
-  __declspec(property(get = __get__currentSmoothedValue, put = __set__currentSmoothedValue)) T _currentSmoothedValue;
+  __declspec(property(get = __cordl_internal_get__currentSmoothedValue, put = __cordl_internal_set__currentSmoothedValue)) T _currentSmoothedValue;
 
   /// @brief Field _prevSmoothedValue, offset 0x18, size 0x8
-  __declspec(property(get = __get__prevSmoothedValue, put = __set__prevSmoothedValue)) T _prevSmoothedValue;
+  __declspec(property(get = __cordl_internal_get__prevSmoothedValue, put = __cordl_internal_set__prevSmoothedValue)) T _prevSmoothedValue;
 
   /// @brief Field _smooth, offset 0x20, size 0x4
-  __declspec(property(get = __get__smooth, put = __set__smooth)) float_t _smooth;
+  __declspec(property(get = __cordl_internal_get__smooth, put = __cordl_internal_set__smooth)) float_t _smooth;
 
-  constexpr T& __get__currentSmoothedValue();
+  constexpr T& __cordl_internal_get__currentSmoothedValue();
 
-  constexpr T const& __get__currentSmoothedValue() const;
+  constexpr T const& __cordl_internal_get__currentSmoothedValue() const;
 
-  constexpr void __set__currentSmoothedValue(T value);
+  constexpr void __cordl_internal_set__currentSmoothedValue(T value);
 
-  constexpr T& __get__prevSmoothedValue();
+  constexpr T& __cordl_internal_get__prevSmoothedValue();
 
-  constexpr T const& __get__prevSmoothedValue() const;
+  constexpr T const& __cordl_internal_get__prevSmoothedValue() const;
 
-  constexpr void __set__prevSmoothedValue(T value);
+  constexpr void __cordl_internal_set__prevSmoothedValue(T value);
 
-  constexpr float_t& __get__smooth();
+  constexpr float_t& __cordl_internal_get__smooth();
 
-  constexpr float_t const& __get__smooth() const;
+  constexpr float_t const& __cordl_internal_get__smooth() const;
 
-  constexpr void __set__smooth(float_t value);
+  constexpr void __cordl_internal_set__smooth(float_t value);
 
   static inline ::GlobalNamespace::FixedUpdateSmoothValue_1<T>* New_ctor(float_t smooth);
 

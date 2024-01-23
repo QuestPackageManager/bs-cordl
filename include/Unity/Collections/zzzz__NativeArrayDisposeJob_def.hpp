@@ -21,7 +21,7 @@ MARK_VAL_T(::Unity::Collections::NativeArrayDisposeJob);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10000))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10000))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10001))
 // CS Name: ::Unity.Collections::NativeArrayDisposeJob
 struct CORDL_TYPE NativeArrayDisposeJob {

@@ -42,185 +42,185 @@ MARK_REF_PTR_T(::TMPro::TMP_SubMesh);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12426))
 // CS Name: ::TMPro::TMP_SubMesh*
 class CORDL_TYPE TMP_SubMesh : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field m_fontAsset, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_fontAsset, put = __set_m_fontAsset))::TMPro::TMP_FontAsset* m_fontAsset;
+  __declspec(property(get = __cordl_internal_get_m_fontAsset, put = __cordl_internal_set_m_fontAsset))::UnityW<::TMPro::TMP_FontAsset> m_fontAsset;
 
   /// @brief Field m_spriteAsset, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_spriteAsset, put = __set_m_spriteAsset))::TMPro::TMP_SpriteAsset* m_spriteAsset;
+  __declspec(property(get = __cordl_internal_get_m_spriteAsset, put = __cordl_internal_set_m_spriteAsset))::UnityW<::TMPro::TMP_SpriteAsset> m_spriteAsset;
 
   /// @brief Field m_material, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_material, put = __set_m_material))::UnityEngine::Material* m_material;
+  __declspec(property(get = __cordl_internal_get_m_material, put = __cordl_internal_set_m_material))::UnityW<::UnityEngine::Material> m_material;
 
   /// @brief Field m_sharedMaterial, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_sharedMaterial, put = __set_m_sharedMaterial))::UnityEngine::Material* m_sharedMaterial;
+  __declspec(property(get = __cordl_internal_get_m_sharedMaterial, put = __cordl_internal_set_m_sharedMaterial))::UnityW<::UnityEngine::Material> m_sharedMaterial;
 
   /// @brief Field m_fallbackMaterial, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_fallbackMaterial, put = __set_m_fallbackMaterial))::UnityEngine::Material* m_fallbackMaterial;
+  __declspec(property(get = __cordl_internal_get_m_fallbackMaterial, put = __cordl_internal_set_m_fallbackMaterial))::UnityW<::UnityEngine::Material> m_fallbackMaterial;
 
   /// @brief Field m_fallbackSourceMaterial, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_fallbackSourceMaterial, put = __set_m_fallbackSourceMaterial))::UnityEngine::Material* m_fallbackSourceMaterial;
+  __declspec(property(get = __cordl_internal_get_m_fallbackSourceMaterial, put = __cordl_internal_set_m_fallbackSourceMaterial))::UnityW<::UnityEngine::Material> m_fallbackSourceMaterial;
 
   /// @brief Field m_isDefaultMaterial, offset 0x48, size 0x1
-  __declspec(property(get = __get_m_isDefaultMaterial, put = __set_m_isDefaultMaterial)) bool m_isDefaultMaterial;
+  __declspec(property(get = __cordl_internal_get_m_isDefaultMaterial, put = __cordl_internal_set_m_isDefaultMaterial)) bool m_isDefaultMaterial;
 
   /// @brief Field m_padding, offset 0x4c, size 0x4
-  __declspec(property(get = __get_m_padding, put = __set_m_padding)) float_t m_padding;
+  __declspec(property(get = __cordl_internal_get_m_padding, put = __cordl_internal_set_m_padding)) float_t m_padding;
 
   /// @brief Field m_renderer, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_renderer, put = __set_m_renderer))::UnityEngine::Renderer* m_renderer;
+  __declspec(property(get = __cordl_internal_get_m_renderer, put = __cordl_internal_set_m_renderer))::UnityW<::UnityEngine::Renderer> m_renderer;
 
   /// @brief Field m_meshFilter, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_meshFilter, put = __set_m_meshFilter))::UnityEngine::MeshFilter* m_meshFilter;
+  __declspec(property(get = __cordl_internal_get_m_meshFilter, put = __cordl_internal_set_m_meshFilter))::UnityW<::UnityEngine::MeshFilter> m_meshFilter;
 
   /// @brief Field m_mesh, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_mesh, put = __set_m_mesh))::UnityEngine::Mesh* m_mesh;
+  __declspec(property(get = __cordl_internal_get_m_mesh, put = __cordl_internal_set_m_mesh))::UnityW<::UnityEngine::Mesh> m_mesh;
 
   /// @brief Field m_TextComponent, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_TextComponent, put = __set_m_TextComponent))::TMPro::TextMeshPro* m_TextComponent;
+  __declspec(property(get = __cordl_internal_get_m_TextComponent, put = __cordl_internal_set_m_TextComponent))::UnityW<::TMPro::TextMeshPro> m_TextComponent;
 
   /// @brief Field m_isRegisteredForEvents, offset 0x70, size 0x1
-  __declspec(property(get = __get_m_isRegisteredForEvents, put = __set_m_isRegisteredForEvents)) bool m_isRegisteredForEvents;
+  __declspec(property(get = __cordl_internal_get_m_isRegisteredForEvents, put = __cordl_internal_set_m_isRegisteredForEvents)) bool m_isRegisteredForEvents;
 
-  __declspec(property(get = get_fontAsset, put = set_fontAsset))::TMPro::TMP_FontAsset* fontAsset;
+  __declspec(property(get = get_fontAsset, put = set_fontAsset))::UnityW<::TMPro::TMP_FontAsset> fontAsset;
 
-  __declspec(property(get = get_spriteAsset, put = set_spriteAsset))::TMPro::TMP_SpriteAsset* spriteAsset;
+  __declspec(property(get = get_spriteAsset, put = set_spriteAsset))::UnityW<::TMPro::TMP_SpriteAsset> spriteAsset;
 
-  __declspec(property(get = get_material, put = set_material))::UnityEngine::Material* material;
+  __declspec(property(get = get_material, put = set_material))::UnityW<::UnityEngine::Material> material;
 
-  __declspec(property(get = get_sharedMaterial, put = set_sharedMaterial))::UnityEngine::Material* sharedMaterial;
+  __declspec(property(get = get_sharedMaterial, put = set_sharedMaterial))::UnityW<::UnityEngine::Material> sharedMaterial;
 
-  __declspec(property(get = get_fallbackMaterial, put = set_fallbackMaterial))::UnityEngine::Material* fallbackMaterial;
+  __declspec(property(get = get_fallbackMaterial, put = set_fallbackMaterial))::UnityW<::UnityEngine::Material> fallbackMaterial;
 
-  __declspec(property(get = get_fallbackSourceMaterial, put = set_fallbackSourceMaterial))::UnityEngine::Material* fallbackSourceMaterial;
+  __declspec(property(get = get_fallbackSourceMaterial, put = set_fallbackSourceMaterial))::UnityW<::UnityEngine::Material> fallbackSourceMaterial;
 
   __declspec(property(get = get_isDefaultMaterial, put = set_isDefaultMaterial)) bool isDefaultMaterial;
 
   __declspec(property(get = get_padding, put = set_padding)) float_t padding;
 
-  __declspec(property(get = get_renderer))::UnityEngine::Renderer* renderer;
+  __declspec(property(get = get_renderer))::UnityW<::UnityEngine::Renderer> renderer;
 
-  __declspec(property(get = get_meshFilter))::UnityEngine::MeshFilter* meshFilter;
+  __declspec(property(get = get_meshFilter))::UnityW<::UnityEngine::MeshFilter> meshFilter;
 
-  __declspec(property(get = get_mesh, put = set_mesh))::UnityEngine::Mesh* mesh;
+  __declspec(property(get = get_mesh, put = set_mesh))::UnityW<::UnityEngine::Mesh> mesh;
 
-  __declspec(property(get = get_textComponent))::TMPro::TMP_Text* textComponent;
+  __declspec(property(get = get_textComponent))::UnityW<::TMPro::TMP_Text> textComponent;
 
-  constexpr ::TMPro::TMP_FontAsset*& __get_m_fontAsset();
+  constexpr ::UnityW<::TMPro::TMP_FontAsset>& __cordl_internal_get_m_fontAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_FontAsset*> const& __get_m_fontAsset() const;
+  constexpr ::UnityW<::TMPro::TMP_FontAsset> const& __cordl_internal_get_m_fontAsset() const;
 
-  constexpr void __set_m_fontAsset(::TMPro::TMP_FontAsset* value);
+  constexpr void __cordl_internal_set_m_fontAsset(::UnityW<::TMPro::TMP_FontAsset> value);
 
-  constexpr ::TMPro::TMP_SpriteAsset*& __get_m_spriteAsset();
+  constexpr ::UnityW<::TMPro::TMP_SpriteAsset>& __cordl_internal_get_m_spriteAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_SpriteAsset*> const& __get_m_spriteAsset() const;
+  constexpr ::UnityW<::TMPro::TMP_SpriteAsset> const& __cordl_internal_get_m_spriteAsset() const;
 
-  constexpr void __set_m_spriteAsset(::TMPro::TMP_SpriteAsset* value);
+  constexpr void __cordl_internal_set_m_spriteAsset(::UnityW<::TMPro::TMP_SpriteAsset> value);
 
-  constexpr ::UnityEngine::Material*& __get_m_material();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_m_material();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_m_material() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_m_material() const;
 
-  constexpr void __set_m_material(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_m_material(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get_m_sharedMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_m_sharedMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_m_sharedMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_m_sharedMaterial() const;
 
-  constexpr void __set_m_sharedMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_m_sharedMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get_m_fallbackMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_m_fallbackMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_m_fallbackMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_m_fallbackMaterial() const;
 
-  constexpr void __set_m_fallbackMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_m_fallbackMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get_m_fallbackSourceMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_m_fallbackSourceMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_m_fallbackSourceMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_m_fallbackSourceMaterial() const;
 
-  constexpr void __set_m_fallbackSourceMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_m_fallbackSourceMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr bool& __get_m_isDefaultMaterial();
+  constexpr bool& __cordl_internal_get_m_isDefaultMaterial();
 
-  constexpr bool const& __get_m_isDefaultMaterial() const;
+  constexpr bool const& __cordl_internal_get_m_isDefaultMaterial() const;
 
-  constexpr void __set_m_isDefaultMaterial(bool value);
+  constexpr void __cordl_internal_set_m_isDefaultMaterial(bool value);
 
-  constexpr float_t& __get_m_padding();
+  constexpr float_t& __cordl_internal_get_m_padding();
 
-  constexpr float_t const& __get_m_padding() const;
+  constexpr float_t const& __cordl_internal_get_m_padding() const;
 
-  constexpr void __set_m_padding(float_t value);
+  constexpr void __cordl_internal_set_m_padding(float_t value);
 
-  constexpr ::UnityEngine::Renderer*& __get_m_renderer();
+  constexpr ::UnityW<::UnityEngine::Renderer>& __cordl_internal_get_m_renderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Renderer*> const& __get_m_renderer() const;
+  constexpr ::UnityW<::UnityEngine::Renderer> const& __cordl_internal_get_m_renderer() const;
 
-  constexpr void __set_m_renderer(::UnityEngine::Renderer* value);
+  constexpr void __cordl_internal_set_m_renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  constexpr ::UnityEngine::MeshFilter*& __get_m_meshFilter();
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get_m_meshFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& __get_m_meshFilter() const;
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get_m_meshFilter() const;
 
-  constexpr void __set_m_meshFilter(::UnityEngine::MeshFilter* value);
+  constexpr void __cordl_internal_set_m_meshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  constexpr ::UnityEngine::Mesh*& __get_m_mesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get_m_mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get_m_mesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get_m_mesh() const;
 
-  constexpr void __set_m_mesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set_m_mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  constexpr ::TMPro::TextMeshPro*& __get_m_TextComponent();
+  constexpr ::UnityW<::TMPro::TextMeshPro>& __cordl_internal_get_m_TextComponent();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshPro*> const& __get_m_TextComponent() const;
+  constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get_m_TextComponent() const;
 
-  constexpr void __set_m_TextComponent(::TMPro::TextMeshPro* value);
+  constexpr void __cordl_internal_set_m_TextComponent(::UnityW<::TMPro::TextMeshPro> value);
 
-  constexpr bool& __get_m_isRegisteredForEvents();
+  constexpr bool& __cordl_internal_get_m_isRegisteredForEvents();
 
-  constexpr bool const& __get_m_isRegisteredForEvents() const;
+  constexpr bool const& __cordl_internal_get_m_isRegisteredForEvents() const;
 
-  constexpr void __set_m_isRegisteredForEvents(bool value);
+  constexpr void __cordl_internal_set_m_isRegisteredForEvents(bool value);
 
   /// @brief Method get_fontAsset, addr 0x2c45494, size 0x8, virtual false, abstract: false, final false
-  inline ::TMPro::TMP_FontAsset* get_fontAsset();
+  inline ::UnityW<::TMPro::TMP_FontAsset> get_fontAsset();
 
   /// @brief Method set_fontAsset, addr 0x2c4549c, size 0x8, virtual false, abstract: false, final false
   inline void set_fontAsset(::TMPro::TMP_FontAsset* value);
 
   /// @brief Method get_spriteAsset, addr 0x2c454a4, size 0x8, virtual false, abstract: false, final false
-  inline ::TMPro::TMP_SpriteAsset* get_spriteAsset();
+  inline ::UnityW<::TMPro::TMP_SpriteAsset> get_spriteAsset();
 
   /// @brief Method set_spriteAsset, addr 0x2c454ac, size 0x8, virtual false, abstract: false, final false
   inline void set_spriteAsset(::TMPro::TMP_SpriteAsset* value);
 
   /// @brief Method get_material, addr 0x2c454b4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* get_material();
+  inline ::UnityW<::UnityEngine::Material> get_material();
 
   /// @brief Method set_material, addr 0x2c455e4, size 0x74, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
 
   /// @brief Method get_sharedMaterial, addr 0x2c45780, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* get_sharedMaterial();
+  inline ::UnityW<::UnityEngine::Material> get_sharedMaterial();
 
   /// @brief Method set_sharedMaterial, addr 0x2c45788, size 0x20, virtual false, abstract: false, final false
   inline void set_sharedMaterial(::UnityEngine::Material* value);
 
   /// @brief Method get_fallbackMaterial, addr 0x2c457c8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* get_fallbackMaterial();
+  inline ::UnityW<::UnityEngine::Material> get_fallbackMaterial();
 
   /// @brief Method set_fallbackMaterial, addr 0x2c457d0, size 0x138, virtual false, abstract: false, final false
   inline void set_fallbackMaterial(::UnityEngine::Material* value);
 
   /// @brief Method get_fallbackSourceMaterial, addr 0x2c45908, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* get_fallbackSourceMaterial();
+  inline ::UnityW<::UnityEngine::Material> get_fallbackSourceMaterial();
 
   /// @brief Method set_fallbackSourceMaterial, addr 0x2c45910, size 0x8, virtual false, abstract: false, final false
   inline void set_fallbackSourceMaterial(::UnityEngine::Material* value);
@@ -238,22 +238,22 @@ public:
   inline void set_padding(float_t value);
 
   /// @brief Method get_renderer, addr 0x2c4593c, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::Renderer* get_renderer();
+  inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
   /// @brief Method get_meshFilter, addr 0x2c459d0, size 0xfc, virtual false, abstract: false, final false
-  inline ::UnityEngine::MeshFilter* get_meshFilter();
+  inline ::UnityW<::UnityEngine::MeshFilter> get_meshFilter();
 
   /// @brief Method get_mesh, addr 0x2c45acc, size 0xb0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Mesh* get_mesh();
+  inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
   /// @brief Method set_mesh, addr 0x2c45b7c, size 0x8, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::Mesh* value);
 
   /// @brief Method get_textComponent, addr 0x2c45b84, size 0x94, virtual false, abstract: false, final false
-  inline ::TMPro::TMP_Text* get_textComponent();
+  inline ::UnityW<::TMPro::TMP_Text> get_textComponent();
 
   /// @brief Method AddSubTextObject, addr 0x2c45c18, size 0x3c4, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_SubMesh* AddSubTextObject(::TMPro::TextMeshPro* textComponent, ::TMPro::MaterialReference materialReference);
+  static inline ::UnityW<::TMPro::TMP_SubMesh> AddSubTextObject(::TMPro::TextMeshPro* textComponent, ::TMPro::MaterialReference materialReference);
 
   /// @brief Method OnEnable, addr 0x2c45fdc, size 0x12c, virtual false, abstract: false, final false
   inline void OnEnable();
@@ -268,13 +268,13 @@ public:
   inline void DestroySelf();
 
   /// @brief Method GetMaterial, addr 0x2c454bc, size 0x128, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* GetMaterial(::UnityEngine::Material* mat);
+  inline ::UnityW<::UnityEngine::Material> GetMaterial(::UnityEngine::Material* mat);
 
   /// @brief Method CreateMaterialInstance, addr 0x2c46374, size 0xc0, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* CreateMaterialInstance(::UnityEngine::Material* source);
+  inline ::UnityW<::UnityEngine::Material> CreateMaterialInstance(::UnityEngine::Material* source);
 
   /// @brief Method GetSharedMaterial, addr 0x2c46434, size 0xa4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* GetSharedMaterial();
+  inline ::UnityW<::UnityEngine::Material> GetSharedMaterial();
 
   /// @brief Method SetSharedMaterial, addr 0x2c457a8, size 0x20, virtual false, abstract: false, final false
   inline void SetSharedMaterial(::UnityEngine::Material* mat);
@@ -314,22 +314,22 @@ protected:
 
 public:
   /// @brief Field m_fontAsset, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TMP_FontAsset* ___m_fontAsset;
+  ::UnityW<::TMPro::TMP_FontAsset> ___m_fontAsset;
 
   /// @brief Field m_spriteAsset, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TMP_SpriteAsset* ___m_spriteAsset;
+  ::UnityW<::TMPro::TMP_SpriteAsset> ___m_spriteAsset;
 
   /// @brief Field m_material, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Material* ___m_material;
+  ::UnityW<::UnityEngine::Material> ___m_material;
 
   /// @brief Field m_sharedMaterial, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Material* ___m_sharedMaterial;
+  ::UnityW<::UnityEngine::Material> ___m_sharedMaterial;
 
   /// @brief Field m_fallbackMaterial, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Material* ___m_fallbackMaterial;
+  ::UnityW<::UnityEngine::Material> ___m_fallbackMaterial;
 
   /// @brief Field m_fallbackSourceMaterial, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Material* ___m_fallbackSourceMaterial;
+  ::UnityW<::UnityEngine::Material> ___m_fallbackSourceMaterial;
 
   /// @brief Field m_isDefaultMaterial, offset: 0x48, size: 0x1, def value: None
   bool ___m_isDefaultMaterial;
@@ -338,16 +338,16 @@ public:
   float_t ___m_padding;
 
   /// @brief Field m_renderer, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Renderer* ___m_renderer;
+  ::UnityW<::UnityEngine::Renderer> ___m_renderer;
 
   /// @brief Field m_meshFilter, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* ___m_meshFilter;
+  ::UnityW<::UnityEngine::MeshFilter> ___m_meshFilter;
 
   /// @brief Field m_mesh, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ___m_mesh;
+  ::UnityW<::UnityEngine::Mesh> ___m_mesh;
 
   /// @brief Field m_TextComponent, offset: 0x68, size: 0x8, def value: None
-  ::TMPro::TextMeshPro* ___m_TextComponent;
+  ::UnityW<::TMPro::TextMeshPro> ___m_TextComponent;
 
   /// @brief Field m_isRegisteredForEvents, offset: 0x70, size: 0x1, def value: None
   bool ___m_isRegisteredForEvents;

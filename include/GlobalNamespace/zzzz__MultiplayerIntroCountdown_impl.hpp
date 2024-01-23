@@ -22,10 +22,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x224edb8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -37,10 +37,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x224efbc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*>::get(),
-                                                 "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -52,10 +52,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x320;
   constexpr static std::size_t addrs = 0x224efc0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*>::get(), "MoveNext",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -67,10 +67,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x224f2ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*>::get(),
-                                                 "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*>::get(),
+                                    "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -82,10 +82,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x224f2f4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*>::get(),
-                                                 "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -97,10 +97,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x224f334;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*>::get(),
-                                                 "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -129,127 +129,127 @@ constexpr GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23:
 constexpr ::System::IDisposable* GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr int32_t& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get___1__state() {
+constexpr int32_t& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get___1__state() const {
+constexpr int32_t const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__set___1__state(int32_t value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get___2__current() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerIntroCountdown*& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown>& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdown*> const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__set___4__this(::GlobalNamespace::MultiplayerIntroCountdown* value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get_delay() {
+constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_get_delay() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
-constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get_delay() const {
+constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_get_delay() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__set_delay(float_t value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_set_delay(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___delay = value;
 }
-constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get_seconds() {
+constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_get_seconds() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___seconds;
 }
-constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get_seconds() const {
+constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_get_seconds() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___seconds;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__set_seconds(float_t value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_set_seconds(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___seconds = value;
 }
-constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get_durationMultiplier() {
+constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_get_durationMultiplier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___durationMultiplier;
 }
-constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get_durationMultiplier() const {
+constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_get_durationMultiplier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___durationMultiplier;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__set_durationMultiplier(float_t value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_set_durationMultiplier(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___durationMultiplier = value;
 }
-constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get__soundDelayAfterText_5__2() {
+constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_get__soundDelayAfterText_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____soundDelayAfterText_5__2;
 }
-constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__get__soundDelayAfterText_5__2() const {
+constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_get__soundDelayAfterText_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____soundDelayAfterText_5__2;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__set__soundDelayAfterText_5__2(float_t value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::__cordl_internal_set__soundDelayAfterText_5__2(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____soundDelayAfterText_5__2 = value;
 }
 inline ::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23* GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*>(__1__state));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*>(__1__state));
 }
 inline void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
 inline void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::System_IDisposable_Dispose() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*>::get(),
-                                               "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*>::get(), "MoveNext",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::System::Object* GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*>::get(),
-                                               "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*>::get(),
+                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Object* GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -262,10 +262,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x224ee64;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -277,10 +277,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x224f33c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*>::get(),
-                                                 "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -292,10 +292,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x224f340;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*>::get(), "MoveNext",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -307,10 +307,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x224f404;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*>::get(),
-                                                 "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*>::get(),
+                                    "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -322,10 +322,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x224f40c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*>::get(),
-                                                 "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -337,10 +337,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x224f44c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*>::get(),
-                                                 "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -369,103 +369,103 @@ constexpr GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::oper
 constexpr ::System::IDisposable* GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr int32_t& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get___1__state() {
+constexpr int32_t& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get___1__state() const {
+constexpr int32_t const& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__set___1__state(int32_t value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get___2__current() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get_delay() {
+constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__cordl_internal_get_delay() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
-constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get_delay() const {
+constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__cordl_internal_get_delay() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__set_delay(float_t value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__cordl_internal_set_delay(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___delay = value;
 }
-constexpr ::GlobalNamespace::MultiplayerIntroCountdown*& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown>& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdown*> const& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__set___4__this(::GlobalNamespace::MultiplayerIntroCountdown* value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::AudioClip*& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get_audioClip() {
+constexpr ::UnityW<::UnityEngine::AudioClip>& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__cordl_internal_get_audioClip() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioClip;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__get_audioClip() const {
+constexpr ::UnityW<::UnityEngine::AudioClip> const& GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__cordl_internal_get_audioClip() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___audioClip;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__set_audioClip(::UnityEngine::AudioClip* value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::__cordl_internal_set_audioClip(::UnityW<::UnityEngine::AudioClip> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___audioClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24* GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*>(__1__state));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*>(__1__state));
 }
 inline void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
 inline void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::System_IDisposable_Dispose() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*>::get(),
-                                               "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*>::get(), "MoveNext",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::System::Object* GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*>::get(),
-                                               "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*>::get(),
+                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Object* GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -478,10 +478,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x224f454;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -493,10 +493,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x224f45c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*>::get(), "<PhaseRoutine>b__0",
-                                    std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -508,10 +508,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x224f4e4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*>::get(), "<PhaseRoutine>b__1",
-                                    std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -523,10 +523,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x224f580;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*>::get(), "<PhaseRoutine>b__2",
-                                    std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*>::get(), "<PhaseRoutine>b__2",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
     return ___internal_method;
   }
 };
@@ -538,10 +538,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x224f5d0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*>::get(), "<PhaseRoutine>b__3",
-                                    std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -553,75 +553,74 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x224f680;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*>::get(), "<PhaseRoutine>b__4",
-                                    std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::MultiplayerIntroCountdownTextController*& GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__get_textController() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController>& GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__cordl_internal_get_textController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdownTextController*> const&
-GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__get_textController() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> const& GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__cordl_internal_get_textController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textController;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__set_textController(::GlobalNamespace::MultiplayerIntroCountdownTextController* value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__cordl_internal_set_textController(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___textController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerIntroCountdown*& GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown>& GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdown*> const& GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__set___4__this(::GlobalNamespace::MultiplayerIntroCountdown* value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*>());
 }
 inline void GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::_PhaseRoutine_b__0(float_t val) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*>::get(), "<PhaseRoutine>b__0",
-                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, val);
 }
 inline void GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::_PhaseRoutine_b__1(float_t val) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*>::get(), "<PhaseRoutine>b__1",
-                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, val);
 }
 inline void GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::_PhaseRoutine_b__2(::UnityEngine::Vector3 pos) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*>::get(), "<PhaseRoutine>b__2",
-                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*>::get(), "<PhaseRoutine>b__2",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pos);
 }
 inline void GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::_PhaseRoutine_b__3(float_t f) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*>::get(), "<PhaseRoutine>b__3",
-                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, f);
 }
 inline void GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0::_PhaseRoutine_b__4(float_t val) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*>::get(), "<PhaseRoutine>b__4",
-                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, val);
 }
 // Ctor Parameters []
@@ -634,10 +633,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x224ef14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -649,10 +648,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x224f698;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*>::get(),
-                                                 "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -664,10 +663,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x578;
   constexpr static std::size_t addrs = 0x224f69c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*>::get(), "MoveNext",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -679,10 +678,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x224fc84;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*>::get(),
-                                                 "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*>::get(),
+                                    "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -694,10 +693,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x224fc8c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*>::get(),
-                                                 "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -709,10 +708,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x224fccc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*>::get(),
-                                                 "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -741,128 +740,128 @@ constexpr GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::ope
 constexpr ::System::IDisposable* GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr int32_t& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get___1__state() {
+constexpr int32_t& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get___1__state() const {
+constexpr int32_t const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__set___1__state(int32_t value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get___2__current() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerIntroCountdown*& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown>& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdown*> const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__set___4__this(::GlobalNamespace::MultiplayerIntroCountdown* value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get_text() {
+constexpr ::StringW& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_get_text() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___text;
 }
-constexpr ::StringW const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get_text() const {
+constexpr ::StringW const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_get_text() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___text;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__set_text(::StringW value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_set_text(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___text)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get_appearDuration() {
+constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_get_appearDuration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___appearDuration;
 }
-constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get_appearDuration() const {
+constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_get_appearDuration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___appearDuration;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__set_appearDuration(float_t value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_set_appearDuration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___appearDuration = value;
 }
-constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get_disappearDuration() {
+constexpr float_t& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_get_disappearDuration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disappearDuration;
 }
-constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get_disappearDuration() const {
+constexpr float_t const& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_get_disappearDuration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disappearDuration;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__set_disappearDuration(float_t value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_set_disappearDuration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disappearDuration = value;
 }
-constexpr ::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get___8__1() {
+constexpr ::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*& GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_get___8__1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____8__1;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*> const&
-GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__get___8__1() const {
+GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_get___8__1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____8__1;
 }
-constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__set___8__1(::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* value) {
+constexpr void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::__cordl_internal_set___8__1(::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____8__1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25* GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*>(__1__state));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*>(__1__state));
 }
 inline void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
 inline void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::System_IDisposable_Dispose() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*>::get(),
-                                               "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*>::get(), "MoveNext",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::System::Object* GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*>::get(),
-                                               "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*>::get(),
+                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Object* GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -875,9 +874,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x224eb34;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(),
-                                                                               "get_textAppearDuration", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_textAppearDuration", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -888,9 +887,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x224eb3c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "Awake",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -901,7 +900,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x224ec34;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), 4));
@@ -916,11 +915,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x224ecbc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "StartCountdown", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "StartCountdown", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -932,11 +931,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x224ed2c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "CountdownRoutine", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "CountdownRoutine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -948,11 +947,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x224ede0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "PlayDelayed", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "PlayDelayed", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -964,11 +963,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x224ee8c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "PhaseRoutine", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "PhaseRoutine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -979,238 +978,239 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x224ef3c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__get__textAppearDuration() {
+constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__textAppearDuration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textAppearDuration;
 }
-constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__get__textAppearDuration() const {
+constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__textAppearDuration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textAppearDuration;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__textAppearDuration(float_t value) {
+constexpr void GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__textAppearDuration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____textAppearDuration = value;
 }
-constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__get__textDisappearDuration() {
+constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__textDisappearDuration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textDisappearDuration;
 }
-constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__get__textDisappearDuration() const {
+constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__textDisappearDuration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textDisappearDuration;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__textDisappearDuration(float_t value) {
+constexpr void GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__textDisappearDuration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____textDisappearDuration = value;
 }
-constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__get__goDisappearDuration() {
+constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__goDisappearDuration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goDisappearDuration;
 }
-constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__get__goDisappearDuration() const {
+constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__goDisappearDuration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goDisappearDuration;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__goDisappearDuration(float_t value) {
+constexpr void GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__goDisappearDuration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____goDisappearDuration = value;
 }
-constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__get__partsDistance() {
+constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__partsDistance() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partsDistance;
 }
-constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__get__partsDistance() const {
+constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__partsDistance() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partsDistance;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__partsDistance(float_t value) {
+constexpr void GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__partsDistance(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____partsDistance = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::MultiplayerIntroCountdown::__get__startLocalPosition() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__startLocalPosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startLocalPosition;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::MultiplayerIntroCountdown::__get__startLocalPosition() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__startLocalPosition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startLocalPosition;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__startLocalPosition(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__startLocalPosition(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startLocalPosition = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::MultiplayerIntroCountdown::__get__targetLocalPosition() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__targetLocalPosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetLocalPosition;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::MultiplayerIntroCountdown::__get__targetLocalPosition() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__targetLocalPosition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetLocalPosition;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__targetLocalPosition(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__targetLocalPosition(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____targetLocalPosition = value;
 }
-constexpr ::UnityEngine::AudioClip*& GlobalNamespace::MultiplayerIntroCountdown::__get__readyClip() {
+constexpr ::UnityW<::UnityEngine::AudioClip>& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__readyClip() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readyClip;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__readyClip() const {
+constexpr ::UnityW<::UnityEngine::AudioClip> const& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__readyClip() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readyClip;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__readyClip(::UnityEngine::AudioClip* value) {
+constexpr void GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__readyClip(::UnityW<::UnityEngine::AudioClip> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____readyClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::AudioClip*& GlobalNamespace::MultiplayerIntroCountdown::__get__setClip() {
+constexpr ::UnityW<::UnityEngine::AudioClip>& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__setClip() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setClip;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__setClip() const {
+constexpr ::UnityW<::UnityEngine::AudioClip> const& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__setClip() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setClip;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__setClip(::UnityEngine::AudioClip* value) {
+constexpr void GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__setClip(::UnityW<::UnityEngine::AudioClip> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____setClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::AudioClip*& GlobalNamespace::MultiplayerIntroCountdown::__get__goClip() {
+constexpr ::UnityW<::UnityEngine::AudioClip>& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__goClip() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goClip;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__goClip() const {
+constexpr ::UnityW<::UnityEngine::AudioClip> const& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__goClip() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____goClip;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__goClip(::UnityEngine::AudioClip* value) {
+constexpr void GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__goClip(::UnityW<::UnityEngine::AudioClip> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____goClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::AudioClip*& GlobalNamespace::MultiplayerIntroCountdown::__get__buildUpClip() {
+constexpr ::UnityW<::UnityEngine::AudioClip>& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__buildUpClip() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildUpClip;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__buildUpClip() const {
+constexpr ::UnityW<::UnityEngine::AudioClip> const& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__buildUpClip() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buildUpClip;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__buildUpClip(::UnityEngine::AudioClip* value) {
+constexpr void GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__buildUpClip(::UnityW<::UnityEngine::AudioClip> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buildUpClip)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerIntroCountdownTextController*& GlobalNamespace::MultiplayerIntroCountdown::__get__textController0() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController>& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__textController0() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textController0;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdownTextController*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__textController0() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> const& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__textController0() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textController0;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__textController0(::GlobalNamespace::MultiplayerIntroCountdownTextController* value) {
+constexpr void GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__textController0(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textController0)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerIntroCountdownTextController*& GlobalNamespace::MultiplayerIntroCountdown::__get__textController1() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController>& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__textController1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textController1;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdownTextController*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__textController1() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> const& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__textController1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textController1;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__textController1(::GlobalNamespace::MultiplayerIntroCountdownTextController* value) {
+constexpr void GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__textController1(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textController1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::AudioSource*& GlobalNamespace::MultiplayerIntroCountdown::__get__audioSource() {
+constexpr ::UnityW<::UnityEngine::AudioSource>& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__audioSource() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__audioSource() const {
+constexpr ::UnityW<::UnityEngine::AudioSource> const& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__audioSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__audioSource(::UnityEngine::AudioSource* value) {
+constexpr void GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*& GlobalNamespace::MultiplayerIntroCountdown::__get__multiplayerOffsetByLocalPlayerPosition() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition>& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__multiplayerOffsetByLocalPlayerPosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerOffsetByLocalPlayerPosition;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*> const&
-GlobalNamespace::MultiplayerIntroCountdown::__get__multiplayerOffsetByLocalPlayerPosition() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition> const&
+GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__multiplayerOffsetByLocalPlayerPosition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerOffsetByLocalPlayerPosition;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__multiplayerOffsetByLocalPlayerPosition(::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* value) {
+constexpr void
+GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__multiplayerOffsetByLocalPlayerPosition(::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerOffsetByLocalPlayerPosition)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Tweening::TimeTweeningManager*& GlobalNamespace::MultiplayerIntroCountdown::__get__tweeningManager() {
+constexpr ::UnityW<::Tweening::TimeTweeningManager>& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__tweeningManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tweeningManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__tweeningManager() const {
+constexpr ::UnityW<::Tweening::TimeTweeningManager> const& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__tweeningManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tweeningManager;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__tweeningManager(::Tweening::TimeTweeningManager* value) {
+constexpr void GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tweeningManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerIntroCountdownTextController*& GlobalNamespace::MultiplayerIntroCountdown::__get__currentTextController() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController>& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__currentTextController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentTextController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdownTextController*> const& GlobalNamespace::MultiplayerIntroCountdown::__get__currentTextController() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> const& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__currentTextController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentTextController;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__currentTextController(::GlobalNamespace::MultiplayerIntroCountdownTextController* value) {
+constexpr void GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__currentTextController(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentTextController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__get__fontSize() {
+constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__fontSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fontSize;
 }
-constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__get__fontSize() const {
+constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__fontSize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fontSize;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__fontSize(float_t value) {
+constexpr void GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__fontSize(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fontSize = value;
 }
-constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__get__alpha() {
+constexpr float_t& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__alpha() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alpha;
 }
-constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__get__alpha() const {
+constexpr float_t const& GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_get__alpha() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____alpha;
 }
-constexpr void GlobalNamespace::MultiplayerIntroCountdown::__set__alpha(float_t value) {
+constexpr void GlobalNamespace::MultiplayerIntroCountdown::__cordl_internal_set__alpha(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____alpha = value;
 }
 inline float_t GlobalNamespace::MultiplayerIntroCountdown::get_textAppearDuration() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(),
-                                                                             "get_textAppearDuration", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_textAppearDuration", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MultiplayerIntroCountdown::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "Awake",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MultiplayerIntroCountdown::OnDestroy() {
@@ -1220,38 +1220,38 @@ inline void GlobalNamespace::MultiplayerIntroCountdown::OnDestroy() {
 }
 inline void GlobalNamespace::MultiplayerIntroCountdown::StartCountdown(float_t seconds, float_t delay, float_t durationMultiplier) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "StartCountdown", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "StartCountdown", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, seconds, delay, durationMultiplier);
 }
 inline ::System::Collections::IEnumerator* GlobalNamespace::MultiplayerIntroCountdown::CountdownRoutine(float_t seconds, float_t delay, float_t durationMultiplier) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "CountdownRoutine", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "CountdownRoutine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method, seconds, delay, durationMultiplier);
 }
 inline ::System::Collections::IEnumerator* GlobalNamespace::MultiplayerIntroCountdown::PlayDelayed(::UnityEngine::AudioClip* audioClip, float_t delay) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "PlayDelayed", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "PlayDelayed", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AudioClip*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method, audioClip, delay);
 }
 inline ::System::Collections::IEnumerator* GlobalNamespace::MultiplayerIntroCountdown::PhaseRoutine(::StringW text, float_t appearDuration, float_t disappearDuration) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "PhaseRoutine", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), "PhaseRoutine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method, text, appearDuration, disappearDuration);
 }
 inline ::GlobalNamespace::MultiplayerIntroCountdown* GlobalNamespace::MultiplayerIntroCountdown::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MultiplayerIntroCountdown*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerIntroCountdown*>());
 }
 inline void GlobalNamespace::MultiplayerIntroCountdown::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroCountdown*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

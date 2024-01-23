@@ -18,33 +18,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::KeyGenerationParameters);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1018))
 // CS Name: ::Org.BouncyCastle.Crypto::KeyGenerationParameters*
 class CORDL_TYPE KeyGenerationParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field random, offset 0x10, size 0x8
-  __declspec(property(get = __get_random, put = __set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
 
   /// @brief Field strength, offset 0x18, size 0x4
-  __declspec(property(get = __get_strength, put = __set_strength)) int32_t strength;
+  __declspec(property(get = __cordl_internal_get_strength, put = __cordl_internal_set_strength)) int32_t strength;
 
   __declspec(property(get = get_Random))::Org::BouncyCastle::Security::SecureRandom* Random;
 
   __declspec(property(get = get_Strength)) int32_t Strength;
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_random();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_random() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
-  constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  constexpr int32_t& __get_strength();
+  constexpr int32_t& __cordl_internal_get_strength();
 
-  constexpr int32_t const& __get_strength() const;
+  constexpr int32_t const& __cordl_internal_get_strength() const;
 
-  constexpr void __set_strength(int32_t value);
+  constexpr void __cordl_internal_set_strength(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::KeyGenerationParameters* New_ctor(::Org::BouncyCastle::Security::SecureRandom* random, int32_t strength);
 

@@ -17,26 +17,26 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::PressureSensor);
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6274))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6274))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6282))
 // CS Name: ::UnityEngine.InputSystem::PressureSensor*
 class CORDL_TYPE PressureSensor : public ::UnityEngine::InputSystem::Sensor {
 public:
   // Declarations
   /// @brief Field <atmosphericPressure>k__BackingField, offset 0x158, size 0x8
-  __declspec(property(get = __get__atmosphericPressure_k__BackingField,
-                      put = __set__atmosphericPressure_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _atmosphericPressure_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__atmosphericPressure_k__BackingField,
+                      put = __cordl_internal_set__atmosphericPressure_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _atmosphericPressure_k__BackingField;
 
   /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField))::UnityEngine::InputSystem::PressureSensor* _current_k__BackingField;
 
   __declspec(property(get = get_atmosphericPressure, put = set_atmosphericPressure))::UnityEngine::InputSystem::Controls::AxisControl* atmosphericPressure;
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __get__atmosphericPressure_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__atmosphericPressure_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __get__atmosphericPressure_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__atmosphericPressure_k__BackingField() const;
 
-  constexpr void __set__atmosphericPressure_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+  constexpr void __cordl_internal_set__atmosphericPressure_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::PressureSensor* value);
 

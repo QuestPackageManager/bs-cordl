@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::LiteNetLib::Layers::XorEncryptLayer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Layers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14242))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14242))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14243))
 // CS Name: ::LiteNetLib.Layers::XorEncryptLayer*
 class CORDL_TYPE XorEncryptLayer : public ::LiteNetLib::Layers::PacketLayerBase {
 public:
   // Declarations
   /// @brief Field _byteKey, offset 0x18, size 0x8
-  __declspec(property(get = __get__byteKey, put = __set__byteKey))::ArrayW<uint8_t, ::Array<uint8_t>*> _byteKey;
+  __declspec(property(get = __cordl_internal_get__byteKey, put = __cordl_internal_set__byteKey))::ArrayW<uint8_t, ::Array<uint8_t>*> _byteKey;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__byteKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__byteKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__byteKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__byteKey() const;
 
-  constexpr void __set__byteKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__byteKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::LiteNetLib::Layers::XorEncryptLayer* New_ctor();
 

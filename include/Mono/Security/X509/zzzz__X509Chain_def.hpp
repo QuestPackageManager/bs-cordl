@@ -21,58 +21,58 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509Chain);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13755))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13755))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13754))
 // CS Name: ::Mono.Security.X509::X509Chain*
 class CORDL_TYPE X509Chain : public ::System::Object {
 public:
   // Declarations
   /// @brief Field roots, offset 0x10, size 0x8
-  __declspec(property(get = __get_roots, put = __set_roots))::Mono::Security::X509::X509CertificateCollection* roots;
+  __declspec(property(get = __cordl_internal_get_roots, put = __cordl_internal_set_roots))::Mono::Security::X509::X509CertificateCollection* roots;
 
   /// @brief Field certs, offset 0x18, size 0x8
-  __declspec(property(get = __get_certs, put = __set_certs))::Mono::Security::X509::X509CertificateCollection* certs;
+  __declspec(property(get = __cordl_internal_get_certs, put = __cordl_internal_set_certs))::Mono::Security::X509::X509CertificateCollection* certs;
 
   /// @brief Field _root, offset 0x20, size 0x8
-  __declspec(property(get = __get__root, put = __set__root))::Mono::Security::X509::X509Certificate* _root;
+  __declspec(property(get = __cordl_internal_get__root, put = __cordl_internal_set__root))::Mono::Security::X509::X509Certificate* _root;
 
   /// @brief Field _chain, offset 0x28, size 0x8
-  __declspec(property(get = __get__chain, put = __set__chain))::Mono::Security::X509::X509CertificateCollection* _chain;
+  __declspec(property(get = __cordl_internal_get__chain, put = __cordl_internal_set__chain))::Mono::Security::X509::X509CertificateCollection* _chain;
 
   /// @brief Field _status, offset 0x30, size 0x4
-  __declspec(property(get = __get__status, put = __set__status))::Mono::Security::X509::X509ChainStatusFlags _status;
+  __declspec(property(get = __cordl_internal_get__status, put = __cordl_internal_set__status))::Mono::Security::X509::X509ChainStatusFlags _status;
 
   __declspec(property(get = get_TrustAnchors))::Mono::Security::X509::X509CertificateCollection* TrustAnchors;
 
-  constexpr ::Mono::Security::X509::X509CertificateCollection*& __get_roots();
+  constexpr ::Mono::Security::X509::X509CertificateCollection*& __cordl_internal_get_roots();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& __get_roots() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& __cordl_internal_get_roots() const;
 
-  constexpr void __set_roots(::Mono::Security::X509::X509CertificateCollection* value);
+  constexpr void __cordl_internal_set_roots(::Mono::Security::X509::X509CertificateCollection* value);
 
-  constexpr ::Mono::Security::X509::X509CertificateCollection*& __get_certs();
+  constexpr ::Mono::Security::X509::X509CertificateCollection*& __cordl_internal_get_certs();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& __get_certs() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& __cordl_internal_get_certs() const;
 
-  constexpr void __set_certs(::Mono::Security::X509::X509CertificateCollection* value);
+  constexpr void __cordl_internal_set_certs(::Mono::Security::X509::X509CertificateCollection* value);
 
-  constexpr ::Mono::Security::X509::X509Certificate*& __get__root();
+  constexpr ::Mono::Security::X509::X509Certificate*& __cordl_internal_get__root();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Certificate*> const& __get__root() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Certificate*> const& __cordl_internal_get__root() const;
 
-  constexpr void __set__root(::Mono::Security::X509::X509Certificate* value);
+  constexpr void __cordl_internal_set__root(::Mono::Security::X509::X509Certificate* value);
 
-  constexpr ::Mono::Security::X509::X509CertificateCollection*& __get__chain();
+  constexpr ::Mono::Security::X509::X509CertificateCollection*& __cordl_internal_get__chain();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& __get__chain() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& __cordl_internal_get__chain() const;
 
-  constexpr void __set__chain(::Mono::Security::X509::X509CertificateCollection* value);
+  constexpr void __cordl_internal_set__chain(::Mono::Security::X509::X509CertificateCollection* value);
 
-  constexpr ::Mono::Security::X509::X509ChainStatusFlags& __get__status();
+  constexpr ::Mono::Security::X509::X509ChainStatusFlags& __cordl_internal_get__status();
 
-  constexpr ::Mono::Security::X509::X509ChainStatusFlags const& __get__status() const;
+  constexpr ::Mono::Security::X509::X509ChainStatusFlags const& __cordl_internal_get__status() const;
 
-  constexpr void __set__status(::Mono::Security::X509::X509ChainStatusFlags value);
+  constexpr void __cordl_internal_set__status(::Mono::Security::X509::X509ChainStatusFlags value);
 
   static inline ::Mono::Security::X509::X509Chain* New_ctor();
 

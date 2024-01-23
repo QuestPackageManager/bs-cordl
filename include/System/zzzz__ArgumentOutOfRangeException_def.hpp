@@ -24,22 +24,22 @@ MARK_REF_PTR_T(::System::ArgumentOutOfRangeException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2344))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2344))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2346))
 // CS Name: ::System::ArgumentOutOfRangeException*
 class CORDL_TYPE ArgumentOutOfRangeException : public ::System::ArgumentException {
 public:
   // Declarations
   /// @brief Field _actualValue, offset 0x98, size 0x8
-  __declspec(property(get = __get__actualValue, put = __set__actualValue))::System::Object* _actualValue;
+  __declspec(property(get = __cordl_internal_get__actualValue, put = __cordl_internal_set__actualValue))::System::Object* _actualValue;
 
   __declspec(property(get = get_Message))::StringW Message;
 
-  constexpr ::System::Object*& __get__actualValue();
+  constexpr ::System::Object*& __cordl_internal_get__actualValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__actualValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__actualValue() const;
 
-  constexpr void __set__actualValue(::System::Object* value);
+  constexpr void __cordl_internal_set__actualValue(::System::Object* value);
 
   static inline ::System::ArgumentOutOfRangeException* New_ctor();
 

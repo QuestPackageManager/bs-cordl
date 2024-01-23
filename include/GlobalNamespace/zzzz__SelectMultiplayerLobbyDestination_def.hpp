@@ -16,29 +16,29 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectMultiplayerLobbyDestination);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4152))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4152))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4157))
 // CS Name: ::SelectMultiplayerLobbyDestination*
 class CORDL_TYPE SelectMultiplayerLobbyDestination : public ::GlobalNamespace::MenuDestination {
 public:
   // Declarations
   /// @brief Field lobbySecret, offset 0x10, size 0x8
-  __declspec(property(get = __get_lobbySecret, put = __set_lobbySecret))::StringW lobbySecret;
+  __declspec(property(get = __cordl_internal_get_lobbySecret, put = __cordl_internal_set_lobbySecret))::StringW lobbySecret;
 
   /// @brief Field lobbyCode, offset 0x18, size 0x8
-  __declspec(property(get = __get_lobbyCode, put = __set_lobbyCode))::StringW lobbyCode;
+  __declspec(property(get = __cordl_internal_get_lobbyCode, put = __cordl_internal_set_lobbyCode))::StringW lobbyCode;
 
-  constexpr ::StringW& __get_lobbySecret();
+  constexpr ::StringW& __cordl_internal_get_lobbySecret();
 
-  constexpr ::StringW const& __get_lobbySecret() const;
+  constexpr ::StringW const& __cordl_internal_get_lobbySecret() const;
 
-  constexpr void __set_lobbySecret(::StringW value);
+  constexpr void __cordl_internal_set_lobbySecret(::StringW value);
 
-  constexpr ::StringW& __get_lobbyCode();
+  constexpr ::StringW& __cordl_internal_get_lobbyCode();
 
-  constexpr ::StringW const& __get_lobbyCode() const;
+  constexpr ::StringW const& __cordl_internal_get_lobbyCode() const;
 
-  constexpr void __set_lobbyCode(::StringW value);
+  constexpr void __cordl_internal_set_lobbyCode(::StringW value);
 
   static inline ::GlobalNamespace::SelectMultiplayerLobbyDestination* New_ctor(::StringW lobbySecret, ::StringW lobbyCode);
 

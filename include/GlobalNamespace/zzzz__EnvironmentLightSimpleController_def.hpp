@@ -19,38 +19,38 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentLightSimpleController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4866))
 // CS Name: ::EnvironmentLightSimpleController*
 class CORDL_TYPE EnvironmentLightSimpleController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _color, offset 0x18, size 0x10
-  __declspec(property(get = __get__color, put = __set__color))::UnityEngine::Color _color;
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
   /// @brief Field _colorId, offset 0x28, size 0x4
-  __declspec(property(get = __get__colorId, put = __set__colorId)) int32_t _colorId;
+  __declspec(property(get = __cordl_internal_get__colorId, put = __cordl_internal_set__colorId)) int32_t _colorId;
 
   /// @brief Field _lightManager, offset 0x30, size 0x8
-  __declspec(property(get = __get__lightManager, put = __set__lightManager))::GlobalNamespace::LightWithIdManager* _lightManager;
+  __declspec(property(get = __cordl_internal_get__lightManager, put = __cordl_internal_set__lightManager))::UnityW<::GlobalNamespace::LightWithIdManager> _lightManager;
 
-  constexpr ::UnityEngine::Color& __get__color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::UnityEngine::Color const& __get__color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr void __set__color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  constexpr int32_t& __get__colorId();
+  constexpr int32_t& __cordl_internal_get__colorId();
 
-  constexpr int32_t const& __get__colorId() const;
+  constexpr int32_t const& __cordl_internal_get__colorId() const;
 
-  constexpr void __set__colorId(int32_t value);
+  constexpr void __cordl_internal_set__colorId(int32_t value);
 
-  constexpr ::GlobalNamespace::LightWithIdManager*& __get__lightManager();
+  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager>& __cordl_internal_get__lightManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightWithIdManager*> const& __get__lightManager() const;
+  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager> const& __cordl_internal_get__lightManager() const;
 
-  constexpr void __set__lightManager(::GlobalNamespace::LightWithIdManager* value);
+  constexpr void __cordl_internal_set__lightManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
 
   /// @brief Method LateUpdate, addr 0x239a28c, size 0x2c, virtual false, abstract: false, final false
   inline void LateUpdate();
@@ -81,7 +81,7 @@ public:
   int32_t ____colorId;
 
   /// @brief Field _lightManager, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::LightWithIdManager* ____lightManager;
+  ::UnityW<::GlobalNamespace::LightWithIdManager> ____lightManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

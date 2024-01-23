@@ -20,47 +20,47 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::RaycastHit);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12181))
 // CS Name: ::UnityEngine.ProBuilder::RaycastHit*
 class CORDL_TYPE RaycastHit : public ::System::Object {
 public:
   // Declarations
   /// @brief Field distance, offset 0x10, size 0x4
-  __declspec(property(get = __get_distance, put = __set_distance)) float_t distance;
+  __declspec(property(get = __cordl_internal_get_distance, put = __cordl_internal_set_distance)) float_t distance;
 
   /// @brief Field point, offset 0x14, size 0xc
-  __declspec(property(get = __get_point, put = __set_point))::UnityEngine::Vector3 point;
+  __declspec(property(get = __cordl_internal_get_point, put = __cordl_internal_set_point))::UnityEngine::Vector3 point;
 
   /// @brief Field normal, offset 0x20, size 0xc
-  __declspec(property(get = __get_normal, put = __set_normal))::UnityEngine::Vector3 normal;
+  __declspec(property(get = __cordl_internal_get_normal, put = __cordl_internal_set_normal))::UnityEngine::Vector3 normal;
 
   /// @brief Field face, offset 0x2c, size 0x4
-  __declspec(property(get = __get_face, put = __set_face)) int32_t face;
+  __declspec(property(get = __cordl_internal_get_face, put = __cordl_internal_set_face)) int32_t face;
 
-  constexpr float_t& __get_distance();
+  constexpr float_t& __cordl_internal_get_distance();
 
-  constexpr float_t const& __get_distance() const;
+  constexpr float_t const& __cordl_internal_get_distance() const;
 
-  constexpr void __set_distance(float_t value);
+  constexpr void __cordl_internal_set_distance(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get_point();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_point();
 
-  constexpr ::UnityEngine::Vector3 const& __get_point() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_point() const;
 
-  constexpr void __set_point(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_point(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_normal();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_normal();
 
-  constexpr ::UnityEngine::Vector3 const& __get_normal() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_normal() const;
 
-  constexpr void __set_normal(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_normal(::UnityEngine::Vector3 value);
 
-  constexpr int32_t& __get_face();
+  constexpr int32_t& __cordl_internal_get_face();
 
-  constexpr int32_t const& __get_face() const;
+  constexpr int32_t const& __cordl_internal_get_face() const;
 
-  constexpr void __set_face(int32_t value);
+  constexpr void __cordl_internal_set_face(int32_t value);
 
   static inline ::UnityEngine::ProBuilder::RaycastHit* New_ctor(float_t distance, ::UnityEngine::Vector3 point, ::UnityEngine::Vector3 normal, int32_t face);
 

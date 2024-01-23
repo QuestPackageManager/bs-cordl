@@ -49,7 +49,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__Button__UxmlTraits);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6813))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6813))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7124))
 // CS Name: ::Button::UxmlTraits*
 class CORDL_TYPE __Button__UxmlTraits : public ::UnityEngine::UIElements::__TextElement__UxmlTraits {
@@ -84,7 +84,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Butto
 // SizeInfo { instance_size: 1152, native_size: -1, calculated_instance_size: 1152, calculated_native_size: 1152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6814))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6814))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7125))
 // CS Name: ::UnityEngine.UIElements::Button*
 class CORDL_TYPE Button : public ::UnityEngine::UIElements::TextElement {
@@ -95,7 +95,7 @@ public:
   using UxmlFactory = ::UnityEngine::UIElements::__Button__UxmlFactory;
 
   /// @brief Field m_Clickable, offset 0x478, size 0x8
-  __declspec(property(get = __get_m_Clickable, put = __set_m_Clickable))::UnityEngine::UIElements::Clickable* m_Clickable;
+  __declspec(property(get = __cordl_internal_get_m_Clickable, put = __cordl_internal_set_m_Clickable))::UnityEngine::UIElements::Clickable* m_Clickable;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
@@ -105,11 +105,11 @@ public:
 
   __declspec(property(get = get_clickable, put = set_clickable))::UnityEngine::UIElements::Clickable* clickable;
 
-  constexpr ::UnityEngine::UIElements::Clickable*& __get_m_Clickable();
+  constexpr ::UnityEngine::UIElements::Clickable*& __cordl_internal_get_m_Clickable();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Clickable*> const& __get_m_Clickable() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Clickable*> const& __cordl_internal_get_m_Clickable() const;
 
-  constexpr void __set_m_Clickable(::UnityEngine::UIElements::Clickable* value);
+  constexpr void __cordl_internal_set_m_Clickable(::UnityEngine::UIElements::Clickable* value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 
@@ -174,8 +174,8 @@ static_assert(offsetof(::UnityEngine::UIElements::Button, ___m_Clickable) == 0x4
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5257 }), TypeDefinitionIndex(TypeDefinitionIndex(7125)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7124))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7123)) CS Name: ::Button::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7124)), TypeDefinitionIndex(TypeDefinitionIndex(7125)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5257 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7123)) CS Name: ::Button::UxmlFactory*
 class CORDL_TYPE __Button__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Button*, ::UnityEngine::UIElements::__Button__UxmlTraits*> {
 public:
   // Declarations

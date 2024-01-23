@@ -54,7 +54,7 @@ MARK_VAL_T(::System::Xml::Schema::__XmlAtomicValue__Union);
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11711))
 // CS Name: ::XmlAtomicValue::Union
 #pragma pack(push, 0)
@@ -62,49 +62,49 @@ struct CORDL_TYPE __XmlAtomicValue__Union {
 public:
   // Declarations
   /// @brief Field boolVal, offset 0x0, size 0x1
-  __declspec(property(get = __get_boolVal, put = __set_boolVal)) bool boolVal;
+  __declspec(property(get = __cordl_internal_get_boolVal, put = __cordl_internal_set_boolVal)) bool boolVal;
 
   /// @brief Field dblVal, offset 0x0, size 0x8
-  __declspec(property(get = __get_dblVal, put = __set_dblVal)) double_t dblVal;
+  __declspec(property(get = __cordl_internal_get_dblVal, put = __cordl_internal_set_dblVal)) double_t dblVal;
 
   /// @brief Field i64Val, offset 0x0, size 0x8
-  __declspec(property(get = __get_i64Val, put = __set_i64Val)) int64_t i64Val;
+  __declspec(property(get = __cordl_internal_get_i64Val, put = __cordl_internal_set_i64Val)) int64_t i64Val;
 
   /// @brief Field i32Val, offset 0x0, size 0x4
-  __declspec(property(get = __get_i32Val, put = __set_i32Val)) int32_t i32Val;
+  __declspec(property(get = __cordl_internal_get_i32Val, put = __cordl_internal_set_i32Val)) int32_t i32Val;
 
   /// @brief Field dtVal, offset 0x0, size 0x8
-  __declspec(property(get = __get_dtVal, put = __set_dtVal))::System::DateTime dtVal;
+  __declspec(property(get = __cordl_internal_get_dtVal, put = __cordl_internal_set_dtVal))::System::DateTime dtVal;
 
-  constexpr bool& __get_boolVal();
+  constexpr bool& __cordl_internal_get_boolVal();
 
-  constexpr bool const& __get_boolVal() const;
+  constexpr bool const& __cordl_internal_get_boolVal() const;
 
-  constexpr void __set_boolVal(bool value);
+  constexpr void __cordl_internal_set_boolVal(bool value);
 
-  constexpr double_t& __get_dblVal();
+  constexpr double_t& __cordl_internal_get_dblVal();
 
-  constexpr double_t const& __get_dblVal() const;
+  constexpr double_t const& __cordl_internal_get_dblVal() const;
 
-  constexpr void __set_dblVal(double_t value);
+  constexpr void __cordl_internal_set_dblVal(double_t value);
 
-  constexpr int64_t& __get_i64Val();
+  constexpr int64_t& __cordl_internal_get_i64Val();
 
-  constexpr int64_t const& __get_i64Val() const;
+  constexpr int64_t const& __cordl_internal_get_i64Val() const;
 
-  constexpr void __set_i64Val(int64_t value);
+  constexpr void __cordl_internal_set_i64Val(int64_t value);
 
-  constexpr int32_t& __get_i32Val();
+  constexpr int32_t& __cordl_internal_get_i32Val();
 
-  constexpr int32_t const& __get_i32Val() const;
+  constexpr int32_t const& __cordl_internal_get_i32Val() const;
 
-  constexpr void __set_i32Val(int32_t value);
+  constexpr void __cordl_internal_set_i32Val(int32_t value);
 
-  constexpr ::System::DateTime& __get_dtVal();
+  constexpr ::System::DateTime& __cordl_internal_get_dtVal();
 
-  constexpr ::System::DateTime const& __get_dtVal() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_dtVal() const;
 
-  constexpr void __set_dtVal(::System::DateTime value);
+  constexpr void __cordl_internal_set_dtVal(::System::DateTime value);
 
   // Ctor Parameters [CppParam { name: "boolVal", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "dblVal", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "i64Val",
   // ty: "int64_t", modifiers: "", def_value: None }, CppParam { name: "i32Val", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "dtVal", ty: "::System::DateTime", modifiers: "",
@@ -205,17 +205,17 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::__XmlAtomic
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11712))
 // CS Name: ::XmlAtomicValue::NamespacePrefixForQName*
 class CORDL_TYPE __XmlAtomicValue__NamespacePrefixForQName : public ::System::Object {
 public:
   // Declarations
   /// @brief Field prefix, offset 0x10, size 0x8
-  __declspec(property(get = __get_prefix, put = __set_prefix))::StringW prefix;
+  __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix))::StringW prefix;
 
   /// @brief Field ns, offset 0x18, size 0x8
-  __declspec(property(get = __get_ns, put = __set_ns))::StringW ns;
+  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns))::StringW ns;
 
   /// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
   constexpr operator ::System::Xml::IXmlNamespaceResolver*() noexcept;
@@ -223,17 +223,17 @@ public:
   /// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
   constexpr ::System::Xml::IXmlNamespaceResolver* i___System__Xml__IXmlNamespaceResolver() noexcept;
 
-  constexpr ::StringW& __get_prefix();
+  constexpr ::StringW& __cordl_internal_get_prefix();
 
-  constexpr ::StringW const& __get_prefix() const;
+  constexpr ::StringW const& __cordl_internal_get_prefix() const;
 
-  constexpr void __set_prefix(::StringW value);
+  constexpr void __cordl_internal_set_prefix(::StringW value);
 
-  constexpr ::StringW& __get_ns();
+  constexpr ::StringW& __cordl_internal_get_ns();
 
-  constexpr ::StringW const& __get_ns() const;
+  constexpr ::StringW const& __cordl_internal_get_ns() const;
 
-  constexpr void __set_ns(::StringW value);
+  constexpr void __cordl_internal_set_ns(::StringW value);
 
   static inline ::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName* New_ctor(::StringW prefix, ::StringW ns);
 
@@ -280,7 +280,7 @@ static_assert(offsetof(::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixF
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11580)), TypeDefinitionIndex(TypeDefinitionIndex(2496)), TypeDefinitionIndex(TypeDefinitionIndex(11711))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2496)), TypeDefinitionIndex(TypeDefinitionIndex(11580)), TypeDefinitionIndex(TypeDefinitionIndex(11711))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11713))
 // CS Name: ::System.Xml.Schema::XmlAtomicValue*
 class CORDL_TYPE XmlAtomicValue : public ::System::Xml::XPath::XPathItem {
@@ -291,19 +291,19 @@ public:
   using Union = ::System::Xml::Schema::__XmlAtomicValue__Union;
 
   /// @brief Field xmlType, offset 0x10, size 0x8
-  __declspec(property(get = __get_xmlType, put = __set_xmlType))::System::Xml::Schema::XmlSchemaType* xmlType;
+  __declspec(property(get = __cordl_internal_get_xmlType, put = __cordl_internal_set_xmlType))::System::Xml::Schema::XmlSchemaType* xmlType;
 
   /// @brief Field objVal, offset 0x18, size 0x8
-  __declspec(property(get = __get_objVal, put = __set_objVal))::System::Object* objVal;
+  __declspec(property(get = __cordl_internal_get_objVal, put = __cordl_internal_set_objVal))::System::Object* objVal;
 
   /// @brief Field clrType, offset 0x20, size 0x4
-  __declspec(property(get = __get_clrType, put = __set_clrType))::System::TypeCode clrType;
+  __declspec(property(get = __cordl_internal_get_clrType, put = __cordl_internal_set_clrType))::System::TypeCode clrType;
 
   /// @brief Field unionVal, offset 0x28, size 0x8
-  __declspec(property(get = __get_unionVal, put = __set_unionVal))::System::Xml::Schema::__XmlAtomicValue__Union unionVal;
+  __declspec(property(get = __cordl_internal_get_unionVal, put = __cordl_internal_set_unionVal))::System::Xml::Schema::__XmlAtomicValue__Union unionVal;
 
   /// @brief Field nsPrefix, offset 0x30, size 0x8
-  __declspec(property(get = __get_nsPrefix, put = __set_nsPrefix))::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName* nsPrefix;
+  __declspec(property(get = __cordl_internal_get_nsPrefix, put = __cordl_internal_set_nsPrefix))::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName* nsPrefix;
 
   __declspec(property(get = get_XmlType))::System::Xml::Schema::XmlSchemaType* XmlType;
 
@@ -329,35 +329,35 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::System::Xml::Schema::XmlSchemaType*& __get_xmlType();
+  constexpr ::System::Xml::Schema::XmlSchemaType*& __cordl_internal_get_xmlType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __get_xmlType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __cordl_internal_get_xmlType() const;
 
-  constexpr void __set_xmlType(::System::Xml::Schema::XmlSchemaType* value);
+  constexpr void __cordl_internal_set_xmlType(::System::Xml::Schema::XmlSchemaType* value);
 
-  constexpr ::System::Object*& __get_objVal();
+  constexpr ::System::Object*& __cordl_internal_get_objVal();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_objVal() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_objVal() const;
 
-  constexpr void __set_objVal(::System::Object* value);
+  constexpr void __cordl_internal_set_objVal(::System::Object* value);
 
-  constexpr ::System::TypeCode& __get_clrType();
+  constexpr ::System::TypeCode& __cordl_internal_get_clrType();
 
-  constexpr ::System::TypeCode const& __get_clrType() const;
+  constexpr ::System::TypeCode const& __cordl_internal_get_clrType() const;
 
-  constexpr void __set_clrType(::System::TypeCode value);
+  constexpr void __cordl_internal_set_clrType(::System::TypeCode value);
 
-  constexpr ::System::Xml::Schema::__XmlAtomicValue__Union& __get_unionVal();
+  constexpr ::System::Xml::Schema::__XmlAtomicValue__Union& __cordl_internal_get_unionVal();
 
-  constexpr ::System::Xml::Schema::__XmlAtomicValue__Union const& __get_unionVal() const;
+  constexpr ::System::Xml::Schema::__XmlAtomicValue__Union const& __cordl_internal_get_unionVal() const;
 
-  constexpr void __set_unionVal(::System::Xml::Schema::__XmlAtomicValue__Union value);
+  constexpr void __cordl_internal_set_unionVal(::System::Xml::Schema::__XmlAtomicValue__Union value);
 
-  constexpr ::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName*& __get_nsPrefix();
+  constexpr ::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName*& __cordl_internal_get_nsPrefix();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName*> const& __get_nsPrefix() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName*> const& __cordl_internal_get_nsPrefix() const;
 
-  constexpr void __set_nsPrefix(::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName* value);
+  constexpr void __cordl_internal_set_nsPrefix(::System::Xml::Schema::__XmlAtomicValue__NamespacePrefixForQName* value);
 
   static inline ::System::Xml::Schema::XmlAtomicValue* New_ctor(::System::Xml::Schema::XmlSchemaType* xmlType, bool value);
 

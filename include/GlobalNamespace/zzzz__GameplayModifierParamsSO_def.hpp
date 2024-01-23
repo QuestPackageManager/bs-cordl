@@ -20,39 +20,43 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayModifierParamsSO);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4197))
 // CS Name: ::GameplayModifierParamsSO*
 class CORDL_TYPE GameplayModifierParamsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _modifierNameLocalizationKey, offset 0x18, size 0x8
-  __declspec(property(get = __get__modifierNameLocalizationKey, put = __set__modifierNameLocalizationKey))::StringW _modifierNameLocalizationKey;
+  __declspec(property(get = __cordl_internal_get__modifierNameLocalizationKey, put = __cordl_internal_set__modifierNameLocalizationKey))::StringW _modifierNameLocalizationKey;
 
   /// @brief Field _descriptionLocalizationKey, offset 0x20, size 0x8
-  __declspec(property(get = __get__descriptionLocalizationKey, put = __set__descriptionLocalizationKey))::StringW _descriptionLocalizationKey;
+  __declspec(property(get = __cordl_internal_get__descriptionLocalizationKey, put = __cordl_internal_set__descriptionLocalizationKey))::StringW _descriptionLocalizationKey;
 
   /// @brief Field _multiplier, offset 0x28, size 0x4
-  __declspec(property(get = __get__multiplier, put = __set__multiplier)) float_t _multiplier;
+  __declspec(property(get = __cordl_internal_get__multiplier, put = __cordl_internal_set__multiplier)) float_t _multiplier;
 
   /// @brief Field _multiplierConditionallyValid, offset 0x2c, size 0x1
-  __declspec(property(get = __get__multiplierConditionallyValid, put = __set__multiplierConditionallyValid)) bool _multiplierConditionallyValid;
+  __declspec(property(get = __cordl_internal_get__multiplierConditionallyValid, put = __cordl_internal_set__multiplierConditionallyValid)) bool _multiplierConditionallyValid;
 
   /// @brief Field _icon, offset 0x30, size 0x8
-  __declspec(property(get = __get__icon, put = __set__icon))::UnityEngine::Sprite* _icon;
+  __declspec(property(get = __cordl_internal_get__icon, put = __cordl_internal_set__icon))::UnityW<::UnityEngine::Sprite> _icon;
 
   /// @brief Field _mutuallyExclusives, offset 0x38, size 0x8
-  __declspec(property(get = __get__mutuallyExclusives,
-                      put = __set__mutuallyExclusives))::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> _mutuallyExclusives;
+  __declspec(property(get = __cordl_internal_get__mutuallyExclusives,
+                      put = __cordl_internal_set__mutuallyExclusives))::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>,
+                                                                               ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> _mutuallyExclusives;
 
   /// @brief Field _requires, offset 0x40, size 0x8
-  __declspec(property(get = __get__requires, put = __set__requires))::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> _requires;
+  __declspec(property(get = __cordl_internal_get__requires,
+                      put = __cordl_internal_set__requires))::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> _requires;
 
   /// @brief Field _requiredBy, offset 0x48, size 0x8
-  __declspec(property(get = __get__requiredBy, put = __set__requiredBy))::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> _requiredBy;
+  __declspec(
+      property(get = __cordl_internal_get__requiredBy,
+               put = __cordl_internal_set__requiredBy))::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> _requiredBy;
 
   /// @brief Field _isInBeta, offset 0x50, size 0x1
-  __declspec(property(get = __get__isInBeta, put = __set__isInBeta)) bool _isInBeta;
+  __declspec(property(get = __cordl_internal_get__isInBeta, put = __cordl_internal_set__isInBeta)) bool _isInBeta;
 
   __declspec(property(get = get_modifierNameLocalizationKey))::StringW modifierNameLocalizationKey;
 
@@ -62,69 +66,69 @@ public:
 
   __declspec(property(get = get_multiplierConditionallyValid)) bool multiplierConditionallyValid;
 
-  __declspec(property(get = get_icon))::UnityEngine::Sprite* icon;
+  __declspec(property(get = get_icon))::UnityW<::UnityEngine::Sprite> icon;
 
-  __declspec(property(get = get_mutuallyExclusives))::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> mutuallyExclusives;
+  __declspec(property(get = get_mutuallyExclusives))::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> mutuallyExclusives;
 
-  __declspec(property(get = get_requires))::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> _cordl_requires;
+  __declspec(property(get = get_requires))::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> _cordl_requires;
 
-  __declspec(property(get = get_requiredBy))::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> requiredBy;
+  __declspec(property(get = get_requiredBy))::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> requiredBy;
 
   __declspec(property(get = get_isInBeta)) bool isInBeta;
 
-  constexpr ::StringW& __get__modifierNameLocalizationKey();
+  constexpr ::StringW& __cordl_internal_get__modifierNameLocalizationKey();
 
-  constexpr ::StringW const& __get__modifierNameLocalizationKey() const;
+  constexpr ::StringW const& __cordl_internal_get__modifierNameLocalizationKey() const;
 
-  constexpr void __set__modifierNameLocalizationKey(::StringW value);
+  constexpr void __cordl_internal_set__modifierNameLocalizationKey(::StringW value);
 
-  constexpr ::StringW& __get__descriptionLocalizationKey();
+  constexpr ::StringW& __cordl_internal_get__descriptionLocalizationKey();
 
-  constexpr ::StringW const& __get__descriptionLocalizationKey() const;
+  constexpr ::StringW const& __cordl_internal_get__descriptionLocalizationKey() const;
 
-  constexpr void __set__descriptionLocalizationKey(::StringW value);
+  constexpr void __cordl_internal_set__descriptionLocalizationKey(::StringW value);
 
-  constexpr float_t& __get__multiplier();
+  constexpr float_t& __cordl_internal_get__multiplier();
 
-  constexpr float_t const& __get__multiplier() const;
+  constexpr float_t const& __cordl_internal_get__multiplier() const;
 
-  constexpr void __set__multiplier(float_t value);
+  constexpr void __cordl_internal_set__multiplier(float_t value);
 
-  constexpr bool& __get__multiplierConditionallyValid();
+  constexpr bool& __cordl_internal_get__multiplierConditionallyValid();
 
-  constexpr bool const& __get__multiplierConditionallyValid() const;
+  constexpr bool const& __cordl_internal_get__multiplierConditionallyValid() const;
 
-  constexpr void __set__multiplierConditionallyValid(bool value);
+  constexpr void __cordl_internal_set__multiplierConditionallyValid(bool value);
 
-  constexpr ::UnityEngine::Sprite*& __get__icon();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__icon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__icon() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__icon() const;
 
-  constexpr void __set__icon(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*>& __get__mutuallyExclusives();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>& __cordl_internal_get__mutuallyExclusives();
 
-  constexpr ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> const& __get__mutuallyExclusives() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> const& __cordl_internal_get__mutuallyExclusives() const;
 
-  constexpr void __set__mutuallyExclusives(::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> value);
+  constexpr void __cordl_internal_set__mutuallyExclusives(::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*>& __get__requires();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>& __cordl_internal_get__requires();
 
-  constexpr ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> const& __get__requires() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> const& __cordl_internal_get__requires() const;
 
-  constexpr void __set__requires(::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> value);
+  constexpr void __cordl_internal_set__requires(::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*>& __get__requiredBy();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*>& __cordl_internal_get__requiredBy();
 
-  constexpr ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> const& __get__requiredBy() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> const& __cordl_internal_get__requiredBy() const;
 
-  constexpr void __set__requiredBy(::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> value);
+  constexpr void __cordl_internal_set__requiredBy(::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> value);
 
-  constexpr bool& __get__isInBeta();
+  constexpr bool& __cordl_internal_get__isInBeta();
 
-  constexpr bool const& __get__isInBeta() const;
+  constexpr bool const& __cordl_internal_get__isInBeta() const;
 
-  constexpr void __set__isInBeta(bool value);
+  constexpr void __cordl_internal_set__isInBeta(bool value);
 
   /// @brief Method get_modifierNameLocalizationKey, addr 0x2325b00, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_modifierNameLocalizationKey();
@@ -139,16 +143,16 @@ public:
   inline bool get_multiplierConditionallyValid();
 
   /// @brief Method get_icon, addr 0x2325b20, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Sprite* get_icon();
+  inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
   /// @brief Method get_mutuallyExclusives, addr 0x2325b28, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> get_mutuallyExclusives();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> get_mutuallyExclusives();
 
   /// @brief Method get_requires, addr 0x2325b30, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> get_requires();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> get_requires();
 
   /// @brief Method get_requiredBy, addr 0x2325b38, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> get_requiredBy();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> get_requiredBy();
 
   /// @brief Method get_isInBeta, addr 0x2325b40, size 0x8, virtual false, abstract: false, final false
   inline bool get_isInBeta();
@@ -185,16 +189,16 @@ public:
   bool ____multiplierConditionallyValid;
 
   /// @brief Field _icon, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____icon;
+  ::UnityW<::UnityEngine::Sprite> ____icon;
 
   /// @brief Field _mutuallyExclusives, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> ____mutuallyExclusives;
+  ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> ____mutuallyExclusives;
 
   /// @brief Field _requires, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> ____requires;
+  ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> ____requires;
 
   /// @brief Field _requiredBy, offset: 0x48, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::GameplayModifierParamsSO*, ::Array<::GlobalNamespace::GameplayModifierParamsSO*>*> ____requiredBy;
+  ::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> ____requiredBy;
 
   /// @brief Field _isInBeta, offset: 0x50, size: 0x1, def value: None
   bool ____isInBeta;

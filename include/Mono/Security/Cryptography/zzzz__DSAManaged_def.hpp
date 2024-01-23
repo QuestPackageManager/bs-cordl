@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHa
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2285))
 // CS Name: ::DSAManaged::KeyGeneratedEventHandler*
 class CORDL_TYPE __DSAManaged__KeyGeneratedEventHandler : public ::System::MulticastDelegate {
@@ -77,7 +77,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Security::Cryptography::__
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2931))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2931))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2286))
 // CS Name: ::Mono.Security.Cryptography::DSAManaged*
 class CORDL_TYPE DSAManaged : public ::System::Security::Cryptography::DSA {
@@ -86,43 +86,43 @@ public:
   using KeyGeneratedEventHandler = ::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler;
 
   /// @brief Field keypairGenerated, offset 0x20, size 0x1
-  __declspec(property(get = __get_keypairGenerated, put = __set_keypairGenerated)) bool keypairGenerated;
+  __declspec(property(get = __cordl_internal_get_keypairGenerated, put = __cordl_internal_set_keypairGenerated)) bool keypairGenerated;
 
   /// @brief Field m_disposed, offset 0x21, size 0x1
-  __declspec(property(get = __get_m_disposed, put = __set_m_disposed)) bool m_disposed;
+  __declspec(property(get = __cordl_internal_get_m_disposed, put = __cordl_internal_set_m_disposed)) bool m_disposed;
 
   /// @brief Field p, offset 0x28, size 0x8
-  __declspec(property(get = __get_p, put = __set_p))::Mono::Math::BigInteger* p;
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Mono::Math::BigInteger* p;
 
   /// @brief Field q, offset 0x30, size 0x8
-  __declspec(property(get = __get_q, put = __set_q))::Mono::Math::BigInteger* q;
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::Mono::Math::BigInteger* q;
 
   /// @brief Field g, offset 0x38, size 0x8
-  __declspec(property(get = __get_g, put = __set_g))::Mono::Math::BigInteger* g;
+  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g))::Mono::Math::BigInteger* g;
 
   /// @brief Field x, offset 0x40, size 0x8
-  __declspec(property(get = __get_x, put = __set_x))::Mono::Math::BigInteger* x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::Mono::Math::BigInteger* x;
 
   /// @brief Field y, offset 0x48, size 0x8
-  __declspec(property(get = __get_y, put = __set_y))::Mono::Math::BigInteger* y;
+  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y))::Mono::Math::BigInteger* y;
 
   /// @brief Field j, offset 0x50, size 0x8
-  __declspec(property(get = __get_j, put = __set_j))::Mono::Math::BigInteger* j;
+  __declspec(property(get = __cordl_internal_get_j, put = __cordl_internal_set_j))::Mono::Math::BigInteger* j;
 
   /// @brief Field seed, offset 0x58, size 0x8
-  __declspec(property(get = __get_seed, put = __set_seed))::Mono::Math::BigInteger* seed;
+  __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed))::Mono::Math::BigInteger* seed;
 
   /// @brief Field counter, offset 0x60, size 0x4
-  __declspec(property(get = __get_counter, put = __set_counter)) int32_t counter;
+  __declspec(property(get = __cordl_internal_get_counter, put = __cordl_internal_set_counter)) int32_t counter;
 
   /// @brief Field j_missing, offset 0x64, size 0x1
-  __declspec(property(get = __get_j_missing, put = __set_j_missing)) bool j_missing;
+  __declspec(property(get = __cordl_internal_get_j_missing, put = __cordl_internal_set_j_missing)) bool j_missing;
 
   /// @brief Field rng, offset 0x68, size 0x8
-  __declspec(property(get = __get_rng, put = __set_rng))::System::Security::Cryptography::RandomNumberGenerator* rng;
+  __declspec(property(get = __cordl_internal_get_rng, put = __cordl_internal_set_rng))::System::Security::Cryptography::RandomNumberGenerator* rng;
 
   /// @brief Field KeyGenerated, offset 0x70, size 0x8
-  __declspec(property(get = __get_KeyGenerated, put = __set_KeyGenerated))::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler* KeyGenerated;
+  __declspec(property(get = __cordl_internal_get_KeyGenerated, put = __cordl_internal_set_KeyGenerated))::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler* KeyGenerated;
 
   __declspec(property(get = get_Random))::System::Security::Cryptography::RandomNumberGenerator* Random;
 
@@ -130,83 +130,83 @@ public:
 
   __declspec(property(get = get_PublicOnly)) bool PublicOnly;
 
-  constexpr bool& __get_keypairGenerated();
+  constexpr bool& __cordl_internal_get_keypairGenerated();
 
-  constexpr bool const& __get_keypairGenerated() const;
+  constexpr bool const& __cordl_internal_get_keypairGenerated() const;
 
-  constexpr void __set_keypairGenerated(bool value);
+  constexpr void __cordl_internal_set_keypairGenerated(bool value);
 
-  constexpr bool& __get_m_disposed();
+  constexpr bool& __cordl_internal_get_m_disposed();
 
-  constexpr bool const& __get_m_disposed() const;
+  constexpr bool const& __cordl_internal_get_m_disposed() const;
 
-  constexpr void __set_m_disposed(bool value);
+  constexpr void __cordl_internal_set_m_disposed(bool value);
 
-  constexpr ::Mono::Math::BigInteger*& __get_p();
+  constexpr ::Mono::Math::BigInteger*& __cordl_internal_get_p();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __get_p() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __cordl_internal_get_p() const;
 
-  constexpr void __set_p(::Mono::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_p(::Mono::Math::BigInteger* value);
 
-  constexpr ::Mono::Math::BigInteger*& __get_q();
+  constexpr ::Mono::Math::BigInteger*& __cordl_internal_get_q();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __get_q() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __cordl_internal_get_q() const;
 
-  constexpr void __set_q(::Mono::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_q(::Mono::Math::BigInteger* value);
 
-  constexpr ::Mono::Math::BigInteger*& __get_g();
+  constexpr ::Mono::Math::BigInteger*& __cordl_internal_get_g();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __get_g() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __cordl_internal_get_g() const;
 
-  constexpr void __set_g(::Mono::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_g(::Mono::Math::BigInteger* value);
 
-  constexpr ::Mono::Math::BigInteger*& __get_x();
+  constexpr ::Mono::Math::BigInteger*& __cordl_internal_get_x();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __get_x() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(::Mono::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_x(::Mono::Math::BigInteger* value);
 
-  constexpr ::Mono::Math::BigInteger*& __get_y();
+  constexpr ::Mono::Math::BigInteger*& __cordl_internal_get_y();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __get_y() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __cordl_internal_get_y() const;
 
-  constexpr void __set_y(::Mono::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_y(::Mono::Math::BigInteger* value);
 
-  constexpr ::Mono::Math::BigInteger*& __get_j();
+  constexpr ::Mono::Math::BigInteger*& __cordl_internal_get_j();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __get_j() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __cordl_internal_get_j() const;
 
-  constexpr void __set_j(::Mono::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_j(::Mono::Math::BigInteger* value);
 
-  constexpr ::Mono::Math::BigInteger*& __get_seed();
+  constexpr ::Mono::Math::BigInteger*& __cordl_internal_get_seed();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __get_seed() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Math::BigInteger*> const& __cordl_internal_get_seed() const;
 
-  constexpr void __set_seed(::Mono::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_seed(::Mono::Math::BigInteger* value);
 
-  constexpr int32_t& __get_counter();
+  constexpr int32_t& __cordl_internal_get_counter();
 
-  constexpr int32_t const& __get_counter() const;
+  constexpr int32_t const& __cordl_internal_get_counter() const;
 
-  constexpr void __set_counter(int32_t value);
+  constexpr void __cordl_internal_set_counter(int32_t value);
 
-  constexpr bool& __get_j_missing();
+  constexpr bool& __cordl_internal_get_j_missing();
 
-  constexpr bool const& __get_j_missing() const;
+  constexpr bool const& __cordl_internal_get_j_missing() const;
 
-  constexpr void __set_j_missing(bool value);
+  constexpr void __cordl_internal_set_j_missing(bool value);
 
-  constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __get_rng();
+  constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __cordl_internal_get_rng();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RandomNumberGenerator*> const& __get_rng() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RandomNumberGenerator*> const& __cordl_internal_get_rng() const;
 
-  constexpr void __set_rng(::System::Security::Cryptography::RandomNumberGenerator* value);
+  constexpr void __cordl_internal_set_rng(::System::Security::Cryptography::RandomNumberGenerator* value);
 
-  constexpr ::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler*& __get_KeyGenerated();
+  constexpr ::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler*& __cordl_internal_get_KeyGenerated();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler*> const& __get_KeyGenerated() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler*> const& __cordl_internal_get_KeyGenerated() const;
 
-  constexpr void __set_KeyGenerated(::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler* value);
+  constexpr void __cordl_internal_set_KeyGenerated(::Mono::Security::Cryptography::__DSAManaged__KeyGeneratedEventHandler* value);
 
   static inline ::Mono::Security::Cryptography::DSAManaged* New_ctor(int32_t dwKeySize);
 

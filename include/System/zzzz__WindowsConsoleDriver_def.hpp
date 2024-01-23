@@ -32,20 +32,20 @@ MARK_REF_PTR_T(::System::WindowsConsoleDriver);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2649))
 // CS Name: ::System::WindowsConsoleDriver*
 class CORDL_TYPE WindowsConsoleDriver : public ::System::Object {
 public:
   // Declarations
   /// @brief Field inputHandle, offset 0x10, size 0x8
-  __declspec(property(get = __get_inputHandle, put = __set_inputHandle)) void* inputHandle;
+  __declspec(property(get = __cordl_internal_get_inputHandle, put = __cordl_internal_set_inputHandle)) void* inputHandle;
 
   /// @brief Field outputHandle, offset 0x18, size 0x8
-  __declspec(property(get = __get_outputHandle, put = __set_outputHandle)) void* outputHandle;
+  __declspec(property(get = __cordl_internal_get_outputHandle, put = __cordl_internal_set_outputHandle)) void* outputHandle;
 
   /// @brief Field defaultAttribute, offset 0x20, size 0x2
-  __declspec(property(get = __get_defaultAttribute, put = __set_defaultAttribute)) int16_t defaultAttribute;
+  __declspec(property(get = __cordl_internal_get_defaultAttribute, put = __cordl_internal_set_defaultAttribute)) int16_t defaultAttribute;
 
   /// @brief Convert operator to "::System::IConsoleDriver"
   constexpr operator ::System::IConsoleDriver*() noexcept;
@@ -53,23 +53,23 @@ public:
   /// @brief Convert to "::System::IConsoleDriver"
   constexpr ::System::IConsoleDriver* i___System__IConsoleDriver() noexcept;
 
-  constexpr void*& __get_inputHandle();
+  constexpr void*& __cordl_internal_get_inputHandle();
 
-  constexpr void* const& __get_inputHandle() const;
+  constexpr void* const& __cordl_internal_get_inputHandle() const;
 
-  constexpr void __set_inputHandle(void* value);
+  constexpr void __cordl_internal_set_inputHandle(void* value);
 
-  constexpr void*& __get_outputHandle();
+  constexpr void*& __cordl_internal_get_outputHandle();
 
-  constexpr void* const& __get_outputHandle() const;
+  constexpr void* const& __cordl_internal_get_outputHandle() const;
 
-  constexpr void __set_outputHandle(void* value);
+  constexpr void __cordl_internal_set_outputHandle(void* value);
 
-  constexpr int16_t& __get_defaultAttribute();
+  constexpr int16_t& __cordl_internal_get_defaultAttribute();
 
-  constexpr int16_t const& __get_defaultAttribute() const;
+  constexpr int16_t const& __cordl_internal_get_defaultAttribute() const;
 
-  constexpr void __set_defaultAttribute(int16_t value);
+  constexpr void __cordl_internal_set_defaultAttribute(int16_t value);
 
   static inline ::System::WindowsConsoleDriver* New_ctor();
 

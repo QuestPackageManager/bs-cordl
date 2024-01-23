@@ -20,29 +20,29 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingToolLoggingViewController);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5739))
 // CS Name: ::RecordingToolLoggingViewController*
 class CORDL_TYPE RecordingToolLoggingViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _textPageScrollView, offset 0x70, size 0x8
-  __declspec(property(get = __get__textPageScrollView, put = __set__textPageScrollView))::HMUI::TextPageScrollView* _textPageScrollView;
+  __declspec(property(get = __cordl_internal_get__textPageScrollView, put = __cordl_internal_set__textPageScrollView))::UnityW<::HMUI::TextPageScrollView> _textPageScrollView;
 
   /// @brief Field _listLogger, offset 0x78, size 0x8
-  __declspec(property(get = __get__listLogger, put = __set__listLogger))::GlobalNamespace::ListLogger* _listLogger;
+  __declspec(property(get = __cordl_internal_get__listLogger, put = __cordl_internal_set__listLogger))::GlobalNamespace::ListLogger* _listLogger;
 
-  constexpr ::HMUI::TextPageScrollView*& __get__textPageScrollView();
+  constexpr ::UnityW<::HMUI::TextPageScrollView>& __cordl_internal_get__textPageScrollView();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::TextPageScrollView*> const& __get__textPageScrollView() const;
+  constexpr ::UnityW<::HMUI::TextPageScrollView> const& __cordl_internal_get__textPageScrollView() const;
 
-  constexpr void __set__textPageScrollView(::HMUI::TextPageScrollView* value);
+  constexpr void __cordl_internal_set__textPageScrollView(::UnityW<::HMUI::TextPageScrollView> value);
 
-  constexpr ::GlobalNamespace::ListLogger*& __get__listLogger();
+  constexpr ::GlobalNamespace::ListLogger*& __cordl_internal_get__listLogger();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ListLogger*> const& __get__listLogger() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ListLogger*> const& __cordl_internal_get__listLogger() const;
 
-  constexpr void __set__listLogger(::GlobalNamespace::ListLogger* value);
+  constexpr void __cordl_internal_set__listLogger(::GlobalNamespace::ListLogger* value);
 
   /// @brief Method DidActivate, addr 0x22d5f2c, size 0x9c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -67,7 +67,7 @@ protected:
 
 public:
   /// @brief Field _textPageScrollView, offset: 0x70, size: 0x8, def value: None
-  ::HMUI::TextPageScrollView* ____textPageScrollView;
+  ::UnityW<::HMUI::TextPageScrollView> ____textPageScrollView;
 
   /// @brief Field _listLogger, offset: 0x78, size: 0x8, def value: None
   ::GlobalNamespace::ListLogger* ____listLogger;

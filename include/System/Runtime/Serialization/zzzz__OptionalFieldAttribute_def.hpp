@@ -15,22 +15,22 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::OptionalFieldAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3228))
 // CS Name: ::System.Runtime.Serialization::OptionalFieldAttribute*
 class CORDL_TYPE OptionalFieldAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field versionAdded, offset 0x10, size 0x4
-  __declspec(property(get = __get_versionAdded, put = __set_versionAdded)) int32_t versionAdded;
+  __declspec(property(get = __cordl_internal_get_versionAdded, put = __cordl_internal_set_versionAdded)) int32_t versionAdded;
 
   __declspec(property(put = set_VersionAdded)) int32_t VersionAdded;
 
-  constexpr int32_t& __get_versionAdded();
+  constexpr int32_t& __cordl_internal_get_versionAdded();
 
-  constexpr int32_t const& __get_versionAdded() const;
+  constexpr int32_t const& __cordl_internal_get_versionAdded() const;
 
-  constexpr void __set_versionAdded(int32_t value);
+  constexpr void __cordl_internal_set_versionAdded(int32_t value);
 
   static inline ::System::Runtime::Serialization::OptionalFieldAttribute* New_ctor();
 

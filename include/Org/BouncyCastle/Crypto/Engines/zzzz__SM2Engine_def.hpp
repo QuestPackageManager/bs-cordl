@@ -43,65 +43,65 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::SM2Engine);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(872))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::SM2Engine*
 class CORDL_TYPE SM2Engine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mDigest, offset 0x10, size 0x8
-  __declspec(property(get = __get_mDigest, put = __set_mDigest))::Org::BouncyCastle::Crypto::IDigest* mDigest;
+  __declspec(property(get = __cordl_internal_get_mDigest, put = __cordl_internal_set_mDigest))::Org::BouncyCastle::Crypto::IDigest* mDigest;
 
   /// @brief Field mForEncryption, offset 0x18, size 0x1
-  __declspec(property(get = __get_mForEncryption, put = __set_mForEncryption)) bool mForEncryption;
+  __declspec(property(get = __cordl_internal_get_mForEncryption, put = __cordl_internal_set_mForEncryption)) bool mForEncryption;
 
   /// @brief Field mECKey, offset 0x20, size 0x8
-  __declspec(property(get = __get_mECKey, put = __set_mECKey))::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* mECKey;
+  __declspec(property(get = __cordl_internal_get_mECKey, put = __cordl_internal_set_mECKey))::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* mECKey;
 
   /// @brief Field mECParams, offset 0x28, size 0x8
-  __declspec(property(get = __get_mECParams, put = __set_mECParams))::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* mECParams;
+  __declspec(property(get = __cordl_internal_get_mECParams, put = __cordl_internal_set_mECParams))::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* mECParams;
 
   /// @brief Field mCurveLength, offset 0x30, size 0x4
-  __declspec(property(get = __get_mCurveLength, put = __set_mCurveLength)) int32_t mCurveLength;
+  __declspec(property(get = __cordl_internal_get_mCurveLength, put = __cordl_internal_set_mCurveLength)) int32_t mCurveLength;
 
   /// @brief Field mRandom, offset 0x38, size 0x8
-  __declspec(property(get = __get_mRandom, put = __set_mRandom))::Org::BouncyCastle::Security::SecureRandom* mRandom;
+  __declspec(property(get = __cordl_internal_get_mRandom, put = __cordl_internal_set_mRandom))::Org::BouncyCastle::Security::SecureRandom* mRandom;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_mDigest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mDigest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_mDigest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_mDigest() const;
 
-  constexpr void __set_mDigest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_mDigest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr bool& __get_mForEncryption();
+  constexpr bool& __cordl_internal_get_mForEncryption();
 
-  constexpr bool const& __get_mForEncryption() const;
+  constexpr bool const& __cordl_internal_get_mForEncryption() const;
 
-  constexpr void __set_mForEncryption(bool value);
+  constexpr void __cordl_internal_set_mForEncryption(bool value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*& __get_mECKey();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*& __cordl_internal_get_mECKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*> const& __get_mECKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*> const& __cordl_internal_get_mECKey() const;
 
-  constexpr void __set_mECKey(::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* value);
+  constexpr void __cordl_internal_set_mECKey(::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& __get_mECParams();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& __cordl_internal_get_mECParams();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*> const& __get_mECParams() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*> const& __cordl_internal_get_mECParams() const;
 
-  constexpr void __set_mECParams(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value);
+  constexpr void __cordl_internal_set_mECParams(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value);
 
-  constexpr int32_t& __get_mCurveLength();
+  constexpr int32_t& __cordl_internal_get_mCurveLength();
 
-  constexpr int32_t const& __get_mCurveLength() const;
+  constexpr int32_t const& __cordl_internal_get_mCurveLength() const;
 
-  constexpr void __set_mCurveLength(int32_t value);
+  constexpr void __cordl_internal_set_mCurveLength(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_mRandom();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_mRandom();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_mRandom() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_mRandom() const;
 
-  constexpr void __set_mRandom(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_mRandom(::Org::BouncyCastle::Security::SecureRandom* value);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::SM2Engine* New_ctor();
 

@@ -28,22 +28,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Operators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(675))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(675))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(998))
 // CS Name: ::Org.BouncyCastle.Operators::CmsKeyTransRecipientInfoGenerator*
 class CORDL_TYPE CmsKeyTransRecipientInfoGenerator : public ::Org::BouncyCastle::Cms::KeyTransRecipientInfoGenerator {
 public:
   // Declarations
   /// @brief Field keyWrapper, offset 0x40, size 0x8
-  __declspec(property(get = __get_keyWrapper, put = __set_keyWrapper))::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper;
+  __declspec(property(get = __cordl_internal_get_keyWrapper, put = __cordl_internal_set_keyWrapper))::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper;
 
   __declspec(property(get = get_AlgorithmDetails))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* AlgorithmDetails;
 
-  constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper*& __get_keyWrapper();
+  constexpr ::Org::BouncyCastle::Crypto::IKeyWrapper*& __cordl_internal_get_keyWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IKeyWrapper*> const& __get_keyWrapper() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IKeyWrapper*> const& __cordl_internal_get_keyWrapper() const;
 
-  constexpr void __set_keyWrapper(::Org::BouncyCastle::Crypto::IKeyWrapper* value);
+  constexpr void __cordl_internal_set_keyWrapper(::Org::BouncyCastle::Crypto::IKeyWrapper* value);
 
   static inline ::Org::BouncyCastle::Operators::CmsKeyTransRecipientInfoGenerator* New_ctor(::Org::BouncyCastle::X509::X509Certificate* recipCert,
                                                                                             ::Org::BouncyCastle::Crypto::IKeyWrapper* keyWrapper);

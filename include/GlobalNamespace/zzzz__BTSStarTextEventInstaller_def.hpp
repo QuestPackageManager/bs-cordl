@@ -17,20 +17,21 @@ MARK_REF_PTR_T(::GlobalNamespace::BTSStarTextEventInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3986))
 // CS Name: ::BTSStarTextEventInstaller*
 class CORDL_TYPE BTSStarTextEventInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
   /// @brief Field _btsStarTextEffectController, offset 0x20, size 0x8
-  __declspec(property(get = __get__btsStarTextEffectController, put = __set__btsStarTextEffectController))::GlobalNamespace::BTSStarTextEffectController* _btsStarTextEffectController;
+  __declspec(property(get = __cordl_internal_get__btsStarTextEffectController,
+                      put = __cordl_internal_set__btsStarTextEffectController))::UnityW<::GlobalNamespace::BTSStarTextEffectController> _btsStarTextEffectController;
 
-  constexpr ::GlobalNamespace::BTSStarTextEffectController*& __get__btsStarTextEffectController();
+  constexpr ::UnityW<::GlobalNamespace::BTSStarTextEffectController>& __cordl_internal_get__btsStarTextEffectController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSStarTextEffectController*> const& __get__btsStarTextEffectController() const;
+  constexpr ::UnityW<::GlobalNamespace::BTSStarTextEffectController> const& __cordl_internal_get__btsStarTextEffectController() const;
 
-  constexpr void __set__btsStarTextEffectController(::GlobalNamespace::BTSStarTextEffectController* value);
+  constexpr void __cordl_internal_set__btsStarTextEffectController(::UnityW<::GlobalNamespace::BTSStarTextEffectController> value);
 
   /// @brief Method InstallBindings, addr 0x221dc9c, size 0x84, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -55,7 +56,7 @@ protected:
 
 public:
   /// @brief Field _btsStarTextEffectController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BTSStarTextEffectController* ____btsStarTextEffectController;
+  ::UnityW<::GlobalNamespace::BTSStarTextEffectController> ____btsStarTextEffectController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

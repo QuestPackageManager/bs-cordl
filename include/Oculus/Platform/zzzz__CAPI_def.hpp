@@ -188,7 +188,7 @@ MARK_VAL_T(::Oculus::Platform::__CAPI__ovrNetSyncVec3);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13250))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13250))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13236))
 // CS Name: ::CAPI::ovrKeyValuePair
 struct CORDL_TYPE __CAPI__ovrKeyValuePair {
@@ -250,7 +250,7 @@ static_assert(offsetof(::Oculus::Platform::__CAPI__ovrKeyValuePair, doubleValue_
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13237))
 // CS Name: ::CAPI::ovrNetSyncVec3
 struct CORDL_TYPE __CAPI__ovrNetSyncVec3 {
@@ -292,7 +292,7 @@ static_assert(offsetof(::Oculus::Platform::__CAPI__ovrNetSyncVec3, z) == 0x8, "O
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13238))
 // CS Name: ::CAPI::OculusInitParams
 struct CORDL_TYPE __CAPI__OculusInitParams {
@@ -345,7 +345,7 @@ static_assert(offsetof(::Oculus::Platform::__CAPI__OculusInitParams, uriPrefixOv
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13239))
 // CS Name: ::CAPI::FilterCallback*
 class CORDL_TYPE __CAPI__FilterCallback : public ::System::MulticastDelegate {
@@ -390,7 +390,7 @@ static_assert(::cordl_internals::size_check_v<::Oculus::Platform::__CAPI__Filter
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13240))
 // CS Name: ::Oculus.Platform::CAPI*
 class CORDL_TYPE CAPI : public ::System::Object {

@@ -19,32 +19,32 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TooltipEvent);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1725 }), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7180))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7174)) CS Name: ::UnityEngine.UIElements::TooltipEvent*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7180)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst:
+// 1725 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7174)) CS Name: ::UnityEngine.UIElements::TooltipEvent*
 class CORDL_TYPE TooltipEvent : public ::UnityEngine::UIElements::EventBase_1<::UnityEngine::UIElements::TooltipEvent*> {
 public:
   // Declarations
   /// @brief Field <tooltip>k__BackingField, offset 0x80, size 0x8
-  __declspec(property(get = __get__tooltip_k__BackingField, put = __set__tooltip_k__BackingField))::StringW _tooltip_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__tooltip_k__BackingField, put = __cordl_internal_set__tooltip_k__BackingField))::StringW _tooltip_k__BackingField;
 
   /// @brief Field <rect>k__BackingField, offset 0x88, size 0x10
-  __declspec(property(get = __get__rect_k__BackingField, put = __set__rect_k__BackingField))::UnityEngine::Rect _rect_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rect_k__BackingField, put = __cordl_internal_set__rect_k__BackingField))::UnityEngine::Rect _rect_k__BackingField;
 
   __declspec(property(put = set_tooltip))::StringW tooltip;
 
   __declspec(property(put = set_rect))::UnityEngine::Rect rect;
 
-  constexpr ::StringW& __get__tooltip_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__tooltip_k__BackingField();
 
-  constexpr ::StringW const& __get__tooltip_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__tooltip_k__BackingField() const;
 
-  constexpr void __set__tooltip_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__tooltip_k__BackingField(::StringW value);
 
-  constexpr ::UnityEngine::Rect& __get__rect_k__BackingField();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get__rect_k__BackingField();
 
-  constexpr ::UnityEngine::Rect const& __get__rect_k__BackingField() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get__rect_k__BackingField() const;
 
-  constexpr void __set__rect_k__BackingField(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set__rect_k__BackingField(::UnityEngine::Rect value);
 
   /// @brief Method set_tooltip, addr 0x2e4cfe8, size 0x8, virtual false, abstract: false, final false
   inline void set_tooltip(::StringW value);

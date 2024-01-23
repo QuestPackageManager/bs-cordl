@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PrivacyPolicyViewController);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5733))
 // CS Name: ::PrivacyPolicyViewController::ButtonType
 struct CORDL_TYPE __PrivacyPolicyViewController__ButtonType {
@@ -82,7 +82,7 @@ static_assert(offsetof(::GlobalNamespace::__PrivacyPolicyViewController__ButtonT
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 162, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5734))
 // CS Name: ::PrivacyPolicyViewController*
 class CORDL_TYPE PrivacyPolicyViewController : public ::HMUI::ViewController {
@@ -91,76 +91,78 @@ public:
   using ButtonType = ::GlobalNamespace::__PrivacyPolicyViewController__ButtonType;
 
   /// @brief Field _okButton, offset 0x70, size 0x8
-  __declspec(property(get = __get__okButton, put = __set__okButton))::UnityEngine::UI::Button* _okButton;
+  __declspec(property(get = __cordl_internal_get__okButton, put = __cordl_internal_set__okButton))::UnityW<::UnityEngine::UI::Button> _okButton;
 
   /// @brief Field _iAcceptButton, offset 0x78, size 0x8
-  __declspec(property(get = __get__iAcceptButton, put = __set__iAcceptButton))::UnityEngine::UI::Button* _iAcceptButton;
+  __declspec(property(get = __cordl_internal_get__iAcceptButton, put = __cordl_internal_set__iAcceptButton))::UnityW<::UnityEngine::UI::Button> _iAcceptButton;
 
   /// @brief Field _textPageScrollView, offset 0x80, size 0x8
-  __declspec(property(get = __get__textPageScrollView, put = __set__textPageScrollView))::HMUI::TextPageScrollView* _textPageScrollView;
+  __declspec(property(get = __cordl_internal_get__textPageScrollView, put = __cordl_internal_set__textPageScrollView))::UnityW<::HMUI::TextPageScrollView> _textPageScrollView;
 
   /// @brief Field _privacyPolicyLocalizedTextAsset, offset 0x88, size 0x8
-  __declspec(property(get = __get__privacyPolicyLocalizedTextAsset, put = __set__privacyPolicyLocalizedTextAsset))::GlobalNamespace::LocalizedTextAsset* _privacyPolicyLocalizedTextAsset;
+  __declspec(property(get = __cordl_internal_get__privacyPolicyLocalizedTextAsset,
+                      put = __cordl_internal_set__privacyPolicyLocalizedTextAsset))::UnityW<::GlobalNamespace::LocalizedTextAsset> _privacyPolicyLocalizedTextAsset;
 
   /// @brief Field _updateNoticeLocalizationKey, offset 0x90, size 0x8
-  __declspec(property(get = __get__updateNoticeLocalizationKey, put = __set__updateNoticeLocalizationKey))::StringW _updateNoticeLocalizationKey;
+  __declspec(property(get = __cordl_internal_get__updateNoticeLocalizationKey, put = __cordl_internal_set__updateNoticeLocalizationKey))::StringW _updateNoticeLocalizationKey;
 
   /// @brief Field didFinishEvent, offset 0x98, size 0x8
-  __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent,
+                      put = __cordl_internal_set_didFinishEvent))::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>* didFinishEvent;
 
   /// @brief Field _showUpdate, offset 0xa0, size 0x1
-  __declspec(property(get = __get__showUpdate, put = __set__showUpdate)) bool _showUpdate;
+  __declspec(property(get = __cordl_internal_get__showUpdate, put = __cordl_internal_set__showUpdate)) bool _showUpdate;
 
   /// @brief Field _showIAcceptPrompt, offset 0xa1, size 0x1
-  __declspec(property(get = __get__showIAcceptPrompt, put = __set__showIAcceptPrompt)) bool _showIAcceptPrompt;
+  __declspec(property(get = __cordl_internal_get__showIAcceptPrompt, put = __cordl_internal_set__showIAcceptPrompt)) bool _showIAcceptPrompt;
 
-  constexpr ::UnityEngine::UI::Button*& __get__okButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__okButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__okButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__okButton() const;
 
-  constexpr void __set__okButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__okButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__iAcceptButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__iAcceptButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__iAcceptButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__iAcceptButton() const;
 
-  constexpr void __set__iAcceptButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__iAcceptButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::HMUI::TextPageScrollView*& __get__textPageScrollView();
+  constexpr ::UnityW<::HMUI::TextPageScrollView>& __cordl_internal_get__textPageScrollView();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::TextPageScrollView*> const& __get__textPageScrollView() const;
+  constexpr ::UnityW<::HMUI::TextPageScrollView> const& __cordl_internal_get__textPageScrollView() const;
 
-  constexpr void __set__textPageScrollView(::HMUI::TextPageScrollView* value);
+  constexpr void __cordl_internal_set__textPageScrollView(::UnityW<::HMUI::TextPageScrollView> value);
 
-  constexpr ::GlobalNamespace::LocalizedTextAsset*& __get__privacyPolicyLocalizedTextAsset();
+  constexpr ::UnityW<::GlobalNamespace::LocalizedTextAsset>& __cordl_internal_get__privacyPolicyLocalizedTextAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LocalizedTextAsset*> const& __get__privacyPolicyLocalizedTextAsset() const;
+  constexpr ::UnityW<::GlobalNamespace::LocalizedTextAsset> const& __cordl_internal_get__privacyPolicyLocalizedTextAsset() const;
 
-  constexpr void __set__privacyPolicyLocalizedTextAsset(::GlobalNamespace::LocalizedTextAsset* value);
+  constexpr void __cordl_internal_set__privacyPolicyLocalizedTextAsset(::UnityW<::GlobalNamespace::LocalizedTextAsset> value);
 
-  constexpr ::StringW& __get__updateNoticeLocalizationKey();
+  constexpr ::StringW& __cordl_internal_get__updateNoticeLocalizationKey();
 
-  constexpr ::StringW const& __get__updateNoticeLocalizationKey() const;
+  constexpr ::StringW const& __cordl_internal_get__updateNoticeLocalizationKey() const;
 
-  constexpr void __set__updateNoticeLocalizationKey(::StringW value);
+  constexpr void __cordl_internal_set__updateNoticeLocalizationKey(::StringW value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>*& __get_didFinishEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>*> const& __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>*> const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>* value);
 
-  constexpr bool& __get__showUpdate();
+  constexpr bool& __cordl_internal_get__showUpdate();
 
-  constexpr bool const& __get__showUpdate() const;
+  constexpr bool const& __cordl_internal_get__showUpdate() const;
 
-  constexpr void __set__showUpdate(bool value);
+  constexpr void __cordl_internal_set__showUpdate(bool value);
 
-  constexpr bool& __get__showIAcceptPrompt();
+  constexpr bool& __cordl_internal_get__showIAcceptPrompt();
 
-  constexpr bool const& __get__showIAcceptPrompt() const;
+  constexpr bool const& __cordl_internal_get__showIAcceptPrompt() const;
 
-  constexpr void __set__showIAcceptPrompt(bool value);
+  constexpr void __cordl_internal_set__showIAcceptPrompt(bool value);
 
   /// @brief Method add_didFinishEvent, addr 0x22d573c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__PrivacyPolicyViewController__ButtonType>* value);
@@ -200,16 +202,16 @@ protected:
 
 public:
   /// @brief Field _okButton, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____okButton;
+  ::UnityW<::UnityEngine::UI::Button> ____okButton;
 
   /// @brief Field _iAcceptButton, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____iAcceptButton;
+  ::UnityW<::UnityEngine::UI::Button> ____iAcceptButton;
 
   /// @brief Field _textPageScrollView, offset: 0x80, size: 0x8, def value: None
-  ::HMUI::TextPageScrollView* ____textPageScrollView;
+  ::UnityW<::HMUI::TextPageScrollView> ____textPageScrollView;
 
   /// @brief Field _privacyPolicyLocalizedTextAsset, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::LocalizedTextAsset* ____privacyPolicyLocalizedTextAsset;
+  ::UnityW<::GlobalNamespace::LocalizedTextAsset> ____privacyPolicyLocalizedTextAsset;
 
   /// @brief Field _updateNoticeLocalizationKey, offset: 0x90, size: 0x8, def value: None
   ::StringW ____updateNoticeLocalizationKey;

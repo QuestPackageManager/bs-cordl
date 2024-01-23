@@ -15,7 +15,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15723))
 // CS Name: ::Zenject::IPoolable`3<TParam1,TParam2,TParam3>*
 class CORDL_TYPE IPoolable_3 {

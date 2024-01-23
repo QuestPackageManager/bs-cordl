@@ -78,31 +78,35 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14769))
 // CS Name: ::BeatmapObjectsInTimeRowProcessor::TimeSliceContainer`1<T>*
 class CORDL_TYPE __BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <time>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__time_k__BackingField, put = __set__time_k__BackingField)) float_t _time_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__time_k__BackingField, put = __cordl_internal_set__time_k__BackingField)) float_t _time_k__BackingField;
 
   /// @brief Field <previousTimeSliceTime>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__previousTimeSliceTime_k__BackingField, put = __set__previousTimeSliceTime_k__BackingField)) float_t _previousTimeSliceTime_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__previousTimeSliceTime_k__BackingField,
+                      put = __cordl_internal_set__previousTimeSliceTime_k__BackingField)) float_t _previousTimeSliceTime_k__BackingField;
 
   /// @brief Field didFinishTimeSliceEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_didFinishTimeSliceEvent,
-                      put = __set_didFinishTimeSliceEvent))::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, float_t>* didFinishTimeSliceEvent;
+  __declspec(property(
+      get = __cordl_internal_get_didFinishTimeSliceEvent,
+      put = __cordl_internal_set_didFinishTimeSliceEvent))::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, float_t>* didFinishTimeSliceEvent;
 
   /// @brief Field didStartNewTimeSliceEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_didStartNewTimeSliceEvent,
-                      put = __set_didStartNewTimeSliceEvent))::System::Action_1<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*>* didStartNewTimeSliceEvent;
+  __declspec(
+      property(get = __cordl_internal_get_didStartNewTimeSliceEvent,
+               put = __cordl_internal_set_didStartNewTimeSliceEvent))::System::Action_1<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*>* didStartNewTimeSliceEvent;
 
   /// @brief Field didAddItemEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_didAddItemEvent, put = __set_didAddItemEvent))::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, T>* didAddItemEvent;
+  __declspec(property(get = __cordl_internal_get_didAddItemEvent,
+                      put = __cordl_internal_set_didAddItemEvent))::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, T>* didAddItemEvent;
 
   /// @brief Field _items, offset 0x30, size 0x8
-  __declspec(property(get = __get__items, put = __set__items))::System::Collections::Generic::List_1<T>* _items;
+  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items))::System::Collections::Generic::List_1<T>* _items;
 
   __declspec(property(get = get_time, put = set_time)) float_t time;
 
@@ -110,42 +114,44 @@ public:
 
   __declspec(property(get = get_items))::System::Collections::Generic::IReadOnlyList_1<T>* items;
 
-  constexpr float_t& __get__time_k__BackingField();
+  constexpr float_t& __cordl_internal_get__time_k__BackingField();
 
-  constexpr float_t const& __get__time_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__time_k__BackingField() const;
 
-  constexpr void __set__time_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__time_k__BackingField(float_t value);
 
-  constexpr float_t& __get__previousTimeSliceTime_k__BackingField();
+  constexpr float_t& __cordl_internal_get__previousTimeSliceTime_k__BackingField();
 
-  constexpr float_t const& __get__previousTimeSliceTime_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__previousTimeSliceTime_k__BackingField() const;
 
-  constexpr void __set__previousTimeSliceTime_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__previousTimeSliceTime_k__BackingField(float_t value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, float_t>*& __get_didFinishTimeSliceEvent();
+  constexpr ::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, float_t>*& __cordl_internal_get_didFinishTimeSliceEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, float_t>*> const&
-  __get_didFinishTimeSliceEvent() const;
+  __cordl_internal_get_didFinishTimeSliceEvent() const;
 
-  constexpr void __set_didFinishTimeSliceEvent(::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, float_t>* value);
+  constexpr void __cordl_internal_set_didFinishTimeSliceEvent(::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, float_t>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*>*& __get_didStartNewTimeSliceEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*>*& __cordl_internal_get_didStartNewTimeSliceEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*>*> const& __get_didStartNewTimeSliceEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*>*> const&
+  __cordl_internal_get_didStartNewTimeSliceEvent() const;
 
-  constexpr void __set_didStartNewTimeSliceEvent(::System::Action_1<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*>* value);
+  constexpr void __cordl_internal_set_didStartNewTimeSliceEvent(::System::Action_1<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*>* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, T>*& __get_didAddItemEvent();
+  constexpr ::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, T>*& __cordl_internal_get_didAddItemEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, T>*> const& __get_didAddItemEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, T>*> const&
+  __cordl_internal_get_didAddItemEvent() const;
 
-  constexpr void __set_didAddItemEvent(::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, T>* value);
+  constexpr void __cordl_internal_set_didAddItemEvent(::System::Action_2<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>*, T>* value);
 
-  constexpr ::System::Collections::Generic::List_1<T>*& __get__items();
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get__items();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __get__items() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get__items() const;
 
-  constexpr void __set__items(::System::Collections::Generic::List_1<T>* value);
+  constexpr void __cordl_internal_set__items(::System::Collections::Generic::List_1<T>* value);
 
   /// @brief Method get_time, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline float_t get_time();
@@ -237,20 +243,20 @@ public:
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14716))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14716))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14770))
 // CS Name: ::BeatmapObjectsInTimeRowProcessor::SliderTailData*
 class CORDL_TYPE __BeatmapObjectsInTimeRowProcessor__SliderTailData : public ::GlobalNamespace::BeatmapDataItem {
 public:
   // Declarations
   /// @brief Field slider, offset 0x20, size 0x8
-  __declspec(property(get = __get_slider, put = __set_slider))::GlobalNamespace::SliderData* slider;
+  __declspec(property(get = __cordl_internal_get_slider, put = __cordl_internal_set_slider))::GlobalNamespace::SliderData* slider;
 
-  constexpr ::GlobalNamespace::SliderData*& __get_slider();
+  constexpr ::GlobalNamespace::SliderData*& __cordl_internal_get_slider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SliderData*> const& __get_slider() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SliderData*> const& __cordl_internal_get_slider() const;
 
-  constexpr void __set_slider(::GlobalNamespace::SliderData* value);
+  constexpr void __cordl_internal_set_slider(::GlobalNamespace::SliderData* value);
 
   static inline ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__SliderTailData* New_ctor(::GlobalNamespace::SliderData* slider);
 
@@ -289,20 +295,20 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__Sl
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14771))
 // CS Name: ::BeatmapObjectsInTimeRowProcessor::<>c__DisplayClass17_0*
 class CORDL_TYPE __BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field currentTimeSliceTime, offset 0x10, size 0x4
-  __declspec(property(get = __get_currentTimeSliceTime, put = __set_currentTimeSliceTime)) float_t currentTimeSliceTime;
+  __declspec(property(get = __cordl_internal_get_currentTimeSliceTime, put = __cordl_internal_set_currentTimeSliceTime)) float_t currentTimeSliceTime;
 
-  constexpr float_t& __get_currentTimeSliceTime();
+  constexpr float_t& __cordl_internal_get_currentTimeSliceTime();
 
-  constexpr float_t const& __get_currentTimeSliceTime() const;
+  constexpr float_t const& __cordl_internal_get_currentTimeSliceTime() const;
 
-  constexpr void __set_currentTimeSliceTime(float_t value);
+  constexpr void __cordl_internal_set_currentTimeSliceTime(float_t value);
 
   static inline ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor____c__DisplayClass17_0* New_ctor();
 
@@ -341,7 +347,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor____
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14772))
 // CS Name: ::BeatmapObjectsInTimeRowProcessor::<>c*
 class CORDL_TYPE __BeatmapObjectsInTimeRowProcessor____c : public ::System::Object {
@@ -393,7 +399,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapObject
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14773))
 // CS Name: ::BeatmapObjectsInTimeRowProcessor*
 class CORDL_TYPE BeatmapObjectsInTimeRowProcessor : public ::System::Object {
@@ -408,73 +414,74 @@ public:
   template <typename T> using TimeSliceContainer_1 = ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<T>;
 
   /// @brief Field _currentTimeSliceColorNotes, offset 0x10, size 0x8
-  __declspec(property(get = __get__currentTimeSliceColorNotes,
-                      put = __set__currentTimeSliceColorNotes))::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>* _currentTimeSliceColorNotes;
+  __declspec(property(
+      get = __cordl_internal_get__currentTimeSliceColorNotes,
+      put = __cordl_internal_set__currentTimeSliceColorNotes))::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>* _currentTimeSliceColorNotes;
 
   /// @brief Field _currentTimeSliceAllNotesAndSliders, offset 0x18, size 0x8
-  __declspec(property(get = __get__currentTimeSliceAllNotesAndSliders, put = __set__currentTimeSliceAllNotesAndSliders))::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<
-      ::GlobalNamespace::BeatmapDataItem*>* _currentTimeSliceAllNotesAndSliders;
+  __declspec(property(get = __cordl_internal_get__currentTimeSliceAllNotesAndSliders, put = __cordl_internal_set__currentTimeSliceAllNotesAndSliders))::GlobalNamespace::
+      __BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>* _currentTimeSliceAllNotesAndSliders;
 
   /// @brief Field _currentTimeSliceNotesByColorType, offset 0x20, size 0x8
-  __declspec(property(get = __get__currentTimeSliceNotesByColorType, put = __set__currentTimeSliceNotesByColorType))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get__currentTimeSliceNotesByColorType, put = __cordl_internal_set__currentTimeSliceNotesByColorType))::System::Collections::Generic::Dictionary_2<
       ::GlobalNamespace::ColorType, ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>*>* _currentTimeSliceNotesByColorType;
 
   /// @brief Field _unprocessedSliderTails, offset 0x28, size 0x8
-  __declspec(property(get = __get__unprocessedSliderTails, put = __set__unprocessedSliderTails))::System::Collections::Generic::List_1<::GlobalNamespace::SliderData*>* _unprocessedSliderTails;
+  __declspec(property(get = __cordl_internal_get__unprocessedSliderTails,
+                      put = __cordl_internal_set__unprocessedSliderTails))::System::Collections::Generic::List_1<::GlobalNamespace::SliderData*>* _unprocessedSliderTails;
 
   /// @brief Field _notesInColumnsReusableProcessingListOfLists, offset 0x30, size 0x8
-  __declspec(property(
-      get = __get__notesInColumnsReusableProcessingListOfLists,
-      put = __set__notesInColumnsReusableProcessingListOfLists))::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*,
-                                                                         ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*>*> _notesInColumnsReusableProcessingListOfLists;
+  __declspec(property(get = __cordl_internal_get__notesInColumnsReusableProcessingListOfLists, put = __cordl_internal_set__notesInColumnsReusableProcessingListOfLists))::ArrayW<
+      ::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*,
+      ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*>*> _notesInColumnsReusableProcessingListOfLists;
 
   /// @brief Field _numberOfLines, offset 0x38, size 0x4
-  __declspec(property(get = __get__numberOfLines, put = __set__numberOfLines)) int32_t _numberOfLines;
+  __declspec(property(get = __cordl_internal_get__numberOfLines, put = __cordl_internal_set__numberOfLines)) int32_t _numberOfLines;
 
-  constexpr ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>*& __get__currentTimeSliceColorNotes();
+  constexpr ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>*& __cordl_internal_get__currentTimeSliceColorNotes();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>*> const&
-  __get__currentTimeSliceColorNotes() const;
+  __cordl_internal_get__currentTimeSliceColorNotes() const;
 
-  constexpr void __set__currentTimeSliceColorNotes(::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>* value);
+  constexpr void __cordl_internal_set__currentTimeSliceColorNotes(::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>* value);
 
-  constexpr ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>*& __get__currentTimeSliceAllNotesAndSliders();
+  constexpr ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>*& __cordl_internal_get__currentTimeSliceAllNotesAndSliders();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>*> const&
-  __get__currentTimeSliceAllNotesAndSliders() const;
+  __cordl_internal_get__currentTimeSliceAllNotesAndSliders() const;
 
-  constexpr void __set__currentTimeSliceAllNotesAndSliders(::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>* value);
+  constexpr void __cordl_internal_set__currentTimeSliceAllNotesAndSliders(::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>* value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ColorType, ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>*>*&
-  __get__currentTimeSliceNotesByColorType();
+  __cordl_internal_get__currentTimeSliceNotesByColorType();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ColorType, ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>*>*> const&
-  __get__currentTimeSliceNotesByColorType() const;
+  __cordl_internal_get__currentTimeSliceNotesByColorType() const;
 
-  constexpr void __set__currentTimeSliceNotesByColorType(
+  constexpr void __cordl_internal_set__currentTimeSliceNotesByColorType(
       ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::ColorType, ::GlobalNamespace::__BeatmapObjectsInTimeRowProcessor__TimeSliceContainer_1<::GlobalNamespace::NoteData*>*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::SliderData*>*& __get__unprocessedSliderTails();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::SliderData*>*& __cordl_internal_get__unprocessedSliderTails();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::SliderData*>*> const& __get__unprocessedSliderTails() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::SliderData*>*> const& __cordl_internal_get__unprocessedSliderTails() const;
 
-  constexpr void __set__unprocessedSliderTails(::System::Collections::Generic::List_1<::GlobalNamespace::SliderData*>* value);
+  constexpr void __cordl_internal_set__unprocessedSliderTails(::System::Collections::Generic::List_1<::GlobalNamespace::SliderData*>* value);
 
   constexpr ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*, ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*>*>&
-  __get__notesInColumnsReusableProcessingListOfLists();
+  __cordl_internal_get__notesInColumnsReusableProcessingListOfLists();
 
   constexpr ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*, ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*>*> const&
-  __get__notesInColumnsReusableProcessingListOfLists() const;
+  __cordl_internal_get__notesInColumnsReusableProcessingListOfLists() const;
 
-  constexpr void __set__notesInColumnsReusableProcessingListOfLists(
+  constexpr void __cordl_internal_set__notesInColumnsReusableProcessingListOfLists(
       ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*, ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::NoteData*>*>*> value);
 
-  constexpr int32_t& __get__numberOfLines();
+  constexpr int32_t& __cordl_internal_get__numberOfLines();
 
-  constexpr int32_t const& __get__numberOfLines() const;
+  constexpr int32_t const& __cordl_internal_get__numberOfLines() const;
 
-  constexpr void __set__numberOfLines(int32_t value);
+  constexpr void __cordl_internal_set__numberOfLines(int32_t value);
 
   static inline ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor* New_ctor(int32_t numberOfLines);
 

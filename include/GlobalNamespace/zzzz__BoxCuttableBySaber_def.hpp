@@ -27,20 +27,20 @@ MARK_REF_PTR_T(::GlobalNamespace::BoxCuttableBySaber);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5286))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5286))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5284))
 // CS Name: ::BoxCuttableBySaber*
 class CORDL_TYPE BoxCuttableBySaber : public ::GlobalNamespace::CuttableBySaber {
 public:
   // Declarations
   /// @brief Field _collider, offset 0x20, size 0x8
-  __declspec(property(get = __get__collider, put = __set__collider))::UnityEngine::BoxCollider* _collider;
+  __declspec(property(get = __cordl_internal_get__collider, put = __cordl_internal_set__collider))::UnityW<::UnityEngine::BoxCollider> _collider;
 
   /// @brief Field _canBeCut, offset 0x28, size 0x1
-  __declspec(property(get = __get__canBeCut, put = __set__canBeCut)) bool _canBeCut;
+  __declspec(property(get = __cordl_internal_get__canBeCut, put = __cordl_internal_set__canBeCut)) bool _canBeCut;
 
   /// @brief Field _radius, offset 0x2c, size 0x4
-  __declspec(property(get = __get__radius, put = __set__radius)) float_t _radius;
+  __declspec(property(get = __cordl_internal_get__radius, put = __cordl_internal_set__radius)) float_t _radius;
 
   __declspec(property(get = get_radius)) float_t radius;
 
@@ -50,23 +50,23 @@ public:
 
   __declspec(property(get = get_colliderCenter, put = set_colliderCenter))::UnityEngine::Vector3 colliderCenter;
 
-  constexpr ::UnityEngine::BoxCollider*& __get__collider();
+  constexpr ::UnityW<::UnityEngine::BoxCollider>& __cordl_internal_get__collider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::BoxCollider*> const& __get__collider() const;
+  constexpr ::UnityW<::UnityEngine::BoxCollider> const& __cordl_internal_get__collider() const;
 
-  constexpr void __set__collider(::UnityEngine::BoxCollider* value);
+  constexpr void __cordl_internal_set__collider(::UnityW<::UnityEngine::BoxCollider> value);
 
-  constexpr bool& __get__canBeCut();
+  constexpr bool& __cordl_internal_get__canBeCut();
 
-  constexpr bool const& __get__canBeCut() const;
+  constexpr bool const& __cordl_internal_get__canBeCut() const;
 
-  constexpr void __set__canBeCut(bool value);
+  constexpr void __cordl_internal_set__canBeCut(bool value);
 
-  constexpr float_t& __get__radius();
+  constexpr float_t& __cordl_internal_get__radius();
 
-  constexpr float_t const& __get__radius() const;
+  constexpr float_t const& __cordl_internal_get__radius() const;
 
-  constexpr void __set__radius(float_t value);
+  constexpr void __cordl_internal_set__radius(float_t value);
 
   /// @brief Method get_radius, addr 0x2262200, size 0x8, virtual true, abstract: false, final false
   inline float_t get_radius();
@@ -121,7 +121,7 @@ protected:
 
 public:
   /// @brief Field _collider, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::BoxCollider* ____collider;
+  ::UnityW<::UnityEngine::BoxCollider> ____collider;
 
   /// @brief Field _canBeCut, offset: 0x28, size: 0x1, def value: None
   bool ____canBeCut;

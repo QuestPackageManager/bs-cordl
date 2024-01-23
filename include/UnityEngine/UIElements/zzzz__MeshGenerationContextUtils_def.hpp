@@ -131,8 +131,8 @@ MARK_VAL_T(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(7332)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7333)) CS Name: ::MeshGenerationContextUtils::BorderParams
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7332)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7333)) CS Name: ::MeshGenerationContextUtils::BorderParams
 struct CORDL_TYPE __MeshGenerationContextUtils__BorderParams {
 public:
   // Declarations
@@ -142,14 +142,14 @@ public:
   // { name: "leftWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "topWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "rightWidth", ty: "float_t",
   // modifiers: "", def_value: None }, CppParam { name: "bottomWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "topLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "",
   // def_value: None }, CppParam { name: "topRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "bottomRightRadius", ty: "::UnityEngine::Vector2",
-  // modifiers: "", def_value: None }, CppParam { name: "bottomLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "material", ty: "::UnityEngine::Material*",
-  // modifiers: "", def_value: None }, CppParam { name: "leftColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam { name: "topColorPage", ty:
-  // "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam { name: "rightColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam
-  // { name: "bottomColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }]
+  // modifiers: "", def_value: None }, CppParam { name: "bottomLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "material", ty:
+  // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "leftColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam {
+  // name: "topColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam { name: "rightColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "",
+  // def_value: None }, CppParam { name: "bottomColorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }]
   constexpr __MeshGenerationContextUtils__BorderParams(::UnityEngine::Rect rect, ::UnityEngine::Color playmodeTintColor, ::UnityEngine::Color leftColor, ::UnityEngine::Color topColor,
                                                        ::UnityEngine::Color rightColor, ::UnityEngine::Color bottomColor, float_t leftWidth, float_t topWidth, float_t rightWidth, float_t bottomWidth,
                                                        ::UnityEngine::Vector2 topLeftRadius, ::UnityEngine::Vector2 topRightRadius, ::UnityEngine::Vector2 bottomRightRadius,
-                                                       ::UnityEngine::Vector2 bottomLeftRadius, ::UnityEngine::Material* material, ::UnityEngine::UIElements::ColorPage leftColorPage,
+                                                       ::UnityEngine::Vector2 bottomLeftRadius, ::UnityW<::UnityEngine::Material> material, ::UnityEngine::UIElements::ColorPage leftColorPage,
                                                        ::UnityEngine::UIElements::ColorPage topColorPage, ::UnityEngine::UIElements::ColorPage rightColorPage,
                                                        ::UnityEngine::UIElements::ColorPage bottomColorPage) noexcept;
 
@@ -200,7 +200,7 @@ public:
   ::UnityEngine::Vector2 bottomLeftRadius;
 
   /// @brief Field material, offset: 0x90, size: 0x8, def value: None
-  ::UnityEngine::Material* material;
+  ::UnityW<::UnityEngine::Material> material;
 
   /// @brief Field leftColorPage, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::UIElements::ColorPage leftColorPage;
@@ -265,8 +265,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7332)), TypeDefinitionIndex(TypeDefinitionIndex(14596)), TypeDefinitionIndex(TypeDefinitionIndex(7337)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7332)), TypeDefinitionIndex(TypeDefinitionIndex(7337)), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14596))] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(7334)) CS Name: ::MeshGenerationContextUtils::RectangleParams
 struct CORDL_TYPE __MeshGenerationContextUtils__RectangleParams {
 public:
@@ -309,21 +309,22 @@ public:
   inline bool HasRadius(float_t epsilon);
 
   // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam
-  // { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "::UnityEngine::Texture*", modifiers: "", def_value: None }, CppParam { name:
-  // "sprite", ty: "::UnityEngine::Sprite*", modifiers: "", def_value: None }, CppParam { name: "vectorImage", ty: "::UnityEngine::UIElements::VectorImage*", modifiers: "", def_value: None }, CppParam
-  // { name: "material", ty: "::UnityEngine::Material*", modifiers: "", def_value: None }, CppParam { name: "scaleMode", ty: "::UnityEngine::ScaleMode", modifiers: "", def_value: None }, CppParam {
-  // name: "playmodeTintColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "topLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam
-  // { name: "topRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "bottomRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None },
-  // CppParam { name: "bottomLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "leftSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "topSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rightSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "bottomSlice", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "sliceScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "spriteGeomRect", ty: "::UnityEngine::Rect", modifiers: "",
-  // def_value: None }, CppParam { name: "colorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam { name: "meshFlags", ty:
-  // "::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags", modifiers: "", def_value: None }]
-  constexpr __MeshGenerationContextUtils__RectangleParams(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::Color color, ::UnityEngine::Texture* texture, ::UnityEngine::Sprite* sprite,
-                                                          ::UnityEngine::UIElements::VectorImage* vectorImage, ::UnityEngine::Material* material, ::UnityEngine::ScaleMode scaleMode,
-                                                          ::UnityEngine::Color playmodeTintColor, ::UnityEngine::Vector2 topLeftRadius, ::UnityEngine::Vector2 topRightRadius,
-                                                          ::UnityEngine::Vector2 bottomRightRadius, ::UnityEngine::Vector2 bottomLeftRadius, int32_t leftSlice, int32_t topSlice, int32_t rightSlice,
-                                                          int32_t bottomSlice, float_t sliceScale, ::UnityEngine::Rect spriteGeomRect, ::UnityEngine::UIElements::ColorPage colorPage,
+  // { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam {
+  // name: "sprite", ty: "::UnityW<::UnityEngine::Sprite>", modifiers: "", def_value: None }, CppParam { name: "vectorImage", ty: "::UnityW<::UnityEngine::UIElements::VectorImage>", modifiers: "",
+  // def_value: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "scaleMode", ty: "::UnityEngine::ScaleMode", modifiers:
+  // "", def_value: None }, CppParam { name: "playmodeTintColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "topLeftRadius", ty: "::UnityEngine::Vector2",
+  // modifiers: "", def_value: None }, CppParam { name: "topRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "bottomRightRadius", ty:
+  // "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "bottomLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "leftSlice", ty:
+  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "topSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "rightSlice", ty: "int32_t", modifiers: "", def_value:
+  // None }, CppParam { name: "bottomSlice", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sliceScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
+  // "spriteGeomRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "colorPage", ty: "::UnityEngine::UIElements::ColorPage", modifiers: "", def_value: None }, CppParam
+  // { name: "meshFlags", ty: "::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags", modifiers: "", def_value: None }]
+  constexpr __MeshGenerationContextUtils__RectangleParams(::UnityEngine::Rect rect, ::UnityEngine::Rect uv, ::UnityEngine::Color color, ::UnityW<::UnityEngine::Texture> texture,
+                                                          ::UnityW<::UnityEngine::Sprite> sprite, ::UnityW<::UnityEngine::UIElements::VectorImage> vectorImage,
+                                                          ::UnityW<::UnityEngine::Material> material, ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::Color playmodeTintColor,
+                                                          ::UnityEngine::Vector2 topLeftRadius, ::UnityEngine::Vector2 topRightRadius, ::UnityEngine::Vector2 bottomRightRadius,
+                                                          ::UnityEngine::Vector2 bottomLeftRadius, int32_t leftSlice, int32_t topSlice, int32_t rightSlice, int32_t bottomSlice, float_t sliceScale,
+                                                          ::UnityEngine::Rect spriteGeomRect, ::UnityEngine::UIElements::ColorPage colorPage,
                                                           ::UnityEngine::UIElements::__MeshGenerationContext__MeshFlags meshFlags) noexcept;
 
   // Ctor Parameters []
@@ -340,16 +341,16 @@ public:
   ::UnityEngine::Color color;
 
   /// @brief Field texture, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Texture* texture;
+  ::UnityW<::UnityEngine::Texture> texture;
 
   /// @brief Field sprite, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Sprite* sprite;
+  ::UnityW<::UnityEngine::Sprite> sprite;
 
   /// @brief Field vectorImage, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VectorImage* vectorImage;
+  ::UnityW<::UnityEngine::UIElements::VectorImage> vectorImage;
 
   /// @brief Field material, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Material* material;
+  ::UnityW<::UnityEngine::Material> material;
 
   /// @brief Field scaleMode, offset: 0x50, size: 0x4, def value: None
   ::UnityEngine::ScaleMode scaleMode;
@@ -448,9 +449,9 @@ static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(7284)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(6894)), TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(6887)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15901)), TypeDefinitionIndex(TypeDefinitionIndex(6893))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7335)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6887)), TypeDefinitionIndex(TypeDefinitionIndex(6893)), TypeDefinitionIndex(TypeDefinitionIndex(6894)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7284)), TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(15901))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7335)) CS Name:
 // ::MeshGenerationContextUtils::TextParams
 struct CORDL_TYPE __MeshGenerationContextUtils__TextParams {
 public:
@@ -465,21 +466,21 @@ public:
   static inline ::UnityEngine::UIElements::TextNativeSettings GetTextNativeSettings(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams, float_t scaling);
 
   // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: None }, CppParam { name: "text", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "font", ty: "::UnityEngine::Font*", modifiers: "", def_value: None }, CppParam { name: "fontDefinition", ty: "::UnityEngine::UIElements::FontDefinition", modifiers: "", def_value: None },
-  // CppParam { name: "fontSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "letterSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam
-  // { name: "wordSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "paragraphSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "",
-  // def_value: None }, CppParam { name: "fontStyle", ty: "::UnityEngine::FontStyle", modifiers: "", def_value: None }, CppParam { name: "fontColor", ty: "::UnityEngine::Color", modifiers: "",
+  // "font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None }, CppParam { name: "fontDefinition", ty: "::UnityEngine::UIElements::FontDefinition", modifiers: "", def_value: None
+  // }, CppParam { name: "fontSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "letterSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None },
+  // CppParam { name: "wordSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "paragraphSpacing", ty: "::UnityEngine::UIElements::Length", modifiers:
+  // "", def_value: None }, CppParam { name: "fontStyle", ty: "::UnityEngine::FontStyle", modifiers: "", def_value: None }, CppParam { name: "fontColor", ty: "::UnityEngine::Color", modifiers: "",
   // def_value: None }, CppParam { name: "anchor", ty: "::UnityEngine::TextAnchor", modifiers: "", def_value: None }, CppParam { name: "wordWrap", ty: "bool", modifiers: "", def_value: None },
   // CppParam { name: "wordWrapWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "richText", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "playmodeTintColor",
   // ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "textOverflow", ty: "::UnityEngine::UIElements::TextOverflow", modifiers: "", def_value: None }, CppParam { name:
   // "textOverflowPosition", ty: "::UnityEngine::UIElements::TextOverflowPosition", modifiers: "", def_value: None }, CppParam { name: "overflow", ty: "::UnityEngine::UIElements::OverflowInternal",
   // modifiers: "", def_value: None }, CppParam { name: "panel", ty: "::UnityEngine::UIElements::IPanel*", modifiers: "", def_value: None }]
-  constexpr __MeshGenerationContextUtils__TextParams(::UnityEngine::Rect rect, ::StringW text, ::UnityEngine::Font* font, ::UnityEngine::UIElements::FontDefinition fontDefinition, int32_t fontSize,
-                                                     ::UnityEngine::UIElements::Length letterSpacing, ::UnityEngine::UIElements::Length wordSpacing, ::UnityEngine::UIElements::Length paragraphSpacing,
-                                                     ::UnityEngine::FontStyle fontStyle, ::UnityEngine::Color fontColor, ::UnityEngine::TextAnchor anchor, bool wordWrap, float_t wordWrapWidth,
-                                                     bool richText, ::UnityEngine::Color playmodeTintColor, ::UnityEngine::UIElements::TextOverflow textOverflow,
-                                                     ::UnityEngine::UIElements::TextOverflowPosition textOverflowPosition, ::UnityEngine::UIElements::OverflowInternal overflow,
-                                                     ::UnityEngine::UIElements::IPanel* panel) noexcept;
+  constexpr __MeshGenerationContextUtils__TextParams(::UnityEngine::Rect rect, ::StringW text, ::UnityW<::UnityEngine::Font> font, ::UnityEngine::UIElements::FontDefinition fontDefinition,
+                                                     int32_t fontSize, ::UnityEngine::UIElements::Length letterSpacing, ::UnityEngine::UIElements::Length wordSpacing,
+                                                     ::UnityEngine::UIElements::Length paragraphSpacing, ::UnityEngine::FontStyle fontStyle, ::UnityEngine::Color fontColor,
+                                                     ::UnityEngine::TextAnchor anchor, bool wordWrap, float_t wordWrapWidth, bool richText, ::UnityEngine::Color playmodeTintColor,
+                                                     ::UnityEngine::UIElements::TextOverflow textOverflow, ::UnityEngine::UIElements::TextOverflowPosition textOverflowPosition,
+                                                     ::UnityEngine::UIElements::OverflowInternal overflow, ::UnityEngine::UIElements::IPanel* panel) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -492,7 +493,7 @@ public:
   ::StringW text;
 
   /// @brief Field font, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Font* font;
+  ::UnityW<::UnityEngine::Font> font;
 
   /// @brief Field fontDefinition, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::UIElements::FontDefinition fontDefinition;
@@ -593,7 +594,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__MeshGenerationContextUtils__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7336))
 // CS Name: ::UnityEngine.UIElements::MeshGenerationContextUtils*
 class CORDL_TYPE MeshGenerationContextUtils : public ::System::Object {

@@ -29,53 +29,54 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerOptionsViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5640))
 // CS Name: ::PlayerOptionsViewController*
 class CORDL_TYPE PlayerOptionsViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _playerSettingsPanelController, offset 0x70, size 0x8
-  __declspec(property(get = __get__playerSettingsPanelController, put = __set__playerSettingsPanelController))::GlobalNamespace::PlayerSettingsPanelController* _playerSettingsPanelController;
+  __declspec(property(get = __cordl_internal_get__playerSettingsPanelController,
+                      put = __cordl_internal_set__playerSettingsPanelController))::UnityW<::GlobalNamespace::PlayerSettingsPanelController> _playerSettingsPanelController;
 
   /// @brief Field _okButton, offset 0x78, size 0x8
-  __declspec(property(get = __get__okButton, put = __set__okButton))::UnityEngine::UI::Button* _okButton;
+  __declspec(property(get = __cordl_internal_get__okButton, put = __cordl_internal_set__okButton))::UnityW<::UnityEngine::UI::Button> _okButton;
 
   /// @brief Field _playerDataModel, offset 0x80, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field didFinishEvent, offset 0x88, size 0x8
-  __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action_1<::HMUI::ViewController*>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::UnityW<::HMUI::ViewController>>* didFinishEvent;
 
-  constexpr ::GlobalNamespace::PlayerSettingsPanelController*& __get__playerSettingsPanelController();
+  constexpr ::UnityW<::GlobalNamespace::PlayerSettingsPanelController>& __cordl_internal_get__playerSettingsPanelController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSettingsPanelController*> const& __get__playerSettingsPanelController() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerSettingsPanelController> const& __cordl_internal_get__playerSettingsPanelController() const;
 
-  constexpr void __set__playerSettingsPanelController(::GlobalNamespace::PlayerSettingsPanelController* value);
+  constexpr void __cordl_internal_set__playerSettingsPanelController(::UnityW<::GlobalNamespace::PlayerSettingsPanelController> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__okButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__okButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__okButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__okButton() const;
 
-  constexpr void __set__okButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__okButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::System::Action_1<::HMUI::ViewController*>*& __get_didFinishEvent();
+  constexpr ::System::Action_1<::UnityW<::HMUI::ViewController>>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::HMUI::ViewController*>*> const& __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::HMUI::ViewController>>*> const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_1<::HMUI::ViewController*>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
   /// @brief Method add_didFinishEvent, addr 0x22b3574, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::HMUI::ViewController*>* value);
+  inline void add_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x22b3624, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::HMUI::ViewController*>* value);
+  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::HMUI::ViewController>>* value);
 
   /// @brief Method DidActivate, addr 0x22b36d4, size 0xec, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -106,16 +107,16 @@ protected:
 
 public:
   /// @brief Field _playerSettingsPanelController, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerSettingsPanelController* ____playerSettingsPanelController;
+  ::UnityW<::GlobalNamespace::PlayerSettingsPanelController> ____playerSettingsPanelController;
 
   /// @brief Field _okButton, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____okButton;
+  ::UnityW<::UnityEngine::UI::Button> ____okButton;
 
   /// @brief Field _playerDataModel, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field didFinishEvent, offset: 0x88, size: 0x8, def value: None
-  ::System::Action_1<::HMUI::ViewController*>* ___didFinishEvent;
+  ::System::Action_1<::UnityW<::HMUI::ViewController>>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

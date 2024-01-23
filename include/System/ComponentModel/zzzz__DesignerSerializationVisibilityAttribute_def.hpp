@@ -22,14 +22,15 @@ MARK_REF_PTR_T(::System::ComponentModel::DesignerSerializationVisibilityAttribut
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(9391))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(9391))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9392))
 // CS Name: ::System.ComponentModel::DesignerSerializationVisibilityAttribute*
 class CORDL_TYPE DesignerSerializationVisibilityAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <Visibility>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__Visibility_k__BackingField, put = __set__Visibility_k__BackingField))::System::ComponentModel::DesignerSerializationVisibility _Visibility_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Visibility_k__BackingField,
+                      put = __cordl_internal_set__Visibility_k__BackingField))::System::ComponentModel::DesignerSerializationVisibility _Visibility_k__BackingField;
 
   /// @brief Field Content, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Content, put = setStaticF_Content))::System::ComponentModel::DesignerSerializationVisibilityAttribute* Content;
@@ -45,11 +46,11 @@ public:
 
   __declspec(property(get = get_Visibility))::System::ComponentModel::DesignerSerializationVisibility Visibility;
 
-  constexpr ::System::ComponentModel::DesignerSerializationVisibility& __get__Visibility_k__BackingField();
+  constexpr ::System::ComponentModel::DesignerSerializationVisibility& __cordl_internal_get__Visibility_k__BackingField();
 
-  constexpr ::System::ComponentModel::DesignerSerializationVisibility const& __get__Visibility_k__BackingField() const;
+  constexpr ::System::ComponentModel::DesignerSerializationVisibility const& __cordl_internal_get__Visibility_k__BackingField() const;
 
-  constexpr void __set__Visibility_k__BackingField(::System::ComponentModel::DesignerSerializationVisibility value);
+  constexpr void __cordl_internal_set__Visibility_k__BackingField(::System::ComponentModel::DesignerSerializationVisibility value);
 
   static inline void setStaticF_Content(::System::ComponentModel::DesignerSerializationVisibilityAttribute* value);
 

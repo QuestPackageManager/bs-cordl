@@ -86,7 +86,7 @@ MARK_REF_PTR_T(::System::Reflection::SignatureType);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2494))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2494))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3495))
 // CS Name: ::System.Reflection::SignatureType*
 class CORDL_TYPE SignatureType : public ::System::Type {

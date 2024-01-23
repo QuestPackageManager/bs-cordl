@@ -23,9 +23,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x238797c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebris*>::get(), "get_didFinishEvent",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -36,9 +36,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x2387984;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebris*>::get(), "Awake",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -49,9 +49,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x27c;
   constexpr static std::size_t addrs = 0x2387a1c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebris*>::get(), "Update",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -64,10 +64,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x570;
   constexpr static std::size_t addrs = 0x2387c98;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebris*>::get(), "Init", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebris*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 12>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
@@ -84,129 +84,130 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x2388208;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebris*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Transform*& GlobalNamespace::NoteDebris::__get__meshTransform() {
+constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::NoteDebris::__cordl_internal_get__meshTransform() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshTransform;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::NoteDebris::__get__meshTransform() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::NoteDebris::__cordl_internal_get__meshTransform() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshTransform;
 }
-constexpr void GlobalNamespace::NoteDebris::__set__meshTransform(::UnityEngine::Transform* value) {
+constexpr void GlobalNamespace::NoteDebris::__cordl_internal_set__meshTransform(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____meshTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::NoteDebrisPhysics*& GlobalNamespace::NoteDebris::__get__physics() {
+constexpr ::UnityW<::GlobalNamespace::NoteDebrisPhysics>& GlobalNamespace::NoteDebris::__cordl_internal_get__physics() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____physics;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteDebrisPhysics*> const& GlobalNamespace::NoteDebris::__get__physics() const {
+constexpr ::UnityW<::GlobalNamespace::NoteDebrisPhysics> const& GlobalNamespace::NoteDebris::__cordl_internal_get__physics() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____physics;
 }
-constexpr void GlobalNamespace::NoteDebris::__set__physics(::GlobalNamespace::NoteDebrisPhysics* value) {
+constexpr void GlobalNamespace::NoteDebris::__cordl_internal_set__physics(::UnityW<::GlobalNamespace::NoteDebrisPhysics> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____physics)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MaterialPropertyBlockController*& GlobalNamespace::NoteDebris::__get__materialPropertyBlockController() {
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& GlobalNamespace::NoteDebris::__cordl_internal_get__materialPropertyBlockController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlockController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockController*> const& GlobalNamespace::NoteDebris::__get__materialPropertyBlockController() const {
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& GlobalNamespace::NoteDebris::__cordl_internal_get__materialPropertyBlockController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlockController;
 }
-constexpr void GlobalNamespace::NoteDebris::__set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value) {
+constexpr void GlobalNamespace::NoteDebris::__cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____materialPropertyBlockController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::NoteDebris::__get__cutoutCurve() {
+constexpr ::UnityEngine::AnimationCurve*& GlobalNamespace::NoteDebris::__cordl_internal_get__cutoutCurve() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutoutCurve;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::NoteDebris::__get__cutoutCurve() const {
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& GlobalNamespace::NoteDebris::__cordl_internal_get__cutoutCurve() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cutoutCurve;
 }
-constexpr void GlobalNamespace::NoteDebris::__set__cutoutCurve(::UnityEngine::AnimationCurve* value) {
+constexpr void GlobalNamespace::NoteDebris::__cordl_internal_set__cutoutCurve(::UnityEngine::AnimationCurve* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cutoutCurve)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::NoteDebris::__get__maxCutPointCenterDistance() {
+constexpr float_t& GlobalNamespace::NoteDebris::__cordl_internal_get__maxCutPointCenterDistance() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxCutPointCenterDistance;
 }
-constexpr float_t const& GlobalNamespace::NoteDebris::__get__maxCutPointCenterDistance() const {
+constexpr float_t const& GlobalNamespace::NoteDebris::__cordl_internal_get__maxCutPointCenterDistance() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____maxCutPointCenterDistance;
 }
-constexpr void GlobalNamespace::NoteDebris::__set__maxCutPointCenterDistance(float_t value) {
+constexpr void GlobalNamespace::NoteDebris::__cordl_internal_set__maxCutPointCenterDistance(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____maxCutPointCenterDistance = value;
 }
-constexpr ::UnityEngine::Mesh*& GlobalNamespace::NoteDebris::__get__centroidComputationMesh() {
+constexpr ::UnityW<::UnityEngine::Mesh>& GlobalNamespace::NoteDebris::__cordl_internal_get__centroidComputationMesh() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centroidComputationMesh;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& GlobalNamespace::NoteDebris::__get__centroidComputationMesh() const {
+constexpr ::UnityW<::UnityEngine::Mesh> const& GlobalNamespace::NoteDebris::__cordl_internal_get__centroidComputationMesh() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centroidComputationMesh;
 }
-constexpr void GlobalNamespace::NoteDebris::__set__centroidComputationMesh(::UnityEngine::Mesh* value) {
+constexpr void GlobalNamespace::NoteDebris::__cordl_internal_set__centroidComputationMesh(::UnityW<::UnityEngine::Mesh> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____centroidComputationMesh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::ColorManager*& GlobalNamespace::NoteDebris::__get__colorManager() {
+constexpr ::GlobalNamespace::ColorManager*& GlobalNamespace::NoteDebris::__cordl_internal_get__colorManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& GlobalNamespace::NoteDebris::__get__colorManager() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& GlobalNamespace::NoteDebris::__cordl_internal_get__colorManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorManager;
 }
-constexpr void GlobalNamespace::NoteDebris::__set__colorManager(::GlobalNamespace::ColorManager* value) {
+constexpr void GlobalNamespace::NoteDebris::__cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::NoteDebris::__get__elapsedTime() {
+constexpr float_t& GlobalNamespace::NoteDebris::__cordl_internal_get__elapsedTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime;
 }
-constexpr float_t const& GlobalNamespace::NoteDebris::__get__elapsedTime() const {
+constexpr float_t const& GlobalNamespace::NoteDebris::__cordl_internal_get__elapsedTime() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime;
 }
-constexpr void GlobalNamespace::NoteDebris::__set__elapsedTime(float_t value) {
+constexpr void GlobalNamespace::NoteDebris::__cordl_internal_set__elapsedTime(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____elapsedTime = value;
 }
-constexpr float_t& GlobalNamespace::NoteDebris::__get__lifeTime() {
+constexpr float_t& GlobalNamespace::NoteDebris::__cordl_internal_get__lifeTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lifeTime;
 }
-constexpr float_t const& GlobalNamespace::NoteDebris::__get__lifeTime() const {
+constexpr float_t const& GlobalNamespace::NoteDebris::__cordl_internal_get__lifeTime() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lifeTime;
 }
-constexpr void GlobalNamespace::NoteDebris::__set__lifeTime(float_t value) {
+constexpr void GlobalNamespace::NoteDebris::__cordl_internal_set__lifeTime(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lifeTime = value;
 }
-constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>*& GlobalNamespace::NoteDebris::__get__didFinishEvent() {
+constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>*& GlobalNamespace::NoteDebris::__cordl_internal_get__didFinishEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____didFinishEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>*> const& GlobalNamespace::NoteDebris::__get__didFinishEvent() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>*> const&
+GlobalNamespace::NoteDebris::__cordl_internal_get__didFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____didFinishEvent;
 }
-constexpr void GlobalNamespace::NoteDebris::__set__didFinishEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* value) {
+constexpr void GlobalNamespace::NoteDebris::__cordl_internal_set__didFinishEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -245,25 +246,25 @@ inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> Global
 }
 inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* GlobalNamespace::NoteDebris::get_didFinishEvent() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebris*>::get(), "get_didFinishEvent",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>*, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::NoteDebris::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebris*>::get(), "Awake",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::NoteDebris::Update() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebris*>::get(), "Update",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::NoteDebris::Init(::GlobalNamespace::ColorType colorType, ::UnityEngine::Vector3 notePos, ::UnityEngine::Quaternion noteRot, ::UnityEngine::Vector3 noteMoveVec,
                                               ::UnityEngine::Vector3 noteScale, ::UnityEngine::Vector3 positionOffset, ::UnityEngine::Quaternion rotationOffset, ::UnityEngine::Vector3 cutPoint,
                                               ::UnityEngine::Vector3 cutNormal, ::UnityEngine::Vector3 force, ::UnityEngine::Vector3 torque, float_t lifeTime) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebris*>::get(), "Init", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebris*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 12>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
@@ -274,11 +275,11 @@ inline void GlobalNamespace::NoteDebris::Init(::GlobalNamespace::ColorType color
                                                           torque, lifeTime);
 }
 inline ::GlobalNamespace::NoteDebris* GlobalNamespace::NoteDebris::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::NoteDebris*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteDebris*>());
 }
 inline void GlobalNamespace::NoteDebris::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebris*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -290,18 +291,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x23883a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NoteDebris__Pool*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 inline ::GlobalNamespace::__NoteDebris__Pool* GlobalNamespace::__NoteDebris__Pool::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__NoteDebris__Pool*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__NoteDebris__Pool*>());
 }
 inline void GlobalNamespace::__NoteDebris__Pool::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__NoteDebris__Pool*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

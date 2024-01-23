@@ -30,20 +30,20 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XmlNodeWrapper);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12052))
 // CS Name: ::Newtonsoft.Json.Converters::XmlNodeWrapper*
 class CORDL_TYPE XmlNodeWrapper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _node, offset 0x10, size 0x8
-  __declspec(property(get = __get__node, put = __set__node))::System::Xml::XmlNode* _node;
+  __declspec(property(get = __cordl_internal_get__node, put = __cordl_internal_set__node))::System::Xml::XmlNode* _node;
 
   /// @brief Field _childNodes, offset 0x18, size 0x8
-  __declspec(property(get = __get__childNodes, put = __set__childNodes))::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* _childNodes;
+  __declspec(property(get = __cordl_internal_get__childNodes, put = __cordl_internal_set__childNodes))::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* _childNodes;
 
   /// @brief Field _attributes, offset 0x20, size 0x8
-  __declspec(property(get = __get__attributes, put = __set__attributes))::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* _attributes;
+  __declspec(property(get = __cordl_internal_get__attributes, put = __cordl_internal_set__attributes))::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* _attributes;
 
   __declspec(property(get = get_WrappedNode))::System::Object* WrappedNode;
 
@@ -67,23 +67,23 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  constexpr ::System::Xml::XmlNode*& __get__node();
+  constexpr ::System::Xml::XmlNode*& __cordl_internal_get__node();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& __get__node() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& __cordl_internal_get__node() const;
 
-  constexpr void __set__node(::System::Xml::XmlNode* value);
+  constexpr void __cordl_internal_set__node(::System::Xml::XmlNode* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*& __get__childNodes();
+  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*& __cordl_internal_get__childNodes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*> const& __get__childNodes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*> const& __cordl_internal_get__childNodes() const;
 
-  constexpr void __set__childNodes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* value);
+  constexpr void __cordl_internal_set__childNodes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*& __get__attributes();
+  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*& __cordl_internal_get__attributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*> const& __get__attributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*> const& __cordl_internal_get__attributes() const;
 
-  constexpr void __set__attributes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* value);
+  constexpr void __cordl_internal_set__attributes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* value);
 
   static inline ::Newtonsoft::Json::Converters::XmlNodeWrapper* New_ctor(::System::Xml::XmlNode* node);
 

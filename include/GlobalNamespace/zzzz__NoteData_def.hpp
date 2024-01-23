@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14757))
 // CS Name: ::NoteData::GameplayType
 struct CORDL_TYPE __NoteData__GameplayType {
@@ -112,7 +112,7 @@ static_assert(offsetof(::GlobalNamespace::__NoteData__GameplayType, value__) == 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14758))
 // CS Name: ::NoteData::ScoringType
 struct CORDL_TYPE __NoteData__ScoringType {
@@ -182,8 +182,8 @@ static_assert(offsetof(::GlobalNamespace::__NoteData__ScoringType, value__) == 0
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14758)), TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14751)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14757))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14755)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14757)), TypeDefinitionIndex(TypeDefinitionIndex(14758)), TypeDefinitionIndex(TypeDefinitionIndex(14760))] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(14759)) CS Name: ::NoteData*
 class CORDL_TYPE NoteData : public ::GlobalNamespace::BeatmapObjectData {
 public:
@@ -193,44 +193,50 @@ public:
   using GameplayType = ::GlobalNamespace::__NoteData__GameplayType;
 
   /// @brief Field <gameplayType>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __get__gameplayType_k__BackingField, put = __set__gameplayType_k__BackingField))::GlobalNamespace::__NoteData__GameplayType _gameplayType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__gameplayType_k__BackingField,
+                      put = __cordl_internal_set__gameplayType_k__BackingField))::GlobalNamespace::__NoteData__GameplayType _gameplayType_k__BackingField;
 
   /// @brief Field <scoringType>k__BackingField, offset 0x24, size 0x4
-  __declspec(property(get = __get__scoringType_k__BackingField, put = __set__scoringType_k__BackingField))::GlobalNamespace::__NoteData__ScoringType _scoringType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__scoringType_k__BackingField,
+                      put = __cordl_internal_set__scoringType_k__BackingField))::GlobalNamespace::__NoteData__ScoringType _scoringType_k__BackingField;
 
   /// @brief Field <colorType>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__colorType_k__BackingField, put = __set__colorType_k__BackingField))::GlobalNamespace::ColorType _colorType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__colorType_k__BackingField, put = __cordl_internal_set__colorType_k__BackingField))::GlobalNamespace::ColorType _colorType_k__BackingField;
 
   /// @brief Field <cutDirection>k__BackingField, offset 0x2c, size 0x4
-  __declspec(property(get = __get__cutDirection_k__BackingField, put = __set__cutDirection_k__BackingField))::GlobalNamespace::NoteCutDirection _cutDirection_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__cutDirection_k__BackingField,
+                      put = __cordl_internal_set__cutDirection_k__BackingField))::GlobalNamespace::NoteCutDirection _cutDirection_k__BackingField;
 
   /// @brief Field <timeToNextColorNote>k__BackingField, offset 0x30, size 0x4
-  __declspec(property(get = __get__timeToNextColorNote_k__BackingField, put = __set__timeToNextColorNote_k__BackingField)) float_t _timeToNextColorNote_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__timeToNextColorNote_k__BackingField, put = __cordl_internal_set__timeToNextColorNote_k__BackingField)) float_t _timeToNextColorNote_k__BackingField;
 
   /// @brief Field <timeToPrevColorNote>k__BackingField, offset 0x34, size 0x4
-  __declspec(property(get = __get__timeToPrevColorNote_k__BackingField, put = __set__timeToPrevColorNote_k__BackingField)) float_t _timeToPrevColorNote_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__timeToPrevColorNote_k__BackingField, put = __cordl_internal_set__timeToPrevColorNote_k__BackingField)) float_t _timeToPrevColorNote_k__BackingField;
 
   /// @brief Field <lineIndex>k__BackingField, offset 0x38, size 0x4
-  __declspec(property(get = __get__lineIndex_k__BackingField, put = __set__lineIndex_k__BackingField)) int32_t _lineIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lineIndex_k__BackingField, put = __cordl_internal_set__lineIndex_k__BackingField)) int32_t _lineIndex_k__BackingField;
 
   /// @brief Field <noteLineLayer>k__BackingField, offset 0x3c, size 0x4
-  __declspec(property(get = __get__noteLineLayer_k__BackingField, put = __set__noteLineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _noteLineLayer_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__noteLineLayer_k__BackingField,
+                      put = __cordl_internal_set__noteLineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _noteLineLayer_k__BackingField;
 
   /// @brief Field <beforeJumpNoteLineLayer>k__BackingField, offset 0x40, size 0x4
-  __declspec(property(get = __get__beforeJumpNoteLineLayer_k__BackingField,
-                      put = __set__beforeJumpNoteLineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _beforeJumpNoteLineLayer_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__beforeJumpNoteLineLayer_k__BackingField,
+                      put = __cordl_internal_set__beforeJumpNoteLineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _beforeJumpNoteLineLayer_k__BackingField;
 
   /// @brief Field <flipLineIndex>k__BackingField, offset 0x44, size 0x4
-  __declspec(property(get = __get__flipLineIndex_k__BackingField, put = __set__flipLineIndex_k__BackingField)) int32_t _flipLineIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__flipLineIndex_k__BackingField, put = __cordl_internal_set__flipLineIndex_k__BackingField)) int32_t _flipLineIndex_k__BackingField;
 
   /// @brief Field <flipYSide>k__BackingField, offset 0x48, size 0x4
-  __declspec(property(get = __get__flipYSide_k__BackingField, put = __set__flipYSide_k__BackingField)) float_t _flipYSide_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__flipYSide_k__BackingField, put = __cordl_internal_set__flipYSide_k__BackingField)) float_t _flipYSide_k__BackingField;
 
   /// @brief Field <cutDirectionAngleOffset>k__BackingField, offset 0x4c, size 0x4
-  __declspec(property(get = __get__cutDirectionAngleOffset_k__BackingField, put = __set__cutDirectionAngleOffset_k__BackingField)) float_t _cutDirectionAngleOffset_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__cutDirectionAngleOffset_k__BackingField,
+                      put = __cordl_internal_set__cutDirectionAngleOffset_k__BackingField)) float_t _cutDirectionAngleOffset_k__BackingField;
 
   /// @brief Field <cutSfxVolumeMultiplier>k__BackingField, offset 0x50, size 0x4
-  __declspec(property(get = __get__cutSfxVolumeMultiplier_k__BackingField, put = __set__cutSfxVolumeMultiplier_k__BackingField)) float_t _cutSfxVolumeMultiplier_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__cutSfxVolumeMultiplier_k__BackingField,
+                      put = __cordl_internal_set__cutSfxVolumeMultiplier_k__BackingField)) float_t _cutSfxVolumeMultiplier_k__BackingField;
 
   __declspec(property(get = get_subtypeGroupIdentifier)) int32_t subtypeGroupIdentifier;
 
@@ -260,83 +266,83 @@ public:
 
   __declspec(property(get = get_cutSfxVolumeMultiplier, put = set_cutSfxVolumeMultiplier)) float_t cutSfxVolumeMultiplier;
 
-  constexpr ::GlobalNamespace::__NoteData__GameplayType& __get__gameplayType_k__BackingField();
+  constexpr ::GlobalNamespace::__NoteData__GameplayType& __cordl_internal_get__gameplayType_k__BackingField();
 
-  constexpr ::GlobalNamespace::__NoteData__GameplayType const& __get__gameplayType_k__BackingField() const;
+  constexpr ::GlobalNamespace::__NoteData__GameplayType const& __cordl_internal_get__gameplayType_k__BackingField() const;
 
-  constexpr void __set__gameplayType_k__BackingField(::GlobalNamespace::__NoteData__GameplayType value);
+  constexpr void __cordl_internal_set__gameplayType_k__BackingField(::GlobalNamespace::__NoteData__GameplayType value);
 
-  constexpr ::GlobalNamespace::__NoteData__ScoringType& __get__scoringType_k__BackingField();
+  constexpr ::GlobalNamespace::__NoteData__ScoringType& __cordl_internal_get__scoringType_k__BackingField();
 
-  constexpr ::GlobalNamespace::__NoteData__ScoringType const& __get__scoringType_k__BackingField() const;
+  constexpr ::GlobalNamespace::__NoteData__ScoringType const& __cordl_internal_get__scoringType_k__BackingField() const;
 
-  constexpr void __set__scoringType_k__BackingField(::GlobalNamespace::__NoteData__ScoringType value);
+  constexpr void __cordl_internal_set__scoringType_k__BackingField(::GlobalNamespace::__NoteData__ScoringType value);
 
-  constexpr ::GlobalNamespace::ColorType& __get__colorType_k__BackingField();
+  constexpr ::GlobalNamespace::ColorType& __cordl_internal_get__colorType_k__BackingField();
 
-  constexpr ::GlobalNamespace::ColorType const& __get__colorType_k__BackingField() const;
+  constexpr ::GlobalNamespace::ColorType const& __cordl_internal_get__colorType_k__BackingField() const;
 
-  constexpr void __set__colorType_k__BackingField(::GlobalNamespace::ColorType value);
+  constexpr void __cordl_internal_set__colorType_k__BackingField(::GlobalNamespace::ColorType value);
 
-  constexpr ::GlobalNamespace::NoteCutDirection& __get__cutDirection_k__BackingField();
+  constexpr ::GlobalNamespace::NoteCutDirection& __cordl_internal_get__cutDirection_k__BackingField();
 
-  constexpr ::GlobalNamespace::NoteCutDirection const& __get__cutDirection_k__BackingField() const;
+  constexpr ::GlobalNamespace::NoteCutDirection const& __cordl_internal_get__cutDirection_k__BackingField() const;
 
-  constexpr void __set__cutDirection_k__BackingField(::GlobalNamespace::NoteCutDirection value);
+  constexpr void __cordl_internal_set__cutDirection_k__BackingField(::GlobalNamespace::NoteCutDirection value);
 
-  constexpr float_t& __get__timeToNextColorNote_k__BackingField();
+  constexpr float_t& __cordl_internal_get__timeToNextColorNote_k__BackingField();
 
-  constexpr float_t const& __get__timeToNextColorNote_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__timeToNextColorNote_k__BackingField() const;
 
-  constexpr void __set__timeToNextColorNote_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__timeToNextColorNote_k__BackingField(float_t value);
 
-  constexpr float_t& __get__timeToPrevColorNote_k__BackingField();
+  constexpr float_t& __cordl_internal_get__timeToPrevColorNote_k__BackingField();
 
-  constexpr float_t const& __get__timeToPrevColorNote_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__timeToPrevColorNote_k__BackingField() const;
 
-  constexpr void __set__timeToPrevColorNote_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__timeToPrevColorNote_k__BackingField(float_t value);
 
-  constexpr int32_t& __get__lineIndex_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__lineIndex_k__BackingField();
 
-  constexpr int32_t const& __get__lineIndex_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__lineIndex_k__BackingField() const;
 
-  constexpr void __set__lineIndex_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__lineIndex_k__BackingField(int32_t value);
 
-  constexpr ::GlobalNamespace::NoteLineLayer& __get__noteLineLayer_k__BackingField();
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__noteLineLayer_k__BackingField();
 
-  constexpr ::GlobalNamespace::NoteLineLayer const& __get__noteLineLayer_k__BackingField() const;
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__noteLineLayer_k__BackingField() const;
 
-  constexpr void __set__noteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
+  constexpr void __cordl_internal_set__noteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
 
-  constexpr ::GlobalNamespace::NoteLineLayer& __get__beforeJumpNoteLineLayer_k__BackingField();
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__beforeJumpNoteLineLayer_k__BackingField();
 
-  constexpr ::GlobalNamespace::NoteLineLayer const& __get__beforeJumpNoteLineLayer_k__BackingField() const;
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__beforeJumpNoteLineLayer_k__BackingField() const;
 
-  constexpr void __set__beforeJumpNoteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
+  constexpr void __cordl_internal_set__beforeJumpNoteLineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
 
-  constexpr int32_t& __get__flipLineIndex_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__flipLineIndex_k__BackingField();
 
-  constexpr int32_t const& __get__flipLineIndex_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__flipLineIndex_k__BackingField() const;
 
-  constexpr void __set__flipLineIndex_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__flipLineIndex_k__BackingField(int32_t value);
 
-  constexpr float_t& __get__flipYSide_k__BackingField();
+  constexpr float_t& __cordl_internal_get__flipYSide_k__BackingField();
 
-  constexpr float_t const& __get__flipYSide_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__flipYSide_k__BackingField() const;
 
-  constexpr void __set__flipYSide_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__flipYSide_k__BackingField(float_t value);
 
-  constexpr float_t& __get__cutDirectionAngleOffset_k__BackingField();
+  constexpr float_t& __cordl_internal_get__cutDirectionAngleOffset_k__BackingField();
 
-  constexpr float_t const& __get__cutDirectionAngleOffset_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__cutDirectionAngleOffset_k__BackingField() const;
 
-  constexpr void __set__cutDirectionAngleOffset_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__cutDirectionAngleOffset_k__BackingField(float_t value);
 
-  constexpr float_t& __get__cutSfxVolumeMultiplier_k__BackingField();
+  constexpr float_t& __cordl_internal_get__cutSfxVolumeMultiplier_k__BackingField();
 
-  constexpr float_t const& __get__cutSfxVolumeMultiplier_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__cutSfxVolumeMultiplier_k__BackingField() const;
 
-  constexpr void __set__cutSfxVolumeMultiplier_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__cutSfxVolumeMultiplier_k__BackingField(float_t value);
 
   /// @brief Method get_subtypeGroupIdentifier, addr 0xe00b20, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeGroupIdentifier();

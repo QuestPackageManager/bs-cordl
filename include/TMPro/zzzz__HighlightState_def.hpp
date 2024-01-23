@@ -26,7 +26,7 @@ MARK_VAL_T(::TMPro::HighlightState);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12330)), TypeDefinitionIndex(TypeDefinitionIndex(10250))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(12330))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12331))
 // CS Name: ::TMPro::HighlightState
 struct CORDL_TYPE HighlightState {

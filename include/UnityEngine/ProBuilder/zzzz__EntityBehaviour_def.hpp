@@ -23,20 +23,20 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::EntityBehaviour);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12123))
 // CS Name: ::UnityEngine.ProBuilder::EntityBehaviour*
 class CORDL_TYPE EntityBehaviour : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field manageVisibility, offset 0x18, size 0x1
-  __declspec(property(get = __get_manageVisibility, put = __set_manageVisibility)) bool manageVisibility;
+  __declspec(property(get = __cordl_internal_get_manageVisibility, put = __cordl_internal_set_manageVisibility)) bool manageVisibility;
 
-  constexpr bool& __get_manageVisibility();
+  constexpr bool& __cordl_internal_get_manageVisibility();
 
-  constexpr bool const& __get_manageVisibility() const;
+  constexpr bool const& __cordl_internal_get_manageVisibility() const;
 
-  constexpr void __set_manageVisibility(bool value);
+  constexpr void __cordl_internal_set_manageVisibility(bool value);
 
   /// @brief Method Initialize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Initialize();

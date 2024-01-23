@@ -57,7 +57,7 @@ MARK_VAL_T(::UnityEngine::AddressableAssets::ResourceLocators::__ContentCatalogD
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14109))
 // CS Name: ::ContentCatalogData::Bucket
 struct CORDL_TYPE __ContentCatalogData__Bucket {
@@ -94,38 +94,38 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::__Con
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14110))
 // CS Name: ::ContentCatalogData::CompactLocation*
 class CORDL_TYPE __ContentCatalogData__CompactLocation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Locator, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Locator, put = __set_m_Locator))::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* m_Locator;
+  __declspec(property(get = __cordl_internal_get_m_Locator, put = __cordl_internal_set_m_Locator))::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* m_Locator;
 
   /// @brief Field m_InternalId, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_InternalId, put = __set_m_InternalId))::StringW m_InternalId;
+  __declspec(property(get = __cordl_internal_get_m_InternalId, put = __cordl_internal_set_m_InternalId))::StringW m_InternalId;
 
   /// @brief Field m_ProviderId, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_ProviderId, put = __set_m_ProviderId))::StringW m_ProviderId;
+  __declspec(property(get = __cordl_internal_get_m_ProviderId, put = __cordl_internal_set_m_ProviderId))::StringW m_ProviderId;
 
   /// @brief Field m_Dependency, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Dependency, put = __set_m_Dependency))::System::Object* m_Dependency;
+  __declspec(property(get = __cordl_internal_get_m_Dependency, put = __cordl_internal_set_m_Dependency))::System::Object* m_Dependency;
 
   /// @brief Field m_Data, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Data, put = __set_m_Data))::System::Object* m_Data;
+  __declspec(property(get = __cordl_internal_get_m_Data, put = __cordl_internal_set_m_Data))::System::Object* m_Data;
 
   /// @brief Field m_HashCode, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_HashCode, put = __set_m_HashCode)) int32_t m_HashCode;
+  __declspec(property(get = __cordl_internal_get_m_HashCode, put = __cordl_internal_set_m_HashCode)) int32_t m_HashCode;
 
   /// @brief Field m_DependencyHashCode, offset 0x3c, size 0x4
-  __declspec(property(get = __get_m_DependencyHashCode, put = __set_m_DependencyHashCode)) int32_t m_DependencyHashCode;
+  __declspec(property(get = __cordl_internal_get_m_DependencyHashCode, put = __cordl_internal_set_m_DependencyHashCode)) int32_t m_DependencyHashCode;
 
   /// @brief Field m_PrimaryKey, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_PrimaryKey, put = __set_m_PrimaryKey))::StringW m_PrimaryKey;
+  __declspec(property(get = __cordl_internal_get_m_PrimaryKey, put = __cordl_internal_set_m_PrimaryKey))::StringW m_PrimaryKey;
 
   /// @brief Field m_Type, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_Type, put = __set_m_Type))::System::Type* m_Type;
+  __declspec(property(get = __cordl_internal_get_m_Type, put = __cordl_internal_set_m_Type))::System::Type* m_Type;
 
   __declspec(property(get = get_InternalId))::StringW InternalId;
 
@@ -149,59 +149,59 @@ public:
   /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation"
   constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* i___UnityEngine__ResourceManagement__ResourceLocations__IResourceLocation() noexcept;
 
-  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*& __get_m_Locator();
+  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*& __cordl_internal_get_m_Locator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*> const& __get_m_Locator() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*> const& __cordl_internal_get_m_Locator() const;
 
-  constexpr void __set_m_Locator(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* value);
+  constexpr void __cordl_internal_set_m_Locator(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* value);
 
-  constexpr ::StringW& __get_m_InternalId();
+  constexpr ::StringW& __cordl_internal_get_m_InternalId();
 
-  constexpr ::StringW const& __get_m_InternalId() const;
+  constexpr ::StringW const& __cordl_internal_get_m_InternalId() const;
 
-  constexpr void __set_m_InternalId(::StringW value);
+  constexpr void __cordl_internal_set_m_InternalId(::StringW value);
 
-  constexpr ::StringW& __get_m_ProviderId();
+  constexpr ::StringW& __cordl_internal_get_m_ProviderId();
 
-  constexpr ::StringW const& __get_m_ProviderId() const;
+  constexpr ::StringW const& __cordl_internal_get_m_ProviderId() const;
 
-  constexpr void __set_m_ProviderId(::StringW value);
+  constexpr void __cordl_internal_set_m_ProviderId(::StringW value);
 
-  constexpr ::System::Object*& __get_m_Dependency();
+  constexpr ::System::Object*& __cordl_internal_get_m_Dependency();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_Dependency() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_Dependency() const;
 
-  constexpr void __set_m_Dependency(::System::Object* value);
+  constexpr void __cordl_internal_set_m_Dependency(::System::Object* value);
 
-  constexpr ::System::Object*& __get_m_Data();
+  constexpr ::System::Object*& __cordl_internal_get_m_Data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_Data() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_Data() const;
 
-  constexpr void __set_m_Data(::System::Object* value);
+  constexpr void __cordl_internal_set_m_Data(::System::Object* value);
 
-  constexpr int32_t& __get_m_HashCode();
+  constexpr int32_t& __cordl_internal_get_m_HashCode();
 
-  constexpr int32_t const& __get_m_HashCode() const;
+  constexpr int32_t const& __cordl_internal_get_m_HashCode() const;
 
-  constexpr void __set_m_HashCode(int32_t value);
+  constexpr void __cordl_internal_set_m_HashCode(int32_t value);
 
-  constexpr int32_t& __get_m_DependencyHashCode();
+  constexpr int32_t& __cordl_internal_get_m_DependencyHashCode();
 
-  constexpr int32_t const& __get_m_DependencyHashCode() const;
+  constexpr int32_t const& __cordl_internal_get_m_DependencyHashCode() const;
 
-  constexpr void __set_m_DependencyHashCode(int32_t value);
+  constexpr void __cordl_internal_set_m_DependencyHashCode(int32_t value);
 
-  constexpr ::StringW& __get_m_PrimaryKey();
+  constexpr ::StringW& __cordl_internal_get_m_PrimaryKey();
 
-  constexpr ::StringW const& __get_m_PrimaryKey() const;
+  constexpr ::StringW const& __cordl_internal_get_m_PrimaryKey() const;
 
-  constexpr void __set_m_PrimaryKey(::StringW value);
+  constexpr void __cordl_internal_set_m_PrimaryKey(::StringW value);
 
-  constexpr ::System::Type*& __get_m_Type();
+  constexpr ::System::Type*& __cordl_internal_get_m_Type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_m_Type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_Type() const;
 
-  constexpr void __set_m_Type(::System::Type* value);
+  constexpr void __cordl_internal_set_m_Type(::System::Type* value);
 
   /// @brief Method get_InternalId, addr 0x2a2dcd0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_InternalId();
@@ -314,7 +314,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::ResourceLocators::__Con
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13984))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13984))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14111))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::ContentCatalogData*
 class CORDL_TYPE ContentCatalogData : public ::System::Object {
@@ -325,48 +325,52 @@ public:
   using Bucket = ::UnityEngine::AddressableAssets::ResourceLocators::__ContentCatalogData__Bucket;
 
   /// @brief Field localHash, offset 0x10, size 0x8
-  __declspec(property(get = __get_localHash, put = __set_localHash))::StringW localHash;
+  __declspec(property(get = __cordl_internal_get_localHash, put = __cordl_internal_set_localHash))::StringW localHash;
 
   /// @brief Field location, offset 0x18, size 0x8
-  __declspec(property(get = __get_location, put = __set_location))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location;
+  __declspec(property(get = __cordl_internal_get_location, put = __cordl_internal_set_location))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location;
 
   /// @brief Field m_LocatorId, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_LocatorId, put = __set_m_LocatorId))::StringW m_LocatorId;
+  __declspec(property(get = __cordl_internal_get_m_LocatorId, put = __cordl_internal_set_m_LocatorId))::StringW m_LocatorId;
 
   /// @brief Field m_InstanceProviderData, offset 0x28, size 0x30
-  __declspec(property(get = __get_m_InstanceProviderData, put = __set_m_InstanceProviderData))::UnityEngine::ResourceManagement::Util::ObjectInitializationData m_InstanceProviderData;
+  __declspec(property(get = __cordl_internal_get_m_InstanceProviderData,
+                      put = __cordl_internal_set_m_InstanceProviderData))::UnityEngine::ResourceManagement::Util::ObjectInitializationData m_InstanceProviderData;
 
   /// @brief Field m_SceneProviderData, offset 0x58, size 0x30
-  __declspec(property(get = __get_m_SceneProviderData, put = __set_m_SceneProviderData))::UnityEngine::ResourceManagement::Util::ObjectInitializationData m_SceneProviderData;
+  __declspec(property(get = __cordl_internal_get_m_SceneProviderData,
+                      put = __cordl_internal_set_m_SceneProviderData))::UnityEngine::ResourceManagement::Util::ObjectInitializationData m_SceneProviderData;
 
   /// @brief Field m_ResourceProviderData, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_ResourceProviderData,
-                      put = __set_m_ResourceProviderData))::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* m_ResourceProviderData;
+  __declspec(
+      property(get = __cordl_internal_get_m_ResourceProviderData,
+               put = __cordl_internal_set_m_ResourceProviderData))::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* m_ResourceProviderData;
 
   /// @brief Field m_ProviderIds, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_ProviderIds, put = __set_m_ProviderIds))::ArrayW<::StringW, ::Array<::StringW>*> m_ProviderIds;
+  __declspec(property(get = __cordl_internal_get_m_ProviderIds, put = __cordl_internal_set_m_ProviderIds))::ArrayW<::StringW, ::Array<::StringW>*> m_ProviderIds;
 
   /// @brief Field m_InternalIds, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_InternalIds, put = __set_m_InternalIds))::ArrayW<::StringW, ::Array<::StringW>*> m_InternalIds;
+  __declspec(property(get = __cordl_internal_get_m_InternalIds, put = __cordl_internal_set_m_InternalIds))::ArrayW<::StringW, ::Array<::StringW>*> m_InternalIds;
 
   /// @brief Field m_KeyDataString, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_KeyDataString, put = __set_m_KeyDataString))::StringW m_KeyDataString;
+  __declspec(property(get = __cordl_internal_get_m_KeyDataString, put = __cordl_internal_set_m_KeyDataString))::StringW m_KeyDataString;
 
   /// @brief Field m_BucketDataString, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_BucketDataString, put = __set_m_BucketDataString))::StringW m_BucketDataString;
+  __declspec(property(get = __cordl_internal_get_m_BucketDataString, put = __cordl_internal_set_m_BucketDataString))::StringW m_BucketDataString;
 
   /// @brief Field m_EntryDataString, offset 0xb0, size 0x8
-  __declspec(property(get = __get_m_EntryDataString, put = __set_m_EntryDataString))::StringW m_EntryDataString;
+  __declspec(property(get = __cordl_internal_get_m_EntryDataString, put = __cordl_internal_set_m_EntryDataString))::StringW m_EntryDataString;
 
   /// @brief Field m_ExtraDataString, offset 0xb8, size 0x8
-  __declspec(property(get = __get_m_ExtraDataString, put = __set_m_ExtraDataString))::StringW m_ExtraDataString;
+  __declspec(property(get = __cordl_internal_get_m_ExtraDataString, put = __cordl_internal_set_m_ExtraDataString))::StringW m_ExtraDataString;
 
   /// @brief Field m_resourceTypes, offset 0xc0, size 0x8
-  __declspec(property(get = __get_m_resourceTypes,
-                      put = __set_m_resourceTypes))::ArrayW<::UnityEngine::ResourceManagement::Util::SerializedType, ::Array<::UnityEngine::ResourceManagement::Util::SerializedType>*> m_resourceTypes;
+  __declspec(property(
+      get = __cordl_internal_get_m_resourceTypes,
+      put = __cordl_internal_set_m_resourceTypes))::ArrayW<::UnityEngine::ResourceManagement::Util::SerializedType, ::Array<::UnityEngine::ResourceManagement::Util::SerializedType>*> m_resourceTypes;
 
   /// @brief Field m_InternalIdPrefixes, offset 0xc8, size 0x8
-  __declspec(property(get = __get_m_InternalIdPrefixes, put = __set_m_InternalIdPrefixes))::ArrayW<::StringW, ::Array<::StringW>*> m_InternalIdPrefixes;
+  __declspec(property(get = __cordl_internal_get_m_InternalIdPrefixes, put = __cordl_internal_set_m_InternalIdPrefixes))::ArrayW<::StringW, ::Array<::StringW>*> m_InternalIdPrefixes;
 
   __declspec(property(get = get_ProviderId, put = set_ProviderId))::StringW ProviderId;
 
@@ -381,89 +385,90 @@ public:
 
   __declspec(property(get = get_InternalIds))::ArrayW<::StringW, ::Array<::StringW>*> InternalIds;
 
-  constexpr ::StringW& __get_localHash();
+  constexpr ::StringW& __cordl_internal_get_localHash();
 
-  constexpr ::StringW const& __get_localHash() const;
+  constexpr ::StringW const& __cordl_internal_get_localHash() const;
 
-  constexpr void __set_localHash(::StringW value);
+  constexpr void __cordl_internal_set_localHash(::StringW value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __get_location();
+  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __cordl_internal_get_location();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __get_location() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __cordl_internal_get_location() const;
 
-  constexpr void __set_location(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
+  constexpr void __cordl_internal_set_location(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  constexpr ::StringW& __get_m_LocatorId();
+  constexpr ::StringW& __cordl_internal_get_m_LocatorId();
 
-  constexpr ::StringW const& __get_m_LocatorId() const;
+  constexpr ::StringW const& __cordl_internal_get_m_LocatorId() const;
 
-  constexpr void __set_m_LocatorId(::StringW value);
+  constexpr void __cordl_internal_set_m_LocatorId(::StringW value);
 
-  constexpr ::UnityEngine::ResourceManagement::Util::ObjectInitializationData& __get_m_InstanceProviderData();
+  constexpr ::UnityEngine::ResourceManagement::Util::ObjectInitializationData& __cordl_internal_get_m_InstanceProviderData();
 
-  constexpr ::UnityEngine::ResourceManagement::Util::ObjectInitializationData const& __get_m_InstanceProviderData() const;
+  constexpr ::UnityEngine::ResourceManagement::Util::ObjectInitializationData const& __cordl_internal_get_m_InstanceProviderData() const;
 
-  constexpr void __set_m_InstanceProviderData(::UnityEngine::ResourceManagement::Util::ObjectInitializationData value);
+  constexpr void __cordl_internal_set_m_InstanceProviderData(::UnityEngine::ResourceManagement::Util::ObjectInitializationData value);
 
-  constexpr ::UnityEngine::ResourceManagement::Util::ObjectInitializationData& __get_m_SceneProviderData();
+  constexpr ::UnityEngine::ResourceManagement::Util::ObjectInitializationData& __cordl_internal_get_m_SceneProviderData();
 
-  constexpr ::UnityEngine::ResourceManagement::Util::ObjectInitializationData const& __get_m_SceneProviderData() const;
+  constexpr ::UnityEngine::ResourceManagement::Util::ObjectInitializationData const& __cordl_internal_get_m_SceneProviderData() const;
 
-  constexpr void __set_m_SceneProviderData(::UnityEngine::ResourceManagement::Util::ObjectInitializationData value);
+  constexpr void __cordl_internal_set_m_SceneProviderData(::UnityEngine::ResourceManagement::Util::ObjectInitializationData value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>*& __get_m_ResourceProviderData();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>*& __cordl_internal_get_m_ResourceProviderData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>*> const& __get_m_ResourceProviderData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>*> const&
+  __cordl_internal_get_m_ResourceProviderData() const;
 
-  constexpr void __set_m_ResourceProviderData(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* value);
+  constexpr void __cordl_internal_set_m_ResourceProviderData(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Util::ObjectInitializationData>* value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_ProviderIds();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_ProviderIds();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_ProviderIds() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_ProviderIds() const;
 
-  constexpr void __set_m_ProviderIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_ProviderIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_InternalIds();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_InternalIds();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_InternalIds() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_InternalIds() const;
 
-  constexpr void __set_m_InternalIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_InternalIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::StringW& __get_m_KeyDataString();
+  constexpr ::StringW& __cordl_internal_get_m_KeyDataString();
 
-  constexpr ::StringW const& __get_m_KeyDataString() const;
+  constexpr ::StringW const& __cordl_internal_get_m_KeyDataString() const;
 
-  constexpr void __set_m_KeyDataString(::StringW value);
+  constexpr void __cordl_internal_set_m_KeyDataString(::StringW value);
 
-  constexpr ::StringW& __get_m_BucketDataString();
+  constexpr ::StringW& __cordl_internal_get_m_BucketDataString();
 
-  constexpr ::StringW const& __get_m_BucketDataString() const;
+  constexpr ::StringW const& __cordl_internal_get_m_BucketDataString() const;
 
-  constexpr void __set_m_BucketDataString(::StringW value);
+  constexpr void __cordl_internal_set_m_BucketDataString(::StringW value);
 
-  constexpr ::StringW& __get_m_EntryDataString();
+  constexpr ::StringW& __cordl_internal_get_m_EntryDataString();
 
-  constexpr ::StringW const& __get_m_EntryDataString() const;
+  constexpr ::StringW const& __cordl_internal_get_m_EntryDataString() const;
 
-  constexpr void __set_m_EntryDataString(::StringW value);
+  constexpr void __cordl_internal_set_m_EntryDataString(::StringW value);
 
-  constexpr ::StringW& __get_m_ExtraDataString();
+  constexpr ::StringW& __cordl_internal_get_m_ExtraDataString();
 
-  constexpr ::StringW const& __get_m_ExtraDataString() const;
+  constexpr ::StringW const& __cordl_internal_get_m_ExtraDataString() const;
 
-  constexpr void __set_m_ExtraDataString(::StringW value);
+  constexpr void __cordl_internal_set_m_ExtraDataString(::StringW value);
 
-  constexpr ::ArrayW<::UnityEngine::ResourceManagement::Util::SerializedType, ::Array<::UnityEngine::ResourceManagement::Util::SerializedType>*>& __get_m_resourceTypes();
+  constexpr ::ArrayW<::UnityEngine::ResourceManagement::Util::SerializedType, ::Array<::UnityEngine::ResourceManagement::Util::SerializedType>*>& __cordl_internal_get_m_resourceTypes();
 
-  constexpr ::ArrayW<::UnityEngine::ResourceManagement::Util::SerializedType, ::Array<::UnityEngine::ResourceManagement::Util::SerializedType>*> const& __get_m_resourceTypes() const;
+  constexpr ::ArrayW<::UnityEngine::ResourceManagement::Util::SerializedType, ::Array<::UnityEngine::ResourceManagement::Util::SerializedType>*> const& __cordl_internal_get_m_resourceTypes() const;
 
-  constexpr void __set_m_resourceTypes(::ArrayW<::UnityEngine::ResourceManagement::Util::SerializedType, ::Array<::UnityEngine::ResourceManagement::Util::SerializedType>*> value);
+  constexpr void __cordl_internal_set_m_resourceTypes(::ArrayW<::UnityEngine::ResourceManagement::Util::SerializedType, ::Array<::UnityEngine::ResourceManagement::Util::SerializedType>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_InternalIdPrefixes();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_InternalIdPrefixes();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_InternalIdPrefixes() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_InternalIdPrefixes() const;
 
-  constexpr void __set_m_InternalIdPrefixes(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_InternalIdPrefixes(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
   /// @brief Method get_ProviderId, addr 0x2a2d148, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ProviderId();

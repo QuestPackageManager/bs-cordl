@@ -35,17 +35,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ECPublicBcpgKey);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(554))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(554))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(565))
 // CS Name: ::Org.BouncyCastle.Bcpg::ECPublicBcpgKey*
 class CORDL_TYPE ECPublicBcpgKey : public ::Org::BouncyCastle::Bcpg::BcpgObject {
 public:
   // Declarations
   /// @brief Field oid, offset 0x10, size 0x8
-  __declspec(property(get = __get_oid, put = __set_oid))::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid;
+  __declspec(property(get = __cordl_internal_get_oid, put = __cordl_internal_set_oid))::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid;
 
   /// @brief Field point, offset 0x18, size 0x8
-  __declspec(property(get = __get_point, put = __set_point))::Org::BouncyCastle::Math::BigInteger* point;
+  __declspec(property(get = __cordl_internal_get_point, put = __cordl_internal_set_point))::Org::BouncyCastle::Math::BigInteger* point;
 
   __declspec(property(get = get_Format))::StringW Format;
 
@@ -59,17 +59,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::IBcpgKey"
   constexpr ::Org::BouncyCastle::Bcpg::IBcpgKey* i___Org__BouncyCastle__Bcpg__IBcpgKey() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_oid();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_oid();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_oid() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_oid() const;
 
-  constexpr void __set_oid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_oid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_point();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_point();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_point() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_point() const;
 
-  constexpr void __set_point(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_point(::Org::BouncyCastle::Math::BigInteger* value);
 
   static inline ::Org::BouncyCastle::Bcpg::ECPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 

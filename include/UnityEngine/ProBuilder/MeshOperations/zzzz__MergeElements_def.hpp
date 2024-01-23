@@ -50,20 +50,20 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12267))
 // CS Name: ::MergeElements::<>c__DisplayClass0_0*
 class CORDL_TYPE __MergeElements____c__DisplayClass0_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field remove, offset 0x10, size 0x8
-  __declspec(property(get = __get_remove, put = __set_remove))::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* remove;
+  __declspec(property(get = __cordl_internal_get_remove, put = __cordl_internal_set_remove))::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* remove;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*& __get_remove();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*& __cordl_internal_get_remove();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*> const& __get_remove() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*> const& __cordl_internal_get_remove() const;
 
-  constexpr void __set_remove(::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* value);
+  constexpr void __cordl_internal_set_remove(::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__MergeElements____c__DisplayClass0_0* New_ctor();
 
@@ -102,7 +102,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__MergeElement
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12268))
 // CS Name: ::MergeElements::<>c*
 class CORDL_TYPE __MergeElements____c : public ::System::Object {
@@ -155,7 +155,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12269))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::MergeElements*
 class CORDL_TYPE MergeElements : public ::System::Object {

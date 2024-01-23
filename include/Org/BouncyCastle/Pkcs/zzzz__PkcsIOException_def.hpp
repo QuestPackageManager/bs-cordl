@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::PkcsIOException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3565))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3565))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1706))
 // CS Name: ::Org.BouncyCastle.Pkcs::PkcsIOException*
 class CORDL_TYPE PkcsIOException : public ::System::IO::IOException {

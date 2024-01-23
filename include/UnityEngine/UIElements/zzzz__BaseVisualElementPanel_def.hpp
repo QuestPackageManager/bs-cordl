@@ -122,67 +122,71 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::BaseVisualElementPanel);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6866)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6866))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6870))
 // CS Name: ::UnityEngine.UIElements::BaseVisualElementPanel*
 class CORDL_TYPE BaseVisualElementPanel : public ::System::Object {
 public:
   // Declarations
   /// @brief Field panelDisposed, offset 0x10, size 0x8
-  __declspec(property(get = __get_panelDisposed, put = __set_panelDisposed))::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* panelDisposed;
+  __declspec(property(get = __cordl_internal_get_panelDisposed, put = __cordl_internal_set_panelDisposed))::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* panelDisposed;
 
   /// @brief Field m_Scale, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_Scale, put = __set_m_Scale)) float_t m_Scale;
+  __declspec(property(get = __cordl_internal_get_m_Scale, put = __cordl_internal_set_m_Scale)) float_t m_Scale;
 
   /// @brief Field yogaConfig, offset 0x20, size 0x8
-  __declspec(property(get = __get_yogaConfig, put = __set_yogaConfig))::UnityEngine::Yoga::YogaConfig* yogaConfig;
+  __declspec(property(get = __cordl_internal_get_yogaConfig, put = __cordl_internal_set_yogaConfig))::UnityEngine::Yoga::YogaConfig* yogaConfig;
 
   /// @brief Field m_PixelsPerPoint, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_PixelsPerPoint, put = __set_m_PixelsPerPoint)) float_t m_PixelsPerPoint;
+  __declspec(property(get = __cordl_internal_get_m_PixelsPerPoint, put = __cordl_internal_set_m_PixelsPerPoint)) float_t m_PixelsPerPoint;
 
   /// @brief Field <clearSettings>k__BackingField, offset 0x2c, size 0x14
-  __declspec(property(get = __get__clearSettings_k__BackingField, put = __set__clearSettings_k__BackingField))::UnityEngine::UIElements::PanelClearSettings _clearSettings_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__clearSettings_k__BackingField,
+                      put = __cordl_internal_set__clearSettings_k__BackingField))::UnityEngine::UIElements::PanelClearSettings _clearSettings_k__BackingField;
 
   /// @brief Field <duringLayoutPhase>k__BackingField, offset 0x40, size 0x1
-  __declspec(property(get = __get__duringLayoutPhase_k__BackingField, put = __set__duringLayoutPhase_k__BackingField)) bool _duringLayoutPhase_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__duringLayoutPhase_k__BackingField, put = __cordl_internal_set__duringLayoutPhase_k__BackingField)) bool _duringLayoutPhase_k__BackingField;
 
   /// @brief Field <repaintData>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __get__repaintData_k__BackingField, put = __set__repaintData_k__BackingField))::UnityEngine::UIElements::RepaintData* _repaintData_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__repaintData_k__BackingField,
+                      put = __cordl_internal_set__repaintData_k__BackingField))::UnityEngine::UIElements::RepaintData* _repaintData_k__BackingField;
 
   /// @brief Field <cursorManager>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __get__cursorManager_k__BackingField, put = __set__cursorManager_k__BackingField))::UnityEngine::UIElements::ICursorManager* _cursorManager_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__cursorManager_k__BackingField,
+                      put = __cordl_internal_set__cursorManager_k__BackingField))::UnityEngine::UIElements::ICursorManager* _cursorManager_k__BackingField;
 
   /// @brief Field <contextualMenuManager>k__BackingField, offset 0x58, size 0x8
-  __declspec(property(get = __get__contextualMenuManager_k__BackingField,
-                      put = __set__contextualMenuManager_k__BackingField))::UnityEngine::UIElements::ContextualMenuManager* _contextualMenuManager_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__contextualMenuManager_k__BackingField,
+                      put = __cordl_internal_set__contextualMenuManager_k__BackingField))::UnityEngine::UIElements::ContextualMenuManager* _contextualMenuManager_k__BackingField;
 
   /// @brief Field <disposed>k__BackingField, offset 0x60, size 0x1
-  __declspec(property(get = __get__disposed_k__BackingField, put = __set__disposed_k__BackingField)) bool _disposed_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
 
   /// @brief Field m_TopElementUnderPointers, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_TopElementUnderPointers, put = __set_m_TopElementUnderPointers))::UnityEngine::UIElements::ElementUnderPointer* m_TopElementUnderPointers;
+  __declspec(property(get = __cordl_internal_get_m_TopElementUnderPointers,
+                      put = __cordl_internal_set_m_TopElementUnderPointers))::UnityEngine::UIElements::ElementUnderPointer* m_TopElementUnderPointers;
 
   /// @brief Field standardShaderChanged, offset 0x70, size 0x8
-  __declspec(property(get = __get_standardShaderChanged, put = __set_standardShaderChanged))::System::Action* standardShaderChanged;
+  __declspec(property(get = __cordl_internal_get_standardShaderChanged, put = __cordl_internal_set_standardShaderChanged))::System::Action* standardShaderChanged;
 
   /// @brief Field standardWorldSpaceShaderChanged, offset 0x78, size 0x8
-  __declspec(property(get = __get_standardWorldSpaceShaderChanged, put = __set_standardWorldSpaceShaderChanged))::System::Action* standardWorldSpaceShaderChanged;
+  __declspec(property(get = __cordl_internal_get_standardWorldSpaceShaderChanged, put = __cordl_internal_set_standardWorldSpaceShaderChanged))::System::Action* standardWorldSpaceShaderChanged;
 
   /// @brief Field atlasChanged, offset 0x80, size 0x8
-  __declspec(property(get = __get_atlasChanged, put = __set_atlasChanged))::System::Action* atlasChanged;
+  __declspec(property(get = __cordl_internal_get_atlasChanged, put = __cordl_internal_set_atlasChanged))::System::Action* atlasChanged;
 
   /// @brief Field updateMaterial, offset 0x88, size 0x8
-  __declspec(property(get = __get_updateMaterial, put = __set_updateMaterial))::System::Action_1<::UnityEngine::Material*>* updateMaterial;
+  __declspec(property(get = __cordl_internal_get_updateMaterial, put = __cordl_internal_set_updateMaterial))::System::Action_1<::UnityW<::UnityEngine::Material>>* updateMaterial;
 
   /// @brief Field hierarchyChanged, offset 0x90, size 0x8
-  __declspec(property(get = __get_hierarchyChanged, put = __set_hierarchyChanged))::UnityEngine::UIElements::HierarchyEvent* hierarchyChanged;
+  __declspec(property(get = __cordl_internal_get_hierarchyChanged, put = __cordl_internal_set_hierarchyChanged))::UnityEngine::UIElements::HierarchyEvent* hierarchyChanged;
 
   /// @brief Field beforeUpdate, offset 0x98, size 0x8
-  __declspec(property(get = __get_beforeUpdate, put = __set_beforeUpdate))::System::Action_1<::UnityEngine::UIElements::IPanel*>* beforeUpdate;
+  __declspec(property(get = __cordl_internal_get_beforeUpdate, put = __cordl_internal_set_beforeUpdate))::System::Action_1<::UnityEngine::UIElements::IPanel*>* beforeUpdate;
 
   __declspec(property(get = get_IMGUIEventInterests, put = set_IMGUIEventInterests))::UnityEngine::EventInterests IMGUIEventInterests;
 
-  __declspec(property(get = get_ownerObject, put = set_ownerObject))::UnityEngine::ScriptableObject* ownerObject;
+  __declspec(property(get = get_ownerObject, put = set_ownerObject))::UnityW<::UnityEngine::ScriptableObject> ownerObject;
 
   __declspec(property(get = get_saveViewData))::UnityEngine::UIElements::SavePersistentViewData* saveViewData;
 
@@ -226,9 +230,9 @@ public:
 
   __declspec(property(get = get_disposed, put = set_disposed)) bool disposed;
 
-  __declspec(property(get = get_standardShader))::UnityEngine::Shader* standardShader;
+  __declspec(property(get = get_standardShader))::UnityW<::UnityEngine::Shader> standardShader;
 
-  __declspec(property(get = get_standardWorldSpaceShader))::UnityEngine::Shader* standardWorldSpaceShader;
+  __declspec(property(get = get_standardWorldSpaceShader))::UnityW<::UnityEngine::Shader> standardWorldSpaceShader;
 
   __declspec(property(get = get_atlas, put = set_atlas))::UnityEngine::UIElements::AtlasBase* atlas;
 
@@ -250,107 +254,107 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IGroupBox"
   constexpr ::UnityEngine::UIElements::IGroupBox* i___UnityEngine__UIElements__IGroupBox() noexcept;
 
-  constexpr ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*& __get_panelDisposed();
+  constexpr ::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*& __cordl_internal_get_panelDisposed();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*> const& __get_panelDisposed() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>*> const& __cordl_internal_get_panelDisposed() const;
 
-  constexpr void __set_panelDisposed(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
+  constexpr void __cordl_internal_set_panelDisposed(::System::Action_1<::UnityEngine::UIElements::BaseVisualElementPanel*>* value);
 
-  constexpr float_t& __get_m_Scale();
+  constexpr float_t& __cordl_internal_get_m_Scale();
 
-  constexpr float_t const& __get_m_Scale() const;
+  constexpr float_t const& __cordl_internal_get_m_Scale() const;
 
-  constexpr void __set_m_Scale(float_t value);
+  constexpr void __cordl_internal_set_m_Scale(float_t value);
 
-  constexpr ::UnityEngine::Yoga::YogaConfig*& __get_yogaConfig();
+  constexpr ::UnityEngine::Yoga::YogaConfig*& __cordl_internal_get_yogaConfig();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Yoga::YogaConfig*> const& __get_yogaConfig() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Yoga::YogaConfig*> const& __cordl_internal_get_yogaConfig() const;
 
-  constexpr void __set_yogaConfig(::UnityEngine::Yoga::YogaConfig* value);
+  constexpr void __cordl_internal_set_yogaConfig(::UnityEngine::Yoga::YogaConfig* value);
 
-  constexpr float_t& __get_m_PixelsPerPoint();
+  constexpr float_t& __cordl_internal_get_m_PixelsPerPoint();
 
-  constexpr float_t const& __get_m_PixelsPerPoint() const;
+  constexpr float_t const& __cordl_internal_get_m_PixelsPerPoint() const;
 
-  constexpr void __set_m_PixelsPerPoint(float_t value);
+  constexpr void __cordl_internal_set_m_PixelsPerPoint(float_t value);
 
-  constexpr ::UnityEngine::UIElements::PanelClearSettings& __get__clearSettings_k__BackingField();
+  constexpr ::UnityEngine::UIElements::PanelClearSettings& __cordl_internal_get__clearSettings_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::PanelClearSettings const& __get__clearSettings_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::PanelClearSettings const& __cordl_internal_get__clearSettings_k__BackingField() const;
 
-  constexpr void __set__clearSettings_k__BackingField(::UnityEngine::UIElements::PanelClearSettings value);
+  constexpr void __cordl_internal_set__clearSettings_k__BackingField(::UnityEngine::UIElements::PanelClearSettings value);
 
-  constexpr bool& __get__duringLayoutPhase_k__BackingField();
+  constexpr bool& __cordl_internal_get__duringLayoutPhase_k__BackingField();
 
-  constexpr bool const& __get__duringLayoutPhase_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__duringLayoutPhase_k__BackingField() const;
 
-  constexpr void __set__duringLayoutPhase_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__duringLayoutPhase_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::UIElements::RepaintData*& __get__repaintData_k__BackingField();
+  constexpr ::UnityEngine::UIElements::RepaintData*& __cordl_internal_get__repaintData_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::RepaintData*> const& __get__repaintData_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::RepaintData*> const& __cordl_internal_get__repaintData_k__BackingField() const;
 
-  constexpr void __set__repaintData_k__BackingField(::UnityEngine::UIElements::RepaintData* value);
+  constexpr void __cordl_internal_set__repaintData_k__BackingField(::UnityEngine::UIElements::RepaintData* value);
 
-  constexpr ::UnityEngine::UIElements::ICursorManager*& __get__cursorManager_k__BackingField();
+  constexpr ::UnityEngine::UIElements::ICursorManager*& __cordl_internal_get__cursorManager_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ICursorManager*> const& __get__cursorManager_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ICursorManager*> const& __cordl_internal_get__cursorManager_k__BackingField() const;
 
-  constexpr void __set__cursorManager_k__BackingField(::UnityEngine::UIElements::ICursorManager* value);
+  constexpr void __cordl_internal_set__cursorManager_k__BackingField(::UnityEngine::UIElements::ICursorManager* value);
 
-  constexpr ::UnityEngine::UIElements::ContextualMenuManager*& __get__contextualMenuManager_k__BackingField();
+  constexpr ::UnityEngine::UIElements::ContextualMenuManager*& __cordl_internal_get__contextualMenuManager_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ContextualMenuManager*> const& __get__contextualMenuManager_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ContextualMenuManager*> const& __cordl_internal_get__contextualMenuManager_k__BackingField() const;
 
-  constexpr void __set__contextualMenuManager_k__BackingField(::UnityEngine::UIElements::ContextualMenuManager* value);
+  constexpr void __cordl_internal_set__contextualMenuManager_k__BackingField(::UnityEngine::UIElements::ContextualMenuManager* value);
 
-  constexpr bool& __get__disposed_k__BackingField();
+  constexpr bool& __cordl_internal_get__disposed_k__BackingField();
 
-  constexpr bool const& __get__disposed_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
 
-  constexpr void __set__disposed_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::UIElements::ElementUnderPointer*& __get_m_TopElementUnderPointers();
+  constexpr ::UnityEngine::UIElements::ElementUnderPointer*& __cordl_internal_get_m_TopElementUnderPointers();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ElementUnderPointer*> const& __get_m_TopElementUnderPointers() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ElementUnderPointer*> const& __cordl_internal_get_m_TopElementUnderPointers() const;
 
-  constexpr void __set_m_TopElementUnderPointers(::UnityEngine::UIElements::ElementUnderPointer* value);
+  constexpr void __cordl_internal_set_m_TopElementUnderPointers(::UnityEngine::UIElements::ElementUnderPointer* value);
 
-  constexpr ::System::Action*& __get_standardShaderChanged();
+  constexpr ::System::Action*& __cordl_internal_get_standardShaderChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_standardShaderChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_standardShaderChanged() const;
 
-  constexpr void __set_standardShaderChanged(::System::Action* value);
+  constexpr void __cordl_internal_set_standardShaderChanged(::System::Action* value);
 
-  constexpr ::System::Action*& __get_standardWorldSpaceShaderChanged();
+  constexpr ::System::Action*& __cordl_internal_get_standardWorldSpaceShaderChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_standardWorldSpaceShaderChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_standardWorldSpaceShaderChanged() const;
 
-  constexpr void __set_standardWorldSpaceShaderChanged(::System::Action* value);
+  constexpr void __cordl_internal_set_standardWorldSpaceShaderChanged(::System::Action* value);
 
-  constexpr ::System::Action*& __get_atlasChanged();
+  constexpr ::System::Action*& __cordl_internal_get_atlasChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_atlasChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_atlasChanged() const;
 
-  constexpr void __set_atlasChanged(::System::Action* value);
+  constexpr void __cordl_internal_set_atlasChanged(::System::Action* value);
 
-  constexpr ::System::Action_1<::UnityEngine::Material*>*& __get_updateMaterial();
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::Material>>*& __cordl_internal_get_updateMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Material*>*> const& __get_updateMaterial() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::UnityEngine::Material>>*> const& __cordl_internal_get_updateMaterial() const;
 
-  constexpr void __set_updateMaterial(::System::Action_1<::UnityEngine::Material*>* value);
+  constexpr void __cordl_internal_set_updateMaterial(::System::Action_1<::UnityW<::UnityEngine::Material>>* value);
 
-  constexpr ::UnityEngine::UIElements::HierarchyEvent*& __get_hierarchyChanged();
+  constexpr ::UnityEngine::UIElements::HierarchyEvent*& __cordl_internal_get_hierarchyChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::HierarchyEvent*> const& __get_hierarchyChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::HierarchyEvent*> const& __cordl_internal_get_hierarchyChanged() const;
 
-  constexpr void __set_hierarchyChanged(::UnityEngine::UIElements::HierarchyEvent* value);
+  constexpr void __cordl_internal_set_hierarchyChanged(::UnityEngine::UIElements::HierarchyEvent* value);
 
-  constexpr ::System::Action_1<::UnityEngine::UIElements::IPanel*>*& __get_beforeUpdate();
+  constexpr ::System::Action_1<::UnityEngine::UIElements::IPanel*>*& __cordl_internal_get_beforeUpdate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::IPanel*>*> const& __get_beforeUpdate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::IPanel*>*> const& __cordl_internal_get_beforeUpdate() const;
 
-  constexpr void __set_beforeUpdate(::System::Action_1<::UnityEngine::UIElements::IPanel*>* value);
+  constexpr void __cordl_internal_set_beforeUpdate(::System::Action_1<::UnityEngine::UIElements::IPanel*>* value);
 
   /// @brief Method get_IMGUIEventInterests, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::UnityEngine::EventInterests get_IMGUIEventInterests();
@@ -359,7 +363,7 @@ public:
   inline void set_IMGUIEventInterests(::UnityEngine::EventInterests value);
 
   /// @brief Method get_ownerObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::ScriptableObject* get_ownerObject();
+  inline ::UnityW<::UnityEngine::ScriptableObject> get_ownerObject();
 
   /// @brief Method set_ownerObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void set_ownerObject(::UnityEngine::ScriptableObject* value);
@@ -523,10 +527,10 @@ public:
   inline void CommitElementUnderPointers();
 
   /// @brief Method get_standardShader, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::Shader* get_standardShader();
+  inline ::UnityW<::UnityEngine::Shader> get_standardShader();
 
   /// @brief Method get_standardWorldSpaceShader, addr 0x2dc91f8, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::Shader* get_standardWorldSpaceShader();
+  inline ::UnityW<::UnityEngine::Shader> get_standardWorldSpaceShader();
 
   /// @brief Method add_standardShaderChanged, addr 0x2dc9200, size 0x9c, virtual false, abstract: false, final false
   inline void add_standardShaderChanged(::System::Action* value);
@@ -633,7 +637,7 @@ public:
   ::System::Action* ___atlasChanged;
 
   /// @brief Field updateMaterial, offset: 0x88, size: 0x8, def value: None
-  ::System::Action_1<::UnityEngine::Material*>* ___updateMaterial;
+  ::System::Action_1<::UnityW<::UnityEngine::Material>>* ___updateMaterial;
 
   /// @brief Field hierarchyChanged, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::UIElements::HierarchyEvent* ___hierarchyChanged;

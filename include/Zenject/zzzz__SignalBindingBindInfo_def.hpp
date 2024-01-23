@@ -20,33 +20,33 @@ MARK_REF_PTR_T(::Zenject::SignalBindingBindInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10653))
 // CS Name: ::Zenject::SignalBindingBindInfo*
 class CORDL_TYPE SignalBindingBindInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Identifier>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Identifier_k__BackingField, put = __set__Identifier_k__BackingField))::System::Object* _Identifier_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Identifier_k__BackingField, put = __cordl_internal_set__Identifier_k__BackingField))::System::Object* _Identifier_k__BackingField;
 
   /// @brief Field <SignalType>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__SignalType_k__BackingField, put = __set__SignalType_k__BackingField))::System::Type* _SignalType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SignalType_k__BackingField, put = __cordl_internal_set__SignalType_k__BackingField))::System::Type* _SignalType_k__BackingField;
 
   __declspec(property(get = get_Identifier, put = set_Identifier))::System::Object* Identifier;
 
   __declspec(property(get = get_SignalType, put = set_SignalType))::System::Type* SignalType;
 
-  constexpr ::System::Object*& __get__Identifier_k__BackingField();
+  constexpr ::System::Object*& __cordl_internal_get__Identifier_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__Identifier_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__Identifier_k__BackingField() const;
 
-  constexpr void __set__Identifier_k__BackingField(::System::Object* value);
+  constexpr void __cordl_internal_set__Identifier_k__BackingField(::System::Object* value);
 
-  constexpr ::System::Type*& __get__SignalType_k__BackingField();
+  constexpr ::System::Type*& __cordl_internal_get__SignalType_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__SignalType_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__SignalType_k__BackingField() const;
 
-  constexpr void __set__SignalType_k__BackingField(::System::Type* value);
+  constexpr void __cordl_internal_set__SignalType_k__BackingField(::System::Type* value);
 
   static inline ::Zenject::SignalBindingBindInfo* New_ctor(::System::Type* signalType);
 

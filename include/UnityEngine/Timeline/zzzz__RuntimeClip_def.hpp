@@ -25,20 +25,20 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::RuntimeClip);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13883)), TypeDefinitionIndex(TypeDefinitionIndex(10428))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10428)), TypeDefinitionIndex(TypeDefinitionIndex(13883))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13882))
 // CS Name: ::UnityEngine.Timeline::RuntimeClip*
 class CORDL_TYPE RuntimeClip : public ::UnityEngine::Timeline::RuntimeClipBase {
 public:
   // Declarations
   /// @brief Field m_Clip, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Clip, put = __set_m_Clip))::UnityEngine::Timeline::TimelineClip* m_Clip;
+  __declspec(property(get = __cordl_internal_get_m_Clip, put = __cordl_internal_set_m_Clip))::UnityEngine::Timeline::TimelineClip* m_Clip;
 
   /// @brief Field m_Playable, offset 0x20, size 0x10
-  __declspec(property(get = __get_m_Playable, put = __set_m_Playable))::UnityEngine::Playables::Playable m_Playable;
+  __declspec(property(get = __cordl_internal_get_m_Playable, put = __cordl_internal_set_m_Playable))::UnityEngine::Playables::Playable m_Playable;
 
   /// @brief Field m_ParentMixer, offset 0x30, size 0x10
-  __declspec(property(get = __get_m_ParentMixer, put = __set_m_ParentMixer))::UnityEngine::Playables::Playable m_ParentMixer;
+  __declspec(property(get = __cordl_internal_get_m_ParentMixer, put = __cordl_internal_set_m_ParentMixer))::UnityEngine::Playables::Playable m_ParentMixer;
 
   __declspec(property(get = get_start)) double_t start;
 
@@ -52,23 +52,23 @@ public:
 
   __declspec(property(put = set_enable)) bool enable;
 
-  constexpr ::UnityEngine::Timeline::TimelineClip*& __get_m_Clip();
+  constexpr ::UnityEngine::Timeline::TimelineClip*& __cordl_internal_get_m_Clip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::TimelineClip*> const& __get_m_Clip() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::TimelineClip*> const& __cordl_internal_get_m_Clip() const;
 
-  constexpr void __set_m_Clip(::UnityEngine::Timeline::TimelineClip* value);
+  constexpr void __cordl_internal_set_m_Clip(::UnityEngine::Timeline::TimelineClip* value);
 
-  constexpr ::UnityEngine::Playables::Playable& __get_m_Playable();
+  constexpr ::UnityEngine::Playables::Playable& __cordl_internal_get_m_Playable();
 
-  constexpr ::UnityEngine::Playables::Playable const& __get_m_Playable() const;
+  constexpr ::UnityEngine::Playables::Playable const& __cordl_internal_get_m_Playable() const;
 
-  constexpr void __set_m_Playable(::UnityEngine::Playables::Playable value);
+  constexpr void __cordl_internal_set_m_Playable(::UnityEngine::Playables::Playable value);
 
-  constexpr ::UnityEngine::Playables::Playable& __get_m_ParentMixer();
+  constexpr ::UnityEngine::Playables::Playable& __cordl_internal_get_m_ParentMixer();
 
-  constexpr ::UnityEngine::Playables::Playable const& __get_m_ParentMixer() const;
+  constexpr ::UnityEngine::Playables::Playable const& __cordl_internal_get_m_ParentMixer() const;
 
-  constexpr void __set_m_ParentMixer(::UnityEngine::Playables::Playable value);
+  constexpr void __cordl_internal_set_m_ParentMixer(::UnityEngine::Playables::Playable value);
 
   /// @brief Method get_start, addr 0x2c6798c, size 0x2c, virtual true, abstract: false, final false
   inline double_t get_start();

@@ -26,20 +26,20 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11043)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11043), inst: 3527 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11043)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11043), inst: 3527 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11055))
 // CS Name: ::Zenject::MonoMemoryPool`6<TParam1,TParam2,TParam3,TParam4,TParam5,TValue>*
 class CORDL_TYPE MonoMemoryPool_6 : public ::Zenject::MemoryPool_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue> {
 public:
   // Declarations
   /// @brief Field _originalParent, offset 0x38, size 0x8
-  __declspec(property(get = __get__originalParent, put = __set__originalParent))::UnityEngine::Transform* _originalParent;
+  __declspec(property(get = __cordl_internal_get__originalParent, put = __cordl_internal_set__originalParent))::UnityW<::UnityEngine::Transform> _originalParent;
 
-  constexpr ::UnityEngine::Transform*& __get__originalParent();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__originalParent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__originalParent() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__originalParent() const;
 
-  constexpr void __set__originalParent(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__originalParent(::UnityW<::UnityEngine::Transform> value);
 
   static inline ::Zenject::MonoMemoryPool_6<TParam1, TParam2, TParam3, TParam4, TParam5, TValue>* New_ctor();
 
@@ -79,7 +79,7 @@ protected:
 
 public:
   /// @brief Field _originalParent, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____originalParent;
+  ::UnityW<::UnityEngine::Transform> ____originalParent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

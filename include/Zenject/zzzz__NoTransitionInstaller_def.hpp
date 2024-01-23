@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Zenject::NoTransitionInstaller);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11176))
 // CS Name: ::Zenject::NoTransitionInstaller*
 class CORDL_TYPE NoTransitionInstaller : public ::UnityEngine::MonoBehaviour {

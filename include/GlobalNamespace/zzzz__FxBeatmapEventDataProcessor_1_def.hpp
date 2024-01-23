@@ -22,7 +22,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14741)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14741), inst: 948 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14741)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14741), inst: 948 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14743))
 // CS Name: ::FxBeatmapEventDataProcessor`1<T>*
 class CORDL_TYPE FxBeatmapEventDataProcessor_1 : public ::GlobalNamespace::BeatmapEventDataProcessor_1<T> {

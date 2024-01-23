@@ -30,20 +30,20 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ClientActivatedIdentity);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3072))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3072))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3073))
 // CS Name: ::System.Runtime.Remoting::ClientActivatedIdentity*
 class CORDL_TYPE ClientActivatedIdentity : public ::System::Runtime::Remoting::ServerIdentity {
 public:
   // Declarations
   /// @brief Field _targetThis, offset 0x70, size 0x8
-  __declspec(property(get = __get__targetThis, put = __set__targetThis))::System::MarshalByRefObject* _targetThis;
+  __declspec(property(get = __cordl_internal_get__targetThis, put = __cordl_internal_set__targetThis))::System::MarshalByRefObject* _targetThis;
 
-  constexpr ::System::MarshalByRefObject*& __get__targetThis();
+  constexpr ::System::MarshalByRefObject*& __cordl_internal_get__targetThis();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::MarshalByRefObject*> const& __get__targetThis() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::MarshalByRefObject*> const& __cordl_internal_get__targetThis() const;
 
-  constexpr void __set__targetThis(::System::MarshalByRefObject* value);
+  constexpr void __cordl_internal_set__targetThis(::System::MarshalByRefObject* value);
 
   static inline ::System::Runtime::Remoting::ClientActivatedIdentity* New_ctor(::StringW objectUri, ::System::Type* objectType);
 

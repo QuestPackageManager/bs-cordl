@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::System::Net::__FtpWebResponse__EmptyStream);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3566))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9052))
 // CS Name: ::FtpWebResponse::EmptyStream*
 class CORDL_TYPE __FtpWebResponse__EmptyStream : public ::System::IO::MemoryStream {
@@ -79,7 +79,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__FtpWebResponse__E
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9097)), TypeDefinitionIndex(TypeDefinitionIndex(9062)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(9062)), TypeDefinitionIndex(TypeDefinitionIndex(9097))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9053))
 // CS Name: ::System.Net::FtpWebResponse*
 class CORDL_TYPE FtpWebResponse : public ::System::Net::WebResponse {
@@ -88,34 +88,34 @@ public:
   using EmptyStream = ::System::Net::__FtpWebResponse__EmptyStream;
 
   /// @brief Field _responseStream, offset 0x20, size 0x8
-  __declspec(property(get = __get__responseStream, put = __set__responseStream))::System::IO::Stream* _responseStream;
+  __declspec(property(get = __cordl_internal_get__responseStream, put = __cordl_internal_set__responseStream))::System::IO::Stream* _responseStream;
 
   /// @brief Field _contentLength, offset 0x28, size 0x8
-  __declspec(property(get = __get__contentLength, put = __set__contentLength)) int64_t _contentLength;
+  __declspec(property(get = __cordl_internal_get__contentLength, put = __cordl_internal_set__contentLength)) int64_t _contentLength;
 
   /// @brief Field _responseUri, offset 0x30, size 0x8
-  __declspec(property(get = __get__responseUri, put = __set__responseUri))::System::Uri* _responseUri;
+  __declspec(property(get = __cordl_internal_get__responseUri, put = __cordl_internal_set__responseUri))::System::Uri* _responseUri;
 
   /// @brief Field _statusCode, offset 0x38, size 0x4
-  __declspec(property(get = __get__statusCode, put = __set__statusCode))::System::Net::FtpStatusCode _statusCode;
+  __declspec(property(get = __cordl_internal_get__statusCode, put = __cordl_internal_set__statusCode))::System::Net::FtpStatusCode _statusCode;
 
   /// @brief Field _statusLine, offset 0x40, size 0x8
-  __declspec(property(get = __get__statusLine, put = __set__statusLine))::StringW _statusLine;
+  __declspec(property(get = __cordl_internal_get__statusLine, put = __cordl_internal_set__statusLine))::StringW _statusLine;
 
   /// @brief Field _ftpRequestHeaders, offset 0x48, size 0x8
-  __declspec(property(get = __get__ftpRequestHeaders, put = __set__ftpRequestHeaders))::System::Net::WebHeaderCollection* _ftpRequestHeaders;
+  __declspec(property(get = __cordl_internal_get__ftpRequestHeaders, put = __cordl_internal_set__ftpRequestHeaders))::System::Net::WebHeaderCollection* _ftpRequestHeaders;
 
   /// @brief Field _lastModified, offset 0x50, size 0x8
-  __declspec(property(get = __get__lastModified, put = __set__lastModified))::System::DateTime _lastModified;
+  __declspec(property(get = __cordl_internal_get__lastModified, put = __cordl_internal_set__lastModified))::System::DateTime _lastModified;
 
   /// @brief Field _bannerMessage, offset 0x58, size 0x8
-  __declspec(property(get = __get__bannerMessage, put = __set__bannerMessage))::StringW _bannerMessage;
+  __declspec(property(get = __cordl_internal_get__bannerMessage, put = __cordl_internal_set__bannerMessage))::StringW _bannerMessage;
 
   /// @brief Field _welcomeMessage, offset 0x60, size 0x8
-  __declspec(property(get = __get__welcomeMessage, put = __set__welcomeMessage))::StringW _welcomeMessage;
+  __declspec(property(get = __cordl_internal_get__welcomeMessage, put = __cordl_internal_set__welcomeMessage))::StringW _welcomeMessage;
 
   /// @brief Field _exitMessage, offset 0x68, size 0x8
-  __declspec(property(get = __get__exitMessage, put = __set__exitMessage))::StringW _exitMessage;
+  __declspec(property(get = __cordl_internal_get__exitMessage, put = __cordl_internal_set__exitMessage))::StringW _exitMessage;
 
   __declspec(property(get = get_Headers))::System::Net::WebHeaderCollection* Headers;
 
@@ -129,65 +129,65 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::IO::Stream*& __get__responseStream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get__responseStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get__responseStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__responseStream() const;
 
-  constexpr void __set__responseStream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set__responseStream(::System::IO::Stream* value);
 
-  constexpr int64_t& __get__contentLength();
+  constexpr int64_t& __cordl_internal_get__contentLength();
 
-  constexpr int64_t const& __get__contentLength() const;
+  constexpr int64_t const& __cordl_internal_get__contentLength() const;
 
-  constexpr void __set__contentLength(int64_t value);
+  constexpr void __cordl_internal_set__contentLength(int64_t value);
 
-  constexpr ::System::Uri*& __get__responseUri();
+  constexpr ::System::Uri*& __cordl_internal_get__responseUri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get__responseUri() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get__responseUri() const;
 
-  constexpr void __set__responseUri(::System::Uri* value);
+  constexpr void __cordl_internal_set__responseUri(::System::Uri* value);
 
-  constexpr ::System::Net::FtpStatusCode& __get__statusCode();
+  constexpr ::System::Net::FtpStatusCode& __cordl_internal_get__statusCode();
 
-  constexpr ::System::Net::FtpStatusCode const& __get__statusCode() const;
+  constexpr ::System::Net::FtpStatusCode const& __cordl_internal_get__statusCode() const;
 
-  constexpr void __set__statusCode(::System::Net::FtpStatusCode value);
+  constexpr void __cordl_internal_set__statusCode(::System::Net::FtpStatusCode value);
 
-  constexpr ::StringW& __get__statusLine();
+  constexpr ::StringW& __cordl_internal_get__statusLine();
 
-  constexpr ::StringW const& __get__statusLine() const;
+  constexpr ::StringW const& __cordl_internal_get__statusLine() const;
 
-  constexpr void __set__statusLine(::StringW value);
+  constexpr void __cordl_internal_set__statusLine(::StringW value);
 
-  constexpr ::System::Net::WebHeaderCollection*& __get__ftpRequestHeaders();
+  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get__ftpRequestHeaders();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __get__ftpRequestHeaders() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get__ftpRequestHeaders() const;
 
-  constexpr void __set__ftpRequestHeaders(::System::Net::WebHeaderCollection* value);
+  constexpr void __cordl_internal_set__ftpRequestHeaders(::System::Net::WebHeaderCollection* value);
 
-  constexpr ::System::DateTime& __get__lastModified();
+  constexpr ::System::DateTime& __cordl_internal_get__lastModified();
 
-  constexpr ::System::DateTime const& __get__lastModified() const;
+  constexpr ::System::DateTime const& __cordl_internal_get__lastModified() const;
 
-  constexpr void __set__lastModified(::System::DateTime value);
+  constexpr void __cordl_internal_set__lastModified(::System::DateTime value);
 
-  constexpr ::StringW& __get__bannerMessage();
+  constexpr ::StringW& __cordl_internal_get__bannerMessage();
 
-  constexpr ::StringW const& __get__bannerMessage() const;
+  constexpr ::StringW const& __cordl_internal_get__bannerMessage() const;
 
-  constexpr void __set__bannerMessage(::StringW value);
+  constexpr void __cordl_internal_set__bannerMessage(::StringW value);
 
-  constexpr ::StringW& __get__welcomeMessage();
+  constexpr ::StringW& __cordl_internal_get__welcomeMessage();
 
-  constexpr ::StringW const& __get__welcomeMessage() const;
+  constexpr ::StringW const& __cordl_internal_get__welcomeMessage() const;
 
-  constexpr void __set__welcomeMessage(::StringW value);
+  constexpr void __cordl_internal_set__welcomeMessage(::StringW value);
 
-  constexpr ::StringW& __get__exitMessage();
+  constexpr ::StringW& __cordl_internal_get__exitMessage();
 
-  constexpr ::StringW const& __get__exitMessage() const;
+  constexpr ::StringW const& __cordl_internal_get__exitMessage() const;
 
-  constexpr void __set__exitMessage(::StringW value);
+  constexpr void __cordl_internal_set__exitMessage(::StringW value);
 
   static inline ::System::Net::FtpWebResponse* New_ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri, ::System::Net::FtpStatusCode statusCode,
                                                         ::StringW statusLine, ::System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage);

@@ -9,13 +9,13 @@
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 template <typename TContract> inline ::Zenject::IFactoryProvider_1<TContract>* Zenject::IFactoryProvider_1<TContract>::New_ctor(::Zenject::DiContainer* container, ::System::Guid factoryId) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Zenject::IFactoryProvider_1<TContract>*>(container, factoryId));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::IFactoryProvider_1<TContract>*>(container, factoryId));
 }
 template <typename TContract> inline void Zenject::IFactoryProvider_1<TContract>::_ctor(::Zenject::DiContainer* container, ::System::Guid factoryId) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IFactoryProvider_1<TContract>*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Guid>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IFactoryProvider_1<TContract>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Guid>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, factoryId);
 }
 template <typename TContract>

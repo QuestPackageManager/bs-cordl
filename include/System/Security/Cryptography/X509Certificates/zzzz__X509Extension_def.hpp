@@ -20,22 +20,22 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Extension
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8977))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8977))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9011))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Extension*
 class CORDL_TYPE X509Extension : public ::System::Security::Cryptography::AsnEncodedData {
 public:
   // Declarations
   /// @brief Field _critical, offset 0x20, size 0x1
-  __declspec(property(get = __get__critical, put = __set__critical)) bool _critical;
+  __declspec(property(get = __cordl_internal_get__critical, put = __cordl_internal_set__critical)) bool _critical;
 
   __declspec(property(get = get_Critical, put = set_Critical)) bool Critical;
 
-  constexpr bool& __get__critical();
+  constexpr bool& __cordl_internal_get__critical();
 
-  constexpr bool const& __get__critical() const;
+  constexpr bool const& __cordl_internal_get__critical() const;
 
-  constexpr void __set__critical(bool value);
+  constexpr void __cordl_internal_set__critical(bool value);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Extension* New_ctor();
 

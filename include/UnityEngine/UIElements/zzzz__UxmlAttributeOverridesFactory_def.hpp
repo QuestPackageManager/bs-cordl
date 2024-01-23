@@ -26,8 +26,9 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlAttributeOverridesFactory);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(6977)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5284
-// }), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6976)) CS Name: ::UnityEngine.UIElements::UxmlAttributeOverridesFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(6977)), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5284 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6976)) CS Name:
+// ::UnityEngine.UIElements::UxmlAttributeOverridesFactory*
 class CORDL_TYPE UxmlAttributeOverridesFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::UxmlAttributeOverridesTraits*> {
 public:
   // Declarations

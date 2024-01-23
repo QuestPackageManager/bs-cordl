@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerSetGenerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(476))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(476))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(493))
 // CS Name: ::Org.BouncyCastle.Asn1::BerSetGenerator*
 class CORDL_TYPE BerSetGenerator : public ::Org::BouncyCastle::Asn1::BerGenerator {

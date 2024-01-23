@@ -226,7 +226,7 @@ MARK_VAL_T(::System::Net::__HttpWebRequest____GetRewriteHandler_b__271_0_d);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9179))
 // CS Name: ::HttpWebRequest::NtlmAuthState
 struct CORDL_TYPE __HttpWebRequest__NtlmAuthState {
@@ -280,7 +280,7 @@ static_assert(offsetof(::System::Net::__HttpWebRequest__NtlmAuthState, value__) 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9179))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9179))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9180))
 // CS Name: ::HttpWebRequest::AuthorizationState
 struct CORDL_TYPE __HttpWebRequest__AuthorizationState {
@@ -357,7 +357,7 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9181))
 // CS Name: ::HttpWebRequest::<>c__241`1<T>*
 class CORDL_TYPE __HttpWebRequest____c__241_1 : public ::System::Object {
@@ -409,9 +409,9 @@ namespace System::Net {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 97 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9182)) CS
-// Name: ::HttpWebRequest::<RunWithTimeoutWorker>d__241`1<T>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 105
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 97 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9182)) CS Name:
+// ::HttpWebRequest::<RunWithTimeoutWorker>d__241`1<T>
 struct CORDL_TYPE __HttpWebRequest___RunWithTimeoutWorker_d__241_1 {
 public:
   // Declarations
@@ -476,12 +476,12 @@ public:
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2510)), TypeDefinitionIndex(TypeDefinitionIndex(9227)), TypeDefinitionIndex(TypeDefinitionIndex(9187)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 884 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 872 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(9238)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9100)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(9244)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2510), inst: 5337 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5068 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9183)) CS Name: ::HttpWebRequest::<MyGetResponseAsync>d__243
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2510)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(9100)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9187)), TypeDefinitionIndex(TypeDefinitionIndex(9227)), TypeDefinitionIndex(TypeDefinitionIndex(9238)), TypeDefinitionIndex(TypeDefinitionIndex(9244)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2510), inst: 5337 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5068 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 872 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 901 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 884 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9183)) CS Name: ::HttpWebRequest::<MyGetResponseAsync>d__243
 struct CORDL_TYPE __HttpWebRequest___MyGetResponseAsync_d__243 {
 public:
   // Declarations
@@ -626,11 +626,11 @@ static_assert(offsetof(::System::Net::__HttpWebRequest___MyGetResponseAsync_d__2
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2510), inst: 5337 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(9227)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2510)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9187)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 872 }), TypeDefinitionIndex(TypeDefinitionIndex(9100)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 879 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9184)) CS
-// Name: ::HttpWebRequest::<GetResponseFromData>d__244
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2510)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(9100)), TypeDefinitionIndex(TypeDefinitionIndex(9187)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9227)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2510), inst: 5337 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3397), inst: 879 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 872 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9184)) CS Name:
+// ::HttpWebRequest::<GetResponseFromData>d__244
 struct CORDL_TYPE __HttpWebRequest___GetResponseFromData_d__244 {
 public:
   // Declarations
@@ -735,8 +735,9 @@ static_assert(offsetof(::System::Net::__HttpWebRequest___GetResponseFromData_d__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9100)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 879
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9185)) CS Name: ::HttpWebRequest::<<GetRewriteHandler>b__271_0>d
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(9100)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 879 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9185)) CS Name:
+// ::HttpWebRequest::<<GetRewriteHandler>b__271_0>d
 struct CORDL_TYPE __HttpWebRequest____GetRewriteHandler_b__271_0_d {
 public:
   // Declarations
@@ -802,7 +803,7 @@ static_assert(offsetof(::System::Net::__HttpWebRequest____GetRewriteHandler_b__2
 // SizeInfo { instance_size: 408, native_size: -1, calculated_instance_size: 408, calculated_native_size: 402, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9180)), TypeDefinitionIndex(TypeDefinitionIndex(9157)), TypeDefinitionIndex(TypeDefinitionIndex(9096))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9096)), TypeDefinitionIndex(TypeDefinitionIndex(9157)), TypeDefinitionIndex(TypeDefinitionIndex(9180))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9186))
 // CS Name: ::System.Net::HttpWebRequest*
 class CORDL_TYPE HttpWebRequest : public ::System::Net::WebRequest {
@@ -823,166 +824,167 @@ public:
   using NtlmAuthState = ::System::Net::__HttpWebRequest__NtlmAuthState;
 
   /// @brief Field requestUri, offset 0x38, size 0x8
-  __declspec(property(get = __get_requestUri, put = __set_requestUri))::System::Uri* requestUri;
+  __declspec(property(get = __cordl_internal_get_requestUri, put = __cordl_internal_set_requestUri))::System::Uri* requestUri;
 
   /// @brief Field actualUri, offset 0x40, size 0x8
-  __declspec(property(get = __get_actualUri, put = __set_actualUri))::System::Uri* actualUri;
+  __declspec(property(get = __cordl_internal_get_actualUri, put = __cordl_internal_set_actualUri))::System::Uri* actualUri;
 
   /// @brief Field hostChanged, offset 0x48, size 0x1
-  __declspec(property(get = __get_hostChanged, put = __set_hostChanged)) bool hostChanged;
+  __declspec(property(get = __cordl_internal_get_hostChanged, put = __cordl_internal_set_hostChanged)) bool hostChanged;
 
   /// @brief Field allowAutoRedirect, offset 0x49, size 0x1
-  __declspec(property(get = __get_allowAutoRedirect, put = __set_allowAutoRedirect)) bool allowAutoRedirect;
+  __declspec(property(get = __cordl_internal_get_allowAutoRedirect, put = __cordl_internal_set_allowAutoRedirect)) bool allowAutoRedirect;
 
   /// @brief Field allowBuffering, offset 0x4a, size 0x1
-  __declspec(property(get = __get_allowBuffering, put = __set_allowBuffering)) bool allowBuffering;
+  __declspec(property(get = __cordl_internal_get_allowBuffering, put = __cordl_internal_set_allowBuffering)) bool allowBuffering;
 
   /// @brief Field certificates, offset 0x50, size 0x8
-  __declspec(property(get = __get_certificates, put = __set_certificates))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates;
+  __declspec(property(get = __cordl_internal_get_certificates, put = __cordl_internal_set_certificates))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates;
 
   /// @brief Field connectionGroup, offset 0x58, size 0x8
-  __declspec(property(get = __get_connectionGroup, put = __set_connectionGroup))::StringW connectionGroup;
+  __declspec(property(get = __cordl_internal_get_connectionGroup, put = __cordl_internal_set_connectionGroup))::StringW connectionGroup;
 
   /// @brief Field haveContentLength, offset 0x60, size 0x1
-  __declspec(property(get = __get_haveContentLength, put = __set_haveContentLength)) bool haveContentLength;
+  __declspec(property(get = __cordl_internal_get_haveContentLength, put = __cordl_internal_set_haveContentLength)) bool haveContentLength;
 
   /// @brief Field contentLength, offset 0x68, size 0x8
-  __declspec(property(get = __get_contentLength, put = __set_contentLength)) int64_t contentLength;
+  __declspec(property(get = __cordl_internal_get_contentLength, put = __cordl_internal_set_contentLength)) int64_t contentLength;
 
   /// @brief Field continueDelegate, offset 0x70, size 0x8
-  __declspec(property(get = __get_continueDelegate, put = __set_continueDelegate))::System::Net::HttpContinueDelegate* continueDelegate;
+  __declspec(property(get = __cordl_internal_get_continueDelegate, put = __cordl_internal_set_continueDelegate))::System::Net::HttpContinueDelegate* continueDelegate;
 
   /// @brief Field cookieContainer, offset 0x78, size 0x8
-  __declspec(property(get = __get_cookieContainer, put = __set_cookieContainer))::System::Net::CookieContainer* cookieContainer;
+  __declspec(property(get = __cordl_internal_get_cookieContainer, put = __cordl_internal_set_cookieContainer))::System::Net::CookieContainer* cookieContainer;
 
   /// @brief Field credentials, offset 0x80, size 0x8
-  __declspec(property(get = __get_credentials, put = __set_credentials))::System::Net::ICredentials* credentials;
+  __declspec(property(get = __cordl_internal_get_credentials, put = __cordl_internal_set_credentials))::System::Net::ICredentials* credentials;
 
   /// @brief Field haveResponse, offset 0x88, size 0x1
-  __declspec(property(get = __get_haveResponse, put = __set_haveResponse)) bool haveResponse;
+  __declspec(property(get = __cordl_internal_get_haveResponse, put = __cordl_internal_set_haveResponse)) bool haveResponse;
 
   /// @brief Field requestSent, offset 0x89, size 0x1
-  __declspec(property(get = __get_requestSent, put = __set_requestSent)) bool requestSent;
+  __declspec(property(get = __cordl_internal_get_requestSent, put = __cordl_internal_set_requestSent)) bool requestSent;
 
   /// @brief Field webHeaders, offset 0x90, size 0x8
-  __declspec(property(get = __get_webHeaders, put = __set_webHeaders))::System::Net::WebHeaderCollection* webHeaders;
+  __declspec(property(get = __cordl_internal_get_webHeaders, put = __cordl_internal_set_webHeaders))::System::Net::WebHeaderCollection* webHeaders;
 
   /// @brief Field keepAlive, offset 0x98, size 0x1
-  __declspec(property(get = __get_keepAlive, put = __set_keepAlive)) bool keepAlive;
+  __declspec(property(get = __cordl_internal_get_keepAlive, put = __cordl_internal_set_keepAlive)) bool keepAlive;
 
   /// @brief Field maxAutoRedirect, offset 0x9c, size 0x4
-  __declspec(property(get = __get_maxAutoRedirect, put = __set_maxAutoRedirect)) int32_t maxAutoRedirect;
+  __declspec(property(get = __cordl_internal_get_maxAutoRedirect, put = __cordl_internal_set_maxAutoRedirect)) int32_t maxAutoRedirect;
 
   /// @brief Field mediaType, offset 0xa0, size 0x8
-  __declspec(property(get = __get_mediaType, put = __set_mediaType))::StringW mediaType;
+  __declspec(property(get = __cordl_internal_get_mediaType, put = __cordl_internal_set_mediaType))::StringW mediaType;
 
   /// @brief Field method, offset 0xa8, size 0x8
-  __declspec(property(get = __get_method, put = __set_method))::StringW method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::StringW method;
 
   /// @brief Field initialMethod, offset 0xb0, size 0x8
-  __declspec(property(get = __get_initialMethod, put = __set_initialMethod))::StringW initialMethod;
+  __declspec(property(get = __cordl_internal_get_initialMethod, put = __cordl_internal_set_initialMethod))::StringW initialMethod;
 
   /// @brief Field pipelined, offset 0xb8, size 0x1
-  __declspec(property(get = __get_pipelined, put = __set_pipelined)) bool pipelined;
+  __declspec(property(get = __cordl_internal_get_pipelined, put = __cordl_internal_set_pipelined)) bool pipelined;
 
   /// @brief Field preAuthenticate, offset 0xb9, size 0x1
-  __declspec(property(get = __get_preAuthenticate, put = __set_preAuthenticate)) bool preAuthenticate;
+  __declspec(property(get = __cordl_internal_get_preAuthenticate, put = __cordl_internal_set_preAuthenticate)) bool preAuthenticate;
 
   /// @brief Field usedPreAuth, offset 0xba, size 0x1
-  __declspec(property(get = __get_usedPreAuth, put = __set_usedPreAuth)) bool usedPreAuth;
+  __declspec(property(get = __cordl_internal_get_usedPreAuth, put = __cordl_internal_set_usedPreAuth)) bool usedPreAuth;
 
   /// @brief Field version, offset 0xc0, size 0x8
-  __declspec(property(get = __get_version, put = __set_version))::System::Version* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::System::Version* version;
 
   /// @brief Field force_version, offset 0xc8, size 0x1
-  __declspec(property(get = __get_force_version, put = __set_force_version)) bool force_version;
+  __declspec(property(get = __cordl_internal_get_force_version, put = __cordl_internal_set_force_version)) bool force_version;
 
   /// @brief Field actualVersion, offset 0xd0, size 0x8
-  __declspec(property(get = __get_actualVersion, put = __set_actualVersion))::System::Version* actualVersion;
+  __declspec(property(get = __cordl_internal_get_actualVersion, put = __cordl_internal_set_actualVersion))::System::Version* actualVersion;
 
   /// @brief Field proxy, offset 0xd8, size 0x8
-  __declspec(property(get = __get_proxy, put = __set_proxy))::System::Net::IWebProxy* proxy;
+  __declspec(property(get = __cordl_internal_get_proxy, put = __cordl_internal_set_proxy))::System::Net::IWebProxy* proxy;
 
   /// @brief Field sendChunked, offset 0xe0, size 0x1
-  __declspec(property(get = __get_sendChunked, put = __set_sendChunked)) bool sendChunked;
+  __declspec(property(get = __cordl_internal_get_sendChunked, put = __cordl_internal_set_sendChunked)) bool sendChunked;
 
   /// @brief Field servicePoint, offset 0xe8, size 0x8
-  __declspec(property(get = __get_servicePoint, put = __set_servicePoint))::System::Net::ServicePoint* servicePoint;
+  __declspec(property(get = __cordl_internal_get_servicePoint, put = __cordl_internal_set_servicePoint))::System::Net::ServicePoint* servicePoint;
 
   /// @brief Field timeout, offset 0xf0, size 0x4
-  __declspec(property(get = __get_timeout, put = __set_timeout)) int32_t timeout;
+  __declspec(property(get = __cordl_internal_get_timeout, put = __cordl_internal_set_timeout)) int32_t timeout;
 
   /// @brief Field continueTimeout, offset 0xf4, size 0x4
-  __declspec(property(get = __get_continueTimeout, put = __set_continueTimeout)) int32_t continueTimeout;
+  __declspec(property(get = __cordl_internal_get_continueTimeout, put = __cordl_internal_set_continueTimeout)) int32_t continueTimeout;
 
   /// @brief Field writeStream, offset 0xf8, size 0x8
-  __declspec(property(get = __get_writeStream, put = __set_writeStream))::System::Net::WebRequestStream* writeStream;
+  __declspec(property(get = __cordl_internal_get_writeStream, put = __cordl_internal_set_writeStream))::System::Net::WebRequestStream* writeStream;
 
   /// @brief Field webResponse, offset 0x100, size 0x8
-  __declspec(property(get = __get_webResponse, put = __set_webResponse))::System::Net::HttpWebResponse* webResponse;
+  __declspec(property(get = __cordl_internal_get_webResponse, put = __cordl_internal_set_webResponse))::System::Net::HttpWebResponse* webResponse;
 
   /// @brief Field responseTask, offset 0x108, size 0x8
-  __declspec(property(get = __get_responseTask, put = __set_responseTask))::System::Net::WebCompletionSource* responseTask;
+  __declspec(property(get = __cordl_internal_get_responseTask, put = __cordl_internal_set_responseTask))::System::Net::WebCompletionSource* responseTask;
 
   /// @brief Field currentOperation, offset 0x110, size 0x8
-  __declspec(property(get = __get_currentOperation, put = __set_currentOperation))::System::Net::WebOperation* currentOperation;
+  __declspec(property(get = __cordl_internal_get_currentOperation, put = __cordl_internal_set_currentOperation))::System::Net::WebOperation* currentOperation;
 
   /// @brief Field aborted, offset 0x118, size 0x4
-  __declspec(property(get = __get_aborted, put = __set_aborted)) int32_t aborted;
+  __declspec(property(get = __cordl_internal_get_aborted, put = __cordl_internal_set_aborted)) int32_t aborted;
 
   /// @brief Field gotRequestStream, offset 0x11c, size 0x1
-  __declspec(property(get = __get_gotRequestStream, put = __set_gotRequestStream)) bool gotRequestStream;
+  __declspec(property(get = __cordl_internal_get_gotRequestStream, put = __cordl_internal_set_gotRequestStream)) bool gotRequestStream;
 
   /// @brief Field redirects, offset 0x120, size 0x4
-  __declspec(property(get = __get_redirects, put = __set_redirects)) int32_t redirects;
+  __declspec(property(get = __cordl_internal_get_redirects, put = __cordl_internal_set_redirects)) int32_t redirects;
 
   /// @brief Field expectContinue, offset 0x124, size 0x1
-  __declspec(property(get = __get_expectContinue, put = __set_expectContinue)) bool expectContinue;
+  __declspec(property(get = __cordl_internal_get_expectContinue, put = __cordl_internal_set_expectContinue)) bool expectContinue;
 
   /// @brief Field getResponseCalled, offset 0x125, size 0x1
-  __declspec(property(get = __get_getResponseCalled, put = __set_getResponseCalled)) bool getResponseCalled;
+  __declspec(property(get = __cordl_internal_get_getResponseCalled, put = __cordl_internal_set_getResponseCalled)) bool getResponseCalled;
 
   /// @brief Field locker, offset 0x128, size 0x8
-  __declspec(property(get = __get_locker, put = __set_locker))::System::Object* locker;
+  __declspec(property(get = __cordl_internal_get_locker, put = __cordl_internal_set_locker))::System::Object* locker;
 
   /// @brief Field finished_reading, offset 0x130, size 0x1
-  __declspec(property(get = __get_finished_reading, put = __set_finished_reading)) bool finished_reading;
+  __declspec(property(get = __cordl_internal_get_finished_reading, put = __cordl_internal_set_finished_reading)) bool finished_reading;
 
   /// @brief Field auto_decomp, offset 0x134, size 0x4
-  __declspec(property(get = __get_auto_decomp, put = __set_auto_decomp))::System::Net::DecompressionMethods auto_decomp;
+  __declspec(property(get = __cordl_internal_get_auto_decomp, put = __cordl_internal_set_auto_decomp))::System::Net::DecompressionMethods auto_decomp;
 
   /// @brief Field readWriteTimeout, offset 0x138, size 0x4
-  __declspec(property(get = __get_readWriteTimeout, put = __set_readWriteTimeout)) int32_t readWriteTimeout;
+  __declspec(property(get = __cordl_internal_get_readWriteTimeout, put = __cordl_internal_set_readWriteTimeout)) int32_t readWriteTimeout;
 
   /// @brief Field tlsProvider, offset 0x140, size 0x8
-  __declspec(property(get = __get_tlsProvider, put = __set_tlsProvider))::Mono::Net::Security::MobileTlsProvider* tlsProvider;
+  __declspec(property(get = __cordl_internal_get_tlsProvider, put = __cordl_internal_set_tlsProvider))::Mono::Net::Security::MobileTlsProvider* tlsProvider;
 
   /// @brief Field tlsSettings, offset 0x148, size 0x8
-  __declspec(property(get = __get_tlsSettings, put = __set_tlsSettings))::Mono::Security::Interface::MonoTlsSettings* tlsSettings;
+  __declspec(property(get = __cordl_internal_get_tlsSettings, put = __cordl_internal_set_tlsSettings))::Mono::Security::Interface::MonoTlsSettings* tlsSettings;
 
   /// @brief Field certValidationCallback, offset 0x150, size 0x8
-  __declspec(property(get = __get_certValidationCallback, put = __set_certValidationCallback))::System::Net::ServerCertValidationCallback* certValidationCallback;
+  __declspec(property(get = __cordl_internal_get_certValidationCallback, put = __cordl_internal_set_certValidationCallback))::System::Net::ServerCertValidationCallback* certValidationCallback;
 
   /// @brief Field hostHasPort, offset 0x158, size 0x1
-  __declspec(property(get = __get_hostHasPort, put = __set_hostHasPort)) bool hostHasPort;
+  __declspec(property(get = __cordl_internal_get_hostHasPort, put = __cordl_internal_set_hostHasPort)) bool hostHasPort;
 
   /// @brief Field hostUri, offset 0x160, size 0x8
-  __declspec(property(get = __get_hostUri, put = __set_hostUri))::System::Uri* hostUri;
+  __declspec(property(get = __cordl_internal_get_hostUri, put = __cordl_internal_set_hostUri))::System::Uri* hostUri;
 
   /// @brief Field auth_state, offset 0x168, size 0x10
-  __declspec(property(get = __get_auth_state, put = __set_auth_state))::System::Net::__HttpWebRequest__AuthorizationState auth_state;
+  __declspec(property(get = __cordl_internal_get_auth_state, put = __cordl_internal_set_auth_state))::System::Net::__HttpWebRequest__AuthorizationState auth_state;
 
   /// @brief Field proxy_auth_state, offset 0x178, size 0x10
-  __declspec(property(get = __get_proxy_auth_state, put = __set_proxy_auth_state))::System::Net::__HttpWebRequest__AuthorizationState proxy_auth_state;
+  __declspec(property(get = __cordl_internal_get_proxy_auth_state, put = __cordl_internal_set_proxy_auth_state))::System::Net::__HttpWebRequest__AuthorizationState proxy_auth_state;
 
   /// @brief Field ResendContentFactory, offset 0x188, size 0x8
-  __declspec(property(get = __get_ResendContentFactory, put = __set_ResendContentFactory))::System::Func_2<::System::IO::Stream*, ::System::Threading::Tasks::Task*>* ResendContentFactory;
+  __declspec(property(get = __cordl_internal_get_ResendContentFactory,
+                      put = __cordl_internal_set_ResendContentFactory))::System::Func_2<::System::IO::Stream*, ::System::Threading::Tasks::Task*>* ResendContentFactory;
 
   /// @brief Field <ThrowOnError>k__BackingField, offset 0x190, size 0x1
-  __declspec(property(get = __get__ThrowOnError_k__BackingField, put = __set__ThrowOnError_k__BackingField)) bool _ThrowOnError_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ThrowOnError_k__BackingField, put = __cordl_internal_set__ThrowOnError_k__BackingField)) bool _ThrowOnError_k__BackingField;
 
   /// @brief Field unsafe_auth_blah, offset 0x191, size 0x1
-  __declspec(property(get = __get_unsafe_auth_blah, put = __set_unsafe_auth_blah)) bool unsafe_auth_blah;
+  __declspec(property(get = __cordl_internal_get_unsafe_auth_blah, put = __cordl_internal_set_unsafe_auth_blah)) bool unsafe_auth_blah;
 
   /// @brief Field defaultMaxResponseHeadersLength, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_defaultMaxResponseHeadersLength, put = setStaticF_defaultMaxResponseHeadersLength)) int32_t defaultMaxResponseHeadersLength;
@@ -1075,329 +1077,329 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::System::Uri*& __get_requestUri();
+  constexpr ::System::Uri*& __cordl_internal_get_requestUri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get_requestUri() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_requestUri() const;
 
-  constexpr void __set_requestUri(::System::Uri* value);
+  constexpr void __cordl_internal_set_requestUri(::System::Uri* value);
 
-  constexpr ::System::Uri*& __get_actualUri();
+  constexpr ::System::Uri*& __cordl_internal_get_actualUri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get_actualUri() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_actualUri() const;
 
-  constexpr void __set_actualUri(::System::Uri* value);
+  constexpr void __cordl_internal_set_actualUri(::System::Uri* value);
 
-  constexpr bool& __get_hostChanged();
+  constexpr bool& __cordl_internal_get_hostChanged();
 
-  constexpr bool const& __get_hostChanged() const;
+  constexpr bool const& __cordl_internal_get_hostChanged() const;
 
-  constexpr void __set_hostChanged(bool value);
+  constexpr void __cordl_internal_set_hostChanged(bool value);
 
-  constexpr bool& __get_allowAutoRedirect();
+  constexpr bool& __cordl_internal_get_allowAutoRedirect();
 
-  constexpr bool const& __get_allowAutoRedirect() const;
+  constexpr bool const& __cordl_internal_get_allowAutoRedirect() const;
 
-  constexpr void __set_allowAutoRedirect(bool value);
+  constexpr void __cordl_internal_set_allowAutoRedirect(bool value);
 
-  constexpr bool& __get_allowBuffering();
+  constexpr bool& __cordl_internal_get_allowBuffering();
 
-  constexpr bool const& __get_allowBuffering() const;
+  constexpr bool const& __cordl_internal_get_allowBuffering() const;
 
-  constexpr void __set_allowBuffering(bool value);
+  constexpr void __cordl_internal_set_allowBuffering(bool value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& __get_certificates();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& __cordl_internal_get_certificates();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const& __get_certificates() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const& __cordl_internal_get_certificates() const;
 
-  constexpr void __set_certificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
+  constexpr void __cordl_internal_set_certificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  constexpr ::StringW& __get_connectionGroup();
+  constexpr ::StringW& __cordl_internal_get_connectionGroup();
 
-  constexpr ::StringW const& __get_connectionGroup() const;
+  constexpr ::StringW const& __cordl_internal_get_connectionGroup() const;
 
-  constexpr void __set_connectionGroup(::StringW value);
+  constexpr void __cordl_internal_set_connectionGroup(::StringW value);
 
-  constexpr bool& __get_haveContentLength();
+  constexpr bool& __cordl_internal_get_haveContentLength();
 
-  constexpr bool const& __get_haveContentLength() const;
+  constexpr bool const& __cordl_internal_get_haveContentLength() const;
 
-  constexpr void __set_haveContentLength(bool value);
+  constexpr void __cordl_internal_set_haveContentLength(bool value);
 
-  constexpr int64_t& __get_contentLength();
+  constexpr int64_t& __cordl_internal_get_contentLength();
 
-  constexpr int64_t const& __get_contentLength() const;
+  constexpr int64_t const& __cordl_internal_get_contentLength() const;
 
-  constexpr void __set_contentLength(int64_t value);
+  constexpr void __cordl_internal_set_contentLength(int64_t value);
 
-  constexpr ::System::Net::HttpContinueDelegate*& __get_continueDelegate();
+  constexpr ::System::Net::HttpContinueDelegate*& __cordl_internal_get_continueDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpContinueDelegate*> const& __get_continueDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpContinueDelegate*> const& __cordl_internal_get_continueDelegate() const;
 
-  constexpr void __set_continueDelegate(::System::Net::HttpContinueDelegate* value);
+  constexpr void __cordl_internal_set_continueDelegate(::System::Net::HttpContinueDelegate* value);
 
-  constexpr ::System::Net::CookieContainer*& __get_cookieContainer();
+  constexpr ::System::Net::CookieContainer*& __cordl_internal_get_cookieContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieContainer*> const& __get_cookieContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieContainer*> const& __cordl_internal_get_cookieContainer() const;
 
-  constexpr void __set_cookieContainer(::System::Net::CookieContainer* value);
+  constexpr void __cordl_internal_set_cookieContainer(::System::Net::CookieContainer* value);
 
-  constexpr ::System::Net::ICredentials*& __get_credentials();
+  constexpr ::System::Net::ICredentials*& __cordl_internal_get_credentials();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& __get_credentials() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& __cordl_internal_get_credentials() const;
 
-  constexpr void __set_credentials(::System::Net::ICredentials* value);
+  constexpr void __cordl_internal_set_credentials(::System::Net::ICredentials* value);
 
-  constexpr bool& __get_haveResponse();
+  constexpr bool& __cordl_internal_get_haveResponse();
 
-  constexpr bool const& __get_haveResponse() const;
+  constexpr bool const& __cordl_internal_get_haveResponse() const;
 
-  constexpr void __set_haveResponse(bool value);
+  constexpr void __cordl_internal_set_haveResponse(bool value);
 
-  constexpr bool& __get_requestSent();
+  constexpr bool& __cordl_internal_get_requestSent();
 
-  constexpr bool const& __get_requestSent() const;
+  constexpr bool const& __cordl_internal_get_requestSent() const;
 
-  constexpr void __set_requestSent(bool value);
+  constexpr void __cordl_internal_set_requestSent(bool value);
 
-  constexpr ::System::Net::WebHeaderCollection*& __get_webHeaders();
+  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get_webHeaders();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __get_webHeaders() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get_webHeaders() const;
 
-  constexpr void __set_webHeaders(::System::Net::WebHeaderCollection* value);
+  constexpr void __cordl_internal_set_webHeaders(::System::Net::WebHeaderCollection* value);
 
-  constexpr bool& __get_keepAlive();
+  constexpr bool& __cordl_internal_get_keepAlive();
 
-  constexpr bool const& __get_keepAlive() const;
+  constexpr bool const& __cordl_internal_get_keepAlive() const;
 
-  constexpr void __set_keepAlive(bool value);
+  constexpr void __cordl_internal_set_keepAlive(bool value);
 
-  constexpr int32_t& __get_maxAutoRedirect();
+  constexpr int32_t& __cordl_internal_get_maxAutoRedirect();
 
-  constexpr int32_t const& __get_maxAutoRedirect() const;
+  constexpr int32_t const& __cordl_internal_get_maxAutoRedirect() const;
 
-  constexpr void __set_maxAutoRedirect(int32_t value);
+  constexpr void __cordl_internal_set_maxAutoRedirect(int32_t value);
 
-  constexpr ::StringW& __get_mediaType();
+  constexpr ::StringW& __cordl_internal_get_mediaType();
 
-  constexpr ::StringW const& __get_mediaType() const;
+  constexpr ::StringW const& __cordl_internal_get_mediaType() const;
 
-  constexpr void __set_mediaType(::StringW value);
+  constexpr void __cordl_internal_set_mediaType(::StringW value);
 
-  constexpr ::StringW& __get_method();
+  constexpr ::StringW& __cordl_internal_get_method();
 
-  constexpr ::StringW const& __get_method() const;
+  constexpr ::StringW const& __cordl_internal_get_method() const;
 
-  constexpr void __set_method(::StringW value);
+  constexpr void __cordl_internal_set_method(::StringW value);
 
-  constexpr ::StringW& __get_initialMethod();
+  constexpr ::StringW& __cordl_internal_get_initialMethod();
 
-  constexpr ::StringW const& __get_initialMethod() const;
+  constexpr ::StringW const& __cordl_internal_get_initialMethod() const;
 
-  constexpr void __set_initialMethod(::StringW value);
+  constexpr void __cordl_internal_set_initialMethod(::StringW value);
 
-  constexpr bool& __get_pipelined();
+  constexpr bool& __cordl_internal_get_pipelined();
 
-  constexpr bool const& __get_pipelined() const;
+  constexpr bool const& __cordl_internal_get_pipelined() const;
 
-  constexpr void __set_pipelined(bool value);
+  constexpr void __cordl_internal_set_pipelined(bool value);
 
-  constexpr bool& __get_preAuthenticate();
+  constexpr bool& __cordl_internal_get_preAuthenticate();
 
-  constexpr bool const& __get_preAuthenticate() const;
+  constexpr bool const& __cordl_internal_get_preAuthenticate() const;
 
-  constexpr void __set_preAuthenticate(bool value);
+  constexpr void __cordl_internal_set_preAuthenticate(bool value);
 
-  constexpr bool& __get_usedPreAuth();
+  constexpr bool& __cordl_internal_get_usedPreAuth();
 
-  constexpr bool const& __get_usedPreAuth() const;
+  constexpr bool const& __cordl_internal_get_usedPreAuth() const;
 
-  constexpr void __set_usedPreAuth(bool value);
+  constexpr void __cordl_internal_set_usedPreAuth(bool value);
 
-  constexpr ::System::Version*& __get_version();
+  constexpr ::System::Version*& __cordl_internal_get_version();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __get_version() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(::System::Version* value);
+  constexpr void __cordl_internal_set_version(::System::Version* value);
 
-  constexpr bool& __get_force_version();
+  constexpr bool& __cordl_internal_get_force_version();
 
-  constexpr bool const& __get_force_version() const;
+  constexpr bool const& __cordl_internal_get_force_version() const;
 
-  constexpr void __set_force_version(bool value);
+  constexpr void __cordl_internal_set_force_version(bool value);
 
-  constexpr ::System::Version*& __get_actualVersion();
+  constexpr ::System::Version*& __cordl_internal_get_actualVersion();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __get_actualVersion() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __cordl_internal_get_actualVersion() const;
 
-  constexpr void __set_actualVersion(::System::Version* value);
+  constexpr void __cordl_internal_set_actualVersion(::System::Version* value);
 
-  constexpr ::System::Net::IWebProxy*& __get_proxy();
+  constexpr ::System::Net::IWebProxy*& __cordl_internal_get_proxy();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& __get_proxy() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& __cordl_internal_get_proxy() const;
 
-  constexpr void __set_proxy(::System::Net::IWebProxy* value);
+  constexpr void __cordl_internal_set_proxy(::System::Net::IWebProxy* value);
 
-  constexpr bool& __get_sendChunked();
+  constexpr bool& __cordl_internal_get_sendChunked();
 
-  constexpr bool const& __get_sendChunked() const;
+  constexpr bool const& __cordl_internal_get_sendChunked() const;
 
-  constexpr void __set_sendChunked(bool value);
+  constexpr void __cordl_internal_set_sendChunked(bool value);
 
-  constexpr ::System::Net::ServicePoint*& __get_servicePoint();
+  constexpr ::System::Net::ServicePoint*& __cordl_internal_get_servicePoint();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ServicePoint*> const& __get_servicePoint() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ServicePoint*> const& __cordl_internal_get_servicePoint() const;
 
-  constexpr void __set_servicePoint(::System::Net::ServicePoint* value);
+  constexpr void __cordl_internal_set_servicePoint(::System::Net::ServicePoint* value);
 
-  constexpr int32_t& __get_timeout();
+  constexpr int32_t& __cordl_internal_get_timeout();
 
-  constexpr int32_t const& __get_timeout() const;
+  constexpr int32_t const& __cordl_internal_get_timeout() const;
 
-  constexpr void __set_timeout(int32_t value);
+  constexpr void __cordl_internal_set_timeout(int32_t value);
 
-  constexpr int32_t& __get_continueTimeout();
+  constexpr int32_t& __cordl_internal_get_continueTimeout();
 
-  constexpr int32_t const& __get_continueTimeout() const;
+  constexpr int32_t const& __cordl_internal_get_continueTimeout() const;
 
-  constexpr void __set_continueTimeout(int32_t value);
+  constexpr void __cordl_internal_set_continueTimeout(int32_t value);
 
-  constexpr ::System::Net::WebRequestStream*& __get_writeStream();
+  constexpr ::System::Net::WebRequestStream*& __cordl_internal_get_writeStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequestStream*> const& __get_writeStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebRequestStream*> const& __cordl_internal_get_writeStream() const;
 
-  constexpr void __set_writeStream(::System::Net::WebRequestStream* value);
+  constexpr void __cordl_internal_set_writeStream(::System::Net::WebRequestStream* value);
 
-  constexpr ::System::Net::HttpWebResponse*& __get_webResponse();
+  constexpr ::System::Net::HttpWebResponse*& __cordl_internal_get_webResponse();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebResponse*> const& __get_webResponse() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebResponse*> const& __cordl_internal_get_webResponse() const;
 
-  constexpr void __set_webResponse(::System::Net::HttpWebResponse* value);
+  constexpr void __cordl_internal_set_webResponse(::System::Net::HttpWebResponse* value);
 
-  constexpr ::System::Net::WebCompletionSource*& __get_responseTask();
+  constexpr ::System::Net::WebCompletionSource*& __cordl_internal_get_responseTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource*> const& __get_responseTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource*> const& __cordl_internal_get_responseTask() const;
 
-  constexpr void __set_responseTask(::System::Net::WebCompletionSource* value);
+  constexpr void __cordl_internal_set_responseTask(::System::Net::WebCompletionSource* value);
 
-  constexpr ::System::Net::WebOperation*& __get_currentOperation();
+  constexpr ::System::Net::WebOperation*& __cordl_internal_get_currentOperation();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebOperation*> const& __get_currentOperation() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebOperation*> const& __cordl_internal_get_currentOperation() const;
 
-  constexpr void __set_currentOperation(::System::Net::WebOperation* value);
+  constexpr void __cordl_internal_set_currentOperation(::System::Net::WebOperation* value);
 
-  constexpr int32_t& __get_aborted();
+  constexpr int32_t& __cordl_internal_get_aborted();
 
-  constexpr int32_t const& __get_aborted() const;
+  constexpr int32_t const& __cordl_internal_get_aborted() const;
 
-  constexpr void __set_aborted(int32_t value);
+  constexpr void __cordl_internal_set_aborted(int32_t value);
 
-  constexpr bool& __get_gotRequestStream();
+  constexpr bool& __cordl_internal_get_gotRequestStream();
 
-  constexpr bool const& __get_gotRequestStream() const;
+  constexpr bool const& __cordl_internal_get_gotRequestStream() const;
 
-  constexpr void __set_gotRequestStream(bool value);
+  constexpr void __cordl_internal_set_gotRequestStream(bool value);
 
-  constexpr int32_t& __get_redirects();
+  constexpr int32_t& __cordl_internal_get_redirects();
 
-  constexpr int32_t const& __get_redirects() const;
+  constexpr int32_t const& __cordl_internal_get_redirects() const;
 
-  constexpr void __set_redirects(int32_t value);
+  constexpr void __cordl_internal_set_redirects(int32_t value);
 
-  constexpr bool& __get_expectContinue();
+  constexpr bool& __cordl_internal_get_expectContinue();
 
-  constexpr bool const& __get_expectContinue() const;
+  constexpr bool const& __cordl_internal_get_expectContinue() const;
 
-  constexpr void __set_expectContinue(bool value);
+  constexpr void __cordl_internal_set_expectContinue(bool value);
 
-  constexpr bool& __get_getResponseCalled();
+  constexpr bool& __cordl_internal_get_getResponseCalled();
 
-  constexpr bool const& __get_getResponseCalled() const;
+  constexpr bool const& __cordl_internal_get_getResponseCalled() const;
 
-  constexpr void __set_getResponseCalled(bool value);
+  constexpr void __cordl_internal_set_getResponseCalled(bool value);
 
-  constexpr ::System::Object*& __get_locker();
+  constexpr ::System::Object*& __cordl_internal_get_locker();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_locker() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_locker() const;
 
-  constexpr void __set_locker(::System::Object* value);
+  constexpr void __cordl_internal_set_locker(::System::Object* value);
 
-  constexpr bool& __get_finished_reading();
+  constexpr bool& __cordl_internal_get_finished_reading();
 
-  constexpr bool const& __get_finished_reading() const;
+  constexpr bool const& __cordl_internal_get_finished_reading() const;
 
-  constexpr void __set_finished_reading(bool value);
+  constexpr void __cordl_internal_set_finished_reading(bool value);
 
-  constexpr ::System::Net::DecompressionMethods& __get_auto_decomp();
+  constexpr ::System::Net::DecompressionMethods& __cordl_internal_get_auto_decomp();
 
-  constexpr ::System::Net::DecompressionMethods const& __get_auto_decomp() const;
+  constexpr ::System::Net::DecompressionMethods const& __cordl_internal_get_auto_decomp() const;
 
-  constexpr void __set_auto_decomp(::System::Net::DecompressionMethods value);
+  constexpr void __cordl_internal_set_auto_decomp(::System::Net::DecompressionMethods value);
 
-  constexpr int32_t& __get_readWriteTimeout();
+  constexpr int32_t& __cordl_internal_get_readWriteTimeout();
 
-  constexpr int32_t const& __get_readWriteTimeout() const;
+  constexpr int32_t const& __cordl_internal_get_readWriteTimeout() const;
 
-  constexpr void __set_readWriteTimeout(int32_t value);
+  constexpr void __cordl_internal_set_readWriteTimeout(int32_t value);
 
-  constexpr ::Mono::Net::Security::MobileTlsProvider*& __get_tlsProvider();
+  constexpr ::Mono::Net::Security::MobileTlsProvider*& __cordl_internal_get_tlsProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileTlsProvider*> const& __get_tlsProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileTlsProvider*> const& __cordl_internal_get_tlsProvider() const;
 
-  constexpr void __set_tlsProvider(::Mono::Net::Security::MobileTlsProvider* value);
+  constexpr void __cordl_internal_set_tlsProvider(::Mono::Net::Security::MobileTlsProvider* value);
 
-  constexpr ::Mono::Security::Interface::MonoTlsSettings*& __get_tlsSettings();
+  constexpr ::Mono::Security::Interface::MonoTlsSettings*& __cordl_internal_get_tlsSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsSettings*> const& __get_tlsSettings() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsSettings*> const& __cordl_internal_get_tlsSettings() const;
 
-  constexpr void __set_tlsSettings(::Mono::Security::Interface::MonoTlsSettings* value);
+  constexpr void __cordl_internal_set_tlsSettings(::Mono::Security::Interface::MonoTlsSettings* value);
 
-  constexpr ::System::Net::ServerCertValidationCallback*& __get_certValidationCallback();
+  constexpr ::System::Net::ServerCertValidationCallback*& __cordl_internal_get_certValidationCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ServerCertValidationCallback*> const& __get_certValidationCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ServerCertValidationCallback*> const& __cordl_internal_get_certValidationCallback() const;
 
-  constexpr void __set_certValidationCallback(::System::Net::ServerCertValidationCallback* value);
+  constexpr void __cordl_internal_set_certValidationCallback(::System::Net::ServerCertValidationCallback* value);
 
-  constexpr bool& __get_hostHasPort();
+  constexpr bool& __cordl_internal_get_hostHasPort();
 
-  constexpr bool const& __get_hostHasPort() const;
+  constexpr bool const& __cordl_internal_get_hostHasPort() const;
 
-  constexpr void __set_hostHasPort(bool value);
+  constexpr void __cordl_internal_set_hostHasPort(bool value);
 
-  constexpr ::System::Uri*& __get_hostUri();
+  constexpr ::System::Uri*& __cordl_internal_get_hostUri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get_hostUri() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_hostUri() const;
 
-  constexpr void __set_hostUri(::System::Uri* value);
+  constexpr void __cordl_internal_set_hostUri(::System::Uri* value);
 
-  constexpr ::System::Net::__HttpWebRequest__AuthorizationState& __get_auth_state();
+  constexpr ::System::Net::__HttpWebRequest__AuthorizationState& __cordl_internal_get_auth_state();
 
-  constexpr ::System::Net::__HttpWebRequest__AuthorizationState const& __get_auth_state() const;
+  constexpr ::System::Net::__HttpWebRequest__AuthorizationState const& __cordl_internal_get_auth_state() const;
 
-  constexpr void __set_auth_state(::System::Net::__HttpWebRequest__AuthorizationState value);
+  constexpr void __cordl_internal_set_auth_state(::System::Net::__HttpWebRequest__AuthorizationState value);
 
-  constexpr ::System::Net::__HttpWebRequest__AuthorizationState& __get_proxy_auth_state();
+  constexpr ::System::Net::__HttpWebRequest__AuthorizationState& __cordl_internal_get_proxy_auth_state();
 
-  constexpr ::System::Net::__HttpWebRequest__AuthorizationState const& __get_proxy_auth_state() const;
+  constexpr ::System::Net::__HttpWebRequest__AuthorizationState const& __cordl_internal_get_proxy_auth_state() const;
 
-  constexpr void __set_proxy_auth_state(::System::Net::__HttpWebRequest__AuthorizationState value);
+  constexpr void __cordl_internal_set_proxy_auth_state(::System::Net::__HttpWebRequest__AuthorizationState value);
 
-  constexpr ::System::Func_2<::System::IO::Stream*, ::System::Threading::Tasks::Task*>*& __get_ResendContentFactory();
+  constexpr ::System::Func_2<::System::IO::Stream*, ::System::Threading::Tasks::Task*>*& __cordl_internal_get_ResendContentFactory();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::IO::Stream*, ::System::Threading::Tasks::Task*>*> const& __get_ResendContentFactory() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::IO::Stream*, ::System::Threading::Tasks::Task*>*> const& __cordl_internal_get_ResendContentFactory() const;
 
-  constexpr void __set_ResendContentFactory(::System::Func_2<::System::IO::Stream*, ::System::Threading::Tasks::Task*>* value);
+  constexpr void __cordl_internal_set_ResendContentFactory(::System::Func_2<::System::IO::Stream*, ::System::Threading::Tasks::Task*>* value);
 
-  constexpr bool& __get__ThrowOnError_k__BackingField();
+  constexpr bool& __cordl_internal_get__ThrowOnError_k__BackingField();
 
-  constexpr bool const& __get__ThrowOnError_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__ThrowOnError_k__BackingField() const;
 
-  constexpr void __set__ThrowOnError_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__ThrowOnError_k__BackingField(bool value);
 
-  constexpr bool& __get_unsafe_auth_blah();
+  constexpr bool& __cordl_internal_get_unsafe_auth_blah();
 
-  constexpr bool const& __get_unsafe_auth_blah() const;
+  constexpr bool const& __cordl_internal_get_unsafe_auth_blah() const;
 
-  constexpr void __set_unsafe_auth_blah(bool value);
+  constexpr void __cordl_internal_set_unsafe_auth_blah(bool value);
 
   static inline void setStaticF_defaultMaxResponseHeadersLength(int32_t value);
 

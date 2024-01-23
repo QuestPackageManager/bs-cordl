@@ -68,7 +68,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__Image__UxmlTraits);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6737))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6737))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7080))
 // CS Name: ::Image::UxmlTraits*
 class CORDL_TYPE __Image__UxmlTraits : public ::UnityEngine::UIElements::__VisualElement__UxmlTraits {
@@ -103,11 +103,11 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Image
 // SizeInfo { instance_size: 1016, native_size: -1, calculated_instance_size: 1016, calculated_native_size: 1011, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10291)), TypeDefinitionIndex(TypeDefinitionIndex(6806)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(7306), inst: 293 }), TypeDefinitionIndex(TypeDefinitionIndex(10073)), TypeDefinitionIndex(TypeDefinitionIndex(7306)), TypeDefinitionIndex(TypeDefinitionIndex(6744)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 777 }), TypeDefinitionIndex(TypeDefinitionIndex(14596)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(7306), inst: 403 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 1146 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7081)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(6806)), TypeDefinitionIndex(TypeDefinitionIndex(7306)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10073)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10291)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14596)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 293 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(7306), inst: 397 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 403 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(7306), inst: 777 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7306), inst: 1146 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7081)) CS Name:
 // ::UnityEngine.UIElements::Image*
 class CORDL_TYPE Image : public ::UnityEngine::UIElements::VisualElement {
 public:
@@ -117,44 +117,44 @@ public:
   using UxmlFactory = ::UnityEngine::UIElements::__Image__UxmlFactory;
 
   /// @brief Field m_ScaleMode, offset 0x3b0, size 0x4
-  __declspec(property(get = __get_m_ScaleMode, put = __set_m_ScaleMode))::UnityEngine::ScaleMode m_ScaleMode;
+  __declspec(property(get = __cordl_internal_get_m_ScaleMode, put = __cordl_internal_set_m_ScaleMode))::UnityEngine::ScaleMode m_ScaleMode;
 
   /// @brief Field m_Image, offset 0x3b8, size 0x8
-  __declspec(property(get = __get_m_Image, put = __set_m_Image))::UnityEngine::Texture* m_Image;
+  __declspec(property(get = __cordl_internal_get_m_Image, put = __cordl_internal_set_m_Image))::UnityW<::UnityEngine::Texture> m_Image;
 
   /// @brief Field m_Sprite, offset 0x3c0, size 0x8
-  __declspec(property(get = __get_m_Sprite, put = __set_m_Sprite))::UnityEngine::Sprite* m_Sprite;
+  __declspec(property(get = __cordl_internal_get_m_Sprite, put = __cordl_internal_set_m_Sprite))::UnityW<::UnityEngine::Sprite> m_Sprite;
 
   /// @brief Field m_VectorImage, offset 0x3c8, size 0x8
-  __declspec(property(get = __get_m_VectorImage, put = __set_m_VectorImage))::UnityEngine::UIElements::VectorImage* m_VectorImage;
+  __declspec(property(get = __cordl_internal_get_m_VectorImage, put = __cordl_internal_set_m_VectorImage))::UnityW<::UnityEngine::UIElements::VectorImage> m_VectorImage;
 
   /// @brief Field m_UV, offset 0x3d0, size 0x10
-  __declspec(property(get = __get_m_UV, put = __set_m_UV))::UnityEngine::Rect m_UV;
+  __declspec(property(get = __cordl_internal_get_m_UV, put = __cordl_internal_set_m_UV))::UnityEngine::Rect m_UV;
 
   /// @brief Field m_TintColor, offset 0x3e0, size 0x10
-  __declspec(property(get = __get_m_TintColor, put = __set_m_TintColor))::UnityEngine::Color m_TintColor;
+  __declspec(property(get = __cordl_internal_get_m_TintColor, put = __cordl_internal_set_m_TintColor))::UnityEngine::Color m_TintColor;
 
   /// @brief Field m_ImageIsInline, offset 0x3f0, size 0x1
-  __declspec(property(get = __get_m_ImageIsInline, put = __set_m_ImageIsInline)) bool m_ImageIsInline;
+  __declspec(property(get = __cordl_internal_get_m_ImageIsInline, put = __cordl_internal_set_m_ImageIsInline)) bool m_ImageIsInline;
 
   /// @brief Field m_ScaleModeIsInline, offset 0x3f1, size 0x1
-  __declspec(property(get = __get_m_ScaleModeIsInline, put = __set_m_ScaleModeIsInline)) bool m_ScaleModeIsInline;
+  __declspec(property(get = __cordl_internal_get_m_ScaleModeIsInline, put = __cordl_internal_set_m_ScaleModeIsInline)) bool m_ScaleModeIsInline;
 
   /// @brief Field m_TintColorIsInline, offset 0x3f2, size 0x1
-  __declspec(property(get = __get_m_TintColorIsInline, put = __set_m_TintColorIsInline)) bool m_TintColorIsInline;
+  __declspec(property(get = __cordl_internal_get_m_TintColorIsInline, put = __cordl_internal_set_m_TintColorIsInline)) bool m_TintColorIsInline;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
 
   /// @brief Field s_ImageProperty, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ImageProperty, put = setStaticF_s_ImageProperty))::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Texture2D*> s_ImageProperty;
+  static __declspec(property(get = getStaticF_s_ImageProperty, put = setStaticF_s_ImageProperty))::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Texture2D>> s_ImageProperty;
 
   /// @brief Field s_SpriteProperty, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_SpriteProperty, put = setStaticF_s_SpriteProperty))::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Sprite*> s_SpriteProperty;
+  static __declspec(property(get = getStaticF_s_SpriteProperty, put = setStaticF_s_SpriteProperty))::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Sprite>> s_SpriteProperty;
 
   /// @brief Field s_VectorImageProperty, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_VectorImageProperty,
-                             put = setStaticF_s_VectorImageProperty))::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::UIElements::VectorImage*> s_VectorImageProperty;
+                             put = setStaticF_s_VectorImageProperty))::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::UIElements::VectorImage>> s_VectorImageProperty;
 
   /// @brief Field s_ScaleModeProperty, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_ScaleModeProperty, put = setStaticF_s_ScaleModeProperty))::UnityEngine::UIElements::CustomStyleProperty_1<::StringW> s_ScaleModeProperty;
@@ -162,11 +162,11 @@ public:
   /// @brief Field s_TintColorProperty, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_TintColorProperty, put = setStaticF_s_TintColorProperty))::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Color> s_TintColorProperty;
 
-  __declspec(property(get = get_image))::UnityEngine::Texture* image;
+  __declspec(property(get = get_image))::UnityW<::UnityEngine::Texture> image;
 
-  __declspec(property(get = get_sprite))::UnityEngine::Sprite* sprite;
+  __declspec(property(get = get_sprite))::UnityW<::UnityEngine::Sprite> sprite;
 
-  __declspec(property(get = get_vectorImage))::UnityEngine::UIElements::VectorImage* vectorImage;
+  __declspec(property(get = get_vectorImage))::UnityW<::UnityEngine::UIElements::VectorImage> vectorImage;
 
   __declspec(property(get = get_sourceRect))::UnityEngine::Rect sourceRect;
 
@@ -176,75 +176,75 @@ public:
 
   __declspec(property(get = get_tintColor))::UnityEngine::Color tintColor;
 
-  constexpr ::UnityEngine::ScaleMode& __get_m_ScaleMode();
+  constexpr ::UnityEngine::ScaleMode& __cordl_internal_get_m_ScaleMode();
 
-  constexpr ::UnityEngine::ScaleMode const& __get_m_ScaleMode() const;
+  constexpr ::UnityEngine::ScaleMode const& __cordl_internal_get_m_ScaleMode() const;
 
-  constexpr void __set_m_ScaleMode(::UnityEngine::ScaleMode value);
+  constexpr void __cordl_internal_set_m_ScaleMode(::UnityEngine::ScaleMode value);
 
-  constexpr ::UnityEngine::Texture*& __get_m_Image();
+  constexpr ::UnityW<::UnityEngine::Texture>& __cordl_internal_get_m_Image();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture*> const& __get_m_Image() const;
+  constexpr ::UnityW<::UnityEngine::Texture> const& __cordl_internal_get_m_Image() const;
 
-  constexpr void __set_m_Image(::UnityEngine::Texture* value);
+  constexpr void __cordl_internal_set_m_Image(::UnityW<::UnityEngine::Texture> value);
 
-  constexpr ::UnityEngine::Sprite*& __get_m_Sprite();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get_m_Sprite();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get_m_Sprite() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get_m_Sprite() const;
 
-  constexpr void __set_m_Sprite(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set_m_Sprite(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::UIElements::VectorImage*& __get_m_VectorImage();
+  constexpr ::UnityW<::UnityEngine::UIElements::VectorImage>& __cordl_internal_get_m_VectorImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VectorImage*> const& __get_m_VectorImage() const;
+  constexpr ::UnityW<::UnityEngine::UIElements::VectorImage> const& __cordl_internal_get_m_VectorImage() const;
 
-  constexpr void __set_m_VectorImage(::UnityEngine::UIElements::VectorImage* value);
+  constexpr void __cordl_internal_set_m_VectorImage(::UnityW<::UnityEngine::UIElements::VectorImage> value);
 
-  constexpr ::UnityEngine::Rect& __get_m_UV();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_UV();
 
-  constexpr ::UnityEngine::Rect const& __get_m_UV() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_UV() const;
 
-  constexpr void __set_m_UV(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_m_UV(::UnityEngine::Rect value);
 
-  constexpr ::UnityEngine::Color& __get_m_TintColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_TintColor();
 
-  constexpr ::UnityEngine::Color const& __get_m_TintColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_TintColor() const;
 
-  constexpr void __set_m_TintColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_TintColor(::UnityEngine::Color value);
 
-  constexpr bool& __get_m_ImageIsInline();
+  constexpr bool& __cordl_internal_get_m_ImageIsInline();
 
-  constexpr bool const& __get_m_ImageIsInline() const;
+  constexpr bool const& __cordl_internal_get_m_ImageIsInline() const;
 
-  constexpr void __set_m_ImageIsInline(bool value);
+  constexpr void __cordl_internal_set_m_ImageIsInline(bool value);
 
-  constexpr bool& __get_m_ScaleModeIsInline();
+  constexpr bool& __cordl_internal_get_m_ScaleModeIsInline();
 
-  constexpr bool const& __get_m_ScaleModeIsInline() const;
+  constexpr bool const& __cordl_internal_get_m_ScaleModeIsInline() const;
 
-  constexpr void __set_m_ScaleModeIsInline(bool value);
+  constexpr void __cordl_internal_set_m_ScaleModeIsInline(bool value);
 
-  constexpr bool& __get_m_TintColorIsInline();
+  constexpr bool& __cordl_internal_get_m_TintColorIsInline();
 
-  constexpr bool const& __get_m_TintColorIsInline() const;
+  constexpr bool const& __cordl_internal_get_m_TintColorIsInline() const;
 
-  constexpr void __set_m_TintColorIsInline(bool value);
+  constexpr void __cordl_internal_set_m_TintColorIsInline(bool value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 
   static inline ::StringW getStaticF_ussClassName();
 
-  static inline void setStaticF_s_ImageProperty(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Texture2D*> value);
+  static inline void setStaticF_s_ImageProperty(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Texture2D>> value);
 
-  static inline ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Texture2D*> getStaticF_s_ImageProperty();
+  static inline ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Texture2D>> getStaticF_s_ImageProperty();
 
-  static inline void setStaticF_s_SpriteProperty(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Sprite*> value);
+  static inline void setStaticF_s_SpriteProperty(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Sprite>> value);
 
-  static inline ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Sprite*> getStaticF_s_SpriteProperty();
+  static inline ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::Sprite>> getStaticF_s_SpriteProperty();
 
-  static inline void setStaticF_s_VectorImageProperty(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::UIElements::VectorImage*> value);
+  static inline void setStaticF_s_VectorImageProperty(::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::UIElements::VectorImage>> value);
 
-  static inline ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::UIElements::VectorImage*> getStaticF_s_VectorImageProperty();
+  static inline ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityW<::UnityEngine::UIElements::VectorImage>> getStaticF_s_VectorImageProperty();
 
   static inline void setStaticF_s_ScaleModeProperty(::UnityEngine::UIElements::CustomStyleProperty_1<::StringW> value);
 
@@ -255,13 +255,13 @@ public:
   static inline ::UnityEngine::UIElements::CustomStyleProperty_1<::UnityEngine::Color> getStaticF_s_TintColorProperty();
 
   /// @brief Method get_image, addr 0x2e315dc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture* get_image();
+  inline ::UnityW<::UnityEngine::Texture> get_image();
 
   /// @brief Method get_sprite, addr 0x2e315e4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Sprite* get_sprite();
+  inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
   /// @brief Method get_vectorImage, addr 0x2e315ec, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::VectorImage* get_vectorImage();
+  inline ::UnityW<::UnityEngine::UIElements::VectorImage> get_vectorImage();
 
   /// @brief Method get_sourceRect, addr 0x2e315f4, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_sourceRect();
@@ -320,13 +320,13 @@ public:
   ::UnityEngine::ScaleMode ___m_ScaleMode;
 
   /// @brief Field m_Image, offset: 0x3b8, size: 0x8, def value: None
-  ::UnityEngine::Texture* ___m_Image;
+  ::UnityW<::UnityEngine::Texture> ___m_Image;
 
   /// @brief Field m_Sprite, offset: 0x3c0, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ___m_Sprite;
+  ::UnityW<::UnityEngine::Sprite> ___m_Sprite;
 
   /// @brief Field m_VectorImage, offset: 0x3c8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VectorImage* ___m_VectorImage;
+  ::UnityW<::UnityEngine::UIElements::VectorImage> ___m_VectorImage;
 
   /// @brief Field m_UV, offset: 0x3d0, size: 0x10, def value: None
   ::UnityEngine::Rect ___m_UV;
@@ -371,8 +371,8 @@ static_assert(offsetof(::UnityEngine::UIElements::Image, ___m_TintColorIsInline)
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7080)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5264 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7081))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7079)) CS Name: ::Image::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7080)), TypeDefinitionIndex(TypeDefinitionIndex(7081)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5264 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7079)) CS Name: ::Image::UxmlFactory*
 class CORDL_TYPE __Image__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Image*, ::UnityEngine::UIElements::__Image__UxmlTraits*> {
 public:
   // Declarations

@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0xef7880;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator*>::get(),
@@ -27,7 +27,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x118;
   constexpr static std::size_t addrs = 0xef788c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator*>::get(),
@@ -43,46 +43,46 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xef7f70;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__get_size() {
+constexpr int32_t& Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__cordl_internal_get_size() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___size;
 }
-constexpr int32_t const& Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__get_size() const {
+constexpr int32_t const& Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__cordl_internal_get_size() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___size;
 }
-constexpr void Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__set_size(int32_t value) {
+constexpr void Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__cordl_internal_set_size(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___size = value;
 }
-constexpr int32_t& Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__get_certainty() {
+constexpr int32_t& Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__cordl_internal_get_certainty() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certainty;
 }
-constexpr int32_t const& Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__get_certainty() const {
+constexpr int32_t const& Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__cordl_internal_get_certainty() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___certainty;
 }
-constexpr void Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__set_certainty(int32_t value) {
+constexpr void Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__cordl_internal_set_certainty(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___certainty = value;
 }
-constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__get_random() {
+constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__cordl_internal_get_random() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__get_random() const {
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__cordl_internal_get_random() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
-constexpr void Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__set_random(::Org::BouncyCastle::Security::SecureRandom* value) {
+constexpr void Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::__cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -99,12 +99,12 @@ inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* Org::BouncyCastle:
   return ::cordl_internals::RunMethodRethrow<::Org::BouncyCastle::Crypto::Parameters::DHParameters*, false>(this, ___internal_method);
 }
 inline ::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator* Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator*>());
 }
 inline void Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

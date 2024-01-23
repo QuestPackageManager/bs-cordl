@@ -18,7 +18,7 @@ MARK_VAL_T(::GlobalNamespace::OVRBinaryChunk);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7564))
 // CS Name: ::OVRBinaryChunk
 struct CORDL_TYPE OVRBinaryChunk {

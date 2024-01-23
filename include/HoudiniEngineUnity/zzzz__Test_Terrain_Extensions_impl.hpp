@@ -14,9 +14,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x21e95c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -28,10 +28,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x21e95cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*>::get(), "<ToTestObject>b__1_0",
-                                    std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Terrain*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*>::get(), "<ToTestObject>b__1_0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Terrain*>::get() })));
     return ___internal_method;
   }
 };
@@ -43,10 +43,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x21e9630;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*>::get(), "<ToTestObject>b__2_0",
-                                    std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Terrain*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*>::get(), "<ToTestObject>b__2_0", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Terrain*>::get() })));
     return ___internal_method;
   }
 };
@@ -59,42 +59,42 @@ inline ::HoudiniEngineUnity::__Test_Terrain_Extensions____c* HoudiniEngineUnity:
   return ::cordl_internals::getStaticField<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*>::get>();
 }
-inline void HoudiniEngineUnity::__Test_Terrain_Extensions____c::setStaticF___9__1_0(::System::Converter_2<::UnityEngine::Terrain*, ::HoudiniEngineUnity::Test_Terrain*>* value) {
-  ::cordl_internals::setStaticField<::System::Converter_2<::UnityEngine::Terrain*, ::HoudiniEngineUnity::Test_Terrain*>*, "<>9__1_0",
+inline void HoudiniEngineUnity::__Test_Terrain_Extensions____c::setStaticF___9__1_0(::System::Converter_2<::UnityW<::UnityEngine::Terrain>, ::HoudiniEngineUnity::Test_Terrain*>* value) {
+  ::cordl_internals::setStaticField<::System::Converter_2<::UnityW<::UnityEngine::Terrain>, ::HoudiniEngineUnity::Test_Terrain*>*, "<>9__1_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*>::get>(
-      std::forward<::System::Converter_2<::UnityEngine::Terrain*, ::HoudiniEngineUnity::Test_Terrain*>*>(value));
+      std::forward<::System::Converter_2<::UnityW<::UnityEngine::Terrain>, ::HoudiniEngineUnity::Test_Terrain*>*>(value));
 }
-inline ::System::Converter_2<::UnityEngine::Terrain*, ::HoudiniEngineUnity::Test_Terrain*>* HoudiniEngineUnity::__Test_Terrain_Extensions____c::getStaticF___9__1_0() {
-  return ::cordl_internals::getStaticField<::System::Converter_2<::UnityEngine::Terrain*, ::HoudiniEngineUnity::Test_Terrain*>*, "<>9__1_0",
+inline ::System::Converter_2<::UnityW<::UnityEngine::Terrain>, ::HoudiniEngineUnity::Test_Terrain*>* HoudiniEngineUnity::__Test_Terrain_Extensions____c::getStaticF___9__1_0() {
+  return ::cordl_internals::getStaticField<::System::Converter_2<::UnityW<::UnityEngine::Terrain>, ::HoudiniEngineUnity::Test_Terrain*>*, "<>9__1_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*>::get>();
 }
-inline void HoudiniEngineUnity::__Test_Terrain_Extensions____c::setStaticF___9__2_0(::System::Converter_2<::UnityEngine::Terrain*, ::HoudiniEngineUnity::Test_Terrain*>* value) {
-  ::cordl_internals::setStaticField<::System::Converter_2<::UnityEngine::Terrain*, ::HoudiniEngineUnity::Test_Terrain*>*, "<>9__2_0",
+inline void HoudiniEngineUnity::__Test_Terrain_Extensions____c::setStaticF___9__2_0(::System::Converter_2<::UnityW<::UnityEngine::Terrain>, ::HoudiniEngineUnity::Test_Terrain*>* value) {
+  ::cordl_internals::setStaticField<::System::Converter_2<::UnityW<::UnityEngine::Terrain>, ::HoudiniEngineUnity::Test_Terrain*>*, "<>9__2_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*>::get>(
-      std::forward<::System::Converter_2<::UnityEngine::Terrain*, ::HoudiniEngineUnity::Test_Terrain*>*>(value));
+      std::forward<::System::Converter_2<::UnityW<::UnityEngine::Terrain>, ::HoudiniEngineUnity::Test_Terrain*>*>(value));
 }
-inline ::System::Converter_2<::UnityEngine::Terrain*, ::HoudiniEngineUnity::Test_Terrain*>* HoudiniEngineUnity::__Test_Terrain_Extensions____c::getStaticF___9__2_0() {
-  return ::cordl_internals::getStaticField<::System::Converter_2<::UnityEngine::Terrain*, ::HoudiniEngineUnity::Test_Terrain*>*, "<>9__2_0",
+inline ::System::Converter_2<::UnityW<::UnityEngine::Terrain>, ::HoudiniEngineUnity::Test_Terrain*>* HoudiniEngineUnity::__Test_Terrain_Extensions____c::getStaticF___9__2_0() {
+  return ::cordl_internals::getStaticField<::System::Converter_2<::UnityW<::UnityEngine::Terrain>, ::HoudiniEngineUnity::Test_Terrain*>*, "<>9__2_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*>::get>();
 }
 inline ::HoudiniEngineUnity::__Test_Terrain_Extensions____c* HoudiniEngineUnity::__Test_Terrain_Extensions____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*>());
 }
 inline void HoudiniEngineUnity::__Test_Terrain_Extensions____c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::HoudiniEngineUnity::Test_Terrain* HoudiniEngineUnity::__Test_Terrain_Extensions____c::_ToTestObject_b__1_0(::UnityEngine::Terrain* lod) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*>::get(), "<ToTestObject>b__1_0",
-                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Terrain*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*>::get(), "<ToTestObject>b__1_0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Terrain*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::Test_Terrain*, false>(this, ___internal_method, lod);
 }
 inline ::HoudiniEngineUnity::Test_Terrain* HoudiniEngineUnity::__Test_Terrain_Extensions____c::_ToTestObject_b__2_0(::UnityEngine::Terrain* lod) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*>::get(), "<ToTestObject>b__2_0",
-                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Terrain*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::__Test_Terrain_Extensions____c*>::get(), "<ToTestObject>b__2_0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Terrain*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::Test_Terrain*, false>(this, ___internal_method, lod);
 }
 // Ctor Parameters []
@@ -107,10 +107,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x21e23f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_Terrain_Extensions*>::get(), "ToTestObject", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Terrain*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_Terrain_Extensions*>::get(), "ToTestObject", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Terrain*>::get() })));
     return ___internal_method;
   }
 };
@@ -122,10 +122,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x21e936c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_Terrain_Extensions*>::get(), "ToTestObject", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Terrain*, ::Array<::UnityEngine::Terrain*>*>>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_Terrain_Extensions*>::get(), "ToTestObject", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Terrain*, ::Array<::UnityEngine::Terrain*>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -133,36 +133,36 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Terrain*>* (*)(::System::Collections::Generic::List_1<::UnityEngine::Terrain*>*)>(
+    static_cast<::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Terrain*>* (*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Terrain>>*)>(
         &::HoudiniEngineUnity::Test_Terrain_Extensions::ToTestObject)> {
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x21e9464;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_Terrain_Extensions*>::get(), "ToTestObject", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Terrain*>*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_Terrain_Extensions*>::get(), "ToTestObject", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Terrain>>*>::get() })));
     return ___internal_method;
   }
 };
 inline ::HoudiniEngineUnity::Test_Terrain* HoudiniEngineUnity::Test_Terrain_Extensions::ToTestObject(::UnityEngine::Terrain* self) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_Terrain_Extensions*>::get(), "ToTestObject", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Terrain*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_Terrain_Extensions*>::get(), "ToTestObject", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Terrain*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::HoudiniEngineUnity::Test_Terrain*, false>(nullptr, ___internal_method, self);
 }
 inline ::ArrayW<::HoudiniEngineUnity::Test_Terrain*, ::Array<::HoudiniEngineUnity::Test_Terrain*>*>
 HoudiniEngineUnity::Test_Terrain_Extensions::ToTestObject(::ArrayW<::UnityEngine::Terrain*, ::Array<::UnityEngine::Terrain*>*> self) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_Terrain_Extensions*>::get(), "ToTestObject", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Terrain*, ::Array<::UnityEngine::Terrain*>*>>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_Terrain_Extensions*>::get(), "ToTestObject", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Terrain*, ::Array<::UnityEngine::Terrain*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::HoudiniEngineUnity::Test_Terrain*, ::Array<::HoudiniEngineUnity::Test_Terrain*>*>, false>(nullptr, ___internal_method, self);
 }
 inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Terrain*>*
-HoudiniEngineUnity::Test_Terrain_Extensions::ToTestObject(::System::Collections::Generic::List_1<::UnityEngine::Terrain*>* self) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_Terrain_Extensions*>::get(), "ToTestObject", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Terrain*>*>::get() })));
+HoudiniEngineUnity::Test_Terrain_Extensions::ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Terrain>>* self) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::Test_Terrain_Extensions*>::get(), "ToTestObject", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Terrain>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Terrain*>*, false>(nullptr, ___internal_method, self);
 }
 // Ctor Parameters []

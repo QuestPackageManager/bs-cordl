@@ -18,33 +18,33 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonString);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12077))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12077))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12078))
 // CS Name: ::Newtonsoft.Json.Bson::BsonString*
 class CORDL_TYPE BsonString : public ::Newtonsoft::Json::Bson::BsonValue {
 public:
   // Declarations
   /// @brief Field <ByteCount>k__BackingField, offset 0x2c, size 0x4
-  __declspec(property(get = __get__ByteCount_k__BackingField, put = __set__ByteCount_k__BackingField)) int32_t _ByteCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ByteCount_k__BackingField, put = __cordl_internal_set__ByteCount_k__BackingField)) int32_t _ByteCount_k__BackingField;
 
   /// @brief Field <IncludeLength>k__BackingField, offset 0x30, size 0x1
-  __declspec(property(get = __get__IncludeLength_k__BackingField, put = __set__IncludeLength_k__BackingField)) bool _IncludeLength_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IncludeLength_k__BackingField, put = __cordl_internal_set__IncludeLength_k__BackingField)) bool _IncludeLength_k__BackingField;
 
   __declspec(property(get = get_ByteCount, put = set_ByteCount)) int32_t ByteCount;
 
   __declspec(property(get = get_IncludeLength, put = set_IncludeLength)) bool IncludeLength;
 
-  constexpr int32_t& __get__ByteCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__ByteCount_k__BackingField();
 
-  constexpr int32_t const& __get__ByteCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__ByteCount_k__BackingField() const;
 
-  constexpr void __set__ByteCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__ByteCount_k__BackingField(int32_t value);
 
-  constexpr bool& __get__IncludeLength_k__BackingField();
+  constexpr bool& __cordl_internal_get__IncludeLength_k__BackingField();
 
-  constexpr bool const& __get__IncludeLength_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IncludeLength_k__BackingField() const;
 
-  constexpr void __set__IncludeLength_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IncludeLength_k__BackingField(bool value);
 
   /// @brief Method get_ByteCount, addr 0x26c8408, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ByteCount();

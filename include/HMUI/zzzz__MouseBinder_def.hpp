@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::HMUI::MouseBinder);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13518))
 // CS Name: ::MouseBinder::MouseEventType
 struct CORDL_TYPE __MouseBinder__MouseEventType {
@@ -100,7 +100,7 @@ static_assert(offsetof(::HMUI::__MouseBinder__MouseEventType, value__) == 0x0, "
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13519))
 // CS Name: ::MouseBinder::ButtonType
 struct CORDL_TYPE __MouseBinder__ButtonType {
@@ -154,7 +154,7 @@ static_assert(offsetof(::HMUI::__MouseBinder__ButtonType, value__) == 0x0, "Offs
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13520))
 // CS Name: ::HMUI::MouseBinder*
 class CORDL_TYPE MouseBinder : public ::System::Object {
@@ -165,37 +165,38 @@ public:
   using MouseEventType = ::HMUI::__MouseBinder__MouseEventType;
 
   /// @brief Field <enabled>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__enabled_k__BackingField, put = __set__enabled_k__BackingField)) bool _enabled_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__enabled_k__BackingField, put = __cordl_internal_set__enabled_k__BackingField)) bool _enabled_k__BackingField;
 
   /// @brief Field _scrollBindings, offset 0x18, size 0x8
-  __declspec(property(get = __get__scrollBindings, put = __set__scrollBindings))::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float_t>*>* _scrollBindings;
+  __declspec(property(get = __cordl_internal_get__scrollBindings,
+                      put = __cordl_internal_set__scrollBindings))::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float_t>*>* _scrollBindings;
 
   /// @brief Field _buttonBindings, offset 0x20, size 0x8
-  __declspec(property(get = __get__buttonBindings, put = __set__buttonBindings))::System::Collections::Generic::List_1<
+  __declspec(property(get = __cordl_internal_get__buttonBindings, put = __cordl_internal_set__buttonBindings))::System::Collections::Generic::List_1<
       ::System::ValueTuple_3<::HMUI::__MouseBinder__ButtonType, ::HMUI::__MouseBinder__MouseEventType, ::UnityEngine::Events::UnityAction*>>* _buttonBindings;
 
   __declspec(property(get = get_enabled, put = set_enabled)) bool enabled;
 
-  constexpr bool& __get__enabled_k__BackingField();
+  constexpr bool& __cordl_internal_get__enabled_k__BackingField();
 
-  constexpr bool const& __get__enabled_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__enabled_k__BackingField() const;
 
-  constexpr void __set__enabled_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__enabled_k__BackingField(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float_t>*>*& __get__scrollBindings();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float_t>*>*& __cordl_internal_get__scrollBindings();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float_t>*>*> const& __get__scrollBindings() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float_t>*>*> const& __cordl_internal_get__scrollBindings() const;
 
-  constexpr void __set__scrollBindings(::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float_t>*>* value);
+  constexpr void __cordl_internal_set__scrollBindings(::System::Collections::Generic::List_1<::UnityEngine::Events::UnityAction_1<float_t>*>* value);
 
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_3<::HMUI::__MouseBinder__ButtonType, ::HMUI::__MouseBinder__MouseEventType, ::UnityEngine::Events::UnityAction*>>*&
-  __get__buttonBindings();
+  __cordl_internal_get__buttonBindings();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::List_1<::System::ValueTuple_3<::HMUI::__MouseBinder__ButtonType, ::HMUI::__MouseBinder__MouseEventType, ::UnityEngine::Events::UnityAction*>>*> const&
-  __get__buttonBindings() const;
+  __cordl_internal_get__buttonBindings() const;
 
-  constexpr void __set__buttonBindings(
+  constexpr void __cordl_internal_set__buttonBindings(
       ::System::Collections::Generic::List_1<::System::ValueTuple_3<::HMUI::__MouseBinder__ButtonType, ::HMUI::__MouseBinder__MouseEventType, ::UnityEngine::Events::UnityAction*>>* value);
 
   /// @brief Method get_enabled, addr 0x2119bb4, size 0x8, virtual false, abstract: false, final false

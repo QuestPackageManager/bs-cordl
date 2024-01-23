@@ -34,47 +34,47 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeDataSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5108))
 // CS Name: ::MultiplayerBadgeDataSO*
 class CORDL_TYPE MultiplayerBadgeDataSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _titleLocalizationKey, offset 0x18, size 0x8
-  __declspec(property(get = __get__titleLocalizationKey, put = __set__titleLocalizationKey))::StringW _titleLocalizationKey;
+  __declspec(property(get = __cordl_internal_get__titleLocalizationKey, put = __cordl_internal_set__titleLocalizationKey))::StringW _titleLocalizationKey;
 
   /// @brief Field _subtitleLocalizationKey, offset 0x20, size 0x8
-  __declspec(property(get = __get__subtitleLocalizationKey, put = __set__subtitleLocalizationKey))::StringW _subtitleLocalizationKey;
+  __declspec(property(get = __cordl_internal_get__subtitleLocalizationKey, put = __cordl_internal_set__subtitleLocalizationKey))::StringW _subtitleLocalizationKey;
 
   /// @brief Field _icon, offset 0x28, size 0x8
-  __declspec(property(get = __get__icon, put = __set__icon))::UnityEngine::Sprite* _icon;
+  __declspec(property(get = __cordl_internal_get__icon, put = __cordl_internal_set__icon))::UnityW<::UnityEngine::Sprite> _icon;
 
-  __declspec(property(get = get_icon))::UnityEngine::Sprite* icon;
+  __declspec(property(get = get_icon))::UnityW<::UnityEngine::Sprite> icon;
 
   __declspec(property(get = get_titleLocalizationKey))::StringW titleLocalizationKey;
 
   __declspec(property(get = get_subtitleLocalizationKey))::StringW subtitleLocalizationKey;
 
-  constexpr ::StringW& __get__titleLocalizationKey();
+  constexpr ::StringW& __cordl_internal_get__titleLocalizationKey();
 
-  constexpr ::StringW const& __get__titleLocalizationKey() const;
+  constexpr ::StringW const& __cordl_internal_get__titleLocalizationKey() const;
 
-  constexpr void __set__titleLocalizationKey(::StringW value);
+  constexpr void __cordl_internal_set__titleLocalizationKey(::StringW value);
 
-  constexpr ::StringW& __get__subtitleLocalizationKey();
+  constexpr ::StringW& __cordl_internal_get__subtitleLocalizationKey();
 
-  constexpr ::StringW const& __get__subtitleLocalizationKey() const;
+  constexpr ::StringW const& __cordl_internal_get__subtitleLocalizationKey() const;
 
-  constexpr void __set__subtitleLocalizationKey(::StringW value);
+  constexpr void __cordl_internal_set__subtitleLocalizationKey(::StringW value);
 
-  constexpr ::UnityEngine::Sprite*& __get__icon();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__icon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__icon() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__icon() const;
 
-  constexpr void __set__icon(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::Sprite> value);
 
   /// @brief Method get_icon, addr 0x23cf8fc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Sprite* get_icon();
+  inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
   /// @brief Method get_titleLocalizationKey, addr 0x23cf904, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_titleLocalizationKey();
@@ -113,7 +113,7 @@ public:
   ::StringW ____subtitleLocalizationKey;
 
   /// @brief Field _icon, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____icon;
+  ::UnityW<::UnityEngine::Sprite> ____icon;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -20,29 +20,29 @@ MARK_REF_PTR_T(::System::Xml::Linq::XStreamingElement);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15458))
 // CS Name: ::System.Xml.Linq::XStreamingElement*
 class CORDL_TYPE XStreamingElement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::System::Xml::Linq::XName* name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::System::Xml::Linq::XName* name;
 
   /// @brief Field content, offset 0x18, size 0x8
-  __declspec(property(get = __get_content, put = __set_content))::System::Object* content;
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::System::Object* content;
 
-  constexpr ::System::Xml::Linq::XName*& __get_name();
+  constexpr ::System::Xml::Linq::XName*& __cordl_internal_get_name();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XName*> const& __get_name() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XName*> const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::System::Xml::Linq::XName* value);
+  constexpr void __cordl_internal_set_name(::System::Xml::Linq::XName* value);
 
-  constexpr ::System::Object*& __get_content();
+  constexpr ::System::Object*& __cordl_internal_get_content();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_content() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_content() const;
 
-  constexpr void __set_content(::System::Object* value);
+  constexpr void __cordl_internal_set_content(::System::Object* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "XStreamingElement", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

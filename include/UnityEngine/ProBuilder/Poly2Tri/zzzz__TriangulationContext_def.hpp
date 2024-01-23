@@ -44,34 +44,36 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15343)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15343))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15341))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::TriangulationContext*
 class CORDL_TYPE TriangulationContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <DebugContext>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__DebugContext_k__BackingField,
-                      put = __set__DebugContext_k__BackingField))::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* _DebugContext_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__DebugContext_k__BackingField,
+                      put = __cordl_internal_set__DebugContext_k__BackingField))::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* _DebugContext_k__BackingField;
 
   /// @brief Field Triangles, offset 0x18, size 0x8
-  __declspec(property(get = __get_Triangles, put = __set_Triangles))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* Triangles;
+  __declspec(property(get = __cordl_internal_get_Triangles,
+                      put = __cordl_internal_set_Triangles))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* Triangles;
 
   /// @brief Field Points, offset 0x20, size 0x8
-  __declspec(property(get = __get_Points, put = __set_Points))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* Points;
+  __declspec(property(get = __cordl_internal_get_Points, put = __cordl_internal_set_Points))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* Points;
 
   /// @brief Field <TriangulationMode>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__TriangulationMode_k__BackingField,
-                      put = __set__TriangulationMode_k__BackingField))::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode _TriangulationMode_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__TriangulationMode_k__BackingField,
+                      put = __cordl_internal_set__TriangulationMode_k__BackingField))::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode _TriangulationMode_k__BackingField;
 
   /// @brief Field <Triangulatable>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__Triangulatable_k__BackingField, put = __set__Triangulatable_k__BackingField))::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* _Triangulatable_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Triangulatable_k__BackingField,
+                      put = __cordl_internal_set__Triangulatable_k__BackingField))::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* _Triangulatable_k__BackingField;
 
   /// @brief Field <StepCount>k__BackingField, offset 0x38, size 0x4
-  __declspec(property(get = __get__StepCount_k__BackingField, put = __set__StepCount_k__BackingField)) int32_t _StepCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__StepCount_k__BackingField, put = __cordl_internal_set__StepCount_k__BackingField)) int32_t _StepCount_k__BackingField;
 
   /// @brief Field <IsDebugEnabled>k__BackingField, offset 0x3c, size 0x1
-  __declspec(property(get = __get__IsDebugEnabled_k__BackingField, put = __set__IsDebugEnabled_k__BackingField)) bool _IsDebugEnabled_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsDebugEnabled_k__BackingField, put = __cordl_internal_set__IsDebugEnabled_k__BackingField)) bool _IsDebugEnabled_k__BackingField;
 
   __declspec(property(get = get_DebugContext, put = set_DebugContext))::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* DebugContext;
 
@@ -87,47 +89,47 @@ public:
 
   __declspec(property(get = get_DTDebugContext))::UnityEngine::ProBuilder::Poly2Tri::DTSweepDebugContext* DTDebugContext;
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext*& __get__DebugContext_k__BackingField();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext*& __cordl_internal_get__DebugContext_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext*> const& __get__DebugContext_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext*> const& __cordl_internal_get__DebugContext_k__BackingField() const;
 
-  constexpr void __set__DebugContext_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* value);
+  constexpr void __cordl_internal_set__DebugContext_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*& __get_Triangles();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*& __cordl_internal_get_Triangles();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*> const& __get_Triangles() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>*> const& __cordl_internal_get_Triangles() const;
 
-  constexpr void __set_Triangles(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* value);
+  constexpr void __cordl_internal_set_Triangles(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*& __get_Points();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*& __cordl_internal_get_Points();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*> const& __get_Points() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>*> const& __cordl_internal_get_Points() const;
 
-  constexpr void __set_Points(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* value);
+  constexpr void __cordl_internal_set_Points(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode& __get__TriangulationMode_k__BackingField();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode& __cordl_internal_get__TriangulationMode_k__BackingField();
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode const& __get__TriangulationMode_k__BackingField() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode const& __cordl_internal_get__TriangulationMode_k__BackingField() const;
 
-  constexpr void __set__TriangulationMode_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode value);
+  constexpr void __cordl_internal_set__TriangulationMode_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::TriangulationMode value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*& __get__Triangulatable_k__BackingField();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*& __cordl_internal_get__Triangulatable_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*> const& __get__Triangulatable_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*> const& __cordl_internal_get__Triangulatable_k__BackingField() const;
 
-  constexpr void __set__Triangulatable_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* value);
+  constexpr void __cordl_internal_set__Triangulatable_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* value);
 
-  constexpr int32_t& __get__StepCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__StepCount_k__BackingField();
 
-  constexpr int32_t const& __get__StepCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__StepCount_k__BackingField() const;
 
-  constexpr void __set__StepCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__StepCount_k__BackingField(int32_t value);
 
-  constexpr bool& __get__IsDebugEnabled_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsDebugEnabled_k__BackingField();
 
-  constexpr bool const& __get__IsDebugEnabled_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsDebugEnabled_k__BackingField() const;
 
-  constexpr void __set__IsDebugEnabled_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsDebugEnabled_k__BackingField(bool value);
 
   /// @brief Method get_DebugContext, addr 0x2b35684, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* get_DebugContext();

@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::PolyShape);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12149))
 // CS Name: ::PolyShape::PolyEditMode
 struct CORDL_TYPE __PolyShape__PolyEditMode {
@@ -98,7 +98,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__PolyShape__PolyEditMode, val
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(12149))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(12149))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12150))
 // CS Name: ::UnityEngine.ProBuilder::PolyShape*
 class CORDL_TYPE PolyShape : public ::UnityEngine::MonoBehaviour {
@@ -107,22 +107,22 @@ public:
   using PolyEditMode = ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode;
 
   /// @brief Field m_Mesh, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Mesh, put = __set_m_Mesh))::UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh;
+  __declspec(property(get = __cordl_internal_get_m_Mesh, put = __cordl_internal_set_m_Mesh))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> m_Mesh;
 
   /// @brief Field m_Points, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Points, put = __set_m_Points))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* m_Points;
+  __declspec(property(get = __cordl_internal_get_m_Points, put = __cordl_internal_set_m_Points))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* m_Points;
 
   /// @brief Field m_Extrude, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_Extrude, put = __set_m_Extrude)) float_t m_Extrude;
+  __declspec(property(get = __cordl_internal_get_m_Extrude, put = __cordl_internal_set_m_Extrude)) float_t m_Extrude;
 
   /// @brief Field m_EditMode, offset 0x2c, size 0x4
-  __declspec(property(get = __get_m_EditMode, put = __set_m_EditMode))::UnityEngine::ProBuilder::__PolyShape__PolyEditMode m_EditMode;
+  __declspec(property(get = __cordl_internal_get_m_EditMode, put = __cordl_internal_set_m_EditMode))::UnityEngine::ProBuilder::__PolyShape__PolyEditMode m_EditMode;
 
   /// @brief Field m_FlipNormals, offset 0x30, size 0x1
-  __declspec(property(get = __get_m_FlipNormals, put = __set_m_FlipNormals)) bool m_FlipNormals;
+  __declspec(property(get = __cordl_internal_get_m_FlipNormals, put = __cordl_internal_set_m_FlipNormals)) bool m_FlipNormals;
 
   /// @brief Field isOnGrid, offset 0x31, size 0x1
-  __declspec(property(get = __get_isOnGrid, put = __set_isOnGrid)) bool isOnGrid;
+  __declspec(property(get = __cordl_internal_get_isOnGrid, put = __cordl_internal_set_isOnGrid)) bool isOnGrid;
 
   __declspec(property(get = get_controlPoints))::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Vector3>* controlPoints;
 
@@ -132,43 +132,43 @@ public:
 
   __declspec(property(get = get_flipNormals, put = set_flipNormals)) bool flipNormals;
 
-  __declspec(property(get = get_mesh, put = set_mesh))::UnityEngine::ProBuilder::ProBuilderMesh* mesh;
+  __declspec(property(get = get_mesh, put = set_mesh))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> mesh;
 
-  constexpr ::UnityEngine::ProBuilder::ProBuilderMesh*& __get_m_Mesh();
+  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>& __cordl_internal_get_m_Mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::ProBuilderMesh*> const& __get_m_Mesh() const;
+  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> const& __cordl_internal_get_m_Mesh() const;
 
-  constexpr void __set_m_Mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
+  constexpr void __cordl_internal_set_m_Mesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __get_m_Points();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_m_Points();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __get_m_Points() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_Points() const;
 
-  constexpr void __set_m_Points(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set_m_Points(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  constexpr float_t& __get_m_Extrude();
+  constexpr float_t& __cordl_internal_get_m_Extrude();
 
-  constexpr float_t const& __get_m_Extrude() const;
+  constexpr float_t const& __cordl_internal_get_m_Extrude() const;
 
-  constexpr void __set_m_Extrude(float_t value);
+  constexpr void __cordl_internal_set_m_Extrude(float_t value);
 
-  constexpr ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode& __get_m_EditMode();
+  constexpr ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode& __cordl_internal_get_m_EditMode();
 
-  constexpr ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode const& __get_m_EditMode() const;
+  constexpr ::UnityEngine::ProBuilder::__PolyShape__PolyEditMode const& __cordl_internal_get_m_EditMode() const;
 
-  constexpr void __set_m_EditMode(::UnityEngine::ProBuilder::__PolyShape__PolyEditMode value);
+  constexpr void __cordl_internal_set_m_EditMode(::UnityEngine::ProBuilder::__PolyShape__PolyEditMode value);
 
-  constexpr bool& __get_m_FlipNormals();
+  constexpr bool& __cordl_internal_get_m_FlipNormals();
 
-  constexpr bool const& __get_m_FlipNormals() const;
+  constexpr bool const& __cordl_internal_get_m_FlipNormals() const;
 
-  constexpr void __set_m_FlipNormals(bool value);
+  constexpr void __cordl_internal_set_m_FlipNormals(bool value);
 
-  constexpr bool& __get_isOnGrid();
+  constexpr bool& __cordl_internal_get_isOnGrid();
 
-  constexpr bool const& __get_isOnGrid() const;
+  constexpr bool const& __cordl_internal_get_isOnGrid() const;
 
-  constexpr void __set_isOnGrid(bool value);
+  constexpr void __cordl_internal_set_isOnGrid(bool value);
 
   /// @brief Method get_controlPoints, addr 0x2b55e30, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Vector3>* get_controlPoints();
@@ -195,7 +195,7 @@ public:
   inline void set_flipNormals(bool value);
 
   /// @brief Method get_mesh, addr 0x2b55f3c, size 0x94, virtual false, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::ProBuilderMesh* get_mesh();
+  inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> get_mesh();
 
   /// @brief Method set_mesh, addr 0x2b55fd0, size 0x8, virtual false, abstract: false, final false
   inline void set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
@@ -223,7 +223,7 @@ protected:
 
 public:
   /// @brief Field m_Mesh, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::ProBuilder::ProBuilderMesh* ___m_Mesh;
+  ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> ___m_Mesh;
 
   /// @brief Field m_Points, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* ___m_Points;

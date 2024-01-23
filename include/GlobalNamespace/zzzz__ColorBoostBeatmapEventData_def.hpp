@@ -21,23 +21,23 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorBoostBeatmapEventData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14727))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14727))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14730))
 // CS Name: ::ColorBoostBeatmapEventData*
 class CORDL_TYPE ColorBoostBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
 public:
   // Declarations
   /// @brief Field boostColorsAreOn, offset 0x30, size 0x1
-  __declspec(property(get = __get_boostColorsAreOn, put = __set_boostColorsAreOn)) bool boostColorsAreOn;
+  __declspec(property(get = __cordl_internal_get_boostColorsAreOn, put = __cordl_internal_set_boostColorsAreOn)) bool boostColorsAreOn;
 
   /// @brief Field _defaultCopy, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__defaultCopy, put = setStaticF__defaultCopy))::GlobalNamespace::ColorBoostBeatmapEventData* _defaultCopy;
 
-  constexpr bool& __get_boostColorsAreOn();
+  constexpr bool& __cordl_internal_get_boostColorsAreOn();
 
-  constexpr bool const& __get_boostColorsAreOn() const;
+  constexpr bool const& __cordl_internal_get_boostColorsAreOn() const;
 
-  constexpr void __set_boostColorsAreOn(bool value);
+  constexpr void __cordl_internal_set_boostColorsAreOn(bool value);
 
   static inline void setStaticF__defaultCopy(::GlobalNamespace::ColorBoostBeatmapEventData* value);
 

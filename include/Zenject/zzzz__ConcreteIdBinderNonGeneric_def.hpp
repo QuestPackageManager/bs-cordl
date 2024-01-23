@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Zenject::ConcreteIdBinderNonGeneric);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10672))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10672))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10674))
 // CS Name: ::Zenject::ConcreteIdBinderNonGeneric*
 class CORDL_TYPE ConcreteIdBinderNonGeneric : public ::Zenject::ConcreteBinderNonGeneric {

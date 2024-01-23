@@ -16,20 +16,20 @@ MARK_REF_PTR_T(::System::Security::Cryptography::KeySizes);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2923))
 // CS Name: ::System.Security.Cryptography::KeySizes*
 class CORDL_TYPE KeySizes : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_minSize, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_minSize, put = __set_m_minSize)) int32_t m_minSize;
+  __declspec(property(get = __cordl_internal_get_m_minSize, put = __cordl_internal_set_m_minSize)) int32_t m_minSize;
 
   /// @brief Field m_maxSize, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_maxSize, put = __set_m_maxSize)) int32_t m_maxSize;
+  __declspec(property(get = __cordl_internal_get_m_maxSize, put = __cordl_internal_set_m_maxSize)) int32_t m_maxSize;
 
   /// @brief Field m_skipSize, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_skipSize, put = __set_m_skipSize)) int32_t m_skipSize;
+  __declspec(property(get = __cordl_internal_get_m_skipSize, put = __cordl_internal_set_m_skipSize)) int32_t m_skipSize;
 
   __declspec(property(get = get_MinSize)) int32_t MinSize;
 
@@ -37,23 +37,23 @@ public:
 
   __declspec(property(get = get_SkipSize)) int32_t SkipSize;
 
-  constexpr int32_t& __get_m_minSize();
+  constexpr int32_t& __cordl_internal_get_m_minSize();
 
-  constexpr int32_t const& __get_m_minSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_minSize() const;
 
-  constexpr void __set_m_minSize(int32_t value);
+  constexpr void __cordl_internal_set_m_minSize(int32_t value);
 
-  constexpr int32_t& __get_m_maxSize();
+  constexpr int32_t& __cordl_internal_get_m_maxSize();
 
-  constexpr int32_t const& __get_m_maxSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_maxSize() const;
 
-  constexpr void __set_m_maxSize(int32_t value);
+  constexpr void __cordl_internal_set_m_maxSize(int32_t value);
 
-  constexpr int32_t& __get_m_skipSize();
+  constexpr int32_t& __cordl_internal_get_m_skipSize();
 
-  constexpr int32_t const& __get_m_skipSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_skipSize() const;
 
-  constexpr void __set_m_skipSize(int32_t value);
+  constexpr void __cordl_internal_set_m_skipSize(int32_t value);
 
   /// @brief Method get_MinSize, addr 0x245c000, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MinSize();

@@ -34,91 +34,91 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexCode);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 93, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(8927)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4755 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8919)) CS Name: ::System.Text.RegularExpressions::RegexCode*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8927)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4755 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8919)) CS Name: ::System.Text.RegularExpressions::RegexCode*
 class CORDL_TYPE RegexCode : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Codes, offset 0x10, size 0x8
-  __declspec(property(get = __get_Codes, put = __set_Codes))::ArrayW<int32_t, ::Array<int32_t>*> Codes;
+  __declspec(property(get = __cordl_internal_get_Codes, put = __cordl_internal_set_Codes))::ArrayW<int32_t, ::Array<int32_t>*> Codes;
 
   /// @brief Field Strings, offset 0x18, size 0x8
-  __declspec(property(get = __get_Strings, put = __set_Strings))::ArrayW<::StringW, ::Array<::StringW>*> Strings;
+  __declspec(property(get = __cordl_internal_get_Strings, put = __cordl_internal_set_Strings))::ArrayW<::StringW, ::Array<::StringW>*> Strings;
 
   /// @brief Field TrackCount, offset 0x20, size 0x4
-  __declspec(property(get = __get_TrackCount, put = __set_TrackCount)) int32_t TrackCount;
+  __declspec(property(get = __cordl_internal_get_TrackCount, put = __cordl_internal_set_TrackCount)) int32_t TrackCount;
 
   /// @brief Field Caps, offset 0x28, size 0x8
-  __declspec(property(get = __get_Caps, put = __set_Caps))::System::Collections::Hashtable* Caps;
+  __declspec(property(get = __cordl_internal_get_Caps, put = __cordl_internal_set_Caps))::System::Collections::Hashtable* Caps;
 
   /// @brief Field CapSize, offset 0x30, size 0x4
-  __declspec(property(get = __get_CapSize, put = __set_CapSize)) int32_t CapSize;
+  __declspec(property(get = __cordl_internal_get_CapSize, put = __cordl_internal_set_CapSize)) int32_t CapSize;
 
   /// @brief Field FCPrefix, offset 0x38, size 0x18
-  __declspec(property(get = __get_FCPrefix, put = __set_FCPrefix))::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> FCPrefix;
+  __declspec(property(get = __cordl_internal_get_FCPrefix, put = __cordl_internal_set_FCPrefix))::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> FCPrefix;
 
   /// @brief Field BMPrefix, offset 0x50, size 0x8
-  __declspec(property(get = __get_BMPrefix, put = __set_BMPrefix))::System::Text::RegularExpressions::RegexBoyerMoore* BMPrefix;
+  __declspec(property(get = __cordl_internal_get_BMPrefix, put = __cordl_internal_set_BMPrefix))::System::Text::RegularExpressions::RegexBoyerMoore* BMPrefix;
 
   /// @brief Field Anchors, offset 0x58, size 0x4
-  __declspec(property(get = __get_Anchors, put = __set_Anchors)) int32_t Anchors;
+  __declspec(property(get = __cordl_internal_get_Anchors, put = __cordl_internal_set_Anchors)) int32_t Anchors;
 
   /// @brief Field RightToLeft, offset 0x5c, size 0x1
-  __declspec(property(get = __get_RightToLeft, put = __set_RightToLeft)) bool RightToLeft;
+  __declspec(property(get = __cordl_internal_get_RightToLeft, put = __cordl_internal_set_RightToLeft)) bool RightToLeft;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_Codes();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_Codes();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_Codes() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_Codes() const;
 
-  constexpr void __set_Codes(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_Codes(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_Strings();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_Strings();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_Strings() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_Strings() const;
 
-  constexpr void __set_Strings(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_Strings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr int32_t& __get_TrackCount();
+  constexpr int32_t& __cordl_internal_get_TrackCount();
 
-  constexpr int32_t const& __get_TrackCount() const;
+  constexpr int32_t const& __cordl_internal_get_TrackCount() const;
 
-  constexpr void __set_TrackCount(int32_t value);
+  constexpr void __cordl_internal_set_TrackCount(int32_t value);
 
-  constexpr ::System::Collections::Hashtable*& __get_Caps();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_Caps();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_Caps() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_Caps() const;
 
-  constexpr void __set_Caps(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_Caps(::System::Collections::Hashtable* value);
 
-  constexpr int32_t& __get_CapSize();
+  constexpr int32_t& __cordl_internal_get_CapSize();
 
-  constexpr int32_t const& __get_CapSize() const;
+  constexpr int32_t const& __cordl_internal_get_CapSize() const;
 
-  constexpr void __set_CapSize(int32_t value);
+  constexpr void __cordl_internal_set_CapSize(int32_t value);
 
-  constexpr ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix>& __get_FCPrefix();
+  constexpr ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix>& __cordl_internal_get_FCPrefix();
 
-  constexpr ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> const& __get_FCPrefix() const;
+  constexpr ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> const& __cordl_internal_get_FCPrefix() const;
 
-  constexpr void __set_FCPrefix(::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> value);
+  constexpr void __cordl_internal_set_FCPrefix(::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> value);
 
-  constexpr ::System::Text::RegularExpressions::RegexBoyerMoore*& __get_BMPrefix();
+  constexpr ::System::Text::RegularExpressions::RegexBoyerMoore*& __cordl_internal_get_BMPrefix();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexBoyerMoore*> const& __get_BMPrefix() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexBoyerMoore*> const& __cordl_internal_get_BMPrefix() const;
 
-  constexpr void __set_BMPrefix(::System::Text::RegularExpressions::RegexBoyerMoore* value);
+  constexpr void __cordl_internal_set_BMPrefix(::System::Text::RegularExpressions::RegexBoyerMoore* value);
 
-  constexpr int32_t& __get_Anchors();
+  constexpr int32_t& __cordl_internal_get_Anchors();
 
-  constexpr int32_t const& __get_Anchors() const;
+  constexpr int32_t const& __cordl_internal_get_Anchors() const;
 
-  constexpr void __set_Anchors(int32_t value);
+  constexpr void __cordl_internal_set_Anchors(int32_t value);
 
-  constexpr bool& __get_RightToLeft();
+  constexpr bool& __cordl_internal_get_RightToLeft();
 
-  constexpr bool const& __get_RightToLeft() const;
+  constexpr bool const& __cordl_internal_get_RightToLeft() const;
 
-  constexpr void __set_RightToLeft(bool value);
+  constexpr void __cordl_internal_set_RightToLeft(bool value);
 
   static inline ::System::Text::RegularExpressions::RegexCode* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> codes, ::System::Collections::Generic::List_1<::StringW>* stringlist, int32_t trackcount,
                                                                         ::System::Collections::Hashtable* caps, int32_t capsize, ::System::Text::RegularExpressions::RegexBoyerMoore* bmPrefix,

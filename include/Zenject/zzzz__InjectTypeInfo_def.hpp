@@ -58,29 +58,29 @@ MARK_REF_PTR_T(::Zenject::__InjectTypeInfo__InjectMethodInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15716))
 // CS Name: ::InjectTypeInfo::InjectMemberInfo*
 class CORDL_TYPE __InjectTypeInfo__InjectMemberInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Setter, offset 0x10, size 0x8
-  __declspec(property(get = __get_Setter, put = __set_Setter))::Zenject::ZenMemberSetterMethod* Setter;
+  __declspec(property(get = __cordl_internal_get_Setter, put = __cordl_internal_set_Setter))::Zenject::ZenMemberSetterMethod* Setter;
 
   /// @brief Field Info, offset 0x18, size 0x8
-  __declspec(property(get = __get_Info, put = __set_Info))::Zenject::InjectableInfo* Info;
+  __declspec(property(get = __cordl_internal_get_Info, put = __cordl_internal_set_Info))::Zenject::InjectableInfo* Info;
 
-  constexpr ::Zenject::ZenMemberSetterMethod*& __get_Setter();
+  constexpr ::Zenject::ZenMemberSetterMethod*& __cordl_internal_get_Setter();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::ZenMemberSetterMethod*> const& __get_Setter() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::ZenMemberSetterMethod*> const& __cordl_internal_get_Setter() const;
 
-  constexpr void __set_Setter(::Zenject::ZenMemberSetterMethod* value);
+  constexpr void __cordl_internal_set_Setter(::Zenject::ZenMemberSetterMethod* value);
 
-  constexpr ::Zenject::InjectableInfo*& __get_Info();
+  constexpr ::Zenject::InjectableInfo*& __cordl_internal_get_Info();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectableInfo*> const& __get_Info() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectableInfo*> const& __cordl_internal_get_Info() const;
 
-  constexpr void __set_Info(::Zenject::InjectableInfo* value);
+  constexpr void __cordl_internal_set_Info(::Zenject::InjectableInfo* value);
 
   static inline ::Zenject::__InjectTypeInfo__InjectMemberInfo* New_ctor(::Zenject::ZenMemberSetterMethod* setter, ::Zenject::InjectableInfo* info);
 
@@ -121,29 +121,29 @@ static_assert(offsetof(::Zenject::__InjectTypeInfo__InjectMemberInfo, ___Info) =
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15717))
 // CS Name: ::InjectTypeInfo::InjectConstructorInfo*
 class CORDL_TYPE __InjectTypeInfo__InjectConstructorInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Factory, offset 0x10, size 0x8
-  __declspec(property(get = __get_Factory, put = __set_Factory))::Zenject::ZenFactoryMethod* Factory;
+  __declspec(property(get = __cordl_internal_get_Factory, put = __cordl_internal_set_Factory))::Zenject::ZenFactoryMethod* Factory;
 
   /// @brief Field Parameters, offset 0x18, size 0x8
-  __declspec(property(get = __get_Parameters, put = __set_Parameters))::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> Parameters;
+  __declspec(property(get = __cordl_internal_get_Parameters, put = __cordl_internal_set_Parameters))::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> Parameters;
 
-  constexpr ::Zenject::ZenFactoryMethod*& __get_Factory();
+  constexpr ::Zenject::ZenFactoryMethod*& __cordl_internal_get_Factory();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::ZenFactoryMethod*> const& __get_Factory() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::ZenFactoryMethod*> const& __cordl_internal_get_Factory() const;
 
-  constexpr void __set_Factory(::Zenject::ZenFactoryMethod* value);
+  constexpr void __cordl_internal_set_Factory(::Zenject::ZenFactoryMethod* value);
 
-  constexpr ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*>& __get_Parameters();
+  constexpr ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*>& __cordl_internal_get_Parameters();
 
-  constexpr ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> const& __get_Parameters() const;
+  constexpr ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> const& __cordl_internal_get_Parameters() const;
 
-  constexpr void __set_Parameters(::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> value);
+  constexpr void __cordl_internal_set_Parameters(::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> value);
 
   static inline ::Zenject::__InjectTypeInfo__InjectConstructorInfo* New_ctor(::Zenject::ZenFactoryMethod* factory,
                                                                              ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> parameters);
@@ -185,38 +185,38 @@ static_assert(offsetof(::Zenject::__InjectTypeInfo__InjectConstructorInfo, ___Pa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15718))
 // CS Name: ::InjectTypeInfo::InjectMethodInfo*
 class CORDL_TYPE __InjectTypeInfo__InjectMethodInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Name, offset 0x10, size 0x8
-  __declspec(property(get = __get_Name, put = __set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
 
   /// @brief Field Action, offset 0x18, size 0x8
-  __declspec(property(get = __get_Action, put = __set_Action))::Zenject::ZenInjectMethod* Action;
+  __declspec(property(get = __cordl_internal_get_Action, put = __cordl_internal_set_Action))::Zenject::ZenInjectMethod* Action;
 
   /// @brief Field Parameters, offset 0x20, size 0x8
-  __declspec(property(get = __get_Parameters, put = __set_Parameters))::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> Parameters;
+  __declspec(property(get = __cordl_internal_get_Parameters, put = __cordl_internal_set_Parameters))::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> Parameters;
 
-  constexpr ::StringW& __get_Name();
+  constexpr ::StringW& __cordl_internal_get_Name();
 
-  constexpr ::StringW const& __get_Name() const;
+  constexpr ::StringW const& __cordl_internal_get_Name() const;
 
-  constexpr void __set_Name(::StringW value);
+  constexpr void __cordl_internal_set_Name(::StringW value);
 
-  constexpr ::Zenject::ZenInjectMethod*& __get_Action();
+  constexpr ::Zenject::ZenInjectMethod*& __cordl_internal_get_Action();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::ZenInjectMethod*> const& __get_Action() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::ZenInjectMethod*> const& __cordl_internal_get_Action() const;
 
-  constexpr void __set_Action(::Zenject::ZenInjectMethod* value);
+  constexpr void __cordl_internal_set_Action(::Zenject::ZenInjectMethod* value);
 
-  constexpr ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*>& __get_Parameters();
+  constexpr ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*>& __cordl_internal_get_Parameters();
 
-  constexpr ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> const& __get_Parameters() const;
+  constexpr ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> const& __cordl_internal_get_Parameters() const;
 
-  constexpr void __set_Parameters(::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> value);
+  constexpr void __cordl_internal_set_Parameters(::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> value);
 
   static inline ::Zenject::__InjectTypeInfo__InjectMethodInfo* New_ctor(::Zenject::ZenInjectMethod* action, ::ArrayW<::Zenject::InjectableInfo*, ::Array<::Zenject::InjectableInfo*>*> parameters,
                                                                         ::StringW name);
@@ -263,7 +263,7 @@ static_assert(offsetof(::Zenject::__InjectTypeInfo__InjectMethodInfo, ___Paramet
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15719))
 // CS Name: ::Zenject::InjectTypeInfo*
 class CORDL_TYPE InjectTypeInfo : public ::System::Object {
@@ -276,21 +276,21 @@ public:
   using InjectMemberInfo = ::Zenject::__InjectTypeInfo__InjectMemberInfo;
 
   /// @brief Field Type, offset 0x10, size 0x8
-  __declspec(property(get = __get_Type, put = __set_Type))::System::Type* Type;
+  __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type))::System::Type* Type;
 
   /// @brief Field InjectMethods, offset 0x18, size 0x8
-  __declspec(property(get = __get_InjectMethods,
-                      put = __set_InjectMethods))::ArrayW<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMethodInfo*>*> InjectMethods;
+  __declspec(property(get = __cordl_internal_get_InjectMethods,
+                      put = __cordl_internal_set_InjectMethods))::ArrayW<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMethodInfo*>*> InjectMethods;
 
   /// @brief Field InjectMembers, offset 0x20, size 0x8
-  __declspec(property(get = __get_InjectMembers,
-                      put = __set_InjectMembers))::ArrayW<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMemberInfo*>*> InjectMembers;
+  __declspec(property(get = __cordl_internal_get_InjectMembers,
+                      put = __cordl_internal_set_InjectMembers))::ArrayW<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMemberInfo*>*> InjectMembers;
 
   /// @brief Field InjectConstructor, offset 0x28, size 0x8
-  __declspec(property(get = __get_InjectConstructor, put = __set_InjectConstructor))::Zenject::__InjectTypeInfo__InjectConstructorInfo* InjectConstructor;
+  __declspec(property(get = __cordl_internal_get_InjectConstructor, put = __cordl_internal_set_InjectConstructor))::Zenject::__InjectTypeInfo__InjectConstructorInfo* InjectConstructor;
 
   /// @brief Field <BaseTypeInfo>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__BaseTypeInfo_k__BackingField, put = __set__BaseTypeInfo_k__BackingField))::Zenject::InjectTypeInfo* _BaseTypeInfo_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BaseTypeInfo_k__BackingField, put = __cordl_internal_set__BaseTypeInfo_k__BackingField))::Zenject::InjectTypeInfo* _BaseTypeInfo_k__BackingField;
 
   /// @brief Field CS$<>9__CachedAnonymousMethodDelegate2, offset 0xffffffff, size 0x8
   static __declspec(property(
@@ -305,35 +305,35 @@ public:
 
   __declspec(property(get = get_AllInjectables))::System::Collections::Generic::IEnumerable_1<::Zenject::InjectableInfo*>* AllInjectables;
 
-  constexpr ::System::Type*& __get_Type();
+  constexpr ::System::Type*& __cordl_internal_get_Type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_Type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_Type() const;
 
-  constexpr void __set_Type(::System::Type* value);
+  constexpr void __cordl_internal_set_Type(::System::Type* value);
 
-  constexpr ::ArrayW<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMethodInfo*>*>& __get_InjectMethods();
+  constexpr ::ArrayW<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMethodInfo*>*>& __cordl_internal_get_InjectMethods();
 
-  constexpr ::ArrayW<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMethodInfo*>*> const& __get_InjectMethods() const;
+  constexpr ::ArrayW<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMethodInfo*>*> const& __cordl_internal_get_InjectMethods() const;
 
-  constexpr void __set_InjectMethods(::ArrayW<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMethodInfo*>*> value);
+  constexpr void __cordl_internal_set_InjectMethods(::ArrayW<::Zenject::__InjectTypeInfo__InjectMethodInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMethodInfo*>*> value);
 
-  constexpr ::ArrayW<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMemberInfo*>*>& __get_InjectMembers();
+  constexpr ::ArrayW<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMemberInfo*>*>& __cordl_internal_get_InjectMembers();
 
-  constexpr ::ArrayW<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMemberInfo*>*> const& __get_InjectMembers() const;
+  constexpr ::ArrayW<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMemberInfo*>*> const& __cordl_internal_get_InjectMembers() const;
 
-  constexpr void __set_InjectMembers(::ArrayW<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMemberInfo*>*> value);
+  constexpr void __cordl_internal_set_InjectMembers(::ArrayW<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Array<::Zenject::__InjectTypeInfo__InjectMemberInfo*>*> value);
 
-  constexpr ::Zenject::__InjectTypeInfo__InjectConstructorInfo*& __get_InjectConstructor();
+  constexpr ::Zenject::__InjectTypeInfo__InjectConstructorInfo*& __cordl_internal_get_InjectConstructor();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::__InjectTypeInfo__InjectConstructorInfo*> const& __get_InjectConstructor() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::__InjectTypeInfo__InjectConstructorInfo*> const& __cordl_internal_get_InjectConstructor() const;
 
-  constexpr void __set_InjectConstructor(::Zenject::__InjectTypeInfo__InjectConstructorInfo* value);
+  constexpr void __cordl_internal_set_InjectConstructor(::Zenject::__InjectTypeInfo__InjectConstructorInfo* value);
 
-  constexpr ::Zenject::InjectTypeInfo*& __get__BaseTypeInfo_k__BackingField();
+  constexpr ::Zenject::InjectTypeInfo*& __cordl_internal_get__BaseTypeInfo_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectTypeInfo*> const& __get__BaseTypeInfo_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectTypeInfo*> const& __cordl_internal_get__BaseTypeInfo_k__BackingField() const;
 
-  constexpr void __set__BaseTypeInfo_k__BackingField(::Zenject::InjectTypeInfo* value);
+  constexpr void __cordl_internal_set__BaseTypeInfo_k__BackingField(::Zenject::InjectTypeInfo* value);
 
   static inline void setStaticF_CS$__9__CachedAnonymousMethodDelegate2(::System::Func_2<::Zenject::__InjectTypeInfo__InjectMemberInfo*, ::Zenject::InjectableInfo*>* value);
 

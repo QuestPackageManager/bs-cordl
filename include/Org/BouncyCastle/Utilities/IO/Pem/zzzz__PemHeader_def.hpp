@@ -19,33 +19,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::Pem::PemHeader);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1805))
 // CS Name: ::Org.BouncyCastle.Utilities.IO.Pem::PemHeader*
 class CORDL_TYPE PemHeader : public ::System::Object {
 public:
   // Declarations
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field val, offset 0x18, size 0x8
-  __declspec(property(get = __get_val, put = __set_val))::StringW val;
+  __declspec(property(get = __cordl_internal_get_val, put = __cordl_internal_set_val))::StringW val;
 
   __declspec(property(get = get_Name))::StringW Name;
 
   __declspec(property(get = get_Value))::StringW Value;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::StringW& __get_val();
+  constexpr ::StringW& __cordl_internal_get_val();
 
-  constexpr ::StringW const& __get_val() const;
+  constexpr ::StringW const& __cordl_internal_get_val() const;
 
-  constexpr void __set_val(::StringW value);
+  constexpr void __cordl_internal_set_val(::StringW value);
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemHeader* New_ctor(::StringW name, ::StringW val);
 

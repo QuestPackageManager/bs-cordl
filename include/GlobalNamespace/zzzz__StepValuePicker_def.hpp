@@ -24,26 +24,26 @@ MARK_REF_PTR_T(::GlobalNamespace::StepValuePicker);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16154))
 // CS Name: ::StepValuePicker*
 class CORDL_TYPE StepValuePicker : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _decButton, offset 0x18, size 0x8
-  __declspec(property(get = __get__decButton, put = __set__decButton))::UnityEngine::UI::Button* _decButton;
+  __declspec(property(get = __cordl_internal_get__decButton, put = __cordl_internal_set__decButton))::UnityW<::UnityEngine::UI::Button> _decButton;
 
   /// @brief Field _incButton, offset 0x20, size 0x8
-  __declspec(property(get = __get__incButton, put = __set__incButton))::UnityEngine::UI::Button* _incButton;
+  __declspec(property(get = __cordl_internal_get__incButton, put = __cordl_internal_set__incButton))::UnityW<::UnityEngine::UI::Button> _incButton;
 
   /// @brief Field _valueText, offset 0x28, size 0x8
-  __declspec(property(get = __get__valueText, put = __set__valueText))::TMPro::TextMeshProUGUI* _valueText;
+  __declspec(property(get = __cordl_internal_get__valueText, put = __cordl_internal_set__valueText))::UnityW<::TMPro::TextMeshProUGUI> _valueText;
 
   /// @brief Field decButtonWasPressedEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_decButtonWasPressedEvent, put = __set_decButtonWasPressedEvent))::System::Action* decButtonWasPressedEvent;
+  __declspec(property(get = __cordl_internal_get_decButtonWasPressedEvent, put = __cordl_internal_set_decButtonWasPressedEvent))::System::Action* decButtonWasPressedEvent;
 
   /// @brief Field incButtonWasPressedEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_incButtonWasPressedEvent, put = __set_incButtonWasPressedEvent))::System::Action* incButtonWasPressedEvent;
+  __declspec(property(get = __cordl_internal_get_incButtonWasPressedEvent, put = __cordl_internal_set_incButtonWasPressedEvent))::System::Action* incButtonWasPressedEvent;
 
   __declspec(property(get = get_text, put = set_text))::StringW text;
 
@@ -51,35 +51,35 @@ public:
 
   __declspec(property(put = set_incButtonInteractable)) bool incButtonInteractable;
 
-  constexpr ::UnityEngine::UI::Button*& __get__decButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__decButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__decButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__decButton() const;
 
-  constexpr void __set__decButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__decButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__incButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__incButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__incButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__incButton() const;
 
-  constexpr void __set__incButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__incButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__valueText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__valueText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__valueText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__valueText() const;
 
-  constexpr void __set__valueText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__valueText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::System::Action*& __get_decButtonWasPressedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_decButtonWasPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_decButtonWasPressedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_decButtonWasPressedEvent() const;
 
-  constexpr void __set_decButtonWasPressedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_decButtonWasPressedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_incButtonWasPressedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_incButtonWasPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_incButtonWasPressedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_incButtonWasPressedEvent() const;
 
-  constexpr void __set_incButtonWasPressedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_incButtonWasPressedEvent(::System::Action* value);
 
   /// @brief Method add_decButtonWasPressedEvent, addr 0x23e4b90, size 0x9c, virtual false, abstract: false, final false
   inline void add_decButtonWasPressedEvent(::System::Action* value);
@@ -137,13 +137,13 @@ protected:
 
 public:
   /// @brief Field _decButton, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____decButton;
+  ::UnityW<::UnityEngine::UI::Button> ____decButton;
 
   /// @brief Field _incButton, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____incButton;
+  ::UnityW<::UnityEngine::UI::Button> ____incButton;
 
   /// @brief Field _valueText, offset: 0x28, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____valueText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____valueText;
 
   /// @brief Field decButtonWasPressedEvent, offset: 0x30, size: 0x8, def value: None
   ::System::Action* ___decButtonWasPressedEvent;

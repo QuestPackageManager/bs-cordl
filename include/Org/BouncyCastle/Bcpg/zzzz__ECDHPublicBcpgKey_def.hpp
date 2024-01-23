@@ -35,20 +35,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(594)), TypeDefinitionIndex(TypeDefinitionIndex(572)), TypeDefinitionIndex(TypeDefinitionIndex(565))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(565)), TypeDefinitionIndex(TypeDefinitionIndex(572)), TypeDefinitionIndex(TypeDefinitionIndex(594))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(566))
 // CS Name: ::Org.BouncyCastle.Bcpg::ECDHPublicBcpgKey*
 class CORDL_TYPE ECDHPublicBcpgKey : public ::Org::BouncyCastle::Bcpg::ECPublicBcpgKey {
 public:
   // Declarations
   /// @brief Field reserved, offset 0x20, size 0x1
-  __declspec(property(get = __get_reserved, put = __set_reserved)) uint8_t reserved;
+  __declspec(property(get = __cordl_internal_get_reserved, put = __cordl_internal_set_reserved)) uint8_t reserved;
 
   /// @brief Field hashFunctionId, offset 0x24, size 0x4
-  __declspec(property(get = __get_hashFunctionId, put = __set_hashFunctionId))::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashFunctionId;
+  __declspec(property(get = __cordl_internal_get_hashFunctionId, put = __cordl_internal_set_hashFunctionId))::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashFunctionId;
 
   /// @brief Field symAlgorithmId, offset 0x28, size 0x4
-  __declspec(property(get = __get_symAlgorithmId, put = __set_symAlgorithmId))::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag symAlgorithmId;
+  __declspec(property(get = __cordl_internal_get_symAlgorithmId, put = __cordl_internal_set_symAlgorithmId))::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag symAlgorithmId;
 
   __declspec(property(get = get_Reserved)) uint8_t Reserved;
 
@@ -56,23 +56,23 @@ public:
 
   __declspec(property(get = get_SymmetricKeyAlgorithm))::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag SymmetricKeyAlgorithm;
 
-  constexpr uint8_t& __get_reserved();
+  constexpr uint8_t& __cordl_internal_get_reserved();
 
-  constexpr uint8_t const& __get_reserved() const;
+  constexpr uint8_t const& __cordl_internal_get_reserved() const;
 
-  constexpr void __set_reserved(uint8_t value);
+  constexpr void __cordl_internal_set_reserved(uint8_t value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag& __get_hashFunctionId();
+  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag& __cordl_internal_get_hashFunctionId();
 
-  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag const& __get_hashFunctionId() const;
+  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag const& __cordl_internal_get_hashFunctionId() const;
 
-  constexpr void __set_hashFunctionId(::Org::BouncyCastle::Bcpg::HashAlgorithmTag value);
+  constexpr void __cordl_internal_set_hashFunctionId(::Org::BouncyCastle::Bcpg::HashAlgorithmTag value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag& __get_symAlgorithmId();
+  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag& __cordl_internal_get_symAlgorithmId();
 
-  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const& __get_symAlgorithmId() const;
+  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const& __cordl_internal_get_symAlgorithmId() const;
 
-  constexpr void __set_symAlgorithmId(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag value);
+  constexpr void __cordl_internal_set_symAlgorithmId(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag value);
 
   static inline ::Org::BouncyCastle::Bcpg::ECDHPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 

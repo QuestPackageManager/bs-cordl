@@ -52,14 +52,14 @@ MARK_REF_PTR_T(::System::ComponentModel::__CultureInfoConverter__CultureInfoMapp
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9411))
 // CS Name: ::CultureInfoConverter::CultureComparer*
 class CORDL_TYPE __CultureInfoConverter__CultureComparer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _converter, offset 0x10, size 0x8
-  __declspec(property(get = __get__converter, put = __set__converter))::System::ComponentModel::CultureInfoConverter* _converter;
+  __declspec(property(get = __cordl_internal_get__converter, put = __cordl_internal_set__converter))::System::ComponentModel::CultureInfoConverter* _converter;
 
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
@@ -67,11 +67,11 @@ public:
   /// @brief Convert to "::System::Collections::IComparer"
   constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
-  constexpr ::System::ComponentModel::CultureInfoConverter*& __get__converter();
+  constexpr ::System::ComponentModel::CultureInfoConverter*& __cordl_internal_get__converter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::CultureInfoConverter*> const& __get__converter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::CultureInfoConverter*> const& __cordl_internal_get__converter() const;
 
-  constexpr void __set__converter(::System::ComponentModel::CultureInfoConverter* value);
+  constexpr void __cordl_internal_set__converter(::System::ComponentModel::CultureInfoConverter* value);
 
   static inline ::System::ComponentModel::__CultureInfoConverter__CultureComparer* New_ctor(::System::ComponentModel::CultureInfoConverter* cultureConverter);
 
@@ -110,7 +110,7 @@ static_assert(offsetof(::System::ComponentModel::__CultureInfoConverter__Culture
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9412))
 // CS Name: ::CultureInfoConverter::CultureInfoMapper*
 class CORDL_TYPE __CultureInfoConverter__CultureInfoMapper : public ::System::Object {
@@ -153,7 +153,7 @@ static_assert(::cordl_internals::size_check_v<::System::ComponentModel::__Cultur
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9480))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9480))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9413))
 // CS Name: ::System.ComponentModel::CultureInfoConverter*
 class CORDL_TYPE CultureInfoConverter : public ::System::ComponentModel::TypeConverter {
@@ -164,15 +164,15 @@ public:
   using CultureComparer = ::System::ComponentModel::__CultureInfoConverter__CultureComparer;
 
   /// @brief Field _values, offset 0x10, size 0x8
-  __declspec(property(get = __get__values, put = __set__values))::System::ComponentModel::__TypeConverter__StandardValuesCollection* _values;
+  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values))::System::ComponentModel::__TypeConverter__StandardValuesCollection* _values;
 
   __declspec(property(get = get_DefaultCultureString))::StringW DefaultCultureString;
 
-  constexpr ::System::ComponentModel::__TypeConverter__StandardValuesCollection*& __get__values();
+  constexpr ::System::ComponentModel::__TypeConverter__StandardValuesCollection*& __cordl_internal_get__values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::__TypeConverter__StandardValuesCollection*> const& __get__values() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::__TypeConverter__StandardValuesCollection*> const& __cordl_internal_get__values() const;
 
-  constexpr void __set__values(::System::ComponentModel::__TypeConverter__StandardValuesCollection* value);
+  constexpr void __cordl_internal_set__values(::System::ComponentModel::__TypeConverter__StandardValuesCollection* value);
 
   /// @brief Method get_DefaultCultureString, addr 0x290776c, size 0x40, virtual false, abstract: false, final false
   inline ::StringW get_DefaultCultureString();

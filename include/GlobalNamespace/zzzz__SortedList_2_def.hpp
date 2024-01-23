@@ -29,20 +29,21 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T, typename TBase>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14780))
 // CS Name: ::SortedList`2<T,TBase>*
 class CORDL_TYPE SortedList_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _items, offset 0x10, size 0x8
-  __declspec(property(get = __get__items, put = __set__items))::System::Collections::Generic::LinkedList_1<TBase>* _items;
+  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items))::System::Collections::Generic::LinkedList_1<TBase>* _items;
 
   /// @brief Field _sortedListDataProcessor, offset 0x18, size 0x8
-  __declspec(property(get = __get__sortedListDataProcessor, put = __set__sortedListDataProcessor))::GlobalNamespace::ISortedListItemProcessor_1<TBase>* _sortedListDataProcessor;
+  __declspec(property(get = __cordl_internal_get__sortedListDataProcessor,
+                      put = __cordl_internal_set__sortedListDataProcessor))::GlobalNamespace::ISortedListItemProcessor_1<TBase>* _sortedListDataProcessor;
 
   /// @brief Field _lastUsedNode, offset 0x20, size 0x8
-  __declspec(property(get = __get__lastUsedNode, put = __set__lastUsedNode))::System::Collections::Generic::LinkedListNode_1<TBase>* _lastUsedNode;
+  __declspec(property(get = __cordl_internal_get__lastUsedNode, put = __cordl_internal_set__lastUsedNode))::System::Collections::Generic::LinkedListNode_1<TBase>* _lastUsedNode;
 
   __declspec(property(get = get_count)) int32_t count;
 
@@ -54,23 +55,23 @@ public:
   /// @brief Convert to "::GlobalNamespace::ISortedList_1<TBase>"
   constexpr ::GlobalNamespace::ISortedList_1<TBase>* i___GlobalNamespace__ISortedList_1_TBase_() noexcept;
 
-  constexpr ::System::Collections::Generic::LinkedList_1<TBase>*& __get__items();
+  constexpr ::System::Collections::Generic::LinkedList_1<TBase>*& __cordl_internal_get__items();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<TBase>*> const& __get__items() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<TBase>*> const& __cordl_internal_get__items() const;
 
-  constexpr void __set__items(::System::Collections::Generic::LinkedList_1<TBase>* value);
+  constexpr void __cordl_internal_set__items(::System::Collections::Generic::LinkedList_1<TBase>* value);
 
-  constexpr ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*& __get__sortedListDataProcessor();
+  constexpr ::GlobalNamespace::ISortedListItemProcessor_1<TBase>*& __cordl_internal_get__sortedListDataProcessor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISortedListItemProcessor_1<TBase>*> const& __get__sortedListDataProcessor() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISortedListItemProcessor_1<TBase>*> const& __cordl_internal_get__sortedListDataProcessor() const;
 
-  constexpr void __set__sortedListDataProcessor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* value);
+  constexpr void __cordl_internal_set__sortedListDataProcessor(::GlobalNamespace::ISortedListItemProcessor_1<TBase>* value);
 
-  constexpr ::System::Collections::Generic::LinkedListNode_1<TBase>*& __get__lastUsedNode();
+  constexpr ::System::Collections::Generic::LinkedListNode_1<TBase>*& __cordl_internal_get__lastUsedNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<TBase>*> const& __get__lastUsedNode() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<TBase>*> const& __cordl_internal_get__lastUsedNode() const;
 
-  constexpr void __set__lastUsedNode(::System::Collections::Generic::LinkedListNode_1<TBase>* value);
+  constexpr void __cordl_internal_set__lastUsedNode(::System::Collections::Generic::LinkedListNode_1<TBase>* value);
 
   /// @brief Method get_count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_count();

@@ -24,47 +24,47 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLevelSceneSetupData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(15408))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(15408))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6055))
 // CS Name: ::MultiplayerLevelSceneSetupData*
 class CORDL_TYPE MultiplayerLevelSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
   /// @brief Field previewBeatmapLevel, offset 0x10, size 0x8
-  __declspec(property(get = __get_previewBeatmapLevel, put = __set_previewBeatmapLevel))::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
+  __declspec(property(get = __cordl_internal_get_previewBeatmapLevel, put = __cordl_internal_set_previewBeatmapLevel))::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
 
   /// @brief Field beatmapDifficulty, offset 0x18, size 0x4
-  __declspec(property(get = __get_beatmapDifficulty, put = __set_beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
+  __declspec(property(get = __cordl_internal_get_beatmapDifficulty, put = __cordl_internal_set_beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
 
   /// @brief Field beatmapCharacteristic, offset 0x20, size 0x8
-  __declspec(property(get = __get_beatmapCharacteristic, put = __set_beatmapCharacteristic))::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
+  __declspec(property(get = __cordl_internal_get_beatmapCharacteristic, put = __cordl_internal_set_beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic;
 
   /// @brief Field hasSong, offset 0x28, size 0x1
-  __declspec(property(get = __get_hasSong, put = __set_hasSong)) bool hasSong;
+  __declspec(property(get = __cordl_internal_get_hasSong, put = __cordl_internal_set_hasSong)) bool hasSong;
 
-  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __get_previewBeatmapLevel();
+  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __cordl_internal_get_previewBeatmapLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __get_previewBeatmapLevel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __cordl_internal_get_previewBeatmapLevel() const;
 
-  constexpr void __set_previewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel* value);
+  constexpr void __cordl_internal_set_previewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel* value);
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __get_beatmapDifficulty();
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_beatmapDifficulty();
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __get_beatmapDifficulty() const;
+  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get_beatmapDifficulty() const;
 
-  constexpr void __set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+  constexpr void __cordl_internal_set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  constexpr ::GlobalNamespace::BeatmapCharacteristicSO*& __get_beatmapCharacteristic();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get_beatmapCharacteristic();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicSO*> const& __get_beatmapCharacteristic() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get_beatmapCharacteristic() const;
 
-  constexpr void __set_beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
+  constexpr void __cordl_internal_set_beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
-  constexpr bool& __get_hasSong();
+  constexpr bool& __cordl_internal_get_hasSong();
 
-  constexpr bool const& __get_hasSong() const;
+  constexpr bool const& __cordl_internal_get_hasSong() const;
 
-  constexpr void __set_hasSong(bool value);
+  constexpr void __cordl_internal_set_hasSong(bool value);
 
   static inline ::GlobalNamespace::MultiplayerLevelSceneSetupData* New_ctor(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
                                                                             ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic, bool hasSong);
@@ -94,7 +94,7 @@ public:
   ::GlobalNamespace::BeatmapDifficulty ___beatmapDifficulty;
 
   /// @brief Field beatmapCharacteristic, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCharacteristicSO* ___beatmapCharacteristic;
+  ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ___beatmapCharacteristic;
 
   /// @brief Field hasSong, offset: 0x28, size: 0x1, def value: None
   bool ___hasSong;

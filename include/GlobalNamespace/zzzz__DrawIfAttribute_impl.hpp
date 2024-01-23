@@ -20,11 +20,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x2101038;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DrawIfAttribute*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__DrawIfAttribute__DisablingType>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DrawIfAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__DrawIfAttribute__DisablingType>::get() })));
     return ___internal_method;
   }
 };
@@ -36,88 +36,88 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x2101074;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DrawIfAttribute*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__DrawIfAttribute__DisablingType>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DrawIfAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__DrawIfAttribute__DisablingType>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::DrawIfAttribute::__get_propertyName() {
+constexpr ::StringW& GlobalNamespace::DrawIfAttribute::__cordl_internal_get_propertyName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___propertyName;
 }
-constexpr ::StringW const& GlobalNamespace::DrawIfAttribute::__get_propertyName() const {
+constexpr ::StringW const& GlobalNamespace::DrawIfAttribute::__cordl_internal_get_propertyName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___propertyName;
 }
-constexpr void GlobalNamespace::DrawIfAttribute::__set_propertyName(::StringW value) {
+constexpr void GlobalNamespace::DrawIfAttribute::__cordl_internal_set_propertyName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___propertyName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& GlobalNamespace::DrawIfAttribute::__get_value() {
+constexpr ::System::Object*& GlobalNamespace::DrawIfAttribute::__cordl_internal_get_value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::DrawIfAttribute::__get_value() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::DrawIfAttribute::__cordl_internal_get_value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___value;
 }
-constexpr void GlobalNamespace::DrawIfAttribute::__set_value(::System::Object* value) {
+constexpr void GlobalNamespace::DrawIfAttribute::__cordl_internal_set_value(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& GlobalNamespace::DrawIfAttribute::__get_orValue() {
+constexpr ::System::Object*& GlobalNamespace::DrawIfAttribute::__cordl_internal_get_orValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___orValue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::DrawIfAttribute::__get_orValue() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::DrawIfAttribute::__cordl_internal_get_orValue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___orValue;
 }
-constexpr void GlobalNamespace::DrawIfAttribute::__set_orValue(::System::Object* value) {
+constexpr void GlobalNamespace::DrawIfAttribute::__cordl_internal_set_orValue(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___orValue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__DrawIfAttribute__DisablingType& GlobalNamespace::DrawIfAttribute::__get_disablingType() {
+constexpr ::GlobalNamespace::__DrawIfAttribute__DisablingType& GlobalNamespace::DrawIfAttribute::__cordl_internal_get_disablingType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disablingType;
 }
-constexpr ::GlobalNamespace::__DrawIfAttribute__DisablingType const& GlobalNamespace::DrawIfAttribute::__get_disablingType() const {
+constexpr ::GlobalNamespace::__DrawIfAttribute__DisablingType const& GlobalNamespace::DrawIfAttribute::__cordl_internal_get_disablingType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disablingType;
 }
-constexpr void GlobalNamespace::DrawIfAttribute::__set_disablingType(::GlobalNamespace::__DrawIfAttribute__DisablingType value) {
+constexpr void GlobalNamespace::DrawIfAttribute::__cordl_internal_set_disablingType(::GlobalNamespace::__DrawIfAttribute__DisablingType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disablingType = value;
 }
 /// @param disablingType: ::GlobalNamespace::__DrawIfAttribute__DisablingType (default: static_cast<int32_t>(0x1))
 inline ::GlobalNamespace::DrawIfAttribute* GlobalNamespace::DrawIfAttribute::New_ctor(::StringW propertyName, ::System::Object* value,
                                                                                       ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::DrawIfAttribute*>(propertyName, value, disablingType));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DrawIfAttribute*>(propertyName, value, disablingType));
 }
 /// @param disablingType: ::GlobalNamespace::__DrawIfAttribute__DisablingType (default: static_cast<int32_t>(0x1))
 inline void GlobalNamespace::DrawIfAttribute::_ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DrawIfAttribute*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__DrawIfAttribute__DisablingType>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DrawIfAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__DrawIfAttribute__DisablingType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, propertyName, value, disablingType);
 }
 /// @param disablingType: ::GlobalNamespace::__DrawIfAttribute__DisablingType (default: static_cast<int32_t>(0x1))
 inline ::GlobalNamespace::DrawIfAttribute* GlobalNamespace::DrawIfAttribute::New_ctor(::StringW propertyName, ::System::Object* value, ::System::Object* orValue,
                                                                                       ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::DrawIfAttribute*>(propertyName, value, orValue, disablingType));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DrawIfAttribute*>(propertyName, value, orValue, disablingType));
 }
 /// @param disablingType: ::GlobalNamespace::__DrawIfAttribute__DisablingType (default: static_cast<int32_t>(0x1))
 inline void GlobalNamespace::DrawIfAttribute::_ctor(::StringW propertyName, ::System::Object* value, ::System::Object* orValue, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DrawIfAttribute*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__DrawIfAttribute__DisablingType>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DrawIfAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__DrawIfAttribute__DisablingType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, propertyName, value, orValue, disablingType);
 }
 // Ctor Parameters []

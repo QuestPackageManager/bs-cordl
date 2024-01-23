@@ -75,332 +75,334 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory
 // SizeInfo { instance_size: 456, native_size: -1, calculated_instance_size: 456, calculated_native_size: 456, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(4859)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5245)) CS Name: ::MultiplayerResultsPyramidViewAvatar*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4859)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251))] Self: TypeDefinitionIndex(TypeDefinitionIndex(5245)) CS Name: ::MultiplayerResultsPyramidViewAvatar*
 class CORDL_TYPE MultiplayerResultsPyramidViewAvatar : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using Factory = ::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory;
 
   /// @brief Field _badgeDirector, offset 0x18, size 0x8
-  __declspec(property(get = __get__badgeDirector, put = __set__badgeDirector))::UnityEngine::Playables::PlayableDirector* _badgeDirector;
+  __declspec(property(get = __cordl_internal_get__badgeDirector, put = __cordl_internal_set__badgeDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> _badgeDirector;
 
   /// @brief Field _ghostFirstTrackName, offset 0x20, size 0x8
-  __declspec(property(get = __get__ghostFirstTrackName, put = __set__ghostFirstTrackName))::StringW _ghostFirstTrackName;
+  __declspec(property(get = __cordl_internal_get__ghostFirstTrackName, put = __cordl_internal_set__ghostFirstTrackName))::StringW _ghostFirstTrackName;
 
   /// @brief Field _ghostSecondTrackName, offset 0x28, size 0x8
-  __declspec(property(get = __get__ghostSecondTrackName, put = __set__ghostSecondTrackName))::StringW _ghostSecondTrackName;
+  __declspec(property(get = __cordl_internal_get__ghostSecondTrackName, put = __cordl_internal_set__ghostSecondTrackName))::StringW _ghostSecondTrackName;
 
   /// @brief Field _standWithAvatarTransform, offset 0x30, size 0x8
-  __declspec(property(get = __get__standWithAvatarTransform, put = __set__standWithAvatarTransform))::UnityEngine::Transform* _standWithAvatarTransform;
+  __declspec(property(get = __cordl_internal_get__standWithAvatarTransform, put = __cordl_internal_set__standWithAvatarTransform))::UnityW<::UnityEngine::Transform> _standWithAvatarTransform;
 
   /// @brief Field _perPositionRotation, offset 0x38, size 0x4
-  __declspec(property(get = __get__perPositionRotation, put = __set__perPositionRotation)) float_t _perPositionRotation;
+  __declspec(property(get = __cordl_internal_get__perPositionRotation, put = __cordl_internal_set__perPositionRotation)) float_t _perPositionRotation;
 
   /// @brief Field _localPlayerColor, offset 0x3c, size 0x10
-  __declspec(property(get = __get__localPlayerColor, put = __set__localPlayerColor))::UnityEngine::Color _localPlayerColor;
+  __declspec(property(get = __cordl_internal_get__localPlayerColor, put = __cordl_internal_set__localPlayerColor))::UnityEngine::Color _localPlayerColor;
 
   /// @brief Field _positionText, offset 0x50, size 0x8
-  __declspec(property(get = __get__positionText, put = __set__positionText))::TMPro::TextMeshProUGUI* _positionText;
+  __declspec(property(get = __cordl_internal_get__positionText, put = __cordl_internal_set__positionText))::UnityW<::TMPro::TextMeshProUGUI> _positionText;
 
   /// @brief Field _nameText, offset 0x58, size 0x8
-  __declspec(property(get = __get__nameText, put = __set__nameText))::TMPro::TextMeshProUGUI* _nameText;
+  __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText))::UnityW<::TMPro::TextMeshProUGUI> _nameText;
 
   /// @brief Field _nameBackground, offset 0x60, size 0x8
-  __declspec(property(get = __get__nameBackground, put = __set__nameBackground))::HMUI::ImageView* _nameBackground;
+  __declspec(property(get = __cordl_internal_get__nameBackground, put = __cordl_internal_set__nameBackground))::UnityW<::HMUI::ImageView> _nameBackground;
 
   /// @brief Field _badgeCanvas, offset 0x68, size 0x8
-  __declspec(property(get = __get__badgeCanvas, put = __set__badgeCanvas))::UnityEngine::CanvasGroup* _badgeCanvas;
+  __declspec(property(get = __cordl_internal_get__badgeCanvas, put = __cordl_internal_set__badgeCanvas))::UnityW<::UnityEngine::CanvasGroup> _badgeCanvas;
 
   /// @brief Field _badgeTitles, offset 0x70, size 0x8
-  __declspec(property(get = __get__badgeTitles, put = __set__badgeTitles))::ArrayW<::TMPro::TextMeshProUGUI*, ::Array<::TMPro::TextMeshProUGUI*>*> _badgeTitles;
+  __declspec(property(get = __cordl_internal_get__badgeTitles,
+                      put = __cordl_internal_set__badgeTitles))::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> _badgeTitles;
 
   /// @brief Field _badgeImages, offset 0x78, size 0x8
-  __declspec(property(get = __get__badgeImages, put = __set__badgeImages))::ArrayW<::HMUI::ImageView*, ::Array<::HMUI::ImageView*>*> _badgeImages;
+  __declspec(property(get = __cordl_internal_get__badgeImages, put = __cordl_internal_set__badgeImages))::ArrayW<::UnityW<::HMUI::ImageView>, ::Array<::UnityW<::HMUI::ImageView>>*> _badgeImages;
 
   /// @brief Field _badgeSubtitleText, offset 0x80, size 0x8
-  __declspec(property(get = __get__badgeSubtitleText, put = __set__badgeSubtitleText))::TMPro::TextMeshProUGUI* _badgeSubtitleText;
+  __declspec(property(get = __cordl_internal_get__badgeSubtitleText, put = __cordl_internal_set__badgeSubtitleText))::UnityW<::TMPro::TextMeshProUGUI> _badgeSubtitleText;
 
   /// @brief Field _badgeSubtitleCanvas, offset 0x88, size 0x8
-  __declspec(property(get = __get__badgeSubtitleCanvas, put = __set__badgeSubtitleCanvas))::UnityEngine::CanvasGroup* _badgeSubtitleCanvas;
+  __declspec(property(get = __cordl_internal_get__badgeSubtitleCanvas, put = __cordl_internal_set__badgeSubtitleCanvas))::UnityW<::UnityEngine::CanvasGroup> _badgeSubtitleCanvas;
 
   /// @brief Field _ghostDuplicationEffect, offset 0x90, size 0x8
-  __declspec(property(get = __get__ghostDuplicationEffect, put = __set__ghostDuplicationEffect))::GlobalNamespace::GhostDuplicationEffect* _ghostDuplicationEffect;
+  __declspec(property(get = __cordl_internal_get__ghostDuplicationEffect,
+                      put = __cordl_internal_set__ghostDuplicationEffect))::UnityW<::GlobalNamespace::GhostDuplicationEffect> _ghostDuplicationEffect;
 
   /// @brief Field _ghostAppear, offset 0x98, size 0x48
-  __declspec(property(get = __get__ghostAppear, put = __set__ghostAppear))::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams _ghostAppear;
+  __declspec(property(get = __cordl_internal_get__ghostAppear, put = __cordl_internal_set__ghostAppear))::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams _ghostAppear;
 
   /// @brief Field _ghostReceive, offset 0xe0, size 0x48
-  __declspec(property(get = __get__ghostReceive, put = __set__ghostReceive))::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams _ghostReceive;
+  __declspec(property(get = __cordl_internal_get__ghostReceive, put = __cordl_internal_set__ghostReceive))::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams _ghostReceive;
 
   /// @brief Field _trophyImage, offset 0x128, size 0x8
-  __declspec(property(get = __get__trophyImage, put = __set__trophyImage))::HMUI::ImageView* _trophyImage;
+  __declspec(property(get = __cordl_internal_get__trophyImage, put = __cordl_internal_set__trophyImage))::UnityW<::HMUI::ImageView> _trophyImage;
 
   /// @brief Field _firstPlaceTrophy, offset 0x130, size 0x8
-  __declspec(property(get = __get__firstPlaceTrophy, put = __set__firstPlaceTrophy))::UnityEngine::Sprite* _firstPlaceTrophy;
+  __declspec(property(get = __cordl_internal_get__firstPlaceTrophy, put = __cordl_internal_set__firstPlaceTrophy))::UnityW<::UnityEngine::Sprite> _firstPlaceTrophy;
 
   /// @brief Field _secondPlaceTrophy, offset 0x138, size 0x8
-  __declspec(property(get = __get__secondPlaceTrophy, put = __set__secondPlaceTrophy))::UnityEngine::Sprite* _secondPlaceTrophy;
+  __declspec(property(get = __cordl_internal_get__secondPlaceTrophy, put = __cordl_internal_set__secondPlaceTrophy))::UnityW<::UnityEngine::Sprite> _secondPlaceTrophy;
 
   /// @brief Field _thirdPlaceTrophy, offset 0x140, size 0x8
-  __declspec(property(get = __get__thirdPlaceTrophy, put = __set__thirdPlaceTrophy))::UnityEngine::Sprite* _thirdPlaceTrophy;
+  __declspec(property(get = __cordl_internal_get__thirdPlaceTrophy, put = __cordl_internal_set__thirdPlaceTrophy))::UnityW<::UnityEngine::Sprite> _thirdPlaceTrophy;
 
   /// @brief Field _firstPlaceColor, offset 0x148, size 0x10
-  __declspec(property(get = __get__firstPlaceColor, put = __set__firstPlaceColor))::UnityEngine::Color _firstPlaceColor;
+  __declspec(property(get = __cordl_internal_get__firstPlaceColor, put = __cordl_internal_set__firstPlaceColor))::UnityEngine::Color _firstPlaceColor;
 
   /// @brief Field _personalBestVisual, offset 0x158, size 0x8
-  __declspec(property(get = __get__personalBestVisual, put = __set__personalBestVisual))::UnityEngine::GameObject* _personalBestVisual;
+  __declspec(property(get = __cordl_internal_get__personalBestVisual, put = __cordl_internal_set__personalBestVisual))::UnityW<::UnityEngine::GameObject> _personalBestVisual;
 
   /// @brief Field _playerDataModel, offset 0x160, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _difficultyBeatmap, offset 0x168, size 0x8
-  __declspec(property(get = __get__difficultyBeatmap, put = __set__difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* _difficultyBeatmap;
+  __declspec(property(get = __cordl_internal_get__difficultyBeatmap, put = __cordl_internal_set__difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* _difficultyBeatmap;
 
   /// @brief Field _riseTween, offset 0x170, size 0x8
-  __declspec(property(get = __get__riseTween, put = __set__riseTween))::Tweening::Vector3Tween* _riseTween;
+  __declspec(property(get = __cordl_internal_get__riseTween, put = __cordl_internal_set__riseTween))::Tweening::Vector3Tween* _riseTween;
 
   /// @brief Field _avatarRiseTween, offset 0x178, size 0x8
-  __declspec(property(get = __get__avatarRiseTween, put = __set__avatarRiseTween))::Tweening::Vector3Tween* _avatarRiseTween;
+  __declspec(property(get = __cordl_internal_get__avatarRiseTween, put = __cordl_internal_set__avatarRiseTween))::Tweening::Vector3Tween* _avatarRiseTween;
 
   /// @brief Field _badgePositionTween, offset 0x180, size 0x8
-  __declspec(property(get = __get__badgePositionTween, put = __set__badgePositionTween))::Tweening::Vector3Tween* _badgePositionTween;
+  __declspec(property(get = __cordl_internal_get__badgePositionTween, put = __cordl_internal_set__badgePositionTween))::Tweening::Vector3Tween* _badgePositionTween;
 
   /// @brief Field _badgeOpacityTween, offset 0x188, size 0x8
-  __declspec(property(get = __get__badgeOpacityTween, put = __set__badgeOpacityTween))::Tweening::FloatTween* _badgeOpacityTween;
+  __declspec(property(get = __cordl_internal_get__badgeOpacityTween, put = __cordl_internal_set__badgeOpacityTween))::Tweening::FloatTween* _badgeOpacityTween;
 
   /// @brief Field _nameOpacityTween, offset 0x190, size 0x8
-  __declspec(property(get = __get__nameOpacityTween, put = __set__nameOpacityTween))::Tweening::FloatTween* _nameOpacityTween;
+  __declspec(property(get = __cordl_internal_get__nameOpacityTween, put = __cordl_internal_set__nameOpacityTween))::Tweening::FloatTween* _nameOpacityTween;
 
   /// @brief Field _namePositionTween, offset 0x198, size 0x8
-  __declspec(property(get = __get__namePositionTween, put = __set__namePositionTween))::Tweening::Vector3Tween* _namePositionTween;
+  __declspec(property(get = __cordl_internal_get__namePositionTween, put = __cordl_internal_set__namePositionTween))::Tweening::Vector3Tween* _namePositionTween;
 
   /// @brief Field _localGlowTween, offset 0x1a0, size 0x8
-  __declspec(property(get = __get__localGlowTween, put = __set__localGlowTween))::Tweening::ColorTween* _localGlowTween;
+  __declspec(property(get = __cordl_internal_get__localGlowTween, put = __cordl_internal_set__localGlowTween))::Tweening::ColorTween* _localGlowTween;
 
   /// @brief Field _titleMakingSpaceForBadgeTween, offset 0x1a8, size 0x8
-  __declspec(property(get = __get__titleMakingSpaceForBadgeTween, put = __set__titleMakingSpaceForBadgeTween))::Tweening::Vector3Tween* _titleMakingSpaceForBadgeTween;
+  __declspec(property(get = __cordl_internal_get__titleMakingSpaceForBadgeTween, put = __cordl_internal_set__titleMakingSpaceForBadgeTween))::Tweening::Vector3Tween* _titleMakingSpaceForBadgeTween;
 
   /// @brief Field _originalBadgeLocalPos, offset 0x1b0, size 0xc
-  __declspec(property(get = __get__originalBadgeLocalPos, put = __set__originalBadgeLocalPos))::UnityEngine::Vector3 _originalBadgeLocalPos;
+  __declspec(property(get = __cordl_internal_get__originalBadgeLocalPos, put = __cordl_internal_set__originalBadgeLocalPos))::UnityEngine::Vector3 _originalBadgeLocalPos;
 
   /// @brief Field _connectedPlayer, offset 0x1c0, size 0x8
-  __declspec(property(get = __get__connectedPlayer, put = __set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
-  __declspec(property(get = get_badgeDirector))::UnityEngine::Playables::PlayableDirector* badgeDirector;
+  __declspec(property(get = get_badgeDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> badgeDirector;
 
-  constexpr ::UnityEngine::Playables::PlayableDirector*& __get__badgeDirector();
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get__badgeDirector();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Playables::PlayableDirector*> const& __get__badgeDirector() const;
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__badgeDirector() const;
 
-  constexpr void __set__badgeDirector(::UnityEngine::Playables::PlayableDirector* value);
+  constexpr void __cordl_internal_set__badgeDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  constexpr ::StringW& __get__ghostFirstTrackName();
+  constexpr ::StringW& __cordl_internal_get__ghostFirstTrackName();
 
-  constexpr ::StringW const& __get__ghostFirstTrackName() const;
+  constexpr ::StringW const& __cordl_internal_get__ghostFirstTrackName() const;
 
-  constexpr void __set__ghostFirstTrackName(::StringW value);
+  constexpr void __cordl_internal_set__ghostFirstTrackName(::StringW value);
 
-  constexpr ::StringW& __get__ghostSecondTrackName();
+  constexpr ::StringW& __cordl_internal_get__ghostSecondTrackName();
 
-  constexpr ::StringW const& __get__ghostSecondTrackName() const;
+  constexpr ::StringW const& __cordl_internal_get__ghostSecondTrackName() const;
 
-  constexpr void __set__ghostSecondTrackName(::StringW value);
+  constexpr void __cordl_internal_set__ghostSecondTrackName(::StringW value);
 
-  constexpr ::UnityEngine::Transform*& __get__standWithAvatarTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__standWithAvatarTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__standWithAvatarTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__standWithAvatarTransform() const;
 
-  constexpr void __set__standWithAvatarTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__standWithAvatarTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get__perPositionRotation();
+  constexpr float_t& __cordl_internal_get__perPositionRotation();
 
-  constexpr float_t const& __get__perPositionRotation() const;
+  constexpr float_t const& __cordl_internal_get__perPositionRotation() const;
 
-  constexpr void __set__perPositionRotation(float_t value);
+  constexpr void __cordl_internal_set__perPositionRotation(float_t value);
 
-  constexpr ::UnityEngine::Color& __get__localPlayerColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__localPlayerColor();
 
-  constexpr ::UnityEngine::Color const& __get__localPlayerColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__localPlayerColor() const;
 
-  constexpr void __set__localPlayerColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__localPlayerColor(::UnityEngine::Color value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__positionText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__positionText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__positionText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__positionText() const;
 
-  constexpr void __set__positionText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__positionText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__nameText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__nameText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__nameText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__nameText() const;
 
-  constexpr void __set__nameText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::HMUI::ImageView*& __get__nameBackground();
+  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__nameBackground();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& __get__nameBackground() const;
+  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__nameBackground() const;
 
-  constexpr void __set__nameBackground(::HMUI::ImageView* value);
+  constexpr void __cordl_internal_set__nameBackground(::UnityW<::HMUI::ImageView> value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__badgeCanvas();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__badgeCanvas();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__badgeCanvas() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__badgeCanvas() const;
 
-  constexpr void __set__badgeCanvas(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__badgeCanvas(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr ::ArrayW<::TMPro::TextMeshProUGUI*, ::Array<::TMPro::TextMeshProUGUI*>*>& __get__badgeTitles();
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*>& __cordl_internal_get__badgeTitles();
 
-  constexpr ::ArrayW<::TMPro::TextMeshProUGUI*, ::Array<::TMPro::TextMeshProUGUI*>*> const& __get__badgeTitles() const;
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> const& __cordl_internal_get__badgeTitles() const;
 
-  constexpr void __set__badgeTitles(::ArrayW<::TMPro::TextMeshProUGUI*, ::Array<::TMPro::TextMeshProUGUI*>*> value);
+  constexpr void __cordl_internal_set__badgeTitles(::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> value);
 
-  constexpr ::ArrayW<::HMUI::ImageView*, ::Array<::HMUI::ImageView*>*>& __get__badgeImages();
+  constexpr ::ArrayW<::UnityW<::HMUI::ImageView>, ::Array<::UnityW<::HMUI::ImageView>>*>& __cordl_internal_get__badgeImages();
 
-  constexpr ::ArrayW<::HMUI::ImageView*, ::Array<::HMUI::ImageView*>*> const& __get__badgeImages() const;
+  constexpr ::ArrayW<::UnityW<::HMUI::ImageView>, ::Array<::UnityW<::HMUI::ImageView>>*> const& __cordl_internal_get__badgeImages() const;
 
-  constexpr void __set__badgeImages(::ArrayW<::HMUI::ImageView*, ::Array<::HMUI::ImageView*>*> value);
+  constexpr void __cordl_internal_set__badgeImages(::ArrayW<::UnityW<::HMUI::ImageView>, ::Array<::UnityW<::HMUI::ImageView>>*> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__badgeSubtitleText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__badgeSubtitleText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__badgeSubtitleText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__badgeSubtitleText() const;
 
-  constexpr void __set__badgeSubtitleText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__badgeSubtitleText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__badgeSubtitleCanvas();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__badgeSubtitleCanvas();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__badgeSubtitleCanvas() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__badgeSubtitleCanvas() const;
 
-  constexpr void __set__badgeSubtitleCanvas(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__badgeSubtitleCanvas(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr ::GlobalNamespace::GhostDuplicationEffect*& __get__ghostDuplicationEffect();
+  constexpr ::UnityW<::GlobalNamespace::GhostDuplicationEffect>& __cordl_internal_get__ghostDuplicationEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GhostDuplicationEffect*> const& __get__ghostDuplicationEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::GhostDuplicationEffect> const& __cordl_internal_get__ghostDuplicationEffect() const;
 
-  constexpr void __set__ghostDuplicationEffect(::GlobalNamespace::GhostDuplicationEffect* value);
+  constexpr void __cordl_internal_set__ghostDuplicationEffect(::UnityW<::GlobalNamespace::GhostDuplicationEffect> value);
 
-  constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams& __get__ghostAppear();
+  constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams& __cordl_internal_get__ghostAppear();
 
-  constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams const& __get__ghostAppear() const;
+  constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams const& __cordl_internal_get__ghostAppear() const;
 
-  constexpr void __set__ghostAppear(::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams value);
+  constexpr void __cordl_internal_set__ghostAppear(::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams value);
 
-  constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams& __get__ghostReceive();
+  constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams& __cordl_internal_get__ghostReceive();
 
-  constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams const& __get__ghostReceive() const;
+  constexpr ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams const& __cordl_internal_get__ghostReceive() const;
 
-  constexpr void __set__ghostReceive(::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams value);
+  constexpr void __cordl_internal_set__ghostReceive(::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams value);
 
-  constexpr ::HMUI::ImageView*& __get__trophyImage();
+  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__trophyImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& __get__trophyImage() const;
+  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__trophyImage() const;
 
-  constexpr void __set__trophyImage(::HMUI::ImageView* value);
+  constexpr void __cordl_internal_set__trophyImage(::UnityW<::HMUI::ImageView> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__firstPlaceTrophy();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__firstPlaceTrophy();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__firstPlaceTrophy() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__firstPlaceTrophy() const;
 
-  constexpr void __set__firstPlaceTrophy(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__firstPlaceTrophy(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__secondPlaceTrophy();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__secondPlaceTrophy();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__secondPlaceTrophy() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__secondPlaceTrophy() const;
 
-  constexpr void __set__secondPlaceTrophy(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__secondPlaceTrophy(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__thirdPlaceTrophy();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__thirdPlaceTrophy();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__thirdPlaceTrophy() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__thirdPlaceTrophy() const;
 
-  constexpr void __set__thirdPlaceTrophy(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__thirdPlaceTrophy(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Color& __get__firstPlaceColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__firstPlaceColor();
 
-  constexpr ::UnityEngine::Color const& __get__firstPlaceColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__firstPlaceColor() const;
 
-  constexpr void __set__firstPlaceColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__firstPlaceColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::GameObject*& __get__personalBestVisual();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__personalBestVisual();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__personalBestVisual() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__personalBestVisual() const;
 
-  constexpr void __set__personalBestVisual(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__personalBestVisual(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __get__difficultyBeatmap();
+  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __cordl_internal_get__difficultyBeatmap();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __get__difficultyBeatmap() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __cordl_internal_get__difficultyBeatmap() const;
 
-  constexpr void __set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
+  constexpr void __cordl_internal_set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
 
-  constexpr ::Tweening::Vector3Tween*& __get__riseTween();
+  constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__riseTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __get__riseTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __cordl_internal_get__riseTween() const;
 
-  constexpr void __set__riseTween(::Tweening::Vector3Tween* value);
+  constexpr void __cordl_internal_set__riseTween(::Tweening::Vector3Tween* value);
 
-  constexpr ::Tweening::Vector3Tween*& __get__avatarRiseTween();
+  constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__avatarRiseTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __get__avatarRiseTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __cordl_internal_get__avatarRiseTween() const;
 
-  constexpr void __set__avatarRiseTween(::Tweening::Vector3Tween* value);
+  constexpr void __cordl_internal_set__avatarRiseTween(::Tweening::Vector3Tween* value);
 
-  constexpr ::Tweening::Vector3Tween*& __get__badgePositionTween();
+  constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__badgePositionTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __get__badgePositionTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __cordl_internal_get__badgePositionTween() const;
 
-  constexpr void __set__badgePositionTween(::Tweening::Vector3Tween* value);
+  constexpr void __cordl_internal_set__badgePositionTween(::Tweening::Vector3Tween* value);
 
-  constexpr ::Tweening::FloatTween*& __get__badgeOpacityTween();
+  constexpr ::Tweening::FloatTween*& __cordl_internal_get__badgeOpacityTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __get__badgeOpacityTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get__badgeOpacityTween() const;
 
-  constexpr void __set__badgeOpacityTween(::Tweening::FloatTween* value);
+  constexpr void __cordl_internal_set__badgeOpacityTween(::Tweening::FloatTween* value);
 
-  constexpr ::Tweening::FloatTween*& __get__nameOpacityTween();
+  constexpr ::Tweening::FloatTween*& __cordl_internal_get__nameOpacityTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __get__nameOpacityTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get__nameOpacityTween() const;
 
-  constexpr void __set__nameOpacityTween(::Tweening::FloatTween* value);
+  constexpr void __cordl_internal_set__nameOpacityTween(::Tweening::FloatTween* value);
 
-  constexpr ::Tweening::Vector3Tween*& __get__namePositionTween();
+  constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__namePositionTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __get__namePositionTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __cordl_internal_get__namePositionTween() const;
 
-  constexpr void __set__namePositionTween(::Tweening::Vector3Tween* value);
+  constexpr void __cordl_internal_set__namePositionTween(::Tweening::Vector3Tween* value);
 
-  constexpr ::Tweening::ColorTween*& __get__localGlowTween();
+  constexpr ::Tweening::ColorTween*& __cordl_internal_get__localGlowTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __get__localGlowTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __cordl_internal_get__localGlowTween() const;
 
-  constexpr void __set__localGlowTween(::Tweening::ColorTween* value);
+  constexpr void __cordl_internal_set__localGlowTween(::Tweening::ColorTween* value);
 
-  constexpr ::Tweening::Vector3Tween*& __get__titleMakingSpaceForBadgeTween();
+  constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__titleMakingSpaceForBadgeTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __get__titleMakingSpaceForBadgeTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __cordl_internal_get__titleMakingSpaceForBadgeTween() const;
 
-  constexpr void __set__titleMakingSpaceForBadgeTween(::Tweening::Vector3Tween* value);
+  constexpr void __cordl_internal_set__titleMakingSpaceForBadgeTween(::Tweening::Vector3Tween* value);
 
-  constexpr ::UnityEngine::Vector3& __get__originalBadgeLocalPos();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__originalBadgeLocalPos();
 
-  constexpr ::UnityEngine::Vector3 const& __get__originalBadgeLocalPos() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__originalBadgeLocalPos() const;
 
-  constexpr void __set__originalBadgeLocalPos(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__originalBadgeLocalPos(::UnityEngine::Vector3 value);
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __get__connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __get__connectedPlayer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
   /// @brief Method get_badgeDirector, addr 0x22588a4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Playables::PlayableDirector* get_badgeDirector();
+  inline ::UnityW<::UnityEngine::Playables::PlayableDirector> get_badgeDirector();
 
   /// @brief Method Awake, addr 0x22588ac, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
@@ -431,7 +433,7 @@ protected:
 
 public:
   /// @brief Field _badgeDirector, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Playables::PlayableDirector* ____badgeDirector;
+  ::UnityW<::UnityEngine::Playables::PlayableDirector> ____badgeDirector;
 
   /// @brief Field _ghostFirstTrackName, offset: 0x20, size: 0x8, def value: None
   ::StringW ____ghostFirstTrackName;
@@ -440,7 +442,7 @@ public:
   ::StringW ____ghostSecondTrackName;
 
   /// @brief Field _standWithAvatarTransform, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____standWithAvatarTransform;
+  ::UnityW<::UnityEngine::Transform> ____standWithAvatarTransform;
 
   /// @brief Field _perPositionRotation, offset: 0x38, size: 0x4, def value: None
   float_t ____perPositionRotation;
@@ -449,31 +451,31 @@ public:
   ::UnityEngine::Color ____localPlayerColor;
 
   /// @brief Field _positionText, offset: 0x50, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____positionText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____positionText;
 
   /// @brief Field _nameText, offset: 0x58, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____nameText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
   /// @brief Field _nameBackground, offset: 0x60, size: 0x8, def value: None
-  ::HMUI::ImageView* ____nameBackground;
+  ::UnityW<::HMUI::ImageView> ____nameBackground;
 
   /// @brief Field _badgeCanvas, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____badgeCanvas;
+  ::UnityW<::UnityEngine::CanvasGroup> ____badgeCanvas;
 
   /// @brief Field _badgeTitles, offset: 0x70, size: 0x8, def value: None
-  ::ArrayW<::TMPro::TextMeshProUGUI*, ::Array<::TMPro::TextMeshProUGUI*>*> ____badgeTitles;
+  ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> ____badgeTitles;
 
   /// @brief Field _badgeImages, offset: 0x78, size: 0x8, def value: None
-  ::ArrayW<::HMUI::ImageView*, ::Array<::HMUI::ImageView*>*> ____badgeImages;
+  ::ArrayW<::UnityW<::HMUI::ImageView>, ::Array<::UnityW<::HMUI::ImageView>>*> ____badgeImages;
 
   /// @brief Field _badgeSubtitleText, offset: 0x80, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____badgeSubtitleText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____badgeSubtitleText;
 
   /// @brief Field _badgeSubtitleCanvas, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____badgeSubtitleCanvas;
+  ::UnityW<::UnityEngine::CanvasGroup> ____badgeSubtitleCanvas;
 
   /// @brief Field _ghostDuplicationEffect, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::GhostDuplicationEffect* ____ghostDuplicationEffect;
+  ::UnityW<::GlobalNamespace::GhostDuplicationEffect> ____ghostDuplicationEffect;
 
   /// @brief Field _ghostAppear, offset: 0x98, size: 0x48, def value: None
   ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams ____ghostAppear;
@@ -482,25 +484,25 @@ public:
   ::GlobalNamespace::__GhostDuplicationEffect__GhostEffectParams ____ghostReceive;
 
   /// @brief Field _trophyImage, offset: 0x128, size: 0x8, def value: None
-  ::HMUI::ImageView* ____trophyImage;
+  ::UnityW<::HMUI::ImageView> ____trophyImage;
 
   /// @brief Field _firstPlaceTrophy, offset: 0x130, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____firstPlaceTrophy;
+  ::UnityW<::UnityEngine::Sprite> ____firstPlaceTrophy;
 
   /// @brief Field _secondPlaceTrophy, offset: 0x138, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____secondPlaceTrophy;
+  ::UnityW<::UnityEngine::Sprite> ____secondPlaceTrophy;
 
   /// @brief Field _thirdPlaceTrophy, offset: 0x140, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____thirdPlaceTrophy;
+  ::UnityW<::UnityEngine::Sprite> ____thirdPlaceTrophy;
 
   /// @brief Field _firstPlaceColor, offset: 0x148, size: 0x10, def value: None
   ::UnityEngine::Color ____firstPlaceColor;
 
   /// @brief Field _personalBestVisual, offset: 0x158, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____personalBestVisual;
+  ::UnityW<::UnityEngine::GameObject> ____personalBestVisual;
 
   /// @brief Field _playerDataModel, offset: 0x160, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _difficultyBeatmap, offset: 0x168, size: 0x8, def value: None
   ::GlobalNamespace::IDifficultyBeatmap* ____difficultyBeatmap;
@@ -615,11 +617,11 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, _
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3489 }), TypeDefinitionIndex(TypeDefinitionIndex(5245)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12778)), TypeDefinitionIndex(TypeDefinitionIndex(11005))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5244)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5245)), TypeDefinitionIndex(TypeDefinitionIndex(11005)), TypeDefinitionIndex(TypeDefinitionIndex(12778)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3489 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5244)) CS Name:
 // ::MultiplayerResultsPyramidViewAvatar::Factory*
 class CORDL_TYPE __MultiplayerResultsPyramidViewAvatar__Factory
-    : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*> {
+    : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerResultsPyramidViewAvatar__Factory* New_ctor();

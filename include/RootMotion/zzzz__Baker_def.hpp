@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::RootMotion::Baker);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12470))
 // CS Name: ::Baker::Mode
 struct CORDL_TYPE __Baker__Mode {
@@ -98,7 +98,7 @@ static_assert(offsetof(::RootMotion::__Baker__Mode, value__) == 0x0, "Offset mis
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12470)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(12470))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12471))
 // CS Name: ::RootMotion::Baker*
 class CORDL_TYPE Baker : public ::UnityEngine::MonoBehaviour {
@@ -107,46 +107,47 @@ public:
   using Mode = ::RootMotion::__Baker__Mode;
 
   /// @brief Field frameRate, offset 0x18, size 0x4
-  __declspec(property(get = __get_frameRate, put = __set_frameRate)) int32_t frameRate;
+  __declspec(property(get = __cordl_internal_get_frameRate, put = __cordl_internal_set_frameRate)) int32_t frameRate;
 
   /// @brief Field keyReductionError, offset 0x1c, size 0x4
-  __declspec(property(get = __get_keyReductionError, put = __set_keyReductionError)) float_t keyReductionError;
+  __declspec(property(get = __cordl_internal_get_keyReductionError, put = __cordl_internal_set_keyReductionError)) float_t keyReductionError;
 
   /// @brief Field mode, offset 0x20, size 0x4
-  __declspec(property(get = __get_mode, put = __set_mode))::RootMotion::__Baker__Mode mode;
+  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode))::RootMotion::__Baker__Mode mode;
 
   /// @brief Field animationClips, offset 0x28, size 0x8
-  __declspec(property(get = __get_animationClips, put = __set_animationClips))::ArrayW<::UnityEngine::AnimationClip*, ::Array<::UnityEngine::AnimationClip*>*> animationClips;
+  __declspec(property(get = __cordl_internal_get_animationClips,
+                      put = __cordl_internal_set_animationClips))::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::UnityEngine::AnimationClip>>*> animationClips;
 
   /// @brief Field animationStates, offset 0x30, size 0x8
-  __declspec(property(get = __get_animationStates, put = __set_animationStates))::ArrayW<::StringW, ::Array<::StringW>*> animationStates;
+  __declspec(property(get = __cordl_internal_get_animationStates, put = __cordl_internal_set_animationStates))::ArrayW<::StringW, ::Array<::StringW>*> animationStates;
 
   /// @brief Field loop, offset 0x38, size 0x1
-  __declspec(property(get = __get_loop, put = __set_loop)) bool loop;
+  __declspec(property(get = __cordl_internal_get_loop, put = __cordl_internal_set_loop)) bool loop;
 
   /// @brief Field saveToFolder, offset 0x40, size 0x8
-  __declspec(property(get = __get_saveToFolder, put = __set_saveToFolder))::StringW saveToFolder;
+  __declspec(property(get = __cordl_internal_get_saveToFolder, put = __cordl_internal_set_saveToFolder))::StringW saveToFolder;
 
   /// @brief Field appendName, offset 0x48, size 0x8
-  __declspec(property(get = __get_appendName, put = __set_appendName))::StringW appendName;
+  __declspec(property(get = __cordl_internal_get_appendName, put = __cordl_internal_set_appendName))::StringW appendName;
 
   /// @brief Field saveName, offset 0x50, size 0x8
-  __declspec(property(get = __get_saveName, put = __set_saveName))::StringW saveName;
+  __declspec(property(get = __cordl_internal_get_saveName, put = __cordl_internal_set_saveName))::StringW saveName;
 
   /// @brief Field <isBaking>k__BackingField, offset 0x58, size 0x1
-  __declspec(property(get = __get__isBaking_k__BackingField, put = __set__isBaking_k__BackingField)) bool _isBaking_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isBaking_k__BackingField, put = __cordl_internal_set__isBaking_k__BackingField)) bool _isBaking_k__BackingField;
 
   /// @brief Field <bakingProgress>k__BackingField, offset 0x5c, size 0x4
-  __declspec(property(get = __get__bakingProgress_k__BackingField, put = __set__bakingProgress_k__BackingField)) float_t _bakingProgress_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__bakingProgress_k__BackingField, put = __cordl_internal_set__bakingProgress_k__BackingField)) float_t _bakingProgress_k__BackingField;
 
   /// @brief Field animator, offset 0x60, size 0x8
-  __declspec(property(get = __get_animator, put = __set_animator))::UnityEngine::Animator* animator;
+  __declspec(property(get = __cordl_internal_get_animator, put = __cordl_internal_set_animator))::UnityW<::UnityEngine::Animator> animator;
 
   /// @brief Field director, offset 0x68, size 0x8
-  __declspec(property(get = __get_director, put = __set_director))::UnityEngine::Playables::PlayableDirector* director;
+  __declspec(property(get = __cordl_internal_get_director, put = __cordl_internal_set_director))::UnityW<::UnityEngine::Playables::PlayableDirector> director;
 
   /// @brief Field <clipLength>k__BackingField, offset 0x70, size 0x4
-  __declspec(property(get = __get__clipLength_k__BackingField, put = __set__clipLength_k__BackingField)) float_t _clipLength_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__clipLength_k__BackingField, put = __cordl_internal_set__clipLength_k__BackingField)) float_t _clipLength_k__BackingField;
 
   __declspec(property(get = get_isBaking, put = set_isBaking)) bool isBaking;
 
@@ -154,89 +155,89 @@ public:
 
   __declspec(property(get = get_clipLength, put = set_clipLength)) float_t clipLength;
 
-  constexpr int32_t& __get_frameRate();
+  constexpr int32_t& __cordl_internal_get_frameRate();
 
-  constexpr int32_t const& __get_frameRate() const;
+  constexpr int32_t const& __cordl_internal_get_frameRate() const;
 
-  constexpr void __set_frameRate(int32_t value);
+  constexpr void __cordl_internal_set_frameRate(int32_t value);
 
-  constexpr float_t& __get_keyReductionError();
+  constexpr float_t& __cordl_internal_get_keyReductionError();
 
-  constexpr float_t const& __get_keyReductionError() const;
+  constexpr float_t const& __cordl_internal_get_keyReductionError() const;
 
-  constexpr void __set_keyReductionError(float_t value);
+  constexpr void __cordl_internal_set_keyReductionError(float_t value);
 
-  constexpr ::RootMotion::__Baker__Mode& __get_mode();
+  constexpr ::RootMotion::__Baker__Mode& __cordl_internal_get_mode();
 
-  constexpr ::RootMotion::__Baker__Mode const& __get_mode() const;
+  constexpr ::RootMotion::__Baker__Mode const& __cordl_internal_get_mode() const;
 
-  constexpr void __set_mode(::RootMotion::__Baker__Mode value);
+  constexpr void __cordl_internal_set_mode(::RootMotion::__Baker__Mode value);
 
-  constexpr ::ArrayW<::UnityEngine::AnimationClip*, ::Array<::UnityEngine::AnimationClip*>*>& __get_animationClips();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::UnityEngine::AnimationClip>>*>& __cordl_internal_get_animationClips();
 
-  constexpr ::ArrayW<::UnityEngine::AnimationClip*, ::Array<::UnityEngine::AnimationClip*>*> const& __get_animationClips() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::UnityEngine::AnimationClip>>*> const& __cordl_internal_get_animationClips() const;
 
-  constexpr void __set_animationClips(::ArrayW<::UnityEngine::AnimationClip*, ::Array<::UnityEngine::AnimationClip*>*> value);
+  constexpr void __cordl_internal_set_animationClips(::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::UnityEngine::AnimationClip>>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_animationStates();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_animationStates();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_animationStates() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_animationStates() const;
 
-  constexpr void __set_animationStates(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_animationStates(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr bool& __get_loop();
+  constexpr bool& __cordl_internal_get_loop();
 
-  constexpr bool const& __get_loop() const;
+  constexpr bool const& __cordl_internal_get_loop() const;
 
-  constexpr void __set_loop(bool value);
+  constexpr void __cordl_internal_set_loop(bool value);
 
-  constexpr ::StringW& __get_saveToFolder();
+  constexpr ::StringW& __cordl_internal_get_saveToFolder();
 
-  constexpr ::StringW const& __get_saveToFolder() const;
+  constexpr ::StringW const& __cordl_internal_get_saveToFolder() const;
 
-  constexpr void __set_saveToFolder(::StringW value);
+  constexpr void __cordl_internal_set_saveToFolder(::StringW value);
 
-  constexpr ::StringW& __get_appendName();
+  constexpr ::StringW& __cordl_internal_get_appendName();
 
-  constexpr ::StringW const& __get_appendName() const;
+  constexpr ::StringW const& __cordl_internal_get_appendName() const;
 
-  constexpr void __set_appendName(::StringW value);
+  constexpr void __cordl_internal_set_appendName(::StringW value);
 
-  constexpr ::StringW& __get_saveName();
+  constexpr ::StringW& __cordl_internal_get_saveName();
 
-  constexpr ::StringW const& __get_saveName() const;
+  constexpr ::StringW const& __cordl_internal_get_saveName() const;
 
-  constexpr void __set_saveName(::StringW value);
+  constexpr void __cordl_internal_set_saveName(::StringW value);
 
-  constexpr bool& __get__isBaking_k__BackingField();
+  constexpr bool& __cordl_internal_get__isBaking_k__BackingField();
 
-  constexpr bool const& __get__isBaking_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isBaking_k__BackingField() const;
 
-  constexpr void __set__isBaking_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isBaking_k__BackingField(bool value);
 
-  constexpr float_t& __get__bakingProgress_k__BackingField();
+  constexpr float_t& __cordl_internal_get__bakingProgress_k__BackingField();
 
-  constexpr float_t const& __get__bakingProgress_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__bakingProgress_k__BackingField() const;
 
-  constexpr void __set__bakingProgress_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__bakingProgress_k__BackingField(float_t value);
 
-  constexpr ::UnityEngine::Animator*& __get_animator();
+  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get_animator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> const& __get_animator() const;
+  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get_animator() const;
 
-  constexpr void __set_animator(::UnityEngine::Animator* value);
+  constexpr void __cordl_internal_set_animator(::UnityW<::UnityEngine::Animator> value);
 
-  constexpr ::UnityEngine::Playables::PlayableDirector*& __get_director();
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get_director();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Playables::PlayableDirector*> const& __get_director() const;
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get_director() const;
 
-  constexpr void __set_director(::UnityEngine::Playables::PlayableDirector* value);
+  constexpr void __cordl_internal_set_director(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  constexpr float_t& __get__clipLength_k__BackingField();
+  constexpr float_t& __cordl_internal_get__clipLength_k__BackingField();
 
-  constexpr float_t const& __get__clipLength_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__clipLength_k__BackingField() const;
 
-  constexpr void __set__clipLength_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__clipLength_k__BackingField(float_t value);
 
   /// @brief Method OpenUserManual, addr 0x1230bd8, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();
@@ -263,7 +264,7 @@ public:
   inline void set_bakingProgress(float_t value);
 
   /// @brief Method GetCharacterRoot, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::Transform* GetCharacterRoot();
+  inline ::UnityW<::UnityEngine::Transform> GetCharacterRoot();
 
   /// @brief Method OnStartBaking, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void OnStartBaking();
@@ -321,7 +322,7 @@ public:
   ::RootMotion::__Baker__Mode ___mode;
 
   /// @brief Field animationClips, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::AnimationClip*, ::Array<::UnityEngine::AnimationClip*>*> ___animationClips;
+  ::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::UnityEngine::AnimationClip>>*> ___animationClips;
 
   /// @brief Field animationStates, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___animationStates;
@@ -345,10 +346,10 @@ public:
   float_t ____bakingProgress_k__BackingField;
 
   /// @brief Field animator, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::Animator* ___animator;
+  ::UnityW<::UnityEngine::Animator> ___animator;
 
   /// @brief Field director, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::Playables::PlayableDirector* ___director;
+  ::UnityW<::UnityEngine::Playables::PlayableDirector> ___director;
 
   /// @brief Field <clipLength>k__BackingField, offset: 0x70, size: 0x4, def value: None
   float_t ____clipLength_k__BackingField;

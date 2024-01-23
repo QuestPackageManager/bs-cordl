@@ -48,20 +48,20 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11878))
 // CS Name: ::Newtonsoft.Json.Utilities::CollectionWrapper`1<T>*
 class CORDL_TYPE CollectionWrapper_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _list, offset 0x10, size 0x8
-  __declspec(property(get = __get__list, put = __set__list))::System::Collections::IList* _list;
+  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::IList* _list;
 
   /// @brief Field _genericCollection, offset 0x18, size 0x8
-  __declspec(property(get = __get__genericCollection, put = __set__genericCollection))::System::Collections::Generic::ICollection_1<T>* _genericCollection;
+  __declspec(property(get = __cordl_internal_get__genericCollection, put = __cordl_internal_set__genericCollection))::System::Collections::Generic::ICollection_1<T>* _genericCollection;
 
   /// @brief Field _syncRoot, offset 0x20, size 0x8
-  __declspec(property(get = __get__syncRoot, put = __set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -113,23 +113,23 @@ public:
   /// @brief Convert to "::System::Collections::ICollection"
   constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
-  constexpr ::System::Collections::IList*& __get__list();
+  constexpr ::System::Collections::IList*& __cordl_internal_get__list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get__list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__list() const;
 
-  constexpr void __set__list(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set__list(::System::Collections::IList* value);
 
-  constexpr ::System::Collections::Generic::ICollection_1<T>*& __get__genericCollection();
+  constexpr ::System::Collections::Generic::ICollection_1<T>*& __cordl_internal_get__genericCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::ICollection_1<T>*> const& __get__genericCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::ICollection_1<T>*> const& __cordl_internal_get__genericCollection() const;
 
-  constexpr void __set__genericCollection(::System::Collections::Generic::ICollection_1<T>* value);
+  constexpr void __cordl_internal_set__genericCollection(::System::Collections::Generic::ICollection_1<T>* value);
 
-  constexpr ::System::Object*& __get__syncRoot();
+  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__syncRoot() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
-  constexpr void __set__syncRoot(::System::Object* value);
+  constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
   static inline ::Newtonsoft::Json::Utilities::CollectionWrapper_1<T>* New_ctor(::System::Collections::IList* list);
 

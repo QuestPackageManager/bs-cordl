@@ -29,33 +29,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(241))
 // CS Name: ::Org.BouncyCastle.Asn1.Pkcs::PbeS2Parameters*
 class CORDL_TYPE PbeS2Parameters : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field func, offset 0x10, size 0x8
-  __declspec(property(get = __get_func, put = __set_func))::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* func;
+  __declspec(property(get = __cordl_internal_get_func, put = __cordl_internal_set_func))::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* func;
 
   /// @brief Field scheme, offset 0x18, size 0x8
-  __declspec(property(get = __get_scheme, put = __set_scheme))::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* scheme;
+  __declspec(property(get = __cordl_internal_get_scheme, put = __cordl_internal_set_scheme))::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* scheme;
 
   __declspec(property(get = get_KeyDerivationFunc))::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* KeyDerivationFunc;
 
   __declspec(property(get = get_EncryptionScheme))::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* EncryptionScheme;
 
-  constexpr ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc*& __get_func();
+  constexpr ::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc*& __cordl_internal_get_func();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc*> const& __get_func() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc*> const& __cordl_internal_get_func() const;
 
-  constexpr void __set_func(::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* value);
+  constexpr void __cordl_internal_set_func(::Org::BouncyCastle::Asn1::Pkcs::KeyDerivationFunc* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*& __get_scheme();
+  constexpr ::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*& __cordl_internal_get_scheme();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*> const& __get_scheme() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme*> const& __cordl_internal_get_scheme() const;
 
-  constexpr void __set_scheme(::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* value);
+  constexpr void __cordl_internal_set_scheme(::Org::BouncyCastle::Asn1::Pkcs::EncryptionScheme* value);
 
   /// @brief Method GetInstance, addr 0xf899bc, size 0xa4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::PbeS2Parameters* GetInstance(::System::Object* obj);

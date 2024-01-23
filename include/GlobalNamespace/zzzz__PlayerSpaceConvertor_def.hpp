@@ -18,22 +18,22 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSpaceConvertor);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5276))
 // CS Name: ::PlayerSpaceConvertor*
 class CORDL_TYPE PlayerSpaceConvertor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _worldToPlayerSpaceRotation, offset 0x18, size 0x10
-  __declspec(property(get = __get__worldToPlayerSpaceRotation, put = __set__worldToPlayerSpaceRotation))::UnityEngine::Quaternion _worldToPlayerSpaceRotation;
+  __declspec(property(get = __cordl_internal_get__worldToPlayerSpaceRotation, put = __cordl_internal_set__worldToPlayerSpaceRotation))::UnityEngine::Quaternion _worldToPlayerSpaceRotation;
 
   __declspec(property(get = get_worldToPlayerSpaceRotation))::UnityEngine::Quaternion worldToPlayerSpaceRotation;
 
-  constexpr ::UnityEngine::Quaternion& __get__worldToPlayerSpaceRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__worldToPlayerSpaceRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get__worldToPlayerSpaceRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__worldToPlayerSpaceRotation() const;
 
-  constexpr void __set__worldToPlayerSpaceRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set__worldToPlayerSpaceRotation(::UnityEngine::Quaternion value);
 
   /// @brief Method get_worldToPlayerSpaceRotation, addr 0x2260ce0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_worldToPlayerSpaceRotation();

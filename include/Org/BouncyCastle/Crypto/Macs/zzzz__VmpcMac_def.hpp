@@ -23,44 +23,44 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Macs::VmpcMac);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Macs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(948))
 // CS Name: ::Org.BouncyCastle.Crypto.Macs::VmpcMac*
 class CORDL_TYPE VmpcMac : public ::System::Object {
 public:
   // Declarations
   /// @brief Field g, offset 0x10, size 0x1
-  __declspec(property(get = __get_g, put = __set_g)) uint8_t g;
+  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g)) uint8_t g;
 
   /// @brief Field n, offset 0x11, size 0x1
-  __declspec(property(get = __get_n, put = __set_n)) uint8_t n;
+  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n)) uint8_t n;
 
   /// @brief Field P, offset 0x18, size 0x8
-  __declspec(property(get = __get_P, put = __set_P))::ArrayW<uint8_t, ::Array<uint8_t>*> P;
+  __declspec(property(get = __cordl_internal_get_P, put = __cordl_internal_set_P))::ArrayW<uint8_t, ::Array<uint8_t>*> P;
 
   /// @brief Field s, offset 0x20, size 0x1
-  __declspec(property(get = __get_s, put = __set_s)) uint8_t s;
+  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s)) uint8_t s;
 
   /// @brief Field T, offset 0x28, size 0x8
-  __declspec(property(get = __get_T, put = __set_T))::ArrayW<uint8_t, ::Array<uint8_t>*> T;
+  __declspec(property(get = __cordl_internal_get_T, put = __cordl_internal_set_T))::ArrayW<uint8_t, ::Array<uint8_t>*> T;
 
   /// @brief Field workingIV, offset 0x30, size 0x8
-  __declspec(property(get = __get_workingIV, put = __set_workingIV))::ArrayW<uint8_t, ::Array<uint8_t>*> workingIV;
+  __declspec(property(get = __cordl_internal_get_workingIV, put = __cordl_internal_set_workingIV))::ArrayW<uint8_t, ::Array<uint8_t>*> workingIV;
 
   /// @brief Field workingKey, offset 0x38, size 0x8
-  __declspec(property(get = __get_workingKey, put = __set_workingKey))::ArrayW<uint8_t, ::Array<uint8_t>*> workingKey;
+  __declspec(property(get = __cordl_internal_get_workingKey, put = __cordl_internal_set_workingKey))::ArrayW<uint8_t, ::Array<uint8_t>*> workingKey;
 
   /// @brief Field x1, offset 0x40, size 0x1
-  __declspec(property(get = __get_x1, put = __set_x1)) uint8_t x1;
+  __declspec(property(get = __cordl_internal_get_x1, put = __cordl_internal_set_x1)) uint8_t x1;
 
   /// @brief Field x2, offset 0x41, size 0x1
-  __declspec(property(get = __get_x2, put = __set_x2)) uint8_t x2;
+  __declspec(property(get = __cordl_internal_get_x2, put = __cordl_internal_set_x2)) uint8_t x2;
 
   /// @brief Field x3, offset 0x42, size 0x1
-  __declspec(property(get = __get_x3, put = __set_x3)) uint8_t x3;
+  __declspec(property(get = __cordl_internal_get_x3, put = __cordl_internal_set_x3)) uint8_t x3;
 
   /// @brief Field x4, offset 0x43, size 0x1
-  __declspec(property(get = __get_x4, put = __set_x4)) uint8_t x4;
+  __declspec(property(get = __cordl_internal_get_x4, put = __cordl_internal_set_x4)) uint8_t x4;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -70,71 +70,71 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
   constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
-  constexpr uint8_t& __get_g();
+  constexpr uint8_t& __cordl_internal_get_g();
 
-  constexpr uint8_t const& __get_g() const;
+  constexpr uint8_t const& __cordl_internal_get_g() const;
 
-  constexpr void __set_g(uint8_t value);
+  constexpr void __cordl_internal_set_g(uint8_t value);
 
-  constexpr uint8_t& __get_n();
+  constexpr uint8_t& __cordl_internal_get_n();
 
-  constexpr uint8_t const& __get_n() const;
+  constexpr uint8_t const& __cordl_internal_get_n() const;
 
-  constexpr void __set_n(uint8_t value);
+  constexpr void __cordl_internal_set_n(uint8_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_P();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_P();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_P() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_P() const;
 
-  constexpr void __set_P(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_P(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr uint8_t& __get_s();
+  constexpr uint8_t& __cordl_internal_get_s();
 
-  constexpr uint8_t const& __get_s() const;
+  constexpr uint8_t const& __cordl_internal_get_s() const;
 
-  constexpr void __set_s(uint8_t value);
+  constexpr void __cordl_internal_set_s(uint8_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_T();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_T();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_T() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_T() const;
 
-  constexpr void __set_T(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_T(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_workingIV();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_workingIV();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_workingIV() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_workingIV() const;
 
-  constexpr void __set_workingIV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_workingIV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_workingKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_workingKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_workingKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_workingKey() const;
 
-  constexpr void __set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr uint8_t& __get_x1();
+  constexpr uint8_t& __cordl_internal_get_x1();
 
-  constexpr uint8_t const& __get_x1() const;
+  constexpr uint8_t const& __cordl_internal_get_x1() const;
 
-  constexpr void __set_x1(uint8_t value);
+  constexpr void __cordl_internal_set_x1(uint8_t value);
 
-  constexpr uint8_t& __get_x2();
+  constexpr uint8_t& __cordl_internal_get_x2();
 
-  constexpr uint8_t const& __get_x2() const;
+  constexpr uint8_t const& __cordl_internal_get_x2() const;
 
-  constexpr void __set_x2(uint8_t value);
+  constexpr void __cordl_internal_set_x2(uint8_t value);
 
-  constexpr uint8_t& __get_x3();
+  constexpr uint8_t& __cordl_internal_get_x3();
 
-  constexpr uint8_t const& __get_x3() const;
+  constexpr uint8_t const& __cordl_internal_get_x3() const;
 
-  constexpr void __set_x3(uint8_t value);
+  constexpr void __cordl_internal_set_x3(uint8_t value);
 
-  constexpr uint8_t& __get_x4();
+  constexpr uint8_t& __cordl_internal_get_x4();
 
-  constexpr uint8_t const& __get_x4() const;
+  constexpr uint8_t const& __cordl_internal_get_x4() const;
 
-  constexpr void __set_x4(uint8_t value);
+  constexpr void __cordl_internal_set_x4(uint8_t value);
 
   /// @brief Method DoFinal, addr 0xf11470, size 0x448, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);

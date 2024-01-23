@@ -35,29 +35,29 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TEventType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7183))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7183))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7184))
 // CS Name: ::UnityEngine.UIElements::EventCallbackFunctor`1<TEventType>*
 class CORDL_TYPE EventCallbackFunctor_1 : public ::UnityEngine::UIElements::EventCallbackFunctorBase {
 public:
   // Declarations
   /// @brief Field m_Callback, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Callback, put = __set_m_Callback))::UnityEngine::UIElements::EventCallback_1<TEventType>* m_Callback;
+  __declspec(property(get = __cordl_internal_get_m_Callback, put = __cordl_internal_set_m_Callback))::UnityEngine::UIElements::EventCallback_1<TEventType>* m_Callback;
 
   /// @brief Field m_EventTypeId, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_EventTypeId, put = __set_m_EventTypeId)) int64_t m_EventTypeId;
+  __declspec(property(get = __cordl_internal_get_m_EventTypeId, put = __cordl_internal_set_m_EventTypeId)) int64_t m_EventTypeId;
 
-  constexpr ::UnityEngine::UIElements::EventCallback_1<TEventType>*& __get_m_Callback();
+  constexpr ::UnityEngine::UIElements::EventCallback_1<TEventType>*& __cordl_internal_get_m_Callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<TEventType>*> const& __get_m_Callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<TEventType>*> const& __cordl_internal_get_m_Callback() const;
 
-  constexpr void __set_m_Callback(::UnityEngine::UIElements::EventCallback_1<TEventType>* value);
+  constexpr void __cordl_internal_set_m_Callback(::UnityEngine::UIElements::EventCallback_1<TEventType>* value);
 
-  constexpr int64_t& __get_m_EventTypeId();
+  constexpr int64_t& __cordl_internal_get_m_EventTypeId();
 
-  constexpr int64_t const& __get_m_EventTypeId() const;
+  constexpr int64_t const& __cordl_internal_get_m_EventTypeId() const;
 
-  constexpr void __set_m_EventTypeId(int64_t value);
+  constexpr void __cordl_internal_set_m_EventTypeId(int64_t value);
 
   static inline ::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>* New_ctor(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback,
                                                                                         ::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);

@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::__PgpCompressedDataGenerator_
 // SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 248, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1634))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1634))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1630))
 // CS Name: ::PgpCompressedDataGenerator::SafeCBZip2OutputStream*
 class CORDL_TYPE __PgpCompressedDataGenerator__SafeCBZip2OutputStream : public ::Org::BouncyCastle::Apache::Bzip2::CBZip2OutputStream {
@@ -83,7 +83,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1297))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1297))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1631))
 // CS Name: ::PgpCompressedDataGenerator::SafeZOutputStream*
 class CORDL_TYPE __PgpCompressedDataGenerator__SafeZOutputStream : public ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream {
@@ -121,7 +121,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(559))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(559)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1632))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpCompressedDataGenerator*
 class CORDL_TYPE PgpCompressedDataGenerator : public ::System::Object {
@@ -132,16 +132,16 @@ public:
   using SafeCBZip2OutputStream = ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpCompressedDataGenerator__SafeCBZip2OutputStream;
 
   /// @brief Field algorithm, offset 0x10, size 0x4
-  __declspec(property(get = __get_algorithm, put = __set_algorithm))::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm;
+  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm;
 
   /// @brief Field compression, offset 0x14, size 0x4
-  __declspec(property(get = __get_compression, put = __set_compression)) int32_t compression;
+  __declspec(property(get = __cordl_internal_get_compression, put = __cordl_internal_set_compression)) int32_t compression;
 
   /// @brief Field dOut, offset 0x18, size 0x8
-  __declspec(property(get = __get_dOut, put = __set_dOut))::System::IO::Stream* dOut;
+  __declspec(property(get = __cordl_internal_get_dOut, put = __cordl_internal_set_dOut))::System::IO::Stream* dOut;
 
   /// @brief Field pkOut, offset 0x20, size 0x8
-  __declspec(property(get = __get_pkOut, put = __set_pkOut))::Org::BouncyCastle::Bcpg::BcpgOutputStream* pkOut;
+  __declspec(property(get = __cordl_internal_get_pkOut, put = __cordl_internal_set_pkOut))::Org::BouncyCastle::Bcpg::BcpgOutputStream* pkOut;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"
   constexpr operator ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator*() noexcept;
@@ -149,29 +149,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"
   constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* i___Org__BouncyCastle__Bcpg__OpenPgp__IStreamGenerator() noexcept;
 
-  constexpr ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag& __get_algorithm();
+  constexpr ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag& __cordl_internal_get_algorithm();
 
-  constexpr ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag const& __get_algorithm() const;
+  constexpr ::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag const& __cordl_internal_get_algorithm() const;
 
-  constexpr void __set_algorithm(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag value);
+  constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag value);
 
-  constexpr int32_t& __get_compression();
+  constexpr int32_t& __cordl_internal_get_compression();
 
-  constexpr int32_t const& __get_compression() const;
+  constexpr int32_t const& __cordl_internal_get_compression() const;
 
-  constexpr void __set_compression(int32_t value);
+  constexpr void __cordl_internal_set_compression(int32_t value);
 
-  constexpr ::System::IO::Stream*& __get_dOut();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_dOut();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_dOut() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_dOut() const;
 
-  constexpr void __set_dOut(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_dOut(::System::IO::Stream* value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::BcpgOutputStream*& __get_pkOut();
+  constexpr ::Org::BouncyCastle::Bcpg::BcpgOutputStream*& __cordl_internal_get_pkOut();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::BcpgOutputStream*> const& __get_pkOut() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::BcpgOutputStream*> const& __cordl_internal_get_pkOut() const;
 
-  constexpr void __set_pkOut(::Org::BouncyCastle::Bcpg::BcpgOutputStream* value);
+  constexpr void __cordl_internal_set_pkOut(::Org::BouncyCastle::Bcpg::BcpgOutputStream* value);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpCompressedDataGenerator* New_ctor(::Org::BouncyCastle::Bcpg::CompressionAlgorithmTag algorithm);
 

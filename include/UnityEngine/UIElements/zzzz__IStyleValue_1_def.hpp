@@ -18,7 +18,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7299))
 // CS Name: ::UnityEngine.UIElements::IStyleValue`1<T>*
 class CORDL_TYPE IStyleValue_1 {

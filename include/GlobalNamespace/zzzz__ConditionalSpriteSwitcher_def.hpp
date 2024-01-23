@@ -26,78 +26,78 @@ MARK_REF_PTR_T(::GlobalNamespace::ConditionalSpriteSwitcher);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5356))
 // CS Name: ::ConditionalSpriteSwitcher*
 class CORDL_TYPE ConditionalSpriteSwitcher : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _sprite0, offset 0x18, size 0x8
-  __declspec(property(get = __get__sprite0, put = __set__sprite0))::UnityEngine::Sprite* _sprite0;
+  __declspec(property(get = __cordl_internal_get__sprite0, put = __cordl_internal_set__sprite0))::UnityW<::UnityEngine::Sprite> _sprite0;
 
   /// @brief Field _material0, offset 0x20, size 0x8
-  __declspec(property(get = __get__material0, put = __set__material0))::UnityEngine::Material* _material0;
+  __declspec(property(get = __cordl_internal_get__material0, put = __cordl_internal_set__material0))::UnityW<::UnityEngine::Material> _material0;
 
   /// @brief Field _sprite1, offset 0x28, size 0x8
-  __declspec(property(get = __get__sprite1, put = __set__sprite1))::UnityEngine::Sprite* _sprite1;
+  __declspec(property(get = __cordl_internal_get__sprite1, put = __cordl_internal_set__sprite1))::UnityW<::UnityEngine::Sprite> _sprite1;
 
   /// @brief Field _material1, offset 0x30, size 0x8
-  __declspec(property(get = __get__material1, put = __set__material1))::UnityEngine::Material* _material1;
+  __declspec(property(get = __cordl_internal_get__material1, put = __cordl_internal_set__material1))::UnityW<::UnityEngine::Material> _material1;
 
   /// @brief Field _value, offset 0x38, size 0x8
-  __declspec(property(get = __get__value, put = __set__value))::GlobalNamespace::BoolSO* _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::UnityW<::GlobalNamespace::BoolSO> _value;
 
   /// @brief Field _spriteRenderer, offset 0x40, size 0x8
-  __declspec(property(get = __get__spriteRenderer, put = __set__spriteRenderer))::UnityEngine::SpriteRenderer* _spriteRenderer;
+  __declspec(property(get = __cordl_internal_get__spriteRenderer, put = __cordl_internal_set__spriteRenderer))::UnityW<::UnityEngine::SpriteRenderer> _spriteRenderer;
 
-  __declspec(property(get = get_falseSprite, put = set_falseSprite))::UnityEngine::Sprite* falseSprite;
+  __declspec(property(get = get_falseSprite, put = set_falseSprite))::UnityW<::UnityEngine::Sprite> falseSprite;
 
-  __declspec(property(get = get_trueSprite, put = set_trueSprite))::UnityEngine::Sprite* trueSprite;
+  __declspec(property(get = get_trueSprite, put = set_trueSprite))::UnityW<::UnityEngine::Sprite> trueSprite;
 
-  constexpr ::UnityEngine::Sprite*& __get__sprite0();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__sprite0();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__sprite0() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__sprite0() const;
 
-  constexpr void __set__sprite0(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__sprite0(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Material*& __get__material0();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material0();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__material0() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material0() const;
 
-  constexpr void __set__material0(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__material0(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__sprite1();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__sprite1();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__sprite1() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__sprite1() const;
 
-  constexpr void __set__sprite1(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__sprite1(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Material*& __get__material1();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material1();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__material1() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material1() const;
 
-  constexpr void __set__material1(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__material1(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::GlobalNamespace::BoolSO*& __get__value();
+  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__value();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& __get__value() const;
+  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(::GlobalNamespace::BoolSO* value);
+  constexpr void __cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  constexpr ::UnityEngine::SpriteRenderer*& __get__spriteRenderer();
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer>& __cordl_internal_get__spriteRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SpriteRenderer*> const& __get__spriteRenderer() const;
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__spriteRenderer() const;
 
-  constexpr void __set__spriteRenderer(::UnityEngine::SpriteRenderer* value);
+  constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
   /// @brief Method get_falseSprite, addr 0x226c180, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Sprite* get_falseSprite();
+  inline ::UnityW<::UnityEngine::Sprite> get_falseSprite();
 
   /// @brief Method set_falseSprite, addr 0x226c188, size 0x8, virtual false, abstract: false, final false
   inline void set_falseSprite(::UnityEngine::Sprite* value);
 
   /// @brief Method get_trueSprite, addr 0x226c190, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Sprite* get_trueSprite();
+  inline ::UnityW<::UnityEngine::Sprite> get_trueSprite();
 
   /// @brief Method set_trueSprite, addr 0x226c198, size 0x8, virtual false, abstract: false, final false
   inline void set_trueSprite(::UnityEngine::Sprite* value);
@@ -128,22 +128,22 @@ protected:
 
 public:
   /// @brief Field _sprite0, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____sprite0;
+  ::UnityW<::UnityEngine::Sprite> ____sprite0;
 
   /// @brief Field _material0, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Material* ____material0;
+  ::UnityW<::UnityEngine::Material> ____material0;
 
   /// @brief Field _sprite1, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____sprite1;
+  ::UnityW<::UnityEngine::Sprite> ____sprite1;
 
   /// @brief Field _material1, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Material* ____material1;
+  ::UnityW<::UnityEngine::Material> ____material1;
 
   /// @brief Field _value, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::BoolSO* ____value;
+  ::UnityW<::GlobalNamespace::BoolSO> ____value;
 
   /// @brief Field _spriteRenderer, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::SpriteRenderer* ____spriteRenderer;
+  ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

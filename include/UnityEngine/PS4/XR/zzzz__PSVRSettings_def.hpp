@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::PS4::XR::PSVRSettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::PS4::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16268))
 // CS Name: ::UnityEngine.PS4.XR::PSVRSettings*
 class CORDL_TYPE PSVRSettings : public ::UnityEngine::ScriptableObject {

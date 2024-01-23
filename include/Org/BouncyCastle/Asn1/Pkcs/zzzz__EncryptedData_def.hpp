@@ -35,14 +35,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::EncryptedData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(233))
 // CS Name: ::Org.BouncyCastle.Asn1.Pkcs::EncryptedData*
 class CORDL_TYPE EncryptedData : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field data, offset 0x10, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::Org::BouncyCastle::Asn1::Asn1Sequence* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::Org::BouncyCastle::Asn1::Asn1Sequence* data;
 
   __declspec(property(get = get_ContentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ContentType;
 
@@ -50,11 +50,11 @@ public:
 
   __declspec(property(get = get_Content))::Org::BouncyCastle::Asn1::Asn1OctetString* Content;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_data();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_data();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_data() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_data(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   /// @brief Method GetInstance, addr 0xf876f0, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::EncryptedData* GetInstance(::System::Object* obj);

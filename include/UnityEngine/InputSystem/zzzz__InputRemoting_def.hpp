@@ -202,7 +202,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::__InputRemoting__RemoteSender);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6251))
 // CS Name: ::InputRemoting::MessageType
 struct CORDL_TYPE __InputRemoting__MessageType {
@@ -284,7 +284,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputRemoting__MessageType,
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6252))
 // CS Name: ::InputRemoting::Message
 struct CORDL_TYPE __InputRemoting__Message {
@@ -326,7 +326,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputRemoting__Message, dat
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6253))
 // CS Name: ::InputRemoting::Flags
 struct CORDL_TYPE __InputRemoting__Flags {
@@ -376,7 +376,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputRemoting__Flags, value
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6254))
 // CS Name: ::InputRemoting::RemoteSender
 struct CORDL_TYPE __InputRemoting__RemoteSender {
@@ -421,7 +421,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputRemoting__RemoteSender
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6620))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6620))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6255))
 // CS Name: ::InputRemoting::RemoteInputDevice
 struct CORDL_TYPE __InputRemoting__RemoteInputDevice {
@@ -463,17 +463,17 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputRemoting__RemoteInputD
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6256))
 // CS Name: ::InputRemoting::Subscriber*
 class CORDL_TYPE __InputRemoting__Subscriber : public ::System::Object {
 public:
   // Declarations
   /// @brief Field owner, offset 0x10, size 0x8
-  __declspec(property(get = __get_owner, put = __set_owner))::UnityEngine::InputSystem::InputRemoting* owner;
+  __declspec(property(get = __cordl_internal_get_owner, put = __cordl_internal_set_owner))::UnityEngine::InputSystem::InputRemoting* owner;
 
   /// @brief Field observer, offset 0x18, size 0x8
-  __declspec(property(get = __get_observer, put = __set_observer))::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* observer;
+  __declspec(property(get = __cordl_internal_get_observer, put = __cordl_internal_set_observer))::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* observer;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -481,17 +481,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::UnityEngine::InputSystem::InputRemoting*& __get_owner();
+  constexpr ::UnityEngine::InputSystem::InputRemoting*& __cordl_internal_get_owner();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputRemoting*> const& __get_owner() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputRemoting*> const& __cordl_internal_get_owner() const;
 
-  constexpr void __set_owner(::UnityEngine::InputSystem::InputRemoting* value);
+  constexpr void __cordl_internal_set_owner(::UnityEngine::InputSystem::InputRemoting* value);
 
-  constexpr ::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>*& __get_observer();
+  constexpr ::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>*& __cordl_internal_get_observer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>*> const& __get_observer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>*> const& __cordl_internal_get_observer() const;
 
-  constexpr void __set_observer(::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* value);
+  constexpr void __cordl_internal_set_observer(::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* value);
 
   /// @brief Method Dispose, addr 0x2aa5ff8, size 0x58, virtual true, abstract: false, final true
   inline void Dispose();
@@ -535,7 +535,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputRemoting__Subscriber, 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6257))
 // CS Name: ::InputRemoting::ConnectMsg*
 class CORDL_TYPE __InputRemoting__ConnectMsg : public ::System::Object {
@@ -568,7 +568,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6258))
 // CS Name: ::InputRemoting::StartSendingMsg*
 class CORDL_TYPE __InputRemoting__StartSendingMsg : public ::System::Object {
@@ -601,7 +601,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6259))
 // CS Name: ::InputRemoting::StopSendingMsg*
 class CORDL_TYPE __InputRemoting__StopSendingMsg : public ::System::Object {
@@ -634,7 +634,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6260))
 // CS Name: ::InputRemoting::DisconnectMsg*
 class CORDL_TYPE __InputRemoting__DisconnectMsg : public ::System::Object {
@@ -667,7 +667,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6261))
 // CS Name: ::InputRemoting::NewLayoutMsg::Data
 struct CORDL_TYPE __InputRemoting__NewLayoutMsg__Data {
@@ -709,7 +709,7 @@ static_assert(offsetof(::GlobalNamespace::__InputRemoting__NewLayoutMsg__Data, i
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6262))
 // CS Name: ::InputRemoting::NewLayoutMsg*
 class CORDL_TYPE __InputRemoting__NewLayoutMsg : public ::System::Object {
@@ -747,7 +747,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6620))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6620))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6263))
 // CS Name: ::InputRemoting::NewDeviceMsg::Data
 struct CORDL_TYPE __InputRemoting__NewDeviceMsg__Data {
@@ -801,7 +801,7 @@ static_assert(offsetof(::GlobalNamespace::__InputRemoting__NewDeviceMsg__Data, d
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6264))
 // CS Name: ::InputRemoting::NewDeviceMsg::<>c*
 class CORDL_TYPE __InputRemoting__NewDeviceMsg____c : public ::System::Object {
@@ -853,7 +853,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputRemoting
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6265))
 // CS Name: ::InputRemoting::NewDeviceMsg*
 class CORDL_TYPE __InputRemoting__NewDeviceMsg : public ::System::Object {
@@ -893,7 +893,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6266))
 // CS Name: ::InputRemoting::NewEventsMsg*
 class CORDL_TYPE __InputRemoting__NewEventsMsg : public ::System::Object {
@@ -935,7 +935,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6267))
 // CS Name: ::InputRemoting::ChangeUsageMsg::Data
 struct CORDL_TYPE __InputRemoting__ChangeUsageMsg__Data {
@@ -972,7 +972,7 @@ static_assert(offsetof(::GlobalNamespace::__InputRemoting__ChangeUsageMsg__Data,
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6268))
 // CS Name: ::InputRemoting::ChangeUsageMsg::<>c*
 class CORDL_TYPE __InputRemoting__ChangeUsageMsg____c : public ::System::Object {
@@ -1024,7 +1024,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputRemoting
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6269))
 // CS Name: ::InputRemoting::ChangeUsageMsg*
 class CORDL_TYPE __InputRemoting__ChangeUsageMsg : public ::System::Object {
@@ -1064,7 +1064,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6270))
 // CS Name: ::InputRemoting::RemoveDeviceMsg*
 class CORDL_TYPE __InputRemoting__RemoveDeviceMsg : public ::System::Object {
@@ -1100,7 +1100,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6253))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6253))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6271))
 // CS Name: ::UnityEngine.InputSystem::InputRemoting*
 class CORDL_TYPE InputRemoting : public ::System::Object {
@@ -1137,18 +1137,20 @@ public:
   using MessageType = ::UnityEngine::InputSystem::__InputRemoting__MessageType;
 
   /// @brief Field m_Flags, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_Flags, put = __set_m_Flags))::UnityEngine::InputSystem::__InputRemoting__Flags m_Flags;
+  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags))::UnityEngine::InputSystem::__InputRemoting__Flags m_Flags;
 
   /// @brief Field m_LocalManager, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_LocalManager, put = __set_m_LocalManager))::UnityEngine::InputSystem::InputManager* m_LocalManager;
+  __declspec(property(get = __cordl_internal_get_m_LocalManager, put = __cordl_internal_set_m_LocalManager))::UnityEngine::InputSystem::InputManager* m_LocalManager;
 
   /// @brief Field m_Subscribers, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Subscribers,
-                      put = __set_m_Subscribers))::ArrayW<::UnityEngine::InputSystem::__InputRemoting__Subscriber*, ::Array<::UnityEngine::InputSystem::__InputRemoting__Subscriber*>*> m_Subscribers;
+  __declspec(property(
+      get = __cordl_internal_get_m_Subscribers,
+      put = __cordl_internal_set_m_Subscribers))::ArrayW<::UnityEngine::InputSystem::__InputRemoting__Subscriber*, ::Array<::UnityEngine::InputSystem::__InputRemoting__Subscriber*>*> m_Subscribers;
 
   /// @brief Field m_Senders, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Senders,
-                      put = __set_m_Senders))::ArrayW<::UnityEngine::InputSystem::__InputRemoting__RemoteSender, ::Array<::UnityEngine::InputSystem::__InputRemoting__RemoteSender>*> m_Senders;
+  __declspec(
+      property(get = __cordl_internal_get_m_Senders,
+               put = __cordl_internal_set_m_Senders))::ArrayW<::UnityEngine::InputSystem::__InputRemoting__RemoteSender, ::Array<::UnityEngine::InputSystem::__InputRemoting__RemoteSender>*> m_Senders;
 
   __declspec(property(get = get_sending, put = set_sending)) bool sending;
 
@@ -1166,29 +1168,29 @@ public:
   /// @brief Convert to "::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>"
   constexpr ::System::IObserver_1<::UnityEngine::InputSystem::__InputRemoting__Message>* i___System__IObserver_1___UnityEngine__InputSystem____InputRemoting__Message_() noexcept;
 
-  constexpr ::UnityEngine::InputSystem::__InputRemoting__Flags& __get_m_Flags();
+  constexpr ::UnityEngine::InputSystem::__InputRemoting__Flags& __cordl_internal_get_m_Flags();
 
-  constexpr ::UnityEngine::InputSystem::__InputRemoting__Flags const& __get_m_Flags() const;
+  constexpr ::UnityEngine::InputSystem::__InputRemoting__Flags const& __cordl_internal_get_m_Flags() const;
 
-  constexpr void __set_m_Flags(::UnityEngine::InputSystem::__InputRemoting__Flags value);
+  constexpr void __cordl_internal_set_m_Flags(::UnityEngine::InputSystem::__InputRemoting__Flags value);
 
-  constexpr ::UnityEngine::InputSystem::InputManager*& __get_m_LocalManager();
+  constexpr ::UnityEngine::InputSystem::InputManager*& __cordl_internal_get_m_LocalManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputManager*> const& __get_m_LocalManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputManager*> const& __cordl_internal_get_m_LocalManager() const;
 
-  constexpr void __set_m_LocalManager(::UnityEngine::InputSystem::InputManager* value);
+  constexpr void __cordl_internal_set_m_LocalManager(::UnityEngine::InputSystem::InputManager* value);
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::__InputRemoting__Subscriber*, ::Array<::UnityEngine::InputSystem::__InputRemoting__Subscriber*>*>& __get_m_Subscribers();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::__InputRemoting__Subscriber*, ::Array<::UnityEngine::InputSystem::__InputRemoting__Subscriber*>*>& __cordl_internal_get_m_Subscribers();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::__InputRemoting__Subscriber*, ::Array<::UnityEngine::InputSystem::__InputRemoting__Subscriber*>*> const& __get_m_Subscribers() const;
+  constexpr ::ArrayW<::UnityEngine::InputSystem::__InputRemoting__Subscriber*, ::Array<::UnityEngine::InputSystem::__InputRemoting__Subscriber*>*> const& __cordl_internal_get_m_Subscribers() const;
 
-  constexpr void __set_m_Subscribers(::ArrayW<::UnityEngine::InputSystem::__InputRemoting__Subscriber*, ::Array<::UnityEngine::InputSystem::__InputRemoting__Subscriber*>*> value);
+  constexpr void __cordl_internal_set_m_Subscribers(::ArrayW<::UnityEngine::InputSystem::__InputRemoting__Subscriber*, ::Array<::UnityEngine::InputSystem::__InputRemoting__Subscriber*>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::__InputRemoting__RemoteSender, ::Array<::UnityEngine::InputSystem::__InputRemoting__RemoteSender>*>& __get_m_Senders();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::__InputRemoting__RemoteSender, ::Array<::UnityEngine::InputSystem::__InputRemoting__RemoteSender>*>& __cordl_internal_get_m_Senders();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::__InputRemoting__RemoteSender, ::Array<::UnityEngine::InputSystem::__InputRemoting__RemoteSender>*> const& __get_m_Senders() const;
+  constexpr ::ArrayW<::UnityEngine::InputSystem::__InputRemoting__RemoteSender, ::Array<::UnityEngine::InputSystem::__InputRemoting__RemoteSender>*> const& __cordl_internal_get_m_Senders() const;
 
-  constexpr void __set_m_Senders(::ArrayW<::UnityEngine::InputSystem::__InputRemoting__RemoteSender, ::Array<::UnityEngine::InputSystem::__InputRemoting__RemoteSender>*> value);
+  constexpr void __cordl_internal_set_m_Senders(::ArrayW<::UnityEngine::InputSystem::__InputRemoting__RemoteSender, ::Array<::UnityEngine::InputSystem::__InputRemoting__RemoteSender>*> value);
 
   /// @brief Method get_sending, addr 0x2aa351c, size 0xc, virtual false, abstract: false, final false
   inline bool get_sending();

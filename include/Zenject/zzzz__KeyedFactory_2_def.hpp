@@ -29,7 +29,7 @@ namespace Zenject {
 // cpp template
 template <typename TBase, typename TKey>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10995)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10995), inst: 3946 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10995)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10995), inst: 3946 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10996))
 // CS Name: ::Zenject::KeyedFactory`2<TBase,TKey>*
 class CORDL_TYPE KeyedFactory_2 : public ::Zenject::KeyedFactoryBase_2<TBase, TKey> {

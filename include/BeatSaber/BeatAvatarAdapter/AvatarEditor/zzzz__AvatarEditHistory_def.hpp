@@ -27,20 +27,21 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::AvatarEditHistory);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15261))
 // CS Name: ::BeatSaber.BeatAvatarAdapter.AvatarEditor::AvatarEditHistory*
 class CORDL_TYPE AvatarEditHistory : public ::System::Object {
 public:
   // Declarations
   /// @brief Field disableNextSnapshotOverride, offset 0x10, size 0x1
-  __declspec(property(get = __get_disableNextSnapshotOverride, put = __set_disableNextSnapshotOverride)) bool disableNextSnapshotOverride;
+  __declspec(property(get = __cordl_internal_get_disableNextSnapshotOverride, put = __cordl_internal_set_disableNextSnapshotOverride)) bool disableNextSnapshotOverride;
 
   /// @brief Field _snapShots, offset 0x18, size 0x8
-  __declspec(property(get = __get__snapShots, put = __set__snapShots))::System::Collections::Generic::List_1<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot>* _snapShots;
+  __declspec(property(get = __cordl_internal_get__snapShots,
+                      put = __cordl_internal_set__snapShots))::System::Collections::Generic::List_1<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot>* _snapShots;
 
   /// @brief Field _currentDataId, offset 0x20, size 0x4
-  __declspec(property(get = __get__currentDataId, put = __set__currentDataId)) int32_t _currentDataId;
+  __declspec(property(get = __cordl_internal_get__currentDataId, put = __cordl_internal_set__currentDataId)) int32_t _currentDataId;
 
   __declspec(property(get = get_undoAvailable)) bool undoAvailable;
 
@@ -50,23 +51,24 @@ public:
 
   __declspec(property(get = get_lastEditedPart))::BeatSaber::BeatAvatarSDK::AvatarPart lastEditedPart;
 
-  constexpr bool& __get_disableNextSnapshotOverride();
+  constexpr bool& __cordl_internal_get_disableNextSnapshotOverride();
 
-  constexpr bool const& __get_disableNextSnapshotOverride() const;
+  constexpr bool const& __cordl_internal_get_disableNextSnapshotOverride() const;
 
-  constexpr void __set_disableNextSnapshotOverride(bool value);
+  constexpr void __cordl_internal_set_disableNextSnapshotOverride(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot>*& __get__snapShots();
+  constexpr ::System::Collections::Generic::List_1<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot>*& __cordl_internal_get__snapShots();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot>*> const& __get__snapShots() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot>*> const&
+  __cordl_internal_get__snapShots() const;
 
-  constexpr void __set__snapShots(::System::Collections::Generic::List_1<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot>* value);
+  constexpr void __cordl_internal_set__snapShots(::System::Collections::Generic::List_1<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarHistorySnapshot>* value);
 
-  constexpr int32_t& __get__currentDataId();
+  constexpr int32_t& __cordl_internal_get__currentDataId();
 
-  constexpr int32_t const& __get__currentDataId() const;
+  constexpr int32_t const& __cordl_internal_get__currentDataId() const;
 
-  constexpr void __set__currentDataId(int32_t value);
+  constexpr void __cordl_internal_set__currentDataId(int32_t value);
 
   /// @brief Method get_undoAvailable, addr 0xe14bb0, size 0x10, virtual false, abstract: false, final false
   inline bool get_undoAvailable();

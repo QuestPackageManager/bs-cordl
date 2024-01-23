@@ -34,14 +34,14 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Chain);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9002))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Chain*
 class CORDL_TYPE X509Chain : public ::System::Object {
 public:
   // Declarations
   /// @brief Field impl, offset 0x10, size 0x8
-  __declspec(property(get = __get_impl, put = __set_impl))::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl;
+  __declspec(property(get = __cordl_internal_get_impl, put = __cordl_internal_set_impl))::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl;
 
   __declspec(property(get = get_Impl))::System::Security::Cryptography::X509Certificates::X509ChainImpl* Impl;
 
@@ -58,11 +58,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainImpl*& __get_impl();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509ChainImpl*& __cordl_internal_get_impl();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainImpl*> const& __get_impl() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509ChainImpl*> const& __cordl_internal_get_impl() const;
 
-  constexpr void __set_impl(::System::Security::Cryptography::X509Certificates::X509ChainImpl* value);
+  constexpr void __cordl_internal_set_impl(::System::Security::Cryptography::X509Certificates::X509ChainImpl* value);
 
   /// @brief Method get_Impl, addr 0x297f8f0, size 0x20, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainImpl* get_Impl();

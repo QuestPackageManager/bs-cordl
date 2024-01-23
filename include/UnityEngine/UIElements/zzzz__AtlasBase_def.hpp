@@ -36,20 +36,20 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::AtlasBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6758))
 // CS Name: ::UnityEngine.UIElements::AtlasBase*
 class CORDL_TYPE AtlasBase : public ::System::Object {
 public:
   // Declarations
   /// @brief Field textureRegistry, offset 0x10, size 0x8
-  __declspec(property(get = __get_textureRegistry, put = __set_textureRegistry))::UnityEngine::UIElements::TextureRegistry* textureRegistry;
+  __declspec(property(get = __cordl_internal_get_textureRegistry, put = __cordl_internal_set_textureRegistry))::UnityEngine::UIElements::TextureRegistry* textureRegistry;
 
-  constexpr ::UnityEngine::UIElements::TextureRegistry*& __get_textureRegistry();
+  constexpr ::UnityEngine::UIElements::TextureRegistry*& __cordl_internal_get_textureRegistry();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextureRegistry*> const& __get_textureRegistry() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextureRegistry*> const& __cordl_internal_get_textureRegistry() const;
 
-  constexpr void __set_textureRegistry(::UnityEngine::UIElements::TextureRegistry* value);
+  constexpr void __cordl_internal_set_textureRegistry(::UnityEngine::UIElements::TextureRegistry* value);
 
   /// @brief Method TryGetAtlas, addr 0x2db3fb0, size 0x74, virtual true, abstract: false, final false
   inline bool TryGetAtlas(::UnityEngine::UIElements::VisualElement* ctx, ::UnityEngine::Texture2D* src, ByRef<::UnityEngine::UIElements::TextureId> atlas, ByRef<::UnityEngine::RectInt> atlasRect);

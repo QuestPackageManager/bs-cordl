@@ -77,7 +77,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__PreUpdate__WindUpdate);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10531))
 // CS Name: ::PreUpdate::PhysicsUpdate
 #pragma pack(push, 0)
@@ -105,7 +105,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10532))
 // CS Name: ::PreUpdate::Physics2DUpdate
 #pragma pack(push, 0)
@@ -133,7 +133,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10533))
 // CS Name: ::PreUpdate::CheckTexFieldInput
 #pragma pack(push, 0)
@@ -161,7 +161,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10534))
 // CS Name: ::PreUpdate::IMGUISendQueuedEvents
 #pragma pack(push, 0)
@@ -189,7 +189,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10535))
 // CS Name: ::PreUpdate::SendMouseEvents
 #pragma pack(push, 0)
@@ -217,7 +217,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10536))
 // CS Name: ::PreUpdate::AIUpdate
 #pragma pack(push, 0)
@@ -245,7 +245,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10537))
 // CS Name: ::PreUpdate::WindUpdate
 #pragma pack(push, 0)
@@ -273,7 +273,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10538))
 // CS Name: ::PreUpdate::UpdateVideo
 #pragma pack(push, 0)
@@ -301,7 +301,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10539))
 // CS Name: ::PreUpdate::NewInputUpdate
 #pragma pack(push, 0)
@@ -329,7 +329,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PreUp
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10540))
 // CS Name: ::UnityEngine.PlayerLoop::PreUpdate
 #pragma pack(push, 0)

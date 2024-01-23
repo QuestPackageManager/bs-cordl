@@ -48,7 +48,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::XInput::__XInputController__Capabilities)
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6351))
 // CS Name: ::XInputController::DeviceType
 struct CORDL_TYPE __XInputController__DeviceType {
@@ -94,7 +94,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XInput::__XInputController__D
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6352))
 // CS Name: ::XInputController::DeviceSubType
 struct CORDL_TYPE __XInputController__DeviceSubType {
@@ -180,7 +180,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XInput::__XInputController__D
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6353))
 // CS Name: ::XInputController::DeviceFlags
 struct CORDL_TYPE __XInputController__DeviceFlags {
@@ -242,7 +242,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XInput::__XInputController__D
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6352)), TypeDefinitionIndex(TypeDefinitionIndex(6351)), TypeDefinitionIndex(TypeDefinitionIndex(6353))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6351)), TypeDefinitionIndex(TypeDefinitionIndex(6352)), TypeDefinitionIndex(TypeDefinitionIndex(6353))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6354))
 // CS Name: ::XInputController::Capabilities
 struct CORDL_TYPE __XInputController__Capabilities {
@@ -286,7 +286,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XInput::__XInputController__C
 // SizeInfo { instance_size: 504, native_size: -1, calculated_instance_size: 504, calculated_native_size: 500, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6237)), TypeDefinitionIndex(TypeDefinitionIndex(6353)), TypeDefinitionIndex(TypeDefinitionIndex(6352))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6237)), TypeDefinitionIndex(TypeDefinitionIndex(6352)), TypeDefinitionIndex(TypeDefinitionIndex(6353))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6355))
 // CS Name: ::UnityEngine.InputSystem.XInput::XInputController*
 class CORDL_TYPE XInputController : public ::UnityEngine::InputSystem::Gamepad {
@@ -301,19 +301,19 @@ public:
   using DeviceType = ::UnityEngine::InputSystem::XInput::__XInputController__DeviceType;
 
   /// @brief Field <menu>k__BackingField, offset 0x1d8, size 0x8
-  __declspec(property(get = __get__menu_k__BackingField, put = __set__menu_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _menu_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__menu_k__BackingField, put = __cordl_internal_set__menu_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _menu_k__BackingField;
 
   /// @brief Field <view>k__BackingField, offset 0x1e0, size 0x8
-  __declspec(property(get = __get__view_k__BackingField, put = __set__view_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _view_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__view_k__BackingField, put = __cordl_internal_set__view_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _view_k__BackingField;
 
   /// @brief Field m_HaveParsedCapabilities, offset 0x1e8, size 0x1
-  __declspec(property(get = __get_m_HaveParsedCapabilities, put = __set_m_HaveParsedCapabilities)) bool m_HaveParsedCapabilities;
+  __declspec(property(get = __cordl_internal_get_m_HaveParsedCapabilities, put = __cordl_internal_set_m_HaveParsedCapabilities)) bool m_HaveParsedCapabilities;
 
   /// @brief Field m_SubType, offset 0x1ec, size 0x4
-  __declspec(property(get = __get_m_SubType, put = __set_m_SubType))::UnityEngine::InputSystem::XInput::__XInputController__DeviceSubType m_SubType;
+  __declspec(property(get = __cordl_internal_get_m_SubType, put = __cordl_internal_set_m_SubType))::UnityEngine::InputSystem::XInput::__XInputController__DeviceSubType m_SubType;
 
   /// @brief Field m_Flags, offset 0x1f0, size 0x4
-  __declspec(property(get = __get_m_Flags, put = __set_m_Flags))::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags m_Flags;
+  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags))::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags m_Flags;
 
   __declspec(property(get = get_menu, put = set_menu))::UnityEngine::InputSystem::Controls::ButtonControl* menu;
 
@@ -323,35 +323,35 @@ public:
 
   __declspec(property(get = get_flags))::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags flags;
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__menu_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__menu_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__menu_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__menu_k__BackingField() const;
 
-  constexpr void __set__menu_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__menu_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__view_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__view_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__view_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__view_k__BackingField() const;
 
-  constexpr void __set__view_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__view_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr bool& __get_m_HaveParsedCapabilities();
+  constexpr bool& __cordl_internal_get_m_HaveParsedCapabilities();
 
-  constexpr bool const& __get_m_HaveParsedCapabilities() const;
+  constexpr bool const& __cordl_internal_get_m_HaveParsedCapabilities() const;
 
-  constexpr void __set_m_HaveParsedCapabilities(bool value);
+  constexpr void __cordl_internal_set_m_HaveParsedCapabilities(bool value);
 
-  constexpr ::UnityEngine::InputSystem::XInput::__XInputController__DeviceSubType& __get_m_SubType();
+  constexpr ::UnityEngine::InputSystem::XInput::__XInputController__DeviceSubType& __cordl_internal_get_m_SubType();
 
-  constexpr ::UnityEngine::InputSystem::XInput::__XInputController__DeviceSubType const& __get_m_SubType() const;
+  constexpr ::UnityEngine::InputSystem::XInput::__XInputController__DeviceSubType const& __cordl_internal_get_m_SubType() const;
 
-  constexpr void __set_m_SubType(::UnityEngine::InputSystem::XInput::__XInputController__DeviceSubType value);
+  constexpr void __cordl_internal_set_m_SubType(::UnityEngine::InputSystem::XInput::__XInputController__DeviceSubType value);
 
-  constexpr ::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags& __get_m_Flags();
+  constexpr ::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags& __cordl_internal_get_m_Flags();
 
-  constexpr ::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags const& __get_m_Flags() const;
+  constexpr ::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags const& __cordl_internal_get_m_Flags() const;
 
-  constexpr void __set_m_Flags(::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags value);
+  constexpr void __cordl_internal_set_m_Flags(::UnityEngine::InputSystem::XInput::__XInputController__DeviceFlags value);
 
   /// @brief Method get_menu, addr 0x2ac9a00, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_menu();

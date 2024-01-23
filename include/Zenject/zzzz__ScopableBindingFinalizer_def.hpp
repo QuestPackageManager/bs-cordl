@@ -54,29 +54,29 @@ MARK_REF_PTR_T(::Zenject::__ScopableBindingFinalizer____c__DisplayClass4_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10967))
 // CS Name: ::ScopableBindingFinalizer::<>c__DisplayClass3_0*
 class CORDL_TYPE __ScopableBindingFinalizer____c__DisplayClass3_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::ScopableBindingFinalizer* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::ScopableBindingFinalizer* __4__this;
 
   /// @brief Field container, offset 0x18, size 0x8
-  __declspec(property(get = __get_container, put = __set_container))::Zenject::DiContainer* container;
+  __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container))::Zenject::DiContainer* container;
 
-  constexpr ::Zenject::ScopableBindingFinalizer*& __get___4__this();
+  constexpr ::Zenject::ScopableBindingFinalizer*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::ScopableBindingFinalizer*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::ScopableBindingFinalizer*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::ScopableBindingFinalizer* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::ScopableBindingFinalizer* value);
 
-  constexpr ::Zenject::DiContainer*& __get_container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get_container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get_container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get_container() const;
 
-  constexpr void __set_container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set_container(::Zenject::DiContainer* value);
 
   static inline ::Zenject::__ScopableBindingFinalizer____c__DisplayClass3_0* New_ctor();
 
@@ -126,29 +126,29 @@ static_assert(offsetof(::Zenject::__ScopableBindingFinalizer____c__DisplayClass3
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10968))
 // CS Name: ::ScopableBindingFinalizer::<>c__DisplayClass4_0*
 class CORDL_TYPE __ScopableBindingFinalizer____c__DisplayClass4_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::ScopableBindingFinalizer* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::ScopableBindingFinalizer* __4__this;
 
   /// @brief Field container, offset 0x18, size 0x8
-  __declspec(property(get = __get_container, put = __set_container))::Zenject::DiContainer* container;
+  __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container))::Zenject::DiContainer* container;
 
-  constexpr ::Zenject::ScopableBindingFinalizer*& __get___4__this();
+  constexpr ::Zenject::ScopableBindingFinalizer*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::ScopableBindingFinalizer*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::ScopableBindingFinalizer*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::ScopableBindingFinalizer* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::ScopableBindingFinalizer* value);
 
-  constexpr ::Zenject::DiContainer*& __get_container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get_container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get_container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get_container() const;
 
-  constexpr void __set_container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set_container(::Zenject::DiContainer* value);
 
   static inline ::Zenject::__ScopableBindingFinalizer____c__DisplayClass4_0* New_ctor();
 
@@ -198,7 +198,7 @@ static_assert(offsetof(::Zenject::__ScopableBindingFinalizer____c__DisplayClass4
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10966))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10969))
 // CS Name: ::Zenject::ScopableBindingFinalizer*
 class CORDL_TYPE ScopableBindingFinalizer : public ::Zenject::ProviderBindingFinalizer {
@@ -209,13 +209,14 @@ public:
   using __c__DisplayClass3_0 = ::Zenject::__ScopableBindingFinalizer____c__DisplayClass3_0;
 
   /// @brief Field _providerFactory, offset 0x18, size 0x8
-  __declspec(property(get = __get__providerFactory, put = __set__providerFactory))::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* _providerFactory;
+  __declspec(property(get = __cordl_internal_get__providerFactory,
+                      put = __cordl_internal_set__providerFactory))::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* _providerFactory;
 
-  constexpr ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>*& __get__providerFactory();
+  constexpr ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>*& __cordl_internal_get__providerFactory();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>*> const& __get__providerFactory() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>*> const& __cordl_internal_get__providerFactory() const;
 
-  constexpr void __set__providerFactory(::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* value);
+  constexpr void __cordl_internal_set__providerFactory(::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* value);
 
   static inline ::Zenject::ScopableBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::System::Func_3<::Zenject::DiContainer*, ::System::Type*, ::Zenject::IProvider*>* providerFactory);
 

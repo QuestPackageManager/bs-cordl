@@ -36,7 +36,7 @@ MARK_VAL_T(::GlobalNamespace::NetworkStatisticsState);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12899))
 // CS Name: ::NetworkStatisticsState::NetworkStatisticsUpdateDelegate*
 class CORDL_TYPE __NetworkStatisticsState__NetworkStatisticsUpdateDelegate : public ::System::MulticastDelegate {
@@ -80,7 +80,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__NetworkStatis
 // SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12900))
 // CS Name: ::NetworkStatisticsState
 struct CORDL_TYPE NetworkStatisticsState {

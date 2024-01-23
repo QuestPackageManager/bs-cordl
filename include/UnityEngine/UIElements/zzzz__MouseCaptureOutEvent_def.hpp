@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::MouseCaptureOutEvent);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7153), inst: 4636 }), TypeDefinitionIndex(TypeDefinitionIndex(7153))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7153)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7153), inst: 4636 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7154))
 // CS Name: ::UnityEngine.UIElements::MouseCaptureOutEvent*
 class CORDL_TYPE MouseCaptureOutEvent : public ::UnityEngine::UIElements::MouseCaptureEventBase_1<::UnityEngine::UIElements::MouseCaptureOutEvent*> {

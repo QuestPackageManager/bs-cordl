@@ -25,7 +25,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::EnableIMECompositionCommand);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 9, calculated_native_size: 25, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6471))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6471))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6465))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::EnableIMECompositionCommand
 #pragma pack(push, 0)
@@ -33,10 +33,10 @@ struct CORDL_TYPE EnableIMECompositionCommand {
 public:
   // Declarations
   /// @brief Field baseCommand, offset 0x0, size 0x8
-  __declspec(property(get = __get_baseCommand, put = __set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
+  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
 
   /// @brief Field m_ImeEnabled, offset 0x8, size 0x1
-  __declspec(property(get = __get_m_ImeEnabled, put = __set_m_ImeEnabled)) uint8_t m_ImeEnabled;
+  __declspec(property(get = __cordl_internal_get_m_ImeEnabled, put = __cordl_internal_set_m_ImeEnabled)) uint8_t m_ImeEnabled;
 
   __declspec(property(get = get_imeEnabled)) bool imeEnabled;
 
@@ -48,17 +48,17 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __get_baseCommand();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __get_baseCommand() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
 
-  constexpr void __set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
+  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
 
-  constexpr uint8_t& __get_m_ImeEnabled();
+  constexpr uint8_t& __cordl_internal_get_m_ImeEnabled();
 
-  constexpr uint8_t const& __get_m_ImeEnabled() const;
+  constexpr uint8_t const& __cordl_internal_get_m_ImeEnabled() const;
 
-  constexpr void __set_m_ImeEnabled(uint8_t value);
+  constexpr void __cordl_internal_set_m_ImeEnabled(uint8_t value);
 
   /// @brief Method get_Type, addr 0x2ae7568, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();

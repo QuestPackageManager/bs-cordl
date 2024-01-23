@@ -154,28 +154,28 @@ MARK_VAL_T(::GlobalNamespace::__OVRSpatialAnchor__UnboundAnchor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7994))
 // CS Name: ::OVRSpatialAnchor::MultiAnchorDelegatePair
 struct CORDL_TYPE __OVRSpatialAnchor__MultiAnchorDelegatePair {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "Anchors", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>*", modifiers: "", def_value: None }, CppParam { name: "Delegate",
-  // ty: "::System::Action_2<::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>*,::GlobalNamespace::__OVRSpatialAnchor__OperationResult>*", modifiers: "", def_value:
-  // None }]
+  // Ctor Parameters [CppParam { name: "Anchors", ty: "::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*", modifiers: "", def_value: None }, CppParam { name:
+  // "Delegate", ty: "::System::Action_2<::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*,::GlobalNamespace::__OVRSpatialAnchor__OperationResult>*",
+  // modifiers: "", def_value: None }]
   constexpr __OVRSpatialAnchor__MultiAnchorDelegatePair(
-      ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>* Anchors,
-      ::System::Action_2<::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>*, ::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* Delegate) noexcept;
+      ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* Anchors,
+      ::System::Action_2<::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* Delegate) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __OVRSpatialAnchor__MultiAnchorDelegatePair();
 
   /// @brief Field Anchors, offset: 0x0, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>* Anchors;
+  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* Anchors;
 
   /// @brief Field Delegate, offset: 0x8, size: 0x8, def value: None
-  ::System::Action_2<::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>*, ::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* Delegate;
+  ::System::Action_2<::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* Delegate;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -194,7 +194,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSpatialAnchor__MultiAnchorDelegat
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7990))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7990))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7995))
 // CS Name: ::OVRSpatialAnchor::LoadOptions
 struct CORDL_TYPE __OVRSpatialAnchor__LoadOptions {
@@ -281,7 +281,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSpatialAnchor__LoadOptions, _uuid
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7991)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(7991))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7996))
 // CS Name: ::OVRSpatialAnchor::UnboundAnchor
 struct CORDL_TYPE __OVRSpatialAnchor__UnboundAnchor {
@@ -356,7 +356,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSpatialAnchor__UnboundAnchor, _Uu
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7997))
 // CS Name: ::OVRSpatialAnchor::MultiAnchorActionType
 struct CORDL_TYPE __OVRSpatialAnchor__MultiAnchorActionType {
@@ -406,7 +406,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSpatialAnchor__MultiAnchorActionT
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7998))
 // CS Name: ::OVRSpatialAnchor::Development*
 class CORDL_TYPE __OVRSpatialAnchor__Development : public ::System::Object {
@@ -451,7 +451,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSpatialAnc
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7990))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7990))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7999))
 // CS Name: ::OVRSpatialAnchor::SaveOptions
 struct CORDL_TYPE __OVRSpatialAnchor__SaveOptions {
@@ -482,7 +482,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSpatialAnchor__SaveOptions, Stora
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7990))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7990))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8000))
 // CS Name: ::OVRSpatialAnchor::EraseOptions
 struct CORDL_TYPE __OVRSpatialAnchor__EraseOptions {
@@ -513,7 +513,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSpatialAnchor__EraseOptions, Stor
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8001))
 // CS Name: ::OVRSpatialAnchor::OperationResult
 struct CORDL_TYPE __OVRSpatialAnchor__OperationResult {
@@ -585,7 +585,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult, typename TCapture>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8002))
 // CS Name: ::OVRSpatialAnchor::InvertedCapture`2<TResult,TCapture>
 struct CORDL_TYPE __OVRSpatialAnchor__InvertedCapture_2 {
@@ -632,7 +632,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8003))
 // CS Name: ::OVRSpatialAnchor::<>c*
 class CORDL_TYPE __OVRSpatialAnchor____c : public ::System::Object {
@@ -684,8 +684,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRSpatialAnc
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7991)), TypeDefinitionIndex(TypeDefinitionIndex(7999)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8000)), TypeDefinitionIndex(TypeDefinitionIndex(2406))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8004)) CS Name: ::OVRSpatialAnchor*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(7991)), TypeDefinitionIndex(TypeDefinitionIndex(7999)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8000)), TypeDefinitionIndex(TypeDefinitionIndex(10225))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8004)) CS Name: ::OVRSpatialAnchor*
 class CORDL_TYPE OVRSpatialAnchor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -710,46 +710,45 @@ public:
   using MultiAnchorDelegatePair = ::GlobalNamespace::__OVRSpatialAnchor__MultiAnchorDelegatePair;
 
   /// @brief Field _startCalled, offset 0x18, size 0x1
-  __declspec(property(get = __get__startCalled, put = __set__startCalled)) bool _startCalled;
+  __declspec(property(get = __cordl_internal_get__startCalled, put = __cordl_internal_set__startCalled)) bool _startCalled;
 
   /// @brief Field _requestId, offset 0x20, size 0x8
-  __declspec(property(get = __get__requestId, put = __set__requestId)) uint64_t _requestId;
+  __declspec(property(get = __cordl_internal_get__requestId, put = __cordl_internal_set__requestId)) uint64_t _requestId;
 
   /// @brief Field _defaultSaveOptions, offset 0x28, size 0x4
-  __declspec(property(get = __get__defaultSaveOptions, put = __set__defaultSaveOptions))::GlobalNamespace::__OVRSpatialAnchor__SaveOptions _defaultSaveOptions;
+  __declspec(property(get = __cordl_internal_get__defaultSaveOptions, put = __cordl_internal_set__defaultSaveOptions))::GlobalNamespace::__OVRSpatialAnchor__SaveOptions _defaultSaveOptions;
 
   /// @brief Field _defaultEraseOptions, offset 0x2c, size 0x4
-  __declspec(property(get = __get__defaultEraseOptions, put = __set__defaultEraseOptions))::GlobalNamespace::__OVRSpatialAnchor__EraseOptions _defaultEraseOptions;
+  __declspec(property(get = __cordl_internal_get__defaultEraseOptions, put = __cordl_internal_set__defaultEraseOptions))::GlobalNamespace::__OVRSpatialAnchor__EraseOptions _defaultEraseOptions;
 
   /// @brief Field OnLocalize, offset 0x30, size 0x8
-  __declspec(property(get = __get_OnLocalize, put = __set_OnLocalize))::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* OnLocalize;
+  __declspec(property(get = __cordl_internal_get_OnLocalize, put = __cordl_internal_set_OnLocalize))::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* OnLocalize;
 
   /// @brief Field <Space>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__Space_k__BackingField, put = __set__Space_k__BackingField))::GlobalNamespace::OVRSpace _Space_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Space_k__BackingField, put = __cordl_internal_set__Space_k__BackingField))::GlobalNamespace::OVRSpace _Space_k__BackingField;
 
   /// @brief Field <Uuid>k__BackingField, offset 0x40, size 0x10
-  __declspec(property(get = __get__Uuid_k__BackingField, put = __set__Uuid_k__BackingField))::System::Guid _Uuid_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Uuid_k__BackingField, put = __cordl_internal_set__Uuid_k__BackingField))::System::Guid _Uuid_k__BackingField;
 
   /// @brief Field SpatialAnchors, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SpatialAnchors,
-                             put = setStaticF_SpatialAnchors))::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSpatialAnchor*>* SpatialAnchors;
+                             put = setStaticF_SpatialAnchors))::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* SpatialAnchors;
 
   /// @brief Field CreationRequests, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_CreationRequests,
-                             put = setStaticF_CreationRequests))::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::OVRSpatialAnchor*>* CreationRequests;
+                             put = setStaticF_CreationRequests))::System::Collections::Generic::Dictionary_2<uint64_t, ::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* CreationRequests;
 
   /// @brief Field SaveRequests, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_SaveRequests,
-                             put = setStaticF_SaveRequests))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSpace__StorageLocation,
-                                                                                                         ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>*>* SaveRequests;
+  static __declspec(property(get = getStaticF_SaveRequests, put = setStaticF_SaveRequests))::System::Collections::Generic::Dictionary_2<
+      ::GlobalNamespace::__OVRSpace__StorageLocation, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>* SaveRequests;
 
   /// @brief Field AsyncRequestTaskIds, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_AsyncRequestTaskIds,
-                             put = setStaticF_AsyncRequestTaskIds))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpatialAnchor*, ::System::Guid>* AsyncRequestTaskIds;
+                             put = setStaticF_AsyncRequestTaskIds))::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::System::Guid>* AsyncRequestTaskIds;
 
   /// @brief Field ShareRequests, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ShareRequests, put = setStaticF_ShareRequests))::System::Collections::Generic::List_1<
-      ::System::ValueTuple_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>*, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>*>>* ShareRequests;
+  static __declspec(property(get = getStaticF_ShareRequests, put = setStaticF_ShareRequests))::System::Collections::Generic::List_1<::System::ValueTuple_2<
+      ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>*, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>>* ShareRequests;
 
   /// @brief Field MultiAnchorCompletionDelegates, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_MultiAnchorCompletionDelegates, put = setStaticF_MultiAnchorCompletionDelegates))::System::Collections::Generic::Dictionary_2<
@@ -774,71 +773,72 @@ public:
 
   __declspec(property(get = get_Localized)) bool Localized;
 
-  constexpr bool& __get__startCalled();
+  constexpr bool& __cordl_internal_get__startCalled();
 
-  constexpr bool const& __get__startCalled() const;
+  constexpr bool const& __cordl_internal_get__startCalled() const;
 
-  constexpr void __set__startCalled(bool value);
+  constexpr void __cordl_internal_set__startCalled(bool value);
 
-  constexpr uint64_t& __get__requestId();
+  constexpr uint64_t& __cordl_internal_get__requestId();
 
-  constexpr uint64_t const& __get__requestId() const;
+  constexpr uint64_t const& __cordl_internal_get__requestId() const;
 
-  constexpr void __set__requestId(uint64_t value);
+  constexpr void __cordl_internal_set__requestId(uint64_t value);
 
-  constexpr ::GlobalNamespace::__OVRSpatialAnchor__SaveOptions& __get__defaultSaveOptions();
+  constexpr ::GlobalNamespace::__OVRSpatialAnchor__SaveOptions& __cordl_internal_get__defaultSaveOptions();
 
-  constexpr ::GlobalNamespace::__OVRSpatialAnchor__SaveOptions const& __get__defaultSaveOptions() const;
+  constexpr ::GlobalNamespace::__OVRSpatialAnchor__SaveOptions const& __cordl_internal_get__defaultSaveOptions() const;
 
-  constexpr void __set__defaultSaveOptions(::GlobalNamespace::__OVRSpatialAnchor__SaveOptions value);
+  constexpr void __cordl_internal_set__defaultSaveOptions(::GlobalNamespace::__OVRSpatialAnchor__SaveOptions value);
 
-  constexpr ::GlobalNamespace::__OVRSpatialAnchor__EraseOptions& __get__defaultEraseOptions();
+  constexpr ::GlobalNamespace::__OVRSpatialAnchor__EraseOptions& __cordl_internal_get__defaultEraseOptions();
 
-  constexpr ::GlobalNamespace::__OVRSpatialAnchor__EraseOptions const& __get__defaultEraseOptions() const;
+  constexpr ::GlobalNamespace::__OVRSpatialAnchor__EraseOptions const& __cordl_internal_get__defaultEraseOptions() const;
 
-  constexpr void __set__defaultEraseOptions(::GlobalNamespace::__OVRSpatialAnchor__EraseOptions value);
+  constexpr void __cordl_internal_set__defaultEraseOptions(::GlobalNamespace::__OVRSpatialAnchor__EraseOptions value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>*& __get_OnLocalize();
+  constexpr ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>*& __cordl_internal_get_OnLocalize();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>*> const& __get_OnLocalize() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>*> const& __cordl_internal_get_OnLocalize() const;
 
-  constexpr void __set_OnLocalize(::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* value);
+  constexpr void __cordl_internal_set_OnLocalize(::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* value);
 
-  constexpr ::GlobalNamespace::OVRSpace& __get__Space_k__BackingField();
+  constexpr ::GlobalNamespace::OVRSpace& __cordl_internal_get__Space_k__BackingField();
 
-  constexpr ::GlobalNamespace::OVRSpace const& __get__Space_k__BackingField() const;
+  constexpr ::GlobalNamespace::OVRSpace const& __cordl_internal_get__Space_k__BackingField() const;
 
-  constexpr void __set__Space_k__BackingField(::GlobalNamespace::OVRSpace value);
+  constexpr void __cordl_internal_set__Space_k__BackingField(::GlobalNamespace::OVRSpace value);
 
-  constexpr ::System::Guid& __get__Uuid_k__BackingField();
+  constexpr ::System::Guid& __cordl_internal_get__Uuid_k__BackingField();
 
-  constexpr ::System::Guid const& __get__Uuid_k__BackingField() const;
+  constexpr ::System::Guid const& __cordl_internal_get__Uuid_k__BackingField() const;
 
-  constexpr void __set__Uuid_k__BackingField(::System::Guid value);
+  constexpr void __cordl_internal_set__Uuid_k__BackingField(::System::Guid value);
 
-  static inline void setStaticF_SpatialAnchors(::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSpatialAnchor*>* value);
+  static inline void setStaticF_SpatialAnchors(::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* value);
 
-  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::GlobalNamespace::OVRSpatialAnchor*>* getStaticF_SpatialAnchors();
+  static inline ::System::Collections::Generic::Dictionary_2<::System::Guid, ::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* getStaticF_SpatialAnchors();
 
-  static inline void setStaticF_CreationRequests(::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::OVRSpatialAnchor*>* value);
+  static inline void setStaticF_CreationRequests(::System::Collections::Generic::Dictionary_2<uint64_t, ::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* value);
 
-  static inline ::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::OVRSpatialAnchor*>* getStaticF_CreationRequests();
+  static inline ::System::Collections::Generic::Dictionary_2<uint64_t, ::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* getStaticF_CreationRequests();
 
   static inline void setStaticF_SaveRequests(
-      ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSpace__StorageLocation, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>*>* value);
+      ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSpace__StorageLocation, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>* value);
 
-  static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSpace__StorageLocation, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>*>*
+  static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__OVRSpace__StorageLocation, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>*
   getStaticF_SaveRequests();
 
-  static inline void setStaticF_AsyncRequestTaskIds(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpatialAnchor*, ::System::Guid>* value);
+  static inline void setStaticF_AsyncRequestTaskIds(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::System::Guid>* value);
 
-  static inline ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRSpatialAnchor*, ::System::Guid>* getStaticF_AsyncRequestTaskIds();
+  static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, ::System::Guid>* getStaticF_AsyncRequestTaskIds();
 
-  static inline void setStaticF_ShareRequests(::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>*,
-                                                                                                            ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>*>>* value);
+  static inline void
+  setStaticF_ShareRequests(::System::Collections::Generic::List_1<::System::ValueTuple_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>*,
+                                                                                         ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>>* value);
 
   static inline ::System::Collections::Generic::List_1<
-      ::System::ValueTuple_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>*, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>*>>*
+      ::System::ValueTuple_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>*, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*>>*
   getStaticF_ShareRequests();
 
   static inline void setStaticF_MultiAnchorCompletionDelegates(::System::Collections::Generic::Dictionary_2<uint64_t, ::GlobalNamespace::__OVRSpatialAnchor__MultiAnchorDelegatePair>* value);
@@ -884,13 +884,13 @@ public:
   inline void InitializeFromExisting(::GlobalNamespace::OVRSpace space, ::System::Guid uuid);
 
   /// @brief Method Save, addr 0x278d998, size 0x10, virtual false, abstract: false, final false
-  inline void Save(::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*, bool>* onComplete);
+  inline void Save(::System::Action_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, bool>* onComplete);
 
   /// @brief Method ToNativeArray, addr 0x278da58, size 0x2a8, virtual false, abstract: false, final false
-  static inline ::Unity::Collections::NativeArray_1<uint64_t> ToNativeArray(::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>* anchors);
+  static inline ::Unity::Collections::NativeArray_1<uint64_t> ToNativeArray(::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* anchors);
 
   /// @brief Method Save, addr 0x278d9a8, size 0xb0, virtual false, abstract: false, final false
-  inline void Save(::GlobalNamespace::__OVRSpatialAnchor__SaveOptions saveOptions, ::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*, bool>* onComplete);
+  inline void Save(::GlobalNamespace::__OVRSpatialAnchor__SaveOptions saveOptions, ::System::Action_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, bool>* onComplete);
 
   /// @brief Method SaveAsync, addr 0x278de64, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> SaveAsync();
@@ -899,12 +899,13 @@ public:
   inline ::GlobalNamespace::OVRTask_1<bool> SaveAsync(::GlobalNamespace::__OVRSpatialAnchor__SaveOptions saveOptions);
 
   /// @brief Method Save, addr 0x278de6c, size 0x2c0, virtual false, abstract: false, final false
-  static inline void Save(::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>* anchors, ::GlobalNamespace::__OVRSpatialAnchor__SaveOptions saveOptions,
-                          ::System::Action_2<::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>*, ::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete);
+  static inline void
+  Save(::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* anchors, ::GlobalNamespace::__OVRSpatialAnchor__SaveOptions saveOptions,
+       ::System::Action_2<::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete);
 
   /// @brief Method CopyAnchorListIntoListFromPool, addr 0x278e12c, size 0x78, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>*
-  CopyAnchorListIntoListFromPool(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OVRSpatialAnchor*>* anchorList);
+  static inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*
+  CopyAnchorListIntoListFromPool(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* anchorList);
 
   /// @brief Method Share, addr 0x278e1a4, size 0x7c, virtual false, abstract: false, final false
   inline void Share(::GlobalNamespace::OVRSpaceUser user, ::System::Action_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete);
@@ -942,24 +943,25 @@ public:
 
   /// @brief Method Share, addr 0x278eb9c, size 0x634, virtual false, abstract: false, final false
   static inline void
-  Share(::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>* anchors, ::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpaceUser>* users,
-        ::System::Action_2<::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpatialAnchor*>*, ::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete);
+  Share(::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>* anchors, ::System::Collections::Generic::ICollection_1<::GlobalNamespace::OVRSpaceUser>* users,
+        ::System::Action_2<::System::Collections::Generic::ICollection_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*, ::GlobalNamespace::__OVRSpatialAnchor__OperationResult>* onComplete);
 
   /// @brief Method ShareAsyncInternal, addr 0x278e2f4, size 0x13c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::__OVRSpatialAnchor__OperationResult> ShareAsyncInternal(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>* users);
 
   /// @brief Method GetListToStoreTheShareRequest, addr 0x278f1d0, size 0x34c, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpatialAnchor*>* GetListToStoreTheShareRequest(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>* users);
+  inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::OVRSpatialAnchor>>*
+  GetListToStoreTheShareRequest(::System::Collections::Generic::List_1<::GlobalNamespace::OVRSpaceUser>* users);
 
   /// @brief Method AreSortedUserListsEqual, addr 0x278f51c, size 0x28c, virtual false, abstract: false, final false
   static inline bool AreSortedUserListsEqual(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OVRSpaceUser>* sortedList1,
                                              ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OVRSpaceUser>* sortedList2);
 
   /// @brief Method Erase, addr 0x278f7a8, size 0x10, virtual false, abstract: false, final false
-  inline void Erase(::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*, bool>* onComplete);
+  inline void Erase(::System::Action_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, bool>* onComplete);
 
   /// @brief Method Erase, addr 0x278f7b8, size 0xb0, virtual false, abstract: false, final false
-  inline void Erase(::GlobalNamespace::__OVRSpatialAnchor__EraseOptions eraseOptions, ::System::Action_2<::GlobalNamespace::OVRSpatialAnchor*, bool>* onComplete);
+  inline void Erase(::GlobalNamespace::__OVRSpatialAnchor__EraseOptions eraseOptions, ::System::Action_2<::UnityW<::GlobalNamespace::OVRSpatialAnchor>, bool>* onComplete);
 
   /// @brief Method EraseAsync, addr 0x278f93c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRTask_1<bool> EraseAsync();

@@ -29,17 +29,17 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatFxBeatmapEventData);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(14731))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14731)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14732))
 // CS Name: ::FloatFxBeatmapEventData*
 class CORDL_TYPE FloatFxBeatmapEventData : public ::GlobalNamespace::FxBeatmapEventData {
 public:
   // Declarations
   /// @brief Field <value>k__BackingField, offset 0x3c, size 0x4
-  __declspec(property(get = __get__value_k__BackingField, put = __set__value_k__BackingField)) float_t _value_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__value_k__BackingField, put = __cordl_internal_set__value_k__BackingField)) float_t _value_k__BackingField;
 
   /// @brief Field <easeType>k__BackingField, offset 0x40, size 0x4
-  __declspec(property(get = __get__easeType_k__BackingField, put = __set__easeType_k__BackingField))::GlobalNamespace::EaseType _easeType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__easeType_k__BackingField, put = __cordl_internal_set__easeType_k__BackingField))::GlobalNamespace::EaseType _easeType_k__BackingField;
 
   /// @brief Field _defaults, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__defaults, put = setStaticF__defaults))::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::FloatFxBeatmapEventData*>* _defaults;
@@ -48,17 +48,17 @@ public:
 
   __declspec(property(get = get_easeType, put = set_easeType))::GlobalNamespace::EaseType easeType;
 
-  constexpr float_t& __get__value_k__BackingField();
+  constexpr float_t& __cordl_internal_get__value_k__BackingField();
 
-  constexpr float_t const& __get__value_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__value_k__BackingField() const;
 
-  constexpr void __set__value_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__value_k__BackingField(float_t value);
 
-  constexpr ::GlobalNamespace::EaseType& __get__easeType_k__BackingField();
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get__easeType_k__BackingField();
 
-  constexpr ::GlobalNamespace::EaseType const& __get__easeType_k__BackingField() const;
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get__easeType_k__BackingField() const;
 
-  constexpr void __set__easeType_k__BackingField(::GlobalNamespace::EaseType value);
+  constexpr void __cordl_internal_set__easeType_k__BackingField(::GlobalNamespace::EaseType value);
 
   static inline void setStaticF__defaults(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::FloatFxBeatmapEventData*>* value);
 

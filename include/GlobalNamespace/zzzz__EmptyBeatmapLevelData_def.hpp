@@ -26,13 +26,13 @@ MARK_REF_PTR_T(::GlobalNamespace::EmptyBeatmapLevelData);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4387))
 // CS Name: ::EmptyBeatmapLevelData*
 class CORDL_TYPE EmptyBeatmapLevelData : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_audioClip))::UnityEngine::AudioClip* audioClip;
+  __declspec(property(get = get_audioClip))::UnityW<::UnityEngine::AudioClip> audioClip;
 
   __declspec(property(get = get_difficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets;
 
@@ -43,7 +43,7 @@ public:
   constexpr ::GlobalNamespace::IBeatmapLevelData* i___GlobalNamespace__IBeatmapLevelData() noexcept;
 
   /// @brief Method get_audioClip, addr 0x2347dd4, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::AudioClip* get_audioClip();
+  inline ::UnityW<::UnityEngine::AudioClip> get_audioClip();
 
   /// @brief Method get_difficultyBeatmapSets, addr 0x2347ddc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();

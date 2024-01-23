@@ -13,10 +13,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xd8;
   constexpr static std::size_t addrs = 0x10a9950;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*>::get(), ".ctor",
-                                    std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get() })));
     return ___internal_method;
   }
 };
@@ -28,10 +28,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x10a9a28;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*>::get(), "FillBuffer",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x10a9a80;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*>::get(),
@@ -59,7 +59,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x10a9ae4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*>::get(),
@@ -75,74 +75,74 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x10a98dc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*>::get(),
-                                                 "GetLookAhead", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "GetLookAhead", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::IO::Stream*& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__get_inStr() {
+constexpr ::System::IO::Stream*& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__cordl_internal_get_inStr() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inStr;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__get_inStr() const {
+constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__cordl_internal_get_inStr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___inStr;
 }
-constexpr void Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__set_inStr(::System::IO::Stream* value) {
+constexpr void Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__cordl_internal_set_inStr(::System::IO::Stream* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inStr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__get_lookAhead() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__cordl_internal_get_lookAhead() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lookAhead;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__get_lookAhead() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__cordl_internal_get_lookAhead() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lookAhead;
 }
-constexpr void Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__set_lookAhead(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__cordl_internal_set_lookAhead(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lookAhead)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__get_bufStart() {
+constexpr int32_t& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__cordl_internal_get_bufStart() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufStart;
 }
-constexpr int32_t const& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__get_bufStart() const {
+constexpr int32_t const& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__cordl_internal_get_bufStart() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufStart;
 }
-constexpr void Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__set_bufStart(int32_t value) {
+constexpr void Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__cordl_internal_set_bufStart(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bufStart = value;
 }
-constexpr int32_t& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__get_bufEnd() {
+constexpr int32_t& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__cordl_internal_get_bufEnd() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufEnd;
 }
-constexpr int32_t const& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__get_bufEnd() const {
+constexpr int32_t const& Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__cordl_internal_get_bufEnd() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bufEnd;
 }
-constexpr void Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__set_bufEnd(int32_t value) {
+constexpr void Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::__cordl_internal_set_bufEnd(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bufEnd = value;
 }
 inline ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream* Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::New_ctor(::System::IO::Stream* inStr) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*>(inStr));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*>(inStr));
 }
 inline void Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::_ctor(::System::IO::Stream* inStr) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*>::get(), ".ctor",
+                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::Stream*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, inStr);
 }
 inline int32_t Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::FillBuffer() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*>::get(), "FillBuffer",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline int32_t Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::ReadByte() {
@@ -160,7 +160,7 @@ inline int32_t Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedSt
 inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream::GetLookAhead() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*>::get(), "GetLookAhead",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -173,10 +173,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x10a95bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Bcpg::InputStreamPacket*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Bcpg::InputStreamPacket*>::get() })));
     return ___internal_method;
   }
 };
@@ -188,7 +188,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x10a95e4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData*>::get(),
@@ -204,9 +204,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x10a9600;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData*>::get(),
-                                                                               "IsIntegrityProtected", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "IsIntegrityProtected", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -218,56 +218,56 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x260;
   constexpr static std::size_t addrs = 0x10a967c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData*>::get(),
-                                                                               "Verify", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "Verify", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::Org::BouncyCastle::Bcpg::InputStreamPacket*& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__get_encData() {
+constexpr ::Org::BouncyCastle::Bcpg::InputStreamPacket*& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__cordl_internal_get_encData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encData;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::InputStreamPacket*> const& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__get_encData() const {
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::InputStreamPacket*> const& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__cordl_internal_get_encData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encData;
 }
-constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__set_encData(::Org::BouncyCastle::Bcpg::InputStreamPacket* value) {
+constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__cordl_internal_set_encData(::Org::BouncyCastle::Bcpg::InputStreamPacket* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___encData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::IO::Stream*& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__get_encStream() {
+constexpr ::System::IO::Stream*& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__cordl_internal_get_encStream() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encStream;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__get_encStream() const {
+constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__cordl_internal_get_encStream() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___encStream;
 }
-constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__set_encStream(::System::IO::Stream* value) {
+constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__cordl_internal_set_encStream(::System::IO::Stream* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___encStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__get_truncStream() {
+constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*& Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__cordl_internal_get_truncStream() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___truncStream;
 }
 constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream*> const&
-Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__get_truncStream() const {
+Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__cordl_internal_get_truncStream() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___truncStream;
 }
-constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__set_truncStream(::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream* value) {
+constexpr void Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::__cordl_internal_set_truncStream(::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedData__TruncatedStream* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___truncStream)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData* Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::New_ctor(::Org::BouncyCastle::Bcpg::InputStreamPacket* encData) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData*>(encData));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData*>(encData));
 }
 inline void Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::_ctor(::Org::BouncyCastle::Bcpg::InputStreamPacket* encData) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Bcpg::InputStreamPacket*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Bcpg::InputStreamPacket*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, encData);
 }
 inline ::System::IO::Stream* Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::GetInputStream() {
@@ -277,12 +277,12 @@ inline ::System::IO::Stream* Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData:
 }
 inline bool Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::IsIntegrityProtected() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData*>::get(),
-                                                                             "IsIntegrityProtected", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "IsIntegrityProtected", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline bool Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData::Verify() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedData*>::get(),
-                                                                             "Verify", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "Verify", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 // Ctor Parameters []

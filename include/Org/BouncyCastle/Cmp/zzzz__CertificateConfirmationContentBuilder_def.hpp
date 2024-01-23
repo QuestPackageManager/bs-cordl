@@ -32,41 +32,41 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(602))
 // CS Name: ::Org.BouncyCastle.Cmp::CertificateConfirmationContentBuilder*
 class CORDL_TYPE CertificateConfirmationContentBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field digestAlgFinder, offset 0x10, size 0x8
-  __declspec(property(get = __get_digestAlgFinder, put = __set_digestAlgFinder))::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder;
+  __declspec(property(get = __cordl_internal_get_digestAlgFinder, put = __cordl_internal_set_digestAlgFinder))::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder;
 
   /// @brief Field acceptedCerts, offset 0x18, size 0x8
-  __declspec(property(get = __get_acceptedCerts, put = __set_acceptedCerts))::System::Collections::IList* acceptedCerts;
+  __declspec(property(get = __cordl_internal_get_acceptedCerts, put = __cordl_internal_set_acceptedCerts))::System::Collections::IList* acceptedCerts;
 
   /// @brief Field acceptedReqIds, offset 0x20, size 0x8
-  __declspec(property(get = __get_acceptedReqIds, put = __set_acceptedReqIds))::System::Collections::IList* acceptedReqIds;
+  __declspec(property(get = __cordl_internal_get_acceptedReqIds, put = __cordl_internal_set_acceptedReqIds))::System::Collections::IList* acceptedReqIds;
 
   /// @brief Field sigAlgFinder, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_sigAlgFinder, put = setStaticF_sigAlgFinder))::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* sigAlgFinder;
 
-  constexpr ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*& __get_digestAlgFinder();
+  constexpr ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*& __cordl_internal_get_digestAlgFinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*> const& __get_digestAlgFinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*> const& __cordl_internal_get_digestAlgFinder() const;
 
-  constexpr void __set_digestAlgFinder(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* value);
+  constexpr void __cordl_internal_set_digestAlgFinder(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* value);
 
-  constexpr ::System::Collections::IList*& __get_acceptedCerts();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_acceptedCerts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_acceptedCerts() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_acceptedCerts() const;
 
-  constexpr void __set_acceptedCerts(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_acceptedCerts(::System::Collections::IList* value);
 
-  constexpr ::System::Collections::IList*& __get_acceptedReqIds();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_acceptedReqIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_acceptedReqIds() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_acceptedReqIds() const;
 
-  constexpr void __set_acceptedReqIds(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_acceptedReqIds(::System::Collections::IList* value);
 
   static inline void setStaticF_sigAlgFinder(::Org::BouncyCastle::Cms::DefaultSignatureAlgorithmIdentifierFinder* value);
 

@@ -31,29 +31,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::PskTlsClient);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1165))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1165))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1261))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::PskTlsClient*
 class CORDL_TYPE PskTlsClient : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsClient {
 public:
   // Declarations
   /// @brief Field mDHVerifier, offset 0x50, size 0x8
-  __declspec(property(get = __get_mDHVerifier, put = __set_mDHVerifier))::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* mDHVerifier;
+  __declspec(property(get = __cordl_internal_get_mDHVerifier, put = __cordl_internal_set_mDHVerifier))::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* mDHVerifier;
 
   /// @brief Field mPskIdentity, offset 0x58, size 0x8
-  __declspec(property(get = __get_mPskIdentity, put = __set_mPskIdentity))::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* mPskIdentity;
+  __declspec(property(get = __cordl_internal_get_mPskIdentity, put = __cordl_internal_set_mPskIdentity))::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* mPskIdentity;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*& __get_mDHVerifier();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*& __cordl_internal_get_mDHVerifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*> const& __get_mDHVerifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier*> const& __cordl_internal_get_mDHVerifier() const;
 
-  constexpr void __set_mDHVerifier(::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* value);
+  constexpr void __cordl_internal_set_mDHVerifier(::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity*& __get_mPskIdentity();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity*& __cordl_internal_get_mPskIdentity();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity*> const& __get_mPskIdentity() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity*> const& __cordl_internal_get_mPskIdentity() const;
 
-  constexpr void __set_mPskIdentity(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* value);
+  constexpr void __cordl_internal_set_mPskIdentity(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::PskTlsClient* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* pskIdentity);
 

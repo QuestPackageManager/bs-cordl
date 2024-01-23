@@ -45,20 +45,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__FPSCounterUIController___Start_d__9);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5367))
 // CS Name: ::FPSCounterUIController::<Start>d__9*
 class CORDL_TYPE __FPSCounterUIController___Start_d__9 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::FPSCounterUIController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::FPSCounterUIController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -82,23 +82,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::FPSCounterUIController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::FPSCounterUIController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FPSCounterUIController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::FPSCounterUIController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::FPSCounterUIController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::FPSCounterUIController> value);
 
   static inline ::GlobalNamespace::__FPSCounterUIController___Start_d__9* New_ctor(int32_t __1__state);
 
@@ -141,7 +141,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::FPSCounterUIController* _____4__this;
+  ::UnityW<::GlobalNamespace::FPSCounterUIController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -159,7 +159,7 @@ static_assert(offsetof(::GlobalNamespace::__FPSCounterUIController___Start_d__9,
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5368))
 // CS Name: ::FPSCounterUIController*
 class CORDL_TYPE FPSCounterUIController : public ::UnityEngine::MonoBehaviour {
@@ -168,76 +168,76 @@ public:
   using _Start_d__9 = ::GlobalNamespace::__FPSCounterUIController___Start_d__9;
 
   /// @brief Field _uiUpdateTimeInterval, offset 0x18, size 0x4
-  __declspec(property(get = __get__uiUpdateTimeInterval, put = __set__uiUpdateTimeInterval)) float_t _uiUpdateTimeInterval;
+  __declspec(property(get = __cordl_internal_get__uiUpdateTimeInterval, put = __cordl_internal_set__uiUpdateTimeInterval)) float_t _uiUpdateTimeInterval;
 
   /// @brief Field _currentFPSText, offset 0x20, size 0x8
-  __declspec(property(get = __get__currentFPSText, put = __set__currentFPSText))::TMPro::TextMeshProUGUI* _currentFPSText;
+  __declspec(property(get = __cordl_internal_get__currentFPSText, put = __cordl_internal_set__currentFPSText))::UnityW<::TMPro::TextMeshProUGUI> _currentFPSText;
 
   /// @brief Field _lowestFPSText, offset 0x28, size 0x8
-  __declspec(property(get = __get__lowestFPSText, put = __set__lowestFPSText))::TMPro::TextMeshProUGUI* _lowestFPSText;
+  __declspec(property(get = __cordl_internal_get__lowestFPSText, put = __cordl_internal_set__lowestFPSText))::UnityW<::TMPro::TextMeshProUGUI> _lowestFPSText;
 
   /// @brief Field _highestFPSText, offset 0x30, size 0x8
-  __declspec(property(get = __get__highestFPSText, put = __set__highestFPSText))::TMPro::TextMeshProUGUI* _highestFPSText;
+  __declspec(property(get = __cordl_internal_get__highestFPSText, put = __cordl_internal_set__highestFPSText))::UnityW<::TMPro::TextMeshProUGUI> _highestFPSText;
 
   /// @brief Field _droppedFramesText, offset 0x38, size 0x8
-  __declspec(property(get = __get__droppedFramesText, put = __set__droppedFramesText))::TMPro::TextMeshProUGUI* _droppedFramesText;
+  __declspec(property(get = __cordl_internal_get__droppedFramesText, put = __cordl_internal_set__droppedFramesText))::UnityW<::TMPro::TextMeshProUGUI> _droppedFramesText;
 
   /// @brief Field _gameScenesManager, offset 0x40, size 0x8
-  __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
   /// @brief Field _fpsCounter, offset 0x48, size 0x8
-  __declspec(property(get = __get__fpsCounter, put = __set__fpsCounter))::GlobalNamespace::FPSCounter* _fpsCounter;
+  __declspec(property(get = __cordl_internal_get__fpsCounter, put = __cordl_internal_set__fpsCounter))::UnityW<::GlobalNamespace::FPSCounter> _fpsCounter;
 
   /// @brief Field _timeToUpdateUI, offset 0x50, size 0x4
-  __declspec(property(get = __get__timeToUpdateUI, put = __set__timeToUpdateUI)) float_t _timeToUpdateUI;
+  __declspec(property(get = __cordl_internal_get__timeToUpdateUI, put = __cordl_internal_set__timeToUpdateUI)) float_t _timeToUpdateUI;
 
-  constexpr float_t& __get__uiUpdateTimeInterval();
+  constexpr float_t& __cordl_internal_get__uiUpdateTimeInterval();
 
-  constexpr float_t const& __get__uiUpdateTimeInterval() const;
+  constexpr float_t const& __cordl_internal_get__uiUpdateTimeInterval() const;
 
-  constexpr void __set__uiUpdateTimeInterval(float_t value);
+  constexpr void __cordl_internal_set__uiUpdateTimeInterval(float_t value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__currentFPSText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__currentFPSText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__currentFPSText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__currentFPSText() const;
 
-  constexpr void __set__currentFPSText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__currentFPSText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__lowestFPSText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__lowestFPSText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__lowestFPSText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__lowestFPSText() const;
 
-  constexpr void __set__lowestFPSText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__lowestFPSText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__highestFPSText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__highestFPSText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__highestFPSText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__highestFPSText() const;
 
-  constexpr void __set__highestFPSText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__highestFPSText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__droppedFramesText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__droppedFramesText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__droppedFramesText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__droppedFramesText() const;
 
-  constexpr void __set__droppedFramesText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__droppedFramesText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get__gameScenesManager();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get__gameScenesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
-  constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::GlobalNamespace::FPSCounter*& __get__fpsCounter();
+  constexpr ::UnityW<::GlobalNamespace::FPSCounter>& __cordl_internal_get__fpsCounter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FPSCounter*> const& __get__fpsCounter() const;
+  constexpr ::UnityW<::GlobalNamespace::FPSCounter> const& __cordl_internal_get__fpsCounter() const;
 
-  constexpr void __set__fpsCounter(::GlobalNamespace::FPSCounter* value);
+  constexpr void __cordl_internal_set__fpsCounter(::UnityW<::GlobalNamespace::FPSCounter> value);
 
-  constexpr float_t& __get__timeToUpdateUI();
+  constexpr float_t& __cordl_internal_get__timeToUpdateUI();
 
-  constexpr float_t const& __get__timeToUpdateUI() const;
+  constexpr float_t const& __cordl_internal_get__timeToUpdateUI() const;
 
-  constexpr void __set__timeToUpdateUI(float_t value);
+  constexpr void __cordl_internal_set__timeToUpdateUI(float_t value);
 
   /// @brief Method Awake, addr 0x226c710, size 0x60, virtual false, abstract: false, final false
   inline void Awake();
@@ -271,22 +271,22 @@ public:
   float_t ____uiUpdateTimeInterval;
 
   /// @brief Field _currentFPSText, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____currentFPSText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____currentFPSText;
 
   /// @brief Field _lowestFPSText, offset: 0x28, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____lowestFPSText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____lowestFPSText;
 
   /// @brief Field _highestFPSText, offset: 0x30, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____highestFPSText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____highestFPSText;
 
   /// @brief Field _droppedFramesText, offset: 0x38, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____droppedFramesText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____droppedFramesText;
 
   /// @brief Field _gameScenesManager, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
+  ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
   /// @brief Field _fpsCounter, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::FPSCounter* ____fpsCounter;
+  ::UnityW<::GlobalNamespace::FPSCounter> ____fpsCounter;
 
   /// @brief Field _timeToUpdateUI, offset: 0x50, size: 0x4, def value: None
   float_t ____timeToUpdateUI;

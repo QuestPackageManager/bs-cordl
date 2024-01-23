@@ -151,7 +151,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SliderController___DissolveCoroutine_d__70);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4805))
 // CS Name: ::SliderController::LengthType
 struct CORDL_TYPE __SliderController__LengthType {
@@ -205,7 +205,7 @@ static_assert(offsetof(::GlobalNamespace::__SliderController__LengthType, value_
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4805)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(4812))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4805)), TypeDefinitionIndex(TypeDefinitionIndex(4812)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4811))
 // CS Name: ::SliderController*
 class CORDL_TYPE SliderController : public ::GlobalNamespace::SliderControllerBase {
@@ -218,80 +218,85 @@ public:
   using LengthType = ::GlobalNamespace::__SliderController__LengthType;
 
   /// @brief Field _sliderIntensityEffect, offset 0x30, size 0x8
-  __declspec(property(get = __get__sliderIntensityEffect, put = __set__sliderIntensityEffect))::GlobalNamespace::SliderIntensityEffect* _sliderIntensityEffect;
+  __declspec(property(get = __cordl_internal_get__sliderIntensityEffect, put = __cordl_internal_set__sliderIntensityEffect))::UnityW<::GlobalNamespace::SliderIntensityEffect> _sliderIntensityEffect;
 
   /// @brief Field _sliderMeshController, offset 0x38, size 0x8
-  __declspec(property(get = __get__sliderMeshController, put = __set__sliderMeshController))::GlobalNamespace::SliderMeshController* _sliderMeshController;
+  __declspec(property(get = __cordl_internal_get__sliderMeshController, put = __cordl_internal_set__sliderMeshController))::UnityW<::GlobalNamespace::SliderMeshController> _sliderMeshController;
 
   /// @brief Field _sliderMovement, offset 0x40, size 0x8
-  __declspec(property(get = __get__sliderMovement, put = __set__sliderMovement))::GlobalNamespace::SliderMovement* _sliderMovement;
+  __declspec(property(get = __cordl_internal_get__sliderMovement, put = __cordl_internal_set__sliderMovement))::UnityW<::GlobalNamespace::SliderMovement> _sliderMovement;
 
   /// @brief Field _closeInteractionSaberPosSmoothParam, offset 0x48, size 0x4
-  __declspec(property(get = __get__closeInteractionSaberPosSmoothParam, put = __set__closeInteractionSaberPosSmoothParam)) float_t _closeInteractionSaberPosSmoothParam;
+  __declspec(property(get = __cordl_internal_get__closeInteractionSaberPosSmoothParam, put = __cordl_internal_set__closeInteractionSaberPosSmoothParam)) float_t _closeInteractionSaberPosSmoothParam;
 
   /// @brief Field _beatmapObjectSpawnController, offset 0x50, size 0x8
-  __declspec(property(get = __get__beatmapObjectSpawnController, put = __set__beatmapObjectSpawnController))::GlobalNamespace::IBeatmapObjectSpawnController* _beatmapObjectSpawnController;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectSpawnController,
+                      put = __cordl_internal_set__beatmapObjectSpawnController))::GlobalNamespace::IBeatmapObjectSpawnController* _beatmapObjectSpawnController;
 
   /// @brief Field _colorManager, offset 0x58, size 0x8
-  __declspec(property(get = __get__colorManager, put = __set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
 
   /// @brief Field _beatmapObjectManager, offset 0x60, size 0x8
-  __declspec(property(get = __get__beatmapObjectManager, put = __set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
   /// @brief Field _saberManager, offset 0x68, size 0x8
-  __declspec(property(get = __get__saberManager, put = __set__saberManager))::GlobalNamespace::SaberManager* _saberManager;
+  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager))::UnityW<::GlobalNamespace::SaberManager> _saberManager;
 
   /// @brief Field _sliderDidFinishMovement, offset 0x70, size 0x8
-  __declspec(property(get = __get__sliderDidFinishMovement,
-                      put = __set__sliderDidFinishMovement))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidFinishJumpEvent*>* _sliderDidFinishMovement;
+  __declspec(property(get = __cordl_internal_get__sliderDidFinishMovement,
+                      put = __cordl_internal_set__sliderDidFinishMovement))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidFinishJumpEvent*>* _sliderDidFinishMovement;
 
   /// @brief Field _sliderDidStartDissolving, offset 0x78, size 0x8
-  __declspec(property(get = __get__sliderDidStartDissolving,
-                      put = __set__sliderDidStartDissolving))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidStartDissolvingEvent*>* _sliderDidStartDissolving;
+  __declspec(property(get = __cordl_internal_get__sliderDidStartDissolving,
+                      put = __cordl_internal_set__sliderDidStartDissolving))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidStartDissolvingEvent*>* _sliderDidStartDissolving;
 
   /// @brief Field _sliderDidDissolve, offset 0x80, size 0x8
-  __declspec(property(get = __get__sliderDidDissolve, put = __set__sliderDidDissolve))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidDissolveEvent*>* _sliderDidDissolve;
+  __declspec(property(get = __cordl_internal_get__sliderDidDissolve,
+                      put = __cordl_internal_set__sliderDidDissolve))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidDissolveEvent*>* _sliderDidDissolve;
 
   /// @brief Field _sliderHeadDidMovePastCutMark, offset 0x88, size 0x8
-  __declspec(property(get = __get__sliderHeadDidMovePastCutMark,
-                      put = __set__sliderHeadDidMovePastCutMark))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderHeadDidMovePastCutMarkEvent*>* _sliderHeadDidMovePastCutMark;
+  __declspec(
+      property(get = __cordl_internal_get__sliderHeadDidMovePastCutMark,
+               put = __cordl_internal_set__sliderHeadDidMovePastCutMark))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderHeadDidMovePastCutMarkEvent*>* _sliderHeadDidMovePastCutMark;
 
   /// @brief Field _sliderTailDidMovePastCutMark, offset 0x90, size 0x8
-  __declspec(property(get = __get__sliderTailDidMovePastCutMark,
-                      put = __set__sliderTailDidMovePastCutMark))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderTailDidMovePastCutMarkEvent*>* _sliderTailDidMovePastCutMark;
+  __declspec(
+      property(get = __cordl_internal_get__sliderTailDidMovePastCutMark,
+               put = __cordl_internal_set__sliderTailDidMovePastCutMark))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderTailDidMovePastCutMarkEvent*>* _sliderTailDidMovePastCutMark;
 
   /// @brief Field _lengthType, offset 0x98, size 0x4
-  __declspec(property(get = __get__lengthType, put = __set__lengthType))::GlobalNamespace::__SliderController__LengthType _lengthType;
+  __declspec(property(get = __cordl_internal_get__lengthType, put = __cordl_internal_set__lengthType))::GlobalNamespace::__SliderController__LengthType _lengthType;
 
   /// @brief Field _sliderData, offset 0xa0, size 0x8
-  __declspec(property(get = __get__sliderData, put = __set__sliderData))::GlobalNamespace::SliderData* _sliderData;
+  __declspec(property(get = __cordl_internal_get__sliderData, put = __cordl_internal_set__sliderData))::GlobalNamespace::SliderData* _sliderData;
 
   /// @brief Field _saber, offset 0xa8, size 0x8
-  __declspec(property(get = __get__saber, put = __set__saber))::GlobalNamespace::Saber* _saber;
+  __declspec(property(get = __cordl_internal_get__saber, put = __cordl_internal_set__saber))::UnityW<::GlobalNamespace::Saber> _saber;
 
   /// @brief Field _headJumpOffsetY, offset 0xb0, size 0x4
-  __declspec(property(get = __get__headJumpOffsetY, put = __set__headJumpOffsetY)) float_t _headJumpOffsetY;
+  __declspec(property(get = __cordl_internal_get__headJumpOffsetY, put = __cordl_internal_set__headJumpOffsetY)) float_t _headJumpOffsetY;
 
   /// @brief Field _sliderDuration, offset 0xb4, size 0x4
-  __declspec(property(get = __get__sliderDuration, put = __set__sliderDuration)) float_t _sliderDuration;
+  __declspec(property(get = __cordl_internal_get__sliderDuration, put = __cordl_internal_set__sliderDuration)) float_t _sliderDuration;
 
   /// @brief Field _initColor, offset 0xb8, size 0x10
-  __declspec(property(get = __get__initColor, put = __set__initColor))::UnityEngine::Color _initColor;
+  __declspec(property(get = __cordl_internal_get__initColor, put = __cordl_internal_set__initColor))::UnityEngine::Color _initColor;
 
   /// @brief Field _attractingSaber, offset 0xc8, size 0x1
-  __declspec(property(get = __get__attractingSaber, put = __set__attractingSaber)) bool _attractingSaber;
+  __declspec(property(get = __cordl_internal_get__attractingSaber, put = __cordl_internal_set__attractingSaber)) bool _attractingSaber;
 
   /// @brief Field _randomValue, offset 0xcc, size 0x4
-  __declspec(property(get = __get__randomValue, put = __set__randomValue)) float_t _randomValue;
+  __declspec(property(get = __cordl_internal_get__randomValue, put = __cordl_internal_set__randomValue)) float_t _randomValue;
 
   /// @brief Field _zDistanceBetweenNotes, offset 0xd0, size 0x4
-  __declspec(property(get = __get__zDistanceBetweenNotes, put = __set__zDistanceBetweenNotes)) float_t _zDistanceBetweenNotes;
+  __declspec(property(get = __cordl_internal_get__zDistanceBetweenNotes, put = __cordl_internal_set__zDistanceBetweenNotes)) float_t _zDistanceBetweenNotes;
 
   /// @brief Field _jumpDistance, offset 0xd4, size 0x4
-  __declspec(property(get = __get__jumpDistance, put = __set__jumpDistance)) float_t _jumpDistance;
+  __declspec(property(get = __cordl_internal_get__jumpDistance, put = __cordl_internal_set__jumpDistance)) float_t _jumpDistance;
 
   /// @brief Field _closeSmoothedSaberInteractionPos, offset 0xd8, size 0x8
-  __declspec(property(get = __get__closeSmoothedSaberInteractionPos, put = __set__closeSmoothedSaberInteractionPos))::GlobalNamespace::FixedUpdateVector3SmoothValue* _closeSmoothedSaberInteractionPos;
+  __declspec(property(get = __cordl_internal_get__closeSmoothedSaberInteractionPos,
+                      put = __cordl_internal_set__closeSmoothedSaberInteractionPos))::GlobalNamespace::FixedUpdateVector3SmoothValue* _closeSmoothedSaberInteractionPos;
 
   __declspec(property(get = get_sliderDidFinishJumpEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::ISliderDidFinishJumpEvent*>* sliderDidFinishJumpEvent;
 
@@ -309,9 +314,9 @@ public:
 
   __declspec(property(get = get_saberInteractionParam)) float_t saberInteractionParam;
 
-  __declspec(property(get = get_sliderMeshController))::GlobalNamespace::SliderMeshController* sliderMeshController;
+  __declspec(property(get = get_sliderMeshController))::UnityW<::GlobalNamespace::SliderMeshController> sliderMeshController;
 
-  __declspec(property(get = get_sliderMovement))::GlobalNamespace::SliderMovement* sliderMovement;
+  __declspec(property(get = get_sliderMovement))::UnityW<::GlobalNamespace::SliderMovement> sliderMovement;
 
   __declspec(property(get = get_initColor))::UnityEngine::Color initColor;
 
@@ -327,7 +332,7 @@ public:
 
   __declspec(property(get = get_closeSmoothedSaberInteractionPos))::GlobalNamespace::FixedUpdateVector3SmoothValue* closeSmoothedSaberInteractionPos;
 
-  __declspec(property(get = get_sliderIntensityEffect))::GlobalNamespace::SliderIntensityEffect* sliderIntensityEffect;
+  __declspec(property(get = get_sliderIntensityEffect))::UnityW<::GlobalNamespace::SliderIntensityEffect> sliderIntensityEffect;
 
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapObjectController"
   constexpr operator ::GlobalNamespace::IBeatmapObjectController*() noexcept;
@@ -335,149 +340,152 @@ public:
   /// @brief Convert to "::GlobalNamespace::IBeatmapObjectController"
   constexpr ::GlobalNamespace::IBeatmapObjectController* i___GlobalNamespace__IBeatmapObjectController() noexcept;
 
-  constexpr ::GlobalNamespace::SliderIntensityEffect*& __get__sliderIntensityEffect();
+  constexpr ::UnityW<::GlobalNamespace::SliderIntensityEffect>& __cordl_internal_get__sliderIntensityEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SliderIntensityEffect*> const& __get__sliderIntensityEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::SliderIntensityEffect> const& __cordl_internal_get__sliderIntensityEffect() const;
 
-  constexpr void __set__sliderIntensityEffect(::GlobalNamespace::SliderIntensityEffect* value);
+  constexpr void __cordl_internal_set__sliderIntensityEffect(::UnityW<::GlobalNamespace::SliderIntensityEffect> value);
 
-  constexpr ::GlobalNamespace::SliderMeshController*& __get__sliderMeshController();
+  constexpr ::UnityW<::GlobalNamespace::SliderMeshController>& __cordl_internal_get__sliderMeshController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SliderMeshController*> const& __get__sliderMeshController() const;
+  constexpr ::UnityW<::GlobalNamespace::SliderMeshController> const& __cordl_internal_get__sliderMeshController() const;
 
-  constexpr void __set__sliderMeshController(::GlobalNamespace::SliderMeshController* value);
+  constexpr void __cordl_internal_set__sliderMeshController(::UnityW<::GlobalNamespace::SliderMeshController> value);
 
-  constexpr ::GlobalNamespace::SliderMovement*& __get__sliderMovement();
+  constexpr ::UnityW<::GlobalNamespace::SliderMovement>& __cordl_internal_get__sliderMovement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SliderMovement*> const& __get__sliderMovement() const;
+  constexpr ::UnityW<::GlobalNamespace::SliderMovement> const& __cordl_internal_get__sliderMovement() const;
 
-  constexpr void __set__sliderMovement(::GlobalNamespace::SliderMovement* value);
+  constexpr void __cordl_internal_set__sliderMovement(::UnityW<::GlobalNamespace::SliderMovement> value);
 
-  constexpr float_t& __get__closeInteractionSaberPosSmoothParam();
+  constexpr float_t& __cordl_internal_get__closeInteractionSaberPosSmoothParam();
 
-  constexpr float_t const& __get__closeInteractionSaberPosSmoothParam() const;
+  constexpr float_t const& __cordl_internal_get__closeInteractionSaberPosSmoothParam() const;
 
-  constexpr void __set__closeInteractionSaberPosSmoothParam(float_t value);
+  constexpr void __cordl_internal_set__closeInteractionSaberPosSmoothParam(float_t value);
 
-  constexpr ::GlobalNamespace::IBeatmapObjectSpawnController*& __get__beatmapObjectSpawnController();
+  constexpr ::GlobalNamespace::IBeatmapObjectSpawnController*& __cordl_internal_get__beatmapObjectSpawnController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapObjectSpawnController*> const& __get__beatmapObjectSpawnController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapObjectSpawnController*> const& __cordl_internal_get__beatmapObjectSpawnController() const;
 
-  constexpr void __set__beatmapObjectSpawnController(::GlobalNamespace::IBeatmapObjectSpawnController* value);
+  constexpr void __cordl_internal_set__beatmapObjectSpawnController(::GlobalNamespace::IBeatmapObjectSpawnController* value);
 
-  constexpr ::GlobalNamespace::ColorManager*& __get__colorManager();
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __get__colorManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
 
-  constexpr void __set__colorManager(::GlobalNamespace::ColorManager* value);
+  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __get__beatmapObjectManager();
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __get__beatmapObjectManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  constexpr ::GlobalNamespace::SaberManager*& __get__saberManager();
+  constexpr ::UnityW<::GlobalNamespace::SaberManager>& __cordl_internal_get__saberManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberManager*> const& __get__saberManager() const;
+  constexpr ::UnityW<::GlobalNamespace::SaberManager> const& __cordl_internal_get__saberManager() const;
 
-  constexpr void __set__saberManager(::GlobalNamespace::SaberManager* value);
+  constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidFinishJumpEvent*>*& __get__sliderDidFinishMovement();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidFinishJumpEvent*>*& __cordl_internal_get__sliderDidFinishMovement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidFinishJumpEvent*>*> const& __get__sliderDidFinishMovement() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidFinishJumpEvent*>*> const& __cordl_internal_get__sliderDidFinishMovement() const;
 
-  constexpr void __set__sliderDidFinishMovement(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidFinishJumpEvent*>* value);
+  constexpr void __cordl_internal_set__sliderDidFinishMovement(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidFinishJumpEvent*>* value);
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidStartDissolvingEvent*>*& __get__sliderDidStartDissolving();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidStartDissolvingEvent*>*& __cordl_internal_get__sliderDidStartDissolving();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidStartDissolvingEvent*>*> const& __get__sliderDidStartDissolving() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidStartDissolvingEvent*>*> const&
+  __cordl_internal_get__sliderDidStartDissolving() const;
 
-  constexpr void __set__sliderDidStartDissolving(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidStartDissolvingEvent*>* value);
+  constexpr void __cordl_internal_set__sliderDidStartDissolving(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidStartDissolvingEvent*>* value);
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidDissolveEvent*>*& __get__sliderDidDissolve();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidDissolveEvent*>*& __cordl_internal_get__sliderDidDissolve();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidDissolveEvent*>*> const& __get__sliderDidDissolve() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidDissolveEvent*>*> const& __cordl_internal_get__sliderDidDissolve() const;
 
-  constexpr void __set__sliderDidDissolve(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidDissolveEvent*>* value);
+  constexpr void __cordl_internal_set__sliderDidDissolve(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidDissolveEvent*>* value);
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderHeadDidMovePastCutMarkEvent*>*& __get__sliderHeadDidMovePastCutMark();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderHeadDidMovePastCutMarkEvent*>*& __cordl_internal_get__sliderHeadDidMovePastCutMark();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderHeadDidMovePastCutMarkEvent*>*> const& __get__sliderHeadDidMovePastCutMark() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderHeadDidMovePastCutMarkEvent*>*> const&
+  __cordl_internal_get__sliderHeadDidMovePastCutMark() const;
 
-  constexpr void __set__sliderHeadDidMovePastCutMark(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderHeadDidMovePastCutMarkEvent*>* value);
+  constexpr void __cordl_internal_set__sliderHeadDidMovePastCutMark(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderHeadDidMovePastCutMarkEvent*>* value);
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderTailDidMovePastCutMarkEvent*>*& __get__sliderTailDidMovePastCutMark();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderTailDidMovePastCutMarkEvent*>*& __cordl_internal_get__sliderTailDidMovePastCutMark();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderTailDidMovePastCutMarkEvent*>*> const& __get__sliderTailDidMovePastCutMark() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderTailDidMovePastCutMarkEvent*>*> const&
+  __cordl_internal_get__sliderTailDidMovePastCutMark() const;
 
-  constexpr void __set__sliderTailDidMovePastCutMark(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderTailDidMovePastCutMarkEvent*>* value);
+  constexpr void __cordl_internal_set__sliderTailDidMovePastCutMark(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderTailDidMovePastCutMarkEvent*>* value);
 
-  constexpr ::GlobalNamespace::__SliderController__LengthType& __get__lengthType();
+  constexpr ::GlobalNamespace::__SliderController__LengthType& __cordl_internal_get__lengthType();
 
-  constexpr ::GlobalNamespace::__SliderController__LengthType const& __get__lengthType() const;
+  constexpr ::GlobalNamespace::__SliderController__LengthType const& __cordl_internal_get__lengthType() const;
 
-  constexpr void __set__lengthType(::GlobalNamespace::__SliderController__LengthType value);
+  constexpr void __cordl_internal_set__lengthType(::GlobalNamespace::__SliderController__LengthType value);
 
-  constexpr ::GlobalNamespace::SliderData*& __get__sliderData();
+  constexpr ::GlobalNamespace::SliderData*& __cordl_internal_get__sliderData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SliderData*> const& __get__sliderData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SliderData*> const& __cordl_internal_get__sliderData() const;
 
-  constexpr void __set__sliderData(::GlobalNamespace::SliderData* value);
+  constexpr void __cordl_internal_set__sliderData(::GlobalNamespace::SliderData* value);
 
-  constexpr ::GlobalNamespace::Saber*& __get__saber();
+  constexpr ::UnityW<::GlobalNamespace::Saber>& __cordl_internal_get__saber();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Saber*> const& __get__saber() const;
+  constexpr ::UnityW<::GlobalNamespace::Saber> const& __cordl_internal_get__saber() const;
 
-  constexpr void __set__saber(::GlobalNamespace::Saber* value);
+  constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::Saber> value);
 
-  constexpr float_t& __get__headJumpOffsetY();
+  constexpr float_t& __cordl_internal_get__headJumpOffsetY();
 
-  constexpr float_t const& __get__headJumpOffsetY() const;
+  constexpr float_t const& __cordl_internal_get__headJumpOffsetY() const;
 
-  constexpr void __set__headJumpOffsetY(float_t value);
+  constexpr void __cordl_internal_set__headJumpOffsetY(float_t value);
 
-  constexpr float_t& __get__sliderDuration();
+  constexpr float_t& __cordl_internal_get__sliderDuration();
 
-  constexpr float_t const& __get__sliderDuration() const;
+  constexpr float_t const& __cordl_internal_get__sliderDuration() const;
 
-  constexpr void __set__sliderDuration(float_t value);
+  constexpr void __cordl_internal_set__sliderDuration(float_t value);
 
-  constexpr ::UnityEngine::Color& __get__initColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__initColor();
 
-  constexpr ::UnityEngine::Color const& __get__initColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__initColor() const;
 
-  constexpr void __set__initColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__initColor(::UnityEngine::Color value);
 
-  constexpr bool& __get__attractingSaber();
+  constexpr bool& __cordl_internal_get__attractingSaber();
 
-  constexpr bool const& __get__attractingSaber() const;
+  constexpr bool const& __cordl_internal_get__attractingSaber() const;
 
-  constexpr void __set__attractingSaber(bool value);
+  constexpr void __cordl_internal_set__attractingSaber(bool value);
 
-  constexpr float_t& __get__randomValue();
+  constexpr float_t& __cordl_internal_get__randomValue();
 
-  constexpr float_t const& __get__randomValue() const;
+  constexpr float_t const& __cordl_internal_get__randomValue() const;
 
-  constexpr void __set__randomValue(float_t value);
+  constexpr void __cordl_internal_set__randomValue(float_t value);
 
-  constexpr float_t& __get__zDistanceBetweenNotes();
+  constexpr float_t& __cordl_internal_get__zDistanceBetweenNotes();
 
-  constexpr float_t const& __get__zDistanceBetweenNotes() const;
+  constexpr float_t const& __cordl_internal_get__zDistanceBetweenNotes() const;
 
-  constexpr void __set__zDistanceBetweenNotes(float_t value);
+  constexpr void __cordl_internal_set__zDistanceBetweenNotes(float_t value);
 
-  constexpr float_t& __get__jumpDistance();
+  constexpr float_t& __cordl_internal_get__jumpDistance();
 
-  constexpr float_t const& __get__jumpDistance() const;
+  constexpr float_t const& __cordl_internal_get__jumpDistance() const;
 
-  constexpr void __set__jumpDistance(float_t value);
+  constexpr void __cordl_internal_set__jumpDistance(float_t value);
 
-  constexpr ::GlobalNamespace::FixedUpdateVector3SmoothValue*& __get__closeSmoothedSaberInteractionPos();
+  constexpr ::GlobalNamespace::FixedUpdateVector3SmoothValue*& __cordl_internal_get__closeSmoothedSaberInteractionPos();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FixedUpdateVector3SmoothValue*> const& __get__closeSmoothedSaberInteractionPos() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FixedUpdateVector3SmoothValue*> const& __cordl_internal_get__closeSmoothedSaberInteractionPos() const;
 
-  constexpr void __set__closeSmoothedSaberInteractionPos(::GlobalNamespace::FixedUpdateVector3SmoothValue* value);
+  constexpr void __cordl_internal_set__closeSmoothedSaberInteractionPos(::GlobalNamespace::FixedUpdateVector3SmoothValue* value);
 
   /// @brief Method get_sliderDidFinishJumpEvent, addr 0x238fa74, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::ISliderDidFinishJumpEvent*>* get_sliderDidFinishJumpEvent();
@@ -504,10 +512,10 @@ public:
   inline float_t get_saberInteractionParam();
 
   /// @brief Method get_sliderMeshController, addr 0x238fb14, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::SliderMeshController* get_sliderMeshController();
+  inline ::UnityW<::GlobalNamespace::SliderMeshController> get_sliderMeshController();
 
   /// @brief Method get_sliderMovement, addr 0x238fb1c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::SliderMovement* get_sliderMovement();
+  inline ::UnityW<::GlobalNamespace::SliderMovement> get_sliderMovement();
 
   /// @brief Method get_initColor, addr 0x238fb24, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_initColor();
@@ -531,7 +539,7 @@ public:
   inline ::GlobalNamespace::FixedUpdateVector3SmoothValue* get_closeSmoothedSaberInteractionPos();
 
   /// @brief Method get_sliderIntensityEffect, addr 0x238fb60, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::SliderIntensityEffect* get_sliderIntensityEffect();
+  inline ::UnityW<::GlobalNamespace::SliderIntensityEffect> get_sliderIntensityEffect();
 
   /// @brief Method Init, addr 0x238fb68, size 0x3d0, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::__SliderController__LengthType lengthType, ::GlobalNamespace::SliderData* sliderData, float_t worldRotation, ::UnityEngine::Vector3 headNoteJumpStartPos,
@@ -618,13 +626,13 @@ protected:
 
 public:
   /// @brief Field _sliderIntensityEffect, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::SliderIntensityEffect* ____sliderIntensityEffect;
+  ::UnityW<::GlobalNamespace::SliderIntensityEffect> ____sliderIntensityEffect;
 
   /// @brief Field _sliderMeshController, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::SliderMeshController* ____sliderMeshController;
+  ::UnityW<::GlobalNamespace::SliderMeshController> ____sliderMeshController;
 
   /// @brief Field _sliderMovement, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::SliderMovement* ____sliderMovement;
+  ::UnityW<::GlobalNamespace::SliderMovement> ____sliderMovement;
 
   /// @brief Field _closeInteractionSaberPosSmoothParam, offset: 0x48, size: 0x4, def value: None
   float_t ____closeInteractionSaberPosSmoothParam;
@@ -639,7 +647,7 @@ public:
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
   /// @brief Field _saberManager, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::SaberManager* ____saberManager;
+  ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
   /// @brief Field _sliderDidFinishMovement, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISliderDidFinishJumpEvent*>* ____sliderDidFinishMovement;
@@ -663,7 +671,7 @@ public:
   ::GlobalNamespace::SliderData* ____sliderData;
 
   /// @brief Field _saber, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::Saber* ____saber;
+  ::UnityW<::GlobalNamespace::Saber> ____saber;
 
   /// @brief Field _headJumpOffsetY, offset: 0xb0, size: 0x4, def value: None
   float_t ____headJumpOffsetY;
@@ -750,9 +758,9 @@ static_assert(offsetof(::GlobalNamespace::SliderController, ____closeSmoothedSab
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 393 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4811))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4806)) CS Name: ::SliderController::Pool::Short*
-class CORDL_TYPE __SliderController__Pool__Short : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SliderController*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4811)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 393 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4806)) CS Name: ::SliderController::Pool::Short*
+class CORDL_TYPE __SliderController__Pool__Short : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::SliderController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__SliderController__Pool__Short* New_ctor();
@@ -784,9 +792,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SliderControl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4811)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 393 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4807)) CS Name: ::SliderController::Pool::Medium*
-class CORDL_TYPE __SliderController__Pool__Medium : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SliderController*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4811)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 393 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4807)) CS Name: ::SliderController::Pool::Medium*
+class CORDL_TYPE __SliderController__Pool__Medium : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::SliderController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__SliderController__Pool__Medium* New_ctor();
@@ -818,9 +826,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SliderControl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 393 }), TypeDefinitionIndex(TypeDefinitionIndex(4811)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4808)) CS Name: ::SliderController::Pool::Long*
-class CORDL_TYPE __SliderController__Pool__Long : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SliderController*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4811)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 393 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4808)) CS Name: ::SliderController::Pool::Long*
+class CORDL_TYPE __SliderController__Pool__Long : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::SliderController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__SliderController__Pool__Long* New_ctor();
@@ -852,7 +860,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SliderControl
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4809))
 // CS Name: ::SliderController::Pool*
 class CORDL_TYPE __SliderController__Pool : public ::System::Object {
@@ -865,31 +873,31 @@ public:
   using Short = ::GlobalNamespace::__SliderController__Pool__Short;
 
   /// @brief Field _shortPool, offset 0x10, size 0x8
-  __declspec(property(get = __get__shortPool, put = __set__shortPool))::GlobalNamespace::__SliderController__Pool__Short* _shortPool;
+  __declspec(property(get = __cordl_internal_get__shortPool, put = __cordl_internal_set__shortPool))::GlobalNamespace::__SliderController__Pool__Short* _shortPool;
 
   /// @brief Field _mediumPool, offset 0x18, size 0x8
-  __declspec(property(get = __get__mediumPool, put = __set__mediumPool))::GlobalNamespace::__SliderController__Pool__Medium* _mediumPool;
+  __declspec(property(get = __cordl_internal_get__mediumPool, put = __cordl_internal_set__mediumPool))::GlobalNamespace::__SliderController__Pool__Medium* _mediumPool;
 
   /// @brief Field _longPool, offset 0x20, size 0x8
-  __declspec(property(get = __get__longPool, put = __set__longPool))::GlobalNamespace::__SliderController__Pool__Long* _longPool;
+  __declspec(property(get = __cordl_internal_get__longPool, put = __cordl_internal_set__longPool))::GlobalNamespace::__SliderController__Pool__Long* _longPool;
 
-  constexpr ::GlobalNamespace::__SliderController__Pool__Short*& __get__shortPool();
+  constexpr ::GlobalNamespace::__SliderController__Pool__Short*& __cordl_internal_get__shortPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SliderController__Pool__Short*> const& __get__shortPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SliderController__Pool__Short*> const& __cordl_internal_get__shortPool() const;
 
-  constexpr void __set__shortPool(::GlobalNamespace::__SliderController__Pool__Short* value);
+  constexpr void __cordl_internal_set__shortPool(::GlobalNamespace::__SliderController__Pool__Short* value);
 
-  constexpr ::GlobalNamespace::__SliderController__Pool__Medium*& __get__mediumPool();
+  constexpr ::GlobalNamespace::__SliderController__Pool__Medium*& __cordl_internal_get__mediumPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SliderController__Pool__Medium*> const& __get__mediumPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SliderController__Pool__Medium*> const& __cordl_internal_get__mediumPool() const;
 
-  constexpr void __set__mediumPool(::GlobalNamespace::__SliderController__Pool__Medium* value);
+  constexpr void __cordl_internal_set__mediumPool(::GlobalNamespace::__SliderController__Pool__Medium* value);
 
-  constexpr ::GlobalNamespace::__SliderController__Pool__Long*& __get__longPool();
+  constexpr ::GlobalNamespace::__SliderController__Pool__Long*& __cordl_internal_get__longPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SliderController__Pool__Long*> const& __get__longPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SliderController__Pool__Long*> const& __cordl_internal_get__longPool() const;
 
-  constexpr void __set__longPool(::GlobalNamespace::__SliderController__Pool__Long* value);
+  constexpr void __cordl_internal_set__longPool(::GlobalNamespace::__SliderController__Pool__Long* value);
 
   static inline ::GlobalNamespace::__SliderController__Pool* New_ctor(::GlobalNamespace::__SliderController__Pool__Short* shortPool, ::GlobalNamespace::__SliderController__Pool__Medium* mediumPool,
                                                                       ::GlobalNamespace::__SliderController__Pool__Long* longPool);
@@ -899,7 +907,7 @@ public:
                     ::GlobalNamespace::__SliderController__Pool__Long* longPool);
 
   /// @brief Method GetPool, addr 0x2392624, size 0xa0, virtual false, abstract: false, final false
-  inline ::Zenject::MonoMemoryPool_1<::GlobalNamespace::SliderController*>* GetPool(::GlobalNamespace::__SliderController__LengthType lengthType);
+  inline ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::SliderController>>* GetPool(::GlobalNamespace::__SliderController__LengthType lengthType);
 
   /// @brief Method GetLengthFromSliderData, addr 0x23926c4, size 0x58, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::__SliderController__LengthType GetLengthFromSliderData(::GlobalNamespace::SliderData* sliderNoteData,
@@ -950,23 +958,23 @@ static_assert(offsetof(::GlobalNamespace::__SliderController__Pool, ____longPool
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4810))
 // CS Name: ::SliderController::<DissolveCoroutine>d__70*
 class CORDL_TYPE __SliderController___DissolveCoroutine_d__70 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::SliderController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::SliderController> __4__this;
 
   /// @brief Field duration, offset 0x28, size 0x4
-  __declspec(property(get = __get_duration, put = __set_duration)) float_t duration;
+  __declspec(property(get = __cordl_internal_get_duration, put = __cordl_internal_set_duration)) float_t duration;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -990,29 +998,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::SliderController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::SliderController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SliderController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::SliderController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::SliderController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SliderController> value);
 
-  constexpr float_t& __get_duration();
+  constexpr float_t& __cordl_internal_get_duration();
 
-  constexpr float_t const& __get_duration() const;
+  constexpr float_t const& __cordl_internal_get_duration() const;
 
-  constexpr void __set_duration(float_t value);
+  constexpr void __cordl_internal_set_duration(float_t value);
 
   static inline ::GlobalNamespace::__SliderController___DissolveCoroutine_d__70* New_ctor(int32_t __1__state);
 
@@ -1055,7 +1063,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::SliderController* _____4__this;
+  ::UnityW<::GlobalNamespace::SliderController> _____4__this;
 
   /// @brief Field duration, offset: 0x28, size: 0x4, def value: None
   float_t ___duration;

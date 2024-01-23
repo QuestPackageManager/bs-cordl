@@ -15,7 +15,7 @@ MARK_VAL_T(::LIV::SDK::Unity::FEATURES);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15101))
 // CS Name: ::LIV.SDK.Unity::FEATURES
 struct CORDL_TYPE FEATURES {

@@ -60,20 +60,20 @@ MARK_REF_PTR_T(::Polyglot::__LocalizationImporter____c__DisplayClass8_0);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15561))
 // CS Name: ::LocalizationImporter::<>c__DisplayClass5_0*
 class CORDL_TYPE __LocalizationImporter____c__DisplayClass5_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field settings, offset 0x10, size 0x8
-  __declspec(property(get = __get_settings, put = __set_settings))::Polyglot::Localization* settings;
+  __declspec(property(get = __cordl_internal_get_settings, put = __cordl_internal_set_settings))::UnityW<::Polyglot::Localization> settings;
 
-  constexpr ::Polyglot::Localization*& __get_settings();
+  constexpr ::UnityW<::Polyglot::Localization>& __cordl_internal_get_settings();
 
-  constexpr ::cordl_internals::to_const_pointer<::Polyglot::Localization*> const& __get_settings() const;
+  constexpr ::UnityW<::Polyglot::Localization> const& __cordl_internal_get_settings() const;
 
-  constexpr void __set_settings(::Polyglot::Localization* value);
+  constexpr void __cordl_internal_set_settings(::UnityW<::Polyglot::Localization> value);
 
   static inline ::Polyglot::__LocalizationImporter____c__DisplayClass5_0* New_ctor();
 
@@ -98,7 +98,7 @@ protected:
 
 public:
   /// @brief Field settings, offset: 0x10, size: 0x8, def value: None
-  ::Polyglot::Localization* ___settings;
+  ::UnityW<::Polyglot::Localization> ___settings;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -112,20 +112,20 @@ static_assert(offsetof(::Polyglot::__LocalizationImporter____c__DisplayClass5_0,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15562))
 // CS Name: ::LocalizationImporter::<>c__DisplayClass8_0*
 class CORDL_TYPE __LocalizationImporter____c__DisplayClass8_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field settings, offset 0x10, size 0x8
-  __declspec(property(get = __get_settings, put = __set_settings))::Polyglot::Localization* settings;
+  __declspec(property(get = __cordl_internal_get_settings, put = __cordl_internal_set_settings))::UnityW<::Polyglot::Localization> settings;
 
-  constexpr ::Polyglot::Localization*& __get_settings();
+  constexpr ::UnityW<::Polyglot::Localization>& __cordl_internal_get_settings();
 
-  constexpr ::cordl_internals::to_const_pointer<::Polyglot::Localization*> const& __get_settings() const;
+  constexpr ::UnityW<::Polyglot::Localization> const& __cordl_internal_get_settings() const;
 
-  constexpr void __set_settings(::Polyglot::Localization* value);
+  constexpr void __cordl_internal_set_settings(::UnityW<::Polyglot::Localization> value);
 
   static inline ::Polyglot::__LocalizationImporter____c__DisplayClass8_0* New_ctor();
 
@@ -150,7 +150,7 @@ protected:
 
 public:
   /// @brief Field settings, offset: 0x10, size: 0x8, def value: None
-  ::Polyglot::Localization* ___settings;
+  ::UnityW<::Polyglot::Localization> ___settings;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -164,7 +164,7 @@ static_assert(offsetof(::Polyglot::__LocalizationImporter____c__DisplayClass8_0,
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15563))
 // CS Name: ::Polyglot::LocalizationImporter*
 class CORDL_TYPE LocalizationImporter : public ::System::Object {

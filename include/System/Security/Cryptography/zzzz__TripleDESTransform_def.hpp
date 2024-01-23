@@ -22,65 +22,65 @@ MARK_REF_PTR_T(::System::Security::Cryptography::TripleDESTransform);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2284))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2284))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2987))
 // CS Name: ::System.Security.Cryptography::TripleDESTransform*
 class CORDL_TYPE TripleDESTransform : public ::Mono::Security::Cryptography::SymmetricTransform {
 public:
   // Declarations
   /// @brief Field E1, offset 0x58, size 0x8
-  __declspec(property(get = __get_E1, put = __set_E1))::System::Security::Cryptography::DESTransform* E1;
+  __declspec(property(get = __cordl_internal_get_E1, put = __cordl_internal_set_E1))::System::Security::Cryptography::DESTransform* E1;
 
   /// @brief Field D2, offset 0x60, size 0x8
-  __declspec(property(get = __get_D2, put = __set_D2))::System::Security::Cryptography::DESTransform* D2;
+  __declspec(property(get = __cordl_internal_get_D2, put = __cordl_internal_set_D2))::System::Security::Cryptography::DESTransform* D2;
 
   /// @brief Field E3, offset 0x68, size 0x8
-  __declspec(property(get = __get_E3, put = __set_E3))::System::Security::Cryptography::DESTransform* E3;
+  __declspec(property(get = __cordl_internal_get_E3, put = __cordl_internal_set_E3))::System::Security::Cryptography::DESTransform* E3;
 
   /// @brief Field D1, offset 0x70, size 0x8
-  __declspec(property(get = __get_D1, put = __set_D1))::System::Security::Cryptography::DESTransform* D1;
+  __declspec(property(get = __cordl_internal_get_D1, put = __cordl_internal_set_D1))::System::Security::Cryptography::DESTransform* D1;
 
   /// @brief Field E2, offset 0x78, size 0x8
-  __declspec(property(get = __get_E2, put = __set_E2))::System::Security::Cryptography::DESTransform* E2;
+  __declspec(property(get = __cordl_internal_get_E2, put = __cordl_internal_set_E2))::System::Security::Cryptography::DESTransform* E2;
 
   /// @brief Field D3, offset 0x80, size 0x8
-  __declspec(property(get = __get_D3, put = __set_D3))::System::Security::Cryptography::DESTransform* D3;
+  __declspec(property(get = __cordl_internal_get_D3, put = __cordl_internal_set_D3))::System::Security::Cryptography::DESTransform* D3;
 
-  constexpr ::System::Security::Cryptography::DESTransform*& __get_E1();
+  constexpr ::System::Security::Cryptography::DESTransform*& __cordl_internal_get_E1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& __get_E1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& __cordl_internal_get_E1() const;
 
-  constexpr void __set_E1(::System::Security::Cryptography::DESTransform* value);
+  constexpr void __cordl_internal_set_E1(::System::Security::Cryptography::DESTransform* value);
 
-  constexpr ::System::Security::Cryptography::DESTransform*& __get_D2();
+  constexpr ::System::Security::Cryptography::DESTransform*& __cordl_internal_get_D2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& __get_D2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& __cordl_internal_get_D2() const;
 
-  constexpr void __set_D2(::System::Security::Cryptography::DESTransform* value);
+  constexpr void __cordl_internal_set_D2(::System::Security::Cryptography::DESTransform* value);
 
-  constexpr ::System::Security::Cryptography::DESTransform*& __get_E3();
+  constexpr ::System::Security::Cryptography::DESTransform*& __cordl_internal_get_E3();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& __get_E3() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& __cordl_internal_get_E3() const;
 
-  constexpr void __set_E3(::System::Security::Cryptography::DESTransform* value);
+  constexpr void __cordl_internal_set_E3(::System::Security::Cryptography::DESTransform* value);
 
-  constexpr ::System::Security::Cryptography::DESTransform*& __get_D1();
+  constexpr ::System::Security::Cryptography::DESTransform*& __cordl_internal_get_D1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& __get_D1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& __cordl_internal_get_D1() const;
 
-  constexpr void __set_D1(::System::Security::Cryptography::DESTransform* value);
+  constexpr void __cordl_internal_set_D1(::System::Security::Cryptography::DESTransform* value);
 
-  constexpr ::System::Security::Cryptography::DESTransform*& __get_E2();
+  constexpr ::System::Security::Cryptography::DESTransform*& __cordl_internal_get_E2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& __get_E2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& __cordl_internal_get_E2() const;
 
-  constexpr void __set_E2(::System::Security::Cryptography::DESTransform* value);
+  constexpr void __cordl_internal_set_E2(::System::Security::Cryptography::DESTransform* value);
 
-  constexpr ::System::Security::Cryptography::DESTransform*& __get_D3();
+  constexpr ::System::Security::Cryptography::DESTransform*& __cordl_internal_get_D3();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& __get_D3() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DESTransform*> const& __cordl_internal_get_D3() const;
 
-  constexpr void __set_D3(::System::Security::Cryptography::DESTransform* value);
+  constexpr void __cordl_internal_set_D3(::System::Security::Cryptography::DESTransform* value);
 
   static inline ::System::Security::Cryptography::TripleDESTransform* New_ctor(::System::Security::Cryptography::TripleDES* algo, bool encryption, ::ArrayW<uint8_t, ::Array<uint8_t>*> key,
                                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> iv);

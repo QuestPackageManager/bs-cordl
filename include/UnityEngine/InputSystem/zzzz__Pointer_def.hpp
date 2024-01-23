@@ -37,26 +37,29 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Pointer);
 // SizeInfo { instance_size: 384, native_size: -1, calculated_instance_size: 384, calculated_native_size: 384, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6239))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6239))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6247))
 // CS Name: ::UnityEngine.InputSystem::Pointer*
 class CORDL_TYPE Pointer : public ::UnityEngine::InputSystem::InputDevice {
 public:
   // Declarations
   /// @brief Field <position>k__BackingField, offset 0x158, size 0x8
-  __declspec(property(get = __get__position_k__BackingField, put = __set__position_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _position_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__position_k__BackingField,
+                      put = __cordl_internal_set__position_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _position_k__BackingField;
 
   /// @brief Field <delta>k__BackingField, offset 0x160, size 0x8
-  __declspec(property(get = __get__delta_k__BackingField, put = __set__delta_k__BackingField))::UnityEngine::InputSystem::Controls::DeltaControl* _delta_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__delta_k__BackingField, put = __cordl_internal_set__delta_k__BackingField))::UnityEngine::InputSystem::Controls::DeltaControl* _delta_k__BackingField;
 
   /// @brief Field <radius>k__BackingField, offset 0x168, size 0x8
-  __declspec(property(get = __get__radius_k__BackingField, put = __set__radius_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _radius_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__radius_k__BackingField,
+                      put = __cordl_internal_set__radius_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _radius_k__BackingField;
 
   /// @brief Field <pressure>k__BackingField, offset 0x170, size 0x8
-  __declspec(property(get = __get__pressure_k__BackingField, put = __set__pressure_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _pressure_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__pressure_k__BackingField,
+                      put = __cordl_internal_set__pressure_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _pressure_k__BackingField;
 
   /// @brief Field <press>k__BackingField, offset 0x178, size 0x8
-  __declspec(property(get = __get__press_k__BackingField, put = __set__press_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _press_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__press_k__BackingField, put = __cordl_internal_set__press_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _press_k__BackingField;
 
   /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField))::UnityEngine::InputSystem::Pointer* _current_k__BackingField;
@@ -77,35 +80,35 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateCallbackReceiver* i___UnityEngine__InputSystem__LowLevel__IInputStateCallbackReceiver() noexcept;
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __get__position_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __cordl_internal_get__position_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __get__position_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __cordl_internal_get__position_k__BackingField() const;
 
-  constexpr void __set__position_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+  constexpr void __cordl_internal_set__position_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::DeltaControl*& __get__delta_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::DeltaControl*& __cordl_internal_get__delta_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::DeltaControl*> const& __get__delta_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::DeltaControl*> const& __cordl_internal_get__delta_k__BackingField() const;
 
-  constexpr void __set__delta_k__BackingField(::UnityEngine::InputSystem::Controls::DeltaControl* value);
+  constexpr void __cordl_internal_set__delta_k__BackingField(::UnityEngine::InputSystem::Controls::DeltaControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __get__radius_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __cordl_internal_get__radius_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __get__radius_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __cordl_internal_get__radius_k__BackingField() const;
 
-  constexpr void __set__radius_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+  constexpr void __cordl_internal_set__radius_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __get__pressure_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__pressure_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __get__pressure_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__pressure_k__BackingField() const;
 
-  constexpr void __set__pressure_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+  constexpr void __cordl_internal_set__pressure_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__press_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__press_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__press_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__press_k__BackingField() const;
 
-  constexpr void __set__press_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__press_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Pointer* value);
 

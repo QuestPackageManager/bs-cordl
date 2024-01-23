@@ -62,14 +62,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JArray);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11988))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11988))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11993))
 // CS Name: ::Newtonsoft.Json.Linq::JArray*
 class CORDL_TYPE JArray : public ::Newtonsoft::Json::Linq::JContainer {
 public:
   // Declarations
   /// @brief Field _values, offset 0x50, size 0x8
-  __declspec(property(get = __get__values, put = __set__values))::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JToken*>* _values;
+  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values))::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JToken*>* _values;
 
   __declspec(property(get = get_ChildrenTokens))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* ChildrenTokens;
 
@@ -105,11 +105,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JToken*>*& __get__values();
+  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JToken*>*& __cordl_internal_get__values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JToken*>*> const& __get__values() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JToken*>*> const& __cordl_internal_get__values() const;
 
-  constexpr void __set__values(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JToken*>* value);
+  constexpr void __cordl_internal_set__values(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JToken*>* value);
 
   /// @brief Method get_ChildrenTokens, addr 0x269af08, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* get_ChildrenTokens();

@@ -32,17 +32,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::CertOrEncCert*
 class CORDL_TYPE CertOrEncCert : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field certificate, offset 0x10, size 0x8
-  __declspec(property(get = __get_certificate, put = __set_certificate))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* certificate;
+  __declspec(property(get = __cordl_internal_get_certificate, put = __cordl_internal_set_certificate))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* certificate;
 
   /// @brief Field encryptedCert, offset 0x18, size 0x8
-  __declspec(property(get = __get_encryptedCert, put = __set_encryptedCert))::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* encryptedCert;
+  __declspec(property(get = __cordl_internal_get_encryptedCert, put = __cordl_internal_set_encryptedCert))::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* encryptedCert;
 
   __declspec(property(get = get_Certificate))::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* Certificate;
 
@@ -54,17 +54,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*& __get_certificate();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*& __cordl_internal_get_certificate();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*> const& __get_certificate() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CmpCertificate*> const& __cordl_internal_get_certificate() const;
 
-  constexpr void __set_certificate(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* value);
+  constexpr void __cordl_internal_set_certificate(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*& __get_encryptedCert();
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*& __cordl_internal_get_encryptedCert();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*> const& __get_encryptedCert() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::EncryptedValue*> const& __cordl_internal_get_encryptedCert() const;
 
-  constexpr void __set_encryptedCert(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* value);
+  constexpr void __cordl_internal_set_encryptedCert(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 

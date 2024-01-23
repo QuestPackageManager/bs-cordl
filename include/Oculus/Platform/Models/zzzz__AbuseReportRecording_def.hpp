@@ -16,20 +16,20 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AbuseReportRecording);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13406))
 // CS Name: ::Oculus.Platform.Models::AbuseReportRecording*
 class CORDL_TYPE AbuseReportRecording : public ::System::Object {
 public:
   // Declarations
   /// @brief Field RecordingUuid, offset 0x10, size 0x8
-  __declspec(property(get = __get_RecordingUuid, put = __set_RecordingUuid))::StringW RecordingUuid;
+  __declspec(property(get = __cordl_internal_get_RecordingUuid, put = __cordl_internal_set_RecordingUuid))::StringW RecordingUuid;
 
-  constexpr ::StringW& __get_RecordingUuid();
+  constexpr ::StringW& __cordl_internal_get_RecordingUuid();
 
-  constexpr ::StringW const& __get_RecordingUuid() const;
+  constexpr ::StringW const& __cordl_internal_get_RecordingUuid() const;
 
-  constexpr void __set_RecordingUuid(::StringW value);
+  constexpr void __cordl_internal_set_RecordingUuid(::StringW value);
 
   static inline ::Oculus::Platform::Models::AbuseReportRecording* New_ctor(void* o);
 

@@ -92,7 +92,7 @@ MARK_VAL_T(::System::Net::__WebConnectionTunnel___ReadHeaders_d__43);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9221))
 // CS Name: ::WebConnectionTunnel::NtlmAuthState
 struct CORDL_TYPE __WebConnectionTunnel__NtlmAuthState {
@@ -146,9 +146,9 @@ static_assert(offsetof(::System::Net::__WebConnectionTunnel__NtlmAuthState, valu
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 871
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2508)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5332 }), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(9091))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9222)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2508)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(9091)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2508), inst: 5332 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 871 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9222)) CS Name:
 // ::WebConnectionTunnel::<Initialize>d__42
 struct CORDL_TYPE __WebConnectionTunnel___Initialize_d__42 {
 public:
@@ -237,9 +237,9 @@ static_assert(offsetof(::System::Net::__WebConnectionTunnel___Initialize_d__42, 
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9091)), TypeDefinitionIndex(TypeDefinitionIndex(2508)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 871 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5332 })} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2508)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(9091)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2508), inst: 5332 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 871 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(9223)) CS Name: ::WebConnectionTunnel::<ReadHeaders>d__43
 struct CORDL_TYPE __WebConnectionTunnel___ReadHeaders_d__43 {
 public:
@@ -337,7 +337,7 @@ static_assert(offsetof(::System::Net::__WebConnectionTunnel___ReadHeaders_d__43,
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9221))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9221))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9224))
 // CS Name: ::System.Net::WebConnectionTunnel*
 class CORDL_TYPE WebConnectionTunnel : public ::System::Object {
@@ -350,40 +350,40 @@ public:
   using NtlmAuthState = ::System::Net::__WebConnectionTunnel__NtlmAuthState;
 
   /// @brief Field <Request>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Request_k__BackingField, put = __set__Request_k__BackingField))::System::Net::HttpWebRequest* _Request_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Request_k__BackingField, put = __cordl_internal_set__Request_k__BackingField))::System::Net::HttpWebRequest* _Request_k__BackingField;
 
   /// @brief Field <ConnectUri>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__ConnectUri_k__BackingField, put = __set__ConnectUri_k__BackingField))::System::Uri* _ConnectUri_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ConnectUri_k__BackingField, put = __cordl_internal_set__ConnectUri_k__BackingField))::System::Uri* _ConnectUri_k__BackingField;
 
   /// @brief Field connectRequest, offset 0x20, size 0x8
-  __declspec(property(get = __get_connectRequest, put = __set_connectRequest))::System::Net::HttpWebRequest* connectRequest;
+  __declspec(property(get = __cordl_internal_get_connectRequest, put = __cordl_internal_set_connectRequest))::System::Net::HttpWebRequest* connectRequest;
 
   /// @brief Field ntlmAuthState, offset 0x28, size 0x4
-  __declspec(property(get = __get_ntlmAuthState, put = __set_ntlmAuthState))::System::Net::__WebConnectionTunnel__NtlmAuthState ntlmAuthState;
+  __declspec(property(get = __cordl_internal_get_ntlmAuthState, put = __cordl_internal_set_ntlmAuthState))::System::Net::__WebConnectionTunnel__NtlmAuthState ntlmAuthState;
 
   /// @brief Field <Success>k__BackingField, offset 0x2c, size 0x1
-  __declspec(property(get = __get__Success_k__BackingField, put = __set__Success_k__BackingField)) bool _Success_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Success_k__BackingField, put = __cordl_internal_set__Success_k__BackingField)) bool _Success_k__BackingField;
 
   /// @brief Field <CloseConnection>k__BackingField, offset 0x2d, size 0x1
-  __declspec(property(get = __get__CloseConnection_k__BackingField, put = __set__CloseConnection_k__BackingField)) bool _CloseConnection_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CloseConnection_k__BackingField, put = __cordl_internal_set__CloseConnection_k__BackingField)) bool _CloseConnection_k__BackingField;
 
   /// @brief Field <StatusCode>k__BackingField, offset 0x30, size 0x4
-  __declspec(property(get = __get__StatusCode_k__BackingField, put = __set__StatusCode_k__BackingField)) int32_t _StatusCode_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__StatusCode_k__BackingField, put = __cordl_internal_set__StatusCode_k__BackingField)) int32_t _StatusCode_k__BackingField;
 
   /// @brief Field <StatusDescription>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__StatusDescription_k__BackingField, put = __set__StatusDescription_k__BackingField))::StringW _StatusDescription_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__StatusDescription_k__BackingField, put = __cordl_internal_set__StatusDescription_k__BackingField))::StringW _StatusDescription_k__BackingField;
 
   /// @brief Field <Challenge>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __get__Challenge_k__BackingField, put = __set__Challenge_k__BackingField))::ArrayW<::StringW, ::Array<::StringW>*> _Challenge_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Challenge_k__BackingField, put = __cordl_internal_set__Challenge_k__BackingField))::ArrayW<::StringW, ::Array<::StringW>*> _Challenge_k__BackingField;
 
   /// @brief Field <Headers>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __get__Headers_k__BackingField, put = __set__Headers_k__BackingField))::System::Net::WebHeaderCollection* _Headers_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Headers_k__BackingField, put = __cordl_internal_set__Headers_k__BackingField))::System::Net::WebHeaderCollection* _Headers_k__BackingField;
 
   /// @brief Field <ProxyVersion>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __get__ProxyVersion_k__BackingField, put = __set__ProxyVersion_k__BackingField))::System::Version* _ProxyVersion_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ProxyVersion_k__BackingField, put = __cordl_internal_set__ProxyVersion_k__BackingField))::System::Version* _ProxyVersion_k__BackingField;
 
   /// @brief Field <Data>k__BackingField, offset 0x58, size 0x8
-  __declspec(property(get = __get__Data_k__BackingField, put = __set__Data_k__BackingField))::ArrayW<uint8_t, ::Array<uint8_t>*> _Data_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Data_k__BackingField, put = __cordl_internal_set__Data_k__BackingField))::ArrayW<uint8_t, ::Array<uint8_t>*> _Data_k__BackingField;
 
   __declspec(property(get = get_Request))::System::Net::HttpWebRequest* Request;
 
@@ -405,77 +405,77 @@ public:
 
   __declspec(property(get = get_Data, put = set_Data))::ArrayW<uint8_t, ::Array<uint8_t>*> Data;
 
-  constexpr ::System::Net::HttpWebRequest*& __get__Request_k__BackingField();
+  constexpr ::System::Net::HttpWebRequest*& __cordl_internal_get__Request_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __get__Request_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __cordl_internal_get__Request_k__BackingField() const;
 
-  constexpr void __set__Request_k__BackingField(::System::Net::HttpWebRequest* value);
+  constexpr void __cordl_internal_set__Request_k__BackingField(::System::Net::HttpWebRequest* value);
 
-  constexpr ::System::Uri*& __get__ConnectUri_k__BackingField();
+  constexpr ::System::Uri*& __cordl_internal_get__ConnectUri_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get__ConnectUri_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get__ConnectUri_k__BackingField() const;
 
-  constexpr void __set__ConnectUri_k__BackingField(::System::Uri* value);
+  constexpr void __cordl_internal_set__ConnectUri_k__BackingField(::System::Uri* value);
 
-  constexpr ::System::Net::HttpWebRequest*& __get_connectRequest();
+  constexpr ::System::Net::HttpWebRequest*& __cordl_internal_get_connectRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __get_connectRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __cordl_internal_get_connectRequest() const;
 
-  constexpr void __set_connectRequest(::System::Net::HttpWebRequest* value);
+  constexpr void __cordl_internal_set_connectRequest(::System::Net::HttpWebRequest* value);
 
-  constexpr ::System::Net::__WebConnectionTunnel__NtlmAuthState& __get_ntlmAuthState();
+  constexpr ::System::Net::__WebConnectionTunnel__NtlmAuthState& __cordl_internal_get_ntlmAuthState();
 
-  constexpr ::System::Net::__WebConnectionTunnel__NtlmAuthState const& __get_ntlmAuthState() const;
+  constexpr ::System::Net::__WebConnectionTunnel__NtlmAuthState const& __cordl_internal_get_ntlmAuthState() const;
 
-  constexpr void __set_ntlmAuthState(::System::Net::__WebConnectionTunnel__NtlmAuthState value);
+  constexpr void __cordl_internal_set_ntlmAuthState(::System::Net::__WebConnectionTunnel__NtlmAuthState value);
 
-  constexpr bool& __get__Success_k__BackingField();
+  constexpr bool& __cordl_internal_get__Success_k__BackingField();
 
-  constexpr bool const& __get__Success_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__Success_k__BackingField() const;
 
-  constexpr void __set__Success_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__Success_k__BackingField(bool value);
 
-  constexpr bool& __get__CloseConnection_k__BackingField();
+  constexpr bool& __cordl_internal_get__CloseConnection_k__BackingField();
 
-  constexpr bool const& __get__CloseConnection_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__CloseConnection_k__BackingField() const;
 
-  constexpr void __set__CloseConnection_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__CloseConnection_k__BackingField(bool value);
 
-  constexpr int32_t& __get__StatusCode_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__StatusCode_k__BackingField();
 
-  constexpr int32_t const& __get__StatusCode_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__StatusCode_k__BackingField() const;
 
-  constexpr void __set__StatusCode_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__StatusCode_k__BackingField(int32_t value);
 
-  constexpr ::StringW& __get__StatusDescription_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__StatusDescription_k__BackingField();
 
-  constexpr ::StringW const& __get__StatusDescription_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__StatusDescription_k__BackingField() const;
 
-  constexpr void __set__StatusDescription_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__StatusDescription_k__BackingField(::StringW value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__Challenge_k__BackingField();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__Challenge_k__BackingField();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__Challenge_k__BackingField() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__Challenge_k__BackingField() const;
 
-  constexpr void __set__Challenge_k__BackingField(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__Challenge_k__BackingField(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::System::Net::WebHeaderCollection*& __get__Headers_k__BackingField();
+  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get__Headers_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __get__Headers_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get__Headers_k__BackingField() const;
 
-  constexpr void __set__Headers_k__BackingField(::System::Net::WebHeaderCollection* value);
+  constexpr void __cordl_internal_set__Headers_k__BackingField(::System::Net::WebHeaderCollection* value);
 
-  constexpr ::System::Version*& __get__ProxyVersion_k__BackingField();
+  constexpr ::System::Version*& __cordl_internal_get__ProxyVersion_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __get__ProxyVersion_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __cordl_internal_get__ProxyVersion_k__BackingField() const;
 
-  constexpr void __set__ProxyVersion_k__BackingField(::System::Version* value);
+  constexpr void __cordl_internal_set__ProxyVersion_k__BackingField(::System::Version* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__Data_k__BackingField();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__Data_k__BackingField();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__Data_k__BackingField() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__Data_k__BackingField() const;
 
-  constexpr void __set__Data_k__BackingField(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__Data_k__BackingField(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   /// @brief Method get_Request, addr 0x29e0714, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::HttpWebRequest* get_Request();

@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Hol
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Anssi {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1))
 // CS Name: ::AnssiNamedCurves::Frp256v1Holder*
 class CORDL_TYPE __AnssiNamedCurves__Frp256v1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -92,7 +92,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Anssi::
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Anssi {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2))
 // CS Name: ::Org.BouncyCastle.Asn1.Anssi::AnssiNamedCurves*
 class CORDL_TYPE AnssiNamedCurves : public ::System::Object {

@@ -48,17 +48,17 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::TextElementInfo);
 // SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 353, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(13705)), TypeDefinitionIndex(TypeDefinitionIndex(13719)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(13698))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13699)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(13698)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13705)), TypeDefinitionIndex(TypeDefinitionIndex(13719))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13699)) CS Name:
 // ::UnityEngine.TextCore.Text::TextElementInfo
 struct CORDL_TYPE TextElementInfo {
 public:
   // Declarations
   // Ctor Parameters [CppParam { name: "character", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "elementType", ty: "::UnityEngine::TextCore::Text::TextElementType", modifiers: "", def_value: None }, CppParam { name: "textElement", ty: "::UnityEngine::TextCore::Text::TextElement*",
-  // modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty: "::UnityEngine::TextCore::Text::FontAsset*", modifiers: "", def_value: None }, CppParam { name: "spriteAsset", ty:
-  // "::UnityEngine::TextCore::Text::SpriteAsset*", modifiers: "", def_value: None }, CppParam { name: "spriteIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "material", ty:
-  // "::UnityEngine::Material*", modifiers: "", def_value: None }, CppParam { name: "materialReferenceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None }, CppParam { name: "spriteAsset", ty:
+  // "::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>", modifiers: "", def_value: None }, CppParam { name: "spriteIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "materialReferenceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "isUsingAlternateTypeface", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "pointSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty:
   // "int32_t", modifiers: "", def_value: None }, CppParam { name: "pageNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertexIndex", ty: "int32_t", modifiers: "",
   // def_value: None }, CppParam { name: "vertexTopLeft", ty: "::UnityEngine::TextCore::Text::TextVertex", modifiers: "", def_value: None }, CppParam { name: "vertexBottomLeft", ty:
@@ -73,9 +73,9 @@ public:
   // name: "highlightColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "style", ty: "::UnityEngine::TextCore::Text::FontStyles", modifiers: "", def_value: None
   // }, CppParam { name: "isVisible", ty: "bool", modifiers: "", def_value: None }]
   constexpr TextElementInfo(char16_t character, int32_t index, ::UnityEngine::TextCore::Text::TextElementType elementType, ::UnityEngine::TextCore::Text::TextElement* textElement,
-                            ::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, int32_t spriteIndex, ::UnityEngine::Material* material,
-                            int32_t materialReferenceIndex, bool isUsingAlternateTypeface, float_t pointSize, int32_t lineNumber, int32_t pageNumber, int32_t vertexIndex,
-                            ::UnityEngine::TextCore::Text::TextVertex vertexTopLeft, ::UnityEngine::TextCore::Text::TextVertex vertexBottomLeft,
+                            ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset, ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> spriteAsset, int32_t spriteIndex,
+                            ::UnityW<::UnityEngine::Material> material, int32_t materialReferenceIndex, bool isUsingAlternateTypeface, float_t pointSize, int32_t lineNumber, int32_t pageNumber,
+                            int32_t vertexIndex, ::UnityEngine::TextCore::Text::TextVertex vertexTopLeft, ::UnityEngine::TextCore::Text::TextVertex vertexBottomLeft,
                             ::UnityEngine::TextCore::Text::TextVertex vertexTopRight, ::UnityEngine::TextCore::Text::TextVertex vertexBottomRight, ::UnityEngine::Vector3 topLeft,
                             ::UnityEngine::Vector3 bottomLeft, ::UnityEngine::Vector3 topRight, ::UnityEngine::Vector3 bottomRight, float_t origin, float_t ascender, float_t baseLine,
                             float_t descender, float_t xAdvance, float_t aspectRatio, float_t scale, ::UnityEngine::Color32 color, ::UnityEngine::Color32 underlineColor,
@@ -98,16 +98,16 @@ public:
   ::UnityEngine::TextCore::Text::TextElement* textElement;
 
   /// @brief Field fontAsset, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::TextCore::Text::FontAsset* fontAsset;
+  ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset;
 
   /// @brief Field spriteAsset, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset;
+  ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> spriteAsset;
 
   /// @brief Field spriteIndex, offset: 0x28, size: 0x4, def value: None
   int32_t spriteIndex;
 
   /// @brief Field material, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Material* material;
+  ::UnityW<::UnityEngine::Material> material;
 
   /// @brief Field materialReferenceIndex, offset: 0x38, size: 0x4, def value: None
   int32_t materialReferenceIndex;

@@ -21,20 +21,20 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputHDAInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9647))
 // CS Name: ::HoudiniEngineUnity::HEU_InputHDAInfo*
 class CORDL_TYPE HEU_InputHDAInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _pendingGO, offset 0x10, size 0x8
-  __declspec(property(get = __get__pendingGO, put = __set__pendingGO))::UnityEngine::GameObject* _pendingGO;
+  __declspec(property(get = __cordl_internal_get__pendingGO, put = __cordl_internal_set__pendingGO))::UnityW<::UnityEngine::GameObject> _pendingGO;
 
   /// @brief Field _connectedGO, offset 0x18, size 0x8
-  __declspec(property(get = __get__connectedGO, put = __set__connectedGO))::UnityEngine::GameObject* _connectedGO;
+  __declspec(property(get = __cordl_internal_get__connectedGO, put = __cordl_internal_set__connectedGO))::UnityW<::UnityEngine::GameObject> _connectedGO;
 
   /// @brief Field _connectedInputNodeID, offset 0x20, size 0x4
-  __declspec(property(get = __get__connectedInputNodeID, put = __set__connectedInputNodeID)) int32_t _connectedInputNodeID;
+  __declspec(property(get = __cordl_internal_get__connectedInputNodeID, put = __cordl_internal_set__connectedInputNodeID)) int32_t _connectedInputNodeID;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>*() noexcept;
@@ -42,23 +42,23 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_InputHDAInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_InputHDAInfo__() noexcept;
 
-  constexpr ::UnityEngine::GameObject*& __get__pendingGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__pendingGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__pendingGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__pendingGO() const;
 
-  constexpr void __set__pendingGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__pendingGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__connectedGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__connectedGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__connectedGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__connectedGO() const;
 
-  constexpr void __set__connectedGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__connectedGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr int32_t& __get__connectedInputNodeID();
+  constexpr int32_t& __cordl_internal_get__connectedInputNodeID();
 
-  constexpr int32_t const& __get__connectedInputNodeID() const;
+  constexpr int32_t const& __cordl_internal_get__connectedInputNodeID() const;
 
-  constexpr void __set__connectedInputNodeID(int32_t value);
+  constexpr void __cordl_internal_set__connectedInputNodeID(int32_t value);
 
   /// @brief Method CopyTo, addr 0x2170b94, size 0x24, virtual false, abstract: false, final false
   inline void CopyTo(::HoudiniEngineUnity::HEU_InputHDAInfo* destInfo);
@@ -86,10 +86,10 @@ protected:
 
 public:
   /// @brief Field _pendingGO, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____pendingGO;
+  ::UnityW<::UnityEngine::GameObject> ____pendingGO;
 
   /// @brief Field _connectedGO, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____connectedGO;
+  ::UnityW<::UnityEngine::GameObject> ____connectedGO;
 
   /// @brief Field _connectedInputNodeID, offset: 0x20, size: 0x4, def value: None
   int32_t ____connectedInputNodeID;

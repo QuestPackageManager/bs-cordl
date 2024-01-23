@@ -131,7 +131,7 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14196))
 // CS Name: ::NetPacketProcessor::HashCache`1<T>*
 class CORDL_TYPE __NetPacketProcessor__HashCache_1 : public ::System::Object {
@@ -173,7 +173,7 @@ public:
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14197))
 // CS Name: ::NetPacketProcessor::SubscribeDelegate*
 class CORDL_TYPE __NetPacketProcessor__SubscribeDelegate : public ::System::MulticastDelegate {
@@ -219,38 +219,38 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14198))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass25_0`1<T>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass25_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field packetConstructor, offset 0x10, size 0x8
-  __declspec(property(get = __get_packetConstructor, put = __set_packetConstructor))::System::Func_1<T>* packetConstructor;
+  __declspec(property(get = __cordl_internal_get_packetConstructor, put = __cordl_internal_set_packetConstructor))::System::Func_1<T>* packetConstructor;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::LiteNetLib::Utils::NetPacketProcessor* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::LiteNetLib::Utils::NetPacketProcessor* __4__this;
 
   /// @brief Field onReceive, offset 0x20, size 0x8
-  __declspec(property(get = __get_onReceive, put = __set_onReceive))::System::Action_1<T>* onReceive;
+  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive))::System::Action_1<T>* onReceive;
 
-  constexpr ::System::Func_1<T>*& __get_packetConstructor();
+  constexpr ::System::Func_1<T>*& __cordl_internal_get_packetConstructor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __get_packetConstructor() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get_packetConstructor() const;
 
-  constexpr void __set_packetConstructor(::System::Func_1<T>* value);
+  constexpr void __cordl_internal_set_packetConstructor(::System::Func_1<T>* value);
 
-  constexpr ::LiteNetLib::Utils::NetPacketProcessor*& __get___4__this();
+  constexpr ::LiteNetLib::Utils::NetPacketProcessor*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value);
+  constexpr void __cordl_internal_set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value);
 
-  constexpr ::System::Action_1<T>*& __get_onReceive();
+  constexpr ::System::Action_1<T>*& __cordl_internal_get_onReceive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __get_onReceive() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get_onReceive() const;
 
-  constexpr void __set_onReceive(::System::Action_1<T>* value);
+  constexpr void __cordl_internal_set_onReceive(::System::Action_1<T>* value);
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass25_0_1<T>* New_ctor();
 
@@ -293,38 +293,38 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14199))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass26_0`2<T,TUserData>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass26_0_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field packetConstructor, offset 0x10, size 0x8
-  __declspec(property(get = __get_packetConstructor, put = __set_packetConstructor))::System::Func_1<T>* packetConstructor;
+  __declspec(property(get = __cordl_internal_get_packetConstructor, put = __cordl_internal_set_packetConstructor))::System::Func_1<T>* packetConstructor;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::LiteNetLib::Utils::NetPacketProcessor* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::LiteNetLib::Utils::NetPacketProcessor* __4__this;
 
   /// @brief Field onReceive, offset 0x20, size 0x8
-  __declspec(property(get = __get_onReceive, put = __set_onReceive))::System::Action_2<T, TUserData>* onReceive;
+  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive))::System::Action_2<T, TUserData>* onReceive;
 
-  constexpr ::System::Func_1<T>*& __get_packetConstructor();
+  constexpr ::System::Func_1<T>*& __cordl_internal_get_packetConstructor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __get_packetConstructor() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get_packetConstructor() const;
 
-  constexpr void __set_packetConstructor(::System::Func_1<T>* value);
+  constexpr void __cordl_internal_set_packetConstructor(::System::Func_1<T>* value);
 
-  constexpr ::LiteNetLib::Utils::NetPacketProcessor*& __get___4__this();
+  constexpr ::LiteNetLib::Utils::NetPacketProcessor*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value);
+  constexpr void __cordl_internal_set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value);
 
-  constexpr ::System::Action_2<T, TUserData>*& __get_onReceive();
+  constexpr ::System::Action_2<T, TUserData>*& __cordl_internal_get_onReceive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<T, TUserData>*> const& __get_onReceive() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<T, TUserData>*> const& __cordl_internal_get_onReceive() const;
 
-  constexpr void __set_onReceive(::System::Action_2<T, TUserData>* value);
+  constexpr void __cordl_internal_set_onReceive(::System::Action_2<T, TUserData>* value);
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass26_0_2<T, TUserData>* New_ctor();
 
@@ -367,38 +367,38 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14200))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass27_0`1<T>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass27_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::LiteNetLib::Utils::NetPacketProcessor* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::LiteNetLib::Utils::NetPacketProcessor* __4__this;
 
   /// @brief Field reference, offset 0x18, size 0x8
-  __declspec(property(get = __get_reference, put = __set_reference)) T reference;
+  __declspec(property(get = __cordl_internal_get_reference, put = __cordl_internal_set_reference)) T reference;
 
   /// @brief Field onReceive, offset 0x20, size 0x8
-  __declspec(property(get = __get_onReceive, put = __set_onReceive))::System::Action_1<T>* onReceive;
+  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive))::System::Action_1<T>* onReceive;
 
-  constexpr ::LiteNetLib::Utils::NetPacketProcessor*& __get___4__this();
+  constexpr ::LiteNetLib::Utils::NetPacketProcessor*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value);
+  constexpr void __cordl_internal_set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value);
 
-  constexpr T& __get_reference();
+  constexpr T& __cordl_internal_get_reference();
 
-  constexpr T const& __get_reference() const;
+  constexpr T const& __cordl_internal_get_reference() const;
 
-  constexpr void __set_reference(T value);
+  constexpr void __cordl_internal_set_reference(T value);
 
-  constexpr ::System::Action_1<T>*& __get_onReceive();
+  constexpr ::System::Action_1<T>*& __cordl_internal_get_onReceive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __get_onReceive() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get_onReceive() const;
 
-  constexpr void __set_onReceive(::System::Action_1<T>* value);
+  constexpr void __cordl_internal_set_onReceive(::System::Action_1<T>* value);
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass27_0_1<T>* New_ctor();
 
@@ -441,38 +441,38 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14201))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass28_0`2<T,TUserData>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass28_0_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::LiteNetLib::Utils::NetPacketProcessor* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::LiteNetLib::Utils::NetPacketProcessor* __4__this;
 
   /// @brief Field reference, offset 0x18, size 0x8
-  __declspec(property(get = __get_reference, put = __set_reference)) T reference;
+  __declspec(property(get = __cordl_internal_get_reference, put = __cordl_internal_set_reference)) T reference;
 
   /// @brief Field onReceive, offset 0x20, size 0x8
-  __declspec(property(get = __get_onReceive, put = __set_onReceive))::System::Action_2<T, TUserData>* onReceive;
+  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive))::System::Action_2<T, TUserData>* onReceive;
 
-  constexpr ::LiteNetLib::Utils::NetPacketProcessor*& __get___4__this();
+  constexpr ::LiteNetLib::Utils::NetPacketProcessor*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value);
+  constexpr void __cordl_internal_set___4__this(::LiteNetLib::Utils::NetPacketProcessor* value);
 
-  constexpr T& __get_reference();
+  constexpr T& __cordl_internal_get_reference();
 
-  constexpr T const& __get_reference() const;
+  constexpr T const& __cordl_internal_get_reference() const;
 
-  constexpr void __set_reference(T value);
+  constexpr void __cordl_internal_set_reference(T value);
 
-  constexpr ::System::Action_2<T, TUserData>*& __get_onReceive();
+  constexpr ::System::Action_2<T, TUserData>*& __cordl_internal_get_onReceive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<T, TUserData>*> const& __get_onReceive() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<T, TUserData>*> const& __cordl_internal_get_onReceive() const;
 
-  constexpr void __set_onReceive(::System::Action_2<T, TUserData>* value);
+  constexpr void __cordl_internal_set_onReceive(::System::Action_2<T, TUserData>* value);
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass28_0_2<T, TUserData>* New_ctor();
 
@@ -515,29 +515,29 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14202))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass29_0`2<T,TUserData>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass29_0_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field packetConstructor, offset 0x10, size 0x8
-  __declspec(property(get = __get_packetConstructor, put = __set_packetConstructor))::System::Func_1<T>* packetConstructor;
+  __declspec(property(get = __cordl_internal_get_packetConstructor, put = __cordl_internal_set_packetConstructor))::System::Func_1<T>* packetConstructor;
 
   /// @brief Field onReceive, offset 0x18, size 0x8
-  __declspec(property(get = __get_onReceive, put = __set_onReceive))::System::Action_2<T, TUserData>* onReceive;
+  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive))::System::Action_2<T, TUserData>* onReceive;
 
-  constexpr ::System::Func_1<T>*& __get_packetConstructor();
+  constexpr ::System::Func_1<T>*& __cordl_internal_get_packetConstructor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __get_packetConstructor() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get_packetConstructor() const;
 
-  constexpr void __set_packetConstructor(::System::Func_1<T>* value);
+  constexpr void __cordl_internal_set_packetConstructor(::System::Func_1<T>* value);
 
-  constexpr ::System::Action_2<T, TUserData>*& __get_onReceive();
+  constexpr ::System::Action_2<T, TUserData>*& __cordl_internal_get_onReceive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<T, TUserData>*> const& __get_onReceive() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<T, TUserData>*> const& __cordl_internal_get_onReceive() const;
 
-  constexpr void __set_onReceive(::System::Action_2<T, TUserData>* value);
+  constexpr void __cordl_internal_set_onReceive(::System::Action_2<T, TUserData>* value);
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass29_0_2<T, TUserData>* New_ctor();
 
@@ -577,29 +577,29 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14203))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass30_0`1<T>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass30_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field packetConstructor, offset 0x10, size 0x8
-  __declspec(property(get = __get_packetConstructor, put = __set_packetConstructor))::System::Func_1<T>* packetConstructor;
+  __declspec(property(get = __cordl_internal_get_packetConstructor, put = __cordl_internal_set_packetConstructor))::System::Func_1<T>* packetConstructor;
 
   /// @brief Field onReceive, offset 0x18, size 0x8
-  __declspec(property(get = __get_onReceive, put = __set_onReceive))::System::Action_1<T>* onReceive;
+  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive))::System::Action_1<T>* onReceive;
 
-  constexpr ::System::Func_1<T>*& __get_packetConstructor();
+  constexpr ::System::Func_1<T>*& __cordl_internal_get_packetConstructor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __get_packetConstructor() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<T>*> const& __cordl_internal_get_packetConstructor() const;
 
-  constexpr void __set_packetConstructor(::System::Func_1<T>* value);
+  constexpr void __cordl_internal_set_packetConstructor(::System::Func_1<T>* value);
 
-  constexpr ::System::Action_1<T>*& __get_onReceive();
+  constexpr ::System::Action_1<T>*& __cordl_internal_get_onReceive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __get_onReceive() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get_onReceive() const;
 
-  constexpr void __set_onReceive(::System::Action_1<T>* value);
+  constexpr void __cordl_internal_set_onReceive(::System::Action_1<T>* value);
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass30_0_1<T>* New_ctor();
 
@@ -639,29 +639,29 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T, typename TUserData>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14204))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass31_0`2<T,TUserData>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass31_0_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field reference, offset 0x10, size 0x8
-  __declspec(property(get = __get_reference, put = __set_reference)) T reference;
+  __declspec(property(get = __cordl_internal_get_reference, put = __cordl_internal_set_reference)) T reference;
 
   /// @brief Field onReceive, offset 0x18, size 0x8
-  __declspec(property(get = __get_onReceive, put = __set_onReceive))::System::Action_2<T, TUserData>* onReceive;
+  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive))::System::Action_2<T, TUserData>* onReceive;
 
-  constexpr T& __get_reference();
+  constexpr T& __cordl_internal_get_reference();
 
-  constexpr T const& __get_reference() const;
+  constexpr T const& __cordl_internal_get_reference() const;
 
-  constexpr void __set_reference(T value);
+  constexpr void __cordl_internal_set_reference(T value);
 
-  constexpr ::System::Action_2<T, TUserData>*& __get_onReceive();
+  constexpr ::System::Action_2<T, TUserData>*& __cordl_internal_get_onReceive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<T, TUserData>*> const& __get_onReceive() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<T, TUserData>*> const& __cordl_internal_get_onReceive() const;
 
-  constexpr void __set_onReceive(::System::Action_2<T, TUserData>* value);
+  constexpr void __cordl_internal_set_onReceive(::System::Action_2<T, TUserData>* value);
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass31_0_2<T, TUserData>* New_ctor();
 
@@ -701,29 +701,29 @@ namespace LiteNetLib::Utils {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14205))
 // CS Name: ::NetPacketProcessor::<>c__DisplayClass32_0`1<T>*
 class CORDL_TYPE __NetPacketProcessor____c__DisplayClass32_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field reference, offset 0x10, size 0x8
-  __declspec(property(get = __get_reference, put = __set_reference)) T reference;
+  __declspec(property(get = __cordl_internal_get_reference, put = __cordl_internal_set_reference)) T reference;
 
   /// @brief Field onReceive, offset 0x18, size 0x8
-  __declspec(property(get = __get_onReceive, put = __set_onReceive))::System::Action_1<T>* onReceive;
+  __declspec(property(get = __cordl_internal_get_onReceive, put = __cordl_internal_set_onReceive))::System::Action_1<T>* onReceive;
 
-  constexpr T& __get_reference();
+  constexpr T& __cordl_internal_get_reference();
 
-  constexpr T const& __get_reference() const;
+  constexpr T const& __cordl_internal_get_reference() const;
 
-  constexpr void __set_reference(T value);
+  constexpr void __cordl_internal_set_reference(T value);
 
-  constexpr ::System::Action_1<T>*& __get_onReceive();
+  constexpr ::System::Action_1<T>*& __cordl_internal_get_onReceive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __get_onReceive() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get_onReceive() const;
 
-  constexpr void __set_onReceive(::System::Action_1<T>* value);
+  constexpr void __cordl_internal_set_onReceive(::System::Action_1<T>* value);
 
   static inline ::LiteNetLib::Utils::__NetPacketProcessor____c__DisplayClass32_0_1<T>* New_ctor();
 
@@ -761,7 +761,7 @@ public:
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14206))
 // CS Name: ::LiteNetLib.Utils::NetPacketProcessor*
 class CORDL_TYPE NetPacketProcessor : public ::System::Object {
@@ -788,31 +788,33 @@ public:
   template <typename T> using HashCache_1 = ::LiteNetLib::Utils::__NetPacketProcessor__HashCache_1<T>;
 
   /// @brief Field _netSerializer, offset 0x10, size 0x8
-  __declspec(property(get = __get__netSerializer, put = __set__netSerializer))::LiteNetLib::Utils::NetSerializer* _netSerializer;
+  __declspec(property(get = __cordl_internal_get__netSerializer, put = __cordl_internal_set__netSerializer))::LiteNetLib::Utils::NetSerializer* _netSerializer;
 
   /// @brief Field _callbacks, offset 0x18, size 0x8
-  __declspec(property(get = __get__callbacks, put = __set__callbacks))::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>* _callbacks;
+  __declspec(property(get = __cordl_internal_get__callbacks,
+                      put = __cordl_internal_set__callbacks))::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>* _callbacks;
 
   /// @brief Field _netDataWriter, offset 0x20, size 0x8
-  __declspec(property(get = __get__netDataWriter, put = __set__netDataWriter))::LiteNetLib::Utils::NetDataWriter* _netDataWriter;
+  __declspec(property(get = __cordl_internal_get__netDataWriter, put = __cordl_internal_set__netDataWriter))::LiteNetLib::Utils::NetDataWriter* _netDataWriter;
 
-  constexpr ::LiteNetLib::Utils::NetSerializer*& __get__netSerializer();
+  constexpr ::LiteNetLib::Utils::NetSerializer*& __cordl_internal_get__netSerializer();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetSerializer*> const& __get__netSerializer() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetSerializer*> const& __cordl_internal_get__netSerializer() const;
 
-  constexpr void __set__netSerializer(::LiteNetLib::Utils::NetSerializer* value);
+  constexpr void __cordl_internal_set__netSerializer(::LiteNetLib::Utils::NetSerializer* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>*& __get__callbacks();
+  constexpr ::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>*& __cordl_internal_get__callbacks();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>*> const& __get__callbacks() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>*> const&
+  __cordl_internal_get__callbacks() const;
 
-  constexpr void __set__callbacks(::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>* value);
+  constexpr void __cordl_internal_set__callbacks(::System::Collections::Generic::Dictionary_2<uint64_t, ::LiteNetLib::Utils::__NetPacketProcessor__SubscribeDelegate*>* value);
 
-  constexpr ::LiteNetLib::Utils::NetDataWriter*& __get__netDataWriter();
+  constexpr ::LiteNetLib::Utils::NetDataWriter*& __cordl_internal_get__netDataWriter();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& __get__netDataWriter() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& __cordl_internal_get__netDataWriter() const;
 
-  constexpr void __set__netDataWriter(::LiteNetLib::Utils::NetDataWriter* value);
+  constexpr void __cordl_internal_set__netDataWriter(::LiteNetLib::Utils::NetDataWriter* value);
 
   static inline ::LiteNetLib::Utils::NetPacketProcessor* New_ctor();
 

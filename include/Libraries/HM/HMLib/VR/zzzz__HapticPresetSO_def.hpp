@@ -18,65 +18,66 @@ MARK_REF_PTR_T(::Libraries::HM::HMLib::VR::HapticPresetSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Libraries::HM::HMLib::VR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14442))
 // CS Name: ::Libraries.HM.HMLib.VR::HapticPresetSO*
 class CORDL_TYPE HapticPresetSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _duration, offset 0x18, size 0x4
-  __declspec(property(get = __get__duration, put = __set__duration)) float_t _duration;
+  __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
 
   /// @brief Field _strength, offset 0x1c, size 0x4
-  __declspec(property(get = __get__strength, put = __set__strength)) float_t _strength;
+  __declspec(property(get = __cordl_internal_get__strength, put = __cordl_internal_set__strength)) float_t _strength;
 
   /// @brief Field _frequency, offset 0x20, size 0x4
-  __declspec(property(get = __get__frequency, put = __set__frequency)) float_t _frequency;
+  __declspec(property(get = __cordl_internal_get__frequency, put = __cordl_internal_set__frequency)) float_t _frequency;
 
   /// @brief Field _continuous, offset 0x24, size 0x1
-  __declspec(property(get = __get__continuous, put = __set__continuous)) bool _continuous;
+  __declspec(property(get = __cordl_internal_get__continuous, put = __cordl_internal_set__continuous)) bool _continuous;
 
   /// @brief Field _useAdvancedHapticsOnSupportedPlatforms, offset 0x25, size 0x1
-  __declspec(property(get = __get__useAdvancedHapticsOnSupportedPlatforms, put = __set__useAdvancedHapticsOnSupportedPlatforms)) bool _useAdvancedHapticsOnSupportedPlatforms;
+  __declspec(property(get = __cordl_internal_get__useAdvancedHapticsOnSupportedPlatforms,
+                      put = __cordl_internal_set__useAdvancedHapticsOnSupportedPlatforms)) bool _useAdvancedHapticsOnSupportedPlatforms;
 
   /// @brief Field _ps5HapticsClip, offset 0x28, size 0x8
-  __declspec(property(get = __get__ps5HapticsClip, put = __set__ps5HapticsClip))::UnityEngine::AudioClip* _ps5HapticsClip;
+  __declspec(property(get = __cordl_internal_get__ps5HapticsClip, put = __cordl_internal_set__ps5HapticsClip))::UnityW<::UnityEngine::AudioClip> _ps5HapticsClip;
 
-  constexpr float_t& __get__duration();
+  constexpr float_t& __cordl_internal_get__duration();
 
-  constexpr float_t const& __get__duration() const;
+  constexpr float_t const& __cordl_internal_get__duration() const;
 
-  constexpr void __set__duration(float_t value);
+  constexpr void __cordl_internal_set__duration(float_t value);
 
-  constexpr float_t& __get__strength();
+  constexpr float_t& __cordl_internal_get__strength();
 
-  constexpr float_t const& __get__strength() const;
+  constexpr float_t const& __cordl_internal_get__strength() const;
 
-  constexpr void __set__strength(float_t value);
+  constexpr void __cordl_internal_set__strength(float_t value);
 
-  constexpr float_t& __get__frequency();
+  constexpr float_t& __cordl_internal_get__frequency();
 
-  constexpr float_t const& __get__frequency() const;
+  constexpr float_t const& __cordl_internal_get__frequency() const;
 
-  constexpr void __set__frequency(float_t value);
+  constexpr void __cordl_internal_set__frequency(float_t value);
 
-  constexpr bool& __get__continuous();
+  constexpr bool& __cordl_internal_get__continuous();
 
-  constexpr bool const& __get__continuous() const;
+  constexpr bool const& __cordl_internal_get__continuous() const;
 
-  constexpr void __set__continuous(bool value);
+  constexpr void __cordl_internal_set__continuous(bool value);
 
-  constexpr bool& __get__useAdvancedHapticsOnSupportedPlatforms();
+  constexpr bool& __cordl_internal_get__useAdvancedHapticsOnSupportedPlatforms();
 
-  constexpr bool const& __get__useAdvancedHapticsOnSupportedPlatforms() const;
+  constexpr bool const& __cordl_internal_get__useAdvancedHapticsOnSupportedPlatforms() const;
 
-  constexpr void __set__useAdvancedHapticsOnSupportedPlatforms(bool value);
+  constexpr void __cordl_internal_set__useAdvancedHapticsOnSupportedPlatforms(bool value);
 
-  constexpr ::UnityEngine::AudioClip*& __get__ps5HapticsClip();
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__ps5HapticsClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& __get__ps5HapticsClip() const;
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__ps5HapticsClip() const;
 
-  constexpr void __set__ps5HapticsClip(::UnityEngine::AudioClip* value);
+  constexpr void __cordl_internal_set__ps5HapticsClip(::UnityW<::UnityEngine::AudioClip> value);
 
   /// @brief Method CopyFrom, addr 0x2100fd0, size 0x3c, virtual false, abstract: false, final false
   inline void CopyFrom(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
@@ -116,7 +117,7 @@ public:
   bool ____useAdvancedHapticsOnSupportedPlatforms;
 
   /// @brief Field _ps5HapticsClip, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::AudioClip* ____ps5HapticsClip;
+  ::UnityW<::UnityEngine::AudioClip> ____ps5HapticsClip;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

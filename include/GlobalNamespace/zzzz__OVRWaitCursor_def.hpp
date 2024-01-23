@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRWaitCursor);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8188))
 // CS Name: ::OVRWaitCursor*
 class CORDL_TYPE OVRWaitCursor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field rotateSpeeds, offset 0x18, size 0xc
-  __declspec(property(get = __get_rotateSpeeds, put = __set_rotateSpeeds))::UnityEngine::Vector3 rotateSpeeds;
+  __declspec(property(get = __cordl_internal_get_rotateSpeeds, put = __cordl_internal_set_rotateSpeeds))::UnityEngine::Vector3 rotateSpeeds;
 
-  constexpr ::UnityEngine::Vector3& __get_rotateSpeeds();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rotateSpeeds();
 
-  constexpr ::UnityEngine::Vector3 const& __get_rotateSpeeds() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rotateSpeeds() const;
 
-  constexpr void __set_rotateSpeeds(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_rotateSpeeds(::UnityEngine::Vector3 value);
 
   /// @brief Method Update, addr 0x27c5afc, size 0x5c, virtual false, abstract: false, final false
   inline void Update();

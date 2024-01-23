@@ -16,47 +16,47 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Product);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13473))
 // CS Name: ::Oculus.Platform.Models::Product*
 class CORDL_TYPE Product : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Description, offset 0x10, size 0x8
-  __declspec(property(get = __get_Description, put = __set_Description))::StringW Description;
+  __declspec(property(get = __cordl_internal_get_Description, put = __cordl_internal_set_Description))::StringW Description;
 
   /// @brief Field FormattedPrice, offset 0x18, size 0x8
-  __declspec(property(get = __get_FormattedPrice, put = __set_FormattedPrice))::StringW FormattedPrice;
+  __declspec(property(get = __cordl_internal_get_FormattedPrice, put = __cordl_internal_set_FormattedPrice))::StringW FormattedPrice;
 
   /// @brief Field Name, offset 0x20, size 0x8
-  __declspec(property(get = __get_Name, put = __set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
 
   /// @brief Field Sku, offset 0x28, size 0x8
-  __declspec(property(get = __get_Sku, put = __set_Sku))::StringW Sku;
+  __declspec(property(get = __cordl_internal_get_Sku, put = __cordl_internal_set_Sku))::StringW Sku;
 
-  constexpr ::StringW& __get_Description();
+  constexpr ::StringW& __cordl_internal_get_Description();
 
-  constexpr ::StringW const& __get_Description() const;
+  constexpr ::StringW const& __cordl_internal_get_Description() const;
 
-  constexpr void __set_Description(::StringW value);
+  constexpr void __cordl_internal_set_Description(::StringW value);
 
-  constexpr ::StringW& __get_FormattedPrice();
+  constexpr ::StringW& __cordl_internal_get_FormattedPrice();
 
-  constexpr ::StringW const& __get_FormattedPrice() const;
+  constexpr ::StringW const& __cordl_internal_get_FormattedPrice() const;
 
-  constexpr void __set_FormattedPrice(::StringW value);
+  constexpr void __cordl_internal_set_FormattedPrice(::StringW value);
 
-  constexpr ::StringW& __get_Name();
+  constexpr ::StringW& __cordl_internal_get_Name();
 
-  constexpr ::StringW const& __get_Name() const;
+  constexpr ::StringW const& __cordl_internal_get_Name() const;
 
-  constexpr void __set_Name(::StringW value);
+  constexpr void __cordl_internal_set_Name(::StringW value);
 
-  constexpr ::StringW& __get_Sku();
+  constexpr ::StringW& __cordl_internal_get_Sku();
 
-  constexpr ::StringW const& __get_Sku() const;
+  constexpr ::StringW const& __cordl_internal_get_Sku() const;
 
-  constexpr void __set_Sku(::StringW value);
+  constexpr void __cordl_internal_set_Sku(::StringW value);
 
   static inline ::Oculus::Platform::Models::Product* New_ctor(void* o);
 

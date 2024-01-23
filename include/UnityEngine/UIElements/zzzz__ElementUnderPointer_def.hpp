@@ -38,70 +38,72 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ElementUnderPointer);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7156))
 // CS Name: ::UnityEngine.UIElements::ElementUnderPointer*
 class CORDL_TYPE ElementUnderPointer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_PendingTopElementUnderPointer, offset 0x10, size 0x8
-  __declspec(
-      property(get = __get_m_PendingTopElementUnderPointer,
-               put = __set_m_PendingTopElementUnderPointer))::ArrayW<::UnityEngine::UIElements::VisualElement*, ::Array<::UnityEngine::UIElements::VisualElement*>*> m_PendingTopElementUnderPointer;
+  __declspec(property(get = __cordl_internal_get_m_PendingTopElementUnderPointer,
+                      put = __cordl_internal_set_m_PendingTopElementUnderPointer))::ArrayW<::UnityEngine::UIElements::VisualElement*,
+                                                                                           ::Array<::UnityEngine::UIElements::VisualElement*>*> m_PendingTopElementUnderPointer;
 
   /// @brief Field m_TopElementUnderPointer, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_TopElementUnderPointer,
-                      put = __set_m_TopElementUnderPointer))::ArrayW<::UnityEngine::UIElements::VisualElement*, ::Array<::UnityEngine::UIElements::VisualElement*>*> m_TopElementUnderPointer;
+  __declspec(
+      property(get = __cordl_internal_get_m_TopElementUnderPointer,
+               put = __cordl_internal_set_m_TopElementUnderPointer))::ArrayW<::UnityEngine::UIElements::VisualElement*, ::Array<::UnityEngine::UIElements::VisualElement*>*> m_TopElementUnderPointer;
 
   /// @brief Field m_TriggerPointerEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_TriggerPointerEvent,
-                      put = __set_m_TriggerPointerEvent))::ArrayW<::UnityEngine::UIElements::IPointerEvent*, ::Array<::UnityEngine::UIElements::IPointerEvent*>*> m_TriggerPointerEvent;
+  __declspec(property(get = __cordl_internal_get_m_TriggerPointerEvent,
+                      put = __cordl_internal_set_m_TriggerPointerEvent))::ArrayW<::UnityEngine::UIElements::IPointerEvent*, ::Array<::UnityEngine::UIElements::IPointerEvent*>*> m_TriggerPointerEvent;
 
   /// @brief Field m_TriggerMouseEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_TriggerMouseEvent,
-                      put = __set_m_TriggerMouseEvent))::ArrayW<::UnityEngine::UIElements::IMouseEvent*, ::Array<::UnityEngine::UIElements::IMouseEvent*>*> m_TriggerMouseEvent;
+  __declspec(property(get = __cordl_internal_get_m_TriggerMouseEvent,
+                      put = __cordl_internal_set_m_TriggerMouseEvent))::ArrayW<::UnityEngine::UIElements::IMouseEvent*, ::Array<::UnityEngine::UIElements::IMouseEvent*>*> m_TriggerMouseEvent;
 
   /// @brief Field m_PickingPointerPositions, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_PickingPointerPositions, put = __set_m_PickingPointerPositions))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> m_PickingPointerPositions;
+  __declspec(property(get = __cordl_internal_get_m_PickingPointerPositions,
+                      put = __cordl_internal_set_m_PickingPointerPositions))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> m_PickingPointerPositions;
 
   /// @brief Field m_IsPickingPointerTemporaries, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_IsPickingPointerTemporaries, put = __set_m_IsPickingPointerTemporaries))::ArrayW<bool, ::Array<bool>*> m_IsPickingPointerTemporaries;
+  __declspec(property(get = __cordl_internal_get_m_IsPickingPointerTemporaries, put = __cordl_internal_set_m_IsPickingPointerTemporaries))::ArrayW<bool, ::Array<bool>*> m_IsPickingPointerTemporaries;
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::VisualElement*, ::Array<::UnityEngine::UIElements::VisualElement*>*>& __get_m_PendingTopElementUnderPointer();
+  constexpr ::ArrayW<::UnityEngine::UIElements::VisualElement*, ::Array<::UnityEngine::UIElements::VisualElement*>*>& __cordl_internal_get_m_PendingTopElementUnderPointer();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::VisualElement*, ::Array<::UnityEngine::UIElements::VisualElement*>*> const& __get_m_PendingTopElementUnderPointer() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::VisualElement*, ::Array<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_PendingTopElementUnderPointer() const;
 
-  constexpr void __set_m_PendingTopElementUnderPointer(::ArrayW<::UnityEngine::UIElements::VisualElement*, ::Array<::UnityEngine::UIElements::VisualElement*>*> value);
+  constexpr void __cordl_internal_set_m_PendingTopElementUnderPointer(::ArrayW<::UnityEngine::UIElements::VisualElement*, ::Array<::UnityEngine::UIElements::VisualElement*>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::VisualElement*, ::Array<::UnityEngine::UIElements::VisualElement*>*>& __get_m_TopElementUnderPointer();
+  constexpr ::ArrayW<::UnityEngine::UIElements::VisualElement*, ::Array<::UnityEngine::UIElements::VisualElement*>*>& __cordl_internal_get_m_TopElementUnderPointer();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::VisualElement*, ::Array<::UnityEngine::UIElements::VisualElement*>*> const& __get_m_TopElementUnderPointer() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::VisualElement*, ::Array<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_TopElementUnderPointer() const;
 
-  constexpr void __set_m_TopElementUnderPointer(::ArrayW<::UnityEngine::UIElements::VisualElement*, ::Array<::UnityEngine::UIElements::VisualElement*>*> value);
+  constexpr void __cordl_internal_set_m_TopElementUnderPointer(::ArrayW<::UnityEngine::UIElements::VisualElement*, ::Array<::UnityEngine::UIElements::VisualElement*>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::IPointerEvent*, ::Array<::UnityEngine::UIElements::IPointerEvent*>*>& __get_m_TriggerPointerEvent();
+  constexpr ::ArrayW<::UnityEngine::UIElements::IPointerEvent*, ::Array<::UnityEngine::UIElements::IPointerEvent*>*>& __cordl_internal_get_m_TriggerPointerEvent();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::IPointerEvent*, ::Array<::UnityEngine::UIElements::IPointerEvent*>*> const& __get_m_TriggerPointerEvent() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::IPointerEvent*, ::Array<::UnityEngine::UIElements::IPointerEvent*>*> const& __cordl_internal_get_m_TriggerPointerEvent() const;
 
-  constexpr void __set_m_TriggerPointerEvent(::ArrayW<::UnityEngine::UIElements::IPointerEvent*, ::Array<::UnityEngine::UIElements::IPointerEvent*>*> value);
+  constexpr void __cordl_internal_set_m_TriggerPointerEvent(::ArrayW<::UnityEngine::UIElements::IPointerEvent*, ::Array<::UnityEngine::UIElements::IPointerEvent*>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::IMouseEvent*, ::Array<::UnityEngine::UIElements::IMouseEvent*>*>& __get_m_TriggerMouseEvent();
+  constexpr ::ArrayW<::UnityEngine::UIElements::IMouseEvent*, ::Array<::UnityEngine::UIElements::IMouseEvent*>*>& __cordl_internal_get_m_TriggerMouseEvent();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::IMouseEvent*, ::Array<::UnityEngine::UIElements::IMouseEvent*>*> const& __get_m_TriggerMouseEvent() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::IMouseEvent*, ::Array<::UnityEngine::UIElements::IMouseEvent*>*> const& __cordl_internal_get_m_TriggerMouseEvent() const;
 
-  constexpr void __set_m_TriggerMouseEvent(::ArrayW<::UnityEngine::UIElements::IMouseEvent*, ::Array<::UnityEngine::UIElements::IMouseEvent*>*> value);
+  constexpr void __cordl_internal_set_m_TriggerMouseEvent(::ArrayW<::UnityEngine::UIElements::IMouseEvent*, ::Array<::UnityEngine::UIElements::IMouseEvent*>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __get_m_PickingPointerPositions();
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __cordl_internal_get_m_PickingPointerPositions();
 
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __get_m_PickingPointerPositions() const;
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __cordl_internal_get_m_PickingPointerPositions() const;
 
-  constexpr void __set_m_PickingPointerPositions(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
+  constexpr void __cordl_internal_set_m_PickingPointerPositions(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get_m_IsPickingPointerTemporaries();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get_m_IsPickingPointerTemporaries();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get_m_IsPickingPointerTemporaries() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_m_IsPickingPointerTemporaries() const;
 
-  constexpr void __set_m_IsPickingPointerTemporaries(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set_m_IsPickingPointerTemporaries(::ArrayW<bool, ::Array<bool>*> value);
 
   /// @brief Method GetTopElementUnderPointer, addr 0x2e47f3c, size 0x74, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* GetTopElementUnderPointer(int32_t pointerId, ByRef<::UnityEngine::Vector2> pickPosition, ByRef<bool> isTemporary);

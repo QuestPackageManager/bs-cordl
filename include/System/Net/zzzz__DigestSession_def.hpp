@@ -41,26 +41,26 @@ MARK_REF_PTR_T(::System::Net::DigestSession);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9160))
 // CS Name: ::System.Net::DigestSession*
 class CORDL_TYPE DigestSession : public ::System::Object {
 public:
   // Declarations
   /// @brief Field lastUse, offset 0x10, size 0x8
-  __declspec(property(get = __get_lastUse, put = __set_lastUse))::System::DateTime lastUse;
+  __declspec(property(get = __cordl_internal_get_lastUse, put = __cordl_internal_set_lastUse))::System::DateTime lastUse;
 
   /// @brief Field _nc, offset 0x18, size 0x4
-  __declspec(property(get = __get__nc, put = __set__nc)) int32_t _nc;
+  __declspec(property(get = __cordl_internal_get__nc, put = __cordl_internal_set__nc)) int32_t _nc;
 
   /// @brief Field hash, offset 0x20, size 0x8
-  __declspec(property(get = __get_hash, put = __set_hash))::System::Security::Cryptography::HashAlgorithm* hash;
+  __declspec(property(get = __cordl_internal_get_hash, put = __cordl_internal_set_hash))::System::Security::Cryptography::HashAlgorithm* hash;
 
   /// @brief Field parser, offset 0x28, size 0x8
-  __declspec(property(get = __get_parser, put = __set_parser))::System::Net::DigestHeaderParser* parser;
+  __declspec(property(get = __cordl_internal_get_parser, put = __cordl_internal_set_parser))::System::Net::DigestHeaderParser* parser;
 
   /// @brief Field _cnonce, offset 0x30, size 0x8
-  __declspec(property(get = __get__cnonce, put = __set__cnonce))::StringW _cnonce;
+  __declspec(property(get = __cordl_internal_get__cnonce, put = __cordl_internal_set__cnonce))::StringW _cnonce;
 
   /// @brief Field rng, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_rng, put = setStaticF_rng))::System::Security::Cryptography::RandomNumberGenerator* rng;
@@ -79,35 +79,35 @@ public:
 
   __declspec(property(get = get_LastUse))::System::DateTime LastUse;
 
-  constexpr ::System::DateTime& __get_lastUse();
+  constexpr ::System::DateTime& __cordl_internal_get_lastUse();
 
-  constexpr ::System::DateTime const& __get_lastUse() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_lastUse() const;
 
-  constexpr void __set_lastUse(::System::DateTime value);
+  constexpr void __cordl_internal_set_lastUse(::System::DateTime value);
 
-  constexpr int32_t& __get__nc();
+  constexpr int32_t& __cordl_internal_get__nc();
 
-  constexpr int32_t const& __get__nc() const;
+  constexpr int32_t const& __cordl_internal_get__nc() const;
 
-  constexpr void __set__nc(int32_t value);
+  constexpr void __cordl_internal_set__nc(int32_t value);
 
-  constexpr ::System::Security::Cryptography::HashAlgorithm*& __get_hash();
+  constexpr ::System::Security::Cryptography::HashAlgorithm*& __cordl_internal_get_hash();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::HashAlgorithm*> const& __get_hash() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::HashAlgorithm*> const& __cordl_internal_get_hash() const;
 
-  constexpr void __set_hash(::System::Security::Cryptography::HashAlgorithm* value);
+  constexpr void __cordl_internal_set_hash(::System::Security::Cryptography::HashAlgorithm* value);
 
-  constexpr ::System::Net::DigestHeaderParser*& __get_parser();
+  constexpr ::System::Net::DigestHeaderParser*& __cordl_internal_get_parser();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::DigestHeaderParser*> const& __get_parser() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::DigestHeaderParser*> const& __cordl_internal_get_parser() const;
 
-  constexpr void __set_parser(::System::Net::DigestHeaderParser* value);
+  constexpr void __cordl_internal_set_parser(::System::Net::DigestHeaderParser* value);
 
-  constexpr ::StringW& __get__cnonce();
+  constexpr ::StringW& __cordl_internal_get__cnonce();
 
-  constexpr ::StringW const& __get__cnonce() const;
+  constexpr ::StringW const& __cordl_internal_get__cnonce() const;
 
-  constexpr void __set__cnonce(::StringW value);
+  constexpr void __cordl_internal_set__cnonce(::StringW value);
 
   static inline void setStaticF_rng(::System::Security::Cryptography::RandomNumberGenerator* value);
 

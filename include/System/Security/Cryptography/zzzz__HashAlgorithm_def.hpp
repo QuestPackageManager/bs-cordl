@@ -23,23 +23,23 @@ MARK_REF_PTR_T(::System::Security::Cryptography::HashAlgorithm);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2916))
 // CS Name: ::System.Security.Cryptography::HashAlgorithm*
 class CORDL_TYPE HashAlgorithm : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _disposed, offset 0x10, size 0x1
-  __declspec(property(get = __get__disposed, put = __set__disposed)) bool _disposed;
+  __declspec(property(get = __cordl_internal_get__disposed, put = __cordl_internal_set__disposed)) bool _disposed;
 
   /// @brief Field HashSizeValue, offset 0x14, size 0x4
-  __declspec(property(get = __get_HashSizeValue, put = __set_HashSizeValue)) int32_t HashSizeValue;
+  __declspec(property(get = __cordl_internal_get_HashSizeValue, put = __cordl_internal_set_HashSizeValue)) int32_t HashSizeValue;
 
   /// @brief Field HashValue, offset 0x18, size 0x8
-  __declspec(property(get = __get_HashValue, put = __set_HashValue))::ArrayW<uint8_t, ::Array<uint8_t>*> HashValue;
+  __declspec(property(get = __cordl_internal_get_HashValue, put = __cordl_internal_set_HashValue))::ArrayW<uint8_t, ::Array<uint8_t>*> HashValue;
 
   /// @brief Field State, offset 0x20, size 0x4
-  __declspec(property(get = __get_State, put = __set_State)) int32_t State;
+  __declspec(property(get = __cordl_internal_get_State, put = __cordl_internal_set_State)) int32_t State;
 
   __declspec(property(get = get_HashSize)) int32_t HashSize;
 
@@ -63,29 +63,29 @@ public:
   /// @brief Convert to "::System::Security::Cryptography::ICryptoTransform"
   constexpr ::System::Security::Cryptography::ICryptoTransform* i___System__Security__Cryptography__ICryptoTransform() noexcept;
 
-  constexpr bool& __get__disposed();
+  constexpr bool& __cordl_internal_get__disposed();
 
-  constexpr bool const& __get__disposed() const;
+  constexpr bool const& __cordl_internal_get__disposed() const;
 
-  constexpr void __set__disposed(bool value);
+  constexpr void __cordl_internal_set__disposed(bool value);
 
-  constexpr int32_t& __get_HashSizeValue();
+  constexpr int32_t& __cordl_internal_get_HashSizeValue();
 
-  constexpr int32_t const& __get_HashSizeValue() const;
+  constexpr int32_t const& __cordl_internal_get_HashSizeValue() const;
 
-  constexpr void __set_HashSizeValue(int32_t value);
+  constexpr void __cordl_internal_set_HashSizeValue(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_HashValue();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_HashValue();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_HashValue() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_HashValue() const;
 
-  constexpr void __set_HashValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_HashValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_State();
+  constexpr int32_t& __cordl_internal_get_State();
 
-  constexpr int32_t const& __get_State() const;
+  constexpr int32_t const& __cordl_internal_get_State() const;
 
-  constexpr void __set_State(int32_t value);
+  constexpr void __cordl_internal_set_State(int32_t value);
 
   static inline ::System::Security::Cryptography::HashAlgorithm* New_ctor();
 

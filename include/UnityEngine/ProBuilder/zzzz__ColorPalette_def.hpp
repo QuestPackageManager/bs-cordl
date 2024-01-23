@@ -31,17 +31,17 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ColorPalette);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12112))
 // CS Name: ::UnityEngine.ProBuilder::ColorPalette*
 class CORDL_TYPE ColorPalette : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field <current>k__BackingField, offset 0x18, size 0x10
-  __declspec(property(get = __get__current_k__BackingField, put = __set__current_k__BackingField))::UnityEngine::Color _current_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__current_k__BackingField, put = __cordl_internal_set__current_k__BackingField))::UnityEngine::Color _current_k__BackingField;
 
   /// @brief Field m_Colors, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Colors, put = __set_m_Colors))::System::Collections::Generic::List_1<::UnityEngine::Color>* m_Colors;
+  __declspec(property(get = __cordl_internal_get_m_Colors, put = __cordl_internal_set_m_Colors))::System::Collections::Generic::List_1<::UnityEngine::Color>* m_Colors;
 
   __declspec(property(get = get_current, put = set_current))::UnityEngine::Color current;
 
@@ -57,17 +57,17 @@ public:
   /// @brief Convert to "::UnityEngine::ProBuilder::IHasDefault"
   constexpr ::UnityEngine::ProBuilder::IHasDefault* i___UnityEngine__ProBuilder__IHasDefault() noexcept;
 
-  constexpr ::UnityEngine::Color& __get__current_k__BackingField();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__current_k__BackingField();
 
-  constexpr ::UnityEngine::Color const& __get__current_k__BackingField() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__current_k__BackingField() const;
 
-  constexpr void __set__current_k__BackingField(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__current_k__BackingField(::UnityEngine::Color value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>*& __get_m_Colors();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>*& __cordl_internal_get_m_Colors();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Color>*> const& __get_m_Colors() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Color>*> const& __cordl_internal_get_m_Colors() const;
 
-  constexpr void __set_m_Colors(::System::Collections::Generic::List_1<::UnityEngine::Color>* value);
+  constexpr void __cordl_internal_set_m_Colors(::System::Collections::Generic::List_1<::UnityEngine::Color>* value);
 
   /// @brief Method get_current, addr 0x2b3c7f0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_current();

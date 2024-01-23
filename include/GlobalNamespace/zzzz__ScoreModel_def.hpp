@@ -48,69 +48,69 @@ MARK_REF_PTR_T(::GlobalNamespace::__ScoreModel__NoteScoreDefinition);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4680))
 // CS Name: ::ScoreModel::NoteScoreDefinition*
 class CORDL_TYPE __ScoreModel__NoteScoreDefinition : public ::System::Object {
 public:
   // Declarations
   /// @brief Field maxCenterDistanceCutScore, offset 0x10, size 0x4
-  __declspec(property(get = __get_maxCenterDistanceCutScore, put = __set_maxCenterDistanceCutScore)) int32_t maxCenterDistanceCutScore;
+  __declspec(property(get = __cordl_internal_get_maxCenterDistanceCutScore, put = __cordl_internal_set_maxCenterDistanceCutScore)) int32_t maxCenterDistanceCutScore;
 
   /// @brief Field minBeforeCutScore, offset 0x14, size 0x4
-  __declspec(property(get = __get_minBeforeCutScore, put = __set_minBeforeCutScore)) int32_t minBeforeCutScore;
+  __declspec(property(get = __cordl_internal_get_minBeforeCutScore, put = __cordl_internal_set_minBeforeCutScore)) int32_t minBeforeCutScore;
 
   /// @brief Field maxBeforeCutScore, offset 0x18, size 0x4
-  __declspec(property(get = __get_maxBeforeCutScore, put = __set_maxBeforeCutScore)) int32_t maxBeforeCutScore;
+  __declspec(property(get = __cordl_internal_get_maxBeforeCutScore, put = __cordl_internal_set_maxBeforeCutScore)) int32_t maxBeforeCutScore;
 
   /// @brief Field minAfterCutScore, offset 0x1c, size 0x4
-  __declspec(property(get = __get_minAfterCutScore, put = __set_minAfterCutScore)) int32_t minAfterCutScore;
+  __declspec(property(get = __cordl_internal_get_minAfterCutScore, put = __cordl_internal_set_minAfterCutScore)) int32_t minAfterCutScore;
 
   /// @brief Field maxAfterCutScore, offset 0x20, size 0x4
-  __declspec(property(get = __get_maxAfterCutScore, put = __set_maxAfterCutScore)) int32_t maxAfterCutScore;
+  __declspec(property(get = __cordl_internal_get_maxAfterCutScore, put = __cordl_internal_set_maxAfterCutScore)) int32_t maxAfterCutScore;
 
   /// @brief Field fixedCutScore, offset 0x24, size 0x4
-  __declspec(property(get = __get_fixedCutScore, put = __set_fixedCutScore)) int32_t fixedCutScore;
+  __declspec(property(get = __cordl_internal_get_fixedCutScore, put = __cordl_internal_set_fixedCutScore)) int32_t fixedCutScore;
 
   __declspec(property(get = get_maxCutScore)) int32_t maxCutScore;
 
   __declspec(property(get = get_executionOrder)) int32_t executionOrder;
 
-  constexpr int32_t& __get_maxCenterDistanceCutScore();
+  constexpr int32_t& __cordl_internal_get_maxCenterDistanceCutScore();
 
-  constexpr int32_t const& __get_maxCenterDistanceCutScore() const;
+  constexpr int32_t const& __cordl_internal_get_maxCenterDistanceCutScore() const;
 
-  constexpr void __set_maxCenterDistanceCutScore(int32_t value);
+  constexpr void __cordl_internal_set_maxCenterDistanceCutScore(int32_t value);
 
-  constexpr int32_t& __get_minBeforeCutScore();
+  constexpr int32_t& __cordl_internal_get_minBeforeCutScore();
 
-  constexpr int32_t const& __get_minBeforeCutScore() const;
+  constexpr int32_t const& __cordl_internal_get_minBeforeCutScore() const;
 
-  constexpr void __set_minBeforeCutScore(int32_t value);
+  constexpr void __cordl_internal_set_minBeforeCutScore(int32_t value);
 
-  constexpr int32_t& __get_maxBeforeCutScore();
+  constexpr int32_t& __cordl_internal_get_maxBeforeCutScore();
 
-  constexpr int32_t const& __get_maxBeforeCutScore() const;
+  constexpr int32_t const& __cordl_internal_get_maxBeforeCutScore() const;
 
-  constexpr void __set_maxBeforeCutScore(int32_t value);
+  constexpr void __cordl_internal_set_maxBeforeCutScore(int32_t value);
 
-  constexpr int32_t& __get_minAfterCutScore();
+  constexpr int32_t& __cordl_internal_get_minAfterCutScore();
 
-  constexpr int32_t const& __get_minAfterCutScore() const;
+  constexpr int32_t const& __cordl_internal_get_minAfterCutScore() const;
 
-  constexpr void __set_minAfterCutScore(int32_t value);
+  constexpr void __cordl_internal_set_minAfterCutScore(int32_t value);
 
-  constexpr int32_t& __get_maxAfterCutScore();
+  constexpr int32_t& __cordl_internal_get_maxAfterCutScore();
 
-  constexpr int32_t const& __get_maxAfterCutScore() const;
+  constexpr int32_t const& __cordl_internal_get_maxAfterCutScore() const;
 
-  constexpr void __set_maxAfterCutScore(int32_t value);
+  constexpr void __cordl_internal_set_maxAfterCutScore(int32_t value);
 
-  constexpr int32_t& __get_fixedCutScore();
+  constexpr int32_t& __cordl_internal_get_fixedCutScore();
 
-  constexpr int32_t const& __get_fixedCutScore() const;
+  constexpr int32_t const& __cordl_internal_get_fixedCutScore() const;
 
-  constexpr void __set_fixedCutScore(int32_t value);
+  constexpr void __cordl_internal_set_fixedCutScore(int32_t value);
 
   /// @brief Method get_maxCutScore, addr 0x2375d98, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_maxCutScore();
@@ -178,17 +178,17 @@ static_assert(offsetof(::GlobalNamespace::__ScoreModel__NoteScoreDefinition, ___
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4681))
 // CS Name: ::ScoreModel::MaxScoreCounterElement*
 class CORDL_TYPE __ScoreModel__MaxScoreCounterElement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field noteScoreDefinition, offset 0x10, size 0x8
-  __declspec(property(get = __get_noteScoreDefinition, put = __set_noteScoreDefinition))::GlobalNamespace::__ScoreModel__NoteScoreDefinition* noteScoreDefinition;
+  __declspec(property(get = __cordl_internal_get_noteScoreDefinition, put = __cordl_internal_set_noteScoreDefinition))::GlobalNamespace::__ScoreModel__NoteScoreDefinition* noteScoreDefinition;
 
   /// @brief Field time, offset 0x18, size 0x4
-  __declspec(property(get = __get_time, put = __set_time)) float_t time;
+  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) float_t time;
 
   /// @brief Convert operator to "::System::IComparable_1<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>"
   constexpr operator ::System::IComparable_1<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>*() noexcept;
@@ -196,17 +196,17 @@ public:
   /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>"
   constexpr ::System::IComparable_1<::GlobalNamespace::__ScoreModel__MaxScoreCounterElement*>* i___System__IComparable_1___GlobalNamespace____ScoreModel__MaxScoreCounterElement__() noexcept;
 
-  constexpr ::GlobalNamespace::__ScoreModel__NoteScoreDefinition*& __get_noteScoreDefinition();
+  constexpr ::GlobalNamespace::__ScoreModel__NoteScoreDefinition*& __cordl_internal_get_noteScoreDefinition();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*> const& __get_noteScoreDefinition() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__ScoreModel__NoteScoreDefinition*> const& __cordl_internal_get_noteScoreDefinition() const;
 
-  constexpr void __set_noteScoreDefinition(::GlobalNamespace::__ScoreModel__NoteScoreDefinition* value);
+  constexpr void __cordl_internal_set_noteScoreDefinition(::GlobalNamespace::__ScoreModel__NoteScoreDefinition* value);
 
-  constexpr float_t& __get_time();
+  constexpr float_t& __cordl_internal_get_time();
 
-  constexpr float_t const& __get_time() const;
+  constexpr float_t const& __cordl_internal_get_time() const;
 
-  constexpr void __set_time(float_t value);
+  constexpr void __cordl_internal_set_time(float_t value);
 
   static inline ::GlobalNamespace::__ScoreModel__MaxScoreCounterElement* New_ctor(::GlobalNamespace::__NoteData__ScoringType scoringType, float_t time);
 
@@ -250,7 +250,7 @@ static_assert(offsetof(::GlobalNamespace::__ScoreModel__MaxScoreCounterElement, 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4682))
 // CS Name: ::ScoreModel*
 class CORDL_TYPE ScoreModel : public ::System::Object {

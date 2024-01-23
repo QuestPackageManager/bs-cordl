@@ -61,47 +61,47 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(607))
 // CS Name: ::Org.BouncyCastle.Cmp::ProtectedPkiMessageBuilder*
 class CORDL_TYPE ProtectedPkiMessageBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field hdrBuilBuilder, offset 0x10, size 0x8
-  __declspec(property(get = __get_hdrBuilBuilder, put = __set_hdrBuilBuilder))::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* hdrBuilBuilder;
+  __declspec(property(get = __cordl_internal_get_hdrBuilBuilder, put = __cordl_internal_set_hdrBuilBuilder))::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* hdrBuilBuilder;
 
   /// @brief Field body, offset 0x18, size 0x8
-  __declspec(property(get = __get_body, put = __set_body))::Org::BouncyCastle::Asn1::Cmp::PkiBody* body;
+  __declspec(property(get = __cordl_internal_get_body, put = __cordl_internal_set_body))::Org::BouncyCastle::Asn1::Cmp::PkiBody* body;
 
   /// @brief Field generalInfos, offset 0x20, size 0x8
-  __declspec(property(get = __get_generalInfos, put = __set_generalInfos))::System::Collections::IList* generalInfos;
+  __declspec(property(get = __cordl_internal_get_generalInfos, put = __cordl_internal_set_generalInfos))::System::Collections::IList* generalInfos;
 
   /// @brief Field extraCerts, offset 0x28, size 0x8
-  __declspec(property(get = __get_extraCerts, put = __set_extraCerts))::System::Collections::IList* extraCerts;
+  __declspec(property(get = __cordl_internal_get_extraCerts, put = __cordl_internal_set_extraCerts))::System::Collections::IList* extraCerts;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder*& __get_hdrBuilBuilder();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder*& __cordl_internal_get_hdrBuilBuilder();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder*> const& __get_hdrBuilBuilder() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder*> const& __cordl_internal_get_hdrBuilBuilder() const;
 
-  constexpr void __set_hdrBuilBuilder(::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* value);
+  constexpr void __cordl_internal_set_hdrBuilBuilder(::Org::BouncyCastle::Asn1::Cmp::PkiHeaderBuilder* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiBody*& __get_body();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiBody*& __cordl_internal_get_body();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiBody*> const& __get_body() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiBody*> const& __cordl_internal_get_body() const;
 
-  constexpr void __set_body(::Org::BouncyCastle::Asn1::Cmp::PkiBody* value);
+  constexpr void __cordl_internal_set_body(::Org::BouncyCastle::Asn1::Cmp::PkiBody* value);
 
-  constexpr ::System::Collections::IList*& __get_generalInfos();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_generalInfos();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_generalInfos() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_generalInfos() const;
 
-  constexpr void __set_generalInfos(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_generalInfos(::System::Collections::IList* value);
 
-  constexpr ::System::Collections::IList*& __get_extraCerts();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_extraCerts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_extraCerts() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_extraCerts() const;
 
-  constexpr void __set_extraCerts(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_extraCerts(::System::Collections::IList* value);
 
   static inline ::Org::BouncyCastle::Cmp::ProtectedPkiMessageBuilder* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* sender, ::Org::BouncyCastle::Asn1::X509::GeneralName* recipient);
 

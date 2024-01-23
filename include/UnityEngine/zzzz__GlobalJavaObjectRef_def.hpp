@@ -16,29 +16,29 @@ MARK_REF_PTR_T(::UnityEngine::GlobalJavaObjectRef);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14910))
 // CS Name: ::UnityEngine::GlobalJavaObjectRef*
 class CORDL_TYPE GlobalJavaObjectRef : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_disposed, offset 0x10, size 0x1
-  __declspec(property(get = __get_m_disposed, put = __set_m_disposed)) bool m_disposed;
+  __declspec(property(get = __cordl_internal_get_m_disposed, put = __cordl_internal_set_m_disposed)) bool m_disposed;
 
   /// @brief Field m_jobject, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_jobject, put = __set_m_jobject)) void* m_jobject;
+  __declspec(property(get = __cordl_internal_get_m_jobject, put = __cordl_internal_set_m_jobject)) void* m_jobject;
 
-  constexpr bool& __get_m_disposed();
+  constexpr bool& __cordl_internal_get_m_disposed();
 
-  constexpr bool const& __get_m_disposed() const;
+  constexpr bool const& __cordl_internal_get_m_disposed() const;
 
-  constexpr void __set_m_disposed(bool value);
+  constexpr void __cordl_internal_set_m_disposed(bool value);
 
-  constexpr void*& __get_m_jobject();
+  constexpr void*& __cordl_internal_get_m_jobject();
 
-  constexpr void* const& __get_m_jobject() const;
+  constexpr void* const& __cordl_internal_get_m_jobject() const;
 
-  constexpr void __set_m_jobject(void* value);
+  constexpr void __cordl_internal_set_m_jobject(void* value);
 
   static inline ::UnityEngine::GlobalJavaObjectRef* New_ctor(void* jobject);
 

@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__VectorImageRenderInfoPool____c)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7417))
 // CS Name: ::VectorImageRenderInfoPool::<>c*
 class CORDL_TYPE __VectorImageRenderInfoPool____c : public ::System::Object {
@@ -94,8 +94,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7400), inst: 413 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7419))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7418)) CS Name: ::UnityEngine.UIElements.UIR::VectorImageRenderInfoPool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7400)), TypeDefinitionIndex(TypeDefinitionIndex(7419)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7400), inst: 413
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7418)) CS Name: ::UnityEngine.UIElements.UIR::VectorImageRenderInfoPool*
 class CORDL_TYPE VectorImageRenderInfoPool : public ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::VectorImageRenderInfo*> {
 public:
   // Declarations

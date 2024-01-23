@@ -1,21 +1,21 @@
 #pragma once
 #include "System/Collections/Concurrent/zzzz__PaddedHeadAndTail_def.hpp"
-constexpr int32_t& System::Collections::Concurrent::PaddedHeadAndTail::__get_Head() {
+constexpr int32_t& System::Collections::Concurrent::PaddedHeadAndTail::__cordl_internal_get_Head() {
   return this->___Head;
 }
-constexpr int32_t const& System::Collections::Concurrent::PaddedHeadAndTail::__get_Head() const {
+constexpr int32_t const& System::Collections::Concurrent::PaddedHeadAndTail::__cordl_internal_get_Head() const {
   return this->___Head;
 }
-constexpr void System::Collections::Concurrent::PaddedHeadAndTail::__set_Head(int32_t value) {
+constexpr void System::Collections::Concurrent::PaddedHeadAndTail::__cordl_internal_set_Head(int32_t value) {
   this->___Head = value;
 }
-constexpr int32_t& System::Collections::Concurrent::PaddedHeadAndTail::__get_Tail() {
+constexpr int32_t& System::Collections::Concurrent::PaddedHeadAndTail::__cordl_internal_get_Tail() {
   return this->___Tail;
 }
-constexpr int32_t const& System::Collections::Concurrent::PaddedHeadAndTail::__get_Tail() const {
+constexpr int32_t const& System::Collections::Concurrent::PaddedHeadAndTail::__cordl_internal_get_Tail() const {
   return this->___Tail;
 }
-constexpr void System::Collections::Concurrent::PaddedHeadAndTail::__set_Tail(int32_t value) {
+constexpr void System::Collections::Concurrent::PaddedHeadAndTail::__cordl_internal_set_Tail(int32_t value) {
   this->___Tail = value;
 }
 // Ctor Parameters [CppParam { name: "Head", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Tail", ty: "int32_t", modifiers: "", def_value: Some("{}") }]

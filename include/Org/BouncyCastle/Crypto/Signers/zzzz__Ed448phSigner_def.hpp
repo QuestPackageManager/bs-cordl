@@ -32,26 +32,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::Ed448phSigner);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1136))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::Ed448phSigner*
 class CORDL_TYPE Ed448phSigner : public ::System::Object {
 public:
   // Declarations
   /// @brief Field prehash, offset 0x10, size 0x8
-  __declspec(property(get = __get_prehash, put = __set_prehash))::Org::BouncyCastle::Crypto::IXof* prehash;
+  __declspec(property(get = __cordl_internal_get_prehash, put = __cordl_internal_set_prehash))::Org::BouncyCastle::Crypto::IXof* prehash;
 
   /// @brief Field context, offset 0x18, size 0x8
-  __declspec(property(get = __get_context, put = __set_context))::ArrayW<uint8_t, ::Array<uint8_t>*> context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::ArrayW<uint8_t, ::Array<uint8_t>*> context;
 
   /// @brief Field forSigning, offset 0x20, size 0x1
-  __declspec(property(get = __get_forSigning, put = __set_forSigning)) bool forSigning;
+  __declspec(property(get = __cordl_internal_get_forSigning, put = __cordl_internal_set_forSigning)) bool forSigning;
 
   /// @brief Field privateKey, offset 0x28, size 0x8
-  __declspec(property(get = __get_privateKey, put = __set_privateKey))::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* privateKey;
+  __declspec(property(get = __cordl_internal_get_privateKey, put = __cordl_internal_set_privateKey))::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* privateKey;
 
   /// @brief Field publicKey, offset 0x30, size 0x8
-  __declspec(property(get = __get_publicKey, put = __set_publicKey))::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* publicKey;
+  __declspec(property(get = __cordl_internal_get_publicKey, put = __cordl_internal_set_publicKey))::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* publicKey;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -61,35 +61,35 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IXof*& __get_prehash();
+  constexpr ::Org::BouncyCastle::Crypto::IXof*& __cordl_internal_get_prehash();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IXof*> const& __get_prehash() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IXof*> const& __cordl_internal_get_prehash() const;
 
-  constexpr void __set_prehash(::Org::BouncyCastle::Crypto::IXof* value);
+  constexpr void __cordl_internal_set_prehash(::Org::BouncyCastle::Crypto::IXof* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_context();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_context();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_context() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_context() const;
 
-  constexpr void __set_context(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_context(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get_forSigning();
+  constexpr bool& __cordl_internal_get_forSigning();
 
-  constexpr bool const& __get_forSigning() const;
+  constexpr bool const& __cordl_internal_get_forSigning() const;
 
-  constexpr void __set_forSigning(bool value);
+  constexpr void __cordl_internal_set_forSigning(bool value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters*& __get_privateKey();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters*& __cordl_internal_get_privateKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters*> const& __get_privateKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters*> const& __cordl_internal_get_privateKey() const;
 
-  constexpr void __set_privateKey(::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* value);
+  constexpr void __cordl_internal_set_privateKey(::Org::BouncyCastle::Crypto::Parameters::Ed448PrivateKeyParameters* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters*& __get_publicKey();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters*& __cordl_internal_get_publicKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters*> const& __get_publicKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters*> const& __cordl_internal_get_publicKey() const;
 
-  constexpr void __set_publicKey(::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* value);
+  constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::Parameters::Ed448PublicKeyParameters* value);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::Ed448phSigner* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> context);
 

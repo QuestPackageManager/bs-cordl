@@ -22,7 +22,7 @@ MARK_VAL_T(::BeatSaber::AvatarCore::AvatarSystemIdentifier);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15183))
 // CS Name: ::BeatSaber.AvatarCore::AvatarSystemIdentifier
 struct CORDL_TYPE AvatarSystemIdentifier {

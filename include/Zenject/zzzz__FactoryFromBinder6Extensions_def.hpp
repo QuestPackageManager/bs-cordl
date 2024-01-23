@@ -87,20 +87,20 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10775))
 // CS Name: ::FactoryFromBinder6Extensions::<>c__DisplayClass0_0`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract>*
 class CORDL_TYPE __FactoryFromBinder6Extensions____c__DisplayClass0_0_7 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field factoryId, offset 0x10, size 0x10
-  __declspec(property(get = __get_factoryId, put = __set_factoryId))::System::Guid factoryId;
+  __declspec(property(get = __cordl_internal_get_factoryId, put = __cordl_internal_set_factoryId))::System::Guid factoryId;
 
-  constexpr ::System::Guid& __get_factoryId();
+  constexpr ::System::Guid& __cordl_internal_get_factoryId();
 
-  constexpr ::System::Guid const& __get_factoryId() const;
+  constexpr ::System::Guid const& __cordl_internal_get_factoryId() const;
 
-  constexpr void __set_factoryId(::System::Guid value);
+  constexpr void __cordl_internal_set_factoryId(::System::Guid value);
 
   static inline ::Zenject::__FactoryFromBinder6Extensions____c__DisplayClass0_0_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* New_ctor();
 
@@ -143,7 +143,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10776))
 // CS Name: ::FactoryFromBinder6Extensions::<>c__1`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract>*
 class CORDL_TYPE __FactoryFromBinder6Extensions____c__1_7 : public ::System::Object {
@@ -201,7 +201,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10777))
 // CS Name: ::FactoryFromBinder6Extensions::<>c__3`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract>*
 class CORDL_TYPE __FactoryFromBinder6Extensions____c__3_7 : public ::System::Object {
@@ -259,7 +259,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10778))
 // CS Name: ::FactoryFromBinder6Extensions::<>c__5`8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract,TMemoryPool>*
 class CORDL_TYPE __FactoryFromBinder6Extensions____c__5_8 : public ::System::Object {
@@ -318,20 +318,20 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TMemoryPool>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2406))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10779))
 // CS Name: ::FactoryFromBinder6Extensions::<>c__DisplayClass6_0`8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract,TMemoryPool>*
 class CORDL_TYPE __FactoryFromBinder6Extensions____c__DisplayClass6_0_8 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field poolId, offset 0x10, size 0x10
-  __declspec(property(get = __get_poolId, put = __set_poolId))::System::Guid poolId;
+  __declspec(property(get = __cordl_internal_get_poolId, put = __cordl_internal_set_poolId))::System::Guid poolId;
 
-  constexpr ::System::Guid& __get_poolId();
+  constexpr ::System::Guid& __cordl_internal_get_poolId();
 
-  constexpr ::System::Guid const& __get_poolId() const;
+  constexpr ::System::Guid const& __cordl_internal_get_poolId() const;
 
-  constexpr void __set_poolId(::System::Guid value);
+  constexpr void __cordl_internal_set_poolId(::System::Guid value);
 
   static inline ::Zenject::__FactoryFromBinder6Extensions____c__DisplayClass6_0_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract, TMemoryPool>* New_ctor();
 
@@ -372,7 +372,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10780))
 // CS Name: ::Zenject::FactoryFromBinder6Extensions*
 class CORDL_TYPE FactoryFromBinder6Extensions : public ::System::Object {

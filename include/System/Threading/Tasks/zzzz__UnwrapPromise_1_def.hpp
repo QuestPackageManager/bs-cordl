@@ -37,7 +37,7 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2796))
 // CS Name: ::UnwrapPromise`1::<>c<TResult>*
 class CORDL_TYPE __UnwrapPromise_1____c : public ::System::Object {
@@ -89,7 +89,7 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5111 }), TypeDefinitionIndex(TypeDefinitionIndex(2773))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 5111 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2797))
 // CS Name: ::System.Threading.Tasks::UnwrapPromise`1<TResult>*
 class CORDL_TYPE UnwrapPromise_1 : public ::System::Threading::Tasks::Task_1<TResult> {
@@ -98,10 +98,10 @@ public:
   using __c = ::System::Threading::Tasks::__UnwrapPromise_1____c<TResult>;
 
   /// @brief Field _state, offset 0x58, size 0x1
-  __declspec(property(get = __get__state, put = __set__state)) uint8_t _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state)) uint8_t _state;
 
   /// @brief Field _lookForOce, offset 0x59, size 0x1
-  __declspec(property(get = __get__lookForOce, put = __set__lookForOce)) bool _lookForOce;
+  __declspec(property(get = __cordl_internal_get__lookForOce, put = __cordl_internal_set__lookForOce)) bool _lookForOce;
 
   __declspec(property(get = get_InvokeMayRunArbitraryCode)) bool InvokeMayRunArbitraryCode;
 
@@ -111,17 +111,17 @@ public:
   /// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"
   constexpr ::System::Threading::Tasks::ITaskCompletionAction* i___System__Threading__Tasks__ITaskCompletionAction() noexcept;
 
-  constexpr uint8_t& __get__state();
+  constexpr uint8_t& __cordl_internal_get__state();
 
-  constexpr uint8_t const& __get__state() const;
+  constexpr uint8_t const& __cordl_internal_get__state() const;
 
-  constexpr void __set__state(uint8_t value);
+  constexpr void __cordl_internal_set__state(uint8_t value);
 
-  constexpr bool& __get__lookForOce();
+  constexpr bool& __cordl_internal_get__lookForOce();
 
-  constexpr bool const& __get__lookForOce() const;
+  constexpr bool const& __cordl_internal_get__lookForOce() const;
 
-  constexpr void __set__lookForOce(bool value);
+  constexpr void __cordl_internal_set__lookForOce(bool value);
 
   static inline ::System::Threading::Tasks::UnwrapPromise_1<TResult>* New_ctor(::System::Threading::Tasks::Task* outerTask, bool lookForOce);
 

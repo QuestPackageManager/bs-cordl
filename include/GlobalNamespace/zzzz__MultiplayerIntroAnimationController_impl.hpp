@@ -22,9 +22,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x57c;
   constexpr static std::size_t addrs = 0x224cea4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
-                                                                               "OnValidate", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "OnValidate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -36,9 +36,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x478;
   constexpr static std::size_t addrs = 0x224b254;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
-                                                                               "SetBeforeIntroValue", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "SetBeforeIntroValue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -50,10 +50,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x118;
   constexpr static std::size_t addrs = 0x2248c00;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(), "PlayIntroAnimation", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(), "PlayIntroAnimation", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
@@ -65,9 +65,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x418;
   constexpr static std::size_t addrs = 0x22487e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
-                                                                               "GetFullIntroAnimationTime", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "GetFullIntroAnimationTime", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -79,9 +79,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x78c;
   constexpr static std::size_t addrs = 0x224d420;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
-                                                                               "BindTimeline", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "BindTimeline", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -93,12 +93,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x7f4;
   constexpr static std::size_t addrs = 0x224e234;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(), "BindRingsAndSetTiming", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(), "BindRingsAndSetTiming", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
     return ___internal_method;
   }
 };
@@ -110,9 +110,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x2248d18;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
-                                                                               "TransitionToAfterIntroAnimationState", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
+                                                 "TransitionToAfterIntroAnimationState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -125,10 +126,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x584;
   constexpr static std::size_t addrs = 0x224dbac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(), "CalculatePlayerIndexSequence", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(), "CalculatePlayerIndexSequence",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>*>::get() })));
     return ___internal_method;
   }
 };
@@ -140,9 +142,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x224ea28;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
-                                                                               "Completed", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "Completed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -154,213 +156,216 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x224ea60;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Playables::PlayableDirector*& GlobalNamespace::MultiplayerIntroAnimationController::__get__introPlayableDirector() {
+constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__introPlayableDirector() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____introPlayableDirector;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Playables::PlayableDirector*> const& GlobalNamespace::MultiplayerIntroAnimationController::__get__introPlayableDirector() const {
+constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__introPlayableDirector() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____introPlayableDirector;
 }
-constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__set__introPlayableDirector(::UnityEngine::Playables::PlayableDirector* value) {
+constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_set__introPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____introPlayableDirector)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& GlobalNamespace::MultiplayerIntroAnimationController::__get__playerTimelineTrackNames() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__playerTimelineTrackNames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerTimelineTrackNames;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& GlobalNamespace::MultiplayerIntroAnimationController::__get__playerTimelineTrackNames() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__playerTimelineTrackNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerTimelineTrackNames;
 }
-constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__set__playerTimelineTrackNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_set__playerTimelineTrackNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerTimelineTrackNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& GlobalNamespace::MultiplayerIntroAnimationController::__get__ringTimelineTrackNames() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__ringTimelineTrackNames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ringTimelineTrackNames;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& GlobalNamespace::MultiplayerIntroAnimationController::__get__ringTimelineTrackNames() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__ringTimelineTrackNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ringTimelineTrackNames;
 }
-constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__set__ringTimelineTrackNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_set__ringTimelineTrackNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ringTimelineTrackNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*>& GlobalNamespace::MultiplayerIntroAnimationController::__get__playerTimelinePropertyNames() {
+constexpr ::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*>& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__playerTimelinePropertyNames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerTimelinePropertyNames;
 }
-constexpr ::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> const& GlobalNamespace::MultiplayerIntroAnimationController::__get__playerTimelinePropertyNames() const {
+constexpr ::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> const&
+GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__playerTimelinePropertyNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerTimelinePropertyNames;
 }
-constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__set__playerTimelinePropertyNames(::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> value) {
+constexpr void
+GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_set__playerTimelinePropertyNames(::ArrayW<::UnityEngine::PropertyName, ::Array<::UnityEngine::PropertyName>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerTimelinePropertyNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::MultiplayerIntroAnimationController::__get__localPlayerTrackName() {
+constexpr ::StringW& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__localPlayerTrackName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayerTrackName;
 }
-constexpr ::StringW const& GlobalNamespace::MultiplayerIntroAnimationController::__get__localPlayerTrackName() const {
+constexpr ::StringW const& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__localPlayerTrackName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayerTrackName;
 }
-constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__set__localPlayerTrackName(::StringW value) {
+constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_set__localPlayerTrackName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localPlayerTrackName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::MultiplayerIntroAnimationController::__get__localPlayerRingTrackName() {
+constexpr ::StringW& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__localPlayerRingTrackName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayerRingTrackName;
 }
-constexpr ::StringW const& GlobalNamespace::MultiplayerIntroAnimationController::__get__localPlayerRingTrackName() const {
+constexpr ::StringW const& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__localPlayerRingTrackName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayerRingTrackName;
 }
-constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__set__localPlayerRingTrackName(::StringW value) {
+constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_set__localPlayerRingTrackName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localPlayerRingTrackName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::PropertyName& GlobalNamespace::MultiplayerIntroAnimationController::__get__localPlayerTimelinePropertyName() {
+constexpr ::UnityEngine::PropertyName& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__localPlayerTimelinePropertyName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayerTimelinePropertyName;
 }
-constexpr ::UnityEngine::PropertyName const& GlobalNamespace::MultiplayerIntroAnimationController::__get__localPlayerTimelinePropertyName() const {
+constexpr ::UnityEngine::PropertyName const& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__localPlayerTimelinePropertyName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayerTimelinePropertyName;
 }
-constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__set__localPlayerTimelinePropertyName(::UnityEngine::PropertyName value) {
+constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_set__localPlayerTimelinePropertyName(::UnityEngine::PropertyName value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localPlayerTimelinePropertyName = value;
 }
-constexpr float_t& GlobalNamespace::MultiplayerIntroAnimationController::__get__firstConnectedPlayerStart() {
+constexpr float_t& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__firstConnectedPlayerStart() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstConnectedPlayerStart;
 }
-constexpr float_t const& GlobalNamespace::MultiplayerIntroAnimationController::__get__firstConnectedPlayerStart() const {
+constexpr float_t const& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__firstConnectedPlayerStart() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____firstConnectedPlayerStart;
 }
-constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__set__firstConnectedPlayerStart(float_t value) {
+constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_set__firstConnectedPlayerStart(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____firstConnectedPlayerStart = value;
 }
-constexpr float_t& GlobalNamespace::MultiplayerIntroAnimationController::__get__spawnDuration() {
+constexpr float_t& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__spawnDuration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnDuration;
 }
-constexpr float_t const& GlobalNamespace::MultiplayerIntroAnimationController::__get__spawnDuration() const {
+constexpr float_t const& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__spawnDuration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spawnDuration;
 }
-constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__set__spawnDuration(float_t value) {
+constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_set__spawnDuration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____spawnDuration = value;
 }
-constexpr ::StringW& GlobalNamespace::MultiplayerIntroAnimationController::__get__endMarkerName() {
+constexpr ::StringW& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__endMarkerName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endMarkerName;
 }
-constexpr ::StringW const& GlobalNamespace::MultiplayerIntroAnimationController::__get__endMarkerName() const {
+constexpr ::StringW const& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__endMarkerName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endMarkerName;
 }
-constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__set__endMarkerName(::StringW value) {
+constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_set__endMarkerName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____endMarkerName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerScoreRingManager*& GlobalNamespace::MultiplayerIntroAnimationController::__get__scoreRingManager() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreRingManager>& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__scoreRingManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreRingManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerScoreRingManager*> const& GlobalNamespace::MultiplayerIntroAnimationController::__get__scoreRingManager() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreRingManager> const& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__scoreRingManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreRingManager;
 }
-constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__set__scoreRingManager(::GlobalNamespace::MultiplayerScoreRingManager* value) {
+constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_set__scoreRingManager(::UnityW<::GlobalNamespace::MultiplayerScoreRingManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scoreRingManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerPlayersManager*& GlobalNamespace::MultiplayerIntroAnimationController::__get__multiplayerPlayersManager() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager>& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__multiplayerPlayersManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerPlayersManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerPlayersManager*> const& GlobalNamespace::MultiplayerIntroAnimationController::__get__multiplayerPlayersManager() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerPlayersManager> const& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__multiplayerPlayersManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerPlayersManager;
 }
-constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__set__multiplayerPlayersManager(::GlobalNamespace::MultiplayerPlayersManager* value) {
+constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_set__multiplayerPlayersManager(::UnityW<::GlobalNamespace::MultiplayerPlayersManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerPlayersManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IMultiplayerSessionManager*& GlobalNamespace::MultiplayerIntroAnimationController::__get__multiplayerSessionManager() {
+constexpr ::GlobalNamespace::IMultiplayerSessionManager*& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__multiplayerSessionManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& GlobalNamespace::MultiplayerIntroAnimationController::__get__multiplayerSessionManager() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const&
+GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__multiplayerSessionManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
-constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value) {
+constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerSessionManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& GlobalNamespace::MultiplayerIntroAnimationController::__get__layoutProvider() {
+constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__layoutProvider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& GlobalNamespace::MultiplayerIntroAnimationController::__get__layoutProvider() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__layoutProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____layoutProvider;
 }
-constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value) {
+constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____layoutProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& GlobalNamespace::MultiplayerIntroAnimationController::__get__onCompleted() {
+constexpr ::System::Action*& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__onCompleted() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onCompleted;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::MultiplayerIntroAnimationController::__get__onCompleted() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__onCompleted() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____onCompleted;
 }
-constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__set__onCompleted(::System::Action* value) {
+constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_set__onCompleted(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onCompleted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int64_t& GlobalNamespace::MultiplayerIntroAnimationController::__get__introDuration() {
+constexpr int64_t& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__introDuration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____introDuration;
 }
-constexpr int64_t const& GlobalNamespace::MultiplayerIntroAnimationController::__get__introDuration() const {
+constexpr int64_t const& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__introDuration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____introDuration;
 }
-constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__set__introDuration(int64_t value) {
+constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_set__introDuration(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____introDuration = value;
 }
-constexpr bool& GlobalNamespace::MultiplayerIntroAnimationController::__get__bindingFinished() {
+constexpr bool& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__bindingFinished() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindingFinished;
 }
-constexpr bool const& GlobalNamespace::MultiplayerIntroAnimationController::__get__bindingFinished() const {
+constexpr bool const& GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_get__bindingFinished() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindingFinished;
 }
-constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__set__bindingFinished(bool value) {
+constexpr void GlobalNamespace::MultiplayerIntroAnimationController::__cordl_internal_set__bindingFinished(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bindingFinished = value;
 }
@@ -373,28 +378,28 @@ inline ::System::Random* GlobalNamespace::MultiplayerIntroAnimationController::g
 }
 inline void GlobalNamespace::MultiplayerIntroAnimationController::OnValidate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
-                                                                             "OnValidate", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "OnValidate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MultiplayerIntroAnimationController::SetBeforeIntroValue() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
-                                                                             "SetBeforeIntroValue", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "SetBeforeIntroValue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MultiplayerIntroAnimationController::PlayIntroAnimation(float_t maxDesiredIntroAnimationDuration, ::System::Action* onCompleted) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(), "PlayIntroAnimation", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(), "PlayIntroAnimation", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, maxDesiredIntroAnimationDuration, onCompleted);
 }
 inline int64_t GlobalNamespace::MultiplayerIntroAnimationController::GetFullIntroAnimationTime() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
-                                                                             "GetFullIntroAnimationTime", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "GetFullIntroAnimationTime", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MultiplayerIntroAnimationController::BindTimeline() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
-                                                                             "BindTimeline", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "BindTimeline", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 /// @param connectedRings: ::ArrayW<::UnityEngine::GameObject*,::Array<::UnityEngine::GameObject*>*> (default: nullptr)
@@ -403,35 +408,36 @@ inline void GlobalNamespace::MultiplayerIntroAnimationController::BindRingsAndSe
                                                                                         ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> connectedRings,
                                                                                         ::UnityEngine::GameObject* localRing) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(), "BindRingsAndSetTiming", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(), "BindRingsAndSetTiming", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, connectedPlayersCount, connectedRings, localRing);
 }
 inline void GlobalNamespace::MultiplayerIntroAnimationController::TransitionToAfterIntroAnimationState() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
-                                                                             "TransitionToAfterIntroAnimationState", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
+                                               "TransitionToAfterIntroAnimationState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::Queue_1<int32_t>*
 GlobalNamespace::MultiplayerIntroAnimationController::CalculatePlayerIndexSequence(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* allActivePlayer) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(), "CalculatePlayerIndexSequence", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(), "CalculatePlayerIndexSequence", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Queue_1<int32_t>*, false>(this, ___internal_method, allActivePlayer);
 }
 inline void GlobalNamespace::MultiplayerIntroAnimationController::Completed() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
-                                                                             "Completed", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "Completed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::MultiplayerIntroAnimationController* GlobalNamespace::MultiplayerIntroAnimationController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MultiplayerIntroAnimationController*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerIntroAnimationController*>());
 }
 inline void GlobalNamespace::MultiplayerIntroAnimationController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerIntroAnimationController*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

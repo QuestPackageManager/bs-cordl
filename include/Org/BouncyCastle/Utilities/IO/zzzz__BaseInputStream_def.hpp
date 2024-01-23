@@ -19,14 +19,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::BaseInputStream);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(498))
 // CS Name: ::Org.BouncyCastle.Utilities.IO::BaseInputStream*
 class CORDL_TYPE BaseInputStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field closed, offset 0x28, size 0x1
-  __declspec(property(get = __get_closed, put = __set_closed)) bool closed;
+  __declspec(property(get = __cordl_internal_get_closed, put = __cordl_internal_set_closed)) bool closed;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -38,11 +38,11 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr bool& __get_closed();
+  constexpr bool& __cordl_internal_get_closed();
 
-  constexpr bool const& __get_closed() const;
+  constexpr bool const& __cordl_internal_get_closed() const;
 
-  constexpr void __set_closed(bool value);
+  constexpr void __cordl_internal_set_closed(bool value);
 
   /// @brief Method get_CanRead, addr 0x11bf96c, size 0x10, virtual true, abstract: false, final true
   inline bool get_CanRead();

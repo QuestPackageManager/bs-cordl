@@ -14,22 +14,22 @@ MARK_REF_PTR_T(::GlobalNamespace::AudioListenerController);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4046))
 // CS Name: ::AudioListenerController*
 class CORDL_TYPE AudioListenerController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _startAudioListenerPauseState, offset 0x18, size 0x1
-  __declspec(property(get = __get__startAudioListenerPauseState, put = __set__startAudioListenerPauseState)) bool _startAudioListenerPauseState;
+  __declspec(property(get = __cordl_internal_get__startAudioListenerPauseState, put = __cordl_internal_set__startAudioListenerPauseState)) bool _startAudioListenerPauseState;
 
   __declspec(property(get = get_isPaused)) bool isPaused;
 
-  constexpr bool& __get__startAudioListenerPauseState();
+  constexpr bool& __cordl_internal_get__startAudioListenerPauseState();
 
-  constexpr bool const& __get__startAudioListenerPauseState() const;
+  constexpr bool const& __cordl_internal_get__startAudioListenerPauseState() const;
 
-  constexpr void __set__startAudioListenerPauseState(bool value);
+  constexpr void __cordl_internal_set__startAudioListenerPauseState(bool value);
 
   /// @brief Method get_isPaused, addr 0x222afe0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPaused();

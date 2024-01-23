@@ -27,17 +27,17 @@ MARK_REF_PTR_T(::System::Collections::Specialized::CompatibleComparer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9523))
 // CS Name: ::System.Collections.Specialized::CompatibleComparer*
 class CORDL_TYPE CompatibleComparer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _comparer, offset 0x10, size 0x8
-  __declspec(property(get = __get__comparer, put = __set__comparer))::System::Collections::IComparer* _comparer;
+  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::System::Collections::IComparer* _comparer;
 
   /// @brief Field _hcp, offset 0x18, size 0x8
-  __declspec(property(get = __get__hcp, put = __set__hcp))::System::Collections::IHashCodeProvider* _hcp;
+  __declspec(property(get = __cordl_internal_get__hcp, put = __cordl_internal_set__hcp))::System::Collections::IHashCodeProvider* _hcp;
 
   /// @brief Field defaultComparer, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_defaultComparer, put = setStaticF_defaultComparer))::System::Collections::IComparer* defaultComparer;
@@ -55,17 +55,17 @@ public:
   /// @brief Convert to "::System::Collections::IEqualityComparer"
   constexpr ::System::Collections::IEqualityComparer* i___System__Collections__IEqualityComparer() noexcept;
 
-  constexpr ::System::Collections::IComparer*& __get__comparer();
+  constexpr ::System::Collections::IComparer*& __cordl_internal_get__comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IComparer*> const& __get__comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IComparer*> const& __cordl_internal_get__comparer() const;
 
-  constexpr void __set__comparer(::System::Collections::IComparer* value);
+  constexpr void __cordl_internal_set__comparer(::System::Collections::IComparer* value);
 
-  constexpr ::System::Collections::IHashCodeProvider*& __get__hcp();
+  constexpr ::System::Collections::IHashCodeProvider*& __cordl_internal_get__hcp();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IHashCodeProvider*> const& __get__hcp() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IHashCodeProvider*> const& __cordl_internal_get__hcp() const;
 
-  constexpr void __set__hcp(::System::Collections::IHashCodeProvider* value);
+  constexpr void __cordl_internal_set__hcp(::System::Collections::IHashCodeProvider* value);
 
   static inline void setStaticF_defaultComparer(::System::Collections::IComparer* value);
 

@@ -48,32 +48,32 @@ MARK_REF_PTR_T(::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4048))
 // CS Name: ::AudioPitchGainEffect::<StartEffectCoroutine>d__8*
 class CORDL_TYPE __AudioPitchGainEffect___StartEffectCoroutine_d__8 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::AudioPitchGainEffect* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::AudioPitchGainEffect> __4__this;
 
   /// @brief Field volumeScale, offset 0x28, size 0x4
-  __declspec(property(get = __get_volumeScale, put = __set_volumeScale)) float_t volumeScale;
+  __declspec(property(get = __cordl_internal_get_volumeScale, put = __cordl_internal_set_volumeScale)) float_t volumeScale;
 
   /// @brief Field finishCallback, offset 0x30, size 0x8
-  __declspec(property(get = __get_finishCallback, put = __set_finishCallback))::System::Action* finishCallback;
+  __declspec(property(get = __cordl_internal_get_finishCallback, put = __cordl_internal_set_finishCallback))::System::Action* finishCallback;
 
   /// @brief Field <startPitch>5__2, offset 0x38, size 0x4
-  __declspec(property(get = __get__startPitch_5__2, put = __set__startPitch_5__2)) float_t _startPitch_5__2;
+  __declspec(property(get = __cordl_internal_get__startPitch_5__2, put = __cordl_internal_set__startPitch_5__2)) float_t _startPitch_5__2;
 
   /// @brief Field <time>5__3, offset 0x3c, size 0x4
-  __declspec(property(get = __get__time_5__3, put = __set__time_5__3)) float_t _time_5__3;
+  __declspec(property(get = __cordl_internal_get__time_5__3, put = __cordl_internal_set__time_5__3)) float_t _time_5__3;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -97,47 +97,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::AudioPitchGainEffect*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioPitchGainEffect*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioPitchGainEffect> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::AudioPitchGainEffect* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::AudioPitchGainEffect> value);
 
-  constexpr float_t& __get_volumeScale();
+  constexpr float_t& __cordl_internal_get_volumeScale();
 
-  constexpr float_t const& __get_volumeScale() const;
+  constexpr float_t const& __cordl_internal_get_volumeScale() const;
 
-  constexpr void __set_volumeScale(float_t value);
+  constexpr void __cordl_internal_set_volumeScale(float_t value);
 
-  constexpr ::System::Action*& __get_finishCallback();
+  constexpr ::System::Action*& __cordl_internal_get_finishCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_finishCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_finishCallback() const;
 
-  constexpr void __set_finishCallback(::System::Action* value);
+  constexpr void __cordl_internal_set_finishCallback(::System::Action* value);
 
-  constexpr float_t& __get__startPitch_5__2();
+  constexpr float_t& __cordl_internal_get__startPitch_5__2();
 
-  constexpr float_t const& __get__startPitch_5__2() const;
+  constexpr float_t const& __cordl_internal_get__startPitch_5__2() const;
 
-  constexpr void __set__startPitch_5__2(float_t value);
+  constexpr void __cordl_internal_set__startPitch_5__2(float_t value);
 
-  constexpr float_t& __get__time_5__3();
+  constexpr float_t& __cordl_internal_get__time_5__3();
 
-  constexpr float_t const& __get__time_5__3() const;
+  constexpr float_t const& __cordl_internal_get__time_5__3() const;
 
-  constexpr void __set__time_5__3(float_t value);
+  constexpr void __cordl_internal_set__time_5__3(float_t value);
 
   static inline ::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8* New_ctor(int32_t __1__state);
 
@@ -180,7 +180,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::AudioPitchGainEffect* _____4__this;
+  ::UnityW<::GlobalNamespace::AudioPitchGainEffect> _____4__this;
 
   /// @brief Field volumeScale, offset: 0x28, size: 0x4, def value: None
   float_t ___volumeScale;
@@ -218,7 +218,7 @@ static_assert(offsetof(::GlobalNamespace::__AudioPitchGainEffect___StartEffectCo
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4049))
 // CS Name: ::AudioPitchGainEffect*
 class CORDL_TYPE AudioPitchGainEffect : public ::UnityEngine::MonoBehaviour {
@@ -227,67 +227,67 @@ public:
   using _StartEffectCoroutine_d__8 = ::GlobalNamespace::__AudioPitchGainEffect___StartEffectCoroutine_d__8;
 
   /// @brief Field _audioSource, offset 0x18, size 0x8
-  __declspec(property(get = __get__audioSource, put = __set__audioSource))::UnityEngine::AudioSource* _audioSource;
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
 
   /// @brief Field _duration, offset 0x20, size 0x4
-  __declspec(property(get = __get__duration, put = __set__duration)) float_t _duration;
+  __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
 
   /// @brief Field _pitchCurve, offset 0x28, size 0x8
-  __declspec(property(get = __get__pitchCurve, put = __set__pitchCurve))::UnityEngine::AnimationCurve* _pitchCurve;
+  __declspec(property(get = __cordl_internal_get__pitchCurve, put = __cordl_internal_set__pitchCurve))::UnityEngine::AnimationCurve* _pitchCurve;
 
   /// @brief Field _gainCurve, offset 0x30, size 0x8
-  __declspec(property(get = __get__gainCurve, put = __set__gainCurve))::UnityEngine::AnimationCurve* _gainCurve;
+  __declspec(property(get = __cordl_internal_get__gainCurve, put = __cordl_internal_set__gainCurve))::UnityEngine::AnimationCurve* _gainCurve;
 
   /// @brief Field _currentCoroutine, offset 0x38, size 0x8
-  __declspec(property(get = __get__currentCoroutine, put = __set__currentCoroutine))::UnityEngine::Coroutine* _currentCoroutine;
+  __declspec(property(get = __cordl_internal_get__currentCoroutine, put = __cordl_internal_set__currentCoroutine))::UnityEngine::Coroutine* _currentCoroutine;
 
   /// @brief Field _startPitch, offset 0x40, size 0x4
-  __declspec(property(get = __get__startPitch, put = __set__startPitch)) float_t _startPitch;
+  __declspec(property(get = __cordl_internal_get__startPitch, put = __cordl_internal_set__startPitch)) float_t _startPitch;
 
   /// @brief Field _startVolume, offset 0x44, size 0x4
-  __declspec(property(get = __get__startVolume, put = __set__startVolume)) float_t _startVolume;
+  __declspec(property(get = __cordl_internal_get__startVolume, put = __cordl_internal_set__startVolume)) float_t _startVolume;
 
-  constexpr ::UnityEngine::AudioSource*& __get__audioSource();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get__audioSource() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
 
-  constexpr void __set__audioSource(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr float_t& __get__duration();
+  constexpr float_t& __cordl_internal_get__duration();
 
-  constexpr float_t const& __get__duration() const;
+  constexpr float_t const& __cordl_internal_get__duration() const;
 
-  constexpr void __set__duration(float_t value);
+  constexpr void __cordl_internal_set__duration(float_t value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__pitchCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__pitchCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__pitchCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__pitchCurve() const;
 
-  constexpr void __set__pitchCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__pitchCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__gainCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__gainCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__gainCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__gainCurve() const;
 
-  constexpr void __set__gainCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__gainCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::Coroutine*& __get__currentCoroutine();
+  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__currentCoroutine();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __get__currentCoroutine() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get__currentCoroutine() const;
 
-  constexpr void __set__currentCoroutine(::UnityEngine::Coroutine* value);
+  constexpr void __cordl_internal_set__currentCoroutine(::UnityEngine::Coroutine* value);
 
-  constexpr float_t& __get__startPitch();
+  constexpr float_t& __cordl_internal_get__startPitch();
 
-  constexpr float_t const& __get__startPitch() const;
+  constexpr float_t const& __cordl_internal_get__startPitch() const;
 
-  constexpr void __set__startPitch(float_t value);
+  constexpr void __cordl_internal_set__startPitch(float_t value);
 
-  constexpr float_t& __get__startVolume();
+  constexpr float_t& __cordl_internal_get__startVolume();
 
-  constexpr float_t const& __get__startVolume() const;
+  constexpr float_t const& __cordl_internal_get__startVolume() const;
 
-  constexpr void __set__startVolume(float_t value);
+  constexpr void __cordl_internal_set__startVolume(float_t value);
 
   /// @brief Method Start, addr 0x222b348, size 0x28, virtual false, abstract: false, final false
   inline void Start();
@@ -324,7 +324,7 @@ protected:
 
 public:
   /// @brief Field _audioSource, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ____audioSource;
+  ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
   /// @brief Field _duration, offset: 0x20, size: 0x4, def value: None
   float_t ____duration;

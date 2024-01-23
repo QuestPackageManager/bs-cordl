@@ -16,20 +16,20 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::ShareMediaResult);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13387)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13387))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13481))
 // CS Name: ::Oculus.Platform.Models::ShareMediaResult*
 class CORDL_TYPE ShareMediaResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Status, offset 0x10, size 0x4
-  __declspec(property(get = __get_Status, put = __set_Status))::Oculus::Platform::ShareMediaStatus Status;
+  __declspec(property(get = __cordl_internal_get_Status, put = __cordl_internal_set_Status))::Oculus::Platform::ShareMediaStatus Status;
 
-  constexpr ::Oculus::Platform::ShareMediaStatus& __get_Status();
+  constexpr ::Oculus::Platform::ShareMediaStatus& __cordl_internal_get_Status();
 
-  constexpr ::Oculus::Platform::ShareMediaStatus const& __get_Status() const;
+  constexpr ::Oculus::Platform::ShareMediaStatus const& __cordl_internal_get_Status() const;
 
-  constexpr void __set_Status(::Oculus::Platform::ShareMediaStatus value);
+  constexpr void __cordl_internal_set_Status(::Oculus::Platform::ShareMediaStatus value);
 
   static inline ::Oculus::Platform::Models::ShareMediaResult* New_ctor(void* o);
 

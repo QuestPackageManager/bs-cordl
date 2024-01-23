@@ -53,7 +53,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRDisplay__LatencyData);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7539))
 // CS Name: ::OVRDisplay::EyeFov
 struct CORDL_TYPE __OVRDisplay__EyeFov {
@@ -100,7 +100,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDisplay__EyeFov, RightFov) == 0xc
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7539)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7539)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7540))
 // CS Name: ::OVRDisplay::EyeRenderDesc
 struct CORDL_TYPE __OVRDisplay__EyeRenderDesc {
@@ -142,7 +142,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDisplay__EyeRenderDesc, fullFov) 
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7541))
 // CS Name: ::OVRDisplay::LatencyData
 struct CORDL_TYPE __OVRDisplay__LatencyData {
@@ -195,7 +195,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRDisplay__LatencyData, timeWarpErr
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7542))
 // CS Name: ::OVRDisplay*
 class CORDL_TYPE OVRDisplay : public ::System::Object {
@@ -208,22 +208,23 @@ public:
   using EyeFov = ::GlobalNamespace::__OVRDisplay__EyeFov;
 
   /// @brief Field needsConfigureTexture, offset 0x10, size 0x1
-  __declspec(property(get = __get_needsConfigureTexture, put = __set_needsConfigureTexture)) bool needsConfigureTexture;
+  __declspec(property(get = __cordl_internal_get_needsConfigureTexture, put = __cordl_internal_set_needsConfigureTexture)) bool needsConfigureTexture;
 
   /// @brief Field eyeDescs, offset 0x18, size 0x8
-  __declspec(property(get = __get_eyeDescs, put = __set_eyeDescs))::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*> eyeDescs;
+  __declspec(property(get = __cordl_internal_get_eyeDescs,
+                      put = __cordl_internal_set_eyeDescs))::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*> eyeDescs;
 
   /// @brief Field recenterRequested, offset 0x20, size 0x1
-  __declspec(property(get = __get_recenterRequested, put = __set_recenterRequested)) bool recenterRequested;
+  __declspec(property(get = __cordl_internal_get_recenterRequested, put = __cordl_internal_set_recenterRequested)) bool recenterRequested;
 
   /// @brief Field recenterRequestedFrameCount, offset 0x24, size 0x4
-  __declspec(property(get = __get_recenterRequestedFrameCount, put = __set_recenterRequestedFrameCount)) int32_t recenterRequestedFrameCount;
+  __declspec(property(get = __cordl_internal_get_recenterRequestedFrameCount, put = __cordl_internal_set_recenterRequestedFrameCount)) int32_t recenterRequestedFrameCount;
 
   /// @brief Field localTrackingSpaceRecenterCount, offset 0x28, size 0x4
-  __declspec(property(get = __get_localTrackingSpaceRecenterCount, put = __set_localTrackingSpaceRecenterCount)) int32_t localTrackingSpaceRecenterCount;
+  __declspec(property(get = __cordl_internal_get_localTrackingSpaceRecenterCount, put = __cordl_internal_set_localTrackingSpaceRecenterCount)) int32_t localTrackingSpaceRecenterCount;
 
   /// @brief Field RecenteredPose, offset 0x30, size 0x8
-  __declspec(property(get = __get_RecenteredPose, put = __set_RecenteredPose))::System::Action* RecenteredPose;
+  __declspec(property(get = __cordl_internal_get_RecenteredPose, put = __cordl_internal_set_RecenteredPose))::System::Action* RecenteredPose;
 
   __declspec(property(get = get_acceleration))::UnityEngine::Vector3 acceleration;
 
@@ -243,41 +244,41 @@ public:
 
   __declspec(property(get = get_displayFrequency, put = set_displayFrequency)) float_t displayFrequency;
 
-  constexpr bool& __get_needsConfigureTexture();
+  constexpr bool& __cordl_internal_get_needsConfigureTexture();
 
-  constexpr bool const& __get_needsConfigureTexture() const;
+  constexpr bool const& __cordl_internal_get_needsConfigureTexture() const;
 
-  constexpr void __set_needsConfigureTexture(bool value);
+  constexpr void __cordl_internal_set_needsConfigureTexture(bool value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*>& __get_eyeDescs();
+  constexpr ::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*>& __cordl_internal_get_eyeDescs();
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*> const& __get_eyeDescs() const;
+  constexpr ::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*> const& __cordl_internal_get_eyeDescs() const;
 
-  constexpr void __set_eyeDescs(::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*> value);
+  constexpr void __cordl_internal_set_eyeDescs(::ArrayW<::GlobalNamespace::__OVRDisplay__EyeRenderDesc, ::Array<::GlobalNamespace::__OVRDisplay__EyeRenderDesc>*> value);
 
-  constexpr bool& __get_recenterRequested();
+  constexpr bool& __cordl_internal_get_recenterRequested();
 
-  constexpr bool const& __get_recenterRequested() const;
+  constexpr bool const& __cordl_internal_get_recenterRequested() const;
 
-  constexpr void __set_recenterRequested(bool value);
+  constexpr void __cordl_internal_set_recenterRequested(bool value);
 
-  constexpr int32_t& __get_recenterRequestedFrameCount();
+  constexpr int32_t& __cordl_internal_get_recenterRequestedFrameCount();
 
-  constexpr int32_t const& __get_recenterRequestedFrameCount() const;
+  constexpr int32_t const& __cordl_internal_get_recenterRequestedFrameCount() const;
 
-  constexpr void __set_recenterRequestedFrameCount(int32_t value);
+  constexpr void __cordl_internal_set_recenterRequestedFrameCount(int32_t value);
 
-  constexpr int32_t& __get_localTrackingSpaceRecenterCount();
+  constexpr int32_t& __cordl_internal_get_localTrackingSpaceRecenterCount();
 
-  constexpr int32_t const& __get_localTrackingSpaceRecenterCount() const;
+  constexpr int32_t const& __cordl_internal_get_localTrackingSpaceRecenterCount() const;
 
-  constexpr void __set_localTrackingSpaceRecenterCount(int32_t value);
+  constexpr void __cordl_internal_set_localTrackingSpaceRecenterCount(int32_t value);
 
-  constexpr ::System::Action*& __get_RecenteredPose();
+  constexpr ::System::Action*& __cordl_internal_get_RecenteredPose();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_RecenteredPose() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_RecenteredPose() const;
 
-  constexpr void __set_RecenteredPose(::System::Action* value);
+  constexpr void __cordl_internal_set_RecenteredPose(::System::Action* value);
 
   static inline ::GlobalNamespace::OVRDisplay* New_ctor();
 

@@ -70,7 +70,7 @@ MARK_REF_PTR_T(::UnityEngine::TextEditor);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14612))
 // CS Name: ::TextEditor::DblClickSnapping
 struct CORDL_TYPE __TextEditor__DblClickSnapping {
@@ -120,7 +120,7 @@ static_assert(offsetof(::UnityEngine::__TextEditor__DblClickSnapping, value__) =
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14613))
 // CS Name: ::TextEditor::CharacterType
 struct CORDL_TYPE __TextEditor__CharacterType {
@@ -178,7 +178,7 @@ static_assert(offsetof(::UnityEngine::__TextEditor__CharacterType, value__) == 0
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14614))
 // CS Name: ::TextEditor::Direction
 struct CORDL_TYPE __TextEditor__Direction {
@@ -228,7 +228,7 @@ static_assert(offsetof(::UnityEngine::__TextEditor__Direction, value__) == 0x0, 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14615))
 // CS Name: ::TextEditor::TextEditOp
 struct CORDL_TYPE __TextEditor__TextEditOp {
@@ -470,8 +470,8 @@ static_assert(offsetof(::UnityEngine::__TextEditor__TextEditOp, value__) == 0x0,
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14612)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10165))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14616)) CS Name: ::UnityEngine::TextEditor*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14612))] Self: TypeDefinitionIndex(TypeDefinitionIndex(14616)) CS Name: ::UnityEngine::TextEditor*
 class CORDL_TYPE TextEditor : public ::System::Object {
 public:
   // Declarations
@@ -484,73 +484,73 @@ public:
   using DblClickSnapping = ::UnityEngine::__TextEditor__DblClickSnapping;
 
   /// @brief Field keyboardOnScreen, offset 0x10, size 0x8
-  __declspec(property(get = __get_keyboardOnScreen, put = __set_keyboardOnScreen))::UnityEngine::TouchScreenKeyboard* keyboardOnScreen;
+  __declspec(property(get = __cordl_internal_get_keyboardOnScreen, put = __cordl_internal_set_keyboardOnScreen))::UnityEngine::TouchScreenKeyboard* keyboardOnScreen;
 
   /// @brief Field controlID, offset 0x18, size 0x4
-  __declspec(property(get = __get_controlID, put = __set_controlID)) int32_t controlID;
+  __declspec(property(get = __cordl_internal_get_controlID, put = __cordl_internal_set_controlID)) int32_t controlID;
 
   /// @brief Field style, offset 0x20, size 0x8
-  __declspec(property(get = __get_style, put = __set_style))::UnityEngine::GUIStyle* style;
+  __declspec(property(get = __cordl_internal_get_style, put = __cordl_internal_set_style))::UnityEngine::GUIStyle* style;
 
   /// @brief Field multiline, offset 0x28, size 0x1
-  __declspec(property(get = __get_multiline, put = __set_multiline)) bool multiline;
+  __declspec(property(get = __cordl_internal_get_multiline, put = __cordl_internal_set_multiline)) bool multiline;
 
   /// @brief Field hasHorizontalCursorPos, offset 0x29, size 0x1
-  __declspec(property(get = __get_hasHorizontalCursorPos, put = __set_hasHorizontalCursorPos)) bool hasHorizontalCursorPos;
+  __declspec(property(get = __cordl_internal_get_hasHorizontalCursorPos, put = __cordl_internal_set_hasHorizontalCursorPos)) bool hasHorizontalCursorPos;
 
   /// @brief Field isPasswordField, offset 0x2a, size 0x1
-  __declspec(property(get = __get_isPasswordField, put = __set_isPasswordField)) bool isPasswordField;
+  __declspec(property(get = __cordl_internal_get_isPasswordField, put = __cordl_internal_set_isPasswordField)) bool isPasswordField;
 
   /// @brief Field m_HasFocus, offset 0x2b, size 0x1
-  __declspec(property(get = __get_m_HasFocus, put = __set_m_HasFocus)) bool m_HasFocus;
+  __declspec(property(get = __cordl_internal_get_m_HasFocus, put = __cordl_internal_set_m_HasFocus)) bool m_HasFocus;
 
   /// @brief Field scrollOffset, offset 0x2c, size 0x8
-  __declspec(property(get = __get_scrollOffset, put = __set_scrollOffset))::UnityEngine::Vector2 scrollOffset;
+  __declspec(property(get = __cordl_internal_get_scrollOffset, put = __cordl_internal_set_scrollOffset))::UnityEngine::Vector2 scrollOffset;
 
   /// @brief Field m_Content, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_Content, put = __set_m_Content))::UnityEngine::GUIContent* m_Content;
+  __declspec(property(get = __cordl_internal_get_m_Content, put = __cordl_internal_set_m_Content))::UnityEngine::GUIContent* m_Content;
 
   /// @brief Field m_Position, offset 0x40, size 0x10
-  __declspec(property(get = __get_m_Position, put = __set_m_Position))::UnityEngine::Rect m_Position;
+  __declspec(property(get = __cordl_internal_get_m_Position, put = __cordl_internal_set_m_Position))::UnityEngine::Rect m_Position;
 
   /// @brief Field m_CursorIndex, offset 0x50, size 0x4
-  __declspec(property(get = __get_m_CursorIndex, put = __set_m_CursorIndex)) int32_t m_CursorIndex;
+  __declspec(property(get = __cordl_internal_get_m_CursorIndex, put = __cordl_internal_set_m_CursorIndex)) int32_t m_CursorIndex;
 
   /// @brief Field m_SelectIndex, offset 0x54, size 0x4
-  __declspec(property(get = __get_m_SelectIndex, put = __set_m_SelectIndex)) int32_t m_SelectIndex;
+  __declspec(property(get = __cordl_internal_get_m_SelectIndex, put = __cordl_internal_set_m_SelectIndex)) int32_t m_SelectIndex;
 
   /// @brief Field m_RevealCursor, offset 0x58, size 0x1
-  __declspec(property(get = __get_m_RevealCursor, put = __set_m_RevealCursor)) bool m_RevealCursor;
+  __declspec(property(get = __cordl_internal_get_m_RevealCursor, put = __cordl_internal_set_m_RevealCursor)) bool m_RevealCursor;
 
   /// @brief Field graphicalCursorPos, offset 0x5c, size 0x8
-  __declspec(property(get = __get_graphicalCursorPos, put = __set_graphicalCursorPos))::UnityEngine::Vector2 graphicalCursorPos;
+  __declspec(property(get = __cordl_internal_get_graphicalCursorPos, put = __cordl_internal_set_graphicalCursorPos))::UnityEngine::Vector2 graphicalCursorPos;
 
   /// @brief Field graphicalSelectCursorPos, offset 0x64, size 0x8
-  __declspec(property(get = __get_graphicalSelectCursorPos, put = __set_graphicalSelectCursorPos))::UnityEngine::Vector2 graphicalSelectCursorPos;
+  __declspec(property(get = __cordl_internal_get_graphicalSelectCursorPos, put = __cordl_internal_set_graphicalSelectCursorPos))::UnityEngine::Vector2 graphicalSelectCursorPos;
 
   /// @brief Field m_MouseDragSelectsWholeWords, offset 0x6c, size 0x1
-  __declspec(property(get = __get_m_MouseDragSelectsWholeWords, put = __set_m_MouseDragSelectsWholeWords)) bool m_MouseDragSelectsWholeWords;
+  __declspec(property(get = __cordl_internal_get_m_MouseDragSelectsWholeWords, put = __cordl_internal_set_m_MouseDragSelectsWholeWords)) bool m_MouseDragSelectsWholeWords;
 
   /// @brief Field m_DblClickInitPos, offset 0x70, size 0x4
-  __declspec(property(get = __get_m_DblClickInitPos, put = __set_m_DblClickInitPos)) int32_t m_DblClickInitPos;
+  __declspec(property(get = __cordl_internal_get_m_DblClickInitPos, put = __cordl_internal_set_m_DblClickInitPos)) int32_t m_DblClickInitPos;
 
   /// @brief Field m_DblClickSnap, offset 0x74, size 0x1
-  __declspec(property(get = __get_m_DblClickSnap, put = __set_m_DblClickSnap))::UnityEngine::__TextEditor__DblClickSnapping m_DblClickSnap;
+  __declspec(property(get = __cordl_internal_get_m_DblClickSnap, put = __cordl_internal_set_m_DblClickSnap))::UnityEngine::__TextEditor__DblClickSnapping m_DblClickSnap;
 
   /// @brief Field m_bJustSelected, offset 0x75, size 0x1
-  __declspec(property(get = __get_m_bJustSelected, put = __set_m_bJustSelected)) bool m_bJustSelected;
+  __declspec(property(get = __cordl_internal_get_m_bJustSelected, put = __cordl_internal_set_m_bJustSelected)) bool m_bJustSelected;
 
   /// @brief Field m_iAltCursorPos, offset 0x78, size 0x4
-  __declspec(property(get = __get_m_iAltCursorPos, put = __set_m_iAltCursorPos)) int32_t m_iAltCursorPos;
+  __declspec(property(get = __cordl_internal_get_m_iAltCursorPos, put = __cordl_internal_set_m_iAltCursorPos)) int32_t m_iAltCursorPos;
 
   /// @brief Field oldText, offset 0x80, size 0x8
-  __declspec(property(get = __get_oldText, put = __set_oldText))::StringW oldText;
+  __declspec(property(get = __cordl_internal_get_oldText, put = __cordl_internal_set_oldText))::StringW oldText;
 
   /// @brief Field oldPos, offset 0x88, size 0x4
-  __declspec(property(get = __get_oldPos, put = __set_oldPos)) int32_t oldPos;
+  __declspec(property(get = __cordl_internal_get_oldPos, put = __cordl_internal_set_oldPos)) int32_t oldPos;
 
   /// @brief Field oldSelectPos, offset 0x8c, size 0x4
-  __declspec(property(get = __get_oldSelectPos, put = __set_oldSelectPos)) int32_t oldSelectPos;
+  __declspec(property(get = __cordl_internal_get_oldSelectPos, put = __cordl_internal_set_oldSelectPos)) int32_t oldSelectPos;
 
   /// @brief Field s_Keyactions, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Keyactions,
@@ -572,143 +572,143 @@ public:
 
   __declspec(property(get = get_SelectedText))::StringW SelectedText;
 
-  constexpr ::UnityEngine::TouchScreenKeyboard*& __get_keyboardOnScreen();
+  constexpr ::UnityEngine::TouchScreenKeyboard*& __cordl_internal_get_keyboardOnScreen();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TouchScreenKeyboard*> const& __get_keyboardOnScreen() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TouchScreenKeyboard*> const& __cordl_internal_get_keyboardOnScreen() const;
 
-  constexpr void __set_keyboardOnScreen(::UnityEngine::TouchScreenKeyboard* value);
+  constexpr void __cordl_internal_set_keyboardOnScreen(::UnityEngine::TouchScreenKeyboard* value);
 
-  constexpr int32_t& __get_controlID();
+  constexpr int32_t& __cordl_internal_get_controlID();
 
-  constexpr int32_t const& __get_controlID() const;
+  constexpr int32_t const& __cordl_internal_get_controlID() const;
 
-  constexpr void __set_controlID(int32_t value);
+  constexpr void __cordl_internal_set_controlID(int32_t value);
 
-  constexpr ::UnityEngine::GUIStyle*& __get_style();
+  constexpr ::UnityEngine::GUIStyle*& __cordl_internal_get_style();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __get_style() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIStyle*> const& __cordl_internal_get_style() const;
 
-  constexpr void __set_style(::UnityEngine::GUIStyle* value);
+  constexpr void __cordl_internal_set_style(::UnityEngine::GUIStyle* value);
 
-  constexpr bool& __get_multiline();
+  constexpr bool& __cordl_internal_get_multiline();
 
-  constexpr bool const& __get_multiline() const;
+  constexpr bool const& __cordl_internal_get_multiline() const;
 
-  constexpr void __set_multiline(bool value);
+  constexpr void __cordl_internal_set_multiline(bool value);
 
-  constexpr bool& __get_hasHorizontalCursorPos();
+  constexpr bool& __cordl_internal_get_hasHorizontalCursorPos();
 
-  constexpr bool const& __get_hasHorizontalCursorPos() const;
+  constexpr bool const& __cordl_internal_get_hasHorizontalCursorPos() const;
 
-  constexpr void __set_hasHorizontalCursorPos(bool value);
+  constexpr void __cordl_internal_set_hasHorizontalCursorPos(bool value);
 
-  constexpr bool& __get_isPasswordField();
+  constexpr bool& __cordl_internal_get_isPasswordField();
 
-  constexpr bool const& __get_isPasswordField() const;
+  constexpr bool const& __cordl_internal_get_isPasswordField() const;
 
-  constexpr void __set_isPasswordField(bool value);
+  constexpr void __cordl_internal_set_isPasswordField(bool value);
 
-  constexpr bool& __get_m_HasFocus();
+  constexpr bool& __cordl_internal_get_m_HasFocus();
 
-  constexpr bool const& __get_m_HasFocus() const;
+  constexpr bool const& __cordl_internal_get_m_HasFocus() const;
 
-  constexpr void __set_m_HasFocus(bool value);
+  constexpr void __cordl_internal_set_m_HasFocus(bool value);
 
-  constexpr ::UnityEngine::Vector2& __get_scrollOffset();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_scrollOffset();
 
-  constexpr ::UnityEngine::Vector2 const& __get_scrollOffset() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_scrollOffset() const;
 
-  constexpr void __set_scrollOffset(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_scrollOffset(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::GUIContent*& __get_m_Content();
+  constexpr ::UnityEngine::GUIContent*& __cordl_internal_get_m_Content();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIContent*> const& __get_m_Content() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GUIContent*> const& __cordl_internal_get_m_Content() const;
 
-  constexpr void __set_m_Content(::UnityEngine::GUIContent* value);
+  constexpr void __cordl_internal_set_m_Content(::UnityEngine::GUIContent* value);
 
-  constexpr ::UnityEngine::Rect& __get_m_Position();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_Position();
 
-  constexpr ::UnityEngine::Rect const& __get_m_Position() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_Position() const;
 
-  constexpr void __set_m_Position(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_m_Position(::UnityEngine::Rect value);
 
-  constexpr int32_t& __get_m_CursorIndex();
+  constexpr int32_t& __cordl_internal_get_m_CursorIndex();
 
-  constexpr int32_t const& __get_m_CursorIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_CursorIndex() const;
 
-  constexpr void __set_m_CursorIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_CursorIndex(int32_t value);
 
-  constexpr int32_t& __get_m_SelectIndex();
+  constexpr int32_t& __cordl_internal_get_m_SelectIndex();
 
-  constexpr int32_t const& __get_m_SelectIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_SelectIndex() const;
 
-  constexpr void __set_m_SelectIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_SelectIndex(int32_t value);
 
-  constexpr bool& __get_m_RevealCursor();
+  constexpr bool& __cordl_internal_get_m_RevealCursor();
 
-  constexpr bool const& __get_m_RevealCursor() const;
+  constexpr bool const& __cordl_internal_get_m_RevealCursor() const;
 
-  constexpr void __set_m_RevealCursor(bool value);
+  constexpr void __cordl_internal_set_m_RevealCursor(bool value);
 
-  constexpr ::UnityEngine::Vector2& __get_graphicalCursorPos();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_graphicalCursorPos();
 
-  constexpr ::UnityEngine::Vector2 const& __get_graphicalCursorPos() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_graphicalCursorPos() const;
 
-  constexpr void __set_graphicalCursorPos(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_graphicalCursorPos(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_graphicalSelectCursorPos();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_graphicalSelectCursorPos();
 
-  constexpr ::UnityEngine::Vector2 const& __get_graphicalSelectCursorPos() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_graphicalSelectCursorPos() const;
 
-  constexpr void __set_graphicalSelectCursorPos(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_graphicalSelectCursorPos(::UnityEngine::Vector2 value);
 
-  constexpr bool& __get_m_MouseDragSelectsWholeWords();
+  constexpr bool& __cordl_internal_get_m_MouseDragSelectsWholeWords();
 
-  constexpr bool const& __get_m_MouseDragSelectsWholeWords() const;
+  constexpr bool const& __cordl_internal_get_m_MouseDragSelectsWholeWords() const;
 
-  constexpr void __set_m_MouseDragSelectsWholeWords(bool value);
+  constexpr void __cordl_internal_set_m_MouseDragSelectsWholeWords(bool value);
 
-  constexpr int32_t& __get_m_DblClickInitPos();
+  constexpr int32_t& __cordl_internal_get_m_DblClickInitPos();
 
-  constexpr int32_t const& __get_m_DblClickInitPos() const;
+  constexpr int32_t const& __cordl_internal_get_m_DblClickInitPos() const;
 
-  constexpr void __set_m_DblClickInitPos(int32_t value);
+  constexpr void __cordl_internal_set_m_DblClickInitPos(int32_t value);
 
-  constexpr ::UnityEngine::__TextEditor__DblClickSnapping& __get_m_DblClickSnap();
+  constexpr ::UnityEngine::__TextEditor__DblClickSnapping& __cordl_internal_get_m_DblClickSnap();
 
-  constexpr ::UnityEngine::__TextEditor__DblClickSnapping const& __get_m_DblClickSnap() const;
+  constexpr ::UnityEngine::__TextEditor__DblClickSnapping const& __cordl_internal_get_m_DblClickSnap() const;
 
-  constexpr void __set_m_DblClickSnap(::UnityEngine::__TextEditor__DblClickSnapping value);
+  constexpr void __cordl_internal_set_m_DblClickSnap(::UnityEngine::__TextEditor__DblClickSnapping value);
 
-  constexpr bool& __get_m_bJustSelected();
+  constexpr bool& __cordl_internal_get_m_bJustSelected();
 
-  constexpr bool const& __get_m_bJustSelected() const;
+  constexpr bool const& __cordl_internal_get_m_bJustSelected() const;
 
-  constexpr void __set_m_bJustSelected(bool value);
+  constexpr void __cordl_internal_set_m_bJustSelected(bool value);
 
-  constexpr int32_t& __get_m_iAltCursorPos();
+  constexpr int32_t& __cordl_internal_get_m_iAltCursorPos();
 
-  constexpr int32_t const& __get_m_iAltCursorPos() const;
+  constexpr int32_t const& __cordl_internal_get_m_iAltCursorPos() const;
 
-  constexpr void __set_m_iAltCursorPos(int32_t value);
+  constexpr void __cordl_internal_set_m_iAltCursorPos(int32_t value);
 
-  constexpr ::StringW& __get_oldText();
+  constexpr ::StringW& __cordl_internal_get_oldText();
 
-  constexpr ::StringW const& __get_oldText() const;
+  constexpr ::StringW const& __cordl_internal_get_oldText() const;
 
-  constexpr void __set_oldText(::StringW value);
+  constexpr void __cordl_internal_set_oldText(::StringW value);
 
-  constexpr int32_t& __get_oldPos();
+  constexpr int32_t& __cordl_internal_get_oldPos();
 
-  constexpr int32_t const& __get_oldPos() const;
+  constexpr int32_t const& __cordl_internal_get_oldPos() const;
 
-  constexpr void __set_oldPos(int32_t value);
+  constexpr void __cordl_internal_set_oldPos(int32_t value);
 
-  constexpr int32_t& __get_oldSelectPos();
+  constexpr int32_t& __cordl_internal_get_oldSelectPos();
 
-  constexpr int32_t const& __get_oldSelectPos() const;
+  constexpr int32_t const& __cordl_internal_get_oldSelectPos() const;
 
-  constexpr void __set_oldSelectPos(int32_t value);
+  constexpr void __cordl_internal_set_oldSelectPos(int32_t value);
 
   static inline void setStaticF_s_Keyactions(::System::Collections::Generic::Dictionary_2<::UnityEngine::Event*, ::UnityEngine::__TextEditor__TextEditOp>* value);
 

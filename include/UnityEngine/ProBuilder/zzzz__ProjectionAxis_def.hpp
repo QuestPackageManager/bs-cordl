@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::ProjectionAxis);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12158))
 // CS Name: ::UnityEngine.ProBuilder::ProjectionAxis
 struct CORDL_TYPE ProjectionAxis {

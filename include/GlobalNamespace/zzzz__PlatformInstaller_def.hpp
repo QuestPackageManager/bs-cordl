@@ -22,30 +22,30 @@ MARK_REF_PTR_T(::GlobalNamespace::PlatformInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11133), inst: 3910 }), TypeDefinitionIndex(TypeDefinitionIndex(11133)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15394)), TypeDefinitionIndex(TypeDefinitionIndex(4105))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4039)) CS Name: ::PlatformInstaller*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4105)), TypeDefinitionIndex(TypeDefinitionIndex(11133)), TypeDefinitionIndex(TypeDefinitionIndex(15394)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11133), inst: 3910 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4039)) CS Name: ::PlatformInstaller*
 class CORDL_TYPE PlatformInstaller
-    : public ::Zenject::Installer_3<::GlobalNamespace::AppInitSetupData*, ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*, ::GlobalNamespace::PlatformInstaller*> {
+    : public ::Zenject::Installer_3<::GlobalNamespace::AppInitSetupData*, ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>, ::GlobalNamespace::PlatformInstaller*> {
 public:
   // Declarations
   /// @brief Field _isTest, offset 0x18, size 0x1
-  __declspec(property(get = __get__isTest, put = __set__isTest)) bool _isTest;
+  __declspec(property(get = __cordl_internal_get__isTest, put = __cordl_internal_set__isTest)) bool _isTest;
 
   /// @brief Field _mockPlatformAdditionalContentModelInitialData, offset 0x20, size 0x8
-  __declspec(property(get = __get__mockPlatformAdditionalContentModelInitialData,
-                      put = __set__mockPlatformAdditionalContentModelInitialData))::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* _mockPlatformAdditionalContentModelInitialData;
+  __declspec(property(get = __cordl_internal_get__mockPlatformAdditionalContentModelInitialData, put = __cordl_internal_set__mockPlatformAdditionalContentModelInitialData))::UnityW<
+      ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> _mockPlatformAdditionalContentModelInitialData;
 
-  constexpr bool& __get__isTest();
+  constexpr bool& __cordl_internal_get__isTest();
 
-  constexpr bool const& __get__isTest() const;
+  constexpr bool const& __cordl_internal_get__isTest() const;
 
-  constexpr void __set__isTest(bool value);
+  constexpr void __cordl_internal_set__isTest(bool value);
 
-  constexpr ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*& __get__mockPlatformAdditionalContentModelInitialData();
+  constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO>& __cordl_internal_get__mockPlatformAdditionalContentModelInitialData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO*> const& __get__mockPlatformAdditionalContentModelInitialData() const;
+  constexpr ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> const& __cordl_internal_get__mockPlatformAdditionalContentModelInitialData() const;
 
-  constexpr void __set__mockPlatformAdditionalContentModelInitialData(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* value);
+  constexpr void __cordl_internal_set__mockPlatformAdditionalContentModelInitialData(::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> value);
 
   static inline ::GlobalNamespace::PlatformInstaller* New_ctor(::GlobalNamespace::AppInitSetupData* appInitSetupData,
                                                                ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData);
@@ -89,7 +89,7 @@ public:
   bool ____isTest;
 
   /// @brief Field _mockPlatformAdditionalContentModelInitialData, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* ____mockPlatformAdditionalContentModelInitialData;
+  ::UnityW<::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO> ____mockPlatformAdditionalContentModelInitialData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

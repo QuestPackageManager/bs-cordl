@@ -16,50 +16,50 @@ MARK_REF_PTR_T(::System::Security::Cryptography::SHA512Managed);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2964))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2964))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2965))
 // CS Name: ::System.Security.Cryptography::SHA512Managed*
 class CORDL_TYPE SHA512Managed : public ::System::Security::Cryptography::SHA512 {
 public:
   // Declarations
   /// @brief Field _buffer, offset 0x28, size 0x8
-  __declspec(property(get = __get__buffer, put = __set__buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
 
   /// @brief Field _count, offset 0x30, size 0x8
-  __declspec(property(get = __get__count, put = __set__count)) uint64_t _count;
+  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) uint64_t _count;
 
   /// @brief Field _stateSHA512, offset 0x38, size 0x8
-  __declspec(property(get = __get__stateSHA512, put = __set__stateSHA512))::ArrayW<uint64_t, ::Array<uint64_t>*> _stateSHA512;
+  __declspec(property(get = __cordl_internal_get__stateSHA512, put = __cordl_internal_set__stateSHA512))::ArrayW<uint64_t, ::Array<uint64_t>*> _stateSHA512;
 
   /// @brief Field _W, offset 0x40, size 0x8
-  __declspec(property(get = __get__W, put = __set__W))::ArrayW<uint64_t, ::Array<uint64_t>*> _W;
+  __declspec(property(get = __cordl_internal_get__W, put = __cordl_internal_set__W))::ArrayW<uint64_t, ::Array<uint64_t>*> _W;
 
   /// @brief Field _K, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__K, put = setStaticF__K))::ArrayW<uint64_t, ::Array<uint64_t>*> _K;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__buffer() const;
 
-  constexpr void __set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr uint64_t& __get__count();
+  constexpr uint64_t& __cordl_internal_get__count();
 
-  constexpr uint64_t const& __get__count() const;
+  constexpr uint64_t const& __cordl_internal_get__count() const;
 
-  constexpr void __set__count(uint64_t value);
+  constexpr void __cordl_internal_set__count(uint64_t value);
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get__stateSHA512();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get__stateSHA512();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get__stateSHA512() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get__stateSHA512() const;
 
-  constexpr void __set__stateSHA512(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set__stateSHA512(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get__W();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get__W();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get__W() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get__W() const;
 
-  constexpr void __set__W(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set__W(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
   static inline void setStaticF__K(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 

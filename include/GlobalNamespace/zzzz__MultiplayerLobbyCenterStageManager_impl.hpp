@@ -12,10 +12,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x22a3940;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>::get(), "Init", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -27,9 +27,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x22a3948;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>::get(),
-                                                                               "ActivateCenterStageManager", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "ActivateCenterStageManager", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -41,9 +41,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x22a3a64;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>::get(),
-                                                                               "DeactivateCenterStageManager", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "DeactivateCenterStageManager", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -55,9 +55,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xf8;
   constexpr static std::size_t addrs = 0x22a396c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>::get(),
-                                                                               "RecalculateCenterPosition", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "RecalculateCenterPosition", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -69,99 +69,99 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x22a3a88;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Transform*& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__centerObjectTransform() {
+constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::MultiplayerLobbyCenterStageManager::__cordl_internal_get__centerObjectTransform() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerObjectTransform;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__centerObjectTransform() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::MultiplayerLobbyCenterStageManager::__cordl_internal_get__centerObjectTransform() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerObjectTransform;
 }
-constexpr void GlobalNamespace::MultiplayerLobbyCenterStageManager::__set__centerObjectTransform(::UnityEngine::Transform* value) {
+constexpr void GlobalNamespace::MultiplayerLobbyCenterStageManager::__cordl_internal_set__centerObjectTransform(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____centerObjectTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::CenterStageScreenController*& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__centerStageScreenController() {
+constexpr ::UnityW<::GlobalNamespace::CenterStageScreenController>& GlobalNamespace::MultiplayerLobbyCenterStageManager::__cordl_internal_get__centerStageScreenController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerStageScreenController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CenterStageScreenController*> const& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__centerStageScreenController() const {
+constexpr ::UnityW<::GlobalNamespace::CenterStageScreenController> const& GlobalNamespace::MultiplayerLobbyCenterStageManager::__cordl_internal_get__centerStageScreenController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____centerStageScreenController;
 }
-constexpr void GlobalNamespace::MultiplayerLobbyCenterStageManager::__set__centerStageScreenController(::GlobalNamespace::CenterStageScreenController* value) {
+constexpr void GlobalNamespace::MultiplayerLobbyCenterStageManager::__cordl_internal_set__centerStageScreenController(::UnityW<::GlobalNamespace::CenterStageScreenController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____centerStageScreenController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::ILobbyStateDataModel*& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__lobbyStateDataModel() {
+constexpr ::GlobalNamespace::ILobbyStateDataModel*& GlobalNamespace::MultiplayerLobbyCenterStageManager::__cordl_internal_get__lobbyStateDataModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyStateDataModel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__lobbyStateDataModel() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& GlobalNamespace::MultiplayerLobbyCenterStageManager::__cordl_internal_get__lobbyStateDataModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lobbyStateDataModel;
 }
-constexpr void GlobalNamespace::MultiplayerLobbyCenterStageManager::__set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value) {
+constexpr void GlobalNamespace::MultiplayerLobbyCenterStageManager::__cordl_internal_set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lobbyStateDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__innerCircleRadius() {
+constexpr float_t& GlobalNamespace::MultiplayerLobbyCenterStageManager::__cordl_internal_get__innerCircleRadius() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____innerCircleRadius;
 }
-constexpr float_t const& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__innerCircleRadius() const {
+constexpr float_t const& GlobalNamespace::MultiplayerLobbyCenterStageManager::__cordl_internal_get__innerCircleRadius() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____innerCircleRadius;
 }
-constexpr void GlobalNamespace::MultiplayerLobbyCenterStageManager::__set__innerCircleRadius(float_t value) {
+constexpr void GlobalNamespace::MultiplayerLobbyCenterStageManager::__cordl_internal_set__innerCircleRadius(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____innerCircleRadius = value;
 }
-constexpr float_t& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__minOuterCircleRadius() {
+constexpr float_t& GlobalNamespace::MultiplayerLobbyCenterStageManager::__cordl_internal_get__minOuterCircleRadius() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minOuterCircleRadius;
 }
-constexpr float_t const& GlobalNamespace::MultiplayerLobbyCenterStageManager::__get__minOuterCircleRadius() const {
+constexpr float_t const& GlobalNamespace::MultiplayerLobbyCenterStageManager::__cordl_internal_get__minOuterCircleRadius() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minOuterCircleRadius;
 }
-constexpr void GlobalNamespace::MultiplayerLobbyCenterStageManager::__set__minOuterCircleRadius(float_t value) {
+constexpr void GlobalNamespace::MultiplayerLobbyCenterStageManager::__cordl_internal_set__minOuterCircleRadius(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minOuterCircleRadius = value;
 }
 inline void GlobalNamespace::MultiplayerLobbyCenterStageManager::Init(float_t innerCircleRadius, float_t minOuterCircleRadius) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>::get(), "Init", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, innerCircleRadius, minOuterCircleRadius);
 }
 inline void GlobalNamespace::MultiplayerLobbyCenterStageManager::ActivateCenterStageManager() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>::get(),
-                                                                             "ActivateCenterStageManager", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "ActivateCenterStageManager", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MultiplayerLobbyCenterStageManager::DeactivateCenterStageManager() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>::get(),
-                                                                             "DeactivateCenterStageManager", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "DeactivateCenterStageManager", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MultiplayerLobbyCenterStageManager::RecalculateCenterPosition() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>::get(),
-                                                                             "RecalculateCenterPosition", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "RecalculateCenterPosition", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::MultiplayerLobbyCenterStageManager* GlobalNamespace::MultiplayerLobbyCenterStageManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>());
 }
 inline void GlobalNamespace::MultiplayerLobbyCenterStageManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLobbyCenterStageManager*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -43,7 +43,7 @@ MARK_VAL_T(::Unity::XR::Oculus::__NativeMethods__UserDefinedSettings);
 // SizeInfo { instance_size: 30, native_size: 30, calculated_instance_size: 30, calculated_native_size: 46, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15140))
 // CS Name: ::NativeMethods::UserDefinedSettings
 struct CORDL_TYPE __NativeMethods__UserDefinedSettings {
@@ -153,7 +153,7 @@ static_assert(offsetof(::Unity::XR::Oculus::__NativeMethods__UserDefinedSettings
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15141))
 // CS Name: ::NativeMethods::Internal*
 class CORDL_TYPE __NativeMethods__Internal : public ::System::Object {
@@ -270,7 +270,7 @@ static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::__NativeMetho
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15142))
 // CS Name: ::Unity.XR.Oculus::NativeMethods*
 class CORDL_TYPE NativeMethods : public ::System::Object {

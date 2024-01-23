@@ -26,20 +26,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::FpFieldElement);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1369))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1369))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1569))
 // CS Name: ::Org.BouncyCastle.Math.EC::FpFieldElement*
 class CORDL_TYPE FpFieldElement : public ::Org::BouncyCastle::Math::EC::AbstractFpFieldElement {
 public:
   // Declarations
   /// @brief Field q, offset 0x10, size 0x8
-  __declspec(property(get = __get_q, put = __set_q))::Org::BouncyCastle::Math::BigInteger* q;
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::Org::BouncyCastle::Math::BigInteger* q;
 
   /// @brief Field r, offset 0x18, size 0x8
-  __declspec(property(get = __get_r, put = __set_r))::Org::BouncyCastle::Math::BigInteger* r;
+  __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r))::Org::BouncyCastle::Math::BigInteger* r;
 
   /// @brief Field x, offset 0x20, size 0x8
-  __declspec(property(get = __get_x, put = __set_x))::Org::BouncyCastle::Math::BigInteger* x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::Org::BouncyCastle::Math::BigInteger* x;
 
   __declspec(property(get = get_FieldName))::StringW FieldName;
 
@@ -47,23 +47,23 @@ public:
 
   __declspec(property(get = get_Q))::Org::BouncyCastle::Math::BigInteger* Q;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_q();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_q();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_q() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_q() const;
 
-  constexpr void __set_q(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_q(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_r();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_r();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_r() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_r() const;
 
-  constexpr void __set_r(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_r(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_x();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_x();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_x() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_x(::Org::BouncyCastle::Math::BigInteger* value);
 
   /// @brief Method CalculateResidue, addr 0x104ce38, size 0x124, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CalculateResidue(::Org::BouncyCastle::Math::BigInteger* p);

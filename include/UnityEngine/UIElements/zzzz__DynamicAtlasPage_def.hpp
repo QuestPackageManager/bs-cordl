@@ -53,54 +53,54 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DynamicAtlasPage);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7339)), TypeDefinitionIndex(TypeDefinitionIndex(10117)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10113)), TypeDefinitionIndex(TypeDefinitionIndex(10244))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7342)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7339)), TypeDefinitionIndex(TypeDefinitionIndex(10113)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10117)), TypeDefinitionIndex(TypeDefinitionIndex(10244))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7342)) CS Name:
 // ::UnityEngine.UIElements::DynamicAtlasPage*
 class CORDL_TYPE DynamicAtlasPage : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <textureId>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__textureId_k__BackingField, put = __set__textureId_k__BackingField))::UnityEngine::UIElements::TextureId _textureId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__textureId_k__BackingField, put = __cordl_internal_set__textureId_k__BackingField))::UnityEngine::UIElements::TextureId _textureId_k__BackingField;
 
   /// @brief Field <atlas>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__atlas_k__BackingField, put = __set__atlas_k__BackingField))::UnityEngine::RenderTexture* _atlas_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__atlas_k__BackingField, put = __cordl_internal_set__atlas_k__BackingField))::UnityW<::UnityEngine::RenderTexture> _atlas_k__BackingField;
 
   /// @brief Field <format>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __get__format_k__BackingField, put = __set__format_k__BackingField))::UnityEngine::RenderTextureFormat _format_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__format_k__BackingField, put = __cordl_internal_set__format_k__BackingField))::UnityEngine::RenderTextureFormat _format_k__BackingField;
 
   /// @brief Field <filterMode>k__BackingField, offset 0x24, size 0x4
-  __declspec(property(get = __get__filterMode_k__BackingField, put = __set__filterMode_k__BackingField))::UnityEngine::FilterMode _filterMode_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__filterMode_k__BackingField, put = __cordl_internal_set__filterMode_k__BackingField))::UnityEngine::FilterMode _filterMode_k__BackingField;
 
   /// @brief Field <minSize>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__minSize_k__BackingField, put = __set__minSize_k__BackingField))::UnityEngine::Vector2Int _minSize_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__minSize_k__BackingField, put = __cordl_internal_set__minSize_k__BackingField))::UnityEngine::Vector2Int _minSize_k__BackingField;
 
   /// @brief Field <maxSize>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__maxSize_k__BackingField, put = __set__maxSize_k__BackingField))::UnityEngine::Vector2Int _maxSize_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__maxSize_k__BackingField, put = __cordl_internal_set__maxSize_k__BackingField))::UnityEngine::Vector2Int _maxSize_k__BackingField;
 
   /// @brief Field m_1Padding, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_1Padding, put = __set_m_1Padding)) int32_t m_1Padding;
+  __declspec(property(get = __cordl_internal_get_m_1Padding, put = __cordl_internal_set_m_1Padding)) int32_t m_1Padding;
 
   /// @brief Field m_2Padding, offset 0x3c, size 0x4
-  __declspec(property(get = __get_m_2Padding, put = __set_m_2Padding)) int32_t m_2Padding;
+  __declspec(property(get = __cordl_internal_get_m_2Padding, put = __cordl_internal_set_m_2Padding)) int32_t m_2Padding;
 
   /// @brief Field m_Allocator, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_Allocator, put = __set_m_Allocator))::UnityEngine::UIElements::UIR::Allocator2D* m_Allocator;
+  __declspec(property(get = __cordl_internal_get_m_Allocator, put = __cordl_internal_set_m_Allocator))::UnityEngine::UIElements::UIR::Allocator2D* m_Allocator;
 
   /// @brief Field m_Blitter, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_Blitter, put = __set_m_Blitter))::UnityEngine::UIElements::UIR::TextureBlitter* m_Blitter;
+  __declspec(property(get = __cordl_internal_get_m_Blitter, put = __cordl_internal_set_m_Blitter))::UnityEngine::UIElements::UIR::TextureBlitter* m_Blitter;
 
   /// @brief Field m_CurrentSize, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_CurrentSize, put = __set_m_CurrentSize))::UnityEngine::Vector2Int m_CurrentSize;
+  __declspec(property(get = __cordl_internal_get_m_CurrentSize, put = __cordl_internal_set_m_CurrentSize))::UnityEngine::Vector2Int m_CurrentSize;
 
   /// @brief Field <disposed>k__BackingField, offset 0x58, size 0x1
-  __declspec(property(get = __get__disposed_k__BackingField, put = __set__disposed_k__BackingField)) bool _disposed_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
 
   /// @brief Field s_TextureCounter, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_TextureCounter, put = setStaticF_s_TextureCounter)) int32_t s_TextureCounter;
 
   __declspec(property(get = get_textureId, put = set_textureId))::UnityEngine::UIElements::TextureId textureId;
 
-  __declspec(property(get = get_atlas, put = set_atlas))::UnityEngine::RenderTexture* atlas;
+  __declspec(property(get = get_atlas, put = set_atlas))::UnityW<::UnityEngine::RenderTexture> atlas;
 
   __declspec(property(get = get_format))::UnityEngine::RenderTextureFormat format;
 
@@ -114,77 +114,77 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::UnityEngine::UIElements::TextureId& __get__textureId_k__BackingField();
+  constexpr ::UnityEngine::UIElements::TextureId& __cordl_internal_get__textureId_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::TextureId const& __get__textureId_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::TextureId const& __cordl_internal_get__textureId_k__BackingField() const;
 
-  constexpr void __set__textureId_k__BackingField(::UnityEngine::UIElements::TextureId value);
+  constexpr void __cordl_internal_set__textureId_k__BackingField(::UnityEngine::UIElements::TextureId value);
 
-  constexpr ::UnityEngine::RenderTexture*& __get__atlas_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__atlas_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RenderTexture*> const& __get__atlas_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__atlas_k__BackingField() const;
 
-  constexpr void __set__atlas_k__BackingField(::UnityEngine::RenderTexture* value);
+  constexpr void __cordl_internal_set__atlas_k__BackingField(::UnityW<::UnityEngine::RenderTexture> value);
 
-  constexpr ::UnityEngine::RenderTextureFormat& __get__format_k__BackingField();
+  constexpr ::UnityEngine::RenderTextureFormat& __cordl_internal_get__format_k__BackingField();
 
-  constexpr ::UnityEngine::RenderTextureFormat const& __get__format_k__BackingField() const;
+  constexpr ::UnityEngine::RenderTextureFormat const& __cordl_internal_get__format_k__BackingField() const;
 
-  constexpr void __set__format_k__BackingField(::UnityEngine::RenderTextureFormat value);
+  constexpr void __cordl_internal_set__format_k__BackingField(::UnityEngine::RenderTextureFormat value);
 
-  constexpr ::UnityEngine::FilterMode& __get__filterMode_k__BackingField();
+  constexpr ::UnityEngine::FilterMode& __cordl_internal_get__filterMode_k__BackingField();
 
-  constexpr ::UnityEngine::FilterMode const& __get__filterMode_k__BackingField() const;
+  constexpr ::UnityEngine::FilterMode const& __cordl_internal_get__filterMode_k__BackingField() const;
 
-  constexpr void __set__filterMode_k__BackingField(::UnityEngine::FilterMode value);
+  constexpr void __cordl_internal_set__filterMode_k__BackingField(::UnityEngine::FilterMode value);
 
-  constexpr ::UnityEngine::Vector2Int& __get__minSize_k__BackingField();
+  constexpr ::UnityEngine::Vector2Int& __cordl_internal_get__minSize_k__BackingField();
 
-  constexpr ::UnityEngine::Vector2Int const& __get__minSize_k__BackingField() const;
+  constexpr ::UnityEngine::Vector2Int const& __cordl_internal_get__minSize_k__BackingField() const;
 
-  constexpr void __set__minSize_k__BackingField(::UnityEngine::Vector2Int value);
+  constexpr void __cordl_internal_set__minSize_k__BackingField(::UnityEngine::Vector2Int value);
 
-  constexpr ::UnityEngine::Vector2Int& __get__maxSize_k__BackingField();
+  constexpr ::UnityEngine::Vector2Int& __cordl_internal_get__maxSize_k__BackingField();
 
-  constexpr ::UnityEngine::Vector2Int const& __get__maxSize_k__BackingField() const;
+  constexpr ::UnityEngine::Vector2Int const& __cordl_internal_get__maxSize_k__BackingField() const;
 
-  constexpr void __set__maxSize_k__BackingField(::UnityEngine::Vector2Int value);
+  constexpr void __cordl_internal_set__maxSize_k__BackingField(::UnityEngine::Vector2Int value);
 
-  constexpr int32_t& __get_m_1Padding();
+  constexpr int32_t& __cordl_internal_get_m_1Padding();
 
-  constexpr int32_t const& __get_m_1Padding() const;
+  constexpr int32_t const& __cordl_internal_get_m_1Padding() const;
 
-  constexpr void __set_m_1Padding(int32_t value);
+  constexpr void __cordl_internal_set_m_1Padding(int32_t value);
 
-  constexpr int32_t& __get_m_2Padding();
+  constexpr int32_t& __cordl_internal_get_m_2Padding();
 
-  constexpr int32_t const& __get_m_2Padding() const;
+  constexpr int32_t const& __cordl_internal_get_m_2Padding() const;
 
-  constexpr void __set_m_2Padding(int32_t value);
+  constexpr void __cordl_internal_set_m_2Padding(int32_t value);
 
-  constexpr ::UnityEngine::UIElements::UIR::Allocator2D*& __get_m_Allocator();
+  constexpr ::UnityEngine::UIElements::UIR::Allocator2D*& __cordl_internal_get_m_Allocator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::Allocator2D*> const& __get_m_Allocator() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::Allocator2D*> const& __cordl_internal_get_m_Allocator() const;
 
-  constexpr void __set_m_Allocator(::UnityEngine::UIElements::UIR::Allocator2D* value);
+  constexpr void __cordl_internal_set_m_Allocator(::UnityEngine::UIElements::UIR::Allocator2D* value);
 
-  constexpr ::UnityEngine::UIElements::UIR::TextureBlitter*& __get_m_Blitter();
+  constexpr ::UnityEngine::UIElements::UIR::TextureBlitter*& __cordl_internal_get_m_Blitter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::TextureBlitter*> const& __get_m_Blitter() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::TextureBlitter*> const& __cordl_internal_get_m_Blitter() const;
 
-  constexpr void __set_m_Blitter(::UnityEngine::UIElements::UIR::TextureBlitter* value);
+  constexpr void __cordl_internal_set_m_Blitter(::UnityEngine::UIElements::UIR::TextureBlitter* value);
 
-  constexpr ::UnityEngine::Vector2Int& __get_m_CurrentSize();
+  constexpr ::UnityEngine::Vector2Int& __cordl_internal_get_m_CurrentSize();
 
-  constexpr ::UnityEngine::Vector2Int const& __get_m_CurrentSize() const;
+  constexpr ::UnityEngine::Vector2Int const& __cordl_internal_get_m_CurrentSize() const;
 
-  constexpr void __set_m_CurrentSize(::UnityEngine::Vector2Int value);
+  constexpr void __cordl_internal_set_m_CurrentSize(::UnityEngine::Vector2Int value);
 
-  constexpr bool& __get__disposed_k__BackingField();
+  constexpr bool& __cordl_internal_get__disposed_k__BackingField();
 
-  constexpr bool const& __get__disposed_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
 
-  constexpr void __set__disposed_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
   static inline void setStaticF_s_TextureCounter(int32_t value);
 
@@ -197,7 +197,7 @@ public:
   inline void set_textureId(::UnityEngine::UIElements::TextureId value);
 
   /// @brief Method get_atlas, addr 0x2e7cfc8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::RenderTexture* get_atlas();
+  inline ::UnityW<::UnityEngine::RenderTexture> get_atlas();
 
   /// @brief Method set_atlas, addr 0x2e7cfd0, size 0x8, virtual false, abstract: false, final false
   inline void set_atlas(::UnityEngine::RenderTexture* value);
@@ -242,7 +242,7 @@ public:
   inline void UpdateAtlasTexture();
 
   /// @brief Method CreateAtlasTexture, addr 0x2e7df7c, size 0x138, virtual false, abstract: false, final false
-  inline ::UnityEngine::RenderTexture* CreateAtlasTexture();
+  inline ::UnityW<::UnityEngine::RenderTexture> CreateAtlasTexture();
 
   // Ctor Parameters [CppParam { name: "", ty: "DynamicAtlasPage", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -262,7 +262,7 @@ public:
   ::UnityEngine::UIElements::TextureId ____textureId_k__BackingField;
 
   /// @brief Field <atlas>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::RenderTexture* ____atlas_k__BackingField;
+  ::UnityW<::UnityEngine::RenderTexture> ____atlas_k__BackingField;
 
   /// @brief Field <format>k__BackingField, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::RenderTextureFormat ____format_k__BackingField;

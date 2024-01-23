@@ -15,7 +15,7 @@ MARK_VAL_T(::Mono::Net::Security::AsyncOperationStatus);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8817))
 // CS Name: ::Mono.Net.Security::AsyncOperationStatus
 struct CORDL_TYPE AsyncOperationStatus {

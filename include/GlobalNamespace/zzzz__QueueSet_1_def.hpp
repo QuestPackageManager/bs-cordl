@@ -23,31 +23,31 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15822))
 // CS Name: ::QueueSet`1<T>*
 class CORDL_TYPE QueueSet_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _linkedList, offset 0x10, size 0x8
-  __declspec(property(get = __get__linkedList, put = __set__linkedList))::System::Collections::Generic::LinkedList_1<T>* _linkedList;
+  __declspec(property(get = __cordl_internal_get__linkedList, put = __cordl_internal_set__linkedList))::System::Collections::Generic::LinkedList_1<T>* _linkedList;
 
   /// @brief Field _set, offset 0x18, size 0x8
-  __declspec(property(get = __get__set, put = __set__set))::System::Collections::Generic::HashSet_1<T>* _set;
+  __declspec(property(get = __cordl_internal_get__set, put = __cordl_internal_set__set))::System::Collections::Generic::HashSet_1<T>* _set;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  constexpr ::System::Collections::Generic::LinkedList_1<T>*& __get__linkedList();
+  constexpr ::System::Collections::Generic::LinkedList_1<T>*& __cordl_internal_get__linkedList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<T>*> const& __get__linkedList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<T>*> const& __cordl_internal_get__linkedList() const;
 
-  constexpr void __set__linkedList(::System::Collections::Generic::LinkedList_1<T>* value);
+  constexpr void __cordl_internal_set__linkedList(::System::Collections::Generic::LinkedList_1<T>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<T>*& __get__set();
+  constexpr ::System::Collections::Generic::HashSet_1<T>*& __cordl_internal_get__set();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<T>*> const& __get__set() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<T>*> const& __cordl_internal_get__set() const;
 
-  constexpr void __set__set(::System::Collections::Generic::HashSet_1<T>* value);
+  constexpr void __cordl_internal_set__set(::System::Collections::Generic::HashSet_1<T>* value);
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();

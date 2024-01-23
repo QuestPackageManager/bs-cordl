@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateR
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6583))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6583))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6459))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidCompensateRotationProcessor*
 class CORDL_TYPE AndroidCompensateRotationProcessor : public ::UnityEngine::InputSystem::Processors::CompensateRotationProcessor {

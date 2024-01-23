@@ -57,35 +57,37 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9524))
 // CS Name: ::System.Collections.Concurrent::BlockingCollection`1<T>*
 class CORDL_TYPE BlockingCollection_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _collection, offset 0x10, size 0x8
-  __declspec(property(get = __get__collection, put = __set__collection))::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* _collection;
+  __declspec(property(get = __cordl_internal_get__collection, put = __cordl_internal_set__collection))::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* _collection;
 
   /// @brief Field _boundedCapacity, offset 0x18, size 0x4
-  __declspec(property(get = __get__boundedCapacity, put = __set__boundedCapacity)) int32_t _boundedCapacity;
+  __declspec(property(get = __cordl_internal_get__boundedCapacity, put = __cordl_internal_set__boundedCapacity)) int32_t _boundedCapacity;
 
   /// @brief Field _freeNodes, offset 0x20, size 0x8
-  __declspec(property(get = __get__freeNodes, put = __set__freeNodes))::System::Threading::SemaphoreSlim* _freeNodes;
+  __declspec(property(get = __cordl_internal_get__freeNodes, put = __cordl_internal_set__freeNodes))::System::Threading::SemaphoreSlim* _freeNodes;
 
   /// @brief Field _occupiedNodes, offset 0x28, size 0x8
-  __declspec(property(get = __get__occupiedNodes, put = __set__occupiedNodes))::System::Threading::SemaphoreSlim* _occupiedNodes;
+  __declspec(property(get = __cordl_internal_get__occupiedNodes, put = __cordl_internal_set__occupiedNodes))::System::Threading::SemaphoreSlim* _occupiedNodes;
 
   /// @brief Field _isDisposed, offset 0x30, size 0x1
-  __declspec(property(get = __get__isDisposed, put = __set__isDisposed)) bool _isDisposed;
+  __declspec(property(get = __cordl_internal_get__isDisposed, put = __cordl_internal_set__isDisposed)) bool _isDisposed;
 
   /// @brief Field _consumersCancellationTokenSource, offset 0x38, size 0x8
-  __declspec(property(get = __get__consumersCancellationTokenSource, put = __set__consumersCancellationTokenSource))::System::Threading::CancellationTokenSource* _consumersCancellationTokenSource;
+  __declspec(property(get = __cordl_internal_get__consumersCancellationTokenSource,
+                      put = __cordl_internal_set__consumersCancellationTokenSource))::System::Threading::CancellationTokenSource* _consumersCancellationTokenSource;
 
   /// @brief Field _producersCancellationTokenSource, offset 0x40, size 0x8
-  __declspec(property(get = __get__producersCancellationTokenSource, put = __set__producersCancellationTokenSource))::System::Threading::CancellationTokenSource* _producersCancellationTokenSource;
+  __declspec(property(get = __cordl_internal_get__producersCancellationTokenSource,
+                      put = __cordl_internal_set__producersCancellationTokenSource))::System::Threading::CancellationTokenSource* _producersCancellationTokenSource;
 
   /// @brief Field _currentAdders, offset 0x48, size 0x4
-  __declspec(property(get = __get__currentAdders, put = __set__currentAdders)) int32_t _currentAdders;
+  __declspec(property(get = __cordl_internal_get__currentAdders, put = __cordl_internal_set__currentAdders)) int32_t _currentAdders;
 
   __declspec(property(get = get_IsAddingCompleted)) bool IsAddingCompleted;
 
@@ -127,53 +129,53 @@ public:
   /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
   constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept;
 
-  constexpr ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*& __get__collection();
+  constexpr ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*& __cordl_internal_get__collection();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*> const& __get__collection() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::IProducerConsumerCollection_1<T>*> const& __cordl_internal_get__collection() const;
 
-  constexpr void __set__collection(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* value);
+  constexpr void __cordl_internal_set__collection(::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* value);
 
-  constexpr int32_t& __get__boundedCapacity();
+  constexpr int32_t& __cordl_internal_get__boundedCapacity();
 
-  constexpr int32_t const& __get__boundedCapacity() const;
+  constexpr int32_t const& __cordl_internal_get__boundedCapacity() const;
 
-  constexpr void __set__boundedCapacity(int32_t value);
+  constexpr void __cordl_internal_set__boundedCapacity(int32_t value);
 
-  constexpr ::System::Threading::SemaphoreSlim*& __get__freeNodes();
+  constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__freeNodes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __get__freeNodes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__freeNodes() const;
 
-  constexpr void __set__freeNodes(::System::Threading::SemaphoreSlim* value);
+  constexpr void __cordl_internal_set__freeNodes(::System::Threading::SemaphoreSlim* value);
 
-  constexpr ::System::Threading::SemaphoreSlim*& __get__occupiedNodes();
+  constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__occupiedNodes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __get__occupiedNodes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__occupiedNodes() const;
 
-  constexpr void __set__occupiedNodes(::System::Threading::SemaphoreSlim* value);
+  constexpr void __cordl_internal_set__occupiedNodes(::System::Threading::SemaphoreSlim* value);
 
-  constexpr bool& __get__isDisposed();
+  constexpr bool& __cordl_internal_get__isDisposed();
 
-  constexpr bool const& __get__isDisposed() const;
+  constexpr bool const& __cordl_internal_get__isDisposed() const;
 
-  constexpr void __set__isDisposed(bool value);
+  constexpr void __cordl_internal_set__isDisposed(bool value);
 
-  constexpr ::System::Threading::CancellationTokenSource*& __get__consumersCancellationTokenSource();
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__consumersCancellationTokenSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __get__consumersCancellationTokenSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__consumersCancellationTokenSource() const;
 
-  constexpr void __set__consumersCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+  constexpr void __cordl_internal_set__consumersCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  constexpr ::System::Threading::CancellationTokenSource*& __get__producersCancellationTokenSource();
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__producersCancellationTokenSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __get__producersCancellationTokenSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__producersCancellationTokenSource() const;
 
-  constexpr void __set__producersCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+  constexpr void __cordl_internal_set__producersCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  constexpr int32_t& __get__currentAdders();
+  constexpr int32_t& __cordl_internal_get__currentAdders();
 
-  constexpr int32_t const& __get__currentAdders() const;
+  constexpr int32_t const& __cordl_internal_get__currentAdders() const;
 
-  constexpr void __set__currentAdders(int32_t value);
+  constexpr void __cordl_internal_set__currentAdders(int32_t value);
 
   /// @brief Method get_IsAddingCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_IsAddingCompleted();

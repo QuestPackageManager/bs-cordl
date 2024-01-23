@@ -31,29 +31,30 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14999))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14999))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4127))
 // CS Name: ::BeatmapDataObstaclesAndBombsTransform::<>c__DisplayClass0_0*
 class CORDL_TYPE __BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field enabledObstaclesType, offset 0x10, size 0x4
-  __declspec(property(get = __get_enabledObstaclesType, put = __set_enabledObstaclesType))::GlobalNamespace::__GameplayModifiers__EnabledObstacleType enabledObstaclesType;
+  __declspec(property(get = __cordl_internal_get_enabledObstaclesType,
+                      put = __cordl_internal_set_enabledObstaclesType))::GlobalNamespace::__GameplayModifiers__EnabledObstacleType enabledObstaclesType;
 
   /// @brief Field noBombs, offset 0x14, size 0x1
-  __declspec(property(get = __get_noBombs, put = __set_noBombs)) bool noBombs;
+  __declspec(property(get = __cordl_internal_get_noBombs, put = __cordl_internal_set_noBombs)) bool noBombs;
 
-  constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType& __get_enabledObstaclesType();
+  constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType& __cordl_internal_get_enabledObstaclesType();
 
-  constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType const& __get_enabledObstaclesType() const;
+  constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType const& __cordl_internal_get_enabledObstaclesType() const;
 
-  constexpr void __set_enabledObstaclesType(::GlobalNamespace::__GameplayModifiers__EnabledObstacleType value);
+  constexpr void __cordl_internal_set_enabledObstaclesType(::GlobalNamespace::__GameplayModifiers__EnabledObstacleType value);
 
-  constexpr bool& __get_noBombs();
+  constexpr bool& __cordl_internal_get_noBombs();
 
-  constexpr bool const& __get_noBombs() const;
+  constexpr bool const& __cordl_internal_get_noBombs() const;
 
-  constexpr void __set_noBombs(bool value);
+  constexpr void __cordl_internal_set_noBombs(bool value);
 
   static inline ::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0* New_ctor();
 
@@ -97,7 +98,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransfor
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4128))
 // CS Name: ::BeatmapDataObstaclesAndBombsTransform*
 class CORDL_TYPE BeatmapDataObstaclesAndBombsTransform : public ::System::Object {

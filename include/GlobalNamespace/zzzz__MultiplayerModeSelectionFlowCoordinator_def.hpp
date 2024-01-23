@@ -176,8 +176,8 @@ MARK_VAL_T(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___TrySho
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 893
-// }), TypeDefinitionIndex(TypeDefinitionIndex(15021))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5513)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(15021)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 893 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5513)) CS Name:
 // ::MultiplayerModeSelectionFlowCoordinator::<HandleConnectedPlayerManagerCreated>d__50
 struct CORDL_TYPE __MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50 {
 public:
@@ -195,11 +195,11 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*",
-  // modifiers: "", def_value: None }, CppParam { name: "networkPlayerModel", ty: "::GlobalNamespace::INetworkPlayerModel*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerAvatarsData>", modifiers: "", def_value: None }]
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>", modifiers: "", def_value: None }, CppParam { name: "networkPlayerModel", ty: "::GlobalNamespace::INetworkPlayerModel*",
+  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerAvatarsData>", modifiers: "", def_value: None }]
   constexpr __MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50(
-      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* __4__this,
+      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator> __4__this,
       ::GlobalNamespace::INetworkPlayerModel* networkPlayerModel, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerAvatarsData> __u__1) noexcept;
 
   // Ctor Parameters []
@@ -213,7 +213,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* __4__this;
+  ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator> __4__this;
 
   /// @brief Field networkPlayerModel, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::INetworkPlayerModel* networkPlayerModel;
@@ -244,9 +244,9 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordina
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 894 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3394), inst: 898 }), TypeDefinitionIndex(TypeDefinitionIndex(4480)), TypeDefinitionIndex(TypeDefinitionIndex(4472)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3400))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5514)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(4472)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4480)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 894 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 898 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5514)) CS Name:
 // ::MultiplayerModeSelectionFlowCoordinator::<TryShowModeSelection>d__51
 struct CORDL_TYPE __MultiplayerModeSelectionFlowCoordinator___TryShowModeSelection_d__51 {
 public:
@@ -264,13 +264,14 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*",
-  // modifiers: "", def_value: None }, CppParam { name: "_multiplayerStatusData_5__2", ty: "::GlobalNamespace::MultiplayerStatusData*", modifiers: "", def_value: None }, CppParam { name:
-  // "_exception_5__3", ty: "::System::Exception*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerStatusData*>", modifiers: "", def_value: None }, CppParam {
-  // name: "__u__3", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::QuickPlaySetupData*>", modifiers: "", def_value: None }]
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>", modifiers: "", def_value: None }, CppParam { name: "_multiplayerStatusData_5__2", ty:
+  // "::GlobalNamespace::MultiplayerStatusData*", modifiers: "", def_value: None }, CppParam { name: "_exception_5__3", ty: "::System::Exception*", modifiers: "", def_value: None }, CppParam { name:
+  // "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerStatusData*>", modifiers: "", def_value: None }, CppParam { name: "__u__3", ty:
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::QuickPlaySetupData*>", modifiers: "", def_value: None }]
   constexpr __MultiplayerModeSelectionFlowCoordinator___TryShowModeSelection_d__51(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                                   ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* __4__this,
+                                                                                   ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator> __4__this,
                                                                                    ::GlobalNamespace::MultiplayerStatusData* _multiplayerStatusData_5__2, ::System::Exception* _exception_5__3,
                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1,
                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerStatusData*> __u__2,
@@ -287,7 +288,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* __4__this;
+  ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator> __4__this;
 
   /// @brief Field <multiplayerStatusData>5__2, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerStatusData* _multiplayerStatusData_5__2;
@@ -333,7 +334,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordina
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5515))
 // CS Name: ::MultiplayerModeSelectionFlowCoordinator::<ResolveAndPresentNextFlowCoordinator>d__52
 struct CORDL_TYPE __MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52 {
@@ -352,11 +353,11 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*",
-  // modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap1", ty: "int32_t", modifiers: "", def_value: None }, CppParam
+  // { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
   constexpr __MultiplayerModeSelectionFlowCoordinator___ResolveAndPresentNextFlowCoordinator_d__52(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                                                   ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* __4__this, int32_t __7__wrap1,
+                                                                                                   ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator> __4__this, int32_t __7__wrap1,
                                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   // Ctor Parameters []
@@ -370,7 +371,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator* __4__this;
+  ::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator> __4__this;
 
   /// @brief Field <>7__wrap1, offset: 0x30, size: 0x4, def value: None
   int32_t __7__wrap1;
@@ -401,7 +402,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerModeSelectionFlowCoordina
 // SizeInfo { instance_size: 408, native_size: -1, calculated_instance_size: 408, calculated_native_size: 408, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13582))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13582))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5516))
 // CS Name: ::MultiplayerModeSelectionFlowCoordinator*
 class CORDL_TYPE MultiplayerModeSelectionFlowCoordinator : public ::HMUI::FlowCoordinator {
@@ -414,286 +415,297 @@ public:
   using _HandleConnectedPlayerManagerCreated_d__50 = ::GlobalNamespace::__MultiplayerModeSelectionFlowCoordinator___HandleConnectedPlayerManagerCreated_d__50;
 
   /// @brief Field _ambienceAudioClip, offset 0xa8, size 0x8
-  __declspec(property(get = __get__ambienceAudioClip, put = __set__ambienceAudioClip))::UnityEngine::AudioClip* _ambienceAudioClip;
+  __declspec(property(get = __cordl_internal_get__ambienceAudioClip, put = __cordl_internal_set__ambienceAudioClip))::UnityW<::UnityEngine::AudioClip> _ambienceAudioClip;
 
   /// @brief Field _songPackMasksModel, offset 0xb0, size 0x8
-  __declspec(property(get = __get__songPackMasksModel, put = __set__songPackMasksModel))::GlobalNamespace::SongPackMasksModel* _songPackMasksModel;
+  __declspec(property(get = __cordl_internal_get__songPackMasksModel, put = __cordl_internal_set__songPackMasksModel))::GlobalNamespace::SongPackMasksModel* _songPackMasksModel;
 
   /// @brief Field _gameServerBrowserFlowCoordinator, offset 0xb8, size 0x8
-  __declspec(property(get = __get__gameServerBrowserFlowCoordinator,
-                      put = __set__gameServerBrowserFlowCoordinator))::GlobalNamespace::GameServerBrowserFlowCoordinator* _gameServerBrowserFlowCoordinator;
+  __declspec(property(get = __cordl_internal_get__gameServerBrowserFlowCoordinator,
+                      put = __cordl_internal_set__gameServerBrowserFlowCoordinator))::UnityW<::GlobalNamespace::GameServerBrowserFlowCoordinator> _gameServerBrowserFlowCoordinator;
 
   /// @brief Field _gameServerLobbyFlowCoordinator, offset 0xc0, size 0x8
-  __declspec(property(get = __get__gameServerLobbyFlowCoordinator, put = __set__gameServerLobbyFlowCoordinator))::GlobalNamespace::GameServerLobbyFlowCoordinator* _gameServerLobbyFlowCoordinator;
+  __declspec(property(get = __cordl_internal_get__gameServerLobbyFlowCoordinator,
+                      put = __cordl_internal_set__gameServerLobbyFlowCoordinator))::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator> _gameServerLobbyFlowCoordinator;
 
   /// @brief Field _multiplayerModeSelectionViewController, offset 0xc8, size 0x8
-  __declspec(property(get = __get__multiplayerModeSelectionViewController,
-                      put = __set__multiplayerModeSelectionViewController))::GlobalNamespace::MultiplayerModeSelectionViewController* _multiplayerModeSelectionViewController;
+  __declspec(property(get = __cordl_internal_get__multiplayerModeSelectionViewController,
+                      put = __cordl_internal_set__multiplayerModeSelectionViewController))::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController> _multiplayerModeSelectionViewController;
 
   /// @brief Field _createServerViewController, offset 0xd0, size 0x8
-  __declspec(property(get = __get__createServerViewController, put = __set__createServerViewController))::GlobalNamespace::CreateServerViewController* _createServerViewController;
+  __declspec(property(get = __cordl_internal_get__createServerViewController,
+                      put = __cordl_internal_set__createServerViewController))::UnityW<::GlobalNamespace::CreateServerViewController> _createServerViewController;
 
   /// @brief Field _joinQuickPlayViewController, offset 0xd8, size 0x8
-  __declspec(property(get = __get__joinQuickPlayViewController, put = __set__joinQuickPlayViewController))::GlobalNamespace::JoinQuickPlayViewController* _joinQuickPlayViewController;
+  __declspec(property(get = __cordl_internal_get__joinQuickPlayViewController,
+                      put = __cordl_internal_set__joinQuickPlayViewController))::UnityW<::GlobalNamespace::JoinQuickPlayViewController> _joinQuickPlayViewController;
 
   /// @brief Field _serverCodeEntryViewController, offset 0xe0, size 0x8
-  __declspec(property(get = __get__serverCodeEntryViewController, put = __set__serverCodeEntryViewController))::GlobalNamespace::ServerCodeEntryViewController* _serverCodeEntryViewController;
+  __declspec(property(get = __cordl_internal_get__serverCodeEntryViewController,
+                      put = __cordl_internal_set__serverCodeEntryViewController))::UnityW<::GlobalNamespace::ServerCodeEntryViewController> _serverCodeEntryViewController;
 
   /// @brief Field _simpleDialogPromptViewController, offset 0xe8, size 0x8
-  __declspec(property(get = __get__simpleDialogPromptViewController,
-                      put = __set__simpleDialogPromptViewController))::GlobalNamespace::SimpleDialogPromptViewController* _simpleDialogPromptViewController;
+  __declspec(property(get = __cordl_internal_get__simpleDialogPromptViewController,
+                      put = __cordl_internal_set__simpleDialogPromptViewController))::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> _simpleDialogPromptViewController;
 
   /// @brief Field _joiningLobbyViewController, offset 0xf0, size 0x8
-  __declspec(property(get = __get__joiningLobbyViewController, put = __set__joiningLobbyViewController))::GlobalNamespace::JoiningLobbyViewController* _joiningLobbyViewController;
+  __declspec(property(get = __cordl_internal_get__joiningLobbyViewController,
+                      put = __cordl_internal_set__joiningLobbyViewController))::UnityW<::GlobalNamespace::JoiningLobbyViewController> _joiningLobbyViewController;
 
   /// @brief Field _unifiedNetworkPlayerModel, offset 0xf8, size 0x8
-  __declspec(property(get = __get__unifiedNetworkPlayerModel, put = __set__unifiedNetworkPlayerModel))::GlobalNamespace::IUnifiedNetworkPlayerModel* _unifiedNetworkPlayerModel;
+  __declspec(property(get = __cordl_internal_get__unifiedNetworkPlayerModel,
+                      put = __cordl_internal_set__unifiedNetworkPlayerModel))::GlobalNamespace::IUnifiedNetworkPlayerModel* _unifiedNetworkPlayerModel;
 
   /// @brief Field _avatarSystemCollection, offset 0x100, size 0x8
-  __declspec(property(get = __get__avatarSystemCollection, put = __set__avatarSystemCollection))::BeatSaber::AvatarCore::AvatarSystemCollection* _avatarSystemCollection;
+  __declspec(property(get = __cordl_internal_get__avatarSystemCollection, put = __cordl_internal_set__avatarSystemCollection))::BeatSaber::AvatarCore::AvatarSystemCollection* _avatarSystemCollection;
 
   /// @brief Field _multiplayerSessionManager, offset 0x108, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _fadeInOutController, offset 0x110, size 0x8
-  __declspec(property(get = __get__fadeInOutController, put = __set__fadeInOutController))::GlobalNamespace::FadeInOutController* _fadeInOutController;
+  __declspec(property(get = __cordl_internal_get__fadeInOutController, put = __cordl_internal_set__fadeInOutController))::UnityW<::GlobalNamespace::FadeInOutController> _fadeInOutController;
 
   /// @brief Field _lobbyDataModelsManager, offset 0x118, size 0x8
-  __declspec(property(get = __get__lobbyDataModelsManager, put = __set__lobbyDataModelsManager))::GlobalNamespace::LobbyDataModelsManager* _lobbyDataModelsManager;
+  __declspec(property(get = __cordl_internal_get__lobbyDataModelsManager, put = __cordl_internal_set__lobbyDataModelsManager))::GlobalNamespace::LobbyDataModelsManager* _lobbyDataModelsManager;
 
   /// @brief Field _multiplayerLobbyConnectionController, offset 0x120, size 0x8
-  __declspec(property(get = __get__multiplayerLobbyConnectionController,
-                      put = __set__multiplayerLobbyConnectionController))::GlobalNamespace::MultiplayerLobbyConnectionController* _multiplayerLobbyConnectionController;
+  __declspec(property(get = __cordl_internal_get__multiplayerLobbyConnectionController,
+                      put = __cordl_internal_set__multiplayerLobbyConnectionController))::GlobalNamespace::MultiplayerLobbyConnectionController* _multiplayerLobbyConnectionController;
 
   /// @brief Field _multiplayerStatusModel, offset 0x128, size 0x8
-  __declspec(property(get = __get__multiplayerStatusModel, put = __set__multiplayerStatusModel))::GlobalNamespace::IMultiplayerStatusModel* _multiplayerStatusModel;
+  __declspec(property(get = __cordl_internal_get__multiplayerStatusModel, put = __cordl_internal_set__multiplayerStatusModel))::GlobalNamespace::IMultiplayerStatusModel* _multiplayerStatusModel;
 
   /// @brief Field _quickPlaySetupModel, offset 0x130, size 0x8
-  __declspec(property(get = __get__quickPlaySetupModel, put = __set__quickPlaySetupModel))::GlobalNamespace::IQuickPlaySetupModel* _quickPlaySetupModel;
+  __declspec(property(get = __cordl_internal_get__quickPlaySetupModel, put = __cordl_internal_set__quickPlaySetupModel))::GlobalNamespace::IQuickPlaySetupModel* _quickPlaySetupModel;
 
   /// @brief Field _playerDataModel, offset 0x138, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _songPreviewPlayer, offset 0x140, size 0x8
-  __declspec(property(get = __get__songPreviewPlayer, put = __set__songPreviewPlayer))::GlobalNamespace::SongPreviewPlayer* _songPreviewPlayer;
+  __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer))::UnityW<::GlobalNamespace::SongPreviewPlayer> _songPreviewPlayer;
 
   /// @brief Field _analyticsModel, offset 0x148, size 0x8
-  __declspec(property(get = __get__analyticsModel, put = __set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
+  __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
 
   /// @brief Field _lobbyGameStateController, offset 0x150, size 0x8
-  __declspec(property(get = __get__lobbyGameStateController, put = __set__lobbyGameStateController))::GlobalNamespace::ILobbyGameStateController* _lobbyGameStateController;
+  __declspec(property(get = __cordl_internal_get__lobbyGameStateController,
+                      put = __cordl_internal_set__lobbyGameStateController))::GlobalNamespace::ILobbyGameStateController* _lobbyGameStateController;
 
   /// @brief Field _xPlatformAuthFeatureFlag, offset 0x158, size 0x8
-  __declspec(property(get = __get__xPlatformAuthFeatureFlag, put = __set__xPlatformAuthFeatureFlag))::GlobalNamespace::XPlatformAuthFeatureFlag* _xPlatformAuthFeatureFlag;
+  __declspec(property(get = __cordl_internal_get__xPlatformAuthFeatureFlag,
+                      put = __cordl_internal_set__xPlatformAuthFeatureFlag))::GlobalNamespace::XPlatformAuthFeatureFlag* _xPlatformAuthFeatureFlag;
 
   /// @brief Field didFinishEvent, offset 0x160, size 0x8
-  __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent,
+                      put = __cordl_internal_set_didFinishEvent))::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* didFinishEvent;
 
   /// @brief Field _joiningLobbyCancellationTokenSource, offset 0x168, size 0x8
-  __declspec(property(get = __get__joiningLobbyCancellationTokenSource,
-                      put = __set__joiningLobbyCancellationTokenSource))::System::Threading::CancellationTokenSource* _joiningLobbyCancellationTokenSource;
+  __declspec(property(get = __cordl_internal_get__joiningLobbyCancellationTokenSource,
+                      put = __cordl_internal_set__joiningLobbyCancellationTokenSource))::System::Threading::CancellationTokenSource* _joiningLobbyCancellationTokenSource;
 
   /// @brief Field _cancellationTokenSource, offset 0x170, size 0x8
-  __declspec(property(get = __get__cancellationTokenSource, put = __set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
+  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
 
   /// @brief Field _transitionFinishedTaskSource, offset 0x178, size 0x8
-  __declspec(property(get = __get__transitionFinishedTaskSource, put = __set__transitionFinishedTaskSource))::System::Threading::Tasks::TaskCompletionSource_1<bool>* _transitionFinishedTaskSource;
+  __declspec(property(get = __cordl_internal_get__transitionFinishedTaskSource,
+                      put = __cordl_internal_set__transitionFinishedTaskSource))::System::Threading::Tasks::TaskCompletionSource_1<bool>* _transitionFinishedTaskSource;
 
   /// @brief Field _checkingAvailabilityTaskSource, offset 0x180, size 0x8
-  __declspec(property(get = __get__checkingAvailabilityTaskSource,
-                      put = __set__checkingAvailabilityTaskSource))::System::Threading::Tasks::TaskCompletionSource_1<bool>* _checkingAvailabilityTaskSource;
+  __declspec(property(get = __cordl_internal_get__checkingAvailabilityTaskSource,
+                      put = __cordl_internal_set__checkingAvailabilityTaskSource))::System::Threading::Tasks::TaskCompletionSource_1<bool>* _checkingAvailabilityTaskSource;
 
   /// @brief Field _quickPlaySetupData, offset 0x188, size 0x8
-  __declspec(property(get = __get__quickPlaySetupData, put = __set__quickPlaySetupData))::GlobalNamespace::QuickPlaySetupData* _quickPlaySetupData;
+  __declspec(property(get = __cordl_internal_get__quickPlaySetupData, put = __cordl_internal_set__quickPlaySetupData))::GlobalNamespace::QuickPlaySetupData* _quickPlaySetupData;
 
   /// @brief Field _lobbyDestination, offset 0x190, size 0x8
-  __declspec(property(get = __get__lobbyDestination, put = __set__lobbyDestination))::GlobalNamespace::SelectMultiplayerLobbyDestination* _lobbyDestination;
+  __declspec(property(get = __cordl_internal_get__lobbyDestination, put = __cordl_internal_set__lobbyDestination))::GlobalNamespace::SelectMultiplayerLobbyDestination* _lobbyDestination;
 
-  constexpr ::UnityEngine::AudioClip*& __get__ambienceAudioClip();
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__ambienceAudioClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& __get__ambienceAudioClip() const;
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__ambienceAudioClip() const;
 
-  constexpr void __set__ambienceAudioClip(::UnityEngine::AudioClip* value);
+  constexpr void __cordl_internal_set__ambienceAudioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  constexpr ::GlobalNamespace::SongPackMasksModel*& __get__songPackMasksModel();
+  constexpr ::GlobalNamespace::SongPackMasksModel*& __cordl_internal_get__songPackMasksModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPackMasksModel*> const& __get__songPackMasksModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPackMasksModel*> const& __cordl_internal_get__songPackMasksModel() const;
 
-  constexpr void __set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
+  constexpr void __cordl_internal_set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
 
-  constexpr ::GlobalNamespace::GameServerBrowserFlowCoordinator*& __get__gameServerBrowserFlowCoordinator();
+  constexpr ::UnityW<::GlobalNamespace::GameServerBrowserFlowCoordinator>& __cordl_internal_get__gameServerBrowserFlowCoordinator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameServerBrowserFlowCoordinator*> const& __get__gameServerBrowserFlowCoordinator() const;
+  constexpr ::UnityW<::GlobalNamespace::GameServerBrowserFlowCoordinator> const& __cordl_internal_get__gameServerBrowserFlowCoordinator() const;
 
-  constexpr void __set__gameServerBrowserFlowCoordinator(::GlobalNamespace::GameServerBrowserFlowCoordinator* value);
+  constexpr void __cordl_internal_set__gameServerBrowserFlowCoordinator(::UnityW<::GlobalNamespace::GameServerBrowserFlowCoordinator> value);
 
-  constexpr ::GlobalNamespace::GameServerLobbyFlowCoordinator*& __get__gameServerLobbyFlowCoordinator();
+  constexpr ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator>& __cordl_internal_get__gameServerLobbyFlowCoordinator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameServerLobbyFlowCoordinator*> const& __get__gameServerLobbyFlowCoordinator() const;
+  constexpr ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator> const& __cordl_internal_get__gameServerLobbyFlowCoordinator() const;
 
-  constexpr void __set__gameServerLobbyFlowCoordinator(::GlobalNamespace::GameServerLobbyFlowCoordinator* value);
+  constexpr void __cordl_internal_set__gameServerLobbyFlowCoordinator(::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator> value);
 
-  constexpr ::GlobalNamespace::MultiplayerModeSelectionViewController*& __get__multiplayerModeSelectionViewController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController>& __cordl_internal_get__multiplayerModeSelectionViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerModeSelectionViewController*> const& __get__multiplayerModeSelectionViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController> const& __cordl_internal_get__multiplayerModeSelectionViewController() const;
 
-  constexpr void __set__multiplayerModeSelectionViewController(::GlobalNamespace::MultiplayerModeSelectionViewController* value);
+  constexpr void __cordl_internal_set__multiplayerModeSelectionViewController(::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController> value);
 
-  constexpr ::GlobalNamespace::CreateServerViewController*& __get__createServerViewController();
+  constexpr ::UnityW<::GlobalNamespace::CreateServerViewController>& __cordl_internal_get__createServerViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CreateServerViewController*> const& __get__createServerViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::CreateServerViewController> const& __cordl_internal_get__createServerViewController() const;
 
-  constexpr void __set__createServerViewController(::GlobalNamespace::CreateServerViewController* value);
+  constexpr void __cordl_internal_set__createServerViewController(::UnityW<::GlobalNamespace::CreateServerViewController> value);
 
-  constexpr ::GlobalNamespace::JoinQuickPlayViewController*& __get__joinQuickPlayViewController();
+  constexpr ::UnityW<::GlobalNamespace::JoinQuickPlayViewController>& __cordl_internal_get__joinQuickPlayViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::JoinQuickPlayViewController*> const& __get__joinQuickPlayViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::JoinQuickPlayViewController> const& __cordl_internal_get__joinQuickPlayViewController() const;
 
-  constexpr void __set__joinQuickPlayViewController(::GlobalNamespace::JoinQuickPlayViewController* value);
+  constexpr void __cordl_internal_set__joinQuickPlayViewController(::UnityW<::GlobalNamespace::JoinQuickPlayViewController> value);
 
-  constexpr ::GlobalNamespace::ServerCodeEntryViewController*& __get__serverCodeEntryViewController();
+  constexpr ::UnityW<::GlobalNamespace::ServerCodeEntryViewController>& __cordl_internal_get__serverCodeEntryViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ServerCodeEntryViewController*> const& __get__serverCodeEntryViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::ServerCodeEntryViewController> const& __cordl_internal_get__serverCodeEntryViewController() const;
 
-  constexpr void __set__serverCodeEntryViewController(::GlobalNamespace::ServerCodeEntryViewController* value);
+  constexpr void __cordl_internal_set__serverCodeEntryViewController(::UnityW<::GlobalNamespace::ServerCodeEntryViewController> value);
 
-  constexpr ::GlobalNamespace::SimpleDialogPromptViewController*& __get__simpleDialogPromptViewController();
+  constexpr ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController>& __cordl_internal_get__simpleDialogPromptViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SimpleDialogPromptViewController*> const& __get__simpleDialogPromptViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> const& __cordl_internal_get__simpleDialogPromptViewController() const;
 
-  constexpr void __set__simpleDialogPromptViewController(::GlobalNamespace::SimpleDialogPromptViewController* value);
+  constexpr void __cordl_internal_set__simpleDialogPromptViewController(::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> value);
 
-  constexpr ::GlobalNamespace::JoiningLobbyViewController*& __get__joiningLobbyViewController();
+  constexpr ::UnityW<::GlobalNamespace::JoiningLobbyViewController>& __cordl_internal_get__joiningLobbyViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::JoiningLobbyViewController*> const& __get__joiningLobbyViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::JoiningLobbyViewController> const& __cordl_internal_get__joiningLobbyViewController() const;
 
-  constexpr void __set__joiningLobbyViewController(::GlobalNamespace::JoiningLobbyViewController* value);
+  constexpr void __cordl_internal_set__joiningLobbyViewController(::UnityW<::GlobalNamespace::JoiningLobbyViewController> value);
 
-  constexpr ::GlobalNamespace::IUnifiedNetworkPlayerModel*& __get__unifiedNetworkPlayerModel();
+  constexpr ::GlobalNamespace::IUnifiedNetworkPlayerModel*& __cordl_internal_get__unifiedNetworkPlayerModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IUnifiedNetworkPlayerModel*> const& __get__unifiedNetworkPlayerModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IUnifiedNetworkPlayerModel*> const& __cordl_internal_get__unifiedNetworkPlayerModel() const;
 
-  constexpr void __set__unifiedNetworkPlayerModel(::GlobalNamespace::IUnifiedNetworkPlayerModel* value);
+  constexpr void __cordl_internal_set__unifiedNetworkPlayerModel(::GlobalNamespace::IUnifiedNetworkPlayerModel* value);
 
-  constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection*& __get__avatarSystemCollection();
+  constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection*& __cordl_internal_get__avatarSystemCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::AvatarSystemCollection*> const& __get__avatarSystemCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::AvatarSystemCollection*> const& __cordl_internal_get__avatarSystemCollection() const;
 
-  constexpr void __set__avatarSystemCollection(::BeatSaber::AvatarCore::AvatarSystemCollection* value);
+  constexpr void __cordl_internal_set__avatarSystemCollection(::BeatSaber::AvatarCore::AvatarSystemCollection* value);
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr ::GlobalNamespace::FadeInOutController*& __get__fadeInOutController();
+  constexpr ::UnityW<::GlobalNamespace::FadeInOutController>& __cordl_internal_get__fadeInOutController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FadeInOutController*> const& __get__fadeInOutController() const;
+  constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& __cordl_internal_get__fadeInOutController() const;
 
-  constexpr void __set__fadeInOutController(::GlobalNamespace::FadeInOutController* value);
+  constexpr void __cordl_internal_set__fadeInOutController(::UnityW<::GlobalNamespace::FadeInOutController> value);
 
-  constexpr ::GlobalNamespace::LobbyDataModelsManager*& __get__lobbyDataModelsManager();
+  constexpr ::GlobalNamespace::LobbyDataModelsManager*& __cordl_internal_get__lobbyDataModelsManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyDataModelsManager*> const& __get__lobbyDataModelsManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyDataModelsManager*> const& __cordl_internal_get__lobbyDataModelsManager() const;
 
-  constexpr void __set__lobbyDataModelsManager(::GlobalNamespace::LobbyDataModelsManager* value);
+  constexpr void __cordl_internal_set__lobbyDataModelsManager(::GlobalNamespace::LobbyDataModelsManager* value);
 
-  constexpr ::GlobalNamespace::MultiplayerLobbyConnectionController*& __get__multiplayerLobbyConnectionController();
+  constexpr ::GlobalNamespace::MultiplayerLobbyConnectionController*& __cordl_internal_get__multiplayerLobbyConnectionController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLobbyConnectionController*> const& __get__multiplayerLobbyConnectionController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLobbyConnectionController*> const& __cordl_internal_get__multiplayerLobbyConnectionController() const;
 
-  constexpr void __set__multiplayerLobbyConnectionController(::GlobalNamespace::MultiplayerLobbyConnectionController* value);
+  constexpr void __cordl_internal_set__multiplayerLobbyConnectionController(::GlobalNamespace::MultiplayerLobbyConnectionController* value);
 
-  constexpr ::GlobalNamespace::IMultiplayerStatusModel*& __get__multiplayerStatusModel();
+  constexpr ::GlobalNamespace::IMultiplayerStatusModel*& __cordl_internal_get__multiplayerStatusModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerStatusModel*> const& __get__multiplayerStatusModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerStatusModel*> const& __cordl_internal_get__multiplayerStatusModel() const;
 
-  constexpr void __set__multiplayerStatusModel(::GlobalNamespace::IMultiplayerStatusModel* value);
+  constexpr void __cordl_internal_set__multiplayerStatusModel(::GlobalNamespace::IMultiplayerStatusModel* value);
 
-  constexpr ::GlobalNamespace::IQuickPlaySetupModel*& __get__quickPlaySetupModel();
+  constexpr ::GlobalNamespace::IQuickPlaySetupModel*& __cordl_internal_get__quickPlaySetupModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IQuickPlaySetupModel*> const& __get__quickPlaySetupModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IQuickPlaySetupModel*> const& __cordl_internal_get__quickPlaySetupModel() const;
 
-  constexpr void __set__quickPlaySetupModel(::GlobalNamespace::IQuickPlaySetupModel* value);
+  constexpr void __cordl_internal_set__quickPlaySetupModel(::GlobalNamespace::IQuickPlaySetupModel* value);
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::GlobalNamespace::SongPreviewPlayer*& __get__songPreviewPlayer();
+  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer>& __cordl_internal_get__songPreviewPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPreviewPlayer*> const& __get__songPreviewPlayer() const;
+  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer> const& __cordl_internal_get__songPreviewPlayer() const;
 
-  constexpr void __set__songPreviewPlayer(::GlobalNamespace::SongPreviewPlayer* value);
+  constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::SongPreviewPlayer> value);
 
-  constexpr ::GlobalNamespace::IAnalyticsModel*& __get__analyticsModel();
+  constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __get__analyticsModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __cordl_internal_get__analyticsModel() const;
 
-  constexpr void __set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
+  constexpr void __cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
 
-  constexpr ::GlobalNamespace::ILobbyGameStateController*& __get__lobbyGameStateController();
+  constexpr ::GlobalNamespace::ILobbyGameStateController*& __cordl_internal_get__lobbyGameStateController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyGameStateController*> const& __get__lobbyGameStateController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyGameStateController*> const& __cordl_internal_get__lobbyGameStateController() const;
 
-  constexpr void __set__lobbyGameStateController(::GlobalNamespace::ILobbyGameStateController* value);
+  constexpr void __cordl_internal_set__lobbyGameStateController(::GlobalNamespace::ILobbyGameStateController* value);
 
-  constexpr ::GlobalNamespace::XPlatformAuthFeatureFlag*& __get__xPlatformAuthFeatureFlag();
+  constexpr ::GlobalNamespace::XPlatformAuthFeatureFlag*& __cordl_internal_get__xPlatformAuthFeatureFlag();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::XPlatformAuthFeatureFlag*> const& __get__xPlatformAuthFeatureFlag() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::XPlatformAuthFeatureFlag*> const& __cordl_internal_get__xPlatformAuthFeatureFlag() const;
 
-  constexpr void __set__xPlatformAuthFeatureFlag(::GlobalNamespace::XPlatformAuthFeatureFlag* value);
+  constexpr void __cordl_internal_set__xPlatformAuthFeatureFlag(::GlobalNamespace::XPlatformAuthFeatureFlag* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>*& __get_didFinishEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>*> const& __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>*> const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* value);
 
-  constexpr ::System::Threading::CancellationTokenSource*& __get__joiningLobbyCancellationTokenSource();
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__joiningLobbyCancellationTokenSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __get__joiningLobbyCancellationTokenSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__joiningLobbyCancellationTokenSource() const;
 
-  constexpr void __set__joiningLobbyCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+  constexpr void __cordl_internal_set__joiningLobbyCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  constexpr ::System::Threading::CancellationTokenSource*& __get__cancellationTokenSource();
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __get__cancellationTokenSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
 
-  constexpr void __set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+  constexpr void __cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __get__transitionFinishedTaskSource();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get__transitionFinishedTaskSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __get__transitionFinishedTaskSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __cordl_internal_get__transitionFinishedTaskSource() const;
 
-  constexpr void __set__transitionFinishedTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+  constexpr void __cordl_internal_set__transitionFinishedTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __get__checkingAvailabilityTaskSource();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get__checkingAvailabilityTaskSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __get__checkingAvailabilityTaskSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __cordl_internal_get__checkingAvailabilityTaskSource() const;
 
-  constexpr void __set__checkingAvailabilityTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+  constexpr void __cordl_internal_set__checkingAvailabilityTaskSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  constexpr ::GlobalNamespace::QuickPlaySetupData*& __get__quickPlaySetupData();
+  constexpr ::GlobalNamespace::QuickPlaySetupData*& __cordl_internal_get__quickPlaySetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::QuickPlaySetupData*> const& __get__quickPlaySetupData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::QuickPlaySetupData*> const& __cordl_internal_get__quickPlaySetupData() const;
 
-  constexpr void __set__quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
+  constexpr void __cordl_internal_set__quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
 
-  constexpr ::GlobalNamespace::SelectMultiplayerLobbyDestination*& __get__lobbyDestination();
+  constexpr ::GlobalNamespace::SelectMultiplayerLobbyDestination*& __cordl_internal_get__lobbyDestination();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SelectMultiplayerLobbyDestination*> const& __get__lobbyDestination() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SelectMultiplayerLobbyDestination*> const& __cordl_internal_get__lobbyDestination() const;
 
-  constexpr void __set__lobbyDestination(::GlobalNamespace::SelectMultiplayerLobbyDestination* value);
+  constexpr void __cordl_internal_set__lobbyDestination(::GlobalNamespace::SelectMultiplayerLobbyDestination* value);
 
   /// @brief Method add_didFinishEvent, addr 0x228ba68, size 0xb4, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value);
+  inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x228c33c, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* value);
+  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* value);
 
   /// @brief Method Setup, addr 0x2296038, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::SelectMultiplayerLobbyDestination* lobbyDestination);
@@ -802,34 +814,34 @@ protected:
 
 public:
   /// @brief Field _ambienceAudioClip, offset: 0xa8, size: 0x8, def value: None
-  ::UnityEngine::AudioClip* ____ambienceAudioClip;
+  ::UnityW<::UnityEngine::AudioClip> ____ambienceAudioClip;
 
   /// @brief Field _songPackMasksModel, offset: 0xb0, size: 0x8, def value: None
   ::GlobalNamespace::SongPackMasksModel* ____songPackMasksModel;
 
   /// @brief Field _gameServerBrowserFlowCoordinator, offset: 0xb8, size: 0x8, def value: None
-  ::GlobalNamespace::GameServerBrowserFlowCoordinator* ____gameServerBrowserFlowCoordinator;
+  ::UnityW<::GlobalNamespace::GameServerBrowserFlowCoordinator> ____gameServerBrowserFlowCoordinator;
 
   /// @brief Field _gameServerLobbyFlowCoordinator, offset: 0xc0, size: 0x8, def value: None
-  ::GlobalNamespace::GameServerLobbyFlowCoordinator* ____gameServerLobbyFlowCoordinator;
+  ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator> ____gameServerLobbyFlowCoordinator;
 
   /// @brief Field _multiplayerModeSelectionViewController, offset: 0xc8, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerModeSelectionViewController* ____multiplayerModeSelectionViewController;
+  ::UnityW<::GlobalNamespace::MultiplayerModeSelectionViewController> ____multiplayerModeSelectionViewController;
 
   /// @brief Field _createServerViewController, offset: 0xd0, size: 0x8, def value: None
-  ::GlobalNamespace::CreateServerViewController* ____createServerViewController;
+  ::UnityW<::GlobalNamespace::CreateServerViewController> ____createServerViewController;
 
   /// @brief Field _joinQuickPlayViewController, offset: 0xd8, size: 0x8, def value: None
-  ::GlobalNamespace::JoinQuickPlayViewController* ____joinQuickPlayViewController;
+  ::UnityW<::GlobalNamespace::JoinQuickPlayViewController> ____joinQuickPlayViewController;
 
   /// @brief Field _serverCodeEntryViewController, offset: 0xe0, size: 0x8, def value: None
-  ::GlobalNamespace::ServerCodeEntryViewController* ____serverCodeEntryViewController;
+  ::UnityW<::GlobalNamespace::ServerCodeEntryViewController> ____serverCodeEntryViewController;
 
   /// @brief Field _simpleDialogPromptViewController, offset: 0xe8, size: 0x8, def value: None
-  ::GlobalNamespace::SimpleDialogPromptViewController* ____simpleDialogPromptViewController;
+  ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> ____simpleDialogPromptViewController;
 
   /// @brief Field _joiningLobbyViewController, offset: 0xf0, size: 0x8, def value: None
-  ::GlobalNamespace::JoiningLobbyViewController* ____joiningLobbyViewController;
+  ::UnityW<::GlobalNamespace::JoiningLobbyViewController> ____joiningLobbyViewController;
 
   /// @brief Field _unifiedNetworkPlayerModel, offset: 0xf8, size: 0x8, def value: None
   ::GlobalNamespace::IUnifiedNetworkPlayerModel* ____unifiedNetworkPlayerModel;
@@ -841,7 +853,7 @@ public:
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
 
   /// @brief Field _fadeInOutController, offset: 0x110, size: 0x8, def value: None
-  ::GlobalNamespace::FadeInOutController* ____fadeInOutController;
+  ::UnityW<::GlobalNamespace::FadeInOutController> ____fadeInOutController;
 
   /// @brief Field _lobbyDataModelsManager, offset: 0x118, size: 0x8, def value: None
   ::GlobalNamespace::LobbyDataModelsManager* ____lobbyDataModelsManager;
@@ -856,10 +868,10 @@ public:
   ::GlobalNamespace::IQuickPlaySetupModel* ____quickPlaySetupModel;
 
   /// @brief Field _playerDataModel, offset: 0x138, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _songPreviewPlayer, offset: 0x140, size: 0x8, def value: None
-  ::GlobalNamespace::SongPreviewPlayer* ____songPreviewPlayer;
+  ::UnityW<::GlobalNamespace::SongPreviewPlayer> ____songPreviewPlayer;
 
   /// @brief Field _analyticsModel, offset: 0x148, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
@@ -871,7 +883,7 @@ public:
   ::GlobalNamespace::XPlatformAuthFeatureFlag* ____xPlatformAuthFeatureFlag;
 
   /// @brief Field didFinishEvent, offset: 0x160, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator*>* ___didFinishEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerModeSelectionFlowCoordinator>>* ___didFinishEvent;
 
   /// @brief Field _joiningLobbyCancellationTokenSource, offset: 0x168, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____joiningLobbyCancellationTokenSource;

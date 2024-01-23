@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::EditorIK);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12637))
 // CS Name: ::RootMotion.FinalIK::EditorIK*
 class CORDL_TYPE EditorIK : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field ik, offset 0x18, size 0x8
-  __declspec(property(get = __get_ik, put = __set_ik))::RootMotion::FinalIK::IK* ik;
+  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::IK> ik;
 
-  constexpr ::RootMotion::FinalIK::IK*& __get_ik();
+  constexpr ::UnityW<::RootMotion::FinalIK::IK>& __cordl_internal_get_ik();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IK*> const& __get_ik() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::IK> const& __cordl_internal_get_ik() const;
 
-  constexpr void __set_ik(::RootMotion::FinalIK::IK* value);
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::IK> value);
 
   /// @brief Method Start, addr 0x1294d50, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
@@ -58,7 +58,7 @@ protected:
 
 public:
   /// @brief Field ik, offset: 0x18, size: 0x8, def value: None
-  ::RootMotion::FinalIK::IK* ___ik;
+  ::UnityW<::RootMotion::FinalIK::IK> ___ik;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

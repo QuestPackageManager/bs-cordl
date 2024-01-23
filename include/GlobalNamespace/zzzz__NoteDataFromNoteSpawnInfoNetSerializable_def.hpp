@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14759))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14759))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5139))
 // CS Name: ::NoteDataFromNoteSpawnInfoNetSerializable*
 class CORDL_TYPE NoteDataFromNoteSpawnInfoNetSerializable : public ::GlobalNamespace::NoteData {

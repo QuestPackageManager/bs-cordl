@@ -21,14 +21,14 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_TreeInstance);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15470))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15470))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9939))
 // CS Name: ::HoudiniEngineUnity::Test_TreeInstance*
 class CORDL_TYPE Test_TreeInstance : public ::System::Object {
 public:
   // Declarations
   /// @brief Field self, offset 0x10, size 0x28
-  __declspec(property(get = __get_self, put = __set_self))::UnityEngine::TreeInstance self;
+  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self))::UnityEngine::TreeInstance self;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>*() noexcept;
@@ -36,11 +36,11 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_TreeInstance*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_TreeInstance__() noexcept;
 
-  constexpr ::UnityEngine::TreeInstance& __get_self();
+  constexpr ::UnityEngine::TreeInstance& __cordl_internal_get_self();
 
-  constexpr ::UnityEngine::TreeInstance const& __get_self() const;
+  constexpr ::UnityEngine::TreeInstance const& __cordl_internal_get_self() const;
 
-  constexpr void __set_self(::UnityEngine::TreeInstance value);
+  constexpr void __cordl_internal_set_self(::UnityEngine::TreeInstance value);
 
   static inline ::HoudiniEngineUnity::Test_TreeInstance* New_ctor(::UnityEngine::TreeInstance self);
 

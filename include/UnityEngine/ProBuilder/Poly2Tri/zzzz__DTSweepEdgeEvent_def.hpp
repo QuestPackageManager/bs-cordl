@@ -17,29 +17,29 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15332))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DTSweepEdgeEvent*
 class CORDL_TYPE DTSweepEdgeEvent : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ConstrainedEdge, offset 0x10, size 0x8
-  __declspec(property(get = __get_ConstrainedEdge, put = __set_ConstrainedEdge))::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* ConstrainedEdge;
+  __declspec(property(get = __cordl_internal_get_ConstrainedEdge, put = __cordl_internal_set_ConstrainedEdge))::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* ConstrainedEdge;
 
   /// @brief Field Right, offset 0x18, size 0x1
-  __declspec(property(get = __get_Right, put = __set_Right)) bool Right;
+  __declspec(property(get = __cordl_internal_get_Right, put = __cordl_internal_set_Right)) bool Right;
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*& __get_ConstrainedEdge();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*& __cordl_internal_get_ConstrainedEdge();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*> const& __get_ConstrainedEdge() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*> const& __cordl_internal_get_ConstrainedEdge() const;
 
-  constexpr void __set_ConstrainedEdge(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* value);
+  constexpr void __cordl_internal_set_ConstrainedEdge(::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint* value);
 
-  constexpr bool& __get_Right();
+  constexpr bool& __cordl_internal_get_Right();
 
-  constexpr bool const& __get_Right() const;
+  constexpr bool const& __cordl_internal_get_Right() const;
 
-  constexpr void __set_Right(bool value);
+  constexpr void __cordl_internal_set_Right(bool value);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* New_ctor();
 

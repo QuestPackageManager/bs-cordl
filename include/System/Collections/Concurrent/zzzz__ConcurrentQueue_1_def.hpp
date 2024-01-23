@@ -72,7 +72,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3800))
 // CS Name: ::ConcurrentQueue`1::Segment::Slot<T>
 struct CORDL_TYPE __ConcurrentQueue_1__Segment__Slot {
@@ -104,7 +104,7 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3804)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3804))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3801))
 // CS Name: ::ConcurrentQueue`1::Segment<T>*
 class CORDL_TYPE __ConcurrentQueue_1__Segment : public ::System::Object {
@@ -113,63 +113,63 @@ public:
   using Slot = ::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>;
 
   /// @brief Field _slots, offset 0x10, size 0x8
-  __declspec(property(get = __get__slots,
-                      put = __set__slots))::ArrayW<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>, ::Array<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>>*> _slots;
+  __declspec(property(get = __cordl_internal_get__slots,
+                      put = __cordl_internal_set__slots))::ArrayW<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>, ::Array<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>>*> _slots;
 
   /// @brief Field _slotsMask, offset 0x18, size 0x4
-  __declspec(property(get = __get__slotsMask, put = __set__slotsMask)) int32_t _slotsMask;
+  __declspec(property(get = __cordl_internal_get__slotsMask, put = __cordl_internal_set__slotsMask)) int32_t _slotsMask;
 
   /// @brief Field _headAndTail, offset 0x1c, size 0x180
-  __declspec(property(get = __get__headAndTail, put = __set__headAndTail))::System::Collections::Concurrent::PaddedHeadAndTail _headAndTail;
+  __declspec(property(get = __cordl_internal_get__headAndTail, put = __cordl_internal_set__headAndTail))::System::Collections::Concurrent::PaddedHeadAndTail _headAndTail;
 
   /// @brief Field _preservedForObservation, offset 0x19c, size 0x1
-  __declspec(property(get = __get__preservedForObservation, put = __set__preservedForObservation)) bool _preservedForObservation;
+  __declspec(property(get = __cordl_internal_get__preservedForObservation, put = __cordl_internal_set__preservedForObservation)) bool _preservedForObservation;
 
   /// @brief Field _frozenForEnqueues, offset 0x19d, size 0x1
-  __declspec(property(get = __get__frozenForEnqueues, put = __set__frozenForEnqueues)) bool _frozenForEnqueues;
+  __declspec(property(get = __cordl_internal_get__frozenForEnqueues, put = __cordl_internal_set__frozenForEnqueues)) bool _frozenForEnqueues;
 
   /// @brief Field _nextSegment, offset 0x1a0, size 0x8
-  __declspec(property(get = __get__nextSegment, put = __set__nextSegment))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* _nextSegment;
+  __declspec(property(get = __cordl_internal_get__nextSegment, put = __cordl_internal_set__nextSegment))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* _nextSegment;
 
   __declspec(property(get = get_Capacity)) int32_t Capacity;
 
   __declspec(property(get = get_FreezeOffset)) int32_t FreezeOffset;
 
-  constexpr ::ArrayW<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>, ::Array<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>>*>& __get__slots();
+  constexpr ::ArrayW<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>, ::Array<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>>*>& __cordl_internal_get__slots();
 
-  constexpr ::ArrayW<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>, ::Array<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>>*> const& __get__slots() const;
+  constexpr ::ArrayW<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>, ::Array<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>>*> const& __cordl_internal_get__slots() const;
 
-  constexpr void __set__slots(::ArrayW<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>, ::Array<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>>*> value);
+  constexpr void __cordl_internal_set__slots(::ArrayW<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>, ::Array<::GlobalNamespace::__ConcurrentQueue_1__Segment__Slot<T>>*> value);
 
-  constexpr int32_t& __get__slotsMask();
+  constexpr int32_t& __cordl_internal_get__slotsMask();
 
-  constexpr int32_t const& __get__slotsMask() const;
+  constexpr int32_t const& __cordl_internal_get__slotsMask() const;
 
-  constexpr void __set__slotsMask(int32_t value);
+  constexpr void __cordl_internal_set__slotsMask(int32_t value);
 
-  constexpr ::System::Collections::Concurrent::PaddedHeadAndTail& __get__headAndTail();
+  constexpr ::System::Collections::Concurrent::PaddedHeadAndTail& __cordl_internal_get__headAndTail();
 
-  constexpr ::System::Collections::Concurrent::PaddedHeadAndTail const& __get__headAndTail() const;
+  constexpr ::System::Collections::Concurrent::PaddedHeadAndTail const& __cordl_internal_get__headAndTail() const;
 
-  constexpr void __set__headAndTail(::System::Collections::Concurrent::PaddedHeadAndTail value);
+  constexpr void __cordl_internal_set__headAndTail(::System::Collections::Concurrent::PaddedHeadAndTail value);
 
-  constexpr bool& __get__preservedForObservation();
+  constexpr bool& __cordl_internal_get__preservedForObservation();
 
-  constexpr bool const& __get__preservedForObservation() const;
+  constexpr bool const& __cordl_internal_get__preservedForObservation() const;
 
-  constexpr void __set__preservedForObservation(bool value);
+  constexpr void __cordl_internal_set__preservedForObservation(bool value);
 
-  constexpr bool& __get__frozenForEnqueues();
+  constexpr bool& __cordl_internal_get__frozenForEnqueues();
 
-  constexpr bool const& __get__frozenForEnqueues() const;
+  constexpr bool const& __cordl_internal_get__frozenForEnqueues() const;
 
-  constexpr void __set__frozenForEnqueues(bool value);
+  constexpr void __cordl_internal_set__frozenForEnqueues(bool value);
 
-  constexpr ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*& __get__nextSegment();
+  constexpr ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*& __cordl_internal_get__nextSegment();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*> const& __get__nextSegment() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*> const& __cordl_internal_get__nextSegment() const;
 
-  constexpr void __set__nextSegment(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value);
+  constexpr void __cordl_internal_set__nextSegment(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value);
 
   static inline ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* New_ctor(int32_t boundedLength);
 
@@ -233,44 +233,44 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3802))
 // CS Name: ::ConcurrentQueue`1::<Enumerate>d__28<T>*
 class CORDL_TYPE __ConcurrentQueue_1___Enumerate_d__28 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current)) T __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) T __2__current;
 
   /// @brief Field head, offset 0x20, size 0x8
-  __declspec(property(get = __get_head, put = __set_head))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* head;
+  __declspec(property(get = __cordl_internal_get_head, put = __cordl_internal_set_head))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* head;
 
   /// @brief Field tail, offset 0x28, size 0x8
-  __declspec(property(get = __get_tail, put = __set_tail))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* tail;
+  __declspec(property(get = __cordl_internal_get_tail, put = __cordl_internal_set_tail))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* tail;
 
   /// @brief Field tailTail, offset 0x30, size 0x4
-  __declspec(property(get = __get_tailTail, put = __set_tailTail)) int32_t tailTail;
+  __declspec(property(get = __cordl_internal_get_tailTail, put = __cordl_internal_set_tailTail)) int32_t tailTail;
 
   /// @brief Field headHead, offset 0x34, size 0x4
-  __declspec(property(get = __get_headHead, put = __set_headHead)) int32_t headHead;
+  __declspec(property(get = __cordl_internal_get_headHead, put = __cordl_internal_set_headHead)) int32_t headHead;
 
   /// @brief Field <>4__this, offset 0x38, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::System::Collections::Concurrent::ConcurrentQueue_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Collections::Concurrent::ConcurrentQueue_1<T>* __4__this;
 
   /// @brief Field <headTail>5__2, offset 0x40, size 0x4
-  __declspec(property(get = __get__headTail_5__2, put = __set__headTail_5__2)) int32_t _headTail_5__2;
+  __declspec(property(get = __cordl_internal_get__headTail_5__2, put = __cordl_internal_set__headTail_5__2)) int32_t _headTail_5__2;
 
   /// @brief Field <i>5__3, offset 0x44, size 0x4
-  __declspec(property(get = __get__i_5__3, put = __set__i_5__3)) int32_t _i_5__3;
+  __declspec(property(get = __cordl_internal_get__i_5__3, put = __cordl_internal_set__i_5__3)) int32_t _i_5__3;
 
   /// @brief Field <s>5__4, offset 0x48, size 0x8
-  __declspec(property(get = __get__s_5__4, put = __set__s_5__4))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* _s_5__4;
+  __declspec(property(get = __cordl_internal_get__s_5__4, put = __cordl_internal_set__s_5__4))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* _s_5__4;
 
   /// @brief Field <i>5__5, offset 0x50, size 0x4
-  __declspec(property(get = __get__i_5__5, put = __set__i_5__5)) int32_t _i_5__5;
+  __declspec(property(get = __cordl_internal_get__i_5__5, put = __cordl_internal_set__i_5__5)) int32_t _i_5__5;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_T__get_Current)) T System_Collections_Generic_IEnumerator_T__Current;
 
@@ -294,71 +294,71 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr T& __get___2__current();
+  constexpr T& __cordl_internal_get___2__current();
 
-  constexpr T const& __get___2__current() const;
+  constexpr T const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(T value);
+  constexpr void __cordl_internal_set___2__current(T value);
 
-  constexpr ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*& __get_head();
+  constexpr ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*& __cordl_internal_get_head();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*> const& __get_head() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*> const& __cordl_internal_get_head() const;
 
-  constexpr void __set_head(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value);
+  constexpr void __cordl_internal_set_head(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value);
 
-  constexpr ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*& __get_tail();
+  constexpr ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*& __cordl_internal_get_tail();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*> const& __get_tail() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*> const& __cordl_internal_get_tail() const;
 
-  constexpr void __set_tail(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value);
+  constexpr void __cordl_internal_set_tail(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value);
 
-  constexpr int32_t& __get_tailTail();
+  constexpr int32_t& __cordl_internal_get_tailTail();
 
-  constexpr int32_t const& __get_tailTail() const;
+  constexpr int32_t const& __cordl_internal_get_tailTail() const;
 
-  constexpr void __set_tailTail(int32_t value);
+  constexpr void __cordl_internal_set_tailTail(int32_t value);
 
-  constexpr int32_t& __get_headHead();
+  constexpr int32_t& __cordl_internal_get_headHead();
 
-  constexpr int32_t const& __get_headHead() const;
+  constexpr int32_t const& __cordl_internal_get_headHead() const;
 
-  constexpr void __set_headHead(int32_t value);
+  constexpr void __cordl_internal_set_headHead(int32_t value);
 
-  constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<T>*& __get___4__this();
+  constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<T>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentQueue_1<T>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentQueue_1<T>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::System::Collections::Concurrent::ConcurrentQueue_1<T>* value);
+  constexpr void __cordl_internal_set___4__this(::System::Collections::Concurrent::ConcurrentQueue_1<T>* value);
 
-  constexpr int32_t& __get__headTail_5__2();
+  constexpr int32_t& __cordl_internal_get__headTail_5__2();
 
-  constexpr int32_t const& __get__headTail_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__headTail_5__2() const;
 
-  constexpr void __set__headTail_5__2(int32_t value);
+  constexpr void __cordl_internal_set__headTail_5__2(int32_t value);
 
-  constexpr int32_t& __get__i_5__3();
+  constexpr int32_t& __cordl_internal_get__i_5__3();
 
-  constexpr int32_t const& __get__i_5__3() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__3() const;
 
-  constexpr void __set__i_5__3(int32_t value);
+  constexpr void __cordl_internal_set__i_5__3(int32_t value);
 
-  constexpr ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*& __get__s_5__4();
+  constexpr ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*& __cordl_internal_get__s_5__4();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*> const& __get__s_5__4() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*> const& __cordl_internal_get__s_5__4() const;
 
-  constexpr void __set__s_5__4(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value);
+  constexpr void __cordl_internal_set__s_5__4(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value);
 
-  constexpr int32_t& __get__i_5__5();
+  constexpr int32_t& __cordl_internal_get__i_5__5();
 
-  constexpr int32_t const& __get__i_5__5() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__5() const;
 
-  constexpr void __set__i_5__5(int32_t value);
+  constexpr void __cordl_internal_set__i_5__5(int32_t value);
 
   static inline ::System::Collections::Concurrent::__ConcurrentQueue_1___Enumerate_d__28<T>* New_ctor(int32_t __1__state);
 
@@ -437,7 +437,7 @@ namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3803))
 // CS Name: ::System.Collections.Concurrent::ConcurrentQueue`1<T>*
 class CORDL_TYPE ConcurrentQueue_1 : public ::System::Object {
@@ -448,13 +448,13 @@ public:
   using Segment = ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>;
 
   /// @brief Field _crossSegmentLock, offset 0x10, size 0x8
-  __declspec(property(get = __get__crossSegmentLock, put = __set__crossSegmentLock))::System::Object* _crossSegmentLock;
+  __declspec(property(get = __cordl_internal_get__crossSegmentLock, put = __cordl_internal_set__crossSegmentLock))::System::Object* _crossSegmentLock;
 
   /// @brief Field _tail, offset 0x18, size 0x8
-  __declspec(property(get = __get__tail, put = __set__tail))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* _tail;
+  __declspec(property(get = __cordl_internal_get__tail, put = __cordl_internal_set__tail))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* _tail;
 
   /// @brief Field _head, offset 0x20, size 0x8
-  __declspec(property(get = __get__head, put = __set__head))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* _head;
+  __declspec(property(get = __cordl_internal_get__head, put = __cordl_internal_set__head))::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* _head;
 
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
@@ -492,23 +492,23 @@ public:
   /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<T>"
   constexpr ::System::Collections::Generic::IReadOnlyCollection_1<T>* i___System__Collections__Generic__IReadOnlyCollection_1_T_() noexcept;
 
-  constexpr ::System::Object*& __get__crossSegmentLock();
+  constexpr ::System::Object*& __cordl_internal_get__crossSegmentLock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__crossSegmentLock() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__crossSegmentLock() const;
 
-  constexpr void __set__crossSegmentLock(::System::Object* value);
+  constexpr void __cordl_internal_set__crossSegmentLock(::System::Object* value);
 
-  constexpr ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*& __get__tail();
+  constexpr ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*& __cordl_internal_get__tail();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*> const& __get__tail() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*> const& __cordl_internal_get__tail() const;
 
-  constexpr void __set__tail(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value);
+  constexpr void __cordl_internal_set__tail(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value);
 
-  constexpr ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*& __get__head();
+  constexpr ::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*& __cordl_internal_get__head();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*> const& __get__head() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>*> const& __cordl_internal_get__head() const;
 
-  constexpr void __set__head(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value);
+  constexpr void __cordl_internal_set__head(::System::Collections::Concurrent::__ConcurrentQueue_1__Segment<T>* value);
 
   static inline ::System::Collections::Concurrent::ConcurrentQueue_1<T>* New_ctor();
 

@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DropdownMenuAction);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6947))
 // CS Name: ::DropdownMenuAction::Status
 struct CORDL_TYPE __DropdownMenuAction__Status {
@@ -99,7 +99,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__DropdownMenuAction__Status, 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6947)), TypeDefinitionIndex(TypeDefinitionIndex(6945))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6945)), TypeDefinitionIndex(TypeDefinitionIndex(6947))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6948))
 // CS Name: ::UnityEngine.UIElements::DropdownMenuAction*
 class CORDL_TYPE DropdownMenuAction : public ::UnityEngine::UIElements::DropdownMenuItem {
@@ -108,23 +108,26 @@ public:
   using Status = ::UnityEngine::UIElements::__DropdownMenuAction__Status;
 
   /// @brief Field <name>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__name_k__BackingField, put = __set__name_k__BackingField))::StringW _name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__name_k__BackingField, put = __cordl_internal_set__name_k__BackingField))::StringW _name_k__BackingField;
 
   /// @brief Field <status>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__status_k__BackingField, put = __set__status_k__BackingField))::UnityEngine::UIElements::__DropdownMenuAction__Status _status_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__status_k__BackingField,
+                      put = __cordl_internal_set__status_k__BackingField))::UnityEngine::UIElements::__DropdownMenuAction__Status _status_k__BackingField;
 
   /// @brief Field <eventInfo>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__eventInfo_k__BackingField, put = __set__eventInfo_k__BackingField))::UnityEngine::UIElements::DropdownMenuEventInfo* _eventInfo_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__eventInfo_k__BackingField,
+                      put = __cordl_internal_set__eventInfo_k__BackingField))::UnityEngine::UIElements::DropdownMenuEventInfo* _eventInfo_k__BackingField;
 
   /// @brief Field <userData>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__userData_k__BackingField, put = __set__userData_k__BackingField))::System::Object* _userData_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__userData_k__BackingField, put = __cordl_internal_set__userData_k__BackingField))::System::Object* _userData_k__BackingField;
 
   /// @brief Field actionCallback, offset 0x30, size 0x8
-  __declspec(property(get = __get_actionCallback, put = __set_actionCallback))::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* actionCallback;
+  __declspec(property(get = __cordl_internal_get_actionCallback, put = __cordl_internal_set_actionCallback))::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* actionCallback;
 
   /// @brief Field actionStatusCallback, offset 0x38, size 0x8
-  __declspec(property(get = __get_actionStatusCallback,
-                      put = __set_actionStatusCallback))::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* actionStatusCallback;
+  __declspec(property(
+      get = __cordl_internal_get_actionStatusCallback,
+      put = __cordl_internal_set_actionStatusCallback))::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* actionStatusCallback;
 
   __declspec(property(put = set_status))::UnityEngine::UIElements::__DropdownMenuAction__Status status;
 
@@ -132,42 +135,42 @@ public:
 
   __declspec(property(put = set_userData))::System::Object* userData;
 
-  constexpr ::StringW& __get__name_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__name_k__BackingField();
 
-  constexpr ::StringW const& __get__name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__name_k__BackingField() const;
 
-  constexpr void __set__name_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__name_k__BackingField(::StringW value);
 
-  constexpr ::UnityEngine::UIElements::__DropdownMenuAction__Status& __get__status_k__BackingField();
+  constexpr ::UnityEngine::UIElements::__DropdownMenuAction__Status& __cordl_internal_get__status_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::__DropdownMenuAction__Status const& __get__status_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::__DropdownMenuAction__Status const& __cordl_internal_get__status_k__BackingField() const;
 
-  constexpr void __set__status_k__BackingField(::UnityEngine::UIElements::__DropdownMenuAction__Status value);
+  constexpr void __cordl_internal_set__status_k__BackingField(::UnityEngine::UIElements::__DropdownMenuAction__Status value);
 
-  constexpr ::UnityEngine::UIElements::DropdownMenuEventInfo*& __get__eventInfo_k__BackingField();
+  constexpr ::UnityEngine::UIElements::DropdownMenuEventInfo*& __cordl_internal_get__eventInfo_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DropdownMenuEventInfo*> const& __get__eventInfo_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DropdownMenuEventInfo*> const& __cordl_internal_get__eventInfo_k__BackingField() const;
 
-  constexpr void __set__eventInfo_k__BackingField(::UnityEngine::UIElements::DropdownMenuEventInfo* value);
+  constexpr void __cordl_internal_set__eventInfo_k__BackingField(::UnityEngine::UIElements::DropdownMenuEventInfo* value);
 
-  constexpr ::System::Object*& __get__userData_k__BackingField();
+  constexpr ::System::Object*& __cordl_internal_get__userData_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__userData_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__userData_k__BackingField() const;
 
-  constexpr void __set__userData_k__BackingField(::System::Object* value);
+  constexpr void __cordl_internal_set__userData_k__BackingField(::System::Object* value);
 
-  constexpr ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>*& __get_actionCallback();
+  constexpr ::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>*& __cordl_internal_get_actionCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>*> const& __get_actionCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>*> const& __cordl_internal_get_actionCallback() const;
 
-  constexpr void __set_actionCallback(::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* value);
+  constexpr void __cordl_internal_set_actionCallback(::System::Action_1<::UnityEngine::UIElements::DropdownMenuAction*>* value);
 
-  constexpr ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>*& __get_actionStatusCallback();
+  constexpr ::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>*& __cordl_internal_get_actionStatusCallback();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>*> const&
-  __get_actionStatusCallback() const;
+  __cordl_internal_get_actionStatusCallback() const;
 
-  constexpr void __set_actionStatusCallback(::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* value);
+  constexpr void __cordl_internal_set_actionStatusCallback(::System::Func_2<::UnityEngine::UIElements::DropdownMenuAction*, ::UnityEngine::UIElements::__DropdownMenuAction__Status>* value);
 
   /// @brief Method set_status, addr 0x2e0856c, size 0x8, virtual false, abstract: false, final false
   inline void set_status(::UnityEngine::UIElements::__DropdownMenuAction__Status value);

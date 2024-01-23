@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x654;
   constexpr static std::size_t addrs = 0x126518c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), 4));
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x12657e0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), 9));
@@ -43,7 +43,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x126586c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), 8));
@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x1265900;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), 10));
@@ -71,10 +71,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x12659e8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), "IsRoot", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), "IsRoot", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -85,7 +85,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1d8;
   constexpr static std::size_t addrs = 0x1265a78;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), 11));
@@ -100,7 +100,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x1265e78;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), 6));
@@ -115,7 +115,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x1266050;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), 7));
@@ -131,10 +131,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x138;
   constexpr static std::size_t addrs = 0x1265f18;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), "AddPointsToArray", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), "AddPointsToArray", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*>>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::FABRIKChain*>::get() })));
     return ___internal_method;
@@ -148,9 +148,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x228;
   constexpr static std::size_t addrs = 0x1265c50;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), "GetCentroid",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -161,81 +161,81 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x12660d4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& RootMotion::FinalIK::IKSolverFABRIKRoot::__get_iterations() {
+constexpr int32_t& RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_get_iterations() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iterations;
 }
-constexpr int32_t const& RootMotion::FinalIK::IKSolverFABRIKRoot::__get_iterations() const {
+constexpr int32_t const& RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_get_iterations() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iterations;
 }
-constexpr void RootMotion::FinalIK::IKSolverFABRIKRoot::__set_iterations(int32_t value) {
+constexpr void RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_set_iterations(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___iterations = value;
 }
-constexpr float_t& RootMotion::FinalIK::IKSolverFABRIKRoot::__get_rootPin() {
+constexpr float_t& RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_get_rootPin() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootPin;
 }
-constexpr float_t const& RootMotion::FinalIK::IKSolverFABRIKRoot::__get_rootPin() const {
+constexpr float_t const& RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_get_rootPin() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootPin;
 }
-constexpr void RootMotion::FinalIK::IKSolverFABRIKRoot::__set_rootPin(float_t value) {
+constexpr void RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_set_rootPin(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rootPin = value;
 }
-constexpr ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*>& RootMotion::FinalIK::IKSolverFABRIKRoot::__get_chains() {
+constexpr ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*>& RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_get_chains() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chains;
 }
-constexpr ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> const& RootMotion::FinalIK::IKSolverFABRIKRoot::__get_chains() const {
+constexpr ::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> const& RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_get_chains() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___chains;
 }
-constexpr void RootMotion::FinalIK::IKSolverFABRIKRoot::__set_chains(::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> value) {
+constexpr void RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_set_chains(::ArrayW<::RootMotion::FinalIK::FABRIKChain*, ::Array<::RootMotion::FinalIK::FABRIKChain*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___chains)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& RootMotion::FinalIK::IKSolverFABRIKRoot::__get_zeroWeightApplied() {
+constexpr bool& RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_get_zeroWeightApplied() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___zeroWeightApplied;
 }
-constexpr bool const& RootMotion::FinalIK::IKSolverFABRIKRoot::__get_zeroWeightApplied() const {
+constexpr bool const& RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_get_zeroWeightApplied() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___zeroWeightApplied;
 }
-constexpr void RootMotion::FinalIK::IKSolverFABRIKRoot::__set_zeroWeightApplied(bool value) {
+constexpr void RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_set_zeroWeightApplied(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___zeroWeightApplied = value;
 }
-constexpr ::ArrayW<bool, ::Array<bool>*>& RootMotion::FinalIK::IKSolverFABRIKRoot::__get_isRoot() {
+constexpr ::ArrayW<bool, ::Array<bool>*>& RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_get_isRoot() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isRoot;
 }
-constexpr ::ArrayW<bool, ::Array<bool>*> const& RootMotion::FinalIK::IKSolverFABRIKRoot::__get_isRoot() const {
+constexpr ::ArrayW<bool, ::Array<bool>*> const& RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_get_isRoot() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isRoot;
 }
-constexpr void RootMotion::FinalIK::IKSolverFABRIKRoot::__set_isRoot(::ArrayW<bool, ::Array<bool>*> value) {
+constexpr void RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_set_isRoot(::ArrayW<bool, ::Array<bool>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___isRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverFABRIKRoot::__get_rootDefaultPosition() {
+constexpr ::UnityEngine::Vector3& RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_get_rootDefaultPosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootDefaultPosition;
 }
-constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverFABRIKRoot::__get_rootDefaultPosition() const {
+constexpr ::UnityEngine::Vector3 const& RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_get_rootDefaultPosition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___rootDefaultPosition;
 }
-constexpr void RootMotion::FinalIK::IKSolverFABRIKRoot::__set_rootDefaultPosition(::UnityEngine::Vector3 value) {
+constexpr void RootMotion::FinalIK::IKSolverFABRIKRoot::__cordl_internal_set_rootDefaultPosition(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___rootDefaultPosition = value;
 }
@@ -261,8 +261,8 @@ inline void RootMotion::FinalIK::IKSolverFABRIKRoot::OnInitiate() {
 }
 inline bool RootMotion::FinalIK::IKSolverFABRIKRoot::IsRoot(int32_t index) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), "IsRoot", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), "IsRoot",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, index);
 }
 inline void RootMotion::FinalIK::IKSolverFABRIKRoot::OnUpdate() {
@@ -283,23 +283,23 @@ inline ::RootMotion::FinalIK::__IKSolver__Point* RootMotion::FinalIK::IKSolverFA
 inline void RootMotion::FinalIK::IKSolverFABRIKRoot::AddPointsToArray(ByRef<::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*>> array,
                                                                       ::RootMotion::FinalIK::FABRIKChain* chain) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), "AddPointsToArray", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), "AddPointsToArray", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::RootMotion::FinalIK::__IKSolver__Point*, ::Array<::RootMotion::FinalIK::__IKSolver__Point*>*>>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::RootMotion::FinalIK::FABRIKChain*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, chain);
 }
 inline ::UnityEngine::Vector3 RootMotion::FinalIK::IKSolverFABRIKRoot::GetCentroid() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), "GetCentroid",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
 inline ::RootMotion::FinalIK::IKSolverFABRIKRoot* RootMotion::FinalIK::IKSolverFABRIKRoot::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::RootMotion::FinalIK::IKSolverFABRIKRoot*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::RootMotion::FinalIK::IKSolverFABRIKRoot*>());
 }
 inline void RootMotion::FinalIK::IKSolverFABRIKRoot::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::IKSolverFABRIKRoot*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -38,14 +38,14 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlUntypedConverter);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11758))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11758))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11755))
 // CS Name: ::System.Xml.Schema::XmlUntypedConverter*
 class CORDL_TYPE XmlUntypedConverter : public ::System::Xml::Schema::XmlListConverter {
 public:
   // Declarations
   /// @brief Field allowListToList, offset 0x30, size 0x1
-  __declspec(property(get = __get_allowListToList, put = __set_allowListToList)) bool allowListToList;
+  __declspec(property(get = __cordl_internal_get_allowListToList, put = __cordl_internal_set_allowListToList)) bool allowListToList;
 
   /// @brief Field Untyped, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Untyped, put = setStaticF_Untyped))::System::Xml::Schema::XmlValueConverter* Untyped;
@@ -53,11 +53,11 @@ public:
   /// @brief Field UntypedList, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_UntypedList, put = setStaticF_UntypedList))::System::Xml::Schema::XmlValueConverter* UntypedList;
 
-  constexpr bool& __get_allowListToList();
+  constexpr bool& __cordl_internal_get_allowListToList();
 
-  constexpr bool const& __get_allowListToList() const;
+  constexpr bool const& __cordl_internal_get_allowListToList() const;
 
-  constexpr void __set_allowListToList(bool value);
+  constexpr void __cordl_internal_set_allowListToList(bool value);
 
   static inline void setStaticF_Untyped(::System::Xml::Schema::XmlValueConverter* value);
 

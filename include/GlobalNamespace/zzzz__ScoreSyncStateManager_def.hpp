@@ -42,8 +42,8 @@ MARK_REF_PTR_T(::GlobalNamespace::ScoreSyncStateManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12980)), TypeDefinitionIndex(TypeDefinitionIndex(12978)), TypeDefinitionIndex(TypeDefinitionIndex(14951)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14951), inst: 3827 }), TypeDefinitionIndex(TypeDefinitionIndex(12979)), TypeDefinitionIndex(TypeDefinitionIndex(12977))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12977)), TypeDefinitionIndex(TypeDefinitionIndex(12978)), TypeDefinitionIndex(TypeDefinitionIndex(12979)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12980)), TypeDefinitionIndex(TypeDefinitionIndex(14951)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14951), inst: 3827 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(14977)) CS Name: ::ScoreSyncStateManager*
 class CORDL_TYPE ScoreSyncStateManager
     : public ::GlobalNamespace::MultiplayerSyncStateManager_5<::GlobalNamespace::StandardScoreSyncState, ::GlobalNamespace::__StandardScoreSyncState__Score, int32_t,

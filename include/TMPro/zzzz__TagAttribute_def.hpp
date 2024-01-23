@@ -15,7 +15,7 @@ MARK_VAL_T(::TMPro::TagAttribute);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12325))
 // CS Name: ::TMPro::TagAttribute
 struct CORDL_TYPE TagAttribute {

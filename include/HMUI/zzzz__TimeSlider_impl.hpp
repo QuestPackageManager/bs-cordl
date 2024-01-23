@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x254;
   constexpr static std::size_t addrs = 0x2124180;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TimeSlider*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TimeSlider*>::get(), 55));
@@ -32,21 +32,21 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x21243d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TimeSlider*>::get(), ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TimeSlider*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::HMUI::__TimeSlider__TimeType& HMUI::TimeSlider::__get__timeType() {
+constexpr ::HMUI::__TimeSlider__TimeType& HMUI::TimeSlider::__cordl_internal_get__timeType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeType;
 }
-constexpr ::HMUI::__TimeSlider__TimeType const& HMUI::TimeSlider::__get__timeType() const {
+constexpr ::HMUI::__TimeSlider__TimeType const& HMUI::TimeSlider::__cordl_internal_get__timeType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____timeType;
 }
-constexpr void HMUI::TimeSlider::__set__timeType(::HMUI::__TimeSlider__TimeType value) {
+constexpr void HMUI::TimeSlider::__cordl_internal_set__timeType(::HMUI::__TimeSlider__TimeType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____timeType = value;
 }
@@ -56,11 +56,11 @@ inline ::StringW HMUI::TimeSlider::TextForValue(float_t value) {
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, value);
 }
 inline ::HMUI::TimeSlider* HMUI::TimeSlider::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::HMUI::TimeSlider*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::TimeSlider*>());
 }
 inline void HMUI::TimeSlider::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TimeSlider*>::get(), ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TimeSlider*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

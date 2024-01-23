@@ -22,32 +22,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x2579c20;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DebuggableAttribute*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Diagnostics::__DebuggableAttribute__DebuggingModes>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DebuggableAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Diagnostics::__DebuggableAttribute__DebuggingModes>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Diagnostics::__DebuggableAttribute__DebuggingModes& System::Diagnostics::DebuggableAttribute::__get_m_debuggingModes() {
+constexpr ::System::Diagnostics::__DebuggableAttribute__DebuggingModes& System::Diagnostics::DebuggableAttribute::__cordl_internal_get_m_debuggingModes() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_debuggingModes;
 }
-constexpr ::System::Diagnostics::__DebuggableAttribute__DebuggingModes const& System::Diagnostics::DebuggableAttribute::__get_m_debuggingModes() const {
+constexpr ::System::Diagnostics::__DebuggableAttribute__DebuggingModes const& System::Diagnostics::DebuggableAttribute::__cordl_internal_get_m_debuggingModes() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_debuggingModes;
 }
-constexpr void System::Diagnostics::DebuggableAttribute::__set_m_debuggingModes(::System::Diagnostics::__DebuggableAttribute__DebuggingModes value) {
+constexpr void System::Diagnostics::DebuggableAttribute::__cordl_internal_set_m_debuggingModes(::System::Diagnostics::__DebuggableAttribute__DebuggingModes value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_debuggingModes = value;
 }
 inline ::System::Diagnostics::DebuggableAttribute* System::Diagnostics::DebuggableAttribute::New_ctor(::System::Diagnostics::__DebuggableAttribute__DebuggingModes modes) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Diagnostics::DebuggableAttribute*>(modes));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Diagnostics::DebuggableAttribute*>(modes));
 }
 inline void System::Diagnostics::DebuggableAttribute::_ctor(::System::Diagnostics::__DebuggableAttribute__DebuggingModes modes) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DebuggableAttribute*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Diagnostics::__DebuggableAttribute__DebuggingModes>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DebuggableAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Diagnostics::__DebuggableAttribute__DebuggingModes>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, modes);
 }
 // Ctor Parameters []

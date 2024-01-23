@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::EventBase);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7177))
 // CS Name: ::EventBase::EventPropagation
 struct CORDL_TYPE __EventBase__EventPropagation {
@@ -123,7 +123,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__EventBase__EventPropagation,
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7178))
 // CS Name: ::EventBase::LifeCycleStatus
 struct CORDL_TYPE __EventBase__LifeCycleStatus {
@@ -213,8 +213,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__EventBase__LifeCycleStatus, 
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7256)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7177)), TypeDefinitionIndex(TypeDefinitionIndex(7178))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7179)) CS Name: ::UnityEngine.UIElements::EventBase*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7177)), TypeDefinitionIndex(TypeDefinitionIndex(7178)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7256)), TypeDefinitionIndex(TypeDefinitionIndex(10243))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7179)) CS Name: ::UnityEngine.UIElements::EventBase*
 class CORDL_TYPE EventBase : public ::System::Object {
 public:
   // Declarations
@@ -223,45 +223,49 @@ public:
   using EventPropagation = ::UnityEngine::UIElements::__EventBase__EventPropagation;
 
   /// @brief Field <timestamp>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__timestamp_k__BackingField, put = __set__timestamp_k__BackingField)) int64_t _timestamp_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__timestamp_k__BackingField, put = __cordl_internal_set__timestamp_k__BackingField)) int64_t _timestamp_k__BackingField;
 
   /// @brief Field <eventId>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__eventId_k__BackingField, put = __set__eventId_k__BackingField)) uint64_t _eventId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__eventId_k__BackingField, put = __cordl_internal_set__eventId_k__BackingField)) uint64_t _eventId_k__BackingField;
 
   /// @brief Field <triggerEventId>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__triggerEventId_k__BackingField, put = __set__triggerEventId_k__BackingField)) uint64_t _triggerEventId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__triggerEventId_k__BackingField, put = __cordl_internal_set__triggerEventId_k__BackingField)) uint64_t _triggerEventId_k__BackingField;
 
   /// @brief Field <propagation>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__propagation_k__BackingField, put = __set__propagation_k__BackingField))::UnityEngine::UIElements::__EventBase__EventPropagation _propagation_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__propagation_k__BackingField,
+                      put = __cordl_internal_set__propagation_k__BackingField))::UnityEngine::UIElements::__EventBase__EventPropagation _propagation_k__BackingField;
 
   /// @brief Field m_Path, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Path, put = __set_m_Path))::UnityEngine::UIElements::PropagationPaths* m_Path;
+  __declspec(property(get = __cordl_internal_get_m_Path, put = __cordl_internal_set_m_Path))::UnityEngine::UIElements::PropagationPaths* m_Path;
 
   /// @brief Field <lifeCycleStatus>k__BackingField, offset 0x38, size 0x4
-  __declspec(property(get = __get__lifeCycleStatus_k__BackingField,
-                      put = __set__lifeCycleStatus_k__BackingField))::UnityEngine::UIElements::__EventBase__LifeCycleStatus _lifeCycleStatus_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lifeCycleStatus_k__BackingField,
+                      put = __cordl_internal_set__lifeCycleStatus_k__BackingField))::UnityEngine::UIElements::__EventBase__LifeCycleStatus _lifeCycleStatus_k__BackingField;
 
   /// @brief Field <leafTarget>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __get__leafTarget_k__BackingField, put = __set__leafTarget_k__BackingField))::UnityEngine::UIElements::IEventHandler* _leafTarget_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__leafTarget_k__BackingField,
+                      put = __cordl_internal_set__leafTarget_k__BackingField))::UnityEngine::UIElements::IEventHandler* _leafTarget_k__BackingField;
 
   /// @brief Field m_Target, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_Target, put = __set_m_Target))::UnityEngine::UIElements::IEventHandler* m_Target;
+  __declspec(property(get = __cordl_internal_get_m_Target, put = __cordl_internal_set_m_Target))::UnityEngine::UIElements::IEventHandler* m_Target;
 
   /// @brief Field <skipElements>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __get__skipElements_k__BackingField,
-                      put = __set__skipElements_k__BackingField))::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventHandler*>* _skipElements_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__skipElements_k__BackingField,
+                      put = __cordl_internal_set__skipElements_k__BackingField))::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventHandler*>* _skipElements_k__BackingField;
 
   /// @brief Field <propagationPhase>k__BackingField, offset 0x58, size 0x4
-  __declspec(property(get = __get__propagationPhase_k__BackingField, put = __set__propagationPhase_k__BackingField))::UnityEngine::UIElements::PropagationPhase _propagationPhase_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__propagationPhase_k__BackingField,
+                      put = __cordl_internal_set__propagationPhase_k__BackingField))::UnityEngine::UIElements::PropagationPhase _propagationPhase_k__BackingField;
 
   /// @brief Field m_CurrentTarget, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_CurrentTarget, put = __set_m_CurrentTarget))::UnityEngine::UIElements::IEventHandler* m_CurrentTarget;
+  __declspec(property(get = __cordl_internal_get_m_CurrentTarget, put = __cordl_internal_set_m_CurrentTarget))::UnityEngine::UIElements::IEventHandler* m_CurrentTarget;
 
   /// @brief Field m_ImguiEvent, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_ImguiEvent, put = __set_m_ImguiEvent))::UnityEngine::Event* m_ImguiEvent;
+  __declspec(property(get = __cordl_internal_get_m_ImguiEvent, put = __cordl_internal_set_m_ImguiEvent))::UnityEngine::Event* m_ImguiEvent;
 
   /// @brief Field <originalMousePosition>k__BackingField, offset 0x70, size 0x8
-  __declspec(property(get = __get__originalMousePosition_k__BackingField, put = __set__originalMousePosition_k__BackingField))::UnityEngine::Vector2 _originalMousePosition_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__originalMousePosition_k__BackingField,
+                      put = __cordl_internal_set__originalMousePosition_k__BackingField))::UnityEngine::Vector2 _originalMousePosition_k__BackingField;
 
   /// @brief Field s_LastTypeId, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_LastTypeId, put = setStaticF_s_LastTypeId)) int64_t s_LastTypeId;
@@ -333,83 +337,83 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int64_t& __get__timestamp_k__BackingField();
+  constexpr int64_t& __cordl_internal_get__timestamp_k__BackingField();
 
-  constexpr int64_t const& __get__timestamp_k__BackingField() const;
+  constexpr int64_t const& __cordl_internal_get__timestamp_k__BackingField() const;
 
-  constexpr void __set__timestamp_k__BackingField(int64_t value);
+  constexpr void __cordl_internal_set__timestamp_k__BackingField(int64_t value);
 
-  constexpr uint64_t& __get__eventId_k__BackingField();
+  constexpr uint64_t& __cordl_internal_get__eventId_k__BackingField();
 
-  constexpr uint64_t const& __get__eventId_k__BackingField() const;
+  constexpr uint64_t const& __cordl_internal_get__eventId_k__BackingField() const;
 
-  constexpr void __set__eventId_k__BackingField(uint64_t value);
+  constexpr void __cordl_internal_set__eventId_k__BackingField(uint64_t value);
 
-  constexpr uint64_t& __get__triggerEventId_k__BackingField();
+  constexpr uint64_t& __cordl_internal_get__triggerEventId_k__BackingField();
 
-  constexpr uint64_t const& __get__triggerEventId_k__BackingField() const;
+  constexpr uint64_t const& __cordl_internal_get__triggerEventId_k__BackingField() const;
 
-  constexpr void __set__triggerEventId_k__BackingField(uint64_t value);
+  constexpr void __cordl_internal_set__triggerEventId_k__BackingField(uint64_t value);
 
-  constexpr ::UnityEngine::UIElements::__EventBase__EventPropagation& __get__propagation_k__BackingField();
+  constexpr ::UnityEngine::UIElements::__EventBase__EventPropagation& __cordl_internal_get__propagation_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::__EventBase__EventPropagation const& __get__propagation_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::__EventBase__EventPropagation const& __cordl_internal_get__propagation_k__BackingField() const;
 
-  constexpr void __set__propagation_k__BackingField(::UnityEngine::UIElements::__EventBase__EventPropagation value);
+  constexpr void __cordl_internal_set__propagation_k__BackingField(::UnityEngine::UIElements::__EventBase__EventPropagation value);
 
-  constexpr ::UnityEngine::UIElements::PropagationPaths*& __get_m_Path();
+  constexpr ::UnityEngine::UIElements::PropagationPaths*& __cordl_internal_get_m_Path();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::PropagationPaths*> const& __get_m_Path() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::PropagationPaths*> const& __cordl_internal_get_m_Path() const;
 
-  constexpr void __set_m_Path(::UnityEngine::UIElements::PropagationPaths* value);
+  constexpr void __cordl_internal_set_m_Path(::UnityEngine::UIElements::PropagationPaths* value);
 
-  constexpr ::UnityEngine::UIElements::__EventBase__LifeCycleStatus& __get__lifeCycleStatus_k__BackingField();
+  constexpr ::UnityEngine::UIElements::__EventBase__LifeCycleStatus& __cordl_internal_get__lifeCycleStatus_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::__EventBase__LifeCycleStatus const& __get__lifeCycleStatus_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::__EventBase__LifeCycleStatus const& __cordl_internal_get__lifeCycleStatus_k__BackingField() const;
 
-  constexpr void __set__lifeCycleStatus_k__BackingField(::UnityEngine::UIElements::__EventBase__LifeCycleStatus value);
+  constexpr void __cordl_internal_set__lifeCycleStatus_k__BackingField(::UnityEngine::UIElements::__EventBase__LifeCycleStatus value);
 
-  constexpr ::UnityEngine::UIElements::IEventHandler*& __get__leafTarget_k__BackingField();
+  constexpr ::UnityEngine::UIElements::IEventHandler*& __cordl_internal_get__leafTarget_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IEventHandler*> const& __get__leafTarget_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IEventHandler*> const& __cordl_internal_get__leafTarget_k__BackingField() const;
 
-  constexpr void __set__leafTarget_k__BackingField(::UnityEngine::UIElements::IEventHandler* value);
+  constexpr void __cordl_internal_set__leafTarget_k__BackingField(::UnityEngine::UIElements::IEventHandler* value);
 
-  constexpr ::UnityEngine::UIElements::IEventHandler*& __get_m_Target();
+  constexpr ::UnityEngine::UIElements::IEventHandler*& __cordl_internal_get_m_Target();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IEventHandler*> const& __get_m_Target() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IEventHandler*> const& __cordl_internal_get_m_Target() const;
 
-  constexpr void __set_m_Target(::UnityEngine::UIElements::IEventHandler* value);
+  constexpr void __cordl_internal_set_m_Target(::UnityEngine::UIElements::IEventHandler* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventHandler*>*& __get__skipElements_k__BackingField();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventHandler*>*& __cordl_internal_get__skipElements_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventHandler*>*> const& __get__skipElements_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventHandler*>*> const& __cordl_internal_get__skipElements_k__BackingField() const;
 
-  constexpr void __set__skipElements_k__BackingField(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventHandler*>* value);
+  constexpr void __cordl_internal_set__skipElements_k__BackingField(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventHandler*>* value);
 
-  constexpr ::UnityEngine::UIElements::PropagationPhase& __get__propagationPhase_k__BackingField();
+  constexpr ::UnityEngine::UIElements::PropagationPhase& __cordl_internal_get__propagationPhase_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::PropagationPhase const& __get__propagationPhase_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::PropagationPhase const& __cordl_internal_get__propagationPhase_k__BackingField() const;
 
-  constexpr void __set__propagationPhase_k__BackingField(::UnityEngine::UIElements::PropagationPhase value);
+  constexpr void __cordl_internal_set__propagationPhase_k__BackingField(::UnityEngine::UIElements::PropagationPhase value);
 
-  constexpr ::UnityEngine::UIElements::IEventHandler*& __get_m_CurrentTarget();
+  constexpr ::UnityEngine::UIElements::IEventHandler*& __cordl_internal_get_m_CurrentTarget();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IEventHandler*> const& __get_m_CurrentTarget() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IEventHandler*> const& __cordl_internal_get_m_CurrentTarget() const;
 
-  constexpr void __set_m_CurrentTarget(::UnityEngine::UIElements::IEventHandler* value);
+  constexpr void __cordl_internal_set_m_CurrentTarget(::UnityEngine::UIElements::IEventHandler* value);
 
-  constexpr ::UnityEngine::Event*& __get_m_ImguiEvent();
+  constexpr ::UnityEngine::Event*& __cordl_internal_get_m_ImguiEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Event*> const& __get_m_ImguiEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Event*> const& __cordl_internal_get_m_ImguiEvent() const;
 
-  constexpr void __set_m_ImguiEvent(::UnityEngine::Event* value);
+  constexpr void __cordl_internal_set_m_ImguiEvent(::UnityEngine::Event* value);
 
-  constexpr ::UnityEngine::Vector2& __get__originalMousePosition_k__BackingField();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__originalMousePosition_k__BackingField();
 
-  constexpr ::UnityEngine::Vector2 const& __get__originalMousePosition_k__BackingField() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__originalMousePosition_k__BackingField() const;
 
-  constexpr void __set__originalMousePosition_k__BackingField(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__originalMousePosition_k__BackingField(::UnityEngine::Vector2 value);
 
   static inline void setStaticF_s_LastTypeId(int64_t value);
 

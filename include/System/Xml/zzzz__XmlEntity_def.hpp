@@ -27,35 +27,35 @@ MARK_REF_PTR_T(::System::Xml::XmlEntity);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11520))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11520))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11509))
 // CS Name: ::System.Xml::XmlEntity*
 class CORDL_TYPE XmlEntity : public ::System::Xml::XmlNode {
 public:
   // Declarations
   /// @brief Field publicId, offset 0x18, size 0x8
-  __declspec(property(get = __get_publicId, put = __set_publicId))::StringW publicId;
+  __declspec(property(get = __cordl_internal_get_publicId, put = __cordl_internal_set_publicId))::StringW publicId;
 
   /// @brief Field systemId, offset 0x20, size 0x8
-  __declspec(property(get = __get_systemId, put = __set_systemId))::StringW systemId;
+  __declspec(property(get = __cordl_internal_get_systemId, put = __cordl_internal_set_systemId))::StringW systemId;
 
   /// @brief Field notationName, offset 0x28, size 0x8
-  __declspec(property(get = __get_notationName, put = __set_notationName))::StringW notationName;
+  __declspec(property(get = __cordl_internal_get_notationName, put = __cordl_internal_set_notationName))::StringW notationName;
 
   /// @brief Field name, offset 0x30, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field unparsedReplacementStr, offset 0x38, size 0x8
-  __declspec(property(get = __get_unparsedReplacementStr, put = __set_unparsedReplacementStr))::StringW unparsedReplacementStr;
+  __declspec(property(get = __cordl_internal_get_unparsedReplacementStr, put = __cordl_internal_set_unparsedReplacementStr))::StringW unparsedReplacementStr;
 
   /// @brief Field baseURI, offset 0x40, size 0x8
-  __declspec(property(get = __get_baseURI, put = __set_baseURI))::StringW baseURI;
+  __declspec(property(get = __cordl_internal_get_baseURI, put = __cordl_internal_set_baseURI))::StringW baseURI;
 
   /// @brief Field lastChild, offset 0x48, size 0x8
-  __declspec(property(get = __get_lastChild, put = __set_lastChild))::System::Xml::XmlLinkedNode* lastChild;
+  __declspec(property(get = __cordl_internal_get_lastChild, put = __cordl_internal_set_lastChild))::System::Xml::XmlLinkedNode* lastChild;
 
   /// @brief Field childrenFoliating, offset 0x50, size 0x1
-  __declspec(property(get = __get_childrenFoliating, put = __set_childrenFoliating)) bool childrenFoliating;
+  __declspec(property(get = __cordl_internal_get_childrenFoliating, put = __cordl_internal_set_childrenFoliating)) bool childrenFoliating;
 
   __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
@@ -77,53 +77,53 @@ public:
 
   __declspec(property(get = get_BaseURI))::StringW BaseURI;
 
-  constexpr ::StringW& __get_publicId();
+  constexpr ::StringW& __cordl_internal_get_publicId();
 
-  constexpr ::StringW const& __get_publicId() const;
+  constexpr ::StringW const& __cordl_internal_get_publicId() const;
 
-  constexpr void __set_publicId(::StringW value);
+  constexpr void __cordl_internal_set_publicId(::StringW value);
 
-  constexpr ::StringW& __get_systemId();
+  constexpr ::StringW& __cordl_internal_get_systemId();
 
-  constexpr ::StringW const& __get_systemId() const;
+  constexpr ::StringW const& __cordl_internal_get_systemId() const;
 
-  constexpr void __set_systemId(::StringW value);
+  constexpr void __cordl_internal_set_systemId(::StringW value);
 
-  constexpr ::StringW& __get_notationName();
+  constexpr ::StringW& __cordl_internal_get_notationName();
 
-  constexpr ::StringW const& __get_notationName() const;
+  constexpr ::StringW const& __cordl_internal_get_notationName() const;
 
-  constexpr void __set_notationName(::StringW value);
+  constexpr void __cordl_internal_set_notationName(::StringW value);
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::StringW& __get_unparsedReplacementStr();
+  constexpr ::StringW& __cordl_internal_get_unparsedReplacementStr();
 
-  constexpr ::StringW const& __get_unparsedReplacementStr() const;
+  constexpr ::StringW const& __cordl_internal_get_unparsedReplacementStr() const;
 
-  constexpr void __set_unparsedReplacementStr(::StringW value);
+  constexpr void __cordl_internal_set_unparsedReplacementStr(::StringW value);
 
-  constexpr ::StringW& __get_baseURI();
+  constexpr ::StringW& __cordl_internal_get_baseURI();
 
-  constexpr ::StringW const& __get_baseURI() const;
+  constexpr ::StringW const& __cordl_internal_get_baseURI() const;
 
-  constexpr void __set_baseURI(::StringW value);
+  constexpr void __cordl_internal_set_baseURI(::StringW value);
 
-  constexpr ::System::Xml::XmlLinkedNode*& __get_lastChild();
+  constexpr ::System::Xml::XmlLinkedNode*& __cordl_internal_get_lastChild();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlLinkedNode*> const& __get_lastChild() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlLinkedNode*> const& __cordl_internal_get_lastChild() const;
 
-  constexpr void __set_lastChild(::System::Xml::XmlLinkedNode* value);
+  constexpr void __cordl_internal_set_lastChild(::System::Xml::XmlLinkedNode* value);
 
-  constexpr bool& __get_childrenFoliating();
+  constexpr bool& __cordl_internal_get_childrenFoliating();
 
-  constexpr bool const& __get_childrenFoliating() const;
+  constexpr bool const& __cordl_internal_get_childrenFoliating() const;
 
-  constexpr void __set_childrenFoliating(bool value);
+  constexpr void __cordl_internal_set_childrenFoliating(bool value);
 
   static inline ::System::Xml::XmlEntity* New_ctor(::StringW name, ::StringW strdata, ::StringW publicId, ::StringW systemId, ::StringW notationName, ::System::Xml::XmlDocument* doc);
 

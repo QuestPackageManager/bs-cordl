@@ -21,30 +21,30 @@ MARK_REF_PTR_T(::GlobalNamespace::MixedLightsColorSetterRuntimeLightWithIds);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14552))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14552))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14547))
 // CS Name: ::MixedLightsColorSetterRuntimeLightWithIds*
 class CORDL_TYPE MixedLightsColorSetterRuntimeLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
 public:
   // Declarations
   /// @brief Field _materialPropertyBlockColorSetter, offset 0x48, size 0x8
-  __declspec(property(get = __get__materialPropertyBlockColorSetter,
-                      put = __set__materialPropertyBlockColorSetter))::GlobalNamespace::MaterialPropertyBlockColorSetter* _materialPropertyBlockColorSetter;
+  __declspec(property(get = __cordl_internal_get__materialPropertyBlockColorSetter,
+                      put = __cordl_internal_set__materialPropertyBlockColorSetter))::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> _materialPropertyBlockColorSetter;
 
   /// @brief Field _lightMultiplier, offset 0x50, size 0x4
-  __declspec(property(get = __get__lightMultiplier, put = __set__lightMultiplier)) float_t _lightMultiplier;
+  __declspec(property(get = __cordl_internal_get__lightMultiplier, put = __cordl_internal_set__lightMultiplier)) float_t _lightMultiplier;
 
-  constexpr ::GlobalNamespace::MaterialPropertyBlockColorSetter*& __get__materialPropertyBlockColorSetter();
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter>& __cordl_internal_get__materialPropertyBlockColorSetter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockColorSetter*> const& __get__materialPropertyBlockColorSetter() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> const& __cordl_internal_get__materialPropertyBlockColorSetter() const;
 
-  constexpr void __set__materialPropertyBlockColorSetter(::GlobalNamespace::MaterialPropertyBlockColorSetter* value);
+  constexpr void __cordl_internal_set__materialPropertyBlockColorSetter(::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> value);
 
-  constexpr float_t& __get__lightMultiplier();
+  constexpr float_t& __cordl_internal_get__lightMultiplier();
 
-  constexpr float_t const& __get__lightMultiplier() const;
+  constexpr float_t const& __cordl_internal_get__lightMultiplier() const;
 
-  constexpr void __set__lightMultiplier(float_t value);
+  constexpr void __cordl_internal_set__lightMultiplier(float_t value);
 
   /// @brief Method ColorWasSet, addr 0x2111e74, size 0x34, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
@@ -69,7 +69,7 @@ protected:
 
 public:
   /// @brief Field _materialPropertyBlockColorSetter, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::MaterialPropertyBlockColorSetter* ____materialPropertyBlockColorSetter;
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> ____materialPropertyBlockColorSetter;
 
   /// @brief Field _lightMultiplier, offset: 0x50, size: 0x4, def value: None
   float_t ____lightMultiplier;

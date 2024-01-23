@@ -47,39 +47,46 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Keyboard);
 // SizeInfo { instance_size: 448, native_size: -1, calculated_instance_size: 448, calculated_native_size: 448, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3862 }), TypeDefinitionIndex(TypeDefinitionIndex(6529)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6239)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 292 }), TypeDefinitionIndex(TypeDefinitionIndex(2323)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 324 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3863 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6669))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6243)) CS Name: ::UnityEngine.InputSystem::Keyboard*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(6239)), TypeDefinitionIndex(TypeDefinitionIndex(6529)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 292 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2323), inst: 324 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3862 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6669), inst: 3863 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6243)) CS Name: ::UnityEngine.InputSystem::Keyboard*
 class CORDL_TYPE Keyboard : public ::UnityEngine::InputSystem::InputDevice {
 public:
   // Declarations
   /// @brief Field <anyKey>k__BackingField, offset 0x158, size 0x8
-  __declspec(property(get = __get__anyKey_k__BackingField, put = __set__anyKey_k__BackingField))::UnityEngine::InputSystem::Controls::AnyKeyControl* _anyKey_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__anyKey_k__BackingField,
+                      put = __cordl_internal_set__anyKey_k__BackingField))::UnityEngine::InputSystem::Controls::AnyKeyControl* _anyKey_k__BackingField;
 
   /// @brief Field <shiftKey>k__BackingField, offset 0x160, size 0x8
-  __declspec(property(get = __get__shiftKey_k__BackingField, put = __set__shiftKey_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _shiftKey_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__shiftKey_k__BackingField,
+                      put = __cordl_internal_set__shiftKey_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _shiftKey_k__BackingField;
 
   /// @brief Field <ctrlKey>k__BackingField, offset 0x168, size 0x8
-  __declspec(property(get = __get__ctrlKey_k__BackingField, put = __set__ctrlKey_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _ctrlKey_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ctrlKey_k__BackingField,
+                      put = __cordl_internal_set__ctrlKey_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _ctrlKey_k__BackingField;
 
   /// @brief Field <altKey>k__BackingField, offset 0x170, size 0x8
-  __declspec(property(get = __get__altKey_k__BackingField, put = __set__altKey_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _altKey_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__altKey_k__BackingField,
+                      put = __cordl_internal_set__altKey_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _altKey_k__BackingField;
 
   /// @brief Field <imeSelected>k__BackingField, offset 0x178, size 0x8
-  __declspec(property(get = __get__imeSelected_k__BackingField, put = __set__imeSelected_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _imeSelected_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__imeSelected_k__BackingField,
+                      put = __cordl_internal_set__imeSelected_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _imeSelected_k__BackingField;
 
   /// @brief Field m_TextInputListeners, offset 0x180, size 0x18
-  __declspec(property(get = __get_m_TextInputListeners, put = __set_m_TextInputListeners))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Action_1<char16_t>*> m_TextInputListeners;
+  __declspec(property(get = __cordl_internal_get_m_TextInputListeners,
+                      put = __cordl_internal_set_m_TextInputListeners))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Action_1<char16_t>*> m_TextInputListeners;
 
   /// @brief Field m_KeyboardLayoutName, offset 0x198, size 0x8
-  __declspec(property(get = __get_m_KeyboardLayoutName, put = __set_m_KeyboardLayoutName))::StringW m_KeyboardLayoutName;
+  __declspec(property(get = __cordl_internal_get_m_KeyboardLayoutName, put = __cordl_internal_set_m_KeyboardLayoutName))::StringW m_KeyboardLayoutName;
 
   /// @brief Field m_Keys, offset 0x1a0, size 0x8
-  __declspec(property(get = __get_m_Keys, put = __set_m_Keys))::ArrayW<::UnityEngine::InputSystem::Controls::KeyControl*, ::Array<::UnityEngine::InputSystem::Controls::KeyControl*>*> m_Keys;
+  __declspec(property(get = __cordl_internal_get_m_Keys,
+                      put = __cordl_internal_set_m_Keys))::ArrayW<::UnityEngine::InputSystem::Controls::KeyControl*, ::Array<::UnityEngine::InputSystem::Controls::KeyControl*>*> m_Keys;
 
   /// @brief Field m_ImeCompositionListeners, offset 0x1a8, size 0x18
-  __declspec(property(get = __get_m_ImeCompositionListeners, put = __set_m_ImeCompositionListeners))::UnityEngine::InputSystem::Utilities::InlinedArray_1<
+  __declspec(property(get = __cordl_internal_get_m_ImeCompositionListeners, put = __cordl_internal_set_m_ImeCompositionListeners))::UnityEngine::InputSystem::Utilities::InlinedArray_1<
       ::System::Action_1<::UnityEngine::InputSystem::LowLevel::IMECompositionString>*> m_ImeCompositionListeners;
 
   /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
@@ -341,59 +348,61 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::ITextInputReceiver"
   constexpr ::UnityEngine::InputSystem::LowLevel::ITextInputReceiver* i___UnityEngine__InputSystem__LowLevel__ITextInputReceiver() noexcept;
 
-  constexpr ::UnityEngine::InputSystem::Controls::AnyKeyControl*& __get__anyKey_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::AnyKeyControl*& __cordl_internal_get__anyKey_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AnyKeyControl*> const& __get__anyKey_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AnyKeyControl*> const& __cordl_internal_get__anyKey_k__BackingField() const;
 
-  constexpr void __set__anyKey_k__BackingField(::UnityEngine::InputSystem::Controls::AnyKeyControl* value);
+  constexpr void __cordl_internal_set__anyKey_k__BackingField(::UnityEngine::InputSystem::Controls::AnyKeyControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__shiftKey_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__shiftKey_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__shiftKey_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__shiftKey_k__BackingField() const;
 
-  constexpr void __set__shiftKey_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__shiftKey_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__ctrlKey_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__ctrlKey_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__ctrlKey_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__ctrlKey_k__BackingField() const;
 
-  constexpr void __set__ctrlKey_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__ctrlKey_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__altKey_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__altKey_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__altKey_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__altKey_k__BackingField() const;
 
-  constexpr void __set__altKey_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__altKey_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__imeSelected_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__imeSelected_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__imeSelected_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__imeSelected_k__BackingField() const;
 
-  constexpr void __set__imeSelected_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__imeSelected_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Action_1<char16_t>*>& __get_m_TextInputListeners();
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Action_1<char16_t>*>& __cordl_internal_get_m_TextInputListeners();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Action_1<char16_t>*> const& __get_m_TextInputListeners() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Action_1<char16_t>*> const& __cordl_internal_get_m_TextInputListeners() const;
 
-  constexpr void __set_m_TextInputListeners(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Action_1<char16_t>*> value);
+  constexpr void __cordl_internal_set_m_TextInputListeners(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Action_1<char16_t>*> value);
 
-  constexpr ::StringW& __get_m_KeyboardLayoutName();
+  constexpr ::StringW& __cordl_internal_get_m_KeyboardLayoutName();
 
-  constexpr ::StringW const& __get_m_KeyboardLayoutName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_KeyboardLayoutName() const;
 
-  constexpr void __set_m_KeyboardLayoutName(::StringW value);
+  constexpr void __cordl_internal_set_m_KeyboardLayoutName(::StringW value);
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::Controls::KeyControl*, ::Array<::UnityEngine::InputSystem::Controls::KeyControl*>*>& __get_m_Keys();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::Controls::KeyControl*, ::Array<::UnityEngine::InputSystem::Controls::KeyControl*>*>& __cordl_internal_get_m_Keys();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::Controls::KeyControl*, ::Array<::UnityEngine::InputSystem::Controls::KeyControl*>*> const& __get_m_Keys() const;
+  constexpr ::ArrayW<::UnityEngine::InputSystem::Controls::KeyControl*, ::Array<::UnityEngine::InputSystem::Controls::KeyControl*>*> const& __cordl_internal_get_m_Keys() const;
 
-  constexpr void __set_m_Keys(::ArrayW<::UnityEngine::InputSystem::Controls::KeyControl*, ::Array<::UnityEngine::InputSystem::Controls::KeyControl*>*> value);
+  constexpr void __cordl_internal_set_m_Keys(::ArrayW<::UnityEngine::InputSystem::Controls::KeyControl*, ::Array<::UnityEngine::InputSystem::Controls::KeyControl*>*> value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Action_1<::UnityEngine::InputSystem::LowLevel::IMECompositionString>*>& __get_m_ImeCompositionListeners();
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Action_1<::UnityEngine::InputSystem::LowLevel::IMECompositionString>*>& __cordl_internal_get_m_ImeCompositionListeners();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Action_1<::UnityEngine::InputSystem::LowLevel::IMECompositionString>*> const& __get_m_ImeCompositionListeners() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Action_1<::UnityEngine::InputSystem::LowLevel::IMECompositionString>*> const&
+  __cordl_internal_get_m_ImeCompositionListeners() const;
 
-  constexpr void __set_m_ImeCompositionListeners(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Action_1<::UnityEngine::InputSystem::LowLevel::IMECompositionString>*> value);
+  constexpr void
+  __cordl_internal_set_m_ImeCompositionListeners(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Action_1<::UnityEngine::InputSystem::LowLevel::IMECompositionString>*> value);
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Keyboard* value);
 

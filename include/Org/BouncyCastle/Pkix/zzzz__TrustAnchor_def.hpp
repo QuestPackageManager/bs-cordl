@@ -29,29 +29,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::TrustAnchor);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1732))
 // CS Name: ::Org.BouncyCastle.Pkix::TrustAnchor*
 class CORDL_TYPE TrustAnchor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field pubKey, offset 0x10, size 0x8
-  __declspec(property(get = __get_pubKey, put = __set_pubKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey;
+  __declspec(property(get = __cordl_internal_get_pubKey, put = __cordl_internal_set_pubKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey;
 
   /// @brief Field caName, offset 0x18, size 0x8
-  __declspec(property(get = __get_caName, put = __set_caName))::StringW caName;
+  __declspec(property(get = __cordl_internal_get_caName, put = __cordl_internal_set_caName))::StringW caName;
 
   /// @brief Field caPrincipal, offset 0x20, size 0x8
-  __declspec(property(get = __get_caPrincipal, put = __set_caPrincipal))::Org::BouncyCastle::Asn1::X509::X509Name* caPrincipal;
+  __declspec(property(get = __cordl_internal_get_caPrincipal, put = __cordl_internal_set_caPrincipal))::Org::BouncyCastle::Asn1::X509::X509Name* caPrincipal;
 
   /// @brief Field trustedCert, offset 0x28, size 0x8
-  __declspec(property(get = __get_trustedCert, put = __set_trustedCert))::Org::BouncyCastle::X509::X509Certificate* trustedCert;
+  __declspec(property(get = __cordl_internal_get_trustedCert, put = __cordl_internal_set_trustedCert))::Org::BouncyCastle::X509::X509Certificate* trustedCert;
 
   /// @brief Field ncBytes, offset 0x30, size 0x8
-  __declspec(property(get = __get_ncBytes, put = __set_ncBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> ncBytes;
+  __declspec(property(get = __cordl_internal_get_ncBytes, put = __cordl_internal_set_ncBytes))::ArrayW<uint8_t, ::Array<uint8_t>*> ncBytes;
 
   /// @brief Field nc, offset 0x38, size 0x8
-  __declspec(property(get = __get_nc, put = __set_nc))::Org::BouncyCastle::Asn1::X509::NameConstraints* nc;
+  __declspec(property(get = __cordl_internal_get_nc, put = __cordl_internal_set_nc))::Org::BouncyCastle::Asn1::X509::NameConstraints* nc;
 
   __declspec(property(get = get_TrustedCert))::Org::BouncyCastle::X509::X509Certificate* TrustedCert;
 
@@ -63,41 +63,41 @@ public:
 
   __declspec(property(get = get_GetNameConstraints))::ArrayW<uint8_t, ::Array<uint8_t>*> GetNameConstraints;
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __get_pubKey();
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_pubKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __get_pubKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_pubKey() const;
 
-  constexpr void __set_pubKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+  constexpr void __cordl_internal_set_pubKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  constexpr ::StringW& __get_caName();
+  constexpr ::StringW& __cordl_internal_get_caName();
 
-  constexpr ::StringW const& __get_caName() const;
+  constexpr ::StringW const& __cordl_internal_get_caName() const;
 
-  constexpr void __set_caName(::StringW value);
+  constexpr void __cordl_internal_set_caName(::StringW value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& __get_caPrincipal();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& __cordl_internal_get_caPrincipal();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& __get_caPrincipal() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& __cordl_internal_get_caPrincipal() const;
 
-  constexpr void __set_caPrincipal(::Org::BouncyCastle::Asn1::X509::X509Name* value);
+  constexpr void __cordl_internal_set_caPrincipal(::Org::BouncyCastle::Asn1::X509::X509Name* value);
 
-  constexpr ::Org::BouncyCastle::X509::X509Certificate*& __get_trustedCert();
+  constexpr ::Org::BouncyCastle::X509::X509Certificate*& __cordl_internal_get_trustedCert();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& __get_trustedCert() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& __cordl_internal_get_trustedCert() const;
 
-  constexpr void __set_trustedCert(::Org::BouncyCastle::X509::X509Certificate* value);
+  constexpr void __cordl_internal_set_trustedCert(::Org::BouncyCastle::X509::X509Certificate* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_ncBytes();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_ncBytes();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_ncBytes() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_ncBytes() const;
 
-  constexpr void __set_ncBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_ncBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::NameConstraints*& __get_nc();
+  constexpr ::Org::BouncyCastle::Asn1::X509::NameConstraints*& __cordl_internal_get_nc();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::NameConstraints*> const& __get_nc() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::NameConstraints*> const& __cordl_internal_get_nc() const;
 
-  constexpr void __set_nc(::Org::BouncyCastle::Asn1::X509::NameConstraints* value);
+  constexpr void __cordl_internal_set_nc(::Org::BouncyCastle::Asn1::X509::NameConstraints* value);
 
   static inline ::Org::BouncyCastle::Pkix::TrustAnchor* New_ctor(::Org::BouncyCastle::X509::X509Certificate* trustedCert, ::ArrayW<uint8_t, ::Array<uint8_t>*> nameConstraints);
 

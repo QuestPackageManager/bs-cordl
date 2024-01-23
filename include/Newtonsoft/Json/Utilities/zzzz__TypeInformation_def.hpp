@@ -21,33 +21,34 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::TypeInformation);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11870))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11870))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11871))
 // CS Name: ::Newtonsoft.Json.Utilities::TypeInformation*
 class CORDL_TYPE TypeInformation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Type>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Type_k__BackingField, put = __set__Type_k__BackingField))::System::Type* _Type_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField))::System::Type* _Type_k__BackingField;
 
   /// @brief Field <TypeCode>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__TypeCode_k__BackingField, put = __set__TypeCode_k__BackingField))::Newtonsoft::Json::Utilities::PrimitiveTypeCode _TypeCode_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__TypeCode_k__BackingField,
+                      put = __cordl_internal_set__TypeCode_k__BackingField))::Newtonsoft::Json::Utilities::PrimitiveTypeCode _TypeCode_k__BackingField;
 
   __declspec(property(get = get_Type, put = set_Type))::System::Type* Type;
 
   __declspec(property(get = get_TypeCode, put = set_TypeCode))::Newtonsoft::Json::Utilities::PrimitiveTypeCode TypeCode;
 
-  constexpr ::System::Type*& __get__Type_k__BackingField();
+  constexpr ::System::Type*& __cordl_internal_get__Type_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__Type_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__Type_k__BackingField() const;
 
-  constexpr void __set__Type_k__BackingField(::System::Type* value);
+  constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  constexpr ::Newtonsoft::Json::Utilities::PrimitiveTypeCode& __get__TypeCode_k__BackingField();
+  constexpr ::Newtonsoft::Json::Utilities::PrimitiveTypeCode& __cordl_internal_get__TypeCode_k__BackingField();
 
-  constexpr ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const& __get__TypeCode_k__BackingField() const;
+  constexpr ::Newtonsoft::Json::Utilities::PrimitiveTypeCode const& __cordl_internal_get__TypeCode_k__BackingField() const;
 
-  constexpr void __set__TypeCode_k__BackingField(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
+  constexpr void __cordl_internal_set__TypeCode_k__BackingField(::Newtonsoft::Json::Utilities::PrimitiveTypeCode value);
 
   /// @brief Method get_Type, addr 0x265bc70, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_Type();

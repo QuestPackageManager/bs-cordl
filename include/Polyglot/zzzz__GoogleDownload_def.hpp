@@ -49,38 +49,38 @@ MARK_REF_PTR_T(::Polyglot::__GoogleDownload___DownloadSheet_d__0);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15552))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15552))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15550))
 // CS Name: ::GoogleDownload::<DownloadSheet>d__0*
 class CORDL_TYPE __GoogleDownload___DownloadSheet_d__0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field progressbar, offset 0x20, size 0x8
-  __declspec(property(get = __get_progressbar, put = __set_progressbar))::System::Func_2<float_t, bool>* progressbar;
+  __declspec(property(get = __cordl_internal_get_progressbar, put = __cordl_internal_set_progressbar))::System::Func_2<float_t, bool>* progressbar;
 
   /// @brief Field done, offset 0x28, size 0x8
-  __declspec(property(get = __get_done, put = __set_done))::System::Action_1<::StringW>* done;
+  __declspec(property(get = __cordl_internal_get_done, put = __cordl_internal_set_done))::System::Action_1<::StringW>* done;
 
   /// @brief Field docsId, offset 0x30, size 0x8
-  __declspec(property(get = __get_docsId, put = __set_docsId))::StringW docsId;
+  __declspec(property(get = __cordl_internal_get_docsId, put = __cordl_internal_set_docsId))::StringW docsId;
 
   /// @brief Field sheetId, offset 0x38, size 0x8
-  __declspec(property(get = __get_sheetId, put = __set_sheetId))::StringW sheetId;
+  __declspec(property(get = __cordl_internal_get_sheetId, put = __cordl_internal_set_sheetId))::StringW sheetId;
 
   /// @brief Field format, offset 0x40, size 0x4
-  __declspec(property(get = __get_format, put = __set_format))::Polyglot::GoogleDriveDownloadFormat format;
+  __declspec(property(get = __cordl_internal_get_format, put = __cordl_internal_set_format))::Polyglot::GoogleDriveDownloadFormat format;
 
   /// @brief Field <url>5__2, offset 0x48, size 0x8
-  __declspec(property(get = __get__url_5__2, put = __set__url_5__2))::StringW _url_5__2;
+  __declspec(property(get = __cordl_internal_get__url_5__2, put = __cordl_internal_set__url_5__2))::StringW _url_5__2;
 
   /// @brief Field <www>5__3, offset 0x50, size 0x8
-  __declspec(property(get = __get__www_5__3, put = __set__www_5__3))::UnityEngine::Networking::UnityWebRequest* _www_5__3;
+  __declspec(property(get = __cordl_internal_get__www_5__3, put = __cordl_internal_set__www_5__3))::UnityEngine::Networking::UnityWebRequest* _www_5__3;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -104,59 +104,59 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::System::Func_2<float_t, bool>*& __get_progressbar();
+  constexpr ::System::Func_2<float_t, bool>*& __cordl_internal_get_progressbar();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<float_t, bool>*> const& __get_progressbar() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<float_t, bool>*> const& __cordl_internal_get_progressbar() const;
 
-  constexpr void __set_progressbar(::System::Func_2<float_t, bool>* value);
+  constexpr void __cordl_internal_set_progressbar(::System::Func_2<float_t, bool>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_done();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_done();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_done() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_done() const;
 
-  constexpr void __set_done(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_done(::System::Action_1<::StringW>* value);
 
-  constexpr ::StringW& __get_docsId();
+  constexpr ::StringW& __cordl_internal_get_docsId();
 
-  constexpr ::StringW const& __get_docsId() const;
+  constexpr ::StringW const& __cordl_internal_get_docsId() const;
 
-  constexpr void __set_docsId(::StringW value);
+  constexpr void __cordl_internal_set_docsId(::StringW value);
 
-  constexpr ::StringW& __get_sheetId();
+  constexpr ::StringW& __cordl_internal_get_sheetId();
 
-  constexpr ::StringW const& __get_sheetId() const;
+  constexpr ::StringW const& __cordl_internal_get_sheetId() const;
 
-  constexpr void __set_sheetId(::StringW value);
+  constexpr void __cordl_internal_set_sheetId(::StringW value);
 
-  constexpr ::Polyglot::GoogleDriveDownloadFormat& __get_format();
+  constexpr ::Polyglot::GoogleDriveDownloadFormat& __cordl_internal_get_format();
 
-  constexpr ::Polyglot::GoogleDriveDownloadFormat const& __get_format() const;
+  constexpr ::Polyglot::GoogleDriveDownloadFormat const& __cordl_internal_get_format() const;
 
-  constexpr void __set_format(::Polyglot::GoogleDriveDownloadFormat value);
+  constexpr void __cordl_internal_set_format(::Polyglot::GoogleDriveDownloadFormat value);
 
-  constexpr ::StringW& __get__url_5__2();
+  constexpr ::StringW& __cordl_internal_get__url_5__2();
 
-  constexpr ::StringW const& __get__url_5__2() const;
+  constexpr ::StringW const& __cordl_internal_get__url_5__2() const;
 
-  constexpr void __set__url_5__2(::StringW value);
+  constexpr void __cordl_internal_set__url_5__2(::StringW value);
 
-  constexpr ::UnityEngine::Networking::UnityWebRequest*& __get__www_5__3();
+  constexpr ::UnityEngine::Networking::UnityWebRequest*& __cordl_internal_get__www_5__3();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequest*> const& __get__www_5__3() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequest*> const& __cordl_internal_get__www_5__3() const;
 
-  constexpr void __set__www_5__3(::UnityEngine::Networking::UnityWebRequest* value);
+  constexpr void __cordl_internal_set__www_5__3(::UnityEngine::Networking::UnityWebRequest* value);
 
   static inline ::Polyglot::__GoogleDownload___DownloadSheet_d__0* New_ctor(int32_t __1__state);
 
@@ -247,7 +247,7 @@ static_assert(offsetof(::Polyglot::__GoogleDownload___DownloadSheet_d__0, ____ww
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15551))
 // CS Name: ::Polyglot::GoogleDownload*
 class CORDL_TYPE GoogleDownload : public ::System::Object {

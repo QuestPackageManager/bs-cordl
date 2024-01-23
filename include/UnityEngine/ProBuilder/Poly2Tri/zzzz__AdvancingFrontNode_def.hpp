@@ -21,60 +21,60 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15325))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::AdvancingFrontNode*
 class CORDL_TYPE AdvancingFrontNode : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Next, offset 0x10, size 0x8
-  __declspec(property(get = __get_Next, put = __set_Next))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Next;
+  __declspec(property(get = __cordl_internal_get_Next, put = __cordl_internal_set_Next))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Next;
 
   /// @brief Field Prev, offset 0x18, size 0x8
-  __declspec(property(get = __get_Prev, put = __set_Prev))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Prev;
+  __declspec(property(get = __cordl_internal_get_Prev, put = __cordl_internal_set_Prev))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Prev;
 
   /// @brief Field Value, offset 0x20, size 0x8
-  __declspec(property(get = __get_Value, put = __set_Value)) double_t Value;
+  __declspec(property(get = __cordl_internal_get_Value, put = __cordl_internal_set_Value)) double_t Value;
 
   /// @brief Field Point, offset 0x28, size 0x8
-  __declspec(property(get = __get_Point, put = __set_Point))::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Point;
+  __declspec(property(get = __cordl_internal_get_Point, put = __cordl_internal_set_Point))::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Point;
 
   /// @brief Field Triangle, offset 0x30, size 0x8
-  __declspec(property(get = __get_Triangle, put = __set_Triangle))::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* Triangle;
+  __declspec(property(get = __cordl_internal_get_Triangle, put = __cordl_internal_set_Triangle))::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* Triangle;
 
   __declspec(property(get = get_HasNext)) bool HasNext;
 
   __declspec(property(get = get_HasPrev)) bool HasPrev;
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __get_Next();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_Next();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __get_Next() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_Next() const;
 
-  constexpr void __set_Next(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
+  constexpr void __cordl_internal_set_Next(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __get_Prev();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_Prev();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __get_Prev() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_Prev() const;
 
-  constexpr void __set_Prev(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
+  constexpr void __cordl_internal_set_Prev(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
 
-  constexpr double_t& __get_Value();
+  constexpr double_t& __cordl_internal_get_Value();
 
-  constexpr double_t const& __get_Value() const;
+  constexpr double_t const& __cordl_internal_get_Value() const;
 
-  constexpr void __set_Value(double_t value);
+  constexpr void __cordl_internal_set_Value(double_t value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __get_Point();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get_Point();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __get_Point() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get_Point() const;
 
-  constexpr void __set_Point(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
+  constexpr void __cordl_internal_set_Point(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*& __get_Triangle();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*& __cordl_internal_get_Triangle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*> const& __get_Triangle() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle*> const& __cordl_internal_get_Triangle() const;
 
-  constexpr void __set_Triangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);
+  constexpr void __cordl_internal_set_Triangle(::UnityEngine::ProBuilder::Poly2Tri::DelaunayTriangle* value);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
 

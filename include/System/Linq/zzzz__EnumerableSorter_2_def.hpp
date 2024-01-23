@@ -27,56 +27,56 @@ namespace System::Linq {
 // cpp template
 template <typename TElement, typename TKey>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14293), inst: 1676 }), TypeDefinitionIndex(TypeDefinitionIndex(14293))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14293)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14293), inst: 1676 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14294))
 // CS Name: ::System.Linq::EnumerableSorter`2<TElement,TKey>*
 class CORDL_TYPE EnumerableSorter_2 : public ::System::Linq::EnumerableSorter_1<TElement> {
 public:
   // Declarations
   /// @brief Field keySelector, offset 0x10, size 0x8
-  __declspec(property(get = __get_keySelector, put = __set_keySelector))::System::Func_2<TElement, TKey>* keySelector;
+  __declspec(property(get = __cordl_internal_get_keySelector, put = __cordl_internal_set_keySelector))::System::Func_2<TElement, TKey>* keySelector;
 
   /// @brief Field comparer, offset 0x18, size 0x8
-  __declspec(property(get = __get_comparer, put = __set_comparer))::System::Collections::Generic::IComparer_1<TKey>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IComparer_1<TKey>* comparer;
 
   /// @brief Field descending, offset 0x20, size 0x1
-  __declspec(property(get = __get_descending, put = __set_descending)) bool descending;
+  __declspec(property(get = __cordl_internal_get_descending, put = __cordl_internal_set_descending)) bool descending;
 
   /// @brief Field next, offset 0x28, size 0x8
-  __declspec(property(get = __get_next, put = __set_next))::System::Linq::EnumerableSorter_1<TElement>* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Linq::EnumerableSorter_1<TElement>* next;
 
   /// @brief Field keys, offset 0x30, size 0x8
-  __declspec(property(get = __get_keys, put = __set_keys))::ArrayW<TKey, ::Array<TKey>*> keys;
+  __declspec(property(get = __cordl_internal_get_keys, put = __cordl_internal_set_keys))::ArrayW<TKey, ::Array<TKey>*> keys;
 
-  constexpr ::System::Func_2<TElement, TKey>*& __get_keySelector();
+  constexpr ::System::Func_2<TElement, TKey>*& __cordl_internal_get_keySelector();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TElement, TKey>*> const& __get_keySelector() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TElement, TKey>*> const& __cordl_internal_get_keySelector() const;
 
-  constexpr void __set_keySelector(::System::Func_2<TElement, TKey>* value);
+  constexpr void __cordl_internal_set_keySelector(::System::Func_2<TElement, TKey>* value);
 
-  constexpr ::System::Collections::Generic::IComparer_1<TKey>*& __get_comparer();
+  constexpr ::System::Collections::Generic::IComparer_1<TKey>*& __cordl_internal_get_comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<TKey>*> const& __get_comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<TKey>*> const& __cordl_internal_get_comparer() const;
 
-  constexpr void __set_comparer(::System::Collections::Generic::IComparer_1<TKey>* value);
+  constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IComparer_1<TKey>* value);
 
-  constexpr bool& __get_descending();
+  constexpr bool& __cordl_internal_get_descending();
 
-  constexpr bool const& __get_descending() const;
+  constexpr bool const& __cordl_internal_get_descending() const;
 
-  constexpr void __set_descending(bool value);
+  constexpr void __cordl_internal_set_descending(bool value);
 
-  constexpr ::System::Linq::EnumerableSorter_1<TElement>*& __get_next();
+  constexpr ::System::Linq::EnumerableSorter_1<TElement>*& __cordl_internal_get_next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::EnumerableSorter_1<TElement>*> const& __get_next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Linq::EnumerableSorter_1<TElement>*> const& __cordl_internal_get_next() const;
 
-  constexpr void __set_next(::System::Linq::EnumerableSorter_1<TElement>* value);
+  constexpr void __cordl_internal_set_next(::System::Linq::EnumerableSorter_1<TElement>* value);
 
-  constexpr ::ArrayW<TKey, ::Array<TKey>*>& __get_keys();
+  constexpr ::ArrayW<TKey, ::Array<TKey>*>& __cordl_internal_get_keys();
 
-  constexpr ::ArrayW<TKey, ::Array<TKey>*> const& __get_keys() const;
+  constexpr ::ArrayW<TKey, ::Array<TKey>*> const& __cordl_internal_get_keys() const;
 
-  constexpr void __set_keys(::ArrayW<TKey, ::Array<TKey>*> value);
+  constexpr void __cordl_internal_set_keys(::ArrayW<TKey, ::Array<TKey>*> value);
 
   static inline ::System::Linq::EnumerableSorter_2<TElement, TKey>* New_ctor(::System::Func_2<TElement, TKey>* keySelector, ::System::Collections::Generic::IComparer_1<TKey>* comparer,
                                                                              bool descending, ::System::Linq::EnumerableSorter_1<TElement>* next);

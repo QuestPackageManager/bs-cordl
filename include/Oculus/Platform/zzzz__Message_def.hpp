@@ -247,7 +247,7 @@ MARK_REF_PTR_T(::Oculus::Platform::__Message__ExtraMessageTypesHandler);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13263))
 // CS Name: ::Message::Callback*
 class CORDL_TYPE __Message__Callback : public ::System::MulticastDelegate {
@@ -291,7 +291,7 @@ static_assert(::cordl_internals::size_check_v<::Oculus::Platform::__Message__Cal
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13264))
 // CS Name: ::Message::MessageType
 struct CORDL_TYPE __Message__MessageType {
@@ -877,7 +877,7 @@ static_assert(offsetof(::Oculus::Platform::__Message__MessageType, value__) == 0
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13265))
 // CS Name: ::Message::ExtraMessageTypesHandler*
 class CORDL_TYPE __Message__ExtraMessageTypesHandler : public ::System::MulticastDelegate {
@@ -921,7 +921,7 @@ static_assert(::cordl_internals::size_check_v<::Oculus::Platform::__Message__Ext
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13264)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13264))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13266))
 // CS Name: ::Oculus.Platform::Message*
 class CORDL_TYPE Message : public ::System::Object {
@@ -934,13 +934,13 @@ public:
   using Callback = ::Oculus::Platform::__Message__Callback;
 
   /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __get_type, put = __set_type))::Oculus::Platform::__Message__MessageType type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::Oculus::Platform::__Message__MessageType type;
 
   /// @brief Field requestID, offset 0x18, size 0x8
-  __declspec(property(get = __get_requestID, put = __set_requestID)) uint64_t requestID;
+  __declspec(property(get = __cordl_internal_get_requestID, put = __cordl_internal_set_requestID)) uint64_t requestID;
 
   /// @brief Field error, offset 0x20, size 0x8
-  __declspec(property(get = __get_error, put = __set_error))::Oculus::Platform::Models::Error* error;
+  __declspec(property(get = __cordl_internal_get_error, put = __cordl_internal_set_error))::Oculus::Platform::Models::Error* error;
 
   /// @brief Field <HandleExtraMessageTypes>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__HandleExtraMessageTypes_k__BackingField,
@@ -952,23 +952,23 @@ public:
 
   __declspec(property(get = get_RequestID)) uint64_t RequestID;
 
-  constexpr ::Oculus::Platform::__Message__MessageType& __get_type();
+  constexpr ::Oculus::Platform::__Message__MessageType& __cordl_internal_get_type();
 
-  constexpr ::Oculus::Platform::__Message__MessageType const& __get_type() const;
+  constexpr ::Oculus::Platform::__Message__MessageType const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::Oculus::Platform::__Message__MessageType value);
+  constexpr void __cordl_internal_set_type(::Oculus::Platform::__Message__MessageType value);
 
-  constexpr uint64_t& __get_requestID();
+  constexpr uint64_t& __cordl_internal_get_requestID();
 
-  constexpr uint64_t const& __get_requestID() const;
+  constexpr uint64_t const& __cordl_internal_get_requestID() const;
 
-  constexpr void __set_requestID(uint64_t value);
+  constexpr void __cordl_internal_set_requestID(uint64_t value);
 
-  constexpr ::Oculus::Platform::Models::Error*& __get_error();
+  constexpr ::Oculus::Platform::Models::Error*& __cordl_internal_get_error();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Error*> const& __get_error() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Error*> const& __cordl_internal_get_error() const;
 
-  constexpr void __set_error(::Oculus::Platform::Models::Error* value);
+  constexpr void __cordl_internal_set_error(::Oculus::Platform::Models::Error* value);
 
   static inline void setStaticF__HandleExtraMessageTypes_k__BackingField(::Oculus::Platform::__Message__ExtraMessageTypesHandler* value);
 

@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::MenuCategoryAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13926))
 // CS Name: ::UnityEngine.Timeline::MenuCategoryAttribute*
 class CORDL_TYPE MenuCategoryAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field category, offset 0x10, size 0x8
-  __declspec(property(get = __get_category, put = __set_category))::StringW category;
+  __declspec(property(get = __cordl_internal_get_category, put = __cordl_internal_set_category))::StringW category;
 
-  constexpr ::StringW& __get_category();
+  constexpr ::StringW& __cordl_internal_get_category();
 
-  constexpr ::StringW const& __get_category() const;
+  constexpr ::StringW const& __cordl_internal_get_category() const;
 
-  constexpr void __set_category(::StringW value);
+  constexpr void __cordl_internal_set_category(::StringW value);
 
   static inline ::UnityEngine::Timeline::MenuCategoryAttribute* New_ctor(::StringW category);
 

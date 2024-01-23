@@ -44,29 +44,29 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ObjRef);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3063))
 // CS Name: ::System.Runtime.Remoting::ObjRef*
 class CORDL_TYPE ObjRef : public ::System::Object {
 public:
   // Declarations
   /// @brief Field channel_info, offset 0x10, size 0x8
-  __declspec(property(get = __get_channel_info, put = __set_channel_info))::System::Runtime::Remoting::IChannelInfo* channel_info;
+  __declspec(property(get = __cordl_internal_get_channel_info, put = __cordl_internal_set_channel_info))::System::Runtime::Remoting::IChannelInfo* channel_info;
 
   /// @brief Field uri, offset 0x18, size 0x8
-  __declspec(property(get = __get_uri, put = __set_uri))::StringW uri;
+  __declspec(property(get = __cordl_internal_get_uri, put = __cordl_internal_set_uri))::StringW uri;
 
   /// @brief Field typeInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get_typeInfo, put = __set_typeInfo))::System::Runtime::Remoting::IRemotingTypeInfo* typeInfo;
+  __declspec(property(get = __cordl_internal_get_typeInfo, put = __cordl_internal_set_typeInfo))::System::Runtime::Remoting::IRemotingTypeInfo* typeInfo;
 
   /// @brief Field envoyInfo, offset 0x28, size 0x8
-  __declspec(property(get = __get_envoyInfo, put = __set_envoyInfo))::System::Runtime::Remoting::IEnvoyInfo* envoyInfo;
+  __declspec(property(get = __cordl_internal_get_envoyInfo, put = __cordl_internal_set_envoyInfo))::System::Runtime::Remoting::IEnvoyInfo* envoyInfo;
 
   /// @brief Field flags, offset 0x30, size 0x4
-  __declspec(property(get = __get_flags, put = __set_flags)) int32_t flags;
+  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags)) int32_t flags;
 
   /// @brief Field _serverType, offset 0x38, size 0x8
-  __declspec(property(get = __get__serverType, put = __set__serverType))::System::Type* _serverType;
+  __declspec(property(get = __cordl_internal_get__serverType, put = __cordl_internal_set__serverType))::System::Type* _serverType;
 
   /// @brief Field MarshalledObjectRef, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_MarshalledObjectRef, put = setStaticF_MarshalledObjectRef)) int32_t MarshalledObjectRef;
@@ -98,41 +98,41 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::System::Runtime::Remoting::IChannelInfo*& __get_channel_info();
+  constexpr ::System::Runtime::Remoting::IChannelInfo*& __cordl_internal_get_channel_info();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::IChannelInfo*> const& __get_channel_info() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::IChannelInfo*> const& __cordl_internal_get_channel_info() const;
 
-  constexpr void __set_channel_info(::System::Runtime::Remoting::IChannelInfo* value);
+  constexpr void __cordl_internal_set_channel_info(::System::Runtime::Remoting::IChannelInfo* value);
 
-  constexpr ::StringW& __get_uri();
+  constexpr ::StringW& __cordl_internal_get_uri();
 
-  constexpr ::StringW const& __get_uri() const;
+  constexpr ::StringW const& __cordl_internal_get_uri() const;
 
-  constexpr void __set_uri(::StringW value);
+  constexpr void __cordl_internal_set_uri(::StringW value);
 
-  constexpr ::System::Runtime::Remoting::IRemotingTypeInfo*& __get_typeInfo();
+  constexpr ::System::Runtime::Remoting::IRemotingTypeInfo*& __cordl_internal_get_typeInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::IRemotingTypeInfo*> const& __get_typeInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::IRemotingTypeInfo*> const& __cordl_internal_get_typeInfo() const;
 
-  constexpr void __set_typeInfo(::System::Runtime::Remoting::IRemotingTypeInfo* value);
+  constexpr void __cordl_internal_set_typeInfo(::System::Runtime::Remoting::IRemotingTypeInfo* value);
 
-  constexpr ::System::Runtime::Remoting::IEnvoyInfo*& __get_envoyInfo();
+  constexpr ::System::Runtime::Remoting::IEnvoyInfo*& __cordl_internal_get_envoyInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::IEnvoyInfo*> const& __get_envoyInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::IEnvoyInfo*> const& __cordl_internal_get_envoyInfo() const;
 
-  constexpr void __set_envoyInfo(::System::Runtime::Remoting::IEnvoyInfo* value);
+  constexpr void __cordl_internal_set_envoyInfo(::System::Runtime::Remoting::IEnvoyInfo* value);
 
-  constexpr int32_t& __get_flags();
+  constexpr int32_t& __cordl_internal_get_flags();
 
-  constexpr int32_t const& __get_flags() const;
+  constexpr int32_t const& __cordl_internal_get_flags() const;
 
-  constexpr void __set_flags(int32_t value);
+  constexpr void __cordl_internal_set_flags(int32_t value);
 
-  constexpr ::System::Type*& __get__serverType();
+  constexpr ::System::Type*& __cordl_internal_get__serverType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__serverType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__serverType() const;
 
-  constexpr void __set__serverType(::System::Type* value);
+  constexpr void __cordl_internal_set__serverType(::System::Type* value);
 
   static inline void setStaticF_MarshalledObjectRef(int32_t value);
 

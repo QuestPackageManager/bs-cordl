@@ -25,24 +25,24 @@ MARK_REF_PTR_T(::UnityEngine::UI::IClippable);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13027))
 // CS Name: ::UnityEngine.UI::IClippable*
 class CORDL_TYPE IClippable {
 public:
   // Declarations
-  __declspec(property(get = get_gameObject))::UnityEngine::GameObject* gameObject;
+  __declspec(property(get = get_gameObject))::UnityW<::UnityEngine::GameObject> gameObject;
 
-  __declspec(property(get = get_rectTransform))::UnityEngine::RectTransform* rectTransform;
+  __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
 
   /// @brief Method get_gameObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::GameObject* get_gameObject();
+  inline ::UnityW<::UnityEngine::GameObject> get_gameObject();
 
   /// @brief Method RecalculateClipping, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void RecalculateClipping();
 
   /// @brief Method get_rectTransform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::RectTransform* get_rectTransform();
+  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
   /// @brief Method Cull, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void Cull(::UnityEngine::Rect clipRect, bool validRect);

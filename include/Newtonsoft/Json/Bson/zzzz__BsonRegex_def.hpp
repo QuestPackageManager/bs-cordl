@@ -21,17 +21,17 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::BsonRegex);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12074))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12074))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12080))
 // CS Name: ::Newtonsoft.Json.Bson::BsonRegex*
 class CORDL_TYPE BsonRegex : public ::Newtonsoft::Json::Bson::BsonToken {
 public:
   // Declarations
   /// @brief Field <Pattern>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__Pattern_k__BackingField, put = __set__Pattern_k__BackingField))::Newtonsoft::Json::Bson::BsonString* _Pattern_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Pattern_k__BackingField, put = __cordl_internal_set__Pattern_k__BackingField))::Newtonsoft::Json::Bson::BsonString* _Pattern_k__BackingField;
 
   /// @brief Field <Options>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__Options_k__BackingField, put = __set__Options_k__BackingField))::Newtonsoft::Json::Bson::BsonString* _Options_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Options_k__BackingField, put = __cordl_internal_set__Options_k__BackingField))::Newtonsoft::Json::Bson::BsonString* _Options_k__BackingField;
 
   __declspec(property(get = get_Pattern, put = set_Pattern))::Newtonsoft::Json::Bson::BsonString* Pattern;
 
@@ -39,17 +39,17 @@ public:
 
   __declspec(property(get = get_Type))::Newtonsoft::Json::Bson::BsonType Type;
 
-  constexpr ::Newtonsoft::Json::Bson::BsonString*& __get__Pattern_k__BackingField();
+  constexpr ::Newtonsoft::Json::Bson::BsonString*& __cordl_internal_get__Pattern_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::BsonString*> const& __get__Pattern_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::BsonString*> const& __cordl_internal_get__Pattern_k__BackingField() const;
 
-  constexpr void __set__Pattern_k__BackingField(::Newtonsoft::Json::Bson::BsonString* value);
+  constexpr void __cordl_internal_set__Pattern_k__BackingField(::Newtonsoft::Json::Bson::BsonString* value);
 
-  constexpr ::Newtonsoft::Json::Bson::BsonString*& __get__Options_k__BackingField();
+  constexpr ::Newtonsoft::Json::Bson::BsonString*& __cordl_internal_get__Options_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::BsonString*> const& __get__Options_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::BsonString*> const& __cordl_internal_get__Options_k__BackingField() const;
 
-  constexpr void __set__Options_k__BackingField(::Newtonsoft::Json::Bson::BsonString* value);
+  constexpr void __cordl_internal_set__Options_k__BackingField(::Newtonsoft::Json::Bson::BsonString* value);
 
   /// @brief Method get_Pattern, addr 0x26c8474, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonString* get_Pattern();

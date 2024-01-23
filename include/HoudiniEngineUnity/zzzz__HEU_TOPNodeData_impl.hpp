@@ -27,9 +27,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x219c938;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TOPNodeData*>::get(), "Reset",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -40,9 +40,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x219c95c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TOPNodeData*>::get(),
-                                                                               "AreAllWorkItemsComplete", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "AreAllWorkItemsComplete", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -53,9 +53,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x219c718;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TOPNodeData*>::get(),
-                                                                               "AnyWorkItemsFailed", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "AnyWorkItemsFailed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -66,9 +66,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x219c9f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TOPNodeData*>::get(),
-                                                                               "AnyWorkItemsPending", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "AnyWorkItemsPending", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -79,147 +79,147 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe4;
   constexpr static std::size_t addrs = 0x219af08;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TOPNodeData*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& HoudiniEngineUnity::HEU_TOPNodeData::__get__nodeID() {
+constexpr int32_t& HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__nodeID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodeID;
 }
-constexpr int32_t const& HoudiniEngineUnity::HEU_TOPNodeData::__get__nodeID() const {
+constexpr int32_t const& HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__nodeID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodeID;
 }
-constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__set__nodeID(int32_t value) {
+constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_set__nodeID(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____nodeID = value;
 }
-constexpr ::StringW& HoudiniEngineUnity::HEU_TOPNodeData::__get__nodeName() {
+constexpr ::StringW& HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__nodeName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodeName;
 }
-constexpr ::StringW const& HoudiniEngineUnity::HEU_TOPNodeData::__get__nodeName() const {
+constexpr ::StringW const& HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__nodeName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nodeName;
 }
-constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__set__nodeName(::StringW value) {
+constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_set__nodeName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nodeName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& HoudiniEngineUnity::HEU_TOPNodeData::__get__parentName() {
+constexpr ::StringW& HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__parentName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentName;
 }
-constexpr ::StringW const& HoudiniEngineUnity::HEU_TOPNodeData::__get__parentName() const {
+constexpr ::StringW const& HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__parentName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____parentName;
 }
-constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__set__parentName(::StringW value) {
+constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_set__parentName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____parentName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& HoudiniEngineUnity::HEU_TOPNodeData::__get__workResultParentGO() {
+constexpr ::UnityW<::UnityEngine::GameObject>& HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__workResultParentGO() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____workResultParentGO;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& HoudiniEngineUnity::HEU_TOPNodeData::__get__workResultParentGO() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__workResultParentGO() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____workResultParentGO;
 }
-constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__set__workResultParentGO(::UnityEngine::GameObject* value) {
+constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_set__workResultParentGO(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____workResultParentGO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>*& HoudiniEngineUnity::HEU_TOPNodeData::__get__workResults() {
+constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>*& HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__workResults() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____workResults;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>*> const&
-HoudiniEngineUnity::HEU_TOPNodeData::__get__workResults() const {
+HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__workResults() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____workResults;
 }
-constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__set__workResults(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>* value) {
+constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_set__workResults(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPWorkResult*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____workResults)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HoudiniEngineUnity::TOPNodeTags*& HoudiniEngineUnity::HEU_TOPNodeData::__get__tags() {
+constexpr ::HoudiniEngineUnity::TOPNodeTags*& HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__tags() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tags;
 }
-constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::TOPNodeTags*> const& HoudiniEngineUnity::HEU_TOPNodeData::__get__tags() const {
+constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::TOPNodeTags*> const& HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__tags() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tags;
 }
-constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__set__tags(::HoudiniEngineUnity::TOPNodeTags* value) {
+constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_set__tags(::HoudiniEngineUnity::TOPNodeTags* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tags)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& HoudiniEngineUnity::HEU_TOPNodeData::__get__showResults() {
+constexpr bool& HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__showResults() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showResults;
 }
-constexpr bool const& HoudiniEngineUnity::HEU_TOPNodeData::__get__showResults() const {
+constexpr bool const& HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__showResults() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showResults;
 }
-constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__set__showResults(bool value) {
+constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_set__showResults(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____showResults = value;
 }
-constexpr ::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState& HoudiniEngineUnity::HEU_TOPNodeData::__get__pdgState() {
+constexpr ::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState& HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__pdgState() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pdgState;
 }
-constexpr ::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState const& HoudiniEngineUnity::HEU_TOPNodeData::__get__pdgState() const {
+constexpr ::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState const& HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__pdgState() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pdgState;
 }
-constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__set__pdgState(::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState value) {
+constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_set__pdgState(::HoudiniEngineUnity::__HEU_TOPNodeData__PDGState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pdgState = value;
 }
-constexpr ::HoudiniEngineUnity::HEU_WorkItemTally*& HoudiniEngineUnity::HEU_TOPNodeData::__get__workItemTally() {
+constexpr ::HoudiniEngineUnity::HEU_WorkItemTally*& HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__workItemTally() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____workItemTally;
 }
-constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_WorkItemTally*> const& HoudiniEngineUnity::HEU_TOPNodeData::__get__workItemTally() const {
+constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_WorkItemTally*> const& HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_get__workItemTally() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____workItemTally;
 }
-constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__set__workItemTally(::HoudiniEngineUnity::HEU_WorkItemTally* value) {
+constexpr void HoudiniEngineUnity::HEU_TOPNodeData::__cordl_internal_set__workItemTally(::HoudiniEngineUnity::HEU_WorkItemTally* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____workItemTally)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void HoudiniEngineUnity::HEU_TOPNodeData::Reset() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TOPNodeData*>::get(), "Reset",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool HoudiniEngineUnity::HEU_TOPNodeData::AreAllWorkItemsComplete() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TOPNodeData*>::get(),
-                                                                             "AreAllWorkItemsComplete", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "AreAllWorkItemsComplete", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline bool HoudiniEngineUnity::HEU_TOPNodeData::AnyWorkItemsFailed() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TOPNodeData*>::get(),
-                                                                             "AnyWorkItemsFailed", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "AnyWorkItemsFailed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline bool HoudiniEngineUnity::HEU_TOPNodeData::AnyWorkItemsPending() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TOPNodeData*>::get(),
-                                                                             "AnyWorkItemsPending", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "AnyWorkItemsPending", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::HoudiniEngineUnity::HEU_TOPNodeData* HoudiniEngineUnity::HEU_TOPNodeData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::HoudiniEngineUnity::HEU_TOPNodeData*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_TOPNodeData*>());
 }
 inline void HoudiniEngineUnity::HEU_TOPNodeData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_TOPNodeData*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

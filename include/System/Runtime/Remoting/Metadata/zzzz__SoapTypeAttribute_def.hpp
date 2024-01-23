@@ -18,32 +18,32 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Metadata::SoapTypeAttribute);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 82, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Metadata {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3142))
 // CS Name: ::System.Runtime.Remoting.Metadata::SoapTypeAttribute*
 class CORDL_TYPE SoapTypeAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute {
 public:
   // Declarations
   /// @brief Field _useAttribute, offset 0x28, size 0x1
-  __declspec(property(get = __get__useAttribute, put = __set__useAttribute)) bool _useAttribute;
+  __declspec(property(get = __cordl_internal_get__useAttribute, put = __cordl_internal_set__useAttribute)) bool _useAttribute;
 
   /// @brief Field _xmlElementName, offset 0x30, size 0x8
-  __declspec(property(get = __get__xmlElementName, put = __set__xmlElementName))::StringW _xmlElementName;
+  __declspec(property(get = __cordl_internal_get__xmlElementName, put = __cordl_internal_set__xmlElementName))::StringW _xmlElementName;
 
   /// @brief Field _xmlNamespace, offset 0x38, size 0x8
-  __declspec(property(get = __get__xmlNamespace, put = __set__xmlNamespace))::StringW _xmlNamespace;
+  __declspec(property(get = __cordl_internal_get__xmlNamespace, put = __cordl_internal_set__xmlNamespace))::StringW _xmlNamespace;
 
   /// @brief Field _xmlTypeName, offset 0x40, size 0x8
-  __declspec(property(get = __get__xmlTypeName, put = __set__xmlTypeName))::StringW _xmlTypeName;
+  __declspec(property(get = __cordl_internal_get__xmlTypeName, put = __cordl_internal_set__xmlTypeName))::StringW _xmlTypeName;
 
   /// @brief Field _xmlTypeNamespace, offset 0x48, size 0x8
-  __declspec(property(get = __get__xmlTypeNamespace, put = __set__xmlTypeNamespace))::StringW _xmlTypeNamespace;
+  __declspec(property(get = __cordl_internal_get__xmlTypeNamespace, put = __cordl_internal_set__xmlTypeNamespace))::StringW _xmlTypeNamespace;
 
   /// @brief Field _isType, offset 0x50, size 0x1
-  __declspec(property(get = __get__isType, put = __set__isType)) bool _isType;
+  __declspec(property(get = __cordl_internal_get__isType, put = __cordl_internal_set__isType)) bool _isType;
 
   /// @brief Field _isElement, offset 0x51, size 0x1
-  __declspec(property(get = __get__isElement, put = __set__isElement)) bool _isElement;
+  __declspec(property(get = __cordl_internal_get__isElement, put = __cordl_internal_set__isElement)) bool _isElement;
 
   __declspec(property(get = get_UseAttribute)) bool UseAttribute;
 
@@ -59,47 +59,47 @@ public:
 
   __declspec(property(get = get_IsInteropXmlType)) bool IsInteropXmlType;
 
-  constexpr bool& __get__useAttribute();
+  constexpr bool& __cordl_internal_get__useAttribute();
 
-  constexpr bool const& __get__useAttribute() const;
+  constexpr bool const& __cordl_internal_get__useAttribute() const;
 
-  constexpr void __set__useAttribute(bool value);
+  constexpr void __cordl_internal_set__useAttribute(bool value);
 
-  constexpr ::StringW& __get__xmlElementName();
+  constexpr ::StringW& __cordl_internal_get__xmlElementName();
 
-  constexpr ::StringW const& __get__xmlElementName() const;
+  constexpr ::StringW const& __cordl_internal_get__xmlElementName() const;
 
-  constexpr void __set__xmlElementName(::StringW value);
+  constexpr void __cordl_internal_set__xmlElementName(::StringW value);
 
-  constexpr ::StringW& __get__xmlNamespace();
+  constexpr ::StringW& __cordl_internal_get__xmlNamespace();
 
-  constexpr ::StringW const& __get__xmlNamespace() const;
+  constexpr ::StringW const& __cordl_internal_get__xmlNamespace() const;
 
-  constexpr void __set__xmlNamespace(::StringW value);
+  constexpr void __cordl_internal_set__xmlNamespace(::StringW value);
 
-  constexpr ::StringW& __get__xmlTypeName();
+  constexpr ::StringW& __cordl_internal_get__xmlTypeName();
 
-  constexpr ::StringW const& __get__xmlTypeName() const;
+  constexpr ::StringW const& __cordl_internal_get__xmlTypeName() const;
 
-  constexpr void __set__xmlTypeName(::StringW value);
+  constexpr void __cordl_internal_set__xmlTypeName(::StringW value);
 
-  constexpr ::StringW& __get__xmlTypeNamespace();
+  constexpr ::StringW& __cordl_internal_get__xmlTypeNamespace();
 
-  constexpr ::StringW const& __get__xmlTypeNamespace() const;
+  constexpr ::StringW const& __cordl_internal_get__xmlTypeNamespace() const;
 
-  constexpr void __set__xmlTypeNamespace(::StringW value);
+  constexpr void __cordl_internal_set__xmlTypeNamespace(::StringW value);
 
-  constexpr bool& __get__isType();
+  constexpr bool& __cordl_internal_get__isType();
 
-  constexpr bool const& __get__isType() const;
+  constexpr bool const& __cordl_internal_get__isType() const;
 
-  constexpr void __set__isType(bool value);
+  constexpr void __cordl_internal_set__isType(bool value);
 
-  constexpr bool& __get__isElement();
+  constexpr bool& __cordl_internal_get__isElement();
 
-  constexpr bool const& __get__isElement() const;
+  constexpr bool const& __cordl_internal_get__isElement() const;
 
-  constexpr void __set__isElement(bool value);
+  constexpr void __cordl_internal_set__isElement(bool value);
 
   static inline ::System::Runtime::Remoting::Metadata::SoapTypeAttribute* New_ctor();
 

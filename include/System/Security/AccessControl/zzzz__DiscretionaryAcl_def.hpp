@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::System::Security::AccessControl::DiscretionaryAcl);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3025))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3025))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3030))
 // CS Name: ::System.Security.AccessControl::DiscretionaryAcl*
 class CORDL_TYPE DiscretionaryAcl : public ::System::Security::AccessControl::CommonAcl {

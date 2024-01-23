@@ -19,38 +19,38 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::NormalizeProcessor);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 391 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 391 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6587))
 // CS Name: ::UnityEngine.InputSystem.Processors::NormalizeProcessor*
 class CORDL_TYPE NormalizeProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
   // Declarations
   /// @brief Field min, offset 0x10, size 0x4
-  __declspec(property(get = __get_min, put = __set_min)) float_t min;
+  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
 
   /// @brief Field max, offset 0x14, size 0x4
-  __declspec(property(get = __get_max, put = __set_max)) float_t max;
+  __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) float_t max;
 
   /// @brief Field zero, offset 0x18, size 0x4
-  __declspec(property(get = __get_zero, put = __set_zero)) float_t zero;
+  __declspec(property(get = __cordl_internal_get_zero, put = __cordl_internal_set_zero)) float_t zero;
 
-  constexpr float_t& __get_min();
+  constexpr float_t& __cordl_internal_get_min();
 
-  constexpr float_t const& __get_min() const;
+  constexpr float_t const& __cordl_internal_get_min() const;
 
-  constexpr void __set_min(float_t value);
+  constexpr void __cordl_internal_set_min(float_t value);
 
-  constexpr float_t& __get_max();
+  constexpr float_t& __cordl_internal_get_max();
 
-  constexpr float_t const& __get_max() const;
+  constexpr float_t const& __cordl_internal_get_max() const;
 
-  constexpr void __set_max(float_t value);
+  constexpr void __cordl_internal_set_max(float_t value);
 
-  constexpr float_t& __get_zero();
+  constexpr float_t& __cordl_internal_get_zero();
 
-  constexpr float_t const& __get_zero() const;
+  constexpr float_t const& __cordl_internal_get_zero() const;
 
-  constexpr void __set_zero(float_t value);
+  constexpr void __cordl_internal_set_zero(float_t value);
 
   /// @brief Method Process, addr 0x2af9648, size 0xc, virtual true, abstract: false, final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);

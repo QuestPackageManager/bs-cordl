@@ -19,56 +19,56 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferBase);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9804))
 // CS Name: ::HoudiniEngineUnity::HEU_LoadBufferBase*
 class CORDL_TYPE HEU_LoadBufferBase : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _id, offset 0x10, size 0x4
-  __declspec(property(get = __get__id, put = __set__id)) int32_t _id;
+  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) int32_t _id;
 
   /// @brief Field _name, offset 0x18, size 0x8
-  __declspec(property(get = __get__name, put = __set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
   /// @brief Field _bInstanced, offset 0x20, size 0x1
-  __declspec(property(get = __get__bInstanced, put = __set__bInstanced)) bool _bInstanced;
+  __declspec(property(get = __cordl_internal_get__bInstanced, put = __cordl_internal_set__bInstanced)) bool _bInstanced;
 
   /// @brief Field _bInstancer, offset 0x21, size 0x1
-  __declspec(property(get = __get__bInstancer, put = __set__bInstancer)) bool _bInstancer;
+  __declspec(property(get = __cordl_internal_get__bInstancer, put = __cordl_internal_set__bInstancer)) bool _bInstancer;
 
   /// @brief Field _generatedOutput, offset 0x28, size 0x8
-  __declspec(property(get = __get__generatedOutput, put = __set__generatedOutput))::HoudiniEngineUnity::HEU_GeneratedOutput* _generatedOutput;
+  __declspec(property(get = __cordl_internal_get__generatedOutput, put = __cordl_internal_set__generatedOutput))::HoudiniEngineUnity::HEU_GeneratedOutput* _generatedOutput;
 
-  constexpr int32_t& __get__id();
+  constexpr int32_t& __cordl_internal_get__id();
 
-  constexpr int32_t const& __get__id() const;
+  constexpr int32_t const& __cordl_internal_get__id() const;
 
-  constexpr void __set__id(int32_t value);
+  constexpr void __cordl_internal_set__id(int32_t value);
 
-  constexpr ::StringW& __get__name();
+  constexpr ::StringW& __cordl_internal_get__name();
 
-  constexpr ::StringW const& __get__name() const;
+  constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr void __set__name(::StringW value);
+  constexpr void __cordl_internal_set__name(::StringW value);
 
-  constexpr bool& __get__bInstanced();
+  constexpr bool& __cordl_internal_get__bInstanced();
 
-  constexpr bool const& __get__bInstanced() const;
+  constexpr bool const& __cordl_internal_get__bInstanced() const;
 
-  constexpr void __set__bInstanced(bool value);
+  constexpr void __cordl_internal_set__bInstanced(bool value);
 
-  constexpr bool& __get__bInstancer();
+  constexpr bool& __cordl_internal_get__bInstancer();
 
-  constexpr bool const& __get__bInstancer() const;
+  constexpr bool const& __cordl_internal_get__bInstancer() const;
 
-  constexpr void __set__bInstancer(bool value);
+  constexpr void __cordl_internal_set__bInstancer(bool value);
 
-  constexpr ::HoudiniEngineUnity::HEU_GeneratedOutput*& __get__generatedOutput();
+  constexpr ::HoudiniEngineUnity::HEU_GeneratedOutput*& __cordl_internal_get__generatedOutput();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_GeneratedOutput*> const& __get__generatedOutput() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_GeneratedOutput*> const& __cordl_internal_get__generatedOutput() const;
 
-  constexpr void __set__generatedOutput(::HoudiniEngineUnity::HEU_GeneratedOutput* value);
+  constexpr void __cordl_internal_set__generatedOutput(::HoudiniEngineUnity::HEU_GeneratedOutput* value);
 
   /// @brief Method InitializeBuffer, addr 0x21abbe8, size 0x1c, virtual false, abstract: false, final false
   inline void InitializeBuffer(int32_t id, ::StringW name, bool bInstanced, bool bInstancer);

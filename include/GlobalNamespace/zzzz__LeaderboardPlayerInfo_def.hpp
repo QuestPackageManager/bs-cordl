@@ -15,32 +15,32 @@ MARK_REF_PTR_T(::GlobalNamespace::LeaderboardPlayerInfo);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4203))
 // CS Name: ::LeaderboardPlayerInfo*
 class CORDL_TYPE LeaderboardPlayerInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field serverKey, offset 0x10, size 0x8
-  __declspec(property(get = __get_serverKey, put = __set_serverKey))::StringW serverKey;
+  __declspec(property(get = __cordl_internal_get_serverKey, put = __cordl_internal_set_serverKey))::StringW serverKey;
 
   /// @brief Field <playerId>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__playerId_k__BackingField, put = __set__playerId_k__BackingField))::StringW _playerId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__playerId_k__BackingField, put = __cordl_internal_set__playerId_k__BackingField))::StringW _playerId_k__BackingField;
 
   /// @brief Field <playerName>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__playerName_k__BackingField, put = __set__playerName_k__BackingField))::StringW _playerName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__playerName_k__BackingField, put = __cordl_internal_set__playerName_k__BackingField))::StringW _playerName_k__BackingField;
 
   /// @brief Field <playerKey>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__playerKey_k__BackingField, put = __set__playerKey_k__BackingField))::StringW _playerKey_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__playerKey_k__BackingField, put = __cordl_internal_set__playerKey_k__BackingField))::StringW _playerKey_k__BackingField;
 
   /// @brief Field <authType>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__authType_k__BackingField, put = __set__authType_k__BackingField))::StringW _authType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__authType_k__BackingField, put = __cordl_internal_set__authType_k__BackingField))::StringW _authType_k__BackingField;
 
   /// @brief Field <playerFriends>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__playerFriends_k__BackingField, put = __set__playerFriends_k__BackingField))::StringW _playerFriends_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__playerFriends_k__BackingField, put = __cordl_internal_set__playerFriends_k__BackingField))::StringW _playerFriends_k__BackingField;
 
   /// @brief Field <succeeded>k__BackingField, offset 0x40, size 0x1
-  __declspec(property(get = __get__succeeded_k__BackingField, put = __set__succeeded_k__BackingField)) bool _succeeded_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__succeeded_k__BackingField, put = __cordl_internal_set__succeeded_k__BackingField)) bool _succeeded_k__BackingField;
 
   __declspec(property(get = get_playerId, put = set_playerId))::StringW playerId;
 
@@ -54,47 +54,47 @@ public:
 
   __declspec(property(get = get_succeeded, put = set_succeeded)) bool succeeded;
 
-  constexpr ::StringW& __get_serverKey();
+  constexpr ::StringW& __cordl_internal_get_serverKey();
 
-  constexpr ::StringW const& __get_serverKey() const;
+  constexpr ::StringW const& __cordl_internal_get_serverKey() const;
 
-  constexpr void __set_serverKey(::StringW value);
+  constexpr void __cordl_internal_set_serverKey(::StringW value);
 
-  constexpr ::StringW& __get__playerId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__playerId_k__BackingField();
 
-  constexpr ::StringW const& __get__playerId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__playerId_k__BackingField() const;
 
-  constexpr void __set__playerId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__playerId_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__playerName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__playerName_k__BackingField();
 
-  constexpr ::StringW const& __get__playerName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__playerName_k__BackingField() const;
 
-  constexpr void __set__playerName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__playerName_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__playerKey_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__playerKey_k__BackingField();
 
-  constexpr ::StringW const& __get__playerKey_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__playerKey_k__BackingField() const;
 
-  constexpr void __set__playerKey_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__playerKey_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__authType_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__authType_k__BackingField();
 
-  constexpr ::StringW const& __get__authType_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__authType_k__BackingField() const;
 
-  constexpr void __set__authType_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__authType_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__playerFriends_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__playerFriends_k__BackingField();
 
-  constexpr ::StringW const& __get__playerFriends_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__playerFriends_k__BackingField() const;
 
-  constexpr void __set__playerFriends_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__playerFriends_k__BackingField(::StringW value);
 
-  constexpr bool& __get__succeeded_k__BackingField();
+  constexpr bool& __cordl_internal_get__succeeded_k__BackingField();
 
-  constexpr bool const& __get__succeeded_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__succeeded_k__BackingField() const;
 
-  constexpr void __set__succeeded_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__succeeded_k__BackingField(bool value);
 
   /// @brief Method get_playerId, addr 0x2327408, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerId();

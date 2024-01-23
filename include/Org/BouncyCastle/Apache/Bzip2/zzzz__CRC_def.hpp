@@ -16,23 +16,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Apache::Bzip2::CRC);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Apache::Bzip2 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1878))
 // CS Name: ::Org.BouncyCastle.Apache.Bzip2::CRC*
 class CORDL_TYPE CRC : public ::System::Object {
 public:
   // Declarations
   /// @brief Field globalCrc, offset 0x10, size 0x4
-  __declspec(property(get = __get_globalCrc, put = __set_globalCrc)) int32_t globalCrc;
+  __declspec(property(get = __cordl_internal_get_globalCrc, put = __cordl_internal_set_globalCrc)) int32_t globalCrc;
 
   /// @brief Field crc32Table, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_crc32Table, put = setStaticF_crc32Table))::ArrayW<int32_t, ::Array<int32_t>*> crc32Table;
 
-  constexpr int32_t& __get_globalCrc();
+  constexpr int32_t& __cordl_internal_get_globalCrc();
 
-  constexpr int32_t const& __get_globalCrc() const;
+  constexpr int32_t const& __cordl_internal_get_globalCrc() const;
 
-  constexpr void __set_globalCrc(int32_t value);
+  constexpr void __cordl_internal_set_globalCrc(int32_t value);
 
   static inline void setStaticF_crc32Table(::ArrayW<int32_t, ::Array<int32_t>*> value);
 

@@ -32,17 +32,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerBitString);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(33))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(33))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(34))
 // CS Name: ::Org.BouncyCastle.Asn1::DerBitString*
 class CORDL_TYPE DerBitString : public ::Org::BouncyCastle::Asn1::DerStringBase {
 public:
   // Declarations
   /// @brief Field mData, offset 0x10, size 0x8
-  __declspec(property(get = __get_mData, put = __set_mData))::ArrayW<uint8_t, ::Array<uint8_t>*> mData;
+  __declspec(property(get = __cordl_internal_get_mData, put = __cordl_internal_set_mData))::ArrayW<uint8_t, ::Array<uint8_t>*> mData;
 
   /// @brief Field mPadBits, offset 0x18, size 0x4
-  __declspec(property(get = __get_mPadBits, put = __set_mPadBits)) int32_t mPadBits;
+  __declspec(property(get = __cordl_internal_get_mPadBits, put = __cordl_internal_set_mPadBits)) int32_t mPadBits;
 
   /// @brief Field table, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_table, put = setStaticF_table))::ArrayW<char16_t, ::Array<char16_t>*> table;
@@ -51,17 +51,17 @@ public:
 
   __declspec(property(get = get_IntValue)) int32_t IntValue;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mData();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mData();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mData() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mData() const;
 
-  constexpr void __set_mData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_mPadBits();
+  constexpr int32_t& __cordl_internal_get_mPadBits();
 
-  constexpr int32_t const& __get_mPadBits() const;
+  constexpr int32_t const& __cordl_internal_get_mPadBits() const;
 
-  constexpr void __set_mPadBits(int32_t value);
+  constexpr void __cordl_internal_set_mPadBits(int32_t value);
 
   static inline void setStaticF_table(::ArrayW<char16_t, ::Array<char16_t>*> value);
 

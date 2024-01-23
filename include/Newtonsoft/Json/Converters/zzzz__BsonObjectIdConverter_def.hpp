@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::BsonObjectIdConverter);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11830))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11830))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12036))
 // CS Name: ::Newtonsoft.Json.Converters::BsonObjectIdConverter*
 class CORDL_TYPE BsonObjectIdConverter : public ::Newtonsoft::Json::JsonConverter {

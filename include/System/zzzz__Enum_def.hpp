@@ -76,7 +76,7 @@ MARK_VAL_T(::System::__Enum__EnumResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2556))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2556))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2557))
 // CS Name: ::Enum::EnumResult
 struct CORDL_TYPE __Enum__EnumResult {
@@ -156,29 +156,29 @@ static_assert(offsetof(::System::__Enum__EnumResult, m_innerException) == 0x28, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2558))
 // CS Name: ::Enum::ValuesAndNames*
 class CORDL_TYPE __Enum__ValuesAndNames : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Values, offset 0x10, size 0x8
-  __declspec(property(get = __get_Values, put = __set_Values))::ArrayW<uint64_t, ::Array<uint64_t>*> Values;
+  __declspec(property(get = __cordl_internal_get_Values, put = __cordl_internal_set_Values))::ArrayW<uint64_t, ::Array<uint64_t>*> Values;
 
   /// @brief Field Names, offset 0x18, size 0x8
-  __declspec(property(get = __get_Names, put = __set_Names))::ArrayW<::StringW, ::Array<::StringW>*> Names;
+  __declspec(property(get = __cordl_internal_get_Names, put = __cordl_internal_set_Names))::ArrayW<::StringW, ::Array<::StringW>*> Names;
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_Values();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_Values();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_Values() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_Values() const;
 
-  constexpr void __set_Values(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_Values(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_Names();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_Names();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_Names() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_Names() const;
 
-  constexpr void __set_Names(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_Names(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
   static inline ::System::__Enum__ValuesAndNames* New_ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names);
 
@@ -219,7 +219,7 @@ static_assert(offsetof(::System::__Enum__ValuesAndNames, ___Names) == 0x18, "Off
 // SizeInfo { instance_size: 16, native_size: 1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2639))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2639))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2559))
 // CS Name: ::System::Enum*
 class CORDL_TYPE Enum : public ::System::ValueType {

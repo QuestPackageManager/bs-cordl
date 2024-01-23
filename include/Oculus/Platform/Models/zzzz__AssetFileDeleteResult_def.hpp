@@ -16,47 +16,47 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::AssetFileDeleteResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13419))
 // CS Name: ::Oculus.Platform.Models::AssetFileDeleteResult*
 class CORDL_TYPE AssetFileDeleteResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field AssetFileId, offset 0x10, size 0x8
-  __declspec(property(get = __get_AssetFileId, put = __set_AssetFileId)) uint64_t AssetFileId;
+  __declspec(property(get = __cordl_internal_get_AssetFileId, put = __cordl_internal_set_AssetFileId)) uint64_t AssetFileId;
 
   /// @brief Field AssetId, offset 0x18, size 0x8
-  __declspec(property(get = __get_AssetId, put = __set_AssetId)) uint64_t AssetId;
+  __declspec(property(get = __cordl_internal_get_AssetId, put = __cordl_internal_set_AssetId)) uint64_t AssetId;
 
   /// @brief Field Filepath, offset 0x20, size 0x8
-  __declspec(property(get = __get_Filepath, put = __set_Filepath))::StringW Filepath;
+  __declspec(property(get = __cordl_internal_get_Filepath, put = __cordl_internal_set_Filepath))::StringW Filepath;
 
   /// @brief Field Success, offset 0x28, size 0x1
-  __declspec(property(get = __get_Success, put = __set_Success)) bool Success;
+  __declspec(property(get = __cordl_internal_get_Success, put = __cordl_internal_set_Success)) bool Success;
 
-  constexpr uint64_t& __get_AssetFileId();
+  constexpr uint64_t& __cordl_internal_get_AssetFileId();
 
-  constexpr uint64_t const& __get_AssetFileId() const;
+  constexpr uint64_t const& __cordl_internal_get_AssetFileId() const;
 
-  constexpr void __set_AssetFileId(uint64_t value);
+  constexpr void __cordl_internal_set_AssetFileId(uint64_t value);
 
-  constexpr uint64_t& __get_AssetId();
+  constexpr uint64_t& __cordl_internal_get_AssetId();
 
-  constexpr uint64_t const& __get_AssetId() const;
+  constexpr uint64_t const& __cordl_internal_get_AssetId() const;
 
-  constexpr void __set_AssetId(uint64_t value);
+  constexpr void __cordl_internal_set_AssetId(uint64_t value);
 
-  constexpr ::StringW& __get_Filepath();
+  constexpr ::StringW& __cordl_internal_get_Filepath();
 
-  constexpr ::StringW const& __get_Filepath() const;
+  constexpr ::StringW const& __cordl_internal_get_Filepath() const;
 
-  constexpr void __set_Filepath(::StringW value);
+  constexpr void __cordl_internal_set_Filepath(::StringW value);
 
-  constexpr bool& __get_Success();
+  constexpr bool& __cordl_internal_get_Success();
 
-  constexpr bool const& __get_Success() const;
+  constexpr bool const& __cordl_internal_get_Success() const;
 
-  constexpr void __set_Success(bool value);
+  constexpr void __cordl_internal_set_Success(bool value);
 
   static inline ::Oculus::Platform::Models::AssetFileDeleteResult* New_ctor(void* o);
 

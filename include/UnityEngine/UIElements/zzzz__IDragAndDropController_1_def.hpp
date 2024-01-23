@@ -25,7 +25,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TArgs>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6955))
 // CS Name: ::UnityEngine.UIElements::IDragAndDropController`1<TArgs>*
 class CORDL_TYPE IDragAndDropController_1 {

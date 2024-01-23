@@ -24,29 +24,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier)
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1527))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1527))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1534))
 // CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::MixedNafR2LMultiplier*
 class CORDL_TYPE MixedNafR2LMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
   // Declarations
   /// @brief Field additionCoord, offset 0x10, size 0x4
-  __declspec(property(get = __get_additionCoord, put = __set_additionCoord)) int32_t additionCoord;
+  __declspec(property(get = __cordl_internal_get_additionCoord, put = __cordl_internal_set_additionCoord)) int32_t additionCoord;
 
   /// @brief Field doublingCoord, offset 0x14, size 0x4
-  __declspec(property(get = __get_doublingCoord, put = __set_doublingCoord)) int32_t doublingCoord;
+  __declspec(property(get = __cordl_internal_get_doublingCoord, put = __cordl_internal_set_doublingCoord)) int32_t doublingCoord;
 
-  constexpr int32_t& __get_additionCoord();
+  constexpr int32_t& __cordl_internal_get_additionCoord();
 
-  constexpr int32_t const& __get_additionCoord() const;
+  constexpr int32_t const& __cordl_internal_get_additionCoord() const;
 
-  constexpr void __set_additionCoord(int32_t value);
+  constexpr void __cordl_internal_set_additionCoord(int32_t value);
 
-  constexpr int32_t& __get_doublingCoord();
+  constexpr int32_t& __cordl_internal_get_doublingCoord();
 
-  constexpr int32_t const& __get_doublingCoord() const;
+  constexpr int32_t const& __cordl_internal_get_doublingCoord() const;
 
-  constexpr void __set_doublingCoord(int32_t value);
+  constexpr void __cordl_internal_set_doublingCoord(int32_t value);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier* New_ctor();
 

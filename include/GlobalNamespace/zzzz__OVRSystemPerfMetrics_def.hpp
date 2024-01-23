@@ -36,290 +36,292 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8182))
 // CS Name: ::OVRSystemPerfMetrics::PerfMetrics*
 class CORDL_TYPE __OVRSystemPerfMetrics__PerfMetrics : public ::System::Object {
 public:
   // Declarations
   /// @brief Field frameCount, offset 0x10, size 0x4
-  __declspec(property(get = __get_frameCount, put = __set_frameCount)) int32_t frameCount;
+  __declspec(property(get = __cordl_internal_get_frameCount, put = __cordl_internal_set_frameCount)) int32_t frameCount;
 
   /// @brief Field frameTime, offset 0x14, size 0x4
-  __declspec(property(get = __get_frameTime, put = __set_frameTime)) float_t frameTime;
+  __declspec(property(get = __cordl_internal_get_frameTime, put = __cordl_internal_set_frameTime)) float_t frameTime;
 
   /// @brief Field deltaFrameTime, offset 0x18, size 0x4
-  __declspec(property(get = __get_deltaFrameTime, put = __set_deltaFrameTime)) float_t deltaFrameTime;
+  __declspec(property(get = __cordl_internal_get_deltaFrameTime, put = __cordl_internal_set_deltaFrameTime)) float_t deltaFrameTime;
 
   /// @brief Field appCpuTime_IsValid, offset 0x1c, size 0x1
-  __declspec(property(get = __get_appCpuTime_IsValid, put = __set_appCpuTime_IsValid)) bool appCpuTime_IsValid;
+  __declspec(property(get = __cordl_internal_get_appCpuTime_IsValid, put = __cordl_internal_set_appCpuTime_IsValid)) bool appCpuTime_IsValid;
 
   /// @brief Field appCpuTime, offset 0x20, size 0x4
-  __declspec(property(get = __get_appCpuTime, put = __set_appCpuTime)) float_t appCpuTime;
+  __declspec(property(get = __cordl_internal_get_appCpuTime, put = __cordl_internal_set_appCpuTime)) float_t appCpuTime;
 
   /// @brief Field appGpuTime_IsValid, offset 0x24, size 0x1
-  __declspec(property(get = __get_appGpuTime_IsValid, put = __set_appGpuTime_IsValid)) bool appGpuTime_IsValid;
+  __declspec(property(get = __cordl_internal_get_appGpuTime_IsValid, put = __cordl_internal_set_appGpuTime_IsValid)) bool appGpuTime_IsValid;
 
   /// @brief Field appGpuTime, offset 0x28, size 0x4
-  __declspec(property(get = __get_appGpuTime, put = __set_appGpuTime)) float_t appGpuTime;
+  __declspec(property(get = __cordl_internal_get_appGpuTime, put = __cordl_internal_set_appGpuTime)) float_t appGpuTime;
 
   /// @brief Field compositorCpuTime_IsValid, offset 0x2c, size 0x1
-  __declspec(property(get = __get_compositorCpuTime_IsValid, put = __set_compositorCpuTime_IsValid)) bool compositorCpuTime_IsValid;
+  __declspec(property(get = __cordl_internal_get_compositorCpuTime_IsValid, put = __cordl_internal_set_compositorCpuTime_IsValid)) bool compositorCpuTime_IsValid;
 
   /// @brief Field compositorCpuTime, offset 0x30, size 0x4
-  __declspec(property(get = __get_compositorCpuTime, put = __set_compositorCpuTime)) float_t compositorCpuTime;
+  __declspec(property(get = __cordl_internal_get_compositorCpuTime, put = __cordl_internal_set_compositorCpuTime)) float_t compositorCpuTime;
 
   /// @brief Field compositorGpuTime_IsValid, offset 0x34, size 0x1
-  __declspec(property(get = __get_compositorGpuTime_IsValid, put = __set_compositorGpuTime_IsValid)) bool compositorGpuTime_IsValid;
+  __declspec(property(get = __cordl_internal_get_compositorGpuTime_IsValid, put = __cordl_internal_set_compositorGpuTime_IsValid)) bool compositorGpuTime_IsValid;
 
   /// @brief Field compositorGpuTime, offset 0x38, size 0x4
-  __declspec(property(get = __get_compositorGpuTime, put = __set_compositorGpuTime)) float_t compositorGpuTime;
+  __declspec(property(get = __cordl_internal_get_compositorGpuTime, put = __cordl_internal_set_compositorGpuTime)) float_t compositorGpuTime;
 
   /// @brief Field compositorDroppedFrameCount_IsValid, offset 0x3c, size 0x1
-  __declspec(property(get = __get_compositorDroppedFrameCount_IsValid, put = __set_compositorDroppedFrameCount_IsValid)) bool compositorDroppedFrameCount_IsValid;
+  __declspec(property(get = __cordl_internal_get_compositorDroppedFrameCount_IsValid, put = __cordl_internal_set_compositorDroppedFrameCount_IsValid)) bool compositorDroppedFrameCount_IsValid;
 
   /// @brief Field compositorDroppedFrameCount, offset 0x40, size 0x4
-  __declspec(property(get = __get_compositorDroppedFrameCount, put = __set_compositorDroppedFrameCount)) int32_t compositorDroppedFrameCount;
+  __declspec(property(get = __cordl_internal_get_compositorDroppedFrameCount, put = __cordl_internal_set_compositorDroppedFrameCount)) int32_t compositorDroppedFrameCount;
 
   /// @brief Field compositorSpaceWarpMode_IsValid, offset 0x44, size 0x1
-  __declspec(property(get = __get_compositorSpaceWarpMode_IsValid, put = __set_compositorSpaceWarpMode_IsValid)) bool compositorSpaceWarpMode_IsValid;
+  __declspec(property(get = __cordl_internal_get_compositorSpaceWarpMode_IsValid, put = __cordl_internal_set_compositorSpaceWarpMode_IsValid)) bool compositorSpaceWarpMode_IsValid;
 
   /// @brief Field compositorSpaceWarpMode, offset 0x48, size 0x4
-  __declspec(property(get = __get_compositorSpaceWarpMode, put = __set_compositorSpaceWarpMode)) int32_t compositorSpaceWarpMode;
+  __declspec(property(get = __cordl_internal_get_compositorSpaceWarpMode, put = __cordl_internal_set_compositorSpaceWarpMode)) int32_t compositorSpaceWarpMode;
 
   /// @brief Field systemGpuUtilPercentage_IsValid, offset 0x4c, size 0x1
-  __declspec(property(get = __get_systemGpuUtilPercentage_IsValid, put = __set_systemGpuUtilPercentage_IsValid)) bool systemGpuUtilPercentage_IsValid;
+  __declspec(property(get = __cordl_internal_get_systemGpuUtilPercentage_IsValid, put = __cordl_internal_set_systemGpuUtilPercentage_IsValid)) bool systemGpuUtilPercentage_IsValid;
 
   /// @brief Field systemGpuUtilPercentage, offset 0x50, size 0x4
-  __declspec(property(get = __get_systemGpuUtilPercentage, put = __set_systemGpuUtilPercentage)) float_t systemGpuUtilPercentage;
+  __declspec(property(get = __cordl_internal_get_systemGpuUtilPercentage, put = __cordl_internal_set_systemGpuUtilPercentage)) float_t systemGpuUtilPercentage;
 
   /// @brief Field systemCpuUtilAveragePercentage_IsValid, offset 0x54, size 0x1
-  __declspec(property(get = __get_systemCpuUtilAveragePercentage_IsValid, put = __set_systemCpuUtilAveragePercentage_IsValid)) bool systemCpuUtilAveragePercentage_IsValid;
+  __declspec(property(get = __cordl_internal_get_systemCpuUtilAveragePercentage_IsValid,
+                      put = __cordl_internal_set_systemCpuUtilAveragePercentage_IsValid)) bool systemCpuUtilAveragePercentage_IsValid;
 
   /// @brief Field systemCpuUtilAveragePercentage, offset 0x58, size 0x4
-  __declspec(property(get = __get_systemCpuUtilAveragePercentage, put = __set_systemCpuUtilAveragePercentage)) float_t systemCpuUtilAveragePercentage;
+  __declspec(property(get = __cordl_internal_get_systemCpuUtilAveragePercentage, put = __cordl_internal_set_systemCpuUtilAveragePercentage)) float_t systemCpuUtilAveragePercentage;
 
   /// @brief Field systemCpuUtilWorstPercentage_IsValid, offset 0x5c, size 0x1
-  __declspec(property(get = __get_systemCpuUtilWorstPercentage_IsValid, put = __set_systemCpuUtilWorstPercentage_IsValid)) bool systemCpuUtilWorstPercentage_IsValid;
+  __declspec(property(get = __cordl_internal_get_systemCpuUtilWorstPercentage_IsValid, put = __cordl_internal_set_systemCpuUtilWorstPercentage_IsValid)) bool systemCpuUtilWorstPercentage_IsValid;
 
   /// @brief Field systemCpuUtilWorstPercentage, offset 0x60, size 0x4
-  __declspec(property(get = __get_systemCpuUtilWorstPercentage, put = __set_systemCpuUtilWorstPercentage)) float_t systemCpuUtilWorstPercentage;
+  __declspec(property(get = __cordl_internal_get_systemCpuUtilWorstPercentage, put = __cordl_internal_set_systemCpuUtilWorstPercentage)) float_t systemCpuUtilWorstPercentage;
 
   /// @brief Field deviceCpuClockFrequencyInMHz_IsValid, offset 0x64, size 0x1
-  __declspec(property(get = __get_deviceCpuClockFrequencyInMHz_IsValid, put = __set_deviceCpuClockFrequencyInMHz_IsValid)) bool deviceCpuClockFrequencyInMHz_IsValid;
+  __declspec(property(get = __cordl_internal_get_deviceCpuClockFrequencyInMHz_IsValid, put = __cordl_internal_set_deviceCpuClockFrequencyInMHz_IsValid)) bool deviceCpuClockFrequencyInMHz_IsValid;
 
   /// @brief Field deviceCpuClockFrequencyInMHz, offset 0x68, size 0x4
-  __declspec(property(get = __get_deviceCpuClockFrequencyInMHz, put = __set_deviceCpuClockFrequencyInMHz)) float_t deviceCpuClockFrequencyInMHz;
+  __declspec(property(get = __cordl_internal_get_deviceCpuClockFrequencyInMHz, put = __cordl_internal_set_deviceCpuClockFrequencyInMHz)) float_t deviceCpuClockFrequencyInMHz;
 
   /// @brief Field deviceGpuClockFrequencyInMHz_IsValid, offset 0x6c, size 0x1
-  __declspec(property(get = __get_deviceGpuClockFrequencyInMHz_IsValid, put = __set_deviceGpuClockFrequencyInMHz_IsValid)) bool deviceGpuClockFrequencyInMHz_IsValid;
+  __declspec(property(get = __cordl_internal_get_deviceGpuClockFrequencyInMHz_IsValid, put = __cordl_internal_set_deviceGpuClockFrequencyInMHz_IsValid)) bool deviceGpuClockFrequencyInMHz_IsValid;
 
   /// @brief Field deviceGpuClockFrequencyInMHz, offset 0x70, size 0x4
-  __declspec(property(get = __get_deviceGpuClockFrequencyInMHz, put = __set_deviceGpuClockFrequencyInMHz)) float_t deviceGpuClockFrequencyInMHz;
+  __declspec(property(get = __cordl_internal_get_deviceGpuClockFrequencyInMHz, put = __cordl_internal_set_deviceGpuClockFrequencyInMHz)) float_t deviceGpuClockFrequencyInMHz;
 
   /// @brief Field deviceCpuClockLevel_IsValid, offset 0x74, size 0x1
-  __declspec(property(get = __get_deviceCpuClockLevel_IsValid, put = __set_deviceCpuClockLevel_IsValid)) bool deviceCpuClockLevel_IsValid;
+  __declspec(property(get = __cordl_internal_get_deviceCpuClockLevel_IsValid, put = __cordl_internal_set_deviceCpuClockLevel_IsValid)) bool deviceCpuClockLevel_IsValid;
 
   /// @brief Field deviceCpuClockLevel, offset 0x78, size 0x4
-  __declspec(property(get = __get_deviceCpuClockLevel, put = __set_deviceCpuClockLevel)) int32_t deviceCpuClockLevel;
+  __declspec(property(get = __cordl_internal_get_deviceCpuClockLevel, put = __cordl_internal_set_deviceCpuClockLevel)) int32_t deviceCpuClockLevel;
 
   /// @brief Field deviceGpuClockLevel_IsValid, offset 0x7c, size 0x1
-  __declspec(property(get = __get_deviceGpuClockLevel_IsValid, put = __set_deviceGpuClockLevel_IsValid)) bool deviceGpuClockLevel_IsValid;
+  __declspec(property(get = __cordl_internal_get_deviceGpuClockLevel_IsValid, put = __cordl_internal_set_deviceGpuClockLevel_IsValid)) bool deviceGpuClockLevel_IsValid;
 
   /// @brief Field deviceGpuClockLevel, offset 0x80, size 0x4
-  __declspec(property(get = __get_deviceGpuClockLevel, put = __set_deviceGpuClockLevel)) int32_t deviceGpuClockLevel;
+  __declspec(property(get = __cordl_internal_get_deviceGpuClockLevel, put = __cordl_internal_set_deviceGpuClockLevel)) int32_t deviceGpuClockLevel;
 
   /// @brief Field deviceCpuCoreUtilPercentage_IsValid, offset 0x88, size 0x8
-  __declspec(property(get = __get_deviceCpuCoreUtilPercentage_IsValid, put = __set_deviceCpuCoreUtilPercentage_IsValid))::ArrayW<bool, ::Array<bool>*> deviceCpuCoreUtilPercentage_IsValid;
+  __declspec(property(get = __cordl_internal_get_deviceCpuCoreUtilPercentage_IsValid,
+                      put = __cordl_internal_set_deviceCpuCoreUtilPercentage_IsValid))::ArrayW<bool, ::Array<bool>*> deviceCpuCoreUtilPercentage_IsValid;
 
   /// @brief Field deviceCpuCoreUtilPercentage, offset 0x90, size 0x8
-  __declspec(property(get = __get_deviceCpuCoreUtilPercentage, put = __set_deviceCpuCoreUtilPercentage))::ArrayW<float_t, ::Array<float_t>*> deviceCpuCoreUtilPercentage;
+  __declspec(property(get = __cordl_internal_get_deviceCpuCoreUtilPercentage, put = __cordl_internal_set_deviceCpuCoreUtilPercentage))::ArrayW<float_t, ::Array<float_t>*> deviceCpuCoreUtilPercentage;
 
-  constexpr int32_t& __get_frameCount();
+  constexpr int32_t& __cordl_internal_get_frameCount();
 
-  constexpr int32_t const& __get_frameCount() const;
+  constexpr int32_t const& __cordl_internal_get_frameCount() const;
 
-  constexpr void __set_frameCount(int32_t value);
+  constexpr void __cordl_internal_set_frameCount(int32_t value);
 
-  constexpr float_t& __get_frameTime();
+  constexpr float_t& __cordl_internal_get_frameTime();
 
-  constexpr float_t const& __get_frameTime() const;
+  constexpr float_t const& __cordl_internal_get_frameTime() const;
 
-  constexpr void __set_frameTime(float_t value);
+  constexpr void __cordl_internal_set_frameTime(float_t value);
 
-  constexpr float_t& __get_deltaFrameTime();
+  constexpr float_t& __cordl_internal_get_deltaFrameTime();
 
-  constexpr float_t const& __get_deltaFrameTime() const;
+  constexpr float_t const& __cordl_internal_get_deltaFrameTime() const;
 
-  constexpr void __set_deltaFrameTime(float_t value);
+  constexpr void __cordl_internal_set_deltaFrameTime(float_t value);
 
-  constexpr bool& __get_appCpuTime_IsValid();
+  constexpr bool& __cordl_internal_get_appCpuTime_IsValid();
 
-  constexpr bool const& __get_appCpuTime_IsValid() const;
+  constexpr bool const& __cordl_internal_get_appCpuTime_IsValid() const;
 
-  constexpr void __set_appCpuTime_IsValid(bool value);
+  constexpr void __cordl_internal_set_appCpuTime_IsValid(bool value);
 
-  constexpr float_t& __get_appCpuTime();
+  constexpr float_t& __cordl_internal_get_appCpuTime();
 
-  constexpr float_t const& __get_appCpuTime() const;
+  constexpr float_t const& __cordl_internal_get_appCpuTime() const;
 
-  constexpr void __set_appCpuTime(float_t value);
+  constexpr void __cordl_internal_set_appCpuTime(float_t value);
 
-  constexpr bool& __get_appGpuTime_IsValid();
+  constexpr bool& __cordl_internal_get_appGpuTime_IsValid();
 
-  constexpr bool const& __get_appGpuTime_IsValid() const;
+  constexpr bool const& __cordl_internal_get_appGpuTime_IsValid() const;
 
-  constexpr void __set_appGpuTime_IsValid(bool value);
+  constexpr void __cordl_internal_set_appGpuTime_IsValid(bool value);
 
-  constexpr float_t& __get_appGpuTime();
+  constexpr float_t& __cordl_internal_get_appGpuTime();
 
-  constexpr float_t const& __get_appGpuTime() const;
+  constexpr float_t const& __cordl_internal_get_appGpuTime() const;
 
-  constexpr void __set_appGpuTime(float_t value);
+  constexpr void __cordl_internal_set_appGpuTime(float_t value);
 
-  constexpr bool& __get_compositorCpuTime_IsValid();
+  constexpr bool& __cordl_internal_get_compositorCpuTime_IsValid();
 
-  constexpr bool const& __get_compositorCpuTime_IsValid() const;
+  constexpr bool const& __cordl_internal_get_compositorCpuTime_IsValid() const;
 
-  constexpr void __set_compositorCpuTime_IsValid(bool value);
+  constexpr void __cordl_internal_set_compositorCpuTime_IsValid(bool value);
 
-  constexpr float_t& __get_compositorCpuTime();
+  constexpr float_t& __cordl_internal_get_compositorCpuTime();
 
-  constexpr float_t const& __get_compositorCpuTime() const;
+  constexpr float_t const& __cordl_internal_get_compositorCpuTime() const;
 
-  constexpr void __set_compositorCpuTime(float_t value);
+  constexpr void __cordl_internal_set_compositorCpuTime(float_t value);
 
-  constexpr bool& __get_compositorGpuTime_IsValid();
+  constexpr bool& __cordl_internal_get_compositorGpuTime_IsValid();
 
-  constexpr bool const& __get_compositorGpuTime_IsValid() const;
+  constexpr bool const& __cordl_internal_get_compositorGpuTime_IsValid() const;
 
-  constexpr void __set_compositorGpuTime_IsValid(bool value);
+  constexpr void __cordl_internal_set_compositorGpuTime_IsValid(bool value);
 
-  constexpr float_t& __get_compositorGpuTime();
+  constexpr float_t& __cordl_internal_get_compositorGpuTime();
 
-  constexpr float_t const& __get_compositorGpuTime() const;
+  constexpr float_t const& __cordl_internal_get_compositorGpuTime() const;
 
-  constexpr void __set_compositorGpuTime(float_t value);
+  constexpr void __cordl_internal_set_compositorGpuTime(float_t value);
 
-  constexpr bool& __get_compositorDroppedFrameCount_IsValid();
+  constexpr bool& __cordl_internal_get_compositorDroppedFrameCount_IsValid();
 
-  constexpr bool const& __get_compositorDroppedFrameCount_IsValid() const;
+  constexpr bool const& __cordl_internal_get_compositorDroppedFrameCount_IsValid() const;
 
-  constexpr void __set_compositorDroppedFrameCount_IsValid(bool value);
+  constexpr void __cordl_internal_set_compositorDroppedFrameCount_IsValid(bool value);
 
-  constexpr int32_t& __get_compositorDroppedFrameCount();
+  constexpr int32_t& __cordl_internal_get_compositorDroppedFrameCount();
 
-  constexpr int32_t const& __get_compositorDroppedFrameCount() const;
+  constexpr int32_t const& __cordl_internal_get_compositorDroppedFrameCount() const;
 
-  constexpr void __set_compositorDroppedFrameCount(int32_t value);
+  constexpr void __cordl_internal_set_compositorDroppedFrameCount(int32_t value);
 
-  constexpr bool& __get_compositorSpaceWarpMode_IsValid();
+  constexpr bool& __cordl_internal_get_compositorSpaceWarpMode_IsValid();
 
-  constexpr bool const& __get_compositorSpaceWarpMode_IsValid() const;
+  constexpr bool const& __cordl_internal_get_compositorSpaceWarpMode_IsValid() const;
 
-  constexpr void __set_compositorSpaceWarpMode_IsValid(bool value);
+  constexpr void __cordl_internal_set_compositorSpaceWarpMode_IsValid(bool value);
 
-  constexpr int32_t& __get_compositorSpaceWarpMode();
+  constexpr int32_t& __cordl_internal_get_compositorSpaceWarpMode();
 
-  constexpr int32_t const& __get_compositorSpaceWarpMode() const;
+  constexpr int32_t const& __cordl_internal_get_compositorSpaceWarpMode() const;
 
-  constexpr void __set_compositorSpaceWarpMode(int32_t value);
+  constexpr void __cordl_internal_set_compositorSpaceWarpMode(int32_t value);
 
-  constexpr bool& __get_systemGpuUtilPercentage_IsValid();
+  constexpr bool& __cordl_internal_get_systemGpuUtilPercentage_IsValid();
 
-  constexpr bool const& __get_systemGpuUtilPercentage_IsValid() const;
+  constexpr bool const& __cordl_internal_get_systemGpuUtilPercentage_IsValid() const;
 
-  constexpr void __set_systemGpuUtilPercentage_IsValid(bool value);
+  constexpr void __cordl_internal_set_systemGpuUtilPercentage_IsValid(bool value);
 
-  constexpr float_t& __get_systemGpuUtilPercentage();
+  constexpr float_t& __cordl_internal_get_systemGpuUtilPercentage();
 
-  constexpr float_t const& __get_systemGpuUtilPercentage() const;
+  constexpr float_t const& __cordl_internal_get_systemGpuUtilPercentage() const;
 
-  constexpr void __set_systemGpuUtilPercentage(float_t value);
+  constexpr void __cordl_internal_set_systemGpuUtilPercentage(float_t value);
 
-  constexpr bool& __get_systemCpuUtilAveragePercentage_IsValid();
+  constexpr bool& __cordl_internal_get_systemCpuUtilAveragePercentage_IsValid();
 
-  constexpr bool const& __get_systemCpuUtilAveragePercentage_IsValid() const;
+  constexpr bool const& __cordl_internal_get_systemCpuUtilAveragePercentage_IsValid() const;
 
-  constexpr void __set_systemCpuUtilAveragePercentage_IsValid(bool value);
+  constexpr void __cordl_internal_set_systemCpuUtilAveragePercentage_IsValid(bool value);
 
-  constexpr float_t& __get_systemCpuUtilAveragePercentage();
+  constexpr float_t& __cordl_internal_get_systemCpuUtilAveragePercentage();
 
-  constexpr float_t const& __get_systemCpuUtilAveragePercentage() const;
+  constexpr float_t const& __cordl_internal_get_systemCpuUtilAveragePercentage() const;
 
-  constexpr void __set_systemCpuUtilAveragePercentage(float_t value);
+  constexpr void __cordl_internal_set_systemCpuUtilAveragePercentage(float_t value);
 
-  constexpr bool& __get_systemCpuUtilWorstPercentage_IsValid();
+  constexpr bool& __cordl_internal_get_systemCpuUtilWorstPercentage_IsValid();
 
-  constexpr bool const& __get_systemCpuUtilWorstPercentage_IsValid() const;
+  constexpr bool const& __cordl_internal_get_systemCpuUtilWorstPercentage_IsValid() const;
 
-  constexpr void __set_systemCpuUtilWorstPercentage_IsValid(bool value);
+  constexpr void __cordl_internal_set_systemCpuUtilWorstPercentage_IsValid(bool value);
 
-  constexpr float_t& __get_systemCpuUtilWorstPercentage();
+  constexpr float_t& __cordl_internal_get_systemCpuUtilWorstPercentage();
 
-  constexpr float_t const& __get_systemCpuUtilWorstPercentage() const;
+  constexpr float_t const& __cordl_internal_get_systemCpuUtilWorstPercentage() const;
 
-  constexpr void __set_systemCpuUtilWorstPercentage(float_t value);
+  constexpr void __cordl_internal_set_systemCpuUtilWorstPercentage(float_t value);
 
-  constexpr bool& __get_deviceCpuClockFrequencyInMHz_IsValid();
+  constexpr bool& __cordl_internal_get_deviceCpuClockFrequencyInMHz_IsValid();
 
-  constexpr bool const& __get_deviceCpuClockFrequencyInMHz_IsValid() const;
+  constexpr bool const& __cordl_internal_get_deviceCpuClockFrequencyInMHz_IsValid() const;
 
-  constexpr void __set_deviceCpuClockFrequencyInMHz_IsValid(bool value);
+  constexpr void __cordl_internal_set_deviceCpuClockFrequencyInMHz_IsValid(bool value);
 
-  constexpr float_t& __get_deviceCpuClockFrequencyInMHz();
+  constexpr float_t& __cordl_internal_get_deviceCpuClockFrequencyInMHz();
 
-  constexpr float_t const& __get_deviceCpuClockFrequencyInMHz() const;
+  constexpr float_t const& __cordl_internal_get_deviceCpuClockFrequencyInMHz() const;
 
-  constexpr void __set_deviceCpuClockFrequencyInMHz(float_t value);
+  constexpr void __cordl_internal_set_deviceCpuClockFrequencyInMHz(float_t value);
 
-  constexpr bool& __get_deviceGpuClockFrequencyInMHz_IsValid();
+  constexpr bool& __cordl_internal_get_deviceGpuClockFrequencyInMHz_IsValid();
 
-  constexpr bool const& __get_deviceGpuClockFrequencyInMHz_IsValid() const;
+  constexpr bool const& __cordl_internal_get_deviceGpuClockFrequencyInMHz_IsValid() const;
 
-  constexpr void __set_deviceGpuClockFrequencyInMHz_IsValid(bool value);
+  constexpr void __cordl_internal_set_deviceGpuClockFrequencyInMHz_IsValid(bool value);
 
-  constexpr float_t& __get_deviceGpuClockFrequencyInMHz();
+  constexpr float_t& __cordl_internal_get_deviceGpuClockFrequencyInMHz();
 
-  constexpr float_t const& __get_deviceGpuClockFrequencyInMHz() const;
+  constexpr float_t const& __cordl_internal_get_deviceGpuClockFrequencyInMHz() const;
 
-  constexpr void __set_deviceGpuClockFrequencyInMHz(float_t value);
+  constexpr void __cordl_internal_set_deviceGpuClockFrequencyInMHz(float_t value);
 
-  constexpr bool& __get_deviceCpuClockLevel_IsValid();
+  constexpr bool& __cordl_internal_get_deviceCpuClockLevel_IsValid();
 
-  constexpr bool const& __get_deviceCpuClockLevel_IsValid() const;
+  constexpr bool const& __cordl_internal_get_deviceCpuClockLevel_IsValid() const;
 
-  constexpr void __set_deviceCpuClockLevel_IsValid(bool value);
+  constexpr void __cordl_internal_set_deviceCpuClockLevel_IsValid(bool value);
 
-  constexpr int32_t& __get_deviceCpuClockLevel();
+  constexpr int32_t& __cordl_internal_get_deviceCpuClockLevel();
 
-  constexpr int32_t const& __get_deviceCpuClockLevel() const;
+  constexpr int32_t const& __cordl_internal_get_deviceCpuClockLevel() const;
 
-  constexpr void __set_deviceCpuClockLevel(int32_t value);
+  constexpr void __cordl_internal_set_deviceCpuClockLevel(int32_t value);
 
-  constexpr bool& __get_deviceGpuClockLevel_IsValid();
+  constexpr bool& __cordl_internal_get_deviceGpuClockLevel_IsValid();
 
-  constexpr bool const& __get_deviceGpuClockLevel_IsValid() const;
+  constexpr bool const& __cordl_internal_get_deviceGpuClockLevel_IsValid() const;
 
-  constexpr void __set_deviceGpuClockLevel_IsValid(bool value);
+  constexpr void __cordl_internal_set_deviceGpuClockLevel_IsValid(bool value);
 
-  constexpr int32_t& __get_deviceGpuClockLevel();
+  constexpr int32_t& __cordl_internal_get_deviceGpuClockLevel();
 
-  constexpr int32_t const& __get_deviceGpuClockLevel() const;
+  constexpr int32_t const& __cordl_internal_get_deviceGpuClockLevel() const;
 
-  constexpr void __set_deviceGpuClockLevel(int32_t value);
+  constexpr void __cordl_internal_set_deviceGpuClockLevel(int32_t value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get_deviceCpuCoreUtilPercentage_IsValid();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get_deviceCpuCoreUtilPercentage_IsValid();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get_deviceCpuCoreUtilPercentage_IsValid() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_deviceCpuCoreUtilPercentage_IsValid() const;
 
-  constexpr void __set_deviceCpuCoreUtilPercentage_IsValid(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set_deviceCpuCoreUtilPercentage_IsValid(::ArrayW<bool, ::Array<bool>*> value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get_deviceCpuCoreUtilPercentage();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_deviceCpuCoreUtilPercentage();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get_deviceCpuCoreUtilPercentage() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_deviceCpuCoreUtilPercentage() const;
 
-  constexpr void __set_deviceCpuCoreUtilPercentage(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set_deviceCpuCoreUtilPercentage(::ArrayW<float_t, ::Array<float_t>*> value);
 
   /// @brief Method ToJSON, addr 0x27c24c0, size 0x774, virtual false, abstract: false, final false
   inline ::StringW ToJSON();
@@ -511,36 +513,36 @@ static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__PerfMetrics, _
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8183))
 // CS Name: ::OVRSystemPerfMetrics::OVRSystemPerfMetricsTcpServer*
 class CORDL_TYPE __OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field tcpServer, offset 0x18, size 0x8
-  __declspec(property(get = __get_tcpServer, put = __set_tcpServer))::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer* tcpServer;
+  __declspec(property(get = __cordl_internal_get_tcpServer, put = __cordl_internal_set_tcpServer))::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer* tcpServer;
 
   /// @brief Field listeningPort, offset 0x20, size 0x4
-  __declspec(property(get = __get_listeningPort, put = __set_listeningPort)) int32_t listeningPort;
+  __declspec(property(get = __cordl_internal_get_listeningPort, put = __cordl_internal_set_listeningPort)) int32_t listeningPort;
 
   /// @brief Field singleton, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_singleton, put = setStaticF_singleton))::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer* singleton;
+  static __declspec(property(get = getStaticF_singleton, put = setStaticF_singleton))::UnityW<::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer> singleton;
 
-  constexpr ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer*& __get_tcpServer();
+  constexpr ::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer*& __cordl_internal_get_tcpServer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer*> const& __get_tcpServer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer*> const& __cordl_internal_get_tcpServer() const;
 
-  constexpr void __set_tcpServer(::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer* value);
+  constexpr void __cordl_internal_set_tcpServer(::GlobalNamespace::__OVRNetwork__OVRNetworkTcpServer* value);
 
-  constexpr int32_t& __get_listeningPort();
+  constexpr int32_t& __cordl_internal_get_listeningPort();
 
-  constexpr int32_t const& __get_listeningPort() const;
+  constexpr int32_t const& __cordl_internal_get_listeningPort() const;
 
-  constexpr void __set_listeningPort(int32_t value);
+  constexpr void __cordl_internal_set_listeningPort(int32_t value);
 
-  static inline void setStaticF_singleton(::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer* value);
+  static inline void setStaticF_singleton(::UnityW<::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer> value);
 
-  static inline ::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer* getStaticF_singleton();
+  static inline ::UnityW<::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfMetricsTcpServer> getStaticF_singleton();
 
   /// @brief Method OnEnable, addr 0x27c3e6c, size 0x114, virtual false, abstract: false, final false
   inline void OnEnable();
@@ -593,7 +595,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSystemPerfMetrics__OVRSystemPerfM
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8184))
 // CS Name: ::OVRSystemPerfMetrics*
 class CORDL_TYPE OVRSystemPerfMetrics : public ::System::Object {

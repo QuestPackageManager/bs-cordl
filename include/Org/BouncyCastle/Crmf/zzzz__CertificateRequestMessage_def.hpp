@@ -40,17 +40,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::CertificateRequestMessage);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(696))
 // CS Name: ::Org.BouncyCastle.Crmf::CertificateRequestMessage*
 class CORDL_TYPE CertificateRequestMessage : public ::System::Object {
 public:
   // Declarations
   /// @brief Field certReqMsg, offset 0x10, size 0x8
-  __declspec(property(get = __get_certReqMsg, put = __set_certReqMsg))::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* certReqMsg;
+  __declspec(property(get = __cordl_internal_get_certReqMsg, put = __cordl_internal_set_certReqMsg))::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* certReqMsg;
 
   /// @brief Field controls, offset 0x18, size 0x8
-  __declspec(property(get = __get_controls, put = __set_controls))::Org::BouncyCastle::Asn1::Crmf::Controls* controls;
+  __declspec(property(get = __cordl_internal_get_controls, put = __cordl_internal_set_controls))::Org::BouncyCastle::Asn1::Crmf::Controls* controls;
 
   /// @brief Field popRaVerified, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_popRaVerified, put = setStaticF_popRaVerified)) int32_t popRaVerified;
@@ -72,17 +72,17 @@ public:
 
   __declspec(property(get = get_HasSigningKeyProofOfPossessionWithPkMac)) bool HasSigningKeyProofOfPossessionWithPkMac;
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*& __get_certReqMsg();
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*& __cordl_internal_get_certReqMsg();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*> const& __get_certReqMsg() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertReqMsg*> const& __cordl_internal_get_certReqMsg() const;
 
-  constexpr void __set_certReqMsg(::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* value);
+  constexpr void __cordl_internal_set_certReqMsg(::Org::BouncyCastle::Asn1::Crmf::CertReqMsg* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::Controls*& __get_controls();
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::Controls*& __cordl_internal_get_controls();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::Controls*> const& __get_controls() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::Controls*> const& __cordl_internal_get_controls() const;
 
-  constexpr void __set_controls(::Org::BouncyCastle::Asn1::Crmf::Controls* value);
+  constexpr void __cordl_internal_set_controls(::Org::BouncyCastle::Asn1::Crmf::Controls* value);
 
   static inline void setStaticF_popRaVerified(int32_t value);
 

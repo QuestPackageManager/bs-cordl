@@ -39,10 +39,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x227a260;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -54,41 +54,44 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x227a514;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0*>::get(), "<SetData>b__0", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifierInfoListItem*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0*>::get(), "<SetData>b__0",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifierInfoListItem*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*& GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0::__get_modifiersList() {
+constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*&
+GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0::__cordl_internal_get_modifiersList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifiersList;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*> const&
-GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0::__get_modifiersList() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> const&
+GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0::__cordl_internal_get_modifiersList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___modifiersList;
 }
-constexpr void GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0::__set_modifiersList(::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* value) {
+constexpr void GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0::__cordl_internal_set_modifiersList(
+    ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___modifiersList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0* GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0*>());
 }
 inline void GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0::_SetData_b__0(int32_t id, ::GlobalNamespace::GameplayModifierInfoListItem* listItem) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0*>::get(), "<SetData>b__0", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifierInfoListItem*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0*>::get(), "<SetData>b__0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifierInfoListItem*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, id, listItem);
 }
 // Ctor Parameters []
@@ -101,10 +104,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x438;
   constexpr static std::size_t addrs = 0x227a58c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35>::get(),
-                                                 "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -116,41 +119,43 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x227a9c4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35>::get(), "SetStateMachine",
-        std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35>::get(),
+                                    "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
 GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 inline void GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35>::get(),
-                                               "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35>::get(), "SetStateMachine",
-      std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35>::get(),
+                                  "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::GameServerPlayerTableCell*", modifiers:
-// "", def_value: Some("nullptr") }, CppParam { name: "getLevelEntitlementTask", ty: "::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*", modifiers: "", def_value:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::GameServerPlayerTableCell>",
+// modifiers: "", def_value: Some("nullptr") }, CppParam { name: "getLevelEntitlementTask", ty: "::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*", modifiers: "", def_value:
 // Some("nullptr") }, CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35::__GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::GameServerPlayerTableCell* __4__this,
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::GameServerPlayerTableCell> __4__this,
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask, ::System::Threading::CancellationToken _cancellationToken_5__2,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -170,10 +175,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x227930c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "add_kickPlayerEvent", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "add_kickPlayerEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -185,10 +190,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x22793bc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "remove_kickPlayerEvent", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "remove_kickPlayerEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -200,10 +205,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x227946c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "add_useBeatmapEvent", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "add_useBeatmapEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -215,10 +220,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x2279520;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "remove_useBeatmapEvent", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "remove_useBeatmapEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -230,10 +235,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x22795d4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "add_useModifiersEvent", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "add_useModifiersEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -245,10 +250,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0x2279688;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "remove_useModifiersEvent",
-                                    std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "remove_useModifiersEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -261,13 +266,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb24;
   constexpr static std::size_t addrs = 0x227973c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "SetData", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectedPlayer*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILobbyPlayerData*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "SetData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectedPlayer*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILobbyPlayerData*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*>::get() })));
     return ___internal_method;
   }
 };
@@ -278,9 +283,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x144;
   constexpr static std::size_t addrs = 0x227a308;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "Awake",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -292,9 +297,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x227a44c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(),
-                                                                               "HandleKickPlayerButtonPressed", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "HandleKickPlayerButtonPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -306,9 +311,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x227a46c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(),
-                                                                               "HandleUseBeatmapButtonPressed", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "HandleUseBeatmapButtonPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -320,9 +325,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x227a48c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(),
-                                                                               "HandleUseModifiersButtonPressed", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "HandleUseModifiersButtonPressed",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -334,10 +340,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x227a268;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "SetBeatmapUseButtonEnabledAsync", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "SetBeatmapUseButtonEnabledAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*>::get() })));
     return ___internal_method;
   }
 };
@@ -348,380 +354,380 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x227a4ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::HMUI::CurvedTextMeshPro*& GlobalNamespace::GameServerPlayerTableCell::__get__playerNameText() {
+constexpr ::UnityW<::HMUI::CurvedTextMeshPro>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__playerNameText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerNameText;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedTextMeshPro*> const& GlobalNamespace::GameServerPlayerTableCell::__get__playerNameText() const {
+constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__playerNameText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerNameText;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__playerNameText(::HMUI::CurvedTextMeshPro* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__playerNameText(::UnityW<::HMUI::CurvedTextMeshPro> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerNameText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Image*& GlobalNamespace::GameServerPlayerTableCell::__get__localPlayerBackgroundImage() {
+constexpr ::UnityW<::UnityEngine::UI::Image>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__localPlayerBackgroundImage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayerBackgroundImage;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& GlobalNamespace::GameServerPlayerTableCell::__get__localPlayerBackgroundImage() const {
+constexpr ::UnityW<::UnityEngine::UI::Image> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__localPlayerBackgroundImage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPlayerBackgroundImage;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__localPlayerBackgroundImage(::UnityEngine::UI::Image* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__localPlayerBackgroundImage(::UnityW<::UnityEngine::UI::Image> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localPlayerBackgroundImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::CurvedTextMeshPro*& GlobalNamespace::GameServerPlayerTableCell::__get__suggestedLevelText() {
+constexpr ::UnityW<::HMUI::CurvedTextMeshPro>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__suggestedLevelText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____suggestedLevelText;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedTextMeshPro*> const& GlobalNamespace::GameServerPlayerTableCell::__get__suggestedLevelText() const {
+constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__suggestedLevelText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____suggestedLevelText;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__suggestedLevelText(::HMUI::CurvedTextMeshPro* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__suggestedLevelText(::UnityW<::HMUI::CurvedTextMeshPro> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____suggestedLevelText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::ImageView*& GlobalNamespace::GameServerPlayerTableCell::__get__suggestedCharacteristicIcon() {
+constexpr ::UnityW<::HMUI::ImageView>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__suggestedCharacteristicIcon() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____suggestedCharacteristicIcon;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& GlobalNamespace::GameServerPlayerTableCell::__get__suggestedCharacteristicIcon() const {
+constexpr ::UnityW<::HMUI::ImageView> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__suggestedCharacteristicIcon() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____suggestedCharacteristicIcon;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__suggestedCharacteristicIcon(::HMUI::ImageView* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__suggestedCharacteristicIcon(::UnityW<::HMUI::ImageView> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____suggestedCharacteristicIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::TMPro::TextMeshProUGUI*& GlobalNamespace::GameServerPlayerTableCell::__get__suggestedDifficultyText() {
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__suggestedDifficultyText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____suggestedDifficultyText;
 }
-constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& GlobalNamespace::GameServerPlayerTableCell::__get__suggestedDifficultyText() const {
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__suggestedDifficultyText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____suggestedDifficultyText;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__suggestedDifficultyText(::TMPro::TextMeshProUGUI* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__suggestedDifficultyText(::UnityW<::TMPro::TextMeshProUGUI> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____suggestedDifficultyText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::CurvedTextMeshPro*& GlobalNamespace::GameServerPlayerTableCell::__get__emptySuggestedLevelText() {
+constexpr ::UnityW<::HMUI::CurvedTextMeshPro>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__emptySuggestedLevelText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____emptySuggestedLevelText;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedTextMeshPro*> const& GlobalNamespace::GameServerPlayerTableCell::__get__emptySuggestedLevelText() const {
+constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__emptySuggestedLevelText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____emptySuggestedLevelText;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__emptySuggestedLevelText(::HMUI::CurvedTextMeshPro* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__emptySuggestedLevelText(::UnityW<::HMUI::CurvedTextMeshPro> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____emptySuggestedLevelText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::GameplayModifierInfoListItemsList*& GlobalNamespace::GameServerPlayerTableCell::__get__suggestedModifiersList() {
+constexpr ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__suggestedModifiersList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____suggestedModifiersList;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierInfoListItemsList*> const& GlobalNamespace::GameServerPlayerTableCell::__get__suggestedModifiersList() const {
+constexpr ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__suggestedModifiersList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____suggestedModifiersList;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__suggestedModifiersList(::GlobalNamespace::GameplayModifierInfoListItemsList* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__suggestedModifiersList(::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____suggestedModifiersList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::CurvedTextMeshPro*& GlobalNamespace::GameServerPlayerTableCell::__get__emptySuggestedModifiersText() {
+constexpr ::UnityW<::HMUI::CurvedTextMeshPro>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__emptySuggestedModifiersText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____emptySuggestedModifiersText;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedTextMeshPro*> const& GlobalNamespace::GameServerPlayerTableCell::__get__emptySuggestedModifiersText() const {
+constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__emptySuggestedModifiersText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____emptySuggestedModifiersText;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__emptySuggestedModifiersText(::HMUI::CurvedTextMeshPro* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__emptySuggestedModifiersText(::UnityW<::HMUI::CurvedTextMeshPro> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____emptySuggestedModifiersText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Button*& GlobalNamespace::GameServerPlayerTableCell::__get__mutePlayerButton() {
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__mutePlayerButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mutePlayerButton;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::GameServerPlayerTableCell::__get__mutePlayerButton() const {
+constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__mutePlayerButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mutePlayerButton;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__mutePlayerButton(::UnityEngine::UI::Button* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__mutePlayerButton(::UnityW<::UnityEngine::UI::Button> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mutePlayerButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Button*& GlobalNamespace::GameServerPlayerTableCell::__get__kickPlayerButton() {
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__kickPlayerButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____kickPlayerButton;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::GameServerPlayerTableCell::__get__kickPlayerButton() const {
+constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__kickPlayerButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____kickPlayerButton;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__kickPlayerButton(::UnityEngine::UI::Button* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__kickPlayerButton(::UnityW<::UnityEngine::UI::Button> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____kickPlayerButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Button*& GlobalNamespace::GameServerPlayerTableCell::__get__useBeatmapButton() {
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__useBeatmapButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useBeatmapButton;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::GameServerPlayerTableCell::__get__useBeatmapButton() const {
+constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__useBeatmapButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useBeatmapButton;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__useBeatmapButton(::UnityEngine::UI::Button* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__useBeatmapButton(::UnityW<::UnityEngine::UI::Button> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____useBeatmapButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Button*& GlobalNamespace::GameServerPlayerTableCell::__get__useModifiersButton() {
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__useModifiersButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useModifiersButton;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::GameServerPlayerTableCell::__get__useModifiersButton() const {
+constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__useModifiersButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useModifiersButton;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__useModifiersButton(::UnityEngine::UI::Button* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__useModifiersButton(::UnityW<::UnityEngine::UI::Button> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____useModifiersButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::HoverHint*& GlobalNamespace::GameServerPlayerTableCell::__get__useBeatmapButtonHoverHint() {
+constexpr ::UnityW<::HMUI::HoverHint>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__useBeatmapButtonHoverHint() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useBeatmapButtonHoverHint;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverHint*> const& GlobalNamespace::GameServerPlayerTableCell::__get__useBeatmapButtonHoverHint() const {
+constexpr ::UnityW<::HMUI::HoverHint> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__useBeatmapButtonHoverHint() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useBeatmapButtonHoverHint;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__useBeatmapButtonHoverHint(::HMUI::HoverHint* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__useBeatmapButtonHoverHint(::UnityW<::HMUI::HoverHint> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____useBeatmapButtonHoverHint)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::ButtonSpriteSwapToggle*& GlobalNamespace::GameServerPlayerTableCell::__get__muteToggle() {
+constexpr ::UnityW<::HMUI::ButtonSpriteSwapToggle>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__muteToggle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____muteToggle;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonSpriteSwapToggle*> const& GlobalNamespace::GameServerPlayerTableCell::__get__muteToggle() const {
+constexpr ::UnityW<::HMUI::ButtonSpriteSwapToggle> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__muteToggle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____muteToggle;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__muteToggle(::HMUI::ButtonSpriteSwapToggle* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__muteToggle(::UnityW<::HMUI::ButtonSpriteSwapToggle> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____muteToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::ImageView*& GlobalNamespace::GameServerPlayerTableCell::__get__statusImageView() {
+constexpr ::UnityW<::HMUI::ImageView>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__statusImageView() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____statusImageView;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& GlobalNamespace::GameServerPlayerTableCell::__get__statusImageView() const {
+constexpr ::UnityW<::HMUI::ImageView> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__statusImageView() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____statusImageView;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__statusImageView(::HMUI::ImageView* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__statusImageView(::UnityW<::HMUI::ImageView> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____statusImageView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Sprite*& GlobalNamespace::GameServerPlayerTableCell::__get__readyIcon() {
+constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__readyIcon() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readyIcon;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::GameServerPlayerTableCell::__get__readyIcon() const {
+constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__readyIcon() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____readyIcon;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__readyIcon(::UnityEngine::Sprite* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__readyIcon(::UnityW<::UnityEngine::Sprite> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____readyIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Sprite*& GlobalNamespace::GameServerPlayerTableCell::__get__spectatingIcon() {
+constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__spectatingIcon() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectatingIcon;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::GameServerPlayerTableCell::__get__spectatingIcon() const {
+constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__spectatingIcon() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectatingIcon;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__spectatingIcon(::UnityEngine::Sprite* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__spectatingIcon(::UnityW<::UnityEngine::Sprite> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spectatingIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Sprite*& GlobalNamespace::GameServerPlayerTableCell::__get__hostIcon() {
+constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__hostIcon() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hostIcon;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::GameServerPlayerTableCell::__get__hostIcon() const {
+constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__hostIcon() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hostIcon;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__hostIcon(::UnityEngine::Sprite* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__hostIcon(::UnityW<::UnityEngine::Sprite> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hostIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::GameplayModifiersModelSO*& GlobalNamespace::GameServerPlayerTableCell::__get__gameplayModifiers() {
+constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__gameplayModifiers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiersModelSO*> const& GlobalNamespace::GameServerPlayerTableCell::__get__gameplayModifiers() const {
+constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__gameplayModifiers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__gameplayModifiers(::GlobalNamespace::GameplayModifiersModelSO* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__gameplayModifiers(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifiers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<int32_t>*& GlobalNamespace::GameServerPlayerTableCell::__get_kickPlayerEvent() {
+constexpr ::System::Action_1<int32_t>*& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get_kickPlayerEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kickPlayerEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& GlobalNamespace::GameServerPlayerTableCell::__get_kickPlayerEvent() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get_kickPlayerEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___kickPlayerEvent;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set_kickPlayerEvent(::System::Action_1<int32_t>* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set_kickPlayerEvent(::System::Action_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___kickPlayerEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<int32_t>*& GlobalNamespace::GameServerPlayerTableCell::__get_useBeatmapEvent() {
+constexpr ::System::Action_1<int32_t>*& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get_useBeatmapEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useBeatmapEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& GlobalNamespace::GameServerPlayerTableCell::__get_useBeatmapEvent() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get_useBeatmapEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useBeatmapEvent;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set_useBeatmapEvent(::System::Action_1<int32_t>* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set_useBeatmapEvent(::System::Action_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___useBeatmapEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<int32_t>*& GlobalNamespace::GameServerPlayerTableCell::__get_useModifiersEvent() {
+constexpr ::System::Action_1<int32_t>*& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get_useModifiersEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useModifiersEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& GlobalNamespace::GameServerPlayerTableCell::__get_useModifiersEvent() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get_useModifiersEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useModifiersEvent;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set_useModifiersEvent(::System::Action_1<int32_t>* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set_useModifiersEvent(::System::Action_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___useModifiersEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::ButtonBinder*& GlobalNamespace::GameServerPlayerTableCell::__get__buttonBinder() {
+constexpr ::HMUI::ButtonBinder*& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__buttonBinder() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& GlobalNamespace::GameServerPlayerTableCell::__get__buttonBinder() const {
+constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__buttonBinder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonBinder;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__buttonBinder(::HMUI::ButtonBinder* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttonBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Threading::CancellationTokenSource*& GlobalNamespace::GameServerPlayerTableCell::__get__getLevelEntitlementCancellationTokenSource() {
+constexpr ::System::Threading::CancellationTokenSource*& GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__getLevelEntitlementCancellationTokenSource() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getLevelEntitlementCancellationTokenSource;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const&
-GlobalNamespace::GameServerPlayerTableCell::__get__getLevelEntitlementCancellationTokenSource() const {
+GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_get__getLevelEntitlementCancellationTokenSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____getLevelEntitlementCancellationTokenSource;
 }
-constexpr void GlobalNamespace::GameServerPlayerTableCell::__set__getLevelEntitlementCancellationTokenSource(::System::Threading::CancellationTokenSource* value) {
+constexpr void GlobalNamespace::GameServerPlayerTableCell::__cordl_internal_set__getLevelEntitlementCancellationTokenSource(::System::Threading::CancellationTokenSource* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____getLevelEntitlementCancellationTokenSource)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::GameServerPlayerTableCell::add_kickPlayerEvent(::System::Action_1<int32_t>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "add_kickPlayerEvent", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "add_kickPlayerEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::GameServerPlayerTableCell::remove_kickPlayerEvent(::System::Action_1<int32_t>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "remove_kickPlayerEvent", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "remove_kickPlayerEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::GameServerPlayerTableCell::add_useBeatmapEvent(::System::Action_1<int32_t>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "add_useBeatmapEvent", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "add_useBeatmapEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::GameServerPlayerTableCell::remove_useBeatmapEvent(::System::Action_1<int32_t>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "remove_useBeatmapEvent", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "remove_useBeatmapEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::GameServerPlayerTableCell::add_useModifiersEvent(::System::Action_1<int32_t>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "add_useModifiersEvent", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "add_useModifiersEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::GameServerPlayerTableCell::remove_useModifiersEvent(::System::Action_1<int32_t>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "remove_useModifiersEvent", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "remove_useModifiersEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<int32_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::GameServerPlayerTableCell::SetData(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::ILobbyPlayerData* playerData, bool hasKickPermissions,
                                                                 bool allowSelection, ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "SetData", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectedPlayer*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILobbyPlayerData*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "SetData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectedPlayer*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILobbyPlayerData*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, connectedPlayer, playerData, hasKickPermissions, allowSelection, getLevelEntitlementTask);
 }
 inline void GlobalNamespace::GameServerPlayerTableCell::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "Awake",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::GameServerPlayerTableCell::HandleKickPlayerButtonPressed() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(),
-                                                                             "HandleKickPlayerButtonPressed", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "HandleKickPlayerButtonPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::GameServerPlayerTableCell::HandleUseBeatmapButtonPressed() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(),
-                                                                             "HandleUseBeatmapButtonPressed", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "HandleUseBeatmapButtonPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::GameServerPlayerTableCell::HandleUseModifiersButtonPressed() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(),
-                                                                             "HandleUseModifiersButtonPressed", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "HandleUseModifiersButtonPressed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::GameServerPlayerTableCell::SetBeatmapUseButtonEnabledAsync(::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "SetBeatmapUseButtonEnabledAsync", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), "SetBeatmapUseButtonEnabledAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, getLevelEntitlementTask);
 }
 inline ::GlobalNamespace::GameServerPlayerTableCell* GlobalNamespace::GameServerPlayerTableCell::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::GameServerPlayerTableCell*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameServerPlayerTableCell*>());
 }
 inline void GlobalNamespace::GameServerPlayerTableCell::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

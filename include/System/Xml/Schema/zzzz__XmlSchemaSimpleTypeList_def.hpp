@@ -20,42 +20,42 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaSimpleTypeList);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11738))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11738))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11739))
 // CS Name: ::System.Xml.Schema::XmlSchemaSimpleTypeList*
 class CORDL_TYPE XmlSchemaSimpleTypeList : public ::System::Xml::Schema::XmlSchemaSimpleTypeContent {
 public:
   // Declarations
   /// @brief Field itemTypeName, offset 0x10, size 0x8
-  __declspec(property(get = __get_itemTypeName, put = __set_itemTypeName))::System::Xml::XmlQualifiedName* itemTypeName;
+  __declspec(property(get = __cordl_internal_get_itemTypeName, put = __cordl_internal_set_itemTypeName))::System::Xml::XmlQualifiedName* itemTypeName;
 
   /// @brief Field itemType, offset 0x18, size 0x8
-  __declspec(property(get = __get_itemType, put = __set_itemType))::System::Xml::Schema::XmlSchemaSimpleType* itemType;
+  __declspec(property(get = __cordl_internal_get_itemType, put = __cordl_internal_set_itemType))::System::Xml::Schema::XmlSchemaSimpleType* itemType;
 
   /// @brief Field baseItemType, offset 0x20, size 0x8
-  __declspec(property(get = __get_baseItemType, put = __set_baseItemType))::System::Xml::Schema::XmlSchemaSimpleType* baseItemType;
+  __declspec(property(get = __cordl_internal_get_baseItemType, put = __cordl_internal_set_baseItemType))::System::Xml::Schema::XmlSchemaSimpleType* baseItemType;
 
   __declspec(property(put = set_ItemType))::System::Xml::Schema::XmlSchemaSimpleType* ItemType;
 
   __declspec(property(get = get_BaseItemType, put = set_BaseItemType))::System::Xml::Schema::XmlSchemaSimpleType* BaseItemType;
 
-  constexpr ::System::Xml::XmlQualifiedName*& __get_itemTypeName();
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_itemTypeName();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __get_itemTypeName() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_itemTypeName() const;
 
-  constexpr void __set_itemTypeName(::System::Xml::XmlQualifiedName* value);
+  constexpr void __cordl_internal_set_itemTypeName(::System::Xml::XmlQualifiedName* value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& __get_itemType();
+  constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& __cordl_internal_get_itemType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& __get_itemType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& __cordl_internal_get_itemType() const;
 
-  constexpr void __set_itemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
+  constexpr void __cordl_internal_set_itemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& __get_baseItemType();
+  constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& __cordl_internal_get_baseItemType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& __get_baseItemType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& __cordl_internal_get_baseItemType() const;
 
-  constexpr void __set_baseItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
+  constexpr void __cordl_internal_set_baseItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
   /// @brief Method set_ItemType, addr 0x28c90fc, size 0x8, virtual false, abstract: false, final false
   inline void set_ItemType(::System::Xml::Schema::XmlSchemaSimpleType* value);

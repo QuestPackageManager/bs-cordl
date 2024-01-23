@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x2b8b54c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Pipe*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Pipe*>::get(), 6));
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x38;
   constexpr static std::size_t addrs = 0x2b8b5d8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Pipe*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Pipe*>::get(), 4));
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa70;
   constexpr static std::size_t addrs = 0x2b8b610;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Pipe*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Pipe*>::get(), 5));
@@ -58,57 +58,57 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x2b8c080;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Pipe*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr float_t& UnityEngine::ProBuilder::Shapes::Pipe::__get_m_Thickness() {
+constexpr float_t& UnityEngine::ProBuilder::Shapes::Pipe::__cordl_internal_get_m_Thickness() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Thickness;
 }
-constexpr float_t const& UnityEngine::ProBuilder::Shapes::Pipe::__get_m_Thickness() const {
+constexpr float_t const& UnityEngine::ProBuilder::Shapes::Pipe::__cordl_internal_get_m_Thickness() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Thickness;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Pipe::__set_m_Thickness(float_t value) {
+constexpr void UnityEngine::ProBuilder::Shapes::Pipe::__cordl_internal_set_m_Thickness(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Thickness = value;
 }
-constexpr int32_t& UnityEngine::ProBuilder::Shapes::Pipe::__get_m_NumberOfSides() {
+constexpr int32_t& UnityEngine::ProBuilder::Shapes::Pipe::__cordl_internal_get_m_NumberOfSides() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NumberOfSides;
 }
-constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Pipe::__get_m_NumberOfSides() const {
+constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Pipe::__cordl_internal_get_m_NumberOfSides() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NumberOfSides;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Pipe::__set_m_NumberOfSides(int32_t value) {
+constexpr void UnityEngine::ProBuilder::Shapes::Pipe::__cordl_internal_set_m_NumberOfSides(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_NumberOfSides = value;
 }
-constexpr int32_t& UnityEngine::ProBuilder::Shapes::Pipe::__get_m_HeightCuts() {
+constexpr int32_t& UnityEngine::ProBuilder::Shapes::Pipe::__cordl_internal_get_m_HeightCuts() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HeightCuts;
 }
-constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Pipe::__get_m_HeightCuts() const {
+constexpr int32_t const& UnityEngine::ProBuilder::Shapes::Pipe::__cordl_internal_get_m_HeightCuts() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HeightCuts;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Pipe::__set_m_HeightCuts(int32_t value) {
+constexpr void UnityEngine::ProBuilder::Shapes::Pipe::__cordl_internal_set_m_HeightCuts(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_HeightCuts = value;
 }
-constexpr bool& UnityEngine::ProBuilder::Shapes::Pipe::__get_m_Smooth() {
+constexpr bool& UnityEngine::ProBuilder::Shapes::Pipe::__cordl_internal_get_m_Smooth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Smooth;
 }
-constexpr bool const& UnityEngine::ProBuilder::Shapes::Pipe::__get_m_Smooth() const {
+constexpr bool const& UnityEngine::ProBuilder::Shapes::Pipe::__cordl_internal_get_m_Smooth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Smooth;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::Pipe::__set_m_Smooth(bool value) {
+constexpr void UnityEngine::ProBuilder::Shapes::Pipe::__cordl_internal_set_m_Smooth(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Smooth = value;
 }
@@ -129,11 +129,11 @@ inline ::UnityEngine::Bounds UnityEngine::ProBuilder::Shapes::Pipe::RebuildMesh(
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds, false>(this, ___internal_method, mesh, size, rotation);
 }
 inline ::UnityEngine::ProBuilder::Shapes::Pipe* UnityEngine::ProBuilder::Shapes::Pipe::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::ProBuilder::Shapes::Pipe*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::Shapes::Pipe*>());
 }
 inline void UnityEngine::ProBuilder::Shapes::Pipe::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Pipe*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

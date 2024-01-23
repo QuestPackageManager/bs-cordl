@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__SongPacksDropdown____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5578))
 // CS Name: ::SongPacksDropdown::<>c*
 class CORDL_TYPE __SongPacksDropdown____c : public ::System::Object {
@@ -97,7 +97,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__SongPacksDrop
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5579))
 // CS Name: ::SongPacksDropdown*
 class CORDL_TYPE SongPacksDropdown : public ::UnityEngine::MonoBehaviour {
@@ -106,49 +106,50 @@ public:
   using __c = ::GlobalNamespace::__SongPacksDropdown____c;
 
   /// @brief Field _simpleTextDropdown, offset 0x18, size 0x8
-  __declspec(property(get = __get__simpleTextDropdown, put = __set__simpleTextDropdown))::HMUI::SimpleTextDropdown* _simpleTextDropdown;
+  __declspec(property(get = __cordl_internal_get__simpleTextDropdown, put = __cordl_internal_set__simpleTextDropdown))::UnityW<::HMUI::SimpleTextDropdown> _simpleTextDropdown;
 
   /// @brief Field _songPackMasksModel, offset 0x20, size 0x8
-  __declspec(property(get = __get__songPackMasksModel, put = __set__songPackMasksModel))::GlobalNamespace::SongPackMasksModel* _songPackMasksModel;
+  __declspec(property(get = __cordl_internal_get__songPackMasksModel, put = __cordl_internal_set__songPackMasksModel))::GlobalNamespace::SongPackMasksModel* _songPackMasksModel;
 
   /// @brief Field didSelectCellWithIdxEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_didSelectCellWithIdxEvent, put = __set_didSelectCellWithIdxEvent))::System::Action_1<int32_t>* didSelectCellWithIdxEvent;
+  __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent, put = __cordl_internal_set_didSelectCellWithIdxEvent))::System::Action_1<int32_t>* didSelectCellWithIdxEvent;
 
   /// @brief Field _initialized, offset 0x30, size 0x1
-  __declspec(property(get = __get__initialized, put = __set__initialized)) bool _initialized;
+  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
   /// @brief Field _songPackSerializedNames, offset 0x38, size 0x8
-  __declspec(property(get = __get__songPackSerializedNames, put = __set__songPackSerializedNames))::System::Collections::Generic::List_1<::StringW>* _songPackSerializedNames;
+  __declspec(property(get = __cordl_internal_get__songPackSerializedNames,
+                      put = __cordl_internal_set__songPackSerializedNames))::System::Collections::Generic::List_1<::StringW>* _songPackSerializedNames;
 
-  constexpr ::HMUI::SimpleTextDropdown*& __get__simpleTextDropdown();
+  constexpr ::UnityW<::HMUI::SimpleTextDropdown>& __cordl_internal_get__simpleTextDropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::SimpleTextDropdown*> const& __get__simpleTextDropdown() const;
+  constexpr ::UnityW<::HMUI::SimpleTextDropdown> const& __cordl_internal_get__simpleTextDropdown() const;
 
-  constexpr void __set__simpleTextDropdown(::HMUI::SimpleTextDropdown* value);
+  constexpr void __cordl_internal_set__simpleTextDropdown(::UnityW<::HMUI::SimpleTextDropdown> value);
 
-  constexpr ::GlobalNamespace::SongPackMasksModel*& __get__songPackMasksModel();
+  constexpr ::GlobalNamespace::SongPackMasksModel*& __cordl_internal_get__songPackMasksModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPackMasksModel*> const& __get__songPackMasksModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPackMasksModel*> const& __cordl_internal_get__songPackMasksModel() const;
 
-  constexpr void __set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
+  constexpr void __cordl_internal_set__songPackMasksModel(::GlobalNamespace::SongPackMasksModel* value);
 
-  constexpr ::System::Action_1<int32_t>*& __get_didSelectCellWithIdxEvent();
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_didSelectCellWithIdxEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __get_didSelectCellWithIdxEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
 
-  constexpr void __set_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
+  constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  constexpr bool& __get__initialized();
+  constexpr bool& __cordl_internal_get__initialized();
 
-  constexpr bool const& __get__initialized() const;
+  constexpr bool const& __cordl_internal_get__initialized() const;
 
-  constexpr void __set__initialized(bool value);
+  constexpr void __cordl_internal_set__initialized(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get__songPackSerializedNames();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__songPackSerializedNames();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get__songPackSerializedNames() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__songPackSerializedNames() const;
 
-  constexpr void __set__songPackSerializedNames(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set__songPackSerializedNames(::System::Collections::Generic::List_1<::StringW>* value);
 
   /// @brief Method add_didSelectCellWithIdxEvent, addr 0x22a64d8, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
@@ -200,7 +201,7 @@ protected:
 
 public:
   /// @brief Field _simpleTextDropdown, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::SimpleTextDropdown* ____simpleTextDropdown;
+  ::UnityW<::HMUI::SimpleTextDropdown> ____simpleTextDropdown;
 
   /// @brief Field _songPackMasksModel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::SongPackMasksModel* ____songPackMasksModel;

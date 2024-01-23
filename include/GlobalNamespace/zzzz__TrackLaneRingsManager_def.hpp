@@ -23,75 +23,76 @@ MARK_REF_PTR_T(::GlobalNamespace::TrackLaneRingsManager);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5004))
 // CS Name: ::TrackLaneRingsManager*
 class CORDL_TYPE TrackLaneRingsManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _trackLaneRingPrefab, offset 0x18, size 0x8
-  __declspec(property(get = __get__trackLaneRingPrefab, put = __set__trackLaneRingPrefab))::GlobalNamespace::TrackLaneRing* _trackLaneRingPrefab;
+  __declspec(property(get = __cordl_internal_get__trackLaneRingPrefab, put = __cordl_internal_set__trackLaneRingPrefab))::UnityW<::GlobalNamespace::TrackLaneRing> _trackLaneRingPrefab;
 
   /// @brief Field _ringCount, offset 0x20, size 0x4
-  __declspec(property(get = __get__ringCount, put = __set__ringCount)) int32_t _ringCount;
+  __declspec(property(get = __cordl_internal_get__ringCount, put = __cordl_internal_set__ringCount)) int32_t _ringCount;
 
   /// @brief Field _ringPositionStep, offset 0x24, size 0x4
-  __declspec(property(get = __get__ringPositionStep, put = __set__ringPositionStep)) float_t _ringPositionStep;
+  __declspec(property(get = __cordl_internal_get__ringPositionStep, put = __cordl_internal_set__ringPositionStep)) float_t _ringPositionStep;
 
   /// @brief Field _spawnAsChildren, offset 0x28, size 0x1
-  __declspec(property(get = __get__spawnAsChildren, put = __set__spawnAsChildren)) bool _spawnAsChildren;
+  __declspec(property(get = __cordl_internal_get__spawnAsChildren, put = __cordl_internal_set__spawnAsChildren)) bool _spawnAsChildren;
 
   /// @brief Field _container, offset 0x30, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _rings, offset 0x38, size 0x8
-  __declspec(property(get = __get__rings, put = __set__rings))::ArrayW<::GlobalNamespace::TrackLaneRing*, ::Array<::GlobalNamespace::TrackLaneRing*>*> _rings;
+  __declspec(property(get = __cordl_internal_get__rings,
+                      put = __cordl_internal_set__rings))::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> _rings;
 
   __declspec(property(get = get_ringPositionStep)) float_t ringPositionStep;
 
-  __declspec(property(get = get_Rings))::ArrayW<::GlobalNamespace::TrackLaneRing*, ::Array<::GlobalNamespace::TrackLaneRing*>*> Rings;
+  __declspec(property(get = get_Rings))::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> Rings;
 
-  constexpr ::GlobalNamespace::TrackLaneRing*& __get__trackLaneRingPrefab();
+  constexpr ::UnityW<::GlobalNamespace::TrackLaneRing>& __cordl_internal_get__trackLaneRingPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TrackLaneRing*> const& __get__trackLaneRingPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::TrackLaneRing> const& __cordl_internal_get__trackLaneRingPrefab() const;
 
-  constexpr void __set__trackLaneRingPrefab(::GlobalNamespace::TrackLaneRing* value);
+  constexpr void __cordl_internal_set__trackLaneRingPrefab(::UnityW<::GlobalNamespace::TrackLaneRing> value);
 
-  constexpr int32_t& __get__ringCount();
+  constexpr int32_t& __cordl_internal_get__ringCount();
 
-  constexpr int32_t const& __get__ringCount() const;
+  constexpr int32_t const& __cordl_internal_get__ringCount() const;
 
-  constexpr void __set__ringCount(int32_t value);
+  constexpr void __cordl_internal_set__ringCount(int32_t value);
 
-  constexpr float_t& __get__ringPositionStep();
+  constexpr float_t& __cordl_internal_get__ringPositionStep();
 
-  constexpr float_t const& __get__ringPositionStep() const;
+  constexpr float_t const& __cordl_internal_get__ringPositionStep() const;
 
-  constexpr void __set__ringPositionStep(float_t value);
+  constexpr void __cordl_internal_set__ringPositionStep(float_t value);
 
-  constexpr bool& __get__spawnAsChildren();
+  constexpr bool& __cordl_internal_get__spawnAsChildren();
 
-  constexpr bool const& __get__spawnAsChildren() const;
+  constexpr bool const& __cordl_internal_get__spawnAsChildren() const;
 
-  constexpr void __set__spawnAsChildren(bool value);
+  constexpr void __cordl_internal_set__spawnAsChildren(bool value);
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::ArrayW<::GlobalNamespace::TrackLaneRing*, ::Array<::GlobalNamespace::TrackLaneRing*>*>& __get__rings();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*>& __cordl_internal_get__rings();
 
-  constexpr ::ArrayW<::GlobalNamespace::TrackLaneRing*, ::Array<::GlobalNamespace::TrackLaneRing*>*> const& __get__rings() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> const& __cordl_internal_get__rings() const;
 
-  constexpr void __set__rings(::ArrayW<::GlobalNamespace::TrackLaneRing*, ::Array<::GlobalNamespace::TrackLaneRing*>*> value);
+  constexpr void __cordl_internal_set__rings(::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> value);
 
   /// @brief Method get_ringPositionStep, addr 0x23b791c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_ringPositionStep();
 
   /// @brief Method get_Rings, addr 0x23b7924, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::TrackLaneRing*, ::Array<::GlobalNamespace::TrackLaneRing*>*> get_Rings();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> get_Rings();
 
   /// @brief Method Start, addr 0x23b792c, size 0x2b0, virtual false, abstract: false, final false
   inline void Start();
@@ -125,7 +126,7 @@ protected:
 
 public:
   /// @brief Field _trackLaneRingPrefab, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::TrackLaneRing* ____trackLaneRingPrefab;
+  ::UnityW<::GlobalNamespace::TrackLaneRing> ____trackLaneRingPrefab;
 
   /// @brief Field _ringCount, offset: 0x20, size: 0x4, def value: None
   int32_t ____ringCount;
@@ -140,7 +141,7 @@ public:
   ::Zenject::DiContainer* ____container;
 
   /// @brief Field _rings, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::TrackLaneRing*, ::Array<::GlobalNamespace::TrackLaneRing*>*> ____rings;
+  ::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> ____rings;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

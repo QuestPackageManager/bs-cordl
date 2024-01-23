@@ -27,40 +27,41 @@ MARK_REF_PTR_T(::GlobalNamespace::LightRotationGroupEffectManager);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4942))
 // CS Name: ::LightRotationGroupEffectManager*
 class CORDL_TYPE LightRotationGroupEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _lightRotationGroups, offset 0x18, size 0x8
-  __declspec(property(get = __get__lightRotationGroups,
-                      put = __set__lightRotationGroups))::ArrayW<::GlobalNamespace::LightRotationGroup*, ::Array<::GlobalNamespace::LightRotationGroup*>*> _lightRotationGroups;
+  __declspec(property(
+      get = __cordl_internal_get__lightRotationGroups,
+      put = __cordl_internal_set__lightRotationGroups))::ArrayW<::UnityW<::GlobalNamespace::LightRotationGroup>, ::Array<::UnityW<::GlobalNamespace::LightRotationGroup>>*> _lightRotationGroups;
 
   /// @brief Field _container, offset 0x20, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _lightRotationGroupEffects, offset 0x28, size 0x8
-  __declspec(property(get = __get__lightRotationGroupEffects,
-                      put = __set__lightRotationGroupEffects))::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>* _lightRotationGroupEffects;
+  __declspec(property(get = __cordl_internal_get__lightRotationGroupEffects,
+                      put = __cordl_internal_set__lightRotationGroupEffects))::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>* _lightRotationGroupEffects;
 
-  constexpr ::ArrayW<::GlobalNamespace::LightRotationGroup*, ::Array<::GlobalNamespace::LightRotationGroup*>*>& __get__lightRotationGroups();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightRotationGroup>, ::Array<::UnityW<::GlobalNamespace::LightRotationGroup>>*>& __cordl_internal_get__lightRotationGroups();
 
-  constexpr ::ArrayW<::GlobalNamespace::LightRotationGroup*, ::Array<::GlobalNamespace::LightRotationGroup*>*> const& __get__lightRotationGroups() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightRotationGroup>, ::Array<::UnityW<::GlobalNamespace::LightRotationGroup>>*> const& __cordl_internal_get__lightRotationGroups() const;
 
-  constexpr void __set__lightRotationGroups(::ArrayW<::GlobalNamespace::LightRotationGroup*, ::Array<::GlobalNamespace::LightRotationGroup*>*> value);
+  constexpr void __cordl_internal_set__lightRotationGroups(::ArrayW<::UnityW<::GlobalNamespace::LightRotationGroup>, ::Array<::UnityW<::GlobalNamespace::LightRotationGroup>>*> value);
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>*& __get__lightRotationGroupEffects();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>*& __cordl_internal_get__lightRotationGroupEffects();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>*> const& __get__lightRotationGroupEffects() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>*> const& __cordl_internal_get__lightRotationGroupEffects() const;
 
-  constexpr void __set__lightRotationGroupEffects(::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>* value);
+  constexpr void __cordl_internal_set__lightRotationGroupEffects(::System::Collections::Generic::List_1<::GlobalNamespace::LightRotationGroupEffect*>* value);
 
   /// @brief Method Start, addr 0x23aa0c0, size 0x564, virtual false, abstract: false, final false
   inline void Start();
@@ -88,7 +89,7 @@ protected:
 
 public:
   /// @brief Field _lightRotationGroups, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::LightRotationGroup*, ::Array<::GlobalNamespace::LightRotationGroup*>*> ____lightRotationGroups;
+  ::ArrayW<::UnityW<::GlobalNamespace::LightRotationGroup>, ::Array<::UnityW<::GlobalNamespace::LightRotationGroup>>*> ____lightRotationGroups;
 
   /// @brief Field _container, offset: 0x20, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

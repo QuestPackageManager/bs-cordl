@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::Datatype_yearMonthDuration);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11632))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11632))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11633))
 // CS Name: ::System.Xml.Schema::Datatype_yearMonthDuration*
 class CORDL_TYPE Datatype_yearMonthDuration : public ::System::Xml::Schema::Datatype_duration {

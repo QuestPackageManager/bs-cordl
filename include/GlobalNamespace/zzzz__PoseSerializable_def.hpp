@@ -42,7 +42,7 @@ MARK_VAL_T(::GlobalNamespace::PoseSerializable);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15039)), TypeDefinitionIndex(TypeDefinitionIndex(15041))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15039)), TypeDefinitionIndex(TypeDefinitionIndex(15041))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15042))
 // CS Name: ::PoseSerializable
 struct CORDL_TYPE PoseSerializable {

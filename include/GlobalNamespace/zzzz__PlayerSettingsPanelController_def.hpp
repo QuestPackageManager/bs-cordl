@@ -79,7 +79,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSettingsPanelController);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5641))
 // CS Name: ::PlayerSettingsPanelController::PlayerSettingsPanelLayout
 struct CORDL_TYPE __PlayerSettingsPanelController__PlayerSettingsPanelLayout {
@@ -133,7 +133,7 @@ static_assert(offsetof(::GlobalNamespace::__PlayerSettingsPanelController__Playe
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 280, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(4606))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4606)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5642))
 // CS Name: ::PlayerSettingsPanelController*
 class CORDL_TYPE PlayerSettingsPanelController : public ::UnityEngine::MonoBehaviour {
@@ -142,111 +142,120 @@ public:
   using PlayerSettingsPanelLayout = ::GlobalNamespace::__PlayerSettingsPanelController__PlayerSettingsPanelLayout;
 
   /// @brief Field _leftHandedToggle, offset 0x18, size 0x8
-  __declspec(property(get = __get__leftHandedToggle, put = __set__leftHandedToggle))::UnityEngine::UI::Toggle* _leftHandedToggle;
+  __declspec(property(get = __cordl_internal_get__leftHandedToggle, put = __cordl_internal_set__leftHandedToggle))::UnityW<::UnityEngine::UI::Toggle> _leftHandedToggle;
 
   /// @brief Field _reduceDebrisToggle, offset 0x20, size 0x8
-  __declspec(property(get = __get__reduceDebrisToggle, put = __set__reduceDebrisToggle))::UnityEngine::UI::Toggle* _reduceDebrisToggle;
+  __declspec(property(get = __cordl_internal_get__reduceDebrisToggle, put = __cordl_internal_set__reduceDebrisToggle))::UnityW<::UnityEngine::UI::Toggle> _reduceDebrisToggle;
 
   /// @brief Field _noTextsAndHudsToggle, offset 0x28, size 0x8
-  __declspec(property(get = __get__noTextsAndHudsToggle, put = __set__noTextsAndHudsToggle))::UnityEngine::UI::Toggle* _noTextsAndHudsToggle;
+  __declspec(property(get = __cordl_internal_get__noTextsAndHudsToggle, put = __cordl_internal_set__noTextsAndHudsToggle))::UnityW<::UnityEngine::UI::Toggle> _noTextsAndHudsToggle;
 
   /// @brief Field _advanceHudToggle, offset 0x30, size 0x8
-  __declspec(property(get = __get__advanceHudToggle, put = __set__advanceHudToggle))::UnityEngine::UI::Toggle* _advanceHudToggle;
+  __declspec(property(get = __cordl_internal_get__advanceHudToggle, put = __cordl_internal_set__advanceHudToggle))::UnityW<::UnityEngine::UI::Toggle> _advanceHudToggle;
 
   /// @brief Field _autoRestartToggle, offset 0x38, size 0x8
-  __declspec(property(get = __get__autoRestartToggle, put = __set__autoRestartToggle))::UnityEngine::UI::Toggle* _autoRestartToggle;
+  __declspec(property(get = __cordl_internal_get__autoRestartToggle, put = __cordl_internal_set__autoRestartToggle))::UnityW<::UnityEngine::UI::Toggle> _autoRestartToggle;
 
   /// @brief Field _playerHeightSettingsController, offset 0x40, size 0x8
-  __declspec(property(get = __get__playerHeightSettingsController, put = __set__playerHeightSettingsController))::GlobalNamespace::PlayerHeightSettingsController* _playerHeightSettingsController;
+  __declspec(property(get = __cordl_internal_get__playerHeightSettingsController,
+                      put = __cordl_internal_set__playerHeightSettingsController))::UnityW<::GlobalNamespace::PlayerHeightSettingsController> _playerHeightSettingsController;
 
   /// @brief Field _playerHeightSettingsCanvasGroup, offset 0x48, size 0x8
-  __declspec(property(get = __get__playerHeightSettingsCanvasGroup, put = __set__playerHeightSettingsCanvasGroup))::UnityEngine::CanvasGroup* _playerHeightSettingsCanvasGroup;
+  __declspec(property(get = __cordl_internal_get__playerHeightSettingsCanvasGroup,
+                      put = __cordl_internal_set__playerHeightSettingsCanvasGroup))::UnityW<::UnityEngine::CanvasGroup> _playerHeightSettingsCanvasGroup;
 
   /// @brief Field _automaticPlayerHeightToggle, offset 0x50, size 0x8
-  __declspec(property(get = __get__automaticPlayerHeightToggle, put = __set__automaticPlayerHeightToggle))::UnityEngine::UI::Toggle* _automaticPlayerHeightToggle;
+  __declspec(property(get = __cordl_internal_get__automaticPlayerHeightToggle,
+                      put = __cordl_internal_set__automaticPlayerHeightToggle))::UnityW<::UnityEngine::UI::Toggle> _automaticPlayerHeightToggle;
 
   /// @brief Field _sfxVolumeSettingsController, offset 0x58, size 0x8
-  __declspec(property(get = __get__sfxVolumeSettingsController, put = __set__sfxVolumeSettingsController))::GlobalNamespace::FormattedFloatListSettingsController* _sfxVolumeSettingsController;
+  __declspec(property(get = __cordl_internal_get__sfxVolumeSettingsController,
+                      put = __cordl_internal_set__sfxVolumeSettingsController))::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _sfxVolumeSettingsController;
 
   /// @brief Field _saberTrailIntensitySettingsController, offset 0x60, size 0x8
-  __declspec(property(get = __get__saberTrailIntensitySettingsController,
-                      put = __set__saberTrailIntensitySettingsController))::GlobalNamespace::FormattedFloatListSettingsController* _saberTrailIntensitySettingsController;
+  __declspec(property(get = __cordl_internal_get__saberTrailIntensitySettingsController,
+                      put = __cordl_internal_set__saberTrailIntensitySettingsController))::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _saberTrailIntensitySettingsController;
 
   /// @brief Field _noteJumpDurationTypeSettingsDropdown, offset 0x68, size 0x8
-  __declspec(property(get = __get__noteJumpDurationTypeSettingsDropdown,
-                      put = __set__noteJumpDurationTypeSettingsDropdown))::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown* _noteJumpDurationTypeSettingsDropdown;
+  __declspec(property(get = __cordl_internal_get__noteJumpDurationTypeSettingsDropdown,
+                      put = __cordl_internal_set__noteJumpDurationTypeSettingsDropdown))::UnityW<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown> _noteJumpDurationTypeSettingsDropdown;
 
   /// @brief Field _noteJumpFixedDurationSettingsController, offset 0x70, size 0x8
-  __declspec(property(get = __get__noteJumpFixedDurationSettingsController,
-                      put = __set__noteJumpFixedDurationSettingsController))::GlobalNamespace::FormattedFloatListSettingsController* _noteJumpFixedDurationSettingsController;
+  __declspec(property(get = __cordl_internal_get__noteJumpFixedDurationSettingsController,
+                      put = __cordl_internal_set__noteJumpFixedDurationSettingsController))::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _noteJumpFixedDurationSettingsController;
 
   /// @brief Field _noteJumpFixedDurationSettingsCanvasGroup, offset 0x78, size 0x8
-  __declspec(property(get = __get__noteJumpFixedDurationSettingsCanvasGroup,
-                      put = __set__noteJumpFixedDurationSettingsCanvasGroup))::UnityEngine::CanvasGroup* _noteJumpFixedDurationSettingsCanvasGroup;
+  __declspec(property(get = __cordl_internal_get__noteJumpFixedDurationSettingsCanvasGroup,
+                      put = __cordl_internal_set__noteJumpFixedDurationSettingsCanvasGroup))::UnityW<::UnityEngine::CanvasGroup> _noteJumpFixedDurationSettingsCanvasGroup;
 
   /// @brief Field _noteJumpStartBeatOffsetDropdown, offset 0x80, size 0x8
-  __declspec(property(get = __get__noteJumpStartBeatOffsetDropdown, put = __set__noteJumpStartBeatOffsetDropdown))::GlobalNamespace::NoteJumpStartBeatOffsetDropdown* _noteJumpStartBeatOffsetDropdown;
+  __declspec(property(get = __cordl_internal_get__noteJumpStartBeatOffsetDropdown,
+                      put = __cordl_internal_set__noteJumpStartBeatOffsetDropdown))::UnityW<::GlobalNamespace::NoteJumpStartBeatOffsetDropdown> _noteJumpStartBeatOffsetDropdown;
 
   /// @brief Field _noteJumpStartBeatOffsetCanvasGroup, offset 0x88, size 0x8
-  __declspec(property(get = __get__noteJumpStartBeatOffsetCanvasGroup, put = __set__noteJumpStartBeatOffsetCanvasGroup))::UnityEngine::CanvasGroup* _noteJumpStartBeatOffsetCanvasGroup;
+  __declspec(property(get = __cordl_internal_get__noteJumpStartBeatOffsetCanvasGroup,
+                      put = __cordl_internal_set__noteJumpStartBeatOffsetCanvasGroup))::UnityW<::UnityEngine::CanvasGroup> _noteJumpStartBeatOffsetCanvasGroup;
 
   /// @brief Field _environmentEffectsFilterDefaultPresetDropdown, offset 0x90, size 0x8
-  __declspec(property(get = __get__environmentEffectsFilterDefaultPresetDropdown,
-                      put = __set__environmentEffectsFilterDefaultPresetDropdown))::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* _environmentEffectsFilterDefaultPresetDropdown;
+  __declspec(property(
+      get = __cordl_internal_get__environmentEffectsFilterDefaultPresetDropdown,
+      put = __cordl_internal_set__environmentEffectsFilterDefaultPresetDropdown))::UnityW<::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown> _environmentEffectsFilterDefaultPresetDropdown;
 
   /// @brief Field _environmentEffectsFilterExpertPlusPresetDropdown, offset 0x98, size 0x8
-  __declspec(property(get = __get__environmentEffectsFilterExpertPlusPresetDropdown,
-                      put = __set__environmentEffectsFilterExpertPlusPresetDropdown))::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* _environmentEffectsFilterExpertPlusPresetDropdown;
+  __declspec(property(get = __cordl_internal_get__environmentEffectsFilterExpertPlusPresetDropdown, put = __cordl_internal_set__environmentEffectsFilterExpertPlusPresetDropdown))::UnityW<
+      ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown> _environmentEffectsFilterExpertPlusPresetDropdown;
 
   /// @brief Field _hideNoteSpawnEffectToggle, offset 0xa0, size 0x8
-  __declspec(property(get = __get__hideNoteSpawnEffectToggle, put = __set__hideNoteSpawnEffectToggle))::UnityEngine::UI::Toggle* _hideNoteSpawnEffectToggle;
+  __declspec(property(get = __cordl_internal_get__hideNoteSpawnEffectToggle, put = __cordl_internal_set__hideNoteSpawnEffectToggle))::UnityW<::UnityEngine::UI::Toggle> _hideNoteSpawnEffectToggle;
 
   /// @brief Field _adaptiveSfxToggle, offset 0xa8, size 0x8
-  __declspec(property(get = __get__adaptiveSfxToggle, put = __set__adaptiveSfxToggle))::UnityEngine::UI::Toggle* _adaptiveSfxToggle;
+  __declspec(property(get = __cordl_internal_get__adaptiveSfxToggle, put = __cordl_internal_set__adaptiveSfxToggle))::UnityW<::UnityEngine::UI::Toggle> _adaptiveSfxToggle;
 
   /// @brief Field _headsetHapticIntensityController, offset 0xb0, size 0x8
-  __declspec(property(get = __get__headsetHapticIntensityController,
-                      put = __set__headsetHapticIntensityController))::GlobalNamespace::FormattedFloatListSettingsController* _headsetHapticIntensityController;
+  __declspec(property(get = __cordl_internal_get__headsetHapticIntensityController,
+                      put = __cordl_internal_set__headsetHapticIntensityController))::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> _headsetHapticIntensityController;
 
   /// @brief Field _arcsVisibilityTypeSettingsDropdown, offset 0xb8, size 0x8
-  __declspec(property(get = __get__arcsVisibilityTypeSettingsDropdown,
-                      put = __set__arcsVisibilityTypeSettingsDropdown))::GlobalNamespace::ArcVisibilityTypeSettingsDropdown* _arcsVisibilityTypeSettingsDropdown;
+  __declspec(property(get = __cordl_internal_get__arcsVisibilityTypeSettingsDropdown,
+                      put = __cordl_internal_set__arcsVisibilityTypeSettingsDropdown))::UnityW<::GlobalNamespace::ArcVisibilityTypeSettingsDropdown> _arcsVisibilityTypeSettingsDropdown;
 
   /// @brief Field _arcHapticFeedbackCanvasGroup, offset 0xc0, size 0x8
-  __declspec(property(get = __get__arcHapticFeedbackCanvasGroup, put = __set__arcHapticFeedbackCanvasGroup))::UnityEngine::CanvasGroup* _arcHapticFeedbackCanvasGroup;
+  __declspec(property(get = __cordl_internal_get__arcHapticFeedbackCanvasGroup,
+                      put = __cordl_internal_set__arcHapticFeedbackCanvasGroup))::UnityW<::UnityEngine::CanvasGroup> _arcHapticFeedbackCanvasGroup;
 
   /// @brief Field _arcsHapticFeedbackToggle, offset 0xc8, size 0x8
-  __declspec(property(get = __get__arcsHapticFeedbackToggle, put = __set__arcsHapticFeedbackToggle))::UnityEngine::UI::Toggle* _arcsHapticFeedbackToggle;
+  __declspec(property(get = __cordl_internal_get__arcsHapticFeedbackToggle, put = __cordl_internal_set__arcsHapticFeedbackToggle))::UnityW<::UnityEngine::UI::Toggle> _arcsHapticFeedbackToggle;
 
   /// @brief Field _singleplayerOnlyCanvasGroup, offset 0xd0, size 0x8
-  __declspec(property(get = __get__singleplayerOnlyCanvasGroup, put = __set__singleplayerOnlyCanvasGroup))::UnityEngine::CanvasGroup* _singleplayerOnlyCanvasGroup;
+  __declspec(property(get = __cordl_internal_get__singleplayerOnlyCanvasGroup,
+                      put = __cordl_internal_set__singleplayerOnlyCanvasGroup))::UnityW<::UnityEngine::CanvasGroup> _singleplayerOnlyCanvasGroup;
 
   /// @brief Field _arcVisibilityWarning, offset 0xd8, size 0x8
-  __declspec(property(get = __get__arcVisibilityWarning, put = __set__arcVisibilityWarning))::UnityEngine::GameObject* _arcVisibilityWarning;
+  __declspec(property(get = __cordl_internal_get__arcVisibilityWarning, put = __cordl_internal_set__arcVisibilityWarning))::UnityW<::UnityEngine::GameObject> _arcVisibilityWarning;
 
   /// @brief Field didChangePlayerSettingsEvent, offset 0xe0, size 0x8
-  __declspec(property(get = __get_didChangePlayerSettingsEvent, put = __set_didChangePlayerSettingsEvent))::System::Action* didChangePlayerSettingsEvent;
+  __declspec(property(get = __cordl_internal_get_didChangePlayerSettingsEvent, put = __cordl_internal_set_didChangePlayerSettingsEvent))::System::Action* didChangePlayerSettingsEvent;
 
   /// @brief Field _currentArcType, offset 0xe8, size 0x4
-  __declspec(property(get = __get__currentArcType, put = __set__currentArcType))::GlobalNamespace::ArcVisibilityType _currentArcType;
+  __declspec(property(get = __cordl_internal_get__currentArcType, put = __cordl_internal_set__currentArcType))::GlobalNamespace::ArcVisibilityType _currentArcType;
 
   /// @brief Field _playerData, offset 0xf0, size 0x8
-  __declspec(property(get = __get__playerData, put = __set__playerData))::GlobalNamespace::PlayerData* _playerData;
+  __declspec(property(get = __cordl_internal_get__playerData, put = __cordl_internal_set__playerData))::GlobalNamespace::PlayerData* _playerData;
 
   /// @brief Field _playerSpecificSettings, offset 0xf8, size 0x8
-  __declspec(property(get = __get__playerSpecificSettings, put = __set__playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* _playerSpecificSettings;
+  __declspec(property(get = __cordl_internal_get__playerSpecificSettings, put = __cordl_internal_set__playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* _playerSpecificSettings;
 
   /// @brief Field _toggleBinder, offset 0x100, size 0x8
-  __declspec(property(get = __get__toggleBinder, put = __set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
+  __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
 
   /// @brief Field _dirty, offset 0x108, size 0x1
-  __declspec(property(get = __get__dirty, put = __set__dirty)) bool _dirty;
+  __declspec(property(get = __cordl_internal_get__dirty, put = __cordl_internal_set__dirty)) bool _dirty;
 
   /// @brief Field _refreshed, offset 0x109, size 0x1
-  __declspec(property(get = __get__refreshed, put = __set__refreshed)) bool _refreshed;
+  __declspec(property(get = __cordl_internal_get__refreshed, put = __cordl_internal_set__refreshed)) bool _refreshed;
 
   /// @brief Field _eventBinder, offset 0x110, size 0x8
-  __declspec(property(get = __get__eventBinder, put = __set__eventBinder))::GlobalNamespace::EventBinder* _eventBinder;
+  __declspec(property(get = __cordl_internal_get__eventBinder, put = __cordl_internal_set__eventBinder))::GlobalNamespace::EventBinder* _eventBinder;
 
   __declspec(property(get = get_playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
 
@@ -256,203 +265,203 @@ public:
   /// @brief Convert to "::GlobalNamespace::IRefreshable"
   constexpr ::GlobalNamespace::IRefreshable* i___GlobalNamespace__IRefreshable() noexcept;
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__leftHandedToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__leftHandedToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__leftHandedToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__leftHandedToggle() const;
 
-  constexpr void __set__leftHandedToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__leftHandedToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__reduceDebrisToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__reduceDebrisToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__reduceDebrisToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__reduceDebrisToggle() const;
 
-  constexpr void __set__reduceDebrisToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__reduceDebrisToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__noTextsAndHudsToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__noTextsAndHudsToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__noTextsAndHudsToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__noTextsAndHudsToggle() const;
 
-  constexpr void __set__noTextsAndHudsToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__noTextsAndHudsToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__advanceHudToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__advanceHudToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__advanceHudToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__advanceHudToggle() const;
 
-  constexpr void __set__advanceHudToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__advanceHudToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__autoRestartToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__autoRestartToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__autoRestartToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__autoRestartToggle() const;
 
-  constexpr void __set__autoRestartToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__autoRestartToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::GlobalNamespace::PlayerHeightSettingsController*& __get__playerHeightSettingsController();
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeightSettingsController>& __cordl_internal_get__playerHeightSettingsController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerHeightSettingsController*> const& __get__playerHeightSettingsController() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeightSettingsController> const& __cordl_internal_get__playerHeightSettingsController() const;
 
-  constexpr void __set__playerHeightSettingsController(::GlobalNamespace::PlayerHeightSettingsController* value);
+  constexpr void __cordl_internal_set__playerHeightSettingsController(::UnityW<::GlobalNamespace::PlayerHeightSettingsController> value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__playerHeightSettingsCanvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__playerHeightSettingsCanvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__playerHeightSettingsCanvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__playerHeightSettingsCanvasGroup() const;
 
-  constexpr void __set__playerHeightSettingsCanvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__playerHeightSettingsCanvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__automaticPlayerHeightToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__automaticPlayerHeightToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__automaticPlayerHeightToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__automaticPlayerHeightToggle() const;
 
-  constexpr void __set__automaticPlayerHeightToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__automaticPlayerHeightToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::GlobalNamespace::FormattedFloatListSettingsController*& __get__sfxVolumeSettingsController();
+  constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>& __cordl_internal_get__sfxVolumeSettingsController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FormattedFloatListSettingsController*> const& __get__sfxVolumeSettingsController() const;
+  constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__sfxVolumeSettingsController() const;
 
-  constexpr void __set__sfxVolumeSettingsController(::GlobalNamespace::FormattedFloatListSettingsController* value);
+  constexpr void __cordl_internal_set__sfxVolumeSettingsController(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
 
-  constexpr ::GlobalNamespace::FormattedFloatListSettingsController*& __get__saberTrailIntensitySettingsController();
+  constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>& __cordl_internal_get__saberTrailIntensitySettingsController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FormattedFloatListSettingsController*> const& __get__saberTrailIntensitySettingsController() const;
+  constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__saberTrailIntensitySettingsController() const;
 
-  constexpr void __set__saberTrailIntensitySettingsController(::GlobalNamespace::FormattedFloatListSettingsController* value);
+  constexpr void __cordl_internal_set__saberTrailIntensitySettingsController(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
 
-  constexpr ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*& __get__noteJumpDurationTypeSettingsDropdown();
+  constexpr ::UnityW<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown>& __cordl_internal_get__noteJumpDurationTypeSettingsDropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown*> const& __get__noteJumpDurationTypeSettingsDropdown() const;
+  constexpr ::UnityW<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown> const& __cordl_internal_get__noteJumpDurationTypeSettingsDropdown() const;
 
-  constexpr void __set__noteJumpDurationTypeSettingsDropdown(::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown* value);
+  constexpr void __cordl_internal_set__noteJumpDurationTypeSettingsDropdown(::UnityW<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown> value);
 
-  constexpr ::GlobalNamespace::FormattedFloatListSettingsController*& __get__noteJumpFixedDurationSettingsController();
+  constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>& __cordl_internal_get__noteJumpFixedDurationSettingsController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FormattedFloatListSettingsController*> const& __get__noteJumpFixedDurationSettingsController() const;
+  constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__noteJumpFixedDurationSettingsController() const;
 
-  constexpr void __set__noteJumpFixedDurationSettingsController(::GlobalNamespace::FormattedFloatListSettingsController* value);
+  constexpr void __cordl_internal_set__noteJumpFixedDurationSettingsController(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__noteJumpFixedDurationSettingsCanvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__noteJumpFixedDurationSettingsCanvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__noteJumpFixedDurationSettingsCanvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__noteJumpFixedDurationSettingsCanvasGroup() const;
 
-  constexpr void __set__noteJumpFixedDurationSettingsCanvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__noteJumpFixedDurationSettingsCanvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr ::GlobalNamespace::NoteJumpStartBeatOffsetDropdown*& __get__noteJumpStartBeatOffsetDropdown();
+  constexpr ::UnityW<::GlobalNamespace::NoteJumpStartBeatOffsetDropdown>& __cordl_internal_get__noteJumpStartBeatOffsetDropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteJumpStartBeatOffsetDropdown*> const& __get__noteJumpStartBeatOffsetDropdown() const;
+  constexpr ::UnityW<::GlobalNamespace::NoteJumpStartBeatOffsetDropdown> const& __cordl_internal_get__noteJumpStartBeatOffsetDropdown() const;
 
-  constexpr void __set__noteJumpStartBeatOffsetDropdown(::GlobalNamespace::NoteJumpStartBeatOffsetDropdown* value);
+  constexpr void __cordl_internal_set__noteJumpStartBeatOffsetDropdown(::UnityW<::GlobalNamespace::NoteJumpStartBeatOffsetDropdown> value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__noteJumpStartBeatOffsetCanvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__noteJumpStartBeatOffsetCanvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__noteJumpStartBeatOffsetCanvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__noteJumpStartBeatOffsetCanvasGroup() const;
 
-  constexpr void __set__noteJumpStartBeatOffsetCanvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__noteJumpStartBeatOffsetCanvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*& __get__environmentEffectsFilterDefaultPresetDropdown();
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown>& __cordl_internal_get__environmentEffectsFilterDefaultPresetDropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*> const& __get__environmentEffectsFilterDefaultPresetDropdown() const;
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown> const& __cordl_internal_get__environmentEffectsFilterDefaultPresetDropdown() const;
 
-  constexpr void __set__environmentEffectsFilterDefaultPresetDropdown(::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* value);
+  constexpr void __cordl_internal_set__environmentEffectsFilterDefaultPresetDropdown(::UnityW<::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown> value);
 
-  constexpr ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*& __get__environmentEffectsFilterExpertPlusPresetDropdown();
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown>& __cordl_internal_get__environmentEffectsFilterExpertPlusPresetDropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown*> const& __get__environmentEffectsFilterExpertPlusPresetDropdown() const;
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown> const& __cordl_internal_get__environmentEffectsFilterExpertPlusPresetDropdown() const;
 
-  constexpr void __set__environmentEffectsFilterExpertPlusPresetDropdown(::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* value);
+  constexpr void __cordl_internal_set__environmentEffectsFilterExpertPlusPresetDropdown(::UnityW<::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__hideNoteSpawnEffectToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__hideNoteSpawnEffectToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__hideNoteSpawnEffectToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__hideNoteSpawnEffectToggle() const;
 
-  constexpr void __set__hideNoteSpawnEffectToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__hideNoteSpawnEffectToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__adaptiveSfxToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__adaptiveSfxToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__adaptiveSfxToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__adaptiveSfxToggle() const;
 
-  constexpr void __set__adaptiveSfxToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__adaptiveSfxToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::GlobalNamespace::FormattedFloatListSettingsController*& __get__headsetHapticIntensityController();
+  constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController>& __cordl_internal_get__headsetHapticIntensityController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FormattedFloatListSettingsController*> const& __get__headsetHapticIntensityController() const;
+  constexpr ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> const& __cordl_internal_get__headsetHapticIntensityController() const;
 
-  constexpr void __set__headsetHapticIntensityController(::GlobalNamespace::FormattedFloatListSettingsController* value);
+  constexpr void __cordl_internal_set__headsetHapticIntensityController(::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> value);
 
-  constexpr ::GlobalNamespace::ArcVisibilityTypeSettingsDropdown*& __get__arcsVisibilityTypeSettingsDropdown();
+  constexpr ::UnityW<::GlobalNamespace::ArcVisibilityTypeSettingsDropdown>& __cordl_internal_get__arcsVisibilityTypeSettingsDropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ArcVisibilityTypeSettingsDropdown*> const& __get__arcsVisibilityTypeSettingsDropdown() const;
+  constexpr ::UnityW<::GlobalNamespace::ArcVisibilityTypeSettingsDropdown> const& __cordl_internal_get__arcsVisibilityTypeSettingsDropdown() const;
 
-  constexpr void __set__arcsVisibilityTypeSettingsDropdown(::GlobalNamespace::ArcVisibilityTypeSettingsDropdown* value);
+  constexpr void __cordl_internal_set__arcsVisibilityTypeSettingsDropdown(::UnityW<::GlobalNamespace::ArcVisibilityTypeSettingsDropdown> value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__arcHapticFeedbackCanvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__arcHapticFeedbackCanvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__arcHapticFeedbackCanvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__arcHapticFeedbackCanvasGroup() const;
 
-  constexpr void __set__arcHapticFeedbackCanvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__arcHapticFeedbackCanvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__arcsHapticFeedbackToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__arcsHapticFeedbackToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__arcsHapticFeedbackToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__arcsHapticFeedbackToggle() const;
 
-  constexpr void __set__arcsHapticFeedbackToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__arcsHapticFeedbackToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__singleplayerOnlyCanvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__singleplayerOnlyCanvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__singleplayerOnlyCanvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__singleplayerOnlyCanvasGroup() const;
 
-  constexpr void __set__singleplayerOnlyCanvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__singleplayerOnlyCanvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__arcVisibilityWarning();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__arcVisibilityWarning();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__arcVisibilityWarning() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__arcVisibilityWarning() const;
 
-  constexpr void __set__arcVisibilityWarning(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__arcVisibilityWarning(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::System::Action*& __get_didChangePlayerSettingsEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didChangePlayerSettingsEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didChangePlayerSettingsEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didChangePlayerSettingsEvent() const;
 
-  constexpr void __set_didChangePlayerSettingsEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didChangePlayerSettingsEvent(::System::Action* value);
 
-  constexpr ::GlobalNamespace::ArcVisibilityType& __get__currentArcType();
+  constexpr ::GlobalNamespace::ArcVisibilityType& __cordl_internal_get__currentArcType();
 
-  constexpr ::GlobalNamespace::ArcVisibilityType const& __get__currentArcType() const;
+  constexpr ::GlobalNamespace::ArcVisibilityType const& __cordl_internal_get__currentArcType() const;
 
-  constexpr void __set__currentArcType(::GlobalNamespace::ArcVisibilityType value);
+  constexpr void __cordl_internal_set__currentArcType(::GlobalNamespace::ArcVisibilityType value);
 
-  constexpr ::GlobalNamespace::PlayerData*& __get__playerData();
+  constexpr ::GlobalNamespace::PlayerData*& __cordl_internal_get__playerData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerData*> const& __get__playerData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerData*> const& __cordl_internal_get__playerData() const;
 
-  constexpr void __set__playerData(::GlobalNamespace::PlayerData* value);
+  constexpr void __cordl_internal_set__playerData(::GlobalNamespace::PlayerData* value);
 
-  constexpr ::GlobalNamespace::PlayerSpecificSettings*& __get__playerSpecificSettings();
+  constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get__playerSpecificSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __get__playerSpecificSettings() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __cordl_internal_get__playerSpecificSettings() const;
 
-  constexpr void __set__playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
+  constexpr void __cordl_internal_set__playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  constexpr ::HMUI::ToggleBinder*& __get__toggleBinder();
+  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __get__toggleBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
 
-  constexpr void __set__toggleBinder(::HMUI::ToggleBinder* value);
+  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
 
-  constexpr bool& __get__dirty();
+  constexpr bool& __cordl_internal_get__dirty();
 
-  constexpr bool const& __get__dirty() const;
+  constexpr bool const& __cordl_internal_get__dirty() const;
 
-  constexpr void __set__dirty(bool value);
+  constexpr void __cordl_internal_set__dirty(bool value);
 
-  constexpr bool& __get__refreshed();
+  constexpr bool& __cordl_internal_get__refreshed();
 
-  constexpr bool const& __get__refreshed() const;
+  constexpr bool const& __cordl_internal_get__refreshed() const;
 
-  constexpr void __set__refreshed(bool value);
+  constexpr void __cordl_internal_set__refreshed(bool value);
 
-  constexpr ::GlobalNamespace::EventBinder*& __get__eventBinder();
+  constexpr ::GlobalNamespace::EventBinder*& __cordl_internal_get__eventBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EventBinder*> const& __get__eventBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EventBinder*> const& __cordl_internal_get__eventBinder() const;
 
-  constexpr void __set__eventBinder(::GlobalNamespace::EventBinder* value);
+  constexpr void __cordl_internal_set__eventBinder(::GlobalNamespace::EventBinder* value);
 
   /// @brief Method add_didChangePlayerSettingsEvent, addr 0x22b2da0, size 0x9c, virtual false, abstract: false, final false
   inline void add_didChangePlayerSettingsEvent(::System::Action* value);
@@ -579,79 +588,79 @@ protected:
 
 public:
   /// @brief Field _leftHandedToggle, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____leftHandedToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____leftHandedToggle;
 
   /// @brief Field _reduceDebrisToggle, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____reduceDebrisToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____reduceDebrisToggle;
 
   /// @brief Field _noTextsAndHudsToggle, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____noTextsAndHudsToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____noTextsAndHudsToggle;
 
   /// @brief Field _advanceHudToggle, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____advanceHudToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____advanceHudToggle;
 
   /// @brief Field _autoRestartToggle, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____autoRestartToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____autoRestartToggle;
 
   /// @brief Field _playerHeightSettingsController, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerHeightSettingsController* ____playerHeightSettingsController;
+  ::UnityW<::GlobalNamespace::PlayerHeightSettingsController> ____playerHeightSettingsController;
 
   /// @brief Field _playerHeightSettingsCanvasGroup, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____playerHeightSettingsCanvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ____playerHeightSettingsCanvasGroup;
 
   /// @brief Field _automaticPlayerHeightToggle, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____automaticPlayerHeightToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____automaticPlayerHeightToggle;
 
   /// @brief Field _sfxVolumeSettingsController, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::FormattedFloatListSettingsController* ____sfxVolumeSettingsController;
+  ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____sfxVolumeSettingsController;
 
   /// @brief Field _saberTrailIntensitySettingsController, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::FormattedFloatListSettingsController* ____saberTrailIntensitySettingsController;
+  ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____saberTrailIntensitySettingsController;
 
   /// @brief Field _noteJumpDurationTypeSettingsDropdown, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown* ____noteJumpDurationTypeSettingsDropdown;
+  ::UnityW<::GlobalNamespace::NoteJumpDurationTypeSettingsDropdown> ____noteJumpDurationTypeSettingsDropdown;
 
   /// @brief Field _noteJumpFixedDurationSettingsController, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::FormattedFloatListSettingsController* ____noteJumpFixedDurationSettingsController;
+  ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____noteJumpFixedDurationSettingsController;
 
   /// @brief Field _noteJumpFixedDurationSettingsCanvasGroup, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____noteJumpFixedDurationSettingsCanvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ____noteJumpFixedDurationSettingsCanvasGroup;
 
   /// @brief Field _noteJumpStartBeatOffsetDropdown, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::NoteJumpStartBeatOffsetDropdown* ____noteJumpStartBeatOffsetDropdown;
+  ::UnityW<::GlobalNamespace::NoteJumpStartBeatOffsetDropdown> ____noteJumpStartBeatOffsetDropdown;
 
   /// @brief Field _noteJumpStartBeatOffsetCanvasGroup, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____noteJumpStartBeatOffsetCanvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ____noteJumpStartBeatOffsetCanvasGroup;
 
   /// @brief Field _environmentEffectsFilterDefaultPresetDropdown, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* ____environmentEffectsFilterDefaultPresetDropdown;
+  ::UnityW<::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown> ____environmentEffectsFilterDefaultPresetDropdown;
 
   /// @brief Field _environmentEffectsFilterExpertPlusPresetDropdown, offset: 0x98, size: 0x8, def value: None
-  ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown* ____environmentEffectsFilterExpertPlusPresetDropdown;
+  ::UnityW<::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown> ____environmentEffectsFilterExpertPlusPresetDropdown;
 
   /// @brief Field _hideNoteSpawnEffectToggle, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____hideNoteSpawnEffectToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____hideNoteSpawnEffectToggle;
 
   /// @brief Field _adaptiveSfxToggle, offset: 0xa8, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____adaptiveSfxToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____adaptiveSfxToggle;
 
   /// @brief Field _headsetHapticIntensityController, offset: 0xb0, size: 0x8, def value: None
-  ::GlobalNamespace::FormattedFloatListSettingsController* ____headsetHapticIntensityController;
+  ::UnityW<::GlobalNamespace::FormattedFloatListSettingsController> ____headsetHapticIntensityController;
 
   /// @brief Field _arcsVisibilityTypeSettingsDropdown, offset: 0xb8, size: 0x8, def value: None
-  ::GlobalNamespace::ArcVisibilityTypeSettingsDropdown* ____arcsVisibilityTypeSettingsDropdown;
+  ::UnityW<::GlobalNamespace::ArcVisibilityTypeSettingsDropdown> ____arcsVisibilityTypeSettingsDropdown;
 
   /// @brief Field _arcHapticFeedbackCanvasGroup, offset: 0xc0, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____arcHapticFeedbackCanvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ____arcHapticFeedbackCanvasGroup;
 
   /// @brief Field _arcsHapticFeedbackToggle, offset: 0xc8, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____arcsHapticFeedbackToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____arcsHapticFeedbackToggle;
 
   /// @brief Field _singleplayerOnlyCanvasGroup, offset: 0xd0, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____singleplayerOnlyCanvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ____singleplayerOnlyCanvasGroup;
 
   /// @brief Field _arcVisibilityWarning, offset: 0xd8, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____arcVisibilityWarning;
+  ::UnityW<::UnityEngine::GameObject> ____arcVisibilityWarning;
 
   /// @brief Field didChangePlayerSettingsEvent, offset: 0xe0, size: 0x8, def value: None
   ::System::Action* ___didChangePlayerSettingsEvent;

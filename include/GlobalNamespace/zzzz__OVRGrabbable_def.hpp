@@ -30,35 +30,36 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRGrabbable);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8110))
 // CS Name: ::OVRGrabbable*
 class CORDL_TYPE OVRGrabbable : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field m_allowOffhandGrab, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_allowOffhandGrab, put = __set_m_allowOffhandGrab)) bool m_allowOffhandGrab;
+  __declspec(property(get = __cordl_internal_get_m_allowOffhandGrab, put = __cordl_internal_set_m_allowOffhandGrab)) bool m_allowOffhandGrab;
 
   /// @brief Field m_snapPosition, offset 0x19, size 0x1
-  __declspec(property(get = __get_m_snapPosition, put = __set_m_snapPosition)) bool m_snapPosition;
+  __declspec(property(get = __cordl_internal_get_m_snapPosition, put = __cordl_internal_set_m_snapPosition)) bool m_snapPosition;
 
   /// @brief Field m_snapOrientation, offset 0x1a, size 0x1
-  __declspec(property(get = __get_m_snapOrientation, put = __set_m_snapOrientation)) bool m_snapOrientation;
+  __declspec(property(get = __cordl_internal_get_m_snapOrientation, put = __cordl_internal_set_m_snapOrientation)) bool m_snapOrientation;
 
   /// @brief Field m_snapOffset, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_snapOffset, put = __set_m_snapOffset))::UnityEngine::Transform* m_snapOffset;
+  __declspec(property(get = __cordl_internal_get_m_snapOffset, put = __cordl_internal_set_m_snapOffset))::UnityW<::UnityEngine::Transform> m_snapOffset;
 
   /// @brief Field m_grabPoints, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_grabPoints, put = __set_m_grabPoints))::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> m_grabPoints;
+  __declspec(property(get = __cordl_internal_get_m_grabPoints,
+                      put = __cordl_internal_set_m_grabPoints))::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*> m_grabPoints;
 
   /// @brief Field m_grabbedKinematic, offset 0x30, size 0x1
-  __declspec(property(get = __get_m_grabbedKinematic, put = __set_m_grabbedKinematic)) bool m_grabbedKinematic;
+  __declspec(property(get = __cordl_internal_get_m_grabbedKinematic, put = __cordl_internal_set_m_grabbedKinematic)) bool m_grabbedKinematic;
 
   /// @brief Field m_grabbedCollider, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_grabbedCollider, put = __set_m_grabbedCollider))::UnityEngine::Collider* m_grabbedCollider;
+  __declspec(property(get = __cordl_internal_get_m_grabbedCollider, put = __cordl_internal_set_m_grabbedCollider))::UnityW<::UnityEngine::Collider> m_grabbedCollider;
 
   /// @brief Field m_grabbedBy, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_grabbedBy, put = __set_m_grabbedBy))::GlobalNamespace::OVRGrabber* m_grabbedBy;
+  __declspec(property(get = __cordl_internal_get_m_grabbedBy, put = __cordl_internal_set_m_grabbedBy))::UnityW<::GlobalNamespace::OVRGrabber> m_grabbedBy;
 
   __declspec(property(get = get_allowOffhandGrab)) bool allowOffhandGrab;
 
@@ -68,63 +69,63 @@ public:
 
   __declspec(property(get = get_snapOrientation)) bool snapOrientation;
 
-  __declspec(property(get = get_snapOffset))::UnityEngine::Transform* snapOffset;
+  __declspec(property(get = get_snapOffset))::UnityW<::UnityEngine::Transform> snapOffset;
 
-  __declspec(property(get = get_grabbedBy))::GlobalNamespace::OVRGrabber* grabbedBy;
+  __declspec(property(get = get_grabbedBy))::UnityW<::GlobalNamespace::OVRGrabber> grabbedBy;
 
-  __declspec(property(get = get_grabbedTransform))::UnityEngine::Transform* grabbedTransform;
+  __declspec(property(get = get_grabbedTransform))::UnityW<::UnityEngine::Transform> grabbedTransform;
 
-  __declspec(property(get = get_grabbedRigidbody))::UnityEngine::Rigidbody* grabbedRigidbody;
+  __declspec(property(get = get_grabbedRigidbody))::UnityW<::UnityEngine::Rigidbody> grabbedRigidbody;
 
-  __declspec(property(get = get_grabPoints))::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> grabPoints;
+  __declspec(property(get = get_grabPoints))::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*> grabPoints;
 
-  constexpr bool& __get_m_allowOffhandGrab();
+  constexpr bool& __cordl_internal_get_m_allowOffhandGrab();
 
-  constexpr bool const& __get_m_allowOffhandGrab() const;
+  constexpr bool const& __cordl_internal_get_m_allowOffhandGrab() const;
 
-  constexpr void __set_m_allowOffhandGrab(bool value);
+  constexpr void __cordl_internal_set_m_allowOffhandGrab(bool value);
 
-  constexpr bool& __get_m_snapPosition();
+  constexpr bool& __cordl_internal_get_m_snapPosition();
 
-  constexpr bool const& __get_m_snapPosition() const;
+  constexpr bool const& __cordl_internal_get_m_snapPosition() const;
 
-  constexpr void __set_m_snapPosition(bool value);
+  constexpr void __cordl_internal_set_m_snapPosition(bool value);
 
-  constexpr bool& __get_m_snapOrientation();
+  constexpr bool& __cordl_internal_get_m_snapOrientation();
 
-  constexpr bool const& __get_m_snapOrientation() const;
+  constexpr bool const& __cordl_internal_get_m_snapOrientation() const;
 
-  constexpr void __set_m_snapOrientation(bool value);
+  constexpr void __cordl_internal_set_m_snapOrientation(bool value);
 
-  constexpr ::UnityEngine::Transform*& __get_m_snapOffset();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_m_snapOffset();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_m_snapOffset() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_m_snapOffset() const;
 
-  constexpr void __set_m_snapOffset(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_m_snapOffset(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*>& __get_m_grabPoints();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*>& __cordl_internal_get_m_grabPoints();
 
-  constexpr ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> const& __get_m_grabPoints() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*> const& __cordl_internal_get_m_grabPoints() const;
 
-  constexpr void __set_m_grabPoints(::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> value);
+  constexpr void __cordl_internal_set_m_grabPoints(::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*> value);
 
-  constexpr bool& __get_m_grabbedKinematic();
+  constexpr bool& __cordl_internal_get_m_grabbedKinematic();
 
-  constexpr bool const& __get_m_grabbedKinematic() const;
+  constexpr bool const& __cordl_internal_get_m_grabbedKinematic() const;
 
-  constexpr void __set_m_grabbedKinematic(bool value);
+  constexpr void __cordl_internal_set_m_grabbedKinematic(bool value);
 
-  constexpr ::UnityEngine::Collider*& __get_m_grabbedCollider();
+  constexpr ::UnityW<::UnityEngine::Collider>& __cordl_internal_get_m_grabbedCollider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Collider*> const& __get_m_grabbedCollider() const;
+  constexpr ::UnityW<::UnityEngine::Collider> const& __cordl_internal_get_m_grabbedCollider() const;
 
-  constexpr void __set_m_grabbedCollider(::UnityEngine::Collider* value);
+  constexpr void __cordl_internal_set_m_grabbedCollider(::UnityW<::UnityEngine::Collider> value);
 
-  constexpr ::GlobalNamespace::OVRGrabber*& __get_m_grabbedBy();
+  constexpr ::UnityW<::GlobalNamespace::OVRGrabber>& __cordl_internal_get_m_grabbedBy();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRGrabber*> const& __get_m_grabbedBy() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRGrabber> const& __cordl_internal_get_m_grabbedBy() const;
 
-  constexpr void __set_m_grabbedBy(::GlobalNamespace::OVRGrabber* value);
+  constexpr void __cordl_internal_set_m_grabbedBy(::UnityW<::GlobalNamespace::OVRGrabber> value);
 
   /// @brief Method get_allowOffhandGrab, addr 0x27ac7e4, size 0x8, virtual false, abstract: false, final false
   inline bool get_allowOffhandGrab();
@@ -139,19 +140,19 @@ public:
   inline bool get_snapOrientation();
 
   /// @brief Method get_snapOffset, addr 0x27ac85c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_snapOffset();
+  inline ::UnityW<::UnityEngine::Transform> get_snapOffset();
 
   /// @brief Method get_grabbedBy, addr 0x27ac864, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::OVRGrabber* get_grabbedBy();
+  inline ::UnityW<::GlobalNamespace::OVRGrabber> get_grabbedBy();
 
   /// @brief Method get_grabbedTransform, addr 0x27ac86c, size 0x1c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_grabbedTransform();
+  inline ::UnityW<::UnityEngine::Transform> get_grabbedTransform();
 
   /// @brief Method get_grabbedRigidbody, addr 0x27ac888, size 0x1c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rigidbody* get_grabbedRigidbody();
+  inline ::UnityW<::UnityEngine::Rigidbody> get_grabbedRigidbody();
 
   /// @brief Method get_grabPoints, addr 0x27ac8a4, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> get_grabPoints();
+  inline ::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*> get_grabPoints();
 
   /// @brief Method GrabBegin, addr 0x27ac8ac, size 0x7c, virtual true, abstract: false, final false
   inline void GrabBegin(::GlobalNamespace::OVRGrabber* hand, ::UnityEngine::Collider* grabPoint);
@@ -197,19 +198,19 @@ public:
   bool ___m_snapOrientation;
 
   /// @brief Field m_snapOffset, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___m_snapOffset;
+  ::UnityW<::UnityEngine::Transform> ___m_snapOffset;
 
   /// @brief Field m_grabPoints, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> ___m_grabPoints;
+  ::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*> ___m_grabPoints;
 
   /// @brief Field m_grabbedKinematic, offset: 0x30, size: 0x1, def value: None
   bool ___m_grabbedKinematic;
 
   /// @brief Field m_grabbedCollider, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Collider* ___m_grabbedCollider;
+  ::UnityW<::UnityEngine::Collider> ___m_grabbedCollider;
 
   /// @brief Field m_grabbedBy, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::OVRGrabber* ___m_grabbedBy;
+  ::UnityW<::GlobalNamespace::OVRGrabber> ___m_grabbedBy;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

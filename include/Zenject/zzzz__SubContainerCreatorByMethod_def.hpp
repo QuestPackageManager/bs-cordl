@@ -32,20 +32,20 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByMethod);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11246))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11246))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11247))
 // CS Name: ::Zenject::SubContainerCreatorByMethod*
 class CORDL_TYPE SubContainerCreatorByMethod : public ::Zenject::SubContainerCreatorByMethodBase {
 public:
   // Declarations
   /// @brief Field _installMethod, offset 0x20, size 0x8
-  __declspec(property(get = __get__installMethod, put = __set__installMethod))::System::Action_1<::Zenject::DiContainer*>* _installMethod;
+  __declspec(property(get = __cordl_internal_get__installMethod, put = __cordl_internal_set__installMethod))::System::Action_1<::Zenject::DiContainer*>* _installMethod;
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __get__installMethod();
+  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get__installMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __get__installMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __cordl_internal_get__installMethod() const;
 
-  constexpr void __set__installMethod(::System::Action_1<::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set__installMethod(::System::Action_1<::Zenject::DiContainer*>* value);
 
   static inline ::Zenject::SubContainerCreatorByMethod* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo,
                                                                  ::System::Action_1<::Zenject::DiContainer*>* installMethod);

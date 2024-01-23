@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ActivationTrack);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13827))
 // CS Name: ::ActivationTrack::PostPlaybackState
 struct CORDL_TYPE __ActivationTrack__PostPlaybackState {
@@ -103,7 +103,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackS
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13827)), TypeDefinitionIndex(TypeDefinitionIndex(13862))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13827)), TypeDefinitionIndex(TypeDefinitionIndex(13862))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13828))
 // CS Name: ::UnityEngine.Timeline::ActivationTrack*
 class CORDL_TYPE ActivationTrack : public ::UnityEngine::Timeline::TrackAsset {
@@ -112,24 +112,24 @@ public:
   using PostPlaybackState = ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState;
 
   /// @brief Field m_PostPlaybackState, offset 0xa0, size 0x4
-  __declspec(property(get = __get_m_PostPlaybackState, put = __set_m_PostPlaybackState))::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState m_PostPlaybackState;
+  __declspec(property(get = __cordl_internal_get_m_PostPlaybackState, put = __cordl_internal_set_m_PostPlaybackState))::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState m_PostPlaybackState;
 
   /// @brief Field m_ActivationMixer, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_ActivationMixer, put = __set_m_ActivationMixer))::UnityEngine::Timeline::ActivationMixerPlayable* m_ActivationMixer;
+  __declspec(property(get = __cordl_internal_get_m_ActivationMixer, put = __cordl_internal_set_m_ActivationMixer))::UnityEngine::Timeline::ActivationMixerPlayable* m_ActivationMixer;
 
   __declspec(property(get = get_postPlaybackState, put = set_postPlaybackState))::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState postPlaybackState;
 
-  constexpr ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState& __get_m_PostPlaybackState();
+  constexpr ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState& __cordl_internal_get_m_PostPlaybackState();
 
-  constexpr ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState const& __get_m_PostPlaybackState() const;
+  constexpr ::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState const& __cordl_internal_get_m_PostPlaybackState() const;
 
-  constexpr void __set_m_PostPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
+  constexpr void __cordl_internal_set_m_PostPlaybackState(::UnityEngine::Timeline::__ActivationTrack__PostPlaybackState value);
 
-  constexpr ::UnityEngine::Timeline::ActivationMixerPlayable*& __get_m_ActivationMixer();
+  constexpr ::UnityEngine::Timeline::ActivationMixerPlayable*& __cordl_internal_get_m_ActivationMixer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::ActivationMixerPlayable*> const& __get_m_ActivationMixer() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::ActivationMixerPlayable*> const& __cordl_internal_get_m_ActivationMixer() const;
 
-  constexpr void __set_m_ActivationMixer(::UnityEngine::Timeline::ActivationMixerPlayable* value);
+  constexpr void __cordl_internal_set_m_ActivationMixer(::UnityEngine::Timeline::ActivationMixerPlayable* value);
 
   /// @brief Method CanCompileClips, addr 0x2c4ed14, size 0x5c, virtual true, abstract: false, final false
   inline bool CanCompileClips();

@@ -26,47 +26,50 @@ MARK_REF_PTR_T(::UnityEngine::Events::InvokableCallList);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10460))
 // CS Name: ::UnityEngine.Events::InvokableCallList*
 class CORDL_TYPE InvokableCallList : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_PersistentCalls, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_PersistentCalls, put = __set_m_PersistentCalls))::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* m_PersistentCalls;
+  __declspec(property(get = __cordl_internal_get_m_PersistentCalls,
+                      put = __cordl_internal_set_m_PersistentCalls))::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* m_PersistentCalls;
 
   /// @brief Field m_RuntimeCalls, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_RuntimeCalls, put = __set_m_RuntimeCalls))::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* m_RuntimeCalls;
+  __declspec(property(get = __cordl_internal_get_m_RuntimeCalls,
+                      put = __cordl_internal_set_m_RuntimeCalls))::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* m_RuntimeCalls;
 
   /// @brief Field m_ExecutingCalls, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_ExecutingCalls, put = __set_m_ExecutingCalls))::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* m_ExecutingCalls;
+  __declspec(property(get = __cordl_internal_get_m_ExecutingCalls,
+                      put = __cordl_internal_set_m_ExecutingCalls))::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* m_ExecutingCalls;
 
   /// @brief Field m_NeedsUpdate, offset 0x28, size 0x1
-  __declspec(property(get = __get_m_NeedsUpdate, put = __set_m_NeedsUpdate)) bool m_NeedsUpdate;
+  __declspec(property(get = __cordl_internal_get_m_NeedsUpdate, put = __cordl_internal_set_m_NeedsUpdate)) bool m_NeedsUpdate;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*& __get_m_PersistentCalls();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*& __cordl_internal_get_m_PersistentCalls();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*> const& __get_m_PersistentCalls() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*> const& __cordl_internal_get_m_PersistentCalls() const;
 
-  constexpr void __set_m_PersistentCalls(::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* value);
+  constexpr void __cordl_internal_set_m_PersistentCalls(::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*& __get_m_RuntimeCalls();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*& __cordl_internal_get_m_RuntimeCalls();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*> const& __get_m_RuntimeCalls() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*> const& __cordl_internal_get_m_RuntimeCalls() const;
 
-  constexpr void __set_m_RuntimeCalls(::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* value);
+  constexpr void __cordl_internal_set_m_RuntimeCalls(::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*& __get_m_ExecutingCalls();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*& __cordl_internal_get_m_ExecutingCalls();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*> const& __get_m_ExecutingCalls() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>*> const& __cordl_internal_get_m_ExecutingCalls() const;
 
-  constexpr void __set_m_ExecutingCalls(::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* value);
+  constexpr void __cordl_internal_set_m_ExecutingCalls(::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* value);
 
-  constexpr bool& __get_m_NeedsUpdate();
+  constexpr bool& __cordl_internal_get_m_NeedsUpdate();
 
-  constexpr bool const& __get_m_NeedsUpdate() const;
+  constexpr bool const& __cordl_internal_get_m_NeedsUpdate() const;
 
-  constexpr void __set_m_NeedsUpdate(bool value);
+  constexpr void __cordl_internal_set_m_NeedsUpdate(bool value);
 
   /// @brief Method AddPersistentInvokableCall, addr 0x2cf95b4, size 0xac, virtual false, abstract: false, final false
   inline void AddPersistentInvokableCall(::UnityEngine::Events::BaseInvokableCall* call);

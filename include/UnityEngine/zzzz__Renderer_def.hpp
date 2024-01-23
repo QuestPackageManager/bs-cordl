@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::UnityEngine::Renderer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10238))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10238))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10064))
 // CS Name: ::UnityEngine::Renderer*
 class CORDL_TYPE Renderer : public ::UnityEngine::Component {
@@ -73,13 +73,13 @@ public:
 
   __declspec(property(get = get_isPartOfStaticBatch)) bool isPartOfStaticBatch;
 
-  __declspec(property(get = get_materials, put = set_materials))::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> materials;
+  __declspec(property(get = get_materials, put = set_materials))::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> materials;
 
-  __declspec(property(get = get_material, put = set_material))::UnityEngine::Material* material;
+  __declspec(property(get = get_material, put = set_material))::UnityW<::UnityEngine::Material> material;
 
-  __declspec(property(get = get_sharedMaterial, put = set_sharedMaterial))::UnityEngine::Material* sharedMaterial;
+  __declspec(property(get = get_sharedMaterial, put = set_sharedMaterial))::UnityW<::UnityEngine::Material> sharedMaterial;
 
-  __declspec(property(get = get_sharedMaterials, put = set_sharedMaterials))::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> sharedMaterials;
+  __declspec(property(get = get_sharedMaterials, put = set_sharedMaterials))::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> sharedMaterials;
 
   /// @brief Method get_bounds, addr 0x2ca2a98, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
@@ -91,16 +91,16 @@ public:
   inline void set_localBounds(::UnityEngine::Bounds value);
 
   /// @brief Method GetMaterial, addr 0x2ca2c54, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* GetMaterial();
+  inline ::UnityW<::UnityEngine::Material> GetMaterial();
 
   /// @brief Method GetSharedMaterial, addr 0x2ca2c90, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* GetSharedMaterial();
+  inline ::UnityW<::UnityEngine::Material> GetSharedMaterial();
 
   /// @brief Method SetMaterial, addr 0x2ca2ccc, size 0x44, virtual false, abstract: false, final false
   inline void SetMaterial(::UnityEngine::Material* m);
 
   /// @brief Method GetMaterialArray, addr 0x2ca2d10, size 0x3c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> GetMaterialArray();
+  inline ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> GetMaterialArray();
 
   /// @brief Method CopySharedMaterialArray, addr 0x2ca2d4c, size 0x44, virtual false, abstract: false, final false
   inline void CopySharedMaterialArray(ByRef<::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>> m);
@@ -178,34 +178,34 @@ public:
   inline int32_t GetMaterialCount();
 
   /// @brief Method GetSharedMaterialArray, addr 0x2ca3400, size 0x3c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> GetSharedMaterialArray();
+  inline ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> GetSharedMaterialArray();
 
   /// @brief Method get_materials, addr 0x2ca343c, size 0x3c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> get_materials();
+  inline ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> get_materials();
 
   /// @brief Method set_materials, addr 0x2ca3478, size 0x44, virtual false, abstract: false, final false
   inline void set_materials(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> value);
 
   /// @brief Method get_material, addr 0x2ca34bc, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* get_material();
+  inline ::UnityW<::UnityEngine::Material> get_material();
 
   /// @brief Method set_material, addr 0x2ca34f8, size 0x44, virtual false, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
 
   /// @brief Method get_sharedMaterial, addr 0x2ca353c, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* get_sharedMaterial();
+  inline ::UnityW<::UnityEngine::Material> get_sharedMaterial();
 
   /// @brief Method set_sharedMaterial, addr 0x2ca3578, size 0x44, virtual false, abstract: false, final false
   inline void set_sharedMaterial(::UnityEngine::Material* value);
 
   /// @brief Method get_sharedMaterials, addr 0x2ca35bc, size 0x3c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> get_sharedMaterials();
+  inline ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> get_sharedMaterials();
 
   /// @brief Method set_sharedMaterials, addr 0x2ca35f8, size 0x44, virtual false, abstract: false, final false
   inline void set_sharedMaterials(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> value);
 
   /// @brief Method GetSharedMaterials, addr 0x2ca363c, size 0x134, virtual false, abstract: false, final false
-  inline void GetSharedMaterials(::System::Collections::Generic::List_1<::UnityEngine::Material*>* m);
+  inline void GetSharedMaterials(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* m);
 
   static inline ::UnityEngine::Renderer* New_ctor();
 

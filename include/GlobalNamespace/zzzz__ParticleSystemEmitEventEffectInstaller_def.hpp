@@ -18,30 +18,31 @@ MARK_REF_PTR_T(::GlobalNamespace::ParticleSystemEmitEventEffectInstaller);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4964))
 // CS Name: ::ParticleSystemEmitEventEffectInstaller*
 class CORDL_TYPE ParticleSystemEmitEventEffectInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
   /// @brief Field _particleSystemEventControllerPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__particleSystemEventControllerPrefab,
-                      put = __set__particleSystemEventControllerPrefab))::GlobalNamespace::ParticleSystemEventController* _particleSystemEventControllerPrefab;
+  __declspec(property(get = __cordl_internal_get__particleSystemEventControllerPrefab,
+                      put = __cordl_internal_set__particleSystemEventControllerPrefab))::UnityW<::GlobalNamespace::ParticleSystemEventController> _particleSystemEventControllerPrefab;
 
   /// @brief Field _particleSystemEventControllerInitialSize, offset 0x28, size 0x4
-  __declspec(property(get = __get__particleSystemEventControllerInitialSize, put = __set__particleSystemEventControllerInitialSize)) int32_t _particleSystemEventControllerInitialSize;
+  __declspec(property(get = __cordl_internal_get__particleSystemEventControllerInitialSize,
+                      put = __cordl_internal_set__particleSystemEventControllerInitialSize)) int32_t _particleSystemEventControllerInitialSize;
 
-  constexpr ::GlobalNamespace::ParticleSystemEventController*& __get__particleSystemEventControllerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::ParticleSystemEventController>& __cordl_internal_get__particleSystemEventControllerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ParticleSystemEventController*> const& __get__particleSystemEventControllerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::ParticleSystemEventController> const& __cordl_internal_get__particleSystemEventControllerPrefab() const;
 
-  constexpr void __set__particleSystemEventControllerPrefab(::GlobalNamespace::ParticleSystemEventController* value);
+  constexpr void __cordl_internal_set__particleSystemEventControllerPrefab(::UnityW<::GlobalNamespace::ParticleSystemEventController> value);
 
-  constexpr int32_t& __get__particleSystemEventControllerInitialSize();
+  constexpr int32_t& __cordl_internal_get__particleSystemEventControllerInitialSize();
 
-  constexpr int32_t const& __get__particleSystemEventControllerInitialSize() const;
+  constexpr int32_t const& __cordl_internal_get__particleSystemEventControllerInitialSize() const;
 
-  constexpr void __set__particleSystemEventControllerInitialSize(int32_t value);
+  constexpr void __cordl_internal_set__particleSystemEventControllerInitialSize(int32_t value);
 
   /// @brief Method InstallBindings, addr 0x23b0214, size 0xa8, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -66,7 +67,7 @@ protected:
 
 public:
   /// @brief Field _particleSystemEventControllerPrefab, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::ParticleSystemEventController* ____particleSystemEventControllerPrefab;
+  ::UnityW<::GlobalNamespace::ParticleSystemEventController> ____particleSystemEventControllerPrefab;
 
   /// @brief Field _particleSystemEventControllerInitialSize, offset: 0x28, size: 0x4, def value: None
   int32_t ____particleSystemEventControllerInitialSize;

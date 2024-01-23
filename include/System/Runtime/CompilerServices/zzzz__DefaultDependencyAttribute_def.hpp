@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::DefaultDependencyAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3411)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3411))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3412))
 // CS Name: ::System.Runtime.CompilerServices::DefaultDependencyAttribute*
 class CORDL_TYPE DefaultDependencyAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field loadHint, offset 0x10, size 0x4
-  __declspec(property(get = __get_loadHint, put = __set_loadHint))::System::Runtime::CompilerServices::LoadHint loadHint;
+  __declspec(property(get = __cordl_internal_get_loadHint, put = __cordl_internal_set_loadHint))::System::Runtime::CompilerServices::LoadHint loadHint;
 
-  constexpr ::System::Runtime::CompilerServices::LoadHint& __get_loadHint();
+  constexpr ::System::Runtime::CompilerServices::LoadHint& __cordl_internal_get_loadHint();
 
-  constexpr ::System::Runtime::CompilerServices::LoadHint const& __get_loadHint() const;
+  constexpr ::System::Runtime::CompilerServices::LoadHint const& __cordl_internal_get_loadHint() const;
 
-  constexpr void __set_loadHint(::System::Runtime::CompilerServices::LoadHint value);
+  constexpr void __cordl_internal_set_loadHint(::System::Runtime::CompilerServices::LoadHint value);
 
   static inline ::System::Runtime::CompilerServices::DefaultDependencyAttribute* New_ctor(::System::Runtime::CompilerServices::LoadHint loadHintArgument);
 

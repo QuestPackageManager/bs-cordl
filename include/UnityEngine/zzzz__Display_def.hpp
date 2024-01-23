@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::__Display__DisplaysUpdatedDelegate);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10128))
 // CS Name: ::Display::DisplaysUpdatedDelegate*
 class CORDL_TYPE __Display__DisplaysUpdatedDelegate : public ::System::MulticastDelegate {
@@ -70,7 +70,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__Display__Displays
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10129))
 // CS Name: ::UnityEngine::Display*
 class CORDL_TYPE Display : public ::System::Object {
@@ -79,7 +79,7 @@ public:
   using DisplaysUpdatedDelegate = ::UnityEngine::__Display__DisplaysUpdatedDelegate;
 
   /// @brief Field nativeDisplay, offset 0x10, size 0x8
-  __declspec(property(get = __get_nativeDisplay, put = __set_nativeDisplay)) void* nativeDisplay;
+  __declspec(property(get = __cordl_internal_get_nativeDisplay, put = __cordl_internal_set_nativeDisplay)) void* nativeDisplay;
 
   /// @brief Field displays, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_displays, put = setStaticF_displays))::ArrayW<::UnityEngine::Display*, ::Array<::UnityEngine::Display*>*> displays;
@@ -101,11 +101,11 @@ public:
 
   __declspec(property(get = get_systemHeight)) int32_t systemHeight;
 
-  constexpr void*& __get_nativeDisplay();
+  constexpr void*& __cordl_internal_get_nativeDisplay();
 
-  constexpr void* const& __get_nativeDisplay() const;
+  constexpr void* const& __cordl_internal_get_nativeDisplay() const;
 
-  constexpr void __set_nativeDisplay(void* value);
+  constexpr void __cordl_internal_set_nativeDisplay(void* value);
 
   static inline void setStaticF_displays(::ArrayW<::UnityEngine::Display*, ::Array<::UnityEngine::Display*>*> value);
 

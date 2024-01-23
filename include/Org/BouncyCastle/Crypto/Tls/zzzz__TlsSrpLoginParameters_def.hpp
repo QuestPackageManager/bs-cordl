@@ -22,20 +22,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1327))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsSrpLoginParameters*
 class CORDL_TYPE TlsSrpLoginParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mGroup, offset 0x10, size 0x8
-  __declspec(property(get = __get_mGroup, put = __set_mGroup))::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* mGroup;
+  __declspec(property(get = __cordl_internal_get_mGroup, put = __cordl_internal_set_mGroup))::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* mGroup;
 
   /// @brief Field mVerifier, offset 0x18, size 0x8
-  __declspec(property(get = __get_mVerifier, put = __set_mVerifier))::Org::BouncyCastle::Math::BigInteger* mVerifier;
+  __declspec(property(get = __cordl_internal_get_mVerifier, put = __cordl_internal_set_mVerifier))::Org::BouncyCastle::Math::BigInteger* mVerifier;
 
   /// @brief Field mSalt, offset 0x20, size 0x8
-  __declspec(property(get = __get_mSalt, put = __set_mSalt))::ArrayW<uint8_t, ::Array<uint8_t>*> mSalt;
+  __declspec(property(get = __cordl_internal_get_mSalt, put = __cordl_internal_set_mSalt))::ArrayW<uint8_t, ::Array<uint8_t>*> mSalt;
 
   __declspec(property(get = get_Group))::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* Group;
 
@@ -43,23 +43,23 @@ public:
 
   __declspec(property(get = get_Verifier))::Org::BouncyCastle::Math::BigInteger* Verifier;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*& __get_mGroup();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*& __cordl_internal_get_mGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*> const& __get_mGroup() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*> const& __cordl_internal_get_mGroup() const;
 
-  constexpr void __set_mGroup(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
+  constexpr void __cordl_internal_set_mGroup(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_mVerifier();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_mVerifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_mVerifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_mVerifier() const;
 
-  constexpr void __set_mVerifier(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_mVerifier(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mSalt();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mSalt();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mSalt() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mSalt() const;
 
-  constexpr void __set_mSalt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mSalt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* New_ctor(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Math::BigInteger* verifier,
                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);

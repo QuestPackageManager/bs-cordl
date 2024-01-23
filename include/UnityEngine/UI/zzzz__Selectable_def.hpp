@@ -111,7 +111,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::Selectable);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13117))
 // CS Name: ::Selectable::Transition
 struct CORDL_TYPE __Selectable__Transition {
@@ -169,7 +169,7 @@ static_assert(offsetof(::UnityEngine::UI::__Selectable__Transition, value__) == 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13118))
 // CS Name: ::Selectable::SelectionState
 struct CORDL_TYPE __Selectable__SelectionState {
@@ -231,8 +231,8 @@ static_assert(offsetof(::UnityEngine::UI::__Selectable__SelectionState, value__)
 // SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 248, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13117)), TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(13023)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13105)), TypeDefinitionIndex(TypeDefinitionIndex(13125))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13119)) CS Name: ::UnityEngine.UI::Selectable*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13023)), TypeDefinitionIndex(TypeDefinitionIndex(13105)), TypeDefinitionIndex(TypeDefinitionIndex(13117)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13125)), TypeDefinitionIndex(TypeDefinitionIndex(13214))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13119)) CS Name: ::UnityEngine.UI::Selectable*
 class CORDL_TYPE Selectable : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
@@ -241,49 +241,51 @@ public:
   using Transition = ::UnityEngine::UI::__Selectable__Transition;
 
   /// @brief Field m_EnableCalled, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_EnableCalled, put = __set_m_EnableCalled)) bool m_EnableCalled;
+  __declspec(property(get = __cordl_internal_get_m_EnableCalled, put = __cordl_internal_set_m_EnableCalled)) bool m_EnableCalled;
 
   /// @brief Field m_Navigation, offset 0x20, size 0x28
-  __declspec(property(get = __get_m_Navigation, put = __set_m_Navigation))::UnityEngine::UI::Navigation m_Navigation;
+  __declspec(property(get = __cordl_internal_get_m_Navigation, put = __cordl_internal_set_m_Navigation))::UnityEngine::UI::Navigation m_Navigation;
 
   /// @brief Field m_Transition, offset 0x48, size 0x4
-  __declspec(property(get = __get_m_Transition, put = __set_m_Transition))::UnityEngine::UI::__Selectable__Transition m_Transition;
+  __declspec(property(get = __cordl_internal_get_m_Transition, put = __cordl_internal_set_m_Transition))::UnityEngine::UI::__Selectable__Transition m_Transition;
 
   /// @brief Field m_Colors, offset 0x4c, size 0x58
-  __declspec(property(get = __get_m_Colors, put = __set_m_Colors))::UnityEngine::UI::ColorBlock m_Colors;
+  __declspec(property(get = __cordl_internal_get_m_Colors, put = __cordl_internal_set_m_Colors))::UnityEngine::UI::ColorBlock m_Colors;
 
   /// @brief Field m_SpriteState, offset 0xa8, size 0x20
-  __declspec(property(get = __get_m_SpriteState, put = __set_m_SpriteState))::UnityEngine::UI::SpriteState m_SpriteState;
+  __declspec(property(get = __cordl_internal_get_m_SpriteState, put = __cordl_internal_set_m_SpriteState))::UnityEngine::UI::SpriteState m_SpriteState;
 
   /// @brief Field m_AnimationTriggers, offset 0xc8, size 0x8
-  __declspec(property(get = __get_m_AnimationTriggers, put = __set_m_AnimationTriggers))::UnityEngine::UI::AnimationTriggers* m_AnimationTriggers;
+  __declspec(property(get = __cordl_internal_get_m_AnimationTriggers, put = __cordl_internal_set_m_AnimationTriggers))::UnityEngine::UI::AnimationTriggers* m_AnimationTriggers;
 
   /// @brief Field m_Interactable, offset 0xd0, size 0x1
-  __declspec(property(get = __get_m_Interactable, put = __set_m_Interactable)) bool m_Interactable;
+  __declspec(property(get = __cordl_internal_get_m_Interactable, put = __cordl_internal_set_m_Interactable)) bool m_Interactable;
 
   /// @brief Field m_TargetGraphic, offset 0xd8, size 0x8
-  __declspec(property(get = __get_m_TargetGraphic, put = __set_m_TargetGraphic))::UnityEngine::UI::Graphic* m_TargetGraphic;
+  __declspec(property(get = __cordl_internal_get_m_TargetGraphic, put = __cordl_internal_set_m_TargetGraphic))::UnityW<::UnityEngine::UI::Graphic> m_TargetGraphic;
 
   /// @brief Field m_GroupsAllowInteraction, offset 0xe0, size 0x1
-  __declspec(property(get = __get_m_GroupsAllowInteraction, put = __set_m_GroupsAllowInteraction)) bool m_GroupsAllowInteraction;
+  __declspec(property(get = __cordl_internal_get_m_GroupsAllowInteraction, put = __cordl_internal_set_m_GroupsAllowInteraction)) bool m_GroupsAllowInteraction;
 
   /// @brief Field m_CurrentIndex, offset 0xe4, size 0x4
-  __declspec(property(get = __get_m_CurrentIndex, put = __set_m_CurrentIndex)) int32_t m_CurrentIndex;
+  __declspec(property(get = __cordl_internal_get_m_CurrentIndex, put = __cordl_internal_set_m_CurrentIndex)) int32_t m_CurrentIndex;
 
   /// @brief Field <isPointerInside>k__BackingField, offset 0xe8, size 0x1
-  __declspec(property(get = __get__isPointerInside_k__BackingField, put = __set__isPointerInside_k__BackingField)) bool _isPointerInside_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isPointerInside_k__BackingField, put = __cordl_internal_set__isPointerInside_k__BackingField)) bool _isPointerInside_k__BackingField;
 
   /// @brief Field <isPointerDown>k__BackingField, offset 0xe9, size 0x1
-  __declspec(property(get = __get__isPointerDown_k__BackingField, put = __set__isPointerDown_k__BackingField)) bool _isPointerDown_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isPointerDown_k__BackingField, put = __cordl_internal_set__isPointerDown_k__BackingField)) bool _isPointerDown_k__BackingField;
 
   /// @brief Field <hasSelection>k__BackingField, offset 0xea, size 0x1
-  __declspec(property(get = __get__hasSelection_k__BackingField, put = __set__hasSelection_k__BackingField)) bool _hasSelection_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__hasSelection_k__BackingField, put = __cordl_internal_set__hasSelection_k__BackingField)) bool _hasSelection_k__BackingField;
 
   /// @brief Field m_CanvasGroupCache, offset 0xf0, size 0x8
-  __declspec(property(get = __get_m_CanvasGroupCache, put = __set_m_CanvasGroupCache))::System::Collections::Generic::List_1<::UnityEngine::CanvasGroup*>* m_CanvasGroupCache;
+  __declspec(property(get = __cordl_internal_get_m_CanvasGroupCache,
+                      put = __cordl_internal_set_m_CanvasGroupCache))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>* m_CanvasGroupCache;
 
   /// @brief Field s_Selectables, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Selectables, put = setStaticF_s_Selectables))::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*> s_Selectables;
+  static __declspec(property(get = getStaticF_s_Selectables,
+                             put = setStaticF_s_Selectables))::ArrayW<::UnityW<::UnityEngine::UI::Selectable>, ::Array<::UnityW<::UnityEngine::UI::Selectable>>*> s_Selectables;
 
   /// @brief Field s_SelectableCount, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_SelectableCount, put = setStaticF_s_SelectableCount)) int32_t s_SelectableCount;
@@ -298,7 +300,7 @@ public:
 
   __declspec(property(get = get_animationTriggers, put = set_animationTriggers))::UnityEngine::UI::AnimationTriggers* animationTriggers;
 
-  __declspec(property(get = get_targetGraphic, put = set_targetGraphic))::UnityEngine::UI::Graphic* targetGraphic;
+  __declspec(property(get = get_targetGraphic, put = set_targetGraphic))::UnityW<::UnityEngine::UI::Graphic> targetGraphic;
 
   __declspec(property(get = get_interactable, put = set_interactable)) bool interactable;
 
@@ -308,9 +310,9 @@ public:
 
   __declspec(property(get = get_hasSelection, put = set_hasSelection)) bool hasSelection;
 
-  __declspec(property(get = get_image, put = set_image))::UnityEngine::UI::Image* image;
+  __declspec(property(get = get_image, put = set_image))::UnityW<::UnityEngine::UI::Image> image;
 
-  __declspec(property(get = get_animator))::UnityEngine::Animator* animator;
+  __declspec(property(get = get_animator))::UnityW<::UnityEngine::Animator> animator;
 
   __declspec(property(get = get_currentSelectionState))::UnityEngine::UI::__Selectable__SelectionState currentSelectionState;
 
@@ -362,106 +364,106 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IDeselectHandler"
   constexpr ::UnityEngine::EventSystems::IDeselectHandler* i___UnityEngine__EventSystems__IDeselectHandler() noexcept;
 
-  constexpr bool& __get_m_EnableCalled();
+  constexpr bool& __cordl_internal_get_m_EnableCalled();
 
-  constexpr bool const& __get_m_EnableCalled() const;
+  constexpr bool const& __cordl_internal_get_m_EnableCalled() const;
 
-  constexpr void __set_m_EnableCalled(bool value);
+  constexpr void __cordl_internal_set_m_EnableCalled(bool value);
 
-  constexpr ::UnityEngine::UI::Navigation& __get_m_Navigation();
+  constexpr ::UnityEngine::UI::Navigation& __cordl_internal_get_m_Navigation();
 
-  constexpr ::UnityEngine::UI::Navigation const& __get_m_Navigation() const;
+  constexpr ::UnityEngine::UI::Navigation const& __cordl_internal_get_m_Navigation() const;
 
-  constexpr void __set_m_Navigation(::UnityEngine::UI::Navigation value);
+  constexpr void __cordl_internal_set_m_Navigation(::UnityEngine::UI::Navigation value);
 
-  constexpr ::UnityEngine::UI::__Selectable__Transition& __get_m_Transition();
+  constexpr ::UnityEngine::UI::__Selectable__Transition& __cordl_internal_get_m_Transition();
 
-  constexpr ::UnityEngine::UI::__Selectable__Transition const& __get_m_Transition() const;
+  constexpr ::UnityEngine::UI::__Selectable__Transition const& __cordl_internal_get_m_Transition() const;
 
-  constexpr void __set_m_Transition(::UnityEngine::UI::__Selectable__Transition value);
+  constexpr void __cordl_internal_set_m_Transition(::UnityEngine::UI::__Selectable__Transition value);
 
-  constexpr ::UnityEngine::UI::ColorBlock& __get_m_Colors();
+  constexpr ::UnityEngine::UI::ColorBlock& __cordl_internal_get_m_Colors();
 
-  constexpr ::UnityEngine::UI::ColorBlock const& __get_m_Colors() const;
+  constexpr ::UnityEngine::UI::ColorBlock const& __cordl_internal_get_m_Colors() const;
 
-  constexpr void __set_m_Colors(::UnityEngine::UI::ColorBlock value);
+  constexpr void __cordl_internal_set_m_Colors(::UnityEngine::UI::ColorBlock value);
 
-  constexpr ::UnityEngine::UI::SpriteState& __get_m_SpriteState();
+  constexpr ::UnityEngine::UI::SpriteState& __cordl_internal_get_m_SpriteState();
 
-  constexpr ::UnityEngine::UI::SpriteState const& __get_m_SpriteState() const;
+  constexpr ::UnityEngine::UI::SpriteState const& __cordl_internal_get_m_SpriteState() const;
 
-  constexpr void __set_m_SpriteState(::UnityEngine::UI::SpriteState value);
+  constexpr void __cordl_internal_set_m_SpriteState(::UnityEngine::UI::SpriteState value);
 
-  constexpr ::UnityEngine::UI::AnimationTriggers*& __get_m_AnimationTriggers();
+  constexpr ::UnityEngine::UI::AnimationTriggers*& __cordl_internal_get_m_AnimationTriggers();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::AnimationTriggers*> const& __get_m_AnimationTriggers() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::AnimationTriggers*> const& __cordl_internal_get_m_AnimationTriggers() const;
 
-  constexpr void __set_m_AnimationTriggers(::UnityEngine::UI::AnimationTriggers* value);
+  constexpr void __cordl_internal_set_m_AnimationTriggers(::UnityEngine::UI::AnimationTriggers* value);
 
-  constexpr bool& __get_m_Interactable();
+  constexpr bool& __cordl_internal_get_m_Interactable();
 
-  constexpr bool const& __get_m_Interactable() const;
+  constexpr bool const& __cordl_internal_get_m_Interactable() const;
 
-  constexpr void __set_m_Interactable(bool value);
+  constexpr void __cordl_internal_set_m_Interactable(bool value);
 
-  constexpr ::UnityEngine::UI::Graphic*& __get_m_TargetGraphic();
+  constexpr ::UnityW<::UnityEngine::UI::Graphic>& __cordl_internal_get_m_TargetGraphic();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Graphic*> const& __get_m_TargetGraphic() const;
+  constexpr ::UnityW<::UnityEngine::UI::Graphic> const& __cordl_internal_get_m_TargetGraphic() const;
 
-  constexpr void __set_m_TargetGraphic(::UnityEngine::UI::Graphic* value);
+  constexpr void __cordl_internal_set_m_TargetGraphic(::UnityW<::UnityEngine::UI::Graphic> value);
 
-  constexpr bool& __get_m_GroupsAllowInteraction();
+  constexpr bool& __cordl_internal_get_m_GroupsAllowInteraction();
 
-  constexpr bool const& __get_m_GroupsAllowInteraction() const;
+  constexpr bool const& __cordl_internal_get_m_GroupsAllowInteraction() const;
 
-  constexpr void __set_m_GroupsAllowInteraction(bool value);
+  constexpr void __cordl_internal_set_m_GroupsAllowInteraction(bool value);
 
-  constexpr int32_t& __get_m_CurrentIndex();
+  constexpr int32_t& __cordl_internal_get_m_CurrentIndex();
 
-  constexpr int32_t const& __get_m_CurrentIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_CurrentIndex() const;
 
-  constexpr void __set_m_CurrentIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_CurrentIndex(int32_t value);
 
-  constexpr bool& __get__isPointerInside_k__BackingField();
+  constexpr bool& __cordl_internal_get__isPointerInside_k__BackingField();
 
-  constexpr bool const& __get__isPointerInside_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isPointerInside_k__BackingField() const;
 
-  constexpr void __set__isPointerInside_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isPointerInside_k__BackingField(bool value);
 
-  constexpr bool& __get__isPointerDown_k__BackingField();
+  constexpr bool& __cordl_internal_get__isPointerDown_k__BackingField();
 
-  constexpr bool const& __get__isPointerDown_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isPointerDown_k__BackingField() const;
 
-  constexpr void __set__isPointerDown_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isPointerDown_k__BackingField(bool value);
 
-  constexpr bool& __get__hasSelection_k__BackingField();
+  constexpr bool& __cordl_internal_get__hasSelection_k__BackingField();
 
-  constexpr bool const& __get__hasSelection_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__hasSelection_k__BackingField() const;
 
-  constexpr void __set__hasSelection_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__hasSelection_k__BackingField(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::CanvasGroup*>*& __get_m_CanvasGroupCache();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>*& __cordl_internal_get_m_CanvasGroupCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::CanvasGroup*>*> const& __get_m_CanvasGroupCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>*> const& __cordl_internal_get_m_CanvasGroupCache() const;
 
-  constexpr void __set_m_CanvasGroupCache(::System::Collections::Generic::List_1<::UnityEngine::CanvasGroup*>* value);
+  constexpr void __cordl_internal_set_m_CanvasGroupCache(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>* value);
 
-  static inline void setStaticF_s_Selectables(::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*> value);
+  static inline void setStaticF_s_Selectables(::ArrayW<::UnityW<::UnityEngine::UI::Selectable>, ::Array<::UnityW<::UnityEngine::UI::Selectable>>*> value);
 
-  static inline ::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*> getStaticF_s_Selectables();
+  static inline ::ArrayW<::UnityW<::UnityEngine::UI::Selectable>, ::Array<::UnityW<::UnityEngine::UI::Selectable>>*> getStaticF_s_Selectables();
 
   static inline void setStaticF_s_SelectableCount(int32_t value);
 
   static inline int32_t getStaticF_s_SelectableCount();
 
   /// @brief Method get_allSelectablesArray, addr 0x2d867c8, size 0x9c, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*> get_allSelectablesArray();
+  static inline ::ArrayW<::UnityW<::UnityEngine::UI::Selectable>, ::Array<::UnityW<::UnityEngine::UI::Selectable>>*> get_allSelectablesArray();
 
   /// @brief Method get_allSelectableCount, addr 0x2d86864, size 0x58, virtual false, abstract: false, final false
   static inline int32_t get_allSelectableCount();
 
   /// @brief Method get_allSelectables, addr 0x2d868bc, size 0xa4, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::UI::Selectable*>* get_allSelectables();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Selectable>>* get_allSelectables();
 
   /// @brief Method AllSelectablesNoAlloc, addr 0x2d86960, size 0xbc, virtual false, abstract: false, final false
   static inline int32_t AllSelectablesNoAlloc(::ArrayW<::UnityEngine::UI::Selectable*, ::Array<::UnityEngine::UI::Selectable*>*> selectables);
@@ -497,7 +499,7 @@ public:
   inline void set_animationTriggers(::UnityEngine::UI::AnimationTriggers* value);
 
   /// @brief Method get_targetGraphic, addr 0x2d86d48, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Graphic* get_targetGraphic();
+  inline ::UnityW<::UnityEngine::UI::Graphic> get_targetGraphic();
 
   /// @brief Method set_targetGraphic, addr 0x2d86d50, size 0x74, virtual false, abstract: false, final false
   inline void set_targetGraphic(::UnityEngine::UI::Graphic* value);
@@ -532,13 +534,13 @@ public:
   inline void _ctor();
 
   /// @brief Method get_image, addr 0x2d86f78, size 0x7c, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Image* get_image();
+  inline ::UnityW<::UnityEngine::UI::Image> get_image();
 
   /// @brief Method set_image, addr 0x2d86ff4, size 0x8, virtual false, abstract: false, final false
   inline void set_image(::UnityEngine::UI::Image* value);
 
   /// @brief Method get_animator, addr 0x2d86ffc, size 0x48, virtual false, abstract: false, final false
-  inline ::UnityEngine::Animator* get_animator();
+  inline ::UnityW<::UnityEngine::Animator> get_animator();
 
   /// @brief Method Awake, addr 0x2d87044, size 0x8c, virtual true, abstract: false, final false
   inline void Awake();
@@ -577,7 +579,7 @@ public:
   inline void DoStateTransition(::UnityEngine::UI::__Selectable__SelectionState state, bool instant);
 
   /// @brief Method FindSelectable, addr 0x2d878f0, size 0x4ac, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectable(::UnityEngine::Vector3 dir);
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectable(::UnityEngine::Vector3 dir);
 
   /// @brief Method GetPointOnRectEdge, addr 0x2d87d9c, size 0x1a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetPointOnRectEdge(::UnityEngine::RectTransform* rect, ::UnityEngine::Vector2 dir);
@@ -586,16 +588,16 @@ public:
   inline void Navigate(::UnityEngine::EventSystems::AxisEventData* eventData, ::UnityEngine::UI::Selectable* sel);
 
   /// @brief Method FindSelectableOnLeft, addr 0x2d8255c, size 0xd8, virtual true, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectableOnLeft();
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnLeft();
 
   /// @brief Method FindSelectableOnRight, addr 0x2d82658, size 0xd8, virtual true, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectableOnRight();
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnRight();
 
   /// @brief Method FindSelectableOnUp, addr 0x2d82754, size 0xd8, virtual true, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectableOnUp();
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnUp();
 
   /// @brief Method FindSelectableOnDown, addr 0x2d82850, size 0xd8, virtual true, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectableOnDown();
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnDown();
 
   /// @brief Method OnMove, addr 0x2d824ac, size 0x8c, virtual true, abstract: false, final false
   inline void OnMove(::UnityEngine::EventSystems::AxisEventData* eventData);
@@ -675,7 +677,7 @@ public:
   bool ___m_Interactable;
 
   /// @brief Field m_TargetGraphic, offset: 0xd8, size: 0x8, def value: None
-  ::UnityEngine::UI::Graphic* ___m_TargetGraphic;
+  ::UnityW<::UnityEngine::UI::Graphic> ___m_TargetGraphic;
 
   /// @brief Field m_GroupsAllowInteraction, offset: 0xe0, size: 0x1, def value: None
   bool ___m_GroupsAllowInteraction;
@@ -693,7 +695,7 @@ public:
   bool ____hasSelection_k__BackingField;
 
   /// @brief Field m_CanvasGroupCache, offset: 0xf0, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::CanvasGroup*>* ___m_CanvasGroupCache;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::CanvasGroup>>* ___m_CanvasGroupCache;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

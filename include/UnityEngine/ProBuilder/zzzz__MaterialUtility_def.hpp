@@ -24,24 +24,24 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MaterialUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12138))
 // CS Name: ::UnityEngine.ProBuilder::MaterialUtility*
 class CORDL_TYPE MaterialUtility : public ::System::Object {
 public:
   // Declarations
   /// @brief Field s_MaterialArray, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_MaterialArray, put = setStaticF_s_MaterialArray))::System::Collections::Generic::List_1<::UnityEngine::Material*>* s_MaterialArray;
+  static __declspec(property(get = getStaticF_s_MaterialArray, put = setStaticF_s_MaterialArray))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* s_MaterialArray;
 
-  static inline void setStaticF_s_MaterialArray(::System::Collections::Generic::List_1<::UnityEngine::Material*>* value);
+  static inline void setStaticF_s_MaterialArray(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* value);
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::Material*>* getStaticF_s_MaterialArray();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* getStaticF_s_MaterialArray();
 
   /// @brief Method GetMaterialCount, addr 0x2b47ed0, size 0xd0, virtual false, abstract: false, final false
   static inline int32_t GetMaterialCount(::UnityEngine::Renderer* renderer);
 
   /// @brief Method GetSharedMaterial, addr 0x2b47fa0, size 0x140, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* GetSharedMaterial(::UnityEngine::Renderer* renderer, int32_t index);
+  static inline ::UnityW<::UnityEngine::Material> GetSharedMaterial(::UnityEngine::Renderer* renderer, int32_t index);
 
   // Ctor Parameters [CppParam { name: "", ty: "MaterialUtility", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

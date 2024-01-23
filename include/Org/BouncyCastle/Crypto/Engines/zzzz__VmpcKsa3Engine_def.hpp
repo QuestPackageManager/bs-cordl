@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::VmpcKsa3Engine);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(882))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(882))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(883))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::VmpcKsa3Engine*
 class CORDL_TYPE VmpcKsa3Engine : public ::Org::BouncyCastle::Crypto::Engines::VmpcEngine {

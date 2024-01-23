@@ -29,29 +29,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OnePassSignaturePacket);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(572)), TypeDefinitionIndex(TypeDefinitionIndex(580))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(572)), TypeDefinitionIndex(TypeDefinitionIndex(580))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(577))
 // CS Name: ::Org.BouncyCastle.Bcpg::OnePassSignaturePacket*
 class CORDL_TYPE OnePassSignaturePacket : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
   // Declarations
   /// @brief Field version, offset 0x10, size 0x4
-  __declspec(property(get = __get_version, put = __set_version)) int32_t version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
   /// @brief Field sigType, offset 0x14, size 0x4
-  __declspec(property(get = __get_sigType, put = __set_sigType)) int32_t sigType;
+  __declspec(property(get = __cordl_internal_get_sigType, put = __cordl_internal_set_sigType)) int32_t sigType;
 
   /// @brief Field hashAlgorithm, offset 0x18, size 0x4
-  __declspec(property(get = __get_hashAlgorithm, put = __set_hashAlgorithm))::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm;
+  __declspec(property(get = __cordl_internal_get_hashAlgorithm, put = __cordl_internal_set_hashAlgorithm))::Org::BouncyCastle::Bcpg::HashAlgorithmTag hashAlgorithm;
 
   /// @brief Field keyAlgorithm, offset 0x1c, size 0x4
-  __declspec(property(get = __get_keyAlgorithm, put = __set_keyAlgorithm))::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm;
+  __declspec(property(get = __cordl_internal_get_keyAlgorithm, put = __cordl_internal_set_keyAlgorithm))::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag keyAlgorithm;
 
   /// @brief Field keyId, offset 0x20, size 0x8
-  __declspec(property(get = __get_keyId, put = __set_keyId)) int64_t keyId;
+  __declspec(property(get = __cordl_internal_get_keyId, put = __cordl_internal_set_keyId)) int64_t keyId;
 
   /// @brief Field nested, offset 0x28, size 0x4
-  __declspec(property(get = __get_nested, put = __set_nested)) int32_t nested;
+  __declspec(property(get = __cordl_internal_get_nested, put = __cordl_internal_set_nested)) int32_t nested;
 
   __declspec(property(get = get_SignatureType)) int32_t SignatureType;
 
@@ -61,41 +61,41 @@ public:
 
   __declspec(property(get = get_KeyId)) int64_t KeyId;
 
-  constexpr int32_t& __get_version();
+  constexpr int32_t& __cordl_internal_get_version();
 
-  constexpr int32_t const& __get_version() const;
+  constexpr int32_t const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(int32_t value);
+  constexpr void __cordl_internal_set_version(int32_t value);
 
-  constexpr int32_t& __get_sigType();
+  constexpr int32_t& __cordl_internal_get_sigType();
 
-  constexpr int32_t const& __get_sigType() const;
+  constexpr int32_t const& __cordl_internal_get_sigType() const;
 
-  constexpr void __set_sigType(int32_t value);
+  constexpr void __cordl_internal_set_sigType(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag& __get_hashAlgorithm();
+  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag& __cordl_internal_get_hashAlgorithm();
 
-  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag const& __get_hashAlgorithm() const;
+  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag const& __cordl_internal_get_hashAlgorithm() const;
 
-  constexpr void __set_hashAlgorithm(::Org::BouncyCastle::Bcpg::HashAlgorithmTag value);
+  constexpr void __cordl_internal_set_hashAlgorithm(::Org::BouncyCastle::Bcpg::HashAlgorithmTag value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag& __get_keyAlgorithm();
+  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag& __cordl_internal_get_keyAlgorithm();
 
-  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const& __get_keyAlgorithm() const;
+  constexpr ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag const& __cordl_internal_get_keyAlgorithm() const;
 
-  constexpr void __set_keyAlgorithm(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag value);
+  constexpr void __cordl_internal_set_keyAlgorithm(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag value);
 
-  constexpr int64_t& __get_keyId();
+  constexpr int64_t& __cordl_internal_get_keyId();
 
-  constexpr int64_t const& __get_keyId() const;
+  constexpr int64_t const& __cordl_internal_get_keyId() const;
 
-  constexpr void __set_keyId(int64_t value);
+  constexpr void __cordl_internal_set_keyId(int64_t value);
 
-  constexpr int32_t& __get_nested();
+  constexpr int32_t& __cordl_internal_get_nested();
 
-  constexpr int32_t const& __get_nested() const;
+  constexpr int32_t const& __cordl_internal_get_nested() const;
 
-  constexpr void __set_nested(int32_t value);
+  constexpr void __cordl_internal_set_nested(int32_t value);
 
   static inline ::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 

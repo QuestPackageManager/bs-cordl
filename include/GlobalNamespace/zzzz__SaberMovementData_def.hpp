@@ -36,26 +36,28 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberMovementData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4194))
 // CS Name: ::SaberMovementData*
 class CORDL_TYPE SaberMovementData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _data, offset 0x10, size 0x8
-  __declspec(property(get = __get__data, put = __set__data))::ArrayW<::GlobalNamespace::BladeMovementDataElement, ::Array<::GlobalNamespace::BladeMovementDataElement>*> _data;
+  __declspec(property(get = __cordl_internal_get__data,
+                      put = __cordl_internal_set__data))::ArrayW<::GlobalNamespace::BladeMovementDataElement, ::Array<::GlobalNamespace::BladeMovementDataElement>*> _data;
 
   /// @brief Field _dataProcessors, offset 0x18, size 0x8
-  __declspec(property(get = __get__dataProcessors, put = __set__dataProcessors))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberMovementDataProcessor*>* _dataProcessors;
+  __declspec(property(get = __cordl_internal_get__dataProcessors,
+                      put = __cordl_internal_set__dataProcessors))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberMovementDataProcessor*>* _dataProcessors;
 
   /// @brief Field _nextAddIndex, offset 0x20, size 0x4
-  __declspec(property(get = __get__nextAddIndex, put = __set__nextAddIndex)) int32_t _nextAddIndex;
+  __declspec(property(get = __cordl_internal_get__nextAddIndex, put = __cordl_internal_set__nextAddIndex)) int32_t _nextAddIndex;
 
   /// @brief Field _validCount, offset 0x24, size 0x4
-  __declspec(property(get = __get__validCount, put = __set__validCount)) int32_t _validCount;
+  __declspec(property(get = __cordl_internal_get__validCount, put = __cordl_internal_set__validCount)) int32_t _validCount;
 
   /// @brief Field _bladeSpeed, offset 0x28, size 0x4
-  __declspec(property(get = __get__bladeSpeed, put = __set__bladeSpeed)) float_t _bladeSpeed;
+  __declspec(property(get = __cordl_internal_get__bladeSpeed, put = __cordl_internal_set__bladeSpeed)) float_t _bladeSpeed;
 
   __declspec(property(get = get_bladeSpeed)) float_t bladeSpeed;
 
@@ -75,35 +77,35 @@ public:
   /// @brief Convert to "::GlobalNamespace::ISaberMovementData"
   constexpr ::GlobalNamespace::ISaberMovementData* i___GlobalNamespace__ISaberMovementData() noexcept;
 
-  constexpr ::ArrayW<::GlobalNamespace::BladeMovementDataElement, ::Array<::GlobalNamespace::BladeMovementDataElement>*>& __get__data();
+  constexpr ::ArrayW<::GlobalNamespace::BladeMovementDataElement, ::Array<::GlobalNamespace::BladeMovementDataElement>*>& __cordl_internal_get__data();
 
-  constexpr ::ArrayW<::GlobalNamespace::BladeMovementDataElement, ::Array<::GlobalNamespace::BladeMovementDataElement>*> const& __get__data() const;
+  constexpr ::ArrayW<::GlobalNamespace::BladeMovementDataElement, ::Array<::GlobalNamespace::BladeMovementDataElement>*> const& __cordl_internal_get__data() const;
 
-  constexpr void __set__data(::ArrayW<::GlobalNamespace::BladeMovementDataElement, ::Array<::GlobalNamespace::BladeMovementDataElement>*> value);
+  constexpr void __cordl_internal_set__data(::ArrayW<::GlobalNamespace::BladeMovementDataElement, ::Array<::GlobalNamespace::BladeMovementDataElement>*> value);
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberMovementDataProcessor*>*& __get__dataProcessors();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberMovementDataProcessor*>*& __cordl_internal_get__dataProcessors();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberMovementDataProcessor*>*> const& __get__dataProcessors() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberMovementDataProcessor*>*> const& __cordl_internal_get__dataProcessors() const;
 
-  constexpr void __set__dataProcessors(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberMovementDataProcessor*>* value);
+  constexpr void __cordl_internal_set__dataProcessors(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::ISaberMovementDataProcessor*>* value);
 
-  constexpr int32_t& __get__nextAddIndex();
+  constexpr int32_t& __cordl_internal_get__nextAddIndex();
 
-  constexpr int32_t const& __get__nextAddIndex() const;
+  constexpr int32_t const& __cordl_internal_get__nextAddIndex() const;
 
-  constexpr void __set__nextAddIndex(int32_t value);
+  constexpr void __cordl_internal_set__nextAddIndex(int32_t value);
 
-  constexpr int32_t& __get__validCount();
+  constexpr int32_t& __cordl_internal_get__validCount();
 
-  constexpr int32_t const& __get__validCount() const;
+  constexpr int32_t const& __cordl_internal_get__validCount() const;
 
-  constexpr void __set__validCount(int32_t value);
+  constexpr void __cordl_internal_set__validCount(int32_t value);
 
-  constexpr float_t& __get__bladeSpeed();
+  constexpr float_t& __cordl_internal_get__bladeSpeed();
 
-  constexpr float_t const& __get__bladeSpeed() const;
+  constexpr float_t const& __cordl_internal_get__bladeSpeed() const;
 
-  constexpr void __set__bladeSpeed(float_t value);
+  constexpr void __cordl_internal_set__bladeSpeed(float_t value);
 
   /// @brief Method get_bladeSpeed, addr 0x23238c4, size 0x8, virtual true, abstract: false, final true
   inline float_t get_bladeSpeed();

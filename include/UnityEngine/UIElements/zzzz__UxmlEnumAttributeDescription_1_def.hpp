@@ -35,7 +35,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6993))
 // CS Name: ::UxmlEnumAttributeDescription`1::<>c<T>*
 class CORDL_TYPE __UxmlEnumAttributeDescription_1____c : public ::System::Object {
@@ -97,7 +97,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 5215 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 5215 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6994))
 // CS Name: ::UnityEngine.UIElements::UxmlEnumAttributeDescription`1<T>*
 class CORDL_TYPE UxmlEnumAttributeDescription_1 : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<T> {

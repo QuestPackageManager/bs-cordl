@@ -19,23 +19,23 @@ MARK_REF_PTR_T(::System::Net::IPHostEntry);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9071))
 // CS Name: ::System.Net::IPHostEntry*
 class CORDL_TYPE IPHostEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field hostName, offset 0x10, size 0x8
-  __declspec(property(get = __get_hostName, put = __set_hostName))::StringW hostName;
+  __declspec(property(get = __cordl_internal_get_hostName, put = __cordl_internal_set_hostName))::StringW hostName;
 
   /// @brief Field aliases, offset 0x18, size 0x8
-  __declspec(property(get = __get_aliases, put = __set_aliases))::ArrayW<::StringW, ::Array<::StringW>*> aliases;
+  __declspec(property(get = __cordl_internal_get_aliases, put = __cordl_internal_set_aliases))::ArrayW<::StringW, ::Array<::StringW>*> aliases;
 
   /// @brief Field addressList, offset 0x20, size 0x8
-  __declspec(property(get = __get_addressList, put = __set_addressList))::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> addressList;
+  __declspec(property(get = __cordl_internal_get_addressList, put = __cordl_internal_set_addressList))::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> addressList;
 
   /// @brief Field isTrustedHost, offset 0x28, size 0x1
-  __declspec(property(get = __get_isTrustedHost, put = __set_isTrustedHost)) bool isTrustedHost;
+  __declspec(property(get = __cordl_internal_get_isTrustedHost, put = __cordl_internal_set_isTrustedHost)) bool isTrustedHost;
 
   __declspec(property(get = get_HostName, put = set_HostName))::StringW HostName;
 
@@ -43,29 +43,29 @@ public:
 
   __declspec(property(get = get_AddressList, put = set_AddressList))::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> AddressList;
 
-  constexpr ::StringW& __get_hostName();
+  constexpr ::StringW& __cordl_internal_get_hostName();
 
-  constexpr ::StringW const& __get_hostName() const;
+  constexpr ::StringW const& __cordl_internal_get_hostName() const;
 
-  constexpr void __set_hostName(::StringW value);
+  constexpr void __cordl_internal_set_hostName(::StringW value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_aliases();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_aliases();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_aliases() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_aliases() const;
 
-  constexpr void __set_aliases(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_aliases(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*>& __get_addressList();
+  constexpr ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*>& __cordl_internal_get_addressList();
 
-  constexpr ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> const& __get_addressList() const;
+  constexpr ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> const& __cordl_internal_get_addressList() const;
 
-  constexpr void __set_addressList(::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> value);
+  constexpr void __cordl_internal_set_addressList(::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> value);
 
-  constexpr bool& __get_isTrustedHost();
+  constexpr bool& __cordl_internal_get_isTrustedHost();
 
-  constexpr bool const& __get_isTrustedHost() const;
+  constexpr bool const& __cordl_internal_get_isTrustedHost() const;
 
-  constexpr void __set_isTrustedHost(bool value);
+  constexpr void __cordl_internal_set_isTrustedHost(bool value);
 
   /// @brief Method get_HostName, addr 0x299d6e4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_HostName();

@@ -39,7 +39,7 @@ MARK_VAL_T(::System::Runtime::CompilerServices::__YieldAwaitable__YieldAwaiter);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3409))
 // CS Name: ::YieldAwaitable::YieldAwaiter
 #pragma pack(push, 0)
@@ -113,7 +113,7 @@ static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerService
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3410))
 // CS Name: ::System.Runtime.CompilerServices::YieldAwaitable
 #pragma pack(push, 0)

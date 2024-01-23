@@ -36,26 +36,27 @@ MARK_REF_PTR_T(::GlobalNamespace::FileBrowserTableView);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5483))
 // CS Name: ::FileBrowserTableView*
 class CORDL_TYPE FileBrowserTableView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _tableView, offset 0x18, size 0x8
-  __declspec(property(get = __get__tableView, put = __set__tableView))::HMUI::TableView* _tableView;
+  __declspec(property(get = __cordl_internal_get__tableView, put = __cordl_internal_set__tableView))::UnityW<::HMUI::TableView> _tableView;
 
   /// @brief Field _cellPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__cellPrefab, put = __set__cellPrefab))::GlobalNamespace::FileBrowserTableCell* _cellPrefab;
+  __declspec(property(get = __cordl_internal_get__cellPrefab, put = __cordl_internal_set__cellPrefab))::UnityW<::GlobalNamespace::FileBrowserTableCell> _cellPrefab;
 
   /// @brief Field _cellHeight, offset 0x28, size 0x4
-  __declspec(property(get = __get__cellHeight, put = __set__cellHeight)) float_t _cellHeight;
+  __declspec(property(get = __cordl_internal_get__cellHeight, put = __cordl_internal_set__cellHeight)) float_t _cellHeight;
 
   /// @brief Field didSelectRow, offset 0x30, size 0x8
-  __declspec(property(get = __get_didSelectRow, put = __set_didSelectRow))::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>* didSelectRow;
+  __declspec(property(get = __cordl_internal_get_didSelectRow,
+                      put = __cordl_internal_set_didSelectRow))::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* didSelectRow;
 
   /// @brief Field _items, offset 0x38, size 0x8
-  __declspec(property(get = __get__items, put = __set__items))::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> _items;
+  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items))::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> _items;
 
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
@@ -63,41 +64,42 @@ public:
   /// @brief Convert to "::HMUI::__TableView__IDataSource"
   constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
-  constexpr ::HMUI::TableView*& __get__tableView();
+  constexpr ::UnityW<::HMUI::TableView>& __cordl_internal_get__tableView();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::TableView*> const& __get__tableView() const;
+  constexpr ::UnityW<::HMUI::TableView> const& __cordl_internal_get__tableView() const;
 
-  constexpr void __set__tableView(::HMUI::TableView* value);
+  constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
 
-  constexpr ::GlobalNamespace::FileBrowserTableCell*& __get__cellPrefab();
+  constexpr ::UnityW<::GlobalNamespace::FileBrowserTableCell>& __cordl_internal_get__cellPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FileBrowserTableCell*> const& __get__cellPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::FileBrowserTableCell> const& __cordl_internal_get__cellPrefab() const;
 
-  constexpr void __set__cellPrefab(::GlobalNamespace::FileBrowserTableCell* value);
+  constexpr void __cordl_internal_set__cellPrefab(::UnityW<::GlobalNamespace::FileBrowserTableCell> value);
 
-  constexpr float_t& __get__cellHeight();
+  constexpr float_t& __cordl_internal_get__cellHeight();
 
-  constexpr float_t const& __get__cellHeight() const;
+  constexpr float_t const& __cordl_internal_get__cellHeight() const;
 
-  constexpr void __set__cellHeight(float_t value);
+  constexpr void __cordl_internal_set__cellHeight(float_t value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>*& __get_didSelectRow();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>*& __cordl_internal_get_didSelectRow();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>*> const& __get_didSelectRow() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>*> const&
+  __cordl_internal_get_didSelectRow() const;
 
-  constexpr void __set_didSelectRow(::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>* value);
+  constexpr void __cordl_internal_set_didSelectRow(::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* value);
 
-  constexpr ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*>& __get__items();
+  constexpr ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*>& __cordl_internal_get__items();
 
-  constexpr ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> const& __get__items() const;
+  constexpr ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> const& __cordl_internal_get__items() const;
 
-  constexpr void __set__items(::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> value);
+  constexpr void __cordl_internal_set__items(::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> value);
 
   /// @brief Method add_didSelectRow, addr 0x2285518, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectRow(::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>* value);
+  inline void add_didSelectRow(::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* value);
 
   /// @brief Method remove_didSelectRow, addr 0x22855c8, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectRow(::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>* value);
+  inline void remove_didSelectRow(::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* value);
 
   /// @brief Method Init, addr 0x2285678, size 0x108, virtual false, abstract: false, final false
   inline void Init(::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> items);
@@ -115,7 +117,7 @@ public:
   inline int32_t NumberOfCells();
 
   /// @brief Method CellForIdx, addr 0x22858c4, size 0x16c, virtual true, abstract: false, final true
-  inline ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int32_t row);
+  inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
   /// @brief Method HandleDidSelectRowEvent, addr 0x2285a30, size 0x50, virtual false, abstract: false, final false
   inline void HandleDidSelectRowEvent(::HMUI::TableView* tableView, int32_t row);
@@ -146,16 +148,16 @@ protected:
 
 public:
   /// @brief Field _tableView, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::TableView* ____tableView;
+  ::UnityW<::HMUI::TableView> ____tableView;
 
   /// @brief Field _cellPrefab, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::FileBrowserTableCell* ____cellPrefab;
+  ::UnityW<::GlobalNamespace::FileBrowserTableCell> ____cellPrefab;
 
   /// @brief Field _cellHeight, offset: 0x28, size: 0x4, def value: None
   float_t ____cellHeight;
 
   /// @brief Field didSelectRow, offset: 0x30, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::FileBrowserTableView*, ::GlobalNamespace::FileBrowserItem*>* ___didSelectRow;
+  ::System::Action_2<::UnityW<::GlobalNamespace::FileBrowserTableView>, ::GlobalNamespace::FileBrowserItem*>* ___didSelectRow;
 
   /// @brief Field _items, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> ____items;

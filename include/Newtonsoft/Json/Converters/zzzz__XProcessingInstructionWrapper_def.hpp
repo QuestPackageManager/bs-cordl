@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XProcessingInstructionWrapper);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12065))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12065))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12063))
 // CS Name: ::Newtonsoft.Json.Converters::XProcessingInstructionWrapper*
 class CORDL_TYPE XProcessingInstructionWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {

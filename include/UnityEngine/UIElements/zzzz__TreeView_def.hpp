@@ -129,50 +129,51 @@ MARK_VAL_T(::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6737))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6737))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7031))
 // CS Name: ::TreeView::UxmlTraits*
 class CORDL_TYPE __TreeView__UxmlTraits : public ::UnityEngine::UIElements::__VisualElement__UxmlTraits {
 public:
   // Declarations
   /// @brief Field m_ItemHeight, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_ItemHeight, put = __set_m_ItemHeight))::UnityEngine::UIElements::UxmlIntAttributeDescription* m_ItemHeight;
+  __declspec(property(get = __cordl_internal_get_m_ItemHeight, put = __cordl_internal_set_m_ItemHeight))::UnityEngine::UIElements::UxmlIntAttributeDescription* m_ItemHeight;
 
   /// @brief Field m_ShowBorder, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_ShowBorder, put = __set_m_ShowBorder))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowBorder;
+  __declspec(property(get = __cordl_internal_get_m_ShowBorder, put = __cordl_internal_set_m_ShowBorder))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowBorder;
 
   /// @brief Field m_SelectionType, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_SelectionType, put = __set_m_SelectionType))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SelectionType>* m_SelectionType;
+  __declspec(property(get = __cordl_internal_get_m_SelectionType,
+                      put = __cordl_internal_set_m_SelectionType))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SelectionType>* m_SelectionType;
 
   /// @brief Field m_ShowAlternatingRowBackgrounds, offset 0x88, size 0x8
-  __declspec(property(
-      get = __get_m_ShowAlternatingRowBackgrounds,
-      put = __set_m_ShowAlternatingRowBackgrounds))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::AlternatingRowBackground>* m_ShowAlternatingRowBackgrounds;
+  __declspec(property(get = __cordl_internal_get_m_ShowAlternatingRowBackgrounds, put = __cordl_internal_set_m_ShowAlternatingRowBackgrounds))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<
+      ::UnityEngine::UIElements::AlternatingRowBackground>* m_ShowAlternatingRowBackgrounds;
 
-  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __get_m_ItemHeight();
+  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __cordl_internal_get_m_ItemHeight();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const& __get_m_ItemHeight() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const& __cordl_internal_get_m_ItemHeight() const;
 
-  constexpr void __set_m_ItemHeight(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_ItemHeight(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __get_m_ShowBorder();
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_ShowBorder();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __get_m_ShowBorder() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_ShowBorder() const;
 
-  constexpr void __set_m_ShowBorder(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_ShowBorder(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SelectionType>*& __get_m_SelectionType();
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SelectionType>*& __cordl_internal_get_m_SelectionType();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SelectionType>*> const& __get_m_SelectionType() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SelectionType>*> const&
+  __cordl_internal_get_m_SelectionType() const;
 
-  constexpr void __set_m_SelectionType(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SelectionType>* value);
+  constexpr void __cordl_internal_set_m_SelectionType(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SelectionType>* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::AlternatingRowBackground>*& __get_m_ShowAlternatingRowBackgrounds();
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::AlternatingRowBackground>*& __cordl_internal_get_m_ShowAlternatingRowBackgrounds();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::AlternatingRowBackground>*> const&
-  __get_m_ShowAlternatingRowBackgrounds() const;
+  __cordl_internal_get_m_ShowAlternatingRowBackgrounds() const;
 
-  constexpr void __set_m_ShowAlternatingRowBackgrounds(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::AlternatingRowBackground>* value);
+  constexpr void __cordl_internal_set_m_ShowAlternatingRowBackgrounds(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::AlternatingRowBackground>* value);
 
   /// @brief Method Init, addr 0x2e1cef0, size 0x260, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
@@ -226,7 +227,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__TreeView__UxmlTraits, ___m_S
 // SizeInfo { instance_size: 1032, native_size: -1, calculated_instance_size: 1032, calculated_native_size: 1032, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6744))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7034))
 // CS Name: ::UnityEngine.UIElements::TreeView*
 class CORDL_TYPE TreeView : public ::UnityEngine::UIElements::VisualElement {
@@ -241,40 +242,44 @@ public:
   using UxmlFactory = ::UnityEngine::UIElements::__TreeView__UxmlFactory;
 
   /// @brief Field m_MakeItem, offset 0x3b0, size 0x8
-  __declspec(property(get = __get_m_MakeItem, put = __set_m_MakeItem))::System::Func_1<::UnityEngine::UIElements::VisualElement*>* m_MakeItem;
+  __declspec(property(get = __cordl_internal_get_m_MakeItem, put = __cordl_internal_set_m_MakeItem))::System::Func_1<::UnityEngine::UIElements::VisualElement*>* m_MakeItem;
 
   /// @brief Field onItemsChosen, offset 0x3b8, size 0x8
-  __declspec(property(get = __get_onItemsChosen,
-                      put = __set_onItemsChosen))::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* onItemsChosen;
+  __declspec(property(get = __cordl_internal_get_onItemsChosen,
+                      put = __cordl_internal_set_onItemsChosen))::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* onItemsChosen;
 
   /// @brief Field onSelectionChange, offset 0x3c0, size 0x8
-  __declspec(property(get = __get_onSelectionChange,
-                      put = __set_onSelectionChange))::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* onSelectionChange;
+  __declspec(property(get = __cordl_internal_get_onSelectionChange,
+                      put = __cordl_internal_set_onSelectionChange))::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* onSelectionChange;
 
   /// @brief Field m_SelectedItems, offset 0x3c8, size 0x8
-  __declspec(property(get = __get_m_SelectedItems, put = __set_m_SelectedItems))::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>* m_SelectedItems;
+  __declspec(property(get = __cordl_internal_get_m_SelectedItems,
+                      put = __cordl_internal_set_m_SelectedItems))::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>* m_SelectedItems;
 
   /// @brief Field m_BindItem, offset 0x3d0, size 0x8
-  __declspec(property(get = __get_m_BindItem, put = __set_m_BindItem))::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* m_BindItem;
+  __declspec(property(get = __cordl_internal_get_m_BindItem,
+                      put = __cordl_internal_set_m_BindItem))::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* m_BindItem;
 
   /// @brief Field <unbindItem>k__BackingField, offset 0x3d8, size 0x8
-  __declspec(property(get = __get__unbindItem_k__BackingField,
-                      put = __set__unbindItem_k__BackingField))::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* _unbindItem_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__unbindItem_k__BackingField,
+      put = __cordl_internal_set__unbindItem_k__BackingField))::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* _unbindItem_k__BackingField;
 
   /// @brief Field m_RootItems, offset 0x3e0, size 0x8
-  __declspec(property(get = __get_m_RootItems, put = __set_m_RootItems))::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>* m_RootItems;
+  __declspec(property(get = __cordl_internal_get_m_RootItems, put = __cordl_internal_set_m_RootItems))::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>* m_RootItems;
 
   /// @brief Field m_ExpandedItemIds, offset 0x3e8, size 0x8
-  __declspec(property(get = __get_m_ExpandedItemIds, put = __set_m_ExpandedItemIds))::System::Collections::Generic::List_1<int32_t>* m_ExpandedItemIds;
+  __declspec(property(get = __cordl_internal_get_m_ExpandedItemIds, put = __cordl_internal_set_m_ExpandedItemIds))::System::Collections::Generic::List_1<int32_t>* m_ExpandedItemIds;
 
   /// @brief Field m_ItemWrappers, offset 0x3f0, size 0x8
-  __declspec(property(get = __get_m_ItemWrappers, put = __set_m_ItemWrappers))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>* m_ItemWrappers;
+  __declspec(property(get = __cordl_internal_get_m_ItemWrappers,
+                      put = __cordl_internal_set_m_ItemWrappers))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>* m_ItemWrappers;
 
   /// @brief Field m_ListView, offset 0x3f8, size 0x8
-  __declspec(property(get = __get_m_ListView, put = __set_m_ListView))::UnityEngine::UIElements::ListView* m_ListView;
+  __declspec(property(get = __cordl_internal_get_m_ListView, put = __cordl_internal_set_m_ListView))::UnityEngine::UIElements::ListView* m_ListView;
 
   /// @brief Field m_ScrollView, offset 0x400, size 0x8
-  __declspec(property(get = __get_m_ScrollView, put = __set_m_ScrollView))::UnityEngine::UIElements::ScrollView* m_ScrollView;
+  __declspec(property(get = __cordl_internal_get_m_ScrollView, put = __cordl_internal_set_m_ScrollView))::UnityEngine::UIElements::ScrollView* m_ScrollView;
 
   /// @brief Field s_ListViewName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_ListViewName, put = setStaticF_s_ListViewName))::StringW s_ListViewName;
@@ -304,72 +309,75 @@ public:
 
   __declspec(property(put = set_showAlternatingRowBackgrounds))::UnityEngine::UIElements::AlternatingRowBackground showAlternatingRowBackgrounds;
 
-  constexpr ::System::Func_1<::UnityEngine::UIElements::VisualElement*>*& __get_m_MakeItem();
+  constexpr ::System::Func_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_MakeItem();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::UIElements::VisualElement*>*> const& __get_m_MakeItem() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_MakeItem() const;
 
-  constexpr void __set_m_MakeItem(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
+  constexpr void __cordl_internal_set_m_MakeItem(::System::Func_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>*& __get_onItemsChosen();
+  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>*& __cordl_internal_get_onItemsChosen();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>*> const& __get_onItemsChosen() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>*> const&
+  __cordl_internal_get_onItemsChosen() const;
 
-  constexpr void __set_onItemsChosen(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* value);
+  constexpr void __cordl_internal_set_onItemsChosen(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* value);
 
-  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>*& __get_onSelectionChange();
+  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>*& __cordl_internal_get_onSelectionChange();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>*> const& __get_onSelectionChange() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>*> const&
+  __cordl_internal_get_onSelectionChange() const;
 
-  constexpr void __set_onSelectionChange(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* value);
+  constexpr void __cordl_internal_set_onSelectionChange(::System::Action_1<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>*& __get_m_SelectedItems();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>*& __cordl_internal_get_m_SelectedItems();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>*> const& __get_m_SelectedItems() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>*> const& __cordl_internal_get_m_SelectedItems() const;
 
-  constexpr void __set_m_SelectedItems(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>* value);
+  constexpr void __cordl_internal_set_m_SelectedItems(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ITreeViewItem*>* value);
 
-  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>*& __get_m_BindItem();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>*> const& __get_m_BindItem() const;
-
-  constexpr void __set_m_BindItem(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* value);
-
-  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>*& __get__unbindItem_k__BackingField();
+  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>*& __cordl_internal_get_m_BindItem();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>*> const&
-  __get__unbindItem_k__BackingField() const;
+  __cordl_internal_get_m_BindItem() const;
 
-  constexpr void __set__unbindItem_k__BackingField(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* value);
+  constexpr void __cordl_internal_set_m_BindItem(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* value);
 
-  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>*& __get_m_RootItems();
+  constexpr ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>*& __cordl_internal_get__unbindItem_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>*> const& __get_m_RootItems() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>*> const&
+  __cordl_internal_get__unbindItem_k__BackingField() const;
 
-  constexpr void __set_m_RootItems(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>* value);
+  constexpr void __cordl_internal_set__unbindItem_k__BackingField(::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::ITreeViewItem*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get_m_ExpandedItemIds();
+  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>*& __cordl_internal_get_m_RootItems();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get_m_ExpandedItemIds() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>*> const& __cordl_internal_get_m_RootItems() const;
 
-  constexpr void __set_m_ExpandedItemIds(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_RootItems(::System::Collections::Generic::IList_1<::UnityEngine::UIElements::ITreeViewItem*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>*& __get_m_ItemWrappers();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_ExpandedItemIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>*> const& __get_m_ItemWrappers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_ExpandedItemIds() const;
 
-  constexpr void __set_m_ItemWrappers(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>* value);
+  constexpr void __cordl_internal_set_m_ExpandedItemIds(::System::Collections::Generic::List_1<int32_t>* value);
 
-  constexpr ::UnityEngine::UIElements::ListView*& __get_m_ListView();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>*& __cordl_internal_get_m_ItemWrappers();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ListView*> const& __get_m_ListView() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>*> const& __cordl_internal_get_m_ItemWrappers() const;
 
-  constexpr void __set_m_ListView(::UnityEngine::UIElements::ListView* value);
+  constexpr void __cordl_internal_set_m_ItemWrappers(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__TreeView__TreeViewItemWrapper>* value);
 
-  constexpr ::UnityEngine::UIElements::ScrollView*& __get_m_ScrollView();
+  constexpr ::UnityEngine::UIElements::ListView*& __cordl_internal_get_m_ListView();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ScrollView*> const& __get_m_ScrollView() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ListView*> const& __cordl_internal_get_m_ListView() const;
 
-  constexpr void __set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
+  constexpr void __cordl_internal_set_m_ListView(::UnityEngine::UIElements::ListView* value);
+
+  constexpr ::UnityEngine::UIElements::ScrollView*& __cordl_internal_get_m_ScrollView();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ScrollView*> const& __cordl_internal_get_m_ScrollView() const;
+
+  constexpr void __cordl_internal_set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
 
   static inline void setStaticF_s_ListViewName(::StringW value);
 
@@ -559,8 +567,8 @@ static_assert(offsetof(::UnityEngine::UIElements::TreeView, ___m_ScrollView) == 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5282 }), TypeDefinitionIndex(TypeDefinitionIndex(6997)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7034)), TypeDefinitionIndex(TypeDefinitionIndex(7031))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7030)) CS Name: ::TreeView::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7031)), TypeDefinitionIndex(TypeDefinitionIndex(7034)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5282 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7030)) CS Name: ::TreeView::UxmlFactory*
 class CORDL_TYPE __TreeView__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TreeView*, ::UnityEngine::UIElements::__TreeView__UxmlTraits*> {
 public:
   // Declarations
@@ -593,7 +601,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TreeV
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7032))
 // CS Name: ::TreeView::TreeViewItemWrapper
 struct CORDL_TYPE __TreeView__TreeViewItemWrapper {
@@ -635,41 +643,41 @@ static_assert(offsetof(::UnityEngine::UIElements::__TreeView__TreeViewItemWrappe
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7033))
 // CS Name: ::TreeView::<GetAllItems>d__64*
 class CORDL_TYPE __TreeView___GetAllItems_d__64 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::UnityEngine::UIElements::ITreeViewItem* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityEngine::UIElements::ITreeViewItem* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field rootItems, offset 0x28, size 0x8
-  __declspec(property(get = __get_rootItems, put = __set_rootItems))::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* rootItems;
+  __declspec(property(get = __cordl_internal_get_rootItems, put = __cordl_internal_set_rootItems))::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* rootItems;
 
   /// @brief Field <>3__rootItems, offset 0x30, size 0x8
-  __declspec(property(get = __get___3__rootItems, put = __set___3__rootItems))::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* __3__rootItems;
+  __declspec(property(get = __cordl_internal_get___3__rootItems,
+                      put = __cordl_internal_set___3__rootItems))::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* __3__rootItems;
 
   /// @brief Field <iteratorStack>5__1, offset 0x38, size 0x8
-  __declspec(
-      property(get = __get__iteratorStack_5__1,
-               put = __set__iteratorStack_5__1))::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*>* _iteratorStack_5__1;
+  __declspec(property(get = __cordl_internal_get__iteratorStack_5__1, put = __cordl_internal_set__iteratorStack_5__1))::System::Collections::Generic::Stack_1<
+      ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*>* _iteratorStack_5__1;
 
   /// @brief Field <currentIterator>5__2, offset 0x40, size 0x8
-  __declspec(property(get = __get__currentIterator_5__2,
-                      put = __set__currentIterator_5__2))::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>* _currentIterator_5__2;
+  __declspec(property(get = __cordl_internal_get__currentIterator_5__2,
+                      put = __cordl_internal_set__currentIterator_5__2))::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>* _currentIterator_5__2;
 
   /// @brief Field <hasNext>5__3, offset 0x48, size 0x1
-  __declspec(property(get = __get__hasNext_5__3, put = __set__hasNext_5__3)) bool _hasNext_5__3;
+  __declspec(property(get = __cordl_internal_get__hasNext_5__3, put = __cordl_internal_set__hasNext_5__3)) bool _hasNext_5__3;
 
   /// @brief Field <currentItem>5__4, offset 0x50, size 0x8
-  __declspec(property(get = __get__currentItem_5__4, put = __set__currentItem_5__4))::UnityEngine::UIElements::ITreeViewItem* _currentItem_5__4;
+  __declspec(property(get = __cordl_internal_get__currentItem_5__4, put = __cordl_internal_set__currentItem_5__4))::UnityEngine::UIElements::ITreeViewItem* _currentItem_5__4;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_UIElements_ITreeViewItem__get_Current))::UnityEngine::UIElements::
       ITreeViewItem* System_Collections_Generic_IEnumerator_UnityEngine_UIElements_ITreeViewItem__Current;
@@ -708,60 +716,60 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::UnityEngine::UIElements::ITreeViewItem*& __get___2__current();
+  constexpr ::UnityEngine::UIElements::ITreeViewItem*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ITreeViewItem*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ITreeViewItem*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::UnityEngine::UIElements::ITreeViewItem* value);
+  constexpr void __cordl_internal_set___2__current(::UnityEngine::UIElements::ITreeViewItem* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*& __get_rootItems();
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*& __cordl_internal_get_rootItems();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*> const& __get_rootItems() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*> const& __cordl_internal_get_rootItems() const;
 
-  constexpr void __set_rootItems(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* value);
+  constexpr void __cordl_internal_set_rootItems(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*& __get___3__rootItems();
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*& __cordl_internal_get___3__rootItems();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*> const& __get___3__rootItems() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>*> const& __cordl_internal_get___3__rootItems() const;
 
-  constexpr void __set___3__rootItems(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* value);
+  constexpr void __cordl_internal_set___3__rootItems(::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::ITreeViewItem*>* value);
 
-  constexpr ::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*>*& __get__iteratorStack_5__1();
+  constexpr ::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*>*& __cordl_internal_get__iteratorStack_5__1();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*>*> const&
-  __get__iteratorStack_5__1() const;
+  __cordl_internal_get__iteratorStack_5__1() const;
 
-  constexpr void __set__iteratorStack_5__1(::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*>* value);
+  constexpr void __cordl_internal_set__iteratorStack_5__1(::System::Collections::Generic::Stack_1<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*& __get__currentIterator_5__2();
+  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*& __cordl_internal_get__currentIterator_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*> const& __get__currentIterator_5__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>*> const& __cordl_internal_get__currentIterator_5__2() const;
 
-  constexpr void __set__currentIterator_5__2(::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>* value);
+  constexpr void __cordl_internal_set__currentIterator_5__2(::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::ITreeViewItem*>* value);
 
-  constexpr bool& __get__hasNext_5__3();
+  constexpr bool& __cordl_internal_get__hasNext_5__3();
 
-  constexpr bool const& __get__hasNext_5__3() const;
+  constexpr bool const& __cordl_internal_get__hasNext_5__3() const;
 
-  constexpr void __set__hasNext_5__3(bool value);
+  constexpr void __cordl_internal_set__hasNext_5__3(bool value);
 
-  constexpr ::UnityEngine::UIElements::ITreeViewItem*& __get__currentItem_5__4();
+  constexpr ::UnityEngine::UIElements::ITreeViewItem*& __cordl_internal_get__currentItem_5__4();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ITreeViewItem*> const& __get__currentItem_5__4() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ITreeViewItem*> const& __cordl_internal_get__currentItem_5__4() const;
 
-  constexpr void __set__currentItem_5__4(::UnityEngine::UIElements::ITreeViewItem* value);
+  constexpr void __cordl_internal_set__currentItem_5__4(::UnityEngine::UIElements::ITreeViewItem* value);
 
   static inline ::UnityEngine::UIElements::__TreeView___GetAllItems_d__64* New_ctor(int32_t __1__state);
 

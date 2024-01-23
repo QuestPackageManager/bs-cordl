@@ -30,7 +30,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleFloat);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7300))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7300))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7297))
 // CS Name: ::UnityEngine.UIElements::StyleFloat
 struct CORDL_TYPE StyleFloat {

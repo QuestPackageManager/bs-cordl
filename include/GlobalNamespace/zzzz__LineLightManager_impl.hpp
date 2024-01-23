@@ -9,9 +9,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x370;
   constexpr static std::size_t addrs = 0x2114414;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLightManager*>::get(), "Update",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -22,57 +22,57 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x2114784;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLightManager*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& GlobalNamespace::LineLightManager::__get__points() {
+constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& GlobalNamespace::LineLightManager::__cordl_internal_get__points() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____points;
 }
-constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& GlobalNamespace::LineLightManager::__get__points() const {
+constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& GlobalNamespace::LineLightManager::__cordl_internal_get__points() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____points;
 }
-constexpr void GlobalNamespace::LineLightManager::__set__points(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value) {
+constexpr void GlobalNamespace::LineLightManager::__cordl_internal_set__points(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____points)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& GlobalNamespace::LineLightManager::__get__dirs() {
+constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& GlobalNamespace::LineLightManager::__cordl_internal_get__dirs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dirs;
 }
-constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& GlobalNamespace::LineLightManager::__get__dirs() const {
+constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& GlobalNamespace::LineLightManager::__cordl_internal_get__dirs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dirs;
 }
-constexpr void GlobalNamespace::LineLightManager::__set__dirs(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value) {
+constexpr void GlobalNamespace::LineLightManager::__cordl_internal_set__dirs(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dirs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<float_t, ::Array<float_t>*>& GlobalNamespace::LineLightManager::__get__dirLengths() {
+constexpr ::ArrayW<float_t, ::Array<float_t>*>& GlobalNamespace::LineLightManager::__cordl_internal_get__dirLengths() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dirLengths;
 }
-constexpr ::ArrayW<float_t, ::Array<float_t>*> const& GlobalNamespace::LineLightManager::__get__dirLengths() const {
+constexpr ::ArrayW<float_t, ::Array<float_t>*> const& GlobalNamespace::LineLightManager::__cordl_internal_get__dirLengths() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____dirLengths;
 }
-constexpr void GlobalNamespace::LineLightManager::__set__dirLengths(::ArrayW<float_t, ::Array<float_t>*> value) {
+constexpr void GlobalNamespace::LineLightManager::__cordl_internal_set__dirLengths(::ArrayW<float_t, ::Array<float_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____dirLengths)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& GlobalNamespace::LineLightManager::__get__colors() {
+constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& GlobalNamespace::LineLightManager::__cordl_internal_get__colors() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colors;
 }
-constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& GlobalNamespace::LineLightManager::__get__colors() const {
+constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& GlobalNamespace::LineLightManager::__cordl_internal_get__colors() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colors;
 }
-constexpr void GlobalNamespace::LineLightManager::__set__colors(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value) {
+constexpr void GlobalNamespace::LineLightManager::__cordl_internal_set__colors(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -109,15 +109,15 @@ inline int32_t GlobalNamespace::LineLightManager::getStaticF__lineLightColorsID(
 }
 inline void GlobalNamespace::LineLightManager::Update() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLightManager*>::get(), "Update",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::LineLightManager* GlobalNamespace::LineLightManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::LineLightManager*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LineLightManager*>());
 }
 inline void GlobalNamespace::LineLightManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLightManager*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

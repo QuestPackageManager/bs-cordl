@@ -35,29 +35,29 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5904))
 // CS Name: ::AsyncCache`2::<>c__DisplayClass4_0<TKey,TValue>*
 class CORDL_TYPE __AsyncCache_2____c__DisplayClass4_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field toAdd, offset 0x10, size 0x8
-  __declspec(property(get = __get_toAdd, put = __set_toAdd)) TKey toAdd;
+  __declspec(property(get = __cordl_internal_get_toAdd, put = __cordl_internal_set_toAdd)) TKey toAdd;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::AsyncCache_2<TKey, TValue>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::AsyncCache_2<TKey, TValue>* __4__this;
 
-  constexpr TKey& __get_toAdd();
+  constexpr TKey& __cordl_internal_get_toAdd();
 
-  constexpr TKey const& __get_toAdd() const;
+  constexpr TKey const& __cordl_internal_get_toAdd() const;
 
-  constexpr void __set_toAdd(TKey value);
+  constexpr void __cordl_internal_set_toAdd(TKey value);
 
-  constexpr ::GlobalNamespace::AsyncCache_2<TKey, TValue>*& __get___4__this();
+  constexpr ::GlobalNamespace::AsyncCache_2<TKey, TValue>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AsyncCache_2<TKey, TValue>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AsyncCache_2<TKey, TValue>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::AsyncCache_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::AsyncCache_2<TKey, TValue>* value);
 
   static inline ::GlobalNamespace::__AsyncCache_2____c__DisplayClass4_0<TKey, TValue>* New_ctor();
 
@@ -97,7 +97,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5905))
 // CS Name: ::AsyncCache`2<TKey,TValue>*
 class CORDL_TYPE AsyncCache_2 : public ::System::Object {
@@ -106,25 +106,26 @@ public:
   using __c__DisplayClass4_0 = ::GlobalNamespace::__AsyncCache_2____c__DisplayClass4_0<TKey, TValue>;
 
   /// @brief Field _valueFactory, offset 0x10, size 0x8
-  __declspec(property(get = __get__valueFactory, put = __set__valueFactory))::System::Func_2<TKey, ::System::Threading::Tasks::Task_1<TValue>*>* _valueFactory;
+  __declspec(property(get = __cordl_internal_get__valueFactory, put = __cordl_internal_set__valueFactory))::System::Func_2<TKey, ::System::Threading::Tasks::Task_1<TValue>*>* _valueFactory;
 
   /// @brief Field _map, offset 0x18, size 0x8
-  __declspec(property(get = __get__map, put = __set__map))::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, ::System::Lazy_1<::System::Threading::Tasks::Task_1<TValue>*>*>* _map;
+  __declspec(property(get = __cordl_internal_get__map,
+                      put = __cordl_internal_set__map))::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, ::System::Lazy_1<::System::Threading::Tasks::Task_1<TValue>*>*>* _map;
 
   __declspec(property(get = get_Item))::System::Threading::Tasks::Task_1<TValue>* Item[];
 
-  constexpr ::System::Func_2<TKey, ::System::Threading::Tasks::Task_1<TValue>*>*& __get__valueFactory();
+  constexpr ::System::Func_2<TKey, ::System::Threading::Tasks::Task_1<TValue>*>*& __cordl_internal_get__valueFactory();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TKey, ::System::Threading::Tasks::Task_1<TValue>*>*> const& __get__valueFactory() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TKey, ::System::Threading::Tasks::Task_1<TValue>*>*> const& __cordl_internal_get__valueFactory() const;
 
-  constexpr void __set__valueFactory(::System::Func_2<TKey, ::System::Threading::Tasks::Task_1<TValue>*>* value);
+  constexpr void __cordl_internal_set__valueFactory(::System::Func_2<TKey, ::System::Threading::Tasks::Task_1<TValue>*>* value);
 
-  constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, ::System::Lazy_1<::System::Threading::Tasks::Task_1<TValue>*>*>*& __get__map();
+  constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, ::System::Lazy_1<::System::Threading::Tasks::Task_1<TValue>*>*>*& __cordl_internal_get__map();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, ::System::Lazy_1<::System::Threading::Tasks::Task_1<TValue>*>*>*> const&
-  __get__map() const;
+  __cordl_internal_get__map() const;
 
-  constexpr void __set__map(::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, ::System::Lazy_1<::System::Threading::Tasks::Task_1<TValue>*>*>* value);
+  constexpr void __cordl_internal_set__map(::System::Collections::Concurrent::ConcurrentDictionary_2<TKey, ::System::Lazy_1<::System::Threading::Tasks::Task_1<TValue>*>*>* value);
 
   static inline ::GlobalNamespace::AsyncCache_2<TKey, TValue>* New_ctor(::System::Func_2<TKey, ::System::Threading::Tasks::Task_1<TValue>*>* valueFactory);
 

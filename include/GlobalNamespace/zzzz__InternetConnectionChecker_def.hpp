@@ -40,9 +40,9 @@ MARK_VAL_T(::GlobalNamespace::__InternetConnectionChecker___IsConnectedToInterne
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5895)) CS
-// Name: ::InternetConnectionChecker::<IsConnectedToInternetAsync>d__0
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5895)) CS Name:
+// ::InternetConnectionChecker::<IsConnectedToInternetAsync>d__0
 struct CORDL_TYPE __InternetConnectionChecker___IsConnectedToInternetAsync_d__0 {
 public:
   // Declarations
@@ -96,7 +96,7 @@ static_assert(offsetof(::GlobalNamespace::__InternetConnectionChecker___IsConnec
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5896))
 // CS Name: ::InternetConnectionChecker*
 class CORDL_TYPE InternetConnectionChecker : public ::System::Object {

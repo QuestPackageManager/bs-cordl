@@ -24,23 +24,23 @@ MARK_REF_PTR_T(::System::Net::FtpMethodInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9044)), TypeDefinitionIndex(TypeDefinitionIndex(9045))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9044)), TypeDefinitionIndex(TypeDefinitionIndex(9045))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9046))
 // CS Name: ::System.Net::FtpMethodInfo*
 class CORDL_TYPE FtpMethodInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Method, offset 0x10, size 0x8
-  __declspec(property(get = __get_Method, put = __set_Method))::StringW Method;
+  __declspec(property(get = __cordl_internal_get_Method, put = __cordl_internal_set_Method))::StringW Method;
 
   /// @brief Field Operation, offset 0x18, size 0x4
-  __declspec(property(get = __get_Operation, put = __set_Operation))::System::Net::FtpOperation Operation;
+  __declspec(property(get = __cordl_internal_get_Operation, put = __cordl_internal_set_Operation))::System::Net::FtpOperation Operation;
 
   /// @brief Field Flags, offset 0x1c, size 0x4
-  __declspec(property(get = __get_Flags, put = __set_Flags))::System::Net::FtpMethodFlags Flags;
+  __declspec(property(get = __cordl_internal_get_Flags, put = __cordl_internal_set_Flags))::System::Net::FtpMethodFlags Flags;
 
   /// @brief Field HttpCommand, offset 0x20, size 0x8
-  __declspec(property(get = __get_HttpCommand, put = __set_HttpCommand))::StringW HttpCommand;
+  __declspec(property(get = __cordl_internal_get_HttpCommand, put = __cordl_internal_set_HttpCommand))::StringW HttpCommand;
 
   /// @brief Field s_knownMethodInfo, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_knownMethodInfo, put = setStaticF_s_knownMethodInfo))::ArrayW<::System::Net::FtpMethodInfo*, ::Array<::System::Net::FtpMethodInfo*>*> s_knownMethodInfo;
@@ -53,29 +53,29 @@ public:
 
   __declspec(property(get = get_ShouldParseForResponseUri)) bool ShouldParseForResponseUri;
 
-  constexpr ::StringW& __get_Method();
+  constexpr ::StringW& __cordl_internal_get_Method();
 
-  constexpr ::StringW const& __get_Method() const;
+  constexpr ::StringW const& __cordl_internal_get_Method() const;
 
-  constexpr void __set_Method(::StringW value);
+  constexpr void __cordl_internal_set_Method(::StringW value);
 
-  constexpr ::System::Net::FtpOperation& __get_Operation();
+  constexpr ::System::Net::FtpOperation& __cordl_internal_get_Operation();
 
-  constexpr ::System::Net::FtpOperation const& __get_Operation() const;
+  constexpr ::System::Net::FtpOperation const& __cordl_internal_get_Operation() const;
 
-  constexpr void __set_Operation(::System::Net::FtpOperation value);
+  constexpr void __cordl_internal_set_Operation(::System::Net::FtpOperation value);
 
-  constexpr ::System::Net::FtpMethodFlags& __get_Flags();
+  constexpr ::System::Net::FtpMethodFlags& __cordl_internal_get_Flags();
 
-  constexpr ::System::Net::FtpMethodFlags const& __get_Flags() const;
+  constexpr ::System::Net::FtpMethodFlags const& __cordl_internal_get_Flags() const;
 
-  constexpr void __set_Flags(::System::Net::FtpMethodFlags value);
+  constexpr void __cordl_internal_set_Flags(::System::Net::FtpMethodFlags value);
 
-  constexpr ::StringW& __get_HttpCommand();
+  constexpr ::StringW& __cordl_internal_get_HttpCommand();
 
-  constexpr ::StringW const& __get_HttpCommand() const;
+  constexpr ::StringW const& __cordl_internal_get_HttpCommand() const;
 
-  constexpr void __set_HttpCommand(::StringW value);
+  constexpr void __cordl_internal_set_HttpCommand(::StringW value);
 
   static inline void setStaticF_s_knownMethodInfo(::ArrayW<::System::Net::FtpMethodInfo*, ::Array<::System::Net::FtpMethodInfo*>*> value);
 

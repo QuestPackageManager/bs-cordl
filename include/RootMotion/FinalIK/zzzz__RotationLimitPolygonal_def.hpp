@@ -39,23 +39,23 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12625))
 // CS Name: ::RotationLimitPolygonal::ReachCone*
 class CORDL_TYPE __RotationLimitPolygonal__ReachCone : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tetrahedron, offset 0x10, size 0x8
-  __declspec(property(get = __get_tetrahedron, put = __set_tetrahedron))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> tetrahedron;
+  __declspec(property(get = __cordl_internal_get_tetrahedron, put = __cordl_internal_set_tetrahedron))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> tetrahedron;
 
   /// @brief Field volume, offset 0x18, size 0x4
-  __declspec(property(get = __get_volume, put = __set_volume)) float_t volume;
+  __declspec(property(get = __cordl_internal_get_volume, put = __cordl_internal_set_volume)) float_t volume;
 
   /// @brief Field S, offset 0x1c, size 0xc
-  __declspec(property(get = __get_S, put = __set_S))::UnityEngine::Vector3 S;
+  __declspec(property(get = __cordl_internal_get_S, put = __cordl_internal_set_S))::UnityEngine::Vector3 S;
 
   /// @brief Field B, offset 0x28, size 0xc
-  __declspec(property(get = __get_B, put = __set_B))::UnityEngine::Vector3 B;
+  __declspec(property(get = __cordl_internal_get_B, put = __cordl_internal_set_B))::UnityEngine::Vector3 B;
 
   __declspec(property(get = get_o))::UnityEngine::Vector3 o;
 
@@ -67,29 +67,29 @@ public:
 
   __declspec(property(get = get_isValid)) bool isValid;
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get_tetrahedron();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_tetrahedron();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get_tetrahedron() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_tetrahedron() const;
 
-  constexpr void __set_tetrahedron(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set_tetrahedron(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  constexpr float_t& __get_volume();
+  constexpr float_t& __cordl_internal_get_volume();
 
-  constexpr float_t const& __get_volume() const;
+  constexpr float_t const& __cordl_internal_get_volume() const;
 
-  constexpr void __set_volume(float_t value);
+  constexpr void __cordl_internal_set_volume(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get_S();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_S();
 
-  constexpr ::UnityEngine::Vector3 const& __get_S() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_S() const;
 
-  constexpr void __set_S(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_S(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_B();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_B();
 
-  constexpr ::UnityEngine::Vector3 const& __get_B() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_B() const;
 
-  constexpr void __set_B(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_B(::UnityEngine::Vector3 value);
 
   /// @brief Method get_o, addr 0x1292788, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_o();
@@ -158,29 +158,29 @@ static_assert(offsetof(::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCon
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12626))
 // CS Name: ::RotationLimitPolygonal::LimitPoint*
 class CORDL_TYPE __RotationLimitPolygonal__LimitPoint : public ::System::Object {
 public:
   // Declarations
   /// @brief Field point, offset 0x10, size 0xc
-  __declspec(property(get = __get_point, put = __set_point))::UnityEngine::Vector3 point;
+  __declspec(property(get = __cordl_internal_get_point, put = __cordl_internal_set_point))::UnityEngine::Vector3 point;
 
   /// @brief Field tangentWeight, offset 0x1c, size 0x4
-  __declspec(property(get = __get_tangentWeight, put = __set_tangentWeight)) float_t tangentWeight;
+  __declspec(property(get = __cordl_internal_get_tangentWeight, put = __cordl_internal_set_tangentWeight)) float_t tangentWeight;
 
-  constexpr ::UnityEngine::Vector3& __get_point();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_point();
 
-  constexpr ::UnityEngine::Vector3 const& __get_point() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_point() const;
 
-  constexpr void __set_point(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_point(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get_tangentWeight();
+  constexpr float_t& __cordl_internal_get_tangentWeight();
 
-  constexpr float_t const& __get_tangentWeight() const;
+  constexpr float_t const& __cordl_internal_get_tangentWeight() const;
 
-  constexpr void __set_tangentWeight(float_t value);
+  constexpr void __cordl_internal_set_tangentWeight(float_t value);
 
   static inline ::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint* New_ctor();
 
@@ -221,7 +221,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoi
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12622))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12622))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12627))
 // CS Name: ::RootMotion.FinalIK::RotationLimitPolygonal*
 class CORDL_TYPE RotationLimitPolygonal : public ::RootMotion::FinalIK::RotationLimit {
@@ -232,51 +232,53 @@ public:
   using ReachCone = ::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone;
 
   /// @brief Field twistLimit, offset 0x38, size 0x4
-  __declspec(property(get = __get_twistLimit, put = __set_twistLimit)) float_t twistLimit;
+  __declspec(property(get = __cordl_internal_get_twistLimit, put = __cordl_internal_set_twistLimit)) float_t twistLimit;
 
   /// @brief Field smoothIterations, offset 0x3c, size 0x4
-  __declspec(property(get = __get_smoothIterations, put = __set_smoothIterations)) int32_t smoothIterations;
+  __declspec(property(get = __cordl_internal_get_smoothIterations, put = __cordl_internal_set_smoothIterations)) int32_t smoothIterations;
 
   /// @brief Field points, offset 0x40, size 0x8
-  __declspec(property(get = __get_points,
-                      put = __set_points))::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*>*> points;
+  __declspec(
+      property(get = __cordl_internal_get_points,
+               put = __cordl_internal_set_points))::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*>*> points;
 
   /// @brief Field P, offset 0x48, size 0x8
-  __declspec(property(get = __get_P, put = __set_P))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> P;
+  __declspec(property(get = __cordl_internal_get_P, put = __cordl_internal_set_P))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> P;
 
   /// @brief Field reachCones, offset 0x50, size 0x8
-  __declspec(property(get = __get_reachCones,
-                      put = __set_reachCones))::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*>*> reachCones;
+  __declspec(property(
+      get = __cordl_internal_get_reachCones,
+      put = __cordl_internal_set_reachCones))::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*>*> reachCones;
 
-  constexpr float_t& __get_twistLimit();
+  constexpr float_t& __cordl_internal_get_twistLimit();
 
-  constexpr float_t const& __get_twistLimit() const;
+  constexpr float_t const& __cordl_internal_get_twistLimit() const;
 
-  constexpr void __set_twistLimit(float_t value);
+  constexpr void __cordl_internal_set_twistLimit(float_t value);
 
-  constexpr int32_t& __get_smoothIterations();
+  constexpr int32_t& __cordl_internal_get_smoothIterations();
 
-  constexpr int32_t const& __get_smoothIterations() const;
+  constexpr int32_t const& __cordl_internal_get_smoothIterations() const;
 
-  constexpr void __set_smoothIterations(int32_t value);
+  constexpr void __cordl_internal_set_smoothIterations(int32_t value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*>*>& __get_points();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*>*>& __cordl_internal_get_points();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*>*> const& __get_points() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*>*> const& __cordl_internal_get_points() const;
 
-  constexpr void __set_points(::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*>*> value);
+  constexpr void __cordl_internal_set_points(::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__LimitPoint*>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get_P();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_P();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get_P() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_P() const;
 
-  constexpr void __set_P(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set_P(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*>*>& __get_reachCones();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*>*>& __cordl_internal_get_reachCones();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*>*> const& __get_reachCones() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*>*> const& __cordl_internal_get_reachCones() const;
 
-  constexpr void __set_reachCones(::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*>*> value);
+  constexpr void __cordl_internal_set_reachCones(::ArrayW<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*, ::Array<::RootMotion::FinalIK::__RotationLimitPolygonal__ReachCone*>*> value);
 
   /// @brief Method OpenUserManual, addr 0x128fe80, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();

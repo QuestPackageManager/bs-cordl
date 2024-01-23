@@ -17,10 +17,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x2388cb8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidFinishEvent", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidFinishEvent", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
@@ -32,10 +32,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x2388d54;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidFinishEvent",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidFinishEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
@@ -47,10 +47,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x2388df0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidPassMissedMarkerEvent",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidPassMissedMarkerEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
@@ -62,40 +62,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x2388e8c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidPassMissedMarkerEvent",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidPassMissedMarkerEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::NoteJump.add_noteJumpDidPassThreeQuartersEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJump::*)(::System::Action_1<::GlobalNamespace::NoteJump*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJump::*)(::System::Action_1<::UnityW<::GlobalNamespace::NoteJump>>*)>(
     &::GlobalNamespace::NoteJump::add_noteJumpDidPassThreeQuartersEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x2388f28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidPassThreeQuartersEvent", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::NoteJump*>*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidPassThreeQuartersEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::NoteJump>>*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::NoteJump.remove_noteJumpDidPassThreeQuartersEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJump::*)(::System::Action_1<::GlobalNamespace::NoteJump*>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJump::*)(::System::Action_1<::UnityW<::GlobalNamespace::NoteJump>>*)>(
     &::GlobalNamespace::NoteJump::remove_noteJumpDidPassThreeQuartersEvent)> {
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x2388fd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidPassThreeQuartersEvent", std::vector<Il2CppClass*>{},
-                                   ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::NoteJump*>*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidPassThreeQuartersEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::NoteJump>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -107,10 +107,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x2389088;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidPassHalfEvent",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidPassHalfEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
@@ -122,10 +122,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x2389124;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidPassHalfEvent",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidPassHalfEvent",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
 };
@@ -137,10 +137,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x23891c0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidUpdateProgressEvent", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidUpdateProgressEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -152,10 +152,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x2389270;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidUpdateProgressEvent", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidUpdateProgressEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -166,9 +166,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x2389320;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "get_distanceToPlayer",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -179,9 +179,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x2389368;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "get_beatPos",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -192,9 +192,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2389398;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "get_jumpDuration",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -205,9 +205,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x23893a0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "get_moveVec",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -218,9 +218,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x23893ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "get_localPosition",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -232,15 +232,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x394;
   constexpr static std::size_t addrs = 0x23893b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "Init", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 10>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -251,9 +251,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x640;
   constexpr static std::size_t addrs = 0x238974c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "ManualUpdate",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -264,505 +264,506 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1b8;
   constexpr static std::size_t addrs = 0x2389d8c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Transform*& GlobalNamespace::NoteJump::__get__rotatedObject() {
+constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::NoteJump::__cordl_internal_get__rotatedObject() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotatedObject;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& GlobalNamespace::NoteJump::__get__rotatedObject() const {
+constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::NoteJump::__cordl_internal_get__rotatedObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotatedObject;
 }
-constexpr void GlobalNamespace::NoteJump::__set__rotatedObject(::UnityEngine::Transform* value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__rotatedObject(::UnityW<::UnityEngine::Transform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rotatedObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::NoteJump::__get__yAvoidanceUp() {
+constexpr float_t& GlobalNamespace::NoteJump::__cordl_internal_get__yAvoidanceUp() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yAvoidanceUp;
 }
-constexpr float_t const& GlobalNamespace::NoteJump::__get__yAvoidanceUp() const {
+constexpr float_t const& GlobalNamespace::NoteJump::__cordl_internal_get__yAvoidanceUp() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yAvoidanceUp;
 }
-constexpr void GlobalNamespace::NoteJump::__set__yAvoidanceUp(float_t value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__yAvoidanceUp(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yAvoidanceUp = value;
 }
-constexpr float_t& GlobalNamespace::NoteJump::__get__yAvoidanceDown() {
+constexpr float_t& GlobalNamespace::NoteJump::__cordl_internal_get__yAvoidanceDown() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yAvoidanceDown;
 }
-constexpr float_t const& GlobalNamespace::NoteJump::__get__yAvoidanceDown() const {
+constexpr float_t const& GlobalNamespace::NoteJump::__cordl_internal_get__yAvoidanceDown() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yAvoidanceDown;
 }
-constexpr void GlobalNamespace::NoteJump::__set__yAvoidanceDown(float_t value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__yAvoidanceDown(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yAvoidanceDown = value;
 }
-constexpr float_t& GlobalNamespace::NoteJump::__get__endDistanceOffset() {
+constexpr float_t& GlobalNamespace::NoteJump::__cordl_internal_get__endDistanceOffset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endDistanceOffset;
 }
-constexpr float_t const& GlobalNamespace::NoteJump::__get__endDistanceOffset() const {
+constexpr float_t const& GlobalNamespace::NoteJump::__cordl_internal_get__endDistanceOffset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endDistanceOffset;
 }
-constexpr void GlobalNamespace::NoteJump::__set__endDistanceOffset(float_t value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__endDistanceOffset(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endDistanceOffset = value;
 }
-constexpr ::GlobalNamespace::PlayerTransforms*& GlobalNamespace::NoteJump::__get__playerTransforms() {
+constexpr ::UnityW<::GlobalNamespace::PlayerTransforms>& GlobalNamespace::NoteJump::__cordl_internal_get__playerTransforms() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerTransforms;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerTransforms*> const& GlobalNamespace::NoteJump::__get__playerTransforms() const {
+constexpr ::UnityW<::GlobalNamespace::PlayerTransforms> const& GlobalNamespace::NoteJump::__cordl_internal_get__playerTransforms() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerTransforms;
 }
-constexpr void GlobalNamespace::NoteJump::__set__playerTransforms(::GlobalNamespace::PlayerTransforms* value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerTransforms)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PlayerSpaceConvertor*& GlobalNamespace::NoteJump::__get__playerSpaceConvertor() {
+constexpr ::UnityW<::GlobalNamespace::PlayerSpaceConvertor>& GlobalNamespace::NoteJump::__cordl_internal_get__playerSpaceConvertor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSpaceConvertor;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpaceConvertor*> const& GlobalNamespace::NoteJump::__get__playerSpaceConvertor() const {
+constexpr ::UnityW<::GlobalNamespace::PlayerSpaceConvertor> const& GlobalNamespace::NoteJump::__cordl_internal_get__playerSpaceConvertor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSpaceConvertor;
 }
-constexpr void GlobalNamespace::NoteJump::__set__playerSpaceConvertor(::GlobalNamespace::PlayerSpaceConvertor* value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__playerSpaceConvertor(::UnityW<::GlobalNamespace::PlayerSpaceConvertor> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerSpaceConvertor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::NoteJump::__get__audioTimeSyncController() {
+constexpr ::GlobalNamespace::IAudioTimeSource*& GlobalNamespace::NoteJump::__cordl_internal_get__audioTimeSyncController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSyncController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& GlobalNamespace::NoteJump::__get__audioTimeSyncController() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& GlobalNamespace::NoteJump::__cordl_internal_get__audioTimeSyncController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSyncController;
 }
-constexpr void GlobalNamespace::NoteJump::__set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource* value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSyncController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& GlobalNamespace::NoteJump::__get_noteJumpDidFinishEvent() {
+constexpr ::System::Action*& GlobalNamespace::NoteJump::__cordl_internal_get_noteJumpDidFinishEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidFinishEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::NoteJump::__get_noteJumpDidFinishEvent() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::NoteJump::__cordl_internal_get_noteJumpDidFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidFinishEvent;
 }
-constexpr void GlobalNamespace::NoteJump::__set_noteJumpDidFinishEvent(::System::Action* value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set_noteJumpDidFinishEvent(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___noteJumpDidFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& GlobalNamespace::NoteJump::__get_noteJumpDidPassMissedMarkerEvent() {
+constexpr ::System::Action*& GlobalNamespace::NoteJump::__cordl_internal_get_noteJumpDidPassMissedMarkerEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidPassMissedMarkerEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::NoteJump::__get_noteJumpDidPassMissedMarkerEvent() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::NoteJump::__cordl_internal_get_noteJumpDidPassMissedMarkerEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidPassMissedMarkerEvent;
 }
-constexpr void GlobalNamespace::NoteJump::__set_noteJumpDidPassMissedMarkerEvent(::System::Action* value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set_noteJumpDidPassMissedMarkerEvent(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___noteJumpDidPassMissedMarkerEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::NoteJump*>*& GlobalNamespace::NoteJump::__get_noteJumpDidPassThreeQuartersEvent() {
+constexpr ::System::Action_1<::UnityW<::GlobalNamespace::NoteJump>>*& GlobalNamespace::NoteJump::__cordl_internal_get_noteJumpDidPassThreeQuartersEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidPassThreeQuartersEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::NoteJump*>*> const& GlobalNamespace::NoteJump::__get_noteJumpDidPassThreeQuartersEvent() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::NoteJump>>*> const&
+GlobalNamespace::NoteJump::__cordl_internal_get_noteJumpDidPassThreeQuartersEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidPassThreeQuartersEvent;
 }
-constexpr void GlobalNamespace::NoteJump::__set_noteJumpDidPassThreeQuartersEvent(::System::Action_1<::GlobalNamespace::NoteJump*>* value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set_noteJumpDidPassThreeQuartersEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteJump>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___noteJumpDidPassThreeQuartersEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action*& GlobalNamespace::NoteJump::__get_noteJumpDidPassHalfEvent() {
+constexpr ::System::Action*& GlobalNamespace::NoteJump::__cordl_internal_get_noteJumpDidPassHalfEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidPassHalfEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::NoteJump::__get_noteJumpDidPassHalfEvent() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& GlobalNamespace::NoteJump::__cordl_internal_get_noteJumpDidPassHalfEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidPassHalfEvent;
 }
-constexpr void GlobalNamespace::NoteJump::__set_noteJumpDidPassHalfEvent(::System::Action* value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set_noteJumpDidPassHalfEvent(::System::Action* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___noteJumpDidPassHalfEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<float_t>*& GlobalNamespace::NoteJump::__get_noteJumpDidUpdateProgressEvent() {
+constexpr ::System::Action_1<float_t>*& GlobalNamespace::NoteJump::__cordl_internal_get_noteJumpDidUpdateProgressEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidUpdateProgressEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& GlobalNamespace::NoteJump::__get_noteJumpDidUpdateProgressEvent() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& GlobalNamespace::NoteJump::__cordl_internal_get_noteJumpDidUpdateProgressEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___noteJumpDidUpdateProgressEvent;
 }
-constexpr void GlobalNamespace::NoteJump::__set_noteJumpDidUpdateProgressEvent(::System::Action_1<float_t>* value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set_noteJumpDidUpdateProgressEvent(::System::Action_1<float_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___noteJumpDidUpdateProgressEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::NoteJump::__get__startPos() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::NoteJump::__cordl_internal_get__startPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startPos;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::NoteJump::__get__startPos() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::NoteJump::__cordl_internal_get__startPos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startPos;
 }
-constexpr void GlobalNamespace::NoteJump::__set__startPos(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__startPos(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startPos = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::NoteJump::__get__endPos() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::NoteJump::__cordl_internal_get__endPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endPos;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::NoteJump::__get__endPos() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::NoteJump::__cordl_internal_get__endPos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endPos;
 }
-constexpr void GlobalNamespace::NoteJump::__set__endPos(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__endPos(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endPos = value;
 }
-constexpr float_t& GlobalNamespace::NoteJump::__get__jumpDuration() {
+constexpr float_t& GlobalNamespace::NoteJump::__cordl_internal_get__jumpDuration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpDuration;
 }
-constexpr float_t const& GlobalNamespace::NoteJump::__get__jumpDuration() const {
+constexpr float_t const& GlobalNamespace::NoteJump::__cordl_internal_get__jumpDuration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____jumpDuration;
 }
-constexpr void GlobalNamespace::NoteJump::__set__jumpDuration(float_t value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__jumpDuration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____jumpDuration = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::NoteJump::__get__moveVec() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::NoteJump::__cordl_internal_get__moveVec() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveVec;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::NoteJump::__get__moveVec() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::NoteJump::__cordl_internal_get__moveVec() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____moveVec;
 }
-constexpr void GlobalNamespace::NoteJump::__set__moveVec(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__moveVec(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____moveVec = value;
 }
-constexpr float_t& GlobalNamespace::NoteJump::__get__beatTime() {
+constexpr float_t& GlobalNamespace::NoteJump::__cordl_internal_get__beatTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatTime;
 }
-constexpr float_t const& GlobalNamespace::NoteJump::__get__beatTime() const {
+constexpr float_t const& GlobalNamespace::NoteJump::__cordl_internal_get__beatTime() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatTime;
 }
-constexpr void GlobalNamespace::NoteJump::__set__beatTime(float_t value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__beatTime(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatTime = value;
 }
-constexpr float_t& GlobalNamespace::NoteJump::__get__startVerticalVelocity() {
+constexpr float_t& GlobalNamespace::NoteJump::__cordl_internal_get__startVerticalVelocity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startVerticalVelocity;
 }
-constexpr float_t const& GlobalNamespace::NoteJump::__get__startVerticalVelocity() const {
+constexpr float_t const& GlobalNamespace::NoteJump::__cordl_internal_get__startVerticalVelocity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startVerticalVelocity;
 }
-constexpr void GlobalNamespace::NoteJump::__set__startVerticalVelocity(float_t value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__startVerticalVelocity(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startVerticalVelocity = value;
 }
-constexpr ::UnityEngine::Quaternion& GlobalNamespace::NoteJump::__get__startRotation() {
+constexpr ::UnityEngine::Quaternion& GlobalNamespace::NoteJump::__cordl_internal_get__startRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startRotation;
 }
-constexpr ::UnityEngine::Quaternion const& GlobalNamespace::NoteJump::__get__startRotation() const {
+constexpr ::UnityEngine::Quaternion const& GlobalNamespace::NoteJump::__cordl_internal_get__startRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startRotation;
 }
-constexpr void GlobalNamespace::NoteJump::__set__startRotation(::UnityEngine::Quaternion value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__startRotation(::UnityEngine::Quaternion value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startRotation = value;
 }
-constexpr ::UnityEngine::Quaternion& GlobalNamespace::NoteJump::__get__middleRotation() {
+constexpr ::UnityEngine::Quaternion& GlobalNamespace::NoteJump::__cordl_internal_get__middleRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____middleRotation;
 }
-constexpr ::UnityEngine::Quaternion const& GlobalNamespace::NoteJump::__get__middleRotation() const {
+constexpr ::UnityEngine::Quaternion const& GlobalNamespace::NoteJump::__cordl_internal_get__middleRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____middleRotation;
 }
-constexpr void GlobalNamespace::NoteJump::__set__middleRotation(::UnityEngine::Quaternion value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__middleRotation(::UnityEngine::Quaternion value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____middleRotation = value;
 }
-constexpr ::UnityEngine::Quaternion& GlobalNamespace::NoteJump::__get__endRotation() {
+constexpr ::UnityEngine::Quaternion& GlobalNamespace::NoteJump::__cordl_internal_get__endRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endRotation;
 }
-constexpr ::UnityEngine::Quaternion const& GlobalNamespace::NoteJump::__get__endRotation() const {
+constexpr ::UnityEngine::Quaternion const& GlobalNamespace::NoteJump::__cordl_internal_get__endRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____endRotation;
 }
-constexpr void GlobalNamespace::NoteJump::__set__endRotation(::UnityEngine::Quaternion value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__endRotation(::UnityEngine::Quaternion value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____endRotation = value;
 }
-constexpr float_t& GlobalNamespace::NoteJump::__get__gravity() {
+constexpr float_t& GlobalNamespace::NoteJump::__cordl_internal_get__gravity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gravity;
 }
-constexpr float_t const& GlobalNamespace::NoteJump::__get__gravity() const {
+constexpr float_t const& GlobalNamespace::NoteJump::__cordl_internal_get__gravity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gravity;
 }
-constexpr void GlobalNamespace::NoteJump::__set__gravity(float_t value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__gravity(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____gravity = value;
 }
-constexpr float_t& GlobalNamespace::NoteJump::__get__yAvoidance() {
+constexpr float_t& GlobalNamespace::NoteJump::__cordl_internal_get__yAvoidance() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yAvoidance;
 }
-constexpr float_t const& GlobalNamespace::NoteJump::__get__yAvoidance() const {
+constexpr float_t const& GlobalNamespace::NoteJump::__cordl_internal_get__yAvoidance() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yAvoidance;
 }
-constexpr void GlobalNamespace::NoteJump::__set__yAvoidance(float_t value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__yAvoidance(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yAvoidance = value;
 }
-constexpr float_t& GlobalNamespace::NoteJump::__get__missedTime() {
+constexpr float_t& GlobalNamespace::NoteJump::__cordl_internal_get__missedTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missedTime;
 }
-constexpr float_t const& GlobalNamespace::NoteJump::__get__missedTime() const {
+constexpr float_t const& GlobalNamespace::NoteJump::__cordl_internal_get__missedTime() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missedTime;
 }
-constexpr void GlobalNamespace::NoteJump::__set__missedTime(float_t value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__missedTime(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____missedTime = value;
 }
-constexpr bool& GlobalNamespace::NoteJump::__get__missedMarkReported() {
+constexpr bool& GlobalNamespace::NoteJump::__cordl_internal_get__missedMarkReported() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missedMarkReported;
 }
-constexpr bool const& GlobalNamespace::NoteJump::__get__missedMarkReported() const {
+constexpr bool const& GlobalNamespace::NoteJump::__cordl_internal_get__missedMarkReported() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missedMarkReported;
 }
-constexpr void GlobalNamespace::NoteJump::__set__missedMarkReported(bool value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__missedMarkReported(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____missedMarkReported = value;
 }
-constexpr bool& GlobalNamespace::NoteJump::__get__threeQuartersMarkReported() {
+constexpr bool& GlobalNamespace::NoteJump::__cordl_internal_get__threeQuartersMarkReported() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____threeQuartersMarkReported;
 }
-constexpr bool const& GlobalNamespace::NoteJump::__get__threeQuartersMarkReported() const {
+constexpr bool const& GlobalNamespace::NoteJump::__cordl_internal_get__threeQuartersMarkReported() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____threeQuartersMarkReported;
 }
-constexpr void GlobalNamespace::NoteJump::__set__threeQuartersMarkReported(bool value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__threeQuartersMarkReported(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____threeQuartersMarkReported = value;
 }
-constexpr bool& GlobalNamespace::NoteJump::__get__halfJumpMarkReported() {
+constexpr bool& GlobalNamespace::NoteJump::__cordl_internal_get__halfJumpMarkReported() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____halfJumpMarkReported;
 }
-constexpr bool const& GlobalNamespace::NoteJump::__get__halfJumpMarkReported() const {
+constexpr bool const& GlobalNamespace::NoteJump::__cordl_internal_get__halfJumpMarkReported() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____halfJumpMarkReported;
 }
-constexpr void GlobalNamespace::NoteJump::__set__halfJumpMarkReported(bool value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__halfJumpMarkReported(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____halfJumpMarkReported = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::NoteJump::__get__localPosition() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::NoteJump::__cordl_internal_get__localPosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPosition;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::NoteJump::__get__localPosition() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::NoteJump::__cordl_internal_get__localPosition() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localPosition;
 }
-constexpr void GlobalNamespace::NoteJump::__set__localPosition(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__localPosition(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localPosition = value;
 }
-constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& GlobalNamespace::NoteJump::__get__randomRotations() {
+constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& GlobalNamespace::NoteJump::__cordl_internal_get__randomRotations() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomRotations;
 }
-constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& GlobalNamespace::NoteJump::__get__randomRotations() const {
+constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& GlobalNamespace::NoteJump::__cordl_internal_get__randomRotations() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____randomRotations;
 }
-constexpr void GlobalNamespace::NoteJump::__set__randomRotations(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__randomRotations(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____randomRotations)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Quaternion& GlobalNamespace::NoteJump::__get__worldRotation() {
+constexpr ::UnityEngine::Quaternion& GlobalNamespace::NoteJump::__cordl_internal_get__worldRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____worldRotation;
 }
-constexpr ::UnityEngine::Quaternion const& GlobalNamespace::NoteJump::__get__worldRotation() const {
+constexpr ::UnityEngine::Quaternion const& GlobalNamespace::NoteJump::__cordl_internal_get__worldRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____worldRotation;
 }
-constexpr void GlobalNamespace::NoteJump::__set__worldRotation(::UnityEngine::Quaternion value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__worldRotation(::UnityEngine::Quaternion value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____worldRotation = value;
 }
-constexpr ::UnityEngine::Quaternion& GlobalNamespace::NoteJump::__get__inverseWorldRotation() {
+constexpr ::UnityEngine::Quaternion& GlobalNamespace::NoteJump::__cordl_internal_get__inverseWorldRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inverseWorldRotation;
 }
-constexpr ::UnityEngine::Quaternion const& GlobalNamespace::NoteJump::__get__inverseWorldRotation() const {
+constexpr ::UnityEngine::Quaternion const& GlobalNamespace::NoteJump::__cordl_internal_get__inverseWorldRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inverseWorldRotation;
 }
-constexpr void GlobalNamespace::NoteJump::__set__inverseWorldRotation(::UnityEngine::Quaternion value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__inverseWorldRotation(::UnityEngine::Quaternion value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____inverseWorldRotation = value;
 }
-constexpr bool& GlobalNamespace::NoteJump::__get__rotateTowardsPlayer() {
+constexpr bool& GlobalNamespace::NoteJump::__cordl_internal_get__rotateTowardsPlayer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotateTowardsPlayer;
 }
-constexpr bool const& GlobalNamespace::NoteJump::__get__rotateTowardsPlayer() const {
+constexpr bool const& GlobalNamespace::NoteJump::__cordl_internal_get__rotateTowardsPlayer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotateTowardsPlayer;
 }
-constexpr void GlobalNamespace::NoteJump::__set__rotateTowardsPlayer(bool value) {
+constexpr void GlobalNamespace::NoteJump::__cordl_internal_set__rotateTowardsPlayer(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotateTowardsPlayer = value;
 }
 inline void GlobalNamespace::NoteJump::add_noteJumpDidFinishEvent(::System::Action* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidFinishEvent", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidFinishEvent", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::NoteJump::remove_noteJumpDidFinishEvent(::System::Action* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidFinishEvent",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidFinishEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::NoteJump::add_noteJumpDidPassMissedMarkerEvent(::System::Action* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidPassMissedMarkerEvent",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidPassMissedMarkerEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::NoteJump::remove_noteJumpDidPassMissedMarkerEvent(::System::Action* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidPassMissedMarkerEvent",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidPassMissedMarkerEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::NoteJump::add_noteJumpDidPassThreeQuartersEvent(::System::Action_1<::GlobalNamespace::NoteJump*>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidPassThreeQuartersEvent", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::NoteJump*>*>::get() })));
+inline void GlobalNamespace::NoteJump::add_noteJumpDidPassThreeQuartersEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteJump>>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidPassThreeQuartersEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::NoteJump>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::NoteJump::remove_noteJumpDidPassThreeQuartersEvent(::System::Action_1<::GlobalNamespace::NoteJump*>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidPassThreeQuartersEvent", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::NoteJump*>*>::get() })));
+inline void GlobalNamespace::NoteJump::remove_noteJumpDidPassThreeQuartersEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteJump>>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidPassThreeQuartersEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::NoteJump>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::NoteJump::add_noteJumpDidPassHalfEvent(::System::Action* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidPassHalfEvent", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidPassHalfEvent", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::NoteJump::remove_noteJumpDidPassHalfEvent(::System::Action* value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidPassHalfEvent",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidPassHalfEvent",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::NoteJump::add_noteJumpDidUpdateProgressEvent(::System::Action_1<float_t>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidUpdateProgressEvent", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "add_noteJumpDidUpdateProgressEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::NoteJump::remove_noteJumpDidUpdateProgressEvent(::System::Action_1<float_t>* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidUpdateProgressEvent", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "remove_noteJumpDidUpdateProgressEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<float_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline float_t GlobalNamespace::NoteJump::get_distanceToPlayer() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "get_distanceToPlayer",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Vector3 GlobalNamespace::NoteJump::get_beatPos() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "get_beatPos",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
 inline float_t GlobalNamespace::NoteJump::get_jumpDuration() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "get_jumpDuration",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Vector3 GlobalNamespace::NoteJump::get_moveVec() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "get_moveVec",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Vector3 GlobalNamespace::NoteJump::get_localPosition() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "get_localPosition",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::NoteJump::Init(float_t beatTime, float_t worldRotation, ::UnityEngine::Vector3 startPos, ::UnityEngine::Vector3 endPos, float_t jumpDuration, float_t gravity,
                                             float_t flipYSide, float_t endRotation, bool rotateTowardsPlayer, bool useRandomRotation) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "Init", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 10>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatTime, worldRotation, startPos, endPos, jumpDuration, gravity, flipYSide, endRotation, rotateTowardsPlayer,
                                                           useRandomRotation);
 }
 inline ::UnityEngine::Vector3 GlobalNamespace::NoteJump::ManualUpdate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), "ManualUpdate",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::NoteJump* GlobalNamespace::NoteJump::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::NoteJump*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteJump*>());
 }
 inline void GlobalNamespace::NoteJump::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJump*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

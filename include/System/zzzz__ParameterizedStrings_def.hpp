@@ -36,7 +36,7 @@ MARK_VAL_T(::System::__ParameterizedStrings__FormatParam);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2620))
 // CS Name: ::ParameterizedStrings::FormatParam
 struct CORDL_TYPE __ParameterizedStrings__FormatParam {
@@ -96,29 +96,30 @@ static_assert(offsetof(::System::__ParameterizedStrings__FormatParam, _string) =
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2621))
 // CS Name: ::ParameterizedStrings::LowLevelStack*
 class CORDL_TYPE __ParameterizedStrings__LowLevelStack : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _arr, offset 0x10, size 0x8
-  __declspec(property(get = __get__arr, put = __set__arr))::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*> _arr;
+  __declspec(property(get = __cordl_internal_get__arr,
+                      put = __cordl_internal_set__arr))::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*> _arr;
 
   /// @brief Field _count, offset 0x18, size 0x4
-  __declspec(property(get = __get__count, put = __set__count)) int32_t _count;
+  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
 
-  constexpr ::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*>& __get__arr();
+  constexpr ::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*>& __cordl_internal_get__arr();
 
-  constexpr ::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*> const& __get__arr() const;
+  constexpr ::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*> const& __cordl_internal_get__arr() const;
 
-  constexpr void __set__arr(::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*> value);
+  constexpr void __cordl_internal_set__arr(::ArrayW<::System::__ParameterizedStrings__FormatParam, ::Array<::System::__ParameterizedStrings__FormatParam>*> value);
 
-  constexpr int32_t& __get__count();
+  constexpr int32_t& __cordl_internal_get__count();
 
-  constexpr int32_t const& __get__count() const;
+  constexpr int32_t const& __cordl_internal_get__count() const;
 
-  constexpr void __set__count(int32_t value);
+  constexpr void __cordl_internal_set__count(int32_t value);
 
   static inline ::System::__ParameterizedStrings__LowLevelStack* New_ctor();
 
@@ -168,7 +169,7 @@ static_assert(offsetof(::System::__ParameterizedStrings__LowLevelStack, ____coun
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2622))
 // CS Name: ::System::ParameterizedStrings*
 class CORDL_TYPE ParameterizedStrings : public ::System::Object {

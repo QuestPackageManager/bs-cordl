@@ -19,7 +19,7 @@ MARK_VAL_T(::TMPro::CaretInfo);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12454))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12454))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12455))
 // CS Name: ::TMPro::CaretInfo
 struct CORDL_TYPE CaretInfo {

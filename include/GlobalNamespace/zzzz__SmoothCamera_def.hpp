@@ -25,74 +25,74 @@ MARK_REF_PTR_T(::GlobalNamespace::SmoothCamera);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5330))
 // CS Name: ::SmoothCamera*
 class CORDL_TYPE SmoothCamera : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _camera, offset 0x18, size 0x8
-  __declspec(property(get = __get__camera, put = __set__camera))::UnityEngine::Camera* _camera;
+  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera))::UnityW<::UnityEngine::Camera> _camera;
 
   /// @brief Field _mainCamera, offset 0x20, size 0x8
-  __declspec(property(get = __get__mainCamera, put = __set__mainCamera))::GlobalNamespace::MainCamera* _mainCamera;
+  __declspec(property(get = __cordl_internal_get__mainCamera, put = __cordl_internal_set__mainCamera))::UnityW<::GlobalNamespace::MainCamera> _mainCamera;
 
   /// @brief Field _thirdPersonPosition, offset 0x28, size 0xc
-  __declspec(property(get = __get__thirdPersonPosition, put = __set__thirdPersonPosition))::UnityEngine::Vector3 _thirdPersonPosition;
+  __declspec(property(get = __cordl_internal_get__thirdPersonPosition, put = __cordl_internal_set__thirdPersonPosition))::UnityEngine::Vector3 _thirdPersonPosition;
 
   /// @brief Field _thirdPersonEulerAngles, offset 0x34, size 0xc
-  __declspec(property(get = __get__thirdPersonEulerAngles, put = __set__thirdPersonEulerAngles))::UnityEngine::Vector3 _thirdPersonEulerAngles;
+  __declspec(property(get = __cordl_internal_get__thirdPersonEulerAngles, put = __cordl_internal_set__thirdPersonEulerAngles))::UnityEngine::Vector3 _thirdPersonEulerAngles;
 
   /// @brief Field _thirdPersonEnabled, offset 0x40, size 0x1
-  __declspec(property(get = __get__thirdPersonEnabled, put = __set__thirdPersonEnabled)) bool _thirdPersonEnabled;
+  __declspec(property(get = __cordl_internal_get__thirdPersonEnabled, put = __cordl_internal_set__thirdPersonEnabled)) bool _thirdPersonEnabled;
 
   /// @brief Field _rotationSmooth, offset 0x44, size 0x4
-  __declspec(property(get = __get__rotationSmooth, put = __set__rotationSmooth)) float_t _rotationSmooth;
+  __declspec(property(get = __cordl_internal_get__rotationSmooth, put = __cordl_internal_set__rotationSmooth)) float_t _rotationSmooth;
 
   /// @brief Field _positionSmooth, offset 0x48, size 0x4
-  __declspec(property(get = __get__positionSmooth, put = __set__positionSmooth)) float_t _positionSmooth;
+  __declspec(property(get = __cordl_internal_get__positionSmooth, put = __cordl_internal_set__positionSmooth)) float_t _positionSmooth;
 
-  constexpr ::UnityEngine::Camera*& __get__camera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get__camera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
 
-  constexpr void __set__camera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr ::GlobalNamespace::MainCamera*& __get__mainCamera();
+  constexpr ::UnityW<::GlobalNamespace::MainCamera>& __cordl_internal_get__mainCamera();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainCamera*> const& __get__mainCamera() const;
+  constexpr ::UnityW<::GlobalNamespace::MainCamera> const& __cordl_internal_get__mainCamera() const;
 
-  constexpr void __set__mainCamera(::GlobalNamespace::MainCamera* value);
+  constexpr void __cordl_internal_set__mainCamera(::UnityW<::GlobalNamespace::MainCamera> value);
 
-  constexpr ::UnityEngine::Vector3& __get__thirdPersonPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__thirdPersonPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get__thirdPersonPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__thirdPersonPosition() const;
 
-  constexpr void __set__thirdPersonPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__thirdPersonPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__thirdPersonEulerAngles();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__thirdPersonEulerAngles();
 
-  constexpr ::UnityEngine::Vector3 const& __get__thirdPersonEulerAngles() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__thirdPersonEulerAngles() const;
 
-  constexpr void __set__thirdPersonEulerAngles(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__thirdPersonEulerAngles(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get__thirdPersonEnabled();
+  constexpr bool& __cordl_internal_get__thirdPersonEnabled();
 
-  constexpr bool const& __get__thirdPersonEnabled() const;
+  constexpr bool const& __cordl_internal_get__thirdPersonEnabled() const;
 
-  constexpr void __set__thirdPersonEnabled(bool value);
+  constexpr void __cordl_internal_set__thirdPersonEnabled(bool value);
 
-  constexpr float_t& __get__rotationSmooth();
+  constexpr float_t& __cordl_internal_get__rotationSmooth();
 
-  constexpr float_t const& __get__rotationSmooth() const;
+  constexpr float_t const& __cordl_internal_get__rotationSmooth() const;
 
-  constexpr void __set__rotationSmooth(float_t value);
+  constexpr void __cordl_internal_set__rotationSmooth(float_t value);
 
-  constexpr float_t& __get__positionSmooth();
+  constexpr float_t& __cordl_internal_get__positionSmooth();
 
-  constexpr float_t const& __get__positionSmooth() const;
+  constexpr float_t const& __cordl_internal_get__positionSmooth() const;
 
-  constexpr void __set__positionSmooth(float_t value);
+  constexpr void __cordl_internal_set__positionSmooth(float_t value);
 
   /// @brief Method Init, addr 0x2268100, size 0x1a8, virtual false, abstract: false, final false
   inline void Init(float_t fieldOfView, float_t positionSmooth, float_t rotationSmooth, bool thirdPersonEnabled, ::UnityEngine::Vector3 thirdPersonPosition,
@@ -127,10 +127,10 @@ protected:
 
 public:
   /// @brief Field _camera, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Camera* ____camera;
+  ::UnityW<::UnityEngine::Camera> ____camera;
 
   /// @brief Field _mainCamera, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MainCamera* ____mainCamera;
+  ::UnityW<::GlobalNamespace::MainCamera> ____mainCamera;
 
   /// @brief Field _thirdPersonPosition, offset: 0x28, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____thirdPersonPosition;

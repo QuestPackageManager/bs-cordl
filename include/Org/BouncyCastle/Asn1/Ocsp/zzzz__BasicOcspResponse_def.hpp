@@ -37,23 +37,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(206))
 // CS Name: ::Org.BouncyCastle.Asn1.Ocsp::BasicOcspResponse*
 class CORDL_TYPE BasicOcspResponse : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field tbsResponseData, offset 0x10, size 0x8
-  __declspec(property(get = __get_tbsResponseData, put = __set_tbsResponseData))::Org::BouncyCastle::Asn1::Ocsp::ResponseData* tbsResponseData;
+  __declspec(property(get = __cordl_internal_get_tbsResponseData, put = __cordl_internal_set_tbsResponseData))::Org::BouncyCastle::Asn1::Ocsp::ResponseData* tbsResponseData;
 
   /// @brief Field signatureAlgorithm, offset 0x18, size 0x8
-  __declspec(property(get = __get_signatureAlgorithm, put = __set_signatureAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm;
+  __declspec(property(get = __cordl_internal_get_signatureAlgorithm, put = __cordl_internal_set_signatureAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* signatureAlgorithm;
 
   /// @brief Field signature, offset 0x20, size 0x8
-  __declspec(property(get = __get_signature, put = __set_signature))::Org::BouncyCastle::Asn1::DerBitString* signature;
+  __declspec(property(get = __cordl_internal_get_signature, put = __cordl_internal_set_signature))::Org::BouncyCastle::Asn1::DerBitString* signature;
 
   /// @brief Field certs, offset 0x28, size 0x8
-  __declspec(property(get = __get_certs, put = __set_certs))::Org::BouncyCastle::Asn1::Asn1Sequence* certs;
+  __declspec(property(get = __cordl_internal_get_certs, put = __cordl_internal_set_certs))::Org::BouncyCastle::Asn1::Asn1Sequence* certs;
 
   __declspec(property(get = get_TbsResponseData))::Org::BouncyCastle::Asn1::Ocsp::ResponseData* TbsResponseData;
 
@@ -63,29 +63,29 @@ public:
 
   __declspec(property(get = get_Certs))::Org::BouncyCastle::Asn1::Asn1Sequence* Certs;
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponseData*& __get_tbsResponseData();
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponseData*& __cordl_internal_get_tbsResponseData();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::ResponseData*> const& __get_tbsResponseData() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::ResponseData*> const& __cordl_internal_get_tbsResponseData() const;
 
-  constexpr void __set_tbsResponseData(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* value);
+  constexpr void __cordl_internal_set_tbsResponseData(::Org::BouncyCastle::Asn1::Ocsp::ResponseData* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_signatureAlgorithm();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_signatureAlgorithm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_signatureAlgorithm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_signatureAlgorithm() const;
 
-  constexpr void __set_signatureAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_signatureAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __get_signature();
+  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __cordl_internal_get_signature();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __get_signature() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __cordl_internal_get_signature() const;
 
-  constexpr void __set_signature(::Org::BouncyCastle::Asn1::DerBitString* value);
+  constexpr void __cordl_internal_set_signature(::Org::BouncyCastle::Asn1::DerBitString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_certs();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_certs();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_certs() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_certs() const;
 
-  constexpr void __set_certs(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_certs(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   /// @brief Method GetInstance, addr 0xf7f3ac, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::BasicOcspResponse* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);

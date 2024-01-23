@@ -34,20 +34,20 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::BinaryConverter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11830))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11830))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12029))
 // CS Name: ::Newtonsoft.Json.Converters::BinaryConverter*
 class CORDL_TYPE BinaryConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
   // Declarations
   /// @brief Field _reflectionObject, offset 0x10, size 0x8
-  __declspec(property(get = __get__reflectionObject, put = __set__reflectionObject))::Newtonsoft::Json::Utilities::ReflectionObject* _reflectionObject;
+  __declspec(property(get = __cordl_internal_get__reflectionObject, put = __cordl_internal_set__reflectionObject))::Newtonsoft::Json::Utilities::ReflectionObject* _reflectionObject;
 
-  constexpr ::Newtonsoft::Json::Utilities::ReflectionObject*& __get__reflectionObject();
+  constexpr ::Newtonsoft::Json::Utilities::ReflectionObject*& __cordl_internal_get__reflectionObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::ReflectionObject*> const& __get__reflectionObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::ReflectionObject*> const& __cordl_internal_get__reflectionObject() const;
 
-  constexpr void __set__reflectionObject(::Newtonsoft::Json::Utilities::ReflectionObject* value);
+  constexpr void __cordl_internal_set__reflectionObject(::Newtonsoft::Json::Utilities::ReflectionObject* value);
 
   /// @brief Method WriteJson, addr 0x26b2dfc, size 0x54, virtual true, abstract: false, final false
   inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);

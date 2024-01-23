@@ -25,23 +25,23 @@ MARK_REF_PTR_T(::GlobalNamespace::BasicMockPlayerScoreCalculator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15506))
 // CS Name: ::BasicMockPlayerScoreCalculator*
 class CORDL_TYPE BasicMockPlayerScoreCalculator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _hitFrequency, offset 0x10, size 0x4
-  __declspec(property(get = __get__hitFrequency, put = __set__hitFrequency)) float_t _hitFrequency;
+  __declspec(property(get = __cordl_internal_get__hitFrequency, put = __cordl_internal_set__hitFrequency)) float_t _hitFrequency;
 
   /// @brief Field _minScore, offset 0x14, size 0x4
-  __declspec(property(get = __get__minScore, put = __set__minScore)) int32_t _minScore;
+  __declspec(property(get = __cordl_internal_get__minScore, put = __cordl_internal_set__minScore)) int32_t _minScore;
 
   /// @brief Field _maxScore, offset 0x18, size 0x4
-  __declspec(property(get = __get__maxScore, put = __set__maxScore)) int32_t _maxScore;
+  __declspec(property(get = __cordl_internal_get__maxScore, put = __cordl_internal_set__maxScore)) int32_t _maxScore;
 
   /// @brief Field _random, offset 0x20, size 0x8
-  __declspec(property(get = __get__random, put = __set__random))::System::Random* _random;
+  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random))::System::Random* _random;
 
   /// @brief Convert operator to "::GlobalNamespace::IMockPlayerScoreCalculator"
   constexpr operator ::GlobalNamespace::IMockPlayerScoreCalculator*() noexcept;
@@ -49,29 +49,29 @@ public:
   /// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"
   constexpr ::GlobalNamespace::IMockPlayerScoreCalculator* i___GlobalNamespace__IMockPlayerScoreCalculator() noexcept;
 
-  constexpr float_t& __get__hitFrequency();
+  constexpr float_t& __cordl_internal_get__hitFrequency();
 
-  constexpr float_t const& __get__hitFrequency() const;
+  constexpr float_t const& __cordl_internal_get__hitFrequency() const;
 
-  constexpr void __set__hitFrequency(float_t value);
+  constexpr void __cordl_internal_set__hitFrequency(float_t value);
 
-  constexpr int32_t& __get__minScore();
+  constexpr int32_t& __cordl_internal_get__minScore();
 
-  constexpr int32_t const& __get__minScore() const;
+  constexpr int32_t const& __cordl_internal_get__minScore() const;
 
-  constexpr void __set__minScore(int32_t value);
+  constexpr void __cordl_internal_set__minScore(int32_t value);
 
-  constexpr int32_t& __get__maxScore();
+  constexpr int32_t& __cordl_internal_get__maxScore();
 
-  constexpr int32_t const& __get__maxScore() const;
+  constexpr int32_t const& __cordl_internal_get__maxScore() const;
 
-  constexpr void __set__maxScore(int32_t value);
+  constexpr void __cordl_internal_set__maxScore(int32_t value);
 
-  constexpr ::System::Random*& __get__random();
+  constexpr ::System::Random*& __cordl_internal_get__random();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& __get__random() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& __cordl_internal_get__random() const;
 
-  constexpr void __set__random(::System::Random* value);
+  constexpr void __cordl_internal_set__random(::System::Random* value);
 
   static inline ::GlobalNamespace::BasicMockPlayerScoreCalculator* New_ctor(float_t hitFrequency, int32_t minScore, int32_t maxScore);
 

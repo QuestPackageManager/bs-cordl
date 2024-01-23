@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Lifetime::LeaseSink);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3095))
 // CS Name: ::System.Runtime.Remoting.Lifetime::LeaseSink*
 class CORDL_TYPE LeaseSink : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _nextSink, offset 0x10, size 0x8
-  __declspec(property(get = __get__nextSink, put = __set__nextSink))::System::Runtime::Remoting::Messaging::IMessageSink* _nextSink;
+  __declspec(property(get = __cordl_internal_get__nextSink, put = __cordl_internal_set__nextSink))::System::Runtime::Remoting::Messaging::IMessageSink* _nextSink;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
@@ -38,11 +38,11 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __get__nextSink();
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get__nextSink();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __get__nextSink() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __cordl_internal_get__nextSink() const;
 
-  constexpr void __set__nextSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
+  constexpr void __cordl_internal_set__nextSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
   static inline ::System::Runtime::Remoting::Lifetime::LeaseSink* New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* nextSink);
 

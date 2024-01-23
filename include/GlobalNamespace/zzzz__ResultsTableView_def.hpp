@@ -34,23 +34,24 @@ MARK_REF_PTR_T(::GlobalNamespace::ResultsTableView);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5807))
 // CS Name: ::ResultsTableView*
 class CORDL_TYPE ResultsTableView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _tableView, offset 0x18, size 0x8
-  __declspec(property(get = __get__tableView, put = __set__tableView))::HMUI::TableView* _tableView;
+  __declspec(property(get = __cordl_internal_get__tableView, put = __cordl_internal_set__tableView))::UnityW<::HMUI::TableView> _tableView;
 
   /// @brief Field _cellPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__cellPrefab, put = __set__cellPrefab))::GlobalNamespace::ResultsTableCell* _cellPrefab;
+  __declspec(property(get = __cordl_internal_get__cellPrefab, put = __cordl_internal_set__cellPrefab))::UnityW<::GlobalNamespace::ResultsTableCell> _cellPrefab;
 
   /// @brief Field _rowHeight, offset 0x28, size 0x4
-  __declspec(property(get = __get__rowHeight, put = __set__rowHeight)) float_t _rowHeight;
+  __declspec(property(get = __cordl_internal_get__rowHeight, put = __cordl_internal_set__rowHeight)) float_t _rowHeight;
 
   /// @brief Field _dataList, offset 0x30, size 0x8
-  __declspec(property(get = __get__dataList, put = __set__dataList))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* _dataList;
+  __declspec(property(get = __cordl_internal_get__dataList,
+                      put = __cordl_internal_set__dataList))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* _dataList;
 
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
@@ -58,29 +59,29 @@ public:
   /// @brief Convert to "::HMUI::__TableView__IDataSource"
   constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
-  constexpr ::HMUI::TableView*& __get__tableView();
+  constexpr ::UnityW<::HMUI::TableView>& __cordl_internal_get__tableView();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::TableView*> const& __get__tableView() const;
+  constexpr ::UnityW<::HMUI::TableView> const& __cordl_internal_get__tableView() const;
 
-  constexpr void __set__tableView(::HMUI::TableView* value);
+  constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
 
-  constexpr ::GlobalNamespace::ResultsTableCell*& __get__cellPrefab();
+  constexpr ::UnityW<::GlobalNamespace::ResultsTableCell>& __cordl_internal_get__cellPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ResultsTableCell*> const& __get__cellPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::ResultsTableCell> const& __cordl_internal_get__cellPrefab() const;
 
-  constexpr void __set__cellPrefab(::GlobalNamespace::ResultsTableCell* value);
+  constexpr void __cordl_internal_set__cellPrefab(::UnityW<::GlobalNamespace::ResultsTableCell> value);
 
-  constexpr float_t& __get__rowHeight();
+  constexpr float_t& __cordl_internal_get__rowHeight();
 
-  constexpr float_t const& __get__rowHeight() const;
+  constexpr float_t const& __cordl_internal_get__rowHeight() const;
 
-  constexpr void __set__rowHeight(float_t value);
+  constexpr void __cordl_internal_set__rowHeight(float_t value);
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*& __get__dataList();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*& __cordl_internal_get__dataList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*> const& __get__dataList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*> const& __cordl_internal_get__dataList() const;
 
-  constexpr void __set__dataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* value);
+  constexpr void __cordl_internal_set__dataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* value);
 
   /// @brief Method CellSize, addr 0x22e84dc, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize();
@@ -89,7 +90,7 @@ public:
   inline int32_t NumberOfCells();
 
   /// @brief Method CellForIdx, addr 0x22e8584, size 0x1d0, virtual true, abstract: false, final true
-  inline ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int32_t idx);
+  inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
   /// @brief Method SetData, addr 0x22e8754, size 0x2c, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
@@ -114,10 +115,10 @@ protected:
 
 public:
   /// @brief Field _tableView, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::TableView* ____tableView;
+  ::UnityW<::HMUI::TableView> ____tableView;
 
   /// @brief Field _cellPrefab, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::ResultsTableCell* ____cellPrefab;
+  ::UnityW<::GlobalNamespace::ResultsTableCell> ____cellPrefab;
 
   /// @brief Field _rowHeight, offset: 0x28, size: 0x4, def value: None
   float_t ____rowHeight;

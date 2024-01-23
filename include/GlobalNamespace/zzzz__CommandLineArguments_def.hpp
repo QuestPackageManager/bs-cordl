@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::GlobalNamespace::CommandLineArguments);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15823))
 // CS Name: ::CommandLineArguments*
 class CORDL_TYPE CommandLineArguments : public ::System::Object {

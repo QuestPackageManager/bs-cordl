@@ -15,7 +15,7 @@ MARK_VAL_T(::Newtonsoft::Json::MissingMemberHandling);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11837))
 // CS Name: ::Newtonsoft.Json::MissingMemberHandling
 struct CORDL_TYPE MissingMemberHandling {

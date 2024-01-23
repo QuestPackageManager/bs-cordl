@@ -33,7 +33,7 @@ MARK_VAL_T(::GlobalNamespace::__MultiplierValuesRecorder__MultiplierValue);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5270))
 // CS Name: ::MultiplierValuesRecorder::MultiplierValue
 struct CORDL_TYPE __MultiplierValuesRecorder__MultiplierValue {
@@ -72,7 +72,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplierValuesRecorder__Multiplier
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5271))
 // CS Name: ::MultiplierValuesRecorder*
 class CORDL_TYPE MultiplierValuesRecorder : public ::UnityEngine::MonoBehaviour {
@@ -81,34 +81,36 @@ public:
   using MultiplierValue = ::GlobalNamespace::__MultiplierValuesRecorder__MultiplierValue;
 
   /// @brief Field _scoreController, offset 0x18, size 0x8
-  __declspec(property(get = __get__scoreController, put = __set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
+  __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
 
   /// @brief Field _audioTimeSyncController, offset 0x20, size 0x8
-  __declspec(property(get = __get__audioTimeSyncController, put = __set__audioTimeSyncController))::GlobalNamespace::AudioTimeSyncController* _audioTimeSyncController;
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
+                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
   /// @brief Field _multiplierValues, offset 0x28, size 0x8
-  __declspec(property(get = __get__multiplierValues,
-                      put = __set__multiplierValues))::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplierValuesRecorder__MultiplierValue>* _multiplierValues;
+  __declspec(property(get = __cordl_internal_get__multiplierValues,
+                      put = __cordl_internal_set__multiplierValues))::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplierValuesRecorder__MultiplierValue>* _multiplierValues;
 
   __declspec(property(get = get_multiplierValues))::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplierValuesRecorder__MultiplierValue>* multiplierValues;
 
-  constexpr ::GlobalNamespace::IScoreController*& __get__scoreController();
+  constexpr ::GlobalNamespace::IScoreController*& __cordl_internal_get__scoreController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __get__scoreController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __cordl_internal_get__scoreController() const;
 
-  constexpr void __set__scoreController(::GlobalNamespace::IScoreController* value);
+  constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  constexpr ::GlobalNamespace::AudioTimeSyncController*& __get__audioTimeSyncController();
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& __get__audioTimeSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value);
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplierValuesRecorder__MultiplierValue>*& __get__multiplierValues();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplierValuesRecorder__MultiplierValue>*& __cordl_internal_get__multiplierValues();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplierValuesRecorder__MultiplierValue>*> const& __get__multiplierValues() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplierValuesRecorder__MultiplierValue>*> const&
+  __cordl_internal_get__multiplierValues() const;
 
-  constexpr void __set__multiplierValues(::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplierValuesRecorder__MultiplierValue>* value);
+  constexpr void __cordl_internal_set__multiplierValues(::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplierValuesRecorder__MultiplierValue>* value);
 
   /// @brief Method get_multiplierValues, addr 0x225fd88, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplierValuesRecorder__MultiplierValue>* get_multiplierValues();
@@ -145,7 +147,7 @@ public:
   ::GlobalNamespace::IScoreController* ____scoreController;
 
   /// @brief Field _audioTimeSyncController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::AudioTimeSyncController* ____audioTimeSyncController;
+  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
   /// @brief Field _multiplierValues, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__MultiplierValuesRecorder__MultiplierValue>* ____multiplierValues;

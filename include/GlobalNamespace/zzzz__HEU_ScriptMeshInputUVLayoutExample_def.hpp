@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::HEU_ScriptMeshInputUVLayoutExample);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9590))
 // CS Name: ::HEU_ScriptMeshInputUVLayoutExample::OutputMode
 struct CORDL_TYPE __HEU_ScriptMeshInputUVLayoutExample__OutputMode {
@@ -78,7 +78,7 @@ static_assert(offsetof(::GlobalNamespace::__HEU_ScriptMeshInputUVLayoutExample__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9591))
 // CS Name: ::HEU_ScriptMeshInputUVLayoutExample*
 class CORDL_TYPE HEU_ScriptMeshInputUVLayoutExample : public ::System::Object {

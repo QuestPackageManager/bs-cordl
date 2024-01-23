@@ -17,40 +17,40 @@ MARK_REF_PTR_T(::HMUI::ButtonSpriteSwapToggle);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13620))
 // CS Name: ::HMUI::ButtonSpriteSwapToggle*
 class CORDL_TYPE ButtonSpriteSwapToggle : public ::HMUI::ButtonSpriteSwap {
 public:
   // Declarations
   /// @brief Field _resetToggleOnEnable, offset 0x49, size 0x1
-  __declspec(property(get = __get__resetToggleOnEnable, put = __set__resetToggleOnEnable)) bool _resetToggleOnEnable;
+  __declspec(property(get = __cordl_internal_get__resetToggleOnEnable, put = __cordl_internal_set__resetToggleOnEnable)) bool _resetToggleOnEnable;
 
   /// @brief Field _ignoreHighlight, offset 0x4a, size 0x1
-  __declspec(property(get = __get__ignoreHighlight, put = __set__ignoreHighlight)) bool _ignoreHighlight;
+  __declspec(property(get = __cordl_internal_get__ignoreHighlight, put = __cordl_internal_set__ignoreHighlight)) bool _ignoreHighlight;
 
   /// @brief Field _isToggled, offset 0x4b, size 0x1
-  __declspec(property(get = __get__isToggled, put = __set__isToggled)) bool _isToggled;
+  __declspec(property(get = __cordl_internal_get__isToggled, put = __cordl_internal_set__isToggled)) bool _isToggled;
 
   __declspec(property(get = get_isToggled, put = set_isToggled)) bool isToggled;
 
-  constexpr bool& __get__resetToggleOnEnable();
+  constexpr bool& __cordl_internal_get__resetToggleOnEnable();
 
-  constexpr bool const& __get__resetToggleOnEnable() const;
+  constexpr bool const& __cordl_internal_get__resetToggleOnEnable() const;
 
-  constexpr void __set__resetToggleOnEnable(bool value);
+  constexpr void __cordl_internal_set__resetToggleOnEnable(bool value);
 
-  constexpr bool& __get__ignoreHighlight();
+  constexpr bool& __cordl_internal_get__ignoreHighlight();
 
-  constexpr bool const& __get__ignoreHighlight() const;
+  constexpr bool const& __cordl_internal_get__ignoreHighlight() const;
 
-  constexpr void __set__ignoreHighlight(bool value);
+  constexpr void __cordl_internal_set__ignoreHighlight(bool value);
 
-  constexpr bool& __get__isToggled();
+  constexpr bool& __cordl_internal_get__isToggled();
 
-  constexpr bool const& __get__isToggled() const;
+  constexpr bool const& __cordl_internal_get__isToggled() const;
 
-  constexpr void __set__isToggled(bool value);
+  constexpr void __cordl_internal_set__isToggled(bool value);
 
   /// @brief Method get_isToggled, addr 0x2130674, size 0x8, virtual false, abstract: false, final false
   inline bool get_isToggled();

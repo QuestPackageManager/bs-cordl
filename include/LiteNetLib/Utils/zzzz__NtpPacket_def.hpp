@@ -33,17 +33,17 @@ MARK_REF_PTR_T(::LiteNetLib::Utils::NtpPacket);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib::Utils {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2701 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14237)) CS Name: ::LiteNetLib.Utils::NtpPacket*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2701 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14237)) CS Name: ::LiteNetLib.Utils::NtpPacket*
 class CORDL_TYPE NtpPacket : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Bytes>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Bytes_k__BackingField, put = __set__Bytes_k__BackingField))::ArrayW<uint8_t, ::Array<uint8_t>*> _Bytes_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Bytes_k__BackingField, put = __cordl_internal_set__Bytes_k__BackingField))::ArrayW<uint8_t, ::Array<uint8_t>*> _Bytes_k__BackingField;
 
   /// @brief Field <DestinationTimestamp>k__BackingField, offset 0x18, size 0x10
-  __declspec(property(get = __get__DestinationTimestamp_k__BackingField,
-                      put = __set__DestinationTimestamp_k__BackingField))::System::Nullable_1<::System::DateTime> _DestinationTimestamp_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__DestinationTimestamp_k__BackingField,
+                      put = __cordl_internal_set__DestinationTimestamp_k__BackingField))::System::Nullable_1<::System::DateTime> _DestinationTimestamp_k__BackingField;
 
   /// @brief Field Epoch, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Epoch, put = setStaticF_Epoch))::System::DateTime Epoch;
@@ -82,17 +82,17 @@ public:
 
   __declspec(property(get = get_CorrectionOffset))::System::TimeSpan CorrectionOffset;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__Bytes_k__BackingField();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__Bytes_k__BackingField();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__Bytes_k__BackingField() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__Bytes_k__BackingField() const;
 
-  constexpr void __set__Bytes_k__BackingField(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__Bytes_k__BackingField(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Nullable_1<::System::DateTime>& __get__DestinationTimestamp_k__BackingField();
+  constexpr ::System::Nullable_1<::System::DateTime>& __cordl_internal_get__DestinationTimestamp_k__BackingField();
 
-  constexpr ::System::Nullable_1<::System::DateTime> const& __get__DestinationTimestamp_k__BackingField() const;
+  constexpr ::System::Nullable_1<::System::DateTime> const& __cordl_internal_get__DestinationTimestamp_k__BackingField() const;
 
-  constexpr void __set__DestinationTimestamp_k__BackingField(::System::Nullable_1<::System::DateTime> value);
+  constexpr void __cordl_internal_set__DestinationTimestamp_k__BackingField(::System::Nullable_1<::System::DateTime> value);
 
   static inline void setStaticF_Epoch(::System::DateTime value);
 

@@ -42,40 +42,43 @@ MARK_REF_PTR_T(::GlobalNamespace::SceneStartHandler);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12955))
 // CS Name: ::SceneStartHandler*
 class CORDL_TYPE SceneStartHandler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _gameplayRpcManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__gameplayRpcManager, put = __set__gameplayRpcManager))::GlobalNamespace::IGameplayRpcManager* _gameplayRpcManager;
+  __declspec(property(get = __cordl_internal_get__gameplayRpcManager, put = __cordl_internal_set__gameplayRpcManager))::GlobalNamespace::IGameplayRpcManager* _gameplayRpcManager;
 
   /// @brief Field _playersAtGameStartModel, offset 0x20, size 0x8
-  __declspec(property(get = __get__playersAtGameStartModel, put = __set__playersAtGameStartModel))::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _playersAtGameStartModel;
+  __declspec(property(get = __cordl_internal_get__playersAtGameStartModel,
+                      put = __cordl_internal_set__playersAtGameStartModel))::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* _playersAtGameStartModel;
 
   /// @brief Field _readyPlayers, offset 0x28, size 0x8
-  __declspec(property(get = __get__readyPlayers, put = __set__readyPlayers))::System::Collections::Generic::HashSet_1<::StringW>* _readyPlayers;
+  __declspec(property(get = __cordl_internal_get__readyPlayers, put = __cordl_internal_set__readyPlayers))::System::Collections::Generic::HashSet_1<::StringW>* _readyPlayers;
 
   /// @brief Field _playersSpecificSettings, offset 0x30, size 0x8
-  __declspec(
-      property(get = __get__playersSpecificSettings,
-               put = __set__playersSpecificSettings))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* _playersSpecificSettings;
+  __declspec(property(
+      get = __cordl_internal_get__playersSpecificSettings,
+      put = __cordl_internal_set__playersSpecificSettings))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* _playersSpecificSettings;
 
   /// @brief Field _started, offset 0x38, size 0x1
-  __declspec(property(get = __get__started, put = __set__started)) bool _started;
+  __declspec(property(get = __cordl_internal_get__started, put = __cordl_internal_set__started)) bool _started;
 
   /// @brief Field _sessionGameId, offset 0x40, size 0x8
-  __declspec(property(get = __get__sessionGameId, put = __set__sessionGameId))::StringW _sessionGameId;
+  __declspec(property(get = __cordl_internal_get__sessionGameId, put = __cordl_internal_set__sessionGameId))::StringW _sessionGameId;
 
   /// @brief Field sceneSetupDidFinishEvent, offset 0x48, size 0x8
-  __declspec(property(get = __get_sceneSetupDidFinishEvent, put = __set_sceneSetupDidFinishEvent))::System::Action_1<::StringW>* sceneSetupDidFinishEvent;
+  __declspec(property(get = __cordl_internal_get_sceneSetupDidFinishEvent, put = __cordl_internal_set_sceneSetupDidFinishEvent))::System::Action_1<::StringW>* sceneSetupDidFinishEvent;
 
   /// @brief Field sceneSetupDidReceiveTooLateEvent, offset 0x50, size 0x8
-  __declspec(property(get = __get_sceneSetupDidReceiveTooLateEvent, put = __set_sceneSetupDidReceiveTooLateEvent))::System::Action_1<::StringW>* sceneSetupDidReceiveTooLateEvent;
+  __declspec(property(get = __cordl_internal_get_sceneSetupDidReceiveTooLateEvent,
+                      put = __cordl_internal_set_sceneSetupDidReceiveTooLateEvent))::System::Action_1<::StringW>* sceneSetupDidReceiveTooLateEvent;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -83,60 +86,60 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr ::GlobalNamespace::IGameplayRpcManager*& __get__gameplayRpcManager();
+  constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__gameplayRpcManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __get__gameplayRpcManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGameplayRpcManager*> const& __cordl_internal_get__gameplayRpcManager() const;
 
-  constexpr void __set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
+  constexpr void __cordl_internal_set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
 
-  constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& __get__playersAtGameStartModel();
+  constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*& __cordl_internal_get__playersAtGameStartModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*> const& __get__playersAtGameStartModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*> const& __cordl_internal_get__playersAtGameStartModel() const;
 
-  constexpr void __set__playersAtGameStartModel(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
+  constexpr void __cordl_internal_set__playersAtGameStartModel(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __get__readyPlayers();
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__readyPlayers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __get__readyPlayers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__readyPlayers() const;
 
-  constexpr void __set__readyPlayers(::System::Collections::Generic::HashSet_1<::StringW>* value);
+  constexpr void __cordl_internal_set__readyPlayers(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*& __get__playersSpecificSettings();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*& __cordl_internal_get__playersSpecificSettings();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*> const&
-  __get__playersSpecificSettings() const;
+  __cordl_internal_get__playersSpecificSettings() const;
 
-  constexpr void __set__playersSpecificSettings(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
+  constexpr void __cordl_internal_set__playersSpecificSettings(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>* value);
 
-  constexpr bool& __get__started();
+  constexpr bool& __cordl_internal_get__started();
 
-  constexpr bool const& __get__started() const;
+  constexpr bool const& __cordl_internal_get__started() const;
 
-  constexpr void __set__started(bool value);
+  constexpr void __cordl_internal_set__started(bool value);
 
-  constexpr ::StringW& __get__sessionGameId();
+  constexpr ::StringW& __cordl_internal_get__sessionGameId();
 
-  constexpr ::StringW const& __get__sessionGameId() const;
+  constexpr ::StringW const& __cordl_internal_get__sessionGameId() const;
 
-  constexpr void __set__sessionGameId(::StringW value);
+  constexpr void __cordl_internal_set__sessionGameId(::StringW value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_sceneSetupDidFinishEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_sceneSetupDidFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_sceneSetupDidFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_sceneSetupDidFinishEvent() const;
 
-  constexpr void __set_sceneSetupDidFinishEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_sceneSetupDidFinishEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_sceneSetupDidReceiveTooLateEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_sceneSetupDidReceiveTooLateEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_sceneSetupDidReceiveTooLateEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_sceneSetupDidReceiveTooLateEvent() const;
 
-  constexpr void __set_sceneSetupDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_sceneSetupDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
   /// @brief Method add_sceneSetupDidFinishEvent, addr 0xe54748, size 0xb0, virtual false, abstract: false, final false
   inline void add_sceneSetupDidFinishEvent(::System::Action_1<::StringW>* value);

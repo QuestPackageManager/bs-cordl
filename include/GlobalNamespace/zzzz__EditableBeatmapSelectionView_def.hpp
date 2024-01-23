@@ -23,70 +23,70 @@ MARK_REF_PTR_T(::GlobalNamespace::EditableBeatmapSelectionView);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5772))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5772))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5779))
 // CS Name: ::EditableBeatmapSelectionView*
 class CORDL_TYPE EditableBeatmapSelectionView : public ::GlobalNamespace::BeatmapSelectionView {
 public:
   // Declarations
   /// @brief Field _editButton, offset 0x28, size 0x8
-  __declspec(property(get = __get__editButton, put = __set__editButton))::UnityEngine::UI::Button* _editButton;
+  __declspec(property(get = __cordl_internal_get__editButton, put = __cordl_internal_set__editButton))::UnityW<::UnityEngine::UI::Button> _editButton;
 
   /// @brief Field _clearButton, offset 0x30, size 0x8
-  __declspec(property(get = __get__clearButton, put = __set__clearButton))::UnityEngine::UI::Button* _clearButton;
+  __declspec(property(get = __cordl_internal_get__clearButton, put = __cordl_internal_set__clearButton))::UnityW<::UnityEngine::UI::Button> _clearButton;
 
   /// @brief Field _levelBarCanvasGroup, offset 0x38, size 0x8
-  __declspec(property(get = __get__levelBarCanvasGroup, put = __set__levelBarCanvasGroup))::UnityEngine::CanvasGroup* _levelBarCanvasGroup;
+  __declspec(property(get = __cordl_internal_get__levelBarCanvasGroup, put = __cordl_internal_set__levelBarCanvasGroup))::UnityW<::UnityEngine::CanvasGroup> _levelBarCanvasGroup;
 
   /// @brief Field _interactable, offset 0x40, size 0x1
-  __declspec(property(get = __get__interactable, put = __set__interactable)) bool _interactable;
+  __declspec(property(get = __cordl_internal_get__interactable, put = __cordl_internal_set__interactable)) bool _interactable;
 
   /// @brief Field <showClearButton>k__BackingField, offset 0x41, size 0x1
-  __declspec(property(get = __get__showClearButton_k__BackingField, put = __set__showClearButton_k__BackingField)) bool _showClearButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__showClearButton_k__BackingField, put = __cordl_internal_set__showClearButton_k__BackingField)) bool _showClearButton_k__BackingField;
 
-  __declspec(property(get = get_editButton))::UnityEngine::UI::Button* editButton;
+  __declspec(property(get = get_editButton))::UnityW<::UnityEngine::UI::Button> editButton;
 
-  __declspec(property(get = get_clearButton))::UnityEngine::UI::Button* clearButton;
+  __declspec(property(get = get_clearButton))::UnityW<::UnityEngine::UI::Button> clearButton;
 
   __declspec(property(get = get_interactable, put = set_interactable)) bool interactable;
 
   __declspec(property(get = get_showClearButton, put = set_showClearButton)) bool showClearButton;
 
-  constexpr ::UnityEngine::UI::Button*& __get__editButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__editButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__editButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__editButton() const;
 
-  constexpr void __set__editButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__editButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__clearButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__clearButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__clearButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__clearButton() const;
 
-  constexpr void __set__clearButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__clearButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__levelBarCanvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__levelBarCanvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__levelBarCanvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__levelBarCanvasGroup() const;
 
-  constexpr void __set__levelBarCanvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__levelBarCanvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr bool& __get__interactable();
+  constexpr bool& __cordl_internal_get__interactable();
 
-  constexpr bool const& __get__interactable() const;
+  constexpr bool const& __cordl_internal_get__interactable() const;
 
-  constexpr void __set__interactable(bool value);
+  constexpr void __cordl_internal_set__interactable(bool value);
 
-  constexpr bool& __get__showClearButton_k__BackingField();
+  constexpr bool& __cordl_internal_get__showClearButton_k__BackingField();
 
-  constexpr bool const& __get__showClearButton_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__showClearButton_k__BackingField() const;
 
-  constexpr void __set__showClearButton_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__showClearButton_k__BackingField(bool value);
 
   /// @brief Method get_editButton, addr 0x22e0f64, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Button* get_editButton();
+  inline ::UnityW<::UnityEngine::UI::Button> get_editButton();
 
   /// @brief Method get_clearButton, addr 0x22e0f6c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Button* get_clearButton();
+  inline ::UnityW<::UnityEngine::UI::Button> get_clearButton();
 
   /// @brief Method get_interactable, addr 0x22e0f74, size 0x8, virtual false, abstract: false, final false
   inline bool get_interactable();
@@ -129,13 +129,13 @@ protected:
 
 public:
   /// @brief Field _editButton, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____editButton;
+  ::UnityW<::UnityEngine::UI::Button> ____editButton;
 
   /// @brief Field _clearButton, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____clearButton;
+  ::UnityW<::UnityEngine::UI::Button> ____clearButton;
 
   /// @brief Field _levelBarCanvasGroup, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____levelBarCanvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ____levelBarCanvasGroup;
 
   /// @brief Field _interactable, offset: 0x40, size: 0x1, def value: None
   bool ____interactable;

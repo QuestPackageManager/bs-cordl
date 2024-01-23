@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509KeyUsage);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1867))
 // CS Name: ::Org.BouncyCastle.X509::X509KeyUsage*
 class CORDL_TYPE X509KeyUsage : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field usage, offset 0x10, size 0x4
-  __declspec(property(get = __get_usage, put = __set_usage)) int32_t usage;
+  __declspec(property(get = __cordl_internal_get_usage, put = __cordl_internal_set_usage)) int32_t usage;
 
-  constexpr int32_t& __get_usage();
+  constexpr int32_t& __cordl_internal_get_usage();
 
-  constexpr int32_t const& __get_usage() const;
+  constexpr int32_t const& __cordl_internal_get_usage() const;
 
-  constexpr void __set_usage(int32_t value);
+  constexpr void __cordl_internal_set_usage(int32_t value);
 
   static inline ::Org::BouncyCastle::X509::X509KeyUsage* New_ctor(int32_t usage);
 

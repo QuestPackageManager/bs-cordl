@@ -26,47 +26,47 @@ MARK_REF_PTR_T(::GlobalNamespace::DropdownSettingsController);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5590))
 // CS Name: ::DropdownSettingsController*
 class CORDL_TYPE DropdownSettingsController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _dropdown, offset 0x18, size 0x8
-  __declspec(property(get = __get__dropdown, put = __set__dropdown))::HMUI::SimpleTextDropdown* _dropdown;
+  __declspec(property(get = __cordl_internal_get__dropdown, put = __cordl_internal_set__dropdown))::UnityW<::HMUI::SimpleTextDropdown> _dropdown;
 
   /// @brief Field dropDownValueDidChangeEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_dropDownValueDidChangeEvent, put = __set_dropDownValueDidChangeEvent))::System::Action* dropDownValueDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_dropDownValueDidChangeEvent, put = __cordl_internal_set_dropDownValueDidChangeEvent))::System::Action* dropDownValueDidChangeEvent;
 
   /// @brief Field _idx, offset 0x28, size 0x4
-  __declspec(property(get = __get__idx, put = __set__idx)) int32_t _idx;
+  __declspec(property(get = __cordl_internal_get__idx, put = __cordl_internal_set__idx)) int32_t _idx;
 
   /// @brief Field _numberOfElements, offset 0x2c, size 0x4
-  __declspec(property(get = __get__numberOfElements, put = __set__numberOfElements)) int32_t _numberOfElements;
+  __declspec(property(get = __cordl_internal_get__numberOfElements, put = __cordl_internal_set__numberOfElements)) int32_t _numberOfElements;
 
-  constexpr ::HMUI::SimpleTextDropdown*& __get__dropdown();
+  constexpr ::UnityW<::HMUI::SimpleTextDropdown>& __cordl_internal_get__dropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::SimpleTextDropdown*> const& __get__dropdown() const;
+  constexpr ::UnityW<::HMUI::SimpleTextDropdown> const& __cordl_internal_get__dropdown() const;
 
-  constexpr void __set__dropdown(::HMUI::SimpleTextDropdown* value);
+  constexpr void __cordl_internal_set__dropdown(::UnityW<::HMUI::SimpleTextDropdown> value);
 
-  constexpr ::System::Action*& __get_dropDownValueDidChangeEvent();
+  constexpr ::System::Action*& __cordl_internal_get_dropDownValueDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_dropDownValueDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_dropDownValueDidChangeEvent() const;
 
-  constexpr void __set_dropDownValueDidChangeEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_dropDownValueDidChangeEvent(::System::Action* value);
 
-  constexpr int32_t& __get__idx();
+  constexpr int32_t& __cordl_internal_get__idx();
 
-  constexpr int32_t const& __get__idx() const;
+  constexpr int32_t const& __cordl_internal_get__idx() const;
 
-  constexpr void __set__idx(int32_t value);
+  constexpr void __cordl_internal_set__idx(int32_t value);
 
-  constexpr int32_t& __get__numberOfElements();
+  constexpr int32_t& __cordl_internal_get__numberOfElements();
 
-  constexpr int32_t const& __get__numberOfElements() const;
+  constexpr int32_t const& __cordl_internal_get__numberOfElements() const;
 
-  constexpr void __set__numberOfElements(int32_t value);
+  constexpr void __cordl_internal_set__numberOfElements(int32_t value);
 
   /// @brief Method add_dropDownValueDidChangeEvent, addr 0x22a9f0c, size 0x9c, virtual false, abstract: false, final false
   inline void add_dropDownValueDidChangeEvent(::System::Action* value);
@@ -118,7 +118,7 @@ protected:
 
 public:
   /// @brief Field _dropdown, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::SimpleTextDropdown* ____dropdown;
+  ::UnityW<::HMUI::SimpleTextDropdown> ____dropdown;
 
   /// @brief Field dropDownValueDidChangeEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___dropDownValueDidChangeEvent;

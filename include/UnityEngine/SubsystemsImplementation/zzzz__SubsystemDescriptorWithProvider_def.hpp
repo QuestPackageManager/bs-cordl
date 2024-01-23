@@ -21,14 +21,14 @@ MARK_REF_PTR_T(::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithP
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::SubsystemsImplementation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15972))
 // CS Name: ::UnityEngine.SubsystemsImplementation::SubsystemDescriptorWithProvider*
 class CORDL_TYPE SubsystemDescriptorWithProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <id>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__id_k__BackingField, put = __set__id_k__BackingField))::StringW _id_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__id_k__BackingField, put = __cordl_internal_set__id_k__BackingField))::StringW _id_k__BackingField;
 
   __declspec(property(get = get_id))::StringW id;
 
@@ -38,11 +38,11 @@ public:
   /// @brief Convert to "::UnityEngine::ISubsystemDescriptor"
   constexpr ::UnityEngine::ISubsystemDescriptor* i___UnityEngine__ISubsystemDescriptor() noexcept;
 
-  constexpr ::StringW& __get__id_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__id_k__BackingField();
 
-  constexpr ::StringW const& __get__id_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__id_k__BackingField() const;
 
-  constexpr void __set__id_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__id_k__BackingField(::StringW value);
 
   /// @brief Method get_id, addr 0x2d1b498, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_id();

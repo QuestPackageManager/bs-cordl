@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MirroredSliderController__Pool);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4812))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4812))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4758))
 // CS Name: ::MirroredSliderController*
 class CORDL_TYPE MirroredSliderController : public ::GlobalNamespace::SliderControllerBase {
@@ -47,19 +47,20 @@ public:
   using Pool = ::GlobalNamespace::__MirroredSliderController__Pool;
 
   /// @brief Field _meshFilter, offset 0x30, size 0x8
-  __declspec(property(get = __get__meshFilter, put = __set__meshFilter))::UnityEngine::MeshFilter* _meshFilter;
+  __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter))::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
   /// @brief Field _beatmapObjectSpawnController, offset 0x38, size 0x8
-  __declspec(property(get = __get__beatmapObjectSpawnController, put = __set__beatmapObjectSpawnController))::GlobalNamespace::IBeatmapObjectSpawnController* _beatmapObjectSpawnController;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectSpawnController,
+                      put = __cordl_internal_set__beatmapObjectSpawnController))::GlobalNamespace::IBeatmapObjectSpawnController* _beatmapObjectSpawnController;
 
   /// @brief Field _followedSlider, offset 0x40, size 0x8
-  __declspec(property(get = __get__followedSlider, put = __set__followedSlider))::GlobalNamespace::SliderController* _followedSlider;
+  __declspec(property(get = __cordl_internal_get__followedSlider, put = __cordl_internal_set__followedSlider))::UnityW<::GlobalNamespace::SliderController> _followedSlider;
 
   /// @brief Field _transform, offset 0x48, size 0x8
-  __declspec(property(get = __get__transform, put = __set__transform))::UnityEngine::Transform* _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
   /// @brief Field _followedTransform, offset 0x50, size 0x8
-  __declspec(property(get = __get__followedTransform, put = __set__followedTransform))::UnityEngine::Transform* _followedTransform;
+  __declspec(property(get = __cordl_internal_get__followedTransform, put = __cordl_internal_set__followedTransform))::UnityW<::UnityEngine::Transform> _followedTransform;
 
   __declspec(property(put = set_hide)) bool hide;
 
@@ -69,35 +70,35 @@ public:
   /// @brief Convert to "::GlobalNamespace::ISliderDidStartDissolvingEvent"
   constexpr ::GlobalNamespace::ISliderDidStartDissolvingEvent* i___GlobalNamespace__ISliderDidStartDissolvingEvent() noexcept;
 
-  constexpr ::UnityEngine::MeshFilter*& __get__meshFilter();
+  constexpr ::UnityW<::UnityEngine::MeshFilter>& __cordl_internal_get__meshFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshFilter*> const& __get__meshFilter() const;
+  constexpr ::UnityW<::UnityEngine::MeshFilter> const& __cordl_internal_get__meshFilter() const;
 
-  constexpr void __set__meshFilter(::UnityEngine::MeshFilter* value);
+  constexpr void __cordl_internal_set__meshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  constexpr ::GlobalNamespace::IBeatmapObjectSpawnController*& __get__beatmapObjectSpawnController();
+  constexpr ::GlobalNamespace::IBeatmapObjectSpawnController*& __cordl_internal_get__beatmapObjectSpawnController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapObjectSpawnController*> const& __get__beatmapObjectSpawnController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapObjectSpawnController*> const& __cordl_internal_get__beatmapObjectSpawnController() const;
 
-  constexpr void __set__beatmapObjectSpawnController(::GlobalNamespace::IBeatmapObjectSpawnController* value);
+  constexpr void __cordl_internal_set__beatmapObjectSpawnController(::GlobalNamespace::IBeatmapObjectSpawnController* value);
 
-  constexpr ::GlobalNamespace::SliderController*& __get__followedSlider();
+  constexpr ::UnityW<::GlobalNamespace::SliderController>& __cordl_internal_get__followedSlider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SliderController*> const& __get__followedSlider() const;
+  constexpr ::UnityW<::GlobalNamespace::SliderController> const& __cordl_internal_get__followedSlider() const;
 
-  constexpr void __set__followedSlider(::GlobalNamespace::SliderController* value);
+  constexpr void __cordl_internal_set__followedSlider(::UnityW<::GlobalNamespace::SliderController> value);
 
-  constexpr ::UnityEngine::Transform*& __get__transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr void __set__transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__followedTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__followedTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__followedTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__followedTransform() const;
 
-  constexpr void __set__followedTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__followedTransform(::UnityW<::UnityEngine::Transform> value);
 
   /// @brief Method set_hide, addr 0x23827e4, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
@@ -146,19 +147,19 @@ protected:
 
 public:
   /// @brief Field _meshFilter, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::MeshFilter* ____meshFilter;
+  ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 
   /// @brief Field _beatmapObjectSpawnController, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::IBeatmapObjectSpawnController* ____beatmapObjectSpawnController;
 
   /// @brief Field _followedSlider, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::SliderController* ____followedSlider;
+  ::UnityW<::GlobalNamespace::SliderController> ____followedSlider;
 
   /// @brief Field _transform, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____transform;
+  ::UnityW<::UnityEngine::Transform> ____transform;
 
   /// @brief Field _followedTransform, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____followedTransform;
+  ::UnityW<::UnityEngine::Transform> ____followedTransform;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -180,9 +181,9 @@ static_assert(offsetof(::GlobalNamespace::MirroredSliderController, ____followed
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4758)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2817 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4757)) CS Name: ::MirroredSliderController::Pool*
-class CORDL_TYPE __MirroredSliderController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MirroredSliderController*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4758)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2817 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4757)) CS Name: ::MirroredSliderController::Pool*
+class CORDL_TYPE __MirroredSliderController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MirroredSliderController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MirroredSliderController__Pool* New_ctor();

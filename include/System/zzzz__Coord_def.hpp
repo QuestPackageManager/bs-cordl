@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Coord);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2645))
 // CS Name: ::System::Coord
 struct CORDL_TYPE Coord {

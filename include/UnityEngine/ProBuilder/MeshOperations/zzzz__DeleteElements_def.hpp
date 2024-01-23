@@ -58,29 +58,29 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__DeleteElements____c_
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12255))
 // CS Name: ::DeleteElements::<>c__DisplayClass0_0*
 class CORDL_TYPE __DeleteElements____c__DisplayClass0_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field sorted, offset 0x10, size 0x8
-  __declspec(property(get = __get_sorted, put = __set_sorted))::System::Collections::Generic::List_1<int32_t>* sorted;
+  __declspec(property(get = __cordl_internal_get_sorted, put = __cordl_internal_set_sorted))::System::Collections::Generic::List_1<int32_t>* sorted;
 
   /// @brief Field offset, offset 0x18, size 0x8
-  __declspec(property(get = __get_offset, put = __set_offset))::ArrayW<int32_t, ::Array<int32_t>*> offset;
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset))::ArrayW<int32_t, ::Array<int32_t>*> offset;
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get_sorted();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_sorted();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get_sorted() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_sorted() const;
 
-  constexpr void __set_sorted(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set_sorted(::System::Collections::Generic::List_1<int32_t>* value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_offset();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_offset();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_offset() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_offset() const;
 
-  constexpr void __set_offset(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_offset(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__DeleteElements____c__DisplayClass0_0* New_ctor();
 
@@ -133,20 +133,20 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__DeleteElemen
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12256))
 // CS Name: ::DeleteElements::<>c__DisplayClass2_0*
 class CORDL_TYPE __DeleteElements____c__DisplayClass2_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mesh, offset 0x10, size 0x8
-  __declspec(property(get = __get_mesh, put = __set_mesh))::UnityEngine::ProBuilder::ProBuilderMesh* mesh;
+  __declspec(property(get = __cordl_internal_get_mesh, put = __cordl_internal_set_mesh))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> mesh;
 
-  constexpr ::UnityEngine::ProBuilder::ProBuilderMesh*& __get_mesh();
+  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>& __cordl_internal_get_mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::ProBuilderMesh*> const& __get_mesh() const;
+  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> const& __cordl_internal_get_mesh() const;
 
-  constexpr void __set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
+  constexpr void __cordl_internal_set_mesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__DeleteElements____c__DisplayClass2_0* New_ctor();
 
@@ -171,7 +171,7 @@ protected:
 
 public:
   /// @brief Field mesh, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::ProBuilder::ProBuilderMesh* ___mesh;
+  ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> ___mesh;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -185,7 +185,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__DeleteElemen
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12257))
 // CS Name: ::DeleteElements::<>c*
 class CORDL_TYPE __DeleteElements____c : public ::System::Object {
@@ -238,7 +238,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12258))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::DeleteElements*
 class CORDL_TYPE DeleteElements : public ::System::Object {

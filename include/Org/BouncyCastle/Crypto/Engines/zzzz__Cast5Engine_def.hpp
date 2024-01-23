@@ -23,26 +23,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::Cast5Engine);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(833))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::Cast5Engine*
 class CORDL_TYPE Cast5Engine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _Kr, offset 0x10, size 0x8
-  __declspec(property(get = __get__Kr, put = __set__Kr))::ArrayW<int32_t, ::Array<int32_t>*> _Kr;
+  __declspec(property(get = __cordl_internal_get__Kr, put = __cordl_internal_set__Kr))::ArrayW<int32_t, ::Array<int32_t>*> _Kr;
 
   /// @brief Field _Km, offset 0x18, size 0x8
-  __declspec(property(get = __get__Km, put = __set__Km))::ArrayW<uint32_t, ::Array<uint32_t>*> _Km;
+  __declspec(property(get = __cordl_internal_get__Km, put = __cordl_internal_set__Km))::ArrayW<uint32_t, ::Array<uint32_t>*> _Km;
 
   /// @brief Field _encrypting, offset 0x20, size 0x1
-  __declspec(property(get = __get__encrypting, put = __set__encrypting)) bool _encrypting;
+  __declspec(property(get = __cordl_internal_get__encrypting, put = __cordl_internal_set__encrypting)) bool _encrypting;
 
   /// @brief Field _workingKey, offset 0x28, size 0x8
-  __declspec(property(get = __get__workingKey, put = __set__workingKey))::ArrayW<uint8_t, ::Array<uint8_t>*> _workingKey;
+  __declspec(property(get = __cordl_internal_get__workingKey, put = __cordl_internal_set__workingKey))::ArrayW<uint8_t, ::Array<uint8_t>*> _workingKey;
 
   /// @brief Field _rounds, offset 0x30, size 0x4
-  __declspec(property(get = __get__rounds, put = __set__rounds)) int32_t _rounds;
+  __declspec(property(get = __cordl_internal_get__rounds, put = __cordl_internal_set__rounds)) int32_t _rounds;
 
   /// @brief Field S1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_S1, put = setStaticF_S1))::ArrayW<uint32_t, ::Array<uint32_t>*> S1;
@@ -84,35 +84,35 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__Kr();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__Kr();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__Kr() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__Kr() const;
 
-  constexpr void __set__Kr(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__Kr(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get__Km();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get__Km();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get__Km() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__Km() const;
 
-  constexpr void __set__Km(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set__Km(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr bool& __get__encrypting();
+  constexpr bool& __cordl_internal_get__encrypting();
 
-  constexpr bool const& __get__encrypting() const;
+  constexpr bool const& __cordl_internal_get__encrypting() const;
 
-  constexpr void __set__encrypting(bool value);
+  constexpr void __cordl_internal_set__encrypting(bool value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__workingKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__workingKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__workingKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__workingKey() const;
 
-  constexpr void __set__workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__rounds();
+  constexpr int32_t& __cordl_internal_get__rounds();
 
-  constexpr int32_t const& __get__rounds() const;
+  constexpr int32_t const& __cordl_internal_get__rounds() const;
 
-  constexpr void __set__rounds(int32_t value);
+  constexpr void __cordl_internal_set__rounds(int32_t value);
 
   static inline void setStaticF_S1(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 

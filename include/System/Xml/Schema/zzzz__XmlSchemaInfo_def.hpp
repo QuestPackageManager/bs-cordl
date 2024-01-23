@@ -34,35 +34,35 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaInfo);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11744)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11722))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11722)), TypeDefinitionIndex(TypeDefinitionIndex(11744))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11729))
 // CS Name: ::System.Xml.Schema::XmlSchemaInfo*
 class CORDL_TYPE XmlSchemaInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field isDefault, offset 0x10, size 0x1
-  __declspec(property(get = __get_isDefault, put = __set_isDefault)) bool isDefault;
+  __declspec(property(get = __cordl_internal_get_isDefault, put = __cordl_internal_set_isDefault)) bool isDefault;
 
   /// @brief Field isNil, offset 0x11, size 0x1
-  __declspec(property(get = __get_isNil, put = __set_isNil)) bool isNil;
+  __declspec(property(get = __cordl_internal_get_isNil, put = __cordl_internal_set_isNil)) bool isNil;
 
   /// @brief Field schemaElement, offset 0x18, size 0x8
-  __declspec(property(get = __get_schemaElement, put = __set_schemaElement))::System::Xml::Schema::XmlSchemaElement* schemaElement;
+  __declspec(property(get = __cordl_internal_get_schemaElement, put = __cordl_internal_set_schemaElement))::System::Xml::Schema::XmlSchemaElement* schemaElement;
 
   /// @brief Field schemaAttribute, offset 0x20, size 0x8
-  __declspec(property(get = __get_schemaAttribute, put = __set_schemaAttribute))::System::Xml::Schema::XmlSchemaAttribute* schemaAttribute;
+  __declspec(property(get = __cordl_internal_get_schemaAttribute, put = __cordl_internal_set_schemaAttribute))::System::Xml::Schema::XmlSchemaAttribute* schemaAttribute;
 
   /// @brief Field schemaType, offset 0x28, size 0x8
-  __declspec(property(get = __get_schemaType, put = __set_schemaType))::System::Xml::Schema::XmlSchemaType* schemaType;
+  __declspec(property(get = __cordl_internal_get_schemaType, put = __cordl_internal_set_schemaType))::System::Xml::Schema::XmlSchemaType* schemaType;
 
   /// @brief Field memberType, offset 0x30, size 0x8
-  __declspec(property(get = __get_memberType, put = __set_memberType))::System::Xml::Schema::XmlSchemaSimpleType* memberType;
+  __declspec(property(get = __cordl_internal_get_memberType, put = __cordl_internal_set_memberType))::System::Xml::Schema::XmlSchemaSimpleType* memberType;
 
   /// @brief Field validity, offset 0x38, size 0x4
-  __declspec(property(get = __get_validity, put = __set_validity))::System::Xml::Schema::XmlSchemaValidity validity;
+  __declspec(property(get = __cordl_internal_get_validity, put = __cordl_internal_set_validity))::System::Xml::Schema::XmlSchemaValidity validity;
 
   /// @brief Field contentType, offset 0x3c, size 0x4
-  __declspec(property(get = __get_contentType, put = __set_contentType))::System::Xml::Schema::XmlSchemaContentType contentType;
+  __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType))::System::Xml::Schema::XmlSchemaContentType contentType;
 
   __declspec(property(get = get_Validity))::System::Xml::Schema::XmlSchemaValidity Validity;
 
@@ -84,53 +84,53 @@ public:
   /// @brief Convert to "::System::Xml::Schema::IXmlSchemaInfo"
   constexpr ::System::Xml::Schema::IXmlSchemaInfo* i___System__Xml__Schema__IXmlSchemaInfo() noexcept;
 
-  constexpr bool& __get_isDefault();
+  constexpr bool& __cordl_internal_get_isDefault();
 
-  constexpr bool const& __get_isDefault() const;
+  constexpr bool const& __cordl_internal_get_isDefault() const;
 
-  constexpr void __set_isDefault(bool value);
+  constexpr void __cordl_internal_set_isDefault(bool value);
 
-  constexpr bool& __get_isNil();
+  constexpr bool& __cordl_internal_get_isNil();
 
-  constexpr bool const& __get_isNil() const;
+  constexpr bool const& __cordl_internal_get_isNil() const;
 
-  constexpr void __set_isNil(bool value);
+  constexpr void __cordl_internal_set_isNil(bool value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaElement*& __get_schemaElement();
+  constexpr ::System::Xml::Schema::XmlSchemaElement*& __cordl_internal_get_schemaElement();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaElement*> const& __get_schemaElement() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaElement*> const& __cordl_internal_get_schemaElement() const;
 
-  constexpr void __set_schemaElement(::System::Xml::Schema::XmlSchemaElement* value);
+  constexpr void __cordl_internal_set_schemaElement(::System::Xml::Schema::XmlSchemaElement* value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaAttribute*& __get_schemaAttribute();
+  constexpr ::System::Xml::Schema::XmlSchemaAttribute*& __cordl_internal_get_schemaAttribute();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAttribute*> const& __get_schemaAttribute() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaAttribute*> const& __cordl_internal_get_schemaAttribute() const;
 
-  constexpr void __set_schemaAttribute(::System::Xml::Schema::XmlSchemaAttribute* value);
+  constexpr void __cordl_internal_set_schemaAttribute(::System::Xml::Schema::XmlSchemaAttribute* value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaType*& __get_schemaType();
+  constexpr ::System::Xml::Schema::XmlSchemaType*& __cordl_internal_get_schemaType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __get_schemaType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __cordl_internal_get_schemaType() const;
 
-  constexpr void __set_schemaType(::System::Xml::Schema::XmlSchemaType* value);
+  constexpr void __cordl_internal_set_schemaType(::System::Xml::Schema::XmlSchemaType* value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& __get_memberType();
+  constexpr ::System::Xml::Schema::XmlSchemaSimpleType*& __cordl_internal_get_memberType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& __get_memberType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaSimpleType*> const& __cordl_internal_get_memberType() const;
 
-  constexpr void __set_memberType(::System::Xml::Schema::XmlSchemaSimpleType* value);
+  constexpr void __cordl_internal_set_memberType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaValidity& __get_validity();
+  constexpr ::System::Xml::Schema::XmlSchemaValidity& __cordl_internal_get_validity();
 
-  constexpr ::System::Xml::Schema::XmlSchemaValidity const& __get_validity() const;
+  constexpr ::System::Xml::Schema::XmlSchemaValidity const& __cordl_internal_get_validity() const;
 
-  constexpr void __set_validity(::System::Xml::Schema::XmlSchemaValidity value);
+  constexpr void __cordl_internal_set_validity(::System::Xml::Schema::XmlSchemaValidity value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaContentType& __get_contentType();
+  constexpr ::System::Xml::Schema::XmlSchemaContentType& __cordl_internal_get_contentType();
 
-  constexpr ::System::Xml::Schema::XmlSchemaContentType const& __get_contentType() const;
+  constexpr ::System::Xml::Schema::XmlSchemaContentType const& __cordl_internal_get_contentType() const;
 
-  constexpr void __set_contentType(::System::Xml::Schema::XmlSchemaContentType value);
+  constexpr void __cordl_internal_set_contentType(::System::Xml::Schema::XmlSchemaContentType value);
 
   static inline ::System::Xml::Schema::XmlSchemaInfo* New_ctor();
 

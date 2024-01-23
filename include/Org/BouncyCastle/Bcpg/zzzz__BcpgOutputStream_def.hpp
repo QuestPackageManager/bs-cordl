@@ -28,56 +28,56 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::BcpgOutputStream);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(484))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(555))
 // CS Name: ::Org.BouncyCastle.Bcpg::BcpgOutputStream*
 class CORDL_TYPE BcpgOutputStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
   // Declarations
   /// @brief Field outStr, offset 0x30, size 0x8
-  __declspec(property(get = __get_outStr, put = __set_outStr))::System::IO::Stream* outStr;
+  __declspec(property(get = __cordl_internal_get_outStr, put = __cordl_internal_set_outStr))::System::IO::Stream* outStr;
 
   /// @brief Field partialBuffer, offset 0x38, size 0x8
-  __declspec(property(get = __get_partialBuffer, put = __set_partialBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> partialBuffer;
+  __declspec(property(get = __cordl_internal_get_partialBuffer, put = __cordl_internal_set_partialBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> partialBuffer;
 
   /// @brief Field partialBufferLength, offset 0x40, size 0x4
-  __declspec(property(get = __get_partialBufferLength, put = __set_partialBufferLength)) int32_t partialBufferLength;
+  __declspec(property(get = __cordl_internal_get_partialBufferLength, put = __cordl_internal_set_partialBufferLength)) int32_t partialBufferLength;
 
   /// @brief Field partialPower, offset 0x44, size 0x4
-  __declspec(property(get = __get_partialPower, put = __set_partialPower)) int32_t partialPower;
+  __declspec(property(get = __cordl_internal_get_partialPower, put = __cordl_internal_set_partialPower)) int32_t partialPower;
 
   /// @brief Field partialOffset, offset 0x48, size 0x4
-  __declspec(property(get = __get_partialOffset, put = __set_partialOffset)) int32_t partialOffset;
+  __declspec(property(get = __cordl_internal_get_partialOffset, put = __cordl_internal_set_partialOffset)) int32_t partialOffset;
 
-  constexpr ::System::IO::Stream*& __get_outStr();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_outStr();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_outStr() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_outStr() const;
 
-  constexpr void __set_outStr(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_outStr(::System::IO::Stream* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_partialBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_partialBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_partialBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_partialBuffer() const;
 
-  constexpr void __set_partialBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_partialBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_partialBufferLength();
+  constexpr int32_t& __cordl_internal_get_partialBufferLength();
 
-  constexpr int32_t const& __get_partialBufferLength() const;
+  constexpr int32_t const& __cordl_internal_get_partialBufferLength() const;
 
-  constexpr void __set_partialBufferLength(int32_t value);
+  constexpr void __cordl_internal_set_partialBufferLength(int32_t value);
 
-  constexpr int32_t& __get_partialPower();
+  constexpr int32_t& __cordl_internal_get_partialPower();
 
-  constexpr int32_t const& __get_partialPower() const;
+  constexpr int32_t const& __cordl_internal_get_partialPower() const;
 
-  constexpr void __set_partialPower(int32_t value);
+  constexpr void __cordl_internal_set_partialPower(int32_t value);
 
-  constexpr int32_t& __get_partialOffset();
+  constexpr int32_t& __cordl_internal_get_partialOffset();
 
-  constexpr int32_t const& __get_partialOffset() const;
+  constexpr int32_t const& __cordl_internal_get_partialOffset() const;
 
-  constexpr void __set_partialOffset(int32_t value);
+  constexpr void __cordl_internal_set_partialOffset(int32_t value);
 
   /// @brief Method Wrap, addr 0x11cf758, size 0x90, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::BcpgOutputStream* Wrap(::System::IO::Stream* outStr);

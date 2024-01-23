@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::Kdf2BytesGenerator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(886))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(886))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(908))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::Kdf2BytesGenerator*
 class CORDL_TYPE Kdf2BytesGenerator : public ::Org::BouncyCastle::Crypto::Generators::BaseKdfBytesGenerator {

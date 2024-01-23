@@ -33,65 +33,65 @@ MARK_REF_PTR_T(::GlobalNamespace::ScaleAnimator);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5257))
 // CS Name: ::ScaleAnimator*
 class CORDL_TYPE ScaleAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _displayedScale, offset 0x18, size 0x4
-  __declspec(property(get = __get__displayedScale, put = __set__displayedScale)) float_t _displayedScale;
+  __declspec(property(get = __cordl_internal_get__displayedScale, put = __cordl_internal_set__displayedScale)) float_t _displayedScale;
 
   /// @brief Field _targetTransform, offset 0x20, size 0x8
-  __declspec(property(get = __get__targetTransform, put = __set__targetTransform))::UnityEngine::Transform* _targetTransform;
+  __declspec(property(get = __cordl_internal_get__targetTransform, put = __cordl_internal_set__targetTransform))::UnityW<::UnityEngine::Transform> _targetTransform;
 
   /// @brief Field _tweeningManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__tweeningManager, put = __set__tweeningManager))::Tweening::TimeTweeningManager* _tweeningManager;
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
   /// @brief Field _scaleUpTween, offset 0x30, size 0x8
-  __declspec(property(get = __get__scaleUpTween, put = __set__scaleUpTween))::Tweening::Tween_1<float_t>* _scaleUpTween;
+  __declspec(property(get = __cordl_internal_get__scaleUpTween, put = __cordl_internal_set__scaleUpTween))::Tweening::Tween_1<float_t>* _scaleUpTween;
 
   /// @brief Field _scaleDownTween, offset 0x38, size 0x8
-  __declspec(property(get = __get__scaleDownTween, put = __set__scaleDownTween))::Tweening::Tween_1<float_t>* _scaleDownTween;
+  __declspec(property(get = __cordl_internal_get__scaleDownTween, put = __cordl_internal_set__scaleDownTween))::Tweening::Tween_1<float_t>* _scaleDownTween;
 
   /// @brief Field _initialized, offset 0x40, size 0x1
-  __declspec(property(get = __get__initialized, put = __set__initialized)) bool _initialized;
+  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
-  constexpr float_t& __get__displayedScale();
+  constexpr float_t& __cordl_internal_get__displayedScale();
 
-  constexpr float_t const& __get__displayedScale() const;
+  constexpr float_t const& __cordl_internal_get__displayedScale() const;
 
-  constexpr void __set__displayedScale(float_t value);
+  constexpr void __cordl_internal_set__displayedScale(float_t value);
 
-  constexpr ::UnityEngine::Transform*& __get__targetTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__targetTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__targetTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
 
-  constexpr void __set__targetTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::Tweening::TimeTweeningManager*& __get__tweeningManager();
+  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& __get__tweeningManager() const;
+  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
-  constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager* value);
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  constexpr ::Tweening::Tween_1<float_t>*& __get__scaleUpTween();
+  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__scaleUpTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __get__scaleUpTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__scaleUpTween() const;
 
-  constexpr void __set__scaleUpTween(::Tweening::Tween_1<float_t>* value);
+  constexpr void __cordl_internal_set__scaleUpTween(::Tweening::Tween_1<float_t>* value);
 
-  constexpr ::Tweening::Tween_1<float_t>*& __get__scaleDownTween();
+  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__scaleDownTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __get__scaleDownTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__scaleDownTween() const;
 
-  constexpr void __set__scaleDownTween(::Tweening::Tween_1<float_t>* value);
+  constexpr void __cordl_internal_set__scaleDownTween(::Tweening::Tween_1<float_t>* value);
 
-  constexpr bool& __get__initialized();
+  constexpr bool& __cordl_internal_get__initialized();
 
-  constexpr bool const& __get__initialized() const;
+  constexpr bool const& __cordl_internal_get__initialized() const;
 
-  constexpr void __set__initialized(bool value);
+  constexpr void __cordl_internal_set__initialized(bool value);
 
   /// @brief Method OnDestroy, addr 0x225cd04, size 0x88, virtual false, abstract: false, final false
   inline void OnDestroy();
@@ -146,10 +146,10 @@ public:
   float_t ____displayedScale;
 
   /// @brief Field _targetTransform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____targetTransform;
+  ::UnityW<::UnityEngine::Transform> ____targetTransform;
 
   /// @brief Field _tweeningManager, offset: 0x28, size: 0x8, def value: None
-  ::Tweening::TimeTweeningManager* ____tweeningManager;
+  ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
   /// @brief Field _scaleUpTween, offset: 0x30, size: 0x8, def value: None
   ::Tweening::Tween_1<float_t>* ____scaleUpTween;

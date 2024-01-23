@@ -17,29 +17,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Abc::ZTauElement);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Abc {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1358))
 // CS Name: ::Org.BouncyCastle.Math.EC.Abc::ZTauElement*
 class CORDL_TYPE ZTauElement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field u, offset 0x10, size 0x8
-  __declspec(property(get = __get_u, put = __set_u))::Org::BouncyCastle::Math::BigInteger* u;
+  __declspec(property(get = __cordl_internal_get_u, put = __cordl_internal_set_u))::Org::BouncyCastle::Math::BigInteger* u;
 
   /// @brief Field v, offset 0x18, size 0x8
-  __declspec(property(get = __get_v, put = __set_v))::Org::BouncyCastle::Math::BigInteger* v;
+  __declspec(property(get = __cordl_internal_get_v, put = __cordl_internal_set_v))::Org::BouncyCastle::Math::BigInteger* v;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_u();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_u();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_u() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_u() const;
 
-  constexpr void __set_u(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_u(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_v();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_v();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_v() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_v() const;
 
-  constexpr void __set_v(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_v(::Org::BouncyCastle::Math::BigInteger* value);
 
   static inline ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* New_ctor(::Org::BouncyCastle::Math::BigInteger* u, ::Org::BouncyCastle::Math::BigInteger* v);
 

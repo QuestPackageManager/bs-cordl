@@ -60,7 +60,7 @@ MARK_REF_PTR_T(::UnityEngine::GUIUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14609))
 // CS Name: ::UnityEngine::GUIUtility*
 class CORDL_TYPE GUIUtility : public ::System::Object {
@@ -249,7 +249,7 @@ public:
   static inline void ExitGUI();
 
   /// @brief Method GetDefaultSkin, addr 0x2cfc72c, size 0x98, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GUISkin* GetDefaultSkin();
+  static inline ::UnityW<::UnityEngine::GUISkin> GetDefaultSkin();
 
   /// @brief Method ProcessEvent, addr 0x2d03e08, size 0x84, virtual false, abstract: false, final false
   static inline void ProcessEvent(int32_t instanceID, void* nativeEventPtr, ByRef<bool> result);

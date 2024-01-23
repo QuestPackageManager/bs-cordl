@@ -21,52 +21,52 @@ MARK_REF_PTR_T(::System::Text::InternalEncoderBestFitFallbackBuffer);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2845))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2845))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2840))
 // CS Name: ::System.Text::InternalEncoderBestFitFallbackBuffer*
 class CORDL_TYPE InternalEncoderBestFitFallbackBuffer : public ::System::Text::EncoderFallbackBuffer {
 public:
   // Declarations
   /// @brief Field _cBestFit, offset 0x30, size 0x2
-  __declspec(property(get = __get__cBestFit, put = __set__cBestFit)) char16_t _cBestFit;
+  __declspec(property(get = __cordl_internal_get__cBestFit, put = __cordl_internal_set__cBestFit)) char16_t _cBestFit;
 
   /// @brief Field _oFallback, offset 0x38, size 0x8
-  __declspec(property(get = __get__oFallback, put = __set__oFallback))::System::Text::InternalEncoderBestFitFallback* _oFallback;
+  __declspec(property(get = __cordl_internal_get__oFallback, put = __cordl_internal_set__oFallback))::System::Text::InternalEncoderBestFitFallback* _oFallback;
 
   /// @brief Field _iCount, offset 0x40, size 0x4
-  __declspec(property(get = __get__iCount, put = __set__iCount)) int32_t _iCount;
+  __declspec(property(get = __cordl_internal_get__iCount, put = __cordl_internal_set__iCount)) int32_t _iCount;
 
   /// @brief Field _iSize, offset 0x44, size 0x4
-  __declspec(property(get = __get__iSize, put = __set__iSize)) int32_t _iSize;
+  __declspec(property(get = __cordl_internal_get__iSize, put = __cordl_internal_set__iSize)) int32_t _iSize;
 
   /// @brief Field s_InternalSyncObject, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_InternalSyncObject, put = setStaticF_s_InternalSyncObject))::System::Object* s_InternalSyncObject;
 
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  constexpr char16_t& __get__cBestFit();
+  constexpr char16_t& __cordl_internal_get__cBestFit();
 
-  constexpr char16_t const& __get__cBestFit() const;
+  constexpr char16_t const& __cordl_internal_get__cBestFit() const;
 
-  constexpr void __set__cBestFit(char16_t value);
+  constexpr void __cordl_internal_set__cBestFit(char16_t value);
 
-  constexpr ::System::Text::InternalEncoderBestFitFallback*& __get__oFallback();
+  constexpr ::System::Text::InternalEncoderBestFitFallback*& __cordl_internal_get__oFallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::InternalEncoderBestFitFallback*> const& __get__oFallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::InternalEncoderBestFitFallback*> const& __cordl_internal_get__oFallback() const;
 
-  constexpr void __set__oFallback(::System::Text::InternalEncoderBestFitFallback* value);
+  constexpr void __cordl_internal_set__oFallback(::System::Text::InternalEncoderBestFitFallback* value);
 
-  constexpr int32_t& __get__iCount();
+  constexpr int32_t& __cordl_internal_get__iCount();
 
-  constexpr int32_t const& __get__iCount() const;
+  constexpr int32_t const& __cordl_internal_get__iCount() const;
 
-  constexpr void __set__iCount(int32_t value);
+  constexpr void __cordl_internal_set__iCount(int32_t value);
 
-  constexpr int32_t& __get__iSize();
+  constexpr int32_t& __cordl_internal_get__iSize();
 
-  constexpr int32_t const& __get__iSize() const;
+  constexpr int32_t const& __cordl_internal_get__iSize() const;
 
-  constexpr void __set__iSize(int32_t value);
+  constexpr void __cordl_internal_set__iSize(int32_t value);
 
   static inline void setStaticF_s_InternalSyncObject(::System::Object* value);
 

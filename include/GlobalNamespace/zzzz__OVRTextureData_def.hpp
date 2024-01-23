@@ -25,7 +25,7 @@ MARK_VAL_T(::GlobalNamespace::OVRTextureData);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10115)), TypeDefinitionIndex(TypeDefinitionIndex(7562))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7562)), TypeDefinitionIndex(TypeDefinitionIndex(10115))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7568))
 // CS Name: ::OVRTextureData
 struct CORDL_TYPE OVRTextureData {

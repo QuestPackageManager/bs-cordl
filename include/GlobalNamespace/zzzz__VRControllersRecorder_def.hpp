@@ -140,7 +140,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__VRControllersRecorder__TypeSerializationBind
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3206))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3206))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5840))
 // CS Name: ::VRControllersRecorder::TypeSerializationBinder*
 class CORDL_TYPE __VRControllersRecorder__TypeSerializationBinder : public ::System::Runtime::Serialization::SerializationBinder {
@@ -178,209 +178,209 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__VRControllers
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5841))
 // CS Name: ::VRControllersRecorder::SavedData::KeyframeSerializable*
 class CORDL_TYPE __VRControllersRecorder__SavedData__KeyframeSerializable : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _xPos1, offset 0x10, size 0x4
-  __declspec(property(get = __get__xPos1, put = __set__xPos1)) float_t _xPos1;
+  __declspec(property(get = __cordl_internal_get__xPos1, put = __cordl_internal_set__xPos1)) float_t _xPos1;
 
   /// @brief Field _yPos1, offset 0x14, size 0x4
-  __declspec(property(get = __get__yPos1, put = __set__yPos1)) float_t _yPos1;
+  __declspec(property(get = __cordl_internal_get__yPos1, put = __cordl_internal_set__yPos1)) float_t _yPos1;
 
   /// @brief Field _zPos1, offset 0x18, size 0x4
-  __declspec(property(get = __get__zPos1, put = __set__zPos1)) float_t _zPos1;
+  __declspec(property(get = __cordl_internal_get__zPos1, put = __cordl_internal_set__zPos1)) float_t _zPos1;
 
   /// @brief Field _xPos2, offset 0x1c, size 0x4
-  __declspec(property(get = __get__xPos2, put = __set__xPos2)) float_t _xPos2;
+  __declspec(property(get = __cordl_internal_get__xPos2, put = __cordl_internal_set__xPos2)) float_t _xPos2;
 
   /// @brief Field _yPos2, offset 0x20, size 0x4
-  __declspec(property(get = __get__yPos2, put = __set__yPos2)) float_t _yPos2;
+  __declspec(property(get = __cordl_internal_get__yPos2, put = __cordl_internal_set__yPos2)) float_t _yPos2;
 
   /// @brief Field _zPos2, offset 0x24, size 0x4
-  __declspec(property(get = __get__zPos2, put = __set__zPos2)) float_t _zPos2;
+  __declspec(property(get = __cordl_internal_get__zPos2, put = __cordl_internal_set__zPos2)) float_t _zPos2;
 
   /// @brief Field _xPos3, offset 0x28, size 0x4
-  __declspec(property(get = __get__xPos3, put = __set__xPos3)) float_t _xPos3;
+  __declspec(property(get = __cordl_internal_get__xPos3, put = __cordl_internal_set__xPos3)) float_t _xPos3;
 
   /// @brief Field _yPos3, offset 0x2c, size 0x4
-  __declspec(property(get = __get__yPos3, put = __set__yPos3)) float_t _yPos3;
+  __declspec(property(get = __cordl_internal_get__yPos3, put = __cordl_internal_set__yPos3)) float_t _yPos3;
 
   /// @brief Field _zPos3, offset 0x30, size 0x4
-  __declspec(property(get = __get__zPos3, put = __set__zPos3)) float_t _zPos3;
+  __declspec(property(get = __cordl_internal_get__zPos3, put = __cordl_internal_set__zPos3)) float_t _zPos3;
 
   /// @brief Field _xRot1, offset 0x34, size 0x4
-  __declspec(property(get = __get__xRot1, put = __set__xRot1)) float_t _xRot1;
+  __declspec(property(get = __cordl_internal_get__xRot1, put = __cordl_internal_set__xRot1)) float_t _xRot1;
 
   /// @brief Field _yRot1, offset 0x38, size 0x4
-  __declspec(property(get = __get__yRot1, put = __set__yRot1)) float_t _yRot1;
+  __declspec(property(get = __cordl_internal_get__yRot1, put = __cordl_internal_set__yRot1)) float_t _yRot1;
 
   /// @brief Field _zRot1, offset 0x3c, size 0x4
-  __declspec(property(get = __get__zRot1, put = __set__zRot1)) float_t _zRot1;
+  __declspec(property(get = __cordl_internal_get__zRot1, put = __cordl_internal_set__zRot1)) float_t _zRot1;
 
   /// @brief Field _wRot1, offset 0x40, size 0x4
-  __declspec(property(get = __get__wRot1, put = __set__wRot1)) float_t _wRot1;
+  __declspec(property(get = __cordl_internal_get__wRot1, put = __cordl_internal_set__wRot1)) float_t _wRot1;
 
   /// @brief Field _xRot2, offset 0x44, size 0x4
-  __declspec(property(get = __get__xRot2, put = __set__xRot2)) float_t _xRot2;
+  __declspec(property(get = __cordl_internal_get__xRot2, put = __cordl_internal_set__xRot2)) float_t _xRot2;
 
   /// @brief Field _yRot2, offset 0x48, size 0x4
-  __declspec(property(get = __get__yRot2, put = __set__yRot2)) float_t _yRot2;
+  __declspec(property(get = __cordl_internal_get__yRot2, put = __cordl_internal_set__yRot2)) float_t _yRot2;
 
   /// @brief Field _zRot2, offset 0x4c, size 0x4
-  __declspec(property(get = __get__zRot2, put = __set__zRot2)) float_t _zRot2;
+  __declspec(property(get = __cordl_internal_get__zRot2, put = __cordl_internal_set__zRot2)) float_t _zRot2;
 
   /// @brief Field _wRot2, offset 0x50, size 0x4
-  __declspec(property(get = __get__wRot2, put = __set__wRot2)) float_t _wRot2;
+  __declspec(property(get = __cordl_internal_get__wRot2, put = __cordl_internal_set__wRot2)) float_t _wRot2;
 
   /// @brief Field _xRot3, offset 0x54, size 0x4
-  __declspec(property(get = __get__xRot3, put = __set__xRot3)) float_t _xRot3;
+  __declspec(property(get = __cordl_internal_get__xRot3, put = __cordl_internal_set__xRot3)) float_t _xRot3;
 
   /// @brief Field _yRot3, offset 0x58, size 0x4
-  __declspec(property(get = __get__yRot3, put = __set__yRot3)) float_t _yRot3;
+  __declspec(property(get = __cordl_internal_get__yRot3, put = __cordl_internal_set__yRot3)) float_t _yRot3;
 
   /// @brief Field _zRot3, offset 0x5c, size 0x4
-  __declspec(property(get = __get__zRot3, put = __set__zRot3)) float_t _zRot3;
+  __declspec(property(get = __cordl_internal_get__zRot3, put = __cordl_internal_set__zRot3)) float_t _zRot3;
 
   /// @brief Field _wRot3, offset 0x60, size 0x4
-  __declspec(property(get = __get__wRot3, put = __set__wRot3)) float_t _wRot3;
+  __declspec(property(get = __cordl_internal_get__wRot3, put = __cordl_internal_set__wRot3)) float_t _wRot3;
 
   /// @brief Field _time, offset 0x64, size 0x4
-  __declspec(property(get = __get__time, put = __set__time)) float_t _time;
+  __declspec(property(get = __cordl_internal_get__time, put = __cordl_internal_set__time)) float_t _time;
 
-  constexpr float_t& __get__xPos1();
+  constexpr float_t& __cordl_internal_get__xPos1();
 
-  constexpr float_t const& __get__xPos1() const;
+  constexpr float_t const& __cordl_internal_get__xPos1() const;
 
-  constexpr void __set__xPos1(float_t value);
+  constexpr void __cordl_internal_set__xPos1(float_t value);
 
-  constexpr float_t& __get__yPos1();
+  constexpr float_t& __cordl_internal_get__yPos1();
 
-  constexpr float_t const& __get__yPos1() const;
+  constexpr float_t const& __cordl_internal_get__yPos1() const;
 
-  constexpr void __set__yPos1(float_t value);
+  constexpr void __cordl_internal_set__yPos1(float_t value);
 
-  constexpr float_t& __get__zPos1();
+  constexpr float_t& __cordl_internal_get__zPos1();
 
-  constexpr float_t const& __get__zPos1() const;
+  constexpr float_t const& __cordl_internal_get__zPos1() const;
 
-  constexpr void __set__zPos1(float_t value);
+  constexpr void __cordl_internal_set__zPos1(float_t value);
 
-  constexpr float_t& __get__xPos2();
+  constexpr float_t& __cordl_internal_get__xPos2();
 
-  constexpr float_t const& __get__xPos2() const;
+  constexpr float_t const& __cordl_internal_get__xPos2() const;
 
-  constexpr void __set__xPos2(float_t value);
+  constexpr void __cordl_internal_set__xPos2(float_t value);
 
-  constexpr float_t& __get__yPos2();
+  constexpr float_t& __cordl_internal_get__yPos2();
 
-  constexpr float_t const& __get__yPos2() const;
+  constexpr float_t const& __cordl_internal_get__yPos2() const;
 
-  constexpr void __set__yPos2(float_t value);
+  constexpr void __cordl_internal_set__yPos2(float_t value);
 
-  constexpr float_t& __get__zPos2();
+  constexpr float_t& __cordl_internal_get__zPos2();
 
-  constexpr float_t const& __get__zPos2() const;
+  constexpr float_t const& __cordl_internal_get__zPos2() const;
 
-  constexpr void __set__zPos2(float_t value);
+  constexpr void __cordl_internal_set__zPos2(float_t value);
 
-  constexpr float_t& __get__xPos3();
+  constexpr float_t& __cordl_internal_get__xPos3();
 
-  constexpr float_t const& __get__xPos3() const;
+  constexpr float_t const& __cordl_internal_get__xPos3() const;
 
-  constexpr void __set__xPos3(float_t value);
+  constexpr void __cordl_internal_set__xPos3(float_t value);
 
-  constexpr float_t& __get__yPos3();
+  constexpr float_t& __cordl_internal_get__yPos3();
 
-  constexpr float_t const& __get__yPos3() const;
+  constexpr float_t const& __cordl_internal_get__yPos3() const;
 
-  constexpr void __set__yPos3(float_t value);
+  constexpr void __cordl_internal_set__yPos3(float_t value);
 
-  constexpr float_t& __get__zPos3();
+  constexpr float_t& __cordl_internal_get__zPos3();
 
-  constexpr float_t const& __get__zPos3() const;
+  constexpr float_t const& __cordl_internal_get__zPos3() const;
 
-  constexpr void __set__zPos3(float_t value);
+  constexpr void __cordl_internal_set__zPos3(float_t value);
 
-  constexpr float_t& __get__xRot1();
+  constexpr float_t& __cordl_internal_get__xRot1();
 
-  constexpr float_t const& __get__xRot1() const;
+  constexpr float_t const& __cordl_internal_get__xRot1() const;
 
-  constexpr void __set__xRot1(float_t value);
+  constexpr void __cordl_internal_set__xRot1(float_t value);
 
-  constexpr float_t& __get__yRot1();
+  constexpr float_t& __cordl_internal_get__yRot1();
 
-  constexpr float_t const& __get__yRot1() const;
+  constexpr float_t const& __cordl_internal_get__yRot1() const;
 
-  constexpr void __set__yRot1(float_t value);
+  constexpr void __cordl_internal_set__yRot1(float_t value);
 
-  constexpr float_t& __get__zRot1();
+  constexpr float_t& __cordl_internal_get__zRot1();
 
-  constexpr float_t const& __get__zRot1() const;
+  constexpr float_t const& __cordl_internal_get__zRot1() const;
 
-  constexpr void __set__zRot1(float_t value);
+  constexpr void __cordl_internal_set__zRot1(float_t value);
 
-  constexpr float_t& __get__wRot1();
+  constexpr float_t& __cordl_internal_get__wRot1();
 
-  constexpr float_t const& __get__wRot1() const;
+  constexpr float_t const& __cordl_internal_get__wRot1() const;
 
-  constexpr void __set__wRot1(float_t value);
+  constexpr void __cordl_internal_set__wRot1(float_t value);
 
-  constexpr float_t& __get__xRot2();
+  constexpr float_t& __cordl_internal_get__xRot2();
 
-  constexpr float_t const& __get__xRot2() const;
+  constexpr float_t const& __cordl_internal_get__xRot2() const;
 
-  constexpr void __set__xRot2(float_t value);
+  constexpr void __cordl_internal_set__xRot2(float_t value);
 
-  constexpr float_t& __get__yRot2();
+  constexpr float_t& __cordl_internal_get__yRot2();
 
-  constexpr float_t const& __get__yRot2() const;
+  constexpr float_t const& __cordl_internal_get__yRot2() const;
 
-  constexpr void __set__yRot2(float_t value);
+  constexpr void __cordl_internal_set__yRot2(float_t value);
 
-  constexpr float_t& __get__zRot2();
+  constexpr float_t& __cordl_internal_get__zRot2();
 
-  constexpr float_t const& __get__zRot2() const;
+  constexpr float_t const& __cordl_internal_get__zRot2() const;
 
-  constexpr void __set__zRot2(float_t value);
+  constexpr void __cordl_internal_set__zRot2(float_t value);
 
-  constexpr float_t& __get__wRot2();
+  constexpr float_t& __cordl_internal_get__wRot2();
 
-  constexpr float_t const& __get__wRot2() const;
+  constexpr float_t const& __cordl_internal_get__wRot2() const;
 
-  constexpr void __set__wRot2(float_t value);
+  constexpr void __cordl_internal_set__wRot2(float_t value);
 
-  constexpr float_t& __get__xRot3();
+  constexpr float_t& __cordl_internal_get__xRot3();
 
-  constexpr float_t const& __get__xRot3() const;
+  constexpr float_t const& __cordl_internal_get__xRot3() const;
 
-  constexpr void __set__xRot3(float_t value);
+  constexpr void __cordl_internal_set__xRot3(float_t value);
 
-  constexpr float_t& __get__yRot3();
+  constexpr float_t& __cordl_internal_get__yRot3();
 
-  constexpr float_t const& __get__yRot3() const;
+  constexpr float_t const& __cordl_internal_get__yRot3() const;
 
-  constexpr void __set__yRot3(float_t value);
+  constexpr void __cordl_internal_set__yRot3(float_t value);
 
-  constexpr float_t& __get__zRot3();
+  constexpr float_t& __cordl_internal_get__zRot3();
 
-  constexpr float_t const& __get__zRot3() const;
+  constexpr float_t const& __cordl_internal_get__zRot3() const;
 
-  constexpr void __set__zRot3(float_t value);
+  constexpr void __cordl_internal_set__zRot3(float_t value);
 
-  constexpr float_t& __get__wRot3();
+  constexpr float_t& __cordl_internal_get__wRot3();
 
-  constexpr float_t const& __get__wRot3() const;
+  constexpr float_t const& __cordl_internal_get__wRot3() const;
 
-  constexpr void __set__wRot3(float_t value);
+  constexpr void __cordl_internal_set__wRot3(float_t value);
 
-  constexpr float_t& __get__time();
+  constexpr float_t& __cordl_internal_get__time();
 
-  constexpr float_t const& __get__time() const;
+  constexpr float_t const& __cordl_internal_get__time() const;
 
-  constexpr void __set__time(float_t value);
+  constexpr void __cordl_internal_set__time(float_t value);
 
   static inline ::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable* New_ctor();
 
@@ -521,7 +521,7 @@ static_assert(offsetof(::GlobalNamespace::__VRControllersRecorder__SavedData__Ke
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5842))
 // CS Name: ::VRControllersRecorder::SavedData*
 class CORDL_TYPE __VRControllersRecorder__SavedData : public ::System::Object {
@@ -530,16 +530,17 @@ public:
   using KeyframeSerializable = ::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable;
 
   /// @brief Field _keyframes, offset 0x10, size 0x8
-  __declspec(property(get = __get__keyframes, put = __set__keyframes))::ArrayW<::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable*,
-                                                                               ::Array<::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable*>*> _keyframes;
+  __declspec(property(get = __cordl_internal_get__keyframes,
+                      put = __cordl_internal_set__keyframes))::ArrayW<::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable*,
+                                                                      ::Array<::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable*>*> _keyframes;
 
   constexpr ::ArrayW<::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable*, ::Array<::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable*>*>&
-  __get__keyframes();
+  __cordl_internal_get__keyframes();
 
   constexpr ::ArrayW<::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable*, ::Array<::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable*>*> const&
-  __get__keyframes() const;
+  __cordl_internal_get__keyframes() const;
 
-  constexpr void __set__keyframes(
+  constexpr void __cordl_internal_set__keyframes(
       ::ArrayW<::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable*, ::Array<::GlobalNamespace::__VRControllersRecorder__SavedData__KeyframeSerializable*>*> value);
 
   static inline ::GlobalNamespace::__VRControllersRecorder__SavedData* New_ctor();
@@ -576,7 +577,7 @@ static_assert(offsetof(::GlobalNamespace::__VRControllersRecorder__SavedData, __
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5843))
 // CS Name: ::VRControllersRecorder::Mode
 struct CORDL_TYPE __VRControllersRecorder__Mode {
@@ -630,32 +631,32 @@ static_assert(offsetof(::GlobalNamespace::__VRControllersRecorder__Mode, value__
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5844))
 // CS Name: ::VRControllersRecorder::Keyframe*
 class CORDL_TYPE __VRControllersRecorder__Keyframe : public ::System::Object {
 public:
   // Declarations
   /// @brief Field pos1, offset 0x10, size 0xc
-  __declspec(property(get = __get_pos1, put = __set_pos1))::UnityEngine::Vector3 pos1;
+  __declspec(property(get = __cordl_internal_get_pos1, put = __cordl_internal_set_pos1))::UnityEngine::Vector3 pos1;
 
   /// @brief Field pos2, offset 0x1c, size 0xc
-  __declspec(property(get = __get_pos2, put = __set_pos2))::UnityEngine::Vector3 pos2;
+  __declspec(property(get = __cordl_internal_get_pos2, put = __cordl_internal_set_pos2))::UnityEngine::Vector3 pos2;
 
   /// @brief Field pos3, offset 0x28, size 0xc
-  __declspec(property(get = __get_pos3, put = __set_pos3))::UnityEngine::Vector3 pos3;
+  __declspec(property(get = __cordl_internal_get_pos3, put = __cordl_internal_set_pos3))::UnityEngine::Vector3 pos3;
 
   /// @brief Field rot1, offset 0x34, size 0x10
-  __declspec(property(get = __get_rot1, put = __set_rot1))::UnityEngine::Quaternion rot1;
+  __declspec(property(get = __cordl_internal_get_rot1, put = __cordl_internal_set_rot1))::UnityEngine::Quaternion rot1;
 
   /// @brief Field rot2, offset 0x44, size 0x10
-  __declspec(property(get = __get_rot2, put = __set_rot2))::UnityEngine::Quaternion rot2;
+  __declspec(property(get = __cordl_internal_get_rot2, put = __cordl_internal_set_rot2))::UnityEngine::Quaternion rot2;
 
   /// @brief Field rot3, offset 0x54, size 0x10
-  __declspec(property(get = __get_rot3, put = __set_rot3))::UnityEngine::Quaternion rot3;
+  __declspec(property(get = __cordl_internal_get_rot3, put = __cordl_internal_set_rot3))::UnityEngine::Quaternion rot3;
 
   /// @brief Field time, offset 0x64, size 0x4
-  __declspec(property(get = __get_time, put = __set_time)) float_t time;
+  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) float_t time;
 
   __declspec(property(get = get_leftControllerPose))::UnityEngine::Pose leftControllerPose;
 
@@ -675,47 +676,47 @@ public:
   /// @brief Convert to "::GlobalNamespace::IConstructorStringGenerator"
   constexpr ::GlobalNamespace::IConstructorStringGenerator* i___GlobalNamespace__IConstructorStringGenerator() noexcept;
 
-  constexpr ::UnityEngine::Vector3& __get_pos1();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_pos1();
 
-  constexpr ::UnityEngine::Vector3 const& __get_pos1() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_pos1() const;
 
-  constexpr void __set_pos1(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_pos1(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_pos2();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_pos2();
 
-  constexpr ::UnityEngine::Vector3 const& __get_pos2() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_pos2() const;
 
-  constexpr void __set_pos2(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_pos2(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_pos3();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_pos3();
 
-  constexpr ::UnityEngine::Vector3 const& __get_pos3() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_pos3() const;
 
-  constexpr void __set_pos3(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_pos3(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_rot1();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_rot1();
 
-  constexpr ::UnityEngine::Quaternion const& __get_rot1() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_rot1() const;
 
-  constexpr void __set_rot1(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_rot1(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Quaternion& __get_rot2();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_rot2();
 
-  constexpr ::UnityEngine::Quaternion const& __get_rot2() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_rot2() const;
 
-  constexpr void __set_rot2(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_rot2(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Quaternion& __get_rot3();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_rot3();
 
-  constexpr ::UnityEngine::Quaternion const& __get_rot3() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_rot3() const;
 
-  constexpr void __set_rot3(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_rot3(::UnityEngine::Quaternion value);
 
-  constexpr float_t& __get_time();
+  constexpr float_t& __cordl_internal_get_time();
 
-  constexpr float_t const& __get_time() const;
+  constexpr float_t const& __cordl_internal_get_time() const;
 
-  constexpr void __set_time(float_t value);
+  constexpr void __cordl_internal_set_time(float_t value);
 
   /// @brief Method get_leftControllerPose, addr 0x22f2e68, size 0x28, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose get_leftControllerPose();
@@ -821,7 +822,7 @@ static_assert(offsetof(::GlobalNamespace::__VRControllersRecorder__Keyframe, ___
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5845))
 // CS Name: ::VRControllersRecorder::State::<>c*
 class CORDL_TYPE __VRControllersRecorder__State____c : public ::System::Object {
@@ -873,7 +874,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__VRControllers
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10057))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5846))
 // CS Name: ::VRControllersRecorder::State*
 class CORDL_TYPE __VRControllersRecorder__State : public ::System::Object {
@@ -882,44 +883,45 @@ public:
   using __c = ::GlobalNamespace::__VRControllersRecorder__State____c;
 
   /// @brief Field _keyframes, offset 0x10, size 0x8
-  __declspec(property(get = __get__keyframes, put = __set__keyframes))::System::Collections::Generic::List_1<::GlobalNamespace::__VRControllersRecorder__Keyframe*>* _keyframes;
+  __declspec(property(get = __cordl_internal_get__keyframes,
+                      put = __cordl_internal_set__keyframes))::System::Collections::Generic::List_1<::GlobalNamespace::__VRControllersRecorder__Keyframe*>* _keyframes;
 
   /// @brief Field leftControllerOffset, offset 0x18, size 0x1c
-  __declspec(property(get = __get_leftControllerOffset, put = __set_leftControllerOffset))::UnityEngine::Pose leftControllerOffset;
+  __declspec(property(get = __cordl_internal_get_leftControllerOffset, put = __cordl_internal_set_leftControllerOffset))::UnityEngine::Pose leftControllerOffset;
 
   /// @brief Field rightControllerOffset, offset 0x34, size 0x1c
-  __declspec(property(get = __get_rightControllerOffset, put = __set_rightControllerOffset))::UnityEngine::Pose rightControllerOffset;
+  __declspec(property(get = __cordl_internal_get_rightControllerOffset, put = __cordl_internal_set_rightControllerOffset))::UnityEngine::Pose rightControllerOffset;
 
   /// @brief Field _version, offset 0x50, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) uint32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) uint32_t _version;
 
   __declspec(property(get = get_keyframes))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__VRControllersRecorder__Keyframe*>* keyframes;
 
   __declspec(property(get = get_version)) uint32_t version;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__VRControllersRecorder__Keyframe*>*& __get__keyframes();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__VRControllersRecorder__Keyframe*>*& __cordl_internal_get__keyframes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__VRControllersRecorder__Keyframe*>*> const& __get__keyframes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__VRControllersRecorder__Keyframe*>*> const& __cordl_internal_get__keyframes() const;
 
-  constexpr void __set__keyframes(::System::Collections::Generic::List_1<::GlobalNamespace::__VRControllersRecorder__Keyframe*>* value);
+  constexpr void __cordl_internal_set__keyframes(::System::Collections::Generic::List_1<::GlobalNamespace::__VRControllersRecorder__Keyframe*>* value);
 
-  constexpr ::UnityEngine::Pose& __get_leftControllerOffset();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get_leftControllerOffset();
 
-  constexpr ::UnityEngine::Pose const& __get_leftControllerOffset() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get_leftControllerOffset() const;
 
-  constexpr void __set_leftControllerOffset(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set_leftControllerOffset(::UnityEngine::Pose value);
 
-  constexpr ::UnityEngine::Pose& __get_rightControllerOffset();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get_rightControllerOffset();
 
-  constexpr ::UnityEngine::Pose const& __get_rightControllerOffset() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get_rightControllerOffset() const;
 
-  constexpr void __set_rightControllerOffset(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set_rightControllerOffset(::UnityEngine::Pose value);
 
-  constexpr uint32_t& __get__version();
+  constexpr uint32_t& __cordl_internal_get__version();
 
-  constexpr uint32_t const& __get__version() const;
+  constexpr uint32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(uint32_t value);
+  constexpr void __cordl_internal_set__version(uint32_t value);
 
   static inline ::GlobalNamespace::__VRControllersRecorder__State* New_ctor(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__VRControllersRecorder__Keyframe*>* keyframes,
                                                                             ::UnityEngine::Pose leftControllerOffset, ::UnityEngine::Pose rightControllerOffset);
@@ -1013,7 +1015,7 @@ static_assert(offsetof(::GlobalNamespace::__VRControllersRecorder__State, ____ve
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(5843)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5843)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5847))
 // CS Name: ::VRControllersRecorder*
 class CORDL_TYPE VRControllersRecorder : public ::UnityEngine::MonoBehaviour {
@@ -1030,91 +1032,93 @@ public:
   using TypeSerializationBinder = ::GlobalNamespace::__VRControllersRecorder__TypeSerializationBinder;
 
   /// @brief Field _recordingTextAsset, offset 0x18, size 0x8
-  __declspec(property(get = __get__recordingTextAsset, put = __set__recordingTextAsset))::UnityEngine::TextAsset* _recordingTextAsset;
+  __declspec(property(get = __cordl_internal_get__recordingTextAsset, put = __cordl_internal_set__recordingTextAsset))::UnityW<::UnityEngine::TextAsset> _recordingTextAsset;
 
   /// @brief Field _recordingFileName, offset 0x20, size 0x8
-  __declspec(property(get = __get__recordingFileName, put = __set__recordingFileName))::StringW _recordingFileName;
+  __declspec(property(get = __cordl_internal_get__recordingFileName, put = __cordl_internal_set__recordingFileName))::StringW _recordingFileName;
 
   /// @brief Field _mode, offset 0x28, size 0x4
-  __declspec(property(get = __get__mode, put = __set__mode))::GlobalNamespace::__VRControllersRecorder__Mode _mode;
+  __declspec(property(get = __cordl_internal_get__mode, put = __cordl_internal_set__mode))::GlobalNamespace::__VRControllersRecorder__Mode _mode;
 
   /// @brief Field _dontMoveHead, offset 0x2c, size 0x1
-  __declspec(property(get = __get__dontMoveHead, put = __set__dontMoveHead)) bool _dontMoveHead;
+  __declspec(property(get = __cordl_internal_get__dontMoveHead, put = __cordl_internal_set__dontMoveHead)) bool _dontMoveHead;
 
   /// @brief Field _changeToNonVRCamera, offset 0x2d, size 0x1
-  __declspec(property(get = __get__changeToNonVRCamera, put = __set__changeToNonVRCamera)) bool _changeToNonVRCamera;
+  __declspec(property(get = __cordl_internal_get__changeToNonVRCamera, put = __cordl_internal_set__changeToNonVRCamera)) bool _changeToNonVRCamera;
 
   /// @brief Field _adjustSabersPositionBasedOnHeadPosition, offset 0x2e, size 0x1
-  __declspec(property(get = __get__adjustSabersPositionBasedOnHeadPosition, put = __set__adjustSabersPositionBasedOnHeadPosition)) bool _adjustSabersPositionBasedOnHeadPosition;
+  __declspec(property(get = __cordl_internal_get__adjustSabersPositionBasedOnHeadPosition,
+                      put = __cordl_internal_set__adjustSabersPositionBasedOnHeadPosition)) bool _adjustSabersPositionBasedOnHeadPosition;
 
   /// @brief Field _headRotationOffset, offset 0x30, size 0xc
-  __declspec(property(get = __get__headRotationOffset, put = __set__headRotationOffset))::UnityEngine::Vector3 _headRotationOffset;
+  __declspec(property(get = __cordl_internal_get__headRotationOffset, put = __cordl_internal_set__headRotationOffset))::UnityEngine::Vector3 _headRotationOffset;
 
   /// @brief Field _headPositionOffset, offset 0x3c, size 0xc
-  __declspec(property(get = __get__headPositionOffset, put = __set__headPositionOffset))::UnityEngine::Vector3 _headPositionOffset;
+  __declspec(property(get = __cordl_internal_get__headPositionOffset, put = __cordl_internal_set__headPositionOffset))::UnityEngine::Vector3 _headPositionOffset;
 
   /// @brief Field _headSmooth, offset 0x48, size 0x4
-  __declspec(property(get = __get__headSmooth, put = __set__headSmooth)) float_t _headSmooth;
+  __declspec(property(get = __cordl_internal_get__headSmooth, put = __cordl_internal_set__headSmooth)) float_t _headSmooth;
 
   /// @brief Field _cameraFOV, offset 0x4c, size 0x4
-  __declspec(property(get = __get__cameraFOV, put = __set__cameraFOV)) float_t _cameraFOV;
+  __declspec(property(get = __cordl_internal_get__cameraFOV, put = __cordl_internal_set__cameraFOV)) float_t _cameraFOV;
 
   /// @brief Field _controllersTimeOffset, offset 0x50, size 0x4
-  __declspec(property(get = __get__controllersTimeOffset, put = __set__controllersTimeOffset)) float_t _controllersTimeOffset;
+  __declspec(property(get = __cordl_internal_get__controllersTimeOffset, put = __cordl_internal_set__controllersTimeOffset)) float_t _controllersTimeOffset;
 
   /// @brief Field _controllersSmooth, offset 0x54, size 0x4
-  __declspec(property(get = __get__controllersSmooth, put = __set__controllersSmooth)) float_t _controllersSmooth;
+  __declspec(property(get = __cordl_internal_get__controllersSmooth, put = __cordl_internal_set__controllersSmooth)) float_t _controllersSmooth;
 
   /// @brief Field _controller0, offset 0x58, size 0x8
-  __declspec(property(get = __get__controller0, put = __set__controller0))::GlobalNamespace::VRController* _controller0;
+  __declspec(property(get = __cordl_internal_get__controller0, put = __cordl_internal_set__controller0))::UnityW<::GlobalNamespace::VRController> _controller0;
 
   /// @brief Field _controller1, offset 0x60, size 0x8
-  __declspec(property(get = __get__controller1, put = __set__controller1))::GlobalNamespace::VRController* _controller1;
+  __declspec(property(get = __cordl_internal_get__controller1, put = __cordl_internal_set__controller1))::UnityW<::GlobalNamespace::VRController> _controller1;
 
   /// @brief Field _headTransform, offset 0x68, size 0x8
-  __declspec(property(get = __get__headTransform, put = __set__headTransform))::UnityEngine::Transform* _headTransform;
+  __declspec(property(get = __cordl_internal_get__headTransform, put = __cordl_internal_set__headTransform))::UnityW<::UnityEngine::Transform> _headTransform;
 
   /// @brief Field _camera, offset 0x70, size 0x8
-  __declspec(property(get = __get__camera, put = __set__camera))::UnityEngine::Camera* _camera;
+  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera))::UnityW<::UnityEngine::Camera> _camera;
 
   /// @brief Field _recorderCamera, offset 0x78, size 0x8
-  __declspec(property(get = __get__recorderCamera, put = __set__recorderCamera))::UnityEngine::Camera* _recorderCamera;
+  __declspec(property(get = __cordl_internal_get__recorderCamera, put = __cordl_internal_set__recorderCamera))::UnityW<::UnityEngine::Camera> _recorderCamera;
 
   /// @brief Field _spawnRotationTransform, offset 0x80, size 0x8
-  __declspec(property(get = __get__spawnRotationTransform, put = __set__spawnRotationTransform))::UnityEngine::Transform* _spawnRotationTransform;
+  __declspec(property(get = __cordl_internal_get__spawnRotationTransform, put = __cordl_internal_set__spawnRotationTransform))::UnityW<::UnityEngine::Transform> _spawnRotationTransform;
 
   /// @brief Field _originTransform, offset 0x88, size 0x8
-  __declspec(property(get = __get__originTransform, put = __set__originTransform))::UnityEngine::Transform* _originTransform;
+  __declspec(property(get = __cordl_internal_get__originTransform, put = __cordl_internal_set__originTransform))::UnityW<::UnityEngine::Transform> _originTransform;
 
   /// @brief Field _audioTimeSyncController, offset 0x90, size 0x8
-  __declspec(property(get = __get__audioTimeSyncController, put = __set__audioTimeSyncController))::GlobalNamespace::AudioTimeSyncController* _audioTimeSyncController;
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
+                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
   /// @brief Field _controller0Transform, offset 0x98, size 0x8
-  __declspec(property(get = __get__controller0Transform, put = __set__controller0Transform))::UnityEngine::Transform* _controller0Transform;
+  __declspec(property(get = __cordl_internal_get__controller0Transform, put = __cordl_internal_set__controller0Transform))::UnityW<::UnityEngine::Transform> _controller0Transform;
 
   /// @brief Field _controller1Transform, offset 0xa0, size 0x8
-  __declspec(property(get = __get__controller1Transform, put = __set__controller1Transform))::UnityEngine::Transform* _controller1Transform;
+  __declspec(property(get = __cordl_internal_get__controller1Transform, put = __cordl_internal_set__controller1Transform))::UnityW<::UnityEngine::Transform> _controller1Transform;
 
   /// @brief Field _hasHead, offset 0xa8, size 0x1
-  __declspec(property(get = __get__hasHead, put = __set__hasHead)) bool _hasHead;
+  __declspec(property(get = __cordl_internal_get__hasHead, put = __cordl_internal_set__hasHead)) bool _hasHead;
 
   /// @brief Field _hasController0, offset 0xa9, size 0x1
-  __declspec(property(get = __get__hasController0, put = __set__hasController0)) bool _hasController0;
+  __declspec(property(get = __cordl_internal_get__hasController0, put = __cordl_internal_set__hasController0)) bool _hasController0;
 
   /// @brief Field _hasController1, offset 0xaa, size 0x1
-  __declspec(property(get = __get__hasController1, put = __set__hasController1)) bool _hasController1;
+  __declspec(property(get = __cordl_internal_get__hasController1, put = __cordl_internal_set__hasController1)) bool _hasController1;
 
   /// @brief Field _state, offset 0xb0, size 0x8
-  __declspec(property(get = __get__state, put = __set__state))::GlobalNamespace::__VRControllersRecorder__State* _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::GlobalNamespace::__VRControllersRecorder__State* _state;
 
   /// @brief Field _keyframeIndex, offset 0xb8, size 0x4
-  __declspec(property(get = __get__keyframeIndex, put = __set__keyframeIndex)) int32_t _keyframeIndex;
+  __declspec(property(get = __cordl_internal_get__keyframeIndex, put = __cordl_internal_set__keyframeIndex)) int32_t _keyframeIndex;
 
   __declspec(property(get = get_currentPoses))::System::ValueTuple_3<::UnityEngine::Pose, ::UnityEngine::Pose, ::UnityEngine::Pose> currentPoses;
 
   __declspec(property(get = get_mode, put = set_mode))::GlobalNamespace::__VRControllersRecorder__Mode mode;
 
-  __declspec(property(get = get_recordingTextAsset, put = set_recordingTextAsset))::UnityEngine::TextAsset* recordingTextAsset;
+  __declspec(property(get = get_recordingTextAsset, put = set_recordingTextAsset))::UnityW<::UnityEngine::TextAsset> recordingTextAsset;
 
   __declspec(property(get = get_recordingFileName, put = set_recordingFileName))::StringW recordingFileName;
 
@@ -1122,167 +1126,167 @@ public:
 
   __declspec(property(get = get_path))::StringW path;
 
-  constexpr ::UnityEngine::TextAsset*& __get__recordingTextAsset();
+  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get__recordingTextAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& __get__recordingTextAsset() const;
+  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get__recordingTextAsset() const;
 
-  constexpr void __set__recordingTextAsset(::UnityEngine::TextAsset* value);
+  constexpr void __cordl_internal_set__recordingTextAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  constexpr ::StringW& __get__recordingFileName();
+  constexpr ::StringW& __cordl_internal_get__recordingFileName();
 
-  constexpr ::StringW const& __get__recordingFileName() const;
+  constexpr ::StringW const& __cordl_internal_get__recordingFileName() const;
 
-  constexpr void __set__recordingFileName(::StringW value);
+  constexpr void __cordl_internal_set__recordingFileName(::StringW value);
 
-  constexpr ::GlobalNamespace::__VRControllersRecorder__Mode& __get__mode();
+  constexpr ::GlobalNamespace::__VRControllersRecorder__Mode& __cordl_internal_get__mode();
 
-  constexpr ::GlobalNamespace::__VRControllersRecorder__Mode const& __get__mode() const;
+  constexpr ::GlobalNamespace::__VRControllersRecorder__Mode const& __cordl_internal_get__mode() const;
 
-  constexpr void __set__mode(::GlobalNamespace::__VRControllersRecorder__Mode value);
+  constexpr void __cordl_internal_set__mode(::GlobalNamespace::__VRControllersRecorder__Mode value);
 
-  constexpr bool& __get__dontMoveHead();
+  constexpr bool& __cordl_internal_get__dontMoveHead();
 
-  constexpr bool const& __get__dontMoveHead() const;
+  constexpr bool const& __cordl_internal_get__dontMoveHead() const;
 
-  constexpr void __set__dontMoveHead(bool value);
+  constexpr void __cordl_internal_set__dontMoveHead(bool value);
 
-  constexpr bool& __get__changeToNonVRCamera();
+  constexpr bool& __cordl_internal_get__changeToNonVRCamera();
 
-  constexpr bool const& __get__changeToNonVRCamera() const;
+  constexpr bool const& __cordl_internal_get__changeToNonVRCamera() const;
 
-  constexpr void __set__changeToNonVRCamera(bool value);
+  constexpr void __cordl_internal_set__changeToNonVRCamera(bool value);
 
-  constexpr bool& __get__adjustSabersPositionBasedOnHeadPosition();
+  constexpr bool& __cordl_internal_get__adjustSabersPositionBasedOnHeadPosition();
 
-  constexpr bool const& __get__adjustSabersPositionBasedOnHeadPosition() const;
+  constexpr bool const& __cordl_internal_get__adjustSabersPositionBasedOnHeadPosition() const;
 
-  constexpr void __set__adjustSabersPositionBasedOnHeadPosition(bool value);
+  constexpr void __cordl_internal_set__adjustSabersPositionBasedOnHeadPosition(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get__headRotationOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__headRotationOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__headRotationOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__headRotationOffset() const;
 
-  constexpr void __set__headRotationOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__headRotationOffset(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__headPositionOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__headPositionOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__headPositionOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__headPositionOffset() const;
 
-  constexpr void __set__headPositionOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__headPositionOffset(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get__headSmooth();
+  constexpr float_t& __cordl_internal_get__headSmooth();
 
-  constexpr float_t const& __get__headSmooth() const;
+  constexpr float_t const& __cordl_internal_get__headSmooth() const;
 
-  constexpr void __set__headSmooth(float_t value);
+  constexpr void __cordl_internal_set__headSmooth(float_t value);
 
-  constexpr float_t& __get__cameraFOV();
+  constexpr float_t& __cordl_internal_get__cameraFOV();
 
-  constexpr float_t const& __get__cameraFOV() const;
+  constexpr float_t const& __cordl_internal_get__cameraFOV() const;
 
-  constexpr void __set__cameraFOV(float_t value);
+  constexpr void __cordl_internal_set__cameraFOV(float_t value);
 
-  constexpr float_t& __get__controllersTimeOffset();
+  constexpr float_t& __cordl_internal_get__controllersTimeOffset();
 
-  constexpr float_t const& __get__controllersTimeOffset() const;
+  constexpr float_t const& __cordl_internal_get__controllersTimeOffset() const;
 
-  constexpr void __set__controllersTimeOffset(float_t value);
+  constexpr void __cordl_internal_set__controllersTimeOffset(float_t value);
 
-  constexpr float_t& __get__controllersSmooth();
+  constexpr float_t& __cordl_internal_get__controllersSmooth();
 
-  constexpr float_t const& __get__controllersSmooth() const;
+  constexpr float_t const& __cordl_internal_get__controllersSmooth() const;
 
-  constexpr void __set__controllersSmooth(float_t value);
+  constexpr void __cordl_internal_set__controllersSmooth(float_t value);
 
-  constexpr ::GlobalNamespace::VRController*& __get__controller0();
+  constexpr ::UnityW<::GlobalNamespace::VRController>& __cordl_internal_get__controller0();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VRController*> const& __get__controller0() const;
+  constexpr ::UnityW<::GlobalNamespace::VRController> const& __cordl_internal_get__controller0() const;
 
-  constexpr void __set__controller0(::GlobalNamespace::VRController* value);
+  constexpr void __cordl_internal_set__controller0(::UnityW<::GlobalNamespace::VRController> value);
 
-  constexpr ::GlobalNamespace::VRController*& __get__controller1();
+  constexpr ::UnityW<::GlobalNamespace::VRController>& __cordl_internal_get__controller1();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VRController*> const& __get__controller1() const;
+  constexpr ::UnityW<::GlobalNamespace::VRController> const& __cordl_internal_get__controller1() const;
 
-  constexpr void __set__controller1(::GlobalNamespace::VRController* value);
+  constexpr void __cordl_internal_set__controller1(::UnityW<::GlobalNamespace::VRController> value);
 
-  constexpr ::UnityEngine::Transform*& __get__headTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__headTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__headTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__headTransform() const;
 
-  constexpr void __set__headTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__headTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Camera*& __get__camera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get__camera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
 
-  constexpr void __set__camera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr ::UnityEngine::Camera*& __get__recorderCamera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__recorderCamera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get__recorderCamera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__recorderCamera() const;
 
-  constexpr void __set__recorderCamera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set__recorderCamera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr ::UnityEngine::Transform*& __get__spawnRotationTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__spawnRotationTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__spawnRotationTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__spawnRotationTransform() const;
 
-  constexpr void __set__spawnRotationTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__spawnRotationTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__originTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__originTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__originTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__originTransform() const;
 
-  constexpr void __set__originTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__originTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::GlobalNamespace::AudioTimeSyncController*& __get__audioTimeSyncController();
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& __get__audioTimeSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value);
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  constexpr ::UnityEngine::Transform*& __get__controller0Transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__controller0Transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__controller0Transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__controller0Transform() const;
 
-  constexpr void __set__controller0Transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__controller0Transform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__controller1Transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__controller1Transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__controller1Transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__controller1Transform() const;
 
-  constexpr void __set__controller1Transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__controller1Transform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr bool& __get__hasHead();
+  constexpr bool& __cordl_internal_get__hasHead();
 
-  constexpr bool const& __get__hasHead() const;
+  constexpr bool const& __cordl_internal_get__hasHead() const;
 
-  constexpr void __set__hasHead(bool value);
+  constexpr void __cordl_internal_set__hasHead(bool value);
 
-  constexpr bool& __get__hasController0();
+  constexpr bool& __cordl_internal_get__hasController0();
 
-  constexpr bool const& __get__hasController0() const;
+  constexpr bool const& __cordl_internal_get__hasController0() const;
 
-  constexpr void __set__hasController0(bool value);
+  constexpr void __cordl_internal_set__hasController0(bool value);
 
-  constexpr bool& __get__hasController1();
+  constexpr bool& __cordl_internal_get__hasController1();
 
-  constexpr bool const& __get__hasController1() const;
+  constexpr bool const& __cordl_internal_get__hasController1() const;
 
-  constexpr void __set__hasController1(bool value);
+  constexpr void __cordl_internal_set__hasController1(bool value);
 
-  constexpr ::GlobalNamespace::__VRControllersRecorder__State*& __get__state();
+  constexpr ::GlobalNamespace::__VRControllersRecorder__State*& __cordl_internal_get__state();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRControllersRecorder__State*> const& __get__state() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__VRControllersRecorder__State*> const& __cordl_internal_get__state() const;
 
-  constexpr void __set__state(::GlobalNamespace::__VRControllersRecorder__State* value);
+  constexpr void __cordl_internal_set__state(::GlobalNamespace::__VRControllersRecorder__State* value);
 
-  constexpr int32_t& __get__keyframeIndex();
+  constexpr int32_t& __cordl_internal_get__keyframeIndex();
 
-  constexpr int32_t const& __get__keyframeIndex() const;
+  constexpr int32_t const& __cordl_internal_get__keyframeIndex() const;
 
-  constexpr void __set__keyframeIndex(int32_t value);
+  constexpr void __cordl_internal_set__keyframeIndex(int32_t value);
 
   /// @brief Method get_currentPoses, addr 0x22eed18, size 0x210, virtual false, abstract: false, final false
   inline ::System::ValueTuple_3<::UnityEngine::Pose, ::UnityEngine::Pose, ::UnityEngine::Pose> get_currentPoses();
@@ -1297,7 +1301,7 @@ public:
   inline void set_recordingTextAsset(::UnityEngine::TextAsset* value);
 
   /// @brief Method get_recordingTextAsset, addr 0x22eef40, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextAsset* get_recordingTextAsset();
+  inline ::UnityW<::UnityEngine::TextAsset> get_recordingTextAsset();
 
   /// @brief Method set_recordingFileName, addr 0x22eef48, size 0x8, virtual false, abstract: false, final false
   inline void set_recordingFileName(::StringW value);
@@ -1384,7 +1388,7 @@ public:
   static inline void SerializeSavedData(::System::IO::Stream* dataStream, ::GlobalNamespace::__VRControllersRecorder__SavedData* savedData);
 
   /// @brief Method CreateAnimationClipFromRecording, addr 0x22f2178, size 0xbf8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::AnimationClip* CreateAnimationClipFromRecording(::StringW recordingFilePath);
+  static inline ::UnityW<::UnityEngine::AnimationClip> CreateAnimationClipFromRecording(::StringW recordingFilePath);
 
   static inline ::GlobalNamespace::VRControllersRecorder* New_ctor();
 
@@ -1406,7 +1410,7 @@ protected:
 
 public:
   /// @brief Field _recordingTextAsset, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::TextAsset* ____recordingTextAsset;
+  ::UnityW<::UnityEngine::TextAsset> ____recordingTextAsset;
 
   /// @brief Field _recordingFileName, offset: 0x20, size: 0x8, def value: None
   ::StringW ____recordingFileName;
@@ -1442,34 +1446,34 @@ public:
   float_t ____controllersSmooth;
 
   /// @brief Field _controller0, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::VRController* ____controller0;
+  ::UnityW<::GlobalNamespace::VRController> ____controller0;
 
   /// @brief Field _controller1, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::VRController* ____controller1;
+  ::UnityW<::GlobalNamespace::VRController> ____controller1;
 
   /// @brief Field _headTransform, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____headTransform;
+  ::UnityW<::UnityEngine::Transform> ____headTransform;
 
   /// @brief Field _camera, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::Camera* ____camera;
+  ::UnityW<::UnityEngine::Camera> ____camera;
 
   /// @brief Field _recorderCamera, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::Camera* ____recorderCamera;
+  ::UnityW<::UnityEngine::Camera> ____recorderCamera;
 
   /// @brief Field _spawnRotationTransform, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____spawnRotationTransform;
+  ::UnityW<::UnityEngine::Transform> ____spawnRotationTransform;
 
   /// @brief Field _originTransform, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____originTransform;
+  ::UnityW<::UnityEngine::Transform> ____originTransform;
 
   /// @brief Field _audioTimeSyncController, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::AudioTimeSyncController* ____audioTimeSyncController;
+  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
   /// @brief Field _controller0Transform, offset: 0x98, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____controller0Transform;
+  ::UnityW<::UnityEngine::Transform> ____controller0Transform;
 
   /// @brief Field _controller1Transform, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____controller1Transform;
+  ::UnityW<::UnityEngine::Transform> ____controller1Transform;
 
   /// @brief Field _hasHead, offset: 0xa8, size: 0x1, def value: None
   bool ____hasHead;

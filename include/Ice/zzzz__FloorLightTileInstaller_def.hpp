@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::Ice::FloorLightTileInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11147))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11147))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16169))
 // CS Name: ::Ice::FloorLightTileInstaller*
 class CORDL_TYPE FloorLightTileInstaller : public ::Zenject::ScriptableObjectInstaller {
 public:
   // Declarations
   /// @brief Field _floorLightTilePrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__floorLightTilePrefab, put = __set__floorLightTilePrefab))::Ice::FloorLightTile* _floorLightTilePrefab;
+  __declspec(property(get = __cordl_internal_get__floorLightTilePrefab, put = __cordl_internal_set__floorLightTilePrefab))::UnityW<::Ice::FloorLightTile> _floorLightTilePrefab;
 
-  constexpr ::Ice::FloorLightTile*& __get__floorLightTilePrefab();
+  constexpr ::UnityW<::Ice::FloorLightTile>& __cordl_internal_get__floorLightTilePrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::Ice::FloorLightTile*> const& __get__floorLightTilePrefab() const;
+  constexpr ::UnityW<::Ice::FloorLightTile> const& __cordl_internal_get__floorLightTilePrefab() const;
 
-  constexpr void __set__floorLightTilePrefab(::Ice::FloorLightTile* value);
+  constexpr void __cordl_internal_set__floorLightTilePrefab(::UnityW<::Ice::FloorLightTile> value);
 
   /// @brief Method InstallBindings, addr 0x129fce4, size 0x84, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -55,7 +55,7 @@ protected:
 
 public:
   /// @brief Field _floorLightTilePrefab, offset: 0x20, size: 0x8, def value: None
-  ::Ice::FloorLightTile* ____floorLightTilePrefab;
+  ::UnityW<::Ice::FloorLightTile> ____floorLightTilePrefab;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

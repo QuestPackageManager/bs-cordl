@@ -18,14 +18,14 @@ MARK_REF_PTR_T(::GlobalNamespace::BlueNoiseDithering);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14493))
 // CS Name: ::BlueNoiseDithering*
 class CORDL_TYPE BlueNoiseDithering : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _noiseTexture, offset 0x18, size 0x8
-  __declspec(property(get = __get__noiseTexture, put = __set__noiseTexture))::UnityEngine::Texture2D* _noiseTexture;
+  __declspec(property(get = __cordl_internal_get__noiseTexture, put = __cordl_internal_set__noiseTexture))::UnityW<::UnityEngine::Texture2D> _noiseTexture;
 
   /// @brief Field _noiseParamsID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__noiseParamsID, put = setStaticF__noiseParamsID)) int32_t _noiseParamsID;
@@ -33,11 +33,11 @@ public:
   /// @brief Field _globalNoiseTextureID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__globalNoiseTextureID, put = setStaticF__globalNoiseTextureID)) int32_t _globalNoiseTextureID;
 
-  constexpr ::UnityEngine::Texture2D*& __get__noiseTexture();
+  constexpr ::UnityW<::UnityEngine::Texture2D>& __cordl_internal_get__noiseTexture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture2D*> const& __get__noiseTexture() const;
+  constexpr ::UnityW<::UnityEngine::Texture2D> const& __cordl_internal_get__noiseTexture() const;
 
-  constexpr void __set__noiseTexture(::UnityEngine::Texture2D* value);
+  constexpr void __cordl_internal_set__noiseTexture(::UnityW<::UnityEngine::Texture2D> value);
 
   static inline void setStaticF__noiseParamsID(int32_t value);
 
@@ -70,7 +70,7 @@ protected:
 
 public:
   /// @brief Field _noiseTexture, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Texture2D* ____noiseTexture;
+  ::UnityW<::UnityEngine::Texture2D> ____noiseTexture;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

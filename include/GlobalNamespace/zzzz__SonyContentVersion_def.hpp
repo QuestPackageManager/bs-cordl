@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SonyContentVersion);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4569))
 // CS Name: ::SonyContentVersion::VersionFormat
 struct CORDL_TYPE __SonyContentVersion__VersionFormat {
@@ -74,7 +74,7 @@ static_assert(offsetof(::GlobalNamespace::__SonyContentVersion__VersionFormat, v
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4570))
 // CS Name: ::SonyContentVersion*
 class CORDL_TYPE SonyContentVersion : public ::System::Object {
@@ -83,13 +83,13 @@ public:
   using VersionFormat = ::GlobalNamespace::__SonyContentVersion__VersionFormat;
 
   /// @brief Field _majorVersion, offset 0x10, size 0x4
-  __declspec(property(get = __get__majorVersion, put = __set__majorVersion)) uint32_t _majorVersion;
+  __declspec(property(get = __cordl_internal_get__majorVersion, put = __cordl_internal_set__majorVersion)) uint32_t _majorVersion;
 
   /// @brief Field _minorVersion, offset 0x14, size 0x4
-  __declspec(property(get = __get__minorVersion, put = __set__minorVersion)) uint32_t _minorVersion;
+  __declspec(property(get = __cordl_internal_get__minorVersion, put = __cordl_internal_set__minorVersion)) uint32_t _minorVersion;
 
   /// @brief Field _revision, offset 0x18, size 0x4
-  __declspec(property(get = __get__revision, put = __set__revision)) uint32_t _revision;
+  __declspec(property(get = __cordl_internal_get__revision, put = __cordl_internal_set__revision)) uint32_t _revision;
 
   __declspec(property(get = get_majorVersion)) uint32_t majorVersion;
 
@@ -97,23 +97,23 @@ public:
 
   __declspec(property(get = get_revision)) uint32_t revision;
 
-  constexpr uint32_t& __get__majorVersion();
+  constexpr uint32_t& __cordl_internal_get__majorVersion();
 
-  constexpr uint32_t const& __get__majorVersion() const;
+  constexpr uint32_t const& __cordl_internal_get__majorVersion() const;
 
-  constexpr void __set__majorVersion(uint32_t value);
+  constexpr void __cordl_internal_set__majorVersion(uint32_t value);
 
-  constexpr uint32_t& __get__minorVersion();
+  constexpr uint32_t& __cordl_internal_get__minorVersion();
 
-  constexpr uint32_t const& __get__minorVersion() const;
+  constexpr uint32_t const& __cordl_internal_get__minorVersion() const;
 
-  constexpr void __set__minorVersion(uint32_t value);
+  constexpr void __cordl_internal_set__minorVersion(uint32_t value);
 
-  constexpr uint32_t& __get__revision();
+  constexpr uint32_t& __cordl_internal_get__revision();
 
-  constexpr uint32_t const& __get__revision() const;
+  constexpr uint32_t const& __cordl_internal_get__revision() const;
 
-  constexpr void __set__revision(uint32_t value);
+  constexpr void __cordl_internal_set__revision(uint32_t value);
 
   /// @brief Method get_majorVersion, addr 0x23683a8, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_majorVersion();

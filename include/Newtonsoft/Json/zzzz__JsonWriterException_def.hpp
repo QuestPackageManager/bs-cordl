@@ -27,22 +27,22 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonWriterException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11804))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11804))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11828))
 // CS Name: ::Newtonsoft.Json::JsonWriterException*
 class CORDL_TYPE JsonWriterException : public ::Newtonsoft::Json::JsonException {
 public:
   // Declarations
   /// @brief Field <Path>k__BackingField, offset 0x90, size 0x8
-  __declspec(property(get = __get__Path_k__BackingField, put = __set__Path_k__BackingField))::StringW _Path_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Path_k__BackingField, put = __cordl_internal_set__Path_k__BackingField))::StringW _Path_k__BackingField;
 
   __declspec(property(get = get_Path, put = set_Path))::StringW Path;
 
-  constexpr ::StringW& __get__Path_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Path_k__BackingField();
 
-  constexpr ::StringW const& __get__Path_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Path_k__BackingField() const;
 
-  constexpr void __set__Path_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Path_k__BackingField(::StringW value);
 
   /// @brief Method get_Path, addr 0x264a1a4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Path();

@@ -37,222 +37,224 @@ template <typename TResult> constexpr System::IO::Enumeration::FileSystemEnumera
 template <typename TResult> constexpr ::System::Collections::IEnumerator* System::IO::Enumeration::FileSystemEnumerator_1<TResult>::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
-template <typename TResult> constexpr ::StringW& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__originalRootDirectory() {
+template <typename TResult> constexpr ::StringW& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__originalRootDirectory() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalRootDirectory;
 }
-template <typename TResult> constexpr ::StringW const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__originalRootDirectory() const {
+template <typename TResult> constexpr ::StringW const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__originalRootDirectory() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____originalRootDirectory;
 }
-template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__set__originalRootDirectory(::StringW value) {
+template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__originalRootDirectory(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____originalRootDirectory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename TResult> constexpr ::StringW& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__rootDirectory() {
+template <typename TResult> constexpr ::StringW& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__rootDirectory() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rootDirectory;
 }
-template <typename TResult> constexpr ::StringW const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__rootDirectory() const {
+template <typename TResult> constexpr ::StringW const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__rootDirectory() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rootDirectory;
 }
-template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__set__rootDirectory(::StringW value) {
+template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__rootDirectory(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rootDirectory)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename TResult> constexpr ::System::IO::EnumerationOptions*& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__options() {
+template <typename TResult> constexpr ::System::IO::EnumerationOptions*& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__options() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____options;
 }
-template <typename TResult> constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__options() const {
+template <typename TResult>
+constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__options() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____options;
 }
-template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__set__options(::System::IO::EnumerationOptions* value) {
+template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__options(::System::IO::EnumerationOptions* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____options)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename TResult> constexpr ::System::Object*& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__lock() {
+template <typename TResult> constexpr ::System::Object*& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__lock() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lock;
 }
-template <typename TResult> constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__lock() const {
+template <typename TResult> constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__lock() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lock;
 }
-template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__set__lock(::System::Object* value) {
+template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__lock(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lock)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename TResult> constexpr ::StringW& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__currentPath() {
+template <typename TResult> constexpr ::StringW& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__currentPath() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentPath;
 }
-template <typename TResult> constexpr ::StringW const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__currentPath() const {
+template <typename TResult> constexpr ::StringW const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__currentPath() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____currentPath;
 }
-template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__set__currentPath(::StringW value) {
+template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__currentPath(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____currentPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename TResult> constexpr void*& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__directoryHandle() {
+template <typename TResult> constexpr void*& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__directoryHandle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directoryHandle;
 }
-template <typename TResult> constexpr void* const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__directoryHandle() const {
+template <typename TResult> constexpr void* const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__directoryHandle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directoryHandle;
 }
-template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__set__directoryHandle(void* value) {
+template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__directoryHandle(void* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____directoryHandle = value;
 }
-template <typename TResult> constexpr bool& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__lastEntryFound() {
+template <typename TResult> constexpr bool& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__lastEntryFound() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastEntryFound;
 }
-template <typename TResult> constexpr bool const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__lastEntryFound() const {
+template <typename TResult> constexpr bool const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__lastEntryFound() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastEntryFound;
 }
-template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__set__lastEntryFound(bool value) {
+template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__lastEntryFound(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastEntryFound = value;
 }
-template <typename TResult> constexpr ::System::Collections::Generic::Queue_1<::StringW>*& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__pending() {
+template <typename TResult> constexpr ::System::Collections::Generic::Queue_1<::StringW>*& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__pending() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pending;
 }
 template <typename TResult>
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::StringW>*> const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__pending() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::StringW>*> const&
+System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__pending() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pending;
 }
-template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__set__pending(::System::Collections::Generic::Queue_1<::StringW>* value) {
+template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__pending(::System::Collections::Generic::Queue_1<::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pending)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename TResult> constexpr ::GlobalNamespace::__Interop__Sys__DirectoryEntry& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__entry() {
+template <typename TResult> constexpr ::GlobalNamespace::__Interop__Sys__DirectoryEntry& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__entry() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entry;
 }
-template <typename TResult> constexpr ::GlobalNamespace::__Interop__Sys__DirectoryEntry const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__entry() const {
+template <typename TResult> constexpr ::GlobalNamespace::__Interop__Sys__DirectoryEntry const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__entry() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entry;
 }
-template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__set__entry(::GlobalNamespace::__Interop__Sys__DirectoryEntry value) {
+template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__entry(::GlobalNamespace::__Interop__Sys__DirectoryEntry value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____entry = value;
 }
-template <typename TResult> constexpr TResult& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__current() {
+template <typename TResult> constexpr TResult& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
-template <typename TResult> constexpr TResult const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__current() const {
+template <typename TResult> constexpr TResult const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____current;
 }
-template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__set__current(TResult value) {
+template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__current(TResult value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename TResult> constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__pathBuffer() {
+template <typename TResult> constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__pathBuffer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pathBuffer;
 }
-template <typename TResult> constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__pathBuffer() const {
+template <typename TResult> constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__pathBuffer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pathBuffer;
 }
-template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__set__pathBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value) {
+template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__pathBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pathBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-template <typename TResult> constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__entryBuffer() {
+template <typename TResult> constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__entryBuffer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entryBuffer;
 }
-template <typename TResult> constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__get__entryBuffer() const {
+template <typename TResult> constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_get__entryBuffer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____entryBuffer;
 }
-template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__set__entryBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+template <typename TResult> constexpr void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::__cordl_internal_set__entryBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____entryBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 /// @param options: ::System::IO::EnumerationOptions* (default: nullptr)
 template <typename TResult>
 inline ::System::IO::Enumeration::FileSystemEnumerator_1<TResult>* System::IO::Enumeration::FileSystemEnumerator_1<TResult>::New_ctor(::StringW directory, ::System::IO::EnumerationOptions* options) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>(directory, options));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>(directory, options));
 }
 /// @param options: ::System::IO::EnumerationOptions* (default: nullptr)
 template <typename TResult> inline void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::_ctor(::StringW directory, ::System::IO::EnumerationOptions* options) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::EnumerationOptions*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IO::EnumerationOptions*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, directory, options);
 }
 /// @param ignoreNotFound: bool (default: false)
 template <typename TResult> inline bool System::IO::Enumeration::FileSystemEnumerator_1<TResult>::InternalContinueOnError(::GlobalNamespace::__Interop__ErrorInfo info, bool ignoreNotFound) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(), "InternalContinueOnError", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__Interop__ErrorInfo>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(), "InternalContinueOnError", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__Interop__ErrorInfo>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, info, ignoreNotFound);
 }
 template <typename TResult> inline bool System::IO::Enumeration::FileSystemEnumerator_1<TResult>::IsDirectoryNotFound(::GlobalNamespace::__Interop__ErrorInfo info) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(), "IsDirectoryNotFound", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__Interop__ErrorInfo>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(), "IsDirectoryNotFound", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__Interop__ErrorInfo>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, info);
 }
 template <typename TResult> inline bool System::IO::Enumeration::FileSystemEnumerator_1<TResult>::IsAccessError(::GlobalNamespace::__Interop__ErrorInfo info) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(), "IsAccessError", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__Interop__ErrorInfo>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(), "IsAccessError", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__Interop__ErrorInfo>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, info);
 }
 /// @param ignoreNotFound: bool (default: false)
 template <typename TResult> inline void* System::IO::Enumeration::FileSystemEnumerator_1<TResult>::CreateDirectoryHandle(::StringW path, bool ignoreNotFound) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(), "CreateDirectoryHandle", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(), "CreateDirectoryHandle", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void*, false>(this, ___internal_method, path, ignoreNotFound);
 }
 template <typename TResult> inline void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::CloseDirectoryHandle() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(),
-                                                                             "CloseDirectoryHandle", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "CloseDirectoryHandle", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TResult> inline bool System::IO::Enumeration::FileSystemEnumerator_1<TResult>::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(),
-                                                                             "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 template <typename TResult> inline void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::FindNextEntry() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(),
-                                                                             "FindNextEntry", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "FindNextEntry", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TResult> inline void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::FindNextEntry(::cordl_internals::Ptr<uint8_t> entryBufferPtr, int32_t bufferLength) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(), "FindNextEntry", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(), "FindNextEntry", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, entryBufferPtr, bufferLength);
 }
 template <typename TResult> inline bool System::IO::Enumeration::FileSystemEnumerator_1<TResult>::DequeueNextDirectory() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(),
-                                                                             "DequeueNextDirectory", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "DequeueNextDirectory", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 template <typename TResult> inline void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::InternalDispose(bool disposing) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(), "InternalDispose",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
 }
 template <typename TResult> inline bool System::IO::Enumeration::FileSystemEnumerator_1<TResult>::ShouldIncludeEntry(ByRef<::System::IO::Enumeration::FileSystemEntry> entry) {
@@ -287,27 +289,28 @@ template <typename TResult> inline bool System::IO::Enumeration::FileSystemEnume
 }
 template <typename TResult> inline TResult System::IO::Enumeration::FileSystemEnumerator_1<TResult>::get_Current() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(),
-                                                                             "get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<TResult, false>(this, ___internal_method);
 }
 template <typename TResult> inline ::System::Object* System::IO::Enumeration::FileSystemEnumerator_1<TResult>::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(),
-                                                                             "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(),
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 template <typename TResult> inline void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::DirectoryFinished() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(),
-                                                                             "DirectoryFinished", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "DirectoryFinished", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TResult> inline void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::Reset() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(),
-                                                                             "Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TResult> inline void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::Dispose() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(),
-                                                                             "Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TResult> inline void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::Dispose(bool disposing) {

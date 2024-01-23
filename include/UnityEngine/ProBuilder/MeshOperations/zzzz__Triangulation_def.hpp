@@ -58,20 +58,20 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12283))
 // CS Name: ::Triangulation::<>c__DisplayClass7_0*
 class CORDL_TYPE __Triangulation____c__DisplayClass7_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field index, offset 0x10, size 0x4
-  __declspec(property(get = __get_index, put = __set_index)) int32_t index;
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
-  constexpr int32_t& __get_index();
+  constexpr int32_t& __cordl_internal_get_index();
 
-  constexpr int32_t const& __get_index() const;
+  constexpr int32_t const& __cordl_internal_get_index() const;
 
-  constexpr void __set_index(int32_t value);
+  constexpr void __cordl_internal_set_index(int32_t value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__DisplayClass7_0* New_ctor();
 
@@ -113,29 +113,29 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Triangulatio
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12284))
 // CS Name: ::Triangulation::<>c__DisplayClass8_0*
 class CORDL_TYPE __Triangulation____c__DisplayClass8_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field index, offset 0x10, size 0x4
-  __declspec(property(get = __get_index, put = __set_index)) int32_t index;
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   /// @brief Field <>9__1, offset 0x18, size 0x8
-  __declspec(property(get = __get___9__1, put = __set___9__1))::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* __9__1;
+  __declspec(property(get = __cordl_internal_get___9__1, put = __cordl_internal_set___9__1))::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* __9__1;
 
-  constexpr int32_t& __get_index();
+  constexpr int32_t& __cordl_internal_get_index();
 
-  constexpr int32_t const& __get_index() const;
+  constexpr int32_t const& __cordl_internal_get_index() const;
 
-  constexpr void __set_index(int32_t value);
+  constexpr void __cordl_internal_set_index(int32_t value);
 
-  constexpr ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*& __get___9__1();
+  constexpr ::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*& __cordl_internal_get___9__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*> const& __get___9__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>*> const& __cordl_internal_get___9__1() const;
 
-  constexpr void __set___9__1(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* value);
+  constexpr void __cordl_internal_set___9__1(::System::Func_2<::UnityEngine::Vector2, ::UnityEngine::ProBuilder::Poly2Tri::PolygonPoint*>* value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Triangulation____c__DisplayClass8_0* New_ctor();
 
@@ -182,7 +182,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Triangulatio
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12285))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::Triangulation*
 class CORDL_TYPE Triangulation : public ::System::Object {

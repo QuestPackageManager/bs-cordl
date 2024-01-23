@@ -162,7 +162,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::__InputSystem__StateEventBuffer);
 // SizeInfo { instance_size: 511, native_size: 511, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6207))
 // CS Name: ::InputSystem::StateEventBuffer::<data>e__FixedBuffer
 #pragma pack(push, 0)
@@ -198,7 +198,7 @@ static_assert(offsetof(::GlobalNamespace::__InputSystem__StateEventBuffer___data
 // SizeInfo { instance_size: 536, native_size: 536, calculated_instance_size: 536, calculated_native_size: 552, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6207)), TypeDefinitionIndex(TypeDefinitionIndex(6546))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6207)), TypeDefinitionIndex(TypeDefinitionIndex(6546))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6208))
 // CS Name: ::InputSystem::StateEventBuffer
 struct CORDL_TYPE __InputSystem__StateEventBuffer {
@@ -240,7 +240,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputSystem__StateEventBuff
 // SizeInfo { instance_size: 511, native_size: 511, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6209))
 // CS Name: ::InputSystem::DeltaStateEventBuffer::<data>e__FixedBuffer
 #pragma pack(push, 0)
@@ -276,7 +276,7 @@ static_assert(offsetof(::GlobalNamespace::__InputSystem__DeltaStateEventBuffer__
 // SizeInfo { instance_size: 540, native_size: 540, calculated_instance_size: 544, calculated_native_size: 556, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6521)), TypeDefinitionIndex(TypeDefinitionIndex(6209))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6209)), TypeDefinitionIndex(TypeDefinitionIndex(6521))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6210))
 // CS Name: ::InputSystem::DeltaStateEventBuffer
 struct CORDL_TYPE __InputSystem__DeltaStateEventBuffer {
@@ -319,7 +319,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputSystem__DeltaStateEven
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6211))
 // CS Name: ::InputSystem::<>c*
 class CORDL_TYPE __InputSystem____c : public ::System::Object {
@@ -382,7 +382,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6212))
 // CS Name: ::UnityEngine.InputSystem::InputSystem*
 class CORDL_TYPE InputSystem : public ::System::Object {
@@ -650,7 +650,7 @@ public:
   static inline void remove_onAfterUpdate(::System::Action* value);
 
   /// @brief Method get_settings, addr 0x2a617e8, size 0x64, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::InputSettings* get_settings();
+  static inline ::UnityW<::UnityEngine::InputSystem::InputSettings> get_settings();
 
   /// @brief Method set_settings, addr 0x2a61cfc, size 0x144, virtual false, abstract: false, final false
   static inline void set_settings(::UnityEngine::InputSystem::InputSettings* value);

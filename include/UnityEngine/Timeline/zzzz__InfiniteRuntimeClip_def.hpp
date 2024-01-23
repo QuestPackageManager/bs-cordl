@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::InfiniteRuntimeClip);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13884)), TypeDefinitionIndex(TypeDefinitionIndex(10428))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10428)), TypeDefinitionIndex(TypeDefinitionIndex(13884))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13877))
 // CS Name: ::UnityEngine.Timeline::InfiniteRuntimeClip*
 class CORDL_TYPE InfiniteRuntimeClip : public ::UnityEngine::Timeline::RuntimeElement {
 public:
   // Declarations
   /// @brief Field m_Playable, offset 0x18, size 0x10
-  __declspec(property(get = __get_m_Playable, put = __set_m_Playable))::UnityEngine::Playables::Playable m_Playable;
+  __declspec(property(get = __cordl_internal_get_m_Playable, put = __cordl_internal_set_m_Playable))::UnityEngine::Playables::Playable m_Playable;
 
   /// @brief Field kIntervalEnd, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_kIntervalEnd, put = setStaticF_kIntervalEnd)) int64_t kIntervalEnd;
@@ -41,11 +41,11 @@ public:
 
   __declspec(property(put = set_enable)) bool enable;
 
-  constexpr ::UnityEngine::Playables::Playable& __get_m_Playable();
+  constexpr ::UnityEngine::Playables::Playable& __cordl_internal_get_m_Playable();
 
-  constexpr ::UnityEngine::Playables::Playable const& __get_m_Playable() const;
+  constexpr ::UnityEngine::Playables::Playable const& __cordl_internal_get_m_Playable() const;
 
-  constexpr void __set_m_Playable(::UnityEngine::Playables::Playable value);
+  constexpr void __cordl_internal_set_m_Playable(::UnityEngine::Playables::Playable value);
 
   static inline void setStaticF_kIntervalEnd(int64_t value);
 

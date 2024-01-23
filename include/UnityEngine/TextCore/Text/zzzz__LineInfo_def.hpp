@@ -24,7 +24,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::LineInfo);
 // SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13718)), TypeDefinitionIndex(TypeDefinitionIndex(13694))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13694)), TypeDefinitionIndex(TypeDefinitionIndex(13718))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13695))
 // CS Name: ::UnityEngine.TextCore.Text::LineInfo
 struct CORDL_TYPE LineInfo {

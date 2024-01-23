@@ -32,17 +32,17 @@ MARK_REF_PTR_T(::System::Net::Http::HttpMessageInvoker);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14651))
 // CS Name: ::System.Net.Http::HttpMessageInvoker*
 class CORDL_TYPE HttpMessageInvoker : public ::System::Object {
 public:
   // Declarations
   /// @brief Field handler, offset 0x10, size 0x8
-  __declspec(property(get = __get_handler, put = __set_handler))::System::Net::Http::HttpMessageHandler* handler;
+  __declspec(property(get = __cordl_internal_get_handler, put = __cordl_internal_set_handler))::System::Net::Http::HttpMessageHandler* handler;
 
   /// @brief Field disposeHandler, offset 0x18, size 0x1
-  __declspec(property(get = __get_disposeHandler, put = __set_disposeHandler)) bool disposeHandler;
+  __declspec(property(get = __cordl_internal_get_disposeHandler, put = __cordl_internal_set_disposeHandler)) bool disposeHandler;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -50,17 +50,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Net::Http::HttpMessageHandler*& __get_handler();
+  constexpr ::System::Net::Http::HttpMessageHandler*& __cordl_internal_get_handler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpMessageHandler*> const& __get_handler() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpMessageHandler*> const& __cordl_internal_get_handler() const;
 
-  constexpr void __set_handler(::System::Net::Http::HttpMessageHandler* value);
+  constexpr void __cordl_internal_set_handler(::System::Net::Http::HttpMessageHandler* value);
 
-  constexpr bool& __get_disposeHandler();
+  constexpr bool& __cordl_internal_get_disposeHandler();
 
-  constexpr bool const& __get_disposeHandler() const;
+  constexpr bool const& __cordl_internal_get_disposeHandler() const;
 
-  constexpr void __set_disposeHandler(bool value);
+  constexpr void __cordl_internal_set_disposeHandler(bool value);
 
   static inline ::System::Net::Http::HttpMessageInvoker* New_ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
 

@@ -23,17 +23,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::SeedEngine);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(867))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::SeedEngine*
 class CORDL_TYPE SeedEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field wKey, offset 0x10, size 0x8
-  __declspec(property(get = __get_wKey, put = __set_wKey))::ArrayW<int32_t, ::Array<int32_t>*> wKey;
+  __declspec(property(get = __cordl_internal_get_wKey, put = __cordl_internal_set_wKey))::ArrayW<int32_t, ::Array<int32_t>*> wKey;
 
   /// @brief Field forEncryption, offset 0x18, size 0x1
-  __declspec(property(get = __get_forEncryption, put = __set_forEncryption)) bool forEncryption;
+  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   /// @brief Field SS0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SS0, put = setStaticF_SS0))::ArrayW<uint32_t, ::Array<uint32_t>*> SS0;
@@ -60,17 +60,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_wKey();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_wKey();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_wKey() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_wKey() const;
 
-  constexpr void __set_wKey(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_wKey(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr bool& __get_forEncryption();
+  constexpr bool& __cordl_internal_get_forEncryption();
 
-  constexpr bool const& __get_forEncryption() const;
+  constexpr bool const& __cordl_internal_get_forEncryption() const;
 
-  constexpr void __set_forEncryption(bool value);
+  constexpr void __cordl_internal_set_forEncryption(bool value);
 
   static inline void setStaticF_SS0(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 

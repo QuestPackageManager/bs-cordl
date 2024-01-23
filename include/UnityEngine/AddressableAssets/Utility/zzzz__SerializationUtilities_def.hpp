@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Utility::SerializationUtilities
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Utility {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14102))
 // CS Name: ::SerializationUtilities::ObjectType
 struct CORDL_TYPE __SerializationUtilities__ObjectType {
@@ -104,7 +104,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::Utility::__Serializatio
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Utility {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14103))
 // CS Name: ::UnityEngine.AddressableAssets.Utility::SerializationUtilities*
 class CORDL_TYPE SerializationUtilities : public ::System::Object {

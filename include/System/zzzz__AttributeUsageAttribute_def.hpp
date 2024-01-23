@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::System::AttributeUsageAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 22, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2354)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2354)), TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2355))
 // CS Name: ::System::AttributeUsageAttribute*
 class CORDL_TYPE AttributeUsageAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field _attributeTarget, offset 0x10, size 0x4
-  __declspec(property(get = __get__attributeTarget, put = __set__attributeTarget))::System::AttributeTargets _attributeTarget;
+  __declspec(property(get = __cordl_internal_get__attributeTarget, put = __cordl_internal_set__attributeTarget))::System::AttributeTargets _attributeTarget;
 
   /// @brief Field _allowMultiple, offset 0x14, size 0x1
-  __declspec(property(get = __get__allowMultiple, put = __set__allowMultiple)) bool _allowMultiple;
+  __declspec(property(get = __cordl_internal_get__allowMultiple, put = __cordl_internal_set__allowMultiple)) bool _allowMultiple;
 
   /// @brief Field _inherited, offset 0x15, size 0x1
-  __declspec(property(get = __get__inherited, put = __set__inherited)) bool _inherited;
+  __declspec(property(get = __cordl_internal_get__inherited, put = __cordl_internal_set__inherited)) bool _inherited;
 
   /// @brief Field Default, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::System::AttributeUsageAttribute* Default;
@@ -40,23 +40,23 @@ public:
 
   __declspec(property(get = get_Inherited, put = set_Inherited)) bool Inherited;
 
-  constexpr ::System::AttributeTargets& __get__attributeTarget();
+  constexpr ::System::AttributeTargets& __cordl_internal_get__attributeTarget();
 
-  constexpr ::System::AttributeTargets const& __get__attributeTarget() const;
+  constexpr ::System::AttributeTargets const& __cordl_internal_get__attributeTarget() const;
 
-  constexpr void __set__attributeTarget(::System::AttributeTargets value);
+  constexpr void __cordl_internal_set__attributeTarget(::System::AttributeTargets value);
 
-  constexpr bool& __get__allowMultiple();
+  constexpr bool& __cordl_internal_get__allowMultiple();
 
-  constexpr bool const& __get__allowMultiple() const;
+  constexpr bool const& __cordl_internal_get__allowMultiple() const;
 
-  constexpr void __set__allowMultiple(bool value);
+  constexpr void __cordl_internal_set__allowMultiple(bool value);
 
-  constexpr bool& __get__inherited();
+  constexpr bool& __cordl_internal_get__inherited();
 
-  constexpr bool const& __get__inherited() const;
+  constexpr bool const& __cordl_internal_get__inherited() const;
 
-  constexpr void __set__inherited(bool value);
+  constexpr void __cordl_internal_set__inherited(bool value);
 
   static inline void setStaticF_Default(::System::AttributeUsageAttribute* value);
 

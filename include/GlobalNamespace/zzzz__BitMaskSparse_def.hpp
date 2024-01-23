@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BitMaskSparse____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14992))
 // CS Name: ::BitMaskSparse::<>c*
 class CORDL_TYPE __BitMaskSparse____c : public ::System::Object {
@@ -96,7 +96,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BitMaskSparse
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14993))
 // CS Name: ::BitMaskSparse*
 class CORDL_TYPE BitMaskSparse : public ::System::Object {
@@ -105,10 +105,10 @@ public:
   using __c = ::GlobalNamespace::__BitMaskSparse____c;
 
   /// @brief Field <bitCount>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__bitCount_k__BackingField, put = __set__bitCount_k__BackingField)) int32_t _bitCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__bitCount_k__BackingField, put = __cordl_internal_set__bitCount_k__BackingField)) int32_t _bitCount_k__BackingField;
 
   /// @brief Field _sparseSet, offset 0x18, size 0x8
-  __declspec(property(get = __get__sparseSet, put = __set__sparseSet))::System::Collections::Generic::SortedSet_1<uint32_t>* _sparseSet;
+  __declspec(property(get = __cordl_internal_get__sparseSet, put = __cordl_internal_set__sparseSet))::System::Collections::Generic::SortedSet_1<uint32_t>* _sparseSet;
 
   __declspec(property(get = get_bitCount)) int32_t bitCount;
 
@@ -130,17 +130,17 @@ public:
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
-  constexpr int32_t& __get__bitCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__bitCount_k__BackingField();
 
-  constexpr int32_t const& __get__bitCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__bitCount_k__BackingField() const;
 
-  constexpr void __set__bitCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__bitCount_k__BackingField(int32_t value);
 
-  constexpr ::System::Collections::Generic::SortedSet_1<uint32_t>*& __get__sparseSet();
+  constexpr ::System::Collections::Generic::SortedSet_1<uint32_t>*& __cordl_internal_get__sparseSet();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::SortedSet_1<uint32_t>*> const& __get__sparseSet() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::SortedSet_1<uint32_t>*> const& __cordl_internal_get__sparseSet() const;
 
-  constexpr void __set__sparseSet(::System::Collections::Generic::SortedSet_1<uint32_t>* value);
+  constexpr void __cordl_internal_set__sparseSet(::System::Collections::Generic::SortedSet_1<uint32_t>* value);
 
   /// @brief Method get_bitCount, addr 0x12a1d5c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_bitCount();

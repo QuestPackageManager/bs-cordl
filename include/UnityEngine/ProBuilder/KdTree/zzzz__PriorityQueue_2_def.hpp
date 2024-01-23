@@ -27,25 +27,24 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15924))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::PriorityQueue`2<TItem,TPriority>*
 class CORDL_TYPE PriorityQueue_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field priorityMath, offset 0x10, size 0x8
-  __declspec(property(get = __get_priorityMath, put = __set_priorityMath))::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* priorityMath;
+  __declspec(property(get = __cordl_internal_get_priorityMath, put = __cordl_internal_set_priorityMath))::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* priorityMath;
 
   /// @brief Field queue, offset 0x18, size 0x8
-  __declspec(
-      property(get = __get_queue,
-               put = __set_queue))::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>, ::Array<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>>*> queue;
+  __declspec(property(get = __cordl_internal_get_queue, put = __cordl_internal_set_queue))::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>,
+                                                                                                   ::Array<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>>*> queue;
 
   /// @brief Field capacity, offset 0x20, size 0x4
-  __declspec(property(get = __get_capacity, put = __set_capacity)) int32_t capacity;
+  __declspec(property(get = __cordl_internal_get_capacity, put = __cordl_internal_set_capacity)) int32_t capacity;
 
   /// @brief Field count, offset 0x24, size 0x4
-  __declspec(property(get = __get_count, put = __set_count)) int32_t count;
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -55,29 +54,31 @@ public:
   /// @brief Convert to "::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem,TPriority>"
   constexpr ::UnityEngine::ProBuilder::KdTree::IPriorityQueue_2<TItem, TPriority>* i___UnityEngine__ProBuilder__KdTree__IPriorityQueue_2_TItem_TPriority_() noexcept;
 
-  constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>*& __get_priorityMath();
+  constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>*& __cordl_internal_get_priorityMath();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>*> const& __get_priorityMath() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>*> const& __cordl_internal_get_priorityMath() const;
 
-  constexpr void __set_priorityMath(::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* value);
+  constexpr void __cordl_internal_set_priorityMath(::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* value);
 
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>, ::Array<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>>*>& __get_queue();
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>, ::Array<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>>*>& __cordl_internal_get_queue();
 
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>, ::Array<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>>*> const& __get_queue() const;
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>, ::Array<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>>*> const&
+  __cordl_internal_get_queue() const;
 
-  constexpr void __set_queue(::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>, ::Array<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>>*> value);
+  constexpr void
+  __cordl_internal_set_queue(::ArrayW<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>, ::Array<::UnityEngine::ProBuilder::KdTree::ItemPriority_2<TItem, TPriority>>*> value);
 
-  constexpr int32_t& __get_capacity();
+  constexpr int32_t& __cordl_internal_get_capacity();
 
-  constexpr int32_t const& __get_capacity() const;
+  constexpr int32_t const& __cordl_internal_get_capacity() const;
 
-  constexpr void __set_capacity(int32_t value);
+  constexpr void __cordl_internal_set_capacity(int32_t value);
 
-  constexpr int32_t& __get_count();
+  constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr int32_t const& __get_count() const;
+  constexpr int32_t const& __cordl_internal_get_count() const;
 
-  constexpr void __set_count(int32_t value);
+  constexpr void __cordl_internal_set_count(int32_t value);
 
   static inline ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TPriority>* New_ctor(int32_t capacity, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TPriority>* priorityMath);
 

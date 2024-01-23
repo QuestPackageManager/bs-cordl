@@ -22,110 +22,110 @@ MARK_REF_PTR_T(::GlobalNamespace::MouseLook);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5836))
 // CS Name: ::MouseLook*
 class CORDL_TYPE MouseLook : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _xSensitivity, offset 0x10, size 0x4
-  __declspec(property(get = __get__xSensitivity, put = __set__xSensitivity)) float_t _xSensitivity;
+  __declspec(property(get = __cordl_internal_get__xSensitivity, put = __cordl_internal_set__xSensitivity)) float_t _xSensitivity;
 
   /// @brief Field _ySensitivity, offset 0x14, size 0x4
-  __declspec(property(get = __get__ySensitivity, put = __set__ySensitivity)) float_t _ySensitivity;
+  __declspec(property(get = __cordl_internal_get__ySensitivity, put = __cordl_internal_set__ySensitivity)) float_t _ySensitivity;
 
   /// @brief Field _clampVerticalRotation, offset 0x18, size 0x1
-  __declspec(property(get = __get__clampVerticalRotation, put = __set__clampVerticalRotation)) bool _clampVerticalRotation;
+  __declspec(property(get = __cordl_internal_get__clampVerticalRotation, put = __cordl_internal_set__clampVerticalRotation)) bool _clampVerticalRotation;
 
   /// @brief Field _minimumX, offset 0x1c, size 0x4
-  __declspec(property(get = __get__minimumX, put = __set__minimumX)) float_t _minimumX;
+  __declspec(property(get = __cordl_internal_get__minimumX, put = __cordl_internal_set__minimumX)) float_t _minimumX;
 
   /// @brief Field _maximumX, offset 0x20, size 0x4
-  __declspec(property(get = __get__maximumX, put = __set__maximumX)) float_t _maximumX;
+  __declspec(property(get = __cordl_internal_get__maximumX, put = __cordl_internal_set__maximumX)) float_t _maximumX;
 
   /// @brief Field _smooth, offset 0x24, size 0x1
-  __declspec(property(get = __get__smooth, put = __set__smooth)) bool _smooth;
+  __declspec(property(get = __cordl_internal_get__smooth, put = __cordl_internal_set__smooth)) bool _smooth;
 
   /// @brief Field _smoothTime, offset 0x28, size 0x4
-  __declspec(property(get = __get__smoothTime, put = __set__smoothTime)) float_t _smoothTime;
+  __declspec(property(get = __cordl_internal_get__smoothTime, put = __cordl_internal_set__smoothTime)) float_t _smoothTime;
 
   /// @brief Field _lockCursor, offset 0x2c, size 0x1
-  __declspec(property(get = __get__lockCursor, put = __set__lockCursor)) bool _lockCursor;
+  __declspec(property(get = __cordl_internal_get__lockCursor, put = __cordl_internal_set__lockCursor)) bool _lockCursor;
 
   /// @brief Field _characterTargetRot, offset 0x30, size 0x10
-  __declspec(property(get = __get__characterTargetRot, put = __set__characterTargetRot))::UnityEngine::Quaternion _characterTargetRot;
+  __declspec(property(get = __cordl_internal_get__characterTargetRot, put = __cordl_internal_set__characterTargetRot))::UnityEngine::Quaternion _characterTargetRot;
 
   /// @brief Field _cameraTargetRot, offset 0x40, size 0x10
-  __declspec(property(get = __get__cameraTargetRot, put = __set__cameraTargetRot))::UnityEngine::Quaternion _cameraTargetRot;
+  __declspec(property(get = __cordl_internal_get__cameraTargetRot, put = __cordl_internal_set__cameraTargetRot))::UnityEngine::Quaternion _cameraTargetRot;
 
   /// @brief Field _cursorIsLocked, offset 0x50, size 0x1
-  __declspec(property(get = __get__cursorIsLocked, put = __set__cursorIsLocked)) bool _cursorIsLocked;
+  __declspec(property(get = __cordl_internal_get__cursorIsLocked, put = __cordl_internal_set__cursorIsLocked)) bool _cursorIsLocked;
 
-  constexpr float_t& __get__xSensitivity();
+  constexpr float_t& __cordl_internal_get__xSensitivity();
 
-  constexpr float_t const& __get__xSensitivity() const;
+  constexpr float_t const& __cordl_internal_get__xSensitivity() const;
 
-  constexpr void __set__xSensitivity(float_t value);
+  constexpr void __cordl_internal_set__xSensitivity(float_t value);
 
-  constexpr float_t& __get__ySensitivity();
+  constexpr float_t& __cordl_internal_get__ySensitivity();
 
-  constexpr float_t const& __get__ySensitivity() const;
+  constexpr float_t const& __cordl_internal_get__ySensitivity() const;
 
-  constexpr void __set__ySensitivity(float_t value);
+  constexpr void __cordl_internal_set__ySensitivity(float_t value);
 
-  constexpr bool& __get__clampVerticalRotation();
+  constexpr bool& __cordl_internal_get__clampVerticalRotation();
 
-  constexpr bool const& __get__clampVerticalRotation() const;
+  constexpr bool const& __cordl_internal_get__clampVerticalRotation() const;
 
-  constexpr void __set__clampVerticalRotation(bool value);
+  constexpr void __cordl_internal_set__clampVerticalRotation(bool value);
 
-  constexpr float_t& __get__minimumX();
+  constexpr float_t& __cordl_internal_get__minimumX();
 
-  constexpr float_t const& __get__minimumX() const;
+  constexpr float_t const& __cordl_internal_get__minimumX() const;
 
-  constexpr void __set__minimumX(float_t value);
+  constexpr void __cordl_internal_set__minimumX(float_t value);
 
-  constexpr float_t& __get__maximumX();
+  constexpr float_t& __cordl_internal_get__maximumX();
 
-  constexpr float_t const& __get__maximumX() const;
+  constexpr float_t const& __cordl_internal_get__maximumX() const;
 
-  constexpr void __set__maximumX(float_t value);
+  constexpr void __cordl_internal_set__maximumX(float_t value);
 
-  constexpr bool& __get__smooth();
+  constexpr bool& __cordl_internal_get__smooth();
 
-  constexpr bool const& __get__smooth() const;
+  constexpr bool const& __cordl_internal_get__smooth() const;
 
-  constexpr void __set__smooth(bool value);
+  constexpr void __cordl_internal_set__smooth(bool value);
 
-  constexpr float_t& __get__smoothTime();
+  constexpr float_t& __cordl_internal_get__smoothTime();
 
-  constexpr float_t const& __get__smoothTime() const;
+  constexpr float_t const& __cordl_internal_get__smoothTime() const;
 
-  constexpr void __set__smoothTime(float_t value);
+  constexpr void __cordl_internal_set__smoothTime(float_t value);
 
-  constexpr bool& __get__lockCursor();
+  constexpr bool& __cordl_internal_get__lockCursor();
 
-  constexpr bool const& __get__lockCursor() const;
+  constexpr bool const& __cordl_internal_get__lockCursor() const;
 
-  constexpr void __set__lockCursor(bool value);
+  constexpr void __cordl_internal_set__lockCursor(bool value);
 
-  constexpr ::UnityEngine::Quaternion& __get__characterTargetRot();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__characterTargetRot();
 
-  constexpr ::UnityEngine::Quaternion const& __get__characterTargetRot() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__characterTargetRot() const;
 
-  constexpr void __set__characterTargetRot(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set__characterTargetRot(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Quaternion& __get__cameraTargetRot();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__cameraTargetRot();
 
-  constexpr ::UnityEngine::Quaternion const& __get__cameraTargetRot() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__cameraTargetRot() const;
 
-  constexpr void __set__cameraTargetRot(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set__cameraTargetRot(::UnityEngine::Quaternion value);
 
-  constexpr bool& __get__cursorIsLocked();
+  constexpr bool& __cordl_internal_get__cursorIsLocked();
 
-  constexpr bool const& __get__cursorIsLocked() const;
+  constexpr bool const& __cordl_internal_get__cursorIsLocked() const;
 
-  constexpr void __set__cursorIsLocked(bool value);
+  constexpr void __cordl_internal_set__cursorIsLocked(bool value);
 
   /// @brief Method Init, addr 0x22edba4, size 0x6c, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Transform* character, ::UnityEngine::Transform* camera);

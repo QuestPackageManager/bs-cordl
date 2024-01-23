@@ -23,40 +23,40 @@ MARK_REF_PTR_T(::System::MissingMemberException);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2436))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2436))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2528))
 // CS Name: ::System::MissingMemberException*
 class CORDL_TYPE MissingMemberException : public ::System::MemberAccessException {
 public:
   // Declarations
   /// @brief Field ClassName, offset 0x90, size 0x8
-  __declspec(property(get = __get_ClassName, put = __set_ClassName))::StringW ClassName;
+  __declspec(property(get = __cordl_internal_get_ClassName, put = __cordl_internal_set_ClassName))::StringW ClassName;
 
   /// @brief Field MemberName, offset 0x98, size 0x8
-  __declspec(property(get = __get_MemberName, put = __set_MemberName))::StringW MemberName;
+  __declspec(property(get = __cordl_internal_get_MemberName, put = __cordl_internal_set_MemberName))::StringW MemberName;
 
   /// @brief Field Signature, offset 0xa0, size 0x8
-  __declspec(property(get = __get_Signature, put = __set_Signature))::ArrayW<uint8_t, ::Array<uint8_t>*> Signature;
+  __declspec(property(get = __cordl_internal_get_Signature, put = __cordl_internal_set_Signature))::ArrayW<uint8_t, ::Array<uint8_t>*> Signature;
 
   __declspec(property(get = get_Message))::StringW Message;
 
-  constexpr ::StringW& __get_ClassName();
+  constexpr ::StringW& __cordl_internal_get_ClassName();
 
-  constexpr ::StringW const& __get_ClassName() const;
+  constexpr ::StringW const& __cordl_internal_get_ClassName() const;
 
-  constexpr void __set_ClassName(::StringW value);
+  constexpr void __cordl_internal_set_ClassName(::StringW value);
 
-  constexpr ::StringW& __get_MemberName();
+  constexpr ::StringW& __cordl_internal_get_MemberName();
 
-  constexpr ::StringW const& __get_MemberName() const;
+  constexpr ::StringW const& __cordl_internal_get_MemberName() const;
 
-  constexpr void __set_MemberName(::StringW value);
+  constexpr void __cordl_internal_set_MemberName(::StringW value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_Signature();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Signature();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_Signature() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Signature() const;
 
-  constexpr void __set_Signature(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_Signature(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::System::MissingMemberException* New_ctor();
 

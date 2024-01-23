@@ -88,47 +88,47 @@ MARK_VAL_T(::UnityEngine::UIElements::__GenericDropdownMenu____c__DisplayClass25
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7073))
 // CS Name: ::GenericDropdownMenu::MenuItem*
 class CORDL_TYPE __GenericDropdownMenu__MenuItem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field element, offset 0x18, size 0x8
-  __declspec(property(get = __get_element, put = __set_element))::UnityEngine::UIElements::VisualElement* element;
+  __declspec(property(get = __cordl_internal_get_element, put = __cordl_internal_set_element))::UnityEngine::UIElements::VisualElement* element;
 
   /// @brief Field action, offset 0x20, size 0x8
-  __declspec(property(get = __get_action, put = __set_action))::System::Action* action;
+  __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action))::System::Action* action;
 
   /// @brief Field actionUserData, offset 0x28, size 0x8
-  __declspec(property(get = __get_actionUserData, put = __set_actionUserData))::System::Action_1<::System::Object*>* actionUserData;
+  __declspec(property(get = __cordl_internal_get_actionUserData, put = __cordl_internal_set_actionUserData))::System::Action_1<::System::Object*>* actionUserData;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_element();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_element();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_element() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_element() const;
 
-  constexpr void __set_element(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_element(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::System::Action*& __get_action();
+  constexpr ::System::Action*& __cordl_internal_get_action();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_action() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_action() const;
 
-  constexpr void __set_action(::System::Action* value);
+  constexpr void __cordl_internal_set_action(::System::Action* value);
 
-  constexpr ::System::Action_1<::System::Object*>*& __get_actionUserData();
+  constexpr ::System::Action_1<::System::Object*>*& __cordl_internal_get_actionUserData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Object*>*> const& __get_actionUserData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Object*>*> const& __cordl_internal_get_actionUserData() const;
 
-  constexpr void __set_actionUserData(::System::Action_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set_actionUserData(::System::Action_1<::System::Object*>* value);
 
   static inline ::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem* New_ctor();
 
@@ -179,7 +179,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__GenericDropdownMenu__MenuIte
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7074))
 // CS Name: ::GenericDropdownMenu::<>c__DisplayClass25_0
 struct CORDL_TYPE __GenericDropdownMenu____c__DisplayClass25_0 {
@@ -216,7 +216,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__GenericDropdownMenu____c__Di
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10165))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7075))
 // CS Name: ::UnityEngine.UIElements::GenericDropdownMenu*
 class CORDL_TYPE GenericDropdownMenu : public ::System::Object {
@@ -227,31 +227,34 @@ public:
   using MenuItem = ::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem;
 
   /// @brief Field m_Items, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Items, put = __set_m_Items))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem*>* m_Items;
+  __declspec(property(get = __cordl_internal_get_m_Items,
+                      put = __cordl_internal_set_m_Items))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem*>* m_Items;
 
   /// @brief Field m_MenuContainer, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_MenuContainer, put = __set_m_MenuContainer))::UnityEngine::UIElements::VisualElement* m_MenuContainer;
+  __declspec(property(get = __cordl_internal_get_m_MenuContainer, put = __cordl_internal_set_m_MenuContainer))::UnityEngine::UIElements::VisualElement* m_MenuContainer;
 
   /// @brief Field m_OuterContainer, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_OuterContainer, put = __set_m_OuterContainer))::UnityEngine::UIElements::VisualElement* m_OuterContainer;
+  __declspec(property(get = __cordl_internal_get_m_OuterContainer, put = __cordl_internal_set_m_OuterContainer))::UnityEngine::UIElements::VisualElement* m_OuterContainer;
 
   /// @brief Field m_ScrollView, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_ScrollView, put = __set_m_ScrollView))::UnityEngine::UIElements::ScrollView* m_ScrollView;
+  __declspec(property(get = __cordl_internal_get_m_ScrollView, put = __cordl_internal_set_m_ScrollView))::UnityEngine::UIElements::ScrollView* m_ScrollView;
 
   /// @brief Field m_PanelRootVisualContainer, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_PanelRootVisualContainer, put = __set_m_PanelRootVisualContainer))::UnityEngine::UIElements::VisualElement* m_PanelRootVisualContainer;
+  __declspec(property(get = __cordl_internal_get_m_PanelRootVisualContainer,
+                      put = __cordl_internal_set_m_PanelRootVisualContainer))::UnityEngine::UIElements::VisualElement* m_PanelRootVisualContainer;
 
   /// @brief Field m_TargetElement, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_TargetElement, put = __set_m_TargetElement))::UnityEngine::UIElements::VisualElement* m_TargetElement;
+  __declspec(property(get = __cordl_internal_get_m_TargetElement, put = __cordl_internal_set_m_TargetElement))::UnityEngine::UIElements::VisualElement* m_TargetElement;
 
   /// @brief Field m_DesiredRect, offset 0x40, size 0x10
-  __declspec(property(get = __get_m_DesiredRect, put = __set_m_DesiredRect))::UnityEngine::Rect m_DesiredRect;
+  __declspec(property(get = __cordl_internal_get_m_DesiredRect, put = __cordl_internal_set_m_DesiredRect))::UnityEngine::Rect m_DesiredRect;
 
   /// @brief Field m_NavigationManipulator, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_NavigationManipulator, put = __set_m_NavigationManipulator))::UnityEngine::UIElements::KeyboardNavigationManipulator* m_NavigationManipulator;
+  __declspec(property(get = __cordl_internal_get_m_NavigationManipulator,
+                      put = __cordl_internal_set_m_NavigationManipulator))::UnityEngine::UIElements::KeyboardNavigationManipulator* m_NavigationManipulator;
 
   /// @brief Field m_MousePosition, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_MousePosition, put = __set_m_MousePosition))::UnityEngine::Vector2 m_MousePosition;
+  __declspec(property(get = __cordl_internal_get_m_MousePosition, put = __cordl_internal_set_m_MousePosition))::UnityEngine::Vector2 m_MousePosition;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
@@ -282,59 +285,59 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IGenericMenu"
   constexpr ::UnityEngine::UIElements::IGenericMenu* i___UnityEngine__UIElements__IGenericMenu() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem*>*& __get_m_Items();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem*>*& __cordl_internal_get_m_Items();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem*>*> const& __get_m_Items() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem*>*> const& __cordl_internal_get_m_Items() const;
 
-  constexpr void __set_m_Items(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem*>* value);
+  constexpr void __cordl_internal_set_m_Items(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__GenericDropdownMenu__MenuItem*>* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_MenuContainer();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_MenuContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_MenuContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_MenuContainer() const;
 
-  constexpr void __set_m_MenuContainer(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_MenuContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_OuterContainer();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_OuterContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_OuterContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_OuterContainer() const;
 
-  constexpr void __set_m_OuterContainer(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_OuterContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::ScrollView*& __get_m_ScrollView();
+  constexpr ::UnityEngine::UIElements::ScrollView*& __cordl_internal_get_m_ScrollView();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ScrollView*> const& __get_m_ScrollView() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ScrollView*> const& __cordl_internal_get_m_ScrollView() const;
 
-  constexpr void __set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
+  constexpr void __cordl_internal_set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_PanelRootVisualContainer();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_PanelRootVisualContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_PanelRootVisualContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_PanelRootVisualContainer() const;
 
-  constexpr void __set_m_PanelRootVisualContainer(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_PanelRootVisualContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_TargetElement();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_TargetElement();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_TargetElement() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_TargetElement() const;
 
-  constexpr void __set_m_TargetElement(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_TargetElement(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::Rect& __get_m_DesiredRect();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_DesiredRect();
 
-  constexpr ::UnityEngine::Rect const& __get_m_DesiredRect() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_DesiredRect() const;
 
-  constexpr void __set_m_DesiredRect(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_m_DesiredRect(::UnityEngine::Rect value);
 
-  constexpr ::UnityEngine::UIElements::KeyboardNavigationManipulator*& __get_m_NavigationManipulator();
+  constexpr ::UnityEngine::UIElements::KeyboardNavigationManipulator*& __cordl_internal_get_m_NavigationManipulator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::KeyboardNavigationManipulator*> const& __get_m_NavigationManipulator() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::KeyboardNavigationManipulator*> const& __cordl_internal_get_m_NavigationManipulator() const;
 
-  constexpr void __set_m_NavigationManipulator(::UnityEngine::UIElements::KeyboardNavigationManipulator* value);
+  constexpr void __cordl_internal_set_m_NavigationManipulator(::UnityEngine::UIElements::KeyboardNavigationManipulator* value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_MousePosition();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_MousePosition();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_MousePosition() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_MousePosition() const;
 
-  constexpr void __set_m_MousePosition(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_MousePosition(::UnityEngine::Vector2 value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 

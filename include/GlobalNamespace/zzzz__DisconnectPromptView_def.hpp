@@ -40,29 +40,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5777))
 // CS Name: ::DisconnectPromptView::<>c__DisplayClass12_0*
 class CORDL_TYPE __DisconnectPromptView____c__DisplayClass12_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field finishedCallback, offset 0x10, size 0x8
-  __declspec(property(get = __get_finishedCallback, put = __set_finishedCallback))::System::Action* finishedCallback;
+  __declspec(property(get = __cordl_internal_get_finishedCallback, put = __cordl_internal_set_finishedCallback))::System::Action* finishedCallback;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::DisconnectPromptView* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::DisconnectPromptView> __4__this;
 
-  constexpr ::System::Action*& __get_finishedCallback();
+  constexpr ::System::Action*& __cordl_internal_get_finishedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_finishedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_finishedCallback() const;
 
-  constexpr void __set_finishedCallback(::System::Action* value);
+  constexpr void __cordl_internal_set_finishedCallback(::System::Action* value);
 
-  constexpr ::GlobalNamespace::DisconnectPromptView*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::DisconnectPromptView>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DisconnectPromptView*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::DisconnectPromptView> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::DisconnectPromptView* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::DisconnectPromptView> value);
 
   static inline ::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0* New_ctor();
 
@@ -90,7 +90,7 @@ public:
   ::System::Action* ___finishedCallback;
 
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::DisconnectPromptView* _____4__this;
+  ::UnityW<::GlobalNamespace::DisconnectPromptView> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -106,7 +106,7 @@ static_assert(offsetof(::GlobalNamespace::__DisconnectPromptView____c__DisplayCl
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5778))
 // CS Name: ::DisconnectPromptView*
 class CORDL_TYPE DisconnectPromptView : public ::UnityEngine::MonoBehaviour {
@@ -115,67 +115,67 @@ public:
   using __c__DisplayClass12_0 = ::GlobalNamespace::__DisconnectPromptView____c__DisplayClass12_0;
 
   /// @brief Field _presentPanelAnimation, offset 0x18, size 0x8
-  __declspec(property(get = __get__presentPanelAnimation, put = __set__presentPanelAnimation))::HMUI::PanelAnimationSO* _presentPanelAnimation;
+  __declspec(property(get = __cordl_internal_get__presentPanelAnimation, put = __cordl_internal_set__presentPanelAnimation))::UnityW<::HMUI::PanelAnimationSO> _presentPanelAnimation;
 
   /// @brief Field _dismissPanelAnimation, offset 0x20, size 0x8
-  __declspec(property(get = __get__dismissPanelAnimation, put = __set__dismissPanelAnimation))::HMUI::PanelAnimationSO* _dismissPanelAnimation;
+  __declspec(property(get = __cordl_internal_get__dismissPanelAnimation, put = __cordl_internal_set__dismissPanelAnimation))::UnityW<::HMUI::PanelAnimationSO> _dismissPanelAnimation;
 
   /// @brief Field _promptGameObject, offset 0x28, size 0x8
-  __declspec(property(get = __get__promptGameObject, put = __set__promptGameObject))::UnityEngine::GameObject* _promptGameObject;
+  __declspec(property(get = __cordl_internal_get__promptGameObject, put = __cordl_internal_set__promptGameObject))::UnityW<::UnityEngine::GameObject> _promptGameObject;
 
   /// @brief Field _okButton, offset 0x30, size 0x8
-  __declspec(property(get = __get__okButton, put = __set__okButton))::UnityEngine::UI::Button* _okButton;
+  __declspec(property(get = __cordl_internal_get__okButton, put = __cordl_internal_set__okButton))::UnityW<::UnityEngine::UI::Button> _okButton;
 
   /// @brief Field _cancelButton, offset 0x38, size 0x8
-  __declspec(property(get = __get__cancelButton, put = __set__cancelButton))::UnityEngine::UI::Button* _cancelButton;
+  __declspec(property(get = __cordl_internal_get__cancelButton, put = __cordl_internal_set__cancelButton))::UnityW<::UnityEngine::UI::Button> _cancelButton;
 
   /// @brief Field didViewFinishEvent, offset 0x40, size 0x8
-  __declspec(property(get = __get_didViewFinishEvent, put = __set_didViewFinishEvent))::System::Action_1<bool>* didViewFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didViewFinishEvent, put = __cordl_internal_set_didViewFinishEvent))::System::Action_1<bool>* didViewFinishEvent;
 
   /// @brief Field _buttonBinder, offset 0x48, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
-  constexpr ::HMUI::PanelAnimationSO*& __get__presentPanelAnimation();
+  constexpr ::UnityW<::HMUI::PanelAnimationSO>& __cordl_internal_get__presentPanelAnimation();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::PanelAnimationSO*> const& __get__presentPanelAnimation() const;
+  constexpr ::UnityW<::HMUI::PanelAnimationSO> const& __cordl_internal_get__presentPanelAnimation() const;
 
-  constexpr void __set__presentPanelAnimation(::HMUI::PanelAnimationSO* value);
+  constexpr void __cordl_internal_set__presentPanelAnimation(::UnityW<::HMUI::PanelAnimationSO> value);
 
-  constexpr ::HMUI::PanelAnimationSO*& __get__dismissPanelAnimation();
+  constexpr ::UnityW<::HMUI::PanelAnimationSO>& __cordl_internal_get__dismissPanelAnimation();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::PanelAnimationSO*> const& __get__dismissPanelAnimation() const;
+  constexpr ::UnityW<::HMUI::PanelAnimationSO> const& __cordl_internal_get__dismissPanelAnimation() const;
 
-  constexpr void __set__dismissPanelAnimation(::HMUI::PanelAnimationSO* value);
+  constexpr void __cordl_internal_set__dismissPanelAnimation(::UnityW<::HMUI::PanelAnimationSO> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__promptGameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__promptGameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__promptGameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__promptGameObject() const;
 
-  constexpr void __set__promptGameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__promptGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__okButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__okButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__okButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__okButton() const;
 
-  constexpr void __set__okButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__okButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__cancelButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__cancelButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__cancelButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelButton() const;
 
-  constexpr void __set__cancelButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__cancelButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::System::Action_1<bool>*& __get_didViewFinishEvent();
+  constexpr ::System::Action_1<bool>*& __cordl_internal_get_didViewFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __get_didViewFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_didViewFinishEvent() const;
 
-  constexpr void __set_didViewFinishEvent(::System::Action_1<bool>* value);
+  constexpr void __cordl_internal_set_didViewFinishEvent(::System::Action_1<bool>* value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
   /// @brief Method add_didViewFinishEvent, addr 0x22e0b00, size 0xb0, virtual false, abstract: false, final false
   inline void add_didViewFinishEvent(::System::Action_1<bool>* value);
@@ -221,19 +221,19 @@ protected:
 
 public:
   /// @brief Field _presentPanelAnimation, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::PanelAnimationSO* ____presentPanelAnimation;
+  ::UnityW<::HMUI::PanelAnimationSO> ____presentPanelAnimation;
 
   /// @brief Field _dismissPanelAnimation, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::PanelAnimationSO* ____dismissPanelAnimation;
+  ::UnityW<::HMUI::PanelAnimationSO> ____dismissPanelAnimation;
 
   /// @brief Field _promptGameObject, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____promptGameObject;
+  ::UnityW<::UnityEngine::GameObject> ____promptGameObject;
 
   /// @brief Field _okButton, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____okButton;
+  ::UnityW<::UnityEngine::UI::Button> ____okButton;
 
   /// @brief Field _cancelButton, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____cancelButton;
+  ::UnityW<::UnityEngine::UI::Button> ____cancelButton;
 
   /// @brief Field didViewFinishEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_1<bool>* ___didViewFinishEvent;

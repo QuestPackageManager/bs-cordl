@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::DynamicBoneColliderBase);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16047))
 // CS Name: ::DynamicBoneColliderBase::Direction
 struct CORDL_TYPE __DynamicBoneColliderBase__Direction {
@@ -91,7 +91,7 @@ static_assert(offsetof(::GlobalNamespace::__DynamicBoneColliderBase__Direction, 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16048))
 // CS Name: ::DynamicBoneColliderBase::Bound
 struct CORDL_TYPE __DynamicBoneColliderBase__Bound {
@@ -141,8 +141,8 @@ static_assert(offsetof(::GlobalNamespace::__DynamicBoneColliderBase__Bound, valu
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16047)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16048))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16049)) CS Name: ::DynamicBoneColliderBase*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16047)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16048))] Self: TypeDefinitionIndex(TypeDefinitionIndex(16049)) CS Name: ::DynamicBoneColliderBase*
 class CORDL_TYPE DynamicBoneColliderBase : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -151,31 +151,31 @@ public:
   using Direction = ::GlobalNamespace::__DynamicBoneColliderBase__Direction;
 
   /// @brief Field m_Direction, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_Direction, put = __set_m_Direction))::GlobalNamespace::__DynamicBoneColliderBase__Direction m_Direction;
+  __declspec(property(get = __cordl_internal_get_m_Direction, put = __cordl_internal_set_m_Direction))::GlobalNamespace::__DynamicBoneColliderBase__Direction m_Direction;
 
   /// @brief Field m_Center, offset 0x1c, size 0xc
-  __declspec(property(get = __get_m_Center, put = __set_m_Center))::UnityEngine::Vector3 m_Center;
+  __declspec(property(get = __cordl_internal_get_m_Center, put = __cordl_internal_set_m_Center))::UnityEngine::Vector3 m_Center;
 
   /// @brief Field m_Bound, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_Bound, put = __set_m_Bound))::GlobalNamespace::__DynamicBoneColliderBase__Bound m_Bound;
+  __declspec(property(get = __cordl_internal_get_m_Bound, put = __cordl_internal_set_m_Bound))::GlobalNamespace::__DynamicBoneColliderBase__Bound m_Bound;
 
-  constexpr ::GlobalNamespace::__DynamicBoneColliderBase__Direction& __get_m_Direction();
+  constexpr ::GlobalNamespace::__DynamicBoneColliderBase__Direction& __cordl_internal_get_m_Direction();
 
-  constexpr ::GlobalNamespace::__DynamicBoneColliderBase__Direction const& __get_m_Direction() const;
+  constexpr ::GlobalNamespace::__DynamicBoneColliderBase__Direction const& __cordl_internal_get_m_Direction() const;
 
-  constexpr void __set_m_Direction(::GlobalNamespace::__DynamicBoneColliderBase__Direction value);
+  constexpr void __cordl_internal_set_m_Direction(::GlobalNamespace::__DynamicBoneColliderBase__Direction value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_Center();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_Center();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_Center() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_Center() const;
 
-  constexpr void __set_m_Center(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_Center(::UnityEngine::Vector3 value);
 
-  constexpr ::GlobalNamespace::__DynamicBoneColliderBase__Bound& __get_m_Bound();
+  constexpr ::GlobalNamespace::__DynamicBoneColliderBase__Bound& __cordl_internal_get_m_Bound();
 
-  constexpr ::GlobalNamespace::__DynamicBoneColliderBase__Bound const& __get_m_Bound() const;
+  constexpr ::GlobalNamespace::__DynamicBoneColliderBase__Bound const& __cordl_internal_get_m_Bound() const;
 
-  constexpr void __set_m_Bound(::GlobalNamespace::__DynamicBoneColliderBase__Bound value);
+  constexpr void __cordl_internal_set_m_Bound(::GlobalNamespace::__DynamicBoneColliderBase__Bound value);
 
   /// @brief Method Collide, addr 0x12308e4, size 0x4, virtual true, abstract: false, final false
   inline void Collide(ByRef<::UnityEngine::Vector3> particlePosition, float_t particleRadius);

@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRControllerHelper);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8079))
 // CS Name: ::OVRControllerHelper::ControllerType
 struct CORDL_TYPE __OVRControllerHelper__ControllerType {
@@ -93,212 +93,222 @@ static_assert(offsetof(::GlobalNamespace::__OVRControllerHelper__ControllerType,
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(8079)), TypeDefinitionIndex(TypeDefinitionIndex(7604)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(7603))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8080)) CS Name: ::OVRControllerHelper*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(7603)), TypeDefinitionIndex(TypeDefinitionIndex(7604)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8079)), TypeDefinitionIndex(TypeDefinitionIndex(10225))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8080)) CS Name: ::OVRControllerHelper*
 class CORDL_TYPE OVRControllerHelper : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using ControllerType = ::GlobalNamespace::__OVRControllerHelper__ControllerType;
 
   /// @brief Field m_modelOculusTouchQuestAndRiftSLeftController, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_modelOculusTouchQuestAndRiftSLeftController,
-                      put = __set_m_modelOculusTouchQuestAndRiftSLeftController))::UnityEngine::GameObject* m_modelOculusTouchQuestAndRiftSLeftController;
+  __declspec(property(get = __cordl_internal_get_m_modelOculusTouchQuestAndRiftSLeftController,
+                      put = __cordl_internal_set_m_modelOculusTouchQuestAndRiftSLeftController))::UnityW<::UnityEngine::GameObject> m_modelOculusTouchQuestAndRiftSLeftController;
 
   /// @brief Field m_modelOculusTouchQuestAndRiftSRightController, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_modelOculusTouchQuestAndRiftSRightController,
-                      put = __set_m_modelOculusTouchQuestAndRiftSRightController))::UnityEngine::GameObject* m_modelOculusTouchQuestAndRiftSRightController;
+  __declspec(property(get = __cordl_internal_get_m_modelOculusTouchQuestAndRiftSRightController,
+                      put = __cordl_internal_set_m_modelOculusTouchQuestAndRiftSRightController))::UnityW<::UnityEngine::GameObject> m_modelOculusTouchQuestAndRiftSRightController;
 
   /// @brief Field m_modelOculusTouchRiftLeftController, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_modelOculusTouchRiftLeftController, put = __set_m_modelOculusTouchRiftLeftController))::UnityEngine::GameObject* m_modelOculusTouchRiftLeftController;
+  __declspec(property(get = __cordl_internal_get_m_modelOculusTouchRiftLeftController,
+                      put = __cordl_internal_set_m_modelOculusTouchRiftLeftController))::UnityW<::UnityEngine::GameObject> m_modelOculusTouchRiftLeftController;
 
   /// @brief Field m_modelOculusTouchRiftRightController, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_modelOculusTouchRiftRightController, put = __set_m_modelOculusTouchRiftRightController))::UnityEngine::GameObject* m_modelOculusTouchRiftRightController;
+  __declspec(property(get = __cordl_internal_get_m_modelOculusTouchRiftRightController,
+                      put = __cordl_internal_set_m_modelOculusTouchRiftRightController))::UnityW<::UnityEngine::GameObject> m_modelOculusTouchRiftRightController;
 
   /// @brief Field m_modelOculusTouchQuest2LeftController, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_modelOculusTouchQuest2LeftController, put = __set_m_modelOculusTouchQuest2LeftController))::UnityEngine::GameObject* m_modelOculusTouchQuest2LeftController;
+  __declspec(property(get = __cordl_internal_get_m_modelOculusTouchQuest2LeftController,
+                      put = __cordl_internal_set_m_modelOculusTouchQuest2LeftController))::UnityW<::UnityEngine::GameObject> m_modelOculusTouchQuest2LeftController;
 
   /// @brief Field m_modelOculusTouchQuest2RightController, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_modelOculusTouchQuest2RightController, put = __set_m_modelOculusTouchQuest2RightController))::UnityEngine::GameObject* m_modelOculusTouchQuest2RightController;
+  __declspec(property(get = __cordl_internal_get_m_modelOculusTouchQuest2RightController,
+                      put = __cordl_internal_set_m_modelOculusTouchQuest2RightController))::UnityW<::UnityEngine::GameObject> m_modelOculusTouchQuest2RightController;
 
   /// @brief Field m_modelMetaTouchProLeftController, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_modelMetaTouchProLeftController, put = __set_m_modelMetaTouchProLeftController))::UnityEngine::GameObject* m_modelMetaTouchProLeftController;
+  __declspec(property(get = __cordl_internal_get_m_modelMetaTouchProLeftController,
+                      put = __cordl_internal_set_m_modelMetaTouchProLeftController))::UnityW<::UnityEngine::GameObject> m_modelMetaTouchProLeftController;
 
   /// @brief Field m_modelMetaTouchProRightController, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_modelMetaTouchProRightController, put = __set_m_modelMetaTouchProRightController))::UnityEngine::GameObject* m_modelMetaTouchProRightController;
+  __declspec(property(get = __cordl_internal_get_m_modelMetaTouchProRightController,
+                      put = __cordl_internal_set_m_modelMetaTouchProRightController))::UnityW<::UnityEngine::GameObject> m_modelMetaTouchProRightController;
 
   /// @brief Field m_modelMetaTouchPlusLeftController, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_modelMetaTouchPlusLeftController, put = __set_m_modelMetaTouchPlusLeftController))::UnityEngine::GameObject* m_modelMetaTouchPlusLeftController;
+  __declspec(property(get = __cordl_internal_get_m_modelMetaTouchPlusLeftController,
+                      put = __cordl_internal_set_m_modelMetaTouchPlusLeftController))::UnityW<::UnityEngine::GameObject> m_modelMetaTouchPlusLeftController;
 
   /// @brief Field m_modelMetaTouchPlusRightController, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_modelMetaTouchPlusRightController, put = __set_m_modelMetaTouchPlusRightController))::UnityEngine::GameObject* m_modelMetaTouchPlusRightController;
+  __declspec(property(get = __cordl_internal_get_m_modelMetaTouchPlusRightController,
+                      put = __cordl_internal_set_m_modelMetaTouchPlusRightController))::UnityW<::UnityEngine::GameObject> m_modelMetaTouchPlusRightController;
 
   /// @brief Field m_controller, offset 0x68, size 0x4
-  __declspec(property(get = __get_m_controller, put = __set_m_controller))::GlobalNamespace::__OVRInput__Controller m_controller;
+  __declspec(property(get = __cordl_internal_get_m_controller, put = __cordl_internal_set_m_controller))::GlobalNamespace::__OVRInput__Controller m_controller;
 
   /// @brief Field m_showState, offset 0x6c, size 0x4
-  __declspec(property(get = __get_m_showState, put = __set_m_showState))::GlobalNamespace::__OVRInput__InputDeviceShowState m_showState;
+  __declspec(property(get = __cordl_internal_get_m_showState, put = __cordl_internal_set_m_showState))::GlobalNamespace::__OVRInput__InputDeviceShowState m_showState;
 
   /// @brief Field showWhenHandsArePoweredByNaturalControllerPoses, offset 0x70, size 0x1
-  __declspec(property(get = __get_showWhenHandsArePoweredByNaturalControllerPoses, put = __set_showWhenHandsArePoweredByNaturalControllerPoses)) bool showWhenHandsArePoweredByNaturalControllerPoses;
+  __declspec(property(get = __cordl_internal_get_showWhenHandsArePoweredByNaturalControllerPoses,
+                      put = __cordl_internal_set_showWhenHandsArePoweredByNaturalControllerPoses)) bool showWhenHandsArePoweredByNaturalControllerPoses;
 
   /// @brief Field m_animator, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_animator, put = __set_m_animator))::UnityEngine::Animator* m_animator;
+  __declspec(property(get = __cordl_internal_get_m_animator, put = __cordl_internal_set_m_animator))::UnityW<::UnityEngine::Animator> m_animator;
 
   /// @brief Field m_activeController, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_activeController, put = __set_m_activeController))::UnityEngine::GameObject* m_activeController;
+  __declspec(property(get = __cordl_internal_get_m_activeController, put = __cordl_internal_set_m_activeController))::UnityW<::UnityEngine::GameObject> m_activeController;
 
   /// @brief Field m_controllerModelsInitialized, offset 0x88, size 0x1
-  __declspec(property(get = __get_m_controllerModelsInitialized, put = __set_m_controllerModelsInitialized)) bool m_controllerModelsInitialized;
+  __declspec(property(get = __cordl_internal_get_m_controllerModelsInitialized, put = __cordl_internal_set_m_controllerModelsInitialized)) bool m_controllerModelsInitialized;
 
   /// @brief Field m_hasInputFocus, offset 0x89, size 0x1
-  __declspec(property(get = __get_m_hasInputFocus, put = __set_m_hasInputFocus)) bool m_hasInputFocus;
+  __declspec(property(get = __cordl_internal_get_m_hasInputFocus, put = __cordl_internal_set_m_hasInputFocus)) bool m_hasInputFocus;
 
   /// @brief Field m_hasInputFocusPrev, offset 0x8a, size 0x1
-  __declspec(property(get = __get_m_hasInputFocusPrev, put = __set_m_hasInputFocusPrev)) bool m_hasInputFocusPrev;
+  __declspec(property(get = __cordl_internal_get_m_hasInputFocusPrev, put = __cordl_internal_set_m_hasInputFocusPrev)) bool m_hasInputFocusPrev;
 
   /// @brief Field activeControllerType, offset 0x8c, size 0x4
-  __declspec(property(get = __get_activeControllerType, put = __set_activeControllerType))::GlobalNamespace::__OVRControllerHelper__ControllerType activeControllerType;
+  __declspec(property(get = __cordl_internal_get_activeControllerType, put = __cordl_internal_set_activeControllerType))::GlobalNamespace::__OVRControllerHelper__ControllerType activeControllerType;
 
   /// @brief Field m_prevControllerConnected, offset 0x90, size 0x1
-  __declspec(property(get = __get_m_prevControllerConnected, put = __set_m_prevControllerConnected)) bool m_prevControllerConnected;
+  __declspec(property(get = __cordl_internal_get_m_prevControllerConnected, put = __cordl_internal_set_m_prevControllerConnected)) bool m_prevControllerConnected;
 
   /// @brief Field m_prevControllerConnectedCached, offset 0x91, size 0x1
-  __declspec(property(get = __get_m_prevControllerConnectedCached, put = __set_m_prevControllerConnectedCached)) bool m_prevControllerConnectedCached;
+  __declspec(property(get = __cordl_internal_get_m_prevControllerConnectedCached, put = __cordl_internal_set_m_prevControllerConnectedCached)) bool m_prevControllerConnectedCached;
 
   /// @brief Field m_prevControllerInHandState, offset 0x94, size 0x4
-  __declspec(property(get = __get_m_prevControllerInHandState, put = __set_m_prevControllerInHandState))::GlobalNamespace::__OVRInput__ControllerInHandState m_prevControllerInHandState;
+  __declspec(property(get = __cordl_internal_get_m_prevControllerInHandState,
+                      put = __cordl_internal_set_m_prevControllerInHandState))::GlobalNamespace::__OVRInput__ControllerInHandState m_prevControllerInHandState;
 
-  constexpr ::UnityEngine::GameObject*& __get_m_modelOculusTouchQuestAndRiftSLeftController();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_modelOculusTouchQuestAndRiftSLeftController();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_modelOculusTouchQuestAndRiftSLeftController() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_modelOculusTouchQuestAndRiftSLeftController() const;
 
-  constexpr void __set_m_modelOculusTouchQuestAndRiftSLeftController(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_modelOculusTouchQuestAndRiftSLeftController(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_modelOculusTouchQuestAndRiftSRightController();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_modelOculusTouchQuestAndRiftSRightController();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_modelOculusTouchQuestAndRiftSRightController() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_modelOculusTouchQuestAndRiftSRightController() const;
 
-  constexpr void __set_m_modelOculusTouchQuestAndRiftSRightController(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_modelOculusTouchQuestAndRiftSRightController(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_modelOculusTouchRiftLeftController();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_modelOculusTouchRiftLeftController();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_modelOculusTouchRiftLeftController() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_modelOculusTouchRiftLeftController() const;
 
-  constexpr void __set_m_modelOculusTouchRiftLeftController(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_modelOculusTouchRiftLeftController(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_modelOculusTouchRiftRightController();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_modelOculusTouchRiftRightController();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_modelOculusTouchRiftRightController() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_modelOculusTouchRiftRightController() const;
 
-  constexpr void __set_m_modelOculusTouchRiftRightController(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_modelOculusTouchRiftRightController(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_modelOculusTouchQuest2LeftController();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_modelOculusTouchQuest2LeftController();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_modelOculusTouchQuest2LeftController() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_modelOculusTouchQuest2LeftController() const;
 
-  constexpr void __set_m_modelOculusTouchQuest2LeftController(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_modelOculusTouchQuest2LeftController(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_modelOculusTouchQuest2RightController();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_modelOculusTouchQuest2RightController();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_modelOculusTouchQuest2RightController() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_modelOculusTouchQuest2RightController() const;
 
-  constexpr void __set_m_modelOculusTouchQuest2RightController(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_modelOculusTouchQuest2RightController(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_modelMetaTouchProLeftController();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_modelMetaTouchProLeftController();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_modelMetaTouchProLeftController() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_modelMetaTouchProLeftController() const;
 
-  constexpr void __set_m_modelMetaTouchProLeftController(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_modelMetaTouchProLeftController(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_modelMetaTouchProRightController();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_modelMetaTouchProRightController();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_modelMetaTouchProRightController() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_modelMetaTouchProRightController() const;
 
-  constexpr void __set_m_modelMetaTouchProRightController(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_modelMetaTouchProRightController(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_modelMetaTouchPlusLeftController();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_modelMetaTouchPlusLeftController();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_modelMetaTouchPlusLeftController() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_modelMetaTouchPlusLeftController() const;
 
-  constexpr void __set_m_modelMetaTouchPlusLeftController(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_modelMetaTouchPlusLeftController(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_modelMetaTouchPlusRightController();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_modelMetaTouchPlusRightController();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_modelMetaTouchPlusRightController() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_modelMetaTouchPlusRightController() const;
 
-  constexpr void __set_m_modelMetaTouchPlusRightController(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_modelMetaTouchPlusRightController(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::__OVRInput__Controller& __get_m_controller();
+  constexpr ::GlobalNamespace::__OVRInput__Controller& __cordl_internal_get_m_controller();
 
-  constexpr ::GlobalNamespace::__OVRInput__Controller const& __get_m_controller() const;
+  constexpr ::GlobalNamespace::__OVRInput__Controller const& __cordl_internal_get_m_controller() const;
 
-  constexpr void __set_m_controller(::GlobalNamespace::__OVRInput__Controller value);
+  constexpr void __cordl_internal_set_m_controller(::GlobalNamespace::__OVRInput__Controller value);
 
-  constexpr ::GlobalNamespace::__OVRInput__InputDeviceShowState& __get_m_showState();
+  constexpr ::GlobalNamespace::__OVRInput__InputDeviceShowState& __cordl_internal_get_m_showState();
 
-  constexpr ::GlobalNamespace::__OVRInput__InputDeviceShowState const& __get_m_showState() const;
+  constexpr ::GlobalNamespace::__OVRInput__InputDeviceShowState const& __cordl_internal_get_m_showState() const;
 
-  constexpr void __set_m_showState(::GlobalNamespace::__OVRInput__InputDeviceShowState value);
+  constexpr void __cordl_internal_set_m_showState(::GlobalNamespace::__OVRInput__InputDeviceShowState value);
 
-  constexpr bool& __get_showWhenHandsArePoweredByNaturalControllerPoses();
+  constexpr bool& __cordl_internal_get_showWhenHandsArePoweredByNaturalControllerPoses();
 
-  constexpr bool const& __get_showWhenHandsArePoweredByNaturalControllerPoses() const;
+  constexpr bool const& __cordl_internal_get_showWhenHandsArePoweredByNaturalControllerPoses() const;
 
-  constexpr void __set_showWhenHandsArePoweredByNaturalControllerPoses(bool value);
+  constexpr void __cordl_internal_set_showWhenHandsArePoweredByNaturalControllerPoses(bool value);
 
-  constexpr ::UnityEngine::Animator*& __get_m_animator();
+  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get_m_animator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> const& __get_m_animator() const;
+  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get_m_animator() const;
 
-  constexpr void __set_m_animator(::UnityEngine::Animator* value);
+  constexpr void __cordl_internal_set_m_animator(::UnityW<::UnityEngine::Animator> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_activeController();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_activeController();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_activeController() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_activeController() const;
 
-  constexpr void __set_m_activeController(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_activeController(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr bool& __get_m_controllerModelsInitialized();
+  constexpr bool& __cordl_internal_get_m_controllerModelsInitialized();
 
-  constexpr bool const& __get_m_controllerModelsInitialized() const;
+  constexpr bool const& __cordl_internal_get_m_controllerModelsInitialized() const;
 
-  constexpr void __set_m_controllerModelsInitialized(bool value);
+  constexpr void __cordl_internal_set_m_controllerModelsInitialized(bool value);
 
-  constexpr bool& __get_m_hasInputFocus();
+  constexpr bool& __cordl_internal_get_m_hasInputFocus();
 
-  constexpr bool const& __get_m_hasInputFocus() const;
+  constexpr bool const& __cordl_internal_get_m_hasInputFocus() const;
 
-  constexpr void __set_m_hasInputFocus(bool value);
+  constexpr void __cordl_internal_set_m_hasInputFocus(bool value);
 
-  constexpr bool& __get_m_hasInputFocusPrev();
+  constexpr bool& __cordl_internal_get_m_hasInputFocusPrev();
 
-  constexpr bool const& __get_m_hasInputFocusPrev() const;
+  constexpr bool const& __cordl_internal_get_m_hasInputFocusPrev() const;
 
-  constexpr void __set_m_hasInputFocusPrev(bool value);
+  constexpr void __cordl_internal_set_m_hasInputFocusPrev(bool value);
 
-  constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType& __get_activeControllerType();
+  constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType& __cordl_internal_get_activeControllerType();
 
-  constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType const& __get_activeControllerType() const;
+  constexpr ::GlobalNamespace::__OVRControllerHelper__ControllerType const& __cordl_internal_get_activeControllerType() const;
 
-  constexpr void __set_activeControllerType(::GlobalNamespace::__OVRControllerHelper__ControllerType value);
+  constexpr void __cordl_internal_set_activeControllerType(::GlobalNamespace::__OVRControllerHelper__ControllerType value);
 
-  constexpr bool& __get_m_prevControllerConnected();
+  constexpr bool& __cordl_internal_get_m_prevControllerConnected();
 
-  constexpr bool const& __get_m_prevControllerConnected() const;
+  constexpr bool const& __cordl_internal_get_m_prevControllerConnected() const;
 
-  constexpr void __set_m_prevControllerConnected(bool value);
+  constexpr void __cordl_internal_set_m_prevControllerConnected(bool value);
 
-  constexpr bool& __get_m_prevControllerConnectedCached();
+  constexpr bool& __cordl_internal_get_m_prevControllerConnectedCached();
 
-  constexpr bool const& __get_m_prevControllerConnectedCached() const;
+  constexpr bool const& __cordl_internal_get_m_prevControllerConnectedCached() const;
 
-  constexpr void __set_m_prevControllerConnectedCached(bool value);
+  constexpr void __cordl_internal_set_m_prevControllerConnectedCached(bool value);
 
-  constexpr ::GlobalNamespace::__OVRInput__ControllerInHandState& __get_m_prevControllerInHandState();
+  constexpr ::GlobalNamespace::__OVRInput__ControllerInHandState& __cordl_internal_get_m_prevControllerInHandState();
 
-  constexpr ::GlobalNamespace::__OVRInput__ControllerInHandState const& __get_m_prevControllerInHandState() const;
+  constexpr ::GlobalNamespace::__OVRInput__ControllerInHandState const& __cordl_internal_get_m_prevControllerInHandState() const;
 
-  constexpr void __set_m_prevControllerInHandState(::GlobalNamespace::__OVRInput__ControllerInHandState value);
+  constexpr void __cordl_internal_set_m_prevControllerInHandState(::GlobalNamespace::__OVRInput__ControllerInHandState value);
 
   /// @brief Method Start, addr 0x27a232c, size 0x70, virtual false, abstract: false, final false
   inline void Start();
@@ -335,34 +345,34 @@ protected:
 
 public:
   /// @brief Field m_modelOculusTouchQuestAndRiftSLeftController, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_modelOculusTouchQuestAndRiftSLeftController;
+  ::UnityW<::UnityEngine::GameObject> ___m_modelOculusTouchQuestAndRiftSLeftController;
 
   /// @brief Field m_modelOculusTouchQuestAndRiftSRightController, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_modelOculusTouchQuestAndRiftSRightController;
+  ::UnityW<::UnityEngine::GameObject> ___m_modelOculusTouchQuestAndRiftSRightController;
 
   /// @brief Field m_modelOculusTouchRiftLeftController, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_modelOculusTouchRiftLeftController;
+  ::UnityW<::UnityEngine::GameObject> ___m_modelOculusTouchRiftLeftController;
 
   /// @brief Field m_modelOculusTouchRiftRightController, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_modelOculusTouchRiftRightController;
+  ::UnityW<::UnityEngine::GameObject> ___m_modelOculusTouchRiftRightController;
 
   /// @brief Field m_modelOculusTouchQuest2LeftController, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_modelOculusTouchQuest2LeftController;
+  ::UnityW<::UnityEngine::GameObject> ___m_modelOculusTouchQuest2LeftController;
 
   /// @brief Field m_modelOculusTouchQuest2RightController, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_modelOculusTouchQuest2RightController;
+  ::UnityW<::UnityEngine::GameObject> ___m_modelOculusTouchQuest2RightController;
 
   /// @brief Field m_modelMetaTouchProLeftController, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_modelMetaTouchProLeftController;
+  ::UnityW<::UnityEngine::GameObject> ___m_modelMetaTouchProLeftController;
 
   /// @brief Field m_modelMetaTouchProRightController, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_modelMetaTouchProRightController;
+  ::UnityW<::UnityEngine::GameObject> ___m_modelMetaTouchProRightController;
 
   /// @brief Field m_modelMetaTouchPlusLeftController, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_modelMetaTouchPlusLeftController;
+  ::UnityW<::UnityEngine::GameObject> ___m_modelMetaTouchPlusLeftController;
 
   /// @brief Field m_modelMetaTouchPlusRightController, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_modelMetaTouchPlusRightController;
+  ::UnityW<::UnityEngine::GameObject> ___m_modelMetaTouchPlusRightController;
 
   /// @brief Field m_controller, offset: 0x68, size: 0x4, def value: None
   ::GlobalNamespace::__OVRInput__Controller ___m_controller;
@@ -374,10 +384,10 @@ public:
   bool ___showWhenHandsArePoweredByNaturalControllerPoses;
 
   /// @brief Field m_animator, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::Animator* ___m_animator;
+  ::UnityW<::UnityEngine::Animator> ___m_animator;
 
   /// @brief Field m_activeController, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_activeController;
+  ::UnityW<::UnityEngine::GameObject> ___m_activeController;
 
   /// @brief Field m_controllerModelsInitialized, offset: 0x88, size: 0x1, def value: None
   bool ___m_controllerModelsInitialized;

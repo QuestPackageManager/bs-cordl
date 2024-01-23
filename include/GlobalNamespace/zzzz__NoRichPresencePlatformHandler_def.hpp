@@ -21,14 +21,15 @@ MARK_REF_PTR_T(::GlobalNamespace::NoRichPresencePlatformHandler);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4671))
 // CS Name: ::NoRichPresencePlatformHandler*
 class CORDL_TYPE NoRichPresencePlatformHandler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <currentPresenceApiName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__currentPresenceApiName_k__BackingField, put = __set__currentPresenceApiName_k__BackingField))::StringW _currentPresenceApiName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__currentPresenceApiName_k__BackingField,
+                      put = __cordl_internal_set__currentPresenceApiName_k__BackingField))::StringW _currentPresenceApiName_k__BackingField;
 
   __declspec(property(get = get_currentPresenceApiName, put = set_currentPresenceApiName))::StringW currentPresenceApiName;
 
@@ -38,11 +39,11 @@ public:
   /// @brief Convert to "::GlobalNamespace::IRichPresencePlatformHandler"
   constexpr ::GlobalNamespace::IRichPresencePlatformHandler* i___GlobalNamespace__IRichPresencePlatformHandler() noexcept;
 
-  constexpr ::StringW& __get__currentPresenceApiName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__currentPresenceApiName_k__BackingField();
 
-  constexpr ::StringW const& __get__currentPresenceApiName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__currentPresenceApiName_k__BackingField() const;
 
-  constexpr void __set__currentPresenceApiName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__currentPresenceApiName_k__BackingField(::StringW value);
 
   /// @brief Method get_currentPresenceApiName, addr 0x2373764, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_currentPresenceApiName();

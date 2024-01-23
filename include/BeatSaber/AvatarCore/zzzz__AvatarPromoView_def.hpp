@@ -17,25 +17,25 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarPromoView);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15175))
 // CS Name: ::BeatSaber.AvatarCore::AvatarPromoView*
 class CORDL_TYPE AvatarPromoView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _rectTransform, offset 0x18, size 0x8
-  __declspec(property(get = __get__rectTransform, put = __set__rectTransform))::UnityEngine::RectTransform* _rectTransform;
+  __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform))::UnityW<::UnityEngine::RectTransform> _rectTransform;
 
-  __declspec(property(get = get_rectTransform))::UnityEngine::RectTransform* rectTransform;
+  __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
 
-  constexpr ::UnityEngine::RectTransform*& __get__rectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__rectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
 
-  constexpr void __set__rectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
   /// @brief Method get_rectTransform, addr 0xe0bdb8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::RectTransform* get_rectTransform();
+  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
   static inline ::BeatSaber::AvatarCore::AvatarPromoView* New_ctor();
 
@@ -57,7 +57,7 @@ protected:
 
 public:
   /// @brief Field _rectTransform, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____rectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

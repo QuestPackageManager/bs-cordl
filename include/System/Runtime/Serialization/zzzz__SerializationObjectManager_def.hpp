@@ -27,38 +27,40 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationObjectManager);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3235)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3210))
 // CS Name: ::System.Runtime.Serialization::SerializationObjectManager*
 class CORDL_TYPE SerializationObjectManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _objectSeenTable, offset 0x10, size 0x8
-  __declspec(property(get = __get__objectSeenTable, put = __set__objectSeenTable))::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* _objectSeenTable;
+  __declspec(property(get = __cordl_internal_get__objectSeenTable,
+                      put = __cordl_internal_set__objectSeenTable))::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* _objectSeenTable;
 
   /// @brief Field _context, offset 0x18, size 0x10
-  __declspec(property(get = __get__context, put = __set__context))::System::Runtime::Serialization::StreamingContext _context;
+  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::System::Runtime::Serialization::StreamingContext _context;
 
   /// @brief Field _onSerializedHandler, offset 0x28, size 0x8
-  __declspec(property(get = __get__onSerializedHandler, put = __set__onSerializedHandler))::System::Runtime::Serialization::SerializationEventHandler* _onSerializedHandler;
+  __declspec(property(get = __cordl_internal_get__onSerializedHandler,
+                      put = __cordl_internal_set__onSerializedHandler))::System::Runtime::Serialization::SerializationEventHandler* _onSerializedHandler;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*& __get__objectSeenTable();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*& __cordl_internal_get__objectSeenTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*> const& __get__objectSeenTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>*> const& __cordl_internal_get__objectSeenTable() const;
 
-  constexpr void __set__objectSeenTable(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* value);
+  constexpr void __cordl_internal_set__objectSeenTable(::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* value);
 
-  constexpr ::System::Runtime::Serialization::StreamingContext& __get__context();
+  constexpr ::System::Runtime::Serialization::StreamingContext& __cordl_internal_get__context();
 
-  constexpr ::System::Runtime::Serialization::StreamingContext const& __get__context() const;
+  constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get__context() const;
 
-  constexpr void __set__context(::System::Runtime::Serialization::StreamingContext value);
+  constexpr void __cordl_internal_set__context(::System::Runtime::Serialization::StreamingContext value);
 
-  constexpr ::System::Runtime::Serialization::SerializationEventHandler*& __get__onSerializedHandler();
+  constexpr ::System::Runtime::Serialization::SerializationEventHandler*& __cordl_internal_get__onSerializedHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationEventHandler*> const& __get__onSerializedHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationEventHandler*> const& __cordl_internal_get__onSerializedHandler() const;
 
-  constexpr void __set__onSerializedHandler(::System::Runtime::Serialization::SerializationEventHandler* value);
+  constexpr void __cordl_internal_set__onSerializedHandler(::System::Runtime::Serialization::SerializationEventHandler* value);
 
   static inline ::System::Runtime::Serialization::SerializationObjectManager* New_ctor(::System::Runtime::Serialization::StreamingContext context);
 

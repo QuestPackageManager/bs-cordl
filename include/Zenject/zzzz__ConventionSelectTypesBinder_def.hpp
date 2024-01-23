@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::Zenject::__ConventionSelectTypesBinder____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10699))
 // CS Name: ::ConventionSelectTypesBinder::<>c*
 class CORDL_TYPE __ConventionSelectTypesBinder____c : public ::System::Object {
@@ -128,7 +128,7 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__ConventionSelectTypes
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10700))
 // CS Name: ::Zenject::ConventionSelectTypesBinder*
 class CORDL_TYPE ConventionSelectTypesBinder : public ::System::Object {
@@ -137,13 +137,13 @@ public:
   using __c = ::Zenject::__ConventionSelectTypesBinder____c;
 
   /// @brief Field _bindInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get__bindInfo, put = __set__bindInfo))::Zenject::ConventionBindInfo* _bindInfo;
+  __declspec(property(get = __cordl_internal_get__bindInfo, put = __cordl_internal_set__bindInfo))::Zenject::ConventionBindInfo* _bindInfo;
 
-  constexpr ::Zenject::ConventionBindInfo*& __get__bindInfo();
+  constexpr ::Zenject::ConventionBindInfo*& __cordl_internal_get__bindInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::ConventionBindInfo*> const& __get__bindInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::ConventionBindInfo*> const& __cordl_internal_get__bindInfo() const;
 
-  constexpr void __set__bindInfo(::Zenject::ConventionBindInfo* value);
+  constexpr void __cordl_internal_set__bindInfo(::Zenject::ConventionBindInfo* value);
 
   static inline ::Zenject::ConventionSelectTypesBinder* New_ctor(::Zenject::ConventionBindInfo* bindInfo);
 

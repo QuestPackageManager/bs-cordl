@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::LongArray);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1574))
 // CS Name: ::Org.BouncyCastle.Math.EC::LongArray*
 class CORDL_TYPE LongArray : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_ints, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_ints, put = __set_m_ints))::ArrayW<int64_t, ::Array<int64_t>*> m_ints;
+  __declspec(property(get = __cordl_internal_get_m_ints, put = __cordl_internal_set_m_ints))::ArrayW<int64_t, ::Array<int64_t>*> m_ints;
 
   /// @brief Field INTERLEAVE2_TABLE, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_INTERLEAVE2_TABLE, put = setStaticF_INTERLEAVE2_TABLE))::ArrayW<uint16_t, ::Array<uint16_t>*> INTERLEAVE2_TABLE;
@@ -52,11 +52,11 @@ public:
 
   __declspec(property(get = get_Length)) int32_t Length;
 
-  constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& __get_m_ints();
+  constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& __cordl_internal_get_m_ints();
 
-  constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __get_m_ints() const;
+  constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __cordl_internal_get_m_ints() const;
 
-  constexpr void __set_m_ints(::ArrayW<int64_t, ::Array<int64_t>*> value);
+  constexpr void __cordl_internal_set_m_ints(::ArrayW<int64_t, ::Array<int64_t>*> value);
 
   static inline void setStaticF_INTERLEAVE2_TABLE(::ArrayW<uint16_t, ::Array<uint16_t>*> value);
 

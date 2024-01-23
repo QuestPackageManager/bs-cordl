@@ -23,34 +23,34 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorPickerButtonController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16144))
 // CS Name: ::ColorPickerButtonController*
 class CORDL_TYPE ColorPickerButtonController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _button, offset 0x18, size 0x8
-  __declspec(property(get = __get__button, put = __set__button))::UnityEngine::UI::Button* _button;
+  __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button))::UnityW<::UnityEngine::UI::Button> _button;
 
   /// @brief Field _colorImage, offset 0x20, size 0x8
-  __declspec(property(get = __get__colorImage, put = __set__colorImage))::UnityEngine::UI::Image* _colorImage;
+  __declspec(property(get = __cordl_internal_get__colorImage, put = __cordl_internal_set__colorImage))::UnityW<::UnityEngine::UI::Image> _colorImage;
 
-  __declspec(property(get = get_button))::UnityEngine::UI::Button* button;
+  __declspec(property(get = get_button))::UnityW<::UnityEngine::UI::Button> button;
 
-  constexpr ::UnityEngine::UI::Button*& __get__button();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__button() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
 
-  constexpr void __set__button(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__colorImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__colorImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__colorImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__colorImage() const;
 
-  constexpr void __set__colorImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__colorImage(::UnityW<::UnityEngine::UI::Image> value);
 
   /// @brief Method get_button, addr 0x23e4268, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Button* get_button();
+  inline ::UnityW<::UnityEngine::UI::Button> get_button();
 
   /// @brief Method SetColor, addr 0x23e4270, size 0x28, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
@@ -75,10 +75,10 @@ protected:
 
 public:
   /// @brief Field _button, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____button;
+  ::UnityW<::UnityEngine::UI::Button> ____button;
 
   /// @brief Field _colorImage, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____colorImage;
+  ::UnityW<::UnityEngine::UI::Image> ____colorImage;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

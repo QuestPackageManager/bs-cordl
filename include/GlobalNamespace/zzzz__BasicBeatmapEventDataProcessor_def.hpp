@@ -21,8 +21,8 @@ MARK_REF_PTR_T(::GlobalNamespace::BasicBeatmapEventDataProcessor);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14741)), TypeDefinitionIndex(TypeDefinitionIndex(14721)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14741), inst:
-// 949 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14740)) CS Name: ::BasicBeatmapEventDataProcessor*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14721)), TypeDefinitionIndex(TypeDefinitionIndex(14741)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14741), inst:
+// 949 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14740)) CS Name: ::BasicBeatmapEventDataProcessor*
 class CORDL_TYPE BasicBeatmapEventDataProcessor : public ::GlobalNamespace::BeatmapEventDataProcessor_1<::GlobalNamespace::BasicBeatmapEventData*> {
 public:
   // Declarations

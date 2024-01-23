@@ -85,114 +85,124 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerData);
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4660)), TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14717))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4628)) CS Name: ::PlayerData*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(4660)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14717))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4628)) CS Name: ::PlayerData*
 class CORDL_TYPE PlayerData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <playerId>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__playerId_k__BackingField, put = __set__playerId_k__BackingField))::StringW _playerId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__playerId_k__BackingField, put = __cordl_internal_set__playerId_k__BackingField))::StringW _playerId_k__BackingField;
 
   /// @brief Field <playerName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__playerName_k__BackingField, put = __set__playerName_k__BackingField))::StringW _playerName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__playerName_k__BackingField, put = __cordl_internal_set__playerName_k__BackingField))::StringW _playerName_k__BackingField;
 
   /// @brief Field <shouldShowTutorialPrompt>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __get__shouldShowTutorialPrompt_k__BackingField, put = __set__shouldShowTutorialPrompt_k__BackingField)) bool _shouldShowTutorialPrompt_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__shouldShowTutorialPrompt_k__BackingField,
+                      put = __cordl_internal_set__shouldShowTutorialPrompt_k__BackingField)) bool _shouldShowTutorialPrompt_k__BackingField;
 
   /// @brief Field <shouldShow360Warning>k__BackingField, offset 0x21, size 0x1
-  __declspec(property(get = __get__shouldShow360Warning_k__BackingField, put = __set__shouldShow360Warning_k__BackingField)) bool _shouldShow360Warning_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__shouldShow360Warning_k__BackingField, put = __cordl_internal_set__shouldShow360Warning_k__BackingField)) bool _shouldShow360Warning_k__BackingField;
 
   /// @brief Field <agreedToEula>k__BackingField, offset 0x22, size 0x1
-  __declspec(property(get = __get__agreedToEula_k__BackingField, put = __set__agreedToEula_k__BackingField)) bool _agreedToEula_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__agreedToEula_k__BackingField, put = __cordl_internal_set__agreedToEula_k__BackingField)) bool _agreedToEula_k__BackingField;
 
   /// @brief Field <didSelectLanguage>k__BackingField, offset 0x23, size 0x1
-  __declspec(property(get = __get__didSelectLanguage_k__BackingField, put = __set__didSelectLanguage_k__BackingField)) bool _didSelectLanguage_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__didSelectLanguage_k__BackingField, put = __cordl_internal_set__didSelectLanguage_k__BackingField)) bool _didSelectLanguage_k__BackingField;
 
   /// @brief Field <agreedToMultiplayerDisclaimer>k__BackingField, offset 0x24, size 0x1
-  __declspec(property(get = __get__agreedToMultiplayerDisclaimer_k__BackingField, put = __set__agreedToMultiplayerDisclaimer_k__BackingField)) bool _agreedToMultiplayerDisclaimer_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__agreedToMultiplayerDisclaimer_k__BackingField,
+                      put = __cordl_internal_set__agreedToMultiplayerDisclaimer_k__BackingField)) bool _agreedToMultiplayerDisclaimer_k__BackingField;
 
   /// @brief Field <didSelectRegionVersion>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__didSelectRegionVersion_k__BackingField, put = __set__didSelectRegionVersion_k__BackingField)) int32_t _didSelectRegionVersion_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__didSelectRegionVersion_k__BackingField,
+                      put = __cordl_internal_set__didSelectRegionVersion_k__BackingField)) int32_t _didSelectRegionVersion_k__BackingField;
 
   /// @brief Field <selectedAvatarSystemTypeId>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__selectedAvatarSystemTypeId_k__BackingField, put = __set__selectedAvatarSystemTypeId_k__BackingField))::StringW _selectedAvatarSystemTypeId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__selectedAvatarSystemTypeId_k__BackingField,
+                      put = __cordl_internal_set__selectedAvatarSystemTypeId_k__BackingField))::StringW _selectedAvatarSystemTypeId_k__BackingField;
 
   /// @brief Field <playerAgreements>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__playerAgreements_k__BackingField, put = __set__playerAgreements_k__BackingField))::GlobalNamespace::PlayerAgreements* _playerAgreements_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__playerAgreements_k__BackingField,
+                      put = __cordl_internal_set__playerAgreements_k__BackingField))::GlobalNamespace::PlayerAgreements* _playerAgreements_k__BackingField;
 
   /// @brief Field <lastSelectedBeatmapDifficulty>k__BackingField, offset 0x40, size 0x4
-  __declspec(property(get = __get__lastSelectedBeatmapDifficulty_k__BackingField,
-                      put = __set__lastSelectedBeatmapDifficulty_k__BackingField))::GlobalNamespace::BeatmapDifficulty _lastSelectedBeatmapDifficulty_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lastSelectedBeatmapDifficulty_k__BackingField,
+                      put = __cordl_internal_set__lastSelectedBeatmapDifficulty_k__BackingField))::GlobalNamespace::BeatmapDifficulty _lastSelectedBeatmapDifficulty_k__BackingField;
 
   /// @brief Field <lastSelectedBeatmapCharacteristic>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __get__lastSelectedBeatmapCharacteristic_k__BackingField,
-                      put = __set__lastSelectedBeatmapCharacteristic_k__BackingField))::GlobalNamespace::BeatmapCharacteristicSO* _lastSelectedBeatmapCharacteristic_k__BackingField;
+  __declspec(
+      property(get = __cordl_internal_get__lastSelectedBeatmapCharacteristic_k__BackingField,
+               put = __cordl_internal_set__lastSelectedBeatmapCharacteristic_k__BackingField))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _lastSelectedBeatmapCharacteristic_k__BackingField;
 
   /// @brief Field <gameplayModifiers>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __get__gameplayModifiers_k__BackingField, put = __set__gameplayModifiers_k__BackingField))::GlobalNamespace::GameplayModifiers* _gameplayModifiers_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiers_k__BackingField,
+                      put = __cordl_internal_set__gameplayModifiers_k__BackingField))::GlobalNamespace::GameplayModifiers* _gameplayModifiers_k__BackingField;
 
   /// @brief Field <playerSpecificSettings>k__BackingField, offset 0x58, size 0x8
-  __declspec(property(get = __get__playerSpecificSettings_k__BackingField,
-                      put = __set__playerSpecificSettings_k__BackingField))::GlobalNamespace::PlayerSpecificSettings* _playerSpecificSettings_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__playerSpecificSettings_k__BackingField,
+                      put = __cordl_internal_set__playerSpecificSettings_k__BackingField))::GlobalNamespace::PlayerSpecificSettings* _playerSpecificSettings_k__BackingField;
 
   /// @brief Field <practiceSettings>k__BackingField, offset 0x60, size 0x8
-  __declspec(property(get = __get__practiceSettings_k__BackingField, put = __set__practiceSettings_k__BackingField))::GlobalNamespace::PracticeSettings* _practiceSettings_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__practiceSettings_k__BackingField,
+                      put = __cordl_internal_set__practiceSettings_k__BackingField))::GlobalNamespace::PracticeSettings* _practiceSettings_k__BackingField;
 
   /// @brief Field <playerAllOverallStatsData>k__BackingField, offset 0x68, size 0x8
-  __declspec(property(get = __get__playerAllOverallStatsData_k__BackingField,
-                      put = __set__playerAllOverallStatsData_k__BackingField))::GlobalNamespace::PlayerAllOverallStatsData* _playerAllOverallStatsData_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__playerAllOverallStatsData_k__BackingField,
+                      put = __cordl_internal_set__playerAllOverallStatsData_k__BackingField))::GlobalNamespace::PlayerAllOverallStatsData* _playerAllOverallStatsData_k__BackingField;
 
   /// @brief Field <levelsStatsData>k__BackingField, offset 0x70, size 0x8
-  __declspec(property(get = __get__levelsStatsData_k__BackingField,
-                      put = __set__levelsStatsData_k__BackingField))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LevelKey,
-                                                                                                                 ::GlobalNamespace::PlayerLevelStatsData*>* _levelsStatsData_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__levelsStatsData_k__BackingField, put = __cordl_internal_set__levelsStatsData_k__BackingField))::System::Collections::Generic::Dictionary_2<
+      ::GlobalNamespace::LevelKey, ::GlobalNamespace::PlayerLevelStatsData*>* _levelsStatsData_k__BackingField;
 
   /// @brief Field <missionsStatsData>k__BackingField, offset 0x78, size 0x8
-  __declspec(property(get = __get__missionsStatsData_k__BackingField,
-                      put = __set__missionsStatsData_k__BackingField))::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>* _missionsStatsData_k__BackingField;
+  __declspec(
+      property(get = __cordl_internal_get__missionsStatsData_k__BackingField,
+               put = __cordl_internal_set__missionsStatsData_k__BackingField))::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>* _missionsStatsData_k__BackingField;
 
   /// @brief Field <showedMissionHelpIds>k__BackingField, offset 0x80, size 0x8
-  __declspec(property(get = __get__showedMissionHelpIds_k__BackingField,
-                      put = __set__showedMissionHelpIds_k__BackingField))::System::Collections::Generic::List_1<::StringW>* _showedMissionHelpIds_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__showedMissionHelpIds_k__BackingField,
+                      put = __cordl_internal_set__showedMissionHelpIds_k__BackingField))::System::Collections::Generic::List_1<::StringW>* _showedMissionHelpIds_k__BackingField;
 
   /// @brief Field <guestPlayerNames>k__BackingField, offset 0x88, size 0x8
-  __declspec(property(get = __get__guestPlayerNames_k__BackingField,
-                      put = __set__guestPlayerNames_k__BackingField))::System::Collections::Generic::List_1<::StringW>* _guestPlayerNames_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__guestPlayerNames_k__BackingField,
+                      put = __cordl_internal_set__guestPlayerNames_k__BackingField))::System::Collections::Generic::List_1<::StringW>* _guestPlayerNames_k__BackingField;
 
   /// @brief Field <colorSchemesSettings>k__BackingField, offset 0x90, size 0x8
-  __declspec(property(get = __get__colorSchemesSettings_k__BackingField,
-                      put = __set__colorSchemesSettings_k__BackingField))::GlobalNamespace::ColorSchemesSettings* _colorSchemesSettings_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__colorSchemesSettings_k__BackingField,
+                      put = __cordl_internal_set__colorSchemesSettings_k__BackingField))::GlobalNamespace::ColorSchemesSettings* _colorSchemesSettings_k__BackingField;
 
   /// @brief Field <overrideEnvironmentSettings>k__BackingField, offset 0x98, size 0x8
-  __declspec(property(get = __get__overrideEnvironmentSettings_k__BackingField,
-                      put = __set__overrideEnvironmentSettings_k__BackingField))::GlobalNamespace::OverrideEnvironmentSettings* _overrideEnvironmentSettings_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__overrideEnvironmentSettings_k__BackingField,
+                      put = __cordl_internal_set__overrideEnvironmentSettings_k__BackingField))::GlobalNamespace::OverrideEnvironmentSettings* _overrideEnvironmentSettings_k__BackingField;
 
   /// @brief Field <favoritesLevelIds>k__BackingField, offset 0xa0, size 0x8
-  __declspec(property(get = __get__favoritesLevelIds_k__BackingField,
-                      put = __set__favoritesLevelIds_k__BackingField))::System::Collections::Generic::HashSet_1<::StringW>* _favoritesLevelIds_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__favoritesLevelIds_k__BackingField,
+                      put = __cordl_internal_set__favoritesLevelIds_k__BackingField))::System::Collections::Generic::HashSet_1<::StringW>* _favoritesLevelIds_k__BackingField;
 
   /// @brief Field <multiplayerModeSettings>k__BackingField, offset 0xa8, size 0x8
-  __declspec(property(get = __get__multiplayerModeSettings_k__BackingField,
-                      put = __set__multiplayerModeSettings_k__BackingField))::GlobalNamespace::MultiplayerModeSettings* _multiplayerModeSettings_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__multiplayerModeSettings_k__BackingField,
+                      put = __cordl_internal_set__multiplayerModeSettings_k__BackingField))::GlobalNamespace::MultiplayerModeSettings* _multiplayerModeSettings_k__BackingField;
 
   /// @brief Field <userAgeCategory>k__BackingField, offset 0xb0, size 0x4
-  __declspec(property(get = __get__userAgeCategory_k__BackingField, put = __set__userAgeCategory_k__BackingField))::GlobalNamespace::UserAgeCategory _userAgeCategory_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__userAgeCategory_k__BackingField,
+                      put = __cordl_internal_set__userAgeCategory_k__BackingField))::GlobalNamespace::UserAgeCategory _userAgeCategory_k__BackingField;
 
   /// @brief Field <desiredSensitivityFlag>k__BackingField, offset 0xb4, size 0x4
-  __declspec(property(get = __get__desiredSensitivityFlag_k__BackingField,
-                      put = __set__desiredSensitivityFlag_k__BackingField))::GlobalNamespace::PlayerSensitivityFlag _desiredSensitivityFlag_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__desiredSensitivityFlag_k__BackingField,
+                      put = __cordl_internal_set__desiredSensitivityFlag_k__BackingField))::GlobalNamespace::PlayerSensitivityFlag _desiredSensitivityFlag_k__BackingField;
 
   /// @brief Field <currentDlcPromoDisplayCount>k__BackingField, offset 0xb8, size 0x4
-  __declspec(property(get = __get__currentDlcPromoDisplayCount_k__BackingField, put = __set__currentDlcPromoDisplayCount_k__BackingField)) int32_t _currentDlcPromoDisplayCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__currentDlcPromoDisplayCount_k__BackingField,
+                      put = __cordl_internal_set__currentDlcPromoDisplayCount_k__BackingField)) int32_t _currentDlcPromoDisplayCount_k__BackingField;
 
   /// @brief Field <currentDlcPromoId>k__BackingField, offset 0xc0, size 0x8
-  __declspec(property(get = __get__currentDlcPromoId_k__BackingField, put = __set__currentDlcPromoId_k__BackingField))::StringW _currentDlcPromoId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__currentDlcPromoId_k__BackingField, put = __cordl_internal_set__currentDlcPromoId_k__BackingField))::StringW _currentDlcPromoId_k__BackingField;
 
   /// @brief Field favoriteLevelsSetDidChangeEvent, offset 0xc8, size 0x8
-  __declspec(property(get = __get_favoriteLevelsSetDidChangeEvent, put = __set_favoriteLevelsSetDidChangeEvent))::System::Action* favoriteLevelsSetDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_favoriteLevelsSetDidChangeEvent, put = __cordl_internal_set_favoriteLevelsSetDidChangeEvent))::System::Action* favoriteLevelsSetDidChangeEvent;
 
   /// @brief Field didIncreaseNumberOfGameplaysEvent, offset 0xd0, size 0x8
-  __declspec(property(get = __get_didIncreaseNumberOfGameplaysEvent, put = __set_didIncreaseNumberOfGameplaysEvent))::System::Action* didIncreaseNumberOfGameplaysEvent;
+  __declspec(property(get = __cordl_internal_get_didIncreaseNumberOfGameplaysEvent, put = __cordl_internal_set_didIncreaseNumberOfGameplaysEvent))::System::Action* didIncreaseNumberOfGameplaysEvent;
 
   __declspec(property(get = get_playerId, put = set_playerId))::StringW playerId;
 
@@ -216,7 +226,7 @@ public:
 
   __declspec(property(get = get_lastSelectedBeatmapDifficulty, put = set_lastSelectedBeatmapDifficulty))::GlobalNamespace::BeatmapDifficulty lastSelectedBeatmapDifficulty;
 
-  __declspec(property(get = get_lastSelectedBeatmapCharacteristic, put = set_lastSelectedBeatmapCharacteristic))::GlobalNamespace::BeatmapCharacteristicSO* lastSelectedBeatmapCharacteristic;
+  __declspec(property(get = get_lastSelectedBeatmapCharacteristic, put = set_lastSelectedBeatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> lastSelectedBeatmapCharacteristic;
 
   __declspec(property(get = get_gameplayModifiers, put = set_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
@@ -251,186 +261,187 @@ public:
 
   __declspec(property(get = get_currentDlcPromoId, put = set_currentDlcPromoId))::StringW currentDlcPromoId;
 
-  constexpr ::StringW& __get__playerId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__playerId_k__BackingField();
 
-  constexpr ::StringW const& __get__playerId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__playerId_k__BackingField() const;
 
-  constexpr void __set__playerId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__playerId_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__playerName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__playerName_k__BackingField();
 
-  constexpr ::StringW const& __get__playerName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__playerName_k__BackingField() const;
 
-  constexpr void __set__playerName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__playerName_k__BackingField(::StringW value);
 
-  constexpr bool& __get__shouldShowTutorialPrompt_k__BackingField();
+  constexpr bool& __cordl_internal_get__shouldShowTutorialPrompt_k__BackingField();
 
-  constexpr bool const& __get__shouldShowTutorialPrompt_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__shouldShowTutorialPrompt_k__BackingField() const;
 
-  constexpr void __set__shouldShowTutorialPrompt_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__shouldShowTutorialPrompt_k__BackingField(bool value);
 
-  constexpr bool& __get__shouldShow360Warning_k__BackingField();
+  constexpr bool& __cordl_internal_get__shouldShow360Warning_k__BackingField();
 
-  constexpr bool const& __get__shouldShow360Warning_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__shouldShow360Warning_k__BackingField() const;
 
-  constexpr void __set__shouldShow360Warning_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__shouldShow360Warning_k__BackingField(bool value);
 
-  constexpr bool& __get__agreedToEula_k__BackingField();
+  constexpr bool& __cordl_internal_get__agreedToEula_k__BackingField();
 
-  constexpr bool const& __get__agreedToEula_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__agreedToEula_k__BackingField() const;
 
-  constexpr void __set__agreedToEula_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__agreedToEula_k__BackingField(bool value);
 
-  constexpr bool& __get__didSelectLanguage_k__BackingField();
+  constexpr bool& __cordl_internal_get__didSelectLanguage_k__BackingField();
 
-  constexpr bool const& __get__didSelectLanguage_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__didSelectLanguage_k__BackingField() const;
 
-  constexpr void __set__didSelectLanguage_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__didSelectLanguage_k__BackingField(bool value);
 
-  constexpr bool& __get__agreedToMultiplayerDisclaimer_k__BackingField();
+  constexpr bool& __cordl_internal_get__agreedToMultiplayerDisclaimer_k__BackingField();
 
-  constexpr bool const& __get__agreedToMultiplayerDisclaimer_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__agreedToMultiplayerDisclaimer_k__BackingField() const;
 
-  constexpr void __set__agreedToMultiplayerDisclaimer_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__agreedToMultiplayerDisclaimer_k__BackingField(bool value);
 
-  constexpr int32_t& __get__didSelectRegionVersion_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__didSelectRegionVersion_k__BackingField();
 
-  constexpr int32_t const& __get__didSelectRegionVersion_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__didSelectRegionVersion_k__BackingField() const;
 
-  constexpr void __set__didSelectRegionVersion_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__didSelectRegionVersion_k__BackingField(int32_t value);
 
-  constexpr ::StringW& __get__selectedAvatarSystemTypeId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__selectedAvatarSystemTypeId_k__BackingField();
 
-  constexpr ::StringW const& __get__selectedAvatarSystemTypeId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__selectedAvatarSystemTypeId_k__BackingField() const;
 
-  constexpr void __set__selectedAvatarSystemTypeId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__selectedAvatarSystemTypeId_k__BackingField(::StringW value);
 
-  constexpr ::GlobalNamespace::PlayerAgreements*& __get__playerAgreements_k__BackingField();
+  constexpr ::GlobalNamespace::PlayerAgreements*& __cordl_internal_get__playerAgreements_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerAgreements*> const& __get__playerAgreements_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerAgreements*> const& __cordl_internal_get__playerAgreements_k__BackingField() const;
 
-  constexpr void __set__playerAgreements_k__BackingField(::GlobalNamespace::PlayerAgreements* value);
+  constexpr void __cordl_internal_set__playerAgreements_k__BackingField(::GlobalNamespace::PlayerAgreements* value);
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __get__lastSelectedBeatmapDifficulty_k__BackingField();
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__lastSelectedBeatmapDifficulty_k__BackingField();
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __get__lastSelectedBeatmapDifficulty_k__BackingField() const;
+  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get__lastSelectedBeatmapDifficulty_k__BackingField() const;
 
-  constexpr void __set__lastSelectedBeatmapDifficulty_k__BackingField(::GlobalNamespace::BeatmapDifficulty value);
+  constexpr void __cordl_internal_set__lastSelectedBeatmapDifficulty_k__BackingField(::GlobalNamespace::BeatmapDifficulty value);
 
-  constexpr ::GlobalNamespace::BeatmapCharacteristicSO*& __get__lastSelectedBeatmapCharacteristic_k__BackingField();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__lastSelectedBeatmapCharacteristic_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicSO*> const& __get__lastSelectedBeatmapCharacteristic_k__BackingField() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__lastSelectedBeatmapCharacteristic_k__BackingField() const;
 
-  constexpr void __set__lastSelectedBeatmapCharacteristic_k__BackingField(::GlobalNamespace::BeatmapCharacteristicSO* value);
+  constexpr void __cordl_internal_set__lastSelectedBeatmapCharacteristic_k__BackingField(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
-  constexpr ::GlobalNamespace::GameplayModifiers*& __get__gameplayModifiers_k__BackingField();
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __get__gameplayModifiers_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers_k__BackingField() const;
 
-  constexpr void __set__gameplayModifiers_k__BackingField(::GlobalNamespace::GameplayModifiers* value);
+  constexpr void __cordl_internal_set__gameplayModifiers_k__BackingField(::GlobalNamespace::GameplayModifiers* value);
 
-  constexpr ::GlobalNamespace::PlayerSpecificSettings*& __get__playerSpecificSettings_k__BackingField();
+  constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get__playerSpecificSettings_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __get__playerSpecificSettings_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __cordl_internal_get__playerSpecificSettings_k__BackingField() const;
 
-  constexpr void __set__playerSpecificSettings_k__BackingField(::GlobalNamespace::PlayerSpecificSettings* value);
+  constexpr void __cordl_internal_set__playerSpecificSettings_k__BackingField(::GlobalNamespace::PlayerSpecificSettings* value);
 
-  constexpr ::GlobalNamespace::PracticeSettings*& __get__practiceSettings_k__BackingField();
+  constexpr ::GlobalNamespace::PracticeSettings*& __cordl_internal_get__practiceSettings_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PracticeSettings*> const& __get__practiceSettings_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PracticeSettings*> const& __cordl_internal_get__practiceSettings_k__BackingField() const;
 
-  constexpr void __set__practiceSettings_k__BackingField(::GlobalNamespace::PracticeSettings* value);
+  constexpr void __cordl_internal_set__practiceSettings_k__BackingField(::GlobalNamespace::PracticeSettings* value);
 
-  constexpr ::GlobalNamespace::PlayerAllOverallStatsData*& __get__playerAllOverallStatsData_k__BackingField();
+  constexpr ::GlobalNamespace::PlayerAllOverallStatsData*& __cordl_internal_get__playerAllOverallStatsData_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerAllOverallStatsData*> const& __get__playerAllOverallStatsData_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerAllOverallStatsData*> const& __cordl_internal_get__playerAllOverallStatsData_k__BackingField() const;
 
-  constexpr void __set__playerAllOverallStatsData_k__BackingField(::GlobalNamespace::PlayerAllOverallStatsData* value);
+  constexpr void __cordl_internal_set__playerAllOverallStatsData_k__BackingField(::GlobalNamespace::PlayerAllOverallStatsData* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LevelKey, ::GlobalNamespace::PlayerLevelStatsData*>*& __get__levelsStatsData_k__BackingField();
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LevelKey, ::GlobalNamespace::PlayerLevelStatsData*>*& __cordl_internal_get__levelsStatsData_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LevelKey, ::GlobalNamespace::PlayerLevelStatsData*>*> const&
-  __get__levelsStatsData_k__BackingField() const;
+  __cordl_internal_get__levelsStatsData_k__BackingField() const;
 
-  constexpr void __set__levelsStatsData_k__BackingField(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LevelKey, ::GlobalNamespace::PlayerLevelStatsData*>* value);
+  constexpr void __cordl_internal_set__levelsStatsData_k__BackingField(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::LevelKey, ::GlobalNamespace::PlayerLevelStatsData*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>*& __get__missionsStatsData_k__BackingField();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>*& __cordl_internal_get__missionsStatsData_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>*> const& __get__missionsStatsData_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>*> const&
+  __cordl_internal_get__missionsStatsData_k__BackingField() const;
 
-  constexpr void __set__missionsStatsData_k__BackingField(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>* value);
+  constexpr void __cordl_internal_set__missionsStatsData_k__BackingField(::System::Collections::Generic::List_1<::GlobalNamespace::PlayerMissionStatsData*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get__showedMissionHelpIds_k__BackingField();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__showedMissionHelpIds_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get__showedMissionHelpIds_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__showedMissionHelpIds_k__BackingField() const;
 
-  constexpr void __set__showedMissionHelpIds_k__BackingField(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set__showedMissionHelpIds_k__BackingField(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get__guestPlayerNames_k__BackingField();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__guestPlayerNames_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get__guestPlayerNames_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__guestPlayerNames_k__BackingField() const;
 
-  constexpr void __set__guestPlayerNames_k__BackingField(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set__guestPlayerNames_k__BackingField(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::GlobalNamespace::ColorSchemesSettings*& __get__colorSchemesSettings_k__BackingField();
+  constexpr ::GlobalNamespace::ColorSchemesSettings*& __cordl_internal_get__colorSchemesSettings_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemesSettings*> const& __get__colorSchemesSettings_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemesSettings*> const& __cordl_internal_get__colorSchemesSettings_k__BackingField() const;
 
-  constexpr void __set__colorSchemesSettings_k__BackingField(::GlobalNamespace::ColorSchemesSettings* value);
+  constexpr void __cordl_internal_set__colorSchemesSettings_k__BackingField(::GlobalNamespace::ColorSchemesSettings* value);
 
-  constexpr ::GlobalNamespace::OverrideEnvironmentSettings*& __get__overrideEnvironmentSettings_k__BackingField();
+  constexpr ::GlobalNamespace::OverrideEnvironmentSettings*& __cordl_internal_get__overrideEnvironmentSettings_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OverrideEnvironmentSettings*> const& __get__overrideEnvironmentSettings_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OverrideEnvironmentSettings*> const& __cordl_internal_get__overrideEnvironmentSettings_k__BackingField() const;
 
-  constexpr void __set__overrideEnvironmentSettings_k__BackingField(::GlobalNamespace::OverrideEnvironmentSettings* value);
+  constexpr void __cordl_internal_set__overrideEnvironmentSettings_k__BackingField(::GlobalNamespace::OverrideEnvironmentSettings* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __get__favoritesLevelIds_k__BackingField();
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__favoritesLevelIds_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __get__favoritesLevelIds_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__favoritesLevelIds_k__BackingField() const;
 
-  constexpr void __set__favoritesLevelIds_k__BackingField(::System::Collections::Generic::HashSet_1<::StringW>* value);
+  constexpr void __cordl_internal_set__favoritesLevelIds_k__BackingField(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  constexpr ::GlobalNamespace::MultiplayerModeSettings*& __get__multiplayerModeSettings_k__BackingField();
+  constexpr ::GlobalNamespace::MultiplayerModeSettings*& __cordl_internal_get__multiplayerModeSettings_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerModeSettings*> const& __get__multiplayerModeSettings_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerModeSettings*> const& __cordl_internal_get__multiplayerModeSettings_k__BackingField() const;
 
-  constexpr void __set__multiplayerModeSettings_k__BackingField(::GlobalNamespace::MultiplayerModeSettings* value);
+  constexpr void __cordl_internal_set__multiplayerModeSettings_k__BackingField(::GlobalNamespace::MultiplayerModeSettings* value);
 
-  constexpr ::GlobalNamespace::UserAgeCategory& __get__userAgeCategory_k__BackingField();
+  constexpr ::GlobalNamespace::UserAgeCategory& __cordl_internal_get__userAgeCategory_k__BackingField();
 
-  constexpr ::GlobalNamespace::UserAgeCategory const& __get__userAgeCategory_k__BackingField() const;
+  constexpr ::GlobalNamespace::UserAgeCategory const& __cordl_internal_get__userAgeCategory_k__BackingField() const;
 
-  constexpr void __set__userAgeCategory_k__BackingField(::GlobalNamespace::UserAgeCategory value);
+  constexpr void __cordl_internal_set__userAgeCategory_k__BackingField(::GlobalNamespace::UserAgeCategory value);
 
-  constexpr ::GlobalNamespace::PlayerSensitivityFlag& __get__desiredSensitivityFlag_k__BackingField();
+  constexpr ::GlobalNamespace::PlayerSensitivityFlag& __cordl_internal_get__desiredSensitivityFlag_k__BackingField();
 
-  constexpr ::GlobalNamespace::PlayerSensitivityFlag const& __get__desiredSensitivityFlag_k__BackingField() const;
+  constexpr ::GlobalNamespace::PlayerSensitivityFlag const& __cordl_internal_get__desiredSensitivityFlag_k__BackingField() const;
 
-  constexpr void __set__desiredSensitivityFlag_k__BackingField(::GlobalNamespace::PlayerSensitivityFlag value);
+  constexpr void __cordl_internal_set__desiredSensitivityFlag_k__BackingField(::GlobalNamespace::PlayerSensitivityFlag value);
 
-  constexpr int32_t& __get__currentDlcPromoDisplayCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__currentDlcPromoDisplayCount_k__BackingField();
 
-  constexpr int32_t const& __get__currentDlcPromoDisplayCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__currentDlcPromoDisplayCount_k__BackingField() const;
 
-  constexpr void __set__currentDlcPromoDisplayCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__currentDlcPromoDisplayCount_k__BackingField(int32_t value);
 
-  constexpr ::StringW& __get__currentDlcPromoId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__currentDlcPromoId_k__BackingField();
 
-  constexpr ::StringW const& __get__currentDlcPromoId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__currentDlcPromoId_k__BackingField() const;
 
-  constexpr void __set__currentDlcPromoId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__currentDlcPromoId_k__BackingField(::StringW value);
 
-  constexpr ::System::Action*& __get_favoriteLevelsSetDidChangeEvent();
+  constexpr ::System::Action*& __cordl_internal_get_favoriteLevelsSetDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_favoriteLevelsSetDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_favoriteLevelsSetDidChangeEvent() const;
 
-  constexpr void __set_favoriteLevelsSetDidChangeEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_favoriteLevelsSetDidChangeEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_didIncreaseNumberOfGameplaysEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didIncreaseNumberOfGameplaysEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didIncreaseNumberOfGameplaysEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didIncreaseNumberOfGameplaysEvent() const;
 
-  constexpr void __set_didIncreaseNumberOfGameplaysEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didIncreaseNumberOfGameplaysEvent(::System::Action* value);
 
   /// @brief Method get_playerId, addr 0x236be04, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerId();
@@ -499,7 +510,7 @@ public:
   inline void set_lastSelectedBeatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
   /// @brief Method get_lastSelectedBeatmapCharacteristic, addr 0x236bec8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapCharacteristicSO* get_lastSelectedBeatmapCharacteristic();
+  inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_lastSelectedBeatmapCharacteristic();
 
   /// @brief Method set_lastSelectedBeatmapCharacteristic, addr 0x236bed0, size 0x8, virtual false, abstract: false, final false
   inline void set_lastSelectedBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
@@ -776,7 +787,7 @@ public:
   ::GlobalNamespace::BeatmapDifficulty ____lastSelectedBeatmapDifficulty_k__BackingField;
 
   /// @brief Field <lastSelectedBeatmapCharacteristic>k__BackingField, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCharacteristicSO* ____lastSelectedBeatmapCharacteristic_k__BackingField;
+  ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ____lastSelectedBeatmapCharacteristic_k__BackingField;
 
   /// @brief Field <gameplayModifiers>k__BackingField, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers_k__BackingField;

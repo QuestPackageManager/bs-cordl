@@ -14,47 +14,47 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9845))
 // CS Name: ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings*
 class CORDL_TYPE HEU_InputInterfaceTilemapSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _createGroupsForTiles, offset 0x10, size 0x1
-  __declspec(property(get = __get__createGroupsForTiles, put = __set__createGroupsForTiles)) bool _createGroupsForTiles;
+  __declspec(property(get = __cordl_internal_get__createGroupsForTiles, put = __cordl_internal_set__createGroupsForTiles)) bool _createGroupsForTiles;
 
   /// @brief Field _exportUnusedTiles, offset 0x11, size 0x1
-  __declspec(property(get = __get__exportUnusedTiles, put = __set__exportUnusedTiles)) bool _exportUnusedTiles;
+  __declspec(property(get = __cordl_internal_get__exportUnusedTiles, put = __cordl_internal_set__exportUnusedTiles)) bool _exportUnusedTiles;
 
   /// @brief Field _applyTileColor, offset 0x12, size 0x1
-  __declspec(property(get = __get__applyTileColor, put = __set__applyTileColor)) bool _applyTileColor;
+  __declspec(property(get = __cordl_internal_get__applyTileColor, put = __cordl_internal_set__applyTileColor)) bool _applyTileColor;
 
   /// @brief Field _applyTilemapOrientation, offset 0x13, size 0x1
-  __declspec(property(get = __get__applyTilemapOrientation, put = __set__applyTilemapOrientation)) bool _applyTilemapOrientation;
+  __declspec(property(get = __cordl_internal_get__applyTilemapOrientation, put = __cordl_internal_set__applyTilemapOrientation)) bool _applyTilemapOrientation;
 
-  constexpr bool& __get__createGroupsForTiles();
+  constexpr bool& __cordl_internal_get__createGroupsForTiles();
 
-  constexpr bool const& __get__createGroupsForTiles() const;
+  constexpr bool const& __cordl_internal_get__createGroupsForTiles() const;
 
-  constexpr void __set__createGroupsForTiles(bool value);
+  constexpr void __cordl_internal_set__createGroupsForTiles(bool value);
 
-  constexpr bool& __get__exportUnusedTiles();
+  constexpr bool& __cordl_internal_get__exportUnusedTiles();
 
-  constexpr bool const& __get__exportUnusedTiles() const;
+  constexpr bool const& __cordl_internal_get__exportUnusedTiles() const;
 
-  constexpr void __set__exportUnusedTiles(bool value);
+  constexpr void __cordl_internal_set__exportUnusedTiles(bool value);
 
-  constexpr bool& __get__applyTileColor();
+  constexpr bool& __cordl_internal_get__applyTileColor();
 
-  constexpr bool const& __get__applyTileColor() const;
+  constexpr bool const& __cordl_internal_get__applyTileColor() const;
 
-  constexpr void __set__applyTileColor(bool value);
+  constexpr void __cordl_internal_set__applyTileColor(bool value);
 
-  constexpr bool& __get__applyTilemapOrientation();
+  constexpr bool& __cordl_internal_get__applyTilemapOrientation();
 
-  constexpr bool const& __get__applyTilemapOrientation() const;
+  constexpr bool const& __cordl_internal_get__applyTilemapOrientation() const;
 
-  constexpr void __set__applyTilemapOrientation(bool value);
+  constexpr void __cordl_internal_set__applyTilemapOrientation(bool value);
 
   static inline ::HoudiniEngineUnity::HEU_InputInterfaceTilemapSettings* New_ctor();
 

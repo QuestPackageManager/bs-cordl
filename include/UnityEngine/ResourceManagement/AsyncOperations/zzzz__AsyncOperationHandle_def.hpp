@@ -50,7 +50,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHan
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14034))
 // CS Name: ::UnityEngine.ResourceManagement.AsyncOperations::AsyncOperationHandle
 struct CORDL_TYPE AsyncOperationHandle {

@@ -18,20 +18,21 @@ MARK_REF_PTR_T(::GlobalNamespace::ProgressActivitySO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4560))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4560))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4558))
 // CS Name: ::ProgressActivitySO*
 class CORDL_TYPE ProgressActivitySO : public ::GlobalNamespace::PS5ActivityDataSO {
 public:
   // Declarations
   /// @brief Field subtasks, offset 0x20, size 0x8
-  __declspec(property(get = __get_subtasks, put = __set_subtasks))::ArrayW<::GlobalNamespace::ProgressActivitySubtaskSO*, ::Array<::GlobalNamespace::ProgressActivitySubtaskSO*>*> subtasks;
+  __declspec(property(get = __cordl_internal_get_subtasks,
+                      put = __cordl_internal_set_subtasks))::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*> subtasks;
 
-  constexpr ::ArrayW<::GlobalNamespace::ProgressActivitySubtaskSO*, ::Array<::GlobalNamespace::ProgressActivitySubtaskSO*>*>& __get_subtasks();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*>& __cordl_internal_get_subtasks();
 
-  constexpr ::ArrayW<::GlobalNamespace::ProgressActivitySubtaskSO*, ::Array<::GlobalNamespace::ProgressActivitySubtaskSO*>*> const& __get_subtasks() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*> const& __cordl_internal_get_subtasks() const;
 
-  constexpr void __set_subtasks(::ArrayW<::GlobalNamespace::ProgressActivitySubtaskSO*, ::Array<::GlobalNamespace::ProgressActivitySubtaskSO*>*> value);
+  constexpr void __cordl_internal_set_subtasks(::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*> value);
 
   static inline ::GlobalNamespace::ProgressActivitySO* New_ctor();
 
@@ -53,7 +54,7 @@ protected:
 
 public:
   /// @brief Field subtasks, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::ProgressActivitySubtaskSO*, ::Array<::GlobalNamespace::ProgressActivitySubtaskSO*>*> ___subtasks;
+  ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*> ___subtasks;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

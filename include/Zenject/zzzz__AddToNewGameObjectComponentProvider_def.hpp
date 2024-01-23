@@ -41,22 +41,22 @@ MARK_REF_PTR_T(::Zenject::AddToNewGameObjectComponentProvider);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11185))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11185))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11186))
 // CS Name: ::Zenject::AddToNewGameObjectComponentProvider*
 class CORDL_TYPE AddToNewGameObjectComponentProvider : public ::Zenject::AddToGameObjectComponentProviderBase {
 public:
   // Declarations
   /// @brief Field _gameObjectBindInfo, offset 0x38, size 0x8
-  __declspec(property(get = __get__gameObjectBindInfo, put = __set__gameObjectBindInfo))::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
+  __declspec(property(get = __cordl_internal_get__gameObjectBindInfo, put = __cordl_internal_set__gameObjectBindInfo))::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
 
   __declspec(property(get = get_ShouldToggleActive)) bool ShouldToggleActive;
 
-  constexpr ::Zenject::GameObjectCreationParameters*& __get__gameObjectBindInfo();
+  constexpr ::Zenject::GameObjectCreationParameters*& __cordl_internal_get__gameObjectBindInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __get__gameObjectBindInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __cordl_internal_get__gameObjectBindInfo() const;
 
-  constexpr void __set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value);
+  constexpr void __cordl_internal_set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value);
 
   static inline ::Zenject::AddToNewGameObjectComponentProvider* New_ctor(::Zenject::DiContainer* container, ::System::Type* componentType,
                                                                          ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArguments,
@@ -72,7 +72,7 @@ public:
   inline bool get_ShouldToggleActive();
 
   /// @brief Method GetGameObject, addr 0x2f06bf8, size 0x5c, virtual true, abstract: false, final false
-  inline ::UnityEngine::GameObject* GetGameObject(::Zenject::InjectContext* context);
+  inline ::UnityW<::UnityEngine::GameObject> GetGameObject(::Zenject::InjectContext* context);
 
   // Ctor Parameters [CppParam { name: "", ty: "AddToNewGameObjectComponentProvider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

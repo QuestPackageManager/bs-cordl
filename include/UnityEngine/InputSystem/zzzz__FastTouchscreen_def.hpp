@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::FastTouchscreen);
 // SizeInfo { instance_size: 408, native_size: -1, calculated_instance_size: 408, calculated_native_size: 408, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6288))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6288))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6250))
 // CS Name: ::UnityEngine.InputSystem::FastTouchscreen*
 class CORDL_TYPE FastTouchscreen : public ::UnityEngine::InputSystem::Touchscreen {

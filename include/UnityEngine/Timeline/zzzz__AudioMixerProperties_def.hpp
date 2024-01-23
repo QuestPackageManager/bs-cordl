@@ -21,38 +21,38 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::AudioMixerProperties);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10425))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13866))
 // CS Name: ::UnityEngine.Timeline::AudioMixerProperties*
 class CORDL_TYPE AudioMixerProperties : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
   /// @brief Field volume, offset 0x10, size 0x4
-  __declspec(property(get = __get_volume, put = __set_volume)) float_t volume;
+  __declspec(property(get = __cordl_internal_get_volume, put = __cordl_internal_set_volume)) float_t volume;
 
   /// @brief Field stereoPan, offset 0x14, size 0x4
-  __declspec(property(get = __get_stereoPan, put = __set_stereoPan)) float_t stereoPan;
+  __declspec(property(get = __cordl_internal_get_stereoPan, put = __cordl_internal_set_stereoPan)) float_t stereoPan;
 
   /// @brief Field spatialBlend, offset 0x18, size 0x4
-  __declspec(property(get = __get_spatialBlend, put = __set_spatialBlend)) float_t spatialBlend;
+  __declspec(property(get = __cordl_internal_get_spatialBlend, put = __cordl_internal_set_spatialBlend)) float_t spatialBlend;
 
-  constexpr float_t& __get_volume();
+  constexpr float_t& __cordl_internal_get_volume();
 
-  constexpr float_t const& __get_volume() const;
+  constexpr float_t const& __cordl_internal_get_volume() const;
 
-  constexpr void __set_volume(float_t value);
+  constexpr void __cordl_internal_set_volume(float_t value);
 
-  constexpr float_t& __get_stereoPan();
+  constexpr float_t& __cordl_internal_get_stereoPan();
 
-  constexpr float_t const& __get_stereoPan() const;
+  constexpr float_t const& __cordl_internal_get_stereoPan() const;
 
-  constexpr void __set_stereoPan(float_t value);
+  constexpr void __cordl_internal_set_stereoPan(float_t value);
 
-  constexpr float_t& __get_spatialBlend();
+  constexpr float_t& __cordl_internal_get_spatialBlend();
 
-  constexpr float_t const& __get_spatialBlend() const;
+  constexpr float_t const& __cordl_internal_get_spatialBlend() const;
 
-  constexpr void __set_spatialBlend(float_t value);
+  constexpr void __cordl_internal_set_spatialBlend(float_t value);
 
   /// @brief Method PrepareFrame, addr 0x2c61ad0, size 0x234, virtual true, abstract: false, final false
   inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);

@@ -28,22 +28,22 @@ MARK_REF_PTR_T(::System::Security::AccessControl::AccessRule);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3021)), TypeDefinitionIndex(TypeDefinitionIndex(3014))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3014)), TypeDefinitionIndex(TypeDefinitionIndex(3021))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3015))
 // CS Name: ::System.Security.AccessControl::AccessRule*
 class CORDL_TYPE AccessRule : public ::System::Security::AccessControl::AuthorizationRule {
 public:
   // Declarations
   /// @brief Field type, offset 0x28, size 0x4
-  __declspec(property(get = __get_type, put = __set_type))::System::Security::AccessControl::AccessControlType type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Security::AccessControl::AccessControlType type;
 
   __declspec(property(get = get_AccessControlType))::System::Security::AccessControl::AccessControlType AccessControlType;
 
-  constexpr ::System::Security::AccessControl::AccessControlType& __get_type();
+  constexpr ::System::Security::AccessControl::AccessControlType& __cordl_internal_get_type();
 
-  constexpr ::System::Security::AccessControl::AccessControlType const& __get_type() const;
+  constexpr ::System::Security::AccessControl::AccessControlType const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Security::AccessControl::AccessControlType value);
+  constexpr void __cordl_internal_set_type(::System::Security::AccessControl::AccessControlType value);
 
   static inline ::System::Security::AccessControl::AccessRule* New_ctor(::System::Security::Principal::IdentityReference* identity, int32_t accessMask, bool isInherited,
                                                                         ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,

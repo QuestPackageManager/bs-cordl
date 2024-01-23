@@ -20,7 +20,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7488))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7488))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7489))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::StyleSyntaxToken
 struct CORDL_TYPE StyleSyntaxToken {

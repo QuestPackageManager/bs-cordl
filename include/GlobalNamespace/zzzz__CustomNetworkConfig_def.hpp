@@ -26,41 +26,44 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomNetworkConfig);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12740)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12740))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12710))
 // CS Name: ::CustomNetworkConfig*
 class CORDL_TYPE CustomNetworkConfig : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <maxPartySize>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__maxPartySize_k__BackingField, put = __set__maxPartySize_k__BackingField)) int32_t _maxPartySize_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__maxPartySize_k__BackingField, put = __cordl_internal_set__maxPartySize_k__BackingField)) int32_t _maxPartySize_k__BackingField;
 
   /// @brief Field <discoveryPort>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__discoveryPort_k__BackingField, put = __set__discoveryPort_k__BackingField)) int32_t _discoveryPort_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__discoveryPort_k__BackingField, put = __cordl_internal_set__discoveryPort_k__BackingField)) int32_t _discoveryPort_k__BackingField;
 
   /// @brief Field <partyPort>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__partyPort_k__BackingField, put = __set__partyPort_k__BackingField)) int32_t _partyPort_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__partyPort_k__BackingField, put = __cordl_internal_set__partyPort_k__BackingField)) int32_t _partyPort_k__BackingField;
 
   /// @brief Field <multiplayerPort>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__multiplayerPort_k__BackingField, put = __set__multiplayerPort_k__BackingField)) int32_t _multiplayerPort_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__multiplayerPort_k__BackingField, put = __cordl_internal_set__multiplayerPort_k__BackingField)) int32_t _multiplayerPort_k__BackingField;
 
   /// @brief Field <masterServerEndPoint>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__masterServerEndPoint_k__BackingField, put = __set__masterServerEndPoint_k__BackingField))::GlobalNamespace::DnsEndPoint* _masterServerEndPoint_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__masterServerEndPoint_k__BackingField,
+                      put = __cordl_internal_set__masterServerEndPoint_k__BackingField))::GlobalNamespace::DnsEndPoint* _masterServerEndPoint_k__BackingField;
 
   /// @brief Field <multiplayerStatusUrl>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__multiplayerStatusUrl_k__BackingField, put = __set__multiplayerStatusUrl_k__BackingField))::StringW _multiplayerStatusUrl_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__multiplayerStatusUrl_k__BackingField,
+                      put = __cordl_internal_set__multiplayerStatusUrl_k__BackingField))::StringW _multiplayerStatusUrl_k__BackingField;
 
   /// @brief Field <graphUrl>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__graphUrl_k__BackingField, put = __set__graphUrl_k__BackingField))::StringW _graphUrl_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__graphUrl_k__BackingField, put = __cordl_internal_set__graphUrl_k__BackingField))::StringW _graphUrl_k__BackingField;
 
   /// @brief Field <graphAccessToken>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__graphAccessToken_k__BackingField, put = __set__graphAccessToken_k__BackingField))::StringW _graphAccessToken_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__graphAccessToken_k__BackingField, put = __cordl_internal_set__graphAccessToken_k__BackingField))::StringW _graphAccessToken_k__BackingField;
 
   /// @brief Field <forceGameLift>k__BackingField, offset 0x40, size 0x1
-  __declspec(property(get = __get__forceGameLift_k__BackingField, put = __set__forceGameLift_k__BackingField)) bool _forceGameLift_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__forceGameLift_k__BackingField, put = __cordl_internal_set__forceGameLift_k__BackingField)) bool _forceGameLift_k__BackingField;
 
   /// @brief Field <serviceEnvironment>k__BackingField, offset 0x44, size 0x4
-  __declspec(property(get = __get__serviceEnvironment_k__BackingField, put = __set__serviceEnvironment_k__BackingField))::GlobalNamespace::ServiceEnvironment _serviceEnvironment_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__serviceEnvironment_k__BackingField,
+                      put = __cordl_internal_set__serviceEnvironment_k__BackingField))::GlobalNamespace::ServiceEnvironment _serviceEnvironment_k__BackingField;
 
   __declspec(property(get = get_maxPartySize)) int32_t maxPartySize;
 
@@ -90,65 +93,65 @@ public:
   /// @brief Convert to "::GlobalNamespace::INetworkConfig"
   constexpr ::GlobalNamespace::INetworkConfig* i___GlobalNamespace__INetworkConfig() noexcept;
 
-  constexpr int32_t& __get__maxPartySize_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__maxPartySize_k__BackingField();
 
-  constexpr int32_t const& __get__maxPartySize_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__maxPartySize_k__BackingField() const;
 
-  constexpr void __set__maxPartySize_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__maxPartySize_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__discoveryPort_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__discoveryPort_k__BackingField();
 
-  constexpr int32_t const& __get__discoveryPort_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__discoveryPort_k__BackingField() const;
 
-  constexpr void __set__discoveryPort_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__discoveryPort_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__partyPort_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__partyPort_k__BackingField();
 
-  constexpr int32_t const& __get__partyPort_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__partyPort_k__BackingField() const;
 
-  constexpr void __set__partyPort_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__partyPort_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__multiplayerPort_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__multiplayerPort_k__BackingField();
 
-  constexpr int32_t const& __get__multiplayerPort_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__multiplayerPort_k__BackingField() const;
 
-  constexpr void __set__multiplayerPort_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__multiplayerPort_k__BackingField(int32_t value);
 
-  constexpr ::GlobalNamespace::DnsEndPoint*& __get__masterServerEndPoint_k__BackingField();
+  constexpr ::GlobalNamespace::DnsEndPoint*& __cordl_internal_get__masterServerEndPoint_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DnsEndPoint*> const& __get__masterServerEndPoint_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DnsEndPoint*> const& __cordl_internal_get__masterServerEndPoint_k__BackingField() const;
 
-  constexpr void __set__masterServerEndPoint_k__BackingField(::GlobalNamespace::DnsEndPoint* value);
+  constexpr void __cordl_internal_set__masterServerEndPoint_k__BackingField(::GlobalNamespace::DnsEndPoint* value);
 
-  constexpr ::StringW& __get__multiplayerStatusUrl_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__multiplayerStatusUrl_k__BackingField();
 
-  constexpr ::StringW const& __get__multiplayerStatusUrl_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__multiplayerStatusUrl_k__BackingField() const;
 
-  constexpr void __set__multiplayerStatusUrl_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__multiplayerStatusUrl_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__graphUrl_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__graphUrl_k__BackingField();
 
-  constexpr ::StringW const& __get__graphUrl_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__graphUrl_k__BackingField() const;
 
-  constexpr void __set__graphUrl_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__graphUrl_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__graphAccessToken_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__graphAccessToken_k__BackingField();
 
-  constexpr ::StringW const& __get__graphAccessToken_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__graphAccessToken_k__BackingField() const;
 
-  constexpr void __set__graphAccessToken_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__graphAccessToken_k__BackingField(::StringW value);
 
-  constexpr bool& __get__forceGameLift_k__BackingField();
+  constexpr bool& __cordl_internal_get__forceGameLift_k__BackingField();
 
-  constexpr bool const& __get__forceGameLift_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__forceGameLift_k__BackingField() const;
 
-  constexpr void __set__forceGameLift_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__forceGameLift_k__BackingField(bool value);
 
-  constexpr ::GlobalNamespace::ServiceEnvironment& __get__serviceEnvironment_k__BackingField();
+  constexpr ::GlobalNamespace::ServiceEnvironment& __cordl_internal_get__serviceEnvironment_k__BackingField();
 
-  constexpr ::GlobalNamespace::ServiceEnvironment const& __get__serviceEnvironment_k__BackingField() const;
+  constexpr ::GlobalNamespace::ServiceEnvironment const& __cordl_internal_get__serviceEnvironment_k__BackingField() const;
 
-  constexpr void __set__serviceEnvironment_k__BackingField(::GlobalNamespace::ServiceEnvironment value);
+  constexpr void __cordl_internal_set__serviceEnvironment_k__BackingField(::GlobalNamespace::ServiceEnvironment value);
 
   /// @brief Method get_maxPartySize, addr 0xe324e4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_maxPartySize();

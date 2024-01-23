@@ -64,23 +64,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__Ha
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1113))
 // CS Name: ::SP800SecureRandomBuilder::HashDrbgProvider*
 class CORDL_TYPE __SP800SecureRandomBuilder__HashDrbgProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mDigest, offset 0x10, size 0x8
-  __declspec(property(get = __get_mDigest, put = __set_mDigest))::Org::BouncyCastle::Crypto::IDigest* mDigest;
+  __declspec(property(get = __cordl_internal_get_mDigest, put = __cordl_internal_set_mDigest))::Org::BouncyCastle::Crypto::IDigest* mDigest;
 
   /// @brief Field mNonce, offset 0x18, size 0x8
-  __declspec(property(get = __get_mNonce, put = __set_mNonce))::ArrayW<uint8_t, ::Array<uint8_t>*> mNonce;
+  __declspec(property(get = __cordl_internal_get_mNonce, put = __cordl_internal_set_mNonce))::ArrayW<uint8_t, ::Array<uint8_t>*> mNonce;
 
   /// @brief Field mPersonalizationString, offset 0x20, size 0x8
-  __declspec(property(get = __get_mPersonalizationString, put = __set_mPersonalizationString))::ArrayW<uint8_t, ::Array<uint8_t>*> mPersonalizationString;
+  __declspec(property(get = __cordl_internal_get_mPersonalizationString, put = __cordl_internal_set_mPersonalizationString))::ArrayW<uint8_t, ::Array<uint8_t>*> mPersonalizationString;
 
   /// @brief Field mSecurityStrength, offset 0x28, size 0x4
-  __declspec(property(get = __get_mSecurityStrength, put = __set_mSecurityStrength)) int32_t mSecurityStrength;
+  __declspec(property(get = __cordl_internal_get_mSecurityStrength, put = __cordl_internal_set_mSecurityStrength)) int32_t mSecurityStrength;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider*() noexcept;
@@ -88,29 +88,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
   constexpr ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* i___Org__BouncyCastle__Crypto__Prng__IDrbgProvider() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_mDigest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mDigest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_mDigest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_mDigest() const;
 
-  constexpr void __set_mDigest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_mDigest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mNonce();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mNonce();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mNonce() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mNonce() const;
 
-  constexpr void __set_mNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mPersonalizationString();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPersonalizationString();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mPersonalizationString() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPersonalizationString() const;
 
-  constexpr void __set_mPersonalizationString(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mPersonalizationString(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_mSecurityStrength();
+  constexpr int32_t& __cordl_internal_get_mSecurityStrength();
 
-  constexpr int32_t const& __get_mSecurityStrength() const;
+  constexpr int32_t const& __cordl_internal_get_mSecurityStrength() const;
 
-  constexpr void __set_mSecurityStrength(int32_t value);
+  constexpr void __cordl_internal_set_mSecurityStrength(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HashDrbgProvider* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
                                                                                                           ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, int32_t securityStrength);
@@ -165,23 +165,23 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBui
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1114))
 // CS Name: ::SP800SecureRandomBuilder::HMacDrbgProvider*
 class CORDL_TYPE __SP800SecureRandomBuilder__HMacDrbgProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mHMac, offset 0x10, size 0x8
-  __declspec(property(get = __get_mHMac, put = __set_mHMac))::Org::BouncyCastle::Crypto::IMac* mHMac;
+  __declspec(property(get = __cordl_internal_get_mHMac, put = __cordl_internal_set_mHMac))::Org::BouncyCastle::Crypto::IMac* mHMac;
 
   /// @brief Field mNonce, offset 0x18, size 0x8
-  __declspec(property(get = __get_mNonce, put = __set_mNonce))::ArrayW<uint8_t, ::Array<uint8_t>*> mNonce;
+  __declspec(property(get = __cordl_internal_get_mNonce, put = __cordl_internal_set_mNonce))::ArrayW<uint8_t, ::Array<uint8_t>*> mNonce;
 
   /// @brief Field mPersonalizationString, offset 0x20, size 0x8
-  __declspec(property(get = __get_mPersonalizationString, put = __set_mPersonalizationString))::ArrayW<uint8_t, ::Array<uint8_t>*> mPersonalizationString;
+  __declspec(property(get = __cordl_internal_get_mPersonalizationString, put = __cordl_internal_set_mPersonalizationString))::ArrayW<uint8_t, ::Array<uint8_t>*> mPersonalizationString;
 
   /// @brief Field mSecurityStrength, offset 0x28, size 0x4
-  __declspec(property(get = __get_mSecurityStrength, put = __set_mSecurityStrength)) int32_t mSecurityStrength;
+  __declspec(property(get = __cordl_internal_get_mSecurityStrength, put = __cordl_internal_set_mSecurityStrength)) int32_t mSecurityStrength;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider*() noexcept;
@@ -189,29 +189,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
   constexpr ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* i___Org__BouncyCastle__Crypto__Prng__IDrbgProvider() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IMac*& __get_mHMac();
+  constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_mHMac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __get_mHMac() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __cordl_internal_get_mHMac() const;
 
-  constexpr void __set_mHMac(::Org::BouncyCastle::Crypto::IMac* value);
+  constexpr void __cordl_internal_set_mHMac(::Org::BouncyCastle::Crypto::IMac* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mNonce();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mNonce();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mNonce() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mNonce() const;
 
-  constexpr void __set_mNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mPersonalizationString();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPersonalizationString();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mPersonalizationString() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPersonalizationString() const;
 
-  constexpr void __set_mPersonalizationString(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mPersonalizationString(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_mSecurityStrength();
+  constexpr int32_t& __cordl_internal_get_mSecurityStrength();
 
-  constexpr int32_t const& __get_mSecurityStrength() const;
+  constexpr int32_t const& __cordl_internal_get_mSecurityStrength() const;
 
-  constexpr void __set_mSecurityStrength(int32_t value);
+  constexpr void __cordl_internal_set_mSecurityStrength(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HMacDrbgProvider* New_ctor(::Org::BouncyCastle::Crypto::IMac* hMac, ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
                                                                                                           ::ArrayW<uint8_t, ::Array<uint8_t>*> personalizationString, int32_t securityStrength);
@@ -266,26 +266,26 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBui
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1115))
 // CS Name: ::SP800SecureRandomBuilder::CtrDrbgProvider*
 class CORDL_TYPE __SP800SecureRandomBuilder__CtrDrbgProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mBlockCipher, offset 0x10, size 0x8
-  __declspec(property(get = __get_mBlockCipher, put = __set_mBlockCipher))::Org::BouncyCastle::Crypto::IBlockCipher* mBlockCipher;
+  __declspec(property(get = __cordl_internal_get_mBlockCipher, put = __cordl_internal_set_mBlockCipher))::Org::BouncyCastle::Crypto::IBlockCipher* mBlockCipher;
 
   /// @brief Field mKeySizeInBits, offset 0x18, size 0x4
-  __declspec(property(get = __get_mKeySizeInBits, put = __set_mKeySizeInBits)) int32_t mKeySizeInBits;
+  __declspec(property(get = __cordl_internal_get_mKeySizeInBits, put = __cordl_internal_set_mKeySizeInBits)) int32_t mKeySizeInBits;
 
   /// @brief Field mNonce, offset 0x20, size 0x8
-  __declspec(property(get = __get_mNonce, put = __set_mNonce))::ArrayW<uint8_t, ::Array<uint8_t>*> mNonce;
+  __declspec(property(get = __cordl_internal_get_mNonce, put = __cordl_internal_set_mNonce))::ArrayW<uint8_t, ::Array<uint8_t>*> mNonce;
 
   /// @brief Field mPersonalizationString, offset 0x28, size 0x8
-  __declspec(property(get = __get_mPersonalizationString, put = __set_mPersonalizationString))::ArrayW<uint8_t, ::Array<uint8_t>*> mPersonalizationString;
+  __declspec(property(get = __cordl_internal_get_mPersonalizationString, put = __cordl_internal_set_mPersonalizationString))::ArrayW<uint8_t, ::Array<uint8_t>*> mPersonalizationString;
 
   /// @brief Field mSecurityStrength, offset 0x30, size 0x4
-  __declspec(property(get = __get_mSecurityStrength, put = __set_mSecurityStrength)) int32_t mSecurityStrength;
+  __declspec(property(get = __cordl_internal_get_mSecurityStrength, put = __cordl_internal_set_mSecurityStrength)) int32_t mSecurityStrength;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider*() noexcept;
@@ -293,35 +293,35 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IDrbgProvider"
   constexpr ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider* i___Org__BouncyCastle__Crypto__Prng__IDrbgProvider() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __get_mBlockCipher();
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_mBlockCipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __get_mBlockCipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __cordl_internal_get_mBlockCipher() const;
 
-  constexpr void __set_mBlockCipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
+  constexpr void __cordl_internal_set_mBlockCipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
 
-  constexpr int32_t& __get_mKeySizeInBits();
+  constexpr int32_t& __cordl_internal_get_mKeySizeInBits();
 
-  constexpr int32_t const& __get_mKeySizeInBits() const;
+  constexpr int32_t const& __cordl_internal_get_mKeySizeInBits() const;
 
-  constexpr void __set_mKeySizeInBits(int32_t value);
+  constexpr void __cordl_internal_set_mKeySizeInBits(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mNonce();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mNonce();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mNonce() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mNonce() const;
 
-  constexpr void __set_mNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mPersonalizationString();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPersonalizationString();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mPersonalizationString() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPersonalizationString() const;
 
-  constexpr void __set_mPersonalizationString(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mPersonalizationString(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_mSecurityStrength();
+  constexpr int32_t& __cordl_internal_get_mSecurityStrength();
 
-  constexpr int32_t const& __get_mSecurityStrength() const;
+  constexpr int32_t const& __cordl_internal_get_mSecurityStrength() const;
 
-  constexpr void __set_mSecurityStrength(int32_t value);
+  constexpr void __cordl_internal_set_mSecurityStrength(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__CtrDrbgProvider* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* blockCipher, int32_t keySizeInBits,
                                                                                                          ::ArrayW<uint8_t, ::Array<uint8_t>*> nonce,
@@ -383,7 +383,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBui
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1116))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::SP800SecureRandomBuilder*
 class CORDL_TYPE SP800SecureRandomBuilder : public ::System::Object {
@@ -396,49 +396,49 @@ public:
   using HashDrbgProvider = ::Org::BouncyCastle::Crypto::Prng::__SP800SecureRandomBuilder__HashDrbgProvider;
 
   /// @brief Field mRandom, offset 0x10, size 0x8
-  __declspec(property(get = __get_mRandom, put = __set_mRandom))::Org::BouncyCastle::Security::SecureRandom* mRandom;
+  __declspec(property(get = __cordl_internal_get_mRandom, put = __cordl_internal_set_mRandom))::Org::BouncyCastle::Security::SecureRandom* mRandom;
 
   /// @brief Field mEntropySourceProvider, offset 0x18, size 0x8
-  __declspec(property(get = __get_mEntropySourceProvider, put = __set_mEntropySourceProvider))::Org::BouncyCastle::Crypto::IEntropySourceProvider* mEntropySourceProvider;
+  __declspec(property(get = __cordl_internal_get_mEntropySourceProvider, put = __cordl_internal_set_mEntropySourceProvider))::Org::BouncyCastle::Crypto::IEntropySourceProvider* mEntropySourceProvider;
 
   /// @brief Field mPersonalizationString, offset 0x20, size 0x8
-  __declspec(property(get = __get_mPersonalizationString, put = __set_mPersonalizationString))::ArrayW<uint8_t, ::Array<uint8_t>*> mPersonalizationString;
+  __declspec(property(get = __cordl_internal_get_mPersonalizationString, put = __cordl_internal_set_mPersonalizationString))::ArrayW<uint8_t, ::Array<uint8_t>*> mPersonalizationString;
 
   /// @brief Field mSecurityStrength, offset 0x28, size 0x4
-  __declspec(property(get = __get_mSecurityStrength, put = __set_mSecurityStrength)) int32_t mSecurityStrength;
+  __declspec(property(get = __cordl_internal_get_mSecurityStrength, put = __cordl_internal_set_mSecurityStrength)) int32_t mSecurityStrength;
 
   /// @brief Field mEntropyBitsRequired, offset 0x2c, size 0x4
-  __declspec(property(get = __get_mEntropyBitsRequired, put = __set_mEntropyBitsRequired)) int32_t mEntropyBitsRequired;
+  __declspec(property(get = __cordl_internal_get_mEntropyBitsRequired, put = __cordl_internal_set_mEntropyBitsRequired)) int32_t mEntropyBitsRequired;
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_mRandom();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_mRandom();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_mRandom() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_mRandom() const;
 
-  constexpr void __set_mRandom(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_mRandom(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IEntropySourceProvider*& __get_mEntropySourceProvider();
+  constexpr ::Org::BouncyCastle::Crypto::IEntropySourceProvider*& __cordl_internal_get_mEntropySourceProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IEntropySourceProvider*> const& __get_mEntropySourceProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IEntropySourceProvider*> const& __cordl_internal_get_mEntropySourceProvider() const;
 
-  constexpr void __set_mEntropySourceProvider(::Org::BouncyCastle::Crypto::IEntropySourceProvider* value);
+  constexpr void __cordl_internal_set_mEntropySourceProvider(::Org::BouncyCastle::Crypto::IEntropySourceProvider* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mPersonalizationString();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPersonalizationString();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mPersonalizationString() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPersonalizationString() const;
 
-  constexpr void __set_mPersonalizationString(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mPersonalizationString(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_mSecurityStrength();
+  constexpr int32_t& __cordl_internal_get_mSecurityStrength();
 
-  constexpr int32_t const& __get_mSecurityStrength() const;
+  constexpr int32_t const& __cordl_internal_get_mSecurityStrength() const;
 
-  constexpr void __set_mSecurityStrength(int32_t value);
+  constexpr void __cordl_internal_set_mSecurityStrength(int32_t value);
 
-  constexpr int32_t& __get_mEntropyBitsRequired();
+  constexpr int32_t& __cordl_internal_get_mEntropyBitsRequired();
 
-  constexpr int32_t const& __get_mEntropyBitsRequired() const;
+  constexpr int32_t const& __cordl_internal_get_mEntropyBitsRequired() const;
 
-  constexpr void __set_mEntropyBitsRequired(int32_t value);
+  constexpr void __cordl_internal_set_mEntropyBitsRequired(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::SP800SecureRandomBuilder* New_ctor();
 

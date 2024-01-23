@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlAttributeDescription);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6980))
 // CS Name: ::UxmlAttributeDescription::Use
 struct CORDL_TYPE __UxmlAttributeDescription__Use {
@@ -100,7 +100,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__UxmlAttributeDescription__Us
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6980))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6980))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6981))
 // CS Name: ::UnityEngine.UIElements::UxmlAttributeDescription*
 class CORDL_TYPE UxmlAttributeDescription : public ::System::Object {
@@ -109,22 +109,23 @@ public:
   using Use = ::UnityEngine::UIElements::__UxmlAttributeDescription__Use;
 
   /// @brief Field <name>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__name_k__BackingField, put = __set__name_k__BackingField))::StringW _name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__name_k__BackingField, put = __cordl_internal_set__name_k__BackingField))::StringW _name_k__BackingField;
 
   /// @brief Field m_ObsoleteNames, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_ObsoleteNames, put = __set_m_ObsoleteNames))::ArrayW<::StringW, ::Array<::StringW>*> m_ObsoleteNames;
+  __declspec(property(get = __cordl_internal_get_m_ObsoleteNames, put = __cordl_internal_set_m_ObsoleteNames))::ArrayW<::StringW, ::Array<::StringW>*> m_ObsoleteNames;
 
   /// @brief Field <type>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__type_k__BackingField, put = __set__type_k__BackingField))::StringW _type_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__type_k__BackingField, put = __cordl_internal_set__type_k__BackingField))::StringW _type_k__BackingField;
 
   /// @brief Field <typeNamespace>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__typeNamespace_k__BackingField, put = __set__typeNamespace_k__BackingField))::StringW _typeNamespace_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__typeNamespace_k__BackingField, put = __cordl_internal_set__typeNamespace_k__BackingField))::StringW _typeNamespace_k__BackingField;
 
   /// @brief Field <use>k__BackingField, offset 0x30, size 0x4
-  __declspec(property(get = __get__use_k__BackingField, put = __set__use_k__BackingField))::UnityEngine::UIElements::__UxmlAttributeDescription__Use _use_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__use_k__BackingField, put = __cordl_internal_set__use_k__BackingField))::UnityEngine::UIElements::__UxmlAttributeDescription__Use _use_k__BackingField;
 
   /// @brief Field <restriction>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__restriction_k__BackingField, put = __set__restriction_k__BackingField))::UnityEngine::UIElements::UxmlTypeRestriction* _restriction_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__restriction_k__BackingField,
+                      put = __cordl_internal_set__restriction_k__BackingField))::UnityEngine::UIElements::UxmlTypeRestriction* _restriction_k__BackingField;
 
   __declspec(property(get = get_name, put = set_name))::StringW name;
 
@@ -138,41 +139,41 @@ public:
 
   __declspec(property(put = set_restriction))::UnityEngine::UIElements::UxmlTypeRestriction* restriction;
 
-  constexpr ::StringW& __get__name_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__name_k__BackingField();
 
-  constexpr ::StringW const& __get__name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__name_k__BackingField() const;
 
-  constexpr void __set__name_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__name_k__BackingField(::StringW value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_ObsoleteNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_ObsoleteNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_ObsoleteNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_ObsoleteNames() const;
 
-  constexpr void __set_m_ObsoleteNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_ObsoleteNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::StringW& __get__type_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__type_k__BackingField();
 
-  constexpr ::StringW const& __get__type_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__type_k__BackingField() const;
 
-  constexpr void __set__type_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__type_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__typeNamespace_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__typeNamespace_k__BackingField();
 
-  constexpr ::StringW const& __get__typeNamespace_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__typeNamespace_k__BackingField() const;
 
-  constexpr void __set__typeNamespace_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__typeNamespace_k__BackingField(::StringW value);
 
-  constexpr ::UnityEngine::UIElements::__UxmlAttributeDescription__Use& __get__use_k__BackingField();
+  constexpr ::UnityEngine::UIElements::__UxmlAttributeDescription__Use& __cordl_internal_get__use_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::__UxmlAttributeDescription__Use const& __get__use_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::__UxmlAttributeDescription__Use const& __cordl_internal_get__use_k__BackingField() const;
 
-  constexpr void __set__use_k__BackingField(::UnityEngine::UIElements::__UxmlAttributeDescription__Use value);
+  constexpr void __cordl_internal_set__use_k__BackingField(::UnityEngine::UIElements::__UxmlAttributeDescription__Use value);
 
-  constexpr ::UnityEngine::UIElements::UxmlTypeRestriction*& __get__restriction_k__BackingField();
+  constexpr ::UnityEngine::UIElements::UxmlTypeRestriction*& __cordl_internal_get__restriction_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlTypeRestriction*> const& __get__restriction_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlTypeRestriction*> const& __cordl_internal_get__restriction_k__BackingField() const;
 
-  constexpr void __set__restriction_k__BackingField(::UnityEngine::UIElements::UxmlTypeRestriction* value);
+  constexpr void __cordl_internal_set__restriction_k__BackingField(::UnityEngine::UIElements::UxmlTypeRestriction* value);
 
   static inline ::UnityEngine::UIElements::UxmlAttributeDescription* New_ctor();
 

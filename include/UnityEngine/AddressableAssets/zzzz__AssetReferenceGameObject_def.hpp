@@ -16,9 +16,9 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetReferenceGameObject);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14082), inst: 311 }), TypeDefinitionIndex(TypeDefinitionIndex(10196)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14082))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14083)) CS Name: ::UnityEngine.AddressableAssets::AssetReferenceGameObject*
-class CORDL_TYPE AssetReferenceGameObject : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityEngine::GameObject*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10196)), TypeDefinitionIndex(TypeDefinitionIndex(14082)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14082), inst:
+// 311 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14083)) CS Name: ::UnityEngine.AddressableAssets::AssetReferenceGameObject*
+class CORDL_TYPE AssetReferenceGameObject : public ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::UnityEngine::GameObject>> {
 public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceGameObject* New_ctor(::StringW guid);

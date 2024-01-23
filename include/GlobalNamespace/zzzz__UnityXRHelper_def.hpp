@@ -75,7 +75,7 @@ MARK_REF_PTR_T(::GlobalNamespace::UnityXRHelper);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14435))
 // CS Name: ::UnityXRHelper::VRControllerManufacturerName
 struct CORDL_TYPE __UnityXRHelper__VRControllerManufacturerName {
@@ -141,7 +141,7 @@ static_assert(offsetof(::GlobalNamespace::__UnityXRHelper__VRControllerManufactu
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 276, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14436))
 // CS Name: ::UnityXRHelper*
 class CORDL_TYPE UnityXRHelper : public ::UnityEngine::MonoBehaviour {
@@ -150,88 +150,95 @@ public:
   using VRControllerManufacturerName = ::GlobalNamespace::__UnityXRHelper__VRControllerManufacturerName;
 
   /// @brief Field inputFocusWasCapturedEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_inputFocusWasCapturedEvent, put = __set_inputFocusWasCapturedEvent))::System::Action* inputFocusWasCapturedEvent;
+  __declspec(property(get = __cordl_internal_get_inputFocusWasCapturedEvent, put = __cordl_internal_set_inputFocusWasCapturedEvent))::System::Action* inputFocusWasCapturedEvent;
 
   /// @brief Field inputFocusWasReleasedEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_inputFocusWasReleasedEvent, put = __set_inputFocusWasReleasedEvent))::System::Action* inputFocusWasReleasedEvent;
+  __declspec(property(get = __cordl_internal_get_inputFocusWasReleasedEvent, put = __cordl_internal_set_inputFocusWasReleasedEvent))::System::Action* inputFocusWasReleasedEvent;
 
   /// @brief Field vrFocusWasCapturedEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_vrFocusWasCapturedEvent, put = __set_vrFocusWasCapturedEvent))::System::Action* vrFocusWasCapturedEvent;
+  __declspec(property(get = __cordl_internal_get_vrFocusWasCapturedEvent, put = __cordl_internal_set_vrFocusWasCapturedEvent))::System::Action* vrFocusWasCapturedEvent;
 
   /// @brief Field vrFocusWasReleasedEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_vrFocusWasReleasedEvent, put = __set_vrFocusWasReleasedEvent))::System::Action* vrFocusWasReleasedEvent;
+  __declspec(property(get = __cordl_internal_get_vrFocusWasReleasedEvent, put = __cordl_internal_set_vrFocusWasReleasedEvent))::System::Action* vrFocusWasReleasedEvent;
 
   /// @brief Field hmdUnmountedEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_hmdUnmountedEvent, put = __set_hmdUnmountedEvent))::System::Action* hmdUnmountedEvent;
+  __declspec(property(get = __cordl_internal_get_hmdUnmountedEvent, put = __cordl_internal_set_hmdUnmountedEvent))::System::Action* hmdUnmountedEvent;
 
   /// @brief Field hmdMountedEvent, offset 0x40, size 0x8
-  __declspec(property(get = __get_hmdMountedEvent, put = __set_hmdMountedEvent))::System::Action* hmdMountedEvent;
+  __declspec(property(get = __cordl_internal_get_hmdMountedEvent, put = __cordl_internal_set_hmdMountedEvent))::System::Action* hmdMountedEvent;
 
   /// @brief Field controllersDidChangeReferenceEvent, offset 0x48, size 0x8
-  __declspec(property(get = __get_controllersDidChangeReferenceEvent, put = __set_controllersDidChangeReferenceEvent))::System::Action* controllersDidChangeReferenceEvent;
+  __declspec(property(get = __cordl_internal_get_controllersDidChangeReferenceEvent,
+                      put = __cordl_internal_set_controllersDidChangeReferenceEvent))::System::Action* controllersDidChangeReferenceEvent;
 
   /// @brief Field controllersDidDisconnectEvent, offset 0x50, size 0x8
-  __declspec(property(get = __get_controllersDidDisconnectEvent, put = __set_controllersDidDisconnectEvent))::System::Action* controllersDidDisconnectEvent;
+  __declspec(property(get = __cordl_internal_get_controllersDidDisconnectEvent, put = __cordl_internal_set_controllersDidDisconnectEvent))::System::Action* controllersDidDisconnectEvent;
 
   /// @brief Field <hasVrFocus>k__BackingField, offset 0x58, size 0x1
-  __declspec(property(get = __get__hasVrFocus_k__BackingField, put = __set__hasVrFocus_k__BackingField)) bool _hasVrFocus_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__hasVrFocus_k__BackingField, put = __cordl_internal_set__hasVrFocus_k__BackingField)) bool _hasVrFocus_k__BackingField;
 
   /// @brief Field _oculusOffsetPose, offset 0x5c, size 0x1c
-  __declspec(property(get = __get__oculusOffsetPose, put = __set__oculusOffsetPose))::UnityEngine::Pose _oculusOffsetPose;
+  __declspec(property(get = __cordl_internal_get__oculusOffsetPose, put = __cordl_internal_set__oculusOffsetPose))::UnityEngine::Pose _oculusOffsetPose;
 
   /// @brief Field _valveIndexOffsetPose, offset 0x78, size 0x1c
-  __declspec(property(get = __get__valveIndexOffsetPose, put = __set__valveIndexOffsetPose))::UnityEngine::Pose _valveIndexOffsetPose;
+  __declspec(property(get = __cordl_internal_get__valveIndexOffsetPose, put = __cordl_internal_set__valveIndexOffsetPose))::UnityEngine::Pose _valveIndexOffsetPose;
 
   /// @brief Field _htcViveOffsetPose, offset 0x94, size 0x1c
-  __declspec(property(get = __get__htcViveOffsetPose, put = __set__htcViveOffsetPose))::UnityEngine::Pose _htcViveOffsetPose;
+  __declspec(property(get = __cordl_internal_get__htcViveOffsetPose, put = __cordl_internal_set__htcViveOffsetPose))::UnityEngine::Pose _htcViveOffsetPose;
 
   /// @brief Field _leftControllerConfiguration, offset 0xb0, size 0x8
-  __declspec(property(get = __get__leftControllerConfiguration, put = __set__leftControllerConfiguration))::GlobalNamespace::__UnityXRController__Configuration* _leftControllerConfiguration;
+  __declspec(property(get = __cordl_internal_get__leftControllerConfiguration,
+                      put = __cordl_internal_set__leftControllerConfiguration))::GlobalNamespace::__UnityXRController__Configuration* _leftControllerConfiguration;
 
   /// @brief Field _rightControllerConfiguration, offset 0xb8, size 0x8
-  __declspec(property(get = __get__rightControllerConfiguration, put = __set__rightControllerConfiguration))::GlobalNamespace::__UnityXRController__Configuration* _rightControllerConfiguration;
+  __declspec(property(get = __cordl_internal_get__rightControllerConfiguration,
+                      put = __cordl_internal_set__rightControllerConfiguration))::GlobalNamespace::__UnityXRController__Configuration* _rightControllerConfiguration;
 
   /// @brief Field _userPresenceActionReference, offset 0xc0, size 0x8
-  __declspec(property(get = __get__userPresenceActionReference, put = __set__userPresenceActionReference))::UnityEngine::InputSystem::InputActionReference* _userPresenceActionReference;
+  __declspec(property(get = __cordl_internal_get__userPresenceActionReference,
+                      put = __cordl_internal_set__userPresenceActionReference))::UnityW<::UnityEngine::InputSystem::InputActionReference> _userPresenceActionReference;
 
   /// @brief Field _headPositionActionReference, offset 0xc8, size 0x8
-  __declspec(property(get = __get__headPositionActionReference, put = __set__headPositionActionReference))::UnityEngine::InputSystem::InputActionReference* _headPositionActionReference;
+  __declspec(property(get = __cordl_internal_get__headPositionActionReference,
+                      put = __cordl_internal_set__headPositionActionReference))::UnityW<::UnityEngine::InputSystem::InputActionReference> _headPositionActionReference;
 
   /// @brief Field _headOrientationActionReference, offset 0xd0, size 0x8
-  __declspec(property(get = __get__headOrientationActionReference, put = __set__headOrientationActionReference))::UnityEngine::InputSystem::InputActionReference* _headOrientationActionReference;
+  __declspec(property(get = __cordl_internal_get__headOrientationActionReference,
+                      put = __cordl_internal_set__headOrientationActionReference))::UnityW<::UnityEngine::InputSystem::InputActionReference> _headOrientationActionReference;
 
   /// @brief Field _pauseGameActionReference, offset 0xd8, size 0x8
-  __declspec(property(get = __get__pauseGameActionReference, put = __set__pauseGameActionReference))::UnityEngine::InputSystem::InputActionReference* _pauseGameActionReference;
+  __declspec(property(get = __cordl_internal_get__pauseGameActionReference,
+                      put = __cordl_internal_set__pauseGameActionReference))::UnityW<::UnityEngine::InputSystem::InputActionReference> _pauseGameActionReference;
 
   /// @brief Field _leftController, offset 0xe0, size 0x8
-  __declspec(property(get = __get__leftController, put = __set__leftController))::GlobalNamespace::UnityXRController* _leftController;
+  __declspec(property(get = __cordl_internal_get__leftController, put = __cordl_internal_set__leftController))::GlobalNamespace::UnityXRController* _leftController;
 
   /// @brief Field _rightController, offset 0xe8, size 0x8
-  __declspec(property(get = __get__rightController, put = __set__rightController))::GlobalNamespace::UnityXRController* _rightController;
+  __declspec(property(get = __cordl_internal_get__rightController, put = __cordl_internal_set__rightController))::GlobalNamespace::UnityXRController* _rightController;
 
   /// @brief Field _headPositionAction, offset 0xf0, size 0x8
-  __declspec(property(get = __get__headPositionAction, put = __set__headPositionAction))::UnityEngine::InputSystem::InputAction* _headPositionAction;
+  __declspec(property(get = __cordl_internal_get__headPositionAction, put = __cordl_internal_set__headPositionAction))::UnityEngine::InputSystem::InputAction* _headPositionAction;
 
   /// @brief Field _headOrientationAction, offset 0xf8, size 0x8
-  __declspec(property(get = __get__headOrientationAction, put = __set__headOrientationAction))::UnityEngine::InputSystem::InputAction* _headOrientationAction;
+  __declspec(property(get = __cordl_internal_get__headOrientationAction, put = __cordl_internal_set__headOrientationAction))::UnityEngine::InputSystem::InputAction* _headOrientationAction;
 
   /// @brief Field _userPresenceAction, offset 0x100, size 0x8
-  __declspec(property(get = __get__userPresenceAction, put = __set__userPresenceAction))::UnityEngine::InputSystem::InputAction* _userPresenceAction;
+  __declspec(property(get = __cordl_internal_get__userPresenceAction, put = __cordl_internal_set__userPresenceAction))::UnityEngine::InputSystem::InputAction* _userPresenceAction;
 
   /// @brief Field _pauseGameAction, offset 0x108, size 0x8
-  __declspec(property(get = __get__pauseGameAction, put = __set__pauseGameAction))::UnityEngine::InputSystem::InputAction* _pauseGameAction;
+  __declspec(property(get = __cordl_internal_get__pauseGameAction, put = __cordl_internal_set__pauseGameAction))::UnityEngine::InputSystem::InputAction* _pauseGameAction;
 
   /// @brief Field _scrollingLastFrame, offset 0x110, size 0x1
-  __declspec(property(get = __get__scrollingLastFrame, put = __set__scrollingLastFrame)) bool _scrollingLastFrame;
+  __declspec(property(get = __cordl_internal_get__scrollingLastFrame, put = __cordl_internal_set__scrollingLastFrame)) bool _scrollingLastFrame;
 
   /// @brief Field _userPresence, offset 0x111, size 0x1
-  __declspec(property(get = __get__userPresence, put = __set__userPresence)) bool _userPresence;
+  __declspec(property(get = __cordl_internal_get__userPresence, put = __cordl_internal_set__userPresence)) bool _userPresence;
 
   /// @brief Field _isPausePressed, offset 0x112, size 0x1
-  __declspec(property(get = __get__isPausePressed, put = __set__isPausePressed)) bool _isPausePressed;
+  __declspec(property(get = __cordl_internal_get__isPausePressed, put = __cordl_internal_set__isPausePressed)) bool _isPausePressed;
 
   /// @brief Field _wasPausePressedThisFrame, offset 0x113, size 0x1
-  __declspec(property(get = __get__wasPausePressedThisFrame, put = __set__wasPausePressedThisFrame)) bool _wasPausePressedThisFrame;
+  __declspec(property(get = __cordl_internal_get__wasPausePressedThisFrame, put = __cordl_internal_set__wasPausePressedThisFrame)) bool _wasPausePressedThisFrame;
 
   __declspec(property(get = get_hasInputFocus)) bool hasInputFocus;
 
@@ -257,173 +264,173 @@ public:
   /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
   constexpr ::GlobalNamespace::IVerboseLogger* i___GlobalNamespace__IVerboseLogger() noexcept;
 
-  constexpr ::System::Action*& __get_inputFocusWasCapturedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_inputFocusWasCapturedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_inputFocusWasCapturedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_inputFocusWasCapturedEvent() const;
 
-  constexpr void __set_inputFocusWasCapturedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_inputFocusWasCapturedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_inputFocusWasReleasedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_inputFocusWasReleasedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_inputFocusWasReleasedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_inputFocusWasReleasedEvent() const;
 
-  constexpr void __set_inputFocusWasReleasedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_inputFocusWasReleasedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_vrFocusWasCapturedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_vrFocusWasCapturedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_vrFocusWasCapturedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_vrFocusWasCapturedEvent() const;
 
-  constexpr void __set_vrFocusWasCapturedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_vrFocusWasCapturedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_vrFocusWasReleasedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_vrFocusWasReleasedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_vrFocusWasReleasedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_vrFocusWasReleasedEvent() const;
 
-  constexpr void __set_vrFocusWasReleasedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_vrFocusWasReleasedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_hmdUnmountedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_hmdUnmountedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_hmdUnmountedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_hmdUnmountedEvent() const;
 
-  constexpr void __set_hmdUnmountedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_hmdUnmountedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_hmdMountedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_hmdMountedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_hmdMountedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_hmdMountedEvent() const;
 
-  constexpr void __set_hmdMountedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_hmdMountedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_controllersDidChangeReferenceEvent();
+  constexpr ::System::Action*& __cordl_internal_get_controllersDidChangeReferenceEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_controllersDidChangeReferenceEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_controllersDidChangeReferenceEvent() const;
 
-  constexpr void __set_controllersDidChangeReferenceEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_controllersDidChangeReferenceEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_controllersDidDisconnectEvent();
+  constexpr ::System::Action*& __cordl_internal_get_controllersDidDisconnectEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_controllersDidDisconnectEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_controllersDidDisconnectEvent() const;
 
-  constexpr void __set_controllersDidDisconnectEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_controllersDidDisconnectEvent(::System::Action* value);
 
-  constexpr bool& __get__hasVrFocus_k__BackingField();
+  constexpr bool& __cordl_internal_get__hasVrFocus_k__BackingField();
 
-  constexpr bool const& __get__hasVrFocus_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__hasVrFocus_k__BackingField() const;
 
-  constexpr void __set__hasVrFocus_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__hasVrFocus_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::Pose& __get__oculusOffsetPose();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get__oculusOffsetPose();
 
-  constexpr ::UnityEngine::Pose const& __get__oculusOffsetPose() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get__oculusOffsetPose() const;
 
-  constexpr void __set__oculusOffsetPose(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set__oculusOffsetPose(::UnityEngine::Pose value);
 
-  constexpr ::UnityEngine::Pose& __get__valveIndexOffsetPose();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get__valveIndexOffsetPose();
 
-  constexpr ::UnityEngine::Pose const& __get__valveIndexOffsetPose() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get__valveIndexOffsetPose() const;
 
-  constexpr void __set__valveIndexOffsetPose(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set__valveIndexOffsetPose(::UnityEngine::Pose value);
 
-  constexpr ::UnityEngine::Pose& __get__htcViveOffsetPose();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get__htcViveOffsetPose();
 
-  constexpr ::UnityEngine::Pose const& __get__htcViveOffsetPose() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get__htcViveOffsetPose() const;
 
-  constexpr void __set__htcViveOffsetPose(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set__htcViveOffsetPose(::UnityEngine::Pose value);
 
-  constexpr ::GlobalNamespace::__UnityXRController__Configuration*& __get__leftControllerConfiguration();
+  constexpr ::GlobalNamespace::__UnityXRController__Configuration*& __cordl_internal_get__leftControllerConfiguration();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityXRController__Configuration*> const& __get__leftControllerConfiguration() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityXRController__Configuration*> const& __cordl_internal_get__leftControllerConfiguration() const;
 
-  constexpr void __set__leftControllerConfiguration(::GlobalNamespace::__UnityXRController__Configuration* value);
+  constexpr void __cordl_internal_set__leftControllerConfiguration(::GlobalNamespace::__UnityXRController__Configuration* value);
 
-  constexpr ::GlobalNamespace::__UnityXRController__Configuration*& __get__rightControllerConfiguration();
+  constexpr ::GlobalNamespace::__UnityXRController__Configuration*& __cordl_internal_get__rightControllerConfiguration();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityXRController__Configuration*> const& __get__rightControllerConfiguration() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityXRController__Configuration*> const& __cordl_internal_get__rightControllerConfiguration() const;
 
-  constexpr void __set__rightControllerConfiguration(::GlobalNamespace::__UnityXRController__Configuration* value);
+  constexpr void __cordl_internal_set__rightControllerConfiguration(::GlobalNamespace::__UnityXRController__Configuration* value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get__userPresenceActionReference();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get__userPresenceActionReference();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get__userPresenceActionReference() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get__userPresenceActionReference() const;
 
-  constexpr void __set__userPresenceActionReference(::UnityEngine::InputSystem::InputActionReference* value);
+  constexpr void __cordl_internal_set__userPresenceActionReference(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get__headPositionActionReference();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get__headPositionActionReference();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get__headPositionActionReference() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get__headPositionActionReference() const;
 
-  constexpr void __set__headPositionActionReference(::UnityEngine::InputSystem::InputActionReference* value);
+  constexpr void __cordl_internal_set__headPositionActionReference(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get__headOrientationActionReference();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get__headOrientationActionReference();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get__headOrientationActionReference() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get__headOrientationActionReference() const;
 
-  constexpr void __set__headOrientationActionReference(::UnityEngine::InputSystem::InputActionReference* value);
+  constexpr void __cordl_internal_set__headOrientationActionReference(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionReference*& __get__pauseGameActionReference();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get__pauseGameActionReference();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionReference*> const& __get__pauseGameActionReference() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get__pauseGameActionReference() const;
 
-  constexpr void __set__pauseGameActionReference(::UnityEngine::InputSystem::InputActionReference* value);
+  constexpr void __cordl_internal_set__pauseGameActionReference(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
-  constexpr ::GlobalNamespace::UnityXRController*& __get__leftController();
+  constexpr ::GlobalNamespace::UnityXRController*& __cordl_internal_get__leftController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::UnityXRController*> const& __get__leftController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::UnityXRController*> const& __cordl_internal_get__leftController() const;
 
-  constexpr void __set__leftController(::GlobalNamespace::UnityXRController* value);
+  constexpr void __cordl_internal_set__leftController(::GlobalNamespace::UnityXRController* value);
 
-  constexpr ::GlobalNamespace::UnityXRController*& __get__rightController();
+  constexpr ::GlobalNamespace::UnityXRController*& __cordl_internal_get__rightController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::UnityXRController*> const& __get__rightController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::UnityXRController*> const& __cordl_internal_get__rightController() const;
 
-  constexpr void __set__rightController(::GlobalNamespace::UnityXRController* value);
+  constexpr void __cordl_internal_set__rightController(::GlobalNamespace::UnityXRController* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get__headPositionAction();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get__headPositionAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get__headPositionAction() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get__headPositionAction() const;
 
-  constexpr void __set__headPositionAction(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set__headPositionAction(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get__headOrientationAction();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get__headOrientationAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get__headOrientationAction() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get__headOrientationAction() const;
 
-  constexpr void __set__headOrientationAction(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set__headOrientationAction(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get__userPresenceAction();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get__userPresenceAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get__userPresenceAction() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get__userPresenceAction() const;
 
-  constexpr void __set__userPresenceAction(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set__userPresenceAction(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get__pauseGameAction();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get__pauseGameAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get__pauseGameAction() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get__pauseGameAction() const;
 
-  constexpr void __set__pauseGameAction(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set__pauseGameAction(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr bool& __get__scrollingLastFrame();
+  constexpr bool& __cordl_internal_get__scrollingLastFrame();
 
-  constexpr bool const& __get__scrollingLastFrame() const;
+  constexpr bool const& __cordl_internal_get__scrollingLastFrame() const;
 
-  constexpr void __set__scrollingLastFrame(bool value);
+  constexpr void __cordl_internal_set__scrollingLastFrame(bool value);
 
-  constexpr bool& __get__userPresence();
+  constexpr bool& __cordl_internal_get__userPresence();
 
-  constexpr bool const& __get__userPresence() const;
+  constexpr bool const& __cordl_internal_get__userPresence() const;
 
-  constexpr void __set__userPresence(bool value);
+  constexpr void __cordl_internal_set__userPresence(bool value);
 
-  constexpr bool& __get__isPausePressed();
+  constexpr bool& __cordl_internal_get__isPausePressed();
 
-  constexpr bool const& __get__isPausePressed() const;
+  constexpr bool const& __cordl_internal_get__isPausePressed() const;
 
-  constexpr void __set__isPausePressed(bool value);
+  constexpr void __cordl_internal_set__isPausePressed(bool value);
 
-  constexpr bool& __get__wasPausePressedThisFrame();
+  constexpr bool& __cordl_internal_get__wasPausePressedThisFrame();
 
-  constexpr bool const& __get__wasPausePressedThisFrame() const;
+  constexpr bool const& __cordl_internal_get__wasPausePressedThisFrame() const;
 
-  constexpr void __set__wasPausePressedThisFrame(bool value);
+  constexpr void __cordl_internal_set__wasPausePressedThisFrame(bool value);
 
   /// @brief Method add_inputFocusWasCapturedEvent, addr 0x20fd71c, size 0x9c, virtual true, abstract: false, final true
   inline void add_inputFocusWasCapturedEvent(::System::Action* value);
@@ -634,16 +641,16 @@ public:
   ::GlobalNamespace::__UnityXRController__Configuration* ____rightControllerConfiguration;
 
   /// @brief Field _userPresenceActionReference, offset: 0xc0, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ____userPresenceActionReference;
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____userPresenceActionReference;
 
   /// @brief Field _headPositionActionReference, offset: 0xc8, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ____headPositionActionReference;
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____headPositionActionReference;
 
   /// @brief Field _headOrientationActionReference, offset: 0xd0, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ____headOrientationActionReference;
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____headOrientationActionReference;
 
   /// @brief Field _pauseGameActionReference, offset: 0xd8, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionReference* ____pauseGameActionReference;
+  ::UnityW<::UnityEngine::InputSystem::InputActionReference> ____pauseGameActionReference;
 
   /// @brief Field _leftController, offset: 0xe0, size: 0x8, def value: None
   ::GlobalNamespace::UnityXRController* ____leftController;

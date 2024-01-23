@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BookmarksFoldersModel____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4138))
 // CS Name: ::BookmarksFoldersModel::<>c*
 class CORDL_TYPE __BookmarksFoldersModel____c : public ::System::Object {
@@ -85,7 +85,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BookmarksFold
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4139))
 // CS Name: ::BookmarksFoldersModel*
 class CORDL_TYPE BookmarksFoldersModel : public ::GlobalNamespace::PersistentScriptableObject {
@@ -94,24 +94,25 @@ public:
   using __c = ::GlobalNamespace::__BookmarksFoldersModel____c;
 
   /// @brief Field myFolders, offset 0x18, size 0x8
-  __declspec(property(get = __get_myFolders, put = __set_myFolders))::ArrayW<::StringW, ::Array<::StringW>*> myFolders;
+  __declspec(property(get = __cordl_internal_get_myFolders, put = __cordl_internal_set_myFolders))::ArrayW<::StringW, ::Array<::StringW>*> myFolders;
 
   /// @brief Field _bookmarksFolders, offset 0x20, size 0x8
-  __declspec(property(get = __get__bookmarksFolders, put = __set__bookmarksFolders))::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> _bookmarksFolders;
+  __declspec(property(get = __cordl_internal_get__bookmarksFolders,
+                      put = __cordl_internal_set__bookmarksFolders))::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> _bookmarksFolders;
 
   __declspec(property(get = get_bookmarksFolders))::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> bookmarksFolders;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_myFolders();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_myFolders();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_myFolders() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_myFolders() const;
 
-  constexpr void __set_myFolders(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_myFolders(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*>& __get__bookmarksFolders();
+  constexpr ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*>& __cordl_internal_get__bookmarksFolders();
 
-  constexpr ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> const& __get__bookmarksFolders() const;
+  constexpr ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> const& __cordl_internal_get__bookmarksFolders() const;
 
-  constexpr void __set__bookmarksFolders(::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> value);
+  constexpr void __cordl_internal_set__bookmarksFolders(::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> value);
 
   /// @brief Method get_bookmarksFolders, addr 0x223bffc, size 0x594, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> get_bookmarksFolders();

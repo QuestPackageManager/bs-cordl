@@ -254,7 +254,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Layouts::__InputControlLayout__LayoutJson
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6596))
 // CS Name: ::InputControlLayout::ControlItem::Flags
 struct CORDL_TYPE __InputControlLayout__ControlItem__Flags {
@@ -316,10 +316,10 @@ static_assert(offsetof(::GlobalNamespace::__InputControlLayout__ControlItem__Fla
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6699)), TypeDefinitionIndex(TypeDefinitionIndex(6667)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 3113
-// }), TypeDefinitionIndex(TypeDefinitionIndex(6683)), TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(6682)), TypeDefinitionIndex(TypeDefinitionIndex(6701)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6596)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 2598 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6701), inst: 3114 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6597)) CS Name: ::InputControlLayout::ControlItem
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6596)), TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(6671)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6682)), TypeDefinitionIndex(TypeDefinitionIndex(6683)), TypeDefinitionIndex(TypeDefinitionIndex(6699)), TypeDefinitionIndex(TypeDefinitionIndex(6701)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 2598 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 3113 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 3114 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6597)) CS Name: ::InputControlLayout::ControlItem
 struct CORDL_TYPE __InputControlLayout__ControlItem {
 public:
   // Declarations
@@ -666,7 +666,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6598))
 // CS Name: ::InputControlLayout::Builder::ControlBuilder::<>c*
 class CORDL_TYPE __InputControlLayout__Builder__ControlBuilder____c : public ::System::Object {
@@ -718,7 +718,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputControlL
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6599))
 // CS Name: ::InputControlLayout::Builder::ControlBuilder
 struct CORDL_TYPE __InputControlLayout__Builder__ControlBuilder {
@@ -815,40 +815,43 @@ static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Builder__Control
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6600)) CS Name: ::InputControlLayout::Builder*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6667)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6600)) CS Name: ::InputControlLayout::Builder*
 class CORDL_TYPE __InputControlLayout__Builder : public ::System::Object {
 public:
   // Declarations
   using ControlBuilder = ::GlobalNamespace::__InputControlLayout__Builder__ControlBuilder;
 
   /// @brief Field <name>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__name_k__BackingField, put = __set__name_k__BackingField))::StringW _name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__name_k__BackingField, put = __cordl_internal_set__name_k__BackingField))::StringW _name_k__BackingField;
 
   /// @brief Field <displayName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__displayName_k__BackingField, put = __set__displayName_k__BackingField))::StringW _displayName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__displayName_k__BackingField, put = __cordl_internal_set__displayName_k__BackingField))::StringW _displayName_k__BackingField;
 
   /// @brief Field <type>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__type_k__BackingField, put = __set__type_k__BackingField))::System::Type* _type_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__type_k__BackingField, put = __cordl_internal_set__type_k__BackingField))::System::Type* _type_k__BackingField;
 
   /// @brief Field <stateFormat>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__stateFormat_k__BackingField, put = __set__stateFormat_k__BackingField))::UnityEngine::InputSystem::Utilities::FourCC _stateFormat_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__stateFormat_k__BackingField,
+                      put = __cordl_internal_set__stateFormat_k__BackingField))::UnityEngine::InputSystem::Utilities::FourCC _stateFormat_k__BackingField;
 
   /// @brief Field <stateSizeInBytes>k__BackingField, offset 0x2c, size 0x4
-  __declspec(property(get = __get__stateSizeInBytes_k__BackingField, put = __set__stateSizeInBytes_k__BackingField)) int32_t _stateSizeInBytes_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__stateSizeInBytes_k__BackingField, put = __cordl_internal_set__stateSizeInBytes_k__BackingField)) int32_t _stateSizeInBytes_k__BackingField;
 
   /// @brief Field m_ExtendsLayout, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_ExtendsLayout, put = __set_m_ExtendsLayout))::StringW m_ExtendsLayout;
+  __declspec(property(get = __cordl_internal_get_m_ExtendsLayout, put = __cordl_internal_set_m_ExtendsLayout))::StringW m_ExtendsLayout;
 
   /// @brief Field <updateBeforeRender>k__BackingField, offset 0x38, size 0x2
-  __declspec(property(get = __get__updateBeforeRender_k__BackingField, put = __set__updateBeforeRender_k__BackingField))::System::Nullable_1<bool> _updateBeforeRender_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__updateBeforeRender_k__BackingField,
+                      put = __cordl_internal_set__updateBeforeRender_k__BackingField))::System::Nullable_1<bool> _updateBeforeRender_k__BackingField;
 
   /// @brief Field m_ControlCount, offset 0x3c, size 0x4
-  __declspec(property(get = __get_m_ControlCount, put = __set_m_ControlCount)) int32_t m_ControlCount;
+  __declspec(property(get = __cordl_internal_get_m_ControlCount, put = __cordl_internal_set_m_ControlCount)) int32_t m_ControlCount;
 
   /// @brief Field m_Controls, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_Controls, put = __set_m_Controls))::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem,
-                                                                               ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> m_Controls;
+  __declspec(property(get = __cordl_internal_get_m_Controls,
+                      put = __cordl_internal_set_m_Controls))::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem,
+                                                                      ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> m_Controls;
 
   __declspec(property(get = get_name, put = set_name))::StringW name;
 
@@ -866,61 +869,62 @@ public:
 
   __declspec(property(get = get_controls))::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem> controls;
 
-  constexpr ::StringW& __get__name_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__name_k__BackingField();
 
-  constexpr ::StringW const& __get__name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__name_k__BackingField() const;
 
-  constexpr void __set__name_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__name_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__displayName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__displayName_k__BackingField();
 
-  constexpr ::StringW const& __get__displayName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__displayName_k__BackingField() const;
 
-  constexpr void __set__displayName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__displayName_k__BackingField(::StringW value);
 
-  constexpr ::System::Type*& __get__type_k__BackingField();
+  constexpr ::System::Type*& __cordl_internal_get__type_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__type_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__type_k__BackingField() const;
 
-  constexpr void __set__type_k__BackingField(::System::Type* value);
+  constexpr void __cordl_internal_set__type_k__BackingField(::System::Type* value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::FourCC& __get__stateFormat_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Utilities::FourCC& __cordl_internal_get__stateFormat_k__BackingField();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::FourCC const& __get__stateFormat_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::FourCC const& __cordl_internal_get__stateFormat_k__BackingField() const;
 
-  constexpr void __set__stateFormat_k__BackingField(::UnityEngine::InputSystem::Utilities::FourCC value);
+  constexpr void __cordl_internal_set__stateFormat_k__BackingField(::UnityEngine::InputSystem::Utilities::FourCC value);
 
-  constexpr int32_t& __get__stateSizeInBytes_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__stateSizeInBytes_k__BackingField();
 
-  constexpr int32_t const& __get__stateSizeInBytes_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__stateSizeInBytes_k__BackingField() const;
 
-  constexpr void __set__stateSizeInBytes_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__stateSizeInBytes_k__BackingField(int32_t value);
 
-  constexpr ::StringW& __get_m_ExtendsLayout();
+  constexpr ::StringW& __cordl_internal_get_m_ExtendsLayout();
 
-  constexpr ::StringW const& __get_m_ExtendsLayout() const;
+  constexpr ::StringW const& __cordl_internal_get_m_ExtendsLayout() const;
 
-  constexpr void __set_m_ExtendsLayout(::StringW value);
+  constexpr void __cordl_internal_set_m_ExtendsLayout(::StringW value);
 
-  constexpr ::System::Nullable_1<bool>& __get__updateBeforeRender_k__BackingField();
+  constexpr ::System::Nullable_1<bool>& __cordl_internal_get__updateBeforeRender_k__BackingField();
 
-  constexpr ::System::Nullable_1<bool> const& __get__updateBeforeRender_k__BackingField() const;
+  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get__updateBeforeRender_k__BackingField() const;
 
-  constexpr void __set__updateBeforeRender_k__BackingField(::System::Nullable_1<bool> value);
+  constexpr void __cordl_internal_set__updateBeforeRender_k__BackingField(::System::Nullable_1<bool> value);
 
-  constexpr int32_t& __get_m_ControlCount();
+  constexpr int32_t& __cordl_internal_get_m_ControlCount();
 
-  constexpr int32_t const& __get_m_ControlCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_ControlCount() const;
 
-  constexpr void __set_m_ControlCount(int32_t value);
+  constexpr void __cordl_internal_set_m_ControlCount(int32_t value);
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*>& __get_m_Controls();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*>&
+  __cordl_internal_get_m_Controls();
 
   constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> const&
-  __get_m_Controls() const;
+  __cordl_internal_get_m_Controls() const;
 
-  constexpr void
-  __set_m_Controls(::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> value);
+  constexpr void __cordl_internal_set_m_Controls(
+      ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> value);
 
   /// @brief Method get_name, addr 0x2aff8dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
@@ -1068,7 +1072,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6601))
 // CS Name: ::InputControlLayout::Flags
 struct CORDL_TYPE __InputControlLayout__Flags {
@@ -1134,7 +1138,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6622))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6622))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6602))
 // CS Name: ::InputControlLayout::LayoutJsonNameAndDescriptorOnly
 struct CORDL_TYPE __InputControlLayout__LayoutJsonNameAndDescriptorOnly {
@@ -1183,7 +1187,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6603))
 // CS Name: ::InputControlLayout::LayoutJson::<>c*
 class CORDL_TYPE __InputControlLayout__LayoutJson____c : public ::System::Object {
@@ -1255,7 +1259,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputControlL
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6604))
 // CS Name: ::InputControlLayout::LayoutJson
 struct CORDL_TYPE __InputControlLayout__LayoutJson {
@@ -1369,7 +1373,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6605))
 // CS Name: ::InputControlLayout::ControlItemJson::<>c*
 class CORDL_TYPE __InputControlLayout__ControlItemJson____c : public ::System::Object {
@@ -1471,7 +1475,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputControlL
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6606))
 // CS Name: ::InputControlLayout::ControlItemJson*
 class CORDL_TYPE __InputControlLayout__ControlItemJson : public ::System::Object {
@@ -1480,211 +1484,211 @@ public:
   using __c = ::GlobalNamespace::__InputControlLayout__ControlItemJson____c;
 
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field layout, offset 0x18, size 0x8
-  __declspec(property(get = __get_layout, put = __set_layout))::StringW layout;
+  __declspec(property(get = __cordl_internal_get_layout, put = __cordl_internal_set_layout))::StringW layout;
 
   /// @brief Field variants, offset 0x20, size 0x8
-  __declspec(property(get = __get_variants, put = __set_variants))::StringW variants;
+  __declspec(property(get = __cordl_internal_get_variants, put = __cordl_internal_set_variants))::StringW variants;
 
   /// @brief Field usage, offset 0x28, size 0x8
-  __declspec(property(get = __get_usage, put = __set_usage))::StringW usage;
+  __declspec(property(get = __cordl_internal_get_usage, put = __cordl_internal_set_usage))::StringW usage;
 
   /// @brief Field alias, offset 0x30, size 0x8
-  __declspec(property(get = __get_alias, put = __set_alias))::StringW alias;
+  __declspec(property(get = __cordl_internal_get_alias, put = __cordl_internal_set_alias))::StringW alias;
 
   /// @brief Field useStateFrom, offset 0x38, size 0x8
-  __declspec(property(get = __get_useStateFrom, put = __set_useStateFrom))::StringW useStateFrom;
+  __declspec(property(get = __cordl_internal_get_useStateFrom, put = __cordl_internal_set_useStateFrom))::StringW useStateFrom;
 
   /// @brief Field offset, offset 0x40, size 0x4
-  __declspec(property(get = __get_offset, put = __set_offset)) uint32_t offset;
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset)) uint32_t offset;
 
   /// @brief Field bit, offset 0x44, size 0x4
-  __declspec(property(get = __get_bit, put = __set_bit)) uint32_t bit;
+  __declspec(property(get = __cordl_internal_get_bit, put = __cordl_internal_set_bit)) uint32_t bit;
 
   /// @brief Field sizeInBits, offset 0x48, size 0x4
-  __declspec(property(get = __get_sizeInBits, put = __set_sizeInBits)) uint32_t sizeInBits;
+  __declspec(property(get = __cordl_internal_get_sizeInBits, put = __cordl_internal_set_sizeInBits)) uint32_t sizeInBits;
 
   /// @brief Field format, offset 0x50, size 0x8
-  __declspec(property(get = __get_format, put = __set_format))::StringW format;
+  __declspec(property(get = __cordl_internal_get_format, put = __cordl_internal_set_format))::StringW format;
 
   /// @brief Field arraySize, offset 0x58, size 0x4
-  __declspec(property(get = __get_arraySize, put = __set_arraySize)) int32_t arraySize;
+  __declspec(property(get = __cordl_internal_get_arraySize, put = __cordl_internal_set_arraySize)) int32_t arraySize;
 
   /// @brief Field usages, offset 0x60, size 0x8
-  __declspec(property(get = __get_usages, put = __set_usages))::ArrayW<::StringW, ::Array<::StringW>*> usages;
+  __declspec(property(get = __cordl_internal_get_usages, put = __cordl_internal_set_usages))::ArrayW<::StringW, ::Array<::StringW>*> usages;
 
   /// @brief Field aliases, offset 0x68, size 0x8
-  __declspec(property(get = __get_aliases, put = __set_aliases))::ArrayW<::StringW, ::Array<::StringW>*> aliases;
+  __declspec(property(get = __cordl_internal_get_aliases, put = __cordl_internal_set_aliases))::ArrayW<::StringW, ::Array<::StringW>*> aliases;
 
   /// @brief Field parameters, offset 0x70, size 0x8
-  __declspec(property(get = __get_parameters, put = __set_parameters))::StringW parameters;
+  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::StringW parameters;
 
   /// @brief Field processors, offset 0x78, size 0x8
-  __declspec(property(get = __get_processors, put = __set_processors))::StringW processors;
+  __declspec(property(get = __cordl_internal_get_processors, put = __cordl_internal_set_processors))::StringW processors;
 
   /// @brief Field displayName, offset 0x80, size 0x8
-  __declspec(property(get = __get_displayName, put = __set_displayName))::StringW displayName;
+  __declspec(property(get = __cordl_internal_get_displayName, put = __cordl_internal_set_displayName))::StringW displayName;
 
   /// @brief Field shortDisplayName, offset 0x88, size 0x8
-  __declspec(property(get = __get_shortDisplayName, put = __set_shortDisplayName))::StringW shortDisplayName;
+  __declspec(property(get = __cordl_internal_get_shortDisplayName, put = __cordl_internal_set_shortDisplayName))::StringW shortDisplayName;
 
   /// @brief Field noisy, offset 0x90, size 0x1
-  __declspec(property(get = __get_noisy, put = __set_noisy)) bool noisy;
+  __declspec(property(get = __cordl_internal_get_noisy, put = __cordl_internal_set_noisy)) bool noisy;
 
   /// @brief Field dontReset, offset 0x91, size 0x1
-  __declspec(property(get = __get_dontReset, put = __set_dontReset)) bool dontReset;
+  __declspec(property(get = __cordl_internal_get_dontReset, put = __cordl_internal_set_dontReset)) bool dontReset;
 
   /// @brief Field synthetic, offset 0x92, size 0x1
-  __declspec(property(get = __get_synthetic, put = __set_synthetic)) bool synthetic;
+  __declspec(property(get = __cordl_internal_get_synthetic, put = __cordl_internal_set_synthetic)) bool synthetic;
 
   /// @brief Field defaultState, offset 0x98, size 0x8
-  __declspec(property(get = __get_defaultState, put = __set_defaultState))::StringW defaultState;
+  __declspec(property(get = __cordl_internal_get_defaultState, put = __cordl_internal_set_defaultState))::StringW defaultState;
 
   /// @brief Field minValue, offset 0xa0, size 0x8
-  __declspec(property(get = __get_minValue, put = __set_minValue))::StringW minValue;
+  __declspec(property(get = __cordl_internal_get_minValue, put = __cordl_internal_set_minValue))::StringW minValue;
 
   /// @brief Field maxValue, offset 0xa8, size 0x8
-  __declspec(property(get = __get_maxValue, put = __set_maxValue))::StringW maxValue;
+  __declspec(property(get = __cordl_internal_get_maxValue, put = __cordl_internal_set_maxValue))::StringW maxValue;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::StringW& __get_layout();
+  constexpr ::StringW& __cordl_internal_get_layout();
 
-  constexpr ::StringW const& __get_layout() const;
+  constexpr ::StringW const& __cordl_internal_get_layout() const;
 
-  constexpr void __set_layout(::StringW value);
+  constexpr void __cordl_internal_set_layout(::StringW value);
 
-  constexpr ::StringW& __get_variants();
+  constexpr ::StringW& __cordl_internal_get_variants();
 
-  constexpr ::StringW const& __get_variants() const;
+  constexpr ::StringW const& __cordl_internal_get_variants() const;
 
-  constexpr void __set_variants(::StringW value);
+  constexpr void __cordl_internal_set_variants(::StringW value);
 
-  constexpr ::StringW& __get_usage();
+  constexpr ::StringW& __cordl_internal_get_usage();
 
-  constexpr ::StringW const& __get_usage() const;
+  constexpr ::StringW const& __cordl_internal_get_usage() const;
 
-  constexpr void __set_usage(::StringW value);
+  constexpr void __cordl_internal_set_usage(::StringW value);
 
-  constexpr ::StringW& __get_alias();
+  constexpr ::StringW& __cordl_internal_get_alias();
 
-  constexpr ::StringW const& __get_alias() const;
+  constexpr ::StringW const& __cordl_internal_get_alias() const;
 
-  constexpr void __set_alias(::StringW value);
+  constexpr void __cordl_internal_set_alias(::StringW value);
 
-  constexpr ::StringW& __get_useStateFrom();
+  constexpr ::StringW& __cordl_internal_get_useStateFrom();
 
-  constexpr ::StringW const& __get_useStateFrom() const;
+  constexpr ::StringW const& __cordl_internal_get_useStateFrom() const;
 
-  constexpr void __set_useStateFrom(::StringW value);
+  constexpr void __cordl_internal_set_useStateFrom(::StringW value);
 
-  constexpr uint32_t& __get_offset();
+  constexpr uint32_t& __cordl_internal_get_offset();
 
-  constexpr uint32_t const& __get_offset() const;
+  constexpr uint32_t const& __cordl_internal_get_offset() const;
 
-  constexpr void __set_offset(uint32_t value);
+  constexpr void __cordl_internal_set_offset(uint32_t value);
 
-  constexpr uint32_t& __get_bit();
+  constexpr uint32_t& __cordl_internal_get_bit();
 
-  constexpr uint32_t const& __get_bit() const;
+  constexpr uint32_t const& __cordl_internal_get_bit() const;
 
-  constexpr void __set_bit(uint32_t value);
+  constexpr void __cordl_internal_set_bit(uint32_t value);
 
-  constexpr uint32_t& __get_sizeInBits();
+  constexpr uint32_t& __cordl_internal_get_sizeInBits();
 
-  constexpr uint32_t const& __get_sizeInBits() const;
+  constexpr uint32_t const& __cordl_internal_get_sizeInBits() const;
 
-  constexpr void __set_sizeInBits(uint32_t value);
+  constexpr void __cordl_internal_set_sizeInBits(uint32_t value);
 
-  constexpr ::StringW& __get_format();
+  constexpr ::StringW& __cordl_internal_get_format();
 
-  constexpr ::StringW const& __get_format() const;
+  constexpr ::StringW const& __cordl_internal_get_format() const;
 
-  constexpr void __set_format(::StringW value);
+  constexpr void __cordl_internal_set_format(::StringW value);
 
-  constexpr int32_t& __get_arraySize();
+  constexpr int32_t& __cordl_internal_get_arraySize();
 
-  constexpr int32_t const& __get_arraySize() const;
+  constexpr int32_t const& __cordl_internal_get_arraySize() const;
 
-  constexpr void __set_arraySize(int32_t value);
+  constexpr void __cordl_internal_set_arraySize(int32_t value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_usages();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_usages();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_usages() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_usages() const;
 
-  constexpr void __set_usages(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_usages(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_aliases();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_aliases();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_aliases() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_aliases() const;
 
-  constexpr void __set_aliases(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_aliases(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::StringW& __get_parameters();
+  constexpr ::StringW& __cordl_internal_get_parameters();
 
-  constexpr ::StringW const& __get_parameters() const;
+  constexpr ::StringW const& __cordl_internal_get_parameters() const;
 
-  constexpr void __set_parameters(::StringW value);
+  constexpr void __cordl_internal_set_parameters(::StringW value);
 
-  constexpr ::StringW& __get_processors();
+  constexpr ::StringW& __cordl_internal_get_processors();
 
-  constexpr ::StringW const& __get_processors() const;
+  constexpr ::StringW const& __cordl_internal_get_processors() const;
 
-  constexpr void __set_processors(::StringW value);
+  constexpr void __cordl_internal_set_processors(::StringW value);
 
-  constexpr ::StringW& __get_displayName();
+  constexpr ::StringW& __cordl_internal_get_displayName();
 
-  constexpr ::StringW const& __get_displayName() const;
+  constexpr ::StringW const& __cordl_internal_get_displayName() const;
 
-  constexpr void __set_displayName(::StringW value);
+  constexpr void __cordl_internal_set_displayName(::StringW value);
 
-  constexpr ::StringW& __get_shortDisplayName();
+  constexpr ::StringW& __cordl_internal_get_shortDisplayName();
 
-  constexpr ::StringW const& __get_shortDisplayName() const;
+  constexpr ::StringW const& __cordl_internal_get_shortDisplayName() const;
 
-  constexpr void __set_shortDisplayName(::StringW value);
+  constexpr void __cordl_internal_set_shortDisplayName(::StringW value);
 
-  constexpr bool& __get_noisy();
+  constexpr bool& __cordl_internal_get_noisy();
 
-  constexpr bool const& __get_noisy() const;
+  constexpr bool const& __cordl_internal_get_noisy() const;
 
-  constexpr void __set_noisy(bool value);
+  constexpr void __cordl_internal_set_noisy(bool value);
 
-  constexpr bool& __get_dontReset();
+  constexpr bool& __cordl_internal_get_dontReset();
 
-  constexpr bool const& __get_dontReset() const;
+  constexpr bool const& __cordl_internal_get_dontReset() const;
 
-  constexpr void __set_dontReset(bool value);
+  constexpr void __cordl_internal_set_dontReset(bool value);
 
-  constexpr bool& __get_synthetic();
+  constexpr bool& __cordl_internal_get_synthetic();
 
-  constexpr bool const& __get_synthetic() const;
+  constexpr bool const& __cordl_internal_get_synthetic() const;
 
-  constexpr void __set_synthetic(bool value);
+  constexpr void __cordl_internal_set_synthetic(bool value);
 
-  constexpr ::StringW& __get_defaultState();
+  constexpr ::StringW& __cordl_internal_get_defaultState();
 
-  constexpr ::StringW const& __get_defaultState() const;
+  constexpr ::StringW const& __cordl_internal_get_defaultState() const;
 
-  constexpr void __set_defaultState(::StringW value);
+  constexpr void __cordl_internal_set_defaultState(::StringW value);
 
-  constexpr ::StringW& __get_minValue();
+  constexpr ::StringW& __cordl_internal_get_minValue();
 
-  constexpr ::StringW const& __get_minValue() const;
+  constexpr ::StringW const& __cordl_internal_get_minValue() const;
 
-  constexpr void __set_minValue(::StringW value);
+  constexpr void __cordl_internal_set_minValue(::StringW value);
 
-  constexpr ::StringW& __get_maxValue();
+  constexpr ::StringW& __cordl_internal_get_maxValue();
 
-  constexpr ::StringW const& __get_maxValue() const;
+  constexpr ::StringW const& __cordl_internal_get_maxValue() const;
 
-  constexpr void __set_maxValue(::StringW value);
+  constexpr void __cordl_internal_set_maxValue(::StringW value);
 
   static inline ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItemJson* New_ctor();
 
@@ -1837,7 +1841,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(6625))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6625)), TypeDefinitionIndex(TypeDefinitionIndex(6671))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6607))
 // CS Name: ::InputControlLayout::Collection::LayoutMatcher
 struct CORDL_TYPE __InputControlLayout__Collection__LayoutMatcher {
@@ -1875,7 +1879,7 @@ static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Collection__Layo
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6608))
 // CS Name: ::InputControlLayout::Collection::PrecompiledLayout
 struct CORDL_TYPE __InputControlLayout__Collection__PrecompiledLayout {
@@ -1912,7 +1916,7 @@ static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Collection__Prec
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6610))
 // CS Name: ::InputControlLayout::Collection
 struct CORDL_TYPE __InputControlLayout__Collection {
@@ -2062,38 +2066,38 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6610)), TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6610)), TypeDefinitionIndex(TypeDefinitionIndex(6671))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6609))
 // CS Name: ::InputControlLayout::Collection::<GetBaseLayouts>d__24*
 class CORDL_TYPE __InputControlLayout__Collection___GetBaseLayouts_d__24 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x10
-  __declspec(property(get = __get___2__current, put = __set___2__current))::UnityEngine::InputSystem::Utilities::InternedString __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityEngine::InputSystem::Utilities::InternedString __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x28, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field includeSelf, offset 0x2c, size 0x1
-  __declspec(property(get = __get_includeSelf, put = __set_includeSelf)) bool includeSelf;
+  __declspec(property(get = __cordl_internal_get_includeSelf, put = __cordl_internal_set_includeSelf)) bool includeSelf;
 
   /// @brief Field <>3__includeSelf, offset 0x2d, size 0x1
-  __declspec(property(get = __get___3__includeSelf, put = __set___3__includeSelf)) bool __3__includeSelf;
+  __declspec(property(get = __cordl_internal_get___3__includeSelf, put = __cordl_internal_set___3__includeSelf)) bool __3__includeSelf;
 
   /// @brief Field layout, offset 0x30, size 0x10
-  __declspec(property(get = __get_layout, put = __set_layout))::UnityEngine::InputSystem::Utilities::InternedString layout;
+  __declspec(property(get = __cordl_internal_get_layout, put = __cordl_internal_set_layout))::UnityEngine::InputSystem::Utilities::InternedString layout;
 
   /// @brief Field <>3__layout, offset 0x40, size 0x10
-  __declspec(property(get = __get___3__layout, put = __set___3__layout))::UnityEngine::InputSystem::Utilities::InternedString __3__layout;
+  __declspec(property(get = __cordl_internal_get___3__layout, put = __cordl_internal_set___3__layout))::UnityEngine::InputSystem::Utilities::InternedString __3__layout;
 
   /// @brief Field <>4__this, offset 0x50, size 0x40
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection __4__this;
 
   /// @brief Field <>3__<>4__this, offset 0x90, size 0x40
-  __declspec(property(get = __get___3____4__this, put = __set___3____4__this))::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection __3____4__this;
+  __declspec(property(get = __cordl_internal_get___3____4__this, put = __cordl_internal_set___3____4__this))::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection __3____4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_Utilities_InternedString__get_Current))::UnityEngine::InputSystem::Utilities::InternedString
       System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_Utilities_InternedString__Current;
@@ -2132,59 +2136,59 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __get___2__current();
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get___2__current();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __get___2__current() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::UnityEngine::InputSystem::Utilities::InternedString value);
+  constexpr void __cordl_internal_set___2__current(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr bool& __get_includeSelf();
+  constexpr bool& __cordl_internal_get_includeSelf();
 
-  constexpr bool const& __get_includeSelf() const;
+  constexpr bool const& __cordl_internal_get_includeSelf() const;
 
-  constexpr void __set_includeSelf(bool value);
+  constexpr void __cordl_internal_set_includeSelf(bool value);
 
-  constexpr bool& __get___3__includeSelf();
+  constexpr bool& __cordl_internal_get___3__includeSelf();
 
-  constexpr bool const& __get___3__includeSelf() const;
+  constexpr bool const& __cordl_internal_get___3__includeSelf() const;
 
-  constexpr void __set___3__includeSelf(bool value);
+  constexpr void __cordl_internal_set___3__includeSelf(bool value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __get_layout();
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get_layout();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __get_layout() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __cordl_internal_get_layout() const;
 
-  constexpr void __set_layout(::UnityEngine::InputSystem::Utilities::InternedString value);
+  constexpr void __cordl_internal_set_layout(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __get___3__layout();
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get___3__layout();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __get___3__layout() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __cordl_internal_get___3__layout() const;
 
-  constexpr void __set___3__layout(::UnityEngine::InputSystem::Utilities::InternedString value);
+  constexpr void __cordl_internal_set___3__layout(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection& __get___4__this();
+  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection& __cordl_internal_get___4__this();
 
-  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection const& __get___4__this() const;
+  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection value);
 
-  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection& __get___3____4__this();
+  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection& __cordl_internal_get___3____4__this();
 
-  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection const& __get___3____4__this() const;
+  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection const& __cordl_internal_get___3____4__this() const;
 
-  constexpr void __set___3____4__this(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection value);
+  constexpr void __cordl_internal_set___3____4__this(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Collection value);
 
   static inline ::GlobalNamespace::__InputControlLayout__Collection___GetBaseLayouts_d__24* New_ctor(int32_t __1__state);
 
@@ -2282,22 +2286,22 @@ static_assert(offsetof(::GlobalNamespace::__InputControlLayout__Collection___Get
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6611))
 // CS Name: ::InputControlLayout::LayoutNotFoundException*
 class CORDL_TYPE __InputControlLayout__LayoutNotFoundException : public ::System::Exception {
 public:
   // Declarations
   /// @brief Field <layout>k__BackingField, offset 0x90, size 0x8
-  __declspec(property(get = __get__layout_k__BackingField, put = __set__layout_k__BackingField))::StringW _layout_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__layout_k__BackingField, put = __cordl_internal_set__layout_k__BackingField))::StringW _layout_k__BackingField;
 
   __declspec(property(get = get_layout))::StringW layout;
 
-  constexpr ::StringW& __get__layout_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__layout_k__BackingField();
 
-  constexpr ::StringW const& __get__layout_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__layout_k__BackingField() const;
 
-  constexpr void __set__layout_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__layout_k__BackingField(::StringW value);
 
   /// @brief Method get_layout, addr 0x2b0329c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_layout();
@@ -2357,7 +2361,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6612))
 // CS Name: ::InputControlLayout::Cache
 struct CORDL_TYPE __InputControlLayout__Cache {
@@ -2396,7 +2400,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout
 // SizeInfo { instance_size: 1, native_size: 4, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6613))
 // CS Name: ::InputControlLayout::CacheRefInstance
 struct CORDL_TYPE __InputControlLayout__CacheRefInstance {
@@ -2436,7 +2440,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputControlLayout
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6614))
 // CS Name: ::InputControlLayout::<>c*
 class CORDL_TYPE __InputControlLayout____c : public ::System::Object {
@@ -2508,10 +2512,10 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layout
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(6601)), TypeDefinitionIndex(TypeDefinitionIndex(6610)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6612)), TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(6669), inst: 2598 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6615)) CS Name: ::UnityEngine.InputSystem.Layouts::InputControlLayout*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6601)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6610)), TypeDefinitionIndex(TypeDefinitionIndex(6612)), TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(6669)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6671)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6669), inst: 2598 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6615)) CS Name: ::UnityEngine.InputSystem.Layouts::InputControlLayout*
 class CORDL_TYPE InputControlLayout : public ::System::Object {
 public:
   // Declarations
@@ -2538,46 +2542,49 @@ public:
   using ControlItem = ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem;
 
   /// @brief Field m_Name, offset 0x10, size 0x10
-  __declspec(property(get = __get_m_Name, put = __set_m_Name))::UnityEngine::InputSystem::Utilities::InternedString m_Name;
+  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name))::UnityEngine::InputSystem::Utilities::InternedString m_Name;
 
   /// @brief Field m_Type, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Type, put = __set_m_Type))::System::Type* m_Type;
+  __declspec(property(get = __cordl_internal_get_m_Type, put = __cordl_internal_set_m_Type))::System::Type* m_Type;
 
   /// @brief Field m_Variants, offset 0x28, size 0x10
-  __declspec(property(get = __get_m_Variants, put = __set_m_Variants))::UnityEngine::InputSystem::Utilities::InternedString m_Variants;
+  __declspec(property(get = __cordl_internal_get_m_Variants, put = __cordl_internal_set_m_Variants))::UnityEngine::InputSystem::Utilities::InternedString m_Variants;
 
   /// @brief Field m_StateFormat, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_StateFormat, put = __set_m_StateFormat))::UnityEngine::InputSystem::Utilities::FourCC m_StateFormat;
+  __declspec(property(get = __cordl_internal_get_m_StateFormat, put = __cordl_internal_set_m_StateFormat))::UnityEngine::InputSystem::Utilities::FourCC m_StateFormat;
 
   /// @brief Field m_StateSizeInBytes, offset 0x3c, size 0x4
-  __declspec(property(get = __get_m_StateSizeInBytes, put = __set_m_StateSizeInBytes)) int32_t m_StateSizeInBytes;
+  __declspec(property(get = __cordl_internal_get_m_StateSizeInBytes, put = __cordl_internal_set_m_StateSizeInBytes)) int32_t m_StateSizeInBytes;
 
   /// @brief Field m_UpdateBeforeRender, offset 0x40, size 0x2
-  __declspec(property(get = __get_m_UpdateBeforeRender, put = __set_m_UpdateBeforeRender))::System::Nullable_1<bool> m_UpdateBeforeRender;
+  __declspec(property(get = __cordl_internal_get_m_UpdateBeforeRender, put = __cordl_internal_set_m_UpdateBeforeRender))::System::Nullable_1<bool> m_UpdateBeforeRender;
 
   /// @brief Field m_BaseLayouts, offset 0x48, size 0x20
-  __declspec(property(get = __get_m_BaseLayouts, put = __set_m_BaseLayouts))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> m_BaseLayouts;
+  __declspec(property(get = __cordl_internal_get_m_BaseLayouts,
+                      put = __cordl_internal_set_m_BaseLayouts))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> m_BaseLayouts;
 
   /// @brief Field m_AppliedOverrides, offset 0x68, size 0x20
-  __declspec(property(get = __get_m_AppliedOverrides,
-                      put = __set_m_AppliedOverrides))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> m_AppliedOverrides;
+  __declspec(property(get = __cordl_internal_get_m_AppliedOverrides,
+                      put = __cordl_internal_set_m_AppliedOverrides))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> m_AppliedOverrides;
 
   /// @brief Field m_CommonUsages, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_CommonUsages,
-                      put = __set_m_CommonUsages))::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> m_CommonUsages;
+  __declspec(property(
+      get = __cordl_internal_get_m_CommonUsages,
+      put = __cordl_internal_set_m_CommonUsages))::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> m_CommonUsages;
 
   /// @brief Field m_Controls, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_Controls, put = __set_m_Controls))::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem,
-                                                                               ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> m_Controls;
+  __declspec(property(get = __cordl_internal_get_m_Controls,
+                      put = __cordl_internal_set_m_Controls))::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem,
+                                                                      ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> m_Controls;
 
   /// @brief Field m_DisplayName, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_DisplayName, put = __set_m_DisplayName))::StringW m_DisplayName;
+  __declspec(property(get = __cordl_internal_get_m_DisplayName, put = __cordl_internal_set_m_DisplayName))::StringW m_DisplayName;
 
   /// @brief Field m_Description, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_Description, put = __set_m_Description))::StringW m_Description;
+  __declspec(property(get = __cordl_internal_get_m_Description, put = __cordl_internal_set_m_Description))::StringW m_Description;
 
   /// @brief Field m_Flags, offset 0xa8, size 0x4
-  __declspec(property(get = __get_m_Flags, put = __set_m_Flags))::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags m_Flags;
+  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags))::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags m_Flags;
 
   /// @brief Field s_DefaultVariant, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_s_DefaultVariant, put = setStaticF_s_DefaultVariant))::UnityEngine::InputSystem::Utilities::InternedString s_DefaultVariant;
@@ -2629,85 +2636,86 @@ public:
 
   __declspec(property(get = get_Item))::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem Item[];
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __get_m_Name();
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get_m_Name();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __get_m_Name() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __cordl_internal_get_m_Name() const;
 
-  constexpr void __set_m_Name(::UnityEngine::InputSystem::Utilities::InternedString value);
+  constexpr void __cordl_internal_set_m_Name(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  constexpr ::System::Type*& __get_m_Type();
+  constexpr ::System::Type*& __cordl_internal_get_m_Type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_m_Type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_Type() const;
 
-  constexpr void __set_m_Type(::System::Type* value);
+  constexpr void __cordl_internal_set_m_Type(::System::Type* value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __get_m_Variants();
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get_m_Variants();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __get_m_Variants() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __cordl_internal_get_m_Variants() const;
 
-  constexpr void __set_m_Variants(::UnityEngine::InputSystem::Utilities::InternedString value);
+  constexpr void __cordl_internal_set_m_Variants(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::FourCC& __get_m_StateFormat();
+  constexpr ::UnityEngine::InputSystem::Utilities::FourCC& __cordl_internal_get_m_StateFormat();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::FourCC const& __get_m_StateFormat() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::FourCC const& __cordl_internal_get_m_StateFormat() const;
 
-  constexpr void __set_m_StateFormat(::UnityEngine::InputSystem::Utilities::FourCC value);
+  constexpr void __cordl_internal_set_m_StateFormat(::UnityEngine::InputSystem::Utilities::FourCC value);
 
-  constexpr int32_t& __get_m_StateSizeInBytes();
+  constexpr int32_t& __cordl_internal_get_m_StateSizeInBytes();
 
-  constexpr int32_t const& __get_m_StateSizeInBytes() const;
+  constexpr int32_t const& __cordl_internal_get_m_StateSizeInBytes() const;
 
-  constexpr void __set_m_StateSizeInBytes(int32_t value);
+  constexpr void __cordl_internal_set_m_StateSizeInBytes(int32_t value);
 
-  constexpr ::System::Nullable_1<bool>& __get_m_UpdateBeforeRender();
+  constexpr ::System::Nullable_1<bool>& __cordl_internal_get_m_UpdateBeforeRender();
 
-  constexpr ::System::Nullable_1<bool> const& __get_m_UpdateBeforeRender() const;
+  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get_m_UpdateBeforeRender() const;
 
-  constexpr void __set_m_UpdateBeforeRender(::System::Nullable_1<bool> value);
+  constexpr void __cordl_internal_set_m_UpdateBeforeRender(::System::Nullable_1<bool> value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString>& __get_m_BaseLayouts();
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString>& __cordl_internal_get_m_BaseLayouts();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> const& __get_m_BaseLayouts() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> const& __cordl_internal_get_m_BaseLayouts() const;
 
-  constexpr void __set_m_BaseLayouts(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> value);
+  constexpr void __cordl_internal_set_m_BaseLayouts(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString>& __get_m_AppliedOverrides();
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString>& __cordl_internal_get_m_AppliedOverrides();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> const& __get_m_AppliedOverrides() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> const& __cordl_internal_get_m_AppliedOverrides() const;
 
-  constexpr void __set_m_AppliedOverrides(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> value);
+  constexpr void __cordl_internal_set_m_AppliedOverrides(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString> value);
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*>& __get_m_CommonUsages();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*>& __cordl_internal_get_m_CommonUsages();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> const& __get_m_CommonUsages() const;
+  constexpr ::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> const& __cordl_internal_get_m_CommonUsages() const;
 
-  constexpr void __set_m_CommonUsages(::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> value);
+  constexpr void __cordl_internal_set_m_CommonUsages(::ArrayW<::UnityEngine::InputSystem::Utilities::InternedString, ::Array<::UnityEngine::InputSystem::Utilities::InternedString>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*>& __get_m_Controls();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*>&
+  __cordl_internal_get_m_Controls();
 
   constexpr ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> const&
-  __get_m_Controls() const;
+  __cordl_internal_get_m_Controls() const;
 
-  constexpr void
-  __set_m_Controls(::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> value);
+  constexpr void __cordl_internal_set_m_Controls(
+      ::ArrayW<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem, ::Array<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*> value);
 
-  constexpr ::StringW& __get_m_DisplayName();
+  constexpr ::StringW& __cordl_internal_get_m_DisplayName();
 
-  constexpr ::StringW const& __get_m_DisplayName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_DisplayName() const;
 
-  constexpr void __set_m_DisplayName(::StringW value);
+  constexpr void __cordl_internal_set_m_DisplayName(::StringW value);
 
-  constexpr ::StringW& __get_m_Description();
+  constexpr ::StringW& __cordl_internal_get_m_Description();
 
-  constexpr ::StringW const& __get_m_Description() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Description() const;
 
-  constexpr void __set_m_Description(::StringW value);
+  constexpr void __cordl_internal_set_m_Description(::StringW value);
 
-  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags& __get_m_Flags();
+  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags& __cordl_internal_get_m_Flags();
 
-  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags const& __get_m_Flags() const;
+  constexpr ::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags const& __cordl_internal_get_m_Flags() const;
 
-  constexpr void __set_m_Flags(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags value);
+  constexpr void __cordl_internal_set_m_Flags(::UnityEngine::InputSystem::Layouts::__InputControlLayout__Flags value);
 
   static inline void setStaticF_s_DefaultVariant(::UnityEngine::InputSystem::Utilities::InternedString value);
 

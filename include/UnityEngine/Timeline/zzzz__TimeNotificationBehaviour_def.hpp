@@ -65,7 +65,7 @@ MARK_VAL_T(::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEnt
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13906))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13906))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13910))
 // CS Name: ::TimeNotificationBehaviour::NotificationEntry
 struct CORDL_TYPE __TimeNotificationBehaviour__NotificationEntry {
@@ -129,7 +129,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__TimeNotificationBehaviour__Not
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13911))
 // CS Name: ::TimeNotificationBehaviour::<>c*
 class CORDL_TYPE __TimeNotificationBehaviour____c : public ::System::Object {
@@ -181,7 +181,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__TimeNot
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(10428))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10425)), TypeDefinitionIndex(TypeDefinitionIndex(10428))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13912))
 // CS Name: ::UnityEngine.Timeline::TimeNotificationBehaviour*
 class CORDL_TYPE TimeNotificationBehaviour : public ::UnityEngine::Playables::PlayableBehaviour {
@@ -192,43 +192,44 @@ public:
   using NotificationEntry = ::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry;
 
   /// @brief Field m_Notifications, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Notifications,
-                      put = __set_m_Notifications))::System::Collections::Generic::List_1<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry>* m_Notifications;
+  __declspec(property(get = __cordl_internal_get_m_Notifications,
+                      put = __cordl_internal_set_m_Notifications))::System::Collections::Generic::List_1<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry>* m_Notifications;
 
   /// @brief Field m_PreviousTime, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_PreviousTime, put = __set_m_PreviousTime)) double_t m_PreviousTime;
+  __declspec(property(get = __cordl_internal_get_m_PreviousTime, put = __cordl_internal_set_m_PreviousTime)) double_t m_PreviousTime;
 
   /// @brief Field m_NeedSortNotifications, offset 0x20, size 0x1
-  __declspec(property(get = __get_m_NeedSortNotifications, put = __set_m_NeedSortNotifications)) bool m_NeedSortNotifications;
+  __declspec(property(get = __cordl_internal_get_m_NeedSortNotifications, put = __cordl_internal_set_m_NeedSortNotifications)) bool m_NeedSortNotifications;
 
   /// @brief Field m_TimeSource, offset 0x28, size 0x10
-  __declspec(property(get = __get_m_TimeSource, put = __set_m_TimeSource))::UnityEngine::Playables::Playable m_TimeSource;
+  __declspec(property(get = __cordl_internal_get_m_TimeSource, put = __cordl_internal_set_m_TimeSource))::UnityEngine::Playables::Playable m_TimeSource;
 
   __declspec(property(put = set_timeSource))::UnityEngine::Playables::Playable timeSource;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry>*& __get_m_Notifications();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry>*& __cordl_internal_get_m_Notifications();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry>*> const& __get_m_Notifications() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry>*> const&
+  __cordl_internal_get_m_Notifications() const;
 
-  constexpr void __set_m_Notifications(::System::Collections::Generic::List_1<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry>* value);
+  constexpr void __cordl_internal_set_m_Notifications(::System::Collections::Generic::List_1<::UnityEngine::Timeline::__TimeNotificationBehaviour__NotificationEntry>* value);
 
-  constexpr double_t& __get_m_PreviousTime();
+  constexpr double_t& __cordl_internal_get_m_PreviousTime();
 
-  constexpr double_t const& __get_m_PreviousTime() const;
+  constexpr double_t const& __cordl_internal_get_m_PreviousTime() const;
 
-  constexpr void __set_m_PreviousTime(double_t value);
+  constexpr void __cordl_internal_set_m_PreviousTime(double_t value);
 
-  constexpr bool& __get_m_NeedSortNotifications();
+  constexpr bool& __cordl_internal_get_m_NeedSortNotifications();
 
-  constexpr bool const& __get_m_NeedSortNotifications() const;
+  constexpr bool const& __cordl_internal_get_m_NeedSortNotifications() const;
 
-  constexpr void __set_m_NeedSortNotifications(bool value);
+  constexpr void __cordl_internal_set_m_NeedSortNotifications(bool value);
 
-  constexpr ::UnityEngine::Playables::Playable& __get_m_TimeSource();
+  constexpr ::UnityEngine::Playables::Playable& __cordl_internal_get_m_TimeSource();
 
-  constexpr ::UnityEngine::Playables::Playable const& __get_m_TimeSource() const;
+  constexpr ::UnityEngine::Playables::Playable const& __cordl_internal_get_m_TimeSource() const;
 
-  constexpr void __set_m_TimeSource(::UnityEngine::Playables::Playable value);
+  constexpr void __cordl_internal_set_m_TimeSource(::UnityEngine::Playables::Playable value);
 
   /// @brief Method set_timeSource, addr 0x2c6d690, size 0x8, virtual false, abstract: false, final false
   inline void set_timeSource(::UnityEngine::Playables::Playable value);

@@ -16,20 +16,20 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5456))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5456))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5457))
 // CS Name: ::SelectableStateController`1<T>*
 class CORDL_TYPE SelectableStateController_1 : public ::GlobalNamespace::SelectableStateController {
 public:
   // Declarations
   /// @brief Field _component, offset 0x30, size 0x8
-  __declspec(property(get = __get__component, put = __set__component)) T _component;
+  __declspec(property(get = __cordl_internal_get__component, put = __cordl_internal_set__component)) T _component;
 
-  constexpr T& __get__component();
+  constexpr T& __cordl_internal_get__component();
 
-  constexpr T const& __get__component() const;
+  constexpr T const& __cordl_internal_get__component() const;
 
-  constexpr void __set__component(T value);
+  constexpr void __cordl_internal_set__component(T value);
 
   static inline ::GlobalNamespace::SelectableStateController_1<T>* New_ctor();
 

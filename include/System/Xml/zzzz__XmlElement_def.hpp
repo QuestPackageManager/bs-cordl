@@ -36,20 +36,20 @@ MARK_REF_PTR_T(::System::Xml::XmlElement);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11513))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11513))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11508))
 // CS Name: ::System.Xml::XmlElement*
 class CORDL_TYPE XmlElement : public ::System::Xml::XmlLinkedNode {
 public:
   // Declarations
   /// @brief Field name, offset 0x20, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::System::Xml::XmlName* name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::System::Xml::XmlName* name;
 
   /// @brief Field attributes, offset 0x28, size 0x8
-  __declspec(property(get = __get_attributes, put = __set_attributes))::System::Xml::XmlAttributeCollection* attributes;
+  __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes))::System::Xml::XmlAttributeCollection* attributes;
 
   /// @brief Field lastChild, offset 0x30, size 0x8
-  __declspec(property(get = __get_lastChild, put = __set_lastChild))::System::Xml::XmlLinkedNode* lastChild;
+  __declspec(property(get = __cordl_internal_get_lastChild, put = __cordl_internal_set_lastChild))::System::Xml::XmlLinkedNode* lastChild;
 
   __declspec(property(get = get_XmlName, put = set_XmlName))::System::Xml::XmlName* XmlName;
 
@@ -83,23 +83,23 @@ public:
 
   __declspec(property(get = get_NextSibling))::System::Xml::XmlNode* NextSibling;
 
-  constexpr ::System::Xml::XmlName*& __get_name();
+  constexpr ::System::Xml::XmlName*& __cordl_internal_get_name();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlName*> const& __get_name() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlName*> const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::System::Xml::XmlName* value);
+  constexpr void __cordl_internal_set_name(::System::Xml::XmlName* value);
 
-  constexpr ::System::Xml::XmlAttributeCollection*& __get_attributes();
+  constexpr ::System::Xml::XmlAttributeCollection*& __cordl_internal_get_attributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlAttributeCollection*> const& __get_attributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlAttributeCollection*> const& __cordl_internal_get_attributes() const;
 
-  constexpr void __set_attributes(::System::Xml::XmlAttributeCollection* value);
+  constexpr void __cordl_internal_set_attributes(::System::Xml::XmlAttributeCollection* value);
 
-  constexpr ::System::Xml::XmlLinkedNode*& __get_lastChild();
+  constexpr ::System::Xml::XmlLinkedNode*& __cordl_internal_get_lastChild();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlLinkedNode*> const& __get_lastChild() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlLinkedNode*> const& __cordl_internal_get_lastChild() const;
 
-  constexpr void __set_lastChild(::System::Xml::XmlLinkedNode* value);
+  constexpr void __cordl_internal_set_lastChild(::System::Xml::XmlLinkedNode* value);
 
   static inline ::System::Xml::XmlElement* New_ctor(::System::Xml::XmlName* name, bool empty, ::System::Xml::XmlDocument* doc);
 

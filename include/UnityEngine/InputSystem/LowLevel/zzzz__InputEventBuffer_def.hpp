@@ -57,7 +57,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__InputEventBuffer__Enumerator)
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6531))
 // CS Name: ::InputEventBuffer::Enumerator
 struct CORDL_TYPE __InputEventBuffer__Enumerator {
@@ -147,7 +147,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputEventBuffer_
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 741 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6532))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputEventBuffer
 struct CORDL_TYPE InputEventBuffer {

@@ -24,20 +24,20 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ObjectNull)
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3273))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ObjectNull*
 class CORDL_TYPE ObjectNull : public ::System::Object {
 public:
   // Declarations
   /// @brief Field nullCount, offset 0x10, size 0x4
-  __declspec(property(get = __get_nullCount, put = __set_nullCount)) int32_t nullCount;
+  __declspec(property(get = __cordl_internal_get_nullCount, put = __cordl_internal_set_nullCount)) int32_t nullCount;
 
-  constexpr int32_t& __get_nullCount();
+  constexpr int32_t& __cordl_internal_get_nullCount();
 
-  constexpr int32_t const& __get_nullCount() const;
+  constexpr int32_t const& __cordl_internal_get_nullCount() const;
 
-  constexpr void __set_nullCount(int32_t value);
+  constexpr void __cordl_internal_set_nullCount(int32_t value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ObjectNull* New_ctor();
 

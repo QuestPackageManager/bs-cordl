@@ -46,77 +46,79 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6067))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6067))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6075))
 // CS Name: ::MissionLevelScenesTransitionSetupDataSO*
 class CORDL_TYPE MissionLevelScenesTransitionSetupDataSO : public ::GlobalNamespace::LevelScenesTransitionSetupDataSO {
 public:
   // Declarations
   /// @brief Field _missionGameplaySceneInfo, offset 0x38, size 0x8
-  __declspec(property(get = __get__missionGameplaySceneInfo, put = __set__missionGameplaySceneInfo))::GlobalNamespace::SceneInfo* _missionGameplaySceneInfo;
+  __declspec(property(get = __cordl_internal_get__missionGameplaySceneInfo, put = __cordl_internal_set__missionGameplaySceneInfo))::UnityW<::GlobalNamespace::SceneInfo> _missionGameplaySceneInfo;
 
   /// @brief Field _gameCoreSceneInfo, offset 0x40, size 0x8
-  __declspec(property(get = __get__gameCoreSceneInfo, put = __set__gameCoreSceneInfo))::GlobalNamespace::SceneInfo* _gameCoreSceneInfo;
+  __declspec(property(get = __cordl_internal_get__gameCoreSceneInfo, put = __cordl_internal_set__gameCoreSceneInfo))::UnityW<::GlobalNamespace::SceneInfo> _gameCoreSceneInfo;
 
   /// @brief Field _mainSettingsModel, offset 0x48, size 0x8
-  __declspec(property(get = __get__mainSettingsModel, put = __set__mainSettingsModel))::GlobalNamespace::MainSettingsModelSO* _mainSettingsModel;
+  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
   /// @brief Field didFinishEvent, offset 0x50, size 0x8
-  __declspec(property(get = __get_didFinishEvent,
-                      put = __set_didFinishEvent))::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* didFinishEvent;
+  __declspec(property(
+      get = __cordl_internal_get_didFinishEvent,
+      put = __cordl_internal_set_didFinishEvent))::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* didFinishEvent;
 
   /// @brief Field <missionId>k__BackingField, offset 0x58, size 0x8
-  __declspec(property(get = __get__missionId_k__BackingField, put = __set__missionId_k__BackingField))::StringW _missionId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__missionId_k__BackingField, put = __cordl_internal_set__missionId_k__BackingField))::StringW _missionId_k__BackingField;
 
   /// @brief Field <difficultyBeatmap>k__BackingField, offset 0x60, size 0x8
-  __declspec(property(get = __get__difficultyBeatmap_k__BackingField, put = __set__difficultyBeatmap_k__BackingField))::GlobalNamespace::IDifficultyBeatmap* _difficultyBeatmap_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__difficultyBeatmap_k__BackingField,
+                      put = __cordl_internal_set__difficultyBeatmap_k__BackingField))::GlobalNamespace::IDifficultyBeatmap* _difficultyBeatmap_k__BackingField;
 
   __declspec(property(get = get_missionId, put = set_missionId))::StringW missionId;
 
   __declspec(property(get = get_difficultyBeatmap, put = set_difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
 
-  constexpr ::GlobalNamespace::SceneInfo*& __get__missionGameplaySceneInfo();
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__missionGameplaySceneInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SceneInfo*> const& __get__missionGameplaySceneInfo() const;
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__missionGameplaySceneInfo() const;
 
-  constexpr void __set__missionGameplaySceneInfo(::GlobalNamespace::SceneInfo* value);
+  constexpr void __cordl_internal_set__missionGameplaySceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
 
-  constexpr ::GlobalNamespace::SceneInfo*& __get__gameCoreSceneInfo();
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__gameCoreSceneInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SceneInfo*> const& __get__gameCoreSceneInfo() const;
+  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__gameCoreSceneInfo() const;
 
-  constexpr void __set__gameCoreSceneInfo(::GlobalNamespace::SceneInfo* value);
+  constexpr void __cordl_internal_set__gameCoreSceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
 
-  constexpr ::GlobalNamespace::MainSettingsModelSO*& __get__mainSettingsModel();
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsModelSO*> const& __get__mainSettingsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
 
-  constexpr void __set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO* value);
+  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>*& __get_didFinishEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>*> const&
-  __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>*> const&
+  __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  constexpr ::StringW& __get__missionId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__missionId_k__BackingField();
 
-  constexpr ::StringW const& __get__missionId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__missionId_k__BackingField() const;
 
-  constexpr void __set__missionId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__missionId_k__BackingField(::StringW value);
 
-  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __get__difficultyBeatmap_k__BackingField();
+  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __cordl_internal_get__difficultyBeatmap_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __get__difficultyBeatmap_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __cordl_internal_get__difficultyBeatmap_k__BackingField() const;
 
-  constexpr void __set__difficultyBeatmap_k__BackingField(::GlobalNamespace::IDifficultyBeatmap* value);
+  constexpr void __cordl_internal_set__difficultyBeatmap_k__BackingField(::GlobalNamespace::IDifficultyBeatmap* value);
 
   /// @brief Method add_didFinishEvent, addr 0x231d828, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* value);
+  inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x231dc1c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* value);
+  inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
   /// @brief Method get_missionId, addr 0x231fe6c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionId();
@@ -158,16 +160,16 @@ protected:
 
 public:
   /// @brief Field _missionGameplaySceneInfo, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::SceneInfo* ____missionGameplaySceneInfo;
+  ::UnityW<::GlobalNamespace::SceneInfo> ____missionGameplaySceneInfo;
 
   /// @brief Field _gameCoreSceneInfo, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::SceneInfo* ____gameCoreSceneInfo;
+  ::UnityW<::GlobalNamespace::SceneInfo> ____gameCoreSceneInfo;
 
   /// @brief Field _mainSettingsModel, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::MainSettingsModelSO* ____mainSettingsModel;
+  ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
 
   /// @brief Field didFinishEvent, offset: 0x50, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* ___didFinishEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* ___didFinishEvent;
 
   /// @brief Field <missionId>k__BackingField, offset: 0x58, size: 0x8, def value: None
   ::StringW ____missionId_k__BackingField;

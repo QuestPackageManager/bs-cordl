@@ -25,20 +25,20 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TValueUxmlAttributeType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7129)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7129), inst: 5214 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7129)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7129), inst: 5214 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7131))
 // CS Name: ::UnityEngine.UIElements::BaseFieldTraits`2<TValueType,TValueUxmlAttributeType>*
 class CORDL_TYPE BaseFieldTraits_2 : public ::UnityEngine::UIElements::__BaseField_1__UxmlTraits<TValueType> {
 public:
   // Declarations
   /// @brief Field m_Value, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_Value, put = __set_m_Value)) TValueUxmlAttributeType m_Value;
+  __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) TValueUxmlAttributeType m_Value;
 
-  constexpr TValueUxmlAttributeType& __get_m_Value();
+  constexpr TValueUxmlAttributeType& __cordl_internal_get_m_Value();
 
-  constexpr TValueUxmlAttributeType const& __get_m_Value() const;
+  constexpr TValueUxmlAttributeType const& __cordl_internal_get_m_Value() const;
 
-  constexpr void __set_m_Value(TValueUxmlAttributeType value);
+  constexpr void __cordl_internal_set_m_Value(TValueUxmlAttributeType value);
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);

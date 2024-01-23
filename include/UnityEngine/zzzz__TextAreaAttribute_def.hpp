@@ -15,29 +15,29 @@ MARK_REF_PTR_T(::UnityEngine::TextAreaAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10179))
 // CS Name: ::UnityEngine::TextAreaAttribute*
 class CORDL_TYPE TextAreaAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   /// @brief Field minLines, offset 0x10, size 0x4
-  __declspec(property(get = __get_minLines, put = __set_minLines)) int32_t minLines;
+  __declspec(property(get = __cordl_internal_get_minLines, put = __cordl_internal_set_minLines)) int32_t minLines;
 
   /// @brief Field maxLines, offset 0x14, size 0x4
-  __declspec(property(get = __get_maxLines, put = __set_maxLines)) int32_t maxLines;
+  __declspec(property(get = __cordl_internal_get_maxLines, put = __cordl_internal_set_maxLines)) int32_t maxLines;
 
-  constexpr int32_t& __get_minLines();
+  constexpr int32_t& __cordl_internal_get_minLines();
 
-  constexpr int32_t const& __get_minLines() const;
+  constexpr int32_t const& __cordl_internal_get_minLines() const;
 
-  constexpr void __set_minLines(int32_t value);
+  constexpr void __cordl_internal_set_minLines(int32_t value);
 
-  constexpr int32_t& __get_maxLines();
+  constexpr int32_t& __cordl_internal_get_maxLines();
 
-  constexpr int32_t const& __get_maxLines() const;
+  constexpr int32_t const& __cordl_internal_get_maxLines() const;
 
-  constexpr void __set_maxLines(int32_t value);
+  constexpr void __cordl_internal_set_maxLines(int32_t value);
 
   static inline ::UnityEngine::TextAreaAttribute* New_ctor();
 

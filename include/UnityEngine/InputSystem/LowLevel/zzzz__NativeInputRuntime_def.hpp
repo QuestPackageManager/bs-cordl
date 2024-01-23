@@ -80,20 +80,20 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::LowLevel::__NativeInputRuntime____c__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6557))
 // CS Name: ::NativeInputRuntime::<>c__DisplayClass7_0*
 class CORDL_TYPE __NativeInputRuntime____c__DisplayClass7_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field value, offset 0x10, size 0x8
-  __declspec(property(get = __get_value, put = __set_value))::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* value;
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate*& __get_value();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate*& __cordl_internal_get_value();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate*> const& __get_value() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate*> const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* value);
+  constexpr void __cordl_internal_set_value(::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* value);
 
   static inline ::UnityEngine::InputSystem::LowLevel::__NativeInputRuntime____c__DisplayClass7_0* New_ctor();
 
@@ -132,20 +132,20 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__NativeInputRuntim
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6558))
 // CS Name: ::NativeInputRuntime::<>c__DisplayClass10_0*
 class CORDL_TYPE __NativeInputRuntime____c__DisplayClass10_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field value, offset 0x10, size 0x8
-  __declspec(property(get = __get_value, put = __set_value))::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* value;
 
-  constexpr ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>*& __get_value();
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>*& __cordl_internal_get_value();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>*> const& __get_value() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>*> const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* value);
+  constexpr void __cordl_internal_set_value(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* value);
 
   static inline ::UnityEngine::InputSystem::LowLevel::__NativeInputRuntime____c__DisplayClass10_0* New_ctor();
 
@@ -184,20 +184,20 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__NativeInputRuntim
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6559))
 // CS Name: ::NativeInputRuntime::<>c__DisplayClass13_0*
 class CORDL_TYPE __NativeInputRuntime____c__DisplayClass13_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field value, offset 0x10, size 0x8
-  __declspec(property(get = __get_value, put = __set_value))::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* value;
 
-  constexpr ::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>*& __get_value();
+  constexpr ::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>*& __cordl_internal_get_value();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>*> const& __get_value() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>*> const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* value);
+  constexpr void __cordl_internal_set_value(::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* value);
 
   static inline ::UnityEngine::InputSystem::LowLevel::__NativeInputRuntime____c__DisplayClass13_0* New_ctor();
 
@@ -236,7 +236,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__NativeInputRuntim
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6560))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::NativeInputRuntime*
 class CORDL_TYPE NativeInputRuntime : public ::System::Object {
@@ -249,25 +249,27 @@ public:
   using __c__DisplayClass7_0 = ::UnityEngine::InputSystem::LowLevel::__NativeInputRuntime____c__DisplayClass7_0;
 
   /// @brief Field m_ShutdownMethod, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_ShutdownMethod, put = __set_m_ShutdownMethod))::System::Action* m_ShutdownMethod;
+  __declspec(property(get = __cordl_internal_get_m_ShutdownMethod, put = __cordl_internal_set_m_ShutdownMethod))::System::Action* m_ShutdownMethod;
 
   /// @brief Field m_OnUpdate, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_OnUpdate, put = __set_m_OnUpdate))::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* m_OnUpdate;
+  __declspec(property(get = __cordl_internal_get_m_OnUpdate, put = __cordl_internal_set_m_OnUpdate))::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* m_OnUpdate;
 
   /// @brief Field m_OnBeforeUpdate, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_OnBeforeUpdate, put = __set_m_OnBeforeUpdate))::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* m_OnBeforeUpdate;
+  __declspec(property(get = __cordl_internal_get_m_OnBeforeUpdate,
+                      put = __cordl_internal_set_m_OnBeforeUpdate))::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* m_OnBeforeUpdate;
 
   /// @brief Field m_OnShouldRunUpdate, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_OnShouldRunUpdate, put = __set_m_OnShouldRunUpdate))::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* m_OnShouldRunUpdate;
+  __declspec(property(get = __cordl_internal_get_m_OnShouldRunUpdate,
+                      put = __cordl_internal_set_m_OnShouldRunUpdate))::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* m_OnShouldRunUpdate;
 
   /// @brief Field m_PollingFrequency, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_PollingFrequency, put = __set_m_PollingFrequency)) float_t m_PollingFrequency;
+  __declspec(property(get = __cordl_internal_get_m_PollingFrequency, put = __cordl_internal_set_m_PollingFrequency)) float_t m_PollingFrequency;
 
   /// @brief Field m_DidCallOnShutdown, offset 0x34, size 0x1
-  __declspec(property(get = __get_m_DidCallOnShutdown, put = __set_m_DidCallOnShutdown)) bool m_DidCallOnShutdown;
+  __declspec(property(get = __cordl_internal_get_m_DidCallOnShutdown, put = __cordl_internal_set_m_DidCallOnShutdown)) bool m_DidCallOnShutdown;
 
   /// @brief Field m_FocusChangedMethod, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_FocusChangedMethod, put = __set_m_FocusChangedMethod))::System::Action_1<bool>* m_FocusChangedMethod;
+  __declspec(property(get = __cordl_internal_get_m_FocusChangedMethod, put = __cordl_internal_set_m_FocusChangedMethod))::System::Action_1<bool>* m_FocusChangedMethod;
 
   /// @brief Field instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_instance, put = setStaticF_instance))::UnityEngine::InputSystem::LowLevel::NativeInputRuntime* instance;
@@ -310,47 +312,47 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputRuntime"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputRuntime* i___UnityEngine__InputSystem__LowLevel__IInputRuntime() noexcept;
 
-  constexpr ::System::Action*& __get_m_ShutdownMethod();
+  constexpr ::System::Action*& __cordl_internal_get_m_ShutdownMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_m_ShutdownMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_m_ShutdownMethod() const;
 
-  constexpr void __set_m_ShutdownMethod(::System::Action* value);
+  constexpr void __cordl_internal_set_m_ShutdownMethod(::System::Action* value);
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate*& __get_m_OnUpdate();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate*& __cordl_internal_get_m_OnUpdate();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate*> const& __get_m_OnUpdate() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate*> const& __cordl_internal_get_m_OnUpdate() const;
 
-  constexpr void __set_m_OnUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* value);
+  constexpr void __cordl_internal_set_m_OnUpdate(::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate* value);
 
-  constexpr ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>*& __get_m_OnBeforeUpdate();
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>*& __cordl_internal_get_m_OnBeforeUpdate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>*> const& __get_m_OnBeforeUpdate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>*> const& __cordl_internal_get_m_OnBeforeUpdate() const;
 
-  constexpr void __set_m_OnBeforeUpdate(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* value);
+  constexpr void __cordl_internal_set_m_OnBeforeUpdate(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* value);
 
-  constexpr ::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>*& __get_m_OnShouldRunUpdate();
+  constexpr ::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>*& __cordl_internal_get_m_OnShouldRunUpdate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>*> const& __get_m_OnShouldRunUpdate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>*> const& __cordl_internal_get_m_OnShouldRunUpdate() const;
 
-  constexpr void __set_m_OnShouldRunUpdate(::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* value);
+  constexpr void __cordl_internal_set_m_OnShouldRunUpdate(::System::Func_2<::UnityEngine::InputSystem::LowLevel::InputUpdateType, bool>* value);
 
-  constexpr float_t& __get_m_PollingFrequency();
+  constexpr float_t& __cordl_internal_get_m_PollingFrequency();
 
-  constexpr float_t const& __get_m_PollingFrequency() const;
+  constexpr float_t const& __cordl_internal_get_m_PollingFrequency() const;
 
-  constexpr void __set_m_PollingFrequency(float_t value);
+  constexpr void __cordl_internal_set_m_PollingFrequency(float_t value);
 
-  constexpr bool& __get_m_DidCallOnShutdown();
+  constexpr bool& __cordl_internal_get_m_DidCallOnShutdown();
 
-  constexpr bool const& __get_m_DidCallOnShutdown() const;
+  constexpr bool const& __cordl_internal_get_m_DidCallOnShutdown() const;
 
-  constexpr void __set_m_DidCallOnShutdown(bool value);
+  constexpr void __cordl_internal_set_m_DidCallOnShutdown(bool value);
 
-  constexpr ::System::Action_1<bool>*& __get_m_FocusChangedMethod();
+  constexpr ::System::Action_1<bool>*& __cordl_internal_get_m_FocusChangedMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __get_m_FocusChangedMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_m_FocusChangedMethod() const;
 
-  constexpr void __set_m_FocusChangedMethod(::System::Action_1<bool>* value);
+  constexpr void __cordl_internal_set_m_FocusChangedMethod(::System::Action_1<bool>* value);
 
   static inline void setStaticF_instance(::UnityEngine::InputSystem::LowLevel::NativeInputRuntime* value);
 

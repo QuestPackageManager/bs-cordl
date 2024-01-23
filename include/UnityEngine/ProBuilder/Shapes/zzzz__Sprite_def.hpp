@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Sprite);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12233))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12233))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12236))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Sprite*
 class CORDL_TYPE Sprite : public ::UnityEngine::ProBuilder::Shapes::Shape {

@@ -37,38 +37,38 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::ProBuilderShape);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12195)), TypeDefinitionIndex(TypeDefinitionIndex(10164))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12232)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12195))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12232)) CS Name:
 // ::UnityEngine.ProBuilder.Shapes::ProBuilderShape*
 class CORDL_TYPE ProBuilderShape : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field m_Shape, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Shape, put = __set_m_Shape))::UnityEngine::ProBuilder::Shapes::Shape* m_Shape;
+  __declspec(property(get = __cordl_internal_get_m_Shape, put = __cordl_internal_set_m_Shape))::UnityEngine::ProBuilder::Shapes::Shape* m_Shape;
 
   /// @brief Field m_Size, offset 0x20, size 0xc
-  __declspec(property(get = __get_m_Size, put = __set_m_Size))::UnityEngine::Vector3 m_Size;
+  __declspec(property(get = __cordl_internal_get_m_Size, put = __cordl_internal_set_m_Size))::UnityEngine::Vector3 m_Size;
 
   /// @brief Field m_Rotation, offset 0x2c, size 0x10
-  __declspec(property(get = __get_m_Rotation, put = __set_m_Rotation))::UnityEngine::Quaternion m_Rotation;
+  __declspec(property(get = __cordl_internal_get_m_Rotation, put = __cordl_internal_set_m_Rotation))::UnityEngine::Quaternion m_Rotation;
 
   /// @brief Field m_Mesh, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_Mesh, put = __set_m_Mesh))::UnityEngine::ProBuilder::ProBuilderMesh* m_Mesh;
+  __declspec(property(get = __cordl_internal_get_m_Mesh, put = __cordl_internal_set_m_Mesh))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> m_Mesh;
 
   /// @brief Field m_PivotLocation, offset 0x48, size 0x4
-  __declspec(property(get = __get_m_PivotLocation, put = __set_m_PivotLocation))::UnityEngine::ProBuilder::PivotLocation m_PivotLocation;
+  __declspec(property(get = __cordl_internal_get_m_PivotLocation, put = __cordl_internal_set_m_PivotLocation))::UnityEngine::ProBuilder::PivotLocation m_PivotLocation;
 
   /// @brief Field m_PivotPosition, offset 0x4c, size 0xc
-  __declspec(property(get = __get_m_PivotPosition, put = __set_m_PivotPosition))::UnityEngine::Vector3 m_PivotPosition;
+  __declspec(property(get = __cordl_internal_get_m_PivotPosition, put = __cordl_internal_set_m_PivotPosition))::UnityEngine::Vector3 m_PivotPosition;
 
   /// @brief Field m_UnmodifiedMeshVersion, offset 0x58, size 0x2
-  __declspec(property(get = __get_m_UnmodifiedMeshVersion, put = __set_m_UnmodifiedMeshVersion)) uint16_t m_UnmodifiedMeshVersion;
+  __declspec(property(get = __cordl_internal_get_m_UnmodifiedMeshVersion, put = __cordl_internal_set_m_UnmodifiedMeshVersion)) uint16_t m_UnmodifiedMeshVersion;
 
   /// @brief Field m_EditionBounds, offset 0x5c, size 0x18
-  __declspec(property(get = __get_m_EditionBounds, put = __set_m_EditionBounds))::UnityEngine::Bounds m_EditionBounds;
+  __declspec(property(get = __cordl_internal_get_m_EditionBounds, put = __cordl_internal_set_m_EditionBounds))::UnityEngine::Bounds m_EditionBounds;
 
   /// @brief Field m_ShapeBox, offset 0x74, size 0x18
-  __declspec(property(get = __get_m_ShapeBox, put = __set_m_ShapeBox))::UnityEngine::Bounds m_ShapeBox;
+  __declspec(property(get = __cordl_internal_get_m_ShapeBox, put = __cordl_internal_set_m_ShapeBox))::UnityEngine::Bounds m_ShapeBox;
 
   __declspec(property(get = get_shape, put = set_shape))::UnityEngine::ProBuilder::Shapes::Shape* shape;
 
@@ -88,61 +88,61 @@ public:
 
   __declspec(property(get = get_isEditable)) bool isEditable;
 
-  __declspec(property(get = get_mesh))::UnityEngine::ProBuilder::ProBuilderMesh* mesh;
+  __declspec(property(get = get_mesh))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> mesh;
 
-  constexpr ::UnityEngine::ProBuilder::Shapes::Shape*& __get_m_Shape();
+  constexpr ::UnityEngine::ProBuilder::Shapes::Shape*& __cordl_internal_get_m_Shape();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Shapes::Shape*> const& __get_m_Shape() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Shapes::Shape*> const& __cordl_internal_get_m_Shape() const;
 
-  constexpr void __set_m_Shape(::UnityEngine::ProBuilder::Shapes::Shape* value);
+  constexpr void __cordl_internal_set_m_Shape(::UnityEngine::ProBuilder::Shapes::Shape* value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_Size();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_Size();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_Size() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_Size() const;
 
-  constexpr void __set_m_Size(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_Size(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_m_Rotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_m_Rotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_m_Rotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_m_Rotation() const;
 
-  constexpr void __set_m_Rotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_m_Rotation(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::ProBuilder::ProBuilderMesh*& __get_m_Mesh();
+  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>& __cordl_internal_get_m_Mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::ProBuilderMesh*> const& __get_m_Mesh() const;
+  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> const& __cordl_internal_get_m_Mesh() const;
 
-  constexpr void __set_m_Mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
+  constexpr void __cordl_internal_set_m_Mesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value);
 
-  constexpr ::UnityEngine::ProBuilder::PivotLocation& __get_m_PivotLocation();
+  constexpr ::UnityEngine::ProBuilder::PivotLocation& __cordl_internal_get_m_PivotLocation();
 
-  constexpr ::UnityEngine::ProBuilder::PivotLocation const& __get_m_PivotLocation() const;
+  constexpr ::UnityEngine::ProBuilder::PivotLocation const& __cordl_internal_get_m_PivotLocation() const;
 
-  constexpr void __set_m_PivotLocation(::UnityEngine::ProBuilder::PivotLocation value);
+  constexpr void __cordl_internal_set_m_PivotLocation(::UnityEngine::ProBuilder::PivotLocation value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_PivotPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_PivotPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_PivotPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_PivotPosition() const;
 
-  constexpr void __set_m_PivotPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_PivotPosition(::UnityEngine::Vector3 value);
 
-  constexpr uint16_t& __get_m_UnmodifiedMeshVersion();
+  constexpr uint16_t& __cordl_internal_get_m_UnmodifiedMeshVersion();
 
-  constexpr uint16_t const& __get_m_UnmodifiedMeshVersion() const;
+  constexpr uint16_t const& __cordl_internal_get_m_UnmodifiedMeshVersion() const;
 
-  constexpr void __set_m_UnmodifiedMeshVersion(uint16_t value);
+  constexpr void __cordl_internal_set_m_UnmodifiedMeshVersion(uint16_t value);
 
-  constexpr ::UnityEngine::Bounds& __get_m_EditionBounds();
+  constexpr ::UnityEngine::Bounds& __cordl_internal_get_m_EditionBounds();
 
-  constexpr ::UnityEngine::Bounds const& __get_m_EditionBounds() const;
+  constexpr ::UnityEngine::Bounds const& __cordl_internal_get_m_EditionBounds() const;
 
-  constexpr void __set_m_EditionBounds(::UnityEngine::Bounds value);
+  constexpr void __cordl_internal_set_m_EditionBounds(::UnityEngine::Bounds value);
 
-  constexpr ::UnityEngine::Bounds& __get_m_ShapeBox();
+  constexpr ::UnityEngine::Bounds& __cordl_internal_get_m_ShapeBox();
 
-  constexpr ::UnityEngine::Bounds const& __get_m_ShapeBox() const;
+  constexpr ::UnityEngine::Bounds const& __cordl_internal_get_m_ShapeBox() const;
 
-  constexpr void __set_m_ShapeBox(::UnityEngine::Bounds value);
+  constexpr void __cordl_internal_set_m_ShapeBox(::UnityEngine::Bounds value);
 
   /// @brief Method get_shape, addr 0x2b8cbc4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Shapes::Shape* get_shape();
@@ -190,7 +190,7 @@ public:
   inline bool get_isEditable();
 
   /// @brief Method get_mesh, addr 0x2b8cc30, size 0xf8, virtual false, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::ProBuilderMesh* get_mesh();
+  inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> get_mesh();
 
   /// @brief Method OnValidate, addr 0x2b8cf70, size 0xa4, virtual false, abstract: false, final false
   inline void OnValidate();
@@ -248,7 +248,7 @@ public:
   ::UnityEngine::Quaternion ___m_Rotation;
 
   /// @brief Field m_Mesh, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::ProBuilder::ProBuilderMesh* ___m_Mesh;
+  ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> ___m_Mesh;
 
   /// @brief Field m_PivotLocation, offset: 0x48, size: 0x4, def value: None
   ::UnityEngine::ProBuilder::PivotLocation ___m_PivotLocation;

@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NoteExecutionRating);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4523))
 // CS Name: ::NoteExecutionRating::Rating
 struct CORDL_TYPE __NoteExecutionRating__Rating {
@@ -83,7 +83,7 @@ static_assert(offsetof(::GlobalNamespace::__NoteExecutionRating__Rating, value__
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4135)), TypeDefinitionIndex(TypeDefinitionIndex(14758)), TypeDefinitionIndex(TypeDefinitionIndex(4523))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4135)), TypeDefinitionIndex(TypeDefinitionIndex(4523)), TypeDefinitionIndex(TypeDefinitionIndex(14758))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4524))
 // CS Name: ::NoteExecutionRating*
 class CORDL_TYPE NoteExecutionRating : public ::GlobalNamespace::BeatmapObjectExecutionRating {
@@ -92,58 +92,58 @@ public:
   using Rating = ::GlobalNamespace::__NoteExecutionRating__Rating;
 
   /// @brief Field rating, offset 0x14, size 0x4
-  __declspec(property(get = __get_rating, put = __set_rating))::GlobalNamespace::__NoteExecutionRating__Rating rating;
+  __declspec(property(get = __cordl_internal_get_rating, put = __cordl_internal_set_rating))::GlobalNamespace::__NoteExecutionRating__Rating rating;
 
   /// @brief Field cutScore, offset 0x18, size 0x4
-  __declspec(property(get = __get_cutScore, put = __set_cutScore)) int32_t cutScore;
+  __declspec(property(get = __cordl_internal_get_cutScore, put = __cordl_internal_set_cutScore)) int32_t cutScore;
 
   /// @brief Field beforeCutScore, offset 0x1c, size 0x4
-  __declspec(property(get = __get_beforeCutScore, put = __set_beforeCutScore)) int32_t beforeCutScore;
+  __declspec(property(get = __cordl_internal_get_beforeCutScore, put = __cordl_internal_set_beforeCutScore)) int32_t beforeCutScore;
 
   /// @brief Field centerDistanceCutScore, offset 0x20, size 0x4
-  __declspec(property(get = __get_centerDistanceCutScore, put = __set_centerDistanceCutScore)) int32_t centerDistanceCutScore;
+  __declspec(property(get = __cordl_internal_get_centerDistanceCutScore, put = __cordl_internal_set_centerDistanceCutScore)) int32_t centerDistanceCutScore;
 
   /// @brief Field afterCutScore, offset 0x24, size 0x4
-  __declspec(property(get = __get_afterCutScore, put = __set_afterCutScore)) int32_t afterCutScore;
+  __declspec(property(get = __cordl_internal_get_afterCutScore, put = __cordl_internal_set_afterCutScore)) int32_t afterCutScore;
 
   /// @brief Field scoringType, offset 0x28, size 0x4
-  __declspec(property(get = __get_scoringType, put = __set_scoringType))::GlobalNamespace::__NoteData__ScoringType scoringType;
+  __declspec(property(get = __cordl_internal_get_scoringType, put = __cordl_internal_set_scoringType))::GlobalNamespace::__NoteData__ScoringType scoringType;
 
-  constexpr ::GlobalNamespace::__NoteExecutionRating__Rating& __get_rating();
+  constexpr ::GlobalNamespace::__NoteExecutionRating__Rating& __cordl_internal_get_rating();
 
-  constexpr ::GlobalNamespace::__NoteExecutionRating__Rating const& __get_rating() const;
+  constexpr ::GlobalNamespace::__NoteExecutionRating__Rating const& __cordl_internal_get_rating() const;
 
-  constexpr void __set_rating(::GlobalNamespace::__NoteExecutionRating__Rating value);
+  constexpr void __cordl_internal_set_rating(::GlobalNamespace::__NoteExecutionRating__Rating value);
 
-  constexpr int32_t& __get_cutScore();
+  constexpr int32_t& __cordl_internal_get_cutScore();
 
-  constexpr int32_t const& __get_cutScore() const;
+  constexpr int32_t const& __cordl_internal_get_cutScore() const;
 
-  constexpr void __set_cutScore(int32_t value);
+  constexpr void __cordl_internal_set_cutScore(int32_t value);
 
-  constexpr int32_t& __get_beforeCutScore();
+  constexpr int32_t& __cordl_internal_get_beforeCutScore();
 
-  constexpr int32_t const& __get_beforeCutScore() const;
+  constexpr int32_t const& __cordl_internal_get_beforeCutScore() const;
 
-  constexpr void __set_beforeCutScore(int32_t value);
+  constexpr void __cordl_internal_set_beforeCutScore(int32_t value);
 
-  constexpr int32_t& __get_centerDistanceCutScore();
+  constexpr int32_t& __cordl_internal_get_centerDistanceCutScore();
 
-  constexpr int32_t const& __get_centerDistanceCutScore() const;
+  constexpr int32_t const& __cordl_internal_get_centerDistanceCutScore() const;
 
-  constexpr void __set_centerDistanceCutScore(int32_t value);
+  constexpr void __cordl_internal_set_centerDistanceCutScore(int32_t value);
 
-  constexpr int32_t& __get_afterCutScore();
+  constexpr int32_t& __cordl_internal_get_afterCutScore();
 
-  constexpr int32_t const& __get_afterCutScore() const;
+  constexpr int32_t const& __cordl_internal_get_afterCutScore() const;
 
-  constexpr void __set_afterCutScore(int32_t value);
+  constexpr void __cordl_internal_set_afterCutScore(int32_t value);
 
-  constexpr ::GlobalNamespace::__NoteData__ScoringType& __get_scoringType();
+  constexpr ::GlobalNamespace::__NoteData__ScoringType& __cordl_internal_get_scoringType();
 
-  constexpr ::GlobalNamespace::__NoteData__ScoringType const& __get_scoringType() const;
+  constexpr ::GlobalNamespace::__NoteData__ScoringType const& __cordl_internal_get_scoringType() const;
 
-  constexpr void __set_scoringType(::GlobalNamespace::__NoteData__ScoringType value);
+  constexpr void __cordl_internal_set_scoringType(::GlobalNamespace::__NoteData__ScoringType value);
 
   static inline ::GlobalNamespace::NoteExecutionRating* New_ctor(float_t time, ::GlobalNamespace::__NoteData__ScoringType scoringType, ::GlobalNamespace::__NoteExecutionRating__Rating rating,
                                                                  int32_t cutScore, int32_t beforeCutScore, int32_t centerDistanceCutScore, int32_t afterCutScore);

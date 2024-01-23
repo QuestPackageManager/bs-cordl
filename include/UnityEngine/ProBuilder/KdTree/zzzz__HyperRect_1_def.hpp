@@ -21,7 +21,7 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15911))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::HyperRect`1<T>
 struct CORDL_TYPE HyperRect_1 {

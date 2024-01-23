@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::System::Reflection::RtFieldInfo);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3469))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3469))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3520))
 // CS Name: ::System.Reflection::RtFieldInfo*
 class CORDL_TYPE RtFieldInfo : public ::System::Reflection::FieldInfo {

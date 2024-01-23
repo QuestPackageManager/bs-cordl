@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::Timeline::IntervalTreeNode);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13879))
 // CS Name: ::UnityEngine.Timeline::IntervalTreeNode
 struct CORDL_TYPE IntervalTreeNode {

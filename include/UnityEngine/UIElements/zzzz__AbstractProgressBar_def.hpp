@@ -47,47 +47,47 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__AbstractProgressBar__UxmlTraits);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6800))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6800))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7116))
 // CS Name: ::AbstractProgressBar::UxmlTraits*
 class CORDL_TYPE __AbstractProgressBar__UxmlTraits : public ::UnityEngine::UIElements::__BindableElement__UxmlTraits {
 public:
   // Declarations
   /// @brief Field m_LowValue, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_LowValue, put = __set_m_LowValue))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_LowValue;
+  __declspec(property(get = __cordl_internal_get_m_LowValue, put = __cordl_internal_set_m_LowValue))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_LowValue;
 
   /// @brief Field m_HighValue, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_HighValue, put = __set_m_HighValue))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_HighValue;
+  __declspec(property(get = __cordl_internal_get_m_HighValue, put = __cordl_internal_set_m_HighValue))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_HighValue;
 
   /// @brief Field m_Value, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_Value, put = __set_m_Value))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_Value;
+  __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_Value;
 
   /// @brief Field m_Title, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_Title, put = __set_m_Title))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Title;
+  __declspec(property(get = __cordl_internal_get_m_Title, put = __cordl_internal_set_m_Title))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Title;
 
-  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __get_m_LowValue();
+  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __cordl_internal_get_m_LowValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __get_m_LowValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __cordl_internal_get_m_LowValue() const;
 
-  constexpr void __set_m_LowValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_LowValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __get_m_HighValue();
+  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __cordl_internal_get_m_HighValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __get_m_HighValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __cordl_internal_get_m_HighValue() const;
 
-  constexpr void __set_m_HighValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_HighValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __get_m_Value();
+  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __cordl_internal_get_m_Value();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __get_m_Value() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __cordl_internal_get_m_Value() const;
 
-  constexpr void __set_m_Value(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Value(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_Title();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Title();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_Title() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Title() const;
 
-  constexpr void __set_m_Title(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Title(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
   /// @brief Method Init, addr 0x2e38460, size 0x1e4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
@@ -141,7 +141,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__AbstractProgressBar__UxmlTra
 // SizeInfo { instance_size: 1000, native_size: -1, calculated_instance_size: 1000, calculated_native_size: 996, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6801))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6801))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7117))
 // CS Name: ::UnityEngine.UIElements::AbstractProgressBar*
 class CORDL_TYPE AbstractProgressBar : public ::UnityEngine::UIElements::BindableElement {
@@ -150,22 +150,22 @@ public:
   using UxmlTraits = ::UnityEngine::UIElements::__AbstractProgressBar__UxmlTraits;
 
   /// @brief Field m_Background, offset 0x3c0, size 0x8
-  __declspec(property(get = __get_m_Background, put = __set_m_Background))::UnityEngine::UIElements::VisualElement* m_Background;
+  __declspec(property(get = __cordl_internal_get_m_Background, put = __cordl_internal_set_m_Background))::UnityEngine::UIElements::VisualElement* m_Background;
 
   /// @brief Field m_Progress, offset 0x3c8, size 0x8
-  __declspec(property(get = __get_m_Progress, put = __set_m_Progress))::UnityEngine::UIElements::VisualElement* m_Progress;
+  __declspec(property(get = __cordl_internal_get_m_Progress, put = __cordl_internal_set_m_Progress))::UnityEngine::UIElements::VisualElement* m_Progress;
 
   /// @brief Field m_Title, offset 0x3d0, size 0x8
-  __declspec(property(get = __get_m_Title, put = __set_m_Title))::UnityEngine::UIElements::Label* m_Title;
+  __declspec(property(get = __cordl_internal_get_m_Title, put = __cordl_internal_set_m_Title))::UnityEngine::UIElements::Label* m_Title;
 
   /// @brief Field m_LowValue, offset 0x3d8, size 0x4
-  __declspec(property(get = __get_m_LowValue, put = __set_m_LowValue)) float_t m_LowValue;
+  __declspec(property(get = __cordl_internal_get_m_LowValue, put = __cordl_internal_set_m_LowValue)) float_t m_LowValue;
 
   /// @brief Field m_HighValue, offset 0x3dc, size 0x4
-  __declspec(property(get = __get_m_HighValue, put = __set_m_HighValue)) float_t m_HighValue;
+  __declspec(property(get = __cordl_internal_get_m_HighValue, put = __cordl_internal_set_m_HighValue)) float_t m_HighValue;
 
   /// @brief Field m_Value, offset 0x3e0, size 0x4
-  __declspec(property(get = __get_m_Value, put = __set_m_Value)) float_t m_Value;
+  __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) float_t m_Value;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
@@ -199,41 +199,41 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::INotifyValueChanged_1<float_t>"
   constexpr ::UnityEngine::UIElements::INotifyValueChanged_1<float_t>* i___UnityEngine__UIElements__INotifyValueChanged_1_float_t_() noexcept;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_Background();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Background();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_Background() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Background() const;
 
-  constexpr void __set_m_Background(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_Background(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_Progress();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Progress();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_Progress() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Progress() const;
 
-  constexpr void __set_m_Progress(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_Progress(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::Label*& __get_m_Title();
+  constexpr ::UnityEngine::UIElements::Label*& __cordl_internal_get_m_Title();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*> const& __get_m_Title() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*> const& __cordl_internal_get_m_Title() const;
 
-  constexpr void __set_m_Title(::UnityEngine::UIElements::Label* value);
+  constexpr void __cordl_internal_set_m_Title(::UnityEngine::UIElements::Label* value);
 
-  constexpr float_t& __get_m_LowValue();
+  constexpr float_t& __cordl_internal_get_m_LowValue();
 
-  constexpr float_t const& __get_m_LowValue() const;
+  constexpr float_t const& __cordl_internal_get_m_LowValue() const;
 
-  constexpr void __set_m_LowValue(float_t value);
+  constexpr void __cordl_internal_set_m_LowValue(float_t value);
 
-  constexpr float_t& __get_m_HighValue();
+  constexpr float_t& __cordl_internal_get_m_HighValue();
 
-  constexpr float_t const& __get_m_HighValue() const;
+  constexpr float_t const& __cordl_internal_get_m_HighValue() const;
 
-  constexpr void __set_m_HighValue(float_t value);
+  constexpr void __cordl_internal_set_m_HighValue(float_t value);
 
-  constexpr float_t& __get_m_Value();
+  constexpr float_t& __cordl_internal_get_m_Value();
 
-  constexpr float_t const& __get_m_Value() const;
+  constexpr float_t const& __cordl_internal_get_m_Value() const;
 
-  constexpr void __set_m_Value(float_t value);
+  constexpr void __cordl_internal_set_m_Value(float_t value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 

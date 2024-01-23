@@ -51,23 +51,23 @@ MARK_REF_PTR_T(::GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDel
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3980))
 // CS Name: ::BTSStarTextEffectsManager::<DespawnEffectDelayed>d__5*
 class CORDL_TYPE __BTSStarTextEffectsManager___DespawnEffectDelayed_d__5 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field effectController, offset 0x20, size 0x8
-  __declspec(property(get = __get_effectController, put = __set_effectController))::GlobalNamespace::BTSStarTextEffectController* effectController;
+  __declspec(property(get = __cordl_internal_get_effectController, put = __cordl_internal_set_effectController))::UnityW<::GlobalNamespace::BTSStarTextEffectController> effectController;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::BTSStarTextEffectsManager* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::BTSStarTextEffectsManager> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -91,29 +91,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::BTSStarTextEffectController*& __get_effectController();
+  constexpr ::UnityW<::GlobalNamespace::BTSStarTextEffectController>& __cordl_internal_get_effectController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSStarTextEffectController*> const& __get_effectController() const;
+  constexpr ::UnityW<::GlobalNamespace::BTSStarTextEffectController> const& __cordl_internal_get_effectController() const;
 
-  constexpr void __set_effectController(::GlobalNamespace::BTSStarTextEffectController* value);
+  constexpr void __cordl_internal_set_effectController(::UnityW<::GlobalNamespace::BTSStarTextEffectController> value);
 
-  constexpr ::GlobalNamespace::BTSStarTextEffectsManager*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::BTSStarTextEffectsManager>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSStarTextEffectsManager*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::BTSStarTextEffectsManager> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::BTSStarTextEffectsManager* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::BTSStarTextEffectsManager> value);
 
   static inline ::GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5* New_ctor(int32_t __1__state);
 
@@ -156,10 +156,10 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field effectController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BTSStarTextEffectController* ___effectController;
+  ::UnityW<::GlobalNamespace::BTSStarTextEffectController> ___effectController;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::BTSStarTextEffectsManager* _____4__this;
+  ::UnityW<::GlobalNamespace::BTSStarTextEffectsManager> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -179,7 +179,7 @@ static_assert(offsetof(::GlobalNamespace::__BTSStarTextEffectsManager___DespawnE
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3981))
 // CS Name: ::BTSStarTextEffectsManager*
 class CORDL_TYPE BTSStarTextEffectsManager : public ::UnityEngine::MonoBehaviour {
@@ -188,23 +188,24 @@ public:
   using _DespawnEffectDelayed_d__5 = ::GlobalNamespace::__BTSStarTextEffectsManager___DespawnEffectDelayed_d__5;
 
   /// @brief Field _btsStarTextEventEffect, offset 0x18, size 0x8
-  __declspec(property(get = __get__btsStarTextEventEffect, put = __set__btsStarTextEventEffect))::GlobalNamespace::BTSStarTextEventEffect* _btsStarTextEventEffect;
+  __declspec(property(get = __cordl_internal_get__btsStarTextEventEffect,
+                      put = __cordl_internal_set__btsStarTextEventEffect))::UnityW<::GlobalNamespace::BTSStarTextEventEffect> _btsStarTextEventEffect;
 
   /// @brief Field _btsStarTextEffectControllerPool, offset 0x20, size 0x8
-  __declspec(property(get = __get__btsStarTextEffectControllerPool,
-                      put = __set__btsStarTextEffectControllerPool))::GlobalNamespace::__BTSStarTextEffectController__Pool* _btsStarTextEffectControllerPool;
+  __declspec(property(get = __cordl_internal_get__btsStarTextEffectControllerPool,
+                      put = __cordl_internal_set__btsStarTextEffectControllerPool))::GlobalNamespace::__BTSStarTextEffectController__Pool* _btsStarTextEffectControllerPool;
 
-  constexpr ::GlobalNamespace::BTSStarTextEventEffect*& __get__btsStarTextEventEffect();
+  constexpr ::UnityW<::GlobalNamespace::BTSStarTextEventEffect>& __cordl_internal_get__btsStarTextEventEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSStarTextEventEffect*> const& __get__btsStarTextEventEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::BTSStarTextEventEffect> const& __cordl_internal_get__btsStarTextEventEffect() const;
 
-  constexpr void __set__btsStarTextEventEffect(::GlobalNamespace::BTSStarTextEventEffect* value);
+  constexpr void __cordl_internal_set__btsStarTextEventEffect(::UnityW<::GlobalNamespace::BTSStarTextEventEffect> value);
 
-  constexpr ::GlobalNamespace::__BTSStarTextEffectController__Pool*& __get__btsStarTextEffectControllerPool();
+  constexpr ::GlobalNamespace::__BTSStarTextEffectController__Pool*& __cordl_internal_get__btsStarTextEffectControllerPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BTSStarTextEffectController__Pool*> const& __get__btsStarTextEffectControllerPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BTSStarTextEffectController__Pool*> const& __cordl_internal_get__btsStarTextEffectControllerPool() const;
 
-  constexpr void __set__btsStarTextEffectControllerPool(::GlobalNamespace::__BTSStarTextEffectController__Pool* value);
+  constexpr void __cordl_internal_set__btsStarTextEffectControllerPool(::GlobalNamespace::__BTSStarTextEffectController__Pool* value);
 
   /// @brief Method Start, addr 0x221d2d8, size 0x88, virtual false, abstract: false, final false
   inline void Start();
@@ -238,7 +239,7 @@ protected:
 
 public:
   /// @brief Field _btsStarTextEventEffect, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BTSStarTextEventEffect* ____btsStarTextEventEffect;
+  ::UnityW<::GlobalNamespace::BTSStarTextEventEffect> ____btsStarTextEventEffect;
 
   /// @brief Field _btsStarTextEffectControllerPool, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::__BTSStarTextEffectController__Pool* ____btsStarTextEffectControllerPool;

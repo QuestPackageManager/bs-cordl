@@ -149,7 +149,7 @@ MARK_VAL_T(::System::IO::__BufferedStream___WriteToUnderlyingStreamAsync_d__63);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3601))
 // CS Name: ::BufferedStream::<>c*
 class CORDL_TYPE __BufferedStream____c : public ::System::Object {
@@ -201,7 +201,7 @@ static_assert(::cordl_internals::size_check_v<::System::IO::__BufferedStream____
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3361)), TypeDefinitionIndex(TypeDefinitionIndex(3357)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3357)), TypeDefinitionIndex(TypeDefinitionIndex(3361)), TypeDefinitionIndex(TypeDefinitionIndex(3395))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3602))
 // CS Name: ::BufferedStream::<DisposeAsync>d__34
 struct CORDL_TYPE __BufferedStream___DisposeAsync_d__34 {
@@ -280,7 +280,7 @@ static_assert(offsetof(::System::IO::__BufferedStream___DisposeAsync_d__34, __u_
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3603))
 // CS Name: ::BufferedStream::<FlushAsyncInternal>d__38
 struct CORDL_TYPE __BufferedStream___FlushAsyncInternal_d__38 {
@@ -353,8 +353,8 @@ static_assert(offsetof(::System::IO::__BufferedStream___FlushAsyncInternal_d__38
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3361)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3604)) CS Name: ::BufferedStream::<FlushWriteAsync>d__42
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3361)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3401))] Self: TypeDefinitionIndex(TypeDefinitionIndex(3604)) CS Name: ::BufferedStream::<FlushWriteAsync>d__42
 struct CORDL_TYPE __BufferedStream___FlushWriteAsync_d__42 {
 public:
   // Declarations
@@ -427,10 +427,10 @@ static_assert(offsetof(::System::IO::__BufferedStream___FlushWriteAsync_d__42, _
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3363)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3358), inst: 98
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3358)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2437)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3363), inst: 98 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3605)) CS
-// Name: ::BufferedStream::<ReadFromUnderlyingStreamAsync>d__51
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2437)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3358)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3363)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3358), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3363), inst: 98 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(3605)) CS Name: ::BufferedStream::<ReadFromUnderlyingStreamAsync>d__51
 struct CORDL_TYPE __BufferedStream___ReadFromUnderlyingStreamAsync_d__51 {
 public:
   // Declarations
@@ -526,8 +526,8 @@ static_assert(offsetof(::System::IO::__BufferedStream___ReadFromUnderlyingStream
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2463)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3361)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2463), inst: 741 })} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2463)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3361)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2463), inst: 741 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(3606)) CS Name: ::BufferedStream::<WriteToUnderlyingStreamAsync>d__63
 struct CORDL_TYPE __BufferedStream___WriteToUnderlyingStreamAsync_d__63 {
 public:
@@ -613,8 +613,8 @@ static_assert(offsetof(::System::IO::__BufferedStream___WriteToUnderlyingStreamA
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3361)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3607)) CS Name: ::BufferedStream::<CopyToAsyncCore>d__71
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3361)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3401))] Self: TypeDefinitionIndex(TypeDefinitionIndex(3607)) CS Name: ::BufferedStream::<CopyToAsyncCore>d__71
 struct CORDL_TYPE __BufferedStream___CopyToAsyncCore_d__71 {
 public:
   // Declarations
@@ -698,7 +698,7 @@ static_assert(offsetof(::System::IO::__BufferedStream___CopyToAsyncCore_d__71, _
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3608))
 // CS Name: ::System.IO::BufferedStream*
 class CORDL_TYPE BufferedStream : public ::System::IO::Stream {
@@ -719,28 +719,29 @@ public:
   using __c = ::System::IO::__BufferedStream____c;
 
   /// @brief Field _stream, offset 0x28, size 0x8
-  __declspec(property(get = __get__stream, put = __set__stream))::System::IO::Stream* _stream;
+  __declspec(property(get = __cordl_internal_get__stream, put = __cordl_internal_set__stream))::System::IO::Stream* _stream;
 
   /// @brief Field _buffer, offset 0x30, size 0x8
-  __declspec(property(get = __get__buffer, put = __set__buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _buffer;
 
   /// @brief Field _bufferSize, offset 0x38, size 0x4
-  __declspec(property(get = __get__bufferSize, put = __set__bufferSize)) int32_t _bufferSize;
+  __declspec(property(get = __cordl_internal_get__bufferSize, put = __cordl_internal_set__bufferSize)) int32_t _bufferSize;
 
   /// @brief Field _readPos, offset 0x3c, size 0x4
-  __declspec(property(get = __get__readPos, put = __set__readPos)) int32_t _readPos;
+  __declspec(property(get = __cordl_internal_get__readPos, put = __cordl_internal_set__readPos)) int32_t _readPos;
 
   /// @brief Field _readLen, offset 0x40, size 0x4
-  __declspec(property(get = __get__readLen, put = __set__readLen)) int32_t _readLen;
+  __declspec(property(get = __cordl_internal_get__readLen, put = __cordl_internal_set__readLen)) int32_t _readLen;
 
   /// @brief Field _writePos, offset 0x44, size 0x4
-  __declspec(property(get = __get__writePos, put = __set__writePos)) int32_t _writePos;
+  __declspec(property(get = __cordl_internal_get__writePos, put = __cordl_internal_set__writePos)) int32_t _writePos;
 
   /// @brief Field _lastSyncCompletedReadTask, offset 0x48, size 0x8
-  __declspec(property(get = __get__lastSyncCompletedReadTask, put = __set__lastSyncCompletedReadTask))::System::Threading::Tasks::Task_1<int32_t>* _lastSyncCompletedReadTask;
+  __declspec(property(get = __cordl_internal_get__lastSyncCompletedReadTask,
+                      put = __cordl_internal_set__lastSyncCompletedReadTask))::System::Threading::Tasks::Task_1<int32_t>* _lastSyncCompletedReadTask;
 
   /// @brief Field _asyncActiveSemaphore, offset 0x50, size 0x8
-  __declspec(property(get = __get__asyncActiveSemaphore, put = __set__asyncActiveSemaphore))::System::Threading::SemaphoreSlim* _asyncActiveSemaphore;
+  __declspec(property(get = __cordl_internal_get__asyncActiveSemaphore, put = __cordl_internal_set__asyncActiveSemaphore))::System::Threading::SemaphoreSlim* _asyncActiveSemaphore;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -752,53 +753,53 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr ::System::IO::Stream*& __get__stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get__stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get__stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__stream() const;
 
-  constexpr void __set__stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set__stream(::System::IO::Stream* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__buffer() const;
 
-  constexpr void __set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__bufferSize();
+  constexpr int32_t& __cordl_internal_get__bufferSize();
 
-  constexpr int32_t const& __get__bufferSize() const;
+  constexpr int32_t const& __cordl_internal_get__bufferSize() const;
 
-  constexpr void __set__bufferSize(int32_t value);
+  constexpr void __cordl_internal_set__bufferSize(int32_t value);
 
-  constexpr int32_t& __get__readPos();
+  constexpr int32_t& __cordl_internal_get__readPos();
 
-  constexpr int32_t const& __get__readPos() const;
+  constexpr int32_t const& __cordl_internal_get__readPos() const;
 
-  constexpr void __set__readPos(int32_t value);
+  constexpr void __cordl_internal_set__readPos(int32_t value);
 
-  constexpr int32_t& __get__readLen();
+  constexpr int32_t& __cordl_internal_get__readLen();
 
-  constexpr int32_t const& __get__readLen() const;
+  constexpr int32_t const& __cordl_internal_get__readLen() const;
 
-  constexpr void __set__readLen(int32_t value);
+  constexpr void __cordl_internal_set__readLen(int32_t value);
 
-  constexpr int32_t& __get__writePos();
+  constexpr int32_t& __cordl_internal_get__writePos();
 
-  constexpr int32_t const& __get__writePos() const;
+  constexpr int32_t const& __cordl_internal_get__writePos() const;
 
-  constexpr void __set__writePos(int32_t value);
+  constexpr void __cordl_internal_set__writePos(int32_t value);
 
-  constexpr ::System::Threading::Tasks::Task_1<int32_t>*& __get__lastSyncCompletedReadTask();
+  constexpr ::System::Threading::Tasks::Task_1<int32_t>*& __cordl_internal_get__lastSyncCompletedReadTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<int32_t>*> const& __get__lastSyncCompletedReadTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<int32_t>*> const& __cordl_internal_get__lastSyncCompletedReadTask() const;
 
-  constexpr void __set__lastSyncCompletedReadTask(::System::Threading::Tasks::Task_1<int32_t>* value);
+  constexpr void __cordl_internal_set__lastSyncCompletedReadTask(::System::Threading::Tasks::Task_1<int32_t>* value);
 
-  constexpr ::System::Threading::SemaphoreSlim*& __get__asyncActiveSemaphore();
+  constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__asyncActiveSemaphore();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __get__asyncActiveSemaphore() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__asyncActiveSemaphore() const;
 
-  constexpr void __set__asyncActiveSemaphore(::System::Threading::SemaphoreSlim* value);
+  constexpr void __cordl_internal_set__asyncActiveSemaphore(::System::Threading::SemaphoreSlim* value);
 
   /// @brief Method LazyEnsureAsyncActiveSemaphoreInitialized, addr 0x250fd10, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::SemaphoreSlim* LazyEnsureAsyncActiveSemaphoreInitialized();

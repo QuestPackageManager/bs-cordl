@@ -42,7 +42,7 @@ MARK_VAL_T(::TMPro::ColorTween);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12338))
 // CS Name: ::ColorTween::ColorTweenMode
 struct CORDL_TYPE __ColorTween__ColorTweenMode {
@@ -96,8 +96,8 @@ static_assert(offsetof(::TMPro::__ColorTween__ColorTweenMode, value__) == 0x0, "
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 293 }), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10465))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12339)) CS Name: ::ColorTween::ColorTweenCallback*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
+// 293 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12339)) CS Name: ::ColorTween::ColorTweenCallback*
 class CORDL_TYPE __ColorTween__ColorTweenCallback : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color> {
 public:
   // Declarations
@@ -130,7 +130,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__ColorTween__ColorTweenC
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(12338))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(12338))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12340))
 // CS Name: ::TMPro::ColorTween
 struct CORDL_TYPE ColorTween {

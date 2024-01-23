@@ -24,51 +24,51 @@ MARK_REF_PTR_T(::System::Globalization::SortKey);
 // SizeInfo { instance_size: 40, native_size: 24, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3659))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3659))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3710))
 // CS Name: ::System.Globalization::SortKey*
 class CORDL_TYPE SortKey : public ::System::Object {
 public:
   // Declarations
   /// @brief Field source, offset 0x10, size 0x8
-  __declspec(property(get = __get_source, put = __set_source))::StringW source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::StringW source;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::ArrayW<uint8_t, ::Array<uint8_t>*> key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::ArrayW<uint8_t, ::Array<uint8_t>*> key;
 
   /// @brief Field options, offset 0x20, size 0x4
-  __declspec(property(get = __get_options, put = __set_options))::System::Globalization::CompareOptions options;
+  __declspec(property(get = __cordl_internal_get_options, put = __cordl_internal_set_options))::System::Globalization::CompareOptions options;
 
   /// @brief Field lcid, offset 0x24, size 0x4
-  __declspec(property(get = __get_lcid, put = __set_lcid)) int32_t lcid;
+  __declspec(property(get = __cordl_internal_get_lcid, put = __cordl_internal_set_lcid)) int32_t lcid;
 
   __declspec(property(get = get_OriginalString))::StringW OriginalString;
 
   __declspec(property(get = get_KeyData))::ArrayW<uint8_t, ::Array<uint8_t>*> KeyData;
 
-  constexpr ::StringW& __get_source();
+  constexpr ::StringW& __cordl_internal_get_source();
 
-  constexpr ::StringW const& __get_source() const;
+  constexpr ::StringW const& __cordl_internal_get_source() const;
 
-  constexpr void __set_source(::StringW value);
+  constexpr void __cordl_internal_set_source(::StringW value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_key();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_key();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_key() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Globalization::CompareOptions& __get_options();
+  constexpr ::System::Globalization::CompareOptions& __cordl_internal_get_options();
 
-  constexpr ::System::Globalization::CompareOptions const& __get_options() const;
+  constexpr ::System::Globalization::CompareOptions const& __cordl_internal_get_options() const;
 
-  constexpr void __set_options(::System::Globalization::CompareOptions value);
+  constexpr void __cordl_internal_set_options(::System::Globalization::CompareOptions value);
 
-  constexpr int32_t& __get_lcid();
+  constexpr int32_t& __cordl_internal_get_lcid();
 
-  constexpr int32_t const& __get_lcid() const;
+  constexpr int32_t const& __cordl_internal_get_lcid() const;
 
-  constexpr void __set_lcid(int32_t value);
+  constexpr void __cordl_internal_set_lcid(int32_t value);
 
   /// @brief Method Compare, addr 0x256b2d0, size 0x174, virtual false, abstract: false, final false
   static inline int32_t Compare(::System::Globalization::SortKey* sortkey1, ::System::Globalization::SortKey* sortkey2);

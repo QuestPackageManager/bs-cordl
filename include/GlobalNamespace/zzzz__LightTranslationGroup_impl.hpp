@@ -15,9 +15,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23aa7e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
-                                                                               "get_xTranslationLimits", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_xTranslationLimits", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -29,9 +29,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23aa7f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
-                                                                               "get_yTranslationLimits", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_yTranslationLimits", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -43,9 +43,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23aa7f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
-                                                                               "get_zTranslationLimits", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_zTranslationLimits", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -57,9 +57,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23aa800;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
-                                                                               "get_xDistributionLimits", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_xDistributionLimits", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -71,9 +71,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23aa808;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
-                                                                               "get_yDistributionLimits", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_yDistributionLimits", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -85,9 +85,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23aa810;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
-                                                                               "get_zDistributionLimits", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_zDistributionLimits", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -98,9 +98,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x21c;
   constexpr static std::size_t addrs = 0x23aa818;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(), "__Validate",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -111,9 +111,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x23aaa34;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -125,119 +125,119 @@ constexpr GlobalNamespace::LightTranslationGroup::operator ::GlobalNamespace::IE
 constexpr ::GlobalNamespace::IEditTimeValidated* GlobalNamespace::LightTranslationGroup::i___GlobalNamespace__IEditTimeValidated() noexcept {
   return static_cast<::GlobalNamespace::IEditTimeValidated*>(static_cast<void*>(this));
 }
-constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__get__xTranslationLimits() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__cordl_internal_get__xTranslationLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xTranslationLimits;
 }
-constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__get__xTranslationLimits() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__cordl_internal_get__xTranslationLimits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xTranslationLimits;
 }
-constexpr void GlobalNamespace::LightTranslationGroup::__set__xTranslationLimits(::UnityEngine::Vector2 value) {
+constexpr void GlobalNamespace::LightTranslationGroup::__cordl_internal_set__xTranslationLimits(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xTranslationLimits = value;
 }
-constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__get__yTranslationLimits() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__cordl_internal_get__yTranslationLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yTranslationLimits;
 }
-constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__get__yTranslationLimits() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__cordl_internal_get__yTranslationLimits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yTranslationLimits;
 }
-constexpr void GlobalNamespace::LightTranslationGroup::__set__yTranslationLimits(::UnityEngine::Vector2 value) {
+constexpr void GlobalNamespace::LightTranslationGroup::__cordl_internal_set__yTranslationLimits(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yTranslationLimits = value;
 }
-constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__get__zTranslationLimits() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__cordl_internal_get__zTranslationLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zTranslationLimits;
 }
-constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__get__zTranslationLimits() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__cordl_internal_get__zTranslationLimits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zTranslationLimits;
 }
-constexpr void GlobalNamespace::LightTranslationGroup::__set__zTranslationLimits(::UnityEngine::Vector2 value) {
+constexpr void GlobalNamespace::LightTranslationGroup::__cordl_internal_set__zTranslationLimits(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____zTranslationLimits = value;
 }
-constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__get__xDistributionLimits() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__cordl_internal_get__xDistributionLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xDistributionLimits;
 }
-constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__get__xDistributionLimits() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__cordl_internal_get__xDistributionLimits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xDistributionLimits;
 }
-constexpr void GlobalNamespace::LightTranslationGroup::__set__xDistributionLimits(::UnityEngine::Vector2 value) {
+constexpr void GlobalNamespace::LightTranslationGroup::__cordl_internal_set__xDistributionLimits(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xDistributionLimits = value;
 }
-constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__get__yDistributionLimits() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__cordl_internal_get__yDistributionLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yDistributionLimits;
 }
-constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__get__yDistributionLimits() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__cordl_internal_get__yDistributionLimits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____yDistributionLimits;
 }
-constexpr void GlobalNamespace::LightTranslationGroup::__set__yDistributionLimits(::UnityEngine::Vector2 value) {
+constexpr void GlobalNamespace::LightTranslationGroup::__cordl_internal_set__yDistributionLimits(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____yDistributionLimits = value;
 }
-constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__get__zDistributionLimits() {
+constexpr ::UnityEngine::Vector2& GlobalNamespace::LightTranslationGroup::__cordl_internal_get__zDistributionLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zDistributionLimits;
 }
-constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__get__zDistributionLimits() const {
+constexpr ::UnityEngine::Vector2 const& GlobalNamespace::LightTranslationGroup::__cordl_internal_get__zDistributionLimits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____zDistributionLimits;
 }
-constexpr void GlobalNamespace::LightTranslationGroup::__set__zDistributionLimits(::UnityEngine::Vector2 value) {
+constexpr void GlobalNamespace::LightTranslationGroup::__cordl_internal_set__zDistributionLimits(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____zDistributionLimits = value;
 }
 inline ::UnityEngine::Vector2 GlobalNamespace::LightTranslationGroup::get_xTranslationLimits() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
-                                                                             "get_xTranslationLimits", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_xTranslationLimits", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Vector2 GlobalNamespace::LightTranslationGroup::get_yTranslationLimits() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
-                                                                             "get_yTranslationLimits", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_yTranslationLimits", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Vector2 GlobalNamespace::LightTranslationGroup::get_zTranslationLimits() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
-                                                                             "get_zTranslationLimits", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_zTranslationLimits", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Vector2 GlobalNamespace::LightTranslationGroup::get_xDistributionLimits() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
-                                                                             "get_xDistributionLimits", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_xDistributionLimits", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Vector2 GlobalNamespace::LightTranslationGroup::get_yDistributionLimits() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
-                                                                             "get_yDistributionLimits", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_yDistributionLimits", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Vector2 GlobalNamespace::LightTranslationGroup::get_zDistributionLimits() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(),
-                                                                             "get_zDistributionLimits", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_zDistributionLimits", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::LightTranslationGroup::__Validate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(), "__Validate",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::LightTranslationGroup* GlobalNamespace::LightTranslationGroup::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::LightTranslationGroup*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightTranslationGroup*>());
 }
 inline void GlobalNamespace::LightTranslationGroup::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroup*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

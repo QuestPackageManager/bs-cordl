@@ -31,7 +31,7 @@ namespace Newtonsoft::Json::Converters {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11830))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11830))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12031))
 // CS Name: ::Newtonsoft.Json.Converters::CustomCreationConverter`1<T>*
 class CORDL_TYPE CustomCreationConverter_1 : public ::Newtonsoft::Json::JsonConverter {

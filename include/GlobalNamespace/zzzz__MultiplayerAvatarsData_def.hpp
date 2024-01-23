@@ -43,7 +43,7 @@ MARK_VAL_T(::GlobalNamespace::MultiplayerAvatarsData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14989))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14989))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15021))
 // CS Name: ::MultiplayerAvatarsData
 struct CORDL_TYPE MultiplayerAvatarsData {

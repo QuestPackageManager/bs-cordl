@@ -29,38 +29,38 @@ MARK_REF_PTR_T(::GlobalNamespace::__CoreGameHUDController__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 19, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5031))
 // CS Name: ::CoreGameHUDController::InitData*
 class CORDL_TYPE __CoreGameHUDController__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field hide, offset 0x10, size 0x1
-  __declspec(property(get = __get_hide, put = __set_hide)) bool hide;
+  __declspec(property(get = __cordl_internal_get_hide, put = __cordl_internal_set_hide)) bool hide;
 
   /// @brief Field showEnergyPanel, offset 0x11, size 0x1
-  __declspec(property(get = __get_showEnergyPanel, put = __set_showEnergyPanel)) bool showEnergyPanel;
+  __declspec(property(get = __cordl_internal_get_showEnergyPanel, put = __cordl_internal_set_showEnergyPanel)) bool showEnergyPanel;
 
   /// @brief Field advancedHUD, offset 0x12, size 0x1
-  __declspec(property(get = __get_advancedHUD, put = __set_advancedHUD)) bool advancedHUD;
+  __declspec(property(get = __cordl_internal_get_advancedHUD, put = __cordl_internal_set_advancedHUD)) bool advancedHUD;
 
-  constexpr bool& __get_hide();
+  constexpr bool& __cordl_internal_get_hide();
 
-  constexpr bool const& __get_hide() const;
+  constexpr bool const& __cordl_internal_get_hide() const;
 
-  constexpr void __set_hide(bool value);
+  constexpr void __cordl_internal_set_hide(bool value);
 
-  constexpr bool& __get_showEnergyPanel();
+  constexpr bool& __cordl_internal_get_showEnergyPanel();
 
-  constexpr bool const& __get_showEnergyPanel() const;
+  constexpr bool const& __cordl_internal_get_showEnergyPanel() const;
 
-  constexpr void __set_showEnergyPanel(bool value);
+  constexpr void __cordl_internal_set_showEnergyPanel(bool value);
 
-  constexpr bool& __get_advancedHUD();
+  constexpr bool& __cordl_internal_get_advancedHUD();
 
-  constexpr bool const& __get_advancedHUD() const;
+  constexpr bool const& __cordl_internal_get_advancedHUD() const;
 
-  constexpr void __set_advancedHUD(bool value);
+  constexpr void __cordl_internal_set_advancedHUD(bool value);
 
   static inline ::GlobalNamespace::__CoreGameHUDController__InitData* New_ctor(bool hide, bool showEnergyPanel, bool advancedHUD);
 
@@ -106,7 +106,7 @@ static_assert(offsetof(::GlobalNamespace::__CoreGameHUDController__InitData, ___
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5032))
 // CS Name: ::CoreGameHUDController*
 class CORDL_TYPE CoreGameHUDController : public ::UnityEngine::MonoBehaviour {
@@ -115,71 +115,71 @@ public:
   using InitData = ::GlobalNamespace::__CoreGameHUDController__InitData;
 
   /// @brief Field _songProgressPanelGO, offset 0x18, size 0x8
-  __declspec(property(get = __get__songProgressPanelGO, put = __set__songProgressPanelGO))::UnityEngine::GameObject* _songProgressPanelGO;
+  __declspec(property(get = __cordl_internal_get__songProgressPanelGO, put = __cordl_internal_set__songProgressPanelGO))::UnityW<::UnityEngine::GameObject> _songProgressPanelGO;
 
   /// @brief Field _relativeScoreGO, offset 0x20, size 0x8
-  __declspec(property(get = __get__relativeScoreGO, put = __set__relativeScoreGO))::UnityEngine::GameObject* _relativeScoreGO;
+  __declspec(property(get = __cordl_internal_get__relativeScoreGO, put = __cordl_internal_set__relativeScoreGO))::UnityW<::UnityEngine::GameObject> _relativeScoreGO;
 
   /// @brief Field _immediateRankGO, offset 0x28, size 0x8
-  __declspec(property(get = __get__immediateRankGO, put = __set__immediateRankGO))::UnityEngine::GameObject* _immediateRankGO;
+  __declspec(property(get = __cordl_internal_get__immediateRankGO, put = __cordl_internal_set__immediateRankGO))::UnityW<::UnityEngine::GameObject> _immediateRankGO;
 
   /// @brief Field _energyPanelGO, offset 0x30, size 0x8
-  __declspec(property(get = __get__energyPanelGO, put = __set__energyPanelGO))::UnityEngine::GameObject* _energyPanelGO;
+  __declspec(property(get = __cordl_internal_get__energyPanelGO, put = __cordl_internal_set__energyPanelGO))::UnityW<::UnityEngine::GameObject> _energyPanelGO;
 
   /// @brief Field _canvasGroup, offset 0x38, size 0x8
-  __declspec(property(get = __get__canvasGroup, put = __set__canvasGroup))::UnityEngine::CanvasGroup* _canvasGroup;
+  __declspec(property(get = __cordl_internal_get__canvasGroup, put = __cordl_internal_set__canvasGroup))::UnityW<::UnityEngine::CanvasGroup> _canvasGroup;
 
-  __declspec(property(get = get_songProgressPanelGO))::UnityEngine::GameObject* songProgressPanelGO;
+  __declspec(property(get = get_songProgressPanelGO))::UnityW<::UnityEngine::GameObject> songProgressPanelGO;
 
-  __declspec(property(get = get_relativeScoreGo))::UnityEngine::GameObject* relativeScoreGo;
+  __declspec(property(get = get_relativeScoreGo))::UnityW<::UnityEngine::GameObject> relativeScoreGo;
 
-  __declspec(property(get = get_immediateRankGo))::UnityEngine::GameObject* immediateRankGo;
+  __declspec(property(get = get_immediateRankGo))::UnityW<::UnityEngine::GameObject> immediateRankGo;
 
-  __declspec(property(get = get_energyPanelGo))::UnityEngine::GameObject* energyPanelGo;
+  __declspec(property(get = get_energyPanelGo))::UnityW<::UnityEngine::GameObject> energyPanelGo;
 
   __declspec(property(put = set_alpha)) float_t alpha;
 
-  constexpr ::UnityEngine::GameObject*& __get__songProgressPanelGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__songProgressPanelGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__songProgressPanelGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__songProgressPanelGO() const;
 
-  constexpr void __set__songProgressPanelGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__songProgressPanelGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__relativeScoreGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__relativeScoreGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__relativeScoreGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__relativeScoreGO() const;
 
-  constexpr void __set__relativeScoreGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__relativeScoreGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__immediateRankGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__immediateRankGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__immediateRankGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__immediateRankGO() const;
 
-  constexpr void __set__immediateRankGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__immediateRankGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__energyPanelGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__energyPanelGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__energyPanelGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__energyPanelGO() const;
 
-  constexpr void __set__energyPanelGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__energyPanelGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__canvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__canvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__canvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
 
-  constexpr void __set__canvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__canvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
   /// @brief Method get_songProgressPanelGO, addr 0x23bff94, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_songProgressPanelGO();
+  inline ::UnityW<::UnityEngine::GameObject> get_songProgressPanelGO();
 
   /// @brief Method get_relativeScoreGo, addr 0x23bff9c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_relativeScoreGo();
+  inline ::UnityW<::UnityEngine::GameObject> get_relativeScoreGo();
 
   /// @brief Method get_immediateRankGo, addr 0x23bffa4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_immediateRankGo();
+  inline ::UnityW<::UnityEngine::GameObject> get_immediateRankGo();
 
   /// @brief Method get_energyPanelGo, addr 0x23bffac, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_energyPanelGo();
+  inline ::UnityW<::UnityEngine::GameObject> get_energyPanelGo();
 
   /// @brief Method set_alpha, addr 0x23bffb4, size 0x1c, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
@@ -207,19 +207,19 @@ protected:
 
 public:
   /// @brief Field _songProgressPanelGO, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____songProgressPanelGO;
+  ::UnityW<::UnityEngine::GameObject> ____songProgressPanelGO;
 
   /// @brief Field _relativeScoreGO, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____relativeScoreGO;
+  ::UnityW<::UnityEngine::GameObject> ____relativeScoreGO;
 
   /// @brief Field _immediateRankGO, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____immediateRankGO;
+  ::UnityW<::UnityEngine::GameObject> ____immediateRankGO;
 
   /// @brief Field _energyPanelGO, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____energyPanelGO;
+  ::UnityW<::UnityEngine::GameObject> ____energyPanelGO;
 
   /// @brief Field _canvasGroup, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____canvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

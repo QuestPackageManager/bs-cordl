@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x210f27c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InstancedMaterialLightWithId*>::get(),
@@ -28,9 +28,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x104;
   constexpr static std::size_t addrs = 0x210f2fc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InstancedMaterialLightWithId*>::get(),
-                                                                               "AddNecessaryComponents", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "AddNecessaryComponents", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -42,94 +42,93 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x210f400;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InstancedMaterialLightWithId*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::MaterialPropertyBlockColorSetter*& GlobalNamespace::InstancedMaterialLightWithId::__get__materialPropertyBlockColorSetter() {
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter>& GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_get__materialPropertyBlockColorSetter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlockColorSetter;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockColorSetter*> const&
-GlobalNamespace::InstancedMaterialLightWithId::__get__materialPropertyBlockColorSetter() const {
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> const& GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_get__materialPropertyBlockColorSetter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____materialPropertyBlockColorSetter;
 }
-constexpr void GlobalNamespace::InstancedMaterialLightWithId::__set__materialPropertyBlockColorSetter(::GlobalNamespace::MaterialPropertyBlockColorSetter* value) {
+constexpr void GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_set__materialPropertyBlockColorSetter(::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____materialPropertyBlockColorSetter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::InstancedMaterialLightWithId::__get__setColorOnly() {
+constexpr bool& GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_get__setColorOnly() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setColorOnly;
 }
-constexpr bool const& GlobalNamespace::InstancedMaterialLightWithId::__get__setColorOnly() const {
+constexpr bool const& GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_get__setColorOnly() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setColorOnly;
 }
-constexpr void GlobalNamespace::InstancedMaterialLightWithId::__set__setColorOnly(bool value) {
+constexpr void GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_set__setColorOnly(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____setColorOnly = value;
 }
-constexpr float_t& GlobalNamespace::InstancedMaterialLightWithId::__get__intensity() {
+constexpr float_t& GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_get__intensity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
-constexpr float_t const& GlobalNamespace::InstancedMaterialLightWithId::__get__intensity() const {
+constexpr float_t const& GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_get__intensity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
-constexpr void GlobalNamespace::InstancedMaterialLightWithId::__set__intensity(float_t value) {
+constexpr void GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_set__intensity(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____intensity = value;
 }
-constexpr float_t& GlobalNamespace::InstancedMaterialLightWithId::__get__minAlpha() {
+constexpr float_t& GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_get__minAlpha() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minAlpha;
 }
-constexpr float_t const& GlobalNamespace::InstancedMaterialLightWithId::__get__minAlpha() const {
+constexpr float_t const& GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_get__minAlpha() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____minAlpha;
 }
-constexpr void GlobalNamespace::InstancedMaterialLightWithId::__set__minAlpha(float_t value) {
+constexpr void GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_set__minAlpha(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minAlpha = value;
 }
-constexpr bool& GlobalNamespace::InstancedMaterialLightWithId::__get__hdr() {
+constexpr bool& GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_get__hdr() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hdr;
 }
-constexpr bool const& GlobalNamespace::InstancedMaterialLightWithId::__get__hdr() const {
+constexpr bool const& GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_get__hdr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hdr;
 }
-constexpr void GlobalNamespace::InstancedMaterialLightWithId::__set__hdr(bool value) {
+constexpr void GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_set__hdr(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hdr = value;
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::InstancedMaterialLightWithId::__get__color() {
+constexpr ::UnityEngine::Color& GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_get__color() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::InstancedMaterialLightWithId::__get__color() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_get__color() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
-constexpr void GlobalNamespace::InstancedMaterialLightWithId::__set__color(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_set__color(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____color = value;
 }
-constexpr bool& GlobalNamespace::InstancedMaterialLightWithId::__get__startColorWasSet() {
+constexpr bool& GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_get__startColorWasSet() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startColorWasSet;
 }
-constexpr bool const& GlobalNamespace::InstancedMaterialLightWithId::__get__startColorWasSet() const {
+constexpr bool const& GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_get__startColorWasSet() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startColorWasSet;
 }
-constexpr void GlobalNamespace::InstancedMaterialLightWithId::__set__startColorWasSet(bool value) {
+constexpr void GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_set__startColorWasSet(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startColorWasSet = value;
 }
@@ -140,15 +139,15 @@ inline void GlobalNamespace::InstancedMaterialLightWithId::ColorWasSet(::UnityEn
 }
 inline void GlobalNamespace::InstancedMaterialLightWithId::AddNecessaryComponents() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InstancedMaterialLightWithId*>::get(),
-                                                                             "AddNecessaryComponents", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "AddNecessaryComponents", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::InstancedMaterialLightWithId* GlobalNamespace::InstancedMaterialLightWithId::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::InstancedMaterialLightWithId*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::InstancedMaterialLightWithId*>());
 }
 inline void GlobalNamespace::InstancedMaterialLightWithId::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InstancedMaterialLightWithId*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

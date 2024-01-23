@@ -21,41 +21,42 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleControllerBase);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4793))
 // CS Name: ::ObstacleControllerBase*
 class CORDL_TYPE ObstacleControllerBase : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field didInitEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_didInitEvent, put = __set_didInitEvent))::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>* didInitEvent;
+  __declspec(property(get = __cordl_internal_get_didInitEvent, put = __cordl_internal_set_didInitEvent))::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>* didInitEvent;
 
   /// @brief Field didStartDissolvingEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_didStartDissolvingEvent, put = __set_didStartDissolvingEvent))::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>* didStartDissolvingEvent;
+  __declspec(property(get = __cordl_internal_get_didStartDissolvingEvent,
+                      put = __cordl_internal_set_didStartDissolvingEvent))::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>* didStartDissolvingEvent;
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>*& __get_didInitEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>*& __cordl_internal_get_didInitEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>*> const& __get_didInitEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>*> const& __cordl_internal_get_didInitEvent() const;
 
-  constexpr void __set_didInitEvent(::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>* value);
+  constexpr void __cordl_internal_set_didInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>*& __get_didStartDissolvingEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>*& __cordl_internal_get_didStartDissolvingEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>*> const& __get_didStartDissolvingEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>*> const& __cordl_internal_get_didStartDissolvingEvent() const;
 
-  constexpr void __set_didStartDissolvingEvent(::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>* value);
+  constexpr void __cordl_internal_set_didStartDissolvingEvent(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>* value);
 
   /// @brief Method add_didInitEvent, addr 0x238e160, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didInitEvent(::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>* value);
+  inline void add_didInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>* value);
 
   /// @brief Method remove_didInitEvent, addr 0x238e210, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didInitEvent(::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>* value);
+  inline void remove_didInitEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>* value);
 
   /// @brief Method add_didStartDissolvingEvent, addr 0x238cff0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didStartDissolvingEvent(::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>* value);
+  inline void add_didStartDissolvingEvent(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>* value);
 
   /// @brief Method remove_didStartDissolvingEvent, addr 0x238ca3c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didStartDissolvingEvent(::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>* value);
+  inline void remove_didStartDissolvingEvent(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>* value);
 
   /// @brief Method InvokeDidInitEvent, addr 0x238d0a0, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeDidInitEvent(::GlobalNamespace::ObstacleControllerBase* obstacleController);
@@ -83,10 +84,10 @@ protected:
 
 public:
   /// @brief Field didInitEvent, offset: 0x18, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ObstacleControllerBase*>* ___didInitEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleControllerBase>>* ___didInitEvent;
 
   /// @brief Field didStartDissolvingEvent, offset: 0x20, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::ObstacleControllerBase*, float_t>* ___didStartDissolvingEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::ObstacleControllerBase>, float_t>* ___didStartDissolvingEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

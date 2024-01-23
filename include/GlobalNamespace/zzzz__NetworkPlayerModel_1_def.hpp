@@ -175,17 +175,17 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14953))
 // CS Name: ::NetworkPlayerModel`1::NetworkPlayer<T>*
 class CORDL_TYPE __NetworkPlayerModel_1__NetworkPlayer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _playerModel, offset 0x10, size 0x8
-  __declspec(property(get = __get__playerModel, put = __set__playerModel))::GlobalNamespace::NetworkPlayerModel_1<T>* _playerModel;
+  __declspec(property(get = __cordl_internal_get__playerModel, put = __cordl_internal_set__playerModel))::UnityW<T> _playerModel;
 
   /// @brief Field _connectedPlayer, offset 0x18, size 0x8
-  __declspec(property(get = __get__connectedPlayer, put = __set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
+  __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer))::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
   __declspec(property(get = get_userId))::StringW userId;
 
@@ -229,17 +229,17 @@ public:
   /// @brief Convert to "::GlobalNamespace::INetworkPlayer"
   constexpr ::GlobalNamespace::INetworkPlayer* i___GlobalNamespace__INetworkPlayer() noexcept;
 
-  constexpr ::GlobalNamespace::NetworkPlayerModel_1<T>*& __get__playerModel();
+  constexpr ::UnityW<T>& __cordl_internal_get__playerModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPlayerModel_1<T>*> const& __get__playerModel() const;
+  constexpr ::UnityW<T> const& __cordl_internal_get__playerModel() const;
 
-  constexpr void __set__playerModel(::GlobalNamespace::NetworkPlayerModel_1<T>* value);
+  constexpr void __cordl_internal_set__playerModel(::UnityW<T> value);
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __get__connectedPlayer();
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__connectedPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __get__connectedPlayer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__connectedPlayer() const;
 
-  constexpr void __set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
   static inline ::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* New_ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel, ::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
@@ -342,7 +342,7 @@ protected:
 
 public:
   /// @brief Field _playerModel, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::NetworkPlayerModel_1<T>* ____playerModel;
+  ::UnityW<T> ____playerModel;
 
   /// @brief Field _connectedPlayer, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
@@ -357,36 +357,35 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14937))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14937))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14954))
 // CS Name: ::NetworkPlayerModel`1::JoinMatchmakingPartyConfig<T>*
 class CORDL_TYPE __NetworkPlayerModel_1__JoinMatchmakingPartyConfig : public ::GlobalNamespace::__BaseNetworkPlayerModel__PartyConfig {
 public:
   // Declarations
   /// @brief Field secret, offset 0x58, size 0x8
-  __declspec(property(get = __get_secret, put = __set_secret))::StringW secret;
+  __declspec(property(get = __cordl_internal_get_secret, put = __cordl_internal_set_secret))::StringW secret;
 
   /// @brief Field code, offset 0x60, size 0x8
-  __declspec(property(get = __get_code, put = __set_code))::StringW code;
+  __declspec(property(get = __cordl_internal_get_code, put = __cordl_internal_set_code))::StringW code;
 
-  /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
-  constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>"
+  constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
-  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*
-  i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___GlobalNamespace__NetworkPlayerModel_1_T___() noexcept;
+  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>"
+  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>* i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___UnityW_T__() noexcept;
 
-  constexpr ::StringW& __get_secret();
+  constexpr ::StringW& __cordl_internal_get_secret();
 
-  constexpr ::StringW const& __get_secret() const;
+  constexpr ::StringW const& __cordl_internal_get_secret() const;
 
-  constexpr void __set_secret(::StringW value);
+  constexpr void __cordl_internal_set_secret(::StringW value);
 
-  constexpr ::StringW& __get_code();
+  constexpr ::StringW& __cordl_internal_get_code();
 
-  constexpr ::StringW const& __get_code() const;
+  constexpr ::StringW const& __cordl_internal_get_code() const;
 
-  constexpr void __set_code(::StringW value);
+  constexpr void __cordl_internal_set_code(::StringW value);
 
   static inline ::GlobalNamespace::__NetworkPlayerModel_1__JoinMatchmakingPartyConfig<T>* New_ctor();
 
@@ -423,18 +422,17 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14937))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14937))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14955))
 // CS Name: ::NetworkPlayerModel`1::StartClientPartyConfig<T>*
 class CORDL_TYPE __NetworkPlayerModel_1__StartClientPartyConfig : public ::GlobalNamespace::__BaseNetworkPlayerModel__PartyConfig {
 public:
   // Declarations
-  /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
-  constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*() noexcept;
+  /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>"
+  constexpr operator ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>*() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>"
-  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::GlobalNamespace::NetworkPlayerModel_1<T>*>*
-  i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___GlobalNamespace__NetworkPlayerModel_1_T___() noexcept;
+  /// @brief Convert to "::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>"
+  constexpr ::GlobalNamespace::INetworkPlayerModelPartyConfig_1<::UnityW<T>>* i___GlobalNamespace__INetworkPlayerModelPartyConfig_1___UnityW_T__() noexcept;
 
   static inline ::GlobalNamespace::__NetworkPlayerModel_1__StartClientPartyConfig<T>* New_ctor();
 
@@ -465,29 +463,29 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14956))
 // CS Name: ::NetworkPlayerModel`1::NetworkServer<T>*
 class CORDL_TYPE __NetworkPlayerModel_1__NetworkServer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _playerModel, offset 0x10, size 0x8
-  __declspec(property(get = __get__playerModel, put = __set__playerModel))::GlobalNamespace::NetworkPlayerModel_1<T>* _playerModel;
+  __declspec(property(get = __cordl_internal_get__playerModel, put = __cordl_internal_set__playerModel))::UnityW<T> _playerModel;
 
   /// @brief Field _code, offset 0x18, size 0x8
-  __declspec(property(get = __get__code, put = __set__code))::StringW _code;
+  __declspec(property(get = __cordl_internal_get__code, put = __cordl_internal_set__code))::StringW _code;
 
   /// @brief Field _selectionMask, offset 0x20, size 0x28
-  __declspec(property(get = __get__selectionMask, put = __set__selectionMask))::GlobalNamespace::BeatmapLevelSelectionMask _selectionMask;
+  __declspec(property(get = __cordl_internal_get__selectionMask, put = __cordl_internal_set__selectionMask))::GlobalNamespace::BeatmapLevelSelectionMask _selectionMask;
 
   /// @brief Field _configuration, offset 0x48, size 0x18
-  __declspec(property(get = __get__configuration, put = __set__configuration))::GlobalNamespace::GameplayServerConfiguration _configuration;
+  __declspec(property(get = __cordl_internal_get__configuration, put = __cordl_internal_set__configuration))::GlobalNamespace::GameplayServerConfiguration _configuration;
 
   /// @brief Field _currentPlayerCount, offset 0x60, size 0x4
-  __declspec(property(get = __get__currentPlayerCount, put = __set__currentPlayerCount)) int32_t _currentPlayerCount;
+  __declspec(property(get = __cordl_internal_get__currentPlayerCount, put = __cordl_internal_set__currentPlayerCount)) int32_t _currentPlayerCount;
 
   /// @brief Field _lastUpdateTime, offset 0x64, size 0x4
-  __declspec(property(get = __get__lastUpdateTime, put = __set__lastUpdateTime)) float_t _lastUpdateTime;
+  __declspec(property(get = __cordl_internal_get__lastUpdateTime, put = __cordl_internal_set__lastUpdateTime)) float_t _lastUpdateTime;
 
   __declspec(property(get = INetworkPlayer_get_userId))::StringW INetworkPlayer_userId;
 
@@ -535,41 +533,41 @@ public:
   /// @brief Convert to "::GlobalNamespace::INetworkPlayer"
   constexpr ::GlobalNamespace::INetworkPlayer* i___GlobalNamespace__INetworkPlayer() noexcept;
 
-  constexpr ::GlobalNamespace::NetworkPlayerModel_1<T>*& __get__playerModel();
+  constexpr ::UnityW<T>& __cordl_internal_get__playerModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPlayerModel_1<T>*> const& __get__playerModel() const;
+  constexpr ::UnityW<T> const& __cordl_internal_get__playerModel() const;
 
-  constexpr void __set__playerModel(::GlobalNamespace::NetworkPlayerModel_1<T>* value);
+  constexpr void __cordl_internal_set__playerModel(::UnityW<T> value);
 
-  constexpr ::StringW& __get__code();
+  constexpr ::StringW& __cordl_internal_get__code();
 
-  constexpr ::StringW const& __get__code() const;
+  constexpr ::StringW const& __cordl_internal_get__code() const;
 
-  constexpr void __set__code(::StringW value);
+  constexpr void __cordl_internal_set__code(::StringW value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __get__selectionMask();
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __cordl_internal_get__selectionMask();
 
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __get__selectionMask() const;
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __cordl_internal_get__selectionMask() const;
 
-  constexpr void __set__selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
+  constexpr void __cordl_internal_set__selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
 
-  constexpr ::GlobalNamespace::GameplayServerConfiguration& __get__configuration();
+  constexpr ::GlobalNamespace::GameplayServerConfiguration& __cordl_internal_get__configuration();
 
-  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __get__configuration() const;
+  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __cordl_internal_get__configuration() const;
 
-  constexpr void __set__configuration(::GlobalNamespace::GameplayServerConfiguration value);
+  constexpr void __cordl_internal_set__configuration(::GlobalNamespace::GameplayServerConfiguration value);
 
-  constexpr int32_t& __get__currentPlayerCount();
+  constexpr int32_t& __cordl_internal_get__currentPlayerCount();
 
-  constexpr int32_t const& __get__currentPlayerCount() const;
+  constexpr int32_t const& __cordl_internal_get__currentPlayerCount() const;
 
-  constexpr void __set__currentPlayerCount(int32_t value);
+  constexpr void __cordl_internal_set__currentPlayerCount(int32_t value);
 
-  constexpr float_t& __get__lastUpdateTime();
+  constexpr float_t& __cordl_internal_get__lastUpdateTime();
 
-  constexpr float_t const& __get__lastUpdateTime() const;
+  constexpr float_t const& __cordl_internal_get__lastUpdateTime() const;
 
-  constexpr void __set__lastUpdateTime(float_t value);
+  constexpr void __cordl_internal_set__lastUpdateTime(float_t value);
 
   static inline ::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>* New_ctor(::GlobalNamespace::NetworkPlayerModel_1<T>* playerModel, ::StringW code,
                                                                                       ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
@@ -684,7 +682,7 @@ protected:
 
 public:
   /// @brief Field _playerModel, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::NetworkPlayerModel_1<T>* ____playerModel;
+  ::UnityW<T> ____playerModel;
 
   /// @brief Field _code, offset: 0x18, size: 0x8, def value: None
   ::StringW ____code;
@@ -711,9 +709,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 885 }), TypeDefinitionIndex(TypeDefinitionIndex(15996)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(12775)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 410 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14957)) CS Name: ::NetworkPlayerModel`1::<InitAuthenticationTokenProvider>d__56<T>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(12775)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15996)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 885 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14957)) CS Name: ::NetworkPlayerModel`1::<InitAuthenticationTokenProvider>d__56<T>
 struct CORDL_TYPE __NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56 {
 public:
   // Declarations
@@ -731,12 +729,11 @@ public:
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IAuthenticationTokenProvider*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::NetworkPlayerModel_1<T>*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*>",
-  // modifiers: "", def_value: None }]
+  // "::UnityW<T>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*>", modifiers: "", def_value: None
+  // }]
   constexpr __NetworkPlayerModel_1___InitAuthenticationTokenProvider_d__56(int32_t __1__state,
                                                                            ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IAuthenticationTokenProvider*> __t__builder,
-                                                                           ::GlobalNamespace::NetworkPlayerModel_1<T>* __4__this,
-                                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__1) noexcept;
+                                                                           ::UnityW<T> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -749,7 +746,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IAuthenticationTokenProvider*> __t__builder;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::NetworkPlayerModel_1<T>* __4__this;
+  ::UnityW<T> __4__this;
 
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__1;
@@ -767,26 +764,26 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14958))
 // CS Name: ::NetworkPlayerModel`1::<GetPartyPlayers>d__57<T>*
 class CORDL_TYPE __NetworkPlayerModel_1___GetPartyPlayers_d__57 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::GlobalNamespace::INetworkPlayer* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::GlobalNamespace::INetworkPlayer* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::NetworkPlayerModel_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<T> __4__this;
 
   /// @brief Field <i>5__2, offset 0x30, size 0x4
-  __declspec(property(get = __get__i_5__2, put = __set__i_5__2)) int32_t _i_5__2;
+  __declspec(property(get = __cordl_internal_get__i_5__2, put = __cordl_internal_set__i_5__2)) int32_t _i_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current))::GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator_INetworkPlayer__Current;
 
@@ -822,35 +819,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::GlobalNamespace::INetworkPlayer*& __get___2__current();
+  constexpr ::GlobalNamespace::INetworkPlayer*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::GlobalNamespace::INetworkPlayer* value);
+  constexpr void __cordl_internal_set___2__current(::GlobalNamespace::INetworkPlayer* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::GlobalNamespace::NetworkPlayerModel_1<T>*& __get___4__this();
+  constexpr ::UnityW<T>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPlayerModel_1<T>*> const& __get___4__this() const;
+  constexpr ::UnityW<T> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::NetworkPlayerModel_1<T>* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<T> value);
 
-  constexpr int32_t& __get__i_5__2();
+  constexpr int32_t& __cordl_internal_get__i_5__2();
 
-  constexpr int32_t const& __get__i_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__2() const;
 
-  constexpr void __set__i_5__2(int32_t value);
+  constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
   static inline ::GlobalNamespace::__NetworkPlayerModel_1___GetPartyPlayers_d__57<T>* New_ctor(int32_t __1__state);
 
@@ -902,7 +899,7 @@ public:
   int32_t _____l__initialThreadId;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::NetworkPlayerModel_1<T>* _____4__this;
+  ::UnityW<T> _____4__this;
 
   /// @brief Field <i>5__2, offset: 0x30, size: 0x4, def value: None
   int32_t ____i_5__2;
@@ -917,26 +914,27 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1687
-// }), TypeDefinitionIndex(TypeDefinitionIndex(14956)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14956), inst: 4713 })} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(14956)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1687 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14956), inst: 4713 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(14959)) CS Name: ::NetworkPlayerModel`1::<GetOtherPlayers>d__58<T>*
 class CORDL_TYPE __NetworkPlayerModel_1___GetOtherPlayers_d__58 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::GlobalNamespace::INetworkPlayer* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::GlobalNamespace::INetworkPlayer* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::NetworkPlayerModel_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<T> __4__this;
 
   /// @brief Field <>7__wrap1, offset 0x30, size 0x18
-  __declspec(property(get = __get___7__wrap1, put = __set___7__wrap1))::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*> __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1,
+                      put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*> __7__wrap1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current))::GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator_INetworkPlayer__Current;
 
@@ -972,35 +970,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::GlobalNamespace::INetworkPlayer*& __get___2__current();
+  constexpr ::GlobalNamespace::INetworkPlayer*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::GlobalNamespace::INetworkPlayer* value);
+  constexpr void __cordl_internal_set___2__current(::GlobalNamespace::INetworkPlayer* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::GlobalNamespace::NetworkPlayerModel_1<T>*& __get___4__this();
+  constexpr ::UnityW<T>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPlayerModel_1<T>*> const& __get___4__this() const;
+  constexpr ::UnityW<T> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::NetworkPlayerModel_1<T>* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<T> value);
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>& __get___7__wrap1();
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>& __cordl_internal_get___7__wrap1();
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*> const& __get___7__wrap1() const;
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*> value);
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*> value);
 
   static inline ::GlobalNamespace::__NetworkPlayerModel_1___GetOtherPlayers_d__58<T>* New_ctor(int32_t __1__state);
 
@@ -1055,7 +1053,7 @@ public:
   int32_t _____l__initialThreadId;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::NetworkPlayerModel_1<T>* _____4__this;
+  ::UnityW<T> _____4__this;
 
   /// @brief Field <>7__wrap1, offset: 0x30, size: 0x18, def value: None
   ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*> _____7__wrap1;
@@ -1070,47 +1068,47 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12686))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14960))
 // CS Name: ::NetworkPlayerModel`1::<>c__DisplayClass59_0<T>*
 class CORDL_TYPE __NetworkPlayerModel_1____c__DisplayClass59_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field clearCurrentList, offset 0x10, size 0x1
-  __declspec(property(get = __get_clearCurrentList, put = __set_clearCurrentList)) bool clearCurrentList;
+  __declspec(property(get = __cordl_internal_get_clearCurrentList, put = __cordl_internal_set_clearCurrentList)) bool clearCurrentList;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::NetworkPlayerModel_1<T>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<T> __4__this;
 
   /// @brief Field localSelectionMask, offset 0x20, size 0x28
-  __declspec(property(get = __get_localSelectionMask, put = __set_localSelectionMask))::GlobalNamespace::BeatmapLevelSelectionMask localSelectionMask;
+  __declspec(property(get = __cordl_internal_get_localSelectionMask, put = __cordl_internal_set_localSelectionMask))::GlobalNamespace::BeatmapLevelSelectionMask localSelectionMask;
 
   /// @brief Field localConfiguration, offset 0x48, size 0x18
-  __declspec(property(get = __get_localConfiguration, put = __set_localConfiguration))::GlobalNamespace::GameplayServerConfiguration localConfiguration;
+  __declspec(property(get = __cordl_internal_get_localConfiguration, put = __cordl_internal_set_localConfiguration))::GlobalNamespace::GameplayServerConfiguration localConfiguration;
 
-  constexpr bool& __get_clearCurrentList();
+  constexpr bool& __cordl_internal_get_clearCurrentList();
 
-  constexpr bool const& __get_clearCurrentList() const;
+  constexpr bool const& __cordl_internal_get_clearCurrentList() const;
 
-  constexpr void __set_clearCurrentList(bool value);
+  constexpr void __cordl_internal_set_clearCurrentList(bool value);
 
-  constexpr ::GlobalNamespace::NetworkPlayerModel_1<T>*& __get___4__this();
+  constexpr ::UnityW<T>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPlayerModel_1<T>*> const& __get___4__this() const;
+  constexpr ::UnityW<T> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::NetworkPlayerModel_1<T>* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<T> value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __get_localSelectionMask();
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& __cordl_internal_get_localSelectionMask();
 
-  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __get_localSelectionMask() const;
+  constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& __cordl_internal_get_localSelectionMask() const;
 
-  constexpr void __set_localSelectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
+  constexpr void __cordl_internal_set_localSelectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
 
-  constexpr ::GlobalNamespace::GameplayServerConfiguration& __get_localConfiguration();
+  constexpr ::GlobalNamespace::GameplayServerConfiguration& __cordl_internal_get_localConfiguration();
 
-  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __get_localConfiguration() const;
+  constexpr ::GlobalNamespace::GameplayServerConfiguration const& __cordl_internal_get_localConfiguration() const;
 
-  constexpr void __set_localConfiguration(::GlobalNamespace::GameplayServerConfiguration value);
+  constexpr void __cordl_internal_set_localConfiguration(::GlobalNamespace::GameplayServerConfiguration value);
 
   static inline ::GlobalNamespace::__NetworkPlayerModel_1____c__DisplayClass59_0<T>* New_ctor();
 
@@ -1141,7 +1139,7 @@ public:
   bool ___clearCurrentList;
 
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::NetworkPlayerModel_1<T>* _____4__this;
+  ::UnityW<T> _____4__this;
 
   /// @brief Field localSelectionMask, offset: 0x20, size: 0x28, def value: None
   ::GlobalNamespace::BeatmapLevelSelectionMask ___localSelectionMask;
@@ -1159,7 +1157,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14961))
 // CS Name: ::NetworkPlayerModel`1::<>c<T>*
 class CORDL_TYPE __NetworkPlayerModel_1____c : public ::System::Object {
@@ -1211,7 +1209,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14940))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14940))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14962))
 // CS Name: ::NetworkPlayerModel`1<T>*
 class CORDL_TYPE NetworkPlayerModel_1 : public ::GlobalNamespace::BaseNetworkPlayerModel {
@@ -1236,53 +1234,56 @@ public:
   using NetworkPlayer = ::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>;
 
   /// @brief Field _platformUserModel, offset 0xa0, size 0x8
-  __declspec(property(get = __get__platformUserModel, put = __set__platformUserModel))::GlobalNamespace::IPlatformUserModel* _platformUserModel;
+  __declspec(property(get = __cordl_internal_get__platformUserModel, put = __cordl_internal_set__platformUserModel))::GlobalNamespace::IPlatformUserModel* _platformUserModel;
 
   /// @brief Field _authenticationTokenProviderTask, offset 0xa8, size 0x8
-  __declspec(property(get = __get__authenticationTokenProviderTask,
-                      put = __set__authenticationTokenProviderTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* _authenticationTokenProviderTask;
+  __declspec(
+      property(get = __cordl_internal_get__authenticationTokenProviderTask,
+               put = __cordl_internal_set__authenticationTokenProviderTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* _authenticationTokenProviderTask;
 
   /// @brief Field _localPlayer, offset 0xb0, size 0x8
-  __declspec(property(get = __get__localPlayer, put = __set__localPlayer))::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* _localPlayer;
+  __declspec(property(get = __cordl_internal_get__localPlayer, put = __cordl_internal_set__localPlayer))::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* _localPlayer;
 
   /// @brief Field _networkingFailed, offset 0xb8, size 0x1
-  __declspec(property(get = __get__networkingFailed, put = __set__networkingFailed)) bool _networkingFailed;
+  __declspec(property(get = __cordl_internal_get__networkingFailed, put = __cordl_internal_set__networkingFailed)) bool _networkingFailed;
 
   /// @brief Field _masterServerUnreachable, offset 0xb9, size 0x1
-  __declspec(property(get = __get__masterServerUnreachable, put = __set__masterServerUnreachable)) bool _masterServerUnreachable;
+  __declspec(property(get = __cordl_internal_get__masterServerUnreachable, put = __cordl_internal_set__masterServerUnreachable)) bool _masterServerUnreachable;
 
   /// @brief Field _currentPlayerCount, offset 0xbc, size 0x4
-  __declspec(property(get = __get__currentPlayerCount, put = __set__currentPlayerCount)) int32_t _currentPlayerCount;
+  __declspec(property(get = __cordl_internal_get__currentPlayerCount, put = __cordl_internal_set__currentPlayerCount)) int32_t _currentPlayerCount;
 
   /// @brief Field partySizeChangedEvent, offset 0xc0, size 0x8
-  __declspec(property(get = __get_partySizeChangedEvent, put = __set_partySizeChangedEvent))::System::Action_1<int32_t>* partySizeChangedEvent;
+  __declspec(property(get = __cordl_internal_get_partySizeChangedEvent, put = __cordl_internal_set_partySizeChangedEvent))::System::Action_1<int32_t>* partySizeChangedEvent;
 
   /// @brief Field partyRefreshingEvent, offset 0xc8, size 0x8
-  __declspec(property(get = __get_partyRefreshingEvent, put = __set_partyRefreshingEvent))::System::Action* partyRefreshingEvent;
+  __declspec(property(get = __cordl_internal_get_partyRefreshingEvent, put = __cordl_internal_set_partyRefreshingEvent))::System::Action* partyRefreshingEvent;
 
   /// @brief Field partyChangedEvent, offset 0xd0, size 0x8
-  __declspec(property(get = __get_partyChangedEvent, put = __set_partyChangedEvent))::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* partyChangedEvent;
+  __declspec(property(get = __cordl_internal_get_partyChangedEvent, put = __cordl_internal_set_partyChangedEvent))::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* partyChangedEvent;
 
   /// @brief Field joinRequestedEvent, offset 0xd8, size 0x8
-  __declspec(property(get = __get_joinRequestedEvent, put = __set_joinRequestedEvent))::System::Action_1<::GlobalNamespace::INetworkPlayer*>* joinRequestedEvent;
+  __declspec(property(get = __cordl_internal_get_joinRequestedEvent, put = __cordl_internal_set_joinRequestedEvent))::System::Action_1<::GlobalNamespace::INetworkPlayer*>* joinRequestedEvent;
 
   /// @brief Field inviteRequestedEvent, offset 0xe0, size 0x8
-  __declspec(property(get = __get_inviteRequestedEvent, put = __set_inviteRequestedEvent))::System::Action_1<::GlobalNamespace::INetworkPlayer*>* inviteRequestedEvent;
+  __declspec(property(get = __cordl_internal_get_inviteRequestedEvent, put = __cordl_internal_set_inviteRequestedEvent))::System::Action_1<::GlobalNamespace::INetworkPlayer*>* inviteRequestedEvent;
 
   /// @brief Field _partyPlayers, offset 0xe8, size 0x8
-  __declspec(property(get = __get__partyPlayers, put = __set__partyPlayers))::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>* _partyPlayers;
+  __declspec(property(get = __cordl_internal_get__partyPlayers,
+                      put = __cordl_internal_set__partyPlayers))::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>* _partyPlayers;
 
   /// @brief Field _publicServers, offset 0xf0, size 0x8
-  __declspec(property(get = __get__publicServers, put = __set__publicServers))::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>* _publicServers;
+  __declspec(property(get = __cordl_internal_get__publicServers,
+                      put = __cordl_internal_set__publicServers))::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>* _publicServers;
 
   /// @brief Field _lastServerRefresh, offset 0xf8, size 0x4
-  __declspec(property(get = __get__lastServerRefresh, put = __set__lastServerRefresh)) float_t _lastServerRefresh;
+  __declspec(property(get = __cordl_internal_get__lastServerRefresh, put = __cordl_internal_set__lastServerRefresh)) float_t _lastServerRefresh;
 
   /// @brief Field _isRefreshing, offset 0xfc, size 0x1
-  __declspec(property(get = __get__isRefreshing, put = __set__isRefreshing)) bool _isRefreshing;
+  __declspec(property(get = __cordl_internal_get__isRefreshing, put = __cordl_internal_set__isRefreshing)) bool _isRefreshing;
 
   /// @brief Field _filterChanged, offset 0xfd, size 0x1
-  __declspec(property(get = __get__filterChanged, put = __set__filterChanged)) bool _filterChanged;
+  __declspec(property(get = __cordl_internal_get__filterChanged, put = __cordl_internal_set__filterChanged)) bool _filterChanged;
 
   __declspec(property(get = get_authenticationTokenProviderTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* authenticationTokenProviderTask;
 
@@ -1308,101 +1309,104 @@ public:
   /// @brief Convert to "::GlobalNamespace::INetworkPlayerModel"
   constexpr ::GlobalNamespace::INetworkPlayerModel* i___GlobalNamespace__INetworkPlayerModel() noexcept;
 
-  constexpr ::GlobalNamespace::IPlatformUserModel*& __get__platformUserModel();
+  constexpr ::GlobalNamespace::IPlatformUserModel*& __cordl_internal_get__platformUserModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformUserModel*> const& __get__platformUserModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformUserModel*> const& __cordl_internal_get__platformUserModel() const;
 
-  constexpr void __set__platformUserModel(::GlobalNamespace::IPlatformUserModel* value);
+  constexpr void __cordl_internal_set__platformUserModel(::GlobalNamespace::IPlatformUserModel* value);
 
-  constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*& __get__authenticationTokenProviderTask();
+  constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*& __cordl_internal_get__authenticationTokenProviderTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*> const& __get__authenticationTokenProviderTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*> const&
+  __cordl_internal_get__authenticationTokenProviderTask() const;
 
-  constexpr void __set__authenticationTokenProviderTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* value);
+  constexpr void __cordl_internal_set__authenticationTokenProviderTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* value);
 
-  constexpr ::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*& __get__localPlayer();
+  constexpr ::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*& __cordl_internal_get__localPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*> const& __get__localPlayer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*> const& __cordl_internal_get__localPlayer() const;
 
-  constexpr void __set__localPlayer(::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* value);
+  constexpr void __cordl_internal_set__localPlayer(::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>* value);
 
-  constexpr bool& __get__networkingFailed();
+  constexpr bool& __cordl_internal_get__networkingFailed();
 
-  constexpr bool const& __get__networkingFailed() const;
+  constexpr bool const& __cordl_internal_get__networkingFailed() const;
 
-  constexpr void __set__networkingFailed(bool value);
+  constexpr void __cordl_internal_set__networkingFailed(bool value);
 
-  constexpr bool& __get__masterServerUnreachable();
+  constexpr bool& __cordl_internal_get__masterServerUnreachable();
 
-  constexpr bool const& __get__masterServerUnreachable() const;
+  constexpr bool const& __cordl_internal_get__masterServerUnreachable() const;
 
-  constexpr void __set__masterServerUnreachable(bool value);
+  constexpr void __cordl_internal_set__masterServerUnreachable(bool value);
 
-  constexpr int32_t& __get__currentPlayerCount();
+  constexpr int32_t& __cordl_internal_get__currentPlayerCount();
 
-  constexpr int32_t const& __get__currentPlayerCount() const;
+  constexpr int32_t const& __cordl_internal_get__currentPlayerCount() const;
 
-  constexpr void __set__currentPlayerCount(int32_t value);
+  constexpr void __cordl_internal_set__currentPlayerCount(int32_t value);
 
-  constexpr ::System::Action_1<int32_t>*& __get_partySizeChangedEvent();
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_partySizeChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __get_partySizeChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_partySizeChangedEvent() const;
 
-  constexpr void __set_partySizeChangedEvent(::System::Action_1<int32_t>* value);
+  constexpr void __cordl_internal_set_partySizeChangedEvent(::System::Action_1<int32_t>* value);
 
-  constexpr ::System::Action*& __get_partyRefreshingEvent();
+  constexpr ::System::Action*& __cordl_internal_get_partyRefreshingEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_partyRefreshingEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_partyRefreshingEvent() const;
 
-  constexpr void __set_partyRefreshingEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_partyRefreshingEvent(::System::Action* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*& __get_partyChangedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*& __cordl_internal_get_partyChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*> const& __get_partyChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*> const& __cordl_internal_get_partyChangedEvent() const;
 
-  constexpr void __set_partyChangedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value);
+  constexpr void __cordl_internal_set_partyChangedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& __get_joinRequestedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& __cordl_internal_get_joinRequestedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& __get_joinRequestedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& __cordl_internal_get_joinRequestedEvent() const;
 
-  constexpr void __set_joinRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
+  constexpr void __cordl_internal_set_joinRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& __get_inviteRequestedEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayer*>*& __cordl_internal_get_inviteRequestedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& __get_inviteRequestedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::INetworkPlayer*>*> const& __cordl_internal_get_inviteRequestedEvent() const;
 
-  constexpr void __set_inviteRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
+  constexpr void __cordl_internal_set_inviteRequestedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayer*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>*& __get__partyPlayers();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>*& __cordl_internal_get__partyPlayers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>*> const& __get__partyPlayers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>*> const&
+  __cordl_internal_get__partyPlayers() const;
 
-  constexpr void __set__partyPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>* value);
+  constexpr void __cordl_internal_set__partyPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkPlayer<T>*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>*& __get__publicServers();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>*& __cordl_internal_get__publicServers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>*> const& __get__publicServers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>*> const&
+  __cordl_internal_get__publicServers() const;
 
-  constexpr void __set__publicServers(::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>* value);
+  constexpr void __cordl_internal_set__publicServers(::System::Collections::Generic::List_1<::GlobalNamespace::__NetworkPlayerModel_1__NetworkServer<T>*>* value);
 
-  constexpr float_t& __get__lastServerRefresh();
+  constexpr float_t& __cordl_internal_get__lastServerRefresh();
 
-  constexpr float_t const& __get__lastServerRefresh() const;
+  constexpr float_t const& __cordl_internal_get__lastServerRefresh() const;
 
-  constexpr void __set__lastServerRefresh(float_t value);
+  constexpr void __cordl_internal_set__lastServerRefresh(float_t value);
 
-  constexpr bool& __get__isRefreshing();
+  constexpr bool& __cordl_internal_get__isRefreshing();
 
-  constexpr bool const& __get__isRefreshing() const;
+  constexpr bool const& __cordl_internal_get__isRefreshing() const;
 
-  constexpr void __set__isRefreshing(bool value);
+  constexpr void __cordl_internal_set__isRefreshing(bool value);
 
-  constexpr bool& __get__filterChanged();
+  constexpr bool& __cordl_internal_get__filterChanged();
 
-  constexpr bool const& __get__filterChanged() const;
+  constexpr bool const& __cordl_internal_get__filterChanged() const;
 
-  constexpr void __set__filterChanged(bool value);
+  constexpr void __cordl_internal_set__filterChanged(bool value);
 
   /// @brief Method get_authenticationTokenProviderTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* get_authenticationTokenProviderTask();

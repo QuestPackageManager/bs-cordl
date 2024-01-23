@@ -73,7 +73,7 @@ MARK_REF_PTR_T(::UnityEngine::Shader);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10096))
 // CS Name: ::UnityEngine::Shader*
 class CORDL_TYPE Shader : public ::UnityEngine::Object {
@@ -100,10 +100,10 @@ public:
   static inline void set_globalShaderHardwareTier(::UnityEngine::Rendering::ShaderHardwareTier value);
 
   /// @brief Method Find, addr 0x2cb85a4, size 0x6c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Shader* Find(::StringW name);
+  static inline ::UnityW<::UnityEngine::Shader> Find(::StringW name);
 
   /// @brief Method FindBuiltin, addr 0x2cb8610, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Shader* FindBuiltin(::StringW name);
+  static inline ::UnityW<::UnityEngine::Shader> FindBuiltin(::StringW name);
 
   /// @brief Method get_maximumChunksOverride, addr 0x2cb864c, size 0x28, virtual false, abstract: false, final false
   static inline int32_t get_maximumChunksOverride();
@@ -199,7 +199,7 @@ public:
   static inline int32_t PropertyToID(::StringW name);
 
   /// @brief Method GetDependency, addr 0x2cb8d74, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Shader* GetDependency(::StringW name);
+  inline ::UnityW<::UnityEngine::Shader> GetDependency(::StringW name);
 
   /// @brief Method get_passCount, addr 0x2cb8db8, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_passCount();
@@ -271,7 +271,7 @@ public:
   static inline ::UnityEngine::Matrix4x4 GetGlobalMatrixImpl(int32_t name);
 
   /// @brief Method GetGlobalTextureImpl, addr 0x2cb984c, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture* GetGlobalTextureImpl(int32_t name);
+  static inline ::UnityW<::UnityEngine::Texture> GetGlobalTextureImpl(int32_t name);
 
   /// @brief Method SetGlobalFloatArrayImpl, addr 0x2cb9888, size 0x54, virtual false, abstract: false, final false
   static inline void SetGlobalFloatArrayImpl(int32_t name, ::ArrayW<float_t, ::Array<float_t>*> values, int32_t count);
@@ -472,10 +472,10 @@ public:
   static inline ::UnityEngine::Matrix4x4 GetGlobalMatrix(int32_t nameID);
 
   /// @brief Method GetGlobalTexture, addr 0x2cbb484, size 0x68, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture* GetGlobalTexture(::StringW name);
+  static inline ::UnityW<::UnityEngine::Texture> GetGlobalTexture(::StringW name);
 
   /// @brief Method GetGlobalTexture, addr 0x2cbb4ec, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture* GetGlobalTexture(int32_t nameID);
+  static inline ::UnityW<::UnityEngine::Texture> GetGlobalTexture(int32_t nameID);
 
   /// @brief Method GetGlobalFloatArray, addr 0x2cbb528, size 0x40, virtual false, abstract: false, final false
   static inline ::ArrayW<float_t, ::Array<float_t>*> GetGlobalFloatArray(::StringW name);

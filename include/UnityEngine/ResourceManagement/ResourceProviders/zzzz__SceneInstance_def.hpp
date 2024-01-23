@@ -25,7 +25,7 @@ MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance);
 // SizeInfo { instance_size: 16, native_size: 24, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10380))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10380))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14004))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::SceneInstance
 struct CORDL_TYPE SceneInstance {

@@ -113,23 +113,24 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9542)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9542))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9536))
 // CS Name: ::SortedSet`1::Node<T>*
 class CORDL_TYPE __SortedSet_1__Node : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Item>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Item_k__BackingField, put = __set__Item_k__BackingField)) T _Item_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Item_k__BackingField, put = __cordl_internal_set__Item_k__BackingField)) T _Item_k__BackingField;
 
   /// @brief Field <Left>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Left_k__BackingField, put = __set__Left_k__BackingField))::System::Collections::Generic::__SortedSet_1__Node<T>* _Left_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Left_k__BackingField, put = __cordl_internal_set__Left_k__BackingField))::System::Collections::Generic::__SortedSet_1__Node<T>* _Left_k__BackingField;
 
   /// @brief Field <Right>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__Right_k__BackingField, put = __set__Right_k__BackingField))::System::Collections::Generic::__SortedSet_1__Node<T>* _Right_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Right_k__BackingField,
+                      put = __cordl_internal_set__Right_k__BackingField))::System::Collections::Generic::__SortedSet_1__Node<T>* _Right_k__BackingField;
 
   /// @brief Field <Color>k__BackingField, offset 0x28, size 0x1
-  __declspec(property(get = __get__Color_k__BackingField, put = __set__Color_k__BackingField))::System::Collections::Generic::NodeColor _Color_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Color_k__BackingField, put = __cordl_internal_set__Color_k__BackingField))::System::Collections::Generic::NodeColor _Color_k__BackingField;
 
   __declspec(property(get = get_Item, put = set_Item)) T Item;
 
@@ -147,29 +148,29 @@ public:
 
   __declspec(property(get = get_Is4Node)) bool Is4Node;
 
-  constexpr T& __get__Item_k__BackingField();
+  constexpr T& __cordl_internal_get__Item_k__BackingField();
 
-  constexpr T const& __get__Item_k__BackingField() const;
+  constexpr T const& __cordl_internal_get__Item_k__BackingField() const;
 
-  constexpr void __set__Item_k__BackingField(T value);
+  constexpr void __cordl_internal_set__Item_k__BackingField(T value);
 
-  constexpr ::System::Collections::Generic::__SortedSet_1__Node<T>*& __get__Left_k__BackingField();
+  constexpr ::System::Collections::Generic::__SortedSet_1__Node<T>*& __cordl_internal_get__Left_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::__SortedSet_1__Node<T>*> const& __get__Left_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::__SortedSet_1__Node<T>*> const& __cordl_internal_get__Left_k__BackingField() const;
 
-  constexpr void __set__Left_k__BackingField(::System::Collections::Generic::__SortedSet_1__Node<T>* value);
+  constexpr void __cordl_internal_set__Left_k__BackingField(::System::Collections::Generic::__SortedSet_1__Node<T>* value);
 
-  constexpr ::System::Collections::Generic::__SortedSet_1__Node<T>*& __get__Right_k__BackingField();
+  constexpr ::System::Collections::Generic::__SortedSet_1__Node<T>*& __cordl_internal_get__Right_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::__SortedSet_1__Node<T>*> const& __get__Right_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::__SortedSet_1__Node<T>*> const& __cordl_internal_get__Right_k__BackingField() const;
 
-  constexpr void __set__Right_k__BackingField(::System::Collections::Generic::__SortedSet_1__Node<T>* value);
+  constexpr void __cordl_internal_set__Right_k__BackingField(::System::Collections::Generic::__SortedSet_1__Node<T>* value);
 
-  constexpr ::System::Collections::Generic::NodeColor& __get__Color_k__BackingField();
+  constexpr ::System::Collections::Generic::NodeColor& __cordl_internal_get__Color_k__BackingField();
 
-  constexpr ::System::Collections::Generic::NodeColor const& __get__Color_k__BackingField() const;
+  constexpr ::System::Collections::Generic::NodeColor const& __cordl_internal_get__Color_k__BackingField() const;
 
-  constexpr void __set__Color_k__BackingField(::System::Collections::Generic::NodeColor value);
+  constexpr void __cordl_internal_set__Color_k__BackingField(::System::Collections::Generic::NodeColor value);
 
   static inline ::System::Collections::Generic::__SortedSet_1__Node<T>* New_ctor(T item, ::System::Collections::Generic::NodeColor color);
 
@@ -290,7 +291,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9537))
 // CS Name: ::SortedSet`1::Enumerator<T>
 struct CORDL_TYPE __SortedSet_1__Enumerator {
@@ -409,7 +410,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9538))
 // CS Name: ::SortedSet`1::ElementCount<T>
 struct CORDL_TYPE __SortedSet_1__ElementCount {
@@ -441,38 +442,38 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9539))
 // CS Name: ::SortedSet`1::<>c__DisplayClass52_0<T>*
 class CORDL_TYPE __SortedSet_1____c__DisplayClass52_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field index, offset 0x10, size 0x4
-  __declspec(property(get = __get_index, put = __set_index)) int32_t index;
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   /// @brief Field count, offset 0x14, size 0x4
-  __declspec(property(get = __get_count, put = __set_count)) int32_t count;
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field array, offset 0x18, size 0x8
-  __declspec(property(get = __get_array, put = __set_array))::ArrayW<T, ::Array<T>*> array;
+  __declspec(property(get = __cordl_internal_get_array, put = __cordl_internal_set_array))::ArrayW<T, ::Array<T>*> array;
 
-  constexpr int32_t& __get_index();
+  constexpr int32_t& __cordl_internal_get_index();
 
-  constexpr int32_t const& __get_index() const;
+  constexpr int32_t const& __cordl_internal_get_index() const;
 
-  constexpr void __set_index(int32_t value);
+  constexpr void __cordl_internal_set_index(int32_t value);
 
-  constexpr int32_t& __get_count();
+  constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr int32_t const& __get_count() const;
+  constexpr int32_t const& __cordl_internal_get_count() const;
 
-  constexpr void __set_count(int32_t value);
+  constexpr void __cordl_internal_set_count(int32_t value);
 
-  constexpr ::ArrayW<T, ::Array<T>*>& __get_array();
+  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get_array();
 
-  constexpr ::ArrayW<T, ::Array<T>*> const& __get_array() const;
+  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get_array() const;
 
-  constexpr void __set_array(::ArrayW<T, ::Array<T>*> value);
+  constexpr void __cordl_internal_set_array(::ArrayW<T, ::Array<T>*> value);
 
   static inline ::System::Collections::Generic::__SortedSet_1____c__DisplayClass52_0<T>* New_ctor();
 
@@ -515,29 +516,29 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9540))
 // CS Name: ::SortedSet`1::<>c__DisplayClass53_0<T>*
 class CORDL_TYPE __SortedSet_1____c__DisplayClass53_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field index, offset 0x10, size 0x4
-  __declspec(property(get = __get_index, put = __set_index)) int32_t index;
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   /// @brief Field objects, offset 0x18, size 0x8
-  __declspec(property(get = __get_objects, put = __set_objects))::ArrayW<::System::Object*, ::Array<::System::Object*>*> objects;
+  __declspec(property(get = __cordl_internal_get_objects, put = __cordl_internal_set_objects))::ArrayW<::System::Object*, ::Array<::System::Object*>*> objects;
 
-  constexpr int32_t& __get_index();
+  constexpr int32_t& __cordl_internal_get_index();
 
-  constexpr int32_t const& __get_index() const;
+  constexpr int32_t const& __cordl_internal_get_index() const;
 
-  constexpr void __set_index(int32_t value);
+  constexpr void __cordl_internal_set_index(int32_t value);
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get_objects();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_objects();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get_objects() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_objects() const;
 
-  constexpr void __set_objects(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set_objects(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
   static inline ::System::Collections::Generic::__SortedSet_1____c__DisplayClass53_0<T>* New_ctor();
 
@@ -577,7 +578,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9541))
 // CS Name: ::System.Collections.Generic::SortedSet`1<T>*
 class CORDL_TYPE SortedSet_1 : public ::System::Object {
@@ -594,22 +595,22 @@ public:
   using Node = ::System::Collections::Generic::__SortedSet_1__Node<T>;
 
   /// @brief Field root, offset 0x10, size 0x8
-  __declspec(property(get = __get_root, put = __set_root))::System::Collections::Generic::__SortedSet_1__Node<T>* root;
+  __declspec(property(get = __cordl_internal_get_root, put = __cordl_internal_set_root))::System::Collections::Generic::__SortedSet_1__Node<T>* root;
 
   /// @brief Field comparer, offset 0x18, size 0x8
-  __declspec(property(get = __get_comparer, put = __set_comparer))::System::Collections::Generic::IComparer_1<T>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IComparer_1<T>* comparer;
 
   /// @brief Field count, offset 0x20, size 0x4
-  __declspec(property(get = __get_count, put = __set_count)) int32_t count;
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field version, offset 0x24, size 0x4
-  __declspec(property(get = __get_version, put = __set_version)) int32_t version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
   /// @brief Field _syncRoot, offset 0x28, size 0x8
-  __declspec(property(get = __get__syncRoot, put = __set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
 
   /// @brief Field siInfo, offset 0x30, size 0x8
-  __declspec(property(get = __get_siInfo, put = __set_siInfo))::System::Runtime::Serialization::SerializationInfo* siInfo;
+  __declspec(property(get = __cordl_internal_get_siInfo, put = __cordl_internal_set_siInfo))::System::Runtime::Serialization::SerializationInfo* siInfo;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -663,41 +664,41 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
-  constexpr ::System::Collections::Generic::__SortedSet_1__Node<T>*& __get_root();
+  constexpr ::System::Collections::Generic::__SortedSet_1__Node<T>*& __cordl_internal_get_root();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::__SortedSet_1__Node<T>*> const& __get_root() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::__SortedSet_1__Node<T>*> const& __cordl_internal_get_root() const;
 
-  constexpr void __set_root(::System::Collections::Generic::__SortedSet_1__Node<T>* value);
+  constexpr void __cordl_internal_set_root(::System::Collections::Generic::__SortedSet_1__Node<T>* value);
 
-  constexpr ::System::Collections::Generic::IComparer_1<T>*& __get_comparer();
+  constexpr ::System::Collections::Generic::IComparer_1<T>*& __cordl_internal_get_comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<T>*> const& __get_comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<T>*> const& __cordl_internal_get_comparer() const;
 
-  constexpr void __set_comparer(::System::Collections::Generic::IComparer_1<T>* value);
+  constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IComparer_1<T>* value);
 
-  constexpr int32_t& __get_count();
+  constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr int32_t const& __get_count() const;
+  constexpr int32_t const& __cordl_internal_get_count() const;
 
-  constexpr void __set_count(int32_t value);
+  constexpr void __cordl_internal_set_count(int32_t value);
 
-  constexpr int32_t& __get_version();
+  constexpr int32_t& __cordl_internal_get_version();
 
-  constexpr int32_t const& __get_version() const;
+  constexpr int32_t const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(int32_t value);
+  constexpr void __cordl_internal_set_version(int32_t value);
 
-  constexpr ::System::Object*& __get__syncRoot();
+  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__syncRoot() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
-  constexpr void __set__syncRoot(::System::Object* value);
+  constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
-  constexpr ::System::Runtime::Serialization::SerializationInfo*& __get_siInfo();
+  constexpr ::System::Runtime::Serialization::SerializationInfo*& __cordl_internal_get_siInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __get_siInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __cordl_internal_get_siInfo() const;
 
-  constexpr void __set_siInfo(::System::Runtime::Serialization::SerializationInfo* value);
+  constexpr void __cordl_internal_set_siInfo(::System::Runtime::Serialization::SerializationInfo* value);
 
   static inline ::System::Collections::Generic::SortedSet_1<T>* New_ctor();
 

@@ -43,32 +43,32 @@ MARK_REF_PTR_T(::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCorouti
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4839))
 // CS Name: ::CutoutAnimateEffect::<AnimateToCutoutCoroutine>d__7*
 class CORDL_TYPE __CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::CutoutAnimateEffect* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::CutoutAnimateEffect> __4__this;
 
   /// @brief Field duration, offset 0x28, size 0x4
-  __declspec(property(get = __get_duration, put = __set_duration)) float_t duration;
+  __declspec(property(get = __cordl_internal_get_duration, put = __cordl_internal_set_duration)) float_t duration;
 
   /// @brief Field cutoutStart, offset 0x2c, size 0x4
-  __declspec(property(get = __get_cutoutStart, put = __set_cutoutStart)) float_t cutoutStart;
+  __declspec(property(get = __cordl_internal_get_cutoutStart, put = __cordl_internal_set_cutoutStart)) float_t cutoutStart;
 
   /// @brief Field cutoutEnd, offset 0x30, size 0x4
-  __declspec(property(get = __get_cutoutEnd, put = __set_cutoutEnd)) float_t cutoutEnd;
+  __declspec(property(get = __cordl_internal_get_cutoutEnd, put = __cordl_internal_set_cutoutEnd)) float_t cutoutEnd;
 
   /// @brief Field <elapsedTime>5__2, offset 0x34, size 0x4
-  __declspec(property(get = __get__elapsedTime_5__2, put = __set__elapsedTime_5__2)) float_t _elapsedTime_5__2;
+  __declspec(property(get = __cordl_internal_get__elapsedTime_5__2, put = __cordl_internal_set__elapsedTime_5__2)) float_t _elapsedTime_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -92,47 +92,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::CutoutAnimateEffect*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CutoutAnimateEffect*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::CutoutAnimateEffect* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::CutoutAnimateEffect> value);
 
-  constexpr float_t& __get_duration();
+  constexpr float_t& __cordl_internal_get_duration();
 
-  constexpr float_t const& __get_duration() const;
+  constexpr float_t const& __cordl_internal_get_duration() const;
 
-  constexpr void __set_duration(float_t value);
+  constexpr void __cordl_internal_set_duration(float_t value);
 
-  constexpr float_t& __get_cutoutStart();
+  constexpr float_t& __cordl_internal_get_cutoutStart();
 
-  constexpr float_t const& __get_cutoutStart() const;
+  constexpr float_t const& __cordl_internal_get_cutoutStart() const;
 
-  constexpr void __set_cutoutStart(float_t value);
+  constexpr void __cordl_internal_set_cutoutStart(float_t value);
 
-  constexpr float_t& __get_cutoutEnd();
+  constexpr float_t& __cordl_internal_get_cutoutEnd();
 
-  constexpr float_t const& __get_cutoutEnd() const;
+  constexpr float_t const& __cordl_internal_get_cutoutEnd() const;
 
-  constexpr void __set_cutoutEnd(float_t value);
+  constexpr void __cordl_internal_set_cutoutEnd(float_t value);
 
-  constexpr float_t& __get__elapsedTime_5__2();
+  constexpr float_t& __cordl_internal_get__elapsedTime_5__2();
 
-  constexpr float_t const& __get__elapsedTime_5__2() const;
+  constexpr float_t const& __cordl_internal_get__elapsedTime_5__2() const;
 
-  constexpr void __set__elapsedTime_5__2(float_t value);
+  constexpr void __cordl_internal_set__elapsedTime_5__2(float_t value);
 
   static inline ::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7* New_ctor(int32_t __1__state);
 
@@ -175,7 +175,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::CutoutAnimateEffect* _____4__this;
+  ::UnityW<::GlobalNamespace::CutoutAnimateEffect> _____4__this;
 
   /// @brief Field duration, offset: 0x28, size: 0x4, def value: None
   float_t ___duration;
@@ -213,7 +213,7 @@ static_assert(offsetof(::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutou
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4840))
 // CS Name: ::CutoutAnimateEffect*
 class CORDL_TYPE CutoutAnimateEffect : public ::UnityEngine::MonoBehaviour {
@@ -222,33 +222,34 @@ public:
   using _AnimateToCutoutCoroutine_d__7 = ::GlobalNamespace::__CutoutAnimateEffect___AnimateToCutoutCoroutine_d__7;
 
   /// @brief Field _cuttoutEffects, offset 0x18, size 0x8
-  __declspec(property(get = __get__cuttoutEffects, put = __set__cuttoutEffects))::ArrayW<::GlobalNamespace::CutoutEffect*, ::Array<::GlobalNamespace::CutoutEffect*>*> _cuttoutEffects;
+  __declspec(property(get = __cordl_internal_get__cuttoutEffects,
+                      put = __cordl_internal_set__cuttoutEffects))::ArrayW<::UnityW<::GlobalNamespace::CutoutEffect>, ::Array<::UnityW<::GlobalNamespace::CutoutEffect>>*> _cuttoutEffects;
 
   /// @brief Field _transitionCurve, offset 0x20, size 0x8
-  __declspec(property(get = __get__transitionCurve, put = __set__transitionCurve))::UnityEngine::AnimationCurve* _transitionCurve;
+  __declspec(property(get = __cordl_internal_get__transitionCurve, put = __cordl_internal_set__transitionCurve))::UnityEngine::AnimationCurve* _transitionCurve;
 
   /// @brief Field <animating>k__BackingField, offset 0x28, size 0x1
-  __declspec(property(get = __get__animating_k__BackingField, put = __set__animating_k__BackingField)) bool _animating_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__animating_k__BackingField, put = __cordl_internal_set__animating_k__BackingField)) bool _animating_k__BackingField;
 
   __declspec(property(get = get_animating, put = set_animating)) bool animating;
 
-  constexpr ::ArrayW<::GlobalNamespace::CutoutEffect*, ::Array<::GlobalNamespace::CutoutEffect*>*>& __get__cuttoutEffects();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::CutoutEffect>, ::Array<::UnityW<::GlobalNamespace::CutoutEffect>>*>& __cordl_internal_get__cuttoutEffects();
 
-  constexpr ::ArrayW<::GlobalNamespace::CutoutEffect*, ::Array<::GlobalNamespace::CutoutEffect*>*> const& __get__cuttoutEffects() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::CutoutEffect>, ::Array<::UnityW<::GlobalNamespace::CutoutEffect>>*> const& __cordl_internal_get__cuttoutEffects() const;
 
-  constexpr void __set__cuttoutEffects(::ArrayW<::GlobalNamespace::CutoutEffect*, ::Array<::GlobalNamespace::CutoutEffect*>*> value);
+  constexpr void __cordl_internal_set__cuttoutEffects(::ArrayW<::UnityW<::GlobalNamespace::CutoutEffect>, ::Array<::UnityW<::GlobalNamespace::CutoutEffect>>*> value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__transitionCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__transitionCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__transitionCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__transitionCurve() const;
 
-  constexpr void __set__transitionCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__transitionCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr bool& __get__animating_k__BackingField();
+  constexpr bool& __cordl_internal_get__animating_k__BackingField();
 
-  constexpr bool const& __get__animating_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__animating_k__BackingField() const;
 
-  constexpr void __set__animating_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__animating_k__BackingField(bool value);
 
   /// @brief Method get_animating, addr 0x239682c, size 0x8, virtual false, abstract: false, final false
   inline bool get_animating();
@@ -291,7 +292,7 @@ protected:
 
 public:
   /// @brief Field _cuttoutEffects, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::CutoutEffect*, ::Array<::GlobalNamespace::CutoutEffect*>*> ____cuttoutEffects;
+  ::ArrayW<::UnityW<::GlobalNamespace::CutoutEffect>, ::Array<::UnityW<::GlobalNamespace::CutoutEffect>>*> ____cuttoutEffects;
 
   /// @brief Field _transitionCurve, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____transitionCurve;

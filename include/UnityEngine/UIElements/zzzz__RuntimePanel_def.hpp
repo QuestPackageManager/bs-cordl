@@ -23,32 +23,32 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::RuntimePanel);
 // SizeInfo { instance_size: 480, native_size: -1, calculated_instance_size: 480, calculated_native_size: 480, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6877))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6877))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7018))
 // CS Name: ::UnityEngine.UIElements::RuntimePanel*
 class CORDL_TYPE RuntimePanel : public ::UnityEngine::UIElements::BaseRuntimePanel {
 public:
   // Declarations
   /// @brief Field m_PanelSettings, offset 0x1d8, size 0x8
-  __declspec(property(get = __get_m_PanelSettings, put = __set_m_PanelSettings))::UnityEngine::UIElements::PanelSettings* m_PanelSettings;
+  __declspec(property(get = __cordl_internal_get_m_PanelSettings, put = __cordl_internal_set_m_PanelSettings))::UnityW<::UnityEngine::UIElements::PanelSettings> m_PanelSettings;
 
   /// @brief Field s_EventDispatcher, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_EventDispatcher, put = setStaticF_s_EventDispatcher))::UnityEngine::UIElements::EventDispatcher* s_EventDispatcher;
 
-  __declspec(property(get = get_panelSettings))::UnityEngine::UIElements::PanelSettings* panelSettings;
+  __declspec(property(get = get_panelSettings))::UnityW<::UnityEngine::UIElements::PanelSettings> panelSettings;
 
-  constexpr ::UnityEngine::UIElements::PanelSettings*& __get_m_PanelSettings();
+  constexpr ::UnityW<::UnityEngine::UIElements::PanelSettings>& __cordl_internal_get_m_PanelSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::PanelSettings*> const& __get_m_PanelSettings() const;
+  constexpr ::UnityW<::UnityEngine::UIElements::PanelSettings> const& __cordl_internal_get_m_PanelSettings() const;
 
-  constexpr void __set_m_PanelSettings(::UnityEngine::UIElements::PanelSettings* value);
+  constexpr void __cordl_internal_set_m_PanelSettings(::UnityW<::UnityEngine::UIElements::PanelSettings> value);
 
   static inline void setStaticF_s_EventDispatcher(::UnityEngine::UIElements::EventDispatcher* value);
 
   static inline ::UnityEngine::UIElements::EventDispatcher* getStaticF_s_EventDispatcher();
 
   /// @brief Method get_panelSettings, addr 0x2e165c4, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::PanelSettings* get_panelSettings();
+  inline ::UnityW<::UnityEngine::UIElements::PanelSettings> get_panelSettings();
 
   /// @brief Method Create, addr 0x2e165cc, size 0x60, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::RuntimePanel* Create(::UnityEngine::ScriptableObject* ownerObject);
@@ -76,7 +76,7 @@ protected:
 
 public:
   /// @brief Field m_PanelSettings, offset: 0x1d8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::PanelSettings* ___m_PanelSettings;
+  ::UnityW<::UnityEngine::UIElements::PanelSettings> ___m_PanelSettings;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

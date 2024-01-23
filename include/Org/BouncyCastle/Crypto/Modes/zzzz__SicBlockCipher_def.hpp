@@ -23,26 +23,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::SicBlockCipher);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(977))
 // CS Name: ::Org.BouncyCastle.Crypto.Modes::SicBlockCipher*
 class CORDL_TYPE SicBlockCipher : public ::System::Object {
 public:
   // Declarations
   /// @brief Field cipher, offset 0x10, size 0x8
-  __declspec(property(get = __get_cipher, put = __set_cipher))::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
 
   /// @brief Field blockSize, offset 0x18, size 0x4
-  __declspec(property(get = __get_blockSize, put = __set_blockSize)) int32_t blockSize;
+  __declspec(property(get = __cordl_internal_get_blockSize, put = __cordl_internal_set_blockSize)) int32_t blockSize;
 
   /// @brief Field counter, offset 0x20, size 0x8
-  __declspec(property(get = __get_counter, put = __set_counter))::ArrayW<uint8_t, ::Array<uint8_t>*> counter;
+  __declspec(property(get = __cordl_internal_get_counter, put = __cordl_internal_set_counter))::ArrayW<uint8_t, ::Array<uint8_t>*> counter;
 
   /// @brief Field counterOut, offset 0x28, size 0x8
-  __declspec(property(get = __get_counterOut, put = __set_counterOut))::ArrayW<uint8_t, ::Array<uint8_t>*> counterOut;
+  __declspec(property(get = __cordl_internal_get_counterOut, put = __cordl_internal_set_counterOut))::ArrayW<uint8_t, ::Array<uint8_t>*> counterOut;
 
   /// @brief Field IV, offset 0x30, size 0x8
-  __declspec(property(get = __get_IV, put = __set_IV))::ArrayW<uint8_t, ::Array<uint8_t>*> IV;
+  __declspec(property(get = __cordl_internal_get_IV, put = __cordl_internal_set_IV))::ArrayW<uint8_t, ::Array<uint8_t>*> IV;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -54,35 +54,35 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __get_cipher();
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_cipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __get_cipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __cordl_internal_get_cipher() const;
 
-  constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
+  constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
 
-  constexpr int32_t& __get_blockSize();
+  constexpr int32_t& __cordl_internal_get_blockSize();
 
-  constexpr int32_t const& __get_blockSize() const;
+  constexpr int32_t const& __cordl_internal_get_blockSize() const;
 
-  constexpr void __set_blockSize(int32_t value);
+  constexpr void __cordl_internal_set_blockSize(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_counter();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_counter();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_counter() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_counter() const;
 
-  constexpr void __set_counter(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_counter(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_counterOut();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_counterOut();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_counterOut() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_counterOut() const;
 
-  constexpr void __set_counterOut(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_counterOut(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_IV();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_IV();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_IV() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_IV() const;
 
-  constexpr void __set_IV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_IV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::SicBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* cipher);
 

@@ -23,29 +23,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::CamelliaEngine);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(830))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::CamelliaEngine*
 class CORDL_TYPE CamelliaEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field initialised, offset 0x10, size 0x1
-  __declspec(property(get = __get_initialised, put = __set_initialised)) bool initialised;
+  __declspec(property(get = __cordl_internal_get_initialised, put = __cordl_internal_set_initialised)) bool initialised;
 
   /// @brief Field _keyIs128, offset 0x11, size 0x1
-  __declspec(property(get = __get__keyIs128, put = __set__keyIs128)) bool _keyIs128;
+  __declspec(property(get = __cordl_internal_get__keyIs128, put = __cordl_internal_set__keyIs128)) bool _keyIs128;
 
   /// @brief Field subkey, offset 0x18, size 0x8
-  __declspec(property(get = __get_subkey, put = __set_subkey))::ArrayW<uint32_t, ::Array<uint32_t>*> subkey;
+  __declspec(property(get = __cordl_internal_get_subkey, put = __cordl_internal_set_subkey))::ArrayW<uint32_t, ::Array<uint32_t>*> subkey;
 
   /// @brief Field kw, offset 0x20, size 0x8
-  __declspec(property(get = __get_kw, put = __set_kw))::ArrayW<uint32_t, ::Array<uint32_t>*> kw;
+  __declspec(property(get = __cordl_internal_get_kw, put = __cordl_internal_set_kw))::ArrayW<uint32_t, ::Array<uint32_t>*> kw;
 
   /// @brief Field ke, offset 0x28, size 0x8
-  __declspec(property(get = __get_ke, put = __set_ke))::ArrayW<uint32_t, ::Array<uint32_t>*> ke;
+  __declspec(property(get = __cordl_internal_get_ke, put = __cordl_internal_set_ke))::ArrayW<uint32_t, ::Array<uint32_t>*> ke;
 
   /// @brief Field state, offset 0x30, size 0x8
-  __declspec(property(get = __get_state, put = __set_state))::ArrayW<uint32_t, ::Array<uint32_t>*> state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::ArrayW<uint32_t, ::Array<uint32_t>*> state;
 
   /// @brief Field SIGMA, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SIGMA, put = setStaticF_SIGMA))::ArrayW<uint32_t, ::Array<uint32_t>*> SIGMA;
@@ -72,41 +72,41 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr bool& __get_initialised();
+  constexpr bool& __cordl_internal_get_initialised();
 
-  constexpr bool const& __get_initialised() const;
+  constexpr bool const& __cordl_internal_get_initialised() const;
 
-  constexpr void __set_initialised(bool value);
+  constexpr void __cordl_internal_set_initialised(bool value);
 
-  constexpr bool& __get__keyIs128();
+  constexpr bool& __cordl_internal_get__keyIs128();
 
-  constexpr bool const& __get__keyIs128() const;
+  constexpr bool const& __cordl_internal_get__keyIs128() const;
 
-  constexpr void __set__keyIs128(bool value);
+  constexpr void __cordl_internal_set__keyIs128(bool value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_subkey();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_subkey();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_subkey() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_subkey() const;
 
-  constexpr void __set_subkey(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_subkey(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_kw();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_kw();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_kw() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_kw() const;
 
-  constexpr void __set_kw(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_kw(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_ke();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_ke();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_ke() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_ke() const;
 
-  constexpr void __set_ke(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_ke(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_state();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_state();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_state() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_state(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
   static inline void setStaticF_SIGMA(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 

@@ -78,38 +78,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedDataGenerator__
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(594)), TypeDefinitionIndex(TypeDefinitionIndex(560))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(560)), TypeDefinitionIndex(TypeDefinitionIndex(594))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1639))
 // CS Name: ::PgpEncryptedDataGenerator::EncMethod*
 class CORDL_TYPE __PgpEncryptedDataGenerator__EncMethod : public ::Org::BouncyCastle::Bcpg::ContainedPacket {
 public:
   // Declarations
   /// @brief Field sessionInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_sessionInfo, put = __set_sessionInfo))::ArrayW<uint8_t, ::Array<uint8_t>*> sessionInfo;
+  __declspec(property(get = __cordl_internal_get_sessionInfo, put = __cordl_internal_set_sessionInfo))::ArrayW<uint8_t, ::Array<uint8_t>*> sessionInfo;
 
   /// @brief Field encAlgorithm, offset 0x18, size 0x4
-  __declspec(property(get = __get_encAlgorithm, put = __set_encAlgorithm))::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm;
+  __declspec(property(get = __cordl_internal_get_encAlgorithm, put = __cordl_internal_set_encAlgorithm))::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm;
 
   /// @brief Field key, offset 0x20, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_sessionInfo();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_sessionInfo();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_sessionInfo() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_sessionInfo() const;
 
-  constexpr void __set_sessionInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_sessionInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag& __get_encAlgorithm();
+  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag& __cordl_internal_get_encAlgorithm();
 
-  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const& __get_encAlgorithm() const;
+  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const& __cordl_internal_get_encAlgorithm() const;
 
-  constexpr void __set_encAlgorithm(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag value);
+  constexpr void __cordl_internal_set_encAlgorithm(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& __get_key();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::KeyParameter*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::KeyParameter*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
+  constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
   /// @brief Method AddSessionInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void AddSessionInfo(::ArrayW<uint8_t, ::Array<uint8_t>*> si, ::Org::BouncyCastle::Security::SecureRandom* random);
@@ -158,20 +158,20 @@ static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedDataGen
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1639))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1639))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1640))
 // CS Name: ::PgpEncryptedDataGenerator::PbeMethod*
 class CORDL_TYPE __PgpEncryptedDataGenerator__PbeMethod : public ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedDataGenerator__EncMethod {
 public:
   // Declarations
   /// @brief Field s2k, offset 0x28, size 0x8
-  __declspec(property(get = __get_s2k, put = __set_s2k))::Org::BouncyCastle::Bcpg::S2k* s2k;
+  __declspec(property(get = __cordl_internal_get_s2k, put = __cordl_internal_set_s2k))::Org::BouncyCastle::Bcpg::S2k* s2k;
 
-  constexpr ::Org::BouncyCastle::Bcpg::S2k*& __get_s2k();
+  constexpr ::Org::BouncyCastle::Bcpg::S2k*& __cordl_internal_get_s2k();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::S2k*> const& __get_s2k() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::S2k*> const& __cordl_internal_get_s2k() const;
 
-  constexpr void __set_s2k(::Org::BouncyCastle::Bcpg::S2k* value);
+  constexpr void __cordl_internal_set_s2k(::Org::BouncyCastle::Bcpg::S2k* value);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedDataGenerator__PbeMethod* New_ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm,
                                                                                                      ::Org::BouncyCastle::Bcpg::S2k* s2k, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key);
@@ -217,38 +217,38 @@ static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedDataGen
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1639))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1639))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1641))
 // CS Name: ::PgpEncryptedDataGenerator::PubMethod*
 class CORDL_TYPE __PgpEncryptedDataGenerator__PubMethod : public ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedDataGenerator__EncMethod {
 public:
   // Declarations
   /// @brief Field pubKey, offset 0x28, size 0x8
-  __declspec(property(get = __get_pubKey, put = __set_pubKey))::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pubKey;
+  __declspec(property(get = __cordl_internal_get_pubKey, put = __cordl_internal_set_pubKey))::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pubKey;
 
   /// @brief Field sessionKeyObfuscation, offset 0x30, size 0x1
-  __declspec(property(get = __get_sessionKeyObfuscation, put = __set_sessionKeyObfuscation)) bool sessionKeyObfuscation;
+  __declspec(property(get = __cordl_internal_get_sessionKeyObfuscation, put = __cordl_internal_set_sessionKeyObfuscation)) bool sessionKeyObfuscation;
 
   /// @brief Field data, offset 0x38, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> data;
 
-  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*& __get_pubKey();
+  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*& __cordl_internal_get_pubKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*> const& __get_pubKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*> const& __cordl_internal_get_pubKey() const;
 
-  constexpr void __set_pubKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* value);
+  constexpr void __cordl_internal_set_pubKey(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* value);
 
-  constexpr bool& __get_sessionKeyObfuscation();
+  constexpr bool& __cordl_internal_get_sessionKeyObfuscation();
 
-  constexpr bool const& __get_sessionKeyObfuscation() const;
+  constexpr bool const& __cordl_internal_get_sessionKeyObfuscation() const;
 
-  constexpr void __set_sessionKeyObfuscation(bool value);
+  constexpr void __cordl_internal_set_sessionKeyObfuscation(bool value);
 
-  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*>& __get_data();
+  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*>& __cordl_internal_get_data();
 
-  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __get_data() const;
+  constexpr ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> value);
+  constexpr void __cordl_internal_set_data(::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> value);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedDataGenerator__PubMethod* New_ctor(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pubKey, bool sessionKeyObfuscation);
 
@@ -309,7 +309,7 @@ static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedDataGen
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(594))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(594)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1642))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpEncryptedDataGenerator*
 class CORDL_TYPE PgpEncryptedDataGenerator : public ::System::Object {
@@ -322,31 +322,31 @@ public:
   using EncMethod = ::Org::BouncyCastle::Bcpg::OpenPgp::__PgpEncryptedDataGenerator__EncMethod;
 
   /// @brief Field pOut, offset 0x10, size 0x8
-  __declspec(property(get = __get_pOut, put = __set_pOut))::Org::BouncyCastle::Bcpg::BcpgOutputStream* pOut;
+  __declspec(property(get = __cordl_internal_get_pOut, put = __cordl_internal_set_pOut))::Org::BouncyCastle::Bcpg::BcpgOutputStream* pOut;
 
   /// @brief Field cOut, offset 0x18, size 0x8
-  __declspec(property(get = __get_cOut, put = __set_cOut))::Org::BouncyCastle::Crypto::IO::CipherStream* cOut;
+  __declspec(property(get = __cordl_internal_get_cOut, put = __cordl_internal_set_cOut))::Org::BouncyCastle::Crypto::IO::CipherStream* cOut;
 
   /// @brief Field c, offset 0x20, size 0x8
-  __declspec(property(get = __get_c, put = __set_c))::Org::BouncyCastle::Crypto::IBufferedCipher* c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c))::Org::BouncyCastle::Crypto::IBufferedCipher* c;
 
   /// @brief Field withIntegrityPacket, offset 0x28, size 0x1
-  __declspec(property(get = __get_withIntegrityPacket, put = __set_withIntegrityPacket)) bool withIntegrityPacket;
+  __declspec(property(get = __cordl_internal_get_withIntegrityPacket, put = __cordl_internal_set_withIntegrityPacket)) bool withIntegrityPacket;
 
   /// @brief Field oldFormat, offset 0x29, size 0x1
-  __declspec(property(get = __get_oldFormat, put = __set_oldFormat)) bool oldFormat;
+  __declspec(property(get = __cordl_internal_get_oldFormat, put = __cordl_internal_set_oldFormat)) bool oldFormat;
 
   /// @brief Field digestOut, offset 0x30, size 0x8
-  __declspec(property(get = __get_digestOut, put = __set_digestOut))::Org::BouncyCastle::Crypto::IO::DigestStream* digestOut;
+  __declspec(property(get = __cordl_internal_get_digestOut, put = __cordl_internal_set_digestOut))::Org::BouncyCastle::Crypto::IO::DigestStream* digestOut;
 
   /// @brief Field methods, offset 0x38, size 0x8
-  __declspec(property(get = __get_methods, put = __set_methods))::System::Collections::IList* methods;
+  __declspec(property(get = __cordl_internal_get_methods, put = __cordl_internal_set_methods))::System::Collections::IList* methods;
 
   /// @brief Field defAlgorithm, offset 0x40, size 0x4
-  __declspec(property(get = __get_defAlgorithm, put = __set_defAlgorithm))::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag defAlgorithm;
+  __declspec(property(get = __cordl_internal_get_defAlgorithm, put = __cordl_internal_set_defAlgorithm))::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag defAlgorithm;
 
   /// @brief Field rand, offset 0x48, size 0x8
-  __declspec(property(get = __get_rand, put = __set_rand))::Org::BouncyCastle::Security::SecureRandom* rand;
+  __declspec(property(get = __cordl_internal_get_rand, put = __cordl_internal_set_rand))::Org::BouncyCastle::Security::SecureRandom* rand;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"
   constexpr operator ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator*() noexcept;
@@ -354,59 +354,59 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"
   constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* i___Org__BouncyCastle__Bcpg__OpenPgp__IStreamGenerator() noexcept;
 
-  constexpr ::Org::BouncyCastle::Bcpg::BcpgOutputStream*& __get_pOut();
+  constexpr ::Org::BouncyCastle::Bcpg::BcpgOutputStream*& __cordl_internal_get_pOut();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::BcpgOutputStream*> const& __get_pOut() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::BcpgOutputStream*> const& __cordl_internal_get_pOut() const;
 
-  constexpr void __set_pOut(::Org::BouncyCastle::Bcpg::BcpgOutputStream* value);
+  constexpr void __cordl_internal_set_pOut(::Org::BouncyCastle::Bcpg::BcpgOutputStream* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IO::CipherStream*& __get_cOut();
+  constexpr ::Org::BouncyCastle::Crypto::IO::CipherStream*& __cordl_internal_get_cOut();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IO::CipherStream*> const& __get_cOut() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IO::CipherStream*> const& __cordl_internal_get_cOut() const;
 
-  constexpr void __set_cOut(::Org::BouncyCastle::Crypto::IO::CipherStream* value);
+  constexpr void __cordl_internal_set_cOut(::Org::BouncyCastle::Crypto::IO::CipherStream* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __get_c();
+  constexpr ::Org::BouncyCastle::Crypto::IBufferedCipher*& __cordl_internal_get_c();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBufferedCipher*> const& __get_c() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBufferedCipher*> const& __cordl_internal_get_c() const;
 
-  constexpr void __set_c(::Org::BouncyCastle::Crypto::IBufferedCipher* value);
+  constexpr void __cordl_internal_set_c(::Org::BouncyCastle::Crypto::IBufferedCipher* value);
 
-  constexpr bool& __get_withIntegrityPacket();
+  constexpr bool& __cordl_internal_get_withIntegrityPacket();
 
-  constexpr bool const& __get_withIntegrityPacket() const;
+  constexpr bool const& __cordl_internal_get_withIntegrityPacket() const;
 
-  constexpr void __set_withIntegrityPacket(bool value);
+  constexpr void __cordl_internal_set_withIntegrityPacket(bool value);
 
-  constexpr bool& __get_oldFormat();
+  constexpr bool& __cordl_internal_get_oldFormat();
 
-  constexpr bool const& __get_oldFormat() const;
+  constexpr bool const& __cordl_internal_get_oldFormat() const;
 
-  constexpr void __set_oldFormat(bool value);
+  constexpr void __cordl_internal_set_oldFormat(bool value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IO::DigestStream*& __get_digestOut();
+  constexpr ::Org::BouncyCastle::Crypto::IO::DigestStream*& __cordl_internal_get_digestOut();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IO::DigestStream*> const& __get_digestOut() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IO::DigestStream*> const& __cordl_internal_get_digestOut() const;
 
-  constexpr void __set_digestOut(::Org::BouncyCastle::Crypto::IO::DigestStream* value);
+  constexpr void __cordl_internal_set_digestOut(::Org::BouncyCastle::Crypto::IO::DigestStream* value);
 
-  constexpr ::System::Collections::IList*& __get_methods();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_methods();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_methods() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_methods() const;
 
-  constexpr void __set_methods(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_methods(::System::Collections::IList* value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag& __get_defAlgorithm();
+  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag& __cordl_internal_get_defAlgorithm();
 
-  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const& __get_defAlgorithm() const;
+  constexpr ::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag const& __cordl_internal_get_defAlgorithm() const;
 
-  constexpr void __set_defAlgorithm(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag value);
+  constexpr void __cordl_internal_set_defAlgorithm(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag value);
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_rand();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_rand();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_rand() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_rand() const;
 
-  constexpr void __set_rand(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_rand(::Org::BouncyCastle::Security::SecureRandom* value);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpEncryptedDataGenerator* New_ctor(::Org::BouncyCastle::Bcpg::SymmetricKeyAlgorithmTag encAlgorithm);
 

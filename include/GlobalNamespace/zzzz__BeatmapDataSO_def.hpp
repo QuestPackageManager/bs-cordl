@@ -126,29 +126,29 @@ MARK_VAL_T(::GlobalNamespace::__BeatmapDataSO___RunTaskAndLogException_d__9);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4247))
 // CS Name: ::BeatmapDataSO::<>c__DisplayClass4_0*
 class CORDL_TYPE __BeatmapDataSO____c__DisplayClass4_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field beatmapDataBasicInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_beatmapDataBasicInfo, put = __set_beatmapDataBasicInfo))::GlobalNamespace::IBeatmapDataBasicInfo* beatmapDataBasicInfo;
+  __declspec(property(get = __cordl_internal_get_beatmapDataBasicInfo, put = __cordl_internal_set_beatmapDataBasicInfo))::GlobalNamespace::IBeatmapDataBasicInfo* beatmapDataBasicInfo;
 
   /// @brief Field beatmapSaveData, offset 0x18, size 0x8
-  __declspec(property(get = __get_beatmapSaveData, put = __set_beatmapSaveData))::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData;
+  __declspec(property(get = __cordl_internal_get_beatmapSaveData, put = __cordl_internal_set_beatmapSaveData))::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData;
 
-  constexpr ::GlobalNamespace::IBeatmapDataBasicInfo*& __get_beatmapDataBasicInfo();
+  constexpr ::GlobalNamespace::IBeatmapDataBasicInfo*& __cordl_internal_get_beatmapDataBasicInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapDataBasicInfo*> const& __get_beatmapDataBasicInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapDataBasicInfo*> const& __cordl_internal_get_beatmapDataBasicInfo() const;
 
-  constexpr void __set_beatmapDataBasicInfo(::GlobalNamespace::IBeatmapDataBasicInfo* value);
+  constexpr void __cordl_internal_set_beatmapDataBasicInfo(::GlobalNamespace::IBeatmapDataBasicInfo* value);
 
-  constexpr ::BeatmapSaveDataVersion3::BeatmapSaveData*& __get_beatmapSaveData();
+  constexpr ::BeatmapSaveDataVersion3::BeatmapSaveData*& __cordl_internal_get_beatmapSaveData();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::BeatmapSaveData*> const& __get_beatmapSaveData() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::BeatmapSaveData*> const& __cordl_internal_get_beatmapSaveData() const;
 
-  constexpr void __set_beatmapSaveData(::BeatmapSaveDataVersion3::BeatmapSaveData* value);
+  constexpr void __cordl_internal_set_beatmapSaveData(::BeatmapSaveDataVersion3::BeatmapSaveData* value);
 
   static inline ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0* New_ctor();
 
@@ -192,9 +192,10 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0,
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14828)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 886
-// }), TypeDefinitionIndex(TypeDefinitionIndex(4258)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 878 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4248)) CS Name: ::BeatmapDataSO::<GetBeatmapDataBasicInfoAsync>d__4
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4258)), TypeDefinitionIndex(TypeDefinitionIndex(14828)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 878 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 886 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4248)) CS Name:
+// ::BeatmapDataSO::<GetBeatmapDataBasicInfoAsync>d__4
 struct CORDL_TYPE __BeatmapDataSO___GetBeatmapDataBasicInfoAsync_d__4 {
 public:
   // Declarations
@@ -212,12 +213,12 @@ public:
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IBeatmapDataBasicInfo*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::BeatmapDataSO*", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty: "::GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0*", modifiers: "", def_value: None
-  // }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatmapSaveDataVersion3::BeatmapSaveData*>", modifiers: "", def_value: None }, CppParam { name: "__u__2",
-  // ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // "::UnityW<::GlobalNamespace::BeatmapDataSO>", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty: "::GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0*", modifiers: "",
+  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatmapSaveDataVersion3::BeatmapSaveData*>", modifiers: "", def_value: None }, CppParam {
+  // name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
   constexpr __BeatmapDataSO___GetBeatmapDataBasicInfoAsync_d__4(int32_t __1__state,
                                                                 ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IBeatmapDataBasicInfo*> __t__builder,
-                                                                ::GlobalNamespace::BeatmapDataSO* __4__this, ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0* __8__1,
+                                                                ::UnityW<::GlobalNamespace::BeatmapDataSO> __4__this, ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0* __8__1,
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatmapSaveDataVersion3::BeatmapSaveData*> __u__1,
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
@@ -232,7 +233,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IBeatmapDataBasicInfo*> __t__builder;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapDataSO* __4__this;
+  ::UnityW<::GlobalNamespace::BeatmapDataSO> __4__this;
 
   /// @brief Field <>8__1, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0* __8__1;
@@ -268,74 +269,74 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataSO___GetBeatmapDataBasicI
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4249))
 // CS Name: ::BeatmapDataSO::<>c__DisplayClass5_0*
 class CORDL_TYPE __BeatmapDataSO____c__DisplayClass5_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field readonlyBeatmapData, offset 0x10, size 0x8
-  __declspec(property(get = __get_readonlyBeatmapData, put = __set_readonlyBeatmapData))::GlobalNamespace::IReadonlyBeatmapData* readonlyBeatmapData;
+  __declspec(property(get = __cordl_internal_get_readonlyBeatmapData, put = __cordl_internal_set_readonlyBeatmapData))::GlobalNamespace::IReadonlyBeatmapData* readonlyBeatmapData;
 
   /// @brief Field beatmapSaveData, offset 0x18, size 0x8
-  __declspec(property(get = __get_beatmapSaveData, put = __set_beatmapSaveData))::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData;
+  __declspec(property(get = __cordl_internal_get_beatmapSaveData, put = __cordl_internal_set_beatmapSaveData))::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData;
 
   /// @brief Field beatmapDifficulty, offset 0x20, size 0x4
-  __declspec(property(get = __get_beatmapDifficulty, put = __set_beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
+  __declspec(property(get = __cordl_internal_get_beatmapDifficulty, put = __cordl_internal_set_beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
 
   /// @brief Field beatsPerMinute, offset 0x24, size 0x4
-  __declspec(property(get = __get_beatsPerMinute, put = __set_beatsPerMinute)) float_t beatsPerMinute;
+  __declspec(property(get = __cordl_internal_get_beatsPerMinute, put = __cordl_internal_set_beatsPerMinute)) float_t beatsPerMinute;
 
   /// @brief Field loadingForDesignatedEnvironment, offset 0x28, size 0x1
-  __declspec(property(get = __get_loadingForDesignatedEnvironment, put = __set_loadingForDesignatedEnvironment)) bool loadingForDesignatedEnvironment;
+  __declspec(property(get = __cordl_internal_get_loadingForDesignatedEnvironment, put = __cordl_internal_set_loadingForDesignatedEnvironment)) bool loadingForDesignatedEnvironment;
 
   /// @brief Field environmentInfo, offset 0x30, size 0x8
-  __declspec(property(get = __get_environmentInfo, put = __set_environmentInfo))::GlobalNamespace::EnvironmentInfoSO* environmentInfo;
+  __declspec(property(get = __cordl_internal_get_environmentInfo, put = __cordl_internal_set_environmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
 
   /// @brief Field playerSpecificSettings, offset 0x38, size 0x8
-  __declspec(property(get = __get_playerSpecificSettings, put = __set_playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
+  __declspec(property(get = __cordl_internal_get_playerSpecificSettings, put = __cordl_internal_set_playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
 
-  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __get_readonlyBeatmapData();
+  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get_readonlyBeatmapData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __get_readonlyBeatmapData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __cordl_internal_get_readonlyBeatmapData() const;
 
-  constexpr void __set_readonlyBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
+  constexpr void __cordl_internal_set_readonlyBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
 
-  constexpr ::BeatmapSaveDataVersion3::BeatmapSaveData*& __get_beatmapSaveData();
+  constexpr ::BeatmapSaveDataVersion3::BeatmapSaveData*& __cordl_internal_get_beatmapSaveData();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::BeatmapSaveData*> const& __get_beatmapSaveData() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::BeatmapSaveData*> const& __cordl_internal_get_beatmapSaveData() const;
 
-  constexpr void __set_beatmapSaveData(::BeatmapSaveDataVersion3::BeatmapSaveData* value);
+  constexpr void __cordl_internal_set_beatmapSaveData(::BeatmapSaveDataVersion3::BeatmapSaveData* value);
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __get_beatmapDifficulty();
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_beatmapDifficulty();
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __get_beatmapDifficulty() const;
+  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get_beatmapDifficulty() const;
 
-  constexpr void __set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+  constexpr void __cordl_internal_set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  constexpr float_t& __get_beatsPerMinute();
+  constexpr float_t& __cordl_internal_get_beatsPerMinute();
 
-  constexpr float_t const& __get_beatsPerMinute() const;
+  constexpr float_t const& __cordl_internal_get_beatsPerMinute() const;
 
-  constexpr void __set_beatsPerMinute(float_t value);
+  constexpr void __cordl_internal_set_beatsPerMinute(float_t value);
 
-  constexpr bool& __get_loadingForDesignatedEnvironment();
+  constexpr bool& __cordl_internal_get_loadingForDesignatedEnvironment();
 
-  constexpr bool const& __get_loadingForDesignatedEnvironment() const;
+  constexpr bool const& __cordl_internal_get_loadingForDesignatedEnvironment() const;
 
-  constexpr void __set_loadingForDesignatedEnvironment(bool value);
+  constexpr void __cordl_internal_set_loadingForDesignatedEnvironment(bool value);
 
-  constexpr ::GlobalNamespace::EnvironmentInfoSO*& __get_environmentInfo();
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO>& __cordl_internal_get_environmentInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentInfoSO*> const& __get_environmentInfo() const;
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentInfoSO> const& __cordl_internal_get_environmentInfo() const;
 
-  constexpr void __set_environmentInfo(::GlobalNamespace::EnvironmentInfoSO* value);
+  constexpr void __cordl_internal_set_environmentInfo(::UnityW<::GlobalNamespace::EnvironmentInfoSO> value);
 
-  constexpr ::GlobalNamespace::PlayerSpecificSettings*& __get_playerSpecificSettings();
+  constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get_playerSpecificSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __get_playerSpecificSettings() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __cordl_internal_get_playerSpecificSettings() const;
 
-  constexpr void __set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
+  constexpr void __cordl_internal_set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
   static inline ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0* New_ctor();
 
@@ -375,7 +376,7 @@ public:
   bool ___loadingForDesignatedEnvironment;
 
   /// @brief Field environmentInfo, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::EnvironmentInfoSO* ___environmentInfo;
+  ::UnityW<::GlobalNamespace::EnvironmentInfoSO> ___environmentInfo;
 
   /// @brief Field playerSpecificSettings, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettings* ___playerSpecificSettings;
@@ -404,9 +405,9 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0,
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(14717)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 878
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(14828)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4250)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(14828)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 878 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4250)) CS Name:
 // ::BeatmapDataSO::<GetBeatmapDataAsync>d__5
 struct CORDL_TYPE __BeatmapDataSO___GetBeatmapDataAsync_d__5 {
 public:
@@ -426,15 +427,15 @@ public:
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*>", modifiers: "", def_value: None }, CppParam { name: "beatmapDifficulty", ty:
   // "::GlobalNamespace::BeatmapDifficulty", modifiers: "", def_value: None }, CppParam { name: "beatsPerMinute", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "loadingForDesignatedEnvironment", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "environmentInfo", ty: "::GlobalNamespace::EnvironmentInfoSO*", modifiers: "", def_value: None },
-  // CppParam { name: "playerSpecificSettings", ty: "::GlobalNamespace::PlayerSpecificSettings*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::BeatmapDataSO*", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty: "::GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0*", modifiers: "", def_value: None
-  // }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatmapSaveDataVersion3::BeatmapSaveData*>", modifiers: "", def_value: None }, CppParam { name: "__u__2",
-  // ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // "loadingForDesignatedEnvironment", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "environmentInfo", ty: "::UnityW<::GlobalNamespace::EnvironmentInfoSO>", modifiers: "",
+  // def_value: None }, CppParam { name: "playerSpecificSettings", ty: "::GlobalNamespace::PlayerSpecificSettings*", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::BeatmapDataSO>", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty: "::GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0*", modifiers: "",
+  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatmapSaveDataVersion3::BeatmapSaveData*>", modifiers: "", def_value: None }, CppParam {
+  // name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
   constexpr __BeatmapDataSO___GetBeatmapDataAsync_d__5(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IReadonlyBeatmapData*> __t__builder,
                                                        ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, float_t beatsPerMinute, bool loadingForDesignatedEnvironment,
-                                                       ::GlobalNamespace::EnvironmentInfoSO* environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
-                                                       ::GlobalNamespace::BeatmapDataSO* __4__this, ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0* __8__1,
+                                                       ::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
+                                                       ::UnityW<::GlobalNamespace::BeatmapDataSO> __4__this, ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0* __8__1,
                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatmapSaveDataVersion3::BeatmapSaveData*> __u__1,
                                                        ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
@@ -458,13 +459,13 @@ public:
   bool loadingForDesignatedEnvironment;
 
   /// @brief Field environmentInfo, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::EnvironmentInfoSO* environmentInfo;
+  ::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
 
   /// @brief Field playerSpecificSettings, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
 
   /// @brief Field <>4__this, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapDataSO* __4__this;
+  ::UnityW<::GlobalNamespace::BeatmapDataSO> __4__this;
 
   /// @brief Field <>8__1, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass5_0* __8__1;
@@ -510,29 +511,29 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataSO___GetBeatmapDataAsync_
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4251))
 // CS Name: ::BeatmapDataSO::<>c__DisplayClass8_0*
 class CORDL_TYPE __BeatmapDataSO____c__DisplayClass8_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field beatmapSaveData, offset 0x10, size 0x8
-  __declspec(property(get = __get_beatmapSaveData, put = __set_beatmapSaveData))::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData;
+  __declspec(property(get = __cordl_internal_get_beatmapSaveData, put = __cordl_internal_set_beatmapSaveData))::BeatmapSaveDataVersion3::BeatmapSaveData* beatmapSaveData;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::BeatmapDataSO* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::BeatmapDataSO> __4__this;
 
-  constexpr ::BeatmapSaveDataVersion3::BeatmapSaveData*& __get_beatmapSaveData();
+  constexpr ::BeatmapSaveDataVersion3::BeatmapSaveData*& __cordl_internal_get_beatmapSaveData();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::BeatmapSaveData*> const& __get_beatmapSaveData() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion3::BeatmapSaveData*> const& __cordl_internal_get_beatmapSaveData() const;
 
-  constexpr void __set_beatmapSaveData(::BeatmapSaveDataVersion3::BeatmapSaveData* value);
+  constexpr void __cordl_internal_set_beatmapSaveData(::BeatmapSaveDataVersion3::BeatmapSaveData* value);
 
-  constexpr ::GlobalNamespace::BeatmapDataSO*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapDataSO>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataSO*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapDataSO> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::BeatmapDataSO* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::BeatmapDataSO> value);
 
   static inline ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass8_0* New_ctor();
 
@@ -560,7 +561,7 @@ public:
   ::BeatmapSaveDataVersion3::BeatmapSaveData* ___beatmapSaveData;
 
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapDataSO* _____4__this;
+  ::UnityW<::GlobalNamespace::BeatmapDataSO> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -576,8 +577,8 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataSO____c__DisplayClass8_0,
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 878 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14828)), TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4252)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(14828)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 878 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4252)) CS Name:
 // ::BeatmapDataSO::<LoadBeatmapSaveDataAsync>d__8
 struct CORDL_TYPE __BeatmapDataSO___LoadBeatmapSaveDataAsync_d__8 {
 public:
@@ -596,10 +597,10 @@ public:
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BeatmapSaveDataVersion3::BeatmapSaveData*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::GlobalNamespace::BeatmapDataSO*", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty: "::GlobalNamespace::__BeatmapDataSO____c__DisplayClass8_0*", modifiers: "", def_value: None
-  // }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // "::UnityW<::GlobalNamespace::BeatmapDataSO>", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty: "::GlobalNamespace::__BeatmapDataSO____c__DisplayClass8_0*", modifiers: "",
+  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
   constexpr __BeatmapDataSO___LoadBeatmapSaveDataAsync_d__8(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BeatmapSaveDataVersion3::BeatmapSaveData*> __t__builder,
-                                                            ::GlobalNamespace::BeatmapDataSO* __4__this, ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass8_0* __8__1,
+                                                            ::UnityW<::GlobalNamespace::BeatmapDataSO> __4__this, ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass8_0* __8__1,
                                                             ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   // Ctor Parameters []
@@ -613,7 +614,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BeatmapSaveDataVersion3::BeatmapSaveData*> __t__builder;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapDataSO* __4__this;
+  ::UnityW<::GlobalNamespace::BeatmapDataSO> __4__this;
 
   /// @brief Field <>8__1, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass8_0* __8__1;
@@ -644,20 +645,20 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataSO___LoadBeatmapSaveDataA
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4253))
 // CS Name: ::BeatmapDataSO::<>c__DisplayClass9_0*
 class CORDL_TYPE __BeatmapDataSO____c__DisplayClass9_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field action, offset 0x10, size 0x8
-  __declspec(property(get = __get_action, put = __set_action))::System::Action* action;
+  __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action))::System::Action* action;
 
-  constexpr ::System::Action*& __get_action();
+  constexpr ::System::Action*& __cordl_internal_get_action();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_action() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_action() const;
 
-  constexpr void __set_action(::System::Action* value);
+  constexpr void __cordl_internal_set_action(::System::Action* value);
 
   static inline ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass9_0* New_ctor();
 
@@ -696,7 +697,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataSO____c__DisplayClass9_0,
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4254))
 // CS Name: ::BeatmapDataSO::<RunTaskAndLogException>d__9
 struct CORDL_TYPE __BeatmapDataSO___RunTaskAndLogException_d__9 {
@@ -757,7 +758,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapDataSO___RunTaskAndLogExcepti
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4255))
 // CS Name: ::BeatmapDataSO*
 class CORDL_TYPE BeatmapDataSO : public ::GlobalNamespace::PersistentScriptableObject {
@@ -780,33 +781,33 @@ public:
   using __c__DisplayClass4_0 = ::GlobalNamespace::__BeatmapDataSO____c__DisplayClass4_0;
 
   /// @brief Field _jsonData, offset 0x18, size 0x8
-  __declspec(property(get = __get__jsonData, put = __set__jsonData))::StringW _jsonData;
+  __declspec(property(get = __cordl_internal_get__jsonData, put = __cordl_internal_set__jsonData))::StringW _jsonData;
 
   /// @brief Field _compressedData, offset 0x20, size 0x8
-  __declspec(property(get = __get__compressedData, put = __set__compressedData))::ArrayW<uint8_t, ::Array<uint8_t>*> _compressedData;
+  __declspec(property(get = __cordl_internal_get__compressedData, put = __cordl_internal_set__compressedData))::ArrayW<uint8_t, ::Array<uint8_t>*> _compressedData;
 
   /// @brief Field _beatmapDataBasic, offset 0x28, size 0x8
-  __declspec(property(get = __get__beatmapDataBasic, put = __set__beatmapDataBasic))::GlobalNamespace::IBeatmapDataBasicInfo* _beatmapDataBasic;
+  __declspec(property(get = __cordl_internal_get__beatmapDataBasic, put = __cordl_internal_set__beatmapDataBasic))::GlobalNamespace::IBeatmapDataBasicInfo* _beatmapDataBasic;
 
   __declspec(property(get = get_data))::StringW data;
 
-  constexpr ::StringW& __get__jsonData();
+  constexpr ::StringW& __cordl_internal_get__jsonData();
 
-  constexpr ::StringW const& __get__jsonData() const;
+  constexpr ::StringW const& __cordl_internal_get__jsonData() const;
 
-  constexpr void __set__jsonData(::StringW value);
+  constexpr void __cordl_internal_set__jsonData(::StringW value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__compressedData();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__compressedData();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__compressedData() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__compressedData() const;
 
-  constexpr void __set__compressedData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__compressedData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::GlobalNamespace::IBeatmapDataBasicInfo*& __get__beatmapDataBasic();
+  constexpr ::GlobalNamespace::IBeatmapDataBasicInfo*& __cordl_internal_get__beatmapDataBasic();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapDataBasicInfo*> const& __get__beatmapDataBasic() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapDataBasicInfo*> const& __cordl_internal_get__beatmapDataBasic() const;
 
-  constexpr void __set__beatmapDataBasic(::GlobalNamespace::IBeatmapDataBasicInfo* value);
+  constexpr void __cordl_internal_set__beatmapDataBasic(::GlobalNamespace::IBeatmapDataBasicInfo* value);
 
   /// @brief Method get_data, addr 0x232eca8, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_data();

@@ -21,29 +21,30 @@ MARK_REF_PTR_T(::System::Net::ServiceNameStore);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9109))
 // CS Name: ::System.Net::ServiceNameStore*
 class CORDL_TYPE ServiceNameStore : public ::System::Object {
 public:
   // Declarations
   /// @brief Field serviceNames, offset 0x10, size 0x8
-  __declspec(property(get = __get_serviceNames, put = __set_serviceNames))::System::Collections::Generic::List_1<::StringW>* serviceNames;
+  __declspec(property(get = __cordl_internal_get_serviceNames, put = __cordl_internal_set_serviceNames))::System::Collections::Generic::List_1<::StringW>* serviceNames;
 
   /// @brief Field serviceNameCollection, offset 0x18, size 0x8
-  __declspec(property(get = __get_serviceNameCollection, put = __set_serviceNameCollection))::System::Security::Authentication::ExtendedProtection::ServiceNameCollection* serviceNameCollection;
+  __declspec(property(get = __cordl_internal_get_serviceNameCollection,
+                      put = __cordl_internal_set_serviceNameCollection))::System::Security::Authentication::ExtendedProtection::ServiceNameCollection* serviceNameCollection;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_serviceNames();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_serviceNames();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_serviceNames() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_serviceNames() const;
 
-  constexpr void __set_serviceNames(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_serviceNames(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Security::Authentication::ExtendedProtection::ServiceNameCollection*& __get_serviceNameCollection();
+  constexpr ::System::Security::Authentication::ExtendedProtection::ServiceNameCollection*& __cordl_internal_get_serviceNameCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Authentication::ExtendedProtection::ServiceNameCollection*> const& __get_serviceNameCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Authentication::ExtendedProtection::ServiceNameCollection*> const& __cordl_internal_get_serviceNameCollection() const;
 
-  constexpr void __set_serviceNameCollection(::System::Security::Authentication::ExtendedProtection::ServiceNameCollection* value);
+  constexpr void __cordl_internal_set_serviceNameCollection(::System::Security::Authentication::ExtendedProtection::ServiceNameCollection* value);
 
   static inline ::System::Net::ServiceNameStore* New_ctor();
 

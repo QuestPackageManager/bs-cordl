@@ -21,14 +21,14 @@ MARK_REF_PTR_T(::GlobalNamespace::HMAutoincrementedRequestId);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14371))
 // CS Name: ::HMAutoincrementedRequestId*
 class CORDL_TYPE HMAutoincrementedRequestId : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _requestId, offset 0x10, size 0x8
-  __declspec(property(get = __get__requestId, put = __set__requestId)) uint64_t _requestId;
+  __declspec(property(get = __cordl_internal_get__requestId, put = __cordl_internal_set__requestId)) uint64_t _requestId;
 
   /// @brief Field _nextRequestId, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__nextRequestId, put = setStaticF__nextRequestId)) uint64_t _nextRequestId;
@@ -41,11 +41,11 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::HMAutoincrementedRequestId*>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::HMAutoincrementedRequestId*>* i___System__IEquatable_1___GlobalNamespace__HMAutoincrementedRequestId__() noexcept;
 
-  constexpr uint64_t& __get__requestId();
+  constexpr uint64_t& __cordl_internal_get__requestId();
 
-  constexpr uint64_t const& __get__requestId() const;
+  constexpr uint64_t const& __cordl_internal_get__requestId() const;
 
-  constexpr void __set__requestId(uint64_t value);
+  constexpr void __cordl_internal_set__requestId(uint64_t value);
 
   static inline void setStaticF__nextRequestId(uint64_t value);
 

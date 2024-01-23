@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Security::Certificates::CertificateException
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security::Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1717))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1717))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1733))
 // CS Name: ::Org.BouncyCastle.Security.Certificates::CertificateException*
 class CORDL_TYPE CertificateException : public ::Org::BouncyCastle::Security::GeneralSecurityException {

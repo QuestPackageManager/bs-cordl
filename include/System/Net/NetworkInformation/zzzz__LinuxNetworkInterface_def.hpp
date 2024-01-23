@@ -21,42 +21,42 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::LinuxNetworkInterface);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9292))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9292))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9269))
 // CS Name: ::System.Net.NetworkInformation::LinuxNetworkInterface*
 class CORDL_TYPE LinuxNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface {
 public:
   // Declarations
   /// @brief Field iface_path, offset 0x38, size 0x8
-  __declspec(property(get = __get_iface_path, put = __set_iface_path))::StringW iface_path;
+  __declspec(property(get = __cordl_internal_get_iface_path, put = __cordl_internal_set_iface_path))::StringW iface_path;
 
   /// @brief Field iface_operstate_path, offset 0x40, size 0x8
-  __declspec(property(get = __get_iface_operstate_path, put = __set_iface_operstate_path))::StringW iface_operstate_path;
+  __declspec(property(get = __cordl_internal_get_iface_operstate_path, put = __cordl_internal_set_iface_operstate_path))::StringW iface_operstate_path;
 
   /// @brief Field iface_flags_path, offset 0x48, size 0x8
-  __declspec(property(get = __get_iface_flags_path, put = __set_iface_flags_path))::StringW iface_flags_path;
+  __declspec(property(get = __cordl_internal_get_iface_flags_path, put = __cordl_internal_set_iface_flags_path))::StringW iface_flags_path;
 
   __declspec(property(get = get_IfacePath))::StringW IfacePath;
 
   __declspec(property(get = get_OperationalStatus))::System::Net::NetworkInformation::OperationalStatus OperationalStatus;
 
-  constexpr ::StringW& __get_iface_path();
+  constexpr ::StringW& __cordl_internal_get_iface_path();
 
-  constexpr ::StringW const& __get_iface_path() const;
+  constexpr ::StringW const& __cordl_internal_get_iface_path() const;
 
-  constexpr void __set_iface_path(::StringW value);
+  constexpr void __cordl_internal_set_iface_path(::StringW value);
 
-  constexpr ::StringW& __get_iface_operstate_path();
+  constexpr ::StringW& __cordl_internal_get_iface_operstate_path();
 
-  constexpr ::StringW const& __get_iface_operstate_path() const;
+  constexpr ::StringW const& __cordl_internal_get_iface_operstate_path() const;
 
-  constexpr void __set_iface_operstate_path(::StringW value);
+  constexpr void __cordl_internal_set_iface_operstate_path(::StringW value);
 
-  constexpr ::StringW& __get_iface_flags_path();
+  constexpr ::StringW& __cordl_internal_get_iface_flags_path();
 
-  constexpr ::StringW const& __get_iface_flags_path() const;
+  constexpr ::StringW const& __cordl_internal_get_iface_flags_path() const;
 
-  constexpr void __set_iface_flags_path(::StringW value);
+  constexpr void __cordl_internal_set_iface_flags_path(::StringW value);
 
   /// @brief Method get_IfacePath, addr 0x29eec88, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_IfacePath();

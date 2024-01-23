@@ -20,17 +20,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(665))
 // CS Name: ::Org.BouncyCastle.Cms::CounterSignatureDigestCalculator*
 class CORDL_TYPE CounterSignatureDigestCalculator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field alg, offset 0x10, size 0x8
-  __declspec(property(get = __get_alg, put = __set_alg))::StringW alg;
+  __declspec(property(get = __cordl_internal_get_alg, put = __cordl_internal_set_alg))::StringW alg;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::IDigestCalculator"
   constexpr operator ::Org::BouncyCastle::Cms::IDigestCalculator*() noexcept;
@@ -38,17 +38,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Cms::IDigestCalculator"
   constexpr ::Org::BouncyCastle::Cms::IDigestCalculator* i___Org__BouncyCastle__Cms__IDigestCalculator() noexcept;
 
-  constexpr ::StringW& __get_alg();
+  constexpr ::StringW& __cordl_internal_get_alg();
 
-  constexpr ::StringW const& __get_alg() const;
+  constexpr ::StringW const& __cordl_internal_get_alg() const;
 
-  constexpr void __set_alg(::StringW value);
+  constexpr void __cordl_internal_set_alg(::StringW value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_data();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_data();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_data() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator* New_ctor(::StringW alg, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 

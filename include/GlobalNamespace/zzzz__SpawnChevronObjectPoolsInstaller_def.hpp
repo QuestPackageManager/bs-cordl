@@ -17,20 +17,21 @@ MARK_REF_PTR_T(::GlobalNamespace::SpawnChevronObjectPoolsInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4993))
 // CS Name: ::SpawnChevronObjectPoolsInstaller*
 class CORDL_TYPE SpawnChevronObjectPoolsInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
   /// @brief Field _spawnRotationChevronPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__spawnRotationChevronPrefab, put = __set__spawnRotationChevronPrefab))::GlobalNamespace::SpawnRotationChevron* _spawnRotationChevronPrefab;
+  __declspec(property(get = __cordl_internal_get__spawnRotationChevronPrefab,
+                      put = __cordl_internal_set__spawnRotationChevronPrefab))::UnityW<::GlobalNamespace::SpawnRotationChevron> _spawnRotationChevronPrefab;
 
-  constexpr ::GlobalNamespace::SpawnRotationChevron*& __get__spawnRotationChevronPrefab();
+  constexpr ::UnityW<::GlobalNamespace::SpawnRotationChevron>& __cordl_internal_get__spawnRotationChevronPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SpawnRotationChevron*> const& __get__spawnRotationChevronPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::SpawnRotationChevron> const& __cordl_internal_get__spawnRotationChevronPrefab() const;
 
-  constexpr void __set__spawnRotationChevronPrefab(::GlobalNamespace::SpawnRotationChevron* value);
+  constexpr void __cordl_internal_set__spawnRotationChevronPrefab(::UnityW<::GlobalNamespace::SpawnRotationChevron> value);
 
   /// @brief Method InstallBindings, addr 0x23b55c4, size 0x84, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -55,7 +56,7 @@ protected:
 
 public:
   /// @brief Field _spawnRotationChevronPrefab, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::SpawnRotationChevron* ____spawnRotationChevronPrefab;
+  ::UnityW<::GlobalNamespace::SpawnRotationChevron> ____spawnRotationChevronPrefab;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

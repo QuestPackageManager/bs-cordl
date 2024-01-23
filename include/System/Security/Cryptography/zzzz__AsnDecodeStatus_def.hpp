@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Security::Cryptography::AsnDecodeStatus);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8976))
 // CS Name: ::System.Security.Cryptography::AsnDecodeStatus
 struct CORDL_TYPE AsnDecodeStatus {

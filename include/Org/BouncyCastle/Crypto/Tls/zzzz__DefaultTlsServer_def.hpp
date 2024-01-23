@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DefaultTlsServer);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1173))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1173))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1214))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DefaultTlsServer*
 class CORDL_TYPE DefaultTlsServer : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsServer {

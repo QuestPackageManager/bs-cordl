@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::GlobalNamespace::DirectionalLightWithLightGroupIds);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14554))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14554))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14528))
 // CS Name: ::DirectionalLightWithLightGroupIds*
 class CORDL_TYPE DirectionalLightWithLightGroupIds : public ::GlobalNamespace::RuntimeLightWithLightGroupIds {
 public:
   // Declarations
   /// @brief Field _directionalLight, offset 0x50, size 0x8
-  __declspec(property(get = __get__directionalLight, put = __set__directionalLight))::GlobalNamespace::DirectionalLight* _directionalLight;
+  __declspec(property(get = __cordl_internal_get__directionalLight, put = __cordl_internal_set__directionalLight))::UnityW<::GlobalNamespace::DirectionalLight> _directionalLight;
 
-  constexpr ::GlobalNamespace::DirectionalLight*& __get__directionalLight();
+  constexpr ::UnityW<::GlobalNamespace::DirectionalLight>& __cordl_internal_get__directionalLight();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DirectionalLight*> const& __get__directionalLight() const;
+  constexpr ::UnityW<::GlobalNamespace::DirectionalLight> const& __cordl_internal_get__directionalLight() const;
 
-  constexpr void __set__directionalLight(::GlobalNamespace::DirectionalLight* value);
+  constexpr void __cordl_internal_set__directionalLight(::UnityW<::GlobalNamespace::DirectionalLight> value);
 
   /// @brief Method ColorWasSet, addr 0x210f1f4, size 0x20, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
@@ -58,7 +58,7 @@ protected:
 
 public:
   /// @brief Field _directionalLight, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::DirectionalLight* ____directionalLight;
+  ::UnityW<::GlobalNamespace::DirectionalLight> ____directionalLight;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

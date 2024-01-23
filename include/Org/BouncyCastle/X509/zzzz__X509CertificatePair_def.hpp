@@ -25,33 +25,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509CertificatePair);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1861))
 // CS Name: ::Org.BouncyCastle.X509::X509CertificatePair*
 class CORDL_TYPE X509CertificatePair : public ::System::Object {
 public:
   // Declarations
   /// @brief Field forward, offset 0x10, size 0x8
-  __declspec(property(get = __get_forward, put = __set_forward))::Org::BouncyCastle::X509::X509Certificate* forward;
+  __declspec(property(get = __cordl_internal_get_forward, put = __cordl_internal_set_forward))::Org::BouncyCastle::X509::X509Certificate* forward;
 
   /// @brief Field reverse, offset 0x18, size 0x8
-  __declspec(property(get = __get_reverse, put = __set_reverse))::Org::BouncyCastle::X509::X509Certificate* reverse;
+  __declspec(property(get = __cordl_internal_get_reverse, put = __cordl_internal_set_reverse))::Org::BouncyCastle::X509::X509Certificate* reverse;
 
   __declspec(property(get = get_Forward))::Org::BouncyCastle::X509::X509Certificate* Forward;
 
   __declspec(property(get = get_Reverse))::Org::BouncyCastle::X509::X509Certificate* Reverse;
 
-  constexpr ::Org::BouncyCastle::X509::X509Certificate*& __get_forward();
+  constexpr ::Org::BouncyCastle::X509::X509Certificate*& __cordl_internal_get_forward();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& __get_forward() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& __cordl_internal_get_forward() const;
 
-  constexpr void __set_forward(::Org::BouncyCastle::X509::X509Certificate* value);
+  constexpr void __cordl_internal_set_forward(::Org::BouncyCastle::X509::X509Certificate* value);
 
-  constexpr ::Org::BouncyCastle::X509::X509Certificate*& __get_reverse();
+  constexpr ::Org::BouncyCastle::X509::X509Certificate*& __cordl_internal_get_reverse();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& __get_reverse() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& __cordl_internal_get_reverse() const;
 
-  constexpr void __set_reverse(::Org::BouncyCastle::X509::X509Certificate* value);
+  constexpr void __cordl_internal_set_reverse(::Org::BouncyCastle::X509::X509Certificate* value);
 
   static inline ::Org::BouncyCastle::X509::X509CertificatePair* New_ctor(::Org::BouncyCastle::X509::X509Certificate* forward, ::Org::BouncyCastle::X509::X509Certificate* reverse);
 

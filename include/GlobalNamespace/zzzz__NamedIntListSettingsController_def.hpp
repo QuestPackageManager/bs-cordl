@@ -29,31 +29,31 @@ MARK_REF_PTR_T(::GlobalNamespace::__NamedIntListSettingsController__TextValuePai
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5597))
 // CS Name: ::NamedIntListSettingsController::TextValuePair*
 class CORDL_TYPE __NamedIntListSettingsController__TextValuePair : public ::System::Object {
 public:
   // Declarations
   /// @brief Field text, offset 0x10, size 0x8
-  __declspec(property(get = __get_text, put = __set_text))::StringW text;
+  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::StringW text;
 
   /// @brief Field value, offset 0x18, size 0x4
-  __declspec(property(get = __get_value, put = __set_value)) int32_t value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) int32_t value;
 
   __declspec(property(get = get_localizedText))::StringW localizedText;
 
-  constexpr ::StringW& __get_text();
+  constexpr ::StringW& __cordl_internal_get_text();
 
-  constexpr ::StringW const& __get_text() const;
+  constexpr ::StringW const& __cordl_internal_get_text() const;
 
-  constexpr void __set_text(::StringW value);
+  constexpr void __cordl_internal_set_text(::StringW value);
 
-  constexpr int32_t& __get_value();
+  constexpr int32_t& __cordl_internal_get_value();
 
-  constexpr int32_t const& __get_value() const;
+  constexpr int32_t const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(int32_t value);
+  constexpr void __cordl_internal_set_value(int32_t value);
 
   /// @brief Method get_localizedText, addr 0x22aafe4, size 0xc, virtual false, abstract: false, final false
   inline ::StringW get_localizedText();
@@ -97,7 +97,7 @@ static_assert(offsetof(::GlobalNamespace::__NamedIntListSettingsController__Text
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16149))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16149))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5598))
 // CS Name: ::NamedIntListSettingsController*
 class CORDL_TYPE NamedIntListSettingsController : public ::GlobalNamespace::ListSettingsController {
@@ -106,25 +106,27 @@ public:
   using TextValuePair = ::GlobalNamespace::__NamedIntListSettingsController__TextValuePair;
 
   /// @brief Field _settingsValue, offset 0x28, size 0x8
-  __declspec(property(get = __get__settingsValue, put = __set__settingsValue))::GlobalNamespace::IntSO* _settingsValue;
+  __declspec(property(get = __cordl_internal_get__settingsValue, put = __cordl_internal_set__settingsValue))::UnityW<::GlobalNamespace::IntSO> _settingsValue;
 
   /// @brief Field _textValuePairs, offset 0x30, size 0x8
-  __declspec(property(get = __get__textValuePairs, put = __set__textValuePairs))::ArrayW<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*,
-                                                                                         ::Array<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*>*> _textValuePairs;
+  __declspec(property(get = __cordl_internal_get__textValuePairs,
+                      put = __cordl_internal_set__textValuePairs))::ArrayW<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*,
+                                                                           ::Array<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*>*> _textValuePairs;
 
-  constexpr ::GlobalNamespace::IntSO*& __get__settingsValue();
+  constexpr ::UnityW<::GlobalNamespace::IntSO>& __cordl_internal_get__settingsValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntSO*> const& __get__settingsValue() const;
+  constexpr ::UnityW<::GlobalNamespace::IntSO> const& __cordl_internal_get__settingsValue() const;
 
-  constexpr void __set__settingsValue(::GlobalNamespace::IntSO* value);
+  constexpr void __cordl_internal_set__settingsValue(::UnityW<::GlobalNamespace::IntSO> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*>*>& __get__textValuePairs();
+  constexpr ::ArrayW<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*>*>&
+  __cordl_internal_get__textValuePairs();
 
   constexpr ::ArrayW<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*>*> const&
-  __get__textValuePairs() const;
+  __cordl_internal_get__textValuePairs() const;
 
-  constexpr void
-  __set__textValuePairs(::ArrayW<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*>*> value);
+  constexpr void __cordl_internal_set__textValuePairs(
+      ::ArrayW<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*>*> value);
 
   /// @brief Method GetInitValues, addr 0x22aae64, size 0xc8, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
@@ -155,7 +157,7 @@ protected:
 
 public:
   /// @brief Field _settingsValue, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::IntSO* ____settingsValue;
+  ::UnityW<::GlobalNamespace::IntSO> ____settingsValue;
 
   /// @brief Field _textValuePairs, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*, ::Array<::GlobalNamespace::__NamedIntListSettingsController__TextValuePair*>*> ____textValuePairs;

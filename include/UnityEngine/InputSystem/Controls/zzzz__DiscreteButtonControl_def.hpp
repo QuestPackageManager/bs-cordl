@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::DiscreteButtonControl);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6631))
 // CS Name: ::DiscreteButtonControl::WriteMode
 struct CORDL_TYPE __DiscreteButtonControl__WriteMode {
@@ -75,7 +75,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Controls::__DiscreteButtonCon
 // SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 304, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6631)), TypeDefinitionIndex(TypeDefinitionIndex(6629))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6629)), TypeDefinitionIndex(TypeDefinitionIndex(6631))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6632))
 // CS Name: ::UnityEngine.InputSystem.Controls::DiscreteButtonControl*
 class CORDL_TYPE DiscreteButtonControl : public ::UnityEngine::InputSystem::Controls::ButtonControl {
@@ -84,49 +84,49 @@ public:
   using WriteMode = ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode;
 
   /// @brief Field minValue, offset 0x11c, size 0x4
-  __declspec(property(get = __get_minValue, put = __set_minValue)) int32_t minValue;
+  __declspec(property(get = __cordl_internal_get_minValue, put = __cordl_internal_set_minValue)) int32_t minValue;
 
   /// @brief Field maxValue, offset 0x120, size 0x4
-  __declspec(property(get = __get_maxValue, put = __set_maxValue)) int32_t maxValue;
+  __declspec(property(get = __cordl_internal_get_maxValue, put = __cordl_internal_set_maxValue)) int32_t maxValue;
 
   /// @brief Field wrapAtValue, offset 0x124, size 0x4
-  __declspec(property(get = __get_wrapAtValue, put = __set_wrapAtValue)) int32_t wrapAtValue;
+  __declspec(property(get = __cordl_internal_get_wrapAtValue, put = __cordl_internal_set_wrapAtValue)) int32_t wrapAtValue;
 
   /// @brief Field nullValue, offset 0x128, size 0x4
-  __declspec(property(get = __get_nullValue, put = __set_nullValue)) int32_t nullValue;
+  __declspec(property(get = __cordl_internal_get_nullValue, put = __cordl_internal_set_nullValue)) int32_t nullValue;
 
   /// @brief Field writeMode, offset 0x12c, size 0x4
-  __declspec(property(get = __get_writeMode, put = __set_writeMode))::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode writeMode;
+  __declspec(property(get = __cordl_internal_get_writeMode, put = __cordl_internal_set_writeMode))::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode writeMode;
 
-  constexpr int32_t& __get_minValue();
+  constexpr int32_t& __cordl_internal_get_minValue();
 
-  constexpr int32_t const& __get_minValue() const;
+  constexpr int32_t const& __cordl_internal_get_minValue() const;
 
-  constexpr void __set_minValue(int32_t value);
+  constexpr void __cordl_internal_set_minValue(int32_t value);
 
-  constexpr int32_t& __get_maxValue();
+  constexpr int32_t& __cordl_internal_get_maxValue();
 
-  constexpr int32_t const& __get_maxValue() const;
+  constexpr int32_t const& __cordl_internal_get_maxValue() const;
 
-  constexpr void __set_maxValue(int32_t value);
+  constexpr void __cordl_internal_set_maxValue(int32_t value);
 
-  constexpr int32_t& __get_wrapAtValue();
+  constexpr int32_t& __cordl_internal_get_wrapAtValue();
 
-  constexpr int32_t const& __get_wrapAtValue() const;
+  constexpr int32_t const& __cordl_internal_get_wrapAtValue() const;
 
-  constexpr void __set_wrapAtValue(int32_t value);
+  constexpr void __cordl_internal_set_wrapAtValue(int32_t value);
 
-  constexpr int32_t& __get_nullValue();
+  constexpr int32_t& __cordl_internal_get_nullValue();
 
-  constexpr int32_t const& __get_nullValue() const;
+  constexpr int32_t const& __cordl_internal_get_nullValue() const;
 
-  constexpr void __set_nullValue(int32_t value);
+  constexpr void __cordl_internal_set_nullValue(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode& __get_writeMode();
+  constexpr ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode& __cordl_internal_get_writeMode();
 
-  constexpr ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode const& __get_writeMode() const;
+  constexpr ::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode const& __cordl_internal_get_writeMode() const;
 
-  constexpr void __set_writeMode(::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode value);
+  constexpr void __cordl_internal_set_writeMode(::UnityEngine::InputSystem::Controls::__DiscreteButtonControl__WriteMode value);
 
   /// @brief Method FinishSetup, addr 0x2b0a588, size 0xac, virtual true, abstract: false, final false
   inline void FinishSetup();

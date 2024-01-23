@@ -34,20 +34,20 @@ MARK_VAL_T(::GlobalNamespace::OVRGLTFScene);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7567))
 // CS Name: ::OVRGLTFScene
 struct CORDL_TYPE OVRGLTFScene {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "root", ty: "::UnityEngine::GameObject*", modifiers: "", def_value: None }, CppParam { name: "nodes", ty:
-  // "::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*", modifiers: "", def_value: None }, CppParam { name: "animationNodes", ty:
+  // Ctor Parameters [CppParam { name: "root", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "nodes", ty:
+  // "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*", modifiers: "", def_value: None }, CppParam { name: "animationNodes", ty:
   // "::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode,::GlobalNamespace::OVRGLTFAnimatinonNode*>*", modifiers: "", def_value: None }, CppParam { name:
   // "animationNodeLookup", ty: "::System::Collections::Generic::Dictionary_2<int32_t,::ArrayW<::GlobalNamespace::OVRGLTFAnimatinonNode*,::Array<::GlobalNamespace::OVRGLTFAnimatinonNode*>*>>*",
   // modifiers: "", def_value: None }, CppParam { name: "morphTargetHandlers", ty: "::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>*", modifiers: "",
   // def_value: None }]
   constexpr OVRGLTFScene(
-      ::UnityEngine::GameObject* root, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* nodes,
+      ::UnityW<::UnityEngine::GameObject> root, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* nodes,
       ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* animationNodes,
       ::System::Collections::Generic::Dictionary_2<int32_t, ::ArrayW<::GlobalNamespace::OVRGLTFAnimatinonNode*, ::Array<::GlobalNamespace::OVRGLTFAnimatinonNode*>*>>* animationNodeLookup,
       ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>* morphTargetHandlers) noexcept;
@@ -57,10 +57,10 @@ public:
   constexpr OVRGLTFScene();
 
   /// @brief Field root, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::GameObject* root;
+  ::UnityW<::UnityEngine::GameObject> root;
 
   /// @brief Field nodes, offset: 0x8, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* nodes;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* nodes;
 
   /// @brief Field animationNodes, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* animationNodes;

@@ -22,9 +22,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23503e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuestPerformanceSettings*>::get(),
-                                                                               "get_gpuPerformanceLevel", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_gpuPerformanceLevel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -36,9 +36,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23503f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuestPerformanceSettings*>::get(),
-                                                                               "get_cpuPerformanceLevel", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_cpuPerformanceLevel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -50,9 +50,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x234fe34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuestPerformanceSettings*>::get(),
-                                                                               "get_useFoveatedRenderingDuringGameplay", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuestPerformanceSettings*>::get(), "get_useFoveatedRenderingDuringGameplay",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -63,69 +64,70 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x23503f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuestPerformanceSettings*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel& GlobalNamespace::QuestPerformanceSettings::__get_gpuLevel() {
+constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel& GlobalNamespace::QuestPerformanceSettings::__cordl_internal_get_gpuLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gpuLevel;
 }
-constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel const& GlobalNamespace::QuestPerformanceSettings::__get_gpuLevel() const {
+constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel const& GlobalNamespace::QuestPerformanceSettings::__cordl_internal_get_gpuLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___gpuLevel;
 }
-constexpr void GlobalNamespace::QuestPerformanceSettings::__set_gpuLevel(::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel value) {
+constexpr void GlobalNamespace::QuestPerformanceSettings::__cordl_internal_set_gpuLevel(::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___gpuLevel = value;
 }
-constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel& GlobalNamespace::QuestPerformanceSettings::__get_cpuLevel() {
+constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel& GlobalNamespace::QuestPerformanceSettings::__cordl_internal_get_cpuLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cpuLevel;
 }
-constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel const& GlobalNamespace::QuestPerformanceSettings::__get_cpuLevel() const {
+constexpr ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel const& GlobalNamespace::QuestPerformanceSettings::__cordl_internal_get_cpuLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cpuLevel;
 }
-constexpr void GlobalNamespace::QuestPerformanceSettings::__set_cpuLevel(::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel value) {
+constexpr void GlobalNamespace::QuestPerformanceSettings::__cordl_internal_set_cpuLevel(::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cpuLevel = value;
 }
-constexpr int32_t& GlobalNamespace::QuestPerformanceSettings::__get_foveatedRenderingLevel() {
+constexpr int32_t& GlobalNamespace::QuestPerformanceSettings::__cordl_internal_get_foveatedRenderingLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___foveatedRenderingLevel;
 }
-constexpr int32_t const& GlobalNamespace::QuestPerformanceSettings::__get_foveatedRenderingLevel() const {
+constexpr int32_t const& GlobalNamespace::QuestPerformanceSettings::__cordl_internal_get_foveatedRenderingLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___foveatedRenderingLevel;
 }
-constexpr void GlobalNamespace::QuestPerformanceSettings::__set_foveatedRenderingLevel(int32_t value) {
+constexpr void GlobalNamespace::QuestPerformanceSettings::__cordl_internal_set_foveatedRenderingLevel(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___foveatedRenderingLevel = value;
 }
 inline ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel GlobalNamespace::QuestPerformanceSettings::get_gpuPerformanceLevel() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuestPerformanceSettings*>::get(),
-                                                                             "get_gpuPerformanceLevel", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_gpuPerformanceLevel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel GlobalNamespace::QuestPerformanceSettings::get_cpuPerformanceLevel() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuestPerformanceSettings*>::get(),
-                                                                             "get_cpuPerformanceLevel", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_cpuPerformanceLevel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__QuestPerformanceSettings__ProcessorPerformanceLevel, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::QuestPerformanceSettings::get_useFoveatedRenderingDuringGameplay() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuestPerformanceSettings*>::get(),
-                                                                             "get_useFoveatedRenderingDuringGameplay", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuestPerformanceSettings*>::get(), "get_useFoveatedRenderingDuringGameplay",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::QuestPerformanceSettings* GlobalNamespace::QuestPerformanceSettings::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::QuestPerformanceSettings*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::QuestPerformanceSettings*>());
 }
 inline void GlobalNamespace::QuestPerformanceSettings::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuestPerformanceSettings*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

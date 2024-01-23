@@ -24,7 +24,7 @@ MARK_VAL_T(::Mono::RuntimeClassHandle);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2228))
 // CS Name: ::Mono::RuntimeClassHandle
 struct CORDL_TYPE RuntimeClassHandle {

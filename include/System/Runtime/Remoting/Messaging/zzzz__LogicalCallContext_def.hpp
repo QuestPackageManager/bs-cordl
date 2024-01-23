@@ -54,7 +54,7 @@ MARK_VAL_T(::System::Runtime::Remoting::Messaging::__LogicalCallContext__Reader)
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3145))
 // CS Name: ::LogicalCallContext::Reader
 struct CORDL_TYPE __LogicalCallContext__Reader {
@@ -104,7 +104,7 @@ static_assert(offsetof(::System::Runtime::Remoting::Messaging::__LogicalCallCont
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3146))
 // CS Name: ::System.Runtime.Remoting.Messaging::LogicalCallContext*
 class CORDL_TYPE LogicalCallContext : public ::System::Object {
@@ -113,27 +113,27 @@ public:
   using Reader = ::System::Runtime::Remoting::Messaging::__LogicalCallContext__Reader;
 
   /// @brief Field m_Datastore, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Datastore, put = __set_m_Datastore))::System::Collections::Hashtable* m_Datastore;
+  __declspec(property(get = __cordl_internal_get_m_Datastore, put = __cordl_internal_set_m_Datastore))::System::Collections::Hashtable* m_Datastore;
 
   /// @brief Field m_RemotingData, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_RemotingData, put = __set_m_RemotingData))::System::Runtime::Remoting::Messaging::CallContextRemotingData* m_RemotingData;
+  __declspec(property(get = __cordl_internal_get_m_RemotingData, put = __cordl_internal_set_m_RemotingData))::System::Runtime::Remoting::Messaging::CallContextRemotingData* m_RemotingData;
 
   /// @brief Field m_SecurityData, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_SecurityData, put = __set_m_SecurityData))::System::Runtime::Remoting::Messaging::CallContextSecurityData* m_SecurityData;
+  __declspec(property(get = __cordl_internal_get_m_SecurityData, put = __cordl_internal_set_m_SecurityData))::System::Runtime::Remoting::Messaging::CallContextSecurityData* m_SecurityData;
 
   /// @brief Field m_HostContext, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_HostContext, put = __set_m_HostContext))::System::Object* m_HostContext;
+  __declspec(property(get = __cordl_internal_get_m_HostContext, put = __cordl_internal_set_m_HostContext))::System::Object* m_HostContext;
 
   /// @brief Field m_IsCorrelationMgr, offset 0x30, size 0x1
-  __declspec(property(get = __get_m_IsCorrelationMgr, put = __set_m_IsCorrelationMgr)) bool m_IsCorrelationMgr;
+  __declspec(property(get = __cordl_internal_get_m_IsCorrelationMgr, put = __cordl_internal_set_m_IsCorrelationMgr)) bool m_IsCorrelationMgr;
 
   /// @brief Field _sendHeaders, offset 0x38, size 0x8
-  __declspec(property(get = __get__sendHeaders,
-                      put = __set__sendHeaders))::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> _sendHeaders;
+  __declspec(property(get = __cordl_internal_get__sendHeaders,
+                      put = __cordl_internal_set__sendHeaders))::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> _sendHeaders;
 
   /// @brief Field _recvHeaders, offset 0x40, size 0x8
-  __declspec(property(get = __get__recvHeaders,
-                      put = __set__recvHeaders))::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> _recvHeaders;
+  __declspec(property(get = __cordl_internal_get__recvHeaders,
+                      put = __cordl_internal_set__recvHeaders))::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> _recvHeaders;
 
   /// @brief Field s_callContextType, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_callContextType, put = setStaticF_s_callContextType))::System::Type* s_callContextType;
@@ -156,47 +156,47 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::System::Collections::Hashtable*& __get_m_Datastore();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_m_Datastore();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_m_Datastore() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_m_Datastore() const;
 
-  constexpr void __set_m_Datastore(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_m_Datastore(::System::Collections::Hashtable* value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::CallContextRemotingData*& __get_m_RemotingData();
+  constexpr ::System::Runtime::Remoting::Messaging::CallContextRemotingData*& __cordl_internal_get_m_RemotingData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::CallContextRemotingData*> const& __get_m_RemotingData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::CallContextRemotingData*> const& __cordl_internal_get_m_RemotingData() const;
 
-  constexpr void __set_m_RemotingData(::System::Runtime::Remoting::Messaging::CallContextRemotingData* value);
+  constexpr void __cordl_internal_set_m_RemotingData(::System::Runtime::Remoting::Messaging::CallContextRemotingData* value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::CallContextSecurityData*& __get_m_SecurityData();
+  constexpr ::System::Runtime::Remoting::Messaging::CallContextSecurityData*& __cordl_internal_get_m_SecurityData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::CallContextSecurityData*> const& __get_m_SecurityData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::CallContextSecurityData*> const& __cordl_internal_get_m_SecurityData() const;
 
-  constexpr void __set_m_SecurityData(::System::Runtime::Remoting::Messaging::CallContextSecurityData* value);
+  constexpr void __cordl_internal_set_m_SecurityData(::System::Runtime::Remoting::Messaging::CallContextSecurityData* value);
 
-  constexpr ::System::Object*& __get_m_HostContext();
+  constexpr ::System::Object*& __cordl_internal_get_m_HostContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_HostContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_HostContext() const;
 
-  constexpr void __set_m_HostContext(::System::Object* value);
+  constexpr void __cordl_internal_set_m_HostContext(::System::Object* value);
 
-  constexpr bool& __get_m_IsCorrelationMgr();
+  constexpr bool& __cordl_internal_get_m_IsCorrelationMgr();
 
-  constexpr bool const& __get_m_IsCorrelationMgr() const;
+  constexpr bool const& __cordl_internal_get_m_IsCorrelationMgr() const;
 
-  constexpr void __set_m_IsCorrelationMgr(bool value);
+  constexpr void __cordl_internal_set_m_IsCorrelationMgr(bool value);
 
-  constexpr ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*>& __get__sendHeaders();
+  constexpr ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*>& __cordl_internal_get__sendHeaders();
 
-  constexpr ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> const& __get__sendHeaders() const;
+  constexpr ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> const& __cordl_internal_get__sendHeaders() const;
 
-  constexpr void __set__sendHeaders(::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> value);
+  constexpr void __cordl_internal_set__sendHeaders(::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> value);
 
-  constexpr ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*>& __get__recvHeaders();
+  constexpr ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*>& __cordl_internal_get__recvHeaders();
 
-  constexpr ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> const& __get__recvHeaders() const;
+  constexpr ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> const& __cordl_internal_get__recvHeaders() const;
 
-  constexpr void __set__recvHeaders(::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> value);
+  constexpr void __cordl_internal_set__recvHeaders(::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> value);
 
   static inline void setStaticF_s_callContextType(::System::Type* value);
 

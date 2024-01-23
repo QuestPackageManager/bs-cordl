@@ -23,65 +23,65 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRControllerDrivenHandPosesSample);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7537))
 // CS Name: ::OVRControllerDrivenHandPosesSample*
 class CORDL_TYPE OVRControllerDrivenHandPosesSample : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field buttonOff, offset 0x18, size 0x8
-  __declspec(property(get = __get_buttonOff, put = __set_buttonOff))::UnityEngine::UI::Button* buttonOff;
+  __declspec(property(get = __cordl_internal_get_buttonOff, put = __cordl_internal_set_buttonOff))::UnityW<::UnityEngine::UI::Button> buttonOff;
 
   /// @brief Field buttonConforming, offset 0x20, size 0x8
-  __declspec(property(get = __get_buttonConforming, put = __set_buttonConforming))::UnityEngine::UI::Button* buttonConforming;
+  __declspec(property(get = __cordl_internal_get_buttonConforming, put = __cordl_internal_set_buttonConforming))::UnityW<::UnityEngine::UI::Button> buttonConforming;
 
   /// @brief Field buttonNatural, offset 0x28, size 0x8
-  __declspec(property(get = __get_buttonNatural, put = __set_buttonNatural))::UnityEngine::UI::Button* buttonNatural;
+  __declspec(property(get = __cordl_internal_get_buttonNatural, put = __cordl_internal_set_buttonNatural))::UnityW<::UnityEngine::UI::Button> buttonNatural;
 
   /// @brief Field leftLinePointer, offset 0x30, size 0x8
-  __declspec(property(get = __get_leftLinePointer, put = __set_leftLinePointer))::UnityEngine::LineRenderer* leftLinePointer;
+  __declspec(property(get = __cordl_internal_get_leftLinePointer, put = __cordl_internal_set_leftLinePointer))::UnityW<::UnityEngine::LineRenderer> leftLinePointer;
 
   /// @brief Field rightLinePointer, offset 0x38, size 0x8
-  __declspec(property(get = __get_rightLinePointer, put = __set_rightLinePointer))::UnityEngine::LineRenderer* rightLinePointer;
+  __declspec(property(get = __cordl_internal_get_rightLinePointer, put = __cordl_internal_set_rightLinePointer))::UnityW<::UnityEngine::LineRenderer> rightLinePointer;
 
   /// @brief Field cameraRig, offset 0x40, size 0x8
-  __declspec(property(get = __get_cameraRig, put = __set_cameraRig))::GlobalNamespace::OVRCameraRig* cameraRig;
+  __declspec(property(get = __cordl_internal_get_cameraRig, put = __cordl_internal_set_cameraRig))::UnityW<::GlobalNamespace::OVRCameraRig> cameraRig;
 
-  constexpr ::UnityEngine::UI::Button*& __get_buttonOff();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_buttonOff();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get_buttonOff() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_buttonOff() const;
 
-  constexpr void __set_buttonOff(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set_buttonOff(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get_buttonConforming();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_buttonConforming();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get_buttonConforming() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_buttonConforming() const;
 
-  constexpr void __set_buttonConforming(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set_buttonConforming(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get_buttonNatural();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get_buttonNatural();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get_buttonNatural() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_buttonNatural() const;
 
-  constexpr void __set_buttonNatural(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set_buttonNatural(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::LineRenderer*& __get_leftLinePointer();
+  constexpr ::UnityW<::UnityEngine::LineRenderer>& __cordl_internal_get_leftLinePointer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::LineRenderer*> const& __get_leftLinePointer() const;
+  constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get_leftLinePointer() const;
 
-  constexpr void __set_leftLinePointer(::UnityEngine::LineRenderer* value);
+  constexpr void __cordl_internal_set_leftLinePointer(::UnityW<::UnityEngine::LineRenderer> value);
 
-  constexpr ::UnityEngine::LineRenderer*& __get_rightLinePointer();
+  constexpr ::UnityW<::UnityEngine::LineRenderer>& __cordl_internal_get_rightLinePointer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::LineRenderer*> const& __get_rightLinePointer() const;
+  constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get_rightLinePointer() const;
 
-  constexpr void __set_rightLinePointer(::UnityEngine::LineRenderer* value);
+  constexpr void __cordl_internal_set_rightLinePointer(::UnityW<::UnityEngine::LineRenderer> value);
 
-  constexpr ::GlobalNamespace::OVRCameraRig*& __get_cameraRig();
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get_cameraRig();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRCameraRig*> const& __get_cameraRig() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRCameraRig> const& __cordl_internal_get_cameraRig() const;
 
-  constexpr void __set_cameraRig(::GlobalNamespace::OVRCameraRig* value);
+  constexpr void __cordl_internal_set_cameraRig(::UnityW<::GlobalNamespace::OVRCameraRig> value);
 
   /// @brief Method Awake, addr 0x271a944, size 0xdc, virtual false, abstract: false, final false
   inline void Awake();
@@ -136,22 +136,22 @@ protected:
 
 public:
   /// @brief Field buttonOff, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ___buttonOff;
+  ::UnityW<::UnityEngine::UI::Button> ___buttonOff;
 
   /// @brief Field buttonConforming, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ___buttonConforming;
+  ::UnityW<::UnityEngine::UI::Button> ___buttonConforming;
 
   /// @brief Field buttonNatural, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ___buttonNatural;
+  ::UnityW<::UnityEngine::UI::Button> ___buttonNatural;
 
   /// @brief Field leftLinePointer, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::LineRenderer* ___leftLinePointer;
+  ::UnityW<::UnityEngine::LineRenderer> ___leftLinePointer;
 
   /// @brief Field rightLinePointer, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::LineRenderer* ___rightLinePointer;
+  ::UnityW<::UnityEngine::LineRenderer> ___rightLinePointer;
 
   /// @brief Field cameraRig, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::OVRCameraRig* ___cameraRig;
+  ::UnityW<::GlobalNamespace::OVRCameraRig> ___cameraRig;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::AbstractFpFieldElement);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1368))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1368))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1369))
 // CS Name: ::Org.BouncyCastle.Math.EC::AbstractFpFieldElement*
 class CORDL_TYPE AbstractFpFieldElement : public ::Org::BouncyCastle::Math::EC::ECFieldElement {

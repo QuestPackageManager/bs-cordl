@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_SessionSyncData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9789))
 // CS Name: ::HEU_SessionSyncData::Status
 struct CORDL_TYPE __HEU_SessionSyncData__Status {
@@ -89,7 +89,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_SessionSyncData__Status, valu
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 99, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9755)), TypeDefinitionIndex(TypeDefinitionIndex(9756))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9755)), TypeDefinitionIndex(TypeDefinitionIndex(9756))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9790))
 // CS Name: ::HoudiniEngineUnity::HEU_SessionSyncData*
 class CORDL_TYPE HEU_SessionSyncData : public ::System::Object {
@@ -98,96 +98,96 @@ public:
   using Status = ::HoudiniEngineUnity::__HEU_SessionSyncData__Status;
 
   /// @brief Field _status, offset 0x10, size 0x4
-  __declspec(property(get = __get__status, put = __set__status)) int32_t _status;
+  __declspec(property(get = __cordl_internal_get__status, put = __cordl_internal_set__status)) int32_t _status;
 
   /// @brief Field _timeLastUpdate, offset 0x14, size 0x4
-  __declspec(property(get = __get__timeLastUpdate, put = __set__timeLastUpdate)) float_t _timeLastUpdate;
+  __declspec(property(get = __cordl_internal_get__timeLastUpdate, put = __cordl_internal_set__timeLastUpdate)) float_t _timeLastUpdate;
 
   /// @brief Field _timeStartConnection, offset 0x18, size 0x4
-  __declspec(property(get = __get__timeStartConnection, put = __set__timeStartConnection)) float_t _timeStartConnection;
+  __declspec(property(get = __cordl_internal_get__timeStartConnection, put = __cordl_internal_set__timeStartConnection)) float_t _timeStartConnection;
 
   /// @brief Field _newNodeName, offset 0x20, size 0x8
-  __declspec(property(get = __get__newNodeName, put = __set__newNodeName))::StringW _newNodeName;
+  __declspec(property(get = __cordl_internal_get__newNodeName, put = __cordl_internal_set__newNodeName))::StringW _newNodeName;
 
   /// @brief Field _nodeTypeIndex, offset 0x28, size 0x4
-  __declspec(property(get = __get__nodeTypeIndex, put = __set__nodeTypeIndex)) int32_t _nodeTypeIndex;
+  __declspec(property(get = __cordl_internal_get__nodeTypeIndex, put = __cordl_internal_set__nodeTypeIndex)) int32_t _nodeTypeIndex;
 
   /// @brief Field _validForConnection, offset 0x2c, size 0x1
-  __declspec(property(get = __get__validForConnection, put = __set__validForConnection)) bool _validForConnection;
+  __declspec(property(get = __cordl_internal_get__validForConnection, put = __cordl_internal_set__validForConnection)) bool _validForConnection;
 
   /// @brief Field _viewportHAPI, offset 0x30, size 0x18
-  __declspec(property(get = __get__viewportHAPI, put = __set__viewportHAPI))::HoudiniEngineUnity::HAPI_Viewport _viewportHAPI;
+  __declspec(property(get = __cordl_internal_get__viewportHAPI, put = __cordl_internal_set__viewportHAPI))::HoudiniEngineUnity::HAPI_Viewport _viewportHAPI;
 
   /// @brief Field _viewportLocal, offset 0x48, size 0x18
-  __declspec(property(get = __get__viewportLocal, put = __set__viewportLocal))::HoudiniEngineUnity::HAPI_Viewport _viewportLocal;
+  __declspec(property(get = __cordl_internal_get__viewportLocal, put = __cordl_internal_set__viewportLocal))::HoudiniEngineUnity::HAPI_Viewport _viewportLocal;
 
   /// @brief Field _viewportJustUpdated, offset 0x60, size 0x1
-  __declspec(property(get = __get__viewportJustUpdated, put = __set__viewportJustUpdated)) bool _viewportJustUpdated;
+  __declspec(property(get = __cordl_internal_get__viewportJustUpdated, put = __cordl_internal_set__viewportJustUpdated)) bool _viewportJustUpdated;
 
   /// @brief Field _syncInfo, offset 0x61, size 0x2
-  __declspec(property(get = __get__syncInfo, put = __set__syncInfo))::HoudiniEngineUnity::HAPI_SessionSyncInfo _syncInfo;
+  __declspec(property(get = __cordl_internal_get__syncInfo, put = __cordl_internal_set__syncInfo))::HoudiniEngineUnity::HAPI_SessionSyncInfo _syncInfo;
 
   __declspec(property(get = get_SyncStatus, put = set_SyncStatus))::HoudiniEngineUnity::__HEU_SessionSyncData__Status SyncStatus;
 
-  constexpr int32_t& __get__status();
+  constexpr int32_t& __cordl_internal_get__status();
 
-  constexpr int32_t const& __get__status() const;
+  constexpr int32_t const& __cordl_internal_get__status() const;
 
-  constexpr void __set__status(int32_t value);
+  constexpr void __cordl_internal_set__status(int32_t value);
 
-  constexpr float_t& __get__timeLastUpdate();
+  constexpr float_t& __cordl_internal_get__timeLastUpdate();
 
-  constexpr float_t const& __get__timeLastUpdate() const;
+  constexpr float_t const& __cordl_internal_get__timeLastUpdate() const;
 
-  constexpr void __set__timeLastUpdate(float_t value);
+  constexpr void __cordl_internal_set__timeLastUpdate(float_t value);
 
-  constexpr float_t& __get__timeStartConnection();
+  constexpr float_t& __cordl_internal_get__timeStartConnection();
 
-  constexpr float_t const& __get__timeStartConnection() const;
+  constexpr float_t const& __cordl_internal_get__timeStartConnection() const;
 
-  constexpr void __set__timeStartConnection(float_t value);
+  constexpr void __cordl_internal_set__timeStartConnection(float_t value);
 
-  constexpr ::StringW& __get__newNodeName();
+  constexpr ::StringW& __cordl_internal_get__newNodeName();
 
-  constexpr ::StringW const& __get__newNodeName() const;
+  constexpr ::StringW const& __cordl_internal_get__newNodeName() const;
 
-  constexpr void __set__newNodeName(::StringW value);
+  constexpr void __cordl_internal_set__newNodeName(::StringW value);
 
-  constexpr int32_t& __get__nodeTypeIndex();
+  constexpr int32_t& __cordl_internal_get__nodeTypeIndex();
 
-  constexpr int32_t const& __get__nodeTypeIndex() const;
+  constexpr int32_t const& __cordl_internal_get__nodeTypeIndex() const;
 
-  constexpr void __set__nodeTypeIndex(int32_t value);
+  constexpr void __cordl_internal_set__nodeTypeIndex(int32_t value);
 
-  constexpr bool& __get__validForConnection();
+  constexpr bool& __cordl_internal_get__validForConnection();
 
-  constexpr bool const& __get__validForConnection() const;
+  constexpr bool const& __cordl_internal_get__validForConnection() const;
 
-  constexpr void __set__validForConnection(bool value);
+  constexpr void __cordl_internal_set__validForConnection(bool value);
 
-  constexpr ::HoudiniEngineUnity::HAPI_Viewport& __get__viewportHAPI();
+  constexpr ::HoudiniEngineUnity::HAPI_Viewport& __cordl_internal_get__viewportHAPI();
 
-  constexpr ::HoudiniEngineUnity::HAPI_Viewport const& __get__viewportHAPI() const;
+  constexpr ::HoudiniEngineUnity::HAPI_Viewport const& __cordl_internal_get__viewportHAPI() const;
 
-  constexpr void __set__viewportHAPI(::HoudiniEngineUnity::HAPI_Viewport value);
+  constexpr void __cordl_internal_set__viewportHAPI(::HoudiniEngineUnity::HAPI_Viewport value);
 
-  constexpr ::HoudiniEngineUnity::HAPI_Viewport& __get__viewportLocal();
+  constexpr ::HoudiniEngineUnity::HAPI_Viewport& __cordl_internal_get__viewportLocal();
 
-  constexpr ::HoudiniEngineUnity::HAPI_Viewport const& __get__viewportLocal() const;
+  constexpr ::HoudiniEngineUnity::HAPI_Viewport const& __cordl_internal_get__viewportLocal() const;
 
-  constexpr void __set__viewportLocal(::HoudiniEngineUnity::HAPI_Viewport value);
+  constexpr void __cordl_internal_set__viewportLocal(::HoudiniEngineUnity::HAPI_Viewport value);
 
-  constexpr bool& __get__viewportJustUpdated();
+  constexpr bool& __cordl_internal_get__viewportJustUpdated();
 
-  constexpr bool const& __get__viewportJustUpdated() const;
+  constexpr bool const& __cordl_internal_get__viewportJustUpdated() const;
 
-  constexpr void __set__viewportJustUpdated(bool value);
+  constexpr void __cordl_internal_set__viewportJustUpdated(bool value);
 
-  constexpr ::HoudiniEngineUnity::HAPI_SessionSyncInfo& __get__syncInfo();
+  constexpr ::HoudiniEngineUnity::HAPI_SessionSyncInfo& __cordl_internal_get__syncInfo();
 
-  constexpr ::HoudiniEngineUnity::HAPI_SessionSyncInfo const& __get__syncInfo() const;
+  constexpr ::HoudiniEngineUnity::HAPI_SessionSyncInfo const& __cordl_internal_get__syncInfo() const;
 
-  constexpr void __set__syncInfo(::HoudiniEngineUnity::HAPI_SessionSyncInfo value);
+  constexpr void __cordl_internal_set__syncInfo(::HoudiniEngineUnity::HAPI_SessionSyncInfo value);
 
   /// @brief Method get_SyncStatus, addr 0x21a53d0, size 0x14, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::__HEU_SessionSyncData__Status get_SyncStatus();

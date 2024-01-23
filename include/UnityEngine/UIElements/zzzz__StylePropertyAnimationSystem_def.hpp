@@ -265,7 +265,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPro
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6832))
 // CS Name: ::StylePropertyAnimationSystem::TransitionState
 struct CORDL_TYPE __StylePropertyAnimationSystem__TransitionState {
@@ -329,7 +329,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TTimingData, typename TStyleData>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6833))
 // CS Name: ::StylePropertyAnimationSystem::AnimationDataSet`2<TTimingData,TStyleData>
 struct CORDL_TYPE __StylePropertyAnimationSystem__AnimationDataSet_2 {
@@ -415,7 +415,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6834))
 // CS Name: ::StylePropertyAnimationSystem::ElementPropertyPair::EqualityComparer*
 class CORDL_TYPE __StylePropertyAnimationSystem__ElementPropertyPair__EqualityComparer : public ::System::Object {
@@ -463,7 +463,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__StyleProperty
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7487))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7487))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6835))
 // CS Name: ::StylePropertyAnimationSystem::ElementPropertyPair
 struct CORDL_TYPE __StylePropertyAnimationSystem__ElementPropertyPair {
@@ -513,7 +513,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6836))
 // CS Name: ::StylePropertyAnimationSystem::Values*
 class CORDL_TYPE __StylePropertyAnimationSystem__Values : public ::System::Object {
@@ -577,7 +577,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6837))
 // CS Name: ::StylePropertyAnimationSystem::Values`1::TransitionEventsFrameState::<>c<T>*
 class CORDL_TYPE __StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState____c : public ::System::Object {
@@ -622,7 +622,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6838))
 // CS Name: ::StylePropertyAnimationSystem::Values`1::TransitionEventsFrameState<T>*
 class CORDL_TYPE __StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState : public ::System::Object {
@@ -631,18 +631,18 @@ public:
   using __c = ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState____c<T>;
 
   /// @brief Field elementPropertyStateDelta, offset 0x10, size 0x8
-  __declspec(property(get = __get_elementPropertyStateDelta, put = __set_elementPropertyStateDelta))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get_elementPropertyStateDelta, put = __cordl_internal_set_elementPropertyStateDelta))::System::Collections::Generic::Dictionary_2<
       ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair, ::UnityEngine::UIElements::__StylePropertyAnimationSystem__TransitionState>* elementPropertyStateDelta;
 
   /// @brief Field elementPropertyQueuedEvents, offset 0x18, size 0x8
-  __declspec(property(get = __get_elementPropertyQueuedEvents, put = __set_elementPropertyQueuedEvents))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get_elementPropertyQueuedEvents, put = __cordl_internal_set_elementPropertyQueuedEvents))::System::Collections::Generic::Dictionary_2<
       ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair, ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventBase*>*>* elementPropertyQueuedEvents;
 
   /// @brief Field panel, offset 0x20, size 0x8
-  __declspec(property(get = __get_panel, put = __set_panel))::UnityEngine::UIElements::IPanel* panel;
+  __declspec(property(get = __cordl_internal_get_panel, put = __cordl_internal_set_panel))::UnityEngine::UIElements::IPanel* panel;
 
   /// @brief Field m_ChangesCount, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_ChangesCount, put = __set_m_ChangesCount)) int32_t m_ChangesCount;
+  __declspec(property(get = __cordl_internal_get_m_ChangesCount, put = __cordl_internal_set_m_ChangesCount)) int32_t m_ChangesCount;
 
   /// @brief Field k_EventQueuePool, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_EventQueuePool,
@@ -650,37 +650,37 @@ public:
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair,
                                                          ::UnityEngine::UIElements::__StylePropertyAnimationSystem__TransitionState>*&
-  __get_elementPropertyStateDelta();
+  __cordl_internal_get_elementPropertyStateDelta();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair,
                                                                                              ::UnityEngine::UIElements::__StylePropertyAnimationSystem__TransitionState>*> const&
-  __get_elementPropertyStateDelta() const;
+  __cordl_internal_get_elementPropertyStateDelta() const;
 
-  constexpr void __set_elementPropertyStateDelta(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair,
-                                                                                              ::UnityEngine::UIElements::__StylePropertyAnimationSystem__TransitionState>* value);
+  constexpr void __cordl_internal_set_elementPropertyStateDelta(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair,
+                                                                                                             ::UnityEngine::UIElements::__StylePropertyAnimationSystem__TransitionState>* value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair,
                                                          ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventBase*>*>*&
-  __get_elementPropertyQueuedEvents();
+  __cordl_internal_get_elementPropertyQueuedEvents();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair,
                                                                                              ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventBase*>*>*> const&
-  __get_elementPropertyQueuedEvents() const;
+  __cordl_internal_get_elementPropertyQueuedEvents() const;
 
-  constexpr void __set_elementPropertyQueuedEvents(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair,
-                                                                                                ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventBase*>*>* value);
+  constexpr void __cordl_internal_set_elementPropertyQueuedEvents(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ElementPropertyPair,
+                                                                                                               ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventBase*>*>* value);
 
-  constexpr ::UnityEngine::UIElements::IPanel*& __get_panel();
+  constexpr ::UnityEngine::UIElements::IPanel*& __cordl_internal_get_panel();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IPanel*> const& __get_panel() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IPanel*> const& __cordl_internal_get_panel() const;
 
-  constexpr void __set_panel(::UnityEngine::UIElements::IPanel* value);
+  constexpr void __cordl_internal_set_panel(::UnityEngine::UIElements::IPanel* value);
 
-  constexpr int32_t& __get_m_ChangesCount();
+  constexpr int32_t& __cordl_internal_get_m_ChangesCount();
 
-  constexpr int32_t const& __get_m_ChangesCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_ChangesCount() const;
 
-  constexpr void __set_m_ChangesCount(int32_t value);
+  constexpr void __cordl_internal_set_m_ChangesCount(int32_t value);
 
   static inline void setStaticF_k_EventQueuePool(::UnityEngine::Pool::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::EventBase*>*>* value);
 
@@ -744,7 +744,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6839))
 // CS Name: ::StylePropertyAnimationSystem::Values`1::TimingData<T>
 struct CORDL_TYPE __StylePropertyAnimationSystem__Values_1__TimingData {
@@ -795,7 +795,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6840))
 // CS Name: ::StylePropertyAnimationSystem::Values`1::StyleData<T>
 struct CORDL_TYPE __StylePropertyAnimationSystem__Values_1__StyleData {
@@ -834,7 +834,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6841), inst: 1567 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6841), inst: 1567 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6841))
 // CS Name: ::StylePropertyAnimationSystem::Values`1::EmptyData<T>
 #pragma pack(push, 0)
@@ -869,11 +869,11 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6833), inst: 766 }), TypeDefinitionIndex(TypeDefinitionIndex(6836)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(6840), inst: 1566 }), TypeDefinitionIndex(TypeDefinitionIndex(6839)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6833), inst: 765 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6841), inst: 1566 }), TypeDefinitionIndex(TypeDefinitionIndex(6840)), TypeDefinitionIndex(TypeDefinitionIndex(6833)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6839), inst: 1566 }), TypeDefinitionIndex(TypeDefinitionIndex(6841))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6842)) CS
-// Name: ::StylePropertyAnimationSystem::Values`1<T>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6833)), TypeDefinitionIndex(TypeDefinitionIndex(6836)), TypeDefinitionIndex(TypeDefinitionIndex(6839)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6840)), TypeDefinitionIndex(TypeDefinitionIndex(6841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6833), inst: 765 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6833), inst: 766 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6839), inst: 1566 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6840), inst: 1566 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6841), inst: 1566 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(6842)) CS Name: ::StylePropertyAnimationSystem::Values`1<T>*
 class CORDL_TYPE __StylePropertyAnimationSystem__Values_1 : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values {
 public:
   // Declarations
@@ -886,64 +886,67 @@ public:
   using TransitionEventsFrameState = ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>;
 
   /// @brief Field m_CurrentTimeMs, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_CurrentTimeMs, put = __set_m_CurrentTimeMs)) int64_t m_CurrentTimeMs;
+  __declspec(property(get = __cordl_internal_get_m_CurrentTimeMs, put = __cordl_internal_set_m_CurrentTimeMs)) int64_t m_CurrentTimeMs;
 
   /// @brief Field m_CurrentFrameEventsState, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_CurrentFrameEventsState,
-                      put = __set_m_CurrentFrameEventsState))::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>* m_CurrentFrameEventsState;
+  __declspec(property(get = __cordl_internal_get_m_CurrentFrameEventsState,
+                      put = __cordl_internal_set_m_CurrentFrameEventsState))::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>* m_CurrentFrameEventsState;
 
   /// @brief Field m_NextFrameEventsState, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_NextFrameEventsState,
-                      put = __set_m_NextFrameEventsState))::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>* m_NextFrameEventsState;
+  __declspec(property(get = __cordl_internal_get_m_NextFrameEventsState,
+                      put = __cordl_internal_set_m_NextFrameEventsState))::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>* m_NextFrameEventsState;
 
   /// @brief Field running, offset 0x28, size 0x30
-  __declspec(property(get = __get_running, put = __set_running))::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<
+  __declspec(property(get = __cordl_internal_get_running, put = __cordl_internal_set_running))::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<
       ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TimingData<T>, ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__StyleData<T>> running;
 
   /// @brief Field completed, offset 0x58, size 0x30
-  __declspec(property(
-      get = __get_completed,
-      put = __set_completed))::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__EmptyData<T>, T> completed;
+  __declspec(property(get = __cordl_internal_get_completed, put = __cordl_internal_set_completed))::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<
+      ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__EmptyData<T>, T> completed;
 
   __declspec(property(get = get_isEmpty)) bool isEmpty;
 
   __declspec(property(get = get_SameFunc))::System::Func_3<T, T, bool>* SameFunc;
 
-  constexpr int64_t& __get_m_CurrentTimeMs();
+  constexpr int64_t& __cordl_internal_get_m_CurrentTimeMs();
 
-  constexpr int64_t const& __get_m_CurrentTimeMs() const;
+  constexpr int64_t const& __cordl_internal_get_m_CurrentTimeMs() const;
 
-  constexpr void __set_m_CurrentTimeMs(int64_t value);
+  constexpr void __cordl_internal_set_m_CurrentTimeMs(int64_t value);
 
-  constexpr ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>*& __get_m_CurrentFrameEventsState();
+  constexpr ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>*& __cordl_internal_get_m_CurrentFrameEventsState();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>*> const& __get_m_CurrentFrameEventsState() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>*> const&
+  __cordl_internal_get_m_CurrentFrameEventsState() const;
 
-  constexpr void __set_m_CurrentFrameEventsState(::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>* value);
+  constexpr void __cordl_internal_set_m_CurrentFrameEventsState(::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>* value);
 
-  constexpr ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>*& __get_m_NextFrameEventsState();
+  constexpr ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>*& __cordl_internal_get_m_NextFrameEventsState();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>*> const& __get_m_NextFrameEventsState() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>*> const& __cordl_internal_get_m_NextFrameEventsState() const;
 
-  constexpr void __set_m_NextFrameEventsState(::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>* value);
+  constexpr void __cordl_internal_set_m_NextFrameEventsState(::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TransitionEventsFrameState<T>* value);
 
   constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TimingData<T>,
                                                                                           ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__StyleData<T>>&
-  __get_running();
+  __cordl_internal_get_running();
 
   constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TimingData<T>,
                                                                                           ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__StyleData<T>> const&
-  __get_running() const;
+  __cordl_internal_get_running() const;
 
-  constexpr void __set_running(::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TimingData<T>,
-                                                                                                             ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__StyleData<T>>
-                                   value);
+  constexpr void __cordl_internal_set_running(::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__TimingData<T>,
+                                                                                                                            ::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__StyleData<T>>
+                                                  value);
 
-  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__EmptyData<T>, T>& __get_completed();
+  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__EmptyData<T>, T>&
+  __cordl_internal_get_completed();
 
-  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__EmptyData<T>, T> const& __get_completed() const;
+  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__EmptyData<T>, T> const&
+  __cordl_internal_get_completed() const;
 
-  constexpr void __set_completed(::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__EmptyData<T>, T> value);
+  constexpr void
+  __cordl_internal_set_completed(::UnityEngine::UIElements::__StylePropertyAnimationSystem__AnimationDataSet_2<::GlobalNamespace::__StylePropertyAnimationSystem__Values_1__EmptyData<T>, T> value);
 
   /// @brief Method get_isEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_isEmpty();
@@ -1059,22 +1062,22 @@ public:
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 391 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 391 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6843))
 // CS Name: ::StylePropertyAnimationSystem::ValuesFloat*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesFloat : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<float_t> {
 public:
   // Declarations
   /// @brief Field <SameFunc>k__BackingField, offset 0x88, size 0x8
-  __declspec(property(get = __get__SameFunc_k__BackingField, put = __set__SameFunc_k__BackingField))::System::Func_3<float_t, float_t, bool>* _SameFunc_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SameFunc_k__BackingField, put = __cordl_internal_set__SameFunc_k__BackingField))::System::Func_3<float_t, float_t, bool>* _SameFunc_k__BackingField;
 
   __declspec(property(get = get_SameFunc))::System::Func_3<float_t, float_t, bool>* SameFunc;
 
-  constexpr ::System::Func_3<float_t, float_t, bool>*& __get__SameFunc_k__BackingField();
+  constexpr ::System::Func_3<float_t, float_t, bool>*& __cordl_internal_get__SameFunc_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<float_t, float_t, bool>*> const& __get__SameFunc_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<float_t, float_t, bool>*> const& __cordl_internal_get__SameFunc_k__BackingField() const;
 
-  constexpr void __set__SameFunc_k__BackingField(::System::Func_3<float_t, float_t, bool>* value);
+  constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<float_t, float_t, bool>* value);
 
   /// @brief Method get_SameFunc, addr 0x2dc5808, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<float_t, float_t, bool>* get_SameFunc();
@@ -1128,22 +1131,22 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 98 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 98 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6844))
 // CS Name: ::StylePropertyAnimationSystem::ValuesInt*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesInt : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<int32_t> {
 public:
   // Declarations
   /// @brief Field <SameFunc>k__BackingField, offset 0x88, size 0x8
-  __declspec(property(get = __get__SameFunc_k__BackingField, put = __set__SameFunc_k__BackingField))::System::Func_3<int32_t, int32_t, bool>* _SameFunc_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SameFunc_k__BackingField, put = __cordl_internal_set__SameFunc_k__BackingField))::System::Func_3<int32_t, int32_t, bool>* _SameFunc_k__BackingField;
 
   __declspec(property(get = get_SameFunc))::System::Func_3<int32_t, int32_t, bool>* SameFunc;
 
-  constexpr ::System::Func_3<int32_t, int32_t, bool>*& __get__SameFunc_k__BackingField();
+  constexpr ::System::Func_3<int32_t, int32_t, bool>*& __cordl_internal_get__SameFunc_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<int32_t, int32_t, bool>*> const& __get__SameFunc_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<int32_t, int32_t, bool>*> const& __cordl_internal_get__SameFunc_k__BackingField() const;
 
-  constexpr void __set__SameFunc_k__BackingField(::System::Func_3<int32_t, int32_t, bool>* value);
+  constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<int32_t, int32_t, bool>* value);
 
   /// @brief Method get_SameFunc, addr 0x2dc5b34, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<int32_t, int32_t, bool>* get_SameFunc();
@@ -1197,22 +1200,23 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1570
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6845)) CS Name: ::StylePropertyAnimationSystem::ValuesLength*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6842)), TypeDefinitionIndex(TypeDefinitionIndex(7313)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1570
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6845)) CS Name: ::StylePropertyAnimationSystem::ValuesLength*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesLength : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::Length> {
 public:
   // Declarations
   /// @brief Field <SameFunc>k__BackingField, offset 0x88, size 0x8
-  __declspec(property(get = __get__SameFunc_k__BackingField,
-                      put = __set__SameFunc_k__BackingField))::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* _SameFunc_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SameFunc_k__BackingField,
+                      put = __cordl_internal_set__SameFunc_k__BackingField))::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* _SameFunc_k__BackingField;
 
   __declspec(property(get = get_SameFunc))::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* SameFunc;
 
-  constexpr ::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>*& __get__SameFunc_k__BackingField();
+  constexpr ::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>*& __cordl_internal_get__SameFunc_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>*> const& __get__SameFunc_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>*> const&
+  __cordl_internal_get__SameFunc_k__BackingField() const;
 
-  constexpr void __set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* value);
+  constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* value);
 
   /// @brief Method get_SameFunc, addr 0x2dc5ed8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::Length, ::UnityEngine::UIElements::Length, bool>* get_SameFunc();
@@ -1266,21 +1270,22 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 293 }), TypeDefinitionIndex(TypeDefinitionIndex(10251)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6846)) CS Name: ::StylePropertyAnimationSystem::ValuesColor*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6842)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 293
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6846)) CS Name: ::StylePropertyAnimationSystem::ValuesColor*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesColor : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::Color> {
 public:
   // Declarations
   /// @brief Field <SameFunc>k__BackingField, offset 0x88, size 0x8
-  __declspec(property(get = __get__SameFunc_k__BackingField, put = __set__SameFunc_k__BackingField))::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* _SameFunc_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SameFunc_k__BackingField,
+                      put = __cordl_internal_set__SameFunc_k__BackingField))::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* _SameFunc_k__BackingField;
 
   __declspec(property(get = get_SameFunc))::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* SameFunc;
 
-  constexpr ::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>*& __get__SameFunc_k__BackingField();
+  constexpr ::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>*& __cordl_internal_get__SameFunc_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>*> const& __get__SameFunc_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>*> const& __cordl_internal_get__SameFunc_k__BackingField() const;
 
-  constexpr void __set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* value);
+  constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* value);
 
   /// @brief Method get_SameFunc, addr 0x2dc6284, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::Color, ::UnityEngine::Color, bool>* get_SameFunc();
@@ -1336,22 +1341,22 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 5344 }), TypeDefinitionIndex(TypeDefinitionIndex(6842))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 5344 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6847))
 // CS Name: ::StylePropertyAnimationSystem::ValuesDiscrete`1<T>*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesDiscrete_1 : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<T> {
 public:
   // Declarations
   /// @brief Field <SameFunc>k__BackingField, offset 0x88, size 0x8
-  __declspec(property(get = __get__SameFunc_k__BackingField, put = __set__SameFunc_k__BackingField))::System::Func_3<T, T, bool>* _SameFunc_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SameFunc_k__BackingField, put = __cordl_internal_set__SameFunc_k__BackingField))::System::Func_3<T, T, bool>* _SameFunc_k__BackingField;
 
   __declspec(property(get = get_SameFunc))::System::Func_3<T, T, bool>* SameFunc;
 
-  constexpr ::System::Func_3<T, T, bool>*& __get__SameFunc_k__BackingField();
+  constexpr ::System::Func_3<T, T, bool>*& __cordl_internal_get__SameFunc_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<T, T, bool>*> const& __get__SameFunc_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<T, T, bool>*> const& __cordl_internal_get__SameFunc_k__BackingField() const;
 
-  constexpr void __set__SameFunc_k__BackingField(::System::Func_3<T, T, bool>* value);
+  constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<T, T, bool>* value);
 
   /// @brief Method get_SameFunc, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Func_3<T, T, bool>* get_SameFunc();
@@ -1395,8 +1400,8 @@ public:
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6847), inst: 1568 }), TypeDefinitionIndex(TypeDefinitionIndex(7293)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6847))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6848)) CS Name: ::StylePropertyAnimationSystem::ValuesBackground*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6847)), TypeDefinitionIndex(TypeDefinitionIndex(7293)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6847), inst: 1568
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6848)) CS Name: ::StylePropertyAnimationSystem::ValuesBackground*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesBackground : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesDiscrete_1<::UnityEngine::UIElements::Background> {
 public:
   // Declarations
@@ -1435,8 +1440,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Style
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6847), inst: 1569 }), TypeDefinitionIndex(TypeDefinitionIndex(6847)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7284))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6849)) CS Name: ::StylePropertyAnimationSystem::ValuesFontDefinition*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6847)), TypeDefinitionIndex(TypeDefinitionIndex(7284)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6847), inst: 1569
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6849)) CS Name: ::StylePropertyAnimationSystem::ValuesFontDefinition*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesFontDefinition : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesDiscrete_1<::UnityEngine::UIElements::FontDefinition> {
 public:
   // Declarations
@@ -1475,9 +1480,9 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Style
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6847)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6847), inst: 309 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15909))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6850)) CS Name: ::StylePropertyAnimationSystem::ValuesFont*
-class CORDL_TYPE __StylePropertyAnimationSystem__ValuesFont : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesDiscrete_1<::UnityEngine::Font*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6847)), TypeDefinitionIndex(TypeDefinitionIndex(15909)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6847), inst: 309
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6850)) CS Name: ::StylePropertyAnimationSystem::ValuesFont*
+class CORDL_TYPE __StylePropertyAnimationSystem__ValuesFont : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesDiscrete_1<::UnityW<::UnityEngine::Font>> {
 public:
   // Declarations
   /// @brief Method UpdateComputedStyle, addr 0x2dc6a30, size 0xcc, virtual true, abstract: false, final true
@@ -1515,22 +1520,24 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Style
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1573 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6790))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6851)) CS Name: ::StylePropertyAnimationSystem::ValuesTextShadow*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6790)), TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1573
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6851)) CS Name: ::StylePropertyAnimationSystem::ValuesTextShadow*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesTextShadow : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::TextShadow> {
 public:
   // Declarations
   /// @brief Field <SameFunc>k__BackingField, offset 0x88, size 0x8
-  __declspec(property(get = __get__SameFunc_k__BackingField,
-                      put = __set__SameFunc_k__BackingField))::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* _SameFunc_k__BackingField;
+  __declspec(
+      property(get = __cordl_internal_get__SameFunc_k__BackingField,
+               put = __cordl_internal_set__SameFunc_k__BackingField))::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* _SameFunc_k__BackingField;
 
   __declspec(property(get = get_SameFunc))::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* SameFunc;
 
-  constexpr ::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>*& __get__SameFunc_k__BackingField();
+  constexpr ::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>*& __cordl_internal_get__SameFunc_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>*> const& __get__SameFunc_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>*> const&
+  __cordl_internal_get__SameFunc_k__BackingField() const;
 
-  constexpr void __set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* value);
+  constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* value);
 
   /// @brief Method get_SameFunc, addr 0x2dc6bec, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::TextShadow, ::UnityEngine::UIElements::TextShadow, bool>* get_SameFunc();
@@ -1584,22 +1591,23 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1572 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7318))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6852)) CS Name: ::StylePropertyAnimationSystem::ValuesScale*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6842)), TypeDefinitionIndex(TypeDefinitionIndex(7318)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1572
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6852)) CS Name: ::StylePropertyAnimationSystem::ValuesScale*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesScale : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::Scale> {
 public:
   // Declarations
   /// @brief Field <SameFunc>k__BackingField, offset 0x88, size 0x8
-  __declspec(property(get = __get__SameFunc_k__BackingField,
-                      put = __set__SameFunc_k__BackingField))::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* _SameFunc_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SameFunc_k__BackingField,
+                      put = __cordl_internal_set__SameFunc_k__BackingField))::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* _SameFunc_k__BackingField;
 
   __declspec(property(get = get_SameFunc))::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* SameFunc;
 
-  constexpr ::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>*& __get__SameFunc_k__BackingField();
+  constexpr ::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>*& __cordl_internal_get__SameFunc_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>*> const& __get__SameFunc_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>*> const&
+  __cordl_internal_get__SameFunc_k__BackingField() const;
 
-  constexpr void __set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* value);
+  constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* value);
 
   /// @brief Method get_SameFunc, addr 0x2dc6fb8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale, bool>* get_SameFunc();
@@ -1653,22 +1661,23 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6842)), TypeDefinitionIndex(TypeDefinitionIndex(7295)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1571
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6853)) CS Name: ::StylePropertyAnimationSystem::ValuesRotate*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6842)), TypeDefinitionIndex(TypeDefinitionIndex(7295)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1571
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6853)) CS Name: ::StylePropertyAnimationSystem::ValuesRotate*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesRotate : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::Rotate> {
 public:
   // Declarations
   /// @brief Field <SameFunc>k__BackingField, offset 0x88, size 0x8
-  __declspec(property(get = __get__SameFunc_k__BackingField,
-                      put = __set__SameFunc_k__BackingField))::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* _SameFunc_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SameFunc_k__BackingField,
+                      put = __cordl_internal_set__SameFunc_k__BackingField))::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* _SameFunc_k__BackingField;
 
   __declspec(property(get = get_SameFunc))::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* SameFunc;
 
-  constexpr ::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>*& __get__SameFunc_k__BackingField();
+  constexpr ::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>*& __cordl_internal_get__SameFunc_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>*> const& __get__SameFunc_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>*> const&
+  __cordl_internal_get__SameFunc_k__BackingField() const;
 
-  constexpr void __set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* value);
+  constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* value);
 
   /// @brief Method get_SameFunc, addr 0x2dc72e0, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate, bool>* get_SameFunc();
@@ -1722,22 +1731,24 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1575 }), TypeDefinitionIndex(TypeDefinitionIndex(7302)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6854)) CS Name: ::StylePropertyAnimationSystem::ValuesTranslate*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6842)), TypeDefinitionIndex(TypeDefinitionIndex(7302)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1575
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6854)) CS Name: ::StylePropertyAnimationSystem::ValuesTranslate*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesTranslate : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::Translate> {
 public:
   // Declarations
   /// @brief Field <SameFunc>k__BackingField, offset 0x88, size 0x8
-  __declspec(property(get = __get__SameFunc_k__BackingField,
-                      put = __set__SameFunc_k__BackingField))::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* _SameFunc_k__BackingField;
+  __declspec(
+      property(get = __cordl_internal_get__SameFunc_k__BackingField,
+               put = __cordl_internal_set__SameFunc_k__BackingField))::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* _SameFunc_k__BackingField;
 
   __declspec(property(get = get_SameFunc))::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* SameFunc;
 
-  constexpr ::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>*& __get__SameFunc_k__BackingField();
+  constexpr ::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>*& __cordl_internal_get__SameFunc_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>*> const& __get__SameFunc_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>*> const&
+  __cordl_internal_get__SameFunc_k__BackingField() const;
 
-  constexpr void __set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* value);
+  constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* value);
 
   /// @brief Method get_SameFunc, addr 0x2dc76d8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::Translate, ::UnityEngine::UIElements::Translate, bool>* get_SameFunc();
@@ -1791,23 +1802,24 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7317)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1574 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6855)) CS Name: ::StylePropertyAnimationSystem::ValuesTransformOrigin*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6842)), TypeDefinitionIndex(TypeDefinitionIndex(7317)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6842), inst: 1574
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6855)) CS Name: ::StylePropertyAnimationSystem::ValuesTransformOrigin*
 class CORDL_TYPE __StylePropertyAnimationSystem__ValuesTransformOrigin : public ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values_1<::UnityEngine::UIElements::TransformOrigin> {
 public:
   // Declarations
   /// @brief Field <SameFunc>k__BackingField, offset 0x88, size 0x8
-  __declspec(property(get = __get__SameFunc_k__BackingField,
-                      put = __set__SameFunc_k__BackingField))::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* _SameFunc_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__SameFunc_k__BackingField,
+      put = __cordl_internal_set__SameFunc_k__BackingField))::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* _SameFunc_k__BackingField;
 
   __declspec(property(get = get_SameFunc))::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* SameFunc;
 
-  constexpr ::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>*& __get__SameFunc_k__BackingField();
+  constexpr ::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>*& __cordl_internal_get__SameFunc_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>*> const&
-  __get__SameFunc_k__BackingField() const;
+  __cordl_internal_get__SameFunc_k__BackingField() const;
 
-  constexpr void __set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* value);
+  constexpr void __cordl_internal_set__SameFunc_k__BackingField(::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* value);
 
   /// @brief Method get_SameFunc, addr 0x2dc7b24, size 0x8, virtual true, abstract: false, final false
   inline ::System::Func_3<::UnityEngine::UIElements::TransformOrigin, ::UnityEngine::UIElements::TransformOrigin, bool>* get_SameFunc();
@@ -1861,7 +1873,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyAnimationSystem
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6856))
 // CS Name: ::UnityEngine.UIElements::StylePropertyAnimationSystem*
 class CORDL_TYPE StylePropertyAnimationSystem : public ::System::Object {
@@ -1904,51 +1916,53 @@ public:
   using TransitionState = ::UnityEngine::UIElements::__StylePropertyAnimationSystem__TransitionState;
 
   /// @brief Field m_CurrentTimeMs, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_CurrentTimeMs, put = __set_m_CurrentTimeMs)) int64_t m_CurrentTimeMs;
+  __declspec(property(get = __cordl_internal_get_m_CurrentTimeMs, put = __cordl_internal_set_m_CurrentTimeMs)) int64_t m_CurrentTimeMs;
 
   /// @brief Field m_Floats, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Floats, put = __set_m_Floats))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat* m_Floats;
+  __declspec(property(get = __cordl_internal_get_m_Floats, put = __cordl_internal_set_m_Floats))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat* m_Floats;
 
   /// @brief Field m_Ints, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Ints, put = __set_m_Ints))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt* m_Ints;
+  __declspec(property(get = __cordl_internal_get_m_Ints, put = __cordl_internal_set_m_Ints))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt* m_Ints;
 
   /// @brief Field m_Lengths, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Lengths, put = __set_m_Lengths))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength* m_Lengths;
+  __declspec(property(get = __cordl_internal_get_m_Lengths, put = __cordl_internal_set_m_Lengths))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength* m_Lengths;
 
   /// @brief Field m_Colors, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Colors, put = __set_m_Colors))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor* m_Colors;
+  __declspec(property(get = __cordl_internal_get_m_Colors, put = __cordl_internal_set_m_Colors))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor* m_Colors;
 
   /// @brief Field m_Backgrounds, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_Backgrounds, put = __set_m_Backgrounds))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesBackground* m_Backgrounds;
+  __declspec(property(get = __cordl_internal_get_m_Backgrounds, put = __cordl_internal_set_m_Backgrounds))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesBackground* m_Backgrounds;
 
   /// @brief Field m_FontDefinitions, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_FontDefinitions, put = __set_m_FontDefinitions))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFontDefinition* m_FontDefinitions;
+  __declspec(property(get = __cordl_internal_get_m_FontDefinitions,
+                      put = __cordl_internal_set_m_FontDefinitions))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFontDefinition* m_FontDefinitions;
 
   /// @brief Field m_Fonts, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_Fonts, put = __set_m_Fonts))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFont* m_Fonts;
+  __declspec(property(get = __cordl_internal_get_m_Fonts, put = __cordl_internal_set_m_Fonts))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFont* m_Fonts;
 
   /// @brief Field m_TextShadows, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_TextShadows, put = __set_m_TextShadows))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow* m_TextShadows;
+  __declspec(property(get = __cordl_internal_get_m_TextShadows, put = __cordl_internal_set_m_TextShadows))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow* m_TextShadows;
 
   /// @brief Field m_Scale, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_Scale, put = __set_m_Scale))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale* m_Scale;
+  __declspec(property(get = __cordl_internal_get_m_Scale, put = __cordl_internal_set_m_Scale))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale* m_Scale;
 
   /// @brief Field m_Rotate, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_Rotate, put = __set_m_Rotate))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate* m_Rotate;
+  __declspec(property(get = __cordl_internal_get_m_Rotate, put = __cordl_internal_set_m_Rotate))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate* m_Rotate;
 
   /// @brief Field m_Translate, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_Translate, put = __set_m_Translate))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate* m_Translate;
+  __declspec(property(get = __cordl_internal_get_m_Translate, put = __cordl_internal_set_m_Translate))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate* m_Translate;
 
   /// @brief Field m_TransformOrigin, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_TransformOrigin, put = __set_m_TransformOrigin))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTransformOrigin* m_TransformOrigin;
+  __declspec(property(get = __cordl_internal_get_m_TransformOrigin,
+                      put = __cordl_internal_set_m_TransformOrigin))::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTransformOrigin* m_TransformOrigin;
 
   /// @brief Field m_AllValues, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_AllValues, put = __set_m_AllValues))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>* m_AllValues;
+  __declspec(property(get = __cordl_internal_get_m_AllValues,
+                      put = __cordl_internal_set_m_AllValues))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>* m_AllValues;
 
   /// @brief Field m_PropertyToValues, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_PropertyToValues,
-                      put = __set_m_PropertyToValues))::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId,
-                                                                                                   ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>* m_PropertyToValues;
+  __declspec(property(get = __cordl_internal_get_m_PropertyToValues, put = __cordl_internal_set_m_PropertyToValues))::System::Collections::Generic::Dictionary_2<
+      ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>* m_PropertyToValues;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IStylePropertyAnimationSystem"
   constexpr operator ::UnityEngine::UIElements::IStylePropertyAnimationSystem*() noexcept;
@@ -1956,98 +1970,99 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStylePropertyAnimationSystem"
   constexpr ::UnityEngine::UIElements::IStylePropertyAnimationSystem* i___UnityEngine__UIElements__IStylePropertyAnimationSystem() noexcept;
 
-  constexpr int64_t& __get_m_CurrentTimeMs();
+  constexpr int64_t& __cordl_internal_get_m_CurrentTimeMs();
 
-  constexpr int64_t const& __get_m_CurrentTimeMs() const;
+  constexpr int64_t const& __cordl_internal_get_m_CurrentTimeMs() const;
 
-  constexpr void __set_m_CurrentTimeMs(int64_t value);
+  constexpr void __cordl_internal_set_m_CurrentTimeMs(int64_t value);
 
-  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat*& __get_m_Floats();
+  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat*& __cordl_internal_get_m_Floats();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat*> const& __get_m_Floats() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat*> const& __cordl_internal_get_m_Floats() const;
 
-  constexpr void __set_m_Floats(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat* value);
+  constexpr void __cordl_internal_set_m_Floats(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFloat* value);
 
-  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt*& __get_m_Ints();
+  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt*& __cordl_internal_get_m_Ints();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt*> const& __get_m_Ints() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt*> const& __cordl_internal_get_m_Ints() const;
 
-  constexpr void __set_m_Ints(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt* value);
+  constexpr void __cordl_internal_set_m_Ints(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesInt* value);
 
-  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength*& __get_m_Lengths();
+  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength*& __cordl_internal_get_m_Lengths();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength*> const& __get_m_Lengths() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength*> const& __cordl_internal_get_m_Lengths() const;
 
-  constexpr void __set_m_Lengths(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength* value);
+  constexpr void __cordl_internal_set_m_Lengths(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesLength* value);
 
-  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor*& __get_m_Colors();
+  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor*& __cordl_internal_get_m_Colors();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor*> const& __get_m_Colors() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor*> const& __cordl_internal_get_m_Colors() const;
 
-  constexpr void __set_m_Colors(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor* value);
+  constexpr void __cordl_internal_set_m_Colors(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesColor* value);
 
-  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesBackground*& __get_m_Backgrounds();
+  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesBackground*& __cordl_internal_get_m_Backgrounds();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesBackground*> const& __get_m_Backgrounds() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesBackground*> const& __cordl_internal_get_m_Backgrounds() const;
 
-  constexpr void __set_m_Backgrounds(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesBackground* value);
+  constexpr void __cordl_internal_set_m_Backgrounds(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesBackground* value);
 
-  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFontDefinition*& __get_m_FontDefinitions();
+  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFontDefinition*& __cordl_internal_get_m_FontDefinitions();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFontDefinition*> const& __get_m_FontDefinitions() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFontDefinition*> const& __cordl_internal_get_m_FontDefinitions() const;
 
-  constexpr void __set_m_FontDefinitions(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFontDefinition* value);
+  constexpr void __cordl_internal_set_m_FontDefinitions(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFontDefinition* value);
 
-  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFont*& __get_m_Fonts();
+  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFont*& __cordl_internal_get_m_Fonts();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFont*> const& __get_m_Fonts() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFont*> const& __cordl_internal_get_m_Fonts() const;
 
-  constexpr void __set_m_Fonts(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFont* value);
+  constexpr void __cordl_internal_set_m_Fonts(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesFont* value);
 
-  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow*& __get_m_TextShadows();
+  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow*& __cordl_internal_get_m_TextShadows();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow*> const& __get_m_TextShadows() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow*> const& __cordl_internal_get_m_TextShadows() const;
 
-  constexpr void __set_m_TextShadows(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow* value);
+  constexpr void __cordl_internal_set_m_TextShadows(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTextShadow* value);
 
-  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale*& __get_m_Scale();
+  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale*& __cordl_internal_get_m_Scale();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale*> const& __get_m_Scale() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale*> const& __cordl_internal_get_m_Scale() const;
 
-  constexpr void __set_m_Scale(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale* value);
+  constexpr void __cordl_internal_set_m_Scale(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesScale* value);
 
-  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate*& __get_m_Rotate();
+  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate*& __cordl_internal_get_m_Rotate();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate*> const& __get_m_Rotate() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate*> const& __cordl_internal_get_m_Rotate() const;
 
-  constexpr void __set_m_Rotate(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate* value);
+  constexpr void __cordl_internal_set_m_Rotate(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesRotate* value);
 
-  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate*& __get_m_Translate();
+  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate*& __cordl_internal_get_m_Translate();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate*> const& __get_m_Translate() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate*> const& __cordl_internal_get_m_Translate() const;
 
-  constexpr void __set_m_Translate(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate* value);
+  constexpr void __cordl_internal_set_m_Translate(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTranslate* value);
 
-  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTransformOrigin*& __get_m_TransformOrigin();
+  constexpr ::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTransformOrigin*& __cordl_internal_get_m_TransformOrigin();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTransformOrigin*> const& __get_m_TransformOrigin() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTransformOrigin*> const& __cordl_internal_get_m_TransformOrigin() const;
 
-  constexpr void __set_m_TransformOrigin(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTransformOrigin* value);
+  constexpr void __cordl_internal_set_m_TransformOrigin(::UnityEngine::UIElements::__StylePropertyAnimationSystem__ValuesTransformOrigin* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>*& __get_m_AllValues();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>*& __cordl_internal_get_m_AllValues();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>*> const& __get_m_AllValues() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>*> const&
+  __cordl_internal_get_m_AllValues() const;
 
-  constexpr void __set_m_AllValues(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>* value);
+  constexpr void __cordl_internal_set_m_AllValues(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>* value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>*&
-  __get_m_PropertyToValues();
+  __cordl_internal_get_m_PropertyToValues();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>*> const&
-  __get_m_PropertyToValues() const;
+  __cordl_internal_get_m_PropertyToValues() const;
 
-  constexpr void __set_m_PropertyToValues(
+  constexpr void __cordl_internal_set_m_PropertyToValues(
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::__StylePropertyAnimationSystem__Values*>* value);
 
   static inline ::UnityEngine::UIElements::StylePropertyAnimationSystem* New_ctor();

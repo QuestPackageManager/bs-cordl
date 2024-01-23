@@ -9,44 +9,44 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x27067a0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::LaunchUnblockFlowResult*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
     return ___internal_method;
   }
 };
-constexpr bool& Oculus::Platform::Models::LaunchUnblockFlowResult::__get_DidCancel() {
+constexpr bool& Oculus::Platform::Models::LaunchUnblockFlowResult::__cordl_internal_get_DidCancel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DidCancel;
 }
-constexpr bool const& Oculus::Platform::Models::LaunchUnblockFlowResult::__get_DidCancel() const {
+constexpr bool const& Oculus::Platform::Models::LaunchUnblockFlowResult::__cordl_internal_get_DidCancel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DidCancel;
 }
-constexpr void Oculus::Platform::Models::LaunchUnblockFlowResult::__set_DidCancel(bool value) {
+constexpr void Oculus::Platform::Models::LaunchUnblockFlowResult::__cordl_internal_set_DidCancel(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___DidCancel = value;
 }
-constexpr bool& Oculus::Platform::Models::LaunchUnblockFlowResult::__get_DidUnblock() {
+constexpr bool& Oculus::Platform::Models::LaunchUnblockFlowResult::__cordl_internal_get_DidUnblock() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DidUnblock;
 }
-constexpr bool const& Oculus::Platform::Models::LaunchUnblockFlowResult::__get_DidUnblock() const {
+constexpr bool const& Oculus::Platform::Models::LaunchUnblockFlowResult::__cordl_internal_get_DidUnblock() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___DidUnblock;
 }
-constexpr void Oculus::Platform::Models::LaunchUnblockFlowResult::__set_DidUnblock(bool value) {
+constexpr void Oculus::Platform::Models::LaunchUnblockFlowResult::__cordl_internal_set_DidUnblock(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___DidUnblock = value;
 }
 inline ::Oculus::Platform::Models::LaunchUnblockFlowResult* Oculus::Platform::Models::LaunchUnblockFlowResult::New_ctor(void* o) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Oculus::Platform::Models::LaunchUnblockFlowResult*>(o));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Models::LaunchUnblockFlowResult*>(o));
 }
 inline void Oculus::Platform::Models::LaunchUnblockFlowResult::_ctor(void* o) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::LaunchUnblockFlowResult*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, o);
 }
 // Ctor Parameters []

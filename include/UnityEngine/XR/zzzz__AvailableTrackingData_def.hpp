@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::XR::AvailableTrackingData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15628))
 // CS Name: ::UnityEngine.XR::AvailableTrackingData
 struct CORDL_TYPE AvailableTrackingData {

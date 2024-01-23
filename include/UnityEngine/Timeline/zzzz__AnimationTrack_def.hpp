@@ -130,7 +130,7 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::__AnimationTrack___get_outputs_d__49);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13841))
 // CS Name: ::AnimationTrack::AnimationTrackUpgrade*
 class CORDL_TYPE __AnimationTrack__AnimationTrackUpgrade : public ::System::Object {
@@ -169,23 +169,23 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__Animati
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10431)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10431))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13842))
 // CS Name: ::AnimationTrack::<get_outputs>d__49*
 class CORDL_TYPE __AnimationTrack___get_outputs_d__49 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x20
-  __declspec(property(get = __get___2__current, put = __set___2__current))::UnityEngine::Playables::PlayableBinding __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityEngine::Playables::PlayableBinding __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x38, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x40, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::Timeline::AnimationTrack* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::UnityEngine::Timeline::AnimationTrack> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current))::UnityEngine::Playables::PlayableBinding
       System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__Current;
@@ -224,29 +224,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::UnityEngine::Playables::PlayableBinding& __get___2__current();
+  constexpr ::UnityEngine::Playables::PlayableBinding& __cordl_internal_get___2__current();
 
-  constexpr ::UnityEngine::Playables::PlayableBinding const& __get___2__current() const;
+  constexpr ::UnityEngine::Playables::PlayableBinding const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::UnityEngine::Playables::PlayableBinding value);
+  constexpr void __cordl_internal_set___2__current(::UnityEngine::Playables::PlayableBinding value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::UnityEngine::Timeline::AnimationTrack*& __get___4__this();
+  constexpr ::UnityW<::UnityEngine::Timeline::AnimationTrack>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::AnimationTrack*> const& __get___4__this() const;
+  constexpr ::UnityW<::UnityEngine::Timeline::AnimationTrack> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::Timeline::AnimationTrack* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::UnityEngine::Timeline::AnimationTrack> value);
 
   static inline ::UnityEngine::Timeline::__AnimationTrack___get_outputs_d__49* New_ctor(int32_t __1__state);
 
@@ -298,7 +298,7 @@ public:
   int32_t _____l__initialThreadId;
 
   /// @brief Field <>4__this, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Timeline::AnimationTrack* _____4__this;
+  ::UnityW<::UnityEngine::Timeline::AnimationTrack> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -318,8 +318,8 @@ static_assert(offsetof(::UnityEngine::Timeline::__AnimationTrack___get_outputs_d
 // SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 297, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13862)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(13837)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13831)), TypeDefinitionIndex(TypeDefinitionIndex(13838)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(13847))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(13831)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13837)), TypeDefinitionIndex(TypeDefinitionIndex(13838)), TypeDefinitionIndex(TypeDefinitionIndex(13847)), TypeDefinitionIndex(TypeDefinitionIndex(13862))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13843))
 // CS Name: ::UnityEngine.Timeline::AnimationTrack*
 class CORDL_TYPE AnimationTrack : public ::UnityEngine::Timeline::TrackAsset {
@@ -330,62 +330,63 @@ public:
   using AnimationTrackUpgrade = ::UnityEngine::Timeline::__AnimationTrack__AnimationTrackUpgrade;
 
   /// @brief Field m_InfiniteClipPreExtrapolation, offset 0xa0, size 0x4
-  __declspec(property(get = __get_m_InfiniteClipPreExtrapolation, put = __set_m_InfiniteClipPreExtrapolation))::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation m_InfiniteClipPreExtrapolation;
+  __declspec(property(get = __cordl_internal_get_m_InfiniteClipPreExtrapolation,
+                      put = __cordl_internal_set_m_InfiniteClipPreExtrapolation))::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation m_InfiniteClipPreExtrapolation;
 
   /// @brief Field m_InfiniteClipPostExtrapolation, offset 0xa4, size 0x4
-  __declspec(property(get = __get_m_InfiniteClipPostExtrapolation,
-                      put = __set_m_InfiniteClipPostExtrapolation))::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation m_InfiniteClipPostExtrapolation;
+  __declspec(property(get = __cordl_internal_get_m_InfiniteClipPostExtrapolation,
+                      put = __cordl_internal_set_m_InfiniteClipPostExtrapolation))::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation m_InfiniteClipPostExtrapolation;
 
   /// @brief Field m_InfiniteClipOffsetPosition, offset 0xa8, size 0xc
-  __declspec(property(get = __get_m_InfiniteClipOffsetPosition, put = __set_m_InfiniteClipOffsetPosition))::UnityEngine::Vector3 m_InfiniteClipOffsetPosition;
+  __declspec(property(get = __cordl_internal_get_m_InfiniteClipOffsetPosition, put = __cordl_internal_set_m_InfiniteClipOffsetPosition))::UnityEngine::Vector3 m_InfiniteClipOffsetPosition;
 
   /// @brief Field m_InfiniteClipOffsetEulerAngles, offset 0xb4, size 0xc
-  __declspec(property(get = __get_m_InfiniteClipOffsetEulerAngles, put = __set_m_InfiniteClipOffsetEulerAngles))::UnityEngine::Vector3 m_InfiniteClipOffsetEulerAngles;
+  __declspec(property(get = __cordl_internal_get_m_InfiniteClipOffsetEulerAngles, put = __cordl_internal_set_m_InfiniteClipOffsetEulerAngles))::UnityEngine::Vector3 m_InfiniteClipOffsetEulerAngles;
 
   /// @brief Field m_InfiniteClipTimeOffset, offset 0xc0, size 0x8
-  __declspec(property(get = __get_m_InfiniteClipTimeOffset, put = __set_m_InfiniteClipTimeOffset)) double_t m_InfiniteClipTimeOffset;
+  __declspec(property(get = __cordl_internal_get_m_InfiniteClipTimeOffset, put = __cordl_internal_set_m_InfiniteClipTimeOffset)) double_t m_InfiniteClipTimeOffset;
 
   /// @brief Field m_InfiniteClipRemoveOffset, offset 0xc8, size 0x1
-  __declspec(property(get = __get_m_InfiniteClipRemoveOffset, put = __set_m_InfiniteClipRemoveOffset)) bool m_InfiniteClipRemoveOffset;
+  __declspec(property(get = __cordl_internal_get_m_InfiniteClipRemoveOffset, put = __cordl_internal_set_m_InfiniteClipRemoveOffset)) bool m_InfiniteClipRemoveOffset;
 
   /// @brief Field m_InfiniteClipApplyFootIK, offset 0xc9, size 0x1
-  __declspec(property(get = __get_m_InfiniteClipApplyFootIK, put = __set_m_InfiniteClipApplyFootIK)) bool m_InfiniteClipApplyFootIK;
+  __declspec(property(get = __cordl_internal_get_m_InfiniteClipApplyFootIK, put = __cordl_internal_set_m_InfiniteClipApplyFootIK)) bool m_InfiniteClipApplyFootIK;
 
   /// @brief Field mInfiniteClipLoop, offset 0xcc, size 0x4
-  __declspec(property(get = __get_mInfiniteClipLoop, put = __set_mInfiniteClipLoop))::UnityEngine::Timeline::__AnimationPlayableAsset__LoopMode mInfiniteClipLoop;
+  __declspec(property(get = __cordl_internal_get_mInfiniteClipLoop, put = __cordl_internal_set_mInfiniteClipLoop))::UnityEngine::Timeline::__AnimationPlayableAsset__LoopMode mInfiniteClipLoop;
 
   /// @brief Field m_MatchTargetFields, offset 0xd0, size 0x4
-  __declspec(property(get = __get_m_MatchTargetFields, put = __set_m_MatchTargetFields))::UnityEngine::Timeline::MatchTargetFields m_MatchTargetFields;
+  __declspec(property(get = __cordl_internal_get_m_MatchTargetFields, put = __cordl_internal_set_m_MatchTargetFields))::UnityEngine::Timeline::MatchTargetFields m_MatchTargetFields;
 
   /// @brief Field m_Position, offset 0xd4, size 0xc
-  __declspec(property(get = __get_m_Position, put = __set_m_Position))::UnityEngine::Vector3 m_Position;
+  __declspec(property(get = __cordl_internal_get_m_Position, put = __cordl_internal_set_m_Position))::UnityEngine::Vector3 m_Position;
 
   /// @brief Field m_EulerAngles, offset 0xe0, size 0xc
-  __declspec(property(get = __get_m_EulerAngles, put = __set_m_EulerAngles))::UnityEngine::Vector3 m_EulerAngles;
+  __declspec(property(get = __cordl_internal_get_m_EulerAngles, put = __cordl_internal_set_m_EulerAngles))::UnityEngine::Vector3 m_EulerAngles;
 
   /// @brief Field m_AvatarMask, offset 0xf0, size 0x8
-  __declspec(property(get = __get_m_AvatarMask, put = __set_m_AvatarMask))::UnityEngine::AvatarMask* m_AvatarMask;
+  __declspec(property(get = __cordl_internal_get_m_AvatarMask, put = __cordl_internal_set_m_AvatarMask))::UnityW<::UnityEngine::AvatarMask> m_AvatarMask;
 
   /// @brief Field m_ApplyAvatarMask, offset 0xf8, size 0x1
-  __declspec(property(get = __get_m_ApplyAvatarMask, put = __set_m_ApplyAvatarMask)) bool m_ApplyAvatarMask;
+  __declspec(property(get = __cordl_internal_get_m_ApplyAvatarMask, put = __cordl_internal_set_m_ApplyAvatarMask)) bool m_ApplyAvatarMask;
 
   /// @brief Field m_TrackOffset, offset 0xfc, size 0x4
-  __declspec(property(get = __get_m_TrackOffset, put = __set_m_TrackOffset))::UnityEngine::Timeline::TrackOffset m_TrackOffset;
+  __declspec(property(get = __cordl_internal_get_m_TrackOffset, put = __cordl_internal_set_m_TrackOffset))::UnityEngine::Timeline::TrackOffset m_TrackOffset;
 
   /// @brief Field m_InfiniteClip, offset 0x100, size 0x8
-  __declspec(property(get = __get_m_InfiniteClip, put = __set_m_InfiniteClip))::UnityEngine::AnimationClip* m_InfiniteClip;
+  __declspec(property(get = __cordl_internal_get_m_InfiniteClip, put = __cordl_internal_set_m_InfiniteClip))::UnityW<::UnityEngine::AnimationClip> m_InfiniteClip;
 
   /// @brief Field m_OpenClipOffsetRotation, offset 0x108, size 0x10
-  __declspec(property(get = __get_m_OpenClipOffsetRotation, put = __set_m_OpenClipOffsetRotation))::UnityEngine::Quaternion m_OpenClipOffsetRotation;
+  __declspec(property(get = __cordl_internal_get_m_OpenClipOffsetRotation, put = __cordl_internal_set_m_OpenClipOffsetRotation))::UnityEngine::Quaternion m_OpenClipOffsetRotation;
 
   /// @brief Field m_Rotation, offset 0x118, size 0x10
-  __declspec(property(get = __get_m_Rotation, put = __set_m_Rotation))::UnityEngine::Quaternion m_Rotation;
+  __declspec(property(get = __cordl_internal_get_m_Rotation, put = __cordl_internal_set_m_Rotation))::UnityEngine::Quaternion m_Rotation;
 
   /// @brief Field m_ApplyOffsets, offset 0x128, size 0x1
-  __declspec(property(get = __get_m_ApplyOffsets, put = __set_m_ApplyOffsets)) bool m_ApplyOffsets;
+  __declspec(property(get = __cordl_internal_get_m_ApplyOffsets, put = __cordl_internal_set_m_ApplyOffsets)) bool m_ApplyOffsets;
 
   /// @brief Field s_CachedQueue, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_CachedQueue, put = setStaticF_s_CachedQueue))::System::Collections::Generic::Queue_1<::UnityEngine::Transform*>* s_CachedQueue;
+  static __declspec(property(get = getStaticF_s_CachedQueue, put = setStaticF_s_CachedQueue))::System::Collections::Generic::Queue_1<::UnityW<::UnityEngine::Transform>>* s_CachedQueue;
 
   __declspec(property(get = get_position, put = set_position))::UnityEngine::Vector3 position;
 
@@ -399,11 +400,11 @@ public:
 
   __declspec(property(get = get_matchTargetFields, put = set_matchTargetFields))::UnityEngine::Timeline::MatchTargetFields matchTargetFields;
 
-  __declspec(property(get = get_infiniteClip, put = set_infiniteClip))::UnityEngine::AnimationClip* infiniteClip;
+  __declspec(property(get = get_infiniteClip, put = set_infiniteClip))::UnityW<::UnityEngine::AnimationClip> infiniteClip;
 
   __declspec(property(get = get_infiniteClipRemoveOffset, put = set_infiniteClipRemoveOffset)) bool infiniteClipRemoveOffset;
 
-  __declspec(property(get = get_avatarMask, put = set_avatarMask))::UnityEngine::AvatarMask* avatarMask;
+  __declspec(property(get = get_avatarMask, put = set_avatarMask))::UnityW<::UnityEngine::AvatarMask> avatarMask;
 
   __declspec(property(get = get_applyAvatarMask, put = set_applyAvatarMask)) bool applyAvatarMask;
 
@@ -443,117 +444,117 @@ public:
   /// @brief Convert to "::UnityEngine::Timeline::ILayerable"
   constexpr ::UnityEngine::Timeline::ILayerable* i___UnityEngine__Timeline__ILayerable() noexcept;
 
-  constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation& __get_m_InfiniteClipPreExtrapolation();
+  constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation& __cordl_internal_get_m_InfiniteClipPreExtrapolation();
 
-  constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation const& __get_m_InfiniteClipPreExtrapolation() const;
+  constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation const& __cordl_internal_get_m_InfiniteClipPreExtrapolation() const;
 
-  constexpr void __set_m_InfiniteClipPreExtrapolation(::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation value);
+  constexpr void __cordl_internal_set_m_InfiniteClipPreExtrapolation(::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation value);
 
-  constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation& __get_m_InfiniteClipPostExtrapolation();
+  constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation& __cordl_internal_get_m_InfiniteClipPostExtrapolation();
 
-  constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation const& __get_m_InfiniteClipPostExtrapolation() const;
+  constexpr ::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation const& __cordl_internal_get_m_InfiniteClipPostExtrapolation() const;
 
-  constexpr void __set_m_InfiniteClipPostExtrapolation(::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation value);
+  constexpr void __cordl_internal_set_m_InfiniteClipPostExtrapolation(::UnityEngine::Timeline::__TimelineClip__ClipExtrapolation value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_InfiniteClipOffsetPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_InfiniteClipOffsetPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_InfiniteClipOffsetPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_InfiniteClipOffsetPosition() const;
 
-  constexpr void __set_m_InfiniteClipOffsetPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_InfiniteClipOffsetPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_InfiniteClipOffsetEulerAngles();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_InfiniteClipOffsetEulerAngles();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_InfiniteClipOffsetEulerAngles() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_InfiniteClipOffsetEulerAngles() const;
 
-  constexpr void __set_m_InfiniteClipOffsetEulerAngles(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_InfiniteClipOffsetEulerAngles(::UnityEngine::Vector3 value);
 
-  constexpr double_t& __get_m_InfiniteClipTimeOffset();
+  constexpr double_t& __cordl_internal_get_m_InfiniteClipTimeOffset();
 
-  constexpr double_t const& __get_m_InfiniteClipTimeOffset() const;
+  constexpr double_t const& __cordl_internal_get_m_InfiniteClipTimeOffset() const;
 
-  constexpr void __set_m_InfiniteClipTimeOffset(double_t value);
+  constexpr void __cordl_internal_set_m_InfiniteClipTimeOffset(double_t value);
 
-  constexpr bool& __get_m_InfiniteClipRemoveOffset();
+  constexpr bool& __cordl_internal_get_m_InfiniteClipRemoveOffset();
 
-  constexpr bool const& __get_m_InfiniteClipRemoveOffset() const;
+  constexpr bool const& __cordl_internal_get_m_InfiniteClipRemoveOffset() const;
 
-  constexpr void __set_m_InfiniteClipRemoveOffset(bool value);
+  constexpr void __cordl_internal_set_m_InfiniteClipRemoveOffset(bool value);
 
-  constexpr bool& __get_m_InfiniteClipApplyFootIK();
+  constexpr bool& __cordl_internal_get_m_InfiniteClipApplyFootIK();
 
-  constexpr bool const& __get_m_InfiniteClipApplyFootIK() const;
+  constexpr bool const& __cordl_internal_get_m_InfiniteClipApplyFootIK() const;
 
-  constexpr void __set_m_InfiniteClipApplyFootIK(bool value);
+  constexpr void __cordl_internal_set_m_InfiniteClipApplyFootIK(bool value);
 
-  constexpr ::UnityEngine::Timeline::__AnimationPlayableAsset__LoopMode& __get_mInfiniteClipLoop();
+  constexpr ::UnityEngine::Timeline::__AnimationPlayableAsset__LoopMode& __cordl_internal_get_mInfiniteClipLoop();
 
-  constexpr ::UnityEngine::Timeline::__AnimationPlayableAsset__LoopMode const& __get_mInfiniteClipLoop() const;
+  constexpr ::UnityEngine::Timeline::__AnimationPlayableAsset__LoopMode const& __cordl_internal_get_mInfiniteClipLoop() const;
 
-  constexpr void __set_mInfiniteClipLoop(::UnityEngine::Timeline::__AnimationPlayableAsset__LoopMode value);
+  constexpr void __cordl_internal_set_mInfiniteClipLoop(::UnityEngine::Timeline::__AnimationPlayableAsset__LoopMode value);
 
-  constexpr ::UnityEngine::Timeline::MatchTargetFields& __get_m_MatchTargetFields();
+  constexpr ::UnityEngine::Timeline::MatchTargetFields& __cordl_internal_get_m_MatchTargetFields();
 
-  constexpr ::UnityEngine::Timeline::MatchTargetFields const& __get_m_MatchTargetFields() const;
+  constexpr ::UnityEngine::Timeline::MatchTargetFields const& __cordl_internal_get_m_MatchTargetFields() const;
 
-  constexpr void __set_m_MatchTargetFields(::UnityEngine::Timeline::MatchTargetFields value);
+  constexpr void __cordl_internal_set_m_MatchTargetFields(::UnityEngine::Timeline::MatchTargetFields value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_Position();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_Position();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_Position() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_Position() const;
 
-  constexpr void __set_m_Position(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_Position(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_EulerAngles();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_EulerAngles();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_EulerAngles() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_EulerAngles() const;
 
-  constexpr void __set_m_EulerAngles(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_EulerAngles(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::AvatarMask*& __get_m_AvatarMask();
+  constexpr ::UnityW<::UnityEngine::AvatarMask>& __cordl_internal_get_m_AvatarMask();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AvatarMask*> const& __get_m_AvatarMask() const;
+  constexpr ::UnityW<::UnityEngine::AvatarMask> const& __cordl_internal_get_m_AvatarMask() const;
 
-  constexpr void __set_m_AvatarMask(::UnityEngine::AvatarMask* value);
+  constexpr void __cordl_internal_set_m_AvatarMask(::UnityW<::UnityEngine::AvatarMask> value);
 
-  constexpr bool& __get_m_ApplyAvatarMask();
+  constexpr bool& __cordl_internal_get_m_ApplyAvatarMask();
 
-  constexpr bool const& __get_m_ApplyAvatarMask() const;
+  constexpr bool const& __cordl_internal_get_m_ApplyAvatarMask() const;
 
-  constexpr void __set_m_ApplyAvatarMask(bool value);
+  constexpr void __cordl_internal_set_m_ApplyAvatarMask(bool value);
 
-  constexpr ::UnityEngine::Timeline::TrackOffset& __get_m_TrackOffset();
+  constexpr ::UnityEngine::Timeline::TrackOffset& __cordl_internal_get_m_TrackOffset();
 
-  constexpr ::UnityEngine::Timeline::TrackOffset const& __get_m_TrackOffset() const;
+  constexpr ::UnityEngine::Timeline::TrackOffset const& __cordl_internal_get_m_TrackOffset() const;
 
-  constexpr void __set_m_TrackOffset(::UnityEngine::Timeline::TrackOffset value);
+  constexpr void __cordl_internal_set_m_TrackOffset(::UnityEngine::Timeline::TrackOffset value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get_m_InfiniteClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get_m_InfiniteClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get_m_InfiniteClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get_m_InfiniteClip() const;
 
-  constexpr void __set_m_InfiniteClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set_m_InfiniteClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::UnityEngine::Quaternion& __get_m_OpenClipOffsetRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_m_OpenClipOffsetRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_m_OpenClipOffsetRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_m_OpenClipOffsetRotation() const;
 
-  constexpr void __set_m_OpenClipOffsetRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_m_OpenClipOffsetRotation(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Quaternion& __get_m_Rotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_m_Rotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_m_Rotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_m_Rotation() const;
 
-  constexpr void __set_m_Rotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_m_Rotation(::UnityEngine::Quaternion value);
 
-  constexpr bool& __get_m_ApplyOffsets();
+  constexpr bool& __cordl_internal_get_m_ApplyOffsets();
 
-  constexpr bool const& __get_m_ApplyOffsets() const;
+  constexpr bool const& __cordl_internal_get_m_ApplyOffsets() const;
 
-  constexpr void __set_m_ApplyOffsets(bool value);
+  constexpr void __cordl_internal_set_m_ApplyOffsets(bool value);
 
-  static inline void setStaticF_s_CachedQueue(::System::Collections::Generic::Queue_1<::UnityEngine::Transform*>* value);
+  static inline void setStaticF_s_CachedQueue(::System::Collections::Generic::Queue_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  static inline ::System::Collections::Generic::Queue_1<::UnityEngine::Transform*>* getStaticF_s_CachedQueue();
+  static inline ::System::Collections::Generic::Queue_1<::UnityW<::UnityEngine::Transform>>* getStaticF_s_CachedQueue();
 
   /// @brief Method get_position, addr 0x2c50da4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
@@ -592,7 +593,7 @@ public:
   inline void set_matchTargetFields(::UnityEngine::Timeline::MatchTargetFields value);
 
   /// @brief Method get_infiniteClip, addr 0x2c50ec8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::AnimationClip* get_infiniteClip();
+  inline ::UnityW<::UnityEngine::AnimationClip> get_infiniteClip();
 
   /// @brief Method set_infiniteClip, addr 0x2c50ed0, size 0x8, virtual false, abstract: false, final false
   inline void set_infiniteClip(::UnityEngine::AnimationClip* value);
@@ -604,7 +605,7 @@ public:
   inline void set_infiniteClipRemoveOffset(bool value);
 
   /// @brief Method get_avatarMask, addr 0x2c50eec, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::AvatarMask* get_avatarMask();
+  inline ::UnityW<::UnityEngine::AvatarMask> get_avatarMask();
 
   /// @brief Method set_avatarMask, addr 0x2c50ef4, size 0x8, virtual false, abstract: false, final false
   inline void set_avatarMask(::UnityEngine::AvatarMask* value);
@@ -725,7 +726,7 @@ public:
   inline bool HasController(::UnityEngine::GameObject* gameObject);
 
   /// @brief Method GetBinding, addr 0x2c53ca4, size 0x1e4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Animator* GetBinding(::UnityEngine::Playables::PlayableDirector* director);
+  inline ::UnityW<::UnityEngine::Animator> GetBinding(::UnityEngine::Playables::PlayableDirector* director);
 
   /// @brief Method CreateGroupMixer, addr 0x2c53634, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationLayerMixerPlayable CreateGroupMixer(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go, int32_t inputCount);
@@ -752,7 +753,7 @@ public:
   inline void GatherProperties(::UnityEngine::Playables::PlayableDirector* director, ::UnityEngine::Timeline::IPropertyCollector* driver);
 
   /// @brief Method GetAnimationClips, addr 0x2c54540, size 0x564, virtual false, abstract: false, final false
-  inline void GetAnimationClips(::System::Collections::Generic::List_1<::UnityEngine::AnimationClip*>* animClips);
+  inline void GetAnimationClips(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AnimationClip>>* animClips);
 
   /// @brief Method GetOffsetMode, addr 0x2c535bc, size 0x70, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::AppliedOffsetMode GetOffsetMode(::UnityEngine::GameObject* go, bool animatesRootTransform);
@@ -761,13 +762,13 @@ public:
   inline bool IsRootTransformDisabledByMask(::UnityEngine::GameObject* gameObject, ::UnityEngine::Transform* genericRootNode);
 
   /// @brief Method GetGenericRootNode, addr 0x2c53158, size 0x1e8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* GetGenericRootNode(::UnityEngine::GameObject* gameObject);
+  inline ::UnityW<::UnityEngine::Transform> GetGenericRootNode(::UnityEngine::GameObject* gameObject);
 
   /// @brief Method AnimatesRootTransform, addr 0x2c521d0, size 0x3e4, virtual false, abstract: false, final false
   inline bool AnimatesRootTransform();
 
   /// @brief Method FindInHierarchyBreadthFirst, addr 0x2c54aa4, size 0x1d4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* FindInHierarchyBreadthFirst(::UnityEngine::Transform* t, ::StringW name);
+  static inline ::UnityW<::UnityEngine::Transform> FindInHierarchyBreadthFirst(::UnityEngine::Transform* t, ::StringW name);
 
   /// @brief Method get_openClipOffsetPosition, addr 0x2c54c7c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_openClipOffsetPosition();
@@ -855,7 +856,7 @@ public:
   ::UnityEngine::Vector3 ___m_EulerAngles;
 
   /// @brief Field m_AvatarMask, offset: 0xf0, size: 0x8, def value: None
-  ::UnityEngine::AvatarMask* ___m_AvatarMask;
+  ::UnityW<::UnityEngine::AvatarMask> ___m_AvatarMask;
 
   /// @brief Field m_ApplyAvatarMask, offset: 0xf8, size: 0x1, def value: None
   bool ___m_ApplyAvatarMask;
@@ -864,7 +865,7 @@ public:
   ::UnityEngine::Timeline::TrackOffset ___m_TrackOffset;
 
   /// @brief Field m_InfiniteClip, offset: 0x100, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ___m_InfiniteClip;
+  ::UnityW<::UnityEngine::AnimationClip> ___m_InfiniteClip;
 
   /// @brief Field m_OpenClipOffsetRotation, offset: 0x108, size: 0x10, def value: None
   ::UnityEngine::Quaternion ___m_OpenClipOffsetRotation;

@@ -20,92 +20,92 @@ MARK_REF_PTR_T(::System::Diagnostics::StackFrame);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3739))
 // CS Name: ::System.Diagnostics::StackFrame*
 class CORDL_TYPE StackFrame : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ilOffset, offset 0x10, size 0x4
-  __declspec(property(get = __get_ilOffset, put = __set_ilOffset)) int32_t ilOffset;
+  __declspec(property(get = __cordl_internal_get_ilOffset, put = __cordl_internal_set_ilOffset)) int32_t ilOffset;
 
   /// @brief Field nativeOffset, offset 0x14, size 0x4
-  __declspec(property(get = __get_nativeOffset, put = __set_nativeOffset)) int32_t nativeOffset;
+  __declspec(property(get = __cordl_internal_get_nativeOffset, put = __cordl_internal_set_nativeOffset)) int32_t nativeOffset;
 
   /// @brief Field methodAddress, offset 0x18, size 0x8
-  __declspec(property(get = __get_methodAddress, put = __set_methodAddress)) int64_t methodAddress;
+  __declspec(property(get = __cordl_internal_get_methodAddress, put = __cordl_internal_set_methodAddress)) int64_t methodAddress;
 
   /// @brief Field methodIndex, offset 0x20, size 0x4
-  __declspec(property(get = __get_methodIndex, put = __set_methodIndex)) uint32_t methodIndex;
+  __declspec(property(get = __cordl_internal_get_methodIndex, put = __cordl_internal_set_methodIndex)) uint32_t methodIndex;
 
   /// @brief Field methodBase, offset 0x28, size 0x8
-  __declspec(property(get = __get_methodBase, put = __set_methodBase))::System::Reflection::MethodBase* methodBase;
+  __declspec(property(get = __cordl_internal_get_methodBase, put = __cordl_internal_set_methodBase))::System::Reflection::MethodBase* methodBase;
 
   /// @brief Field fileName, offset 0x30, size 0x8
-  __declspec(property(get = __get_fileName, put = __set_fileName))::StringW fileName;
+  __declspec(property(get = __cordl_internal_get_fileName, put = __cordl_internal_set_fileName))::StringW fileName;
 
   /// @brief Field lineNumber, offset 0x38, size 0x4
-  __declspec(property(get = __get_lineNumber, put = __set_lineNumber)) int32_t lineNumber;
+  __declspec(property(get = __cordl_internal_get_lineNumber, put = __cordl_internal_set_lineNumber)) int32_t lineNumber;
 
   /// @brief Field columnNumber, offset 0x3c, size 0x4
-  __declspec(property(get = __get_columnNumber, put = __set_columnNumber)) int32_t columnNumber;
+  __declspec(property(get = __cordl_internal_get_columnNumber, put = __cordl_internal_set_columnNumber)) int32_t columnNumber;
 
   /// @brief Field internalMethodName, offset 0x40, size 0x8
-  __declspec(property(get = __get_internalMethodName, put = __set_internalMethodName))::StringW internalMethodName;
+  __declspec(property(get = __cordl_internal_get_internalMethodName, put = __cordl_internal_set_internalMethodName))::StringW internalMethodName;
 
-  constexpr int32_t& __get_ilOffset();
+  constexpr int32_t& __cordl_internal_get_ilOffset();
 
-  constexpr int32_t const& __get_ilOffset() const;
+  constexpr int32_t const& __cordl_internal_get_ilOffset() const;
 
-  constexpr void __set_ilOffset(int32_t value);
+  constexpr void __cordl_internal_set_ilOffset(int32_t value);
 
-  constexpr int32_t& __get_nativeOffset();
+  constexpr int32_t& __cordl_internal_get_nativeOffset();
 
-  constexpr int32_t const& __get_nativeOffset() const;
+  constexpr int32_t const& __cordl_internal_get_nativeOffset() const;
 
-  constexpr void __set_nativeOffset(int32_t value);
+  constexpr void __cordl_internal_set_nativeOffset(int32_t value);
 
-  constexpr int64_t& __get_methodAddress();
+  constexpr int64_t& __cordl_internal_get_methodAddress();
 
-  constexpr int64_t const& __get_methodAddress() const;
+  constexpr int64_t const& __cordl_internal_get_methodAddress() const;
 
-  constexpr void __set_methodAddress(int64_t value);
+  constexpr void __cordl_internal_set_methodAddress(int64_t value);
 
-  constexpr uint32_t& __get_methodIndex();
+  constexpr uint32_t& __cordl_internal_get_methodIndex();
 
-  constexpr uint32_t const& __get_methodIndex() const;
+  constexpr uint32_t const& __cordl_internal_get_methodIndex() const;
 
-  constexpr void __set_methodIndex(uint32_t value);
+  constexpr void __cordl_internal_set_methodIndex(uint32_t value);
 
-  constexpr ::System::Reflection::MethodBase*& __get_methodBase();
+  constexpr ::System::Reflection::MethodBase*& __cordl_internal_get_methodBase();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodBase*> const& __get_methodBase() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodBase*> const& __cordl_internal_get_methodBase() const;
 
-  constexpr void __set_methodBase(::System::Reflection::MethodBase* value);
+  constexpr void __cordl_internal_set_methodBase(::System::Reflection::MethodBase* value);
 
-  constexpr ::StringW& __get_fileName();
+  constexpr ::StringW& __cordl_internal_get_fileName();
 
-  constexpr ::StringW const& __get_fileName() const;
+  constexpr ::StringW const& __cordl_internal_get_fileName() const;
 
-  constexpr void __set_fileName(::StringW value);
+  constexpr void __cordl_internal_set_fileName(::StringW value);
 
-  constexpr int32_t& __get_lineNumber();
+  constexpr int32_t& __cordl_internal_get_lineNumber();
 
-  constexpr int32_t const& __get_lineNumber() const;
+  constexpr int32_t const& __cordl_internal_get_lineNumber() const;
 
-  constexpr void __set_lineNumber(int32_t value);
+  constexpr void __cordl_internal_set_lineNumber(int32_t value);
 
-  constexpr int32_t& __get_columnNumber();
+  constexpr int32_t& __cordl_internal_get_columnNumber();
 
-  constexpr int32_t const& __get_columnNumber() const;
+  constexpr int32_t const& __cordl_internal_get_columnNumber() const;
 
-  constexpr void __set_columnNumber(int32_t value);
+  constexpr void __cordl_internal_set_columnNumber(int32_t value);
 
-  constexpr ::StringW& __get_internalMethodName();
+  constexpr ::StringW& __cordl_internal_get_internalMethodName();
 
-  constexpr ::StringW const& __get_internalMethodName() const;
+  constexpr ::StringW const& __cordl_internal_get_internalMethodName() const;
 
-  constexpr void __set_internalMethodName(::StringW value);
+  constexpr void __cordl_internal_set_internalMethodName(::StringW value);
 
   /// @brief Method get_frame_info, addr 0x2579ef4, size 0x8, virtual false, abstract: false, final false
   static inline bool get_frame_info(int32_t skip, bool needFileInfo, ByRef<::System::Reflection::MethodBase*> method, ByRef<int32_t> iloffset, ByRef<int32_t> native_offset, ByRef<::StringW> file,

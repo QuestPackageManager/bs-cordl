@@ -33,7 +33,7 @@ MARK_VAL_T(::GlobalNamespace::OVRSpace);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7990))
 // CS Name: ::OVRSpace::StorageLocation
 struct CORDL_TYPE __OVRSpace__StorageLocation {
@@ -83,7 +83,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSpace__StorageLocation, value__) 
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7991))
 // CS Name: ::OVRSpace
 struct CORDL_TYPE OVRSpace {

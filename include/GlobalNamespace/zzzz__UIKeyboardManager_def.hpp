@@ -36,70 +36,71 @@ MARK_REF_PTR_T(::GlobalNamespace::UIKeyboardManager);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5467))
 // CS Name: ::UIKeyboardManager*
 class CORDL_TYPE UIKeyboardManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _uiKeyboard, offset 0x18, size 0x8
-  __declspec(property(get = __get__uiKeyboard, put = __set__uiKeyboard))::HMUI::UIKeyboard* _uiKeyboard;
+  __declspec(property(get = __cordl_internal_get__uiKeyboard, put = __cordl_internal_set__uiKeyboard))::UnityW<::HMUI::UIKeyboard> _uiKeyboard;
 
   /// @brief Field _keyboardModalView, offset 0x20, size 0x8
-  __declspec(property(get = __get__keyboardModalView, put = __set__keyboardModalView))::HMUI::ModalView* _keyboardModalView;
+  __declspec(property(get = __cordl_internal_get__keyboardModalView, put = __cordl_internal_set__keyboardModalView))::UnityW<::HMUI::ModalView> _keyboardModalView;
 
   /// @brief Field _keyboardContainerTransform, offset 0x28, size 0x8
-  __declspec(property(get = __get__keyboardContainerTransform, put = __set__keyboardContainerTransform))::UnityEngine::RectTransform* _keyboardContainerTransform;
+  __declspec(property(get = __cordl_internal_get__keyboardContainerTransform,
+                      put = __cordl_internal_set__keyboardContainerTransform))::UnityW<::UnityEngine::RectTransform> _keyboardContainerTransform;
 
   /// @brief Field _parentContainerTransform, offset 0x30, size 0x8
-  __declspec(property(get = __get__parentContainerTransform, put = __set__parentContainerTransform))::UnityEngine::Transform* _parentContainerTransform;
+  __declspec(property(get = __cordl_internal_get__parentContainerTransform, put = __cordl_internal_set__parentContainerTransform))::UnityW<::UnityEngine::Transform> _parentContainerTransform;
 
   /// @brief Field _vrInputModule, offset 0x38, size 0x8
-  __declspec(property(get = __get__vrInputModule, put = __set__vrInputModule))::VRUIControls::VRInputModule* _vrInputModule;
+  __declspec(property(get = __cordl_internal_get__vrInputModule, put = __cordl_internal_set__vrInputModule))::UnityW<::VRUIControls::VRInputModule> _vrInputModule;
 
   /// @brief Field _selectedInput, offset 0x40, size 0x8
-  __declspec(property(get = __get__selectedInput, put = __set__selectedInput))::HMUI::InputFieldView* _selectedInput;
+  __declspec(property(get = __cordl_internal_get__selectedInput, put = __cordl_internal_set__selectedInput))::UnityW<::HMUI::InputFieldView> _selectedInput;
 
-  __declspec(property(get = get_keyboard))::HMUI::UIKeyboard* keyboard;
+  __declspec(property(get = get_keyboard))::UnityW<::HMUI::UIKeyboard> keyboard;
 
-  constexpr ::HMUI::UIKeyboard*& __get__uiKeyboard();
+  constexpr ::UnityW<::HMUI::UIKeyboard>& __cordl_internal_get__uiKeyboard();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::UIKeyboard*> const& __get__uiKeyboard() const;
+  constexpr ::UnityW<::HMUI::UIKeyboard> const& __cordl_internal_get__uiKeyboard() const;
 
-  constexpr void __set__uiKeyboard(::HMUI::UIKeyboard* value);
+  constexpr void __cordl_internal_set__uiKeyboard(::UnityW<::HMUI::UIKeyboard> value);
 
-  constexpr ::HMUI::ModalView*& __get__keyboardModalView();
+  constexpr ::UnityW<::HMUI::ModalView>& __cordl_internal_get__keyboardModalView();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ModalView*> const& __get__keyboardModalView() const;
+  constexpr ::UnityW<::HMUI::ModalView> const& __cordl_internal_get__keyboardModalView() const;
 
-  constexpr void __set__keyboardModalView(::HMUI::ModalView* value);
+  constexpr void __cordl_internal_set__keyboardModalView(::UnityW<::HMUI::ModalView> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__keyboardContainerTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__keyboardContainerTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__keyboardContainerTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__keyboardContainerTransform() const;
 
-  constexpr void __set__keyboardContainerTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__keyboardContainerTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__parentContainerTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__parentContainerTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__parentContainerTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__parentContainerTransform() const;
 
-  constexpr void __set__parentContainerTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__parentContainerTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::VRUIControls::VRInputModule*& __get__vrInputModule();
+  constexpr ::UnityW<::VRUIControls::VRInputModule>& __cordl_internal_get__vrInputModule();
 
-  constexpr ::cordl_internals::to_const_pointer<::VRUIControls::VRInputModule*> const& __get__vrInputModule() const;
+  constexpr ::UnityW<::VRUIControls::VRInputModule> const& __cordl_internal_get__vrInputModule() const;
 
-  constexpr void __set__vrInputModule(::VRUIControls::VRInputModule* value);
+  constexpr void __cordl_internal_set__vrInputModule(::UnityW<::VRUIControls::VRInputModule> value);
 
-  constexpr ::HMUI::InputFieldView*& __get__selectedInput();
+  constexpr ::UnityW<::HMUI::InputFieldView>& __cordl_internal_get__selectedInput();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::InputFieldView*> const& __get__selectedInput() const;
+  constexpr ::UnityW<::HMUI::InputFieldView> const& __cordl_internal_get__selectedInput() const;
 
-  constexpr void __set__selectedInput(::HMUI::InputFieldView* value);
+  constexpr void __cordl_internal_set__selectedInput(::UnityW<::HMUI::InputFieldView> value);
 
   /// @brief Method get_keyboard, addr 0x2281570, size 0x8, virtual false, abstract: false, final false
-  inline ::HMUI::UIKeyboard* get_keyboard();
+  inline ::UnityW<::HMUI::UIKeyboard> get_keyboard();
 
   /// @brief Method Start, addr 0x2281578, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
@@ -151,22 +152,22 @@ protected:
 
 public:
   /// @brief Field _uiKeyboard, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::UIKeyboard* ____uiKeyboard;
+  ::UnityW<::HMUI::UIKeyboard> ____uiKeyboard;
 
   /// @brief Field _keyboardModalView, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::ModalView* ____keyboardModalView;
+  ::UnityW<::HMUI::ModalView> ____keyboardModalView;
 
   /// @brief Field _keyboardContainerTransform, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____keyboardContainerTransform;
+  ::UnityW<::UnityEngine::RectTransform> ____keyboardContainerTransform;
 
   /// @brief Field _parentContainerTransform, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____parentContainerTransform;
+  ::UnityW<::UnityEngine::Transform> ____parentContainerTransform;
 
   /// @brief Field _vrInputModule, offset: 0x38, size: 0x8, def value: None
-  ::VRUIControls::VRInputModule* ____vrInputModule;
+  ::UnityW<::VRUIControls::VRInputModule> ____vrInputModule;
 
   /// @brief Field _selectedInput, offset: 0x40, size: 0x8, def value: None
-  ::HMUI::InputFieldView* ____selectedInput;
+  ::UnityW<::HMUI::InputFieldView> ____selectedInput;
 
   /// @brief Field kKeyboardTopOffset offset 0xffffffff size 0x4
   static constexpr float_t kKeyboardTopOffset{ 5.0 };

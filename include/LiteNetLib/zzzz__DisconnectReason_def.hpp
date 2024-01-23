@@ -15,7 +15,7 @@ MARK_VAL_T(::LiteNetLib::DisconnectReason);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14131))
 // CS Name: ::LiteNetLib::DisconnectReason
 struct CORDL_TYPE DisconnectReason {

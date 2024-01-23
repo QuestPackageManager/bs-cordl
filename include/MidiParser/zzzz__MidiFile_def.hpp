@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::MidiParser::__MidiFile__Reader);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace MidiParser {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16227))
 // CS Name: ::MidiFile::Reader*
 class CORDL_TYPE __MidiFile__Reader : public ::System::Object {
@@ -79,7 +79,7 @@ static_assert(::cordl_internals::size_check_v<::MidiParser::__MidiFile__Reader, 
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace MidiParser {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16228))
 // CS Name: ::MidiParser::MidiFile*
 class CORDL_TYPE MidiFile : public ::System::Object {
@@ -88,40 +88,40 @@ public:
   using Reader = ::MidiParser::__MidiFile__Reader;
 
   /// @brief Field format, offset 0x10, size 0x4
-  __declspec(property(get = __get_format, put = __set_format)) int32_t format;
+  __declspec(property(get = __cordl_internal_get_format, put = __cordl_internal_set_format)) int32_t format;
 
   /// @brief Field ticksPerQuarterNote, offset 0x14, size 0x4
-  __declspec(property(get = __get_ticksPerQuarterNote, put = __set_ticksPerQuarterNote)) int32_t ticksPerQuarterNote;
+  __declspec(property(get = __cordl_internal_get_ticksPerQuarterNote, put = __cordl_internal_set_ticksPerQuarterNote)) int32_t ticksPerQuarterNote;
 
   /// @brief Field tracks, offset 0x18, size 0x8
-  __declspec(property(get = __get_tracks, put = __set_tracks))::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*> tracks;
+  __declspec(property(get = __cordl_internal_get_tracks, put = __cordl_internal_set_tracks))::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*> tracks;
 
   /// @brief Field tracksCount, offset 0x20, size 0x4
-  __declspec(property(get = __get_tracksCount, put = __set_tracksCount)) int32_t tracksCount;
+  __declspec(property(get = __cordl_internal_get_tracksCount, put = __cordl_internal_set_tracksCount)) int32_t tracksCount;
 
-  constexpr int32_t& __get_format();
+  constexpr int32_t& __cordl_internal_get_format();
 
-  constexpr int32_t const& __get_format() const;
+  constexpr int32_t const& __cordl_internal_get_format() const;
 
-  constexpr void __set_format(int32_t value);
+  constexpr void __cordl_internal_set_format(int32_t value);
 
-  constexpr int32_t& __get_ticksPerQuarterNote();
+  constexpr int32_t& __cordl_internal_get_ticksPerQuarterNote();
 
-  constexpr int32_t const& __get_ticksPerQuarterNote() const;
+  constexpr int32_t const& __cordl_internal_get_ticksPerQuarterNote() const;
 
-  constexpr void __set_ticksPerQuarterNote(int32_t value);
+  constexpr void __cordl_internal_set_ticksPerQuarterNote(int32_t value);
 
-  constexpr ::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*>& __get_tracks();
+  constexpr ::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*>& __cordl_internal_get_tracks();
 
-  constexpr ::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*> const& __get_tracks() const;
+  constexpr ::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*> const& __cordl_internal_get_tracks() const;
 
-  constexpr void __set_tracks(::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*> value);
+  constexpr void __cordl_internal_set_tracks(::ArrayW<::MidiParser::MidiTrack*, ::Array<::MidiParser::MidiTrack*>*> value);
 
-  constexpr int32_t& __get_tracksCount();
+  constexpr int32_t& __cordl_internal_get_tracksCount();
 
-  constexpr int32_t const& __get_tracksCount() const;
+  constexpr int32_t const& __cordl_internal_get_tracksCount() const;
 
-  constexpr void __set_tracksCount(int32_t value);
+  constexpr void __cordl_internal_set_tracksCount(int32_t value);
 
   static inline ::MidiParser::MidiFile* New_ctor(::StringW path);
 

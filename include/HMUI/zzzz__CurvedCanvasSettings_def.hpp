@@ -27,31 +27,31 @@ MARK_REF_PTR_T(::HMUI::CurvedCanvasSettings);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 161, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13042))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13042))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13525))
 // CS Name: ::HMUI::CurvedCanvasSettings*
 class CORDL_TYPE CurvedCanvasSettings : public ::UnityEngine::UI::Graphic {
 public:
   // Declarations
   /// @brief Field _radius, offset 0x9c, size 0x4
-  __declspec(property(get = __get__radius, put = __set__radius)) float_t _radius;
+  __declspec(property(get = __cordl_internal_get__radius, put = __cordl_internal_set__radius)) float_t _radius;
 
   /// @brief Field _useFlatInEditMode, offset 0xa0, size 0x1
-  __declspec(property(get = __get__useFlatInEditMode, put = __set__useFlatInEditMode)) bool _useFlatInEditMode;
+  __declspec(property(get = __cordl_internal_get__useFlatInEditMode, put = __cordl_internal_set__useFlatInEditMode)) bool _useFlatInEditMode;
 
   __declspec(property(get = get_radius)) float_t radius;
 
-  constexpr float_t& __get__radius();
+  constexpr float_t& __cordl_internal_get__radius();
 
-  constexpr float_t const& __get__radius() const;
+  constexpr float_t const& __cordl_internal_get__radius() const;
 
-  constexpr void __set__radius(float_t value);
+  constexpr void __cordl_internal_set__radius(float_t value);
 
-  constexpr bool& __get__useFlatInEditMode();
+  constexpr bool& __cordl_internal_get__useFlatInEditMode();
 
-  constexpr bool const& __get__useFlatInEditMode() const;
+  constexpr bool const& __cordl_internal_get__useFlatInEditMode() const;
 
-  constexpr void __set__useFlatInEditMode(bool value);
+  constexpr void __cordl_internal_set__useFlatInEditMode(bool value);
 
   /// @brief Method get_radius, addr 0x211b0d4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_radius();

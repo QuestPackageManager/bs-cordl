@@ -59,9 +59,9 @@ constexpr ::Zenject::IFactory* Zenject::MemoryPool_4<TParam1, TParam2, TParam3, 
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 inline TValue Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue>::Spawn(TParam1 param1, TParam2 param2, TParam3 param3) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue>*>::get(), "Spawn", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam2>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam3>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue>*>::get(), "Spawn", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam2>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam3>::get() })));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, param1, param2, param3);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
@@ -74,32 +74,32 @@ inline void Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue>::Reinitiali
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 inline TValue Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue>::Zenject_IFactory_TParam1_TParam2_TParam3_TValue__Create(TParam1 p1, TParam2 p2, TParam3 p3) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue>*>::get(),
-                                                                             "Zenject.IFactory<TParam1,TParam2,TParam3,TValue>.Create", std::vector<Il2CppClass*>{},
-                                                                             ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam1>::get(),
-                                                                                                               ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam2>::get(),
-                                                                                                               ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam3>::get() })));
+                                                                             "Zenject.IFactory<TParam1,TParam2,TParam3,TValue>.Create", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam1>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam2>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TParam3>::get() })));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, p1, p2, p3);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 inline ::Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue>* Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue>*>());
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue> inline void Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue>*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 inline ::System::Object* Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue>::__zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue>*>::get(), "__zenCreate", std::vector<Il2CppClass*>{},
-                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue>*>::get(), "__zenCreate", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Object*, ::Array<::System::Object*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, P_0);
 }
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 inline ::Zenject::InjectTypeInfo* Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue>::__zenCreateInjectTypeInfo() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MemoryPool_4<TParam1, TParam2, TParam3, TValue>*>::get(),
-                                                                             "__zenCreateInjectTypeInfo", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "__zenCreateInjectTypeInfo", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::InjectTypeInfo*, false>(nullptr, ___internal_method);
 }
 // Ctor Parameters []

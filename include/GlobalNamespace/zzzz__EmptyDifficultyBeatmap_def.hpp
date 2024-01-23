@@ -76,9 +76,9 @@ MARK_VAL_T(::GlobalNamespace::__EmptyDifficultyBeatmap___GetBeatmapDataBasicInfo
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4258)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 886 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5066 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4245))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4388)) CS Name: ::EmptyDifficultyBeatmap::<GetBeatmapDataBasicInfoAsync>d__23
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4245)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4258)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5066 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 886 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4388)) CS Name: ::EmptyDifficultyBeatmap::<GetBeatmapDataBasicInfoAsync>d__23
 struct CORDL_TYPE __EmptyDifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__23 {
 public:
   // Declarations
@@ -140,9 +140,9 @@ static_assert(offsetof(::GlobalNamespace::__EmptyDifficultyBeatmap___GetBeatmapD
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4260)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4389)) CS
-// Name: ::EmptyDifficultyBeatmap::<GetBeatmapDataAsync>d__24
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4260)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 890 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4389)) CS Name: ::EmptyDifficultyBeatmap::<GetBeatmapDataAsync>d__24
 struct CORDL_TYPE __EmptyDifficultyBeatmap___GetBeatmapDataAsync_d__24 {
 public:
   // Declarations
@@ -204,7 +204,7 @@ static_assert(offsetof(::GlobalNamespace::__EmptyDifficultyBeatmap___GetBeatmapD
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4390))
 // CS Name: ::EmptyDifficultyBeatmap*
 class CORDL_TYPE EmptyDifficultyBeatmap : public ::System::Object {
@@ -215,29 +215,31 @@ public:
   using _GetBeatmapDataBasicInfoAsync_d__23 = ::GlobalNamespace::__EmptyDifficultyBeatmap___GetBeatmapDataBasicInfoAsync_d__23;
 
   /// @brief Field <level>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__level_k__BackingField, put = __set__level_k__BackingField))::GlobalNamespace::IBeatmapLevel* _level_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__level_k__BackingField, put = __cordl_internal_set__level_k__BackingField))::GlobalNamespace::IBeatmapLevel* _level_k__BackingField;
 
   /// @brief Field <parentDifficultyBeatmapSet>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__parentDifficultyBeatmapSet_k__BackingField,
-                      put = __set__parentDifficultyBeatmapSet_k__BackingField))::GlobalNamespace::IDifficultyBeatmapSet* _parentDifficultyBeatmapSet_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__parentDifficultyBeatmapSet_k__BackingField,
+                      put = __cordl_internal_set__parentDifficultyBeatmapSet_k__BackingField))::GlobalNamespace::IDifficultyBeatmapSet* _parentDifficultyBeatmapSet_k__BackingField;
 
   /// @brief Field <difficulty>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __get__difficulty_k__BackingField, put = __set__difficulty_k__BackingField))::GlobalNamespace::BeatmapDifficulty _difficulty_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__difficulty_k__BackingField, put = __cordl_internal_set__difficulty_k__BackingField))::GlobalNamespace::BeatmapDifficulty _difficulty_k__BackingField;
 
   /// @brief Field <difficultyRank>k__BackingField, offset 0x24, size 0x4
-  __declspec(property(get = __get__difficultyRank_k__BackingField, put = __set__difficultyRank_k__BackingField)) int32_t _difficultyRank_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__difficultyRank_k__BackingField, put = __cordl_internal_set__difficultyRank_k__BackingField)) int32_t _difficultyRank_k__BackingField;
 
   /// @brief Field <noteJumpMovementSpeed>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__noteJumpMovementSpeed_k__BackingField, put = __set__noteJumpMovementSpeed_k__BackingField)) float_t _noteJumpMovementSpeed_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__noteJumpMovementSpeed_k__BackingField,
+                      put = __cordl_internal_set__noteJumpMovementSpeed_k__BackingField)) float_t _noteJumpMovementSpeed_k__BackingField;
 
   /// @brief Field <noteJumpStartBeatOffset>k__BackingField, offset 0x2c, size 0x4
-  __declspec(property(get = __get__noteJumpStartBeatOffset_k__BackingField, put = __set__noteJumpStartBeatOffset_k__BackingField)) float_t _noteJumpStartBeatOffset_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__noteJumpStartBeatOffset_k__BackingField,
+                      put = __cordl_internal_set__noteJumpStartBeatOffset_k__BackingField)) float_t _noteJumpStartBeatOffset_k__BackingField;
 
   /// @brief Field <environmentNameIdx>k__BackingField, offset 0x30, size 0x4
-  __declspec(property(get = __get__environmentNameIdx_k__BackingField, put = __set__environmentNameIdx_k__BackingField)) int32_t _environmentNameIdx_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__environmentNameIdx_k__BackingField, put = __cordl_internal_set__environmentNameIdx_k__BackingField)) int32_t _environmentNameIdx_k__BackingField;
 
   /// @brief Field _beatmapData, offset 0x38, size 0x8
-  __declspec(property(get = __get__beatmapData, put = __set__beatmapData))::GlobalNamespace::BeatmapData* _beatmapData;
+  __declspec(property(get = __cordl_internal_get__beatmapData, put = __cordl_internal_set__beatmapData))::GlobalNamespace::BeatmapData* _beatmapData;
 
   __declspec(property(get = get_level))::GlobalNamespace::IBeatmapLevel* level;
 
@@ -261,53 +263,53 @@ public:
   /// @brief Convert to "::GlobalNamespace::IDifficultyBeatmap"
   constexpr ::GlobalNamespace::IDifficultyBeatmap* i___GlobalNamespace__IDifficultyBeatmap() noexcept;
 
-  constexpr ::GlobalNamespace::IBeatmapLevel*& __get__level_k__BackingField();
+  constexpr ::GlobalNamespace::IBeatmapLevel*& __cordl_internal_get__level_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevel*> const& __get__level_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevel*> const& __cordl_internal_get__level_k__BackingField() const;
 
-  constexpr void __set__level_k__BackingField(::GlobalNamespace::IBeatmapLevel* value);
+  constexpr void __cordl_internal_set__level_k__BackingField(::GlobalNamespace::IBeatmapLevel* value);
 
-  constexpr ::GlobalNamespace::IDifficultyBeatmapSet*& __get__parentDifficultyBeatmapSet_k__BackingField();
+  constexpr ::GlobalNamespace::IDifficultyBeatmapSet*& __cordl_internal_get__parentDifficultyBeatmapSet_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmapSet*> const& __get__parentDifficultyBeatmapSet_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmapSet*> const& __cordl_internal_get__parentDifficultyBeatmapSet_k__BackingField() const;
 
-  constexpr void __set__parentDifficultyBeatmapSet_k__BackingField(::GlobalNamespace::IDifficultyBeatmapSet* value);
+  constexpr void __cordl_internal_set__parentDifficultyBeatmapSet_k__BackingField(::GlobalNamespace::IDifficultyBeatmapSet* value);
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __get__difficulty_k__BackingField();
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__difficulty_k__BackingField();
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __get__difficulty_k__BackingField() const;
+  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get__difficulty_k__BackingField() const;
 
-  constexpr void __set__difficulty_k__BackingField(::GlobalNamespace::BeatmapDifficulty value);
+  constexpr void __cordl_internal_set__difficulty_k__BackingField(::GlobalNamespace::BeatmapDifficulty value);
 
-  constexpr int32_t& __get__difficultyRank_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__difficultyRank_k__BackingField();
 
-  constexpr int32_t const& __get__difficultyRank_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__difficultyRank_k__BackingField() const;
 
-  constexpr void __set__difficultyRank_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__difficultyRank_k__BackingField(int32_t value);
 
-  constexpr float_t& __get__noteJumpMovementSpeed_k__BackingField();
+  constexpr float_t& __cordl_internal_get__noteJumpMovementSpeed_k__BackingField();
 
-  constexpr float_t const& __get__noteJumpMovementSpeed_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__noteJumpMovementSpeed_k__BackingField() const;
 
-  constexpr void __set__noteJumpMovementSpeed_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__noteJumpMovementSpeed_k__BackingField(float_t value);
 
-  constexpr float_t& __get__noteJumpStartBeatOffset_k__BackingField();
+  constexpr float_t& __cordl_internal_get__noteJumpStartBeatOffset_k__BackingField();
 
-  constexpr float_t const& __get__noteJumpStartBeatOffset_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__noteJumpStartBeatOffset_k__BackingField() const;
 
-  constexpr void __set__noteJumpStartBeatOffset_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__noteJumpStartBeatOffset_k__BackingField(float_t value);
 
-  constexpr int32_t& __get__environmentNameIdx_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__environmentNameIdx_k__BackingField();
 
-  constexpr int32_t const& __get__environmentNameIdx_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__environmentNameIdx_k__BackingField() const;
 
-  constexpr void __set__environmentNameIdx_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__environmentNameIdx_k__BackingField(int32_t value);
 
-  constexpr ::GlobalNamespace::BeatmapData*& __get__beatmapData();
+  constexpr ::GlobalNamespace::BeatmapData*& __cordl_internal_get__beatmapData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapData*> const& __get__beatmapData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapData*> const& __cordl_internal_get__beatmapData() const;
 
-  constexpr void __set__beatmapData(::GlobalNamespace::BeatmapData* value);
+  constexpr void __cordl_internal_set__beatmapData(::GlobalNamespace::BeatmapData* value);
 
   /// @brief Method get_level, addr 0x2347de4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IBeatmapLevel* get_level();

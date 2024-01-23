@@ -38,7 +38,7 @@ MARK_VAL_T(::UnityEngine::UIElements::TextCoreHandle);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7145))
 // CS Name: ::UnityEngine.UIElements::TextCoreHandle
 struct CORDL_TYPE TextCoreHandle {

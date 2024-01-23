@@ -160,39 +160,39 @@ MARK_REF_PTR_T(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass36_0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6068))
 // CS Name: ::MenuTransitionsHelper::<>c__DisplayClass29_0*
 class CORDL_TYPE __MenuTransitionsHelper____c__DisplayClass29_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MenuTransitionsHelper* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MenuTransitionsHelper> __4__this;
 
   /// @brief Field standardLevelScenesTransitionSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __get_standardLevelScenesTransitionSetupData,
-                      put = __set_standardLevelScenesTransitionSetupData))::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get_standardLevelScenesTransitionSetupData,
+                      put = __cordl_internal_set_standardLevelScenesTransitionSetupData))::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> standardLevelScenesTransitionSetupData;
 
   /// @brief Field levelCompletionResults, offset 0x20, size 0x8
-  __declspec(property(get = __get_levelCompletionResults, put = __set_levelCompletionResults))::GlobalNamespace::LevelCompletionResults* levelCompletionResults;
+  __declspec(property(get = __cordl_internal_get_levelCompletionResults, put = __cordl_internal_set_levelCompletionResults))::GlobalNamespace::LevelCompletionResults* levelCompletionResults;
 
-  constexpr ::GlobalNamespace::MenuTransitionsHelper*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuTransitionsHelper*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MenuTransitionsHelper* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value);
 
-  constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& __get_standardLevelScenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>& __cordl_internal_get_standardLevelScenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*> const& __get_standardLevelScenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> const& __cordl_internal_get_standardLevelScenesTransitionSetupData() const;
 
-  constexpr void __set_standardLevelScenesTransitionSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set_standardLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::LevelCompletionResults*& __get_levelCompletionResults();
+  constexpr ::GlobalNamespace::LevelCompletionResults*& __cordl_internal_get_levelCompletionResults();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelCompletionResults*> const& __get_levelCompletionResults() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelCompletionResults*> const& __cordl_internal_get_levelCompletionResults() const;
 
-  constexpr void __set_levelCompletionResults(::GlobalNamespace::LevelCompletionResults* value);
+  constexpr void __cordl_internal_set_levelCompletionResults(::GlobalNamespace::LevelCompletionResults* value);
 
   static inline ::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass29_0* New_ctor();
 
@@ -217,10 +217,10 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::MenuTransitionsHelper* _____4__this;
+  ::UnityW<::GlobalNamespace::MenuTransitionsHelper> _____4__this;
 
   /// @brief Field standardLevelScenesTransitionSetupData, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* ___standardLevelScenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ___standardLevelScenesTransitionSetupData;
 
   /// @brief Field levelCompletionResults, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::LevelCompletionResults* ___levelCompletionResults;
@@ -241,39 +241,40 @@ static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayC
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6069))
 // CS Name: ::MenuTransitionsHelper::<>c__DisplayClass30_0*
 class CORDL_TYPE __MenuTransitionsHelper____c__DisplayClass30_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MenuTransitionsHelper* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MenuTransitionsHelper> __4__this;
 
   /// @brief Field multiplayerLevelScenesTransitionSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __get_multiplayerLevelScenesTransitionSetupData,
-                      put = __set_multiplayerLevelScenesTransitionSetupData))::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData;
+  __declspec(
+      property(get = __cordl_internal_get_multiplayerLevelScenesTransitionSetupData,
+               put = __cordl_internal_set_multiplayerLevelScenesTransitionSetupData))::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> multiplayerLevelScenesTransitionSetupData;
 
   /// @brief Field multiplayerResultsData, offset 0x20, size 0x8
-  __declspec(property(get = __get_multiplayerResultsData, put = __set_multiplayerResultsData))::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData;
+  __declspec(property(get = __cordl_internal_get_multiplayerResultsData, put = __cordl_internal_set_multiplayerResultsData))::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData;
 
-  constexpr ::GlobalNamespace::MenuTransitionsHelper*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuTransitionsHelper*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MenuTransitionsHelper* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value);
 
-  constexpr ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*& __get_multiplayerLevelScenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>& __cordl_internal_get_multiplayerLevelScenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*> const& __get_multiplayerLevelScenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> const& __cordl_internal_get_multiplayerLevelScenesTransitionSetupData() const;
 
-  constexpr void __set_multiplayerLevelScenesTransitionSetupData(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set_multiplayerLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::MultiplayerResultsData*& __get_multiplayerResultsData();
+  constexpr ::GlobalNamespace::MultiplayerResultsData*& __cordl_internal_get_multiplayerResultsData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerResultsData*> const& __get_multiplayerResultsData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerResultsData*> const& __cordl_internal_get_multiplayerResultsData() const;
 
-  constexpr void __set_multiplayerResultsData(::GlobalNamespace::MultiplayerResultsData* value);
+  constexpr void __cordl_internal_set_multiplayerResultsData(::GlobalNamespace::MultiplayerResultsData* value);
 
   static inline ::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass30_0* New_ctor();
 
@@ -298,10 +299,10 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::MenuTransitionsHelper* _____4__this;
+  ::UnityW<::GlobalNamespace::MenuTransitionsHelper> _____4__this;
 
   /// @brief Field multiplayerLevelScenesTransitionSetupData, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* ___multiplayerLevelScenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> ___multiplayerLevelScenesTransitionSetupData;
 
   /// @brief Field multiplayerResultsData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerResultsData* ___multiplayerResultsData;
@@ -322,29 +323,29 @@ static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayC
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12720)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12720))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6070))
 // CS Name: ::MenuTransitionsHelper::<>c__DisplayClass31_0*
 class CORDL_TYPE __MenuTransitionsHelper____c__DisplayClass31_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MenuTransitionsHelper* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MenuTransitionsHelper> __4__this;
 
   /// @brief Field disconnectedReason, offset 0x18, size 0x4
-  __declspec(property(get = __get_disconnectedReason, put = __set_disconnectedReason))::GlobalNamespace::DisconnectedReason disconnectedReason;
+  __declspec(property(get = __cordl_internal_get_disconnectedReason, put = __cordl_internal_set_disconnectedReason))::GlobalNamespace::DisconnectedReason disconnectedReason;
 
-  constexpr ::GlobalNamespace::MenuTransitionsHelper*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuTransitionsHelper*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MenuTransitionsHelper* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value);
 
-  constexpr ::GlobalNamespace::DisconnectedReason& __get_disconnectedReason();
+  constexpr ::GlobalNamespace::DisconnectedReason& __cordl_internal_get_disconnectedReason();
 
-  constexpr ::GlobalNamespace::DisconnectedReason const& __get_disconnectedReason() const;
+  constexpr ::GlobalNamespace::DisconnectedReason const& __cordl_internal_get_disconnectedReason() const;
 
-  constexpr void __set_disconnectedReason(::GlobalNamespace::DisconnectedReason value);
+  constexpr void __cordl_internal_set_disconnectedReason(::GlobalNamespace::DisconnectedReason value);
 
   static inline ::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass31_0* New_ctor();
 
@@ -369,7 +370,7 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::MenuTransitionsHelper* _____4__this;
+  ::UnityW<::GlobalNamespace::MenuTransitionsHelper> _____4__this;
 
   /// @brief Field disconnectedReason, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::DisconnectedReason ___disconnectedReason;
@@ -388,39 +389,39 @@ static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayC
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6071))
 // CS Name: ::MenuTransitionsHelper::<>c__DisplayClass32_0*
 class CORDL_TYPE __MenuTransitionsHelper____c__DisplayClass32_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MenuTransitionsHelper* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MenuTransitionsHelper> __4__this;
 
   /// @brief Field missionLevelScenesTransitionSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __get_missionLevelScenesTransitionSetupData,
-                      put = __set_missionLevelScenesTransitionSetupData))::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get_missionLevelScenesTransitionSetupData,
+                      put = __cordl_internal_set_missionLevelScenesTransitionSetupData))::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> missionLevelScenesTransitionSetupData;
 
   /// @brief Field missionCompletionResults, offset 0x20, size 0x8
-  __declspec(property(get = __get_missionCompletionResults, put = __set_missionCompletionResults))::GlobalNamespace::MissionCompletionResults* missionCompletionResults;
+  __declspec(property(get = __cordl_internal_get_missionCompletionResults, put = __cordl_internal_set_missionCompletionResults))::GlobalNamespace::MissionCompletionResults* missionCompletionResults;
 
-  constexpr ::GlobalNamespace::MenuTransitionsHelper*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuTransitionsHelper*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MenuTransitionsHelper* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value);
 
-  constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& __get_missionLevelScenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& __cordl_internal_get_missionLevelScenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*> const& __get_missionLevelScenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get_missionLevelScenesTransitionSetupData() const;
 
-  constexpr void __set_missionLevelScenesTransitionSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set_missionLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::MissionCompletionResults*& __get_missionCompletionResults();
+  constexpr ::GlobalNamespace::MissionCompletionResults*& __cordl_internal_get_missionCompletionResults();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionCompletionResults*> const& __get_missionCompletionResults() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionCompletionResults*> const& __cordl_internal_get_missionCompletionResults() const;
 
-  constexpr void __set_missionCompletionResults(::GlobalNamespace::MissionCompletionResults* value);
+  constexpr void __cordl_internal_set_missionCompletionResults(::GlobalNamespace::MissionCompletionResults* value);
 
   static inline ::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass32_0* New_ctor();
 
@@ -445,10 +446,10 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::MenuTransitionsHelper* _____4__this;
+  ::UnityW<::GlobalNamespace::MenuTransitionsHelper> _____4__this;
 
   /// @brief Field missionLevelScenesTransitionSetupData, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* ___missionLevelScenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> ___missionLevelScenesTransitionSetupData;
 
   /// @brief Field missionCompletionResults, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::MissionCompletionResults* ___missionCompletionResults;
@@ -469,39 +470,39 @@ static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayC
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6080))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6080))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6072))
 // CS Name: ::MenuTransitionsHelper::<>c__DisplayClass33_0*
 class CORDL_TYPE __MenuTransitionsHelper____c__DisplayClass33_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field endState, offset 0x10, size 0x4
-  __declspec(property(get = __get_endState, put = __set_endState))::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType endState;
+  __declspec(property(get = __cordl_internal_get_endState, put = __cordl_internal_set_endState))::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType endState;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MenuTransitionsHelper* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MenuTransitionsHelper> __4__this;
 
   /// @brief Field tutorialSceneTransitionSetupData, offset 0x20, size 0x8
-  __declspec(property(get = __get_tutorialSceneTransitionSetupData,
-                      put = __set_tutorialSceneTransitionSetupData))::GlobalNamespace::TutorialScenesTransitionSetupDataSO* tutorialSceneTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get_tutorialSceneTransitionSetupData,
+                      put = __cordl_internal_set_tutorialSceneTransitionSetupData))::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> tutorialSceneTransitionSetupData;
 
-  constexpr ::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType& __get_endState();
+  constexpr ::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType& __cordl_internal_get_endState();
 
-  constexpr ::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType const& __get_endState() const;
+  constexpr ::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType const& __cordl_internal_get_endState() const;
 
-  constexpr void __set_endState(::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType value);
+  constexpr void __cordl_internal_set_endState(::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType value);
 
-  constexpr ::GlobalNamespace::MenuTransitionsHelper*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuTransitionsHelper*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MenuTransitionsHelper* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value);
 
-  constexpr ::GlobalNamespace::TutorialScenesTransitionSetupDataSO*& __get_tutorialSceneTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>& __cordl_internal_get_tutorialSceneTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*> const& __get_tutorialSceneTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> const& __cordl_internal_get_tutorialSceneTransitionSetupData() const;
 
-  constexpr void __set_tutorialSceneTransitionSetupData(::GlobalNamespace::TutorialScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set_tutorialSceneTransitionSetupData(::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> value);
 
   static inline ::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass33_0* New_ctor();
 
@@ -529,10 +530,10 @@ public:
   ::GlobalNamespace::__TutorialScenesTransitionSetupDataSO__TutorialEndStateType ___endState;
 
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MenuTransitionsHelper* _____4__this;
+  ::UnityW<::GlobalNamespace::MenuTransitionsHelper> _____4__this;
 
   /// @brief Field tutorialSceneTransitionSetupData, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::TutorialScenesTransitionSetupDataSO* ___tutorialSceneTransitionSetupData;
+  ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> ___tutorialSceneTransitionSetupData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -550,40 +551,39 @@ static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayC
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6073))
 // CS Name: ::MenuTransitionsHelper::<>c__DisplayClass36_0*
 class CORDL_TYPE __MenuTransitionsHelper____c__DisplayClass36_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MenuTransitionsHelper* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MenuTransitionsHelper> __4__this;
 
   /// @brief Field beatmapEditorStandardLevelScenesTransitionSetupData, offset 0x18, size 0x8
-  __declspec(property(
-      get = __get_beatmapEditorStandardLevelScenesTransitionSetupData,
-      put = __set_beatmapEditorStandardLevelScenesTransitionSetupData))::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO* beatmapEditorStandardLevelScenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get_beatmapEditorStandardLevelScenesTransitionSetupData, put = __cordl_internal_set_beatmapEditorStandardLevelScenesTransitionSetupData))::UnityW<
+      ::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO> beatmapEditorStandardLevelScenesTransitionSetupData;
 
   /// @brief Field levelCompletionResults, offset 0x20, size 0x8
-  __declspec(property(get = __get_levelCompletionResults, put = __set_levelCompletionResults))::GlobalNamespace::LevelCompletionResults* levelCompletionResults;
+  __declspec(property(get = __cordl_internal_get_levelCompletionResults, put = __cordl_internal_set_levelCompletionResults))::GlobalNamespace::LevelCompletionResults* levelCompletionResults;
 
-  constexpr ::GlobalNamespace::MenuTransitionsHelper*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuTransitionsHelper*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MenuTransitionsHelper* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value);
 
-  constexpr ::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*& __get_beatmapEditorStandardLevelScenesTransitionSetupData();
+  constexpr ::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO>& __cordl_internal_get_beatmapEditorStandardLevelScenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*> const& __get_beatmapEditorStandardLevelScenesTransitionSetupData() const;
+  constexpr ::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO> const& __cordl_internal_get_beatmapEditorStandardLevelScenesTransitionSetupData() const;
 
-  constexpr void __set_beatmapEditorStandardLevelScenesTransitionSetupData(::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set_beatmapEditorStandardLevelScenesTransitionSetupData(::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::LevelCompletionResults*& __get_levelCompletionResults();
+  constexpr ::GlobalNamespace::LevelCompletionResults*& __cordl_internal_get_levelCompletionResults();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelCompletionResults*> const& __get_levelCompletionResults() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelCompletionResults*> const& __cordl_internal_get_levelCompletionResults() const;
 
-  constexpr void __set_levelCompletionResults(::GlobalNamespace::LevelCompletionResults* value);
+  constexpr void __cordl_internal_set_levelCompletionResults(::GlobalNamespace::LevelCompletionResults* value);
 
   static inline ::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass36_0* New_ctor();
 
@@ -608,10 +608,10 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::MenuTransitionsHelper* _____4__this;
+  ::UnityW<::GlobalNamespace::MenuTransitionsHelper> _____4__this;
 
   /// @brief Field beatmapEditorStandardLevelScenesTransitionSetupData, offset: 0x18, size: 0x8, def value: None
-  ::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO* ___beatmapEditorStandardLevelScenesTransitionSetupData;
+  ::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO> ___beatmapEditorStandardLevelScenesTransitionSetupData;
 
   /// @brief Field levelCompletionResults, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::LevelCompletionResults* ___levelCompletionResults;
@@ -632,7 +632,7 @@ static_assert(offsetof(::GlobalNamespace::__MenuTransitionsHelper____c__DisplayC
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6074))
 // CS Name: ::MenuTransitionsHelper*
 class CORDL_TYPE MenuTransitionsHelper : public ::UnityEngine::MonoBehaviour {
@@ -651,184 +651,195 @@ public:
   using __c__DisplayClass29_0 = ::GlobalNamespace::__MenuTransitionsHelper____c__DisplayClass29_0;
 
   /// @brief Field _appInitScenesTransitionSetupDataContainer, offset 0x18, size 0x8
-  __declspec(property(get = __get__appInitScenesTransitionSetupDataContainer,
-                      put = __set__appInitScenesTransitionSetupDataContainer))::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* _appInitScenesTransitionSetupDataContainer;
+  __declspec(property(
+      get = __cordl_internal_get__appInitScenesTransitionSetupDataContainer,
+      put = __cordl_internal_set__appInitScenesTransitionSetupDataContainer))::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> _appInitScenesTransitionSetupDataContainer;
 
   /// @brief Field _standardLevelScenesTransitionSetupData, offset 0x20, size 0x8
-  __declspec(property(get = __get__standardLevelScenesTransitionSetupData,
-                      put = __set__standardLevelScenesTransitionSetupData))::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* _standardLevelScenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get__standardLevelScenesTransitionSetupData,
+                      put = __cordl_internal_set__standardLevelScenesTransitionSetupData))::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> _standardLevelScenesTransitionSetupData;
 
   /// @brief Field _multiplayerLevelScenesTransitionSetupData, offset 0x28, size 0x8
-  __declspec(property(get = __get__multiplayerLevelScenesTransitionSetupData,
-                      put = __set__multiplayerLevelScenesTransitionSetupData))::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* _multiplayerLevelScenesTransitionSetupData;
+  __declspec(property(
+      get = __cordl_internal_get__multiplayerLevelScenesTransitionSetupData,
+      put = __cordl_internal_set__multiplayerLevelScenesTransitionSetupData))::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> _multiplayerLevelScenesTransitionSetupData;
 
   /// @brief Field _missionLevelScenesTransitionSetupData, offset 0x30, size 0x8
-  __declspec(property(get = __get__missionLevelScenesTransitionSetupData,
-                      put = __set__missionLevelScenesTransitionSetupData))::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* _missionLevelScenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get__missionLevelScenesTransitionSetupData,
+                      put = __cordl_internal_set__missionLevelScenesTransitionSetupData))::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> _missionLevelScenesTransitionSetupData;
 
   /// @brief Field _tutorialScenesTransitionSetupData, offset 0x38, size 0x8
-  __declspec(property(get = __get__tutorialScenesTransitionSetupData,
-                      put = __set__tutorialScenesTransitionSetupData))::GlobalNamespace::TutorialScenesTransitionSetupDataSO* _tutorialScenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get__tutorialScenesTransitionSetupData,
+                      put = __cordl_internal_set__tutorialScenesTransitionSetupData))::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> _tutorialScenesTransitionSetupData;
 
   /// @brief Field _creditsScenesTransitionSetupData, offset 0x40, size 0x8
-  __declspec(property(get = __get__creditsScenesTransitionSetupData,
-                      put = __set__creditsScenesTransitionSetupData))::GlobalNamespace::CreditsScenesTransitionSetupDataSO* _creditsScenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get__creditsScenesTransitionSetupData,
+                      put = __cordl_internal_set__creditsScenesTransitionSetupData))::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO> _creditsScenesTransitionSetupData;
 
   /// @brief Field _mainSettingsModel, offset 0x48, size 0x8
-  __declspec(property(get = __get__mainSettingsModel, put = __set__mainSettingsModel))::GlobalNamespace::MainSettingsModelSO* _mainSettingsModel;
+  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
   /// @brief Field _gameScenesManager, offset 0x50, size 0x8
-  __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
   /// @brief Field _beatmapDataCache, offset 0x58, size 0x8
-  __declspec(property(get = __get__beatmapDataCache, put = __set__beatmapDataCache))::GlobalNamespace::BeatmapDataCache* _beatmapDataCache;
+  __declspec(property(get = __cordl_internal_get__beatmapDataCache, put = __cordl_internal_set__beatmapDataCache))::GlobalNamespace::BeatmapDataCache* _beatmapDataCache;
 
   /// @brief Field _standardLevelFinishedCallback, offset 0x60, size 0x8
-  __declspec(property(get = __get__standardLevelFinishedCallback,
-                      put = __set__standardLevelFinishedCallback))::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*,
-                                                                                     ::GlobalNamespace::LevelCompletionResults*>* _standardLevelFinishedCallback;
+  __declspec(property(get = __cordl_internal_get__standardLevelFinishedCallback,
+                      put = __cordl_internal_set__standardLevelFinishedCallback))::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>,
+                                                                                                    ::GlobalNamespace::LevelCompletionResults*>* _standardLevelFinishedCallback;
 
   /// @brief Field _standardLevelRestartedCallback, offset 0x68, size 0x8
-  __declspec(property(get = __get__standardLevelRestartedCallback,
-                      put = __set__standardLevelRestartedCallback))::System::Action_2<::GlobalNamespace::LevelScenesTransitionSetupDataSO*,
-                                                                                      ::GlobalNamespace::LevelCompletionResults*>* _standardLevelRestartedCallback;
+  __declspec(property(get = __cordl_internal_get__standardLevelRestartedCallback,
+                      put = __cordl_internal_set__standardLevelRestartedCallback))::System::Action_2<::UnityW<::GlobalNamespace::LevelScenesTransitionSetupDataSO>,
+                                                                                                     ::GlobalNamespace::LevelCompletionResults*>* _standardLevelRestartedCallback;
 
   /// @brief Field _multiplayerLevelFinishedCallback, offset 0x70, size 0x8
-  __declspec(property(get = __get__multiplayerLevelFinishedCallback,
-                      put = __set__multiplayerLevelFinishedCallback))::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*,
-                                                                                        ::GlobalNamespace::MultiplayerResultsData*>* _multiplayerLevelFinishedCallback;
+  __declspec(property(get = __cordl_internal_get__multiplayerLevelFinishedCallback,
+                      put = __cordl_internal_set__multiplayerLevelFinishedCallback))::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>,
+                                                                                                       ::GlobalNamespace::MultiplayerResultsData*>* _multiplayerLevelFinishedCallback;
 
   /// @brief Field _multiplayerDidDisconnectCallback, offset 0x78, size 0x8
-  __declspec(property(get = __get__multiplayerDidDisconnectCallback,
-                      put = __set__multiplayerDidDisconnectCallback))::System::Action_1<::GlobalNamespace::DisconnectedReason>* _multiplayerDidDisconnectCallback;
+  __declspec(property(get = __cordl_internal_get__multiplayerDidDisconnectCallback,
+                      put = __cordl_internal_set__multiplayerDidDisconnectCallback))::System::Action_1<::GlobalNamespace::DisconnectedReason>* _multiplayerDidDisconnectCallback;
 
   /// @brief Field _missionLevelFinishedCallback, offset 0x80, size 0x8
-  __declspec(property(get = __get__missionLevelFinishedCallback,
-                      put = __set__missionLevelFinishedCallback))::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*,
-                                                                                    ::GlobalNamespace::MissionCompletionResults*>* _missionLevelFinishedCallback;
+  __declspec(property(get = __cordl_internal_get__missionLevelFinishedCallback,
+                      put = __cordl_internal_set__missionLevelFinishedCallback))::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>,
+                                                                                                   ::GlobalNamespace::MissionCompletionResults*>* _missionLevelFinishedCallback;
 
   /// @brief Field _missionLevelRestartedCallback, offset 0x88, size 0x8
-  __declspec(property(get = __get__missionLevelRestartedCallback,
-                      put = __set__missionLevelRestartedCallback))::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*,
-                                                                                     ::GlobalNamespace::MissionCompletionResults*>* _missionLevelRestartedCallback;
+  __declspec(property(get = __cordl_internal_get__missionLevelRestartedCallback,
+                      put = __cordl_internal_set__missionLevelRestartedCallback))::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>,
+                                                                                                    ::GlobalNamespace::MissionCompletionResults*>* _missionLevelRestartedCallback;
 
   /// @brief Field _beatmapEditorFinishedCallback, offset 0x90, size 0x8
-  __declspec(property(get = __get__beatmapEditorFinishedCallback, put = __set__beatmapEditorFinishedCallback))::System::Action* _beatmapEditorFinishedCallback;
+  __declspec(property(get = __cordl_internal_get__beatmapEditorFinishedCallback, put = __cordl_internal_set__beatmapEditorFinishedCallback))::System::Action* _beatmapEditorFinishedCallback;
 
   /// @brief Field _beatmapEditorGameplayLevelFinishedCallback, offset 0x98, size 0x8
-  __declspec(property(get = __get__beatmapEditorGameplayLevelFinishedCallback,
-                      put = __set__beatmapEditorGameplayLevelFinishedCallback))::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*,
-                                                                                                  ::GlobalNamespace::LevelCompletionResults*>* _beatmapEditorGameplayLevelFinishedCallback;
+  __declspec(property(get = __cordl_internal_get__beatmapEditorGameplayLevelFinishedCallback, put = __cordl_internal_set__beatmapEditorGameplayLevelFinishedCallback))::System::Action_2<
+      ::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* _beatmapEditorGameplayLevelFinishedCallback;
 
-  constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*& __get__appInitScenesTransitionSetupDataContainer();
+  constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO>& __cordl_internal_get__appInitScenesTransitionSetupDataContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*> const& __get__appInitScenesTransitionSetupDataContainer() const;
+  constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> const& __cordl_internal_get__appInitScenesTransitionSetupDataContainer() const;
 
-  constexpr void __set__appInitScenesTransitionSetupDataContainer(::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* value);
+  constexpr void __cordl_internal_set__appInitScenesTransitionSetupDataContainer(::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> value);
 
-  constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& __get__standardLevelScenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>& __cordl_internal_get__standardLevelScenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*> const& __get__standardLevelScenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__standardLevelScenesTransitionSetupData() const;
 
-  constexpr void __set__standardLevelScenesTransitionSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__standardLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*& __get__multiplayerLevelScenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>& __cordl_internal_get__multiplayerLevelScenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*> const& __get__multiplayerLevelScenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__multiplayerLevelScenesTransitionSetupData() const;
 
-  constexpr void __set__multiplayerLevelScenesTransitionSetupData(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__multiplayerLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& __get__missionLevelScenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& __cordl_internal_get__missionLevelScenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*> const& __get__missionLevelScenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__missionLevelScenesTransitionSetupData() const;
 
-  constexpr void __set__missionLevelScenesTransitionSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__missionLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::TutorialScenesTransitionSetupDataSO*& __get__tutorialScenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO>& __cordl_internal_get__tutorialScenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TutorialScenesTransitionSetupDataSO*> const& __get__tutorialScenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> const& __cordl_internal_get__tutorialScenesTransitionSetupData() const;
 
-  constexpr void __set__tutorialScenesTransitionSetupData(::GlobalNamespace::TutorialScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__tutorialScenesTransitionSetupData(::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::CreditsScenesTransitionSetupDataSO*& __get__creditsScenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>& __cordl_internal_get__creditsScenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*> const& __get__creditsScenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO> const& __cordl_internal_get__creditsScenesTransitionSetupData() const;
 
-  constexpr void __set__creditsScenesTransitionSetupData(::GlobalNamespace::CreditsScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__creditsScenesTransitionSetupData(::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::MainSettingsModelSO*& __get__mainSettingsModel();
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsModelSO*> const& __get__mainSettingsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
 
-  constexpr void __set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO* value);
+  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get__gameScenesManager();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get__gameScenesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
-  constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::GlobalNamespace::BeatmapDataCache*& __get__beatmapDataCache();
+  constexpr ::GlobalNamespace::BeatmapDataCache*& __cordl_internal_get__beatmapDataCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCache*> const& __get__beatmapDataCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCache*> const& __cordl_internal_get__beatmapDataCache() const;
 
-  constexpr void __set__beatmapDataCache(::GlobalNamespace::BeatmapDataCache* value);
+  constexpr void __cordl_internal_set__beatmapDataCache(::GlobalNamespace::BeatmapDataCache* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>*& __get__standardLevelFinishedCallback();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*&
+  __cordl_internal_get__standardLevelFinishedCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>*> const&
-  __get__standardLevelFinishedCallback() const;
-
-  constexpr void __set__standardLevelFinishedCallback(::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* value);
-
-  constexpr ::System::Action_2<::GlobalNamespace::LevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>*& __get__standardLevelRestartedCallback();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::LevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>*> const&
-  __get__standardLevelRestartedCallback() const;
-
-  constexpr void __set__standardLevelRestartedCallback(::System::Action_2<::GlobalNamespace::LevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* value);
-
-  constexpr ::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>*& __get__multiplayerLevelFinishedCallback();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>*> const&
-  __get__multiplayerLevelFinishedCallback() const;
-
-  constexpr void __set__multiplayerLevelFinishedCallback(::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* value);
-
-  constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>*& __get__multiplayerDidDisconnectCallback();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::DisconnectedReason>*> const& __get__multiplayerDidDisconnectCallback() const;
-
-  constexpr void __set__multiplayerDidDisconnectCallback(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
-
-  constexpr ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>*& __get__missionLevelFinishedCallback();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>*> const&
-  __get__missionLevelFinishedCallback() const;
-
-  constexpr void __set__missionLevelFinishedCallback(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* value);
-
-  constexpr ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>*& __get__missionLevelRestartedCallback();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>*> const&
-  __get__missionLevelRestartedCallback() const;
-
-  constexpr void __set__missionLevelRestartedCallback(::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* value);
-
-  constexpr ::System::Action*& __get__beatmapEditorFinishedCallback();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get__beatmapEditorFinishedCallback() const;
-
-  constexpr void __set__beatmapEditorFinishedCallback(::System::Action* value);
-
-  constexpr ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>*&
-  __get__beatmapEditorGameplayLevelFinishedCallback();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>*> const&
-  __get__beatmapEditorGameplayLevelFinishedCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*> const&
+  __cordl_internal_get__standardLevelFinishedCallback() const;
 
   constexpr void
-  __set__beatmapEditorGameplayLevelFinishedCallback(::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* value);
+  __cordl_internal_set__standardLevelFinishedCallback(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
+
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*& __cordl_internal_get__standardLevelRestartedCallback();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::LevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*> const&
+  __cordl_internal_get__standardLevelRestartedCallback() const;
+
+  constexpr void
+  __cordl_internal_set__standardLevelRestartedCallback(::System::Action_2<::UnityW<::GlobalNamespace::LevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
+
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>*&
+  __cordl_internal_get__multiplayerLevelFinishedCallback();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>*> const&
+  __cordl_internal_get__multiplayerLevelFinishedCallback() const;
+
+  constexpr void __cordl_internal_set__multiplayerLevelFinishedCallback(
+      ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* value);
+
+  constexpr ::System::Action_1<::GlobalNamespace::DisconnectedReason>*& __cordl_internal_get__multiplayerDidDisconnectCallback();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::DisconnectedReason>*> const& __cordl_internal_get__multiplayerDidDisconnectCallback() const;
+
+  constexpr void __cordl_internal_set__multiplayerDidDisconnectCallback(::System::Action_1<::GlobalNamespace::DisconnectedReason>* value);
+
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>*&
+  __cordl_internal_get__missionLevelFinishedCallback();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>*> const&
+  __cordl_internal_get__missionLevelFinishedCallback() const;
+
+  constexpr void
+  __cordl_internal_set__missionLevelFinishedCallback(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
+
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>*&
+  __cordl_internal_get__missionLevelRestartedCallback();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>*> const&
+  __cordl_internal_get__missionLevelRestartedCallback() const;
+
+  constexpr void
+  __cordl_internal_set__missionLevelRestartedCallback(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
+
+  constexpr ::System::Action*& __cordl_internal_get__beatmapEditorFinishedCallback();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get__beatmapEditorFinishedCallback() const;
+
+  constexpr void __cordl_internal_set__beatmapEditorFinishedCallback(::System::Action* value);
+
+  constexpr ::System::Action_2<::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*&
+  __cordl_internal_get__beatmapEditorGameplayLevelFinishedCallback();
+
+  constexpr ::cordl_internals::to_const_pointer<
+      ::System::Action_2<::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*> const&
+  __cordl_internal_get__beatmapEditorGameplayLevelFinishedCallback() const;
+
+  constexpr void __cordl_internal_set__beatmapEditorGameplayLevelFinishedCallback(
+      ::System::Action_2<::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
 
   /// @brief Method OnDestroy, addr 0x231dfd4, size 0x25c, virtual false, abstract: false, final false
   inline void OnDestroy();
@@ -839,8 +850,8 @@ public:
                                  ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                  ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::StringW backButtonText,
                                  bool useTestNoteCutSoundEffects, bool startPaused, ::System::Action* beforeSceneSwitchCallback,
-                                 ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback,
-                                 ::System::Action_2<::GlobalNamespace::LevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelRestartedCallback,
+                                 ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback,
+                                 ::System::Action_2<::UnityW<::GlobalNamespace::LevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* levelRestartedCallback,
                                  ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
 
   /// @brief Method StartStandardLevel, addr 0x231e3e8, size 0x17c, virtual false, abstract: false, final false
@@ -849,8 +860,8 @@ public:
                                  ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                  ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::StringW backButtonText,
                                  bool useTestNoteCutSoundEffects, bool startPaused, ::System::Action* beforeSceneSwitchCallback, ::System::Action_1<::Zenject::DiContainer*>* afterSceneSwitchCallback,
-                                 ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback,
-                                 ::System::Action_2<::GlobalNamespace::LevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelRestartedCallback,
+                                 ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback,
+                                 ::System::Action_2<::UnityW<::GlobalNamespace::LevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* levelRestartedCallback,
                                  ::System::Nullable_1<::GlobalNamespace::__RecordingToolManager__SetupData> recordingToolData);
 
   /// @brief Method StartMissionLevel, addr 0x231e564, size 0x180, virtual false, abstract: false, final false
@@ -858,8 +869,8 @@ public:
                                 ::GlobalNamespace::ColorScheme* overrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                 ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives,
                                 ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::System::Action* beforeSceneSwitchCallback,
-                                ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* levelFinishedCallback,
-                                ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* levelRestartedCallback);
+                                ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* levelFinishedCallback,
+                                ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* levelRestartedCallback);
 
   /// @brief Method StartMultiplayerLevel, addr 0x231e6e4, size 0x3c, virtual false, abstract: false, final false
   inline void StartMultiplayerLevel(::StringW gameMode, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty,
@@ -867,7 +878,7 @@ public:
                                     ::GlobalNamespace::ColorScheme* overrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                     ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::StringW backButtonText,
                                     bool useTestNoteCutSoundEffects, ::System::Action* beforeSceneSwitchCallback,
-                                    ::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* levelFinishedCallback,
+                                    ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* levelFinishedCallback,
                                     ::System::Action_1<::GlobalNamespace::DisconnectedReason>* didDisconnectCallback);
 
   /// @brief Method StartMultiplayerLevel, addr 0x231e720, size 0x1f4, virtual false, abstract: false, final false
@@ -876,7 +887,7 @@ public:
                                     ::GlobalNamespace::ColorScheme* overrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                                     ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::StringW backButtonText,
                                     bool useTestNoteCutSoundEffects, ::System::Action* beforeSceneSwitchCallback, ::System::Action_1<::Zenject::DiContainer*>* afterSceneSwitchCallback,
-                                    ::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* levelFinishedCallback,
+                                    ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* levelFinishedCallback,
                                     ::System::Action_1<::GlobalNamespace::DisconnectedReason>* didDisconnectCallback);
 
   /// @brief Method StartTutorial, addr 0x231ed74, size 0x108, virtual false, abstract: false, final false
@@ -889,12 +900,11 @@ public:
   inline void StartBeatmapEditor(::System::Action* beatmapEditorFinishedCallback);
 
   /// @brief Method StartBeatmapEditorStandardLevel, addr 0x231f028, size 0x4, virtual false, abstract: false, final false
-  inline void
-  StartBeatmapEditorStandardLevel(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
-                                  ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
-                                  ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::ColorScheme* colorScheme, bool useFirstPersonFlyingController,
-                                  ::System::Action* beforeSceneSwitchCallback,
-                                  ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback);
+  inline void StartBeatmapEditorStandardLevel(
+      ::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+      ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::ColorScheme* colorScheme,
+      bool useFirstPersonFlyingController, ::System::Action* beforeSceneSwitchCallback,
+      ::System::Action_2<::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback);
 
   /// @brief Method RestartGame, addr 0x231f02c, size 0x64, virtual false, abstract: false, final false
   inline void RestartGame(::System::Action_1<::Zenject::DiContainer*>* finishCallback);
@@ -955,55 +965,55 @@ protected:
 
 public:
   /// @brief Field _appInitScenesTransitionSetupDataContainer, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* ____appInitScenesTransitionSetupDataContainer;
+  ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> ____appInitScenesTransitionSetupDataContainer;
 
   /// @brief Field _standardLevelScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* ____standardLevelScenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ____standardLevelScenesTransitionSetupData;
 
   /// @brief Field _multiplayerLevelScenesTransitionSetupData, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* ____multiplayerLevelScenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO> ____multiplayerLevelScenesTransitionSetupData;
 
   /// @brief Field _missionLevelScenesTransitionSetupData, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* ____missionLevelScenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> ____missionLevelScenesTransitionSetupData;
 
   /// @brief Field _tutorialScenesTransitionSetupData, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::TutorialScenesTransitionSetupDataSO* ____tutorialScenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::TutorialScenesTransitionSetupDataSO> ____tutorialScenesTransitionSetupData;
 
   /// @brief Field _creditsScenesTransitionSetupData, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::CreditsScenesTransitionSetupDataSO* ____creditsScenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO> ____creditsScenesTransitionSetupData;
 
   /// @brief Field _mainSettingsModel, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::MainSettingsModelSO* ____mainSettingsModel;
+  ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
 
   /// @brief Field _gameScenesManager, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
+  ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
   /// @brief Field _beatmapDataCache, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCache* ____beatmapDataCache;
 
   /// @brief Field _standardLevelFinishedCallback, offset: 0x60, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* ____standardLevelFinishedCallback;
+  ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* ____standardLevelFinishedCallback;
 
   /// @brief Field _standardLevelRestartedCallback, offset: 0x68, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::LevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* ____standardLevelRestartedCallback;
+  ::System::Action_2<::UnityW<::GlobalNamespace::LevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* ____standardLevelRestartedCallback;
 
   /// @brief Field _multiplayerLevelFinishedCallback, offset: 0x70, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*>* ____multiplayerLevelFinishedCallback;
+  ::System::Action_2<::UnityW<::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MultiplayerResultsData*>* ____multiplayerLevelFinishedCallback;
 
   /// @brief Field _multiplayerDidDisconnectCallback, offset: 0x78, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::DisconnectedReason>* ____multiplayerDidDisconnectCallback;
 
   /// @brief Field _missionLevelFinishedCallback, offset: 0x80, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* ____missionLevelFinishedCallback;
+  ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* ____missionLevelFinishedCallback;
 
   /// @brief Field _missionLevelRestartedCallback, offset: 0x88, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*>* ____missionLevelRestartedCallback;
+  ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* ____missionLevelRestartedCallback;
 
   /// @brief Field _beatmapEditorFinishedCallback, offset: 0x90, size: 0x8, def value: None
   ::System::Action* ____beatmapEditorFinishedCallback;
 
   /// @brief Field _beatmapEditorGameplayLevelFinishedCallback, offset: 0x98, size: 0x8, def value: None
-  ::System::Action_2<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*>* ____beatmapEditorGameplayLevelFinishedCallback;
+  ::System::Action_2<::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* ____beatmapEditorGameplayLevelFinishedCallback;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::HMUI::PercentSlider);
 // SizeInfo { instance_size: 360, native_size: -1, calculated_instance_size: 360, calculated_native_size: 360, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13558))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13557))
 // CS Name: ::HMUI::PercentSlider*
 class CORDL_TYPE PercentSlider : public ::HMUI::RangeValuesTextSlider {

@@ -23,26 +23,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::SkipjackEngine);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(871))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::SkipjackEngine*
 class CORDL_TYPE SkipjackEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field key0, offset 0x10, size 0x8
-  __declspec(property(get = __get_key0, put = __set_key0))::ArrayW<int32_t, ::Array<int32_t>*> key0;
+  __declspec(property(get = __cordl_internal_get_key0, put = __cordl_internal_set_key0))::ArrayW<int32_t, ::Array<int32_t>*> key0;
 
   /// @brief Field key1, offset 0x18, size 0x8
-  __declspec(property(get = __get_key1, put = __set_key1))::ArrayW<int32_t, ::Array<int32_t>*> key1;
+  __declspec(property(get = __cordl_internal_get_key1, put = __cordl_internal_set_key1))::ArrayW<int32_t, ::Array<int32_t>*> key1;
 
   /// @brief Field key2, offset 0x20, size 0x8
-  __declspec(property(get = __get_key2, put = __set_key2))::ArrayW<int32_t, ::Array<int32_t>*> key2;
+  __declspec(property(get = __cordl_internal_get_key2, put = __cordl_internal_set_key2))::ArrayW<int32_t, ::Array<int32_t>*> key2;
 
   /// @brief Field key3, offset 0x28, size 0x8
-  __declspec(property(get = __get_key3, put = __set_key3))::ArrayW<int32_t, ::Array<int32_t>*> key3;
+  __declspec(property(get = __cordl_internal_get_key3, put = __cordl_internal_set_key3))::ArrayW<int32_t, ::Array<int32_t>*> key3;
 
   /// @brief Field encrypting, offset 0x30, size 0x1
-  __declspec(property(get = __get_encrypting, put = __set_encrypting)) bool encrypting;
+  __declspec(property(get = __cordl_internal_get_encrypting, put = __cordl_internal_set_encrypting)) bool encrypting;
 
   /// @brief Field ftable, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ftable, put = setStaticF_ftable))::ArrayW<int16_t, ::Array<int16_t>*> ftable;
@@ -57,35 +57,35 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_key0();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_key0();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_key0() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_key0() const;
 
-  constexpr void __set_key0(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_key0(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_key1();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_key1();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_key1() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_key1() const;
 
-  constexpr void __set_key1(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_key1(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_key2();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_key2();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_key2() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_key2() const;
 
-  constexpr void __set_key2(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_key2(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_key3();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_key3();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_key3() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_key3() const;
 
-  constexpr void __set_key3(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_key3(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr bool& __get_encrypting();
+  constexpr bool& __cordl_internal_get_encrypting();
 
-  constexpr bool const& __get_encrypting() const;
+  constexpr bool const& __cordl_internal_get_encrypting() const;
 
-  constexpr void __set_encrypting(bool value);
+  constexpr void __cordl_internal_set_encrypting(bool value);
 
   static inline void setStaticF_ftable(::ArrayW<int16_t, ::Array<int16_t>*> value);
 

@@ -32,14 +32,14 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomFogParamsAsset);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10422))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10422))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6006))
 // CS Name: ::BloomFogParamsAsset*
 class CORDL_TYPE BloomFogParamsAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:
   // Declarations
   /// @brief Field _template, offset 0x18, size 0x8
-  __declspec(property(get = __get__template, put = __set__template))::GlobalNamespace::BloomFogParamsBehaviour* _template;
+  __declspec(property(get = __cordl_internal_get__template, put = __cordl_internal_set__template))::GlobalNamespace::BloomFogParamsBehaviour* _template;
 
   __declspec(property(get = get_clipCaps))::UnityEngine::Timeline::ClipCaps clipCaps;
 
@@ -49,11 +49,11 @@ public:
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr ::UnityEngine::Timeline::ITimelineClipAsset* i___UnityEngine__Timeline__ITimelineClipAsset() noexcept;
 
-  constexpr ::GlobalNamespace::BloomFogParamsBehaviour*& __get__template();
+  constexpr ::GlobalNamespace::BloomFogParamsBehaviour*& __cordl_internal_get__template();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogParamsBehaviour*> const& __get__template() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogParamsBehaviour*> const& __cordl_internal_get__template() const;
 
-  constexpr void __set__template(::GlobalNamespace::BloomFogParamsBehaviour* value);
+  constexpr void __cordl_internal_set__template(::GlobalNamespace::BloomFogParamsBehaviour* value);
 
   /// @brief Method get_clipCaps, addr 0x23155b0, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();

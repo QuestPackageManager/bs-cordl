@@ -11,12 +11,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0xf45d34;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::X931SecureRandom*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Prng::X931Rng*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::X931SecureRandom*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Prng::X931Rng*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0xf45db4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::X931SecureRandom*>::get(),
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb4;
   constexpr static std::size_t addrs = 0xf45e68;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::X931SecureRandom*>::get(),
@@ -60,7 +60,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xf0;
   constexpr static std::size_t addrs = 0xf45f1c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::X931SecureRandom*>::get(),
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0xf4600c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::X931SecureRandom*>::get(),
@@ -92,7 +92,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0xf460a4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::X931SecureRandom*>::get(),
@@ -100,53 +100,53 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr bool& Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__get_mPredictionResistant() {
+constexpr bool& Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__cordl_internal_get_mPredictionResistant() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mPredictionResistant;
 }
-constexpr bool const& Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__get_mPredictionResistant() const {
+constexpr bool const& Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__cordl_internal_get_mPredictionResistant() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mPredictionResistant;
 }
-constexpr void Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__set_mPredictionResistant(bool value) {
+constexpr void Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__cordl_internal_set_mPredictionResistant(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___mPredictionResistant = value;
 }
-constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__get_mRandomSource() {
+constexpr ::Org::BouncyCastle::Security::SecureRandom*& Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__cordl_internal_get_mRandomSource() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mRandomSource;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__get_mRandomSource() const {
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__cordl_internal_get_mRandomSource() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mRandomSource;
 }
-constexpr void Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__set_mRandomSource(::Org::BouncyCastle::Security::SecureRandom* value) {
+constexpr void Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__cordl_internal_set_mRandomSource(::Org::BouncyCastle::Security::SecureRandom* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mRandomSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Org::BouncyCastle::Crypto::Prng::X931Rng*& Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__get_mDrbg() {
+constexpr ::Org::BouncyCastle::Crypto::Prng::X931Rng*& Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__cordl_internal_get_mDrbg() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDrbg;
 }
-constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Prng::X931Rng*> const& Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__get_mDrbg() const {
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Prng::X931Rng*> const& Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__cordl_internal_get_mDrbg() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___mDrbg;
 }
-constexpr void Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__set_mDrbg(::Org::BouncyCastle::Crypto::Prng::X931Rng* value) {
+constexpr void Org::BouncyCastle::Crypto::Prng::X931SecureRandom::__cordl_internal_set_mDrbg(::Org::BouncyCastle::Crypto::Prng::X931Rng* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mDrbg)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandom* Org::BouncyCastle::Crypto::Prng::X931SecureRandom::New_ctor(::Org::BouncyCastle::Security::SecureRandom* randomSource,
                                                                                                                         ::Org::BouncyCastle::Crypto::Prng::X931Rng* drbg, bool predictionResistant) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Org::BouncyCastle::Crypto::Prng::X931SecureRandom*>(randomSource, drbg, predictionResistant));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Prng::X931SecureRandom*>(randomSource, drbg, predictionResistant));
 }
 inline void Org::BouncyCastle::Crypto::Prng::X931SecureRandom::_ctor(::Org::BouncyCastle::Security::SecureRandom* randomSource, ::Org::BouncyCastle::Crypto::Prng::X931Rng* drbg,
                                                                      bool predictionResistant) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::X931SecureRandom*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Prng::X931Rng*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Prng::X931SecureRandom*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Security::SecureRandom*>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Org::BouncyCastle::Crypto::Prng::X931Rng*>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, randomSource, drbg, predictionResistant);
 }
 inline void Org::BouncyCastle::Crypto::Prng::X931SecureRandom::SetSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> seed) {

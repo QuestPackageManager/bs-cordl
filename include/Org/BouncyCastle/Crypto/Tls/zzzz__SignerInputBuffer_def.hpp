@@ -27,20 +27,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__SignerInputBuffer__SigStream)
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(484))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1276))
 // CS Name: ::SignerInputBuffer::SigStream*
 class CORDL_TYPE __SignerInputBuffer__SigStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
   // Declarations
   /// @brief Field s, offset 0x30, size 0x8
-  __declspec(property(get = __get_s, put = __set_s))::Org::BouncyCastle::Crypto::ISigner* s;
+  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s))::Org::BouncyCastle::Crypto::ISigner* s;
 
-  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __get_s();
+  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_s();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __get_s() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __cordl_internal_get_s() const;
 
-  constexpr void __set_s(::Org::BouncyCastle::Crypto::ISigner* value);
+  constexpr void __cordl_internal_set_s(::Org::BouncyCastle::Crypto::ISigner* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__SignerInputBuffer__SigStream* New_ctor(::Org::BouncyCastle::Crypto::ISigner* s);
 
@@ -82,7 +82,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__SignerInputBuffer__Si
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3566))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1277))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SignerInputBuffer*
 class CORDL_TYPE SignerInputBuffer : public ::System::IO::MemoryStream {

@@ -31,20 +31,20 @@ MARK_REF_PTR_T(::GlobalNamespace::DnsEndPoint);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12722))
 // CS Name: ::DnsEndPoint*
 class CORDL_TYPE DnsEndPoint : public ::System::Object {
 public:
   // Declarations
   /// @brief Field hostName, offset 0x10, size 0x8
-  __declspec(property(get = __get_hostName, put = __set_hostName))::StringW hostName;
+  __declspec(property(get = __cordl_internal_get_hostName, put = __cordl_internal_set_hostName))::StringW hostName;
 
   /// @brief Field port, offset 0x18, size 0x4
-  __declspec(property(get = __get_port, put = __set_port)) int32_t port;
+  __declspec(property(get = __cordl_internal_get_port, put = __cordl_internal_set_port)) int32_t port;
 
   /// @brief Field _getEndPointTask, offset 0x20, size 0x8
-  __declspec(property(get = __get__getEndPointTask, put = __set__getEndPointTask))::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* _getEndPointTask;
+  __declspec(property(get = __cordl_internal_get__getEndPointTask, put = __cordl_internal_set__getEndPointTask))::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* _getEndPointTask;
 
   __declspec(property(get = get_endPoint))::System::Net::IPEndPoint* endPoint;
 
@@ -54,23 +54,23 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::DnsEndPoint*>* i___System__IEquatable_1___GlobalNamespace__DnsEndPoint__() noexcept;
 
-  constexpr ::StringW& __get_hostName();
+  constexpr ::StringW& __cordl_internal_get_hostName();
 
-  constexpr ::StringW const& __get_hostName() const;
+  constexpr ::StringW const& __cordl_internal_get_hostName() const;
 
-  constexpr void __set_hostName(::StringW value);
+  constexpr void __cordl_internal_set_hostName(::StringW value);
 
-  constexpr int32_t& __get_port();
+  constexpr int32_t& __cordl_internal_get_port();
 
-  constexpr int32_t const& __get_port() const;
+  constexpr int32_t const& __cordl_internal_get_port() const;
 
-  constexpr void __set_port(int32_t value);
+  constexpr void __cordl_internal_set_port(int32_t value);
 
-  constexpr ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>*& __get__getEndPointTask();
+  constexpr ::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>*& __cordl_internal_get__getEndPointTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>*> const& __get__getEndPointTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>*> const& __cordl_internal_get__getEndPointTask() const;
 
-  constexpr void __set__getEndPointTask(::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* value);
+  constexpr void __cordl_internal_set__getEndPointTask(::System::Threading::Tasks::Task_1<::System::Net::IPEndPoint*>* value);
 
   /// @brief Method get_endPoint, addr 0xe33b78, size 0x74, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_endPoint();

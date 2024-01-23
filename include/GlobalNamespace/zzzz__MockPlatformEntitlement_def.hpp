@@ -19,33 +19,33 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlatformEntitlement);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16270))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4106))
 // CS Name: ::MockPlatformEntitlement*
 class CORDL_TYPE MockPlatformEntitlement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _id, offset 0x10, size 0x8
-  __declspec(property(get = __get__id, put = __set__id))::StringW _id;
+  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id))::StringW _id;
 
   /// @brief Field _status, offset 0x18, size 0x4
-  __declspec(property(get = __get__status, put = __set__status))::GlobalNamespace::EntitlementStatus _status;
+  __declspec(property(get = __cordl_internal_get__status, put = __cordl_internal_set__status))::GlobalNamespace::EntitlementStatus _status;
 
   __declspec(property(get = get_id))::StringW id;
 
   __declspec(property(get = get_status))::GlobalNamespace::EntitlementStatus status;
 
-  constexpr ::StringW& __get__id();
+  constexpr ::StringW& __cordl_internal_get__id();
 
-  constexpr ::StringW const& __get__id() const;
+  constexpr ::StringW const& __cordl_internal_get__id() const;
 
-  constexpr void __set__id(::StringW value);
+  constexpr void __cordl_internal_set__id(::StringW value);
 
-  constexpr ::GlobalNamespace::EntitlementStatus& __get__status();
+  constexpr ::GlobalNamespace::EntitlementStatus& __cordl_internal_get__status();
 
-  constexpr ::GlobalNamespace::EntitlementStatus const& __get__status() const;
+  constexpr ::GlobalNamespace::EntitlementStatus const& __cordl_internal_get__status() const;
 
-  constexpr void __set__status(::GlobalNamespace::EntitlementStatus value);
+  constexpr void __cordl_internal_set__status(::GlobalNamespace::EntitlementStatus value);
 
   /// @brief Method get_id, addr 0x223526c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_id();

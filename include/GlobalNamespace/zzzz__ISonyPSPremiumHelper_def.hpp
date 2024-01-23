@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ISonyPSPremiumHelper);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4574))
 // CS Name: ::ISonyPSPremiumHelper::DisplayJoinPremiumDialogResult
 struct CORDL_TYPE __ISonyPSPremiumHelper__DisplayJoinPremiumDialogResult {
@@ -85,7 +85,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyPSPremiumHelper__DisplayJoinPre
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4575))
 // CS Name: ::ISonyPSPremiumHelper::GetPremiumStatusResult
 struct CORDL_TYPE __ISonyPSPremiumHelper__GetPremiumStatusResult {
@@ -139,7 +139,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyPSPremiumHelper__GetPremiumStat
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4576))
 // CS Name: ::ISonyPSPremiumHelper*
 class CORDL_TYPE ISonyPSPremiumHelper {

@@ -41,7 +41,7 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6704))
 // CS Name: ::SavedStructState`1::TypedRestore<T>*
 class CORDL_TYPE __SavedStructState_1__TypedRestore : public ::System::MulticastDelegate {
@@ -85,7 +85,7 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6705))
 // CS Name: ::UnityEngine.InputSystem.Utilities::SavedStructState`1<T>*
 class CORDL_TYPE SavedStructState_1 : public ::System::Object {
@@ -94,13 +94,14 @@ public:
   using TypedRestore = ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>;
 
   /// @brief Field m_State, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_State, put = __set_m_State)) T m_State;
+  __declspec(property(get = __cordl_internal_get_m_State, put = __cordl_internal_set_m_State)) T m_State;
 
   /// @brief Field m_RestoreAction, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_RestoreAction, put = __set_m_RestoreAction))::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* m_RestoreAction;
+  __declspec(property(get = __cordl_internal_get_m_RestoreAction,
+                      put = __cordl_internal_set_m_RestoreAction))::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* m_RestoreAction;
 
   /// @brief Field m_StaticDisposeCurrentState, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_StaticDisposeCurrentState, put = __set_m_StaticDisposeCurrentState))::System::Action* m_StaticDisposeCurrentState;
+  __declspec(property(get = __cordl_internal_get_m_StaticDisposeCurrentState, put = __cordl_internal_set_m_StaticDisposeCurrentState))::System::Action* m_StaticDisposeCurrentState;
 
   /// @brief Convert operator to "::UnityEngine::InputSystem::Utilities::ISavedState"
   constexpr operator ::UnityEngine::InputSystem::Utilities::ISavedState*() noexcept;
@@ -108,23 +109,23 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::Utilities::ISavedState"
   constexpr ::UnityEngine::InputSystem::Utilities::ISavedState* i___UnityEngine__InputSystem__Utilities__ISavedState() noexcept;
 
-  constexpr T& __get_m_State();
+  constexpr T& __cordl_internal_get_m_State();
 
-  constexpr T const& __get_m_State() const;
+  constexpr T const& __cordl_internal_get_m_State() const;
 
-  constexpr void __set_m_State(T value);
+  constexpr void __cordl_internal_set_m_State(T value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>*& __get_m_RestoreAction();
+  constexpr ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>*& __cordl_internal_get_m_RestoreAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>*> const& __get_m_RestoreAction() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>*> const& __cordl_internal_get_m_RestoreAction() const;
 
-  constexpr void __set_m_RestoreAction(::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* value);
+  constexpr void __cordl_internal_set_m_RestoreAction(::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* value);
 
-  constexpr ::System::Action*& __get_m_StaticDisposeCurrentState();
+  constexpr ::System::Action*& __cordl_internal_get_m_StaticDisposeCurrentState();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_m_StaticDisposeCurrentState() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_m_StaticDisposeCurrentState() const;
 
-  constexpr void __set_m_StaticDisposeCurrentState(::System::Action* value);
+  constexpr void __cordl_internal_set_m_StaticDisposeCurrentState(::System::Action* value);
 
   static inline ::UnityEngine::InputSystem::Utilities::SavedStructState_1<T>* New_ctor(ByRef<T> state, ::UnityEngine::InputSystem::Utilities::__SavedStructState_1__TypedRestore<T>* restoreAction,
                                                                                        ::System::Action* staticDisposeCurrentState);

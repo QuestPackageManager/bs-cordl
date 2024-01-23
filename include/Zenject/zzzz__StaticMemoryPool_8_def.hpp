@@ -31,14 +31,15 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11085)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11085), inst: 190 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11085)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11085), inst: 190 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11093))
 // CS Name: ::Zenject::StaticMemoryPool`8<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TParam7,TValue>*
 class CORDL_TYPE StaticMemoryPool_8 : public ::Zenject::StaticMemoryPoolBase_1<TValue> {
 public:
   // Declarations
   /// @brief Field _onSpawnMethod, offset 0x28, size 0x8
-  __declspec(property(get = __get__onSpawnMethod, put = __set__onSpawnMethod))::System::Action_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>* _onSpawnMethod;
+  __declspec(property(get = __cordl_internal_get__onSpawnMethod,
+                      put = __cordl_internal_set__onSpawnMethod))::System::Action_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>* _onSpawnMethod;
 
   __declspec(property(put = set_OnSpawnMethod))::System::Action_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>* OnSpawnMethod;
 
@@ -61,11 +62,11 @@ public:
   /// @brief Convert to "::Zenject::IMemoryPool"
   constexpr ::Zenject::IMemoryPool* i___Zenject__IMemoryPool() noexcept;
 
-  constexpr ::System::Action_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>*& __get__onSpawnMethod();
+  constexpr ::System::Action_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>*& __cordl_internal_get__onSpawnMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>*> const& __get__onSpawnMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>*> const& __cordl_internal_get__onSpawnMethod() const;
 
-  constexpr void __set__onSpawnMethod(::System::Action_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>* value);
+  constexpr void __cordl_internal_set__onSpawnMethod(::System::Action_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>* value);
 
   static inline ::Zenject::StaticMemoryPool_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>*
   New_ctor(::System::Action_8<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TValue>* onSpawnMethod, ::System::Action_1<TValue>* onDespawnedMethod);

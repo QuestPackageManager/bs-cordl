@@ -32,7 +32,7 @@ MARK_VAL_T(::UnityEngine::Audio::AudioPlayableOutput);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Audio {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10415))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10415))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15600))
 // CS Name: ::UnityEngine.Audio::AudioPlayableOutput
 struct CORDL_TYPE AudioPlayableOutput {

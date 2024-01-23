@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::ScoreMultiplierCounter);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5320))
 // CS Name: ::ScoreMultiplierCounter::MultiplierEventType
 struct CORDL_TYPE __ScoreMultiplierCounter__MultiplierEventType {
@@ -78,7 +78,7 @@ static_assert(offsetof(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEv
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5321))
 // CS Name: ::ScoreMultiplierCounter*
 class CORDL_TYPE ScoreMultiplierCounter : public ::System::Object {
@@ -87,35 +87,35 @@ public:
   using MultiplierEventType = ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType;
 
   /// @brief Field _multiplier, offset 0x10, size 0x4
-  __declspec(property(get = __get__multiplier, put = __set__multiplier)) int32_t _multiplier;
+  __declspec(property(get = __cordl_internal_get__multiplier, put = __cordl_internal_set__multiplier)) int32_t _multiplier;
 
   /// @brief Field _multiplierIncreaseProgress, offset 0x14, size 0x4
-  __declspec(property(get = __get__multiplierIncreaseProgress, put = __set__multiplierIncreaseProgress)) int32_t _multiplierIncreaseProgress;
+  __declspec(property(get = __cordl_internal_get__multiplierIncreaseProgress, put = __cordl_internal_set__multiplierIncreaseProgress)) int32_t _multiplierIncreaseProgress;
 
   /// @brief Field _multiplierIncreaseMaxProgress, offset 0x18, size 0x4
-  __declspec(property(get = __get__multiplierIncreaseMaxProgress, put = __set__multiplierIncreaseMaxProgress)) int32_t _multiplierIncreaseMaxProgress;
+  __declspec(property(get = __cordl_internal_get__multiplierIncreaseMaxProgress, put = __cordl_internal_set__multiplierIncreaseMaxProgress)) int32_t _multiplierIncreaseMaxProgress;
 
   __declspec(property(get = get_multiplier)) int32_t multiplier;
 
   __declspec(property(get = get_normalizedProgress)) float_t normalizedProgress;
 
-  constexpr int32_t& __get__multiplier();
+  constexpr int32_t& __cordl_internal_get__multiplier();
 
-  constexpr int32_t const& __get__multiplier() const;
+  constexpr int32_t const& __cordl_internal_get__multiplier() const;
 
-  constexpr void __set__multiplier(int32_t value);
+  constexpr void __cordl_internal_set__multiplier(int32_t value);
 
-  constexpr int32_t& __get__multiplierIncreaseProgress();
+  constexpr int32_t& __cordl_internal_get__multiplierIncreaseProgress();
 
-  constexpr int32_t const& __get__multiplierIncreaseProgress() const;
+  constexpr int32_t const& __cordl_internal_get__multiplierIncreaseProgress() const;
 
-  constexpr void __set__multiplierIncreaseProgress(int32_t value);
+  constexpr void __cordl_internal_set__multiplierIncreaseProgress(int32_t value);
 
-  constexpr int32_t& __get__multiplierIncreaseMaxProgress();
+  constexpr int32_t& __cordl_internal_get__multiplierIncreaseMaxProgress();
 
-  constexpr int32_t const& __get__multiplierIncreaseMaxProgress() const;
+  constexpr int32_t const& __cordl_internal_get__multiplierIncreaseMaxProgress() const;
 
-  constexpr void __set__multiplierIncreaseMaxProgress(int32_t value);
+  constexpr void __cordl_internal_set__multiplierIncreaseMaxProgress(int32_t value);
 
   /// @brief Method get_multiplier, addr 0x2267dbc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_multiplier();

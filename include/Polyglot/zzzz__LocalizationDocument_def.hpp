@@ -22,28 +22,28 @@ MARK_REF_PTR_T(::Polyglot::LocalizationDocument);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15552))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15552))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15560))
 // CS Name: ::Polyglot::LocalizationDocument*
 class CORDL_TYPE LocalizationDocument : public ::System::Object {
 public:
   // Declarations
   /// @brief Field docsId, offset 0x10, size 0x8
-  __declspec(property(get = __get_docsId, put = __set_docsId))::StringW docsId;
+  __declspec(property(get = __cordl_internal_get_docsId, put = __cordl_internal_set_docsId))::StringW docsId;
 
   /// @brief Field sheetId, offset 0x18, size 0x8
-  __declspec(property(get = __get_sheetId, put = __set_sheetId))::StringW sheetId;
+  __declspec(property(get = __cordl_internal_get_sheetId, put = __cordl_internal_set_sheetId))::StringW sheetId;
 
   /// @brief Field format, offset 0x20, size 0x4
-  __declspec(property(get = __get_format, put = __set_format))::Polyglot::GoogleDriveDownloadFormat format;
+  __declspec(property(get = __cordl_internal_get_format, put = __cordl_internal_set_format))::Polyglot::GoogleDriveDownloadFormat format;
 
   /// @brief Field textAsset, offset 0x28, size 0x8
-  __declspec(property(get = __get_textAsset, put = __set_textAsset))::UnityEngine::TextAsset* textAsset;
+  __declspec(property(get = __cordl_internal_get_textAsset, put = __cordl_internal_set_textAsset))::UnityW<::UnityEngine::TextAsset> textAsset;
 
   /// @brief Field downloadOnStart, offset 0x30, size 0x1
-  __declspec(property(get = __get_downloadOnStart, put = __set_downloadOnStart)) bool downloadOnStart;
+  __declspec(property(get = __cordl_internal_get_downloadOnStart, put = __cordl_internal_set_downloadOnStart)) bool downloadOnStart;
 
-  __declspec(property(get = get_TextAsset, put = set_TextAsset))::UnityEngine::TextAsset* TextAsset;
+  __declspec(property(get = get_TextAsset, put = set_TextAsset))::UnityW<::UnityEngine::TextAsset> TextAsset;
 
   __declspec(property(get = get_DocsId, put = set_DocsId))::StringW DocsId;
 
@@ -53,38 +53,38 @@ public:
 
   __declspec(property(get = get_DownloadOnStart, put = set_DownloadOnStart)) bool DownloadOnStart;
 
-  constexpr ::StringW& __get_docsId();
+  constexpr ::StringW& __cordl_internal_get_docsId();
 
-  constexpr ::StringW const& __get_docsId() const;
+  constexpr ::StringW const& __cordl_internal_get_docsId() const;
 
-  constexpr void __set_docsId(::StringW value);
+  constexpr void __cordl_internal_set_docsId(::StringW value);
 
-  constexpr ::StringW& __get_sheetId();
+  constexpr ::StringW& __cordl_internal_get_sheetId();
 
-  constexpr ::StringW const& __get_sheetId() const;
+  constexpr ::StringW const& __cordl_internal_get_sheetId() const;
 
-  constexpr void __set_sheetId(::StringW value);
+  constexpr void __cordl_internal_set_sheetId(::StringW value);
 
-  constexpr ::Polyglot::GoogleDriveDownloadFormat& __get_format();
+  constexpr ::Polyglot::GoogleDriveDownloadFormat& __cordl_internal_get_format();
 
-  constexpr ::Polyglot::GoogleDriveDownloadFormat const& __get_format() const;
+  constexpr ::Polyglot::GoogleDriveDownloadFormat const& __cordl_internal_get_format() const;
 
-  constexpr void __set_format(::Polyglot::GoogleDriveDownloadFormat value);
+  constexpr void __cordl_internal_set_format(::Polyglot::GoogleDriveDownloadFormat value);
 
-  constexpr ::UnityEngine::TextAsset*& __get_textAsset();
+  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_textAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& __get_textAsset() const;
+  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_textAsset() const;
 
-  constexpr void __set_textAsset(::UnityEngine::TextAsset* value);
+  constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset> value);
 
-  constexpr bool& __get_downloadOnStart();
+  constexpr bool& __cordl_internal_get_downloadOnStart();
 
-  constexpr bool const& __get_downloadOnStart() const;
+  constexpr bool const& __cordl_internal_get_downloadOnStart() const;
 
-  constexpr void __set_downloadOnStart(bool value);
+  constexpr void __cordl_internal_set_downloadOnStart(bool value);
 
   /// @brief Method get_TextAsset, addr 0x2804160, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextAsset* get_TextAsset();
+  inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
 
   /// @brief Method set_TextAsset, addr 0x2804168, size 0x8, virtual false, abstract: false, final false
   inline void set_TextAsset(::UnityEngine::TextAsset* value);
@@ -142,7 +142,7 @@ public:
   ::Polyglot::GoogleDriveDownloadFormat ___format;
 
   /// @brief Field textAsset, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::TextAsset* ___textAsset;
+  ::UnityW<::UnityEngine::TextAsset> ___textAsset;
 
   /// @brief Field downloadOnStart, offset: 0x30, size: 0x1, def value: None
   bool ___downloadOnStart;

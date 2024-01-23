@@ -22,47 +22,47 @@ MARK_REF_PTR_T(::System::Net::ReceiveState);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9038))
 // CS Name: ::System.Net::ReceiveState*
 class CORDL_TYPE ReceiveState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Resp, offset 0x10, size 0x8
-  __declspec(property(get = __get_Resp, put = __set_Resp))::System::Net::ResponseDescription* Resp;
+  __declspec(property(get = __cordl_internal_get_Resp, put = __cordl_internal_set_Resp))::System::Net::ResponseDescription* Resp;
 
   /// @brief Field ValidThrough, offset 0x18, size 0x4
-  __declspec(property(get = __get_ValidThrough, put = __set_ValidThrough)) int32_t ValidThrough;
+  __declspec(property(get = __cordl_internal_get_ValidThrough, put = __cordl_internal_set_ValidThrough)) int32_t ValidThrough;
 
   /// @brief Field Buffer, offset 0x20, size 0x8
-  __declspec(property(get = __get_Buffer, put = __set_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
+  __declspec(property(get = __cordl_internal_get_Buffer, put = __cordl_internal_set_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
 
   /// @brief Field Connection, offset 0x28, size 0x8
-  __declspec(property(get = __get_Connection, put = __set_Connection))::System::Net::CommandStream* Connection;
+  __declspec(property(get = __cordl_internal_get_Connection, put = __cordl_internal_set_Connection))::System::Net::CommandStream* Connection;
 
-  constexpr ::System::Net::ResponseDescription*& __get_Resp();
+  constexpr ::System::Net::ResponseDescription*& __cordl_internal_get_Resp();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ResponseDescription*> const& __get_Resp() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ResponseDescription*> const& __cordl_internal_get_Resp() const;
 
-  constexpr void __set_Resp(::System::Net::ResponseDescription* value);
+  constexpr void __cordl_internal_set_Resp(::System::Net::ResponseDescription* value);
 
-  constexpr int32_t& __get_ValidThrough();
+  constexpr int32_t& __cordl_internal_get_ValidThrough();
 
-  constexpr int32_t const& __get_ValidThrough() const;
+  constexpr int32_t const& __cordl_internal_get_ValidThrough() const;
 
-  constexpr void __set_ValidThrough(int32_t value);
+  constexpr void __cordl_internal_set_ValidThrough(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_Buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_Buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Buffer() const;
 
-  constexpr void __set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Net::CommandStream*& __get_Connection();
+  constexpr ::System::Net::CommandStream*& __cordl_internal_get_Connection();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::CommandStream*> const& __get_Connection() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::CommandStream*> const& __cordl_internal_get_Connection() const;
 
-  constexpr void __set_Connection(::System::Net::CommandStream* value);
+  constexpr void __cordl_internal_set_Connection(::System::Net::CommandStream* value);
 
   static inline ::System::Net::ReceiveState* New_ctor(::System::Net::CommandStream* connection);
 

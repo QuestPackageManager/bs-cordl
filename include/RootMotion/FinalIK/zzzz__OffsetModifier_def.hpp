@@ -54,110 +54,110 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12654))
 // CS Name: ::OffsetModifier::OffsetLimits*
 class CORDL_TYPE __OffsetModifier__OffsetLimits : public ::System::Object {
 public:
   // Declarations
   /// @brief Field effector, offset 0x10, size 0x4
-  __declspec(property(get = __get_effector, put = __set_effector))::RootMotion::FinalIK::FullBodyBipedEffector effector;
+  __declspec(property(get = __cordl_internal_get_effector, put = __cordl_internal_set_effector))::RootMotion::FinalIK::FullBodyBipedEffector effector;
 
   /// @brief Field spring, offset 0x14, size 0x4
-  __declspec(property(get = __get_spring, put = __set_spring)) float_t spring;
+  __declspec(property(get = __cordl_internal_get_spring, put = __cordl_internal_set_spring)) float_t spring;
 
   /// @brief Field x, offset 0x18, size 0x1
-  __declspec(property(get = __get_x, put = __set_x)) bool x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) bool x;
 
   /// @brief Field y, offset 0x19, size 0x1
-  __declspec(property(get = __get_y, put = __set_y)) bool y;
+  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) bool y;
 
   /// @brief Field z, offset 0x1a, size 0x1
-  __declspec(property(get = __get_z, put = __set_z)) bool z;
+  __declspec(property(get = __cordl_internal_get_z, put = __cordl_internal_set_z)) bool z;
 
   /// @brief Field minX, offset 0x1c, size 0x4
-  __declspec(property(get = __get_minX, put = __set_minX)) float_t minX;
+  __declspec(property(get = __cordl_internal_get_minX, put = __cordl_internal_set_minX)) float_t minX;
 
   /// @brief Field maxX, offset 0x20, size 0x4
-  __declspec(property(get = __get_maxX, put = __set_maxX)) float_t maxX;
+  __declspec(property(get = __cordl_internal_get_maxX, put = __cordl_internal_set_maxX)) float_t maxX;
 
   /// @brief Field minY, offset 0x24, size 0x4
-  __declspec(property(get = __get_minY, put = __set_minY)) float_t minY;
+  __declspec(property(get = __cordl_internal_get_minY, put = __cordl_internal_set_minY)) float_t minY;
 
   /// @brief Field maxY, offset 0x28, size 0x4
-  __declspec(property(get = __get_maxY, put = __set_maxY)) float_t maxY;
+  __declspec(property(get = __cordl_internal_get_maxY, put = __cordl_internal_set_maxY)) float_t maxY;
 
   /// @brief Field minZ, offset 0x2c, size 0x4
-  __declspec(property(get = __get_minZ, put = __set_minZ)) float_t minZ;
+  __declspec(property(get = __cordl_internal_get_minZ, put = __cordl_internal_set_minZ)) float_t minZ;
 
   /// @brief Field maxZ, offset 0x30, size 0x4
-  __declspec(property(get = __get_maxZ, put = __set_maxZ)) float_t maxZ;
+  __declspec(property(get = __cordl_internal_get_maxZ, put = __cordl_internal_set_maxZ)) float_t maxZ;
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& __get_effector();
+  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& __cordl_internal_get_effector();
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& __get_effector() const;
+  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& __cordl_internal_get_effector() const;
 
-  constexpr void __set_effector(::RootMotion::FinalIK::FullBodyBipedEffector value);
+  constexpr void __cordl_internal_set_effector(::RootMotion::FinalIK::FullBodyBipedEffector value);
 
-  constexpr float_t& __get_spring();
+  constexpr float_t& __cordl_internal_get_spring();
 
-  constexpr float_t const& __get_spring() const;
+  constexpr float_t const& __cordl_internal_get_spring() const;
 
-  constexpr void __set_spring(float_t value);
+  constexpr void __cordl_internal_set_spring(float_t value);
 
-  constexpr bool& __get_x();
+  constexpr bool& __cordl_internal_get_x();
 
-  constexpr bool const& __get_x() const;
+  constexpr bool const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(bool value);
+  constexpr void __cordl_internal_set_x(bool value);
 
-  constexpr bool& __get_y();
+  constexpr bool& __cordl_internal_get_y();
 
-  constexpr bool const& __get_y() const;
+  constexpr bool const& __cordl_internal_get_y() const;
 
-  constexpr void __set_y(bool value);
+  constexpr void __cordl_internal_set_y(bool value);
 
-  constexpr bool& __get_z();
+  constexpr bool& __cordl_internal_get_z();
 
-  constexpr bool const& __get_z() const;
+  constexpr bool const& __cordl_internal_get_z() const;
 
-  constexpr void __set_z(bool value);
+  constexpr void __cordl_internal_set_z(bool value);
 
-  constexpr float_t& __get_minX();
+  constexpr float_t& __cordl_internal_get_minX();
 
-  constexpr float_t const& __get_minX() const;
+  constexpr float_t const& __cordl_internal_get_minX() const;
 
-  constexpr void __set_minX(float_t value);
+  constexpr void __cordl_internal_set_minX(float_t value);
 
-  constexpr float_t& __get_maxX();
+  constexpr float_t& __cordl_internal_get_maxX();
 
-  constexpr float_t const& __get_maxX() const;
+  constexpr float_t const& __cordl_internal_get_maxX() const;
 
-  constexpr void __set_maxX(float_t value);
+  constexpr void __cordl_internal_set_maxX(float_t value);
 
-  constexpr float_t& __get_minY();
+  constexpr float_t& __cordl_internal_get_minY();
 
-  constexpr float_t const& __get_minY() const;
+  constexpr float_t const& __cordl_internal_get_minY() const;
 
-  constexpr void __set_minY(float_t value);
+  constexpr void __cordl_internal_set_minY(float_t value);
 
-  constexpr float_t& __get_maxY();
+  constexpr float_t& __cordl_internal_get_maxY();
 
-  constexpr float_t const& __get_maxY() const;
+  constexpr float_t const& __cordl_internal_get_maxY() const;
 
-  constexpr void __set_maxY(float_t value);
+  constexpr void __cordl_internal_set_maxY(float_t value);
 
-  constexpr float_t& __get_minZ();
+  constexpr float_t& __cordl_internal_get_minZ();
 
-  constexpr float_t const& __get_minZ() const;
+  constexpr float_t const& __cordl_internal_get_minZ() const;
 
-  constexpr void __set_minZ(float_t value);
+  constexpr void __cordl_internal_set_minZ(float_t value);
 
-  constexpr float_t& __get_maxZ();
+  constexpr float_t& __cordl_internal_get_maxZ();
 
-  constexpr float_t const& __get_maxZ() const;
+  constexpr float_t const& __cordl_internal_get_maxZ() const;
 
-  constexpr void __set_maxZ(float_t value);
+  constexpr void __cordl_internal_set_maxZ(float_t value);
 
   /// @brief Method Apply, addr 0x1297d58, size 0x164, virtual false, abstract: false, final false
   inline void Apply(::RootMotion::FinalIK::IKEffector* e, ::UnityEngine::Quaternion rootRotation);
@@ -252,20 +252,20 @@ static_assert(offsetof(::RootMotion::FinalIK::__OffsetModifier__OffsetLimits, __
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12655))
 // CS Name: ::OffsetModifier::<Initiate>d__8*
 class CORDL_TYPE __OffsetModifier___Initiate_d__8 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::RootMotion::FinalIK::OffsetModifier* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::RootMotion::FinalIK::OffsetModifier> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -289,23 +289,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::RootMotion::FinalIK::OffsetModifier*& __get___4__this();
+  constexpr ::UnityW<::RootMotion::FinalIK::OffsetModifier>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::OffsetModifier*> const& __get___4__this() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::OffsetModifier> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::RootMotion::FinalIK::OffsetModifier* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::RootMotion::FinalIK::OffsetModifier> value);
 
   static inline ::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8* New_ctor(int32_t __1__state);
 
@@ -348,7 +348,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::RootMotion::FinalIK::OffsetModifier* _____4__this;
+  ::UnityW<::RootMotion::FinalIK::OffsetModifier> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -366,7 +366,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__OffsetModifier___Initiate_d__8, 
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12656))
 // CS Name: ::RootMotion.FinalIK::OffsetModifier*
 class CORDL_TYPE OffsetModifier : public ::UnityEngine::MonoBehaviour {
@@ -377,33 +377,33 @@ public:
   using OffsetLimits = ::RootMotion::FinalIK::__OffsetModifier__OffsetLimits;
 
   /// @brief Field weight, offset 0x18, size 0x4
-  __declspec(property(get = __get_weight, put = __set_weight)) float_t weight;
+  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
   /// @brief Field ik, offset 0x20, size 0x8
-  __declspec(property(get = __get_ik, put = __set_ik))::RootMotion::FinalIK::FullBodyBipedIK* ik;
+  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> ik;
 
   /// @brief Field lastTime, offset 0x28, size 0x4
-  __declspec(property(get = __get_lastTime, put = __set_lastTime)) float_t lastTime;
+  __declspec(property(get = __cordl_internal_get_lastTime, put = __cordl_internal_set_lastTime)) float_t lastTime;
 
   __declspec(property(get = get_deltaTime)) float_t deltaTime;
 
-  constexpr float_t& __get_weight();
+  constexpr float_t& __cordl_internal_get_weight();
 
-  constexpr float_t const& __get_weight() const;
+  constexpr float_t const& __cordl_internal_get_weight() const;
 
-  constexpr void __set_weight(float_t value);
+  constexpr void __cordl_internal_set_weight(float_t value);
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedIK*& __get_ik();
+  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK>& __cordl_internal_get_ik();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::FullBodyBipedIK*> const& __get_ik() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> const& __cordl_internal_get_ik() const;
 
-  constexpr void __set_ik(::RootMotion::FinalIK::FullBodyBipedIK* value);
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> value);
 
-  constexpr float_t& __get_lastTime();
+  constexpr float_t& __cordl_internal_get_lastTime();
 
-  constexpr float_t const& __get_lastTime() const;
+  constexpr float_t const& __cordl_internal_get_lastTime() const;
 
-  constexpr void __set_lastTime(float_t value);
+  constexpr void __cordl_internal_set_lastTime(float_t value);
 
   /// @brief Method get_deltaTime, addr 0x12946ac, size 0x20, virtual false, abstract: false, final false
   inline float_t get_deltaTime();
@@ -449,7 +449,7 @@ public:
   float_t ___weight;
 
   /// @brief Field ik, offset: 0x20, size: 0x8, def value: None
-  ::RootMotion::FinalIK::FullBodyBipedIK* ___ik;
+  ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> ___ik;
 
   /// @brief Field lastTime, offset: 0x28, size: 0x4, def value: None
   float_t ___lastTime;

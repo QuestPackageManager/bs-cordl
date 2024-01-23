@@ -18,38 +18,38 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14377))
 // CS Name: ::RandomObjectPicker`1<T>*
 class CORDL_TYPE RandomObjectPicker_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _objects, offset 0x10, size 0x8
-  __declspec(property(get = __get__objects, put = __set__objects))::ArrayW<T, ::Array<T>*> _objects;
+  __declspec(property(get = __cordl_internal_get__objects, put = __cordl_internal_set__objects))::ArrayW<T, ::Array<T>*> _objects;
 
   /// @brief Field _lastPickTime, offset 0x18, size 0x4
-  __declspec(property(get = __get__lastPickTime, put = __set__lastPickTime)) float_t _lastPickTime;
+  __declspec(property(get = __cordl_internal_get__lastPickTime, put = __cordl_internal_set__lastPickTime)) float_t _lastPickTime;
 
   /// @brief Field _minimumPickInterval, offset 0x1c, size 0x4
-  __declspec(property(get = __get__minimumPickInterval, put = __set__minimumPickInterval)) float_t _minimumPickInterval;
+  __declspec(property(get = __cordl_internal_get__minimumPickInterval, put = __cordl_internal_set__minimumPickInterval)) float_t _minimumPickInterval;
 
-  constexpr ::ArrayW<T, ::Array<T>*>& __get__objects();
+  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__objects();
 
-  constexpr ::ArrayW<T, ::Array<T>*> const& __get__objects() const;
+  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__objects() const;
 
-  constexpr void __set__objects(::ArrayW<T, ::Array<T>*> value);
+  constexpr void __cordl_internal_set__objects(::ArrayW<T, ::Array<T>*> value);
 
-  constexpr float_t& __get__lastPickTime();
+  constexpr float_t& __cordl_internal_get__lastPickTime();
 
-  constexpr float_t const& __get__lastPickTime() const;
+  constexpr float_t const& __cordl_internal_get__lastPickTime() const;
 
-  constexpr void __set__lastPickTime(float_t value);
+  constexpr void __cordl_internal_set__lastPickTime(float_t value);
 
-  constexpr float_t& __get__minimumPickInterval();
+  constexpr float_t& __cordl_internal_get__minimumPickInterval();
 
-  constexpr float_t const& __get__minimumPickInterval() const;
+  constexpr float_t const& __cordl_internal_get__minimumPickInterval() const;
 
-  constexpr void __set__minimumPickInterval(float_t value);
+  constexpr void __cordl_internal_set__minimumPickInterval(float_t value);
 
   static inline ::GlobalNamespace::RandomObjectPicker_1<T>* New_ctor(T obj, float_t minimumPickInterval);
 

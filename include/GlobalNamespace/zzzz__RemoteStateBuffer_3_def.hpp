@@ -30,81 +30,81 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12985)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12985), inst: 3837 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12985)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12985), inst: 3837 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12987))
 // CS Name: ::RemoteStateBuffer`3<TStateTable,TType,TState>*
 class CORDL_TYPE RemoteStateBuffer_3 : public ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState> {
 public:
   // Declarations
   /// @brief Field _receivedStates, offset 0x30, size 0x8
-  __declspec(property(get = __get__receivedStates,
-                      put = __set__receivedStates))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
-                                                            ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _receivedStates;
+  __declspec(property(get = __cordl_internal_get__receivedStates,
+                      put = __cordl_internal_set__receivedStates))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
+                                                                           ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _receivedStates;
 
   /// @brief Field _receivedDeltas, offset 0x38, size 0x8
-  __declspec(property(get = __get__receivedDeltas,
-                      put = __set__receivedDeltas))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
-                                                            ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _receivedDeltas;
+  __declspec(property(get = __cordl_internal_get__receivedDeltas,
+                      put = __cordl_internal_set__receivedDeltas))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
+                                                                           ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _receivedDeltas;
 
   /// @brief Field _receivedStateIndex, offset 0x40, size 0x4
-  __declspec(property(get = __get__receivedStateIndex, put = __set__receivedStateIndex)) int32_t _receivedStateIndex;
+  __declspec(property(get = __cordl_internal_get__receivedStateIndex, put = __cordl_internal_set__receivedStateIndex)) int32_t _receivedStateIndex;
 
   /// @brief Field _receivedStateCount, offset 0x44, size 0x4
-  __declspec(property(get = __get__receivedStateCount, put = __set__receivedStateCount)) int32_t _receivedStateCount;
+  __declspec(property(get = __cordl_internal_get__receivedStateCount, put = __cordl_internal_set__receivedStateCount)) int32_t _receivedStateCount;
 
   /// @brief Field _receivedDeltaIndex, offset 0x48, size 0x4
-  __declspec(property(get = __get__receivedDeltaIndex, put = __set__receivedDeltaIndex)) int32_t _receivedDeltaIndex;
+  __declspec(property(get = __cordl_internal_get__receivedDeltaIndex, put = __cordl_internal_set__receivedDeltaIndex)) int32_t _receivedDeltaIndex;
 
   /// @brief Field _receivedDeltaCount, offset 0x4c, size 0x4
-  __declspec(property(get = __get__receivedDeltaCount, put = __set__receivedDeltaCount)) int32_t _receivedDeltaCount;
+  __declspec(property(get = __cordl_internal_get__receivedDeltaCount, put = __cordl_internal_set__receivedDeltaCount)) int32_t _receivedDeltaCount;
 
   constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                      ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>&
-  __get__receivedStates();
+  __cordl_internal_get__receivedStates();
 
   constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                      ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> const&
-  __get__receivedStates() const;
+  __cordl_internal_get__receivedStates() const;
 
-  constexpr void __set__receivedStates(
+  constexpr void __cordl_internal_set__receivedStates(
       ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
           value);
 
   constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                      ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>&
-  __get__receivedDeltas();
+  __cordl_internal_get__receivedDeltas();
 
   constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                      ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> const&
-  __get__receivedDeltas() const;
+  __cordl_internal_get__receivedDeltas() const;
 
-  constexpr void __set__receivedDeltas(
+  constexpr void __cordl_internal_set__receivedDeltas(
       ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
           value);
 
-  constexpr int32_t& __get__receivedStateIndex();
+  constexpr int32_t& __cordl_internal_get__receivedStateIndex();
 
-  constexpr int32_t const& __get__receivedStateIndex() const;
+  constexpr int32_t const& __cordl_internal_get__receivedStateIndex() const;
 
-  constexpr void __set__receivedStateIndex(int32_t value);
+  constexpr void __cordl_internal_set__receivedStateIndex(int32_t value);
 
-  constexpr int32_t& __get__receivedStateCount();
+  constexpr int32_t& __cordl_internal_get__receivedStateCount();
 
-  constexpr int32_t const& __get__receivedStateCount() const;
+  constexpr int32_t const& __cordl_internal_get__receivedStateCount() const;
 
-  constexpr void __set__receivedStateCount(int32_t value);
+  constexpr void __cordl_internal_set__receivedStateCount(int32_t value);
 
-  constexpr int32_t& __get__receivedDeltaIndex();
+  constexpr int32_t& __cordl_internal_get__receivedDeltaIndex();
 
-  constexpr int32_t const& __get__receivedDeltaIndex() const;
+  constexpr int32_t const& __cordl_internal_get__receivedDeltaIndex() const;
 
-  constexpr void __set__receivedDeltaIndex(int32_t value);
+  constexpr void __cordl_internal_set__receivedDeltaIndex(int32_t value);
 
-  constexpr int32_t& __get__receivedDeltaCount();
+  constexpr int32_t& __cordl_internal_get__receivedDeltaCount();
 
-  constexpr int32_t const& __get__receivedDeltaCount() const;
+  constexpr int32_t const& __cordl_internal_get__receivedDeltaCount() const;
 
-  constexpr void __set__receivedDeltaCount(int32_t value);
+  constexpr void __cordl_internal_set__receivedDeltaCount(int32_t value);
 
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Clear();

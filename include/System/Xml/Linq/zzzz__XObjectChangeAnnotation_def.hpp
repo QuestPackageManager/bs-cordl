@@ -20,29 +20,29 @@ MARK_REF_PTR_T(::System::Xml::Linq::XObjectChangeAnnotation);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15455))
 // CS Name: ::System.Xml.Linq::XObjectChangeAnnotation*
 class CORDL_TYPE XObjectChangeAnnotation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field changing, offset 0x10, size 0x8
-  __declspec(property(get = __get_changing, put = __set_changing))::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>* changing;
+  __declspec(property(get = __cordl_internal_get_changing, put = __cordl_internal_set_changing))::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>* changing;
 
   /// @brief Field changed, offset 0x18, size 0x8
-  __declspec(property(get = __get_changed, put = __set_changed))::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>* changed;
+  __declspec(property(get = __cordl_internal_get_changed, put = __cordl_internal_set_changed))::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>* changed;
 
-  constexpr ::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>*& __get_changing();
+  constexpr ::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>*& __cordl_internal_get_changing();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>*> const& __get_changing() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>*> const& __cordl_internal_get_changing() const;
 
-  constexpr void __set_changing(::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>* value);
+  constexpr void __cordl_internal_set_changing(::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>* value);
 
-  constexpr ::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>*& __get_changed();
+  constexpr ::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>*& __cordl_internal_get_changed();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>*> const& __get_changed() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>*> const& __cordl_internal_get_changed() const;
 
-  constexpr void __set_changed(::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>* value);
+  constexpr void __cordl_internal_set_changed(::System::EventHandler_1<::System::Xml::Linq::XObjectChangeEventArgs*>* value);
 
   // Ctor Parameters [CppParam { name: "", ty: "XObjectChangeAnnotation", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

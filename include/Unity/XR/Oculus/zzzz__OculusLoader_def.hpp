@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::Unity::XR::Oculus::OculusLoader);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15132))
 // CS Name: ::OculusLoader::DeviceSupportedResult
 struct CORDL_TYPE __OculusLoader__DeviceSupportedResult {
@@ -90,7 +90,7 @@ static_assert(offsetof(::Unity::XR::Oculus::__OculusLoader__DeviceSupportedResul
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16036))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16036))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15133))
 // CS Name: ::Unity.XR.Oculus::OculusLoader*
 class CORDL_TYPE OculusLoader : public ::UnityEngine::XR::Management::XRLoaderHelper {
@@ -146,7 +146,7 @@ public:
   static inline void RuntimeLoadOVRPlugin();
 
   /// @brief Method GetSettings, addr 0x2c78878, size 0x48, virtual false, abstract: false, final false
-  inline ::Unity::XR::Oculus::OculusSettings* GetSettings();
+  inline ::UnityW<::Unity::XR::Oculus::OculusSettings> GetSettings();
 
   /// @brief Method CheckUnityVersionCompatibility, addr 0x2c78110, size 0x2dc, virtual false, abstract: false, final false
   inline bool CheckUnityVersionCompatibility();

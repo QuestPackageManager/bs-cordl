@@ -35,7 +35,7 @@ MARK_VAL_T(::System::Globalization::__CultureData__NumberFormatEntryManaged);
 // SizeInfo { instance_size: 92, native_size: 92, calculated_instance_size: 92, calculated_native_size: 108, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3712))
 // CS Name: ::CultureData::NumberFormatEntryManaged
 struct CORDL_TYPE __CultureData__NumberFormatEntryManaged {
@@ -192,7 +192,7 @@ static_assert(offsetof(::System::Globalization::__CultureData__NumberFormatEntry
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3713))
 // CS Name: ::System.Globalization::CultureData*
 class CORDL_TYPE CultureData : public ::System::Object {
@@ -201,64 +201,65 @@ public:
   using NumberFormatEntryManaged = ::System::Globalization::__CultureData__NumberFormatEntryManaged;
 
   /// @brief Field sAM1159, offset 0x10, size 0x8
-  __declspec(property(get = __get_sAM1159, put = __set_sAM1159))::StringW sAM1159;
+  __declspec(property(get = __cordl_internal_get_sAM1159, put = __cordl_internal_set_sAM1159))::StringW sAM1159;
 
   /// @brief Field sPM2359, offset 0x18, size 0x8
-  __declspec(property(get = __get_sPM2359, put = __set_sPM2359))::StringW sPM2359;
+  __declspec(property(get = __cordl_internal_get_sPM2359, put = __cordl_internal_set_sPM2359))::StringW sPM2359;
 
   /// @brief Field sTimeSeparator, offset 0x20, size 0x8
-  __declspec(property(get = __get_sTimeSeparator, put = __set_sTimeSeparator))::StringW sTimeSeparator;
+  __declspec(property(get = __cordl_internal_get_sTimeSeparator, put = __cordl_internal_set_sTimeSeparator))::StringW sTimeSeparator;
 
   /// @brief Field saLongTimes, offset 0x28, size 0x8
-  __declspec(property(get = __get_saLongTimes, put = __set_saLongTimes))::ArrayW<::StringW, ::Array<::StringW>*> saLongTimes;
+  __declspec(property(get = __cordl_internal_get_saLongTimes, put = __cordl_internal_set_saLongTimes))::ArrayW<::StringW, ::Array<::StringW>*> saLongTimes;
 
   /// @brief Field saShortTimes, offset 0x30, size 0x8
-  __declspec(property(get = __get_saShortTimes, put = __set_saShortTimes))::ArrayW<::StringW, ::Array<::StringW>*> saShortTimes;
+  __declspec(property(get = __cordl_internal_get_saShortTimes, put = __cordl_internal_set_saShortTimes))::ArrayW<::StringW, ::Array<::StringW>*> saShortTimes;
 
   /// @brief Field iFirstDayOfWeek, offset 0x38, size 0x4
-  __declspec(property(get = __get_iFirstDayOfWeek, put = __set_iFirstDayOfWeek)) int32_t iFirstDayOfWeek;
+  __declspec(property(get = __cordl_internal_get_iFirstDayOfWeek, put = __cordl_internal_set_iFirstDayOfWeek)) int32_t iFirstDayOfWeek;
 
   /// @brief Field iFirstWeekOfYear, offset 0x3c, size 0x4
-  __declspec(property(get = __get_iFirstWeekOfYear, put = __set_iFirstWeekOfYear)) int32_t iFirstWeekOfYear;
+  __declspec(property(get = __cordl_internal_get_iFirstWeekOfYear, put = __cordl_internal_set_iFirstWeekOfYear)) int32_t iFirstWeekOfYear;
 
   /// @brief Field waCalendars, offset 0x40, size 0x8
-  __declspec(property(get = __get_waCalendars, put = __set_waCalendars))::ArrayW<int32_t, ::Array<int32_t>*> waCalendars;
+  __declspec(property(get = __cordl_internal_get_waCalendars, put = __cordl_internal_set_waCalendars))::ArrayW<int32_t, ::Array<int32_t>*> waCalendars;
 
   /// @brief Field calendars, offset 0x48, size 0x8
-  __declspec(property(get = __get_calendars, put = __set_calendars))::ArrayW<::System::Globalization::CalendarData*, ::Array<::System::Globalization::CalendarData*>*> calendars;
+  __declspec(property(get = __cordl_internal_get_calendars,
+                      put = __cordl_internal_set_calendars))::ArrayW<::System::Globalization::CalendarData*, ::Array<::System::Globalization::CalendarData*>*> calendars;
 
   /// @brief Field sISO639Language, offset 0x50, size 0x8
-  __declspec(property(get = __get_sISO639Language, put = __set_sISO639Language))::StringW sISO639Language;
+  __declspec(property(get = __cordl_internal_get_sISO639Language, put = __cordl_internal_set_sISO639Language))::StringW sISO639Language;
 
   /// @brief Field sRealName, offset 0x58, size 0x8
-  __declspec(property(get = __get_sRealName, put = __set_sRealName))::StringW sRealName;
+  __declspec(property(get = __cordl_internal_get_sRealName, put = __cordl_internal_set_sRealName))::StringW sRealName;
 
   /// @brief Field bUseOverrides, offset 0x60, size 0x1
-  __declspec(property(get = __get_bUseOverrides, put = __set_bUseOverrides)) bool bUseOverrides;
+  __declspec(property(get = __cordl_internal_get_bUseOverrides, put = __cordl_internal_set_bUseOverrides)) bool bUseOverrides;
 
   /// @brief Field calendarId, offset 0x64, size 0x4
-  __declspec(property(get = __get_calendarId, put = __set_calendarId)) int32_t calendarId;
+  __declspec(property(get = __cordl_internal_get_calendarId, put = __cordl_internal_set_calendarId)) int32_t calendarId;
 
   /// @brief Field numberIndex, offset 0x68, size 0x4
-  __declspec(property(get = __get_numberIndex, put = __set_numberIndex)) int32_t numberIndex;
+  __declspec(property(get = __cordl_internal_get_numberIndex, put = __cordl_internal_set_numberIndex)) int32_t numberIndex;
 
   /// @brief Field iDefaultAnsiCodePage, offset 0x6c, size 0x4
-  __declspec(property(get = __get_iDefaultAnsiCodePage, put = __set_iDefaultAnsiCodePage)) int32_t iDefaultAnsiCodePage;
+  __declspec(property(get = __cordl_internal_get_iDefaultAnsiCodePage, put = __cordl_internal_set_iDefaultAnsiCodePage)) int32_t iDefaultAnsiCodePage;
 
   /// @brief Field iDefaultOemCodePage, offset 0x70, size 0x4
-  __declspec(property(get = __get_iDefaultOemCodePage, put = __set_iDefaultOemCodePage)) int32_t iDefaultOemCodePage;
+  __declspec(property(get = __cordl_internal_get_iDefaultOemCodePage, put = __cordl_internal_set_iDefaultOemCodePage)) int32_t iDefaultOemCodePage;
 
   /// @brief Field iDefaultMacCodePage, offset 0x74, size 0x4
-  __declspec(property(get = __get_iDefaultMacCodePage, put = __set_iDefaultMacCodePage)) int32_t iDefaultMacCodePage;
+  __declspec(property(get = __cordl_internal_get_iDefaultMacCodePage, put = __cordl_internal_set_iDefaultMacCodePage)) int32_t iDefaultMacCodePage;
 
   /// @brief Field iDefaultEbcdicCodePage, offset 0x78, size 0x4
-  __declspec(property(get = __get_iDefaultEbcdicCodePage, put = __set_iDefaultEbcdicCodePage)) int32_t iDefaultEbcdicCodePage;
+  __declspec(property(get = __cordl_internal_get_iDefaultEbcdicCodePage, put = __cordl_internal_set_iDefaultEbcdicCodePage)) int32_t iDefaultEbcdicCodePage;
 
   /// @brief Field isRightToLeft, offset 0x7c, size 0x1
-  __declspec(property(get = __get_isRightToLeft, put = __set_isRightToLeft)) bool isRightToLeft;
+  __declspec(property(get = __cordl_internal_get_isRightToLeft, put = __cordl_internal_set_isRightToLeft)) bool isRightToLeft;
 
   /// @brief Field sListSeparator, offset 0x80, size 0x8
-  __declspec(property(get = __get_sListSeparator, put = __set_sListSeparator))::StringW sListSeparator;
+  __declspec(property(get = __cordl_internal_get_sListSeparator, put = __cordl_internal_set_sListSeparator))::StringW sListSeparator;
 
   /// @brief Field s_Invariant, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Invariant, put = setStaticF_s_Invariant))::System::Globalization::CultureData* s_Invariant;
@@ -291,125 +292,125 @@ public:
 
   __declspec(property(get = get_UseUserOverride)) bool UseUserOverride;
 
-  constexpr ::StringW& __get_sAM1159();
+  constexpr ::StringW& __cordl_internal_get_sAM1159();
 
-  constexpr ::StringW const& __get_sAM1159() const;
+  constexpr ::StringW const& __cordl_internal_get_sAM1159() const;
 
-  constexpr void __set_sAM1159(::StringW value);
+  constexpr void __cordl_internal_set_sAM1159(::StringW value);
 
-  constexpr ::StringW& __get_sPM2359();
+  constexpr ::StringW& __cordl_internal_get_sPM2359();
 
-  constexpr ::StringW const& __get_sPM2359() const;
+  constexpr ::StringW const& __cordl_internal_get_sPM2359() const;
 
-  constexpr void __set_sPM2359(::StringW value);
+  constexpr void __cordl_internal_set_sPM2359(::StringW value);
 
-  constexpr ::StringW& __get_sTimeSeparator();
+  constexpr ::StringW& __cordl_internal_get_sTimeSeparator();
 
-  constexpr ::StringW const& __get_sTimeSeparator() const;
+  constexpr ::StringW const& __cordl_internal_get_sTimeSeparator() const;
 
-  constexpr void __set_sTimeSeparator(::StringW value);
+  constexpr void __cordl_internal_set_sTimeSeparator(::StringW value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_saLongTimes();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_saLongTimes();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_saLongTimes() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_saLongTimes() const;
 
-  constexpr void __set_saLongTimes(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_saLongTimes(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_saShortTimes();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_saShortTimes();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_saShortTimes() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_saShortTimes() const;
 
-  constexpr void __set_saShortTimes(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_saShortTimes(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr int32_t& __get_iFirstDayOfWeek();
+  constexpr int32_t& __cordl_internal_get_iFirstDayOfWeek();
 
-  constexpr int32_t const& __get_iFirstDayOfWeek() const;
+  constexpr int32_t const& __cordl_internal_get_iFirstDayOfWeek() const;
 
-  constexpr void __set_iFirstDayOfWeek(int32_t value);
+  constexpr void __cordl_internal_set_iFirstDayOfWeek(int32_t value);
 
-  constexpr int32_t& __get_iFirstWeekOfYear();
+  constexpr int32_t& __cordl_internal_get_iFirstWeekOfYear();
 
-  constexpr int32_t const& __get_iFirstWeekOfYear() const;
+  constexpr int32_t const& __cordl_internal_get_iFirstWeekOfYear() const;
 
-  constexpr void __set_iFirstWeekOfYear(int32_t value);
+  constexpr void __cordl_internal_set_iFirstWeekOfYear(int32_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_waCalendars();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_waCalendars();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_waCalendars() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_waCalendars() const;
 
-  constexpr void __set_waCalendars(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_waCalendars(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<::System::Globalization::CalendarData*, ::Array<::System::Globalization::CalendarData*>*>& __get_calendars();
+  constexpr ::ArrayW<::System::Globalization::CalendarData*, ::Array<::System::Globalization::CalendarData*>*>& __cordl_internal_get_calendars();
 
-  constexpr ::ArrayW<::System::Globalization::CalendarData*, ::Array<::System::Globalization::CalendarData*>*> const& __get_calendars() const;
+  constexpr ::ArrayW<::System::Globalization::CalendarData*, ::Array<::System::Globalization::CalendarData*>*> const& __cordl_internal_get_calendars() const;
 
-  constexpr void __set_calendars(::ArrayW<::System::Globalization::CalendarData*, ::Array<::System::Globalization::CalendarData*>*> value);
+  constexpr void __cordl_internal_set_calendars(::ArrayW<::System::Globalization::CalendarData*, ::Array<::System::Globalization::CalendarData*>*> value);
 
-  constexpr ::StringW& __get_sISO639Language();
+  constexpr ::StringW& __cordl_internal_get_sISO639Language();
 
-  constexpr ::StringW const& __get_sISO639Language() const;
+  constexpr ::StringW const& __cordl_internal_get_sISO639Language() const;
 
-  constexpr void __set_sISO639Language(::StringW value);
+  constexpr void __cordl_internal_set_sISO639Language(::StringW value);
 
-  constexpr ::StringW& __get_sRealName();
+  constexpr ::StringW& __cordl_internal_get_sRealName();
 
-  constexpr ::StringW const& __get_sRealName() const;
+  constexpr ::StringW const& __cordl_internal_get_sRealName() const;
 
-  constexpr void __set_sRealName(::StringW value);
+  constexpr void __cordl_internal_set_sRealName(::StringW value);
 
-  constexpr bool& __get_bUseOverrides();
+  constexpr bool& __cordl_internal_get_bUseOverrides();
 
-  constexpr bool const& __get_bUseOverrides() const;
+  constexpr bool const& __cordl_internal_get_bUseOverrides() const;
 
-  constexpr void __set_bUseOverrides(bool value);
+  constexpr void __cordl_internal_set_bUseOverrides(bool value);
 
-  constexpr int32_t& __get_calendarId();
+  constexpr int32_t& __cordl_internal_get_calendarId();
 
-  constexpr int32_t const& __get_calendarId() const;
+  constexpr int32_t const& __cordl_internal_get_calendarId() const;
 
-  constexpr void __set_calendarId(int32_t value);
+  constexpr void __cordl_internal_set_calendarId(int32_t value);
 
-  constexpr int32_t& __get_numberIndex();
+  constexpr int32_t& __cordl_internal_get_numberIndex();
 
-  constexpr int32_t const& __get_numberIndex() const;
+  constexpr int32_t const& __cordl_internal_get_numberIndex() const;
 
-  constexpr void __set_numberIndex(int32_t value);
+  constexpr void __cordl_internal_set_numberIndex(int32_t value);
 
-  constexpr int32_t& __get_iDefaultAnsiCodePage();
+  constexpr int32_t& __cordl_internal_get_iDefaultAnsiCodePage();
 
-  constexpr int32_t const& __get_iDefaultAnsiCodePage() const;
+  constexpr int32_t const& __cordl_internal_get_iDefaultAnsiCodePage() const;
 
-  constexpr void __set_iDefaultAnsiCodePage(int32_t value);
+  constexpr void __cordl_internal_set_iDefaultAnsiCodePage(int32_t value);
 
-  constexpr int32_t& __get_iDefaultOemCodePage();
+  constexpr int32_t& __cordl_internal_get_iDefaultOemCodePage();
 
-  constexpr int32_t const& __get_iDefaultOemCodePage() const;
+  constexpr int32_t const& __cordl_internal_get_iDefaultOemCodePage() const;
 
-  constexpr void __set_iDefaultOemCodePage(int32_t value);
+  constexpr void __cordl_internal_set_iDefaultOemCodePage(int32_t value);
 
-  constexpr int32_t& __get_iDefaultMacCodePage();
+  constexpr int32_t& __cordl_internal_get_iDefaultMacCodePage();
 
-  constexpr int32_t const& __get_iDefaultMacCodePage() const;
+  constexpr int32_t const& __cordl_internal_get_iDefaultMacCodePage() const;
 
-  constexpr void __set_iDefaultMacCodePage(int32_t value);
+  constexpr void __cordl_internal_set_iDefaultMacCodePage(int32_t value);
 
-  constexpr int32_t& __get_iDefaultEbcdicCodePage();
+  constexpr int32_t& __cordl_internal_get_iDefaultEbcdicCodePage();
 
-  constexpr int32_t const& __get_iDefaultEbcdicCodePage() const;
+  constexpr int32_t const& __cordl_internal_get_iDefaultEbcdicCodePage() const;
 
-  constexpr void __set_iDefaultEbcdicCodePage(int32_t value);
+  constexpr void __cordl_internal_set_iDefaultEbcdicCodePage(int32_t value);
 
-  constexpr bool& __get_isRightToLeft();
+  constexpr bool& __cordl_internal_get_isRightToLeft();
 
-  constexpr bool const& __get_isRightToLeft() const;
+  constexpr bool const& __cordl_internal_get_isRightToLeft() const;
 
-  constexpr void __set_isRightToLeft(bool value);
+  constexpr void __cordl_internal_set_isRightToLeft(bool value);
 
-  constexpr ::StringW& __get_sListSeparator();
+  constexpr ::StringW& __cordl_internal_get_sListSeparator();
 
-  constexpr ::StringW const& __get_sListSeparator() const;
+  constexpr ::StringW const& __cordl_internal_get_sListSeparator() const;
 
-  constexpr void __set_sListSeparator(::StringW value);
+  constexpr void __cordl_internal_set_sListSeparator(::StringW value);
 
   static inline void setStaticF_s_Invariant(::System::Globalization::CultureData* value);
 

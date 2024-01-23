@@ -77,32 +77,32 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5209))
 // CS Name: ::MultiplayerIntroCountdown::<CountdownRoutine>d__23*
 class CORDL_TYPE __MultiplayerIntroCountdown___CountdownRoutine_d__23 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MultiplayerIntroCountdown* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> __4__this;
 
   /// @brief Field delay, offset 0x28, size 0x4
-  __declspec(property(get = __get_delay, put = __set_delay)) float_t delay;
+  __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
 
   /// @brief Field seconds, offset 0x2c, size 0x4
-  __declspec(property(get = __get_seconds, put = __set_seconds)) float_t seconds;
+  __declspec(property(get = __cordl_internal_get_seconds, put = __cordl_internal_set_seconds)) float_t seconds;
 
   /// @brief Field durationMultiplier, offset 0x30, size 0x4
-  __declspec(property(get = __get_durationMultiplier, put = __set_durationMultiplier)) float_t durationMultiplier;
+  __declspec(property(get = __cordl_internal_get_durationMultiplier, put = __cordl_internal_set_durationMultiplier)) float_t durationMultiplier;
 
   /// @brief Field <soundDelayAfterText>5__2, offset 0x34, size 0x4
-  __declspec(property(get = __get__soundDelayAfterText_5__2, put = __set__soundDelayAfterText_5__2)) float_t _soundDelayAfterText_5__2;
+  __declspec(property(get = __cordl_internal_get__soundDelayAfterText_5__2, put = __cordl_internal_set__soundDelayAfterText_5__2)) float_t _soundDelayAfterText_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -126,47 +126,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::MultiplayerIntroCountdown*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdown*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MultiplayerIntroCountdown* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> value);
 
-  constexpr float_t& __get_delay();
+  constexpr float_t& __cordl_internal_get_delay();
 
-  constexpr float_t const& __get_delay() const;
+  constexpr float_t const& __cordl_internal_get_delay() const;
 
-  constexpr void __set_delay(float_t value);
+  constexpr void __cordl_internal_set_delay(float_t value);
 
-  constexpr float_t& __get_seconds();
+  constexpr float_t& __cordl_internal_get_seconds();
 
-  constexpr float_t const& __get_seconds() const;
+  constexpr float_t const& __cordl_internal_get_seconds() const;
 
-  constexpr void __set_seconds(float_t value);
+  constexpr void __cordl_internal_set_seconds(float_t value);
 
-  constexpr float_t& __get_durationMultiplier();
+  constexpr float_t& __cordl_internal_get_durationMultiplier();
 
-  constexpr float_t const& __get_durationMultiplier() const;
+  constexpr float_t const& __cordl_internal_get_durationMultiplier() const;
 
-  constexpr void __set_durationMultiplier(float_t value);
+  constexpr void __cordl_internal_set_durationMultiplier(float_t value);
 
-  constexpr float_t& __get__soundDelayAfterText_5__2();
+  constexpr float_t& __cordl_internal_get__soundDelayAfterText_5__2();
 
-  constexpr float_t const& __get__soundDelayAfterText_5__2() const;
+  constexpr float_t const& __cordl_internal_get__soundDelayAfterText_5__2() const;
 
-  constexpr void __set__soundDelayAfterText_5__2(float_t value);
+  constexpr void __cordl_internal_set__soundDelayAfterText_5__2(float_t value);
 
   static inline ::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23* New_ctor(int32_t __1__state);
 
@@ -209,7 +209,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerIntroCountdown* _____4__this;
+  ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> _____4__this;
 
   /// @brief Field delay, offset: 0x28, size: 0x4, def value: None
   float_t ___delay;
@@ -247,26 +247,26 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___Countdow
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5210))
 // CS Name: ::MultiplayerIntroCountdown::<PlayDelayed>d__24*
 class CORDL_TYPE __MultiplayerIntroCountdown___PlayDelayed_d__24 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field delay, offset 0x20, size 0x4
-  __declspec(property(get = __get_delay, put = __set_delay)) float_t delay;
+  __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MultiplayerIntroCountdown* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> __4__this;
 
   /// @brief Field audioClip, offset 0x30, size 0x8
-  __declspec(property(get = __get_audioClip, put = __set_audioClip))::UnityEngine::AudioClip* audioClip;
+  __declspec(property(get = __cordl_internal_get_audioClip, put = __cordl_internal_set_audioClip))::UnityW<::UnityEngine::AudioClip> audioClip;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -290,35 +290,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr float_t& __get_delay();
+  constexpr float_t& __cordl_internal_get_delay();
 
-  constexpr float_t const& __get_delay() const;
+  constexpr float_t const& __cordl_internal_get_delay() const;
 
-  constexpr void __set_delay(float_t value);
+  constexpr void __cordl_internal_set_delay(float_t value);
 
-  constexpr ::GlobalNamespace::MultiplayerIntroCountdown*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdown*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MultiplayerIntroCountdown* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> value);
 
-  constexpr ::UnityEngine::AudioClip*& __get_audioClip();
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get_audioClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& __get_audioClip() const;
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get_audioClip() const;
 
-  constexpr void __set_audioClip(::UnityEngine::AudioClip* value);
+  constexpr void __cordl_internal_set_audioClip(::UnityW<::UnityEngine::AudioClip> value);
 
   static inline ::GlobalNamespace::__MultiplayerIntroCountdown___PlayDelayed_d__24* New_ctor(int32_t __1__state);
 
@@ -364,10 +364,10 @@ public:
   float_t ___delay;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerIntroCountdown* _____4__this;
+  ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> _____4__this;
 
   /// @brief Field audioClip, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::AudioClip* ___audioClip;
+  ::UnityW<::UnityEngine::AudioClip> ___audioClip;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -389,29 +389,29 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___PlayDela
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5211))
 // CS Name: ::MultiplayerIntroCountdown::<>c__DisplayClass25_0*
 class CORDL_TYPE __MultiplayerIntroCountdown____c__DisplayClass25_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field textController, offset 0x10, size 0x8
-  __declspec(property(get = __get_textController, put = __set_textController))::GlobalNamespace::MultiplayerIntroCountdownTextController* textController;
+  __declspec(property(get = __cordl_internal_get_textController, put = __cordl_internal_set_textController))::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> textController;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MultiplayerIntroCountdown* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> __4__this;
 
-  constexpr ::GlobalNamespace::MultiplayerIntroCountdownTextController*& __get_textController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController>& __cordl_internal_get_textController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdownTextController*> const& __get_textController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> const& __cordl_internal_get_textController() const;
 
-  constexpr void __set_textController(::GlobalNamespace::MultiplayerIntroCountdownTextController* value);
+  constexpr void __cordl_internal_set_textController(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value);
 
-  constexpr ::GlobalNamespace::MultiplayerIntroCountdown*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdown*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MultiplayerIntroCountdown* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> value);
 
   static inline ::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* New_ctor();
 
@@ -448,10 +448,10 @@ protected:
 
 public:
   /// @brief Field textController, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerIntroCountdownTextController* ___textController;
+  ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> ___textController;
 
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerIntroCountdown* _____4__this;
+  ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -467,32 +467,32 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown____c__Disp
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5212))
 // CS Name: ::MultiplayerIntroCountdown::<PhaseRoutine>d__25*
 class CORDL_TYPE __MultiplayerIntroCountdown___PhaseRoutine_d__25 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MultiplayerIntroCountdown* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> __4__this;
 
   /// @brief Field text, offset 0x28, size 0x8
-  __declspec(property(get = __get_text, put = __set_text))::StringW text;
+  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::StringW text;
 
   /// @brief Field appearDuration, offset 0x30, size 0x4
-  __declspec(property(get = __get_appearDuration, put = __set_appearDuration)) float_t appearDuration;
+  __declspec(property(get = __cordl_internal_get_appearDuration, put = __cordl_internal_set_appearDuration)) float_t appearDuration;
 
   /// @brief Field disappearDuration, offset 0x34, size 0x4
-  __declspec(property(get = __get_disappearDuration, put = __set_disappearDuration)) float_t disappearDuration;
+  __declspec(property(get = __cordl_internal_get_disappearDuration, put = __cordl_internal_set_disappearDuration)) float_t disappearDuration;
 
   /// @brief Field <>8__1, offset 0x38, size 0x8
-  __declspec(property(get = __get___8__1, put = __set___8__1))::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* __8__1;
+  __declspec(property(get = __cordl_internal_get___8__1, put = __cordl_internal_set___8__1))::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* __8__1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -516,47 +516,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::MultiplayerIntroCountdown*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdown*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MultiplayerIntroCountdown* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> value);
 
-  constexpr ::StringW& __get_text();
+  constexpr ::StringW& __cordl_internal_get_text();
 
-  constexpr ::StringW const& __get_text() const;
+  constexpr ::StringW const& __cordl_internal_get_text() const;
 
-  constexpr void __set_text(::StringW value);
+  constexpr void __cordl_internal_set_text(::StringW value);
 
-  constexpr float_t& __get_appearDuration();
+  constexpr float_t& __cordl_internal_get_appearDuration();
 
-  constexpr float_t const& __get_appearDuration() const;
+  constexpr float_t const& __cordl_internal_get_appearDuration() const;
 
-  constexpr void __set_appearDuration(float_t value);
+  constexpr void __cordl_internal_set_appearDuration(float_t value);
 
-  constexpr float_t& __get_disappearDuration();
+  constexpr float_t& __cordl_internal_get_disappearDuration();
 
-  constexpr float_t const& __get_disappearDuration() const;
+  constexpr float_t const& __cordl_internal_get_disappearDuration() const;
 
-  constexpr void __set_disappearDuration(float_t value);
+  constexpr void __cordl_internal_set_disappearDuration(float_t value);
 
-  constexpr ::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*& __get___8__1();
+  constexpr ::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*& __cordl_internal_get___8__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*> const& __get___8__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0*> const& __cordl_internal_get___8__1() const;
 
-  constexpr void __set___8__1(::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* value);
+  constexpr void __cordl_internal_set___8__1(::GlobalNamespace::__MultiplayerIntroCountdown____c__DisplayClass25_0* value);
 
   static inline ::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRoutine_d__25* New_ctor(int32_t __1__state);
 
@@ -599,7 +599,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerIntroCountdown* _____4__this;
+  ::UnityW<::GlobalNamespace::MultiplayerIntroCountdown> _____4__this;
 
   /// @brief Field text, offset: 0x28, size: 0x8, def value: None
   ::StringW ___text;
@@ -637,7 +637,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerIntroCountdown___PhaseRou
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5213))
 // CS Name: ::MultiplayerIntroCountdown*
 class CORDL_TYPE MultiplayerIntroCountdown : public ::UnityEngine::MonoBehaviour {
@@ -652,169 +652,171 @@ public:
   using _CountdownRoutine_d__23 = ::GlobalNamespace::__MultiplayerIntroCountdown___CountdownRoutine_d__23;
 
   /// @brief Field _textAppearDuration, offset 0x18, size 0x4
-  __declspec(property(get = __get__textAppearDuration, put = __set__textAppearDuration)) float_t _textAppearDuration;
+  __declspec(property(get = __cordl_internal_get__textAppearDuration, put = __cordl_internal_set__textAppearDuration)) float_t _textAppearDuration;
 
   /// @brief Field _textDisappearDuration, offset 0x1c, size 0x4
-  __declspec(property(get = __get__textDisappearDuration, put = __set__textDisappearDuration)) float_t _textDisappearDuration;
+  __declspec(property(get = __cordl_internal_get__textDisappearDuration, put = __cordl_internal_set__textDisappearDuration)) float_t _textDisappearDuration;
 
   /// @brief Field _goDisappearDuration, offset 0x20, size 0x4
-  __declspec(property(get = __get__goDisappearDuration, put = __set__goDisappearDuration)) float_t _goDisappearDuration;
+  __declspec(property(get = __cordl_internal_get__goDisappearDuration, put = __cordl_internal_set__goDisappearDuration)) float_t _goDisappearDuration;
 
   /// @brief Field _partsDistance, offset 0x24, size 0x4
-  __declspec(property(get = __get__partsDistance, put = __set__partsDistance)) float_t _partsDistance;
+  __declspec(property(get = __cordl_internal_get__partsDistance, put = __cordl_internal_set__partsDistance)) float_t _partsDistance;
 
   /// @brief Field _startLocalPosition, offset 0x28, size 0xc
-  __declspec(property(get = __get__startLocalPosition, put = __set__startLocalPosition))::UnityEngine::Vector3 _startLocalPosition;
+  __declspec(property(get = __cordl_internal_get__startLocalPosition, put = __cordl_internal_set__startLocalPosition))::UnityEngine::Vector3 _startLocalPosition;
 
   /// @brief Field _targetLocalPosition, offset 0x34, size 0xc
-  __declspec(property(get = __get__targetLocalPosition, put = __set__targetLocalPosition))::UnityEngine::Vector3 _targetLocalPosition;
+  __declspec(property(get = __cordl_internal_get__targetLocalPosition, put = __cordl_internal_set__targetLocalPosition))::UnityEngine::Vector3 _targetLocalPosition;
 
   /// @brief Field _readyClip, offset 0x40, size 0x8
-  __declspec(property(get = __get__readyClip, put = __set__readyClip))::UnityEngine::AudioClip* _readyClip;
+  __declspec(property(get = __cordl_internal_get__readyClip, put = __cordl_internal_set__readyClip))::UnityW<::UnityEngine::AudioClip> _readyClip;
 
   /// @brief Field _setClip, offset 0x48, size 0x8
-  __declspec(property(get = __get__setClip, put = __set__setClip))::UnityEngine::AudioClip* _setClip;
+  __declspec(property(get = __cordl_internal_get__setClip, put = __cordl_internal_set__setClip))::UnityW<::UnityEngine::AudioClip> _setClip;
 
   /// @brief Field _goClip, offset 0x50, size 0x8
-  __declspec(property(get = __get__goClip, put = __set__goClip))::UnityEngine::AudioClip* _goClip;
+  __declspec(property(get = __cordl_internal_get__goClip, put = __cordl_internal_set__goClip))::UnityW<::UnityEngine::AudioClip> _goClip;
 
   /// @brief Field _buildUpClip, offset 0x58, size 0x8
-  __declspec(property(get = __get__buildUpClip, put = __set__buildUpClip))::UnityEngine::AudioClip* _buildUpClip;
+  __declspec(property(get = __cordl_internal_get__buildUpClip, put = __cordl_internal_set__buildUpClip))::UnityW<::UnityEngine::AudioClip> _buildUpClip;
 
   /// @brief Field _textController0, offset 0x60, size 0x8
-  __declspec(property(get = __get__textController0, put = __set__textController0))::GlobalNamespace::MultiplayerIntroCountdownTextController* _textController0;
+  __declspec(property(get = __cordl_internal_get__textController0, put = __cordl_internal_set__textController0))::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> _textController0;
 
   /// @brief Field _textController1, offset 0x68, size 0x8
-  __declspec(property(get = __get__textController1, put = __set__textController1))::GlobalNamespace::MultiplayerIntroCountdownTextController* _textController1;
+  __declspec(property(get = __cordl_internal_get__textController1, put = __cordl_internal_set__textController1))::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> _textController1;
 
   /// @brief Field _audioSource, offset 0x70, size 0x8
-  __declspec(property(get = __get__audioSource, put = __set__audioSource))::UnityEngine::AudioSource* _audioSource;
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
 
   /// @brief Field _multiplayerOffsetByLocalPlayerPosition, offset 0x78, size 0x8
-  __declspec(property(get = __get__multiplayerOffsetByLocalPlayerPosition,
-                      put = __set__multiplayerOffsetByLocalPlayerPosition))::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* _multiplayerOffsetByLocalPlayerPosition;
+  __declspec(
+      property(get = __cordl_internal_get__multiplayerOffsetByLocalPlayerPosition,
+               put = __cordl_internal_set__multiplayerOffsetByLocalPlayerPosition))::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition> _multiplayerOffsetByLocalPlayerPosition;
 
   /// @brief Field _tweeningManager, offset 0x80, size 0x8
-  __declspec(property(get = __get__tweeningManager, put = __set__tweeningManager))::Tweening::TimeTweeningManager* _tweeningManager;
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
   /// @brief Field _currentTextController, offset 0x88, size 0x8
-  __declspec(property(get = __get__currentTextController, put = __set__currentTextController))::GlobalNamespace::MultiplayerIntroCountdownTextController* _currentTextController;
+  __declspec(property(get = __cordl_internal_get__currentTextController,
+                      put = __cordl_internal_set__currentTextController))::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> _currentTextController;
 
   /// @brief Field _fontSize, offset 0x90, size 0x4
-  __declspec(property(get = __get__fontSize, put = __set__fontSize)) float_t _fontSize;
+  __declspec(property(get = __cordl_internal_get__fontSize, put = __cordl_internal_set__fontSize)) float_t _fontSize;
 
   /// @brief Field _alpha, offset 0x94, size 0x4
-  __declspec(property(get = __get__alpha, put = __set__alpha)) float_t _alpha;
+  __declspec(property(get = __cordl_internal_get__alpha, put = __cordl_internal_set__alpha)) float_t _alpha;
 
   __declspec(property(get = get_textAppearDuration)) float_t textAppearDuration;
 
-  constexpr float_t& __get__textAppearDuration();
+  constexpr float_t& __cordl_internal_get__textAppearDuration();
 
-  constexpr float_t const& __get__textAppearDuration() const;
+  constexpr float_t const& __cordl_internal_get__textAppearDuration() const;
 
-  constexpr void __set__textAppearDuration(float_t value);
+  constexpr void __cordl_internal_set__textAppearDuration(float_t value);
 
-  constexpr float_t& __get__textDisappearDuration();
+  constexpr float_t& __cordl_internal_get__textDisappearDuration();
 
-  constexpr float_t const& __get__textDisappearDuration() const;
+  constexpr float_t const& __cordl_internal_get__textDisappearDuration() const;
 
-  constexpr void __set__textDisappearDuration(float_t value);
+  constexpr void __cordl_internal_set__textDisappearDuration(float_t value);
 
-  constexpr float_t& __get__goDisappearDuration();
+  constexpr float_t& __cordl_internal_get__goDisappearDuration();
 
-  constexpr float_t const& __get__goDisappearDuration() const;
+  constexpr float_t const& __cordl_internal_get__goDisappearDuration() const;
 
-  constexpr void __set__goDisappearDuration(float_t value);
+  constexpr void __cordl_internal_set__goDisappearDuration(float_t value);
 
-  constexpr float_t& __get__partsDistance();
+  constexpr float_t& __cordl_internal_get__partsDistance();
 
-  constexpr float_t const& __get__partsDistance() const;
+  constexpr float_t const& __cordl_internal_get__partsDistance() const;
 
-  constexpr void __set__partsDistance(float_t value);
+  constexpr void __cordl_internal_set__partsDistance(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get__startLocalPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__startLocalPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get__startLocalPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__startLocalPosition() const;
 
-  constexpr void __set__startLocalPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__startLocalPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__targetLocalPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__targetLocalPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get__targetLocalPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__targetLocalPosition() const;
 
-  constexpr void __set__targetLocalPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__targetLocalPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::AudioClip*& __get__readyClip();
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__readyClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& __get__readyClip() const;
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__readyClip() const;
 
-  constexpr void __set__readyClip(::UnityEngine::AudioClip* value);
+  constexpr void __cordl_internal_set__readyClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  constexpr ::UnityEngine::AudioClip*& __get__setClip();
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__setClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& __get__setClip() const;
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__setClip() const;
 
-  constexpr void __set__setClip(::UnityEngine::AudioClip* value);
+  constexpr void __cordl_internal_set__setClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  constexpr ::UnityEngine::AudioClip*& __get__goClip();
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__goClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& __get__goClip() const;
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__goClip() const;
 
-  constexpr void __set__goClip(::UnityEngine::AudioClip* value);
+  constexpr void __cordl_internal_set__goClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  constexpr ::UnityEngine::AudioClip*& __get__buildUpClip();
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__buildUpClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& __get__buildUpClip() const;
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__buildUpClip() const;
 
-  constexpr void __set__buildUpClip(::UnityEngine::AudioClip* value);
+  constexpr void __cordl_internal_set__buildUpClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  constexpr ::GlobalNamespace::MultiplayerIntroCountdownTextController*& __get__textController0();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController>& __cordl_internal_get__textController0();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdownTextController*> const& __get__textController0() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> const& __cordl_internal_get__textController0() const;
 
-  constexpr void __set__textController0(::GlobalNamespace::MultiplayerIntroCountdownTextController* value);
+  constexpr void __cordl_internal_set__textController0(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value);
 
-  constexpr ::GlobalNamespace::MultiplayerIntroCountdownTextController*& __get__textController1();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController>& __cordl_internal_get__textController1();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdownTextController*> const& __get__textController1() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> const& __cordl_internal_get__textController1() const;
 
-  constexpr void __set__textController1(::GlobalNamespace::MultiplayerIntroCountdownTextController* value);
+  constexpr void __cordl_internal_set__textController1(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value);
 
-  constexpr ::UnityEngine::AudioSource*& __get__audioSource();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get__audioSource() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
 
-  constexpr void __set__audioSource(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*& __get__multiplayerOffsetByLocalPlayerPosition();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition>& __cordl_internal_get__multiplayerOffsetByLocalPlayerPosition();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition*> const& __get__multiplayerOffsetByLocalPlayerPosition() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition> const& __cordl_internal_get__multiplayerOffsetByLocalPlayerPosition() const;
 
-  constexpr void __set__multiplayerOffsetByLocalPlayerPosition(::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* value);
+  constexpr void __cordl_internal_set__multiplayerOffsetByLocalPlayerPosition(::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition> value);
 
-  constexpr ::Tweening::TimeTweeningManager*& __get__tweeningManager();
+  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& __get__tweeningManager() const;
+  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
-  constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager* value);
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  constexpr ::GlobalNamespace::MultiplayerIntroCountdownTextController*& __get__currentTextController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController>& __cordl_internal_get__currentTextController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerIntroCountdownTextController*> const& __get__currentTextController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> const& __cordl_internal_get__currentTextController() const;
 
-  constexpr void __set__currentTextController(::GlobalNamespace::MultiplayerIntroCountdownTextController* value);
+  constexpr void __cordl_internal_set__currentTextController(::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> value);
 
-  constexpr float_t& __get__fontSize();
+  constexpr float_t& __cordl_internal_get__fontSize();
 
-  constexpr float_t const& __get__fontSize() const;
+  constexpr float_t const& __cordl_internal_get__fontSize() const;
 
-  constexpr void __set__fontSize(float_t value);
+  constexpr void __cordl_internal_set__fontSize(float_t value);
 
-  constexpr float_t& __get__alpha();
+  constexpr float_t& __cordl_internal_get__alpha();
 
-  constexpr float_t const& __get__alpha() const;
+  constexpr float_t const& __cordl_internal_get__alpha() const;
 
-  constexpr void __set__alpha(float_t value);
+  constexpr void __cordl_internal_set__alpha(float_t value);
 
   /// @brief Method get_textAppearDuration, addr 0x224eb34, size 0x8, virtual false, abstract: false, final false
   inline float_t get_textAppearDuration();
@@ -875,34 +877,34 @@ public:
   ::UnityEngine::Vector3 ____targetLocalPosition;
 
   /// @brief Field _readyClip, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::AudioClip* ____readyClip;
+  ::UnityW<::UnityEngine::AudioClip> ____readyClip;
 
   /// @brief Field _setClip, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::AudioClip* ____setClip;
+  ::UnityW<::UnityEngine::AudioClip> ____setClip;
 
   /// @brief Field _goClip, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::AudioClip* ____goClip;
+  ::UnityW<::UnityEngine::AudioClip> ____goClip;
 
   /// @brief Field _buildUpClip, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::AudioClip* ____buildUpClip;
+  ::UnityW<::UnityEngine::AudioClip> ____buildUpClip;
 
   /// @brief Field _textController0, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerIntroCountdownTextController* ____textController0;
+  ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> ____textController0;
 
   /// @brief Field _textController1, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerIntroCountdownTextController* ____textController1;
+  ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> ____textController1;
 
   /// @brief Field _audioSource, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ____audioSource;
+  ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
   /// @brief Field _multiplayerOffsetByLocalPlayerPosition, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition* ____multiplayerOffsetByLocalPlayerPosition;
+  ::UnityW<::GlobalNamespace::MultiplayerOffsetPositionByLocalPlayerPosition> ____multiplayerOffsetByLocalPlayerPosition;
 
   /// @brief Field _tweeningManager, offset: 0x80, size: 0x8, def value: None
-  ::Tweening::TimeTweeningManager* ____tweeningManager;
+  ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
   /// @brief Field _currentTextController, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerIntroCountdownTextController* ____currentTextController;
+  ::UnityW<::GlobalNamespace::MultiplayerIntroCountdownTextController> ____currentTextController;
 
   /// @brief Field _fontSize, offset: 0x90, size: 0x4, def value: None
   float_t ____fontSize;

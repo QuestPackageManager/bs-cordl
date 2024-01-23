@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__TlsDeflateCompression__Deflat
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1297))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1297))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1295))
 // CS Name: ::TlsDeflateCompression::DeflateOutputStream*
 class CORDL_TYPE __TlsDeflateCompression__DeflateOutputStream : public ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream {
@@ -70,7 +70,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1296))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsDeflateCompression*
 class CORDL_TYPE TlsDeflateCompression : public ::System::Object {
@@ -79,10 +79,10 @@ public:
   using DeflateOutputStream = ::Org::BouncyCastle::Crypto::Tls::__TlsDeflateCompression__DeflateOutputStream;
 
   /// @brief Field zIn, offset 0x10, size 0x8
-  __declspec(property(get = __get_zIn, put = __set_zIn))::Org::BouncyCastle::Utilities::Zlib::ZStream* zIn;
+  __declspec(property(get = __cordl_internal_get_zIn, put = __cordl_internal_set_zIn))::Org::BouncyCastle::Utilities::Zlib::ZStream* zIn;
 
   /// @brief Field zOut, offset 0x18, size 0x8
-  __declspec(property(get = __get_zOut, put = __set_zOut))::Org::BouncyCastle::Utilities::Zlib::ZStream* zOut;
+  __declspec(property(get = __cordl_internal_get_zOut, put = __cordl_internal_set_zOut))::Org::BouncyCastle::Utilities::Zlib::ZStream* zOut;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCompression*() noexcept;
@@ -90,17 +90,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCompression* i___Org__BouncyCastle__Crypto__Tls__TlsCompression() noexcept;
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream*& __get_zIn();
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream*& __cordl_internal_get_zIn();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::ZStream*> const& __get_zIn() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::ZStream*> const& __cordl_internal_get_zIn() const;
 
-  constexpr void __set_zIn(::Org::BouncyCastle::Utilities::Zlib::ZStream* value);
+  constexpr void __cordl_internal_set_zIn(::Org::BouncyCastle::Utilities::Zlib::ZStream* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream*& __get_zOut();
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::ZStream*& __cordl_internal_get_zOut();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::ZStream*> const& __get_zOut() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::ZStream*> const& __cordl_internal_get_zOut() const;
 
-  constexpr void __set_zOut(::Org::BouncyCastle::Utilities::Zlib::ZStream* value);
+  constexpr void __cordl_internal_set_zOut(::Org::BouncyCastle::Utilities::Zlib::ZStream* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression* New_ctor();
 

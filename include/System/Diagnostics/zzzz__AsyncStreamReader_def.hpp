@@ -34,92 +34,92 @@ MARK_REF_PTR_T(::System::Diagnostics::AsyncStreamReader);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8947))
 // CS Name: ::System.Diagnostics::AsyncStreamReader*
 class CORDL_TYPE AsyncStreamReader : public ::System::Object {
 public:
   // Declarations
   /// @brief Field stream, offset 0x10, size 0x8
-  __declspec(property(get = __get_stream, put = __set_stream))::System::IO::Stream* stream;
+  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
 
   /// @brief Field encoding, offset 0x18, size 0x8
-  __declspec(property(get = __get_encoding, put = __set_encoding))::System::Text::Encoding* encoding;
+  __declspec(property(get = __cordl_internal_get_encoding, put = __cordl_internal_set_encoding))::System::Text::Encoding* encoding;
 
   /// @brief Field decoder, offset 0x20, size 0x8
-  __declspec(property(get = __get_decoder, put = __set_decoder))::System::Text::Decoder* decoder;
+  __declspec(property(get = __cordl_internal_get_decoder, put = __cordl_internal_set_decoder))::System::Text::Decoder* decoder;
 
   /// @brief Field byteBuffer, offset 0x28, size 0x8
-  __declspec(property(get = __get_byteBuffer, put = __set_byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuffer;
+  __declspec(property(get = __cordl_internal_get_byteBuffer, put = __cordl_internal_set_byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuffer;
 
   /// @brief Field charBuffer, offset 0x30, size 0x8
-  __declspec(property(get = __get_charBuffer, put = __set_charBuffer))::ArrayW<char16_t, ::Array<char16_t>*> charBuffer;
+  __declspec(property(get = __cordl_internal_get_charBuffer, put = __cordl_internal_set_charBuffer))::ArrayW<char16_t, ::Array<char16_t>*> charBuffer;
 
   /// @brief Field cancelOperation, offset 0x38, size 0x1
-  __declspec(property(get = __get_cancelOperation, put = __set_cancelOperation)) bool cancelOperation;
+  __declspec(property(get = __cordl_internal_get_cancelOperation, put = __cordl_internal_set_cancelOperation)) bool cancelOperation;
 
   /// @brief Field eofEvent, offset 0x40, size 0x8
-  __declspec(property(get = __get_eofEvent, put = __set_eofEvent))::System::Threading::ManualResetEvent* eofEvent;
+  __declspec(property(get = __cordl_internal_get_eofEvent, put = __cordl_internal_set_eofEvent))::System::Threading::ManualResetEvent* eofEvent;
 
   /// @brief Field syncObject, offset 0x48, size 0x8
-  __declspec(property(get = __get_syncObject, put = __set_syncObject))::System::Object* syncObject;
+  __declspec(property(get = __cordl_internal_get_syncObject, put = __cordl_internal_set_syncObject))::System::Object* syncObject;
 
   /// @brief Field asyncReadResult, offset 0x50, size 0x8
-  __declspec(property(get = __get_asyncReadResult, put = __set_asyncReadResult))::System::IAsyncResult* asyncReadResult;
+  __declspec(property(get = __cordl_internal_get_asyncReadResult, put = __cordl_internal_set_asyncReadResult))::System::IAsyncResult* asyncReadResult;
 
-  constexpr ::System::IO::Stream*& __get_stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
 
-  constexpr void __set_stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
 
-  constexpr ::System::Text::Encoding*& __get_encoding();
+  constexpr ::System::Text::Encoding*& __cordl_internal_get_encoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __get_encoding() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get_encoding() const;
 
-  constexpr void __set_encoding(::System::Text::Encoding* value);
+  constexpr void __cordl_internal_set_encoding(::System::Text::Encoding* value);
 
-  constexpr ::System::Text::Decoder*& __get_decoder();
+  constexpr ::System::Text::Decoder*& __cordl_internal_get_decoder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Decoder*> const& __get_decoder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Decoder*> const& __cordl_internal_get_decoder() const;
 
-  constexpr void __set_decoder(::System::Text::Decoder* value);
+  constexpr void __cordl_internal_set_decoder(::System::Text::Decoder* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_byteBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_byteBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_byteBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_byteBuffer() const;
 
-  constexpr void __set_byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_charBuffer();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_charBuffer();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_charBuffer() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_charBuffer() const;
 
-  constexpr void __set_charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr bool& __get_cancelOperation();
+  constexpr bool& __cordl_internal_get_cancelOperation();
 
-  constexpr bool const& __get_cancelOperation() const;
+  constexpr bool const& __cordl_internal_get_cancelOperation() const;
 
-  constexpr void __set_cancelOperation(bool value);
+  constexpr void __cordl_internal_set_cancelOperation(bool value);
 
-  constexpr ::System::Threading::ManualResetEvent*& __get_eofEvent();
+  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get_eofEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __get_eofEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get_eofEvent() const;
 
-  constexpr void __set_eofEvent(::System::Threading::ManualResetEvent* value);
+  constexpr void __cordl_internal_set_eofEvent(::System::Threading::ManualResetEvent* value);
 
-  constexpr ::System::Object*& __get_syncObject();
+  constexpr ::System::Object*& __cordl_internal_get_syncObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_syncObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_syncObject() const;
 
-  constexpr void __set_syncObject(::System::Object* value);
+  constexpr void __cordl_internal_set_syncObject(::System::Object* value);
 
-  constexpr ::System::IAsyncResult*& __get_asyncReadResult();
+  constexpr ::System::IAsyncResult*& __cordl_internal_get_asyncReadResult();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IAsyncResult*> const& __get_asyncReadResult() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IAsyncResult*> const& __cordl_internal_get_asyncReadResult() const;
 
-  constexpr void __set_asyncReadResult(::System::IAsyncResult* value);
+  constexpr void __cordl_internal_set_asyncReadResult(::System::IAsyncResult* value);
 
   /// @brief Method Close, addr 0x296e8cc, size 0x10, virtual true, abstract: false, final false
   inline void Close();

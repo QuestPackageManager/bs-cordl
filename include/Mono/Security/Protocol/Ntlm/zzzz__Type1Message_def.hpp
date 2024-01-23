@@ -17,33 +17,33 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::Type1Message);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13765))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13765))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13769))
 // CS Name: ::Mono.Security.Protocol.Ntlm::Type1Message*
 class CORDL_TYPE Type1Message : public ::Mono::Security::Protocol::Ntlm::MessageBase {
 public:
   // Declarations
   /// @brief Field _host, offset 0x18, size 0x8
-  __declspec(property(get = __get__host, put = __set__host))::StringW _host;
+  __declspec(property(get = __cordl_internal_get__host, put = __cordl_internal_set__host))::StringW _host;
 
   /// @brief Field _domain, offset 0x20, size 0x8
-  __declspec(property(get = __get__domain, put = __set__domain))::StringW _domain;
+  __declspec(property(get = __cordl_internal_get__domain, put = __cordl_internal_set__domain))::StringW _domain;
 
   __declspec(property(put = set_Domain))::StringW Domain;
 
   __declspec(property(put = set_Host))::StringW Host;
 
-  constexpr ::StringW& __get__host();
+  constexpr ::StringW& __cordl_internal_get__host();
 
-  constexpr ::StringW const& __get__host() const;
+  constexpr ::StringW const& __cordl_internal_get__host() const;
 
-  constexpr void __set__host(::StringW value);
+  constexpr void __cordl_internal_set__host(::StringW value);
 
-  constexpr ::StringW& __get__domain();
+  constexpr ::StringW& __cordl_internal_get__domain();
 
-  constexpr ::StringW const& __get__domain() const;
+  constexpr ::StringW const& __cordl_internal_get__domain() const;
 
-  constexpr void __set__domain(::StringW value);
+  constexpr void __cordl_internal_set__domain(::StringW value);
 
   static inline ::Mono::Security::Protocol::Ntlm::Type1Message* New_ctor();
 

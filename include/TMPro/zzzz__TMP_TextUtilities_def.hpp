@@ -49,7 +49,7 @@ MARK_VAL_T(::TMPro::__TMP_TextUtilities__LineSegment);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12456))
 // CS Name: ::TMP_TextUtilities::LineSegment
 struct CORDL_TYPE __TMP_TextUtilities__LineSegment {
@@ -89,7 +89,7 @@ static_assert(offsetof(::TMPro::__TMP_TextUtilities__LineSegment, Point2) == 0xc
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12457))
 // CS Name: ::TMPro::TMP_TextUtilities*
 class CORDL_TYPE TMP_TextUtilities : public ::System::Object {

@@ -27,76 +27,76 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatingTransformEffect);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4850)) CS Name: ::FloatingTransformEffect*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4850)) CS Name: ::FloatingTransformEffect*
 class CORDL_TYPE FloatingTransformEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _positionMultiplier, offset 0x18, size 0xc
-  __declspec(property(get = __get__positionMultiplier, put = __set__positionMultiplier))::UnityEngine::Vector3 _positionMultiplier;
+  __declspec(property(get = __cordl_internal_get__positionMultiplier, put = __cordl_internal_set__positionMultiplier))::UnityEngine::Vector3 _positionMultiplier;
 
   /// @brief Field _rotationMultiplier, offset 0x24, size 0xc
-  __declspec(property(get = __get__rotationMultiplier, put = __set__rotationMultiplier))::UnityEngine::Vector3 _rotationMultiplier;
+  __declspec(property(get = __cordl_internal_get__rotationMultiplier, put = __cordl_internal_set__rotationMultiplier))::UnityEngine::Vector3 _rotationMultiplier;
 
   /// @brief Field _rotationTransform, offset 0x30, size 0x8
-  __declspec(property(get = __get__rotationTransform, put = __set__rotationTransform))::UnityEngine::Transform* _rotationTransform;
+  __declspec(property(get = __cordl_internal_get__rotationTransform, put = __cordl_internal_set__rotationTransform))::UnityW<::UnityEngine::Transform> _rotationTransform;
 
   /// @brief Field _maxRotationDegrees, offset 0x38, size 0x4
-  __declspec(property(get = __get__maxRotationDegrees, put = __set__maxRotationDegrees)) float_t _maxRotationDegrees;
+  __declspec(property(get = __cordl_internal_get__maxRotationDegrees, put = __cordl_internal_set__maxRotationDegrees)) float_t _maxRotationDegrees;
 
   /// @brief Field _xAmplitude, offset 0x3c, size 0x8
-  __declspec(property(get = __get__xAmplitude, put = __set__xAmplitude))::UnityEngine::Vector2 _xAmplitude;
+  __declspec(property(get = __cordl_internal_get__xAmplitude, put = __cordl_internal_set__xAmplitude))::UnityEngine::Vector2 _xAmplitude;
 
   /// @brief Field _xFrequency, offset 0x44, size 0x8
-  __declspec(property(get = __get__xFrequency, put = __set__xFrequency))::UnityEngine::Vector2 _xFrequency;
+  __declspec(property(get = __cordl_internal_get__xFrequency, put = __cordl_internal_set__xFrequency))::UnityEngine::Vector2 _xFrequency;
 
   /// @brief Field _yAmplitude, offset 0x4c, size 0x8
-  __declspec(property(get = __get__yAmplitude, put = __set__yAmplitude))::UnityEngine::Vector2 _yAmplitude;
+  __declspec(property(get = __cordl_internal_get__yAmplitude, put = __cordl_internal_set__yAmplitude))::UnityEngine::Vector2 _yAmplitude;
 
   /// @brief Field _yFrequency, offset 0x54, size 0x8
-  __declspec(property(get = __get__yFrequency, put = __set__yFrequency))::UnityEngine::Vector2 _yFrequency;
+  __declspec(property(get = __cordl_internal_get__yFrequency, put = __cordl_internal_set__yFrequency))::UnityEngine::Vector2 _yFrequency;
 
   /// @brief Field _zAmplitude, offset 0x5c, size 0x8
-  __declspec(property(get = __get__zAmplitude, put = __set__zAmplitude))::UnityEngine::Vector2 _zAmplitude;
+  __declspec(property(get = __cordl_internal_get__zAmplitude, put = __cordl_internal_set__zAmplitude))::UnityEngine::Vector2 _zAmplitude;
 
   /// @brief Field _zFrequency, offset 0x64, size 0x8
-  __declspec(property(get = __get__zFrequency, put = __set__zFrequency))::UnityEngine::Vector2 _zFrequency;
+  __declspec(property(get = __cordl_internal_get__zFrequency, put = __cordl_internal_set__zFrequency))::UnityEngine::Vector2 _zFrequency;
 
   /// @brief Field _transform, offset 0x70, size 0x8
-  __declspec(property(get = __get__transform, put = __set__transform))::UnityEngine::Transform* _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
   /// @brief Field _origin, offset 0x78, size 0xc
-  __declspec(property(get = __get__origin, put = __set__origin))::UnityEngine::Vector3 _origin;
+  __declspec(property(get = __cordl_internal_get__origin, put = __cordl_internal_set__origin))::UnityEngine::Vector3 _origin;
 
   /// @brief Field _offsetX, offset 0x84, size 0x4
-  __declspec(property(get = __get__offsetX, put = __set__offsetX)) float_t _offsetX;
+  __declspec(property(get = __cordl_internal_get__offsetX, put = __cordl_internal_set__offsetX)) float_t _offsetX;
 
   /// @brief Field _offsetY, offset 0x88, size 0x4
-  __declspec(property(get = __get__offsetY, put = __set__offsetY)) float_t _offsetY;
+  __declspec(property(get = __cordl_internal_get__offsetY, put = __cordl_internal_set__offsetY)) float_t _offsetY;
 
   /// @brief Field _offsetZ, offset 0x8c, size 0x4
-  __declspec(property(get = __get__offsetZ, put = __set__offsetZ)) float_t _offsetZ;
+  __declspec(property(get = __cordl_internal_get__offsetZ, put = __cordl_internal_set__offsetZ)) float_t _offsetZ;
 
   /// @brief Field _amplitudeX, offset 0x90, size 0x4
-  __declspec(property(get = __get__amplitudeX, put = __set__amplitudeX)) float_t _amplitudeX;
+  __declspec(property(get = __cordl_internal_get__amplitudeX, put = __cordl_internal_set__amplitudeX)) float_t _amplitudeX;
 
   /// @brief Field _amplitudeY, offset 0x94, size 0x4
-  __declspec(property(get = __get__amplitudeY, put = __set__amplitudeY)) float_t _amplitudeY;
+  __declspec(property(get = __cordl_internal_get__amplitudeY, put = __cordl_internal_set__amplitudeY)) float_t _amplitudeY;
 
   /// @brief Field _amplitudeZ, offset 0x98, size 0x4
-  __declspec(property(get = __get__amplitudeZ, put = __set__amplitudeZ)) float_t _amplitudeZ;
+  __declspec(property(get = __cordl_internal_get__amplitudeZ, put = __cordl_internal_set__amplitudeZ)) float_t _amplitudeZ;
 
   /// @brief Field _frequencyX, offset 0x9c, size 0x4
-  __declspec(property(get = __get__frequencyX, put = __set__frequencyX)) float_t _frequencyX;
+  __declspec(property(get = __cordl_internal_get__frequencyX, put = __cordl_internal_set__frequencyX)) float_t _frequencyX;
 
   /// @brief Field _frequencyY, offset 0xa0, size 0x4
-  __declspec(property(get = __get__frequencyY, put = __set__frequencyY)) float_t _frequencyY;
+  __declspec(property(get = __cordl_internal_get__frequencyY, put = __cordl_internal_set__frequencyY)) float_t _frequencyY;
 
   /// @brief Field _frequencyZ, offset 0xa4, size 0x4
-  __declspec(property(get = __get__frequencyZ, put = __set__frequencyZ)) float_t _frequencyZ;
+  __declspec(property(get = __cordl_internal_get__frequencyZ, put = __cordl_internal_set__frequencyZ)) float_t _frequencyZ;
 
   /// @brief Field _targetRotation, offset 0xa8, size 0x10
-  __declspec(property(get = __get__targetRotation, put = __set__targetRotation))::UnityEngine::Quaternion _targetRotation;
+  __declspec(property(get = __cordl_internal_get__targetRotation, put = __cordl_internal_set__targetRotation))::UnityEngine::Quaternion _targetRotation;
 
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
@@ -104,137 +104,137 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  constexpr ::UnityEngine::Vector3& __get__positionMultiplier();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__positionMultiplier();
 
-  constexpr ::UnityEngine::Vector3 const& __get__positionMultiplier() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__positionMultiplier() const;
 
-  constexpr void __set__positionMultiplier(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__positionMultiplier(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__rotationMultiplier();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__rotationMultiplier();
 
-  constexpr ::UnityEngine::Vector3 const& __get__rotationMultiplier() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__rotationMultiplier() const;
 
-  constexpr void __set__rotationMultiplier(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__rotationMultiplier(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Transform*& __get__rotationTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rotationTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__rotationTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rotationTransform() const;
 
-  constexpr void __set__rotationTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__rotationTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get__maxRotationDegrees();
+  constexpr float_t& __cordl_internal_get__maxRotationDegrees();
 
-  constexpr float_t const& __get__maxRotationDegrees() const;
+  constexpr float_t const& __cordl_internal_get__maxRotationDegrees() const;
 
-  constexpr void __set__maxRotationDegrees(float_t value);
+  constexpr void __cordl_internal_set__maxRotationDegrees(float_t value);
 
-  constexpr ::UnityEngine::Vector2& __get__xAmplitude();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__xAmplitude();
 
-  constexpr ::UnityEngine::Vector2 const& __get__xAmplitude() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__xAmplitude() const;
 
-  constexpr void __set__xAmplitude(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__xAmplitude(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get__xFrequency();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__xFrequency();
 
-  constexpr ::UnityEngine::Vector2 const& __get__xFrequency() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__xFrequency() const;
 
-  constexpr void __set__xFrequency(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__xFrequency(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get__yAmplitude();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__yAmplitude();
 
-  constexpr ::UnityEngine::Vector2 const& __get__yAmplitude() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__yAmplitude() const;
 
-  constexpr void __set__yAmplitude(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__yAmplitude(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get__yFrequency();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__yFrequency();
 
-  constexpr ::UnityEngine::Vector2 const& __get__yFrequency() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__yFrequency() const;
 
-  constexpr void __set__yFrequency(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__yFrequency(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get__zAmplitude();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__zAmplitude();
 
-  constexpr ::UnityEngine::Vector2 const& __get__zAmplitude() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__zAmplitude() const;
 
-  constexpr void __set__zAmplitude(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__zAmplitude(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get__zFrequency();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__zFrequency();
 
-  constexpr ::UnityEngine::Vector2 const& __get__zFrequency() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__zFrequency() const;
 
-  constexpr void __set__zFrequency(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__zFrequency(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Transform*& __get__transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr void __set__transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Vector3& __get__origin();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__origin();
 
-  constexpr ::UnityEngine::Vector3 const& __get__origin() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__origin() const;
 
-  constexpr void __set__origin(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__origin(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get__offsetX();
+  constexpr float_t& __cordl_internal_get__offsetX();
 
-  constexpr float_t const& __get__offsetX() const;
+  constexpr float_t const& __cordl_internal_get__offsetX() const;
 
-  constexpr void __set__offsetX(float_t value);
+  constexpr void __cordl_internal_set__offsetX(float_t value);
 
-  constexpr float_t& __get__offsetY();
+  constexpr float_t& __cordl_internal_get__offsetY();
 
-  constexpr float_t const& __get__offsetY() const;
+  constexpr float_t const& __cordl_internal_get__offsetY() const;
 
-  constexpr void __set__offsetY(float_t value);
+  constexpr void __cordl_internal_set__offsetY(float_t value);
 
-  constexpr float_t& __get__offsetZ();
+  constexpr float_t& __cordl_internal_get__offsetZ();
 
-  constexpr float_t const& __get__offsetZ() const;
+  constexpr float_t const& __cordl_internal_get__offsetZ() const;
 
-  constexpr void __set__offsetZ(float_t value);
+  constexpr void __cordl_internal_set__offsetZ(float_t value);
 
-  constexpr float_t& __get__amplitudeX();
+  constexpr float_t& __cordl_internal_get__amplitudeX();
 
-  constexpr float_t const& __get__amplitudeX() const;
+  constexpr float_t const& __cordl_internal_get__amplitudeX() const;
 
-  constexpr void __set__amplitudeX(float_t value);
+  constexpr void __cordl_internal_set__amplitudeX(float_t value);
 
-  constexpr float_t& __get__amplitudeY();
+  constexpr float_t& __cordl_internal_get__amplitudeY();
 
-  constexpr float_t const& __get__amplitudeY() const;
+  constexpr float_t const& __cordl_internal_get__amplitudeY() const;
 
-  constexpr void __set__amplitudeY(float_t value);
+  constexpr void __cordl_internal_set__amplitudeY(float_t value);
 
-  constexpr float_t& __get__amplitudeZ();
+  constexpr float_t& __cordl_internal_get__amplitudeZ();
 
-  constexpr float_t const& __get__amplitudeZ() const;
+  constexpr float_t const& __cordl_internal_get__amplitudeZ() const;
 
-  constexpr void __set__amplitudeZ(float_t value);
+  constexpr void __cordl_internal_set__amplitudeZ(float_t value);
 
-  constexpr float_t& __get__frequencyX();
+  constexpr float_t& __cordl_internal_get__frequencyX();
 
-  constexpr float_t const& __get__frequencyX() const;
+  constexpr float_t const& __cordl_internal_get__frequencyX() const;
 
-  constexpr void __set__frequencyX(float_t value);
+  constexpr void __cordl_internal_set__frequencyX(float_t value);
 
-  constexpr float_t& __get__frequencyY();
+  constexpr float_t& __cordl_internal_get__frequencyY();
 
-  constexpr float_t const& __get__frequencyY() const;
+  constexpr float_t const& __cordl_internal_get__frequencyY() const;
 
-  constexpr void __set__frequencyY(float_t value);
+  constexpr void __cordl_internal_set__frequencyY(float_t value);
 
-  constexpr float_t& __get__frequencyZ();
+  constexpr float_t& __cordl_internal_get__frequencyZ();
 
-  constexpr float_t const& __get__frequencyZ() const;
+  constexpr float_t const& __cordl_internal_get__frequencyZ() const;
 
-  constexpr void __set__frequencyZ(float_t value);
+  constexpr void __cordl_internal_set__frequencyZ(float_t value);
 
-  constexpr ::UnityEngine::Quaternion& __get__targetRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__targetRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get__targetRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__targetRotation() const;
 
-  constexpr void __set__targetRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set__targetRotation(::UnityEngine::Quaternion value);
 
   /// @brief Method Start, addr 0x2397e88, size 0x38, virtual false, abstract: false, final false
   inline void Start();
@@ -274,7 +274,7 @@ public:
   ::UnityEngine::Vector3 ____rotationMultiplier;
 
   /// @brief Field _rotationTransform, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____rotationTransform;
+  ::UnityW<::UnityEngine::Transform> ____rotationTransform;
 
   /// @brief Field _maxRotationDegrees, offset: 0x38, size: 0x4, def value: None
   float_t ____maxRotationDegrees;
@@ -298,7 +298,7 @@ public:
   ::UnityEngine::Vector2 ____zFrequency;
 
   /// @brief Field _transform, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____transform;
+  ::UnityW<::UnityEngine::Transform> ____transform;
 
   /// @brief Field _origin, offset: 0x78, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____origin;

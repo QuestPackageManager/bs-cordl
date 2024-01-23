@@ -56,7 +56,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::UI::__PointerModel__ButtonState);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 155, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13213)), TypeDefinitionIndex(TypeDefinitionIndex(13167)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13167)), TypeDefinitionIndex(TypeDefinitionIndex(13213))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6379))
 // CS Name: ::PointerModel::ButtonState
 struct CORDL_TYPE __PointerModel__ButtonState {
@@ -115,16 +115,17 @@ public:
 
   // Ctor Parameters [CppParam { name: "m_IsPressed", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_FramePressState", ty:
   // "::UnityEngine::EventSystems::__PointerEventData__FramePressState", modifiers: "", def_value: None }, CppParam { name: "m_PressTime", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "m_PressRaycast", ty: "::UnityEngine::EventSystems::RaycastResult", modifiers: "", def_value: None }, CppParam { name: "m_PressObject", ty: "::UnityEngine::GameObject*", modifiers: "",
-  // def_value: None }, CppParam { name: "m_RawPressObject", ty: "::UnityEngine::GameObject*", modifiers: "", def_value: None }, CppParam { name: "m_LastPressObject", ty: "::UnityEngine::GameObject*",
-  // modifiers: "", def_value: None }, CppParam { name: "m_DragObject", ty: "::UnityEngine::GameObject*", modifiers: "", def_value: None }, CppParam { name: "m_PressPosition", ty:
-  // "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_ClickTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_ClickCount", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "m_Dragging", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_ClickedOnSameGameObject", ty: "bool", modifiers: "", def_value:
-  // None }, CppParam { name: "m_IgnoreNextClick", ty: "bool", modifiers: "", def_value: None }]
+  // name: "m_PressRaycast", ty: "::UnityEngine::EventSystems::RaycastResult", modifiers: "", def_value: None }, CppParam { name: "m_PressObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers:
+  // "", def_value: None }, CppParam { name: "m_RawPressObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "m_LastPressObject", ty:
+  // "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam { name: "m_DragObject", ty: "::UnityW<::UnityEngine::GameObject>", modifiers: "", def_value: None }, CppParam {
+  // name: "m_PressPosition", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_ClickTime", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
+  // "m_ClickCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_Dragging", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_ClickedOnSameGameObject", ty:
+  // "bool", modifiers: "", def_value: None }, CppParam { name: "m_IgnoreNextClick", ty: "bool", modifiers: "", def_value: None }]
   constexpr __PointerModel__ButtonState(bool m_IsPressed, ::UnityEngine::EventSystems::__PointerEventData__FramePressState m_FramePressState, float_t m_PressTime,
-                                        ::UnityEngine::EventSystems::RaycastResult m_PressRaycast, ::UnityEngine::GameObject* m_PressObject, ::UnityEngine::GameObject* m_RawPressObject,
-                                        ::UnityEngine::GameObject* m_LastPressObject, ::UnityEngine::GameObject* m_DragObject, ::UnityEngine::Vector2 m_PressPosition, float_t m_ClickTime,
-                                        int32_t m_ClickCount, bool m_Dragging, bool m_ClickedOnSameGameObject, bool m_IgnoreNextClick) noexcept;
+                                        ::UnityEngine::EventSystems::RaycastResult m_PressRaycast, ::UnityW<::UnityEngine::GameObject> m_PressObject,
+                                        ::UnityW<::UnityEngine::GameObject> m_RawPressObject, ::UnityW<::UnityEngine::GameObject> m_LastPressObject, ::UnityW<::UnityEngine::GameObject> m_DragObject,
+                                        ::UnityEngine::Vector2 m_PressPosition, float_t m_ClickTime, int32_t m_ClickCount, bool m_Dragging, bool m_ClickedOnSameGameObject,
+                                        bool m_IgnoreNextClick) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -143,16 +144,16 @@ public:
   ::UnityEngine::EventSystems::RaycastResult m_PressRaycast;
 
   /// @brief Field m_PressObject, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::GameObject* m_PressObject;
+  ::UnityW<::UnityEngine::GameObject> m_PressObject;
 
   /// @brief Field m_RawPressObject, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::GameObject* m_RawPressObject;
+  ::UnityW<::UnityEngine::GameObject> m_RawPressObject;
 
   /// @brief Field m_LastPressObject, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::GameObject* m_LastPressObject;
+  ::UnityW<::UnityEngine::GameObject> m_LastPressObject;
 
   /// @brief Field m_DragObject, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::GameObject* m_DragObject;
+  ::UnityW<::UnityEngine::GameObject> m_DragObject;
 
   /// @brief Field m_PressPosition, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::Vector2 m_PressPosition;
@@ -213,8 +214,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::UI::__PointerModel__ButtonSta
 // SizeInfo { instance_size: 520, native_size: -1, calculated_instance_size: 520, calculated_native_size: 532, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(6379)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6380)) CS Name: ::UnityEngine.InputSystem.UI::PointerModel
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6379)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6380)) CS Name: ::UnityEngine.InputSystem.UI::PointerModel
 struct CORDL_TYPE PointerModel {
 public:
   // Declarations

@@ -74,7 +74,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRFaceExpressions__FaceExpressionsEnumerator);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7546))
 // CS Name: ::OVRFaceExpressions::WeightProvider*
 class CORDL_TYPE __OVRFaceExpressions__WeightProvider {
@@ -99,7 +99,7 @@ public:
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7547))
 // CS Name: ::OVRFaceExpressions::FaceRegionConfidence
 struct CORDL_TYPE __OVRFaceExpressions__FaceRegionConfidence {
@@ -153,7 +153,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRFaceExpressions__FaceRegionConfid
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7548))
 // CS Name: ::OVRFaceExpressions::FaceExpression
 struct CORDL_TYPE __OVRFaceExpressions__FaceExpression {
@@ -455,7 +455,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRFaceExpressions__FaceExpression, 
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7549))
 // CS Name: ::OVRFaceExpressions::FaceExpressionsEnumerator
 struct CORDL_TYPE __OVRFaceExpressions__FaceExpressionsEnumerator {
@@ -537,7 +537,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRFaceExpressions__FaceExpressionsE
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7679)), TypeDefinitionIndex(TypeDefinitionIndex(7795))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7679)), TypeDefinitionIndex(TypeDefinitionIndex(7795)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7550))
 // CS Name: ::OVRFaceExpressions*
 class CORDL_TYPE OVRFaceExpressions : public ::UnityEngine::MonoBehaviour {
@@ -552,16 +552,17 @@ public:
   using WeightProvider = ::GlobalNamespace::__OVRFaceExpressions__WeightProvider;
 
   /// @brief Field <ValidExpressions>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__ValidExpressions_k__BackingField, put = __set__ValidExpressions_k__BackingField)) bool _ValidExpressions_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ValidExpressions_k__BackingField, put = __cordl_internal_set__ValidExpressions_k__BackingField)) bool _ValidExpressions_k__BackingField;
 
   /// @brief Field <EyeFollowingBlendshapesValid>k__BackingField, offset 0x19, size 0x1
-  __declspec(property(get = __get__EyeFollowingBlendshapesValid_k__BackingField, put = __set__EyeFollowingBlendshapesValid_k__BackingField)) bool _EyeFollowingBlendshapesValid_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__EyeFollowingBlendshapesValid_k__BackingField,
+                      put = __cordl_internal_set__EyeFollowingBlendshapesValid_k__BackingField)) bool _EyeFollowingBlendshapesValid_k__BackingField;
 
   /// @brief Field _currentFaceState, offset 0x20, size 0x20
-  __declspec(property(get = __get__currentFaceState, put = __set__currentFaceState))::GlobalNamespace::__OVRPlugin__FaceState _currentFaceState;
+  __declspec(property(get = __cordl_internal_get__currentFaceState, put = __cordl_internal_set__currentFaceState))::GlobalNamespace::__OVRPlugin__FaceState _currentFaceState;
 
   /// @brief Field _onPermissionGranted, offset 0x40, size 0x8
-  __declspec(property(get = __get__onPermissionGranted, put = __set__onPermissionGranted))::System::Action_1<::StringW>* _onPermissionGranted;
+  __declspec(property(get = __cordl_internal_get__onPermissionGranted, put = __cordl_internal_set__onPermissionGranted))::System::Action_1<::StringW>* _onPermissionGranted;
 
   /// @brief Field _trackingInstanceCount, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__trackingInstanceCount, put = setStaticF__trackingInstanceCount)) int32_t _trackingInstanceCount;
@@ -600,29 +601,29 @@ public:
   /// @brief Convert to "::GlobalNamespace::__OVRFaceExpressions__WeightProvider"
   constexpr ::GlobalNamespace::__OVRFaceExpressions__WeightProvider* i___GlobalNamespace____OVRFaceExpressions__WeightProvider() noexcept;
 
-  constexpr bool& __get__ValidExpressions_k__BackingField();
+  constexpr bool& __cordl_internal_get__ValidExpressions_k__BackingField();
 
-  constexpr bool const& __get__ValidExpressions_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__ValidExpressions_k__BackingField() const;
 
-  constexpr void __set__ValidExpressions_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__ValidExpressions_k__BackingField(bool value);
 
-  constexpr bool& __get__EyeFollowingBlendshapesValid_k__BackingField();
+  constexpr bool& __cordl_internal_get__EyeFollowingBlendshapesValid_k__BackingField();
 
-  constexpr bool const& __get__EyeFollowingBlendshapesValid_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__EyeFollowingBlendshapesValid_k__BackingField() const;
 
-  constexpr void __set__EyeFollowingBlendshapesValid_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__EyeFollowingBlendshapesValid_k__BackingField(bool value);
 
-  constexpr ::GlobalNamespace::__OVRPlugin__FaceState& __get__currentFaceState();
+  constexpr ::GlobalNamespace::__OVRPlugin__FaceState& __cordl_internal_get__currentFaceState();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__FaceState const& __get__currentFaceState() const;
+  constexpr ::GlobalNamespace::__OVRPlugin__FaceState const& __cordl_internal_get__currentFaceState() const;
 
-  constexpr void __set__currentFaceState(::GlobalNamespace::__OVRPlugin__FaceState value);
+  constexpr void __cordl_internal_set__currentFaceState(::GlobalNamespace::__OVRPlugin__FaceState value);
 
-  constexpr ::System::Action_1<::StringW>*& __get__onPermissionGranted();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get__onPermissionGranted();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get__onPermissionGranted() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get__onPermissionGranted() const;
 
-  constexpr void __set__onPermissionGranted(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set__onPermissionGranted(::System::Action_1<::StringW>* value);
 
   static inline void setStaticF__trackingInstanceCount(int32_t value);
 

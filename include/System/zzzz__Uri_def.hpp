@@ -91,7 +91,7 @@ MARK_VAL_T(::System::__Uri__Offset);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8870))
 // CS Name: ::Uri::Flags
 struct CORDL_TYPE __Uri__Flags {
@@ -353,7 +353,7 @@ static_assert(offsetof(::System::__Uri__Flags, value__) == 0x0, "Offset mismatch
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 2, packing: Some(1), specified_packing: Some(1) }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8872))
 // CS Name: ::Uri::Offset
 #pragma pack(push, 1)
@@ -424,65 +424,65 @@ static_assert(offsetof(::System::__Uri__Offset, End) == 0xe, "Offset mismatch!")
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8872)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8872))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8871))
 // CS Name: ::Uri::UriInfo*
 class CORDL_TYPE __Uri__UriInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Host, offset 0x10, size 0x8
-  __declspec(property(get = __get_Host, put = __set_Host))::StringW Host;
+  __declspec(property(get = __cordl_internal_get_Host, put = __cordl_internal_set_Host))::StringW Host;
 
   /// @brief Field ScopeId, offset 0x18, size 0x8
-  __declspec(property(get = __get_ScopeId, put = __set_ScopeId))::StringW ScopeId;
+  __declspec(property(get = __cordl_internal_get_ScopeId, put = __cordl_internal_set_ScopeId))::StringW ScopeId;
 
   /// @brief Field String, offset 0x20, size 0x8
-  __declspec(property(get = __get_String, put = __set_String))::StringW String;
+  __declspec(property(get = __cordl_internal_get_String, put = __cordl_internal_set_String))::StringW String;
 
   /// @brief Field Offset, offset 0x28, size 0x10
-  __declspec(property(get = __get_Offset, put = __set_Offset))::System::__Uri__Offset Offset;
+  __declspec(property(get = __cordl_internal_get_Offset, put = __cordl_internal_set_Offset))::System::__Uri__Offset Offset;
 
   /// @brief Field DnsSafeHost, offset 0x38, size 0x8
-  __declspec(property(get = __get_DnsSafeHost, put = __set_DnsSafeHost))::StringW DnsSafeHost;
+  __declspec(property(get = __cordl_internal_get_DnsSafeHost, put = __cordl_internal_set_DnsSafeHost))::StringW DnsSafeHost;
 
   /// @brief Field MoreInfo, offset 0x40, size 0x8
-  __declspec(property(get = __get_MoreInfo, put = __set_MoreInfo))::System::__Uri__MoreInfo* MoreInfo;
+  __declspec(property(get = __cordl_internal_get_MoreInfo, put = __cordl_internal_set_MoreInfo))::System::__Uri__MoreInfo* MoreInfo;
 
-  constexpr ::StringW& __get_Host();
+  constexpr ::StringW& __cordl_internal_get_Host();
 
-  constexpr ::StringW const& __get_Host() const;
+  constexpr ::StringW const& __cordl_internal_get_Host() const;
 
-  constexpr void __set_Host(::StringW value);
+  constexpr void __cordl_internal_set_Host(::StringW value);
 
-  constexpr ::StringW& __get_ScopeId();
+  constexpr ::StringW& __cordl_internal_get_ScopeId();
 
-  constexpr ::StringW const& __get_ScopeId() const;
+  constexpr ::StringW const& __cordl_internal_get_ScopeId() const;
 
-  constexpr void __set_ScopeId(::StringW value);
+  constexpr void __cordl_internal_set_ScopeId(::StringW value);
 
-  constexpr ::StringW& __get_String();
+  constexpr ::StringW& __cordl_internal_get_String();
 
-  constexpr ::StringW const& __get_String() const;
+  constexpr ::StringW const& __cordl_internal_get_String() const;
 
-  constexpr void __set_String(::StringW value);
+  constexpr void __cordl_internal_set_String(::StringW value);
 
-  constexpr ::System::__Uri__Offset& __get_Offset();
+  constexpr ::System::__Uri__Offset& __cordl_internal_get_Offset();
 
-  constexpr ::System::__Uri__Offset const& __get_Offset() const;
+  constexpr ::System::__Uri__Offset const& __cordl_internal_get_Offset() const;
 
-  constexpr void __set_Offset(::System::__Uri__Offset value);
+  constexpr void __cordl_internal_set_Offset(::System::__Uri__Offset value);
 
-  constexpr ::StringW& __get_DnsSafeHost();
+  constexpr ::StringW& __cordl_internal_get_DnsSafeHost();
 
-  constexpr ::StringW const& __get_DnsSafeHost() const;
+  constexpr ::StringW const& __cordl_internal_get_DnsSafeHost() const;
 
-  constexpr void __set_DnsSafeHost(::StringW value);
+  constexpr void __cordl_internal_set_DnsSafeHost(::StringW value);
 
-  constexpr ::System::__Uri__MoreInfo*& __get_MoreInfo();
+  constexpr ::System::__Uri__MoreInfo*& __cordl_internal_get_MoreInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::__Uri__MoreInfo*> const& __get_MoreInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::__Uri__MoreInfo*> const& __cordl_internal_get_MoreInfo() const;
 
-  constexpr void __set_MoreInfo(::System::__Uri__MoreInfo* value);
+  constexpr void __cordl_internal_set_MoreInfo(::System::__Uri__MoreInfo* value);
 
   static inline ::System::__Uri__UriInfo* New_ctor();
 
@@ -543,65 +543,65 @@ static_assert(offsetof(::System::__Uri__UriInfo, ___MoreInfo) == 0x40, "Offset m
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8873))
 // CS Name: ::Uri::MoreInfo*
 class CORDL_TYPE __Uri__MoreInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Path, offset 0x10, size 0x8
-  __declspec(property(get = __get_Path, put = __set_Path))::StringW Path;
+  __declspec(property(get = __cordl_internal_get_Path, put = __cordl_internal_set_Path))::StringW Path;
 
   /// @brief Field Query, offset 0x18, size 0x8
-  __declspec(property(get = __get_Query, put = __set_Query))::StringW Query;
+  __declspec(property(get = __cordl_internal_get_Query, put = __cordl_internal_set_Query))::StringW Query;
 
   /// @brief Field Fragment, offset 0x20, size 0x8
-  __declspec(property(get = __get_Fragment, put = __set_Fragment))::StringW Fragment;
+  __declspec(property(get = __cordl_internal_get_Fragment, put = __cordl_internal_set_Fragment))::StringW Fragment;
 
   /// @brief Field AbsoluteUri, offset 0x28, size 0x8
-  __declspec(property(get = __get_AbsoluteUri, put = __set_AbsoluteUri))::StringW AbsoluteUri;
+  __declspec(property(get = __cordl_internal_get_AbsoluteUri, put = __cordl_internal_set_AbsoluteUri))::StringW AbsoluteUri;
 
   /// @brief Field Hash, offset 0x30, size 0x4
-  __declspec(property(get = __get_Hash, put = __set_Hash)) int32_t Hash;
+  __declspec(property(get = __cordl_internal_get_Hash, put = __cordl_internal_set_Hash)) int32_t Hash;
 
   /// @brief Field RemoteUrl, offset 0x38, size 0x8
-  __declspec(property(get = __get_RemoteUrl, put = __set_RemoteUrl))::StringW RemoteUrl;
+  __declspec(property(get = __cordl_internal_get_RemoteUrl, put = __cordl_internal_set_RemoteUrl))::StringW RemoteUrl;
 
-  constexpr ::StringW& __get_Path();
+  constexpr ::StringW& __cordl_internal_get_Path();
 
-  constexpr ::StringW const& __get_Path() const;
+  constexpr ::StringW const& __cordl_internal_get_Path() const;
 
-  constexpr void __set_Path(::StringW value);
+  constexpr void __cordl_internal_set_Path(::StringW value);
 
-  constexpr ::StringW& __get_Query();
+  constexpr ::StringW& __cordl_internal_get_Query();
 
-  constexpr ::StringW const& __get_Query() const;
+  constexpr ::StringW const& __cordl_internal_get_Query() const;
 
-  constexpr void __set_Query(::StringW value);
+  constexpr void __cordl_internal_set_Query(::StringW value);
 
-  constexpr ::StringW& __get_Fragment();
+  constexpr ::StringW& __cordl_internal_get_Fragment();
 
-  constexpr ::StringW const& __get_Fragment() const;
+  constexpr ::StringW const& __cordl_internal_get_Fragment() const;
 
-  constexpr void __set_Fragment(::StringW value);
+  constexpr void __cordl_internal_set_Fragment(::StringW value);
 
-  constexpr ::StringW& __get_AbsoluteUri();
+  constexpr ::StringW& __cordl_internal_get_AbsoluteUri();
 
-  constexpr ::StringW const& __get_AbsoluteUri() const;
+  constexpr ::StringW const& __cordl_internal_get_AbsoluteUri() const;
 
-  constexpr void __set_AbsoluteUri(::StringW value);
+  constexpr void __cordl_internal_set_AbsoluteUri(::StringW value);
 
-  constexpr int32_t& __get_Hash();
+  constexpr int32_t& __cordl_internal_get_Hash();
 
-  constexpr int32_t const& __get_Hash() const;
+  constexpr int32_t const& __cordl_internal_get_Hash() const;
 
-  constexpr void __set_Hash(int32_t value);
+  constexpr void __cordl_internal_set_Hash(int32_t value);
 
-  constexpr ::StringW& __get_RemoteUrl();
+  constexpr ::StringW& __cordl_internal_get_RemoteUrl();
 
-  constexpr ::StringW const& __get_RemoteUrl() const;
+  constexpr ::StringW const& __cordl_internal_get_RemoteUrl() const;
 
-  constexpr void __set_RemoteUrl(::StringW value);
+  constexpr void __cordl_internal_set_RemoteUrl(::StringW value);
 
   static inline ::System::__Uri__MoreInfo* New_ctor();
 
@@ -662,7 +662,7 @@ static_assert(offsetof(::System::__Uri__MoreInfo, ___RemoteUrl) == 0x38, "Offset
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8874))
 // CS Name: ::Uri::Check
 struct CORDL_TYPE __Uri__Check {
@@ -740,8 +740,8 @@ static_assert(offsetof(::System::__Uri__Check, value__) == 0x0, "Offset mismatch
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8879)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8870)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8880)), TypeDefinitionIndex(TypeDefinitionIndex(8877))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8875)) CS Name: ::System::Uri*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8870)), TypeDefinitionIndex(TypeDefinitionIndex(8877)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8879)), TypeDefinitionIndex(TypeDefinitionIndex(8880))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8875)) CS Name: ::System::Uri*
 class CORDL_TYPE Uri : public ::System::Object {
 public:
   // Declarations
@@ -756,25 +756,25 @@ public:
   using Flags = ::System::__Uri__Flags;
 
   /// @brief Field m_String, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_String, put = __set_m_String))::StringW m_String;
+  __declspec(property(get = __cordl_internal_get_m_String, put = __cordl_internal_set_m_String))::StringW m_String;
 
   /// @brief Field m_originalUnicodeString, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_originalUnicodeString, put = __set_m_originalUnicodeString))::StringW m_originalUnicodeString;
+  __declspec(property(get = __cordl_internal_get_m_originalUnicodeString, put = __cordl_internal_set_m_originalUnicodeString))::StringW m_originalUnicodeString;
 
   /// @brief Field m_Syntax, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Syntax, put = __set_m_Syntax))::System::UriParser* m_Syntax;
+  __declspec(property(get = __cordl_internal_get_m_Syntax, put = __cordl_internal_set_m_Syntax))::System::UriParser* m_Syntax;
 
   /// @brief Field m_DnsSafeHost, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_DnsSafeHost, put = __set_m_DnsSafeHost))::StringW m_DnsSafeHost;
+  __declspec(property(get = __cordl_internal_get_m_DnsSafeHost, put = __cordl_internal_set_m_DnsSafeHost))::StringW m_DnsSafeHost;
 
   /// @brief Field m_Flags, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Flags, put = __set_m_Flags))::System::__Uri__Flags m_Flags;
+  __declspec(property(get = __cordl_internal_get_m_Flags, put = __cordl_internal_set_m_Flags))::System::__Uri__Flags m_Flags;
 
   /// @brief Field m_Info, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_Info, put = __set_m_Info))::System::__Uri__UriInfo* m_Info;
+  __declspec(property(get = __cordl_internal_get_m_Info, put = __cordl_internal_set_m_Info))::System::__Uri__UriInfo* m_Info;
 
   /// @brief Field m_iriParsing, offset 0x40, size 0x1
-  __declspec(property(get = __get_m_iriParsing, put = __set_m_iriParsing)) bool m_iriParsing;
+  __declspec(property(get = __cordl_internal_get_m_iriParsing, put = __cordl_internal_set_m_iriParsing)) bool m_iriParsing;
 
   /// @brief Field UriSchemeFile, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_UriSchemeFile, put = setStaticF_UriSchemeFile))::StringW UriSchemeFile;
@@ -916,47 +916,47 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::StringW& __get_m_String();
+  constexpr ::StringW& __cordl_internal_get_m_String();
 
-  constexpr ::StringW const& __get_m_String() const;
+  constexpr ::StringW const& __cordl_internal_get_m_String() const;
 
-  constexpr void __set_m_String(::StringW value);
+  constexpr void __cordl_internal_set_m_String(::StringW value);
 
-  constexpr ::StringW& __get_m_originalUnicodeString();
+  constexpr ::StringW& __cordl_internal_get_m_originalUnicodeString();
 
-  constexpr ::StringW const& __get_m_originalUnicodeString() const;
+  constexpr ::StringW const& __cordl_internal_get_m_originalUnicodeString() const;
 
-  constexpr void __set_m_originalUnicodeString(::StringW value);
+  constexpr void __cordl_internal_set_m_originalUnicodeString(::StringW value);
 
-  constexpr ::System::UriParser*& __get_m_Syntax();
+  constexpr ::System::UriParser*& __cordl_internal_get_m_Syntax();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::UriParser*> const& __get_m_Syntax() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::UriParser*> const& __cordl_internal_get_m_Syntax() const;
 
-  constexpr void __set_m_Syntax(::System::UriParser* value);
+  constexpr void __cordl_internal_set_m_Syntax(::System::UriParser* value);
 
-  constexpr ::StringW& __get_m_DnsSafeHost();
+  constexpr ::StringW& __cordl_internal_get_m_DnsSafeHost();
 
-  constexpr ::StringW const& __get_m_DnsSafeHost() const;
+  constexpr ::StringW const& __cordl_internal_get_m_DnsSafeHost() const;
 
-  constexpr void __set_m_DnsSafeHost(::StringW value);
+  constexpr void __cordl_internal_set_m_DnsSafeHost(::StringW value);
 
-  constexpr ::System::__Uri__Flags& __get_m_Flags();
+  constexpr ::System::__Uri__Flags& __cordl_internal_get_m_Flags();
 
-  constexpr ::System::__Uri__Flags const& __get_m_Flags() const;
+  constexpr ::System::__Uri__Flags const& __cordl_internal_get_m_Flags() const;
 
-  constexpr void __set_m_Flags(::System::__Uri__Flags value);
+  constexpr void __cordl_internal_set_m_Flags(::System::__Uri__Flags value);
 
-  constexpr ::System::__Uri__UriInfo*& __get_m_Info();
+  constexpr ::System::__Uri__UriInfo*& __cordl_internal_get_m_Info();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::__Uri__UriInfo*> const& __get_m_Info() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::__Uri__UriInfo*> const& __cordl_internal_get_m_Info() const;
 
-  constexpr void __set_m_Info(::System::__Uri__UriInfo* value);
+  constexpr void __cordl_internal_set_m_Info(::System::__Uri__UriInfo* value);
 
-  constexpr bool& __get_m_iriParsing();
+  constexpr bool& __cordl_internal_get_m_iriParsing();
 
-  constexpr bool const& __get_m_iriParsing() const;
+  constexpr bool const& __cordl_internal_get_m_iriParsing() const;
 
-  constexpr void __set_m_iriParsing(bool value);
+  constexpr void __cordl_internal_set_m_iriParsing(bool value);
 
   static inline void setStaticF_UriSchemeFile(::StringW value);
 

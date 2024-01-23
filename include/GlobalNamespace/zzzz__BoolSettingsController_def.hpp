@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::BoolSettingsController);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16155))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16155))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16143))
 // CS Name: ::BoolSettingsController*
 class CORDL_TYPE BoolSettingsController : public ::GlobalNamespace::SwitchSettingsController {
 public:
   // Declarations
   /// @brief Field _settingsValue, offset 0x28, size 0x8
-  __declspec(property(get = __get__settingsValue, put = __set__settingsValue))::GlobalNamespace::BoolSO* _settingsValue;
+  __declspec(property(get = __cordl_internal_get__settingsValue, put = __cordl_internal_set__settingsValue))::UnityW<::GlobalNamespace::BoolSO> _settingsValue;
 
-  constexpr ::GlobalNamespace::BoolSO*& __get__settingsValue();
+  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__settingsValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& __get__settingsValue() const;
+  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__settingsValue() const;
 
-  constexpr void __set__settingsValue(::GlobalNamespace::BoolSO* value);
+  constexpr void __cordl_internal_set__settingsValue(::UnityW<::GlobalNamespace::BoolSO> value);
 
   /// @brief Method GetInitValue, addr 0x23e41b8, size 0x48, virtual true, abstract: false, final false
   inline bool GetInitValue();
@@ -58,7 +58,7 @@ protected:
 
 public:
   /// @brief Field _settingsValue, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::BoolSO* ____settingsValue;
+  ::UnityW<::GlobalNamespace::BoolSO> ____settingsValue;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

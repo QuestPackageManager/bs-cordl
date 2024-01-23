@@ -24,14 +24,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XDocumentTypeWrapper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12065))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12065))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12059))
 // CS Name: ::Newtonsoft.Json.Converters::XDocumentTypeWrapper*
 class CORDL_TYPE XDocumentTypeWrapper : public ::Newtonsoft::Json::Converters::XObjectWrapper {
 public:
   // Declarations
   /// @brief Field _documentType, offset 0x18, size 0x8
-  __declspec(property(get = __get__documentType, put = __set__documentType))::System::Xml::Linq::XDocumentType* _documentType;
+  __declspec(property(get = __cordl_internal_get__documentType, put = __cordl_internal_set__documentType))::System::Xml::Linq::XDocumentType* _documentType;
 
   __declspec(property(get = get_Name))::StringW Name;
 
@@ -55,11 +55,11 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  constexpr ::System::Xml::Linq::XDocumentType*& __get__documentType();
+  constexpr ::System::Xml::Linq::XDocumentType*& __cordl_internal_get__documentType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XDocumentType*> const& __get__documentType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XDocumentType*> const& __cordl_internal_get__documentType() const;
 
-  constexpr void __set__documentType(::System::Xml::Linq::XDocumentType* value);
+  constexpr void __cordl_internal_set__documentType(::System::Xml::Linq::XDocumentType* value);
 
   static inline ::Newtonsoft::Json::Converters::XDocumentTypeWrapper* New_ctor(::System::Xml::Linq::XDocumentType* documentType);
 

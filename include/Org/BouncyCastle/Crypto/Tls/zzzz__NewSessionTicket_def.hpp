@@ -19,33 +19,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::NewSessionTicket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1257))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::NewSessionTicket*
 class CORDL_TYPE NewSessionTicket : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mTicketLifetimeHint, offset 0x10, size 0x8
-  __declspec(property(get = __get_mTicketLifetimeHint, put = __set_mTicketLifetimeHint)) int64_t mTicketLifetimeHint;
+  __declspec(property(get = __cordl_internal_get_mTicketLifetimeHint, put = __cordl_internal_set_mTicketLifetimeHint)) int64_t mTicketLifetimeHint;
 
   /// @brief Field mTicket, offset 0x18, size 0x8
-  __declspec(property(get = __get_mTicket, put = __set_mTicket))::ArrayW<uint8_t, ::Array<uint8_t>*> mTicket;
+  __declspec(property(get = __cordl_internal_get_mTicket, put = __cordl_internal_set_mTicket))::ArrayW<uint8_t, ::Array<uint8_t>*> mTicket;
 
   __declspec(property(get = get_TicketLifetimeHint)) int64_t TicketLifetimeHint;
 
   __declspec(property(get = get_Ticket))::ArrayW<uint8_t, ::Array<uint8_t>*> Ticket;
 
-  constexpr int64_t& __get_mTicketLifetimeHint();
+  constexpr int64_t& __cordl_internal_get_mTicketLifetimeHint();
 
-  constexpr int64_t const& __get_mTicketLifetimeHint() const;
+  constexpr int64_t const& __cordl_internal_get_mTicketLifetimeHint() const;
 
-  constexpr void __set_mTicketLifetimeHint(int64_t value);
+  constexpr void __cordl_internal_set_mTicketLifetimeHint(int64_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mTicket();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mTicket();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mTicket() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mTicket() const;
 
-  constexpr void __set_mTicket(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mTicket(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::NewSessionTicket* New_ctor(int64_t ticketLifetimeHint, ::ArrayW<uint8_t, ::Array<uint8_t>*> ticket);
 

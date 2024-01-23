@@ -47,74 +47,75 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__TextDataP
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14018))
 // CS Name: ::TextDataProvider::InternalOp*
 class CORDL_TYPE __TextDataProvider__InternalOp : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Provider, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Provider, put = __set_m_Provider))::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* m_Provider;
+  __declspec(property(get = __cordl_internal_get_m_Provider, put = __cordl_internal_set_m_Provider))::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* m_Provider;
 
   /// @brief Field m_RequestOperation, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_RequestOperation, put = __set_m_RequestOperation))::UnityEngine::Networking::UnityWebRequestAsyncOperation* m_RequestOperation;
+  __declspec(property(get = __cordl_internal_get_m_RequestOperation, put = __cordl_internal_set_m_RequestOperation))::UnityEngine::Networking::UnityWebRequestAsyncOperation* m_RequestOperation;
 
   /// @brief Field m_RequestQueueOperation, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_RequestQueueOperation, put = __set_m_RequestQueueOperation))::UnityEngine::ResourceManagement::WebRequestQueueOperation* m_RequestQueueOperation;
+  __declspec(property(get = __cordl_internal_get_m_RequestQueueOperation,
+                      put = __cordl_internal_set_m_RequestQueueOperation))::UnityEngine::ResourceManagement::WebRequestQueueOperation* m_RequestQueueOperation;
 
   /// @brief Field m_PI, offset 0x28, size 0x18
-  __declspec(property(get = __get_m_PI, put = __set_m_PI))::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_PI;
+  __declspec(property(get = __cordl_internal_get_m_PI, put = __cordl_internal_set_m_PI))::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_PI;
 
   /// @brief Field m_IgnoreFailures, offset 0x40, size 0x1
-  __declspec(property(get = __get_m_IgnoreFailures, put = __set_m_IgnoreFailures)) bool m_IgnoreFailures;
+  __declspec(property(get = __cordl_internal_get_m_IgnoreFailures, put = __cordl_internal_set_m_IgnoreFailures)) bool m_IgnoreFailures;
 
   /// @brief Field m_Complete, offset 0x41, size 0x1
-  __declspec(property(get = __get_m_Complete, put = __set_m_Complete)) bool m_Complete;
+  __declspec(property(get = __cordl_internal_get_m_Complete, put = __cordl_internal_set_m_Complete)) bool m_Complete;
 
   /// @brief Field m_Timeout, offset 0x44, size 0x4
-  __declspec(property(get = __get_m_Timeout, put = __set_m_Timeout)) int32_t m_Timeout;
+  __declspec(property(get = __cordl_internal_get_m_Timeout, put = __cordl_internal_set_m_Timeout)) int32_t m_Timeout;
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*& __get_m_Provider();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*& __cordl_internal_get_m_Provider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*> const& __get_m_Provider() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider*> const& __cordl_internal_get_m_Provider() const;
 
-  constexpr void __set_m_Provider(::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* value);
+  constexpr void __cordl_internal_set_m_Provider(::UnityEngine::ResourceManagement::ResourceProviders::TextDataProvider* value);
 
-  constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& __get_m_RequestOperation();
+  constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& __cordl_internal_get_m_RequestOperation();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequestAsyncOperation*> const& __get_m_RequestOperation() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequestAsyncOperation*> const& __cordl_internal_get_m_RequestOperation() const;
 
-  constexpr void __set_m_RequestOperation(::UnityEngine::Networking::UnityWebRequestAsyncOperation* value);
+  constexpr void __cordl_internal_set_m_RequestOperation(::UnityEngine::Networking::UnityWebRequestAsyncOperation* value);
 
-  constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation*& __get_m_RequestQueueOperation();
+  constexpr ::UnityEngine::ResourceManagement::WebRequestQueueOperation*& __cordl_internal_get_m_RequestQueueOperation();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::WebRequestQueueOperation*> const& __get_m_RequestQueueOperation() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::WebRequestQueueOperation*> const& __cordl_internal_get_m_RequestQueueOperation() const;
 
-  constexpr void __set_m_RequestQueueOperation(::UnityEngine::ResourceManagement::WebRequestQueueOperation* value);
+  constexpr void __cordl_internal_set_m_RequestQueueOperation(::UnityEngine::ResourceManagement::WebRequestQueueOperation* value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& __get_m_PI();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& __cordl_internal_get_m_PI();
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& __get_m_PI() const;
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& __cordl_internal_get_m_PI() const;
 
-  constexpr void __set_m_PI(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
+  constexpr void __cordl_internal_set_m_PI(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
 
-  constexpr bool& __get_m_IgnoreFailures();
+  constexpr bool& __cordl_internal_get_m_IgnoreFailures();
 
-  constexpr bool const& __get_m_IgnoreFailures() const;
+  constexpr bool const& __cordl_internal_get_m_IgnoreFailures() const;
 
-  constexpr void __set_m_IgnoreFailures(bool value);
+  constexpr void __cordl_internal_set_m_IgnoreFailures(bool value);
 
-  constexpr bool& __get_m_Complete();
+  constexpr bool& __cordl_internal_get_m_Complete();
 
-  constexpr bool const& __get_m_Complete() const;
+  constexpr bool const& __cordl_internal_get_m_Complete() const;
 
-  constexpr void __set_m_Complete(bool value);
+  constexpr void __cordl_internal_set_m_Complete(bool value);
 
-  constexpr int32_t& __get_m_Timeout();
+  constexpr int32_t& __cordl_internal_get_m_Timeout();
 
-  constexpr int32_t const& __get_m_Timeout() const;
+  constexpr int32_t const& __cordl_internal_get_m_Timeout() const;
 
-  constexpr void __set_m_Timeout(int32_t value);
+  constexpr void __cordl_internal_set_m_Timeout(int32_t value);
 
   /// @brief Method GetPercentComplete, addr 0x2bda3d4, size 0x18, virtual false, abstract: false, final false
   inline float_t GetPercentComplete();
@@ -204,7 +205,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__T
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14013))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14013))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14019))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::TextDataProvider*
 class CORDL_TYPE TextDataProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {
@@ -213,15 +214,15 @@ public:
   using InternalOp = ::UnityEngine::ResourceManagement::ResourceProviders::__TextDataProvider__InternalOp;
 
   /// @brief Field <IgnoreFailures>k__BackingField, offset 0x1c, size 0x1
-  __declspec(property(get = __get__IgnoreFailures_k__BackingField, put = __set__IgnoreFailures_k__BackingField)) bool _IgnoreFailures_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IgnoreFailures_k__BackingField, put = __cordl_internal_set__IgnoreFailures_k__BackingField)) bool _IgnoreFailures_k__BackingField;
 
   __declspec(property(get = get_IgnoreFailures, put = set_IgnoreFailures)) bool IgnoreFailures;
 
-  constexpr bool& __get__IgnoreFailures_k__BackingField();
+  constexpr bool& __cordl_internal_get__IgnoreFailures_k__BackingField();
 
-  constexpr bool const& __get__IgnoreFailures_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IgnoreFailures_k__BackingField() const;
 
-  constexpr void __set__IgnoreFailures_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IgnoreFailures_k__BackingField(bool value);
 
   /// @brief Method get_IgnoreFailures, addr 0x2bd9f3c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreFailures();

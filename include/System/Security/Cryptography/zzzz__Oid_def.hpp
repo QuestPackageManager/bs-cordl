@@ -19,42 +19,42 @@ MARK_REF_PTR_T(::System::Security::Cryptography::Oid);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8975))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8975))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8972))
 // CS Name: ::System.Security.Cryptography::Oid*
 class CORDL_TYPE Oid : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _value, offset 0x10, size 0x8
-  __declspec(property(get = __get__value, put = __set__value))::StringW _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::StringW _value;
 
   /// @brief Field _friendlyName, offset 0x18, size 0x8
-  __declspec(property(get = __get__friendlyName, put = __set__friendlyName))::StringW _friendlyName;
+  __declspec(property(get = __cordl_internal_get__friendlyName, put = __cordl_internal_set__friendlyName))::StringW _friendlyName;
 
   /// @brief Field _group, offset 0x20, size 0x4
-  __declspec(property(get = __get__group, put = __set__group))::System::Security::Cryptography::OidGroup _group;
+  __declspec(property(get = __cordl_internal_get__group, put = __cordl_internal_set__group))::System::Security::Cryptography::OidGroup _group;
 
   __declspec(property(get = get_Value, put = set_Value))::StringW Value;
 
   __declspec(property(get = get_FriendlyName))::StringW FriendlyName;
 
-  constexpr ::StringW& __get__value();
+  constexpr ::StringW& __cordl_internal_get__value();
 
-  constexpr ::StringW const& __get__value() const;
+  constexpr ::StringW const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(::StringW value);
+  constexpr void __cordl_internal_set__value(::StringW value);
 
-  constexpr ::StringW& __get__friendlyName();
+  constexpr ::StringW& __cordl_internal_get__friendlyName();
 
-  constexpr ::StringW const& __get__friendlyName() const;
+  constexpr ::StringW const& __cordl_internal_get__friendlyName() const;
 
-  constexpr void __set__friendlyName(::StringW value);
+  constexpr void __cordl_internal_set__friendlyName(::StringW value);
 
-  constexpr ::System::Security::Cryptography::OidGroup& __get__group();
+  constexpr ::System::Security::Cryptography::OidGroup& __cordl_internal_get__group();
 
-  constexpr ::System::Security::Cryptography::OidGroup const& __get__group() const;
+  constexpr ::System::Security::Cryptography::OidGroup const& __cordl_internal_get__group() const;
 
-  constexpr void __set__group(::System::Security::Cryptography::OidGroup value);
+  constexpr void __cordl_internal_set__group(::System::Security::Cryptography::OidGroup value);
 
   static inline ::System::Security::Cryptography::Oid* New_ctor();
 

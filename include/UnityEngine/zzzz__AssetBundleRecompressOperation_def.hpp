@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::AssetBundleRecompressOperation);
 // SizeInfo { instance_size: 32, native_size: 16, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10201))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10201))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16103))
 // CS Name: ::UnityEngine::AssetBundleRecompressOperation*
 class CORDL_TYPE AssetBundleRecompressOperation : public ::UnityEngine::AsyncOperation {

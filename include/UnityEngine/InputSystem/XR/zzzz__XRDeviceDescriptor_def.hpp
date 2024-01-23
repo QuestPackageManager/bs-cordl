@@ -23,65 +23,66 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::XRDeviceDescriptor);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15617)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15617))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6336))
 // CS Name: ::UnityEngine.InputSystem.XR::XRDeviceDescriptor*
 class CORDL_TYPE XRDeviceDescriptor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field deviceName, offset 0x10, size 0x8
-  __declspec(property(get = __get_deviceName, put = __set_deviceName))::StringW deviceName;
+  __declspec(property(get = __cordl_internal_get_deviceName, put = __cordl_internal_set_deviceName))::StringW deviceName;
 
   /// @brief Field manufacturer, offset 0x18, size 0x8
-  __declspec(property(get = __get_manufacturer, put = __set_manufacturer))::StringW manufacturer;
+  __declspec(property(get = __cordl_internal_get_manufacturer, put = __cordl_internal_set_manufacturer))::StringW manufacturer;
 
   /// @brief Field serialNumber, offset 0x20, size 0x8
-  __declspec(property(get = __get_serialNumber, put = __set_serialNumber))::StringW serialNumber;
+  __declspec(property(get = __cordl_internal_get_serialNumber, put = __cordl_internal_set_serialNumber))::StringW serialNumber;
 
   /// @brief Field characteristics, offset 0x28, size 0x4
-  __declspec(property(get = __get_characteristics, put = __set_characteristics))::UnityEngine::XR::InputDeviceCharacteristics characteristics;
+  __declspec(property(get = __cordl_internal_get_characteristics, put = __cordl_internal_set_characteristics))::UnityEngine::XR::InputDeviceCharacteristics characteristics;
 
   /// @brief Field deviceId, offset 0x2c, size 0x4
-  __declspec(property(get = __get_deviceId, put = __set_deviceId)) int32_t deviceId;
+  __declspec(property(get = __cordl_internal_get_deviceId, put = __cordl_internal_set_deviceId)) int32_t deviceId;
 
   /// @brief Field inputFeatures, offset 0x30, size 0x8
-  __declspec(property(get = __get_inputFeatures, put = __set_inputFeatures))::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>* inputFeatures;
+  __declspec(property(get = __cordl_internal_get_inputFeatures,
+                      put = __cordl_internal_set_inputFeatures))::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>* inputFeatures;
 
-  constexpr ::StringW& __get_deviceName();
+  constexpr ::StringW& __cordl_internal_get_deviceName();
 
-  constexpr ::StringW const& __get_deviceName() const;
+  constexpr ::StringW const& __cordl_internal_get_deviceName() const;
 
-  constexpr void __set_deviceName(::StringW value);
+  constexpr void __cordl_internal_set_deviceName(::StringW value);
 
-  constexpr ::StringW& __get_manufacturer();
+  constexpr ::StringW& __cordl_internal_get_manufacturer();
 
-  constexpr ::StringW const& __get_manufacturer() const;
+  constexpr ::StringW const& __cordl_internal_get_manufacturer() const;
 
-  constexpr void __set_manufacturer(::StringW value);
+  constexpr void __cordl_internal_set_manufacturer(::StringW value);
 
-  constexpr ::StringW& __get_serialNumber();
+  constexpr ::StringW& __cordl_internal_get_serialNumber();
 
-  constexpr ::StringW const& __get_serialNumber() const;
+  constexpr ::StringW const& __cordl_internal_get_serialNumber() const;
 
-  constexpr void __set_serialNumber(::StringW value);
+  constexpr void __cordl_internal_set_serialNumber(::StringW value);
 
-  constexpr ::UnityEngine::XR::InputDeviceCharacteristics& __get_characteristics();
+  constexpr ::UnityEngine::XR::InputDeviceCharacteristics& __cordl_internal_get_characteristics();
 
-  constexpr ::UnityEngine::XR::InputDeviceCharacteristics const& __get_characteristics() const;
+  constexpr ::UnityEngine::XR::InputDeviceCharacteristics const& __cordl_internal_get_characteristics() const;
 
-  constexpr void __set_characteristics(::UnityEngine::XR::InputDeviceCharacteristics value);
+  constexpr void __cordl_internal_set_characteristics(::UnityEngine::XR::InputDeviceCharacteristics value);
 
-  constexpr int32_t& __get_deviceId();
+  constexpr int32_t& __cordl_internal_get_deviceId();
 
-  constexpr int32_t const& __get_deviceId() const;
+  constexpr int32_t const& __cordl_internal_get_deviceId() const;
 
-  constexpr void __set_deviceId(int32_t value);
+  constexpr void __cordl_internal_set_deviceId(int32_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>*& __get_inputFeatures();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>*& __cordl_internal_get_inputFeatures();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>*> const& __get_inputFeatures() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>*> const& __cordl_internal_get_inputFeatures() const;
 
-  constexpr void __set_inputFeatures(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>* value);
+  constexpr void __cordl_internal_set_inputFeatures(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>* value);
 
   /// @brief Method ToJson, addr 0x2ac8328, size 0x8, virtual false, abstract: false, final false
   inline ::StringW ToJson();

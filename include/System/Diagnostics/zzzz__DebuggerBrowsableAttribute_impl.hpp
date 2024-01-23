@@ -11,32 +11,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x7c;
   constexpr static std::size_t addrs = 0x2579c48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DebuggerBrowsableAttribute*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Diagnostics::DebuggerBrowsableState>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DebuggerBrowsableAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Diagnostics::DebuggerBrowsableState>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Diagnostics::DebuggerBrowsableState& System::Diagnostics::DebuggerBrowsableAttribute::__get_state() {
+constexpr ::System::Diagnostics::DebuggerBrowsableState& System::Diagnostics::DebuggerBrowsableAttribute::__cordl_internal_get_state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
-constexpr ::System::Diagnostics::DebuggerBrowsableState const& System::Diagnostics::DebuggerBrowsableAttribute::__get_state() const {
+constexpr ::System::Diagnostics::DebuggerBrowsableState const& System::Diagnostics::DebuggerBrowsableAttribute::__cordl_internal_get_state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___state;
 }
-constexpr void System::Diagnostics::DebuggerBrowsableAttribute::__set_state(::System::Diagnostics::DebuggerBrowsableState value) {
+constexpr void System::Diagnostics::DebuggerBrowsableAttribute::__cordl_internal_set_state(::System::Diagnostics::DebuggerBrowsableState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___state = value;
 }
 inline ::System::Diagnostics::DebuggerBrowsableAttribute* System::Diagnostics::DebuggerBrowsableAttribute::New_ctor(::System::Diagnostics::DebuggerBrowsableState state) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Diagnostics::DebuggerBrowsableAttribute*>(state));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Diagnostics::DebuggerBrowsableAttribute*>(state));
 }
 inline void System::Diagnostics::DebuggerBrowsableAttribute::_ctor(::System::Diagnostics::DebuggerBrowsableState state) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DebuggerBrowsableAttribute*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Diagnostics::DebuggerBrowsableState>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DebuggerBrowsableAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Diagnostics::DebuggerBrowsableState>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state);
 }
 // Ctor Parameters []

@@ -16,92 +16,92 @@ MARK_REF_PTR_T(::TMPro::TMP_TextElement_Legacy);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12449))
 // CS Name: ::TMPro::TMP_TextElement_Legacy*
 class CORDL_TYPE TMP_TextElement_Legacy : public ::System::Object {
 public:
   // Declarations
   /// @brief Field id, offset 0x10, size 0x4
-  __declspec(property(get = __get_id, put = __set_id)) int32_t id;
+  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id)) int32_t id;
 
   /// @brief Field x, offset 0x14, size 0x4
-  __declspec(property(get = __get_x, put = __set_x)) float_t x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) float_t x;
 
   /// @brief Field y, offset 0x18, size 0x4
-  __declspec(property(get = __get_y, put = __set_y)) float_t y;
+  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) float_t y;
 
   /// @brief Field width, offset 0x1c, size 0x4
-  __declspec(property(get = __get_width, put = __set_width)) float_t width;
+  __declspec(property(get = __cordl_internal_get_width, put = __cordl_internal_set_width)) float_t width;
 
   /// @brief Field height, offset 0x20, size 0x4
-  __declspec(property(get = __get_height, put = __set_height)) float_t height;
+  __declspec(property(get = __cordl_internal_get_height, put = __cordl_internal_set_height)) float_t height;
 
   /// @brief Field xOffset, offset 0x24, size 0x4
-  __declspec(property(get = __get_xOffset, put = __set_xOffset)) float_t xOffset;
+  __declspec(property(get = __cordl_internal_get_xOffset, put = __cordl_internal_set_xOffset)) float_t xOffset;
 
   /// @brief Field yOffset, offset 0x28, size 0x4
-  __declspec(property(get = __get_yOffset, put = __set_yOffset)) float_t yOffset;
+  __declspec(property(get = __cordl_internal_get_yOffset, put = __cordl_internal_set_yOffset)) float_t yOffset;
 
   /// @brief Field xAdvance, offset 0x2c, size 0x4
-  __declspec(property(get = __get_xAdvance, put = __set_xAdvance)) float_t xAdvance;
+  __declspec(property(get = __cordl_internal_get_xAdvance, put = __cordl_internal_set_xAdvance)) float_t xAdvance;
 
   /// @brief Field scale, offset 0x30, size 0x4
-  __declspec(property(get = __get_scale, put = __set_scale)) float_t scale;
+  __declspec(property(get = __cordl_internal_get_scale, put = __cordl_internal_set_scale)) float_t scale;
 
-  constexpr int32_t& __get_id();
+  constexpr int32_t& __cordl_internal_get_id();
 
-  constexpr int32_t const& __get_id() const;
+  constexpr int32_t const& __cordl_internal_get_id() const;
 
-  constexpr void __set_id(int32_t value);
+  constexpr void __cordl_internal_set_id(int32_t value);
 
-  constexpr float_t& __get_x();
+  constexpr float_t& __cordl_internal_get_x();
 
-  constexpr float_t const& __get_x() const;
+  constexpr float_t const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(float_t value);
+  constexpr void __cordl_internal_set_x(float_t value);
 
-  constexpr float_t& __get_y();
+  constexpr float_t& __cordl_internal_get_y();
 
-  constexpr float_t const& __get_y() const;
+  constexpr float_t const& __cordl_internal_get_y() const;
 
-  constexpr void __set_y(float_t value);
+  constexpr void __cordl_internal_set_y(float_t value);
 
-  constexpr float_t& __get_width();
+  constexpr float_t& __cordl_internal_get_width();
 
-  constexpr float_t const& __get_width() const;
+  constexpr float_t const& __cordl_internal_get_width() const;
 
-  constexpr void __set_width(float_t value);
+  constexpr void __cordl_internal_set_width(float_t value);
 
-  constexpr float_t& __get_height();
+  constexpr float_t& __cordl_internal_get_height();
 
-  constexpr float_t const& __get_height() const;
+  constexpr float_t const& __cordl_internal_get_height() const;
 
-  constexpr void __set_height(float_t value);
+  constexpr void __cordl_internal_set_height(float_t value);
 
-  constexpr float_t& __get_xOffset();
+  constexpr float_t& __cordl_internal_get_xOffset();
 
-  constexpr float_t const& __get_xOffset() const;
+  constexpr float_t const& __cordl_internal_get_xOffset() const;
 
-  constexpr void __set_xOffset(float_t value);
+  constexpr void __cordl_internal_set_xOffset(float_t value);
 
-  constexpr float_t& __get_yOffset();
+  constexpr float_t& __cordl_internal_get_yOffset();
 
-  constexpr float_t const& __get_yOffset() const;
+  constexpr float_t const& __cordl_internal_get_yOffset() const;
 
-  constexpr void __set_yOffset(float_t value);
+  constexpr void __cordl_internal_set_yOffset(float_t value);
 
-  constexpr float_t& __get_xAdvance();
+  constexpr float_t& __cordl_internal_get_xAdvance();
 
-  constexpr float_t const& __get_xAdvance() const;
+  constexpr float_t const& __cordl_internal_get_xAdvance() const;
 
-  constexpr void __set_xAdvance(float_t value);
+  constexpr void __cordl_internal_set_xAdvance(float_t value);
 
-  constexpr float_t& __get_scale();
+  constexpr float_t& __cordl_internal_get_scale();
 
-  constexpr float_t const& __get_scale() const;
+  constexpr float_t const& __cordl_internal_get_scale() const;
 
-  constexpr void __set_scale(float_t value);
+  constexpr void __cordl_internal_set_scale(float_t value);
 
   static inline ::TMPro::TMP_TextElement_Legacy* New_ctor();
 

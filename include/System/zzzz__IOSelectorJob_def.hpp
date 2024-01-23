@@ -30,20 +30,20 @@ MARK_REF_PTR_T(::System::IOSelectorJob);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8893))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8893))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8896))
 // CS Name: ::System::IOSelectorJob*
 class CORDL_TYPE IOSelectorJob : public ::System::Object {
 public:
   // Declarations
   /// @brief Field operation, offset 0x10, size 0x4
-  __declspec(property(get = __get_operation, put = __set_operation))::System::IOOperation operation;
+  __declspec(property(get = __cordl_internal_get_operation, put = __cordl_internal_set_operation))::System::IOOperation operation;
 
   /// @brief Field callback, offset 0x18, size 0x8
-  __declspec(property(get = __get_callback, put = __set_callback))::System::IOAsyncCallback* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::IOAsyncCallback* callback;
 
   /// @brief Field state, offset 0x20, size 0x8
-  __declspec(property(get = __get_state, put = __set_state))::System::IOAsyncResult* state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::IOAsyncResult* state;
 
   /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
   constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
@@ -51,23 +51,23 @@ public:
   /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
   constexpr ::System::Threading::IThreadPoolWorkItem* i___System__Threading__IThreadPoolWorkItem() noexcept;
 
-  constexpr ::System::IOOperation& __get_operation();
+  constexpr ::System::IOOperation& __cordl_internal_get_operation();
 
-  constexpr ::System::IOOperation const& __get_operation() const;
+  constexpr ::System::IOOperation const& __cordl_internal_get_operation() const;
 
-  constexpr void __set_operation(::System::IOOperation value);
+  constexpr void __cordl_internal_set_operation(::System::IOOperation value);
 
-  constexpr ::System::IOAsyncCallback*& __get_callback();
+  constexpr ::System::IOAsyncCallback*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IOAsyncCallback*> const& __get_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IOAsyncCallback*> const& __cordl_internal_get_callback() const;
 
-  constexpr void __set_callback(::System::IOAsyncCallback* value);
+  constexpr void __cordl_internal_set_callback(::System::IOAsyncCallback* value);
 
-  constexpr ::System::IOAsyncResult*& __get_state();
+  constexpr ::System::IOAsyncResult*& __cordl_internal_get_state();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IOAsyncResult*> const& __get_state() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IOAsyncResult*> const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(::System::IOAsyncResult* value);
+  constexpr void __cordl_internal_set_state(::System::IOAsyncResult* value);
 
   static inline ::System::IOSelectorJob* New_ctor(::System::IOOperation operation, ::System::IOAsyncCallback* callback, ::System::IOAsyncResult* state);
 

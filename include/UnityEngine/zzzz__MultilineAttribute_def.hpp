@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::UnityEngine::MultilineAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10178))
 // CS Name: ::UnityEngine::MultilineAttribute*
 class CORDL_TYPE MultilineAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   /// @brief Field lines, offset 0x10, size 0x4
-  __declspec(property(get = __get_lines, put = __set_lines)) int32_t lines;
+  __declspec(property(get = __cordl_internal_get_lines, put = __cordl_internal_set_lines)) int32_t lines;
 
-  constexpr int32_t& __get_lines();
+  constexpr int32_t& __cordl_internal_get_lines();
 
-  constexpr int32_t const& __get_lines() const;
+  constexpr int32_t const& __cordl_internal_get_lines() const;
 
-  constexpr void __set_lines(int32_t value);
+  constexpr void __cordl_internal_set_lines(int32_t value);
 
   static inline ::UnityEngine::MultilineAttribute* New_ctor();
 

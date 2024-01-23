@@ -50,32 +50,32 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::SM2Signer);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1153))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::SM2Signer*
 class CORDL_TYPE SM2Signer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field kCalculator, offset 0x10, size 0x8
-  __declspec(property(get = __get_kCalculator, put = __set_kCalculator))::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* kCalculator;
+  __declspec(property(get = __cordl_internal_get_kCalculator, put = __cordl_internal_set_kCalculator))::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* kCalculator;
 
   /// @brief Field digest, offset 0x18, size 0x8
-  __declspec(property(get = __get_digest, put = __set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
 
   /// @brief Field encoding, offset 0x20, size 0x8
-  __declspec(property(get = __get_encoding, put = __set_encoding))::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding;
+  __declspec(property(get = __cordl_internal_get_encoding, put = __cordl_internal_set_encoding))::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* encoding;
 
   /// @brief Field ecParams, offset 0x28, size 0x8
-  __declspec(property(get = __get_ecParams, put = __set_ecParams))::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ecParams;
+  __declspec(property(get = __cordl_internal_get_ecParams, put = __cordl_internal_set_ecParams))::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ecParams;
 
   /// @brief Field pubPoint, offset 0x30, size 0x8
-  __declspec(property(get = __get_pubPoint, put = __set_pubPoint))::Org::BouncyCastle::Math::EC::ECPoint* pubPoint;
+  __declspec(property(get = __cordl_internal_get_pubPoint, put = __cordl_internal_set_pubPoint))::Org::BouncyCastle::Math::EC::ECPoint* pubPoint;
 
   /// @brief Field ecKey, offset 0x38, size 0x8
-  __declspec(property(get = __get_ecKey, put = __set_ecKey))::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* ecKey;
+  __declspec(property(get = __cordl_internal_get_ecKey, put = __cordl_internal_set_ecKey))::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* ecKey;
 
   /// @brief Field z, offset 0x40, size 0x8
-  __declspec(property(get = __get_z, put = __set_z))::ArrayW<uint8_t, ::Array<uint8_t>*> z;
+  __declspec(property(get = __cordl_internal_get_z, put = __cordl_internal_set_z))::ArrayW<uint8_t, ::Array<uint8_t>*> z;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -85,47 +85,47 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr ::Org::BouncyCastle::Crypto::ISigner* i___Org__BouncyCastle__Crypto__ISigner() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*& __get_kCalculator();
+  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*& __cordl_internal_get_kCalculator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*> const& __get_kCalculator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*> const& __cordl_internal_get_kCalculator() const;
 
-  constexpr void __set_kCalculator(::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* value);
+  constexpr void __cordl_internal_set_kCalculator(::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_digest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_digest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
 
-  constexpr void __set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*& __get_encoding();
+  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*& __cordl_internal_get_encoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*> const& __get_encoding() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*> const& __cordl_internal_get_encoding() const;
 
-  constexpr void __set_encoding(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* value);
+  constexpr void __cordl_internal_set_encoding(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& __get_ecParams();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& __cordl_internal_get_ecParams();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*> const& __get_ecParams() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*> const& __cordl_internal_get_ecParams() const;
 
-  constexpr void __set_ecParams(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value);
+  constexpr void __cordl_internal_set_ecParams(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __get_pubPoint();
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_pubPoint();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __get_pubPoint() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __cordl_internal_get_pubPoint() const;
 
-  constexpr void __set_pubPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
+  constexpr void __cordl_internal_set_pubPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*& __get_ecKey();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*& __cordl_internal_get_ecKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*> const& __get_ecKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters*> const& __cordl_internal_get_ecKey() const;
 
-  constexpr void __set_ecKey(::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* value);
+  constexpr void __cordl_internal_set_ecKey(::Org::BouncyCastle::Crypto::Parameters::ECKeyParameters* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_z();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_z();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_z() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_z() const;
 
-  constexpr void __set_z(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_z(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::SM2Signer* New_ctor();
 

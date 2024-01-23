@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::GlobalNamespace::MonoBehaviourCallbackHooks);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst: 1062 }), TypeDefinitionIndex(TypeDefinitionIndex(13966))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13966)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst: 1062 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13948))
 // CS Name: ::MonoBehaviourCallbackHooks*
-class CORDL_TYPE MonoBehaviourCallbackHooks : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::GlobalNamespace::MonoBehaviourCallbackHooks*> {
+class CORDL_TYPE MonoBehaviourCallbackHooks : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::UnityW<::GlobalNamespace::MonoBehaviourCallbackHooks>> {
 public:
   // Declarations
   /// @brief Field m_OnUpdateDelegate, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_OnUpdateDelegate, put = __set_m_OnUpdateDelegate))::System::Action_1<float_t>* m_OnUpdateDelegate;
+  __declspec(property(get = __cordl_internal_get_m_OnUpdateDelegate, put = __cordl_internal_set_m_OnUpdateDelegate))::System::Action_1<float_t>* m_OnUpdateDelegate;
 
-  constexpr ::System::Action_1<float_t>*& __get_m_OnUpdateDelegate();
+  constexpr ::System::Action_1<float_t>*& __cordl_internal_get_m_OnUpdateDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __get_m_OnUpdateDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __cordl_internal_get_m_OnUpdateDelegate() const;
 
-  constexpr void __set_m_OnUpdateDelegate(::System::Action_1<float_t>* value);
+  constexpr void __cordl_internal_set_m_OnUpdateDelegate(::System::Action_1<float_t>* value);
 
   /// @brief Method add_OnUpdateDelegate, addr 0x2bc994c, size 0xa8, virtual false, abstract: false, final false
   inline void add_OnUpdateDelegate(::System::Action_1<float_t>* value);

@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievem
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4092))
 // CS Name: ::IPlatformAchievementsHandler::UnlockAchievementResult
 struct CORDL_TYPE __IPlatformAchievementsHandler__UnlockAchievementResult {
@@ -108,7 +108,7 @@ static_assert(offsetof(::GlobalNamespace::__IPlatformAchievementsHandler__Unlock
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4093))
 // CS Name: ::IPlatformAchievementsHandler::GetUnlockedAchievementsResult
 struct CORDL_TYPE __IPlatformAchievementsHandler__GetUnlockedAchievementsResult {
@@ -158,7 +158,7 @@ static_assert(offsetof(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnl
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4094))
 // CS Name: ::IPlatformAchievementsHandler::UnlockAchievementCompletionHandler*
 class CORDL_TYPE __IPlatformAchievementsHandler__UnlockAchievementCompletionHandler : public ::System::MulticastDelegate {
@@ -202,7 +202,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IPlatformAchi
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4095))
 // CS Name: ::IPlatformAchievementsHandler::GetUnlockedAchievementsCompletionHandler*
 class CORDL_TYPE __IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler : public ::System::MulticastDelegate {
@@ -247,7 +247,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__IPlatformAchi
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4096))
 // CS Name: ::IPlatformAchievementsHandler*
 class CORDL_TYPE IPlatformAchievementsHandler {

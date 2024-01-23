@@ -38,14 +38,14 @@ MARK_REF_PTR_T(::UnityEngine::Object);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10200))
 // CS Name: ::UnityEngine::Object*
 class CORDL_TYPE Object : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_CachedPtr, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_CachedPtr, put = __set_m_CachedPtr)) void* m_CachedPtr;
+  __declspec(property(get = __cordl_internal_get_m_CachedPtr, put = __cordl_internal_set_m_CachedPtr)) void* m_CachedPtr;
 
   /// @brief Field OffsetOfInstanceIDInCPlusPlusObject, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_OffsetOfInstanceIDInCPlusPlusObject, put = setStaticF_OffsetOfInstanceIDInCPlusPlusObject)) int32_t OffsetOfInstanceIDInCPlusPlusObject;
@@ -54,11 +54,11 @@ public:
 
   __declspec(property(get = get_hideFlags, put = set_hideFlags))::UnityEngine::HideFlags hideFlags;
 
-  constexpr void*& __get_m_CachedPtr();
+  constexpr void*& __cordl_internal_get_m_CachedPtr();
 
-  constexpr void* const& __get_m_CachedPtr() const;
+  constexpr void* const& __cordl_internal_get_m_CachedPtr() const;
 
-  constexpr void __set_m_CachedPtr(void* value);
+  constexpr void __cordl_internal_set_m_CachedPtr(void* value);
 
   static inline void setStaticF_OffsetOfInstanceIDInCPlusPlusObject(int32_t value);
 
@@ -95,19 +95,19 @@ public:
   inline void set_name(::StringW value);
 
   /// @brief Method Instantiate, addr 0x2ccf530, size 0x1b8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Instantiate(::UnityEngine::Object* original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
+  static inline ::UnityW<::UnityEngine::Object> Instantiate(::UnityEngine::Object* original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
   /// @brief Method Instantiate, addr 0x2ccf84c, size 0x1a8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Instantiate(::UnityEngine::Object* original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
+  static inline ::UnityW<::UnityEngine::Object> Instantiate(::UnityEngine::Object* original, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent);
 
   /// @brief Method Instantiate, addr 0x2ccfa9c, size 0xf4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Instantiate(::UnityEngine::Object* original);
+  static inline ::UnityW<::UnityEngine::Object> Instantiate(::UnityEngine::Object* original);
 
   /// @brief Method Instantiate, addr 0x2ccfbcc, size 0x68, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Instantiate(::UnityEngine::Object* original, ::UnityEngine::Transform* parent);
+  static inline ::UnityW<::UnityEngine::Object> Instantiate(::UnityEngine::Object* original, ::UnityEngine::Transform* parent);
 
   /// @brief Method Instantiate, addr 0x2ccfc34, size 0x14c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Instantiate(::UnityEngine::Object* original, ::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
+  static inline ::UnityW<::UnityEngine::Object> Instantiate(::UnityEngine::Object* original, ::UnityEngine::Transform* parent, bool instantiateInWorldSpace);
 
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Instantiate(T original);
@@ -137,10 +137,10 @@ public:
   static inline void DestroyImmediate(::UnityEngine::Object* obj);
 
   /// @brief Method FindObjectsOfType, addr 0x2ccff54, size 0x78, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> FindObjectsOfType(::System::Type* type);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfType(::System::Type* type);
 
   /// @brief Method FindObjectsOfType, addr 0x2ccffcc, size 0x44, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> FindObjectsOfType(::System::Type* type, bool includeInactive);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfType(::System::Type* type, bool includeInactive);
 
   /// @brief Method DontDestroyOnLoad, addr 0x2cd0010, size 0x3c, virtual false, abstract: false, final false
   static inline void DontDestroyOnLoad(::UnityEngine::Object* target);
@@ -158,10 +158,10 @@ public:
   static inline void DestroyObject(::UnityEngine::Object* obj);
 
   /// @brief Method FindSceneObjectsOfType, addr 0x2cd01c8, size 0x54, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> FindSceneObjectsOfType(::System::Type* type);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindSceneObjectsOfType(::System::Type* type);
 
   /// @brief Method FindObjectsOfTypeIncludingAssets, addr 0x2cd021c, size 0x3c, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> FindObjectsOfTypeIncludingAssets(::System::Type* type);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeIncludingAssets(::System::Type* type);
 
   /// @brief Method FindObjectsOfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> FindObjectsOfType();
@@ -176,16 +176,16 @@ public:
   template <typename T> static inline T FindObjectOfType(bool includeInactive);
 
   /// @brief Method FindObjectsOfTypeAll, addr 0x2cd0258, size 0x8, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> FindObjectsOfTypeAll(::System::Type* type);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeAll(::System::Type* type);
 
   /// @brief Method CheckNullArgument, addr 0x2ccf6e8, size 0x54, virtual false, abstract: false, final false
   static inline void CheckNullArgument(::System::Object* arg, ::StringW message);
 
   /// @brief Method FindObjectOfType, addr 0x2cd0260, size 0x98, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* FindObjectOfType(::System::Type* type);
+  static inline ::UnityW<::UnityEngine::Object> FindObjectOfType(::System::Type* type);
 
   /// @brief Method FindObjectOfType, addr 0x2cd02f8, size 0xa4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* FindObjectOfType(::System::Type* type, bool includeInactive);
+  static inline ::UnityW<::UnityEngine::Object> FindObjectOfType(::System::Type* type, bool includeInactive);
 
   /// @brief Method ToString, addr 0x2cd039c, size 0x74, virtual true, abstract: false, final false
   inline ::StringW ToString();
@@ -203,16 +203,17 @@ public:
   static inline bool CurrentThreadIsMainThread();
 
   /// @brief Method Internal_CloneSingle, addr 0x2ccfb90, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Internal_CloneSingle(::UnityEngine::Object* data);
+  static inline ::UnityW<::UnityEngine::Object> Internal_CloneSingle(::UnityEngine::Object* data);
 
   /// @brief Method Internal_CloneSingleWithParent, addr 0x2ccfd80, size 0x54, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Internal_CloneSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, bool worldPositionStays);
+  static inline ::UnityW<::UnityEngine::Object> Internal_CloneSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, bool worldPositionStays);
 
   /// @brief Method Internal_InstantiateSingle, addr 0x2ccf73c, size 0x98, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Internal_InstantiateSingle(::UnityEngine::Object* data, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
+  static inline ::UnityW<::UnityEngine::Object> Internal_InstantiateSingle(::UnityEngine::Object* data, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
 
   /// @brief Method Internal_InstantiateSingleWithParent, addr 0x2ccf9f4, size 0xa8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Internal_InstantiateSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, ::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot);
+  static inline ::UnityW<::UnityEngine::Object> Internal_InstantiateSingleWithParent(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, ::UnityEngine::Vector3 pos,
+                                                                                     ::UnityEngine::Quaternion rot);
 
   /// @brief Method ToString, addr 0x2cd0410, size 0x3c, virtual false, abstract: false, final false
   static inline ::StringW ToString(::UnityEngine::Object* obj);
@@ -230,10 +231,10 @@ public:
   static inline bool DoesObjectWithInstanceIDExist(int32_t instanceID);
 
   /// @brief Method FindObjectFromInstanceID, addr 0x2cd0574, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* FindObjectFromInstanceID(int32_t instanceID);
+  static inline ::UnityW<::UnityEngine::Object> FindObjectFromInstanceID(int32_t instanceID);
 
   /// @brief Method ForceLoadFromInstanceID, addr 0x2cd05b0, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* ForceLoadFromInstanceID(int32_t instanceID);
+  static inline ::UnityW<::UnityEngine::Object> ForceLoadFromInstanceID(int32_t instanceID);
 
   static inline ::UnityEngine::Object* New_ctor();
 
@@ -241,11 +242,11 @@ public:
   inline void _ctor();
 
   /// @brief Method Internal_InstantiateSingle_Injected, addr 0x2cd044c, size 0x54, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Internal_InstantiateSingle_Injected(::UnityEngine::Object* data, ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> rot);
+  static inline ::UnityW<::UnityEngine::Object> Internal_InstantiateSingle_Injected(::UnityEngine::Object* data, ByRef<::UnityEngine::Vector3> pos, ByRef<::UnityEngine::Quaternion> rot);
 
   /// @brief Method Internal_InstantiateSingleWithParent_Injected, addr 0x2cd04a0, size 0x5c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* Internal_InstantiateSingleWithParent_Injected(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, ByRef<::UnityEngine::Vector3> pos,
-                                                                                     ByRef<::UnityEngine::Quaternion> rot);
+  static inline ::UnityW<::UnityEngine::Object> Internal_InstantiateSingleWithParent_Injected(::UnityEngine::Object* data, ::UnityEngine::Transform* parent, ByRef<::UnityEngine::Vector3> pos,
+                                                                                              ByRef<::UnityEngine::Quaternion> rot);
 
   // Ctor Parameters [CppParam { name: "", ty: "Object", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

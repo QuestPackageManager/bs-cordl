@@ -77,7 +77,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRHand);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8113))
 // CS Name: ::OVRHand::Hand
 struct CORDL_TYPE __OVRHand__Hand {
@@ -131,7 +131,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRHand__Hand, value__) == 0x0, "Off
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8114))
 // CS Name: ::OVRHand::HandFinger
 struct CORDL_TYPE __OVRHand__HandFinger {
@@ -197,7 +197,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRHand__HandFinger, value__) == 0x0
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8115))
 // CS Name: ::OVRHand::TrackingConfidence
 struct CORDL_TYPE __OVRHand__TrackingConfidence {
@@ -247,8 +247,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRHand__TrackingConfidence, value__
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 201, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7771)), TypeDefinitionIndex(TypeDefinitionIndex(8115)), TypeDefinitionIndex(TypeDefinitionIndex(8113)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7603)), TypeDefinitionIndex(TypeDefinitionIndex(10225))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8116)) CS Name: ::OVRHand*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7603)), TypeDefinitionIndex(TypeDefinitionIndex(7771)), TypeDefinitionIndex(TypeDefinitionIndex(8113)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8115)), TypeDefinitionIndex(TypeDefinitionIndex(10225))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8116)) CS Name: ::OVRHand*
 class CORDL_TYPE OVRHand : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -259,46 +259,48 @@ public:
   using Hand = ::GlobalNamespace::__OVRHand__Hand;
 
   /// @brief Field HandType, offset 0x18, size 0x4
-  __declspec(property(get = __get_HandType, put = __set_HandType))::GlobalNamespace::__OVRHand__Hand HandType;
+  __declspec(property(get = __cordl_internal_get_HandType, put = __cordl_internal_set_HandType))::GlobalNamespace::__OVRHand__Hand HandType;
 
   /// @brief Field _pointerPoseRoot, offset 0x20, size 0x8
-  __declspec(property(get = __get__pointerPoseRoot, put = __set__pointerPoseRoot))::UnityEngine::Transform* _pointerPoseRoot;
+  __declspec(property(get = __cordl_internal_get__pointerPoseRoot, put = __cordl_internal_set__pointerPoseRoot))::UnityW<::UnityEngine::Transform> _pointerPoseRoot;
 
   /// @brief Field m_showState, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_showState, put = __set_m_showState))::GlobalNamespace::__OVRInput__InputDeviceShowState m_showState;
+  __declspec(property(get = __cordl_internal_get_m_showState, put = __cordl_internal_set_m_showState))::GlobalNamespace::__OVRInput__InputDeviceShowState m_showState;
 
   /// @brief Field _pointerPoseGO, offset 0x30, size 0x8
-  __declspec(property(get = __get__pointerPoseGO, put = __set__pointerPoseGO))::UnityEngine::GameObject* _pointerPoseGO;
+  __declspec(property(get = __cordl_internal_get__pointerPoseGO, put = __cordl_internal_set__pointerPoseGO))::UnityW<::UnityEngine::GameObject> _pointerPoseGO;
 
   /// @brief Field _handState, offset 0x38, size 0x78
-  __declspec(property(get = __get__handState, put = __set__handState))::GlobalNamespace::__OVRPlugin__HandState _handState;
+  __declspec(property(get = __cordl_internal_get__handState, put = __cordl_internal_set__handState))::GlobalNamespace::__OVRPlugin__HandState _handState;
 
   /// @brief Field <IsDataValid>k__BackingField, offset 0xb0, size 0x1
-  __declspec(property(get = __get__IsDataValid_k__BackingField, put = __set__IsDataValid_k__BackingField)) bool _IsDataValid_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsDataValid_k__BackingField, put = __cordl_internal_set__IsDataValid_k__BackingField)) bool _IsDataValid_k__BackingField;
 
   /// @brief Field <IsDataHighConfidence>k__BackingField, offset 0xb1, size 0x1
-  __declspec(property(get = __get__IsDataHighConfidence_k__BackingField, put = __set__IsDataHighConfidence_k__BackingField)) bool _IsDataHighConfidence_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsDataHighConfidence_k__BackingField, put = __cordl_internal_set__IsDataHighConfidence_k__BackingField)) bool _IsDataHighConfidence_k__BackingField;
 
   /// @brief Field <IsTracked>k__BackingField, offset 0xb2, size 0x1
-  __declspec(property(get = __get__IsTracked_k__BackingField, put = __set__IsTracked_k__BackingField)) bool _IsTracked_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsTracked_k__BackingField, put = __cordl_internal_set__IsTracked_k__BackingField)) bool _IsTracked_k__BackingField;
 
   /// @brief Field <IsSystemGestureInProgress>k__BackingField, offset 0xb3, size 0x1
-  __declspec(property(get = __get__IsSystemGestureInProgress_k__BackingField, put = __set__IsSystemGestureInProgress_k__BackingField)) bool _IsSystemGestureInProgress_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsSystemGestureInProgress_k__BackingField,
+                      put = __cordl_internal_set__IsSystemGestureInProgress_k__BackingField)) bool _IsSystemGestureInProgress_k__BackingField;
 
   /// @brief Field <IsPointerPoseValid>k__BackingField, offset 0xb4, size 0x1
-  __declspec(property(get = __get__IsPointerPoseValid_k__BackingField, put = __set__IsPointerPoseValid_k__BackingField)) bool _IsPointerPoseValid_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsPointerPoseValid_k__BackingField, put = __cordl_internal_set__IsPointerPoseValid_k__BackingField)) bool _IsPointerPoseValid_k__BackingField;
 
   /// @brief Field <PointerPose>k__BackingField, offset 0xb8, size 0x8
-  __declspec(property(get = __get__PointerPose_k__BackingField, put = __set__PointerPose_k__BackingField))::UnityEngine::Transform* _PointerPose_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__PointerPose_k__BackingField, put = __cordl_internal_set__PointerPose_k__BackingField))::UnityW<::UnityEngine::Transform> _PointerPose_k__BackingField;
 
   /// @brief Field <HandScale>k__BackingField, offset 0xc0, size 0x4
-  __declspec(property(get = __get__HandScale_k__BackingField, put = __set__HandScale_k__BackingField)) float_t _HandScale_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__HandScale_k__BackingField, put = __cordl_internal_set__HandScale_k__BackingField)) float_t _HandScale_k__BackingField;
 
   /// @brief Field <HandConfidence>k__BackingField, offset 0xc4, size 0x4
-  __declspec(property(get = __get__HandConfidence_k__BackingField, put = __set__HandConfidence_k__BackingField))::GlobalNamespace::__OVRHand__TrackingConfidence _HandConfidence_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__HandConfidence_k__BackingField,
+                      put = __cordl_internal_set__HandConfidence_k__BackingField))::GlobalNamespace::__OVRHand__TrackingConfidence _HandConfidence_k__BackingField;
 
   /// @brief Field <IsDominantHand>k__BackingField, offset 0xc8, size 0x1
-  __declspec(property(get = __get__IsDominantHand_k__BackingField, put = __set__IsDominantHand_k__BackingField)) bool _IsDominantHand_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsDominantHand_k__BackingField, put = __cordl_internal_set__IsDominantHand_k__BackingField)) bool _IsDominantHand_k__BackingField;
 
   __declspec(property(get = get_IsDataValid, put = set_IsDataValid)) bool IsDataValid;
 
@@ -310,7 +312,7 @@ public:
 
   __declspec(property(get = get_IsPointerPoseValid, put = set_IsPointerPoseValid)) bool IsPointerPoseValid;
 
-  __declspec(property(get = get_PointerPose, put = set_PointerPose))::UnityEngine::Transform* PointerPose;
+  __declspec(property(get = get_PointerPose, put = set_PointerPose))::UnityW<::UnityEngine::Transform> PointerPose;
 
   __declspec(property(get = get_HandScale, put = set_HandScale)) float_t HandScale;
 
@@ -342,89 +344,89 @@ public:
   /// @brief Convert to "::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider"
   constexpr ::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider* i___GlobalNamespace____OVRMeshRenderer__IOVRMeshRendererDataProvider() noexcept;
 
-  constexpr ::GlobalNamespace::__OVRHand__Hand& __get_HandType();
+  constexpr ::GlobalNamespace::__OVRHand__Hand& __cordl_internal_get_HandType();
 
-  constexpr ::GlobalNamespace::__OVRHand__Hand const& __get_HandType() const;
+  constexpr ::GlobalNamespace::__OVRHand__Hand const& __cordl_internal_get_HandType() const;
 
-  constexpr void __set_HandType(::GlobalNamespace::__OVRHand__Hand value);
+  constexpr void __cordl_internal_set_HandType(::GlobalNamespace::__OVRHand__Hand value);
 
-  constexpr ::UnityEngine::Transform*& __get__pointerPoseRoot();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__pointerPoseRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__pointerPoseRoot() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__pointerPoseRoot() const;
 
-  constexpr void __set__pointerPoseRoot(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__pointerPoseRoot(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::GlobalNamespace::__OVRInput__InputDeviceShowState& __get_m_showState();
+  constexpr ::GlobalNamespace::__OVRInput__InputDeviceShowState& __cordl_internal_get_m_showState();
 
-  constexpr ::GlobalNamespace::__OVRInput__InputDeviceShowState const& __get_m_showState() const;
+  constexpr ::GlobalNamespace::__OVRInput__InputDeviceShowState const& __cordl_internal_get_m_showState() const;
 
-  constexpr void __set_m_showState(::GlobalNamespace::__OVRInput__InputDeviceShowState value);
+  constexpr void __cordl_internal_set_m_showState(::GlobalNamespace::__OVRInput__InputDeviceShowState value);
 
-  constexpr ::UnityEngine::GameObject*& __get__pointerPoseGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__pointerPoseGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__pointerPoseGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__pointerPoseGO() const;
 
-  constexpr void __set__pointerPoseGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__pointerPoseGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::__OVRPlugin__HandState& __get__handState();
+  constexpr ::GlobalNamespace::__OVRPlugin__HandState& __cordl_internal_get__handState();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__HandState const& __get__handState() const;
+  constexpr ::GlobalNamespace::__OVRPlugin__HandState const& __cordl_internal_get__handState() const;
 
-  constexpr void __set__handState(::GlobalNamespace::__OVRPlugin__HandState value);
+  constexpr void __cordl_internal_set__handState(::GlobalNamespace::__OVRPlugin__HandState value);
 
-  constexpr bool& __get__IsDataValid_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsDataValid_k__BackingField();
 
-  constexpr bool const& __get__IsDataValid_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsDataValid_k__BackingField() const;
 
-  constexpr void __set__IsDataValid_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsDataValid_k__BackingField(bool value);
 
-  constexpr bool& __get__IsDataHighConfidence_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsDataHighConfidence_k__BackingField();
 
-  constexpr bool const& __get__IsDataHighConfidence_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsDataHighConfidence_k__BackingField() const;
 
-  constexpr void __set__IsDataHighConfidence_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsDataHighConfidence_k__BackingField(bool value);
 
-  constexpr bool& __get__IsTracked_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsTracked_k__BackingField();
 
-  constexpr bool const& __get__IsTracked_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsTracked_k__BackingField() const;
 
-  constexpr void __set__IsTracked_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsTracked_k__BackingField(bool value);
 
-  constexpr bool& __get__IsSystemGestureInProgress_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsSystemGestureInProgress_k__BackingField();
 
-  constexpr bool const& __get__IsSystemGestureInProgress_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsSystemGestureInProgress_k__BackingField() const;
 
-  constexpr void __set__IsSystemGestureInProgress_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsSystemGestureInProgress_k__BackingField(bool value);
 
-  constexpr bool& __get__IsPointerPoseValid_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsPointerPoseValid_k__BackingField();
 
-  constexpr bool const& __get__IsPointerPoseValid_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsPointerPoseValid_k__BackingField() const;
 
-  constexpr void __set__IsPointerPoseValid_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsPointerPoseValid_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::Transform*& __get__PointerPose_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__PointerPose_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__PointerPose_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__PointerPose_k__BackingField() const;
 
-  constexpr void __set__PointerPose_k__BackingField(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__PointerPose_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get__HandScale_k__BackingField();
+  constexpr float_t& __cordl_internal_get__HandScale_k__BackingField();
 
-  constexpr float_t const& __get__HandScale_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__HandScale_k__BackingField() const;
 
-  constexpr void __set__HandScale_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__HandScale_k__BackingField(float_t value);
 
-  constexpr ::GlobalNamespace::__OVRHand__TrackingConfidence& __get__HandConfidence_k__BackingField();
+  constexpr ::GlobalNamespace::__OVRHand__TrackingConfidence& __cordl_internal_get__HandConfidence_k__BackingField();
 
-  constexpr ::GlobalNamespace::__OVRHand__TrackingConfidence const& __get__HandConfidence_k__BackingField() const;
+  constexpr ::GlobalNamespace::__OVRHand__TrackingConfidence const& __cordl_internal_get__HandConfidence_k__BackingField() const;
 
-  constexpr void __set__HandConfidence_k__BackingField(::GlobalNamespace::__OVRHand__TrackingConfidence value);
+  constexpr void __cordl_internal_set__HandConfidence_k__BackingField(::GlobalNamespace::__OVRHand__TrackingConfidence value);
 
-  constexpr bool& __get__IsDominantHand_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsDominantHand_k__BackingField();
 
-  constexpr bool const& __get__IsDominantHand_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsDominantHand_k__BackingField() const;
 
-  constexpr void __set__IsDominantHand_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsDominantHand_k__BackingField(bool value);
 
   /// @brief Method SetHandType, addr 0x27aeb50, size 0x8, virtual false, abstract: false, final false
   inline void SetHandType(::GlobalNamespace::__OVRHand__Hand type);
@@ -460,7 +462,7 @@ public:
   inline void set_IsPointerPoseValid(bool value);
 
   /// @brief Method get_PointerPose, addr 0x27aebbc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_PointerPose();
+  inline ::UnityW<::UnityEngine::Transform> get_PointerPose();
 
   /// @brief Method set_PointerPose, addr 0x27aebc4, size 0x8, virtual false, abstract: false, final false
   inline void set_PointerPose(::UnityEngine::Transform* value);
@@ -545,13 +547,13 @@ public:
   ::GlobalNamespace::__OVRHand__Hand ___HandType;
 
   /// @brief Field _pointerPoseRoot, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____pointerPoseRoot;
+  ::UnityW<::UnityEngine::Transform> ____pointerPoseRoot;
 
   /// @brief Field m_showState, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::__OVRInput__InputDeviceShowState ___m_showState;
 
   /// @brief Field _pointerPoseGO, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____pointerPoseGO;
+  ::UnityW<::UnityEngine::GameObject> ____pointerPoseGO;
 
   /// @brief Field _handState, offset: 0x38, size: 0x78, def value: None
   ::GlobalNamespace::__OVRPlugin__HandState ____handState;
@@ -572,7 +574,7 @@ public:
   bool ____IsPointerPoseValid_k__BackingField;
 
   /// @brief Field <PointerPose>k__BackingField, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____PointerPose_k__BackingField;
+  ::UnityW<::UnityEngine::Transform> ____PointerPose_k__BackingField;
 
   /// @brief Field <HandScale>k__BackingField, offset: 0xc0, size: 0x4, def value: None
   float_t ____HandScale_k__BackingField;

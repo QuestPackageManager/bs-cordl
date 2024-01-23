@@ -42,14 +42,14 @@ MARK_REF_PTR_T(::System::ComponentModel::__ReferenceConverter__ReferenceComparer
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9448))
 // CS Name: ::ReferenceConverter::ReferenceComparer*
 class CORDL_TYPE __ReferenceConverter__ReferenceComparer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _converter, offset 0x10, size 0x8
-  __declspec(property(get = __get__converter, put = __set__converter))::System::ComponentModel::ReferenceConverter* _converter;
+  __declspec(property(get = __cordl_internal_get__converter, put = __cordl_internal_set__converter))::System::ComponentModel::ReferenceConverter* _converter;
 
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
@@ -57,11 +57,11 @@ public:
   /// @brief Convert to "::System::Collections::IComparer"
   constexpr ::System::Collections::IComparer* i___System__Collections__IComparer() noexcept;
 
-  constexpr ::System::ComponentModel::ReferenceConverter*& __get__converter();
+  constexpr ::System::ComponentModel::ReferenceConverter*& __cordl_internal_get__converter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ReferenceConverter*> const& __get__converter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::ReferenceConverter*> const& __cordl_internal_get__converter() const;
 
-  constexpr void __set__converter(::System::ComponentModel::ReferenceConverter* value);
+  constexpr void __cordl_internal_set__converter(::System::ComponentModel::ReferenceConverter* value);
 
   static inline ::System::ComponentModel::__ReferenceConverter__ReferenceComparer* New_ctor(::System::ComponentModel::ReferenceConverter* converter);
 
@@ -100,7 +100,7 @@ static_assert(offsetof(::System::ComponentModel::__ReferenceConverter__Reference
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9480))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9480))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9449))
 // CS Name: ::System.ComponentModel::ReferenceConverter*
 class CORDL_TYPE ReferenceConverter : public ::System::ComponentModel::TypeConverter {
@@ -109,16 +109,16 @@ public:
   using ReferenceComparer = ::System::ComponentModel::__ReferenceConverter__ReferenceComparer;
 
   /// @brief Field _type, offset 0x10, size 0x8
-  __declspec(property(get = __get__type, put = __set__type))::System::Type* _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::System::Type* _type;
 
   /// @brief Field s_none, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_none, put = setStaticF_s_none))::StringW s_none;
 
-  constexpr ::System::Type*& __get__type();
+  constexpr ::System::Type*& __cordl_internal_get__type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__type() const;
 
-  constexpr void __set__type(::System::Type* value);
+  constexpr void __cordl_internal_set__type(::System::Type* value);
 
   static inline void setStaticF_s_none(::StringW value);
 

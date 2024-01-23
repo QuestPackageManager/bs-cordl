@@ -32,146 +32,149 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentStartEndSongAudioEffect);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 110, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4982)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4982)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4063))
 // CS Name: ::EnvironmentStartEndSongAudioEffect*
 class CORDL_TYPE EnvironmentStartEndSongAudioEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _playStartSongForNonZeroStartSongTime, offset 0x18, size 0x1
-  __declspec(property(get = __get__playStartSongForNonZeroStartSongTime, put = __set__playStartSongForNonZeroStartSongTime)) bool _playStartSongForNonZeroStartSongTime;
+  __declspec(property(get = __cordl_internal_get__playStartSongForNonZeroStartSongTime, put = __cordl_internal_set__playStartSongForNonZeroStartSongTime)) bool _playStartSongForNonZeroStartSongTime;
 
   /// @brief Field _songFinishedAheadTime, offset 0x1c, size 0x4
-  __declspec(property(get = __get__songFinishedAheadTime, put = __set__songFinishedAheadTime)) float_t _songFinishedAheadTime;
+  __declspec(property(get = __cordl_internal_get__songFinishedAheadTime, put = __cordl_internal_set__songFinishedAheadTime)) float_t _songFinishedAheadTime;
 
   /// @brief Field _songStartAudioClipVolume, offset 0x20, size 0x4
-  __declspec(property(get = __get__songStartAudioClipVolume, put = __set__songStartAudioClipVolume)) float_t _songStartAudioClipVolume;
+  __declspec(property(get = __cordl_internal_get__songStartAudioClipVolume, put = __cordl_internal_set__songStartAudioClipVolume)) float_t _songStartAudioClipVolume;
 
   /// @brief Field _songFinishedAudioClipVolume, offset 0x24, size 0x4
-  __declspec(property(get = __get__songFinishedAudioClipVolume, put = __set__songFinishedAudioClipVolume)) float_t _songFinishedAudioClipVolume;
+  __declspec(property(get = __cordl_internal_get__songFinishedAudioClipVolume, put = __cordl_internal_set__songFinishedAudioClipVolume)) float_t _songFinishedAudioClipVolume;
 
   /// @brief Field _songFailedAudioClipVolume, offset 0x28, size 0x4
-  __declspec(property(get = __get__songFailedAudioClipVolume, put = __set__songFailedAudioClipVolume)) float_t _songFailedAudioClipVolume;
+  __declspec(property(get = __cordl_internal_get__songFailedAudioClipVolume, put = __cordl_internal_set__songFailedAudioClipVolume)) float_t _songFailedAudioClipVolume;
 
   /// @brief Field _songStartAudioClips, offset 0x30, size 0x8
-  __declspec(property(get = __get__songStartAudioClips, put = __set__songStartAudioClips))::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> _songStartAudioClips;
+  __declspec(property(get = __cordl_internal_get__songStartAudioClips,
+                      put = __cordl_internal_set__songStartAudioClips))::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> _songStartAudioClips;
 
   /// @brief Field _songFinishedAudioClips, offset 0x38, size 0x8
-  __declspec(property(get = __get__songFinishedAudioClips, put = __set__songFinishedAudioClips))::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> _songFinishedAudioClips;
+  __declspec(property(get = __cordl_internal_get__songFinishedAudioClips,
+                      put = __cordl_internal_set__songFinishedAudioClips))::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> _songFinishedAudioClips;
 
   /// @brief Field _songFailedAudioClips, offset 0x40, size 0x8
-  __declspec(property(get = __get__songFailedAudioClips, put = __set__songFailedAudioClips))::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> _songFailedAudioClips;
+  __declspec(property(get = __cordl_internal_get__songFailedAudioClips,
+                      put = __cordl_internal_set__songFailedAudioClips))::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> _songFailedAudioClips;
 
   /// @brief Field _levelEndActions, offset 0x48, size 0x8
-  __declspec(property(get = __get__levelEndActions, put = __set__levelEndActions))::GlobalNamespace::ILevelEndActions* _levelEndActions;
+  __declspec(property(get = __cordl_internal_get__levelEndActions, put = __cordl_internal_set__levelEndActions))::GlobalNamespace::ILevelEndActions* _levelEndActions;
 
   /// @brief Field _audioTimeSource, offset 0x50, size 0x8
-  __declspec(property(get = __get__audioTimeSource, put = __set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
+  __declspec(property(get = __cordl_internal_get__audioTimeSource, put = __cordl_internal_set__audioTimeSource))::GlobalNamespace::IAudioTimeSource* _audioTimeSource;
 
   /// @brief Field _gamePause, offset 0x58, size 0x8
-  __declspec(property(get = __get__gamePause, put = __set__gamePause))::GlobalNamespace::IGamePause* _gamePause;
+  __declspec(property(get = __cordl_internal_get__gamePause, put = __cordl_internal_set__gamePause))::GlobalNamespace::IGamePause* _gamePause;
 
   /// @brief Field _audioEffectsPlayer, offset 0x60, size 0x8
-  __declspec(property(get = __get__audioEffectsPlayer, put = __set__audioEffectsPlayer))::GlobalNamespace::EnvironmentAudioEffectsPlayer* _audioEffectsPlayer;
+  __declspec(property(get = __cordl_internal_get__audioEffectsPlayer, put = __cordl_internal_set__audioEffectsPlayer))::UnityW<::GlobalNamespace::EnvironmentAudioEffectsPlayer> _audioEffectsPlayer;
 
   /// @brief Field _environmentContext, offset 0x68, size 0x4
-  __declspec(property(get = __get__environmentContext, put = __set__environmentContext))::GlobalNamespace::EnvironmentContext _environmentContext;
+  __declspec(property(get = __cordl_internal_get__environmentContext, put = __cordl_internal_set__environmentContext))::GlobalNamespace::EnvironmentContext _environmentContext;
 
   /// @brief Field _songFinishedPlayed, offset 0x6c, size 0x1
-  __declspec(property(get = __get__songFinishedPlayed, put = __set__songFinishedPlayed)) bool _songFinishedPlayed;
+  __declspec(property(get = __cordl_internal_get__songFinishedPlayed, put = __cordl_internal_set__songFinishedPlayed)) bool _songFinishedPlayed;
 
   /// @brief Field _isWaitingToPlayStartAudio, offset 0x6d, size 0x1
-  __declspec(property(get = __get__isWaitingToPlayStartAudio, put = __set__isWaitingToPlayStartAudio)) bool _isWaitingToPlayStartAudio;
+  __declspec(property(get = __cordl_internal_get__isWaitingToPlayStartAudio, put = __cordl_internal_set__isWaitingToPlayStartAudio)) bool _isWaitingToPlayStartAudio;
 
-  constexpr bool& __get__playStartSongForNonZeroStartSongTime();
+  constexpr bool& __cordl_internal_get__playStartSongForNonZeroStartSongTime();
 
-  constexpr bool const& __get__playStartSongForNonZeroStartSongTime() const;
+  constexpr bool const& __cordl_internal_get__playStartSongForNonZeroStartSongTime() const;
 
-  constexpr void __set__playStartSongForNonZeroStartSongTime(bool value);
+  constexpr void __cordl_internal_set__playStartSongForNonZeroStartSongTime(bool value);
 
-  constexpr float_t& __get__songFinishedAheadTime();
+  constexpr float_t& __cordl_internal_get__songFinishedAheadTime();
 
-  constexpr float_t const& __get__songFinishedAheadTime() const;
+  constexpr float_t const& __cordl_internal_get__songFinishedAheadTime() const;
 
-  constexpr void __set__songFinishedAheadTime(float_t value);
+  constexpr void __cordl_internal_set__songFinishedAheadTime(float_t value);
 
-  constexpr float_t& __get__songStartAudioClipVolume();
+  constexpr float_t& __cordl_internal_get__songStartAudioClipVolume();
 
-  constexpr float_t const& __get__songStartAudioClipVolume() const;
+  constexpr float_t const& __cordl_internal_get__songStartAudioClipVolume() const;
 
-  constexpr void __set__songStartAudioClipVolume(float_t value);
+  constexpr void __cordl_internal_set__songStartAudioClipVolume(float_t value);
 
-  constexpr float_t& __get__songFinishedAudioClipVolume();
+  constexpr float_t& __cordl_internal_get__songFinishedAudioClipVolume();
 
-  constexpr float_t const& __get__songFinishedAudioClipVolume() const;
+  constexpr float_t const& __cordl_internal_get__songFinishedAudioClipVolume() const;
 
-  constexpr void __set__songFinishedAudioClipVolume(float_t value);
+  constexpr void __cordl_internal_set__songFinishedAudioClipVolume(float_t value);
 
-  constexpr float_t& __get__songFailedAudioClipVolume();
+  constexpr float_t& __cordl_internal_get__songFailedAudioClipVolume();
 
-  constexpr float_t const& __get__songFailedAudioClipVolume() const;
+  constexpr float_t const& __cordl_internal_get__songFailedAudioClipVolume() const;
 
-  constexpr void __set__songFailedAudioClipVolume(float_t value);
+  constexpr void __cordl_internal_set__songFailedAudioClipVolume(float_t value);
 
-  constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*>& __get__songStartAudioClips();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*>& __cordl_internal_get__songStartAudioClips();
 
-  constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> const& __get__songStartAudioClips() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__songStartAudioClips() const;
 
-  constexpr void __set__songStartAudioClips(::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> value);
+  constexpr void __cordl_internal_set__songStartAudioClips(::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*>& __get__songFinishedAudioClips();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*>& __cordl_internal_get__songFinishedAudioClips();
 
-  constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> const& __get__songFinishedAudioClips() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__songFinishedAudioClips() const;
 
-  constexpr void __set__songFinishedAudioClips(::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> value);
+  constexpr void __cordl_internal_set__songFinishedAudioClips(::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*>& __get__songFailedAudioClips();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*>& __cordl_internal_get__songFailedAudioClips();
 
-  constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> const& __get__songFailedAudioClips() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__songFailedAudioClips() const;
 
-  constexpr void __set__songFailedAudioClips(::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> value);
+  constexpr void __cordl_internal_set__songFailedAudioClips(::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> value);
 
-  constexpr ::GlobalNamespace::ILevelEndActions*& __get__levelEndActions();
+  constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__levelEndActions();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelEndActions*> const& __get__levelEndActions() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelEndActions*> const& __cordl_internal_get__levelEndActions() const;
 
-  constexpr void __set__levelEndActions(::GlobalNamespace::ILevelEndActions* value);
+  constexpr void __cordl_internal_set__levelEndActions(::GlobalNamespace::ILevelEndActions* value);
 
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __get__audioTimeSource();
+  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __get__audioTimeSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSource() const;
 
-  constexpr void __set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
+  constexpr void __cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value);
 
-  constexpr ::GlobalNamespace::IGamePause*& __get__gamePause();
+  constexpr ::GlobalNamespace::IGamePause*& __cordl_internal_get__gamePause();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __get__gamePause() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IGamePause*> const& __cordl_internal_get__gamePause() const;
 
-  constexpr void __set__gamePause(::GlobalNamespace::IGamePause* value);
+  constexpr void __cordl_internal_set__gamePause(::GlobalNamespace::IGamePause* value);
 
-  constexpr ::GlobalNamespace::EnvironmentAudioEffectsPlayer*& __get__audioEffectsPlayer();
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentAudioEffectsPlayer>& __cordl_internal_get__audioEffectsPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentAudioEffectsPlayer*> const& __get__audioEffectsPlayer() const;
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentAudioEffectsPlayer> const& __cordl_internal_get__audioEffectsPlayer() const;
 
-  constexpr void __set__audioEffectsPlayer(::GlobalNamespace::EnvironmentAudioEffectsPlayer* value);
+  constexpr void __cordl_internal_set__audioEffectsPlayer(::UnityW<::GlobalNamespace::EnvironmentAudioEffectsPlayer> value);
 
-  constexpr ::GlobalNamespace::EnvironmentContext& __get__environmentContext();
+  constexpr ::GlobalNamespace::EnvironmentContext& __cordl_internal_get__environmentContext();
 
-  constexpr ::GlobalNamespace::EnvironmentContext const& __get__environmentContext() const;
+  constexpr ::GlobalNamespace::EnvironmentContext const& __cordl_internal_get__environmentContext() const;
 
-  constexpr void __set__environmentContext(::GlobalNamespace::EnvironmentContext value);
+  constexpr void __cordl_internal_set__environmentContext(::GlobalNamespace::EnvironmentContext value);
 
-  constexpr bool& __get__songFinishedPlayed();
+  constexpr bool& __cordl_internal_get__songFinishedPlayed();
 
-  constexpr bool const& __get__songFinishedPlayed() const;
+  constexpr bool const& __cordl_internal_get__songFinishedPlayed() const;
 
-  constexpr void __set__songFinishedPlayed(bool value);
+  constexpr void __cordl_internal_set__songFinishedPlayed(bool value);
 
-  constexpr bool& __get__isWaitingToPlayStartAudio();
+  constexpr bool& __cordl_internal_get__isWaitingToPlayStartAudio();
 
-  constexpr bool const& __get__isWaitingToPlayStartAudio() const;
+  constexpr bool const& __cordl_internal_get__isWaitingToPlayStartAudio() const;
 
-  constexpr void __set__isWaitingToPlayStartAudio(bool value);
+  constexpr void __cordl_internal_set__isWaitingToPlayStartAudio(bool value);
 
   /// @brief Method Start, addr 0x222d3bc, size 0x478, virtual false, abstract: false, final false
   inline void Start();
@@ -229,13 +232,13 @@ public:
   float_t ____songFailedAudioClipVolume;
 
   /// @brief Field _songStartAudioClips, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> ____songStartAudioClips;
+  ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> ____songStartAudioClips;
 
   /// @brief Field _songFinishedAudioClips, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> ____songFinishedAudioClips;
+  ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> ____songFinishedAudioClips;
 
   /// @brief Field _songFailedAudioClips, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> ____songFailedAudioClips;
+  ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> ____songFailedAudioClips;
 
   /// @brief Field _levelEndActions, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ILevelEndActions* ____levelEndActions;
@@ -247,7 +250,7 @@ public:
   ::GlobalNamespace::IGamePause* ____gamePause;
 
   /// @brief Field _audioEffectsPlayer, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::EnvironmentAudioEffectsPlayer* ____audioEffectsPlayer;
+  ::UnityW<::GlobalNamespace::EnvironmentAudioEffectsPlayer> ____audioEffectsPlayer;
 
   /// @brief Field _environmentContext, offset: 0x68, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentContext ____environmentContext;

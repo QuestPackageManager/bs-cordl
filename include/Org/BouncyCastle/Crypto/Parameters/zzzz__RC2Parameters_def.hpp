@@ -16,22 +16,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::RC2Parameters);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1015))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1015))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1076))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::RC2Parameters*
 class CORDL_TYPE RC2Parameters : public ::Org::BouncyCastle::Crypto::Parameters::KeyParameter {
 public:
   // Declarations
   /// @brief Field bits, offset 0x18, size 0x4
-  __declspec(property(get = __get_bits, put = __set_bits)) int32_t bits;
+  __declspec(property(get = __cordl_internal_get_bits, put = __cordl_internal_set_bits)) int32_t bits;
 
   __declspec(property(get = get_EffectiveKeyBits)) int32_t EffectiveKeyBits;
 
-  constexpr int32_t& __get_bits();
+  constexpr int32_t& __cordl_internal_get_bits();
 
-  constexpr int32_t const& __get_bits() const;
+  constexpr int32_t const& __cordl_internal_get_bits() const;
 
-  constexpr void __set_bits(int32_t value);
+  constexpr void __cordl_internal_set_bits(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::RC2Parameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 

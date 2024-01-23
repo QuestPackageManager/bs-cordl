@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetDatabase);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9669))
 // CS Name: ::HEU_AssetDatabase::HEU_ImportAssetOptions
 struct CORDL_TYPE __HEU_AssetDatabase__HEU_ImportAssetOptions {
@@ -101,7 +101,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_AssetDatabase__HEU_ImportAsse
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9670))
 // CS Name: ::HoudiniEngineUnity::HEU_AssetDatabase*
 class CORDL_TYPE HEU_AssetDatabase : public ::System::Object {
@@ -194,20 +194,20 @@ public:
   static inline bool CopyAsset(::StringW path, ::StringW newPath);
 
   /// @brief Method CopyAndLoadAssetWithRelativePath, addr 0x2184994, size 0x4c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* CopyAndLoadAssetWithRelativePath(::UnityEngine::Object* srcAsset, ::StringW copyAssetFolder, ::StringW relativePath, ::System::Type* type,
-                                                                        bool bOverwriteExisting);
+  static inline ::UnityW<::UnityEngine::Object> CopyAndLoadAssetWithRelativePath(::UnityEngine::Object* srcAsset, ::StringW copyAssetFolder, ::StringW relativePath, ::System::Type* type,
+                                                                                 bool bOverwriteExisting);
 
   /// @brief Method CopyAndLoadAssetFromAssetCachePath, addr 0x21849e0, size 0x4c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* CopyAndLoadAssetFromAssetCachePath(::UnityEngine::Object* srcAsset, ::StringW copyPath, ::System::Type* type, bool bOverwriteExisting);
+  static inline ::UnityW<::UnityEngine::Object> CopyAndLoadAssetFromAssetCachePath(::UnityEngine::Object* srcAsset, ::StringW copyPath, ::System::Type* type, bool bOverwriteExisting);
 
   /// @brief Method CopyAndLoadAssetAtAnyPath, addr 0x2184a2c, size 0x4c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* CopyAndLoadAssetAtAnyPath(::UnityEngine::Object* srcAsset, ::StringW copyPath, ::System::Type* type, bool bOverwriteExisting);
+  static inline ::UnityW<::UnityEngine::Object> CopyAndLoadAssetAtAnyPath(::UnityEngine::Object* srcAsset, ::StringW copyPath, ::System::Type* type, bool bOverwriteExisting);
 
   /// @brief Method CopyAndLoadAssetAtGivenPath, addr 0x2184a78, size 0x4c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* CopyAndLoadAssetAtGivenPath(::UnityEngine::Object* srcAsset, ::StringW targetPath, ::System::Type* type);
+  static inline ::UnityW<::UnityEngine::Object> CopyAndLoadAssetAtGivenPath(::UnityEngine::Object* srcAsset, ::StringW targetPath, ::System::Type* type);
 
   /// @brief Method CopyUniqueAndLoadAssetAtAnyPath, addr 0x2184ac4, size 0x4c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* CopyUniqueAndLoadAssetAtAnyPath(::UnityEngine::Object* srcAsset, ::StringW copyPath, ::System::Type* type);
+  static inline ::UnityW<::UnityEngine::Object> CopyUniqueAndLoadAssetAtAnyPath(::UnityEngine::Object* srcAsset, ::StringW copyPath, ::System::Type* type);
 
   /// @brief Method CreateObjectInAssetCacheFolder, addr 0x2184b10, size 0x44, virtual false, abstract: false, final false
   static inline void CreateObjectInAssetCacheFolder(::UnityEngine::Object* objectToCreate, ::StringW assetCacheRoot, ::StringW relativeFolderPath, ::StringW assetFileName, ::System::Type* type,
@@ -233,16 +233,16 @@ public:
   static inline void RefreshAssetDatabase();
 
   /// @brief Method LoadAssetAtPath, addr 0x2184c2c, size 0x4c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* LoadAssetAtPath(::StringW assetPath, ::System::Type* type);
+  static inline ::UnityW<::UnityEngine::Object> LoadAssetAtPath(::StringW assetPath, ::System::Type* type);
 
   /// @brief Method LoadSubAssetAtPath, addr 0x2184c78, size 0x14, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* LoadSubAssetAtPath(::StringW mainPath, ::StringW subAssetPath);
+  static inline ::UnityW<::UnityEngine::Object> LoadSubAssetAtPath(::StringW mainPath, ::StringW subAssetPath);
 
   /// @brief Method LoadAllAssetsAtPath, addr 0x2184cd8, size 0x4c, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> LoadAllAssetsAtPath(::StringW assetPath);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAllAssetsAtPath(::StringW assetPath);
 
   /// @brief Method LoadAllAssetRepresentationsAtPath, addr 0x2184c8c, size 0x4c, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> LoadAllAssetRepresentationsAtPath(::StringW assetPath);
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAllAssetRepresentationsAtPath(::StringW assetPath);
 
   /// @brief Method ImportAsset, addr 0x2184d24, size 0x44, virtual false, abstract: false, final false
   static inline void ImportAsset(::StringW assetPath, ::HoudiniEngineUnity::__HEU_AssetDatabase__HEU_ImportAssetOptions heuOptions);

@@ -25,29 +25,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::Drbg::HMacSP800Drbg);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1098))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng.Drbg::HMacSP800Drbg*
 class CORDL_TYPE HMacSP800Drbg : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mK, offset 0x10, size 0x8
-  __declspec(property(get = __get_mK, put = __set_mK))::ArrayW<uint8_t, ::Array<uint8_t>*> mK;
+  __declspec(property(get = __cordl_internal_get_mK, put = __cordl_internal_set_mK))::ArrayW<uint8_t, ::Array<uint8_t>*> mK;
 
   /// @brief Field mV, offset 0x18, size 0x8
-  __declspec(property(get = __get_mV, put = __set_mV))::ArrayW<uint8_t, ::Array<uint8_t>*> mV;
+  __declspec(property(get = __cordl_internal_get_mV, put = __cordl_internal_set_mV))::ArrayW<uint8_t, ::Array<uint8_t>*> mV;
 
   /// @brief Field mEntropySource, offset 0x20, size 0x8
-  __declspec(property(get = __get_mEntropySource, put = __set_mEntropySource))::Org::BouncyCastle::Crypto::IEntropySource* mEntropySource;
+  __declspec(property(get = __cordl_internal_get_mEntropySource, put = __cordl_internal_set_mEntropySource))::Org::BouncyCastle::Crypto::IEntropySource* mEntropySource;
 
   /// @brief Field mHMac, offset 0x28, size 0x8
-  __declspec(property(get = __get_mHMac, put = __set_mHMac))::Org::BouncyCastle::Crypto::IMac* mHMac;
+  __declspec(property(get = __cordl_internal_get_mHMac, put = __cordl_internal_set_mHMac))::Org::BouncyCastle::Crypto::IMac* mHMac;
 
   /// @brief Field mSecurityStrength, offset 0x30, size 0x4
-  __declspec(property(get = __get_mSecurityStrength, put = __set_mSecurityStrength)) int32_t mSecurityStrength;
+  __declspec(property(get = __cordl_internal_get_mSecurityStrength, put = __cordl_internal_set_mSecurityStrength)) int32_t mSecurityStrength;
 
   /// @brief Field mReseedCounter, offset 0x38, size 0x8
-  __declspec(property(get = __get_mReseedCounter, put = __set_mReseedCounter)) int64_t mReseedCounter;
+  __declspec(property(get = __cordl_internal_get_mReseedCounter, put = __cordl_internal_set_mReseedCounter)) int64_t mReseedCounter;
 
   /// @brief Field RESEED_MAX, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_RESEED_MAX, put = setStaticF_RESEED_MAX)) int64_t RESEED_MAX;
@@ -63,41 +63,41 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
   constexpr ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* i___Org__BouncyCastle__Crypto__Prng__Drbg__ISP80090Drbg() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mK();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mK();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mK() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mK() const;
 
-  constexpr void __set_mK(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mK(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mV();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mV();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mV() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mV() const;
 
-  constexpr void __set_mV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IEntropySource*& __get_mEntropySource();
+  constexpr ::Org::BouncyCastle::Crypto::IEntropySource*& __cordl_internal_get_mEntropySource();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IEntropySource*> const& __get_mEntropySource() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IEntropySource*> const& __cordl_internal_get_mEntropySource() const;
 
-  constexpr void __set_mEntropySource(::Org::BouncyCastle::Crypto::IEntropySource* value);
+  constexpr void __cordl_internal_set_mEntropySource(::Org::BouncyCastle::Crypto::IEntropySource* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IMac*& __get_mHMac();
+  constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_mHMac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __get_mHMac() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __cordl_internal_get_mHMac() const;
 
-  constexpr void __set_mHMac(::Org::BouncyCastle::Crypto::IMac* value);
+  constexpr void __cordl_internal_set_mHMac(::Org::BouncyCastle::Crypto::IMac* value);
 
-  constexpr int32_t& __get_mSecurityStrength();
+  constexpr int32_t& __cordl_internal_get_mSecurityStrength();
 
-  constexpr int32_t const& __get_mSecurityStrength() const;
+  constexpr int32_t const& __cordl_internal_get_mSecurityStrength() const;
 
-  constexpr void __set_mSecurityStrength(int32_t value);
+  constexpr void __cordl_internal_set_mSecurityStrength(int32_t value);
 
-  constexpr int64_t& __get_mReseedCounter();
+  constexpr int64_t& __cordl_internal_get_mReseedCounter();
 
-  constexpr int64_t const& __get_mReseedCounter() const;
+  constexpr int64_t const& __cordl_internal_get_mReseedCounter() const;
 
-  constexpr void __set_mReseedCounter(int64_t value);
+  constexpr void __cordl_internal_set_mReseedCounter(int64_t value);
 
   static inline void setStaticF_RESEED_MAX(int64_t value);
 

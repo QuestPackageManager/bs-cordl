@@ -10,9 +10,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x128faa8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitHinge*>::get(),
-                                                                               "OpenUserManual", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "OpenUserManual", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -24,9 +24,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x128faec;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitHinge*>::get(),
-                                                                               "OpenScriptReference", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "OpenScriptReference", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -37,9 +37,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x128fb30;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitHinge*>::get(),
-                                                                               "SupportGroup", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "SupportGroup", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -50,9 +50,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x128fb74;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitHinge*>::get(), "ASThread",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x128fbb8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitHinge*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitHinge*>::get(), 4));
@@ -79,10 +79,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x248;
   constexpr static std::size_t addrs = 0x128fbd4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitHinge*>::get(), "LimitHinge", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitHinge*>::get(), "LimitHinge", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
     return ___internal_method;
   }
 };
@@ -93,102 +93,102 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x128fe1c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitHinge*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool& RootMotion::FinalIK::RotationLimitHinge::__get_useLimits() {
+constexpr bool& RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_get_useLimits() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useLimits;
 }
-constexpr bool const& RootMotion::FinalIK::RotationLimitHinge::__get_useLimits() const {
+constexpr bool const& RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_get_useLimits() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useLimits;
 }
-constexpr void RootMotion::FinalIK::RotationLimitHinge::__set_useLimits(bool value) {
+constexpr void RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_set_useLimits(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useLimits = value;
 }
-constexpr float_t& RootMotion::FinalIK::RotationLimitHinge::__get_min() {
+constexpr float_t& RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_get_min() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___min;
 }
-constexpr float_t const& RootMotion::FinalIK::RotationLimitHinge::__get_min() const {
+constexpr float_t const& RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_get_min() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___min;
 }
-constexpr void RootMotion::FinalIK::RotationLimitHinge::__set_min(float_t value) {
+constexpr void RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_set_min(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___min = value;
 }
-constexpr float_t& RootMotion::FinalIK::RotationLimitHinge::__get_max() {
+constexpr float_t& RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_get_max() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max;
 }
-constexpr float_t const& RootMotion::FinalIK::RotationLimitHinge::__get_max() const {
+constexpr float_t const& RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_get_max() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___max;
 }
-constexpr void RootMotion::FinalIK::RotationLimitHinge::__set_max(float_t value) {
+constexpr void RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_set_max(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___max = value;
 }
-constexpr float_t& RootMotion::FinalIK::RotationLimitHinge::__get_zeroAxisDisplayOffset() {
+constexpr float_t& RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_get_zeroAxisDisplayOffset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___zeroAxisDisplayOffset;
 }
-constexpr float_t const& RootMotion::FinalIK::RotationLimitHinge::__get_zeroAxisDisplayOffset() const {
+constexpr float_t const& RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_get_zeroAxisDisplayOffset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___zeroAxisDisplayOffset;
 }
-constexpr void RootMotion::FinalIK::RotationLimitHinge::__set_zeroAxisDisplayOffset(float_t value) {
+constexpr void RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_set_zeroAxisDisplayOffset(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___zeroAxisDisplayOffset = value;
 }
-constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::RotationLimitHinge::__get_lastRotation() {
+constexpr ::UnityEngine::Quaternion& RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_get_lastRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastRotation;
 }
-constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::RotationLimitHinge::__get_lastRotation() const {
+constexpr ::UnityEngine::Quaternion const& RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_get_lastRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastRotation;
 }
-constexpr void RootMotion::FinalIK::RotationLimitHinge::__set_lastRotation(::UnityEngine::Quaternion value) {
+constexpr void RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_set_lastRotation(::UnityEngine::Quaternion value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastRotation = value;
 }
-constexpr float_t& RootMotion::FinalIK::RotationLimitHinge::__get_lastAngle() {
+constexpr float_t& RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_get_lastAngle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastAngle;
 }
-constexpr float_t const& RootMotion::FinalIK::RotationLimitHinge::__get_lastAngle() const {
+constexpr float_t const& RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_get_lastAngle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastAngle;
 }
-constexpr void RootMotion::FinalIK::RotationLimitHinge::__set_lastAngle(float_t value) {
+constexpr void RootMotion::FinalIK::RotationLimitHinge::__cordl_internal_set_lastAngle(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastAngle = value;
 }
 inline void RootMotion::FinalIK::RotationLimitHinge::OpenUserManual() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitHinge*>::get(),
-                                                                             "OpenUserManual", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "OpenUserManual", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void RootMotion::FinalIK::RotationLimitHinge::OpenScriptReference() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitHinge*>::get(),
-                                                                             "OpenScriptReference", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "OpenScriptReference", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void RootMotion::FinalIK::RotationLimitHinge::SupportGroup() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitHinge*>::get(), "SupportGroup",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void RootMotion::FinalIK::RotationLimitHinge::ASThread() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitHinge*>::get(), "ASThread",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Quaternion RootMotion::FinalIK::RotationLimitHinge::LimitRotation(::UnityEngine::Quaternion rotation) {
@@ -197,17 +197,17 @@ inline ::UnityEngine::Quaternion RootMotion::FinalIK::RotationLimitHinge::LimitR
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion, false>(this, ___internal_method, rotation);
 }
 inline ::UnityEngine::Quaternion RootMotion::FinalIK::RotationLimitHinge::LimitHinge(::UnityEngine::Quaternion rotation) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitHinge*>::get(), "LimitHinge", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitHinge*>::get(), "LimitHinge", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion, false>(this, ___internal_method, rotation);
 }
 inline ::RootMotion::FinalIK::RotationLimitHinge* RootMotion::FinalIK::RotationLimitHinge::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::RootMotion::FinalIK::RotationLimitHinge*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::RootMotion::FinalIK::RotationLimitHinge*>());
 }
 inline void RootMotion::FinalIK::RotationLimitHinge::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::RootMotion::FinalIK::RotationLimitHinge*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

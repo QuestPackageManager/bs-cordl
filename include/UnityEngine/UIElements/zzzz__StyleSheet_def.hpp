@@ -63,22 +63,22 @@ MARK_VAL_T(::UnityEngine::UIElements::__StyleSheet__ImportStruct);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7278))
 // CS Name: ::StyleSheet::ImportStruct
 struct CORDL_TYPE __StyleSheet__ImportStruct {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "styleSheet", ty: "::UnityEngine::UIElements::StyleSheet*", modifiers: "", def_value: None }, CppParam { name: "mediaQueries", ty:
+  // Ctor Parameters [CppParam { name: "styleSheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None }, CppParam { name: "mediaQueries", ty:
   // "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }]
-  constexpr __StyleSheet__ImportStruct(::UnityEngine::UIElements::StyleSheet* styleSheet, ::ArrayW<::StringW, ::Array<::StringW>*> mediaQueries) noexcept;
+  constexpr __StyleSheet__ImportStruct(::UnityW<::UnityEngine::UIElements::StyleSheet> styleSheet, ::ArrayW<::StringW, ::Array<::StringW>*> mediaQueries) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __StyleSheet__ImportStruct();
 
   /// @brief Field styleSheet, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::StyleSheet* styleSheet;
+  ::UnityW<::UnityEngine::UIElements::StyleSheet> styleSheet;
 
   /// @brief Field mediaQueries, offset: 0x8, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> mediaQueries;
@@ -100,7 +100,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__StyleSheet__ImportStruct, me
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7279))
 // CS Name: ::UnityEngine.UIElements::StyleSheet*
 class CORDL_TYPE StyleSheet : public ::UnityEngine::ScriptableObject {
@@ -109,63 +109,67 @@ public:
   using ImportStruct = ::UnityEngine::UIElements::__StyleSheet__ImportStruct;
 
   /// @brief Field m_ImportedWithErrors, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_ImportedWithErrors, put = __set_m_ImportedWithErrors)) bool m_ImportedWithErrors;
+  __declspec(property(get = __cordl_internal_get_m_ImportedWithErrors, put = __cordl_internal_set_m_ImportedWithErrors)) bool m_ImportedWithErrors;
 
   /// @brief Field m_ImportedWithWarnings, offset 0x19, size 0x1
-  __declspec(property(get = __get_m_ImportedWithWarnings, put = __set_m_ImportedWithWarnings)) bool m_ImportedWithWarnings;
+  __declspec(property(get = __cordl_internal_get_m_ImportedWithWarnings, put = __cordl_internal_set_m_ImportedWithWarnings)) bool m_ImportedWithWarnings;
 
   /// @brief Field m_Rules, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Rules, put = __set_m_Rules))::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> m_Rules;
+  __declspec(property(get = __cordl_internal_get_m_Rules, put = __cordl_internal_set_m_Rules))::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> m_Rules;
 
   /// @brief Field m_ComplexSelectors, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_ComplexSelectors,
-                      put = __set_m_ComplexSelectors))::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> m_ComplexSelectors;
+  __declspec(
+      property(get = __cordl_internal_get_m_ComplexSelectors,
+               put = __cordl_internal_set_m_ComplexSelectors))::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> m_ComplexSelectors;
 
   /// @brief Field floats, offset 0x30, size 0x8
-  __declspec(property(get = __get_floats, put = __set_floats))::ArrayW<float_t, ::Array<float_t>*> floats;
+  __declspec(property(get = __cordl_internal_get_floats, put = __cordl_internal_set_floats))::ArrayW<float_t, ::Array<float_t>*> floats;
 
   /// @brief Field dimensions, offset 0x38, size 0x8
-  __declspec(property(get = __get_dimensions,
-                      put = __set_dimensions))::ArrayW<::UnityEngine::UIElements::StyleSheets::Dimension, ::Array<::UnityEngine::UIElements::StyleSheets::Dimension>*> dimensions;
+  __declspec(property(get = __cordl_internal_get_dimensions,
+                      put = __cordl_internal_set_dimensions))::ArrayW<::UnityEngine::UIElements::StyleSheets::Dimension, ::Array<::UnityEngine::UIElements::StyleSheets::Dimension>*> dimensions;
 
   /// @brief Field colors, offset 0x40, size 0x8
-  __declspec(property(get = __get_colors, put = __set_colors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors;
+  __declspec(property(get = __cordl_internal_get_colors, put = __cordl_internal_set_colors))::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> colors;
 
   /// @brief Field strings, offset 0x48, size 0x8
-  __declspec(property(get = __get_strings, put = __set_strings))::ArrayW<::StringW, ::Array<::StringW>*> strings;
+  __declspec(property(get = __cordl_internal_get_strings, put = __cordl_internal_set_strings))::ArrayW<::StringW, ::Array<::StringW>*> strings;
 
   /// @brief Field assets, offset 0x50, size 0x8
-  __declspec(property(get = __get_assets, put = __set_assets))::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> assets;
+  __declspec(property(get = __cordl_internal_get_assets, put = __cordl_internal_set_assets))::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> assets;
 
   /// @brief Field imports, offset 0x58, size 0x8
-  __declspec(property(get = __get_imports,
-                      put = __set_imports))::ArrayW<::UnityEngine::UIElements::__StyleSheet__ImportStruct, ::Array<::UnityEngine::UIElements::__StyleSheet__ImportStruct>*> imports;
+  __declspec(property(get = __cordl_internal_get_imports,
+                      put = __cordl_internal_set_imports))::ArrayW<::UnityEngine::UIElements::__StyleSheet__ImportStruct, ::Array<::UnityEngine::UIElements::__StyleSheet__ImportStruct>*> imports;
 
   /// @brief Field m_FlattenedImportedStyleSheets, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_FlattenedImportedStyleSheets,
-                      put = __set_m_FlattenedImportedStyleSheets))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* m_FlattenedImportedStyleSheets;
+  __declspec(
+      property(get = __cordl_internal_get_m_FlattenedImportedStyleSheets,
+               put = __cordl_internal_set_m_FlattenedImportedStyleSheets))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* m_FlattenedImportedStyleSheets;
 
   /// @brief Field m_ContentHash, offset 0x68, size 0x4
-  __declspec(property(get = __get_m_ContentHash, put = __set_m_ContentHash)) int32_t m_ContentHash;
+  __declspec(property(get = __cordl_internal_get_m_ContentHash, put = __cordl_internal_set_m_ContentHash)) int32_t m_ContentHash;
 
   /// @brief Field scalableImages, offset 0x70, size 0x8
-  __declspec(property(get = __get_scalableImages,
-                      put = __set_scalableImages))::ArrayW<::UnityEngine::UIElements::StyleSheets::ScalableImage, ::Array<::UnityEngine::UIElements::StyleSheets::ScalableImage>*> scalableImages;
+  __declspec(property(
+      get = __cordl_internal_get_scalableImages,
+      put = __cordl_internal_set_scalableImages))::ArrayW<::UnityEngine::UIElements::StyleSheets::ScalableImage, ::Array<::UnityEngine::UIElements::StyleSheets::ScalableImage>*> scalableImages;
 
   /// @brief Field orderedNameSelectors, offset 0x78, size 0x8
-  __declspec(property(get = __get_orderedNameSelectors,
-                      put = __set_orderedNameSelectors))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* orderedNameSelectors;
+  __declspec(property(get = __cordl_internal_get_orderedNameSelectors,
+                      put = __cordl_internal_set_orderedNameSelectors))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* orderedNameSelectors;
 
   /// @brief Field orderedTypeSelectors, offset 0x80, size 0x8
-  __declspec(property(get = __get_orderedTypeSelectors,
-                      put = __set_orderedTypeSelectors))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* orderedTypeSelectors;
+  __declspec(property(get = __cordl_internal_get_orderedTypeSelectors,
+                      put = __cordl_internal_set_orderedTypeSelectors))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* orderedTypeSelectors;
 
   /// @brief Field orderedClassSelectors, offset 0x88, size 0x8
-  __declspec(property(get = __get_orderedClassSelectors,
-                      put = __set_orderedClassSelectors))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* orderedClassSelectors;
+  __declspec(
+      property(get = __cordl_internal_get_orderedClassSelectors,
+               put = __cordl_internal_set_orderedClassSelectors))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* orderedClassSelectors;
 
   /// @brief Field m_IsDefaultStyleSheet, offset 0x90, size 0x1
-  __declspec(property(get = __get_m_IsDefaultStyleSheet, put = __set_m_IsDefaultStyleSheet)) bool m_IsDefaultStyleSheet;
+  __declspec(property(get = __cordl_internal_get_m_IsDefaultStyleSheet, put = __cordl_internal_set_m_IsDefaultStyleSheet)) bool m_IsDefaultStyleSheet;
 
   /// @brief Field kCustomPropertyMarker, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_kCustomPropertyMarker, put = setStaticF_kCustomPropertyMarker))::StringW kCustomPropertyMarker;
@@ -179,113 +183,117 @@ public:
   __declspec(property(get = get_complexSelectors,
                       put = set_complexSelectors))::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> complexSelectors;
 
-  __declspec(property(get = get_flattenedRecursiveImports))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* flattenedRecursiveImports;
+  __declspec(property(get = get_flattenedRecursiveImports))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* flattenedRecursiveImports;
 
   __declspec(property(get = get_contentHash, put = set_contentHash)) int32_t contentHash;
 
   __declspec(property(get = get_isDefaultStyleSheet, put = set_isDefaultStyleSheet)) bool isDefaultStyleSheet;
 
-  constexpr bool& __get_m_ImportedWithErrors();
+  constexpr bool& __cordl_internal_get_m_ImportedWithErrors();
 
-  constexpr bool const& __get_m_ImportedWithErrors() const;
+  constexpr bool const& __cordl_internal_get_m_ImportedWithErrors() const;
 
-  constexpr void __set_m_ImportedWithErrors(bool value);
+  constexpr void __cordl_internal_set_m_ImportedWithErrors(bool value);
 
-  constexpr bool& __get_m_ImportedWithWarnings();
+  constexpr bool& __cordl_internal_get_m_ImportedWithWarnings();
 
-  constexpr bool const& __get_m_ImportedWithWarnings() const;
+  constexpr bool const& __cordl_internal_get_m_ImportedWithWarnings() const;
 
-  constexpr void __set_m_ImportedWithWarnings(bool value);
+  constexpr void __cordl_internal_set_m_ImportedWithWarnings(bool value);
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*>& __get_m_Rules();
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*>& __cordl_internal_get_m_Rules();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> const& __get_m_Rules() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> const& __cordl_internal_get_m_Rules() const;
 
-  constexpr void __set_m_Rules(::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> value);
+  constexpr void __cordl_internal_set_m_Rules(::ArrayW<::UnityEngine::UIElements::StyleRule*, ::Array<::UnityEngine::UIElements::StyleRule*>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*>& __get_m_ComplexSelectors();
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*>& __cordl_internal_get_m_ComplexSelectors();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> const& __get_m_ComplexSelectors() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> const& __cordl_internal_get_m_ComplexSelectors() const;
 
-  constexpr void __set_m_ComplexSelectors(::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> value);
+  constexpr void __cordl_internal_set_m_ComplexSelectors(::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get_floats();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_floats();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get_floats() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_floats() const;
 
-  constexpr void __set_floats(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set_floats(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::Dimension, ::Array<::UnityEngine::UIElements::StyleSheets::Dimension>*>& __get_dimensions();
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::Dimension, ::Array<::UnityEngine::UIElements::StyleSheets::Dimension>*>& __cordl_internal_get_dimensions();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::Dimension, ::Array<::UnityEngine::UIElements::StyleSheets::Dimension>*> const& __get_dimensions() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::Dimension, ::Array<::UnityEngine::UIElements::StyleSheets::Dimension>*> const& __cordl_internal_get_dimensions() const;
 
-  constexpr void __set_dimensions(::ArrayW<::UnityEngine::UIElements::StyleSheets::Dimension, ::Array<::UnityEngine::UIElements::StyleSheets::Dimension>*> value);
+  constexpr void __cordl_internal_set_dimensions(::ArrayW<::UnityEngine::UIElements::StyleSheets::Dimension, ::Array<::UnityEngine::UIElements::StyleSheets::Dimension>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __get_colors();
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>& __cordl_internal_get_colors();
 
-  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __get_colors() const;
+  constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __cordl_internal_get_colors() const;
 
-  constexpr void __set_colors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
+  constexpr void __cordl_internal_set_colors(::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_strings();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_strings();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_strings() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_strings() const;
 
-  constexpr void __set_strings(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_strings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*>& __get_assets();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*>& __cordl_internal_get_assets();
 
-  constexpr ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> const& __get_assets() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> const& __cordl_internal_get_assets() const;
 
-  constexpr void __set_assets(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> value);
+  constexpr void __cordl_internal_set_assets(::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::__StyleSheet__ImportStruct, ::Array<::UnityEngine::UIElements::__StyleSheet__ImportStruct>*>& __get_imports();
+  constexpr ::ArrayW<::UnityEngine::UIElements::__StyleSheet__ImportStruct, ::Array<::UnityEngine::UIElements::__StyleSheet__ImportStruct>*>& __cordl_internal_get_imports();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::__StyleSheet__ImportStruct, ::Array<::UnityEngine::UIElements::__StyleSheet__ImportStruct>*> const& __get_imports() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::__StyleSheet__ImportStruct, ::Array<::UnityEngine::UIElements::__StyleSheet__ImportStruct>*> const& __cordl_internal_get_imports() const;
 
-  constexpr void __set_imports(::ArrayW<::UnityEngine::UIElements::__StyleSheet__ImportStruct, ::Array<::UnityEngine::UIElements::__StyleSheet__ImportStruct>*> value);
+  constexpr void __cordl_internal_set_imports(::ArrayW<::UnityEngine::UIElements::__StyleSheet__ImportStruct, ::Array<::UnityEngine::UIElements::__StyleSheet__ImportStruct>*> value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>*& __get_m_FlattenedImportedStyleSheets();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*& __cordl_internal_get_m_FlattenedImportedStyleSheets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>*> const& __get_m_FlattenedImportedStyleSheets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>*> const&
+  __cordl_internal_get_m_FlattenedImportedStyleSheets() const;
 
-  constexpr void __set_m_FlattenedImportedStyleSheets(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* value);
+  constexpr void __cordl_internal_set_m_FlattenedImportedStyleSheets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* value);
 
-  constexpr int32_t& __get_m_ContentHash();
+  constexpr int32_t& __cordl_internal_get_m_ContentHash();
 
-  constexpr int32_t const& __get_m_ContentHash() const;
+  constexpr int32_t const& __cordl_internal_get_m_ContentHash() const;
 
-  constexpr void __set_m_ContentHash(int32_t value);
+  constexpr void __cordl_internal_set_m_ContentHash(int32_t value);
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::ScalableImage, ::Array<::UnityEngine::UIElements::StyleSheets::ScalableImage>*>& __get_scalableImages();
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::ScalableImage, ::Array<::UnityEngine::UIElements::StyleSheets::ScalableImage>*>& __cordl_internal_get_scalableImages();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::ScalableImage, ::Array<::UnityEngine::UIElements::StyleSheets::ScalableImage>*> const& __get_scalableImages() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::ScalableImage, ::Array<::UnityEngine::UIElements::StyleSheets::ScalableImage>*> const& __cordl_internal_get_scalableImages() const;
 
-  constexpr void __set_scalableImages(::ArrayW<::UnityEngine::UIElements::StyleSheets::ScalableImage, ::Array<::UnityEngine::UIElements::StyleSheets::ScalableImage>*> value);
+  constexpr void __cordl_internal_set_scalableImages(::ArrayW<::UnityEngine::UIElements::StyleSheets::ScalableImage, ::Array<::UnityEngine::UIElements::StyleSheets::ScalableImage>*> value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*& __get_orderedNameSelectors();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*& __cordl_internal_get_orderedNameSelectors();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*> const& __get_orderedNameSelectors() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*> const&
+  __cordl_internal_get_orderedNameSelectors() const;
 
-  constexpr void __set_orderedNameSelectors(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* value);
+  constexpr void __cordl_internal_set_orderedNameSelectors(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*& __get_orderedTypeSelectors();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*& __cordl_internal_get_orderedTypeSelectors();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*> const& __get_orderedTypeSelectors() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*> const&
+  __cordl_internal_get_orderedTypeSelectors() const;
 
-  constexpr void __set_orderedTypeSelectors(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* value);
+  constexpr void __cordl_internal_set_orderedTypeSelectors(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*& __get_orderedClassSelectors();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*& __cordl_internal_get_orderedClassSelectors();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*> const& __get_orderedClassSelectors() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>*> const&
+  __cordl_internal_get_orderedClassSelectors() const;
 
-  constexpr void __set_orderedClassSelectors(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* value);
+  constexpr void __cordl_internal_set_orderedClassSelectors(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* value);
 
-  constexpr bool& __get_m_IsDefaultStyleSheet();
+  constexpr bool& __cordl_internal_get_m_IsDefaultStyleSheet();
 
-  constexpr bool const& __get_m_IsDefaultStyleSheet() const;
+  constexpr bool const& __cordl_internal_get_m_IsDefaultStyleSheet() const;
 
-  constexpr void __set_m_IsDefaultStyleSheet(bool value);
+  constexpr void __cordl_internal_set_m_IsDefaultStyleSheet(bool value);
 
   static inline void setStaticF_kCustomPropertyMarker(::StringW value);
 
@@ -316,7 +324,7 @@ public:
   inline void set_complexSelectors(::ArrayW<::UnityEngine::UIElements::StyleComplexSelector*, ::Array<::UnityEngine::UIElements::StyleComplexSelector*>*> value);
 
   /// @brief Method get_flattenedRecursiveImports, addr 0x2e6bae8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* get_flattenedRecursiveImports();
+  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_flattenedRecursiveImports();
 
   /// @brief Method get_contentHash, addr 0x2e6baf0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_contentHash();
@@ -395,7 +403,7 @@ public:
   inline bool TryReadResourcePath(::UnityEngine::UIElements::StyleValueHandle handle, ByRef<::StringW> value);
 
   /// @brief Method ReadAssetReference, addr 0x2e6c564, size 0x84, virtual false, abstract: false, final false
-  inline ::UnityEngine::Object* ReadAssetReference(::UnityEngine::UIElements::StyleValueHandle handle);
+  inline ::UnityW<::UnityEngine::Object> ReadAssetReference(::UnityEngine::UIElements::StyleValueHandle handle);
 
   /// @brief Method ReadMissingAssetReferenceUrl, addr 0x2e6c5e8, size 0x84, virtual false, abstract: false, final false
   inline ::StringW ReadMissingAssetReferenceUrl(::UnityEngine::UIElements::StyleValueHandle handle);
@@ -459,13 +467,13 @@ public:
   ::ArrayW<::StringW, ::Array<::StringW>*> ___strings;
 
   /// @brief Field assets, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> ___assets;
+  ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> ___assets;
 
   /// @brief Field imports, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::__StyleSheet__ImportStruct, ::Array<::UnityEngine::UIElements::__StyleSheet__ImportStruct>*> ___imports;
 
   /// @brief Field m_FlattenedImportedStyleSheets, offset: 0x60, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheet*>* ___m_FlattenedImportedStyleSheets;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* ___m_FlattenedImportedStyleSheets;
 
   /// @brief Field m_ContentHash, offset: 0x68, size: 0x4, def value: None
   int32_t ___m_ContentHash;

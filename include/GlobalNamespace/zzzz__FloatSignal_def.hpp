@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::FloatSignal);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14394), inst: 391 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14394), inst: 391 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14393))
 // CS Name: ::FloatSignal*
 class CORDL_TYPE FloatSignal : public ::GlobalNamespace::GenericSignal_1<float_t> {

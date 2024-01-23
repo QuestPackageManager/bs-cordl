@@ -32,33 +32,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::OcspIdentifier);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(145))
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::OcspIdentifier*
 class CORDL_TYPE OcspIdentifier : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field ocspResponderID, offset 0x10, size 0x8
-  __declspec(property(get = __get_ocspResponderID, put = __set_ocspResponderID))::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ocspResponderID;
+  __declspec(property(get = __cordl_internal_get_ocspResponderID, put = __cordl_internal_set_ocspResponderID))::Org::BouncyCastle::Asn1::Ocsp::ResponderID* ocspResponderID;
 
   /// @brief Field producedAt, offset 0x18, size 0x8
-  __declspec(property(get = __get_producedAt, put = __set_producedAt))::Org::BouncyCastle::Asn1::DerGeneralizedTime* producedAt;
+  __declspec(property(get = __cordl_internal_get_producedAt, put = __cordl_internal_set_producedAt))::Org::BouncyCastle::Asn1::DerGeneralizedTime* producedAt;
 
   __declspec(property(get = get_OcspResponderID))::Org::BouncyCastle::Asn1::Ocsp::ResponderID* OcspResponderID;
 
   __declspec(property(get = get_ProducedAt))::System::DateTime ProducedAt;
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponderID*& __get_ocspResponderID();
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::ResponderID*& __cordl_internal_get_ocspResponderID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::ResponderID*> const& __get_ocspResponderID() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::ResponderID*> const& __cordl_internal_get_ocspResponderID() const;
 
-  constexpr void __set_ocspResponderID(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* value);
+  constexpr void __cordl_internal_set_ocspResponderID(::Org::BouncyCastle::Asn1::Ocsp::ResponderID* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __get_producedAt();
+  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_producedAt();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __get_producedAt() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_producedAt() const;
 
-  constexpr void __set_producedAt(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
+  constexpr void __cordl_internal_set_producedAt(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
   /// @brief Method GetInstance, addr 0xe93438, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::OcspIdentifier* GetInstance(::System::Object* obj);

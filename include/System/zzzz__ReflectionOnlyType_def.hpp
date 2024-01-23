@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::ReflectionOnlyType);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2567))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2567))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2568))
 // CS Name: ::System::ReflectionOnlyType*
 class CORDL_TYPE ReflectionOnlyType : public ::System::RuntimeType {

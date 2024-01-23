@@ -106,7 +106,7 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11977))
 // CS Name: ::Extensions::<>c__0`1<T>*
 class CORDL_TYPE __Extensions____c__0_1 : public ::System::Object {
@@ -158,7 +158,7 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11978))
 // CS Name: ::Extensions::<>c__1`1<T>*
 class CORDL_TYPE __Extensions____c__1_1 : public ::System::Object {
@@ -210,7 +210,7 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11979))
 // CS Name: ::Extensions::<>c__2`1<T>*
 class CORDL_TYPE __Extensions____c__2_1 : public ::System::Object {
@@ -262,7 +262,7 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11980))
 // CS Name: ::Extensions::<>c__3`1<T>*
 class CORDL_TYPE __Extensions____c__3_1 : public ::System::Object {
@@ -312,7 +312,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11981))
 // CS Name: ::Extensions::<>c*
 class CORDL_TYPE __Extensions____c : public ::System::Object {
@@ -368,41 +368,41 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T, typename U>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11982))
 // CS Name: ::Extensions::<Values>d__11`2<T,U>*
 class CORDL_TYPE __Extensions___Values_d__11_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current)) U __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) U __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field source, offset 0x28, size 0x8
-  __declspec(property(get = __get_source, put = __set_source))::System::Collections::Generic::IEnumerable_1<T>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<T>* source;
 
   /// @brief Field <>3__source, offset 0x30, size 0x8
-  __declspec(property(get = __get___3__source, put = __set___3__source))::System::Collections::Generic::IEnumerable_1<T>* __3__source;
+  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source))::System::Collections::Generic::IEnumerable_1<T>* __3__source;
 
   /// @brief Field key, offset 0x38, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::System::Object* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::System::Object* key;
 
   /// @brief Field <>3__key, offset 0x40, size 0x8
-  __declspec(property(get = __get___3__key, put = __set___3__key))::System::Object* __3__key;
+  __declspec(property(get = __cordl_internal_get___3__key, put = __cordl_internal_set___3__key))::System::Object* __3__key;
 
   /// @brief Field <token>5__1, offset 0x48, size 0x8
-  __declspec(property(get = __get__token_5__1, put = __set__token_5__1))::Newtonsoft::Json::Linq::JToken* _token_5__1;
+  __declspec(property(get = __cordl_internal_get__token_5__1, put = __cordl_internal_set__token_5__1))::Newtonsoft::Json::Linq::JToken* _token_5__1;
 
   /// @brief Field <>7__wrap1, offset 0x50, size 0x8
-  __declspec(property(get = __get___7__wrap1, put = __set___7__wrap1))::System::Collections::Generic::IEnumerator_1<T>* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<T>* __7__wrap1;
 
   /// @brief Field <>7__wrap2, offset 0x58, size 0x8
-  __declspec(property(get = __get___7__wrap2, put = __set___7__wrap2))::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* __7__wrap2;
+  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2))::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* __7__wrap2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_U__get_Current)) U System_Collections_Generic_IEnumerator_U__Current;
 
@@ -438,65 +438,65 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr U& __get___2__current();
+  constexpr U& __cordl_internal_get___2__current();
 
-  constexpr U const& __get___2__current() const;
+  constexpr U const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(U value);
+  constexpr void __cordl_internal_set___2__current(U value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __get_source();
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get_source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __get_source() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get_source() const;
 
-  constexpr void __set_source(::System::Collections::Generic::IEnumerable_1<T>* value);
+  constexpr void __cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<T>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __get___3__source();
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get___3__source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __get___3__source() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get___3__source() const;
 
-  constexpr void __set___3__source(::System::Collections::Generic::IEnumerable_1<T>* value);
+  constexpr void __cordl_internal_set___3__source(::System::Collections::Generic::IEnumerable_1<T>* value);
 
-  constexpr ::System::Object*& __get_key();
+  constexpr ::System::Object*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::System::Object* value);
+  constexpr void __cordl_internal_set_key(::System::Object* value);
 
-  constexpr ::System::Object*& __get___3__key();
+  constexpr ::System::Object*& __cordl_internal_get___3__key();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___3__key() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___3__key() const;
 
-  constexpr void __set___3__key(::System::Object* value);
+  constexpr void __cordl_internal_set___3__key(::System::Object* value);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get__token_5__1();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get__token_5__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get__token_5__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get__token_5__1() const;
 
-  constexpr void __set__token_5__1(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set__token_5__1(::Newtonsoft::Json::Linq::JToken* value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<T>*& __get___7__wrap1();
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>*& __cordl_internal_get___7__wrap1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T>*> const& __get___7__wrap1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T>*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::System::Collections::Generic::IEnumerator_1<T>* value);
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<T>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*& __get___7__wrap2();
+  constexpr ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*& __cordl_internal_get___7__wrap2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*> const& __get___7__wrap2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>*> const& __cordl_internal_get___7__wrap2() const;
 
-  constexpr void __set___7__wrap2(::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* value);
+  constexpr void __cordl_internal_set___7__wrap2(::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* value);
 
   static inline ::Newtonsoft::Json::Linq::__Extensions___Values_d__11_2<T, U>* New_ctor(int32_t __1__state);
 
@@ -584,7 +584,7 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T, typename U>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11983))
 // CS Name: ::Extensions::<>c__13`2<T,U>*
 class CORDL_TYPE __Extensions____c__13_2 : public ::System::Object {
@@ -636,29 +636,29 @@ namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T, typename U>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11984))
 // CS Name: ::Extensions::<Convert>d__14`2<T,U>*
 class CORDL_TYPE __Extensions___Convert_d__14_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current)) U __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) U __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field source, offset 0x28, size 0x8
-  __declspec(property(get = __get_source, put = __set_source))::System::Collections::Generic::IEnumerable_1<T>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<T>* source;
 
   /// @brief Field <>3__source, offset 0x30, size 0x8
-  __declspec(property(get = __get___3__source, put = __set___3__source))::System::Collections::Generic::IEnumerable_1<T>* __3__source;
+  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source))::System::Collections::Generic::IEnumerable_1<T>* __3__source;
 
   /// @brief Field <>7__wrap1, offset 0x38, size 0x8
-  __declspec(property(get = __get___7__wrap1, put = __set___7__wrap1))::System::Collections::Generic::IEnumerator_1<T>* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<T>* __7__wrap1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_U__get_Current)) U System_Collections_Generic_IEnumerator_U__Current;
 
@@ -694,41 +694,41 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr U& __get___2__current();
+  constexpr U& __cordl_internal_get___2__current();
 
-  constexpr U const& __get___2__current() const;
+  constexpr U const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(U value);
+  constexpr void __cordl_internal_set___2__current(U value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __get_source();
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get_source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __get_source() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get_source() const;
 
-  constexpr void __set_source(::System::Collections::Generic::IEnumerable_1<T>* value);
+  constexpr void __cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<T>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __get___3__source();
+  constexpr ::System::Collections::Generic::IEnumerable_1<T>*& __cordl_internal_get___3__source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __get___3__source() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<T>*> const& __cordl_internal_get___3__source() const;
 
-  constexpr void __set___3__source(::System::Collections::Generic::IEnumerable_1<T>* value);
+  constexpr void __cordl_internal_set___3__source(::System::Collections::Generic::IEnumerable_1<T>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<T>*& __get___7__wrap1();
+  constexpr ::System::Collections::Generic::IEnumerator_1<T>*& __cordl_internal_get___7__wrap1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T>*> const& __get___7__wrap1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<T>*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::System::Collections::Generic::IEnumerator_1<T>* value);
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<T>* value);
 
   static inline ::Newtonsoft::Json::Linq::__Extensions___Convert_d__14_2<T, U>* New_ctor(int32_t __1__state);
 
@@ -799,7 +799,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11985))
 // CS Name: ::Newtonsoft.Json.Linq::Extensions*
 class CORDL_TYPE Extensions : public ::System::Object {

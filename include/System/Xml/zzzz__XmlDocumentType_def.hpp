@@ -30,35 +30,35 @@ MARK_REF_PTR_T(::System::Xml::XmlDocumentType);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11513))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11513))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11507))
 // CS Name: ::System.Xml::XmlDocumentType*
 class CORDL_TYPE XmlDocumentType : public ::System::Xml::XmlLinkedNode {
 public:
   // Declarations
   /// @brief Field name, offset 0x20, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field publicId, offset 0x28, size 0x8
-  __declspec(property(get = __get_publicId, put = __set_publicId))::StringW publicId;
+  __declspec(property(get = __cordl_internal_get_publicId, put = __cordl_internal_set_publicId))::StringW publicId;
 
   /// @brief Field systemId, offset 0x30, size 0x8
-  __declspec(property(get = __get_systemId, put = __set_systemId))::StringW systemId;
+  __declspec(property(get = __cordl_internal_get_systemId, put = __cordl_internal_set_systemId))::StringW systemId;
 
   /// @brief Field internalSubset, offset 0x38, size 0x8
-  __declspec(property(get = __get_internalSubset, put = __set_internalSubset))::StringW internalSubset;
+  __declspec(property(get = __cordl_internal_get_internalSubset, put = __cordl_internal_set_internalSubset))::StringW internalSubset;
 
   /// @brief Field namespaces, offset 0x40, size 0x1
-  __declspec(property(get = __get_namespaces, put = __set_namespaces)) bool namespaces;
+  __declspec(property(get = __cordl_internal_get_namespaces, put = __cordl_internal_set_namespaces)) bool namespaces;
 
   /// @brief Field entities, offset 0x48, size 0x8
-  __declspec(property(get = __get_entities, put = __set_entities))::System::Xml::XmlNamedNodeMap* entities;
+  __declspec(property(get = __cordl_internal_get_entities, put = __cordl_internal_set_entities))::System::Xml::XmlNamedNodeMap* entities;
 
   /// @brief Field notations, offset 0x50, size 0x8
-  __declspec(property(get = __get_notations, put = __set_notations))::System::Xml::XmlNamedNodeMap* notations;
+  __declspec(property(get = __cordl_internal_get_notations, put = __cordl_internal_set_notations))::System::Xml::XmlNamedNodeMap* notations;
 
   /// @brief Field schemaInfo, offset 0x58, size 0x8
-  __declspec(property(get = __get_schemaInfo, put = __set_schemaInfo))::System::Xml::Schema::SchemaInfo* schemaInfo;
+  __declspec(property(get = __cordl_internal_get_schemaInfo, put = __cordl_internal_set_schemaInfo))::System::Xml::Schema::SchemaInfo* schemaInfo;
 
   __declspec(property(get = get_Name))::StringW Name;
 
@@ -82,53 +82,53 @@ public:
 
   __declspec(property(get = get_DtdSchemaInfo, put = set_DtdSchemaInfo))::System::Xml::Schema::SchemaInfo* DtdSchemaInfo;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::StringW& __get_publicId();
+  constexpr ::StringW& __cordl_internal_get_publicId();
 
-  constexpr ::StringW const& __get_publicId() const;
+  constexpr ::StringW const& __cordl_internal_get_publicId() const;
 
-  constexpr void __set_publicId(::StringW value);
+  constexpr void __cordl_internal_set_publicId(::StringW value);
 
-  constexpr ::StringW& __get_systemId();
+  constexpr ::StringW& __cordl_internal_get_systemId();
 
-  constexpr ::StringW const& __get_systemId() const;
+  constexpr ::StringW const& __cordl_internal_get_systemId() const;
 
-  constexpr void __set_systemId(::StringW value);
+  constexpr void __cordl_internal_set_systemId(::StringW value);
 
-  constexpr ::StringW& __get_internalSubset();
+  constexpr ::StringW& __cordl_internal_get_internalSubset();
 
-  constexpr ::StringW const& __get_internalSubset() const;
+  constexpr ::StringW const& __cordl_internal_get_internalSubset() const;
 
-  constexpr void __set_internalSubset(::StringW value);
+  constexpr void __cordl_internal_set_internalSubset(::StringW value);
 
-  constexpr bool& __get_namespaces();
+  constexpr bool& __cordl_internal_get_namespaces();
 
-  constexpr bool const& __get_namespaces() const;
+  constexpr bool const& __cordl_internal_get_namespaces() const;
 
-  constexpr void __set_namespaces(bool value);
+  constexpr void __cordl_internal_set_namespaces(bool value);
 
-  constexpr ::System::Xml::XmlNamedNodeMap*& __get_entities();
+  constexpr ::System::Xml::XmlNamedNodeMap*& __cordl_internal_get_entities();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNamedNodeMap*> const& __get_entities() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNamedNodeMap*> const& __cordl_internal_get_entities() const;
 
-  constexpr void __set_entities(::System::Xml::XmlNamedNodeMap* value);
+  constexpr void __cordl_internal_set_entities(::System::Xml::XmlNamedNodeMap* value);
 
-  constexpr ::System::Xml::XmlNamedNodeMap*& __get_notations();
+  constexpr ::System::Xml::XmlNamedNodeMap*& __cordl_internal_get_notations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNamedNodeMap*> const& __get_notations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNamedNodeMap*> const& __cordl_internal_get_notations() const;
 
-  constexpr void __set_notations(::System::Xml::XmlNamedNodeMap* value);
+  constexpr void __cordl_internal_set_notations(::System::Xml::XmlNamedNodeMap* value);
 
-  constexpr ::System::Xml::Schema::SchemaInfo*& __get_schemaInfo();
+  constexpr ::System::Xml::Schema::SchemaInfo*& __cordl_internal_get_schemaInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaInfo*> const& __get_schemaInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SchemaInfo*> const& __cordl_internal_get_schemaInfo() const;
 
-  constexpr void __set_schemaInfo(::System::Xml::Schema::SchemaInfo* value);
+  constexpr void __cordl_internal_set_schemaInfo(::System::Xml::Schema::SchemaInfo* value);
 
   static inline ::System::Xml::XmlDocumentType* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::StringW internalSubset, ::System::Xml::XmlDocument* doc);
 

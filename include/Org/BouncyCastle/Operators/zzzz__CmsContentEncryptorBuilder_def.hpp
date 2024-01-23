@@ -27,41 +27,41 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Operators::CmsContentEncryptorBuilder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Operators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(997))
 // CS Name: ::Org.BouncyCastle.Operators::CmsContentEncryptorBuilder*
 class CORDL_TYPE CmsContentEncryptorBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field encryptionOID, offset 0x10, size 0x8
-  __declspec(property(get = __get_encryptionOID, put = __set_encryptionOID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID;
+  __declspec(property(get = __cordl_internal_get_encryptionOID, put = __cordl_internal_set_encryptionOID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID;
 
   /// @brief Field keySize, offset 0x18, size 0x4
-  __declspec(property(get = __get_keySize, put = __set_keySize)) int32_t keySize;
+  __declspec(property(get = __cordl_internal_get_keySize, put = __cordl_internal_set_keySize)) int32_t keySize;
 
   /// @brief Field helper, offset 0x20, size 0x8
-  __declspec(property(get = __get_helper, put = __set_helper))::Org::BouncyCastle::Cms::EnvelopedDataHelper* helper;
+  __declspec(property(get = __cordl_internal_get_helper, put = __cordl_internal_set_helper))::Org::BouncyCastle::Cms::EnvelopedDataHelper* helper;
 
   /// @brief Field KeySizes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_KeySizes, put = setStaticF_KeySizes))::System::Collections::IDictionary* KeySizes;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_encryptionOID();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_encryptionOID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_encryptionOID() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_encryptionOID() const;
 
-  constexpr void __set_encryptionOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_encryptionOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr int32_t& __get_keySize();
+  constexpr int32_t& __cordl_internal_get_keySize();
 
-  constexpr int32_t const& __get_keySize() const;
+  constexpr int32_t const& __cordl_internal_get_keySize() const;
 
-  constexpr void __set_keySize(int32_t value);
+  constexpr void __cordl_internal_set_keySize(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Cms::EnvelopedDataHelper*& __get_helper();
+  constexpr ::Org::BouncyCastle::Cms::EnvelopedDataHelper*& __cordl_internal_get_helper();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::EnvelopedDataHelper*> const& __get_helper() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::EnvelopedDataHelper*> const& __cordl_internal_get_helper() const;
 
-  constexpr void __set_helper(::Org::BouncyCastle::Cms::EnvelopedDataHelper* value);
+  constexpr void __cordl_internal_set_helper(::Org::BouncyCastle::Cms::EnvelopedDataHelper* value);
 
   static inline void setStaticF_KeySizes(::System::Collections::IDictionary* value);
 

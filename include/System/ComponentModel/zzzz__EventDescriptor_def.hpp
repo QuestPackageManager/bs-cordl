@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::System::ComponentModel::EventDescriptor);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9474))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9474))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9423))
 // CS Name: ::System.ComponentModel::EventDescriptor*
 class CORDL_TYPE EventDescriptor : public ::System::ComponentModel::MemberDescriptor {

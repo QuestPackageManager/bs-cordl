@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapDifficultyDropdown____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5568))
 // CS Name: ::BeatmapDifficultyDropdown::<>c*
 class CORDL_TYPE __BeatmapDifficultyDropdown____c : public ::System::Object {
@@ -97,7 +97,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapDiffic
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5569))
 // CS Name: ::BeatmapDifficultyDropdown*
 class CORDL_TYPE BeatmapDifficultyDropdown : public ::UnityEngine::MonoBehaviour {
@@ -106,47 +106,47 @@ public:
   using __c = ::GlobalNamespace::__BeatmapDifficultyDropdown____c;
 
   /// @brief Field _simpleTextDropdown, offset 0x18, size 0x8
-  __declspec(property(get = __get__simpleTextDropdown, put = __set__simpleTextDropdown))::HMUI::SimpleTextDropdown* _simpleTextDropdown;
+  __declspec(property(get = __cordl_internal_get__simpleTextDropdown, put = __cordl_internal_set__simpleTextDropdown))::UnityW<::HMUI::SimpleTextDropdown> _simpleTextDropdown;
 
   /// @brief Field didSelectCellWithIdxEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_didSelectCellWithIdxEvent, put = __set_didSelectCellWithIdxEvent))::System::Action_1<int32_t>* didSelectCellWithIdxEvent;
+  __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent, put = __cordl_internal_set_didSelectCellWithIdxEvent))::System::Action_1<int32_t>* didSelectCellWithIdxEvent;
 
   /// @brief Field _beatmapDifficultyData, offset 0x28, size 0x8
-  __declspec(
-      property(get = __get__beatmapDifficultyData,
-               put = __set__beatmapDifficultyData))::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>* _beatmapDifficultyData;
+  __declspec(property(get = __cordl_internal_get__beatmapDifficultyData, put = __cordl_internal_set__beatmapDifficultyData))::System::Collections::Generic::IReadOnlyList_1<
+      ::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>* _beatmapDifficultyData;
 
   /// @brief Field <includeAllDifficulties>k__BackingField, offset 0x30, size 0x1
-  __declspec(property(get = __get__includeAllDifficulties_k__BackingField, put = __set__includeAllDifficulties_k__BackingField)) bool _includeAllDifficulties_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__includeAllDifficulties_k__BackingField,
+                      put = __cordl_internal_set__includeAllDifficulties_k__BackingField)) bool _includeAllDifficulties_k__BackingField;
 
   __declspec(property(get = get_beatmapDifficultyData))::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>* beatmapDifficultyData;
 
   __declspec(property(get = get_includeAllDifficulties, put = set_includeAllDifficulties)) bool includeAllDifficulties;
 
-  constexpr ::HMUI::SimpleTextDropdown*& __get__simpleTextDropdown();
+  constexpr ::UnityW<::HMUI::SimpleTextDropdown>& __cordl_internal_get__simpleTextDropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::SimpleTextDropdown*> const& __get__simpleTextDropdown() const;
+  constexpr ::UnityW<::HMUI::SimpleTextDropdown> const& __cordl_internal_get__simpleTextDropdown() const;
 
-  constexpr void __set__simpleTextDropdown(::HMUI::SimpleTextDropdown* value);
+  constexpr void __cordl_internal_set__simpleTextDropdown(::UnityW<::HMUI::SimpleTextDropdown> value);
 
-  constexpr ::System::Action_1<int32_t>*& __get_didSelectCellWithIdxEvent();
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_didSelectCellWithIdxEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __get_didSelectCellWithIdxEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
 
-  constexpr void __set_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
+  constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>*& __get__beatmapDifficultyData();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>*& __cordl_internal_get__beatmapDifficultyData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>*> const&
-  __get__beatmapDifficultyData() const;
+  __cordl_internal_get__beatmapDifficultyData() const;
 
-  constexpr void __set__beatmapDifficultyData(::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>* value);
+  constexpr void __cordl_internal_set__beatmapDifficultyData(::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::BeatmapDifficultyMask, ::StringW>*>* value);
 
-  constexpr bool& __get__includeAllDifficulties_k__BackingField();
+  constexpr bool& __cordl_internal_get__includeAllDifficulties_k__BackingField();
 
-  constexpr bool const& __get__includeAllDifficulties_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__includeAllDifficulties_k__BackingField() const;
 
-  constexpr void __set__includeAllDifficulties_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__includeAllDifficulties_k__BackingField(bool value);
 
   /// @brief Method add_didSelectCellWithIdxEvent, addr 0x22a43f8, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_1<int32_t>* value);
@@ -201,7 +201,7 @@ protected:
 
 public:
   /// @brief Field _simpleTextDropdown, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::SimpleTextDropdown* ____simpleTextDropdown;
+  ::UnityW<::HMUI::SimpleTextDropdown> ____simpleTextDropdown;
 
   /// @brief Field didSelectCellWithIdxEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___didSelectCellWithIdxEvent;

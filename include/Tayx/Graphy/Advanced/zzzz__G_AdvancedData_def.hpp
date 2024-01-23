@@ -48,62 +48,63 @@ MARK_REF_PTR_T(::Tayx::Graphy::Advanced::G_AdvancedData);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Advanced {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15064)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15064))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15090))
 // CS Name: ::Tayx.Graphy.Advanced::G_AdvancedData*
 class CORDL_TYPE G_AdvancedData : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field m_backgroundImages, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_backgroundImages, put = __set_m_backgroundImages))::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* m_backgroundImages;
+  __declspec(property(get = __cordl_internal_get_m_backgroundImages,
+                      put = __cordl_internal_set_m_backgroundImages))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* m_backgroundImages;
 
   /// @brief Field m_graphicsDeviceVersionText, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_graphicsDeviceVersionText, put = __set_m_graphicsDeviceVersionText))::UnityEngine::UI::Text* m_graphicsDeviceVersionText;
+  __declspec(property(get = __cordl_internal_get_m_graphicsDeviceVersionText, put = __cordl_internal_set_m_graphicsDeviceVersionText))::UnityW<::UnityEngine::UI::Text> m_graphicsDeviceVersionText;
 
   /// @brief Field m_processorTypeText, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_processorTypeText, put = __set_m_processorTypeText))::UnityEngine::UI::Text* m_processorTypeText;
+  __declspec(property(get = __cordl_internal_get_m_processorTypeText, put = __cordl_internal_set_m_processorTypeText))::UnityW<::UnityEngine::UI::Text> m_processorTypeText;
 
   /// @brief Field m_operatingSystemText, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_operatingSystemText, put = __set_m_operatingSystemText))::UnityEngine::UI::Text* m_operatingSystemText;
+  __declspec(property(get = __cordl_internal_get_m_operatingSystemText, put = __cordl_internal_set_m_operatingSystemText))::UnityW<::UnityEngine::UI::Text> m_operatingSystemText;
 
   /// @brief Field m_systemMemoryText, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_systemMemoryText, put = __set_m_systemMemoryText))::UnityEngine::UI::Text* m_systemMemoryText;
+  __declspec(property(get = __cordl_internal_get_m_systemMemoryText, put = __cordl_internal_set_m_systemMemoryText))::UnityW<::UnityEngine::UI::Text> m_systemMemoryText;
 
   /// @brief Field m_graphicsDeviceNameText, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_graphicsDeviceNameText, put = __set_m_graphicsDeviceNameText))::UnityEngine::UI::Text* m_graphicsDeviceNameText;
+  __declspec(property(get = __cordl_internal_get_m_graphicsDeviceNameText, put = __cordl_internal_set_m_graphicsDeviceNameText))::UnityW<::UnityEngine::UI::Text> m_graphicsDeviceNameText;
 
   /// @brief Field m_graphicsMemorySizeText, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_graphicsMemorySizeText, put = __set_m_graphicsMemorySizeText))::UnityEngine::UI::Text* m_graphicsMemorySizeText;
+  __declspec(property(get = __cordl_internal_get_m_graphicsMemorySizeText, put = __cordl_internal_set_m_graphicsMemorySizeText))::UnityW<::UnityEngine::UI::Text> m_graphicsMemorySizeText;
 
   /// @brief Field m_screenResolutionText, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_screenResolutionText, put = __set_m_screenResolutionText))::UnityEngine::UI::Text* m_screenResolutionText;
+  __declspec(property(get = __cordl_internal_get_m_screenResolutionText, put = __cordl_internal_set_m_screenResolutionText))::UnityW<::UnityEngine::UI::Text> m_screenResolutionText;
 
   /// @brief Field m_gameWindowResolutionText, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_gameWindowResolutionText, put = __set_m_gameWindowResolutionText))::UnityEngine::UI::Text* m_gameWindowResolutionText;
+  __declspec(property(get = __cordl_internal_get_m_gameWindowResolutionText, put = __cordl_internal_set_m_gameWindowResolutionText))::UnityW<::UnityEngine::UI::Text> m_gameWindowResolutionText;
 
   /// @brief Field m_updateRate, offset 0x60, size 0x4
-  __declspec(property(get = __get_m_updateRate, put = __set_m_updateRate)) float_t m_updateRate;
+  __declspec(property(get = __cordl_internal_get_m_updateRate, put = __cordl_internal_set_m_updateRate)) float_t m_updateRate;
 
   /// @brief Field m_graphyManager, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_graphyManager, put = __set_m_graphyManager))::Tayx::Graphy::GraphyManager* m_graphyManager;
+  __declspec(property(get = __cordl_internal_get_m_graphyManager, put = __cordl_internal_set_m_graphyManager))::UnityW<::Tayx::Graphy::GraphyManager> m_graphyManager;
 
   /// @brief Field m_rectTransform, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_rectTransform, put = __set_m_rectTransform))::UnityEngine::RectTransform* m_rectTransform;
+  __declspec(property(get = __cordl_internal_get_m_rectTransform, put = __cordl_internal_set_m_rectTransform))::UnityW<::UnityEngine::RectTransform> m_rectTransform;
 
   /// @brief Field m_deltaTime, offset 0x78, size 0x4
-  __declspec(property(get = __get_m_deltaTime, put = __set_m_deltaTime)) float_t m_deltaTime;
+  __declspec(property(get = __cordl_internal_get_m_deltaTime, put = __cordl_internal_set_m_deltaTime)) float_t m_deltaTime;
 
   /// @brief Field m_sb, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_sb, put = __set_m_sb))::System::Text::StringBuilder* m_sb;
+  __declspec(property(get = __cordl_internal_get_m_sb, put = __cordl_internal_set_m_sb))::System::Text::StringBuilder* m_sb;
 
   /// @brief Field m_previousModuleState, offset 0x88, size 0x4
-  __declspec(property(get = __get_m_previousModuleState, put = __set_m_previousModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_previousModuleState;
+  __declspec(property(get = __cordl_internal_get_m_previousModuleState, put = __cordl_internal_set_m_previousModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_previousModuleState;
 
   /// @brief Field m_currentModuleState, offset 0x8c, size 0x4
-  __declspec(property(get = __get_m_currentModuleState, put = __set_m_currentModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_currentModuleState;
+  __declspec(property(get = __cordl_internal_get_m_currentModuleState, put = __cordl_internal_set_m_currentModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_currentModuleState;
 
   /// @brief Field m_windowStrings, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_windowStrings, put = __set_m_windowStrings))::ArrayW<::StringW, ::Array<::StringW>*> m_windowStrings;
+  __declspec(property(get = __cordl_internal_get_m_windowStrings, put = __cordl_internal_set_m_windowStrings))::ArrayW<::StringW, ::Array<::StringW>*> m_windowStrings;
 
   /// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
   constexpr operator ::Tayx::Graphy::UI::IMovable*() noexcept;
@@ -117,107 +118,107 @@ public:
   /// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
   constexpr ::Tayx::Graphy::UI::IModifiableState* i___Tayx__Graphy__UI__IModifiableState() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>*& __get_m_backgroundImages();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*& __cordl_internal_get_m_backgroundImages();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>*> const& __get_m_backgroundImages() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>*> const& __cordl_internal_get_m_backgroundImages() const;
 
-  constexpr void __set_m_backgroundImages(::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* value);
+  constexpr void __cordl_internal_set_m_backgroundImages(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* value);
 
-  constexpr ::UnityEngine::UI::Text*& __get_m_graphicsDeviceVersionText();
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_graphicsDeviceVersionText();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& __get_m_graphicsDeviceVersionText() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_graphicsDeviceVersionText() const;
 
-  constexpr void __set_m_graphicsDeviceVersionText(::UnityEngine::UI::Text* value);
+  constexpr void __cordl_internal_set_m_graphicsDeviceVersionText(::UnityW<::UnityEngine::UI::Text> value);
 
-  constexpr ::UnityEngine::UI::Text*& __get_m_processorTypeText();
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_processorTypeText();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& __get_m_processorTypeText() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_processorTypeText() const;
 
-  constexpr void __set_m_processorTypeText(::UnityEngine::UI::Text* value);
+  constexpr void __cordl_internal_set_m_processorTypeText(::UnityW<::UnityEngine::UI::Text> value);
 
-  constexpr ::UnityEngine::UI::Text*& __get_m_operatingSystemText();
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_operatingSystemText();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& __get_m_operatingSystemText() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_operatingSystemText() const;
 
-  constexpr void __set_m_operatingSystemText(::UnityEngine::UI::Text* value);
+  constexpr void __cordl_internal_set_m_operatingSystemText(::UnityW<::UnityEngine::UI::Text> value);
 
-  constexpr ::UnityEngine::UI::Text*& __get_m_systemMemoryText();
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_systemMemoryText();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& __get_m_systemMemoryText() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_systemMemoryText() const;
 
-  constexpr void __set_m_systemMemoryText(::UnityEngine::UI::Text* value);
+  constexpr void __cordl_internal_set_m_systemMemoryText(::UnityW<::UnityEngine::UI::Text> value);
 
-  constexpr ::UnityEngine::UI::Text*& __get_m_graphicsDeviceNameText();
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_graphicsDeviceNameText();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& __get_m_graphicsDeviceNameText() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_graphicsDeviceNameText() const;
 
-  constexpr void __set_m_graphicsDeviceNameText(::UnityEngine::UI::Text* value);
+  constexpr void __cordl_internal_set_m_graphicsDeviceNameText(::UnityW<::UnityEngine::UI::Text> value);
 
-  constexpr ::UnityEngine::UI::Text*& __get_m_graphicsMemorySizeText();
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_graphicsMemorySizeText();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& __get_m_graphicsMemorySizeText() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_graphicsMemorySizeText() const;
 
-  constexpr void __set_m_graphicsMemorySizeText(::UnityEngine::UI::Text* value);
+  constexpr void __cordl_internal_set_m_graphicsMemorySizeText(::UnityW<::UnityEngine::UI::Text> value);
 
-  constexpr ::UnityEngine::UI::Text*& __get_m_screenResolutionText();
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_screenResolutionText();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& __get_m_screenResolutionText() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_screenResolutionText() const;
 
-  constexpr void __set_m_screenResolutionText(::UnityEngine::UI::Text* value);
+  constexpr void __cordl_internal_set_m_screenResolutionText(::UnityW<::UnityEngine::UI::Text> value);
 
-  constexpr ::UnityEngine::UI::Text*& __get_m_gameWindowResolutionText();
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_m_gameWindowResolutionText();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& __get_m_gameWindowResolutionText() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_m_gameWindowResolutionText() const;
 
-  constexpr void __set_m_gameWindowResolutionText(::UnityEngine::UI::Text* value);
+  constexpr void __cordl_internal_set_m_gameWindowResolutionText(::UnityW<::UnityEngine::UI::Text> value);
 
-  constexpr float_t& __get_m_updateRate();
+  constexpr float_t& __cordl_internal_get_m_updateRate();
 
-  constexpr float_t const& __get_m_updateRate() const;
+  constexpr float_t const& __cordl_internal_get_m_updateRate() const;
 
-  constexpr void __set_m_updateRate(float_t value);
+  constexpr void __cordl_internal_set_m_updateRate(float_t value);
 
-  constexpr ::Tayx::Graphy::GraphyManager*& __get_m_graphyManager();
+  constexpr ::UnityW<::Tayx::Graphy::GraphyManager>& __cordl_internal_get_m_graphyManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::GraphyManager*> const& __get_m_graphyManager() const;
+  constexpr ::UnityW<::Tayx::Graphy::GraphyManager> const& __cordl_internal_get_m_graphyManager() const;
 
-  constexpr void __set_m_graphyManager(::Tayx::Graphy::GraphyManager* value);
+  constexpr void __cordl_internal_set_m_graphyManager(::UnityW<::Tayx::Graphy::GraphyManager> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get_m_rectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_rectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_rectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_rectTransform() const;
 
-  constexpr void __set_m_rectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_m_rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr float_t& __get_m_deltaTime();
+  constexpr float_t& __cordl_internal_get_m_deltaTime();
 
-  constexpr float_t const& __get_m_deltaTime() const;
+  constexpr float_t const& __cordl_internal_get_m_deltaTime() const;
 
-  constexpr void __set_m_deltaTime(float_t value);
+  constexpr void __cordl_internal_set_m_deltaTime(float_t value);
 
-  constexpr ::System::Text::StringBuilder*& __get_m_sb();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_m_sb();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get_m_sb() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_m_sb() const;
 
-  constexpr void __set_m_sb(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set_m_sb(::System::Text::StringBuilder* value);
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __get_m_previousModuleState();
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_previousModuleState();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __get_m_previousModuleState() const;
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_previousModuleState() const;
 
-  constexpr void __set_m_previousModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  constexpr void __cordl_internal_set_m_previousModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __get_m_currentModuleState();
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_currentModuleState();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __get_m_currentModuleState() const;
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_currentModuleState() const;
 
-  constexpr void __set_m_currentModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  constexpr void __cordl_internal_set_m_currentModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_windowStrings();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_windowStrings();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_windowStrings() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_windowStrings() const;
 
-  constexpr void __set_m_windowStrings(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_windowStrings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
   /// @brief Method OnEnable, addr 0x2a0a7d0, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
@@ -263,40 +264,40 @@ protected:
 
 public:
   /// @brief Field m_backgroundImages, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UI::Image*>* ___m_backgroundImages;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* ___m_backgroundImages;
 
   /// @brief Field m_graphicsDeviceVersionText, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Text* ___m_graphicsDeviceVersionText;
+  ::UnityW<::UnityEngine::UI::Text> ___m_graphicsDeviceVersionText;
 
   /// @brief Field m_processorTypeText, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UI::Text* ___m_processorTypeText;
+  ::UnityW<::UnityEngine::UI::Text> ___m_processorTypeText;
 
   /// @brief Field m_operatingSystemText, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::UI::Text* ___m_operatingSystemText;
+  ::UnityW<::UnityEngine::UI::Text> ___m_operatingSystemText;
 
   /// @brief Field m_systemMemoryText, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::UI::Text* ___m_systemMemoryText;
+  ::UnityW<::UnityEngine::UI::Text> ___m_systemMemoryText;
 
   /// @brief Field m_graphicsDeviceNameText, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::UI::Text* ___m_graphicsDeviceNameText;
+  ::UnityW<::UnityEngine::UI::Text> ___m_graphicsDeviceNameText;
 
   /// @brief Field m_graphicsMemorySizeText, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::UI::Text* ___m_graphicsMemorySizeText;
+  ::UnityW<::UnityEngine::UI::Text> ___m_graphicsMemorySizeText;
 
   /// @brief Field m_screenResolutionText, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::UI::Text* ___m_screenResolutionText;
+  ::UnityW<::UnityEngine::UI::Text> ___m_screenResolutionText;
 
   /// @brief Field m_gameWindowResolutionText, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::UI::Text* ___m_gameWindowResolutionText;
+  ::UnityW<::UnityEngine::UI::Text> ___m_gameWindowResolutionText;
 
   /// @brief Field m_updateRate, offset: 0x60, size: 0x4, def value: None
   float_t ___m_updateRate;
 
   /// @brief Field m_graphyManager, offset: 0x68, size: 0x8, def value: None
-  ::Tayx::Graphy::GraphyManager* ___m_graphyManager;
+  ::UnityW<::Tayx::Graphy::GraphyManager> ___m_graphyManager;
 
   /// @brief Field m_rectTransform, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___m_rectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ___m_rectTransform;
 
   /// @brief Field m_deltaTime, offset: 0x78, size: 0x4, def value: None
   float_t ___m_deltaTime;

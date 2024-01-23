@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::XR::__XRMeshSubsystem__MeshTransformList);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15638))
 // CS Name: ::XRMeshSubsystem::MeshTransformList
 struct CORDL_TYPE __XRMeshSubsystem__MeshTransformList {
@@ -76,7 +76,7 @@ static_assert(offsetof(::UnityEngine::XR::__XRMeshSubsystem__MeshTransformList, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15965), inst: 3918 }), TypeDefinitionIndex(TypeDefinitionIndex(15965))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15965)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15965), inst: 3918 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15639))
 // CS Name: ::UnityEngine.XR::XRMeshSubsystem*
 class CORDL_TYPE XRMeshSubsystem : public ::UnityEngine::IntegratedSubsystem_1<Il2CppObject*> {

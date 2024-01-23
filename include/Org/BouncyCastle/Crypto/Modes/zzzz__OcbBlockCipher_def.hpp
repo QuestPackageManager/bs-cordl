@@ -32,77 +32,77 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::OcbBlockCipher);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(974))
 // CS Name: ::Org.BouncyCastle.Crypto.Modes::OcbBlockCipher*
 class CORDL_TYPE OcbBlockCipher : public ::System::Object {
 public:
   // Declarations
   /// @brief Field hashCipher, offset 0x10, size 0x8
-  __declspec(property(get = __get_hashCipher, put = __set_hashCipher))::Org::BouncyCastle::Crypto::IBlockCipher* hashCipher;
+  __declspec(property(get = __cordl_internal_get_hashCipher, put = __cordl_internal_set_hashCipher))::Org::BouncyCastle::Crypto::IBlockCipher* hashCipher;
 
   /// @brief Field mainCipher, offset 0x18, size 0x8
-  __declspec(property(get = __get_mainCipher, put = __set_mainCipher))::Org::BouncyCastle::Crypto::IBlockCipher* mainCipher;
+  __declspec(property(get = __cordl_internal_get_mainCipher, put = __cordl_internal_set_mainCipher))::Org::BouncyCastle::Crypto::IBlockCipher* mainCipher;
 
   /// @brief Field forEncryption, offset 0x20, size 0x1
-  __declspec(property(get = __get_forEncryption, put = __set_forEncryption)) bool forEncryption;
+  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   /// @brief Field macSize, offset 0x24, size 0x4
-  __declspec(property(get = __get_macSize, put = __set_macSize)) int32_t macSize;
+  __declspec(property(get = __cordl_internal_get_macSize, put = __cordl_internal_set_macSize)) int32_t macSize;
 
   /// @brief Field initialAssociatedText, offset 0x28, size 0x8
-  __declspec(property(get = __get_initialAssociatedText, put = __set_initialAssociatedText))::ArrayW<uint8_t, ::Array<uint8_t>*> initialAssociatedText;
+  __declspec(property(get = __cordl_internal_get_initialAssociatedText, put = __cordl_internal_set_initialAssociatedText))::ArrayW<uint8_t, ::Array<uint8_t>*> initialAssociatedText;
 
   /// @brief Field L, offset 0x30, size 0x8
-  __declspec(property(get = __get_L, put = __set_L))::System::Collections::IList* L;
+  __declspec(property(get = __cordl_internal_get_L, put = __cordl_internal_set_L))::System::Collections::IList* L;
 
   /// @brief Field L_Asterisk, offset 0x38, size 0x8
-  __declspec(property(get = __get_L_Asterisk, put = __set_L_Asterisk))::ArrayW<uint8_t, ::Array<uint8_t>*> L_Asterisk;
+  __declspec(property(get = __cordl_internal_get_L_Asterisk, put = __cordl_internal_set_L_Asterisk))::ArrayW<uint8_t, ::Array<uint8_t>*> L_Asterisk;
 
   /// @brief Field L_Dollar, offset 0x40, size 0x8
-  __declspec(property(get = __get_L_Dollar, put = __set_L_Dollar))::ArrayW<uint8_t, ::Array<uint8_t>*> L_Dollar;
+  __declspec(property(get = __cordl_internal_get_L_Dollar, put = __cordl_internal_set_L_Dollar))::ArrayW<uint8_t, ::Array<uint8_t>*> L_Dollar;
 
   /// @brief Field KtopInput, offset 0x48, size 0x8
-  __declspec(property(get = __get_KtopInput, put = __set_KtopInput))::ArrayW<uint8_t, ::Array<uint8_t>*> KtopInput;
+  __declspec(property(get = __cordl_internal_get_KtopInput, put = __cordl_internal_set_KtopInput))::ArrayW<uint8_t, ::Array<uint8_t>*> KtopInput;
 
   /// @brief Field Stretch, offset 0x50, size 0x8
-  __declspec(property(get = __get_Stretch, put = __set_Stretch))::ArrayW<uint8_t, ::Array<uint8_t>*> Stretch;
+  __declspec(property(get = __cordl_internal_get_Stretch, put = __cordl_internal_set_Stretch))::ArrayW<uint8_t, ::Array<uint8_t>*> Stretch;
 
   /// @brief Field OffsetMAIN_0, offset 0x58, size 0x8
-  __declspec(property(get = __get_OffsetMAIN_0, put = __set_OffsetMAIN_0))::ArrayW<uint8_t, ::Array<uint8_t>*> OffsetMAIN_0;
+  __declspec(property(get = __cordl_internal_get_OffsetMAIN_0, put = __cordl_internal_set_OffsetMAIN_0))::ArrayW<uint8_t, ::Array<uint8_t>*> OffsetMAIN_0;
 
   /// @brief Field hashBlock, offset 0x60, size 0x8
-  __declspec(property(get = __get_hashBlock, put = __set_hashBlock))::ArrayW<uint8_t, ::Array<uint8_t>*> hashBlock;
+  __declspec(property(get = __cordl_internal_get_hashBlock, put = __cordl_internal_set_hashBlock))::ArrayW<uint8_t, ::Array<uint8_t>*> hashBlock;
 
   /// @brief Field mainBlock, offset 0x68, size 0x8
-  __declspec(property(get = __get_mainBlock, put = __set_mainBlock))::ArrayW<uint8_t, ::Array<uint8_t>*> mainBlock;
+  __declspec(property(get = __cordl_internal_get_mainBlock, put = __cordl_internal_set_mainBlock))::ArrayW<uint8_t, ::Array<uint8_t>*> mainBlock;
 
   /// @brief Field hashBlockPos, offset 0x70, size 0x4
-  __declspec(property(get = __get_hashBlockPos, put = __set_hashBlockPos)) int32_t hashBlockPos;
+  __declspec(property(get = __cordl_internal_get_hashBlockPos, put = __cordl_internal_set_hashBlockPos)) int32_t hashBlockPos;
 
   /// @brief Field mainBlockPos, offset 0x74, size 0x4
-  __declspec(property(get = __get_mainBlockPos, put = __set_mainBlockPos)) int32_t mainBlockPos;
+  __declspec(property(get = __cordl_internal_get_mainBlockPos, put = __cordl_internal_set_mainBlockPos)) int32_t mainBlockPos;
 
   /// @brief Field hashBlockCount, offset 0x78, size 0x8
-  __declspec(property(get = __get_hashBlockCount, put = __set_hashBlockCount)) int64_t hashBlockCount;
+  __declspec(property(get = __cordl_internal_get_hashBlockCount, put = __cordl_internal_set_hashBlockCount)) int64_t hashBlockCount;
 
   /// @brief Field mainBlockCount, offset 0x80, size 0x8
-  __declspec(property(get = __get_mainBlockCount, put = __set_mainBlockCount)) int64_t mainBlockCount;
+  __declspec(property(get = __cordl_internal_get_mainBlockCount, put = __cordl_internal_set_mainBlockCount)) int64_t mainBlockCount;
 
   /// @brief Field OffsetHASH, offset 0x88, size 0x8
-  __declspec(property(get = __get_OffsetHASH, put = __set_OffsetHASH))::ArrayW<uint8_t, ::Array<uint8_t>*> OffsetHASH;
+  __declspec(property(get = __cordl_internal_get_OffsetHASH, put = __cordl_internal_set_OffsetHASH))::ArrayW<uint8_t, ::Array<uint8_t>*> OffsetHASH;
 
   /// @brief Field Sum, offset 0x90, size 0x8
-  __declspec(property(get = __get_Sum, put = __set_Sum))::ArrayW<uint8_t, ::Array<uint8_t>*> Sum;
+  __declspec(property(get = __cordl_internal_get_Sum, put = __cordl_internal_set_Sum))::ArrayW<uint8_t, ::Array<uint8_t>*> Sum;
 
   /// @brief Field OffsetMAIN, offset 0x98, size 0x8
-  __declspec(property(get = __get_OffsetMAIN, put = __set_OffsetMAIN))::ArrayW<uint8_t, ::Array<uint8_t>*> OffsetMAIN;
+  __declspec(property(get = __cordl_internal_get_OffsetMAIN, put = __cordl_internal_set_OffsetMAIN))::ArrayW<uint8_t, ::Array<uint8_t>*> OffsetMAIN;
 
   /// @brief Field Checksum, offset 0xa0, size 0x8
-  __declspec(property(get = __get_Checksum, put = __set_Checksum))::ArrayW<uint8_t, ::Array<uint8_t>*> Checksum;
+  __declspec(property(get = __cordl_internal_get_Checksum, put = __cordl_internal_set_Checksum))::ArrayW<uint8_t, ::Array<uint8_t>*> Checksum;
 
   /// @brief Field macBlock, offset 0xa8, size 0x8
-  __declspec(property(get = __get_macBlock, put = __set_macBlock))::ArrayW<uint8_t, ::Array<uint8_t>*> macBlock;
+  __declspec(property(get = __cordl_internal_get_macBlock, put = __cordl_internal_set_macBlock))::ArrayW<uint8_t, ::Array<uint8_t>*> macBlock;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -118,137 +118,137 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
   constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadCipher* i___Org__BouncyCastle__Crypto__Modes__IAeadCipher() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __get_hashCipher();
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_hashCipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __get_hashCipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __cordl_internal_get_hashCipher() const;
 
-  constexpr void __set_hashCipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
+  constexpr void __cordl_internal_set_hashCipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __get_mainCipher();
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_mainCipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __get_mainCipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __cordl_internal_get_mainCipher() const;
 
-  constexpr void __set_mainCipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
+  constexpr void __cordl_internal_set_mainCipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
 
-  constexpr bool& __get_forEncryption();
+  constexpr bool& __cordl_internal_get_forEncryption();
 
-  constexpr bool const& __get_forEncryption() const;
+  constexpr bool const& __cordl_internal_get_forEncryption() const;
 
-  constexpr void __set_forEncryption(bool value);
+  constexpr void __cordl_internal_set_forEncryption(bool value);
 
-  constexpr int32_t& __get_macSize();
+  constexpr int32_t& __cordl_internal_get_macSize();
 
-  constexpr int32_t const& __get_macSize() const;
+  constexpr int32_t const& __cordl_internal_get_macSize() const;
 
-  constexpr void __set_macSize(int32_t value);
+  constexpr void __cordl_internal_set_macSize(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_initialAssociatedText();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_initialAssociatedText();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_initialAssociatedText() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_initialAssociatedText() const;
 
-  constexpr void __set_initialAssociatedText(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_initialAssociatedText(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Collections::IList*& __get_L();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_L();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_L() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_L() const;
 
-  constexpr void __set_L(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_L(::System::Collections::IList* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_L_Asterisk();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_L_Asterisk();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_L_Asterisk() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_L_Asterisk() const;
 
-  constexpr void __set_L_Asterisk(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_L_Asterisk(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_L_Dollar();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_L_Dollar();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_L_Dollar() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_L_Dollar() const;
 
-  constexpr void __set_L_Dollar(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_L_Dollar(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_KtopInput();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_KtopInput();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_KtopInput() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_KtopInput() const;
 
-  constexpr void __set_KtopInput(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_KtopInput(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_Stretch();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Stretch();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_Stretch() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Stretch() const;
 
-  constexpr void __set_Stretch(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_Stretch(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_OffsetMAIN_0();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_OffsetMAIN_0();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_OffsetMAIN_0() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_OffsetMAIN_0() const;
 
-  constexpr void __set_OffsetMAIN_0(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_OffsetMAIN_0(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_hashBlock();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_hashBlock();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_hashBlock() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_hashBlock() const;
 
-  constexpr void __set_hashBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_hashBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mainBlock();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mainBlock();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mainBlock() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mainBlock() const;
 
-  constexpr void __set_mainBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mainBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_hashBlockPos();
+  constexpr int32_t& __cordl_internal_get_hashBlockPos();
 
-  constexpr int32_t const& __get_hashBlockPos() const;
+  constexpr int32_t const& __cordl_internal_get_hashBlockPos() const;
 
-  constexpr void __set_hashBlockPos(int32_t value);
+  constexpr void __cordl_internal_set_hashBlockPos(int32_t value);
 
-  constexpr int32_t& __get_mainBlockPos();
+  constexpr int32_t& __cordl_internal_get_mainBlockPos();
 
-  constexpr int32_t const& __get_mainBlockPos() const;
+  constexpr int32_t const& __cordl_internal_get_mainBlockPos() const;
 
-  constexpr void __set_mainBlockPos(int32_t value);
+  constexpr void __cordl_internal_set_mainBlockPos(int32_t value);
 
-  constexpr int64_t& __get_hashBlockCount();
+  constexpr int64_t& __cordl_internal_get_hashBlockCount();
 
-  constexpr int64_t const& __get_hashBlockCount() const;
+  constexpr int64_t const& __cordl_internal_get_hashBlockCount() const;
 
-  constexpr void __set_hashBlockCount(int64_t value);
+  constexpr void __cordl_internal_set_hashBlockCount(int64_t value);
 
-  constexpr int64_t& __get_mainBlockCount();
+  constexpr int64_t& __cordl_internal_get_mainBlockCount();
 
-  constexpr int64_t const& __get_mainBlockCount() const;
+  constexpr int64_t const& __cordl_internal_get_mainBlockCount() const;
 
-  constexpr void __set_mainBlockCount(int64_t value);
+  constexpr void __cordl_internal_set_mainBlockCount(int64_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_OffsetHASH();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_OffsetHASH();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_OffsetHASH() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_OffsetHASH() const;
 
-  constexpr void __set_OffsetHASH(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_OffsetHASH(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_Sum();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Sum();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_Sum() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Sum() const;
 
-  constexpr void __set_Sum(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_Sum(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_OffsetMAIN();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_OffsetMAIN();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_OffsetMAIN() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_OffsetMAIN() const;
 
-  constexpr void __set_OffsetMAIN(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_OffsetMAIN(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_Checksum();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Checksum();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_Checksum() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Checksum() const;
 
-  constexpr void __set_Checksum(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_Checksum(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_macBlock();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_macBlock();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_macBlock() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_macBlock() const;
 
-  constexpr void __set_macBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_macBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::OcbBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* hashCipher, ::Org::BouncyCastle::Crypto::IBlockCipher* mainCipher);
 

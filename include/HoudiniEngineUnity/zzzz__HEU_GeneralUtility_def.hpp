@@ -138,7 +138,7 @@ namespace HoudiniEngineUnity {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9824))
 // CS Name: ::HEU_GeneralUtility::GetArray1ArgDel`1<T>*
 class CORDL_TYPE __HEU_GeneralUtility__GetArray1ArgDel_1 : public ::System::MulticastDelegate {
@@ -182,7 +182,7 @@ namespace HoudiniEngineUnity {
 // cpp template
 template <typename ARG2, typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9825))
 // CS Name: ::HEU_GeneralUtility::GetArray2ArgDel`2<ARG2,T>*
 class CORDL_TYPE __HEU_GeneralUtility__GetArray2ArgDel_2 : public ::System::MulticastDelegate {
@@ -226,7 +226,7 @@ namespace HoudiniEngineUnity {
 // cpp template
 template <typename ARG3, typename ARG2, typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9826))
 // CS Name: ::HEU_GeneralUtility::GetArray3ArgDel`3<ARG3,ARG2,T>*
 class CORDL_TYPE __HEU_GeneralUtility__GetArray3ArgDel_3 : public ::System::MulticastDelegate {
@@ -271,7 +271,7 @@ namespace HoudiniEngineUnity {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9827))
 // CS Name: ::HEU_GeneralUtility::GetAttributeArrayInputFunc`1<T>*
 class CORDL_TYPE __HEU_GeneralUtility__GetAttributeArrayInputFunc_1 : public ::System::MulticastDelegate {
@@ -316,7 +316,7 @@ namespace HoudiniEngineUnity {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9828))
 // CS Name: ::HEU_GeneralUtility::SetAttributeArrayFunc`1<T>*
 class CORDL_TYPE __HEU_GeneralUtility__SetAttributeArrayFunc_1 : public ::System::MulticastDelegate {
@@ -359,7 +359,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9829))
 // CS Name: ::HoudiniEngineUnity::HEU_GeneralUtility*
 class CORDL_TYPE HEU_GeneralUtility : public ::System::Object {
@@ -478,31 +478,31 @@ public:
   static inline void CopyLocalTransformValues(::UnityEngine::Transform* src, ::UnityEngine::Transform* dest);
 
   /// @brief Method GetChildGameObjects, addr 0x21b400c, size 0x3a0, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* GetChildGameObjects(::UnityEngine::GameObject* parentGO);
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* GetChildGameObjects(::UnityEngine::GameObject* parentGO);
 
   /// @brief Method GetChildGameObjectsWithNamePattern, addr 0x21b43ac, size 0x420, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* GetChildGameObjectsWithNamePattern(::UnityEngine::GameObject* parentGO, ::StringW pattern, bool bExclude);
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* GetChildGameObjectsWithNamePattern(::UnityEngine::GameObject* parentGO, ::StringW pattern, bool bExclude);
 
   /// @brief Method GetInstanceChildObjects, addr 0x21b47cc, size 0x4c, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* GetInstanceChildObjects(::UnityEngine::GameObject* parentGO);
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* GetInstanceChildObjects(::UnityEngine::GameObject* parentGO);
 
   /// @brief Method GetNonInstanceChildObjects, addr 0x21b4818, size 0x4c, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* GetNonInstanceChildObjects(::UnityEngine::GameObject* parentGO);
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* GetNonInstanceChildObjects(::UnityEngine::GameObject* parentGO);
 
   /// @brief Method GetGameObjectByName, addr 0x21b4864, size 0x188, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* GetGameObjectByName(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* goList, ::StringW name);
+  static inline ::UnityW<::UnityEngine::GameObject> GetGameObjectByName(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* goList, ::StringW name);
 
   /// @brief Method GetGameObjectByNameInProjectOnly, addr 0x21b49ec, size 0xd0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* GetGameObjectByNameInProjectOnly(::StringW name);
+  static inline ::UnityW<::UnityEngine::GameObject> GetGameObjectByNameInProjectOnly(::StringW name);
 
   /// @brief Method IsGameObjectInProject, addr 0x21b4abc, size 0x8, virtual false, abstract: false, final false
   static inline bool IsGameObjectInProject(::UnityEngine::GameObject* go);
 
   /// @brief Method GetGameObjectByNameInScene, addr 0x21b4ac4, size 0x4c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* GetGameObjectByNameInScene(::StringW name);
+  static inline ::UnityW<::UnityEngine::GameObject> GetGameObjectByNameInScene(::StringW name);
 
   /// @brief Method GetHDAByGameObjectNameInScene, addr 0x21b4b10, size 0x4c, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::HEU_HoudiniAssetRoot* GetHDAByGameObjectNameInScene(::StringW name);
+  static inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAssetRoot> GetHDAByGameObjectNameInScene(::StringW name);
 
   /// @brief Method GetOrCreateComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetOrCreateComponent(::UnityEngine::GameObject* gameObject);
@@ -523,16 +523,16 @@ public:
   static inline void DestroyImmediate(::UnityEngine::Object* obj, bool bAllowDestroyingAssets, bool bRegisterUndo);
 
   /// @brief Method DestroyBakedGameObjects, addr 0x21b4f2c, size 0x8, virtual false, abstract: false, final false
-  static inline void DestroyBakedGameObjects(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* gameObjectsToDestroy);
+  static inline void DestroyBakedGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* gameObjectsToDestroy);
 
   /// @brief Method DestroyBakedGameObjectsWithEndName, addr 0x21b4f34, size 0x140, virtual false, abstract: false, final false
-  static inline void DestroyBakedGameObjectsWithEndName(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* gameObjectsToDestroy, ::StringW endName);
+  static inline void DestroyBakedGameObjectsWithEndName(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* gameObjectsToDestroy, ::StringW endName);
 
   /// @brief Method DestroyLODGroup, addr 0x21b52e0, size 0x1ec, virtual false, abstract: false, final false
   static inline void DestroyLODGroup(::UnityEngine::GameObject* targetGO, bool bDontDeletePersistantResources);
 
   /// @brief Method GetLODTransforms, addr 0x21b54cc, size 0x1b8, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::Transform*>* GetLODTransforms(::UnityEngine::GameObject* targetGO);
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* GetLODTransforms(::UnityEngine::GameObject* targetGO);
 
   /// @brief Method SetLODTransformValues, addr 0x21b5684, size 0x144, virtual false, abstract: false, final false
   static inline void SetLODTransformValues(::UnityEngine::GameObject* targetGO, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::TransformData>* transformData);
@@ -624,18 +624,18 @@ public:
   static inline bool IsInCameraView(::UnityEngine::Camera* camera, ::UnityEngine::Vector3 point);
 
   /// @brief Method FindOrGenerateHandles, addr 0x21b7e50, size 0x464, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle*>*
+  static inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*
   FindOrGenerateHandles(::HoudiniEngineUnity::HEU_SessionBase* session, ByRef<::HoudiniEngineUnity::HAPI_AssetInfo> assetInfo, int32_t assetID, ::StringW assetName,
-                        ::HoudiniEngineUnity::HEU_Parameters* parameters, ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_Handle*>* currentHandles);
+                        ::HoudiniEngineUnity::HEU_Parameters* parameters, ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>* currentHandles);
 
   /// @brief Method CopyComponents, addr 0x21b82b4, size 0x4, virtual false, abstract: false, final false
   static inline void CopyComponents(::UnityEngine::GameObject* srcGO, ::UnityEngine::GameObject* destGO);
 
   /// @brief Method LoadTextureFromFile, addr 0x21b82b8, size 0x1f4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture* LoadTextureFromFile(::StringW filePath);
+  static inline ::UnityW<::UnityEngine::Texture> LoadTextureFromFile(::StringW filePath);
 
   /// @brief Method MakeTexture, addr 0x21b84ac, size 0x134, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Texture2D* MakeTexture(int32_t width, int32_t height, ::UnityEngine::Color color);
+  static inline ::UnityW<::UnityEngine::Texture2D> MakeTexture(int32_t width, int32_t height, ::UnityEngine::Color color);
 
   /// @brief Method ReplaceFirstOccurrence, addr 0x21b85e0, size 0x94, virtual false, abstract: false, final false
   static inline ::StringW ReplaceFirstOccurrence(::StringW srcStr, ::StringW searchStr, ::StringW replaceStr);
@@ -668,7 +668,7 @@ public:
   static inline ::StringW GetRawOperatorName(::StringW assetOpName);
 
   /// @brief Method GetPrefabFromPath, addr 0x21b8e50, size 0x250, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* GetPrefabFromPath(::StringW path);
+  static inline ::UnityW<::UnityEngine::GameObject> GetPrefabFromPath(::StringW path);
 
   static inline ::HoudiniEngineUnity::HEU_GeneralUtility* New_ctor();
 

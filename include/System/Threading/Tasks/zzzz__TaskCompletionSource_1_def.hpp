@@ -31,22 +31,22 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2757))
 // CS Name: ::System.Threading.Tasks::TaskCompletionSource`1<TResult>*
 class CORDL_TYPE TaskCompletionSource_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _task, offset 0x10, size 0x8
-  __declspec(property(get = __get__task, put = __set__task))::System::Threading::Tasks::Task_1<TResult>* _task;
+  __declspec(property(get = __cordl_internal_get__task, put = __cordl_internal_set__task))::System::Threading::Tasks::Task_1<TResult>* _task;
 
   __declspec(property(get = get_Task))::System::Threading::Tasks::Task_1<TResult>* Task;
 
-  constexpr ::System::Threading::Tasks::Task_1<TResult>*& __get__task();
+  constexpr ::System::Threading::Tasks::Task_1<TResult>*& __cordl_internal_get__task();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<TResult>*> const& __get__task() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<TResult>*> const& __cordl_internal_get__task() const;
 
-  constexpr void __set__task(::System::Threading::Tasks::Task_1<TResult>* value);
+  constexpr void __cordl_internal_set__task(::System::Threading::Tasks::Task_1<TResult>* value);
 
   static inline ::System::Threading::Tasks::TaskCompletionSource_1<TResult>* New_ctor();
 

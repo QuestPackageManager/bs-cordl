@@ -56,7 +56,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__NavigateFocusRing__FocusableHierarchyTra
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6881))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6881))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7020))
 // CS Name: ::NavigateFocusRing::ChangeDirection*
 class CORDL_TYPE __NavigateFocusRing__ChangeDirection : public ::UnityEngine::UIElements::FocusChangeDirection {
@@ -91,7 +91,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Navig
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10165))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10165))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7021))
 // CS Name: ::NavigateFocusRing::FocusableHierarchyTraversal
 struct CORDL_TYPE __NavigateFocusRing__FocusableHierarchyTraversal {
@@ -161,7 +161,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__NavigateFocusRing__Focusable
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7022))
 // CS Name: ::UnityEngine.UIElements::NavigateFocusRing*
 class CORDL_TYPE NavigateFocusRing : public ::System::Object {
@@ -172,10 +172,10 @@ public:
   using ChangeDirection = ::UnityEngine::UIElements::__NavigateFocusRing__ChangeDirection;
 
   /// @brief Field m_Root, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Root, put = __set_m_Root))::UnityEngine::UIElements::VisualElement* m_Root;
+  __declspec(property(get = __cordl_internal_get_m_Root, put = __cordl_internal_set_m_Root))::UnityEngine::UIElements::VisualElement* m_Root;
 
   /// @brief Field m_Ring, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Ring, put = __set_m_Ring))::UnityEngine::UIElements::VisualElementFocusRing* m_Ring;
+  __declspec(property(get = __cordl_internal_get_m_Ring, put = __cordl_internal_set_m_Ring))::UnityEngine::UIElements::VisualElementFocusRing* m_Ring;
 
   /// @brief Field Left, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Left, put = setStaticF_Left))::UnityEngine::UIElements::__NavigateFocusRing__ChangeDirection* Left;
@@ -203,17 +203,17 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IFocusRing"
   constexpr ::UnityEngine::UIElements::IFocusRing* i___UnityEngine__UIElements__IFocusRing() noexcept;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_Root();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_Root();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_Root() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_Root() const;
 
-  constexpr void __set_m_Root(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_Root(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElementFocusRing*& __get_m_Ring();
+  constexpr ::UnityEngine::UIElements::VisualElementFocusRing*& __cordl_internal_get_m_Ring();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElementFocusRing*> const& __get_m_Ring() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElementFocusRing*> const& __cordl_internal_get_m_Ring() const;
 
-  constexpr void __set_m_Ring(::UnityEngine::UIElements::VisualElementFocusRing* value);
+  constexpr void __cordl_internal_set_m_Ring(::UnityEngine::UIElements::VisualElementFocusRing* value);
 
   static inline void setStaticF_Left(::UnityEngine::UIElements::__NavigateFocusRing__ChangeDirection* value);
 

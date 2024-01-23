@@ -160,7 +160,7 @@ MARK_VAL_T(::Mono::Net::Security::__MobileAuthenticatedStream___StartOperation_d
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8829))
 // CS Name: ::MobileAuthenticatedStream::Operation
 struct CORDL_TYPE __MobileAuthenticatedStream__Operation {
@@ -230,7 +230,7 @@ static_assert(offsetof(::Mono::Net::Security::__MobileAuthenticatedStream__Opera
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8830))
 // CS Name: ::MobileAuthenticatedStream::OperationType
 struct CORDL_TYPE __MobileAuthenticatedStream__OperationType {
@@ -288,9 +288,9 @@ static_assert(offsetof(::Mono::Net::Security::__MobileAuthenticatedStream__Opera
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8818)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 875 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8831))
-// CS Name: ::MobileAuthenticatedStream::<ProcessAuthentication>d__48
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8818)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 875 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8831)) CS
+// Name: ::MobileAuthenticatedStream::<ProcessAuthentication>d__48
 struct CORDL_TYPE __MobileAuthenticatedStream___ProcessAuthentication_d__48 {
 public:
   // Declarations
@@ -368,9 +368,9 @@ static_assert(offsetof(::Mono::Net::Security::__MobileAuthenticatedStream___Proc
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 875 }), TypeDefinitionIndex(TypeDefinitionIndex(8818)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8830)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8832)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8818)), TypeDefinitionIndex(TypeDefinitionIndex(8830)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 875 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8832)) CS Name:
 // ::MobileAuthenticatedStream::<StartOperation>d__57
 struct CORDL_TYPE __MobileAuthenticatedStream___StartOperation_d__57 {
 public:
@@ -450,29 +450,29 @@ static_assert(offsetof(::Mono::Net::Security::__MobileAuthenticatedStream___Star
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8833))
 // CS Name: ::MobileAuthenticatedStream::<>c__DisplayClass66_0*
 class CORDL_TYPE __MobileAuthenticatedStream____c__DisplayClass66_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Mono::Net::Security::MobileAuthenticatedStream* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Mono::Net::Security::MobileAuthenticatedStream* __4__this;
 
   /// @brief Field len, offset 0x18, size 0x4
-  __declspec(property(get = __get_len, put = __set_len)) int32_t len;
+  __declspec(property(get = __cordl_internal_get_len, put = __cordl_internal_set_len)) int32_t len;
 
-  constexpr ::Mono::Net::Security::MobileAuthenticatedStream*& __get___4__this();
+  constexpr ::Mono::Net::Security::MobileAuthenticatedStream*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileAuthenticatedStream*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileAuthenticatedStream*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Mono::Net::Security::MobileAuthenticatedStream* value);
+  constexpr void __cordl_internal_set___4__this(::Mono::Net::Security::MobileAuthenticatedStream* value);
 
-  constexpr int32_t& __get_len();
+  constexpr int32_t& __cordl_internal_get_len();
 
-  constexpr int32_t const& __get_len() const;
+  constexpr int32_t const& __cordl_internal_get_len() const;
 
-  constexpr void __set_len(int32_t value);
+  constexpr void __cordl_internal_set_len(int32_t value);
 
   static inline ::Mono::Net::Security::__MobileAuthenticatedStream____c__DisplayClass66_0* New_ctor();
 
@@ -516,8 +516,8 @@ static_assert(offsetof(::Mono::Net::Security::__MobileAuthenticatedStream____c__
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 })} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(8834)) CS Name: ::MobileAuthenticatedStream::<InnerRead>d__66
 struct CORDL_TYPE __MobileAuthenticatedStream___InnerRead_d__66 {
 public:
@@ -595,7 +595,7 @@ static_assert(offsetof(::Mono::Net::Security::__MobileAuthenticatedStream___Inne
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8835))
 // CS Name: ::MobileAuthenticatedStream::<InnerWrite>d__67
 struct CORDL_TYPE __MobileAuthenticatedStream___InnerWrite_d__67 {
@@ -668,7 +668,7 @@ static_assert(offsetof(::Mono::Net::Security::__MobileAuthenticatedStream___Inne
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9364)), TypeDefinitionIndex(TypeDefinitionIndex(8829))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8829)), TypeDefinitionIndex(TypeDefinitionIndex(9364))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8836))
 // CS Name: ::Mono.Net.Security::MobileAuthenticatedStream*
 class CORDL_TYPE MobileAuthenticatedStream : public ::System::Net::Security::AuthenticatedStream {
@@ -689,52 +689,53 @@ public:
   using Operation = ::Mono::Net::Security::__MobileAuthenticatedStream__Operation;
 
   /// @brief Field xobileTlsContext, offset 0x38, size 0x8
-  __declspec(property(get = __get_xobileTlsContext, put = __set_xobileTlsContext))::Mono::Net::Security::MobileTlsContext* xobileTlsContext;
+  __declspec(property(get = __cordl_internal_get_xobileTlsContext, put = __cordl_internal_set_xobileTlsContext))::Mono::Net::Security::MobileTlsContext* xobileTlsContext;
 
   /// @brief Field lastException, offset 0x40, size 0x8
-  __declspec(property(get = __get_lastException, put = __set_lastException))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* lastException;
+  __declspec(property(get = __cordl_internal_get_lastException, put = __cordl_internal_set_lastException))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* lastException;
 
   /// @brief Field asyncHandshakeRequest, offset 0x48, size 0x8
-  __declspec(property(get = __get_asyncHandshakeRequest, put = __set_asyncHandshakeRequest))::Mono::Net::Security::AsyncProtocolRequest* asyncHandshakeRequest;
+  __declspec(property(get = __cordl_internal_get_asyncHandshakeRequest, put = __cordl_internal_set_asyncHandshakeRequest))::Mono::Net::Security::AsyncProtocolRequest* asyncHandshakeRequest;
 
   /// @brief Field asyncReadRequest, offset 0x50, size 0x8
-  __declspec(property(get = __get_asyncReadRequest, put = __set_asyncReadRequest))::Mono::Net::Security::AsyncProtocolRequest* asyncReadRequest;
+  __declspec(property(get = __cordl_internal_get_asyncReadRequest, put = __cordl_internal_set_asyncReadRequest))::Mono::Net::Security::AsyncProtocolRequest* asyncReadRequest;
 
   /// @brief Field asyncWriteRequest, offset 0x58, size 0x8
-  __declspec(property(get = __get_asyncWriteRequest, put = __set_asyncWriteRequest))::Mono::Net::Security::AsyncProtocolRequest* asyncWriteRequest;
+  __declspec(property(get = __cordl_internal_get_asyncWriteRequest, put = __cordl_internal_set_asyncWriteRequest))::Mono::Net::Security::AsyncProtocolRequest* asyncWriteRequest;
 
   /// @brief Field readBuffer, offset 0x60, size 0x8
-  __declspec(property(get = __get_readBuffer, put = __set_readBuffer))::Mono::Net::Security::BufferOffsetSize2* readBuffer;
+  __declspec(property(get = __cordl_internal_get_readBuffer, put = __cordl_internal_set_readBuffer))::Mono::Net::Security::BufferOffsetSize2* readBuffer;
 
   /// @brief Field writeBuffer, offset 0x68, size 0x8
-  __declspec(property(get = __get_writeBuffer, put = __set_writeBuffer))::Mono::Net::Security::BufferOffsetSize2* writeBuffer;
+  __declspec(property(get = __cordl_internal_get_writeBuffer, put = __cordl_internal_set_writeBuffer))::Mono::Net::Security::BufferOffsetSize2* writeBuffer;
 
   /// @brief Field ioLock, offset 0x70, size 0x8
-  __declspec(property(get = __get_ioLock, put = __set_ioLock))::System::Object* ioLock;
+  __declspec(property(get = __cordl_internal_get_ioLock, put = __cordl_internal_set_ioLock))::System::Object* ioLock;
 
   /// @brief Field closeRequested, offset 0x78, size 0x4
-  __declspec(property(get = __get_closeRequested, put = __set_closeRequested)) int32_t closeRequested;
+  __declspec(property(get = __cordl_internal_get_closeRequested, put = __cordl_internal_set_closeRequested)) int32_t closeRequested;
 
   /// @brief Field shutdown, offset 0x7c, size 0x1
-  __declspec(property(get = __get_shutdown, put = __set_shutdown)) bool shutdown;
+  __declspec(property(get = __cordl_internal_get_shutdown, put = __cordl_internal_set_shutdown)) bool shutdown;
 
   /// @brief Field operation, offset 0x80, size 0x4
-  __declspec(property(get = __get_operation, put = __set_operation))::Mono::Net::Security::__MobileAuthenticatedStream__Operation operation;
+  __declspec(property(get = __cordl_internal_get_operation, put = __cordl_internal_set_operation))::Mono::Net::Security::__MobileAuthenticatedStream__Operation operation;
 
   /// @brief Field <SslStream>k__BackingField, offset 0x88, size 0x8
-  __declspec(property(get = __get__SslStream_k__BackingField, put = __set__SslStream_k__BackingField))::System::Net::Security::SslStream* _SslStream_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SslStream_k__BackingField, put = __cordl_internal_set__SslStream_k__BackingField))::System::Net::Security::SslStream* _SslStream_k__BackingField;
 
   /// @brief Field <Settings>k__BackingField, offset 0x90, size 0x8
-  __declspec(property(get = __get__Settings_k__BackingField, put = __set__Settings_k__BackingField))::Mono::Security::Interface::MonoTlsSettings* _Settings_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Settings_k__BackingField,
+                      put = __cordl_internal_set__Settings_k__BackingField))::Mono::Security::Interface::MonoTlsSettings* _Settings_k__BackingField;
 
   /// @brief Field <Provider>k__BackingField, offset 0x98, size 0x8
-  __declspec(property(get = __get__Provider_k__BackingField, put = __set__Provider_k__BackingField))::Mono::Net::Security::MobileTlsProvider* _Provider_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Provider_k__BackingField, put = __cordl_internal_set__Provider_k__BackingField))::Mono::Net::Security::MobileTlsProvider* _Provider_k__BackingField;
 
   /// @brief Field <TargetHost>k__BackingField, offset 0xa0, size 0x8
-  __declspec(property(get = __get__TargetHost_k__BackingField, put = __set__TargetHost_k__BackingField))::StringW _TargetHost_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__TargetHost_k__BackingField, put = __cordl_internal_set__TargetHost_k__BackingField))::StringW _TargetHost_k__BackingField;
 
   /// @brief Field ID, offset 0xa8, size 0x4
-  __declspec(property(get = __get__cordl_ID, put = __set__cordl_ID)) int32_t _cordl_ID;
+  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) int32_t _cordl_ID;
 
   /// @brief Field uniqueNameInteger, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_uniqueNameInteger, put = setStaticF_uniqueNameInteger)) int32_t uniqueNameInteger;
@@ -778,101 +779,101 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::Mono::Net::Security::MobileTlsContext*& __get_xobileTlsContext();
+  constexpr ::Mono::Net::Security::MobileTlsContext*& __cordl_internal_get_xobileTlsContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileTlsContext*> const& __get_xobileTlsContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileTlsContext*> const& __cordl_internal_get_xobileTlsContext() const;
 
-  constexpr void __set_xobileTlsContext(::Mono::Net::Security::MobileTlsContext* value);
+  constexpr void __cordl_internal_set_xobileTlsContext(::Mono::Net::Security::MobileTlsContext* value);
 
-  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __get_lastException();
+  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __cordl_internal_get_lastException();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __get_lastException() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __cordl_internal_get_lastException() const;
 
-  constexpr void __set_lastException(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
+  constexpr void __cordl_internal_set_lastException(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
 
-  constexpr ::Mono::Net::Security::AsyncProtocolRequest*& __get_asyncHandshakeRequest();
+  constexpr ::Mono::Net::Security::AsyncProtocolRequest*& __cordl_internal_get_asyncHandshakeRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::AsyncProtocolRequest*> const& __get_asyncHandshakeRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::AsyncProtocolRequest*> const& __cordl_internal_get_asyncHandshakeRequest() const;
 
-  constexpr void __set_asyncHandshakeRequest(::Mono::Net::Security::AsyncProtocolRequest* value);
+  constexpr void __cordl_internal_set_asyncHandshakeRequest(::Mono::Net::Security::AsyncProtocolRequest* value);
 
-  constexpr ::Mono::Net::Security::AsyncProtocolRequest*& __get_asyncReadRequest();
+  constexpr ::Mono::Net::Security::AsyncProtocolRequest*& __cordl_internal_get_asyncReadRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::AsyncProtocolRequest*> const& __get_asyncReadRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::AsyncProtocolRequest*> const& __cordl_internal_get_asyncReadRequest() const;
 
-  constexpr void __set_asyncReadRequest(::Mono::Net::Security::AsyncProtocolRequest* value);
+  constexpr void __cordl_internal_set_asyncReadRequest(::Mono::Net::Security::AsyncProtocolRequest* value);
 
-  constexpr ::Mono::Net::Security::AsyncProtocolRequest*& __get_asyncWriteRequest();
+  constexpr ::Mono::Net::Security::AsyncProtocolRequest*& __cordl_internal_get_asyncWriteRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::AsyncProtocolRequest*> const& __get_asyncWriteRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::AsyncProtocolRequest*> const& __cordl_internal_get_asyncWriteRequest() const;
 
-  constexpr void __set_asyncWriteRequest(::Mono::Net::Security::AsyncProtocolRequest* value);
+  constexpr void __cordl_internal_set_asyncWriteRequest(::Mono::Net::Security::AsyncProtocolRequest* value);
 
-  constexpr ::Mono::Net::Security::BufferOffsetSize2*& __get_readBuffer();
+  constexpr ::Mono::Net::Security::BufferOffsetSize2*& __cordl_internal_get_readBuffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::BufferOffsetSize2*> const& __get_readBuffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::BufferOffsetSize2*> const& __cordl_internal_get_readBuffer() const;
 
-  constexpr void __set_readBuffer(::Mono::Net::Security::BufferOffsetSize2* value);
+  constexpr void __cordl_internal_set_readBuffer(::Mono::Net::Security::BufferOffsetSize2* value);
 
-  constexpr ::Mono::Net::Security::BufferOffsetSize2*& __get_writeBuffer();
+  constexpr ::Mono::Net::Security::BufferOffsetSize2*& __cordl_internal_get_writeBuffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::BufferOffsetSize2*> const& __get_writeBuffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::BufferOffsetSize2*> const& __cordl_internal_get_writeBuffer() const;
 
-  constexpr void __set_writeBuffer(::Mono::Net::Security::BufferOffsetSize2* value);
+  constexpr void __cordl_internal_set_writeBuffer(::Mono::Net::Security::BufferOffsetSize2* value);
 
-  constexpr ::System::Object*& __get_ioLock();
+  constexpr ::System::Object*& __cordl_internal_get_ioLock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_ioLock() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_ioLock() const;
 
-  constexpr void __set_ioLock(::System::Object* value);
+  constexpr void __cordl_internal_set_ioLock(::System::Object* value);
 
-  constexpr int32_t& __get_closeRequested();
+  constexpr int32_t& __cordl_internal_get_closeRequested();
 
-  constexpr int32_t const& __get_closeRequested() const;
+  constexpr int32_t const& __cordl_internal_get_closeRequested() const;
 
-  constexpr void __set_closeRequested(int32_t value);
+  constexpr void __cordl_internal_set_closeRequested(int32_t value);
 
-  constexpr bool& __get_shutdown();
+  constexpr bool& __cordl_internal_get_shutdown();
 
-  constexpr bool const& __get_shutdown() const;
+  constexpr bool const& __cordl_internal_get_shutdown() const;
 
-  constexpr void __set_shutdown(bool value);
+  constexpr void __cordl_internal_set_shutdown(bool value);
 
-  constexpr ::Mono::Net::Security::__MobileAuthenticatedStream__Operation& __get_operation();
+  constexpr ::Mono::Net::Security::__MobileAuthenticatedStream__Operation& __cordl_internal_get_operation();
 
-  constexpr ::Mono::Net::Security::__MobileAuthenticatedStream__Operation const& __get_operation() const;
+  constexpr ::Mono::Net::Security::__MobileAuthenticatedStream__Operation const& __cordl_internal_get_operation() const;
 
-  constexpr void __set_operation(::Mono::Net::Security::__MobileAuthenticatedStream__Operation value);
+  constexpr void __cordl_internal_set_operation(::Mono::Net::Security::__MobileAuthenticatedStream__Operation value);
 
-  constexpr ::System::Net::Security::SslStream*& __get__SslStream_k__BackingField();
+  constexpr ::System::Net::Security::SslStream*& __cordl_internal_get__SslStream_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslStream*> const& __get__SslStream_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslStream*> const& __cordl_internal_get__SslStream_k__BackingField() const;
 
-  constexpr void __set__SslStream_k__BackingField(::System::Net::Security::SslStream* value);
+  constexpr void __cordl_internal_set__SslStream_k__BackingField(::System::Net::Security::SslStream* value);
 
-  constexpr ::Mono::Security::Interface::MonoTlsSettings*& __get__Settings_k__BackingField();
+  constexpr ::Mono::Security::Interface::MonoTlsSettings*& __cordl_internal_get__Settings_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsSettings*> const& __get__Settings_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsSettings*> const& __cordl_internal_get__Settings_k__BackingField() const;
 
-  constexpr void __set__Settings_k__BackingField(::Mono::Security::Interface::MonoTlsSettings* value);
+  constexpr void __cordl_internal_set__Settings_k__BackingField(::Mono::Security::Interface::MonoTlsSettings* value);
 
-  constexpr ::Mono::Net::Security::MobileTlsProvider*& __get__Provider_k__BackingField();
+  constexpr ::Mono::Net::Security::MobileTlsProvider*& __cordl_internal_get__Provider_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileTlsProvider*> const& __get__Provider_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileTlsProvider*> const& __cordl_internal_get__Provider_k__BackingField() const;
 
-  constexpr void __set__Provider_k__BackingField(::Mono::Net::Security::MobileTlsProvider* value);
+  constexpr void __cordl_internal_set__Provider_k__BackingField(::Mono::Net::Security::MobileTlsProvider* value);
 
-  constexpr ::StringW& __get__TargetHost_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__TargetHost_k__BackingField();
 
-  constexpr ::StringW const& __get__TargetHost_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__TargetHost_k__BackingField() const;
 
-  constexpr void __set__TargetHost_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__TargetHost_k__BackingField(::StringW value);
 
-  constexpr int32_t& __get__cordl_ID();
+  constexpr int32_t& __cordl_internal_get__cordl_ID();
 
-  constexpr int32_t const& __get__cordl_ID() const;
+  constexpr int32_t const& __cordl_internal_get__cordl_ID() const;
 
-  constexpr void __set__cordl_ID(int32_t value);
+  constexpr void __cordl_internal_set__cordl_ID(int32_t value);
 
   static inline void setStaticF_uniqueNameInteger(int32_t value);
 

@@ -37,23 +37,23 @@ MARK_REF_PTR_T(::System::OperatingSystem);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2614))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2614))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2526))
 // CS Name: ::System::OperatingSystem*
 class CORDL_TYPE OperatingSystem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _version, offset 0x10, size 0x8
-  __declspec(property(get = __get__version, put = __set__version))::System::Version* _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version))::System::Version* _version;
 
   /// @brief Field _platform, offset 0x18, size 0x4
-  __declspec(property(get = __get__platform, put = __set__platform))::System::PlatformID _platform;
+  __declspec(property(get = __cordl_internal_get__platform, put = __cordl_internal_set__platform))::System::PlatformID _platform;
 
   /// @brief Field _servicePack, offset 0x20, size 0x8
-  __declspec(property(get = __get__servicePack, put = __set__servicePack))::StringW _servicePack;
+  __declspec(property(get = __cordl_internal_get__servicePack, put = __cordl_internal_set__servicePack))::StringW _servicePack;
 
   /// @brief Field _versionString, offset 0x28, size 0x8
-  __declspec(property(get = __get__versionString, put = __set__versionString))::StringW _versionString;
+  __declspec(property(get = __cordl_internal_get__versionString, put = __cordl_internal_set__versionString))::StringW _versionString;
 
   __declspec(property(get = get_Platform))::System::PlatformID Platform;
 
@@ -71,29 +71,29 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::System::Version*& __get__version();
+  constexpr ::System::Version*& __cordl_internal_get__version();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __get__version() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(::System::Version* value);
+  constexpr void __cordl_internal_set__version(::System::Version* value);
 
-  constexpr ::System::PlatformID& __get__platform();
+  constexpr ::System::PlatformID& __cordl_internal_get__platform();
 
-  constexpr ::System::PlatformID const& __get__platform() const;
+  constexpr ::System::PlatformID const& __cordl_internal_get__platform() const;
 
-  constexpr void __set__platform(::System::PlatformID value);
+  constexpr void __cordl_internal_set__platform(::System::PlatformID value);
 
-  constexpr ::StringW& __get__servicePack();
+  constexpr ::StringW& __cordl_internal_get__servicePack();
 
-  constexpr ::StringW const& __get__servicePack() const;
+  constexpr ::StringW const& __cordl_internal_get__servicePack() const;
 
-  constexpr void __set__servicePack(::StringW value);
+  constexpr void __cordl_internal_set__servicePack(::StringW value);
 
-  constexpr ::StringW& __get__versionString();
+  constexpr ::StringW& __cordl_internal_get__versionString();
 
-  constexpr ::StringW const& __get__versionString() const;
+  constexpr ::StringW const& __cordl_internal_get__versionString() const;
 
-  constexpr void __set__versionString(::StringW value);
+  constexpr void __cordl_internal_set__versionString(::StringW value);
 
   static inline ::System::OperatingSystem* New_ctor(::System::PlatformID platform, ::System::Version* version);
 

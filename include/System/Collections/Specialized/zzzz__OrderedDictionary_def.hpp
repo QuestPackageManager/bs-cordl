@@ -74,17 +74,17 @@ MARK_REF_PTR_T(::System::Collections::Specialized::__OrderedDictionary__OrderedD
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9514))
 // CS Name: ::OrderedDictionary::OrderedDictionaryEnumerator*
 class CORDL_TYPE __OrderedDictionary__OrderedDictionaryEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _objectReturnType, offset 0x10, size 0x4
-  __declspec(property(get = __get__objectReturnType, put = __set__objectReturnType)) int32_t _objectReturnType;
+  __declspec(property(get = __cordl_internal_get__objectReturnType, put = __cordl_internal_set__objectReturnType)) int32_t _objectReturnType;
 
   /// @brief Field _arrayEnumerator, offset 0x18, size 0x8
-  __declspec(property(get = __get__arrayEnumerator, put = __set__arrayEnumerator))::System::Collections::IEnumerator* _arrayEnumerator;
+  __declspec(property(get = __cordl_internal_get__arrayEnumerator, put = __cordl_internal_set__arrayEnumerator))::System::Collections::IEnumerator* _arrayEnumerator;
 
   __declspec(property(get = get_Current))::System::Object* Current;
 
@@ -106,17 +106,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get__objectReturnType();
+  constexpr int32_t& __cordl_internal_get__objectReturnType();
 
-  constexpr int32_t const& __get__objectReturnType() const;
+  constexpr int32_t const& __cordl_internal_get__objectReturnType() const;
 
-  constexpr void __set__objectReturnType(int32_t value);
+  constexpr void __cordl_internal_set__objectReturnType(int32_t value);
 
-  constexpr ::System::Collections::IEnumerator*& __get__arrayEnumerator();
+  constexpr ::System::Collections::IEnumerator*& __cordl_internal_get__arrayEnumerator();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __get__arrayEnumerator() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __cordl_internal_get__arrayEnumerator() const;
 
-  constexpr void __set__arrayEnumerator(::System::Collections::IEnumerator* value);
+  constexpr void __cordl_internal_set__arrayEnumerator(::System::Collections::IEnumerator* value);
 
   static inline ::System::Collections::Specialized::__OrderedDictionary__OrderedDictionaryEnumerator* New_ctor(::System::Collections::ArrayList* array, int32_t objectReturnType);
 
@@ -175,17 +175,17 @@ static_assert(offsetof(::System::Collections::Specialized::__OrderedDictionary__
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9515))
 // CS Name: ::OrderedDictionary::OrderedDictionaryKeyValueCollection*
 class CORDL_TYPE __OrderedDictionary__OrderedDictionaryKeyValueCollection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _objects, offset 0x10, size 0x8
-  __declspec(property(get = __get__objects, put = __set__objects))::System::Collections::ArrayList* _objects;
+  __declspec(property(get = __cordl_internal_get__objects, put = __cordl_internal_set__objects))::System::Collections::ArrayList* _objects;
 
   /// @brief Field _isKeys, offset 0x18, size 0x1
-  __declspec(property(get = __get__isKeys, put = __set__isKeys)) bool _isKeys;
+  __declspec(property(get = __cordl_internal_get__isKeys, put = __cordl_internal_set__isKeys)) bool _isKeys;
 
   __declspec(property(get = System_Collections_ICollection_get_Count)) int32_t System_Collections_ICollection_Count;
 
@@ -205,17 +205,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::ArrayList*& __get__objects();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__objects();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get__objects() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__objects() const;
 
-  constexpr void __set__objects(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set__objects(::System::Collections::ArrayList* value);
 
-  constexpr bool& __get__isKeys();
+  constexpr bool& __cordl_internal_get__isKeys();
 
-  constexpr bool const& __get__isKeys() const;
+  constexpr bool const& __cordl_internal_get__isKeys() const;
 
-  constexpr void __set__isKeys(bool value);
+  constexpr void __cordl_internal_set__isKeys(bool value);
 
   static inline ::System::Collections::Specialized::__OrderedDictionary__OrderedDictionaryKeyValueCollection* New_ctor(::System::Collections::ArrayList* array, bool isKeys);
 
@@ -271,7 +271,7 @@ static_assert(offsetof(::System::Collections::Specialized::__OrderedDictionary__
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9516))
 // CS Name: ::System.Collections.Specialized::OrderedDictionary*
 class CORDL_TYPE OrderedDictionary : public ::System::Object {
@@ -282,25 +282,25 @@ public:
   using OrderedDictionaryEnumerator = ::System::Collections::Specialized::__OrderedDictionary__OrderedDictionaryEnumerator;
 
   /// @brief Field _objectsArray, offset 0x10, size 0x8
-  __declspec(property(get = __get__objectsArray, put = __set__objectsArray))::System::Collections::ArrayList* _objectsArray;
+  __declspec(property(get = __cordl_internal_get__objectsArray, put = __cordl_internal_set__objectsArray))::System::Collections::ArrayList* _objectsArray;
 
   /// @brief Field _objectsTable, offset 0x18, size 0x8
-  __declspec(property(get = __get__objectsTable, put = __set__objectsTable))::System::Collections::Hashtable* _objectsTable;
+  __declspec(property(get = __cordl_internal_get__objectsTable, put = __cordl_internal_set__objectsTable))::System::Collections::Hashtable* _objectsTable;
 
   /// @brief Field _initialCapacity, offset 0x20, size 0x4
-  __declspec(property(get = __get__initialCapacity, put = __set__initialCapacity)) int32_t _initialCapacity;
+  __declspec(property(get = __cordl_internal_get__initialCapacity, put = __cordl_internal_set__initialCapacity)) int32_t _initialCapacity;
 
   /// @brief Field _comparer, offset 0x28, size 0x8
-  __declspec(property(get = __get__comparer, put = __set__comparer))::System::Collections::IEqualityComparer* _comparer;
+  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::System::Collections::IEqualityComparer* _comparer;
 
   /// @brief Field _readOnly, offset 0x30, size 0x1
-  __declspec(property(get = __get__readOnly, put = __set__readOnly)) bool _readOnly;
+  __declspec(property(get = __cordl_internal_get__readOnly, put = __cordl_internal_set__readOnly)) bool _readOnly;
 
   /// @brief Field _syncRoot, offset 0x38, size 0x8
-  __declspec(property(get = __get__syncRoot, put = __set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
 
   /// @brief Field _siInfo, offset 0x40, size 0x8
-  __declspec(property(get = __get__siInfo, put = __set__siInfo))::System::Runtime::Serialization::SerializationInfo* _siInfo;
+  __declspec(property(get = __cordl_internal_get__siInfo, put = __cordl_internal_set__siInfo))::System::Runtime::Serialization::SerializationInfo* _siInfo;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -352,47 +352,47 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
-  constexpr ::System::Collections::ArrayList*& __get__objectsArray();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__objectsArray();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get__objectsArray() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__objectsArray() const;
 
-  constexpr void __set__objectsArray(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set__objectsArray(::System::Collections::ArrayList* value);
 
-  constexpr ::System::Collections::Hashtable*& __get__objectsTable();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__objectsTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get__objectsTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__objectsTable() const;
 
-  constexpr void __set__objectsTable(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set__objectsTable(::System::Collections::Hashtable* value);
 
-  constexpr int32_t& __get__initialCapacity();
+  constexpr int32_t& __cordl_internal_get__initialCapacity();
 
-  constexpr int32_t const& __get__initialCapacity() const;
+  constexpr int32_t const& __cordl_internal_get__initialCapacity() const;
 
-  constexpr void __set__initialCapacity(int32_t value);
+  constexpr void __cordl_internal_set__initialCapacity(int32_t value);
 
-  constexpr ::System::Collections::IEqualityComparer*& __get__comparer();
+  constexpr ::System::Collections::IEqualityComparer*& __cordl_internal_get__comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEqualityComparer*> const& __get__comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEqualityComparer*> const& __cordl_internal_get__comparer() const;
 
-  constexpr void __set__comparer(::System::Collections::IEqualityComparer* value);
+  constexpr void __cordl_internal_set__comparer(::System::Collections::IEqualityComparer* value);
 
-  constexpr bool& __get__readOnly();
+  constexpr bool& __cordl_internal_get__readOnly();
 
-  constexpr bool const& __get__readOnly() const;
+  constexpr bool const& __cordl_internal_get__readOnly() const;
 
-  constexpr void __set__readOnly(bool value);
+  constexpr void __cordl_internal_set__readOnly(bool value);
 
-  constexpr ::System::Object*& __get__syncRoot();
+  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__syncRoot() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
-  constexpr void __set__syncRoot(::System::Object* value);
+  constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
-  constexpr ::System::Runtime::Serialization::SerializationInfo*& __get__siInfo();
+  constexpr ::System::Runtime::Serialization::SerializationInfo*& __cordl_internal_get__siInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __get__siInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __cordl_internal_get__siInfo() const;
 
-  constexpr void __set__siInfo(::System::Runtime::Serialization::SerializationInfo* value);
+  constexpr void __cordl_internal_set__siInfo(::System::Runtime::Serialization::SerializationInfo* value);
 
   static inline ::System::Collections::Specialized::OrderedDictionary* New_ctor();
 

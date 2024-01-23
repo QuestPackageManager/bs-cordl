@@ -24,38 +24,38 @@ MARK_REF_PTR_T(::GlobalNamespace::ResizableTextMeshPro);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5969))
 // CS Name: ::ResizableTextMeshPro*
 class CORDL_TYPE ResizableTextMeshPro : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _textMeshPro, offset 0x18, size 0x8
-  __declspec(property(get = __get__textMeshPro, put = __set__textMeshPro))::TMPro::TMP_Text* _textMeshPro;
+  __declspec(property(get = __cordl_internal_get__textMeshPro, put = __cordl_internal_set__textMeshPro))::UnityW<::TMPro::TMP_Text> _textMeshPro;
 
   /// @brief Field _rectTransform, offset 0x20, size 0x8
-  __declspec(property(get = __get__rectTransform, put = __set__rectTransform))::UnityEngine::RectTransform* _rectTransform;
+  __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform))::UnityW<::UnityEngine::RectTransform> _rectTransform;
 
   /// @brief Field _textExtraSpace, offset 0x28, size 0x4
-  __declspec(property(get = __get__textExtraSpace, put = __set__textExtraSpace)) float_t _textExtraSpace;
+  __declspec(property(get = __cordl_internal_get__textExtraSpace, put = __cordl_internal_set__textExtraSpace)) float_t _textExtraSpace;
 
-  constexpr ::TMPro::TMP_Text*& __get__textMeshPro();
+  constexpr ::UnityW<::TMPro::TMP_Text>& __cordl_internal_get__textMeshPro();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_Text*> const& __get__textMeshPro() const;
+  constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get__textMeshPro() const;
 
-  constexpr void __set__textMeshPro(::TMPro::TMP_Text* value);
+  constexpr void __cordl_internal_set__textMeshPro(::UnityW<::TMPro::TMP_Text> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__rectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__rectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
 
-  constexpr void __set__rectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr float_t& __get__textExtraSpace();
+  constexpr float_t& __cordl_internal_get__textExtraSpace();
 
-  constexpr float_t const& __get__textExtraSpace() const;
+  constexpr float_t const& __cordl_internal_get__textExtraSpace() const;
 
-  constexpr void __set__textExtraSpace(float_t value);
+  constexpr void __cordl_internal_set__textExtraSpace(float_t value);
 
   /// @brief Method Start, addr 0x2309928, size 0xcc, virtual false, abstract: false, final false
   inline void Start();
@@ -89,10 +89,10 @@ protected:
 
 public:
   /// @brief Field _textMeshPro, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TMP_Text* ____textMeshPro;
+  ::UnityW<::TMPro::TMP_Text> ____textMeshPro;
 
   /// @brief Field _rectTransform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____rectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
   /// @brief Field _textExtraSpace, offset: 0x28, size: 0x4, def value: None
   float_t ____textExtraSpace;

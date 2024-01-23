@@ -40,41 +40,41 @@ MARK_REF_PTR_T(::UnityEngine::UI::VertexHelper);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13141))
 // CS Name: ::UnityEngine.UI::VertexHelper*
 class CORDL_TYPE VertexHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Positions, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Positions, put = __set_m_Positions))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* m_Positions;
+  __declspec(property(get = __cordl_internal_get_m_Positions, put = __cordl_internal_set_m_Positions))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* m_Positions;
 
   /// @brief Field m_Colors, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Colors, put = __set_m_Colors))::System::Collections::Generic::List_1<::UnityEngine::Color32>* m_Colors;
+  __declspec(property(get = __cordl_internal_get_m_Colors, put = __cordl_internal_set_m_Colors))::System::Collections::Generic::List_1<::UnityEngine::Color32>* m_Colors;
 
   /// @brief Field m_Uv0S, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Uv0S, put = __set_m_Uv0S))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Uv0S;
+  __declspec(property(get = __cordl_internal_get_m_Uv0S, put = __cordl_internal_set_m_Uv0S))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Uv0S;
 
   /// @brief Field m_Uv1S, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Uv1S, put = __set_m_Uv1S))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Uv1S;
+  __declspec(property(get = __cordl_internal_get_m_Uv1S, put = __cordl_internal_set_m_Uv1S))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Uv1S;
 
   /// @brief Field m_Uv2S, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Uv2S, put = __set_m_Uv2S))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Uv2S;
+  __declspec(property(get = __cordl_internal_get_m_Uv2S, put = __cordl_internal_set_m_Uv2S))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Uv2S;
 
   /// @brief Field m_Uv3S, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_Uv3S, put = __set_m_Uv3S))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Uv3S;
+  __declspec(property(get = __cordl_internal_get_m_Uv3S, put = __cordl_internal_set_m_Uv3S))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Uv3S;
 
   /// @brief Field m_Normals, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_Normals, put = __set_m_Normals))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* m_Normals;
+  __declspec(property(get = __cordl_internal_get_m_Normals, put = __cordl_internal_set_m_Normals))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* m_Normals;
 
   /// @brief Field m_Tangents, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_Tangents, put = __set_m_Tangents))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Tangents;
+  __declspec(property(get = __cordl_internal_get_m_Tangents, put = __cordl_internal_set_m_Tangents))::System::Collections::Generic::List_1<::UnityEngine::Vector4>* m_Tangents;
 
   /// @brief Field m_Indices, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_Indices, put = __set_m_Indices))::System::Collections::Generic::List_1<int32_t>* m_Indices;
+  __declspec(property(get = __cordl_internal_get_m_Indices, put = __cordl_internal_set_m_Indices))::System::Collections::Generic::List_1<int32_t>* m_Indices;
 
   /// @brief Field m_ListsInitalized, offset 0x58, size 0x1
-  __declspec(property(get = __get_m_ListsInitalized, put = __set_m_ListsInitalized)) bool m_ListsInitalized;
+  __declspec(property(get = __cordl_internal_get_m_ListsInitalized, put = __cordl_internal_set_m_ListsInitalized)) bool m_ListsInitalized;
 
   /// @brief Field s_DefaultTangent, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_s_DefaultTangent, put = setStaticF_s_DefaultTangent))::UnityEngine::Vector4 s_DefaultTangent;
@@ -92,65 +92,65 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __get_m_Positions();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_m_Positions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __get_m_Positions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_Positions() const;
 
-  constexpr void __set_m_Positions(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set_m_Positions(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color32>*& __get_m_Colors();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color32>*& __cordl_internal_get_m_Colors();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Color32>*> const& __get_m_Colors() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Color32>*> const& __cordl_internal_get_m_Colors() const;
 
-  constexpr void __set_m_Colors(::System::Collections::Generic::List_1<::UnityEngine::Color32>* value);
+  constexpr void __cordl_internal_set_m_Colors(::System::Collections::Generic::List_1<::UnityEngine::Color32>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __get_m_Uv0S();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Uv0S();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __get_m_Uv0S() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __cordl_internal_get_m_Uv0S() const;
 
-  constexpr void __set_m_Uv0S(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+  constexpr void __cordl_internal_set_m_Uv0S(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __get_m_Uv1S();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Uv1S();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __get_m_Uv1S() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __cordl_internal_get_m_Uv1S() const;
 
-  constexpr void __set_m_Uv1S(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+  constexpr void __cordl_internal_set_m_Uv1S(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __get_m_Uv2S();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Uv2S();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __get_m_Uv2S() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __cordl_internal_get_m_Uv2S() const;
 
-  constexpr void __set_m_Uv2S(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+  constexpr void __cordl_internal_set_m_Uv2S(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __get_m_Uv3S();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Uv3S();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __get_m_Uv3S() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __cordl_internal_get_m_Uv3S() const;
 
-  constexpr void __set_m_Uv3S(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+  constexpr void __cordl_internal_set_m_Uv3S(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __get_m_Normals();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_m_Normals();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __get_m_Normals() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_Normals() const;
 
-  constexpr void __set_m_Normals(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set_m_Normals(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __get_m_Tangents();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& __cordl_internal_get_m_Tangents();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __get_m_Tangents() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& __cordl_internal_get_m_Tangents() const;
 
-  constexpr void __set_m_Tangents(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
+  constexpr void __cordl_internal_set_m_Tangents(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get_m_Indices();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_Indices();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get_m_Indices() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_Indices() const;
 
-  constexpr void __set_m_Indices(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_Indices(::System::Collections::Generic::List_1<int32_t>* value);
 
-  constexpr bool& __get_m_ListsInitalized();
+  constexpr bool& __cordl_internal_get_m_ListsInitalized();
 
-  constexpr bool const& __get_m_ListsInitalized() const;
+  constexpr bool const& __cordl_internal_get_m_ListsInitalized() const;
 
-  constexpr void __set_m_ListsInitalized(bool value);
+  constexpr void __cordl_internal_set_m_ListsInitalized(bool value);
 
   static inline void setStaticF_s_DefaultTangent(::UnityEngine::Vector4 value);
 

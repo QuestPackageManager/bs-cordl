@@ -29,14 +29,14 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12809))
 // CS Name: ::PacketPool`1<T>*
 class CORDL_TYPE PacketPool_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _bag, offset 0x10, size 0x8
-  __declspec(property(get = __get__bag, put = __set__bag))::System::Collections::Concurrent::ConcurrentBag_1<T>* _bag;
+  __declspec(property(get = __cordl_internal_get__bag, put = __cordl_internal_set__bag))::System::Collections::Concurrent::ConcurrentBag_1<T>* _bag;
 
   /// @brief Convert operator to "::GlobalNamespace::IPacketPool_1<T>"
   constexpr operator ::GlobalNamespace::IPacketPool_1<T>*() noexcept;
@@ -50,11 +50,11 @@ public:
   /// @brief Convert to "::GlobalNamespace::IPacketPool"
   constexpr ::GlobalNamespace::IPacketPool* i___GlobalNamespace__IPacketPool() noexcept;
 
-  constexpr ::System::Collections::Concurrent::ConcurrentBag_1<T>*& __get__bag();
+  constexpr ::System::Collections::Concurrent::ConcurrentBag_1<T>*& __cordl_internal_get__bag();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentBag_1<T>*> const& __get__bag() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentBag_1<T>*> const& __cordl_internal_get__bag() const;
 
-  constexpr void __set__bag(::System::Collections::Concurrent::ConcurrentBag_1<T>* value);
+  constexpr void __cordl_internal_set__bag(::System::Collections::Concurrent::ConcurrentBag_1<T>* value);
 
   /// @brief Method Obtain, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T Obtain();

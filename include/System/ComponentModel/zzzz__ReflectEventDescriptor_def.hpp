@@ -26,65 +26,65 @@ MARK_REF_PTR_T(::System::ComponentModel::ReflectEventDescriptor);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9423))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9423))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9450))
 // CS Name: ::System.ComponentModel::ReflectEventDescriptor*
 class CORDL_TYPE ReflectEventDescriptor : public ::System::ComponentModel::EventDescriptor {
 public:
   // Declarations
   /// @brief Field _type, offset 0x60, size 0x8
-  __declspec(property(get = __get__type, put = __set__type))::System::Type* _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::System::Type* _type;
 
   /// @brief Field _componentClass, offset 0x68, size 0x8
-  __declspec(property(get = __get__componentClass, put = __set__componentClass))::System::Type* _componentClass;
+  __declspec(property(get = __cordl_internal_get__componentClass, put = __cordl_internal_set__componentClass))::System::Type* _componentClass;
 
   /// @brief Field _addMethod, offset 0x70, size 0x8
-  __declspec(property(get = __get__addMethod, put = __set__addMethod))::System::Reflection::MethodInfo* _addMethod;
+  __declspec(property(get = __cordl_internal_get__addMethod, put = __cordl_internal_set__addMethod))::System::Reflection::MethodInfo* _addMethod;
 
   /// @brief Field _removeMethod, offset 0x78, size 0x8
-  __declspec(property(get = __get__removeMethod, put = __set__removeMethod))::System::Reflection::MethodInfo* _removeMethod;
+  __declspec(property(get = __cordl_internal_get__removeMethod, put = __cordl_internal_set__removeMethod))::System::Reflection::MethodInfo* _removeMethod;
 
   /// @brief Field _realEvent, offset 0x80, size 0x8
-  __declspec(property(get = __get__realEvent, put = __set__realEvent))::System::Reflection::EventInfo* _realEvent;
+  __declspec(property(get = __cordl_internal_get__realEvent, put = __cordl_internal_set__realEvent))::System::Reflection::EventInfo* _realEvent;
 
   /// @brief Field _filledMethods, offset 0x88, size 0x1
-  __declspec(property(get = __get__filledMethods, put = __set__filledMethods)) bool _filledMethods;
+  __declspec(property(get = __cordl_internal_get__filledMethods, put = __cordl_internal_set__filledMethods)) bool _filledMethods;
 
-  constexpr ::System::Type*& __get__type();
+  constexpr ::System::Type*& __cordl_internal_get__type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__type() const;
 
-  constexpr void __set__type(::System::Type* value);
+  constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  constexpr ::System::Type*& __get__componentClass();
+  constexpr ::System::Type*& __cordl_internal_get__componentClass();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__componentClass() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__componentClass() const;
 
-  constexpr void __set__componentClass(::System::Type* value);
+  constexpr void __cordl_internal_set__componentClass(::System::Type* value);
 
-  constexpr ::System::Reflection::MethodInfo*& __get__addMethod();
+  constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get__addMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __get__addMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get__addMethod() const;
 
-  constexpr void __set__addMethod(::System::Reflection::MethodInfo* value);
+  constexpr void __cordl_internal_set__addMethod(::System::Reflection::MethodInfo* value);
 
-  constexpr ::System::Reflection::MethodInfo*& __get__removeMethod();
+  constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get__removeMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __get__removeMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get__removeMethod() const;
 
-  constexpr void __set__removeMethod(::System::Reflection::MethodInfo* value);
+  constexpr void __cordl_internal_set__removeMethod(::System::Reflection::MethodInfo* value);
 
-  constexpr ::System::Reflection::EventInfo*& __get__realEvent();
+  constexpr ::System::Reflection::EventInfo*& __cordl_internal_get__realEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::EventInfo*> const& __get__realEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::EventInfo*> const& __cordl_internal_get__realEvent() const;
 
-  constexpr void __set__realEvent(::System::Reflection::EventInfo* value);
+  constexpr void __cordl_internal_set__realEvent(::System::Reflection::EventInfo* value);
 
-  constexpr bool& __get__filledMethods();
+  constexpr bool& __cordl_internal_get__filledMethods();
 
-  constexpr bool const& __get__filledMethods() const;
+  constexpr bool const& __cordl_internal_get__filledMethods() const;
 
-  constexpr void __set__filledMethods(bool value);
+  constexpr void __cordl_internal_set__filledMethods(bool value);
 
   static inline ::System::ComponentModel::ReflectEventDescriptor* New_ctor(::System::Type* componentClass, ::System::Reflection::EventInfo* eventInfo);
 

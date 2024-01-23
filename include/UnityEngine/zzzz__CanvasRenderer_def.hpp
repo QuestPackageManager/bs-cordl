@@ -54,14 +54,14 @@ MARK_REF_PTR_T(::UnityEngine::CanvasRenderer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10238))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10238))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15658))
 // CS Name: ::UnityEngine::CanvasRenderer*
 class CORDL_TYPE CanvasRenderer : public ::UnityEngine::Component {
 public:
   // Declarations
   /// @brief Field <isMask>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__isMask_k__BackingField, put = __set__isMask_k__BackingField)) bool _isMask_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isMask_k__BackingField, put = __cordl_internal_set__isMask_k__BackingField)) bool _isMask_k__BackingField;
 
   __declspec(property(get = get_hasPopInstruction, put = set_hasPopInstruction)) bool hasPopInstruction;
 
@@ -85,11 +85,11 @@ public:
 
   __declspec(property(get = get_clippingSoftness, put = set_clippingSoftness))::UnityEngine::Vector2 clippingSoftness;
 
-  constexpr bool& __get__isMask_k__BackingField();
+  constexpr bool& __cordl_internal_get__isMask_k__BackingField();
 
-  constexpr bool const& __get__isMask_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isMask_k__BackingField() const;
 
-  constexpr void __set__isMask_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isMask_k__BackingField(bool value);
 
   /// @brief Method get_hasPopInstruction, addr 0x2ea8878, size 0x3c, virtual false, abstract: false, final false
   inline bool get_hasPopInstruction();
@@ -161,13 +161,13 @@ public:
   inline void SetMaterial(::UnityEngine::Material* material, int32_t index);
 
   /// @brief Method GetMaterial, addr 0x2ea8f74, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* GetMaterial(int32_t index);
+  inline ::UnityW<::UnityEngine::Material> GetMaterial(int32_t index);
 
   /// @brief Method SetPopMaterial, addr 0x2ea8fb8, size 0x54, virtual false, abstract: false, final false
   inline void SetPopMaterial(::UnityEngine::Material* material, int32_t index);
 
   /// @brief Method GetPopMaterial, addr 0x2ea900c, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* GetPopMaterial(int32_t index);
+  inline ::UnityW<::UnityEngine::Material> GetPopMaterial(int32_t index);
 
   /// @brief Method SetTexture, addr 0x2ea9050, size 0x44, virtual false, abstract: false, final false
   inline void SetTexture(::UnityEngine::Texture* texture);
@@ -194,7 +194,7 @@ public:
   inline void SetMaterial(::UnityEngine::Material* material, ::UnityEngine::Texture* texture);
 
   /// @brief Method GetMaterial, addr 0x2ea92f8, size 0x40, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* GetMaterial();
+  inline ::UnityW<::UnityEngine::Material> GetMaterial();
 
   /// @brief Method SplitUIVertexStreams, addr 0x2ea9338, size 0xf4, virtual false, abstract: false, final false
   static inline void SplitUIVertexStreams(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* verts, ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* positions,

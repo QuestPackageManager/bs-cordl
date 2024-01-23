@@ -17,29 +17,29 @@ MARK_REF_PTR_T(::System::Threading::Tasks::UnobservedTaskExceptionEventArgs);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2813))
 // CS Name: ::System.Threading.Tasks::UnobservedTaskExceptionEventArgs*
 class CORDL_TYPE UnobservedTaskExceptionEventArgs : public ::System::EventArgs {
 public:
   // Declarations
   /// @brief Field m_exception, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_exception, put = __set_m_exception))::System::AggregateException* m_exception;
+  __declspec(property(get = __cordl_internal_get_m_exception, put = __cordl_internal_set_m_exception))::System::AggregateException* m_exception;
 
   /// @brief Field m_observed, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_observed, put = __set_m_observed)) bool m_observed;
+  __declspec(property(get = __cordl_internal_get_m_observed, put = __cordl_internal_set_m_observed)) bool m_observed;
 
-  constexpr ::System::AggregateException*& __get_m_exception();
+  constexpr ::System::AggregateException*& __cordl_internal_get_m_exception();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::AggregateException*> const& __get_m_exception() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::AggregateException*> const& __cordl_internal_get_m_exception() const;
 
-  constexpr void __set_m_exception(::System::AggregateException* value);
+  constexpr void __cordl_internal_set_m_exception(::System::AggregateException* value);
 
-  constexpr bool& __get_m_observed();
+  constexpr bool& __cordl_internal_get_m_observed();
 
-  constexpr bool const& __get_m_observed() const;
+  constexpr bool const& __cordl_internal_get_m_observed() const;
 
-  constexpr void __set_m_observed(bool value);
+  constexpr void __cordl_internal_set_m_observed(bool value);
 
   static inline ::System::Threading::Tasks::UnobservedTaskExceptionEventArgs* New_ctor(::System::AggregateException* exception);
 

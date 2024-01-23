@@ -24,24 +24,24 @@ MARK_REF_PTR_T(::System::Xml::Linq::XComment);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15453))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15453))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15434))
 // CS Name: ::System.Xml.Linq::XComment*
 class CORDL_TYPE XComment : public ::System::Xml::Linq::XNode {
 public:
   // Declarations
   /// @brief Field value, offset 0x28, size 0x8
-  __declspec(property(get = __get_value, put = __set_value))::StringW value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::StringW value;
 
   __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
 
   __declspec(property(get = get_Value, put = set_Value))::StringW Value;
 
-  constexpr ::StringW& __get_value();
+  constexpr ::StringW& __cordl_internal_get_value();
 
-  constexpr ::StringW const& __get_value() const;
+  constexpr ::StringW const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(::StringW value);
+  constexpr void __cordl_internal_set_value(::StringW value);
 
   static inline ::System::Xml::Linq::XComment* New_ctor(::StringW value);
 

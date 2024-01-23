@@ -17,25 +17,25 @@ MARK_REF_PTR_T(::GlobalNamespace::AlwaysOwnedContentContainerSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4101))
 // CS Name: ::AlwaysOwnedContentContainerSO*
 class CORDL_TYPE AlwaysOwnedContentContainerSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _alwaysOwnedContent, offset 0x18, size 0x8
-  __declspec(property(get = __get__alwaysOwnedContent, put = __set__alwaysOwnedContent))::GlobalNamespace::AlwaysOwnedContentSO* _alwaysOwnedContent;
+  __declspec(property(get = __cordl_internal_get__alwaysOwnedContent, put = __cordl_internal_set__alwaysOwnedContent))::UnityW<::GlobalNamespace::AlwaysOwnedContentSO> _alwaysOwnedContent;
 
-  __declspec(property(get = get_alwaysOwnedContent))::GlobalNamespace::AlwaysOwnedContentSO* alwaysOwnedContent;
+  __declspec(property(get = get_alwaysOwnedContent))::UnityW<::GlobalNamespace::AlwaysOwnedContentSO> alwaysOwnedContent;
 
-  constexpr ::GlobalNamespace::AlwaysOwnedContentSO*& __get__alwaysOwnedContent();
+  constexpr ::UnityW<::GlobalNamespace::AlwaysOwnedContentSO>& __cordl_internal_get__alwaysOwnedContent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AlwaysOwnedContentSO*> const& __get__alwaysOwnedContent() const;
+  constexpr ::UnityW<::GlobalNamespace::AlwaysOwnedContentSO> const& __cordl_internal_get__alwaysOwnedContent() const;
 
-  constexpr void __set__alwaysOwnedContent(::GlobalNamespace::AlwaysOwnedContentSO* value);
+  constexpr void __cordl_internal_set__alwaysOwnedContent(::UnityW<::GlobalNamespace::AlwaysOwnedContentSO> value);
 
   /// @brief Method get_alwaysOwnedContent, addr 0x22343e4, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::AlwaysOwnedContentSO* get_alwaysOwnedContent();
+  inline ::UnityW<::GlobalNamespace::AlwaysOwnedContentSO> get_alwaysOwnedContent();
 
   static inline ::GlobalNamespace::AlwaysOwnedContentContainerSO* New_ctor();
 
@@ -57,7 +57,7 @@ protected:
 
 public:
   /// @brief Field _alwaysOwnedContent, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::AlwaysOwnedContentSO* ____alwaysOwnedContent;
+  ::UnityW<::GlobalNamespace::AlwaysOwnedContentSO> ____alwaysOwnedContent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

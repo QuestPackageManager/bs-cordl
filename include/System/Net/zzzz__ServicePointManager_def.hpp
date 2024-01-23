@@ -51,40 +51,40 @@ MARK_REF_PTR_T(::System::Net::__ServicePointManager__SPKey);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9201))
 // CS Name: ::ServicePointManager::SPKey*
 class CORDL_TYPE __ServicePointManager__SPKey : public ::System::Object {
 public:
   // Declarations
   /// @brief Field uri, offset 0x10, size 0x8
-  __declspec(property(get = __get_uri, put = __set_uri))::System::Uri* uri;
+  __declspec(property(get = __cordl_internal_get_uri, put = __cordl_internal_set_uri))::System::Uri* uri;
 
   /// @brief Field proxy, offset 0x18, size 0x8
-  __declspec(property(get = __get_proxy, put = __set_proxy))::System::Uri* proxy;
+  __declspec(property(get = __cordl_internal_get_proxy, put = __cordl_internal_set_proxy))::System::Uri* proxy;
 
   /// @brief Field use_connect, offset 0x20, size 0x1
-  __declspec(property(get = __get_use_connect, put = __set_use_connect)) bool use_connect;
+  __declspec(property(get = __cordl_internal_get_use_connect, put = __cordl_internal_set_use_connect)) bool use_connect;
 
   __declspec(property(get = get_UsesProxy)) bool UsesProxy;
 
-  constexpr ::System::Uri*& __get_uri();
+  constexpr ::System::Uri*& __cordl_internal_get_uri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get_uri() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_uri() const;
 
-  constexpr void __set_uri(::System::Uri* value);
+  constexpr void __cordl_internal_set_uri(::System::Uri* value);
 
-  constexpr ::System::Uri*& __get_proxy();
+  constexpr ::System::Uri*& __cordl_internal_get_proxy();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get_proxy() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_proxy() const;
 
-  constexpr void __set_proxy(::System::Uri* value);
+  constexpr void __cordl_internal_set_proxy(::System::Uri* value);
 
-  constexpr bool& __get_use_connect();
+  constexpr bool& __cordl_internal_get_use_connect();
 
-  constexpr bool const& __get_use_connect() const;
+  constexpr bool const& __cordl_internal_get_use_connect() const;
 
-  constexpr void __set_use_connect(bool value);
+  constexpr void __cordl_internal_set_use_connect(bool value);
 
   static inline ::System::Net::__ServicePointManager__SPKey* New_ctor(::System::Uri* uri, ::System::Uri* proxy, bool use_connect);
 
@@ -139,7 +139,7 @@ static_assert(offsetof(::System::Net::__ServicePointManager__SPKey, ___use_conne
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9055))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9055))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9202))
 // CS Name: ::System.Net::ServicePointManager*
 class CORDL_TYPE ServicePointManager : public ::System::Object {

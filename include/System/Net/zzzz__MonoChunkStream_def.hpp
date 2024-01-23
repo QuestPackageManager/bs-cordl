@@ -72,8 +72,8 @@ MARK_VAL_T(::System::Net::__MonoChunkStream___ProcessReadAsync_d__7);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3397))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(9194)) CS Name: ::MonoChunkStream::<ProcessReadAsync>d__7
 struct CORDL_TYPE __MonoChunkStream___ProcessReadAsync_d__7 {
 public:
@@ -163,9 +163,9 @@ static_assert(offsetof(::System::Net::__MonoChunkStream___ProcessReadAsync_d__7,
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9195))
-// CS Name: ::MonoChunkStream::<FinishReading>d__8
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9195)) CS
+// Name: ::MonoChunkStream::<FinishReading>d__8
 struct CORDL_TYPE __MonoChunkStream___FinishReading_d__8 {
 public:
   // Declarations
@@ -244,7 +244,7 @@ static_assert(offsetof(::System::Net::__MonoChunkStream___FinishReading_d__8, __
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9229))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9229))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9196))
 // CS Name: ::System.Net::MonoChunkStream*
 class CORDL_TYPE MonoChunkStream : public ::System::Net::WebReadStream {
@@ -255,24 +255,24 @@ public:
   using _ProcessReadAsync_d__7 = ::System::Net::__MonoChunkStream___ProcessReadAsync_d__7;
 
   /// @brief Field <Headers>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __get__Headers_k__BackingField, put = __set__Headers_k__BackingField))::System::Net::WebHeaderCollection* _Headers_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Headers_k__BackingField, put = __cordl_internal_set__Headers_k__BackingField))::System::Net::WebHeaderCollection* _Headers_k__BackingField;
 
   /// @brief Field <Decoder>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __get__Decoder_k__BackingField, put = __set__Decoder_k__BackingField))::System::Net::MonoChunkParser* _Decoder_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Decoder_k__BackingField, put = __cordl_internal_set__Decoder_k__BackingField))::System::Net::MonoChunkParser* _Decoder_k__BackingField;
 
   __declspec(property(get = get_Decoder))::System::Net::MonoChunkParser* Decoder;
 
-  constexpr ::System::Net::WebHeaderCollection*& __get__Headers_k__BackingField();
+  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get__Headers_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __get__Headers_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get__Headers_k__BackingField() const;
 
-  constexpr void __set__Headers_k__BackingField(::System::Net::WebHeaderCollection* value);
+  constexpr void __cordl_internal_set__Headers_k__BackingField(::System::Net::WebHeaderCollection* value);
 
-  constexpr ::System::Net::MonoChunkParser*& __get__Decoder_k__BackingField();
+  constexpr ::System::Net::MonoChunkParser*& __cordl_internal_get__Decoder_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::MonoChunkParser*> const& __get__Decoder_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::MonoChunkParser*> const& __cordl_internal_get__Decoder_k__BackingField() const;
 
-  constexpr void __set__Decoder_k__BackingField(::System::Net::MonoChunkParser* value);
+  constexpr void __cordl_internal_set__Decoder_k__BackingField(::System::Net::MonoChunkParser* value);
 
   /// @brief Method get_Decoder, addr 0x29d4984, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::MonoChunkParser* get_Decoder();

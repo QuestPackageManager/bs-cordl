@@ -42,7 +42,7 @@ MARK_VAL_T(::UnityEngine::UI::CoroutineTween::ColorTween);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI::CoroutineTween {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13151))
 // CS Name: ::ColorTween::ColorTweenMode
 struct CORDL_TYPE __ColorTween__ColorTweenMode {
@@ -96,8 +96,8 @@ static_assert(offsetof(::UnityEngine::UI::CoroutineTween::__ColorTween__ColorTwe
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI::CoroutineTween {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 293 }), TypeDefinitionIndex(TypeDefinitionIndex(10465)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13152)) CS Name: ::ColorTween::ColorTweenCallback*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
+// 293 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13152)) CS Name: ::ColorTween::ColorTweenCallback*
 class CORDL_TYPE __ColorTween__ColorTweenCallback : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::Color> {
 public:
   // Declarations
@@ -130,7 +130,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::CoroutineTween:
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI::CoroutineTween {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13151)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13151))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13153))
 // CS Name: ::UnityEngine.UI.CoroutineTween::ColorTween
 struct CORDL_TYPE ColorTween {

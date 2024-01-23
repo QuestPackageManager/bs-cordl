@@ -28,38 +28,38 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10847))
 // CS Name: ::Zenject::DecoratorToChoiceFromBinder`1<TContract>*
 class CORDL_TYPE DecoratorToChoiceFromBinder_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _bindContainer, offset 0x10, size 0x8
-  __declspec(property(get = __get__bindContainer, put = __set__bindContainer))::Zenject::DiContainer* _bindContainer;
+  __declspec(property(get = __cordl_internal_get__bindContainer, put = __cordl_internal_set__bindContainer))::Zenject::DiContainer* _bindContainer;
 
   /// @brief Field _bindInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get__bindInfo, put = __set__bindInfo))::Zenject::BindInfo* _bindInfo;
+  __declspec(property(get = __cordl_internal_get__bindInfo, put = __cordl_internal_set__bindInfo))::Zenject::BindInfo* _bindInfo;
 
   /// @brief Field _factoryBindInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get__factoryBindInfo, put = __set__factoryBindInfo))::Zenject::FactoryBindInfo* _factoryBindInfo;
+  __declspec(property(get = __cordl_internal_get__factoryBindInfo, put = __cordl_internal_set__factoryBindInfo))::Zenject::FactoryBindInfo* _factoryBindInfo;
 
-  constexpr ::Zenject::DiContainer*& __get__bindContainer();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__bindContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__bindContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__bindContainer() const;
 
-  constexpr void __set__bindContainer(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__bindContainer(::Zenject::DiContainer* value);
 
-  constexpr ::Zenject::BindInfo*& __get__bindInfo();
+  constexpr ::Zenject::BindInfo*& __cordl_internal_get__bindInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindInfo*> const& __get__bindInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::BindInfo*> const& __cordl_internal_get__bindInfo() const;
 
-  constexpr void __set__bindInfo(::Zenject::BindInfo* value);
+  constexpr void __cordl_internal_set__bindInfo(::Zenject::BindInfo* value);
 
-  constexpr ::Zenject::FactoryBindInfo*& __get__factoryBindInfo();
+  constexpr ::Zenject::FactoryBindInfo*& __cordl_internal_get__factoryBindInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::FactoryBindInfo*> const& __get__factoryBindInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::FactoryBindInfo*> const& __cordl_internal_get__factoryBindInfo() const;
 
-  constexpr void __set__factoryBindInfo(::Zenject::FactoryBindInfo* value);
+  constexpr void __cordl_internal_set__factoryBindInfo(::Zenject::FactoryBindInfo* value);
 
   static inline ::Zenject::DecoratorToChoiceFromBinder_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 

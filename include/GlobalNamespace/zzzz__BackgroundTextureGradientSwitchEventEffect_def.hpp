@@ -26,47 +26,51 @@ MARK_REF_PTR_T(::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4897))
 // CS Name: ::BackgroundTextureGradientSwitchEventEffect*
 class CORDL_TYPE BackgroundTextureGradientSwitchEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _defaultTextureGradient, offset 0x18, size 0x8
-  __declspec(property(get = __get__defaultTextureGradient, put = __set__defaultTextureGradient))::GlobalNamespace::BloomPrePassBackgroundTextureGradient* _defaultTextureGradient;
+  __declspec(property(get = __cordl_internal_get__defaultTextureGradient,
+                      put = __cordl_internal_set__defaultTextureGradient))::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> _defaultTextureGradient;
 
   /// @brief Field _boostTextureGradient, offset 0x20, size 0x8
-  __declspec(property(get = __get__boostTextureGradient, put = __set__boostTextureGradient))::GlobalNamespace::BloomPrePassBackgroundTextureGradient* _boostTextureGradient;
+  __declspec(property(get = __cordl_internal_get__boostTextureGradient,
+                      put = __cordl_internal_set__boostTextureGradient))::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> _boostTextureGradient;
 
   /// @brief Field _beatmapCallbacksController, offset 0x28, size 0x8
-  __declspec(property(get = __get__beatmapCallbacksController, put = __set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
+                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
   /// @brief Field _beatmapDataCallbackWrapper, offset 0x30, size 0x8
-  __declspec(property(get = __get__beatmapDataCallbackWrapper, put = __set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
+  __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
+                      put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
-  constexpr ::GlobalNamespace::BloomPrePassBackgroundTextureGradient*& __get__defaultTextureGradient();
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient>& __cordl_internal_get__defaultTextureGradient();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassBackgroundTextureGradient*> const& __get__defaultTextureGradient() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> const& __cordl_internal_get__defaultTextureGradient() const;
 
-  constexpr void __set__defaultTextureGradient(::GlobalNamespace::BloomPrePassBackgroundTextureGradient* value);
+  constexpr void __cordl_internal_set__defaultTextureGradient(::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> value);
 
-  constexpr ::GlobalNamespace::BloomPrePassBackgroundTextureGradient*& __get__boostTextureGradient();
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient>& __cordl_internal_get__boostTextureGradient();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassBackgroundTextureGradient*> const& __get__boostTextureGradient() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> const& __cordl_internal_get__boostTextureGradient() const;
 
-  constexpr void __set__boostTextureGradient(::GlobalNamespace::BloomPrePassBackgroundTextureGradient* value);
+  constexpr void __cordl_internal_set__boostTextureGradient(::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> value);
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __get__beatmapCallbacksController();
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __get__beatmapCallbacksController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __get__beatmapDataCallbackWrapper();
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __get__beatmapDataCallbackWrapper() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
-  constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
+  constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
   /// @brief Method Start, addr 0x23a4f94, size 0xa8, virtual false, abstract: false, final false
   inline void Start();
@@ -97,10 +101,10 @@ protected:
 
 public:
   /// @brief Field _defaultTextureGradient, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BloomPrePassBackgroundTextureGradient* ____defaultTextureGradient;
+  ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> ____defaultTextureGradient;
 
   /// @brief Field _boostTextureGradient, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BloomPrePassBackgroundTextureGradient* ____boostTextureGradient;
+  ::UnityW<::GlobalNamespace::BloomPrePassBackgroundTextureGradient> ____boostTextureGradient;
 
   /// @brief Field _beatmapCallbacksController, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;

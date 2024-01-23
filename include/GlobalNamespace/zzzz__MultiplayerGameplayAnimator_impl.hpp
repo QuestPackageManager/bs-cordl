@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x224c8c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerGameplayAnimator*>::get(),
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18c;
   constexpr static std::size_t addrs = 0x224c958;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerGameplayAnimator*>::get(),
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0x0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerGameplayAnimator*>::get(),
@@ -62,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x164;
   constexpr static std::size_t addrs = 0x224cb94;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerGameplayAnimator*>::get(),
@@ -78,10 +78,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x224cda8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerGameplayAnimator*>::get(), "HandleNewLeaderWasSelected",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerGameplayAnimator*>::get(), "HandleNewLeaderWasSelected",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
@@ -92,129 +92,135 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x224ce90;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerGameplayAnimator*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::ColorSO*& GlobalNamespace::MultiplayerGameplayAnimator::__get__activeLightsColor() {
+constexpr ::UnityW<::GlobalNamespace::ColorSO>& GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get__activeLightsColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeLightsColor;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& GlobalNamespace::MultiplayerGameplayAnimator::__get__activeLightsColor() const {
+constexpr ::UnityW<::GlobalNamespace::ColorSO> const& GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get__activeLightsColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____activeLightsColor;
 }
-constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__set__activeLightsColor(::GlobalNamespace::ColorSO* value) {
+constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_set__activeLightsColor(::UnityW<::GlobalNamespace::ColorSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____activeLightsColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::ColorSO*& GlobalNamespace::MultiplayerGameplayAnimator::__get__leadingLightsColor() {
+constexpr ::UnityW<::GlobalNamespace::ColorSO>& GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get__leadingLightsColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leadingLightsColor;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& GlobalNamespace::MultiplayerGameplayAnimator::__get__leadingLightsColor() const {
+constexpr ::UnityW<::GlobalNamespace::ColorSO> const& GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get__leadingLightsColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leadingLightsColor;
 }
-constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__set__leadingLightsColor(::GlobalNamespace::ColorSO* value) {
+constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_set__leadingLightsColor(::UnityW<::GlobalNamespace::ColorSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leadingLightsColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::ColorSO*& GlobalNamespace::MultiplayerGameplayAnimator::__get__failedLightsColor() {
+constexpr ::UnityW<::GlobalNamespace::ColorSO>& GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get__failedLightsColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____failedLightsColor;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& GlobalNamespace::MultiplayerGameplayAnimator::__get__failedLightsColor() const {
+constexpr ::UnityW<::GlobalNamespace::ColorSO> const& GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get__failedLightsColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____failedLightsColor;
 }
-constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__set__failedLightsColor(::GlobalNamespace::ColorSO* value) {
+constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_set__failedLightsColor(::UnityW<::GlobalNamespace::ColorSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____failedLightsColor)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::MultiplayerGameplayAnimator::__get__leadingSwitchCrossFadeDuration() {
+constexpr float_t& GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get__leadingSwitchCrossFadeDuration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leadingSwitchCrossFadeDuration;
 }
-constexpr float_t const& GlobalNamespace::MultiplayerGameplayAnimator::__get__leadingSwitchCrossFadeDuration() const {
+constexpr float_t const& GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get__leadingSwitchCrossFadeDuration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leadingSwitchCrossFadeDuration;
 }
-constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__set__leadingSwitchCrossFadeDuration(float_t value) {
+constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_set__leadingSwitchCrossFadeDuration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____leadingSwitchCrossFadeDuration = value;
 }
-constexpr ::ArrayW<::GlobalNamespace::LightsAnimator*, ::Array<::GlobalNamespace::LightsAnimator*>*>& GlobalNamespace::MultiplayerGameplayAnimator::__get__gameplayLightsAnimators() {
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightsAnimator>, ::Array<::UnityW<::GlobalNamespace::LightsAnimator>>*>&
+GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get__gameplayLightsAnimators() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayLightsAnimators;
 }
-constexpr ::ArrayW<::GlobalNamespace::LightsAnimator*, ::Array<::GlobalNamespace::LightsAnimator*>*> const& GlobalNamespace::MultiplayerGameplayAnimator::__get__gameplayLightsAnimators() const {
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightsAnimator>, ::Array<::UnityW<::GlobalNamespace::LightsAnimator>>*> const&
+GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get__gameplayLightsAnimators() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayLightsAnimators;
 }
-constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__set__gameplayLightsAnimators(::ArrayW<::GlobalNamespace::LightsAnimator*, ::Array<::GlobalNamespace::LightsAnimator*>*> value) {
+constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_set__gameplayLightsAnimators(
+    ::ArrayW<::UnityW<::GlobalNamespace::LightsAnimator>, ::Array<::UnityW<::GlobalNamespace::LightsAnimator>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayLightsAnimators)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::GlobalNamespace::LightsAnimator*, ::Array<::GlobalNamespace::LightsAnimator*>*>& GlobalNamespace::MultiplayerGameplayAnimator::__get__allLightsAnimators() {
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightsAnimator>, ::Array<::UnityW<::GlobalNamespace::LightsAnimator>>*>&
+GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get__allLightsAnimators() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allLightsAnimators;
 }
-constexpr ::ArrayW<::GlobalNamespace::LightsAnimator*, ::Array<::GlobalNamespace::LightsAnimator*>*> const& GlobalNamespace::MultiplayerGameplayAnimator::__get__allLightsAnimators() const {
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightsAnimator>, ::Array<::UnityW<::GlobalNamespace::LightsAnimator>>*> const&
+GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get__allLightsAnimators() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____allLightsAnimators;
 }
-constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__set__allLightsAnimators(::ArrayW<::GlobalNamespace::LightsAnimator*, ::Array<::GlobalNamespace::LightsAnimator*>*> value) {
+constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_set__allLightsAnimators(
+    ::ArrayW<::UnityW<::GlobalNamespace::LightsAnimator>, ::Array<::UnityW<::GlobalNamespace::LightsAnimator>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____allLightsAnimators)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerLeadPlayerProvider*& GlobalNamespace::MultiplayerGameplayAnimator::__get__leadPlayerProvider() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerLeadPlayerProvider>& GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get__leadPlayerProvider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leadPlayerProvider;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLeadPlayerProvider*> const& GlobalNamespace::MultiplayerGameplayAnimator::__get__leadPlayerProvider() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerLeadPlayerProvider> const& GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get__leadPlayerProvider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____leadPlayerProvider;
 }
-constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__set__leadPlayerProvider(::GlobalNamespace::MultiplayerLeadPlayerProvider* value) {
+constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_set__leadPlayerProvider(::UnityW<::GlobalNamespace::MultiplayerLeadPlayerProvider> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____leadPlayerProvider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerController*& GlobalNamespace::MultiplayerGameplayAnimator::__get__multiplayerController() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get__multiplayerController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerController*> const& GlobalNamespace::MultiplayerGameplayAnimator::__get__multiplayerController() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get__multiplayerController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerController;
 }
-constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__set__multiplayerController(::GlobalNamespace::MultiplayerController* value) {
+constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Tweening::TimeTweeningManager*& GlobalNamespace::MultiplayerGameplayAnimator::__get_tweeningManager() {
+constexpr ::UnityW<::Tweening::TimeTweeningManager>& GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get_tweeningManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tweeningManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& GlobalNamespace::MultiplayerGameplayAnimator::__get_tweeningManager() const {
+constexpr ::UnityW<::Tweening::TimeTweeningManager> const& GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get_tweeningManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___tweeningManager;
 }
-constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__set_tweeningManager(::Tweening::TimeTweeningManager* value) {
+constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_set_tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___tweeningManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IConnectedPlayer*& GlobalNamespace::MultiplayerGameplayAnimator::__get_connectedPlayer() {
+constexpr ::GlobalNamespace::IConnectedPlayer*& GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get_connectedPlayer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectedPlayer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& GlobalNamespace::MultiplayerGameplayAnimator::__get_connectedPlayer() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_get_connectedPlayer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectedPlayer;
 }
-constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value) {
+constexpr void GlobalNamespace::MultiplayerGameplayAnimator::__cordl_internal_set_connectedPlayer(::GlobalNamespace::IConnectedPlayer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___connectedPlayer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -239,17 +245,17 @@ inline void GlobalNamespace::MultiplayerGameplayAnimator::HandleStateChanged(::G
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state);
 }
 inline void GlobalNamespace::MultiplayerGameplayAnimator::HandleNewLeaderWasSelected(::StringW userId) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerGameplayAnimator*>::get(), "HandleNewLeaderWasSelected",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerGameplayAnimator*>::get(), "HandleNewLeaderWasSelected",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, userId);
 }
 inline ::GlobalNamespace::MultiplayerGameplayAnimator* GlobalNamespace::MultiplayerGameplayAnimator::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MultiplayerGameplayAnimator*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerGameplayAnimator*>());
 }
 inline void GlobalNamespace::MultiplayerGameplayAnimator::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerGameplayAnimator*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

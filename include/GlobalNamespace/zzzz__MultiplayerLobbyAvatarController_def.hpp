@@ -75,7 +75,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerLobbyAvatarController___SpawnAnim
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5221))
 // CS Name: ::MultiplayerLobbyAvatarController*
 class CORDL_TYPE MultiplayerLobbyAvatarController : public ::UnityEngine::MonoBehaviour {
@@ -90,58 +90,59 @@ public:
   using Factory = ::GlobalNamespace::__MultiplayerLobbyAvatarController__Factory;
 
   /// @brief Field _spawnEffect, offset 0x18, size 0x8
-  __declspec(property(get = __get__spawnEffect, put = __set__spawnEffect))::UnityEngine::Playables::PlayableDirector* _spawnEffect;
+  __declspec(property(get = __cordl_internal_get__spawnEffect, put = __cordl_internal_set__spawnEffect))::UnityW<::UnityEngine::Playables::PlayableDirector> _spawnEffect;
 
   /// @brief Field _despawnVFXController, offset 0x20, size 0x8
-  __declspec(property(get = __get__despawnVFXController, put = __set__despawnVFXController))::GlobalNamespace::VFXController* _despawnVFXController;
+  __declspec(property(get = __cordl_internal_get__despawnVFXController, put = __cordl_internal_set__despawnVFXController))::UnityW<::GlobalNamespace::VFXController> _despawnVFXController;
 
   /// @brief Field _spawnAvatarDelay, offset 0x28, size 0x4
-  __declspec(property(get = __get__spawnAvatarDelay, put = __set__spawnAvatarDelay)) float_t _spawnAvatarDelay;
+  __declspec(property(get = __cordl_internal_get__spawnAvatarDelay, put = __cordl_internal_set__spawnAvatarDelay)) float_t _spawnAvatarDelay;
 
   /// @brief Field _despawnAvatarDelay, offset 0x2c, size 0x4
-  __declspec(property(get = __get__despawnAvatarDelay, put = __set__despawnAvatarDelay)) float_t _despawnAvatarDelay;
+  __declspec(property(get = __cordl_internal_get__despawnAvatarDelay, put = __cordl_internal_set__despawnAvatarDelay)) float_t _despawnAvatarDelay;
 
   /// @brief Field _destroyAvatarDelay, offset 0x30, size 0x4
-  __declspec(property(get = __get__destroyAvatarDelay, put = __set__destroyAvatarDelay)) float_t _destroyAvatarDelay;
+  __declspec(property(get = __cordl_internal_get__destroyAvatarDelay, put = __cordl_internal_set__destroyAvatarDelay)) float_t _destroyAvatarDelay;
 
   /// @brief Field _visualObjects, offset 0x38, size 0x8
-  __declspec(property(get = __get__visualObjects, put = __set__visualObjects))::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> _visualObjects;
+  __declspec(property(get = __cordl_internal_get__visualObjects,
+                      put = __cordl_internal_set__visualObjects))::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> _visualObjects;
 
-  constexpr ::UnityEngine::Playables::PlayableDirector*& __get__spawnEffect();
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get__spawnEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Playables::PlayableDirector*> const& __get__spawnEffect() const;
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__spawnEffect() const;
 
-  constexpr void __set__spawnEffect(::UnityEngine::Playables::PlayableDirector* value);
+  constexpr void __cordl_internal_set__spawnEffect(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  constexpr ::GlobalNamespace::VFXController*& __get__despawnVFXController();
+  constexpr ::UnityW<::GlobalNamespace::VFXController>& __cordl_internal_get__despawnVFXController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VFXController*> const& __get__despawnVFXController() const;
+  constexpr ::UnityW<::GlobalNamespace::VFXController> const& __cordl_internal_get__despawnVFXController() const;
 
-  constexpr void __set__despawnVFXController(::GlobalNamespace::VFXController* value);
+  constexpr void __cordl_internal_set__despawnVFXController(::UnityW<::GlobalNamespace::VFXController> value);
 
-  constexpr float_t& __get__spawnAvatarDelay();
+  constexpr float_t& __cordl_internal_get__spawnAvatarDelay();
 
-  constexpr float_t const& __get__spawnAvatarDelay() const;
+  constexpr float_t const& __cordl_internal_get__spawnAvatarDelay() const;
 
-  constexpr void __set__spawnAvatarDelay(float_t value);
+  constexpr void __cordl_internal_set__spawnAvatarDelay(float_t value);
 
-  constexpr float_t& __get__despawnAvatarDelay();
+  constexpr float_t& __cordl_internal_get__despawnAvatarDelay();
 
-  constexpr float_t const& __get__despawnAvatarDelay() const;
+  constexpr float_t const& __cordl_internal_get__despawnAvatarDelay() const;
 
-  constexpr void __set__despawnAvatarDelay(float_t value);
+  constexpr void __cordl_internal_set__despawnAvatarDelay(float_t value);
 
-  constexpr float_t& __get__destroyAvatarDelay();
+  constexpr float_t& __cordl_internal_get__destroyAvatarDelay();
 
-  constexpr float_t const& __get__destroyAvatarDelay() const;
+  constexpr float_t const& __cordl_internal_get__destroyAvatarDelay() const;
 
-  constexpr void __set__destroyAvatarDelay(float_t value);
+  constexpr void __cordl_internal_set__destroyAvatarDelay(float_t value);
 
-  constexpr ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>& __get__visualObjects();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>& __cordl_internal_get__visualObjects();
 
-  constexpr ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> const& __get__visualObjects() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__visualObjects() const;
 
-  constexpr void __set__visualObjects(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> value);
+  constexpr void __cordl_internal_set__visualObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
   /// @brief Method ShowSpawnAnimation, addr 0x22504ac, size 0xb0, virtual false, abstract: false, final false
   inline void ShowSpawnAnimation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
@@ -181,10 +182,10 @@ protected:
 
 public:
   /// @brief Field _spawnEffect, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Playables::PlayableDirector* ____spawnEffect;
+  ::UnityW<::UnityEngine::Playables::PlayableDirector> ____spawnEffect;
 
   /// @brief Field _despawnVFXController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::VFXController* ____despawnVFXController;
+  ::UnityW<::GlobalNamespace::VFXController> ____despawnVFXController;
 
   /// @brief Field _spawnAvatarDelay, offset: 0x28, size: 0x4, def value: None
   float_t ____spawnAvatarDelay;
@@ -196,7 +197,7 @@ public:
   float_t ____destroyAvatarDelay;
 
   /// @brief Field _visualObjects, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> ____visualObjects;
+  ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> ____visualObjects;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -220,10 +221,11 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyAvatarController, ____
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12778)), TypeDefinitionIndex(TypeDefinitionIndex(11005)), TypeDefinitionIndex(TypeDefinitionIndex(5221)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3488 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5217)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5221)), TypeDefinitionIndex(TypeDefinitionIndex(11005)), TypeDefinitionIndex(TypeDefinitionIndex(12778)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11005), inst: 3488 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5217)) CS Name:
 // ::MultiplayerLobbyAvatarController::Factory*
-class CORDL_TYPE __MultiplayerLobbyAvatarController__Factory : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerLobbyAvatarController*> {
+class CORDL_TYPE __MultiplayerLobbyAvatarController__Factory
+    : public ::Zenject::PlaceholderFactory_2<::GlobalNamespace::IConnectedPlayer*, ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerLobbyAvatarController__Factory* New_ctor();
@@ -255,20 +257,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MultiplayerLo
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5218))
 // CS Name: ::MultiplayerLobbyAvatarController::<SpawnAnimationCoroutine>d__8*
 class CORDL_TYPE __MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MultiplayerLobbyAvatarController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -292,23 +294,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::MultiplayerLobbyAvatarController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLobbyAvatarController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MultiplayerLobbyAvatarController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> value);
 
   static inline ::GlobalNamespace::__MultiplayerLobbyAvatarController___SpawnAnimationCoroutine_d__8* New_ctor(int32_t __1__state);
 
@@ -351,7 +353,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLobbyAvatarController* _____4__this;
+  ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -369,20 +371,20 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLobbyAvatarController___S
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5219))
 // CS Name: ::MultiplayerLobbyAvatarController::<ShowDespawnAnimationAndDestroy>d__10*
 class CORDL_TYPE __MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MultiplayerLobbyAvatarController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -406,23 +408,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::MultiplayerLobbyAvatarController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLobbyAvatarController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MultiplayerLobbyAvatarController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> value);
 
   static inline ::GlobalNamespace::__MultiplayerLobbyAvatarController___ShowDespawnAnimationAndDestroy_d__10* New_ctor(int32_t __1__state);
 
@@ -465,7 +467,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLobbyAvatarController* _____4__this;
+  ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -483,20 +485,20 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLobbyAvatarController___S
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5220))
 // CS Name: ::MultiplayerLobbyAvatarController::<DespawnAnimationCoroutine>d__12*
 class CORDL_TYPE __MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MultiplayerLobbyAvatarController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -520,23 +522,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::MultiplayerLobbyAvatarController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLobbyAvatarController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MultiplayerLobbyAvatarController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> value);
 
   static inline ::GlobalNamespace::__MultiplayerLobbyAvatarController___DespawnAnimationCoroutine_d__12* New_ctor(int32_t __1__state);
 
@@ -579,7 +581,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLobbyAvatarController* _____4__this;
+  ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

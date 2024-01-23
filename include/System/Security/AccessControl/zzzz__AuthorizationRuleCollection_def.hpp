@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Security::AccessControl::AuthorizationRuleCollection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3777))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3777))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3022))
 // CS Name: ::System.Security.AccessControl::AuthorizationRuleCollection*
 class CORDL_TYPE AuthorizationRuleCollection : public ::System::Collections::ReadOnlyCollectionBase {

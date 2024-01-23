@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::FrameTiming);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10132))
 // CS Name: ::UnityEngine::FrameTiming
 struct CORDL_TYPE FrameTiming {

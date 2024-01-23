@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Net::FtpLoginState);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9039))
 // CS Name: ::System.Net::FtpLoginState
 struct CORDL_TYPE FtpLoginState {

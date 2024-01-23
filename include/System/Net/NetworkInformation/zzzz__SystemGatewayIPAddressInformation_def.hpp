@@ -23,20 +23,20 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::SystemGatewayIPAddressInformat
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9245))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9245))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9255))
 // CS Name: ::System.Net.NetworkInformation::SystemGatewayIPAddressInformation*
 class CORDL_TYPE SystemGatewayIPAddressInformation : public ::System::Net::NetworkInformation::GatewayIPAddressInformation {
 public:
   // Declarations
   /// @brief Field address, offset 0x10, size 0x8
-  __declspec(property(get = __get_address, put = __set_address))::System::Net::IPAddress* address;
+  __declspec(property(get = __cordl_internal_get_address, put = __cordl_internal_set_address))::System::Net::IPAddress* address;
 
-  constexpr ::System::Net::IPAddress*& __get_address();
+  constexpr ::System::Net::IPAddress*& __cordl_internal_get_address();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPAddress*> const& __get_address() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPAddress*> const& __cordl_internal_get_address() const;
 
-  constexpr void __set_address(::System::Net::IPAddress* value);
+  constexpr void __cordl_internal_set_address(::System::Net::IPAddress* value);
 
   static inline ::System::Net::NetworkInformation::SystemGatewayIPAddressInformation* New_ctor(::System::Net::IPAddress* address);
 

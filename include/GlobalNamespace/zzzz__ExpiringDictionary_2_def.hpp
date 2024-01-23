@@ -62,20 +62,20 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12728))
 // CS Name: ::ExpiringDictionary`2::Entry<TKey,TValue>*
 class CORDL_TYPE __ExpiringDictionary_2__Entry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field key, offset 0x10, size 0x8
-  __declspec(property(get = __get_key, put = __set_key)) TKey key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) TKey key;
 
   /// @brief Field value, offset 0x18, size 0x8
-  __declspec(property(get = __get_value, put = __set_value)) TValue value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) TValue value;
 
   /// @brief Field expireTime, offset 0x20, size 0x8
-  __declspec(property(get = __get_expireTime, put = __set_expireTime)) int64_t expireTime;
+  __declspec(property(get = __cordl_internal_get_expireTime, put = __cordl_internal_set_expireTime)) int64_t expireTime;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -83,23 +83,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr TKey& __get_key();
+  constexpr TKey& __cordl_internal_get_key();
 
-  constexpr TKey const& __get_key() const;
+  constexpr TKey const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(TKey value);
+  constexpr void __cordl_internal_set_key(TKey value);
 
-  constexpr TValue& __get_value();
+  constexpr TValue& __cordl_internal_get_value();
 
-  constexpr TValue const& __get_value() const;
+  constexpr TValue const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(TValue value);
+  constexpr void __cordl_internal_set_value(TValue value);
 
-  constexpr int64_t& __get_expireTime();
+  constexpr int64_t& __cordl_internal_get_expireTime();
 
-  constexpr int64_t const& __get_expireTime() const;
+  constexpr int64_t const& __cordl_internal_get_expireTime() const;
 
-  constexpr void __set_expireTime(int64_t value);
+  constexpr void __cordl_internal_set_expireTime(int64_t value);
 
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Dispose();
@@ -142,23 +142,24 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12729))
 // CS Name: ::ExpiringDictionary`2::<Enumerate>d__14<TKey,TValue>*
 class CORDL_TYPE __ExpiringDictionary_2___Enumerate_d__14 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current)) TValue __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TValue __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::ExpiringDictionary_2<TKey, TValue>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::ExpiringDictionary_2<TKey, TValue>* __4__this;
 
   /// @brief Field <>7__wrap1, offset 0x28, size 0x8
-  __declspec(property(get = __get___7__wrap1, put = __set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1,
+                      put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* __7__wrap1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_TValue__get_Current)) TValue System_Collections_Generic_IEnumerator_TValue__Current;
 
@@ -182,29 +183,30 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr TValue& __get___2__current();
+  constexpr TValue& __cordl_internal_get___2__current();
 
-  constexpr TValue const& __get___2__current() const;
+  constexpr TValue const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(TValue value);
+  constexpr void __cordl_internal_set___2__current(TValue value);
 
-  constexpr ::GlobalNamespace::ExpiringDictionary_2<TKey, TValue>*& __get___4__this();
+  constexpr ::GlobalNamespace::ExpiringDictionary_2<TKey, TValue>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ExpiringDictionary_2<TKey, TValue>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ExpiringDictionary_2<TKey, TValue>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::ExpiringDictionary_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::ExpiringDictionary_2<TKey, TValue>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*& __get___7__wrap1();
+  constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*& __cordl_internal_get___7__wrap1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*> const& __get___7__wrap1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*> const&
+  __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* value);
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* value);
 
   static inline ::GlobalNamespace::__ExpiringDictionary_2___Enumerate_d__14<TKey, TValue>* New_ctor(int32_t __1__state);
 
@@ -265,7 +267,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12730))
 // CS Name: ::ExpiringDictionary`2<TKey,TValue>*
 class CORDL_TYPE ExpiringDictionary_2 : public ::System::Object {
@@ -276,21 +278,22 @@ public:
   using Entry = ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>;
 
   /// @brief Field _timeProvider, offset 0x10, size 0x8
-  __declspec(property(get = __get__timeProvider, put = __set__timeProvider))::BGNet::Core::ITimeProvider* _timeProvider;
+  __declspec(property(get = __cordl_internal_get__timeProvider, put = __cordl_internal_set__timeProvider))::BGNet::Core::ITimeProvider* _timeProvider;
 
   /// @brief Field _expirationLengthMs, offset 0x18, size 0x8
-  __declspec(property(get = __get__expirationLengthMs, put = __set__expirationLengthMs)) int64_t _expirationLengthMs;
+  __declspec(property(get = __cordl_internal_get__expirationLengthMs, put = __cordl_internal_set__expirationLengthMs)) int64_t _expirationLengthMs;
 
   /// @brief Field _expirationQueue, offset 0x20, size 0x8
-  __declspec(property(get = __get__expirationQueue, put = __set__expirationQueue))::GlobalNamespace::OrderedSet_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* _expirationQueue;
+  __declspec(property(get = __cordl_internal_get__expirationQueue,
+                      put = __cordl_internal_set__expirationQueue))::GlobalNamespace::OrderedSet_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* _expirationQueue;
 
   /// @brief Field _entryLookup, offset 0x28, size 0x8
-  __declspec(property(get = __get__entryLookup,
-                      put = __set__entryLookup))::System::Collections::Generic::Dictionary_2<TKey, ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* _entryLookup;
+  __declspec(property(get = __cordl_internal_get__entryLookup,
+                      put = __cordl_internal_set__entryLookup))::System::Collections::Generic::Dictionary_2<TKey, ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* _entryLookup;
 
   /// @brief Field _reusableEntries, offset 0x30, size 0x8
-  __declspec(property(get = __get__reusableEntries,
-                      put = __set__reusableEntries))::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* _reusableEntries;
+  __declspec(property(get = __cordl_internal_get__reusableEntries,
+                      put = __cordl_internal_set__reusableEntries))::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* _reusableEntries;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -314,35 +317,37 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::BGNet::Core::ITimeProvider*& __get__timeProvider();
+  constexpr ::BGNet::Core::ITimeProvider*& __cordl_internal_get__timeProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITimeProvider*> const& __get__timeProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITimeProvider*> const& __cordl_internal_get__timeProvider() const;
 
-  constexpr void __set__timeProvider(::BGNet::Core::ITimeProvider* value);
+  constexpr void __cordl_internal_set__timeProvider(::BGNet::Core::ITimeProvider* value);
 
-  constexpr int64_t& __get__expirationLengthMs();
+  constexpr int64_t& __cordl_internal_get__expirationLengthMs();
 
-  constexpr int64_t const& __get__expirationLengthMs() const;
+  constexpr int64_t const& __cordl_internal_get__expirationLengthMs() const;
 
-  constexpr void __set__expirationLengthMs(int64_t value);
+  constexpr void __cordl_internal_set__expirationLengthMs(int64_t value);
 
-  constexpr ::GlobalNamespace::OrderedSet_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*& __get__expirationQueue();
+  constexpr ::GlobalNamespace::OrderedSet_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*& __cordl_internal_get__expirationQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OrderedSet_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*> const& __get__expirationQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OrderedSet_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*> const& __cordl_internal_get__expirationQueue() const;
 
-  constexpr void __set__expirationQueue(::GlobalNamespace::OrderedSet_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* value);
+  constexpr void __cordl_internal_set__expirationQueue(::GlobalNamespace::OrderedSet_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<TKey, ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*& __get__entryLookup();
+  constexpr ::System::Collections::Generic::Dictionary_2<TKey, ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*& __cordl_internal_get__entryLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*> const& __get__entryLookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*> const&
+  __cordl_internal_get__entryLookup() const;
 
-  constexpr void __set__entryLookup(::System::Collections::Generic::Dictionary_2<TKey, ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* value);
+  constexpr void __cordl_internal_set__entryLookup(::System::Collections::Generic::Dictionary_2<TKey, ::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*& __get__reusableEntries();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*& __cordl_internal_get__reusableEntries();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*> const& __get__reusableEntries() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>*> const&
+  __cordl_internal_get__reusableEntries() const;
 
-  constexpr void __set__reusableEntries(::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* value);
+  constexpr void __cordl_internal_set__reusableEntries(::System::Collections::Generic::List_1<::GlobalNamespace::__ExpiringDictionary_2__Entry<TKey, TValue>*>* value);
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Count();

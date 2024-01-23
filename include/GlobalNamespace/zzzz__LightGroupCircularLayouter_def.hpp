@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupCircularLayouter);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4928))
 // CS Name: ::LightGroupCircularLayouter::RotationDirection
 struct CORDL_TYPE __LightGroupCircularLayouter__RotationDirection {
@@ -76,7 +76,7 @@ static_assert(offsetof(::GlobalNamespace::__LightGroupCircularLayouter__Rotation
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4928)), TypeDefinitionIndex(TypeDefinitionIndex(4935)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4928)), TypeDefinitionIndex(TypeDefinitionIndex(4935)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4929))
 // CS Name: ::LightGroupCircularLayouter*
 class CORDL_TYPE LightGroupCircularLayouter : public ::GlobalNamespace::LightGroupSubsystem {
@@ -85,58 +85,59 @@ public:
   using RotationDirection = ::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection;
 
   /// @brief Field _radius, offset 0x20, size 0x4
-  __declspec(property(get = __get__radius, put = __set__radius)) float_t _radius;
+  __declspec(property(get = __cordl_internal_get__radius, put = __cordl_internal_set__radius)) float_t _radius;
 
   /// @brief Field _angle, offset 0x24, size 0x4
-  __declspec(property(get = __get__angle, put = __set__angle)) float_t _angle;
+  __declspec(property(get = __cordl_internal_get__angle, put = __cordl_internal_set__angle)) float_t _angle;
 
   /// @brief Field _startingAngle, offset 0x28, size 0x4
-  __declspec(property(get = __get__startingAngle, put = __set__startingAngle)) float_t _startingAngle;
+  __declspec(property(get = __cordl_internal_get__startingAngle, put = __cordl_internal_set__startingAngle)) float_t _startingAngle;
 
   /// @brief Field _rotationDirection, offset 0x2c, size 0x4
-  __declspec(property(get = __get__rotationDirection, put = __set__rotationDirection))::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection _rotationDirection;
+  __declspec(property(get = __cordl_internal_get__rotationDirection,
+                      put = __cordl_internal_set__rotationDirection))::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection _rotationDirection;
 
   /// @brief Field _staticRotation, offset 0x30, size 0x1
-  __declspec(property(get = __get__staticRotation, put = __set__staticRotation)) bool _staticRotation;
+  __declspec(property(get = __cordl_internal_get__staticRotation, put = __cordl_internal_set__staticRotation)) bool _staticRotation;
 
   /// @brief Field _additionalAngle, offset 0x34, size 0xc
-  __declspec(property(get = __get__additionalAngle, put = __set__additionalAngle))::UnityEngine::Vector3 _additionalAngle;
+  __declspec(property(get = __cordl_internal_get__additionalAngle, put = __cordl_internal_set__additionalAngle))::UnityEngine::Vector3 _additionalAngle;
 
-  constexpr float_t& __get__radius();
+  constexpr float_t& __cordl_internal_get__radius();
 
-  constexpr float_t const& __get__radius() const;
+  constexpr float_t const& __cordl_internal_get__radius() const;
 
-  constexpr void __set__radius(float_t value);
+  constexpr void __cordl_internal_set__radius(float_t value);
 
-  constexpr float_t& __get__angle();
+  constexpr float_t& __cordl_internal_get__angle();
 
-  constexpr float_t const& __get__angle() const;
+  constexpr float_t const& __cordl_internal_get__angle() const;
 
-  constexpr void __set__angle(float_t value);
+  constexpr void __cordl_internal_set__angle(float_t value);
 
-  constexpr float_t& __get__startingAngle();
+  constexpr float_t& __cordl_internal_get__startingAngle();
 
-  constexpr float_t const& __get__startingAngle() const;
+  constexpr float_t const& __cordl_internal_get__startingAngle() const;
 
-  constexpr void __set__startingAngle(float_t value);
+  constexpr void __cordl_internal_set__startingAngle(float_t value);
 
-  constexpr ::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection& __get__rotationDirection();
+  constexpr ::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection& __cordl_internal_get__rotationDirection();
 
-  constexpr ::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection const& __get__rotationDirection() const;
+  constexpr ::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection const& __cordl_internal_get__rotationDirection() const;
 
-  constexpr void __set__rotationDirection(::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection value);
+  constexpr void __cordl_internal_set__rotationDirection(::GlobalNamespace::__LightGroupCircularLayouter__RotationDirection value);
 
-  constexpr bool& __get__staticRotation();
+  constexpr bool& __cordl_internal_get__staticRotation();
 
-  constexpr bool const& __get__staticRotation() const;
+  constexpr bool const& __cordl_internal_get__staticRotation() const;
 
-  constexpr void __set__staticRotation(bool value);
+  constexpr void __cordl_internal_set__staticRotation(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get__additionalAngle();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__additionalAngle();
 
-  constexpr ::UnityEngine::Vector3 const& __get__additionalAngle() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__additionalAngle() const;
 
-  constexpr void __set__additionalAngle(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__additionalAngle(::UnityEngine::Vector3 value);
 
   static inline ::GlobalNamespace::LightGroupCircularLayouter* New_ctor();
 

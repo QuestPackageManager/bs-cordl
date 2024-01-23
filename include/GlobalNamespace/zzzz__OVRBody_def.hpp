@@ -52,30 +52,31 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRBody);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7679)), TypeDefinitionIndex(TypeDefinitionIndex(7786)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7679)), TypeDefinitionIndex(TypeDefinitionIndex(7786)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7526))
 // CS Name: ::OVRBody*
 class CORDL_TYPE OVRBody : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _bodyState, offset 0x18, size 0x18
-  __declspec(property(get = __get__bodyState, put = __set__bodyState))::GlobalNamespace::__OVRPlugin__BodyState _bodyState;
+  __declspec(property(get = __cordl_internal_get__bodyState, put = __cordl_internal_set__bodyState))::GlobalNamespace::__OVRPlugin__BodyState _bodyState;
 
   /// @brief Field _boneRotations, offset 0x30, size 0x8
-  __declspec(property(get = __get__boneRotations, put = __set__boneRotations))::ArrayW<::GlobalNamespace::__OVRPlugin__Quatf, ::Array<::GlobalNamespace::__OVRPlugin__Quatf>*> _boneRotations;
+  __declspec(property(get = __cordl_internal_get__boneRotations,
+                      put = __cordl_internal_set__boneRotations))::ArrayW<::GlobalNamespace::__OVRPlugin__Quatf, ::Array<::GlobalNamespace::__OVRPlugin__Quatf>*> _boneRotations;
 
   /// @brief Field _boneTranslations, offset 0x38, size 0x8
-  __declspec(property(get = __get__boneTranslations,
-                      put = __set__boneTranslations))::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> _boneTranslations;
+  __declspec(property(get = __cordl_internal_get__boneTranslations,
+                      put = __cordl_internal_set__boneTranslations))::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> _boneTranslations;
 
   /// @brief Field _dataChangedSinceLastQuery, offset 0x40, size 0x1
-  __declspec(property(get = __get__dataChangedSinceLastQuery, put = __set__dataChangedSinceLastQuery)) bool _dataChangedSinceLastQuery;
+  __declspec(property(get = __cordl_internal_get__dataChangedSinceLastQuery, put = __cordl_internal_set__dataChangedSinceLastQuery)) bool _dataChangedSinceLastQuery;
 
   /// @brief Field _hasData, offset 0x41, size 0x1
-  __declspec(property(get = __get__hasData, put = __set__hasData)) bool _hasData;
+  __declspec(property(get = __cordl_internal_get__hasData, put = __cordl_internal_set__hasData)) bool _hasData;
 
   /// @brief Field _onPermissionGranted, offset 0x48, size 0x8
-  __declspec(property(get = __get__onPermissionGranted, put = __set__onPermissionGranted))::System::Action_1<::StringW>* _onPermissionGranted;
+  __declspec(property(get = __cordl_internal_get__onPermissionGranted, put = __cordl_internal_set__onPermissionGranted))::System::Action_1<::StringW>* _onPermissionGranted;
 
   /// @brief Field _trackingInstanceCount, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__trackingInstanceCount, put = setStaticF__trackingInstanceCount)) int32_t _trackingInstanceCount;
@@ -94,41 +95,41 @@ public:
   /// @brief Convert to "::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider"
   constexpr ::GlobalNamespace::__OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider* i___GlobalNamespace____OVRSkeletonRenderer__IOVRSkeletonRendererDataProvider() noexcept;
 
-  constexpr ::GlobalNamespace::__OVRPlugin__BodyState& __get__bodyState();
+  constexpr ::GlobalNamespace::__OVRPlugin__BodyState& __cordl_internal_get__bodyState();
 
-  constexpr ::GlobalNamespace::__OVRPlugin__BodyState const& __get__bodyState() const;
+  constexpr ::GlobalNamespace::__OVRPlugin__BodyState const& __cordl_internal_get__bodyState() const;
 
-  constexpr void __set__bodyState(::GlobalNamespace::__OVRPlugin__BodyState value);
+  constexpr void __cordl_internal_set__bodyState(::GlobalNamespace::__OVRPlugin__BodyState value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Quatf, ::Array<::GlobalNamespace::__OVRPlugin__Quatf>*>& __get__boneRotations();
+  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Quatf, ::Array<::GlobalNamespace::__OVRPlugin__Quatf>*>& __cordl_internal_get__boneRotations();
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Quatf, ::Array<::GlobalNamespace::__OVRPlugin__Quatf>*> const& __get__boneRotations() const;
+  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Quatf, ::Array<::GlobalNamespace::__OVRPlugin__Quatf>*> const& __cordl_internal_get__boneRotations() const;
 
-  constexpr void __set__boneRotations(::ArrayW<::GlobalNamespace::__OVRPlugin__Quatf, ::Array<::GlobalNamespace::__OVRPlugin__Quatf>*> value);
+  constexpr void __cordl_internal_set__boneRotations(::ArrayW<::GlobalNamespace::__OVRPlugin__Quatf, ::Array<::GlobalNamespace::__OVRPlugin__Quatf>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*>& __get__boneTranslations();
+  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*>& __cordl_internal_get__boneTranslations();
 
-  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> const& __get__boneTranslations() const;
+  constexpr ::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> const& __cordl_internal_get__boneTranslations() const;
 
-  constexpr void __set__boneTranslations(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> value);
+  constexpr void __cordl_internal_set__boneTranslations(::ArrayW<::GlobalNamespace::__OVRPlugin__Vector3f, ::Array<::GlobalNamespace::__OVRPlugin__Vector3f>*> value);
 
-  constexpr bool& __get__dataChangedSinceLastQuery();
+  constexpr bool& __cordl_internal_get__dataChangedSinceLastQuery();
 
-  constexpr bool const& __get__dataChangedSinceLastQuery() const;
+  constexpr bool const& __cordl_internal_get__dataChangedSinceLastQuery() const;
 
-  constexpr void __set__dataChangedSinceLastQuery(bool value);
+  constexpr void __cordl_internal_set__dataChangedSinceLastQuery(bool value);
 
-  constexpr bool& __get__hasData();
+  constexpr bool& __cordl_internal_get__hasData();
 
-  constexpr bool const& __get__hasData() const;
+  constexpr bool const& __cordl_internal_get__hasData() const;
 
-  constexpr void __set__hasData(bool value);
+  constexpr void __cordl_internal_set__hasData(bool value);
 
-  constexpr ::System::Action_1<::StringW>*& __get__onPermissionGranted();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get__onPermissionGranted();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get__onPermissionGranted() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get__onPermissionGranted() const;
 
-  constexpr void __set__onPermissionGranted(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set__onPermissionGranted(::System::Action_1<::StringW>* value);
 
   static inline void setStaticF__trackingInstanceCount(int32_t value);
 

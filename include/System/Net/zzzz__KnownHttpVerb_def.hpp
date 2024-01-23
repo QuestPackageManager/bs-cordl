@@ -18,26 +18,26 @@ MARK_REF_PTR_T(::System::Net::KnownHttpVerb);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9079))
 // CS Name: ::System.Net::KnownHttpVerb*
 class CORDL_TYPE KnownHttpVerb : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Name, offset 0x10, size 0x8
-  __declspec(property(get = __get_Name, put = __set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
 
   /// @brief Field RequireContentBody, offset 0x18, size 0x1
-  __declspec(property(get = __get_RequireContentBody, put = __set_RequireContentBody)) bool RequireContentBody;
+  __declspec(property(get = __cordl_internal_get_RequireContentBody, put = __cordl_internal_set_RequireContentBody)) bool RequireContentBody;
 
   /// @brief Field ContentBodyNotAllowed, offset 0x19, size 0x1
-  __declspec(property(get = __get_ContentBodyNotAllowed, put = __set_ContentBodyNotAllowed)) bool ContentBodyNotAllowed;
+  __declspec(property(get = __cordl_internal_get_ContentBodyNotAllowed, put = __cordl_internal_set_ContentBodyNotAllowed)) bool ContentBodyNotAllowed;
 
   /// @brief Field ConnectRequest, offset 0x1a, size 0x1
-  __declspec(property(get = __get_ConnectRequest, put = __set_ConnectRequest)) bool ConnectRequest;
+  __declspec(property(get = __cordl_internal_get_ConnectRequest, put = __cordl_internal_set_ConnectRequest)) bool ConnectRequest;
 
   /// @brief Field ExpectNoContentResponse, offset 0x1b, size 0x1
-  __declspec(property(get = __get_ExpectNoContentResponse, put = __set_ExpectNoContentResponse)) bool ExpectNoContentResponse;
+  __declspec(property(get = __cordl_internal_get_ExpectNoContentResponse, put = __cordl_internal_set_ExpectNoContentResponse)) bool ExpectNoContentResponse;
 
   /// @brief Field NamedHeaders, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_NamedHeaders, put = setStaticF_NamedHeaders))::System::Collections::Specialized::ListDictionary* NamedHeaders;
@@ -60,35 +60,35 @@ public:
   /// @brief Field MkCol, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_MkCol, put = setStaticF_MkCol))::System::Net::KnownHttpVerb* MkCol;
 
-  constexpr ::StringW& __get_Name();
+  constexpr ::StringW& __cordl_internal_get_Name();
 
-  constexpr ::StringW const& __get_Name() const;
+  constexpr ::StringW const& __cordl_internal_get_Name() const;
 
-  constexpr void __set_Name(::StringW value);
+  constexpr void __cordl_internal_set_Name(::StringW value);
 
-  constexpr bool& __get_RequireContentBody();
+  constexpr bool& __cordl_internal_get_RequireContentBody();
 
-  constexpr bool const& __get_RequireContentBody() const;
+  constexpr bool const& __cordl_internal_get_RequireContentBody() const;
 
-  constexpr void __set_RequireContentBody(bool value);
+  constexpr void __cordl_internal_set_RequireContentBody(bool value);
 
-  constexpr bool& __get_ContentBodyNotAllowed();
+  constexpr bool& __cordl_internal_get_ContentBodyNotAllowed();
 
-  constexpr bool const& __get_ContentBodyNotAllowed() const;
+  constexpr bool const& __cordl_internal_get_ContentBodyNotAllowed() const;
 
-  constexpr void __set_ContentBodyNotAllowed(bool value);
+  constexpr void __cordl_internal_set_ContentBodyNotAllowed(bool value);
 
-  constexpr bool& __get_ConnectRequest();
+  constexpr bool& __cordl_internal_get_ConnectRequest();
 
-  constexpr bool const& __get_ConnectRequest() const;
+  constexpr bool const& __cordl_internal_get_ConnectRequest() const;
 
-  constexpr void __set_ConnectRequest(bool value);
+  constexpr void __cordl_internal_set_ConnectRequest(bool value);
 
-  constexpr bool& __get_ExpectNoContentResponse();
+  constexpr bool& __cordl_internal_get_ExpectNoContentResponse();
 
-  constexpr bool const& __get_ExpectNoContentResponse() const;
+  constexpr bool const& __cordl_internal_get_ExpectNoContentResponse() const;
 
-  constexpr void __set_ExpectNoContentResponse(bool value);
+  constexpr void __cordl_internal_set_ExpectNoContentResponse(bool value);
 
   static inline void setStaticF_NamedHeaders(::System::Collections::Specialized::ListDictionary* value);
 

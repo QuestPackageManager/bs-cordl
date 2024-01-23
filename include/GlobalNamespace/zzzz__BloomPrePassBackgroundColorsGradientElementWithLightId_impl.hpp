@@ -13,56 +13,56 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x210e8a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements*>::get(),
-                                                 ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__get_elementNumber() {
+constexpr int32_t& GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__cordl_internal_get_elementNumber() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementNumber;
 }
-constexpr int32_t const& GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__get_elementNumber() const {
+constexpr int32_t const& GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__cordl_internal_get_elementNumber() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementNumber;
 }
-constexpr void GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__set_elementNumber(int32_t value) {
+constexpr void GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__cordl_internal_set_elementNumber(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elementNumber = value;
 }
-constexpr float_t& GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__get_intensity() {
+constexpr float_t& GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__cordl_internal_get_intensity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___intensity;
 }
-constexpr float_t const& GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__get_intensity() const {
+constexpr float_t const& GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__cordl_internal_get_intensity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___intensity;
 }
-constexpr void GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__set_intensity(float_t value) {
+constexpr void GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__cordl_internal_set_intensity(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___intensity = value;
 }
-constexpr float_t& GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__get_minIntensity() {
+constexpr float_t& GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__cordl_internal_get_minIntensity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minIntensity;
 }
-constexpr float_t const& GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__get_minIntensity() const {
+constexpr float_t const& GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__cordl_internal_get_minIntensity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___minIntensity;
 }
-constexpr void GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__set_minIntensity(float_t value) {
+constexpr void GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::__cordl_internal_set_minIntensity(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___minIntensity = value;
 }
 inline ::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements* GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements*>());
 }
 inline void GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements*>::get(),
-                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -75,7 +75,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xac;
   constexpr static std::size_t addrs = 0x210e7dc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId*>::get(),
@@ -91,40 +91,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x210e888;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::BloomPrePassBackgroundColorsGradient*& GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::__get__bloomPrePassBackgroundColorsGradient() {
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient>&
+GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::__cordl_internal_get__bloomPrePassBackgroundColorsGradient() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassBackgroundColorsGradient;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassBackgroundColorsGradient*> const&
-GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::__get__bloomPrePassBackgroundColorsGradient() const {
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> const&
+GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::__cordl_internal_get__bloomPrePassBackgroundColorsGradient() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomPrePassBackgroundColorsGradient;
 }
-constexpr void GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::__set__bloomPrePassBackgroundColorsGradient(::GlobalNamespace::BloomPrePassBackgroundColorsGradient* value) {
+constexpr void GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::__cordl_internal_set__bloomPrePassBackgroundColorsGradient(
+    ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColorsGradient> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassBackgroundColorsGradient)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements*,
                    ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements*>*>&
-GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::__get__elements() {
+GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::__cordl_internal_get__elements() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elements;
 }
 constexpr ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements*,
                    ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements*>*> const&
-GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::__get__elements() const {
+GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::__cordl_internal_get__elements() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elements;
 }
-constexpr void GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::__set__elements(
+constexpr void GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::__cordl_internal_set__elements(
     ::ArrayW<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements*, ::Array<::GlobalNamespace::__BloomPrePassBackgroundColorsGradientElementWithLightId__Elements*>*>
         value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -137,12 +139,12 @@ inline void GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLigh
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, color);
 }
 inline ::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId* GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId*>());
 }
 inline void GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundColorsGradientElementWithLightId*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

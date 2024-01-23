@@ -57,7 +57,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRMeshRenderer__MeshRendererData);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8128))
 // CS Name: ::OVRMeshRenderer::IOVRMeshRendererDataProvider*
 class CORDL_TYPE __OVRMeshRenderer__IOVRMeshRendererDataProvider {
@@ -82,7 +82,7 @@ public:
 // SizeInfo { instance_size: 3, native_size: 12, calculated_instance_size: 3, calculated_native_size: 19, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8129))
 // CS Name: ::OVRMeshRenderer::MeshRendererData
 struct CORDL_TYPE __OVRMeshRenderer__MeshRendererData {
@@ -148,7 +148,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRMeshRenderer__MeshRendererData, _
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8130))
 // CS Name: ::OVRMeshRenderer::ConfidenceBehavior
 struct CORDL_TYPE __OVRMeshRenderer__ConfidenceBehavior {
@@ -198,7 +198,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior,
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8131))
 // CS Name: ::OVRMeshRenderer::SystemGestureBehavior
 struct CORDL_TYPE __OVRMeshRenderer__SystemGestureBehavior {
@@ -248,7 +248,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavi
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(8131)), TypeDefinitionIndex(TypeDefinitionIndex(8130))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8130)), TypeDefinitionIndex(TypeDefinitionIndex(8131)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8132))
 // CS Name: ::OVRMeshRenderer*
 class CORDL_TYPE OVRMeshRenderer : public ::UnityEngine::MonoBehaviour {
@@ -263,40 +263,42 @@ public:
   using IOVRMeshRendererDataProvider = ::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider;
 
   /// @brief Field _dataProvider, offset 0x18, size 0x8
-  __declspec(property(get = __get__dataProvider, put = __set__dataProvider))::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider* _dataProvider;
+  __declspec(property(get = __cordl_internal_get__dataProvider, put = __cordl_internal_set__dataProvider))::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider* _dataProvider;
 
   /// @brief Field _ovrMesh, offset 0x20, size 0x8
-  __declspec(property(get = __get__ovrMesh, put = __set__ovrMesh))::GlobalNamespace::OVRMesh* _ovrMesh;
+  __declspec(property(get = __cordl_internal_get__ovrMesh, put = __cordl_internal_set__ovrMesh))::UnityW<::GlobalNamespace::OVRMesh> _ovrMesh;
 
   /// @brief Field _ovrSkeleton, offset 0x28, size 0x8
-  __declspec(property(get = __get__ovrSkeleton, put = __set__ovrSkeleton))::GlobalNamespace::OVRSkeleton* _ovrSkeleton;
+  __declspec(property(get = __cordl_internal_get__ovrSkeleton, put = __cordl_internal_set__ovrSkeleton))::UnityW<::GlobalNamespace::OVRSkeleton> _ovrSkeleton;
 
   /// @brief Field _confidenceBehavior, offset 0x30, size 0x4
-  __declspec(property(get = __get__confidenceBehavior, put = __set__confidenceBehavior))::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior _confidenceBehavior;
+  __declspec(property(get = __cordl_internal_get__confidenceBehavior, put = __cordl_internal_set__confidenceBehavior))::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior _confidenceBehavior;
 
   /// @brief Field _systemGestureBehavior, offset 0x34, size 0x4
-  __declspec(property(get = __get__systemGestureBehavior, put = __set__systemGestureBehavior))::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior _systemGestureBehavior;
+  __declspec(property(get = __cordl_internal_get__systemGestureBehavior,
+                      put = __cordl_internal_set__systemGestureBehavior))::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior _systemGestureBehavior;
 
   /// @brief Field _systemGestureMaterial, offset 0x38, size 0x8
-  __declspec(property(get = __get__systemGestureMaterial, put = __set__systemGestureMaterial))::UnityEngine::Material* _systemGestureMaterial;
+  __declspec(property(get = __cordl_internal_get__systemGestureMaterial, put = __cordl_internal_set__systemGestureMaterial))::UnityW<::UnityEngine::Material> _systemGestureMaterial;
 
   /// @brief Field _originalMaterial, offset 0x40, size 0x8
-  __declspec(property(get = __get__originalMaterial, put = __set__originalMaterial))::UnityEngine::Material* _originalMaterial;
+  __declspec(property(get = __cordl_internal_get__originalMaterial, put = __cordl_internal_set__originalMaterial))::UnityW<::UnityEngine::Material> _originalMaterial;
 
   /// @brief Field _skinnedMeshRenderer, offset 0x48, size 0x8
-  __declspec(property(get = __get__skinnedMeshRenderer, put = __set__skinnedMeshRenderer))::UnityEngine::SkinnedMeshRenderer* _skinnedMeshRenderer;
+  __declspec(property(get = __cordl_internal_get__skinnedMeshRenderer, put = __cordl_internal_set__skinnedMeshRenderer))::UnityW<::UnityEngine::SkinnedMeshRenderer> _skinnedMeshRenderer;
 
   /// @brief Field <IsInitialized>k__BackingField, offset 0x50, size 0x1
-  __declspec(property(get = __get__IsInitialized_k__BackingField, put = __set__IsInitialized_k__BackingField)) bool _IsInitialized_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsInitialized_k__BackingField, put = __cordl_internal_set__IsInitialized_k__BackingField)) bool _IsInitialized_k__BackingField;
 
   /// @brief Field <IsDataValid>k__BackingField, offset 0x51, size 0x1
-  __declspec(property(get = __get__IsDataValid_k__BackingField, put = __set__IsDataValid_k__BackingField)) bool _IsDataValid_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsDataValid_k__BackingField, put = __cordl_internal_set__IsDataValid_k__BackingField)) bool _IsDataValid_k__BackingField;
 
   /// @brief Field <IsDataHighConfidence>k__BackingField, offset 0x52, size 0x1
-  __declspec(property(get = __get__IsDataHighConfidence_k__BackingField, put = __set__IsDataHighConfidence_k__BackingField)) bool _IsDataHighConfidence_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsDataHighConfidence_k__BackingField, put = __cordl_internal_set__IsDataHighConfidence_k__BackingField)) bool _IsDataHighConfidence_k__BackingField;
 
   /// @brief Field <ShouldUseSystemGestureMaterial>k__BackingField, offset 0x53, size 0x1
-  __declspec(property(get = __get__ShouldUseSystemGestureMaterial_k__BackingField, put = __set__ShouldUseSystemGestureMaterial_k__BackingField)) bool _ShouldUseSystemGestureMaterial_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ShouldUseSystemGestureMaterial_k__BackingField,
+                      put = __cordl_internal_set__ShouldUseSystemGestureMaterial_k__BackingField)) bool _ShouldUseSystemGestureMaterial_k__BackingField;
 
   __declspec(property(get = get_IsInitialized, put = set_IsInitialized)) bool IsInitialized;
 
@@ -306,77 +308,77 @@ public:
 
   __declspec(property(get = get_ShouldUseSystemGestureMaterial, put = set_ShouldUseSystemGestureMaterial)) bool ShouldUseSystemGestureMaterial;
 
-  constexpr ::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider*& __get__dataProvider();
+  constexpr ::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider*& __cordl_internal_get__dataProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider*> const& __get__dataProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider*> const& __cordl_internal_get__dataProvider() const;
 
-  constexpr void __set__dataProvider(::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider* value);
+  constexpr void __cordl_internal_set__dataProvider(::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider* value);
 
-  constexpr ::GlobalNamespace::OVRMesh*& __get__ovrMesh();
+  constexpr ::UnityW<::GlobalNamespace::OVRMesh>& __cordl_internal_get__ovrMesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRMesh*> const& __get__ovrMesh() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRMesh> const& __cordl_internal_get__ovrMesh() const;
 
-  constexpr void __set__ovrMesh(::GlobalNamespace::OVRMesh* value);
+  constexpr void __cordl_internal_set__ovrMesh(::UnityW<::GlobalNamespace::OVRMesh> value);
 
-  constexpr ::GlobalNamespace::OVRSkeleton*& __get__ovrSkeleton();
+  constexpr ::UnityW<::GlobalNamespace::OVRSkeleton>& __cordl_internal_get__ovrSkeleton();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSkeleton*> const& __get__ovrSkeleton() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRSkeleton> const& __cordl_internal_get__ovrSkeleton() const;
 
-  constexpr void __set__ovrSkeleton(::GlobalNamespace::OVRSkeleton* value);
+  constexpr void __cordl_internal_set__ovrSkeleton(::UnityW<::GlobalNamespace::OVRSkeleton> value);
 
-  constexpr ::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior& __get__confidenceBehavior();
+  constexpr ::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior& __cordl_internal_get__confidenceBehavior();
 
-  constexpr ::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior const& __get__confidenceBehavior() const;
+  constexpr ::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior const& __cordl_internal_get__confidenceBehavior() const;
 
-  constexpr void __set__confidenceBehavior(::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior value);
+  constexpr void __cordl_internal_set__confidenceBehavior(::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior value);
 
-  constexpr ::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior& __get__systemGestureBehavior();
+  constexpr ::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior& __cordl_internal_get__systemGestureBehavior();
 
-  constexpr ::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior const& __get__systemGestureBehavior() const;
+  constexpr ::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior const& __cordl_internal_get__systemGestureBehavior() const;
 
-  constexpr void __set__systemGestureBehavior(::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior value);
+  constexpr void __cordl_internal_set__systemGestureBehavior(::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior value);
 
-  constexpr ::UnityEngine::Material*& __get__systemGestureMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__systemGestureMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__systemGestureMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__systemGestureMaterial() const;
 
-  constexpr void __set__systemGestureMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__systemGestureMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get__originalMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__originalMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__originalMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__originalMaterial() const;
 
-  constexpr void __set__originalMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__originalMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::SkinnedMeshRenderer*& __get__skinnedMeshRenderer();
+  constexpr ::UnityW<::UnityEngine::SkinnedMeshRenderer>& __cordl_internal_get__skinnedMeshRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SkinnedMeshRenderer*> const& __get__skinnedMeshRenderer() const;
+  constexpr ::UnityW<::UnityEngine::SkinnedMeshRenderer> const& __cordl_internal_get__skinnedMeshRenderer() const;
 
-  constexpr void __set__skinnedMeshRenderer(::UnityEngine::SkinnedMeshRenderer* value);
+  constexpr void __cordl_internal_set__skinnedMeshRenderer(::UnityW<::UnityEngine::SkinnedMeshRenderer> value);
 
-  constexpr bool& __get__IsInitialized_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsInitialized_k__BackingField();
 
-  constexpr bool const& __get__IsInitialized_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsInitialized_k__BackingField() const;
 
-  constexpr void __set__IsInitialized_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsInitialized_k__BackingField(bool value);
 
-  constexpr bool& __get__IsDataValid_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsDataValid_k__BackingField();
 
-  constexpr bool const& __get__IsDataValid_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsDataValid_k__BackingField() const;
 
-  constexpr void __set__IsDataValid_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsDataValid_k__BackingField(bool value);
 
-  constexpr bool& __get__IsDataHighConfidence_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsDataHighConfidence_k__BackingField();
 
-  constexpr bool const& __get__IsDataHighConfidence_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsDataHighConfidence_k__BackingField() const;
 
-  constexpr void __set__IsDataHighConfidence_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsDataHighConfidence_k__BackingField(bool value);
 
-  constexpr bool& __get__ShouldUseSystemGestureMaterial_k__BackingField();
+  constexpr bool& __cordl_internal_get__ShouldUseSystemGestureMaterial_k__BackingField();
 
-  constexpr bool const& __get__ShouldUseSystemGestureMaterial_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__ShouldUseSystemGestureMaterial_k__BackingField() const;
 
-  constexpr void __set__ShouldUseSystemGestureMaterial_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__ShouldUseSystemGestureMaterial_k__BackingField(bool value);
 
   /// @brief Method get_IsInitialized, addr 0x27b1570, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
@@ -440,10 +442,10 @@ public:
   ::GlobalNamespace::__OVRMeshRenderer__IOVRMeshRendererDataProvider* ____dataProvider;
 
   /// @brief Field _ovrMesh, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::OVRMesh* ____ovrMesh;
+  ::UnityW<::GlobalNamespace::OVRMesh> ____ovrMesh;
 
   /// @brief Field _ovrSkeleton, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSkeleton* ____ovrSkeleton;
+  ::UnityW<::GlobalNamespace::OVRSkeleton> ____ovrSkeleton;
 
   /// @brief Field _confidenceBehavior, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::__OVRMeshRenderer__ConfidenceBehavior ____confidenceBehavior;
@@ -452,13 +454,13 @@ public:
   ::GlobalNamespace::__OVRMeshRenderer__SystemGestureBehavior ____systemGestureBehavior;
 
   /// @brief Field _systemGestureMaterial, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Material* ____systemGestureMaterial;
+  ::UnityW<::UnityEngine::Material> ____systemGestureMaterial;
 
   /// @brief Field _originalMaterial, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Material* ____originalMaterial;
+  ::UnityW<::UnityEngine::Material> ____originalMaterial;
 
   /// @brief Field _skinnedMeshRenderer, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::SkinnedMeshRenderer* ____skinnedMeshRenderer;
+  ::UnityW<::UnityEngine::SkinnedMeshRenderer> ____skinnedMeshRenderer;
 
   /// @brief Field <IsInitialized>k__BackingField, offset: 0x50, size: 0x1, def value: None
   bool ____IsInitialized_k__BackingField;

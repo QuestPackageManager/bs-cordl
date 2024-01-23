@@ -17,22 +17,23 @@ MARK_REF_PTR_T(::UnityEngine::Networking::UnityWebRequestAsyncOperation);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10201))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10201))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15575))
 // CS Name: ::UnityEngine.Networking::UnityWebRequestAsyncOperation*
 class CORDL_TYPE UnityWebRequestAsyncOperation : public ::UnityEngine::AsyncOperation {
 public:
   // Declarations
   /// @brief Field <webRequest>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__webRequest_k__BackingField, put = __set__webRequest_k__BackingField))::UnityEngine::Networking::UnityWebRequest* _webRequest_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__webRequest_k__BackingField,
+                      put = __cordl_internal_set__webRequest_k__BackingField))::UnityEngine::Networking::UnityWebRequest* _webRequest_k__BackingField;
 
   __declspec(property(get = get_webRequest, put = set_webRequest))::UnityEngine::Networking::UnityWebRequest* webRequest;
 
-  constexpr ::UnityEngine::Networking::UnityWebRequest*& __get__webRequest_k__BackingField();
+  constexpr ::UnityEngine::Networking::UnityWebRequest*& __cordl_internal_get__webRequest_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequest*> const& __get__webRequest_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequest*> const& __cordl_internal_get__webRequest_k__BackingField() const;
 
-  constexpr void __set__webRequest_k__BackingField(::UnityEngine::Networking::UnityWebRequest* value);
+  constexpr void __cordl_internal_set__webRequest_k__BackingField(::UnityEngine::Networking::UnityWebRequest* value);
 
   /// @brief Method get_webRequest, addr 0x2ead9cc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest* get_webRequest();

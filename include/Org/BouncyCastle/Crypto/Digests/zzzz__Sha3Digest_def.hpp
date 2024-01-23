@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::Sha3Digest);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(755))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(755))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(770))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::Sha3Digest*
 class CORDL_TYPE Sha3Digest : public ::Org::BouncyCastle::Crypto::Digests::KeccakDigest {

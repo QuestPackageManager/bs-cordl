@@ -46,21 +46,21 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::EnhancedTouch::Finger);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6414))
 // CS Name: ::UnityEngine.InputSystem.EnhancedTouch::Finger*
 class CORDL_TYPE Finger : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <screen>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__screen_k__BackingField, put = __set__screen_k__BackingField))::UnityEngine::InputSystem::Touchscreen* _screen_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__screen_k__BackingField, put = __cordl_internal_set__screen_k__BackingField))::UnityEngine::InputSystem::Touchscreen* _screen_k__BackingField;
 
   /// @brief Field <index>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__index_k__BackingField, put = __set__index_k__BackingField)) int32_t _index_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__index_k__BackingField, put = __cordl_internal_set__index_k__BackingField)) int32_t _index_k__BackingField;
 
   /// @brief Field m_StateHistory, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_StateHistory,
-                      put = __set_m_StateHistory))::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>* m_StateHistory;
+  __declspec(property(get = __cordl_internal_get_m_StateHistory,
+                      put = __cordl_internal_set_m_StateHistory))::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>* m_StateHistory;
 
   __declspec(property(get = get_screen))::UnityEngine::InputSystem::Touchscreen* screen;
 
@@ -76,23 +76,24 @@ public:
 
   __declspec(property(get = get_touchHistory))::UnityEngine::InputSystem::EnhancedTouch::TouchHistory touchHistory;
 
-  constexpr ::UnityEngine::InputSystem::Touchscreen*& __get__screen_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Touchscreen*& __cordl_internal_get__screen_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Touchscreen*> const& __get__screen_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Touchscreen*> const& __cordl_internal_get__screen_k__BackingField() const;
 
-  constexpr void __set__screen_k__BackingField(::UnityEngine::InputSystem::Touchscreen* value);
+  constexpr void __cordl_internal_set__screen_k__BackingField(::UnityEngine::InputSystem::Touchscreen* value);
 
-  constexpr int32_t& __get__index_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__index_k__BackingField();
 
-  constexpr int32_t const& __get__index_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__index_k__BackingField() const;
 
-  constexpr void __set__index_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__index_k__BackingField(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>*& __get_m_StateHistory();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>*& __cordl_internal_get_m_StateHistory();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>*> const& __get_m_StateHistory() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>*> const&
+  __cordl_internal_get_m_StateHistory() const;
 
-  constexpr void __set_m_StateHistory(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>* value);
+  constexpr void __cordl_internal_set_m_StateHistory(::UnityEngine::InputSystem::LowLevel::InputStateHistory_1<::UnityEngine::InputSystem::LowLevel::TouchState>* value);
 
   /// @brief Method get_screen, addr 0x2ae0b70, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Touchscreen* get_screen();

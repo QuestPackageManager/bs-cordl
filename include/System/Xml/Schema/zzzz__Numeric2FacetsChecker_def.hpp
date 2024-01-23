@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::Numeric2FacetsChecker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11686))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11686))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11688))
 // CS Name: ::System.Xml.Schema::Numeric2FacetsChecker*
 class CORDL_TYPE Numeric2FacetsChecker : public ::System::Xml::Schema::FacetsChecker {

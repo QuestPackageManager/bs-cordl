@@ -52,18 +52,18 @@ MARK_VAL_T(::TMPro::TMP_CharacterInfo);
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 389, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12438)), TypeDefinitionIndex(TypeDefinitionIndex(12433)), TypeDefinitionIndex(TypeDefinitionIndex(12331)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12329)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(12329)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12331)), TypeDefinitionIndex(TypeDefinitionIndex(12433)), TypeDefinitionIndex(TypeDefinitionIndex(12438))] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(12332)) CS Name: ::TMPro::TMP_CharacterInfo
 struct CORDL_TYPE TMP_CharacterInfo {
 public:
   // Declarations
   // Ctor Parameters [CppParam { name: "character", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "stringLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "elementType", ty: "::TMPro::TMP_TextElementType", modifiers: "", def_value: None }, CppParam { name:
-  // "textElement", ty: "::TMPro::TMP_TextElement*", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty: "::TMPro::TMP_FontAsset*", modifiers: "", def_value: None }, CppParam { name:
-  // "spriteAsset", ty: "::TMPro::TMP_SpriteAsset*", modifiers: "", def_value: None }, CppParam { name: "spriteIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "material", ty:
-  // "::UnityEngine::Material*", modifiers: "", def_value: None }, CppParam { name: "materialReferenceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "isUsingAlternateTypeface", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "pointSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty:
+  // "textElement", ty: "::TMPro::TMP_TextElement*", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: None }, CppParam
+  // { name: "spriteAsset", ty: "::UnityW<::TMPro::TMP_SpriteAsset>", modifiers: "", def_value: None }, CppParam { name: "spriteIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
+  // name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "materialReferenceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
+  // name: "isUsingAlternateTypeface", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "pointSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "lineNumber", ty:
   // "int32_t", modifiers: "", def_value: None }, CppParam { name: "pageNumber", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "vertexIndex", ty: "int32_t", modifiers: "",
   // def_value: None }, CppParam { name: "vertex_BL", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value: None }, CppParam { name: "vertex_TL", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value:
   // None }, CppParam { name: "vertex_TR", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value: None }, CppParam { name: "vertex_BR", ty: "::TMPro::TMP_Vertex", modifiers: "", def_value: None },
@@ -79,13 +79,13 @@ public:
   // "::TMPro::HighlightState", modifiers: "", def_value: None }, CppParam { name: "style", ty: "::TMPro::FontStyles", modifiers: "", def_value: None }, CppParam { name: "isVisible", ty: "bool",
   // modifiers: "", def_value: None }]
   constexpr TMP_CharacterInfo(char16_t character, int32_t index, int32_t stringLength, ::TMPro::TMP_TextElementType elementType, ::TMPro::TMP_TextElement* textElement,
-                              ::TMPro::TMP_FontAsset* fontAsset, ::TMPro::TMP_SpriteAsset* spriteAsset, int32_t spriteIndex, ::UnityEngine::Material* material, int32_t materialReferenceIndex,
-                              bool isUsingAlternateTypeface, float_t pointSize, int32_t lineNumber, int32_t pageNumber, int32_t vertexIndex, ::TMPro::TMP_Vertex vertex_BL,
-                              ::TMPro::TMP_Vertex vertex_TL, ::TMPro::TMP_Vertex vertex_TR, ::TMPro::TMP_Vertex vertex_BR, ::UnityEngine::Vector3 topLeft, ::UnityEngine::Vector3 bottomLeft,
-                              ::UnityEngine::Vector3 topRight, ::UnityEngine::Vector3 bottomRight, float_t origin, float_t xAdvance, float_t ascender, float_t baseLine, float_t descender,
-                              float_t adjustedAscender, float_t adjustedDescender, float_t aspectRatio, float_t scale, ::UnityEngine::Color32 color, ::UnityEngine::Color32 underlineColor,
-                              int32_t underlineVertexIndex, ::UnityEngine::Color32 strikethroughColor, int32_t strikethroughVertexIndex, ::UnityEngine::Color32 highlightColor,
-                              ::TMPro::HighlightState highlightState, ::TMPro::FontStyles style, bool isVisible) noexcept;
+                              ::UnityW<::TMPro::TMP_FontAsset> fontAsset, ::UnityW<::TMPro::TMP_SpriteAsset> spriteAsset, int32_t spriteIndex, ::UnityW<::UnityEngine::Material> material,
+                              int32_t materialReferenceIndex, bool isUsingAlternateTypeface, float_t pointSize, int32_t lineNumber, int32_t pageNumber, int32_t vertexIndex,
+                              ::TMPro::TMP_Vertex vertex_BL, ::TMPro::TMP_Vertex vertex_TL, ::TMPro::TMP_Vertex vertex_TR, ::TMPro::TMP_Vertex vertex_BR, ::UnityEngine::Vector3 topLeft,
+                              ::UnityEngine::Vector3 bottomLeft, ::UnityEngine::Vector3 topRight, ::UnityEngine::Vector3 bottomRight, float_t origin, float_t xAdvance, float_t ascender,
+                              float_t baseLine, float_t descender, float_t adjustedAscender, float_t adjustedDescender, float_t aspectRatio, float_t scale, ::UnityEngine::Color32 color,
+                              ::UnityEngine::Color32 underlineColor, int32_t underlineVertexIndex, ::UnityEngine::Color32 strikethroughColor, int32_t strikethroughVertexIndex,
+                              ::UnityEngine::Color32 highlightColor, ::TMPro::HighlightState highlightState, ::TMPro::FontStyles style, bool isVisible) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -107,16 +107,16 @@ public:
   ::TMPro::TMP_TextElement* textElement;
 
   /// @brief Field fontAsset, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TMP_FontAsset* fontAsset;
+  ::UnityW<::TMPro::TMP_FontAsset> fontAsset;
 
   /// @brief Field spriteAsset, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TMP_SpriteAsset* spriteAsset;
+  ::UnityW<::TMPro::TMP_SpriteAsset> spriteAsset;
 
   /// @brief Field spriteIndex, offset: 0x28, size: 0x4, def value: None
   int32_t spriteIndex;
 
   /// @brief Field material, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Material* material;
+  ::UnityW<::UnityEngine::Material> material;
 
   /// @brief Field materialReferenceIndex, offset: 0x38, size: 0x4, def value: None
   int32_t materialReferenceIndex;

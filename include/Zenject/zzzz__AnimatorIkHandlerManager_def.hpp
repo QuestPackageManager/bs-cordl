@@ -27,20 +27,20 @@ MARK_REF_PTR_T(::Zenject::AnimatorIkHandlerManager);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11300))
 // CS Name: ::Zenject::AnimatorIkHandlerManager*
 class CORDL_TYPE AnimatorIkHandlerManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _handlers, offset 0x18, size 0x8
-  __declspec(property(get = __get__handlers, put = __set__handlers))::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* _handlers;
+  __declspec(property(get = __cordl_internal_get__handlers, put = __cordl_internal_set__handlers))::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* _handlers;
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*& __get__handlers();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*& __cordl_internal_get__handlers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*> const& __get__handlers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>*> const& __cordl_internal_get__handlers() const;
 
-  constexpr void __set__handlers(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* value);
+  constexpr void __cordl_internal_set__handlers(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* value);
 
   /// @brief Method Construct, addr 0x2f0e0bc, size 0x8, virtual false, abstract: false, final false
   inline void Construct(::System::Collections::Generic::List_1<::Zenject::IAnimatorIkHandler*>* handlers);

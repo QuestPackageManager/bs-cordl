@@ -22,7 +22,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ConstructionCallDictionar
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3177))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3177))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3161))
 // CS Name: ::System.Runtime.Remoting.Messaging::ConstructionCallDictionary*
 class CORDL_TYPE ConstructionCallDictionary : public ::System::Runtime::Remoting::Messaging::MessageDictionary {

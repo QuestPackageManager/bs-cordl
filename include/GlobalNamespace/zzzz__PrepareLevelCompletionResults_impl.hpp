@@ -20,11 +20,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x250;
   constexpr static std::size_t addrs = 0x22607b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrepareLevelCompletionResults*>::get(), "FillLevelCompletionResults", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LevelCompletionResults__LevelEndStateType>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LevelCompletionResults__LevelEndAction>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrepareLevelCompletionResults*>::get(), "FillLevelCompletionResults", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LevelCompletionResults__LevelEndStateType>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LevelCompletionResults__LevelEndAction>::get() })));
     return ___internal_method;
   }
 };
@@ -36,119 +36,119 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2260a40;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrepareLevelCompletionResults*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::GameplayModifiersModelSO*& GlobalNamespace::PrepareLevelCompletionResults::__get__gameplayModifiersModelSO() {
+constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__gameplayModifiersModelSO() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiersModelSO;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiersModelSO*> const& GlobalNamespace::PrepareLevelCompletionResults::__get__gameplayModifiersModelSO() const {
+constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__gameplayModifiersModelSO() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiersModelSO;
 }
-constexpr void GlobalNamespace::PrepareLevelCompletionResults::__set__gameplayModifiersModelSO(::GlobalNamespace::GameplayModifiersModelSO* value) {
+constexpr void GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_set__gameplayModifiersModelSO(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifiersModelSO)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::SaberActivityCounter*& GlobalNamespace::PrepareLevelCompletionResults::__get__saberActivityCounter() {
+constexpr ::UnityW<::GlobalNamespace::SaberActivityCounter>& GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__saberActivityCounter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberActivityCounter;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberActivityCounter*> const& GlobalNamespace::PrepareLevelCompletionResults::__get__saberActivityCounter() const {
+constexpr ::UnityW<::GlobalNamespace::SaberActivityCounter> const& GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__saberActivityCounter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberActivityCounter;
 }
-constexpr void GlobalNamespace::PrepareLevelCompletionResults::__set__saberActivityCounter(::GlobalNamespace::SaberActivityCounter* value) {
+constexpr void GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_set__saberActivityCounter(::UnityW<::GlobalNamespace::SaberActivityCounter> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saberActivityCounter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*& GlobalNamespace::PrepareLevelCompletionResults::__get__beatmapObjectExecutionRatingsRecorder() {
+constexpr ::UnityW<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder>& GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__beatmapObjectExecutionRatingsRecorder() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectExecutionRatingsRecorder;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder*> const&
-GlobalNamespace::PrepareLevelCompletionResults::__get__beatmapObjectExecutionRatingsRecorder() const {
+constexpr ::UnityW<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder> const&
+GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__beatmapObjectExecutionRatingsRecorder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectExecutionRatingsRecorder;
 }
-constexpr void GlobalNamespace::PrepareLevelCompletionResults::__set__beatmapObjectExecutionRatingsRecorder(::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder* value) {
+constexpr void GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_set__beatmapObjectExecutionRatingsRecorder(::UnityW<::GlobalNamespace::BeatmapObjectExecutionRatingsRecorder> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapObjectExecutionRatingsRecorder)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IScoreController*& GlobalNamespace::PrepareLevelCompletionResults::__get__scoreController() {
+constexpr ::GlobalNamespace::IScoreController*& GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__scoreController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& GlobalNamespace::PrepareLevelCompletionResults::__get__scoreController() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__scoreController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreController;
 }
-constexpr void GlobalNamespace::PrepareLevelCompletionResults::__set__scoreController(::GlobalNamespace::IScoreController* value) {
+constexpr void GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scoreController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::GameEnergyCounter*& GlobalNamespace::PrepareLevelCompletionResults::__get__gameEnergyCounter() {
+constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter>& GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__gameEnergyCounter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameEnergyCounter;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameEnergyCounter*> const& GlobalNamespace::PrepareLevelCompletionResults::__get__gameEnergyCounter() const {
+constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter> const& GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__gameEnergyCounter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameEnergyCounter;
 }
-constexpr void GlobalNamespace::PrepareLevelCompletionResults::__set__gameEnergyCounter(::GlobalNamespace::GameEnergyCounter* value) {
+constexpr void GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_set__gameEnergyCounter(::UnityW<::GlobalNamespace::GameEnergyCounter> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameEnergyCounter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IReadonlyBeatmapData*& GlobalNamespace::PrepareLevelCompletionResults::__get__beatmapData() {
+constexpr ::GlobalNamespace::IReadonlyBeatmapData*& GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__beatmapData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& GlobalNamespace::PrepareLevelCompletionResults::__get__beatmapData() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__beatmapData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapData;
 }
-constexpr void GlobalNamespace::PrepareLevelCompletionResults::__set__beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value) {
+constexpr void GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_set__beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::AudioTimeSyncController*& GlobalNamespace::PrepareLevelCompletionResults::__get__audioTimeSyncController() {
+constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__audioTimeSyncController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSyncController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& GlobalNamespace::PrepareLevelCompletionResults::__get__audioTimeSyncController() const {
+constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__audioTimeSyncController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioTimeSyncController;
 }
-constexpr void GlobalNamespace::PrepareLevelCompletionResults::__set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value) {
+constexpr void GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSyncController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::PrepareLevelCompletionResults::__get__gameplayModifiers() {
+constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__gameplayModifiers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::PrepareLevelCompletionResults::__get__gameplayModifiers() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__gameplayModifiers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
-constexpr void GlobalNamespace::PrepareLevelCompletionResults::__set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value) {
+constexpr void GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifiers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::ComboController*& GlobalNamespace::PrepareLevelCompletionResults::__get__comboController() {
+constexpr ::UnityW<::GlobalNamespace::ComboController>& GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__comboController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comboController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ComboController*> const& GlobalNamespace::PrepareLevelCompletionResults::__get__comboController() const {
+constexpr ::UnityW<::GlobalNamespace::ComboController> const& GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_get__comboController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____comboController;
 }
-constexpr void GlobalNamespace::PrepareLevelCompletionResults::__set__comboController(::GlobalNamespace::ComboController* value) {
+constexpr void GlobalNamespace::PrepareLevelCompletionResults::__cordl_internal_set__comboController(::UnityW<::GlobalNamespace::ComboController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____comboController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -156,17 +156,17 @@ inline ::GlobalNamespace::LevelCompletionResults*
 GlobalNamespace::PrepareLevelCompletionResults::FillLevelCompletionResults(::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType,
                                                                            ::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrepareLevelCompletionResults*>::get(), "FillLevelCompletionResults", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LevelCompletionResults__LevelEndStateType>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LevelCompletionResults__LevelEndAction>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrepareLevelCompletionResults*>::get(), "FillLevelCompletionResults", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LevelCompletionResults__LevelEndStateType>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__LevelCompletionResults__LevelEndAction>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::LevelCompletionResults*, false>(this, ___internal_method, levelEndStateType, levelEndAction);
 }
 inline ::GlobalNamespace::PrepareLevelCompletionResults* GlobalNamespace::PrepareLevelCompletionResults::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::PrepareLevelCompletionResults*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PrepareLevelCompletionResults*>());
 }
 inline void GlobalNamespace::PrepareLevelCompletionResults::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PrepareLevelCompletionResults*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -25,14 +25,14 @@ MARK_REF_PTR_T(::GlobalNamespace::DefaultUnityXRHapticsHandler);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15614))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14412))
 // CS Name: ::DefaultUnityXRHapticsHandler*
 class CORDL_TYPE DefaultUnityXRHapticsHandler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _node, offset 0x10, size 0x4
-  __declspec(property(get = __get__node, put = __set__node))::UnityEngine::XR::XRNode _node;
+  __declspec(property(get = __cordl_internal_get__node, put = __cordl_internal_set__node))::UnityEngine::XR::XRNode _node;
 
   /// @brief Convert operator to "::GlobalNamespace::IUnityXRHapticsHandler"
   constexpr operator ::GlobalNamespace::IUnityXRHapticsHandler*() noexcept;
@@ -46,11 +46,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::UnityEngine::XR::XRNode& __get__node();
+  constexpr ::UnityEngine::XR::XRNode& __cordl_internal_get__node();
 
-  constexpr ::UnityEngine::XR::XRNode const& __get__node() const;
+  constexpr ::UnityEngine::XR::XRNode const& __cordl_internal_get__node() const;
 
-  constexpr void __set__node(::UnityEngine::XR::XRNode value);
+  constexpr void __cordl_internal_set__node(::UnityEngine::XR::XRNode value);
 
   static inline ::GlobalNamespace::DefaultUnityXRHapticsHandler* New_ctor(::UnityEngine::XR::XRNode node);
 

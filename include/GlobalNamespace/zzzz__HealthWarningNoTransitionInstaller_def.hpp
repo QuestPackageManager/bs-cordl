@@ -23,29 +23,31 @@ MARK_REF_PTR_T(::GlobalNamespace::HealthWarningNoTransitionInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11176))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11176))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6038))
 // CS Name: ::HealthWarningNoTransitionInstaller*
 class CORDL_TYPE HealthWarningNoTransitionInstaller : public ::Zenject::NoTransitionInstaller {
 public:
   // Declarations
   /// @brief Field _healthWarningSceneSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __get__healthWarningSceneSetupData, put = __set__healthWarningSceneSetupData))::GlobalNamespace::HealthWarningSceneSetupData* _healthWarningSceneSetupData;
+  __declspec(property(get = __cordl_internal_get__healthWarningSceneSetupData,
+                      put = __cordl_internal_set__healthWarningSceneSetupData))::GlobalNamespace::HealthWarningSceneSetupData* _healthWarningSceneSetupData;
 
   /// @brief Field _scenesTransitionSetupData, offset 0x20, size 0x8
-  __declspec(property(get = __get__scenesTransitionSetupData, put = __set__scenesTransitionSetupData))::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO* _scenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get__scenesTransitionSetupData,
+                      put = __cordl_internal_set__scenesTransitionSetupData))::UnityW<::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO> _scenesTransitionSetupData;
 
-  constexpr ::GlobalNamespace::HealthWarningSceneSetupData*& __get__healthWarningSceneSetupData();
+  constexpr ::GlobalNamespace::HealthWarningSceneSetupData*& __cordl_internal_get__healthWarningSceneSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HealthWarningSceneSetupData*> const& __get__healthWarningSceneSetupData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HealthWarningSceneSetupData*> const& __cordl_internal_get__healthWarningSceneSetupData() const;
 
-  constexpr void __set__healthWarningSceneSetupData(::GlobalNamespace::HealthWarningSceneSetupData* value);
+  constexpr void __cordl_internal_set__healthWarningSceneSetupData(::GlobalNamespace::HealthWarningSceneSetupData* value);
 
-  constexpr ::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO*& __get__scenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO>& __cordl_internal_get__scenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO*> const& __get__scenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO> const& __cordl_internal_get__scenesTransitionSetupData() const;
 
-  constexpr void __set__scenesTransitionSetupData(::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO> value);
 
   /// @brief Method InstallBindings, addr 0x231b09c, size 0x44, virtual true, abstract: false, final false
   inline void InstallBindings(::Zenject::DiContainer* container);
@@ -73,7 +75,7 @@ public:
   ::GlobalNamespace::HealthWarningSceneSetupData* ____healthWarningSceneSetupData;
 
   /// @brief Field _scenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO* ____scenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO> ____scenesTransitionSetupData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cmp::RevocationDetails);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(608))
 // CS Name: ::Org.BouncyCastle.Cmp::RevocationDetails*
 class CORDL_TYPE RevocationDetails : public ::System::Object {
 public:
   // Declarations
   /// @brief Field revDetails, offset 0x10, size 0x8
-  __declspec(property(get = __get_revDetails, put = __set_revDetails))::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails;
+  __declspec(property(get = __cordl_internal_get_revDetails, put = __cordl_internal_set_revDetails))::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails;
 
   __declspec(property(get = get_Subject))::Org::BouncyCastle::Asn1::X509::X509Name* Subject;
 
@@ -38,11 +38,11 @@ public:
 
   __declspec(property(get = get_SerialNumber))::Org::BouncyCastle::Math::BigInteger* SerialNumber;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::RevDetails*& __get_revDetails();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::RevDetails*& __cordl_internal_get_revDetails();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::RevDetails*> const& __get_revDetails() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::RevDetails*> const& __cordl_internal_get_revDetails() const;
 
-  constexpr void __set_revDetails(::Org::BouncyCastle::Asn1::Cmp::RevDetails* value);
+  constexpr void __cordl_internal_set_revDetails(::Org::BouncyCastle::Asn1::Cmp::RevDetails* value);
 
   static inline ::Org::BouncyCastle::Cmp::RevocationDetails* New_ctor(::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails);
 

@@ -39,20 +39,21 @@ MARK_REF_PTR_T(::System::Security::Claims::ClaimsPrincipal);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Claims {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3011))
 // CS Name: ::System.Security.Claims::ClaimsPrincipal*
 class CORDL_TYPE ClaimsPrincipal : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_version, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_version, put = __set_m_version))::StringW m_version;
+  __declspec(property(get = __cordl_internal_get_m_version, put = __cordl_internal_set_m_version))::StringW m_version;
 
   /// @brief Field m_serializedClaimsIdentities, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_serializedClaimsIdentities, put = __set_m_serializedClaimsIdentities))::StringW m_serializedClaimsIdentities;
+  __declspec(property(get = __cordl_internal_get_m_serializedClaimsIdentities, put = __cordl_internal_set_m_serializedClaimsIdentities))::StringW m_serializedClaimsIdentities;
 
   /// @brief Field m_identities, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_identities, put = __set_m_identities))::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>* m_identities;
+  __declspec(property(get = __cordl_internal_get_m_identities,
+                      put = __cordl_internal_set_m_identities))::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>* m_identities;
 
   /// @brief Field s_identitySelector, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_identitySelector,
@@ -68,23 +69,23 @@ public:
   /// @brief Convert to "::System::Security::Principal::IPrincipal"
   constexpr ::System::Security::Principal::IPrincipal* i___System__Security__Principal__IPrincipal() noexcept;
 
-  constexpr ::StringW& __get_m_version();
+  constexpr ::StringW& __cordl_internal_get_m_version();
 
-  constexpr ::StringW const& __get_m_version() const;
+  constexpr ::StringW const& __cordl_internal_get_m_version() const;
 
-  constexpr void __set_m_version(::StringW value);
+  constexpr void __cordl_internal_set_m_version(::StringW value);
 
-  constexpr ::StringW& __get_m_serializedClaimsIdentities();
+  constexpr ::StringW& __cordl_internal_get_m_serializedClaimsIdentities();
 
-  constexpr ::StringW const& __get_m_serializedClaimsIdentities() const;
+  constexpr ::StringW const& __cordl_internal_get_m_serializedClaimsIdentities() const;
 
-  constexpr void __set_m_serializedClaimsIdentities(::StringW value);
+  constexpr void __cordl_internal_set_m_serializedClaimsIdentities(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>*& __get_m_identities();
+  constexpr ::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>*& __cordl_internal_get_m_identities();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>*> const& __get_m_identities() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>*> const& __cordl_internal_get_m_identities() const;
 
-  constexpr void __set_m_identities(::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>* value);
+  constexpr void __cordl_internal_set_m_identities(::System::Collections::Generic::List_1<::System::Security::Claims::ClaimsIdentity*>* value);
 
   static inline void
   setStaticF_s_identitySelector(::System::Func_2<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::ClaimsIdentity*>*, ::System::Security::Claims::ClaimsIdentity*>* value);

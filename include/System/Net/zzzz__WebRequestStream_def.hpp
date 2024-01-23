@@ -128,7 +128,7 @@ MARK_VAL_T(::System::Net::__WebRequestStream___WriteRequestAsync_d__38);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9230))
 // CS Name: ::WebRequestStream::<FinishWriting>d__31
 struct CORDL_TYPE __WebRequestStream___FinishWriting_d__31 {
@@ -196,8 +196,8 @@ static_assert(offsetof(::System::Net::__WebRequestStream___FinishWriting_d__31, 
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9231)) CS Name: ::WebRequestStream::<WriteAsyncInner>d__33
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3401))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9231)) CS Name: ::WebRequestStream::<WriteAsyncInner>d__33
 struct CORDL_TYPE __WebRequestStream___WriteAsyncInner_d__33 {
 public:
   // Declarations
@@ -292,7 +292,7 @@ static_assert(offsetof(::System::Net::__WebRequestStream___WriteAsyncInner_d__33
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9232))
 // CS Name: ::WebRequestStream::<ProcessWrite>d__34
 struct CORDL_TYPE __WebRequestStream___ProcessWrite_d__34 {
@@ -376,8 +376,8 @@ static_assert(offsetof(::System::Net::__WebRequestStream___ProcessWrite_d__34, _
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9233)) CS Name: ::WebRequestStream::<Initialize>d__36
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3401))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9233)) CS Name: ::WebRequestStream::<Initialize>d__36
 struct CORDL_TYPE __WebRequestStream___Initialize_d__36 {
 public:
   // Declarations
@@ -450,7 +450,7 @@ static_assert(offsetof(::System::Net::__WebRequestStream___Initialize_d__36, __u
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9234))
 // CS Name: ::WebRequestStream::<SetHeadersAsync>d__37
 struct CORDL_TYPE __WebRequestStream___SetHeadersAsync_d__37 {
@@ -523,8 +523,8 @@ static_assert(offsetof(::System::Net::__WebRequestStream___SetHeadersAsync_d__37
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3393))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9235)) CS Name: ::WebRequestStream::<WriteRequestAsync>d__38
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3401))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9235)) CS Name: ::WebRequestStream::<WriteRequestAsync>d__38
 struct CORDL_TYPE __WebRequestStream___WriteRequestAsync_d__38 {
 public:
   // Declarations
@@ -602,7 +602,7 @@ static_assert(offsetof(::System::Net::__WebRequestStream___WriteRequestAsync_d__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9236))
 // CS Name: ::WebRequestStream::<WriteChunkTrailer_inner>d__39
 struct CORDL_TYPE __WebRequestStream___WriteChunkTrailer_inner_d__39 {
@@ -670,8 +670,8 @@ static_assert(offsetof(::System::Net::__WebRequestStream___WriteChunkTrailer_inn
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2787)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9237)) CS
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2787)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3401)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 400 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9237)) CS
 // Name: ::WebRequestStream::<WriteChunkTrailer>d__40
 struct CORDL_TYPE __WebRequestStream___WriteChunkTrailer_d__40 {
 public:
@@ -751,7 +751,7 @@ static_assert(offsetof(::System::Net::__WebRequestStream___WriteChunkTrailer_d__
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9220))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9220))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9238))
 // CS Name: ::System.Net::WebRequestStream*
 class CORDL_TYPE WebRequestStream : public ::System::Net::WebConnectionStream {
@@ -774,40 +774,40 @@ public:
   using _FinishWriting_d__31 = ::System::Net::__WebRequestStream___FinishWriting_d__31;
 
   /// @brief Field writeBuffer, offset 0x58, size 0x8
-  __declspec(property(get = __get_writeBuffer, put = __set_writeBuffer))::System::IO::MemoryStream* writeBuffer;
+  __declspec(property(get = __cordl_internal_get_writeBuffer, put = __cordl_internal_set_writeBuffer))::System::IO::MemoryStream* writeBuffer;
 
   /// @brief Field requestWritten, offset 0x60, size 0x1
-  __declspec(property(get = __get_requestWritten, put = __set_requestWritten)) bool requestWritten;
+  __declspec(property(get = __cordl_internal_get_requestWritten, put = __cordl_internal_set_requestWritten)) bool requestWritten;
 
   /// @brief Field allowBuffering, offset 0x61, size 0x1
-  __declspec(property(get = __get_allowBuffering, put = __set_allowBuffering)) bool allowBuffering;
+  __declspec(property(get = __cordl_internal_get_allowBuffering, put = __cordl_internal_set_allowBuffering)) bool allowBuffering;
 
   /// @brief Field sendChunked, offset 0x62, size 0x1
-  __declspec(property(get = __get_sendChunked, put = __set_sendChunked)) bool sendChunked;
+  __declspec(property(get = __cordl_internal_get_sendChunked, put = __cordl_internal_set_sendChunked)) bool sendChunked;
 
   /// @brief Field pendingWrite, offset 0x68, size 0x8
-  __declspec(property(get = __get_pendingWrite, put = __set_pendingWrite))::System::Net::WebCompletionSource* pendingWrite;
+  __declspec(property(get = __cordl_internal_get_pendingWrite, put = __cordl_internal_set_pendingWrite))::System::Net::WebCompletionSource* pendingWrite;
 
   /// @brief Field totalWritten, offset 0x70, size 0x8
-  __declspec(property(get = __get_totalWritten, put = __set_totalWritten)) int64_t totalWritten;
+  __declspec(property(get = __cordl_internal_get_totalWritten, put = __cordl_internal_set_totalWritten)) int64_t totalWritten;
 
   /// @brief Field headers, offset 0x78, size 0x8
-  __declspec(property(get = __get_headers, put = __set_headers))::ArrayW<uint8_t, ::Array<uint8_t>*> headers;
+  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers))::ArrayW<uint8_t, ::Array<uint8_t>*> headers;
 
   /// @brief Field headersSent, offset 0x80, size 0x1
-  __declspec(property(get = __get_headersSent, put = __set_headersSent)) bool headersSent;
+  __declspec(property(get = __cordl_internal_get_headersSent, put = __cordl_internal_set_headersSent)) bool headersSent;
 
   /// @brief Field completeRequestWritten, offset 0x84, size 0x4
-  __declspec(property(get = __get_completeRequestWritten, put = __set_completeRequestWritten)) int32_t completeRequestWritten;
+  __declspec(property(get = __cordl_internal_get_completeRequestWritten, put = __cordl_internal_set_completeRequestWritten)) int32_t completeRequestWritten;
 
   /// @brief Field chunkTrailerWritten, offset 0x88, size 0x4
-  __declspec(property(get = __get_chunkTrailerWritten, put = __set_chunkTrailerWritten)) int32_t chunkTrailerWritten;
+  __declspec(property(get = __cordl_internal_get_chunkTrailerWritten, put = __cordl_internal_set_chunkTrailerWritten)) int32_t chunkTrailerWritten;
 
   /// @brief Field <InnerStream>k__BackingField, offset 0x90, size 0x8
-  __declspec(property(get = __get__InnerStream_k__BackingField, put = __set__InnerStream_k__BackingField))::System::IO::Stream* _InnerStream_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__InnerStream_k__BackingField, put = __cordl_internal_set__InnerStream_k__BackingField))::System::IO::Stream* _InnerStream_k__BackingField;
 
   /// @brief Field <KeepAlive>k__BackingField, offset 0x98, size 0x1
-  __declspec(property(get = __get__KeepAlive_k__BackingField, put = __set__KeepAlive_k__BackingField)) bool _KeepAlive_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__KeepAlive_k__BackingField, put = __cordl_internal_set__KeepAlive_k__BackingField)) bool _KeepAlive_k__BackingField;
 
   /// @brief Field crlf, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_crlf, put = setStaticF_crlf))::ArrayW<uint8_t, ::Array<uint8_t>*> crlf;
@@ -824,77 +824,77 @@ public:
 
   __declspec(property(get = get_WriteBufferLength)) int32_t WriteBufferLength;
 
-  constexpr ::System::IO::MemoryStream*& __get_writeBuffer();
+  constexpr ::System::IO::MemoryStream*& __cordl_internal_get_writeBuffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& __get_writeBuffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& __cordl_internal_get_writeBuffer() const;
 
-  constexpr void __set_writeBuffer(::System::IO::MemoryStream* value);
+  constexpr void __cordl_internal_set_writeBuffer(::System::IO::MemoryStream* value);
 
-  constexpr bool& __get_requestWritten();
+  constexpr bool& __cordl_internal_get_requestWritten();
 
-  constexpr bool const& __get_requestWritten() const;
+  constexpr bool const& __cordl_internal_get_requestWritten() const;
 
-  constexpr void __set_requestWritten(bool value);
+  constexpr void __cordl_internal_set_requestWritten(bool value);
 
-  constexpr bool& __get_allowBuffering();
+  constexpr bool& __cordl_internal_get_allowBuffering();
 
-  constexpr bool const& __get_allowBuffering() const;
+  constexpr bool const& __cordl_internal_get_allowBuffering() const;
 
-  constexpr void __set_allowBuffering(bool value);
+  constexpr void __cordl_internal_set_allowBuffering(bool value);
 
-  constexpr bool& __get_sendChunked();
+  constexpr bool& __cordl_internal_get_sendChunked();
 
-  constexpr bool const& __get_sendChunked() const;
+  constexpr bool const& __cordl_internal_get_sendChunked() const;
 
-  constexpr void __set_sendChunked(bool value);
+  constexpr void __cordl_internal_set_sendChunked(bool value);
 
-  constexpr ::System::Net::WebCompletionSource*& __get_pendingWrite();
+  constexpr ::System::Net::WebCompletionSource*& __cordl_internal_get_pendingWrite();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource*> const& __get_pendingWrite() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource*> const& __cordl_internal_get_pendingWrite() const;
 
-  constexpr void __set_pendingWrite(::System::Net::WebCompletionSource* value);
+  constexpr void __cordl_internal_set_pendingWrite(::System::Net::WebCompletionSource* value);
 
-  constexpr int64_t& __get_totalWritten();
+  constexpr int64_t& __cordl_internal_get_totalWritten();
 
-  constexpr int64_t const& __get_totalWritten() const;
+  constexpr int64_t const& __cordl_internal_get_totalWritten() const;
 
-  constexpr void __set_totalWritten(int64_t value);
+  constexpr void __cordl_internal_set_totalWritten(int64_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_headers();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_headers();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_headers() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_headers() const;
 
-  constexpr void __set_headers(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_headers(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get_headersSent();
+  constexpr bool& __cordl_internal_get_headersSent();
 
-  constexpr bool const& __get_headersSent() const;
+  constexpr bool const& __cordl_internal_get_headersSent() const;
 
-  constexpr void __set_headersSent(bool value);
+  constexpr void __cordl_internal_set_headersSent(bool value);
 
-  constexpr int32_t& __get_completeRequestWritten();
+  constexpr int32_t& __cordl_internal_get_completeRequestWritten();
 
-  constexpr int32_t const& __get_completeRequestWritten() const;
+  constexpr int32_t const& __cordl_internal_get_completeRequestWritten() const;
 
-  constexpr void __set_completeRequestWritten(int32_t value);
+  constexpr void __cordl_internal_set_completeRequestWritten(int32_t value);
 
-  constexpr int32_t& __get_chunkTrailerWritten();
+  constexpr int32_t& __cordl_internal_get_chunkTrailerWritten();
 
-  constexpr int32_t const& __get_chunkTrailerWritten() const;
+  constexpr int32_t const& __cordl_internal_get_chunkTrailerWritten() const;
 
-  constexpr void __set_chunkTrailerWritten(int32_t value);
+  constexpr void __cordl_internal_set_chunkTrailerWritten(int32_t value);
 
-  constexpr ::System::IO::Stream*& __get__InnerStream_k__BackingField();
+  constexpr ::System::IO::Stream*& __cordl_internal_get__InnerStream_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get__InnerStream_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__InnerStream_k__BackingField() const;
 
-  constexpr void __set__InnerStream_k__BackingField(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set__InnerStream_k__BackingField(::System::IO::Stream* value);
 
-  constexpr bool& __get__KeepAlive_k__BackingField();
+  constexpr bool& __cordl_internal_get__KeepAlive_k__BackingField();
 
-  constexpr bool const& __get__KeepAlive_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__KeepAlive_k__BackingField() const;
 
-  constexpr void __set__KeepAlive_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__KeepAlive_k__BackingField(bool value);
 
   static inline void setStaticF_crlf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

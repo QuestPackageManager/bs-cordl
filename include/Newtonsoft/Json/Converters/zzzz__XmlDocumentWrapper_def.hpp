@@ -27,14 +27,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XmlDocumentWrapper);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12052))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12052))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12048))
 // CS Name: ::Newtonsoft.Json.Converters::XmlDocumentWrapper*
 class CORDL_TYPE XmlDocumentWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper {
 public:
   // Declarations
   /// @brief Field _document, offset 0x28, size 0x8
-  __declspec(property(get = __get__document, put = __set__document))::System::Xml::XmlDocument* _document;
+  __declspec(property(get = __cordl_internal_get__document, put = __cordl_internal_set__document))::System::Xml::XmlDocument* _document;
 
   __declspec(property(get = get_DocumentElement))::Newtonsoft::Json::Converters::IXmlElement* DocumentElement;
 
@@ -50,11 +50,11 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  constexpr ::System::Xml::XmlDocument*& __get__document();
+  constexpr ::System::Xml::XmlDocument*& __cordl_internal_get__document();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDocument*> const& __get__document() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDocument*> const& __cordl_internal_get__document() const;
 
-  constexpr void __set__document(::System::Xml::XmlDocument* value);
+  constexpr void __cordl_internal_set__document(::System::Xml::XmlDocument* value);
 
   static inline ::Newtonsoft::Json::Converters::XmlDocumentWrapper* New_ctor(::System::Xml::XmlDocument* document);
 

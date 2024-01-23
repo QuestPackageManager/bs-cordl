@@ -143,9 +143,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4593)) CS Name: ::SonyPlatformAdditionalContentModel`1::<GetLevelEntitlementStatusInternalAsync>d__11<T>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 880 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4593)) CS Name: ::SonyPlatformAdditionalContentModel`1::<GetLevelEntitlementStatusInternalAsync>d__11<T>
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel_1___GetLevelEntitlementStatusInternalAsync_d__11 {
 public:
   // Declarations
@@ -206,9 +206,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4594)) CS Name: ::SonyPlatformAdditionalContentModel`1::<GetPackEntitlementStatusInternalAsync>d__12<T>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 880 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4594)) CS Name: ::SonyPlatformAdditionalContentModel`1::<GetPackEntitlementStatusInternalAsync>d__12<T>
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel_1___GetPackEntitlementStatusInternalAsync_d__12 {
 public:
   // Declarations
@@ -269,9 +269,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16271)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5070 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4140)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4595)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4140)), TypeDefinitionIndex(TypeDefinitionIndex(16271)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5070 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4595)) CS Name:
 // ::SonyPlatformAdditionalContentModel`1::<OpenLevelProductStoreAsync>d__13<T>
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel_1___OpenLevelProductStoreAsync_d__13 {
 public:
@@ -333,9 +333,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5070 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4140)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(16271))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4140)), TypeDefinitionIndex(TypeDefinitionIndex(16271)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5070 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4596)) CS Name: ::SonyPlatformAdditionalContentModel`1::<OpenLevelPackProductStoreAsync>d__14<T>
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel_1___OpenLevelPackProductStoreAsync_d__14 {
 public:
@@ -402,9 +402,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16272)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 891
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4597)) CS Name: ::SonyPlatformAdditionalContentModel`1::<IsPackBetterBuyThanLevelAsync>d__15<T>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16272)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 891 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4597)) CS Name: ::SonyPlatformAdditionalContentModel`1::<IsPackBetterBuyThanLevelAsync>d__15<T>
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel_1___IsPackBetterBuyThanLevelAsync_d__15 {
 public:
   // Declarations
@@ -465,9 +465,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 397 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4598)) CS Name: ::SonyPlatformAdditionalContentModel`1::<GetRedirectedLevelPackProductData>d__16<T>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 397 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4598)) CS Name: ::SonyPlatformAdditionalContentModel`1::<GetRedirectedLevelPackProductData>d__16<T>
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel_1___GetRedirectedLevelPackProductData_d__16 {
 public:
   // Declarations
@@ -538,9 +538,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4097)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 903 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4599)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4097)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 903 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4599)) CS Name:
 // ::SonyPlatformAdditionalContentModel`1::<EnsureDataValidity>d__20<T>
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel_1___EnsureDataValidity_d__20 {
 public:
@@ -602,9 +602,9 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(4143)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 903 }), TypeDefinitionIndex(TypeDefinitionIndex(4097)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 5069 }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4600)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4097)), TypeDefinitionIndex(TypeDefinitionIndex(4143)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5069 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 903 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4600)) CS Name:
 // ::SonyPlatformAdditionalContentModel`1::<UpdateEntitlementsAsync>d__21<T>
 struct CORDL_TYPE __SonyPlatformAdditionalContentModel_1___UpdateEntitlementsAsync_d__21 {
 public:
@@ -663,7 +663,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4100))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4100))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4601))
 // CS Name: ::SonyPlatformAdditionalContentModel`1<T>*
 class CORDL_TYPE SonyPlatformAdditionalContentModel_1 : public ::GlobalNamespace::AdditionalContentModel {
@@ -686,75 +686,75 @@ public:
   using _GetLevelEntitlementStatusInternalAsync_d__11 = ::GlobalNamespace::__SonyPlatformAdditionalContentModel_1___GetLevelEntitlementStatusInternalAsync_d__11<T>;
 
   /// @brief Field _entitlementsLabels, offset 0x28, size 0x8
-  __declspec(property(get = __get__entitlementsLabels, put = __set__entitlementsLabels))::System::Collections::Generic::HashSet_1<::StringW>* _entitlementsLabels;
+  __declspec(property(get = __cordl_internal_get__entitlementsLabels, put = __cordl_internal_set__entitlementsLabels))::System::Collections::Generic::HashSet_1<::StringW>* _entitlementsLabels;
 
   /// @brief Field _semaphoreSlim, offset 0x30, size 0x8
-  __declspec(property(get = __get__semaphoreSlim, put = __set__semaphoreSlim))::System::Threading::SemaphoreSlim* _semaphoreSlim;
+  __declspec(property(get = __cordl_internal_get__semaphoreSlim, put = __cordl_internal_set__semaphoreSlim))::System::Threading::SemaphoreSlim* _semaphoreSlim;
 
   /// @brief Field _isDataValid, offset 0x38, size 0x1
-  __declspec(property(get = __get__isDataValid, put = __set__isDataValid)) bool _isDataValid;
+  __declspec(property(get = __cordl_internal_get__isDataValid, put = __cordl_internal_set__isDataValid)) bool _isDataValid;
 
   /// @brief Field _sonyCommerceHelper, offset 0x40, size 0x8
-  __declspec(property(get = __get__sonyCommerceHelper, put = __set__sonyCommerceHelper))::GlobalNamespace::ISonyCommerceHelper* _sonyCommerceHelper;
+  __declspec(property(get = __cordl_internal_get__sonyCommerceHelper, put = __cordl_internal_set__sonyCommerceHelper))::GlobalNamespace::ISonyCommerceHelper* _sonyCommerceHelper;
 
   /// @brief Field _levelIdToProductData, offset 0x48, size 0x8
-  __declspec(
-      property(get = __get__levelIdToProductData,
-               put = __set__levelIdToProductData))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>* _levelIdToProductData;
+  __declspec(property(
+      get = __cordl_internal_get__levelIdToProductData,
+      put = __cordl_internal_set__levelIdToProductData))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>* _levelIdToProductData;
 
   /// @brief Field _levelPackIdToProductData, offset 0x50, size 0x8
-  __declspec(property(
-      get = __get__levelPackIdToProductData,
-      put = __set__levelPackIdToProductData))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>* _levelPackIdToProductData;
+  __declspec(property(get = __cordl_internal_get__levelPackIdToProductData, put = __cordl_internal_set__levelPackIdToProductData))::System::Collections::Generic::Dictionary_2<
+      ::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>* _levelPackIdToProductData;
 
   /// @brief Field _levelPackRedirectionData, offset 0x58, size 0x8
-  __declspec(property(get = __get__levelPackRedirectionData, put = __set__levelPackRedirectionData))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get__levelPackRedirectionData, put = __cordl_internal_set__levelPackRedirectionData))::System::Collections::Generic::Dictionary_2<
       ::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>* _levelPackRedirectionData;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __get__entitlementsLabels();
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__entitlementsLabels();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __get__entitlementsLabels() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__entitlementsLabels() const;
 
-  constexpr void __set__entitlementsLabels(::System::Collections::Generic::HashSet_1<::StringW>* value);
+  constexpr void __cordl_internal_set__entitlementsLabels(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  constexpr ::System::Threading::SemaphoreSlim*& __get__semaphoreSlim();
+  constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__semaphoreSlim();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __get__semaphoreSlim() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__semaphoreSlim() const;
 
-  constexpr void __set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
+  constexpr void __cordl_internal_set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
 
-  constexpr bool& __get__isDataValid();
+  constexpr bool& __cordl_internal_get__isDataValid();
 
-  constexpr bool const& __get__isDataValid() const;
+  constexpr bool const& __cordl_internal_get__isDataValid() const;
 
-  constexpr void __set__isDataValid(bool value);
+  constexpr void __cordl_internal_set__isDataValid(bool value);
 
-  constexpr ::GlobalNamespace::ISonyCommerceHelper*& __get__sonyCommerceHelper();
+  constexpr ::GlobalNamespace::ISonyCommerceHelper*& __cordl_internal_get__sonyCommerceHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISonyCommerceHelper*> const& __get__sonyCommerceHelper() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISonyCommerceHelper*> const& __cordl_internal_get__sonyCommerceHelper() const;
 
-  constexpr void __set__sonyCommerceHelper(::GlobalNamespace::ISonyCommerceHelper* value);
+  constexpr void __cordl_internal_set__sonyCommerceHelper(::GlobalNamespace::ISonyCommerceHelper* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*& __get__levelIdToProductData();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*& __cordl_internal_get__levelIdToProductData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>*> const&
-  __get__levelIdToProductData() const;
+  __cordl_internal_get__levelIdToProductData() const;
 
-  constexpr void __set__levelIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>* value);
+  constexpr void __cordl_internal_set__levelIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelProductData*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*& __get__levelPackIdToProductData();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*& __cordl_internal_get__levelPackIdToProductData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>*> const&
-  __get__levelPackIdToProductData() const;
+  __cordl_internal_get__levelPackIdToProductData() const;
 
-  constexpr void __set__levelPackIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>* value);
+  constexpr void __cordl_internal_set__levelPackIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackProductData*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>*& __get__levelPackRedirectionData();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>*& __cordl_internal_get__levelPackRedirectionData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>*> const&
-  __get__levelPackRedirectionData() const;
+  __cordl_internal_get__levelPackRedirectionData() const;
 
-  constexpr void __set__levelPackRedirectionData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>* value);
+  constexpr void
+  __cordl_internal_set__levelPackRedirectionData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SonyLevelProductModelSO__LevelPackRedirectionData*>* value);
 
   static inline ::GlobalNamespace::SonyPlatformAdditionalContentModel_1<T>* New_ctor(T levelPackProductsData, ::GlobalNamespace::ISonyCommerceHelper* sonyCommerceHelper,
                                                                                      ::GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer);

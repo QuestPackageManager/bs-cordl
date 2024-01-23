@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::ICancelHandler);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13188))
 // CS Name: ::UnityEngine.EventSystems::ICancelHandler*
 class CORDL_TYPE ICancelHandler {

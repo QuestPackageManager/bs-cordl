@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::System::Security::Cryptography::SHA1CryptoServiceProvider);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2958))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2958))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2986))
 // CS Name: ::System.Security.Cryptography::SHA1CryptoServiceProvider*
 class CORDL_TYPE SHA1CryptoServiceProvider : public ::System::Security::Cryptography::SHA1 {
 public:
   // Declarations
   /// @brief Field sha, offset 0x28, size 0x8
-  __declspec(property(get = __get_sha, put = __set_sha))::System::Security::Cryptography::SHA1Internal* sha;
+  __declspec(property(get = __cordl_internal_get_sha, put = __cordl_internal_set_sha))::System::Security::Cryptography::SHA1Internal* sha;
 
-  constexpr ::System::Security::Cryptography::SHA1Internal*& __get_sha();
+  constexpr ::System::Security::Cryptography::SHA1Internal*& __cordl_internal_get_sha();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::SHA1Internal*> const& __get_sha() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::SHA1Internal*> const& __cordl_internal_get_sha() const;
 
-  constexpr void __set_sha(::System::Security::Cryptography::SHA1Internal* value);
+  constexpr void __cordl_internal_set_sha(::System::Security::Cryptography::SHA1Internal* value);
 
   static inline ::System::Security::Cryptography::SHA1CryptoServiceProvider* New_ctor();
 

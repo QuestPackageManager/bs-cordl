@@ -50,7 +50,7 @@ MARK_VAL_T(::GlobalNamespace::__BezierSpline__ComputeControlPointsResults);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3993))
 // CS Name: ::BezierSpline::ComputeControlPointsResults
 struct CORDL_TYPE __BezierSpline__ComputeControlPointsResults {
@@ -90,7 +90,7 @@ static_assert(offsetof(::GlobalNamespace::__BezierSpline__ComputeControlPointsRe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3994))
 // CS Name: ::BezierSpline::<>c*
 class CORDL_TYPE __BezierSpline____c : public ::System::Object {
@@ -172,7 +172,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BezierSpline_
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3995))
 // CS Name: ::BezierSpline*
 class CORDL_TYPE BezierSpline : public ::System::Object {
@@ -183,24 +183,24 @@ public:
   using ComputeControlPointsResults = ::GlobalNamespace::__BezierSpline__ComputeControlPointsResults;
 
   /// @brief Field _segments, offset 0x10, size 0x8
-  __declspec(property(get = __get__segments, put = __set__segments))::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* _segments;
+  __declspec(property(get = __cordl_internal_get__segments, put = __cordl_internal_set__segments))::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* _segments;
 
   /// @brief Field _sourceDataPoints, offset 0x18, size 0x8
-  __declspec(property(get = __get__sourceDataPoints, put = __set__sourceDataPoints))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _sourceDataPoints;
+  __declspec(property(get = __cordl_internal_get__sourceDataPoints, put = __cordl_internal_set__sourceDataPoints))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* _sourceDataPoints;
 
   __declspec(property(get = get_segments))::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* segments;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>*& __get__segments();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>*& __cordl_internal_get__segments();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>*> const& __get__segments() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>*> const& __cordl_internal_get__segments() const;
 
-  constexpr void __set__segments(::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* value);
+  constexpr void __cordl_internal_set__segments(::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __get__sourceDataPoints();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get__sourceDataPoints();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __get__sourceDataPoints() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__sourceDataPoints() const;
 
-  constexpr void __set__sourceDataPoints(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set__sourceDataPoints(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
   /// @brief Method get_segments, addr 0x221de14, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* get_segments();

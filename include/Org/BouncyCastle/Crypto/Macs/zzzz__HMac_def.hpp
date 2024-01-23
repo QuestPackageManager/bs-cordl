@@ -29,32 +29,32 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Macs::HMac);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Macs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(943))
 // CS Name: ::Org.BouncyCastle.Crypto.Macs::HMac*
 class CORDL_TYPE HMac : public ::System::Object {
 public:
   // Declarations
   /// @brief Field digest, offset 0x10, size 0x8
-  __declspec(property(get = __get_digest, put = __set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
+  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
 
   /// @brief Field digestSize, offset 0x18, size 0x4
-  __declspec(property(get = __get_digestSize, put = __set_digestSize)) int32_t digestSize;
+  __declspec(property(get = __cordl_internal_get_digestSize, put = __cordl_internal_set_digestSize)) int32_t digestSize;
 
   /// @brief Field blockLength, offset 0x1c, size 0x4
-  __declspec(property(get = __get_blockLength, put = __set_blockLength)) int32_t blockLength;
+  __declspec(property(get = __cordl_internal_get_blockLength, put = __cordl_internal_set_blockLength)) int32_t blockLength;
 
   /// @brief Field ipadState, offset 0x20, size 0x8
-  __declspec(property(get = __get_ipadState, put = __set_ipadState))::Org::BouncyCastle::Utilities::IMemoable* ipadState;
+  __declspec(property(get = __cordl_internal_get_ipadState, put = __cordl_internal_set_ipadState))::Org::BouncyCastle::Utilities::IMemoable* ipadState;
 
   /// @brief Field opadState, offset 0x28, size 0x8
-  __declspec(property(get = __get_opadState, put = __set_opadState))::Org::BouncyCastle::Utilities::IMemoable* opadState;
+  __declspec(property(get = __cordl_internal_get_opadState, put = __cordl_internal_set_opadState))::Org::BouncyCastle::Utilities::IMemoable* opadState;
 
   /// @brief Field inputPad, offset 0x30, size 0x8
-  __declspec(property(get = __get_inputPad, put = __set_inputPad))::ArrayW<uint8_t, ::Array<uint8_t>*> inputPad;
+  __declspec(property(get = __cordl_internal_get_inputPad, put = __cordl_internal_set_inputPad))::ArrayW<uint8_t, ::Array<uint8_t>*> inputPad;
 
   /// @brief Field outputBuf, offset 0x38, size 0x8
-  __declspec(property(get = __get_outputBuf, put = __set_outputBuf))::ArrayW<uint8_t, ::Array<uint8_t>*> outputBuf;
+  __declspec(property(get = __cordl_internal_get_outputBuf, put = __cordl_internal_set_outputBuf))::ArrayW<uint8_t, ::Array<uint8_t>*> outputBuf;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -64,47 +64,47 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
   constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_digest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_digest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
 
-  constexpr void __set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr int32_t& __get_digestSize();
+  constexpr int32_t& __cordl_internal_get_digestSize();
 
-  constexpr int32_t const& __get_digestSize() const;
+  constexpr int32_t const& __cordl_internal_get_digestSize() const;
 
-  constexpr void __set_digestSize(int32_t value);
+  constexpr void __cordl_internal_set_digestSize(int32_t value);
 
-  constexpr int32_t& __get_blockLength();
+  constexpr int32_t& __cordl_internal_get_blockLength();
 
-  constexpr int32_t const& __get_blockLength() const;
+  constexpr int32_t const& __cordl_internal_get_blockLength() const;
 
-  constexpr void __set_blockLength(int32_t value);
+  constexpr void __cordl_internal_set_blockLength(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Utilities::IMemoable*& __get_ipadState();
+  constexpr ::Org::BouncyCastle::Utilities::IMemoable*& __cordl_internal_get_ipadState();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::IMemoable*> const& __get_ipadState() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::IMemoable*> const& __cordl_internal_get_ipadState() const;
 
-  constexpr void __set_ipadState(::Org::BouncyCastle::Utilities::IMemoable* value);
+  constexpr void __cordl_internal_set_ipadState(::Org::BouncyCastle::Utilities::IMemoable* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::IMemoable*& __get_opadState();
+  constexpr ::Org::BouncyCastle::Utilities::IMemoable*& __cordl_internal_get_opadState();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::IMemoable*> const& __get_opadState() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::IMemoable*> const& __cordl_internal_get_opadState() const;
 
-  constexpr void __set_opadState(::Org::BouncyCastle::Utilities::IMemoable* value);
+  constexpr void __cordl_internal_set_opadState(::Org::BouncyCastle::Utilities::IMemoable* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_inputPad();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_inputPad();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_inputPad() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_inputPad() const;
 
-  constexpr void __set_inputPad(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_inputPad(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_outputBuf();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_outputBuf();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_outputBuf() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_outputBuf() const;
 
-  constexpr void __set_outputBuf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_outputBuf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::HMac* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 

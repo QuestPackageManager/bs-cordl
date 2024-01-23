@@ -33,20 +33,20 @@ namespace UnityEngine::Events {
 // cpp template
 template <typename T0>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10461))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10461))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10465))
 // CS Name: ::UnityEngine.Events::UnityEvent`1<T0>*
 class CORDL_TYPE UnityEvent_1 : public ::UnityEngine::Events::UnityEventBase {
 public:
   // Declarations
   /// @brief Field m_InvokeArray, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_InvokeArray, put = __set_m_InvokeArray))::ArrayW<::System::Object*, ::Array<::System::Object*>*> m_InvokeArray;
+  __declspec(property(get = __cordl_internal_get_m_InvokeArray, put = __cordl_internal_set_m_InvokeArray))::ArrayW<::System::Object*, ::Array<::System::Object*>*> m_InvokeArray;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get_m_InvokeArray();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_m_InvokeArray();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get_m_InvokeArray() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_m_InvokeArray() const;
 
-  constexpr void __set_m_InvokeArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set_m_InvokeArray(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
   static inline ::UnityEngine::Events::UnityEvent_1<T0>* New_ctor();
 

@@ -133,7 +133,7 @@ MARK_REF_PTR_T(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__Waypo
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14829))
 // CS Name: ::BeatmapSaveData::BeatmapEventType
 struct CORDL_TYPE __BeatmapSaveData__BeatmapEventType {
@@ -271,23 +271,23 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14843)), TypeDefinitionIndex(TypeDefinitionIndex(14829))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14829)), TypeDefinitionIndex(TypeDefinitionIndex(14843))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14830))
 // CS Name: ::BeatmapSaveData::EventData*
 class CORDL_TYPE __BeatmapSaveData__EventData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
 public:
   // Declarations
   /// @brief Field _time, offset 0x10, size 0x4
-  __declspec(property(get = __get__time, put = __set__time)) float_t _time;
+  __declspec(property(get = __cordl_internal_get__time, put = __cordl_internal_set__time)) float_t _time;
 
   /// @brief Field _type, offset 0x14, size 0x4
-  __declspec(property(get = __get__type, put = __set__type))::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType _type;
 
   /// @brief Field _value, offset 0x18, size 0x4
-  __declspec(property(get = __get__value, put = __set__value)) int32_t _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) int32_t _value;
 
   /// @brief Field _floatValue, offset 0x1c, size 0x4
-  __declspec(property(get = __get__floatValue, put = __set__floatValue)) float_t _floatValue;
+  __declspec(property(get = __cordl_internal_get__floatValue, put = __cordl_internal_set__floatValue)) float_t _floatValue;
 
   __declspec(property(get = get_time)) float_t time;
 
@@ -297,29 +297,29 @@ public:
 
   __declspec(property(get = get_floatValue)) float_t floatValue;
 
-  constexpr float_t& __get__time();
+  constexpr float_t& __cordl_internal_get__time();
 
-  constexpr float_t const& __get__time() const;
+  constexpr float_t const& __cordl_internal_get__time() const;
 
-  constexpr void __set__time(float_t value);
+  constexpr void __cordl_internal_set__time(float_t value);
 
-  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType& __get__type();
+  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType& __cordl_internal_get__type();
 
-  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType const& __get__type() const;
+  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType const& __cordl_internal_get__type() const;
 
-  constexpr void __set__type(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType value);
+  constexpr void __cordl_internal_set__type(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType value);
 
-  constexpr int32_t& __get__value();
+  constexpr int32_t& __cordl_internal_get__value();
 
-  constexpr int32_t const& __get__value() const;
+  constexpr int32_t const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(int32_t value);
+  constexpr void __cordl_internal_set__value(int32_t value);
 
-  constexpr float_t& __get__floatValue();
+  constexpr float_t& __cordl_internal_get__floatValue();
 
-  constexpr float_t const& __get__floatValue() const;
+  constexpr float_t const& __cordl_internal_get__floatValue() const;
 
-  constexpr void __set__floatValue(float_t value);
+  constexpr void __cordl_internal_set__floatValue(float_t value);
 
   /// @brief Method get_time, addr 0xe08e5c, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
@@ -383,7 +383,7 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14831))
 // CS Name: ::BeatmapSaveData::BeatmapObjectType
 struct CORDL_TYPE __BeatmapSaveData__BeatmapObjectType {
@@ -437,7 +437,7 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14832))
 // CS Name: ::BeatmapSaveData::NoteType
 struct CORDL_TYPE __BeatmapSaveData__NoteType {
@@ -499,7 +499,7 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14833))
 // CS Name: ::BeatmapSaveData::ColorType
 struct CORDL_TYPE __BeatmapSaveData__ColorType {
@@ -553,7 +553,7 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14834))
 // CS Name: ::BeatmapSaveData::SliderType
 struct CORDL_TYPE __BeatmapSaveData__SliderType {
@@ -603,25 +603,25 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14843)), TypeDefinitionIndex(TypeDefinitionIndex(14832)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14755))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14835)) CS Name: ::BeatmapSaveData::NoteData*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14832)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14843))] Self: TypeDefinitionIndex(TypeDefinitionIndex(14835)) CS Name: ::BeatmapSaveData::NoteData*
 class CORDL_TYPE __BeatmapSaveData__NoteData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
 public:
   // Declarations
   /// @brief Field _time, offset 0x10, size 0x4
-  __declspec(property(get = __get__time, put = __set__time)) float_t _time;
+  __declspec(property(get = __cordl_internal_get__time, put = __cordl_internal_set__time)) float_t _time;
 
   /// @brief Field _lineIndex, offset 0x14, size 0x4
-  __declspec(property(get = __get__lineIndex, put = __set__lineIndex)) int32_t _lineIndex;
+  __declspec(property(get = __cordl_internal_get__lineIndex, put = __cordl_internal_set__lineIndex)) int32_t _lineIndex;
 
   /// @brief Field _lineLayer, offset 0x18, size 0x4
-  __declspec(property(get = __get__lineLayer, put = __set__lineLayer))::GlobalNamespace::NoteLineLayer _lineLayer;
+  __declspec(property(get = __cordl_internal_get__lineLayer, put = __cordl_internal_set__lineLayer))::GlobalNamespace::NoteLineLayer _lineLayer;
 
   /// @brief Field _type, offset 0x1c, size 0x4
-  __declspec(property(get = __get__type, put = __set__type))::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteType _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteType _type;
 
   /// @brief Field _cutDirection, offset 0x20, size 0x4
-  __declspec(property(get = __get__cutDirection, put = __set__cutDirection))::GlobalNamespace::NoteCutDirection _cutDirection;
+  __declspec(property(get = __cordl_internal_get__cutDirection, put = __cordl_internal_set__cutDirection))::GlobalNamespace::NoteCutDirection _cutDirection;
 
   __declspec(property(get = get_time)) float_t time;
 
@@ -633,35 +633,35 @@ public:
 
   __declspec(property(get = get_cutDirection))::GlobalNamespace::NoteCutDirection cutDirection;
 
-  constexpr float_t& __get__time();
+  constexpr float_t& __cordl_internal_get__time();
 
-  constexpr float_t const& __get__time() const;
+  constexpr float_t const& __cordl_internal_get__time() const;
 
-  constexpr void __set__time(float_t value);
+  constexpr void __cordl_internal_set__time(float_t value);
 
-  constexpr int32_t& __get__lineIndex();
+  constexpr int32_t& __cordl_internal_get__lineIndex();
 
-  constexpr int32_t const& __get__lineIndex() const;
+  constexpr int32_t const& __cordl_internal_get__lineIndex() const;
 
-  constexpr void __set__lineIndex(int32_t value);
+  constexpr void __cordl_internal_set__lineIndex(int32_t value);
 
-  constexpr ::GlobalNamespace::NoteLineLayer& __get__lineLayer();
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__lineLayer();
 
-  constexpr ::GlobalNamespace::NoteLineLayer const& __get__lineLayer() const;
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__lineLayer() const;
 
-  constexpr void __set__lineLayer(::GlobalNamespace::NoteLineLayer value);
+  constexpr void __cordl_internal_set__lineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteType& __get__type();
+  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteType& __cordl_internal_get__type();
 
-  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteType const& __get__type() const;
+  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteType const& __cordl_internal_get__type() const;
 
-  constexpr void __set__type(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteType value);
+  constexpr void __cordl_internal_set__type(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteType value);
 
-  constexpr ::GlobalNamespace::NoteCutDirection& __get__cutDirection();
+  constexpr ::GlobalNamespace::NoteCutDirection& __cordl_internal_get__cutDirection();
 
-  constexpr ::GlobalNamespace::NoteCutDirection const& __get__cutDirection() const;
+  constexpr ::GlobalNamespace::NoteCutDirection const& __cordl_internal_get__cutDirection() const;
 
-  constexpr void __set__cutDirection(::GlobalNamespace::NoteCutDirection value);
+  constexpr void __cordl_internal_set__cutDirection(::GlobalNamespace::NoteCutDirection value);
 
   /// @brief Method get_time, addr 0xe08e84, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
@@ -735,23 +735,23 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14762)), TypeDefinitionIndex(TypeDefinitionIndex(14843)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14762)), TypeDefinitionIndex(TypeDefinitionIndex(14843))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14836))
 // CS Name: ::BeatmapSaveData::WaypointData*
 class CORDL_TYPE __BeatmapSaveData__WaypointData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
 public:
   // Declarations
   /// @brief Field _time, offset 0x10, size 0x4
-  __declspec(property(get = __get__time, put = __set__time)) float_t _time;
+  __declspec(property(get = __cordl_internal_get__time, put = __cordl_internal_set__time)) float_t _time;
 
   /// @brief Field _lineIndex, offset 0x14, size 0x4
-  __declspec(property(get = __get__lineIndex, put = __set__lineIndex)) int32_t _lineIndex;
+  __declspec(property(get = __cordl_internal_get__lineIndex, put = __cordl_internal_set__lineIndex)) int32_t _lineIndex;
 
   /// @brief Field _lineLayer, offset 0x18, size 0x4
-  __declspec(property(get = __get__lineLayer, put = __set__lineLayer))::GlobalNamespace::NoteLineLayer _lineLayer;
+  __declspec(property(get = __cordl_internal_get__lineLayer, put = __cordl_internal_set__lineLayer))::GlobalNamespace::NoteLineLayer _lineLayer;
 
   /// @brief Field _offsetDirection, offset 0x1c, size 0x4
-  __declspec(property(get = __get__offsetDirection, put = __set__offsetDirection))::GlobalNamespace::OffsetDirection _offsetDirection;
+  __declspec(property(get = __cordl_internal_get__offsetDirection, put = __cordl_internal_set__offsetDirection))::GlobalNamespace::OffsetDirection _offsetDirection;
 
   __declspec(property(get = get_time)) float_t time;
 
@@ -761,29 +761,29 @@ public:
 
   __declspec(property(get = get_offsetDirection))::GlobalNamespace::OffsetDirection offsetDirection;
 
-  constexpr float_t& __get__time();
+  constexpr float_t& __cordl_internal_get__time();
 
-  constexpr float_t const& __get__time() const;
+  constexpr float_t const& __cordl_internal_get__time() const;
 
-  constexpr void __set__time(float_t value);
+  constexpr void __cordl_internal_set__time(float_t value);
 
-  constexpr int32_t& __get__lineIndex();
+  constexpr int32_t& __cordl_internal_get__lineIndex();
 
-  constexpr int32_t const& __get__lineIndex() const;
+  constexpr int32_t const& __cordl_internal_get__lineIndex() const;
 
-  constexpr void __set__lineIndex(int32_t value);
+  constexpr void __cordl_internal_set__lineIndex(int32_t value);
 
-  constexpr ::GlobalNamespace::NoteLineLayer& __get__lineLayer();
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__lineLayer();
 
-  constexpr ::GlobalNamespace::NoteLineLayer const& __get__lineLayer() const;
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__lineLayer() const;
 
-  constexpr void __set__lineLayer(::GlobalNamespace::NoteLineLayer value);
+  constexpr void __cordl_internal_set__lineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  constexpr ::GlobalNamespace::OffsetDirection& __get__offsetDirection();
+  constexpr ::GlobalNamespace::OffsetDirection& __cordl_internal_get__offsetDirection();
 
-  constexpr ::GlobalNamespace::OffsetDirection const& __get__offsetDirection() const;
+  constexpr ::GlobalNamespace::OffsetDirection const& __cordl_internal_get__offsetDirection() const;
 
-  constexpr void __set__offsetDirection(::GlobalNamespace::OffsetDirection value);
+  constexpr void __cordl_internal_set__offsetDirection(::GlobalNamespace::OffsetDirection value);
 
   /// @brief Method get_time, addr 0xe08efc, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
@@ -847,46 +847,46 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14766)), TypeDefinitionIndex(TypeDefinitionIndex(14843)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14833)), TypeDefinitionIndex(TypeDefinitionIndex(14755))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14837)) CS Name: ::BeatmapSaveData::SliderData*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14766)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14833)), TypeDefinitionIndex(TypeDefinitionIndex(14843))] Self: TypeDefinitionIndex(TypeDefinitionIndex(14837)) CS Name: ::BeatmapSaveData::SliderData*
 class CORDL_TYPE __BeatmapSaveData__SliderData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
 public:
   // Declarations
   /// @brief Field _colorType, offset 0x10, size 0x4
-  __declspec(property(get = __get__colorType, put = __set__colorType))::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ColorType _colorType;
+  __declspec(property(get = __cordl_internal_get__colorType, put = __cordl_internal_set__colorType))::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ColorType _colorType;
 
   /// @brief Field _headTime, offset 0x14, size 0x4
-  __declspec(property(get = __get__headTime, put = __set__headTime)) float_t _headTime;
+  __declspec(property(get = __cordl_internal_get__headTime, put = __cordl_internal_set__headTime)) float_t _headTime;
 
   /// @brief Field _headLineIndex, offset 0x18, size 0x4
-  __declspec(property(get = __get__headLineIndex, put = __set__headLineIndex)) int32_t _headLineIndex;
+  __declspec(property(get = __cordl_internal_get__headLineIndex, put = __cordl_internal_set__headLineIndex)) int32_t _headLineIndex;
 
   /// @brief Field _headLineLayer, offset 0x1c, size 0x4
-  __declspec(property(get = __get__headLineLayer, put = __set__headLineLayer))::GlobalNamespace::NoteLineLayer _headLineLayer;
+  __declspec(property(get = __cordl_internal_get__headLineLayer, put = __cordl_internal_set__headLineLayer))::GlobalNamespace::NoteLineLayer _headLineLayer;
 
   /// @brief Field _headControlPointLengthMultiplier, offset 0x20, size 0x4
-  __declspec(property(get = __get__headControlPointLengthMultiplier, put = __set__headControlPointLengthMultiplier)) float_t _headControlPointLengthMultiplier;
+  __declspec(property(get = __cordl_internal_get__headControlPointLengthMultiplier, put = __cordl_internal_set__headControlPointLengthMultiplier)) float_t _headControlPointLengthMultiplier;
 
   /// @brief Field _headCutDirection, offset 0x24, size 0x4
-  __declspec(property(get = __get__headCutDirection, put = __set__headCutDirection))::GlobalNamespace::NoteCutDirection _headCutDirection;
+  __declspec(property(get = __cordl_internal_get__headCutDirection, put = __cordl_internal_set__headCutDirection))::GlobalNamespace::NoteCutDirection _headCutDirection;
 
   /// @brief Field _tailTime, offset 0x28, size 0x4
-  __declspec(property(get = __get__tailTime, put = __set__tailTime)) float_t _tailTime;
+  __declspec(property(get = __cordl_internal_get__tailTime, put = __cordl_internal_set__tailTime)) float_t _tailTime;
 
   /// @brief Field _tailLineIndex, offset 0x2c, size 0x4
-  __declspec(property(get = __get__tailLineIndex, put = __set__tailLineIndex)) int32_t _tailLineIndex;
+  __declspec(property(get = __cordl_internal_get__tailLineIndex, put = __cordl_internal_set__tailLineIndex)) int32_t _tailLineIndex;
 
   /// @brief Field _tailLineLayer, offset 0x30, size 0x4
-  __declspec(property(get = __get__tailLineLayer, put = __set__tailLineLayer))::GlobalNamespace::NoteLineLayer _tailLineLayer;
+  __declspec(property(get = __cordl_internal_get__tailLineLayer, put = __cordl_internal_set__tailLineLayer))::GlobalNamespace::NoteLineLayer _tailLineLayer;
 
   /// @brief Field _tailControlPointLengthMultiplier, offset 0x34, size 0x4
-  __declspec(property(get = __get__tailControlPointLengthMultiplier, put = __set__tailControlPointLengthMultiplier)) float_t _tailControlPointLengthMultiplier;
+  __declspec(property(get = __cordl_internal_get__tailControlPointLengthMultiplier, put = __cordl_internal_set__tailControlPointLengthMultiplier)) float_t _tailControlPointLengthMultiplier;
 
   /// @brief Field _tailCutDirection, offset 0x38, size 0x4
-  __declspec(property(get = __get__tailCutDirection, put = __set__tailCutDirection))::GlobalNamespace::NoteCutDirection _tailCutDirection;
+  __declspec(property(get = __cordl_internal_get__tailCutDirection, put = __cordl_internal_set__tailCutDirection))::GlobalNamespace::NoteCutDirection _tailCutDirection;
 
   /// @brief Field _sliderMidAnchorMode, offset 0x3c, size 0x4
-  __declspec(property(get = __get__sliderMidAnchorMode, put = __set__sliderMidAnchorMode))::GlobalNamespace::SliderMidAnchorMode _sliderMidAnchorMode;
+  __declspec(property(get = __cordl_internal_get__sliderMidAnchorMode, put = __cordl_internal_set__sliderMidAnchorMode))::GlobalNamespace::SliderMidAnchorMode _sliderMidAnchorMode;
 
   __declspec(property(get = get_time)) float_t time;
 
@@ -912,77 +912,77 @@ public:
 
   __declspec(property(get = get_sliderMidAnchorMode))::GlobalNamespace::SliderMidAnchorMode sliderMidAnchorMode;
 
-  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ColorType& __get__colorType();
+  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ColorType& __cordl_internal_get__colorType();
 
-  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ColorType const& __get__colorType() const;
+  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ColorType const& __cordl_internal_get__colorType() const;
 
-  constexpr void __set__colorType(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ColorType value);
+  constexpr void __cordl_internal_set__colorType(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ColorType value);
 
-  constexpr float_t& __get__headTime();
+  constexpr float_t& __cordl_internal_get__headTime();
 
-  constexpr float_t const& __get__headTime() const;
+  constexpr float_t const& __cordl_internal_get__headTime() const;
 
-  constexpr void __set__headTime(float_t value);
+  constexpr void __cordl_internal_set__headTime(float_t value);
 
-  constexpr int32_t& __get__headLineIndex();
+  constexpr int32_t& __cordl_internal_get__headLineIndex();
 
-  constexpr int32_t const& __get__headLineIndex() const;
+  constexpr int32_t const& __cordl_internal_get__headLineIndex() const;
 
-  constexpr void __set__headLineIndex(int32_t value);
+  constexpr void __cordl_internal_set__headLineIndex(int32_t value);
 
-  constexpr ::GlobalNamespace::NoteLineLayer& __get__headLineLayer();
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__headLineLayer();
 
-  constexpr ::GlobalNamespace::NoteLineLayer const& __get__headLineLayer() const;
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__headLineLayer() const;
 
-  constexpr void __set__headLineLayer(::GlobalNamespace::NoteLineLayer value);
+  constexpr void __cordl_internal_set__headLineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  constexpr float_t& __get__headControlPointLengthMultiplier();
+  constexpr float_t& __cordl_internal_get__headControlPointLengthMultiplier();
 
-  constexpr float_t const& __get__headControlPointLengthMultiplier() const;
+  constexpr float_t const& __cordl_internal_get__headControlPointLengthMultiplier() const;
 
-  constexpr void __set__headControlPointLengthMultiplier(float_t value);
+  constexpr void __cordl_internal_set__headControlPointLengthMultiplier(float_t value);
 
-  constexpr ::GlobalNamespace::NoteCutDirection& __get__headCutDirection();
+  constexpr ::GlobalNamespace::NoteCutDirection& __cordl_internal_get__headCutDirection();
 
-  constexpr ::GlobalNamespace::NoteCutDirection const& __get__headCutDirection() const;
+  constexpr ::GlobalNamespace::NoteCutDirection const& __cordl_internal_get__headCutDirection() const;
 
-  constexpr void __set__headCutDirection(::GlobalNamespace::NoteCutDirection value);
+  constexpr void __cordl_internal_set__headCutDirection(::GlobalNamespace::NoteCutDirection value);
 
-  constexpr float_t& __get__tailTime();
+  constexpr float_t& __cordl_internal_get__tailTime();
 
-  constexpr float_t const& __get__tailTime() const;
+  constexpr float_t const& __cordl_internal_get__tailTime() const;
 
-  constexpr void __set__tailTime(float_t value);
+  constexpr void __cordl_internal_set__tailTime(float_t value);
 
-  constexpr int32_t& __get__tailLineIndex();
+  constexpr int32_t& __cordl_internal_get__tailLineIndex();
 
-  constexpr int32_t const& __get__tailLineIndex() const;
+  constexpr int32_t const& __cordl_internal_get__tailLineIndex() const;
 
-  constexpr void __set__tailLineIndex(int32_t value);
+  constexpr void __cordl_internal_set__tailLineIndex(int32_t value);
 
-  constexpr ::GlobalNamespace::NoteLineLayer& __get__tailLineLayer();
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__tailLineLayer();
 
-  constexpr ::GlobalNamespace::NoteLineLayer const& __get__tailLineLayer() const;
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__tailLineLayer() const;
 
-  constexpr void __set__tailLineLayer(::GlobalNamespace::NoteLineLayer value);
+  constexpr void __cordl_internal_set__tailLineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  constexpr float_t& __get__tailControlPointLengthMultiplier();
+  constexpr float_t& __cordl_internal_get__tailControlPointLengthMultiplier();
 
-  constexpr float_t const& __get__tailControlPointLengthMultiplier() const;
+  constexpr float_t const& __cordl_internal_get__tailControlPointLengthMultiplier() const;
 
-  constexpr void __set__tailControlPointLengthMultiplier(float_t value);
+  constexpr void __cordl_internal_set__tailControlPointLengthMultiplier(float_t value);
 
-  constexpr ::GlobalNamespace::NoteCutDirection& __get__tailCutDirection();
+  constexpr ::GlobalNamespace::NoteCutDirection& __cordl_internal_get__tailCutDirection();
 
-  constexpr ::GlobalNamespace::NoteCutDirection const& __get__tailCutDirection() const;
+  constexpr ::GlobalNamespace::NoteCutDirection const& __cordl_internal_get__tailCutDirection() const;
 
-  constexpr void __set__tailCutDirection(::GlobalNamespace::NoteCutDirection value);
+  constexpr void __cordl_internal_set__tailCutDirection(::GlobalNamespace::NoteCutDirection value);
 
-  constexpr ::GlobalNamespace::SliderMidAnchorMode& __get__sliderMidAnchorMode();
+  constexpr ::GlobalNamespace::SliderMidAnchorMode& __cordl_internal_get__sliderMidAnchorMode();
 
-  constexpr ::GlobalNamespace::SliderMidAnchorMode const& __get__sliderMidAnchorMode() const;
+  constexpr ::GlobalNamespace::SliderMidAnchorMode const& __cordl_internal_get__sliderMidAnchorMode() const;
 
-  constexpr void __set__sliderMidAnchorMode(::GlobalNamespace::SliderMidAnchorMode value);
+  constexpr void __cordl_internal_set__sliderMidAnchorMode(::GlobalNamespace::SliderMidAnchorMode value);
 
   /// @brief Method get_time, addr 0xe08f68, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
@@ -1115,7 +1115,7 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14839))
 // CS Name: ::BeatmapSaveData::ObstacleType
 struct CORDL_TYPE __BeatmapSaveData__ObstacleType {
@@ -1169,26 +1169,26 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14843)), TypeDefinitionIndex(TypeDefinitionIndex(14839))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14839)), TypeDefinitionIndex(TypeDefinitionIndex(14843))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14838))
 // CS Name: ::BeatmapSaveData::ObstacleData*
 class CORDL_TYPE __BeatmapSaveData__ObstacleData : public ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveDataItem {
 public:
   // Declarations
   /// @brief Field _time, offset 0x10, size 0x4
-  __declspec(property(get = __get__time, put = __set__time)) float_t _time;
+  __declspec(property(get = __cordl_internal_get__time, put = __cordl_internal_set__time)) float_t _time;
 
   /// @brief Field _lineIndex, offset 0x14, size 0x4
-  __declspec(property(get = __get__lineIndex, put = __set__lineIndex)) int32_t _lineIndex;
+  __declspec(property(get = __cordl_internal_get__lineIndex, put = __cordl_internal_set__lineIndex)) int32_t _lineIndex;
 
   /// @brief Field _type, offset 0x18, size 0x4
-  __declspec(property(get = __get__type, put = __set__type))::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleType _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleType _type;
 
   /// @brief Field _duration, offset 0x1c, size 0x4
-  __declspec(property(get = __get__duration, put = __set__duration)) float_t _duration;
+  __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
 
   /// @brief Field _width, offset 0x20, size 0x4
-  __declspec(property(get = __get__width, put = __set__width)) int32_t _width;
+  __declspec(property(get = __cordl_internal_get__width, put = __cordl_internal_set__width)) int32_t _width;
 
   __declspec(property(get = get_time)) float_t time;
 
@@ -1200,35 +1200,35 @@ public:
 
   __declspec(property(get = get_width)) int32_t width;
 
-  constexpr float_t& __get__time();
+  constexpr float_t& __cordl_internal_get__time();
 
-  constexpr float_t const& __get__time() const;
+  constexpr float_t const& __cordl_internal_get__time() const;
 
-  constexpr void __set__time(float_t value);
+  constexpr void __cordl_internal_set__time(float_t value);
 
-  constexpr int32_t& __get__lineIndex();
+  constexpr int32_t& __cordl_internal_get__lineIndex();
 
-  constexpr int32_t const& __get__lineIndex() const;
+  constexpr int32_t const& __cordl_internal_get__lineIndex() const;
 
-  constexpr void __set__lineIndex(int32_t value);
+  constexpr void __cordl_internal_set__lineIndex(int32_t value);
 
-  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleType& __get__type();
+  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleType& __cordl_internal_get__type();
 
-  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleType const& __get__type() const;
+  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleType const& __cordl_internal_get__type() const;
 
-  constexpr void __set__type(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleType value);
+  constexpr void __cordl_internal_set__type(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleType value);
 
-  constexpr float_t& __get__duration();
+  constexpr float_t& __cordl_internal_get__duration();
 
-  constexpr float_t const& __get__duration() const;
+  constexpr float_t const& __cordl_internal_get__duration() const;
 
-  constexpr void __set__duration(float_t value);
+  constexpr void __cordl_internal_set__duration(float_t value);
 
-  constexpr int32_t& __get__width();
+  constexpr int32_t& __cordl_internal_get__width();
 
-  constexpr int32_t const& __get__width() const;
+  constexpr int32_t const& __cordl_internal_get__width() const;
 
-  constexpr void __set__width(int32_t value);
+  constexpr void __cordl_internal_set__width(int32_t value);
 
   /// @brief Method get_time, addr 0xe09064, size 0x8, virtual true, abstract: false, final false
   inline float_t get_time();
@@ -1300,24 +1300,24 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14840))
 // CS Name: ::BeatmapSaveData::SpecialEventKeywordFiltersData*
 class CORDL_TYPE __BeatmapSaveData__SpecialEventKeywordFiltersData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _keywords, offset 0x10, size 0x8
-  __declspec(property(get = __get__keywords,
-                      put = __set__keywords))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*>* _keywords;
+  __declspec(property(get = __cordl_internal_get__keywords,
+                      put = __cordl_internal_set__keywords))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*>* _keywords;
 
   __declspec(property(get = get_keywords))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*>* keywords;
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*>*& __get__keywords();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*>*& __cordl_internal_get__keywords();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*>*> const&
-  __get__keywords() const;
+  __cordl_internal_get__keywords() const;
 
-  constexpr void __set__keywords(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*>* value);
+  constexpr void __cordl_internal_set__keywords(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*>* value);
 
   /// @brief Method get_keywords, addr 0xe090e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventsForKeyword*>* get_keywords();
@@ -1357,35 +1357,35 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14841))
 // CS Name: ::BeatmapSaveData::SpecialEventsForKeyword*
 class CORDL_TYPE __BeatmapSaveData__SpecialEventsForKeyword : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _keyword, offset 0x10, size 0x8
-  __declspec(property(get = __get__keyword, put = __set__keyword))::StringW _keyword;
+  __declspec(property(get = __cordl_internal_get__keyword, put = __cordl_internal_set__keyword))::StringW _keyword;
 
   /// @brief Field _specialEvents, offset 0x18, size 0x8
-  __declspec(property(get = __get__specialEvents,
-                      put = __set__specialEvents))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>* _specialEvents;
+  __declspec(property(get = __cordl_internal_get__specialEvents,
+                      put = __cordl_internal_set__specialEvents))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>* _specialEvents;
 
   __declspec(property(get = get_keyword))::StringW keyword;
 
   __declspec(property(get = get_specialEvents))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>* specialEvents;
 
-  constexpr ::StringW& __get__keyword();
+  constexpr ::StringW& __cordl_internal_get__keyword();
 
-  constexpr ::StringW const& __get__keyword() const;
+  constexpr ::StringW const& __cordl_internal_get__keyword() const;
 
-  constexpr void __set__keyword(::StringW value);
+  constexpr void __cordl_internal_set__keyword(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>*& __get__specialEvents();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>*& __cordl_internal_get__specialEvents();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>*> const&
-  __get__specialEvents() const;
+  __cordl_internal_get__specialEvents() const;
 
-  constexpr void __set__specialEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>* value);
+  constexpr void __cordl_internal_set__specialEvents(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType>* value);
 
   /// @brief Method get_keyword, addr 0xe09110, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_keyword();
@@ -1433,7 +1433,7 @@ static_assert(offsetof(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveDat
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapSaveDataVersion2_6_0AndEarlier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14829)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14829))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14842))
 // CS Name: ::BeatmapSaveDataVersion2_6_0AndEarlier::BeatmapSaveData*
 class CORDL_TYPE BeatmapSaveData : public ::System::Object {
@@ -1466,26 +1466,31 @@ public:
   using BeatmapEventType = ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__BeatmapEventType;
 
   /// @brief Field _version, offset 0x10, size 0x8
-  __declspec(property(get = __get__version, put = __set__version))::StringW _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version))::StringW _version;
 
   /// @brief Field _events, offset 0x18, size 0x8
-  __declspec(property(get = __get__events, put = __set__events))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData*>* _events;
+  __declspec(property(get = __cordl_internal_get__events,
+                      put = __cordl_internal_set__events))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData*>* _events;
 
   /// @brief Field _notes, offset 0x20, size 0x8
-  __declspec(property(get = __get__notes, put = __set__notes))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData*>* _notes;
+  __declspec(property(get = __cordl_internal_get__notes,
+                      put = __cordl_internal_set__notes))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData*>* _notes;
 
   /// @brief Field _sliders, offset 0x28, size 0x8
-  __declspec(property(get = __get__sliders, put = __set__sliders))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData*>* _sliders;
+  __declspec(property(get = __cordl_internal_get__sliders,
+                      put = __cordl_internal_set__sliders))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData*>* _sliders;
 
   /// @brief Field _waypoints, offset 0x30, size 0x8
-  __declspec(property(get = __get__waypoints, put = __set__waypoints))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData*>* _waypoints;
+  __declspec(property(get = __cordl_internal_get__waypoints,
+                      put = __cordl_internal_set__waypoints))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData*>* _waypoints;
 
   /// @brief Field _obstacles, offset 0x38, size 0x8
-  __declspec(property(get = __get__obstacles, put = __set__obstacles))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData*>* _obstacles;
+  __declspec(property(get = __cordl_internal_get__obstacles,
+                      put = __cordl_internal_set__obstacles))::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData*>* _obstacles;
 
   /// @brief Field _specialEventsKeywordFilters, offset 0x40, size 0x8
-  __declspec(property(get = __get__specialEventsKeywordFilters,
-                      put = __set__specialEventsKeywordFilters))::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData* _specialEventsKeywordFilters;
+  __declspec(property(get = __cordl_internal_get__specialEventsKeywordFilters,
+                      put = __cordl_internal_set__specialEventsKeywordFilters))::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData* _specialEventsKeywordFilters;
 
   __declspec(property(get = get_version))::StringW version;
 
@@ -1501,47 +1506,53 @@ public:
 
   __declspec(property(get = get_specialEventsKeywordFilters))::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData* specialEventsKeywordFilters;
 
-  constexpr ::StringW& __get__version();
+  constexpr ::StringW& __cordl_internal_get__version();
 
-  constexpr ::StringW const& __get__version() const;
+  constexpr ::StringW const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(::StringW value);
+  constexpr void __cordl_internal_set__version(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData*>*& __get__events();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData*>*& __cordl_internal_get__events();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData*>*> const& __get__events() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData*>*> const&
+  __cordl_internal_get__events() const;
 
-  constexpr void __set__events(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData*>* value);
+  constexpr void __cordl_internal_set__events(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__EventData*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData*>*& __get__notes();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData*>*& __cordl_internal_get__notes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData*>*> const& __get__notes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData*>*> const&
+  __cordl_internal_get__notes() const;
 
-  constexpr void __set__notes(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData*>* value);
+  constexpr void __cordl_internal_set__notes(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__NoteData*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData*>*& __get__sliders();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData*>*& __cordl_internal_get__sliders();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData*>*> const& __get__sliders() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData*>*> const&
+  __cordl_internal_get__sliders() const;
 
-  constexpr void __set__sliders(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData*>* value);
+  constexpr void __cordl_internal_set__sliders(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SliderData*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData*>*& __get__waypoints();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData*>*& __cordl_internal_get__waypoints();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData*>*> const& __get__waypoints() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData*>*> const&
+  __cordl_internal_get__waypoints() const;
 
-  constexpr void __set__waypoints(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData*>* value);
+  constexpr void __cordl_internal_set__waypoints(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__WaypointData*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData*>*& __get__obstacles();
+  constexpr ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData*>*& __cordl_internal_get__obstacles();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData*>*> const& __get__obstacles() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData*>*> const&
+  __cordl_internal_get__obstacles() const;
 
-  constexpr void __set__obstacles(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData*>* value);
+  constexpr void __cordl_internal_set__obstacles(::System::Collections::Generic::List_1<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__ObstacleData*>* value);
 
-  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData*& __get__specialEventsKeywordFilters();
+  constexpr ::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData*& __cordl_internal_get__specialEventsKeywordFilters();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData*> const& __get__specialEventsKeywordFilters() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData*> const&
+  __cordl_internal_get__specialEventsKeywordFilters() const;
 
-  constexpr void __set__specialEventsKeywordFilters(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData* value);
+  constexpr void __cordl_internal_set__specialEventsKeywordFilters(::BeatmapSaveDataVersion2_6_0AndEarlier::__BeatmapSaveData__SpecialEventKeywordFiltersData* value);
 
   /// @brief Method get_version, addr 0xe08914, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();

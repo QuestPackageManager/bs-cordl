@@ -24,7 +24,7 @@ MARK_VAL_T(::Mono::__MonoAssemblyName___public_key_token_e__FixedBuffer);
 // SizeInfo { instance_size: 17, native_size: 17, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace Mono {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2240))
 // CS Name: ::MonoAssemblyName::<public_key_token>e__FixedBuffer
 #pragma pack(push, 0)
@@ -60,7 +60,7 @@ static_assert(offsetof(::Mono::__MonoAssemblyName___public_key_token_e__FixedBuf
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 90, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2240)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2240)), TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2241))
 // CS Name: ::Mono::MonoAssemblyName
 struct CORDL_TYPE MonoAssemblyName {

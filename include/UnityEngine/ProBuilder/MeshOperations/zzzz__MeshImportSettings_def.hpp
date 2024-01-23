@@ -16,20 +16,20 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12270))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::MeshImportSettings*
 class CORDL_TYPE MeshImportSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Quads, offset 0x10, size 0x1
-  __declspec(property(get = __get_m_Quads, put = __set_m_Quads)) bool m_Quads;
+  __declspec(property(get = __cordl_internal_get_m_Quads, put = __cordl_internal_set_m_Quads)) bool m_Quads;
 
   /// @brief Field m_Smoothing, offset 0x11, size 0x1
-  __declspec(property(get = __get_m_Smoothing, put = __set_m_Smoothing)) bool m_Smoothing;
+  __declspec(property(get = __cordl_internal_get_m_Smoothing, put = __cordl_internal_set_m_Smoothing)) bool m_Smoothing;
 
   /// @brief Field m_SmoothingThreshold, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_SmoothingThreshold, put = __set_m_SmoothingThreshold)) float_t m_SmoothingThreshold;
+  __declspec(property(get = __cordl_internal_get_m_SmoothingThreshold, put = __cordl_internal_set_m_SmoothingThreshold)) float_t m_SmoothingThreshold;
 
   __declspec(property(get = get_quads, put = set_quads)) bool quads;
 
@@ -37,23 +37,23 @@ public:
 
   __declspec(property(get = get_smoothingAngle, put = set_smoothingAngle)) float_t smoothingAngle;
 
-  constexpr bool& __get_m_Quads();
+  constexpr bool& __cordl_internal_get_m_Quads();
 
-  constexpr bool const& __get_m_Quads() const;
+  constexpr bool const& __cordl_internal_get_m_Quads() const;
 
-  constexpr void __set_m_Quads(bool value);
+  constexpr void __cordl_internal_set_m_Quads(bool value);
 
-  constexpr bool& __get_m_Smoothing();
+  constexpr bool& __cordl_internal_get_m_Smoothing();
 
-  constexpr bool const& __get_m_Smoothing() const;
+  constexpr bool const& __cordl_internal_get_m_Smoothing() const;
 
-  constexpr void __set_m_Smoothing(bool value);
+  constexpr void __cordl_internal_set_m_Smoothing(bool value);
 
-  constexpr float_t& __get_m_SmoothingThreshold();
+  constexpr float_t& __cordl_internal_get_m_SmoothingThreshold();
 
-  constexpr float_t const& __get_m_SmoothingThreshold() const;
+  constexpr float_t const& __cordl_internal_get_m_SmoothingThreshold() const;
 
-  constexpr void __set_m_SmoothingThreshold(float_t value);
+  constexpr void __cordl_internal_set_m_SmoothingThreshold(float_t value);
 
   /// @brief Method get_quads, addr 0x2bb9b38, size 0x8, virtual false, abstract: false, final false
   inline bool get_quads();

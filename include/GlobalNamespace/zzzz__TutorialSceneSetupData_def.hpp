@@ -20,29 +20,29 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialSceneSetupData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15408))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15408))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6059))
 // CS Name: ::TutorialSceneSetupData*
 class CORDL_TYPE TutorialSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
   /// @brief Field colorScheme, offset 0x10, size 0x8
-  __declspec(property(get = __get_colorScheme, put = __set_colorScheme))::GlobalNamespace::ColorScheme* colorScheme;
+  __declspec(property(get = __cordl_internal_get_colorScheme, put = __cordl_internal_set_colorScheme))::GlobalNamespace::ColorScheme* colorScheme;
 
   /// @brief Field playerSpecificSettings, offset 0x18, size 0x8
-  __declspec(property(get = __get_playerSpecificSettings, put = __set_playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
+  __declspec(property(get = __cordl_internal_get_playerSpecificSettings, put = __cordl_internal_set_playerSpecificSettings))::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings;
 
-  constexpr ::GlobalNamespace::ColorScheme*& __get_colorScheme();
+  constexpr ::GlobalNamespace::ColorScheme*& __cordl_internal_get_colorScheme();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& __get_colorScheme() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& __cordl_internal_get_colorScheme() const;
 
-  constexpr void __set_colorScheme(::GlobalNamespace::ColorScheme* value);
+  constexpr void __cordl_internal_set_colorScheme(::GlobalNamespace::ColorScheme* value);
 
-  constexpr ::GlobalNamespace::PlayerSpecificSettings*& __get_playerSpecificSettings();
+  constexpr ::GlobalNamespace::PlayerSpecificSettings*& __cordl_internal_get_playerSpecificSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __get_playerSpecificSettings() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& __cordl_internal_get_playerSpecificSettings() const;
 
-  constexpr void __set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
+  constexpr void __cordl_internal_set_playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value);
 
   static inline ::GlobalNamespace::TutorialSceneSetupData* New_ctor(::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings);
 

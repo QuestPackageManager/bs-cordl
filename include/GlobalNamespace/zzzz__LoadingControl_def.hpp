@@ -34,103 +34,103 @@ MARK_REF_PTR_T(::GlobalNamespace::LoadingControl);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5432))
 // CS Name: ::LoadingControl*
 class CORDL_TYPE LoadingControl : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _loadingContainer, offset 0x18, size 0x8
-  __declspec(property(get = __get__loadingContainer, put = __set__loadingContainer))::UnityEngine::GameObject* _loadingContainer;
+  __declspec(property(get = __cordl_internal_get__loadingContainer, put = __cordl_internal_set__loadingContainer))::UnityW<::UnityEngine::GameObject> _loadingContainer;
 
   /// @brief Field _loadingText, offset 0x20, size 0x8
-  __declspec(property(get = __get__loadingText, put = __set__loadingText))::TMPro::TextMeshProUGUI* _loadingText;
+  __declspec(property(get = __cordl_internal_get__loadingText, put = __cordl_internal_set__loadingText))::UnityW<::TMPro::TextMeshProUGUI> _loadingText;
 
   /// @brief Field _refreshText, offset 0x28, size 0x8
-  __declspec(property(get = __get__refreshText, put = __set__refreshText))::TMPro::TextMeshProUGUI* _refreshText;
+  __declspec(property(get = __cordl_internal_get__refreshText, put = __cordl_internal_set__refreshText))::UnityW<::TMPro::TextMeshProUGUI> _refreshText;
 
   /// @brief Field _refreshButton, offset 0x30, size 0x8
-  __declspec(property(get = __get__refreshButton, put = __set__refreshButton))::UnityEngine::UI::Button* _refreshButton;
+  __declspec(property(get = __cordl_internal_get__refreshButton, put = __cordl_internal_set__refreshButton))::UnityW<::UnityEngine::UI::Button> _refreshButton;
 
   /// @brief Field _refreshContainer, offset 0x38, size 0x8
-  __declspec(property(get = __get__refreshContainer, put = __set__refreshContainer))::UnityEngine::GameObject* _refreshContainer;
+  __declspec(property(get = __cordl_internal_get__refreshContainer, put = __cordl_internal_set__refreshContainer))::UnityW<::UnityEngine::GameObject> _refreshContainer;
 
   /// @brief Field _downloadingContainer, offset 0x40, size 0x8
-  __declspec(property(get = __get__downloadingContainer, put = __set__downloadingContainer))::UnityEngine::GameObject* _downloadingContainer;
+  __declspec(property(get = __cordl_internal_get__downloadingContainer, put = __cordl_internal_set__downloadingContainer))::UnityW<::UnityEngine::GameObject> _downloadingContainer;
 
   /// @brief Field _downloadingText, offset 0x48, size 0x8
-  __declspec(property(get = __get__downloadingText, put = __set__downloadingText))::TMPro::TextMeshProUGUI* _downloadingText;
+  __declspec(property(get = __cordl_internal_get__downloadingText, put = __cordl_internal_set__downloadingText))::UnityW<::TMPro::TextMeshProUGUI> _downloadingText;
 
   /// @brief Field _donwloadingProgressImage, offset 0x50, size 0x8
-  __declspec(property(get = __get__donwloadingProgressImage, put = __set__donwloadingProgressImage))::UnityEngine::UI::Image* _donwloadingProgressImage;
+  __declspec(property(get = __cordl_internal_get__donwloadingProgressImage, put = __cordl_internal_set__donwloadingProgressImage))::UnityW<::UnityEngine::UI::Image> _donwloadingProgressImage;
 
   /// @brief Field didPressRefreshButtonEvent, offset 0x58, size 0x8
-  __declspec(property(get = __get_didPressRefreshButtonEvent, put = __set_didPressRefreshButtonEvent))::System::Action* didPressRefreshButtonEvent;
+  __declspec(property(get = __cordl_internal_get_didPressRefreshButtonEvent, put = __cordl_internal_set_didPressRefreshButtonEvent))::System::Action* didPressRefreshButtonEvent;
 
   /// @brief Field _buttonBinder, offset 0x60, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
   __declspec(property(get = get_isLoading)) bool isLoading;
 
-  constexpr ::UnityEngine::GameObject*& __get__loadingContainer();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__loadingContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__loadingContainer() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__loadingContainer() const;
 
-  constexpr void __set__loadingContainer(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__loadingContainer(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__loadingText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__loadingText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__loadingText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__loadingText() const;
 
-  constexpr void __set__loadingText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__loadingText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__refreshText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__refreshText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__refreshText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__refreshText() const;
 
-  constexpr void __set__refreshText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__refreshText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__refreshButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__refreshButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__refreshButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__refreshButton() const;
 
-  constexpr void __set__refreshButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__refreshButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__refreshContainer();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__refreshContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__refreshContainer() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__refreshContainer() const;
 
-  constexpr void __set__refreshContainer(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__refreshContainer(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__downloadingContainer();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__downloadingContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__downloadingContainer() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__downloadingContainer() const;
 
-  constexpr void __set__downloadingContainer(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__downloadingContainer(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__downloadingText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__downloadingText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__downloadingText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__downloadingText() const;
 
-  constexpr void __set__downloadingText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__downloadingText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__donwloadingProgressImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__donwloadingProgressImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__donwloadingProgressImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__donwloadingProgressImage() const;
 
-  constexpr void __set__donwloadingProgressImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__donwloadingProgressImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::System::Action*& __get_didPressRefreshButtonEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didPressRefreshButtonEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didPressRefreshButtonEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressRefreshButtonEvent() const;
 
-  constexpr void __set_didPressRefreshButtonEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didPressRefreshButtonEvent(::System::Action* value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
   /// @brief Method add_didPressRefreshButtonEvent, addr 0x227be88, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressRefreshButtonEvent(::System::Action* value);
@@ -182,28 +182,28 @@ protected:
 
 public:
   /// @brief Field _loadingContainer, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____loadingContainer;
+  ::UnityW<::UnityEngine::GameObject> ____loadingContainer;
 
   /// @brief Field _loadingText, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____loadingText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____loadingText;
 
   /// @brief Field _refreshText, offset: 0x28, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____refreshText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____refreshText;
 
   /// @brief Field _refreshButton, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____refreshButton;
+  ::UnityW<::UnityEngine::UI::Button> ____refreshButton;
 
   /// @brief Field _refreshContainer, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____refreshContainer;
+  ::UnityW<::UnityEngine::GameObject> ____refreshContainer;
 
   /// @brief Field _downloadingContainer, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____downloadingContainer;
+  ::UnityW<::UnityEngine::GameObject> ____downloadingContainer;
 
   /// @brief Field _downloadingText, offset: 0x48, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____downloadingText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____downloadingText;
 
   /// @brief Field _donwloadingProgressImage, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____donwloadingProgressImage;
+  ::UnityW<::UnityEngine::UI::Image> ____donwloadingProgressImage;
 
   /// @brief Field didPressRefreshButtonEvent, offset: 0x58, size: 0x8, def value: None
   ::System::Action* ___didPressRefreshButtonEvent;

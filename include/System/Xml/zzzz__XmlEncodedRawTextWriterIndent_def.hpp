@@ -33,65 +33,65 @@ MARK_REF_PTR_T(::System::Xml::XmlEncodedRawTextWriterIndent);
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 220, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11413)), TypeDefinitionIndex(TypeDefinitionIndex(11449))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11413)), TypeDefinitionIndex(TypeDefinitionIndex(11449))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11450))
 // CS Name: ::System.Xml::XmlEncodedRawTextWriterIndent*
 class CORDL_TYPE XmlEncodedRawTextWriterIndent : public ::System::Xml::XmlEncodedRawTextWriter {
 public:
   // Declarations
   /// @brief Field indentLevel, offset 0xb8, size 0x4
-  __declspec(property(get = __get_indentLevel, put = __set_indentLevel)) int32_t indentLevel;
+  __declspec(property(get = __cordl_internal_get_indentLevel, put = __cordl_internal_set_indentLevel)) int32_t indentLevel;
 
   /// @brief Field newLineOnAttributes, offset 0xbc, size 0x1
-  __declspec(property(get = __get_newLineOnAttributes, put = __set_newLineOnAttributes)) bool newLineOnAttributes;
+  __declspec(property(get = __cordl_internal_get_newLineOnAttributes, put = __cordl_internal_set_newLineOnAttributes)) bool newLineOnAttributes;
 
   /// @brief Field indentChars, offset 0xc0, size 0x8
-  __declspec(property(get = __get_indentChars, put = __set_indentChars))::StringW indentChars;
+  __declspec(property(get = __cordl_internal_get_indentChars, put = __cordl_internal_set_indentChars))::StringW indentChars;
 
   /// @brief Field mixedContent, offset 0xc8, size 0x1
-  __declspec(property(get = __get_mixedContent, put = __set_mixedContent)) bool mixedContent;
+  __declspec(property(get = __cordl_internal_get_mixedContent, put = __cordl_internal_set_mixedContent)) bool mixedContent;
 
   /// @brief Field mixedContentStack, offset 0xd0, size 0x8
-  __declspec(property(get = __get_mixedContentStack, put = __set_mixedContentStack))::System::Xml::BitStack* mixedContentStack;
+  __declspec(property(get = __cordl_internal_get_mixedContentStack, put = __cordl_internal_set_mixedContentStack))::System::Xml::BitStack* mixedContentStack;
 
   /// @brief Field conformanceLevel, offset 0xd8, size 0x4
-  __declspec(property(get = __get_conformanceLevel, put = __set_conformanceLevel))::System::Xml::ConformanceLevel conformanceLevel;
+  __declspec(property(get = __cordl_internal_get_conformanceLevel, put = __cordl_internal_set_conformanceLevel))::System::Xml::ConformanceLevel conformanceLevel;
 
-  constexpr int32_t& __get_indentLevel();
+  constexpr int32_t& __cordl_internal_get_indentLevel();
 
-  constexpr int32_t const& __get_indentLevel() const;
+  constexpr int32_t const& __cordl_internal_get_indentLevel() const;
 
-  constexpr void __set_indentLevel(int32_t value);
+  constexpr void __cordl_internal_set_indentLevel(int32_t value);
 
-  constexpr bool& __get_newLineOnAttributes();
+  constexpr bool& __cordl_internal_get_newLineOnAttributes();
 
-  constexpr bool const& __get_newLineOnAttributes() const;
+  constexpr bool const& __cordl_internal_get_newLineOnAttributes() const;
 
-  constexpr void __set_newLineOnAttributes(bool value);
+  constexpr void __cordl_internal_set_newLineOnAttributes(bool value);
 
-  constexpr ::StringW& __get_indentChars();
+  constexpr ::StringW& __cordl_internal_get_indentChars();
 
-  constexpr ::StringW const& __get_indentChars() const;
+  constexpr ::StringW const& __cordl_internal_get_indentChars() const;
 
-  constexpr void __set_indentChars(::StringW value);
+  constexpr void __cordl_internal_set_indentChars(::StringW value);
 
-  constexpr bool& __get_mixedContent();
+  constexpr bool& __cordl_internal_get_mixedContent();
 
-  constexpr bool const& __get_mixedContent() const;
+  constexpr bool const& __cordl_internal_get_mixedContent() const;
 
-  constexpr void __set_mixedContent(bool value);
+  constexpr void __cordl_internal_set_mixedContent(bool value);
 
-  constexpr ::System::Xml::BitStack*& __get_mixedContentStack();
+  constexpr ::System::Xml::BitStack*& __cordl_internal_get_mixedContentStack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::BitStack*> const& __get_mixedContentStack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::BitStack*> const& __cordl_internal_get_mixedContentStack() const;
 
-  constexpr void __set_mixedContentStack(::System::Xml::BitStack* value);
+  constexpr void __cordl_internal_set_mixedContentStack(::System::Xml::BitStack* value);
 
-  constexpr ::System::Xml::ConformanceLevel& __get_conformanceLevel();
+  constexpr ::System::Xml::ConformanceLevel& __cordl_internal_get_conformanceLevel();
 
-  constexpr ::System::Xml::ConformanceLevel const& __get_conformanceLevel() const;
+  constexpr ::System::Xml::ConformanceLevel const& __cordl_internal_get_conformanceLevel() const;
 
-  constexpr void __set_conformanceLevel(::System::Xml::ConformanceLevel value);
+  constexpr void __cordl_internal_set_conformanceLevel(::System::Xml::ConformanceLevel value);
 
   static inline ::System::Xml::XmlEncodedRawTextWriterIndent* New_ctor(::System::IO::TextWriter* writer, ::System::Xml::XmlWriterSettings* settings);
 

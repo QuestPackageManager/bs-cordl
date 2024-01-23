@@ -83,7 +83,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Layouts::__InputDeviceMatcher__MatcherJso
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6621))
 // CS Name: ::InputDeviceMatcher::MatcherJson::Capability
 struct CORDL_TYPE __InputDeviceMatcher__MatcherJson__Capability {
@@ -119,7 +119,7 @@ static_assert(offsetof(::GlobalNamespace::__InputDeviceMatcher__MatcherJson__Cap
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6622))
 // CS Name: ::InputDeviceMatcher::MatcherJson
 struct CORDL_TYPE __InputDeviceMatcher__MatcherJson {
@@ -218,7 +218,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputDeviceMatcher
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6671))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6671))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6625))
 // CS Name: ::UnityEngine.InputSystem.Layouts::InputDeviceMatcher
 struct CORDL_TYPE InputDeviceMatcher {
@@ -363,32 +363,31 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher, 
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 954 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(6625))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6623)) CS Name:
-// ::InputDeviceMatcher::<get_patterns>d__4*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(6625)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 954 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6623)) CS Name: ::InputDeviceMatcher::<get_patterns>d__4*
 class CORDL_TYPE __InputDeviceMatcher___get_patterns_d__4 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x10
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x28, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x30, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::InputSystem::Layouts::InputDeviceMatcher __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::InputSystem::Layouts::InputDeviceMatcher __4__this;
 
   /// @brief Field <>3__<>4__this, offset 0x38, size 0x8
-  __declspec(property(get = __get___3____4__this, put = __set___3____4__this))::UnityEngine::InputSystem::Layouts::InputDeviceMatcher __3____4__this;
+  __declspec(property(get = __cordl_internal_get___3____4__this, put = __cordl_internal_set___3____4__this))::UnityEngine::InputSystem::Layouts::InputDeviceMatcher __3____4__this;
 
   /// @brief Field <count>5__2, offset 0x40, size 0x4
-  __declspec(property(get = __get__count_5__2, put = __set__count_5__2)) int32_t _count_5__2;
+  __declspec(property(get = __cordl_internal_get__count_5__2, put = __cordl_internal_set__count_5__2)) int32_t _count_5__2;
 
   /// @brief Field <i>5__3, offset 0x44, size 0x4
-  __declspec(property(get = __get__i_5__3, put = __set__i_5__3)) int32_t _i_5__3;
+  __declspec(property(get = __cordl_internal_get__i_5__3, put = __cordl_internal_set__i_5__3)) int32_t _i_5__3;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Current))::System::Collections::Generic::KeyValuePair_2<
       ::StringW, ::System::Object*> System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Object___Current;
@@ -427,47 +426,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>& __get___2__current();
+  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>& __cordl_internal_get___2__current();
 
-  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> const& __get___2__current() const;
+  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> value);
+  constexpr void __cordl_internal_set___2__current(::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*> value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher& __get___4__this();
+  constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher& __cordl_internal_get___4__this();
 
-  constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher const& __get___4__this() const;
+  constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher value);
 
-  constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher& __get___3____4__this();
+  constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher& __cordl_internal_get___3____4__this();
 
-  constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher const& __get___3____4__this() const;
+  constexpr ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher const& __cordl_internal_get___3____4__this() const;
 
-  constexpr void __set___3____4__this(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher value);
+  constexpr void __cordl_internal_set___3____4__this(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher value);
 
-  constexpr int32_t& __get__count_5__2();
+  constexpr int32_t& __cordl_internal_get__count_5__2();
 
-  constexpr int32_t const& __get__count_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__count_5__2() const;
 
-  constexpr void __set__count_5__2(int32_t value);
+  constexpr void __cordl_internal_set__count_5__2(int32_t value);
 
-  constexpr int32_t& __get__i_5__3();
+  constexpr int32_t& __cordl_internal_get__i_5__3();
 
-  constexpr int32_t const& __get__i_5__3() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__3() const;
 
-  constexpr void __set__i_5__3(int32_t value);
+  constexpr void __cordl_internal_set__i_5__3(int32_t value);
 
   static inline ::UnityEngine::InputSystem::Layouts::__InputDeviceMatcher___get_patterns_d__4* New_ctor(int32_t __1__state);
 
@@ -558,7 +557,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::__InputDeviceMatcher
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6624))
 // CS Name: ::InputDeviceMatcher::<>c*
 class CORDL_TYPE __InputDeviceMatcher____c : public ::System::Object {

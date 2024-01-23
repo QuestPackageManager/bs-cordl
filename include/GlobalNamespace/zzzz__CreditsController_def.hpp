@@ -54,32 +54,32 @@ MARK_REF_PTR_T(::GlobalNamespace::__CreditsController___ScrollCoroutine_d__13);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5471))
 // CS Name: ::CreditsController::<ScrollCoroutine>d__13*
 class CORDL_TYPE __CreditsController___ScrollCoroutine_d__13 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::CreditsController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::CreditsController> __4__this;
 
   /// @brief Field <contentHeight>5__2, offset 0x28, size 0x4
-  __declspec(property(get = __get__contentHeight_5__2, put = __set__contentHeight_5__2)) float_t _contentHeight_5__2;
+  __declspec(property(get = __cordl_internal_get__contentHeight_5__2, put = __cordl_internal_set__contentHeight_5__2)) float_t _contentHeight_5__2;
 
   /// @brief Field <contentWrapperHeight>5__3, offset 0x2c, size 0x4
-  __declspec(property(get = __get__contentWrapperHeight_5__3, put = __set__contentWrapperHeight_5__3)) float_t _contentWrapperHeight_5__3;
+  __declspec(property(get = __cordl_internal_get__contentWrapperHeight_5__3, put = __cordl_internal_set__contentWrapperHeight_5__3)) float_t _contentWrapperHeight_5__3;
 
   /// @brief Field <posY>5__4, offset 0x30, size 0x4
-  __declspec(property(get = __get__posY_5__4, put = __set__posY_5__4)) float_t _posY_5__4;
+  __declspec(property(get = __cordl_internal_get__posY_5__4, put = __cordl_internal_set__posY_5__4)) float_t _posY_5__4;
 
   /// @brief Field <scrollingSpeed>5__5, offset 0x34, size 0x4
-  __declspec(property(get = __get__scrollingSpeed_5__5, put = __set__scrollingSpeed_5__5)) float_t _scrollingSpeed_5__5;
+  __declspec(property(get = __cordl_internal_get__scrollingSpeed_5__5, put = __cordl_internal_set__scrollingSpeed_5__5)) float_t _scrollingSpeed_5__5;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -103,47 +103,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::CreditsController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::CreditsController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CreditsController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::CreditsController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::CreditsController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::CreditsController> value);
 
-  constexpr float_t& __get__contentHeight_5__2();
+  constexpr float_t& __cordl_internal_get__contentHeight_5__2();
 
-  constexpr float_t const& __get__contentHeight_5__2() const;
+  constexpr float_t const& __cordl_internal_get__contentHeight_5__2() const;
 
-  constexpr void __set__contentHeight_5__2(float_t value);
+  constexpr void __cordl_internal_set__contentHeight_5__2(float_t value);
 
-  constexpr float_t& __get__contentWrapperHeight_5__3();
+  constexpr float_t& __cordl_internal_get__contentWrapperHeight_5__3();
 
-  constexpr float_t const& __get__contentWrapperHeight_5__3() const;
+  constexpr float_t const& __cordl_internal_get__contentWrapperHeight_5__3() const;
 
-  constexpr void __set__contentWrapperHeight_5__3(float_t value);
+  constexpr void __cordl_internal_set__contentWrapperHeight_5__3(float_t value);
 
-  constexpr float_t& __get__posY_5__4();
+  constexpr float_t& __cordl_internal_get__posY_5__4();
 
-  constexpr float_t const& __get__posY_5__4() const;
+  constexpr float_t const& __cordl_internal_get__posY_5__4() const;
 
-  constexpr void __set__posY_5__4(float_t value);
+  constexpr void __cordl_internal_set__posY_5__4(float_t value);
 
-  constexpr float_t& __get__scrollingSpeed_5__5();
+  constexpr float_t& __cordl_internal_get__scrollingSpeed_5__5();
 
-  constexpr float_t const& __get__scrollingSpeed_5__5() const;
+  constexpr float_t const& __cordl_internal_get__scrollingSpeed_5__5() const;
 
-  constexpr void __set__scrollingSpeed_5__5(float_t value);
+  constexpr void __cordl_internal_set__scrollingSpeed_5__5(float_t value);
 
   static inline ::GlobalNamespace::__CreditsController___ScrollCoroutine_d__13* New_ctor(int32_t __1__state);
 
@@ -186,7 +186,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::CreditsController* _____4__this;
+  ::UnityW<::GlobalNamespace::CreditsController> _____4__this;
 
   /// @brief Field <contentHeight>5__2, offset: 0x28, size: 0x4, def value: None
   float_t ____contentHeight_5__2;
@@ -224,7 +224,7 @@ static_assert(offsetof(::GlobalNamespace::__CreditsController___ScrollCoroutine_
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 90, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5472))
 // CS Name: ::CreditsController*
 class CORDL_TYPE CreditsController : public ::UnityEngine::MonoBehaviour {
@@ -233,94 +233,95 @@ public:
   using _ScrollCoroutine_d__13 = ::GlobalNamespace::__CreditsController___ScrollCoroutine_d__13;
 
   /// @brief Field _creditsSceneSetupDataSO, offset 0x18, size 0x8
-  __declspec(property(get = __get__creditsSceneSetupDataSO, put = __set__creditsSceneSetupDataSO))::GlobalNamespace::CreditsScenesTransitionSetupDataSO* _creditsSceneSetupDataSO;
+  __declspec(property(get = __cordl_internal_get__creditsSceneSetupDataSO,
+                      put = __cordl_internal_set__creditsSceneSetupDataSO))::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO> _creditsSceneSetupDataSO;
 
   /// @brief Field _audioPlayer, offset 0x20, size 0x8
-  __declspec(property(get = __get__audioPlayer, put = __set__audioPlayer))::GlobalNamespace::AudioPlayerBase* _audioPlayer;
+  __declspec(property(get = __cordl_internal_get__audioPlayer, put = __cordl_internal_set__audioPlayer))::UnityW<::GlobalNamespace::AudioPlayerBase> _audioPlayer;
 
   /// @brief Field _continueButton, offset 0x28, size 0x8
-  __declspec(property(get = __get__continueButton, put = __set__continueButton))::UnityEngine::UI::Button* _continueButton;
+  __declspec(property(get = __cordl_internal_get__continueButton, put = __cordl_internal_set__continueButton))::UnityW<::UnityEngine::UI::Button> _continueButton;
 
   /// @brief Field _contentRectTransform, offset 0x30, size 0x8
-  __declspec(property(get = __get__contentRectTransform, put = __set__contentRectTransform))::UnityEngine::RectTransform* _contentRectTransform;
+  __declspec(property(get = __cordl_internal_get__contentRectTransform, put = __cordl_internal_set__contentRectTransform))::UnityW<::UnityEngine::RectTransform> _contentRectTransform;
 
   /// @brief Field _overflowHeight, offset 0x38, size 0x4
-  __declspec(property(get = __get__overflowHeight, put = __set__overflowHeight)) float_t _overflowHeight;
+  __declspec(property(get = __cordl_internal_get__overflowHeight, put = __cordl_internal_set__overflowHeight)) float_t _overflowHeight;
 
   /// @brief Field _contentWrapper, offset 0x40, size 0x8
-  __declspec(property(get = __get__contentWrapper, put = __set__contentWrapper))::UnityEngine::RectTransform* _contentWrapper;
+  __declspec(property(get = __cordl_internal_get__contentWrapper, put = __cordl_internal_set__contentWrapper))::UnityW<::UnityEngine::RectTransform> _contentWrapper;
 
   /// @brief Field _vrPlatformHelper, offset 0x48, size 0x8
-  __declspec(property(get = __get__vrPlatformHelper, put = __set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
   /// @brief Field _buttonBinder, offset 0x50, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
   /// @brief Field _didFinish, offset 0x58, size 0x1
-  __declspec(property(get = __get__didFinish, put = __set__didFinish)) bool _didFinish;
+  __declspec(property(get = __cordl_internal_get__didFinish, put = __cordl_internal_set__didFinish)) bool _didFinish;
 
   /// @brief Field _isPaused, offset 0x59, size 0x1
-  __declspec(property(get = __get__isPaused, put = __set__isPaused)) bool _isPaused;
+  __declspec(property(get = __cordl_internal_get__isPaused, put = __cordl_internal_set__isPaused)) bool _isPaused;
 
-  constexpr ::GlobalNamespace::CreditsScenesTransitionSetupDataSO*& __get__creditsSceneSetupDataSO();
+  constexpr ::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>& __cordl_internal_get__creditsSceneSetupDataSO();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*> const& __get__creditsSceneSetupDataSO() const;
+  constexpr ::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO> const& __cordl_internal_get__creditsSceneSetupDataSO() const;
 
-  constexpr void __set__creditsSceneSetupDataSO(::GlobalNamespace::CreditsScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__creditsSceneSetupDataSO(::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::AudioPlayerBase*& __get__audioPlayer();
+  constexpr ::UnityW<::GlobalNamespace::AudioPlayerBase>& __cordl_internal_get__audioPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioPlayerBase*> const& __get__audioPlayer() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioPlayerBase> const& __cordl_internal_get__audioPlayer() const;
 
-  constexpr void __set__audioPlayer(::GlobalNamespace::AudioPlayerBase* value);
+  constexpr void __cordl_internal_set__audioPlayer(::UnityW<::GlobalNamespace::AudioPlayerBase> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__continueButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__continueButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
 
-  constexpr void __set__continueButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__contentRectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__contentRectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__contentRectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__contentRectTransform() const;
 
-  constexpr void __set__contentRectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__contentRectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr float_t& __get__overflowHeight();
+  constexpr float_t& __cordl_internal_get__overflowHeight();
 
-  constexpr float_t const& __get__overflowHeight() const;
+  constexpr float_t const& __cordl_internal_get__overflowHeight() const;
 
-  constexpr void __set__overflowHeight(float_t value);
+  constexpr void __cordl_internal_set__overflowHeight(float_t value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__contentWrapper();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__contentWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__contentWrapper() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__contentWrapper() const;
 
-  constexpr void __set__contentWrapper(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__contentWrapper(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper*& __get__vrPlatformHelper();
+  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __get__vrPlatformHelper() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
 
-  constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  constexpr bool& __get__didFinish();
+  constexpr bool& __cordl_internal_get__didFinish();
 
-  constexpr bool const& __get__didFinish() const;
+  constexpr bool const& __cordl_internal_get__didFinish() const;
 
-  constexpr void __set__didFinish(bool value);
+  constexpr void __cordl_internal_set__didFinish(bool value);
 
-  constexpr bool& __get__isPaused();
+  constexpr bool& __cordl_internal_get__isPaused();
 
-  constexpr bool const& __get__isPaused() const;
+  constexpr bool const& __cordl_internal_get__isPaused() const;
 
-  constexpr void __set__isPaused(bool value);
+  constexpr void __cordl_internal_set__isPaused(bool value);
 
   /// @brief Method Start, addr 0x22829f8, size 0x29c, virtual false, abstract: false, final false
   inline void Start();
@@ -360,22 +361,22 @@ protected:
 
 public:
   /// @brief Field _creditsSceneSetupDataSO, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::CreditsScenesTransitionSetupDataSO* ____creditsSceneSetupDataSO;
+  ::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO> ____creditsSceneSetupDataSO;
 
   /// @brief Field _audioPlayer, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::AudioPlayerBase* ____audioPlayer;
+  ::UnityW<::GlobalNamespace::AudioPlayerBase> ____audioPlayer;
 
   /// @brief Field _continueButton, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____continueButton;
+  ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
   /// @brief Field _contentRectTransform, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____contentRectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ____contentRectTransform;
 
   /// @brief Field _overflowHeight, offset: 0x38, size: 0x4, def value: None
   float_t ____overflowHeight;
 
   /// @brief Field _contentWrapper, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____contentWrapper;
+  ::UnityW<::UnityEngine::RectTransform> ____contentWrapper;
 
   /// @brief Field _vrPlatformHelper, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;

@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::IConsoleDriver);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2602))
 // CS Name: ::System::IConsoleDriver*
 class CORDL_TYPE IConsoleDriver {

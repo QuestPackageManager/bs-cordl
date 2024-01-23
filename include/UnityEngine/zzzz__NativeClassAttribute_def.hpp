@@ -15,33 +15,33 @@ MARK_REF_PTR_T(::UnityEngine::NativeClassAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16008))
 // CS Name: ::UnityEngine::NativeClassAttribute*
 class CORDL_TYPE NativeClassAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <QualifiedNativeName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__QualifiedNativeName_k__BackingField, put = __set__QualifiedNativeName_k__BackingField))::StringW _QualifiedNativeName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__QualifiedNativeName_k__BackingField, put = __cordl_internal_set__QualifiedNativeName_k__BackingField))::StringW _QualifiedNativeName_k__BackingField;
 
   /// @brief Field <Declaration>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Declaration_k__BackingField, put = __set__Declaration_k__BackingField))::StringW _Declaration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Declaration_k__BackingField, put = __cordl_internal_set__Declaration_k__BackingField))::StringW _Declaration_k__BackingField;
 
   __declspec(property(put = set_QualifiedNativeName))::StringW QualifiedNativeName;
 
   __declspec(property(put = set_Declaration))::StringW Declaration;
 
-  constexpr ::StringW& __get__QualifiedNativeName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__QualifiedNativeName_k__BackingField();
 
-  constexpr ::StringW const& __get__QualifiedNativeName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__QualifiedNativeName_k__BackingField() const;
 
-  constexpr void __set__QualifiedNativeName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__QualifiedNativeName_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__Declaration_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Declaration_k__BackingField();
 
-  constexpr ::StringW const& __get__Declaration_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Declaration_k__BackingField() const;
 
-  constexpr void __set__Declaration_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Declaration_k__BackingField(::StringW value);
 
   /// @brief Method set_QualifiedNativeName, addr 0x2d18060, size 0x8, virtual false, abstract: false, final false
   inline void set_QualifiedNativeName(::StringW value);

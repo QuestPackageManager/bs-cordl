@@ -20,31 +20,31 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6745))
 // CS Name: ::UnityEngine.UIElements::ObjectPool`1<T>*
 class CORDL_TYPE ObjectPool_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Stack, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Stack, put = __set_m_Stack))::System::Collections::Generic::Stack_1<T>* m_Stack;
+  __declspec(property(get = __cordl_internal_get_m_Stack, put = __cordl_internal_set_m_Stack))::System::Collections::Generic::Stack_1<T>* m_Stack;
 
   /// @brief Field m_MaxSize, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_MaxSize, put = __set_m_MaxSize)) int32_t m_MaxSize;
+  __declspec(property(get = __cordl_internal_get_m_MaxSize, put = __cordl_internal_set_m_MaxSize)) int32_t m_MaxSize;
 
   __declspec(property(get = get_maxSize, put = set_maxSize)) int32_t maxSize;
 
-  constexpr ::System::Collections::Generic::Stack_1<T>*& __get_m_Stack();
+  constexpr ::System::Collections::Generic::Stack_1<T>*& __cordl_internal_get_m_Stack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<T>*> const& __get_m_Stack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<T>*> const& __cordl_internal_get_m_Stack() const;
 
-  constexpr void __set_m_Stack(::System::Collections::Generic::Stack_1<T>* value);
+  constexpr void __cordl_internal_set_m_Stack(::System::Collections::Generic::Stack_1<T>* value);
 
-  constexpr int32_t& __get_m_MaxSize();
+  constexpr int32_t& __cordl_internal_get_m_MaxSize();
 
-  constexpr int32_t const& __get_m_MaxSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_MaxSize() const;
 
-  constexpr void __set_m_MaxSize(int32_t value);
+  constexpr void __cordl_internal_set_m_MaxSize(int32_t value);
 
   /// @brief Method get_maxSize, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_maxSize();

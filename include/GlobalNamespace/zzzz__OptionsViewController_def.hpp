@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OptionsViewController);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5754))
 // CS Name: ::OptionsViewController::OptionsButton
 struct CORDL_TYPE __OptionsViewController__OptionsButton {
@@ -86,7 +86,7 @@ static_assert(offsetof(::GlobalNamespace::__OptionsViewController__OptionsButton
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5755))
 // CS Name: ::OptionsViewController*
 class CORDL_TYPE OptionsViewController : public ::HMUI::ViewController {
@@ -95,49 +95,50 @@ public:
   using OptionsButton = ::GlobalNamespace::__OptionsViewController__OptionsButton;
 
   /// @brief Field _editAvatarButton, offset 0x70, size 0x8
-  __declspec(property(get = __get__editAvatarButton, put = __set__editAvatarButton))::UnityEngine::UI::Button* _editAvatarButton;
+  __declspec(property(get = __cordl_internal_get__editAvatarButton, put = __cordl_internal_set__editAvatarButton))::UnityW<::UnityEngine::UI::Button> _editAvatarButton;
 
   /// @brief Field _playerOptionsButton, offset 0x78, size 0x8
-  __declspec(property(get = __get__playerOptionsButton, put = __set__playerOptionsButton))::UnityEngine::UI::Button* _playerOptionsButton;
+  __declspec(property(get = __cordl_internal_get__playerOptionsButton, put = __cordl_internal_set__playerOptionsButton))::UnityW<::UnityEngine::UI::Button> _playerOptionsButton;
 
   /// @brief Field _settingsButton, offset 0x80, size 0x8
-  __declspec(property(get = __get__settingsButton, put = __set__settingsButton))::UnityEngine::UI::Button* _settingsButton;
+  __declspec(property(get = __cordl_internal_get__settingsButton, put = __cordl_internal_set__settingsButton))::UnityW<::UnityEngine::UI::Button> _settingsButton;
 
   /// @brief Field _appStaticSettings, offset 0x88, size 0x8
-  __declspec(property(get = __get__appStaticSettings, put = __set__appStaticSettings))::GlobalNamespace::AppStaticSettingsSO* _appStaticSettings;
+  __declspec(property(get = __cordl_internal_get__appStaticSettings, put = __cordl_internal_set__appStaticSettings))::UnityW<::GlobalNamespace::AppStaticSettingsSO> _appStaticSettings;
 
   /// @brief Field didFinishEvent, offset 0x90, size 0x8
-  __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent,
+                      put = __cordl_internal_set_didFinishEvent))::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* didFinishEvent;
 
-  constexpr ::UnityEngine::UI::Button*& __get__editAvatarButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__editAvatarButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__editAvatarButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__editAvatarButton() const;
 
-  constexpr void __set__editAvatarButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__editAvatarButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__playerOptionsButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__playerOptionsButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__playerOptionsButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__playerOptionsButton() const;
 
-  constexpr void __set__playerOptionsButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__playerOptionsButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__settingsButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__settingsButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__settingsButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__settingsButton() const;
 
-  constexpr void __set__settingsButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__settingsButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::GlobalNamespace::AppStaticSettingsSO*& __get__appStaticSettings();
+  constexpr ::UnityW<::GlobalNamespace::AppStaticSettingsSO>& __cordl_internal_get__appStaticSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AppStaticSettingsSO*> const& __get__appStaticSettings() const;
+  constexpr ::UnityW<::GlobalNamespace::AppStaticSettingsSO> const& __cordl_internal_get__appStaticSettings() const;
 
-  constexpr void __set__appStaticSettings(::GlobalNamespace::AppStaticSettingsSO* value);
+  constexpr void __cordl_internal_set__appStaticSettings(::UnityW<::GlobalNamespace::AppStaticSettingsSO> value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>*& __get_didFinishEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>*> const& __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>*> const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
 
   /// @brief Method add_didFinishEvent, addr 0x22da2f8, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* value);
@@ -177,16 +178,16 @@ protected:
 
 public:
   /// @brief Field _editAvatarButton, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____editAvatarButton;
+  ::UnityW<::UnityEngine::UI::Button> ____editAvatarButton;
 
   /// @brief Field _playerOptionsButton, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____playerOptionsButton;
+  ::UnityW<::UnityEngine::UI::Button> ____playerOptionsButton;
 
   /// @brief Field _settingsButton, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____settingsButton;
+  ::UnityW<::UnityEngine::UI::Button> ____settingsButton;
 
   /// @brief Field _appStaticSettings, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::AppStaticSettingsSO* ____appStaticSettings;
+  ::UnityW<::GlobalNamespace::AppStaticSettingsSO> ____appStaticSettings;
 
   /// @brief Field didFinishEvent, offset: 0x90, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::__OptionsViewController__OptionsButton>* ___didFinishEvent;

@@ -21,10 +21,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2338ffc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(), "get_next",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -36,10 +36,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2339004;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(), "get_previous",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -51,13 +51,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x2338a48;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventDataBox*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventDataBox*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -69,10 +69,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x233900c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(), "ResetConnections",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -84,10 +84,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x2339014;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(), "ConnectWithPrevious", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(), "ConnectWithPrevious", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get() })));
     return ___internal_method;
   }
 };
@@ -99,174 +99,176 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x2339024;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(), "ConnectWithNext", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(), "ConnectWithNext", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get() })));
     return ___internal_method;
   }
 };
-constexpr float_t& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get_startBeat() {
+constexpr float_t& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get_startBeat() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startBeat;
 }
-constexpr float_t const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get_startBeat() const {
+constexpr float_t const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get_startBeat() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startBeat;
 }
-constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__set_startBeat(float_t value) {
+constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_set_startBeat(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startBeat = value;
 }
-constexpr int32_t& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get_elementId() {
+constexpr int32_t& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get_elementId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementId;
 }
-constexpr int32_t const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get_elementId() const {
+constexpr int32_t const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get_elementId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementId;
 }
-constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__set_elementId(int32_t value) {
+constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_set_elementId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elementId = value;
 }
-constexpr int32_t& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get_durationOrderIndex() {
+constexpr int32_t& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get_durationOrderIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___durationOrderIndex;
 }
-constexpr int32_t const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get_durationOrderIndex() const {
+constexpr int32_t const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get_durationOrderIndex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___durationOrderIndex;
 }
-constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__set_durationOrderIndex(int32_t value) {
+constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_set_durationOrderIndex(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___durationOrderIndex = value;
 }
-constexpr int32_t& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get_distributionOrderIndex() {
+constexpr int32_t& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get_distributionOrderIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distributionOrderIndex;
 }
-constexpr int32_t const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get_distributionOrderIndex() const {
+constexpr int32_t const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get_distributionOrderIndex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___distributionOrderIndex;
 }
-constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__set_distributionOrderIndex(int32_t value) {
+constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_set_distributionOrderIndex(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___distributionOrderIndex = value;
 }
-constexpr ::System::Type*& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get_eventBoxType() {
+constexpr ::System::Type*& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get_eventBoxType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eventBoxType;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get_eventBoxType() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get_eventBoxType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eventBoxType;
 }
-constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__set_eventBoxType(::System::Type* value) {
+constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_set_eventBoxType(::System::Type* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___eventBoxType)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get_eventBoxSubtypeIdentifier() {
+constexpr int32_t& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get_eventBoxSubtypeIdentifier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eventBoxSubtypeIdentifier;
 }
-constexpr int32_t const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get_eventBoxSubtypeIdentifier() const {
+constexpr int32_t const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get_eventBoxSubtypeIdentifier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eventBoxSubtypeIdentifier;
 }
-constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__set_eventBoxSubtypeIdentifier(int32_t value) {
+constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_set_eventBoxSubtypeIdentifier(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___eventBoxSubtypeIdentifier = value;
 }
-constexpr ::GlobalNamespace::BeatmapEventDataBox*& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get_eventBox() {
+constexpr ::GlobalNamespace::BeatmapEventDataBox*& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get_eventBox() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eventBox;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapEventDataBox*> const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get_eventBox() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapEventDataBox*> const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get_eventBox() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eventBox;
 }
-constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__set_eventBox(::GlobalNamespace::BeatmapEventDataBox* value) {
+constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_set_eventBox(::GlobalNamespace::BeatmapEventDataBox* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___eventBox)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapEventDataBoxGroup*& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get_boxGroup() {
+constexpr ::GlobalNamespace::BeatmapEventDataBoxGroup*& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get_boxGroup() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boxGroup;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapEventDataBoxGroup*> const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get_boxGroup() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapEventDataBoxGroup*> const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get_boxGroup() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___boxGroup;
 }
-constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__set_boxGroup(::GlobalNamespace::BeatmapEventDataBoxGroup* value) {
+constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_set_boxGroup(::GlobalNamespace::BeatmapEventDataBoxGroup* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___boxGroup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get__next() {
+constexpr ::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get__next() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*> const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get__next() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*> const&
+GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get__next() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____next;
 }
-constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__set__next(::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData* value) {
+constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_set__next(::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____next)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get__previous() {
+constexpr ::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get__previous() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previous;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*> const& GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__get__previous() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*> const&
+GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_get__previous() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____previous;
 }
-constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__set__previous(::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData* value) {
+constexpr void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::__cordl_internal_set__previous(::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____previous)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData* GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::get_next() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(),
-                                                                             "get_next", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_next", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData* GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::get_previous() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(),
-                                                                             "get_previous", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_previous", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData* GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::New_ctor(::GlobalNamespace::BeatmapEventDataBoxGroup* boxGroup,
                                                                                                                                       ::GlobalNamespace::BeatmapEventDataBox* eventBox,
                                                                                                                                       int32_t elementId, int32_t durationOrderIndex,
                                                                                                                                       int32_t distributionOrderIndex, float_t startBeat) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>(boxGroup, eventBox, elementId, durationOrderIndex, distributionOrderIndex, startBeat));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>(boxGroup, eventBox, elementId, durationOrderIndex, distributionOrderIndex, startBeat));
 }
 inline void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::_ctor(::GlobalNamespace::BeatmapEventDataBoxGroup* boxGroup, ::GlobalNamespace::BeatmapEventDataBox* eventBox, int32_t elementId,
                                                                             int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t startBeat) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventDataBox*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventDataBox*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, boxGroup, eventBox, elementId, durationOrderIndex, distributionOrderIndex, startBeat);
 }
 inline void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::ResetConnections() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(),
-                                                                             "ResetConnections", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "ResetConnections", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::ConnectWithPrevious(::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData* prevElementData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(), "ConnectWithPrevious", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(), "ConnectWithPrevious", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, prevElementData);
 }
 inline void GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData::ConnectWithNext(::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData* nextElementData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(), "ConnectWithNext", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get(), "ConnectWithNext", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nextElementData);
 }
 // Ctor Parameters []
@@ -280,9 +282,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23389d8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(),
-                                                                               "get_elementDataDict", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_elementDataDict", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -294,10 +296,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x78c;
   constexpr static std::size_t addrs = 0x23344bc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox*>*>::get() })));
     return ___internal_method;
@@ -311,10 +313,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x74;
   constexpr static std::size_t addrs = 0x2338ad4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), "GetCopyWithNewBeat",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), "GetCopyWithNewBeat",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -326,10 +328,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x190;
   constexpr static std::size_t addrs = 0x2338b48;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), "RemoveBeatmapEventDataFromBeatmapData",
-                                    std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapData*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), "RemoveBeatmapEventDataFromBeatmapData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapData*>::get() })));
     return ___internal_method;
   }
 };
@@ -341,12 +343,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2f4;
   constexpr static std::size_t addrs = 0x2338cd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), "SyncWithBeatmapData", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapData*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatToTimeConvertor*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), "SyncWithBeatmapData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapData*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatToTimeConvertor*>::get() })));
     return ___internal_method;
   }
 };
@@ -358,10 +360,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x2338fcc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), "CompareTo", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get() })));
     return ___internal_method;
   }
 };
@@ -374,76 +376,77 @@ constexpr ::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*
 GlobalNamespace::BeatmapEventDataBoxGroup::i___System__IComparable_1___GlobalNamespace__BeatmapEventDataBoxGroup__() noexcept {
   return static_cast<::System::IComparable_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*>(static_cast<void*>(this));
 }
-constexpr float_t& GlobalNamespace::BeatmapEventDataBoxGroup::__get_beat() {
+constexpr float_t& GlobalNamespace::BeatmapEventDataBoxGroup::__cordl_internal_get_beat() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beat;
 }
-constexpr float_t const& GlobalNamespace::BeatmapEventDataBoxGroup::__get_beat() const {
+constexpr float_t const& GlobalNamespace::BeatmapEventDataBoxGroup::__cordl_internal_get_beat() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___beat;
 }
-constexpr void GlobalNamespace::BeatmapEventDataBoxGroup::__set_beat(float_t value) {
+constexpr void GlobalNamespace::BeatmapEventDataBoxGroup::__cordl_internal_set_beat(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___beat = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<int32_t, ::System::Type*, int32_t>, ::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>*&
-GlobalNamespace::BeatmapEventDataBoxGroup::__get__elementDataDict() {
+GlobalNamespace::BeatmapEventDataBoxGroup::__cordl_internal_get__elementDataDict() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementDataDict;
 }
 constexpr ::cordl_internals::to_const_pointer<
     ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<int32_t, ::System::Type*, int32_t>, ::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>*> const&
-GlobalNamespace::BeatmapEventDataBoxGroup::__get__elementDataDict() const {
+GlobalNamespace::BeatmapEventDataBoxGroup::__cordl_internal_get__elementDataDict() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementDataDict;
 }
-constexpr void GlobalNamespace::BeatmapEventDataBoxGroup::__set__elementDataDict(
+constexpr void GlobalNamespace::BeatmapEventDataBoxGroup::__cordl_internal_set__elementDataDict(
     ::System::Collections::Generic::Dictionary_2<::System::ValueTuple_3<int32_t, ::System::Type*, int32_t>, ::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____elementDataDict)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*& GlobalNamespace::BeatmapEventDataBoxGroup::__get__unpackedBeatmapEventData() {
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*& GlobalNamespace::BeatmapEventDataBoxGroup::__cordl_internal_get__unpackedBeatmapEventData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unpackedBeatmapEventData;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*> const&
-GlobalNamespace::BeatmapEventDataBoxGroup::__get__unpackedBeatmapEventData() const {
+GlobalNamespace::BeatmapEventDataBoxGroup::__cordl_internal_get__unpackedBeatmapEventData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unpackedBeatmapEventData;
 }
-constexpr void GlobalNamespace::BeatmapEventDataBoxGroup::__set__unpackedBeatmapEventData(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* value) {
+constexpr void GlobalNamespace::BeatmapEventDataBoxGroup::__cordl_internal_set__unpackedBeatmapEventData(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____unpackedBeatmapEventData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox*>*& GlobalNamespace::BeatmapEventDataBoxGroup::__get__beatmapEventDataBoxList() {
+constexpr ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox*>*& GlobalNamespace::BeatmapEventDataBoxGroup::__cordl_internal_get__beatmapEventDataBoxList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapEventDataBoxList;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox*>*> const&
-GlobalNamespace::BeatmapEventDataBoxGroup::__get__beatmapEventDataBoxList() const {
+GlobalNamespace::BeatmapEventDataBoxGroup::__cordl_internal_get__beatmapEventDataBoxList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapEventDataBoxList;
 }
-constexpr void GlobalNamespace::BeatmapEventDataBoxGroup::__set__beatmapEventDataBoxList(::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox*>* value) {
+constexpr void
+GlobalNamespace::BeatmapEventDataBoxGroup::__cordl_internal_set__beatmapEventDataBoxList(::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapEventDataBoxList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_3<int32_t, ::System::Type*, int32_t>, ::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>*
 GlobalNamespace::BeatmapEventDataBoxGroup::get_elementDataDict() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(),
-                                                                             "get_elementDataDict", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_elementDataDict", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<
       ::System::Collections::Generic::IReadOnlyDictionary_2<::System::ValueTuple_3<int32_t, ::System::Type*, int32_t>, ::GlobalNamespace::__BeatmapEventDataBoxGroup__ElementData*>*, false>(
       this, ___internal_method);
 }
 inline ::GlobalNamespace::BeatmapEventDataBoxGroup*
 GlobalNamespace::BeatmapEventDataBoxGroup::New_ctor(float_t beat, ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox*>* beatmapEventDataBoxList) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::BeatmapEventDataBoxGroup*>(beat, beatmapEventDataBoxList));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapEventDataBoxGroup*>(beat, beatmapEventDataBoxList));
 }
 inline void GlobalNamespace::BeatmapEventDataBoxGroup::_ctor(float_t beat, ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox*>* beatmapEventDataBoxList) {
   static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                 ::std::vector<Il2CppType const*>{
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 2>{
                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBox*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beat, beatmapEventDataBoxList);
@@ -451,27 +454,27 @@ inline void GlobalNamespace::BeatmapEventDataBoxGroup::_ctor(float_t beat, ::Sys
 inline ::GlobalNamespace::BeatmapEventDataBoxGroup* GlobalNamespace::BeatmapEventDataBoxGroup::GetCopyWithNewBeat(float_t newBeat) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), "GetCopyWithNewBeat",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapEventDataBoxGroup*, false>(this, ___internal_method, newBeat);
 }
 inline void GlobalNamespace::BeatmapEventDataBoxGroup::RemoveBeatmapEventDataFromBeatmapData(::GlobalNamespace::BeatmapData* beatmapData) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), "RemoveBeatmapEventDataFromBeatmapData",
-                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapData*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), "RemoveBeatmapEventDataFromBeatmapData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapData);
 }
 inline void GlobalNamespace::BeatmapEventDataBoxGroup::SyncWithBeatmapData(int32_t groupId, ::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), "SyncWithBeatmapData", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapData*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatToTimeConvertor*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), "SyncWithBeatmapData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapData*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatToTimeConvertor*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, groupId, beatmapData, beatToTimeConvertor);
 }
 inline int32_t GlobalNamespace::BeatmapEventDataBoxGroup::CompareTo(::GlobalNamespace::BeatmapEventDataBoxGroup* b) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), "CompareTo", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get(), "CompareTo", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapEventDataBoxGroup*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, b);
 }
 // Ctor Parameters []

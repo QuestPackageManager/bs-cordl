@@ -82,78 +82,79 @@ MARK_REF_PTR_T(::UnityEngine::UI::Graphic);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13214))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13042))
 // CS Name: ::UnityEngine.UI::Graphic*
 class CORDL_TYPE Graphic : public ::UnityEngine::EventSystems::UIBehaviour {
 public:
   // Declarations
   /// @brief Field m_Material, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Material, put = __set_m_Material))::UnityEngine::Material* m_Material;
+  __declspec(property(get = __cordl_internal_get_m_Material, put = __cordl_internal_set_m_Material))::UnityW<::UnityEngine::Material> m_Material;
 
   /// @brief Field m_Color, offset 0x20, size 0x10
-  __declspec(property(get = __get_m_Color, put = __set_m_Color))::UnityEngine::Color m_Color;
+  __declspec(property(get = __cordl_internal_get_m_Color, put = __cordl_internal_set_m_Color))::UnityEngine::Color m_Color;
 
   /// @brief Field m_SkipLayoutUpdate, offset 0x30, size 0x1
-  __declspec(property(get = __get_m_SkipLayoutUpdate, put = __set_m_SkipLayoutUpdate)) bool m_SkipLayoutUpdate;
+  __declspec(property(get = __cordl_internal_get_m_SkipLayoutUpdate, put = __cordl_internal_set_m_SkipLayoutUpdate)) bool m_SkipLayoutUpdate;
 
   /// @brief Field m_SkipMaterialUpdate, offset 0x31, size 0x1
-  __declspec(property(get = __get_m_SkipMaterialUpdate, put = __set_m_SkipMaterialUpdate)) bool m_SkipMaterialUpdate;
+  __declspec(property(get = __cordl_internal_get_m_SkipMaterialUpdate, put = __cordl_internal_set_m_SkipMaterialUpdate)) bool m_SkipMaterialUpdate;
 
   /// @brief Field m_RaycastTarget, offset 0x32, size 0x1
-  __declspec(property(get = __get_m_RaycastTarget, put = __set_m_RaycastTarget)) bool m_RaycastTarget;
+  __declspec(property(get = __cordl_internal_get_m_RaycastTarget, put = __cordl_internal_set_m_RaycastTarget)) bool m_RaycastTarget;
 
   /// @brief Field m_RaycastTargetCache, offset 0x33, size 0x1
-  __declspec(property(get = __get_m_RaycastTargetCache, put = __set_m_RaycastTargetCache)) bool m_RaycastTargetCache;
+  __declspec(property(get = __cordl_internal_get_m_RaycastTargetCache, put = __cordl_internal_set_m_RaycastTargetCache)) bool m_RaycastTargetCache;
 
   /// @brief Field m_RaycastPadding, offset 0x34, size 0x10
-  __declspec(property(get = __get_m_RaycastPadding, put = __set_m_RaycastPadding))::UnityEngine::Vector4 m_RaycastPadding;
+  __declspec(property(get = __cordl_internal_get_m_RaycastPadding, put = __cordl_internal_set_m_RaycastPadding))::UnityEngine::Vector4 m_RaycastPadding;
 
   /// @brief Field m_RectTransform, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_RectTransform, put = __set_m_RectTransform))::UnityEngine::RectTransform* m_RectTransform;
+  __declspec(property(get = __cordl_internal_get_m_RectTransform, put = __cordl_internal_set_m_RectTransform))::UnityW<::UnityEngine::RectTransform> m_RectTransform;
 
   /// @brief Field m_CanvasRenderer, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_CanvasRenderer, put = __set_m_CanvasRenderer))::UnityEngine::CanvasRenderer* m_CanvasRenderer;
+  __declspec(property(get = __cordl_internal_get_m_CanvasRenderer, put = __cordl_internal_set_m_CanvasRenderer))::UnityW<::UnityEngine::CanvasRenderer> m_CanvasRenderer;
 
   /// @brief Field m_Canvas, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_Canvas, put = __set_m_Canvas))::UnityEngine::Canvas* m_Canvas;
+  __declspec(property(get = __cordl_internal_get_m_Canvas, put = __cordl_internal_set_m_Canvas))::UnityW<::UnityEngine::Canvas> m_Canvas;
 
   /// @brief Field m_VertsDirty, offset 0x60, size 0x1
-  __declspec(property(get = __get_m_VertsDirty, put = __set_m_VertsDirty)) bool m_VertsDirty;
+  __declspec(property(get = __cordl_internal_get_m_VertsDirty, put = __cordl_internal_set_m_VertsDirty)) bool m_VertsDirty;
 
   /// @brief Field m_MaterialDirty, offset 0x61, size 0x1
-  __declspec(property(get = __get_m_MaterialDirty, put = __set_m_MaterialDirty)) bool m_MaterialDirty;
+  __declspec(property(get = __cordl_internal_get_m_MaterialDirty, put = __cordl_internal_set_m_MaterialDirty)) bool m_MaterialDirty;
 
   /// @brief Field m_OnDirtyLayoutCallback, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_OnDirtyLayoutCallback, put = __set_m_OnDirtyLayoutCallback))::UnityEngine::Events::UnityAction* m_OnDirtyLayoutCallback;
+  __declspec(property(get = __cordl_internal_get_m_OnDirtyLayoutCallback, put = __cordl_internal_set_m_OnDirtyLayoutCallback))::UnityEngine::Events::UnityAction* m_OnDirtyLayoutCallback;
 
   /// @brief Field m_OnDirtyVertsCallback, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_OnDirtyVertsCallback, put = __set_m_OnDirtyVertsCallback))::UnityEngine::Events::UnityAction* m_OnDirtyVertsCallback;
+  __declspec(property(get = __cordl_internal_get_m_OnDirtyVertsCallback, put = __cordl_internal_set_m_OnDirtyVertsCallback))::UnityEngine::Events::UnityAction* m_OnDirtyVertsCallback;
 
   /// @brief Field m_OnDirtyMaterialCallback, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_OnDirtyMaterialCallback, put = __set_m_OnDirtyMaterialCallback))::UnityEngine::Events::UnityAction* m_OnDirtyMaterialCallback;
+  __declspec(property(get = __cordl_internal_get_m_OnDirtyMaterialCallback, put = __cordl_internal_set_m_OnDirtyMaterialCallback))::UnityEngine::Events::UnityAction* m_OnDirtyMaterialCallback;
 
   /// @brief Field m_CachedMesh, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_CachedMesh, put = __set_m_CachedMesh))::UnityEngine::Mesh* m_CachedMesh;
+  __declspec(property(get = __cordl_internal_get_m_CachedMesh, put = __cordl_internal_set_m_CachedMesh))::UnityW<::UnityEngine::Mesh> m_CachedMesh;
 
   /// @brief Field m_CachedUvs, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_CachedUvs, put = __set_m_CachedUvs))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> m_CachedUvs;
+  __declspec(property(get = __cordl_internal_get_m_CachedUvs, put = __cordl_internal_set_m_CachedUvs))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> m_CachedUvs;
 
   /// @brief Field m_ColorTweenRunner, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_ColorTweenRunner,
-                      put = __set_m_ColorTweenRunner))::UnityEngine::UI::CoroutineTween::TweenRunner_1<::UnityEngine::UI::CoroutineTween::ColorTween>* m_ColorTweenRunner;
+  __declspec(property(get = __cordl_internal_get_m_ColorTweenRunner,
+                      put = __cordl_internal_set_m_ColorTweenRunner))::UnityEngine::UI::CoroutineTween::TweenRunner_1<::UnityEngine::UI::CoroutineTween::ColorTween>* m_ColorTweenRunner;
 
   /// @brief Field <useLegacyMeshGeneration>k__BackingField, offset 0x98, size 0x1
-  __declspec(property(get = __get__useLegacyMeshGeneration_k__BackingField, put = __set__useLegacyMeshGeneration_k__BackingField)) bool _useLegacyMeshGeneration_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__useLegacyMeshGeneration_k__BackingField,
+                      put = __cordl_internal_set__useLegacyMeshGeneration_k__BackingField)) bool _useLegacyMeshGeneration_k__BackingField;
 
   /// @brief Field s_DefaultUI, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_DefaultUI, put = setStaticF_s_DefaultUI))::UnityEngine::Material* s_DefaultUI;
+  static __declspec(property(get = getStaticF_s_DefaultUI, put = setStaticF_s_DefaultUI))::UnityW<::UnityEngine::Material> s_DefaultUI;
 
   /// @brief Field s_WhiteTexture, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_WhiteTexture, put = setStaticF_s_WhiteTexture))::UnityEngine::Texture2D* s_WhiteTexture;
+  static __declspec(property(get = getStaticF_s_WhiteTexture, put = setStaticF_s_WhiteTexture))::UnityW<::UnityEngine::Texture2D> s_WhiteTexture;
 
   /// @brief Field s_Mesh, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Mesh, put = setStaticF_s_Mesh))::UnityEngine::Mesh* s_Mesh;
+  static __declspec(property(get = getStaticF_s_Mesh, put = setStaticF_s_Mesh))::UnityW<::UnityEngine::Mesh> s_Mesh;
 
   /// @brief Field s_VertexHelper, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_VertexHelper, put = setStaticF_s_VertexHelper))::UnityEngine::UI::VertexHelper* s_VertexHelper;
@@ -168,19 +169,19 @@ public:
 
   __declspec(property(get = get_depth)) int32_t depth;
 
-  __declspec(property(get = get_rectTransform))::UnityEngine::RectTransform* rectTransform;
+  __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
 
-  __declspec(property(get = get_canvas))::UnityEngine::Canvas* canvas;
+  __declspec(property(get = get_canvas))::UnityW<::UnityEngine::Canvas> canvas;
 
-  __declspec(property(get = get_canvasRenderer))::UnityEngine::CanvasRenderer* canvasRenderer;
+  __declspec(property(get = get_canvasRenderer))::UnityW<::UnityEngine::CanvasRenderer> canvasRenderer;
 
-  __declspec(property(get = get_defaultMaterial))::UnityEngine::Material* defaultMaterial;
+  __declspec(property(get = get_defaultMaterial))::UnityW<::UnityEngine::Material> defaultMaterial;
 
-  __declspec(property(get = get_material, put = set_material))::UnityEngine::Material* material;
+  __declspec(property(get = get_material, put = set_material))::UnityW<::UnityEngine::Material> material;
 
-  __declspec(property(get = get_materialForRendering))::UnityEngine::Material* materialForRendering;
+  __declspec(property(get = get_materialForRendering))::UnityW<::UnityEngine::Material> materialForRendering;
 
-  __declspec(property(get = get_mainTexture))::UnityEngine::Texture* mainTexture;
+  __declspec(property(get = get_mainTexture))::UnityW<::UnityEngine::Texture> mainTexture;
 
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
@@ -188,138 +189,139 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
   constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
-  constexpr ::UnityEngine::Material*& __get_m_Material();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_m_Material();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_m_Material() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_m_Material() const;
 
-  constexpr void __set_m_Material(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_m_Material(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Color& __get_m_Color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_Color();
 
-  constexpr ::UnityEngine::Color const& __get_m_Color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_Color() const;
 
-  constexpr void __set_m_Color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_Color(::UnityEngine::Color value);
 
-  constexpr bool& __get_m_SkipLayoutUpdate();
+  constexpr bool& __cordl_internal_get_m_SkipLayoutUpdate();
 
-  constexpr bool const& __get_m_SkipLayoutUpdate() const;
+  constexpr bool const& __cordl_internal_get_m_SkipLayoutUpdate() const;
 
-  constexpr void __set_m_SkipLayoutUpdate(bool value);
+  constexpr void __cordl_internal_set_m_SkipLayoutUpdate(bool value);
 
-  constexpr bool& __get_m_SkipMaterialUpdate();
+  constexpr bool& __cordl_internal_get_m_SkipMaterialUpdate();
 
-  constexpr bool const& __get_m_SkipMaterialUpdate() const;
+  constexpr bool const& __cordl_internal_get_m_SkipMaterialUpdate() const;
 
-  constexpr void __set_m_SkipMaterialUpdate(bool value);
+  constexpr void __cordl_internal_set_m_SkipMaterialUpdate(bool value);
 
-  constexpr bool& __get_m_RaycastTarget();
+  constexpr bool& __cordl_internal_get_m_RaycastTarget();
 
-  constexpr bool const& __get_m_RaycastTarget() const;
+  constexpr bool const& __cordl_internal_get_m_RaycastTarget() const;
 
-  constexpr void __set_m_RaycastTarget(bool value);
+  constexpr void __cordl_internal_set_m_RaycastTarget(bool value);
 
-  constexpr bool& __get_m_RaycastTargetCache();
+  constexpr bool& __cordl_internal_get_m_RaycastTargetCache();
 
-  constexpr bool const& __get_m_RaycastTargetCache() const;
+  constexpr bool const& __cordl_internal_get_m_RaycastTargetCache() const;
 
-  constexpr void __set_m_RaycastTargetCache(bool value);
+  constexpr void __cordl_internal_set_m_RaycastTargetCache(bool value);
 
-  constexpr ::UnityEngine::Vector4& __get_m_RaycastPadding();
+  constexpr ::UnityEngine::Vector4& __cordl_internal_get_m_RaycastPadding();
 
-  constexpr ::UnityEngine::Vector4 const& __get_m_RaycastPadding() const;
+  constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_m_RaycastPadding() const;
 
-  constexpr void __set_m_RaycastPadding(::UnityEngine::Vector4 value);
+  constexpr void __cordl_internal_set_m_RaycastPadding(::UnityEngine::Vector4 value);
 
-  constexpr ::UnityEngine::RectTransform*& __get_m_RectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_RectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_RectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_RectTransform() const;
 
-  constexpr void __set_m_RectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_m_RectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::CanvasRenderer*& __get_m_CanvasRenderer();
+  constexpr ::UnityW<::UnityEngine::CanvasRenderer>& __cordl_internal_get_m_CanvasRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasRenderer*> const& __get_m_CanvasRenderer() const;
+  constexpr ::UnityW<::UnityEngine::CanvasRenderer> const& __cordl_internal_get_m_CanvasRenderer() const;
 
-  constexpr void __set_m_CanvasRenderer(::UnityEngine::CanvasRenderer* value);
+  constexpr void __cordl_internal_set_m_CanvasRenderer(::UnityW<::UnityEngine::CanvasRenderer> value);
 
-  constexpr ::UnityEngine::Canvas*& __get_m_Canvas();
+  constexpr ::UnityW<::UnityEngine::Canvas>& __cordl_internal_get_m_Canvas();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Canvas*> const& __get_m_Canvas() const;
+  constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get_m_Canvas() const;
 
-  constexpr void __set_m_Canvas(::UnityEngine::Canvas* value);
+  constexpr void __cordl_internal_set_m_Canvas(::UnityW<::UnityEngine::Canvas> value);
 
-  constexpr bool& __get_m_VertsDirty();
+  constexpr bool& __cordl_internal_get_m_VertsDirty();
 
-  constexpr bool const& __get_m_VertsDirty() const;
+  constexpr bool const& __cordl_internal_get_m_VertsDirty() const;
 
-  constexpr void __set_m_VertsDirty(bool value);
+  constexpr void __cordl_internal_set_m_VertsDirty(bool value);
 
-  constexpr bool& __get_m_MaterialDirty();
+  constexpr bool& __cordl_internal_get_m_MaterialDirty();
 
-  constexpr bool const& __get_m_MaterialDirty() const;
+  constexpr bool const& __cordl_internal_get_m_MaterialDirty() const;
 
-  constexpr void __set_m_MaterialDirty(bool value);
+  constexpr void __cordl_internal_set_m_MaterialDirty(bool value);
 
-  constexpr ::UnityEngine::Events::UnityAction*& __get_m_OnDirtyLayoutCallback();
+  constexpr ::UnityEngine::Events::UnityAction*& __cordl_internal_get_m_OnDirtyLayoutCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction*> const& __get_m_OnDirtyLayoutCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction*> const& __cordl_internal_get_m_OnDirtyLayoutCallback() const;
 
-  constexpr void __set_m_OnDirtyLayoutCallback(::UnityEngine::Events::UnityAction* value);
+  constexpr void __cordl_internal_set_m_OnDirtyLayoutCallback(::UnityEngine::Events::UnityAction* value);
 
-  constexpr ::UnityEngine::Events::UnityAction*& __get_m_OnDirtyVertsCallback();
+  constexpr ::UnityEngine::Events::UnityAction*& __cordl_internal_get_m_OnDirtyVertsCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction*> const& __get_m_OnDirtyVertsCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction*> const& __cordl_internal_get_m_OnDirtyVertsCallback() const;
 
-  constexpr void __set_m_OnDirtyVertsCallback(::UnityEngine::Events::UnityAction* value);
+  constexpr void __cordl_internal_set_m_OnDirtyVertsCallback(::UnityEngine::Events::UnityAction* value);
 
-  constexpr ::UnityEngine::Events::UnityAction*& __get_m_OnDirtyMaterialCallback();
+  constexpr ::UnityEngine::Events::UnityAction*& __cordl_internal_get_m_OnDirtyMaterialCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction*> const& __get_m_OnDirtyMaterialCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction*> const& __cordl_internal_get_m_OnDirtyMaterialCallback() const;
 
-  constexpr void __set_m_OnDirtyMaterialCallback(::UnityEngine::Events::UnityAction* value);
+  constexpr void __cordl_internal_set_m_OnDirtyMaterialCallback(::UnityEngine::Events::UnityAction* value);
 
-  constexpr ::UnityEngine::Mesh*& __get_m_CachedMesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get_m_CachedMesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get_m_CachedMesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get_m_CachedMesh() const;
 
-  constexpr void __set_m_CachedMesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set_m_CachedMesh(::UnityW<::UnityEngine::Mesh> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __get_m_CachedUvs();
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __cordl_internal_get_m_CachedUvs();
 
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __get_m_CachedUvs() const;
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __cordl_internal_get_m_CachedUvs() const;
 
-  constexpr void __set_m_CachedUvs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
+  constexpr void __cordl_internal_set_m_CachedUvs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
 
-  constexpr ::UnityEngine::UI::CoroutineTween::TweenRunner_1<::UnityEngine::UI::CoroutineTween::ColorTween>*& __get_m_ColorTweenRunner();
+  constexpr ::UnityEngine::UI::CoroutineTween::TweenRunner_1<::UnityEngine::UI::CoroutineTween::ColorTween>*& __cordl_internal_get_m_ColorTweenRunner();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::CoroutineTween::TweenRunner_1<::UnityEngine::UI::CoroutineTween::ColorTween>*> const& __get_m_ColorTweenRunner() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::CoroutineTween::TweenRunner_1<::UnityEngine::UI::CoroutineTween::ColorTween>*> const&
+  __cordl_internal_get_m_ColorTweenRunner() const;
 
-  constexpr void __set_m_ColorTweenRunner(::UnityEngine::UI::CoroutineTween::TweenRunner_1<::UnityEngine::UI::CoroutineTween::ColorTween>* value);
+  constexpr void __cordl_internal_set_m_ColorTweenRunner(::UnityEngine::UI::CoroutineTween::TweenRunner_1<::UnityEngine::UI::CoroutineTween::ColorTween>* value);
 
-  constexpr bool& __get__useLegacyMeshGeneration_k__BackingField();
+  constexpr bool& __cordl_internal_get__useLegacyMeshGeneration_k__BackingField();
 
-  constexpr bool const& __get__useLegacyMeshGeneration_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__useLegacyMeshGeneration_k__BackingField() const;
 
-  constexpr void __set__useLegacyMeshGeneration_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__useLegacyMeshGeneration_k__BackingField(bool value);
 
-  static inline void setStaticF_s_DefaultUI(::UnityEngine::Material* value);
+  static inline void setStaticF_s_DefaultUI(::UnityW<::UnityEngine::Material> value);
 
-  static inline ::UnityEngine::Material* getStaticF_s_DefaultUI();
+  static inline ::UnityW<::UnityEngine::Material> getStaticF_s_DefaultUI();
 
-  static inline void setStaticF_s_WhiteTexture(::UnityEngine::Texture2D* value);
+  static inline void setStaticF_s_WhiteTexture(::UnityW<::UnityEngine::Texture2D> value);
 
-  static inline ::UnityEngine::Texture2D* getStaticF_s_WhiteTexture();
+  static inline ::UnityW<::UnityEngine::Texture2D> getStaticF_s_WhiteTexture();
 
-  static inline void setStaticF_s_Mesh(::UnityEngine::Mesh* value);
+  static inline void setStaticF_s_Mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  static inline ::UnityEngine::Mesh* getStaticF_s_Mesh();
+  static inline ::UnityW<::UnityEngine::Mesh> getStaticF_s_Mesh();
 
   static inline void setStaticF_s_VertexHelper(::UnityEngine::UI::VertexHelper* value);
 
   static inline ::UnityEngine::UI::VertexHelper* getStaticF_s_VertexHelper();
 
   /// @brief Method get_defaultGraphicMaterial, addr 0x2d5b8d0, size 0xdc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Material* get_defaultGraphicMaterial();
+  static inline ::UnityW<::UnityEngine::Material> get_defaultGraphicMaterial();
 
   /// @brief Method get_color, addr 0x2d5b9ac, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
@@ -378,31 +380,31 @@ public:
   inline int32_t get_depth();
 
   /// @brief Method get_rectTransform, addr 0x2d5c16c, size 0x58, virtual true, abstract: false, final true
-  inline ::UnityEngine::RectTransform* get_rectTransform();
+  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
   /// @brief Method get_canvas, addr 0x2d5bacc, size 0x74, virtual false, abstract: false, final false
-  inline ::UnityEngine::Canvas* get_canvas();
+  inline ::UnityW<::UnityEngine::Canvas> get_canvas();
 
   /// @brief Method CacheCanvas, addr 0x2d5c674, size 0x170, virtual false, abstract: false, final false
   inline void CacheCanvas();
 
   /// @brief Method get_canvasRenderer, addr 0x2d5c9f4, size 0x90, virtual false, abstract: false, final false
-  inline ::UnityEngine::CanvasRenderer* get_canvasRenderer();
+  inline ::UnityW<::UnityEngine::CanvasRenderer> get_canvasRenderer();
 
   /// @brief Method get_defaultMaterial, addr 0x2d5ca84, size 0x4c, virtual true, abstract: false, final false
-  inline ::UnityEngine::Material* get_defaultMaterial();
+  inline ::UnityW<::UnityEngine::Material> get_defaultMaterial();
 
   /// @brief Method get_material, addr 0x2d5cad0, size 0x88, virtual true, abstract: false, final false
-  inline ::UnityEngine::Material* get_material();
+  inline ::UnityW<::UnityEngine::Material> get_material();
 
   /// @brief Method set_material, addr 0x2d5cb58, size 0x98, virtual true, abstract: false, final false
   inline void set_material(::UnityEngine::Material* value);
 
   /// @brief Method get_materialForRendering, addr 0x2d5cbf0, size 0x224, virtual true, abstract: false, final false
-  inline ::UnityEngine::Material* get_materialForRendering();
+  inline ::UnityW<::UnityEngine::Material> get_materialForRendering();
 
   /// @brief Method get_mainTexture, addr 0x2d5ce14, size 0x58, virtual true, abstract: false, final false
-  inline ::UnityEngine::Texture* get_mainTexture();
+  inline ::UnityW<::UnityEngine::Texture> get_mainTexture();
 
   /// @brief Method OnEnable, addr 0x2d5ce6c, size 0x130, virtual true, abstract: false, final false
   inline void OnEnable();
@@ -441,7 +443,7 @@ public:
   inline void DoLegacyMeshGeneration();
 
   /// @brief Method get_workerMesh, addr 0x2d5de78, size 0x13c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Mesh* get_workerMesh();
+  static inline ::UnityW<::UnityEngine::Mesh> get_workerMesh();
 
   /// @brief Method OnFillVBO, addr 0x2d5dfb4, size 0x4, virtual true, abstract: false, final false
   inline void OnFillVBO(::System::Collections::Generic::List_1<::UnityEngine::UIVertex>* vbo);
@@ -498,7 +500,7 @@ public:
   inline void UnregisterDirtyMaterialCallback(::UnityEngine::Events::UnityAction* action);
 
   /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x2d5f2d8, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
+  inline ::UnityW<::UnityEngine::Transform> UnityEngine_UI_ICanvasElement_get_transform();
 
   // Ctor Parameters [CppParam { name: "", ty: "Graphic", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -515,7 +517,7 @@ protected:
 
 public:
   /// @brief Field m_Material, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Material* ___m_Material;
+  ::UnityW<::UnityEngine::Material> ___m_Material;
 
   /// @brief Field m_Color, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ___m_Color;
@@ -536,13 +538,13 @@ public:
   ::UnityEngine::Vector4 ___m_RaycastPadding;
 
   /// @brief Field m_RectTransform, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___m_RectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ___m_RectTransform;
 
   /// @brief Field m_CanvasRenderer, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::CanvasRenderer* ___m_CanvasRenderer;
+  ::UnityW<::UnityEngine::CanvasRenderer> ___m_CanvasRenderer;
 
   /// @brief Field m_Canvas, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::Canvas* ___m_Canvas;
+  ::UnityW<::UnityEngine::Canvas> ___m_Canvas;
 
   /// @brief Field m_VertsDirty, offset: 0x60, size: 0x1, def value: None
   bool ___m_VertsDirty;
@@ -560,7 +562,7 @@ public:
   ::UnityEngine::Events::UnityAction* ___m_OnDirtyMaterialCallback;
 
   /// @brief Field m_CachedMesh, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ___m_CachedMesh;
+  ::UnityW<::UnityEngine::Mesh> ___m_CachedMesh;
 
   /// @brief Field m_CachedUvs, offset: 0x88, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> ___m_CachedUvs;

@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::Mono::Http::__NtlmClient____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8851))
 // CS Name: ::NtlmClient::<>c*
 class CORDL_TYPE __NtlmClient____c : public ::System::Object {
@@ -100,7 +100,7 @@ static_assert(::cordl_internals::size_check_v<::Mono::Http::__NtlmClient____c, 0
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8852))
 // CS Name: ::Mono.Http::NtlmClient*
 class CORDL_TYPE NtlmClient : public ::System::Object {

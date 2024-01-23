@@ -21,26 +21,27 @@ MARK_REF_PTR_T(::GlobalNamespace::InMultiplayerRichPresenceData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4669))
 // CS Name: ::InMultiplayerRichPresenceData*
 class CORDL_TYPE InMultiplayerRichPresenceData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <apiName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__apiName_k__BackingField, put = __set__apiName_k__BackingField))::StringW _apiName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__apiName_k__BackingField, put = __cordl_internal_set__apiName_k__BackingField))::StringW _apiName_k__BackingField;
 
   /// @brief Field <localizedDescription>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__localizedDescription_k__BackingField, put = __set__localizedDescription_k__BackingField))::StringW _localizedDescription_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__localizedDescription_k__BackingField,
+                      put = __cordl_internal_set__localizedDescription_k__BackingField))::StringW _localizedDescription_k__BackingField;
 
   /// @brief Field <multiplayerSecret>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__multiplayerSecret_k__BackingField, put = __set__multiplayerSecret_k__BackingField))::StringW _multiplayerSecret_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__multiplayerSecret_k__BackingField, put = __cordl_internal_set__multiplayerSecret_k__BackingField))::StringW _multiplayerSecret_k__BackingField;
 
   /// @brief Field <atMaxPartySize>k__BackingField, offset 0x28, size 0x1
-  __declspec(property(get = __get__atMaxPartySize_k__BackingField, put = __set__atMaxPartySize_k__BackingField)) bool _atMaxPartySize_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__atMaxPartySize_k__BackingField, put = __cordl_internal_set__atMaxPartySize_k__BackingField)) bool _atMaxPartySize_k__BackingField;
 
   /// @brief Field <canInvite>k__BackingField, offset 0x29, size 0x1
-  __declspec(property(get = __get__canInvite_k__BackingField, put = __set__canInvite_k__BackingField)) bool _canInvite_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__canInvite_k__BackingField, put = __cordl_internal_set__canInvite_k__BackingField)) bool _canInvite_k__BackingField;
 
   __declspec(property(get = get_apiName, put = set_apiName))::StringW apiName;
 
@@ -66,35 +67,35 @@ public:
   /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
   constexpr ::GlobalNamespace::IRichPresenceData* i___GlobalNamespace__IRichPresenceData() noexcept;
 
-  constexpr ::StringW& __get__apiName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__apiName_k__BackingField();
 
-  constexpr ::StringW const& __get__apiName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__apiName_k__BackingField() const;
 
-  constexpr void __set__apiName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__apiName_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__localizedDescription_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__localizedDescription_k__BackingField();
 
-  constexpr ::StringW const& __get__localizedDescription_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__localizedDescription_k__BackingField() const;
 
-  constexpr void __set__localizedDescription_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__localizedDescription_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__multiplayerSecret_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__multiplayerSecret_k__BackingField();
 
-  constexpr ::StringW const& __get__multiplayerSecret_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__multiplayerSecret_k__BackingField() const;
 
-  constexpr void __set__multiplayerSecret_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__multiplayerSecret_k__BackingField(::StringW value);
 
-  constexpr bool& __get__atMaxPartySize_k__BackingField();
+  constexpr bool& __cordl_internal_get__atMaxPartySize_k__BackingField();
 
-  constexpr bool const& __get__atMaxPartySize_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__atMaxPartySize_k__BackingField() const;
 
-  constexpr void __set__atMaxPartySize_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__atMaxPartySize_k__BackingField(bool value);
 
-  constexpr bool& __get__canInvite_k__BackingField();
+  constexpr bool& __cordl_internal_get__canInvite_k__BackingField();
 
-  constexpr bool const& __get__canInvite_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__canInvite_k__BackingField() const;
 
-  constexpr void __set__canInvite_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__canInvite_k__BackingField(bool value);
 
   /// @brief Method get_apiName, addr 0x23735a4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_apiName();

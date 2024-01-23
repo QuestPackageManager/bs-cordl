@@ -24,17 +24,17 @@ MARK_REF_PTR_T(::System::Security::Principal::GenericIdentity);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3010))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3010))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2994))
 // CS Name: ::System.Security.Principal::GenericIdentity*
 class CORDL_TYPE GenericIdentity : public ::System::Security::Claims::ClaimsIdentity {
 public:
   // Declarations
   /// @brief Field m_name, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_name, put = __set_m_name))::StringW m_name;
+  __declspec(property(get = __cordl_internal_get_m_name, put = __cordl_internal_set_m_name))::StringW m_name;
 
   /// @brief Field m_type, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_type, put = __set_m_type))::StringW m_type;
+  __declspec(property(get = __cordl_internal_get_m_type, put = __cordl_internal_set_m_type))::StringW m_type;
 
   __declspec(property(get = get_Claims))::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* Claims;
 
@@ -42,17 +42,17 @@ public:
 
   __declspec(property(get = get_AuthenticationType))::StringW AuthenticationType;
 
-  constexpr ::StringW& __get_m_name();
+  constexpr ::StringW& __cordl_internal_get_m_name();
 
-  constexpr ::StringW const& __get_m_name() const;
+  constexpr ::StringW const& __cordl_internal_get_m_name() const;
 
-  constexpr void __set_m_name(::StringW value);
+  constexpr void __cordl_internal_set_m_name(::StringW value);
 
-  constexpr ::StringW& __get_m_type();
+  constexpr ::StringW& __cordl_internal_get_m_type();
 
-  constexpr ::StringW const& __get_m_type() const;
+  constexpr ::StringW const& __cordl_internal_get_m_type() const;
 
-  constexpr void __set_m_type(::StringW value);
+  constexpr void __cordl_internal_set_m_type(::StringW value);
 
   static inline ::System::Security::Principal::GenericIdentity* New_ctor(::StringW name, ::StringW type);
 

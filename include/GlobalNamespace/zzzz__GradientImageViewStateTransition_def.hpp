@@ -34,42 +34,42 @@ MARK_REF_PTR_T(::GlobalNamespace::GradientImageViewStateTransition);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 925 }), TypeDefinitionIndex(TypeDefinitionIndex(13627)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5442))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5451)) CS Name: ::GradientImageViewStateTransition*
-class CORDL_TYPE GradientImageViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::HMUI::ImageView*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5442)), TypeDefinitionIndex(TypeDefinitionIndex(13627)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 925
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5451)) CS Name: ::GradientImageViewStateTransition*
+class CORDL_TYPE GradientImageViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityW<::HMUI::ImageView>> {
 public:
   // Declarations
   /// @brief Field _transition, offset 0x28, size 0x8
-  __declspec(property(get = __get__transition, put = __set__transition))::GlobalNamespace::GradientTransitionSO* _transition;
+  __declspec(property(get = __cordl_internal_get__transition, put = __cordl_internal_set__transition))::UnityW<::GlobalNamespace::GradientTransitionSO> _transition;
 
   /// @brief Field _colorTweenA, offset 0x30, size 0x8
-  __declspec(property(get = __get__colorTweenA, put = __set__colorTweenA))::Tweening::ColorTween* _colorTweenA;
+  __declspec(property(get = __cordl_internal_get__colorTweenA, put = __cordl_internal_set__colorTweenA))::Tweening::ColorTween* _colorTweenA;
 
   /// @brief Field _colorTweenB, offset 0x38, size 0x8
-  __declspec(property(get = __get__colorTweenB, put = __set__colorTweenB))::Tweening::ColorTween* _colorTweenB;
+  __declspec(property(get = __cordl_internal_get__colorTweenB, put = __cordl_internal_set__colorTweenB))::Tweening::ColorTween* _colorTweenB;
 
-  __declspec(property(get = get_transition))::GlobalNamespace::BaseTransitionSO* transition;
+  __declspec(property(get = get_transition))::UnityW<::GlobalNamespace::BaseTransitionSO> transition;
 
-  constexpr ::GlobalNamespace::GradientTransitionSO*& __get__transition();
+  constexpr ::UnityW<::GlobalNamespace::GradientTransitionSO>& __cordl_internal_get__transition();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GradientTransitionSO*> const& __get__transition() const;
+  constexpr ::UnityW<::GlobalNamespace::GradientTransitionSO> const& __cordl_internal_get__transition() const;
 
-  constexpr void __set__transition(::GlobalNamespace::GradientTransitionSO* value);
+  constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::GradientTransitionSO> value);
 
-  constexpr ::Tweening::ColorTween*& __get__colorTweenA();
+  constexpr ::Tweening::ColorTween*& __cordl_internal_get__colorTweenA();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __get__colorTweenA() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __cordl_internal_get__colorTweenA() const;
 
-  constexpr void __set__colorTweenA(::Tweening::ColorTween* value);
+  constexpr void __cordl_internal_set__colorTweenA(::Tweening::ColorTween* value);
 
-  constexpr ::Tweening::ColorTween*& __get__colorTweenB();
+  constexpr ::Tweening::ColorTween*& __cordl_internal_get__colorTweenB();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __get__colorTweenB() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::ColorTween*> const& __cordl_internal_get__colorTweenB() const;
 
-  constexpr void __set__colorTweenB(::Tweening::ColorTween* value);
+  constexpr void __cordl_internal_set__colorTweenB(::Tweening::ColorTween* value);
 
   /// @brief Method get_transition, addr 0x227e024, size 0x8, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::BaseTransitionSO* get_transition();
+  inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
 
   /// @brief Method TransitionToNormalState, addr 0x227e02c, size 0x80, virtual true, abstract: false, final false
   inline void TransitionToNormalState();
@@ -149,7 +149,7 @@ protected:
 
 public:
   /// @brief Field _transition, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::GradientTransitionSO* ____transition;
+  ::UnityW<::GlobalNamespace::GradientTransitionSO> ____transition;
 
   /// @brief Field _colorTweenA, offset: 0x30, size: 0x8, def value: None
   ::Tweening::ColorTween* ____colorTweenA;

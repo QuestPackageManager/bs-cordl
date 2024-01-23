@@ -28,7 +28,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3837))
 // CS Name: ::System.Collections.Generic::IReadOnlyDictionary`2<TKey,TValue>*
 class CORDL_TYPE IReadOnlyDictionary_2 {

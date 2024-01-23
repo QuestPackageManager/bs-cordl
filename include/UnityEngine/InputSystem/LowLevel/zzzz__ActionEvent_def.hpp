@@ -40,7 +40,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__ActionEvent___m_ValueData_e__
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6518))
 // CS Name: ::ActionEvent::<m_ValueData>e__FixedBuffer
 #pragma pack(push, 0)
@@ -73,7 +73,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__ActionEvent___m_V
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 37, calculated_native_size: 53, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6518)), TypeDefinitionIndex(TypeDefinitionIndex(6530))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6518)), TypeDefinitionIndex(TypeDefinitionIndex(6530))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6519))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::ActionEvent
 #pragma pack(push, 0)
@@ -83,28 +83,28 @@ public:
   using _m_ValueData_e__FixedBuffer = ::UnityEngine::InputSystem::LowLevel::__ActionEvent___m_ValueData_e__FixedBuffer;
 
   /// @brief Field baseEvent, offset 0x0, size 0x14
-  __declspec(property(get = __get_baseEvent, put = __set_baseEvent))::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent;
+  __declspec(property(get = __cordl_internal_get_baseEvent, put = __cordl_internal_set_baseEvent))::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent;
 
   /// @brief Field m_ControlIndex, offset 0x14, size 0x2
-  __declspec(property(get = __get_m_ControlIndex, put = __set_m_ControlIndex)) uint16_t m_ControlIndex;
+  __declspec(property(get = __cordl_internal_get_m_ControlIndex, put = __cordl_internal_set_m_ControlIndex)) uint16_t m_ControlIndex;
 
   /// @brief Field m_BindingIndex, offset 0x16, size 0x2
-  __declspec(property(get = __get_m_BindingIndex, put = __set_m_BindingIndex)) uint16_t m_BindingIndex;
+  __declspec(property(get = __cordl_internal_get_m_BindingIndex, put = __cordl_internal_set_m_BindingIndex)) uint16_t m_BindingIndex;
 
   /// @brief Field m_InteractionIndex, offset 0x18, size 0x2
-  __declspec(property(get = __get_m_InteractionIndex, put = __set_m_InteractionIndex)) uint16_t m_InteractionIndex;
+  __declspec(property(get = __cordl_internal_get_m_InteractionIndex, put = __cordl_internal_set_m_InteractionIndex)) uint16_t m_InteractionIndex;
 
   /// @brief Field m_StateIndex, offset 0x1a, size 0x1
-  __declspec(property(get = __get_m_StateIndex, put = __set_m_StateIndex)) uint8_t m_StateIndex;
+  __declspec(property(get = __cordl_internal_get_m_StateIndex, put = __cordl_internal_set_m_StateIndex)) uint8_t m_StateIndex;
 
   /// @brief Field m_Phase, offset 0x1b, size 0x1
-  __declspec(property(get = __get_m_Phase, put = __set_m_Phase)) uint8_t m_Phase;
+  __declspec(property(get = __cordl_internal_get_m_Phase, put = __cordl_internal_set_m_Phase)) uint8_t m_Phase;
 
   /// @brief Field m_StartTime, offset 0x1c, size 0x8
-  __declspec(property(get = __get_m_StartTime, put = __set_m_StartTime)) double_t m_StartTime;
+  __declspec(property(get = __cordl_internal_get_m_StartTime, put = __cordl_internal_set_m_StartTime)) double_t m_StartTime;
 
   /// @brief Field m_ValueData, offset 0x24, size 0x1
-  __declspec(property(get = __get_m_ValueData, put = __set_m_ValueData))::UnityEngine::InputSystem::LowLevel::__ActionEvent___m_ValueData_e__FixedBuffer m_ValueData;
+  __declspec(property(get = __cordl_internal_get_m_ValueData, put = __cordl_internal_set_m_ValueData))::UnityEngine::InputSystem::LowLevel::__ActionEvent___m_ValueData_e__FixedBuffer m_ValueData;
 
   __declspec(property(get = get_startTime, put = set_startTime)) double_t startTime;
 
@@ -130,53 +130,53 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __get_baseEvent();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __cordl_internal_get_baseEvent();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __get_baseEvent() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
 
-  constexpr void __set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
+  constexpr void __cordl_internal_set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
 
-  constexpr uint16_t& __get_m_ControlIndex();
+  constexpr uint16_t& __cordl_internal_get_m_ControlIndex();
 
-  constexpr uint16_t const& __get_m_ControlIndex() const;
+  constexpr uint16_t const& __cordl_internal_get_m_ControlIndex() const;
 
-  constexpr void __set_m_ControlIndex(uint16_t value);
+  constexpr void __cordl_internal_set_m_ControlIndex(uint16_t value);
 
-  constexpr uint16_t& __get_m_BindingIndex();
+  constexpr uint16_t& __cordl_internal_get_m_BindingIndex();
 
-  constexpr uint16_t const& __get_m_BindingIndex() const;
+  constexpr uint16_t const& __cordl_internal_get_m_BindingIndex() const;
 
-  constexpr void __set_m_BindingIndex(uint16_t value);
+  constexpr void __cordl_internal_set_m_BindingIndex(uint16_t value);
 
-  constexpr uint16_t& __get_m_InteractionIndex();
+  constexpr uint16_t& __cordl_internal_get_m_InteractionIndex();
 
-  constexpr uint16_t const& __get_m_InteractionIndex() const;
+  constexpr uint16_t const& __cordl_internal_get_m_InteractionIndex() const;
 
-  constexpr void __set_m_InteractionIndex(uint16_t value);
+  constexpr void __cordl_internal_set_m_InteractionIndex(uint16_t value);
 
-  constexpr uint8_t& __get_m_StateIndex();
+  constexpr uint8_t& __cordl_internal_get_m_StateIndex();
 
-  constexpr uint8_t const& __get_m_StateIndex() const;
+  constexpr uint8_t const& __cordl_internal_get_m_StateIndex() const;
 
-  constexpr void __set_m_StateIndex(uint8_t value);
+  constexpr void __cordl_internal_set_m_StateIndex(uint8_t value);
 
-  constexpr uint8_t& __get_m_Phase();
+  constexpr uint8_t& __cordl_internal_get_m_Phase();
 
-  constexpr uint8_t const& __get_m_Phase() const;
+  constexpr uint8_t const& __cordl_internal_get_m_Phase() const;
 
-  constexpr void __set_m_Phase(uint8_t value);
+  constexpr void __cordl_internal_set_m_Phase(uint8_t value);
 
-  constexpr double_t& __get_m_StartTime();
+  constexpr double_t& __cordl_internal_get_m_StartTime();
 
-  constexpr double_t const& __get_m_StartTime() const;
+  constexpr double_t const& __cordl_internal_get_m_StartTime() const;
 
-  constexpr void __set_m_StartTime(double_t value);
+  constexpr void __cordl_internal_set_m_StartTime(double_t value);
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::__ActionEvent___m_ValueData_e__FixedBuffer& __get_m_ValueData();
+  constexpr ::UnityEngine::InputSystem::LowLevel::__ActionEvent___m_ValueData_e__FixedBuffer& __cordl_internal_get_m_ValueData();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::__ActionEvent___m_ValueData_e__FixedBuffer const& __get_m_ValueData() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::__ActionEvent___m_ValueData_e__FixedBuffer const& __cordl_internal_get_m_ValueData() const;
 
-  constexpr void __set_m_ValueData(::UnityEngine::InputSystem::LowLevel::__ActionEvent___m_ValueData_e__FixedBuffer value);
+  constexpr void __cordl_internal_set_m_ValueData(::UnityEngine::InputSystem::LowLevel::__ActionEvent___m_ValueData_e__FixedBuffer value);
 
   /// @brief Method get_Type, addr 0x2ae91d0, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();

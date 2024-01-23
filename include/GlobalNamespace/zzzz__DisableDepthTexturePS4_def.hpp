@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::DisableDepthTexturePS4);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15280))
 // CS Name: ::DisableDepthTexturePS4*
 class CORDL_TYPE DisableDepthTexturePS4 : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _depthTextureEnabled, offset 0x18, size 0x8
-  __declspec(property(get = __get__depthTextureEnabled, put = __set__depthTextureEnabled))::GlobalNamespace::BoolSO* _depthTextureEnabled;
+  __declspec(property(get = __cordl_internal_get__depthTextureEnabled, put = __cordl_internal_set__depthTextureEnabled))::UnityW<::GlobalNamespace::BoolSO> _depthTextureEnabled;
 
-  constexpr ::GlobalNamespace::BoolSO*& __get__depthTextureEnabled();
+  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__depthTextureEnabled();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& __get__depthTextureEnabled() const;
+  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__depthTextureEnabled() const;
 
-  constexpr void __set__depthTextureEnabled(::GlobalNamespace::BoolSO* value);
+  constexpr void __cordl_internal_set__depthTextureEnabled(::UnityW<::GlobalNamespace::BoolSO> value);
 
   static inline ::GlobalNamespace::DisableDepthTexturePS4* New_ctor();
 
@@ -52,7 +52,7 @@ protected:
 
 public:
   /// @brief Field _depthTextureEnabled, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BoolSO* ____depthTextureEnabled;
+  ::UnityW<::GlobalNamespace::BoolSO> ____depthTextureEnabled;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

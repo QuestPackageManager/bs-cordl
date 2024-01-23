@@ -22,44 +22,44 @@ MARK_REF_PTR_T(::System::UriBuilder);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8866))
 // CS Name: ::System::UriBuilder*
 class CORDL_TYPE UriBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _changed, offset 0x10, size 0x1
-  __declspec(property(get = __get__changed, put = __set__changed)) bool _changed;
+  __declspec(property(get = __cordl_internal_get__changed, put = __cordl_internal_set__changed)) bool _changed;
 
   /// @brief Field _fragment, offset 0x18, size 0x8
-  __declspec(property(get = __get__fragment, put = __set__fragment))::StringW _fragment;
+  __declspec(property(get = __cordl_internal_get__fragment, put = __cordl_internal_set__fragment))::StringW _fragment;
 
   /// @brief Field _host, offset 0x20, size 0x8
-  __declspec(property(get = __get__host, put = __set__host))::StringW _host;
+  __declspec(property(get = __cordl_internal_get__host, put = __cordl_internal_set__host))::StringW _host;
 
   /// @brief Field _password, offset 0x28, size 0x8
-  __declspec(property(get = __get__password, put = __set__password))::StringW _password;
+  __declspec(property(get = __cordl_internal_get__password, put = __cordl_internal_set__password))::StringW _password;
 
   /// @brief Field _path, offset 0x30, size 0x8
-  __declspec(property(get = __get__path, put = __set__path))::StringW _path;
+  __declspec(property(get = __cordl_internal_get__path, put = __cordl_internal_set__path))::StringW _path;
 
   /// @brief Field _port, offset 0x38, size 0x4
-  __declspec(property(get = __get__port, put = __set__port)) int32_t _port;
+  __declspec(property(get = __cordl_internal_get__port, put = __cordl_internal_set__port)) int32_t _port;
 
   /// @brief Field _query, offset 0x40, size 0x8
-  __declspec(property(get = __get__query, put = __set__query))::StringW _query;
+  __declspec(property(get = __cordl_internal_get__query, put = __cordl_internal_set__query))::StringW _query;
 
   /// @brief Field _scheme, offset 0x48, size 0x8
-  __declspec(property(get = __get__scheme, put = __set__scheme))::StringW _scheme;
+  __declspec(property(get = __cordl_internal_get__scheme, put = __cordl_internal_set__scheme))::StringW _scheme;
 
   /// @brief Field _schemeDelimiter, offset 0x50, size 0x8
-  __declspec(property(get = __get__schemeDelimiter, put = __set__schemeDelimiter))::StringW _schemeDelimiter;
+  __declspec(property(get = __cordl_internal_get__schemeDelimiter, put = __cordl_internal_set__schemeDelimiter))::StringW _schemeDelimiter;
 
   /// @brief Field _uri, offset 0x58, size 0x8
-  __declspec(property(get = __get__uri, put = __set__uri))::System::Uri* _uri;
+  __declspec(property(get = __cordl_internal_get__uri, put = __cordl_internal_set__uri))::System::Uri* _uri;
 
   /// @brief Field _username, offset 0x60, size 0x8
-  __declspec(property(get = __get__username, put = __set__username))::StringW _username;
+  __declspec(property(get = __cordl_internal_get__username, put = __cordl_internal_set__username))::StringW _username;
 
   __declspec(property(put = set_Host))::StringW Host;
 
@@ -73,71 +73,71 @@ public:
 
   __declspec(property(get = get_Uri))::System::Uri* Uri;
 
-  constexpr bool& __get__changed();
+  constexpr bool& __cordl_internal_get__changed();
 
-  constexpr bool const& __get__changed() const;
+  constexpr bool const& __cordl_internal_get__changed() const;
 
-  constexpr void __set__changed(bool value);
+  constexpr void __cordl_internal_set__changed(bool value);
 
-  constexpr ::StringW& __get__fragment();
+  constexpr ::StringW& __cordl_internal_get__fragment();
 
-  constexpr ::StringW const& __get__fragment() const;
+  constexpr ::StringW const& __cordl_internal_get__fragment() const;
 
-  constexpr void __set__fragment(::StringW value);
+  constexpr void __cordl_internal_set__fragment(::StringW value);
 
-  constexpr ::StringW& __get__host();
+  constexpr ::StringW& __cordl_internal_get__host();
 
-  constexpr ::StringW const& __get__host() const;
+  constexpr ::StringW const& __cordl_internal_get__host() const;
 
-  constexpr void __set__host(::StringW value);
+  constexpr void __cordl_internal_set__host(::StringW value);
 
-  constexpr ::StringW& __get__password();
+  constexpr ::StringW& __cordl_internal_get__password();
 
-  constexpr ::StringW const& __get__password() const;
+  constexpr ::StringW const& __cordl_internal_get__password() const;
 
-  constexpr void __set__password(::StringW value);
+  constexpr void __cordl_internal_set__password(::StringW value);
 
-  constexpr ::StringW& __get__path();
+  constexpr ::StringW& __cordl_internal_get__path();
 
-  constexpr ::StringW const& __get__path() const;
+  constexpr ::StringW const& __cordl_internal_get__path() const;
 
-  constexpr void __set__path(::StringW value);
+  constexpr void __cordl_internal_set__path(::StringW value);
 
-  constexpr int32_t& __get__port();
+  constexpr int32_t& __cordl_internal_get__port();
 
-  constexpr int32_t const& __get__port() const;
+  constexpr int32_t const& __cordl_internal_get__port() const;
 
-  constexpr void __set__port(int32_t value);
+  constexpr void __cordl_internal_set__port(int32_t value);
 
-  constexpr ::StringW& __get__query();
+  constexpr ::StringW& __cordl_internal_get__query();
 
-  constexpr ::StringW const& __get__query() const;
+  constexpr ::StringW const& __cordl_internal_get__query() const;
 
-  constexpr void __set__query(::StringW value);
+  constexpr void __cordl_internal_set__query(::StringW value);
 
-  constexpr ::StringW& __get__scheme();
+  constexpr ::StringW& __cordl_internal_get__scheme();
 
-  constexpr ::StringW const& __get__scheme() const;
+  constexpr ::StringW const& __cordl_internal_get__scheme() const;
 
-  constexpr void __set__scheme(::StringW value);
+  constexpr void __cordl_internal_set__scheme(::StringW value);
 
-  constexpr ::StringW& __get__schemeDelimiter();
+  constexpr ::StringW& __cordl_internal_get__schemeDelimiter();
 
-  constexpr ::StringW const& __get__schemeDelimiter() const;
+  constexpr ::StringW const& __cordl_internal_get__schemeDelimiter() const;
 
-  constexpr void __set__schemeDelimiter(::StringW value);
+  constexpr void __cordl_internal_set__schemeDelimiter(::StringW value);
 
-  constexpr ::System::Uri*& __get__uri();
+  constexpr ::System::Uri*& __cordl_internal_get__uri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get__uri() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get__uri() const;
 
-  constexpr void __set__uri(::System::Uri* value);
+  constexpr void __cordl_internal_set__uri(::System::Uri* value);
 
-  constexpr ::StringW& __get__username();
+  constexpr ::StringW& __cordl_internal_get__username();
 
-  constexpr ::StringW const& __get__username() const;
+  constexpr ::StringW const& __cordl_internal_get__username() const;
 
-  constexpr void __set__username(::StringW value);
+  constexpr void __cordl_internal_set__username(::StringW value);
 
   static inline ::System::UriBuilder* New_ctor();
 

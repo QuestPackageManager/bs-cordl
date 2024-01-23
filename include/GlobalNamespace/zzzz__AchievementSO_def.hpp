@@ -15,22 +15,22 @@ MARK_REF_PTR_T(::GlobalNamespace::AchievementSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4089))
 // CS Name: ::AchievementSO*
 class CORDL_TYPE AchievementSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _achievementId, offset 0x18, size 0x8
-  __declspec(property(get = __get__achievementId, put = __set__achievementId))::StringW _achievementId;
+  __declspec(property(get = __cordl_internal_get__achievementId, put = __cordl_internal_set__achievementId))::StringW _achievementId;
 
   __declspec(property(get = get_achievementId))::StringW achievementId;
 
-  constexpr ::StringW& __get__achievementId();
+  constexpr ::StringW& __cordl_internal_get__achievementId();
 
-  constexpr ::StringW const& __get__achievementId() const;
+  constexpr ::StringW const& __cordl_internal_get__achievementId() const;
 
-  constexpr void __set__achievementId(::StringW value);
+  constexpr void __cordl_internal_set__achievementId(::StringW value);
 
   /// @brief Method get_achievementId, addr 0x2233204, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_achievementId();

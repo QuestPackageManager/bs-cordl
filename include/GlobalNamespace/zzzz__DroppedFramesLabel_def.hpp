@@ -19,83 +19,83 @@ MARK_REF_PTR_T(::GlobalNamespace::DroppedFramesLabel);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14343))
 // CS Name: ::DroppedFramesLabel*
 class CORDL_TYPE DroppedFramesLabel : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _text, offset 0x18, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::TMPro::TextMeshProUGUI* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
 
   /// @brief Field _expectedFrameRate, offset 0x20, size 0x4
-  __declspec(property(get = __get__expectedFrameRate, put = __set__expectedFrameRate)) int32_t _expectedFrameRate;
+  __declspec(property(get = __cordl_internal_get__expectedFrameRate, put = __cordl_internal_set__expectedFrameRate)) int32_t _expectedFrameRate;
 
   /// @brief Field _resetInterval, offset 0x24, size 0x4
-  __declspec(property(get = __get__resetInterval, put = __set__resetInterval)) int32_t _resetInterval;
+  __declspec(property(get = __cordl_internal_get__resetInterval, put = __cordl_internal_set__resetInterval)) int32_t _resetInterval;
 
   /// @brief Field _totalNumberOfDroppedFrames, offset 0x28, size 0x4
-  __declspec(property(get = __get__totalNumberOfDroppedFrames, put = __set__totalNumberOfDroppedFrames)) int32_t _totalNumberOfDroppedFrames;
+  __declspec(property(get = __cordl_internal_get__totalNumberOfDroppedFrames, put = __cordl_internal_set__totalNumberOfDroppedFrames)) int32_t _totalNumberOfDroppedFrames;
 
   /// @brief Field _syncedFrameTime, offset 0x2c, size 0x4
-  __declspec(property(get = __get__syncedFrameTime, put = __set__syncedFrameTime)) float_t _syncedFrameTime;
+  __declspec(property(get = __cordl_internal_get__syncedFrameTime, put = __cordl_internal_set__syncedFrameTime)) float_t _syncedFrameTime;
 
   /// @brief Field _intervalTime, offset 0x30, size 0x4
-  __declspec(property(get = __get__intervalTime, put = __set__intervalTime)) float_t _intervalTime;
+  __declspec(property(get = __cordl_internal_get__intervalTime, put = __cordl_internal_set__intervalTime)) float_t _intervalTime;
 
   /// @brief Field _maxFrameTimeInInterval, offset 0x34, size 0x4
-  __declspec(property(get = __get__maxFrameTimeInInterval, put = __set__maxFrameTimeInInterval)) float_t _maxFrameTimeInInterval;
+  __declspec(property(get = __cordl_internal_get__maxFrameTimeInInterval, put = __cordl_internal_set__maxFrameTimeInInterval)) float_t _maxFrameTimeInInterval;
 
   /// @brief Field _frameCountInInterval, offset 0x38, size 0x4
-  __declspec(property(get = __get__frameCountInInterval, put = __set__frameCountInInterval)) int32_t _frameCountInInterval;
+  __declspec(property(get = __cordl_internal_get__frameCountInInterval, put = __cordl_internal_set__frameCountInInterval)) int32_t _frameCountInInterval;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__text();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__text() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr int32_t& __get__expectedFrameRate();
+  constexpr int32_t& __cordl_internal_get__expectedFrameRate();
 
-  constexpr int32_t const& __get__expectedFrameRate() const;
+  constexpr int32_t const& __cordl_internal_get__expectedFrameRate() const;
 
-  constexpr void __set__expectedFrameRate(int32_t value);
+  constexpr void __cordl_internal_set__expectedFrameRate(int32_t value);
 
-  constexpr int32_t& __get__resetInterval();
+  constexpr int32_t& __cordl_internal_get__resetInterval();
 
-  constexpr int32_t const& __get__resetInterval() const;
+  constexpr int32_t const& __cordl_internal_get__resetInterval() const;
 
-  constexpr void __set__resetInterval(int32_t value);
+  constexpr void __cordl_internal_set__resetInterval(int32_t value);
 
-  constexpr int32_t& __get__totalNumberOfDroppedFrames();
+  constexpr int32_t& __cordl_internal_get__totalNumberOfDroppedFrames();
 
-  constexpr int32_t const& __get__totalNumberOfDroppedFrames() const;
+  constexpr int32_t const& __cordl_internal_get__totalNumberOfDroppedFrames() const;
 
-  constexpr void __set__totalNumberOfDroppedFrames(int32_t value);
+  constexpr void __cordl_internal_set__totalNumberOfDroppedFrames(int32_t value);
 
-  constexpr float_t& __get__syncedFrameTime();
+  constexpr float_t& __cordl_internal_get__syncedFrameTime();
 
-  constexpr float_t const& __get__syncedFrameTime() const;
+  constexpr float_t const& __cordl_internal_get__syncedFrameTime() const;
 
-  constexpr void __set__syncedFrameTime(float_t value);
+  constexpr void __cordl_internal_set__syncedFrameTime(float_t value);
 
-  constexpr float_t& __get__intervalTime();
+  constexpr float_t& __cordl_internal_get__intervalTime();
 
-  constexpr float_t const& __get__intervalTime() const;
+  constexpr float_t const& __cordl_internal_get__intervalTime() const;
 
-  constexpr void __set__intervalTime(float_t value);
+  constexpr void __cordl_internal_set__intervalTime(float_t value);
 
-  constexpr float_t& __get__maxFrameTimeInInterval();
+  constexpr float_t& __cordl_internal_get__maxFrameTimeInInterval();
 
-  constexpr float_t const& __get__maxFrameTimeInInterval() const;
+  constexpr float_t const& __cordl_internal_get__maxFrameTimeInInterval() const;
 
-  constexpr void __set__maxFrameTimeInInterval(float_t value);
+  constexpr void __cordl_internal_set__maxFrameTimeInInterval(float_t value);
 
-  constexpr int32_t& __get__frameCountInInterval();
+  constexpr int32_t& __cordl_internal_get__frameCountInInterval();
 
-  constexpr int32_t const& __get__frameCountInInterval() const;
+  constexpr int32_t const& __cordl_internal_get__frameCountInInterval() const;
 
-  constexpr void __set__frameCountInInterval(int32_t value);
+  constexpr void __cordl_internal_set__frameCountInInterval(int32_t value);
 
   /// @brief Method Start, addr 0x20f04bc, size 0x74, virtual false, abstract: false, final false
   inline void Start();
@@ -126,7 +126,7 @@ protected:
 
 public:
   /// @brief Field _text, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____text;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
   /// @brief Field _expectedFrameRate, offset: 0x20, size: 0x4, def value: None
   int32_t ____expectedFrameRate;

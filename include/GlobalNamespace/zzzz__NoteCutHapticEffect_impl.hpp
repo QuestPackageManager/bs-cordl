@@ -24,11 +24,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x88;
   constexpr static std::size_t addrs = 0x239a8cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutHapticEffect*>::get(), "HitNote", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SaberType>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NoteCutHapticEffect__Type>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutHapticEffect*>::get(), "HitNote", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SaberType>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NoteCutHapticEffect__Type>::get() })));
     return ___internal_method;
   }
 };
@@ -39,97 +39,97 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x239a954;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutHapticEffect*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO*& GlobalNamespace::NoteCutHapticEffect::__get__normalPreset() {
+constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__normalPreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalPreset;
 }
-constexpr ::cordl_internals::to_const_pointer<::Libraries::HM::HMLib::VR::HapticPresetSO*> const& GlobalNamespace::NoteCutHapticEffect::__get__normalPreset() const {
+constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__normalPreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalPreset;
 }
-constexpr void GlobalNamespace::NoteCutHapticEffect::__set__normalPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* value) {
+constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__normalPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____normalPreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO*& GlobalNamespace::NoteCutHapticEffect::__get__shortNormalPreset() {
+constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__shortNormalPreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shortNormalPreset;
 }
-constexpr ::cordl_internals::to_const_pointer<::Libraries::HM::HMLib::VR::HapticPresetSO*> const& GlobalNamespace::NoteCutHapticEffect::__get__shortNormalPreset() const {
+constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__shortNormalPreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shortNormalPreset;
 }
-constexpr void GlobalNamespace::NoteCutHapticEffect::__set__shortNormalPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* value) {
+constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__shortNormalPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____shortNormalPreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO*& GlobalNamespace::NoteCutHapticEffect::__get__shortWeakPreset() {
+constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__shortWeakPreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shortWeakPreset;
 }
-constexpr ::cordl_internals::to_const_pointer<::Libraries::HM::HMLib::VR::HapticPresetSO*> const& GlobalNamespace::NoteCutHapticEffect::__get__shortWeakPreset() const {
+constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__shortWeakPreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shortWeakPreset;
 }
-constexpr void GlobalNamespace::NoteCutHapticEffect::__set__shortWeakPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* value) {
+constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__shortWeakPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____shortWeakPreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO*& GlobalNamespace::NoteCutHapticEffect::__get__bombPreset() {
+constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__bombPreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bombPreset;
 }
-constexpr ::cordl_internals::to_const_pointer<::Libraries::HM::HMLib::VR::HapticPresetSO*> const& GlobalNamespace::NoteCutHapticEffect::__get__bombPreset() const {
+constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__bombPreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bombPreset;
 }
-constexpr void GlobalNamespace::NoteCutHapticEffect::__set__bombPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* value) {
+constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__bombPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bombPreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Libraries::HM::HMLib::VR::HapticPresetSO*& GlobalNamespace::NoteCutHapticEffect::__get__badCutPreset() {
+constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__badCutPreset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____badCutPreset;
 }
-constexpr ::cordl_internals::to_const_pointer<::Libraries::HM::HMLib::VR::HapticPresetSO*> const& GlobalNamespace::NoteCutHapticEffect::__get__badCutPreset() const {
+constexpr ::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__badCutPreset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____badCutPreset;
 }
-constexpr void GlobalNamespace::NoteCutHapticEffect::__set__badCutPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* value) {
+constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__badCutPreset(::UnityW<::Libraries::HM::HMLib::VR::HapticPresetSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____badCutPreset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::HapticFeedbackManager*& GlobalNamespace::NoteCutHapticEffect::__get__hapticFeedbackManager() {
+constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__hapticFeedbackManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HapticFeedbackManager*> const& GlobalNamespace::NoteCutHapticEffect::__get__hapticFeedbackManager() const {
+constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& GlobalNamespace::NoteCutHapticEffect::__cordl_internal_get__hapticFeedbackManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____hapticFeedbackManager;
 }
-constexpr void GlobalNamespace::NoteCutHapticEffect::__set__hapticFeedbackManager(::GlobalNamespace::HapticFeedbackManager* value) {
+constexpr void GlobalNamespace::NoteCutHapticEffect::__cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hapticFeedbackManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::NoteCutHapticEffect::HitNote(::GlobalNamespace::SaberType saberType, ::GlobalNamespace::__NoteCutHapticEffect__Type type) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutHapticEffect*>::get(), "HitNote", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SaberType>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NoteCutHapticEffect__Type>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutHapticEffect*>::get(), "HitNote", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SaberType>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__NoteCutHapticEffect__Type>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, saberType, type);
 }
 inline ::GlobalNamespace::NoteCutHapticEffect* GlobalNamespace::NoteCutHapticEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::NoteCutHapticEffect*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NoteCutHapticEffect*>());
 }
 inline void GlobalNamespace::NoteCutHapticEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutHapticEffect*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

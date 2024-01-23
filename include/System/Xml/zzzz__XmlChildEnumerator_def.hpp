@@ -23,20 +23,20 @@ MARK_REF_PTR_T(::System::Xml::XmlChildEnumerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11501))
 // CS Name: ::System.Xml::XmlChildEnumerator*
 class CORDL_TYPE XmlChildEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field container, offset 0x10, size 0x8
-  __declspec(property(get = __get_container, put = __set_container))::System::Xml::XmlNode* container;
+  __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container))::System::Xml::XmlNode* container;
 
   /// @brief Field child, offset 0x18, size 0x8
-  __declspec(property(get = __get_child, put = __set_child))::System::Xml::XmlNode* child;
+  __declspec(property(get = __cordl_internal_get_child, put = __cordl_internal_set_child))::System::Xml::XmlNode* child;
 
   /// @brief Field isFirst, offset 0x20, size 0x1
-  __declspec(property(get = __get_isFirst, put = __set_isFirst)) bool isFirst;
+  __declspec(property(get = __cordl_internal_get_isFirst, put = __cordl_internal_set_isFirst)) bool isFirst;
 
   __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
 
@@ -48,23 +48,23 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::System::Xml::XmlNode*& __get_container();
+  constexpr ::System::Xml::XmlNode*& __cordl_internal_get_container();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& __get_container() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& __cordl_internal_get_container() const;
 
-  constexpr void __set_container(::System::Xml::XmlNode* value);
+  constexpr void __cordl_internal_set_container(::System::Xml::XmlNode* value);
 
-  constexpr ::System::Xml::XmlNode*& __get_child();
+  constexpr ::System::Xml::XmlNode*& __cordl_internal_get_child();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& __get_child() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& __cordl_internal_get_child() const;
 
-  constexpr void __set_child(::System::Xml::XmlNode* value);
+  constexpr void __cordl_internal_set_child(::System::Xml::XmlNode* value);
 
-  constexpr bool& __get_isFirst();
+  constexpr bool& __cordl_internal_get_isFirst();
 
-  constexpr bool const& __get_isFirst() const;
+  constexpr bool const& __cordl_internal_get_isFirst() const;
 
-  constexpr void __set_isFirst(bool value);
+  constexpr void __cordl_internal_set_isFirst(bool value);
 
   static inline ::System::Xml::XmlChildEnumerator* New_ctor(::System::Xml::XmlNode* container);
 

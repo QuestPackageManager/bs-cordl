@@ -41,80 +41,80 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_ParameterData);
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 329, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(9734)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9734)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9760))
 // CS Name: ::HoudiniEngineUnity::HEU_ParameterData*
 class CORDL_TYPE HEU_ParameterData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _unityIndex, offset 0x10, size 0x4
-  __declspec(property(get = __get__unityIndex, put = __set__unityIndex)) int32_t _unityIndex;
+  __declspec(property(get = __cordl_internal_get__unityIndex, put = __cordl_internal_set__unityIndex)) int32_t _unityIndex;
 
   /// @brief Field _name, offset 0x18, size 0x8
-  __declspec(property(get = __get__name, put = __set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
   /// @brief Field _labelName, offset 0x20, size 0x8
-  __declspec(property(get = __get__labelName, put = __set__labelName))::StringW _labelName;
+  __declspec(property(get = __cordl_internal_get__labelName, put = __cordl_internal_set__labelName))::StringW _labelName;
 
   /// @brief Field _help, offset 0x28, size 0x8
-  __declspec(property(get = __get__help, put = __set__help))::StringW _help;
+  __declspec(property(get = __cordl_internal_get__help, put = __cordl_internal_set__help))::StringW _help;
 
   /// @brief Field _childParameterIDs, offset 0x30, size 0x8
-  __declspec(property(get = __get__childParameterIDs, put = __set__childParameterIDs))::System::Collections::Generic::List_1<int32_t>* _childParameterIDs;
+  __declspec(property(get = __cordl_internal_get__childParameterIDs, put = __cordl_internal_set__childParameterIDs))::System::Collections::Generic::List_1<int32_t>* _childParameterIDs;
 
   /// @brief Field _choiceValue, offset 0x38, size 0x4
-  __declspec(property(get = __get__choiceValue, put = __set__choiceValue)) int32_t _choiceValue;
+  __declspec(property(get = __cordl_internal_get__choiceValue, put = __cordl_internal_set__choiceValue)) int32_t _choiceValue;
 
   /// @brief Field _intValues, offset 0x40, size 0x8
-  __declspec(property(get = __get__intValues, put = __set__intValues))::ArrayW<int32_t, ::Array<int32_t>*> _intValues;
+  __declspec(property(get = __cordl_internal_get__intValues, put = __cordl_internal_set__intValues))::ArrayW<int32_t, ::Array<int32_t>*> _intValues;
 
   /// @brief Field _floatValues, offset 0x48, size 0x8
-  __declspec(property(get = __get__floatValues, put = __set__floatValues))::ArrayW<float_t, ::Array<float_t>*> _floatValues;
+  __declspec(property(get = __cordl_internal_get__floatValues, put = __cordl_internal_set__floatValues))::ArrayW<float_t, ::Array<float_t>*> _floatValues;
 
   /// @brief Field _stringValues, offset 0x50, size 0x8
-  __declspec(property(get = __get__stringValues, put = __set__stringValues))::ArrayW<::StringW, ::Array<::StringW>*> _stringValues;
+  __declspec(property(get = __cordl_internal_get__stringValues, put = __cordl_internal_set__stringValues))::ArrayW<::StringW, ::Array<::StringW>*> _stringValues;
 
   /// @brief Field _toggle, offset 0x58, size 0x1
-  __declspec(property(get = __get__toggle, put = __set__toggle)) bool _toggle;
+  __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle)) bool _toggle;
 
   /// @brief Field _color, offset 0x5c, size 0x10
-  __declspec(property(get = __get__color, put = __set__color))::UnityEngine::Color _color;
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
   /// @brief Field _gradient, offset 0x70, size 0x8
-  __declspec(property(get = __get__gradient, put = __set__gradient))::UnityEngine::Gradient* _gradient;
+  __declspec(property(get = __cordl_internal_get__gradient, put = __cordl_internal_set__gradient))::UnityEngine::Gradient* _gradient;
 
   /// @brief Field _animCurve, offset 0x78, size 0x8
-  __declspec(property(get = __get__animCurve, put = __set__animCurve))::UnityEngine::AnimationCurve* _animCurve;
+  __declspec(property(get = __cordl_internal_get__animCurve, put = __cordl_internal_set__animCurve))::UnityEngine::AnimationCurve* _animCurve;
 
   /// @brief Field _choiceLabels, offset 0x80, size 0x8
-  __declspec(property(get = __get__choiceLabels, put = __set__choiceLabels))::ArrayW<::UnityEngine::GUIContent*, ::Array<::UnityEngine::GUIContent*>*> _choiceLabels;
+  __declspec(property(get = __cordl_internal_get__choiceLabels, put = __cordl_internal_set__choiceLabels))::ArrayW<::UnityEngine::GUIContent*, ::Array<::UnityEngine::GUIContent*>*> _choiceLabels;
 
   /// @brief Field _choiceStringValues, offset 0x88, size 0x8
-  __declspec(property(get = __get__choiceStringValues, put = __set__choiceStringValues))::ArrayW<::StringW, ::Array<::StringW>*> _choiceStringValues;
+  __declspec(property(get = __cordl_internal_get__choiceStringValues, put = __cordl_internal_set__choiceStringValues))::ArrayW<::StringW, ::Array<::StringW>*> _choiceStringValues;
 
   /// @brief Field _choiceIntValues, offset 0x90, size 0x8
-  __declspec(property(get = __get__choiceIntValues, put = __set__choiceIntValues))::ArrayW<int32_t, ::Array<int32_t>*> _choiceIntValues;
+  __declspec(property(get = __cordl_internal_get__choiceIntValues, put = __cordl_internal_set__choiceIntValues))::ArrayW<int32_t, ::Array<int32_t>*> _choiceIntValues;
 
   /// @brief Field _parmInfo, offset 0x98, size 0x90
-  __declspec(property(get = __get__parmInfo, put = __set__parmInfo))::HoudiniEngineUnity::HAPI_ParmInfo _parmInfo;
+  __declspec(property(get = __cordl_internal_get__parmInfo, put = __cordl_internal_set__parmInfo))::HoudiniEngineUnity::HAPI_ParmInfo _parmInfo;
 
   /// @brief Field _showChildren, offset 0x128, size 0x1
-  __declspec(property(get = __get__showChildren, put = __set__showChildren)) bool _showChildren;
+  __declspec(property(get = __cordl_internal_get__showChildren, put = __cordl_internal_set__showChildren)) bool _showChildren;
 
   /// @brief Field _fileTypeInfo, offset 0x130, size 0x8
-  __declspec(property(get = __get__fileTypeInfo, put = __set__fileTypeInfo))::StringW _fileTypeInfo;
+  __declspec(property(get = __cordl_internal_get__fileTypeInfo, put = __cordl_internal_set__fileTypeInfo))::StringW _fileTypeInfo;
 
   /// @brief Field _folderListChildrenProcessed, offset 0x138, size 0x4
-  __declspec(property(get = __get__folderListChildrenProcessed, put = __set__folderListChildrenProcessed)) int32_t _folderListChildrenProcessed;
+  __declspec(property(get = __cordl_internal_get__folderListChildrenProcessed, put = __cordl_internal_set__folderListChildrenProcessed)) int32_t _folderListChildrenProcessed;
 
   /// @brief Field _tabSelectedIndex, offset 0x13c, size 0x4
-  __declspec(property(get = __get__tabSelectedIndex, put = __set__tabSelectedIndex)) int32_t _tabSelectedIndex;
+  __declspec(property(get = __cordl_internal_get__tabSelectedIndex, put = __cordl_internal_set__tabSelectedIndex)) int32_t _tabSelectedIndex;
 
   /// @brief Field _paramInputNode, offset 0x140, size 0x8
-  __declspec(property(get = __get__paramInputNode, put = __set__paramInputNode))::HoudiniEngineUnity::HEU_InputNode* _paramInputNode;
+  __declspec(property(get = __cordl_internal_get__paramInputNode, put = __cordl_internal_set__paramInputNode))::UnityW<::HoudiniEngineUnity::HEU_InputNode> _paramInputNode;
 
   /// @brief Field _hasAssetPathTag, offset 0x148, size 0x1
-  __declspec(property(get = __get__hasAssetPathTag, put = __set__hasAssetPathTag)) bool _hasAssetPathTag;
+  __declspec(property(get = __cordl_internal_get__hasAssetPathTag, put = __cordl_internal_set__hasAssetPathTag)) bool _hasAssetPathTag;
 
   __declspec(property(get = get_ParmID)) int32_t ParmID;
 
@@ -146,143 +146,143 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_ParameterData*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_ParameterData__() noexcept;
 
-  constexpr int32_t& __get__unityIndex();
+  constexpr int32_t& __cordl_internal_get__unityIndex();
 
-  constexpr int32_t const& __get__unityIndex() const;
+  constexpr int32_t const& __cordl_internal_get__unityIndex() const;
 
-  constexpr void __set__unityIndex(int32_t value);
+  constexpr void __cordl_internal_set__unityIndex(int32_t value);
 
-  constexpr ::StringW& __get__name();
+  constexpr ::StringW& __cordl_internal_get__name();
 
-  constexpr ::StringW const& __get__name() const;
+  constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr void __set__name(::StringW value);
+  constexpr void __cordl_internal_set__name(::StringW value);
 
-  constexpr ::StringW& __get__labelName();
+  constexpr ::StringW& __cordl_internal_get__labelName();
 
-  constexpr ::StringW const& __get__labelName() const;
+  constexpr ::StringW const& __cordl_internal_get__labelName() const;
 
-  constexpr void __set__labelName(::StringW value);
+  constexpr void __cordl_internal_set__labelName(::StringW value);
 
-  constexpr ::StringW& __get__help();
+  constexpr ::StringW& __cordl_internal_get__help();
 
-  constexpr ::StringW const& __get__help() const;
+  constexpr ::StringW const& __cordl_internal_get__help() const;
 
-  constexpr void __set__help(::StringW value);
+  constexpr void __cordl_internal_set__help(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get__childParameterIDs();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get__childParameterIDs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get__childParameterIDs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get__childParameterIDs() const;
 
-  constexpr void __set__childParameterIDs(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set__childParameterIDs(::System::Collections::Generic::List_1<int32_t>* value);
 
-  constexpr int32_t& __get__choiceValue();
+  constexpr int32_t& __cordl_internal_get__choiceValue();
 
-  constexpr int32_t const& __get__choiceValue() const;
+  constexpr int32_t const& __cordl_internal_get__choiceValue() const;
 
-  constexpr void __set__choiceValue(int32_t value);
+  constexpr void __cordl_internal_set__choiceValue(int32_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__intValues();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__intValues();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__intValues() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__intValues() const;
 
-  constexpr void __set__intValues(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__intValues(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get__floatValues();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__floatValues();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get__floatValues() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__floatValues() const;
 
-  constexpr void __set__floatValues(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set__floatValues(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__stringValues();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__stringValues();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__stringValues() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__stringValues() const;
 
-  constexpr void __set__stringValues(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__stringValues(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr bool& __get__toggle();
+  constexpr bool& __cordl_internal_get__toggle();
 
-  constexpr bool const& __get__toggle() const;
+  constexpr bool const& __cordl_internal_get__toggle() const;
 
-  constexpr void __set__toggle(bool value);
+  constexpr void __cordl_internal_set__toggle(bool value);
 
-  constexpr ::UnityEngine::Color& __get__color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::UnityEngine::Color const& __get__color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr void __set__color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Gradient*& __get__gradient();
+  constexpr ::UnityEngine::Gradient*& __cordl_internal_get__gradient();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Gradient*> const& __get__gradient() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Gradient*> const& __cordl_internal_get__gradient() const;
 
-  constexpr void __set__gradient(::UnityEngine::Gradient* value);
+  constexpr void __cordl_internal_set__gradient(::UnityEngine::Gradient* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__animCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__animCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__animCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__animCurve() const;
 
-  constexpr void __set__animCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__animCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::ArrayW<::UnityEngine::GUIContent*, ::Array<::UnityEngine::GUIContent*>*>& __get__choiceLabels();
+  constexpr ::ArrayW<::UnityEngine::GUIContent*, ::Array<::UnityEngine::GUIContent*>*>& __cordl_internal_get__choiceLabels();
 
-  constexpr ::ArrayW<::UnityEngine::GUIContent*, ::Array<::UnityEngine::GUIContent*>*> const& __get__choiceLabels() const;
+  constexpr ::ArrayW<::UnityEngine::GUIContent*, ::Array<::UnityEngine::GUIContent*>*> const& __cordl_internal_get__choiceLabels() const;
 
-  constexpr void __set__choiceLabels(::ArrayW<::UnityEngine::GUIContent*, ::Array<::UnityEngine::GUIContent*>*> value);
+  constexpr void __cordl_internal_set__choiceLabels(::ArrayW<::UnityEngine::GUIContent*, ::Array<::UnityEngine::GUIContent*>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__choiceStringValues();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__choiceStringValues();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__choiceStringValues() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__choiceStringValues() const;
 
-  constexpr void __set__choiceStringValues(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__choiceStringValues(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__choiceIntValues();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__choiceIntValues();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__choiceIntValues() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__choiceIntValues() const;
 
-  constexpr void __set__choiceIntValues(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__choiceIntValues(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::HoudiniEngineUnity::HAPI_ParmInfo& __get__parmInfo();
+  constexpr ::HoudiniEngineUnity::HAPI_ParmInfo& __cordl_internal_get__parmInfo();
 
-  constexpr ::HoudiniEngineUnity::HAPI_ParmInfo const& __get__parmInfo() const;
+  constexpr ::HoudiniEngineUnity::HAPI_ParmInfo const& __cordl_internal_get__parmInfo() const;
 
-  constexpr void __set__parmInfo(::HoudiniEngineUnity::HAPI_ParmInfo value);
+  constexpr void __cordl_internal_set__parmInfo(::HoudiniEngineUnity::HAPI_ParmInfo value);
 
-  constexpr bool& __get__showChildren();
+  constexpr bool& __cordl_internal_get__showChildren();
 
-  constexpr bool const& __get__showChildren() const;
+  constexpr bool const& __cordl_internal_get__showChildren() const;
 
-  constexpr void __set__showChildren(bool value);
+  constexpr void __cordl_internal_set__showChildren(bool value);
 
-  constexpr ::StringW& __get__fileTypeInfo();
+  constexpr ::StringW& __cordl_internal_get__fileTypeInfo();
 
-  constexpr ::StringW const& __get__fileTypeInfo() const;
+  constexpr ::StringW const& __cordl_internal_get__fileTypeInfo() const;
 
-  constexpr void __set__fileTypeInfo(::StringW value);
+  constexpr void __cordl_internal_set__fileTypeInfo(::StringW value);
 
-  constexpr int32_t& __get__folderListChildrenProcessed();
+  constexpr int32_t& __cordl_internal_get__folderListChildrenProcessed();
 
-  constexpr int32_t const& __get__folderListChildrenProcessed() const;
+  constexpr int32_t const& __cordl_internal_get__folderListChildrenProcessed() const;
 
-  constexpr void __set__folderListChildrenProcessed(int32_t value);
+  constexpr void __cordl_internal_set__folderListChildrenProcessed(int32_t value);
 
-  constexpr int32_t& __get__tabSelectedIndex();
+  constexpr int32_t& __cordl_internal_get__tabSelectedIndex();
 
-  constexpr int32_t const& __get__tabSelectedIndex() const;
+  constexpr int32_t const& __cordl_internal_get__tabSelectedIndex() const;
 
-  constexpr void __set__tabSelectedIndex(int32_t value);
+  constexpr void __cordl_internal_set__tabSelectedIndex(int32_t value);
 
-  constexpr ::HoudiniEngineUnity::HEU_InputNode*& __get__paramInputNode();
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_InputNode>& __cordl_internal_get__paramInputNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_InputNode*> const& __get__paramInputNode() const;
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_InputNode> const& __cordl_internal_get__paramInputNode() const;
 
-  constexpr void __set__paramInputNode(::HoudiniEngineUnity::HEU_InputNode* value);
+  constexpr void __cordl_internal_set__paramInputNode(::UnityW<::HoudiniEngineUnity::HEU_InputNode> value);
 
-  constexpr bool& __get__hasAssetPathTag();
+  constexpr bool& __cordl_internal_get__hasAssetPathTag();
 
-  constexpr bool const& __get__hasAssetPathTag() const;
+  constexpr bool const& __cordl_internal_get__hasAssetPathTag() const;
 
-  constexpr void __set__hasAssetPathTag(bool value);
+  constexpr void __cordl_internal_set__hasAssetPathTag(bool value);
 
   /// @brief Method get_ParmID, addr 0x2190908, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ParmID();
@@ -451,7 +451,7 @@ public:
   int32_t ____tabSelectedIndex;
 
   /// @brief Field _paramInputNode, offset: 0x140, size: 0x8, def value: None
-  ::HoudiniEngineUnity::HEU_InputNode* ____paramInputNode;
+  ::UnityW<::HoudiniEngineUnity::HEU_InputNode> ____paramInputNode;
 
   /// @brief Field _hasAssetPathTag, offset: 0x148, size: 0x1, def value: None
   bool ____hasAssetPathTag;

@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::System::Security::Cryptography::DESTransform);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2284))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2284))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2978))
 // CS Name: ::System.Security.Cryptography::DESTransform*
 class CORDL_TYPE DESTransform : public ::Mono::Security::Cryptography::SymmetricTransform {
 public:
   // Declarations
   /// @brief Field keySchedule, offset 0x58, size 0x8
-  __declspec(property(get = __get_keySchedule, put = __set_keySchedule))::ArrayW<uint8_t, ::Array<uint8_t>*> keySchedule;
+  __declspec(property(get = __cordl_internal_get_keySchedule, put = __cordl_internal_set_keySchedule))::ArrayW<uint8_t, ::Array<uint8_t>*> keySchedule;
 
   /// @brief Field byteBuff, offset 0x60, size 0x8
-  __declspec(property(get = __get_byteBuff, put = __set_byteBuff))::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuff;
+  __declspec(property(get = __cordl_internal_get_byteBuff, put = __cordl_internal_set_byteBuff))::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuff;
 
   /// @brief Field dwordBuff, offset 0x68, size 0x8
-  __declspec(property(get = __get_dwordBuff, put = __set_dwordBuff))::ArrayW<uint32_t, ::Array<uint32_t>*> dwordBuff;
+  __declspec(property(get = __cordl_internal_get_dwordBuff, put = __cordl_internal_set_dwordBuff))::ArrayW<uint32_t, ::Array<uint32_t>*> dwordBuff;
 
   /// @brief Field KEY_BIT_SIZE, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_KEY_BIT_SIZE, put = setStaticF_KEY_BIT_SIZE)) int32_t KEY_BIT_SIZE;
@@ -64,23 +64,23 @@ public:
   /// @brief Field fpTab, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_fpTab, put = setStaticF_fpTab))::ArrayW<uint32_t, ::Array<uint32_t>*> fpTab;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_keySchedule();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_keySchedule();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_keySchedule() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_keySchedule() const;
 
-  constexpr void __set_keySchedule(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_keySchedule(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_byteBuff();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_byteBuff();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_byteBuff() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_byteBuff() const;
 
-  constexpr void __set_byteBuff(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_byteBuff(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_dwordBuff();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_dwordBuff();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_dwordBuff() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_dwordBuff() const;
 
-  constexpr void __set_dwordBuff(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_dwordBuff(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
   static inline void setStaticF_KEY_BIT_SIZE(int32_t value);
 

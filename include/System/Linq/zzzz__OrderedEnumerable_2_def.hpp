@@ -31,47 +31,47 @@ namespace System::Linq {
 // cpp template
 template <typename TElement, typename TKey>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14291), inst: 1678 }), TypeDefinitionIndex(TypeDefinitionIndex(14291))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14291)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14291), inst: 1678 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14292))
 // CS Name: ::System.Linq::OrderedEnumerable`2<TElement,TKey>*
 class CORDL_TYPE OrderedEnumerable_2 : public ::System::Linq::OrderedEnumerable_1<TElement> {
 public:
   // Declarations
   /// @brief Field parent, offset 0x18, size 0x8
-  __declspec(property(get = __get_parent, put = __set_parent))::System::Linq::OrderedEnumerable_1<TElement>* parent;
+  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent))::System::Linq::OrderedEnumerable_1<TElement>* parent;
 
   /// @brief Field keySelector, offset 0x20, size 0x8
-  __declspec(property(get = __get_keySelector, put = __set_keySelector))::System::Func_2<TElement, TKey>* keySelector;
+  __declspec(property(get = __cordl_internal_get_keySelector, put = __cordl_internal_set_keySelector))::System::Func_2<TElement, TKey>* keySelector;
 
   /// @brief Field comparer, offset 0x28, size 0x8
-  __declspec(property(get = __get_comparer, put = __set_comparer))::System::Collections::Generic::IComparer_1<TKey>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IComparer_1<TKey>* comparer;
 
   /// @brief Field descending, offset 0x30, size 0x1
-  __declspec(property(get = __get_descending, put = __set_descending)) bool descending;
+  __declspec(property(get = __cordl_internal_get_descending, put = __cordl_internal_set_descending)) bool descending;
 
-  constexpr ::System::Linq::OrderedEnumerable_1<TElement>*& __get_parent();
+  constexpr ::System::Linq::OrderedEnumerable_1<TElement>*& __cordl_internal_get_parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::OrderedEnumerable_1<TElement>*> const& __get_parent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Linq::OrderedEnumerable_1<TElement>*> const& __cordl_internal_get_parent() const;
 
-  constexpr void __set_parent(::System::Linq::OrderedEnumerable_1<TElement>* value);
+  constexpr void __cordl_internal_set_parent(::System::Linq::OrderedEnumerable_1<TElement>* value);
 
-  constexpr ::System::Func_2<TElement, TKey>*& __get_keySelector();
+  constexpr ::System::Func_2<TElement, TKey>*& __cordl_internal_get_keySelector();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TElement, TKey>*> const& __get_keySelector() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TElement, TKey>*> const& __cordl_internal_get_keySelector() const;
 
-  constexpr void __set_keySelector(::System::Func_2<TElement, TKey>* value);
+  constexpr void __cordl_internal_set_keySelector(::System::Func_2<TElement, TKey>* value);
 
-  constexpr ::System::Collections::Generic::IComparer_1<TKey>*& __get_comparer();
+  constexpr ::System::Collections::Generic::IComparer_1<TKey>*& __cordl_internal_get_comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<TKey>*> const& __get_comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IComparer_1<TKey>*> const& __cordl_internal_get_comparer() const;
 
-  constexpr void __set_comparer(::System::Collections::Generic::IComparer_1<TKey>* value);
+  constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IComparer_1<TKey>* value);
 
-  constexpr bool& __get_descending();
+  constexpr bool& __cordl_internal_get_descending();
 
-  constexpr bool const& __get_descending() const;
+  constexpr bool const& __cordl_internal_get_descending() const;
 
-  constexpr void __set_descending(bool value);
+  constexpr void __cordl_internal_set_descending(bool value);
 
   static inline ::System::Linq::OrderedEnumerable_2<TElement, TKey>* New_ctor(::System::Collections::Generic::IEnumerable_1<TElement>* source, ::System::Func_2<TElement, TKey>* keySelector,
                                                                               ::System::Collections::Generic::IComparer_1<TKey>* comparer, bool descending);

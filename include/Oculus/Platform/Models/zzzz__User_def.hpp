@@ -17,110 +17,110 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::User);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13395)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13395))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13484))
 // CS Name: ::Oculus.Platform.Models::User*
 class CORDL_TYPE User : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DisplayName, offset 0x10, size 0x8
-  __declspec(property(get = __get_DisplayName, put = __set_DisplayName))::StringW DisplayName;
+  __declspec(property(get = __cordl_internal_get_DisplayName, put = __cordl_internal_set_DisplayName))::StringW DisplayName;
 
   /// @brief Field ID, offset 0x18, size 0x8
-  __declspec(property(get = __get__cordl_ID, put = __set__cordl_ID)) uint64_t _cordl_ID;
+  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
 
   /// @brief Field ImageURL, offset 0x20, size 0x8
-  __declspec(property(get = __get_ImageURL, put = __set_ImageURL))::StringW ImageURL;
+  __declspec(property(get = __cordl_internal_get_ImageURL, put = __cordl_internal_set_ImageURL))::StringW ImageURL;
 
   /// @brief Field OculusID, offset 0x28, size 0x8
-  __declspec(property(get = __get_OculusID, put = __set_OculusID))::StringW OculusID;
+  __declspec(property(get = __cordl_internal_get_OculusID, put = __cordl_internal_set_OculusID))::StringW OculusID;
 
   /// @brief Field Presence, offset 0x30, size 0x8
-  __declspec(property(get = __get_Presence, put = __set_Presence))::StringW Presence;
+  __declspec(property(get = __cordl_internal_get_Presence, put = __cordl_internal_set_Presence))::StringW Presence;
 
   /// @brief Field PresenceDeeplinkMessage, offset 0x38, size 0x8
-  __declspec(property(get = __get_PresenceDeeplinkMessage, put = __set_PresenceDeeplinkMessage))::StringW PresenceDeeplinkMessage;
+  __declspec(property(get = __cordl_internal_get_PresenceDeeplinkMessage, put = __cordl_internal_set_PresenceDeeplinkMessage))::StringW PresenceDeeplinkMessage;
 
   /// @brief Field PresenceDestinationApiName, offset 0x40, size 0x8
-  __declspec(property(get = __get_PresenceDestinationApiName, put = __set_PresenceDestinationApiName))::StringW PresenceDestinationApiName;
+  __declspec(property(get = __cordl_internal_get_PresenceDestinationApiName, put = __cordl_internal_set_PresenceDestinationApiName))::StringW PresenceDestinationApiName;
 
   /// @brief Field PresenceLobbySessionId, offset 0x48, size 0x8
-  __declspec(property(get = __get_PresenceLobbySessionId, put = __set_PresenceLobbySessionId))::StringW PresenceLobbySessionId;
+  __declspec(property(get = __cordl_internal_get_PresenceLobbySessionId, put = __cordl_internal_set_PresenceLobbySessionId))::StringW PresenceLobbySessionId;
 
   /// @brief Field PresenceMatchSessionId, offset 0x50, size 0x8
-  __declspec(property(get = __get_PresenceMatchSessionId, put = __set_PresenceMatchSessionId))::StringW PresenceMatchSessionId;
+  __declspec(property(get = __cordl_internal_get_PresenceMatchSessionId, put = __cordl_internal_set_PresenceMatchSessionId))::StringW PresenceMatchSessionId;
 
   /// @brief Field PresenceStatus, offset 0x58, size 0x4
-  __declspec(property(get = __get_PresenceStatus, put = __set_PresenceStatus))::Oculus::Platform::UserPresenceStatus PresenceStatus;
+  __declspec(property(get = __cordl_internal_get_PresenceStatus, put = __cordl_internal_set_PresenceStatus))::Oculus::Platform::UserPresenceStatus PresenceStatus;
 
   /// @brief Field SmallImageUrl, offset 0x60, size 0x8
-  __declspec(property(get = __get_SmallImageUrl, put = __set_SmallImageUrl))::StringW SmallImageUrl;
+  __declspec(property(get = __cordl_internal_get_SmallImageUrl, put = __cordl_internal_set_SmallImageUrl))::StringW SmallImageUrl;
 
-  constexpr ::StringW& __get_DisplayName();
+  constexpr ::StringW& __cordl_internal_get_DisplayName();
 
-  constexpr ::StringW const& __get_DisplayName() const;
+  constexpr ::StringW const& __cordl_internal_get_DisplayName() const;
 
-  constexpr void __set_DisplayName(::StringW value);
+  constexpr void __cordl_internal_set_DisplayName(::StringW value);
 
-  constexpr uint64_t& __get__cordl_ID();
+  constexpr uint64_t& __cordl_internal_get__cordl_ID();
 
-  constexpr uint64_t const& __get__cordl_ID() const;
+  constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
 
-  constexpr void __set__cordl_ID(uint64_t value);
+  constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
-  constexpr ::StringW& __get_ImageURL();
+  constexpr ::StringW& __cordl_internal_get_ImageURL();
 
-  constexpr ::StringW const& __get_ImageURL() const;
+  constexpr ::StringW const& __cordl_internal_get_ImageURL() const;
 
-  constexpr void __set_ImageURL(::StringW value);
+  constexpr void __cordl_internal_set_ImageURL(::StringW value);
 
-  constexpr ::StringW& __get_OculusID();
+  constexpr ::StringW& __cordl_internal_get_OculusID();
 
-  constexpr ::StringW const& __get_OculusID() const;
+  constexpr ::StringW const& __cordl_internal_get_OculusID() const;
 
-  constexpr void __set_OculusID(::StringW value);
+  constexpr void __cordl_internal_set_OculusID(::StringW value);
 
-  constexpr ::StringW& __get_Presence();
+  constexpr ::StringW& __cordl_internal_get_Presence();
 
-  constexpr ::StringW const& __get_Presence() const;
+  constexpr ::StringW const& __cordl_internal_get_Presence() const;
 
-  constexpr void __set_Presence(::StringW value);
+  constexpr void __cordl_internal_set_Presence(::StringW value);
 
-  constexpr ::StringW& __get_PresenceDeeplinkMessage();
+  constexpr ::StringW& __cordl_internal_get_PresenceDeeplinkMessage();
 
-  constexpr ::StringW const& __get_PresenceDeeplinkMessage() const;
+  constexpr ::StringW const& __cordl_internal_get_PresenceDeeplinkMessage() const;
 
-  constexpr void __set_PresenceDeeplinkMessage(::StringW value);
+  constexpr void __cordl_internal_set_PresenceDeeplinkMessage(::StringW value);
 
-  constexpr ::StringW& __get_PresenceDestinationApiName();
+  constexpr ::StringW& __cordl_internal_get_PresenceDestinationApiName();
 
-  constexpr ::StringW const& __get_PresenceDestinationApiName() const;
+  constexpr ::StringW const& __cordl_internal_get_PresenceDestinationApiName() const;
 
-  constexpr void __set_PresenceDestinationApiName(::StringW value);
+  constexpr void __cordl_internal_set_PresenceDestinationApiName(::StringW value);
 
-  constexpr ::StringW& __get_PresenceLobbySessionId();
+  constexpr ::StringW& __cordl_internal_get_PresenceLobbySessionId();
 
-  constexpr ::StringW const& __get_PresenceLobbySessionId() const;
+  constexpr ::StringW const& __cordl_internal_get_PresenceLobbySessionId() const;
 
-  constexpr void __set_PresenceLobbySessionId(::StringW value);
+  constexpr void __cordl_internal_set_PresenceLobbySessionId(::StringW value);
 
-  constexpr ::StringW& __get_PresenceMatchSessionId();
+  constexpr ::StringW& __cordl_internal_get_PresenceMatchSessionId();
 
-  constexpr ::StringW const& __get_PresenceMatchSessionId() const;
+  constexpr ::StringW const& __cordl_internal_get_PresenceMatchSessionId() const;
 
-  constexpr void __set_PresenceMatchSessionId(::StringW value);
+  constexpr void __cordl_internal_set_PresenceMatchSessionId(::StringW value);
 
-  constexpr ::Oculus::Platform::UserPresenceStatus& __get_PresenceStatus();
+  constexpr ::Oculus::Platform::UserPresenceStatus& __cordl_internal_get_PresenceStatus();
 
-  constexpr ::Oculus::Platform::UserPresenceStatus const& __get_PresenceStatus() const;
+  constexpr ::Oculus::Platform::UserPresenceStatus const& __cordl_internal_get_PresenceStatus() const;
 
-  constexpr void __set_PresenceStatus(::Oculus::Platform::UserPresenceStatus value);
+  constexpr void __cordl_internal_set_PresenceStatus(::Oculus::Platform::UserPresenceStatus value);
 
-  constexpr ::StringW& __get_SmallImageUrl();
+  constexpr ::StringW& __cordl_internal_get_SmallImageUrl();
 
-  constexpr ::StringW const& __get_SmallImageUrl() const;
+  constexpr ::StringW const& __cordl_internal_get_SmallImageUrl() const;
 
-  constexpr void __set_SmallImageUrl(::StringW value);
+  constexpr void __cordl_internal_set_SmallImageUrl(::StringW value);
 
   static inline ::Oculus::Platform::Models::User* New_ctor(void* o);
 

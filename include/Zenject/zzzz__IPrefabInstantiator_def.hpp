@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::Zenject::IPrefabInstantiator);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11227))
 // CS Name: ::Zenject::IPrefabInstantiator*
 class CORDL_TYPE IPrefabInstantiator {
@@ -60,10 +60,11 @@ public:
   inline ::Zenject::GameObjectCreationParameters* get_GameObjectCreationParameters();
 
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::GameObject* Instantiate(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ByRef<::System::Action*> injectAction);
+  inline ::UnityW<::UnityEngine::GameObject> Instantiate(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args,
+                                                         ByRef<::System::Action*> injectAction);
 
   /// @brief Method GetPrefab, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::Object* GetPrefab();
+  inline ::UnityW<::UnityEngine::Object> GetPrefab();
 
   // Ctor Parameters [CppParam { name: "", ty: "IPrefabInstantiator", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

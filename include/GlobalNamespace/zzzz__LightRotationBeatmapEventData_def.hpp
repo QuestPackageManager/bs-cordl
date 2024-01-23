@@ -37,34 +37,34 @@ MARK_REF_PTR_T(::GlobalNamespace::LightRotationBeatmapEventData);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14727)), TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(14733)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14736))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14735)) CS Name: ::LightRotationBeatmapEventData*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14727)), TypeDefinitionIndex(TypeDefinitionIndex(14733)), TypeDefinitionIndex(TypeDefinitionIndex(14736)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16090))] Self: TypeDefinitionIndex(TypeDefinitionIndex(14735)) CS Name: ::LightRotationBeatmapEventData*
 class CORDL_TYPE LightRotationBeatmapEventData : public ::GlobalNamespace::BeatmapEventData {
 public:
   // Declarations
   /// @brief Field groupId, offset 0x30, size 0x4
-  __declspec(property(get = __get_groupId, put = __set_groupId)) int32_t groupId;
+  __declspec(property(get = __cordl_internal_get_groupId, put = __cordl_internal_set_groupId)) int32_t groupId;
 
   /// @brief Field elementId, offset 0x34, size 0x4
-  __declspec(property(get = __get_elementId, put = __set_elementId)) int32_t elementId;
+  __declspec(property(get = __cordl_internal_get_elementId, put = __cordl_internal_set_elementId)) int32_t elementId;
 
   /// @brief Field usePreviousEventValue, offset 0x38, size 0x1
-  __declspec(property(get = __get_usePreviousEventValue, put = __set_usePreviousEventValue)) bool usePreviousEventValue;
+  __declspec(property(get = __cordl_internal_get_usePreviousEventValue, put = __cordl_internal_set_usePreviousEventValue)) bool usePreviousEventValue;
 
   /// @brief Field easeType, offset 0x3c, size 0x4
-  __declspec(property(get = __get_easeType, put = __set_easeType))::GlobalNamespace::EaseType easeType;
+  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType))::GlobalNamespace::EaseType easeType;
 
   /// @brief Field axis, offset 0x40, size 0x4
-  __declspec(property(get = __get_axis, put = __set_axis))::GlobalNamespace::LightAxis axis;
+  __declspec(property(get = __cordl_internal_get_axis, put = __cordl_internal_set_axis))::GlobalNamespace::LightAxis axis;
 
   /// @brief Field loopCount, offset 0x44, size 0x4
-  __declspec(property(get = __get_loopCount, put = __set_loopCount)) int32_t loopCount;
+  __declspec(property(get = __cordl_internal_get_loopCount, put = __cordl_internal_set_loopCount)) int32_t loopCount;
 
   /// @brief Field rotationDirection, offset 0x48, size 0x4
-  __declspec(property(get = __get_rotationDirection, put = __set_rotationDirection))::GlobalNamespace::LightRotationDirection rotationDirection;
+  __declspec(property(get = __cordl_internal_get_rotationDirection, put = __cordl_internal_set_rotationDirection))::GlobalNamespace::LightRotationDirection rotationDirection;
 
   /// @brief Field <rotation>k__BackingField, offset 0x4c, size 0x4
-  __declspec(property(get = __get__rotation_k__BackingField, put = __set__rotation_k__BackingField)) float_t _rotation_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rotation_k__BackingField, put = __cordl_internal_set__rotation_k__BackingField)) float_t _rotation_k__BackingField;
 
   /// @brief Field _defaults, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__defaults,
@@ -72,53 +72,53 @@ public:
 
   __declspec(property(get = get_rotation, put = set_rotation)) float_t rotation;
 
-  constexpr int32_t& __get_groupId();
+  constexpr int32_t& __cordl_internal_get_groupId();
 
-  constexpr int32_t const& __get_groupId() const;
+  constexpr int32_t const& __cordl_internal_get_groupId() const;
 
-  constexpr void __set_groupId(int32_t value);
+  constexpr void __cordl_internal_set_groupId(int32_t value);
 
-  constexpr int32_t& __get_elementId();
+  constexpr int32_t& __cordl_internal_get_elementId();
 
-  constexpr int32_t const& __get_elementId() const;
+  constexpr int32_t const& __cordl_internal_get_elementId() const;
 
-  constexpr void __set_elementId(int32_t value);
+  constexpr void __cordl_internal_set_elementId(int32_t value);
 
-  constexpr bool& __get_usePreviousEventValue();
+  constexpr bool& __cordl_internal_get_usePreviousEventValue();
 
-  constexpr bool const& __get_usePreviousEventValue() const;
+  constexpr bool const& __cordl_internal_get_usePreviousEventValue() const;
 
-  constexpr void __set_usePreviousEventValue(bool value);
+  constexpr void __cordl_internal_set_usePreviousEventValue(bool value);
 
-  constexpr ::GlobalNamespace::EaseType& __get_easeType();
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get_easeType();
 
-  constexpr ::GlobalNamespace::EaseType const& __get_easeType() const;
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get_easeType() const;
 
-  constexpr void __set_easeType(::GlobalNamespace::EaseType value);
+  constexpr void __cordl_internal_set_easeType(::GlobalNamespace::EaseType value);
 
-  constexpr ::GlobalNamespace::LightAxis& __get_axis();
+  constexpr ::GlobalNamespace::LightAxis& __cordl_internal_get_axis();
 
-  constexpr ::GlobalNamespace::LightAxis const& __get_axis() const;
+  constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get_axis() const;
 
-  constexpr void __set_axis(::GlobalNamespace::LightAxis value);
+  constexpr void __cordl_internal_set_axis(::GlobalNamespace::LightAxis value);
 
-  constexpr int32_t& __get_loopCount();
+  constexpr int32_t& __cordl_internal_get_loopCount();
 
-  constexpr int32_t const& __get_loopCount() const;
+  constexpr int32_t const& __cordl_internal_get_loopCount() const;
 
-  constexpr void __set_loopCount(int32_t value);
+  constexpr void __cordl_internal_set_loopCount(int32_t value);
 
-  constexpr ::GlobalNamespace::LightRotationDirection& __get_rotationDirection();
+  constexpr ::GlobalNamespace::LightRotationDirection& __cordl_internal_get_rotationDirection();
 
-  constexpr ::GlobalNamespace::LightRotationDirection const& __get_rotationDirection() const;
+  constexpr ::GlobalNamespace::LightRotationDirection const& __cordl_internal_get_rotationDirection() const;
 
-  constexpr void __set_rotationDirection(::GlobalNamespace::LightRotationDirection value);
+  constexpr void __cordl_internal_set_rotationDirection(::GlobalNamespace::LightRotationDirection value);
 
-  constexpr float_t& __get__rotation_k__BackingField();
+  constexpr float_t& __cordl_internal_get__rotation_k__BackingField();
 
-  constexpr float_t const& __get__rotation_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__rotation_k__BackingField() const;
 
-  constexpr void __set__rotation_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__rotation_k__BackingField(float_t value);
 
   static inline void setStaticF__defaults(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::LightRotationBeatmapEventData*>* value);
 

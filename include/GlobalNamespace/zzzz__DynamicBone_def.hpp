@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__DynamicBone__Particle);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16042))
 // CS Name: ::DynamicBone::UpdateMode
 struct CORDL_TYPE __DynamicBone__UpdateMode {
@@ -111,7 +111,7 @@ static_assert(offsetof(::GlobalNamespace::__DynamicBone__UpdateMode, value__) ==
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16043))
 // CS Name: ::DynamicBone::FreezeAxis
 struct CORDL_TYPE __DynamicBone__FreezeAxis {
@@ -169,128 +169,128 @@ static_assert(offsetof(::GlobalNamespace::__DynamicBone__FreezeAxis, value__) ==
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16044))
 // CS Name: ::DynamicBone::Particle*
 class CORDL_TYPE __DynamicBone__Particle : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Transform, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Transform, put = __set_m_Transform))::UnityEngine::Transform* m_Transform;
+  __declspec(property(get = __cordl_internal_get_m_Transform, put = __cordl_internal_set_m_Transform))::UnityW<::UnityEngine::Transform> m_Transform;
 
   /// @brief Field m_ParentIndex, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_ParentIndex, put = __set_m_ParentIndex)) int32_t m_ParentIndex;
+  __declspec(property(get = __cordl_internal_get_m_ParentIndex, put = __cordl_internal_set_m_ParentIndex)) int32_t m_ParentIndex;
 
   /// @brief Field m_Damping, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_Damping, put = __set_m_Damping)) float_t m_Damping;
+  __declspec(property(get = __cordl_internal_get_m_Damping, put = __cordl_internal_set_m_Damping)) float_t m_Damping;
 
   /// @brief Field m_Elasticity, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_Elasticity, put = __set_m_Elasticity)) float_t m_Elasticity;
+  __declspec(property(get = __cordl_internal_get_m_Elasticity, put = __cordl_internal_set_m_Elasticity)) float_t m_Elasticity;
 
   /// @brief Field m_Stiffness, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_Stiffness, put = __set_m_Stiffness)) float_t m_Stiffness;
+  __declspec(property(get = __cordl_internal_get_m_Stiffness, put = __cordl_internal_set_m_Stiffness)) float_t m_Stiffness;
 
   /// @brief Field m_Inert, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_Inert, put = __set_m_Inert)) float_t m_Inert;
+  __declspec(property(get = __cordl_internal_get_m_Inert, put = __cordl_internal_set_m_Inert)) float_t m_Inert;
 
   /// @brief Field m_Radius, offset 0x2c, size 0x4
-  __declspec(property(get = __get_m_Radius, put = __set_m_Radius)) float_t m_Radius;
+  __declspec(property(get = __cordl_internal_get_m_Radius, put = __cordl_internal_set_m_Radius)) float_t m_Radius;
 
   /// @brief Field m_BoneLength, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_BoneLength, put = __set_m_BoneLength)) float_t m_BoneLength;
+  __declspec(property(get = __cordl_internal_get_m_BoneLength, put = __cordl_internal_set_m_BoneLength)) float_t m_BoneLength;
 
   /// @brief Field m_Position, offset 0x34, size 0xc
-  __declspec(property(get = __get_m_Position, put = __set_m_Position))::UnityEngine::Vector3 m_Position;
+  __declspec(property(get = __cordl_internal_get_m_Position, put = __cordl_internal_set_m_Position))::UnityEngine::Vector3 m_Position;
 
   /// @brief Field m_PrevPosition, offset 0x40, size 0xc
-  __declspec(property(get = __get_m_PrevPosition, put = __set_m_PrevPosition))::UnityEngine::Vector3 m_PrevPosition;
+  __declspec(property(get = __cordl_internal_get_m_PrevPosition, put = __cordl_internal_set_m_PrevPosition))::UnityEngine::Vector3 m_PrevPosition;
 
   /// @brief Field m_EndOffset, offset 0x4c, size 0xc
-  __declspec(property(get = __get_m_EndOffset, put = __set_m_EndOffset))::UnityEngine::Vector3 m_EndOffset;
+  __declspec(property(get = __cordl_internal_get_m_EndOffset, put = __cordl_internal_set_m_EndOffset))::UnityEngine::Vector3 m_EndOffset;
 
   /// @brief Field m_InitLocalPosition, offset 0x58, size 0xc
-  __declspec(property(get = __get_m_InitLocalPosition, put = __set_m_InitLocalPosition))::UnityEngine::Vector3 m_InitLocalPosition;
+  __declspec(property(get = __cordl_internal_get_m_InitLocalPosition, put = __cordl_internal_set_m_InitLocalPosition))::UnityEngine::Vector3 m_InitLocalPosition;
 
   /// @brief Field m_InitLocalRotation, offset 0x64, size 0x10
-  __declspec(property(get = __get_m_InitLocalRotation, put = __set_m_InitLocalRotation))::UnityEngine::Quaternion m_InitLocalRotation;
+  __declspec(property(get = __cordl_internal_get_m_InitLocalRotation, put = __cordl_internal_set_m_InitLocalRotation))::UnityEngine::Quaternion m_InitLocalRotation;
 
-  constexpr ::UnityEngine::Transform*& __get_m_Transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_m_Transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_m_Transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_m_Transform() const;
 
-  constexpr void __set_m_Transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_m_Transform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr int32_t& __get_m_ParentIndex();
+  constexpr int32_t& __cordl_internal_get_m_ParentIndex();
 
-  constexpr int32_t const& __get_m_ParentIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_ParentIndex() const;
 
-  constexpr void __set_m_ParentIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_ParentIndex(int32_t value);
 
-  constexpr float_t& __get_m_Damping();
+  constexpr float_t& __cordl_internal_get_m_Damping();
 
-  constexpr float_t const& __get_m_Damping() const;
+  constexpr float_t const& __cordl_internal_get_m_Damping() const;
 
-  constexpr void __set_m_Damping(float_t value);
+  constexpr void __cordl_internal_set_m_Damping(float_t value);
 
-  constexpr float_t& __get_m_Elasticity();
+  constexpr float_t& __cordl_internal_get_m_Elasticity();
 
-  constexpr float_t const& __get_m_Elasticity() const;
+  constexpr float_t const& __cordl_internal_get_m_Elasticity() const;
 
-  constexpr void __set_m_Elasticity(float_t value);
+  constexpr void __cordl_internal_set_m_Elasticity(float_t value);
 
-  constexpr float_t& __get_m_Stiffness();
+  constexpr float_t& __cordl_internal_get_m_Stiffness();
 
-  constexpr float_t const& __get_m_Stiffness() const;
+  constexpr float_t const& __cordl_internal_get_m_Stiffness() const;
 
-  constexpr void __set_m_Stiffness(float_t value);
+  constexpr void __cordl_internal_set_m_Stiffness(float_t value);
 
-  constexpr float_t& __get_m_Inert();
+  constexpr float_t& __cordl_internal_get_m_Inert();
 
-  constexpr float_t const& __get_m_Inert() const;
+  constexpr float_t const& __cordl_internal_get_m_Inert() const;
 
-  constexpr void __set_m_Inert(float_t value);
+  constexpr void __cordl_internal_set_m_Inert(float_t value);
 
-  constexpr float_t& __get_m_Radius();
+  constexpr float_t& __cordl_internal_get_m_Radius();
 
-  constexpr float_t const& __get_m_Radius() const;
+  constexpr float_t const& __cordl_internal_get_m_Radius() const;
 
-  constexpr void __set_m_Radius(float_t value);
+  constexpr void __cordl_internal_set_m_Radius(float_t value);
 
-  constexpr float_t& __get_m_BoneLength();
+  constexpr float_t& __cordl_internal_get_m_BoneLength();
 
-  constexpr float_t const& __get_m_BoneLength() const;
+  constexpr float_t const& __cordl_internal_get_m_BoneLength() const;
 
-  constexpr void __set_m_BoneLength(float_t value);
+  constexpr void __cordl_internal_set_m_BoneLength(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_Position();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_Position();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_Position() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_Position() const;
 
-  constexpr void __set_m_Position(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_Position(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_PrevPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_PrevPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_PrevPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_PrevPosition() const;
 
-  constexpr void __set_m_PrevPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_PrevPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_EndOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_EndOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_EndOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_EndOffset() const;
 
-  constexpr void __set_m_EndOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_EndOffset(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_InitLocalPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_InitLocalPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_InitLocalPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_InitLocalPosition() const;
 
-  constexpr void __set_m_InitLocalPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_InitLocalPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_m_InitLocalRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_m_InitLocalRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_m_InitLocalRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_m_InitLocalRotation() const;
 
-  constexpr void __set_m_InitLocalRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_m_InitLocalRotation(::UnityEngine::Quaternion value);
 
   static inline ::GlobalNamespace::__DynamicBone__Particle* New_ctor();
 
@@ -312,7 +312,7 @@ protected:
 
 public:
   /// @brief Field m_Transform, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___m_Transform;
+  ::UnityW<::UnityEngine::Transform> ___m_Transform;
 
   /// @brief Field m_ParentIndex, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_ParentIndex;
@@ -386,8 +386,8 @@ static_assert(offsetof(::GlobalNamespace::__DynamicBone__Particle, ___m_InitLoca
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(16043)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(16042))} Self: TypeDefinitionIndex(TypeDefinitionIndex(16045)) CS Name: ::DynamicBone*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(16042)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16043))] Self: TypeDefinitionIndex(TypeDefinitionIndex(16045)) CS Name: ::DynamicBone*
 class CORDL_TYPE DynamicBone : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -398,292 +398,293 @@ public:
   using UpdateMode = ::GlobalNamespace::__DynamicBone__UpdateMode;
 
   /// @brief Field m_Root, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Root, put = __set_m_Root))::UnityEngine::Transform* m_Root;
+  __declspec(property(get = __cordl_internal_get_m_Root, put = __cordl_internal_set_m_Root))::UnityW<::UnityEngine::Transform> m_Root;
 
   /// @brief Field m_UpdateRate, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_UpdateRate, put = __set_m_UpdateRate)) float_t m_UpdateRate;
+  __declspec(property(get = __cordl_internal_get_m_UpdateRate, put = __cordl_internal_set_m_UpdateRate)) float_t m_UpdateRate;
 
   /// @brief Field m_UpdateMode, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_UpdateMode, put = __set_m_UpdateMode))::GlobalNamespace::__DynamicBone__UpdateMode m_UpdateMode;
+  __declspec(property(get = __cordl_internal_get_m_UpdateMode, put = __cordl_internal_set_m_UpdateMode))::GlobalNamespace::__DynamicBone__UpdateMode m_UpdateMode;
 
   /// @brief Field m_Damping, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_Damping, put = __set_m_Damping)) float_t m_Damping;
+  __declspec(property(get = __cordl_internal_get_m_Damping, put = __cordl_internal_set_m_Damping)) float_t m_Damping;
 
   /// @brief Field m_DampingDistrib, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_DampingDistrib, put = __set_m_DampingDistrib))::UnityEngine::AnimationCurve* m_DampingDistrib;
+  __declspec(property(get = __cordl_internal_get_m_DampingDistrib, put = __cordl_internal_set_m_DampingDistrib))::UnityEngine::AnimationCurve* m_DampingDistrib;
 
   /// @brief Field m_Elasticity, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_Elasticity, put = __set_m_Elasticity)) float_t m_Elasticity;
+  __declspec(property(get = __cordl_internal_get_m_Elasticity, put = __cordl_internal_set_m_Elasticity)) float_t m_Elasticity;
 
   /// @brief Field m_ElasticityDistrib, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_ElasticityDistrib, put = __set_m_ElasticityDistrib))::UnityEngine::AnimationCurve* m_ElasticityDistrib;
+  __declspec(property(get = __cordl_internal_get_m_ElasticityDistrib, put = __cordl_internal_set_m_ElasticityDistrib))::UnityEngine::AnimationCurve* m_ElasticityDistrib;
 
   /// @brief Field m_Stiffness, offset 0x48, size 0x4
-  __declspec(property(get = __get_m_Stiffness, put = __set_m_Stiffness)) float_t m_Stiffness;
+  __declspec(property(get = __cordl_internal_get_m_Stiffness, put = __cordl_internal_set_m_Stiffness)) float_t m_Stiffness;
 
   /// @brief Field m_StiffnessDistrib, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_StiffnessDistrib, put = __set_m_StiffnessDistrib))::UnityEngine::AnimationCurve* m_StiffnessDistrib;
+  __declspec(property(get = __cordl_internal_get_m_StiffnessDistrib, put = __cordl_internal_set_m_StiffnessDistrib))::UnityEngine::AnimationCurve* m_StiffnessDistrib;
 
   /// @brief Field m_Inert, offset 0x58, size 0x4
-  __declspec(property(get = __get_m_Inert, put = __set_m_Inert)) float_t m_Inert;
+  __declspec(property(get = __cordl_internal_get_m_Inert, put = __cordl_internal_set_m_Inert)) float_t m_Inert;
 
   /// @brief Field m_InertDistrib, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_InertDistrib, put = __set_m_InertDistrib))::UnityEngine::AnimationCurve* m_InertDistrib;
+  __declspec(property(get = __cordl_internal_get_m_InertDistrib, put = __cordl_internal_set_m_InertDistrib))::UnityEngine::AnimationCurve* m_InertDistrib;
 
   /// @brief Field m_Radius, offset 0x68, size 0x4
-  __declspec(property(get = __get_m_Radius, put = __set_m_Radius)) float_t m_Radius;
+  __declspec(property(get = __cordl_internal_get_m_Radius, put = __cordl_internal_set_m_Radius)) float_t m_Radius;
 
   /// @brief Field m_RadiusDistrib, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_RadiusDistrib, put = __set_m_RadiusDistrib))::UnityEngine::AnimationCurve* m_RadiusDistrib;
+  __declspec(property(get = __cordl_internal_get_m_RadiusDistrib, put = __cordl_internal_set_m_RadiusDistrib))::UnityEngine::AnimationCurve* m_RadiusDistrib;
 
   /// @brief Field m_EndLength, offset 0x78, size 0x4
-  __declspec(property(get = __get_m_EndLength, put = __set_m_EndLength)) float_t m_EndLength;
+  __declspec(property(get = __cordl_internal_get_m_EndLength, put = __cordl_internal_set_m_EndLength)) float_t m_EndLength;
 
   /// @brief Field m_EndOffset, offset 0x7c, size 0xc
-  __declspec(property(get = __get_m_EndOffset, put = __set_m_EndOffset))::UnityEngine::Vector3 m_EndOffset;
+  __declspec(property(get = __cordl_internal_get_m_EndOffset, put = __cordl_internal_set_m_EndOffset))::UnityEngine::Vector3 m_EndOffset;
 
   /// @brief Field m_Gravity, offset 0x88, size 0xc
-  __declspec(property(get = __get_m_Gravity, put = __set_m_Gravity))::UnityEngine::Vector3 m_Gravity;
+  __declspec(property(get = __cordl_internal_get_m_Gravity, put = __cordl_internal_set_m_Gravity))::UnityEngine::Vector3 m_Gravity;
 
   /// @brief Field m_Force, offset 0x94, size 0xc
-  __declspec(property(get = __get_m_Force, put = __set_m_Force))::UnityEngine::Vector3 m_Force;
+  __declspec(property(get = __cordl_internal_get_m_Force, put = __cordl_internal_set_m_Force))::UnityEngine::Vector3 m_Force;
 
   /// @brief Field m_Colliders, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_Colliders, put = __set_m_Colliders))::System::Collections::Generic::List_1<::GlobalNamespace::DynamicBoneColliderBase*>* m_Colliders;
+  __declspec(property(get = __cordl_internal_get_m_Colliders,
+                      put = __cordl_internal_set_m_Colliders))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DynamicBoneColliderBase>>* m_Colliders;
 
   /// @brief Field m_Exclusions, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_Exclusions, put = __set_m_Exclusions))::System::Collections::Generic::List_1<::UnityEngine::Transform*>* m_Exclusions;
+  __declspec(property(get = __cordl_internal_get_m_Exclusions, put = __cordl_internal_set_m_Exclusions))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* m_Exclusions;
 
   /// @brief Field m_FreezeAxis, offset 0xb0, size 0x4
-  __declspec(property(get = __get_m_FreezeAxis, put = __set_m_FreezeAxis))::GlobalNamespace::__DynamicBone__FreezeAxis m_FreezeAxis;
+  __declspec(property(get = __cordl_internal_get_m_FreezeAxis, put = __cordl_internal_set_m_FreezeAxis))::GlobalNamespace::__DynamicBone__FreezeAxis m_FreezeAxis;
 
   /// @brief Field m_DistantDisable, offset 0xb4, size 0x1
-  __declspec(property(get = __get_m_DistantDisable, put = __set_m_DistantDisable)) bool m_DistantDisable;
+  __declspec(property(get = __cordl_internal_get_m_DistantDisable, put = __cordl_internal_set_m_DistantDisable)) bool m_DistantDisable;
 
   /// @brief Field m_ReferenceObject, offset 0xb8, size 0x8
-  __declspec(property(get = __get_m_ReferenceObject, put = __set_m_ReferenceObject))::UnityEngine::Transform* m_ReferenceObject;
+  __declspec(property(get = __cordl_internal_get_m_ReferenceObject, put = __cordl_internal_set_m_ReferenceObject))::UnityW<::UnityEngine::Transform> m_ReferenceObject;
 
   /// @brief Field m_DistanceToObject, offset 0xc0, size 0x4
-  __declspec(property(get = __get_m_DistanceToObject, put = __set_m_DistanceToObject)) float_t m_DistanceToObject;
+  __declspec(property(get = __cordl_internal_get_m_DistanceToObject, put = __cordl_internal_set_m_DistanceToObject)) float_t m_DistanceToObject;
 
   /// @brief Field m_LocalGravity, offset 0xc4, size 0xc
-  __declspec(property(get = __get_m_LocalGravity, put = __set_m_LocalGravity))::UnityEngine::Vector3 m_LocalGravity;
+  __declspec(property(get = __cordl_internal_get_m_LocalGravity, put = __cordl_internal_set_m_LocalGravity))::UnityEngine::Vector3 m_LocalGravity;
 
   /// @brief Field m_ObjectMove, offset 0xd0, size 0xc
-  __declspec(property(get = __get_m_ObjectMove, put = __set_m_ObjectMove))::UnityEngine::Vector3 m_ObjectMove;
+  __declspec(property(get = __cordl_internal_get_m_ObjectMove, put = __cordl_internal_set_m_ObjectMove))::UnityEngine::Vector3 m_ObjectMove;
 
   /// @brief Field m_ObjectPrevPosition, offset 0xdc, size 0xc
-  __declspec(property(get = __get_m_ObjectPrevPosition, put = __set_m_ObjectPrevPosition))::UnityEngine::Vector3 m_ObjectPrevPosition;
+  __declspec(property(get = __cordl_internal_get_m_ObjectPrevPosition, put = __cordl_internal_set_m_ObjectPrevPosition))::UnityEngine::Vector3 m_ObjectPrevPosition;
 
   /// @brief Field m_BoneTotalLength, offset 0xe8, size 0x4
-  __declspec(property(get = __get_m_BoneTotalLength, put = __set_m_BoneTotalLength)) float_t m_BoneTotalLength;
+  __declspec(property(get = __cordl_internal_get_m_BoneTotalLength, put = __cordl_internal_set_m_BoneTotalLength)) float_t m_BoneTotalLength;
 
   /// @brief Field m_ObjectScale, offset 0xec, size 0x4
-  __declspec(property(get = __get_m_ObjectScale, put = __set_m_ObjectScale)) float_t m_ObjectScale;
+  __declspec(property(get = __cordl_internal_get_m_ObjectScale, put = __cordl_internal_set_m_ObjectScale)) float_t m_ObjectScale;
 
   /// @brief Field m_Time, offset 0xf0, size 0x4
-  __declspec(property(get = __get_m_Time, put = __set_m_Time)) float_t m_Time;
+  __declspec(property(get = __cordl_internal_get_m_Time, put = __cordl_internal_set_m_Time)) float_t m_Time;
 
   /// @brief Field m_Weight, offset 0xf4, size 0x4
-  __declspec(property(get = __get_m_Weight, put = __set_m_Weight)) float_t m_Weight;
+  __declspec(property(get = __cordl_internal_get_m_Weight, put = __cordl_internal_set_m_Weight)) float_t m_Weight;
 
   /// @brief Field m_DistantDisabled, offset 0xf8, size 0x1
-  __declspec(property(get = __get_m_DistantDisabled, put = __set_m_DistantDisabled)) bool m_DistantDisabled;
+  __declspec(property(get = __cordl_internal_get_m_DistantDisabled, put = __cordl_internal_set_m_DistantDisabled)) bool m_DistantDisabled;
 
   /// @brief Field m_Particles, offset 0x100, size 0x8
-  __declspec(property(get = __get_m_Particles, put = __set_m_Particles))::System::Collections::Generic::List_1<::GlobalNamespace::__DynamicBone__Particle*>* m_Particles;
+  __declspec(property(get = __cordl_internal_get_m_Particles, put = __cordl_internal_set_m_Particles))::System::Collections::Generic::List_1<::GlobalNamespace::__DynamicBone__Particle*>* m_Particles;
 
-  constexpr ::UnityEngine::Transform*& __get_m_Root();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_m_Root();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_m_Root() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_m_Root() const;
 
-  constexpr void __set_m_Root(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_m_Root(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get_m_UpdateRate();
+  constexpr float_t& __cordl_internal_get_m_UpdateRate();
 
-  constexpr float_t const& __get_m_UpdateRate() const;
+  constexpr float_t const& __cordl_internal_get_m_UpdateRate() const;
 
-  constexpr void __set_m_UpdateRate(float_t value);
+  constexpr void __cordl_internal_set_m_UpdateRate(float_t value);
 
-  constexpr ::GlobalNamespace::__DynamicBone__UpdateMode& __get_m_UpdateMode();
+  constexpr ::GlobalNamespace::__DynamicBone__UpdateMode& __cordl_internal_get_m_UpdateMode();
 
-  constexpr ::GlobalNamespace::__DynamicBone__UpdateMode const& __get_m_UpdateMode() const;
+  constexpr ::GlobalNamespace::__DynamicBone__UpdateMode const& __cordl_internal_get_m_UpdateMode() const;
 
-  constexpr void __set_m_UpdateMode(::GlobalNamespace::__DynamicBone__UpdateMode value);
+  constexpr void __cordl_internal_set_m_UpdateMode(::GlobalNamespace::__DynamicBone__UpdateMode value);
 
-  constexpr float_t& __get_m_Damping();
+  constexpr float_t& __cordl_internal_get_m_Damping();
 
-  constexpr float_t const& __get_m_Damping() const;
+  constexpr float_t const& __cordl_internal_get_m_Damping() const;
 
-  constexpr void __set_m_Damping(float_t value);
+  constexpr void __cordl_internal_set_m_Damping(float_t value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_m_DampingDistrib();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_m_DampingDistrib();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_m_DampingDistrib() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_m_DampingDistrib() const;
 
-  constexpr void __set_m_DampingDistrib(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_m_DampingDistrib(::UnityEngine::AnimationCurve* value);
 
-  constexpr float_t& __get_m_Elasticity();
+  constexpr float_t& __cordl_internal_get_m_Elasticity();
 
-  constexpr float_t const& __get_m_Elasticity() const;
+  constexpr float_t const& __cordl_internal_get_m_Elasticity() const;
 
-  constexpr void __set_m_Elasticity(float_t value);
+  constexpr void __cordl_internal_set_m_Elasticity(float_t value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_m_ElasticityDistrib();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_m_ElasticityDistrib();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_m_ElasticityDistrib() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_m_ElasticityDistrib() const;
 
-  constexpr void __set_m_ElasticityDistrib(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_m_ElasticityDistrib(::UnityEngine::AnimationCurve* value);
 
-  constexpr float_t& __get_m_Stiffness();
+  constexpr float_t& __cordl_internal_get_m_Stiffness();
 
-  constexpr float_t const& __get_m_Stiffness() const;
+  constexpr float_t const& __cordl_internal_get_m_Stiffness() const;
 
-  constexpr void __set_m_Stiffness(float_t value);
+  constexpr void __cordl_internal_set_m_Stiffness(float_t value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_m_StiffnessDistrib();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_m_StiffnessDistrib();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_m_StiffnessDistrib() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_m_StiffnessDistrib() const;
 
-  constexpr void __set_m_StiffnessDistrib(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_m_StiffnessDistrib(::UnityEngine::AnimationCurve* value);
 
-  constexpr float_t& __get_m_Inert();
+  constexpr float_t& __cordl_internal_get_m_Inert();
 
-  constexpr float_t const& __get_m_Inert() const;
+  constexpr float_t const& __cordl_internal_get_m_Inert() const;
 
-  constexpr void __set_m_Inert(float_t value);
+  constexpr void __cordl_internal_set_m_Inert(float_t value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_m_InertDistrib();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_m_InertDistrib();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_m_InertDistrib() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_m_InertDistrib() const;
 
-  constexpr void __set_m_InertDistrib(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_m_InertDistrib(::UnityEngine::AnimationCurve* value);
 
-  constexpr float_t& __get_m_Radius();
+  constexpr float_t& __cordl_internal_get_m_Radius();
 
-  constexpr float_t const& __get_m_Radius() const;
+  constexpr float_t const& __cordl_internal_get_m_Radius() const;
 
-  constexpr void __set_m_Radius(float_t value);
+  constexpr void __cordl_internal_set_m_Radius(float_t value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_m_RadiusDistrib();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_m_RadiusDistrib();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_m_RadiusDistrib() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_m_RadiusDistrib() const;
 
-  constexpr void __set_m_RadiusDistrib(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_m_RadiusDistrib(::UnityEngine::AnimationCurve* value);
 
-  constexpr float_t& __get_m_EndLength();
+  constexpr float_t& __cordl_internal_get_m_EndLength();
 
-  constexpr float_t const& __get_m_EndLength() const;
+  constexpr float_t const& __cordl_internal_get_m_EndLength() const;
 
-  constexpr void __set_m_EndLength(float_t value);
+  constexpr void __cordl_internal_set_m_EndLength(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_EndOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_EndOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_EndOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_EndOffset() const;
 
-  constexpr void __set_m_EndOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_EndOffset(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_Gravity();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_Gravity();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_Gravity() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_Gravity() const;
 
-  constexpr void __set_m_Gravity(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_Gravity(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_Force();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_Force();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_Force() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_Force() const;
 
-  constexpr void __set_m_Force(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_Force(::UnityEngine::Vector3 value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::DynamicBoneColliderBase*>*& __get_m_Colliders();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DynamicBoneColliderBase>>*& __cordl_internal_get_m_Colliders();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::DynamicBoneColliderBase*>*> const& __get_m_Colliders() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DynamicBoneColliderBase>>*> const& __cordl_internal_get_m_Colliders() const;
 
-  constexpr void __set_m_Colliders(::System::Collections::Generic::List_1<::GlobalNamespace::DynamicBoneColliderBase*>* value);
+  constexpr void __cordl_internal_set_m_Colliders(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DynamicBoneColliderBase>>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*& __get_m_Exclusions();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get_m_Exclusions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Transform*>*> const& __get_m_Exclusions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_m_Exclusions() const;
 
-  constexpr void __set_m_Exclusions(::System::Collections::Generic::List_1<::UnityEngine::Transform*>* value);
+  constexpr void __cordl_internal_set_m_Exclusions(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  constexpr ::GlobalNamespace::__DynamicBone__FreezeAxis& __get_m_FreezeAxis();
+  constexpr ::GlobalNamespace::__DynamicBone__FreezeAxis& __cordl_internal_get_m_FreezeAxis();
 
-  constexpr ::GlobalNamespace::__DynamicBone__FreezeAxis const& __get_m_FreezeAxis() const;
+  constexpr ::GlobalNamespace::__DynamicBone__FreezeAxis const& __cordl_internal_get_m_FreezeAxis() const;
 
-  constexpr void __set_m_FreezeAxis(::GlobalNamespace::__DynamicBone__FreezeAxis value);
+  constexpr void __cordl_internal_set_m_FreezeAxis(::GlobalNamespace::__DynamicBone__FreezeAxis value);
 
-  constexpr bool& __get_m_DistantDisable();
+  constexpr bool& __cordl_internal_get_m_DistantDisable();
 
-  constexpr bool const& __get_m_DistantDisable() const;
+  constexpr bool const& __cordl_internal_get_m_DistantDisable() const;
 
-  constexpr void __set_m_DistantDisable(bool value);
+  constexpr void __cordl_internal_set_m_DistantDisable(bool value);
 
-  constexpr ::UnityEngine::Transform*& __get_m_ReferenceObject();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_m_ReferenceObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_m_ReferenceObject() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_m_ReferenceObject() const;
 
-  constexpr void __set_m_ReferenceObject(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_m_ReferenceObject(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get_m_DistanceToObject();
+  constexpr float_t& __cordl_internal_get_m_DistanceToObject();
 
-  constexpr float_t const& __get_m_DistanceToObject() const;
+  constexpr float_t const& __cordl_internal_get_m_DistanceToObject() const;
 
-  constexpr void __set_m_DistanceToObject(float_t value);
+  constexpr void __cordl_internal_set_m_DistanceToObject(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_LocalGravity();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_LocalGravity();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_LocalGravity() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_LocalGravity() const;
 
-  constexpr void __set_m_LocalGravity(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_LocalGravity(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_ObjectMove();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_ObjectMove();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_ObjectMove() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_ObjectMove() const;
 
-  constexpr void __set_m_ObjectMove(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_ObjectMove(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_ObjectPrevPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_ObjectPrevPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_ObjectPrevPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_ObjectPrevPosition() const;
 
-  constexpr void __set_m_ObjectPrevPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_ObjectPrevPosition(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get_m_BoneTotalLength();
+  constexpr float_t& __cordl_internal_get_m_BoneTotalLength();
 
-  constexpr float_t const& __get_m_BoneTotalLength() const;
+  constexpr float_t const& __cordl_internal_get_m_BoneTotalLength() const;
 
-  constexpr void __set_m_BoneTotalLength(float_t value);
+  constexpr void __cordl_internal_set_m_BoneTotalLength(float_t value);
 
-  constexpr float_t& __get_m_ObjectScale();
+  constexpr float_t& __cordl_internal_get_m_ObjectScale();
 
-  constexpr float_t const& __get_m_ObjectScale() const;
+  constexpr float_t const& __cordl_internal_get_m_ObjectScale() const;
 
-  constexpr void __set_m_ObjectScale(float_t value);
+  constexpr void __cordl_internal_set_m_ObjectScale(float_t value);
 
-  constexpr float_t& __get_m_Time();
+  constexpr float_t& __cordl_internal_get_m_Time();
 
-  constexpr float_t const& __get_m_Time() const;
+  constexpr float_t const& __cordl_internal_get_m_Time() const;
 
-  constexpr void __set_m_Time(float_t value);
+  constexpr void __cordl_internal_set_m_Time(float_t value);
 
-  constexpr float_t& __get_m_Weight();
+  constexpr float_t& __cordl_internal_get_m_Weight();
 
-  constexpr float_t const& __get_m_Weight() const;
+  constexpr float_t const& __cordl_internal_get_m_Weight() const;
 
-  constexpr void __set_m_Weight(float_t value);
+  constexpr void __cordl_internal_set_m_Weight(float_t value);
 
-  constexpr bool& __get_m_DistantDisabled();
+  constexpr bool& __cordl_internal_get_m_DistantDisabled();
 
-  constexpr bool const& __get_m_DistantDisabled() const;
+  constexpr bool const& __cordl_internal_get_m_DistantDisabled() const;
 
-  constexpr void __set_m_DistantDisabled(bool value);
+  constexpr void __cordl_internal_set_m_DistantDisabled(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__DynamicBone__Particle*>*& __get_m_Particles();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__DynamicBone__Particle*>*& __cordl_internal_get_m_Particles();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__DynamicBone__Particle*>*> const& __get_m_Particles() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__DynamicBone__Particle*>*> const& __cordl_internal_get_m_Particles() const;
 
-  constexpr void __set_m_Particles(::System::Collections::Generic::List_1<::GlobalNamespace::__DynamicBone__Particle*>* value);
+  constexpr void __cordl_internal_set_m_Particles(::System::Collections::Generic::List_1<::GlobalNamespace::__DynamicBone__Particle*>* value);
 
   /// @brief Method Start, addr 0x122dc78, size 0x4, virtual false, abstract: false, final false
   inline void Start();
@@ -774,7 +775,7 @@ protected:
 
 public:
   /// @brief Field m_Root, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___m_Root;
+  ::UnityW<::UnityEngine::Transform> ___m_Root;
 
   /// @brief Field m_UpdateRate, offset: 0x20, size: 0x4, def value: None
   float_t ___m_UpdateRate;
@@ -825,10 +826,10 @@ public:
   ::UnityEngine::Vector3 ___m_Force;
 
   /// @brief Field m_Colliders, offset: 0xa0, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::DynamicBoneColliderBase*>* ___m_Colliders;
+  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DynamicBoneColliderBase>>* ___m_Colliders;
 
   /// @brief Field m_Exclusions, offset: 0xa8, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Transform*>* ___m_Exclusions;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* ___m_Exclusions;
 
   /// @brief Field m_FreezeAxis, offset: 0xb0, size: 0x4, def value: None
   ::GlobalNamespace::__DynamicBone__FreezeAxis ___m_FreezeAxis;
@@ -837,7 +838,7 @@ public:
   bool ___m_DistantDisable;
 
   /// @brief Field m_ReferenceObject, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___m_ReferenceObject;
+  ::UnityW<::UnityEngine::Transform> ___m_ReferenceObject;
 
   /// @brief Field m_DistanceToObject, offset: 0xc0, size: 0x4, def value: None
   float_t ___m_DistanceToObject;

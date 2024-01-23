@@ -27,32 +27,32 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::DHParameters);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1022))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::DHParameters*
 class CORDL_TYPE DHParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field p, offset 0x10, size 0x8
-  __declspec(property(get = __get_p, put = __set_p))::Org::BouncyCastle::Math::BigInteger* p;
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Org::BouncyCastle::Math::BigInteger* p;
 
   /// @brief Field g, offset 0x18, size 0x8
-  __declspec(property(get = __get_g, put = __set_g))::Org::BouncyCastle::Math::BigInteger* g;
+  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g))::Org::BouncyCastle::Math::BigInteger* g;
 
   /// @brief Field q, offset 0x20, size 0x8
-  __declspec(property(get = __get_q, put = __set_q))::Org::BouncyCastle::Math::BigInteger* q;
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::Org::BouncyCastle::Math::BigInteger* q;
 
   /// @brief Field j, offset 0x28, size 0x8
-  __declspec(property(get = __get_j, put = __set_j))::Org::BouncyCastle::Math::BigInteger* j;
+  __declspec(property(get = __cordl_internal_get_j, put = __cordl_internal_set_j))::Org::BouncyCastle::Math::BigInteger* j;
 
   /// @brief Field m, offset 0x30, size 0x4
-  __declspec(property(get = __get_m, put = __set_m)) int32_t m;
+  __declspec(property(get = __cordl_internal_get_m, put = __cordl_internal_set_m)) int32_t m;
 
   /// @brief Field l, offset 0x34, size 0x4
-  __declspec(property(get = __get_l, put = __set_l)) int32_t l;
+  __declspec(property(get = __cordl_internal_get_l, put = __cordl_internal_set_l)) int32_t l;
 
   /// @brief Field validation, offset 0x38, size 0x8
-  __declspec(property(get = __get_validation, put = __set_validation))::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* validation;
+  __declspec(property(get = __cordl_internal_get_validation, put = __cordl_internal_set_validation))::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* validation;
 
   __declspec(property(get = get_P))::Org::BouncyCastle::Math::BigInteger* P;
 
@@ -74,47 +74,47 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_p();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_p();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_p() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_p() const;
 
-  constexpr void __set_p(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_p(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_g();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_g();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_g() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_g() const;
 
-  constexpr void __set_g(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_q();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_q();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_q() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_q() const;
 
-  constexpr void __set_q(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_q(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_j();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_j();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_j() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_j() const;
 
-  constexpr void __set_j(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_j(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr int32_t& __get_m();
+  constexpr int32_t& __cordl_internal_get_m();
 
-  constexpr int32_t const& __get_m() const;
+  constexpr int32_t const& __cordl_internal_get_m() const;
 
-  constexpr void __set_m(int32_t value);
+  constexpr void __cordl_internal_set_m(int32_t value);
 
-  constexpr int32_t& __get_l();
+  constexpr int32_t& __cordl_internal_get_l();
 
-  constexpr int32_t const& __get_l() const;
+  constexpr int32_t const& __cordl_internal_get_l() const;
 
-  constexpr void __set_l(int32_t value);
+  constexpr void __cordl_internal_set_l(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*& __get_validation();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*& __cordl_internal_get_validation();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*> const& __get_validation() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters*> const& __cordl_internal_get_validation() const;
 
-  constexpr void __set_validation(::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* value);
+  constexpr void __cordl_internal_set_validation(::Org::BouncyCastle::Crypto::Parameters::DHValidationParameters* value);
 
   /// @brief Method GetDefaultMParam, addr 0xf306b0, size 0x70, virtual false, abstract: false, final false
   static inline int32_t GetDefaultMParam(int32_t lParam);

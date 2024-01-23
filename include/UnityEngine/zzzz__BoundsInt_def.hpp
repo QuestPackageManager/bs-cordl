@@ -48,7 +48,7 @@ MARK_VAL_T(::UnityEngine::__BoundsInt__PositionEnumerator);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10247))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10247))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10167))
 // CS Name: ::BoundsInt::PositionEnumerator
 struct CORDL_TYPE __BoundsInt__PositionEnumerator {
@@ -133,7 +133,7 @@ static_assert(offsetof(::UnityEngine::__BoundsInt__PositionEnumerator, _current)
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10247))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10247))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10168))
 // CS Name: ::UnityEngine::BoundsInt
 struct CORDL_TYPE BoundsInt {

@@ -21,14 +21,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1020))
 // CS Name: ::Org.BouncyCastle.Crypto::AsymmetricKeyParameter*
 class CORDL_TYPE AsymmetricKeyParameter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field privateKey, offset 0x10, size 0x1
-  __declspec(property(get = __get_privateKey, put = __set_privateKey)) bool privateKey;
+  __declspec(property(get = __cordl_internal_get_privateKey, put = __cordl_internal_set_privateKey)) bool privateKey;
 
   __declspec(property(get = get_IsPrivate)) bool IsPrivate;
 
@@ -38,11 +38,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr ::Org::BouncyCastle::Crypto::ICipherParameters* i___Org__BouncyCastle__Crypto__ICipherParameters() noexcept;
 
-  constexpr bool& __get_privateKey();
+  constexpr bool& __cordl_internal_get_privateKey();
 
-  constexpr bool const& __get_privateKey() const;
+  constexpr bool const& __cordl_internal_get_privateKey() const;
 
-  constexpr void __set_privateKey(bool value);
+  constexpr void __cordl_internal_set_privateKey(bool value);
 
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* New_ctor(bool privateKey);
 

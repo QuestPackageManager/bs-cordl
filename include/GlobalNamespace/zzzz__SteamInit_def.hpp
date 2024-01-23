@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SteamInit);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15978))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15978))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4043))
 // CS Name: ::SteamInit*
 class CORDL_TYPE SteamInit : public ::GlobalNamespace::BasePlatformInit {

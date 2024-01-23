@@ -21,10 +21,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2ddf198;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(),
-                                                 "get_meshGenerationContext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "get_meshGenerationContext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -36,10 +36,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x2ddf1a0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -51,11 +51,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x244;
   constexpr static std::size_t addrs = 0x2ddf210;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "Begin", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "Begin", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get() })));
     return ___internal_method;
   }
 };
@@ -67,10 +67,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x2ddf454;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "End",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -82,10 +82,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x2ddf4e0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "Dispose",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -97,10 +97,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2ddf5a4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "DrawRectangle", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "DrawRectangle", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams>::get() })));
     return ___internal_method;
   }
 };
@@ -112,10 +112,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2ddf5a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "DrawImmediate", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "DrawImmediate", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -128,12 +128,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x368;
   constexpr static std::size_t addrs = 0x2ddf5ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "DrawText", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::ITextHandle*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "DrawText", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::ITextHandle*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -153,124 +153,127 @@ constexpr UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::op
 constexpr ::System::IDisposable* UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_CurrentElement() {
+constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_CurrentElement() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentElement;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_CurrentElement() const {
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const&
+UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_CurrentElement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_CurrentElement;
 }
-constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__set_m_CurrentElement(::UnityEngine::UIElements::VisualElement* value) {
+constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_set_m_CurrentElement(::UnityEngine::UIElements::VisualElement* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CurrentElement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_TextEntryIndex() {
+constexpr int32_t& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_TextEntryIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextEntryIndex;
 }
-constexpr int32_t const& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_TextEntryIndex() const {
+constexpr int32_t const& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_TextEntryIndex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextEntryIndex;
 }
-constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__set_m_TextEntryIndex(int32_t value) {
+constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_set_m_TextEntryIndex(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TextEntryIndex = value;
 }
-constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex>& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_DudVerts() {
+constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex>& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_DudVerts() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DudVerts;
 }
-constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex> const& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_DudVerts() const {
+constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex> const& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_DudVerts() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DudVerts;
 }
-constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__set_m_DudVerts(::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex> value) {
+constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_set_m_DudVerts(::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::Vertex> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DudVerts = value;
 }
-constexpr ::Unity::Collections::NativeArray_1<uint16_t>& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_DudIndices() {
+constexpr ::Unity::Collections::NativeArray_1<uint16_t>& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_DudIndices() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DudIndices;
 }
-constexpr ::Unity::Collections::NativeArray_1<uint16_t> const& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_DudIndices() const {
+constexpr ::Unity::Collections::NativeArray_1<uint16_t> const& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_DudIndices() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DudIndices;
 }
-constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__set_m_DudIndices(::Unity::Collections::NativeArray_1<uint16_t> value) {
+constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_set_m_DudIndices(::Unity::Collections::NativeArray_1<uint16_t> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DudIndices = value;
 }
-constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_MeshDataVerts() {
+constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_MeshDataVerts() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MeshDataVerts;
 }
-constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> const& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_MeshDataVerts() const {
+constexpr ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> const&
+UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_MeshDataVerts() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MeshDataVerts;
 }
-constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__set_m_MeshDataVerts(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> value) {
+constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_set_m_MeshDataVerts(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MeshDataVerts = value;
 }
-constexpr ::UnityEngine::Color32& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_XFormClipPages() {
+constexpr ::UnityEngine::Color32& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_XFormClipPages() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_XFormClipPages;
 }
-constexpr ::UnityEngine::Color32 const& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_XFormClipPages() const {
+constexpr ::UnityEngine::Color32 const& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_XFormClipPages() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_XFormClipPages;
 }
-constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__set_m_XFormClipPages(::UnityEngine::Color32 value) {
+constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_set_m_XFormClipPages(::UnityEngine::Color32 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_XFormClipPages = value;
 }
-constexpr ::UnityEngine::Color32& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_IDs() {
+constexpr ::UnityEngine::Color32& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_IDs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IDs;
 }
-constexpr ::UnityEngine::Color32 const& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_IDs() const {
+constexpr ::UnityEngine::Color32 const& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_IDs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IDs;
 }
-constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__set_m_IDs(::UnityEngine::Color32 value) {
+constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_set_m_IDs(::UnityEngine::Color32 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IDs = value;
 }
-constexpr ::UnityEngine::Color32& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_Flags() {
+constexpr ::UnityEngine::Color32& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_Flags() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Flags;
 }
-constexpr ::UnityEngine::Color32 const& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_Flags() const {
+constexpr ::UnityEngine::Color32 const& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_Flags() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Flags;
 }
-constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__set_m_Flags(::UnityEngine::Color32 value) {
+constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_set_m_Flags(::UnityEngine::Color32 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Flags = value;
 }
-constexpr ::UnityEngine::Color32& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_OpacityColorPages() {
+constexpr ::UnityEngine::Color32& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_OpacityColorPages() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OpacityColorPages;
 }
-constexpr ::UnityEngine::Color32 const& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get_m_OpacityColorPages() const {
+constexpr ::UnityEngine::Color32 const& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get_m_OpacityColorPages() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OpacityColorPages;
 }
-constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__set_m_OpacityColorPages(::UnityEngine::Color32 value) {
+constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_set_m_OpacityColorPages(::UnityEngine::Color32 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_OpacityColorPages = value;
 }
-constexpr ::UnityEngine::UIElements::MeshGenerationContext*& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get__meshGenerationContext_k__BackingField() {
+constexpr ::UnityEngine::UIElements::MeshGenerationContext*& UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get__meshGenerationContext_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshGenerationContext_k__BackingField;
 }
 constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::MeshGenerationContext*> const&
-UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__get__meshGenerationContext_k__BackingField() const {
+UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_get__meshGenerationContext_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshGenerationContext_k__BackingField;
 }
-constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__set__meshGenerationContext_k__BackingField(::UnityEngine::UIElements::MeshGenerationContext* value) {
+constexpr void
+UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::__cordl_internal_set__meshGenerationContext_k__BackingField(::UnityEngine::UIElements::MeshGenerationContext* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____meshGenerationContext_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
@@ -278,56 +281,56 @@ constexpr void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainte
 inline ::UnityEngine::UIElements::MeshGenerationContext* UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::get_meshGenerationContext() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(),
-                                               "get_meshGenerationContext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "get_meshGenerationContext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MeshGenerationContext*, false>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter* UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>());
 }
 inline void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::Begin(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::UIR::UIRenderDevice* device) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "Begin", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "Begin", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::UIRenderDevice*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ve, device);
 }
 inline void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::End() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "End",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::Dispose() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "Dispose",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::DrawRectangle(::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams rectParams) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "DrawRectangle", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "DrawRectangle", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__MeshGenerationContextUtils__RectangleParams>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rectParams);
 }
 inline void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::DrawImmediate(::System::Action* callback, bool cullingEnabled) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "DrawImmediate", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "DrawImmediate", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, callback, cullingEnabled);
 }
 inline void UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter::DrawText(::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams textParams,
                                                                                          ::UnityEngine::UIElements::ITextHandle* handle, float_t pixelsPerPoint) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "DrawText", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::ITextHandle*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*>::get(), "DrawText", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::__MeshGenerationContextUtils__TextParams>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::ITextHandle*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, textParams, handle, pixelsPerPoint);
 }
 // Ctor Parameters []

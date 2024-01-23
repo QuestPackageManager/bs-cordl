@@ -70,7 +70,7 @@ MARK_VAL_T(::System::DateTimeOffset);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2370))
 // CS Name: ::System::DateTimeOffset
 struct CORDL_TYPE DateTimeOffset {

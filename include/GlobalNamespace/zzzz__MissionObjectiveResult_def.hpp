@@ -18,20 +18,21 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionObjectiveResult);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4462))
 // CS Name: ::MissionObjectiveResult*
 class CORDL_TYPE MissionObjectiveResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <missionObjective>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__missionObjective_k__BackingField, put = __set__missionObjective_k__BackingField))::GlobalNamespace::MissionObjective* _missionObjective_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__missionObjective_k__BackingField,
+                      put = __cordl_internal_set__missionObjective_k__BackingField))::GlobalNamespace::MissionObjective* _missionObjective_k__BackingField;
 
   /// @brief Field <cleared>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__cleared_k__BackingField, put = __set__cleared_k__BackingField)) bool _cleared_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__cleared_k__BackingField, put = __cordl_internal_set__cleared_k__BackingField)) bool _cleared_k__BackingField;
 
   /// @brief Field <value>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__value_k__BackingField, put = __set__value_k__BackingField)) int32_t _value_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__value_k__BackingField, put = __cordl_internal_set__value_k__BackingField)) int32_t _value_k__BackingField;
 
   __declspec(property(get = get_missionObjective, put = set_missionObjective))::GlobalNamespace::MissionObjective* missionObjective;
 
@@ -39,23 +40,23 @@ public:
 
   __declspec(property(get = get_value, put = set_value)) int32_t value;
 
-  constexpr ::GlobalNamespace::MissionObjective*& __get__missionObjective_k__BackingField();
+  constexpr ::GlobalNamespace::MissionObjective*& __cordl_internal_get__missionObjective_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionObjective*> const& __get__missionObjective_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionObjective*> const& __cordl_internal_get__missionObjective_k__BackingField() const;
 
-  constexpr void __set__missionObjective_k__BackingField(::GlobalNamespace::MissionObjective* value);
+  constexpr void __cordl_internal_set__missionObjective_k__BackingField(::GlobalNamespace::MissionObjective* value);
 
-  constexpr bool& __get__cleared_k__BackingField();
+  constexpr bool& __cordl_internal_get__cleared_k__BackingField();
 
-  constexpr bool const& __get__cleared_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__cleared_k__BackingField() const;
 
-  constexpr void __set__cleared_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__cleared_k__BackingField(bool value);
 
-  constexpr int32_t& __get__value_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__value_k__BackingField();
 
-  constexpr int32_t const& __get__value_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__value_k__BackingField() const;
 
-  constexpr void __set__value_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__value_k__BackingField(int32_t value);
 
   /// @brief Method get_missionObjective, addr 0x2352de0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjective* get_missionObjective();

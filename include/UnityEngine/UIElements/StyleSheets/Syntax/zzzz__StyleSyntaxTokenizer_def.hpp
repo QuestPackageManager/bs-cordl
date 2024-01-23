@@ -22,31 +22,32 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxTokeni
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7490))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::StyleSyntaxTokenizer*
 class CORDL_TYPE StyleSyntaxTokenizer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Tokens, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Tokens, put = __set_m_Tokens))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>* m_Tokens;
+  __declspec(property(get = __cordl_internal_get_m_Tokens,
+                      put = __cordl_internal_set_m_Tokens))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>* m_Tokens;
 
   /// @brief Field m_CurrentTokenIndex, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_CurrentTokenIndex, put = __set_m_CurrentTokenIndex)) int32_t m_CurrentTokenIndex;
+  __declspec(property(get = __cordl_internal_get_m_CurrentTokenIndex, put = __cordl_internal_set_m_CurrentTokenIndex)) int32_t m_CurrentTokenIndex;
 
   __declspec(property(get = get_current))::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken current;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>*& __get_m_Tokens();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>*& __cordl_internal_get_m_Tokens();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>*> const& __get_m_Tokens() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>*> const& __cordl_internal_get_m_Tokens() const;
 
-  constexpr void __set_m_Tokens(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>* value);
+  constexpr void __cordl_internal_set_m_Tokens(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken>* value);
 
-  constexpr int32_t& __get_m_CurrentTokenIndex();
+  constexpr int32_t& __cordl_internal_get_m_CurrentTokenIndex();
 
-  constexpr int32_t const& __get_m_CurrentTokenIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_CurrentTokenIndex() const;
 
-  constexpr void __set_m_CurrentTokenIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_CurrentTokenIndex(int32_t value);
 
   /// @brief Method get_current, addr 0x2df5de4, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxToken get_current();

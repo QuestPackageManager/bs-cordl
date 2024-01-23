@@ -31,20 +31,20 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TAntecedentResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2787))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2787))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2799))
 // CS Name: ::System.Threading.Tasks::ContinuationTaskFromResultTask`1<TAntecedentResult>*
 class CORDL_TYPE ContinuationTaskFromResultTask_1 : public ::System::Threading::Tasks::Task {
 public:
   // Declarations
   /// @brief Field m_antecedent, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_antecedent, put = __set_m_antecedent))::System::Threading::Tasks::Task_1<TAntecedentResult>* m_antecedent;
+  __declspec(property(get = __cordl_internal_get_m_antecedent, put = __cordl_internal_set_m_antecedent))::System::Threading::Tasks::Task_1<TAntecedentResult>* m_antecedent;
 
-  constexpr ::System::Threading::Tasks::Task_1<TAntecedentResult>*& __get_m_antecedent();
+  constexpr ::System::Threading::Tasks::Task_1<TAntecedentResult>*& __cordl_internal_get_m_antecedent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<TAntecedentResult>*> const& __get_m_antecedent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<TAntecedentResult>*> const& __cordl_internal_get_m_antecedent() const;
 
-  constexpr void __set_m_antecedent(::System::Threading::Tasks::Task_1<TAntecedentResult>* value);
+  constexpr void __cordl_internal_set_m_antecedent(::System::Threading::Tasks::Task_1<TAntecedentResult>* value);
 
   static inline ::System::Threading::Tasks::ContinuationTaskFromResultTask_1<TAntecedentResult>* New_ctor(::System::Threading::Tasks::Task_1<TAntecedentResult>* antecedent, ::System::Delegate* action,
                                                                                                           ::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions,

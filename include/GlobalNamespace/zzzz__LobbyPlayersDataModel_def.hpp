@@ -147,7 +147,7 @@ MARK_VAL_T(::GlobalNamespace::__LobbyPlayersDataModel___SetOwnedSongPacks_d__43)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4506))
 // CS Name: ::LobbyPlayersDataModel::<>c*
 class CORDL_TYPE __LobbyPlayersDataModel____c : public ::System::Object {
@@ -199,9 +199,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LobbyPlayersD
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15047)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(16270))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4507)) CS Name: ::LobbyPlayersDataModel::<SetOwnedSongPacks>d__43
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(15047)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4507)) CS
+// Name: ::LobbyPlayersDataModel::<SetOwnedSongPacks>d__43
 struct CORDL_TYPE __LobbyPlayersDataModel___SetOwnedSongPacks_d__43 {
 public:
   // Declarations
@@ -286,23 +286,26 @@ static_assert(offsetof(::GlobalNamespace::__LobbyPlayersDataModel___SetOwnedSong
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1431 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3841), inst: 3783 }), TypeDefinitionIndex(TypeDefinitionIndex(4504)), TypeDefinitionIndex(TypeDefinitionIndex(4491)), TypeDefinitionIndex(TypeDefinitionIndex(3841)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3819))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4508)) CS Name: ::LobbyPlayersDataModel::<GetEnumerator>d__60*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3819)), TypeDefinitionIndex(TypeDefinitionIndex(3841)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4491)), TypeDefinitionIndex(TypeDefinitionIndex(4504)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3819), inst: 1431 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 3783 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4508)) CS Name:
+// ::LobbyPlayersDataModel::<GetEnumerator>d__60*
 class CORDL_TYPE __LobbyPlayersDataModel___GetEnumerator_d__60 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x10
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current,
+                      put = __cordl_internal_set___2__current))::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> __2__current;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::LobbyPlayersDataModel* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::LobbyPlayersDataModel* __4__this;
 
   /// @brief Field <>7__wrap1, offset 0x30, size 0x28
-  __declspec(property(get = __get___7__wrap1, put = __set___7__wrap1))::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::GlobalNamespace::LobbyPlayerData*> __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1,
+                      put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::GlobalNamespace::LobbyPlayerData*> __7__wrap1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_ILobbyPlayerData___get_Current))::System::Collections::Generic::KeyValuePair_2<
       ::StringW, ::GlobalNamespace::ILobbyPlayerData*> System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_ILobbyPlayerData___Current;
@@ -328,29 +331,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>& __get___2__current();
+  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*>& __cordl_internal_get___2__current();
 
-  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> const& __get___2__current() const;
+  constexpr ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> value);
+  constexpr void __cordl_internal_set___2__current(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::ILobbyPlayerData*> value);
 
-  constexpr ::GlobalNamespace::LobbyPlayersDataModel*& __get___4__this();
+  constexpr ::GlobalNamespace::LobbyPlayersDataModel*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayersDataModel*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayersDataModel*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::LobbyPlayersDataModel* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::LobbyPlayersDataModel* value);
 
-  constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::GlobalNamespace::LobbyPlayerData*>& __get___7__wrap1();
+  constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::GlobalNamespace::LobbyPlayerData*>& __cordl_internal_get___7__wrap1();
 
-  constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::GlobalNamespace::LobbyPlayerData*> const& __get___7__wrap1() const;
+  constexpr ::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::GlobalNamespace::LobbyPlayerData*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::GlobalNamespace::LobbyPlayerData*> value);
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::__Dictionary_2__Enumerator<::StringW, ::GlobalNamespace::LobbyPlayerData*> value);
 
   static inline ::GlobalNamespace::__LobbyPlayersDataModel___GetEnumerator_d__60* New_ctor(int32_t __1__state);
 
@@ -421,7 +424,7 @@ static_assert(offsetof(::GlobalNamespace::__LobbyPlayersDataModel___GetEnumerato
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4509))
 // CS Name: ::LobbyPlayersDataModel*
 class CORDL_TYPE LobbyPlayersDataModel : public ::System::Object {
@@ -434,37 +437,41 @@ public:
   using __c = ::GlobalNamespace::__LobbyPlayersDataModel____c;
 
   /// @brief Field _menuRpcManager, offset 0x10, size 0x8
-  __declspec(property(get = __get__menuRpcManager, put = __set__menuRpcManager))::GlobalNamespace::IMenuRpcManager* _menuRpcManager;
+  __declspec(property(get = __cordl_internal_get__menuRpcManager, put = __cordl_internal_set__menuRpcManager))::GlobalNamespace::IMenuRpcManager* _menuRpcManager;
 
   /// @brief Field _multiplayerSessionManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _beatmapLevelsModel, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapLevelsModel, put = __set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::UnityW<::GlobalNamespace::BeatmapLevelsModel> _beatmapLevelsModel;
 
   /// @brief Field _beatmapCharacteristicCollection, offset 0x28, size 0x8
-  __declspec(property(get = __get__beatmapCharacteristicCollection, put = __set__beatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristicCollection;
+  __declspec(property(get = __cordl_internal_get__beatmapCharacteristicCollection,
+                      put = __cordl_internal_set__beatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristicCollection;
 
   /// @brief Field _additionalContentModel, offset 0x30, size 0x8
-  __declspec(property(get = __get__additionalContentModel, put = __set__additionalContentModel))::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
+  __declspec(property(get = __cordl_internal_get__additionalContentModel, put = __cordl_internal_set__additionalContentModel))::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
 
   /// @brief Field _lobbyPlayerPermissionsModel, offset 0x38, size 0x8
-  __declspec(property(get = __get__lobbyPlayerPermissionsModel, put = __set__lobbyPlayerPermissionsModel))::GlobalNamespace::LobbyPlayerPermissionsModel* _lobbyPlayerPermissionsModel;
+  __declspec(property(get = __cordl_internal_get__lobbyPlayerPermissionsModel,
+                      put = __cordl_internal_set__lobbyPlayerPermissionsModel))::GlobalNamespace::LobbyPlayerPermissionsModel* _lobbyPlayerPermissionsModel;
 
   /// @brief Field _emptyLobbyPlayerData, offset 0x40, size 0x8
-  __declspec(property(get = __get__emptyLobbyPlayerData, put = __set__emptyLobbyPlayerData))::GlobalNamespace::LobbyPlayerData* _emptyLobbyPlayerData;
+  __declspec(property(get = __cordl_internal_get__emptyLobbyPlayerData, put = __cordl_internal_set__emptyLobbyPlayerData))::GlobalNamespace::LobbyPlayerData* _emptyLobbyPlayerData;
 
   /// @brief Field _playersData, offset 0x48, size 0x8
-  __declspec(property(get = __get__playersData, put = __set__playersData))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LobbyPlayerData*>* _playersData;
+  __declspec(property(get = __cordl_internal_get__playersData,
+                      put = __cordl_internal_set__playersData))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LobbyPlayerData*>* _playersData;
 
   /// @brief Field _cancellationTokenSource, offset 0x50, size 0x8
-  __declspec(property(get = __get__cancellationTokenSource, put = __set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
+  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
 
   /// @brief Field <partyOwnerId>k__BackingField, offset 0x58, size 0x8
-  __declspec(property(get = __get__partyOwnerId_k__BackingField, put = __set__partyOwnerId_k__BackingField))::StringW _partyOwnerId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__partyOwnerId_k__BackingField, put = __cordl_internal_set__partyOwnerId_k__BackingField))::StringW _partyOwnerId_k__BackingField;
 
   /// @brief Field didChangeEvent, offset 0x60, size 0x8
-  __declspec(property(get = __get_didChangeEvent, put = __set_didChangeEvent))::System::Action_1<::StringW>* didChangeEvent;
+  __declspec(property(get = __cordl_internal_get_didChangeEvent, put = __cordl_internal_set_didChangeEvent))::System::Action_1<::StringW>* didChangeEvent;
 
   __declspec(property(get = get_localUserId))::StringW localUserId;
 
@@ -517,71 +524,71 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::GlobalNamespace::IMenuRpcManager*& __get__menuRpcManager();
+  constexpr ::GlobalNamespace::IMenuRpcManager*& __cordl_internal_get__menuRpcManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMenuRpcManager*> const& __get__menuRpcManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMenuRpcManager*> const& __cordl_internal_get__menuRpcManager() const;
 
-  constexpr void __set__menuRpcManager(::GlobalNamespace::IMenuRpcManager* value);
+  constexpr void __cordl_internal_set__menuRpcManager(::GlobalNamespace::IMenuRpcManager* value);
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __get__beatmapLevelsModel();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsModel>& __cordl_internal_get__beatmapLevelsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __get__beatmapLevelsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsModel> const& __cordl_internal_get__beatmapLevelsModel() const;
 
-  constexpr void __set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
+  constexpr void __cordl_internal_set__beatmapLevelsModel(::UnityW<::GlobalNamespace::BeatmapLevelsModel> value);
 
-  constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __get__beatmapCharacteristicCollection();
+  constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __cordl_internal_get__beatmapCharacteristicCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollection*> const& __get__beatmapCharacteristicCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollection*> const& __cordl_internal_get__beatmapCharacteristicCollection() const;
 
-  constexpr void __set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
+  constexpr void __cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
 
-  constexpr ::GlobalNamespace::IAdditionalContentModel*& __get__additionalContentModel();
+  constexpr ::GlobalNamespace::IAdditionalContentModel*& __cordl_internal_get__additionalContentModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const& __get__additionalContentModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const& __cordl_internal_get__additionalContentModel() const;
 
-  constexpr void __set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
+  constexpr void __cordl_internal_set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
 
-  constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& __get__lobbyPlayerPermissionsModel();
+  constexpr ::GlobalNamespace::LobbyPlayerPermissionsModel*& __cordl_internal_get__lobbyPlayerPermissionsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerPermissionsModel*> const& __get__lobbyPlayerPermissionsModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerPermissionsModel*> const& __cordl_internal_get__lobbyPlayerPermissionsModel() const;
 
-  constexpr void __set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel* value);
+  constexpr void __cordl_internal_set__lobbyPlayerPermissionsModel(::GlobalNamespace::LobbyPlayerPermissionsModel* value);
 
-  constexpr ::GlobalNamespace::LobbyPlayerData*& __get__emptyLobbyPlayerData();
+  constexpr ::GlobalNamespace::LobbyPlayerData*& __cordl_internal_get__emptyLobbyPlayerData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerData*> const& __get__emptyLobbyPlayerData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LobbyPlayerData*> const& __cordl_internal_get__emptyLobbyPlayerData() const;
 
-  constexpr void __set__emptyLobbyPlayerData(::GlobalNamespace::LobbyPlayerData* value);
+  constexpr void __cordl_internal_set__emptyLobbyPlayerData(::GlobalNamespace::LobbyPlayerData* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LobbyPlayerData*>*& __get__playersData();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LobbyPlayerData*>*& __cordl_internal_get__playersData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LobbyPlayerData*>*> const& __get__playersData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LobbyPlayerData*>*> const& __cordl_internal_get__playersData() const;
 
-  constexpr void __set__playersData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LobbyPlayerData*>* value);
+  constexpr void __cordl_internal_set__playersData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::LobbyPlayerData*>* value);
 
-  constexpr ::System::Threading::CancellationTokenSource*& __get__cancellationTokenSource();
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __get__cancellationTokenSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
 
-  constexpr void __set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+  constexpr void __cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  constexpr ::StringW& __get__partyOwnerId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__partyOwnerId_k__BackingField();
 
-  constexpr ::StringW const& __get__partyOwnerId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__partyOwnerId_k__BackingField() const;
 
-  constexpr void __set__partyOwnerId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__partyOwnerId_k__BackingField(::StringW value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_didChangeEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_didChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_didChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_didChangeEvent() const;
 
-  constexpr void __set_didChangeEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_didChangeEvent(::System::Action_1<::StringW>* value);
 
   /// @brief Method get_localUserId, addr 0x235bd00, size 0x140, virtual true, abstract: false, final true
   inline ::StringW get_localUserId();
@@ -768,7 +775,7 @@ public:
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
 
   /// @brief Field _beatmapLevelsModel, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
+  ::UnityW<::GlobalNamespace::BeatmapLevelsModel> ____beatmapLevelsModel;
 
   /// @brief Field _beatmapCharacteristicCollection, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCharacteristicCollection* ____beatmapCharacteristicCollection;

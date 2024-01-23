@@ -48,7 +48,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__PanelRaycaster__FloatIntBits);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13161))
 // CS Name: ::PanelRaycaster::FloatIntBits
 #pragma pack(push, 0)
@@ -56,22 +56,22 @@ struct CORDL_TYPE __PanelRaycaster__FloatIntBits {
 public:
   // Declarations
   /// @brief Field f, offset 0x0, size 0x4
-  __declspec(property(get = __get_f, put = __set_f)) float_t f;
+  __declspec(property(get = __cordl_internal_get_f, put = __cordl_internal_set_f)) float_t f;
 
   /// @brief Field i, offset 0x0, size 0x4
-  __declspec(property(get = __get_i, put = __set_i)) int32_t i;
+  __declspec(property(get = __cordl_internal_get_i, put = __cordl_internal_set_i)) int32_t i;
 
-  constexpr float_t& __get_f();
+  constexpr float_t& __cordl_internal_get_f();
 
-  constexpr float_t const& __get_f() const;
+  constexpr float_t const& __cordl_internal_get_f() const;
 
-  constexpr void __set_f(float_t value);
+  constexpr void __cordl_internal_set_f(float_t value);
 
-  constexpr int32_t& __get_i();
+  constexpr int32_t& __cordl_internal_get_i();
 
-  constexpr int32_t const& __get_i() const;
+  constexpr int32_t const& __cordl_internal_get_i() const;
 
-  constexpr void __set_i(int32_t value);
+  constexpr void __cordl_internal_set_i(int32_t value);
 
   // Ctor Parameters [CppParam { name: "f", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "i", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr __PanelRaycaster__FloatIntBits(float_t f, int32_t i) noexcept;
@@ -128,7 +128,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Panel
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13209))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13209))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13162))
 // CS Name: ::UnityEngine.UIElements::PanelRaycaster*
 class CORDL_TYPE PanelRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster {
@@ -137,17 +137,17 @@ public:
   using FloatIntBits = ::UnityEngine::UIElements::__PanelRaycaster__FloatIntBits;
 
   /// @brief Field m_Panel, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Panel, put = __set_m_Panel))::UnityEngine::UIElements::BaseRuntimePanel* m_Panel;
+  __declspec(property(get = __cordl_internal_get_m_Panel, put = __cordl_internal_set_m_Panel))::UnityEngine::UIElements::BaseRuntimePanel* m_Panel;
 
   __declspec(property(get = get_panel, put = set_panel))::UnityEngine::UIElements::IPanel* panel;
 
-  __declspec(property(get = get_selectableGameObject))::UnityEngine::GameObject* selectableGameObject;
+  __declspec(property(get = get_selectableGameObject))::UnityW<::UnityEngine::GameObject> selectableGameObject;
 
   __declspec(property(get = get_sortOrderPriority)) int32_t sortOrderPriority;
 
   __declspec(property(get = get_renderOrderPriority)) int32_t renderOrderPriority;
 
-  __declspec(property(get = get_eventCamera))::UnityEngine::Camera* eventCamera;
+  __declspec(property(get = get_eventCamera))::UnityW<::UnityEngine::Camera> eventCamera;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IRuntimePanelComponent"
   constexpr operator ::UnityEngine::UIElements::IRuntimePanelComponent*() noexcept;
@@ -155,11 +155,11 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IRuntimePanelComponent"
   constexpr ::UnityEngine::UIElements::IRuntimePanelComponent* i___UnityEngine__UIElements__IRuntimePanelComponent() noexcept;
 
-  constexpr ::UnityEngine::UIElements::BaseRuntimePanel*& __get_m_Panel();
+  constexpr ::UnityEngine::UIElements::BaseRuntimePanel*& __cordl_internal_get_m_Panel();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseRuntimePanel*> const& __get_m_Panel() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseRuntimePanel*> const& __cordl_internal_get_m_Panel() const;
 
-  constexpr void __set_m_Panel(::UnityEngine::UIElements::BaseRuntimePanel* value);
+  constexpr void __cordl_internal_set_m_Panel(::UnityEngine::UIElements::BaseRuntimePanel* value);
 
   /// @brief Method get_panel, addr 0x2d94c1c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IPanel* get_panel();
@@ -177,7 +177,7 @@ public:
   inline void OnPanelDestroyed();
 
   /// @brief Method get_selectableGameObject, addr 0x2d94e00, size 0x18, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_selectableGameObject();
+  inline ::UnityW<::UnityEngine::GameObject> get_selectableGameObject();
 
   /// @brief Method get_sortOrderPriority, addr 0x2d94e18, size 0x34, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
@@ -189,7 +189,7 @@ public:
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
   /// @brief Method get_eventCamera, addr 0x2d95360, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::Camera* get_eventCamera();
+  inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
   /// @brief Method ConvertFloatBitsToInt, addr 0x2d94e64, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ConvertFloatBitsToInt(float_t f);

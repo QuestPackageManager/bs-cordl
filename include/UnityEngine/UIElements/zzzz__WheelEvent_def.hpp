@@ -24,21 +24,21 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::WheelEvent);
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 188, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7215)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst: 4650 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7220)) CS Name: ::UnityEngine.UIElements::WheelEvent*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7215)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7215), inst:
+// 4650 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7220)) CS Name: ::UnityEngine.UIElements::WheelEvent*
 class CORDL_TYPE WheelEvent : public ::UnityEngine::UIElements::MouseEventBase_1<::UnityEngine::UIElements::WheelEvent*> {
 public:
   // Declarations
   /// @brief Field <delta>k__BackingField, offset 0xb0, size 0xc
-  __declspec(property(get = __get__delta_k__BackingField, put = __set__delta_k__BackingField))::UnityEngine::Vector3 _delta_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__delta_k__BackingField, put = __cordl_internal_set__delta_k__BackingField))::UnityEngine::Vector3 _delta_k__BackingField;
 
   __declspec(property(get = get_delta, put = set_delta))::UnityEngine::Vector3 delta;
 
-  constexpr ::UnityEngine::Vector3& __get__delta_k__BackingField();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__delta_k__BackingField();
 
-  constexpr ::UnityEngine::Vector3 const& __get__delta_k__BackingField() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__delta_k__BackingField() const;
 
-  constexpr void __set__delta_k__BackingField(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__delta_k__BackingField(::UnityEngine::Vector3 value);
 
   /// @brief Method get_delta, addr 0x2e513b0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_delta();

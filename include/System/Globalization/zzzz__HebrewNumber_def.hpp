@@ -47,7 +47,7 @@ MARK_VAL_T(::System::Globalization::__HebrewNumber__HebrewValue);
 // SizeInfo { instance_size: 2, native_size: 2, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3675))
 // CS Name: ::HebrewNumber::HebrewToken
 struct CORDL_TYPE __HebrewNumber__HebrewToken {
@@ -133,7 +133,7 @@ static_assert(offsetof(::System::Globalization::__HebrewNumber__HebrewToken, val
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3675))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3675))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3676))
 // CS Name: ::HebrewNumber::HebrewValue
 struct CORDL_TYPE __HebrewNumber__HebrewValue {
@@ -173,7 +173,7 @@ static_assert(offsetof(::System::Globalization::__HebrewNumber__HebrewValue, val
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3677))
 // CS Name: ::HebrewNumber::HS
 struct CORDL_TYPE __HebrewNumber__HS {
@@ -291,7 +291,7 @@ static_assert(offsetof(::System::Globalization::__HebrewNumber__HS, value__) == 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3678))
 // CS Name: ::System.Globalization::HebrewNumber*
 class CORDL_TYPE HebrewNumber : public ::System::Object {

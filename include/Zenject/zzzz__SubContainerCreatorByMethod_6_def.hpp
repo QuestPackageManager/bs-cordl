@@ -34,20 +34,21 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11246))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11246))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11253))
 // CS Name: ::Zenject::SubContainerCreatorByMethod`6<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6>*
 class CORDL_TYPE SubContainerCreatorByMethod_6 : public ::Zenject::SubContainerCreatorByMethodBase {
 public:
   // Declarations
   /// @brief Field _installMethod, offset 0x20, size 0x8
-  __declspec(property(get = __get__installMethod, put = __set__installMethod))::System::Action_7<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>* _installMethod;
+  __declspec(property(get = __cordl_internal_get__installMethod,
+                      put = __cordl_internal_set__installMethod))::System::Action_7<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>* _installMethod;
 
-  constexpr ::System::Action_7<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*& __get__installMethod();
+  constexpr ::System::Action_7<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*& __cordl_internal_get__installMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_7<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*> const& __get__installMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_7<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*> const& __cordl_internal_get__installMethod() const;
 
-  constexpr void __set__installMethod(::System::Action_7<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>* value);
+  constexpr void __cordl_internal_set__installMethod(::System::Action_7<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>* value);
 
   static inline ::Zenject::SubContainerCreatorByMethod_6<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6>*
   New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo,

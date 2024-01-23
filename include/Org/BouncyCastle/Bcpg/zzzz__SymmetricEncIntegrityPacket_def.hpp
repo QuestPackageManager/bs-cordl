@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(557))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(557))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(593))
 // CS Name: ::Org.BouncyCastle.Bcpg::SymmetricEncIntegrityPacket*
 class CORDL_TYPE SymmetricEncIntegrityPacket : public ::Org::BouncyCastle::Bcpg::InputStreamPacket {
 public:
   // Declarations
   /// @brief Field version, offset 0x18, size 0x4
-  __declspec(property(get = __get_version, put = __set_version)) int32_t version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
-  constexpr int32_t& __get_version();
+  constexpr int32_t& __cordl_internal_get_version();
 
-  constexpr int32_t const& __get_version() const;
+  constexpr int32_t const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(int32_t value);
+  constexpr void __cordl_internal_set_version(int32_t value);
 
   static inline ::Org::BouncyCastle::Bcpg::SymmetricEncIntegrityPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 

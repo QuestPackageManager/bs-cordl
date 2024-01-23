@@ -35,24 +35,26 @@ MARK_REF_PTR_T(::GlobalNamespace::DeeplinkManagerToDestinationRequestManagerAdap
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4146))
 // CS Name: ::DeeplinkManagerToDestinationRequestManagerAdapter*
 class CORDL_TYPE DeeplinkManagerToDestinationRequestManagerAdapter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _beatmapLevelsModel, offset 0x10, size 0x8
-  __declspec(property(get = __get__beatmapLevelsModel, put = __set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::UnityW<::GlobalNamespace::BeatmapLevelsModel> _beatmapLevelsModel;
 
   /// @brief Field _beatmapCharacteristicCollection, offset 0x18, size 0x8
-  __declspec(property(get = __get__beatmapCharacteristicCollection, put = __set__beatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristicCollection;
+  __declspec(property(get = __cordl_internal_get__beatmapCharacteristicCollection,
+                      put = __cordl_internal_set__beatmapCharacteristicCollection))::GlobalNamespace::BeatmapCharacteristicCollection* _beatmapCharacteristicCollection;
 
   /// @brief Field didSendMenuDestinationRequestEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_didSendMenuDestinationRequestEvent,
-                      put = __set_didSendMenuDestinationRequestEvent))::System::Action_1<::GlobalNamespace::MenuDestination*>* didSendMenuDestinationRequestEvent;
+  __declspec(property(get = __cordl_internal_get_didSendMenuDestinationRequestEvent,
+                      put = __cordl_internal_set_didSendMenuDestinationRequestEvent))::System::Action_1<::GlobalNamespace::MenuDestination*>* didSendMenuDestinationRequestEvent;
 
   /// @brief Field _currentMenuDestinationRequest, offset 0x28, size 0x8
-  __declspec(property(get = __get__currentMenuDestinationRequest, put = __set__currentMenuDestinationRequest))::GlobalNamespace::MenuDestination* _currentMenuDestinationRequest;
+  __declspec(property(get = __cordl_internal_get__currentMenuDestinationRequest,
+                      put = __cordl_internal_set__currentMenuDestinationRequest))::GlobalNamespace::MenuDestination* _currentMenuDestinationRequest;
 
   __declspec(property(get = get_currentMenuDestinationRequest, put = set_currentMenuDestinationRequest))::GlobalNamespace::MenuDestination* currentMenuDestinationRequest;
 
@@ -62,29 +64,29 @@ public:
   /// @brief Convert to "::GlobalNamespace::IDestinationRequestManager"
   constexpr ::GlobalNamespace::IDestinationRequestManager* i___GlobalNamespace__IDestinationRequestManager() noexcept;
 
-  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __get__beatmapLevelsModel();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsModel>& __cordl_internal_get__beatmapLevelsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __get__beatmapLevelsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsModel> const& __cordl_internal_get__beatmapLevelsModel() const;
 
-  constexpr void __set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
+  constexpr void __cordl_internal_set__beatmapLevelsModel(::UnityW<::GlobalNamespace::BeatmapLevelsModel> value);
 
-  constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __get__beatmapCharacteristicCollection();
+  constexpr ::GlobalNamespace::BeatmapCharacteristicCollection*& __cordl_internal_get__beatmapCharacteristicCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollection*> const& __get__beatmapCharacteristicCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicCollection*> const& __cordl_internal_get__beatmapCharacteristicCollection() const;
 
-  constexpr void __set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
+  constexpr void __cordl_internal_set__beatmapCharacteristicCollection(::GlobalNamespace::BeatmapCharacteristicCollection* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::MenuDestination*>*& __get_didSendMenuDestinationRequestEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::MenuDestination*>*& __cordl_internal_get_didSendMenuDestinationRequestEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MenuDestination*>*> const& __get_didSendMenuDestinationRequestEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MenuDestination*>*> const& __cordl_internal_get_didSendMenuDestinationRequestEvent() const;
 
-  constexpr void __set_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
+  constexpr void __cordl_internal_set_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
 
-  constexpr ::GlobalNamespace::MenuDestination*& __get__currentMenuDestinationRequest();
+  constexpr ::GlobalNamespace::MenuDestination*& __cordl_internal_get__currentMenuDestinationRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuDestination*> const& __get__currentMenuDestinationRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuDestination*> const& __cordl_internal_get__currentMenuDestinationRequest() const;
 
-  constexpr void __set__currentMenuDestinationRequest(::GlobalNamespace::MenuDestination* value);
+  constexpr void __cordl_internal_set__currentMenuDestinationRequest(::GlobalNamespace::MenuDestination* value);
 
   /// @brief Method add_didSendMenuDestinationRequestEvent, addr 0x223c618, size 0xb0, virtual true, abstract: false, final true
   inline void add_didSendMenuDestinationRequestEvent(::System::Action_1<::GlobalNamespace::MenuDestination*>* value);
@@ -127,7 +129,7 @@ protected:
 
 public:
   /// @brief Field _beatmapLevelsModel, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
+  ::UnityW<::GlobalNamespace::BeatmapLevelsModel> ____beatmapLevelsModel;
 
   /// @brief Field _beatmapCharacteristicCollection, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCharacteristicCollection* ____beatmapCharacteristicCollection;

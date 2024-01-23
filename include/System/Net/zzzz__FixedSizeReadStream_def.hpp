@@ -48,8 +48,8 @@ MARK_VAL_T(::System::Net::__FixedSizeReadStream___ProcessReadAsync_d__5);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 })} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(9166)) CS Name: ::FixedSizeReadStream::<ProcessReadAsync>d__5
 struct CORDL_TYPE __FixedSizeReadStream___ProcessReadAsync_d__5 {
 public:
@@ -133,7 +133,7 @@ static_assert(offsetof(::System::Net::__FixedSizeReadStream___ProcessReadAsync_d
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9229))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9229))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9167))
 // CS Name: ::System.Net::FixedSizeReadStream*
 class CORDL_TYPE FixedSizeReadStream : public ::System::Net::WebReadStream {
@@ -142,24 +142,24 @@ public:
   using _ProcessReadAsync_d__5 = ::System::Net::__FixedSizeReadStream___ProcessReadAsync_d__5;
 
   /// @brief Field <ContentLength>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __get__ContentLength_k__BackingField, put = __set__ContentLength_k__BackingField)) int64_t _ContentLength_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ContentLength_k__BackingField, put = __cordl_internal_set__ContentLength_k__BackingField)) int64_t _ContentLength_k__BackingField;
 
   /// @brief Field position, offset 0x48, size 0x8
-  __declspec(property(get = __get_position, put = __set_position)) int64_t position;
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position)) int64_t position;
 
   __declspec(property(get = get_ContentLength)) int64_t ContentLength;
 
-  constexpr int64_t& __get__ContentLength_k__BackingField();
+  constexpr int64_t& __cordl_internal_get__ContentLength_k__BackingField();
 
-  constexpr int64_t const& __get__ContentLength_k__BackingField() const;
+  constexpr int64_t const& __cordl_internal_get__ContentLength_k__BackingField() const;
 
-  constexpr void __set__ContentLength_k__BackingField(int64_t value);
+  constexpr void __cordl_internal_set__ContentLength_k__BackingField(int64_t value);
 
-  constexpr int64_t& __get_position();
+  constexpr int64_t& __cordl_internal_get_position();
 
-  constexpr int64_t const& __get_position() const;
+  constexpr int64_t const& __cordl_internal_get_position() const;
 
-  constexpr void __set_position(int64_t value);
+  constexpr void __cordl_internal_set_position(int64_t value);
 
   /// @brief Method get_ContentLength, addr 0x29c497c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ContentLength();

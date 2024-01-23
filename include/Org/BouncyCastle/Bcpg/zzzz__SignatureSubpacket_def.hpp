@@ -23,49 +23,49 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::SignatureSubpacket);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(591))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(591)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(531))
 // CS Name: ::Org.BouncyCastle.Bcpg::SignatureSubpacket*
 class CORDL_TYPE SignatureSubpacket : public ::System::Object {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __get_type, put = __set_type))::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type;
 
   /// @brief Field critical, offset 0x14, size 0x1
-  __declspec(property(get = __get_critical, put = __set_critical)) bool critical;
+  __declspec(property(get = __cordl_internal_get_critical, put = __cordl_internal_set_critical)) bool critical;
 
   /// @brief Field isLongLength, offset 0x15, size 0x1
-  __declspec(property(get = __get_isLongLength, put = __set_isLongLength)) bool isLongLength;
+  __declspec(property(get = __cordl_internal_get_isLongLength, put = __cordl_internal_set_isLongLength)) bool isLongLength;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
 
   __declspec(property(get = get_SubpacketType))::Org::BouncyCastle::Bcpg::SignatureSubpacketTag SubpacketType;
 
-  constexpr ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag& __get_type();
+  constexpr ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag& __cordl_internal_get_type();
 
-  constexpr ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const& __get_type() const;
+  constexpr ::Org::BouncyCastle::Bcpg::SignatureSubpacketTag const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag value);
+  constexpr void __cordl_internal_set_type(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag value);
 
-  constexpr bool& __get_critical();
+  constexpr bool& __cordl_internal_get_critical();
 
-  constexpr bool const& __get_critical() const;
+  constexpr bool const& __cordl_internal_get_critical() const;
 
-  constexpr void __set_critical(bool value);
+  constexpr void __cordl_internal_set_critical(bool value);
 
-  constexpr bool& __get_isLongLength();
+  constexpr bool& __cordl_internal_get_isLongLength();
 
-  constexpr bool const& __get_isLongLength() const;
+  constexpr bool const& __cordl_internal_get_isLongLength() const;
 
-  constexpr void __set_isLongLength(bool value);
+  constexpr void __cordl_internal_set_isLongLength(bool value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_data();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_data();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_data() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Bcpg::SignatureSubpacket* New_ctor(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type, bool critical, bool isLongLength,
                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> data);

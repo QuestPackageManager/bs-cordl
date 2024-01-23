@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::UnityEngine::__AnimatorOverrideController__OnOverrideController
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14847))
 // CS Name: ::AnimatorOverrideController::OnOverrideControllerDirtyCallback*
 class CORDL_TYPE __AnimatorOverrideController__OnOverrideControllerDirtyCallback : public ::System::MulticastDelegate {
@@ -76,7 +76,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__AnimatorOverrideC
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14858))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14858))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14848))
 // CS Name: ::UnityEngine::AnimatorOverrideController*
 class CORDL_TYPE AnimatorOverrideController : public ::UnityEngine::RuntimeAnimatorController {
@@ -85,14 +85,14 @@ public:
   using OnOverrideControllerDirtyCallback = ::UnityEngine::__AnimatorOverrideController__OnOverrideControllerDirtyCallback;
 
   /// @brief Field OnOverrideControllerDirty, offset 0x18, size 0x8
-  __declspec(property(get = __get_OnOverrideControllerDirty,
-                      put = __set_OnOverrideControllerDirty))::UnityEngine::__AnimatorOverrideController__OnOverrideControllerDirtyCallback* OnOverrideControllerDirty;
+  __declspec(property(get = __cordl_internal_get_OnOverrideControllerDirty,
+                      put = __cordl_internal_set_OnOverrideControllerDirty))::UnityEngine::__AnimatorOverrideController__OnOverrideControllerDirtyCallback* OnOverrideControllerDirty;
 
-  constexpr ::UnityEngine::__AnimatorOverrideController__OnOverrideControllerDirtyCallback*& __get_OnOverrideControllerDirty();
+  constexpr ::UnityEngine::__AnimatorOverrideController__OnOverrideControllerDirtyCallback*& __cordl_internal_get_OnOverrideControllerDirty();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::__AnimatorOverrideController__OnOverrideControllerDirtyCallback*> const& __get_OnOverrideControllerDirty() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::__AnimatorOverrideController__OnOverrideControllerDirtyCallback*> const& __cordl_internal_get_OnOverrideControllerDirty() const;
 
-  constexpr void __set_OnOverrideControllerDirty(::UnityEngine::__AnimatorOverrideController__OnOverrideControllerDirtyCallback* value);
+  constexpr void __cordl_internal_set_OnOverrideControllerDirty(::UnityEngine::__AnimatorOverrideController__OnOverrideControllerDirtyCallback* value);
 
   static inline ::UnityEngine::AnimatorOverrideController* New_ctor(::UnityEngine::RuntimeAnimatorController* controller);
 
@@ -109,7 +109,8 @@ public:
   inline void SendNotification();
 
   /// @brief Method ApplyOverrides, addr 0x2c8e294, size 0x260, virtual false, abstract: false, final false
-  inline void ApplyOverrides(::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::AnimationClip*, ::UnityEngine::AnimationClip*>>* overrides);
+  inline void
+  ApplyOverrides(::System::Collections::Generic::IList_1<::System::Collections::Generic::KeyValuePair_2<::UnityW<::UnityEngine::AnimationClip>, ::UnityW<::UnityEngine::AnimationClip>>>* overrides);
 
   /// @brief Method OnInvalidateOverrideController, addr 0x2c8e4f4, size 0x30, virtual false, abstract: false, final false
   static inline void OnInvalidateOverrideController(::UnityEngine::AnimatorOverrideController* controller);

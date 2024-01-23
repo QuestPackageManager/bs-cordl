@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::System::Diagnostics::DebuggableAttribute);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3732))
 // CS Name: ::DebuggableAttribute::DebuggingModes
 struct CORDL_TYPE __DebuggableAttribute__DebuggingModes {
@@ -86,7 +86,7 @@ static_assert(offsetof(::System::Diagnostics::__DebuggableAttribute__DebuggingMo
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3732))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3732))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3733))
 // CS Name: ::System.Diagnostics::DebuggableAttribute*
 class CORDL_TYPE DebuggableAttribute : public ::System::Attribute {
@@ -95,13 +95,13 @@ public:
   using DebuggingModes = ::System::Diagnostics::__DebuggableAttribute__DebuggingModes;
 
   /// @brief Field m_debuggingModes, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_debuggingModes, put = __set_m_debuggingModes))::System::Diagnostics::__DebuggableAttribute__DebuggingModes m_debuggingModes;
+  __declspec(property(get = __cordl_internal_get_m_debuggingModes, put = __cordl_internal_set_m_debuggingModes))::System::Diagnostics::__DebuggableAttribute__DebuggingModes m_debuggingModes;
 
-  constexpr ::System::Diagnostics::__DebuggableAttribute__DebuggingModes& __get_m_debuggingModes();
+  constexpr ::System::Diagnostics::__DebuggableAttribute__DebuggingModes& __cordl_internal_get_m_debuggingModes();
 
-  constexpr ::System::Diagnostics::__DebuggableAttribute__DebuggingModes const& __get_m_debuggingModes() const;
+  constexpr ::System::Diagnostics::__DebuggableAttribute__DebuggingModes const& __cordl_internal_get_m_debuggingModes() const;
 
-  constexpr void __set_m_debuggingModes(::System::Diagnostics::__DebuggableAttribute__DebuggingModes value);
+  constexpr void __cordl_internal_set_m_debuggingModes(::System::Diagnostics::__DebuggableAttribute__DebuggingModes value);
 
   static inline ::System::Diagnostics::DebuggableAttribute* New_ctor(::System::Diagnostics::__DebuggableAttribute__DebuggingModes modes);
 

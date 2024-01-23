@@ -32,32 +32,32 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualTreeStyleUpdater);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(9966))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6816))
 // CS Name: ::UnityEngine.UIElements::VisualTreeStyleUpdater*
 class CORDL_TYPE VisualTreeStyleUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
   // Declarations
   /// @brief Field m_ApplyStyleUpdateList, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_ApplyStyleUpdateList,
-                      put = __set_m_ApplyStyleUpdateList))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_ApplyStyleUpdateList;
+  __declspec(property(get = __cordl_internal_get_m_ApplyStyleUpdateList,
+                      put = __cordl_internal_set_m_ApplyStyleUpdateList))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_ApplyStyleUpdateList;
 
   /// @brief Field m_TransitionPropertyUpdateList, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_TransitionPropertyUpdateList,
-                      put = __set_m_TransitionPropertyUpdateList))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_TransitionPropertyUpdateList;
+  __declspec(property(get = __cordl_internal_get_m_TransitionPropertyUpdateList,
+                      put = __cordl_internal_set_m_TransitionPropertyUpdateList))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_TransitionPropertyUpdateList;
 
   /// @brief Field m_IsApplyingStyles, offset 0x30, size 0x1
-  __declspec(property(get = __get_m_IsApplyingStyles, put = __set_m_IsApplyingStyles)) bool m_IsApplyingStyles;
+  __declspec(property(get = __cordl_internal_get_m_IsApplyingStyles, put = __cordl_internal_set_m_IsApplyingStyles)) bool m_IsApplyingStyles;
 
   /// @brief Field m_Version, offset 0x34, size 0x4
-  __declspec(property(get = __get_m_Version, put = __set_m_Version)) uint32_t m_Version;
+  __declspec(property(get = __cordl_internal_get_m_Version, put = __cordl_internal_set_m_Version)) uint32_t m_Version;
 
   /// @brief Field m_LastVersion, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_LastVersion, put = __set_m_LastVersion)) uint32_t m_LastVersion;
+  __declspec(property(get = __cordl_internal_get_m_LastVersion, put = __cordl_internal_set_m_LastVersion)) uint32_t m_LastVersion;
 
   /// @brief Field m_StyleContextHierarchyTraversal, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_StyleContextHierarchyTraversal,
-                      put = __set_m_StyleContextHierarchyTraversal))::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal* m_StyleContextHierarchyTraversal;
+  __declspec(property(get = __cordl_internal_get_m_StyleContextHierarchyTraversal,
+                      put = __cordl_internal_set_m_StyleContextHierarchyTraversal))::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal* m_StyleContextHierarchyTraversal;
 
   /// @brief Field s_Description, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Description, put = setStaticF_s_Description))::StringW s_Description;
@@ -67,41 +67,42 @@ public:
 
   __declspec(property(get = get_profilerMarker))::Unity::Profiling::ProfilerMarker profilerMarker;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __get_m_ApplyStyleUpdateList();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_ApplyStyleUpdateList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __get_m_ApplyStyleUpdateList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_ApplyStyleUpdateList() const;
 
-  constexpr void __set_m_ApplyStyleUpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
+  constexpr void __cordl_internal_set_m_ApplyStyleUpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __get_m_TransitionPropertyUpdateList();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_TransitionPropertyUpdateList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __get_m_TransitionPropertyUpdateList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const&
+  __cordl_internal_get_m_TransitionPropertyUpdateList() const;
 
-  constexpr void __set_m_TransitionPropertyUpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
+  constexpr void __cordl_internal_set_m_TransitionPropertyUpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  constexpr bool& __get_m_IsApplyingStyles();
+  constexpr bool& __cordl_internal_get_m_IsApplyingStyles();
 
-  constexpr bool const& __get_m_IsApplyingStyles() const;
+  constexpr bool const& __cordl_internal_get_m_IsApplyingStyles() const;
 
-  constexpr void __set_m_IsApplyingStyles(bool value);
+  constexpr void __cordl_internal_set_m_IsApplyingStyles(bool value);
 
-  constexpr uint32_t& __get_m_Version();
+  constexpr uint32_t& __cordl_internal_get_m_Version();
 
-  constexpr uint32_t const& __get_m_Version() const;
+  constexpr uint32_t const& __cordl_internal_get_m_Version() const;
 
-  constexpr void __set_m_Version(uint32_t value);
+  constexpr void __cordl_internal_set_m_Version(uint32_t value);
 
-  constexpr uint32_t& __get_m_LastVersion();
+  constexpr uint32_t& __cordl_internal_get_m_LastVersion();
 
-  constexpr uint32_t const& __get_m_LastVersion() const;
+  constexpr uint32_t const& __cordl_internal_get_m_LastVersion() const;
 
-  constexpr void __set_m_LastVersion(uint32_t value);
+  constexpr void __cordl_internal_set_m_LastVersion(uint32_t value);
 
-  constexpr ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*& __get_m_StyleContextHierarchyTraversal();
+  constexpr ::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*& __cordl_internal_get_m_StyleContextHierarchyTraversal();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*> const& __get_m_StyleContextHierarchyTraversal() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal*> const& __cordl_internal_get_m_StyleContextHierarchyTraversal() const;
 
-  constexpr void __set_m_StyleContextHierarchyTraversal(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal* value);
+  constexpr void __cordl_internal_set_m_StyleContextHierarchyTraversal(::UnityEngine::UIElements::VisualTreeStyleUpdaterTraversal* value);
 
   static inline void setStaticF_s_Description(::StringW value);
 

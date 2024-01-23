@@ -40,7 +40,7 @@ MARK_VAL_T(::System::Text::RegularExpressions::RegexFCD);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 59, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9530), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(9530))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9530)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9530), inst: 98 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8920))
 // CS Name: ::System.Text.RegularExpressions::RegexFCD
 struct CORDL_TYPE RegexFCD {

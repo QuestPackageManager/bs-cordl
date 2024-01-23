@@ -27,13 +27,13 @@ MARK_REF_PTR_T(::UnityEngine::Networking::DownloadHandlerAssetBundle);
 // SizeInfo { instance_size: 24, native_size: 8, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15580))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15580))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16138))
 // CS Name: ::UnityEngine.Networking::DownloadHandlerAssetBundle*
 class CORDL_TYPE DownloadHandlerAssetBundle : public ::UnityEngine::Networking::DownloadHandler {
 public:
   // Declarations
-  __declspec(property(get = get_assetBundle))::UnityEngine::AssetBundle* assetBundle;
+  __declspec(property(get = get_assetBundle))::UnityW<::UnityEngine::AssetBundle> assetBundle;
 
   __declspec(property(get = get_autoLoadAssetBundle, put = set_autoLoadAssetBundle)) bool autoLoadAssetBundle;
 
@@ -68,7 +68,7 @@ public:
   inline ::StringW GetText();
 
   /// @brief Method get_assetBundle, addr 0x2eabe4c, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::AssetBundle* get_assetBundle();
+  inline ::UnityW<::UnityEngine::AssetBundle> get_assetBundle();
 
   /// @brief Method get_autoLoadAssetBundle, addr 0x2eabe88, size 0x3c, virtual false, abstract: false, final false
   inline bool get_autoLoadAssetBundle();

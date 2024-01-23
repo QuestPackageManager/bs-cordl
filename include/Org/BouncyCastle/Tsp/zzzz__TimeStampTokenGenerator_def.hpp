@@ -43,128 +43,128 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TimeStampTokenGenerator);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1771))
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampTokenGenerator*
 class CORDL_TYPE TimeStampTokenGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field accuracySeconds, offset 0x10, size 0x4
-  __declspec(property(get = __get_accuracySeconds, put = __set_accuracySeconds)) int32_t accuracySeconds;
+  __declspec(property(get = __cordl_internal_get_accuracySeconds, put = __cordl_internal_set_accuracySeconds)) int32_t accuracySeconds;
 
   /// @brief Field accuracyMillis, offset 0x14, size 0x4
-  __declspec(property(get = __get_accuracyMillis, put = __set_accuracyMillis)) int32_t accuracyMillis;
+  __declspec(property(get = __cordl_internal_get_accuracyMillis, put = __cordl_internal_set_accuracyMillis)) int32_t accuracyMillis;
 
   /// @brief Field accuracyMicros, offset 0x18, size 0x4
-  __declspec(property(get = __get_accuracyMicros, put = __set_accuracyMicros)) int32_t accuracyMicros;
+  __declspec(property(get = __cordl_internal_get_accuracyMicros, put = __cordl_internal_set_accuracyMicros)) int32_t accuracyMicros;
 
   /// @brief Field ordering, offset 0x1c, size 0x1
-  __declspec(property(get = __get_ordering, put = __set_ordering)) bool ordering;
+  __declspec(property(get = __cordl_internal_get_ordering, put = __cordl_internal_set_ordering)) bool ordering;
 
   /// @brief Field tsa, offset 0x20, size 0x8
-  __declspec(property(get = __get_tsa, put = __set_tsa))::Org::BouncyCastle::Asn1::X509::GeneralName* tsa;
+  __declspec(property(get = __cordl_internal_get_tsa, put = __cordl_internal_set_tsa))::Org::BouncyCastle::Asn1::X509::GeneralName* tsa;
 
   /// @brief Field tsaPolicyOID, offset 0x28, size 0x8
-  __declspec(property(get = __get_tsaPolicyOID, put = __set_tsaPolicyOID))::StringW tsaPolicyOID;
+  __declspec(property(get = __cordl_internal_get_tsaPolicyOID, put = __cordl_internal_set_tsaPolicyOID))::StringW tsaPolicyOID;
 
   /// @brief Field key, offset 0x30, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key;
 
   /// @brief Field cert, offset 0x38, size 0x8
-  __declspec(property(get = __get_cert, put = __set_cert))::Org::BouncyCastle::X509::X509Certificate* cert;
+  __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert))::Org::BouncyCastle::X509::X509Certificate* cert;
 
   /// @brief Field digestOID, offset 0x40, size 0x8
-  __declspec(property(get = __get_digestOID, put = __set_digestOID))::StringW digestOID;
+  __declspec(property(get = __cordl_internal_get_digestOID, put = __cordl_internal_set_digestOID))::StringW digestOID;
 
   /// @brief Field signedAttr, offset 0x48, size 0x8
-  __declspec(property(get = __get_signedAttr, put = __set_signedAttr))::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr;
+  __declspec(property(get = __cordl_internal_get_signedAttr, put = __cordl_internal_set_signedAttr))::Org::BouncyCastle::Asn1::Cms::AttributeTable* signedAttr;
 
   /// @brief Field unsignedAttr, offset 0x50, size 0x8
-  __declspec(property(get = __get_unsignedAttr, put = __set_unsignedAttr))::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr;
+  __declspec(property(get = __cordl_internal_get_unsignedAttr, put = __cordl_internal_set_unsignedAttr))::Org::BouncyCastle::Asn1::Cms::AttributeTable* unsignedAttr;
 
   /// @brief Field x509Certs, offset 0x58, size 0x8
-  __declspec(property(get = __get_x509Certs, put = __set_x509Certs))::Org::BouncyCastle::X509::Store::IX509Store* x509Certs;
+  __declspec(property(get = __cordl_internal_get_x509Certs, put = __cordl_internal_set_x509Certs))::Org::BouncyCastle::X509::Store::IX509Store* x509Certs;
 
   /// @brief Field x509Crls, offset 0x60, size 0x8
-  __declspec(property(get = __get_x509Crls, put = __set_x509Crls))::Org::BouncyCastle::X509::Store::IX509Store* x509Crls;
+  __declspec(property(get = __cordl_internal_get_x509Crls, put = __cordl_internal_set_x509Crls))::Org::BouncyCastle::X509::Store::IX509Store* x509Crls;
 
-  constexpr int32_t& __get_accuracySeconds();
+  constexpr int32_t& __cordl_internal_get_accuracySeconds();
 
-  constexpr int32_t const& __get_accuracySeconds() const;
+  constexpr int32_t const& __cordl_internal_get_accuracySeconds() const;
 
-  constexpr void __set_accuracySeconds(int32_t value);
+  constexpr void __cordl_internal_set_accuracySeconds(int32_t value);
 
-  constexpr int32_t& __get_accuracyMillis();
+  constexpr int32_t& __cordl_internal_get_accuracyMillis();
 
-  constexpr int32_t const& __get_accuracyMillis() const;
+  constexpr int32_t const& __cordl_internal_get_accuracyMillis() const;
 
-  constexpr void __set_accuracyMillis(int32_t value);
+  constexpr void __cordl_internal_set_accuracyMillis(int32_t value);
 
-  constexpr int32_t& __get_accuracyMicros();
+  constexpr int32_t& __cordl_internal_get_accuracyMicros();
 
-  constexpr int32_t const& __get_accuracyMicros() const;
+  constexpr int32_t const& __cordl_internal_get_accuracyMicros() const;
 
-  constexpr void __set_accuracyMicros(int32_t value);
+  constexpr void __cordl_internal_set_accuracyMicros(int32_t value);
 
-  constexpr bool& __get_ordering();
+  constexpr bool& __cordl_internal_get_ordering();
 
-  constexpr bool const& __get_ordering() const;
+  constexpr bool const& __cordl_internal_get_ordering() const;
 
-  constexpr void __set_ordering(bool value);
+  constexpr void __cordl_internal_set_ordering(bool value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __get_tsa();
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_tsa();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __get_tsa() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_tsa() const;
 
-  constexpr void __set_tsa(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+  constexpr void __cordl_internal_set_tsa(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  constexpr ::StringW& __get_tsaPolicyOID();
+  constexpr ::StringW& __cordl_internal_get_tsaPolicyOID();
 
-  constexpr ::StringW const& __get_tsaPolicyOID() const;
+  constexpr ::StringW const& __cordl_internal_get_tsaPolicyOID() const;
 
-  constexpr void __set_tsaPolicyOID(::StringW value);
+  constexpr void __cordl_internal_set_tsaPolicyOID(::StringW value);
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __get_key();
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+  constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  constexpr ::Org::BouncyCastle::X509::X509Certificate*& __get_cert();
+  constexpr ::Org::BouncyCastle::X509::X509Certificate*& __cordl_internal_get_cert();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& __get_cert() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::X509Certificate*> const& __cordl_internal_get_cert() const;
 
-  constexpr void __set_cert(::Org::BouncyCastle::X509::X509Certificate* value);
+  constexpr void __cordl_internal_set_cert(::Org::BouncyCastle::X509::X509Certificate* value);
 
-  constexpr ::StringW& __get_digestOID();
+  constexpr ::StringW& __cordl_internal_get_digestOID();
 
-  constexpr ::StringW const& __get_digestOID() const;
+  constexpr ::StringW const& __cordl_internal_get_digestOID() const;
 
-  constexpr void __set_digestOID(::StringW value);
+  constexpr void __cordl_internal_set_digestOID(::StringW value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& __get_signedAttr();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& __cordl_internal_get_signedAttr();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& __get_signedAttr() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& __cordl_internal_get_signedAttr() const;
 
-  constexpr void __set_signedAttr(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
+  constexpr void __cordl_internal_set_signedAttr(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& __get_unsignedAttr();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& __cordl_internal_get_unsignedAttr();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& __get_unsignedAttr() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& __cordl_internal_get_unsignedAttr() const;
 
-  constexpr void __set_unsignedAttr(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
+  constexpr void __cordl_internal_set_unsignedAttr(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
 
-  constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& __get_x509Certs();
+  constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& __cordl_internal_get_x509Certs();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& __get_x509Certs() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& __cordl_internal_get_x509Certs() const;
 
-  constexpr void __set_x509Certs(::Org::BouncyCastle::X509::Store::IX509Store* value);
+  constexpr void __cordl_internal_set_x509Certs(::Org::BouncyCastle::X509::Store::IX509Store* value);
 
-  constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& __get_x509Crls();
+  constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& __cordl_internal_get_x509Crls();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& __get_x509Crls() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& __cordl_internal_get_x509Crls() const;
 
-  constexpr void __set_x509Crls(::Org::BouncyCastle::X509::Store::IX509Store* value);
+  constexpr void __cordl_internal_set_x509Crls(::Org::BouncyCastle::X509::Store::IX509Store* value);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampTokenGenerator* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key, ::Org::BouncyCastle::X509::X509Certificate* cert,
                                                                             ::StringW digestOID, ::StringW tsaPolicyOID);

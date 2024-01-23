@@ -30,20 +30,20 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRSpatialAnchors);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8551))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8551))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8578))
 // CS Name: ::OVR.OpenVR::CVRSpatialAnchors*
 class CORDL_TYPE CVRSpatialAnchors : public ::System::Object {
 public:
   // Declarations
   /// @brief Field FnTable, offset 0x10, size 0x20
-  __declspec(property(get = __get_FnTable, put = __set_FnTable))::OVR::OpenVR::IVRSpatialAnchors FnTable;
+  __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRSpatialAnchors FnTable;
 
-  constexpr ::OVR::OpenVR::IVRSpatialAnchors& __get_FnTable();
+  constexpr ::OVR::OpenVR::IVRSpatialAnchors& __cordl_internal_get_FnTable();
 
-  constexpr ::OVR::OpenVR::IVRSpatialAnchors const& __get_FnTable() const;
+  constexpr ::OVR::OpenVR::IVRSpatialAnchors const& __cordl_internal_get_FnTable() const;
 
-  constexpr void __set_FnTable(::OVR::OpenVR::IVRSpatialAnchors value);
+  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRSpatialAnchors value);
 
   static inline ::OVR::OpenVR::CVRSpatialAnchors* New_ctor(void* pInterface);
 

@@ -60,7 +60,7 @@ namespace Zenject {
 // cpp template
 template <typename TBase, typename TKey>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10994))
 // CS Name: ::KeyedFactoryBase`2::<>c<TBase,TKey>*
 class CORDL_TYPE __KeyedFactoryBase_2____c : public ::System::Object {
@@ -128,7 +128,7 @@ namespace Zenject {
 // cpp template
 template <typename TBase, typename TKey>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10995))
 // CS Name: ::Zenject::KeyedFactoryBase`2<TBase,TKey>*
 class CORDL_TYPE KeyedFactoryBase_2 : public ::System::Object {
@@ -137,16 +137,17 @@ public:
   using __c = ::Zenject::__KeyedFactoryBase_2____c<TBase, TKey>;
 
   /// @brief Field _container, offset 0x10, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _typePairs, offset 0x18, size 0x8
-  __declspec(property(get = __get__typePairs, put = __set__typePairs))::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>* _typePairs;
+  __declspec(property(get = __cordl_internal_get__typePairs,
+                      put = __cordl_internal_set__typePairs))::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>* _typePairs;
 
   /// @brief Field _typeMap, offset 0x20, size 0x8
-  __declspec(property(get = __get__typeMap, put = __set__typeMap))::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* _typeMap;
+  __declspec(property(get = __cordl_internal_get__typeMap, put = __cordl_internal_set__typeMap))::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* _typeMap;
 
   /// @brief Field _fallbackType, offset 0x28, size 0x8
-  __declspec(property(get = __get__fallbackType, put = __set__fallbackType))::System::Type* _fallbackType;
+  __declspec(property(get = __cordl_internal_get__fallbackType, put = __cordl_internal_set__fallbackType))::System::Type* _fallbackType;
 
   __declspec(property(get = get_Container))::Zenject::DiContainer* Container;
 
@@ -162,29 +163,29 @@ public:
   /// @brief Convert to "::Zenject::IValidatable"
   constexpr ::Zenject::IValidatable* i___Zenject__IValidatable() noexcept;
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>*& __get__typePairs();
+  constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>*& __cordl_internal_get__typePairs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>*> const& __get__typePairs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>*> const& __cordl_internal_get__typePairs() const;
 
-  constexpr void __set__typePairs(::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>* value);
+  constexpr void __cordl_internal_set__typePairs(::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<TKey, ::System::Type*>*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>*& __get__typeMap();
+  constexpr ::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>*& __cordl_internal_get__typeMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>*> const& __get__typeMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>*> const& __cordl_internal_get__typeMap() const;
 
-  constexpr void __set__typeMap(::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* value);
+  constexpr void __cordl_internal_set__typeMap(::System::Collections::Generic::Dictionary_2<TKey, ::System::Type*>* value);
 
-  constexpr ::System::Type*& __get__fallbackType();
+  constexpr ::System::Type*& __cordl_internal_get__fallbackType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__fallbackType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__fallbackType() const;
 
-  constexpr void __set__fallbackType(::System::Type* value);
+  constexpr void __cordl_internal_set__fallbackType(::System::Type* value);
 
   /// @brief Method get_Container, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();

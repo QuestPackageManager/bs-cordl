@@ -23,31 +23,31 @@ MARK_REF_PTR_T(::HMUI::RaycastUITopLevelChecker);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13545))
 // CS Name: ::HMUI::RaycastUITopLevelChecker*
 class CORDL_TYPE RaycastUITopLevelChecker : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field results, offset 0x18, size 0x8
-  __declspec(property(get = __get_results, put = __set_results))::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* results;
+  __declspec(property(get = __cordl_internal_get_results, put = __cordl_internal_set_results))::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* results;
 
   /// @brief Field _canvas, offset 0x20, size 0x8
-  __declspec(property(get = __get__canvas, put = __set__canvas))::UnityEngine::Canvas* _canvas;
+  __declspec(property(get = __cordl_internal_get__canvas, put = __cordl_internal_set__canvas))::UnityW<::UnityEngine::Canvas> _canvas;
 
   __declspec(property(get = get_isOnTop)) bool isOnTop;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*& __get_results();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*& __cordl_internal_get_results();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*> const& __get_results() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*> const& __cordl_internal_get_results() const;
 
-  constexpr void __set_results(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* value);
+  constexpr void __cordl_internal_set_results(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* value);
 
-  constexpr ::UnityEngine::Canvas*& __get__canvas();
+  constexpr ::UnityW<::UnityEngine::Canvas>& __cordl_internal_get__canvas();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Canvas*> const& __get__canvas() const;
+  constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get__canvas() const;
 
-  constexpr void __set__canvas(::UnityEngine::Canvas* value);
+  constexpr void __cordl_internal_set__canvas(::UnityW<::UnityEngine::Canvas> value);
 
   /// @brief Method Awake, addr 0x211eca8, size 0x74, virtual false, abstract: false, final false
   inline void Awake();
@@ -78,7 +78,7 @@ public:
   ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* ___results;
 
   /// @brief Field _canvas, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Canvas* ____canvas;
+  ::UnityW<::UnityEngine::Canvas> ____canvas;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

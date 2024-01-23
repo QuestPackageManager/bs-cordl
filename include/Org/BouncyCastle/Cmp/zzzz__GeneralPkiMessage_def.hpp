@@ -25,14 +25,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cmp::GeneralPkiMessage);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(605))
 // CS Name: ::Org.BouncyCastle.Cmp::GeneralPkiMessage*
 class CORDL_TYPE GeneralPkiMessage : public ::System::Object {
 public:
   // Declarations
   /// @brief Field pkiMessage, offset 0x10, size 0x8
-  __declspec(property(get = __get_pkiMessage, put = __set_pkiMessage))::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage;
+  __declspec(property(get = __cordl_internal_get_pkiMessage, put = __cordl_internal_set_pkiMessage))::Org::BouncyCastle::Asn1::Cmp::PkiMessage* pkiMessage;
 
   __declspec(property(get = get_Header))::Org::BouncyCastle::Asn1::Cmp::PkiHeader* Header;
 
@@ -40,11 +40,11 @@ public:
 
   __declspec(property(get = get_HasProtection)) bool HasProtection;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiMessage*& __get_pkiMessage();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiMessage*& __cordl_internal_get_pkiMessage();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*> const& __get_pkiMessage() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiMessage*> const& __cordl_internal_get_pkiMessage() const;
 
-  constexpr void __set_pkiMessage(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* value);
+  constexpr void __cordl_internal_set_pkiMessage(::Org::BouncyCastle::Asn1::Cmp::PkiMessage* value);
 
   /// @brief Method ParseBytes, addr 0x11d6018, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiMessage* ParseBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);

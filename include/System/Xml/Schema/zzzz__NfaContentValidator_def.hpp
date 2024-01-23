@@ -28,56 +28,56 @@ MARK_REF_PTR_T(::System::Xml::Schema::NfaContentValidator);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11610))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11610))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11613))
 // CS Name: ::System.Xml.Schema::NfaContentValidator*
 class CORDL_TYPE NfaContentValidator : public ::System::Xml::Schema::ContentValidator {
 public:
   // Declarations
   /// @brief Field firstpos, offset 0x18, size 0x8
-  __declspec(property(get = __get_firstpos, put = __set_firstpos))::System::Xml::Schema::BitSet* firstpos;
+  __declspec(property(get = __cordl_internal_get_firstpos, put = __cordl_internal_set_firstpos))::System::Xml::Schema::BitSet* firstpos;
 
   /// @brief Field followpos, offset 0x20, size 0x8
-  __declspec(property(get = __get_followpos, put = __set_followpos))::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos;
+  __declspec(property(get = __cordl_internal_get_followpos, put = __cordl_internal_set_followpos))::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos;
 
   /// @brief Field symbols, offset 0x28, size 0x8
-  __declspec(property(get = __get_symbols, put = __set_symbols))::System::Xml::Schema::SymbolsDictionary* symbols;
+  __declspec(property(get = __cordl_internal_get_symbols, put = __cordl_internal_set_symbols))::System::Xml::Schema::SymbolsDictionary* symbols;
 
   /// @brief Field positions, offset 0x30, size 0x8
-  __declspec(property(get = __get_positions, put = __set_positions))::System::Xml::Schema::Positions* positions;
+  __declspec(property(get = __cordl_internal_get_positions, put = __cordl_internal_set_positions))::System::Xml::Schema::Positions* positions;
 
   /// @brief Field endMarkerPos, offset 0x38, size 0x4
-  __declspec(property(get = __get_endMarkerPos, put = __set_endMarkerPos)) int32_t endMarkerPos;
+  __declspec(property(get = __cordl_internal_get_endMarkerPos, put = __cordl_internal_set_endMarkerPos)) int32_t endMarkerPos;
 
-  constexpr ::System::Xml::Schema::BitSet*& __get_firstpos();
+  constexpr ::System::Xml::Schema::BitSet*& __cordl_internal_get_firstpos();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::BitSet*> const& __get_firstpos() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::BitSet*> const& __cordl_internal_get_firstpos() const;
 
-  constexpr void __set_firstpos(::System::Xml::Schema::BitSet* value);
+  constexpr void __cordl_internal_set_firstpos(::System::Xml::Schema::BitSet* value);
 
-  constexpr ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*>& __get_followpos();
+  constexpr ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*>& __cordl_internal_get_followpos();
 
-  constexpr ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> const& __get_followpos() const;
+  constexpr ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> const& __cordl_internal_get_followpos() const;
 
-  constexpr void __set_followpos(::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> value);
+  constexpr void __cordl_internal_set_followpos(::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> value);
 
-  constexpr ::System::Xml::Schema::SymbolsDictionary*& __get_symbols();
+  constexpr ::System::Xml::Schema::SymbolsDictionary*& __cordl_internal_get_symbols();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SymbolsDictionary*> const& __get_symbols() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::SymbolsDictionary*> const& __cordl_internal_get_symbols() const;
 
-  constexpr void __set_symbols(::System::Xml::Schema::SymbolsDictionary* value);
+  constexpr void __cordl_internal_set_symbols(::System::Xml::Schema::SymbolsDictionary* value);
 
-  constexpr ::System::Xml::Schema::Positions*& __get_positions();
+  constexpr ::System::Xml::Schema::Positions*& __cordl_internal_get_positions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::Positions*> const& __get_positions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::Positions*> const& __cordl_internal_get_positions() const;
 
-  constexpr void __set_positions(::System::Xml::Schema::Positions* value);
+  constexpr void __cordl_internal_set_positions(::System::Xml::Schema::Positions* value);
 
-  constexpr int32_t& __get_endMarkerPos();
+  constexpr int32_t& __cordl_internal_get_endMarkerPos();
 
-  constexpr int32_t const& __get_endMarkerPos() const;
+  constexpr int32_t const& __cordl_internal_get_endMarkerPos() const;
 
-  constexpr void __set_endMarkerPos(int32_t value);
+  constexpr void __cordl_internal_set_endMarkerPos(int32_t value);
 
   static inline ::System::Xml::Schema::NfaContentValidator* New_ctor(::System::Xml::Schema::BitSet* firstpos,
                                                                      ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos,

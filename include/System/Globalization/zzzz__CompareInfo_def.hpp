@@ -47,26 +47,26 @@ MARK_REF_PTR_T(::System::Globalization::CompareInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3659))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3659))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3658))
 // CS Name: ::System.Globalization::CompareInfo*
 class CORDL_TYPE CompareInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_name, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_name, put = __set_m_name))::StringW m_name;
+  __declspec(property(get = __cordl_internal_get_m_name, put = __cordl_internal_set_m_name))::StringW m_name;
 
   /// @brief Field _sortName, offset 0x18, size 0x8
-  __declspec(property(get = __get__sortName, put = __set__sortName))::StringW _sortName;
+  __declspec(property(get = __cordl_internal_get__sortName, put = __cordl_internal_set__sortName))::StringW _sortName;
 
   /// @brief Field m_SortVersion, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_SortVersion, put = __set_m_SortVersion))::System::Globalization::SortVersion* m_SortVersion;
+  __declspec(property(get = __cordl_internal_get_m_SortVersion, put = __cordl_internal_set_m_SortVersion))::System::Globalization::SortVersion* m_SortVersion;
 
   /// @brief Field culture, offset 0x28, size 0x4
-  __declspec(property(get = __get_culture, put = __set_culture)) int32_t culture;
+  __declspec(property(get = __cordl_internal_get_culture, put = __cordl_internal_set_culture)) int32_t culture;
 
   /// @brief Field collator, offset 0x30, size 0x8
-  __declspec(property(get = __get_collator, put = __set_collator))::System::Globalization::ISimpleCollator* collator;
+  __declspec(property(get = __cordl_internal_get_collator, put = __cordl_internal_set_collator))::System::Globalization::ISimpleCollator* collator;
 
   /// @brief Field Invariant, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Invariant, put = setStaticF_Invariant))::System::Globalization::CompareInfo* Invariant;
@@ -88,35 +88,35 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
-  constexpr ::StringW& __get_m_name();
+  constexpr ::StringW& __cordl_internal_get_m_name();
 
-  constexpr ::StringW const& __get_m_name() const;
+  constexpr ::StringW const& __cordl_internal_get_m_name() const;
 
-  constexpr void __set_m_name(::StringW value);
+  constexpr void __cordl_internal_set_m_name(::StringW value);
 
-  constexpr ::StringW& __get__sortName();
+  constexpr ::StringW& __cordl_internal_get__sortName();
 
-  constexpr ::StringW const& __get__sortName() const;
+  constexpr ::StringW const& __cordl_internal_get__sortName() const;
 
-  constexpr void __set__sortName(::StringW value);
+  constexpr void __cordl_internal_set__sortName(::StringW value);
 
-  constexpr ::System::Globalization::SortVersion*& __get_m_SortVersion();
+  constexpr ::System::Globalization::SortVersion*& __cordl_internal_get_m_SortVersion();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::SortVersion*> const& __get_m_SortVersion() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::SortVersion*> const& __cordl_internal_get_m_SortVersion() const;
 
-  constexpr void __set_m_SortVersion(::System::Globalization::SortVersion* value);
+  constexpr void __cordl_internal_set_m_SortVersion(::System::Globalization::SortVersion* value);
 
-  constexpr int32_t& __get_culture();
+  constexpr int32_t& __cordl_internal_get_culture();
 
-  constexpr int32_t const& __get_culture() const;
+  constexpr int32_t const& __cordl_internal_get_culture() const;
 
-  constexpr void __set_culture(int32_t value);
+  constexpr void __cordl_internal_set_culture(int32_t value);
 
-  constexpr ::System::Globalization::ISimpleCollator*& __get_collator();
+  constexpr ::System::Globalization::ISimpleCollator*& __cordl_internal_get_collator();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::ISimpleCollator*> const& __get_collator() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::ISimpleCollator*> const& __cordl_internal_get_collator() const;
 
-  constexpr void __set_collator(::System::Globalization::ISimpleCollator* value);
+  constexpr void __cordl_internal_set_collator(::System::Globalization::ISimpleCollator* value);
 
   static inline void setStaticF_Invariant(::System::Globalization::CompareInfo* value);
 

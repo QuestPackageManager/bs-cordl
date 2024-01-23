@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::XRControllerWithRumble);
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 376, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6325))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6325))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6326))
 // CS Name: ::UnityEngine.InputSystem.XR::XRControllerWithRumble*
 class CORDL_TYPE XRControllerWithRumble : public ::UnityEngine::InputSystem::XR::XRController {

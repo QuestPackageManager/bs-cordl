@@ -13,7 +13,7 @@ MARK_REF_PTR_T(::UnityEngine::ISubsystem);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15967))
 // CS Name: ::UnityEngine::ISubsystem*
 class CORDL_TYPE ISubsystem {

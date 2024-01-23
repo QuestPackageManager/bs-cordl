@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::System::Security::AccessControl::FileSystemAccessRule);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3015))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3015))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3032))
 // CS Name: ::System.Security.AccessControl::FileSystemAccessRule*
 class CORDL_TYPE FileSystemAccessRule : public ::System::Security::AccessControl::AccessRule {

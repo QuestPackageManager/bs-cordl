@@ -15,14 +15,14 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::ButtonControl);
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 284, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6628))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6628))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6629))
 // CS Name: ::UnityEngine.InputSystem.Controls::ButtonControl*
 class CORDL_TYPE ButtonControl : public ::UnityEngine::InputSystem::Controls::AxisControl {
 public:
   // Declarations
   /// @brief Field pressPoint, offset 0x118, size 0x4
-  __declspec(property(get = __get_pressPoint, put = __set_pressPoint)) float_t pressPoint;
+  __declspec(property(get = __cordl_internal_get_pressPoint, put = __cordl_internal_set_pressPoint)) float_t pressPoint;
 
   /// @brief Field s_GlobalDefaultButtonPressPoint, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_GlobalDefaultButtonPressPoint, put = setStaticF_s_GlobalDefaultButtonPressPoint)) float_t s_GlobalDefaultButtonPressPoint;
@@ -38,11 +38,11 @@ public:
 
   __declspec(property(get = get_wasReleasedThisFrame)) bool wasReleasedThisFrame;
 
-  constexpr float_t& __get_pressPoint();
+  constexpr float_t& __cordl_internal_get_pressPoint();
 
-  constexpr float_t const& __get_pressPoint() const;
+  constexpr float_t const& __cordl_internal_get_pressPoint() const;
 
-  constexpr void __set_pressPoint(float_t value);
+  constexpr void __cordl_internal_set_pressPoint(float_t value);
 
   static inline void setStaticF_s_GlobalDefaultButtonPressPoint(float_t value);
 

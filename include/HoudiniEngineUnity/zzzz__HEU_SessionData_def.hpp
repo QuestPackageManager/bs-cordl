@@ -34,40 +34,40 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_SessionData);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9728)), TypeDefinitionIndex(TypeDefinitionIndex(9783)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9782))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9784)) CS Name: ::HoudiniEngineUnity::HEU_SessionData*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9728)), TypeDefinitionIndex(TypeDefinitionIndex(9782)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9783))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9784)) CS Name: ::HoudiniEngineUnity::HEU_SessionData*
 class CORDL_TYPE HEU_SessionData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _HAPISession, offset 0x10, size 0x10
-  __declspec(property(get = __get__HAPISession, put = __set__HAPISession))::HoudiniEngineUnity::HAPI_Session _HAPISession;
+  __declspec(property(get = __cordl_internal_get__HAPISession, put = __cordl_internal_set__HAPISession))::HoudiniEngineUnity::HAPI_Session _HAPISession;
 
   /// @brief Field _serverProcessID, offset 0x20, size 0x4
-  __declspec(property(get = __get__serverProcessID, put = __set__serverProcessID)) int32_t _serverProcessID;
+  __declspec(property(get = __cordl_internal_get__serverProcessID, put = __cordl_internal_set__serverProcessID)) int32_t _serverProcessID;
 
   /// @brief Field _initialized, offset 0x24, size 0x1
-  __declspec(property(get = __get__initialized, put = __set__initialized)) bool _initialized;
+  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
   /// @brief Field _pipeName, offset 0x28, size 0x8
-  __declspec(property(get = __get__pipeName, put = __set__pipeName))::StringW _pipeName;
+  __declspec(property(get = __cordl_internal_get__pipeName, put = __cordl_internal_set__pipeName))::StringW _pipeName;
 
   /// @brief Field _port, offset 0x30, size 0x4
-  __declspec(property(get = __get__port, put = __set__port)) int32_t _port;
+  __declspec(property(get = __cordl_internal_get__port, put = __cordl_internal_set__port)) int32_t _port;
 
   /// @brief Field _sessionClassType, offset 0x38, size 0x8
-  __declspec(property(get = __get__sessionClassType, put = __set__sessionClassType))::StringW _sessionClassType;
+  __declspec(property(get = __cordl_internal_get__sessionClassType, put = __cordl_internal_set__sessionClassType))::StringW _sessionClassType;
 
   /// @brief Field _isDefaultSession, offset 0x40, size 0x1
-  __declspec(property(get = __get__isDefaultSession, put = __set__isDefaultSession)) bool _isDefaultSession;
+  __declspec(property(get = __cordl_internal_get__isDefaultSession, put = __cordl_internal_set__isDefaultSession)) bool _isDefaultSession;
 
   /// @brief Field _sessionSync, offset 0x48, size 0x8
-  __declspec(property(get = __get__sessionSync, put = __set__sessionSync))::HoudiniEngineUnity::HEU_SessionSyncData* _sessionSync;
+  __declspec(property(get = __cordl_internal_get__sessionSync, put = __cordl_internal_set__sessionSync))::HoudiniEngineUnity::HEU_SessionSyncData* _sessionSync;
 
   /// @brief Field _connectionState, offset 0x50, size 0x4
-  __declspec(property(get = __get__connectionState, put = __set__connectionState))::HoudiniEngineUnity::SessionConnectionState _connectionState;
+  __declspec(property(get = __cordl_internal_get__connectionState, put = __cordl_internal_set__connectionState))::HoudiniEngineUnity::SessionConnectionState _connectionState;
 
   /// @brief Field _sessionMode, offset 0x54, size 0x4
-  __declspec(property(get = __get__sessionMode, put = __set__sessionMode))::HoudiniEngineUnity::SessionMode _sessionMode;
+  __declspec(property(get = __cordl_internal_get__sessionMode, put = __cordl_internal_set__sessionMode))::HoudiniEngineUnity::SessionMode _sessionMode;
 
   /// @brief Field INVALID_SESSION_ID, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_INVALID_SESSION_ID, put = setStaticF_INVALID_SESSION_ID)) int64_t INVALID_SESSION_ID;
@@ -96,65 +96,65 @@ public:
 
   __declspec(property(get = get_ThisSessionMode, put = set_ThisSessionMode))::HoudiniEngineUnity::SessionMode ThisSessionMode;
 
-  constexpr ::HoudiniEngineUnity::HAPI_Session& __get__HAPISession();
+  constexpr ::HoudiniEngineUnity::HAPI_Session& __cordl_internal_get__HAPISession();
 
-  constexpr ::HoudiniEngineUnity::HAPI_Session const& __get__HAPISession() const;
+  constexpr ::HoudiniEngineUnity::HAPI_Session const& __cordl_internal_get__HAPISession() const;
 
-  constexpr void __set__HAPISession(::HoudiniEngineUnity::HAPI_Session value);
+  constexpr void __cordl_internal_set__HAPISession(::HoudiniEngineUnity::HAPI_Session value);
 
-  constexpr int32_t& __get__serverProcessID();
+  constexpr int32_t& __cordl_internal_get__serverProcessID();
 
-  constexpr int32_t const& __get__serverProcessID() const;
+  constexpr int32_t const& __cordl_internal_get__serverProcessID() const;
 
-  constexpr void __set__serverProcessID(int32_t value);
+  constexpr void __cordl_internal_set__serverProcessID(int32_t value);
 
-  constexpr bool& __get__initialized();
+  constexpr bool& __cordl_internal_get__initialized();
 
-  constexpr bool const& __get__initialized() const;
+  constexpr bool const& __cordl_internal_get__initialized() const;
 
-  constexpr void __set__initialized(bool value);
+  constexpr void __cordl_internal_set__initialized(bool value);
 
-  constexpr ::StringW& __get__pipeName();
+  constexpr ::StringW& __cordl_internal_get__pipeName();
 
-  constexpr ::StringW const& __get__pipeName() const;
+  constexpr ::StringW const& __cordl_internal_get__pipeName() const;
 
-  constexpr void __set__pipeName(::StringW value);
+  constexpr void __cordl_internal_set__pipeName(::StringW value);
 
-  constexpr int32_t& __get__port();
+  constexpr int32_t& __cordl_internal_get__port();
 
-  constexpr int32_t const& __get__port() const;
+  constexpr int32_t const& __cordl_internal_get__port() const;
 
-  constexpr void __set__port(int32_t value);
+  constexpr void __cordl_internal_set__port(int32_t value);
 
-  constexpr ::StringW& __get__sessionClassType();
+  constexpr ::StringW& __cordl_internal_get__sessionClassType();
 
-  constexpr ::StringW const& __get__sessionClassType() const;
+  constexpr ::StringW const& __cordl_internal_get__sessionClassType() const;
 
-  constexpr void __set__sessionClassType(::StringW value);
+  constexpr void __cordl_internal_set__sessionClassType(::StringW value);
 
-  constexpr bool& __get__isDefaultSession();
+  constexpr bool& __cordl_internal_get__isDefaultSession();
 
-  constexpr bool const& __get__isDefaultSession() const;
+  constexpr bool const& __cordl_internal_get__isDefaultSession() const;
 
-  constexpr void __set__isDefaultSession(bool value);
+  constexpr void __cordl_internal_set__isDefaultSession(bool value);
 
-  constexpr ::HoudiniEngineUnity::HEU_SessionSyncData*& __get__sessionSync();
+  constexpr ::HoudiniEngineUnity::HEU_SessionSyncData*& __cordl_internal_get__sessionSync();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_SessionSyncData*> const& __get__sessionSync() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_SessionSyncData*> const& __cordl_internal_get__sessionSync() const;
 
-  constexpr void __set__sessionSync(::HoudiniEngineUnity::HEU_SessionSyncData* value);
+  constexpr void __cordl_internal_set__sessionSync(::HoudiniEngineUnity::HEU_SessionSyncData* value);
 
-  constexpr ::HoudiniEngineUnity::SessionConnectionState& __get__connectionState();
+  constexpr ::HoudiniEngineUnity::SessionConnectionState& __cordl_internal_get__connectionState();
 
-  constexpr ::HoudiniEngineUnity::SessionConnectionState const& __get__connectionState() const;
+  constexpr ::HoudiniEngineUnity::SessionConnectionState const& __cordl_internal_get__connectionState() const;
 
-  constexpr void __set__connectionState(::HoudiniEngineUnity::SessionConnectionState value);
+  constexpr void __cordl_internal_set__connectionState(::HoudiniEngineUnity::SessionConnectionState value);
 
-  constexpr ::HoudiniEngineUnity::SessionMode& __get__sessionMode();
+  constexpr ::HoudiniEngineUnity::SessionMode& __cordl_internal_get__sessionMode();
 
-  constexpr ::HoudiniEngineUnity::SessionMode const& __get__sessionMode() const;
+  constexpr ::HoudiniEngineUnity::SessionMode const& __cordl_internal_get__sessionMode() const;
 
-  constexpr void __set__sessionMode(::HoudiniEngineUnity::SessionMode value);
+  constexpr void __cordl_internal_set__sessionMode(::HoudiniEngineUnity::SessionMode value);
 
   static inline void setStaticF_INVALID_SESSION_ID(int64_t value);
 

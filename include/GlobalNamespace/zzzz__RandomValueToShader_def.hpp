@@ -15,23 +15,23 @@ MARK_REF_PTR_T(::GlobalNamespace::RandomValueToShader);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14495))
 // CS Name: ::RandomValueToShader*
 class CORDL_TYPE RandomValueToShader : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _lastFrameNum, offset 0x18, size 0x4
-  __declspec(property(get = __get__lastFrameNum, put = __set__lastFrameNum)) int32_t _lastFrameNum;
+  __declspec(property(get = __cordl_internal_get__lastFrameNum, put = __cordl_internal_set__lastFrameNum)) int32_t _lastFrameNum;
 
   /// @brief Field _randomValueID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__randomValueID, put = setStaticF__randomValueID)) int32_t _randomValueID;
 
-  constexpr int32_t& __get__lastFrameNum();
+  constexpr int32_t& __cordl_internal_get__lastFrameNum();
 
-  constexpr int32_t const& __get__lastFrameNum() const;
+  constexpr int32_t const& __cordl_internal_get__lastFrameNum() const;
 
-  constexpr void __set__lastFrameNum(int32_t value);
+  constexpr void __cordl_internal_set__lastFrameNum(int32_t value);
 
   static inline void setStaticF__randomValueID(int32_t value);
 

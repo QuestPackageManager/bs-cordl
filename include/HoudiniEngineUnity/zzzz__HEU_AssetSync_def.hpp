@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9791))
 // CS Name: ::HEU_AssetSync::AssetSyncCallback*
 class CORDL_TYPE __HEU_AssetSync__AssetSyncCallback : public ::System::MulticastDelegate {
@@ -95,7 +95,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_AssetS
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9793))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9793))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9792))
 // CS Name: ::HoudiniEngineUnity::HEU_AssetSync*
 class CORDL_TYPE HEU_AssetSync : public ::HoudiniEngineUnity::HEU_BaseSync {
@@ -104,22 +104,22 @@ public:
   using AssetSyncCallback = ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback;
 
   /// @brief Field _onAssetLoaded, offset 0x80, size 0x8
-  __declspec(property(get = __get__onAssetLoaded, put = __set__onAssetLoaded))::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback* _onAssetLoaded;
+  __declspec(property(get = __cordl_internal_get__onAssetLoaded, put = __cordl_internal_set__onAssetLoaded))::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback* _onAssetLoaded;
 
   /// @brief Field _assetPath, offset 0x88, size 0x8
-  __declspec(property(get = __get__assetPath, put = __set__assetPath))::StringW _assetPath;
+  __declspec(property(get = __cordl_internal_get__assetPath, put = __cordl_internal_set__assetPath))::StringW _assetPath;
 
-  constexpr ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*& __get__onAssetLoaded();
+  constexpr ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*& __cordl_internal_get__onAssetLoaded();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*> const& __get__onAssetLoaded() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*> const& __cordl_internal_get__onAssetLoaded() const;
 
-  constexpr void __set__onAssetLoaded(::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback* value);
+  constexpr void __cordl_internal_set__onAssetLoaded(::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback* value);
 
-  constexpr ::StringW& __get__assetPath();
+  constexpr ::StringW& __cordl_internal_get__assetPath();
 
-  constexpr ::StringW const& __get__assetPath() const;
+  constexpr ::StringW const& __cordl_internal_get__assetPath() const;
 
-  constexpr void __set__assetPath(::StringW value);
+  constexpr void __cordl_internal_set__assetPath(::StringW value);
 
   /// @brief Method OnEnable, addr 0x21a53f0, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();

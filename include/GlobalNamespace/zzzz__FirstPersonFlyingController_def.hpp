@@ -38,137 +38,138 @@ MARK_REF_PTR_T(::GlobalNamespace::FirstPersonFlyingController);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10102))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10102)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5835))
 // CS Name: ::FirstPersonFlyingController*
 class CORDL_TYPE FirstPersonFlyingController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _moveSensitivity, offset 0x18, size 0x4
-  __declspec(property(get = __get__moveSensitivity, put = __set__moveSensitivity)) float_t _moveSensitivity;
+  __declspec(property(get = __cordl_internal_get__moveSensitivity, put = __cordl_internal_set__moveSensitivity)) float_t _moveSensitivity;
 
   /// @brief Field _transform, offset 0x20, size 0x8
-  __declspec(property(get = __get__transform, put = __set__transform))::UnityEngine::Transform* _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
   /// @brief Field _camera, offset 0x28, size 0x8
-  __declspec(property(get = __get__camera, put = __set__camera))::UnityEngine::Camera* _camera;
+  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera))::UnityW<::UnityEngine::Camera> _camera;
 
   /// @brief Field _cameraFov, offset 0x30, size 0x4
-  __declspec(property(get = __get__cameraFov, put = __set__cameraFov)) float_t _cameraFov;
+  __declspec(property(get = __cordl_internal_get__cameraFov, put = __cordl_internal_set__cameraFov)) float_t _cameraFov;
 
   /// @brief Field _centerAdjust, offset 0x38, size 0x8
-  __declspec(property(get = __get__centerAdjust, put = __set__centerAdjust))::GlobalNamespace::VRCenterAdjust* _centerAdjust;
+  __declspec(property(get = __cordl_internal_get__centerAdjust, put = __cordl_internal_set__centerAdjust))::UnityW<::GlobalNamespace::VRCenterAdjust> _centerAdjust;
 
   /// @brief Field _controller0, offset 0x40, size 0x8
-  __declspec(property(get = __get__controller0, put = __set__controller0))::GlobalNamespace::VRController* _controller0;
+  __declspec(property(get = __cordl_internal_get__controller0, put = __cordl_internal_set__controller0))::UnityW<::GlobalNamespace::VRController> _controller0;
 
   /// @brief Field _controller1, offset 0x48, size 0x8
-  __declspec(property(get = __get__controller1, put = __set__controller1))::GlobalNamespace::VRController* _controller1;
+  __declspec(property(get = __cordl_internal_get__controller1, put = __cordl_internal_set__controller1))::UnityW<::GlobalNamespace::VRController> _controller1;
 
   /// @brief Field _controllerModels, offset 0x50, size 0x8
-  __declspec(property(get = __get__controllerModels, put = __set__controllerModels))::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> _controllerModels;
+  __declspec(property(get = __cordl_internal_get__controllerModels,
+                      put = __cordl_internal_set__controllerModels))::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> _controllerModels;
 
   /// @brief Field _mouseLook, offset 0x58, size 0x8
-  __declspec(property(get = __get__mouseLook, put = __set__mouseLook))::GlobalNamespace::MouseLook* _mouseLook;
+  __declspec(property(get = __cordl_internal_get__mouseLook, put = __cordl_internal_set__mouseLook))::GlobalNamespace::MouseLook* _mouseLook;
 
   /// @brief Field _trackedPoseDriver, offset 0x60, size 0x8
-  __declspec(property(get = __get__trackedPoseDriver, put = __set__trackedPoseDriver))::UnityEngine::SpatialTracking::TrackedPoseDriver* _trackedPoseDriver;
+  __declspec(property(get = __cordl_internal_get__trackedPoseDriver, put = __cordl_internal_set__trackedPoseDriver))::UnityW<::UnityEngine::SpatialTracking::TrackedPoseDriver> _trackedPoseDriver;
 
   /// @brief Field _shouldBeEnabled, offset 0x68, size 0x1
-  __declspec(property(get = __get__shouldBeEnabled, put = __set__shouldBeEnabled)) bool _shouldBeEnabled;
+  __declspec(property(get = __cordl_internal_get__shouldBeEnabled, put = __cordl_internal_set__shouldBeEnabled)) bool _shouldBeEnabled;
 
   /// @brief Field _cameraTransform, offset 0x70, size 0x8
-  __declspec(property(get = __get__cameraTransform, put = __set__cameraTransform))::UnityEngine::Transform* _cameraTransform;
+  __declspec(property(get = __cordl_internal_get__cameraTransform, put = __cordl_internal_set__cameraTransform))::UnityW<::UnityEngine::Transform> _cameraTransform;
 
   /// @brief Field _originalStereoTargetEyeMask, offset 0x78, size 0x4
-  __declspec(property(get = __get__originalStereoTargetEyeMask, put = __set__originalStereoTargetEyeMask))::UnityEngine::StereoTargetEyeMask _originalStereoTargetEyeMask;
+  __declspec(property(get = __cordl_internal_get__originalStereoTargetEyeMask, put = __cordl_internal_set__originalStereoTargetEyeMask))::UnityEngine::StereoTargetEyeMask _originalStereoTargetEyeMask;
 
   /// @brief Field _originalCameraFov, offset 0x7c, size 0x4
-  __declspec(property(get = __get__originalCameraFov, put = __set__originalCameraFov)) float_t _originalCameraFov;
+  __declspec(property(get = __cordl_internal_get__originalCameraFov, put = __cordl_internal_set__originalCameraFov)) float_t _originalCameraFov;
 
-  constexpr float_t& __get__moveSensitivity();
+  constexpr float_t& __cordl_internal_get__moveSensitivity();
 
-  constexpr float_t const& __get__moveSensitivity() const;
+  constexpr float_t const& __cordl_internal_get__moveSensitivity() const;
 
-  constexpr void __set__moveSensitivity(float_t value);
+  constexpr void __cordl_internal_set__moveSensitivity(float_t value);
 
-  constexpr ::UnityEngine::Transform*& __get__transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr void __set__transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Camera*& __get__camera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get__camera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
 
-  constexpr void __set__camera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr float_t& __get__cameraFov();
+  constexpr float_t& __cordl_internal_get__cameraFov();
 
-  constexpr float_t const& __get__cameraFov() const;
+  constexpr float_t const& __cordl_internal_get__cameraFov() const;
 
-  constexpr void __set__cameraFov(float_t value);
+  constexpr void __cordl_internal_set__cameraFov(float_t value);
 
-  constexpr ::GlobalNamespace::VRCenterAdjust*& __get__centerAdjust();
+  constexpr ::UnityW<::GlobalNamespace::VRCenterAdjust>& __cordl_internal_get__centerAdjust();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VRCenterAdjust*> const& __get__centerAdjust() const;
+  constexpr ::UnityW<::GlobalNamespace::VRCenterAdjust> const& __cordl_internal_get__centerAdjust() const;
 
-  constexpr void __set__centerAdjust(::GlobalNamespace::VRCenterAdjust* value);
+  constexpr void __cordl_internal_set__centerAdjust(::UnityW<::GlobalNamespace::VRCenterAdjust> value);
 
-  constexpr ::GlobalNamespace::VRController*& __get__controller0();
+  constexpr ::UnityW<::GlobalNamespace::VRController>& __cordl_internal_get__controller0();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VRController*> const& __get__controller0() const;
+  constexpr ::UnityW<::GlobalNamespace::VRController> const& __cordl_internal_get__controller0() const;
 
-  constexpr void __set__controller0(::GlobalNamespace::VRController* value);
+  constexpr void __cordl_internal_set__controller0(::UnityW<::GlobalNamespace::VRController> value);
 
-  constexpr ::GlobalNamespace::VRController*& __get__controller1();
+  constexpr ::UnityW<::GlobalNamespace::VRController>& __cordl_internal_get__controller1();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::VRController*> const& __get__controller1() const;
+  constexpr ::UnityW<::GlobalNamespace::VRController> const& __cordl_internal_get__controller1() const;
 
-  constexpr void __set__controller1(::GlobalNamespace::VRController* value);
+  constexpr void __cordl_internal_set__controller1(::UnityW<::GlobalNamespace::VRController> value);
 
-  constexpr ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>& __get__controllerModels();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>& __cordl_internal_get__controllerModels();
 
-  constexpr ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> const& __get__controllerModels() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__controllerModels() const;
 
-  constexpr void __set__controllerModels(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> value);
+  constexpr void __cordl_internal_set__controllerModels(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  constexpr ::GlobalNamespace::MouseLook*& __get__mouseLook();
+  constexpr ::GlobalNamespace::MouseLook*& __cordl_internal_get__mouseLook();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MouseLook*> const& __get__mouseLook() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MouseLook*> const& __cordl_internal_get__mouseLook() const;
 
-  constexpr void __set__mouseLook(::GlobalNamespace::MouseLook* value);
+  constexpr void __cordl_internal_set__mouseLook(::GlobalNamespace::MouseLook* value);
 
-  constexpr ::UnityEngine::SpatialTracking::TrackedPoseDriver*& __get__trackedPoseDriver();
+  constexpr ::UnityW<::UnityEngine::SpatialTracking::TrackedPoseDriver>& __cordl_internal_get__trackedPoseDriver();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SpatialTracking::TrackedPoseDriver*> const& __get__trackedPoseDriver() const;
+  constexpr ::UnityW<::UnityEngine::SpatialTracking::TrackedPoseDriver> const& __cordl_internal_get__trackedPoseDriver() const;
 
-  constexpr void __set__trackedPoseDriver(::UnityEngine::SpatialTracking::TrackedPoseDriver* value);
+  constexpr void __cordl_internal_set__trackedPoseDriver(::UnityW<::UnityEngine::SpatialTracking::TrackedPoseDriver> value);
 
-  constexpr bool& __get__shouldBeEnabled();
+  constexpr bool& __cordl_internal_get__shouldBeEnabled();
 
-  constexpr bool const& __get__shouldBeEnabled() const;
+  constexpr bool const& __cordl_internal_get__shouldBeEnabled() const;
 
-  constexpr void __set__shouldBeEnabled(bool value);
+  constexpr void __cordl_internal_set__shouldBeEnabled(bool value);
 
-  constexpr ::UnityEngine::Transform*& __get__cameraTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__cameraTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__cameraTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__cameraTransform() const;
 
-  constexpr void __set__cameraTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__cameraTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::StereoTargetEyeMask& __get__originalStereoTargetEyeMask();
+  constexpr ::UnityEngine::StereoTargetEyeMask& __cordl_internal_get__originalStereoTargetEyeMask();
 
-  constexpr ::UnityEngine::StereoTargetEyeMask const& __get__originalStereoTargetEyeMask() const;
+  constexpr ::UnityEngine::StereoTargetEyeMask const& __cordl_internal_get__originalStereoTargetEyeMask() const;
 
-  constexpr void __set__originalStereoTargetEyeMask(::UnityEngine::StereoTargetEyeMask value);
+  constexpr void __cordl_internal_set__originalStereoTargetEyeMask(::UnityEngine::StereoTargetEyeMask value);
 
-  constexpr float_t& __get__originalCameraFov();
+  constexpr float_t& __cordl_internal_get__originalCameraFov();
 
-  constexpr float_t const& __get__originalCameraFov() const;
+  constexpr float_t const& __cordl_internal_get__originalCameraFov() const;
 
-  constexpr void __set__originalCameraFov(float_t value);
+  constexpr void __cordl_internal_set__originalCameraFov(float_t value);
 
   /// @brief Method Awake, addr 0x22ed928, size 0xc, virtual false, abstract: false, final false
   inline void Awake();
@@ -209,37 +210,37 @@ public:
   float_t ____moveSensitivity;
 
   /// @brief Field _transform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____transform;
+  ::UnityW<::UnityEngine::Transform> ____transform;
 
   /// @brief Field _camera, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Camera* ____camera;
+  ::UnityW<::UnityEngine::Camera> ____camera;
 
   /// @brief Field _cameraFov, offset: 0x30, size: 0x4, def value: None
   float_t ____cameraFov;
 
   /// @brief Field _centerAdjust, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::VRCenterAdjust* ____centerAdjust;
+  ::UnityW<::GlobalNamespace::VRCenterAdjust> ____centerAdjust;
 
   /// @brief Field _controller0, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::VRController* ____controller0;
+  ::UnityW<::GlobalNamespace::VRController> ____controller0;
 
   /// @brief Field _controller1, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::VRController* ____controller1;
+  ::UnityW<::GlobalNamespace::VRController> ____controller1;
 
   /// @brief Field _controllerModels, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> ____controllerModels;
+  ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> ____controllerModels;
 
   /// @brief Field _mouseLook, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::MouseLook* ____mouseLook;
 
   /// @brief Field _trackedPoseDriver, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::SpatialTracking::TrackedPoseDriver* ____trackedPoseDriver;
+  ::UnityW<::UnityEngine::SpatialTracking::TrackedPoseDriver> ____trackedPoseDriver;
 
   /// @brief Field _shouldBeEnabled, offset: 0x68, size: 0x1, def value: None
   bool ____shouldBeEnabled;
 
   /// @brief Field _cameraTransform, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____cameraTransform;
+  ::UnityW<::UnityEngine::Transform> ____cameraTransform;
 
   /// @brief Field _originalStereoTargetEyeMask, offset: 0x78, size: 0x4, def value: None
   ::UnityEngine::StereoTargetEyeMask ____originalStereoTargetEyeMask;

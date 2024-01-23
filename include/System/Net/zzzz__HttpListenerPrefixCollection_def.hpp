@@ -38,17 +38,17 @@ MARK_REF_PTR_T(::System::Net::HttpListenerPrefixCollection);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9174))
 // CS Name: ::System.Net::HttpListenerPrefixCollection*
 class CORDL_TYPE HttpListenerPrefixCollection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field prefixes, offset 0x10, size 0x8
-  __declspec(property(get = __get_prefixes, put = __set_prefixes))::System::Collections::Generic::List_1<::StringW>* prefixes;
+  __declspec(property(get = __cordl_internal_get_prefixes, put = __cordl_internal_set_prefixes))::System::Collections::Generic::List_1<::StringW>* prefixes;
 
   /// @brief Field listener, offset 0x18, size 0x8
-  __declspec(property(get = __get_listener, put = __set_listener))::System::Net::HttpListener* listener;
+  __declspec(property(get = __cordl_internal_get_listener, put = __cordl_internal_set_listener))::System::Net::HttpListener* listener;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -72,17 +72,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_prefixes();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_prefixes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_prefixes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_prefixes() const;
 
-  constexpr void __set_prefixes(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_prefixes(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Net::HttpListener*& __get_listener();
+  constexpr ::System::Net::HttpListener*& __cordl_internal_get_listener();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& __get_listener() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListener*> const& __cordl_internal_get_listener() const;
 
-  constexpr void __set_listener(::System::Net::HttpListener* value);
+  constexpr void __cordl_internal_set_listener(::System::Net::HttpListener* value);
 
   static inline ::System::Net::HttpListenerPrefixCollection* New_ctor(::System::Net::HttpListener* listener);
 

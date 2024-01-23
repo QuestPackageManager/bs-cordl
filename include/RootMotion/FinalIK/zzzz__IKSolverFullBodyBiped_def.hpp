@@ -58,29 +58,29 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKSolverFullBodyBiped);
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 252, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12570))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12570))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12573))
 // CS Name: ::RootMotion.FinalIK::IKSolverFullBodyBiped*
 class CORDL_TYPE IKSolverFullBodyBiped : public ::RootMotion::FinalIK::IKSolverFullBody {
 public:
   // Declarations
   /// @brief Field rootNode, offset 0xd0, size 0x8
-  __declspec(property(get = __get_rootNode, put = __set_rootNode))::UnityEngine::Transform* rootNode;
+  __declspec(property(get = __cordl_internal_get_rootNode, put = __cordl_internal_set_rootNode))::UnityW<::UnityEngine::Transform> rootNode;
 
   /// @brief Field spineStiffness, offset 0xd8, size 0x4
-  __declspec(property(get = __get_spineStiffness, put = __set_spineStiffness)) float_t spineStiffness;
+  __declspec(property(get = __cordl_internal_get_spineStiffness, put = __cordl_internal_set_spineStiffness)) float_t spineStiffness;
 
   /// @brief Field pullBodyVertical, offset 0xdc, size 0x4
-  __declspec(property(get = __get_pullBodyVertical, put = __set_pullBodyVertical)) float_t pullBodyVertical;
+  __declspec(property(get = __cordl_internal_get_pullBodyVertical, put = __cordl_internal_set_pullBodyVertical)) float_t pullBodyVertical;
 
   /// @brief Field pullBodyHorizontal, offset 0xe0, size 0x4
-  __declspec(property(get = __get_pullBodyHorizontal, put = __set_pullBodyHorizontal)) float_t pullBodyHorizontal;
+  __declspec(property(get = __cordl_internal_get_pullBodyHorizontal, put = __cordl_internal_set_pullBodyHorizontal)) float_t pullBodyHorizontal;
 
   /// @brief Field <pullBodyOffset>k__BackingField, offset 0xe4, size 0xc
-  __declspec(property(get = __get__pullBodyOffset_k__BackingField, put = __set__pullBodyOffset_k__BackingField))::UnityEngine::Vector3 _pullBodyOffset_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__pullBodyOffset_k__BackingField, put = __cordl_internal_set__pullBodyOffset_k__BackingField))::UnityEngine::Vector3 _pullBodyOffset_k__BackingField;
 
   /// @brief Field offset, offset 0xf0, size 0xc
-  __declspec(property(get = __get_offset, put = __set_offset))::UnityEngine::Vector3 offset;
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset))::UnityEngine::Vector3 offset;
 
   __declspec(property(get = get_bodyEffector))::RootMotion::FinalIK::IKEffector* bodyEffector;
 
@@ -120,41 +120,41 @@ public:
 
   __declspec(property(get = get_pullBodyOffset, put = set_pullBodyOffset))::UnityEngine::Vector3 pullBodyOffset;
 
-  constexpr ::UnityEngine::Transform*& __get_rootNode();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rootNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_rootNode() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rootNode() const;
 
-  constexpr void __set_rootNode(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_rootNode(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get_spineStiffness();
+  constexpr float_t& __cordl_internal_get_spineStiffness();
 
-  constexpr float_t const& __get_spineStiffness() const;
+  constexpr float_t const& __cordl_internal_get_spineStiffness() const;
 
-  constexpr void __set_spineStiffness(float_t value);
+  constexpr void __cordl_internal_set_spineStiffness(float_t value);
 
-  constexpr float_t& __get_pullBodyVertical();
+  constexpr float_t& __cordl_internal_get_pullBodyVertical();
 
-  constexpr float_t const& __get_pullBodyVertical() const;
+  constexpr float_t const& __cordl_internal_get_pullBodyVertical() const;
 
-  constexpr void __set_pullBodyVertical(float_t value);
+  constexpr void __cordl_internal_set_pullBodyVertical(float_t value);
 
-  constexpr float_t& __get_pullBodyHorizontal();
+  constexpr float_t& __cordl_internal_get_pullBodyHorizontal();
 
-  constexpr float_t const& __get_pullBodyHorizontal() const;
+  constexpr float_t const& __cordl_internal_get_pullBodyHorizontal() const;
 
-  constexpr void __set_pullBodyHorizontal(float_t value);
+  constexpr void __cordl_internal_set_pullBodyHorizontal(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get__pullBodyOffset_k__BackingField();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__pullBodyOffset_k__BackingField();
 
-  constexpr ::UnityEngine::Vector3 const& __get__pullBodyOffset_k__BackingField() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__pullBodyOffset_k__BackingField() const;
 
-  constexpr void __set__pullBodyOffset_k__BackingField(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__pullBodyOffset_k__BackingField(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_offset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_offset();
 
-  constexpr ::UnityEngine::Vector3 const& __get_offset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_offset() const;
 
-  constexpr void __set_offset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_offset(::UnityEngine::Vector3 value);
 
   /// @brief Method get_bodyEffector, addr 0x1267430, size 0x8, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::IKEffector* get_bodyEffector();
@@ -250,7 +250,7 @@ public:
   inline void SetToReferences(::RootMotion::BipedReferences* references, ::UnityEngine::Transform* rootNode);
 
   /// @brief Method DetectRootNodeBone, addr 0x1268d7c, size 0x450, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* DetectRootNodeBone(::RootMotion::BipedReferences* references);
+  static inline ::UnityW<::UnityEngine::Transform> DetectRootNodeBone(::RootMotion::BipedReferences* references);
 
   /// @brief Method SetLimbOrientations, addr 0x126932c, size 0x5c, virtual false, abstract: false, final false
   inline void SetLimbOrientations(::RootMotion::BipedLimbOrientations* o);
@@ -265,10 +265,10 @@ public:
   inline void SetLimbOrientation(::RootMotion::FinalIK::FullBodyBipedChain chain, ::RootMotion::__BipedLimbOrientations__LimbOrientation* limbOrientation);
 
   /// @brief Method GetLeftClavicle, addr 0x12691cc, size 0xb0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* GetLeftClavicle(::RootMotion::BipedReferences* references);
+  static inline ::UnityW<::UnityEngine::Transform> GetLeftClavicle(::RootMotion::BipedReferences* references);
 
   /// @brief Method GetRightClavicle, addr 0x126927c, size 0xb0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* GetRightClavicle(::RootMotion::BipedReferences* references);
+  static inline ::UnityW<::UnityEngine::Transform> GetRightClavicle(::RootMotion::BipedReferences* references);
 
   /// @brief Method Contains, addr 0x1269498, size 0xc4, virtual false, abstract: false, final false
   static inline bool Contains(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> array, ::UnityEngine::Transform* transform);
@@ -311,7 +311,7 @@ protected:
 
 public:
   /// @brief Field rootNode, offset: 0xd0, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___rootNode;
+  ::UnityW<::UnityEngine::Transform> ___rootNode;
 
   /// @brief Field spineStiffness, offset: 0xd8, size: 0x4, def value: None
   float_t ___spineStiffness;

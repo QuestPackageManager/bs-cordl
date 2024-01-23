@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::GlobalNamespace::ScoreMissionObjectiveChecker);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5098))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5098))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5097))
 // CS Name: ::ScoreMissionObjectiveChecker*
 class CORDL_TYPE ScoreMissionObjectiveChecker : public ::GlobalNamespace::SimpleValueMissionObjectiveChecker {
 public:
   // Declarations
   /// @brief Field _scoreController, offset 0x48, size 0x8
-  __declspec(property(get = __get__scoreController, put = __set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
+  __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
 
-  constexpr ::GlobalNamespace::IScoreController*& __get__scoreController();
+  constexpr ::GlobalNamespace::IScoreController*& __cordl_internal_get__scoreController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __get__scoreController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __cordl_internal_get__scoreController() const;
 
-  constexpr void __set__scoreController(::GlobalNamespace::IScoreController* value);
+  constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
   /// @brief Method OnDestroy, addr 0x23cd3f0, size 0x108, virtual false, abstract: false, final false
   inline void OnDestroy();

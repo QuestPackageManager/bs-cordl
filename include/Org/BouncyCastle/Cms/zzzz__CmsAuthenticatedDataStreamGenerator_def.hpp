@@ -49,56 +49,56 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::__CmsAuthenticatedDataStreamGenerator__
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(484))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(622))
 // CS Name: ::CmsAuthenticatedDataStreamGenerator::CmsAuthenticatedDataOutputStream*
 class CORDL_TYPE __CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
   // Declarations
   /// @brief Field macStream, offset 0x30, size 0x8
-  __declspec(property(get = __get_macStream, put = __set_macStream))::System::IO::Stream* macStream;
+  __declspec(property(get = __cordl_internal_get_macStream, put = __cordl_internal_set_macStream))::System::IO::Stream* macStream;
 
   /// @brief Field mac, offset 0x38, size 0x8
-  __declspec(property(get = __get_mac, put = __set_mac))::Org::BouncyCastle::Crypto::IMac* mac;
+  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac))::Org::BouncyCastle::Crypto::IMac* mac;
 
   /// @brief Field cGen, offset 0x40, size 0x8
-  __declspec(property(get = __get_cGen, put = __set_cGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* cGen;
+  __declspec(property(get = __cordl_internal_get_cGen, put = __cordl_internal_set_cGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* cGen;
 
   /// @brief Field authGen, offset 0x48, size 0x8
-  __declspec(property(get = __get_authGen, put = __set_authGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* authGen;
+  __declspec(property(get = __cordl_internal_get_authGen, put = __cordl_internal_set_authGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* authGen;
 
   /// @brief Field eiGen, offset 0x50, size 0x8
-  __declspec(property(get = __get_eiGen, put = __set_eiGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen;
+  __declspec(property(get = __cordl_internal_get_eiGen, put = __cordl_internal_set_eiGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* eiGen;
 
-  constexpr ::System::IO::Stream*& __get_macStream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_macStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_macStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_macStream() const;
 
-  constexpr void __set_macStream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_macStream(::System::IO::Stream* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IMac*& __get_mac();
+  constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_mac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __get_mac() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __cordl_internal_get_mac() const;
 
-  constexpr void __set_mac(::Org::BouncyCastle::Crypto::IMac* value);
+  constexpr void __cordl_internal_set_mac(::Org::BouncyCastle::Crypto::IMac* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __get_cGen();
+  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __cordl_internal_get_cGen();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __get_cGen() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __cordl_internal_get_cGen() const;
 
-  constexpr void __set_cGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
+  constexpr void __cordl_internal_set_cGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __get_authGen();
+  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __cordl_internal_get_authGen();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __get_authGen() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __cordl_internal_get_authGen() const;
 
-  constexpr void __set_authGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
+  constexpr void __cordl_internal_set_authGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __get_eiGen();
+  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __cordl_internal_get_eiGen();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __get_eiGen() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __cordl_internal_get_eiGen() const;
 
-  constexpr void __set_eiGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
+  constexpr void __cordl_internal_set_eiGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
 
   static inline ::Org::BouncyCastle::Cms::__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream* New_ctor(::System::IO::Stream* macStream, ::Org::BouncyCastle::Crypto::IMac* mac,
                                                                                                                             ::Org::BouncyCastle::Asn1::BerSequenceGenerator* cGen,
@@ -167,7 +167,7 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsAuthenticatedDataStreamGen
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(618))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(618))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(623))
 // CS Name: ::Org.BouncyCastle.Cms::CmsAuthenticatedDataStreamGenerator*
 class CORDL_TYPE CmsAuthenticatedDataStreamGenerator : public ::Org::BouncyCastle::Cms::CmsAuthenticatedGenerator {
@@ -176,22 +176,22 @@ public:
   using CmsAuthenticatedDataOutputStream = ::Org::BouncyCastle::Cms::__CmsAuthenticatedDataStreamGenerator__CmsAuthenticatedDataOutputStream;
 
   /// @brief Field _bufferSize, offset 0x28, size 0x4
-  __declspec(property(get = __get__bufferSize, put = __set__bufferSize)) int32_t _bufferSize;
+  __declspec(property(get = __cordl_internal_get__bufferSize, put = __cordl_internal_set__bufferSize)) int32_t _bufferSize;
 
   /// @brief Field _berEncodeRecipientSet, offset 0x2c, size 0x1
-  __declspec(property(get = __get__berEncodeRecipientSet, put = __set__berEncodeRecipientSet)) bool _berEncodeRecipientSet;
+  __declspec(property(get = __cordl_internal_get__berEncodeRecipientSet, put = __cordl_internal_set__berEncodeRecipientSet)) bool _berEncodeRecipientSet;
 
-  constexpr int32_t& __get__bufferSize();
+  constexpr int32_t& __cordl_internal_get__bufferSize();
 
-  constexpr int32_t const& __get__bufferSize() const;
+  constexpr int32_t const& __cordl_internal_get__bufferSize() const;
 
-  constexpr void __set__bufferSize(int32_t value);
+  constexpr void __cordl_internal_set__bufferSize(int32_t value);
 
-  constexpr bool& __get__berEncodeRecipientSet();
+  constexpr bool& __cordl_internal_get__berEncodeRecipientSet();
 
-  constexpr bool const& __get__berEncodeRecipientSet() const;
+  constexpr bool const& __cordl_internal_get__berEncodeRecipientSet() const;
 
-  constexpr void __set__berEncodeRecipientSet(bool value);
+  constexpr void __cordl_internal_set__berEncodeRecipientSet(bool value);
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthenticatedDataStreamGenerator* New_ctor();
 

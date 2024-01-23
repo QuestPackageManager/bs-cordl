@@ -35,20 +35,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::V2Form);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(398))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::V2Form*
 class CORDL_TYPE V2Form : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field issuerName, offset 0x10, size 0x8
-  __declspec(property(get = __get_issuerName, put = __set_issuerName))::Org::BouncyCastle::Asn1::X509::GeneralNames* issuerName;
+  __declspec(property(get = __cordl_internal_get_issuerName, put = __cordl_internal_set_issuerName))::Org::BouncyCastle::Asn1::X509::GeneralNames* issuerName;
 
   /// @brief Field baseCertificateID, offset 0x18, size 0x8
-  __declspec(property(get = __get_baseCertificateID, put = __set_baseCertificateID))::Org::BouncyCastle::Asn1::X509::IssuerSerial* baseCertificateID;
+  __declspec(property(get = __cordl_internal_get_baseCertificateID, put = __cordl_internal_set_baseCertificateID))::Org::BouncyCastle::Asn1::X509::IssuerSerial* baseCertificateID;
 
   /// @brief Field objectDigestInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get_objectDigestInfo, put = __set_objectDigestInfo))::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* objectDigestInfo;
+  __declspec(property(get = __cordl_internal_get_objectDigestInfo, put = __cordl_internal_set_objectDigestInfo))::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* objectDigestInfo;
 
   __declspec(property(get = get_IssuerName))::Org::BouncyCastle::Asn1::X509::GeneralNames* IssuerName;
 
@@ -56,23 +56,23 @@ public:
 
   __declspec(property(get = get_ObjectDigestInfo))::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* ObjectDigestInfo;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames*& __get_issuerName();
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames*& __cordl_internal_get_issuerName();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralNames*> const& __get_issuerName() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralNames*> const& __cordl_internal_get_issuerName() const;
 
-  constexpr void __set_issuerName(::Org::BouncyCastle::Asn1::X509::GeneralNames* value);
+  constexpr void __cordl_internal_set_issuerName(::Org::BouncyCastle::Asn1::X509::GeneralNames* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial*& __get_baseCertificateID();
+  constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial*& __cordl_internal_get_baseCertificateID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::IssuerSerial*> const& __get_baseCertificateID() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::IssuerSerial*> const& __cordl_internal_get_baseCertificateID() const;
 
-  constexpr void __set_baseCertificateID(::Org::BouncyCastle::Asn1::X509::IssuerSerial* value);
+  constexpr void __cordl_internal_set_baseCertificateID(::Org::BouncyCastle::Asn1::X509::IssuerSerial* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo*& __get_objectDigestInfo();
+  constexpr ::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo*& __cordl_internal_get_objectDigestInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo*> const& __get_objectDigestInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo*> const& __cordl_internal_get_objectDigestInfo() const;
 
-  constexpr void __set_objectDigestInfo(::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* value);
+  constexpr void __cordl_internal_set_objectDigestInfo(::Org::BouncyCastle::Asn1::X509::ObjectDigestInfo* value);
 
   /// @brief Method GetInstance, addr 0x119b248, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::V2Form* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);

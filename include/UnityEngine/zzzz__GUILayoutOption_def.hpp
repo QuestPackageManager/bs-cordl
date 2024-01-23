@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::UnityEngine::GUILayoutOption);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14629))
 // CS Name: ::GUILayoutOption::Type
 struct CORDL_TYPE __GUILayoutOption__Type {
@@ -125,7 +125,7 @@ static_assert(offsetof(::UnityEngine::__GUILayoutOption__Type, value__) == 0x0, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14629))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14629))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14630))
 // CS Name: ::UnityEngine::GUILayoutOption*
 class CORDL_TYPE GUILayoutOption : public ::System::Object {
@@ -134,22 +134,22 @@ public:
   using Type = ::UnityEngine::__GUILayoutOption__Type;
 
   /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __get_type, put = __set_type))::UnityEngine::__GUILayoutOption__Type type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::UnityEngine::__GUILayoutOption__Type type;
 
   /// @brief Field value, offset 0x18, size 0x8
-  __declspec(property(get = __get_value, put = __set_value))::System::Object* value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::System::Object* value;
 
-  constexpr ::UnityEngine::__GUILayoutOption__Type& __get_type();
+  constexpr ::UnityEngine::__GUILayoutOption__Type& __cordl_internal_get_type();
 
-  constexpr ::UnityEngine::__GUILayoutOption__Type const& __get_type() const;
+  constexpr ::UnityEngine::__GUILayoutOption__Type const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::UnityEngine::__GUILayoutOption__Type value);
+  constexpr void __cordl_internal_set_type(::UnityEngine::__GUILayoutOption__Type value);
 
-  constexpr ::System::Object*& __get_value();
+  constexpr ::System::Object*& __cordl_internal_get_value();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_value() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(::System::Object* value);
+  constexpr void __cordl_internal_set_value(::System::Object* value);
 
   static inline ::UnityEngine::GUILayoutOption* New_ctor(::UnityEngine::__GUILayoutOption__Type type, ::System::Object* value);
 

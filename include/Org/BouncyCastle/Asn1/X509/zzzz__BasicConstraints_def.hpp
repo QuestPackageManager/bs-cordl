@@ -40,31 +40,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::BasicConstraints);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(346))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::BasicConstraints*
 class CORDL_TYPE BasicConstraints : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field cA, offset 0x10, size 0x8
-  __declspec(property(get = __get_cA, put = __set_cA))::Org::BouncyCastle::Asn1::DerBoolean* cA;
+  __declspec(property(get = __cordl_internal_get_cA, put = __cordl_internal_set_cA))::Org::BouncyCastle::Asn1::DerBoolean* cA;
 
   /// @brief Field pathLenConstraint, offset 0x18, size 0x8
-  __declspec(property(get = __get_pathLenConstraint, put = __set_pathLenConstraint))::Org::BouncyCastle::Asn1::DerInteger* pathLenConstraint;
+  __declspec(property(get = __cordl_internal_get_pathLenConstraint, put = __cordl_internal_set_pathLenConstraint))::Org::BouncyCastle::Asn1::DerInteger* pathLenConstraint;
 
   __declspec(property(get = get_PathLenConstraint))::Org::BouncyCastle::Math::BigInteger* PathLenConstraint;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerBoolean*& __get_cA();
+  constexpr ::Org::BouncyCastle::Asn1::DerBoolean*& __cordl_internal_get_cA();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBoolean*> const& __get_cA() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBoolean*> const& __cordl_internal_get_cA() const;
 
-  constexpr void __set_cA(::Org::BouncyCastle::Asn1::DerBoolean* value);
+  constexpr void __cordl_internal_set_cA(::Org::BouncyCastle::Asn1::DerBoolean* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_pathLenConstraint();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_pathLenConstraint();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_pathLenConstraint() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_pathLenConstraint() const;
 
-  constexpr void __set_pathLenConstraint(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_pathLenConstraint(::Org::BouncyCastle::Asn1::DerInteger* value);
 
   /// @brief Method GetInstance, addr 0x1086524, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::BasicConstraints* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);

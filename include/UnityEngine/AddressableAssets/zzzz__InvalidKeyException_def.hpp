@@ -53,23 +53,24 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::InvalidKeyException);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14049)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
-// 4763 }), TypeDefinitionIndex(TypeDefinitionIndex(2561))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14048)) CS Name: ::UnityEngine.AddressableAssets::InvalidKeyException*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2561)), TypeDefinitionIndex(TypeDefinitionIndex(14049)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4763 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14048)) CS Name:
+// ::UnityEngine.AddressableAssets::InvalidKeyException*
 class CORDL_TYPE InvalidKeyException : public ::System::Exception {
 public:
   // Declarations
   /// @brief Field <Key>k__BackingField, offset 0x90, size 0x8
-  __declspec(property(get = __get__Key_k__BackingField, put = __set__Key_k__BackingField))::System::Object* _Key_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Key_k__BackingField, put = __cordl_internal_set__Key_k__BackingField))::System::Object* _Key_k__BackingField;
 
   /// @brief Field <Type>k__BackingField, offset 0x98, size 0x8
-  __declspec(property(get = __get__Type_k__BackingField, put = __set__Type_k__BackingField))::System::Type* _Type_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Type_k__BackingField, put = __cordl_internal_set__Type_k__BackingField))::System::Type* _Type_k__BackingField;
 
   /// @brief Field <MergeMode>k__BackingField, offset 0xa0, size 0x8
-  __declspec(property(get = __get__MergeMode_k__BackingField,
-                      put = __set__MergeMode_k__BackingField))::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode> _MergeMode_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MergeMode_k__BackingField,
+                      put = __cordl_internal_set__MergeMode_k__BackingField))::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode> _MergeMode_k__BackingField;
 
   /// @brief Field m_Addressables, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_Addressables, put = __set_m_Addressables))::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
+  __declspec(property(get = __cordl_internal_get_m_Addressables, put = __cordl_internal_set_m_Addressables))::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
 
   __declspec(property(get = get_Key, put = set_Key))::System::Object* Key;
 
@@ -79,29 +80,29 @@ public:
 
   __declspec(property(get = get_Message))::StringW Message;
 
-  constexpr ::System::Object*& __get__Key_k__BackingField();
+  constexpr ::System::Object*& __cordl_internal_get__Key_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__Key_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__Key_k__BackingField() const;
 
-  constexpr void __set__Key_k__BackingField(::System::Object* value);
+  constexpr void __cordl_internal_set__Key_k__BackingField(::System::Object* value);
 
-  constexpr ::System::Type*& __get__Type_k__BackingField();
+  constexpr ::System::Type*& __cordl_internal_get__Type_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__Type_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__Type_k__BackingField() const;
 
-  constexpr void __set__Type_k__BackingField(::System::Type* value);
+  constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  constexpr ::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode>& __get__MergeMode_k__BackingField();
+  constexpr ::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode>& __cordl_internal_get__MergeMode_k__BackingField();
 
-  constexpr ::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode> const& __get__MergeMode_k__BackingField() const;
+  constexpr ::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode> const& __cordl_internal_get__MergeMode_k__BackingField() const;
 
-  constexpr void __set__MergeMode_k__BackingField(::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode> value);
+  constexpr void __cordl_internal_set__MergeMode_k__BackingField(::System::Nullable_1<::UnityEngine::AddressableAssets::__Addressables__MergeMode> value);
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get_m_Addressables();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get_m_Addressables();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get_m_Addressables() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get_m_Addressables() const;
 
-  constexpr void __set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
   /// @brief Method get_Key, addr 0x2a100b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Key();

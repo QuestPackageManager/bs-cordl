@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::Pkcs5Scheme2PbeKey);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(642))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(642))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(684))
 // CS Name: ::Org.BouncyCastle.Cms::Pkcs5Scheme2PbeKey*
 class CORDL_TYPE Pkcs5Scheme2PbeKey : public ::Org::BouncyCastle::Cms::CmsPbeKey {

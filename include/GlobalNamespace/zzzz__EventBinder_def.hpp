@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::GlobalNamespace::EventBinder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14365))
 // CS Name: ::EventBinder*
 class CORDL_TYPE EventBinder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _unsubscribes, offset 0x10, size 0x8
-  __declspec(property(get = __get__unsubscribes, put = __set__unsubscribes))::System::Collections::Generic::List_1<::System::Action*>* _unsubscribes;
+  __declspec(property(get = __cordl_internal_get__unsubscribes, put = __cordl_internal_set__unsubscribes))::System::Collections::Generic::List_1<::System::Action*>* _unsubscribes;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Action*>*& __get__unsubscribes();
+  constexpr ::System::Collections::Generic::List_1<::System::Action*>*& __cordl_internal_get__unsubscribes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Action*>*> const& __get__unsubscribes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Action*>*> const& __cordl_internal_get__unsubscribes() const;
 
-  constexpr void __set__unsubscribes(::System::Collections::Generic::List_1<::System::Action*>* value);
+  constexpr void __cordl_internal_set__unsubscribes(::System::Collections::Generic::List_1<::System::Action*>* value);
 
   /// @brief Method Bind, addr 0x20f2584, size 0xcc, virtual false, abstract: false, final false
   inline void Bind(::System::Action* subscribe, ::System::Action* unsubscribe);

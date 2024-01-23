@@ -44,29 +44,29 @@ MARK_REF_PTR_T(::Zenject::ZenjectSceneLoader);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11363))
 // CS Name: ::Zenject::ZenjectSceneLoader*
 class CORDL_TYPE ZenjectSceneLoader : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _projectKernel, offset 0x10, size 0x8
-  __declspec(property(get = __get__projectKernel, put = __set__projectKernel))::Zenject::ProjectKernel* _projectKernel;
+  __declspec(property(get = __cordl_internal_get__projectKernel, put = __cordl_internal_set__projectKernel))::UnityW<::Zenject::ProjectKernel> _projectKernel;
 
   /// @brief Field _sceneContainer, offset 0x18, size 0x8
-  __declspec(property(get = __get__sceneContainer, put = __set__sceneContainer))::Zenject::DiContainer* _sceneContainer;
+  __declspec(property(get = __cordl_internal_get__sceneContainer, put = __cordl_internal_set__sceneContainer))::Zenject::DiContainer* _sceneContainer;
 
-  constexpr ::Zenject::ProjectKernel*& __get__projectKernel();
+  constexpr ::UnityW<::Zenject::ProjectKernel>& __cordl_internal_get__projectKernel();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::ProjectKernel*> const& __get__projectKernel() const;
+  constexpr ::UnityW<::Zenject::ProjectKernel> const& __cordl_internal_get__projectKernel() const;
 
-  constexpr void __set__projectKernel(::Zenject::ProjectKernel* value);
+  constexpr void __cordl_internal_set__projectKernel(::UnityW<::Zenject::ProjectKernel> value);
 
-  constexpr ::Zenject::DiContainer*& __get__sceneContainer();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__sceneContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__sceneContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__sceneContainer() const;
 
-  constexpr void __set__sceneContainer(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__sceneContainer(::Zenject::DiContainer* value);
 
   static inline ::Zenject::ZenjectSceneLoader* New_ctor(::Zenject::SceneContext* sceneRoot, ::Zenject::ProjectKernel* projectKernel);
 
@@ -168,7 +168,7 @@ protected:
 
 public:
   /// @brief Field _projectKernel, offset: 0x10, size: 0x8, def value: None
-  ::Zenject::ProjectKernel* ____projectKernel;
+  ::UnityW<::Zenject::ProjectKernel> ____projectKernel;
 
   /// @brief Field _sceneContainer, offset: 0x18, size: 0x8, def value: None
   ::Zenject::DiContainer* ____sceneContainer;

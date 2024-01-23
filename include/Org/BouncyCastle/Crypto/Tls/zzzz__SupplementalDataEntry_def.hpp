@@ -16,33 +16,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1284))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SupplementalDataEntry*
 class CORDL_TYPE SupplementalDataEntry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mDataType, offset 0x10, size 0x4
-  __declspec(property(get = __get_mDataType, put = __set_mDataType)) int32_t mDataType;
+  __declspec(property(get = __cordl_internal_get_mDataType, put = __cordl_internal_set_mDataType)) int32_t mDataType;
 
   /// @brief Field mData, offset 0x18, size 0x8
-  __declspec(property(get = __get_mData, put = __set_mData))::ArrayW<uint8_t, ::Array<uint8_t>*> mData;
+  __declspec(property(get = __cordl_internal_get_mData, put = __cordl_internal_set_mData))::ArrayW<uint8_t, ::Array<uint8_t>*> mData;
 
   __declspec(property(get = get_DataType)) int32_t DataType;
 
   __declspec(property(get = get_Data))::ArrayW<uint8_t, ::Array<uint8_t>*> Data;
 
-  constexpr int32_t& __get_mDataType();
+  constexpr int32_t& __cordl_internal_get_mDataType();
 
-  constexpr int32_t const& __get_mDataType() const;
+  constexpr int32_t const& __cordl_internal_get_mDataType() const;
 
-  constexpr void __set_mDataType(int32_t value);
+  constexpr void __cordl_internal_set_mDataType(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mData();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mData();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mData() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mData() const;
 
-  constexpr void __set_mData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SupplementalDataEntry* New_ctor(int32_t dataType, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 

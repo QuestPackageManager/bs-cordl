@@ -19,65 +19,65 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::BodyTilt);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12656)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12656))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12636))
 // CS Name: ::RootMotion.FinalIK::BodyTilt*
 class CORDL_TYPE BodyTilt : public ::RootMotion::FinalIK::OffsetModifier {
 public:
   // Declarations
   /// @brief Field tiltSpeed, offset 0x2c, size 0x4
-  __declspec(property(get = __get_tiltSpeed, put = __set_tiltSpeed)) float_t tiltSpeed;
+  __declspec(property(get = __cordl_internal_get_tiltSpeed, put = __cordl_internal_set_tiltSpeed)) float_t tiltSpeed;
 
   /// @brief Field tiltSensitivity, offset 0x30, size 0x4
-  __declspec(property(get = __get_tiltSensitivity, put = __set_tiltSensitivity)) float_t tiltSensitivity;
+  __declspec(property(get = __cordl_internal_get_tiltSensitivity, put = __cordl_internal_set_tiltSensitivity)) float_t tiltSensitivity;
 
   /// @brief Field poseLeft, offset 0x38, size 0x8
-  __declspec(property(get = __get_poseLeft, put = __set_poseLeft))::RootMotion::FinalIK::OffsetPose* poseLeft;
+  __declspec(property(get = __cordl_internal_get_poseLeft, put = __cordl_internal_set_poseLeft))::UnityW<::RootMotion::FinalIK::OffsetPose> poseLeft;
 
   /// @brief Field poseRight, offset 0x40, size 0x8
-  __declspec(property(get = __get_poseRight, put = __set_poseRight))::RootMotion::FinalIK::OffsetPose* poseRight;
+  __declspec(property(get = __cordl_internal_get_poseRight, put = __cordl_internal_set_poseRight))::UnityW<::RootMotion::FinalIK::OffsetPose> poseRight;
 
   /// @brief Field tiltAngle, offset 0x48, size 0x4
-  __declspec(property(get = __get_tiltAngle, put = __set_tiltAngle)) float_t tiltAngle;
+  __declspec(property(get = __cordl_internal_get_tiltAngle, put = __cordl_internal_set_tiltAngle)) float_t tiltAngle;
 
   /// @brief Field lastForward, offset 0x4c, size 0xc
-  __declspec(property(get = __get_lastForward, put = __set_lastForward))::UnityEngine::Vector3 lastForward;
+  __declspec(property(get = __cordl_internal_get_lastForward, put = __cordl_internal_set_lastForward))::UnityEngine::Vector3 lastForward;
 
-  constexpr float_t& __get_tiltSpeed();
+  constexpr float_t& __cordl_internal_get_tiltSpeed();
 
-  constexpr float_t const& __get_tiltSpeed() const;
+  constexpr float_t const& __cordl_internal_get_tiltSpeed() const;
 
-  constexpr void __set_tiltSpeed(float_t value);
+  constexpr void __cordl_internal_set_tiltSpeed(float_t value);
 
-  constexpr float_t& __get_tiltSensitivity();
+  constexpr float_t& __cordl_internal_get_tiltSensitivity();
 
-  constexpr float_t const& __get_tiltSensitivity() const;
+  constexpr float_t const& __cordl_internal_get_tiltSensitivity() const;
 
-  constexpr void __set_tiltSensitivity(float_t value);
+  constexpr void __cordl_internal_set_tiltSensitivity(float_t value);
 
-  constexpr ::RootMotion::FinalIK::OffsetPose*& __get_poseLeft();
+  constexpr ::UnityW<::RootMotion::FinalIK::OffsetPose>& __cordl_internal_get_poseLeft();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::OffsetPose*> const& __get_poseLeft() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::OffsetPose> const& __cordl_internal_get_poseLeft() const;
 
-  constexpr void __set_poseLeft(::RootMotion::FinalIK::OffsetPose* value);
+  constexpr void __cordl_internal_set_poseLeft(::UnityW<::RootMotion::FinalIK::OffsetPose> value);
 
-  constexpr ::RootMotion::FinalIK::OffsetPose*& __get_poseRight();
+  constexpr ::UnityW<::RootMotion::FinalIK::OffsetPose>& __cordl_internal_get_poseRight();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::OffsetPose*> const& __get_poseRight() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::OffsetPose> const& __cordl_internal_get_poseRight() const;
 
-  constexpr void __set_poseRight(::RootMotion::FinalIK::OffsetPose* value);
+  constexpr void __cordl_internal_set_poseRight(::UnityW<::RootMotion::FinalIK::OffsetPose> value);
 
-  constexpr float_t& __get_tiltAngle();
+  constexpr float_t& __cordl_internal_get_tiltAngle();
 
-  constexpr float_t const& __get_tiltAngle() const;
+  constexpr float_t const& __cordl_internal_get_tiltAngle() const;
 
-  constexpr void __set_tiltAngle(float_t value);
+  constexpr void __cordl_internal_set_tiltAngle(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get_lastForward();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_lastForward();
 
-  constexpr ::UnityEngine::Vector3 const& __get_lastForward() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastForward() const;
 
-  constexpr void __set_lastForward(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_lastForward(::UnityEngine::Vector3 value);
 
   /// @brief Method Start, addr 0x1294a2c, size 0x48, virtual true, abstract: false, final false
   inline void Start();
@@ -111,10 +111,10 @@ public:
   float_t ___tiltSensitivity;
 
   /// @brief Field poseLeft, offset: 0x38, size: 0x8, def value: None
-  ::RootMotion::FinalIK::OffsetPose* ___poseLeft;
+  ::UnityW<::RootMotion::FinalIK::OffsetPose> ___poseLeft;
 
   /// @brief Field poseRight, offset: 0x40, size: 0x8, def value: None
-  ::RootMotion::FinalIK::OffsetPose* ___poseRight;
+  ::UnityW<::RootMotion::FinalIK::OffsetPose> ___poseRight;
 
   /// @brief Field tiltAngle, offset: 0x48, size: 0x4, def value: None
   float_t ___tiltAngle;

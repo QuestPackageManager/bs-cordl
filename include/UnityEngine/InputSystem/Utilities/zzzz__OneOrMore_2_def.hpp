@@ -50,7 +50,7 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue, typename TList>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6697))
 // CS Name: ::UnityEngine.InputSystem.Utilities::OneOrMore`2<TValue,TList>
 struct CORDL_TYPE OneOrMore_2 {
@@ -140,16 +140,16 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue, typename TList>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6697), inst: 4802 }), TypeDefinitionIndex(TypeDefinitionIndex(6697)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6696)) CS Name: ::OneOrMore`2::Enumerator<TValue,TList>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6697)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6697), inst: 4802
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6696)) CS Name: ::OneOrMore`2::Enumerator<TValue,TList>*
 class CORDL_TYPE __OneOrMore_2__Enumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Index, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_Index, put = __set_m_Index)) int32_t m_Index;
+  __declspec(property(get = __cordl_internal_get_m_Index, put = __cordl_internal_set_m_Index)) int32_t m_Index;
 
   /// @brief Field m_List, offset 0x18, size 0x18
-  __declspec(property(get = __get_m_List, put = __set_m_List))::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList> m_List;
+  __declspec(property(get = __cordl_internal_get_m_List, put = __cordl_internal_set_m_List))::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList> m_List;
 
   __declspec(property(get = get_Current)) TValue Current;
 
@@ -173,17 +173,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get_m_Index();
+  constexpr int32_t& __cordl_internal_get_m_Index();
 
-  constexpr int32_t const& __get_m_Index() const;
+  constexpr int32_t const& __cordl_internal_get_m_Index() const;
 
-  constexpr void __set_m_Index(int32_t value);
+  constexpr void __cordl_internal_set_m_Index(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>& __get_m_List();
+  constexpr ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList>& __cordl_internal_get_m_List();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList> const& __get_m_List() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList> const& __cordl_internal_get_m_List() const;
 
-  constexpr void __set_m_List(::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList> value);
+  constexpr void __cordl_internal_set_m_List(::UnityEngine::InputSystem::Utilities::OneOrMore_2<TValue, TList> value);
 
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();

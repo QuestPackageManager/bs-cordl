@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::UnityEngineInternal::TypeInferenceRuleAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngineInternal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9962))
 // CS Name: ::UnityEngineInternal::TypeInferenceRuleAttribute*
 class CORDL_TYPE TypeInferenceRuleAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field _rule, offset 0x10, size 0x8
-  __declspec(property(get = __get__rule, put = __set__rule))::StringW _rule;
+  __declspec(property(get = __cordl_internal_get__rule, put = __cordl_internal_set__rule))::StringW _rule;
 
-  constexpr ::StringW& __get__rule();
+  constexpr ::StringW& __cordl_internal_get__rule();
 
-  constexpr ::StringW const& __get__rule() const;
+  constexpr ::StringW const& __cordl_internal_get__rule() const;
 
-  constexpr void __set__rule(::StringW value);
+  constexpr void __cordl_internal_set__rule(::StringW value);
 
   static inline ::UnityEngineInternal::TypeInferenceRuleAttribute* New_ctor(::UnityEngineInternal::TypeInferenceRules rule);
 

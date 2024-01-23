@@ -24,20 +24,20 @@ MARK_REF_PTR_T(::System::Xml::XmlNotation);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11520))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11520))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11524))
 // CS Name: ::System.Xml::XmlNotation*
 class CORDL_TYPE XmlNotation : public ::System::Xml::XmlNode {
 public:
   // Declarations
   /// @brief Field publicId, offset 0x18, size 0x8
-  __declspec(property(get = __get_publicId, put = __set_publicId))::StringW publicId;
+  __declspec(property(get = __cordl_internal_get_publicId, put = __cordl_internal_set_publicId))::StringW publicId;
 
   /// @brief Field systemId, offset 0x20, size 0x8
-  __declspec(property(get = __get_systemId, put = __set_systemId))::StringW systemId;
+  __declspec(property(get = __cordl_internal_get_systemId, put = __cordl_internal_set_systemId))::StringW systemId;
 
   /// @brief Field name, offset 0x28, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   __declspec(property(get = get_Name))::StringW Name;
 
@@ -49,23 +49,23 @@ public:
 
   __declspec(property(put = set_InnerXml))::StringW InnerXml;
 
-  constexpr ::StringW& __get_publicId();
+  constexpr ::StringW& __cordl_internal_get_publicId();
 
-  constexpr ::StringW const& __get_publicId() const;
+  constexpr ::StringW const& __cordl_internal_get_publicId() const;
 
-  constexpr void __set_publicId(::StringW value);
+  constexpr void __cordl_internal_set_publicId(::StringW value);
 
-  constexpr ::StringW& __get_systemId();
+  constexpr ::StringW& __cordl_internal_get_systemId();
 
-  constexpr ::StringW const& __get_systemId() const;
+  constexpr ::StringW const& __cordl_internal_get_systemId() const;
 
-  constexpr void __set_systemId(::StringW value);
+  constexpr void __cordl_internal_set_systemId(::StringW value);
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
   static inline ::System::Xml::XmlNotation* New_ctor(::StringW name, ::StringW publicId, ::StringW systemId, ::System::Xml::XmlDocument* doc);
 

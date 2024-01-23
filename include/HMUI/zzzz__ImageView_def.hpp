@@ -60,7 +60,7 @@ MARK_REF_PTR_T(::HMUI::ImageView);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13626))
 // CS Name: ::ImageView::GradientDirection
 struct CORDL_TYPE __ImageView__GradientDirection {
@@ -110,8 +110,8 @@ static_assert(offsetof(::HMUI::__ImageView__GradientDirection, value__) == 0x0, 
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13626)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(13055)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13055)), TypeDefinitionIndex(TypeDefinitionIndex(13626))] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(13627)) CS Name: ::HMUI::ImageView*
 class CORDL_TYPE ImageView : public ::UnityEngine::UI::Image {
 public:
@@ -119,37 +119,37 @@ public:
   using GradientDirection = ::HMUI::__ImageView__GradientDirection;
 
   /// @brief Field _useScriptableObjectColors, offset 0x108, size 0x1
-  __declspec(property(get = __get__useScriptableObjectColors, put = __set__useScriptableObjectColors)) bool _useScriptableObjectColors;
+  __declspec(property(get = __cordl_internal_get__useScriptableObjectColors, put = __cordl_internal_set__useScriptableObjectColors)) bool _useScriptableObjectColors;
 
   /// @brief Field _colorSo, offset 0x110, size 0x8
-  __declspec(property(get = __get__colorSo, put = __set__colorSo))::GlobalNamespace::ColorSO* _colorSo;
+  __declspec(property(get = __cordl_internal_get__colorSo, put = __cordl_internal_set__colorSo))::UnityW<::GlobalNamespace::ColorSO> _colorSo;
 
   /// @brief Field _color0So, offset 0x118, size 0x8
-  __declspec(property(get = __get__color0So, put = __set__color0So))::GlobalNamespace::ColorSO* _color0So;
+  __declspec(property(get = __cordl_internal_get__color0So, put = __cordl_internal_set__color0So))::UnityW<::GlobalNamespace::ColorSO> _color0So;
 
   /// @brief Field _color1So, offset 0x120, size 0x8
-  __declspec(property(get = __get__color1So, put = __set__color1So))::GlobalNamespace::ColorSO* _color1So;
+  __declspec(property(get = __cordl_internal_get__color1So, put = __cordl_internal_set__color1So))::UnityW<::GlobalNamespace::ColorSO> _color1So;
 
   /// @brief Field _skew, offset 0x128, size 0x4
-  __declspec(property(get = __get__skew, put = __set__skew)) float_t _skew;
+  __declspec(property(get = __cordl_internal_get__skew, put = __cordl_internal_set__skew)) float_t _skew;
 
   /// @brief Field _gradient, offset 0x12c, size 0x1
-  __declspec(property(get = __get__gradient, put = __set__gradient)) bool _gradient;
+  __declspec(property(get = __cordl_internal_get__gradient, put = __cordl_internal_set__gradient)) bool _gradient;
 
   /// @brief Field _color0, offset 0x130, size 0x10
-  __declspec(property(get = __get__color0, put = __set__color0))::UnityEngine::Color _color0;
+  __declspec(property(get = __cordl_internal_get__color0, put = __cordl_internal_set__color0))::UnityEngine::Color _color0;
 
   /// @brief Field _color1, offset 0x140, size 0x10
-  __declspec(property(get = __get__color1, put = __set__color1))::UnityEngine::Color _color1;
+  __declspec(property(get = __cordl_internal_get__color1, put = __cordl_internal_set__color1))::UnityEngine::Color _color1;
 
   /// @brief Field _gradientDirection, offset 0x150, size 0x4
-  __declspec(property(get = __get__gradientDirection, put = __set__gradientDirection))::HMUI::__ImageView__GradientDirection _gradientDirection;
+  __declspec(property(get = __cordl_internal_get__gradientDirection, put = __cordl_internal_set__gradientDirection))::HMUI::__ImageView__GradientDirection _gradientDirection;
 
   /// @brief Field _flipGradientColors, offset 0x154, size 0x1
-  __declspec(property(get = __get__flipGradientColors, put = __set__flipGradientColors)) bool _flipGradientColors;
+  __declspec(property(get = __cordl_internal_get__flipGradientColors, put = __cordl_internal_set__flipGradientColors)) bool _flipGradientColors;
 
   /// @brief Field _curvedCanvasSettingsHelper, offset 0x158, size 0x8
-  __declspec(property(get = __get__curvedCanvasSettingsHelper, put = __set__curvedCanvasSettingsHelper))::HMUI::CurvedCanvasSettingsHelper* _curvedCanvasSettingsHelper;
+  __declspec(property(get = __cordl_internal_get__curvedCanvasSettingsHelper, put = __cordl_internal_set__curvedCanvasSettingsHelper))::HMUI::CurvedCanvasSettingsHelper* _curvedCanvasSettingsHelper;
 
   /// @brief Field kVec2Zero, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_kVec2Zero, put = setStaticF_kVec2Zero))::UnityEngine::Vector2 kVec2Zero;
@@ -196,71 +196,71 @@ public:
   /// @brief Convert to "::GlobalNamespace::IComponentRefresher"
   constexpr ::GlobalNamespace::IComponentRefresher* i___GlobalNamespace__IComponentRefresher() noexcept;
 
-  constexpr bool& __get__useScriptableObjectColors();
+  constexpr bool& __cordl_internal_get__useScriptableObjectColors();
 
-  constexpr bool const& __get__useScriptableObjectColors() const;
+  constexpr bool const& __cordl_internal_get__useScriptableObjectColors() const;
 
-  constexpr void __set__useScriptableObjectColors(bool value);
+  constexpr void __cordl_internal_set__useScriptableObjectColors(bool value);
 
-  constexpr ::GlobalNamespace::ColorSO*& __get__colorSo();
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__colorSo();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& __get__colorSo() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__colorSo() const;
 
-  constexpr void __set__colorSo(::GlobalNamespace::ColorSO* value);
+  constexpr void __cordl_internal_set__colorSo(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  constexpr ::GlobalNamespace::ColorSO*& __get__color0So();
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__color0So();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& __get__color0So() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__color0So() const;
 
-  constexpr void __set__color0So(::GlobalNamespace::ColorSO* value);
+  constexpr void __cordl_internal_set__color0So(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  constexpr ::GlobalNamespace::ColorSO*& __get__color1So();
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__color1So();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& __get__color1So() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__color1So() const;
 
-  constexpr void __set__color1So(::GlobalNamespace::ColorSO* value);
+  constexpr void __cordl_internal_set__color1So(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  constexpr float_t& __get__skew();
+  constexpr float_t& __cordl_internal_get__skew();
 
-  constexpr float_t const& __get__skew() const;
+  constexpr float_t const& __cordl_internal_get__skew() const;
 
-  constexpr void __set__skew(float_t value);
+  constexpr void __cordl_internal_set__skew(float_t value);
 
-  constexpr bool& __get__gradient();
+  constexpr bool& __cordl_internal_get__gradient();
 
-  constexpr bool const& __get__gradient() const;
+  constexpr bool const& __cordl_internal_get__gradient() const;
 
-  constexpr void __set__gradient(bool value);
+  constexpr void __cordl_internal_set__gradient(bool value);
 
-  constexpr ::UnityEngine::Color& __get__color0();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color0();
 
-  constexpr ::UnityEngine::Color const& __get__color0() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color0() const;
 
-  constexpr void __set__color0(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color0(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__color1();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color1();
 
-  constexpr ::UnityEngine::Color const& __get__color1() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color1() const;
 
-  constexpr void __set__color1(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color1(::UnityEngine::Color value);
 
-  constexpr ::HMUI::__ImageView__GradientDirection& __get__gradientDirection();
+  constexpr ::HMUI::__ImageView__GradientDirection& __cordl_internal_get__gradientDirection();
 
-  constexpr ::HMUI::__ImageView__GradientDirection const& __get__gradientDirection() const;
+  constexpr ::HMUI::__ImageView__GradientDirection const& __cordl_internal_get__gradientDirection() const;
 
-  constexpr void __set__gradientDirection(::HMUI::__ImageView__GradientDirection value);
+  constexpr void __cordl_internal_set__gradientDirection(::HMUI::__ImageView__GradientDirection value);
 
-  constexpr bool& __get__flipGradientColors();
+  constexpr bool& __cordl_internal_get__flipGradientColors();
 
-  constexpr bool const& __get__flipGradientColors() const;
+  constexpr bool const& __cordl_internal_get__flipGradientColors() const;
 
-  constexpr void __set__flipGradientColors(bool value);
+  constexpr void __cordl_internal_set__flipGradientColors(bool value);
 
-  constexpr ::HMUI::CurvedCanvasSettingsHelper*& __get__curvedCanvasSettingsHelper();
+  constexpr ::HMUI::CurvedCanvasSettingsHelper*& __cordl_internal_get__curvedCanvasSettingsHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedCanvasSettingsHelper*> const& __get__curvedCanvasSettingsHelper() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedCanvasSettingsHelper*> const& __cordl_internal_get__curvedCanvasSettingsHelper() const;
 
-  constexpr void __set__curvedCanvasSettingsHelper(::HMUI::CurvedCanvasSettingsHelper* value);
+  constexpr void __cordl_internal_set__curvedCanvasSettingsHelper(::HMUI::CurvedCanvasSettingsHelper* value);
 
   static inline void setStaticF_kVec2Zero(::UnityEngine::Vector2 value);
 
@@ -414,13 +414,13 @@ public:
   bool ____useScriptableObjectColors;
 
   /// @brief Field _colorSo, offset: 0x110, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSO* ____colorSo;
+  ::UnityW<::GlobalNamespace::ColorSO> ____colorSo;
 
   /// @brief Field _color0So, offset: 0x118, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSO* ____color0So;
+  ::UnityW<::GlobalNamespace::ColorSO> ____color0So;
 
   /// @brief Field _color1So, offset: 0x120, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSO* ____color1So;
+  ::UnityW<::GlobalNamespace::ColorSO> ____color1So;
 
   /// @brief Field _skew, offset: 0x128, size: 0x4, def value: None
   float_t ____skew;

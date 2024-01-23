@@ -25,7 +25,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::UseWindowsGamingInputCommand);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 9, calculated_native_size: 25, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6471))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6471))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6490))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::UseWindowsGamingInputCommand
 #pragma pack(push, 0)
@@ -33,10 +33,10 @@ struct CORDL_TYPE UseWindowsGamingInputCommand {
 public:
   // Declarations
   /// @brief Field baseCommand, offset 0x0, size 0x8
-  __declspec(property(get = __get_baseCommand, put = __set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
+  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
 
   /// @brief Field enable, offset 0x8, size 0x1
-  __declspec(property(get = __get_enable, put = __set_enable)) uint8_t enable;
+  __declspec(property(get = __cordl_internal_get_enable, put = __cordl_internal_set_enable)) uint8_t enable;
 
   __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
@@ -46,17 +46,17 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __get_baseCommand();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __get_baseCommand() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
 
-  constexpr void __set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
+  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
 
-  constexpr uint8_t& __get_enable();
+  constexpr uint8_t& __cordl_internal_get_enable();
 
-  constexpr uint8_t const& __get_enable() const;
+  constexpr uint8_t const& __cordl_internal_get_enable() const;
 
-  constexpr void __set_enable(uint8_t value);
+  constexpr void __cordl_internal_set_enable(uint8_t value);
 
   /// @brief Method get_Type, addr 0x2ae8540, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();

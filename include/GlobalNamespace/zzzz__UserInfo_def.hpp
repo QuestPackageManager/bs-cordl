@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::UserInfo);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15995))
 // CS Name: ::UserInfo::Platform
 struct CORDL_TYPE __UserInfo__Platform {
@@ -87,7 +87,7 @@ static_assert(offsetof(::GlobalNamespace::__UserInfo__Platform, value__) == 0x0,
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15995))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15995))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15996))
 // CS Name: ::UserInfo*
 class CORDL_TYPE UserInfo : public ::System::Object {
@@ -96,31 +96,31 @@ public:
   using Platform = ::GlobalNamespace::__UserInfo__Platform;
 
   /// @brief Field platform, offset 0x10, size 0x4
-  __declspec(property(get = __get_platform, put = __set_platform))::GlobalNamespace::__UserInfo__Platform platform;
+  __declspec(property(get = __cordl_internal_get_platform, put = __cordl_internal_set_platform))::GlobalNamespace::__UserInfo__Platform platform;
 
   /// @brief Field platformUserId, offset 0x18, size 0x8
-  __declspec(property(get = __get_platformUserId, put = __set_platformUserId))::StringW platformUserId;
+  __declspec(property(get = __cordl_internal_get_platformUserId, put = __cordl_internal_set_platformUserId))::StringW platformUserId;
 
   /// @brief Field userName, offset 0x20, size 0x8
-  __declspec(property(get = __get_userName, put = __set_userName))::StringW userName;
+  __declspec(property(get = __cordl_internal_get_userName, put = __cordl_internal_set_userName))::StringW userName;
 
-  constexpr ::GlobalNamespace::__UserInfo__Platform& __get_platform();
+  constexpr ::GlobalNamespace::__UserInfo__Platform& __cordl_internal_get_platform();
 
-  constexpr ::GlobalNamespace::__UserInfo__Platform const& __get_platform() const;
+  constexpr ::GlobalNamespace::__UserInfo__Platform const& __cordl_internal_get_platform() const;
 
-  constexpr void __set_platform(::GlobalNamespace::__UserInfo__Platform value);
+  constexpr void __cordl_internal_set_platform(::GlobalNamespace::__UserInfo__Platform value);
 
-  constexpr ::StringW& __get_platformUserId();
+  constexpr ::StringW& __cordl_internal_get_platformUserId();
 
-  constexpr ::StringW const& __get_platformUserId() const;
+  constexpr ::StringW const& __cordl_internal_get_platformUserId() const;
 
-  constexpr void __set_platformUserId(::StringW value);
+  constexpr void __cordl_internal_set_platformUserId(::StringW value);
 
-  constexpr ::StringW& __get_userName();
+  constexpr ::StringW& __cordl_internal_get_userName();
 
-  constexpr ::StringW const& __get_userName() const;
+  constexpr ::StringW const& __cordl_internal_get_userName() const;
 
-  constexpr void __set_userName(::StringW value);
+  constexpr void __cordl_internal_set_userName(::StringW value);
 
   static inline ::GlobalNamespace::UserInfo* New_ctor(::GlobalNamespace::__UserInfo__Platform platform, ::StringW platformUserId, ::StringW userName);
 

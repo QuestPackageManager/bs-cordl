@@ -21,38 +21,38 @@ MARK_REF_PTR_T(::System::IO::StringReader);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3582))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3582))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3623))
 // CS Name: ::System.IO::StringReader*
 class CORDL_TYPE StringReader : public ::System::IO::TextReader {
 public:
   // Declarations
   /// @brief Field _s, offset 0x18, size 0x8
-  __declspec(property(get = __get__s, put = __set__s))::StringW _s;
+  __declspec(property(get = __cordl_internal_get__s, put = __cordl_internal_set__s))::StringW _s;
 
   /// @brief Field _pos, offset 0x20, size 0x4
-  __declspec(property(get = __get__pos, put = __set__pos)) int32_t _pos;
+  __declspec(property(get = __cordl_internal_get__pos, put = __cordl_internal_set__pos)) int32_t _pos;
 
   /// @brief Field _length, offset 0x24, size 0x4
-  __declspec(property(get = __get__length, put = __set__length)) int32_t _length;
+  __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) int32_t _length;
 
-  constexpr ::StringW& __get__s();
+  constexpr ::StringW& __cordl_internal_get__s();
 
-  constexpr ::StringW const& __get__s() const;
+  constexpr ::StringW const& __cordl_internal_get__s() const;
 
-  constexpr void __set__s(::StringW value);
+  constexpr void __cordl_internal_set__s(::StringW value);
 
-  constexpr int32_t& __get__pos();
+  constexpr int32_t& __cordl_internal_get__pos();
 
-  constexpr int32_t const& __get__pos() const;
+  constexpr int32_t const& __cordl_internal_get__pos() const;
 
-  constexpr void __set__pos(int32_t value);
+  constexpr void __cordl_internal_set__pos(int32_t value);
 
-  constexpr int32_t& __get__length();
+  constexpr int32_t& __cordl_internal_get__length();
 
-  constexpr int32_t const& __get__length() const;
+  constexpr int32_t const& __cordl_internal_get__length() const;
 
-  constexpr void __set__length(int32_t value);
+  constexpr void __cordl_internal_set__length(int32_t value);
 
   static inline ::System::IO::StringReader* New_ctor(::StringW s);
 

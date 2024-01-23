@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::System::Net::__CookieCollection__CookieCollectionEnumerator);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9126))
 // CS Name: ::CookieCollection::Stamp
 struct CORDL_TYPE __CookieCollection__Stamp {
@@ -113,23 +113,23 @@ static_assert(offsetof(::System::Net::__CookieCollection__Stamp, value__) == 0x0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9127))
 // CS Name: ::CookieCollection::CookieCollectionEnumerator*
 class CORDL_TYPE __CookieCollection__CookieCollectionEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_cookies, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_cookies, put = __set_m_cookies))::System::Net::CookieCollection* m_cookies;
+  __declspec(property(get = __cordl_internal_get_m_cookies, put = __cordl_internal_set_m_cookies))::System::Net::CookieCollection* m_cookies;
 
   /// @brief Field m_count, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_count, put = __set_m_count)) int32_t m_count;
+  __declspec(property(get = __cordl_internal_get_m_count, put = __cordl_internal_set_m_count)) int32_t m_count;
 
   /// @brief Field m_index, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_index, put = __set_m_index)) int32_t m_index;
+  __declspec(property(get = __cordl_internal_get_m_index, put = __cordl_internal_set_m_index)) int32_t m_index;
 
   /// @brief Field m_version, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_version, put = __set_m_version)) int32_t m_version;
+  __declspec(property(get = __cordl_internal_get_m_version, put = __cordl_internal_set_m_version)) int32_t m_version;
 
   __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
 
@@ -139,29 +139,29 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::System::Net::CookieCollection*& __get_m_cookies();
+  constexpr ::System::Net::CookieCollection*& __cordl_internal_get_m_cookies();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieCollection*> const& __get_m_cookies() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieCollection*> const& __cordl_internal_get_m_cookies() const;
 
-  constexpr void __set_m_cookies(::System::Net::CookieCollection* value);
+  constexpr void __cordl_internal_set_m_cookies(::System::Net::CookieCollection* value);
 
-  constexpr int32_t& __get_m_count();
+  constexpr int32_t& __cordl_internal_get_m_count();
 
-  constexpr int32_t const& __get_m_count() const;
+  constexpr int32_t const& __cordl_internal_get_m_count() const;
 
-  constexpr void __set_m_count(int32_t value);
+  constexpr void __cordl_internal_set_m_count(int32_t value);
 
-  constexpr int32_t& __get_m_index();
+  constexpr int32_t& __cordl_internal_get_m_index();
 
-  constexpr int32_t const& __get_m_index() const;
+  constexpr int32_t const& __cordl_internal_get_m_index() const;
 
-  constexpr void __set_m_index(int32_t value);
+  constexpr void __cordl_internal_set_m_index(int32_t value);
 
-  constexpr int32_t& __get_m_version();
+  constexpr int32_t& __cordl_internal_get_m_version();
 
-  constexpr int32_t const& __get_m_version() const;
+  constexpr int32_t const& __cordl_internal_get_m_version() const;
 
-  constexpr void __set_m_version(int32_t value);
+  constexpr void __cordl_internal_set_m_version(int32_t value);
 
   static inline ::System::Net::__CookieCollection__CookieCollectionEnumerator* New_ctor(::System::Net::CookieCollection* cookies);
 
@@ -221,7 +221,7 @@ static_assert(offsetof(::System::Net::__CookieCollection__CookieCollectionEnumer
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9128))
 // CS Name: ::System.Net::CookieCollection*
 class CORDL_TYPE CookieCollection : public ::System::Object {
@@ -232,19 +232,19 @@ public:
   using Stamp = ::System::Net::__CookieCollection__Stamp;
 
   /// @brief Field m_version, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_version, put = __set_m_version)) int32_t m_version;
+  __declspec(property(get = __cordl_internal_get_m_version, put = __cordl_internal_set_m_version)) int32_t m_version;
 
   /// @brief Field m_list, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_list, put = __set_m_list))::System::Collections::ArrayList* m_list;
+  __declspec(property(get = __cordl_internal_get_m_list, put = __cordl_internal_set_m_list))::System::Collections::ArrayList* m_list;
 
   /// @brief Field m_TimeStamp, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_TimeStamp, put = __set_m_TimeStamp))::System::DateTime m_TimeStamp;
+  __declspec(property(get = __cordl_internal_get_m_TimeStamp, put = __cordl_internal_set_m_TimeStamp))::System::DateTime m_TimeStamp;
 
   /// @brief Field m_has_other_versions, offset 0x28, size 0x1
-  __declspec(property(get = __get_m_has_other_versions, put = __set_m_has_other_versions)) bool m_has_other_versions;
+  __declspec(property(get = __cordl_internal_get_m_has_other_versions, put = __cordl_internal_set_m_has_other_versions)) bool m_has_other_versions;
 
   /// @brief Field m_IsReadOnly, offset 0x29, size 0x1
-  __declspec(property(get = __get_m_IsReadOnly, put = __set_m_IsReadOnly)) bool m_IsReadOnly;
+  __declspec(property(get = __cordl_internal_get_m_IsReadOnly, put = __cordl_internal_set_m_IsReadOnly)) bool m_IsReadOnly;
 
   __declspec(property(get = get_Item))::System::Net::Cookie* Item[];
 
@@ -268,35 +268,35 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr int32_t& __get_m_version();
+  constexpr int32_t& __cordl_internal_get_m_version();
 
-  constexpr int32_t const& __get_m_version() const;
+  constexpr int32_t const& __cordl_internal_get_m_version() const;
 
-  constexpr void __set_m_version(int32_t value);
+  constexpr void __cordl_internal_set_m_version(int32_t value);
 
-  constexpr ::System::Collections::ArrayList*& __get_m_list();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_m_list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_m_list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_m_list() const;
 
-  constexpr void __set_m_list(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_m_list(::System::Collections::ArrayList* value);
 
-  constexpr ::System::DateTime& __get_m_TimeStamp();
+  constexpr ::System::DateTime& __cordl_internal_get_m_TimeStamp();
 
-  constexpr ::System::DateTime const& __get_m_TimeStamp() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_m_TimeStamp() const;
 
-  constexpr void __set_m_TimeStamp(::System::DateTime value);
+  constexpr void __cordl_internal_set_m_TimeStamp(::System::DateTime value);
 
-  constexpr bool& __get_m_has_other_versions();
+  constexpr bool& __cordl_internal_get_m_has_other_versions();
 
-  constexpr bool const& __get_m_has_other_versions() const;
+  constexpr bool const& __cordl_internal_get_m_has_other_versions() const;
 
-  constexpr void __set_m_has_other_versions(bool value);
+  constexpr void __cordl_internal_set_m_has_other_versions(bool value);
 
-  constexpr bool& __get_m_IsReadOnly();
+  constexpr bool& __cordl_internal_get_m_IsReadOnly();
 
-  constexpr bool const& __get_m_IsReadOnly() const;
+  constexpr bool const& __cordl_internal_get_m_IsReadOnly() const;
 
-  constexpr void __set_m_IsReadOnly(bool value);
+  constexpr void __cordl_internal_set_m_IsReadOnly(bool value);
 
   static inline ::System::Net::CookieCollection* New_ctor();
 

@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::UI::ExtendedAxisEventData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13163))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13163))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6370))
 // CS Name: ::UnityEngine.InputSystem.UI::ExtendedAxisEventData*
 class CORDL_TYPE ExtendedAxisEventData : public ::UnityEngine::EventSystems::AxisEventData {

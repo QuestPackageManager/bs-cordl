@@ -64,7 +64,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_Handle);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9681))
 // CS Name: ::HEU_Handle::HEU_HandleType
 struct CORDL_TYPE __HEU_Handle__HEU_HandleType {
@@ -114,8 +114,8 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType, value
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9715)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10210)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9714)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(9727)), TypeDefinitionIndex(TypeDefinitionIndex(9681))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9681)), TypeDefinitionIndex(TypeDefinitionIndex(9714)), TypeDefinitionIndex(TypeDefinitionIndex(9715)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9727)), TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9682))
 // CS Name: ::HoudiniEngineUnity::HEU_Handle*
 class CORDL_TYPE HEU_Handle : public ::UnityEngine::ScriptableObject {
@@ -124,40 +124,42 @@ public:
   using HEU_HandleType = ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType;
 
   /// @brief Field _handleName, offset 0x18, size 0x8
-  __declspec(property(get = __get__handleName, put = __set__handleName))::StringW _handleName;
+  __declspec(property(get = __cordl_internal_get__handleName, put = __cordl_internal_set__handleName))::StringW _handleName;
 
   /// @brief Field _handleType, offset 0x20, size 0x4
-  __declspec(property(get = __get__handleType, put = __set__handleType))::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType _handleType;
+  __declspec(property(get = __cordl_internal_get__handleType, put = __cordl_internal_set__handleType))::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType _handleType;
 
   /// @brief Field _handleIndex, offset 0x24, size 0x4
-  __declspec(property(get = __get__handleIndex, put = __set__handleIndex)) int32_t _handleIndex;
+  __declspec(property(get = __cordl_internal_get__handleIndex, put = __cordl_internal_set__handleIndex)) int32_t _handleIndex;
 
   /// @brief Field _handleParamTranslateBinding, offset 0x28, size 0x8
-  __declspec(property(get = __get__handleParamTranslateBinding, put = __set__handleParamTranslateBinding))::HoudiniEngineUnity::HEU_HandleParamBinding* _handleParamTranslateBinding;
+  __declspec(property(get = __cordl_internal_get__handleParamTranslateBinding,
+                      put = __cordl_internal_set__handleParamTranslateBinding))::HoudiniEngineUnity::HEU_HandleParamBinding* _handleParamTranslateBinding;
 
   /// @brief Field _handleParamRotateBinding, offset 0x30, size 0x8
-  __declspec(property(get = __get__handleParamRotateBinding, put = __set__handleParamRotateBinding))::HoudiniEngineUnity::HEU_HandleParamBinding* _handleParamRotateBinding;
+  __declspec(property(get = __cordl_internal_get__handleParamRotateBinding,
+                      put = __cordl_internal_set__handleParamRotateBinding))::HoudiniEngineUnity::HEU_HandleParamBinding* _handleParamRotateBinding;
 
   /// @brief Field _handleParamScaleBinding, offset 0x38, size 0x8
-  __declspec(property(get = __get__handleParamScaleBinding, put = __set__handleParamScaleBinding))::HoudiniEngineUnity::HEU_HandleParamBinding* _handleParamScaleBinding;
+  __declspec(property(get = __cordl_internal_get__handleParamScaleBinding, put = __cordl_internal_set__handleParamScaleBinding))::HoudiniEngineUnity::HEU_HandleParamBinding* _handleParamScaleBinding;
 
   /// @brief Field _handlePosition, offset 0x40, size 0xc
-  __declspec(property(get = __get__handlePosition, put = __set__handlePosition))::UnityEngine::Vector3 _handlePosition;
+  __declspec(property(get = __cordl_internal_get__handlePosition, put = __cordl_internal_set__handlePosition))::UnityEngine::Vector3 _handlePosition;
 
   /// @brief Field _handleRotation, offset 0x4c, size 0x10
-  __declspec(property(get = __get__handleRotation, put = __set__handleRotation))::UnityEngine::Quaternion _handleRotation;
+  __declspec(property(get = __cordl_internal_get__handleRotation, put = __cordl_internal_set__handleRotation))::UnityEngine::Quaternion _handleRotation;
 
   /// @brief Field _handleScale, offset 0x5c, size 0xc
-  __declspec(property(get = __get__handleScale, put = __set__handleScale))::UnityEngine::Vector3 _handleScale;
+  __declspec(property(get = __cordl_internal_get__handleScale, put = __cordl_internal_set__handleScale))::UnityEngine::Vector3 _handleScale;
 
   /// @brief Field _rstOrder, offset 0x68, size 0x4
-  __declspec(property(get = __get__rstOrder, put = __set__rstOrder))::HoudiniEngineUnity::HAPI_RSTOrder _rstOrder;
+  __declspec(property(get = __cordl_internal_get__rstOrder, put = __cordl_internal_set__rstOrder))::HoudiniEngineUnity::HAPI_RSTOrder _rstOrder;
 
   /// @brief Field _xyzOrder, offset 0x6c, size 0x4
-  __declspec(property(get = __get__xyzOrder, put = __set__xyzOrder))::HoudiniEngineUnity::HAPI_XYZOrder _xyzOrder;
+  __declspec(property(get = __cordl_internal_get__xyzOrder, put = __cordl_internal_set__xyzOrder))::HoudiniEngineUnity::HAPI_XYZOrder _xyzOrder;
 
   /// @brief Field _convertedTransformEuler, offset 0x70, size 0x28
-  __declspec(property(get = __get__convertedTransformEuler, put = __set__convertedTransformEuler))::HoudiniEngineUnity::HAPI_TransformEuler _convertedTransformEuler;
+  __declspec(property(get = __cordl_internal_get__convertedTransformEuler, put = __cordl_internal_set__convertedTransformEuler))::HoudiniEngineUnity::HAPI_TransformEuler _convertedTransformEuler;
 
   __declspec(property(get = get_HandleName))::StringW HandleName;
 
@@ -175,83 +177,83 @@ public:
 
   __declspec(property(get = get_HandleScale))::UnityEngine::Vector3 HandleScale;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Handle*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_Handle__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Handle>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_Handle__() noexcept;
 
-  constexpr ::StringW& __get__handleName();
+  constexpr ::StringW& __cordl_internal_get__handleName();
 
-  constexpr ::StringW const& __get__handleName() const;
+  constexpr ::StringW const& __cordl_internal_get__handleName() const;
 
-  constexpr void __set__handleName(::StringW value);
+  constexpr void __cordl_internal_set__handleName(::StringW value);
 
-  constexpr ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType& __get__handleType();
+  constexpr ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType& __cordl_internal_get__handleType();
 
-  constexpr ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType const& __get__handleType() const;
+  constexpr ::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType const& __cordl_internal_get__handleType() const;
 
-  constexpr void __set__handleType(::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType value);
+  constexpr void __cordl_internal_set__handleType(::HoudiniEngineUnity::__HEU_Handle__HEU_HandleType value);
 
-  constexpr int32_t& __get__handleIndex();
+  constexpr int32_t& __cordl_internal_get__handleIndex();
 
-  constexpr int32_t const& __get__handleIndex() const;
+  constexpr int32_t const& __cordl_internal_get__handleIndex() const;
 
-  constexpr void __set__handleIndex(int32_t value);
+  constexpr void __cordl_internal_set__handleIndex(int32_t value);
 
-  constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding*& __get__handleParamTranslateBinding();
+  constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding*& __cordl_internal_get__handleParamTranslateBinding();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HandleParamBinding*> const& __get__handleParamTranslateBinding() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HandleParamBinding*> const& __cordl_internal_get__handleParamTranslateBinding() const;
 
-  constexpr void __set__handleParamTranslateBinding(::HoudiniEngineUnity::HEU_HandleParamBinding* value);
+  constexpr void __cordl_internal_set__handleParamTranslateBinding(::HoudiniEngineUnity::HEU_HandleParamBinding* value);
 
-  constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding*& __get__handleParamRotateBinding();
+  constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding*& __cordl_internal_get__handleParamRotateBinding();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HandleParamBinding*> const& __get__handleParamRotateBinding() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HandleParamBinding*> const& __cordl_internal_get__handleParamRotateBinding() const;
 
-  constexpr void __set__handleParamRotateBinding(::HoudiniEngineUnity::HEU_HandleParamBinding* value);
+  constexpr void __cordl_internal_set__handleParamRotateBinding(::HoudiniEngineUnity::HEU_HandleParamBinding* value);
 
-  constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding*& __get__handleParamScaleBinding();
+  constexpr ::HoudiniEngineUnity::HEU_HandleParamBinding*& __cordl_internal_get__handleParamScaleBinding();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HandleParamBinding*> const& __get__handleParamScaleBinding() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HandleParamBinding*> const& __cordl_internal_get__handleParamScaleBinding() const;
 
-  constexpr void __set__handleParamScaleBinding(::HoudiniEngineUnity::HEU_HandleParamBinding* value);
+  constexpr void __cordl_internal_set__handleParamScaleBinding(::HoudiniEngineUnity::HEU_HandleParamBinding* value);
 
-  constexpr ::UnityEngine::Vector3& __get__handlePosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__handlePosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get__handlePosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__handlePosition() const;
 
-  constexpr void __set__handlePosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__handlePosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get__handleRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__handleRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get__handleRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__handleRotation() const;
 
-  constexpr void __set__handleRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set__handleRotation(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Vector3& __get__handleScale();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__handleScale();
 
-  constexpr ::UnityEngine::Vector3 const& __get__handleScale() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__handleScale() const;
 
-  constexpr void __set__handleScale(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__handleScale(::UnityEngine::Vector3 value);
 
-  constexpr ::HoudiniEngineUnity::HAPI_RSTOrder& __get__rstOrder();
+  constexpr ::HoudiniEngineUnity::HAPI_RSTOrder& __cordl_internal_get__rstOrder();
 
-  constexpr ::HoudiniEngineUnity::HAPI_RSTOrder const& __get__rstOrder() const;
+  constexpr ::HoudiniEngineUnity::HAPI_RSTOrder const& __cordl_internal_get__rstOrder() const;
 
-  constexpr void __set__rstOrder(::HoudiniEngineUnity::HAPI_RSTOrder value);
+  constexpr void __cordl_internal_set__rstOrder(::HoudiniEngineUnity::HAPI_RSTOrder value);
 
-  constexpr ::HoudiniEngineUnity::HAPI_XYZOrder& __get__xyzOrder();
+  constexpr ::HoudiniEngineUnity::HAPI_XYZOrder& __cordl_internal_get__xyzOrder();
 
-  constexpr ::HoudiniEngineUnity::HAPI_XYZOrder const& __get__xyzOrder() const;
+  constexpr ::HoudiniEngineUnity::HAPI_XYZOrder const& __cordl_internal_get__xyzOrder() const;
 
-  constexpr void __set__xyzOrder(::HoudiniEngineUnity::HAPI_XYZOrder value);
+  constexpr void __cordl_internal_set__xyzOrder(::HoudiniEngineUnity::HAPI_XYZOrder value);
 
-  constexpr ::HoudiniEngineUnity::HAPI_TransformEuler& __get__convertedTransformEuler();
+  constexpr ::HoudiniEngineUnity::HAPI_TransformEuler& __cordl_internal_get__convertedTransformEuler();
 
-  constexpr ::HoudiniEngineUnity::HAPI_TransformEuler const& __get__convertedTransformEuler() const;
+  constexpr ::HoudiniEngineUnity::HAPI_TransformEuler const& __cordl_internal_get__convertedTransformEuler() const;
 
-  constexpr void __set__convertedTransformEuler(::HoudiniEngineUnity::HAPI_TransformEuler value);
+  constexpr void __cordl_internal_set__convertedTransformEuler(::HoudiniEngineUnity::HAPI_TransformEuler value);
 
   /// @brief Method get_HandleName, addr 0x218fe80, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_HandleName();

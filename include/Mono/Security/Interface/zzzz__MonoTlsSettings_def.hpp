@@ -46,78 +46,76 @@ MARK_REF_PTR_T(::Mono::Security::Interface::MonoTlsSettings);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2701 }), TypeDefinitionIndex(TypeDefinitionIndex(13786)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4760 }), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13784)) CS
-// Name: ::Mono.Security.Interface::MonoTlsSettings*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13786)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 2701 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4760 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13784)) CS Name:
+// ::Mono.Security.Interface::MonoTlsSettings*
 class CORDL_TYPE MonoTlsSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <RemoteCertificateValidationCallback>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(
-      get = __get__RemoteCertificateValidationCallback_k__BackingField,
-      put = __set__RemoteCertificateValidationCallback_k__BackingField))::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* _RemoteCertificateValidationCallback_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__RemoteCertificateValidationCallback_k__BackingField, put = __cordl_internal_set__RemoteCertificateValidationCallback_k__BackingField))::Mono::
+      Security::Interface::MonoRemoteCertificateValidationCallback* _RemoteCertificateValidationCallback_k__BackingField;
 
   /// @brief Field <ClientCertificateSelectionCallback>k__BackingField, offset 0x18, size 0x8
-  __declspec(
-      property(get = __get__ClientCertificateSelectionCallback_k__BackingField,
-               put = __set__ClientCertificateSelectionCallback_k__BackingField))::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* _ClientCertificateSelectionCallback_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ClientCertificateSelectionCallback_k__BackingField, put = __cordl_internal_set__ClientCertificateSelectionCallback_k__BackingField))::Mono::Security::
+      Interface::MonoLocalCertificateSelectionCallback* _ClientCertificateSelectionCallback_k__BackingField;
 
   /// @brief Field <CertificateValidationTime>k__BackingField, offset 0x20, size 0x10
-  __declspec(property(get = __get__CertificateValidationTime_k__BackingField,
-                      put = __set__CertificateValidationTime_k__BackingField))::System::Nullable_1<::System::DateTime> _CertificateValidationTime_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CertificateValidationTime_k__BackingField,
+                      put = __cordl_internal_set__CertificateValidationTime_k__BackingField))::System::Nullable_1<::System::DateTime> _CertificateValidationTime_k__BackingField;
 
   /// @brief Field <TrustAnchors>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__TrustAnchors_k__BackingField,
-                      put = __set__TrustAnchors_k__BackingField))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* _TrustAnchors_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__TrustAnchors_k__BackingField,
+                      put = __cordl_internal_set__TrustAnchors_k__BackingField))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* _TrustAnchors_k__BackingField;
 
   /// @brief Field <UserSettings>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__UserSettings_k__BackingField, put = __set__UserSettings_k__BackingField))::System::Object* _UserSettings_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__UserSettings_k__BackingField, put = __cordl_internal_set__UserSettings_k__BackingField))::System::Object* _UserSettings_k__BackingField;
 
   /// @brief Field <CertificateSearchPaths>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __get__CertificateSearchPaths_k__BackingField,
-                      put = __set__CertificateSearchPaths_k__BackingField))::ArrayW<::StringW, ::Array<::StringW>*> _CertificateSearchPaths_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CertificateSearchPaths_k__BackingField,
+                      put = __cordl_internal_set__CertificateSearchPaths_k__BackingField))::ArrayW<::StringW, ::Array<::StringW>*> _CertificateSearchPaths_k__BackingField;
 
   /// @brief Field <SendCloseNotify>k__BackingField, offset 0x48, size 0x1
-  __declspec(property(get = __get__SendCloseNotify_k__BackingField, put = __set__SendCloseNotify_k__BackingField)) bool _SendCloseNotify_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SendCloseNotify_k__BackingField, put = __cordl_internal_set__SendCloseNotify_k__BackingField)) bool _SendCloseNotify_k__BackingField;
 
   /// @brief Field <ClientCertificateIssuers>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __get__ClientCertificateIssuers_k__BackingField,
-                      put = __set__ClientCertificateIssuers_k__BackingField))::ArrayW<::StringW, ::Array<::StringW>*> _ClientCertificateIssuers_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ClientCertificateIssuers_k__BackingField,
+                      put = __cordl_internal_set__ClientCertificateIssuers_k__BackingField))::ArrayW<::StringW, ::Array<::StringW>*> _ClientCertificateIssuers_k__BackingField;
 
   /// @brief Field <DisallowUnauthenticatedCertificateRequest>k__BackingField, offset 0x58, size 0x1
-  __declspec(property(get = __get__DisallowUnauthenticatedCertificateRequest_k__BackingField,
-                      put = __set__DisallowUnauthenticatedCertificateRequest_k__BackingField)) bool _DisallowUnauthenticatedCertificateRequest_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__DisallowUnauthenticatedCertificateRequest_k__BackingField,
+                      put = __cordl_internal_set__DisallowUnauthenticatedCertificateRequest_k__BackingField)) bool _DisallowUnauthenticatedCertificateRequest_k__BackingField;
 
   /// @brief Field <EnabledProtocols>k__BackingField, offset 0x5c, size 0x8
-  __declspec(property(get = __get__EnabledProtocols_k__BackingField,
-                      put = __set__EnabledProtocols_k__BackingField))::System::Nullable_1<::Mono::Security::Interface::TlsProtocols> _EnabledProtocols_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__EnabledProtocols_k__BackingField,
+                      put = __cordl_internal_set__EnabledProtocols_k__BackingField))::System::Nullable_1<::Mono::Security::Interface::TlsProtocols> _EnabledProtocols_k__BackingField;
 
   /// @brief Field <EnabledCiphers>k__BackingField, offset 0x68, size 0x8
-  __declspec(property(
-      get = __get__EnabledCiphers_k__BackingField,
-      put = __set__EnabledCiphers_k__BackingField))::ArrayW<::Mono::Security::Interface::CipherSuiteCode, ::Array<::Mono::Security::Interface::CipherSuiteCode>*> _EnabledCiphers_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__EnabledCiphers_k__BackingField,
+                      put = __cordl_internal_set__EnabledCiphers_k__BackingField))::ArrayW<::Mono::Security::Interface::CipherSuiteCode,
+                                                                                           ::Array<::Mono::Security::Interface::CipherSuiteCode>*> _EnabledCiphers_k__BackingField;
 
   /// @brief Field cloned, offset 0x70, size 0x1
-  __declspec(property(get = __get_cloned, put = __set_cloned)) bool cloned;
+  __declspec(property(get = __cordl_internal_get_cloned, put = __cordl_internal_set_cloned)) bool cloned;
 
   /// @brief Field checkCertName, offset 0x71, size 0x1
-  __declspec(property(get = __get_checkCertName, put = __set_checkCertName)) bool checkCertName;
+  __declspec(property(get = __cordl_internal_get_checkCertName, put = __cordl_internal_set_checkCertName)) bool checkCertName;
 
   /// @brief Field checkCertRevocationStatus, offset 0x72, size 0x1
-  __declspec(property(get = __get_checkCertRevocationStatus, put = __set_checkCertRevocationStatus)) bool checkCertRevocationStatus;
+  __declspec(property(get = __cordl_internal_get_checkCertRevocationStatus, put = __cordl_internal_set_checkCertRevocationStatus)) bool checkCertRevocationStatus;
 
   /// @brief Field useServicePointManagerCallback, offset 0x73, size 0x2
-  __declspec(property(get = __get_useServicePointManagerCallback, put = __set_useServicePointManagerCallback))::System::Nullable_1<bool> useServicePointManagerCallback;
+  __declspec(property(get = __cordl_internal_get_useServicePointManagerCallback, put = __cordl_internal_set_useServicePointManagerCallback))::System::Nullable_1<bool> useServicePointManagerCallback;
 
   /// @brief Field skipSystemValidators, offset 0x75, size 0x1
-  __declspec(property(get = __get_skipSystemValidators, put = __set_skipSystemValidators)) bool skipSystemValidators;
+  __declspec(property(get = __cordl_internal_get_skipSystemValidators, put = __cordl_internal_set_skipSystemValidators)) bool skipSystemValidators;
 
   /// @brief Field callbackNeedsChain, offset 0x76, size 0x1
-  __declspec(property(get = __get_callbackNeedsChain, put = __set_callbackNeedsChain)) bool callbackNeedsChain;
+  __declspec(property(get = __cordl_internal_get_callbackNeedsChain, put = __cordl_internal_set_callbackNeedsChain)) bool callbackNeedsChain;
 
   /// @brief Field certificateValidator, offset 0x78, size 0x8
-  __declspec(property(get = __get_certificateValidator, put = __set_certificateValidator))::Mono::Security::Interface::ICertificateValidator* certificateValidator;
+  __declspec(property(get = __cordl_internal_get_certificateValidator, put = __cordl_internal_set_certificateValidator))::Mono::Security::Interface::ICertificateValidator* certificateValidator;
 
   /// @brief Field defaultSettings, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_defaultSettings, put = setStaticF_defaultSettings))::Mono::Security::Interface::MonoTlsSettings* defaultSettings;
@@ -152,113 +150,115 @@ public:
 
   __declspec(property(get = get_CertificateValidator))::Mono::Security::Interface::ICertificateValidator* CertificateValidator;
 
-  constexpr ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*& __get__RemoteCertificateValidationCallback_k__BackingField();
+  constexpr ::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*& __cordl_internal_get__RemoteCertificateValidationCallback_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*> const& __get__RemoteCertificateValidationCallback_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoRemoteCertificateValidationCallback*> const&
+  __cordl_internal_get__RemoteCertificateValidationCallback_k__BackingField() const;
 
-  constexpr void __set__RemoteCertificateValidationCallback_k__BackingField(::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* value);
+  constexpr void __cordl_internal_set__RemoteCertificateValidationCallback_k__BackingField(::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* value);
 
-  constexpr ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*& __get__ClientCertificateSelectionCallback_k__BackingField();
+  constexpr ::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*& __cordl_internal_get__ClientCertificateSelectionCallback_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*> const& __get__ClientCertificateSelectionCallback_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*> const&
+  __cordl_internal_get__ClientCertificateSelectionCallback_k__BackingField() const;
 
-  constexpr void __set__ClientCertificateSelectionCallback_k__BackingField(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* value);
+  constexpr void __cordl_internal_set__ClientCertificateSelectionCallback_k__BackingField(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback* value);
 
-  constexpr ::System::Nullable_1<::System::DateTime>& __get__CertificateValidationTime_k__BackingField();
+  constexpr ::System::Nullable_1<::System::DateTime>& __cordl_internal_get__CertificateValidationTime_k__BackingField();
 
-  constexpr ::System::Nullable_1<::System::DateTime> const& __get__CertificateValidationTime_k__BackingField() const;
+  constexpr ::System::Nullable_1<::System::DateTime> const& __cordl_internal_get__CertificateValidationTime_k__BackingField() const;
 
-  constexpr void __set__CertificateValidationTime_k__BackingField(::System::Nullable_1<::System::DateTime> value);
+  constexpr void __cordl_internal_set__CertificateValidationTime_k__BackingField(::System::Nullable_1<::System::DateTime> value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& __get__TrustAnchors_k__BackingField();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& __cordl_internal_get__TrustAnchors_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const& __get__TrustAnchors_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const& __cordl_internal_get__TrustAnchors_k__BackingField() const;
 
-  constexpr void __set__TrustAnchors_k__BackingField(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
+  constexpr void __cordl_internal_set__TrustAnchors_k__BackingField(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  constexpr ::System::Object*& __get__UserSettings_k__BackingField();
+  constexpr ::System::Object*& __cordl_internal_get__UserSettings_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__UserSettings_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__UserSettings_k__BackingField() const;
 
-  constexpr void __set__UserSettings_k__BackingField(::System::Object* value);
+  constexpr void __cordl_internal_set__UserSettings_k__BackingField(::System::Object* value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__CertificateSearchPaths_k__BackingField();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__CertificateSearchPaths_k__BackingField();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__CertificateSearchPaths_k__BackingField() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__CertificateSearchPaths_k__BackingField() const;
 
-  constexpr void __set__CertificateSearchPaths_k__BackingField(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__CertificateSearchPaths_k__BackingField(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr bool& __get__SendCloseNotify_k__BackingField();
+  constexpr bool& __cordl_internal_get__SendCloseNotify_k__BackingField();
 
-  constexpr bool const& __get__SendCloseNotify_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__SendCloseNotify_k__BackingField() const;
 
-  constexpr void __set__SendCloseNotify_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__SendCloseNotify_k__BackingField(bool value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__ClientCertificateIssuers_k__BackingField();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__ClientCertificateIssuers_k__BackingField();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__ClientCertificateIssuers_k__BackingField() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__ClientCertificateIssuers_k__BackingField() const;
 
-  constexpr void __set__ClientCertificateIssuers_k__BackingField(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__ClientCertificateIssuers_k__BackingField(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr bool& __get__DisallowUnauthenticatedCertificateRequest_k__BackingField();
+  constexpr bool& __cordl_internal_get__DisallowUnauthenticatedCertificateRequest_k__BackingField();
 
-  constexpr bool const& __get__DisallowUnauthenticatedCertificateRequest_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__DisallowUnauthenticatedCertificateRequest_k__BackingField() const;
 
-  constexpr void __set__DisallowUnauthenticatedCertificateRequest_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__DisallowUnauthenticatedCertificateRequest_k__BackingField(bool value);
 
-  constexpr ::System::Nullable_1<::Mono::Security::Interface::TlsProtocols>& __get__EnabledProtocols_k__BackingField();
+  constexpr ::System::Nullable_1<::Mono::Security::Interface::TlsProtocols>& __cordl_internal_get__EnabledProtocols_k__BackingField();
 
-  constexpr ::System::Nullable_1<::Mono::Security::Interface::TlsProtocols> const& __get__EnabledProtocols_k__BackingField() const;
+  constexpr ::System::Nullable_1<::Mono::Security::Interface::TlsProtocols> const& __cordl_internal_get__EnabledProtocols_k__BackingField() const;
 
-  constexpr void __set__EnabledProtocols_k__BackingField(::System::Nullable_1<::Mono::Security::Interface::TlsProtocols> value);
+  constexpr void __cordl_internal_set__EnabledProtocols_k__BackingField(::System::Nullable_1<::Mono::Security::Interface::TlsProtocols> value);
 
-  constexpr ::ArrayW<::Mono::Security::Interface::CipherSuiteCode, ::Array<::Mono::Security::Interface::CipherSuiteCode>*>& __get__EnabledCiphers_k__BackingField();
+  constexpr ::ArrayW<::Mono::Security::Interface::CipherSuiteCode, ::Array<::Mono::Security::Interface::CipherSuiteCode>*>& __cordl_internal_get__EnabledCiphers_k__BackingField();
 
-  constexpr ::ArrayW<::Mono::Security::Interface::CipherSuiteCode, ::Array<::Mono::Security::Interface::CipherSuiteCode>*> const& __get__EnabledCiphers_k__BackingField() const;
+  constexpr ::ArrayW<::Mono::Security::Interface::CipherSuiteCode, ::Array<::Mono::Security::Interface::CipherSuiteCode>*> const& __cordl_internal_get__EnabledCiphers_k__BackingField() const;
 
-  constexpr void __set__EnabledCiphers_k__BackingField(::ArrayW<::Mono::Security::Interface::CipherSuiteCode, ::Array<::Mono::Security::Interface::CipherSuiteCode>*> value);
+  constexpr void __cordl_internal_set__EnabledCiphers_k__BackingField(::ArrayW<::Mono::Security::Interface::CipherSuiteCode, ::Array<::Mono::Security::Interface::CipherSuiteCode>*> value);
 
-  constexpr bool& __get_cloned();
+  constexpr bool& __cordl_internal_get_cloned();
 
-  constexpr bool const& __get_cloned() const;
+  constexpr bool const& __cordl_internal_get_cloned() const;
 
-  constexpr void __set_cloned(bool value);
+  constexpr void __cordl_internal_set_cloned(bool value);
 
-  constexpr bool& __get_checkCertName();
+  constexpr bool& __cordl_internal_get_checkCertName();
 
-  constexpr bool const& __get_checkCertName() const;
+  constexpr bool const& __cordl_internal_get_checkCertName() const;
 
-  constexpr void __set_checkCertName(bool value);
+  constexpr void __cordl_internal_set_checkCertName(bool value);
 
-  constexpr bool& __get_checkCertRevocationStatus();
+  constexpr bool& __cordl_internal_get_checkCertRevocationStatus();
 
-  constexpr bool const& __get_checkCertRevocationStatus() const;
+  constexpr bool const& __cordl_internal_get_checkCertRevocationStatus() const;
 
-  constexpr void __set_checkCertRevocationStatus(bool value);
+  constexpr void __cordl_internal_set_checkCertRevocationStatus(bool value);
 
-  constexpr ::System::Nullable_1<bool>& __get_useServicePointManagerCallback();
+  constexpr ::System::Nullable_1<bool>& __cordl_internal_get_useServicePointManagerCallback();
 
-  constexpr ::System::Nullable_1<bool> const& __get_useServicePointManagerCallback() const;
+  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get_useServicePointManagerCallback() const;
 
-  constexpr void __set_useServicePointManagerCallback(::System::Nullable_1<bool> value);
+  constexpr void __cordl_internal_set_useServicePointManagerCallback(::System::Nullable_1<bool> value);
 
-  constexpr bool& __get_skipSystemValidators();
+  constexpr bool& __cordl_internal_get_skipSystemValidators();
 
-  constexpr bool const& __get_skipSystemValidators() const;
+  constexpr bool const& __cordl_internal_get_skipSystemValidators() const;
 
-  constexpr void __set_skipSystemValidators(bool value);
+  constexpr void __cordl_internal_set_skipSystemValidators(bool value);
 
-  constexpr bool& __get_callbackNeedsChain();
+  constexpr bool& __cordl_internal_get_callbackNeedsChain();
 
-  constexpr bool const& __get_callbackNeedsChain() const;
+  constexpr bool const& __cordl_internal_get_callbackNeedsChain() const;
 
-  constexpr void __set_callbackNeedsChain(bool value);
+  constexpr void __cordl_internal_set_callbackNeedsChain(bool value);
 
-  constexpr ::Mono::Security::Interface::ICertificateValidator*& __get_certificateValidator();
+  constexpr ::Mono::Security::Interface::ICertificateValidator*& __cordl_internal_get_certificateValidator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::ICertificateValidator*> const& __get_certificateValidator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::ICertificateValidator*> const& __cordl_internal_get_certificateValidator() const;
 
-  constexpr void __set_certificateValidator(::Mono::Security::Interface::ICertificateValidator* value);
+  constexpr void __cordl_internal_set_certificateValidator(::Mono::Security::Interface::ICertificateValidator* value);
 
   static inline void setStaticF_defaultSettings(::Mono::Security::Interface::MonoTlsSettings* value);
 

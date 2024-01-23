@@ -41,65 +41,67 @@ MARK_REF_PTR_T(::GlobalNamespace::BombCutSoundEffectManager);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4059))
 // CS Name: ::BombCutSoundEffectManager*
 class CORDL_TYPE BombCutSoundEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _volume, offset 0x18, size 0x4
-  __declspec(property(get = __get__volume, put = __set__volume)) float_t _volume;
+  __declspec(property(get = __cordl_internal_get__volume, put = __cordl_internal_set__volume)) float_t _volume;
 
   /// @brief Field _bombExplosionAudioClips, offset 0x20, size 0x8
-  __declspec(property(get = __get__bombExplosionAudioClips, put = __set__bombExplosionAudioClips))::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> _bombExplosionAudioClips;
+  __declspec(property(get = __cordl_internal_get__bombExplosionAudioClips,
+                      put = __cordl_internal_set__bombExplosionAudioClips))::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> _bombExplosionAudioClips;
 
   /// @brief Field _beatmapObjectManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__beatmapObjectManager, put = __set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
   /// @brief Field saberManager, offset 0x30, size 0x8
-  __declspec(property(get = __get_saberManager, put = __set_saberManager))::GlobalNamespace::SaberManager* saberManager;
+  __declspec(property(get = __cordl_internal_get_saberManager, put = __cordl_internal_set_saberManager))::UnityW<::GlobalNamespace::SaberManager> saberManager;
 
   /// @brief Field _bombCutSoundEffectPool, offset 0x38, size 0x8
-  __declspec(property(get = __get__bombCutSoundEffectPool, put = __set__bombCutSoundEffectPool))::GlobalNamespace::__BombCutSoundEffect__Pool* _bombCutSoundEffectPool;
+  __declspec(property(get = __cordl_internal_get__bombCutSoundEffectPool, put = __cordl_internal_set__bombCutSoundEffectPool))::GlobalNamespace::__BombCutSoundEffect__Pool* _bombCutSoundEffectPool;
 
   /// @brief Field _randomSoundPicker, offset 0x40, size 0x8
-  __declspec(property(get = __get__randomSoundPicker, put = __set__randomSoundPicker))::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>* _randomSoundPicker;
+  __declspec(property(get = __cordl_internal_get__randomSoundPicker,
+                      put = __cordl_internal_set__randomSoundPicker))::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* _randomSoundPicker;
 
-  constexpr float_t& __get__volume();
+  constexpr float_t& __cordl_internal_get__volume();
 
-  constexpr float_t const& __get__volume() const;
+  constexpr float_t const& __cordl_internal_get__volume() const;
 
-  constexpr void __set__volume(float_t value);
+  constexpr void __cordl_internal_set__volume(float_t value);
 
-  constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*>& __get__bombExplosionAudioClips();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*>& __cordl_internal_get__bombExplosionAudioClips();
 
-  constexpr ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> const& __get__bombExplosionAudioClips() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__bombExplosionAudioClips() const;
 
-  constexpr void __set__bombExplosionAudioClips(::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> value);
+  constexpr void __cordl_internal_set__bombExplosionAudioClips(::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __get__beatmapObjectManager();
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __get__beatmapObjectManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  constexpr ::GlobalNamespace::SaberManager*& __get_saberManager();
+  constexpr ::UnityW<::GlobalNamespace::SaberManager>& __cordl_internal_get_saberManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberManager*> const& __get_saberManager() const;
+  constexpr ::UnityW<::GlobalNamespace::SaberManager> const& __cordl_internal_get_saberManager() const;
 
-  constexpr void __set_saberManager(::GlobalNamespace::SaberManager* value);
+  constexpr void __cordl_internal_set_saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
 
-  constexpr ::GlobalNamespace::__BombCutSoundEffect__Pool*& __get__bombCutSoundEffectPool();
+  constexpr ::GlobalNamespace::__BombCutSoundEffect__Pool*& __cordl_internal_get__bombCutSoundEffectPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BombCutSoundEffect__Pool*> const& __get__bombCutSoundEffectPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BombCutSoundEffect__Pool*> const& __cordl_internal_get__bombCutSoundEffectPool() const;
 
-  constexpr void __set__bombCutSoundEffectPool(::GlobalNamespace::__BombCutSoundEffect__Pool* value);
+  constexpr void __cordl_internal_set__bombCutSoundEffectPool(::GlobalNamespace::__BombCutSoundEffect__Pool* value);
 
-  constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*& __get__randomSoundPicker();
+  constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*& __cordl_internal_get__randomSoundPicker();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>*> const& __get__randomSoundPicker() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__randomSoundPicker() const;
 
-  constexpr void __set__randomSoundPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>* value);
+  constexpr void __cordl_internal_set__randomSoundPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* value);
 
   /// @brief Method Start, addr 0x222c8d8, size 0xe4, virtual false, abstract: false, final false
   inline void Start();
@@ -136,19 +138,19 @@ public:
   float_t ____volume;
 
   /// @brief Field _bombExplosionAudioClips, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::AudioClip*, ::Array<::UnityEngine::AudioClip*>*> ____bombExplosionAudioClips;
+  ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> ____bombExplosionAudioClips;
 
   /// @brief Field _beatmapObjectManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
 
   /// @brief Field saberManager, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::SaberManager* ___saberManager;
+  ::UnityW<::GlobalNamespace::SaberManager> ___saberManager;
 
   /// @brief Field _bombCutSoundEffectPool, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::__BombCutSoundEffect__Pool* ____bombCutSoundEffectPool;
 
   /// @brief Field _randomSoundPicker, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::RandomObjectPicker_1<::UnityEngine::AudioClip*>* ____randomSoundPicker;
+  ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* ____randomSoundPicker;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

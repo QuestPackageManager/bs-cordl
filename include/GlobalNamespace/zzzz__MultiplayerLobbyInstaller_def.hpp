@@ -20,30 +20,31 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyInstaller);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5399))
 // CS Name: ::MultiplayerLobbyInstaller*
 class CORDL_TYPE MultiplayerLobbyInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
   /// @brief Field _multiplayerLobbyAvatarControllerPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__multiplayerLobbyAvatarControllerPrefab,
-                      put = __set__multiplayerLobbyAvatarControllerPrefab))::GlobalNamespace::MultiplayerLobbyAvatarController* _multiplayerLobbyAvatarControllerPrefab;
+  __declspec(property(get = __cordl_internal_get__multiplayerLobbyAvatarControllerPrefab,
+                      put = __cordl_internal_set__multiplayerLobbyAvatarControllerPrefab))::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> _multiplayerLobbyAvatarControllerPrefab;
 
   /// @brief Field _multiplayerAvatarPlacePrefab, offset 0x28, size 0x8
-  __declspec(property(get = __get__multiplayerAvatarPlacePrefab, put = __set__multiplayerAvatarPlacePrefab))::GlobalNamespace::MultiplayerLobbyAvatarPlace* _multiplayerAvatarPlacePrefab;
+  __declspec(property(get = __cordl_internal_get__multiplayerAvatarPlacePrefab,
+                      put = __cordl_internal_set__multiplayerAvatarPlacePrefab))::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace> _multiplayerAvatarPlacePrefab;
 
-  constexpr ::GlobalNamespace::MultiplayerLobbyAvatarController*& __get__multiplayerLobbyAvatarControllerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>& __cordl_internal_get__multiplayerLobbyAvatarControllerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLobbyAvatarController*> const& __get__multiplayerLobbyAvatarControllerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> const& __cordl_internal_get__multiplayerLobbyAvatarControllerPrefab() const;
 
-  constexpr void __set__multiplayerLobbyAvatarControllerPrefab(::GlobalNamespace::MultiplayerLobbyAvatarController* value);
+  constexpr void __cordl_internal_set__multiplayerLobbyAvatarControllerPrefab(::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> value);
 
-  constexpr ::GlobalNamespace::MultiplayerLobbyAvatarPlace*& __get__multiplayerAvatarPlacePrefab();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace>& __cordl_internal_get__multiplayerAvatarPlacePrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLobbyAvatarPlace*> const& __get__multiplayerAvatarPlacePrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace> const& __cordl_internal_get__multiplayerAvatarPlacePrefab() const;
 
-  constexpr void __set__multiplayerAvatarPlacePrefab(::GlobalNamespace::MultiplayerLobbyAvatarPlace* value);
+  constexpr void __cordl_internal_set__multiplayerAvatarPlacePrefab(::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace> value);
 
   /// @brief Method InstallBindings, addr 0x2272bf0, size 0xec, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -68,10 +69,10 @@ protected:
 
 public:
   /// @brief Field _multiplayerLobbyAvatarControllerPrefab, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLobbyAvatarController* ____multiplayerLobbyAvatarControllerPrefab;
+  ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> ____multiplayerLobbyAvatarControllerPrefab;
 
   /// @brief Field _multiplayerAvatarPlacePrefab, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLobbyAvatarPlace* ____multiplayerAvatarPlacePrefab;
+  ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarPlace> ____multiplayerAvatarPlacePrefab;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

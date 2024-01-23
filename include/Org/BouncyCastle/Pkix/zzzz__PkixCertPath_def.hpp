@@ -41,14 +41,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPath);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1715))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixCertPath*
 class CORDL_TYPE PkixCertPath : public ::System::Object {
 public:
   // Declarations
   /// @brief Field certificates, offset 0x10, size 0x8
-  __declspec(property(get = __get_certificates, put = __set_certificates))::System::Collections::IList* certificates;
+  __declspec(property(get = __cordl_internal_get_certificates, put = __cordl_internal_set_certificates))::System::Collections::IList* certificates;
 
   /// @brief Field certPathEncodings, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_certPathEncodings, put = setStaticF_certPathEncodings))::System::Collections::IList* certPathEncodings;
@@ -57,11 +57,11 @@ public:
 
   __declspec(property(get = get_Certificates))::System::Collections::IList* Certificates;
 
-  constexpr ::System::Collections::IList*& __get_certificates();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_certificates();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_certificates() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_certificates() const;
 
-  constexpr void __set_certificates(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_certificates(::System::Collections::IList* value);
 
   static inline void setStaticF_certPathEncodings(::System::Collections::IList* value);
 

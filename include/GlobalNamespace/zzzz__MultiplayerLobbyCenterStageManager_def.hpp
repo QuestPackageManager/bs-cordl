@@ -24,56 +24,57 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyCenterStageManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5563))
 // CS Name: ::MultiplayerLobbyCenterStageManager*
 class CORDL_TYPE MultiplayerLobbyCenterStageManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _centerObjectTransform, offset 0x18, size 0x8
-  __declspec(property(get = __get__centerObjectTransform, put = __set__centerObjectTransform))::UnityEngine::Transform* _centerObjectTransform;
+  __declspec(property(get = __cordl_internal_get__centerObjectTransform, put = __cordl_internal_set__centerObjectTransform))::UnityW<::UnityEngine::Transform> _centerObjectTransform;
 
   /// @brief Field _centerStageScreenController, offset 0x20, size 0x8
-  __declspec(property(get = __get__centerStageScreenController, put = __set__centerStageScreenController))::GlobalNamespace::CenterStageScreenController* _centerStageScreenController;
+  __declspec(property(get = __cordl_internal_get__centerStageScreenController,
+                      put = __cordl_internal_set__centerStageScreenController))::UnityW<::GlobalNamespace::CenterStageScreenController> _centerStageScreenController;
 
   /// @brief Field _lobbyStateDataModel, offset 0x28, size 0x8
-  __declspec(property(get = __get__lobbyStateDataModel, put = __set__lobbyStateDataModel))::GlobalNamespace::ILobbyStateDataModel* _lobbyStateDataModel;
+  __declspec(property(get = __cordl_internal_get__lobbyStateDataModel, put = __cordl_internal_set__lobbyStateDataModel))::GlobalNamespace::ILobbyStateDataModel* _lobbyStateDataModel;
 
   /// @brief Field _innerCircleRadius, offset 0x30, size 0x4
-  __declspec(property(get = __get__innerCircleRadius, put = __set__innerCircleRadius)) float_t _innerCircleRadius;
+  __declspec(property(get = __cordl_internal_get__innerCircleRadius, put = __cordl_internal_set__innerCircleRadius)) float_t _innerCircleRadius;
 
   /// @brief Field _minOuterCircleRadius, offset 0x34, size 0x4
-  __declspec(property(get = __get__minOuterCircleRadius, put = __set__minOuterCircleRadius)) float_t _minOuterCircleRadius;
+  __declspec(property(get = __cordl_internal_get__minOuterCircleRadius, put = __cordl_internal_set__minOuterCircleRadius)) float_t _minOuterCircleRadius;
 
-  constexpr ::UnityEngine::Transform*& __get__centerObjectTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__centerObjectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__centerObjectTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__centerObjectTransform() const;
 
-  constexpr void __set__centerObjectTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__centerObjectTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::GlobalNamespace::CenterStageScreenController*& __get__centerStageScreenController();
+  constexpr ::UnityW<::GlobalNamespace::CenterStageScreenController>& __cordl_internal_get__centerStageScreenController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CenterStageScreenController*> const& __get__centerStageScreenController() const;
+  constexpr ::UnityW<::GlobalNamespace::CenterStageScreenController> const& __cordl_internal_get__centerStageScreenController() const;
 
-  constexpr void __set__centerStageScreenController(::GlobalNamespace::CenterStageScreenController* value);
+  constexpr void __cordl_internal_set__centerStageScreenController(::UnityW<::GlobalNamespace::CenterStageScreenController> value);
 
-  constexpr ::GlobalNamespace::ILobbyStateDataModel*& __get__lobbyStateDataModel();
+  constexpr ::GlobalNamespace::ILobbyStateDataModel*& __cordl_internal_get__lobbyStateDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& __get__lobbyStateDataModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& __cordl_internal_get__lobbyStateDataModel() const;
 
-  constexpr void __set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value);
+  constexpr void __cordl_internal_set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value);
 
-  constexpr float_t& __get__innerCircleRadius();
+  constexpr float_t& __cordl_internal_get__innerCircleRadius();
 
-  constexpr float_t const& __get__innerCircleRadius() const;
+  constexpr float_t const& __cordl_internal_get__innerCircleRadius() const;
 
-  constexpr void __set__innerCircleRadius(float_t value);
+  constexpr void __cordl_internal_set__innerCircleRadius(float_t value);
 
-  constexpr float_t& __get__minOuterCircleRadius();
+  constexpr float_t& __cordl_internal_get__minOuterCircleRadius();
 
-  constexpr float_t const& __get__minOuterCircleRadius() const;
+  constexpr float_t const& __cordl_internal_get__minOuterCircleRadius() const;
 
-  constexpr void __set__minOuterCircleRadius(float_t value);
+  constexpr void __cordl_internal_set__minOuterCircleRadius(float_t value);
 
   /// @brief Method Init, addr 0x22a3940, size 0x8, virtual false, abstract: false, final false
   inline void Init(float_t innerCircleRadius, float_t minOuterCircleRadius);
@@ -107,10 +108,10 @@ protected:
 
 public:
   /// @brief Field _centerObjectTransform, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____centerObjectTransform;
+  ::UnityW<::UnityEngine::Transform> ____centerObjectTransform;
 
   /// @brief Field _centerStageScreenController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::CenterStageScreenController* ____centerStageScreenController;
+  ::UnityW<::GlobalNamespace::CenterStageScreenController> ____centerStageScreenController;
 
   /// @brief Field _lobbyStateDataModel, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::ILobbyStateDataModel* ____lobbyStateDataModel;

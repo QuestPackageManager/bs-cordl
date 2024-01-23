@@ -36,47 +36,47 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(712))
 // CS Name: ::Org.BouncyCastle.Crmf::ProofOfPossessionSigningKeyBuilder*
 class CORDL_TYPE ProofOfPossessionSigningKeyBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _certRequest, offset 0x10, size 0x8
-  __declspec(property(get = __get__certRequest, put = __set__certRequest))::Org::BouncyCastle::Asn1::Crmf::CertRequest* _certRequest;
+  __declspec(property(get = __cordl_internal_get__certRequest, put = __cordl_internal_set__certRequest))::Org::BouncyCastle::Asn1::Crmf::CertRequest* _certRequest;
 
   /// @brief Field _pubKeyInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get__pubKeyInfo, put = __set__pubKeyInfo))::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* _pubKeyInfo;
+  __declspec(property(get = __cordl_internal_get__pubKeyInfo, put = __cordl_internal_set__pubKeyInfo))::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* _pubKeyInfo;
 
   /// @brief Field _name, offset 0x20, size 0x8
-  __declspec(property(get = __get__name, put = __set__name))::Org::BouncyCastle::Asn1::X509::GeneralName* _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::Org::BouncyCastle::Asn1::X509::GeneralName* _name;
 
   /// @brief Field _publicKeyMAC, offset 0x28, size 0x8
-  __declspec(property(get = __get__publicKeyMAC, put = __set__publicKeyMAC))::Org::BouncyCastle::Asn1::Crmf::PKMacValue* _publicKeyMAC;
+  __declspec(property(get = __cordl_internal_get__publicKeyMAC, put = __cordl_internal_set__publicKeyMAC))::Org::BouncyCastle::Asn1::Crmf::PKMacValue* _publicKeyMAC;
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::CertRequest*& __get__certRequest();
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::CertRequest*& __cordl_internal_get__certRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertRequest*> const& __get__certRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertRequest*> const& __cordl_internal_get__certRequest() const;
 
-  constexpr void __set__certRequest(::Org::BouncyCastle::Asn1::Crmf::CertRequest* value);
+  constexpr void __cordl_internal_set__certRequest(::Org::BouncyCastle::Asn1::Crmf::CertRequest* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*& __get__pubKeyInfo();
+  constexpr ::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*& __cordl_internal_get__pubKeyInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*> const& __get__pubKeyInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo*> const& __cordl_internal_get__pubKeyInfo() const;
 
-  constexpr void __set__pubKeyInfo(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* value);
+  constexpr void __cordl_internal_set__pubKeyInfo(::Org::BouncyCastle::Asn1::X509::SubjectPublicKeyInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __get__name();
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get__name();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __get__name() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get__name() const;
 
-  constexpr void __set__name(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+  constexpr void __cordl_internal_set__name(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::PKMacValue*& __get__publicKeyMAC();
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::PKMacValue*& __cordl_internal_get__publicKeyMAC();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PKMacValue*> const& __get__publicKeyMAC() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PKMacValue*> const& __cordl_internal_get__publicKeyMAC() const;
 
-  constexpr void __set__publicKeyMAC(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* value);
+  constexpr void __cordl_internal_set__publicKeyMAC(::Org::BouncyCastle::Asn1::Crmf::PKMacValue* value);
 
   static inline ::Org::BouncyCastle::Crmf::ProofOfPossessionSigningKeyBuilder* New_ctor(::Org::BouncyCastle::Asn1::Crmf::CertRequest* certRequest);
 

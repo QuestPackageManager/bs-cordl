@@ -23,29 +23,29 @@ MARK_REF_PTR_T(::System::Security::Cryptography::DSASignatureDeformatter);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2919))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2919))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2932))
 // CS Name: ::System.Security.Cryptography::DSASignatureDeformatter*
 class CORDL_TYPE DSASignatureDeformatter : public ::System::Security::Cryptography::AsymmetricSignatureDeformatter {
 public:
   // Declarations
   /// @brief Field _dsaKey, offset 0x10, size 0x8
-  __declspec(property(get = __get__dsaKey, put = __set__dsaKey))::System::Security::Cryptography::DSA* _dsaKey;
+  __declspec(property(get = __cordl_internal_get__dsaKey, put = __cordl_internal_set__dsaKey))::System::Security::Cryptography::DSA* _dsaKey;
 
   /// @brief Field _oid, offset 0x18, size 0x8
-  __declspec(property(get = __get__oid, put = __set__oid))::StringW _oid;
+  __declspec(property(get = __cordl_internal_get__oid, put = __cordl_internal_set__oid))::StringW _oid;
 
-  constexpr ::System::Security::Cryptography::DSA*& __get__dsaKey();
+  constexpr ::System::Security::Cryptography::DSA*& __cordl_internal_get__dsaKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DSA*> const& __get__dsaKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::DSA*> const& __cordl_internal_get__dsaKey() const;
 
-  constexpr void __set__dsaKey(::System::Security::Cryptography::DSA* value);
+  constexpr void __cordl_internal_set__dsaKey(::System::Security::Cryptography::DSA* value);
 
-  constexpr ::StringW& __get__oid();
+  constexpr ::StringW& __cordl_internal_get__oid();
 
-  constexpr ::StringW const& __get__oid() const;
+  constexpr ::StringW const& __cordl_internal_get__oid() const;
 
-  constexpr void __set__oid(::StringW value);
+  constexpr void __cordl_internal_set__oid(::StringW value);
 
   static inline ::System::Security::Cryptography::DSASignatureDeformatter* New_ctor();
 

@@ -21,27 +21,30 @@ MARK_REF_PTR_T(::TrackDefinitions::EnvironmentDefinitionsListSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TrackDefinitions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16055))
 // CS Name: ::TrackDefinitions::EnvironmentDefinitionsListSO*
 class CORDL_TYPE EnvironmentDefinitionsListSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _environmentTracksDefinitions, offset 0x18, size 0x8
-  __declspec(property(get = __get__environmentTracksDefinitions,
-                      put = __set__environmentTracksDefinitions))::ArrayW<::TrackDefinitions::EnvironmentTracksDefinitionSO*,
-                                                                          ::Array<::TrackDefinitions::EnvironmentTracksDefinitionSO*>*> _environmentTracksDefinitions;
+  __declspec(property(get = __cordl_internal_get__environmentTracksDefinitions,
+                      put = __cordl_internal_set__environmentTracksDefinitions))::ArrayW<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>,
+                                                                                         ::Array<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>>*> _environmentTracksDefinitions;
 
-  __declspec(property(get = get_environmentTrackDefinitions))::System::Collections::Generic::IEnumerable_1<::TrackDefinitions::EnvironmentTracksDefinitionSO*>* environmentTrackDefinitions;
+  __declspec(property(get = get_environmentTrackDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>>* environmentTrackDefinitions;
 
-  constexpr ::ArrayW<::TrackDefinitions::EnvironmentTracksDefinitionSO*, ::Array<::TrackDefinitions::EnvironmentTracksDefinitionSO*>*>& __get__environmentTracksDefinitions();
+  constexpr ::ArrayW<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>, ::Array<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>>*>&
+  __cordl_internal_get__environmentTracksDefinitions();
 
-  constexpr ::ArrayW<::TrackDefinitions::EnvironmentTracksDefinitionSO*, ::Array<::TrackDefinitions::EnvironmentTracksDefinitionSO*>*> const& __get__environmentTracksDefinitions() const;
+  constexpr ::ArrayW<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>, ::Array<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>>*> const&
+  __cordl_internal_get__environmentTracksDefinitions() const;
 
-  constexpr void __set__environmentTracksDefinitions(::ArrayW<::TrackDefinitions::EnvironmentTracksDefinitionSO*, ::Array<::TrackDefinitions::EnvironmentTracksDefinitionSO*>*> value);
+  constexpr void __cordl_internal_set__environmentTracksDefinitions(
+      ::ArrayW<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>, ::Array<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>>*> value);
 
   /// @brief Method get_environmentTrackDefinitions, addr 0x2a0ad6c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::TrackDefinitions::EnvironmentTracksDefinitionSO*>* get_environmentTrackDefinitions();
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>>* get_environmentTrackDefinitions();
 
   static inline ::TrackDefinitions::EnvironmentDefinitionsListSO* New_ctor();
 
@@ -63,7 +66,7 @@ protected:
 
 public:
   /// @brief Field _environmentTracksDefinitions, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::TrackDefinitions::EnvironmentTracksDefinitionSO*, ::Array<::TrackDefinitions::EnvironmentTracksDefinitionSO*>*> ____environmentTracksDefinitions;
+  ::ArrayW<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>, ::Array<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>>*> ____environmentTracksDefinitions;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

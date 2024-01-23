@@ -30,84 +30,84 @@ MARK_REF_PTR_T(::GlobalNamespace::GameplayModifierToggle);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5530))
 // CS Name: ::GameplayModifierToggle*
 class CORDL_TYPE GameplayModifierToggle : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _gameplayModifier, offset 0x18, size 0x8
-  __declspec(property(get = __get__gameplayModifier, put = __set__gameplayModifier))::GlobalNamespace::GameplayModifierParamsSO* _gameplayModifier;
+  __declspec(property(get = __cordl_internal_get__gameplayModifier, put = __cordl_internal_set__gameplayModifier))::UnityW<::GlobalNamespace::GameplayModifierParamsSO> _gameplayModifier;
 
   /// @brief Field _nameText, offset 0x20, size 0x8
-  __declspec(property(get = __get__nameText, put = __set__nameText))::TMPro::TextMeshProUGUI* _nameText;
+  __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText))::UnityW<::TMPro::TextMeshProUGUI> _nameText;
 
   /// @brief Field _multiplierText, offset 0x28, size 0x8
-  __declspec(property(get = __get__multiplierText, put = __set__multiplierText))::TMPro::TextMeshProUGUI* _multiplierText;
+  __declspec(property(get = __cordl_internal_get__multiplierText, put = __cordl_internal_set__multiplierText))::UnityW<::TMPro::TextMeshProUGUI> _multiplierText;
 
   /// @brief Field _hoverTextSetter, offset 0x30, size 0x8
-  __declspec(property(get = __get__hoverTextSetter, put = __set__hoverTextSetter))::HMUI::HoverTextSetter* _hoverTextSetter;
+  __declspec(property(get = __cordl_internal_get__hoverTextSetter, put = __cordl_internal_set__hoverTextSetter))::UnityW<::HMUI::HoverTextSetter> _hoverTextSetter;
 
   /// @brief Field _icon, offset 0x38, size 0x8
-  __declspec(property(get = __get__icon, put = __set__icon))::UnityEngine::UI::Image* _icon;
+  __declspec(property(get = __cordl_internal_get__icon, put = __cordl_internal_set__icon))::UnityW<::UnityEngine::UI::Image> _icon;
 
   /// @brief Field _toggle, offset 0x40, size 0x8
-  __declspec(property(get = __get__toggle, put = __set__toggle))::UnityEngine::UI::Toggle* _toggle;
+  __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle))::UnityW<::UnityEngine::UI::Toggle> _toggle;
 
   /// @brief Field _positiveColor, offset 0x48, size 0x10
-  __declspec(property(get = __get__positiveColor, put = __set__positiveColor))::UnityEngine::Color _positiveColor;
+  __declspec(property(get = __cordl_internal_get__positiveColor, put = __cordl_internal_set__positiveColor))::UnityEngine::Color _positiveColor;
 
-  __declspec(property(get = get_toggle))::UnityEngine::UI::Toggle* toggle;
+  __declspec(property(get = get_toggle))::UnityW<::UnityEngine::UI::Toggle> toggle;
 
-  __declspec(property(get = get_gameplayModifier))::GlobalNamespace::GameplayModifierParamsSO* gameplayModifier;
+  __declspec(property(get = get_gameplayModifier))::UnityW<::GlobalNamespace::GameplayModifierParamsSO> gameplayModifier;
 
-  constexpr ::GlobalNamespace::GameplayModifierParamsSO*& __get__gameplayModifier();
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifierParamsSO>& __cordl_internal_get__gameplayModifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierParamsSO*> const& __get__gameplayModifier() const;
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> const& __cordl_internal_get__gameplayModifier() const;
 
-  constexpr void __set__gameplayModifier(::GlobalNamespace::GameplayModifierParamsSO* value);
+  constexpr void __cordl_internal_set__gameplayModifier(::UnityW<::GlobalNamespace::GameplayModifierParamsSO> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__nameText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__nameText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__nameText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__nameText() const;
 
-  constexpr void __set__nameText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__multiplierText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__multiplierText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__multiplierText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__multiplierText() const;
 
-  constexpr void __set__multiplierText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__multiplierText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::HMUI::HoverTextSetter*& __get__hoverTextSetter();
+  constexpr ::UnityW<::HMUI::HoverTextSetter>& __cordl_internal_get__hoverTextSetter();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverTextSetter*> const& __get__hoverTextSetter() const;
+  constexpr ::UnityW<::HMUI::HoverTextSetter> const& __cordl_internal_get__hoverTextSetter() const;
 
-  constexpr void __set__hoverTextSetter(::HMUI::HoverTextSetter* value);
+  constexpr void __cordl_internal_set__hoverTextSetter(::UnityW<::HMUI::HoverTextSetter> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__icon();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__icon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__icon() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__icon() const;
 
-  constexpr void __set__icon(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__toggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__toggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__toggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__toggle() const;
 
-  constexpr void __set__toggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::UnityEngine::Color& __get__positiveColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__positiveColor();
 
-  constexpr ::UnityEngine::Color const& __get__positiveColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__positiveColor() const;
 
-  constexpr void __set__positiveColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__positiveColor(::UnityEngine::Color value);
 
   /// @brief Method get_toggle, addr 0x229e1ac, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Toggle* get_toggle();
+  inline ::UnityW<::UnityEngine::UI::Toggle> get_toggle();
 
   /// @brief Method get_gameplayModifier, addr 0x229e1b4, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::GameplayModifierParamsSO* get_gameplayModifier();
+  inline ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> get_gameplayModifier();
 
   /// @brief Method Start, addr 0x229e1bc, size 0x37c, virtual false, abstract: false, final false
   inline void Start();
@@ -132,22 +132,22 @@ protected:
 
 public:
   /// @brief Field _gameplayModifier, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::GameplayModifierParamsSO* ____gameplayModifier;
+  ::UnityW<::GlobalNamespace::GameplayModifierParamsSO> ____gameplayModifier;
 
   /// @brief Field _nameText, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____nameText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
   /// @brief Field _multiplierText, offset: 0x28, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____multiplierText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____multiplierText;
 
   /// @brief Field _hoverTextSetter, offset: 0x30, size: 0x8, def value: None
-  ::HMUI::HoverTextSetter* ____hoverTextSetter;
+  ::UnityW<::HMUI::HoverTextSetter> ____hoverTextSetter;
 
   /// @brief Field _icon, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____icon;
+  ::UnityW<::UnityEngine::UI::Image> ____icon;
 
   /// @brief Field _toggle, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____toggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____toggle;
 
   /// @brief Field _positiveColor, offset: 0x48, size: 0x10, def value: None
   ::UnityEngine::Color ____positiveColor;

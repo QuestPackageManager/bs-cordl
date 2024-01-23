@@ -56,7 +56,7 @@ MARK_VAL_T(::System::__Number__NumberBuffer);
 // SizeInfo { instance_size: 102, native_size: 102, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2450))
 // CS Name: ::Number::NumberBuffer::DigitsAndNullTerminator
 #pragma pack(push, 0)
@@ -85,7 +85,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Number__Numbe
 // }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2450))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2450))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2451))
 // CS Name: ::Number::NumberBuffer
 #pragma pack(push, 1)
@@ -156,7 +156,7 @@ static_assert(offsetof(::System::__Number__NumberBuffer, _allDigits) == 0x72, "O
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2452))
 // CS Name: ::System::Number*
 class CORDL_TYPE Number : public ::System::Object {

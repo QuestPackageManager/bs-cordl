@@ -110,8 +110,8 @@ MARK_VAL_T(::GlobalNamespace::__DlcPromoPanelModel___UpdatePacksAsync_d__19);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4160)) CS Name: ::DlcPromoPanelModel::<Initialize>d__10
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4160)) CS Name: ::DlcPromoPanelModel::<Initialize>d__10
 struct CORDL_TYPE __DlcPromoPanelModel___Initialize_d__10 {
 public:
   // Declarations
@@ -176,20 +176,20 @@ static_assert(offsetof(::GlobalNamespace::__DlcPromoPanelModel___Initialize_d__1
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4658)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4658))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4161))
 // CS Name: ::DlcPromoPanelModel::<>c__DisplayClass11_0*
 class CORDL_TYPE __DlcPromoPanelModel____c__DisplayClass11_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field sensitivityFlag, offset 0x10, size 0x4
-  __declspec(property(get = __get_sensitivityFlag, put = __set_sensitivityFlag))::GlobalNamespace::PlayerSensitivityFlag sensitivityFlag;
+  __declspec(property(get = __cordl_internal_get_sensitivityFlag, put = __cordl_internal_set_sensitivityFlag))::GlobalNamespace::PlayerSensitivityFlag sensitivityFlag;
 
-  constexpr ::GlobalNamespace::PlayerSensitivityFlag& __get_sensitivityFlag();
+  constexpr ::GlobalNamespace::PlayerSensitivityFlag& __cordl_internal_get_sensitivityFlag();
 
-  constexpr ::GlobalNamespace::PlayerSensitivityFlag const& __get_sensitivityFlag() const;
+  constexpr ::GlobalNamespace::PlayerSensitivityFlag const& __cordl_internal_get_sensitivityFlag() const;
 
-  constexpr void __set_sensitivityFlag(::GlobalNamespace::PlayerSensitivityFlag value);
+  constexpr void __cordl_internal_set_sensitivityFlag(::GlobalNamespace::PlayerSensitivityFlag value);
 
   static inline ::GlobalNamespace::__DlcPromoPanelModel____c__DisplayClass11_0* New_ctor();
 
@@ -231,8 +231,8 @@ static_assert(offsetof(::GlobalNamespace::__DlcPromoPanelModel____c__DisplayClas
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4162)) CS Name: ::DlcPromoPanelModel::<UpdatePacksAsync>d__19
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(16270)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4162)) CS Name: ::DlcPromoPanelModel::<UpdatePacksAsync>d__19
 struct CORDL_TYPE __DlcPromoPanelModel___UpdatePacksAsync_d__19 {
 public:
   // Declarations
@@ -325,7 +325,7 @@ static_assert(offsetof(::GlobalNamespace::__DlcPromoPanelModel___UpdatePacksAsyn
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4163))
 // CS Name: ::DlcPromoPanelModel::<HandleAdditionalContentModelDidInvalidateData>d__20
 struct CORDL_TYPE __DlcPromoPanelModel___HandleAdditionalContentModelDidInvalidateData_d__20 {
@@ -387,7 +387,7 @@ static_assert(offsetof(::GlobalNamespace::__DlcPromoPanelModel___HandleAdditiona
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4164))
 // CS Name: ::DlcPromoPanelModel*
 class CORDL_TYPE DlcPromoPanelModel : public ::System::Object {
@@ -402,38 +402,38 @@ public:
   using _Initialize_d__10 = ::GlobalNamespace::__DlcPromoPanelModel___Initialize_d__10;
 
   /// @brief Field _additionalContentModel, offset 0x10, size 0x8
-  __declspec(property(get = __get__additionalContentModel, put = __set__additionalContentModel))::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
+  __declspec(property(get = __cordl_internal_get__additionalContentModel, put = __cordl_internal_set__additionalContentModel))::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
 
   /// @brief Field _analyticsModel, offset 0x18, size 0x8
-  __declspec(property(get = __get__analyticsModel, put = __set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
+  __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
 
   /// @brief Field _dlcPromoPanelData, offset 0x20, size 0x8
-  __declspec(property(get = __get__dlcPromoPanelData, put = __set__dlcPromoPanelData))::GlobalNamespace::DlcPromoPanelDataSO* _dlcPromoPanelData;
+  __declspec(property(get = __cordl_internal_get__dlcPromoPanelData, put = __cordl_internal_set__dlcPromoPanelData))::UnityW<::GlobalNamespace::DlcPromoPanelDataSO> _dlcPromoPanelData;
 
   /// @brief Field _playerDataModel, offset 0x28, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _platformInit, offset 0x30, size 0x8
-  __declspec(property(get = __get__platformInit, put = __set__platformInit))::GlobalNamespace::IPlatformInit* _platformInit;
+  __declspec(property(get = __cordl_internal_get__platformInit, put = __cordl_internal_set__platformInit))::GlobalNamespace::IPlatformInit* _platformInit;
 
   /// @brief Field _notOwnedMusicPackPromoInfos, offset 0x38, size 0x8
-  __declspec(property(get = __get__notOwnedMusicPackPromoInfos,
-                      put = __set__notOwnedMusicPackPromoInfos))::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*,
-                                                                         ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> _notOwnedMusicPackPromoInfos;
+  __declspec(property(get = __cordl_internal_get__notOwnedMusicPackPromoInfos,
+                      put = __cordl_internal_set__notOwnedMusicPackPromoInfos))::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*,
+                                                                                        ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> _notOwnedMusicPackPromoInfos;
 
   /// @brief Field _ownedMusicPackPromoInfos, offset 0x40, size 0x8
-  __declspec(property(get = __get__ownedMusicPackPromoInfos,
-                      put = __set__ownedMusicPackPromoInfos))::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*,
-                                                                      ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> _ownedMusicPackPromoInfos;
+  __declspec(property(get = __cordl_internal_get__ownedMusicPackPromoInfos,
+                      put = __cordl_internal_set__ownedMusicPackPromoInfos))::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*,
+                                                                                     ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> _ownedMusicPackPromoInfos;
 
   /// @brief Field _updatingNotOwnedPacks, offset 0x48, size 0x1
-  __declspec(property(get = __get__updatingNotOwnedPacks, put = __set__updatingNotOwnedPacks)) bool _updatingNotOwnedPacks;
+  __declspec(property(get = __cordl_internal_get__updatingNotOwnedPacks, put = __cordl_internal_set__updatingNotOwnedPacks)) bool _updatingNotOwnedPacks;
 
   /// @brief Field _initialized, offset 0x49, size 0x1
-  __declspec(property(get = __get__initialized, put = __set__initialized)) bool _initialized;
+  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
   /// @brief Field _random, offset 0x50, size 0x8
-  __declspec(property(get = __get__random, put = __set__random))::System::Random* _random;
+  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random))::System::Random* _random;
 
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
@@ -441,69 +441,71 @@ public:
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
-  constexpr ::GlobalNamespace::IAdditionalContentModel*& __get__additionalContentModel();
+  constexpr ::GlobalNamespace::IAdditionalContentModel*& __cordl_internal_get__additionalContentModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const& __get__additionalContentModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const& __cordl_internal_get__additionalContentModel() const;
 
-  constexpr void __set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
+  constexpr void __cordl_internal_set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
 
-  constexpr ::GlobalNamespace::IAnalyticsModel*& __get__analyticsModel();
+  constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __get__analyticsModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __cordl_internal_get__analyticsModel() const;
 
-  constexpr void __set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
+  constexpr void __cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
 
-  constexpr ::GlobalNamespace::DlcPromoPanelDataSO*& __get__dlcPromoPanelData();
+  constexpr ::UnityW<::GlobalNamespace::DlcPromoPanelDataSO>& __cordl_internal_get__dlcPromoPanelData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DlcPromoPanelDataSO*> const& __get__dlcPromoPanelData() const;
+  constexpr ::UnityW<::GlobalNamespace::DlcPromoPanelDataSO> const& __cordl_internal_get__dlcPromoPanelData() const;
 
-  constexpr void __set__dlcPromoPanelData(::GlobalNamespace::DlcPromoPanelDataSO* value);
+  constexpr void __cordl_internal_set__dlcPromoPanelData(::UnityW<::GlobalNamespace::DlcPromoPanelDataSO> value);
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::GlobalNamespace::IPlatformInit*& __get__platformInit();
+  constexpr ::GlobalNamespace::IPlatformInit*& __cordl_internal_get__platformInit();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformInit*> const& __get__platformInit() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformInit*> const& __cordl_internal_get__platformInit() const;
 
-  constexpr void __set__platformInit(::GlobalNamespace::IPlatformInit* value);
+  constexpr void __cordl_internal_set__platformInit(::GlobalNamespace::IPlatformInit* value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*>& __get__notOwnedMusicPackPromoInfos();
-
-  constexpr ::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> const&
-  __get__notOwnedMusicPackPromoInfos() const;
-
-  constexpr void
-  __set__notOwnedMusicPackPromoInfos(::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> value);
-
-  constexpr ::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*>& __get__ownedMusicPackPromoInfos();
+  constexpr ::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*>&
+  __cordl_internal_get__notOwnedMusicPackPromoInfos();
 
   constexpr ::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> const&
-  __get__ownedMusicPackPromoInfos() const;
+  __cordl_internal_get__notOwnedMusicPackPromoInfos() const;
 
-  constexpr void
-  __set__ownedMusicPackPromoInfos(::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> value);
+  constexpr void __cordl_internal_set__notOwnedMusicPackPromoInfos(
+      ::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> value);
 
-  constexpr bool& __get__updatingNotOwnedPacks();
+  constexpr ::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*>&
+  __cordl_internal_get__ownedMusicPackPromoInfos();
 
-  constexpr bool const& __get__updatingNotOwnedPacks() const;
+  constexpr ::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> const&
+  __cordl_internal_get__ownedMusicPackPromoInfos() const;
 
-  constexpr void __set__updatingNotOwnedPacks(bool value);
+  constexpr void __cordl_internal_set__ownedMusicPackPromoInfos(
+      ::ArrayW<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*, ::Array<::GlobalNamespace::__DlcPromoPanelDataSO__MusicPackPromoInfo*>*> value);
 
-  constexpr bool& __get__initialized();
+  constexpr bool& __cordl_internal_get__updatingNotOwnedPacks();
 
-  constexpr bool const& __get__initialized() const;
+  constexpr bool const& __cordl_internal_get__updatingNotOwnedPacks() const;
 
-  constexpr void __set__initialized(bool value);
+  constexpr void __cordl_internal_set__updatingNotOwnedPacks(bool value);
 
-  constexpr ::System::Random*& __get__random();
+  constexpr bool& __cordl_internal_get__initialized();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& __get__random() const;
+  constexpr bool const& __cordl_internal_get__initialized() const;
 
-  constexpr void __set__random(::System::Random* value);
+  constexpr void __cordl_internal_set__initialized(bool value);
+
+  constexpr ::System::Random*& __cordl_internal_get__random();
+
+  constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& __cordl_internal_get__random() const;
+
+  constexpr void __cordl_internal_set__random(::System::Random* value);
 
   /// @brief Method Initialize, addr 0x223e3a0, size 0x90, virtual true, abstract: false, final true
   inline void Initialize();
@@ -564,10 +566,10 @@ public:
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;
 
   /// @brief Field _dlcPromoPanelData, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::DlcPromoPanelDataSO* ____dlcPromoPanelData;
+  ::UnityW<::GlobalNamespace::DlcPromoPanelDataSO> ____dlcPromoPanelData;
 
   /// @brief Field _playerDataModel, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _platformInit, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IPlatformInit* ____platformInit;

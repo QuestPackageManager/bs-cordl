@@ -37,83 +37,83 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerCenterTextAnimator);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5194))
 // CS Name: ::MultiplayerCenterTextAnimator*
 class CORDL_TYPE MultiplayerCenterTextAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _text, offset 0x18, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::TMPro::TextMeshPro* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshPro> _text;
 
   /// @brief Field _scalingTarget, offset 0x20, size 0x8
-  __declspec(property(get = __get__scalingTarget, put = __set__scalingTarget))::UnityEngine::Transform* _scalingTarget;
+  __declspec(property(get = __cordl_internal_get__scalingTarget, put = __cordl_internal_set__scalingTarget))::UnityW<::UnityEngine::Transform> _scalingTarget;
 
   /// @brief Field _tweeningManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__tweeningManager, put = __set__tweeningManager))::Tweening::TimeTweeningManager* _tweeningManager;
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
   /// @brief Field _fadeInTween, offset 0x30, size 0x8
-  __declspec(property(get = __get__fadeInTween, put = __set__fadeInTween))::Tweening::Tween_1<float_t>* _fadeInTween;
+  __declspec(property(get = __cordl_internal_get__fadeInTween, put = __cordl_internal_set__fadeInTween))::Tweening::Tween_1<float_t>* _fadeInTween;
 
   /// @brief Field _fadeOutTween, offset 0x38, size 0x8
-  __declspec(property(get = __get__fadeOutTween, put = __set__fadeOutTween))::Tweening::Tween_1<float_t>* _fadeOutTween;
+  __declspec(property(get = __cordl_internal_get__fadeOutTween, put = __cordl_internal_set__fadeOutTween))::Tweening::Tween_1<float_t>* _fadeOutTween;
 
   /// @brief Field _fontSizeTween, offset 0x40, size 0x8
-  __declspec(property(get = __get__fontSizeTween, put = __set__fontSizeTween))::Tweening::Tween_1<float_t>* _fontSizeTween;
+  __declspec(property(get = __cordl_internal_get__fontSizeTween, put = __cordl_internal_set__fontSizeTween))::Tweening::Tween_1<float_t>* _fontSizeTween;
 
   /// @brief Field _colorTween, offset 0x48, size 0x8
-  __declspec(property(get = __get__colorTween, put = __set__colorTween))::Tweening::Tween_1<::UnityEngine::Color>* _colorTween;
+  __declspec(property(get = __cordl_internal_get__colorTween, put = __cordl_internal_set__colorTween))::Tweening::Tween_1<::UnityEngine::Color>* _colorTween;
 
   /// @brief Field _offsetTween, offset 0x50, size 0x8
-  __declspec(property(get = __get__offsetTween, put = __set__offsetTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _offsetTween;
+  __declspec(property(get = __cordl_internal_get__offsetTween, put = __cordl_internal_set__offsetTween))::Tweening::Tween_1<::UnityEngine::Vector3>* _offsetTween;
 
-  constexpr ::TMPro::TextMeshPro*& __get__text();
+  constexpr ::UnityW<::TMPro::TextMeshPro>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshPro*> const& __get__text() const;
+  constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::TMPro::TextMeshPro* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value);
 
-  constexpr ::UnityEngine::Transform*& __get__scalingTarget();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__scalingTarget();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__scalingTarget() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__scalingTarget() const;
 
-  constexpr void __set__scalingTarget(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__scalingTarget(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::Tweening::TimeTweeningManager*& __get__tweeningManager();
+  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& __get__tweeningManager() const;
+  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
-  constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager* value);
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  constexpr ::Tweening::Tween_1<float_t>*& __get__fadeInTween();
+  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__fadeInTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __get__fadeInTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__fadeInTween() const;
 
-  constexpr void __set__fadeInTween(::Tweening::Tween_1<float_t>* value);
+  constexpr void __cordl_internal_set__fadeInTween(::Tweening::Tween_1<float_t>* value);
 
-  constexpr ::Tweening::Tween_1<float_t>*& __get__fadeOutTween();
+  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__fadeOutTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __get__fadeOutTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__fadeOutTween() const;
 
-  constexpr void __set__fadeOutTween(::Tweening::Tween_1<float_t>* value);
+  constexpr void __cordl_internal_set__fadeOutTween(::Tweening::Tween_1<float_t>* value);
 
-  constexpr ::Tweening::Tween_1<float_t>*& __get__fontSizeTween();
+  constexpr ::Tweening::Tween_1<float_t>*& __cordl_internal_get__fontSizeTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __get__fontSizeTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<float_t>*> const& __cordl_internal_get__fontSizeTween() const;
 
-  constexpr void __set__fontSizeTween(::Tweening::Tween_1<float_t>* value);
+  constexpr void __cordl_internal_set__fontSizeTween(::Tweening::Tween_1<float_t>* value);
 
-  constexpr ::Tweening::Tween_1<::UnityEngine::Color>*& __get__colorTween();
+  constexpr ::Tweening::Tween_1<::UnityEngine::Color>*& __cordl_internal_get__colorTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Color>*> const& __get__colorTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Color>*> const& __cordl_internal_get__colorTween() const;
 
-  constexpr void __set__colorTween(::Tweening::Tween_1<::UnityEngine::Color>* value);
+  constexpr void __cordl_internal_set__colorTween(::Tweening::Tween_1<::UnityEngine::Color>* value);
 
-  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __get__offsetTween();
+  constexpr ::Tweening::Tween_1<::UnityEngine::Vector3>*& __cordl_internal_get__offsetTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __get__offsetTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Vector3>*> const& __cordl_internal_get__offsetTween() const;
 
-  constexpr void __set__offsetTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set__offsetTween(::Tweening::Tween_1<::UnityEngine::Vector3>* value);
 
   /// @brief Method Awake, addr 0x22459c0, size 0x408, virtual false, abstract: false, final false
   inline void Awake();
@@ -174,13 +174,13 @@ protected:
 
 public:
   /// @brief Field _text, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshPro* ____text;
+  ::UnityW<::TMPro::TextMeshPro> ____text;
 
   /// @brief Field _scalingTarget, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____scalingTarget;
+  ::UnityW<::UnityEngine::Transform> ____scalingTarget;
 
   /// @brief Field _tweeningManager, offset: 0x28, size: 0x8, def value: None
-  ::Tweening::TimeTweeningManager* ____tweeningManager;
+  ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
   /// @brief Field _fadeInTween, offset: 0x30, size: 0x8, def value: None
   ::Tweening::Tween_1<float_t>* ____fadeInTween;

@@ -54,7 +54,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LevelCompletionResults);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15017))
 // CS Name: ::LevelCompletionResults::LevelEndStateType
 struct CORDL_TYPE __LevelCompletionResults__LevelEndStateType {
@@ -108,7 +108,7 @@ static_assert(offsetof(::GlobalNamespace::__LevelCompletionResults__LevelEndStat
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15018))
 // CS Name: ::LevelCompletionResults::LevelEndAction
 struct CORDL_TYPE __LevelCompletionResults__LevelEndAction {
@@ -162,8 +162,8 @@ static_assert(offsetof(::GlobalNamespace::__LevelCompletionResults__LevelEndActi
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15017)), TypeDefinitionIndex(TypeDefinitionIndex(15034)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15018))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15019)) CS Name: ::LevelCompletionResults*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15017)), TypeDefinitionIndex(TypeDefinitionIndex(15018)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15034))] Self: TypeDefinitionIndex(TypeDefinitionIndex(15019)) CS Name: ::LevelCompletionResults*
 class CORDL_TYPE LevelCompletionResults : public ::System::Object {
 public:
   // Declarations
@@ -172,78 +172,79 @@ public:
   using LevelEndStateType = ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType;
 
   /// @brief Field gameplayModifiers, offset 0x10, size 0x8
-  __declspec(property(get = __get_gameplayModifiers, put = __set_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
+  __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers))::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
   /// @brief Field modifiedScore, offset 0x18, size 0x4
-  __declspec(property(get = __get_modifiedScore, put = __set_modifiedScore)) int32_t modifiedScore;
+  __declspec(property(get = __cordl_internal_get_modifiedScore, put = __cordl_internal_set_modifiedScore)) int32_t modifiedScore;
 
   /// @brief Field multipliedScore, offset 0x1c, size 0x4
-  __declspec(property(get = __get_multipliedScore, put = __set_multipliedScore)) int32_t multipliedScore;
+  __declspec(property(get = __cordl_internal_get_multipliedScore, put = __cordl_internal_set_multipliedScore)) int32_t multipliedScore;
 
   /// @brief Field rank, offset 0x20, size 0x4
-  __declspec(property(get = __get_rank, put = __set_rank))::GlobalNamespace::__RankModel__Rank rank;
+  __declspec(property(get = __cordl_internal_get_rank, put = __cordl_internal_set_rank))::GlobalNamespace::__RankModel__Rank rank;
 
   /// @brief Field fullCombo, offset 0x24, size 0x1
-  __declspec(property(get = __get_fullCombo, put = __set_fullCombo)) bool fullCombo;
+  __declspec(property(get = __cordl_internal_get_fullCombo, put = __cordl_internal_set_fullCombo)) bool fullCombo;
 
   /// @brief Field leftSaberMovementDistance, offset 0x28, size 0x4
-  __declspec(property(get = __get_leftSaberMovementDistance, put = __set_leftSaberMovementDistance)) float_t leftSaberMovementDistance;
+  __declspec(property(get = __cordl_internal_get_leftSaberMovementDistance, put = __cordl_internal_set_leftSaberMovementDistance)) float_t leftSaberMovementDistance;
 
   /// @brief Field rightSaberMovementDistance, offset 0x2c, size 0x4
-  __declspec(property(get = __get_rightSaberMovementDistance, put = __set_rightSaberMovementDistance)) float_t rightSaberMovementDistance;
+  __declspec(property(get = __cordl_internal_get_rightSaberMovementDistance, put = __cordl_internal_set_rightSaberMovementDistance)) float_t rightSaberMovementDistance;
 
   /// @brief Field leftHandMovementDistance, offset 0x30, size 0x4
-  __declspec(property(get = __get_leftHandMovementDistance, put = __set_leftHandMovementDistance)) float_t leftHandMovementDistance;
+  __declspec(property(get = __cordl_internal_get_leftHandMovementDistance, put = __cordl_internal_set_leftHandMovementDistance)) float_t leftHandMovementDistance;
 
   /// @brief Field rightHandMovementDistance, offset 0x34, size 0x4
-  __declspec(property(get = __get_rightHandMovementDistance, put = __set_rightHandMovementDistance)) float_t rightHandMovementDistance;
+  __declspec(property(get = __cordl_internal_get_rightHandMovementDistance, put = __cordl_internal_set_rightHandMovementDistance)) float_t rightHandMovementDistance;
 
   /// @brief Field levelEndStateType, offset 0x38, size 0x4
-  __declspec(property(get = __get_levelEndStateType, put = __set_levelEndStateType))::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType;
+  __declspec(property(get = __cordl_internal_get_levelEndStateType, put = __cordl_internal_set_levelEndStateType))::GlobalNamespace::__LevelCompletionResults__LevelEndStateType levelEndStateType;
 
   /// @brief Field levelEndAction, offset 0x3c, size 0x4
-  __declspec(property(get = __get_levelEndAction, put = __set_levelEndAction))::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction;
+  __declspec(property(get = __cordl_internal_get_levelEndAction, put = __cordl_internal_set_levelEndAction))::GlobalNamespace::__LevelCompletionResults__LevelEndAction levelEndAction;
 
   /// @brief Field energy, offset 0x40, size 0x4
-  __declspec(property(get = __get_energy, put = __set_energy)) float_t energy;
+  __declspec(property(get = __cordl_internal_get_energy, put = __cordl_internal_set_energy)) float_t energy;
 
   /// @brief Field goodCutsCount, offset 0x44, size 0x4
-  __declspec(property(get = __get_goodCutsCount, put = __set_goodCutsCount)) int32_t goodCutsCount;
+  __declspec(property(get = __cordl_internal_get_goodCutsCount, put = __cordl_internal_set_goodCutsCount)) int32_t goodCutsCount;
 
   /// @brief Field badCutsCount, offset 0x48, size 0x4
-  __declspec(property(get = __get_badCutsCount, put = __set_badCutsCount)) int32_t badCutsCount;
+  __declspec(property(get = __cordl_internal_get_badCutsCount, put = __cordl_internal_set_badCutsCount)) int32_t badCutsCount;
 
   /// @brief Field missedCount, offset 0x4c, size 0x4
-  __declspec(property(get = __get_missedCount, put = __set_missedCount)) int32_t missedCount;
+  __declspec(property(get = __cordl_internal_get_missedCount, put = __cordl_internal_set_missedCount)) int32_t missedCount;
 
   /// @brief Field notGoodCount, offset 0x50, size 0x4
-  __declspec(property(get = __get_notGoodCount, put = __set_notGoodCount)) int32_t notGoodCount;
+  __declspec(property(get = __cordl_internal_get_notGoodCount, put = __cordl_internal_set_notGoodCount)) int32_t notGoodCount;
 
   /// @brief Field okCount, offset 0x54, size 0x4
-  __declspec(property(get = __get_okCount, put = __set_okCount)) int32_t okCount;
+  __declspec(property(get = __cordl_internal_get_okCount, put = __cordl_internal_set_okCount)) int32_t okCount;
 
   /// @brief Field maxCutScore, offset 0x58, size 0x4
-  __declspec(property(get = __get_maxCutScore, put = __set_maxCutScore)) int32_t maxCutScore;
+  __declspec(property(get = __cordl_internal_get_maxCutScore, put = __cordl_internal_set_maxCutScore)) int32_t maxCutScore;
 
   /// @brief Field totalCutScore, offset 0x5c, size 0x4
-  __declspec(property(get = __get_totalCutScore, put = __set_totalCutScore)) int32_t totalCutScore;
+  __declspec(property(get = __cordl_internal_get_totalCutScore, put = __cordl_internal_set_totalCutScore)) int32_t totalCutScore;
 
   /// @brief Field goodCutsCountForNotesWithFullScoreScoringType, offset 0x60, size 0x4
-  __declspec(property(get = __get_goodCutsCountForNotesWithFullScoreScoringType, put = __set_goodCutsCountForNotesWithFullScoreScoringType)) int32_t goodCutsCountForNotesWithFullScoreScoringType;
+  __declspec(property(get = __cordl_internal_get_goodCutsCountForNotesWithFullScoreScoringType,
+                      put = __cordl_internal_set_goodCutsCountForNotesWithFullScoreScoringType)) int32_t goodCutsCountForNotesWithFullScoreScoringType;
 
   /// @brief Field averageCenterDistanceCutScoreForNotesWithFullScoreScoringType, offset 0x64, size 0x4
-  __declspec(property(get = __get_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType,
-                      put = __set_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType)) float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType;
+  __declspec(property(get = __cordl_internal_get_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType,
+                      put = __cordl_internal_set_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType)) float_t averageCenterDistanceCutScoreForNotesWithFullScoreScoringType;
 
   /// @brief Field averageCutScoreForNotesWithFullScoreScoringType, offset 0x68, size 0x4
-  __declspec(property(get = __get_averageCutScoreForNotesWithFullScoreScoringType,
-                      put = __set_averageCutScoreForNotesWithFullScoreScoringType)) float_t averageCutScoreForNotesWithFullScoreScoringType;
+  __declspec(property(get = __cordl_internal_get_averageCutScoreForNotesWithFullScoreScoringType,
+                      put = __cordl_internal_set_averageCutScoreForNotesWithFullScoreScoringType)) float_t averageCutScoreForNotesWithFullScoreScoringType;
 
   /// @brief Field maxCombo, offset 0x6c, size 0x4
-  __declspec(property(get = __get_maxCombo, put = __set_maxCombo)) int32_t maxCombo;
+  __declspec(property(get = __cordl_internal_get_maxCombo, put = __cordl_internal_set_maxCombo)) int32_t maxCombo;
 
   /// @brief Field endSongTime, offset 0x70, size 0x4
-  __declspec(property(get = __get_endSongTime, put = __set_endSongTime)) float_t endSongTime;
+  __declspec(property(get = __cordl_internal_get_endSongTime, put = __cordl_internal_set_endSongTime)) float_t endSongTime;
 
   /// @brief Convert operator to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>"
   constexpr operator ::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::LevelCompletionResults*>*() noexcept;
@@ -258,149 +259,149 @@ public:
   /// @brief Convert to "::System::IComparable"
   constexpr ::System::IComparable* i___System__IComparable() noexcept;
 
-  constexpr ::GlobalNamespace::GameplayModifiers*& __get_gameplayModifiers();
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get_gameplayModifiers();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __get_gameplayModifiers() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get_gameplayModifiers() const;
 
-  constexpr void __set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+  constexpr void __cordl_internal_set_gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  constexpr int32_t& __get_modifiedScore();
+  constexpr int32_t& __cordl_internal_get_modifiedScore();
 
-  constexpr int32_t const& __get_modifiedScore() const;
+  constexpr int32_t const& __cordl_internal_get_modifiedScore() const;
 
-  constexpr void __set_modifiedScore(int32_t value);
+  constexpr void __cordl_internal_set_modifiedScore(int32_t value);
 
-  constexpr int32_t& __get_multipliedScore();
+  constexpr int32_t& __cordl_internal_get_multipliedScore();
 
-  constexpr int32_t const& __get_multipliedScore() const;
+  constexpr int32_t const& __cordl_internal_get_multipliedScore() const;
 
-  constexpr void __set_multipliedScore(int32_t value);
+  constexpr void __cordl_internal_set_multipliedScore(int32_t value);
 
-  constexpr ::GlobalNamespace::__RankModel__Rank& __get_rank();
+  constexpr ::GlobalNamespace::__RankModel__Rank& __cordl_internal_get_rank();
 
-  constexpr ::GlobalNamespace::__RankModel__Rank const& __get_rank() const;
+  constexpr ::GlobalNamespace::__RankModel__Rank const& __cordl_internal_get_rank() const;
 
-  constexpr void __set_rank(::GlobalNamespace::__RankModel__Rank value);
+  constexpr void __cordl_internal_set_rank(::GlobalNamespace::__RankModel__Rank value);
 
-  constexpr bool& __get_fullCombo();
+  constexpr bool& __cordl_internal_get_fullCombo();
 
-  constexpr bool const& __get_fullCombo() const;
+  constexpr bool const& __cordl_internal_get_fullCombo() const;
 
-  constexpr void __set_fullCombo(bool value);
+  constexpr void __cordl_internal_set_fullCombo(bool value);
 
-  constexpr float_t& __get_leftSaberMovementDistance();
+  constexpr float_t& __cordl_internal_get_leftSaberMovementDistance();
 
-  constexpr float_t const& __get_leftSaberMovementDistance() const;
+  constexpr float_t const& __cordl_internal_get_leftSaberMovementDistance() const;
 
-  constexpr void __set_leftSaberMovementDistance(float_t value);
+  constexpr void __cordl_internal_set_leftSaberMovementDistance(float_t value);
 
-  constexpr float_t& __get_rightSaberMovementDistance();
+  constexpr float_t& __cordl_internal_get_rightSaberMovementDistance();
 
-  constexpr float_t const& __get_rightSaberMovementDistance() const;
+  constexpr float_t const& __cordl_internal_get_rightSaberMovementDistance() const;
 
-  constexpr void __set_rightSaberMovementDistance(float_t value);
+  constexpr void __cordl_internal_set_rightSaberMovementDistance(float_t value);
 
-  constexpr float_t& __get_leftHandMovementDistance();
+  constexpr float_t& __cordl_internal_get_leftHandMovementDistance();
 
-  constexpr float_t const& __get_leftHandMovementDistance() const;
+  constexpr float_t const& __cordl_internal_get_leftHandMovementDistance() const;
 
-  constexpr void __set_leftHandMovementDistance(float_t value);
+  constexpr void __cordl_internal_set_leftHandMovementDistance(float_t value);
 
-  constexpr float_t& __get_rightHandMovementDistance();
+  constexpr float_t& __cordl_internal_get_rightHandMovementDistance();
 
-  constexpr float_t const& __get_rightHandMovementDistance() const;
+  constexpr float_t const& __cordl_internal_get_rightHandMovementDistance() const;
 
-  constexpr void __set_rightHandMovementDistance(float_t value);
+  constexpr void __cordl_internal_set_rightHandMovementDistance(float_t value);
 
-  constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType& __get_levelEndStateType();
+  constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType& __cordl_internal_get_levelEndStateType();
 
-  constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType const& __get_levelEndStateType() const;
+  constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndStateType const& __cordl_internal_get_levelEndStateType() const;
 
-  constexpr void __set_levelEndStateType(::GlobalNamespace::__LevelCompletionResults__LevelEndStateType value);
+  constexpr void __cordl_internal_set_levelEndStateType(::GlobalNamespace::__LevelCompletionResults__LevelEndStateType value);
 
-  constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndAction& __get_levelEndAction();
+  constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndAction& __cordl_internal_get_levelEndAction();
 
-  constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndAction const& __get_levelEndAction() const;
+  constexpr ::GlobalNamespace::__LevelCompletionResults__LevelEndAction const& __cordl_internal_get_levelEndAction() const;
 
-  constexpr void __set_levelEndAction(::GlobalNamespace::__LevelCompletionResults__LevelEndAction value);
+  constexpr void __cordl_internal_set_levelEndAction(::GlobalNamespace::__LevelCompletionResults__LevelEndAction value);
 
-  constexpr float_t& __get_energy();
+  constexpr float_t& __cordl_internal_get_energy();
 
-  constexpr float_t const& __get_energy() const;
+  constexpr float_t const& __cordl_internal_get_energy() const;
 
-  constexpr void __set_energy(float_t value);
+  constexpr void __cordl_internal_set_energy(float_t value);
 
-  constexpr int32_t& __get_goodCutsCount();
+  constexpr int32_t& __cordl_internal_get_goodCutsCount();
 
-  constexpr int32_t const& __get_goodCutsCount() const;
+  constexpr int32_t const& __cordl_internal_get_goodCutsCount() const;
 
-  constexpr void __set_goodCutsCount(int32_t value);
+  constexpr void __cordl_internal_set_goodCutsCount(int32_t value);
 
-  constexpr int32_t& __get_badCutsCount();
+  constexpr int32_t& __cordl_internal_get_badCutsCount();
 
-  constexpr int32_t const& __get_badCutsCount() const;
+  constexpr int32_t const& __cordl_internal_get_badCutsCount() const;
 
-  constexpr void __set_badCutsCount(int32_t value);
+  constexpr void __cordl_internal_set_badCutsCount(int32_t value);
 
-  constexpr int32_t& __get_missedCount();
+  constexpr int32_t& __cordl_internal_get_missedCount();
 
-  constexpr int32_t const& __get_missedCount() const;
+  constexpr int32_t const& __cordl_internal_get_missedCount() const;
 
-  constexpr void __set_missedCount(int32_t value);
+  constexpr void __cordl_internal_set_missedCount(int32_t value);
 
-  constexpr int32_t& __get_notGoodCount();
+  constexpr int32_t& __cordl_internal_get_notGoodCount();
 
-  constexpr int32_t const& __get_notGoodCount() const;
+  constexpr int32_t const& __cordl_internal_get_notGoodCount() const;
 
-  constexpr void __set_notGoodCount(int32_t value);
+  constexpr void __cordl_internal_set_notGoodCount(int32_t value);
 
-  constexpr int32_t& __get_okCount();
+  constexpr int32_t& __cordl_internal_get_okCount();
 
-  constexpr int32_t const& __get_okCount() const;
+  constexpr int32_t const& __cordl_internal_get_okCount() const;
 
-  constexpr void __set_okCount(int32_t value);
+  constexpr void __cordl_internal_set_okCount(int32_t value);
 
-  constexpr int32_t& __get_maxCutScore();
+  constexpr int32_t& __cordl_internal_get_maxCutScore();
 
-  constexpr int32_t const& __get_maxCutScore() const;
+  constexpr int32_t const& __cordl_internal_get_maxCutScore() const;
 
-  constexpr void __set_maxCutScore(int32_t value);
+  constexpr void __cordl_internal_set_maxCutScore(int32_t value);
 
-  constexpr int32_t& __get_totalCutScore();
+  constexpr int32_t& __cordl_internal_get_totalCutScore();
 
-  constexpr int32_t const& __get_totalCutScore() const;
+  constexpr int32_t const& __cordl_internal_get_totalCutScore() const;
 
-  constexpr void __set_totalCutScore(int32_t value);
+  constexpr void __cordl_internal_set_totalCutScore(int32_t value);
 
-  constexpr int32_t& __get_goodCutsCountForNotesWithFullScoreScoringType();
+  constexpr int32_t& __cordl_internal_get_goodCutsCountForNotesWithFullScoreScoringType();
 
-  constexpr int32_t const& __get_goodCutsCountForNotesWithFullScoreScoringType() const;
+  constexpr int32_t const& __cordl_internal_get_goodCutsCountForNotesWithFullScoreScoringType() const;
 
-  constexpr void __set_goodCutsCountForNotesWithFullScoreScoringType(int32_t value);
+  constexpr void __cordl_internal_set_goodCutsCountForNotesWithFullScoreScoringType(int32_t value);
 
-  constexpr float_t& __get_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType();
+  constexpr float_t& __cordl_internal_get_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType();
 
-  constexpr float_t const& __get_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType() const;
+  constexpr float_t const& __cordl_internal_get_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType() const;
 
-  constexpr void __set_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType(float_t value);
+  constexpr void __cordl_internal_set_averageCenterDistanceCutScoreForNotesWithFullScoreScoringType(float_t value);
 
-  constexpr float_t& __get_averageCutScoreForNotesWithFullScoreScoringType();
+  constexpr float_t& __cordl_internal_get_averageCutScoreForNotesWithFullScoreScoringType();
 
-  constexpr float_t const& __get_averageCutScoreForNotesWithFullScoreScoringType() const;
+  constexpr float_t const& __cordl_internal_get_averageCutScoreForNotesWithFullScoreScoringType() const;
 
-  constexpr void __set_averageCutScoreForNotesWithFullScoreScoringType(float_t value);
+  constexpr void __cordl_internal_set_averageCutScoreForNotesWithFullScoreScoringType(float_t value);
 
-  constexpr int32_t& __get_maxCombo();
+  constexpr int32_t& __cordl_internal_get_maxCombo();
 
-  constexpr int32_t const& __get_maxCombo() const;
+  constexpr int32_t const& __cordl_internal_get_maxCombo() const;
 
-  constexpr void __set_maxCombo(int32_t value);
+  constexpr void __cordl_internal_set_maxCombo(int32_t value);
 
-  constexpr float_t& __get_endSongTime();
+  constexpr float_t& __cordl_internal_get_endSongTime();
 
-  constexpr float_t const& __get_endSongTime() const;
+  constexpr float_t const& __cordl_internal_get_endSongTime() const;
 
-  constexpr void __set_endSongTime(float_t value);
+  constexpr void __cordl_internal_set_endSongTime(float_t value);
 
   static inline ::GlobalNamespace::LevelCompletionResults* New_ctor();
 

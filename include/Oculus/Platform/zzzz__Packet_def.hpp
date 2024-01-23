@@ -20,17 +20,17 @@ MARK_REF_PTR_T(::Oculus::Platform::Packet);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13343))
 // CS Name: ::Oculus.Platform::Packet*
 class CORDL_TYPE Packet : public ::System::Object {
 public:
   // Declarations
   /// @brief Field size, offset 0x10, size 0x8
-  __declspec(property(get = __get_size, put = __set_size)) uint64_t size;
+  __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) uint64_t size;
 
   /// @brief Field packetHandle, offset 0x18, size 0x8
-  __declspec(property(get = __get_packetHandle, put = __set_packetHandle)) void* packetHandle;
+  __declspec(property(get = __cordl_internal_get_packetHandle, put = __cordl_internal_set_packetHandle)) void* packetHandle;
 
   __declspec(property(get = get_SenderID)) uint64_t SenderID;
 
@@ -42,17 +42,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr uint64_t& __get_size();
+  constexpr uint64_t& __cordl_internal_get_size();
 
-  constexpr uint64_t const& __get_size() const;
+  constexpr uint64_t const& __cordl_internal_get_size() const;
 
-  constexpr void __set_size(uint64_t value);
+  constexpr void __cordl_internal_set_size(uint64_t value);
 
-  constexpr void*& __get_packetHandle();
+  constexpr void*& __cordl_internal_get_packetHandle();
 
-  constexpr void* const& __get_packetHandle() const;
+  constexpr void* const& __cordl_internal_get_packetHandle() const;
 
-  constexpr void __set_packetHandle(void* value);
+  constexpr void __cordl_internal_set_packetHandle(void* value);
 
   static inline ::Oculus::Platform::Packet* New_ctor(void* packetHandle);
 

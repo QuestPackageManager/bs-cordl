@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpDataValidationException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1635))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1635))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1636))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpDataValidationException*
 class CORDL_TYPE PgpDataValidationException : public ::Org::BouncyCastle::Bcpg::OpenPgp::PgpException {

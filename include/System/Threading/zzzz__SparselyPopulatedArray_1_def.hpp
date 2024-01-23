@@ -23,31 +23,31 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2692))
 // CS Name: ::System.Threading::SparselyPopulatedArray`1<T>*
 class CORDL_TYPE SparselyPopulatedArray_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _head, offset 0x10, size 0x8
-  __declspec(property(get = __get__head, put = __set__head))::System::Threading::SparselyPopulatedArrayFragment_1<T>* _head;
+  __declspec(property(get = __cordl_internal_get__head, put = __cordl_internal_set__head))::System::Threading::SparselyPopulatedArrayFragment_1<T>* _head;
 
   /// @brief Field _tail, offset 0x18, size 0x8
-  __declspec(property(get = __get__tail, put = __set__tail))::System::Threading::SparselyPopulatedArrayFragment_1<T>* _tail;
+  __declspec(property(get = __cordl_internal_get__tail, put = __cordl_internal_set__tail))::System::Threading::SparselyPopulatedArrayFragment_1<T>* _tail;
 
   __declspec(property(get = get_Tail))::System::Threading::SparselyPopulatedArrayFragment_1<T>* Tail;
 
-  constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>*& __get__head();
+  constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>*& __cordl_internal_get__head();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const& __get__head() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const& __cordl_internal_get__head() const;
 
-  constexpr void __set__head(::System::Threading::SparselyPopulatedArrayFragment_1<T>* value);
+  constexpr void __cordl_internal_set__head(::System::Threading::SparselyPopulatedArrayFragment_1<T>* value);
 
-  constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>*& __get__tail();
+  constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>*& __cordl_internal_get__tail();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const& __get__tail() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const& __cordl_internal_get__tail() const;
 
-  constexpr void __set__tail(::System::Threading::SparselyPopulatedArrayFragment_1<T>* value);
+  constexpr void __cordl_internal_set__tail(::System::Threading::SparselyPopulatedArrayFragment_1<T>* value);
 
   static inline ::System::Threading::SparselyPopulatedArray_1<T>* New_ctor(int32_t initialSize);
 

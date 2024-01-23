@@ -31,20 +31,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::FpCurve);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1364))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1364))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1566))
 // CS Name: ::Org.BouncyCastle.Math.EC::FpCurve*
 class CORDL_TYPE FpCurve : public ::Org::BouncyCastle::Math::EC::AbstractFpCurve {
 public:
   // Declarations
   /// @brief Field m_q, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_q, put = __set_m_q))::Org::BouncyCastle::Math::BigInteger* m_q;
+  __declspec(property(get = __cordl_internal_get_m_q, put = __cordl_internal_set_m_q))::Org::BouncyCastle::Math::BigInteger* m_q;
 
   /// @brief Field m_r, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_r, put = __set_m_r))::Org::BouncyCastle::Math::BigInteger* m_r;
+  __declspec(property(get = __cordl_internal_get_m_r, put = __cordl_internal_set_m_r))::Org::BouncyCastle::Math::BigInteger* m_r;
 
   /// @brief Field m_infinity, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_infinity, put = __set_m_infinity))::Org::BouncyCastle::Math::EC::FpPoint* m_infinity;
+  __declspec(property(get = __cordl_internal_get_m_infinity, put = __cordl_internal_set_m_infinity))::Org::BouncyCastle::Math::EC::FpPoint* m_infinity;
 
   __declspec(property(get = get_Q))::Org::BouncyCastle::Math::BigInteger* Q;
 
@@ -52,23 +52,23 @@ public:
 
   __declspec(property(get = get_FieldSize)) int32_t FieldSize;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_m_q();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_m_q();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_m_q() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_m_q() const;
 
-  constexpr void __set_m_q(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_m_q(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_m_r();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_m_r();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_m_r() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_m_r() const;
 
-  constexpr void __set_m_r(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_m_r(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::FpPoint*& __get_m_infinity();
+  constexpr ::Org::BouncyCastle::Math::EC::FpPoint*& __cordl_internal_get_m_infinity();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::FpPoint*> const& __get_m_infinity() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::FpPoint*> const& __cordl_internal_get_m_infinity() const;
 
-  constexpr void __set_m_infinity(::Org::BouncyCastle::Math::EC::FpPoint* value);
+  constexpr void __cordl_internal_set_m_infinity(::Org::BouncyCastle::Math::EC::FpPoint* value);
 
   static inline ::Org::BouncyCastle::Math::EC::FpCurve* New_ctor(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 

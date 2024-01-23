@@ -10,32 +10,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x27c;
   constexpr static std::size_t addrs = 0x2706cc0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::LeaderboardEntryList*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::LeaderboardEntryList*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
     return ___internal_method;
   }
 };
-constexpr uint64_t& Oculus::Platform::Models::LeaderboardEntryList::__get_TotalCount() {
+constexpr uint64_t& Oculus::Platform::Models::LeaderboardEntryList::__cordl_internal_get_TotalCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TotalCount;
 }
-constexpr uint64_t const& Oculus::Platform::Models::LeaderboardEntryList::__get_TotalCount() const {
+constexpr uint64_t const& Oculus::Platform::Models::LeaderboardEntryList::__cordl_internal_get_TotalCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___TotalCount;
 }
-constexpr void Oculus::Platform::Models::LeaderboardEntryList::__set_TotalCount(uint64_t value) {
+constexpr void Oculus::Platform::Models::LeaderboardEntryList::__cordl_internal_set_TotalCount(uint64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___TotalCount = value;
 }
 inline ::Oculus::Platform::Models::LeaderboardEntryList* Oculus::Platform::Models::LeaderboardEntryList::New_ctor(void* a) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Oculus::Platform::Models::LeaderboardEntryList*>(a));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Oculus::Platform::Models::LeaderboardEntryList*>(a));
 }
 inline void Oculus::Platform::Models::LeaderboardEntryList::_ctor(void* a) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::LeaderboardEntryList*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Models::LeaderboardEntryList*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, a);
 }
 // Ctor Parameters []

@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::HMUI::KeyboardBinder);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13516))
 // CS Name: ::KeyboardBinder::KeyBindingType
 struct CORDL_TYPE __KeyboardBinder__KeyBindingType {
@@ -95,7 +95,7 @@ static_assert(offsetof(::HMUI::__KeyboardBinder__KeyBindingType, value__) == 0x0
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13517))
 // CS Name: ::HMUI::KeyboardBinder*
 class CORDL_TYPE KeyboardBinder : public ::System::Object {
@@ -104,52 +104,52 @@ public:
   using KeyBindingType = ::HMUI::__KeyboardBinder__KeyBindingType;
 
   /// @brief Field <enabled>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__enabled_k__BackingField, put = __set__enabled_k__BackingField)) bool _enabled_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__enabled_k__BackingField, put = __cordl_internal_set__enabled_k__BackingField)) bool _enabled_k__BackingField;
 
   /// @brief Field _shouldClearBindings, offset 0x11, size 0x1
-  __declspec(property(get = __get__shouldClearBindings, put = __set__shouldClearBindings)) bool _shouldClearBindings;
+  __declspec(property(get = __cordl_internal_get__shouldClearBindings, put = __cordl_internal_set__shouldClearBindings)) bool _shouldClearBindings;
 
   /// @brief Field _newBindings, offset 0x18, size 0x8
-  __declspec(property(get = __get__newBindings, put = __set__newBindings))::System::Collections::Generic::List_1<
+  __declspec(property(get = __cordl_internal_get__newBindings, put = __cordl_internal_set__newBindings))::System::Collections::Generic::List_1<
       ::System::ValueTuple_3<::UnityEngine::KeyCode, ::HMUI::__KeyboardBinder__KeyBindingType, ::UnityEngine::Events::UnityAction_1<bool>*>>* _newBindings;
 
   /// @brief Field _bindings, offset 0x20, size 0x8
-  __declspec(property(get = __get__bindings, put = __set__bindings))::System::Collections::Generic::List_1<
+  __declspec(property(get = __cordl_internal_get__bindings, put = __cordl_internal_set__bindings))::System::Collections::Generic::List_1<
       ::System::ValueTuple_3<::UnityEngine::KeyCode, ::HMUI::__KeyboardBinder__KeyBindingType, ::UnityEngine::Events::UnityAction_1<bool>*>>* _bindings;
 
   __declspec(property(get = get_enabled, put = set_enabled)) bool enabled;
 
-  constexpr bool& __get__enabled_k__BackingField();
+  constexpr bool& __cordl_internal_get__enabled_k__BackingField();
 
-  constexpr bool const& __get__enabled_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__enabled_k__BackingField() const;
 
-  constexpr void __set__enabled_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__enabled_k__BackingField(bool value);
 
-  constexpr bool& __get__shouldClearBindings();
+  constexpr bool& __cordl_internal_get__shouldClearBindings();
 
-  constexpr bool const& __get__shouldClearBindings() const;
+  constexpr bool const& __cordl_internal_get__shouldClearBindings() const;
 
-  constexpr void __set__shouldClearBindings(bool value);
+  constexpr void __cordl_internal_set__shouldClearBindings(bool value);
 
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::KeyCode, ::HMUI::__KeyboardBinder__KeyBindingType, ::UnityEngine::Events::UnityAction_1<bool>*>>*&
-  __get__newBindings();
+  __cordl_internal_get__newBindings();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::KeyCode, ::HMUI::__KeyboardBinder__KeyBindingType, ::UnityEngine::Events::UnityAction_1<bool>*>>*> const&
-  __get__newBindings() const;
+  __cordl_internal_get__newBindings() const;
 
-  constexpr void __set__newBindings(
+  constexpr void __cordl_internal_set__newBindings(
       ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::KeyCode, ::HMUI::__KeyboardBinder__KeyBindingType, ::UnityEngine::Events::UnityAction_1<bool>*>>* value);
 
   constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::KeyCode, ::HMUI::__KeyboardBinder__KeyBindingType, ::UnityEngine::Events::UnityAction_1<bool>*>>*&
-  __get__bindings();
+  __cordl_internal_get__bindings();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::KeyCode, ::HMUI::__KeyboardBinder__KeyBindingType, ::UnityEngine::Events::UnityAction_1<bool>*>>*> const&
-  __get__bindings() const;
+  __cordl_internal_get__bindings() const;
 
-  constexpr void
-  __set__bindings(::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::KeyCode, ::HMUI::__KeyboardBinder__KeyBindingType, ::UnityEngine::Events::UnityAction_1<bool>*>>* value);
+  constexpr void __cordl_internal_set__bindings(
+      ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::KeyCode, ::HMUI::__KeyboardBinder__KeyBindingType, ::UnityEngine::Events::UnityAction_1<bool>*>>* value);
 
   /// @brief Method get_enabled, addr 0x211952c, size 0x8, virtual false, abstract: false, final false
   inline bool get_enabled();

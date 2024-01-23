@@ -90,29 +90,29 @@ MARK_REF_PTR_T(::System::IO::Enumeration::__FileSystemEnumerableFactory____c__Di
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Enumeration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3647))
 // CS Name: ::FileSystemEnumerableFactory::<>c__DisplayClass3_0*
 class CORDL_TYPE __FileSystemEnumerableFactory____c__DisplayClass3_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field expression, offset 0x10, size 0x8
-  __declspec(property(get = __get_expression, put = __set_expression))::StringW expression;
+  __declspec(property(get = __cordl_internal_get_expression, put = __cordl_internal_set_expression))::StringW expression;
 
   /// @brief Field options, offset 0x18, size 0x8
-  __declspec(property(get = __get_options, put = __set_options))::System::IO::EnumerationOptions* options;
+  __declspec(property(get = __cordl_internal_get_options, put = __cordl_internal_set_options))::System::IO::EnumerationOptions* options;
 
-  constexpr ::StringW& __get_expression();
+  constexpr ::StringW& __cordl_internal_get_expression();
 
-  constexpr ::StringW const& __get_expression() const;
+  constexpr ::StringW const& __cordl_internal_get_expression() const;
 
-  constexpr void __set_expression(::StringW value);
+  constexpr void __cordl_internal_set_expression(::StringW value);
 
-  constexpr ::System::IO::EnumerationOptions*& __get_options();
+  constexpr ::System::IO::EnumerationOptions*& __cordl_internal_get_options();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& __get_options() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& __cordl_internal_get_options() const;
 
-  constexpr void __set_options(::System::IO::EnumerationOptions* value);
+  constexpr void __cordl_internal_set_options(::System::IO::EnumerationOptions* value);
 
   static inline ::System::IO::Enumeration::__FileSystemEnumerableFactory____c__DisplayClass3_0* New_ctor();
 
@@ -156,7 +156,7 @@ static_assert(offsetof(::System::IO::Enumeration::__FileSystemEnumerableFactory_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO::Enumeration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3648))
 // CS Name: ::FileSystemEnumerableFactory::<>c*
 class CORDL_TYPE __FileSystemEnumerableFactory____c : public ::System::Object {
@@ -258,29 +258,29 @@ static_assert(::cordl_internals::size_check_v<::System::IO::Enumeration::__FileS
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Enumeration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3649))
 // CS Name: ::FileSystemEnumerableFactory::<>c__DisplayClass4_0*
 class CORDL_TYPE __FileSystemEnumerableFactory____c__DisplayClass4_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field expression, offset 0x10, size 0x8
-  __declspec(property(get = __get_expression, put = __set_expression))::StringW expression;
+  __declspec(property(get = __cordl_internal_get_expression, put = __cordl_internal_set_expression))::StringW expression;
 
   /// @brief Field options, offset 0x18, size 0x8
-  __declspec(property(get = __get_options, put = __set_options))::System::IO::EnumerationOptions* options;
+  __declspec(property(get = __cordl_internal_get_options, put = __cordl_internal_set_options))::System::IO::EnumerationOptions* options;
 
-  constexpr ::StringW& __get_expression();
+  constexpr ::StringW& __cordl_internal_get_expression();
 
-  constexpr ::StringW const& __get_expression() const;
+  constexpr ::StringW const& __cordl_internal_get_expression() const;
 
-  constexpr void __set_expression(::StringW value);
+  constexpr void __cordl_internal_set_expression(::StringW value);
 
-  constexpr ::System::IO::EnumerationOptions*& __get_options();
+  constexpr ::System::IO::EnumerationOptions*& __cordl_internal_get_options();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& __get_options() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& __cordl_internal_get_options() const;
 
-  constexpr void __set_options(::System::IO::EnumerationOptions* value);
+  constexpr void __cordl_internal_set_options(::System::IO::EnumerationOptions* value);
 
   static inline ::System::IO::Enumeration::__FileSystemEnumerableFactory____c__DisplayClass4_0* New_ctor();
 
@@ -324,29 +324,29 @@ static_assert(offsetof(::System::IO::Enumeration::__FileSystemEnumerableFactory_
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Enumeration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3650))
 // CS Name: ::FileSystemEnumerableFactory::<>c__DisplayClass5_0*
 class CORDL_TYPE __FileSystemEnumerableFactory____c__DisplayClass5_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field expression, offset 0x10, size 0x8
-  __declspec(property(get = __get_expression, put = __set_expression))::StringW expression;
+  __declspec(property(get = __cordl_internal_get_expression, put = __cordl_internal_set_expression))::StringW expression;
 
   /// @brief Field options, offset 0x18, size 0x8
-  __declspec(property(get = __get_options, put = __set_options))::System::IO::EnumerationOptions* options;
+  __declspec(property(get = __cordl_internal_get_options, put = __cordl_internal_set_options))::System::IO::EnumerationOptions* options;
 
-  constexpr ::StringW& __get_expression();
+  constexpr ::StringW& __cordl_internal_get_expression();
 
-  constexpr ::StringW const& __get_expression() const;
+  constexpr ::StringW const& __cordl_internal_get_expression() const;
 
-  constexpr void __set_expression(::StringW value);
+  constexpr void __cordl_internal_set_expression(::StringW value);
 
-  constexpr ::System::IO::EnumerationOptions*& __get_options();
+  constexpr ::System::IO::EnumerationOptions*& __cordl_internal_get_options();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& __get_options() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& __cordl_internal_get_options() const;
 
-  constexpr void __set_options(::System::IO::EnumerationOptions* value);
+  constexpr void __cordl_internal_set_options(::System::IO::EnumerationOptions* value);
 
   static inline ::System::IO::Enumeration::__FileSystemEnumerableFactory____c__DisplayClass5_0* New_ctor();
 
@@ -390,29 +390,29 @@ static_assert(offsetof(::System::IO::Enumeration::__FileSystemEnumerableFactory_
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Enumeration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3651))
 // CS Name: ::FileSystemEnumerableFactory::<>c__DisplayClass6_0*
 class CORDL_TYPE __FileSystemEnumerableFactory____c__DisplayClass6_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field expression, offset 0x10, size 0x8
-  __declspec(property(get = __get_expression, put = __set_expression))::StringW expression;
+  __declspec(property(get = __cordl_internal_get_expression, put = __cordl_internal_set_expression))::StringW expression;
 
   /// @brief Field options, offset 0x18, size 0x8
-  __declspec(property(get = __get_options, put = __set_options))::System::IO::EnumerationOptions* options;
+  __declspec(property(get = __cordl_internal_get_options, put = __cordl_internal_set_options))::System::IO::EnumerationOptions* options;
 
-  constexpr ::StringW& __get_expression();
+  constexpr ::StringW& __cordl_internal_get_expression();
 
-  constexpr ::StringW const& __get_expression() const;
+  constexpr ::StringW const& __cordl_internal_get_expression() const;
 
-  constexpr void __set_expression(::StringW value);
+  constexpr void __cordl_internal_set_expression(::StringW value);
 
-  constexpr ::System::IO::EnumerationOptions*& __get_options();
+  constexpr ::System::IO::EnumerationOptions*& __cordl_internal_get_options();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& __get_options() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& __cordl_internal_get_options() const;
 
-  constexpr void __set_options(::System::IO::EnumerationOptions* value);
+  constexpr void __cordl_internal_set_options(::System::IO::EnumerationOptions* value);
 
   static inline ::System::IO::Enumeration::__FileSystemEnumerableFactory____c__DisplayClass6_0* New_ctor();
 
@@ -456,29 +456,29 @@ static_assert(offsetof(::System::IO::Enumeration::__FileSystemEnumerableFactory_
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Enumeration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3652))
 // CS Name: ::FileSystemEnumerableFactory::<>c__DisplayClass7_0*
 class CORDL_TYPE __FileSystemEnumerableFactory____c__DisplayClass7_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field expression, offset 0x10, size 0x8
-  __declspec(property(get = __get_expression, put = __set_expression))::StringW expression;
+  __declspec(property(get = __cordl_internal_get_expression, put = __cordl_internal_set_expression))::StringW expression;
 
   /// @brief Field options, offset 0x18, size 0x8
-  __declspec(property(get = __get_options, put = __set_options))::System::IO::EnumerationOptions* options;
+  __declspec(property(get = __cordl_internal_get_options, put = __cordl_internal_set_options))::System::IO::EnumerationOptions* options;
 
-  constexpr ::StringW& __get_expression();
+  constexpr ::StringW& __cordl_internal_get_expression();
 
-  constexpr ::StringW const& __get_expression() const;
+  constexpr ::StringW const& __cordl_internal_get_expression() const;
 
-  constexpr void __set_expression(::StringW value);
+  constexpr void __cordl_internal_set_expression(::StringW value);
 
-  constexpr ::System::IO::EnumerationOptions*& __get_options();
+  constexpr ::System::IO::EnumerationOptions*& __cordl_internal_get_options();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& __get_options() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& __cordl_internal_get_options() const;
 
-  constexpr void __set_options(::System::IO::EnumerationOptions* value);
+  constexpr void __cordl_internal_set_options(::System::IO::EnumerationOptions* value);
 
   static inline ::System::IO::Enumeration::__FileSystemEnumerableFactory____c__DisplayClass7_0* New_ctor();
 
@@ -522,29 +522,29 @@ static_assert(offsetof(::System::IO::Enumeration::__FileSystemEnumerableFactory_
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO::Enumeration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3653))
 // CS Name: ::FileSystemEnumerableFactory::<>c__DisplayClass8_0*
 class CORDL_TYPE __FileSystemEnumerableFactory____c__DisplayClass8_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field expression, offset 0x10, size 0x8
-  __declspec(property(get = __get_expression, put = __set_expression))::StringW expression;
+  __declspec(property(get = __cordl_internal_get_expression, put = __cordl_internal_set_expression))::StringW expression;
 
   /// @brief Field options, offset 0x18, size 0x8
-  __declspec(property(get = __get_options, put = __set_options))::System::IO::EnumerationOptions* options;
+  __declspec(property(get = __cordl_internal_get_options, put = __cordl_internal_set_options))::System::IO::EnumerationOptions* options;
 
-  constexpr ::StringW& __get_expression();
+  constexpr ::StringW& __cordl_internal_get_expression();
 
-  constexpr ::StringW const& __get_expression() const;
+  constexpr ::StringW const& __cordl_internal_get_expression() const;
 
-  constexpr void __set_expression(::StringW value);
+  constexpr void __cordl_internal_set_expression(::StringW value);
 
-  constexpr ::System::IO::EnumerationOptions*& __get_options();
+  constexpr ::System::IO::EnumerationOptions*& __cordl_internal_get_options();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& __get_options() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::EnumerationOptions*> const& __cordl_internal_get_options() const;
 
-  constexpr void __set_options(::System::IO::EnumerationOptions* value);
+  constexpr void __cordl_internal_set_options(::System::IO::EnumerationOptions* value);
 
   static inline ::System::IO::Enumeration::__FileSystemEnumerableFactory____c__DisplayClass8_0* New_ctor();
 
@@ -588,7 +588,7 @@ static_assert(offsetof(::System::IO::Enumeration::__FileSystemEnumerableFactory_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO::Enumeration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3654))
 // CS Name: ::System.IO.Enumeration::FileSystemEnumerableFactory*
 class CORDL_TYPE FileSystemEnumerableFactory : public ::System::Object {

@@ -32,43 +32,43 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7314))
 // CS Name: ::StyleDataRef`1::RefCounted<T>*
 class CORDL_TYPE __StyleDataRef_1__RefCounted : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_RefCount, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_RefCount, put = __set_m_RefCount)) int32_t m_RefCount;
+  __declspec(property(get = __cordl_internal_get_m_RefCount, put = __cordl_internal_set_m_RefCount)) int32_t m_RefCount;
 
   /// @brief Field m_Id, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_Id, put = __set_m_Id)) uint32_t m_Id;
+  __declspec(property(get = __cordl_internal_get_m_Id, put = __cordl_internal_set_m_Id)) uint32_t m_Id;
 
   /// @brief Field value, offset 0x18, size 0x8
-  __declspec(property(get = __get_value, put = __set_value)) T value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) T value;
 
   /// @brief Field m_NextId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_m_NextId, put = setStaticF_m_NextId)) uint32_t m_NextId;
 
   __declspec(property(get = get_refCount)) int32_t refCount;
 
-  constexpr int32_t& __get_m_RefCount();
+  constexpr int32_t& __cordl_internal_get_m_RefCount();
 
-  constexpr int32_t const& __get_m_RefCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_RefCount() const;
 
-  constexpr void __set_m_RefCount(int32_t value);
+  constexpr void __cordl_internal_set_m_RefCount(int32_t value);
 
-  constexpr uint32_t& __get_m_Id();
+  constexpr uint32_t& __cordl_internal_get_m_Id();
 
-  constexpr uint32_t const& __get_m_Id() const;
+  constexpr uint32_t const& __cordl_internal_get_m_Id() const;
 
-  constexpr void __set_m_Id(uint32_t value);
+  constexpr void __cordl_internal_set_m_Id(uint32_t value);
 
-  constexpr T& __get_value();
+  constexpr T& __cordl_internal_get_value();
 
-  constexpr T const& __get_value() const;
+  constexpr T const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(T value);
+  constexpr void __cordl_internal_set_value(T value);
 
   static inline void setStaticF_m_NextId(uint32_t value);
 
@@ -124,7 +124,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7315))
 // CS Name: ::UnityEngine.UIElements::StyleDataRef`1<T>
 struct CORDL_TYPE StyleDataRef_1 {

@@ -22,20 +22,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathValidatorException);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 164, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1717))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1717))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1723))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathValidatorException*
 class CORDL_TYPE PkixCertPathValidatorException : public ::Org::BouncyCastle::Security::GeneralSecurityException {
 public:
   // Declarations
   /// @brief Field cause, offset 0x90, size 0x8
-  __declspec(property(get = __get_cause, put = __set_cause))::System::Exception* cause;
+  __declspec(property(get = __cordl_internal_get_cause, put = __cordl_internal_set_cause))::System::Exception* cause;
 
   /// @brief Field certPath, offset 0x98, size 0x8
-  __declspec(property(get = __get_certPath, put = __set_certPath))::Org::BouncyCastle::Pkix::PkixCertPath* certPath;
+  __declspec(property(get = __cordl_internal_get_certPath, put = __cordl_internal_set_certPath))::Org::BouncyCastle::Pkix::PkixCertPath* certPath;
 
   /// @brief Field index, offset 0xa0, size 0x4
-  __declspec(property(get = __get_index, put = __set_index)) int32_t index;
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   __declspec(property(get = get_Message))::StringW Message;
 
@@ -43,23 +43,23 @@ public:
 
   __declspec(property(get = get_Index)) int32_t Index;
 
-  constexpr ::System::Exception*& __get_cause();
+  constexpr ::System::Exception*& __cordl_internal_get_cause();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __get_cause() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get_cause() const;
 
-  constexpr void __set_cause(::System::Exception* value);
+  constexpr void __cordl_internal_set_cause(::System::Exception* value);
 
-  constexpr ::Org::BouncyCastle::Pkix::PkixCertPath*& __get_certPath();
+  constexpr ::Org::BouncyCastle::Pkix::PkixCertPath*& __cordl_internal_get_certPath();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkix::PkixCertPath*> const& __get_certPath() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkix::PkixCertPath*> const& __cordl_internal_get_certPath() const;
 
-  constexpr void __set_certPath(::Org::BouncyCastle::Pkix::PkixCertPath* value);
+  constexpr void __cordl_internal_set_certPath(::Org::BouncyCastle::Pkix::PkixCertPath* value);
 
-  constexpr int32_t& __get_index();
+  constexpr int32_t& __cordl_internal_get_index();
 
-  constexpr int32_t const& __get_index() const;
+  constexpr int32_t const& __cordl_internal_get_index() const;
 
-  constexpr void __set_index(int32_t value);
+  constexpr void __cordl_internal_set_index(int32_t value);
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathValidatorException* New_ctor();
 

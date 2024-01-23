@@ -25,66 +25,66 @@ MARK_REF_PTR_T(::GlobalNamespace::ImmediateRankUIPanel);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15034)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15034))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5034))
 // CS Name: ::ImmediateRankUIPanel*
 class CORDL_TYPE ImmediateRankUIPanel : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _rankText, offset 0x18, size 0x8
-  __declspec(property(get = __get__rankText, put = __set__rankText))::TMPro::TextMeshProUGUI* _rankText;
+  __declspec(property(get = __cordl_internal_get__rankText, put = __cordl_internal_set__rankText))::UnityW<::TMPro::TextMeshProUGUI> _rankText;
 
   /// @brief Field _relativeScoreText, offset 0x20, size 0x8
-  __declspec(property(get = __get__relativeScoreText, put = __set__relativeScoreText))::TMPro::TextMeshProUGUI* _relativeScoreText;
+  __declspec(property(get = __cordl_internal_get__relativeScoreText, put = __cordl_internal_set__relativeScoreText))::UnityW<::TMPro::TextMeshProUGUI> _relativeScoreText;
 
   /// @brief Field _relativeScoreAndImmediateRankCounter, offset 0x28, size 0x8
-  __declspec(property(get = __get__relativeScoreAndImmediateRankCounter,
-                      put = __set__relativeScoreAndImmediateRankCounter))::GlobalNamespace::RelativeScoreAndImmediateRankCounter* _relativeScoreAndImmediateRankCounter;
+  __declspec(property(get = __cordl_internal_get__relativeScoreAndImmediateRankCounter,
+                      put = __cordl_internal_set__relativeScoreAndImmediateRankCounter))::UnityW<::GlobalNamespace::RelativeScoreAndImmediateRankCounter> _relativeScoreAndImmediateRankCounter;
 
   /// @brief Field _stringBuilder, offset 0x30, size 0x8
-  __declspec(property(get = __get__stringBuilder, put = __set__stringBuilder))::System::Text::StringBuilder* _stringBuilder;
+  __declspec(property(get = __cordl_internal_get__stringBuilder, put = __cordl_internal_set__stringBuilder))::System::Text::StringBuilder* _stringBuilder;
 
   /// @brief Field _prevRelativeScore, offset 0x38, size 0x4
-  __declspec(property(get = __get__prevRelativeScore, put = __set__prevRelativeScore)) float_t _prevRelativeScore;
+  __declspec(property(get = __cordl_internal_get__prevRelativeScore, put = __cordl_internal_set__prevRelativeScore)) float_t _prevRelativeScore;
 
   /// @brief Field _prevImmediateRank, offset 0x3c, size 0x4
-  __declspec(property(get = __get__prevImmediateRank, put = __set__prevImmediateRank))::GlobalNamespace::__RankModel__Rank _prevImmediateRank;
+  __declspec(property(get = __cordl_internal_get__prevImmediateRank, put = __cordl_internal_set__prevImmediateRank))::GlobalNamespace::__RankModel__Rank _prevImmediateRank;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__rankText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__rankText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__rankText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__rankText() const;
 
-  constexpr void __set__rankText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__rankText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__relativeScoreText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__relativeScoreText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__relativeScoreText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__relativeScoreText() const;
 
-  constexpr void __set__relativeScoreText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__relativeScoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::GlobalNamespace::RelativeScoreAndImmediateRankCounter*& __get__relativeScoreAndImmediateRankCounter();
+  constexpr ::UnityW<::GlobalNamespace::RelativeScoreAndImmediateRankCounter>& __cordl_internal_get__relativeScoreAndImmediateRankCounter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RelativeScoreAndImmediateRankCounter*> const& __get__relativeScoreAndImmediateRankCounter() const;
+  constexpr ::UnityW<::GlobalNamespace::RelativeScoreAndImmediateRankCounter> const& __cordl_internal_get__relativeScoreAndImmediateRankCounter() const;
 
-  constexpr void __set__relativeScoreAndImmediateRankCounter(::GlobalNamespace::RelativeScoreAndImmediateRankCounter* value);
+  constexpr void __cordl_internal_set__relativeScoreAndImmediateRankCounter(::UnityW<::GlobalNamespace::RelativeScoreAndImmediateRankCounter> value);
 
-  constexpr ::System::Text::StringBuilder*& __get__stringBuilder();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__stringBuilder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get__stringBuilder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__stringBuilder() const;
 
-  constexpr void __set__stringBuilder(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set__stringBuilder(::System::Text::StringBuilder* value);
 
-  constexpr float_t& __get__prevRelativeScore();
+  constexpr float_t& __cordl_internal_get__prevRelativeScore();
 
-  constexpr float_t const& __get__prevRelativeScore() const;
+  constexpr float_t const& __cordl_internal_get__prevRelativeScore() const;
 
-  constexpr void __set__prevRelativeScore(float_t value);
+  constexpr void __cordl_internal_set__prevRelativeScore(float_t value);
 
-  constexpr ::GlobalNamespace::__RankModel__Rank& __get__prevImmediateRank();
+  constexpr ::GlobalNamespace::__RankModel__Rank& __cordl_internal_get__prevImmediateRank();
 
-  constexpr ::GlobalNamespace::__RankModel__Rank const& __get__prevImmediateRank() const;
+  constexpr ::GlobalNamespace::__RankModel__Rank const& __cordl_internal_get__prevImmediateRank() const;
 
-  constexpr void __set__prevImmediateRank(::GlobalNamespace::__RankModel__Rank value);
+  constexpr void __cordl_internal_set__prevImmediateRank(::GlobalNamespace::__RankModel__Rank value);
 
   /// @brief Method Start, addr 0x23c0d50, size 0xc4, virtual false, abstract: false, final false
   inline void Start();
@@ -115,13 +115,13 @@ protected:
 
 public:
   /// @brief Field _rankText, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____rankText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____rankText;
 
   /// @brief Field _relativeScoreText, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____relativeScoreText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____relativeScoreText;
 
   /// @brief Field _relativeScoreAndImmediateRankCounter, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::RelativeScoreAndImmediateRankCounter* ____relativeScoreAndImmediateRankCounter;
+  ::UnityW<::GlobalNamespace::RelativeScoreAndImmediateRankCounter> ____relativeScoreAndImmediateRankCounter;
 
   /// @brief Field _stringBuilder, offset: 0x30, size: 0x8, def value: None
   ::System::Text::StringBuilder* ____stringBuilder;

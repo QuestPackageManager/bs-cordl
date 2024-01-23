@@ -26,35 +26,35 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextElement);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13705))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13705))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13706))
 // CS Name: ::UnityEngine.TextCore.Text::TextElement*
 class CORDL_TYPE TextElement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_ElementType, offset 0x10, size 0x1
-  __declspec(property(get = __get_m_ElementType, put = __set_m_ElementType))::UnityEngine::TextCore::Text::TextElementType m_ElementType;
+  __declspec(property(get = __cordl_internal_get_m_ElementType, put = __cordl_internal_set_m_ElementType))::UnityEngine::TextCore::Text::TextElementType m_ElementType;
 
   /// @brief Field m_Unicode, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_Unicode, put = __set_m_Unicode)) uint32_t m_Unicode;
+  __declspec(property(get = __cordl_internal_get_m_Unicode, put = __cordl_internal_set_m_Unicode)) uint32_t m_Unicode;
 
   /// @brief Field m_TextAsset, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_TextAsset, put = __set_m_TextAsset))::UnityEngine::TextCore::Text::TextAsset* m_TextAsset;
+  __declspec(property(get = __cordl_internal_get_m_TextAsset, put = __cordl_internal_set_m_TextAsset))::UnityW<::UnityEngine::TextCore::Text::TextAsset> m_TextAsset;
 
   /// @brief Field m_Glyph, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Glyph, put = __set_m_Glyph))::UnityEngine::TextCore::Glyph* m_Glyph;
+  __declspec(property(get = __cordl_internal_get_m_Glyph, put = __cordl_internal_set_m_Glyph))::UnityEngine::TextCore::Glyph* m_Glyph;
 
   /// @brief Field m_GlyphIndex, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_GlyphIndex, put = __set_m_GlyphIndex)) uint32_t m_GlyphIndex;
+  __declspec(property(get = __cordl_internal_get_m_GlyphIndex, put = __cordl_internal_set_m_GlyphIndex)) uint32_t m_GlyphIndex;
 
   /// @brief Field m_Scale, offset 0x2c, size 0x4
-  __declspec(property(get = __get_m_Scale, put = __set_m_Scale)) float_t m_Scale;
+  __declspec(property(get = __cordl_internal_get_m_Scale, put = __cordl_internal_set_m_Scale)) float_t m_Scale;
 
   __declspec(property(get = get_elementType))::UnityEngine::TextCore::Text::TextElementType elementType;
 
   __declspec(property(get = get_unicode, put = set_unicode)) uint32_t unicode;
 
-  __declspec(property(get = get_textAsset, put = set_textAsset))::UnityEngine::TextCore::Text::TextAsset* textAsset;
+  __declspec(property(get = get_textAsset, put = set_textAsset))::UnityW<::UnityEngine::TextCore::Text::TextAsset> textAsset;
 
   __declspec(property(get = get_glyph, put = set_glyph))::UnityEngine::TextCore::Glyph* glyph;
 
@@ -62,41 +62,41 @@ public:
 
   __declspec(property(get = get_scale, put = set_scale)) float_t scale;
 
-  constexpr ::UnityEngine::TextCore::Text::TextElementType& __get_m_ElementType();
+  constexpr ::UnityEngine::TextCore::Text::TextElementType& __cordl_internal_get_m_ElementType();
 
-  constexpr ::UnityEngine::TextCore::Text::TextElementType const& __get_m_ElementType() const;
+  constexpr ::UnityEngine::TextCore::Text::TextElementType const& __cordl_internal_get_m_ElementType() const;
 
-  constexpr void __set_m_ElementType(::UnityEngine::TextCore::Text::TextElementType value);
+  constexpr void __cordl_internal_set_m_ElementType(::UnityEngine::TextCore::Text::TextElementType value);
 
-  constexpr uint32_t& __get_m_Unicode();
+  constexpr uint32_t& __cordl_internal_get_m_Unicode();
 
-  constexpr uint32_t const& __get_m_Unicode() const;
+  constexpr uint32_t const& __cordl_internal_get_m_Unicode() const;
 
-  constexpr void __set_m_Unicode(uint32_t value);
+  constexpr void __cordl_internal_set_m_Unicode(uint32_t value);
 
-  constexpr ::UnityEngine::TextCore::Text::TextAsset*& __get_m_TextAsset();
+  constexpr ::UnityW<::UnityEngine::TextCore::Text::TextAsset>& __cordl_internal_get_m_TextAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextCore::Text::TextAsset*> const& __get_m_TextAsset() const;
+  constexpr ::UnityW<::UnityEngine::TextCore::Text::TextAsset> const& __cordl_internal_get_m_TextAsset() const;
 
-  constexpr void __set_m_TextAsset(::UnityEngine::TextCore::Text::TextAsset* value);
+  constexpr void __cordl_internal_set_m_TextAsset(::UnityW<::UnityEngine::TextCore::Text::TextAsset> value);
 
-  constexpr ::UnityEngine::TextCore::Glyph*& __get_m_Glyph();
+  constexpr ::UnityEngine::TextCore::Glyph*& __cordl_internal_get_m_Glyph();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextCore::Glyph*> const& __get_m_Glyph() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextCore::Glyph*> const& __cordl_internal_get_m_Glyph() const;
 
-  constexpr void __set_m_Glyph(::UnityEngine::TextCore::Glyph* value);
+  constexpr void __cordl_internal_set_m_Glyph(::UnityEngine::TextCore::Glyph* value);
 
-  constexpr uint32_t& __get_m_GlyphIndex();
+  constexpr uint32_t& __cordl_internal_get_m_GlyphIndex();
 
-  constexpr uint32_t const& __get_m_GlyphIndex() const;
+  constexpr uint32_t const& __cordl_internal_get_m_GlyphIndex() const;
 
-  constexpr void __set_m_GlyphIndex(uint32_t value);
+  constexpr void __cordl_internal_set_m_GlyphIndex(uint32_t value);
 
-  constexpr float_t& __get_m_Scale();
+  constexpr float_t& __cordl_internal_get_m_Scale();
 
-  constexpr float_t const& __get_m_Scale() const;
+  constexpr float_t const& __cordl_internal_get_m_Scale() const;
 
-  constexpr void __set_m_Scale(float_t value);
+  constexpr void __cordl_internal_set_m_Scale(float_t value);
 
   /// @brief Method get_elementType, addr 0x2d43900, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextElementType get_elementType();
@@ -108,7 +108,7 @@ public:
   inline void set_unicode(uint32_t value);
 
   /// @brief Method get_textAsset, addr 0x2d413a4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextCore::Text::TextAsset* get_textAsset();
+  inline ::UnityW<::UnityEngine::TextCore::Text::TextAsset> get_textAsset();
 
   /// @brief Method set_textAsset, addr 0x2d395f0, size 0x8, virtual false, abstract: false, final false
   inline void set_textAsset(::UnityEngine::TextCore::Text::TextAsset* value);
@@ -157,7 +157,7 @@ public:
   uint32_t ___m_Unicode;
 
   /// @brief Field m_TextAsset, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::TextCore::Text::TextAsset* ___m_TextAsset;
+  ::UnityW<::UnityEngine::TextCore::Text::TextAsset> ___m_TextAsset;
 
   /// @brief Field m_Glyph, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::TextCore::Glyph* ___m_Glyph;

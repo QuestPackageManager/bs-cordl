@@ -26,137 +26,137 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::ZStream);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1830))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::ZStream*
 class CORDL_TYPE ZStream : public ::System::Object {
 public:
   // Declarations
   /// @brief Field next_in, offset 0x10, size 0x8
-  __declspec(property(get = __get_next_in, put = __set_next_in))::ArrayW<uint8_t, ::Array<uint8_t>*> next_in;
+  __declspec(property(get = __cordl_internal_get_next_in, put = __cordl_internal_set_next_in))::ArrayW<uint8_t, ::Array<uint8_t>*> next_in;
 
   /// @brief Field next_in_index, offset 0x18, size 0x4
-  __declspec(property(get = __get_next_in_index, put = __set_next_in_index)) int32_t next_in_index;
+  __declspec(property(get = __cordl_internal_get_next_in_index, put = __cordl_internal_set_next_in_index)) int32_t next_in_index;
 
   /// @brief Field avail_in, offset 0x1c, size 0x4
-  __declspec(property(get = __get_avail_in, put = __set_avail_in)) int32_t avail_in;
+  __declspec(property(get = __cordl_internal_get_avail_in, put = __cordl_internal_set_avail_in)) int32_t avail_in;
 
   /// @brief Field total_in, offset 0x20, size 0x8
-  __declspec(property(get = __get_total_in, put = __set_total_in)) int64_t total_in;
+  __declspec(property(get = __cordl_internal_get_total_in, put = __cordl_internal_set_total_in)) int64_t total_in;
 
   /// @brief Field next_out, offset 0x28, size 0x8
-  __declspec(property(get = __get_next_out, put = __set_next_out))::ArrayW<uint8_t, ::Array<uint8_t>*> next_out;
+  __declspec(property(get = __cordl_internal_get_next_out, put = __cordl_internal_set_next_out))::ArrayW<uint8_t, ::Array<uint8_t>*> next_out;
 
   /// @brief Field next_out_index, offset 0x30, size 0x4
-  __declspec(property(get = __get_next_out_index, put = __set_next_out_index)) int32_t next_out_index;
+  __declspec(property(get = __cordl_internal_get_next_out_index, put = __cordl_internal_set_next_out_index)) int32_t next_out_index;
 
   /// @brief Field avail_out, offset 0x34, size 0x4
-  __declspec(property(get = __get_avail_out, put = __set_avail_out)) int32_t avail_out;
+  __declspec(property(get = __cordl_internal_get_avail_out, put = __cordl_internal_set_avail_out)) int32_t avail_out;
 
   /// @brief Field total_out, offset 0x38, size 0x8
-  __declspec(property(get = __get_total_out, put = __set_total_out)) int64_t total_out;
+  __declspec(property(get = __cordl_internal_get_total_out, put = __cordl_internal_set_total_out)) int64_t total_out;
 
   /// @brief Field msg, offset 0x40, size 0x8
-  __declspec(property(get = __get_msg, put = __set_msg))::StringW msg;
+  __declspec(property(get = __cordl_internal_get_msg, put = __cordl_internal_set_msg))::StringW msg;
 
   /// @brief Field dstate, offset 0x48, size 0x8
-  __declspec(property(get = __get_dstate, put = __set_dstate))::Org::BouncyCastle::Utilities::Zlib::Deflate* dstate;
+  __declspec(property(get = __cordl_internal_get_dstate, put = __cordl_internal_set_dstate))::Org::BouncyCastle::Utilities::Zlib::Deflate* dstate;
 
   /// @brief Field istate, offset 0x50, size 0x8
-  __declspec(property(get = __get_istate, put = __set_istate))::Org::BouncyCastle::Utilities::Zlib::Inflate* istate;
+  __declspec(property(get = __cordl_internal_get_istate, put = __cordl_internal_set_istate))::Org::BouncyCastle::Utilities::Zlib::Inflate* istate;
 
   /// @brief Field data_type, offset 0x58, size 0x4
-  __declspec(property(get = __get_data_type, put = __set_data_type)) int32_t data_type;
+  __declspec(property(get = __cordl_internal_get_data_type, put = __cordl_internal_set_data_type)) int32_t data_type;
 
   /// @brief Field adler, offset 0x60, size 0x8
-  __declspec(property(get = __get_adler, put = __set_adler)) int64_t adler;
+  __declspec(property(get = __cordl_internal_get_adler, put = __cordl_internal_set_adler)) int64_t adler;
 
   /// @brief Field _adler, offset 0x68, size 0x8
-  __declspec(property(get = __get__adler, put = __set__adler))::Org::BouncyCastle::Utilities::Zlib::Adler32* _adler;
+  __declspec(property(get = __cordl_internal_get__adler, put = __cordl_internal_set__adler))::Org::BouncyCastle::Utilities::Zlib::Adler32* _adler;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_next_in();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_next_in();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_next_in() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_next_in() const;
 
-  constexpr void __set_next_in(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_next_in(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_next_in_index();
+  constexpr int32_t& __cordl_internal_get_next_in_index();
 
-  constexpr int32_t const& __get_next_in_index() const;
+  constexpr int32_t const& __cordl_internal_get_next_in_index() const;
 
-  constexpr void __set_next_in_index(int32_t value);
+  constexpr void __cordl_internal_set_next_in_index(int32_t value);
 
-  constexpr int32_t& __get_avail_in();
+  constexpr int32_t& __cordl_internal_get_avail_in();
 
-  constexpr int32_t const& __get_avail_in() const;
+  constexpr int32_t const& __cordl_internal_get_avail_in() const;
 
-  constexpr void __set_avail_in(int32_t value);
+  constexpr void __cordl_internal_set_avail_in(int32_t value);
 
-  constexpr int64_t& __get_total_in();
+  constexpr int64_t& __cordl_internal_get_total_in();
 
-  constexpr int64_t const& __get_total_in() const;
+  constexpr int64_t const& __cordl_internal_get_total_in() const;
 
-  constexpr void __set_total_in(int64_t value);
+  constexpr void __cordl_internal_set_total_in(int64_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_next_out();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_next_out();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_next_out() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_next_out() const;
 
-  constexpr void __set_next_out(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_next_out(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_next_out_index();
+  constexpr int32_t& __cordl_internal_get_next_out_index();
 
-  constexpr int32_t const& __get_next_out_index() const;
+  constexpr int32_t const& __cordl_internal_get_next_out_index() const;
 
-  constexpr void __set_next_out_index(int32_t value);
+  constexpr void __cordl_internal_set_next_out_index(int32_t value);
 
-  constexpr int32_t& __get_avail_out();
+  constexpr int32_t& __cordl_internal_get_avail_out();
 
-  constexpr int32_t const& __get_avail_out() const;
+  constexpr int32_t const& __cordl_internal_get_avail_out() const;
 
-  constexpr void __set_avail_out(int32_t value);
+  constexpr void __cordl_internal_set_avail_out(int32_t value);
 
-  constexpr int64_t& __get_total_out();
+  constexpr int64_t& __cordl_internal_get_total_out();
 
-  constexpr int64_t const& __get_total_out() const;
+  constexpr int64_t const& __cordl_internal_get_total_out() const;
 
-  constexpr void __set_total_out(int64_t value);
+  constexpr void __cordl_internal_set_total_out(int64_t value);
 
-  constexpr ::StringW& __get_msg();
+  constexpr ::StringW& __cordl_internal_get_msg();
 
-  constexpr ::StringW const& __get_msg() const;
+  constexpr ::StringW const& __cordl_internal_get_msg() const;
 
-  constexpr void __set_msg(::StringW value);
+  constexpr void __cordl_internal_set_msg(::StringW value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::Deflate*& __get_dstate();
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::Deflate*& __cordl_internal_get_dstate();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Deflate*> const& __get_dstate() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Deflate*> const& __cordl_internal_get_dstate() const;
 
-  constexpr void __set_dstate(::Org::BouncyCastle::Utilities::Zlib::Deflate* value);
+  constexpr void __cordl_internal_set_dstate(::Org::BouncyCastle::Utilities::Zlib::Deflate* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::Inflate*& __get_istate();
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::Inflate*& __cordl_internal_get_istate();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Inflate*> const& __get_istate() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Inflate*> const& __cordl_internal_get_istate() const;
 
-  constexpr void __set_istate(::Org::BouncyCastle::Utilities::Zlib::Inflate* value);
+  constexpr void __cordl_internal_set_istate(::Org::BouncyCastle::Utilities::Zlib::Inflate* value);
 
-  constexpr int32_t& __get_data_type();
+  constexpr int32_t& __cordl_internal_get_data_type();
 
-  constexpr int32_t const& __get_data_type() const;
+  constexpr int32_t const& __cordl_internal_get_data_type() const;
 
-  constexpr void __set_data_type(int32_t value);
+  constexpr void __cordl_internal_set_data_type(int32_t value);
 
-  constexpr int64_t& __get_adler();
+  constexpr int64_t& __cordl_internal_get_adler();
 
-  constexpr int64_t const& __get_adler() const;
+  constexpr int64_t const& __cordl_internal_get_adler() const;
 
-  constexpr void __set_adler(int64_t value);
+  constexpr void __cordl_internal_set_adler(int64_t value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::Adler32*& __get__adler();
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::Adler32*& __cordl_internal_get__adler();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Adler32*> const& __get__adler() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::Adler32*> const& __cordl_internal_get__adler() const;
 
-  constexpr void __set__adler(::Org::BouncyCastle::Utilities::Zlib::Adler32* value);
+  constexpr void __cordl_internal_set__adler(::Org::BouncyCastle::Utilities::Zlib::Adler32* value);
 
   /// @brief Method inflateInit, addr 0x116a3c8, size 0xc, virtual false, abstract: false, final false
   inline int32_t inflateInit();

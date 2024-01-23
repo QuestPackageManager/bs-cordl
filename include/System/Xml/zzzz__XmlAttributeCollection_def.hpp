@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::System::Xml::XmlAttributeCollection);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11519))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11519))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11498))
 // CS Name: ::System.Xml::XmlAttributeCollection*
 class CORDL_TYPE XmlAttributeCollection : public ::System::Xml::XmlNamedNodeMap {

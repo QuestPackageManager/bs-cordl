@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::UnityEngine::AudioLowPassFilter);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10187))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10187))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15599))
 // CS Name: ::UnityEngine::AudioLowPassFilter*
 class CORDL_TYPE AudioLowPassFilter : public ::UnityEngine::Behaviour {

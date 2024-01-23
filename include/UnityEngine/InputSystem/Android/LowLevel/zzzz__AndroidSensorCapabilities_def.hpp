@@ -19,7 +19,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorCapabilit
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6454))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6454))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6455))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidSensorCapabilities
 struct CORDL_TYPE AndroidSensorCapabilities {

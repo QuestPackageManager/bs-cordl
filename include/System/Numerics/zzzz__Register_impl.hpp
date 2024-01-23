@@ -1,597 +1,597 @@
 #pragma once
 #include "System/Numerics/zzzz__Register_def.hpp"
-constexpr uint8_t& System::Numerics::Register::__get_byte_0() {
+constexpr uint8_t& System::Numerics::Register::__cordl_internal_get_byte_0() {
   return this->___byte_0;
 }
-constexpr uint8_t const& System::Numerics::Register::__get_byte_0() const {
+constexpr uint8_t const& System::Numerics::Register::__cordl_internal_get_byte_0() const {
   return this->___byte_0;
 }
-constexpr void System::Numerics::Register::__set_byte_0(uint8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_byte_0(uint8_t value) {
   this->___byte_0 = value;
 }
-constexpr uint8_t& System::Numerics::Register::__get_byte_1() {
+constexpr uint8_t& System::Numerics::Register::__cordl_internal_get_byte_1() {
   return this->___byte_1;
 }
-constexpr uint8_t const& System::Numerics::Register::__get_byte_1() const {
+constexpr uint8_t const& System::Numerics::Register::__cordl_internal_get_byte_1() const {
   return this->___byte_1;
 }
-constexpr void System::Numerics::Register::__set_byte_1(uint8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_byte_1(uint8_t value) {
   this->___byte_1 = value;
 }
-constexpr uint8_t& System::Numerics::Register::__get_byte_2() {
+constexpr uint8_t& System::Numerics::Register::__cordl_internal_get_byte_2() {
   return this->___byte_2;
 }
-constexpr uint8_t const& System::Numerics::Register::__get_byte_2() const {
+constexpr uint8_t const& System::Numerics::Register::__cordl_internal_get_byte_2() const {
   return this->___byte_2;
 }
-constexpr void System::Numerics::Register::__set_byte_2(uint8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_byte_2(uint8_t value) {
   this->___byte_2 = value;
 }
-constexpr uint8_t& System::Numerics::Register::__get_byte_3() {
+constexpr uint8_t& System::Numerics::Register::__cordl_internal_get_byte_3() {
   return this->___byte_3;
 }
-constexpr uint8_t const& System::Numerics::Register::__get_byte_3() const {
+constexpr uint8_t const& System::Numerics::Register::__cordl_internal_get_byte_3() const {
   return this->___byte_3;
 }
-constexpr void System::Numerics::Register::__set_byte_3(uint8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_byte_3(uint8_t value) {
   this->___byte_3 = value;
 }
-constexpr uint8_t& System::Numerics::Register::__get_byte_4() {
+constexpr uint8_t& System::Numerics::Register::__cordl_internal_get_byte_4() {
   return this->___byte_4;
 }
-constexpr uint8_t const& System::Numerics::Register::__get_byte_4() const {
+constexpr uint8_t const& System::Numerics::Register::__cordl_internal_get_byte_4() const {
   return this->___byte_4;
 }
-constexpr void System::Numerics::Register::__set_byte_4(uint8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_byte_4(uint8_t value) {
   this->___byte_4 = value;
 }
-constexpr uint8_t& System::Numerics::Register::__get_byte_5() {
+constexpr uint8_t& System::Numerics::Register::__cordl_internal_get_byte_5() {
   return this->___byte_5;
 }
-constexpr uint8_t const& System::Numerics::Register::__get_byte_5() const {
+constexpr uint8_t const& System::Numerics::Register::__cordl_internal_get_byte_5() const {
   return this->___byte_5;
 }
-constexpr void System::Numerics::Register::__set_byte_5(uint8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_byte_5(uint8_t value) {
   this->___byte_5 = value;
 }
-constexpr uint8_t& System::Numerics::Register::__get_byte_6() {
+constexpr uint8_t& System::Numerics::Register::__cordl_internal_get_byte_6() {
   return this->___byte_6;
 }
-constexpr uint8_t const& System::Numerics::Register::__get_byte_6() const {
+constexpr uint8_t const& System::Numerics::Register::__cordl_internal_get_byte_6() const {
   return this->___byte_6;
 }
-constexpr void System::Numerics::Register::__set_byte_6(uint8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_byte_6(uint8_t value) {
   this->___byte_6 = value;
 }
-constexpr uint8_t& System::Numerics::Register::__get_byte_7() {
+constexpr uint8_t& System::Numerics::Register::__cordl_internal_get_byte_7() {
   return this->___byte_7;
 }
-constexpr uint8_t const& System::Numerics::Register::__get_byte_7() const {
+constexpr uint8_t const& System::Numerics::Register::__cordl_internal_get_byte_7() const {
   return this->___byte_7;
 }
-constexpr void System::Numerics::Register::__set_byte_7(uint8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_byte_7(uint8_t value) {
   this->___byte_7 = value;
 }
-constexpr uint8_t& System::Numerics::Register::__get_byte_8() {
+constexpr uint8_t& System::Numerics::Register::__cordl_internal_get_byte_8() {
   return this->___byte_8;
 }
-constexpr uint8_t const& System::Numerics::Register::__get_byte_8() const {
+constexpr uint8_t const& System::Numerics::Register::__cordl_internal_get_byte_8() const {
   return this->___byte_8;
 }
-constexpr void System::Numerics::Register::__set_byte_8(uint8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_byte_8(uint8_t value) {
   this->___byte_8 = value;
 }
-constexpr uint8_t& System::Numerics::Register::__get_byte_9() {
+constexpr uint8_t& System::Numerics::Register::__cordl_internal_get_byte_9() {
   return this->___byte_9;
 }
-constexpr uint8_t const& System::Numerics::Register::__get_byte_9() const {
+constexpr uint8_t const& System::Numerics::Register::__cordl_internal_get_byte_9() const {
   return this->___byte_9;
 }
-constexpr void System::Numerics::Register::__set_byte_9(uint8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_byte_9(uint8_t value) {
   this->___byte_9 = value;
 }
-constexpr uint8_t& System::Numerics::Register::__get_byte_10() {
+constexpr uint8_t& System::Numerics::Register::__cordl_internal_get_byte_10() {
   return this->___byte_10;
 }
-constexpr uint8_t const& System::Numerics::Register::__get_byte_10() const {
+constexpr uint8_t const& System::Numerics::Register::__cordl_internal_get_byte_10() const {
   return this->___byte_10;
 }
-constexpr void System::Numerics::Register::__set_byte_10(uint8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_byte_10(uint8_t value) {
   this->___byte_10 = value;
 }
-constexpr uint8_t& System::Numerics::Register::__get_byte_11() {
+constexpr uint8_t& System::Numerics::Register::__cordl_internal_get_byte_11() {
   return this->___byte_11;
 }
-constexpr uint8_t const& System::Numerics::Register::__get_byte_11() const {
+constexpr uint8_t const& System::Numerics::Register::__cordl_internal_get_byte_11() const {
   return this->___byte_11;
 }
-constexpr void System::Numerics::Register::__set_byte_11(uint8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_byte_11(uint8_t value) {
   this->___byte_11 = value;
 }
-constexpr uint8_t& System::Numerics::Register::__get_byte_12() {
+constexpr uint8_t& System::Numerics::Register::__cordl_internal_get_byte_12() {
   return this->___byte_12;
 }
-constexpr uint8_t const& System::Numerics::Register::__get_byte_12() const {
+constexpr uint8_t const& System::Numerics::Register::__cordl_internal_get_byte_12() const {
   return this->___byte_12;
 }
-constexpr void System::Numerics::Register::__set_byte_12(uint8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_byte_12(uint8_t value) {
   this->___byte_12 = value;
 }
-constexpr uint8_t& System::Numerics::Register::__get_byte_13() {
+constexpr uint8_t& System::Numerics::Register::__cordl_internal_get_byte_13() {
   return this->___byte_13;
 }
-constexpr uint8_t const& System::Numerics::Register::__get_byte_13() const {
+constexpr uint8_t const& System::Numerics::Register::__cordl_internal_get_byte_13() const {
   return this->___byte_13;
 }
-constexpr void System::Numerics::Register::__set_byte_13(uint8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_byte_13(uint8_t value) {
   this->___byte_13 = value;
 }
-constexpr uint8_t& System::Numerics::Register::__get_byte_14() {
+constexpr uint8_t& System::Numerics::Register::__cordl_internal_get_byte_14() {
   return this->___byte_14;
 }
-constexpr uint8_t const& System::Numerics::Register::__get_byte_14() const {
+constexpr uint8_t const& System::Numerics::Register::__cordl_internal_get_byte_14() const {
   return this->___byte_14;
 }
-constexpr void System::Numerics::Register::__set_byte_14(uint8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_byte_14(uint8_t value) {
   this->___byte_14 = value;
 }
-constexpr uint8_t& System::Numerics::Register::__get_byte_15() {
+constexpr uint8_t& System::Numerics::Register::__cordl_internal_get_byte_15() {
   return this->___byte_15;
 }
-constexpr uint8_t const& System::Numerics::Register::__get_byte_15() const {
+constexpr uint8_t const& System::Numerics::Register::__cordl_internal_get_byte_15() const {
   return this->___byte_15;
 }
-constexpr void System::Numerics::Register::__set_byte_15(uint8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_byte_15(uint8_t value) {
   this->___byte_15 = value;
 }
-constexpr int8_t& System::Numerics::Register::__get_sbyte_0() {
+constexpr int8_t& System::Numerics::Register::__cordl_internal_get_sbyte_0() {
   return this->___sbyte_0;
 }
-constexpr int8_t const& System::Numerics::Register::__get_sbyte_0() const {
+constexpr int8_t const& System::Numerics::Register::__cordl_internal_get_sbyte_0() const {
   return this->___sbyte_0;
 }
-constexpr void System::Numerics::Register::__set_sbyte_0(int8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_sbyte_0(int8_t value) {
   this->___sbyte_0 = value;
 }
-constexpr int8_t& System::Numerics::Register::__get_sbyte_1() {
+constexpr int8_t& System::Numerics::Register::__cordl_internal_get_sbyte_1() {
   return this->___sbyte_1;
 }
-constexpr int8_t const& System::Numerics::Register::__get_sbyte_1() const {
+constexpr int8_t const& System::Numerics::Register::__cordl_internal_get_sbyte_1() const {
   return this->___sbyte_1;
 }
-constexpr void System::Numerics::Register::__set_sbyte_1(int8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_sbyte_1(int8_t value) {
   this->___sbyte_1 = value;
 }
-constexpr int8_t& System::Numerics::Register::__get_sbyte_2() {
+constexpr int8_t& System::Numerics::Register::__cordl_internal_get_sbyte_2() {
   return this->___sbyte_2;
 }
-constexpr int8_t const& System::Numerics::Register::__get_sbyte_2() const {
+constexpr int8_t const& System::Numerics::Register::__cordl_internal_get_sbyte_2() const {
   return this->___sbyte_2;
 }
-constexpr void System::Numerics::Register::__set_sbyte_2(int8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_sbyte_2(int8_t value) {
   this->___sbyte_2 = value;
 }
-constexpr int8_t& System::Numerics::Register::__get_sbyte_3() {
+constexpr int8_t& System::Numerics::Register::__cordl_internal_get_sbyte_3() {
   return this->___sbyte_3;
 }
-constexpr int8_t const& System::Numerics::Register::__get_sbyte_3() const {
+constexpr int8_t const& System::Numerics::Register::__cordl_internal_get_sbyte_3() const {
   return this->___sbyte_3;
 }
-constexpr void System::Numerics::Register::__set_sbyte_3(int8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_sbyte_3(int8_t value) {
   this->___sbyte_3 = value;
 }
-constexpr int8_t& System::Numerics::Register::__get_sbyte_4() {
+constexpr int8_t& System::Numerics::Register::__cordl_internal_get_sbyte_4() {
   return this->___sbyte_4;
 }
-constexpr int8_t const& System::Numerics::Register::__get_sbyte_4() const {
+constexpr int8_t const& System::Numerics::Register::__cordl_internal_get_sbyte_4() const {
   return this->___sbyte_4;
 }
-constexpr void System::Numerics::Register::__set_sbyte_4(int8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_sbyte_4(int8_t value) {
   this->___sbyte_4 = value;
 }
-constexpr int8_t& System::Numerics::Register::__get_sbyte_5() {
+constexpr int8_t& System::Numerics::Register::__cordl_internal_get_sbyte_5() {
   return this->___sbyte_5;
 }
-constexpr int8_t const& System::Numerics::Register::__get_sbyte_5() const {
+constexpr int8_t const& System::Numerics::Register::__cordl_internal_get_sbyte_5() const {
   return this->___sbyte_5;
 }
-constexpr void System::Numerics::Register::__set_sbyte_5(int8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_sbyte_5(int8_t value) {
   this->___sbyte_5 = value;
 }
-constexpr int8_t& System::Numerics::Register::__get_sbyte_6() {
+constexpr int8_t& System::Numerics::Register::__cordl_internal_get_sbyte_6() {
   return this->___sbyte_6;
 }
-constexpr int8_t const& System::Numerics::Register::__get_sbyte_6() const {
+constexpr int8_t const& System::Numerics::Register::__cordl_internal_get_sbyte_6() const {
   return this->___sbyte_6;
 }
-constexpr void System::Numerics::Register::__set_sbyte_6(int8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_sbyte_6(int8_t value) {
   this->___sbyte_6 = value;
 }
-constexpr int8_t& System::Numerics::Register::__get_sbyte_7() {
+constexpr int8_t& System::Numerics::Register::__cordl_internal_get_sbyte_7() {
   return this->___sbyte_7;
 }
-constexpr int8_t const& System::Numerics::Register::__get_sbyte_7() const {
+constexpr int8_t const& System::Numerics::Register::__cordl_internal_get_sbyte_7() const {
   return this->___sbyte_7;
 }
-constexpr void System::Numerics::Register::__set_sbyte_7(int8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_sbyte_7(int8_t value) {
   this->___sbyte_7 = value;
 }
-constexpr int8_t& System::Numerics::Register::__get_sbyte_8() {
+constexpr int8_t& System::Numerics::Register::__cordl_internal_get_sbyte_8() {
   return this->___sbyte_8;
 }
-constexpr int8_t const& System::Numerics::Register::__get_sbyte_8() const {
+constexpr int8_t const& System::Numerics::Register::__cordl_internal_get_sbyte_8() const {
   return this->___sbyte_8;
 }
-constexpr void System::Numerics::Register::__set_sbyte_8(int8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_sbyte_8(int8_t value) {
   this->___sbyte_8 = value;
 }
-constexpr int8_t& System::Numerics::Register::__get_sbyte_9() {
+constexpr int8_t& System::Numerics::Register::__cordl_internal_get_sbyte_9() {
   return this->___sbyte_9;
 }
-constexpr int8_t const& System::Numerics::Register::__get_sbyte_9() const {
+constexpr int8_t const& System::Numerics::Register::__cordl_internal_get_sbyte_9() const {
   return this->___sbyte_9;
 }
-constexpr void System::Numerics::Register::__set_sbyte_9(int8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_sbyte_9(int8_t value) {
   this->___sbyte_9 = value;
 }
-constexpr int8_t& System::Numerics::Register::__get_sbyte_10() {
+constexpr int8_t& System::Numerics::Register::__cordl_internal_get_sbyte_10() {
   return this->___sbyte_10;
 }
-constexpr int8_t const& System::Numerics::Register::__get_sbyte_10() const {
+constexpr int8_t const& System::Numerics::Register::__cordl_internal_get_sbyte_10() const {
   return this->___sbyte_10;
 }
-constexpr void System::Numerics::Register::__set_sbyte_10(int8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_sbyte_10(int8_t value) {
   this->___sbyte_10 = value;
 }
-constexpr int8_t& System::Numerics::Register::__get_sbyte_11() {
+constexpr int8_t& System::Numerics::Register::__cordl_internal_get_sbyte_11() {
   return this->___sbyte_11;
 }
-constexpr int8_t const& System::Numerics::Register::__get_sbyte_11() const {
+constexpr int8_t const& System::Numerics::Register::__cordl_internal_get_sbyte_11() const {
   return this->___sbyte_11;
 }
-constexpr void System::Numerics::Register::__set_sbyte_11(int8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_sbyte_11(int8_t value) {
   this->___sbyte_11 = value;
 }
-constexpr int8_t& System::Numerics::Register::__get_sbyte_12() {
+constexpr int8_t& System::Numerics::Register::__cordl_internal_get_sbyte_12() {
   return this->___sbyte_12;
 }
-constexpr int8_t const& System::Numerics::Register::__get_sbyte_12() const {
+constexpr int8_t const& System::Numerics::Register::__cordl_internal_get_sbyte_12() const {
   return this->___sbyte_12;
 }
-constexpr void System::Numerics::Register::__set_sbyte_12(int8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_sbyte_12(int8_t value) {
   this->___sbyte_12 = value;
 }
-constexpr int8_t& System::Numerics::Register::__get_sbyte_13() {
+constexpr int8_t& System::Numerics::Register::__cordl_internal_get_sbyte_13() {
   return this->___sbyte_13;
 }
-constexpr int8_t const& System::Numerics::Register::__get_sbyte_13() const {
+constexpr int8_t const& System::Numerics::Register::__cordl_internal_get_sbyte_13() const {
   return this->___sbyte_13;
 }
-constexpr void System::Numerics::Register::__set_sbyte_13(int8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_sbyte_13(int8_t value) {
   this->___sbyte_13 = value;
 }
-constexpr int8_t& System::Numerics::Register::__get_sbyte_14() {
+constexpr int8_t& System::Numerics::Register::__cordl_internal_get_sbyte_14() {
   return this->___sbyte_14;
 }
-constexpr int8_t const& System::Numerics::Register::__get_sbyte_14() const {
+constexpr int8_t const& System::Numerics::Register::__cordl_internal_get_sbyte_14() const {
   return this->___sbyte_14;
 }
-constexpr void System::Numerics::Register::__set_sbyte_14(int8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_sbyte_14(int8_t value) {
   this->___sbyte_14 = value;
 }
-constexpr int8_t& System::Numerics::Register::__get_sbyte_15() {
+constexpr int8_t& System::Numerics::Register::__cordl_internal_get_sbyte_15() {
   return this->___sbyte_15;
 }
-constexpr int8_t const& System::Numerics::Register::__get_sbyte_15() const {
+constexpr int8_t const& System::Numerics::Register::__cordl_internal_get_sbyte_15() const {
   return this->___sbyte_15;
 }
-constexpr void System::Numerics::Register::__set_sbyte_15(int8_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_sbyte_15(int8_t value) {
   this->___sbyte_15 = value;
 }
-constexpr uint16_t& System::Numerics::Register::__get_uint16_0() {
+constexpr uint16_t& System::Numerics::Register::__cordl_internal_get_uint16_0() {
   return this->___uint16_0;
 }
-constexpr uint16_t const& System::Numerics::Register::__get_uint16_0() const {
+constexpr uint16_t const& System::Numerics::Register::__cordl_internal_get_uint16_0() const {
   return this->___uint16_0;
 }
-constexpr void System::Numerics::Register::__set_uint16_0(uint16_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_uint16_0(uint16_t value) {
   this->___uint16_0 = value;
 }
-constexpr uint16_t& System::Numerics::Register::__get_uint16_1() {
+constexpr uint16_t& System::Numerics::Register::__cordl_internal_get_uint16_1() {
   return this->___uint16_1;
 }
-constexpr uint16_t const& System::Numerics::Register::__get_uint16_1() const {
+constexpr uint16_t const& System::Numerics::Register::__cordl_internal_get_uint16_1() const {
   return this->___uint16_1;
 }
-constexpr void System::Numerics::Register::__set_uint16_1(uint16_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_uint16_1(uint16_t value) {
   this->___uint16_1 = value;
 }
-constexpr uint16_t& System::Numerics::Register::__get_uint16_2() {
+constexpr uint16_t& System::Numerics::Register::__cordl_internal_get_uint16_2() {
   return this->___uint16_2;
 }
-constexpr uint16_t const& System::Numerics::Register::__get_uint16_2() const {
+constexpr uint16_t const& System::Numerics::Register::__cordl_internal_get_uint16_2() const {
   return this->___uint16_2;
 }
-constexpr void System::Numerics::Register::__set_uint16_2(uint16_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_uint16_2(uint16_t value) {
   this->___uint16_2 = value;
 }
-constexpr uint16_t& System::Numerics::Register::__get_uint16_3() {
+constexpr uint16_t& System::Numerics::Register::__cordl_internal_get_uint16_3() {
   return this->___uint16_3;
 }
-constexpr uint16_t const& System::Numerics::Register::__get_uint16_3() const {
+constexpr uint16_t const& System::Numerics::Register::__cordl_internal_get_uint16_3() const {
   return this->___uint16_3;
 }
-constexpr void System::Numerics::Register::__set_uint16_3(uint16_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_uint16_3(uint16_t value) {
   this->___uint16_3 = value;
 }
-constexpr uint16_t& System::Numerics::Register::__get_uint16_4() {
+constexpr uint16_t& System::Numerics::Register::__cordl_internal_get_uint16_4() {
   return this->___uint16_4;
 }
-constexpr uint16_t const& System::Numerics::Register::__get_uint16_4() const {
+constexpr uint16_t const& System::Numerics::Register::__cordl_internal_get_uint16_4() const {
   return this->___uint16_4;
 }
-constexpr void System::Numerics::Register::__set_uint16_4(uint16_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_uint16_4(uint16_t value) {
   this->___uint16_4 = value;
 }
-constexpr uint16_t& System::Numerics::Register::__get_uint16_5() {
+constexpr uint16_t& System::Numerics::Register::__cordl_internal_get_uint16_5() {
   return this->___uint16_5;
 }
-constexpr uint16_t const& System::Numerics::Register::__get_uint16_5() const {
+constexpr uint16_t const& System::Numerics::Register::__cordl_internal_get_uint16_5() const {
   return this->___uint16_5;
 }
-constexpr void System::Numerics::Register::__set_uint16_5(uint16_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_uint16_5(uint16_t value) {
   this->___uint16_5 = value;
 }
-constexpr uint16_t& System::Numerics::Register::__get_uint16_6() {
+constexpr uint16_t& System::Numerics::Register::__cordl_internal_get_uint16_6() {
   return this->___uint16_6;
 }
-constexpr uint16_t const& System::Numerics::Register::__get_uint16_6() const {
+constexpr uint16_t const& System::Numerics::Register::__cordl_internal_get_uint16_6() const {
   return this->___uint16_6;
 }
-constexpr void System::Numerics::Register::__set_uint16_6(uint16_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_uint16_6(uint16_t value) {
   this->___uint16_6 = value;
 }
-constexpr uint16_t& System::Numerics::Register::__get_uint16_7() {
+constexpr uint16_t& System::Numerics::Register::__cordl_internal_get_uint16_7() {
   return this->___uint16_7;
 }
-constexpr uint16_t const& System::Numerics::Register::__get_uint16_7() const {
+constexpr uint16_t const& System::Numerics::Register::__cordl_internal_get_uint16_7() const {
   return this->___uint16_7;
 }
-constexpr void System::Numerics::Register::__set_uint16_7(uint16_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_uint16_7(uint16_t value) {
   this->___uint16_7 = value;
 }
-constexpr int16_t& System::Numerics::Register::__get_int16_0() {
+constexpr int16_t& System::Numerics::Register::__cordl_internal_get_int16_0() {
   return this->___int16_0;
 }
-constexpr int16_t const& System::Numerics::Register::__get_int16_0() const {
+constexpr int16_t const& System::Numerics::Register::__cordl_internal_get_int16_0() const {
   return this->___int16_0;
 }
-constexpr void System::Numerics::Register::__set_int16_0(int16_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_int16_0(int16_t value) {
   this->___int16_0 = value;
 }
-constexpr int16_t& System::Numerics::Register::__get_int16_1() {
+constexpr int16_t& System::Numerics::Register::__cordl_internal_get_int16_1() {
   return this->___int16_1;
 }
-constexpr int16_t const& System::Numerics::Register::__get_int16_1() const {
+constexpr int16_t const& System::Numerics::Register::__cordl_internal_get_int16_1() const {
   return this->___int16_1;
 }
-constexpr void System::Numerics::Register::__set_int16_1(int16_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_int16_1(int16_t value) {
   this->___int16_1 = value;
 }
-constexpr int16_t& System::Numerics::Register::__get_int16_2() {
+constexpr int16_t& System::Numerics::Register::__cordl_internal_get_int16_2() {
   return this->___int16_2;
 }
-constexpr int16_t const& System::Numerics::Register::__get_int16_2() const {
+constexpr int16_t const& System::Numerics::Register::__cordl_internal_get_int16_2() const {
   return this->___int16_2;
 }
-constexpr void System::Numerics::Register::__set_int16_2(int16_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_int16_2(int16_t value) {
   this->___int16_2 = value;
 }
-constexpr int16_t& System::Numerics::Register::__get_int16_3() {
+constexpr int16_t& System::Numerics::Register::__cordl_internal_get_int16_3() {
   return this->___int16_3;
 }
-constexpr int16_t const& System::Numerics::Register::__get_int16_3() const {
+constexpr int16_t const& System::Numerics::Register::__cordl_internal_get_int16_3() const {
   return this->___int16_3;
 }
-constexpr void System::Numerics::Register::__set_int16_3(int16_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_int16_3(int16_t value) {
   this->___int16_3 = value;
 }
-constexpr int16_t& System::Numerics::Register::__get_int16_4() {
+constexpr int16_t& System::Numerics::Register::__cordl_internal_get_int16_4() {
   return this->___int16_4;
 }
-constexpr int16_t const& System::Numerics::Register::__get_int16_4() const {
+constexpr int16_t const& System::Numerics::Register::__cordl_internal_get_int16_4() const {
   return this->___int16_4;
 }
-constexpr void System::Numerics::Register::__set_int16_4(int16_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_int16_4(int16_t value) {
   this->___int16_4 = value;
 }
-constexpr int16_t& System::Numerics::Register::__get_int16_5() {
+constexpr int16_t& System::Numerics::Register::__cordl_internal_get_int16_5() {
   return this->___int16_5;
 }
-constexpr int16_t const& System::Numerics::Register::__get_int16_5() const {
+constexpr int16_t const& System::Numerics::Register::__cordl_internal_get_int16_5() const {
   return this->___int16_5;
 }
-constexpr void System::Numerics::Register::__set_int16_5(int16_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_int16_5(int16_t value) {
   this->___int16_5 = value;
 }
-constexpr int16_t& System::Numerics::Register::__get_int16_6() {
+constexpr int16_t& System::Numerics::Register::__cordl_internal_get_int16_6() {
   return this->___int16_6;
 }
-constexpr int16_t const& System::Numerics::Register::__get_int16_6() const {
+constexpr int16_t const& System::Numerics::Register::__cordl_internal_get_int16_6() const {
   return this->___int16_6;
 }
-constexpr void System::Numerics::Register::__set_int16_6(int16_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_int16_6(int16_t value) {
   this->___int16_6 = value;
 }
-constexpr int16_t& System::Numerics::Register::__get_int16_7() {
+constexpr int16_t& System::Numerics::Register::__cordl_internal_get_int16_7() {
   return this->___int16_7;
 }
-constexpr int16_t const& System::Numerics::Register::__get_int16_7() const {
+constexpr int16_t const& System::Numerics::Register::__cordl_internal_get_int16_7() const {
   return this->___int16_7;
 }
-constexpr void System::Numerics::Register::__set_int16_7(int16_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_int16_7(int16_t value) {
   this->___int16_7 = value;
 }
-constexpr uint32_t& System::Numerics::Register::__get_uint32_0() {
+constexpr uint32_t& System::Numerics::Register::__cordl_internal_get_uint32_0() {
   return this->___uint32_0;
 }
-constexpr uint32_t const& System::Numerics::Register::__get_uint32_0() const {
+constexpr uint32_t const& System::Numerics::Register::__cordl_internal_get_uint32_0() const {
   return this->___uint32_0;
 }
-constexpr void System::Numerics::Register::__set_uint32_0(uint32_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_uint32_0(uint32_t value) {
   this->___uint32_0 = value;
 }
-constexpr uint32_t& System::Numerics::Register::__get_uint32_1() {
+constexpr uint32_t& System::Numerics::Register::__cordl_internal_get_uint32_1() {
   return this->___uint32_1;
 }
-constexpr uint32_t const& System::Numerics::Register::__get_uint32_1() const {
+constexpr uint32_t const& System::Numerics::Register::__cordl_internal_get_uint32_1() const {
   return this->___uint32_1;
 }
-constexpr void System::Numerics::Register::__set_uint32_1(uint32_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_uint32_1(uint32_t value) {
   this->___uint32_1 = value;
 }
-constexpr uint32_t& System::Numerics::Register::__get_uint32_2() {
+constexpr uint32_t& System::Numerics::Register::__cordl_internal_get_uint32_2() {
   return this->___uint32_2;
 }
-constexpr uint32_t const& System::Numerics::Register::__get_uint32_2() const {
+constexpr uint32_t const& System::Numerics::Register::__cordl_internal_get_uint32_2() const {
   return this->___uint32_2;
 }
-constexpr void System::Numerics::Register::__set_uint32_2(uint32_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_uint32_2(uint32_t value) {
   this->___uint32_2 = value;
 }
-constexpr uint32_t& System::Numerics::Register::__get_uint32_3() {
+constexpr uint32_t& System::Numerics::Register::__cordl_internal_get_uint32_3() {
   return this->___uint32_3;
 }
-constexpr uint32_t const& System::Numerics::Register::__get_uint32_3() const {
+constexpr uint32_t const& System::Numerics::Register::__cordl_internal_get_uint32_3() const {
   return this->___uint32_3;
 }
-constexpr void System::Numerics::Register::__set_uint32_3(uint32_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_uint32_3(uint32_t value) {
   this->___uint32_3 = value;
 }
-constexpr int32_t& System::Numerics::Register::__get_int32_0() {
+constexpr int32_t& System::Numerics::Register::__cordl_internal_get_int32_0() {
   return this->___int32_0;
 }
-constexpr int32_t const& System::Numerics::Register::__get_int32_0() const {
+constexpr int32_t const& System::Numerics::Register::__cordl_internal_get_int32_0() const {
   return this->___int32_0;
 }
-constexpr void System::Numerics::Register::__set_int32_0(int32_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_int32_0(int32_t value) {
   this->___int32_0 = value;
 }
-constexpr int32_t& System::Numerics::Register::__get_int32_1() {
+constexpr int32_t& System::Numerics::Register::__cordl_internal_get_int32_1() {
   return this->___int32_1;
 }
-constexpr int32_t const& System::Numerics::Register::__get_int32_1() const {
+constexpr int32_t const& System::Numerics::Register::__cordl_internal_get_int32_1() const {
   return this->___int32_1;
 }
-constexpr void System::Numerics::Register::__set_int32_1(int32_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_int32_1(int32_t value) {
   this->___int32_1 = value;
 }
-constexpr int32_t& System::Numerics::Register::__get_int32_2() {
+constexpr int32_t& System::Numerics::Register::__cordl_internal_get_int32_2() {
   return this->___int32_2;
 }
-constexpr int32_t const& System::Numerics::Register::__get_int32_2() const {
+constexpr int32_t const& System::Numerics::Register::__cordl_internal_get_int32_2() const {
   return this->___int32_2;
 }
-constexpr void System::Numerics::Register::__set_int32_2(int32_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_int32_2(int32_t value) {
   this->___int32_2 = value;
 }
-constexpr int32_t& System::Numerics::Register::__get_int32_3() {
+constexpr int32_t& System::Numerics::Register::__cordl_internal_get_int32_3() {
   return this->___int32_3;
 }
-constexpr int32_t const& System::Numerics::Register::__get_int32_3() const {
+constexpr int32_t const& System::Numerics::Register::__cordl_internal_get_int32_3() const {
   return this->___int32_3;
 }
-constexpr void System::Numerics::Register::__set_int32_3(int32_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_int32_3(int32_t value) {
   this->___int32_3 = value;
 }
-constexpr uint64_t& System::Numerics::Register::__get_uint64_0() {
+constexpr uint64_t& System::Numerics::Register::__cordl_internal_get_uint64_0() {
   return this->___uint64_0;
 }
-constexpr uint64_t const& System::Numerics::Register::__get_uint64_0() const {
+constexpr uint64_t const& System::Numerics::Register::__cordl_internal_get_uint64_0() const {
   return this->___uint64_0;
 }
-constexpr void System::Numerics::Register::__set_uint64_0(uint64_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_uint64_0(uint64_t value) {
   this->___uint64_0 = value;
 }
-constexpr uint64_t& System::Numerics::Register::__get_uint64_1() {
+constexpr uint64_t& System::Numerics::Register::__cordl_internal_get_uint64_1() {
   return this->___uint64_1;
 }
-constexpr uint64_t const& System::Numerics::Register::__get_uint64_1() const {
+constexpr uint64_t const& System::Numerics::Register::__cordl_internal_get_uint64_1() const {
   return this->___uint64_1;
 }
-constexpr void System::Numerics::Register::__set_uint64_1(uint64_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_uint64_1(uint64_t value) {
   this->___uint64_1 = value;
 }
-constexpr int64_t& System::Numerics::Register::__get_int64_0() {
+constexpr int64_t& System::Numerics::Register::__cordl_internal_get_int64_0() {
   return this->___int64_0;
 }
-constexpr int64_t const& System::Numerics::Register::__get_int64_0() const {
+constexpr int64_t const& System::Numerics::Register::__cordl_internal_get_int64_0() const {
   return this->___int64_0;
 }
-constexpr void System::Numerics::Register::__set_int64_0(int64_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_int64_0(int64_t value) {
   this->___int64_0 = value;
 }
-constexpr int64_t& System::Numerics::Register::__get_int64_1() {
+constexpr int64_t& System::Numerics::Register::__cordl_internal_get_int64_1() {
   return this->___int64_1;
 }
-constexpr int64_t const& System::Numerics::Register::__get_int64_1() const {
+constexpr int64_t const& System::Numerics::Register::__cordl_internal_get_int64_1() const {
   return this->___int64_1;
 }
-constexpr void System::Numerics::Register::__set_int64_1(int64_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_int64_1(int64_t value) {
   this->___int64_1 = value;
 }
-constexpr float_t& System::Numerics::Register::__get_single_0() {
+constexpr float_t& System::Numerics::Register::__cordl_internal_get_single_0() {
   return this->___single_0;
 }
-constexpr float_t const& System::Numerics::Register::__get_single_0() const {
+constexpr float_t const& System::Numerics::Register::__cordl_internal_get_single_0() const {
   return this->___single_0;
 }
-constexpr void System::Numerics::Register::__set_single_0(float_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_single_0(float_t value) {
   this->___single_0 = value;
 }
-constexpr float_t& System::Numerics::Register::__get_single_1() {
+constexpr float_t& System::Numerics::Register::__cordl_internal_get_single_1() {
   return this->___single_1;
 }
-constexpr float_t const& System::Numerics::Register::__get_single_1() const {
+constexpr float_t const& System::Numerics::Register::__cordl_internal_get_single_1() const {
   return this->___single_1;
 }
-constexpr void System::Numerics::Register::__set_single_1(float_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_single_1(float_t value) {
   this->___single_1 = value;
 }
-constexpr float_t& System::Numerics::Register::__get_single_2() {
+constexpr float_t& System::Numerics::Register::__cordl_internal_get_single_2() {
   return this->___single_2;
 }
-constexpr float_t const& System::Numerics::Register::__get_single_2() const {
+constexpr float_t const& System::Numerics::Register::__cordl_internal_get_single_2() const {
   return this->___single_2;
 }
-constexpr void System::Numerics::Register::__set_single_2(float_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_single_2(float_t value) {
   this->___single_2 = value;
 }
-constexpr float_t& System::Numerics::Register::__get_single_3() {
+constexpr float_t& System::Numerics::Register::__cordl_internal_get_single_3() {
   return this->___single_3;
 }
-constexpr float_t const& System::Numerics::Register::__get_single_3() const {
+constexpr float_t const& System::Numerics::Register::__cordl_internal_get_single_3() const {
   return this->___single_3;
 }
-constexpr void System::Numerics::Register::__set_single_3(float_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_single_3(float_t value) {
   this->___single_3 = value;
 }
-constexpr double_t& System::Numerics::Register::__get_double_0() {
+constexpr double_t& System::Numerics::Register::__cordl_internal_get_double_0() {
   return this->___double_0;
 }
-constexpr double_t const& System::Numerics::Register::__get_double_0() const {
+constexpr double_t const& System::Numerics::Register::__cordl_internal_get_double_0() const {
   return this->___double_0;
 }
-constexpr void System::Numerics::Register::__set_double_0(double_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_double_0(double_t value) {
   this->___double_0 = value;
 }
-constexpr double_t& System::Numerics::Register::__get_double_1() {
+constexpr double_t& System::Numerics::Register::__cordl_internal_get_double_1() {
   return this->___double_1;
 }
-constexpr double_t const& System::Numerics::Register::__get_double_1() const {
+constexpr double_t const& System::Numerics::Register::__cordl_internal_get_double_1() const {
   return this->___double_1;
 }
-constexpr void System::Numerics::Register::__set_double_1(double_t value) {
+constexpr void System::Numerics::Register::__cordl_internal_set_double_1(double_t value) {
   this->___double_1 = value;
 }
 // Ctor Parameters [CppParam { name: "byte_0", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "byte_1", ty: "uint8_t", modifiers: "", def_value: Some("{}") }, CppParam { name:

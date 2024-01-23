@@ -22,119 +22,119 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI);
 // SizeInfo { instance_size: 312, native_size: -1, calculated_instance_size: 312, calculated_native_size: 312, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15522)), TypeDefinitionIndex(TypeDefinitionIndex(10057))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(15522))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15523))
 // CS Name: ::MockPlayerLobbyPoseGeneratorAI*
 class CORDL_TYPE MockPlayerLobbyPoseGeneratorAI : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
 public:
   // Declarations
   /// @brief Field _random, offset 0x20, size 0x8
-  __declspec(property(get = __get__random, put = __set__random))::System::Random* _random;
+  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random))::System::Random* _random;
 
   /// @brief Field _headPose, offset 0x28, size 0x1c
-  __declspec(property(get = __get__headPose, put = __set__headPose))::UnityEngine::Pose _headPose;
+  __declspec(property(get = __cordl_internal_get__headPose, put = __cordl_internal_set__headPose))::UnityEngine::Pose _headPose;
 
   /// @brief Field _leftHandPose, offset 0x44, size 0x1c
-  __declspec(property(get = __get__leftHandPose, put = __set__leftHandPose))::UnityEngine::Pose _leftHandPose;
+  __declspec(property(get = __cordl_internal_get__leftHandPose, put = __cordl_internal_set__leftHandPose))::UnityEngine::Pose _leftHandPose;
 
   /// @brief Field _rightHandPose, offset 0x60, size 0x1c
-  __declspec(property(get = __get__rightHandPose, put = __set__rightHandPose))::UnityEngine::Pose _rightHandPose;
+  __declspec(property(get = __cordl_internal_get__rightHandPose, put = __cordl_internal_set__rightHandPose))::UnityEngine::Pose _rightHandPose;
 
   /// @brief Field _lastHeadPoseTarget, offset 0x7c, size 0x1c
-  __declspec(property(get = __get__lastHeadPoseTarget, put = __set__lastHeadPoseTarget))::UnityEngine::Pose _lastHeadPoseTarget;
+  __declspec(property(get = __cordl_internal_get__lastHeadPoseTarget, put = __cordl_internal_set__lastHeadPoseTarget))::UnityEngine::Pose _lastHeadPoseTarget;
 
   /// @brief Field _lastLeftHandPoseTarget, offset 0x98, size 0x1c
-  __declspec(property(get = __get__lastLeftHandPoseTarget, put = __set__lastLeftHandPoseTarget))::UnityEngine::Pose _lastLeftHandPoseTarget;
+  __declspec(property(get = __cordl_internal_get__lastLeftHandPoseTarget, put = __cordl_internal_set__lastLeftHandPoseTarget))::UnityEngine::Pose _lastLeftHandPoseTarget;
 
   /// @brief Field _lastRightHandPoseTarget, offset 0xb4, size 0x1c
-  __declspec(property(get = __get__lastRightHandPoseTarget, put = __set__lastRightHandPoseTarget))::UnityEngine::Pose _lastRightHandPoseTarget;
+  __declspec(property(get = __cordl_internal_get__lastRightHandPoseTarget, put = __cordl_internal_set__lastRightHandPoseTarget))::UnityEngine::Pose _lastRightHandPoseTarget;
 
   /// @brief Field _lastTargetTime, offset 0xd0, size 0x8
-  __declspec(property(get = __get__lastTargetTime, put = __set__lastTargetTime)) int64_t _lastTargetTime;
+  __declspec(property(get = __cordl_internal_get__lastTargetTime, put = __cordl_internal_set__lastTargetTime)) int64_t _lastTargetTime;
 
   /// @brief Field _headPoseTarget, offset 0xd8, size 0x1c
-  __declspec(property(get = __get__headPoseTarget, put = __set__headPoseTarget))::UnityEngine::Pose _headPoseTarget;
+  __declspec(property(get = __cordl_internal_get__headPoseTarget, put = __cordl_internal_set__headPoseTarget))::UnityEngine::Pose _headPoseTarget;
 
   /// @brief Field _leftHandPoseTarget, offset 0xf4, size 0x1c
-  __declspec(property(get = __get__leftHandPoseTarget, put = __set__leftHandPoseTarget))::UnityEngine::Pose _leftHandPoseTarget;
+  __declspec(property(get = __cordl_internal_get__leftHandPoseTarget, put = __cordl_internal_set__leftHandPoseTarget))::UnityEngine::Pose _leftHandPoseTarget;
 
   /// @brief Field _rightHandPoseTarget, offset 0x110, size 0x1c
-  __declspec(property(get = __get__rightHandPoseTarget, put = __set__rightHandPoseTarget))::UnityEngine::Pose _rightHandPoseTarget;
+  __declspec(property(get = __cordl_internal_get__rightHandPoseTarget, put = __cordl_internal_set__rightHandPoseTarget))::UnityEngine::Pose _rightHandPoseTarget;
 
   /// @brief Field _nextTargetTime, offset 0x130, size 0x8
-  __declspec(property(get = __get__nextTargetTime, put = __set__nextTargetTime)) int64_t _nextTargetTime;
+  __declspec(property(get = __cordl_internal_get__nextTargetTime, put = __cordl_internal_set__nextTargetTime)) int64_t _nextTargetTime;
 
-  constexpr ::System::Random*& __get__random();
+  constexpr ::System::Random*& __cordl_internal_get__random();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& __get__random() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& __cordl_internal_get__random() const;
 
-  constexpr void __set__random(::System::Random* value);
+  constexpr void __cordl_internal_set__random(::System::Random* value);
 
-  constexpr ::UnityEngine::Pose& __get__headPose();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get__headPose();
 
-  constexpr ::UnityEngine::Pose const& __get__headPose() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get__headPose() const;
 
-  constexpr void __set__headPose(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set__headPose(::UnityEngine::Pose value);
 
-  constexpr ::UnityEngine::Pose& __get__leftHandPose();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get__leftHandPose();
 
-  constexpr ::UnityEngine::Pose const& __get__leftHandPose() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get__leftHandPose() const;
 
-  constexpr void __set__leftHandPose(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set__leftHandPose(::UnityEngine::Pose value);
 
-  constexpr ::UnityEngine::Pose& __get__rightHandPose();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get__rightHandPose();
 
-  constexpr ::UnityEngine::Pose const& __get__rightHandPose() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get__rightHandPose() const;
 
-  constexpr void __set__rightHandPose(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set__rightHandPose(::UnityEngine::Pose value);
 
-  constexpr ::UnityEngine::Pose& __get__lastHeadPoseTarget();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get__lastHeadPoseTarget();
 
-  constexpr ::UnityEngine::Pose const& __get__lastHeadPoseTarget() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get__lastHeadPoseTarget() const;
 
-  constexpr void __set__lastHeadPoseTarget(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set__lastHeadPoseTarget(::UnityEngine::Pose value);
 
-  constexpr ::UnityEngine::Pose& __get__lastLeftHandPoseTarget();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get__lastLeftHandPoseTarget();
 
-  constexpr ::UnityEngine::Pose const& __get__lastLeftHandPoseTarget() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get__lastLeftHandPoseTarget() const;
 
-  constexpr void __set__lastLeftHandPoseTarget(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set__lastLeftHandPoseTarget(::UnityEngine::Pose value);
 
-  constexpr ::UnityEngine::Pose& __get__lastRightHandPoseTarget();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get__lastRightHandPoseTarget();
 
-  constexpr ::UnityEngine::Pose const& __get__lastRightHandPoseTarget() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get__lastRightHandPoseTarget() const;
 
-  constexpr void __set__lastRightHandPoseTarget(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set__lastRightHandPoseTarget(::UnityEngine::Pose value);
 
-  constexpr int64_t& __get__lastTargetTime();
+  constexpr int64_t& __cordl_internal_get__lastTargetTime();
 
-  constexpr int64_t const& __get__lastTargetTime() const;
+  constexpr int64_t const& __cordl_internal_get__lastTargetTime() const;
 
-  constexpr void __set__lastTargetTime(int64_t value);
+  constexpr void __cordl_internal_set__lastTargetTime(int64_t value);
 
-  constexpr ::UnityEngine::Pose& __get__headPoseTarget();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get__headPoseTarget();
 
-  constexpr ::UnityEngine::Pose const& __get__headPoseTarget() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get__headPoseTarget() const;
 
-  constexpr void __set__headPoseTarget(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set__headPoseTarget(::UnityEngine::Pose value);
 
-  constexpr ::UnityEngine::Pose& __get__leftHandPoseTarget();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get__leftHandPoseTarget();
 
-  constexpr ::UnityEngine::Pose const& __get__leftHandPoseTarget() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get__leftHandPoseTarget() const;
 
-  constexpr void __set__leftHandPoseTarget(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set__leftHandPoseTarget(::UnityEngine::Pose value);
 
-  constexpr ::UnityEngine::Pose& __get__rightHandPoseTarget();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get__rightHandPoseTarget();
 
-  constexpr ::UnityEngine::Pose const& __get__rightHandPoseTarget() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get__rightHandPoseTarget() const;
 
-  constexpr void __set__rightHandPoseTarget(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set__rightHandPoseTarget(::UnityEngine::Pose value);
 
-  constexpr int64_t& __get__nextTargetTime();
+  constexpr int64_t& __cordl_internal_get__nextTargetTime();
 
-  constexpr int64_t const& __get__nextTargetTime() const;
+  constexpr int64_t const& __cordl_internal_get__nextTargetTime() const;
 
-  constexpr void __set__nextTargetTime(int64_t value);
+  constexpr void __cordl_internal_set__nextTargetTime(int64_t value);
 
   static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorAI* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
 

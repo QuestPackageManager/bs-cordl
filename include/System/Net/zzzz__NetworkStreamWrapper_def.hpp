@@ -49,17 +49,17 @@ MARK_REF_PTR_T(::System::Net::NetworkStreamWrapper);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9054))
 // CS Name: ::System.Net::NetworkStreamWrapper*
 class CORDL_TYPE NetworkStreamWrapper : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field _client, offset 0x28, size 0x8
-  __declspec(property(get = __get__client, put = __set__client))::System::Net::Sockets::TcpClient* _client;
+  __declspec(property(get = __cordl_internal_get__client, put = __cordl_internal_set__client))::System::Net::Sockets::TcpClient* _client;
 
   /// @brief Field _networkStream, offset 0x30, size 0x8
-  __declspec(property(get = __get__networkStream, put = __set__networkStream))::System::Net::Sockets::NetworkStream* _networkStream;
+  __declspec(property(get = __cordl_internal_get__networkStream, put = __cordl_internal_set__networkStream))::System::Net::Sockets::NetworkStream* _networkStream;
 
   __declspec(property(get = get_UsingSecureStream)) bool UsingSecureStream;
 
@@ -85,17 +85,17 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr ::System::Net::Sockets::TcpClient*& __get__client();
+  constexpr ::System::Net::Sockets::TcpClient*& __cordl_internal_get__client();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::TcpClient*> const& __get__client() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::TcpClient*> const& __cordl_internal_get__client() const;
 
-  constexpr void __set__client(::System::Net::Sockets::TcpClient* value);
+  constexpr void __cordl_internal_set__client(::System::Net::Sockets::TcpClient* value);
 
-  constexpr ::System::Net::Sockets::NetworkStream*& __get__networkStream();
+  constexpr ::System::Net::Sockets::NetworkStream*& __cordl_internal_get__networkStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::NetworkStream*> const& __get__networkStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::NetworkStream*> const& __cordl_internal_get__networkStream() const;
 
-  constexpr void __set__networkStream(::System::Net::Sockets::NetworkStream* value);
+  constexpr void __cordl_internal_set__networkStream(::System::Net::Sockets::NetworkStream* value);
 
   static inline ::System::Net::NetworkStreamWrapper* New_ctor(::System::Net::Sockets::TcpClient* client);
 

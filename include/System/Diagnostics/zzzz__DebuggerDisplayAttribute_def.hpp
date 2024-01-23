@@ -15,38 +15,38 @@ MARK_REF_PTR_T(::System::Diagnostics::DebuggerDisplayAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3737))
 // CS Name: ::System.Diagnostics::DebuggerDisplayAttribute*
 class CORDL_TYPE DebuggerDisplayAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field value, offset 0x18, size 0x8
-  __declspec(property(get = __get_value, put = __set_value))::StringW value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::StringW value;
 
   /// @brief Field type, offset 0x20, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::StringW type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::StringW type;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::StringW& __get_value();
+  constexpr ::StringW& __cordl_internal_get_value();
 
-  constexpr ::StringW const& __get_value() const;
+  constexpr ::StringW const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(::StringW value);
+  constexpr void __cordl_internal_set_value(::StringW value);
 
-  constexpr ::StringW& __get_type();
+  constexpr ::StringW& __cordl_internal_get_type();
 
-  constexpr ::StringW const& __get_type() const;
+  constexpr ::StringW const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::StringW value);
+  constexpr void __cordl_internal_set_type(::StringW value);
 
   static inline ::System::Diagnostics::DebuggerDisplayAttribute* New_ctor(::StringW value);
 

@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x210f0e4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLightWithIds*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLightWithIds*>::get(), 8));
@@ -26,45 +26,45 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x210f128;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLightWithIds*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::DirectionalLight*& GlobalNamespace::DirectionalLightWithIds::__get__directionalLight() {
+constexpr ::UnityW<::GlobalNamespace::DirectionalLight>& GlobalNamespace::DirectionalLightWithIds::__cordl_internal_get__directionalLight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directionalLight;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DirectionalLight*> const& GlobalNamespace::DirectionalLightWithIds::__get__directionalLight() const {
+constexpr ::UnityW<::GlobalNamespace::DirectionalLight> const& GlobalNamespace::DirectionalLightWithIds::__cordl_internal_get__directionalLight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____directionalLight;
 }
-constexpr void GlobalNamespace::DirectionalLightWithIds::__set__directionalLight(::GlobalNamespace::DirectionalLight* value) {
+constexpr void GlobalNamespace::DirectionalLightWithIds::__cordl_internal_set__directionalLight(::UnityW<::GlobalNamespace::DirectionalLight> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____directionalLight)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::DirectionalLightWithIds::__get__setIntensityOnly() {
+constexpr bool& GlobalNamespace::DirectionalLightWithIds::__cordl_internal_get__setIntensityOnly() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setIntensityOnly;
 }
-constexpr bool const& GlobalNamespace::DirectionalLightWithIds::__get__setIntensityOnly() const {
+constexpr bool const& GlobalNamespace::DirectionalLightWithIds::__cordl_internal_get__setIntensityOnly() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____setIntensityOnly;
 }
-constexpr void GlobalNamespace::DirectionalLightWithIds::__set__setIntensityOnly(bool value) {
+constexpr void GlobalNamespace::DirectionalLightWithIds::__cordl_internal_set__setIntensityOnly(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____setIntensityOnly = value;
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::DirectionalLightWithIds::__get__defaultColor() {
+constexpr ::UnityEngine::Color& GlobalNamespace::DirectionalLightWithIds::__cordl_internal_get__defaultColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultColor;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::DirectionalLightWithIds::__get__defaultColor() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::DirectionalLightWithIds::__cordl_internal_get__defaultColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultColor;
 }
-constexpr void GlobalNamespace::DirectionalLightWithIds::__set__defaultColor(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::DirectionalLightWithIds::__cordl_internal_set__defaultColor(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____defaultColor = value;
 }
@@ -74,11 +74,11 @@ inline void GlobalNamespace::DirectionalLightWithIds::ColorWasSet(::UnityEngine:
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, color);
 }
 inline ::GlobalNamespace::DirectionalLightWithIds* GlobalNamespace::DirectionalLightWithIds::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::DirectionalLightWithIds*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DirectionalLightWithIds*>());
 }
 inline void GlobalNamespace::DirectionalLightWithIds::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLightWithIds*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

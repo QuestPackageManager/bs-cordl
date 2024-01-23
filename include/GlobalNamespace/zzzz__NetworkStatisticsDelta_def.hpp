@@ -15,7 +15,7 @@ MARK_VAL_T(::GlobalNamespace::NetworkStatisticsDelta);
 // SizeInfo { instance_size: 104, native_size: 104, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12901))
 // CS Name: ::NetworkStatisticsDelta
 struct CORDL_TYPE NetworkStatisticsDelta {

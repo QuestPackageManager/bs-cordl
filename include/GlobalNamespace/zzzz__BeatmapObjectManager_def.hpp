@@ -100,7 +100,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BeatmapObjectManager__NoteWasCutDelegate);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4715))
 // CS Name: ::BeatmapObjectManager::NoteWasCutDelegate*
 class CORDL_TYPE __BeatmapObjectManager__NoteWasCutDelegate : public ::System::MulticastDelegate {
@@ -145,7 +145,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapObject
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4716))
 // CS Name: ::BeatmapObjectManager*
 class CORDL_TYPE BeatmapObjectManager : public ::System::Object {
@@ -154,64 +154,74 @@ public:
   using NoteWasCutDelegate = ::GlobalNamespace::__BeatmapObjectManager__NoteWasCutDelegate;
 
   /// @brief Field noteWasAddedEvent, offset 0x10, size 0x8
-  __declspec(property(get = __get_noteWasAddedEvent,
-                      put = __set_noteWasAddedEvent))::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, float_t>* noteWasAddedEvent;
+  __declspec(property(
+      get = __cordl_internal_get_noteWasAddedEvent,
+      put = __cordl_internal_set_noteWasAddedEvent))::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, float_t>* noteWasAddedEvent;
 
   /// @brief Field noteWasSpawnedEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_noteWasSpawnedEvent, put = __set_noteWasSpawnedEvent))::System::Action_1<::GlobalNamespace::NoteController*>* noteWasSpawnedEvent;
+  __declspec(property(get = __cordl_internal_get_noteWasSpawnedEvent,
+                      put = __cordl_internal_set_noteWasSpawnedEvent))::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* noteWasSpawnedEvent;
 
   /// @brief Field noteWasDespawnedEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_noteWasDespawnedEvent, put = __set_noteWasDespawnedEvent))::System::Action_1<::GlobalNamespace::NoteController*>* noteWasDespawnedEvent;
+  __declspec(property(get = __cordl_internal_get_noteWasDespawnedEvent,
+                      put = __cordl_internal_set_noteWasDespawnedEvent))::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* noteWasDespawnedEvent;
 
   /// @brief Field noteWasMissedEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_noteWasMissedEvent, put = __set_noteWasMissedEvent))::System::Action_1<::GlobalNamespace::NoteController*>* noteWasMissedEvent;
+  __declspec(property(get = __cordl_internal_get_noteWasMissedEvent, put = __cordl_internal_set_noteWasMissedEvent))::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* noteWasMissedEvent;
 
   /// @brief Field noteWasCutEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_noteWasCutEvent, put = __set_noteWasCutEvent))::GlobalNamespace::__BeatmapObjectManager__NoteWasCutDelegate* noteWasCutEvent;
+  __declspec(property(get = __cordl_internal_get_noteWasCutEvent, put = __cordl_internal_set_noteWasCutEvent))::GlobalNamespace::__BeatmapObjectManager__NoteWasCutDelegate* noteWasCutEvent;
 
   /// @brief Field noteDidStartJumpEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_noteDidStartJumpEvent, put = __set_noteDidStartJumpEvent))::System::Action_1<::GlobalNamespace::NoteController*>* noteDidStartJumpEvent;
+  __declspec(property(get = __cordl_internal_get_noteDidStartJumpEvent,
+                      put = __cordl_internal_set_noteDidStartJumpEvent))::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* noteDidStartJumpEvent;
 
   /// @brief Field obstacleWasAddedEvent, offset 0x40, size 0x8
-  __declspec(property(
-      get = __get_obstacleWasAddedEvent,
-      put = __set_obstacleWasAddedEvent))::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, float_t>* obstacleWasAddedEvent;
+  __declspec(property(get = __cordl_internal_get_obstacleWasAddedEvent,
+                      put = __cordl_internal_set_obstacleWasAddedEvent))::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData,
+                                                                                           float_t>* obstacleWasAddedEvent;
 
   /// @brief Field obstacleWasSpawnedEvent, offset 0x48, size 0x8
-  __declspec(property(get = __get_obstacleWasSpawnedEvent, put = __set_obstacleWasSpawnedEvent))::System::Action_1<::GlobalNamespace::ObstacleController*>* obstacleWasSpawnedEvent;
+  __declspec(property(get = __cordl_internal_get_obstacleWasSpawnedEvent,
+                      put = __cordl_internal_set_obstacleWasSpawnedEvent))::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* obstacleWasSpawnedEvent;
 
   /// @brief Field obstacleWasDespawnedEvent, offset 0x50, size 0x8
-  __declspec(property(get = __get_obstacleWasDespawnedEvent, put = __set_obstacleWasDespawnedEvent))::System::Action_1<::GlobalNamespace::ObstacleController*>* obstacleWasDespawnedEvent;
+  __declspec(property(get = __cordl_internal_get_obstacleWasDespawnedEvent,
+                      put = __cordl_internal_set_obstacleWasDespawnedEvent))::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* obstacleWasDespawnedEvent;
 
   /// @brief Field obstacleDidPassThreeQuartersOfMove2Event, offset 0x58, size 0x8
-  __declspec(property(get = __get_obstacleDidPassThreeQuartersOfMove2Event,
-                      put = __set_obstacleDidPassThreeQuartersOfMove2Event))::System::Action_1<::GlobalNamespace::ObstacleController*>* obstacleDidPassThreeQuartersOfMove2Event;
+  __declspec(
+      property(get = __cordl_internal_get_obstacleDidPassThreeQuartersOfMove2Event,
+               put = __cordl_internal_set_obstacleDidPassThreeQuartersOfMove2Event))::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* obstacleDidPassThreeQuartersOfMove2Event;
 
   /// @brief Field obstacleDidPassAvoidedMarkEvent, offset 0x60, size 0x8
-  __declspec(property(get = __get_obstacleDidPassAvoidedMarkEvent,
-                      put = __set_obstacleDidPassAvoidedMarkEvent))::System::Action_1<::GlobalNamespace::ObstacleController*>* obstacleDidPassAvoidedMarkEvent;
+  __declspec(property(get = __cordl_internal_get_obstacleDidPassAvoidedMarkEvent,
+                      put = __cordl_internal_set_obstacleDidPassAvoidedMarkEvent))::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* obstacleDidPassAvoidedMarkEvent;
 
   /// @brief Field sliderWasAddedEvent, offset 0x68, size 0x8
-  __declspec(
-      property(get = __get_sliderWasAddedEvent,
-               put = __set_sliderWasAddedEvent))::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, float_t>* sliderWasAddedEvent;
+  __declspec(property(get = __cordl_internal_get_sliderWasAddedEvent,
+                      put = __cordl_internal_set_sliderWasAddedEvent))::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData,
+                                                                                         float_t>* sliderWasAddedEvent;
 
   /// @brief Field sliderWasSpawnedEvent, offset 0x70, size 0x8
-  __declspec(property(get = __get_sliderWasSpawnedEvent, put = __set_sliderWasSpawnedEvent))::System::Action_1<::GlobalNamespace::SliderController*>* sliderWasSpawnedEvent;
+  __declspec(property(get = __cordl_internal_get_sliderWasSpawnedEvent,
+                      put = __cordl_internal_set_sliderWasSpawnedEvent))::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>* sliderWasSpawnedEvent;
 
   /// @brief Field sliderWasDespawnedEvent, offset 0x78, size 0x8
-  __declspec(property(get = __get_sliderWasDespawnedEvent, put = __set_sliderWasDespawnedEvent))::System::Action_1<::GlobalNamespace::SliderController*>* sliderWasDespawnedEvent;
+  __declspec(property(get = __cordl_internal_get_sliderWasDespawnedEvent,
+                      put = __cordl_internal_set_sliderWasDespawnedEvent))::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>* sliderWasDespawnedEvent;
 
   /// @brief Field didHideAllBeatmapObjectsEvent, offset 0x80, size 0x8
-  __declspec(property(get = __get_didHideAllBeatmapObjectsEvent, put = __set_didHideAllBeatmapObjectsEvent))::System::Action_1<bool>* didHideAllBeatmapObjectsEvent;
+  __declspec(property(get = __cordl_internal_get_didHideAllBeatmapObjectsEvent, put = __cordl_internal_set_didHideAllBeatmapObjectsEvent))::System::Action_1<bool>* didHideAllBeatmapObjectsEvent;
 
   /// @brief Field _allBeatmapObjects, offset 0x88, size 0x8
-  __declspec(property(get = __get__allBeatmapObjects, put = __set__allBeatmapObjects))::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapObjectController*>* _allBeatmapObjects;
+  __declspec(property(get = __cordl_internal_get__allBeatmapObjects,
+                      put = __cordl_internal_set__allBeatmapObjects))::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapObjectController*>* _allBeatmapObjects;
 
   /// @brief Field <spawnHidden>k__BackingField, offset 0x90, size 0x1
-  __declspec(property(get = __get__spawnHidden_k__BackingField, put = __set__spawnHidden_k__BackingField)) bool _spawnHidden_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__spawnHidden_k__BackingField, put = __cordl_internal_set__spawnHidden_k__BackingField)) bool _spawnHidden_k__BackingField;
 
-  __declspec(property(get = get_activeObstacleControllers))::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* activeObstacleControllers;
+  __declspec(property(get = get_activeObstacleControllers))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* activeObstacleControllers;
 
   __declspec(property(get = get_spawnHidden, put = set_spawnHidden)) bool spawnHidden;
 
@@ -263,110 +273,111 @@ public:
   /// @brief Convert to "::GlobalNamespace::ISliderDidDissolveEvent"
   constexpr ::GlobalNamespace::ISliderDidDissolveEvent* i___GlobalNamespace__ISliderDidDissolveEvent() noexcept;
 
-  constexpr ::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, float_t>*& __get_noteWasAddedEvent();
+  constexpr ::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, float_t>*& __cordl_internal_get_noteWasAddedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, float_t>*> const&
-  __get_noteWasAddedEvent() const;
+  __cordl_internal_get_noteWasAddedEvent() const;
 
-  constexpr void __set_noteWasAddedEvent(::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, float_t>* value);
+  constexpr void __cordl_internal_set_noteWasAddedEvent(::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, float_t>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::NoteController*>*& __get_noteWasSpawnedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>*& __cordl_internal_get_noteWasSpawnedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::NoteController*>*> const& __get_noteWasSpawnedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>*> const& __cordl_internal_get_noteWasSpawnedEvent() const;
 
-  constexpr void __set_noteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  constexpr void __cordl_internal_set_noteWasSpawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::NoteController*>*& __get_noteWasDespawnedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>*& __cordl_internal_get_noteWasDespawnedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::NoteController*>*> const& __get_noteWasDespawnedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>*> const& __cordl_internal_get_noteWasDespawnedEvent() const;
 
-  constexpr void __set_noteWasDespawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  constexpr void __cordl_internal_set_noteWasDespawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::NoteController*>*& __get_noteWasMissedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>*& __cordl_internal_get_noteWasMissedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::NoteController*>*> const& __get_noteWasMissedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>*> const& __cordl_internal_get_noteWasMissedEvent() const;
 
-  constexpr void __set_noteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  constexpr void __cordl_internal_set_noteWasMissedEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
-  constexpr ::GlobalNamespace::__BeatmapObjectManager__NoteWasCutDelegate*& __get_noteWasCutEvent();
+  constexpr ::GlobalNamespace::__BeatmapObjectManager__NoteWasCutDelegate*& __cordl_internal_get_noteWasCutEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapObjectManager__NoteWasCutDelegate*> const& __get_noteWasCutEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BeatmapObjectManager__NoteWasCutDelegate*> const& __cordl_internal_get_noteWasCutEvent() const;
 
-  constexpr void __set_noteWasCutEvent(::GlobalNamespace::__BeatmapObjectManager__NoteWasCutDelegate* value);
+  constexpr void __cordl_internal_set_noteWasCutEvent(::GlobalNamespace::__BeatmapObjectManager__NoteWasCutDelegate* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::NoteController*>*& __get_noteDidStartJumpEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>*& __cordl_internal_get_noteDidStartJumpEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::NoteController*>*> const& __get_noteDidStartJumpEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>*> const& __cordl_internal_get_noteDidStartJumpEvent() const;
 
-  constexpr void __set_noteDidStartJumpEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  constexpr void __cordl_internal_set_noteDidStartJumpEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
-  constexpr ::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, float_t>*& __get_obstacleWasAddedEvent();
+  constexpr ::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, float_t>*& __cordl_internal_get_obstacleWasAddedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, float_t>*> const&
-  __get_obstacleWasAddedEvent() const;
+  __cordl_internal_get_obstacleWasAddedEvent() const;
 
-  constexpr void __set_obstacleWasAddedEvent(::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, float_t>* value);
+  constexpr void
+  __cordl_internal_set_obstacleWasAddedEvent(::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, float_t>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>*& __get_obstacleWasSpawnedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get_obstacleWasSpawnedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ObstacleController*>*> const& __get_obstacleWasSpawnedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*> const& __cordl_internal_get_obstacleWasSpawnedEvent() const;
 
-  constexpr void __set_obstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  constexpr void __cordl_internal_set_obstacleWasSpawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>*& __get_obstacleWasDespawnedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get_obstacleWasDespawnedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ObstacleController*>*> const& __get_obstacleWasDespawnedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*> const& __cordl_internal_get_obstacleWasDespawnedEvent() const;
 
-  constexpr void __set_obstacleWasDespawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  constexpr void __cordl_internal_set_obstacleWasDespawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>*& __get_obstacleDidPassThreeQuartersOfMove2Event();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get_obstacleDidPassThreeQuartersOfMove2Event();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ObstacleController*>*> const& __get_obstacleDidPassThreeQuartersOfMove2Event() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*> const& __cordl_internal_get_obstacleDidPassThreeQuartersOfMove2Event() const;
 
-  constexpr void __set_obstacleDidPassThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  constexpr void __cordl_internal_set_obstacleDidPassThreeQuartersOfMove2Event(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>*& __get_obstacleDidPassAvoidedMarkEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get_obstacleDidPassAvoidedMarkEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ObstacleController*>*> const& __get_obstacleDidPassAvoidedMarkEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*> const& __cordl_internal_get_obstacleDidPassAvoidedMarkEvent() const;
 
-  constexpr void __set_obstacleDidPassAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  constexpr void __cordl_internal_set_obstacleDidPassAvoidedMarkEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  constexpr ::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, float_t>*& __get_sliderWasAddedEvent();
+  constexpr ::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, float_t>*& __cordl_internal_get_sliderWasAddedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, float_t>*> const&
-  __get_sliderWasAddedEvent() const;
+  __cordl_internal_get_sliderWasAddedEvent() const;
 
-  constexpr void __set_sliderWasAddedEvent(::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, float_t>* value);
+  constexpr void __cordl_internal_set_sliderWasAddedEvent(::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, float_t>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::SliderController*>*& __get_sliderWasSpawnedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>*& __cordl_internal_get_sliderWasSpawnedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::SliderController*>*> const& __get_sliderWasSpawnedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>*> const& __cordl_internal_get_sliderWasSpawnedEvent() const;
 
-  constexpr void __set_sliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
+  constexpr void __cordl_internal_set_sliderWasSpawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::SliderController*>*& __get_sliderWasDespawnedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>*& __cordl_internal_get_sliderWasDespawnedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::SliderController*>*> const& __get_sliderWasDespawnedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>*> const& __cordl_internal_get_sliderWasDespawnedEvent() const;
 
-  constexpr void __set_sliderWasDespawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
+  constexpr void __cordl_internal_set_sliderWasDespawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>* value);
 
-  constexpr ::System::Action_1<bool>*& __get_didHideAllBeatmapObjectsEvent();
+  constexpr ::System::Action_1<bool>*& __cordl_internal_get_didHideAllBeatmapObjectsEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __get_didHideAllBeatmapObjectsEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_didHideAllBeatmapObjectsEvent() const;
 
-  constexpr void __set_didHideAllBeatmapObjectsEvent(::System::Action_1<bool>* value);
+  constexpr void __cordl_internal_set_didHideAllBeatmapObjectsEvent(::System::Action_1<bool>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapObjectController*>*& __get__allBeatmapObjects();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapObjectController*>*& __cordl_internal_get__allBeatmapObjects();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapObjectController*>*> const& __get__allBeatmapObjects() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapObjectController*>*> const& __cordl_internal_get__allBeatmapObjects() const;
 
-  constexpr void __set__allBeatmapObjects(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapObjectController*>* value);
+  constexpr void __cordl_internal_set__allBeatmapObjects(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatmapObjectController*>* value);
 
-  constexpr bool& __get__spawnHidden_k__BackingField();
+  constexpr bool& __cordl_internal_get__spawnHidden_k__BackingField();
 
-  constexpr bool const& __get__spawnHidden_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__spawnHidden_k__BackingField() const;
 
-  constexpr void __set__spawnHidden_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__spawnHidden_k__BackingField(bool value);
 
   /// @brief Method add_noteWasAddedEvent, addr 0x237d06c, size 0xb0, virtual false, abstract: false, final false
   inline void add_noteWasAddedEvent(::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, float_t>* value);
@@ -375,22 +386,22 @@ public:
   inline void remove_noteWasAddedEvent(::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, float_t>* value);
 
   /// @brief Method add_noteWasSpawnedEvent, addr 0x2376f48, size 0xb0, virtual false, abstract: false, final false
-  inline void add_noteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  inline void add_noteWasSpawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
   /// @brief Method remove_noteWasSpawnedEvent, addr 0x2377080, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_noteWasSpawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  inline void remove_noteWasSpawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
   /// @brief Method add_noteWasDespawnedEvent, addr 0x237d1cc, size 0xb0, virtual false, abstract: false, final false
-  inline void add_noteWasDespawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  inline void add_noteWasDespawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
   /// @brief Method remove_noteWasDespawnedEvent, addr 0x237d27c, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_noteWasDespawnedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  inline void remove_noteWasDespawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
   /// @brief Method add_noteWasMissedEvent, addr 0x237d32c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_noteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  inline void add_noteWasMissedEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
   /// @brief Method remove_noteWasMissedEvent, addr 0x237d3dc, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_noteWasMissedEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  inline void remove_noteWasMissedEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
   /// @brief Method add_noteWasCutEvent, addr 0x237d48c, size 0x9c, virtual false, abstract: false, final false
   inline void add_noteWasCutEvent(::GlobalNamespace::__BeatmapObjectManager__NoteWasCutDelegate* value);
@@ -399,10 +410,10 @@ public:
   inline void remove_noteWasCutEvent(::GlobalNamespace::__BeatmapObjectManager__NoteWasCutDelegate* value);
 
   /// @brief Method add_noteDidStartJumpEvent, addr 0x237d5c4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_noteDidStartJumpEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  inline void add_noteDidStartJumpEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
   /// @brief Method remove_noteDidStartJumpEvent, addr 0x237d674, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_noteDidStartJumpEvent(::System::Action_1<::GlobalNamespace::NoteController*>* value);
+  inline void remove_noteDidStartJumpEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* value);
 
   /// @brief Method add_obstacleWasAddedEvent, addr 0x237d724, size 0xb0, virtual false, abstract: false, final false
   inline void add_obstacleWasAddedEvent(::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, float_t>* value);
@@ -411,28 +422,28 @@ public:
   inline void remove_obstacleWasAddedEvent(::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, float_t>* value);
 
   /// @brief Method add_obstacleWasSpawnedEvent, addr 0x237d884, size 0xb0, virtual false, abstract: false, final false
-  inline void add_obstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_obstacleWasSpawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method remove_obstacleWasSpawnedEvent, addr 0x237d934, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_obstacleWasSpawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_obstacleWasSpawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method add_obstacleWasDespawnedEvent, addr 0x237d9e4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_obstacleWasDespawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_obstacleWasDespawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method remove_obstacleWasDespawnedEvent, addr 0x237da94, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_obstacleWasDespawnedEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_obstacleWasDespawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method add_obstacleDidPassThreeQuartersOfMove2Event, addr 0x237db44, size 0xb0, virtual false, abstract: false, final false
-  inline void add_obstacleDidPassThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_obstacleDidPassThreeQuartersOfMove2Event(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method remove_obstacleDidPassThreeQuartersOfMove2Event, addr 0x237dbf4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_obstacleDidPassThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_obstacleDidPassThreeQuartersOfMove2Event(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method add_obstacleDidPassAvoidedMarkEvent, addr 0x237c56c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_obstacleDidPassAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_obstacleDidPassAvoidedMarkEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method remove_obstacleDidPassAvoidedMarkEvent, addr 0x237c808, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_obstacleDidPassAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_obstacleDidPassAvoidedMarkEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method add_sliderWasAddedEvent, addr 0x237dca4, size 0xb0, virtual false, abstract: false, final false
   inline void add_sliderWasAddedEvent(::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, float_t>* value);
@@ -441,16 +452,16 @@ public:
   inline void remove_sliderWasAddedEvent(::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, float_t>* value);
 
   /// @brief Method add_sliderWasSpawnedEvent, addr 0x237de04, size 0xb0, virtual false, abstract: false, final false
-  inline void add_sliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
+  inline void add_sliderWasSpawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>* value);
 
   /// @brief Method remove_sliderWasSpawnedEvent, addr 0x237deb4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_sliderWasSpawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
+  inline void remove_sliderWasSpawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>* value);
 
   /// @brief Method add_sliderWasDespawnedEvent, addr 0x237df64, size 0xb0, virtual false, abstract: false, final false
-  inline void add_sliderWasDespawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
+  inline void add_sliderWasDespawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>* value);
 
   /// @brief Method remove_sliderWasDespawnedEvent, addr 0x237e014, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_sliderWasDespawnedEvent(::System::Action_1<::GlobalNamespace::SliderController*>* value);
+  inline void remove_sliderWasDespawnedEvent(::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>* value);
 
   /// @brief Method add_didHideAllBeatmapObjectsEvent, addr 0x237e0c4, size 0xb0, virtual false, abstract: false, final false
   inline void add_didHideAllBeatmapObjectsEvent(::System::Action_1<bool>* value);
@@ -459,7 +470,7 @@ public:
   inline void remove_didHideAllBeatmapObjectsEvent(::System::Action_1<bool>* value);
 
   /// @brief Method get_activeObstacleControllers, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();
+  inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* get_activeObstacleControllers();
 
   /// @brief Method ProcessObstacleData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline void ProcessObstacleData(::GlobalNamespace::ObstacleData* obstacleData, ByRef<::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData> obstacleSpawnData, float_t rotation);
@@ -591,43 +602,43 @@ public:
   ::System::Action_3<::GlobalNamespace::NoteData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__NoteSpawnData, float_t>* ___noteWasAddedEvent;
 
   /// @brief Field noteWasSpawnedEvent, offset: 0x18, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::NoteController*>* ___noteWasSpawnedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* ___noteWasSpawnedEvent;
 
   /// @brief Field noteWasDespawnedEvent, offset: 0x20, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::NoteController*>* ___noteWasDespawnedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* ___noteWasDespawnedEvent;
 
   /// @brief Field noteWasMissedEvent, offset: 0x28, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::NoteController*>* ___noteWasMissedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* ___noteWasMissedEvent;
 
   /// @brief Field noteWasCutEvent, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::__BeatmapObjectManager__NoteWasCutDelegate* ___noteWasCutEvent;
 
   /// @brief Field noteDidStartJumpEvent, offset: 0x38, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::NoteController*>* ___noteDidStartJumpEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::NoteController>>* ___noteDidStartJumpEvent;
 
   /// @brief Field obstacleWasAddedEvent, offset: 0x40, size: 0x8, def value: None
   ::System::Action_3<::GlobalNamespace::ObstacleData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__ObstacleSpawnData, float_t>* ___obstacleWasAddedEvent;
 
   /// @brief Field obstacleWasSpawnedEvent, offset: 0x48, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ObstacleController*>* ___obstacleWasSpawnedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___obstacleWasSpawnedEvent;
 
   /// @brief Field obstacleWasDespawnedEvent, offset: 0x50, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ObstacleController*>* ___obstacleWasDespawnedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___obstacleWasDespawnedEvent;
 
   /// @brief Field obstacleDidPassThreeQuartersOfMove2Event, offset: 0x58, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ObstacleController*>* ___obstacleDidPassThreeQuartersOfMove2Event;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___obstacleDidPassThreeQuartersOfMove2Event;
 
   /// @brief Field obstacleDidPassAvoidedMarkEvent, offset: 0x60, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ObstacleController*>* ___obstacleDidPassAvoidedMarkEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___obstacleDidPassAvoidedMarkEvent;
 
   /// @brief Field sliderWasAddedEvent, offset: 0x68, size: 0x8, def value: None
   ::System::Action_3<::GlobalNamespace::SliderData*, ::GlobalNamespace::__BeatmapObjectSpawnMovementData__SliderSpawnData, float_t>* ___sliderWasAddedEvent;
 
   /// @brief Field sliderWasSpawnedEvent, offset: 0x70, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::SliderController*>* ___sliderWasSpawnedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>* ___sliderWasSpawnedEvent;
 
   /// @brief Field sliderWasDespawnedEvent, offset: 0x78, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::SliderController*>* ___sliderWasDespawnedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::SliderController>>* ___sliderWasDespawnedEvent;
 
   /// @brief Field didHideAllBeatmapObjectsEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action_1<bool>* ___didHideAllBeatmapObjectsEvent;

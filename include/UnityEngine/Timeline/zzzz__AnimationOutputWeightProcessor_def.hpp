@@ -38,7 +38,7 @@ MARK_VAL_T(::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10428))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10428))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13829))
 // CS Name: ::AnimationOutputWeightProcessor::WeightInfo
 struct CORDL_TYPE __AnimationOutputWeightProcessor__WeightInfo {
@@ -80,7 +80,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__AnimationOutputWeightProcessor
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14898)), TypeDefinitionIndex(TypeDefinitionIndex(14901)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14898)), TypeDefinitionIndex(TypeDefinitionIndex(14901))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13830))
 // CS Name: ::UnityEngine.Timeline::AnimationOutputWeightProcessor*
 class CORDL_TYPE AnimationOutputWeightProcessor : public ::System::Object {
@@ -89,13 +89,14 @@ public:
   using WeightInfo = ::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo;
 
   /// @brief Field m_Output, offset 0x10, size 0x10
-  __declspec(property(get = __get_m_Output, put = __set_m_Output))::UnityEngine::Animations::AnimationPlayableOutput m_Output;
+  __declspec(property(get = __cordl_internal_get_m_Output, put = __cordl_internal_set_m_Output))::UnityEngine::Animations::AnimationPlayableOutput m_Output;
 
   /// @brief Field m_MotionXPlayable, offset 0x20, size 0x10
-  __declspec(property(get = __get_m_MotionXPlayable, put = __set_m_MotionXPlayable))::UnityEngine::Animations::AnimationMotionXToDeltaPlayable m_MotionXPlayable;
+  __declspec(property(get = __cordl_internal_get_m_MotionXPlayable, put = __cordl_internal_set_m_MotionXPlayable))::UnityEngine::Animations::AnimationMotionXToDeltaPlayable m_MotionXPlayable;
 
   /// @brief Field m_Mixers, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Mixers, put = __set_m_Mixers))::System::Collections::Generic::List_1<::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo>* m_Mixers;
+  __declspec(property(get = __cordl_internal_get_m_Mixers,
+                      put = __cordl_internal_set_m_Mixers))::System::Collections::Generic::List_1<::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo>* m_Mixers;
 
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
   constexpr operator ::UnityEngine::Timeline::ITimelineEvaluateCallback*() noexcept;
@@ -103,23 +104,24 @@ public:
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
   constexpr ::UnityEngine::Timeline::ITimelineEvaluateCallback* i___UnityEngine__Timeline__ITimelineEvaluateCallback() noexcept;
 
-  constexpr ::UnityEngine::Animations::AnimationPlayableOutput& __get_m_Output();
+  constexpr ::UnityEngine::Animations::AnimationPlayableOutput& __cordl_internal_get_m_Output();
 
-  constexpr ::UnityEngine::Animations::AnimationPlayableOutput const& __get_m_Output() const;
+  constexpr ::UnityEngine::Animations::AnimationPlayableOutput const& __cordl_internal_get_m_Output() const;
 
-  constexpr void __set_m_Output(::UnityEngine::Animations::AnimationPlayableOutput value);
+  constexpr void __cordl_internal_set_m_Output(::UnityEngine::Animations::AnimationPlayableOutput value);
 
-  constexpr ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable& __get_m_MotionXPlayable();
+  constexpr ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable& __cordl_internal_get_m_MotionXPlayable();
 
-  constexpr ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable const& __get_m_MotionXPlayable() const;
+  constexpr ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable const& __cordl_internal_get_m_MotionXPlayable() const;
 
-  constexpr void __set_m_MotionXPlayable(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable value);
+  constexpr void __cordl_internal_set_m_MotionXPlayable(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo>*& __get_m_Mixers();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo>*& __cordl_internal_get_m_Mixers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo>*> const& __get_m_Mixers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo>*> const&
+  __cordl_internal_get_m_Mixers() const;
 
-  constexpr void __set_m_Mixers(::System::Collections::Generic::List_1<::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo>* value);
+  constexpr void __cordl_internal_set_m_Mixers(::System::Collections::Generic::List_1<::UnityEngine::Timeline::__AnimationOutputWeightProcessor__WeightInfo>* value);
 
   static inline ::UnityEngine::Timeline::AnimationOutputWeightProcessor* New_ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
 

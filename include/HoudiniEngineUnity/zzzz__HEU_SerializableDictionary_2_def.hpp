@@ -46,20 +46,20 @@ namespace HoudiniEngineUnity {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9855))
 // CS Name: ::HoudiniEngineUnity::HEU_SerializableDictionary`2<TKey,TValue>*
 class CORDL_TYPE HEU_SerializableDictionary_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _dictionary, offset 0x10, size 0x8
-  __declspec(property(get = __get__dictionary, put = __set__dictionary))::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
+  __declspec(property(get = __cordl_internal_get__dictionary, put = __cordl_internal_set__dictionary))::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
 
   /// @brief Field _keys, offset 0x18, size 0x8
-  __declspec(property(get = __get__keys, put = __set__keys))::ArrayW<TKey, ::Array<TKey>*> _keys;
+  __declspec(property(get = __cordl_internal_get__keys, put = __cordl_internal_set__keys))::ArrayW<TKey, ::Array<TKey>*> _keys;
 
   /// @brief Field _values, offset 0x20, size 0x8
-  __declspec(property(get = __get__values, put = __set__values))::ArrayW<TValue, ::Array<TValue>*> _values;
+  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values))::ArrayW<TValue, ::Array<TValue>*> _values;
 
   __declspec(property(get = get_Item, put = set_Item)) TValue Item[];
 
@@ -103,23 +103,23 @@ public:
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __get__dictionary();
+  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __cordl_internal_get__dictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& __get__dictionary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& __cordl_internal_get__dictionary() const;
 
-  constexpr void __set__dictionary(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__dictionary(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value);
 
-  constexpr ::ArrayW<TKey, ::Array<TKey>*>& __get__keys();
+  constexpr ::ArrayW<TKey, ::Array<TKey>*>& __cordl_internal_get__keys();
 
-  constexpr ::ArrayW<TKey, ::Array<TKey>*> const& __get__keys() const;
+  constexpr ::ArrayW<TKey, ::Array<TKey>*> const& __cordl_internal_get__keys() const;
 
-  constexpr void __set__keys(::ArrayW<TKey, ::Array<TKey>*> value);
+  constexpr void __cordl_internal_set__keys(::ArrayW<TKey, ::Array<TKey>*> value);
 
-  constexpr ::ArrayW<TValue, ::Array<TValue>*>& __get__values();
+  constexpr ::ArrayW<TValue, ::Array<TValue>*>& __cordl_internal_get__values();
 
-  constexpr ::ArrayW<TValue, ::Array<TValue>*> const& __get__values() const;
+  constexpr ::ArrayW<TValue, ::Array<TValue>*> const& __cordl_internal_get__values() const;
 
-  constexpr void __set__values(::ArrayW<TValue, ::Array<TValue>*> value);
+  constexpr void __cordl_internal_set__values(::ArrayW<TValue, ::Array<TValue>*> value);
 
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline TValue get_Item(TKey key);

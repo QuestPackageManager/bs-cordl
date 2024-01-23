@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::System::Threading::__CancellationTokenSource__Linked1Cancellati
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2688)), TypeDefinitionIndex(TypeDefinitionIndex(2683))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2683)), TypeDefinitionIndex(TypeDefinitionIndex(2688))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2684))
 // CS Name: ::CancellationTokenSource::Linked1CancellationTokenSource*
 class CORDL_TYPE __CancellationTokenSource__Linked1CancellationTokenSource : public ::System::Threading::CancellationTokenSource {
 public:
   // Declarations
   /// @brief Field _reg1, offset 0x40, size 0x18
-  __declspec(property(get = __get__reg1, put = __set__reg1))::System::Threading::CancellationTokenRegistration _reg1;
+  __declspec(property(get = __cordl_internal_get__reg1, put = __cordl_internal_set__reg1))::System::Threading::CancellationTokenRegistration _reg1;
 
-  constexpr ::System::Threading::CancellationTokenRegistration& __get__reg1();
+  constexpr ::System::Threading::CancellationTokenRegistration& __cordl_internal_get__reg1();
 
-  constexpr ::System::Threading::CancellationTokenRegistration const& __get__reg1() const;
+  constexpr ::System::Threading::CancellationTokenRegistration const& __cordl_internal_get__reg1() const;
 
-  constexpr void __set__reg1(::System::Threading::CancellationTokenRegistration value);
+  constexpr void __cordl_internal_set__reg1(::System::Threading::CancellationTokenRegistration value);
 
   static inline ::System::Threading::__CancellationTokenSource__Linked1CancellationTokenSource* New_ctor(::System::Threading::CancellationToken token1);
 

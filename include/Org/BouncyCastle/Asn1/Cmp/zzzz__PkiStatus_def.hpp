@@ -15,7 +15,7 @@ MARK_VAL_T(::Org::BouncyCastle::Asn1::Cmp::PkiStatus);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(41))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::PkiStatus
 struct CORDL_TYPE PkiStatus {

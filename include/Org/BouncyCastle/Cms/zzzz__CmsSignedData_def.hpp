@@ -44,35 +44,35 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsSignedData);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(648))
 // CS Name: ::Org.BouncyCastle.Cms::CmsSignedData*
 class CORDL_TYPE CmsSignedData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field signedContent, offset 0x10, size 0x8
-  __declspec(property(get = __get_signedContent, put = __set_signedContent))::Org::BouncyCastle::Cms::CmsProcessable* signedContent;
+  __declspec(property(get = __cordl_internal_get_signedContent, put = __cordl_internal_set_signedContent))::Org::BouncyCastle::Cms::CmsProcessable* signedContent;
 
   /// @brief Field signedData, offset 0x18, size 0x8
-  __declspec(property(get = __get_signedData, put = __set_signedData))::Org::BouncyCastle::Asn1::Cms::SignedData* signedData;
+  __declspec(property(get = __cordl_internal_get_signedData, put = __cordl_internal_set_signedData))::Org::BouncyCastle::Asn1::Cms::SignedData* signedData;
 
   /// @brief Field contentInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get_contentInfo, put = __set_contentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo;
+  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo;
 
   /// @brief Field signerInfoStore, offset 0x28, size 0x8
-  __declspec(property(get = __get_signerInfoStore, put = __set_signerInfoStore))::Org::BouncyCastle::Cms::SignerInformationStore* signerInfoStore;
+  __declspec(property(get = __cordl_internal_get_signerInfoStore, put = __cordl_internal_set_signerInfoStore))::Org::BouncyCastle::Cms::SignerInformationStore* signerInfoStore;
 
   /// @brief Field attrCertStore, offset 0x30, size 0x8
-  __declspec(property(get = __get_attrCertStore, put = __set_attrCertStore))::Org::BouncyCastle::X509::Store::IX509Store* attrCertStore;
+  __declspec(property(get = __cordl_internal_get_attrCertStore, put = __cordl_internal_set_attrCertStore))::Org::BouncyCastle::X509::Store::IX509Store* attrCertStore;
 
   /// @brief Field certificateStore, offset 0x38, size 0x8
-  __declspec(property(get = __get_certificateStore, put = __set_certificateStore))::Org::BouncyCastle::X509::Store::IX509Store* certificateStore;
+  __declspec(property(get = __cordl_internal_get_certificateStore, put = __cordl_internal_set_certificateStore))::Org::BouncyCastle::X509::Store::IX509Store* certificateStore;
 
   /// @brief Field crlStore, offset 0x40, size 0x8
-  __declspec(property(get = __get_crlStore, put = __set_crlStore))::Org::BouncyCastle::X509::Store::IX509Store* crlStore;
+  __declspec(property(get = __cordl_internal_get_crlStore, put = __cordl_internal_set_crlStore))::Org::BouncyCastle::X509::Store::IX509Store* crlStore;
 
   /// @brief Field hashes, offset 0x48, size 0x8
-  __declspec(property(get = __get_hashes, put = __set_hashes))::System::Collections::IDictionary* hashes;
+  __declspec(property(get = __cordl_internal_get_hashes, put = __cordl_internal_set_hashes))::System::Collections::IDictionary* hashes;
 
   /// @brief Field Helper, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper))::Org::BouncyCastle::Cms::CmsSignedHelper* Helper;
@@ -87,53 +87,53 @@ public:
 
   __declspec(property(get = get_ContentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* ContentInfo;
 
-  constexpr ::Org::BouncyCastle::Cms::CmsProcessable*& __get_signedContent();
+  constexpr ::Org::BouncyCastle::Cms::CmsProcessable*& __cordl_internal_get_signedContent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsProcessable*> const& __get_signedContent() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsProcessable*> const& __cordl_internal_get_signedContent() const;
 
-  constexpr void __set_signedContent(::Org::BouncyCastle::Cms::CmsProcessable* value);
+  constexpr void __cordl_internal_set_signedContent(::Org::BouncyCastle::Cms::CmsProcessable* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::SignedData*& __get_signedData();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::SignedData*& __cordl_internal_get_signedData();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::SignedData*> const& __get_signedData() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::SignedData*> const& __cordl_internal_get_signedData() const;
 
-  constexpr void __set_signedData(::Org::BouncyCastle::Asn1::Cms::SignedData* value);
+  constexpr void __cordl_internal_set_signedData(::Org::BouncyCastle::Asn1::Cms::SignedData* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __get_contentInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __cordl_internal_get_contentInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __get_contentInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __cordl_internal_get_contentInfo() const;
 
-  constexpr void __set_contentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
+  constexpr void __cordl_internal_set_contentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
-  constexpr ::Org::BouncyCastle::Cms::SignerInformationStore*& __get_signerInfoStore();
+  constexpr ::Org::BouncyCastle::Cms::SignerInformationStore*& __cordl_internal_get_signerInfoStore();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::SignerInformationStore*> const& __get_signerInfoStore() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::SignerInformationStore*> const& __cordl_internal_get_signerInfoStore() const;
 
-  constexpr void __set_signerInfoStore(::Org::BouncyCastle::Cms::SignerInformationStore* value);
+  constexpr void __cordl_internal_set_signerInfoStore(::Org::BouncyCastle::Cms::SignerInformationStore* value);
 
-  constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& __get_attrCertStore();
+  constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& __cordl_internal_get_attrCertStore();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& __get_attrCertStore() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& __cordl_internal_get_attrCertStore() const;
 
-  constexpr void __set_attrCertStore(::Org::BouncyCastle::X509::Store::IX509Store* value);
+  constexpr void __cordl_internal_set_attrCertStore(::Org::BouncyCastle::X509::Store::IX509Store* value);
 
-  constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& __get_certificateStore();
+  constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& __cordl_internal_get_certificateStore();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& __get_certificateStore() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& __cordl_internal_get_certificateStore() const;
 
-  constexpr void __set_certificateStore(::Org::BouncyCastle::X509::Store::IX509Store* value);
+  constexpr void __cordl_internal_set_certificateStore(::Org::BouncyCastle::X509::Store::IX509Store* value);
 
-  constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& __get_crlStore();
+  constexpr ::Org::BouncyCastle::X509::Store::IX509Store*& __cordl_internal_get_crlStore();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& __get_crlStore() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Store*> const& __cordl_internal_get_crlStore() const;
 
-  constexpr void __set_crlStore(::Org::BouncyCastle::X509::Store::IX509Store* value);
+  constexpr void __cordl_internal_set_crlStore(::Org::BouncyCastle::X509::Store::IX509Store* value);
 
-  constexpr ::System::Collections::IDictionary*& __get_hashes();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_hashes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get_hashes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_hashes() const;
 
-  constexpr void __set_hashes(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set_hashes(::System::Collections::IDictionary* value);
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsSignedHelper* value);
 

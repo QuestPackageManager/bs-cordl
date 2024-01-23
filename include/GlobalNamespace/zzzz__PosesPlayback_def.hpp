@@ -32,56 +32,58 @@ MARK_REF_PTR_T(::GlobalNamespace::PosesPlayback);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5929))
 // CS Name: ::PosesPlayback*
 class CORDL_TYPE PosesPlayback : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _audioTimeSyncController, offset 0x18, size 0x8
-  __declspec(property(get = __get__audioTimeSyncController, put = __set__audioTimeSyncController))::GlobalNamespace::AudioTimeSyncController* _audioTimeSyncController;
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
+                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
   /// @brief Field _logger, offset 0x20, size 0x8
-  __declspec(property(get = __get__logger, put = __set__logger))::GlobalNamespace::IBeatSaberLogger* _logger;
+  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger))::GlobalNamespace::IBeatSaberLogger* _logger;
 
   /// @brief Field _transforms, offset 0x28, size 0x8
-  __declspec(property(get = __get__transforms, put = __set__transforms))::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> _transforms;
+  __declspec(property(get = __cordl_internal_get__transforms,
+                      put = __cordl_internal_set__transforms))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> _transforms;
 
   /// @brief Field _data, offset 0x30, size 0x8
-  __declspec(property(get = __get__data, put = __set__data))::GlobalNamespace::PosesRecordingData* _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::GlobalNamespace::PosesRecordingData* _data;
 
   /// @brief Field _keyframeIndex, offset 0x38, size 0x4
-  __declspec(property(get = __get__keyframeIndex, put = __set__keyframeIndex)) int32_t _keyframeIndex;
+  __declspec(property(get = __cordl_internal_get__keyframeIndex, put = __cordl_internal_set__keyframeIndex)) int32_t _keyframeIndex;
 
-  constexpr ::GlobalNamespace::AudioTimeSyncController*& __get__audioTimeSyncController();
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& __get__audioTimeSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value);
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  constexpr ::GlobalNamespace::IBeatSaberLogger*& __get__logger();
+  constexpr ::GlobalNamespace::IBeatSaberLogger*& __cordl_internal_get__logger();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __get__logger() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __cordl_internal_get__logger() const;
 
-  constexpr void __set__logger(::GlobalNamespace::IBeatSaberLogger* value);
+  constexpr void __cordl_internal_set__logger(::GlobalNamespace::IBeatSaberLogger* value);
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& __get__transforms();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get__transforms();
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& __get__transforms() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__transforms() const;
 
-  constexpr void __set__transforms(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
+  constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  constexpr ::GlobalNamespace::PosesRecordingData*& __get__data();
+  constexpr ::GlobalNamespace::PosesRecordingData*& __cordl_internal_get__data();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PosesRecordingData*> const& __get__data() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PosesRecordingData*> const& __cordl_internal_get__data() const;
 
-  constexpr void __set__data(::GlobalNamespace::PosesRecordingData* value);
+  constexpr void __cordl_internal_set__data(::GlobalNamespace::PosesRecordingData* value);
 
-  constexpr int32_t& __get__keyframeIndex();
+  constexpr int32_t& __cordl_internal_get__keyframeIndex();
 
-  constexpr int32_t const& __get__keyframeIndex() const;
+  constexpr int32_t const& __cordl_internal_get__keyframeIndex() const;
 
-  constexpr void __set__keyframeIndex(int32_t value);
+  constexpr void __cordl_internal_set__keyframeIndex(int32_t value);
 
   /// @brief Method Update, addr 0x23017c0, size 0x1c, virtual false, abstract: false, final false
   inline void Update();
@@ -119,13 +121,13 @@ protected:
 
 public:
   /// @brief Field _audioTimeSyncController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::AudioTimeSyncController* ____audioTimeSyncController;
+  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
   /// @brief Field _logger, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IBeatSaberLogger* ____logger;
 
   /// @brief Field _transforms, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> ____transforms;
+  ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ____transforms;
 
   /// @brief Field _data, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::PosesRecordingData* ____data;

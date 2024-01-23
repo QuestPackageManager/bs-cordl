@@ -29,33 +29,33 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T0, typename T1>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12938))
 // CS Name: ::RemoteProcedureCall`2<T0,T1>*
 class CORDL_TYPE RemoteProcedureCall_2 : public ::GlobalNamespace::RemoteProcedureCall {
 public:
   // Declarations
   /// @brief Field _value0, offset 0x18, size 0x8
-  __declspec(property(get = __get__value0, put = __set__value0))::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>* _value0;
+  __declspec(property(get = __cordl_internal_get__value0, put = __cordl_internal_set__value0))::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>* _value0;
 
   /// @brief Field _value1, offset 0x20, size 0x8
-  __declspec(property(get = __get__value1, put = __set__value1))::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>* _value1;
+  __declspec(property(get = __cordl_internal_get__value1, put = __cordl_internal_set__value1))::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>* _value1;
 
   __declspec(property(get = get_value0)) T0 value0;
 
   __declspec(property(get = get_value1)) T1 value1;
 
-  constexpr ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>*& __get__value0();
+  constexpr ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>*& __cordl_internal_get__value0();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>*> const& __get__value0() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>*> const& __cordl_internal_get__value0() const;
 
-  constexpr void __set__value0(::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>* value);
+  constexpr void __cordl_internal_set__value0(::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T0>* value);
 
-  constexpr ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>*& __get__value1();
+  constexpr ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>*& __cordl_internal_get__value1();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>*> const& __get__value1() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>*> const& __cordl_internal_get__value1() const;
 
-  constexpr void __set__value1(::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>* value);
+  constexpr void __cordl_internal_set__value1(::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T1>* value);
 
   /// @brief Method get_value0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T0 get_value0();

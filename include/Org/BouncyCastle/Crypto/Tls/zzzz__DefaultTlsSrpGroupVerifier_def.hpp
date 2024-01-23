@@ -26,14 +26,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1217))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DefaultTlsSrpGroupVerifier*
 class CORDL_TYPE DefaultTlsSrpGroupVerifier : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mGroups, offset 0x10, size 0x8
-  __declspec(property(get = __get_mGroups, put = __set_mGroups))::System::Collections::IList* mGroups;
+  __declspec(property(get = __cordl_internal_get_mGroups, put = __cordl_internal_set_mGroups))::System::Collections::IList* mGroups;
 
   /// @brief Field DefaultGroups, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_DefaultGroups, put = setStaticF_DefaultGroups))::System::Collections::IList* DefaultGroups;
@@ -44,11 +44,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier* i___Org__BouncyCastle__Crypto__Tls__TlsSrpGroupVerifier() noexcept;
 
-  constexpr ::System::Collections::IList*& __get_mGroups();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_mGroups();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_mGroups() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_mGroups() const;
 
-  constexpr void __set_mGroups(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_mGroups(::System::Collections::IList* value);
 
   static inline void setStaticF_DefaultGroups(::System::Collections::IList* value);
 

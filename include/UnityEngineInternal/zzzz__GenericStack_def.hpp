@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngineInternal::GenericStack);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngineInternal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3786))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3786))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9963))
 // CS Name: ::UnityEngineInternal::GenericStack*
 class CORDL_TYPE GenericStack : public ::System::Collections::Stack {

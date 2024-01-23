@@ -33,32 +33,32 @@ MARK_REF_PTR_T(::System::Net::Http::HttpRequestMessage);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14654))
 // CS Name: ::System.Net.Http::HttpRequestMessage*
 class CORDL_TYPE HttpRequestMessage : public ::System::Object {
 public:
   // Declarations
   /// @brief Field headers, offset 0x10, size 0x8
-  __declspec(property(get = __get_headers, put = __set_headers))::System::Net::Http::Headers::HttpRequestHeaders* headers;
+  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers))::System::Net::Http::Headers::HttpRequestHeaders* headers;
 
   /// @brief Field method, offset 0x18, size 0x8
-  __declspec(property(get = __get_method, put = __set_method))::System::Net::Http::HttpMethod* method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::System::Net::Http::HttpMethod* method;
 
   /// @brief Field version, offset 0x20, size 0x8
-  __declspec(property(get = __get_version, put = __set_version))::System::Version* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::System::Version* version;
 
   /// @brief Field uri, offset 0x28, size 0x8
-  __declspec(property(get = __get_uri, put = __set_uri))::System::Uri* uri;
+  __declspec(property(get = __cordl_internal_get_uri, put = __cordl_internal_set_uri))::System::Uri* uri;
 
   /// @brief Field is_used, offset 0x30, size 0x1
-  __declspec(property(get = __get_is_used, put = __set_is_used)) bool is_used;
+  __declspec(property(get = __cordl_internal_get_is_used, put = __cordl_internal_set_is_used)) bool is_used;
 
   /// @brief Field disposed, offset 0x31, size 0x1
-  __declspec(property(get = __get_disposed, put = __set_disposed)) bool disposed;
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field <Content>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__Content_k__BackingField, put = __set__Content_k__BackingField))::System::Net::Http::HttpContent* _Content_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Content_k__BackingField, put = __cordl_internal_set__Content_k__BackingField))::System::Net::Http::HttpContent* _Content_k__BackingField;
 
   __declspec(property(get = get_Content, put = set_Content))::System::Net::Http::HttpContent* Content;
 
@@ -76,47 +76,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Net::Http::Headers::HttpRequestHeaders*& __get_headers();
+  constexpr ::System::Net::Http::Headers::HttpRequestHeaders*& __cordl_internal_get_headers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpRequestHeaders*> const& __get_headers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpRequestHeaders*> const& __cordl_internal_get_headers() const;
 
-  constexpr void __set_headers(::System::Net::Http::Headers::HttpRequestHeaders* value);
+  constexpr void __cordl_internal_set_headers(::System::Net::Http::Headers::HttpRequestHeaders* value);
 
-  constexpr ::System::Net::Http::HttpMethod*& __get_method();
+  constexpr ::System::Net::Http::HttpMethod*& __cordl_internal_get_method();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpMethod*> const& __get_method() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpMethod*> const& __cordl_internal_get_method() const;
 
-  constexpr void __set_method(::System::Net::Http::HttpMethod* value);
+  constexpr void __cordl_internal_set_method(::System::Net::Http::HttpMethod* value);
 
-  constexpr ::System::Version*& __get_version();
+  constexpr ::System::Version*& __cordl_internal_get_version();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __get_version() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(::System::Version* value);
+  constexpr void __cordl_internal_set_version(::System::Version* value);
 
-  constexpr ::System::Uri*& __get_uri();
+  constexpr ::System::Uri*& __cordl_internal_get_uri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get_uri() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_uri() const;
 
-  constexpr void __set_uri(::System::Uri* value);
+  constexpr void __cordl_internal_set_uri(::System::Uri* value);
 
-  constexpr bool& __get_is_used();
+  constexpr bool& __cordl_internal_get_is_used();
 
-  constexpr bool const& __get_is_used() const;
+  constexpr bool const& __cordl_internal_get_is_used() const;
 
-  constexpr void __set_is_used(bool value);
+  constexpr void __cordl_internal_set_is_used(bool value);
 
-  constexpr bool& __get_disposed();
+  constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr bool const& __get_disposed() const;
+  constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __set_disposed(bool value);
+  constexpr void __cordl_internal_set_disposed(bool value);
 
-  constexpr ::System::Net::Http::HttpContent*& __get__Content_k__BackingField();
+  constexpr ::System::Net::Http::HttpContent*& __cordl_internal_get__Content_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpContent*> const& __get__Content_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::HttpContent*> const& __cordl_internal_get__Content_k__BackingField() const;
 
-  constexpr void __set__Content_k__BackingField(::System::Net::Http::HttpContent* value);
+  constexpr void __cordl_internal_set__Content_k__BackingField(::System::Net::Http::HttpContent* value);
 
   static inline ::System::Net::Http::HttpRequestMessage* New_ctor();
 

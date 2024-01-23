@@ -29,29 +29,29 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Lifetime::LeaseManager);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3094))
 // CS Name: ::System.Runtime.Remoting.Lifetime::LeaseManager*
 class CORDL_TYPE LeaseManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _objects, offset 0x10, size 0x8
-  __declspec(property(get = __get__objects, put = __set__objects))::System::Collections::ArrayList* _objects;
+  __declspec(property(get = __cordl_internal_get__objects, put = __cordl_internal_set__objects))::System::Collections::ArrayList* _objects;
 
   /// @brief Field _timer, offset 0x18, size 0x8
-  __declspec(property(get = __get__timer, put = __set__timer))::System::Threading::Timer* _timer;
+  __declspec(property(get = __cordl_internal_get__timer, put = __cordl_internal_set__timer))::System::Threading::Timer* _timer;
 
-  constexpr ::System::Collections::ArrayList*& __get__objects();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__objects();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get__objects() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__objects() const;
 
-  constexpr void __set__objects(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set__objects(::System::Collections::ArrayList* value);
 
-  constexpr ::System::Threading::Timer*& __get__timer();
+  constexpr ::System::Threading::Timer*& __cordl_internal_get__timer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Timer*> const& __get__timer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Timer*> const& __cordl_internal_get__timer() const;
 
-  constexpr void __set__timer(::System::Threading::Timer* value);
+  constexpr void __cordl_internal_set__timer(::System::Threading::Timer* value);
 
   /// @brief Method SetPollTime, addr 0x249b658, size 0xf8, virtual false, abstract: false, final false
   inline void SetPollTime(::System::TimeSpan timeSpan);

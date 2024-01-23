@@ -22,7 +22,7 @@ namespace UnityEngine::Pool {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10445))
 // CS Name: ::UnityEngine.Pool::PooledObject`1<T>
 struct CORDL_TYPE PooledObject_1 {

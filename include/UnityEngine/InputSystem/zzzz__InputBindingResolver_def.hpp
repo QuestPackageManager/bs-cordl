@@ -69,8 +69,8 @@ MARK_VAL_T(::UnityEngine::InputSystem::InputBindingResolver);
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 312, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6187)), TypeDefinitionIndex(TypeDefinitionIndex(6178)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6195)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(6178)), TypeDefinitionIndex(TypeDefinitionIndex(6187)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 3105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6195)) CS Name:
 // ::UnityEngine.InputSystem::InputBindingResolver
 struct CORDL_TYPE InputBindingResolver {
 public:

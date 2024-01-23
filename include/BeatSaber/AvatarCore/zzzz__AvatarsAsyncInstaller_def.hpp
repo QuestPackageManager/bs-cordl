@@ -27,21 +27,21 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarsAsyncInstaller);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15420), inst: 736 }), TypeDefinitionIndex(TypeDefinitionIndex(15165)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15420))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15176)) CS Name: ::BeatSaber.AvatarCore::AvatarsAsyncInstaller*
-class CORDL_TYPE AvatarsAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15165)), TypeDefinitionIndex(TypeDefinitionIndex(15420)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15420), inst:
+// 736 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15176)) CS Name: ::BeatSaber.AvatarCore::AvatarsAsyncInstaller*
+class CORDL_TYPE AvatarsAsyncInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO>> {
 public:
   // Declarations
   /// @brief Field _avatarAdapterLabel, offset 0x40, size 0x8
-  __declspec(property(get = __get__avatarAdapterLabel, put = __set__avatarAdapterLabel))::UnityEngine::AddressableAssets::AssetLabelReference* _avatarAdapterLabel;
+  __declspec(property(get = __cordl_internal_get__avatarAdapterLabel, put = __cordl_internal_set__avatarAdapterLabel))::UnityEngine::AddressableAssets::AssetLabelReference* _avatarAdapterLabel;
 
   __declspec(property(get = get_assetLabel))::UnityEngine::AddressableAssets::AssetLabelReference* assetLabel;
 
-  constexpr ::UnityEngine::AddressableAssets::AssetLabelReference*& __get__avatarAdapterLabel();
+  constexpr ::UnityEngine::AddressableAssets::AssetLabelReference*& __cordl_internal_get__avatarAdapterLabel();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetLabelReference*> const& __get__avatarAdapterLabel() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetLabelReference*> const& __cordl_internal_get__avatarAdapterLabel() const;
 
-  constexpr void __set__avatarAdapterLabel(::UnityEngine::AddressableAssets::AssetLabelReference* value);
+  constexpr void __cordl_internal_set__avatarAdapterLabel(::UnityEngine::AddressableAssets::AssetLabelReference* value);
 
   /// @brief Method get_assetLabel, addr 0xe0bdc8, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::AssetLabelReference* get_assetLabel();
@@ -50,7 +50,7 @@ public:
   inline void InstallBindings();
 
   /// @brief Method LoadResourcesBeforeInstall, addr 0xe0be8c, size 0x3ec, virtual true, abstract: false, final false
-  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO*>* adaptersInstallers,
+  inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::AvatarCore::AbstractAdapterInstallerSO>>* adaptersInstallers,
                                          ::BGLib::AppFlow::Initialization::__AsyncInstaller__IInstallerRegistry* registry);
 
   static inline ::BeatSaber::AvatarCore::AvatarsAsyncInstaller* New_ctor();

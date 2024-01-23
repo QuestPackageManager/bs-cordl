@@ -22,83 +22,83 @@ MARK_REF_PTR_T(::System::Security::Util::TokenizerStream);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2899))
 // CS Name: ::System.Security.Util::TokenizerStream*
 class CORDL_TYPE TokenizerStream : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_countTokens, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_countTokens, put = __set_m_countTokens)) int32_t m_countTokens;
+  __declspec(property(get = __cordl_internal_get_m_countTokens, put = __cordl_internal_set_m_countTokens)) int32_t m_countTokens;
 
   /// @brief Field m_headTokens, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_headTokens, put = __set_m_headTokens))::System::Security::Util::TokenizerShortBlock* m_headTokens;
+  __declspec(property(get = __cordl_internal_get_m_headTokens, put = __cordl_internal_set_m_headTokens))::System::Security::Util::TokenizerShortBlock* m_headTokens;
 
   /// @brief Field m_lastTokens, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_lastTokens, put = __set_m_lastTokens))::System::Security::Util::TokenizerShortBlock* m_lastTokens;
+  __declspec(property(get = __cordl_internal_get_m_lastTokens, put = __cordl_internal_set_m_lastTokens))::System::Security::Util::TokenizerShortBlock* m_lastTokens;
 
   /// @brief Field m_currentTokens, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_currentTokens, put = __set_m_currentTokens))::System::Security::Util::TokenizerShortBlock* m_currentTokens;
+  __declspec(property(get = __cordl_internal_get_m_currentTokens, put = __cordl_internal_set_m_currentTokens))::System::Security::Util::TokenizerShortBlock* m_currentTokens;
 
   /// @brief Field m_indexTokens, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_indexTokens, put = __set_m_indexTokens)) int32_t m_indexTokens;
+  __declspec(property(get = __cordl_internal_get_m_indexTokens, put = __cordl_internal_set_m_indexTokens)) int32_t m_indexTokens;
 
   /// @brief Field m_headStrings, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_headStrings, put = __set_m_headStrings))::System::Security::Util::TokenizerStringBlock* m_headStrings;
+  __declspec(property(get = __cordl_internal_get_m_headStrings, put = __cordl_internal_set_m_headStrings))::System::Security::Util::TokenizerStringBlock* m_headStrings;
 
   /// @brief Field m_currentStrings, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_currentStrings, put = __set_m_currentStrings))::System::Security::Util::TokenizerStringBlock* m_currentStrings;
+  __declspec(property(get = __cordl_internal_get_m_currentStrings, put = __cordl_internal_set_m_currentStrings))::System::Security::Util::TokenizerStringBlock* m_currentStrings;
 
   /// @brief Field m_indexStrings, offset 0x48, size 0x4
-  __declspec(property(get = __get_m_indexStrings, put = __set_m_indexStrings)) int32_t m_indexStrings;
+  __declspec(property(get = __cordl_internal_get_m_indexStrings, put = __cordl_internal_set_m_indexStrings)) int32_t m_indexStrings;
 
-  constexpr int32_t& __get_m_countTokens();
+  constexpr int32_t& __cordl_internal_get_m_countTokens();
 
-  constexpr int32_t const& __get_m_countTokens() const;
+  constexpr int32_t const& __cordl_internal_get_m_countTokens() const;
 
-  constexpr void __set_m_countTokens(int32_t value);
+  constexpr void __cordl_internal_set_m_countTokens(int32_t value);
 
-  constexpr ::System::Security::Util::TokenizerShortBlock*& __get_m_headTokens();
+  constexpr ::System::Security::Util::TokenizerShortBlock*& __cordl_internal_get_m_headTokens();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& __get_m_headTokens() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& __cordl_internal_get_m_headTokens() const;
 
-  constexpr void __set_m_headTokens(::System::Security::Util::TokenizerShortBlock* value);
+  constexpr void __cordl_internal_set_m_headTokens(::System::Security::Util::TokenizerShortBlock* value);
 
-  constexpr ::System::Security::Util::TokenizerShortBlock*& __get_m_lastTokens();
+  constexpr ::System::Security::Util::TokenizerShortBlock*& __cordl_internal_get_m_lastTokens();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& __get_m_lastTokens() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& __cordl_internal_get_m_lastTokens() const;
 
-  constexpr void __set_m_lastTokens(::System::Security::Util::TokenizerShortBlock* value);
+  constexpr void __cordl_internal_set_m_lastTokens(::System::Security::Util::TokenizerShortBlock* value);
 
-  constexpr ::System::Security::Util::TokenizerShortBlock*& __get_m_currentTokens();
+  constexpr ::System::Security::Util::TokenizerShortBlock*& __cordl_internal_get_m_currentTokens();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& __get_m_currentTokens() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerShortBlock*> const& __cordl_internal_get_m_currentTokens() const;
 
-  constexpr void __set_m_currentTokens(::System::Security::Util::TokenizerShortBlock* value);
+  constexpr void __cordl_internal_set_m_currentTokens(::System::Security::Util::TokenizerShortBlock* value);
 
-  constexpr int32_t& __get_m_indexTokens();
+  constexpr int32_t& __cordl_internal_get_m_indexTokens();
 
-  constexpr int32_t const& __get_m_indexTokens() const;
+  constexpr int32_t const& __cordl_internal_get_m_indexTokens() const;
 
-  constexpr void __set_m_indexTokens(int32_t value);
+  constexpr void __cordl_internal_set_m_indexTokens(int32_t value);
 
-  constexpr ::System::Security::Util::TokenizerStringBlock*& __get_m_headStrings();
+  constexpr ::System::Security::Util::TokenizerStringBlock*& __cordl_internal_get_m_headStrings();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerStringBlock*> const& __get_m_headStrings() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerStringBlock*> const& __cordl_internal_get_m_headStrings() const;
 
-  constexpr void __set_m_headStrings(::System::Security::Util::TokenizerStringBlock* value);
+  constexpr void __cordl_internal_set_m_headStrings(::System::Security::Util::TokenizerStringBlock* value);
 
-  constexpr ::System::Security::Util::TokenizerStringBlock*& __get_m_currentStrings();
+  constexpr ::System::Security::Util::TokenizerStringBlock*& __cordl_internal_get_m_currentStrings();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerStringBlock*> const& __get_m_currentStrings() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Util::TokenizerStringBlock*> const& __cordl_internal_get_m_currentStrings() const;
 
-  constexpr void __set_m_currentStrings(::System::Security::Util::TokenizerStringBlock* value);
+  constexpr void __cordl_internal_set_m_currentStrings(::System::Security::Util::TokenizerStringBlock* value);
 
-  constexpr int32_t& __get_m_indexStrings();
+  constexpr int32_t& __cordl_internal_get_m_indexStrings();
 
-  constexpr int32_t const& __get_m_indexStrings() const;
+  constexpr int32_t const& __cordl_internal_get_m_indexStrings() const;
 
-  constexpr void __set_m_indexStrings(int32_t value);
+  constexpr void __cordl_internal_set_m_indexStrings(int32_t value);
 
   static inline ::System::Security::Util::TokenizerStream* New_ctor();
 

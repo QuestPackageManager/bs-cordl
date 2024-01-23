@@ -23,33 +23,33 @@ MARK_REF_PTR_T(::GlobalNamespace::MockBeatmapData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15509))
 // CS Name: ::MockBeatmapData*
 class CORDL_TYPE MockBeatmapData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <numberOfLines>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__numberOfLines_k__BackingField, put = __set__numberOfLines_k__BackingField)) int32_t _numberOfLines_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__numberOfLines_k__BackingField, put = __cordl_internal_set__numberOfLines_k__BackingField)) int32_t _numberOfLines_k__BackingField;
 
   /// @brief Field <songEndTime>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__songEndTime_k__BackingField, put = __set__songEndTime_k__BackingField)) float_t _songEndTime_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__songEndTime_k__BackingField, put = __cordl_internal_set__songEndTime_k__BackingField)) float_t _songEndTime_k__BackingField;
 
   /// @brief Field <leftNotes>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__leftNotes_k__BackingField,
-                      put = __set__leftNotes_k__BackingField))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _leftNotes_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__leftNotes_k__BackingField,
+                      put = __cordl_internal_set__leftNotes_k__BackingField))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _leftNotes_k__BackingField;
 
   /// @brief Field <rightNotes>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__rightNotes_k__BackingField,
-                      put = __set__rightNotes_k__BackingField))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _rightNotes_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rightNotes_k__BackingField,
+                      put = __cordl_internal_set__rightNotes_k__BackingField))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _rightNotes_k__BackingField;
 
   /// @brief Field <bombNotes>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__bombNotes_k__BackingField,
-                      put = __set__bombNotes_k__BackingField))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _bombNotes_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__bombNotes_k__BackingField,
+                      put = __cordl_internal_set__bombNotes_k__BackingField))::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> _bombNotes_k__BackingField;
 
   /// @brief Field <obstacles>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__obstacles_k__BackingField,
-                      put = __set__obstacles_k__BackingField))::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> _obstacles_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__obstacles_k__BackingField,
+                      put = __cordl_internal_set__obstacles_k__BackingField))::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> _obstacles_k__BackingField;
 
   __declspec(property(get = get_numberOfLines, put = set_numberOfLines)) int32_t numberOfLines;
 
@@ -63,41 +63,41 @@ public:
 
   __declspec(property(get = get_obstacles, put = set_obstacles))::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> obstacles;
 
-  constexpr int32_t& __get__numberOfLines_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__numberOfLines_k__BackingField();
 
-  constexpr int32_t const& __get__numberOfLines_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__numberOfLines_k__BackingField() const;
 
-  constexpr void __set__numberOfLines_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__numberOfLines_k__BackingField(int32_t value);
 
-  constexpr float_t& __get__songEndTime_k__BackingField();
+  constexpr float_t& __cordl_internal_get__songEndTime_k__BackingField();
 
-  constexpr float_t const& __get__songEndTime_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__songEndTime_k__BackingField() const;
 
-  constexpr void __set__songEndTime_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__songEndTime_k__BackingField(float_t value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*>& __get__leftNotes_k__BackingField();
+  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*>& __cordl_internal_get__leftNotes_k__BackingField();
 
-  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> const& __get__leftNotes_k__BackingField() const;
+  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> const& __cordl_internal_get__leftNotes_k__BackingField() const;
 
-  constexpr void __set__leftNotes_k__BackingField(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
+  constexpr void __cordl_internal_set__leftNotes_k__BackingField(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*>& __get__rightNotes_k__BackingField();
+  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*>& __cordl_internal_get__rightNotes_k__BackingField();
 
-  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> const& __get__rightNotes_k__BackingField() const;
+  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> const& __cordl_internal_get__rightNotes_k__BackingField() const;
 
-  constexpr void __set__rightNotes_k__BackingField(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
+  constexpr void __cordl_internal_set__rightNotes_k__BackingField(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*>& __get__bombNotes_k__BackingField();
+  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*>& __cordl_internal_get__bombNotes_k__BackingField();
 
-  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> const& __get__bombNotes_k__BackingField() const;
+  constexpr ::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> const& __cordl_internal_get__bombNotes_k__BackingField() const;
 
-  constexpr void __set__bombNotes_k__BackingField(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
+  constexpr void __cordl_internal_set__bombNotes_k__BackingField(::ArrayW<::GlobalNamespace::MockNoteData*, ::Array<::GlobalNamespace::MockNoteData*>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*>& __get__obstacles_k__BackingField();
+  constexpr ::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*>& __cordl_internal_get__obstacles_k__BackingField();
 
-  constexpr ::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> const& __get__obstacles_k__BackingField() const;
+  constexpr ::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> const& __cordl_internal_get__obstacles_k__BackingField() const;
 
-  constexpr void __set__obstacles_k__BackingField(::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> value);
+  constexpr void __cordl_internal_set__obstacles_k__BackingField(::ArrayW<::GlobalNamespace::MockObstacleData*, ::Array<::GlobalNamespace::MockObstacleData*>*> value);
 
   /// @brief Method get_numberOfLines, addr 0x23e6878, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfLines();

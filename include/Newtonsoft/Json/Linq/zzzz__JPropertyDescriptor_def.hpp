@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JPropertyDescriptor);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9444))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9444))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11968))
 // CS Name: ::Newtonsoft.Json.Linq::JPropertyDescriptor*
 class CORDL_TYPE JPropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor {

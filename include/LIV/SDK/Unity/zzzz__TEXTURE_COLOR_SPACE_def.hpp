@@ -15,7 +15,7 @@ MARK_VAL_T(::LIV::SDK::Unity::TEXTURE_COLOR_SPACE);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15106))
 // CS Name: ::LIV.SDK.Unity::TEXTURE_COLOR_SPACE
 struct CORDL_TYPE TEXTURE_COLOR_SPACE {

@@ -21,7 +21,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6661))
 // CS Name: ::UnityEngine.InputSystem.Utilities::Vector2MagnitudeComparer
 #pragma pack(push, 0)

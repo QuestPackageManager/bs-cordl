@@ -42,20 +42,20 @@ MARK_REF_PTR_T(::Oculus::Platform::Samples::SimplePlatformSample::DataEntry);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Samples::SimplePlatformSample {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13492))
 // CS Name: ::Oculus.Platform.Samples.SimplePlatformSample::DataEntry*
 class CORDL_TYPE DataEntry : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field dataOutput, offset 0x18, size 0x8
-  __declspec(property(get = __get_dataOutput, put = __set_dataOutput))::UnityEngine::UI::Text* dataOutput;
+  __declspec(property(get = __cordl_internal_get_dataOutput, put = __cordl_internal_set_dataOutput))::UnityW<::UnityEngine::UI::Text> dataOutput;
 
-  constexpr ::UnityEngine::UI::Text*& __get_dataOutput();
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_dataOutput();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& __get_dataOutput() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_dataOutput() const;
 
-  constexpr void __set_dataOutput(::UnityEngine::UI::Text* value);
+  constexpr void __cordl_internal_set_dataOutput(::UnityW<::UnityEngine::UI::Text> value);
 
   /// @brief Method Start, addr 0x27094c0, size 0x60, virtual false, abstract: false, final false
   inline void Start();
@@ -161,7 +161,7 @@ protected:
 
 public:
   /// @brief Field dataOutput, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Text* ___dataOutput;
+  ::UnityW<::UnityEngine::UI::Text> ___dataOutput;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

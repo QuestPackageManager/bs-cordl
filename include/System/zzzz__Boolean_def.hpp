@@ -51,7 +51,7 @@ MARK_VAL_T(::System::Boolean);
 // SizeInfo { instance_size: 1, native_size: 4, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2359))
 // CS Name: ::System::Boolean
 struct CORDL_TYPE Boolean {

@@ -95,47 +95,48 @@ MARK_REF_PTR_T(::GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass1
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4208))
 // CS Name: ::LeaderboardScoreUploader::ScoreData*
 class CORDL_TYPE __LeaderboardScoreUploader__ScoreData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <playerId>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__playerId_k__BackingField, put = __set__playerId_k__BackingField))::StringW _playerId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__playerId_k__BackingField, put = __cordl_internal_set__playerId_k__BackingField))::StringW _playerId_k__BackingField;
 
   /// @brief Field <beatmap>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__beatmap_k__BackingField, put = __set__beatmap_k__BackingField))::GlobalNamespace::IDifficultyBeatmap* _beatmap_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__beatmap_k__BackingField, put = __cordl_internal_set__beatmap_k__BackingField))::GlobalNamespace::IDifficultyBeatmap* _beatmap_k__BackingField;
 
   /// @brief Field <gameplayModifiers>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__gameplayModifiers_k__BackingField, put = __set__gameplayModifiers_k__BackingField))::GlobalNamespace::GameplayModifiers* _gameplayModifiers_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiers_k__BackingField,
+                      put = __cordl_internal_set__gameplayModifiers_k__BackingField))::GlobalNamespace::GameplayModifiers* _gameplayModifiers_k__BackingField;
 
   /// @brief Field <multipliedScore>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__multipliedScore_k__BackingField, put = __set__multipliedScore_k__BackingField)) int32_t _multipliedScore_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__multipliedScore_k__BackingField, put = __cordl_internal_set__multipliedScore_k__BackingField)) int32_t _multipliedScore_k__BackingField;
 
   /// @brief Field <modifiedScore>k__BackingField, offset 0x2c, size 0x4
-  __declspec(property(get = __get__modifiedScore_k__BackingField, put = __set__modifiedScore_k__BackingField)) int32_t _modifiedScore_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__modifiedScore_k__BackingField, put = __cordl_internal_set__modifiedScore_k__BackingField)) int32_t _modifiedScore_k__BackingField;
 
   /// @brief Field <fullCombo>k__BackingField, offset 0x30, size 0x1
-  __declspec(property(get = __get__fullCombo_k__BackingField, put = __set__fullCombo_k__BackingField)) bool _fullCombo_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__fullCombo_k__BackingField, put = __cordl_internal_set__fullCombo_k__BackingField)) bool _fullCombo_k__BackingField;
 
   /// @brief Field <goodCutsCount>k__BackingField, offset 0x34, size 0x4
-  __declspec(property(get = __get__goodCutsCount_k__BackingField, put = __set__goodCutsCount_k__BackingField)) int32_t _goodCutsCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__goodCutsCount_k__BackingField, put = __cordl_internal_set__goodCutsCount_k__BackingField)) int32_t _goodCutsCount_k__BackingField;
 
   /// @brief Field <badCutsCount>k__BackingField, offset 0x38, size 0x4
-  __declspec(property(get = __get__badCutsCount_k__BackingField, put = __set__badCutsCount_k__BackingField)) int32_t _badCutsCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__badCutsCount_k__BackingField, put = __cordl_internal_set__badCutsCount_k__BackingField)) int32_t _badCutsCount_k__BackingField;
 
   /// @brief Field <missedCount>k__BackingField, offset 0x3c, size 0x4
-  __declspec(property(get = __get__missedCount_k__BackingField, put = __set__missedCount_k__BackingField)) int32_t _missedCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__missedCount_k__BackingField, put = __cordl_internal_set__missedCount_k__BackingField)) int32_t _missedCount_k__BackingField;
 
   /// @brief Field <maxCombo>k__BackingField, offset 0x40, size 0x4
-  __declspec(property(get = __get__maxCombo_k__BackingField, put = __set__maxCombo_k__BackingField)) int32_t _maxCombo_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__maxCombo_k__BackingField, put = __cordl_internal_set__maxCombo_k__BackingField)) int32_t _maxCombo_k__BackingField;
 
   /// @brief Field uploadAttemptCount, offset 0x44, size 0x4
-  __declspec(property(get = __get_uploadAttemptCount, put = __set_uploadAttemptCount)) int32_t uploadAttemptCount;
+  __declspec(property(get = __cordl_internal_get_uploadAttemptCount, put = __cordl_internal_set_uploadAttemptCount)) int32_t uploadAttemptCount;
 
   /// @brief Field currentUploadAttemptCount, offset 0x48, size 0x4
-  __declspec(property(get = __get_currentUploadAttemptCount, put = __set_currentUploadAttemptCount)) int32_t currentUploadAttemptCount;
+  __declspec(property(get = __cordl_internal_get_currentUploadAttemptCount, put = __cordl_internal_set_currentUploadAttemptCount)) int32_t currentUploadAttemptCount;
 
   __declspec(property(get = get_playerId, put = set_playerId))::StringW playerId;
 
@@ -157,77 +158,77 @@ public:
 
   __declspec(property(get = get_maxCombo, put = set_maxCombo)) int32_t maxCombo;
 
-  constexpr ::StringW& __get__playerId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__playerId_k__BackingField();
 
-  constexpr ::StringW const& __get__playerId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__playerId_k__BackingField() const;
 
-  constexpr void __set__playerId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__playerId_k__BackingField(::StringW value);
 
-  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __get__beatmap_k__BackingField();
+  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __cordl_internal_get__beatmap_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __get__beatmap_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __cordl_internal_get__beatmap_k__BackingField() const;
 
-  constexpr void __set__beatmap_k__BackingField(::GlobalNamespace::IDifficultyBeatmap* value);
+  constexpr void __cordl_internal_set__beatmap_k__BackingField(::GlobalNamespace::IDifficultyBeatmap* value);
 
-  constexpr ::GlobalNamespace::GameplayModifiers*& __get__gameplayModifiers_k__BackingField();
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __get__gameplayModifiers_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers_k__BackingField() const;
 
-  constexpr void __set__gameplayModifiers_k__BackingField(::GlobalNamespace::GameplayModifiers* value);
+  constexpr void __cordl_internal_set__gameplayModifiers_k__BackingField(::GlobalNamespace::GameplayModifiers* value);
 
-  constexpr int32_t& __get__multipliedScore_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__multipliedScore_k__BackingField();
 
-  constexpr int32_t const& __get__multipliedScore_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__multipliedScore_k__BackingField() const;
 
-  constexpr void __set__multipliedScore_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__multipliedScore_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__modifiedScore_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__modifiedScore_k__BackingField();
 
-  constexpr int32_t const& __get__modifiedScore_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__modifiedScore_k__BackingField() const;
 
-  constexpr void __set__modifiedScore_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__modifiedScore_k__BackingField(int32_t value);
 
-  constexpr bool& __get__fullCombo_k__BackingField();
+  constexpr bool& __cordl_internal_get__fullCombo_k__BackingField();
 
-  constexpr bool const& __get__fullCombo_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__fullCombo_k__BackingField() const;
 
-  constexpr void __set__fullCombo_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__fullCombo_k__BackingField(bool value);
 
-  constexpr int32_t& __get__goodCutsCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__goodCutsCount_k__BackingField();
 
-  constexpr int32_t const& __get__goodCutsCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__goodCutsCount_k__BackingField() const;
 
-  constexpr void __set__goodCutsCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__goodCutsCount_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__badCutsCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__badCutsCount_k__BackingField();
 
-  constexpr int32_t const& __get__badCutsCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__badCutsCount_k__BackingField() const;
 
-  constexpr void __set__badCutsCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__badCutsCount_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__missedCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__missedCount_k__BackingField();
 
-  constexpr int32_t const& __get__missedCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__missedCount_k__BackingField() const;
 
-  constexpr void __set__missedCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__missedCount_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get__maxCombo_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__maxCombo_k__BackingField();
 
-  constexpr int32_t const& __get__maxCombo_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__maxCombo_k__BackingField() const;
 
-  constexpr void __set__maxCombo_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__maxCombo_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get_uploadAttemptCount();
+  constexpr int32_t& __cordl_internal_get_uploadAttemptCount();
 
-  constexpr int32_t const& __get_uploadAttemptCount() const;
+  constexpr int32_t const& __cordl_internal_get_uploadAttemptCount() const;
 
-  constexpr void __set_uploadAttemptCount(int32_t value);
+  constexpr void __cordl_internal_set_uploadAttemptCount(int32_t value);
 
-  constexpr int32_t& __get_currentUploadAttemptCount();
+  constexpr int32_t& __cordl_internal_get_currentUploadAttemptCount();
 
-  constexpr int32_t const& __get_currentUploadAttemptCount() const;
+  constexpr int32_t const& __cordl_internal_get_currentUploadAttemptCount() const;
 
-  constexpr void __set_currentUploadAttemptCount(int32_t value);
+  constexpr void __cordl_internal_set_currentUploadAttemptCount(int32_t value);
 
   /// @brief Method get_playerId, addr 0x232826c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_playerId();
@@ -381,20 +382,20 @@ static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4209))
 // CS Name: ::LeaderboardScoreUploader::ScoresToUploadData*
 class CORDL_TYPE __LeaderboardScoreUploader__ScoresToUploadData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field scores, offset 0x10, size 0x8
-  __declspec(property(get = __get_scores, put = __set_scores))::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>* scores;
+  __declspec(property(get = __cordl_internal_get_scores, put = __cordl_internal_set_scores))::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>* scores;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>*& __get_scores();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>*& __cordl_internal_get_scores();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>*> const& __get_scores() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>*> const& __cordl_internal_get_scores() const;
 
-  constexpr void __set_scores(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>* value);
+  constexpr void __cordl_internal_set_scores(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>* value);
 
   static inline ::GlobalNamespace::__LeaderboardScoreUploader__ScoresToUploadData* New_ctor();
 
@@ -430,7 +431,7 @@ static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader__ScoresToUp
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4210))
 // CS Name: ::LeaderboardScoreUploader::UploadScoreCallback*
 class CORDL_TYPE __LeaderboardScoreUploader__UploadScoreCallback : public ::System::MulticastDelegate {
@@ -477,29 +478,29 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LeaderboardSc
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4211))
 // CS Name: ::LeaderboardScoreUploader::<>c__DisplayClass16_0*
 class CORDL_TYPE __LeaderboardScoreUploader____c__DisplayClass16_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field scoreData, offset 0x10, size 0x8
-  __declspec(property(get = __get_scoreData, put = __set_scoreData))::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* scoreData;
+  __declspec(property(get = __cordl_internal_get_scoreData, put = __cordl_internal_set_scoreData))::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* scoreData;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::LeaderboardScoreUploader* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::LeaderboardScoreUploader> __4__this;
 
-  constexpr ::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*& __get_scoreData();
+  constexpr ::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*& __cordl_internal_get_scoreData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*> const& __get_scoreData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*> const& __cordl_internal_get_scoreData() const;
 
-  constexpr void __set_scoreData(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* value);
+  constexpr void __cordl_internal_set_scoreData(::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* value);
 
-  constexpr ::GlobalNamespace::LeaderboardScoreUploader*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::LeaderboardScoreUploader>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LeaderboardScoreUploader*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::LeaderboardScoreUploader* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::LeaderboardScoreUploader> value);
 
   static inline ::GlobalNamespace::__LeaderboardScoreUploader____c__DisplayClass16_0* New_ctor();
 
@@ -527,7 +528,7 @@ public:
   ::GlobalNamespace::__LeaderboardScoreUploader__ScoreData* ___scoreData;
 
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::LeaderboardScoreUploader* _____4__this;
+  ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -543,20 +544,20 @@ static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader____c__Displ
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4212))
 // CS Name: ::LeaderboardScoreUploader::<UploadScoresCoroutine>d__16*
 class CORDL_TYPE __LeaderboardScoreUploader___UploadScoresCoroutine_d__16 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::LeaderboardScoreUploader* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::LeaderboardScoreUploader> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -580,23 +581,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::LeaderboardScoreUploader*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::LeaderboardScoreUploader>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LeaderboardScoreUploader*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::LeaderboardScoreUploader* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::LeaderboardScoreUploader> value);
 
   static inline ::GlobalNamespace::__LeaderboardScoreUploader___UploadScoresCoroutine_d__16* New_ctor(int32_t __1__state);
 
@@ -639,7 +640,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::LeaderboardScoreUploader* _____4__this;
+  ::UnityW<::GlobalNamespace::LeaderboardScoreUploader> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -657,7 +658,7 @@ static_assert(offsetof(::GlobalNamespace::__LeaderboardScoreUploader___UploadSco
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4213))
 // CS Name: ::LeaderboardScoreUploader*
 class CORDL_TYPE LeaderboardScoreUploader : public ::UnityEngine::MonoBehaviour {
@@ -674,69 +675,72 @@ public:
   using ScoreData = ::GlobalNamespace::__LeaderboardScoreUploader__ScoreData;
 
   /// @brief Field allScoresDidUploadEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_allScoresDidUploadEvent, put = __set_allScoresDidUploadEvent))::System::Action* allScoresDidUploadEvent;
+  __declspec(property(get = __cordl_internal_get_allScoresDidUploadEvent, put = __cordl_internal_set_allScoresDidUploadEvent))::System::Action* allScoresDidUploadEvent;
 
   /// @brief Field _scoresToUpload, offset 0x20, size 0x8
-  __declspec(property(get = __get__scoresToUpload, put = __set__scoresToUpload))::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>* _scoresToUpload;
+  __declspec(property(get = __cordl_internal_get__scoresToUpload,
+                      put = __cordl_internal_set__scoresToUpload))::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>* _scoresToUpload;
 
   /// @brief Field _scoresToUploadForCurrentPlayer, offset 0x28, size 0x8
-  __declspec(property(get = __get__scoresToUploadForCurrentPlayer,
-                      put = __set__scoresToUploadForCurrentPlayer))::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>* _scoresToUploadForCurrentPlayer;
+  __declspec(property(
+      get = __cordl_internal_get__scoresToUploadForCurrentPlayer,
+      put = __cordl_internal_set__scoresToUploadForCurrentPlayer))::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>* _scoresToUploadForCurrentPlayer;
 
   /// @brief Field _uploadScoreCallback, offset 0x30, size 0x8
-  __declspec(property(get = __get__uploadScoreCallback, put = __set__uploadScoreCallback))::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback* _uploadScoreCallback;
+  __declspec(property(get = __cordl_internal_get__uploadScoreCallback,
+                      put = __cordl_internal_set__uploadScoreCallback))::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback* _uploadScoreCallback;
 
   /// @brief Field _playerId, offset 0x38, size 0x8
-  __declspec(property(get = __get__playerId, put = __set__playerId))::StringW _playerId;
+  __declspec(property(get = __cordl_internal_get__playerId, put = __cordl_internal_set__playerId))::StringW _playerId;
 
   /// @brief Field _uploading, offset 0x40, size 0x1
-  __declspec(property(get = __get__uploading, put = __set__uploading)) bool _uploading;
+  __declspec(property(get = __cordl_internal_get__uploading, put = __cordl_internal_set__uploading)) bool _uploading;
 
   /// @brief Field _saveData, offset 0x48, size 0x8
-  __declspec(property(get = __get__saveData, put = __set__saveData))::GlobalNamespace::ISaveData* _saveData;
+  __declspec(property(get = __cordl_internal_get__saveData, put = __cordl_internal_set__saveData))::GlobalNamespace::ISaveData* _saveData;
 
-  constexpr ::System::Action*& __get_allScoresDidUploadEvent();
+  constexpr ::System::Action*& __cordl_internal_get_allScoresDidUploadEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_allScoresDidUploadEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_allScoresDidUploadEvent() const;
 
-  constexpr void __set_allScoresDidUploadEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_allScoresDidUploadEvent(::System::Action* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>*& __get__scoresToUpload();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>*& __cordl_internal_get__scoresToUpload();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>*> const& __get__scoresToUpload() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>*> const& __cordl_internal_get__scoresToUpload() const;
 
-  constexpr void __set__scoresToUpload(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>* value);
+  constexpr void __cordl_internal_set__scoresToUpload(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>*& __get__scoresToUploadForCurrentPlayer();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>*& __cordl_internal_get__scoresToUploadForCurrentPlayer();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>*> const&
-  __get__scoresToUploadForCurrentPlayer() const;
+  __cordl_internal_get__scoresToUploadForCurrentPlayer() const;
 
-  constexpr void __set__scoresToUploadForCurrentPlayer(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>* value);
+  constexpr void __cordl_internal_set__scoresToUploadForCurrentPlayer(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardScoreUploader__ScoreData*>* value);
 
-  constexpr ::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback*& __get__uploadScoreCallback();
+  constexpr ::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback*& __cordl_internal_get__uploadScoreCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback*> const& __get__uploadScoreCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback*> const& __cordl_internal_get__uploadScoreCallback() const;
 
-  constexpr void __set__uploadScoreCallback(::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback* value);
+  constexpr void __cordl_internal_set__uploadScoreCallback(::GlobalNamespace::__LeaderboardScoreUploader__UploadScoreCallback* value);
 
-  constexpr ::StringW& __get__playerId();
+  constexpr ::StringW& __cordl_internal_get__playerId();
 
-  constexpr ::StringW const& __get__playerId() const;
+  constexpr ::StringW const& __cordl_internal_get__playerId() const;
 
-  constexpr void __set__playerId(::StringW value);
+  constexpr void __cordl_internal_set__playerId(::StringW value);
 
-  constexpr bool& __get__uploading();
+  constexpr bool& __cordl_internal_get__uploading();
 
-  constexpr bool const& __get__uploading() const;
+  constexpr bool const& __cordl_internal_get__uploading() const;
 
-  constexpr void __set__uploading(bool value);
+  constexpr void __cordl_internal_set__uploading(bool value);
 
-  constexpr ::GlobalNamespace::ISaveData*& __get__saveData();
+  constexpr ::GlobalNamespace::ISaveData*& __cordl_internal_get__saveData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& __get__saveData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& __cordl_internal_get__saveData() const;
 
-  constexpr void __set__saveData(::GlobalNamespace::ISaveData* value);
+  constexpr void __cordl_internal_set__saveData(::GlobalNamespace::ISaveData* value);
 
   /// @brief Method add_allScoresDidUploadEvent, addr 0x23278b8, size 0x9c, virtual false, abstract: false, final false
   inline void add_allScoresDidUploadEvent(::System::Action* value);

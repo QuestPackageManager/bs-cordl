@@ -45,185 +45,186 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexParser);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8925))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8925))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8926))
 // CS Name: ::System.Text.RegularExpressions::RegexParser*
 class CORDL_TYPE RegexParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _stack, offset 0x10, size 0x8
-  __declspec(property(get = __get__stack, put = __set__stack))::System::Text::RegularExpressions::RegexNode* _stack;
+  __declspec(property(get = __cordl_internal_get__stack, put = __cordl_internal_set__stack))::System::Text::RegularExpressions::RegexNode* _stack;
 
   /// @brief Field _group, offset 0x18, size 0x8
-  __declspec(property(get = __get__group, put = __set__group))::System::Text::RegularExpressions::RegexNode* _group;
+  __declspec(property(get = __cordl_internal_get__group, put = __cordl_internal_set__group))::System::Text::RegularExpressions::RegexNode* _group;
 
   /// @brief Field _alternation, offset 0x20, size 0x8
-  __declspec(property(get = __get__alternation, put = __set__alternation))::System::Text::RegularExpressions::RegexNode* _alternation;
+  __declspec(property(get = __cordl_internal_get__alternation, put = __cordl_internal_set__alternation))::System::Text::RegularExpressions::RegexNode* _alternation;
 
   /// @brief Field _concatenation, offset 0x28, size 0x8
-  __declspec(property(get = __get__concatenation, put = __set__concatenation))::System::Text::RegularExpressions::RegexNode* _concatenation;
+  __declspec(property(get = __cordl_internal_get__concatenation, put = __cordl_internal_set__concatenation))::System::Text::RegularExpressions::RegexNode* _concatenation;
 
   /// @brief Field _unit, offset 0x30, size 0x8
-  __declspec(property(get = __get__unit, put = __set__unit))::System::Text::RegularExpressions::RegexNode* _unit;
+  __declspec(property(get = __cordl_internal_get__unit, put = __cordl_internal_set__unit))::System::Text::RegularExpressions::RegexNode* _unit;
 
   /// @brief Field _pattern, offset 0x38, size 0x8
-  __declspec(property(get = __get__pattern, put = __set__pattern))::StringW _pattern;
+  __declspec(property(get = __cordl_internal_get__pattern, put = __cordl_internal_set__pattern))::StringW _pattern;
 
   /// @brief Field _currentPos, offset 0x40, size 0x4
-  __declspec(property(get = __get__currentPos, put = __set__currentPos)) int32_t _currentPos;
+  __declspec(property(get = __cordl_internal_get__currentPos, put = __cordl_internal_set__currentPos)) int32_t _currentPos;
 
   /// @brief Field _culture, offset 0x48, size 0x8
-  __declspec(property(get = __get__culture, put = __set__culture))::System::Globalization::CultureInfo* _culture;
+  __declspec(property(get = __cordl_internal_get__culture, put = __cordl_internal_set__culture))::System::Globalization::CultureInfo* _culture;
 
   /// @brief Field _autocap, offset 0x50, size 0x4
-  __declspec(property(get = __get__autocap, put = __set__autocap)) int32_t _autocap;
+  __declspec(property(get = __cordl_internal_get__autocap, put = __cordl_internal_set__autocap)) int32_t _autocap;
 
   /// @brief Field _capcount, offset 0x54, size 0x4
-  __declspec(property(get = __get__capcount, put = __set__capcount)) int32_t _capcount;
+  __declspec(property(get = __cordl_internal_get__capcount, put = __cordl_internal_set__capcount)) int32_t _capcount;
 
   /// @brief Field _captop, offset 0x58, size 0x4
-  __declspec(property(get = __get__captop, put = __set__captop)) int32_t _captop;
+  __declspec(property(get = __cordl_internal_get__captop, put = __cordl_internal_set__captop)) int32_t _captop;
 
   /// @brief Field _capsize, offset 0x5c, size 0x4
-  __declspec(property(get = __get__capsize, put = __set__capsize)) int32_t _capsize;
+  __declspec(property(get = __cordl_internal_get__capsize, put = __cordl_internal_set__capsize)) int32_t _capsize;
 
   /// @brief Field _caps, offset 0x60, size 0x8
-  __declspec(property(get = __get__caps, put = __set__caps))::System::Collections::Hashtable* _caps;
+  __declspec(property(get = __cordl_internal_get__caps, put = __cordl_internal_set__caps))::System::Collections::Hashtable* _caps;
 
   /// @brief Field _capnames, offset 0x68, size 0x8
-  __declspec(property(get = __get__capnames, put = __set__capnames))::System::Collections::Hashtable* _capnames;
+  __declspec(property(get = __cordl_internal_get__capnames, put = __cordl_internal_set__capnames))::System::Collections::Hashtable* _capnames;
 
   /// @brief Field _capnumlist, offset 0x70, size 0x8
-  __declspec(property(get = __get__capnumlist, put = __set__capnumlist))::ArrayW<int32_t, ::Array<int32_t>*> _capnumlist;
+  __declspec(property(get = __cordl_internal_get__capnumlist, put = __cordl_internal_set__capnumlist))::ArrayW<int32_t, ::Array<int32_t>*> _capnumlist;
 
   /// @brief Field _capnamelist, offset 0x78, size 0x8
-  __declspec(property(get = __get__capnamelist, put = __set__capnamelist))::System::Collections::Generic::List_1<::StringW>* _capnamelist;
+  __declspec(property(get = __cordl_internal_get__capnamelist, put = __cordl_internal_set__capnamelist))::System::Collections::Generic::List_1<::StringW>* _capnamelist;
 
   /// @brief Field _options, offset 0x80, size 0x4
-  __declspec(property(get = __get__options, put = __set__options))::System::Text::RegularExpressions::RegexOptions _options;
+  __declspec(property(get = __cordl_internal_get__options, put = __cordl_internal_set__options))::System::Text::RegularExpressions::RegexOptions _options;
 
   /// @brief Field _optionsStack, offset 0x88, size 0x8
-  __declspec(property(get = __get__optionsStack, put = __set__optionsStack))::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexOptions>* _optionsStack;
+  __declspec(property(get = __cordl_internal_get__optionsStack,
+                      put = __cordl_internal_set__optionsStack))::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexOptions>* _optionsStack;
 
   /// @brief Field _ignoreNextParen, offset 0x90, size 0x1
-  __declspec(property(get = __get__ignoreNextParen, put = __set__ignoreNextParen)) bool _ignoreNextParen;
+  __declspec(property(get = __cordl_internal_get__ignoreNextParen, put = __cordl_internal_set__ignoreNextParen)) bool _ignoreNextParen;
 
   /// @brief Field s_category, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_category, put = setStaticF_s_category))::ArrayW<uint8_t, ::Array<uint8_t>*> s_category;
 
-  constexpr ::System::Text::RegularExpressions::RegexNode*& __get__stack();
+  constexpr ::System::Text::RegularExpressions::RegexNode*& __cordl_internal_get__stack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexNode*> const& __get__stack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexNode*> const& __cordl_internal_get__stack() const;
 
-  constexpr void __set__stack(::System::Text::RegularExpressions::RegexNode* value);
+  constexpr void __cordl_internal_set__stack(::System::Text::RegularExpressions::RegexNode* value);
 
-  constexpr ::System::Text::RegularExpressions::RegexNode*& __get__group();
+  constexpr ::System::Text::RegularExpressions::RegexNode*& __cordl_internal_get__group();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexNode*> const& __get__group() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexNode*> const& __cordl_internal_get__group() const;
 
-  constexpr void __set__group(::System::Text::RegularExpressions::RegexNode* value);
+  constexpr void __cordl_internal_set__group(::System::Text::RegularExpressions::RegexNode* value);
 
-  constexpr ::System::Text::RegularExpressions::RegexNode*& __get__alternation();
+  constexpr ::System::Text::RegularExpressions::RegexNode*& __cordl_internal_get__alternation();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexNode*> const& __get__alternation() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexNode*> const& __cordl_internal_get__alternation() const;
 
-  constexpr void __set__alternation(::System::Text::RegularExpressions::RegexNode* value);
+  constexpr void __cordl_internal_set__alternation(::System::Text::RegularExpressions::RegexNode* value);
 
-  constexpr ::System::Text::RegularExpressions::RegexNode*& __get__concatenation();
+  constexpr ::System::Text::RegularExpressions::RegexNode*& __cordl_internal_get__concatenation();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexNode*> const& __get__concatenation() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexNode*> const& __cordl_internal_get__concatenation() const;
 
-  constexpr void __set__concatenation(::System::Text::RegularExpressions::RegexNode* value);
+  constexpr void __cordl_internal_set__concatenation(::System::Text::RegularExpressions::RegexNode* value);
 
-  constexpr ::System::Text::RegularExpressions::RegexNode*& __get__unit();
+  constexpr ::System::Text::RegularExpressions::RegexNode*& __cordl_internal_get__unit();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexNode*> const& __get__unit() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexNode*> const& __cordl_internal_get__unit() const;
 
-  constexpr void __set__unit(::System::Text::RegularExpressions::RegexNode* value);
+  constexpr void __cordl_internal_set__unit(::System::Text::RegularExpressions::RegexNode* value);
 
-  constexpr ::StringW& __get__pattern();
+  constexpr ::StringW& __cordl_internal_get__pattern();
 
-  constexpr ::StringW const& __get__pattern() const;
+  constexpr ::StringW const& __cordl_internal_get__pattern() const;
 
-  constexpr void __set__pattern(::StringW value);
+  constexpr void __cordl_internal_set__pattern(::StringW value);
 
-  constexpr int32_t& __get__currentPos();
+  constexpr int32_t& __cordl_internal_get__currentPos();
 
-  constexpr int32_t const& __get__currentPos() const;
+  constexpr int32_t const& __cordl_internal_get__currentPos() const;
 
-  constexpr void __set__currentPos(int32_t value);
+  constexpr void __cordl_internal_set__currentPos(int32_t value);
 
-  constexpr ::System::Globalization::CultureInfo*& __get__culture();
+  constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get__culture();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __get__culture() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __cordl_internal_get__culture() const;
 
-  constexpr void __set__culture(::System::Globalization::CultureInfo* value);
+  constexpr void __cordl_internal_set__culture(::System::Globalization::CultureInfo* value);
 
-  constexpr int32_t& __get__autocap();
+  constexpr int32_t& __cordl_internal_get__autocap();
 
-  constexpr int32_t const& __get__autocap() const;
+  constexpr int32_t const& __cordl_internal_get__autocap() const;
 
-  constexpr void __set__autocap(int32_t value);
+  constexpr void __cordl_internal_set__autocap(int32_t value);
 
-  constexpr int32_t& __get__capcount();
+  constexpr int32_t& __cordl_internal_get__capcount();
 
-  constexpr int32_t const& __get__capcount() const;
+  constexpr int32_t const& __cordl_internal_get__capcount() const;
 
-  constexpr void __set__capcount(int32_t value);
+  constexpr void __cordl_internal_set__capcount(int32_t value);
 
-  constexpr int32_t& __get__captop();
+  constexpr int32_t& __cordl_internal_get__captop();
 
-  constexpr int32_t const& __get__captop() const;
+  constexpr int32_t const& __cordl_internal_get__captop() const;
 
-  constexpr void __set__captop(int32_t value);
+  constexpr void __cordl_internal_set__captop(int32_t value);
 
-  constexpr int32_t& __get__capsize();
+  constexpr int32_t& __cordl_internal_get__capsize();
 
-  constexpr int32_t const& __get__capsize() const;
+  constexpr int32_t const& __cordl_internal_get__capsize() const;
 
-  constexpr void __set__capsize(int32_t value);
+  constexpr void __cordl_internal_set__capsize(int32_t value);
 
-  constexpr ::System::Collections::Hashtable*& __get__caps();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__caps();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get__caps() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__caps() const;
 
-  constexpr void __set__caps(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set__caps(::System::Collections::Hashtable* value);
 
-  constexpr ::System::Collections::Hashtable*& __get__capnames();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__capnames();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get__capnames() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__capnames() const;
 
-  constexpr void __set__capnames(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set__capnames(::System::Collections::Hashtable* value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__capnumlist();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__capnumlist();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__capnumlist() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__capnumlist() const;
 
-  constexpr void __set__capnumlist(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__capnumlist(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get__capnamelist();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__capnamelist();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get__capnamelist() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__capnamelist() const;
 
-  constexpr void __set__capnamelist(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set__capnamelist(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Text::RegularExpressions::RegexOptions& __get__options();
+  constexpr ::System::Text::RegularExpressions::RegexOptions& __cordl_internal_get__options();
 
-  constexpr ::System::Text::RegularExpressions::RegexOptions const& __get__options() const;
+  constexpr ::System::Text::RegularExpressions::RegexOptions const& __cordl_internal_get__options() const;
 
-  constexpr void __set__options(::System::Text::RegularExpressions::RegexOptions value);
+  constexpr void __cordl_internal_set__options(::System::Text::RegularExpressions::RegexOptions value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexOptions>*& __get__optionsStack();
+  constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexOptions>*& __cordl_internal_get__optionsStack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexOptions>*> const& __get__optionsStack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexOptions>*> const& __cordl_internal_get__optionsStack() const;
 
-  constexpr void __set__optionsStack(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexOptions>* value);
+  constexpr void __cordl_internal_set__optionsStack(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexOptions>* value);
 
-  constexpr bool& __get__ignoreNextParen();
+  constexpr bool& __cordl_internal_get__ignoreNextParen();
 
-  constexpr bool const& __get__ignoreNextParen() const;
+  constexpr bool const& __cordl_internal_get__ignoreNextParen() const;
 
-  constexpr void __set__ignoreNextParen(bool value);
+  constexpr void __cordl_internal_set__ignoreNextParen(bool value);
 
   static inline void setStaticF_s_category(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

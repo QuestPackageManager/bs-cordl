@@ -36,40 +36,40 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ListViewController);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7365))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7365))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7364))
 // CS Name: ::UnityEngine.UIElements::ListViewController*
 class CORDL_TYPE ListViewController : public ::UnityEngine::UIElements::CollectionViewController {
 public:
   // Declarations
   /// @brief Field itemsSourceSizeChanged, offset 0x30, size 0x8
-  __declspec(property(get = __get_itemsSourceSizeChanged, put = __set_itemsSourceSizeChanged))::System::Action* itemsSourceSizeChanged;
+  __declspec(property(get = __cordl_internal_get_itemsSourceSizeChanged, put = __cordl_internal_set_itemsSourceSizeChanged))::System::Action* itemsSourceSizeChanged;
 
   /// @brief Field itemsAdded, offset 0x38, size 0x8
-  __declspec(property(get = __get_itemsAdded, put = __set_itemsAdded))::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* itemsAdded;
+  __declspec(property(get = __cordl_internal_get_itemsAdded, put = __cordl_internal_set_itemsAdded))::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* itemsAdded;
 
   /// @brief Field itemsRemoved, offset 0x40, size 0x8
-  __declspec(property(get = __get_itemsRemoved, put = __set_itemsRemoved))::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* itemsRemoved;
+  __declspec(property(get = __cordl_internal_get_itemsRemoved, put = __cordl_internal_set_itemsRemoved))::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* itemsRemoved;
 
   __declspec(property(get = get_listView))::UnityEngine::UIElements::ListView* listView;
 
-  constexpr ::System::Action*& __get_itemsSourceSizeChanged();
+  constexpr ::System::Action*& __cordl_internal_get_itemsSourceSizeChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_itemsSourceSizeChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_itemsSourceSizeChanged() const;
 
-  constexpr void __set_itemsSourceSizeChanged(::System::Action* value);
+  constexpr void __cordl_internal_set_itemsSourceSizeChanged(::System::Action* value);
 
-  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& __get_itemsAdded();
+  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& __cordl_internal_get_itemsAdded();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*> const& __get_itemsAdded() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*> const& __cordl_internal_get_itemsAdded() const;
 
-  constexpr void __set_itemsAdded(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
+  constexpr void __cordl_internal_set_itemsAdded(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
 
-  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& __get_itemsRemoved();
+  constexpr ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*& __cordl_internal_get_itemsRemoved();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*> const& __get_itemsRemoved() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*> const& __cordl_internal_get_itemsRemoved() const;
 
-  constexpr void __set_itemsRemoved(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
+  constexpr void __cordl_internal_set_itemsRemoved(::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>* value);
 
   /// @brief Method add_itemsSourceSizeChanged, addr 0x2e85070, size 0x9c, virtual false, abstract: false, final false
   inline void add_itemsSourceSizeChanged(::System::Action* value);

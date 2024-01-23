@@ -15,29 +15,29 @@ MARK_REF_PTR_T(::RootMotion::LargeHeader);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12495))
 // CS Name: ::RootMotion::LargeHeader*
 class CORDL_TYPE LargeHeader : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field color, offset 0x18, size 0x8
-  __declspec(property(get = __get_color, put = __set_color))::StringW color;
+  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::StringW color;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::StringW& __get_color();
+  constexpr ::StringW& __cordl_internal_get_color();
 
-  constexpr ::StringW const& __get_color() const;
+  constexpr ::StringW const& __cordl_internal_get_color() const;
 
-  constexpr void __set_color(::StringW value);
+  constexpr void __cordl_internal_set_color(::StringW value);
 
   static inline ::RootMotion::LargeHeader* New_ctor(::StringW name);
 

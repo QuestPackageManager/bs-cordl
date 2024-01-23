@@ -23,38 +23,39 @@ MARK_REF_PTR_T(::GlobalNamespace::FinishTutorialAchievementHandler);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4091))
 // CS Name: ::FinishTutorialAchievementHandler*
 class CORDL_TYPE FinishTutorialAchievementHandler : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _achievementsModel, offset 0x18, size 0x8
-  __declspec(property(get = __get__achievementsModel, put = __set__achievementsModel))::GlobalNamespace::AchievementsModelSO* _achievementsModel;
+  __declspec(property(get = __cordl_internal_get__achievementsModel, put = __cordl_internal_set__achievementsModel))::UnityW<::GlobalNamespace::AchievementsModelSO> _achievementsModel;
 
   /// @brief Field _tutorialFinishedSignal, offset 0x20, size 0x8
-  __declspec(property(get = __get__tutorialFinishedSignal, put = __set__tutorialFinishedSignal))::GlobalNamespace::Signal* _tutorialFinishedSignal;
+  __declspec(property(get = __cordl_internal_get__tutorialFinishedSignal, put = __cordl_internal_set__tutorialFinishedSignal))::UnityW<::GlobalNamespace::Signal> _tutorialFinishedSignal;
 
   /// @brief Field _finishTutorialAchievement, offset 0x28, size 0x8
-  __declspec(property(get = __get__finishTutorialAchievement, put = __set__finishTutorialAchievement))::GlobalNamespace::AchievementSO* _finishTutorialAchievement;
+  __declspec(property(get = __cordl_internal_get__finishTutorialAchievement,
+                      put = __cordl_internal_set__finishTutorialAchievement))::UnityW<::GlobalNamespace::AchievementSO> _finishTutorialAchievement;
 
-  constexpr ::GlobalNamespace::AchievementsModelSO*& __get__achievementsModel();
+  constexpr ::UnityW<::GlobalNamespace::AchievementsModelSO>& __cordl_internal_get__achievementsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementsModelSO*> const& __get__achievementsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementsModelSO> const& __cordl_internal_get__achievementsModel() const;
 
-  constexpr void __set__achievementsModel(::GlobalNamespace::AchievementsModelSO* value);
+  constexpr void __cordl_internal_set__achievementsModel(::UnityW<::GlobalNamespace::AchievementsModelSO> value);
 
-  constexpr ::GlobalNamespace::Signal*& __get__tutorialFinishedSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__tutorialFinishedSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__tutorialFinishedSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__tutorialFinishedSignal() const;
 
-  constexpr void __set__tutorialFinishedSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__tutorialFinishedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr ::GlobalNamespace::AchievementSO*& __get__finishTutorialAchievement();
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__finishTutorialAchievement();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AchievementSO*> const& __get__finishTutorialAchievement() const;
+  constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__finishTutorialAchievement() const;
 
-  constexpr void __set__finishTutorialAchievement(::GlobalNamespace::AchievementSO* value);
+  constexpr void __cordl_internal_set__finishTutorialAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
   /// @brief Method Start, addr 0x2233230, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
@@ -85,13 +86,13 @@ protected:
 
 public:
   /// @brief Field _achievementsModel, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementsModelSO* ____achievementsModel;
+  ::UnityW<::GlobalNamespace::AchievementsModelSO> ____achievementsModel;
 
   /// @brief Field _tutorialFinishedSignal, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____tutorialFinishedSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____tutorialFinishedSignal;
 
   /// @brief Field _finishTutorialAchievement, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::AchievementSO* ____finishTutorialAchievement;
+  ::UnityW<::GlobalNamespace::AchievementSO> ____finishTutorialAchievement;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

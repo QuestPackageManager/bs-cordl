@@ -17,22 +17,22 @@ MARK_REF_PTR_T(::HMUI::ScreenModeSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13592))
 // CS Name: ::HMUI::ScreenModeSO*
 class CORDL_TYPE ScreenModeSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _data, offset 0x18, size 0x8
-  __declspec(property(get = __get__data, put = __set__data))::HMUI::ScreenModeData* _data;
+  __declspec(property(get = __cordl_internal_get__data, put = __cordl_internal_set__data))::HMUI::ScreenModeData* _data;
 
   __declspec(property(get = get_data))::HMUI::ScreenModeData* data;
 
-  constexpr ::HMUI::ScreenModeData*& __get__data();
+  constexpr ::HMUI::ScreenModeData*& __cordl_internal_get__data();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ScreenModeData*> const& __get__data() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ScreenModeData*> const& __cordl_internal_get__data() const;
 
-  constexpr void __set__data(::HMUI::ScreenModeData* value);
+  constexpr void __cordl_internal_set__data(::HMUI::ScreenModeData* value);
 
   /// @brief Method get_data, addr 0x212c674, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::ScreenModeData* get_data();

@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__BTSStarTextEffectController__Pool);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3979))
 // CS Name: ::BTSStarTextEffectController*
 class CORDL_TYPE BTSStarTextEffectController : public ::UnityEngine::MonoBehaviour {
@@ -46,42 +46,42 @@ public:
   using Pool = ::GlobalNamespace::__BTSStarTextEffectController__Pool;
 
   /// @brief Field _transform, offset 0x18, size 0x8
-  __declspec(property(get = __get__transform, put = __set__transform))::UnityEngine::Transform* _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
   /// @brief Field _spriteRenderer, offset 0x20, size 0x8
-  __declspec(property(get = __get__spriteRenderer, put = __set__spriteRenderer))::UnityEngine::SpriteRenderer* _spriteRenderer;
+  __declspec(property(get = __cordl_internal_get__spriteRenderer, put = __cordl_internal_set__spriteRenderer))::UnityW<::UnityEngine::SpriteRenderer> _spriteRenderer;
 
   /// @brief Field _animation, offset 0x28, size 0x8
-  __declspec(property(get = __get__animation, put = __set__animation))::UnityEngine::Animation* _animation;
+  __declspec(property(get = __cordl_internal_get__animation, put = __cordl_internal_set__animation))::UnityW<::UnityEngine::Animation> _animation;
 
   /// @brief Field _currentAnimationDuration, offset 0x30, size 0x4
-  __declspec(property(get = __get__currentAnimationDuration, put = __set__currentAnimationDuration)) float_t _currentAnimationDuration;
+  __declspec(property(get = __cordl_internal_get__currentAnimationDuration, put = __cordl_internal_set__currentAnimationDuration)) float_t _currentAnimationDuration;
 
   __declspec(property(get = get_animationDuration)) float_t animationDuration;
 
-  constexpr ::UnityEngine::Transform*& __get__transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr void __set__transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::SpriteRenderer*& __get__spriteRenderer();
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer>& __cordl_internal_get__spriteRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SpriteRenderer*> const& __get__spriteRenderer() const;
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__spriteRenderer() const;
 
-  constexpr void __set__spriteRenderer(::UnityEngine::SpriteRenderer* value);
+  constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  constexpr ::UnityEngine::Animation*& __get__animation();
+  constexpr ::UnityW<::UnityEngine::Animation>& __cordl_internal_get__animation();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animation*> const& __get__animation() const;
+  constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
 
-  constexpr void __set__animation(::UnityEngine::Animation* value);
+  constexpr void __cordl_internal_set__animation(::UnityW<::UnityEngine::Animation> value);
 
-  constexpr float_t& __get__currentAnimationDuration();
+  constexpr float_t& __cordl_internal_get__currentAnimationDuration();
 
-  constexpr float_t const& __get__currentAnimationDuration() const;
+  constexpr float_t const& __cordl_internal_get__currentAnimationDuration() const;
 
-  constexpr void __set__currentAnimationDuration(float_t value);
+  constexpr void __cordl_internal_set__currentAnimationDuration(float_t value);
 
   /// @brief Method get_animationDuration, addr 0x221d164, size 0x8, virtual false, abstract: false, final false
   inline float_t get_animationDuration();
@@ -109,13 +109,13 @@ protected:
 
 public:
   /// @brief Field _transform, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____transform;
+  ::UnityW<::UnityEngine::Transform> ____transform;
 
   /// @brief Field _spriteRenderer, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::SpriteRenderer* ____spriteRenderer;
+  ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
 
   /// @brief Field _animation, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Animation* ____animation;
+  ::UnityW<::UnityEngine::Animation> ____animation;
 
   /// @brief Field _currentAnimationDuration, offset: 0x30, size: 0x4, def value: None
   float_t ____currentAnimationDuration;
@@ -141,10 +141,11 @@ static_assert(offsetof(::GlobalNamespace::BTSStarTextEffectController, ____curre
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11053)), TypeDefinitionIndex(TypeDefinitionIndex(10291)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11053), inst:
-// 3514 }), TypeDefinitionIndex(TypeDefinitionIndex(3979)), TypeDefinitionIndex(TypeDefinitionIndex(10276))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3978)) CS Name:
-// ::BTSStarTextEffectController::Pool*
-class CORDL_TYPE __BTSStarTextEffectController__Pool : public ::Zenject::MonoMemoryPool_4<::UnityEngine::Sprite*, ::UnityEngine::Transform*, float_t, ::GlobalNamespace::BTSStarTextEffectController*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3979)), TypeDefinitionIndex(TypeDefinitionIndex(10276)), TypeDefinitionIndex(TypeDefinitionIndex(10291)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11053)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11053), inst: 3514 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3978)) CS
+// Name: ::BTSStarTextEffectController::Pool*
+class CORDL_TYPE __BTSStarTextEffectController__Pool
+    : public ::Zenject::MonoMemoryPool_4<::UnityW<::UnityEngine::Sprite>, ::UnityW<::UnityEngine::Transform>, float_t, ::UnityW<::GlobalNamespace::BTSStarTextEffectController>> {
 public:
   // Declarations
   /// @brief Method Reinitialize, addr 0x221d27c, size 0x14, virtual true, abstract: false, final false

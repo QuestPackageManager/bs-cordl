@@ -38,23 +38,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::RecipientInformation);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(671))
 // CS Name: ::Org.BouncyCastle.Cms::RecipientInformation*
 class CORDL_TYPE RecipientInformation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field rid, offset 0x10, size 0x8
-  __declspec(property(get = __get_rid, put = __set_rid))::Org::BouncyCastle::Cms::RecipientID* rid;
+  __declspec(property(get = __cordl_internal_get_rid, put = __cordl_internal_set_rid))::Org::BouncyCastle::Cms::RecipientID* rid;
 
   /// @brief Field keyEncAlg, offset 0x18, size 0x8
-  __declspec(property(get = __get_keyEncAlg, put = __set_keyEncAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncAlg;
+  __declspec(property(get = __cordl_internal_get_keyEncAlg, put = __cordl_internal_set_keyEncAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncAlg;
 
   /// @brief Field secureReadable, offset 0x20, size 0x8
-  __declspec(property(get = __get_secureReadable, put = __set_secureReadable))::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable;
+  __declspec(property(get = __cordl_internal_get_secureReadable, put = __cordl_internal_set_secureReadable))::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable;
 
   /// @brief Field resultMac, offset 0x28, size 0x8
-  __declspec(property(get = __get_resultMac, put = __set_resultMac))::ArrayW<uint8_t, ::Array<uint8_t>*> resultMac;
+  __declspec(property(get = __cordl_internal_get_resultMac, put = __cordl_internal_set_resultMac))::ArrayW<uint8_t, ::Array<uint8_t>*> resultMac;
 
   __declspec(property(get = get_RecipientID))::Org::BouncyCastle::Cms::RecipientID* RecipientID;
 
@@ -64,29 +64,29 @@ public:
 
   __declspec(property(get = get_KeyEncryptionAlgParams))::Org::BouncyCastle::Asn1::Asn1Object* KeyEncryptionAlgParams;
 
-  constexpr ::Org::BouncyCastle::Cms::RecipientID*& __get_rid();
+  constexpr ::Org::BouncyCastle::Cms::RecipientID*& __cordl_internal_get_rid();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::RecipientID*> const& __get_rid() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::RecipientID*> const& __cordl_internal_get_rid() const;
 
-  constexpr void __set_rid(::Org::BouncyCastle::Cms::RecipientID* value);
+  constexpr void __cordl_internal_set_rid(::Org::BouncyCastle::Cms::RecipientID* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_keyEncAlg();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_keyEncAlg();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_keyEncAlg() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_keyEncAlg() const;
 
-  constexpr void __set_keyEncAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_keyEncAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Cms::CmsSecureReadable*& __get_secureReadable();
+  constexpr ::Org::BouncyCastle::Cms::CmsSecureReadable*& __cordl_internal_get_secureReadable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsSecureReadable*> const& __get_secureReadable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsSecureReadable*> const& __cordl_internal_get_secureReadable() const;
 
-  constexpr void __set_secureReadable(::Org::BouncyCastle::Cms::CmsSecureReadable* value);
+  constexpr void __cordl_internal_set_secureReadable(::Org::BouncyCastle::Cms::CmsSecureReadable* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_resultMac();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_resultMac();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_resultMac() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_resultMac() const;
 
-  constexpr void __set_resultMac(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_resultMac(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Cms::RecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncAlg, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
 

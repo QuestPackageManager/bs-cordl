@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::UnityEngine::Playables::INotification);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Playables {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10419))
 // CS Name: ::UnityEngine.Playables::INotification*
 class CORDL_TYPE INotification {

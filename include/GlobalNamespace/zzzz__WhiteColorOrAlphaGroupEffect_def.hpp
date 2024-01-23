@@ -40,20 +40,20 @@ MARK_REF_PTR_T(::GlobalNamespace::WhiteColorOrAlphaGroupEffect);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 180, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(4923))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4923)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4926))
 // CS Name: ::WhiteColorOrAlphaGroupEffect*
 class CORDL_TYPE WhiteColorOrAlphaGroupEffect : public ::GlobalNamespace::LightColorGroupEffect {
 public:
   // Declarations
   /// @brief Field _defaultColor, offset 0xa4, size 0x10
-  __declspec(property(get = __get__defaultColor, put = __set__defaultColor))::UnityEngine::Color _defaultColor;
+  __declspec(property(get = __cordl_internal_get__defaultColor, put = __cordl_internal_set__defaultColor))::UnityEngine::Color _defaultColor;
 
-  constexpr ::UnityEngine::Color& __get__defaultColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__defaultColor();
 
-  constexpr ::UnityEngine::Color const& __get__defaultColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__defaultColor() const;
 
-  constexpr void __set__defaultColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__defaultColor(::UnityEngine::Color value);
 
   static inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffect* New_ctor(::GlobalNamespace::__LightColorGroupEffect__InitData* initData, ::UnityEngine::Color defaultColor,
                                                                           ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager,

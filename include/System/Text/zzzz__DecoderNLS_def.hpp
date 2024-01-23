@@ -20,51 +20,51 @@ MARK_REF_PTR_T(::System::Text::DecoderNLS);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2827))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2827))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2835))
 // CS Name: ::System.Text::DecoderNLS*
 class CORDL_TYPE DecoderNLS : public ::System::Text::Decoder {
 public:
   // Declarations
   /// @brief Field _encoding, offset 0x20, size 0x8
-  __declspec(property(get = __get__encoding, put = __set__encoding))::System::Text::Encoding* _encoding;
+  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding))::System::Text::Encoding* _encoding;
 
   /// @brief Field _mustFlush, offset 0x28, size 0x1
-  __declspec(property(get = __get__mustFlush, put = __set__mustFlush)) bool _mustFlush;
+  __declspec(property(get = __cordl_internal_get__mustFlush, put = __cordl_internal_set__mustFlush)) bool _mustFlush;
 
   /// @brief Field _throwOnOverflow, offset 0x29, size 0x1
-  __declspec(property(get = __get__throwOnOverflow, put = __set__throwOnOverflow)) bool _throwOnOverflow;
+  __declspec(property(get = __cordl_internal_get__throwOnOverflow, put = __cordl_internal_set__throwOnOverflow)) bool _throwOnOverflow;
 
   /// @brief Field _bytesUsed, offset 0x2c, size 0x4
-  __declspec(property(get = __get__bytesUsed, put = __set__bytesUsed)) int32_t _bytesUsed;
+  __declspec(property(get = __cordl_internal_get__bytesUsed, put = __cordl_internal_set__bytesUsed)) int32_t _bytesUsed;
 
   __declspec(property(get = get_MustFlush)) bool MustFlush;
 
   __declspec(property(get = get_HasState)) bool HasState;
 
-  constexpr ::System::Text::Encoding*& __get__encoding();
+  constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __get__encoding() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__encoding() const;
 
-  constexpr void __set__encoding(::System::Text::Encoding* value);
+  constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
 
-  constexpr bool& __get__mustFlush();
+  constexpr bool& __cordl_internal_get__mustFlush();
 
-  constexpr bool const& __get__mustFlush() const;
+  constexpr bool const& __cordl_internal_get__mustFlush() const;
 
-  constexpr void __set__mustFlush(bool value);
+  constexpr void __cordl_internal_set__mustFlush(bool value);
 
-  constexpr bool& __get__throwOnOverflow();
+  constexpr bool& __cordl_internal_get__throwOnOverflow();
 
-  constexpr bool const& __get__throwOnOverflow() const;
+  constexpr bool const& __cordl_internal_get__throwOnOverflow() const;
 
-  constexpr void __set__throwOnOverflow(bool value);
+  constexpr void __cordl_internal_set__throwOnOverflow(bool value);
 
-  constexpr int32_t& __get__bytesUsed();
+  constexpr int32_t& __cordl_internal_get__bytesUsed();
 
-  constexpr int32_t const& __get__bytesUsed() const;
+  constexpr int32_t const& __cordl_internal_get__bytesUsed() const;
 
-  constexpr void __set__bytesUsed(int32_t value);
+  constexpr void __cordl_internal_set__bytesUsed(int32_t value);
 
   static inline ::System::Text::DecoderNLS* New_ctor(::System::Text::Encoding* encoding);
 

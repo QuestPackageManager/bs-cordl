@@ -29,26 +29,29 @@ MARK_REF_PTR_T(::UnityEngine::UI::CanvasUpdateRegistry);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13022))
 // CS Name: ::UnityEngine.UI::CanvasUpdateRegistry*
 class CORDL_TYPE CanvasUpdateRegistry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_PerformingLayoutUpdate, offset 0x10, size 0x1
-  __declspec(property(get = __get_m_PerformingLayoutUpdate, put = __set_m_PerformingLayoutUpdate)) bool m_PerformingLayoutUpdate;
+  __declspec(property(get = __cordl_internal_get_m_PerformingLayoutUpdate, put = __cordl_internal_set_m_PerformingLayoutUpdate)) bool m_PerformingLayoutUpdate;
 
   /// @brief Field m_PerformingGraphicUpdate, offset 0x11, size 0x1
-  __declspec(property(get = __get_m_PerformingGraphicUpdate, put = __set_m_PerformingGraphicUpdate)) bool m_PerformingGraphicUpdate;
+  __declspec(property(get = __cordl_internal_get_m_PerformingGraphicUpdate, put = __cordl_internal_set_m_PerformingGraphicUpdate)) bool m_PerformingGraphicUpdate;
 
   /// @brief Field m_CanvasUpdateProfilerStrings, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_CanvasUpdateProfilerStrings, put = __set_m_CanvasUpdateProfilerStrings))::ArrayW<::StringW, ::Array<::StringW>*> m_CanvasUpdateProfilerStrings;
+  __declspec(property(get = __cordl_internal_get_m_CanvasUpdateProfilerStrings,
+                      put = __cordl_internal_set_m_CanvasUpdateProfilerStrings))::ArrayW<::StringW, ::Array<::StringW>*> m_CanvasUpdateProfilerStrings;
 
   /// @brief Field m_LayoutRebuildQueue, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_LayoutRebuildQueue, put = __set_m_LayoutRebuildQueue))::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>* m_LayoutRebuildQueue;
+  __declspec(property(get = __cordl_internal_get_m_LayoutRebuildQueue,
+                      put = __cordl_internal_set_m_LayoutRebuildQueue))::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>* m_LayoutRebuildQueue;
 
   /// @brief Field m_GraphicRebuildQueue, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_GraphicRebuildQueue, put = __set_m_GraphicRebuildQueue))::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>* m_GraphicRebuildQueue;
+  __declspec(property(get = __cordl_internal_get_m_GraphicRebuildQueue,
+                      put = __cordl_internal_set_m_GraphicRebuildQueue))::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>* m_GraphicRebuildQueue;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityEngine::UI::CanvasUpdateRegistry* s_Instance;
@@ -56,35 +59,35 @@ public:
   /// @brief Field s_SortLayoutFunction, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_SortLayoutFunction, put = setStaticF_s_SortLayoutFunction))::System::Comparison_1<::UnityEngine::UI::ICanvasElement*>* s_SortLayoutFunction;
 
-  constexpr bool& __get_m_PerformingLayoutUpdate();
+  constexpr bool& __cordl_internal_get_m_PerformingLayoutUpdate();
 
-  constexpr bool const& __get_m_PerformingLayoutUpdate() const;
+  constexpr bool const& __cordl_internal_get_m_PerformingLayoutUpdate() const;
 
-  constexpr void __set_m_PerformingLayoutUpdate(bool value);
+  constexpr void __cordl_internal_set_m_PerformingLayoutUpdate(bool value);
 
-  constexpr bool& __get_m_PerformingGraphicUpdate();
+  constexpr bool& __cordl_internal_get_m_PerformingGraphicUpdate();
 
-  constexpr bool const& __get_m_PerformingGraphicUpdate() const;
+  constexpr bool const& __cordl_internal_get_m_PerformingGraphicUpdate() const;
 
-  constexpr void __set_m_PerformingGraphicUpdate(bool value);
+  constexpr void __cordl_internal_set_m_PerformingGraphicUpdate(bool value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_CanvasUpdateProfilerStrings();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_CanvasUpdateProfilerStrings();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_CanvasUpdateProfilerStrings() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_CanvasUpdateProfilerStrings() const;
 
-  constexpr void __set_m_CanvasUpdateProfilerStrings(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_CanvasUpdateProfilerStrings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>*& __get_m_LayoutRebuildQueue();
+  constexpr ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>*& __cordl_internal_get_m_LayoutRebuildQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>*> const& __get_m_LayoutRebuildQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>*> const& __cordl_internal_get_m_LayoutRebuildQueue() const;
 
-  constexpr void __set_m_LayoutRebuildQueue(::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>* value);
+  constexpr void __cordl_internal_set_m_LayoutRebuildQueue(::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>* value);
 
-  constexpr ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>*& __get_m_GraphicRebuildQueue();
+  constexpr ::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>*& __cordl_internal_get_m_GraphicRebuildQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>*> const& __get_m_GraphicRebuildQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>*> const& __cordl_internal_get_m_GraphicRebuildQueue() const;
 
-  constexpr void __set_m_GraphicRebuildQueue(::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>* value);
+  constexpr void __cordl_internal_set_m_GraphicRebuildQueue(::UnityEngine::UI::Collections::IndexedSet_1<::UnityEngine::UI::ICanvasElement*>* value);
 
   static inline void setStaticF_s_Instance(::UnityEngine::UI::CanvasUpdateRegistry* value);
 

@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::System::Globalization::DateTimeFormatInfoScanner);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3668))
 // CS Name: ::DateTimeFormatInfoScanner::FoundDatePattern
 struct CORDL_TYPE __DateTimeFormatInfoScanner__FoundDatePattern {
@@ -101,7 +101,7 @@ static_assert(offsetof(::System::Globalization::__DateTimeFormatInfoScanner__Fou
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3668)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3668))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3669))
 // CS Name: ::System.Globalization::DateTimeFormatInfoScanner*
 class CORDL_TYPE DateTimeFormatInfoScanner : public ::System::Object {
@@ -110,25 +110,25 @@ public:
   using FoundDatePattern = ::System::Globalization::__DateTimeFormatInfoScanner__FoundDatePattern;
 
   /// @brief Field m_dateWords, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_dateWords, put = __set_m_dateWords))::System::Collections::Generic::List_1<::StringW>* m_dateWords;
+  __declspec(property(get = __cordl_internal_get_m_dateWords, put = __cordl_internal_set_m_dateWords))::System::Collections::Generic::List_1<::StringW>* m_dateWords;
 
   /// @brief Field _ymdFlags, offset 0x18, size 0x4
-  __declspec(property(get = __get__ymdFlags, put = __set__ymdFlags))::System::Globalization::__DateTimeFormatInfoScanner__FoundDatePattern _ymdFlags;
+  __declspec(property(get = __cordl_internal_get__ymdFlags, put = __cordl_internal_set__ymdFlags))::System::Globalization::__DateTimeFormatInfoScanner__FoundDatePattern _ymdFlags;
 
   /// @brief Field s_knownWords, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_knownWords, put = setStaticF_s_knownWords))::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_knownWords;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_m_dateWords();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_dateWords();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_m_dateWords() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_dateWords() const;
 
-  constexpr void __set_m_dateWords(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_m_dateWords(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Globalization::__DateTimeFormatInfoScanner__FoundDatePattern& __get__ymdFlags();
+  constexpr ::System::Globalization::__DateTimeFormatInfoScanner__FoundDatePattern& __cordl_internal_get__ymdFlags();
 
-  constexpr ::System::Globalization::__DateTimeFormatInfoScanner__FoundDatePattern const& __get__ymdFlags() const;
+  constexpr ::System::Globalization::__DateTimeFormatInfoScanner__FoundDatePattern const& __cordl_internal_get__ymdFlags() const;
 
-  constexpr void __set__ymdFlags(::System::Globalization::__DateTimeFormatInfoScanner__FoundDatePattern value);
+  constexpr void __cordl_internal_set__ymdFlags(::System::Globalization::__DateTimeFormatInfoScanner__FoundDatePattern value);
 
   static inline void setStaticF_s_knownWords(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
 

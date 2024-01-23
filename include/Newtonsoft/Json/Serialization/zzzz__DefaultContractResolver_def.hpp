@@ -192,24 +192,26 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 81
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11921)) CS Name: ::DefaultContractResolver::EnumerableDictionaryWrapper`2::<GetEnumerator>d__2<TEnumeratorKey,TEnumeratorValue>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 81
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11921)) CS Name: ::DefaultContractResolver::EnumerableDictionaryWrapper`2::<GetEnumerator>d__2<TEnumeratorKey,TEnumeratorValue>*
 class CORDL_TYPE __DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x10
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*> __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current,
+                      put = __cordl_internal_set___2__current))::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*> __2__current;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this,
-                      put = __set___4__this))::Newtonsoft::Json::Serialization::__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this,
+                      put = __cordl_internal_set___4__this))::Newtonsoft::Json::Serialization::__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>* __4__this;
 
   /// @brief Field <>7__wrap1, offset 0x30, size 0x8
-  __declspec(property(get = __get___7__wrap1,
-                      put = __set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* __7__wrap1;
+  __declspec(
+      property(get = __cordl_internal_get___7__wrap1,
+               put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* __7__wrap1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_Object_System_Object___get_Current))::System::Collections::Generic::KeyValuePair_2<
       ::System::Object*, ::System::Object*> System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_Object_System_Object___Current;
@@ -235,31 +237,31 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>& __get___2__current();
+  constexpr ::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>& __cordl_internal_get___2__current();
 
-  constexpr ::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*> const& __get___2__current() const;
+  constexpr ::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*> value);
+  constexpr void __cordl_internal_set___2__current(::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*> value);
 
-  constexpr ::Newtonsoft::Json::Serialization::__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>*& __get___4__this();
+  constexpr ::Newtonsoft::Json::Serialization::__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>*& __cordl_internal_get___4__this();
 
   constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>*> const&
-  __get___4__this() const;
+  __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Newtonsoft::Json::Serialization::__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>* value);
+  constexpr void __cordl_internal_set___4__this(::Newtonsoft::Json::Serialization::__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>*& __get___7__wrap1();
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>*& __cordl_internal_get___7__wrap1();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>*> const&
-  __get___7__wrap1() const;
+  __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* value);
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* value);
 
   static inline ::GlobalNamespace::__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey, TEnumeratorValue>* New_ctor(int32_t __1__state);
 
@@ -322,7 +324,7 @@ namespace Newtonsoft::Json::Serialization {
 // cpp template
 template <typename TEnumeratorKey, typename TEnumeratorValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11922))
 // CS Name: ::DefaultContractResolver::EnumerableDictionaryWrapper`2<TEnumeratorKey,TEnumeratorValue>*
 class CORDL_TYPE __DefaultContractResolver__EnumerableDictionaryWrapper_2 : public ::System::Object {
@@ -331,7 +333,8 @@ public:
   using _GetEnumerator_d__2 = ::GlobalNamespace::__DefaultContractResolver__EnumerableDictionaryWrapper_2___GetEnumerator_d__2<TEnumeratorKey, TEnumeratorValue>;
 
   /// @brief Field _e, offset 0x10, size 0x8
-  __declspec(property(get = __get__e, put = __set__e))::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* _e;
+  __declspec(property(get = __cordl_internal_get__e,
+                      put = __cordl_internal_set__e))::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* _e;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*,::System::Object*>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>*() noexcept;
@@ -346,12 +349,12 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>*& __get__e();
+  constexpr ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>*& __cordl_internal_get__e();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>*> const&
-  __get__e() const;
+  __cordl_internal_get__e() const;
 
-  constexpr void __set__e(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* value);
+  constexpr void __cordl_internal_set__e(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* value);
 
   static inline ::Newtonsoft::Json::Serialization::__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>*
   New_ctor(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* e);
@@ -390,7 +393,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11923))
 // CS Name: ::DefaultContractResolver::<>c*
 class CORDL_TYPE __DefaultContractResolver____c : public ::System::Object {
@@ -493,29 +496,30 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization:
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11924))
 // CS Name: ::DefaultContractResolver::<>c__DisplayClass34_0*
 class CORDL_TYPE __DefaultContractResolver____c__DisplayClass34_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field getExtensionDataDictionary, offset 0x10, size 0x8
-  __declspec(property(get = __get_getExtensionDataDictionary, put = __set_getExtensionDataDictionary))::System::Func_2<::System::Object*, ::System::Object*>* getExtensionDataDictionary;
+  __declspec(property(get = __cordl_internal_get_getExtensionDataDictionary,
+                      put = __cordl_internal_set_getExtensionDataDictionary))::System::Func_2<::System::Object*, ::System::Object*>* getExtensionDataDictionary;
 
   /// @brief Field member, offset 0x18, size 0x8
-  __declspec(property(get = __get_member, put = __set_member))::System::Reflection::MemberInfo* member;
+  __declspec(property(get = __cordl_internal_get_member, put = __cordl_internal_set_member))::System::Reflection::MemberInfo* member;
 
-  constexpr ::System::Func_2<::System::Object*, ::System::Object*>*& __get_getExtensionDataDictionary();
+  constexpr ::System::Func_2<::System::Object*, ::System::Object*>*& __cordl_internal_get_getExtensionDataDictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::System::Object*>*> const& __get_getExtensionDataDictionary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::System::Object*>*> const& __cordl_internal_get_getExtensionDataDictionary() const;
 
-  constexpr void __set_getExtensionDataDictionary(::System::Func_2<::System::Object*, ::System::Object*>* value);
+  constexpr void __cordl_internal_set_getExtensionDataDictionary(::System::Func_2<::System::Object*, ::System::Object*>* value);
 
-  constexpr ::System::Reflection::MemberInfo*& __get_member();
+  constexpr ::System::Reflection::MemberInfo*& __cordl_internal_get_member();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MemberInfo*> const& __get_member() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MemberInfo*> const& __cordl_internal_get_member() const;
 
-  constexpr void __set_member(::System::Reflection::MemberInfo* value);
+  constexpr void __cordl_internal_set_member(::System::Reflection::MemberInfo* value);
 
   static inline ::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0* New_ctor();
 
@@ -556,48 +560,51 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::__DefaultContractResol
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11925))
 // CS Name: ::DefaultContractResolver::<>c__DisplayClass34_1*
 class CORDL_TYPE __DefaultContractResolver____c__DisplayClass34_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field setExtensionDataDictionary, offset 0x10, size 0x8
-  __declspec(property(get = __get_setExtensionDataDictionary, put = __set_setExtensionDataDictionary))::System::Action_2<::System::Object*, ::System::Object*>* setExtensionDataDictionary;
+  __declspec(property(get = __cordl_internal_get_setExtensionDataDictionary,
+                      put = __cordl_internal_set_setExtensionDataDictionary))::System::Action_2<::System::Object*, ::System::Object*>* setExtensionDataDictionary;
 
   /// @brief Field createExtensionDataDictionary, offset 0x18, size 0x8
-  __declspec(property(get = __get_createExtensionDataDictionary, put = __set_createExtensionDataDictionary))::System::Func_1<::System::Object*>* createExtensionDataDictionary;
+  __declspec(property(get = __cordl_internal_get_createExtensionDataDictionary,
+                      put = __cordl_internal_set_createExtensionDataDictionary))::System::Func_1<::System::Object*>* createExtensionDataDictionary;
 
   /// @brief Field setExtensionDataDictionaryValue, offset 0x20, size 0x8
-  __declspec(property(get = __get_setExtensionDataDictionaryValue,
-                      put = __set_setExtensionDataDictionaryValue))::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* setExtensionDataDictionaryValue;
+  __declspec(property(get = __cordl_internal_get_setExtensionDataDictionaryValue,
+                      put = __cordl_internal_set_setExtensionDataDictionaryValue))::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* setExtensionDataDictionaryValue;
 
   /// @brief Field CS$<>8__locals1, offset 0x28, size 0x8
-  __declspec(property(get = __get_CS$__8__locals1, put = __set_CS$__8__locals1))::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0* CS$__8__locals1;
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals1,
+                      put = __cordl_internal_set_CS$__8__locals1))::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0* CS$__8__locals1;
 
-  constexpr ::System::Action_2<::System::Object*, ::System::Object*>*& __get_setExtensionDataDictionary();
+  constexpr ::System::Action_2<::System::Object*, ::System::Object*>*& __cordl_internal_get_setExtensionDataDictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::System::Object*, ::System::Object*>*> const& __get_setExtensionDataDictionary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::System::Object*, ::System::Object*>*> const& __cordl_internal_get_setExtensionDataDictionary() const;
 
-  constexpr void __set_setExtensionDataDictionary(::System::Action_2<::System::Object*, ::System::Object*>* value);
+  constexpr void __cordl_internal_set_setExtensionDataDictionary(::System::Action_2<::System::Object*, ::System::Object*>* value);
 
-  constexpr ::System::Func_1<::System::Object*>*& __get_createExtensionDataDictionary();
+  constexpr ::System::Func_1<::System::Object*>*& __cordl_internal_get_createExtensionDataDictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Object*>*> const& __get_createExtensionDataDictionary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Object*>*> const& __cordl_internal_get_createExtensionDataDictionary() const;
 
-  constexpr void __set_createExtensionDataDictionary(::System::Func_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set_createExtensionDataDictionary(::System::Func_1<::System::Object*>* value);
 
-  constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& __get_setExtensionDataDictionaryValue();
+  constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& __cordl_internal_get_setExtensionDataDictionaryValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const& __get_setExtensionDataDictionaryValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const& __cordl_internal_get_setExtensionDataDictionaryValue() const;
 
-  constexpr void __set_setExtensionDataDictionaryValue(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
+  constexpr void __cordl_internal_set_setExtensionDataDictionaryValue(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
-  constexpr ::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0*& __get_CS$__8__locals1();
+  constexpr ::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0*& __cordl_internal_get_CS$__8__locals1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0*> const& __get_CS$__8__locals1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0*> const& __cordl_internal_get_CS$__8__locals1() const;
 
-  constexpr void __set_CS$__8__locals1(::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0* value);
+  constexpr void __cordl_internal_set_CS$__8__locals1(::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0* value);
 
   static inline ::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_1* New_ctor();
 
@@ -651,29 +658,31 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::__DefaultContractResol
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11926))
 // CS Name: ::DefaultContractResolver::<>c__DisplayClass34_2*
 class CORDL_TYPE __DefaultContractResolver____c__DisplayClass34_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field createEnumerableWrapper, offset 0x10, size 0x8
-  __declspec(property(get = __get_createEnumerableWrapper, put = __set_createEnumerableWrapper))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* createEnumerableWrapper;
+  __declspec(property(get = __cordl_internal_get_createEnumerableWrapper,
+                      put = __cordl_internal_set_createEnumerableWrapper))::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* createEnumerableWrapper;
 
   /// @brief Field CS$<>8__locals2, offset 0x18, size 0x8
-  __declspec(property(get = __get_CS$__8__locals2, put = __set_CS$__8__locals2))::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0* CS$__8__locals2;
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals2,
+                      put = __cordl_internal_set_CS$__8__locals2))::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0* CS$__8__locals2;
 
-  constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __get_createEnumerableWrapper();
+  constexpr ::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*& __cordl_internal_get_createEnumerableWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const& __get_createEnumerableWrapper() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*> const& __cordl_internal_get_createEnumerableWrapper() const;
 
-  constexpr void __set_createEnumerableWrapper(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set_createEnumerableWrapper(::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* value);
 
-  constexpr ::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0*& __get_CS$__8__locals2();
+  constexpr ::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0*& __cordl_internal_get_CS$__8__locals2();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0*> const& __get_CS$__8__locals2() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0*> const& __cordl_internal_get_CS$__8__locals2() const;
 
-  constexpr void __set_CS$__8__locals2(::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0* value);
+  constexpr void __cordl_internal_set_CS$__8__locals2(::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_0* value);
 
   static inline ::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass34_2* New_ctor();
 
@@ -717,20 +726,21 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::__DefaultContractResol
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11927))
 // CS Name: ::DefaultContractResolver::<>c__DisplayClass64_0*
 class CORDL_TYPE __DefaultContractResolver____c__DisplayClass64_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field shouldSerializeCall, offset 0x10, size 0x8
-  __declspec(property(get = __get_shouldSerializeCall, put = __set_shouldSerializeCall))::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* shouldSerializeCall;
+  __declspec(property(get = __cordl_internal_get_shouldSerializeCall,
+                      put = __cordl_internal_set_shouldSerializeCall))::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* shouldSerializeCall;
 
-  constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& __get_shouldSerializeCall();
+  constexpr ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*& __cordl_internal_get_shouldSerializeCall();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const& __get_shouldSerializeCall() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>*> const& __cordl_internal_get_shouldSerializeCall() const;
 
-  constexpr void __set_shouldSerializeCall(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
+  constexpr void __cordl_internal_set_shouldSerializeCall(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
   static inline ::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass64_0* New_ctor();
 
@@ -769,20 +779,20 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::__DefaultContractResol
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11928))
 // CS Name: ::DefaultContractResolver::<>c__DisplayClass65_0*
 class CORDL_TYPE __DefaultContractResolver____c__DisplayClass65_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field specifiedPropertyGet, offset 0x10, size 0x8
-  __declspec(property(get = __get_specifiedPropertyGet, put = __set_specifiedPropertyGet))::System::Func_2<::System::Object*, ::System::Object*>* specifiedPropertyGet;
+  __declspec(property(get = __cordl_internal_get_specifiedPropertyGet, put = __cordl_internal_set_specifiedPropertyGet))::System::Func_2<::System::Object*, ::System::Object*>* specifiedPropertyGet;
 
-  constexpr ::System::Func_2<::System::Object*, ::System::Object*>*& __get_specifiedPropertyGet();
+  constexpr ::System::Func_2<::System::Object*, ::System::Object*>*& __cordl_internal_get_specifiedPropertyGet();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::System::Object*>*> const& __get_specifiedPropertyGet() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::System::Object*>*> const& __cordl_internal_get_specifiedPropertyGet() const;
 
-  constexpr void __set_specifiedPropertyGet(::System::Func_2<::System::Object*, ::System::Object*>* value);
+  constexpr void __cordl_internal_set_specifiedPropertyGet(::System::Func_2<::System::Object*, ::System::Object*>* value);
 
   static inline ::Newtonsoft::Json::Serialization::__DefaultContractResolver____c__DisplayClass65_0* New_ctor();
 
@@ -821,7 +831,7 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::__DefaultContractResol
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 35, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3459))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3459))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11929))
 // CS Name: ::Newtonsoft.Json.Serialization::DefaultContractResolver*
 class CORDL_TYPE DefaultContractResolver : public ::System::Object {
@@ -843,24 +853,26 @@ public:
   using EnumerableDictionaryWrapper_2 = ::Newtonsoft::Json::Serialization::__DefaultContractResolver__EnumerableDictionaryWrapper_2<TEnumeratorKey, TEnumeratorValue>;
 
   /// @brief Field _instanceState, offset 0x10, size 0x8
-  __declspec(property(get = __get__instanceState, put = __set__instanceState))::Newtonsoft::Json::Serialization::DefaultContractResolverState* _instanceState;
+  __declspec(property(get = __cordl_internal_get__instanceState, put = __cordl_internal_set__instanceState))::Newtonsoft::Json::Serialization::DefaultContractResolverState* _instanceState;
 
   /// @brief Field _sharedCache, offset 0x18, size 0x1
-  __declspec(property(get = __get__sharedCache, put = __set__sharedCache)) bool _sharedCache;
+  __declspec(property(get = __cordl_internal_get__sharedCache, put = __cordl_internal_set__sharedCache)) bool _sharedCache;
 
   /// @brief Field <DefaultMembersSearchFlags>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__DefaultMembersSearchFlags_k__BackingField,
-                      put = __set__DefaultMembersSearchFlags_k__BackingField))::System::Reflection::BindingFlags _DefaultMembersSearchFlags_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__DefaultMembersSearchFlags_k__BackingField,
+                      put = __cordl_internal_set__DefaultMembersSearchFlags_k__BackingField))::System::Reflection::BindingFlags _DefaultMembersSearchFlags_k__BackingField;
 
   /// @brief Field <SerializeCompilerGeneratedMembers>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __get__SerializeCompilerGeneratedMembers_k__BackingField,
-                      put = __set__SerializeCompilerGeneratedMembers_k__BackingField)) bool _SerializeCompilerGeneratedMembers_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SerializeCompilerGeneratedMembers_k__BackingField,
+                      put = __cordl_internal_set__SerializeCompilerGeneratedMembers_k__BackingField)) bool _SerializeCompilerGeneratedMembers_k__BackingField;
 
   /// @brief Field <IgnoreSerializableInterface>k__BackingField, offset 0x21, size 0x1
-  __declspec(property(get = __get__IgnoreSerializableInterface_k__BackingField, put = __set__IgnoreSerializableInterface_k__BackingField)) bool _IgnoreSerializableInterface_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IgnoreSerializableInterface_k__BackingField,
+                      put = __cordl_internal_set__IgnoreSerializableInterface_k__BackingField)) bool _IgnoreSerializableInterface_k__BackingField;
 
   /// @brief Field <IgnoreSerializableAttribute>k__BackingField, offset 0x22, size 0x1
-  __declspec(property(get = __get__IgnoreSerializableAttribute_k__BackingField, put = __set__IgnoreSerializableAttribute_k__BackingField)) bool _IgnoreSerializableAttribute_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IgnoreSerializableAttribute_k__BackingField,
+                      put = __cordl_internal_set__IgnoreSerializableAttribute_k__BackingField)) bool _IgnoreSerializableAttribute_k__BackingField;
 
   /// @brief Field _instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__instance, put = setStaticF__instance))::Newtonsoft::Json::Serialization::IContractResolver* _instance;
@@ -891,41 +903,41 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Serialization::IContractResolver"
   constexpr ::Newtonsoft::Json::Serialization::IContractResolver* i___Newtonsoft__Json__Serialization__IContractResolver() noexcept;
 
-  constexpr ::Newtonsoft::Json::Serialization::DefaultContractResolverState*& __get__instanceState();
+  constexpr ::Newtonsoft::Json::Serialization::DefaultContractResolverState*& __cordl_internal_get__instanceState();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::DefaultContractResolverState*> const& __get__instanceState() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::DefaultContractResolverState*> const& __cordl_internal_get__instanceState() const;
 
-  constexpr void __set__instanceState(::Newtonsoft::Json::Serialization::DefaultContractResolverState* value);
+  constexpr void __cordl_internal_set__instanceState(::Newtonsoft::Json::Serialization::DefaultContractResolverState* value);
 
-  constexpr bool& __get__sharedCache();
+  constexpr bool& __cordl_internal_get__sharedCache();
 
-  constexpr bool const& __get__sharedCache() const;
+  constexpr bool const& __cordl_internal_get__sharedCache() const;
 
-  constexpr void __set__sharedCache(bool value);
+  constexpr void __cordl_internal_set__sharedCache(bool value);
 
-  constexpr ::System::Reflection::BindingFlags& __get__DefaultMembersSearchFlags_k__BackingField();
+  constexpr ::System::Reflection::BindingFlags& __cordl_internal_get__DefaultMembersSearchFlags_k__BackingField();
 
-  constexpr ::System::Reflection::BindingFlags const& __get__DefaultMembersSearchFlags_k__BackingField() const;
+  constexpr ::System::Reflection::BindingFlags const& __cordl_internal_get__DefaultMembersSearchFlags_k__BackingField() const;
 
-  constexpr void __set__DefaultMembersSearchFlags_k__BackingField(::System::Reflection::BindingFlags value);
+  constexpr void __cordl_internal_set__DefaultMembersSearchFlags_k__BackingField(::System::Reflection::BindingFlags value);
 
-  constexpr bool& __get__SerializeCompilerGeneratedMembers_k__BackingField();
+  constexpr bool& __cordl_internal_get__SerializeCompilerGeneratedMembers_k__BackingField();
 
-  constexpr bool const& __get__SerializeCompilerGeneratedMembers_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__SerializeCompilerGeneratedMembers_k__BackingField() const;
 
-  constexpr void __set__SerializeCompilerGeneratedMembers_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__SerializeCompilerGeneratedMembers_k__BackingField(bool value);
 
-  constexpr bool& __get__IgnoreSerializableInterface_k__BackingField();
+  constexpr bool& __cordl_internal_get__IgnoreSerializableInterface_k__BackingField();
 
-  constexpr bool const& __get__IgnoreSerializableInterface_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IgnoreSerializableInterface_k__BackingField() const;
 
-  constexpr void __set__IgnoreSerializableInterface_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IgnoreSerializableInterface_k__BackingField(bool value);
 
-  constexpr bool& __get__IgnoreSerializableAttribute_k__BackingField();
+  constexpr bool& __cordl_internal_get__IgnoreSerializableAttribute_k__BackingField();
 
-  constexpr bool const& __get__IgnoreSerializableAttribute_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IgnoreSerializableAttribute_k__BackingField() const;
 
-  constexpr void __set__IgnoreSerializableAttribute_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IgnoreSerializableAttribute_k__BackingField(bool value);
 
   static inline void setStaticF__instance(::Newtonsoft::Json::Serialization::IContractResolver* value);
 

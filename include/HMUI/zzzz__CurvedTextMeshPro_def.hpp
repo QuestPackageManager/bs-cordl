@@ -45,7 +45,7 @@ MARK_VAL_T(::HMUI::__CurvedTextMeshPro__CurvedMeshInfo);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13527))
 // CS Name: ::CurvedTextMeshPro::CurvedMeshInfo
 struct CORDL_TYPE __CurvedTextMeshPro__CurvedMeshInfo {
@@ -76,7 +76,7 @@ static_assert(offsetof(::HMUI::__CurvedTextMeshPro__CurvedMeshInfo, uvs3) == 0x0
 // SizeInfo { instance_size: 1968, native_size: -1, calculated_instance_size: 1968, calculated_native_size: 1968, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12310))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12310))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13528))
 // CS Name: ::HMUI::CurvedTextMeshPro*
 class CORDL_TYPE CurvedTextMeshPro : public ::TMPro::TextMeshProUGUI {
@@ -85,17 +85,17 @@ public:
   using CurvedMeshInfo = ::HMUI::__CurvedTextMeshPro__CurvedMeshInfo;
 
   /// @brief Field _useScriptableObjectColors, offset 0x795, size 0x1
-  __declspec(property(get = __get__useScriptableObjectColors, put = __set__useScriptableObjectColors)) bool _useScriptableObjectColors;
+  __declspec(property(get = __cordl_internal_get__useScriptableObjectColors, put = __cordl_internal_set__useScriptableObjectColors)) bool _useScriptableObjectColors;
 
   /// @brief Field _colorSo, offset 0x798, size 0x8
-  __declspec(property(get = __get__colorSo, put = __set__colorSo))::GlobalNamespace::ColorSO* _colorSo;
+  __declspec(property(get = __cordl_internal_get__colorSo, put = __cordl_internal_set__colorSo))::UnityW<::GlobalNamespace::ColorSO> _colorSo;
 
   /// @brief Field _curvedMeshInfos, offset 0x7a0, size 0x8
-  __declspec(property(get = __get__curvedMeshInfos,
-                      put = __set__curvedMeshInfos))::ArrayW<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo, ::Array<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo>*> _curvedMeshInfos;
+  __declspec(property(get = __cordl_internal_get__curvedMeshInfos,
+                      put = __cordl_internal_set__curvedMeshInfos))::ArrayW<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo, ::Array<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo>*> _curvedMeshInfos;
 
   /// @brief Field _curvedCanvasSettingsHelper, offset 0x7a8, size 0x8
-  __declspec(property(get = __get__curvedCanvasSettingsHelper, put = __set__curvedCanvasSettingsHelper))::HMUI::CurvedCanvasSettingsHelper* _curvedCanvasSettingsHelper;
+  __declspec(property(get = __cordl_internal_get__curvedCanvasSettingsHelper, put = __cordl_internal_set__curvedCanvasSettingsHelper))::HMUI::CurvedCanvasSettingsHelper* _curvedCanvasSettingsHelper;
 
   __declspec(property(get = get_useScriptableObjectColors, put = set_useScriptableObjectColors)) bool useScriptableObjectColors;
 
@@ -107,29 +107,29 @@ public:
   /// @brief Convert to "::GlobalNamespace::IComponentRefresher"
   constexpr ::GlobalNamespace::IComponentRefresher* i___GlobalNamespace__IComponentRefresher() noexcept;
 
-  constexpr bool& __get__useScriptableObjectColors();
+  constexpr bool& __cordl_internal_get__useScriptableObjectColors();
 
-  constexpr bool const& __get__useScriptableObjectColors() const;
+  constexpr bool const& __cordl_internal_get__useScriptableObjectColors() const;
 
-  constexpr void __set__useScriptableObjectColors(bool value);
+  constexpr void __cordl_internal_set__useScriptableObjectColors(bool value);
 
-  constexpr ::GlobalNamespace::ColorSO*& __get__colorSo();
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__colorSo();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& __get__colorSo() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__colorSo() const;
 
-  constexpr void __set__colorSo(::GlobalNamespace::ColorSO* value);
+  constexpr void __cordl_internal_set__colorSo(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  constexpr ::ArrayW<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo, ::Array<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo>*>& __get__curvedMeshInfos();
+  constexpr ::ArrayW<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo, ::Array<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo>*>& __cordl_internal_get__curvedMeshInfos();
 
-  constexpr ::ArrayW<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo, ::Array<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo>*> const& __get__curvedMeshInfos() const;
+  constexpr ::ArrayW<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo, ::Array<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo>*> const& __cordl_internal_get__curvedMeshInfos() const;
 
-  constexpr void __set__curvedMeshInfos(::ArrayW<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo, ::Array<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo>*> value);
+  constexpr void __cordl_internal_set__curvedMeshInfos(::ArrayW<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo, ::Array<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo>*> value);
 
-  constexpr ::HMUI::CurvedCanvasSettingsHelper*& __get__curvedCanvasSettingsHelper();
+  constexpr ::HMUI::CurvedCanvasSettingsHelper*& __cordl_internal_get__curvedCanvasSettingsHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedCanvasSettingsHelper*> const& __get__curvedCanvasSettingsHelper() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedCanvasSettingsHelper*> const& __cordl_internal_get__curvedCanvasSettingsHelper() const;
 
-  constexpr void __set__curvedCanvasSettingsHelper(::HMUI::CurvedCanvasSettingsHelper* value);
+  constexpr void __cordl_internal_set__curvedCanvasSettingsHelper(::HMUI::CurvedCanvasSettingsHelper* value);
 
   /// @brief Method get_useScriptableObjectColors, addr 0x211b864, size 0x8, virtual false, abstract: false, final false
   inline bool get_useScriptableObjectColors();
@@ -184,7 +184,7 @@ public:
   bool ____useScriptableObjectColors;
 
   /// @brief Field _colorSo, offset: 0x798, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSO* ____colorSo;
+  ::UnityW<::GlobalNamespace::ColorSO> ____colorSo;
 
   /// @brief Field _curvedMeshInfos, offset: 0x7a0, size: 0x8, def value: None
   ::ArrayW<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo, ::Array<::HMUI::__CurvedTextMeshPro__CurvedMeshInfo>*> ____curvedMeshInfos;

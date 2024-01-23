@@ -20,14 +20,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::EnumerableProxy);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1780))
 // CS Name: ::Org.BouncyCastle.Utilities.Collections::EnumerableProxy*
 class CORDL_TYPE EnumerableProxy : public ::System::Object {
 public:
   // Declarations
   /// @brief Field inner, offset 0x10, size 0x8
-  __declspec(property(get = __get_inner, put = __set_inner))::System::Collections::IEnumerable* inner;
+  __declspec(property(get = __cordl_internal_get_inner, put = __cordl_internal_set_inner))::System::Collections::IEnumerable* inner;
 
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
@@ -35,11 +35,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::IEnumerable*& __get_inner();
+  constexpr ::System::Collections::IEnumerable*& __cordl_internal_get_inner();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& __get_inner() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& __cordl_internal_get_inner() const;
 
-  constexpr void __set_inner(::System::Collections::IEnumerable* value);
+  constexpr void __cordl_internal_set_inner(::System::Collections::IEnumerable* value);
 
   static inline ::Org::BouncyCastle::Utilities::Collections::EnumerableProxy* New_ctor(::System::Collections::IEnumerable* inner);
 

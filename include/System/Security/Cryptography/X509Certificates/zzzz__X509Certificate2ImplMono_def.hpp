@@ -44,17 +44,18 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certifica
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8998))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8998))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8997))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Certificate2ImplMono*
 class CORDL_TYPE X509Certificate2ImplMono : public ::System::Security::Cryptography::X509Certificates::X509Certificate2ImplUnix {
 public:
   // Declarations
   /// @brief Field intermediateCerts, offset 0xb0, size 0x8
-  __declspec(property(get = __get_intermediateCerts, put = __set_intermediateCerts))::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* intermediateCerts;
+  __declspec(property(get = __cordl_internal_get_intermediateCerts,
+                      put = __cordl_internal_set_intermediateCerts))::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* intermediateCerts;
 
   /// @brief Field _cert, offset 0xb8, size 0x8
-  __declspec(property(get = __get__cert, put = __set__cert))::Mono::Security::X509::X509Certificate* _cert;
+  __declspec(property(get = __cordl_internal_get__cert, put = __cordl_internal_set__cert))::Mono::Security::X509::X509Certificate* _cert;
 
   /// @brief Field empty_error, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_empty_error, put = setStaticF_empty_error))::StringW empty_error;
@@ -74,17 +75,17 @@ public:
 
   __declspec(property(get = get_MonoCertificate))::Mono::Security::X509::X509Certificate* MonoCertificate;
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection*& __get_intermediateCerts();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection*& __cordl_internal_get_intermediateCerts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection*> const& __get_intermediateCerts() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection*> const& __cordl_internal_get_intermediateCerts() const;
 
-  constexpr void __set_intermediateCerts(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* value);
+  constexpr void __cordl_internal_set_intermediateCerts(::System::Security::Cryptography::X509Certificates::X509CertificateImplCollection* value);
 
-  constexpr ::Mono::Security::X509::X509Certificate*& __get__cert();
+  constexpr ::Mono::Security::X509::X509Certificate*& __cordl_internal_get__cert();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Certificate*> const& __get__cert() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509Certificate*> const& __cordl_internal_get__cert() const;
 
-  constexpr void __set__cert(::Mono::Security::X509::X509Certificate* value);
+  constexpr void __cordl_internal_set__cert(::Mono::Security::X509::X509Certificate* value);
 
   static inline void setStaticF_empty_error(::StringW value);
 

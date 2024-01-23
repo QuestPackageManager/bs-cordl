@@ -48,20 +48,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__EnvironmentShaderWarmup___Start_d__6);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3955))
 // CS Name: ::EnvironmentShaderWarmup::<Start>d__6*
 class CORDL_TYPE __EnvironmentShaderWarmup___Start_d__6 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::EnvironmentShaderWarmup* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::EnvironmentShaderWarmup> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -85,23 +85,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::EnvironmentShaderWarmup*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentShaderWarmup>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentShaderWarmup*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentShaderWarmup> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::EnvironmentShaderWarmup* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::EnvironmentShaderWarmup> value);
 
   static inline ::GlobalNamespace::__EnvironmentShaderWarmup___Start_d__6* New_ctor(int32_t __1__state);
 
@@ -144,7 +144,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::EnvironmentShaderWarmup* _____4__this;
+  ::UnityW<::GlobalNamespace::EnvironmentShaderWarmup> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -162,7 +162,7 @@ static_assert(offsetof(::GlobalNamespace::__EnvironmentShaderWarmup___Start_d__6
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3956))
 // CS Name: ::EnvironmentShaderWarmup*
 class CORDL_TYPE EnvironmentShaderWarmup : public ::UnityEngine::MonoBehaviour {
@@ -171,40 +171,40 @@ public:
   using _Start_d__6 = ::GlobalNamespace::__EnvironmentShaderWarmup___Start_d__6;
 
   /// @brief Field _materials, offset 0x18, size 0x8
-  __declspec(property(get = __get__materials, put = __set__materials))::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> _materials;
+  __declspec(property(get = __cordl_internal_get__materials, put = __cordl_internal_set__materials))::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> _materials;
 
   /// @brief Field _mainCamera, offset 0x20, size 0x8
-  __declspec(property(get = __get__mainCamera, put = __set__mainCamera))::GlobalNamespace::MainCamera* _mainCamera;
+  __declspec(property(get = __cordl_internal_get__mainCamera, put = __cordl_internal_set__mainCamera))::UnityW<::GlobalNamespace::MainCamera> _mainCamera;
 
   /// @brief Field _gameScenesManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
   /// @brief Field _parentingTransform, offset 0x30, size 0x8
-  __declspec(property(get = __get__parentingTransform, put = __set__parentingTransform))::UnityEngine::Transform* _parentingTransform;
+  __declspec(property(get = __cordl_internal_get__parentingTransform, put = __cordl_internal_set__parentingTransform))::UnityW<::UnityEngine::Transform> _parentingTransform;
 
-  constexpr ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>& __get__materials();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>& __cordl_internal_get__materials();
 
-  constexpr ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> const& __get__materials() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> const& __cordl_internal_get__materials() const;
 
-  constexpr void __set__materials(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> value);
+  constexpr void __cordl_internal_set__materials(::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> value);
 
-  constexpr ::GlobalNamespace::MainCamera*& __get__mainCamera();
+  constexpr ::UnityW<::GlobalNamespace::MainCamera>& __cordl_internal_get__mainCamera();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainCamera*> const& __get__mainCamera() const;
+  constexpr ::UnityW<::GlobalNamespace::MainCamera> const& __cordl_internal_get__mainCamera() const;
 
-  constexpr void __set__mainCamera(::GlobalNamespace::MainCamera* value);
+  constexpr void __cordl_internal_set__mainCamera(::UnityW<::GlobalNamespace::MainCamera> value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get__gameScenesManager();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get__gameScenesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
-  constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::UnityEngine::Transform*& __get__parentingTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__parentingTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__parentingTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__parentingTransform() const;
 
-  constexpr void __set__parentingTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__parentingTransform(::UnityW<::UnityEngine::Transform> value);
 
   /// @brief Method Start, addr 0x2216c44, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
@@ -229,16 +229,16 @@ protected:
 
 public:
   /// @brief Field _materials, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> ____materials;
+  ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> ____materials;
 
   /// @brief Field _mainCamera, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MainCamera* ____mainCamera;
+  ::UnityW<::GlobalNamespace::MainCamera> ____mainCamera;
 
   /// @brief Field _gameScenesManager, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
+  ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
   /// @brief Field _parentingTransform, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____parentingTransform;
+  ::UnityW<::UnityEngine::Transform> ____parentingTransform;
 
   /// @brief Field kNumberOfColumns offset 0xffffffff size 0x4
   static constexpr int32_t kNumberOfColumns{ static_cast<int32_t>(0x4) };

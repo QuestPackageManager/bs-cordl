@@ -23,19 +23,19 @@ MARK_REF_PTR_T(::UnityEngine::Terrain);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10187))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10187))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15466))
 // CS Name: ::UnityEngine::Terrain*
 class CORDL_TYPE Terrain : public ::UnityEngine::Behaviour {
 public:
   // Declarations
-  __declspec(property(get = get_terrainData, put = set_terrainData))::UnityEngine::TerrainData* terrainData;
+  __declspec(property(get = get_terrainData, put = set_terrainData))::UnityW<::UnityEngine::TerrainData> terrainData;
 
   __declspec(property(put = set_detailObjectDistance)) float_t detailObjectDistance;
 
   __declspec(property(put = set_detailObjectDensity)) float_t detailObjectDensity;
 
-  __declspec(property(get = get_materialTemplate, put = set_materialTemplate))::UnityEngine::Material* materialTemplate;
+  __declspec(property(get = get_materialTemplate, put = set_materialTemplate))::UnityW<::UnityEngine::Material> materialTemplate;
 
   __declspec(property(get = get_allowAutoConnect, put = set_allowAutoConnect)) bool allowAutoConnect;
 
@@ -44,7 +44,7 @@ public:
   __declspec(property(put = set_drawInstanced)) bool drawInstanced;
 
   /// @brief Method get_terrainData, addr 0x2d1bf3c, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::TerrainData* get_terrainData();
+  inline ::UnityW<::UnityEngine::TerrainData> get_terrainData();
 
   /// @brief Method set_terrainData, addr 0x2d1bf78, size 0x44, virtual false, abstract: false, final false
   inline void set_terrainData(::UnityEngine::TerrainData* value);
@@ -56,7 +56,7 @@ public:
   inline void set_detailObjectDensity(float_t value);
 
   /// @brief Method get_materialTemplate, addr 0x2d1c054, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* get_materialTemplate();
+  inline ::UnityW<::UnityEngine::Material> get_materialTemplate();
 
   /// @brief Method set_materialTemplate, addr 0x2d1c090, size 0x44, virtual false, abstract: false, final false
   inline void set_materialTemplate(::UnityEngine::Material* value);
@@ -80,7 +80,7 @@ public:
   inline void Flush();
 
   /// @brief Method get_activeTerrains, addr 0x2d1c27c, size 0x28, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::Terrain*, ::Array<::UnityEngine::Terrain*>*> get_activeTerrains();
+  static inline ::ArrayW<::UnityW<::UnityEngine::Terrain>, ::Array<::UnityW<::UnityEngine::Terrain>>*> get_activeTerrains();
 
   static inline ::UnityEngine::Terrain* New_ctor();
 

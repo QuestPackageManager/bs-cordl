@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePass);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14454))
 // CS Name: ::BloomPrePass::Mode
 struct CORDL_TYPE __BloomPrePass__Mode {
@@ -86,7 +86,7 @@ static_assert(offsetof(::GlobalNamespace::__BloomPrePass__Mode, value__) == 0x0,
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14454)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14454))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14455))
 // CS Name: ::BloomPrePass*
 class CORDL_TYPE BloomPrePass : public ::UnityEngine::MonoBehaviour {
@@ -95,49 +95,51 @@ public:
   using Mode = ::GlobalNamespace::__BloomPrePass__Mode;
 
   /// @brief Field _bloomPrepassRenderer, offset 0x18, size 0x8
-  __declspec(property(get = __get__bloomPrepassRenderer, put = __set__bloomPrepassRenderer))::GlobalNamespace::BloomPrePassRendererSO* _bloomPrepassRenderer;
+  __declspec(property(get = __cordl_internal_get__bloomPrepassRenderer, put = __cordl_internal_set__bloomPrepassRenderer))::UnityW<::GlobalNamespace::BloomPrePassRendererSO> _bloomPrepassRenderer;
 
   /// @brief Field _bloomPrePassEffectContainer, offset 0x20, size 0x8
-  __declspec(property(get = __get__bloomPrePassEffectContainer, put = __set__bloomPrePassEffectContainer))::GlobalNamespace::BloomPrePassEffectContainerSO* _bloomPrePassEffectContainer;
+  __declspec(property(get = __cordl_internal_get__bloomPrePassEffectContainer,
+                      put = __cordl_internal_set__bloomPrePassEffectContainer))::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> _bloomPrePassEffectContainer;
 
   /// @brief Field _bloomPrePassRenderData, offset 0x28, size 0x8
-  __declspec(property(get = __get__bloomPrePassRenderData, put = __set__bloomPrePassRenderData))::GlobalNamespace::BloomPrePassRenderDataSO* _bloomPrePassRenderData;
+  __declspec(property(get = __cordl_internal_get__bloomPrePassRenderData,
+                      put = __cordl_internal_set__bloomPrePassRenderData))::UnityW<::GlobalNamespace::BloomPrePassRenderDataSO> _bloomPrePassRenderData;
 
   /// @brief Field _mode, offset 0x30, size 0x4
-  __declspec(property(get = __get__mode, put = __set__mode))::GlobalNamespace::__BloomPrePass__Mode _mode;
+  __declspec(property(get = __cordl_internal_get__mode, put = __cordl_internal_set__mode))::GlobalNamespace::__BloomPrePass__Mode _mode;
 
   /// @brief Field _renderData, offset 0x38, size 0x8
-  __declspec(property(get = __get__renderData, put = __set__renderData))::GlobalNamespace::__BloomPrePassRenderDataSO__Data* _renderData;
+  __declspec(property(get = __cordl_internal_get__renderData, put = __cordl_internal_set__renderData))::GlobalNamespace::__BloomPrePassRenderDataSO__Data* _renderData;
 
-  constexpr ::GlobalNamespace::BloomPrePassRendererSO*& __get__bloomPrepassRenderer();
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererSO>& __cordl_internal_get__bloomPrepassRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassRendererSO*> const& __get__bloomPrepassRenderer() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> const& __cordl_internal_get__bloomPrepassRenderer() const;
 
-  constexpr void __set__bloomPrepassRenderer(::GlobalNamespace::BloomPrePassRendererSO* value);
+  constexpr void __cordl_internal_set__bloomPrepassRenderer(::UnityW<::GlobalNamespace::BloomPrePassRendererSO> value);
 
-  constexpr ::GlobalNamespace::BloomPrePassEffectContainerSO*& __get__bloomPrePassEffectContainer();
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>& __cordl_internal_get__bloomPrePassEffectContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassEffectContainerSO*> const& __get__bloomPrePassEffectContainer() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> const& __cordl_internal_get__bloomPrePassEffectContainer() const;
 
-  constexpr void __set__bloomPrePassEffectContainer(::GlobalNamespace::BloomPrePassEffectContainerSO* value);
+  constexpr void __cordl_internal_set__bloomPrePassEffectContainer(::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> value);
 
-  constexpr ::GlobalNamespace::BloomPrePassRenderDataSO*& __get__bloomPrePassRenderData();
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassRenderDataSO>& __cordl_internal_get__bloomPrePassRenderData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomPrePassRenderDataSO*> const& __get__bloomPrePassRenderData() const;
+  constexpr ::UnityW<::GlobalNamespace::BloomPrePassRenderDataSO> const& __cordl_internal_get__bloomPrePassRenderData() const;
 
-  constexpr void __set__bloomPrePassRenderData(::GlobalNamespace::BloomPrePassRenderDataSO* value);
+  constexpr void __cordl_internal_set__bloomPrePassRenderData(::UnityW<::GlobalNamespace::BloomPrePassRenderDataSO> value);
 
-  constexpr ::GlobalNamespace::__BloomPrePass__Mode& __get__mode();
+  constexpr ::GlobalNamespace::__BloomPrePass__Mode& __cordl_internal_get__mode();
 
-  constexpr ::GlobalNamespace::__BloomPrePass__Mode const& __get__mode() const;
+  constexpr ::GlobalNamespace::__BloomPrePass__Mode const& __cordl_internal_get__mode() const;
 
-  constexpr void __set__mode(::GlobalNamespace::__BloomPrePass__Mode value);
+  constexpr void __cordl_internal_set__mode(::GlobalNamespace::__BloomPrePass__Mode value);
 
-  constexpr ::GlobalNamespace::__BloomPrePassRenderDataSO__Data*& __get__renderData();
+  constexpr ::GlobalNamespace::__BloomPrePassRenderDataSO__Data*& __cordl_internal_get__renderData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BloomPrePassRenderDataSO__Data*> const& __get__renderData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BloomPrePassRenderDataSO__Data*> const& __cordl_internal_get__renderData() const;
 
-  constexpr void __set__renderData(::GlobalNamespace::__BloomPrePassRenderDataSO__Data* value);
+  constexpr void __cordl_internal_set__renderData(::GlobalNamespace::__BloomPrePassRenderDataSO__Data* value);
 
   /// @brief Method Awake, addr 0x2102840, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
@@ -177,13 +179,13 @@ protected:
 
 public:
   /// @brief Field _bloomPrepassRenderer, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BloomPrePassRendererSO* ____bloomPrepassRenderer;
+  ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> ____bloomPrepassRenderer;
 
   /// @brief Field _bloomPrePassEffectContainer, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BloomPrePassEffectContainerSO* ____bloomPrePassEffectContainer;
+  ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> ____bloomPrePassEffectContainer;
 
   /// @brief Field _bloomPrePassRenderData, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::BloomPrePassRenderDataSO* ____bloomPrePassRenderData;
+  ::UnityW<::GlobalNamespace::BloomPrePassRenderDataSO> ____bloomPrePassRenderData;
 
   /// @brief Field _mode, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::__BloomPrePass__Mode ____mode;

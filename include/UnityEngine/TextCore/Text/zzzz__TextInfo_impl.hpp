@@ -15,9 +15,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x134;
   constexpr static std::size_t addrs = 0x2d47fa8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextInfo*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -28,9 +28,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x2d480dc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextInfo*>::get(), "Clear",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -41,10 +41,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x2d48138;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextInfo*>::get(), "ClearMeshInfo", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextInfo*>::get(), "ClearMeshInfo",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -55,190 +55,192 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x16c;
   constexpr static std::size_t addrs = 0x2d481e4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextInfo*>::get(), "ClearLineInfo",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::TextCore::Text::TextInfo::__get_characterCount() {
+constexpr int32_t& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_characterCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characterCount;
 }
-constexpr int32_t const& UnityEngine::TextCore::Text::TextInfo::__get_characterCount() const {
+constexpr int32_t const& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_characterCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___characterCount;
 }
-constexpr void UnityEngine::TextCore::Text::TextInfo::__set_characterCount(int32_t value) {
+constexpr void UnityEngine::TextCore::Text::TextInfo::__cordl_internal_set_characterCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___characterCount = value;
 }
-constexpr int32_t& UnityEngine::TextCore::Text::TextInfo::__get_spriteCount() {
+constexpr int32_t& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_spriteCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spriteCount;
 }
-constexpr int32_t const& UnityEngine::TextCore::Text::TextInfo::__get_spriteCount() const {
+constexpr int32_t const& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_spriteCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spriteCount;
 }
-constexpr void UnityEngine::TextCore::Text::TextInfo::__set_spriteCount(int32_t value) {
+constexpr void UnityEngine::TextCore::Text::TextInfo::__cordl_internal_set_spriteCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___spriteCount = value;
 }
-constexpr int32_t& UnityEngine::TextCore::Text::TextInfo::__get_spaceCount() {
+constexpr int32_t& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_spaceCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spaceCount;
 }
-constexpr int32_t const& UnityEngine::TextCore::Text::TextInfo::__get_spaceCount() const {
+constexpr int32_t const& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_spaceCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spaceCount;
 }
-constexpr void UnityEngine::TextCore::Text::TextInfo::__set_spaceCount(int32_t value) {
+constexpr void UnityEngine::TextCore::Text::TextInfo::__cordl_internal_set_spaceCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___spaceCount = value;
 }
-constexpr int32_t& UnityEngine::TextCore::Text::TextInfo::__get_wordCount() {
+constexpr int32_t& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_wordCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wordCount;
 }
-constexpr int32_t const& UnityEngine::TextCore::Text::TextInfo::__get_wordCount() const {
+constexpr int32_t const& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_wordCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wordCount;
 }
-constexpr void UnityEngine::TextCore::Text::TextInfo::__set_wordCount(int32_t value) {
+constexpr void UnityEngine::TextCore::Text::TextInfo::__cordl_internal_set_wordCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___wordCount = value;
 }
-constexpr int32_t& UnityEngine::TextCore::Text::TextInfo::__get_linkCount() {
+constexpr int32_t& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_linkCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___linkCount;
 }
-constexpr int32_t const& UnityEngine::TextCore::Text::TextInfo::__get_linkCount() const {
+constexpr int32_t const& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_linkCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___linkCount;
 }
-constexpr void UnityEngine::TextCore::Text::TextInfo::__set_linkCount(int32_t value) {
+constexpr void UnityEngine::TextCore::Text::TextInfo::__cordl_internal_set_linkCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___linkCount = value;
 }
-constexpr int32_t& UnityEngine::TextCore::Text::TextInfo::__get_lineCount() {
+constexpr int32_t& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_lineCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineCount;
 }
-constexpr int32_t const& UnityEngine::TextCore::Text::TextInfo::__get_lineCount() const {
+constexpr int32_t const& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_lineCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineCount;
 }
-constexpr void UnityEngine::TextCore::Text::TextInfo::__set_lineCount(int32_t value) {
+constexpr void UnityEngine::TextCore::Text::TextInfo::__cordl_internal_set_lineCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lineCount = value;
 }
-constexpr int32_t& UnityEngine::TextCore::Text::TextInfo::__get_pageCount() {
+constexpr int32_t& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_pageCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pageCount;
 }
-constexpr int32_t const& UnityEngine::TextCore::Text::TextInfo::__get_pageCount() const {
+constexpr int32_t const& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_pageCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pageCount;
 }
-constexpr void UnityEngine::TextCore::Text::TextInfo::__set_pageCount(int32_t value) {
+constexpr void UnityEngine::TextCore::Text::TextInfo::__cordl_internal_set_pageCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pageCount = value;
 }
-constexpr int32_t& UnityEngine::TextCore::Text::TextInfo::__get_materialCount() {
+constexpr int32_t& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_materialCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___materialCount;
 }
-constexpr int32_t const& UnityEngine::TextCore::Text::TextInfo::__get_materialCount() const {
+constexpr int32_t const& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_materialCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___materialCount;
 }
-constexpr void UnityEngine::TextCore::Text::TextInfo::__set_materialCount(int32_t value) {
+constexpr void UnityEngine::TextCore::Text::TextInfo::__cordl_internal_set_materialCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___materialCount = value;
 }
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo, ::Array<::UnityEngine::TextCore::Text::TextElementInfo>*>& UnityEngine::TextCore::Text::TextInfo::__get_textElementInfo() {
+constexpr ::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo, ::Array<::UnityEngine::TextCore::Text::TextElementInfo>*>&
+UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_textElementInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textElementInfo;
 }
 constexpr ::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo, ::Array<::UnityEngine::TextCore::Text::TextElementInfo>*> const&
-UnityEngine::TextCore::Text::TextInfo::__get_textElementInfo() const {
+UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_textElementInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___textElementInfo;
 }
-constexpr void UnityEngine::TextCore::Text::TextInfo::__set_textElementInfo(::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo, ::Array<::UnityEngine::TextCore::Text::TextElementInfo>*> value) {
+constexpr void
+UnityEngine::TextCore::Text::TextInfo::__cordl_internal_set_textElementInfo(::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo, ::Array<::UnityEngine::TextCore::Text::TextElementInfo>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___textElementInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::WordInfo, ::Array<::UnityEngine::TextCore::Text::WordInfo>*>& UnityEngine::TextCore::Text::TextInfo::__get_wordInfo() {
+constexpr ::ArrayW<::UnityEngine::TextCore::Text::WordInfo, ::Array<::UnityEngine::TextCore::Text::WordInfo>*>& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_wordInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wordInfo;
 }
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::WordInfo, ::Array<::UnityEngine::TextCore::Text::WordInfo>*> const& UnityEngine::TextCore::Text::TextInfo::__get_wordInfo() const {
+constexpr ::ArrayW<::UnityEngine::TextCore::Text::WordInfo, ::Array<::UnityEngine::TextCore::Text::WordInfo>*> const& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_wordInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wordInfo;
 }
-constexpr void UnityEngine::TextCore::Text::TextInfo::__set_wordInfo(::ArrayW<::UnityEngine::TextCore::Text::WordInfo, ::Array<::UnityEngine::TextCore::Text::WordInfo>*> value) {
+constexpr void UnityEngine::TextCore::Text::TextInfo::__cordl_internal_set_wordInfo(::ArrayW<::UnityEngine::TextCore::Text::WordInfo, ::Array<::UnityEngine::TextCore::Text::WordInfo>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___wordInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::LinkInfo, ::Array<::UnityEngine::TextCore::Text::LinkInfo>*>& UnityEngine::TextCore::Text::TextInfo::__get_linkInfo() {
+constexpr ::ArrayW<::UnityEngine::TextCore::Text::LinkInfo, ::Array<::UnityEngine::TextCore::Text::LinkInfo>*>& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_linkInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___linkInfo;
 }
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::LinkInfo, ::Array<::UnityEngine::TextCore::Text::LinkInfo>*> const& UnityEngine::TextCore::Text::TextInfo::__get_linkInfo() const {
+constexpr ::ArrayW<::UnityEngine::TextCore::Text::LinkInfo, ::Array<::UnityEngine::TextCore::Text::LinkInfo>*> const& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_linkInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___linkInfo;
 }
-constexpr void UnityEngine::TextCore::Text::TextInfo::__set_linkInfo(::ArrayW<::UnityEngine::TextCore::Text::LinkInfo, ::Array<::UnityEngine::TextCore::Text::LinkInfo>*> value) {
+constexpr void UnityEngine::TextCore::Text::TextInfo::__cordl_internal_set_linkInfo(::ArrayW<::UnityEngine::TextCore::Text::LinkInfo, ::Array<::UnityEngine::TextCore::Text::LinkInfo>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___linkInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::LineInfo, ::Array<::UnityEngine::TextCore::Text::LineInfo>*>& UnityEngine::TextCore::Text::TextInfo::__get_lineInfo() {
+constexpr ::ArrayW<::UnityEngine::TextCore::Text::LineInfo, ::Array<::UnityEngine::TextCore::Text::LineInfo>*>& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_lineInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineInfo;
 }
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::LineInfo, ::Array<::UnityEngine::TextCore::Text::LineInfo>*> const& UnityEngine::TextCore::Text::TextInfo::__get_lineInfo() const {
+constexpr ::ArrayW<::UnityEngine::TextCore::Text::LineInfo, ::Array<::UnityEngine::TextCore::Text::LineInfo>*> const& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_lineInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lineInfo;
 }
-constexpr void UnityEngine::TextCore::Text::TextInfo::__set_lineInfo(::ArrayW<::UnityEngine::TextCore::Text::LineInfo, ::Array<::UnityEngine::TextCore::Text::LineInfo>*> value) {
+constexpr void UnityEngine::TextCore::Text::TextInfo::__cordl_internal_set_lineInfo(::ArrayW<::UnityEngine::TextCore::Text::LineInfo, ::Array<::UnityEngine::TextCore::Text::LineInfo>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lineInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::PageInfo, ::Array<::UnityEngine::TextCore::Text::PageInfo>*>& UnityEngine::TextCore::Text::TextInfo::__get_pageInfo() {
+constexpr ::ArrayW<::UnityEngine::TextCore::Text::PageInfo, ::Array<::UnityEngine::TextCore::Text::PageInfo>*>& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_pageInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pageInfo;
 }
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::PageInfo, ::Array<::UnityEngine::TextCore::Text::PageInfo>*> const& UnityEngine::TextCore::Text::TextInfo::__get_pageInfo() const {
+constexpr ::ArrayW<::UnityEngine::TextCore::Text::PageInfo, ::Array<::UnityEngine::TextCore::Text::PageInfo>*> const& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_pageInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pageInfo;
 }
-constexpr void UnityEngine::TextCore::Text::TextInfo::__set_pageInfo(::ArrayW<::UnityEngine::TextCore::Text::PageInfo, ::Array<::UnityEngine::TextCore::Text::PageInfo>*> value) {
+constexpr void UnityEngine::TextCore::Text::TextInfo::__cordl_internal_set_pageInfo(::ArrayW<::UnityEngine::TextCore::Text::PageInfo, ::Array<::UnityEngine::TextCore::Text::PageInfo>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pageInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::MeshInfo, ::Array<::UnityEngine::TextCore::Text::MeshInfo>*>& UnityEngine::TextCore::Text::TextInfo::__get_meshInfo() {
+constexpr ::ArrayW<::UnityEngine::TextCore::Text::MeshInfo, ::Array<::UnityEngine::TextCore::Text::MeshInfo>*>& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_meshInfo() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___meshInfo;
 }
-constexpr ::ArrayW<::UnityEngine::TextCore::Text::MeshInfo, ::Array<::UnityEngine::TextCore::Text::MeshInfo>*> const& UnityEngine::TextCore::Text::TextInfo::__get_meshInfo() const {
+constexpr ::ArrayW<::UnityEngine::TextCore::Text::MeshInfo, ::Array<::UnityEngine::TextCore::Text::MeshInfo>*> const& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_meshInfo() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___meshInfo;
 }
-constexpr void UnityEngine::TextCore::Text::TextInfo::__set_meshInfo(::ArrayW<::UnityEngine::TextCore::Text::MeshInfo, ::Array<::UnityEngine::TextCore::Text::MeshInfo>*> value) {
+constexpr void UnityEngine::TextCore::Text::TextInfo::__cordl_internal_set_meshInfo(::ArrayW<::UnityEngine::TextCore::Text::MeshInfo, ::Array<::UnityEngine::TextCore::Text::MeshInfo>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___meshInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& UnityEngine::TextCore::Text::TextInfo::__get_isDirty() {
+constexpr bool& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_isDirty() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isDirty;
 }
-constexpr bool const& UnityEngine::TextCore::Text::TextInfo::__get_isDirty() const {
+constexpr bool const& UnityEngine::TextCore::Text::TextInfo::__cordl_internal_get_isDirty() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isDirty;
 }
-constexpr void UnityEngine::TextCore::Text::TextInfo::__set_isDirty(bool value) {
+constexpr void UnityEngine::TextCore::Text::TextInfo::__cordl_internal_set_isDirty(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isDirty = value;
 }
@@ -257,47 +259,47 @@ inline ::UnityEngine::Vector2 UnityEngine::TextCore::Text::TextInfo::getStaticF_
   return ::cordl_internals::getStaticField<::UnityEngine::Vector2, "s_InfinityVectorNegative", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextInfo*>::get>();
 }
 inline ::UnityEngine::TextCore::Text::TextInfo* UnityEngine::TextCore::Text::TextInfo::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::TextCore::Text::TextInfo*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::TextCore::Text::TextInfo*>());
 }
 inline void UnityEngine::TextCore::Text::TextInfo::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextInfo*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::TextCore::Text::TextInfo::Clear() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextInfo*>::get(), "Clear",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::TextCore::Text::TextInfo::ClearMeshInfo(bool updateMesh) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextInfo*>::get(), "ClearMeshInfo", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextInfo*>::get(), "ClearMeshInfo",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, updateMesh);
 }
 inline void UnityEngine::TextCore::Text::TextInfo::ClearLineInfo() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextInfo*>::get(), "ClearLineInfo",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline void UnityEngine::TextCore::Text::TextInfo::Resize(ByRef<::ArrayW<T, ::Array<T>*>> array, int32_t size) {
   static auto* ___internal_method_base =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextInfo*>::get(), "Resize",
-                                               std::vector<Il2CppClass*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T, ::Array<T>*>>>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T, ::Array<T>*>>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   static auto* ___internal_method =
-      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::vector<Il2CppClass*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, size);
 }
 template <typename T> inline void UnityEngine::TextCore::Text::TextInfo::Resize(ByRef<::ArrayW<T, ::Array<T>*>> array, int32_t size, bool isBlockAllocated) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextInfo*>::get(), "Resize",
-      std::vector<Il2CppClass*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T, ::Array<T>*>>>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<T, ::Array<T>*>>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   static auto* ___internal_method =
-      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::vector<Il2CppClass*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, array, size, isBlockAllocated);
 }
 // Ctor Parameters []

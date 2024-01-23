@@ -89,29 +89,29 @@ MARK_VAL_T(::GlobalNamespace::__LevelCollectionViewController___SongPlayerCrossf
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5658))
 // CS Name: ::LevelCollectionViewController::<>c__DisplayClass24_0*
 class CORDL_TYPE __LevelCollectionViewController____c__DisplayClass24_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::LevelCollectionViewController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::LevelCollectionViewController> __4__this;
 
   /// @brief Field level, offset 0x18, size 0x8
-  __declspec(property(get = __get_level, put = __set_level))::GlobalNamespace::IPreviewBeatmapLevel* level;
+  __declspec(property(get = __cordl_internal_get_level, put = __cordl_internal_set_level))::GlobalNamespace::IPreviewBeatmapLevel* level;
 
-  constexpr ::GlobalNamespace::LevelCollectionViewController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::LevelCollectionViewController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelCollectionViewController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::LevelCollectionViewController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::LevelCollectionViewController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::LevelCollectionViewController> value);
 
-  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __get_level();
+  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __cordl_internal_get_level();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __get_level() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __cordl_internal_get_level() const;
 
-  constexpr void __set_level(::GlobalNamespace::IPreviewBeatmapLevel* value);
+  constexpr void __cordl_internal_set_level(::GlobalNamespace::IPreviewBeatmapLevel* value);
 
   static inline ::GlobalNamespace::__LevelCollectionViewController____c__DisplayClass24_0* New_ctor();
 
@@ -136,7 +136,7 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::LevelCollectionViewController* _____4__this;
+  ::UnityW<::GlobalNamespace::LevelCollectionViewController> _____4__this;
 
   /// @brief Field level, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IPreviewBeatmapLevel* ___level;
@@ -155,8 +155,8 @@ static_assert(offsetof(::GlobalNamespace::__LevelCollectionViewController____c__
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(15594)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5659)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(15594)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5659)) CS Name:
 // ::LevelCollectionViewController::<SongPlayerCrossfadeToLevelAsync>d__24
 struct CORDL_TYPE __LevelCollectionViewController___SongPlayerCrossfadeToLevelAsync_d__24 {
 public:
@@ -174,14 +174,15 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::LevelCollectionViewController*", modifiers:
-  // "", def_value: None }, CppParam { name: "level", ty: "::GlobalNamespace::IPreviewBeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelCollectionViewController>",
+  // modifiers: "", def_value: None }, CppParam { name: "level", ty: "::GlobalNamespace::IPreviewBeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty:
   // "::GlobalNamespace::__LevelCollectionViewController____c__DisplayClass24_0*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AudioClip*>", modifiers: "", def_value: None }]
+  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>>", modifiers: "", def_value: None }]
   constexpr __LevelCollectionViewController___SongPlayerCrossfadeToLevelAsync_d__24(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                                    ::GlobalNamespace::LevelCollectionViewController* __4__this, ::GlobalNamespace::IPreviewBeatmapLevel* level,
+                                                                                    ::UnityW<::GlobalNamespace::LevelCollectionViewController> __4__this,
+                                                                                    ::GlobalNamespace::IPreviewBeatmapLevel* level,
                                                                                     ::GlobalNamespace::__LevelCollectionViewController____c__DisplayClass24_0* __8__1,
-                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AudioClip*> __u__1) noexcept;
+                                                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -194,7 +195,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::LevelCollectionViewController* __4__this;
+  ::UnityW<::GlobalNamespace::LevelCollectionViewController> __4__this;
 
   /// @brief Field level, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::IPreviewBeatmapLevel* level;
@@ -203,7 +204,7 @@ public:
   ::GlobalNamespace::__LevelCollectionViewController____c__DisplayClass24_0* __8__1;
 
   /// @brief Field <>u__1, offset: 0x40, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AudioClip*> __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__1;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -230,7 +231,7 @@ static_assert(offsetof(::GlobalNamespace::__LevelCollectionViewController___Song
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5660))
 // CS Name: ::LevelCollectionViewController*
 class CORDL_TYPE LevelCollectionViewController : public ::HMUI::ViewController {
@@ -241,144 +242,149 @@ public:
   using __c__DisplayClass24_0 = ::GlobalNamespace::__LevelCollectionViewController____c__DisplayClass24_0;
 
   /// @brief Field _levelCollectionTableView, offset 0x70, size 0x8
-  __declspec(property(get = __get__levelCollectionTableView, put = __set__levelCollectionTableView))::GlobalNamespace::LevelCollectionTableView* _levelCollectionTableView;
+  __declspec(property(get = __cordl_internal_get__levelCollectionTableView,
+                      put = __cordl_internal_set__levelCollectionTableView))::UnityW<::GlobalNamespace::LevelCollectionTableView> _levelCollectionTableView;
 
   /// @brief Field _noDataInfoContainer, offset 0x78, size 0x8
-  __declspec(property(get = __get__noDataInfoContainer, put = __set__noDataInfoContainer))::UnityEngine::RectTransform* _noDataInfoContainer;
+  __declspec(property(get = __cordl_internal_get__noDataInfoContainer, put = __cordl_internal_set__noDataInfoContainer))::UnityW<::UnityEngine::RectTransform> _noDataInfoContainer;
 
   /// @brief Field _playerDataModel, offset 0x80, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _container, offset 0x88, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _additionalContentModel, offset 0x90, size 0x8
-  __declspec(property(get = __get__additionalContentModel, put = __set__additionalContentModel))::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
+  __declspec(property(get = __cordl_internal_get__additionalContentModel, put = __cordl_internal_set__additionalContentModel))::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
 
   /// @brief Field _songPreviewPlayer, offset 0x98, size 0x8
-  __declspec(property(get = __get__songPreviewPlayer, put = __set__songPreviewPlayer))::GlobalNamespace::SongPreviewPlayer* _songPreviewPlayer;
+  __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer))::UnityW<::GlobalNamespace::SongPreviewPlayer> _songPreviewPlayer;
 
   /// @brief Field _perceivedLoudnessPerLevelModel, offset 0xa0, size 0x8
-  __declspec(property(get = __get__perceivedLoudnessPerLevelModel, put = __set__perceivedLoudnessPerLevelModel))::GlobalNamespace::PerceivedLoudnessPerLevelModel* _perceivedLoudnessPerLevelModel;
+  __declspec(property(get = __cordl_internal_get__perceivedLoudnessPerLevelModel,
+                      put = __cordl_internal_set__perceivedLoudnessPerLevelModel))::GlobalNamespace::PerceivedLoudnessPerLevelModel* _perceivedLoudnessPerLevelModel;
 
   /// @brief Field _audioClipAsyncLoader, offset 0xa8, size 0x8
-  __declspec(property(get = __get__audioClipAsyncLoader, put = __set__audioClipAsyncLoader))::GlobalNamespace::AudioClipAsyncLoader* _audioClipAsyncLoader;
+  __declspec(property(get = __cordl_internal_get__audioClipAsyncLoader, put = __cordl_internal_set__audioClipAsyncLoader))::GlobalNamespace::AudioClipAsyncLoader* _audioClipAsyncLoader;
 
   /// @brief Field didSelectLevelEvent, offset 0xb0, size 0x8
-  __declspec(property(get = __get_didSelectLevelEvent,
-                      put = __set_didSelectLevelEvent))::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::IPreviewBeatmapLevel*>* didSelectLevelEvent;
+  __declspec(property(
+      get = __cordl_internal_get_didSelectLevelEvent,
+      put = __cordl_internal_set_didSelectLevelEvent))::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::IPreviewBeatmapLevel*>* didSelectLevelEvent;
 
   /// @brief Field didSelectHeaderEvent, offset 0xb8, size 0x8
-  __declspec(property(get = __get_didSelectHeaderEvent, put = __set_didSelectHeaderEvent))::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>* didSelectHeaderEvent;
+  __declspec(property(get = __cordl_internal_get_didSelectHeaderEvent,
+                      put = __cordl_internal_set_didSelectHeaderEvent))::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* didSelectHeaderEvent;
 
   /// @brief Field _showHeader, offset 0xc0, size 0x1
-  __declspec(property(get = __get__showHeader, put = __set__showHeader)) bool _showHeader;
+  __declspec(property(get = __cordl_internal_get__showHeader, put = __cordl_internal_set__showHeader)) bool _showHeader;
 
   /// @brief Field _songPlayerCrossFadingToLevelId, offset 0xc8, size 0x8
-  __declspec(property(get = __get__songPlayerCrossFadingToLevelId, put = __set__songPlayerCrossFadingToLevelId))::StringW _songPlayerCrossFadingToLevelId;
+  __declspec(property(get = __cordl_internal_get__songPlayerCrossFadingToLevelId, put = __cordl_internal_set__songPlayerCrossFadingToLevelId))::StringW _songPlayerCrossFadingToLevelId;
 
   /// @brief Field _noDataInfoGO, offset 0xd0, size 0x8
-  __declspec(property(get = __get__noDataInfoGO, put = __set__noDataInfoGO))::UnityEngine::GameObject* _noDataInfoGO;
+  __declspec(property(get = __cordl_internal_get__noDataInfoGO, put = __cordl_internal_set__noDataInfoGO))::UnityW<::UnityEngine::GameObject> _noDataInfoGO;
 
   /// @brief Field _previewBeatmapLevelToBeSelected, offset 0xd8, size 0x8
-  __declspec(property(get = __get__previewBeatmapLevelToBeSelected, put = __set__previewBeatmapLevelToBeSelected))::GlobalNamespace::IPreviewBeatmapLevel* _previewBeatmapLevelToBeSelected;
+  __declspec(property(get = __cordl_internal_get__previewBeatmapLevelToBeSelected,
+                      put = __cordl_internal_set__previewBeatmapLevelToBeSelected))::GlobalNamespace::IPreviewBeatmapLevel* _previewBeatmapLevelToBeSelected;
 
-  constexpr ::GlobalNamespace::LevelCollectionTableView*& __get__levelCollectionTableView();
+  constexpr ::UnityW<::GlobalNamespace::LevelCollectionTableView>& __cordl_internal_get__levelCollectionTableView();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelCollectionTableView*> const& __get__levelCollectionTableView() const;
+  constexpr ::UnityW<::GlobalNamespace::LevelCollectionTableView> const& __cordl_internal_get__levelCollectionTableView() const;
 
-  constexpr void __set__levelCollectionTableView(::GlobalNamespace::LevelCollectionTableView* value);
+  constexpr void __cordl_internal_set__levelCollectionTableView(::UnityW<::GlobalNamespace::LevelCollectionTableView> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__noDataInfoContainer();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__noDataInfoContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__noDataInfoContainer() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__noDataInfoContainer() const;
 
-  constexpr void __set__noDataInfoContainer(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__noDataInfoContainer(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::GlobalNamespace::IAdditionalContentModel*& __get__additionalContentModel();
+  constexpr ::GlobalNamespace::IAdditionalContentModel*& __cordl_internal_get__additionalContentModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const& __get__additionalContentModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const& __cordl_internal_get__additionalContentModel() const;
 
-  constexpr void __set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
+  constexpr void __cordl_internal_set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
 
-  constexpr ::GlobalNamespace::SongPreviewPlayer*& __get__songPreviewPlayer();
+  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer>& __cordl_internal_get__songPreviewPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPreviewPlayer*> const& __get__songPreviewPlayer() const;
+  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer> const& __cordl_internal_get__songPreviewPlayer() const;
 
-  constexpr void __set__songPreviewPlayer(::GlobalNamespace::SongPreviewPlayer* value);
+  constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::SongPreviewPlayer> value);
 
-  constexpr ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& __get__perceivedLoudnessPerLevelModel();
+  constexpr ::GlobalNamespace::PerceivedLoudnessPerLevelModel*& __cordl_internal_get__perceivedLoudnessPerLevelModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PerceivedLoudnessPerLevelModel*> const& __get__perceivedLoudnessPerLevelModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PerceivedLoudnessPerLevelModel*> const& __cordl_internal_get__perceivedLoudnessPerLevelModel() const;
 
-  constexpr void __set__perceivedLoudnessPerLevelModel(::GlobalNamespace::PerceivedLoudnessPerLevelModel* value);
+  constexpr void __cordl_internal_set__perceivedLoudnessPerLevelModel(::GlobalNamespace::PerceivedLoudnessPerLevelModel* value);
 
-  constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __get__audioClipAsyncLoader();
+  constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __cordl_internal_get__audioClipAsyncLoader();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioClipAsyncLoader*> const& __get__audioClipAsyncLoader() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioClipAsyncLoader*> const& __cordl_internal_get__audioClipAsyncLoader() const;
 
-  constexpr void __set__audioClipAsyncLoader(::GlobalNamespace::AudioClipAsyncLoader* value);
+  constexpr void __cordl_internal_set__audioClipAsyncLoader(::GlobalNamespace::AudioClipAsyncLoader* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::IPreviewBeatmapLevel*>*& __get_didSelectLevelEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::IPreviewBeatmapLevel*>*& __cordl_internal_get_didSelectLevelEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::IPreviewBeatmapLevel*>*> const&
-  __get_didSelectLevelEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::IPreviewBeatmapLevel*>*> const&
+  __cordl_internal_get_didSelectLevelEvent() const;
 
-  constexpr void __set_didSelectLevelEvent(::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
+  constexpr void __cordl_internal_set_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>*& __get_didSelectHeaderEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>*& __cordl_internal_get_didSelectHeaderEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>*> const& __get_didSelectHeaderEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>*> const& __cordl_internal_get_didSelectHeaderEvent() const;
 
-  constexpr void __set_didSelectHeaderEvent(::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>* value);
+  constexpr void __cordl_internal_set_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* value);
 
-  constexpr bool& __get__showHeader();
+  constexpr bool& __cordl_internal_get__showHeader();
 
-  constexpr bool const& __get__showHeader() const;
+  constexpr bool const& __cordl_internal_get__showHeader() const;
 
-  constexpr void __set__showHeader(bool value);
+  constexpr void __cordl_internal_set__showHeader(bool value);
 
-  constexpr ::StringW& __get__songPlayerCrossFadingToLevelId();
+  constexpr ::StringW& __cordl_internal_get__songPlayerCrossFadingToLevelId();
 
-  constexpr ::StringW const& __get__songPlayerCrossFadingToLevelId() const;
+  constexpr ::StringW const& __cordl_internal_get__songPlayerCrossFadingToLevelId() const;
 
-  constexpr void __set__songPlayerCrossFadingToLevelId(::StringW value);
+  constexpr void __cordl_internal_set__songPlayerCrossFadingToLevelId(::StringW value);
 
-  constexpr ::UnityEngine::GameObject*& __get__noDataInfoGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__noDataInfoGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__noDataInfoGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__noDataInfoGO() const;
 
-  constexpr void __set__noDataInfoGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__noDataInfoGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __get__previewBeatmapLevelToBeSelected();
+  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __cordl_internal_get__previewBeatmapLevelToBeSelected();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __get__previewBeatmapLevelToBeSelected() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __cordl_internal_get__previewBeatmapLevelToBeSelected() const;
 
-  constexpr void __set__previewBeatmapLevelToBeSelected(::GlobalNamespace::IPreviewBeatmapLevel* value);
+  constexpr void __cordl_internal_set__previewBeatmapLevelToBeSelected(::GlobalNamespace::IPreviewBeatmapLevel* value);
 
   /// @brief Method add_didSelectLevelEvent, addr 0x22b9dec, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectLevelEvent(::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
+  inline void add_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
 
   /// @brief Method remove_didSelectLevelEvent, addr 0x22ba6a4, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectLevelEvent(::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
+  inline void remove_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
 
   /// @brief Method add_didSelectHeaderEvent, addr 0x22b9e9c, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectHeaderEvent(::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>* value);
+  inline void add_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* value);
 
   /// @brief Method remove_didSelectHeaderEvent, addr 0x22ba754, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectHeaderEvent(::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>* value);
+  inline void remove_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* value);
 
   /// @brief Method SetData, addr 0x22bac24, size 0x3a8, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::IBeatmapLevelCollection* beatmapLevelCollection, ::StringW headerText, ::UnityEngine::Sprite* headerSprite, bool sortLevels, bool sortPreviewBeatmapLevels,
@@ -428,13 +434,13 @@ protected:
 
 public:
   /// @brief Field _levelCollectionTableView, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::LevelCollectionTableView* ____levelCollectionTableView;
+  ::UnityW<::GlobalNamespace::LevelCollectionTableView> ____levelCollectionTableView;
 
   /// @brief Field _noDataInfoContainer, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____noDataInfoContainer;
+  ::UnityW<::UnityEngine::RectTransform> ____noDataInfoContainer;
 
   /// @brief Field _playerDataModel, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _container, offset: 0x88, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;
@@ -443,7 +449,7 @@ public:
   ::GlobalNamespace::IAdditionalContentModel* ____additionalContentModel;
 
   /// @brief Field _songPreviewPlayer, offset: 0x98, size: 0x8, def value: None
-  ::GlobalNamespace::SongPreviewPlayer* ____songPreviewPlayer;
+  ::UnityW<::GlobalNamespace::SongPreviewPlayer> ____songPreviewPlayer;
 
   /// @brief Field _perceivedLoudnessPerLevelModel, offset: 0xa0, size: 0x8, def value: None
   ::GlobalNamespace::PerceivedLoudnessPerLevelModel* ____perceivedLoudnessPerLevelModel;
@@ -452,10 +458,10 @@ public:
   ::GlobalNamespace::AudioClipAsyncLoader* ____audioClipAsyncLoader;
 
   /// @brief Field didSelectLevelEvent, offset: 0xb0, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::LevelCollectionViewController*, ::GlobalNamespace::IPreviewBeatmapLevel*>* ___didSelectLevelEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::IPreviewBeatmapLevel*>* ___didSelectLevelEvent;
 
   /// @brief Field didSelectHeaderEvent, offset: 0xb8, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::LevelCollectionViewController*>* ___didSelectHeaderEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* ___didSelectHeaderEvent;
 
   /// @brief Field _showHeader, offset: 0xc0, size: 0x1, def value: None
   bool ____showHeader;
@@ -464,7 +470,7 @@ public:
   ::StringW ____songPlayerCrossFadingToLevelId;
 
   /// @brief Field _noDataInfoGO, offset: 0xd0, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____noDataInfoGO;
+  ::UnityW<::UnityEngine::GameObject> ____noDataInfoGO;
 
   /// @brief Field _previewBeatmapLevelToBeSelected, offset: 0xd8, size: 0x8, def value: None
   ::GlobalNamespace::IPreviewBeatmapLevel* ____previewBeatmapLevelToBeSelected;

@@ -37,30 +37,30 @@ MARK_REF_PTR_T(::GlobalNamespace::ComboController);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5311))
 // CS Name: ::ComboController*
 class CORDL_TYPE ComboController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _playerHeadAndObstacleInteraction, offset 0x18, size 0x8
-  __declspec(property(get = __get__playerHeadAndObstacleInteraction,
-                      put = __set__playerHeadAndObstacleInteraction))::GlobalNamespace::PlayerHeadAndObstacleInteraction* _playerHeadAndObstacleInteraction;
+  __declspec(property(get = __cordl_internal_get__playerHeadAndObstacleInteraction,
+                      put = __cordl_internal_set__playerHeadAndObstacleInteraction))::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> _playerHeadAndObstacleInteraction;
 
   /// @brief Field _beatmapObjectManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapObjectManager, put = __set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
   /// @brief Field comboDidChangeEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_comboDidChangeEvent, put = __set_comboDidChangeEvent))::System::Action_1<int32_t>* comboDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_comboDidChangeEvent, put = __cordl_internal_set_comboDidChangeEvent))::System::Action_1<int32_t>* comboDidChangeEvent;
 
   /// @brief Field comboBreakingEventHappenedEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_comboBreakingEventHappenedEvent, put = __set_comboBreakingEventHappenedEvent))::System::Action* comboBreakingEventHappenedEvent;
+  __declspec(property(get = __cordl_internal_get_comboBreakingEventHappenedEvent, put = __cordl_internal_set_comboBreakingEventHappenedEvent))::System::Action* comboBreakingEventHappenedEvent;
 
   /// @brief Field _combo, offset 0x38, size 0x4
-  __declspec(property(get = __get__combo, put = __set__combo)) int32_t _combo;
+  __declspec(property(get = __cordl_internal_get__combo, put = __cordl_internal_set__combo)) int32_t _combo;
 
   /// @brief Field _maxCombo, offset 0x3c, size 0x4
-  __declspec(property(get = __get__maxCombo, put = __set__maxCombo)) int32_t _maxCombo;
+  __declspec(property(get = __cordl_internal_get__maxCombo, put = __cordl_internal_set__maxCombo)) int32_t _maxCombo;
 
   __declspec(property(get = get_maxCombo)) int32_t maxCombo;
 
@@ -70,41 +70,41 @@ public:
   /// @brief Convert to "::GlobalNamespace::IComboController"
   constexpr ::GlobalNamespace::IComboController* i___GlobalNamespace__IComboController() noexcept;
 
-  constexpr ::GlobalNamespace::PlayerHeadAndObstacleInteraction*& __get__playerHeadAndObstacleInteraction();
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>& __cordl_internal_get__playerHeadAndObstacleInteraction();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerHeadAndObstacleInteraction*> const& __get__playerHeadAndObstacleInteraction() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> const& __cordl_internal_get__playerHeadAndObstacleInteraction() const;
 
-  constexpr void __set__playerHeadAndObstacleInteraction(::GlobalNamespace::PlayerHeadAndObstacleInteraction* value);
+  constexpr void __cordl_internal_set__playerHeadAndObstacleInteraction(::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __get__beatmapObjectManager();
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __get__beatmapObjectManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  constexpr ::System::Action_1<int32_t>*& __get_comboDidChangeEvent();
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_comboDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __get_comboDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_comboDidChangeEvent() const;
 
-  constexpr void __set_comboDidChangeEvent(::System::Action_1<int32_t>* value);
+  constexpr void __cordl_internal_set_comboDidChangeEvent(::System::Action_1<int32_t>* value);
 
-  constexpr ::System::Action*& __get_comboBreakingEventHappenedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_comboBreakingEventHappenedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_comboBreakingEventHappenedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_comboBreakingEventHappenedEvent() const;
 
-  constexpr void __set_comboBreakingEventHappenedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_comboBreakingEventHappenedEvent(::System::Action* value);
 
-  constexpr int32_t& __get__combo();
+  constexpr int32_t& __cordl_internal_get__combo();
 
-  constexpr int32_t const& __get__combo() const;
+  constexpr int32_t const& __cordl_internal_get__combo() const;
 
-  constexpr void __set__combo(int32_t value);
+  constexpr void __cordl_internal_set__combo(int32_t value);
 
-  constexpr int32_t& __get__maxCombo();
+  constexpr int32_t& __cordl_internal_get__maxCombo();
 
-  constexpr int32_t const& __get__maxCombo() const;
+  constexpr int32_t const& __cordl_internal_get__maxCombo() const;
 
-  constexpr void __set__maxCombo(int32_t value);
+  constexpr void __cordl_internal_set__maxCombo(int32_t value);
 
   /// @brief Method get_maxCombo, addr 0x2264d58, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxCombo();
@@ -156,7 +156,7 @@ protected:
 
 public:
   /// @brief Field _playerHeadAndObstacleInteraction, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerHeadAndObstacleInteraction* ____playerHeadAndObstacleInteraction;
+  ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> ____playerHeadAndObstacleInteraction;
 
   /// @brief Field _beatmapObjectManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;

@@ -169,84 +169,84 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__Task____c);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2781))
 // CS Name: ::Task::ContingentProperties*
 class CORDL_TYPE __Task__ContingentProperties : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_capturedContext, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_capturedContext, put = __set_m_capturedContext))::System::Threading::ExecutionContext* m_capturedContext;
+  __declspec(property(get = __cordl_internal_get_m_capturedContext, put = __cordl_internal_set_m_capturedContext))::System::Threading::ExecutionContext* m_capturedContext;
 
   /// @brief Field m_completionEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_completionEvent, put = __set_m_completionEvent))::System::Threading::ManualResetEventSlim* m_completionEvent;
+  __declspec(property(get = __cordl_internal_get_m_completionEvent, put = __cordl_internal_set_m_completionEvent))::System::Threading::ManualResetEventSlim* m_completionEvent;
 
   /// @brief Field m_exceptionsHolder, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_exceptionsHolder, put = __set_m_exceptionsHolder))::System::Threading::Tasks::TaskExceptionHolder* m_exceptionsHolder;
+  __declspec(property(get = __cordl_internal_get_m_exceptionsHolder, put = __cordl_internal_set_m_exceptionsHolder))::System::Threading::Tasks::TaskExceptionHolder* m_exceptionsHolder;
 
   /// @brief Field m_cancellationToken, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_cancellationToken, put = __set_m_cancellationToken))::System::Threading::CancellationToken m_cancellationToken;
+  __declspec(property(get = __cordl_internal_get_m_cancellationToken, put = __cordl_internal_set_m_cancellationToken))::System::Threading::CancellationToken m_cancellationToken;
 
   /// @brief Field m_cancellationRegistration, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_cancellationRegistration, put = __set_m_cancellationRegistration))::System::Object* m_cancellationRegistration;
+  __declspec(property(get = __cordl_internal_get_m_cancellationRegistration, put = __cordl_internal_set_m_cancellationRegistration))::System::Object* m_cancellationRegistration;
 
   /// @brief Field m_internalCancellationRequested, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_internalCancellationRequested, put = __set_m_internalCancellationRequested)) int32_t m_internalCancellationRequested;
+  __declspec(property(get = __cordl_internal_get_m_internalCancellationRequested, put = __cordl_internal_set_m_internalCancellationRequested)) int32_t m_internalCancellationRequested;
 
   /// @brief Field m_completionCountdown, offset 0x3c, size 0x4
-  __declspec(property(get = __get_m_completionCountdown, put = __set_m_completionCountdown)) int32_t m_completionCountdown;
+  __declspec(property(get = __cordl_internal_get_m_completionCountdown, put = __cordl_internal_set_m_completionCountdown)) int32_t m_completionCountdown;
 
   /// @brief Field m_exceptionalChildren, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_exceptionalChildren,
-                      put = __set_m_exceptionalChildren))::System::Collections::Generic::LowLevelListWithIList_1<::System::Threading::Tasks::Task*>* m_exceptionalChildren;
+  __declspec(property(get = __cordl_internal_get_m_exceptionalChildren,
+                      put = __cordl_internal_set_m_exceptionalChildren))::System::Collections::Generic::LowLevelListWithIList_1<::System::Threading::Tasks::Task*>* m_exceptionalChildren;
 
-  constexpr ::System::Threading::ExecutionContext*& __get_m_capturedContext();
+  constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get_m_capturedContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __get_m_capturedContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __cordl_internal_get_m_capturedContext() const;
 
-  constexpr void __set_m_capturedContext(::System::Threading::ExecutionContext* value);
+  constexpr void __cordl_internal_set_m_capturedContext(::System::Threading::ExecutionContext* value);
 
-  constexpr ::System::Threading::ManualResetEventSlim*& __get_m_completionEvent();
+  constexpr ::System::Threading::ManualResetEventSlim*& __cordl_internal_get_m_completionEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEventSlim*> const& __get_m_completionEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEventSlim*> const& __cordl_internal_get_m_completionEvent() const;
 
-  constexpr void __set_m_completionEvent(::System::Threading::ManualResetEventSlim* value);
+  constexpr void __cordl_internal_set_m_completionEvent(::System::Threading::ManualResetEventSlim* value);
 
-  constexpr ::System::Threading::Tasks::TaskExceptionHolder*& __get_m_exceptionsHolder();
+  constexpr ::System::Threading::Tasks::TaskExceptionHolder*& __cordl_internal_get_m_exceptionsHolder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskExceptionHolder*> const& __get_m_exceptionsHolder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskExceptionHolder*> const& __cordl_internal_get_m_exceptionsHolder() const;
 
-  constexpr void __set_m_exceptionsHolder(::System::Threading::Tasks::TaskExceptionHolder* value);
+  constexpr void __cordl_internal_set_m_exceptionsHolder(::System::Threading::Tasks::TaskExceptionHolder* value);
 
-  constexpr ::System::Threading::CancellationToken& __get_m_cancellationToken();
+  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_m_cancellationToken();
 
-  constexpr ::System::Threading::CancellationToken const& __get_m_cancellationToken() const;
+  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_m_cancellationToken() const;
 
-  constexpr void __set_m_cancellationToken(::System::Threading::CancellationToken value);
+  constexpr void __cordl_internal_set_m_cancellationToken(::System::Threading::CancellationToken value);
 
-  constexpr ::System::Object*& __get_m_cancellationRegistration();
+  constexpr ::System::Object*& __cordl_internal_get_m_cancellationRegistration();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_cancellationRegistration() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_cancellationRegistration() const;
 
-  constexpr void __set_m_cancellationRegistration(::System::Object* value);
+  constexpr void __cordl_internal_set_m_cancellationRegistration(::System::Object* value);
 
-  constexpr int32_t& __get_m_internalCancellationRequested();
+  constexpr int32_t& __cordl_internal_get_m_internalCancellationRequested();
 
-  constexpr int32_t const& __get_m_internalCancellationRequested() const;
+  constexpr int32_t const& __cordl_internal_get_m_internalCancellationRequested() const;
 
-  constexpr void __set_m_internalCancellationRequested(int32_t value);
+  constexpr void __cordl_internal_set_m_internalCancellationRequested(int32_t value);
 
-  constexpr int32_t& __get_m_completionCountdown();
+  constexpr int32_t& __cordl_internal_get_m_completionCountdown();
 
-  constexpr int32_t const& __get_m_completionCountdown() const;
+  constexpr int32_t const& __cordl_internal_get_m_completionCountdown() const;
 
-  constexpr void __set_m_completionCountdown(int32_t value);
+  constexpr void __cordl_internal_set_m_completionCountdown(int32_t value);
 
-  constexpr ::System::Collections::Generic::LowLevelListWithIList_1<::System::Threading::Tasks::Task*>*& __get_m_exceptionalChildren();
+  constexpr ::System::Collections::Generic::LowLevelListWithIList_1<::System::Threading::Tasks::Task*>*& __cordl_internal_get_m_exceptionalChildren();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LowLevelListWithIList_1<::System::Threading::Tasks::Task*>*> const& __get_m_exceptionalChildren() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LowLevelListWithIList_1<::System::Threading::Tasks::Task*>*> const& __cordl_internal_get_m_exceptionalChildren() const;
 
-  constexpr void __set_m_exceptionalChildren(::System::Collections::Generic::LowLevelListWithIList_1<::System::Threading::Tasks::Task*>* value);
+  constexpr void __cordl_internal_set_m_exceptionalChildren(::System::Collections::Generic::LowLevelListWithIList_1<::System::Threading::Tasks::Task*>* value);
 
   /// @brief Method SetCompleted, addr 0x26256a0, size 0x28, virtual false, abstract: false, final false
   inline void SetCompleted();
@@ -323,7 +323,7 @@ static_assert(offsetof(::System::Threading::Tasks::__Task__ContingentProperties,
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2678))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2678))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2782))
 // CS Name: ::Task::SetOnInvokeMres*
 class CORDL_TYPE __Task__SetOnInvokeMres : public ::System::Threading::ManualResetEventSlim {
@@ -372,7 +372,7 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__Task
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2786))
 // CS Name: ::Task::<>c*
 class CORDL_TYPE __Task____c : public ::System::Object {
@@ -443,7 +443,7 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__Task
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2787))
 // CS Name: ::System.Threading.Tasks::Task*
 class CORDL_TYPE Task : public ::System::Object {
@@ -462,28 +462,29 @@ public:
   using ContingentProperties = ::System::Threading::Tasks::__Task__ContingentProperties;
 
   /// @brief Field m_taskId, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_taskId, put = __set_m_taskId)) int32_t m_taskId;
+  __declspec(property(get = __cordl_internal_get_m_taskId, put = __cordl_internal_set_m_taskId)) int32_t m_taskId;
 
   /// @brief Field m_action, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_action, put = __set_m_action))::System::Delegate* m_action;
+  __declspec(property(get = __cordl_internal_get_m_action, put = __cordl_internal_set_m_action))::System::Delegate* m_action;
 
   /// @brief Field m_stateObject, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_stateObject, put = __set_m_stateObject))::System::Object* m_stateObject;
+  __declspec(property(get = __cordl_internal_get_m_stateObject, put = __cordl_internal_set_m_stateObject))::System::Object* m_stateObject;
 
   /// @brief Field m_taskScheduler, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_taskScheduler, put = __set_m_taskScheduler))::System::Threading::Tasks::TaskScheduler* m_taskScheduler;
+  __declspec(property(get = __cordl_internal_get_m_taskScheduler, put = __cordl_internal_set_m_taskScheduler))::System::Threading::Tasks::TaskScheduler* m_taskScheduler;
 
   /// @brief Field m_parent, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_parent, put = __set_m_parent))::System::Threading::Tasks::Task* m_parent;
+  __declspec(property(get = __cordl_internal_get_m_parent, put = __cordl_internal_set_m_parent))::System::Threading::Tasks::Task* m_parent;
 
   /// @brief Field m_stateFlags, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_stateFlags, put = __set_m_stateFlags)) int32_t m_stateFlags;
+  __declspec(property(get = __cordl_internal_get_m_stateFlags, put = __cordl_internal_set_m_stateFlags)) int32_t m_stateFlags;
 
   /// @brief Field m_continuationObject, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_continuationObject, put = __set_m_continuationObject))::System::Object* m_continuationObject;
+  __declspec(property(get = __cordl_internal_get_m_continuationObject, put = __cordl_internal_set_m_continuationObject))::System::Object* m_continuationObject;
 
   /// @brief Field m_contingentProperties, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_contingentProperties, put = __set_m_contingentProperties))::System::Threading::Tasks::__Task__ContingentProperties* m_contingentProperties;
+  __declspec(property(get = __cordl_internal_get_m_contingentProperties,
+                      put = __cordl_internal_set_m_contingentProperties))::System::Threading::Tasks::__Task__ContingentProperties* m_contingentProperties;
 
   /// @brief Field s_taskIdCounter, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_taskIdCounter, put = setStaticF_s_taskIdCounter)) int32_t s_taskIdCounter;
@@ -597,53 +598,53 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get_m_taskId();
+  constexpr int32_t& __cordl_internal_get_m_taskId();
 
-  constexpr int32_t const& __get_m_taskId() const;
+  constexpr int32_t const& __cordl_internal_get_m_taskId() const;
 
-  constexpr void __set_m_taskId(int32_t value);
+  constexpr void __cordl_internal_set_m_taskId(int32_t value);
 
-  constexpr ::System::Delegate*& __get_m_action();
+  constexpr ::System::Delegate*& __cordl_internal_get_m_action();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Delegate*> const& __get_m_action() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Delegate*> const& __cordl_internal_get_m_action() const;
 
-  constexpr void __set_m_action(::System::Delegate* value);
+  constexpr void __cordl_internal_set_m_action(::System::Delegate* value);
 
-  constexpr ::System::Object*& __get_m_stateObject();
+  constexpr ::System::Object*& __cordl_internal_get_m_stateObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_stateObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_stateObject() const;
 
-  constexpr void __set_m_stateObject(::System::Object* value);
+  constexpr void __cordl_internal_set_m_stateObject(::System::Object* value);
 
-  constexpr ::System::Threading::Tasks::TaskScheduler*& __get_m_taskScheduler();
+  constexpr ::System::Threading::Tasks::TaskScheduler*& __cordl_internal_get_m_taskScheduler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskScheduler*> const& __get_m_taskScheduler() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskScheduler*> const& __cordl_internal_get_m_taskScheduler() const;
 
-  constexpr void __set_m_taskScheduler(::System::Threading::Tasks::TaskScheduler* value);
+  constexpr void __cordl_internal_set_m_taskScheduler(::System::Threading::Tasks::TaskScheduler* value);
 
-  constexpr ::System::Threading::Tasks::Task*& __get_m_parent();
+  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_m_parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __get_m_parent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get_m_parent() const;
 
-  constexpr void __set_m_parent(::System::Threading::Tasks::Task* value);
+  constexpr void __cordl_internal_set_m_parent(::System::Threading::Tasks::Task* value);
 
-  constexpr int32_t& __get_m_stateFlags();
+  constexpr int32_t& __cordl_internal_get_m_stateFlags();
 
-  constexpr int32_t const& __get_m_stateFlags() const;
+  constexpr int32_t const& __cordl_internal_get_m_stateFlags() const;
 
-  constexpr void __set_m_stateFlags(int32_t value);
+  constexpr void __cordl_internal_set_m_stateFlags(int32_t value);
 
-  constexpr ::System::Object*& __get_m_continuationObject();
+  constexpr ::System::Object*& __cordl_internal_get_m_continuationObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_continuationObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_continuationObject() const;
 
-  constexpr void __set_m_continuationObject(::System::Object* value);
+  constexpr void __cordl_internal_set_m_continuationObject(::System::Object* value);
 
-  constexpr ::System::Threading::Tasks::__Task__ContingentProperties*& __get_m_contingentProperties();
+  constexpr ::System::Threading::Tasks::__Task__ContingentProperties*& __cordl_internal_get_m_contingentProperties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::__Task__ContingentProperties*> const& __get_m_contingentProperties() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::__Task__ContingentProperties*> const& __cordl_internal_get_m_contingentProperties() const;
 
-  constexpr void __set_m_contingentProperties(::System::Threading::Tasks::__Task__ContingentProperties* value);
+  constexpr void __cordl_internal_set_m_contingentProperties(::System::Threading::Tasks::__Task__ContingentProperties* value);
 
   static inline void setStaticF_s_taskIdCounter(int32_t value);
 

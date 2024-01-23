@@ -25,20 +25,20 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4711))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4711))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4712))
 // CS Name: ::BeatmapDataCallbackWrapper`1<T>*
 class CORDL_TYPE BeatmapDataCallbackWrapper_1 : public ::GlobalNamespace::BeatmapDataCallbackWrapper {
 public:
   // Declarations
   /// @brief Field _callback, offset 0x28, size 0x8
-  __declspec(property(get = __get__callback, put = __set__callback))::GlobalNamespace::BeatmapDataCallback_1<T>* _callback;
+  __declspec(property(get = __cordl_internal_get__callback, put = __cordl_internal_set__callback))::GlobalNamespace::BeatmapDataCallback_1<T>* _callback;
 
-  constexpr ::GlobalNamespace::BeatmapDataCallback_1<T>*& __get__callback();
+  constexpr ::GlobalNamespace::BeatmapDataCallback_1<T>*& __cordl_internal_get__callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallback_1<T>*> const& __get__callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallback_1<T>*> const& __cordl_internal_get__callback() const;
 
-  constexpr void __set__callback(::GlobalNamespace::BeatmapDataCallback_1<T>* value);
+  constexpr void __cordl_internal_set__callback(::GlobalNamespace::BeatmapDataCallback_1<T>* value);
 
   static inline ::GlobalNamespace::BeatmapDataCallbackWrapper_1<T>* New_ctor(::GlobalNamespace::BeatmapDataCallback_1<T>* callback, float_t aheadTime,
                                                                              ::ArrayW<int32_t, ::Array<int32_t>*> beatmapEventSubtypeIdentifiers);

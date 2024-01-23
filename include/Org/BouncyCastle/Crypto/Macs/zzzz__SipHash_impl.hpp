@@ -10,9 +10,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0xf107e0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -24,10 +24,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0xf10808;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x194;
   constexpr static std::size_t addrs = 0xf10838;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), 11));
@@ -53,7 +53,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf109cc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), 12));
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x154;
   constexpr static std::size_t addrs = 0xf109d4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), 13));
@@ -82,7 +82,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0xf10b28;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), 14));
@@ -97,7 +97,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1ac;
   constexpr static std::size_t addrs = 0xf10b6c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), 15));
@@ -111,7 +111,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0xf10d18;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), 16));
@@ -126,7 +126,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0xf10db4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), 17));
@@ -140,7 +140,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0xf10df8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), 18));
@@ -155,7 +155,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0xf10e5c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), 19));
@@ -170,7 +170,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0xf10ea8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), 20));
@@ -184,10 +184,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0xf10ef4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), "RotateLeft", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), "RotateLeft", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -199,153 +199,153 @@ constexpr Org::BouncyCastle::Crypto::Macs::SipHash::operator ::Org::BouncyCastle
 constexpr ::Org::BouncyCastle::Crypto::IMac* Org::BouncyCastle::Crypto::Macs::SipHash::i___Org__BouncyCastle__Crypto__IMac() noexcept {
   return static_cast<::Org::BouncyCastle::Crypto::IMac*>(static_cast<void*>(this));
 }
-constexpr int32_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_c() {
+constexpr int32_t& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_c() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
-constexpr int32_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_c() const {
+constexpr int32_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_c() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___c;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_c(int32_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_set_c(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___c = value;
 }
-constexpr int32_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_d() {
+constexpr int32_t& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_d() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
-constexpr int32_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_d() const {
+constexpr int32_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_d() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___d;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_d(int32_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_set_d(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___d = value;
 }
-constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_k0() {
+constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_k0() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k0;
 }
-constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_k0() const {
+constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_k0() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k0;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_k0(int64_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_set_k0(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___k0 = value;
 }
-constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_k1() {
+constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_k1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k1;
 }
-constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_k1() const {
+constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_k1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___k1;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_k1(int64_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_set_k1(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___k1 = value;
 }
-constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_v0() {
+constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_v0() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v0;
 }
-constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_v0() const {
+constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_v0() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v0;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_v0(int64_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_set_v0(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___v0 = value;
 }
-constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_v1() {
+constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_v1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v1;
 }
-constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_v1() const {
+constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_v1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v1;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_v1(int64_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_set_v1(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___v1 = value;
 }
-constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_v2() {
+constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_v2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v2;
 }
-constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_v2() const {
+constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_v2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v2;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_v2(int64_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_set_v2(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___v2 = value;
 }
-constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_v3() {
+constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_v3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v3;
 }
-constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_v3() const {
+constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_v3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___v3;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_v3(int64_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_set_v3(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___v3 = value;
 }
-constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_m() {
+constexpr int64_t& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_m() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m;
 }
-constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_m() const {
+constexpr int64_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_m() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_m(int64_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_set_m(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m = value;
 }
-constexpr int32_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_wordPos() {
+constexpr int32_t& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_wordPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wordPos;
 }
-constexpr int32_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_wordPos() const {
+constexpr int32_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_wordPos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wordPos;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_wordPos(int32_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_set_wordPos(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___wordPos = value;
 }
-constexpr int32_t& Org::BouncyCastle::Crypto::Macs::SipHash::__get_wordCount() {
+constexpr int32_t& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_wordCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wordCount;
 }
-constexpr int32_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__get_wordCount() const {
+constexpr int32_t const& Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_get_wordCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___wordCount;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__set_wordCount(int32_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::SipHash::__cordl_internal_set_wordCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___wordCount = value;
 }
 inline ::Org::BouncyCastle::Crypto::Macs::SipHash* Org::BouncyCastle::Crypto::Macs::SipHash::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::Org::BouncyCastle::Crypto::Macs::SipHash*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Macs::SipHash*>());
 }
 inline void Org::BouncyCastle::Crypto::Macs::SipHash::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::Org::BouncyCastle::Crypto::Macs::SipHash* Org::BouncyCastle::Crypto::Macs::SipHash::New_ctor(int32_t c, int32_t d) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Org::BouncyCastle::Crypto::Macs::SipHash*>(c, d));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Macs::SipHash*>(c, d));
 }
 inline void Org::BouncyCastle::Crypto::Macs::SipHash::_ctor(int32_t c, int32_t d) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, c, d);
 }
 inline ::StringW Org::BouncyCastle::Crypto::Macs::SipHash::get_AlgorithmName() {
@@ -400,8 +400,8 @@ inline void Org::BouncyCastle::Crypto::Macs::SipHash::ApplySipRounds(int32_t n) 
 }
 inline int64_t Org::BouncyCastle::Crypto::Macs::SipHash::RotateLeft(int64_t x, int32_t n) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), "RotateLeft", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SipHash*>::get(), "RotateLeft", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method, x, n);
 }
 // Ctor Parameters []

@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::WordInfo);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13712))
 // CS Name: ::UnityEngine.TextCore.Text::WordInfo
 struct CORDL_TYPE WordInfo {

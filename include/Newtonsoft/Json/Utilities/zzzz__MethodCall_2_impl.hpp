@@ -6,12 +6,12 @@
 #include "System/zzzz__Object_def.hpp"
 template <typename T, typename TResult>
 inline ::Newtonsoft::Json::Utilities::MethodCall_2<T, TResult>* Newtonsoft::Json::Utilities::MethodCall_2<T, TResult>::New_ctor(::System::Object* object, void* method) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Newtonsoft::Json::Utilities::MethodCall_2<T, TResult>*>(object, method));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Newtonsoft::Json::Utilities::MethodCall_2<T, TResult>*>(object, method));
 }
 template <typename T, typename TResult> inline void Newtonsoft::Json::Utilities::MethodCall_2<T, TResult>::_ctor(::System::Object* object, void* method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::MethodCall_2<T, TResult>*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Utilities::MethodCall_2<T, TResult>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
 }
 template <typename T, typename TResult> inline TResult Newtonsoft::Json::Utilities::MethodCall_2<T, TResult>::Invoke(T target, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args) {

@@ -27,22 +27,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1719))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1719))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1720))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixCertPathBuilderResult*
 class CORDL_TYPE PkixCertPathBuilderResult : public ::Org::BouncyCastle::Pkix::PkixCertPathValidatorResult {
 public:
   // Declarations
   /// @brief Field certPath, offset 0x28, size 0x8
-  __declspec(property(get = __get_certPath, put = __set_certPath))::Org::BouncyCastle::Pkix::PkixCertPath* certPath;
+  __declspec(property(get = __cordl_internal_get_certPath, put = __cordl_internal_set_certPath))::Org::BouncyCastle::Pkix::PkixCertPath* certPath;
 
   __declspec(property(get = get_CertPath))::Org::BouncyCastle::Pkix::PkixCertPath* CertPath;
 
-  constexpr ::Org::BouncyCastle::Pkix::PkixCertPath*& __get_certPath();
+  constexpr ::Org::BouncyCastle::Pkix::PkixCertPath*& __cordl_internal_get_certPath();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkix::PkixCertPath*> const& __get_certPath() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkix::PkixCertPath*> const& __cordl_internal_get_certPath() const;
 
-  constexpr void __set_certPath(::Org::BouncyCastle::Pkix::PkixCertPath* value);
+  constexpr void __cordl_internal_set_certPath(::Org::BouncyCastle::Pkix::PkixCertPath* value);
 
   static inline ::Org::BouncyCastle::Pkix::PkixCertPathBuilderResult* New_ctor(::Org::BouncyCastle::Pkix::PkixCertPath* certPath, ::Org::BouncyCastle::Pkix::TrustAnchor* trustAnchor,
                                                                                ::Org::BouncyCastle::Pkix::PkixPolicyNode* policyTree,

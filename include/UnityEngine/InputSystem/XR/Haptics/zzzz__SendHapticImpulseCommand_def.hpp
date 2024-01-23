@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::XR::Haptics::SendHapticImpulseCommand);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::XR::Haptics {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6471))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6471))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6349))
 // CS Name: ::UnityEngine.InputSystem.XR.Haptics::SendHapticImpulseCommand
 #pragma pack(push, 0)
@@ -34,16 +34,16 @@ struct CORDL_TYPE SendHapticImpulseCommand {
 public:
   // Declarations
   /// @brief Field baseCommand, offset 0x0, size 0x8
-  __declspec(property(get = __get_baseCommand, put = __set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
+  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
 
   /// @brief Field channel, offset 0x8, size 0x4
-  __declspec(property(get = __get_channel, put = __set_channel)) int32_t channel;
+  __declspec(property(get = __cordl_internal_get_channel, put = __cordl_internal_set_channel)) int32_t channel;
 
   /// @brief Field amplitude, offset 0xc, size 0x4
-  __declspec(property(get = __get_amplitude, put = __set_amplitude)) float_t amplitude;
+  __declspec(property(get = __cordl_internal_get_amplitude, put = __cordl_internal_set_amplitude)) float_t amplitude;
 
   /// @brief Field duration, offset 0x10, size 0x4
-  __declspec(property(get = __get_duration, put = __set_duration)) float_t duration;
+  __declspec(property(get = __cordl_internal_get_duration, put = __cordl_internal_set_duration)) float_t duration;
 
   __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
@@ -53,29 +53,29 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __get_baseCommand();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __get_baseCommand() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
 
-  constexpr void __set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
+  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
 
-  constexpr int32_t& __get_channel();
+  constexpr int32_t& __cordl_internal_get_channel();
 
-  constexpr int32_t const& __get_channel() const;
+  constexpr int32_t const& __cordl_internal_get_channel() const;
 
-  constexpr void __set_channel(int32_t value);
+  constexpr void __cordl_internal_set_channel(int32_t value);
 
-  constexpr float_t& __get_amplitude();
+  constexpr float_t& __cordl_internal_get_amplitude();
 
-  constexpr float_t const& __get_amplitude() const;
+  constexpr float_t const& __cordl_internal_get_amplitude() const;
 
-  constexpr void __set_amplitude(float_t value);
+  constexpr void __cordl_internal_set_amplitude(float_t value);
 
-  constexpr float_t& __get_duration();
+  constexpr float_t& __cordl_internal_get_duration();
 
-  constexpr float_t const& __get_duration() const;
+  constexpr float_t const& __cordl_internal_get_duration() const;
 
-  constexpr void __set_duration(float_t value);
+  constexpr void __cordl_internal_set_duration(float_t value);
 
   /// @brief Method get_Type, addr 0x2ac99a0, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();

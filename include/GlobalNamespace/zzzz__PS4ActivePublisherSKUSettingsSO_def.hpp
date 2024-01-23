@@ -17,20 +17,21 @@ MARK_REF_PTR_T(::GlobalNamespace::PS4ActivePublisherSKUSettingsSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4550))
 // CS Name: ::PS4ActivePublisherSKUSettingsSO*
 class CORDL_TYPE PS4ActivePublisherSKUSettingsSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field activePublisherSKUSettings, offset 0x18, size 0x8
-  __declspec(property(get = __get_activePublisherSKUSettings, put = __set_activePublisherSKUSettings))::GlobalNamespace::PS4PublisherSKUSettingsSO* activePublisherSKUSettings;
+  __declspec(property(get = __cordl_internal_get_activePublisherSKUSettings,
+                      put = __cordl_internal_set_activePublisherSKUSettings))::UnityW<::GlobalNamespace::PS4PublisherSKUSettingsSO> activePublisherSKUSettings;
 
-  constexpr ::GlobalNamespace::PS4PublisherSKUSettingsSO*& __get_activePublisherSKUSettings();
+  constexpr ::UnityW<::GlobalNamespace::PS4PublisherSKUSettingsSO>& __cordl_internal_get_activePublisherSKUSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PS4PublisherSKUSettingsSO*> const& __get_activePublisherSKUSettings() const;
+  constexpr ::UnityW<::GlobalNamespace::PS4PublisherSKUSettingsSO> const& __cordl_internal_get_activePublisherSKUSettings() const;
 
-  constexpr void __set_activePublisherSKUSettings(::GlobalNamespace::PS4PublisherSKUSettingsSO* value);
+  constexpr void __cordl_internal_set_activePublisherSKUSettings(::UnityW<::GlobalNamespace::PS4PublisherSKUSettingsSO> value);
 
   static inline ::GlobalNamespace::PS4ActivePublisherSKUSettingsSO* New_ctor();
 
@@ -52,7 +53,7 @@ protected:
 
 public:
   /// @brief Field activePublisherSKUSettings, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::PS4PublisherSKUSettingsSO* ___activePublisherSKUSettings;
+  ::UnityW<::GlobalNamespace::PS4PublisherSKUSettingsSO> ___activePublisherSKUSettings;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

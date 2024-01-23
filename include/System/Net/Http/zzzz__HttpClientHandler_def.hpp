@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::System::Net::Http::__HttpClientHandler____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14633))
 // CS Name: ::HttpClientHandler::<>c*
 class CORDL_TYPE __HttpClientHandler____c : public ::System::Object {
@@ -112,7 +112,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::__HttpClientH
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14641)), TypeDefinitionIndex(TypeDefinitionIndex(14650))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14641)), TypeDefinitionIndex(TypeDefinitionIndex(14650))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14634))
 // CS Name: ::System.Net.Http::HttpClientHandler*
 class CORDL_TYPE HttpClientHandler : public ::System::Net::Http::HttpMessageHandler {
@@ -121,26 +121,27 @@ public:
   using __c = ::System::Net::Http::__HttpClientHandler____c;
 
   /// @brief Field _delegatingHandler, offset 0x10, size 0x8
-  __declspec(property(get = __get__delegatingHandler, put = __set__delegatingHandler))::System::Net::Http::IMonoHttpClientHandler* _delegatingHandler;
+  __declspec(property(get = __cordl_internal_get__delegatingHandler, put = __cordl_internal_set__delegatingHandler))::System::Net::Http::IMonoHttpClientHandler* _delegatingHandler;
 
   /// @brief Field _clientCertificateOptions, offset 0x18, size 0x4
-  __declspec(property(get = __get__clientCertificateOptions, put = __set__clientCertificateOptions))::System::Net::Http::ClientCertificateOption _clientCertificateOptions;
+  __declspec(property(get = __cordl_internal_get__clientCertificateOptions,
+                      put = __cordl_internal_set__clientCertificateOptions))::System::Net::Http::ClientCertificateOption _clientCertificateOptions;
 
   __declspec(property(get = get_ClientCertificateOptions, put = set_ClientCertificateOptions))::System::Net::Http::ClientCertificateOption ClientCertificateOptions;
 
   __declspec(property(get = get_ClientCertificates))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* ClientCertificates;
 
-  constexpr ::System::Net::Http::IMonoHttpClientHandler*& __get__delegatingHandler();
+  constexpr ::System::Net::Http::IMonoHttpClientHandler*& __cordl_internal_get__delegatingHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::IMonoHttpClientHandler*> const& __get__delegatingHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::IMonoHttpClientHandler*> const& __cordl_internal_get__delegatingHandler() const;
 
-  constexpr void __set__delegatingHandler(::System::Net::Http::IMonoHttpClientHandler* value);
+  constexpr void __cordl_internal_set__delegatingHandler(::System::Net::Http::IMonoHttpClientHandler* value);
 
-  constexpr ::System::Net::Http::ClientCertificateOption& __get__clientCertificateOptions();
+  constexpr ::System::Net::Http::ClientCertificateOption& __cordl_internal_get__clientCertificateOptions();
 
-  constexpr ::System::Net::Http::ClientCertificateOption const& __get__clientCertificateOptions() const;
+  constexpr ::System::Net::Http::ClientCertificateOption const& __cordl_internal_get__clientCertificateOptions() const;
 
-  constexpr void __set__clientCertificateOptions(::System::Net::Http::ClientCertificateOption value);
+  constexpr void __cordl_internal_set__clientCertificateOptions(::System::Net::Http::ClientCertificateOption value);
 
   /// @brief Method CreateDefaultHandler, addr 0x282c650, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Net::Http::IMonoHttpClientHandler* CreateDefaultHandler();

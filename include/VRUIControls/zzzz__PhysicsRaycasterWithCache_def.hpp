@@ -36,7 +36,7 @@ MARK_VAL_T(::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast);
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15487)), TypeDefinitionIndex(TypeDefinitionIndex(10169))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10169)), TypeDefinitionIndex(TypeDefinitionIndex(15487))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15671))
 // CS Name: ::PhysicsRaycasterWithCache::CachedRaycast
 struct CORDL_TYPE __PhysicsRaycasterWithCache__CachedRaycast {
@@ -92,7 +92,7 @@ static_assert(offsetof(::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycas
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace VRUIControls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15672))
 // CS Name: ::VRUIControls::PhysicsRaycasterWithCache*
 class CORDL_TYPE PhysicsRaycasterWithCache : public ::System::Object {
@@ -101,22 +101,24 @@ public:
   using CachedRaycast = ::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast;
 
   /// @brief Field _cachedRaycasts, offset 0x10, size 0x8
-  __declspec(property(get = __get__cachedRaycasts, put = __set__cachedRaycasts))::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>* _cachedRaycasts;
+  __declspec(property(get = __cordl_internal_get__cachedRaycasts,
+                      put = __cordl_internal_set__cachedRaycasts))::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>* _cachedRaycasts;
 
   /// @brief Field _lastFrameCount, offset 0x18, size 0x4
-  __declspec(property(get = __get__lastFrameCount, put = __set__lastFrameCount)) int32_t _lastFrameCount;
+  __declspec(property(get = __cordl_internal_get__lastFrameCount, put = __cordl_internal_set__lastFrameCount)) int32_t _lastFrameCount;
 
-  constexpr ::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>*& __get__cachedRaycasts();
+  constexpr ::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>*& __cordl_internal_get__cachedRaycasts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>*> const& __get__cachedRaycasts() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>*> const&
+  __cordl_internal_get__cachedRaycasts() const;
 
-  constexpr void __set__cachedRaycasts(::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>* value);
+  constexpr void __cordl_internal_set__cachedRaycasts(::System::Collections::Generic::List_1<::VRUIControls::__PhysicsRaycasterWithCache__CachedRaycast>* value);
 
-  constexpr int32_t& __get__lastFrameCount();
+  constexpr int32_t& __cordl_internal_get__lastFrameCount();
 
-  constexpr int32_t const& __get__lastFrameCount() const;
+  constexpr int32_t const& __cordl_internal_get__lastFrameCount() const;
 
-  constexpr void __set__lastFrameCount(int32_t value);
+  constexpr void __cordl_internal_set__lastFrameCount(int32_t value);
 
   /// @brief Method Raycast, addr 0x2eb4570, size 0x56c, virtual false, abstract: false, final false
   inline bool Raycast(::UnityEngine::Ray ray, ByRef<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask);

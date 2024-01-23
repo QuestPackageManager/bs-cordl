@@ -115,7 +115,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::__StylePropertyReader__Ge
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7464))
 // CS Name: ::StylePropertyReader::GetCursorIdFunction*
 class CORDL_TYPE __StylePropertyReader__GetCursorIdFunction : public ::System::MulticastDelegate {
@@ -153,7 +153,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSh
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7487))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7487))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7465))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StylePropertyReader*
 class CORDL_TYPE StylePropertyReader : public ::System::Object {
@@ -162,41 +162,45 @@ public:
   using GetCursorIdFunction = ::UnityEngine::UIElements::StyleSheets::__StylePropertyReader__GetCursorIdFunction;
 
   /// @brief Field m_Values, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Values, put = __set_m_Values))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* m_Values;
+  __declspec(property(get = __cordl_internal_get_m_Values,
+                      put = __cordl_internal_set_m_Values))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* m_Values;
 
   /// @brief Field m_ValueCount, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_ValueCount, put = __set_m_ValueCount))::System::Collections::Generic::List_1<int32_t>* m_ValueCount;
+  __declspec(property(get = __cordl_internal_get_m_ValueCount, put = __cordl_internal_set_m_ValueCount))::System::Collections::Generic::List_1<int32_t>* m_ValueCount;
 
   /// @brief Field m_Resolver, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Resolver, put = __set_m_Resolver))::UnityEngine::UIElements::StyleVariableResolver* m_Resolver;
+  __declspec(property(get = __cordl_internal_get_m_Resolver, put = __cordl_internal_set_m_Resolver))::UnityEngine::UIElements::StyleVariableResolver* m_Resolver;
 
   /// @brief Field m_Sheet, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Sheet, put = __set_m_Sheet))::UnityEngine::UIElements::StyleSheet* m_Sheet;
+  __declspec(property(get = __cordl_internal_get_m_Sheet, put = __cordl_internal_set_m_Sheet))::UnityW<::UnityEngine::UIElements::StyleSheet> m_Sheet;
 
   /// @brief Field m_Properties, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Properties, put = __set_m_Properties))::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> m_Properties;
+  __declspec(property(get = __cordl_internal_get_m_Properties,
+                      put = __cordl_internal_set_m_Properties))::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> m_Properties;
 
   /// @brief Field m_PropertyIds, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_PropertyIds,
-                      put = __set_m_PropertyIds))::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*> m_PropertyIds;
+  __declspec(property(
+      get = __cordl_internal_get_m_PropertyIds,
+      put = __cordl_internal_set_m_PropertyIds))::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*> m_PropertyIds;
 
   /// @brief Field m_CurrentValueIndex, offset 0x40, size 0x4
-  __declspec(property(get = __get_m_CurrentValueIndex, put = __set_m_CurrentValueIndex)) int32_t m_CurrentValueIndex;
+  __declspec(property(get = __cordl_internal_get_m_CurrentValueIndex, put = __cordl_internal_set_m_CurrentValueIndex)) int32_t m_CurrentValueIndex;
 
   /// @brief Field m_CurrentPropertyIndex, offset 0x44, size 0x4
-  __declspec(property(get = __get_m_CurrentPropertyIndex, put = __set_m_CurrentPropertyIndex)) int32_t m_CurrentPropertyIndex;
+  __declspec(property(get = __cordl_internal_get_m_CurrentPropertyIndex, put = __cordl_internal_set_m_CurrentPropertyIndex)) int32_t m_CurrentPropertyIndex;
 
   /// @brief Field <property>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __get__property_k__BackingField, put = __set__property_k__BackingField))::UnityEngine::UIElements::StyleProperty* _property_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__property_k__BackingField, put = __cordl_internal_set__property_k__BackingField))::UnityEngine::UIElements::StyleProperty* _property_k__BackingField;
 
   /// @brief Field <propertyId>k__BackingField, offset 0x50, size 0x4
-  __declspec(property(get = __get__propertyId_k__BackingField, put = __set__propertyId_k__BackingField))::UnityEngine::UIElements::StyleSheets::StylePropertyId _propertyId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__propertyId_k__BackingField,
+                      put = __cordl_internal_set__propertyId_k__BackingField))::UnityEngine::UIElements::StyleSheets::StylePropertyId _propertyId_k__BackingField;
 
   /// @brief Field <valueCount>k__BackingField, offset 0x54, size 0x4
-  __declspec(property(get = __get__valueCount_k__BackingField, put = __set__valueCount_k__BackingField)) int32_t _valueCount_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__valueCount_k__BackingField, put = __cordl_internal_set__valueCount_k__BackingField)) int32_t _valueCount_k__BackingField;
 
   /// @brief Field <dpiScaling>k__BackingField, offset 0x58, size 0x4
-  __declspec(property(get = __get__dpiScaling_k__BackingField, put = __set__dpiScaling_k__BackingField)) float_t _dpiScaling_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__dpiScaling_k__BackingField, put = __cordl_internal_set__dpiScaling_k__BackingField)) float_t _dpiScaling_k__BackingField;
 
   /// @brief Field getCursorIdFunc, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_getCursorIdFunc, put = setStaticF_getCursorIdFunc))::UnityEngine::UIElements::StyleSheets::__StylePropertyReader__GetCursorIdFunction* getCursorIdFunc;
@@ -209,77 +213,77 @@ public:
 
   __declspec(property(get = get_dpiScaling, put = set_dpiScaling)) float_t dpiScaling;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>*& __get_m_Values();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>*& __cordl_internal_get_m_Values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>*> const& __get_m_Values() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>*> const& __cordl_internal_get_m_Values() const;
 
-  constexpr void __set_m_Values(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* value);
+  constexpr void __cordl_internal_set_m_Values(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>* value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get_m_ValueCount();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_ValueCount();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get_m_ValueCount() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_ValueCount() const;
 
-  constexpr void __set_m_ValueCount(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_ValueCount(::System::Collections::Generic::List_1<int32_t>* value);
 
-  constexpr ::UnityEngine::UIElements::StyleVariableResolver*& __get_m_Resolver();
+  constexpr ::UnityEngine::UIElements::StyleVariableResolver*& __cordl_internal_get_m_Resolver();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleVariableResolver*> const& __get_m_Resolver() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleVariableResolver*> const& __cordl_internal_get_m_Resolver() const;
 
-  constexpr void __set_m_Resolver(::UnityEngine::UIElements::StyleVariableResolver* value);
+  constexpr void __cordl_internal_set_m_Resolver(::UnityEngine::UIElements::StyleVariableResolver* value);
 
-  constexpr ::UnityEngine::UIElements::StyleSheet*& __get_m_Sheet();
+  constexpr ::UnityW<::UnityEngine::UIElements::StyleSheet>& __cordl_internal_get_m_Sheet();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleSheet*> const& __get_m_Sheet() const;
+  constexpr ::UnityW<::UnityEngine::UIElements::StyleSheet> const& __cordl_internal_get_m_Sheet() const;
 
-  constexpr void __set_m_Sheet(::UnityEngine::UIElements::StyleSheet* value);
+  constexpr void __cordl_internal_set_m_Sheet(::UnityW<::UnityEngine::UIElements::StyleSheet> value);
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*>& __get_m_Properties();
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*>& __cordl_internal_get_m_Properties();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> const& __get_m_Properties() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> const& __cordl_internal_get_m_Properties() const;
 
-  constexpr void __set_m_Properties(::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> value);
+  constexpr void __cordl_internal_set_m_Properties(::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*>& __get_m_PropertyIds();
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*>& __cordl_internal_get_m_PropertyIds();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*> const& __get_m_PropertyIds() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*> const& __cordl_internal_get_m_PropertyIds() const;
 
-  constexpr void __set_m_PropertyIds(::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*> value);
+  constexpr void __cordl_internal_set_m_PropertyIds(::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*> value);
 
-  constexpr int32_t& __get_m_CurrentValueIndex();
+  constexpr int32_t& __cordl_internal_get_m_CurrentValueIndex();
 
-  constexpr int32_t const& __get_m_CurrentValueIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_CurrentValueIndex() const;
 
-  constexpr void __set_m_CurrentValueIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_CurrentValueIndex(int32_t value);
 
-  constexpr int32_t& __get_m_CurrentPropertyIndex();
+  constexpr int32_t& __cordl_internal_get_m_CurrentPropertyIndex();
 
-  constexpr int32_t const& __get_m_CurrentPropertyIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_CurrentPropertyIndex() const;
 
-  constexpr void __set_m_CurrentPropertyIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_CurrentPropertyIndex(int32_t value);
 
-  constexpr ::UnityEngine::UIElements::StyleProperty*& __get__property_k__BackingField();
+  constexpr ::UnityEngine::UIElements::StyleProperty*& __cordl_internal_get__property_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleProperty*> const& __get__property_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleProperty*> const& __cordl_internal_get__property_k__BackingField() const;
 
-  constexpr void __set__property_k__BackingField(::UnityEngine::UIElements::StyleProperty* value);
+  constexpr void __cordl_internal_set__property_k__BackingField(::UnityEngine::UIElements::StyleProperty* value);
 
-  constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyId& __get__propertyId_k__BackingField();
+  constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyId& __cordl_internal_get__propertyId_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyId const& __get__propertyId_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyId const& __cordl_internal_get__propertyId_k__BackingField() const;
 
-  constexpr void __set__propertyId_k__BackingField(::UnityEngine::UIElements::StyleSheets::StylePropertyId value);
+  constexpr void __cordl_internal_set__propertyId_k__BackingField(::UnityEngine::UIElements::StyleSheets::StylePropertyId value);
 
-  constexpr int32_t& __get__valueCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__valueCount_k__BackingField();
 
-  constexpr int32_t const& __get__valueCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__valueCount_k__BackingField() const;
 
-  constexpr void __set__valueCount_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__valueCount_k__BackingField(int32_t value);
 
-  constexpr float_t& __get__dpiScaling_k__BackingField();
+  constexpr float_t& __cordl_internal_get__dpiScaling_k__BackingField();
 
-  constexpr float_t const& __get__dpiScaling_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__dpiScaling_k__BackingField() const;
 
-  constexpr void __set__dpiScaling_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__dpiScaling_k__BackingField(float_t value);
 
   static inline void setStaticF_getCursorIdFunc(::UnityEngine::UIElements::StyleSheets::__StylePropertyReader__GetCursorIdFunction* value);
 
@@ -369,7 +373,7 @@ public:
   inline ::UnityEngine::UIElements::FontDefinition ReadFontDefinition(int32_t index);
 
   /// @brief Method ReadFont, addr 0x2de7c60, size 0x344, virtual false, abstract: false, final false
-  inline ::UnityEngine::Font* ReadFont(int32_t index);
+  inline ::UnityW<::UnityEngine::Font> ReadFont(int32_t index);
 
   /// @brief Method ReadBackground, addr 0x2de7fa4, size 0x270, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Background ReadBackground(int32_t index);
@@ -455,7 +459,7 @@ public:
   ::UnityEngine::UIElements::StyleVariableResolver* ___m_Resolver;
 
   /// @brief Field m_Sheet, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UIElements::StyleSheet* ___m_Sheet;
+  ::UnityW<::UnityEngine::UIElements::StyleSheet> ___m_Sheet;
 
   /// @brief Field m_Properties, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> ___m_Properties;

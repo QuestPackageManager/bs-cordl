@@ -11,9 +11,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x239a28c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentLightSimpleController*>::get(),
-                                                                               "LateUpdate", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "LateUpdate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -25,59 +25,59 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x239a2b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentLightSimpleController*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Color& GlobalNamespace::EnvironmentLightSimpleController::__get__color() {
+constexpr ::UnityEngine::Color& GlobalNamespace::EnvironmentLightSimpleController::__cordl_internal_get__color() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::EnvironmentLightSimpleController::__get__color() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::EnvironmentLightSimpleController::__cordl_internal_get__color() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
-constexpr void GlobalNamespace::EnvironmentLightSimpleController::__set__color(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::EnvironmentLightSimpleController::__cordl_internal_set__color(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____color = value;
 }
-constexpr int32_t& GlobalNamespace::EnvironmentLightSimpleController::__get__colorId() {
+constexpr int32_t& GlobalNamespace::EnvironmentLightSimpleController::__cordl_internal_get__colorId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorId;
 }
-constexpr int32_t const& GlobalNamespace::EnvironmentLightSimpleController::__get__colorId() const {
+constexpr int32_t const& GlobalNamespace::EnvironmentLightSimpleController::__cordl_internal_get__colorId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorId;
 }
-constexpr void GlobalNamespace::EnvironmentLightSimpleController::__set__colorId(int32_t value) {
+constexpr void GlobalNamespace::EnvironmentLightSimpleController::__cordl_internal_set__colorId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____colorId = value;
 }
-constexpr ::GlobalNamespace::LightWithIdManager*& GlobalNamespace::EnvironmentLightSimpleController::__get__lightManager() {
+constexpr ::UnityW<::GlobalNamespace::LightWithIdManager>& GlobalNamespace::EnvironmentLightSimpleController::__cordl_internal_get__lightManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightWithIdManager*> const& GlobalNamespace::EnvironmentLightSimpleController::__get__lightManager() const {
+constexpr ::UnityW<::GlobalNamespace::LightWithIdManager> const& GlobalNamespace::EnvironmentLightSimpleController::__cordl_internal_get__lightManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightManager;
 }
-constexpr void GlobalNamespace::EnvironmentLightSimpleController::__set__lightManager(::GlobalNamespace::LightWithIdManager* value) {
+constexpr void GlobalNamespace::EnvironmentLightSimpleController::__cordl_internal_set__lightManager(::UnityW<::GlobalNamespace::LightWithIdManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::EnvironmentLightSimpleController::LateUpdate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentLightSimpleController*>::get(),
-                                                                             "LateUpdate", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "LateUpdate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::EnvironmentLightSimpleController* GlobalNamespace::EnvironmentLightSimpleController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::EnvironmentLightSimpleController*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EnvironmentLightSimpleController*>());
 }
 inline void GlobalNamespace::EnvironmentLightSimpleController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentLightSimpleController*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

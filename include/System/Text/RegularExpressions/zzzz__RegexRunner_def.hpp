@@ -26,173 +26,173 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexRunner);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8929))
 // CS Name: ::System.Text.RegularExpressions::RegexRunner*
 class CORDL_TYPE RegexRunner : public ::System::Object {
 public:
   // Declarations
   /// @brief Field runtextbeg, offset 0x10, size 0x4
-  __declspec(property(get = __get_runtextbeg, put = __set_runtextbeg)) int32_t runtextbeg;
+  __declspec(property(get = __cordl_internal_get_runtextbeg, put = __cordl_internal_set_runtextbeg)) int32_t runtextbeg;
 
   /// @brief Field runtextend, offset 0x14, size 0x4
-  __declspec(property(get = __get_runtextend, put = __set_runtextend)) int32_t runtextend;
+  __declspec(property(get = __cordl_internal_get_runtextend, put = __cordl_internal_set_runtextend)) int32_t runtextend;
 
   /// @brief Field runtextstart, offset 0x18, size 0x4
-  __declspec(property(get = __get_runtextstart, put = __set_runtextstart)) int32_t runtextstart;
+  __declspec(property(get = __cordl_internal_get_runtextstart, put = __cordl_internal_set_runtextstart)) int32_t runtextstart;
 
   /// @brief Field runtext, offset 0x20, size 0x8
-  __declspec(property(get = __get_runtext, put = __set_runtext))::StringW runtext;
+  __declspec(property(get = __cordl_internal_get_runtext, put = __cordl_internal_set_runtext))::StringW runtext;
 
   /// @brief Field runtextpos, offset 0x28, size 0x4
-  __declspec(property(get = __get_runtextpos, put = __set_runtextpos)) int32_t runtextpos;
+  __declspec(property(get = __cordl_internal_get_runtextpos, put = __cordl_internal_set_runtextpos)) int32_t runtextpos;
 
   /// @brief Field runtrack, offset 0x30, size 0x8
-  __declspec(property(get = __get_runtrack, put = __set_runtrack))::ArrayW<int32_t, ::Array<int32_t>*> runtrack;
+  __declspec(property(get = __cordl_internal_get_runtrack, put = __cordl_internal_set_runtrack))::ArrayW<int32_t, ::Array<int32_t>*> runtrack;
 
   /// @brief Field runtrackpos, offset 0x38, size 0x4
-  __declspec(property(get = __get_runtrackpos, put = __set_runtrackpos)) int32_t runtrackpos;
+  __declspec(property(get = __cordl_internal_get_runtrackpos, put = __cordl_internal_set_runtrackpos)) int32_t runtrackpos;
 
   /// @brief Field runstack, offset 0x40, size 0x8
-  __declspec(property(get = __get_runstack, put = __set_runstack))::ArrayW<int32_t, ::Array<int32_t>*> runstack;
+  __declspec(property(get = __cordl_internal_get_runstack, put = __cordl_internal_set_runstack))::ArrayW<int32_t, ::Array<int32_t>*> runstack;
 
   /// @brief Field runstackpos, offset 0x48, size 0x4
-  __declspec(property(get = __get_runstackpos, put = __set_runstackpos)) int32_t runstackpos;
+  __declspec(property(get = __cordl_internal_get_runstackpos, put = __cordl_internal_set_runstackpos)) int32_t runstackpos;
 
   /// @brief Field runcrawl, offset 0x50, size 0x8
-  __declspec(property(get = __get_runcrawl, put = __set_runcrawl))::ArrayW<int32_t, ::Array<int32_t>*> runcrawl;
+  __declspec(property(get = __cordl_internal_get_runcrawl, put = __cordl_internal_set_runcrawl))::ArrayW<int32_t, ::Array<int32_t>*> runcrawl;
 
   /// @brief Field runcrawlpos, offset 0x58, size 0x4
-  __declspec(property(get = __get_runcrawlpos, put = __set_runcrawlpos)) int32_t runcrawlpos;
+  __declspec(property(get = __cordl_internal_get_runcrawlpos, put = __cordl_internal_set_runcrawlpos)) int32_t runcrawlpos;
 
   /// @brief Field runtrackcount, offset 0x5c, size 0x4
-  __declspec(property(get = __get_runtrackcount, put = __set_runtrackcount)) int32_t runtrackcount;
+  __declspec(property(get = __cordl_internal_get_runtrackcount, put = __cordl_internal_set_runtrackcount)) int32_t runtrackcount;
 
   /// @brief Field runmatch, offset 0x60, size 0x8
-  __declspec(property(get = __get_runmatch, put = __set_runmatch))::System::Text::RegularExpressions::Match* runmatch;
+  __declspec(property(get = __cordl_internal_get_runmatch, put = __cordl_internal_set_runmatch))::System::Text::RegularExpressions::Match* runmatch;
 
   /// @brief Field runregex, offset 0x68, size 0x8
-  __declspec(property(get = __get_runregex, put = __set_runregex))::System::Text::RegularExpressions::Regex* runregex;
+  __declspec(property(get = __cordl_internal_get_runregex, put = __cordl_internal_set_runregex))::System::Text::RegularExpressions::Regex* runregex;
 
   /// @brief Field _timeout, offset 0x70, size 0x4
-  __declspec(property(get = __get__timeout, put = __set__timeout)) int32_t _timeout;
+  __declspec(property(get = __cordl_internal_get__timeout, put = __cordl_internal_set__timeout)) int32_t _timeout;
 
   /// @brief Field _ignoreTimeout, offset 0x74, size 0x1
-  __declspec(property(get = __get__ignoreTimeout, put = __set__ignoreTimeout)) bool _ignoreTimeout;
+  __declspec(property(get = __cordl_internal_get__ignoreTimeout, put = __cordl_internal_set__ignoreTimeout)) bool _ignoreTimeout;
 
   /// @brief Field _timeoutOccursAt, offset 0x78, size 0x4
-  __declspec(property(get = __get__timeoutOccursAt, put = __set__timeoutOccursAt)) int32_t _timeoutOccursAt;
+  __declspec(property(get = __cordl_internal_get__timeoutOccursAt, put = __cordl_internal_set__timeoutOccursAt)) int32_t _timeoutOccursAt;
 
   /// @brief Field _timeoutChecksToSkip, offset 0x7c, size 0x4
-  __declspec(property(get = __get__timeoutChecksToSkip, put = __set__timeoutChecksToSkip)) int32_t _timeoutChecksToSkip;
+  __declspec(property(get = __cordl_internal_get__timeoutChecksToSkip, put = __cordl_internal_set__timeoutChecksToSkip)) int32_t _timeoutChecksToSkip;
 
-  constexpr int32_t& __get_runtextbeg();
+  constexpr int32_t& __cordl_internal_get_runtextbeg();
 
-  constexpr int32_t const& __get_runtextbeg() const;
+  constexpr int32_t const& __cordl_internal_get_runtextbeg() const;
 
-  constexpr void __set_runtextbeg(int32_t value);
+  constexpr void __cordl_internal_set_runtextbeg(int32_t value);
 
-  constexpr int32_t& __get_runtextend();
+  constexpr int32_t& __cordl_internal_get_runtextend();
 
-  constexpr int32_t const& __get_runtextend() const;
+  constexpr int32_t const& __cordl_internal_get_runtextend() const;
 
-  constexpr void __set_runtextend(int32_t value);
+  constexpr void __cordl_internal_set_runtextend(int32_t value);
 
-  constexpr int32_t& __get_runtextstart();
+  constexpr int32_t& __cordl_internal_get_runtextstart();
 
-  constexpr int32_t const& __get_runtextstart() const;
+  constexpr int32_t const& __cordl_internal_get_runtextstart() const;
 
-  constexpr void __set_runtextstart(int32_t value);
+  constexpr void __cordl_internal_set_runtextstart(int32_t value);
 
-  constexpr ::StringW& __get_runtext();
+  constexpr ::StringW& __cordl_internal_get_runtext();
 
-  constexpr ::StringW const& __get_runtext() const;
+  constexpr ::StringW const& __cordl_internal_get_runtext() const;
 
-  constexpr void __set_runtext(::StringW value);
+  constexpr void __cordl_internal_set_runtext(::StringW value);
 
-  constexpr int32_t& __get_runtextpos();
+  constexpr int32_t& __cordl_internal_get_runtextpos();
 
-  constexpr int32_t const& __get_runtextpos() const;
+  constexpr int32_t const& __cordl_internal_get_runtextpos() const;
 
-  constexpr void __set_runtextpos(int32_t value);
+  constexpr void __cordl_internal_set_runtextpos(int32_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_runtrack();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_runtrack();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_runtrack() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_runtrack() const;
 
-  constexpr void __set_runtrack(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_runtrack(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_runtrackpos();
+  constexpr int32_t& __cordl_internal_get_runtrackpos();
 
-  constexpr int32_t const& __get_runtrackpos() const;
+  constexpr int32_t const& __cordl_internal_get_runtrackpos() const;
 
-  constexpr void __set_runtrackpos(int32_t value);
+  constexpr void __cordl_internal_set_runtrackpos(int32_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_runstack();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_runstack();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_runstack() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_runstack() const;
 
-  constexpr void __set_runstack(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_runstack(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_runstackpos();
+  constexpr int32_t& __cordl_internal_get_runstackpos();
 
-  constexpr int32_t const& __get_runstackpos() const;
+  constexpr int32_t const& __cordl_internal_get_runstackpos() const;
 
-  constexpr void __set_runstackpos(int32_t value);
+  constexpr void __cordl_internal_set_runstackpos(int32_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_runcrawl();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_runcrawl();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_runcrawl() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_runcrawl() const;
 
-  constexpr void __set_runcrawl(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_runcrawl(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_runcrawlpos();
+  constexpr int32_t& __cordl_internal_get_runcrawlpos();
 
-  constexpr int32_t const& __get_runcrawlpos() const;
+  constexpr int32_t const& __cordl_internal_get_runcrawlpos() const;
 
-  constexpr void __set_runcrawlpos(int32_t value);
+  constexpr void __cordl_internal_set_runcrawlpos(int32_t value);
 
-  constexpr int32_t& __get_runtrackcount();
+  constexpr int32_t& __cordl_internal_get_runtrackcount();
 
-  constexpr int32_t const& __get_runtrackcount() const;
+  constexpr int32_t const& __cordl_internal_get_runtrackcount() const;
 
-  constexpr void __set_runtrackcount(int32_t value);
+  constexpr void __cordl_internal_set_runtrackcount(int32_t value);
 
-  constexpr ::System::Text::RegularExpressions::Match*& __get_runmatch();
+  constexpr ::System::Text::RegularExpressions::Match*& __cordl_internal_get_runmatch();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Match*> const& __get_runmatch() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Match*> const& __cordl_internal_get_runmatch() const;
 
-  constexpr void __set_runmatch(::System::Text::RegularExpressions::Match* value);
+  constexpr void __cordl_internal_set_runmatch(::System::Text::RegularExpressions::Match* value);
 
-  constexpr ::System::Text::RegularExpressions::Regex*& __get_runregex();
+  constexpr ::System::Text::RegularExpressions::Regex*& __cordl_internal_get_runregex();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Regex*> const& __get_runregex() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::Regex*> const& __cordl_internal_get_runregex() const;
 
-  constexpr void __set_runregex(::System::Text::RegularExpressions::Regex* value);
+  constexpr void __cordl_internal_set_runregex(::System::Text::RegularExpressions::Regex* value);
 
-  constexpr int32_t& __get__timeout();
+  constexpr int32_t& __cordl_internal_get__timeout();
 
-  constexpr int32_t const& __get__timeout() const;
+  constexpr int32_t const& __cordl_internal_get__timeout() const;
 
-  constexpr void __set__timeout(int32_t value);
+  constexpr void __cordl_internal_set__timeout(int32_t value);
 
-  constexpr bool& __get__ignoreTimeout();
+  constexpr bool& __cordl_internal_get__ignoreTimeout();
 
-  constexpr bool const& __get__ignoreTimeout() const;
+  constexpr bool const& __cordl_internal_get__ignoreTimeout() const;
 
-  constexpr void __set__ignoreTimeout(bool value);
+  constexpr void __cordl_internal_set__ignoreTimeout(bool value);
 
-  constexpr int32_t& __get__timeoutOccursAt();
+  constexpr int32_t& __cordl_internal_get__timeoutOccursAt();
 
-  constexpr int32_t const& __get__timeoutOccursAt() const;
+  constexpr int32_t const& __cordl_internal_get__timeoutOccursAt() const;
 
-  constexpr void __set__timeoutOccursAt(int32_t value);
+  constexpr void __cordl_internal_set__timeoutOccursAt(int32_t value);
 
-  constexpr int32_t& __get__timeoutChecksToSkip();
+  constexpr int32_t& __cordl_internal_get__timeoutChecksToSkip();
 
-  constexpr int32_t const& __get__timeoutChecksToSkip() const;
+  constexpr int32_t const& __cordl_internal_get__timeoutChecksToSkip() const;
 
-  constexpr void __set__timeoutChecksToSkip(int32_t value);
+  constexpr void __cordl_internal_set__timeoutChecksToSkip(int32_t value);
 
   static inline ::System::Text::RegularExpressions::RegexRunner* New_ctor();
 

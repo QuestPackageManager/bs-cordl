@@ -67,7 +67,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6818))
 // CS Name: ::VisualTreeStyleUpdaterTraversal::<>c*
 class CORDL_TYPE __VisualTreeStyleUpdaterTraversal____c : public ::System::Object {
@@ -119,7 +119,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Visua
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7459))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7459))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6819))
 // CS Name: ::UnityEngine.UIElements::VisualTreeStyleUpdaterTraversal*
 class CORDL_TYPE VisualTreeStyleUpdaterTraversal : public ::UnityEngine::UIElements::StyleSheets::HierarchyTraversal {
@@ -128,80 +128,86 @@ public:
   using __c = ::UnityEngine::UIElements::__VisualTreeStyleUpdaterTraversal____c;
 
   /// @brief Field m_ProcessVarContext, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_ProcessVarContext, put = __set_m_ProcessVarContext))::UnityEngine::UIElements::StyleVariableContext* m_ProcessVarContext;
+  __declspec(property(get = __cordl_internal_get_m_ProcessVarContext, put = __cordl_internal_set_m_ProcessVarContext))::UnityEngine::UIElements::StyleVariableContext* m_ProcessVarContext;
 
   /// @brief Field m_UpdateList, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_UpdateList, put = __set_m_UpdateList))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_UpdateList;
+  __declspec(property(get = __cordl_internal_get_m_UpdateList,
+                      put = __cordl_internal_set_m_UpdateList))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_UpdateList;
 
   /// @brief Field m_ParentList, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_ParentList, put = __set_m_ParentList))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_ParentList;
+  __declspec(property(get = __cordl_internal_get_m_ParentList,
+                      put = __cordl_internal_set_m_ParentList))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_ParentList;
 
   /// @brief Field m_TempMatchResults, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_TempMatchResults,
-                      put = __set_m_TempMatchResults))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* m_TempMatchResults;
+  __declspec(property(get = __cordl_internal_get_m_TempMatchResults,
+                      put = __cordl_internal_set_m_TempMatchResults))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* m_TempMatchResults;
 
   /// @brief Field <currentPixelsPerPoint>k__BackingField, offset 0x30, size 0x4
-  __declspec(property(get = __get__currentPixelsPerPoint_k__BackingField, put = __set__currentPixelsPerPoint_k__BackingField)) float_t _currentPixelsPerPoint_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__currentPixelsPerPoint_k__BackingField,
+                      put = __cordl_internal_set__currentPixelsPerPoint_k__BackingField)) float_t _currentPixelsPerPoint_k__BackingField;
 
   /// @brief Field m_StyleMatchingContext, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_StyleMatchingContext, put = __set_m_StyleMatchingContext))::UnityEngine::UIElements::StyleMatchingContext* m_StyleMatchingContext;
+  __declspec(property(get = __cordl_internal_get_m_StyleMatchingContext, put = __cordl_internal_set_m_StyleMatchingContext))::UnityEngine::UIElements::StyleMatchingContext* m_StyleMatchingContext;
 
   /// @brief Field m_StylePropertyReader, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_StylePropertyReader, put = __set_m_StylePropertyReader))::UnityEngine::UIElements::StyleSheets::StylePropertyReader* m_StylePropertyReader;
+  __declspec(property(get = __cordl_internal_get_m_StylePropertyReader,
+                      put = __cordl_internal_set_m_StylePropertyReader))::UnityEngine::UIElements::StyleSheets::StylePropertyReader* m_StylePropertyReader;
 
   /// @brief Field m_AnimatedProperties, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_AnimatedProperties,
-                      put = __set_m_AnimatedProperties))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* m_AnimatedProperties;
+  __declspec(property(get = __cordl_internal_get_m_AnimatedProperties,
+                      put = __cordl_internal_set_m_AnimatedProperties))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* m_AnimatedProperties;
 
   __declspec(property(get = get_currentPixelsPerPoint, put = set_currentPixelsPerPoint)) float_t currentPixelsPerPoint;
 
-  constexpr ::UnityEngine::UIElements::StyleVariableContext*& __get_m_ProcessVarContext();
+  constexpr ::UnityEngine::UIElements::StyleVariableContext*& __cordl_internal_get_m_ProcessVarContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleVariableContext*> const& __get_m_ProcessVarContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleVariableContext*> const& __cordl_internal_get_m_ProcessVarContext() const;
 
-  constexpr void __set_m_ProcessVarContext(::UnityEngine::UIElements::StyleVariableContext* value);
+  constexpr void __cordl_internal_set_m_ProcessVarContext(::UnityEngine::UIElements::StyleVariableContext* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __get_m_UpdateList();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_UpdateList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __get_m_UpdateList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_UpdateList() const;
 
-  constexpr void __set_m_UpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
+  constexpr void __cordl_internal_set_m_UpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __get_m_ParentList();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_ParentList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __get_m_ParentList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_ParentList() const;
 
-  constexpr void __set_m_ParentList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
+  constexpr void __cordl_internal_set_m_ParentList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*& __get_m_TempMatchResults();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*& __cordl_internal_get_m_TempMatchResults();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*> const& __get_m_TempMatchResults() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*> const&
+  __cordl_internal_get_m_TempMatchResults() const;
 
-  constexpr void __set_m_TempMatchResults(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* value);
+  constexpr void __cordl_internal_set_m_TempMatchResults(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* value);
 
-  constexpr float_t& __get__currentPixelsPerPoint_k__BackingField();
+  constexpr float_t& __cordl_internal_get__currentPixelsPerPoint_k__BackingField();
 
-  constexpr float_t const& __get__currentPixelsPerPoint_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__currentPixelsPerPoint_k__BackingField() const;
 
-  constexpr void __set__currentPixelsPerPoint_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__currentPixelsPerPoint_k__BackingField(float_t value);
 
-  constexpr ::UnityEngine::UIElements::StyleMatchingContext*& __get_m_StyleMatchingContext();
+  constexpr ::UnityEngine::UIElements::StyleMatchingContext*& __cordl_internal_get_m_StyleMatchingContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleMatchingContext*> const& __get_m_StyleMatchingContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleMatchingContext*> const& __cordl_internal_get_m_StyleMatchingContext() const;
 
-  constexpr void __set_m_StyleMatchingContext(::UnityEngine::UIElements::StyleMatchingContext* value);
+  constexpr void __cordl_internal_set_m_StyleMatchingContext(::UnityEngine::UIElements::StyleMatchingContext* value);
 
-  constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyReader*& __get_m_StylePropertyReader();
+  constexpr ::UnityEngine::UIElements::StyleSheets::StylePropertyReader*& __cordl_internal_get_m_StylePropertyReader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*> const& __get_m_StylePropertyReader() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StyleSheets::StylePropertyReader*> const& __cordl_internal_get_m_StylePropertyReader() const;
 
-  constexpr void __set_m_StylePropertyReader(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* value);
+  constexpr void __cordl_internal_set_m_StylePropertyReader(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*& __get_m_AnimatedProperties();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*& __cordl_internal_get_m_AnimatedProperties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*> const& __get_m_AnimatedProperties() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*> const&
+  __cordl_internal_get_m_AnimatedProperties() const;
 
-  constexpr void __set_m_AnimatedProperties(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* value);
+  constexpr void __cordl_internal_set_m_AnimatedProperties(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* value);
 
   /// @brief Method get_currentPixelsPerPoint, addr 0x2dc1e6c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_currentPixelsPerPoint();

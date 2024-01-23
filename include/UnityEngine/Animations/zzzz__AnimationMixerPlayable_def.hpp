@@ -32,7 +32,7 @@ MARK_VAL_T(::UnityEngine::Animations::AnimationMixerPlayable);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10440))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10440))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14899))
 // CS Name: ::UnityEngine.Animations::AnimationMixerPlayable
 struct CORDL_TYPE AnimationMixerPlayable {

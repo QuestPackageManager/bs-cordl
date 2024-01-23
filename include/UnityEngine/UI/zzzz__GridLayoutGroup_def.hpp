@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::GridLayoutGroup);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13078))
 // CS Name: ::GridLayoutGroup::Corner
 struct CORDL_TYPE __GridLayoutGroup__Corner {
@@ -100,7 +100,7 @@ static_assert(offsetof(::UnityEngine::UI::__GridLayoutGroup__Corner, value__) ==
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13079))
 // CS Name: ::GridLayoutGroup::Axis
 struct CORDL_TYPE __GridLayoutGroup__Axis {
@@ -150,7 +150,7 @@ static_assert(offsetof(::UnityEngine::UI::__GridLayoutGroup__Axis, value__) == 0
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13080))
 // CS Name: ::GridLayoutGroup::Constraint
 struct CORDL_TYPE __GridLayoutGroup__Constraint {
@@ -204,8 +204,8 @@ static_assert(offsetof(::UnityEngine::UI::__GridLayoutGroup__Constraint, value__
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13091)), TypeDefinitionIndex(TypeDefinitionIndex(13079)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13080)), TypeDefinitionIndex(TypeDefinitionIndex(13078))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13081)) CS Name: ::UnityEngine.UI::GridLayoutGroup*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13078)), TypeDefinitionIndex(TypeDefinitionIndex(13079)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13080)), TypeDefinitionIndex(TypeDefinitionIndex(13091))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13081)) CS Name: ::UnityEngine.UI::GridLayoutGroup*
 class CORDL_TYPE GridLayoutGroup : public ::UnityEngine::UI::LayoutGroup {
 public:
   // Declarations
@@ -216,22 +216,22 @@ public:
   using Corner = ::UnityEngine::UI::__GridLayoutGroup__Corner;
 
   /// @brief Field m_StartCorner, offset 0x58, size 0x4
-  __declspec(property(get = __get_m_StartCorner, put = __set_m_StartCorner))::UnityEngine::UI::__GridLayoutGroup__Corner m_StartCorner;
+  __declspec(property(get = __cordl_internal_get_m_StartCorner, put = __cordl_internal_set_m_StartCorner))::UnityEngine::UI::__GridLayoutGroup__Corner m_StartCorner;
 
   /// @brief Field m_StartAxis, offset 0x5c, size 0x4
-  __declspec(property(get = __get_m_StartAxis, put = __set_m_StartAxis))::UnityEngine::UI::__GridLayoutGroup__Axis m_StartAxis;
+  __declspec(property(get = __cordl_internal_get_m_StartAxis, put = __cordl_internal_set_m_StartAxis))::UnityEngine::UI::__GridLayoutGroup__Axis m_StartAxis;
 
   /// @brief Field m_CellSize, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_CellSize, put = __set_m_CellSize))::UnityEngine::Vector2 m_CellSize;
+  __declspec(property(get = __cordl_internal_get_m_CellSize, put = __cordl_internal_set_m_CellSize))::UnityEngine::Vector2 m_CellSize;
 
   /// @brief Field m_Spacing, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_Spacing, put = __set_m_Spacing))::UnityEngine::Vector2 m_Spacing;
+  __declspec(property(get = __cordl_internal_get_m_Spacing, put = __cordl_internal_set_m_Spacing))::UnityEngine::Vector2 m_Spacing;
 
   /// @brief Field m_Constraint, offset 0x70, size 0x4
-  __declspec(property(get = __get_m_Constraint, put = __set_m_Constraint))::UnityEngine::UI::__GridLayoutGroup__Constraint m_Constraint;
+  __declspec(property(get = __cordl_internal_get_m_Constraint, put = __cordl_internal_set_m_Constraint))::UnityEngine::UI::__GridLayoutGroup__Constraint m_Constraint;
 
   /// @brief Field m_ConstraintCount, offset 0x74, size 0x4
-  __declspec(property(get = __get_m_ConstraintCount, put = __set_m_ConstraintCount)) int32_t m_ConstraintCount;
+  __declspec(property(get = __cordl_internal_get_m_ConstraintCount, put = __cordl_internal_set_m_ConstraintCount)) int32_t m_ConstraintCount;
 
   __declspec(property(get = get_startCorner, put = set_startCorner))::UnityEngine::UI::__GridLayoutGroup__Corner startCorner;
 
@@ -245,41 +245,41 @@ public:
 
   __declspec(property(get = get_constraintCount, put = set_constraintCount)) int32_t constraintCount;
 
-  constexpr ::UnityEngine::UI::__GridLayoutGroup__Corner& __get_m_StartCorner();
+  constexpr ::UnityEngine::UI::__GridLayoutGroup__Corner& __cordl_internal_get_m_StartCorner();
 
-  constexpr ::UnityEngine::UI::__GridLayoutGroup__Corner const& __get_m_StartCorner() const;
+  constexpr ::UnityEngine::UI::__GridLayoutGroup__Corner const& __cordl_internal_get_m_StartCorner() const;
 
-  constexpr void __set_m_StartCorner(::UnityEngine::UI::__GridLayoutGroup__Corner value);
+  constexpr void __cordl_internal_set_m_StartCorner(::UnityEngine::UI::__GridLayoutGroup__Corner value);
 
-  constexpr ::UnityEngine::UI::__GridLayoutGroup__Axis& __get_m_StartAxis();
+  constexpr ::UnityEngine::UI::__GridLayoutGroup__Axis& __cordl_internal_get_m_StartAxis();
 
-  constexpr ::UnityEngine::UI::__GridLayoutGroup__Axis const& __get_m_StartAxis() const;
+  constexpr ::UnityEngine::UI::__GridLayoutGroup__Axis const& __cordl_internal_get_m_StartAxis() const;
 
-  constexpr void __set_m_StartAxis(::UnityEngine::UI::__GridLayoutGroup__Axis value);
+  constexpr void __cordl_internal_set_m_StartAxis(::UnityEngine::UI::__GridLayoutGroup__Axis value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_CellSize();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_CellSize();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_CellSize() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_CellSize() const;
 
-  constexpr void __set_m_CellSize(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_CellSize(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_Spacing();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_Spacing();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_Spacing() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_Spacing() const;
 
-  constexpr void __set_m_Spacing(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_Spacing(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::UI::__GridLayoutGroup__Constraint& __get_m_Constraint();
+  constexpr ::UnityEngine::UI::__GridLayoutGroup__Constraint& __cordl_internal_get_m_Constraint();
 
-  constexpr ::UnityEngine::UI::__GridLayoutGroup__Constraint const& __get_m_Constraint() const;
+  constexpr ::UnityEngine::UI::__GridLayoutGroup__Constraint const& __cordl_internal_get_m_Constraint() const;
 
-  constexpr void __set_m_Constraint(::UnityEngine::UI::__GridLayoutGroup__Constraint value);
+  constexpr void __cordl_internal_set_m_Constraint(::UnityEngine::UI::__GridLayoutGroup__Constraint value);
 
-  constexpr int32_t& __get_m_ConstraintCount();
+  constexpr int32_t& __cordl_internal_get_m_ConstraintCount();
 
-  constexpr int32_t const& __get_m_ConstraintCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_ConstraintCount() const;
 
-  constexpr void __set_m_ConstraintCount(int32_t value);
+  constexpr void __cordl_internal_set_m_ConstraintCount(int32_t value);
 
   /// @brief Method get_startCorner, addr 0x2d74afc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::__GridLayoutGroup__Corner get_startCorner();

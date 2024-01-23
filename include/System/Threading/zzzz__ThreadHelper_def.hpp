@@ -26,41 +26,41 @@ MARK_REF_PTR_T(::System::Threading::ThreadHelper);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2722))
 // CS Name: ::System.Threading::ThreadHelper*
 class CORDL_TYPE ThreadHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _start, offset 0x10, size 0x8
-  __declspec(property(get = __get__start, put = __set__start))::System::Delegate* _start;
+  __declspec(property(get = __cordl_internal_get__start, put = __cordl_internal_set__start))::System::Delegate* _start;
 
   /// @brief Field _startArg, offset 0x18, size 0x8
-  __declspec(property(get = __get__startArg, put = __set__startArg))::System::Object* _startArg;
+  __declspec(property(get = __cordl_internal_get__startArg, put = __cordl_internal_set__startArg))::System::Object* _startArg;
 
   /// @brief Field _executionContext, offset 0x20, size 0x8
-  __declspec(property(get = __get__executionContext, put = __set__executionContext))::System::Threading::ExecutionContext* _executionContext;
+  __declspec(property(get = __cordl_internal_get__executionContext, put = __cordl_internal_set__executionContext))::System::Threading::ExecutionContext* _executionContext;
 
   /// @brief Field _ccb, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__ccb, put = setStaticF__ccb))::System::Threading::ContextCallback* _ccb;
 
-  constexpr ::System::Delegate*& __get__start();
+  constexpr ::System::Delegate*& __cordl_internal_get__start();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Delegate*> const& __get__start() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Delegate*> const& __cordl_internal_get__start() const;
 
-  constexpr void __set__start(::System::Delegate* value);
+  constexpr void __cordl_internal_set__start(::System::Delegate* value);
 
-  constexpr ::System::Object*& __get__startArg();
+  constexpr ::System::Object*& __cordl_internal_get__startArg();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__startArg() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__startArg() const;
 
-  constexpr void __set__startArg(::System::Object* value);
+  constexpr void __cordl_internal_set__startArg(::System::Object* value);
 
-  constexpr ::System::Threading::ExecutionContext*& __get__executionContext();
+  constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get__executionContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __get__executionContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __cordl_internal_get__executionContext() const;
 
-  constexpr void __set__executionContext(::System::Threading::ExecutionContext* value);
+  constexpr void __cordl_internal_set__executionContext(::System::Threading::ExecutionContext* value);
 
   static inline void setStaticF__ccb(::System::Threading::ContextCallback* value);
 

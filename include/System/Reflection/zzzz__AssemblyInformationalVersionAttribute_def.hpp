@@ -15,20 +15,21 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyInformationalVersionAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3452))
 // CS Name: ::System.Reflection::AssemblyInformationalVersionAttribute*
 class CORDL_TYPE AssemblyInformationalVersionAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <InformationalVersion>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__InformationalVersion_k__BackingField, put = __set__InformationalVersion_k__BackingField))::StringW _InformationalVersion_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__InformationalVersion_k__BackingField,
+                      put = __cordl_internal_set__InformationalVersion_k__BackingField))::StringW _InformationalVersion_k__BackingField;
 
-  constexpr ::StringW& __get__InformationalVersion_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__InformationalVersion_k__BackingField();
 
-  constexpr ::StringW const& __get__InformationalVersion_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__InformationalVersion_k__BackingField() const;
 
-  constexpr void __set__InformationalVersion_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__InformationalVersion_k__BackingField(::StringW value);
 
   static inline ::System::Reflection::AssemblyInformationalVersionAttribute* New_ctor(::StringW informationalVersion);
 

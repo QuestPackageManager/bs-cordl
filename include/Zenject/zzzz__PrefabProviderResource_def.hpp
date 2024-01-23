@@ -21,14 +21,14 @@ MARK_REF_PTR_T(::Zenject::PrefabProviderResource);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11233))
 // CS Name: ::Zenject::PrefabProviderResource*
 class CORDL_TYPE PrefabProviderResource : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _resourcePath, offset 0x10, size 0x8
-  __declspec(property(get = __get__resourcePath, put = __set__resourcePath))::StringW _resourcePath;
+  __declspec(property(get = __cordl_internal_get__resourcePath, put = __cordl_internal_set__resourcePath))::StringW _resourcePath;
 
   /// @brief Convert operator to "::Zenject::IPrefabProvider"
   constexpr operator ::Zenject::IPrefabProvider*() noexcept;
@@ -36,11 +36,11 @@ public:
   /// @brief Convert to "::Zenject::IPrefabProvider"
   constexpr ::Zenject::IPrefabProvider* i___Zenject__IPrefabProvider() noexcept;
 
-  constexpr ::StringW& __get__resourcePath();
+  constexpr ::StringW& __cordl_internal_get__resourcePath();
 
-  constexpr ::StringW const& __get__resourcePath() const;
+  constexpr ::StringW const& __cordl_internal_get__resourcePath() const;
 
-  constexpr void __set__resourcePath(::StringW value);
+  constexpr void __cordl_internal_set__resourcePath(::StringW value);
 
   static inline ::Zenject::PrefabProviderResource* New_ctor(::StringW resourcePath);
 
@@ -48,7 +48,7 @@ public:
   inline void _ctor(::StringW resourcePath);
 
   /// @brief Method GetPrefab, addr 0x2f09c64, size 0xcc, virtual true, abstract: false, final true
-  inline ::UnityEngine::Object* GetPrefab();
+  inline ::UnityW<::UnityEngine::Object> GetPrefab();
 
   // Ctor Parameters [CppParam { name: "", ty: "PrefabProviderResource", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

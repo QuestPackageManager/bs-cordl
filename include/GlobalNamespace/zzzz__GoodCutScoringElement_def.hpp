@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__GoodCutScoringElement__Pool);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5320)), TypeDefinitionIndex(TypeDefinitionIndex(5323))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5320)), TypeDefinitionIndex(TypeDefinitionIndex(5323))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5325))
 // CS Name: ::GoodCutScoringElement*
 class CORDL_TYPE GoodCutScoringElement : public ::GlobalNamespace::ScoringElement {
@@ -47,14 +47,16 @@ public:
   using Pool = ::GlobalNamespace::__GoodCutScoringElement__Pool;
 
   /// @brief Field _cutScoreBuffer, offset 0x28, size 0x8
-  __declspec(property(get = __get__cutScoreBuffer, put = __set__cutScoreBuffer))::GlobalNamespace::CutScoreBuffer* _cutScoreBuffer;
+  __declspec(property(get = __cordl_internal_get__cutScoreBuffer, put = __cordl_internal_set__cutScoreBuffer))::GlobalNamespace::CutScoreBuffer* _cutScoreBuffer;
 
   /// @brief Field _multiplierEventType, offset 0x30, size 0x4
-  __declspec(property(get = __get__multiplierEventType, put = __set__multiplierEventType))::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType _multiplierEventType;
+  __declspec(property(get = __cordl_internal_get__multiplierEventType,
+                      put = __cordl_internal_set__multiplierEventType))::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType _multiplierEventType;
 
   /// @brief Field _wouldBeCorrectCutBestPossibleMultiplierEventType, offset 0x34, size 0x4
-  __declspec(property(get = __get__wouldBeCorrectCutBestPossibleMultiplierEventType,
-                      put = __set__wouldBeCorrectCutBestPossibleMultiplierEventType))::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType _wouldBeCorrectCutBestPossibleMultiplierEventType;
+  __declspec(property(get = __cordl_internal_get__wouldBeCorrectCutBestPossibleMultiplierEventType,
+                      put = __cordl_internal_set__wouldBeCorrectCutBestPossibleMultiplierEventType))::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType
+      _wouldBeCorrectCutBestPossibleMultiplierEventType;
 
   __declspec(property(get = get_cutScore)) int32_t cutScore;
 
@@ -72,23 +74,23 @@ public:
   /// @brief Convert to "::GlobalNamespace::ICutScoreBufferDidFinishReceiver"
   constexpr ::GlobalNamespace::ICutScoreBufferDidFinishReceiver* i___GlobalNamespace__ICutScoreBufferDidFinishReceiver() noexcept;
 
-  constexpr ::GlobalNamespace::CutScoreBuffer*& __get__cutScoreBuffer();
+  constexpr ::GlobalNamespace::CutScoreBuffer*& __cordl_internal_get__cutScoreBuffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CutScoreBuffer*> const& __get__cutScoreBuffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CutScoreBuffer*> const& __cordl_internal_get__cutScoreBuffer() const;
 
-  constexpr void __set__cutScoreBuffer(::GlobalNamespace::CutScoreBuffer* value);
+  constexpr void __cordl_internal_set__cutScoreBuffer(::GlobalNamespace::CutScoreBuffer* value);
 
-  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType& __get__multiplierEventType();
+  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType& __cordl_internal_get__multiplierEventType();
 
-  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const& __get__multiplierEventType() const;
+  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const& __cordl_internal_get__multiplierEventType() const;
 
-  constexpr void __set__multiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value);
+  constexpr void __cordl_internal_set__multiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value);
 
-  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType& __get__wouldBeCorrectCutBestPossibleMultiplierEventType();
+  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType& __cordl_internal_get__wouldBeCorrectCutBestPossibleMultiplierEventType();
 
-  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const& __get__wouldBeCorrectCutBestPossibleMultiplierEventType() const;
+  constexpr ::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType const& __cordl_internal_get__wouldBeCorrectCutBestPossibleMultiplierEventType() const;
 
-  constexpr void __set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value);
+  constexpr void __cordl_internal_set__wouldBeCorrectCutBestPossibleMultiplierEventType(::GlobalNamespace::__ScoreMultiplierCounter__MultiplierEventType value);
 
   /// @brief Method get_cutScore, addr 0x2267eb4, size 0x40, virtual true, abstract: false, final false
   inline int32_t get_cutScore();
@@ -158,8 +160,8 @@ static_assert(offsetof(::GlobalNamespace::GoodCutScoringElement, ____wouldBeCorr
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5325)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5322), inst: 2814 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(5322))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5324)) CS Name: ::GoodCutScoringElement::Pool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5322)), TypeDefinitionIndex(TypeDefinitionIndex(5325)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5322), inst: 2814
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5324)) CS Name: ::GoodCutScoringElement::Pool*
 class CORDL_TYPE __GoodCutScoringElement__Pool : public ::GlobalNamespace::__ScoringElement__Pool_1<::GlobalNamespace::GoodCutScoringElement*> {
 public:
   // Declarations

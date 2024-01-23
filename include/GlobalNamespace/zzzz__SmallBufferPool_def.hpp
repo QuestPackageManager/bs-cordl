@@ -20,50 +20,50 @@ MARK_REF_PTR_T(::GlobalNamespace::SmallBufferPool);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12958))
 // CS Name: ::SmallBufferPool*
 class CORDL_TYPE SmallBufferPool : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _cacheSmall, offset 0x10, size 0x8
-  __declspec(property(get = __get__cacheSmall, put = __set__cacheSmall))::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* _cacheSmall;
+  __declspec(property(get = __cordl_internal_get__cacheSmall, put = __cordl_internal_set__cacheSmall))::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* _cacheSmall;
 
   /// @brief Field _cacheMedium, offset 0x18, size 0x8
-  __declspec(property(get = __get__cacheMedium, put = __set__cacheMedium))::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* _cacheMedium;
+  __declspec(property(get = __cordl_internal_get__cacheMedium, put = __cordl_internal_set__cacheMedium))::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* _cacheMedium;
 
   /// @brief Field _cacheLarge, offset 0x20, size 0x8
-  __declspec(property(get = __get__cacheLarge, put = __set__cacheLarge))::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* _cacheLarge;
+  __declspec(property(get = __cordl_internal_get__cacheLarge, put = __cordl_internal_set__cacheLarge))::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* _cacheLarge;
 
   /// @brief Field _cacheMax, offset 0x28, size 0x8
-  __declspec(property(get = __get__cacheMax, put = __set__cacheMax))::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* _cacheMax;
+  __declspec(property(get = __cordl_internal_get__cacheMax, put = __cordl_internal_set__cacheMax))::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* _cacheMax;
 
   /// @brief Field instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_instance, put = setStaticF_instance))::GlobalNamespace::SmallBufferPool* instance;
 
-  constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*& __get__cacheSmall();
+  constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*& __cordl_internal_get__cacheSmall();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __get__cacheSmall() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __cordl_internal_get__cacheSmall() const;
 
-  constexpr void __set__cacheSmall(::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* value);
+  constexpr void __cordl_internal_set__cacheSmall(::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*& __get__cacheMedium();
+  constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*& __cordl_internal_get__cacheMedium();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __get__cacheMedium() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __cordl_internal_get__cacheMedium() const;
 
-  constexpr void __set__cacheMedium(::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* value);
+  constexpr void __cordl_internal_set__cacheMedium(::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*& __get__cacheLarge();
+  constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*& __cordl_internal_get__cacheLarge();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __get__cacheLarge() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __cordl_internal_get__cacheLarge() const;
 
-  constexpr void __set__cacheLarge(::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* value);
+  constexpr void __cordl_internal_set__cacheLarge(::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*& __get__cacheMax();
+  constexpr ::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*& __cordl_internal_get__cacheMax();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __get__cacheMax() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> const& __cordl_internal_get__cacheMax() const;
 
-  constexpr void __set__cacheMax(::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* value);
+  constexpr void __cordl_internal_set__cacheMax(::System::Collections::Generic::List_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* value);
 
   static inline void setStaticF_instance(::GlobalNamespace::SmallBufferPool* value);
 

@@ -29,17 +29,17 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::UnixIPInterfaceProperties);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9250))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9250))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9290))
 // CS Name: ::System.Net.NetworkInformation::UnixIPInterfaceProperties*
 class CORDL_TYPE UnixIPInterfaceProperties : public ::System::Net::NetworkInformation::IPInterfaceProperties {
 public:
   // Declarations
   /// @brief Field iface, offset 0x10, size 0x8
-  __declspec(property(get = __get_iface, put = __set_iface))::System::Net::NetworkInformation::UnixNetworkInterface* iface;
+  __declspec(property(get = __cordl_internal_get_iface, put = __cordl_internal_set_iface))::System::Net::NetworkInformation::UnixNetworkInterface* iface;
 
   /// @brief Field addresses, offset 0x18, size 0x8
-  __declspec(property(get = __get_addresses, put = __set_addresses))::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses;
+  __declspec(property(get = __cordl_internal_get_addresses, put = __cordl_internal_set_addresses))::System::Collections::Generic::List_1<::System::Net::IPAddress*>* addresses;
 
   /// @brief Field ns, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ns, put = setStaticF_ns))::System::Text::RegularExpressions::Regex* ns;
@@ -49,17 +49,17 @@ public:
 
   __declspec(property(get = get_UnicastAddresses))::System::Net::NetworkInformation::UnicastIPAddressInformationCollection* UnicastAddresses;
 
-  constexpr ::System::Net::NetworkInformation::UnixNetworkInterface*& __get_iface();
+  constexpr ::System::Net::NetworkInformation::UnixNetworkInterface*& __cordl_internal_get_iface();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::NetworkInformation::UnixNetworkInterface*> const& __get_iface() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::NetworkInformation::UnixNetworkInterface*> const& __cordl_internal_get_iface() const;
 
-  constexpr void __set_iface(::System::Net::NetworkInformation::UnixNetworkInterface* value);
+  constexpr void __cordl_internal_set_iface(::System::Net::NetworkInformation::UnixNetworkInterface* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*& __get_addresses();
+  constexpr ::System::Collections::Generic::List_1<::System::Net::IPAddress*>*& __cordl_internal_get_addresses();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Net::IPAddress*>*> const& __get_addresses() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Net::IPAddress*>*> const& __cordl_internal_get_addresses() const;
 
-  constexpr void __set_addresses(::System::Collections::Generic::List_1<::System::Net::IPAddress*>* value);
+  constexpr void __cordl_internal_set_addresses(::System::Collections::Generic::List_1<::System::Net::IPAddress*>* value);
 
   static inline void setStaticF_ns(::System::Text::RegularExpressions::Regex* value);
 

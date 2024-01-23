@@ -28,20 +28,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(865))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RsaCoreEngine*
 class CORDL_TYPE RsaCoreEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field key, offset 0x10, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key;
 
   /// @brief Field forEncryption, offset 0x18, size 0x1
-  __declspec(property(get = __get_forEncryption, put = __set_forEncryption)) bool forEncryption;
+  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   /// @brief Field bitSize, offset 0x1c, size 0x4
-  __declspec(property(get = __get_bitSize, put = __set_bitSize)) int32_t bitSize;
+  __declspec(property(get = __cordl_internal_get_bitSize, put = __cordl_internal_set_bitSize)) int32_t bitSize;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IRsa"
   constexpr operator ::Org::BouncyCastle::Crypto::IRsa*() noexcept;
@@ -49,23 +49,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IRsa"
   constexpr ::Org::BouncyCastle::Crypto::IRsa* i___Org__BouncyCastle__Crypto__IRsa() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __get_key();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
+  constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
 
-  constexpr bool& __get_forEncryption();
+  constexpr bool& __cordl_internal_get_forEncryption();
 
-  constexpr bool const& __get_forEncryption() const;
+  constexpr bool const& __cordl_internal_get_forEncryption() const;
 
-  constexpr void __set_forEncryption(bool value);
+  constexpr void __cordl_internal_set_forEncryption(bool value);
 
-  constexpr int32_t& __get_bitSize();
+  constexpr int32_t& __cordl_internal_get_bitSize();
 
-  constexpr int32_t const& __get_bitSize() const;
+  constexpr int32_t const& __cordl_internal_get_bitSize() const;
 
-  constexpr void __set_bitSize(int32_t value);
+  constexpr void __cordl_internal_set_bitSize(int32_t value);
 
   /// @brief Method CheckInitialised, addr 0xee07a0, size 0x60, virtual false, abstract: false, final false
   inline void CheckInitialised();

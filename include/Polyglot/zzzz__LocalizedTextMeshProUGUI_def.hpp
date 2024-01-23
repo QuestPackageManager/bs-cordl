@@ -25,9 +25,9 @@ MARK_REF_PTR_T(::Polyglot::LocalizedTextMeshProUGUI);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Polyglot {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15565), inst: 4297 }), TypeDefinitionIndex(TypeDefinitionIndex(12310)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15565))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15568)) CS Name: ::Polyglot::LocalizedTextMeshProUGUI*
-class CORDL_TYPE LocalizedTextMeshProUGUI : public ::Polyglot::LocalizedTextComponent_1<::TMPro::TextMeshProUGUI*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12310)), TypeDefinitionIndex(TypeDefinitionIndex(15565)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15565), inst:
+// 4297 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15568)) CS Name: ::Polyglot::LocalizedTextMeshProUGUI*
+class CORDL_TYPE LocalizedTextMeshProUGUI : public ::Polyglot::LocalizedTextComponent_1<::UnityW<::TMPro::TextMeshProUGUI>> {
 public:
   // Declarations
   /// @brief Method SetText, addr 0x2805ed0, size 0x2c, virtual true, abstract: false, final false

@@ -15,7 +15,7 @@ MARK_VAL_T(::TMPro::TMP_TextElementType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12433))
 // CS Name: ::TMPro::TMP_TextElementType
 struct CORDL_TYPE TMP_TextElementType {

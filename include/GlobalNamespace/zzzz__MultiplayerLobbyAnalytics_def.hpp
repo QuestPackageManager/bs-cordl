@@ -27,29 +27,30 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyAnalytics);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4020))
 // CS Name: ::MultiplayerLobbyAnalytics*
 class CORDL_TYPE MultiplayerLobbyAnalytics : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _gameServerLobbyFlowCoordinator, offset 0x18, size 0x8
-  __declspec(property(get = __get__gameServerLobbyFlowCoordinator, put = __set__gameServerLobbyFlowCoordinator))::GlobalNamespace::GameServerLobbyFlowCoordinator* _gameServerLobbyFlowCoordinator;
+  __declspec(property(get = __cordl_internal_get__gameServerLobbyFlowCoordinator,
+                      put = __cordl_internal_set__gameServerLobbyFlowCoordinator))::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator> _gameServerLobbyFlowCoordinator;
 
   /// @brief Field _analyticsModel, offset 0x20, size 0x8
-  __declspec(property(get = __get__analyticsModel, put = __set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
+  __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
 
-  constexpr ::GlobalNamespace::GameServerLobbyFlowCoordinator*& __get__gameServerLobbyFlowCoordinator();
+  constexpr ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator>& __cordl_internal_get__gameServerLobbyFlowCoordinator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameServerLobbyFlowCoordinator*> const& __get__gameServerLobbyFlowCoordinator() const;
+  constexpr ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator> const& __cordl_internal_get__gameServerLobbyFlowCoordinator() const;
 
-  constexpr void __set__gameServerLobbyFlowCoordinator(::GlobalNamespace::GameServerLobbyFlowCoordinator* value);
+  constexpr void __cordl_internal_set__gameServerLobbyFlowCoordinator(::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator> value);
 
-  constexpr ::GlobalNamespace::IAnalyticsModel*& __get__analyticsModel();
+  constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __get__analyticsModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __cordl_internal_get__analyticsModel() const;
 
-  constexpr void __set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
+  constexpr void __cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
 
   /// @brief Method Awake, addr 0x2224c5c, size 0x178, virtual false, abstract: false, final false
   inline void Awake();
@@ -95,7 +96,7 @@ protected:
 
 public:
   /// @brief Field _gameServerLobbyFlowCoordinator, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::GameServerLobbyFlowCoordinator* ____gameServerLobbyFlowCoordinator;
+  ::UnityW<::GlobalNamespace::GameServerLobbyFlowCoordinator> ____gameServerLobbyFlowCoordinator;
 
   /// @brief Field _analyticsModel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;

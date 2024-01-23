@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::System::Net::__ContextAwareResult____c);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9018))
 // CS Name: ::ContextAwareResult::StateFlags
 struct CORDL_TYPE __ContextAwareResult__StateFlags {
@@ -111,7 +111,7 @@ static_assert(offsetof(::System::Net::__ContextAwareResult__StateFlags, value__)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9019))
 // CS Name: ::ContextAwareResult::<>c*
 class CORDL_TYPE __ContextAwareResult____c : public ::System::Object {
@@ -163,7 +163,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__ContextAwareResul
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 81, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9107)), TypeDefinitionIndex(TypeDefinitionIndex(9018))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9018)), TypeDefinitionIndex(TypeDefinitionIndex(9107))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9020))
 // CS Name: ::System.Net::ContextAwareResult*
 class CORDL_TYPE ContextAwareResult : public ::System::Net::LazyAsyncResult {
@@ -174,31 +174,31 @@ public:
   using StateFlags = ::System::Net::__ContextAwareResult__StateFlags;
 
   /// @brief Field _context, offset 0x40, size 0x8
-  __declspec(property(get = __get__context, put = __set__context))::System::Threading::ExecutionContext* _context;
+  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::System::Threading::ExecutionContext* _context;
 
   /// @brief Field _lock, offset 0x48, size 0x8
-  __declspec(property(get = __get__lock, put = __set__lock))::System::Object* _lock;
+  __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock))::System::Object* _lock;
 
   /// @brief Field _flags, offset 0x50, size 0x1
-  __declspec(property(get = __get__flags, put = __set__flags))::System::Net::__ContextAwareResult__StateFlags _flags;
+  __declspec(property(get = __cordl_internal_get__flags, put = __cordl_internal_set__flags))::System::Net::__ContextAwareResult__StateFlags _flags;
 
-  constexpr ::System::Threading::ExecutionContext*& __get__context();
+  constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get__context();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __get__context() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __cordl_internal_get__context() const;
 
-  constexpr void __set__context(::System::Threading::ExecutionContext* value);
+  constexpr void __cordl_internal_set__context(::System::Threading::ExecutionContext* value);
 
-  constexpr ::System::Object*& __get__lock();
+  constexpr ::System::Object*& __cordl_internal_get__lock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__lock() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__lock() const;
 
-  constexpr void __set__lock(::System::Object* value);
+  constexpr void __cordl_internal_set__lock(::System::Object* value);
 
-  constexpr ::System::Net::__ContextAwareResult__StateFlags& __get__flags();
+  constexpr ::System::Net::__ContextAwareResult__StateFlags& __cordl_internal_get__flags();
 
-  constexpr ::System::Net::__ContextAwareResult__StateFlags const& __get__flags() const;
+  constexpr ::System::Net::__ContextAwareResult__StateFlags const& __cordl_internal_get__flags() const;
 
-  constexpr void __set__flags(::System::Net::__ContextAwareResult__StateFlags value);
+  constexpr void __cordl_internal_set__flags(::System::Net::__ContextAwareResult__StateFlags value);
 
   /// @brief Method SafeCaptureIdentity, addr 0x2987814, size 0x4, virtual false, abstract: false, final false
   inline void SafeCaptureIdentity();

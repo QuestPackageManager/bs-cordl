@@ -20,7 +20,7 @@ MARK_VAL_T(::Zenject::TypeValuePair);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11114))
 // CS Name: ::Zenject::TypeValuePair
 struct CORDL_TYPE TypeValuePair {

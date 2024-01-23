@@ -23,29 +23,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::TeaEngine);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(874))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::TeaEngine*
 class CORDL_TYPE TeaEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _a, offset 0x10, size 0x4
-  __declspec(property(get = __get__a, put = __set__a)) uint32_t _a;
+  __declspec(property(get = __cordl_internal_get__a, put = __cordl_internal_set__a)) uint32_t _a;
 
   /// @brief Field _b, offset 0x14, size 0x4
-  __declspec(property(get = __get__b, put = __set__b)) uint32_t _b;
+  __declspec(property(get = __cordl_internal_get__b, put = __cordl_internal_set__b)) uint32_t _b;
 
   /// @brief Field _c, offset 0x18, size 0x4
-  __declspec(property(get = __get__c, put = __set__c)) uint32_t _c;
+  __declspec(property(get = __cordl_internal_get__c, put = __cordl_internal_set__c)) uint32_t _c;
 
   /// @brief Field _d, offset 0x1c, size 0x4
-  __declspec(property(get = __get__d, put = __set__d)) uint32_t _d;
+  __declspec(property(get = __cordl_internal_get__d, put = __cordl_internal_set__d)) uint32_t _d;
 
   /// @brief Field _initialised, offset 0x20, size 0x1
-  __declspec(property(get = __get__initialised, put = __set__initialised)) bool _initialised;
+  __declspec(property(get = __cordl_internal_get__initialised, put = __cordl_internal_set__initialised)) bool _initialised;
 
   /// @brief Field _forEncryption, offset 0x21, size 0x1
-  __declspec(property(get = __get__forEncryption, put = __set__forEncryption)) bool _forEncryption;
+  __declspec(property(get = __cordl_internal_get__forEncryption, put = __cordl_internal_set__forEncryption)) bool _forEncryption;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -57,41 +57,41 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr uint32_t& __get__a();
+  constexpr uint32_t& __cordl_internal_get__a();
 
-  constexpr uint32_t const& __get__a() const;
+  constexpr uint32_t const& __cordl_internal_get__a() const;
 
-  constexpr void __set__a(uint32_t value);
+  constexpr void __cordl_internal_set__a(uint32_t value);
 
-  constexpr uint32_t& __get__b();
+  constexpr uint32_t& __cordl_internal_get__b();
 
-  constexpr uint32_t const& __get__b() const;
+  constexpr uint32_t const& __cordl_internal_get__b() const;
 
-  constexpr void __set__b(uint32_t value);
+  constexpr void __cordl_internal_set__b(uint32_t value);
 
-  constexpr uint32_t& __get__c();
+  constexpr uint32_t& __cordl_internal_get__c();
 
-  constexpr uint32_t const& __get__c() const;
+  constexpr uint32_t const& __cordl_internal_get__c() const;
 
-  constexpr void __set__c(uint32_t value);
+  constexpr void __cordl_internal_set__c(uint32_t value);
 
-  constexpr uint32_t& __get__d();
+  constexpr uint32_t& __cordl_internal_get__d();
 
-  constexpr uint32_t const& __get__d() const;
+  constexpr uint32_t const& __cordl_internal_get__d() const;
 
-  constexpr void __set__d(uint32_t value);
+  constexpr void __cordl_internal_set__d(uint32_t value);
 
-  constexpr bool& __get__initialised();
+  constexpr bool& __cordl_internal_get__initialised();
 
-  constexpr bool const& __get__initialised() const;
+  constexpr bool const& __cordl_internal_get__initialised() const;
 
-  constexpr void __set__initialised(bool value);
+  constexpr void __cordl_internal_set__initialised(bool value);
 
-  constexpr bool& __get__forEncryption();
+  constexpr bool& __cordl_internal_get__forEncryption();
 
-  constexpr bool const& __get__forEncryption() const;
+  constexpr bool const& __cordl_internal_get__forEncryption() const;
 
-  constexpr void __set__forEncryption(bool value);
+  constexpr void __cordl_internal_set__forEncryption(bool value);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::TeaEngine* New_ctor();
 

@@ -331,24 +331,26 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::__AddressablesImpl____c__Displa
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14051))
 // CS Name: ::AddressablesImpl::ResourceLocatorInfo*
 class CORDL_TYPE __AddressablesImpl__ResourceLocatorInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Locator>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Locator_k__BackingField, put = __set__Locator_k__BackingField))::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* _Locator_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Locator_k__BackingField,
+                      put = __cordl_internal_set__Locator_k__BackingField))::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* _Locator_k__BackingField;
 
   /// @brief Field <LocalHash>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__LocalHash_k__BackingField, put = __set__LocalHash_k__BackingField))::StringW _LocalHash_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__LocalHash_k__BackingField, put = __cordl_internal_set__LocalHash_k__BackingField))::StringW _LocalHash_k__BackingField;
 
   /// @brief Field <CatalogLocation>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__CatalogLocation_k__BackingField,
-                      put = __set__CatalogLocation_k__BackingField))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* _CatalogLocation_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CatalogLocation_k__BackingField,
+                      put = __cordl_internal_set__CatalogLocation_k__BackingField))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* _CatalogLocation_k__BackingField;
 
   /// @brief Field <ContentUpdateAvailable>k__BackingField, offset 0x28, size 0x1
-  __declspec(property(get = __get__ContentUpdateAvailable_k__BackingField, put = __set__ContentUpdateAvailable_k__BackingField)) bool _ContentUpdateAvailable_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ContentUpdateAvailable_k__BackingField,
+                      put = __cordl_internal_set__ContentUpdateAvailable_k__BackingField)) bool _ContentUpdateAvailable_k__BackingField;
 
   __declspec(property(get = get_Locator, put = set_Locator))::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* Locator;
 
@@ -362,29 +364,29 @@ public:
 
   __declspec(property(get = get_CanUpdateContent)) bool CanUpdateContent;
 
-  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*& __get__Locator_k__BackingField();
+  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*& __cordl_internal_get__Locator_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> const& __get__Locator_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> const& __cordl_internal_get__Locator_k__BackingField() const;
 
-  constexpr void __set__Locator_k__BackingField(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* value);
+  constexpr void __cordl_internal_set__Locator_k__BackingField(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* value);
 
-  constexpr ::StringW& __get__LocalHash_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__LocalHash_k__BackingField();
 
-  constexpr ::StringW const& __get__LocalHash_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__LocalHash_k__BackingField() const;
 
-  constexpr void __set__LocalHash_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__LocalHash_k__BackingField(::StringW value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __get__CatalogLocation_k__BackingField();
+  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __cordl_internal_get__CatalogLocation_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __get__CatalogLocation_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __cordl_internal_get__CatalogLocation_k__BackingField() const;
 
-  constexpr void __set__CatalogLocation_k__BackingField(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
+  constexpr void __cordl_internal_set__CatalogLocation_k__BackingField(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  constexpr bool& __get__ContentUpdateAvailable_k__BackingField();
+  constexpr bool& __cordl_internal_get__ContentUpdateAvailable_k__BackingField();
 
-  constexpr bool const& __get__ContentUpdateAvailable_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__ContentUpdateAvailable_k__BackingField() const;
 
-  constexpr void __set__ContentUpdateAvailable_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__ContentUpdateAvailable_k__BackingField(bool value);
 
   /// @brief Method get_Locator, addr 0x2a22ac4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* get_Locator();
@@ -471,50 +473,52 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl__Res
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 793 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14021)), TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(3835))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14021)), TypeDefinitionIndex(TypeDefinitionIndex(14032)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 793 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(14052)) CS Name: ::AddressablesImpl::LoadResourceLocationKeyOp*
 class CORDL_TYPE __AddressablesImpl__LoadResourceLocationKeyOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<
                                                                      ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> {
 public:
   // Declarations
   /// @brief Field m_Keys, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_Keys, put = __set_m_Keys))::System::Object* m_Keys;
+  __declspec(property(get = __cordl_internal_get_m_Keys, put = __cordl_internal_set_m_Keys))::System::Object* m_Keys;
 
   /// @brief Field m_locations, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_locations, put = __set_m_locations))::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* m_locations;
+  __declspec(property(get = __cordl_internal_get_m_locations,
+                      put = __cordl_internal_set_m_locations))::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* m_locations;
 
   /// @brief Field m_Addressables, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_Addressables, put = __set_m_Addressables))::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
+  __declspec(property(get = __cordl_internal_get_m_Addressables, put = __cordl_internal_set_m_Addressables))::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
 
   /// @brief Field m_ResourceType, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_ResourceType, put = __set_m_ResourceType))::System::Type* m_ResourceType;
+  __declspec(property(get = __cordl_internal_get_m_ResourceType, put = __cordl_internal_set_m_ResourceType))::System::Type* m_ResourceType;
 
   __declspec(property(get = get_DebugName))::StringW DebugName;
 
-  constexpr ::System::Object*& __get_m_Keys();
+  constexpr ::System::Object*& __cordl_internal_get_m_Keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_Keys() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_Keys() const;
 
-  constexpr void __set_m_Keys(::System::Object* value);
+  constexpr void __cordl_internal_set_m_Keys(::System::Object* value);
 
-  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& __get_m_locations();
+  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& __cordl_internal_get_m_locations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const& __get_m_locations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const&
+  __cordl_internal_get_m_locations() const;
 
-  constexpr void __set_m_locations(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
+  constexpr void __cordl_internal_set_m_locations(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get_m_Addressables();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get_m_Addressables();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get_m_Addressables() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get_m_Addressables() const;
 
-  constexpr void __set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Type*& __get_m_ResourceType();
+  constexpr ::System::Type*& __cordl_internal_get_m_ResourceType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_m_ResourceType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_ResourceType() const;
 
-  constexpr void __set_m_ResourceType(::System::Type* value);
+  constexpr void __cordl_internal_set_m_ResourceType(::System::Type* value);
 
   /// @brief Method get_DebugName, addr 0x2a22dd4, size 0x20, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
@@ -577,59 +581,61 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl__Loa
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14021)), TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14049)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14032), inst: 793 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14053)) CS Name: ::AddressablesImpl::LoadResourceLocationKeysOp*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14021)), TypeDefinitionIndex(TypeDefinitionIndex(14032)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14049)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(14032), inst: 793 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14053)) CS Name: ::AddressablesImpl::LoadResourceLocationKeysOp*
 class CORDL_TYPE __AddressablesImpl__LoadResourceLocationKeysOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<
                                                                       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> {
 public:
   // Declarations
   /// @brief Field m_Key, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_Key, put = __set_m_Key))::System::Collections::IEnumerable* m_Key;
+  __declspec(property(get = __cordl_internal_get_m_Key, put = __cordl_internal_set_m_Key))::System::Collections::IEnumerable* m_Key;
 
   /// @brief Field m_MergeMode, offset 0x90, size 0x4
-  __declspec(property(get = __get_m_MergeMode, put = __set_m_MergeMode))::UnityEngine::AddressableAssets::__Addressables__MergeMode m_MergeMode;
+  __declspec(property(get = __cordl_internal_get_m_MergeMode, put = __cordl_internal_set_m_MergeMode))::UnityEngine::AddressableAssets::__Addressables__MergeMode m_MergeMode;
 
   /// @brief Field m_locations, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_locations, put = __set_m_locations))::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* m_locations;
+  __declspec(property(get = __cordl_internal_get_m_locations,
+                      put = __cordl_internal_set_m_locations))::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* m_locations;
 
   /// @brief Field m_Addressables, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_Addressables, put = __set_m_Addressables))::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
+  __declspec(property(get = __cordl_internal_get_m_Addressables, put = __cordl_internal_set_m_Addressables))::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
 
   /// @brief Field m_ResourceType, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_ResourceType, put = __set_m_ResourceType))::System::Type* m_ResourceType;
+  __declspec(property(get = __cordl_internal_get_m_ResourceType, put = __cordl_internal_set_m_ResourceType))::System::Type* m_ResourceType;
 
   __declspec(property(get = get_DebugName))::StringW DebugName;
 
-  constexpr ::System::Collections::IEnumerable*& __get_m_Key();
+  constexpr ::System::Collections::IEnumerable*& __cordl_internal_get_m_Key();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& __get_m_Key() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& __cordl_internal_get_m_Key() const;
 
-  constexpr void __set_m_Key(::System::Collections::IEnumerable* value);
+  constexpr void __cordl_internal_set_m_Key(::System::Collections::IEnumerable* value);
 
-  constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode& __get_m_MergeMode();
+  constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode& __cordl_internal_get_m_MergeMode();
 
-  constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode const& __get_m_MergeMode() const;
+  constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode const& __cordl_internal_get_m_MergeMode() const;
 
-  constexpr void __set_m_MergeMode(::UnityEngine::AddressableAssets::__Addressables__MergeMode value);
+  constexpr void __cordl_internal_set_m_MergeMode(::UnityEngine::AddressableAssets::__Addressables__MergeMode value);
 
-  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& __get_m_locations();
+  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& __cordl_internal_get_m_locations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const& __get_m_locations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const&
+  __cordl_internal_get_m_locations() const;
 
-  constexpr void __set_m_locations(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
+  constexpr void __cordl_internal_set_m_locations(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get_m_Addressables();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get_m_Addressables();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get_m_Addressables() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get_m_Addressables() const;
 
-  constexpr void __set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Type*& __get_m_ResourceType();
+  constexpr ::System::Type*& __cordl_internal_get_m_ResourceType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_m_ResourceType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_ResourceType() const;
 
-  constexpr void __set_m_ResourceType(::System::Type* value);
+  constexpr void __cordl_internal_set_m_ResourceType(::System::Type* value);
 
   /// @brief Method get_DebugName, addr 0x2a22f44, size 0x40, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
@@ -698,7 +704,7 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl__Loa
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14054))
 // CS Name: ::AddressablesImpl::<>c*
 class CORDL_TYPE __AddressablesImpl____c : public ::System::Object {
@@ -785,20 +791,20 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14055))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass62_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass62_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field loc, offset 0x10, size 0x8
-  __declspec(property(get = __get_loc, put = __set_loc))::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* loc;
+  __declspec(property(get = __cordl_internal_get_loc, put = __cordl_internal_set_loc))::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* loc;
 
-  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*& __get_loc();
+  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*& __cordl_internal_get_loc();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> const& __get_loc() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> const& __cordl_internal_get_loc() const;
 
-  constexpr void __set_loc(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* value);
+  constexpr void __cordl_internal_set_loc(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass62_0* New_ctor();
 
@@ -837,47 +843,47 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14056))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass71_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass71_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field catalogPath, offset 0x18, size 0x8
-  __declspec(property(get = __get_catalogPath, put = __set_catalogPath))::StringW catalogPath;
+  __declspec(property(get = __cordl_internal_get_catalogPath, put = __cordl_internal_set_catalogPath))::StringW catalogPath;
 
   /// @brief Field autoReleaseHandle, offset 0x20, size 0x1
-  __declspec(property(get = __get_autoReleaseHandle, put = __set_autoReleaseHandle)) bool autoReleaseHandle;
+  __declspec(property(get = __cordl_internal_get_autoReleaseHandle, put = __cordl_internal_set_autoReleaseHandle)) bool autoReleaseHandle;
 
   /// @brief Field providerSuffix, offset 0x28, size 0x8
-  __declspec(property(get = __get_providerSuffix, put = __set_providerSuffix))::StringW providerSuffix;
+  __declspec(property(get = __cordl_internal_get_providerSuffix, put = __cordl_internal_set_providerSuffix))::StringW providerSuffix;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::StringW& __get_catalogPath();
+  constexpr ::StringW& __cordl_internal_get_catalogPath();
 
-  constexpr ::StringW const& __get_catalogPath() const;
+  constexpr ::StringW const& __cordl_internal_get_catalogPath() const;
 
-  constexpr void __set_catalogPath(::StringW value);
+  constexpr void __cordl_internal_set_catalogPath(::StringW value);
 
-  constexpr bool& __get_autoReleaseHandle();
+  constexpr bool& __cordl_internal_get_autoReleaseHandle();
 
-  constexpr bool const& __get_autoReleaseHandle() const;
+  constexpr bool const& __cordl_internal_get_autoReleaseHandle() const;
 
-  constexpr void __set_autoReleaseHandle(bool value);
+  constexpr void __cordl_internal_set_autoReleaseHandle(bool value);
 
-  constexpr ::StringW& __get_providerSuffix();
+  constexpr ::StringW& __cordl_internal_get_providerSuffix();
 
-  constexpr ::StringW const& __get_providerSuffix() const;
+  constexpr ::StringW const& __cordl_internal_get_providerSuffix() const;
 
-  constexpr void __set_providerSuffix(::StringW value);
+  constexpr void __cordl_internal_set_providerSuffix(::StringW value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass71_0* New_ctor();
 
@@ -934,29 +940,29 @@ namespace UnityEngine::AddressableAssets {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14057))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass77_0`1<TObject>*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass77_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::System::Object* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::System::Object* key;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Object*& __get_key();
+  constexpr ::System::Object*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::System::Object* value);
+  constexpr void __cordl_internal_set_key(::System::Object* value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass77_0_1<TObject>* New_ctor();
 
@@ -994,47 +1000,47 @@ public:
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14049))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14049))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14058))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass81_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass81_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field keys, offset 0x18, size 0x8
-  __declspec(property(get = __get_keys, put = __set_keys))::System::Collections::IEnumerable* keys;
+  __declspec(property(get = __cordl_internal_get_keys, put = __cordl_internal_set_keys))::System::Collections::IEnumerable* keys;
 
   /// @brief Field mode, offset 0x20, size 0x4
-  __declspec(property(get = __get_mode, put = __set_mode))::UnityEngine::AddressableAssets::__Addressables__MergeMode mode;
+  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode))::UnityEngine::AddressableAssets::__Addressables__MergeMode mode;
 
   /// @brief Field type, offset 0x28, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Collections::IEnumerable*& __get_keys();
+  constexpr ::System::Collections::IEnumerable*& __cordl_internal_get_keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& __get_keys() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& __cordl_internal_get_keys() const;
 
-  constexpr void __set_keys(::System::Collections::IEnumerable* value);
+  constexpr void __cordl_internal_set_keys(::System::Collections::IEnumerable* value);
 
-  constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode& __get_mode();
+  constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode& __cordl_internal_get_mode();
 
-  constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode const& __get_mode() const;
+  constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode const& __cordl_internal_get_mode() const;
 
-  constexpr void __set_mode(::UnityEngine::AddressableAssets::__Addressables__MergeMode value);
+  constexpr void __cordl_internal_set_mode(::UnityEngine::AddressableAssets::__Addressables__MergeMode value);
 
-  constexpr ::System::Type*& __get_type();
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Type* value);
+  constexpr void __cordl_internal_set_type(::System::Type* value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass81_0* New_ctor();
 
@@ -1089,38 +1095,38 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14059))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass83_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass83_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::System::Object* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::System::Object* key;
 
   /// @brief Field type, offset 0x20, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Object*& __get_key();
+  constexpr ::System::Object*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::System::Object* value);
+  constexpr void __cordl_internal_set_key(::System::Object* value);
 
-  constexpr ::System::Type*& __get_type();
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Type* value);
+  constexpr void __cordl_internal_set_type(::System::Type* value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass83_0* New_ctor();
 
@@ -1172,56 +1178,56 @@ namespace UnityEngine::AddressableAssets {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14049))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14049))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14060))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass86_0`1<TObject>*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass86_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field keys, offset 0x18, size 0x8
-  __declspec(property(get = __get_keys, put = __set_keys))::System::Collections::IEnumerable* keys;
+  __declspec(property(get = __cordl_internal_get_keys, put = __cordl_internal_set_keys))::System::Collections::IEnumerable* keys;
 
   /// @brief Field callback, offset 0x20, size 0x8
-  __declspec(property(get = __get_callback, put = __set_callback))::System::Action_1<TObject>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_1<TObject>* callback;
 
   /// @brief Field mode, offset 0x28, size 0x4
-  __declspec(property(get = __get_mode, put = __set_mode))::UnityEngine::AddressableAssets::__Addressables__MergeMode mode;
+  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode))::UnityEngine::AddressableAssets::__Addressables__MergeMode mode;
 
   /// @brief Field releaseDependenciesOnFailure, offset 0x2c, size 0x1
-  __declspec(property(get = __get_releaseDependenciesOnFailure, put = __set_releaseDependenciesOnFailure)) bool releaseDependenciesOnFailure;
+  __declspec(property(get = __cordl_internal_get_releaseDependenciesOnFailure, put = __cordl_internal_set_releaseDependenciesOnFailure)) bool releaseDependenciesOnFailure;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Collections::IEnumerable*& __get_keys();
+  constexpr ::System::Collections::IEnumerable*& __cordl_internal_get_keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& __get_keys() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& __cordl_internal_get_keys() const;
 
-  constexpr void __set_keys(::System::Collections::IEnumerable* value);
+  constexpr void __cordl_internal_set_keys(::System::Collections::IEnumerable* value);
 
-  constexpr ::System::Action_1<TObject>*& __get_callback();
+  constexpr ::System::Action_1<TObject>*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TObject>*> const& __get_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TObject>*> const& __cordl_internal_get_callback() const;
 
-  constexpr void __set_callback(::System::Action_1<TObject>* value);
+  constexpr void __cordl_internal_set_callback(::System::Action_1<TObject>* value);
 
-  constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode& __get_mode();
+  constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode& __cordl_internal_get_mode();
 
-  constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode const& __get_mode() const;
+  constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode const& __cordl_internal_get_mode() const;
 
-  constexpr void __set_mode(::UnityEngine::AddressableAssets::__Addressables__MergeMode value);
+  constexpr void __cordl_internal_set_mode(::UnityEngine::AddressableAssets::__Addressables__MergeMode value);
 
-  constexpr bool& __get_releaseDependenciesOnFailure();
+  constexpr bool& __cordl_internal_get_releaseDependenciesOnFailure();
 
-  constexpr bool const& __get_releaseDependenciesOnFailure() const;
+  constexpr bool const& __cordl_internal_get_releaseDependenciesOnFailure() const;
 
-  constexpr void __set_releaseDependenciesOnFailure(bool value);
+  constexpr void __cordl_internal_set_releaseDependenciesOnFailure(bool value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass86_0_1<TObject>* New_ctor();
 
@@ -1271,47 +1277,47 @@ namespace UnityEngine::AddressableAssets {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14061))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass88_0`1<TObject>*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass88_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::System::Object* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::System::Object* key;
 
   /// @brief Field callback, offset 0x20, size 0x8
-  __declspec(property(get = __get_callback, put = __set_callback))::System::Action_1<TObject>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_1<TObject>* callback;
 
   /// @brief Field releaseDependenciesOnFailure, offset 0x28, size 0x1
-  __declspec(property(get = __get_releaseDependenciesOnFailure, put = __set_releaseDependenciesOnFailure)) bool releaseDependenciesOnFailure;
+  __declspec(property(get = __cordl_internal_get_releaseDependenciesOnFailure, put = __cordl_internal_set_releaseDependenciesOnFailure)) bool releaseDependenciesOnFailure;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Object*& __get_key();
+  constexpr ::System::Object*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::System::Object* value);
+  constexpr void __cordl_internal_set_key(::System::Object* value);
 
-  constexpr ::System::Action_1<TObject>*& __get_callback();
+  constexpr ::System::Action_1<TObject>*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TObject>*> const& __get_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<TObject>*> const& __cordl_internal_get_callback() const;
 
-  constexpr void __set_callback(::System::Action_1<TObject>* value);
+  constexpr void __cordl_internal_set_callback(::System::Action_1<TObject>* value);
 
-  constexpr bool& __get_releaseDependenciesOnFailure();
+  constexpr bool& __cordl_internal_get_releaseDependenciesOnFailure();
 
-  constexpr bool const& __get_releaseDependenciesOnFailure() const;
+  constexpr bool const& __cordl_internal_get_releaseDependenciesOnFailure() const;
 
-  constexpr void __set_releaseDependenciesOnFailure(bool value);
+  constexpr void __cordl_internal_set_releaseDependenciesOnFailure(bool value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass88_0_1<TObject>* New_ctor();
 
@@ -1356,29 +1362,29 @@ public:
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14062))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass96_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass96_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::System::Object* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::System::Object* key;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Object*& __get_key();
+  constexpr ::System::Object*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::System::Object* value);
+  constexpr void __cordl_internal_set_key(::System::Object* value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass96_0* New_ctor();
 
@@ -1423,29 +1429,29 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14063))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass97_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass97_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field keys, offset 0x18, size 0x8
-  __declspec(property(get = __get_keys, put = __set_keys))::System::Collections::IEnumerable* keys;
+  __declspec(property(get = __cordl_internal_get_keys, put = __cordl_internal_set_keys))::System::Collections::IEnumerable* keys;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Collections::IEnumerable*& __get_keys();
+  constexpr ::System::Collections::IEnumerable*& __cordl_internal_get_keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& __get_keys() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& __cordl_internal_get_keys() const;
 
-  constexpr void __set_keys(::System::Collections::IEnumerable* value);
+  constexpr void __cordl_internal_set_keys(::System::Collections::IEnumerable* value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass97_0* New_ctor();
 
@@ -1490,29 +1496,29 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14064))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass100_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass100_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::System::Object* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::System::Object* key;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Object*& __get_key();
+  constexpr ::System::Object*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::System::Object* value);
+  constexpr void __cordl_internal_set_key(::System::Object* value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass100_0* New_ctor();
 
@@ -1558,29 +1564,31 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14065))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass104_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass104_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field locations, offset 0x18, size 0x8
-  __declspec(property(get = __get_locations, put = __set_locations))::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations;
+  __declspec(property(get = __cordl_internal_get_locations,
+                      put = __cordl_internal_set_locations))::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& __get_locations();
+  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& __cordl_internal_get_locations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const& __get_locations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const&
+  __cordl_internal_get_locations() const;
 
-  constexpr void __set_locations(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
+  constexpr void __cordl_internal_set_locations(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass104_0* New_ctor();
 
@@ -1626,38 +1634,38 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14049))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14049))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14066))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass106_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass106_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field keys, offset 0x18, size 0x8
-  __declspec(property(get = __get_keys, put = __set_keys))::System::Collections::IEnumerable* keys;
+  __declspec(property(get = __cordl_internal_get_keys, put = __cordl_internal_set_keys))::System::Collections::IEnumerable* keys;
 
   /// @brief Field mode, offset 0x20, size 0x4
-  __declspec(property(get = __get_mode, put = __set_mode))::UnityEngine::AddressableAssets::__Addressables__MergeMode mode;
+  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode))::UnityEngine::AddressableAssets::__Addressables__MergeMode mode;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Collections::IEnumerable*& __get_keys();
+  constexpr ::System::Collections::IEnumerable*& __cordl_internal_get_keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& __get_keys() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& __cordl_internal_get_keys() const;
 
-  constexpr void __set_keys(::System::Collections::IEnumerable* value);
+  constexpr void __cordl_internal_set_keys(::System::Collections::IEnumerable* value);
 
-  constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode& __get_mode();
+  constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode& __cordl_internal_get_mode();
 
-  constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode const& __get_mode() const;
+  constexpr ::UnityEngine::AddressableAssets::__Addressables__MergeMode const& __cordl_internal_get_mode() const;
 
-  constexpr void __set_mode(::UnityEngine::AddressableAssets::__Addressables__MergeMode value);
+  constexpr void __cordl_internal_set_mode(::UnityEngine::AddressableAssets::__Addressables__MergeMode value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass106_0* New_ctor();
 
@@ -1710,29 +1718,29 @@ namespace UnityEngine::AddressableAssets {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14067))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass111_0`1<TObject>*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass111_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field unloadSceneOpExcludeReleaseCallback, offset 0x10, size 0x1
-  __declspec(property(get = __get_unloadSceneOpExcludeReleaseCallback, put = __set_unloadSceneOpExcludeReleaseCallback)) bool unloadSceneOpExcludeReleaseCallback;
+  __declspec(property(get = __cordl_internal_get_unloadSceneOpExcludeReleaseCallback, put = __cordl_internal_set_unloadSceneOpExcludeReleaseCallback)) bool unloadSceneOpExcludeReleaseCallback;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
-  constexpr bool& __get_unloadSceneOpExcludeReleaseCallback();
+  constexpr bool& __cordl_internal_get_unloadSceneOpExcludeReleaseCallback();
 
-  constexpr bool const& __get_unloadSceneOpExcludeReleaseCallback() const;
+  constexpr bool const& __cordl_internal_get_unloadSceneOpExcludeReleaseCallback() const;
 
-  constexpr void __set_unloadSceneOpExcludeReleaseCallback(bool value);
+  constexpr void __cordl_internal_set_unloadSceneOpExcludeReleaseCallback(bool value);
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass111_0_1<TObject>* New_ctor();
 
@@ -1770,38 +1778,38 @@ public:
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14068))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass113_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass113_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::System::Object* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::System::Object* key;
 
   /// @brief Field autoReleaseHandle, offset 0x20, size 0x1
-  __declspec(property(get = __get_autoReleaseHandle, put = __set_autoReleaseHandle)) bool autoReleaseHandle;
+  __declspec(property(get = __cordl_internal_get_autoReleaseHandle, put = __cordl_internal_set_autoReleaseHandle)) bool autoReleaseHandle;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Object*& __get_key();
+  constexpr ::System::Object*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::System::Object* value);
+  constexpr void __cordl_internal_set_key(::System::Object* value);
 
-  constexpr bool& __get_autoReleaseHandle();
+  constexpr bool& __cordl_internal_get_autoReleaseHandle();
 
-  constexpr bool const& __get_autoReleaseHandle() const;
+  constexpr bool const& __cordl_internal_get_autoReleaseHandle() const;
 
-  constexpr void __set_autoReleaseHandle(bool value);
+  constexpr void __cordl_internal_set_autoReleaseHandle(bool value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass113_0* New_ctor();
 
@@ -1850,38 +1858,40 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14069))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass114_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass114_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field locations, offset 0x18, size 0x8
-  __declspec(property(get = __get_locations, put = __set_locations))::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations;
+  __declspec(property(get = __cordl_internal_get_locations,
+                      put = __cordl_internal_set_locations))::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations;
 
   /// @brief Field autoReleaseHandle, offset 0x20, size 0x1
-  __declspec(property(get = __get_autoReleaseHandle, put = __set_autoReleaseHandle)) bool autoReleaseHandle;
+  __declspec(property(get = __cordl_internal_get_autoReleaseHandle, put = __cordl_internal_set_autoReleaseHandle)) bool autoReleaseHandle;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& __get_locations();
+  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& __cordl_internal_get_locations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const& __get_locations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const&
+  __cordl_internal_get_locations() const;
 
-  constexpr void __set_locations(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
+  constexpr void __cordl_internal_set_locations(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
 
-  constexpr bool& __get_autoReleaseHandle();
+  constexpr bool& __cordl_internal_get_autoReleaseHandle();
 
-  constexpr bool const& __get_autoReleaseHandle() const;
+  constexpr bool const& __cordl_internal_get_autoReleaseHandle() const;
 
-  constexpr void __set_autoReleaseHandle(bool value);
+  constexpr void __cordl_internal_set_autoReleaseHandle(bool value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass114_0* New_ctor();
 
@@ -1930,38 +1940,38 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14070))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass115_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass115_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field keys, offset 0x18, size 0x8
-  __declspec(property(get = __get_keys, put = __set_keys))::System::Collections::IEnumerable* keys;
+  __declspec(property(get = __cordl_internal_get_keys, put = __cordl_internal_set_keys))::System::Collections::IEnumerable* keys;
 
   /// @brief Field autoReleaseHandle, offset 0x20, size 0x1
-  __declspec(property(get = __get_autoReleaseHandle, put = __set_autoReleaseHandle)) bool autoReleaseHandle;
+  __declspec(property(get = __cordl_internal_get_autoReleaseHandle, put = __cordl_internal_set_autoReleaseHandle)) bool autoReleaseHandle;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Collections::IEnumerable*& __get_keys();
+  constexpr ::System::Collections::IEnumerable*& __cordl_internal_get_keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& __get_keys() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerable*> const& __cordl_internal_get_keys() const;
 
-  constexpr void __set_keys(::System::Collections::IEnumerable* value);
+  constexpr void __cordl_internal_set_keys(::System::Collections::IEnumerable* value);
 
-  constexpr bool& __get_autoReleaseHandle();
+  constexpr bool& __cordl_internal_get_autoReleaseHandle();
 
-  constexpr bool const& __get_autoReleaseHandle() const;
+  constexpr bool const& __cordl_internal_get_autoReleaseHandle() const;
 
-  constexpr void __set_autoReleaseHandle(bool value);
+  constexpr void __cordl_internal_set_autoReleaseHandle(bool value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass115_0* New_ctor();
 
@@ -2010,38 +2020,39 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13998))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13998))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14071))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass120_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass120_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::System::Object* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::System::Object* key;
 
   /// @brief Field instantiateParameters, offset 0x20, size 0x30
-  __declspec(property(get = __get_instantiateParameters, put = __set_instantiateParameters))::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters;
+  __declspec(property(get = __cordl_internal_get_instantiateParameters,
+                      put = __cordl_internal_set_instantiateParameters))::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Object*& __get_key();
+  constexpr ::System::Object*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::System::Object* value);
+  constexpr void __cordl_internal_set_key(::System::Object* value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters& __get_instantiateParameters();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters& __cordl_internal_get_instantiateParameters();
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters const& __get_instantiateParameters() const;
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters const& __cordl_internal_get_instantiateParameters() const;
 
-  constexpr void __set_instantiateParameters(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters value);
+  constexpr void __cordl_internal_set_instantiateParameters(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass120_0* New_ctor();
 
@@ -2049,7 +2060,7 @@ public:
   inline void _ctor();
 
   /// @brief Method <InstantiateWithChain>b__0, addr 0x2a23684, size 0x64, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   _InstantiateWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AddressablesImpl____c__DisplayClass120_0", modifiers: "&&", def_value: None }]
@@ -2091,38 +2102,39 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13998)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13998))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14072))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass122_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass122_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field location, offset 0x18, size 0x8
-  __declspec(property(get = __get_location, put = __set_location))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location;
+  __declspec(property(get = __cordl_internal_get_location, put = __cordl_internal_set_location))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location;
 
   /// @brief Field instantiateParameters, offset 0x20, size 0x30
-  __declspec(property(get = __get_instantiateParameters, put = __set_instantiateParameters))::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters;
+  __declspec(property(get = __cordl_internal_get_instantiateParameters,
+                      put = __cordl_internal_set_instantiateParameters))::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __get_location();
+  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __cordl_internal_get_location();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __get_location() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __cordl_internal_get_location() const;
 
-  constexpr void __set_location(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
+  constexpr void __cordl_internal_set_location(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters& __get_instantiateParameters();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters& __cordl_internal_get_instantiateParameters();
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters const& __get_instantiateParameters() const;
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters const& __cordl_internal_get_instantiateParameters() const;
 
-  constexpr void __set_instantiateParameters(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters value);
+  constexpr void __cordl_internal_set_instantiateParameters(::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass122_0* New_ctor();
 
@@ -2130,7 +2142,7 @@ public:
   inline void _ctor();
 
   /// @brief Method <InstantiateWithChain>b__0, addr 0x2a236e8, size 0x64, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   _InstantiateWithChain_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op);
 
   // Ctor Parameters [CppParam { name: "", ty: "__AddressablesImpl____c__DisplayClass122_0", modifiers: "&&", def_value: None }]
@@ -2172,56 +2184,56 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10375))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10375))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14073))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass125_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass125_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::System::Object* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::System::Object* key;
 
   /// @brief Field loadMode, offset 0x20, size 0x4
-  __declspec(property(get = __get_loadMode, put = __set_loadMode))::UnityEngine::SceneManagement::LoadSceneMode loadMode;
+  __declspec(property(get = __cordl_internal_get_loadMode, put = __cordl_internal_set_loadMode))::UnityEngine::SceneManagement::LoadSceneMode loadMode;
 
   /// @brief Field activateOnLoad, offset 0x24, size 0x1
-  __declspec(property(get = __get_activateOnLoad, put = __set_activateOnLoad)) bool activateOnLoad;
+  __declspec(property(get = __cordl_internal_get_activateOnLoad, put = __cordl_internal_set_activateOnLoad)) bool activateOnLoad;
 
   /// @brief Field priority, offset 0x28, size 0x4
-  __declspec(property(get = __get_priority, put = __set_priority)) int32_t priority;
+  __declspec(property(get = __cordl_internal_get_priority, put = __cordl_internal_set_priority)) int32_t priority;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Object*& __get_key();
+  constexpr ::System::Object*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::System::Object* value);
+  constexpr void __cordl_internal_set_key(::System::Object* value);
 
-  constexpr ::UnityEngine::SceneManagement::LoadSceneMode& __get_loadMode();
+  constexpr ::UnityEngine::SceneManagement::LoadSceneMode& __cordl_internal_get_loadMode();
 
-  constexpr ::UnityEngine::SceneManagement::LoadSceneMode const& __get_loadMode() const;
+  constexpr ::UnityEngine::SceneManagement::LoadSceneMode const& __cordl_internal_get_loadMode() const;
 
-  constexpr void __set_loadMode(::UnityEngine::SceneManagement::LoadSceneMode value);
+  constexpr void __cordl_internal_set_loadMode(::UnityEngine::SceneManagement::LoadSceneMode value);
 
-  constexpr bool& __get_activateOnLoad();
+  constexpr bool& __cordl_internal_get_activateOnLoad();
 
-  constexpr bool const& __get_activateOnLoad() const;
+  constexpr bool const& __cordl_internal_get_activateOnLoad() const;
 
-  constexpr void __set_activateOnLoad(bool value);
+  constexpr void __cordl_internal_set_activateOnLoad(bool value);
 
-  constexpr int32_t& __get_priority();
+  constexpr int32_t& __cordl_internal_get_priority();
 
-  constexpr int32_t const& __get_priority() const;
+  constexpr int32_t const& __cordl_internal_get_priority() const;
 
-  constexpr void __set_priority(int32_t value);
+  constexpr void __cordl_internal_set_priority(int32_t value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass125_0* New_ctor();
 
@@ -2281,38 +2293,38 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10378))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10378))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14074))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass131_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass131_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field unloadOptions, offset 0x18, size 0x4
-  __declspec(property(get = __get_unloadOptions, put = __set_unloadOptions))::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions;
+  __declspec(property(get = __cordl_internal_get_unloadOptions, put = __cordl_internal_set_unloadOptions))::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions;
 
   /// @brief Field autoReleaseHandle, offset 0x1c, size 0x1
-  __declspec(property(get = __get_autoReleaseHandle, put = __set_autoReleaseHandle)) bool autoReleaseHandle;
+  __declspec(property(get = __cordl_internal_get_autoReleaseHandle, put = __cordl_internal_set_autoReleaseHandle)) bool autoReleaseHandle;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions& __get_unloadOptions();
+  constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions& __cordl_internal_get_unloadOptions();
 
-  constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions const& __get_unloadOptions() const;
+  constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions const& __cordl_internal_get_unloadOptions() const;
 
-  constexpr void __set_unloadOptions(::UnityEngine::SceneManagement::UnloadSceneOptions value);
+  constexpr void __cordl_internal_set_unloadOptions(::UnityEngine::SceneManagement::UnloadSceneOptions value);
 
-  constexpr bool& __get_autoReleaseHandle();
+  constexpr bool& __cordl_internal_get_autoReleaseHandle();
 
-  constexpr bool const& __get_autoReleaseHandle() const;
+  constexpr bool const& __cordl_internal_get_autoReleaseHandle() const;
 
-  constexpr void __set_autoReleaseHandle(bool value);
+  constexpr void __cordl_internal_set_autoReleaseHandle(bool value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass131_0* New_ctor();
 
@@ -2362,38 +2374,38 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10378)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10378))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14075))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass132_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass132_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field unloadOptions, offset 0x18, size 0x4
-  __declspec(property(get = __get_unloadOptions, put = __set_unloadOptions))::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions;
+  __declspec(property(get = __cordl_internal_get_unloadOptions, put = __cordl_internal_set_unloadOptions))::UnityEngine::SceneManagement::UnloadSceneOptions unloadOptions;
 
   /// @brief Field autoReleaseHandle, offset 0x1c, size 0x1
-  __declspec(property(get = __get_autoReleaseHandle, put = __set_autoReleaseHandle)) bool autoReleaseHandle;
+  __declspec(property(get = __cordl_internal_get_autoReleaseHandle, put = __cordl_internal_set_autoReleaseHandle)) bool autoReleaseHandle;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions& __get_unloadOptions();
+  constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions& __cordl_internal_get_unloadOptions();
 
-  constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions const& __get_unloadOptions() const;
+  constexpr ::UnityEngine::SceneManagement::UnloadSceneOptions const& __cordl_internal_get_unloadOptions() const;
 
-  constexpr void __set_unloadOptions(::UnityEngine::SceneManagement::UnloadSceneOptions value);
+  constexpr void __cordl_internal_set_unloadOptions(::UnityEngine::SceneManagement::UnloadSceneOptions value);
 
-  constexpr bool& __get_autoReleaseHandle();
+  constexpr bool& __cordl_internal_get_autoReleaseHandle();
 
-  constexpr bool const& __get_autoReleaseHandle() const;
+  constexpr bool const& __cordl_internal_get_autoReleaseHandle() const;
 
-  constexpr void __set_autoReleaseHandle(bool value);
+  constexpr void __cordl_internal_set_autoReleaseHandle(bool value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass132_0* New_ctor();
 
@@ -2443,29 +2455,29 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14076))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass136_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass136_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field autoReleaseHandle, offset 0x18, size 0x1
-  __declspec(property(get = __get_autoReleaseHandle, put = __set_autoReleaseHandle)) bool autoReleaseHandle;
+  __declspec(property(get = __cordl_internal_get_autoReleaseHandle, put = __cordl_internal_set_autoReleaseHandle)) bool autoReleaseHandle;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr bool& __get_autoReleaseHandle();
+  constexpr bool& __cordl_internal_get_autoReleaseHandle();
 
-  constexpr bool const& __get_autoReleaseHandle() const;
+  constexpr bool const& __cordl_internal_get_autoReleaseHandle() const;
 
-  constexpr void __set_autoReleaseHandle(bool value);
+  constexpr void __cordl_internal_set_autoReleaseHandle(bool value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass136_0* New_ctor();
 
@@ -2510,38 +2522,38 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14077))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass140_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass140_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field autoReleaseHandle, offset 0x18, size 0x1
-  __declspec(property(get = __get_autoReleaseHandle, put = __set_autoReleaseHandle)) bool autoReleaseHandle;
+  __declspec(property(get = __cordl_internal_get_autoReleaseHandle, put = __cordl_internal_set_autoReleaseHandle)) bool autoReleaseHandle;
 
   /// @brief Field autoCleanBundleCache, offset 0x19, size 0x1
-  __declspec(property(get = __get_autoCleanBundleCache, put = __set_autoCleanBundleCache)) bool autoCleanBundleCache;
+  __declspec(property(get = __cordl_internal_get_autoCleanBundleCache, put = __cordl_internal_set_autoCleanBundleCache)) bool autoCleanBundleCache;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr bool& __get_autoReleaseHandle();
+  constexpr bool& __cordl_internal_get_autoReleaseHandle();
 
-  constexpr bool const& __get_autoReleaseHandle() const;
+  constexpr bool const& __cordl_internal_get_autoReleaseHandle() const;
 
-  constexpr void __set_autoReleaseHandle(bool value);
+  constexpr void __cordl_internal_set_autoReleaseHandle(bool value);
 
-  constexpr bool& __get_autoCleanBundleCache();
+  constexpr bool& __cordl_internal_get_autoCleanBundleCache();
 
-  constexpr bool const& __get_autoCleanBundleCache() const;
+  constexpr bool const& __cordl_internal_get_autoCleanBundleCache() const;
 
-  constexpr void __set_autoCleanBundleCache(bool value);
+  constexpr void __cordl_internal_set_autoCleanBundleCache(bool value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass140_0* New_ctor();
 
@@ -2591,45 +2603,45 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 792 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14034))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14078)) CS Name: ::AddressablesImpl::<>c__DisplayClass145_0*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14034)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 275 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(14033), inst: 792 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14078)) CS Name: ::AddressablesImpl::<>c__DisplayClass145_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass145_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field depOp, offset 0x18, size 0x20
-  __declspec(property(get = __get_depOp, put = __set_depOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
+  __declspec(property(get = __cordl_internal_get_depOp, put = __cordl_internal_set_depOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> depOp;
 
   /// @brief Field forceSingleThreading, offset 0x38, size 0x1
-  __declspec(property(get = __get_forceSingleThreading, put = __set_forceSingleThreading)) bool forceSingleThreading;
+  __declspec(property(get = __cordl_internal_get_forceSingleThreading, put = __cordl_internal_set_forceSingleThreading)) bool forceSingleThreading;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>&
-  __get_depOp();
+  __cordl_internal_get_depOp();
 
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
-  __get_depOp() const;
+  __cordl_internal_get_depOp() const;
 
-  constexpr void __set_depOp(
+  constexpr void __cordl_internal_set_depOp(
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
           value);
 
-  constexpr bool& __get_forceSingleThreading();
+  constexpr bool& __cordl_internal_get_forceSingleThreading();
 
-  constexpr bool const& __get_forceSingleThreading() const;
+  constexpr bool const& __cordl_internal_get_forceSingleThreading() const;
 
-  constexpr void __set_forceSingleThreading(bool value);
+  constexpr void __cordl_internal_set_forceSingleThreading(bool value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass145_0* New_ctor();
 
@@ -2679,38 +2691,38 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14079))
 // CS Name: ::AddressablesImpl::<>c__DisplayClass146_0*
 class CORDL_TYPE __AddressablesImpl____c__DisplayClass146_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::AddressablesImpl* __4__this;
 
   /// @brief Field catalogIds, offset 0x18, size 0x8
-  __declspec(property(get = __get_catalogIds, put = __set_catalogIds))::System::Collections::Generic::IEnumerable_1<::StringW>* catalogIds;
+  __declspec(property(get = __cordl_internal_get_catalogIds, put = __cordl_internal_set_catalogIds))::System::Collections::Generic::IEnumerable_1<::StringW>* catalogIds;
 
   /// @brief Field forceSingleThreading, offset 0x20, size 0x1
-  __declspec(property(get = __get_forceSingleThreading, put = __set_forceSingleThreading)) bool forceSingleThreading;
+  __declspec(property(get = __cordl_internal_get_forceSingleThreading, put = __cordl_internal_set_forceSingleThreading)) bool forceSingleThreading;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>*& __get_catalogIds();
+  constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>*& __cordl_internal_get_catalogIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::StringW>*> const& __get_catalogIds() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::StringW>*> const& __cordl_internal_get_catalogIds() const;
 
-  constexpr void __set_catalogIds(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
+  constexpr void __cordl_internal_set_catalogIds(::System::Collections::Generic::IEnumerable_1<::StringW>* value);
 
-  constexpr bool& __get_forceSingleThreading();
+  constexpr bool& __cordl_internal_get_forceSingleThreading();
 
-  constexpr bool const& __get_forceSingleThreading() const;
+  constexpr bool const& __cordl_internal_get_forceSingleThreading() const;
 
-  constexpr void __set_forceSingleThreading(bool value);
+  constexpr void __cordl_internal_set_forceSingleThreading(bool value);
 
   static inline ::UnityEngine::AddressableAssets::__AddressablesImpl____c__DisplayClass146_0* New_ctor();
 
@@ -2759,11 +2771,11 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::__AddressablesImpl____c
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 225, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 795 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3843)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(14112)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 796 }), TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(14033), inst: 794 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 796 }), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(14080)) CS Name: ::UnityEngine.AddressableAssets::AddressablesImpl*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3843)), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14112)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 397 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3843), inst: 796 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(14033), inst: 794 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 795 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(14033), inst: 796 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14080)) CS Name: ::UnityEngine.AddressableAssets::AddressablesImpl*
 class CORDL_TYPE AddressablesImpl : public ::System::Object {
 public:
   // Declarations
@@ -2826,60 +2838,63 @@ public:
   using ResourceLocatorInfo = ::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo;
 
   /// @brief Field m_ResourceManager, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_ResourceManager, put = __set_m_ResourceManager))::UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager;
+  __declspec(property(get = __cordl_internal_get_m_ResourceManager, put = __cordl_internal_set_m_ResourceManager))::UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager;
 
   /// @brief Field m_InstanceProvider, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_InstanceProvider, put = __set_m_InstanceProvider))::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* m_InstanceProvider;
+  __declspec(property(get = __cordl_internal_get_m_InstanceProvider,
+                      put = __cordl_internal_set_m_InstanceProvider))::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* m_InstanceProvider;
 
   /// @brief Field m_CatalogRequestsTimeout, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_CatalogRequestsTimeout, put = __set_m_CatalogRequestsTimeout)) int32_t m_CatalogRequestsTimeout;
+  __declspec(property(get = __cordl_internal_get_m_CatalogRequestsTimeout, put = __cordl_internal_set_m_CatalogRequestsTimeout)) int32_t m_CatalogRequestsTimeout;
 
   /// @brief Field SceneProvider, offset 0x28, size 0x8
-  __declspec(property(get = __get_SceneProvider, put = __set_SceneProvider))::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* SceneProvider;
+  __declspec(property(get = __cordl_internal_get_SceneProvider, put = __cordl_internal_set_SceneProvider))::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* SceneProvider;
 
   /// @brief Field m_ResourceLocators, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_ResourceLocators,
-                      put = __set_m_ResourceLocators))::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* m_ResourceLocators;
+  __declspec(
+      property(get = __cordl_internal_get_m_ResourceLocators,
+               put = __cordl_internal_set_m_ResourceLocators))::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* m_ResourceLocators;
 
   /// @brief Field m_InitializationOperation, offset 0x38, size 0x20
-  __declspec(property(get = __get_m_InitializationOperation, put = __set_m_InitializationOperation))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
-      ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> m_InitializationOperation;
+  __declspec(property(get = __cordl_internal_get_m_InitializationOperation, put = __cordl_internal_set_m_InitializationOperation))::UnityEngine::ResourceManagement::AsyncOperations::
+      AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> m_InitializationOperation;
 
   /// @brief Field m_ActiveCheckUpdateOperation, offset 0x58, size 0x20
-  __declspec(property(get = __get_m_ActiveCheckUpdateOperation, put = __set_m_ActiveCheckUpdateOperation))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
-      ::System::Collections::Generic::List_1<::StringW>*> m_ActiveCheckUpdateOperation;
+  __declspec(property(get = __cordl_internal_get_m_ActiveCheckUpdateOperation, put = __cordl_internal_set_m_ActiveCheckUpdateOperation))::UnityEngine::ResourceManagement::AsyncOperations::
+      AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*> m_ActiveCheckUpdateOperation;
 
   /// @brief Field m_ActiveUpdateOperation, offset 0x78, size 0x20
-  __declspec(property(get = __get_m_ActiveUpdateOperation, put = __set_m_ActiveUpdateOperation))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
-      ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> m_ActiveUpdateOperation;
+  __declspec(property(get = __cordl_internal_get_m_ActiveUpdateOperation, put = __cordl_internal_set_m_ActiveUpdateOperation))::UnityEngine::ResourceManagement::AsyncOperations::
+      AsyncOperationHandle_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> m_ActiveUpdateOperation;
 
   /// @brief Field m_OnHandleCompleteAction, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_OnHandleCompleteAction,
-                      put = __set_m_OnHandleCompleteAction))::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* m_OnHandleCompleteAction;
+  __declspec(property(get = __cordl_internal_get_m_OnHandleCompleteAction,
+                      put = __cordl_internal_set_m_OnHandleCompleteAction))::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* m_OnHandleCompleteAction;
 
   /// @brief Field m_OnSceneHandleCompleteAction, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_OnSceneHandleCompleteAction,
-                      put = __set_m_OnSceneHandleCompleteAction))::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* m_OnSceneHandleCompleteAction;
+  __declspec(
+      property(get = __cordl_internal_get_m_OnSceneHandleCompleteAction,
+               put = __cordl_internal_set_m_OnSceneHandleCompleteAction))::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* m_OnSceneHandleCompleteAction;
 
   /// @brief Field m_OnHandleDestroyedAction, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_OnHandleDestroyedAction,
-                      put = __set_m_OnHandleDestroyedAction))::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* m_OnHandleDestroyedAction;
+  __declspec(property(get = __cordl_internal_get_m_OnHandleDestroyedAction,
+                      put = __cordl_internal_set_m_OnHandleDestroyedAction))::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* m_OnHandleDestroyedAction;
 
   /// @brief Field m_resultToHandle, offset 0xb0, size 0x8
-  __declspec(property(
-      get = __get_m_resultToHandle,
-      put = __set_m_resultToHandle))::System::Collections::Generic::Dictionary_2<::System::Object*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* m_resultToHandle;
+  __declspec(property(get = __cordl_internal_get_m_resultToHandle, put = __cordl_internal_set_m_resultToHandle))::System::Collections::Generic::Dictionary_2<
+      ::System::Object*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* m_resultToHandle;
 
   /// @brief Field m_SceneInstances, offset 0xb8, size 0x8
-  __declspec(property(get = __get_m_SceneInstances,
-                      put = __set_m_SceneInstances))::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* m_SceneInstances;
+  __declspec(
+      property(get = __cordl_internal_get_m_SceneInstances,
+               put = __cordl_internal_set_m_SceneInstances))::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* m_SceneInstances;
 
   /// @brief Field m_ActiveCleanBundleCacheOperation, offset 0xc0, size 0x20
-  __declspec(property(get = __get_m_ActiveCleanBundleCacheOperation,
-                      put = __set_m_ActiveCleanBundleCacheOperation))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> m_ActiveCleanBundleCacheOperation;
+  __declspec(property(get = __cordl_internal_get_m_ActiveCleanBundleCacheOperation,
+                      put = __cordl_internal_set_m_ActiveCleanBundleCacheOperation))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> m_ActiveCleanBundleCacheOperation;
 
   /// @brief Field hasStartedInitialization, offset 0xe0, size 0x1
-  __declspec(property(get = __get_hasStartedInitialization, put = __set_hasStartedInitialization)) bool hasStartedInitialization;
+  __declspec(property(get = __cordl_internal_get_hasStartedInitialization, put = __cordl_internal_set_hasStartedInitialization)) bool hasStartedInitialization;
 
   __declspec(property(get = get_InstanceProvider, put = set_InstanceProvider))::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* InstanceProvider;
 
@@ -2919,104 +2934,111 @@ public:
   constexpr ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*
   i___System__Collections__Generic__IEqualityComparer_1___UnityEngine__ResourceManagement__ResourceLocations__IResourceLocation__() noexcept;
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceManager*& __get_m_ResourceManager();
+  constexpr ::UnityEngine::ResourceManagement::ResourceManager*& __cordl_internal_get_m_ResourceManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceManager*> const& __get_m_ResourceManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceManager*> const& __cordl_internal_get_m_ResourceManager() const;
 
-  constexpr void __set_m_ResourceManager(::UnityEngine::ResourceManagement::ResourceManager* value);
+  constexpr void __cordl_internal_set_m_ResourceManager(::UnityEngine::ResourceManagement::ResourceManager* value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*& __get_m_InstanceProvider();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*& __cordl_internal_get_m_InstanceProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*> const& __get_m_InstanceProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider*> const& __cordl_internal_get_m_InstanceProvider() const;
 
-  constexpr void __set_m_InstanceProvider(::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* value);
+  constexpr void __cordl_internal_set_m_InstanceProvider(::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* value);
 
-  constexpr int32_t& __get_m_CatalogRequestsTimeout();
+  constexpr int32_t& __cordl_internal_get_m_CatalogRequestsTimeout();
 
-  constexpr int32_t const& __get_m_CatalogRequestsTimeout() const;
+  constexpr int32_t const& __cordl_internal_get_m_CatalogRequestsTimeout() const;
 
-  constexpr void __set_m_CatalogRequestsTimeout(int32_t value);
+  constexpr void __cordl_internal_set_m_CatalogRequestsTimeout(int32_t value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*& __get_SceneProvider();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*& __cordl_internal_get_SceneProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*> const& __get_SceneProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider*> const& __cordl_internal_get_SceneProvider() const;
 
-  constexpr void __set_SceneProvider(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* value);
+  constexpr void __cordl_internal_set_SceneProvider(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>*& __get_m_ResourceLocators();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>*& __cordl_internal_get_m_ResourceLocators();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>*> const&
-  __get_m_ResourceLocators() const;
+  __cordl_internal_get_m_ResourceLocators() const;
 
-  constexpr void __set_m_ResourceLocators(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* value);
+  constexpr void __cordl_internal_set_m_ResourceLocators(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::__AddressablesImpl__ResourceLocatorInfo*>* value);
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>& __get_m_InitializationOperation();
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>&
+  __cordl_internal_get_m_InitializationOperation();
 
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> const&
-  __get_m_InitializationOperation() const;
+  __cordl_internal_get_m_InitializationOperation() const;
+
+  constexpr void __cordl_internal_set_m_InitializationOperation(
+      ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> value);
+
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*>& __cordl_internal_get_m_ActiveCheckUpdateOperation();
+
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*> const&
+  __cordl_internal_get_m_ActiveCheckUpdateOperation() const;
 
   constexpr void
-  __set_m_InitializationOperation(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> value);
-
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*>& __get_m_ActiveCheckUpdateOperation();
-
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*> const& __get_m_ActiveCheckUpdateOperation() const;
-
-  constexpr void __set_m_ActiveCheckUpdateOperation(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*> value);
+  __cordl_internal_set_m_ActiveCheckUpdateOperation(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::StringW>*> value);
 
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*>&
-  __get_m_ActiveUpdateOperation();
+  __cordl_internal_get_m_ActiveUpdateOperation();
 
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> const&
-  __get_m_ActiveUpdateOperation() const;
+  __cordl_internal_get_m_ActiveUpdateOperation() const;
 
-  constexpr void __set_m_ActiveUpdateOperation(
+  constexpr void __cordl_internal_set_m_ActiveUpdateOperation(
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> value);
 
-  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __get_m_OnHandleCompleteAction();
+  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __cordl_internal_get_m_OnHandleCompleteAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const& __get_m_OnHandleCompleteAction() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
+  __cordl_internal_get_m_OnHandleCompleteAction() const;
 
-  constexpr void __set_m_OnHandleCompleteAction(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+  constexpr void __cordl_internal_set_m_OnHandleCompleteAction(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __get_m_OnSceneHandleCompleteAction();
+  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __cordl_internal_get_m_OnSceneHandleCompleteAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const& __get_m_OnSceneHandleCompleteAction() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
+  __cordl_internal_get_m_OnSceneHandleCompleteAction() const;
 
-  constexpr void __set_m_OnSceneHandleCompleteAction(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+  constexpr void __cordl_internal_set_m_OnSceneHandleCompleteAction(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __get_m_OnHandleDestroyedAction();
+  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __cordl_internal_get_m_OnHandleDestroyedAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const& __get_m_OnHandleDestroyedAction() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
+  __cordl_internal_get_m_OnHandleDestroyedAction() const;
 
-  constexpr void __set_m_OnHandleDestroyedAction(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+  constexpr void __cordl_internal_set_m_OnHandleDestroyedAction(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __get_m_resultToHandle();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __cordl_internal_get_m_resultToHandle();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Object*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
-  __get_m_resultToHandle() const;
+  __cordl_internal_get_m_resultToHandle() const;
 
-  constexpr void __set_m_resultToHandle(::System::Collections::Generic::Dictionary_2<::System::Object*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+  constexpr void
+  __cordl_internal_set_m_resultToHandle(::System::Collections::Generic::Dictionary_2<::System::Object*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __get_m_SceneInstances();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __cordl_internal_get_m_SceneInstances();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
-  __get_m_SceneInstances() const;
+  __cordl_internal_get_m_SceneInstances() const;
 
-  constexpr void __set_m_SceneInstances(::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+  constexpr void __cordl_internal_set_m_SceneInstances(::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>& __get_m_ActiveCleanBundleCacheOperation();
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>& __cordl_internal_get_m_ActiveCleanBundleCacheOperation();
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> const& __get_m_ActiveCleanBundleCacheOperation() const;
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> const& __cordl_internal_get_m_ActiveCleanBundleCacheOperation() const;
 
-  constexpr void __set_m_ActiveCleanBundleCacheOperation(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> value);
+  constexpr void __cordl_internal_set_m_ActiveCleanBundleCacheOperation(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> value);
 
-  constexpr bool& __get_hasStartedInitialization();
+  constexpr bool& __cordl_internal_get_hasStartedInitialization();
 
-  constexpr bool const& __get_hasStartedInitialization() const;
+  constexpr bool const& __cordl_internal_get_hasStartedInitialization() const;
 
-  constexpr void __set_hasStartedInitialization(bool value);
+  constexpr void __cordl_internal_set_hasStartedInitialization(bool value);
 
   /// @brief Method get_InstanceProvider, addr 0x2a1b9b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* get_InstanceProvider();
@@ -3310,38 +3332,38 @@ public:
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> ClearDependencyCacheAsync(::System::Collections::IEnumerable* keys, bool autoReleaseHandle);
 
   /// @brief Method InstantiateAsync, addr 0x2a2055c, size 0x88, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   InstantiateAsync(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::Transform* parent, bool instantiateInWorldSpace, bool trackHandle);
 
   /// @brief Method InstantiateAsync, addr 0x2a18fe4, size 0x80, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   InstantiateAsync(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                    ::UnityEngine::Transform* parent, bool trackHandle);
 
   /// @brief Method InstantiateAsync, addr 0x2a19064, size 0x88, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*> InstantiateAsync(::System::Object* key, ::UnityEngine::Transform* parent,
-                                                                                                                                 bool instantiateInWorldSpace, bool trackHandle);
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> InstantiateAsync(::System::Object* key, ::UnityEngine::Transform* parent,
+                                                                                                                                          bool instantiateInWorldSpace, bool trackHandle);
 
   /// @brief Method InstantiateAsync, addr 0x2a190ec, size 0x80, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   InstantiateAsync(::System::Object* key, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Transform* parent, bool trackHandle);
 
   /// @brief Method InstantiateWithChain, addr 0x2a205e4, size 0x180, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   InstantiateWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep, ::System::Object* key,
                        ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle);
 
   /// @brief Method InstantiateAsync, addr 0x2a1916c, size 0x440, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   InstantiateAsync(::System::Object* key, ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle);
 
   /// @brief Method InstantiateWithChain, addr 0x2a2076c, size 0x180, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   InstantiateWithChain(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dep, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                        ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle);
 
   /// @brief Method InstantiateAsync, addr 0x2a18ebc, size 0x128, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::GameObject*>
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   InstantiateAsync(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                    ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters, bool trackHandle);
 

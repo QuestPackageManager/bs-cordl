@@ -48,56 +48,56 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightRotationGroupEffect__InitData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14733))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14733))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4940))
 // CS Name: ::LightRotationGroupEffect::InitData*
 class CORDL_TYPE __LightRotationGroupEffect__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field groupId, offset 0x10, size 0x4
-  __declspec(property(get = __get_groupId, put = __set_groupId)) int32_t groupId;
+  __declspec(property(get = __cordl_internal_get_groupId, put = __cordl_internal_set_groupId)) int32_t groupId;
 
   /// @brief Field elementId, offset 0x14, size 0x4
-  __declspec(property(get = __get_elementId, put = __set_elementId)) int32_t elementId;
+  __declspec(property(get = __cordl_internal_get_elementId, put = __cordl_internal_set_elementId)) int32_t elementId;
 
   /// @brief Field axis, offset 0x18, size 0x4
-  __declspec(property(get = __get_axis, put = __set_axis))::GlobalNamespace::LightAxis axis;
+  __declspec(property(get = __cordl_internal_get_axis, put = __cordl_internal_set_axis))::GlobalNamespace::LightAxis axis;
 
   /// @brief Field mirrored, offset 0x1c, size 0x1
-  __declspec(property(get = __get_mirrored, put = __set_mirrored)) bool mirrored;
+  __declspec(property(get = __cordl_internal_get_mirrored, put = __cordl_internal_set_mirrored)) bool mirrored;
 
   /// @brief Field transform, offset 0x20, size 0x8
-  __declspec(property(get = __get_transform, put = __set_transform))::UnityEngine::Transform* transform;
+  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
 
-  constexpr int32_t& __get_groupId();
+  constexpr int32_t& __cordl_internal_get_groupId();
 
-  constexpr int32_t const& __get_groupId() const;
+  constexpr int32_t const& __cordl_internal_get_groupId() const;
 
-  constexpr void __set_groupId(int32_t value);
+  constexpr void __cordl_internal_set_groupId(int32_t value);
 
-  constexpr int32_t& __get_elementId();
+  constexpr int32_t& __cordl_internal_get_elementId();
 
-  constexpr int32_t const& __get_elementId() const;
+  constexpr int32_t const& __cordl_internal_get_elementId() const;
 
-  constexpr void __set_elementId(int32_t value);
+  constexpr void __cordl_internal_set_elementId(int32_t value);
 
-  constexpr ::GlobalNamespace::LightAxis& __get_axis();
+  constexpr ::GlobalNamespace::LightAxis& __cordl_internal_get_axis();
 
-  constexpr ::GlobalNamespace::LightAxis const& __get_axis() const;
+  constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get_axis() const;
 
-  constexpr void __set_axis(::GlobalNamespace::LightAxis value);
+  constexpr void __cordl_internal_set_axis(::GlobalNamespace::LightAxis value);
 
-  constexpr bool& __get_mirrored();
+  constexpr bool& __cordl_internal_get_mirrored();
 
-  constexpr bool const& __get_mirrored() const;
+  constexpr bool const& __cordl_internal_get_mirrored() const;
 
-  constexpr void __set_mirrored(bool value);
+  constexpr void __cordl_internal_set_mirrored(bool value);
 
-  constexpr ::UnityEngine::Transform*& __get_transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_transform() const;
 
-  constexpr void __set_transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
   static inline ::GlobalNamespace::__LightRotationGroupEffect__InitData* New_ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::LightAxis axis, bool mirrored,
                                                                                   ::UnityEngine::Transform* transform);
@@ -132,7 +132,7 @@ public:
   bool ___mirrored;
 
   /// @brief Field transform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___transform;
+  ::UnityW<::UnityEngine::Transform> ___transform;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -154,7 +154,7 @@ static_assert(offsetof(::GlobalNamespace::__LightRotationGroupEffect__InitData, 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14733))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14733))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4941))
 // CS Name: ::LightRotationGroupEffect*
 class CORDL_TYPE LightRotationGroupEffect : public ::System::Object {
@@ -163,68 +163,69 @@ public:
   using InitData = ::GlobalNamespace::__LightRotationGroupEffect__InitData;
 
   /// @brief Field _transform, offset 0x10, size 0x8
-  __declspec(property(get = __get__transform, put = __set__transform))::UnityEngine::Transform* _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
   /// @brief Field _axis, offset 0x18, size 0x4
-  __declspec(property(get = __get__axis, put = __set__axis))::GlobalNamespace::LightAxis _axis;
+  __declspec(property(get = __cordl_internal_get__axis, put = __cordl_internal_set__axis))::GlobalNamespace::LightAxis _axis;
 
   /// @brief Field _mirrored, offset 0x1c, size 0x1
-  __declspec(property(get = __get__mirrored, put = __set__mirrored)) bool _mirrored;
+  __declspec(property(get = __cordl_internal_get__mirrored, put = __cordl_internal_set__mirrored)) bool _mirrored;
 
   /// @brief Field _tweeningManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__tweeningManager, put = __set__tweeningManager))::Tweening::SongTimeTweeningManager* _tweeningManager;
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
   /// @brief Field _beatmapCallbacksController, offset 0x28, size 0x8
-  __declspec(property(get = __get__beatmapCallbacksController, put = __set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
+                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
   /// @brief Field _rotationTween, offset 0x30, size 0x8
-  __declspec(property(get = __get__rotationTween, put = __set__rotationTween))::Tweening::FloatTween* _rotationTween;
+  __declspec(property(get = __cordl_internal_get__rotationTween, put = __cordl_internal_set__rotationTween))::Tweening::FloatTween* _rotationTween;
 
   /// @brief Field _lightRotationBeatmapEventCallbackWrapper, offset 0x38, size 0x8
-  __declspec(property(get = __get__lightRotationBeatmapEventCallbackWrapper,
-                      put = __set__lightRotationBeatmapEventCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _lightRotationBeatmapEventCallbackWrapper;
+  __declspec(property(get = __cordl_internal_get__lightRotationBeatmapEventCallbackWrapper,
+                      put = __cordl_internal_set__lightRotationBeatmapEventCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _lightRotationBeatmapEventCallbackWrapper;
 
-  constexpr ::UnityEngine::Transform*& __get__transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr void __set__transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::GlobalNamespace::LightAxis& __get__axis();
+  constexpr ::GlobalNamespace::LightAxis& __cordl_internal_get__axis();
 
-  constexpr ::GlobalNamespace::LightAxis const& __get__axis() const;
+  constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get__axis() const;
 
-  constexpr void __set__axis(::GlobalNamespace::LightAxis value);
+  constexpr void __cordl_internal_set__axis(::GlobalNamespace::LightAxis value);
 
-  constexpr bool& __get__mirrored();
+  constexpr bool& __cordl_internal_get__mirrored();
 
-  constexpr bool const& __get__mirrored() const;
+  constexpr bool const& __cordl_internal_get__mirrored() const;
 
-  constexpr void __set__mirrored(bool value);
+  constexpr void __cordl_internal_set__mirrored(bool value);
 
-  constexpr ::Tweening::SongTimeTweeningManager*& __get__tweeningManager();
+  constexpr ::UnityW<::Tweening::SongTimeTweeningManager>& __cordl_internal_get__tweeningManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::SongTimeTweeningManager*> const& __get__tweeningManager() const;
+  constexpr ::UnityW<::Tweening::SongTimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
-  constexpr void __set__tweeningManager(::Tweening::SongTimeTweeningManager* value);
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __get__beatmapCallbacksController();
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __get__beatmapCallbacksController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-  constexpr ::Tweening::FloatTween*& __get__rotationTween();
+  constexpr ::Tweening::FloatTween*& __cordl_internal_get__rotationTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __get__rotationTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get__rotationTween() const;
 
-  constexpr void __set__rotationTween(::Tweening::FloatTween* value);
+  constexpr void __cordl_internal_set__rotationTween(::Tweening::FloatTween* value);
 
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __get__lightRotationBeatmapEventCallbackWrapper();
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__lightRotationBeatmapEventCallbackWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __get__lightRotationBeatmapEventCallbackWrapper() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__lightRotationBeatmapEventCallbackWrapper() const;
 
-  constexpr void __set__lightRotationBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
+  constexpr void __cordl_internal_set__lightRotationBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
   static inline ::GlobalNamespace::LightRotationGroupEffect* New_ctor(::GlobalNamespace::__LightRotationGroupEffect__InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                       ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
@@ -260,7 +261,7 @@ protected:
 
 public:
   /// @brief Field _transform, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____transform;
+  ::UnityW<::UnityEngine::Transform> ____transform;
 
   /// @brief Field _axis, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::LightAxis ____axis;
@@ -269,7 +270,7 @@ public:
   bool ____mirrored;
 
   /// @brief Field _tweeningManager, offset: 0x20, size: 0x8, def value: None
-  ::Tweening::SongTimeTweeningManager* ____tweeningManager;
+  ::UnityW<::Tweening::SongTimeTweeningManager> ____tweeningManager;
 
   /// @brief Field _beatmapCallbacksController, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;

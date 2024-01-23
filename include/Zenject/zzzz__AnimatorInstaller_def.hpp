@@ -25,19 +25,19 @@ MARK_REF_PTR_T(::Zenject::AnimatorInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11132)), TypeDefinitionIndex(TypeDefinitionIndex(14882)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11132), inst:
-// 3907 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11301)) CS Name: ::Zenject::AnimatorInstaller*
-class CORDL_TYPE AnimatorInstaller : public ::Zenject::Installer_2<::UnityEngine::Animator*, ::Zenject::AnimatorInstaller*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11132)), TypeDefinitionIndex(TypeDefinitionIndex(14882)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11132), inst:
+// 3907 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11301)) CS Name: ::Zenject::AnimatorInstaller*
+class CORDL_TYPE AnimatorInstaller : public ::Zenject::Installer_2<::UnityW<::UnityEngine::Animator>, ::Zenject::AnimatorInstaller*> {
 public:
   // Declarations
   /// @brief Field _animator, offset 0x18, size 0x8
-  __declspec(property(get = __get__animator, put = __set__animator))::UnityEngine::Animator* _animator;
+  __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator))::UnityW<::UnityEngine::Animator> _animator;
 
-  constexpr ::UnityEngine::Animator*& __get__animator();
+  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> const& __get__animator() const;
+  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
 
-  constexpr void __set__animator(::UnityEngine::Animator* value);
+  constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
   static inline ::Zenject::AnimatorInstaller* New_ctor(::UnityEngine::Animator* animator);
 
@@ -68,7 +68,7 @@ protected:
 
 public:
   /// @brief Field _animator, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Animator* ____animator;
+  ::UnityW<::UnityEngine::Animator> ____animator;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

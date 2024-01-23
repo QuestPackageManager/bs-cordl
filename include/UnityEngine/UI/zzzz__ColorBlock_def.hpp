@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::UI::ColorBlock);
 // SizeInfo { instance_size: 88, native_size: 88, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13023))
 // CS Name: ::UnityEngine.UI::ColorBlock
 struct CORDL_TYPE ColorBlock {

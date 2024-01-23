@@ -60,7 +60,7 @@ MARK_REF_PTR_T(::System::Net::Sockets::__SocketAsyncResult____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9358))
 // CS Name: ::SocketAsyncResult::<>c*
 class CORDL_TYPE __SocketAsyncResult____c : public ::System::Object {
@@ -112,179 +112,179 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::__SocketAs
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 }), TypeDefinitionIndex(TypeDefinitionIndex(2437)),
-// TypeDefinitionIndex(TypeDefinitionIndex(8895)), TypeDefinitionIndex(TypeDefinitionIndex(9360)), TypeDefinitionIndex(TypeDefinitionIndex(9348))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9359))
-// CS Name: ::System.Net.Sockets::SocketAsyncResult*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2437)), TypeDefinitionIndex(TypeDefinitionIndex(8895)), TypeDefinitionIndex(TypeDefinitionIndex(9348)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9360)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2437), inst: 741 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9359)) CS
+// Name: ::System.Net.Sockets::SocketAsyncResult*
 class CORDL_TYPE SocketAsyncResult : public ::System::IOAsyncResult {
 public:
   // Declarations
   using __c = ::System::Net::Sockets::__SocketAsyncResult____c;
 
   /// @brief Field socket, offset 0x30, size 0x8
-  __declspec(property(get = __get_socket, put = __set_socket))::System::Net::Sockets::Socket* socket;
+  __declspec(property(get = __cordl_internal_get_socket, put = __cordl_internal_set_socket))::System::Net::Sockets::Socket* socket;
 
   /// @brief Field operation, offset 0x38, size 0x4
-  __declspec(property(get = __get_operation, put = __set_operation))::System::Net::Sockets::SocketOperation operation;
+  __declspec(property(get = __cordl_internal_get_operation, put = __cordl_internal_set_operation))::System::Net::Sockets::SocketOperation operation;
 
   /// @brief Field DelayedException, offset 0x40, size 0x8
-  __declspec(property(get = __get_DelayedException, put = __set_DelayedException))::System::Exception* DelayedException;
+  __declspec(property(get = __cordl_internal_get_DelayedException, put = __cordl_internal_set_DelayedException))::System::Exception* DelayedException;
 
   /// @brief Field EndPoint, offset 0x48, size 0x8
-  __declspec(property(get = __get_EndPoint, put = __set_EndPoint))::System::Net::EndPoint* EndPoint;
+  __declspec(property(get = __cordl_internal_get_EndPoint, put = __cordl_internal_set_EndPoint))::System::Net::EndPoint* EndPoint;
 
   /// @brief Field Buffer, offset 0x50, size 0x10
-  __declspec(property(get = __get_Buffer, put = __set_Buffer))::System::Memory_1<uint8_t> Buffer;
+  __declspec(property(get = __cordl_internal_get_Buffer, put = __cordl_internal_set_Buffer))::System::Memory_1<uint8_t> Buffer;
 
   /// @brief Field Offset, offset 0x60, size 0x4
-  __declspec(property(get = __get_Offset, put = __set_Offset)) int32_t Offset;
+  __declspec(property(get = __cordl_internal_get_Offset, put = __cordl_internal_set_Offset)) int32_t Offset;
 
   /// @brief Field Size, offset 0x64, size 0x4
-  __declspec(property(get = __get_Size, put = __set_Size)) int32_t Size;
+  __declspec(property(get = __cordl_internal_get_Size, put = __cordl_internal_set_Size)) int32_t Size;
 
   /// @brief Field SockFlags, offset 0x68, size 0x4
-  __declspec(property(get = __get_SockFlags, put = __set_SockFlags))::System::Net::Sockets::SocketFlags SockFlags;
+  __declspec(property(get = __cordl_internal_get_SockFlags, put = __cordl_internal_set_SockFlags))::System::Net::Sockets::SocketFlags SockFlags;
 
   /// @brief Field AcceptSocket, offset 0x70, size 0x8
-  __declspec(property(get = __get_AcceptSocket, put = __set_AcceptSocket))::System::Net::Sockets::Socket* AcceptSocket;
+  __declspec(property(get = __cordl_internal_get_AcceptSocket, put = __cordl_internal_set_AcceptSocket))::System::Net::Sockets::Socket* AcceptSocket;
 
   /// @brief Field Addresses, offset 0x78, size 0x8
-  __declspec(property(get = __get_Addresses, put = __set_Addresses))::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> Addresses;
+  __declspec(property(get = __cordl_internal_get_Addresses, put = __cordl_internal_set_Addresses))::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> Addresses;
 
   /// @brief Field Port, offset 0x80, size 0x4
-  __declspec(property(get = __get_Port, put = __set_Port)) int32_t Port;
+  __declspec(property(get = __cordl_internal_get_Port, put = __cordl_internal_set_Port)) int32_t Port;
 
   /// @brief Field Buffers, offset 0x88, size 0x8
-  __declspec(property(get = __get_Buffers, put = __set_Buffers))::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* Buffers;
+  __declspec(property(get = __cordl_internal_get_Buffers, put = __cordl_internal_set_Buffers))::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* Buffers;
 
   /// @brief Field ReuseSocket, offset 0x90, size 0x1
-  __declspec(property(get = __get_ReuseSocket, put = __set_ReuseSocket)) bool ReuseSocket;
+  __declspec(property(get = __cordl_internal_get_ReuseSocket, put = __cordl_internal_set_ReuseSocket)) bool ReuseSocket;
 
   /// @brief Field CurrentAddress, offset 0x94, size 0x4
-  __declspec(property(get = __get_CurrentAddress, put = __set_CurrentAddress)) int32_t CurrentAddress;
+  __declspec(property(get = __cordl_internal_get_CurrentAddress, put = __cordl_internal_set_CurrentAddress)) int32_t CurrentAddress;
 
   /// @brief Field AcceptedSocket, offset 0x98, size 0x8
-  __declspec(property(get = __get_AcceptedSocket, put = __set_AcceptedSocket))::System::Net::Sockets::Socket* AcceptedSocket;
+  __declspec(property(get = __cordl_internal_get_AcceptedSocket, put = __cordl_internal_set_AcceptedSocket))::System::Net::Sockets::Socket* AcceptedSocket;
 
   /// @brief Field Total, offset 0xa0, size 0x4
-  __declspec(property(get = __get_Total, put = __set_Total)) int32_t Total;
+  __declspec(property(get = __cordl_internal_get_Total, put = __cordl_internal_set_Total)) int32_t Total;
 
   /// @brief Field error, offset 0xa4, size 0x4
-  __declspec(property(get = __get_error, put = __set_error)) int32_t error;
+  __declspec(property(get = __cordl_internal_get_error, put = __cordl_internal_set_error)) int32_t error;
 
   /// @brief Field EndCalled, offset 0xa8, size 0x4
-  __declspec(property(get = __get_EndCalled, put = __set_EndCalled)) int32_t EndCalled;
+  __declspec(property(get = __cordl_internal_get_EndCalled, put = __cordl_internal_set_EndCalled)) int32_t EndCalled;
 
   __declspec(property(get = get_Handle)) void* Handle;
 
   __declspec(property(get = get_ErrorCode))::System::Net::Sockets::SocketError ErrorCode;
 
-  constexpr ::System::Net::Sockets::Socket*& __get_socket();
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_socket();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __get_socket() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_socket() const;
 
-  constexpr void __set_socket(::System::Net::Sockets::Socket* value);
+  constexpr void __cordl_internal_set_socket(::System::Net::Sockets::Socket* value);
 
-  constexpr ::System::Net::Sockets::SocketOperation& __get_operation();
+  constexpr ::System::Net::Sockets::SocketOperation& __cordl_internal_get_operation();
 
-  constexpr ::System::Net::Sockets::SocketOperation const& __get_operation() const;
+  constexpr ::System::Net::Sockets::SocketOperation const& __cordl_internal_get_operation() const;
 
-  constexpr void __set_operation(::System::Net::Sockets::SocketOperation value);
+  constexpr void __cordl_internal_set_operation(::System::Net::Sockets::SocketOperation value);
 
-  constexpr ::System::Exception*& __get_DelayedException();
+  constexpr ::System::Exception*& __cordl_internal_get_DelayedException();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __get_DelayedException() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get_DelayedException() const;
 
-  constexpr void __set_DelayedException(::System::Exception* value);
+  constexpr void __cordl_internal_set_DelayedException(::System::Exception* value);
 
-  constexpr ::System::Net::EndPoint*& __get_EndPoint();
+  constexpr ::System::Net::EndPoint*& __cordl_internal_get_EndPoint();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::EndPoint*> const& __get_EndPoint() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::EndPoint*> const& __cordl_internal_get_EndPoint() const;
 
-  constexpr void __set_EndPoint(::System::Net::EndPoint* value);
+  constexpr void __cordl_internal_set_EndPoint(::System::Net::EndPoint* value);
 
-  constexpr ::System::Memory_1<uint8_t>& __get_Buffer();
+  constexpr ::System::Memory_1<uint8_t>& __cordl_internal_get_Buffer();
 
-  constexpr ::System::Memory_1<uint8_t> const& __get_Buffer() const;
+  constexpr ::System::Memory_1<uint8_t> const& __cordl_internal_get_Buffer() const;
 
-  constexpr void __set_Buffer(::System::Memory_1<uint8_t> value);
+  constexpr void __cordl_internal_set_Buffer(::System::Memory_1<uint8_t> value);
 
-  constexpr int32_t& __get_Offset();
+  constexpr int32_t& __cordl_internal_get_Offset();
 
-  constexpr int32_t const& __get_Offset() const;
+  constexpr int32_t const& __cordl_internal_get_Offset() const;
 
-  constexpr void __set_Offset(int32_t value);
+  constexpr void __cordl_internal_set_Offset(int32_t value);
 
-  constexpr int32_t& __get_Size();
+  constexpr int32_t& __cordl_internal_get_Size();
 
-  constexpr int32_t const& __get_Size() const;
+  constexpr int32_t const& __cordl_internal_get_Size() const;
 
-  constexpr void __set_Size(int32_t value);
+  constexpr void __cordl_internal_set_Size(int32_t value);
 
-  constexpr ::System::Net::Sockets::SocketFlags& __get_SockFlags();
+  constexpr ::System::Net::Sockets::SocketFlags& __cordl_internal_get_SockFlags();
 
-  constexpr ::System::Net::Sockets::SocketFlags const& __get_SockFlags() const;
+  constexpr ::System::Net::Sockets::SocketFlags const& __cordl_internal_get_SockFlags() const;
 
-  constexpr void __set_SockFlags(::System::Net::Sockets::SocketFlags value);
+  constexpr void __cordl_internal_set_SockFlags(::System::Net::Sockets::SocketFlags value);
 
-  constexpr ::System::Net::Sockets::Socket*& __get_AcceptSocket();
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_AcceptSocket();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __get_AcceptSocket() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_AcceptSocket() const;
 
-  constexpr void __set_AcceptSocket(::System::Net::Sockets::Socket* value);
+  constexpr void __cordl_internal_set_AcceptSocket(::System::Net::Sockets::Socket* value);
 
-  constexpr ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*>& __get_Addresses();
+  constexpr ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*>& __cordl_internal_get_Addresses();
 
-  constexpr ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> const& __get_Addresses() const;
+  constexpr ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> const& __cordl_internal_get_Addresses() const;
 
-  constexpr void __set_Addresses(::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> value);
+  constexpr void __cordl_internal_set_Addresses(::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> value);
 
-  constexpr int32_t& __get_Port();
+  constexpr int32_t& __cordl_internal_get_Port();
 
-  constexpr int32_t const& __get_Port() const;
+  constexpr int32_t const& __cordl_internal_get_Port() const;
 
-  constexpr void __set_Port(int32_t value);
+  constexpr void __cordl_internal_set_Port(int32_t value);
 
-  constexpr ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>*& __get_Buffers();
+  constexpr ::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>*& __cordl_internal_get_Buffers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>*> const& __get_Buffers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>*> const& __cordl_internal_get_Buffers() const;
 
-  constexpr void __set_Buffers(::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* value);
+  constexpr void __cordl_internal_set_Buffers(::System::Collections::Generic::IList_1<::System::ArraySegment_1<uint8_t>>* value);
 
-  constexpr bool& __get_ReuseSocket();
+  constexpr bool& __cordl_internal_get_ReuseSocket();
 
-  constexpr bool const& __get_ReuseSocket() const;
+  constexpr bool const& __cordl_internal_get_ReuseSocket() const;
 
-  constexpr void __set_ReuseSocket(bool value);
+  constexpr void __cordl_internal_set_ReuseSocket(bool value);
 
-  constexpr int32_t& __get_CurrentAddress();
+  constexpr int32_t& __cordl_internal_get_CurrentAddress();
 
-  constexpr int32_t const& __get_CurrentAddress() const;
+  constexpr int32_t const& __cordl_internal_get_CurrentAddress() const;
 
-  constexpr void __set_CurrentAddress(int32_t value);
+  constexpr void __cordl_internal_set_CurrentAddress(int32_t value);
 
-  constexpr ::System::Net::Sockets::Socket*& __get_AcceptedSocket();
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_AcceptedSocket();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __get_AcceptedSocket() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_AcceptedSocket() const;
 
-  constexpr void __set_AcceptedSocket(::System::Net::Sockets::Socket* value);
+  constexpr void __cordl_internal_set_AcceptedSocket(::System::Net::Sockets::Socket* value);
 
-  constexpr int32_t& __get_Total();
+  constexpr int32_t& __cordl_internal_get_Total();
 
-  constexpr int32_t const& __get_Total() const;
+  constexpr int32_t const& __cordl_internal_get_Total() const;
 
-  constexpr void __set_Total(int32_t value);
+  constexpr void __cordl_internal_set_Total(int32_t value);
 
-  constexpr int32_t& __get_error();
+  constexpr int32_t& __cordl_internal_get_error();
 
-  constexpr int32_t const& __get_error() const;
+  constexpr int32_t const& __cordl_internal_get_error() const;
 
-  constexpr void __set_error(int32_t value);
+  constexpr void __cordl_internal_set_error(int32_t value);
 
-  constexpr int32_t& __get_EndCalled();
+  constexpr int32_t& __cordl_internal_get_EndCalled();
 
-  constexpr int32_t const& __get_EndCalled() const;
+  constexpr int32_t const& __cordl_internal_get_EndCalled() const;
 
-  constexpr void __set_EndCalled(int32_t value);
+  constexpr void __cordl_internal_set_EndCalled(int32_t value);
 
   /// @brief Method get_Handle, addr 0x28fed14, size 0x64, virtual false, abstract: false, final false
   inline void* get_Handle();

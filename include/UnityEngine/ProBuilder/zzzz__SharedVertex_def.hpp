@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::__SharedVertex____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12199))
 // CS Name: ::SharedVertex::<>c*
 class CORDL_TYPE __SharedVertex____c : public ::System::Object {
@@ -110,7 +110,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__Share
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12200))
 // CS Name: ::UnityEngine.ProBuilder::SharedVertex*
 class CORDL_TYPE SharedVertex : public ::System::Object {
@@ -119,7 +119,7 @@ public:
   using __c = ::UnityEngine::ProBuilder::__SharedVertex____c;
 
   /// @brief Field m_Vertices, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Vertices, put = __set_m_Vertices))::ArrayW<int32_t, ::Array<int32_t>*> m_Vertices;
+  __declspec(property(get = __cordl_internal_get_m_Vertices, put = __cordl_internal_set_m_Vertices))::ArrayW<int32_t, ::Array<int32_t>*> m_Vertices;
 
   __declspec(property(get = get_arrayInternal))::ArrayW<int32_t, ::Array<int32_t>*> arrayInternal;
 
@@ -147,11 +147,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_m_Vertices();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_Vertices();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_m_Vertices() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_Vertices() const;
 
-  constexpr void __set_m_Vertices(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_m_Vertices(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   /// @brief Method get_arrayInternal, addr 0x2b76c9c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_arrayInternal();

@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Clipping);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12109))
 // CS Name: ::Clipping::OutCode
 struct CORDL_TYPE __Clipping__OutCode {
@@ -89,7 +89,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__Clipping__OutCode, value__) 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12110))
 // CS Name: ::UnityEngine.ProBuilder::Clipping*
 class CORDL_TYPE Clipping : public ::System::Object {

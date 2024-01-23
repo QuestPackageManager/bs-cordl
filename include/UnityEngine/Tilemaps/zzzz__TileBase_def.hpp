@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::UnityEngine::Tilemaps::TileBase);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Tilemaps {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15947))
 // CS Name: ::UnityEngine.Tilemaps::TileBase*
 class CORDL_TYPE TileBase : public ::UnityEngine::ScriptableObject {

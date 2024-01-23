@@ -21,19 +21,19 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::Marker);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13888))
 // CS Name: ::UnityEngine.Timeline::Marker*
 class CORDL_TYPE Marker : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field m_Time, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Time, put = __set_m_Time)) double_t m_Time;
+  __declspec(property(get = __cordl_internal_get_m_Time, put = __cordl_internal_set_m_Time)) double_t m_Time;
 
   /// @brief Field <parent>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__parent_k__BackingField, put = __set__parent_k__BackingField))::UnityEngine::Timeline::TrackAsset* _parent_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__parent_k__BackingField, put = __cordl_internal_set__parent_k__BackingField))::UnityW<::UnityEngine::Timeline::TrackAsset> _parent_k__BackingField;
 
-  __declspec(property(get = get_parent, put = set_parent))::UnityEngine::Timeline::TrackAsset* parent;
+  __declspec(property(get = get_parent, put = set_parent))::UnityW<::UnityEngine::Timeline::TrackAsset> parent;
 
   __declspec(property(get = get_time, put = set_time)) double_t time;
 
@@ -43,20 +43,20 @@ public:
   /// @brief Convert to "::UnityEngine::Timeline::IMarker"
   constexpr ::UnityEngine::Timeline::IMarker* i___UnityEngine__Timeline__IMarker() noexcept;
 
-  constexpr double_t& __get_m_Time();
+  constexpr double_t& __cordl_internal_get_m_Time();
 
-  constexpr double_t const& __get_m_Time() const;
+  constexpr double_t const& __cordl_internal_get_m_Time() const;
 
-  constexpr void __set_m_Time(double_t value);
+  constexpr void __cordl_internal_set_m_Time(double_t value);
 
-  constexpr ::UnityEngine::Timeline::TrackAsset*& __get__parent_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::Timeline::TrackAsset>& __cordl_internal_get__parent_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::TrackAsset*> const& __get__parent_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Timeline::TrackAsset> const& __cordl_internal_get__parent_k__BackingField() const;
 
-  constexpr void __set__parent_k__BackingField(::UnityEngine::Timeline::TrackAsset* value);
+  constexpr void __cordl_internal_set__parent_k__BackingField(::UnityW<::UnityEngine::Timeline::TrackAsset> value);
 
   /// @brief Method get_parent, addr 0x2c68604, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Timeline::TrackAsset* get_parent();
+  inline ::UnityW<::UnityEngine::Timeline::TrackAsset> get_parent();
 
   /// @brief Method set_parent, addr 0x2c6860c, size 0x8, virtual false, abstract: false, final false
   inline void set_parent(::UnityEngine::Timeline::TrackAsset* value);
@@ -96,7 +96,7 @@ public:
   double_t ___m_Time;
 
   /// @brief Field <parent>k__BackingField, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Timeline::TrackAsset* ____parent_k__BackingField;
+  ::UnityW<::UnityEngine::Timeline::TrackAsset> ____parent_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

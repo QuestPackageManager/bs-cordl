@@ -23,17 +23,17 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_CookedEventData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9595))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9595))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9597))
 // CS Name: ::HoudiniEngineUnity::HEU_CookedEventData*
 class CORDL_TYPE HEU_CookedEventData : public ::HoudiniEngineUnity::HEU_AssetEventData {
 public:
   // Declarations
   static inline ::HoudiniEngineUnity::HEU_CookedEventData* New_ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful,
-                                                                    ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
+                                                                    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
   /// @brief Method .ctor, addr 0x214e2d4, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* outputObjects);
+  inline void _ctor(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool successful, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
 
   // Ctor Parameters [CppParam { name: "", ty: "HEU_CookedEventData", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

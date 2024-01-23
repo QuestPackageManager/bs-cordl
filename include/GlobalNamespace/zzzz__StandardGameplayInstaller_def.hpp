@@ -17,20 +17,21 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardGameplayInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5403))
 // CS Name: ::StandardGameplayInstaller*
 class CORDL_TYPE StandardGameplayInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
   /// @brief Field _standardSceneSetupData, offset 0x20, size 0x8
-  __declspec(property(get = __get__standardSceneSetupData, put = __set__standardSceneSetupData))::GlobalNamespace::StandardGameplaySceneSetupData* _standardSceneSetupData;
+  __declspec(property(get = __cordl_internal_get__standardSceneSetupData,
+                      put = __cordl_internal_set__standardSceneSetupData))::GlobalNamespace::StandardGameplaySceneSetupData* _standardSceneSetupData;
 
-  constexpr ::GlobalNamespace::StandardGameplaySceneSetupData*& __get__standardSceneSetupData();
+  constexpr ::GlobalNamespace::StandardGameplaySceneSetupData*& __cordl_internal_get__standardSceneSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StandardGameplaySceneSetupData*> const& __get__standardSceneSetupData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StandardGameplaySceneSetupData*> const& __cordl_internal_get__standardSceneSetupData() const;
 
-  constexpr void __set__standardSceneSetupData(::GlobalNamespace::StandardGameplaySceneSetupData* value);
+  constexpr void __cordl_internal_set__standardSceneSetupData(::GlobalNamespace::StandardGameplaySceneSetupData* value);
 
   /// @brief Method InstallBindings, addr 0x22731f4, size 0x370, virtual true, abstract: false, final false
   inline void InstallBindings();

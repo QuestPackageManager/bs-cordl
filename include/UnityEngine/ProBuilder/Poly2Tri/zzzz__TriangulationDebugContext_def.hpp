@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15342))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::TriangulationDebugContext*
 class CORDL_TYPE TriangulationDebugContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _tcx, offset 0x10, size 0x8
-  __declspec(property(get = __get__tcx, put = __set__tcx))::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* _tcx;
+  __declspec(property(get = __cordl_internal_get__tcx, put = __cordl_internal_set__tcx))::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* _tcx;
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*& __get__tcx();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*& __cordl_internal_get__tcx();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*> const& __get__tcx() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*> const& __cordl_internal_get__tcx() const;
 
-  constexpr void __set__tcx(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* value);
+  constexpr void __cordl_internal_set__tcx(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* value);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationDebugContext* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
 

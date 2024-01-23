@@ -43,29 +43,29 @@ MARK_REF_PTR_T(::System::Net::FtpDataStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9043))
 // CS Name: ::System.Net::FtpDataStream*
 class CORDL_TYPE FtpDataStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field _request, offset 0x28, size 0x8
-  __declspec(property(get = __get__request, put = __set__request))::System::Net::FtpWebRequest* _request;
+  __declspec(property(get = __cordl_internal_get__request, put = __cordl_internal_set__request))::System::Net::FtpWebRequest* _request;
 
   /// @brief Field _networkStream, offset 0x30, size 0x8
-  __declspec(property(get = __get__networkStream, put = __set__networkStream))::System::Net::Sockets::NetworkStream* _networkStream;
+  __declspec(property(get = __cordl_internal_get__networkStream, put = __cordl_internal_set__networkStream))::System::Net::Sockets::NetworkStream* _networkStream;
 
   /// @brief Field _writeable, offset 0x38, size 0x1
-  __declspec(property(get = __get__writeable, put = __set__writeable)) bool _writeable;
+  __declspec(property(get = __cordl_internal_get__writeable, put = __cordl_internal_set__writeable)) bool _writeable;
 
   /// @brief Field _readable, offset 0x39, size 0x1
-  __declspec(property(get = __get__readable, put = __set__readable)) bool _readable;
+  __declspec(property(get = __cordl_internal_get__readable, put = __cordl_internal_set__readable)) bool _readable;
 
   /// @brief Field _isFullyRead, offset 0x3a, size 0x1
-  __declspec(property(get = __get__isFullyRead, put = __set__isFullyRead)) bool _isFullyRead;
+  __declspec(property(get = __cordl_internal_get__isFullyRead, put = __cordl_internal_set__isFullyRead)) bool _isFullyRead;
 
   /// @brief Field _closing, offset 0x3b, size 0x1
-  __declspec(property(get = __get__closing, put = __set__closing)) bool _closing;
+  __declspec(property(get = __cordl_internal_get__closing, put = __cordl_internal_set__closing)) bool _closing;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -89,41 +89,41 @@ public:
   /// @brief Convert to "::System::Net::ICloseEx"
   constexpr ::System::Net::ICloseEx* i___System__Net__ICloseEx() noexcept;
 
-  constexpr ::System::Net::FtpWebRequest*& __get__request();
+  constexpr ::System::Net::FtpWebRequest*& __cordl_internal_get__request();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::FtpWebRequest*> const& __get__request() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::FtpWebRequest*> const& __cordl_internal_get__request() const;
 
-  constexpr void __set__request(::System::Net::FtpWebRequest* value);
+  constexpr void __cordl_internal_set__request(::System::Net::FtpWebRequest* value);
 
-  constexpr ::System::Net::Sockets::NetworkStream*& __get__networkStream();
+  constexpr ::System::Net::Sockets::NetworkStream*& __cordl_internal_get__networkStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::NetworkStream*> const& __get__networkStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::NetworkStream*> const& __cordl_internal_get__networkStream() const;
 
-  constexpr void __set__networkStream(::System::Net::Sockets::NetworkStream* value);
+  constexpr void __cordl_internal_set__networkStream(::System::Net::Sockets::NetworkStream* value);
 
-  constexpr bool& __get__writeable();
+  constexpr bool& __cordl_internal_get__writeable();
 
-  constexpr bool const& __get__writeable() const;
+  constexpr bool const& __cordl_internal_get__writeable() const;
 
-  constexpr void __set__writeable(bool value);
+  constexpr void __cordl_internal_set__writeable(bool value);
 
-  constexpr bool& __get__readable();
+  constexpr bool& __cordl_internal_get__readable();
 
-  constexpr bool const& __get__readable() const;
+  constexpr bool const& __cordl_internal_get__readable() const;
 
-  constexpr void __set__readable(bool value);
+  constexpr void __cordl_internal_set__readable(bool value);
 
-  constexpr bool& __get__isFullyRead();
+  constexpr bool& __cordl_internal_get__isFullyRead();
 
-  constexpr bool const& __get__isFullyRead() const;
+  constexpr bool const& __cordl_internal_get__isFullyRead() const;
 
-  constexpr void __set__isFullyRead(bool value);
+  constexpr void __cordl_internal_set__isFullyRead(bool value);
 
-  constexpr bool& __get__closing();
+  constexpr bool& __cordl_internal_get__closing();
 
-  constexpr bool const& __get__closing() const;
+  constexpr bool const& __cordl_internal_get__closing() const;
 
-  constexpr void __set__closing(bool value);
+  constexpr void __cordl_internal_set__closing(bool value);
 
   static inline ::System::Net::FtpDataStream* New_ctor(::System::Net::Sockets::NetworkStream* networkStream, ::System::Net::FtpWebRequest* request, ::System::Net::TriState writeOnly);
 

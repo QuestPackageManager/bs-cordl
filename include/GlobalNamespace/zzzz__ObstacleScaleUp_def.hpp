@@ -24,38 +24,38 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleScaleUp);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4796))
 // CS Name: ::ObstacleScaleUp*
 class CORDL_TYPE ObstacleScaleUp : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _fullScalePart, offset 0x18, size 0x4
-  __declspec(property(get = __get__fullScalePart, put = __set__fullScalePart)) float_t _fullScalePart;
+  __declspec(property(get = __cordl_internal_get__fullScalePart, put = __cordl_internal_set__fullScalePart)) float_t _fullScalePart;
 
   /// @brief Field _targetTransform, offset 0x20, size 0x8
-  __declspec(property(get = __get__targetTransform, put = __set__targetTransform))::UnityEngine::Transform* _targetTransform;
+  __declspec(property(get = __cordl_internal_get__targetTransform, put = __cordl_internal_set__targetTransform))::UnityW<::UnityEngine::Transform> _targetTransform;
 
   /// @brief Field _obstacleController, offset 0x28, size 0x8
-  __declspec(property(get = __get__obstacleController, put = __set__obstacleController))::GlobalNamespace::ObstacleController* _obstacleController;
+  __declspec(property(get = __cordl_internal_get__obstacleController, put = __cordl_internal_set__obstacleController))::UnityW<::GlobalNamespace::ObstacleController> _obstacleController;
 
-  constexpr float_t& __get__fullScalePart();
+  constexpr float_t& __cordl_internal_get__fullScalePart();
 
-  constexpr float_t const& __get__fullScalePart() const;
+  constexpr float_t const& __cordl_internal_get__fullScalePart() const;
 
-  constexpr void __set__fullScalePart(float_t value);
+  constexpr void __cordl_internal_set__fullScalePart(float_t value);
 
-  constexpr ::UnityEngine::Transform*& __get__targetTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__targetTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__targetTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
 
-  constexpr void __set__targetTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::GlobalNamespace::ObstacleController*& __get__obstacleController();
+  constexpr ::UnityW<::GlobalNamespace::ObstacleController>& __cordl_internal_get__obstacleController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObstacleController*> const& __get__obstacleController() const;
+  constexpr ::UnityW<::GlobalNamespace::ObstacleController> const& __cordl_internal_get__obstacleController() const;
 
-  constexpr void __set__obstacleController(::GlobalNamespace::ObstacleController* value);
+  constexpr void __cordl_internal_set__obstacleController(::UnityW<::GlobalNamespace::ObstacleController> value);
 
   /// @brief Method Awake, addr 0x238e798, size 0x94, virtual false, abstract: false, final false
   inline void Awake();
@@ -95,10 +95,10 @@ public:
   float_t ____fullScalePart;
 
   /// @brief Field _targetTransform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____targetTransform;
+  ::UnityW<::UnityEngine::Transform> ____targetTransform;
 
   /// @brief Field _obstacleController, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::ObstacleController* ____obstacleController;
+  ::UnityW<::GlobalNamespace::ObstacleController> ____obstacleController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

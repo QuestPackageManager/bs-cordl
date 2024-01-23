@@ -20,17 +20,18 @@ MARK_REF_PTR_T(::UnityEngine::SubsystemsImplementation::SubsystemWithProvider);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::SubsystemsImplementation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15973))
 // CS Name: ::UnityEngine.SubsystemsImplementation::SubsystemWithProvider*
 class CORDL_TYPE SubsystemWithProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <running>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__running_k__BackingField, put = __set__running_k__BackingField)) bool _running_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__running_k__BackingField, put = __cordl_internal_set__running_k__BackingField)) bool _running_k__BackingField;
 
   /// @brief Field <providerBase>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__providerBase_k__BackingField, put = __set__providerBase_k__BackingField))::UnityEngine::SubsystemsImplementation::SubsystemProvider* _providerBase_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__providerBase_k__BackingField,
+                      put = __cordl_internal_set__providerBase_k__BackingField))::UnityEngine::SubsystemsImplementation::SubsystemProvider* _providerBase_k__BackingField;
 
   __declspec(property(get = get_running, put = set_running)) bool running;
 
@@ -42,17 +43,17 @@ public:
   /// @brief Convert to "::UnityEngine::ISubsystem"
   constexpr ::UnityEngine::ISubsystem* i___UnityEngine__ISubsystem() noexcept;
 
-  constexpr bool& __get__running_k__BackingField();
+  constexpr bool& __cordl_internal_get__running_k__BackingField();
 
-  constexpr bool const& __get__running_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__running_k__BackingField() const;
 
-  constexpr void __set__running_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__running_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::SubsystemsImplementation::SubsystemProvider*& __get__providerBase_k__BackingField();
+  constexpr ::UnityEngine::SubsystemsImplementation::SubsystemProvider*& __cordl_internal_get__providerBase_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SubsystemsImplementation::SubsystemProvider*> const& __get__providerBase_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SubsystemsImplementation::SubsystemProvider*> const& __cordl_internal_get__providerBase_k__BackingField() const;
 
-  constexpr void __set__providerBase_k__BackingField(::UnityEngine::SubsystemsImplementation::SubsystemProvider* value);
+  constexpr void __cordl_internal_set__providerBase_k__BackingField(::UnityEngine::SubsystemsImplementation::SubsystemProvider* value);
 
   /// @brief Method Start, addr 0x2d1b4b4, size 0x3c, virtual true, abstract: false, final true
   inline void Start();

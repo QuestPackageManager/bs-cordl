@@ -23,22 +23,22 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::PolygonSet);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15322))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::PolygonSet*
 class CORDL_TYPE PolygonSet : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _polygons, offset 0x10, size 0x8
-  __declspec(property(get = __get__polygons, put = __set__polygons))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* _polygons;
+  __declspec(property(get = __cordl_internal_get__polygons, put = __cordl_internal_set__polygons))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* _polygons;
 
   __declspec(property(get = get_Polygons))::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* Polygons;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>*& __get__polygons();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>*& __cordl_internal_get__polygons();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>*> const& __get__polygons() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>*> const& __cordl_internal_get__polygons() const;
 
-  constexpr void __set__polygons(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* value);
+  constexpr void __cordl_internal_set__polygons(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* value);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonSet* New_ctor();
 

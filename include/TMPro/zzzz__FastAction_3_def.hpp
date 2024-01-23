@@ -28,33 +28,34 @@ namespace TMPro {
 // cpp template
 template <typename A, typename B, typename C>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12300))
 // CS Name: ::TMPro::FastAction`3<A,B,C>*
 class CORDL_TYPE FastAction_3 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field delegates, offset 0x10, size 0x8
-  __declspec(property(get = __get_delegates, put = __set_delegates))::System::Collections::Generic::LinkedList_1<::System::Action_3<A, B, C>*>* delegates;
+  __declspec(property(get = __cordl_internal_get_delegates, put = __cordl_internal_set_delegates))::System::Collections::Generic::LinkedList_1<::System::Action_3<A, B, C>*>* delegates;
 
   /// @brief Field lookup, offset 0x18, size 0x8
-  __declspec(
-      property(get = __get_lookup,
-               put = __set_lookup))::System::Collections::Generic::Dictionary_2<::System::Action_3<A, B, C>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_3<A, B, C>*>*>* lookup;
+  __declspec(property(get = __cordl_internal_get_lookup,
+                      put = __cordl_internal_set_lookup))::System::Collections::Generic::Dictionary_2<::System::Action_3<A, B, C>*,
+                                                                                                      ::System::Collections::Generic::LinkedListNode_1<::System::Action_3<A, B, C>*>*>* lookup;
 
-  constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_3<A, B, C>*>*& __get_delegates();
+  constexpr ::System::Collections::Generic::LinkedList_1<::System::Action_3<A, B, C>*>*& __cordl_internal_get_delegates();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::System::Action_3<A, B, C>*>*> const& __get_delegates() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::System::Action_3<A, B, C>*>*> const& __cordl_internal_get_delegates() const;
 
-  constexpr void __set_delegates(::System::Collections::Generic::LinkedList_1<::System::Action_3<A, B, C>*>* value);
+  constexpr void __cordl_internal_set_delegates(::System::Collections::Generic::LinkedList_1<::System::Action_3<A, B, C>*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Action_3<A, B, C>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_3<A, B, C>*>*>*& __get_lookup();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Action_3<A, B, C>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_3<A, B, C>*>*>*& __cordl_internal_get_lookup();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::Dictionary_2<::System::Action_3<A, B, C>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_3<A, B, C>*>*>*> const&
-  __get_lookup() const;
+  __cordl_internal_get_lookup() const;
 
-  constexpr void __set_lookup(::System::Collections::Generic::Dictionary_2<::System::Action_3<A, B, C>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_3<A, B, C>*>*>* value);
+  constexpr void
+  __cordl_internal_set_lookup(::System::Collections::Generic::Dictionary_2<::System::Action_3<A, B, C>*, ::System::Collections::Generic::LinkedListNode_1<::System::Action_3<A, B, C>*>*>* value);
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(::System::Action_3<A, B, C>* rhs);

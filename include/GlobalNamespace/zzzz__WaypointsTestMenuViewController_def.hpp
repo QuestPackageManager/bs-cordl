@@ -78,49 +78,52 @@ MARK_REF_PTR_T(::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatm
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4241)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4375)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1688 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 284 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1689 })} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(4241)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4375)), TypeDefinitionIndex(TypeDefinitionIndex(14717)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 284 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1688 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1689 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(3998)) CS Name: ::WaypointsTestMenuViewController::<CheckBeatmaps>d__14*
 class CORDL_TYPE __WaypointsTestMenuViewController___CheckBeatmaps_d__14 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::WaypointsTestMenuViewController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::WaypointsTestMenuViewController> __4__this;
 
   /// @brief Field levels, offset 0x28, size 0x8
-  __declspec(property(get = __get_levels, put = __set_levels))::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO*>* levels;
+  __declspec(property(get = __cordl_internal_get_levels, put = __cordl_internal_set_levels))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* levels;
 
   /// @brief Field <count>5__2, offset 0x30, size 0x4
-  __declspec(property(get = __get__count_5__2, put = __set__count_5__2)) int32_t _count_5__2;
+  __declspec(property(get = __cordl_internal_get__count_5__2, put = __cordl_internal_set__count_5__2)) int32_t _count_5__2;
 
   /// @brief Field <difficultiesToCheck>5__3, offset 0x38, size 0x8
-  __declspec(property(get = __get__difficultiesToCheck_5__3,
-                      put = __set__difficultiesToCheck_5__3))::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>* _difficultiesToCheck_5__3;
+  __declspec(property(get = __cordl_internal_get__difficultiesToCheck_5__3,
+                      put = __cordl_internal_set__difficultiesToCheck_5__3))::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>* _difficultiesToCheck_5__3;
 
   /// @brief Field <>7__wrap3, offset 0x40, size 0x18
-  __declspec(property(get = __get___7__wrap3, put = __set___7__wrap3))::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapLevelSO*> __7__wrap3;
+  __declspec(property(get = __cordl_internal_get___7__wrap3,
+                      put = __cordl_internal_set___7__wrap3))::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>> __7__wrap3;
 
   /// @brief Field <level>5__5, offset 0x58, size 0x8
-  __declspec(property(get = __get__level_5__5, put = __set__level_5__5))::GlobalNamespace::BeatmapLevelSO* _level_5__5;
+  __declspec(property(get = __cordl_internal_get__level_5__5, put = __cordl_internal_set__level_5__5))::UnityW<::GlobalNamespace::BeatmapLevelSO> _level_5__5;
 
   /// @brief Field <>7__wrap5, offset 0x60, size 0x18
-  __declspec(property(get = __get___7__wrap5, put = __set___7__wrap5))::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapCharacteristicSO*> __7__wrap5;
+  __declspec(property(get = __cordl_internal_get___7__wrap5,
+                      put = __cordl_internal_set___7__wrap5))::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> __7__wrap5;
 
   /// @brief Field <characteristic>5__7, offset 0x78, size 0x8
-  __declspec(property(get = __get__characteristic_5__7, put = __set__characteristic_5__7))::GlobalNamespace::BeatmapCharacteristicSO* _characteristic_5__7;
+  __declspec(property(get = __cordl_internal_get__characteristic_5__7, put = __cordl_internal_set__characteristic_5__7))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _characteristic_5__7;
 
   /// @brief Field <>7__wrap7, offset 0x80, size 0x18
-  __declspec(property(get = __get___7__wrap7, put = __set___7__wrap7))::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapDifficulty> __7__wrap7;
+  __declspec(property(get = __cordl_internal_get___7__wrap7,
+                      put = __cordl_internal_set___7__wrap7))::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapDifficulty> __7__wrap7;
 
   /// @brief Field <difficulty>5__9, offset 0x98, size 0x4
-  __declspec(property(get = __get__difficulty_5__9, put = __set__difficulty_5__9))::GlobalNamespace::BeatmapDifficulty _difficulty_5__9;
+  __declspec(property(get = __cordl_internal_get__difficulty_5__9, put = __cordl_internal_set__difficulty_5__9))::GlobalNamespace::BeatmapDifficulty _difficulty_5__9;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -144,77 +147,77 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::WaypointsTestMenuViewController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::WaypointsTestMenuViewController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::WaypointsTestMenuViewController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::WaypointsTestMenuViewController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::WaypointsTestMenuViewController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::WaypointsTestMenuViewController> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO*>*& __get_levels();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*& __cordl_internal_get_levels();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO*>*> const& __get_levels() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*> const& __cordl_internal_get_levels() const;
 
-  constexpr void __set_levels(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO*>* value);
+  constexpr void __cordl_internal_set_levels(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* value);
 
-  constexpr int32_t& __get__count_5__2();
+  constexpr int32_t& __cordl_internal_get__count_5__2();
 
-  constexpr int32_t const& __get__count_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__count_5__2() const;
 
-  constexpr void __set__count_5__2(int32_t value);
+  constexpr void __cordl_internal_set__count_5__2(int32_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>*& __get__difficultiesToCheck_5__3();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>*& __cordl_internal_get__difficultiesToCheck_5__3();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>*> const& __get__difficultiesToCheck_5__3() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>*> const& __cordl_internal_get__difficultiesToCheck_5__3() const;
 
-  constexpr void __set__difficultiesToCheck_5__3(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>* value);
+  constexpr void __cordl_internal_set__difficultiesToCheck_5__3(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>* value);
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapLevelSO*>& __get___7__wrap3();
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>>& __cordl_internal_get___7__wrap3();
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapLevelSO*> const& __get___7__wrap3() const;
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>> const& __cordl_internal_get___7__wrap3() const;
 
-  constexpr void __set___7__wrap3(::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapLevelSO*> value);
+  constexpr void __cordl_internal_set___7__wrap3(::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>> value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelSO*& __get__level_5__5();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO>& __cordl_internal_get__level_5__5();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelSO*> const& __get__level_5__5() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& __cordl_internal_get__level_5__5() const;
 
-  constexpr void __set__level_5__5(::GlobalNamespace::BeatmapLevelSO* value);
+  constexpr void __cordl_internal_set__level_5__5(::UnityW<::GlobalNamespace::BeatmapLevelSO> value);
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapCharacteristicSO*>& __get___7__wrap5();
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>& __cordl_internal_get___7__wrap5();
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapCharacteristicSO*> const& __get___7__wrap5() const;
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> const& __cordl_internal_get___7__wrap5() const;
 
-  constexpr void __set___7__wrap5(::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapCharacteristicSO*> value);
+  constexpr void __cordl_internal_set___7__wrap5(::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> value);
 
-  constexpr ::GlobalNamespace::BeatmapCharacteristicSO*& __get__characteristic_5__7();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get__characteristic_5__7();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicSO*> const& __get__characteristic_5__7() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__characteristic_5__7() const;
 
-  constexpr void __set__characteristic_5__7(::GlobalNamespace::BeatmapCharacteristicSO* value);
+  constexpr void __cordl_internal_set__characteristic_5__7(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapDifficulty>& __get___7__wrap7();
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapDifficulty>& __cordl_internal_get___7__wrap7();
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapDifficulty> const& __get___7__wrap7() const;
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapDifficulty> const& __cordl_internal_get___7__wrap7() const;
 
-  constexpr void __set___7__wrap7(::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapDifficulty> value);
+  constexpr void __cordl_internal_set___7__wrap7(::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapDifficulty> value);
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __get__difficulty_5__9();
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get__difficulty_5__9();
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __get__difficulty_5__9() const;
+  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get__difficulty_5__9() const;
 
-  constexpr void __set__difficulty_5__9(::GlobalNamespace::BeatmapDifficulty value);
+  constexpr void __cordl_internal_set__difficulty_5__9(::GlobalNamespace::BeatmapDifficulty value);
 
   static inline ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__14* New_ctor(int32_t __1__state);
 
@@ -266,10 +269,10 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::WaypointsTestMenuViewController* _____4__this;
+  ::UnityW<::GlobalNamespace::WaypointsTestMenuViewController> _____4__this;
 
   /// @brief Field levels, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO*>* ___levels;
+  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* ___levels;
 
   /// @brief Field <count>5__2, offset: 0x30, size: 0x4, def value: None
   int32_t ____count_5__2;
@@ -278,16 +281,16 @@ public:
   ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapDifficulty>* ____difficultiesToCheck_5__3;
 
   /// @brief Field <>7__wrap3, offset: 0x40, size: 0x18, def value: None
-  ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapLevelSO*> _____7__wrap3;
+  ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapLevelSO>> _____7__wrap3;
 
   /// @brief Field <level>5__5, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelSO* ____level_5__5;
+  ::UnityW<::GlobalNamespace::BeatmapLevelSO> ____level_5__5;
 
   /// @brief Field <>7__wrap5, offset: 0x60, size: 0x18, def value: None
-  ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapCharacteristicSO*> _____7__wrap5;
+  ::System::Collections::Generic::__List_1__Enumerator<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>> _____7__wrap5;
 
   /// @brief Field <characteristic>5__7, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCharacteristicSO* ____characteristic_5__7;
+  ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ____characteristic_5__7;
 
   /// @brief Field <>7__wrap7, offset: 0x80, size: 0x18, def value: None
   ::System::Collections::Generic::__List_1__Enumerator<::GlobalNamespace::BeatmapDifficulty> _____7__wrap7;
@@ -329,7 +332,7 @@ static_assert(offsetof(::GlobalNamespace::__WaypointsTestMenuViewController___Ch
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 106, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3999))
 // CS Name: ::WaypointsTestMenuViewController*
 class CORDL_TYPE WaypointsTestMenuViewController : public ::UnityEngine::MonoBehaviour {
@@ -338,113 +341,114 @@ public:
   using _CheckBeatmaps_d__14 = ::GlobalNamespace::__WaypointsTestMenuViewController___CheckBeatmaps_d__14;
 
   /// @brief Field _btsButton, offset 0x18, size 0x8
-  __declspec(property(get = __get__btsButton, put = __set__btsButton))::UnityEngine::UI::Button* _btsButton;
+  __declspec(property(get = __cordl_internal_get__btsButton, put = __cordl_internal_set__btsButton))::UnityW<::UnityEngine::UI::Button> _btsButton;
 
   /// @brief Field _cancelButton, offset 0x20, size 0x8
-  __declspec(property(get = __get__cancelButton, put = __set__cancelButton))::UnityEngine::UI::Button* _cancelButton;
+  __declspec(property(get = __cordl_internal_get__cancelButton, put = __cordl_internal_set__cancelButton))::UnityW<::UnityEngine::UI::Button> _cancelButton;
 
   /// @brief Field _progressText, offset 0x28, size 0x8
-  __declspec(property(get = __get__progressText, put = __set__progressText))::TMPro::TextMeshProUGUI* _progressText;
+  __declspec(property(get = __cordl_internal_get__progressText, put = __cordl_internal_set__progressText))::UnityW<::TMPro::TextMeshProUGUI> _progressText;
 
   /// @brief Field _waypointsTestScenesTransitionSetupData, offset 0x30, size 0x8
-  __declspec(property(get = __get__waypointsTestScenesTransitionSetupData,
-                      put = __set__waypointsTestScenesTransitionSetupData))::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* _waypointsTestScenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get__waypointsTestScenesTransitionSetupData,
+                      put = __cordl_internal_set__waypointsTestScenesTransitionSetupData))::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> _waypointsTestScenesTransitionSetupData;
 
   /// @brief Field _levels, offset 0x38, size 0x8
-  __declspec(property(get = __get__levels, put = __set__levels))::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO*>* _levels;
+  __declspec(property(get = __cordl_internal_get__levels, put = __cordl_internal_set__levels))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* _levels;
 
   /// @brief Field _characteristics, offset 0x40, size 0x8
-  __declspec(property(get = __get__characteristics, put = __set__characteristics))::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristicSO*>* _characteristics;
+  __declspec(property(get = __cordl_internal_get__characteristics,
+                      put = __cordl_internal_set__characteristics))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* _characteristics;
 
   /// @brief Field _gameScenesManager, offset 0x48, size 0x8
-  __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
   /// @brief Field _playerDataModel, offset 0x50, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _coroutineStarter, offset 0x58, size 0x8
-  __declspec(property(get = __get__coroutineStarter, put = __set__coroutineStarter))::GlobalNamespace::ICoroutineStarter* _coroutineStarter;
+  __declspec(property(get = __cordl_internal_get__coroutineStarter, put = __cordl_internal_set__coroutineStarter))::GlobalNamespace::ICoroutineStarter* _coroutineStarter;
 
   /// @brief Field _buttonBinder, offset 0x60, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
   /// @brief Field _isCancelled, offset 0x68, size 0x1
-  __declspec(property(get = __get__isCancelled, put = __set__isCancelled)) bool _isCancelled;
+  __declspec(property(get = __cordl_internal_get__isCancelled, put = __cordl_internal_set__isCancelled)) bool _isCancelled;
 
   /// @brief Field _waitingForLevelFinish, offset 0x69, size 0x1
-  __declspec(property(get = __get__waitingForLevelFinish, put = __set__waitingForLevelFinish)) bool _waitingForLevelFinish;
+  __declspec(property(get = __cordl_internal_get__waitingForLevelFinish, put = __cordl_internal_set__waitingForLevelFinish)) bool _waitingForLevelFinish;
 
-  constexpr ::UnityEngine::UI::Button*& __get__btsButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__btsButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__btsButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__btsButton() const;
 
-  constexpr void __set__btsButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__btsButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__cancelButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__cancelButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__cancelButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelButton() const;
 
-  constexpr void __set__cancelButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__cancelButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__progressText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__progressText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__progressText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__progressText() const;
 
-  constexpr void __set__progressText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__progressText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& __get__waypointsTestScenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>& __cordl_internal_get__waypointsTestScenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*> const& __get__waypointsTestScenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__waypointsTestScenesTransitionSetupData() const;
 
-  constexpr void __set__waypointsTestScenesTransitionSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__waypointsTestScenesTransitionSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO*>*& __get__levels();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*& __cordl_internal_get__levels();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO*>*> const& __get__levels() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*> const& __cordl_internal_get__levels() const;
 
-  constexpr void __set__levels(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO*>* value);
+  constexpr void __cordl_internal_set__levels(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristicSO*>*& __get__characteristics();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*& __cordl_internal_get__characteristics();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristicSO*>*> const& __get__characteristics() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> const& __cordl_internal_get__characteristics() const;
 
-  constexpr void __set__characteristics(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristicSO*>* value);
+  constexpr void __cordl_internal_set__characteristics(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get__gameScenesManager();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get__gameScenesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
-  constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::GlobalNamespace::ICoroutineStarter*& __get__coroutineStarter();
+  constexpr ::GlobalNamespace::ICoroutineStarter*& __cordl_internal_get__coroutineStarter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& __get__coroutineStarter() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& __cordl_internal_get__coroutineStarter() const;
 
-  constexpr void __set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
+  constexpr void __cordl_internal_set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  constexpr bool& __get__isCancelled();
+  constexpr bool& __cordl_internal_get__isCancelled();
 
-  constexpr bool const& __get__isCancelled() const;
+  constexpr bool const& __cordl_internal_get__isCancelled() const;
 
-  constexpr void __set__isCancelled(bool value);
+  constexpr void __cordl_internal_set__isCancelled(bool value);
 
-  constexpr bool& __get__waitingForLevelFinish();
+  constexpr bool& __cordl_internal_get__waitingForLevelFinish();
 
-  constexpr bool const& __get__waitingForLevelFinish() const;
+  constexpr bool const& __cordl_internal_get__waitingForLevelFinish() const;
 
-  constexpr void __set__waitingForLevelFinish(bool value);
+  constexpr void __cordl_internal_set__waitingForLevelFinish(bool value);
 
   /// @brief Method Start, addr 0x221f158, size 0x158, virtual false, abstract: false, final false
   inline void Start();
@@ -453,7 +457,7 @@ public:
   inline void OnDestroy();
 
   /// @brief Method CheckBeatmaps, addr 0x221f394, size 0x74, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* CheckBeatmaps(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO*>* levels);
+  inline ::System::Collections::IEnumerator* CheckBeatmaps(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* levels);
 
   /// @brief Method HandleMainGameSceneDidFinish, addr 0x221f430, size 0x94, virtual false, abstract: false, final false
   inline void HandleMainGameSceneDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* data, ::GlobalNamespace::LevelCompletionResults* results);
@@ -487,28 +491,28 @@ protected:
 
 public:
   /// @brief Field _btsButton, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____btsButton;
+  ::UnityW<::UnityEngine::UI::Button> ____btsButton;
 
   /// @brief Field _cancelButton, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____cancelButton;
+  ::UnityW<::UnityEngine::UI::Button> ____cancelButton;
 
   /// @brief Field _progressText, offset: 0x28, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____progressText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____progressText;
 
   /// @brief Field _waypointsTestScenesTransitionSetupData, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* ____waypointsTestScenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ____waypointsTestScenesTransitionSetupData;
 
   /// @brief Field _levels, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapLevelSO*>* ____levels;
+  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* ____levels;
 
   /// @brief Field _characteristics, offset: 0x40, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapCharacteristicSO*>* ____characteristics;
+  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* ____characteristics;
 
   /// @brief Field _gameScenesManager, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
+  ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
   /// @brief Field _playerDataModel, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _coroutineStarter, offset: 0x58, size: 0x8, def value: None
   ::GlobalNamespace::ICoroutineStarter* ____coroutineStarter;

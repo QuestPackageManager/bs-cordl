@@ -59,7 +59,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12988))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12988))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12982))
 // CS Name: ::StateBuffer`3::TimestampedStateTable<TStateTable,TType,TState>
 struct CORDL_TYPE __StateBuffer_3__TimestampedStateTable {
@@ -118,7 +118,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12983))
 // CS Name: ::StateBuffer`3::InterpolationDelegate<TStateTable,TType,TState>*
 class CORDL_TYPE __StateBuffer_3__InterpolationDelegate : public ::System::MulticastDelegate {
@@ -162,7 +162,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12984))
 // CS Name: ::StateBuffer`3::SmoothingDelegate<TStateTable,TType,TState>*
 class CORDL_TYPE __StateBuffer_3__SmoothingDelegate : public ::System::MulticastDelegate {
@@ -206,7 +206,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12985))
 // CS Name: ::StateBuffer`3<TStateTable,TType,TState>*
 class CORDL_TYPE StateBuffer_3 : public ::System::Object {
@@ -219,47 +219,49 @@ public:
   using TimestampedStateTable = ::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>;
 
   /// @brief Field _currentIndex, offset 0x10, size 0x4
-  __declspec(property(get = __get__currentIndex, put = __set__currentIndex)) int32_t _currentIndex;
+  __declspec(property(get = __cordl_internal_get__currentIndex, put = __cordl_internal_set__currentIndex)) int32_t _currentIndex;
 
   /// @brief Field _buffer, offset 0x18, size 0x8
-  __declspec(property(get = __get__buffer, put = __set__buffer))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
-                                                                         ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _buffer;
+  __declspec(property(get = __cordl_internal_get__buffer,
+                      put = __cordl_internal_set__buffer))::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
+                                                                   ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> _buffer;
 
   /// @brief Field _interpolator, offset 0x20, size 0x8
-  __declspec(property(get = __get__interpolator, put = __set__interpolator))::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* _interpolator;
+  __declspec(property(get = __cordl_internal_get__interpolator,
+                      put = __cordl_internal_set__interpolator))::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* _interpolator;
 
   /// @brief Field _smoother, offset 0x28, size 0x8
-  __declspec(property(get = __get__smoother, put = __set__smoother))::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* _smoother;
+  __declspec(property(get = __cordl_internal_get__smoother, put = __cordl_internal_set__smoother))::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* _smoother;
 
-  constexpr int32_t& __get__currentIndex();
+  constexpr int32_t& __cordl_internal_get__currentIndex();
 
-  constexpr int32_t const& __get__currentIndex() const;
+  constexpr int32_t const& __cordl_internal_get__currentIndex() const;
 
-  constexpr void __set__currentIndex(int32_t value);
+  constexpr void __cordl_internal_set__currentIndex(int32_t value);
 
   constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                      ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>&
-  __get__buffer();
+  __cordl_internal_get__buffer();
 
   constexpr ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>,
                      ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*> const&
-  __get__buffer() const;
+  __cordl_internal_get__buffer() const;
 
-  constexpr void __set__buffer(
+  constexpr void __cordl_internal_set__buffer(
       ::ArrayW<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>, ::Array<::GlobalNamespace::__StateBuffer_3__TimestampedStateTable<TStateTable, TType, TState>>*>
           value);
 
-  constexpr ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>*& __get__interpolator();
+  constexpr ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>*& __cordl_internal_get__interpolator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>*> const& __get__interpolator() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>*> const& __cordl_internal_get__interpolator() const;
 
-  constexpr void __set__interpolator(::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* value);
+  constexpr void __cordl_internal_set__interpolator(::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* value);
 
-  constexpr ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>*& __get__smoother();
+  constexpr ::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>*& __cordl_internal_get__smoother();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>*> const& __get__smoother() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>*> const& __cordl_internal_get__smoother() const;
 
-  constexpr void __set__smoother(::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* value);
+  constexpr void __cordl_internal_set__smoother(::GlobalNamespace::__StateBuffer_3__SmoothingDelegate<TStateTable, TType, TState>* value);
 
   static inline ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* New_ctor(int32_t size,
                                                                                        ::GlobalNamespace::__StateBuffer_3__InterpolationDelegate<TStateTable, TType, TState>* interpolator,

@@ -24,22 +24,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSy
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(182))
 // CS Name: ::Org.BouncyCastle.Asn1.IsisMtt.X509::AdditionalInformationSyntax*
 class CORDL_TYPE AdditionalInformationSyntax : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field information, offset 0x10, size 0x8
-  __declspec(property(get = __get_information, put = __set_information))::Org::BouncyCastle::Asn1::X500::DirectoryString* information;
+  __declspec(property(get = __cordl_internal_get_information, put = __cordl_internal_set_information))::Org::BouncyCastle::Asn1::X500::DirectoryString* information;
 
   __declspec(property(get = get_Information))::Org::BouncyCastle::Asn1::X500::DirectoryString* Information;
 
-  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __get_information();
+  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_information();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __get_information() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __cordl_internal_get_information() const;
 
-  constexpr void __set_information(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
+  constexpr void __cordl_internal_set_information(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
   /// @brief Method GetInstance, addr 0xf767b4, size 0x158, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::AdditionalInformationSyntax* GetInstance(::System::Object* obj);

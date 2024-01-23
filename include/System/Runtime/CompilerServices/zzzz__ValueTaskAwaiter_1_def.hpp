@@ -29,7 +29,7 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2767)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2767), inst: 5301 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2767)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2767), inst: 5301 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3391))
 // CS Name: ::System.Runtime.CompilerServices::ValueTaskAwaiter`1<TResult>
 struct CORDL_TYPE ValueTaskAwaiter_1 {

@@ -19,58 +19,58 @@ MARK_REF_PTR_T(::System::Security::Cryptography::CspParameters);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2927))
 // CS Name: ::System.Security.Cryptography::CspParameters*
 class CORDL_TYPE CspParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ProviderType, offset 0x10, size 0x4
-  __declspec(property(get = __get_ProviderType, put = __set_ProviderType)) int32_t ProviderType;
+  __declspec(property(get = __cordl_internal_get_ProviderType, put = __cordl_internal_set_ProviderType)) int32_t ProviderType;
 
   /// @brief Field ProviderName, offset 0x18, size 0x8
-  __declspec(property(get = __get_ProviderName, put = __set_ProviderName))::StringW ProviderName;
+  __declspec(property(get = __cordl_internal_get_ProviderName, put = __cordl_internal_set_ProviderName))::StringW ProviderName;
 
   /// @brief Field KeyContainerName, offset 0x20, size 0x8
-  __declspec(property(get = __get_KeyContainerName, put = __set_KeyContainerName))::StringW KeyContainerName;
+  __declspec(property(get = __cordl_internal_get_KeyContainerName, put = __cordl_internal_set_KeyContainerName))::StringW KeyContainerName;
 
   /// @brief Field KeyNumber, offset 0x28, size 0x4
-  __declspec(property(get = __get_KeyNumber, put = __set_KeyNumber)) int32_t KeyNumber;
+  __declspec(property(get = __cordl_internal_get_KeyNumber, put = __cordl_internal_set_KeyNumber)) int32_t KeyNumber;
 
   /// @brief Field m_flags, offset 0x2c, size 0x4
-  __declspec(property(get = __get_m_flags, put = __set_m_flags)) int32_t m_flags;
+  __declspec(property(get = __cordl_internal_get_m_flags, put = __cordl_internal_set_m_flags)) int32_t m_flags;
 
   __declspec(property(get = get_Flags, put = set_Flags))::System::Security::Cryptography::CspProviderFlags Flags;
 
-  constexpr int32_t& __get_ProviderType();
+  constexpr int32_t& __cordl_internal_get_ProviderType();
 
-  constexpr int32_t const& __get_ProviderType() const;
+  constexpr int32_t const& __cordl_internal_get_ProviderType() const;
 
-  constexpr void __set_ProviderType(int32_t value);
+  constexpr void __cordl_internal_set_ProviderType(int32_t value);
 
-  constexpr ::StringW& __get_ProviderName();
+  constexpr ::StringW& __cordl_internal_get_ProviderName();
 
-  constexpr ::StringW const& __get_ProviderName() const;
+  constexpr ::StringW const& __cordl_internal_get_ProviderName() const;
 
-  constexpr void __set_ProviderName(::StringW value);
+  constexpr void __cordl_internal_set_ProviderName(::StringW value);
 
-  constexpr ::StringW& __get_KeyContainerName();
+  constexpr ::StringW& __cordl_internal_get_KeyContainerName();
 
-  constexpr ::StringW const& __get_KeyContainerName() const;
+  constexpr ::StringW const& __cordl_internal_get_KeyContainerName() const;
 
-  constexpr void __set_KeyContainerName(::StringW value);
+  constexpr void __cordl_internal_set_KeyContainerName(::StringW value);
 
-  constexpr int32_t& __get_KeyNumber();
+  constexpr int32_t& __cordl_internal_get_KeyNumber();
 
-  constexpr int32_t const& __get_KeyNumber() const;
+  constexpr int32_t const& __cordl_internal_get_KeyNumber() const;
 
-  constexpr void __set_KeyNumber(int32_t value);
+  constexpr void __cordl_internal_set_KeyNumber(int32_t value);
 
-  constexpr int32_t& __get_m_flags();
+  constexpr int32_t& __cordl_internal_get_m_flags();
 
-  constexpr int32_t const& __get_m_flags() const;
+  constexpr int32_t const& __cordl_internal_get_m_flags() const;
 
-  constexpr void __set_m_flags(int32_t value);
+  constexpr void __cordl_internal_set_m_flags(int32_t value);
 
   /// @brief Method get_Flags, addr 0x245c244, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::CspProviderFlags get_Flags();

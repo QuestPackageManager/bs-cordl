@@ -37,32 +37,32 @@ MARK_REF_PTR_T(::System::Xml::XmlName);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11515))
 // CS Name: ::System.Xml::XmlName*
 class CORDL_TYPE XmlName : public ::System::Object {
 public:
   // Declarations
   /// @brief Field prefix, offset 0x10, size 0x8
-  __declspec(property(get = __get_prefix, put = __set_prefix))::StringW prefix;
+  __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix))::StringW prefix;
 
   /// @brief Field localName, offset 0x18, size 0x8
-  __declspec(property(get = __get_localName, put = __set_localName))::StringW localName;
+  __declspec(property(get = __cordl_internal_get_localName, put = __cordl_internal_set_localName))::StringW localName;
 
   /// @brief Field ns, offset 0x20, size 0x8
-  __declspec(property(get = __get_ns, put = __set_ns))::StringW ns;
+  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns))::StringW ns;
 
   /// @brief Field name, offset 0x28, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field hashCode, offset 0x30, size 0x4
-  __declspec(property(get = __get_hashCode, put = __set_hashCode)) int32_t hashCode;
+  __declspec(property(get = __cordl_internal_get_hashCode, put = __cordl_internal_set_hashCode)) int32_t hashCode;
 
   /// @brief Field ownerDoc, offset 0x38, size 0x8
-  __declspec(property(get = __get_ownerDoc, put = __set_ownerDoc))::System::Xml::XmlDocument* ownerDoc;
+  __declspec(property(get = __cordl_internal_get_ownerDoc, put = __cordl_internal_set_ownerDoc))::System::Xml::XmlDocument* ownerDoc;
 
   /// @brief Field next, offset 0x40, size 0x8
-  __declspec(property(get = __get_next, put = __set_next))::System::Xml::XmlName* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Xml::XmlName* next;
 
   __declspec(property(get = get_LocalName))::StringW LocalName;
 
@@ -96,47 +96,47 @@ public:
   /// @brief Convert to "::System::Xml::Schema::IXmlSchemaInfo"
   constexpr ::System::Xml::Schema::IXmlSchemaInfo* i___System__Xml__Schema__IXmlSchemaInfo() noexcept;
 
-  constexpr ::StringW& __get_prefix();
+  constexpr ::StringW& __cordl_internal_get_prefix();
 
-  constexpr ::StringW const& __get_prefix() const;
+  constexpr ::StringW const& __cordl_internal_get_prefix() const;
 
-  constexpr void __set_prefix(::StringW value);
+  constexpr void __cordl_internal_set_prefix(::StringW value);
 
-  constexpr ::StringW& __get_localName();
+  constexpr ::StringW& __cordl_internal_get_localName();
 
-  constexpr ::StringW const& __get_localName() const;
+  constexpr ::StringW const& __cordl_internal_get_localName() const;
 
-  constexpr void __set_localName(::StringW value);
+  constexpr void __cordl_internal_set_localName(::StringW value);
 
-  constexpr ::StringW& __get_ns();
+  constexpr ::StringW& __cordl_internal_get_ns();
 
-  constexpr ::StringW const& __get_ns() const;
+  constexpr ::StringW const& __cordl_internal_get_ns() const;
 
-  constexpr void __set_ns(::StringW value);
+  constexpr void __cordl_internal_set_ns(::StringW value);
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr int32_t& __get_hashCode();
+  constexpr int32_t& __cordl_internal_get_hashCode();
 
-  constexpr int32_t const& __get_hashCode() const;
+  constexpr int32_t const& __cordl_internal_get_hashCode() const;
 
-  constexpr void __set_hashCode(int32_t value);
+  constexpr void __cordl_internal_set_hashCode(int32_t value);
 
-  constexpr ::System::Xml::XmlDocument*& __get_ownerDoc();
+  constexpr ::System::Xml::XmlDocument*& __cordl_internal_get_ownerDoc();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDocument*> const& __get_ownerDoc() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlDocument*> const& __cordl_internal_get_ownerDoc() const;
 
-  constexpr void __set_ownerDoc(::System::Xml::XmlDocument* value);
+  constexpr void __cordl_internal_set_ownerDoc(::System::Xml::XmlDocument* value);
 
-  constexpr ::System::Xml::XmlName*& __get_next();
+  constexpr ::System::Xml::XmlName*& __cordl_internal_get_next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlName*> const& __get_next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlName*> const& __cordl_internal_get_next() const;
 
-  constexpr void __set_next(::System::Xml::XmlName* value);
+  constexpr void __cordl_internal_set_next(::System::Xml::XmlName* value);
 
   /// @brief Method Create, addr 0x288e184, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Xml::XmlName* Create(::StringW prefix, ::StringW localName, ::StringW ns, int32_t hashCode, ::System::Xml::XmlDocument* ownerDoc, ::System::Xml::XmlName* next,

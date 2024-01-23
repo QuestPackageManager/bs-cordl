@@ -29,65 +29,65 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__AimPoser__Pose);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12631))
 // CS Name: ::AimPoser::Pose*
 class CORDL_TYPE __AimPoser__Pose : public ::System::Object {
 public:
   // Declarations
   /// @brief Field visualize, offset 0x10, size 0x1
-  __declspec(property(get = __get_visualize, put = __set_visualize)) bool visualize;
+  __declspec(property(get = __cordl_internal_get_visualize, put = __cordl_internal_set_visualize)) bool visualize;
 
   /// @brief Field name, offset 0x18, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field direction, offset 0x20, size 0xc
-  __declspec(property(get = __get_direction, put = __set_direction))::UnityEngine::Vector3 direction;
+  __declspec(property(get = __cordl_internal_get_direction, put = __cordl_internal_set_direction))::UnityEngine::Vector3 direction;
 
   /// @brief Field yaw, offset 0x2c, size 0x4
-  __declspec(property(get = __get_yaw, put = __set_yaw)) float_t yaw;
+  __declspec(property(get = __cordl_internal_get_yaw, put = __cordl_internal_set_yaw)) float_t yaw;
 
   /// @brief Field pitch, offset 0x30, size 0x4
-  __declspec(property(get = __get_pitch, put = __set_pitch)) float_t pitch;
+  __declspec(property(get = __cordl_internal_get_pitch, put = __cordl_internal_set_pitch)) float_t pitch;
 
   /// @brief Field angleBuffer, offset 0x34, size 0x4
-  __declspec(property(get = __get_angleBuffer, put = __set_angleBuffer)) float_t angleBuffer;
+  __declspec(property(get = __cordl_internal_get_angleBuffer, put = __cordl_internal_set_angleBuffer)) float_t angleBuffer;
 
-  constexpr bool& __get_visualize();
+  constexpr bool& __cordl_internal_get_visualize();
 
-  constexpr bool const& __get_visualize() const;
+  constexpr bool const& __cordl_internal_get_visualize() const;
 
-  constexpr void __set_visualize(bool value);
+  constexpr void __cordl_internal_set_visualize(bool value);
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::UnityEngine::Vector3& __get_direction();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_direction();
 
-  constexpr ::UnityEngine::Vector3 const& __get_direction() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_direction() const;
 
-  constexpr void __set_direction(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_direction(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get_yaw();
+  constexpr float_t& __cordl_internal_get_yaw();
 
-  constexpr float_t const& __get_yaw() const;
+  constexpr float_t const& __cordl_internal_get_yaw() const;
 
-  constexpr void __set_yaw(float_t value);
+  constexpr void __cordl_internal_set_yaw(float_t value);
 
-  constexpr float_t& __get_pitch();
+  constexpr float_t& __cordl_internal_get_pitch();
 
-  constexpr float_t const& __get_pitch() const;
+  constexpr float_t const& __cordl_internal_get_pitch() const;
 
-  constexpr void __set_pitch(float_t value);
+  constexpr void __cordl_internal_set_pitch(float_t value);
 
-  constexpr float_t& __get_angleBuffer();
+  constexpr float_t& __cordl_internal_get_angleBuffer();
 
-  constexpr float_t const& __get_angleBuffer() const;
+  constexpr float_t const& __cordl_internal_get_angleBuffer() const;
 
-  constexpr void __set_angleBuffer(float_t value);
+  constexpr void __cordl_internal_set_angleBuffer(float_t value);
 
   /// @brief Method IsInDirection, addr 0x1293fe8, size 0x4b0, virtual false, abstract: false, final false
   inline bool IsInDirection(::UnityEngine::Vector3 d);
@@ -154,7 +154,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__AimPoser__Pose, ___angleBuffer) 
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12632))
 // CS Name: ::RootMotion.FinalIK::AimPoser*
 class CORDL_TYPE AimPoser : public ::UnityEngine::MonoBehaviour {
@@ -163,22 +163,22 @@ public:
   using Pose = ::RootMotion::FinalIK::__AimPoser__Pose;
 
   /// @brief Field angleBuffer, offset 0x18, size 0x4
-  __declspec(property(get = __get_angleBuffer, put = __set_angleBuffer)) float_t angleBuffer;
+  __declspec(property(get = __cordl_internal_get_angleBuffer, put = __cordl_internal_set_angleBuffer)) float_t angleBuffer;
 
   /// @brief Field poses, offset 0x20, size 0x8
-  __declspec(property(get = __get_poses, put = __set_poses))::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*> poses;
+  __declspec(property(get = __cordl_internal_get_poses, put = __cordl_internal_set_poses))::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*> poses;
 
-  constexpr float_t& __get_angleBuffer();
+  constexpr float_t& __cordl_internal_get_angleBuffer();
 
-  constexpr float_t const& __get_angleBuffer() const;
+  constexpr float_t const& __cordl_internal_get_angleBuffer() const;
 
-  constexpr void __set_angleBuffer(float_t value);
+  constexpr void __cordl_internal_set_angleBuffer(float_t value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*>& __get_poses();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*>& __cordl_internal_get_poses();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*> const& __get_poses() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*> const& __cordl_internal_get_poses() const;
 
-  constexpr void __set_poses(::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*> value);
+  constexpr void __cordl_internal_set_poses(::ArrayW<::RootMotion::FinalIK::__AimPoser__Pose*, ::Array<::RootMotion::FinalIK::__AimPoser__Pose*>*> value);
 
   /// @brief Method GetPose, addr 0x1293f18, size 0xd0, virtual false, abstract: false, final false
   inline ::RootMotion::FinalIK::__AimPoser__Pose* GetPose(::UnityEngine::Vector3 localDirection);

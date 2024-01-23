@@ -25,20 +25,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__MainCameraCullingMask__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15287))
 // CS Name: ::MainCameraCullingMask::InitData*
 class CORDL_TYPE __MainCameraCullingMask__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field showDebris, offset 0x10, size 0x1
-  __declspec(property(get = __get_showDebris, put = __set_showDebris)) bool showDebris;
+  __declspec(property(get = __cordl_internal_get_showDebris, put = __cordl_internal_set_showDebris)) bool showDebris;
 
-  constexpr bool& __get_showDebris();
+  constexpr bool& __cordl_internal_get_showDebris();
 
-  constexpr bool const& __get_showDebris() const;
+  constexpr bool const& __cordl_internal_get_showDebris() const;
 
-  constexpr void __set_showDebris(bool value);
+  constexpr void __cordl_internal_set_showDebris(bool value);
 
   static inline ::GlobalNamespace::__MainCameraCullingMask__InitData* New_ctor(bool showDebris);
 
@@ -74,7 +74,7 @@ static_assert(offsetof(::GlobalNamespace::__MainCameraCullingMask__InitData, ___
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15288))
 // CS Name: ::MainCameraCullingMask*
 class CORDL_TYPE MainCameraCullingMask : public ::UnityEngine::MonoBehaviour {
@@ -83,22 +83,22 @@ public:
   using InitData = ::GlobalNamespace::__MainCameraCullingMask__InitData;
 
   /// @brief Field _camera, offset 0x18, size 0x8
-  __declspec(property(get = __get__camera, put = __set__camera))::UnityEngine::Camera* _camera;
+  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera))::UnityW<::UnityEngine::Camera> _camera;
 
   /// @brief Field _initData, offset 0x20, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__MainCameraCullingMask__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__MainCameraCullingMask__InitData* _initData;
 
-  constexpr ::UnityEngine::Camera*& __get__camera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get__camera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
 
-  constexpr void __set__camera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr ::GlobalNamespace::__MainCameraCullingMask__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__MainCameraCullingMask__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MainCameraCullingMask__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MainCameraCullingMask__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__MainCameraCullingMask__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__MainCameraCullingMask__InitData* value);
 
   /// @brief Method Start, addr 0x2807c6c, size 0xb0, virtual false, abstract: false, final false
   inline void Start();
@@ -123,7 +123,7 @@ protected:
 
 public:
   /// @brief Field _camera, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Camera* ____camera;
+  ::UnityW<::UnityEngine::Camera> ____camera;
 
   /// @brief Field _initData, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::__MainCameraCullingMask__InitData* ____initData;

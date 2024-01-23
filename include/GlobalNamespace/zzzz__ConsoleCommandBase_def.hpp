@@ -52,20 +52,21 @@ MARK_REF_PTR_T(::GlobalNamespace::__ConsoleCommandBase____c__DisplayClass14_0);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5981))
 // CS Name: ::ConsoleCommandBase::<>c__DisplayClass14_0*
 class CORDL_TYPE __ConsoleCommandBase____c__DisplayClass14_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field matchedArguments, offset 0x10, size 0x8
-  __declspec(property(get = __get_matchedArguments, put = __set_matchedArguments))::System::Collections::Generic::List_1<::GlobalNamespace::ArgumentBase*>* matchedArguments;
+  __declspec(property(get = __cordl_internal_get_matchedArguments,
+                      put = __cordl_internal_set_matchedArguments))::System::Collections::Generic::List_1<::GlobalNamespace::ArgumentBase*>* matchedArguments;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ArgumentBase*>*& __get_matchedArguments();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ArgumentBase*>*& __cordl_internal_get_matchedArguments();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::ArgumentBase*>*> const& __get_matchedArguments() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::ArgumentBase*>*> const& __cordl_internal_get_matchedArguments() const;
 
-  constexpr void __set_matchedArguments(::System::Collections::Generic::List_1<::GlobalNamespace::ArgumentBase*>* value);
+  constexpr void __cordl_internal_set_matchedArguments(::System::Collections::Generic::List_1<::GlobalNamespace::ArgumentBase*>* value);
 
   static inline ::GlobalNamespace::__ConsoleCommandBase____c__DisplayClass14_0* New_ctor();
 
@@ -104,7 +105,7 @@ static_assert(offsetof(::GlobalNamespace::__ConsoleCommandBase____c__DisplayClas
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5982))
 // CS Name: ::ConsoleCommandBase::<>c*
 class CORDL_TYPE __ConsoleCommandBase____c : public ::System::Object {
@@ -156,7 +157,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ConsoleComman
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5983))
 // CS Name: ::ConsoleCommandBase*
 class CORDL_TYPE ConsoleCommandBase : public ::System::Object {
@@ -167,7 +168,7 @@ public:
   using __c__DisplayClass14_0 = ::GlobalNamespace::__ConsoleCommandBase____c__DisplayClass14_0;
 
   /// @brief Field _arguments, offset 0x10, size 0x8
-  __declspec(property(get = __get__arguments, put = __set__arguments))::ArrayW<::GlobalNamespace::ArgumentBase*, ::Array<::GlobalNamespace::ArgumentBase*>*> _arguments;
+  __declspec(property(get = __cordl_internal_get__arguments, put = __cordl_internal_set__arguments))::ArrayW<::GlobalNamespace::ArgumentBase*, ::Array<::GlobalNamespace::ArgumentBase*>*> _arguments;
 
   __declspec(property(get = get_isAsyncCommand)) bool isAsyncCommand;
 
@@ -177,11 +178,11 @@ public:
   /// @brief Convert to "::System::IComparable_1<::GlobalNamespace::ConsoleCommandBase*>"
   constexpr ::System::IComparable_1<::GlobalNamespace::ConsoleCommandBase*>* i___System__IComparable_1___GlobalNamespace__ConsoleCommandBase__() noexcept;
 
-  constexpr ::ArrayW<::GlobalNamespace::ArgumentBase*, ::Array<::GlobalNamespace::ArgumentBase*>*>& __get__arguments();
+  constexpr ::ArrayW<::GlobalNamespace::ArgumentBase*, ::Array<::GlobalNamespace::ArgumentBase*>*>& __cordl_internal_get__arguments();
 
-  constexpr ::ArrayW<::GlobalNamespace::ArgumentBase*, ::Array<::GlobalNamespace::ArgumentBase*>*> const& __get__arguments() const;
+  constexpr ::ArrayW<::GlobalNamespace::ArgumentBase*, ::Array<::GlobalNamespace::ArgumentBase*>*> const& __cordl_internal_get__arguments() const;
 
-  constexpr void __set__arguments(::ArrayW<::GlobalNamespace::ArgumentBase*, ::Array<::GlobalNamespace::ArgumentBase*>*> value);
+  constexpr void __cordl_internal_set__arguments(::ArrayW<::GlobalNamespace::ArgumentBase*, ::Array<::GlobalNamespace::ArgumentBase*>*> value);
 
   /// @brief Method get_isAsyncCommand, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_isAsyncCommand();

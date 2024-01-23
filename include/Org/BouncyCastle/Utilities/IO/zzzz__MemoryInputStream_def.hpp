@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::MemoryInputStream);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3566))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1808))
 // CS Name: ::Org.BouncyCastle.Utilities.IO::MemoryInputStream*
 class CORDL_TYPE MemoryInputStream : public ::System::IO::MemoryStream {

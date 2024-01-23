@@ -15,29 +15,29 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRAudioSourceTest);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8076))
 // CS Name: ::OVRAudioSourceTest*
 class CORDL_TYPE OVRAudioSourceTest : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field period, offset 0x18, size 0x4
-  __declspec(property(get = __get_period, put = __set_period)) float_t period;
+  __declspec(property(get = __cordl_internal_get_period, put = __cordl_internal_set_period)) float_t period;
 
   /// @brief Field nextActionTime, offset 0x1c, size 0x4
-  __declspec(property(get = __get_nextActionTime, put = __set_nextActionTime)) float_t nextActionTime;
+  __declspec(property(get = __cordl_internal_get_nextActionTime, put = __cordl_internal_set_nextActionTime)) float_t nextActionTime;
 
-  constexpr float_t& __get_period();
+  constexpr float_t& __cordl_internal_get_period();
 
-  constexpr float_t const& __get_period() const;
+  constexpr float_t const& __cordl_internal_get_period() const;
 
-  constexpr void __set_period(float_t value);
+  constexpr void __cordl_internal_set_period(float_t value);
 
-  constexpr float_t& __get_nextActionTime();
+  constexpr float_t& __cordl_internal_get_nextActionTime();
 
-  constexpr float_t const& __get_nextActionTime() const;
+  constexpr float_t const& __cordl_internal_get_nextActionTime() const;
 
-  constexpr void __set_nextActionTime(float_t value);
+  constexpr void __cordl_internal_set_nextActionTime(float_t value);
 
   /// @brief Method Start, addr 0x27a1da0, size 0x100, virtual false, abstract: false, final false
   inline void Start();

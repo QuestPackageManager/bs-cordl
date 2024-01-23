@@ -17,16 +17,16 @@ MARK_REF_PTR_T(::UnityEngine::AssetBundleCreateRequest);
 // SizeInfo { instance_size: 32, native_size: 16, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10201))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10201))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16105))
 // CS Name: ::UnityEngine::AssetBundleCreateRequest*
 class CORDL_TYPE AssetBundleCreateRequest : public ::UnityEngine::AsyncOperation {
 public:
   // Declarations
-  __declspec(property(get = get_assetBundle))::UnityEngine::AssetBundle* assetBundle;
+  __declspec(property(get = get_assetBundle))::UnityW<::UnityEngine::AssetBundle> assetBundle;
 
   /// @brief Method get_assetBundle, addr 0x2c99f20, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::AssetBundle* get_assetBundle();
+  inline ::UnityW<::UnityEngine::AssetBundle> get_assetBundle();
 
   static inline ::UnityEngine::AssetBundleCreateRequest* New_ctor();
 

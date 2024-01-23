@@ -28,29 +28,29 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::FullBodyBipedIK);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12536))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12536))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12535))
 // CS Name: ::RootMotion.FinalIK::FullBodyBipedIK*
 class CORDL_TYPE FullBodyBipedIK : public ::RootMotion::FinalIK::IK {
 public:
   // Declarations
   /// @brief Field references, offset 0x38, size 0x8
-  __declspec(property(get = __get_references, put = __set_references))::RootMotion::BipedReferences* references;
+  __declspec(property(get = __cordl_internal_get_references, put = __cordl_internal_set_references))::RootMotion::BipedReferences* references;
 
   /// @brief Field solver, offset 0x40, size 0x8
-  __declspec(property(get = __get_solver, put = __set_solver))::RootMotion::FinalIK::IKSolverFullBodyBiped* solver;
+  __declspec(property(get = __cordl_internal_get_solver, put = __cordl_internal_set_solver))::RootMotion::FinalIK::IKSolverFullBodyBiped* solver;
 
-  constexpr ::RootMotion::BipedReferences*& __get_references();
+  constexpr ::RootMotion::BipedReferences*& __cordl_internal_get_references();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::BipedReferences*> const& __get_references() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::BipedReferences*> const& __cordl_internal_get_references() const;
 
-  constexpr void __set_references(::RootMotion::BipedReferences* value);
+  constexpr void __cordl_internal_set_references(::RootMotion::BipedReferences* value);
 
-  constexpr ::RootMotion::FinalIK::IKSolverFullBodyBiped*& __get_solver();
+  constexpr ::RootMotion::FinalIK::IKSolverFullBodyBiped*& __cordl_internal_get_solver();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverFullBodyBiped*> const& __get_solver() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverFullBodyBiped*> const& __cordl_internal_get_solver() const;
 
-  constexpr void __set_solver(::RootMotion::FinalIK::IKSolverFullBodyBiped* value);
+  constexpr void __cordl_internal_set_solver(::RootMotion::FinalIK::IKSolverFullBodyBiped* value);
 
   /// @brief Method OpenUserManual, addr 0x124e754, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();

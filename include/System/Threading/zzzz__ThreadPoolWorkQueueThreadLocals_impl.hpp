@@ -11,10 +11,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x11c;
   constexpr static std::size_t addrs = 0x261bfe8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadPoolWorkQueueThreadLocals*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ThreadPoolWorkQueue*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadPoolWorkQueueThreadLocals*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ThreadPoolWorkQueue*>::get() })));
     return ___internal_method;
   }
 };
@@ -26,9 +26,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x261c104;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadPoolWorkQueueThreadLocals*>::get(),
-                                                                               "CleanUp", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "CleanUp", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x261c1d8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadPoolWorkQueueThreadLocals*>::get(),
@@ -48,40 +48,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::Threading::ThreadPoolWorkQueue*& System::Threading::ThreadPoolWorkQueueThreadLocals::__get_workQueue() {
+constexpr ::System::Threading::ThreadPoolWorkQueue*& System::Threading::ThreadPoolWorkQueueThreadLocals::__cordl_internal_get_workQueue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___workQueue;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::ThreadPoolWorkQueue*> const& System::Threading::ThreadPoolWorkQueueThreadLocals::__get_workQueue() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Threading::ThreadPoolWorkQueue*> const& System::Threading::ThreadPoolWorkQueueThreadLocals::__cordl_internal_get_workQueue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___workQueue;
 }
-constexpr void System::Threading::ThreadPoolWorkQueueThreadLocals::__set_workQueue(::System::Threading::ThreadPoolWorkQueue* value) {
+constexpr void System::Threading::ThreadPoolWorkQueueThreadLocals::__cordl_internal_set_workQueue(::System::Threading::ThreadPoolWorkQueue* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___workQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue*& System::Threading::ThreadPoolWorkQueueThreadLocals::__get_workStealingQueue() {
+constexpr ::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue*& System::Threading::ThreadPoolWorkQueueThreadLocals::__cordl_internal_get_workStealingQueue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___workStealingQueue;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue*> const&
-System::Threading::ThreadPoolWorkQueueThreadLocals::__get_workStealingQueue() const {
+System::Threading::ThreadPoolWorkQueueThreadLocals::__cordl_internal_get_workStealingQueue() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___workStealingQueue;
 }
-constexpr void System::Threading::ThreadPoolWorkQueueThreadLocals::__set_workStealingQueue(::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue* value) {
+constexpr void System::Threading::ThreadPoolWorkQueueThreadLocals::__cordl_internal_set_workStealingQueue(::System::Threading::__ThreadPoolWorkQueue__WorkStealingQueue* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___workStealingQueue)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Random*& System::Threading::ThreadPoolWorkQueueThreadLocals::__get_random() {
+constexpr ::System::Random*& System::Threading::ThreadPoolWorkQueueThreadLocals::__cordl_internal_get_random() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& System::Threading::ThreadPoolWorkQueueThreadLocals::__get_random() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Random*> const& System::Threading::ThreadPoolWorkQueueThreadLocals::__cordl_internal_get_random() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___random;
 }
-constexpr void System::Threading::ThreadPoolWorkQueueThreadLocals::__set_random(::System::Random* value) {
+constexpr void System::Threading::ThreadPoolWorkQueueThreadLocals::__cordl_internal_set_random(::System::Random* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -95,17 +95,17 @@ inline ::System::Threading::ThreadPoolWorkQueueThreadLocals* System::Threading::
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadPoolWorkQueueThreadLocals*>::get>();
 }
 inline ::System::Threading::ThreadPoolWorkQueueThreadLocals* System::Threading::ThreadPoolWorkQueueThreadLocals::New_ctor(::System::Threading::ThreadPoolWorkQueue* tpq) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Threading::ThreadPoolWorkQueueThreadLocals*>(tpq));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::ThreadPoolWorkQueueThreadLocals*>(tpq));
 }
 inline void System::Threading::ThreadPoolWorkQueueThreadLocals::_ctor(::System::Threading::ThreadPoolWorkQueue* tpq) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadPoolWorkQueueThreadLocals*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ThreadPoolWorkQueue*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadPoolWorkQueueThreadLocals*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::ThreadPoolWorkQueue*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tpq);
 }
 inline void System::Threading::ThreadPoolWorkQueueThreadLocals::CleanUp() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadPoolWorkQueueThreadLocals*>::get(),
-                                                                             "CleanUp", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "CleanUp", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void System::Threading::ThreadPoolWorkQueueThreadLocals::Finalize() {

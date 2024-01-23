@@ -26,26 +26,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::S2k);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(572)), TypeDefinitionIndex(TypeDefinitionIndex(554))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(554)), TypeDefinitionIndex(TypeDefinitionIndex(572))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(586))
 // CS Name: ::Org.BouncyCastle.Bcpg::S2k*
 class CORDL_TYPE S2k : public ::Org::BouncyCastle::Bcpg::BcpgObject {
 public:
   // Declarations
   /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __get_type, put = __set_type)) int32_t type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) int32_t type;
 
   /// @brief Field algorithm, offset 0x14, size 0x4
-  __declspec(property(get = __get_algorithm, put = __set_algorithm))::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm;
+  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm;
 
   /// @brief Field iv, offset 0x18, size 0x8
-  __declspec(property(get = __get_iv, put = __set_iv))::ArrayW<uint8_t, ::Array<uint8_t>*> iv;
+  __declspec(property(get = __cordl_internal_get_iv, put = __cordl_internal_set_iv))::ArrayW<uint8_t, ::Array<uint8_t>*> iv;
 
   /// @brief Field itCount, offset 0x20, size 0x4
-  __declspec(property(get = __get_itCount, put = __set_itCount)) int32_t itCount;
+  __declspec(property(get = __cordl_internal_get_itCount, put = __cordl_internal_set_itCount)) int32_t itCount;
 
   /// @brief Field protectionMode, offset 0x24, size 0x4
-  __declspec(property(get = __get_protectionMode, put = __set_protectionMode)) int32_t protectionMode;
+  __declspec(property(get = __cordl_internal_get_protectionMode, put = __cordl_internal_set_protectionMode)) int32_t protectionMode;
 
   __declspec(property(get = get_Type)) int32_t Type;
 
@@ -55,35 +55,35 @@ public:
 
   __declspec(property(get = get_ProtectionMode)) int32_t ProtectionMode;
 
-  constexpr int32_t& __get_type();
+  constexpr int32_t& __cordl_internal_get_type();
 
-  constexpr int32_t const& __get_type() const;
+  constexpr int32_t const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(int32_t value);
+  constexpr void __cordl_internal_set_type(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag& __get_algorithm();
+  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag& __cordl_internal_get_algorithm();
 
-  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag const& __get_algorithm() const;
+  constexpr ::Org::BouncyCastle::Bcpg::HashAlgorithmTag const& __cordl_internal_get_algorithm() const;
 
-  constexpr void __set_algorithm(::Org::BouncyCastle::Bcpg::HashAlgorithmTag value);
+  constexpr void __cordl_internal_set_algorithm(::Org::BouncyCastle::Bcpg::HashAlgorithmTag value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_iv();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_iv();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_iv() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_iv() const;
 
-  constexpr void __set_iv(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_iv(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_itCount();
+  constexpr int32_t& __cordl_internal_get_itCount();
 
-  constexpr int32_t const& __get_itCount() const;
+  constexpr int32_t const& __cordl_internal_get_itCount() const;
 
-  constexpr void __set_itCount(int32_t value);
+  constexpr void __cordl_internal_set_itCount(int32_t value);
 
-  constexpr int32_t& __get_protectionMode();
+  constexpr int32_t& __cordl_internal_get_protectionMode();
 
-  constexpr int32_t const& __get_protectionMode() const;
+  constexpr int32_t const& __cordl_internal_get_protectionMode() const;
 
-  constexpr void __set_protectionMode(int32_t value);
+  constexpr void __cordl_internal_set_protectionMode(int32_t value);
 
   static inline ::Org::BouncyCastle::Bcpg::S2k* New_ctor(::System::IO::Stream* inStr);
 

@@ -133,7 +133,7 @@ MARK_VAL_T(::System::__TimeZoneInfo__TransitionTime);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2484))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2313))
 // CS Name: ::TimeZoneInfo::TZifType
 struct CORDL_TYPE __TimeZoneInfo__TZifType {
@@ -178,7 +178,7 @@ static_assert(offsetof(::System::__TimeZoneInfo__TZifType, AbbreviationIndex) ==
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2315))
 // CS Name: ::TimeZoneInfo::TZVersion
 struct CORDL_TYPE __TimeZoneInfo__TZVersion {
@@ -232,7 +232,7 @@ static_assert(offsetof(::System::__TimeZoneInfo__TZVersion, value__) == 0x0, "Of
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2315))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2315))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2314))
 // CS Name: ::TimeZoneInfo::TZifHead
 struct CORDL_TYPE __TimeZoneInfo__TZifHead {
@@ -305,7 +305,7 @@ static_assert(offsetof(::System::__TimeZoneInfo__TZifHead, CharCount) == 0x1c, "
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2371))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2371))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2317))
 // CS Name: ::TimeZoneInfo::TransitionTime
 struct CORDL_TYPE __TimeZoneInfo__TransitionTime {
@@ -444,31 +444,31 @@ static_assert(offsetof(::System::__TimeZoneInfo__TransitionTime, _isFixedDateRul
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2317))} Self: TypeDefinitionIndex(TypeDefinitionIndex(2316)) CS Name: ::TimeZoneInfo::AdjustmentRule*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2317)), TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2484)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613))] Self: TypeDefinitionIndex(TypeDefinitionIndex(2316)) CS Name: ::TimeZoneInfo::AdjustmentRule*
 class CORDL_TYPE __TimeZoneInfo__AdjustmentRule : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _dateStart, offset 0x10, size 0x8
-  __declspec(property(get = __get__dateStart, put = __set__dateStart))::System::DateTime _dateStart;
+  __declspec(property(get = __cordl_internal_get__dateStart, put = __cordl_internal_set__dateStart))::System::DateTime _dateStart;
 
   /// @brief Field _dateEnd, offset 0x18, size 0x8
-  __declspec(property(get = __get__dateEnd, put = __set__dateEnd))::System::DateTime _dateEnd;
+  __declspec(property(get = __cordl_internal_get__dateEnd, put = __cordl_internal_set__dateEnd))::System::DateTime _dateEnd;
 
   /// @brief Field _daylightDelta, offset 0x20, size 0x8
-  __declspec(property(get = __get__daylightDelta, put = __set__daylightDelta))::System::TimeSpan _daylightDelta;
+  __declspec(property(get = __cordl_internal_get__daylightDelta, put = __cordl_internal_set__daylightDelta))::System::TimeSpan _daylightDelta;
 
   /// @brief Field _daylightTransitionStart, offset 0x28, size 0x18
-  __declspec(property(get = __get__daylightTransitionStart, put = __set__daylightTransitionStart))::System::__TimeZoneInfo__TransitionTime _daylightTransitionStart;
+  __declspec(property(get = __cordl_internal_get__daylightTransitionStart, put = __cordl_internal_set__daylightTransitionStart))::System::__TimeZoneInfo__TransitionTime _daylightTransitionStart;
 
   /// @brief Field _daylightTransitionEnd, offset 0x40, size 0x18
-  __declspec(property(get = __get__daylightTransitionEnd, put = __set__daylightTransitionEnd))::System::__TimeZoneInfo__TransitionTime _daylightTransitionEnd;
+  __declspec(property(get = __cordl_internal_get__daylightTransitionEnd, put = __cordl_internal_set__daylightTransitionEnd))::System::__TimeZoneInfo__TransitionTime _daylightTransitionEnd;
 
   /// @brief Field _baseUtcOffsetDelta, offset 0x58, size 0x8
-  __declspec(property(get = __get__baseUtcOffsetDelta, put = __set__baseUtcOffsetDelta))::System::TimeSpan _baseUtcOffsetDelta;
+  __declspec(property(get = __cordl_internal_get__baseUtcOffsetDelta, put = __cordl_internal_set__baseUtcOffsetDelta))::System::TimeSpan _baseUtcOffsetDelta;
 
   /// @brief Field _noDaylightTransitions, offset 0x60, size 0x1
-  __declspec(property(get = __get__noDaylightTransitions, put = __set__noDaylightTransitions)) bool _noDaylightTransitions;
+  __declspec(property(get = __cordl_internal_get__noDaylightTransitions, put = __cordl_internal_set__noDaylightTransitions)) bool _noDaylightTransitions;
 
   __declspec(property(get = get_DateStart))::System::DateTime DateStart;
 
@@ -504,47 +504,47 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
-  constexpr ::System::DateTime& __get__dateStart();
+  constexpr ::System::DateTime& __cordl_internal_get__dateStart();
 
-  constexpr ::System::DateTime const& __get__dateStart() const;
+  constexpr ::System::DateTime const& __cordl_internal_get__dateStart() const;
 
-  constexpr void __set__dateStart(::System::DateTime value);
+  constexpr void __cordl_internal_set__dateStart(::System::DateTime value);
 
-  constexpr ::System::DateTime& __get__dateEnd();
+  constexpr ::System::DateTime& __cordl_internal_get__dateEnd();
 
-  constexpr ::System::DateTime const& __get__dateEnd() const;
+  constexpr ::System::DateTime const& __cordl_internal_get__dateEnd() const;
 
-  constexpr void __set__dateEnd(::System::DateTime value);
+  constexpr void __cordl_internal_set__dateEnd(::System::DateTime value);
 
-  constexpr ::System::TimeSpan& __get__daylightDelta();
+  constexpr ::System::TimeSpan& __cordl_internal_get__daylightDelta();
 
-  constexpr ::System::TimeSpan const& __get__daylightDelta() const;
+  constexpr ::System::TimeSpan const& __cordl_internal_get__daylightDelta() const;
 
-  constexpr void __set__daylightDelta(::System::TimeSpan value);
+  constexpr void __cordl_internal_set__daylightDelta(::System::TimeSpan value);
 
-  constexpr ::System::__TimeZoneInfo__TransitionTime& __get__daylightTransitionStart();
+  constexpr ::System::__TimeZoneInfo__TransitionTime& __cordl_internal_get__daylightTransitionStart();
 
-  constexpr ::System::__TimeZoneInfo__TransitionTime const& __get__daylightTransitionStart() const;
+  constexpr ::System::__TimeZoneInfo__TransitionTime const& __cordl_internal_get__daylightTransitionStart() const;
 
-  constexpr void __set__daylightTransitionStart(::System::__TimeZoneInfo__TransitionTime value);
+  constexpr void __cordl_internal_set__daylightTransitionStart(::System::__TimeZoneInfo__TransitionTime value);
 
-  constexpr ::System::__TimeZoneInfo__TransitionTime& __get__daylightTransitionEnd();
+  constexpr ::System::__TimeZoneInfo__TransitionTime& __cordl_internal_get__daylightTransitionEnd();
 
-  constexpr ::System::__TimeZoneInfo__TransitionTime const& __get__daylightTransitionEnd() const;
+  constexpr ::System::__TimeZoneInfo__TransitionTime const& __cordl_internal_get__daylightTransitionEnd() const;
 
-  constexpr void __set__daylightTransitionEnd(::System::__TimeZoneInfo__TransitionTime value);
+  constexpr void __cordl_internal_set__daylightTransitionEnd(::System::__TimeZoneInfo__TransitionTime value);
 
-  constexpr ::System::TimeSpan& __get__baseUtcOffsetDelta();
+  constexpr ::System::TimeSpan& __cordl_internal_get__baseUtcOffsetDelta();
 
-  constexpr ::System::TimeSpan const& __get__baseUtcOffsetDelta() const;
+  constexpr ::System::TimeSpan const& __cordl_internal_get__baseUtcOffsetDelta() const;
 
-  constexpr void __set__baseUtcOffsetDelta(::System::TimeSpan value);
+  constexpr void __cordl_internal_set__baseUtcOffsetDelta(::System::TimeSpan value);
 
-  constexpr bool& __get__noDaylightTransitions();
+  constexpr bool& __cordl_internal_get__noDaylightTransitions();
 
-  constexpr bool const& __get__noDaylightTransitions() const;
+  constexpr bool const& __cordl_internal_get__noDaylightTransitions() const;
 
-  constexpr void __set__noDaylightTransitions(bool value);
+  constexpr void __cordl_internal_set__noDaylightTransitions(bool value);
 
   /// @brief Method get_DateStart, addr 0x251d3b4, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTime get_DateStart();
@@ -681,22 +681,22 @@ static_assert(offsetof(::System::__TimeZoneInfo__AdjustmentRule, ____noDaylightT
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2318))
 // CS Name: ::TimeZoneInfo::CachedData*
 class CORDL_TYPE __TimeZoneInfo__CachedData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _localTimeZone, offset 0x10, size 0x8
-  __declspec(property(get = __get__localTimeZone, put = __set__localTimeZone))::System::TimeZoneInfo* _localTimeZone;
+  __declspec(property(get = __cordl_internal_get__localTimeZone, put = __cordl_internal_set__localTimeZone))::System::TimeZoneInfo* _localTimeZone;
 
   __declspec(property(get = get_Local))::System::TimeZoneInfo* Local;
 
-  constexpr ::System::TimeZoneInfo*& __get__localTimeZone();
+  constexpr ::System::TimeZoneInfo*& __cordl_internal_get__localTimeZone();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::TimeZoneInfo*> const& __get__localTimeZone() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::TimeZoneInfo*> const& __cordl_internal_get__localTimeZone() const;
 
-  constexpr void __set__localTimeZone(::System::TimeZoneInfo* value);
+  constexpr void __cordl_internal_set__localTimeZone(::System::TimeZoneInfo* value);
 
   /// @brief Method CreateLocal, addr 0x251ebc0, size 0x190, virtual false, abstract: false, final false
   inline ::System::TimeZoneInfo* CreateLocal();
@@ -741,65 +741,65 @@ static_assert(offsetof(::System::__TimeZoneInfo__CachedData, ____localTimeZone) 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2319))
 // CS Name: ::TimeZoneInfo::<>c__DisplayClass16_0*
 class CORDL_TYPE __TimeZoneInfo____c__DisplayClass16_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field localtimeFilePath, offset 0x10, size 0x8
-  __declspec(property(get = __get_localtimeFilePath, put = __set_localtimeFilePath))::StringW localtimeFilePath;
+  __declspec(property(get = __cordl_internal_get_localtimeFilePath, put = __cordl_internal_set_localtimeFilePath))::StringW localtimeFilePath;
 
   /// @brief Field posixrulesFilePath, offset 0x18, size 0x8
-  __declspec(property(get = __get_posixrulesFilePath, put = __set_posixrulesFilePath))::StringW posixrulesFilePath;
+  __declspec(property(get = __cordl_internal_get_posixrulesFilePath, put = __cordl_internal_set_posixrulesFilePath))::StringW posixrulesFilePath;
 
   /// @brief Field buffer, offset 0x20, size 0x8
-  __declspec(property(get = __get_buffer, put = __set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
 
   /// @brief Field rawData, offset 0x28, size 0x8
-  __declspec(property(get = __get_rawData, put = __set_rawData))::ArrayW<uint8_t, ::Array<uint8_t>*> rawData;
+  __declspec(property(get = __cordl_internal_get_rawData, put = __cordl_internal_set_rawData))::ArrayW<uint8_t, ::Array<uint8_t>*> rawData;
 
   /// @brief Field id, offset 0x30, size 0x8
-  __declspec(property(get = __get_id, put = __set_id))::StringW id;
+  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::StringW id;
 
   /// @brief Field timeZoneDirectory, offset 0x38, size 0x8
-  __declspec(property(get = __get_timeZoneDirectory, put = __set_timeZoneDirectory))::StringW timeZoneDirectory;
+  __declspec(property(get = __cordl_internal_get_timeZoneDirectory, put = __cordl_internal_set_timeZoneDirectory))::StringW timeZoneDirectory;
 
-  constexpr ::StringW& __get_localtimeFilePath();
+  constexpr ::StringW& __cordl_internal_get_localtimeFilePath();
 
-  constexpr ::StringW const& __get_localtimeFilePath() const;
+  constexpr ::StringW const& __cordl_internal_get_localtimeFilePath() const;
 
-  constexpr void __set_localtimeFilePath(::StringW value);
+  constexpr void __cordl_internal_set_localtimeFilePath(::StringW value);
 
-  constexpr ::StringW& __get_posixrulesFilePath();
+  constexpr ::StringW& __cordl_internal_get_posixrulesFilePath();
 
-  constexpr ::StringW const& __get_posixrulesFilePath() const;
+  constexpr ::StringW const& __cordl_internal_get_posixrulesFilePath() const;
 
-  constexpr void __set_posixrulesFilePath(::StringW value);
+  constexpr void __cordl_internal_set_posixrulesFilePath(::StringW value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
 
-  constexpr void __set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_rawData();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_rawData();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_rawData() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_rawData() const;
 
-  constexpr void __set_rawData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_rawData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::StringW& __get_id();
+  constexpr ::StringW& __cordl_internal_get_id();
 
-  constexpr ::StringW const& __get_id() const;
+  constexpr ::StringW const& __cordl_internal_get_id() const;
 
-  constexpr void __set_id(::StringW value);
+  constexpr void __cordl_internal_set_id(::StringW value);
 
-  constexpr ::StringW& __get_timeZoneDirectory();
+  constexpr ::StringW& __cordl_internal_get_timeZoneDirectory();
 
-  constexpr ::StringW const& __get_timeZoneDirectory() const;
+  constexpr ::StringW const& __cordl_internal_get_timeZoneDirectory() const;
 
-  constexpr void __set_timeZoneDirectory(::StringW value);
+  constexpr void __cordl_internal_set_timeZoneDirectory(::StringW value);
 
   static inline ::System::__TimeZoneInfo____c__DisplayClass16_0* New_ctor();
 
@@ -863,7 +863,7 @@ static_assert(offsetof(::System::__TimeZoneInfo____c__DisplayClass16_0, ___timeZ
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2320))
 // CS Name: ::TimeZoneInfo::<>c*
 class CORDL_TYPE __TimeZoneInfo____c : public ::System::Object {
@@ -965,7 +965,7 @@ static_assert(::cordl_internals::size_check_v<::System::__TimeZoneInfo____c, 0x1
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2321))
 // CS Name: ::System::TimeZoneInfo*
 class CORDL_TYPE TimeZoneInfo : public ::System::Object {
@@ -988,26 +988,26 @@ public:
   using TZifType = ::System::__TimeZoneInfo__TZifType;
 
   /// @brief Field _id, offset 0x10, size 0x8
-  __declspec(property(get = __get__id, put = __set__id))::StringW _id;
+  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id))::StringW _id;
 
   /// @brief Field _displayName, offset 0x18, size 0x8
-  __declspec(property(get = __get__displayName, put = __set__displayName))::StringW _displayName;
+  __declspec(property(get = __cordl_internal_get__displayName, put = __cordl_internal_set__displayName))::StringW _displayName;
 
   /// @brief Field _standardDisplayName, offset 0x20, size 0x8
-  __declspec(property(get = __get__standardDisplayName, put = __set__standardDisplayName))::StringW _standardDisplayName;
+  __declspec(property(get = __cordl_internal_get__standardDisplayName, put = __cordl_internal_set__standardDisplayName))::StringW _standardDisplayName;
 
   /// @brief Field _daylightDisplayName, offset 0x28, size 0x8
-  __declspec(property(get = __get__daylightDisplayName, put = __set__daylightDisplayName))::StringW _daylightDisplayName;
+  __declspec(property(get = __cordl_internal_get__daylightDisplayName, put = __cordl_internal_set__daylightDisplayName))::StringW _daylightDisplayName;
 
   /// @brief Field _baseUtcOffset, offset 0x30, size 0x8
-  __declspec(property(get = __get__baseUtcOffset, put = __set__baseUtcOffset))::System::TimeSpan _baseUtcOffset;
+  __declspec(property(get = __cordl_internal_get__baseUtcOffset, put = __cordl_internal_set__baseUtcOffset))::System::TimeSpan _baseUtcOffset;
 
   /// @brief Field _supportsDaylightSavingTime, offset 0x38, size 0x1
-  __declspec(property(get = __get__supportsDaylightSavingTime, put = __set__supportsDaylightSavingTime)) bool _supportsDaylightSavingTime;
+  __declspec(property(get = __cordl_internal_get__supportsDaylightSavingTime, put = __cordl_internal_set__supportsDaylightSavingTime)) bool _supportsDaylightSavingTime;
 
   /// @brief Field _adjustmentRules, offset 0x40, size 0x8
-  __declspec(property(get = __get__adjustmentRules,
-                      put = __set__adjustmentRules))::ArrayW<::System::__TimeZoneInfo__AdjustmentRule*, ::Array<::System::__TimeZoneInfo__AdjustmentRule*>*> _adjustmentRules;
+  __declspec(property(get = __cordl_internal_get__adjustmentRules,
+                      put = __cordl_internal_set__adjustmentRules))::ArrayW<::System::__TimeZoneInfo__AdjustmentRule*, ::Array<::System::__TimeZoneInfo__AdjustmentRule*>*> _adjustmentRules;
 
   /// @brief Field s_utcTimeZone, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_utcTimeZone, put = setStaticF_s_utcTimeZone))::System::TimeZoneInfo* s_utcTimeZone;
@@ -1055,47 +1055,47 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
-  constexpr ::StringW& __get__id();
+  constexpr ::StringW& __cordl_internal_get__id();
 
-  constexpr ::StringW const& __get__id() const;
+  constexpr ::StringW const& __cordl_internal_get__id() const;
 
-  constexpr void __set__id(::StringW value);
+  constexpr void __cordl_internal_set__id(::StringW value);
 
-  constexpr ::StringW& __get__displayName();
+  constexpr ::StringW& __cordl_internal_get__displayName();
 
-  constexpr ::StringW const& __get__displayName() const;
+  constexpr ::StringW const& __cordl_internal_get__displayName() const;
 
-  constexpr void __set__displayName(::StringW value);
+  constexpr void __cordl_internal_set__displayName(::StringW value);
 
-  constexpr ::StringW& __get__standardDisplayName();
+  constexpr ::StringW& __cordl_internal_get__standardDisplayName();
 
-  constexpr ::StringW const& __get__standardDisplayName() const;
+  constexpr ::StringW const& __cordl_internal_get__standardDisplayName() const;
 
-  constexpr void __set__standardDisplayName(::StringW value);
+  constexpr void __cordl_internal_set__standardDisplayName(::StringW value);
 
-  constexpr ::StringW& __get__daylightDisplayName();
+  constexpr ::StringW& __cordl_internal_get__daylightDisplayName();
 
-  constexpr ::StringW const& __get__daylightDisplayName() const;
+  constexpr ::StringW const& __cordl_internal_get__daylightDisplayName() const;
 
-  constexpr void __set__daylightDisplayName(::StringW value);
+  constexpr void __cordl_internal_set__daylightDisplayName(::StringW value);
 
-  constexpr ::System::TimeSpan& __get__baseUtcOffset();
+  constexpr ::System::TimeSpan& __cordl_internal_get__baseUtcOffset();
 
-  constexpr ::System::TimeSpan const& __get__baseUtcOffset() const;
+  constexpr ::System::TimeSpan const& __cordl_internal_get__baseUtcOffset() const;
 
-  constexpr void __set__baseUtcOffset(::System::TimeSpan value);
+  constexpr void __cordl_internal_set__baseUtcOffset(::System::TimeSpan value);
 
-  constexpr bool& __get__supportsDaylightSavingTime();
+  constexpr bool& __cordl_internal_get__supportsDaylightSavingTime();
 
-  constexpr bool const& __get__supportsDaylightSavingTime() const;
+  constexpr bool const& __cordl_internal_get__supportsDaylightSavingTime() const;
 
-  constexpr void __set__supportsDaylightSavingTime(bool value);
+  constexpr void __cordl_internal_set__supportsDaylightSavingTime(bool value);
 
-  constexpr ::ArrayW<::System::__TimeZoneInfo__AdjustmentRule*, ::Array<::System::__TimeZoneInfo__AdjustmentRule*>*>& __get__adjustmentRules();
+  constexpr ::ArrayW<::System::__TimeZoneInfo__AdjustmentRule*, ::Array<::System::__TimeZoneInfo__AdjustmentRule*>*>& __cordl_internal_get__adjustmentRules();
 
-  constexpr ::ArrayW<::System::__TimeZoneInfo__AdjustmentRule*, ::Array<::System::__TimeZoneInfo__AdjustmentRule*>*> const& __get__adjustmentRules() const;
+  constexpr ::ArrayW<::System::__TimeZoneInfo__AdjustmentRule*, ::Array<::System::__TimeZoneInfo__AdjustmentRule*>*> const& __cordl_internal_get__adjustmentRules() const;
 
-  constexpr void __set__adjustmentRules(::ArrayW<::System::__TimeZoneInfo__AdjustmentRule*, ::Array<::System::__TimeZoneInfo__AdjustmentRule*>*> value);
+  constexpr void __cordl_internal_set__adjustmentRules(::ArrayW<::System::__TimeZoneInfo__AdjustmentRule*, ::Array<::System::__TimeZoneInfo__AdjustmentRule*>*> value);
 
   static inline void setStaticF_s_utcTimeZone(::System::TimeZoneInfo* value);
 

@@ -45,20 +45,20 @@ namespace System {
 // cpp template
 template <typename T1, typename T2, typename T3>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2491))
 // CS Name: ::System::Tuple`3<T1,T2,T3>*
 class CORDL_TYPE Tuple_3 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Item1, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Item1, put = __set_m_Item1)) T1 m_Item1;
+  __declspec(property(get = __cordl_internal_get_m_Item1, put = __cordl_internal_set_m_Item1)) T1 m_Item1;
 
   /// @brief Field m_Item2, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Item2, put = __set_m_Item2)) T2 m_Item2;
+  __declspec(property(get = __cordl_internal_get_m_Item2, put = __cordl_internal_set_m_Item2)) T2 m_Item2;
 
   /// @brief Field m_Item3, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Item3, put = __set_m_Item3)) T3 m_Item3;
+  __declspec(property(get = __cordl_internal_get_m_Item3, put = __cordl_internal_set_m_Item3)) T3 m_Item3;
 
   __declspec(property(get = get_Item1)) T1 Item1;
 
@@ -98,23 +98,23 @@ public:
   /// @brief Convert to "::System::Runtime::CompilerServices::ITuple"
   constexpr ::System::Runtime::CompilerServices::ITuple* i___System__Runtime__CompilerServices__ITuple() noexcept;
 
-  constexpr T1& __get_m_Item1();
+  constexpr T1& __cordl_internal_get_m_Item1();
 
-  constexpr T1 const& __get_m_Item1() const;
+  constexpr T1 const& __cordl_internal_get_m_Item1() const;
 
-  constexpr void __set_m_Item1(T1 value);
+  constexpr void __cordl_internal_set_m_Item1(T1 value);
 
-  constexpr T2& __get_m_Item2();
+  constexpr T2& __cordl_internal_get_m_Item2();
 
-  constexpr T2 const& __get_m_Item2() const;
+  constexpr T2 const& __cordl_internal_get_m_Item2() const;
 
-  constexpr void __set_m_Item2(T2 value);
+  constexpr void __cordl_internal_set_m_Item2(T2 value);
 
-  constexpr T3& __get_m_Item3();
+  constexpr T3& __cordl_internal_get_m_Item3();
 
-  constexpr T3 const& __get_m_Item3() const;
+  constexpr T3 const& __cordl_internal_get_m_Item3() const;
 
-  constexpr void __set_m_Item3(T3 value);
+  constexpr void __cordl_internal_set_m_Item3(T3 value);
 
   /// @brief Method get_Item1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T1 get_Item1();

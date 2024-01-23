@@ -17,38 +17,38 @@ MARK_REF_PTR_T(::UnityEngine::RequireComponent);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10214))
 // CS Name: ::UnityEngine::RequireComponent*
 class CORDL_TYPE RequireComponent : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field m_Type0, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Type0, put = __set_m_Type0))::System::Type* m_Type0;
+  __declspec(property(get = __cordl_internal_get_m_Type0, put = __cordl_internal_set_m_Type0))::System::Type* m_Type0;
 
   /// @brief Field m_Type1, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Type1, put = __set_m_Type1))::System::Type* m_Type1;
+  __declspec(property(get = __cordl_internal_get_m_Type1, put = __cordl_internal_set_m_Type1))::System::Type* m_Type1;
 
   /// @brief Field m_Type2, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Type2, put = __set_m_Type2))::System::Type* m_Type2;
+  __declspec(property(get = __cordl_internal_get_m_Type2, put = __cordl_internal_set_m_Type2))::System::Type* m_Type2;
 
-  constexpr ::System::Type*& __get_m_Type0();
+  constexpr ::System::Type*& __cordl_internal_get_m_Type0();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_m_Type0() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_Type0() const;
 
-  constexpr void __set_m_Type0(::System::Type* value);
+  constexpr void __cordl_internal_set_m_Type0(::System::Type* value);
 
-  constexpr ::System::Type*& __get_m_Type1();
+  constexpr ::System::Type*& __cordl_internal_get_m_Type1();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_m_Type1() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_Type1() const;
 
-  constexpr void __set_m_Type1(::System::Type* value);
+  constexpr void __cordl_internal_set_m_Type1(::System::Type* value);
 
-  constexpr ::System::Type*& __get_m_Type2();
+  constexpr ::System::Type*& __cordl_internal_get_m_Type2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_m_Type2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_Type2() const;
 
-  constexpr void __set_m_Type2(::System::Type* value);
+  constexpr void __cordl_internal_set_m_Type2(::System::Type* value);
 
   static inline ::UnityEngine::RequireComponent* New_ctor(::System::Type* requiredComponent);
 

@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::System::Net::ContentDecodeStream);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9155))
 // CS Name: ::ContentDecodeStream::Mode
 struct CORDL_TYPE __ContentDecodeStream__Mode {
@@ -89,7 +89,7 @@ static_assert(offsetof(::System::Net::__ContentDecodeStream__Mode, value__) == 0
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9229))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9229))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9156))
 // CS Name: ::System.Net::ContentDecodeStream*
 class CORDL_TYPE ContentDecodeStream : public ::System::Net::WebReadStream {
@@ -98,15 +98,16 @@ public:
   using Mode = ::System::Net::__ContentDecodeStream__Mode;
 
   /// @brief Field <OriginalInnerStream>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __get__OriginalInnerStream_k__BackingField, put = __set__OriginalInnerStream_k__BackingField))::System::IO::Stream* _OriginalInnerStream_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__OriginalInnerStream_k__BackingField,
+                      put = __cordl_internal_set__OriginalInnerStream_k__BackingField))::System::IO::Stream* _OriginalInnerStream_k__BackingField;
 
   __declspec(property(get = get_OriginalInnerStream))::System::IO::Stream* OriginalInnerStream;
 
-  constexpr ::System::IO::Stream*& __get__OriginalInnerStream_k__BackingField();
+  constexpr ::System::IO::Stream*& __cordl_internal_get__OriginalInnerStream_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get__OriginalInnerStream_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__OriginalInnerStream_k__BackingField() const;
 
-  constexpr void __set__OriginalInnerStream_k__BackingField(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set__OriginalInnerStream_k__BackingField(::System::IO::Stream* value);
 
   /// @brief Method Create, addr 0x29bd31c, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Net::ContentDecodeStream* Create(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::__ContentDecodeStream__Mode mode);

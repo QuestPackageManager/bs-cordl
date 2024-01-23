@@ -60,7 +60,7 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3420))
 // CS Name: ::ConditionalWeakTable`2::CreateValueCallback<TKey,TValue>*
 class CORDL_TYPE __ConditionalWeakTable_2__CreateValueCallback : public ::System::MulticastDelegate {
@@ -98,19 +98,19 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1113 }), TypeDefinitionIndex(TypeDefinitionIndex(3841)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3421)) CS Name: ::ConditionalWeakTable`2::Enumerator<TKey,TValue>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1113
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3421)) CS Name: ::ConditionalWeakTable`2::Enumerator<TKey,TValue>*
 class CORDL_TYPE __ConditionalWeakTable_2__Enumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _table, offset 0x10, size 0x8
-  __declspec(property(get = __get__table, put = __set__table))::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* _table;
+  __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table))::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* _table;
 
   /// @brief Field _currentIndex, offset 0x18, size 0x4
-  __declspec(property(get = __get__currentIndex, put = __set__currentIndex)) int32_t _currentIndex;
+  __declspec(property(get = __cordl_internal_get__currentIndex, put = __cordl_internal_set__currentIndex)) int32_t _currentIndex;
 
   /// @brief Field _current, offset 0x20, size 0x10
-  __declspec(property(get = __get__current, put = __set__current))::System::Collections::Generic::KeyValuePair_2<TKey, TValue> _current;
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current))::System::Collections::Generic::KeyValuePair_2<TKey, TValue> _current;
 
   __declspec(property(get = get_Current))::System::Collections::Generic::KeyValuePair_2<TKey, TValue> Current;
 
@@ -135,23 +135,23 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>*& __get__table();
+  constexpr ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>*& __cordl_internal_get__table();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>*> const& __get__table() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>*> const& __cordl_internal_get__table() const;
 
-  constexpr void __set__table(::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__table(::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* value);
 
-  constexpr int32_t& __get__currentIndex();
+  constexpr int32_t& __cordl_internal_get__currentIndex();
 
-  constexpr int32_t const& __get__currentIndex() const;
+  constexpr int32_t const& __cordl_internal_get__currentIndex() const;
 
-  constexpr void __set__currentIndex(int32_t value);
+  constexpr void __cordl_internal_set__currentIndex(int32_t value);
 
-  constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>& __get__current();
+  constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue>& __cordl_internal_get__current();
 
-  constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> const& __get__current() const;
+  constexpr ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> const& __cordl_internal_get__current() const;
 
-  constexpr void __set__current(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> value);
+  constexpr void __cordl_internal_set__current(::System::Collections::Generic::KeyValuePair_2<TKey, TValue> value);
 
   static inline ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__Enumerator<TKey, TValue>* New_ctor(::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* table);
 
@@ -209,7 +209,7 @@ namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3422))
 // CS Name: ::System.Runtime.CompilerServices::ConditionalWeakTable`2<TKey,TValue>*
 class CORDL_TYPE ConditionalWeakTable_2 : public ::System::Object {
@@ -220,13 +220,14 @@ public:
   using CreateValueCallback = ::System::Runtime::CompilerServices::__ConditionalWeakTable_2__CreateValueCallback<TKey, TValue>;
 
   /// @brief Field data, offset 0x10, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> data;
+  __declspec(property(get = __cordl_internal_get_data,
+                      put = __cordl_internal_set_data))::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> data;
 
   /// @brief Field _lock, offset 0x18, size 0x8
-  __declspec(property(get = __get__lock, put = __set__lock))::System::Object* _lock;
+  __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock))::System::Object* _lock;
 
   /// @brief Field size, offset 0x20, size 0x4
-  __declspec(property(get = __get_size, put = __set_size)) int32_t size;
+  __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey,TValue>>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*() noexcept;
@@ -241,23 +242,23 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*>& __get_data();
+  constexpr ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*>& __cordl_internal_get_data();
 
-  constexpr ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> const& __get_data() const;
+  constexpr ::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> value);
+  constexpr void __cordl_internal_set_data(::ArrayW<::System::Runtime::CompilerServices::Ephemeron, ::Array<::System::Runtime::CompilerServices::Ephemeron>*> value);
 
-  constexpr ::System::Object*& __get__lock();
+  constexpr ::System::Object*& __cordl_internal_get__lock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__lock() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__lock() const;
 
-  constexpr void __set__lock(::System::Object* value);
+  constexpr void __cordl_internal_set__lock(::System::Object* value);
 
-  constexpr int32_t& __get_size();
+  constexpr int32_t& __cordl_internal_get_size();
 
-  constexpr int32_t const& __get_size() const;
+  constexpr int32_t const& __cordl_internal_get_size() const;
 
-  constexpr void __set_size(int32_t value);
+  constexpr void __cordl_internal_set_size(int32_t value);
 
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<TKey, TValue>* New_ctor();
 

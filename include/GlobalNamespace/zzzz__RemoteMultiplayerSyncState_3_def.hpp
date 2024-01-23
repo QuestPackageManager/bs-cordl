@@ -32,33 +32,33 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14947)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14947), inst: 3836 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14947)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14947), inst: 3836 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14949))
 // CS Name: ::RemoteMultiplayerSyncState`3<TStateTable,TType,TState>*
 class CORDL_TYPE RemoteMultiplayerSyncState_3 : public ::GlobalNamespace::MultiplayerSyncState_3<TStateTable, TType, TState> {
 public:
   // Declarations
   /// @brief Field _player, offset 0x10, size 0x8
-  __declspec(property(get = __get__player, put = __set__player))::GlobalNamespace::IConnectedPlayer* _player;
+  __declspec(property(get = __cordl_internal_get__player, put = __cordl_internal_set__player))::GlobalNamespace::IConnectedPlayer* _player;
 
   /// @brief Field _stateBuffer, offset 0x18, size 0x8
-  __declspec(property(get = __get__stateBuffer, put = __set__stateBuffer))::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>* _stateBuffer;
+  __declspec(property(get = __cordl_internal_get__stateBuffer, put = __cordl_internal_set__stateBuffer))::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>* _stateBuffer;
 
   __declspec(property(get = get_stateBuffer))::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* stateBuffer;
 
   __declspec(property(get = get_player))::GlobalNamespace::IConnectedPlayer* player;
 
-  constexpr ::GlobalNamespace::IConnectedPlayer*& __get__player();
+  constexpr ::GlobalNamespace::IConnectedPlayer*& __cordl_internal_get__player();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __get__player() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayer*> const& __cordl_internal_get__player() const;
 
-  constexpr void __set__player(::GlobalNamespace::IConnectedPlayer* value);
+  constexpr void __cordl_internal_set__player(::GlobalNamespace::IConnectedPlayer* value);
 
-  constexpr ::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>*& __get__stateBuffer();
+  constexpr ::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>*& __cordl_internal_get__stateBuffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>*> const& __get__stateBuffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>*> const& __cordl_internal_get__stateBuffer() const;
 
-  constexpr void __set__stateBuffer(::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>* value);
+  constexpr void __cordl_internal_set__stateBuffer(::GlobalNamespace::RemoteStateBuffer_3<TStateTable, TType, TState>* value);
 
   /// @brief Method get_stateBuffer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::StateBuffer_3<TStateTable, TType, TState>* get_stateBuffer();

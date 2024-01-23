@@ -27,36 +27,39 @@ MARK_REF_PTR_T(::GlobalNamespace::LobbyPlayerPermissionsModel);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4505))
 // CS Name: ::LobbyPlayerPermissionsModel*
 class CORDL_TYPE LobbyPlayerPermissionsModel : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _menuRpcManager, offset 0x10, size 0x8
-  __declspec(property(get = __get__menuRpcManager, put = __set__menuRpcManager))::GlobalNamespace::IMenuRpcManager* _menuRpcManager;
+  __declspec(property(get = __cordl_internal_get__menuRpcManager, put = __cordl_internal_set__menuRpcManager))::GlobalNamespace::IMenuRpcManager* _menuRpcManager;
 
   /// @brief Field _multiplayerSessionManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field <isPartyOwner>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __get__isPartyOwner_k__BackingField, put = __set__isPartyOwner_k__BackingField)) bool _isPartyOwner_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isPartyOwner_k__BackingField, put = __cordl_internal_set__isPartyOwner_k__BackingField)) bool _isPartyOwner_k__BackingField;
 
   /// @brief Field <hasRecommendBeatmapPermission>k__BackingField, offset 0x21, size 0x1
-  __declspec(property(get = __get__hasRecommendBeatmapPermission_k__BackingField, put = __set__hasRecommendBeatmapPermission_k__BackingField)) bool _hasRecommendBeatmapPermission_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__hasRecommendBeatmapPermission_k__BackingField,
+                      put = __cordl_internal_set__hasRecommendBeatmapPermission_k__BackingField)) bool _hasRecommendBeatmapPermission_k__BackingField;
 
   /// @brief Field <hasRecommendModifiersPermission>k__BackingField, offset 0x22, size 0x1
-  __declspec(property(get = __get__hasRecommendModifiersPermission_k__BackingField,
-                      put = __set__hasRecommendModifiersPermission_k__BackingField)) bool _hasRecommendModifiersPermission_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__hasRecommendModifiersPermission_k__BackingField,
+                      put = __cordl_internal_set__hasRecommendModifiersPermission_k__BackingField)) bool _hasRecommendModifiersPermission_k__BackingField;
 
   /// @brief Field <hasKickVotePermission>k__BackingField, offset 0x23, size 0x1
-  __declspec(property(get = __get__hasKickVotePermission_k__BackingField, put = __set__hasKickVotePermission_k__BackingField)) bool _hasKickVotePermission_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__hasKickVotePermission_k__BackingField,
+                      put = __cordl_internal_set__hasKickVotePermission_k__BackingField)) bool _hasKickVotePermission_k__BackingField;
 
   /// @brief Field <hasInvitePermission>k__BackingField, offset 0x24, size 0x1
-  __declspec(property(get = __get__hasInvitePermission_k__BackingField, put = __set__hasInvitePermission_k__BackingField)) bool _hasInvitePermission_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__hasInvitePermission_k__BackingField, put = __cordl_internal_set__hasInvitePermission_k__BackingField)) bool _hasInvitePermission_k__BackingField;
 
   /// @brief Field permissionsChangedEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_permissionsChangedEvent, put = __set_permissionsChangedEvent))::System::Action* permissionsChangedEvent;
+  __declspec(property(get = __cordl_internal_get_permissionsChangedEvent, put = __cordl_internal_set_permissionsChangedEvent))::System::Action* permissionsChangedEvent;
 
   __declspec(property(get = get_isPartyOwner, put = set_isPartyOwner)) bool isPartyOwner;
 
@@ -68,53 +71,53 @@ public:
 
   __declspec(property(get = get_hasInvitePermission, put = set_hasInvitePermission)) bool hasInvitePermission;
 
-  constexpr ::GlobalNamespace::IMenuRpcManager*& __get__menuRpcManager();
+  constexpr ::GlobalNamespace::IMenuRpcManager*& __cordl_internal_get__menuRpcManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMenuRpcManager*> const& __get__menuRpcManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMenuRpcManager*> const& __cordl_internal_get__menuRpcManager() const;
 
-  constexpr void __set__menuRpcManager(::GlobalNamespace::IMenuRpcManager* value);
+  constexpr void __cordl_internal_set__menuRpcManager(::GlobalNamespace::IMenuRpcManager* value);
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr bool& __get__isPartyOwner_k__BackingField();
+  constexpr bool& __cordl_internal_get__isPartyOwner_k__BackingField();
 
-  constexpr bool const& __get__isPartyOwner_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isPartyOwner_k__BackingField() const;
 
-  constexpr void __set__isPartyOwner_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isPartyOwner_k__BackingField(bool value);
 
-  constexpr bool& __get__hasRecommendBeatmapPermission_k__BackingField();
+  constexpr bool& __cordl_internal_get__hasRecommendBeatmapPermission_k__BackingField();
 
-  constexpr bool const& __get__hasRecommendBeatmapPermission_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__hasRecommendBeatmapPermission_k__BackingField() const;
 
-  constexpr void __set__hasRecommendBeatmapPermission_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__hasRecommendBeatmapPermission_k__BackingField(bool value);
 
-  constexpr bool& __get__hasRecommendModifiersPermission_k__BackingField();
+  constexpr bool& __cordl_internal_get__hasRecommendModifiersPermission_k__BackingField();
 
-  constexpr bool const& __get__hasRecommendModifiersPermission_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__hasRecommendModifiersPermission_k__BackingField() const;
 
-  constexpr void __set__hasRecommendModifiersPermission_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__hasRecommendModifiersPermission_k__BackingField(bool value);
 
-  constexpr bool& __get__hasKickVotePermission_k__BackingField();
+  constexpr bool& __cordl_internal_get__hasKickVotePermission_k__BackingField();
 
-  constexpr bool const& __get__hasKickVotePermission_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__hasKickVotePermission_k__BackingField() const;
 
-  constexpr void __set__hasKickVotePermission_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__hasKickVotePermission_k__BackingField(bool value);
 
-  constexpr bool& __get__hasInvitePermission_k__BackingField();
+  constexpr bool& __cordl_internal_get__hasInvitePermission_k__BackingField();
 
-  constexpr bool const& __get__hasInvitePermission_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__hasInvitePermission_k__BackingField() const;
 
-  constexpr void __set__hasInvitePermission_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__hasInvitePermission_k__BackingField(bool value);
 
-  constexpr ::System::Action*& __get_permissionsChangedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_permissionsChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_permissionsChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_permissionsChangedEvent() const;
 
-  constexpr void __set_permissionsChangedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_permissionsChangedEvent(::System::Action* value);
 
   /// @brief Method get_isPartyOwner, addr 0x235b8b0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPartyOwner();

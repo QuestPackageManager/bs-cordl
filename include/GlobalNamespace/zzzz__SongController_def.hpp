@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::SongController);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5334))
 // CS Name: ::SongController*
 class CORDL_TYPE SongController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field songDidFinishEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_songDidFinishEvent, put = __set_songDidFinishEvent))::System::Action* songDidFinishEvent;
+  __declspec(property(get = __cordl_internal_get_songDidFinishEvent, put = __cordl_internal_set_songDidFinishEvent))::System::Action* songDidFinishEvent;
 
-  constexpr ::System::Action*& __get_songDidFinishEvent();
+  constexpr ::System::Action*& __cordl_internal_get_songDidFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_songDidFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_songDidFinishEvent() const;
 
-  constexpr void __set_songDidFinishEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_songDidFinishEvent(::System::Action* value);
 
   /// @brief Method add_songDidFinishEvent, addr 0x22689b0, size 0x9c, virtual false, abstract: false, final false
   inline void add_songDidFinishEvent(::System::Action* value);

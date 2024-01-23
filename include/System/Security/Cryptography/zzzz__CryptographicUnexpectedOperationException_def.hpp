@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::CryptographicUnexpectedOperatio
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2924))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2924))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2925))
 // CS Name: ::System.Security.Cryptography::CryptographicUnexpectedOperationException*
 class CORDL_TYPE CryptographicUnexpectedOperationException : public ::System::Security::Cryptography::CryptographicException {

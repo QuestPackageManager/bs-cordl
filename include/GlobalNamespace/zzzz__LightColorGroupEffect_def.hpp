@@ -54,38 +54,38 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightColorGroupEffect__InitData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4922))
 // CS Name: ::LightColorGroupEffect::InitData*
 class CORDL_TYPE __LightColorGroupEffect__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field groupId, offset 0x10, size 0x4
-  __declspec(property(get = __get_groupId, put = __set_groupId)) int32_t groupId;
+  __declspec(property(get = __cordl_internal_get_groupId, put = __cordl_internal_set_groupId)) int32_t groupId;
 
   /// @brief Field elementId, offset 0x14, size 0x4
-  __declspec(property(get = __get_elementId, put = __set_elementId)) int32_t elementId;
+  __declspec(property(get = __cordl_internal_get_elementId, put = __cordl_internal_set_elementId)) int32_t elementId;
 
   /// @brief Field lightId, offset 0x18, size 0x4
-  __declspec(property(get = __get_lightId, put = __set_lightId)) int32_t lightId;
+  __declspec(property(get = __cordl_internal_get_lightId, put = __cordl_internal_set_lightId)) int32_t lightId;
 
-  constexpr int32_t& __get_groupId();
+  constexpr int32_t& __cordl_internal_get_groupId();
 
-  constexpr int32_t const& __get_groupId() const;
+  constexpr int32_t const& __cordl_internal_get_groupId() const;
 
-  constexpr void __set_groupId(int32_t value);
+  constexpr void __cordl_internal_set_groupId(int32_t value);
 
-  constexpr int32_t& __get_elementId();
+  constexpr int32_t& __cordl_internal_get_elementId();
 
-  constexpr int32_t const& __get_elementId() const;
+  constexpr int32_t const& __cordl_internal_get_elementId() const;
 
-  constexpr void __set_elementId(int32_t value);
+  constexpr void __cordl_internal_set_elementId(int32_t value);
 
-  constexpr int32_t& __get_lightId();
+  constexpr int32_t& __cordl_internal_get_lightId();
 
-  constexpr int32_t const& __get_lightId() const;
+  constexpr int32_t const& __cordl_internal_get_lightId() const;
 
-  constexpr void __set_lightId(int32_t value);
+  constexpr void __cordl_internal_set_lightId(int32_t value);
 
   static inline ::GlobalNamespace::__LightColorGroupEffect__InitData* New_ctor(int32_t groupId, int32_t elementId, int32_t lightId);
 
@@ -131,7 +131,7 @@ static_assert(offsetof(::GlobalNamespace::__LightColorGroupEffect__InitData, ___
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 162, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4923))
 // CS Name: ::LightColorGroupEffect*
 class CORDL_TYPE LightColorGroupEffect : public ::System::Object {
@@ -140,167 +140,168 @@ public:
   using InitData = ::GlobalNamespace::__LightColorGroupEffect__InitData;
 
   /// @brief Field _colorManager, offset 0x10, size 0x8
-  __declspec(property(get = __get__colorManager, put = __set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
 
   /// @brief Field _lightId, offset 0x18, size 0x4
-  __declspec(property(get = __get__lightId, put = __set__lightId)) int32_t _lightId;
+  __declspec(property(get = __cordl_internal_get__lightId, put = __cordl_internal_set__lightId)) int32_t _lightId;
 
   /// @brief Field _lightManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__lightManager, put = __set__lightManager))::GlobalNamespace::LightWithIdManager* _lightManager;
+  __declspec(property(get = __cordl_internal_get__lightManager, put = __cordl_internal_set__lightManager))::UnityW<::GlobalNamespace::LightWithIdManager> _lightManager;
 
   /// @brief Field _tweeningManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__tweeningManager, put = __set__tweeningManager))::Tweening::SongTimeTweeningManager* _tweeningManager;
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
   /// @brief Field _beatmapCallbacksController, offset 0x30, size 0x8
-  __declspec(property(get = __get__beatmapCallbacksController, put = __set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
+                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
   /// @brief Field _bpmController, offset 0x38, size 0x8
-  __declspec(property(get = __get__bpmController, put = __set__bpmController))::GlobalNamespace::IBpmController* _bpmController;
+  __declspec(property(get = __cordl_internal_get__bpmController, put = __cordl_internal_set__bpmController))::GlobalNamespace::IBpmController* _bpmController;
 
   /// @brief Field _floatTween, offset 0x40, size 0x8
-  __declspec(property(get = __get__floatTween, put = __set__floatTween))::Tweening::FloatTween* _floatTween;
+  __declspec(property(get = __cordl_internal_get__floatTween, put = __cordl_internal_set__floatTween))::Tweening::FloatTween* _floatTween;
 
   /// @brief Field _lightColorBeatmapEventCallbackWrapper, offset 0x48, size 0x8
-  __declspec(property(get = __get__lightColorBeatmapEventCallbackWrapper,
-                      put = __set__lightColorBeatmapEventCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _lightColorBeatmapEventCallbackWrapper;
+  __declspec(property(get = __cordl_internal_get__lightColorBeatmapEventCallbackWrapper,
+                      put = __cordl_internal_set__lightColorBeatmapEventCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _lightColorBeatmapEventCallbackWrapper;
 
   /// @brief Field _fromColor, offset 0x50, size 0x10
-  __declspec(property(get = __get__fromColor, put = __set__fromColor))::UnityEngine::Color _fromColor;
+  __declspec(property(get = __cordl_internal_get__fromColor, put = __cordl_internal_set__fromColor))::UnityEngine::Color _fromColor;
 
   /// @brief Field _toColor, offset 0x60, size 0x10
-  __declspec(property(get = __get__toColor, put = __set__toColor))::UnityEngine::Color _toColor;
+  __declspec(property(get = __cordl_internal_get__toColor, put = __cordl_internal_set__toColor))::UnityEngine::Color _toColor;
 
   /// @brief Field _alternativeFromColor, offset 0x70, size 0x10
-  __declspec(property(get = __get__alternativeFromColor, put = __set__alternativeFromColor))::UnityEngine::Color _alternativeFromColor;
+  __declspec(property(get = __cordl_internal_get__alternativeFromColor, put = __cordl_internal_set__alternativeFromColor))::UnityEngine::Color _alternativeFromColor;
 
   /// @brief Field _alternativeToColor, offset 0x80, size 0x10
-  __declspec(property(get = __get__alternativeToColor, put = __set__alternativeToColor))::UnityEngine::Color _alternativeToColor;
+  __declspec(property(get = __cordl_internal_get__alternativeToColor, put = __cordl_internal_set__alternativeToColor))::UnityEngine::Color _alternativeToColor;
 
   /// @brief Field _fromStrobeFrequency, offset 0x90, size 0x4
-  __declspec(property(get = __get__fromStrobeFrequency, put = __set__fromStrobeFrequency)) float_t _fromStrobeFrequency;
+  __declspec(property(get = __cordl_internal_get__fromStrobeFrequency, put = __cordl_internal_set__fromStrobeFrequency)) float_t _fromStrobeFrequency;
 
   /// @brief Field _toStrobeFrequency, offset 0x94, size 0x4
-  __declspec(property(get = __get__toStrobeFrequency, put = __set__toStrobeFrequency)) float_t _toStrobeFrequency;
+  __declspec(property(get = __cordl_internal_get__toStrobeFrequency, put = __cordl_internal_set__toStrobeFrequency)) float_t _toStrobeFrequency;
 
   /// @brief Field _fromStrobeBrightness, offset 0x98, size 0x4
-  __declspec(property(get = __get__fromStrobeBrightness, put = __set__fromStrobeBrightness)) float_t _fromStrobeBrightness;
+  __declspec(property(get = __cordl_internal_get__fromStrobeBrightness, put = __cordl_internal_set__fromStrobeBrightness)) float_t _fromStrobeBrightness;
 
   /// @brief Field _toStrobeBrightness, offset 0x9c, size 0x4
-  __declspec(property(get = __get__toStrobeBrightness, put = __set__toStrobeBrightness)) float_t _toStrobeBrightness;
+  __declspec(property(get = __cordl_internal_get__toStrobeBrightness, put = __cordl_internal_set__toStrobeBrightness)) float_t _toStrobeBrightness;
 
   /// @brief Field _strobeFade, offset 0xa0, size 0x1
-  __declspec(property(get = __get__strobeFade, put = __set__strobeFade)) bool _strobeFade;
+  __declspec(property(get = __cordl_internal_get__strobeFade, put = __cordl_internal_set__strobeFade)) bool _strobeFade;
 
   /// @brief Field _usingBoostColors, offset 0xa1, size 0x1
-  __declspec(property(get = __get__usingBoostColors, put = __set__usingBoostColors)) bool _usingBoostColors;
+  __declspec(property(get = __cordl_internal_get__usingBoostColors, put = __cordl_internal_set__usingBoostColors)) bool _usingBoostColors;
 
-  constexpr ::GlobalNamespace::ColorManager*& __get__colorManager();
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __get__colorManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
 
-  constexpr void __set__colorManager(::GlobalNamespace::ColorManager* value);
+  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
 
-  constexpr int32_t& __get__lightId();
+  constexpr int32_t& __cordl_internal_get__lightId();
 
-  constexpr int32_t const& __get__lightId() const;
+  constexpr int32_t const& __cordl_internal_get__lightId() const;
 
-  constexpr void __set__lightId(int32_t value);
+  constexpr void __cordl_internal_set__lightId(int32_t value);
 
-  constexpr ::GlobalNamespace::LightWithIdManager*& __get__lightManager();
+  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager>& __cordl_internal_get__lightManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightWithIdManager*> const& __get__lightManager() const;
+  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager> const& __cordl_internal_get__lightManager() const;
 
-  constexpr void __set__lightManager(::GlobalNamespace::LightWithIdManager* value);
+  constexpr void __cordl_internal_set__lightManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
 
-  constexpr ::Tweening::SongTimeTweeningManager*& __get__tweeningManager();
+  constexpr ::UnityW<::Tweening::SongTimeTweeningManager>& __cordl_internal_get__tweeningManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::SongTimeTweeningManager*> const& __get__tweeningManager() const;
+  constexpr ::UnityW<::Tweening::SongTimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
-  constexpr void __set__tweeningManager(::Tweening::SongTimeTweeningManager* value);
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __get__beatmapCallbacksController();
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __get__beatmapCallbacksController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-  constexpr ::GlobalNamespace::IBpmController*& __get__bpmController();
+  constexpr ::GlobalNamespace::IBpmController*& __cordl_internal_get__bpmController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBpmController*> const& __get__bpmController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBpmController*> const& __cordl_internal_get__bpmController() const;
 
-  constexpr void __set__bpmController(::GlobalNamespace::IBpmController* value);
+  constexpr void __cordl_internal_set__bpmController(::GlobalNamespace::IBpmController* value);
 
-  constexpr ::Tweening::FloatTween*& __get__floatTween();
+  constexpr ::Tweening::FloatTween*& __cordl_internal_get__floatTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __get__floatTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::FloatTween*> const& __cordl_internal_get__floatTween() const;
 
-  constexpr void __set__floatTween(::Tweening::FloatTween* value);
+  constexpr void __cordl_internal_set__floatTween(::Tweening::FloatTween* value);
 
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __get__lightColorBeatmapEventCallbackWrapper();
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__lightColorBeatmapEventCallbackWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __get__lightColorBeatmapEventCallbackWrapper() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__lightColorBeatmapEventCallbackWrapper() const;
 
-  constexpr void __set__lightColorBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
+  constexpr void __cordl_internal_set__lightColorBeatmapEventCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  constexpr ::UnityEngine::Color& __get__fromColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__fromColor();
 
-  constexpr ::UnityEngine::Color const& __get__fromColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__fromColor() const;
 
-  constexpr void __set__fromColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__fromColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__toColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__toColor();
 
-  constexpr ::UnityEngine::Color const& __get__toColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__toColor() const;
 
-  constexpr void __set__toColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__toColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__alternativeFromColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__alternativeFromColor();
 
-  constexpr ::UnityEngine::Color const& __get__alternativeFromColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__alternativeFromColor() const;
 
-  constexpr void __set__alternativeFromColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__alternativeFromColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__alternativeToColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__alternativeToColor();
 
-  constexpr ::UnityEngine::Color const& __get__alternativeToColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__alternativeToColor() const;
 
-  constexpr void __set__alternativeToColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__alternativeToColor(::UnityEngine::Color value);
 
-  constexpr float_t& __get__fromStrobeFrequency();
+  constexpr float_t& __cordl_internal_get__fromStrobeFrequency();
 
-  constexpr float_t const& __get__fromStrobeFrequency() const;
+  constexpr float_t const& __cordl_internal_get__fromStrobeFrequency() const;
 
-  constexpr void __set__fromStrobeFrequency(float_t value);
+  constexpr void __cordl_internal_set__fromStrobeFrequency(float_t value);
 
-  constexpr float_t& __get__toStrobeFrequency();
+  constexpr float_t& __cordl_internal_get__toStrobeFrequency();
 
-  constexpr float_t const& __get__toStrobeFrequency() const;
+  constexpr float_t const& __cordl_internal_get__toStrobeFrequency() const;
 
-  constexpr void __set__toStrobeFrequency(float_t value);
+  constexpr void __cordl_internal_set__toStrobeFrequency(float_t value);
 
-  constexpr float_t& __get__fromStrobeBrightness();
+  constexpr float_t& __cordl_internal_get__fromStrobeBrightness();
 
-  constexpr float_t const& __get__fromStrobeBrightness() const;
+  constexpr float_t const& __cordl_internal_get__fromStrobeBrightness() const;
 
-  constexpr void __set__fromStrobeBrightness(float_t value);
+  constexpr void __cordl_internal_set__fromStrobeBrightness(float_t value);
 
-  constexpr float_t& __get__toStrobeBrightness();
+  constexpr float_t& __cordl_internal_get__toStrobeBrightness();
 
-  constexpr float_t const& __get__toStrobeBrightness() const;
+  constexpr float_t const& __cordl_internal_get__toStrobeBrightness() const;
 
-  constexpr void __set__toStrobeBrightness(float_t value);
+  constexpr void __cordl_internal_set__toStrobeBrightness(float_t value);
 
-  constexpr bool& __get__strobeFade();
+  constexpr bool& __cordl_internal_get__strobeFade();
 
-  constexpr bool const& __get__strobeFade() const;
+  constexpr bool const& __cordl_internal_get__strobeFade() const;
 
-  constexpr void __set__strobeFade(bool value);
+  constexpr void __cordl_internal_set__strobeFade(bool value);
 
-  constexpr bool& __get__usingBoostColors();
+  constexpr bool& __cordl_internal_get__usingBoostColors();
 
-  constexpr bool const& __get__usingBoostColors() const;
+  constexpr bool const& __cordl_internal_get__usingBoostColors() const;
 
-  constexpr void __set__usingBoostColors(bool value);
+  constexpr void __cordl_internal_set__usingBoostColors(bool value);
 
   static inline ::GlobalNamespace::LightColorGroupEffect* New_ctor(::GlobalNamespace::__LightColorGroupEffect__InitData* initData, ::GlobalNamespace::LightWithIdManager* lightManager,
                                                                    ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager,
@@ -350,10 +351,10 @@ public:
   int32_t ____lightId;
 
   /// @brief Field _lightManager, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::LightWithIdManager* ____lightManager;
+  ::UnityW<::GlobalNamespace::LightWithIdManager> ____lightManager;
 
   /// @brief Field _tweeningManager, offset: 0x28, size: 0x8, def value: None
-  ::Tweening::SongTimeTweeningManager* ____tweeningManager;
+  ::UnityW<::Tweening::SongTimeTweeningManager> ____tweeningManager;
 
   /// @brief Field _beatmapCallbacksController, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;

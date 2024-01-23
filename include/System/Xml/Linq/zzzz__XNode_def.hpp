@@ -24,20 +24,20 @@ MARK_REF_PTR_T(::System::Xml::Linq::XNode);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15454))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15454))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15453))
 // CS Name: ::System.Xml.Linq::XNode*
 class CORDL_TYPE XNode : public ::System::Xml::Linq::XObject {
 public:
   // Declarations
   /// @brief Field next, offset 0x20, size 0x8
-  __declspec(property(get = __get_next, put = __set_next))::System::Xml::Linq::XNode* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Xml::Linq::XNode* next;
 
-  constexpr ::System::Xml::Linq::XNode*& __get_next();
+  constexpr ::System::Xml::Linq::XNode*& __cordl_internal_get_next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XNode*> const& __get_next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XNode*> const& __cordl_internal_get_next() const;
 
-  constexpr void __set_next(::System::Xml::Linq::XNode* value);
+  constexpr void __cordl_internal_set_next(::System::Xml::Linq::XNode* value);
 
   static inline ::System::Xml::Linq::XNode* New_ctor();
 

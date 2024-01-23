@@ -28,32 +28,32 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::Drbg::HashSP800Drbg);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng::Drbg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1097))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng.Drbg::HashSP800Drbg*
 class CORDL_TYPE HashSP800Drbg : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mDigest, offset 0x10, size 0x8
-  __declspec(property(get = __get_mDigest, put = __set_mDigest))::Org::BouncyCastle::Crypto::IDigest* mDigest;
+  __declspec(property(get = __cordl_internal_get_mDigest, put = __cordl_internal_set_mDigest))::Org::BouncyCastle::Crypto::IDigest* mDigest;
 
   /// @brief Field mEntropySource, offset 0x18, size 0x8
-  __declspec(property(get = __get_mEntropySource, put = __set_mEntropySource))::Org::BouncyCastle::Crypto::IEntropySource* mEntropySource;
+  __declspec(property(get = __cordl_internal_get_mEntropySource, put = __cordl_internal_set_mEntropySource))::Org::BouncyCastle::Crypto::IEntropySource* mEntropySource;
 
   /// @brief Field mSecurityStrength, offset 0x20, size 0x4
-  __declspec(property(get = __get_mSecurityStrength, put = __set_mSecurityStrength)) int32_t mSecurityStrength;
+  __declspec(property(get = __cordl_internal_get_mSecurityStrength, put = __cordl_internal_set_mSecurityStrength)) int32_t mSecurityStrength;
 
   /// @brief Field mSeedLength, offset 0x24, size 0x4
-  __declspec(property(get = __get_mSeedLength, put = __set_mSeedLength)) int32_t mSeedLength;
+  __declspec(property(get = __cordl_internal_get_mSeedLength, put = __cordl_internal_set_mSeedLength)) int32_t mSeedLength;
 
   /// @brief Field mV, offset 0x28, size 0x8
-  __declspec(property(get = __get_mV, put = __set_mV))::ArrayW<uint8_t, ::Array<uint8_t>*> mV;
+  __declspec(property(get = __cordl_internal_get_mV, put = __cordl_internal_set_mV))::ArrayW<uint8_t, ::Array<uint8_t>*> mV;
 
   /// @brief Field mC, offset 0x30, size 0x8
-  __declspec(property(get = __get_mC, put = __set_mC))::ArrayW<uint8_t, ::Array<uint8_t>*> mC;
+  __declspec(property(get = __cordl_internal_get_mC, put = __cordl_internal_set_mC))::ArrayW<uint8_t, ::Array<uint8_t>*> mC;
 
   /// @brief Field mReseedCounter, offset 0x38, size 0x8
-  __declspec(property(get = __get_mReseedCounter, put = __set_mReseedCounter)) int64_t mReseedCounter;
+  __declspec(property(get = __cordl_internal_get_mReseedCounter, put = __cordl_internal_set_mReseedCounter)) int64_t mReseedCounter;
 
   /// @brief Field ONE, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ONE, put = setStaticF_ONE))::ArrayW<uint8_t, ::Array<uint8_t>*> ONE;
@@ -75,47 +75,47 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg"
   constexpr ::Org::BouncyCastle::Crypto::Prng::Drbg::ISP80090Drbg* i___Org__BouncyCastle__Crypto__Prng__Drbg__ISP80090Drbg() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_mDigest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mDigest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_mDigest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_mDigest() const;
 
-  constexpr void __set_mDigest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_mDigest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IEntropySource*& __get_mEntropySource();
+  constexpr ::Org::BouncyCastle::Crypto::IEntropySource*& __cordl_internal_get_mEntropySource();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IEntropySource*> const& __get_mEntropySource() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IEntropySource*> const& __cordl_internal_get_mEntropySource() const;
 
-  constexpr void __set_mEntropySource(::Org::BouncyCastle::Crypto::IEntropySource* value);
+  constexpr void __cordl_internal_set_mEntropySource(::Org::BouncyCastle::Crypto::IEntropySource* value);
 
-  constexpr int32_t& __get_mSecurityStrength();
+  constexpr int32_t& __cordl_internal_get_mSecurityStrength();
 
-  constexpr int32_t const& __get_mSecurityStrength() const;
+  constexpr int32_t const& __cordl_internal_get_mSecurityStrength() const;
 
-  constexpr void __set_mSecurityStrength(int32_t value);
+  constexpr void __cordl_internal_set_mSecurityStrength(int32_t value);
 
-  constexpr int32_t& __get_mSeedLength();
+  constexpr int32_t& __cordl_internal_get_mSeedLength();
 
-  constexpr int32_t const& __get_mSeedLength() const;
+  constexpr int32_t const& __cordl_internal_get_mSeedLength() const;
 
-  constexpr void __set_mSeedLength(int32_t value);
+  constexpr void __cordl_internal_set_mSeedLength(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mV();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mV();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mV() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mV() const;
 
-  constexpr void __set_mV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mC();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mC();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mC() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mC() const;
 
-  constexpr void __set_mC(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mC(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int64_t& __get_mReseedCounter();
+  constexpr int64_t& __cordl_internal_get_mReseedCounter();
 
-  constexpr int64_t const& __get_mReseedCounter() const;
+  constexpr int64_t const& __cordl_internal_get_mReseedCounter() const;
 
-  constexpr void __set_mReseedCounter(int64_t value);
+  constexpr void __cordl_internal_set_mReseedCounter(int64_t value);
 
   static inline void setStaticF_ONE(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

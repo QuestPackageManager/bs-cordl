@@ -48,7 +48,7 @@ MARK_VAL_T(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo);
 // SizeInfo { instance_size: 80, native_size: 80, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace IgnoranceCore {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15240))
 // CS Name: ::IgnoranceServer::ThreadParamInfo
 struct CORDL_TYPE __IgnoranceServer__ThreadParamInfo {
@@ -150,7 +150,7 @@ static_assert(offsetof(::IgnoranceCore::__IgnoranceServer__ThreadParamInfo, Priv
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace IgnoranceCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15241))
 // CS Name: ::IgnoranceCore::IgnoranceServer*
 class CORDL_TYPE IgnoranceServer : public ::System::Object {
@@ -159,231 +159,234 @@ public:
   using ThreadParamInfo = ::IgnoranceCore::__IgnoranceServer__ThreadParamInfo;
 
   /// @brief Field BindAddress, offset 0x10, size 0x8
-  __declspec(property(get = __get_BindAddress, put = __set_BindAddress))::StringW BindAddress;
+  __declspec(property(get = __cordl_internal_get_BindAddress, put = __cordl_internal_set_BindAddress))::StringW BindAddress;
 
   /// @brief Field BindPort, offset 0x18, size 0x4
-  __declspec(property(get = __get_BindPort, put = __set_BindPort)) int32_t BindPort;
+  __declspec(property(get = __cordl_internal_get_BindPort, put = __cordl_internal_set_BindPort)) int32_t BindPort;
 
   /// @brief Field MaximumChannels, offset 0x1c, size 0x4
-  __declspec(property(get = __get_MaximumChannels, put = __set_MaximumChannels)) int32_t MaximumChannels;
+  __declspec(property(get = __cordl_internal_get_MaximumChannels, put = __cordl_internal_set_MaximumChannels)) int32_t MaximumChannels;
 
   /// @brief Field MaximumPeers, offset 0x20, size 0x4
-  __declspec(property(get = __get_MaximumPeers, put = __set_MaximumPeers)) int32_t MaximumPeers;
+  __declspec(property(get = __cordl_internal_get_MaximumPeers, put = __cordl_internal_set_MaximumPeers)) int32_t MaximumPeers;
 
   /// @brief Field MaximumPacketSize, offset 0x24, size 0x4
-  __declspec(property(get = __get_MaximumPacketSize, put = __set_MaximumPacketSize)) int32_t MaximumPacketSize;
+  __declspec(property(get = __cordl_internal_get_MaximumPacketSize, put = __cordl_internal_set_MaximumPacketSize)) int32_t MaximumPacketSize;
 
   /// @brief Field PollTime, offset 0x28, size 0x4
-  __declspec(property(get = __get_PollTime, put = __set_PollTime)) int32_t PollTime;
+  __declspec(property(get = __cordl_internal_get_PollTime, put = __cordl_internal_set_PollTime)) int32_t PollTime;
 
   /// @brief Field Verbosity, offset 0x2c, size 0x4
-  __declspec(property(get = __get_Verbosity, put = __set_Verbosity)) int32_t Verbosity;
+  __declspec(property(get = __cordl_internal_get_Verbosity, put = __cordl_internal_set_Verbosity)) int32_t Verbosity;
 
   /// @brief Field IncomingOutgoingBufferSize, offset 0x30, size 0x4
-  __declspec(property(get = __get_IncomingOutgoingBufferSize, put = __set_IncomingOutgoingBufferSize)) int32_t IncomingOutgoingBufferSize;
+  __declspec(property(get = __cordl_internal_get_IncomingOutgoingBufferSize, put = __cordl_internal_set_IncomingOutgoingBufferSize)) int32_t IncomingOutgoingBufferSize;
 
   /// @brief Field ConnectionEventBufferSize, offset 0x34, size 0x4
-  __declspec(property(get = __get_ConnectionEventBufferSize, put = __set_ConnectionEventBufferSize)) int32_t ConnectionEventBufferSize;
+  __declspec(property(get = __cordl_internal_get_ConnectionEventBufferSize, put = __cordl_internal_set_ConnectionEventBufferSize)) int32_t ConnectionEventBufferSize;
 
   /// @brief Field IsFruityDevice, offset 0x38, size 0x1
-  __declspec(property(get = __get_IsFruityDevice, put = __set_IsFruityDevice)) bool IsFruityDevice;
+  __declspec(property(get = __cordl_internal_get_IsFruityDevice, put = __cordl_internal_set_IsFruityDevice)) bool IsFruityDevice;
 
   /// @brief Field BindAllInterfaces, offset 0x39, size 0x1
-  __declspec(property(get = __get_BindAllInterfaces, put = __set_BindAllInterfaces)) bool BindAllInterfaces;
+  __declspec(property(get = __cordl_internal_get_BindAllInterfaces, put = __cordl_internal_set_BindAllInterfaces)) bool BindAllInterfaces;
 
   /// @brief Field UseSsl, offset 0x3a, size 0x1
-  __declspec(property(get = __get_UseSsl, put = __set_UseSsl)) bool UseSsl;
+  __declspec(property(get = __cordl_internal_get_UseSsl, put = __cordl_internal_set_UseSsl)) bool UseSsl;
 
   /// @brief Field CertificatePath, offset 0x40, size 0x8
-  __declspec(property(get = __get_CertificatePath, put = __set_CertificatePath))::StringW CertificatePath;
+  __declspec(property(get = __cordl_internal_get_CertificatePath, put = __cordl_internal_set_CertificatePath))::StringW CertificatePath;
 
   /// @brief Field Certificate, offset 0x48, size 0x8
-  __declspec(property(get = __get_Certificate, put = __set_Certificate))::StringW Certificate;
+  __declspec(property(get = __cordl_internal_get_Certificate, put = __cordl_internal_set_Certificate))::StringW Certificate;
 
   /// @brief Field PrivateKeyPath, offset 0x50, size 0x8
-  __declspec(property(get = __get_PrivateKeyPath, put = __set_PrivateKeyPath))::StringW PrivateKeyPath;
+  __declspec(property(get = __cordl_internal_get_PrivateKeyPath, put = __cordl_internal_set_PrivateKeyPath))::StringW PrivateKeyPath;
 
   /// @brief Field PrivateKey, offset 0x58, size 0x8
-  __declspec(property(get = __get_PrivateKey, put = __set_PrivateKey))::StringW PrivateKey;
+  __declspec(property(get = __cordl_internal_get_PrivateKey, put = __cordl_internal_set_PrivateKey))::StringW PrivateKey;
 
   /// @brief Field CeaseOperation, offset 0x60, size 0x1
-  __declspec(property(get = __get_CeaseOperation, put = __set_CeaseOperation)) bool CeaseOperation;
+  __declspec(property(get = __cordl_internal_get_CeaseOperation, put = __cordl_internal_set_CeaseOperation)) bool CeaseOperation;
 
   /// @brief Field Incoming, offset 0x68, size 0x8
-  __declspec(property(get = __get_Incoming, put = __set_Incoming))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>* Incoming;
+  __declspec(property(get = __cordl_internal_get_Incoming, put = __cordl_internal_set_Incoming))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>* Incoming;
 
   /// @brief Field Outgoing, offset 0x70, size 0x8
-  __declspec(property(get = __get_Outgoing, put = __set_Outgoing))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>* Outgoing;
+  __declspec(property(get = __cordl_internal_get_Outgoing, put = __cordl_internal_set_Outgoing))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>* Outgoing;
 
   /// @brief Field Commands, offset 0x78, size 0x8
-  __declspec(property(get = __get_Commands, put = __set_Commands))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>* Commands;
+  __declspec(property(get = __cordl_internal_get_Commands, put = __cordl_internal_set_Commands))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>* Commands;
 
   /// @brief Field ConnectionEvents, offset 0x80, size 0x8
-  __declspec(property(get = __get_ConnectionEvents, put = __set_ConnectionEvents))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* ConnectionEvents;
+  __declspec(property(get = __cordl_internal_get_ConnectionEvents,
+                      put = __cordl_internal_set_ConnectionEvents))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* ConnectionEvents;
 
   /// @brief Field DisconnectionEvents, offset 0x88, size 0x8
-  __declspec(property(get = __get_DisconnectionEvents, put = __set_DisconnectionEvents))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* DisconnectionEvents;
+  __declspec(property(get = __cordl_internal_get_DisconnectionEvents,
+                      put = __cordl_internal_set_DisconnectionEvents))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* DisconnectionEvents;
 
   /// @brief Field StatusUpdates, offset 0x90, size 0x8
-  __declspec(property(get = __get_StatusUpdates, put = __set_StatusUpdates))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>* StatusUpdates;
+  __declspec(property(get = __cordl_internal_get_StatusUpdates, put = __cordl_internal_set_StatusUpdates))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>* StatusUpdates;
 
   /// @brief Field RecycledServerStatBlocks, offset 0x98, size 0x8
-  __declspec(property(get = __get_RecycledServerStatBlocks, put = __set_RecycledServerStatBlocks))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>* RecycledServerStatBlocks;
+  __declspec(property(get = __cordl_internal_get_RecycledServerStatBlocks,
+                      put = __cordl_internal_set_RecycledServerStatBlocks))::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>* RecycledServerStatBlocks;
 
   /// @brief Field WorkerThread, offset 0xa0, size 0x8
-  __declspec(property(get = __get_WorkerThread, put = __set_WorkerThread))::System::Threading::Thread* WorkerThread;
+  __declspec(property(get = __cordl_internal_get_WorkerThread, put = __cordl_internal_set_WorkerThread))::System::Threading::Thread* WorkerThread;
 
   __declspec(property(get = get_IsAlive)) bool IsAlive;
 
-  constexpr ::StringW& __get_BindAddress();
+  constexpr ::StringW& __cordl_internal_get_BindAddress();
 
-  constexpr ::StringW const& __get_BindAddress() const;
+  constexpr ::StringW const& __cordl_internal_get_BindAddress() const;
 
-  constexpr void __set_BindAddress(::StringW value);
+  constexpr void __cordl_internal_set_BindAddress(::StringW value);
 
-  constexpr int32_t& __get_BindPort();
+  constexpr int32_t& __cordl_internal_get_BindPort();
 
-  constexpr int32_t const& __get_BindPort() const;
+  constexpr int32_t const& __cordl_internal_get_BindPort() const;
 
-  constexpr void __set_BindPort(int32_t value);
+  constexpr void __cordl_internal_set_BindPort(int32_t value);
 
-  constexpr int32_t& __get_MaximumChannels();
+  constexpr int32_t& __cordl_internal_get_MaximumChannels();
 
-  constexpr int32_t const& __get_MaximumChannels() const;
+  constexpr int32_t const& __cordl_internal_get_MaximumChannels() const;
 
-  constexpr void __set_MaximumChannels(int32_t value);
+  constexpr void __cordl_internal_set_MaximumChannels(int32_t value);
 
-  constexpr int32_t& __get_MaximumPeers();
+  constexpr int32_t& __cordl_internal_get_MaximumPeers();
 
-  constexpr int32_t const& __get_MaximumPeers() const;
+  constexpr int32_t const& __cordl_internal_get_MaximumPeers() const;
 
-  constexpr void __set_MaximumPeers(int32_t value);
+  constexpr void __cordl_internal_set_MaximumPeers(int32_t value);
 
-  constexpr int32_t& __get_MaximumPacketSize();
+  constexpr int32_t& __cordl_internal_get_MaximumPacketSize();
 
-  constexpr int32_t const& __get_MaximumPacketSize() const;
+  constexpr int32_t const& __cordl_internal_get_MaximumPacketSize() const;
 
-  constexpr void __set_MaximumPacketSize(int32_t value);
+  constexpr void __cordl_internal_set_MaximumPacketSize(int32_t value);
 
-  constexpr int32_t& __get_PollTime();
+  constexpr int32_t& __cordl_internal_get_PollTime();
 
-  constexpr int32_t const& __get_PollTime() const;
+  constexpr int32_t const& __cordl_internal_get_PollTime() const;
 
-  constexpr void __set_PollTime(int32_t value);
+  constexpr void __cordl_internal_set_PollTime(int32_t value);
 
-  constexpr int32_t& __get_Verbosity();
+  constexpr int32_t& __cordl_internal_get_Verbosity();
 
-  constexpr int32_t const& __get_Verbosity() const;
+  constexpr int32_t const& __cordl_internal_get_Verbosity() const;
 
-  constexpr void __set_Verbosity(int32_t value);
+  constexpr void __cordl_internal_set_Verbosity(int32_t value);
 
-  constexpr int32_t& __get_IncomingOutgoingBufferSize();
+  constexpr int32_t& __cordl_internal_get_IncomingOutgoingBufferSize();
 
-  constexpr int32_t const& __get_IncomingOutgoingBufferSize() const;
+  constexpr int32_t const& __cordl_internal_get_IncomingOutgoingBufferSize() const;
 
-  constexpr void __set_IncomingOutgoingBufferSize(int32_t value);
+  constexpr void __cordl_internal_set_IncomingOutgoingBufferSize(int32_t value);
 
-  constexpr int32_t& __get_ConnectionEventBufferSize();
+  constexpr int32_t& __cordl_internal_get_ConnectionEventBufferSize();
 
-  constexpr int32_t const& __get_ConnectionEventBufferSize() const;
+  constexpr int32_t const& __cordl_internal_get_ConnectionEventBufferSize() const;
 
-  constexpr void __set_ConnectionEventBufferSize(int32_t value);
+  constexpr void __cordl_internal_set_ConnectionEventBufferSize(int32_t value);
 
-  constexpr bool& __get_IsFruityDevice();
+  constexpr bool& __cordl_internal_get_IsFruityDevice();
 
-  constexpr bool const& __get_IsFruityDevice() const;
+  constexpr bool const& __cordl_internal_get_IsFruityDevice() const;
 
-  constexpr void __set_IsFruityDevice(bool value);
+  constexpr void __cordl_internal_set_IsFruityDevice(bool value);
 
-  constexpr bool& __get_BindAllInterfaces();
+  constexpr bool& __cordl_internal_get_BindAllInterfaces();
 
-  constexpr bool const& __get_BindAllInterfaces() const;
+  constexpr bool const& __cordl_internal_get_BindAllInterfaces() const;
 
-  constexpr void __set_BindAllInterfaces(bool value);
+  constexpr void __cordl_internal_set_BindAllInterfaces(bool value);
 
-  constexpr bool& __get_UseSsl();
+  constexpr bool& __cordl_internal_get_UseSsl();
 
-  constexpr bool const& __get_UseSsl() const;
+  constexpr bool const& __cordl_internal_get_UseSsl() const;
 
-  constexpr void __set_UseSsl(bool value);
+  constexpr void __cordl_internal_set_UseSsl(bool value);
 
-  constexpr ::StringW& __get_CertificatePath();
+  constexpr ::StringW& __cordl_internal_get_CertificatePath();
 
-  constexpr ::StringW const& __get_CertificatePath() const;
+  constexpr ::StringW const& __cordl_internal_get_CertificatePath() const;
 
-  constexpr void __set_CertificatePath(::StringW value);
+  constexpr void __cordl_internal_set_CertificatePath(::StringW value);
 
-  constexpr ::StringW& __get_Certificate();
+  constexpr ::StringW& __cordl_internal_get_Certificate();
 
-  constexpr ::StringW const& __get_Certificate() const;
+  constexpr ::StringW const& __cordl_internal_get_Certificate() const;
 
-  constexpr void __set_Certificate(::StringW value);
+  constexpr void __cordl_internal_set_Certificate(::StringW value);
 
-  constexpr ::StringW& __get_PrivateKeyPath();
+  constexpr ::StringW& __cordl_internal_get_PrivateKeyPath();
 
-  constexpr ::StringW const& __get_PrivateKeyPath() const;
+  constexpr ::StringW const& __cordl_internal_get_PrivateKeyPath() const;
 
-  constexpr void __set_PrivateKeyPath(::StringW value);
+  constexpr void __cordl_internal_set_PrivateKeyPath(::StringW value);
 
-  constexpr ::StringW& __get_PrivateKey();
+  constexpr ::StringW& __cordl_internal_get_PrivateKey();
 
-  constexpr ::StringW const& __get_PrivateKey() const;
+  constexpr ::StringW const& __cordl_internal_get_PrivateKey() const;
 
-  constexpr void __set_PrivateKey(::StringW value);
+  constexpr void __cordl_internal_set_PrivateKey(::StringW value);
 
-  constexpr bool& __get_CeaseOperation();
+  constexpr bool& __cordl_internal_get_CeaseOperation();
 
-  constexpr bool const& __get_CeaseOperation() const;
+  constexpr bool const& __cordl_internal_get_CeaseOperation() const;
 
-  constexpr void __set_CeaseOperation(bool value);
+  constexpr void __cordl_internal_set_CeaseOperation(bool value);
 
-  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>*& __get_Incoming();
+  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>*& __cordl_internal_get_Incoming();
 
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>*> const& __get_Incoming() const;
+  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>*> const& __cordl_internal_get_Incoming() const;
 
-  constexpr void __set_Incoming(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>* value);
+  constexpr void __cordl_internal_set_Incoming(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceIncomingPacket>* value);
 
-  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>*& __get_Outgoing();
+  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>*& __cordl_internal_get_Outgoing();
 
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>*> const& __get_Outgoing() const;
+  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>*> const& __cordl_internal_get_Outgoing() const;
 
-  constexpr void __set_Outgoing(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>* value);
+  constexpr void __cordl_internal_set_Outgoing(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceOutgoingPacket>* value);
 
-  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>*& __get_Commands();
+  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>*& __cordl_internal_get_Commands();
 
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>*> const& __get_Commands() const;
+  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>*> const& __cordl_internal_get_Commands() const;
 
-  constexpr void __set_Commands(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>* value);
+  constexpr void __cordl_internal_set_Commands(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceCommandPacket>* value);
 
-  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*& __get_ConnectionEvents();
+  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*& __cordl_internal_get_ConnectionEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*> const& __get_ConnectionEvents() const;
+  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*> const& __cordl_internal_get_ConnectionEvents() const;
 
-  constexpr void __set_ConnectionEvents(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* value);
+  constexpr void __cordl_internal_set_ConnectionEvents(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* value);
 
-  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*& __get_DisconnectionEvents();
+  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*& __cordl_internal_get_DisconnectionEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*> const& __get_DisconnectionEvents() const;
+  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>*> const& __cordl_internal_get_DisconnectionEvents() const;
 
-  constexpr void __set_DisconnectionEvents(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* value);
+  constexpr void __cordl_internal_set_DisconnectionEvents(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceConnectionEvent>* value);
 
-  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*& __get_StatusUpdates();
+  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*& __cordl_internal_get_StatusUpdates();
 
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*> const& __get_StatusUpdates() const;
+  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*> const& __cordl_internal_get_StatusUpdates() const;
 
-  constexpr void __set_StatusUpdates(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>* value);
+  constexpr void __cordl_internal_set_StatusUpdates(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>* value);
 
-  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*& __get_RecycledServerStatBlocks();
+  constexpr ::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*& __cordl_internal_get_RecycledServerStatBlocks();
 
-  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*> const& __get_RecycledServerStatBlocks() const;
+  constexpr ::cordl_internals::to_const_pointer<::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>*> const& __cordl_internal_get_RecycledServerStatBlocks() const;
 
-  constexpr void __set_RecycledServerStatBlocks(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>* value);
+  constexpr void __cordl_internal_set_RecycledServerStatBlocks(::IgnoranceThirdparty::RingBuffer_1<::IgnoranceCore::IgnoranceServerStats>* value);
 
-  constexpr ::System::Threading::Thread*& __get_WorkerThread();
+  constexpr ::System::Threading::Thread*& __cordl_internal_get_WorkerThread();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __get_WorkerThread() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get_WorkerThread() const;
 
-  constexpr void __set_WorkerThread(::System::Threading::Thread* value);
+  constexpr void __cordl_internal_set_WorkerThread(::System::Threading::Thread* value);
 
   /// @brief Method get_IsAlive, addr 0x21f57f0, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsAlive();

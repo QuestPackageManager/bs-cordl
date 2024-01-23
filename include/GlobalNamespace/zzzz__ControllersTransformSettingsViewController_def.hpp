@@ -24,92 +24,92 @@ MARK_REF_PTR_T(::GlobalNamespace::ControllersTransformSettingsViewController);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5619))
 // CS Name: ::ControllersTransformSettingsViewController*
 class CORDL_TYPE ControllersTransformSettingsViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _controllerPosition, offset 0x70, size 0x8
-  __declspec(property(get = __get__controllerPosition, put = __set__controllerPosition))::GlobalNamespace::Vector3SO* _controllerPosition;
+  __declspec(property(get = __cordl_internal_get__controllerPosition, put = __cordl_internal_set__controllerPosition))::UnityW<::GlobalNamespace::Vector3SO> _controllerPosition;
 
   /// @brief Field _controllerRotation, offset 0x78, size 0x8
-  __declspec(property(get = __get__controllerRotation, put = __set__controllerRotation))::GlobalNamespace::Vector3SO* _controllerRotation;
+  __declspec(property(get = __cordl_internal_get__controllerRotation, put = __cordl_internal_set__controllerRotation))::UnityW<::GlobalNamespace::Vector3SO> _controllerRotation;
 
   /// @brief Field _posXSlider, offset 0x80, size 0x8
-  __declspec(property(get = __get__posXSlider, put = __set__posXSlider))::HMUI::RangeValuesTextSlider* _posXSlider;
+  __declspec(property(get = __cordl_internal_get__posXSlider, put = __cordl_internal_set__posXSlider))::UnityW<::HMUI::RangeValuesTextSlider> _posXSlider;
 
   /// @brief Field _posYSlider, offset 0x88, size 0x8
-  __declspec(property(get = __get__posYSlider, put = __set__posYSlider))::HMUI::RangeValuesTextSlider* _posYSlider;
+  __declspec(property(get = __cordl_internal_get__posYSlider, put = __cordl_internal_set__posYSlider))::UnityW<::HMUI::RangeValuesTextSlider> _posYSlider;
 
   /// @brief Field _posZSlider, offset 0x90, size 0x8
-  __declspec(property(get = __get__posZSlider, put = __set__posZSlider))::HMUI::RangeValuesTextSlider* _posZSlider;
+  __declspec(property(get = __cordl_internal_get__posZSlider, put = __cordl_internal_set__posZSlider))::UnityW<::HMUI::RangeValuesTextSlider> _posZSlider;
 
   /// @brief Field _rotXSlider, offset 0x98, size 0x8
-  __declspec(property(get = __get__rotXSlider, put = __set__rotXSlider))::HMUI::RangeValuesTextSlider* _rotXSlider;
+  __declspec(property(get = __cordl_internal_get__rotXSlider, put = __cordl_internal_set__rotXSlider))::UnityW<::HMUI::RangeValuesTextSlider> _rotXSlider;
 
   /// @brief Field _rotYSlider, offset 0xa0, size 0x8
-  __declspec(property(get = __get__rotYSlider, put = __set__rotYSlider))::HMUI::RangeValuesTextSlider* _rotYSlider;
+  __declspec(property(get = __cordl_internal_get__rotYSlider, put = __cordl_internal_set__rotYSlider))::UnityW<::HMUI::RangeValuesTextSlider> _rotYSlider;
 
   /// @brief Field _rotZSlider, offset 0xa8, size 0x8
-  __declspec(property(get = __get__rotZSlider, put = __set__rotZSlider))::HMUI::RangeValuesTextSlider* _rotZSlider;
+  __declspec(property(get = __cordl_internal_get__rotZSlider, put = __cordl_internal_set__rotZSlider))::UnityW<::HMUI::RangeValuesTextSlider> _rotZSlider;
 
   /// @brief Field _vrPlatformHelper, offset 0xb0, size 0x8
-  __declspec(property(get = __get__vrPlatformHelper, put = __set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  constexpr ::GlobalNamespace::Vector3SO*& __get__controllerPosition();
+  constexpr ::UnityW<::GlobalNamespace::Vector3SO>& __cordl_internal_get__controllerPosition();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Vector3SO*> const& __get__controllerPosition() const;
+  constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& __cordl_internal_get__controllerPosition() const;
 
-  constexpr void __set__controllerPosition(::GlobalNamespace::Vector3SO* value);
+  constexpr void __cordl_internal_set__controllerPosition(::UnityW<::GlobalNamespace::Vector3SO> value);
 
-  constexpr ::GlobalNamespace::Vector3SO*& __get__controllerRotation();
+  constexpr ::UnityW<::GlobalNamespace::Vector3SO>& __cordl_internal_get__controllerRotation();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Vector3SO*> const& __get__controllerRotation() const;
+  constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& __cordl_internal_get__controllerRotation() const;
 
-  constexpr void __set__controllerRotation(::GlobalNamespace::Vector3SO* value);
+  constexpr void __cordl_internal_set__controllerRotation(::UnityW<::GlobalNamespace::Vector3SO> value);
 
-  constexpr ::HMUI::RangeValuesTextSlider*& __get__posXSlider();
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__posXSlider();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::RangeValuesTextSlider*> const& __get__posXSlider() const;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__posXSlider() const;
 
-  constexpr void __set__posXSlider(::HMUI::RangeValuesTextSlider* value);
+  constexpr void __cordl_internal_set__posXSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
 
-  constexpr ::HMUI::RangeValuesTextSlider*& __get__posYSlider();
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__posYSlider();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::RangeValuesTextSlider*> const& __get__posYSlider() const;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__posYSlider() const;
 
-  constexpr void __set__posYSlider(::HMUI::RangeValuesTextSlider* value);
+  constexpr void __cordl_internal_set__posYSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
 
-  constexpr ::HMUI::RangeValuesTextSlider*& __get__posZSlider();
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__posZSlider();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::RangeValuesTextSlider*> const& __get__posZSlider() const;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__posZSlider() const;
 
-  constexpr void __set__posZSlider(::HMUI::RangeValuesTextSlider* value);
+  constexpr void __cordl_internal_set__posZSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
 
-  constexpr ::HMUI::RangeValuesTextSlider*& __get__rotXSlider();
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__rotXSlider();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::RangeValuesTextSlider*> const& __get__rotXSlider() const;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__rotXSlider() const;
 
-  constexpr void __set__rotXSlider(::HMUI::RangeValuesTextSlider* value);
+  constexpr void __cordl_internal_set__rotXSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
 
-  constexpr ::HMUI::RangeValuesTextSlider*& __get__rotYSlider();
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__rotYSlider();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::RangeValuesTextSlider*> const& __get__rotYSlider() const;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__rotYSlider() const;
 
-  constexpr void __set__rotYSlider(::HMUI::RangeValuesTextSlider* value);
+  constexpr void __cordl_internal_set__rotYSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
 
-  constexpr ::HMUI::RangeValuesTextSlider*& __get__rotZSlider();
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__rotZSlider();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::RangeValuesTextSlider*> const& __get__rotZSlider() const;
+  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__rotZSlider() const;
 
-  constexpr void __set__rotZSlider(::HMUI::RangeValuesTextSlider* value);
+  constexpr void __cordl_internal_set__rotZSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper*& __get__vrPlatformHelper();
+  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __get__vrPlatformHelper() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
 
-  constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
   /// @brief Method DidActivate, addr 0x22ae914, size 0x570, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -146,28 +146,28 @@ protected:
 
 public:
   /// @brief Field _controllerPosition, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::Vector3SO* ____controllerPosition;
+  ::UnityW<::GlobalNamespace::Vector3SO> ____controllerPosition;
 
   /// @brief Field _controllerRotation, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::Vector3SO* ____controllerRotation;
+  ::UnityW<::GlobalNamespace::Vector3SO> ____controllerRotation;
 
   /// @brief Field _posXSlider, offset: 0x80, size: 0x8, def value: None
-  ::HMUI::RangeValuesTextSlider* ____posXSlider;
+  ::UnityW<::HMUI::RangeValuesTextSlider> ____posXSlider;
 
   /// @brief Field _posYSlider, offset: 0x88, size: 0x8, def value: None
-  ::HMUI::RangeValuesTextSlider* ____posYSlider;
+  ::UnityW<::HMUI::RangeValuesTextSlider> ____posYSlider;
 
   /// @brief Field _posZSlider, offset: 0x90, size: 0x8, def value: None
-  ::HMUI::RangeValuesTextSlider* ____posZSlider;
+  ::UnityW<::HMUI::RangeValuesTextSlider> ____posZSlider;
 
   /// @brief Field _rotXSlider, offset: 0x98, size: 0x8, def value: None
-  ::HMUI::RangeValuesTextSlider* ____rotXSlider;
+  ::UnityW<::HMUI::RangeValuesTextSlider> ____rotXSlider;
 
   /// @brief Field _rotYSlider, offset: 0xa0, size: 0x8, def value: None
-  ::HMUI::RangeValuesTextSlider* ____rotYSlider;
+  ::UnityW<::HMUI::RangeValuesTextSlider> ____rotYSlider;
 
   /// @brief Field _rotZSlider, offset: 0xa8, size: 0x8, def value: None
-  ::HMUI::RangeValuesTextSlider* ____rotZSlider;
+  ::UnityW<::HMUI::RangeValuesTextSlider> ____rotZSlider;
 
   /// @brief Field _vrPlatformHelper, offset: 0xb0, size: 0x8, def value: None
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;

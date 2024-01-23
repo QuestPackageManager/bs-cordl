@@ -16,10 +16,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x22cc348;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>::get(), "add_playerActiveStateChangedEvent",
-        std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<bool>*>::get() })));
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<bool>*>::get() })));
     return ___internal_method;
   }
 };
@@ -31,10 +31,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x22cc3f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>::get(), "remove_playerActiveStateChangedEvent",
-        std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<bool>*>::get() })));
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<bool>*>::get() })));
     return ___internal_method;
   }
 };
@@ -46,10 +46,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x13c;
   constexpr static std::size_t addrs = 0x22cc4a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>::get(), "SetLevelGameplaySetupData", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILevelGameplaySetupData*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>::get(), "SetLevelGameplaySetupData",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILevelGameplaySetupData*>::get() })));
     return ___internal_method;
   }
 };
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x22cc5e4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>::get(),
@@ -77,7 +77,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x22cc6a4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>::get(),
@@ -93,7 +93,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x22cc740;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>::get(),
@@ -109,7 +109,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x22cc75c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>::get(),
@@ -125,10 +125,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x22cc778;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -140,90 +140,90 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x22cc7e0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>::get(), "<DidActivate>b__9_0",
-                                    std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::BeatmapSelectionView*& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get__beatmapSelectionView() {
+constexpr ::UnityW<::GlobalNamespace::BeatmapSelectionView>& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__cordl_internal_get__beatmapSelectionView() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapSelectionView;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapSelectionView*> const& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get__beatmapSelectionView() const {
+constexpr ::UnityW<::GlobalNamespace::BeatmapSelectionView> const& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__cordl_internal_get__beatmapSelectionView() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapSelectionView;
 }
-constexpr void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__set__beatmapSelectionView(::GlobalNamespace::BeatmapSelectionView* value) {
+constexpr void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__cordl_internal_set__beatmapSelectionView(::UnityW<::GlobalNamespace::BeatmapSelectionView> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapSelectionView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::ModifiersSelectionView*& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get__modifiersSelectionView() {
+constexpr ::UnityW<::GlobalNamespace::ModifiersSelectionView>& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__cordl_internal_get__modifiersSelectionView() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiersSelectionView;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ModifiersSelectionView*> const&
-GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get__modifiersSelectionView() const {
+constexpr ::UnityW<::GlobalNamespace::ModifiersSelectionView> const& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__cordl_internal_get__modifiersSelectionView() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____modifiersSelectionView;
 }
-constexpr void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__set__modifiersSelectionView(::GlobalNamespace::ModifiersSelectionView* value) {
+constexpr void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__cordl_internal_set__modifiersSelectionView(::UnityW<::GlobalNamespace::ModifiersSelectionView> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____modifiersSelectionView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get__spectateToggle() {
+constexpr ::UnityW<::UnityEngine::UI::Toggle>& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__cordl_internal_get__spectateToggle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectateToggle;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get__spectateToggle() const {
+constexpr ::UnityW<::UnityEngine::UI::Toggle> const& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__cordl_internal_get__spectateToggle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectateToggle;
 }
-constexpr void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__set__spectateToggle(::UnityEngine::UI::Toggle* value) {
+constexpr void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__cordl_internal_set__spectateToggle(::UnityW<::UnityEngine::UI::Toggle> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spectateToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<bool>*& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get_playerActiveStateChangedEvent() {
+constexpr ::System::Action_1<bool>*& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__cordl_internal_get_playerActiveStateChangedEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerActiveStateChangedEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get_playerActiveStateChangedEvent() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const&
+GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__cordl_internal_get_playerActiveStateChangedEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playerActiveStateChangedEvent;
 }
-constexpr void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__set_playerActiveStateChangedEvent(::System::Action_1<bool>* value) {
+constexpr void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__cordl_internal_set_playerActiveStateChangedEvent(::System::Action_1<bool>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___playerActiveStateChangedEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::ToggleBinder*& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get__toggleBinder() {
+constexpr ::HMUI::ToggleBinder*& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__cordl_internal_get__toggleBinder() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__get__toggleBinder() const {
+constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__cordl_internal_get__toggleBinder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
-constexpr void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__set__toggleBinder(::HMUI::ToggleBinder* value) {
+constexpr void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::__cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::add_playerActiveStateChangedEvent(::System::Action_1<bool>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>::get(), "add_playerActiveStateChangedEvent",
-      std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<bool>*>::get() })));
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<bool>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::remove_playerActiveStateChangedEvent(::System::Action_1<bool>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>::get(), "remove_playerActiveStateChangedEvent",
-      std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<bool>*>::get() })));
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<bool>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::SetLevelGameplaySetupData(::GlobalNamespace::ILevelGameplaySetupData* levelGameplaySetupData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>::get(), "SetLevelGameplaySetupData", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILevelGameplaySetupData*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>::get(), "SetLevelGameplaySetupData",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ILevelGameplaySetupData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelGameplaySetupData);
 }
 inline void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::SetLobbyPlayerData(::GlobalNamespace::ILobbyPlayerData* lobbyPlayerData) {
@@ -251,18 +251,18 @@ inline void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::On
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController* GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>());
 }
 inline void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::BaseMultiplayerStartGameCountdownViewController::_DidActivate_b__9_0(bool value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseMultiplayerStartGameCountdownViewController*>::get(), "<DidActivate>b__9_0",
-                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 // Ctor Parameters []

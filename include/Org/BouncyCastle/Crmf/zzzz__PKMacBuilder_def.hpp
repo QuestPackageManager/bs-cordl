@@ -31,83 +31,83 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::PKMacBuilder);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(711))
 // CS Name: ::Org.BouncyCastle.Crmf::PKMacBuilder*
 class CORDL_TYPE PKMacBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field owf, offset 0x10, size 0x8
-  __declspec(property(get = __get_owf, put = __set_owf))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf;
+  __declspec(property(get = __cordl_internal_get_owf, put = __cordl_internal_set_owf))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf;
 
   /// @brief Field mac, offset 0x18, size 0x8
-  __declspec(property(get = __get_mac, put = __set_mac))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mac;
+  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* mac;
 
   /// @brief Field provider, offset 0x20, size 0x8
-  __declspec(property(get = __get_provider, put = __set_provider))::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider;
+  __declspec(property(get = __cordl_internal_get_provider, put = __cordl_internal_set_provider))::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* provider;
 
   /// @brief Field random, offset 0x28, size 0x8
-  __declspec(property(get = __get_random, put = __set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
 
   /// @brief Field parameters, offset 0x30, size 0x8
-  __declspec(property(get = __get_parameters, put = __set_parameters))::Org::BouncyCastle::Asn1::Cmp::PbmParameter* parameters;
+  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::Org::BouncyCastle::Asn1::Cmp::PbmParameter* parameters;
 
   /// @brief Field iterationCount, offset 0x38, size 0x4
-  __declspec(property(get = __get_iterationCount, put = __set_iterationCount)) int32_t iterationCount;
+  __declspec(property(get = __cordl_internal_get_iterationCount, put = __cordl_internal_set_iterationCount)) int32_t iterationCount;
 
   /// @brief Field saltLength, offset 0x3c, size 0x4
-  __declspec(property(get = __get_saltLength, put = __set_saltLength)) int32_t saltLength;
+  __declspec(property(get = __cordl_internal_get_saltLength, put = __cordl_internal_set_saltLength)) int32_t saltLength;
 
   /// @brief Field maxIterations, offset 0x40, size 0x4
-  __declspec(property(get = __get_maxIterations, put = __set_maxIterations)) int32_t maxIterations;
+  __declspec(property(get = __cordl_internal_get_maxIterations, put = __cordl_internal_set_maxIterations)) int32_t maxIterations;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_owf();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_owf();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_owf() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_owf() const;
 
-  constexpr void __set_owf(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_owf(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_mac();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_mac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_mac() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_mac() const;
 
-  constexpr void __set_mac(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_mac(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*& __get_provider();
+  constexpr ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*& __cordl_internal_get_provider();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*> const& __get_provider() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*> const& __cordl_internal_get_provider() const;
 
-  constexpr void __set_provider(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* value);
+  constexpr void __cordl_internal_set_provider(::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider* value);
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_random();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_random() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
-  constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PbmParameter*& __get_parameters();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PbmParameter*& __cordl_internal_get_parameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PbmParameter*> const& __get_parameters() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PbmParameter*> const& __cordl_internal_get_parameters() const;
 
-  constexpr void __set_parameters(::Org::BouncyCastle::Asn1::Cmp::PbmParameter* value);
+  constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Asn1::Cmp::PbmParameter* value);
 
-  constexpr int32_t& __get_iterationCount();
+  constexpr int32_t& __cordl_internal_get_iterationCount();
 
-  constexpr int32_t const& __get_iterationCount() const;
+  constexpr int32_t const& __cordl_internal_get_iterationCount() const;
 
-  constexpr void __set_iterationCount(int32_t value);
+  constexpr void __cordl_internal_set_iterationCount(int32_t value);
 
-  constexpr int32_t& __get_saltLength();
+  constexpr int32_t& __cordl_internal_get_saltLength();
 
-  constexpr int32_t const& __get_saltLength() const;
+  constexpr int32_t const& __cordl_internal_get_saltLength() const;
 
-  constexpr void __set_saltLength(int32_t value);
+  constexpr void __cordl_internal_set_saltLength(int32_t value);
 
-  constexpr int32_t& __get_maxIterations();
+  constexpr int32_t& __cordl_internal_get_maxIterations();
 
-  constexpr int32_t const& __get_maxIterations() const;
+  constexpr int32_t const& __cordl_internal_get_maxIterations() const;
 
-  constexpr void __set_maxIterations(int32_t value);
+  constexpr void __cordl_internal_set_maxIterations(int32_t value);
 
   static inline ::Org::BouncyCastle::Crmf::PKMacBuilder* New_ctor();
 

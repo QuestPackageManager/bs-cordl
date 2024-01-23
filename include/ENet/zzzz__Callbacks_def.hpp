@@ -27,22 +27,22 @@ MARK_REF_PTR_T(::ENet::Callbacks);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15220)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15220))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15231))
 // CS Name: ::ENet::Callbacks*
 class CORDL_TYPE Callbacks : public ::System::Object {
 public:
   // Declarations
   /// @brief Field nativeCallbacks, offset 0x10, size 0x18
-  __declspec(property(get = __get_nativeCallbacks, put = __set_nativeCallbacks))::ENet::ENetCallbacks nativeCallbacks;
+  __declspec(property(get = __cordl_internal_get_nativeCallbacks, put = __cordl_internal_set_nativeCallbacks))::ENet::ENetCallbacks nativeCallbacks;
 
   __declspec(property(get = get_NativeData, put = set_NativeData))::ENet::ENetCallbacks NativeData;
 
-  constexpr ::ENet::ENetCallbacks& __get_nativeCallbacks();
+  constexpr ::ENet::ENetCallbacks& __cordl_internal_get_nativeCallbacks();
 
-  constexpr ::ENet::ENetCallbacks const& __get_nativeCallbacks() const;
+  constexpr ::ENet::ENetCallbacks const& __cordl_internal_get_nativeCallbacks() const;
 
-  constexpr void __set_nativeCallbacks(::ENet::ENetCallbacks value);
+  constexpr void __cordl_internal_set_nativeCallbacks(::ENet::ENetCallbacks value);
 
   /// @brief Method get_NativeData, addr 0x21efe4c, size 0x14, virtual false, abstract: false, final false
   inline ::ENet::ENetCallbacks get_NativeData();

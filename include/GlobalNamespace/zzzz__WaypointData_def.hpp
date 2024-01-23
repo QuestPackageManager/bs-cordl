@@ -27,20 +27,21 @@ MARK_REF_PTR_T(::GlobalNamespace::WaypointData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14762)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14751)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(14762))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14768))
 // CS Name: ::WaypointData*
 class CORDL_TYPE WaypointData : public ::GlobalNamespace::BeatmapObjectData {
 public:
   // Declarations
   /// @brief Field <offsetDirection>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __get__offsetDirection_k__BackingField, put = __set__offsetDirection_k__BackingField))::GlobalNamespace::OffsetDirection _offsetDirection_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__offsetDirection_k__BackingField,
+                      put = __cordl_internal_set__offsetDirection_k__BackingField))::GlobalNamespace::OffsetDirection _offsetDirection_k__BackingField;
 
   /// @brief Field <lineIndex>k__BackingField, offset 0x24, size 0x4
-  __declspec(property(get = __get__lineIndex_k__BackingField, put = __set__lineIndex_k__BackingField)) int32_t _lineIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lineIndex_k__BackingField, put = __cordl_internal_set__lineIndex_k__BackingField)) int32_t _lineIndex_k__BackingField;
 
   /// @brief Field <lineLayer>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__lineLayer_k__BackingField, put = __set__lineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _lineLayer_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lineLayer_k__BackingField, put = __cordl_internal_set__lineLayer_k__BackingField))::GlobalNamespace::NoteLineLayer _lineLayer_k__BackingField;
 
   __declspec(property(get = get_offsetDirection, put = set_offsetDirection))::GlobalNamespace::OffsetDirection offsetDirection;
 
@@ -48,23 +49,23 @@ public:
 
   __declspec(property(get = get_lineLayer, put = set_lineLayer))::GlobalNamespace::NoteLineLayer lineLayer;
 
-  constexpr ::GlobalNamespace::OffsetDirection& __get__offsetDirection_k__BackingField();
+  constexpr ::GlobalNamespace::OffsetDirection& __cordl_internal_get__offsetDirection_k__BackingField();
 
-  constexpr ::GlobalNamespace::OffsetDirection const& __get__offsetDirection_k__BackingField() const;
+  constexpr ::GlobalNamespace::OffsetDirection const& __cordl_internal_get__offsetDirection_k__BackingField() const;
 
-  constexpr void __set__offsetDirection_k__BackingField(::GlobalNamespace::OffsetDirection value);
+  constexpr void __cordl_internal_set__offsetDirection_k__BackingField(::GlobalNamespace::OffsetDirection value);
 
-  constexpr int32_t& __get__lineIndex_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__lineIndex_k__BackingField();
 
-  constexpr int32_t const& __get__lineIndex_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__lineIndex_k__BackingField() const;
 
-  constexpr void __set__lineIndex_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__lineIndex_k__BackingField(int32_t value);
 
-  constexpr ::GlobalNamespace::NoteLineLayer& __get__lineLayer_k__BackingField();
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get__lineLayer_k__BackingField();
 
-  constexpr ::GlobalNamespace::NoteLineLayer const& __get__lineLayer_k__BackingField() const;
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get__lineLayer_k__BackingField() const;
 
-  constexpr void __set__lineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
+  constexpr void __cordl_internal_set__lineLayer_k__BackingField(::GlobalNamespace::NoteLineLayer value);
 
   /// @brief Method get_offsetDirection, addr 0xe01ca4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OffsetDirection get_offsetDirection();

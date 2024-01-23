@@ -51,20 +51,20 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::TraceJsonReader);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11833))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11833))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11910))
 // CS Name: ::Newtonsoft.Json.Serialization::TraceJsonReader*
 class CORDL_TYPE TraceJsonReader : public ::Newtonsoft::Json::JsonReader {
 public:
   // Declarations
   /// @brief Field _innerReader, offset 0x78, size 0x8
-  __declspec(property(get = __get__innerReader, put = __set__innerReader))::Newtonsoft::Json::JsonReader* _innerReader;
+  __declspec(property(get = __cordl_internal_get__innerReader, put = __cordl_internal_set__innerReader))::Newtonsoft::Json::JsonReader* _innerReader;
 
   /// @brief Field _textWriter, offset 0x80, size 0x8
-  __declspec(property(get = __get__textWriter, put = __set__textWriter))::Newtonsoft::Json::JsonTextWriter* _textWriter;
+  __declspec(property(get = __cordl_internal_get__textWriter, put = __cordl_internal_set__textWriter))::Newtonsoft::Json::JsonTextWriter* _textWriter;
 
   /// @brief Field _sw, offset 0x88, size 0x8
-  __declspec(property(get = __get__sw, put = __set__sw))::System::IO::StringWriter* _sw;
+  __declspec(property(get = __cordl_internal_get__sw, put = __cordl_internal_set__sw))::System::IO::StringWriter* _sw;
 
   __declspec(property(get = get_Depth)) int32_t Depth;
 
@@ -88,23 +88,23 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
 
-  constexpr ::Newtonsoft::Json::JsonReader*& __get__innerReader();
+  constexpr ::Newtonsoft::Json::JsonReader*& __cordl_internal_get__innerReader();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonReader*> const& __get__innerReader() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonReader*> const& __cordl_internal_get__innerReader() const;
 
-  constexpr void __set__innerReader(::Newtonsoft::Json::JsonReader* value);
+  constexpr void __cordl_internal_set__innerReader(::Newtonsoft::Json::JsonReader* value);
 
-  constexpr ::Newtonsoft::Json::JsonTextWriter*& __get__textWriter();
+  constexpr ::Newtonsoft::Json::JsonTextWriter*& __cordl_internal_get__textWriter();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonTextWriter*> const& __get__textWriter() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::JsonTextWriter*> const& __cordl_internal_get__textWriter() const;
 
-  constexpr void __set__textWriter(::Newtonsoft::Json::JsonTextWriter* value);
+  constexpr void __cordl_internal_set__textWriter(::Newtonsoft::Json::JsonTextWriter* value);
 
-  constexpr ::System::IO::StringWriter*& __get__sw();
+  constexpr ::System::IO::StringWriter*& __cordl_internal_get__sw();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::StringWriter*> const& __get__sw() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::StringWriter*> const& __cordl_internal_get__sw() const;
 
-  constexpr void __set__sw(::System::IO::StringWriter* value);
+  constexpr void __cordl_internal_set__sw(::System::IO::StringWriter* value);
 
   static inline ::Newtonsoft::Json::Serialization::TraceJsonReader* New_ctor(::Newtonsoft::Json::JsonReader* innerReader);
 

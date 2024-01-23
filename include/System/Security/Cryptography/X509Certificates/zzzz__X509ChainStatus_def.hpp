@@ -19,7 +19,7 @@ MARK_VAL_T(::System::Security::Cryptography::X509Certificates::X509ChainStatus);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8982))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8982))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9009))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509ChainStatus
 struct CORDL_TYPE X509ChainStatus {

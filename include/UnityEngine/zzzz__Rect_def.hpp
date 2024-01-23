@@ -35,7 +35,7 @@ MARK_VAL_T(::UnityEngine::Rect);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10165))
 // CS Name: ::UnityEngine::Rect
 struct CORDL_TYPE Rect {

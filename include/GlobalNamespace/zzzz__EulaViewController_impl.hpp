@@ -30,32 +30,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x22b059c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController__InitData*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-constexpr bool& GlobalNamespace::__EulaViewController__InitData::__get_showDoNotAgreeButton() {
+constexpr bool& GlobalNamespace::__EulaViewController__InitData::__cordl_internal_get_showDoNotAgreeButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showDoNotAgreeButton;
 }
-constexpr bool const& GlobalNamespace::__EulaViewController__InitData::__get_showDoNotAgreeButton() const {
+constexpr bool const& GlobalNamespace::__EulaViewController__InitData::__cordl_internal_get_showDoNotAgreeButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___showDoNotAgreeButton;
 }
-constexpr void GlobalNamespace::__EulaViewController__InitData::__set_showDoNotAgreeButton(bool value) {
+constexpr void GlobalNamespace::__EulaViewController__InitData::__cordl_internal_set_showDoNotAgreeButton(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___showDoNotAgreeButton = value;
 }
 inline ::GlobalNamespace::__EulaViewController__InitData* GlobalNamespace::__EulaViewController__InitData::New_ctor(bool showDoNotAgreeButton) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__EulaViewController__InitData*>(showDoNotAgreeButton));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__EulaViewController__InitData*>(showDoNotAgreeButton));
 }
 inline void GlobalNamespace::__EulaViewController__InitData::_ctor(bool showDoNotAgreeButton) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController__InitData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController__InitData*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, showDoNotAgreeButton);
 }
 // Ctor Parameters []
@@ -68,10 +68,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x22b0504;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -83,10 +83,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x22b05c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21*>::get(),
-                                                 "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -98,10 +98,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x17c;
   constexpr static std::size_t addrs = 0x22b05c8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21*>::get(), "MoveNext",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -113,10 +113,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x22b0744;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21*>::get(),
-                                                 "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21*>::get(),
+                                    "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -128,10 +128,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x22b074c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21*>::get(),
-                                                 "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -143,10 +143,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x22b078c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21*>::get(),
-                                                 "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -175,115 +175,115 @@ constexpr GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::
 constexpr ::System::IDisposable* GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr int32_t& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__get___1__state() {
+constexpr int32_t& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__get___1__state() const {
+constexpr int32_t const& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__set___1__state(int32_t value) {
+constexpr void GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__get___2__current() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::EulaViewController*& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::EulaViewController>& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EulaViewController*> const& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::EulaViewController> const& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__set___4__this(::GlobalNamespace::EulaViewController* value) {
+constexpr void GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::EulaViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__get_delay() {
+constexpr float_t& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_get_delay() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
-constexpr float_t const& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__get_delay() const {
+constexpr float_t const& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_get_delay() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___delay;
 }
-constexpr void GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__set_delay(float_t value) {
+constexpr void GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_set_delay(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___delay = value;
 }
-constexpr float_t& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__get__startProgressBarWidth_5__2() {
+constexpr float_t& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_get__startProgressBarWidth_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startProgressBarWidth_5__2;
 }
-constexpr float_t const& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__get__startProgressBarWidth_5__2() const {
+constexpr float_t const& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_get__startProgressBarWidth_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____startProgressBarWidth_5__2;
 }
-constexpr void GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__set__startProgressBarWidth_5__2(float_t value) {
+constexpr void GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_set__startProgressBarWidth_5__2(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____startProgressBarWidth_5__2 = value;
 }
-constexpr float_t& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__get__elapsedTime_5__3() {
+constexpr float_t& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_get__elapsedTime_5__3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_5__3;
 }
-constexpr float_t const& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__get__elapsedTime_5__3() const {
+constexpr float_t const& GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_get__elapsedTime_5__3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elapsedTime_5__3;
 }
-constexpr void GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__set__elapsedTime_5__3(float_t value) {
+constexpr void GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::__cordl_internal_set__elapsedTime_5__3(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____elapsedTime_5__3 = value;
 }
 inline ::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21* GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21*>(__1__state));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21*>(__1__state));
 }
 inline void GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
 inline void GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::System_IDisposable_Dispose() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21*>::get(),
-                                               "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21*>::get(), "MoveNext",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::System::Object* GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21*>::get(),
-                                               "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21*>::get(),
+                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Object* GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__EulaViewController___EnableButtonsCoroutine_d__21*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -296,10 +296,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x22aff24;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), "add_didFinishEvent", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*>::get() })));
     return ___internal_method;
   }
 };
@@ -311,10 +311,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x22affd4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), "remove_didFinishEvent", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*>::get() })));
     return ___internal_method;
   }
 };
@@ -326,7 +326,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x334;
   constexpr static std::size_t addrs = 0x22b0084;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), 5));
@@ -340,7 +340,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc0;
   constexpr static std::size_t addrs = 0x22b0430;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), 6));
@@ -354,10 +354,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x22b04f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), "Init", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -369,10 +369,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x22b03b8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), "EnableButtonsCoroutine",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), "EnableButtonsCoroutine",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -383,9 +383,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x22b052c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -396,9 +396,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x22b053c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(),
-                                                                               "<DidActivate>b__18_0", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "<DidActivate>b__18_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -409,9 +409,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x22b055c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(),
-                                                                               "<DidActivate>b__18_1", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "<DidActivate>b__18_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -422,190 +422,191 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x22b057c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(),
-                                                                               "<DidActivate>b__18_2", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "<DidActivate>b__18_2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::UI::Button*& GlobalNamespace::EulaViewController::__get__agreeButton() {
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::EulaViewController::__cordl_internal_get__agreeButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____agreeButton;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::EulaViewController::__get__agreeButton() const {
+constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::EulaViewController::__cordl_internal_get__agreeButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____agreeButton;
 }
-constexpr void GlobalNamespace::EulaViewController::__set__agreeButton(::UnityEngine::UI::Button* value) {
+constexpr void GlobalNamespace::EulaViewController::__cordl_internal_set__agreeButton(::UnityW<::UnityEngine::UI::Button> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____agreeButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Button*& GlobalNamespace::EulaViewController::__get__doNotAgreeButton() {
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::EulaViewController::__cordl_internal_get__doNotAgreeButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____doNotAgreeButton;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::EulaViewController::__get__doNotAgreeButton() const {
+constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::EulaViewController::__cordl_internal_get__doNotAgreeButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____doNotAgreeButton;
 }
-constexpr void GlobalNamespace::EulaViewController::__set__doNotAgreeButton(::UnityEngine::UI::Button* value) {
+constexpr void GlobalNamespace::EulaViewController::__cordl_internal_set__doNotAgreeButton(::UnityW<::UnityEngine::UI::Button> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____doNotAgreeButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Button*& GlobalNamespace::EulaViewController::__get__continueButton() {
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::EulaViewController::__cordl_internal_get__continueButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____continueButton;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::EulaViewController::__get__continueButton() const {
+constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::EulaViewController::__cordl_internal_get__continueButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____continueButton;
 }
-constexpr void GlobalNamespace::EulaViewController::__set__continueButton(::UnityEngine::UI::Button* value) {
+constexpr void GlobalNamespace::EulaViewController::__cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____continueButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Image*& GlobalNamespace::EulaViewController::__get__disableButtonsProgress() {
+constexpr ::UnityW<::UnityEngine::UI::Image>& GlobalNamespace::EulaViewController::__cordl_internal_get__disableButtonsProgress() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disableButtonsProgress;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& GlobalNamespace::EulaViewController::__get__disableButtonsProgress() const {
+constexpr ::UnityW<::UnityEngine::UI::Image> const& GlobalNamespace::EulaViewController::__cordl_internal_get__disableButtonsProgress() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disableButtonsProgress;
 }
-constexpr void GlobalNamespace::EulaViewController::__set__disableButtonsProgress(::UnityEngine::UI::Image* value) {
+constexpr void GlobalNamespace::EulaViewController::__cordl_internal_set__disableButtonsProgress(::UnityW<::UnityEngine::UI::Image> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disableButtonsProgress)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::EulaViewController::__get__disabledButtonDelay() {
+constexpr float_t& GlobalNamespace::EulaViewController::__cordl_internal_get__disabledButtonDelay() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledButtonDelay;
 }
-constexpr float_t const& GlobalNamespace::EulaViewController::__get__disabledButtonDelay() const {
+constexpr float_t const& GlobalNamespace::EulaViewController::__cordl_internal_get__disabledButtonDelay() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledButtonDelay;
 }
-constexpr void GlobalNamespace::EulaViewController::__set__disabledButtonDelay(float_t value) {
+constexpr void GlobalNamespace::EulaViewController::__cordl_internal_set__disabledButtonDelay(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disabledButtonDelay = value;
 }
-constexpr ::HMUI::TextPageScrollView*& GlobalNamespace::EulaViewController::__get__textPageScrollView() {
+constexpr ::UnityW<::HMUI::TextPageScrollView>& GlobalNamespace::EulaViewController::__cordl_internal_get__textPageScrollView() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textPageScrollView;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::TextPageScrollView*> const& GlobalNamespace::EulaViewController::__get__textPageScrollView() const {
+constexpr ::UnityW<::HMUI::TextPageScrollView> const& GlobalNamespace::EulaViewController::__cordl_internal_get__textPageScrollView() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textPageScrollView;
 }
-constexpr void GlobalNamespace::EulaViewController::__set__textPageScrollView(::HMUI::TextPageScrollView* value) {
+constexpr void GlobalNamespace::EulaViewController::__cordl_internal_set__textPageScrollView(::UnityW<::HMUI::TextPageScrollView> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____textPageScrollView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::LocalizedTextAsset*& GlobalNamespace::EulaViewController::__get__eulaLocalizedTextAsset() {
+constexpr ::UnityW<::GlobalNamespace::LocalizedTextAsset>& GlobalNamespace::EulaViewController::__cordl_internal_get__eulaLocalizedTextAsset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eulaLocalizedTextAsset;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LocalizedTextAsset*> const& GlobalNamespace::EulaViewController::__get__eulaLocalizedTextAsset() const {
+constexpr ::UnityW<::GlobalNamespace::LocalizedTextAsset> const& GlobalNamespace::EulaViewController::__cordl_internal_get__eulaLocalizedTextAsset() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____eulaLocalizedTextAsset;
 }
-constexpr void GlobalNamespace::EulaViewController::__set__eulaLocalizedTextAsset(::GlobalNamespace::LocalizedTextAsset* value) {
+constexpr void GlobalNamespace::EulaViewController::__cordl_internal_set__eulaLocalizedTextAsset(::UnityW<::GlobalNamespace::LocalizedTextAsset> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____eulaLocalizedTextAsset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::EulaViewController::__get__updateNoticeLocalizationKey() {
+constexpr ::StringW& GlobalNamespace::EulaViewController::__cordl_internal_get__updateNoticeLocalizationKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updateNoticeLocalizationKey;
 }
-constexpr ::StringW const& GlobalNamespace::EulaViewController::__get__updateNoticeLocalizationKey() const {
+constexpr ::StringW const& GlobalNamespace::EulaViewController::__cordl_internal_get__updateNoticeLocalizationKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____updateNoticeLocalizationKey;
 }
-constexpr void GlobalNamespace::EulaViewController::__set__updateNoticeLocalizationKey(::StringW value) {
+constexpr void GlobalNamespace::EulaViewController::__cordl_internal_set__updateNoticeLocalizationKey(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____updateNoticeLocalizationKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::__EulaViewController__InitData*& GlobalNamespace::EulaViewController::__get__initData() {
+constexpr ::GlobalNamespace::__EulaViewController__InitData*& GlobalNamespace::EulaViewController::__cordl_internal_get__initData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__EulaViewController__InitData*> const& GlobalNamespace::EulaViewController::__get__initData() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__EulaViewController__InitData*> const& GlobalNamespace::EulaViewController::__cordl_internal_get__initData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initData;
 }
-constexpr void GlobalNamespace::EulaViewController::__set__initData(::GlobalNamespace::__EulaViewController__InitData* value) {
+constexpr void GlobalNamespace::EulaViewController::__cordl_internal_set__initData(::GlobalNamespace::__EulaViewController__InitData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::ICoroutineStarter*& GlobalNamespace::EulaViewController::__get__coroutineStarter() {
+constexpr ::GlobalNamespace::ICoroutineStarter*& GlobalNamespace::EulaViewController::__cordl_internal_get__coroutineStarter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coroutineStarter;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& GlobalNamespace::EulaViewController::__get__coroutineStarter() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ICoroutineStarter*> const& GlobalNamespace::EulaViewController::__cordl_internal_get__coroutineStarter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____coroutineStarter;
 }
-constexpr void GlobalNamespace::EulaViewController::__set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value) {
+constexpr void GlobalNamespace::EulaViewController::__cordl_internal_set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____coroutineStarter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*& GlobalNamespace::EulaViewController::__get_didFinishEvent() {
+constexpr ::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*& GlobalNamespace::EulaViewController::__cordl_internal_get_didFinishEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*> const& GlobalNamespace::EulaViewController::__get_didFinishEvent() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*> const&
+GlobalNamespace::EulaViewController::__cordl_internal_get_didFinishEvent() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___didFinishEvent;
 }
-constexpr void GlobalNamespace::EulaViewController::__set_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value) {
+constexpr void GlobalNamespace::EulaViewController::__cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didFinishEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::EulaViewController::__get__showUpdate() {
+constexpr bool& GlobalNamespace::EulaViewController::__cordl_internal_get__showUpdate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showUpdate;
 }
-constexpr bool const& GlobalNamespace::EulaViewController::__get__showUpdate() const {
+constexpr bool const& GlobalNamespace::EulaViewController::__cordl_internal_get__showUpdate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showUpdate;
 }
-constexpr void GlobalNamespace::EulaViewController::__set__showUpdate(bool value) {
+constexpr void GlobalNamespace::EulaViewController::__cordl_internal_set__showUpdate(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____showUpdate = value;
 }
-constexpr bool& GlobalNamespace::EulaViewController::__get__showOnlyContinueButton() {
+constexpr bool& GlobalNamespace::EulaViewController::__cordl_internal_get__showOnlyContinueButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showOnlyContinueButton;
 }
-constexpr bool const& GlobalNamespace::EulaViewController::__get__showOnlyContinueButton() const {
+constexpr bool const& GlobalNamespace::EulaViewController::__cordl_internal_get__showOnlyContinueButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showOnlyContinueButton;
 }
-constexpr void GlobalNamespace::EulaViewController::__set__showOnlyContinueButton(bool value) {
+constexpr void GlobalNamespace::EulaViewController::__cordl_internal_set__showOnlyContinueButton(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____showOnlyContinueButton = value;
 }
-constexpr ::UnityEngine::Coroutine*& GlobalNamespace::EulaViewController::__get__buttonsCoroutine() {
+constexpr ::UnityEngine::Coroutine*& GlobalNamespace::EulaViewController::__cordl_internal_get__buttonsCoroutine() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonsCoroutine;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& GlobalNamespace::EulaViewController::__get__buttonsCoroutine() const {
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& GlobalNamespace::EulaViewController::__cordl_internal_get__buttonsCoroutine() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____buttonsCoroutine;
 }
-constexpr void GlobalNamespace::EulaViewController::__set__buttonsCoroutine(::UnityEngine::Coroutine* value) {
+constexpr void GlobalNamespace::EulaViewController::__cordl_internal_set__buttonsCoroutine(::UnityEngine::Coroutine* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____buttonsCoroutine)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::EulaViewController::add_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), "add_didFinishEvent", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), "add_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::EulaViewController::remove_didFinishEvent(::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), "remove_didFinishEvent", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::__EulaViewController__ButtonType>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::EulaViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
@@ -620,37 +621,37 @@ inline void GlobalNamespace::EulaViewController::DidDeactivate(bool removedFromH
 }
 inline void GlobalNamespace::EulaViewController::Init(bool showUpdate, bool showOnlyContinueButton) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), "Init", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, showUpdate, showOnlyContinueButton);
 }
 inline ::System::Collections::IEnumerator* GlobalNamespace::EulaViewController::EnableButtonsCoroutine(float_t delay) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), "EnableButtonsCoroutine",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method, delay);
 }
 inline ::GlobalNamespace::EulaViewController* GlobalNamespace::EulaViewController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::EulaViewController*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EulaViewController*>());
 }
 inline void GlobalNamespace::EulaViewController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::EulaViewController::_DidActivate_b__18_0() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(),
-                                                                             "<DidActivate>b__18_0", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "<DidActivate>b__18_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::EulaViewController::_DidActivate_b__18_1() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(),
-                                                                             "<DidActivate>b__18_1", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "<DidActivate>b__18_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::EulaViewController::_DidActivate_b__18_2() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EulaViewController*>::get(),
-                                                                             "<DidActivate>b__18_2", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "<DidActivate>b__18_2", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

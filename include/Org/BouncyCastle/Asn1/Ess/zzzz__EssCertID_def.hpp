@@ -31,31 +31,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ess::EssCertID);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ess {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(162))
 // CS Name: ::Org.BouncyCastle.Asn1.Ess::EssCertID*
 class CORDL_TYPE EssCertID : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field certHash, offset 0x10, size 0x8
-  __declspec(property(get = __get_certHash, put = __set_certHash))::Org::BouncyCastle::Asn1::Asn1OctetString* certHash;
+  __declspec(property(get = __cordl_internal_get_certHash, put = __cordl_internal_set_certHash))::Org::BouncyCastle::Asn1::Asn1OctetString* certHash;
 
   /// @brief Field issuerSerial, offset 0x18, size 0x8
-  __declspec(property(get = __get_issuerSerial, put = __set_issuerSerial))::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial;
+  __declspec(property(get = __cordl_internal_get_issuerSerial, put = __cordl_internal_set_issuerSerial))::Org::BouncyCastle::Asn1::X509::IssuerSerial* issuerSerial;
 
   __declspec(property(get = get_IssuerSerial))::Org::BouncyCastle::Asn1::X509::IssuerSerial* IssuerSerial;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_certHash();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_certHash();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_certHash() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_certHash() const;
 
-  constexpr void __set_certHash(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_certHash(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial*& __get_issuerSerial();
+  constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial*& __cordl_internal_get_issuerSerial();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::IssuerSerial*> const& __get_issuerSerial() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::IssuerSerial*> const& __cordl_internal_get_issuerSerial() const;
 
-  constexpr void __set_issuerSerial(::Org::BouncyCastle::Asn1::X509::IssuerSerial* value);
+  constexpr void __cordl_internal_set_issuerSerial(::Org::BouncyCastle::Asn1::X509::IssuerSerial* value);
 
   /// @brief Method GetInstance, addr 0xe99ea0, size 0x190, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ess::EssCertID* GetInstance(::System::Object* o);

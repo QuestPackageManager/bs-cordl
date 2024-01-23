@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Text::__ASCIIEncoding__ASCIIEncodingSealed);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2826))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2826))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2825))
 // CS Name: ::ASCIIEncoding::ASCIIEncodingSealed*
 class CORDL_TYPE __ASCIIEncoding__ASCIIEncodingSealed : public ::System::Text::ASCIIEncoding {

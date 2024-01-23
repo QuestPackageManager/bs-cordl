@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::UnityEngine::TextCore::Text::FontAssetUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13728))
 // CS Name: ::UnityEngine.TextCore.Text::FontAssetUtilities*
 class CORDL_TYPE FontAssetUtilities : public ::System::Object {
@@ -65,7 +65,7 @@ public:
 
   /// @brief Method GetCharacterFromFontAssets, addr 0x2d4af24, size 0x1b8, virtual false, abstract: false, final false
   static inline ::UnityEngine::TextCore::Text::Character* GetCharacterFromFontAssets(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* sourceFontAsset,
-                                                                                     ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* fontAssets,
+                                                                                     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* fontAssets,
                                                                                      bool includeFallbacks, ::UnityEngine::TextCore::Text::FontStyles fontStyle,
                                                                                      ::UnityEngine::TextCore::Text::TextFontWeight fontWeight, ByRef<bool> isAlternativeTypeface);
 

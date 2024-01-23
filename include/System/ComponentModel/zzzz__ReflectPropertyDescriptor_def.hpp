@@ -51,47 +51,47 @@ MARK_REF_PTR_T(::System::ComponentModel::ReflectPropertyDescriptor);
 // SizeInfo { instance_size: 224, native_size: -1, calculated_instance_size: 224, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9444)), TypeDefinitionIndex(TypeDefinitionIndex(9507))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9444)), TypeDefinitionIndex(TypeDefinitionIndex(9507))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9475))
 // CS Name: ::System.ComponentModel::ReflectPropertyDescriptor*
 class CORDL_TYPE ReflectPropertyDescriptor : public ::System::ComponentModel::PropertyDescriptor {
 public:
   // Declarations
   /// @brief Field state, offset 0x84, size 0x4
-  __declspec(property(get = __get_state, put = __set_state))::System::Collections::Specialized::BitVector32 state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::Collections::Specialized::BitVector32 state;
 
   /// @brief Field componentClass, offset 0x88, size 0x8
-  __declspec(property(get = __get_componentClass, put = __set_componentClass))::System::Type* componentClass;
+  __declspec(property(get = __cordl_internal_get_componentClass, put = __cordl_internal_set_componentClass))::System::Type* componentClass;
 
   /// @brief Field type, offset 0x90, size 0x8
-  __declspec(property(get = __get_type, put = __set_type))::System::Type* type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
 
   /// @brief Field defaultValue, offset 0x98, size 0x8
-  __declspec(property(get = __get_defaultValue, put = __set_defaultValue))::System::Object* defaultValue;
+  __declspec(property(get = __cordl_internal_get_defaultValue, put = __cordl_internal_set_defaultValue))::System::Object* defaultValue;
 
   /// @brief Field ambientValue, offset 0xa0, size 0x8
-  __declspec(property(get = __get_ambientValue, put = __set_ambientValue))::System::Object* ambientValue;
+  __declspec(property(get = __cordl_internal_get_ambientValue, put = __cordl_internal_set_ambientValue))::System::Object* ambientValue;
 
   /// @brief Field propInfo, offset 0xa8, size 0x8
-  __declspec(property(get = __get_propInfo, put = __set_propInfo))::System::Reflection::PropertyInfo* propInfo;
+  __declspec(property(get = __cordl_internal_get_propInfo, put = __cordl_internal_set_propInfo))::System::Reflection::PropertyInfo* propInfo;
 
   /// @brief Field getMethod, offset 0xb0, size 0x8
-  __declspec(property(get = __get_getMethod, put = __set_getMethod))::System::Reflection::MethodInfo* getMethod;
+  __declspec(property(get = __cordl_internal_get_getMethod, put = __cordl_internal_set_getMethod))::System::Reflection::MethodInfo* getMethod;
 
   /// @brief Field setMethod, offset 0xb8, size 0x8
-  __declspec(property(get = __get_setMethod, put = __set_setMethod))::System::Reflection::MethodInfo* setMethod;
+  __declspec(property(get = __cordl_internal_get_setMethod, put = __cordl_internal_set_setMethod))::System::Reflection::MethodInfo* setMethod;
 
   /// @brief Field shouldSerializeMethod, offset 0xc0, size 0x8
-  __declspec(property(get = __get_shouldSerializeMethod, put = __set_shouldSerializeMethod))::System::Reflection::MethodInfo* shouldSerializeMethod;
+  __declspec(property(get = __cordl_internal_get_shouldSerializeMethod, put = __cordl_internal_set_shouldSerializeMethod))::System::Reflection::MethodInfo* shouldSerializeMethod;
 
   /// @brief Field resetMethod, offset 0xc8, size 0x8
-  __declspec(property(get = __get_resetMethod, put = __set_resetMethod))::System::Reflection::MethodInfo* resetMethod;
+  __declspec(property(get = __cordl_internal_get_resetMethod, put = __cordl_internal_set_resetMethod))::System::Reflection::MethodInfo* resetMethod;
 
   /// @brief Field realChangedEvent, offset 0xd0, size 0x8
-  __declspec(property(get = __get_realChangedEvent, put = __set_realChangedEvent))::System::ComponentModel::EventDescriptor* realChangedEvent;
+  __declspec(property(get = __cordl_internal_get_realChangedEvent, put = __cordl_internal_set_realChangedEvent))::System::ComponentModel::EventDescriptor* realChangedEvent;
 
   /// @brief Field receiverType, offset 0xd8, size 0x8
-  __declspec(property(get = __get_receiverType, put = __set_receiverType))::System::Type* receiverType;
+  __declspec(property(get = __cordl_internal_get_receiverType, put = __cordl_internal_set_receiverType))::System::Type* receiverType;
 
   /// @brief Field argsNone, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_argsNone, put = setStaticF_argsNone))::ArrayW<::System::Type*, ::Array<::System::Type*>*> argsNone;
@@ -155,77 +155,77 @@ public:
 
   __declspec(property(get = get_ShouldSerializeMethodValue))::System::Reflection::MethodInfo* ShouldSerializeMethodValue;
 
-  constexpr ::System::Collections::Specialized::BitVector32& __get_state();
+  constexpr ::System::Collections::Specialized::BitVector32& __cordl_internal_get_state();
 
-  constexpr ::System::Collections::Specialized::BitVector32 const& __get_state() const;
+  constexpr ::System::Collections::Specialized::BitVector32 const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(::System::Collections::Specialized::BitVector32 value);
+  constexpr void __cordl_internal_set_state(::System::Collections::Specialized::BitVector32 value);
 
-  constexpr ::System::Type*& __get_componentClass();
+  constexpr ::System::Type*& __cordl_internal_get_componentClass();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_componentClass() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_componentClass() const;
 
-  constexpr void __set_componentClass(::System::Type* value);
+  constexpr void __cordl_internal_set_componentClass(::System::Type* value);
 
-  constexpr ::System::Type*& __get_type();
+  constexpr ::System::Type*& __cordl_internal_get_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Type* value);
+  constexpr void __cordl_internal_set_type(::System::Type* value);
 
-  constexpr ::System::Object*& __get_defaultValue();
+  constexpr ::System::Object*& __cordl_internal_get_defaultValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_defaultValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_defaultValue() const;
 
-  constexpr void __set_defaultValue(::System::Object* value);
+  constexpr void __cordl_internal_set_defaultValue(::System::Object* value);
 
-  constexpr ::System::Object*& __get_ambientValue();
+  constexpr ::System::Object*& __cordl_internal_get_ambientValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_ambientValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_ambientValue() const;
 
-  constexpr void __set_ambientValue(::System::Object* value);
+  constexpr void __cordl_internal_set_ambientValue(::System::Object* value);
 
-  constexpr ::System::Reflection::PropertyInfo*& __get_propInfo();
+  constexpr ::System::Reflection::PropertyInfo*& __cordl_internal_get_propInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const& __get_propInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const& __cordl_internal_get_propInfo() const;
 
-  constexpr void __set_propInfo(::System::Reflection::PropertyInfo* value);
+  constexpr void __cordl_internal_set_propInfo(::System::Reflection::PropertyInfo* value);
 
-  constexpr ::System::Reflection::MethodInfo*& __get_getMethod();
+  constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_getMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __get_getMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_getMethod() const;
 
-  constexpr void __set_getMethod(::System::Reflection::MethodInfo* value);
+  constexpr void __cordl_internal_set_getMethod(::System::Reflection::MethodInfo* value);
 
-  constexpr ::System::Reflection::MethodInfo*& __get_setMethod();
+  constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_setMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __get_setMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_setMethod() const;
 
-  constexpr void __set_setMethod(::System::Reflection::MethodInfo* value);
+  constexpr void __cordl_internal_set_setMethod(::System::Reflection::MethodInfo* value);
 
-  constexpr ::System::Reflection::MethodInfo*& __get_shouldSerializeMethod();
+  constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_shouldSerializeMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __get_shouldSerializeMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_shouldSerializeMethod() const;
 
-  constexpr void __set_shouldSerializeMethod(::System::Reflection::MethodInfo* value);
+  constexpr void __cordl_internal_set_shouldSerializeMethod(::System::Reflection::MethodInfo* value);
 
-  constexpr ::System::Reflection::MethodInfo*& __get_resetMethod();
+  constexpr ::System::Reflection::MethodInfo*& __cordl_internal_get_resetMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __get_resetMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::MethodInfo*> const& __cordl_internal_get_resetMethod() const;
 
-  constexpr void __set_resetMethod(::System::Reflection::MethodInfo* value);
+  constexpr void __cordl_internal_set_resetMethod(::System::Reflection::MethodInfo* value);
 
-  constexpr ::System::ComponentModel::EventDescriptor*& __get_realChangedEvent();
+  constexpr ::System::ComponentModel::EventDescriptor*& __cordl_internal_get_realChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::EventDescriptor*> const& __get_realChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::EventDescriptor*> const& __cordl_internal_get_realChangedEvent() const;
 
-  constexpr void __set_realChangedEvent(::System::ComponentModel::EventDescriptor* value);
+  constexpr void __cordl_internal_set_realChangedEvent(::System::ComponentModel::EventDescriptor* value);
 
-  constexpr ::System::Type*& __get_receiverType();
+  constexpr ::System::Type*& __cordl_internal_get_receiverType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_receiverType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_receiverType() const;
 
-  constexpr void __set_receiverType(::System::Type* value);
+  constexpr void __cordl_internal_set_receiverType(::System::Type* value);
 
   static inline void setStaticF_argsNone(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 

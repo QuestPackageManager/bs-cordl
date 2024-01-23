@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::ChaCha20Poly1305);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(962))
 // CS Name: ::ChaCha20Poly1305::State
 struct CORDL_TYPE __ChaCha20Poly1305__State {
@@ -116,7 +116,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__S
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(962))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(962)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(963))
 // CS Name: ::Org.BouncyCastle.Crypto.Modes::ChaCha20Poly1305*
 class CORDL_TYPE ChaCha20Poly1305 : public ::System::Object {
@@ -125,37 +125,37 @@ public:
   using State = ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State;
 
   /// @brief Field mChacha20, offset 0x10, size 0x8
-  __declspec(property(get = __get_mChacha20, put = __set_mChacha20))::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* mChacha20;
+  __declspec(property(get = __cordl_internal_get_mChacha20, put = __cordl_internal_set_mChacha20))::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* mChacha20;
 
   /// @brief Field mPoly1305, offset 0x18, size 0x8
-  __declspec(property(get = __get_mPoly1305, put = __set_mPoly1305))::Org::BouncyCastle::Crypto::IMac* mPoly1305;
+  __declspec(property(get = __cordl_internal_get_mPoly1305, put = __cordl_internal_set_mPoly1305))::Org::BouncyCastle::Crypto::IMac* mPoly1305;
 
   /// @brief Field mKey, offset 0x20, size 0x8
-  __declspec(property(get = __get_mKey, put = __set_mKey))::ArrayW<uint8_t, ::Array<uint8_t>*> mKey;
+  __declspec(property(get = __cordl_internal_get_mKey, put = __cordl_internal_set_mKey))::ArrayW<uint8_t, ::Array<uint8_t>*> mKey;
 
   /// @brief Field mNonce, offset 0x28, size 0x8
-  __declspec(property(get = __get_mNonce, put = __set_mNonce))::ArrayW<uint8_t, ::Array<uint8_t>*> mNonce;
+  __declspec(property(get = __cordl_internal_get_mNonce, put = __cordl_internal_set_mNonce))::ArrayW<uint8_t, ::Array<uint8_t>*> mNonce;
 
   /// @brief Field mBuf, offset 0x30, size 0x8
-  __declspec(property(get = __get_mBuf, put = __set_mBuf))::ArrayW<uint8_t, ::Array<uint8_t>*> mBuf;
+  __declspec(property(get = __cordl_internal_get_mBuf, put = __cordl_internal_set_mBuf))::ArrayW<uint8_t, ::Array<uint8_t>*> mBuf;
 
   /// @brief Field mMac, offset 0x38, size 0x8
-  __declspec(property(get = __get_mMac, put = __set_mMac))::ArrayW<uint8_t, ::Array<uint8_t>*> mMac;
+  __declspec(property(get = __cordl_internal_get_mMac, put = __cordl_internal_set_mMac))::ArrayW<uint8_t, ::Array<uint8_t>*> mMac;
 
   /// @brief Field mInitialAad, offset 0x40, size 0x8
-  __declspec(property(get = __get_mInitialAad, put = __set_mInitialAad))::ArrayW<uint8_t, ::Array<uint8_t>*> mInitialAad;
+  __declspec(property(get = __cordl_internal_get_mInitialAad, put = __cordl_internal_set_mInitialAad))::ArrayW<uint8_t, ::Array<uint8_t>*> mInitialAad;
 
   /// @brief Field mAadCount, offset 0x48, size 0x8
-  __declspec(property(get = __get_mAadCount, put = __set_mAadCount)) uint64_t mAadCount;
+  __declspec(property(get = __cordl_internal_get_mAadCount, put = __cordl_internal_set_mAadCount)) uint64_t mAadCount;
 
   /// @brief Field mDataCount, offset 0x50, size 0x8
-  __declspec(property(get = __get_mDataCount, put = __set_mDataCount)) uint64_t mDataCount;
+  __declspec(property(get = __cordl_internal_get_mDataCount, put = __cordl_internal_set_mDataCount)) uint64_t mDataCount;
 
   /// @brief Field mState, offset 0x58, size 0x4
-  __declspec(property(get = __get_mState, put = __set_mState))::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State mState;
+  __declspec(property(get = __cordl_internal_get_mState, put = __cordl_internal_set_mState))::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State mState;
 
   /// @brief Field mBufPos, offset 0x5c, size 0x4
-  __declspec(property(get = __get_mBufPos, put = __set_mBufPos)) int32_t mBufPos;
+  __declspec(property(get = __cordl_internal_get_mBufPos, put = __cordl_internal_set_mBufPos)) int32_t mBufPos;
 
   /// @brief Field Zeroes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Zeroes, put = setStaticF_Zeroes))::ArrayW<uint8_t, ::Array<uint8_t>*> Zeroes;
@@ -168,71 +168,71 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
   constexpr ::Org::BouncyCastle::Crypto::Modes::IAeadCipher* i___Org__BouncyCastle__Crypto__Modes__IAeadCipher() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*& __get_mChacha20();
+  constexpr ::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*& __cordl_internal_get_mChacha20();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*> const& __get_mChacha20() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*> const& __cordl_internal_get_mChacha20() const;
 
-  constexpr void __set_mChacha20(::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* value);
+  constexpr void __cordl_internal_set_mChacha20(::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IMac*& __get_mPoly1305();
+  constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_mPoly1305();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __get_mPoly1305() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __cordl_internal_get_mPoly1305() const;
 
-  constexpr void __set_mPoly1305(::Org::BouncyCastle::Crypto::IMac* value);
+  constexpr void __cordl_internal_set_mPoly1305(::Org::BouncyCastle::Crypto::IMac* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mKey() const;
 
-  constexpr void __set_mKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mNonce();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mNonce();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mNonce() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mNonce() const;
 
-  constexpr void __set_mNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mBuf();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mBuf();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mBuf() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mBuf() const;
 
-  constexpr void __set_mBuf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mBuf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mMac();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mMac();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mMac() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mMac() const;
 
-  constexpr void __set_mMac(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mMac(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mInitialAad();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mInitialAad();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mInitialAad() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mInitialAad() const;
 
-  constexpr void __set_mInitialAad(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mInitialAad(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr uint64_t& __get_mAadCount();
+  constexpr uint64_t& __cordl_internal_get_mAadCount();
 
-  constexpr uint64_t const& __get_mAadCount() const;
+  constexpr uint64_t const& __cordl_internal_get_mAadCount() const;
 
-  constexpr void __set_mAadCount(uint64_t value);
+  constexpr void __cordl_internal_set_mAadCount(uint64_t value);
 
-  constexpr uint64_t& __get_mDataCount();
+  constexpr uint64_t& __cordl_internal_get_mDataCount();
 
-  constexpr uint64_t const& __get_mDataCount() const;
+  constexpr uint64_t const& __cordl_internal_get_mDataCount() const;
 
-  constexpr void __set_mDataCount(uint64_t value);
+  constexpr void __cordl_internal_set_mDataCount(uint64_t value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State& __get_mState();
+  constexpr ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State& __cordl_internal_get_mState();
 
-  constexpr ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State const& __get_mState() const;
+  constexpr ::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State const& __cordl_internal_get_mState() const;
 
-  constexpr void __set_mState(::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State value);
+  constexpr void __cordl_internal_set_mState(::Org::BouncyCastle::Crypto::Modes::__ChaCha20Poly1305__State value);
 
-  constexpr int32_t& __get_mBufPos();
+  constexpr int32_t& __cordl_internal_get_mBufPos();
 
-  constexpr int32_t const& __get_mBufPos() const;
+  constexpr int32_t const& __cordl_internal_get_mBufPos() const;
 
-  constexpr void __set_mBufPos(int32_t value);
+  constexpr void __cordl_internal_set_mBufPos(int32_t value);
 
   static inline void setStaticF_Zeroes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

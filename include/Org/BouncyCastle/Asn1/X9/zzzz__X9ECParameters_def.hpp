@@ -43,29 +43,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::X9ECParameters);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(443))
 // CS Name: ::Org.BouncyCastle.Asn1.X9::X9ECParameters*
 class CORDL_TYPE X9ECParameters : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field fieldID, offset 0x10, size 0x8
-  __declspec(property(get = __get_fieldID, put = __set_fieldID))::Org::BouncyCastle::Asn1::X9::X9FieldID* fieldID;
+  __declspec(property(get = __cordl_internal_get_fieldID, put = __cordl_internal_set_fieldID))::Org::BouncyCastle::Asn1::X9::X9FieldID* fieldID;
 
   /// @brief Field curve, offset 0x18, size 0x8
-  __declspec(property(get = __get_curve, put = __set_curve))::Org::BouncyCastle::Math::EC::ECCurve* curve;
+  __declspec(property(get = __cordl_internal_get_curve, put = __cordl_internal_set_curve))::Org::BouncyCastle::Math::EC::ECCurve* curve;
 
   /// @brief Field g, offset 0x20, size 0x8
-  __declspec(property(get = __get_g, put = __set_g))::Org::BouncyCastle::Asn1::X9::X9ECPoint* g;
+  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g))::Org::BouncyCastle::Asn1::X9::X9ECPoint* g;
 
   /// @brief Field n, offset 0x28, size 0x8
-  __declspec(property(get = __get_n, put = __set_n))::Org::BouncyCastle::Math::BigInteger* n;
+  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n))::Org::BouncyCastle::Math::BigInteger* n;
 
   /// @brief Field h, offset 0x30, size 0x8
-  __declspec(property(get = __get_h, put = __set_h))::Org::BouncyCastle::Math::BigInteger* h;
+  __declspec(property(get = __cordl_internal_get_h, put = __cordl_internal_set_h))::Org::BouncyCastle::Math::BigInteger* h;
 
   /// @brief Field seed, offset 0x38, size 0x8
-  __declspec(property(get = __get_seed, put = __set_seed))::ArrayW<uint8_t, ::Array<uint8_t>*> seed;
+  __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed))::ArrayW<uint8_t, ::Array<uint8_t>*> seed;
 
   __declspec(property(get = get_Curve))::Org::BouncyCastle::Math::EC::ECCurve* Curve;
 
@@ -81,41 +81,41 @@ public:
 
   __declspec(property(get = get_BaseEntry))::Org::BouncyCastle::Asn1::X9::X9ECPoint* BaseEntry;
 
-  constexpr ::Org::BouncyCastle::Asn1::X9::X9FieldID*& __get_fieldID();
+  constexpr ::Org::BouncyCastle::Asn1::X9::X9FieldID*& __cordl_internal_get_fieldID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X9::X9FieldID*> const& __get_fieldID() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X9::X9FieldID*> const& __cordl_internal_get_fieldID() const;
 
-  constexpr void __set_fieldID(::Org::BouncyCastle::Asn1::X9::X9FieldID* value);
+  constexpr void __cordl_internal_set_fieldID(::Org::BouncyCastle::Asn1::X9::X9FieldID* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __get_curve();
+  constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __cordl_internal_get_curve();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& __get_curve() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& __cordl_internal_get_curve() const;
 
-  constexpr void __set_curve(::Org::BouncyCastle::Math::EC::ECCurve* value);
+  constexpr void __cordl_internal_set_curve(::Org::BouncyCastle::Math::EC::ECCurve* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X9::X9ECPoint*& __get_g();
+  constexpr ::Org::BouncyCastle::Asn1::X9::X9ECPoint*& __cordl_internal_get_g();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X9::X9ECPoint*> const& __get_g() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X9::X9ECPoint*> const& __cordl_internal_get_g() const;
 
-  constexpr void __set_g(::Org::BouncyCastle::Asn1::X9::X9ECPoint* value);
+  constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Asn1::X9::X9ECPoint* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_n();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_n();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_n() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_n() const;
 
-  constexpr void __set_n(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_h();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_h();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_h() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_h() const;
 
-  constexpr void __set_h(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_h(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_seed();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_seed();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_seed() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_seed() const;
 
-  constexpr void __set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   /// @brief Method GetInstance, addr 0x11b0d04, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetInstance(::System::Object* obj);

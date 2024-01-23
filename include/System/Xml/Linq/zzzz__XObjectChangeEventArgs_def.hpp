@@ -18,14 +18,14 @@ MARK_REF_PTR_T(::System::Xml::Linq::XObjectChangeEventArgs);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(15449))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2376)), TypeDefinitionIndex(TypeDefinitionIndex(15449))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15456))
 // CS Name: ::System.Xml.Linq::XObjectChangeEventArgs*
 class CORDL_TYPE XObjectChangeEventArgs : public ::System::EventArgs {
 public:
   // Declarations
   /// @brief Field _objectChange, offset 0x10, size 0x4
-  __declspec(property(get = __get__objectChange, put = __set__objectChange))::System::Xml::Linq::XObjectChange _objectChange;
+  __declspec(property(get = __cordl_internal_get__objectChange, put = __cordl_internal_set__objectChange))::System::Xml::Linq::XObjectChange _objectChange;
 
   /// @brief Field Add, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Add, put = setStaticF_Add))::System::Xml::Linq::XObjectChangeEventArgs* Add;
@@ -39,11 +39,11 @@ public:
   /// @brief Field Value, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Value, put = setStaticF_Value))::System::Xml::Linq::XObjectChangeEventArgs* Value;
 
-  constexpr ::System::Xml::Linq::XObjectChange& __get__objectChange();
+  constexpr ::System::Xml::Linq::XObjectChange& __cordl_internal_get__objectChange();
 
-  constexpr ::System::Xml::Linq::XObjectChange const& __get__objectChange() const;
+  constexpr ::System::Xml::Linq::XObjectChange const& __cordl_internal_get__objectChange() const;
 
-  constexpr void __set__objectChange(::System::Xml::Linq::XObjectChange value);
+  constexpr void __cordl_internal_set__objectChange(::System::Xml::Linq::XObjectChange value);
 
   static inline void setStaticF_Add(::System::Xml::Linq::XObjectChangeEventArgs* value);
 

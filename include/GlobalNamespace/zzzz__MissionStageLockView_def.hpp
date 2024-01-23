@@ -22,56 +22,56 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionStageLockView);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5552))
 // CS Name: ::MissionStageLockView*
 class CORDL_TYPE MissionStageLockView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _text, offset 0x18, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::TMPro::TMP_Text* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TMP_Text> _text;
 
   /// @brief Field _rectTransform, offset 0x20, size 0x8
-  __declspec(property(get = __get__rectTransform, put = __set__rectTransform))::UnityEngine::RectTransform* _rectTransform;
+  __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform))::UnityW<::UnityEngine::RectTransform> _rectTransform;
 
   /// @brief Field _dstPosY, offset 0x28, size 0x4
-  __declspec(property(get = __get__dstPosY, put = __set__dstPosY)) float_t _dstPosY;
+  __declspec(property(get = __cordl_internal_get__dstPosY, put = __cordl_internal_set__dstPosY)) float_t _dstPosY;
 
   /// @brief Field _animationDuration, offset 0x2c, size 0x4
-  __declspec(property(get = __get__animationDuration, put = __set__animationDuration)) float_t _animationDuration;
+  __declspec(property(get = __cordl_internal_get__animationDuration, put = __cordl_internal_set__animationDuration)) float_t _animationDuration;
 
   /// @brief Field _startAnimationTime, offset 0x30, size 0x4
-  __declspec(property(get = __get__startAnimationTime, put = __set__startAnimationTime)) float_t _startAnimationTime;
+  __declspec(property(get = __cordl_internal_get__startAnimationTime, put = __cordl_internal_set__startAnimationTime)) float_t _startAnimationTime;
 
-  constexpr ::TMPro::TMP_Text*& __get__text();
+  constexpr ::UnityW<::TMPro::TMP_Text>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_Text*> const& __get__text() const;
+  constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::TMPro::TMP_Text* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TMP_Text> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__rectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__rectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
 
-  constexpr void __set__rectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr float_t& __get__dstPosY();
+  constexpr float_t& __cordl_internal_get__dstPosY();
 
-  constexpr float_t const& __get__dstPosY() const;
+  constexpr float_t const& __cordl_internal_get__dstPosY() const;
 
-  constexpr void __set__dstPosY(float_t value);
+  constexpr void __cordl_internal_set__dstPosY(float_t value);
 
-  constexpr float_t& __get__animationDuration();
+  constexpr float_t& __cordl_internal_get__animationDuration();
 
-  constexpr float_t const& __get__animationDuration() const;
+  constexpr float_t const& __cordl_internal_get__animationDuration() const;
 
-  constexpr void __set__animationDuration(float_t value);
+  constexpr void __cordl_internal_set__animationDuration(float_t value);
 
-  constexpr float_t& __get__startAnimationTime();
+  constexpr float_t& __cordl_internal_get__startAnimationTime();
 
-  constexpr float_t const& __get__startAnimationTime() const;
+  constexpr float_t const& __cordl_internal_get__startAnimationTime() const;
 
-  constexpr void __set__startAnimationTime(float_t value);
+  constexpr void __cordl_internal_set__startAnimationTime(float_t value);
 
   /// @brief Method UpdateLocalPositionY, addr 0x22a2244, size 0x64, virtual false, abstract: false, final false
   inline void UpdateLocalPositionY(float_t dstPosY, bool animated, float_t animationDuration);
@@ -102,10 +102,10 @@ protected:
 
 public:
   /// @brief Field _text, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TMP_Text* ____text;
+  ::UnityW<::TMPro::TMP_Text> ____text;
 
   /// @brief Field _rectTransform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____rectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
   /// @brief Field _dstPosY, offset: 0x28, size: 0x4, def value: None
   float_t ____dstPosY;

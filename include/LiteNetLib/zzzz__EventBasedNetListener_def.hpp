@@ -111,7 +111,7 @@ MARK_REF_PTR_T(::LiteNetLib::__EventBasedNetListener__OnPeerDisconnected);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14135))
 // CS Name: ::EventBasedNetListener::OnPeerConnected*
 class CORDL_TYPE __EventBasedNetListener__OnPeerConnected : public ::System::MulticastDelegate {
@@ -155,7 +155,7 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::__EventBasedNetListe
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14136))
 // CS Name: ::EventBasedNetListener::OnPeerDisconnected*
 class CORDL_TYPE __EventBasedNetListener__OnPeerDisconnected : public ::System::MulticastDelegate {
@@ -199,7 +199,7 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::__EventBasedNetListe
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14137))
 // CS Name: ::EventBasedNetListener::OnNetworkError*
 class CORDL_TYPE __EventBasedNetListener__OnNetworkError : public ::System::MulticastDelegate {
@@ -243,7 +243,7 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::__EventBasedNetListe
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14138))
 // CS Name: ::EventBasedNetListener::OnNetworkReceive*
 class CORDL_TYPE __EventBasedNetListener__OnNetworkReceive : public ::System::MulticastDelegate {
@@ -288,7 +288,7 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::__EventBasedNetListe
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14139))
 // CS Name: ::EventBasedNetListener::OnNetworkReceiveUnconnected*
 class CORDL_TYPE __EventBasedNetListener__OnNetworkReceiveUnconnected : public ::System::MulticastDelegate {
@@ -333,7 +333,7 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::__EventBasedNetListe
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14140))
 // CS Name: ::EventBasedNetListener::OnNetworkLatencyUpdate*
 class CORDL_TYPE __EventBasedNetListener__OnNetworkLatencyUpdate : public ::System::MulticastDelegate {
@@ -377,7 +377,7 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::__EventBasedNetListe
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14141))
 // CS Name: ::EventBasedNetListener::OnConnectionRequest*
 class CORDL_TYPE __EventBasedNetListener__OnConnectionRequest : public ::System::MulticastDelegate {
@@ -421,7 +421,7 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::__EventBasedNetListe
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14142))
 // CS Name: ::EventBasedNetListener::OnDeliveryEvent*
 class CORDL_TYPE __EventBasedNetListener__OnDeliveryEvent : public ::System::MulticastDelegate {
@@ -465,7 +465,7 @@ static_assert(::cordl_internals::size_check_v<::LiteNetLib::__EventBasedNetListe
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14143))
 // CS Name: ::LiteNetLib::EventBasedNetListener*
 class CORDL_TYPE EventBasedNetListener : public ::System::Object {
@@ -488,29 +488,32 @@ public:
   using OnPeerConnected = ::LiteNetLib::__EventBasedNetListener__OnPeerConnected;
 
   /// @brief Field PeerConnectedEvent, offset 0x10, size 0x8
-  __declspec(property(get = __get_PeerConnectedEvent, put = __set_PeerConnectedEvent))::LiteNetLib::__EventBasedNetListener__OnPeerConnected* PeerConnectedEvent;
+  __declspec(property(get = __cordl_internal_get_PeerConnectedEvent, put = __cordl_internal_set_PeerConnectedEvent))::LiteNetLib::__EventBasedNetListener__OnPeerConnected* PeerConnectedEvent;
 
   /// @brief Field PeerDisconnectedEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_PeerDisconnectedEvent, put = __set_PeerDisconnectedEvent))::LiteNetLib::__EventBasedNetListener__OnPeerDisconnected* PeerDisconnectedEvent;
+  __declspec(property(get = __cordl_internal_get_PeerDisconnectedEvent,
+                      put = __cordl_internal_set_PeerDisconnectedEvent))::LiteNetLib::__EventBasedNetListener__OnPeerDisconnected* PeerDisconnectedEvent;
 
   /// @brief Field NetworkErrorEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_NetworkErrorEvent, put = __set_NetworkErrorEvent))::LiteNetLib::__EventBasedNetListener__OnNetworkError* NetworkErrorEvent;
+  __declspec(property(get = __cordl_internal_get_NetworkErrorEvent, put = __cordl_internal_set_NetworkErrorEvent))::LiteNetLib::__EventBasedNetListener__OnNetworkError* NetworkErrorEvent;
 
   /// @brief Field NetworkReceiveEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_NetworkReceiveEvent, put = __set_NetworkReceiveEvent))::LiteNetLib::__EventBasedNetListener__OnNetworkReceive* NetworkReceiveEvent;
+  __declspec(property(get = __cordl_internal_get_NetworkReceiveEvent, put = __cordl_internal_set_NetworkReceiveEvent))::LiteNetLib::__EventBasedNetListener__OnNetworkReceive* NetworkReceiveEvent;
 
   /// @brief Field NetworkReceiveUnconnectedEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_NetworkReceiveUnconnectedEvent,
-                      put = __set_NetworkReceiveUnconnectedEvent))::LiteNetLib::__EventBasedNetListener__OnNetworkReceiveUnconnected* NetworkReceiveUnconnectedEvent;
+  __declspec(property(get = __cordl_internal_get_NetworkReceiveUnconnectedEvent,
+                      put = __cordl_internal_set_NetworkReceiveUnconnectedEvent))::LiteNetLib::__EventBasedNetListener__OnNetworkReceiveUnconnected* NetworkReceiveUnconnectedEvent;
 
   /// @brief Field NetworkLatencyUpdateEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_NetworkLatencyUpdateEvent, put = __set_NetworkLatencyUpdateEvent))::LiteNetLib::__EventBasedNetListener__OnNetworkLatencyUpdate* NetworkLatencyUpdateEvent;
+  __declspec(property(get = __cordl_internal_get_NetworkLatencyUpdateEvent,
+                      put = __cordl_internal_set_NetworkLatencyUpdateEvent))::LiteNetLib::__EventBasedNetListener__OnNetworkLatencyUpdate* NetworkLatencyUpdateEvent;
 
   /// @brief Field ConnectionRequestEvent, offset 0x40, size 0x8
-  __declspec(property(get = __get_ConnectionRequestEvent, put = __set_ConnectionRequestEvent))::LiteNetLib::__EventBasedNetListener__OnConnectionRequest* ConnectionRequestEvent;
+  __declspec(property(get = __cordl_internal_get_ConnectionRequestEvent,
+                      put = __cordl_internal_set_ConnectionRequestEvent))::LiteNetLib::__EventBasedNetListener__OnConnectionRequest* ConnectionRequestEvent;
 
   /// @brief Field DeliveryEvent, offset 0x48, size 0x8
-  __declspec(property(get = __get_DeliveryEvent, put = __set_DeliveryEvent))::LiteNetLib::__EventBasedNetListener__OnDeliveryEvent* DeliveryEvent;
+  __declspec(property(get = __cordl_internal_get_DeliveryEvent, put = __cordl_internal_set_DeliveryEvent))::LiteNetLib::__EventBasedNetListener__OnDeliveryEvent* DeliveryEvent;
 
   /// @brief Convert operator to "::LiteNetLib::INetEventListener"
   constexpr operator ::LiteNetLib::INetEventListener*() noexcept;
@@ -524,53 +527,53 @@ public:
   /// @brief Convert to "::LiteNetLib::IDeliveryEventListener"
   constexpr ::LiteNetLib::IDeliveryEventListener* i___LiteNetLib__IDeliveryEventListener() noexcept;
 
-  constexpr ::LiteNetLib::__EventBasedNetListener__OnPeerConnected*& __get_PeerConnectedEvent();
+  constexpr ::LiteNetLib::__EventBasedNetListener__OnPeerConnected*& __cordl_internal_get_PeerConnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnPeerConnected*> const& __get_PeerConnectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnPeerConnected*> const& __cordl_internal_get_PeerConnectedEvent() const;
 
-  constexpr void __set_PeerConnectedEvent(::LiteNetLib::__EventBasedNetListener__OnPeerConnected* value);
+  constexpr void __cordl_internal_set_PeerConnectedEvent(::LiteNetLib::__EventBasedNetListener__OnPeerConnected* value);
 
-  constexpr ::LiteNetLib::__EventBasedNetListener__OnPeerDisconnected*& __get_PeerDisconnectedEvent();
+  constexpr ::LiteNetLib::__EventBasedNetListener__OnPeerDisconnected*& __cordl_internal_get_PeerDisconnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnPeerDisconnected*> const& __get_PeerDisconnectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnPeerDisconnected*> const& __cordl_internal_get_PeerDisconnectedEvent() const;
 
-  constexpr void __set_PeerDisconnectedEvent(::LiteNetLib::__EventBasedNetListener__OnPeerDisconnected* value);
+  constexpr void __cordl_internal_set_PeerDisconnectedEvent(::LiteNetLib::__EventBasedNetListener__OnPeerDisconnected* value);
 
-  constexpr ::LiteNetLib::__EventBasedNetListener__OnNetworkError*& __get_NetworkErrorEvent();
+  constexpr ::LiteNetLib::__EventBasedNetListener__OnNetworkError*& __cordl_internal_get_NetworkErrorEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnNetworkError*> const& __get_NetworkErrorEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnNetworkError*> const& __cordl_internal_get_NetworkErrorEvent() const;
 
-  constexpr void __set_NetworkErrorEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkError* value);
+  constexpr void __cordl_internal_set_NetworkErrorEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkError* value);
 
-  constexpr ::LiteNetLib::__EventBasedNetListener__OnNetworkReceive*& __get_NetworkReceiveEvent();
+  constexpr ::LiteNetLib::__EventBasedNetListener__OnNetworkReceive*& __cordl_internal_get_NetworkReceiveEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnNetworkReceive*> const& __get_NetworkReceiveEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnNetworkReceive*> const& __cordl_internal_get_NetworkReceiveEvent() const;
 
-  constexpr void __set_NetworkReceiveEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkReceive* value);
+  constexpr void __cordl_internal_set_NetworkReceiveEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkReceive* value);
 
-  constexpr ::LiteNetLib::__EventBasedNetListener__OnNetworkReceiveUnconnected*& __get_NetworkReceiveUnconnectedEvent();
+  constexpr ::LiteNetLib::__EventBasedNetListener__OnNetworkReceiveUnconnected*& __cordl_internal_get_NetworkReceiveUnconnectedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnNetworkReceiveUnconnected*> const& __get_NetworkReceiveUnconnectedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnNetworkReceiveUnconnected*> const& __cordl_internal_get_NetworkReceiveUnconnectedEvent() const;
 
-  constexpr void __set_NetworkReceiveUnconnectedEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkReceiveUnconnected* value);
+  constexpr void __cordl_internal_set_NetworkReceiveUnconnectedEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkReceiveUnconnected* value);
 
-  constexpr ::LiteNetLib::__EventBasedNetListener__OnNetworkLatencyUpdate*& __get_NetworkLatencyUpdateEvent();
+  constexpr ::LiteNetLib::__EventBasedNetListener__OnNetworkLatencyUpdate*& __cordl_internal_get_NetworkLatencyUpdateEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnNetworkLatencyUpdate*> const& __get_NetworkLatencyUpdateEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnNetworkLatencyUpdate*> const& __cordl_internal_get_NetworkLatencyUpdateEvent() const;
 
-  constexpr void __set_NetworkLatencyUpdateEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkLatencyUpdate* value);
+  constexpr void __cordl_internal_set_NetworkLatencyUpdateEvent(::LiteNetLib::__EventBasedNetListener__OnNetworkLatencyUpdate* value);
 
-  constexpr ::LiteNetLib::__EventBasedNetListener__OnConnectionRequest*& __get_ConnectionRequestEvent();
+  constexpr ::LiteNetLib::__EventBasedNetListener__OnConnectionRequest*& __cordl_internal_get_ConnectionRequestEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnConnectionRequest*> const& __get_ConnectionRequestEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnConnectionRequest*> const& __cordl_internal_get_ConnectionRequestEvent() const;
 
-  constexpr void __set_ConnectionRequestEvent(::LiteNetLib::__EventBasedNetListener__OnConnectionRequest* value);
+  constexpr void __cordl_internal_set_ConnectionRequestEvent(::LiteNetLib::__EventBasedNetListener__OnConnectionRequest* value);
 
-  constexpr ::LiteNetLib::__EventBasedNetListener__OnDeliveryEvent*& __get_DeliveryEvent();
+  constexpr ::LiteNetLib::__EventBasedNetListener__OnDeliveryEvent*& __cordl_internal_get_DeliveryEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnDeliveryEvent*> const& __get_DeliveryEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::__EventBasedNetListener__OnDeliveryEvent*> const& __cordl_internal_get_DeliveryEvent() const;
 
-  constexpr void __set_DeliveryEvent(::LiteNetLib::__EventBasedNetListener__OnDeliveryEvent* value);
+  constexpr void __cordl_internal_set_DeliveryEvent(::LiteNetLib::__EventBasedNetListener__OnDeliveryEvent* value);
 
   /// @brief Method add_PeerConnectedEvent, addr 0x21f8aec, size 0x9c, virtual false, abstract: false, final false
   inline void add_PeerConnectedEvent(::LiteNetLib::__EventBasedNetListener__OnPeerConnected* value);

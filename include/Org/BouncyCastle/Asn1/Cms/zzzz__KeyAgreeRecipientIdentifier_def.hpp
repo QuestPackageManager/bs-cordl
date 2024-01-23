@@ -32,17 +32,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(77))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::KeyAgreeRecipientIdentifier*
 class CORDL_TYPE KeyAgreeRecipientIdentifier : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field issuerSerial, offset 0x10, size 0x8
-  __declspec(property(get = __get_issuerSerial, put = __set_issuerSerial))::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issuerSerial;
+  __declspec(property(get = __cordl_internal_get_issuerSerial, put = __cordl_internal_set_issuerSerial))::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issuerSerial;
 
   /// @brief Field rKeyID, offset 0x18, size 0x8
-  __declspec(property(get = __get_rKeyID, put = __set_rKeyID))::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* rKeyID;
+  __declspec(property(get = __cordl_internal_get_rKeyID, put = __cordl_internal_set_rKeyID))::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* rKeyID;
 
   __declspec(property(get = get_IssuerAndSerialNumber))::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* IssuerAndSerialNumber;
 
@@ -54,17 +54,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*& __get_issuerSerial();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*& __cordl_internal_get_issuerSerial();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*> const& __get_issuerSerial() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber*> const& __cordl_internal_get_issuerSerial() const;
 
-  constexpr void __set_issuerSerial(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* value);
+  constexpr void __cordl_internal_set_issuerSerial(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier*& __get_rKeyID();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier*& __cordl_internal_get_rKeyID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier*> const& __get_rKeyID() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier*> const& __cordl_internal_get_rKeyID() const;
 
-  constexpr void __set_rKeyID(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* value);
+  constexpr void __cordl_internal_set_rKeyID(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* value);
 
   /// @brief Method GetInstance, addr 0xe79470, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);

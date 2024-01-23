@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::GameCoreSceneSetupData);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15408))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15408))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6049))
 // CS Name: ::GameCoreSceneSetupData*
 class CORDL_TYPE GameCoreSceneSetupData : public ::GlobalNamespace::SceneSetupData {

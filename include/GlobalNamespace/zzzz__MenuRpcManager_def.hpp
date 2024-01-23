@@ -366,7 +366,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MenuRpcManager__StartLevelRpc);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12833))
 // CS Name: ::MenuRpcManager::RpcType
 struct CORDL_TYPE __MenuRpcManager__RpcType {
@@ -568,7 +568,7 @@ static_assert(offsetof(::GlobalNamespace::__MenuRpcManager__RpcType, value__) ==
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12834))
 // CS Name: ::MenuRpcManager::GetPlayersPermissionConfigurationRpc*
 class CORDL_TYPE __MenuRpcManager__GetPlayersPermissionConfigurationRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -603,8 +603,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 4912 }), TypeDefinitionIndex(TypeDefinitionIndex(12937)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15031))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12835)) CS Name: ::MenuRpcManager::SetPlayersPermissionConfigurationRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12937)), TypeDefinitionIndex(TypeDefinitionIndex(15031)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst:
+// 4912 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12835)) CS Name: ::MenuRpcManager::SetPlayersPermissionConfigurationRpc*
 class CORDL_TYPE __MenuRpcManager__SetPlayersPermissionConfigurationRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*> {
 public:
   // Declarations
@@ -637,8 +637,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 379 }), TypeDefinitionIndex(TypeDefinitionIndex(15032)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12937))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12836)) CS Name: ::MenuRpcManager::SetPlayersMissingEntitlementsToLevelRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12937)), TypeDefinitionIndex(TypeDefinitionIndex(15032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst:
+// 379 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12836)) CS Name: ::MenuRpcManager::SetPlayersMissingEntitlementsToLevelRpc*
 class CORDL_TYPE __MenuRpcManager__SetPlayersMissingEntitlementsToLevelRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*> {
 public:
   // Declarations
@@ -671,7 +671,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 397 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 397 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12837))
 // CS Name: ::MenuRpcManager::GetIsEntitledToLevelRpc*
 class CORDL_TYPE __MenuRpcManager__GetIsEntitledToLevelRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::StringW> {
@@ -706,7 +706,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12938)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12938), inst: 1427 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12938)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12938), inst: 1427 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12838))
 // CS Name: ::MenuRpcManager::SetIsEntitledToLevelRpc*
 class CORDL_TYPE __MenuRpcManager__SetIsEntitledToLevelRpc : public ::GlobalNamespace::RemoteProcedureCall_2<::StringW, int32_t> {
@@ -741,7 +741,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12839))
 // CS Name: ::MenuRpcManager::InvalidateLevelEntitlementStatusesRpc*
 class CORDL_TYPE __MenuRpcManager__InvalidateLevelEntitlementStatusesRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -776,7 +776,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 397 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 397 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12840))
 // CS Name: ::MenuRpcManager::SelectLevelPackRpc*
 class CORDL_TYPE __MenuRpcManager__SelectLevelPackRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::StringW> {
@@ -811,8 +811,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), TypeDefinitionIndex(TypeDefinitionIndex(14987)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst:
-// 3265 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(12841)) CS Name: ::MenuRpcManager::SetSelectedBeatmapRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12937)), TypeDefinitionIndex(TypeDefinitionIndex(14987)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst:
+// 3265 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12841)) CS Name: ::MenuRpcManager::SetSelectedBeatmapRpc*
 class CORDL_TYPE __MenuRpcManager__SetSelectedBeatmapRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*> {
 public:
   // Declarations
@@ -845,7 +845,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12842))
 // CS Name: ::MenuRpcManager::ClearSelectedBeatmapRpc*
 class CORDL_TYPE __MenuRpcManager__ClearSelectedBeatmapRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -880,7 +880,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12843))
 // CS Name: ::MenuRpcManager::GetSelectedBeatmapRpc*
 class CORDL_TYPE __MenuRpcManager__GetSelectedBeatmapRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -915,8 +915,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 3265 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14987))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12844)) CS Name: ::MenuRpcManager::RecommendBeatmapRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12937)), TypeDefinitionIndex(TypeDefinitionIndex(14987)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst:
+// 3265 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12844)) CS Name: ::MenuRpcManager::RecommendBeatmapRpc*
 class CORDL_TYPE __MenuRpcManager__RecommendBeatmapRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::BeatmapIdentifierNetSerializable*> {
 public:
   // Declarations
@@ -949,7 +949,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12845))
 // CS Name: ::MenuRpcManager::ClearRecommendedBeatmapRpc*
 class CORDL_TYPE __MenuRpcManager__ClearRecommendedBeatmapRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -984,7 +984,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12846))
 // CS Name: ::MenuRpcManager::GetRecommendedBeatmapRpc*
 class CORDL_TYPE __MenuRpcManager__GetRecommendedBeatmapRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -1019,8 +1019,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 312 }), TypeDefinitionIndex(TypeDefinitionIndex(12937)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15002))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12847)) CS Name: ::MenuRpcManager::SetSelectedGameplayModifiersRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12937)), TypeDefinitionIndex(TypeDefinitionIndex(15002)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst:
+// 312 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12847)) CS Name: ::MenuRpcManager::SetSelectedGameplayModifiersRpc*
 class CORDL_TYPE __MenuRpcManager__SetSelectedGameplayModifiersRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::GameplayModifiers*> {
 public:
   // Declarations
@@ -1053,7 +1053,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12848))
 // CS Name: ::MenuRpcManager::ClearSelectedGameplayModifiersRpc*
 class CORDL_TYPE __MenuRpcManager__ClearSelectedGameplayModifiersRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -1088,7 +1088,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12849))
 // CS Name: ::MenuRpcManager::GetSelectedGameplayModifiersRpc*
 class CORDL_TYPE __MenuRpcManager__GetSelectedGameplayModifiersRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -1123,8 +1123,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 312 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15002))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12850)) CS Name: ::MenuRpcManager::RecommendGameplayModifiersRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12937)), TypeDefinitionIndex(TypeDefinitionIndex(15002)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst:
+// 312 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12850)) CS Name: ::MenuRpcManager::RecommendGameplayModifiersRpc*
 class CORDL_TYPE __MenuRpcManager__RecommendGameplayModifiersRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::GameplayModifiers*> {
 public:
   // Declarations
@@ -1157,7 +1157,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12851))
 // CS Name: ::MenuRpcManager::ClearRecommendedGameplayModifiersRpc*
 class CORDL_TYPE __MenuRpcManager__ClearRecommendedGameplayModifiersRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -1192,7 +1192,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12852))
 // CS Name: ::MenuRpcManager::GetRecommendedGameplayModifiersRpc*
 class CORDL_TYPE __MenuRpcManager__GetRecommendedGameplayModifiersRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -1227,7 +1227,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12853))
 // CS Name: ::MenuRpcManager::GetIsStartButtonEnabledRpc*
 class CORDL_TYPE __MenuRpcManager__GetIsStartButtonEnabledRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -1262,8 +1262,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 291 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12688))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12854)) CS Name: ::MenuRpcManager::SetIsStartButtonEnabledRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12688)), TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst:
+// 291 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12854)) CS Name: ::MenuRpcManager::SetIsStartButtonEnabledRpc*
 class CORDL_TYPE __MenuRpcManager__SetIsStartButtonEnabledRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::CannotStartGameReason> {
 public:
   // Declarations
@@ -1296,7 +1296,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 397 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 397 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12855))
 // CS Name: ::MenuRpcManager::LevelLoadErrorRpc*
 class CORDL_TYPE __MenuRpcManager__LevelLoadErrorRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::StringW> {
@@ -1331,7 +1331,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(12937))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 397 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12856))
 // CS Name: ::MenuRpcManager::LevelLoadSuccessRpc*
 class CORDL_TYPE __MenuRpcManager__LevelLoadSuccessRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::StringW> {
@@ -1366,8 +1366,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12939), inst: 4929 }), TypeDefinitionIndex(TypeDefinitionIndex(12939)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15002)), TypeDefinitionIndex(TypeDefinitionIndex(14987))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12857)) CS Name: ::MenuRpcManager::StartLevelRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12939)), TypeDefinitionIndex(TypeDefinitionIndex(14987)), TypeDefinitionIndex(TypeDefinitionIndex(15002)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12939), inst: 4929 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12857)) CS Name: ::MenuRpcManager::StartLevelRpc*
 class CORDL_TYPE __MenuRpcManager__StartLevelRpc
     : public ::GlobalNamespace::RemoteProcedureCall_3<::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t> {
 public:
@@ -1401,7 +1401,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12858))
 // CS Name: ::MenuRpcManager::GetStartedLevelRpc*
 class CORDL_TYPE __MenuRpcManager__GetStartedLevelRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -1436,7 +1436,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12859))
 // CS Name: ::MenuRpcManager::GetMultiplayerGameStateRpc*
 class CORDL_TYPE __MenuRpcManager__GetMultiplayerGameStateRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -1471,8 +1471,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 357 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(12880))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12860)) CS Name: ::MenuRpcManager::SetMultiplayerGameStateRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12880)), TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst:
+// 357 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12860)) CS Name: ::MenuRpcManager::SetMultiplayerGameStateRpc*
 class CORDL_TYPE __MenuRpcManager__SetMultiplayerGameStateRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::MultiplayerGameState> {
 public:
   // Declarations
@@ -1505,7 +1505,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12861))
 // CS Name: ::MenuRpcManager::CancelCountdownRpc*
 class CORDL_TYPE __MenuRpcManager__CancelCountdownRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -1540,7 +1540,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 333 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 333 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12862))
 // CS Name: ::MenuRpcManager::SetCountdownEndTimeRpc*
 class CORDL_TYPE __MenuRpcManager__SetCountdownEndTimeRpc : public ::GlobalNamespace::RemoteProcedureCall_1<int64_t> {
@@ -1575,7 +1575,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12863))
 // CS Name: ::MenuRpcManager::GetCountdownEndTimeRpc*
 class CORDL_TYPE __MenuRpcManager__GetCountdownEndTimeRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -1610,7 +1610,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12864))
 // CS Name: ::MenuRpcManager::CancelLevelStartRpc*
 class CORDL_TYPE __MenuRpcManager__CancelLevelStartRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -1645,7 +1645,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12865))
 // CS Name: ::MenuRpcManager::GetIsReadyRpc*
 class CORDL_TYPE __MenuRpcManager__GetIsReadyRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -1680,7 +1680,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(12937))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 105 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12866))
 // CS Name: ::MenuRpcManager::SetIsReadyRpc*
 class CORDL_TYPE __MenuRpcManager__SetIsReadyRpc : public ::GlobalNamespace::RemoteProcedureCall_1<bool> {
@@ -1715,7 +1715,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 333 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 333 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12867))
 // CS Name: ::MenuRpcManager::SetStartGameTimeRpc*
 class CORDL_TYPE __MenuRpcManager__SetStartGameTimeRpc : public ::GlobalNamespace::RemoteProcedureCall_1<int64_t> {
@@ -1750,7 +1750,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12868))
 // CS Name: ::MenuRpcManager::CancelStartGameTimeRpc*
 class CORDL_TYPE __MenuRpcManager__CancelStartGameTimeRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -1785,7 +1785,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12869))
 // CS Name: ::MenuRpcManager::GetIsInLobbyRpc*
 class CORDL_TYPE __MenuRpcManager__GetIsInLobbyRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -1820,7 +1820,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 105 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 105 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12870))
 // CS Name: ::MenuRpcManager::SetIsInLobbyRpc*
 class CORDL_TYPE __MenuRpcManager__SetIsInLobbyRpc : public ::GlobalNamespace::RemoteProcedureCall_1<bool> {
@@ -1855,7 +1855,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12936))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12936))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12871))
 // CS Name: ::MenuRpcManager::GetOwnedSongPacksRpc*
 class CORDL_TYPE __MenuRpcManager__GetOwnedSongPacksRpc : public ::GlobalNamespace::RemoteProcedureCall {
@@ -1890,8 +1890,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 3352 }), TypeDefinitionIndex(TypeDefinitionIndex(15047)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12937))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12872)) CS Name: ::MenuRpcManager::SetOwnedSongPacksRpc*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12937)), TypeDefinitionIndex(TypeDefinitionIndex(15047)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst:
+// 3352 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12872)) CS Name: ::MenuRpcManager::SetOwnedSongPacksRpc*
 class CORDL_TYPE __MenuRpcManager__SetOwnedSongPacksRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::GlobalNamespace::SongPackMask> {
 public:
   // Declarations
@@ -1924,7 +1924,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(12937))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12937)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(12937), inst: 397 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12873))
 // CS Name: ::MenuRpcManager::RequestKickPlayerRpc*
 class CORDL_TYPE __MenuRpcManager__RequestKickPlayerRpc : public ::GlobalNamespace::RemoteProcedureCall_1<::StringW> {
@@ -1959,7 +1959,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MenuRpcManage
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12874))
 // CS Name: ::MenuRpcManager*
 class CORDL_TYPE MenuRpcManager : public ::System::Object {
@@ -2048,143 +2048,148 @@ public:
   using RpcType = ::GlobalNamespace::__MenuRpcManager__RpcType;
 
   /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _rpcHandler, offset 0x18, size 0x8
-  __declspec(property(get = __get__rpcHandler, put = __set__rpcHandler))::GlobalNamespace::RpcHandler_1<::GlobalNamespace::__MenuRpcManager__RpcType>* _rpcHandler;
+  __declspec(property(get = __cordl_internal_get__rpcHandler, put = __cordl_internal_set__rpcHandler))::GlobalNamespace::RpcHandler_1<::GlobalNamespace::__MenuRpcManager__RpcType>* _rpcHandler;
 
   /// @brief Field getPlayersPermissionConfigurationEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_getPlayersPermissionConfigurationEvent, put = __set_getPlayersPermissionConfigurationEvent))::System::Action_1<::StringW>* getPlayersPermissionConfigurationEvent;
+  __declspec(property(get = __cordl_internal_get_getPlayersPermissionConfigurationEvent,
+                      put = __cordl_internal_set_getPlayersPermissionConfigurationEvent))::System::Action_1<::StringW>* getPlayersPermissionConfigurationEvent;
 
   /// @brief Field setPlayersPermissionConfigurationEvent, offset 0x28, size 0x8
-  __declspec(property(
-      get = __get_setPlayersPermissionConfigurationEvent,
-      put = __set_setPlayersPermissionConfigurationEvent))::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* setPlayersPermissionConfigurationEvent;
+  __declspec(property(get = __cordl_internal_get_setPlayersPermissionConfigurationEvent, put = __cordl_internal_set_setPlayersPermissionConfigurationEvent))::System::Action_2<
+      ::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* setPlayersPermissionConfigurationEvent;
 
   /// @brief Field setPlayersMissingEntitlementsToLevelEvent, offset 0x30, size 0x8
-  __declspec(property(
-      get = __get_setPlayersMissingEntitlementsToLevelEvent,
-      put = __set_setPlayersMissingEntitlementsToLevelEvent))::System::Action_2<::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* setPlayersMissingEntitlementsToLevelEvent;
+  __declspec(property(get = __cordl_internal_get_setPlayersMissingEntitlementsToLevelEvent, put = __cordl_internal_set_setPlayersMissingEntitlementsToLevelEvent))::System::Action_2<
+      ::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* setPlayersMissingEntitlementsToLevelEvent;
 
   /// @brief Field getIsEntitledToLevelEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_getIsEntitledToLevelEvent, put = __set_getIsEntitledToLevelEvent))::System::Action_2<::StringW, ::StringW>* getIsEntitledToLevelEvent;
+  __declspec(property(get = __cordl_internal_get_getIsEntitledToLevelEvent, put = __cordl_internal_set_getIsEntitledToLevelEvent))::System::Action_2<::StringW, ::StringW>* getIsEntitledToLevelEvent;
 
   /// @brief Field setIsEntitledToLevelEvent, offset 0x40, size 0x8
-  __declspec(property(get = __get_setIsEntitledToLevelEvent,
-                      put = __set_setIsEntitledToLevelEvent))::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>* setIsEntitledToLevelEvent;
+  __declspec(property(get = __cordl_internal_get_setIsEntitledToLevelEvent,
+                      put = __cordl_internal_set_setIsEntitledToLevelEvent))::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>* setIsEntitledToLevelEvent;
 
   /// @brief Field levelEntitlementStatusesInvalidatedEvent, offset 0x48, size 0x8
-  __declspec(property(get = __get_levelEntitlementStatusesInvalidatedEvent,
-                      put = __set_levelEntitlementStatusesInvalidatedEvent))::System::Action_1<::StringW>* levelEntitlementStatusesInvalidatedEvent;
+  __declspec(property(get = __cordl_internal_get_levelEntitlementStatusesInvalidatedEvent,
+                      put = __cordl_internal_set_levelEntitlementStatusesInvalidatedEvent))::System::Action_1<::StringW>* levelEntitlementStatusesInvalidatedEvent;
 
   /// @brief Field selectedLevelPackEvent, offset 0x50, size 0x8
-  __declspec(property(get = __get_selectedLevelPackEvent, put = __set_selectedLevelPackEvent))::System::Action_2<::StringW, ::StringW>* selectedLevelPackEvent;
+  __declspec(property(get = __cordl_internal_get_selectedLevelPackEvent, put = __cordl_internal_set_selectedLevelPackEvent))::System::Action_2<::StringW, ::StringW>* selectedLevelPackEvent;
 
   /// @brief Field setSelectedBeatmapEvent, offset 0x58, size 0x8
-  __declspec(property(get = __get_setSelectedBeatmapEvent,
-                      put = __set_setSelectedBeatmapEvent))::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* setSelectedBeatmapEvent;
+  __declspec(property(get = __cordl_internal_get_setSelectedBeatmapEvent,
+                      put = __cordl_internal_set_setSelectedBeatmapEvent))::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* setSelectedBeatmapEvent;
 
   /// @brief Field clearSelectedBeatmapEvent, offset 0x60, size 0x8
-  __declspec(property(get = __get_clearSelectedBeatmapEvent, put = __set_clearSelectedBeatmapEvent))::System::Action_1<::StringW>* clearSelectedBeatmapEvent;
+  __declspec(property(get = __cordl_internal_get_clearSelectedBeatmapEvent, put = __cordl_internal_set_clearSelectedBeatmapEvent))::System::Action_1<::StringW>* clearSelectedBeatmapEvent;
 
   /// @brief Field getSelectedBeatmapEvent, offset 0x68, size 0x8
-  __declspec(property(get = __get_getSelectedBeatmapEvent, put = __set_getSelectedBeatmapEvent))::System::Action_1<::StringW>* getSelectedBeatmapEvent;
+  __declspec(property(get = __cordl_internal_get_getSelectedBeatmapEvent, put = __cordl_internal_set_getSelectedBeatmapEvent))::System::Action_1<::StringW>* getSelectedBeatmapEvent;
 
   /// @brief Field recommendBeatmapEvent, offset 0x70, size 0x8
-  __declspec(property(get = __get_recommendBeatmapEvent, put = __set_recommendBeatmapEvent))::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* recommendBeatmapEvent;
+  __declspec(property(get = __cordl_internal_get_recommendBeatmapEvent,
+                      put = __cordl_internal_set_recommendBeatmapEvent))::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* recommendBeatmapEvent;
 
   /// @brief Field clearRecommendedBeatmapEvent, offset 0x78, size 0x8
-  __declspec(property(get = __get_clearRecommendedBeatmapEvent, put = __set_clearRecommendedBeatmapEvent))::System::Action_1<::StringW>* clearRecommendedBeatmapEvent;
+  __declspec(property(get = __cordl_internal_get_clearRecommendedBeatmapEvent, put = __cordl_internal_set_clearRecommendedBeatmapEvent))::System::Action_1<::StringW>* clearRecommendedBeatmapEvent;
 
   /// @brief Field getRecommendedBeatmapEvent, offset 0x80, size 0x8
-  __declspec(property(get = __get_getRecommendedBeatmapEvent, put = __set_getRecommendedBeatmapEvent))::System::Action_1<::StringW>* getRecommendedBeatmapEvent;
+  __declspec(property(get = __cordl_internal_get_getRecommendedBeatmapEvent, put = __cordl_internal_set_getRecommendedBeatmapEvent))::System::Action_1<::StringW>* getRecommendedBeatmapEvent;
 
   /// @brief Field setSelectedGameplayModifiersEvent, offset 0x88, size 0x8
-  __declspec(property(get = __get_setSelectedGameplayModifiersEvent,
-                      put = __set_setSelectedGameplayModifiersEvent))::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* setSelectedGameplayModifiersEvent;
+  __declspec(property(get = __cordl_internal_get_setSelectedGameplayModifiersEvent,
+                      put = __cordl_internal_set_setSelectedGameplayModifiersEvent))::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* setSelectedGameplayModifiersEvent;
 
   /// @brief Field clearSelectedGameplayModifiersEvent, offset 0x90, size 0x8
-  __declspec(property(get = __get_clearSelectedGameplayModifiersEvent, put = __set_clearSelectedGameplayModifiersEvent))::System::Action_1<::StringW>* clearSelectedGameplayModifiersEvent;
+  __declspec(property(get = __cordl_internal_get_clearSelectedGameplayModifiersEvent,
+                      put = __cordl_internal_set_clearSelectedGameplayModifiersEvent))::System::Action_1<::StringW>* clearSelectedGameplayModifiersEvent;
 
   /// @brief Field getSelectedGameplayModifiersEvent, offset 0x98, size 0x8
-  __declspec(property(get = __get_getSelectedGameplayModifiersEvent, put = __set_getSelectedGameplayModifiersEvent))::System::Action_1<::StringW>* getSelectedGameplayModifiersEvent;
+  __declspec(property(get = __cordl_internal_get_getSelectedGameplayModifiersEvent,
+                      put = __cordl_internal_set_getSelectedGameplayModifiersEvent))::System::Action_1<::StringW>* getSelectedGameplayModifiersEvent;
 
   /// @brief Field recommendGameplayModifiersEvent, offset 0xa0, size 0x8
-  __declspec(property(get = __get_recommendGameplayModifiersEvent,
-                      put = __set_recommendGameplayModifiersEvent))::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* recommendGameplayModifiersEvent;
+  __declspec(property(get = __cordl_internal_get_recommendGameplayModifiersEvent,
+                      put = __cordl_internal_set_recommendGameplayModifiersEvent))::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* recommendGameplayModifiersEvent;
 
   /// @brief Field clearRecommendedGameplayModifiersEvent, offset 0xa8, size 0x8
-  __declspec(property(get = __get_clearRecommendedGameplayModifiersEvent, put = __set_clearRecommendedGameplayModifiersEvent))::System::Action_1<::StringW>* clearRecommendedGameplayModifiersEvent;
+  __declspec(property(get = __cordl_internal_get_clearRecommendedGameplayModifiersEvent,
+                      put = __cordl_internal_set_clearRecommendedGameplayModifiersEvent))::System::Action_1<::StringW>* clearRecommendedGameplayModifiersEvent;
 
   /// @brief Field getRecommendedGameplayModifiersEvent, offset 0xb0, size 0x8
-  __declspec(property(get = __get_getRecommendedGameplayModifiersEvent, put = __set_getRecommendedGameplayModifiersEvent))::System::Action_1<::StringW>* getRecommendedGameplayModifiersEvent;
+  __declspec(property(get = __cordl_internal_get_getRecommendedGameplayModifiersEvent,
+                      put = __cordl_internal_set_getRecommendedGameplayModifiersEvent))::System::Action_1<::StringW>* getRecommendedGameplayModifiersEvent;
 
   /// @brief Field getIsStartButtonEnabledEvent, offset 0xb8, size 0x8
-  __declspec(property(get = __get_getIsStartButtonEnabledEvent, put = __set_getIsStartButtonEnabledEvent))::System::Action_1<::StringW>* getIsStartButtonEnabledEvent;
+  __declspec(property(get = __cordl_internal_get_getIsStartButtonEnabledEvent, put = __cordl_internal_set_getIsStartButtonEnabledEvent))::System::Action_1<::StringW>* getIsStartButtonEnabledEvent;
 
   /// @brief Field setIsStartButtonEnabledEvent, offset 0xc0, size 0x8
-  __declspec(property(get = __get_setIsStartButtonEnabledEvent,
-                      put = __set_setIsStartButtonEnabledEvent))::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>* setIsStartButtonEnabledEvent;
+  __declspec(property(get = __cordl_internal_get_setIsStartButtonEnabledEvent,
+                      put = __cordl_internal_set_setIsStartButtonEnabledEvent))::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>* setIsStartButtonEnabledEvent;
 
   /// @brief Field levelLoadErrorEvent, offset 0xc8, size 0x8
-  __declspec(property(get = __get_levelLoadErrorEvent, put = __set_levelLoadErrorEvent))::System::Action_2<::StringW, ::StringW>* levelLoadErrorEvent;
+  __declspec(property(get = __cordl_internal_get_levelLoadErrorEvent, put = __cordl_internal_set_levelLoadErrorEvent))::System::Action_2<::StringW, ::StringW>* levelLoadErrorEvent;
 
   /// @brief Field levelLoadSuccessEvent, offset 0xd0, size 0x8
-  __declspec(property(get = __get_levelLoadSuccessEvent, put = __set_levelLoadSuccessEvent))::System::Action_2<::StringW, ::StringW>* levelLoadSuccessEvent;
+  __declspec(property(get = __cordl_internal_get_levelLoadSuccessEvent, put = __cordl_internal_set_levelLoadSuccessEvent))::System::Action_2<::StringW, ::StringW>* levelLoadSuccessEvent;
 
   /// @brief Field startedLevelEvent, offset 0xd8, size 0x8
-  __declspec(
-      property(get = __get_startedLevelEvent,
-               put = __set_startedLevelEvent))::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* startedLevelEvent;
+  __declspec(property(get = __cordl_internal_get_startedLevelEvent, put = __cordl_internal_set_startedLevelEvent))::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*,
+                                                                                                                                     ::GlobalNamespace::GameplayModifiers*, int64_t>* startedLevelEvent;
 
   /// @brief Field getStartedLevelEvent, offset 0xe0, size 0x8
-  __declspec(property(get = __get_getStartedLevelEvent, put = __set_getStartedLevelEvent))::System::Action_1<::StringW>* getStartedLevelEvent;
+  __declspec(property(get = __cordl_internal_get_getStartedLevelEvent, put = __cordl_internal_set_getStartedLevelEvent))::System::Action_1<::StringW>* getStartedLevelEvent;
 
   /// @brief Field getMultiplayerGameStateEvent, offset 0xe8, size 0x8
-  __declspec(property(get = __get_getMultiplayerGameStateEvent, put = __set_getMultiplayerGameStateEvent))::System::Action_1<::StringW>* getMultiplayerGameStateEvent;
+  __declspec(property(get = __cordl_internal_get_getMultiplayerGameStateEvent, put = __cordl_internal_set_getMultiplayerGameStateEvent))::System::Action_1<::StringW>* getMultiplayerGameStateEvent;
 
   /// @brief Field setMultiplayerGameStateEvent, offset 0xf0, size 0x8
-  __declspec(property(get = __get_setMultiplayerGameStateEvent,
-                      put = __set_setMultiplayerGameStateEvent))::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>* setMultiplayerGameStateEvent;
+  __declspec(property(get = __cordl_internal_get_setMultiplayerGameStateEvent,
+                      put = __cordl_internal_set_setMultiplayerGameStateEvent))::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>* setMultiplayerGameStateEvent;
 
   /// @brief Field cancelCountdownEvent, offset 0xf8, size 0x8
-  __declspec(property(get = __get_cancelCountdownEvent, put = __set_cancelCountdownEvent))::System::Action_1<::StringW>* cancelCountdownEvent;
+  __declspec(property(get = __cordl_internal_get_cancelCountdownEvent, put = __cordl_internal_set_cancelCountdownEvent))::System::Action_1<::StringW>* cancelCountdownEvent;
 
   /// @brief Field setCountdownEndTimeEvent, offset 0x100, size 0x8
-  __declspec(property(get = __get_setCountdownEndTimeEvent, put = __set_setCountdownEndTimeEvent))::System::Action_2<::StringW, int64_t>* setCountdownEndTimeEvent;
+  __declspec(property(get = __cordl_internal_get_setCountdownEndTimeEvent, put = __cordl_internal_set_setCountdownEndTimeEvent))::System::Action_2<::StringW, int64_t>* setCountdownEndTimeEvent;
 
   /// @brief Field getCountdownEndTimeEvent, offset 0x108, size 0x8
-  __declspec(property(get = __get_getCountdownEndTimeEvent, put = __set_getCountdownEndTimeEvent))::System::Action_1<::StringW>* getCountdownEndTimeEvent;
+  __declspec(property(get = __cordl_internal_get_getCountdownEndTimeEvent, put = __cordl_internal_set_getCountdownEndTimeEvent))::System::Action_1<::StringW>* getCountdownEndTimeEvent;
 
   /// @brief Field cancelledLevelStartEvent, offset 0x110, size 0x8
-  __declspec(property(get = __get_cancelledLevelStartEvent, put = __set_cancelledLevelStartEvent))::System::Action_1<::StringW>* cancelledLevelStartEvent;
+  __declspec(property(get = __cordl_internal_get_cancelledLevelStartEvent, put = __cordl_internal_set_cancelledLevelStartEvent))::System::Action_1<::StringW>* cancelledLevelStartEvent;
 
   /// @brief Field getIsReadyEvent, offset 0x118, size 0x8
-  __declspec(property(get = __get_getIsReadyEvent, put = __set_getIsReadyEvent))::System::Action_1<::StringW>* getIsReadyEvent;
+  __declspec(property(get = __cordl_internal_get_getIsReadyEvent, put = __cordl_internal_set_getIsReadyEvent))::System::Action_1<::StringW>* getIsReadyEvent;
 
   /// @brief Field setIsReadyEvent, offset 0x120, size 0x8
-  __declspec(property(get = __get_setIsReadyEvent, put = __set_setIsReadyEvent))::System::Action_2<::StringW, bool>* setIsReadyEvent;
+  __declspec(property(get = __cordl_internal_get_setIsReadyEvent, put = __cordl_internal_set_setIsReadyEvent))::System::Action_2<::StringW, bool>* setIsReadyEvent;
 
   /// @brief Field setStartGameTimeEvent, offset 0x128, size 0x8
-  __declspec(property(get = __get_setStartGameTimeEvent, put = __set_setStartGameTimeEvent))::System::Action_2<::StringW, int64_t>* setStartGameTimeEvent;
+  __declspec(property(get = __cordl_internal_get_setStartGameTimeEvent, put = __cordl_internal_set_setStartGameTimeEvent))::System::Action_2<::StringW, int64_t>* setStartGameTimeEvent;
 
   /// @brief Field cancelStartGameTimeEvent, offset 0x130, size 0x8
-  __declspec(property(get = __get_cancelStartGameTimeEvent, put = __set_cancelStartGameTimeEvent))::System::Action_1<::StringW>* cancelStartGameTimeEvent;
+  __declspec(property(get = __cordl_internal_get_cancelStartGameTimeEvent, put = __cordl_internal_set_cancelStartGameTimeEvent))::System::Action_1<::StringW>* cancelStartGameTimeEvent;
 
   /// @brief Field getIsInLobbyEvent, offset 0x138, size 0x8
-  __declspec(property(get = __get_getIsInLobbyEvent, put = __set_getIsInLobbyEvent))::System::Action_1<::StringW>* getIsInLobbyEvent;
+  __declspec(property(get = __cordl_internal_get_getIsInLobbyEvent, put = __cordl_internal_set_getIsInLobbyEvent))::System::Action_1<::StringW>* getIsInLobbyEvent;
 
   /// @brief Field setIsInLobbyEvent, offset 0x140, size 0x8
-  __declspec(property(get = __get_setIsInLobbyEvent, put = __set_setIsInLobbyEvent))::System::Action_2<::StringW, bool>* setIsInLobbyEvent;
+  __declspec(property(get = __cordl_internal_get_setIsInLobbyEvent, put = __cordl_internal_set_setIsInLobbyEvent))::System::Action_2<::StringW, bool>* setIsInLobbyEvent;
 
   /// @brief Field getOwnedSongPacksEvent, offset 0x148, size 0x8
-  __declspec(property(get = __get_getOwnedSongPacksEvent, put = __set_getOwnedSongPacksEvent))::System::Action_1<::StringW>* getOwnedSongPacksEvent;
+  __declspec(property(get = __cordl_internal_get_getOwnedSongPacksEvent, put = __cordl_internal_set_getOwnedSongPacksEvent))::System::Action_1<::StringW>* getOwnedSongPacksEvent;
 
   /// @brief Field setOwnedSongPacksEvent, offset 0x150, size 0x8
-  __declspec(property(get = __get_setOwnedSongPacksEvent, put = __set_setOwnedSongPacksEvent))::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>* setOwnedSongPacksEvent;
+  __declspec(property(get = __cordl_internal_get_setOwnedSongPacksEvent,
+                      put = __cordl_internal_set_setOwnedSongPacksEvent))::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>* setOwnedSongPacksEvent;
 
   /// @brief Field requestedKickPlayerEvent, offset 0x158, size 0x8
-  __declspec(property(get = __get_requestedKickPlayerEvent, put = __set_requestedKickPlayerEvent))::System::Action_2<::StringW, ::StringW>* requestedKickPlayerEvent;
+  __declspec(property(get = __cordl_internal_get_requestedKickPlayerEvent, put = __cordl_internal_set_requestedKickPlayerEvent))::System::Action_2<::StringW, ::StringW>* requestedKickPlayerEvent;
 
   __declspec(property(get = get_multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
 
@@ -2206,260 +2211,260 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr ::GlobalNamespace::RpcHandler_1<::GlobalNamespace::__MenuRpcManager__RpcType>*& __get__rpcHandler();
+  constexpr ::GlobalNamespace::RpcHandler_1<::GlobalNamespace::__MenuRpcManager__RpcType>*& __cordl_internal_get__rpcHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RpcHandler_1<::GlobalNamespace::__MenuRpcManager__RpcType>*> const& __get__rpcHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RpcHandler_1<::GlobalNamespace::__MenuRpcManager__RpcType>*> const& __cordl_internal_get__rpcHandler() const;
 
-  constexpr void __set__rpcHandler(::GlobalNamespace::RpcHandler_1<::GlobalNamespace::__MenuRpcManager__RpcType>* value);
+  constexpr void __cordl_internal_set__rpcHandler(::GlobalNamespace::RpcHandler_1<::GlobalNamespace::__MenuRpcManager__RpcType>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_getPlayersPermissionConfigurationEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_getPlayersPermissionConfigurationEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_getPlayersPermissionConfigurationEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_getPlayersPermissionConfigurationEvent() const;
 
-  constexpr void __set_getPlayersPermissionConfigurationEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_getPlayersPermissionConfigurationEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*& __get_setPlayersPermissionConfigurationEvent();
+  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*& __cordl_internal_get_setPlayersPermissionConfigurationEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>*> const&
-  __get_setPlayersPermissionConfigurationEvent() const;
+  __cordl_internal_get_setPlayersPermissionConfigurationEvent() const;
 
-  constexpr void __set_setPlayersPermissionConfigurationEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* value);
+  constexpr void __cordl_internal_set_setPlayersPermissionConfigurationEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable*>* value);
 
-  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*& __get_setPlayersMissingEntitlementsToLevelEvent();
+  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*& __cordl_internal_get_setPlayersMissingEntitlementsToLevelEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>*> const&
-  __get_setPlayersMissingEntitlementsToLevelEvent() const;
+  __cordl_internal_get_setPlayersMissingEntitlementsToLevelEvent() const;
 
-  constexpr void __set_setPlayersMissingEntitlementsToLevelEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
+  constexpr void __cordl_internal_set_setPlayersMissingEntitlementsToLevelEvent(::System::Action_2<::StringW, ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*>* value);
 
-  constexpr ::System::Action_2<::StringW, ::StringW>*& __get_getIsEntitledToLevelEvent();
+  constexpr ::System::Action_2<::StringW, ::StringW>*& __cordl_internal_get_getIsEntitledToLevelEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::StringW>*> const& __get_getIsEntitledToLevelEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::StringW>*> const& __cordl_internal_get_getIsEntitledToLevelEvent() const;
 
-  constexpr void __set_getIsEntitledToLevelEvent(::System::Action_2<::StringW, ::StringW>* value);
+  constexpr void __cordl_internal_set_getIsEntitledToLevelEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  constexpr ::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>*& __get_setIsEntitledToLevelEvent();
+  constexpr ::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>*& __cordl_internal_get_setIsEntitledToLevelEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>*> const& __get_setIsEntitledToLevelEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>*> const& __cordl_internal_get_setIsEntitledToLevelEvent() const;
 
-  constexpr void __set_setIsEntitledToLevelEvent(::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>* value);
+  constexpr void __cordl_internal_set_setIsEntitledToLevelEvent(::System::Action_3<::StringW, ::StringW, ::GlobalNamespace::EntitlementsStatus>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_levelEntitlementStatusesInvalidatedEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_levelEntitlementStatusesInvalidatedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_levelEntitlementStatusesInvalidatedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_levelEntitlementStatusesInvalidatedEvent() const;
 
-  constexpr void __set_levelEntitlementStatusesInvalidatedEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_levelEntitlementStatusesInvalidatedEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_2<::StringW, ::StringW>*& __get_selectedLevelPackEvent();
+  constexpr ::System::Action_2<::StringW, ::StringW>*& __cordl_internal_get_selectedLevelPackEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::StringW>*> const& __get_selectedLevelPackEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::StringW>*> const& __cordl_internal_get_selectedLevelPackEvent() const;
 
-  constexpr void __set_selectedLevelPackEvent(::System::Action_2<::StringW, ::StringW>* value);
+  constexpr void __cordl_internal_set_selectedLevelPackEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>*& __get_setSelectedBeatmapEvent();
+  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>*& __cordl_internal_get_setSelectedBeatmapEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>*> const& __get_setSelectedBeatmapEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>*> const& __cordl_internal_get_setSelectedBeatmapEvent() const;
 
-  constexpr void __set_setSelectedBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
+  constexpr void __cordl_internal_set_setSelectedBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_clearSelectedBeatmapEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_clearSelectedBeatmapEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_clearSelectedBeatmapEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_clearSelectedBeatmapEvent() const;
 
-  constexpr void __set_clearSelectedBeatmapEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_clearSelectedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_getSelectedBeatmapEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_getSelectedBeatmapEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_getSelectedBeatmapEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_getSelectedBeatmapEvent() const;
 
-  constexpr void __set_getSelectedBeatmapEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_getSelectedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>*& __get_recommendBeatmapEvent();
+  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>*& __cordl_internal_get_recommendBeatmapEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>*> const& __get_recommendBeatmapEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>*> const& __cordl_internal_get_recommendBeatmapEvent() const;
 
-  constexpr void __set_recommendBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
+  constexpr void __cordl_internal_set_recommendBeatmapEvent(::System::Action_2<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_clearRecommendedBeatmapEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_clearRecommendedBeatmapEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_clearRecommendedBeatmapEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_clearRecommendedBeatmapEvent() const;
 
-  constexpr void __set_clearRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_clearRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_getRecommendedBeatmapEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_getRecommendedBeatmapEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_getRecommendedBeatmapEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_getRecommendedBeatmapEvent() const;
 
-  constexpr void __set_getRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_getRecommendedBeatmapEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>*& __get_setSelectedGameplayModifiersEvent();
+  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>*& __cordl_internal_get_setSelectedGameplayModifiersEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>*> const& __get_setSelectedGameplayModifiersEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>*> const& __cordl_internal_get_setSelectedGameplayModifiersEvent() const;
 
-  constexpr void __set_setSelectedGameplayModifiersEvent(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* value);
+  constexpr void __cordl_internal_set_setSelectedGameplayModifiersEvent(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_clearSelectedGameplayModifiersEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_clearSelectedGameplayModifiersEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_clearSelectedGameplayModifiersEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_clearSelectedGameplayModifiersEvent() const;
 
-  constexpr void __set_clearSelectedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_clearSelectedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_getSelectedGameplayModifiersEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_getSelectedGameplayModifiersEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_getSelectedGameplayModifiersEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_getSelectedGameplayModifiersEvent() const;
 
-  constexpr void __set_getSelectedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_getSelectedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>*& __get_recommendGameplayModifiersEvent();
+  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>*& __cordl_internal_get_recommendGameplayModifiersEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>*> const& __get_recommendGameplayModifiersEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>*> const& __cordl_internal_get_recommendGameplayModifiersEvent() const;
 
-  constexpr void __set_recommendGameplayModifiersEvent(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* value);
+  constexpr void __cordl_internal_set_recommendGameplayModifiersEvent(::System::Action_2<::StringW, ::GlobalNamespace::GameplayModifiers*>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_clearRecommendedGameplayModifiersEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_clearRecommendedGameplayModifiersEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_clearRecommendedGameplayModifiersEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_clearRecommendedGameplayModifiersEvent() const;
 
-  constexpr void __set_clearRecommendedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_clearRecommendedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_getRecommendedGameplayModifiersEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_getRecommendedGameplayModifiersEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_getRecommendedGameplayModifiersEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_getRecommendedGameplayModifiersEvent() const;
 
-  constexpr void __set_getRecommendedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_getRecommendedGameplayModifiersEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_getIsStartButtonEnabledEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_getIsStartButtonEnabledEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_getIsStartButtonEnabledEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_getIsStartButtonEnabledEvent() const;
 
-  constexpr void __set_getIsStartButtonEnabledEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_getIsStartButtonEnabledEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>*& __get_setIsStartButtonEnabledEvent();
+  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>*& __cordl_internal_get_setIsStartButtonEnabledEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>*> const& __get_setIsStartButtonEnabledEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>*> const& __cordl_internal_get_setIsStartButtonEnabledEvent() const;
 
-  constexpr void __set_setIsStartButtonEnabledEvent(::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>* value);
+  constexpr void __cordl_internal_set_setIsStartButtonEnabledEvent(::System::Action_2<::StringW, ::GlobalNamespace::CannotStartGameReason>* value);
 
-  constexpr ::System::Action_2<::StringW, ::StringW>*& __get_levelLoadErrorEvent();
+  constexpr ::System::Action_2<::StringW, ::StringW>*& __cordl_internal_get_levelLoadErrorEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::StringW>*> const& __get_levelLoadErrorEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::StringW>*> const& __cordl_internal_get_levelLoadErrorEvent() const;
 
-  constexpr void __set_levelLoadErrorEvent(::System::Action_2<::StringW, ::StringW>* value);
+  constexpr void __cordl_internal_set_levelLoadErrorEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  constexpr ::System::Action_2<::StringW, ::StringW>*& __get_levelLoadSuccessEvent();
+  constexpr ::System::Action_2<::StringW, ::StringW>*& __cordl_internal_get_levelLoadSuccessEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::StringW>*> const& __get_levelLoadSuccessEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::StringW>*> const& __cordl_internal_get_levelLoadSuccessEvent() const;
 
-  constexpr void __set_levelLoadSuccessEvent(::System::Action_2<::StringW, ::StringW>* value);
+  constexpr void __cordl_internal_set_levelLoadSuccessEvent(::System::Action_2<::StringW, ::StringW>* value);
 
-  constexpr ::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>*& __get_startedLevelEvent();
+  constexpr ::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>*& __cordl_internal_get_startedLevelEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>*> const&
-  __get_startedLevelEvent() const;
+  __cordl_internal_get_startedLevelEvent() const;
 
-  constexpr void __set_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* value);
+  constexpr void __cordl_internal_set_startedLevelEvent(::System::Action_4<::StringW, ::GlobalNamespace::BeatmapIdentifierNetSerializable*, ::GlobalNamespace::GameplayModifiers*, int64_t>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_getStartedLevelEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_getStartedLevelEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_getStartedLevelEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_getStartedLevelEvent() const;
 
-  constexpr void __set_getStartedLevelEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_getStartedLevelEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_getMultiplayerGameStateEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_getMultiplayerGameStateEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_getMultiplayerGameStateEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_getMultiplayerGameStateEvent() const;
 
-  constexpr void __set_getMultiplayerGameStateEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_getMultiplayerGameStateEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>*& __get_setMultiplayerGameStateEvent();
+  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>*& __cordl_internal_get_setMultiplayerGameStateEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>*> const& __get_setMultiplayerGameStateEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>*> const& __cordl_internal_get_setMultiplayerGameStateEvent() const;
 
-  constexpr void __set_setMultiplayerGameStateEvent(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>* value);
+  constexpr void __cordl_internal_set_setMultiplayerGameStateEvent(::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerGameState>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_cancelCountdownEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_cancelCountdownEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_cancelCountdownEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_cancelCountdownEvent() const;
 
-  constexpr void __set_cancelCountdownEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_cancelCountdownEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_2<::StringW, int64_t>*& __get_setCountdownEndTimeEvent();
+  constexpr ::System::Action_2<::StringW, int64_t>*& __cordl_internal_get_setCountdownEndTimeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, int64_t>*> const& __get_setCountdownEndTimeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, int64_t>*> const& __cordl_internal_get_setCountdownEndTimeEvent() const;
 
-  constexpr void __set_setCountdownEndTimeEvent(::System::Action_2<::StringW, int64_t>* value);
+  constexpr void __cordl_internal_set_setCountdownEndTimeEvent(::System::Action_2<::StringW, int64_t>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_getCountdownEndTimeEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_getCountdownEndTimeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_getCountdownEndTimeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_getCountdownEndTimeEvent() const;
 
-  constexpr void __set_getCountdownEndTimeEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_getCountdownEndTimeEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_cancelledLevelStartEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_cancelledLevelStartEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_cancelledLevelStartEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_cancelledLevelStartEvent() const;
 
-  constexpr void __set_cancelledLevelStartEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_cancelledLevelStartEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_getIsReadyEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_getIsReadyEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_getIsReadyEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_getIsReadyEvent() const;
 
-  constexpr void __set_getIsReadyEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_getIsReadyEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_2<::StringW, bool>*& __get_setIsReadyEvent();
+  constexpr ::System::Action_2<::StringW, bool>*& __cordl_internal_get_setIsReadyEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, bool>*> const& __get_setIsReadyEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, bool>*> const& __cordl_internal_get_setIsReadyEvent() const;
 
-  constexpr void __set_setIsReadyEvent(::System::Action_2<::StringW, bool>* value);
+  constexpr void __cordl_internal_set_setIsReadyEvent(::System::Action_2<::StringW, bool>* value);
 
-  constexpr ::System::Action_2<::StringW, int64_t>*& __get_setStartGameTimeEvent();
+  constexpr ::System::Action_2<::StringW, int64_t>*& __cordl_internal_get_setStartGameTimeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, int64_t>*> const& __get_setStartGameTimeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, int64_t>*> const& __cordl_internal_get_setStartGameTimeEvent() const;
 
-  constexpr void __set_setStartGameTimeEvent(::System::Action_2<::StringW, int64_t>* value);
+  constexpr void __cordl_internal_set_setStartGameTimeEvent(::System::Action_2<::StringW, int64_t>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_cancelStartGameTimeEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_cancelStartGameTimeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_cancelStartGameTimeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_cancelStartGameTimeEvent() const;
 
-  constexpr void __set_cancelStartGameTimeEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_cancelStartGameTimeEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_getIsInLobbyEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_getIsInLobbyEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_getIsInLobbyEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_getIsInLobbyEvent() const;
 
-  constexpr void __set_getIsInLobbyEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_getIsInLobbyEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_2<::StringW, bool>*& __get_setIsInLobbyEvent();
+  constexpr ::System::Action_2<::StringW, bool>*& __cordl_internal_get_setIsInLobbyEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, bool>*> const& __get_setIsInLobbyEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, bool>*> const& __cordl_internal_get_setIsInLobbyEvent() const;
 
-  constexpr void __set_setIsInLobbyEvent(::System::Action_2<::StringW, bool>* value);
+  constexpr void __cordl_internal_set_setIsInLobbyEvent(::System::Action_2<::StringW, bool>* value);
 
-  constexpr ::System::Action_1<::StringW>*& __get_getOwnedSongPacksEvent();
+  constexpr ::System::Action_1<::StringW>*& __cordl_internal_get_getOwnedSongPacksEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __get_getOwnedSongPacksEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& __cordl_internal_get_getOwnedSongPacksEvent() const;
 
-  constexpr void __set_getOwnedSongPacksEvent(::System::Action_1<::StringW>* value);
+  constexpr void __cordl_internal_set_getOwnedSongPacksEvent(::System::Action_1<::StringW>* value);
 
-  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>*& __get_setOwnedSongPacksEvent();
+  constexpr ::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>*& __cordl_internal_get_setOwnedSongPacksEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>*> const& __get_setOwnedSongPacksEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>*> const& __cordl_internal_get_setOwnedSongPacksEvent() const;
 
-  constexpr void __set_setOwnedSongPacksEvent(::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>* value);
+  constexpr void __cordl_internal_set_setOwnedSongPacksEvent(::System::Action_2<::StringW, ::GlobalNamespace::SongPackMask>* value);
 
-  constexpr ::System::Action_2<::StringW, ::StringW>*& __get_requestedKickPlayerEvent();
+  constexpr ::System::Action_2<::StringW, ::StringW>*& __cordl_internal_get_requestedKickPlayerEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::StringW>*> const& __get_requestedKickPlayerEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::StringW, ::StringW>*> const& __cordl_internal_get_requestedKickPlayerEvent() const;
 
-  constexpr void __set_requestedKickPlayerEvent(::System::Action_2<::StringW, ::StringW>* value);
+  constexpr void __cordl_internal_set_requestedKickPlayerEvent(::System::Action_2<::StringW, ::StringW>* value);
 
   /// @brief Method get_multiplayerSessionManager, addr 0xe43278, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();

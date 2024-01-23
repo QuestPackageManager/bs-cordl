@@ -72,20 +72,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__TutorialBeatmapObjectManager__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4830))
 // CS Name: ::TutorialBeatmapObjectManager::InitData*
 class CORDL_TYPE __TutorialBeatmapObjectManager__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field cutAngleTolerance, offset 0x10, size 0x4
-  __declspec(property(get = __get_cutAngleTolerance, put = __set_cutAngleTolerance)) float_t cutAngleTolerance;
+  __declspec(property(get = __cordl_internal_get_cutAngleTolerance, put = __cordl_internal_set_cutAngleTolerance)) float_t cutAngleTolerance;
 
-  constexpr float_t& __get_cutAngleTolerance();
+  constexpr float_t& __cordl_internal_get_cutAngleTolerance();
 
-  constexpr float_t const& __get_cutAngleTolerance() const;
+  constexpr float_t const& __cordl_internal_get_cutAngleTolerance() const;
 
-  constexpr void __set_cutAngleTolerance(float_t value);
+  constexpr void __cordl_internal_set_cutAngleTolerance(float_t value);
 
   static inline ::GlobalNamespace::__TutorialBeatmapObjectManager__InitData* New_ctor(float_t cutAngleTolerance);
 
@@ -121,7 +121,7 @@ static_assert(offsetof(::GlobalNamespace::__TutorialBeatmapObjectManager__InitDa
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4716))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4716))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4831))
 // CS Name: ::TutorialBeatmapObjectManager*
 class CORDL_TYPE TutorialBeatmapObjectManager : public ::GlobalNamespace::BeatmapObjectManager {
@@ -130,46 +130,49 @@ public:
   using InitData = ::GlobalNamespace::__TutorialBeatmapObjectManager__InitData;
 
   /// @brief Field _tutorialNotePoolContainer, offset 0x98, size 0x8
-  __declspec(property(get = __get__tutorialNotePoolContainer,
-                      put = __set__tutorialNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::TutorialNoteController*>* _tutorialNotePoolContainer;
+  __declspec(property(get = __cordl_internal_get__tutorialNotePoolContainer,
+                      put = __cordl_internal_set__tutorialNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::TutorialNoteController>>* _tutorialNotePoolContainer;
 
   /// @brief Field _bombNotePoolContainer, offset 0xa0, size 0x8
-  __declspec(property(get = __get__bombNotePoolContainer, put = __set__bombNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BombNoteController*>* _bombNotePoolContainer;
+  __declspec(property(get = __cordl_internal_get__bombNotePoolContainer,
+                      put = __cordl_internal_set__bombNotePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>* _bombNotePoolContainer;
 
   /// @brief Field _obstaclePoolContainer, offset 0xa8, size 0x8
-  __declspec(property(get = __get__obstaclePoolContainer, put = __set__obstaclePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ObstacleController*>* _obstaclePoolContainer;
+  __declspec(property(get = __cordl_internal_get__obstaclePoolContainer,
+                      put = __cordl_internal_set__obstaclePoolContainer))::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ObstacleController>>* _obstaclePoolContainer;
 
   /// @brief Field _initData, offset 0xb0, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__TutorialBeatmapObjectManager__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__TutorialBeatmapObjectManager__InitData* _initData;
 
-  __declspec(property(get = get_activeObstacleControllers))::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* activeObstacleControllers;
+  __declspec(property(get = get_activeObstacleControllers))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* activeObstacleControllers;
 
-  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::TutorialNoteController*>*& __get__tutorialNotePoolContainer();
+  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::TutorialNoteController>>*& __cordl_internal_get__tutorialNotePoolContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::TutorialNoteController*>*> const& __get__tutorialNotePoolContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::TutorialNoteController>>*> const&
+  __cordl_internal_get__tutorialNotePoolContainer() const;
 
-  constexpr void __set__tutorialNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::TutorialNoteController*>* value);
+  constexpr void __cordl_internal_set__tutorialNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::TutorialNoteController>>* value);
 
-  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BombNoteController*>*& __get__bombNotePoolContainer();
+  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>*& __cordl_internal_get__bombNotePoolContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BombNoteController*>*> const& __get__bombNotePoolContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>*> const& __cordl_internal_get__bombNotePoolContainer() const;
 
-  constexpr void __set__bombNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BombNoteController*>* value);
+  constexpr void __cordl_internal_set__bombNotePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>* value);
 
-  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ObstacleController*>*& __get__obstaclePoolContainer();
+  constexpr ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get__obstaclePoolContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ObstacleController*>*> const& __get__obstaclePoolContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ObstacleController>>*> const& __cordl_internal_get__obstaclePoolContainer() const;
 
-  constexpr void __set__obstaclePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ObstacleController*>* value);
+  constexpr void __cordl_internal_set__obstaclePoolContainer(::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  constexpr ::GlobalNamespace::__TutorialBeatmapObjectManager__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__TutorialBeatmapObjectManager__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__TutorialBeatmapObjectManager__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__TutorialBeatmapObjectManager__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__TutorialBeatmapObjectManager__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__TutorialBeatmapObjectManager__InitData* value);
 
   /// @brief Method get_activeObstacleControllers, addr 0x2395bf0, size 0x50, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::GlobalNamespace::ObstacleController*>* get_activeObstacleControllers();
+  inline ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* get_activeObstacleControllers();
 
   /// @brief Method Init, addr 0x2395c40, size 0x12c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::__TutorialBeatmapObjectManager__InitData* initData, ::GlobalNamespace::__TutorialNoteController__Pool* tutorialNotePool,
@@ -214,13 +217,13 @@ protected:
 
 public:
   /// @brief Field _tutorialNotePoolContainer, offset: 0x98, size: 0x8, def value: None
-  ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::TutorialNoteController*>* ____tutorialNotePoolContainer;
+  ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::TutorialNoteController>>* ____tutorialNotePoolContainer;
 
   /// @brief Field _bombNotePoolContainer, offset: 0xa0, size: 0x8, def value: None
-  ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::BombNoteController*>* ____bombNotePoolContainer;
+  ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::BombNoteController>>* ____bombNotePoolContainer;
 
   /// @brief Field _obstaclePoolContainer, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::MemoryPoolContainer_1<::GlobalNamespace::ObstacleController*>* ____obstaclePoolContainer;
+  ::GlobalNamespace::MemoryPoolContainer_1<::UnityW<::GlobalNamespace::ObstacleController>>* ____obstaclePoolContainer;
 
   /// @brief Field _initData, offset: 0xb0, size: 0x8, def value: None
   ::GlobalNamespace::__TutorialBeatmapObjectManager__InitData* ____initData;

@@ -21,40 +21,40 @@ MARK_REF_PTR_T(::GlobalNamespace::RectangleFakeGlowLightWithId);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14542))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4991))
 // CS Name: ::RectangleFakeGlowLightWithId*
 class CORDL_TYPE RectangleFakeGlowLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
   // Declarations
   /// @brief Field _minAlpha, offset 0x2c, size 0x4
-  __declspec(property(get = __get__minAlpha, put = __set__minAlpha)) float_t _minAlpha;
+  __declspec(property(get = __cordl_internal_get__minAlpha, put = __cordl_internal_set__minAlpha)) float_t _minAlpha;
 
   /// @brief Field _alphaMul, offset 0x30, size 0x4
-  __declspec(property(get = __get__alphaMul, put = __set__alphaMul)) float_t _alphaMul;
+  __declspec(property(get = __cordl_internal_get__alphaMul, put = __cordl_internal_set__alphaMul)) float_t _alphaMul;
 
   /// @brief Field _rectangleFakeGlow, offset 0x38, size 0x8
-  __declspec(property(get = __get__rectangleFakeGlow, put = __set__rectangleFakeGlow))::GlobalNamespace::RectangleFakeGlow* _rectangleFakeGlow;
+  __declspec(property(get = __cordl_internal_get__rectangleFakeGlow, put = __cordl_internal_set__rectangleFakeGlow))::UnityW<::GlobalNamespace::RectangleFakeGlow> _rectangleFakeGlow;
 
   __declspec(property(get = get_color))::UnityEngine::Color color;
 
-  constexpr float_t& __get__minAlpha();
+  constexpr float_t& __cordl_internal_get__minAlpha();
 
-  constexpr float_t const& __get__minAlpha() const;
+  constexpr float_t const& __cordl_internal_get__minAlpha() const;
 
-  constexpr void __set__minAlpha(float_t value);
+  constexpr void __cordl_internal_set__minAlpha(float_t value);
 
-  constexpr float_t& __get__alphaMul();
+  constexpr float_t& __cordl_internal_get__alphaMul();
 
-  constexpr float_t const& __get__alphaMul() const;
+  constexpr float_t const& __cordl_internal_get__alphaMul() const;
 
-  constexpr void __set__alphaMul(float_t value);
+  constexpr void __cordl_internal_set__alphaMul(float_t value);
 
-  constexpr ::GlobalNamespace::RectangleFakeGlow*& __get__rectangleFakeGlow();
+  constexpr ::UnityW<::GlobalNamespace::RectangleFakeGlow>& __cordl_internal_get__rectangleFakeGlow();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RectangleFakeGlow*> const& __get__rectangleFakeGlow() const;
+  constexpr ::UnityW<::GlobalNamespace::RectangleFakeGlow> const& __cordl_internal_get__rectangleFakeGlow() const;
 
-  constexpr void __set__rectangleFakeGlow(::GlobalNamespace::RectangleFakeGlow* value);
+  constexpr void __cordl_internal_set__rectangleFakeGlow(::UnityW<::GlobalNamespace::RectangleFakeGlow> value);
 
   /// @brief Method get_color, addr 0x23b5220, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
@@ -88,7 +88,7 @@ public:
   float_t ____alphaMul;
 
   /// @brief Field _rectangleFakeGlow, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::RectangleFakeGlow* ____rectangleFakeGlow;
+  ::UnityW<::GlobalNamespace::RectangleFakeGlow> ____rectangleFakeGlow;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

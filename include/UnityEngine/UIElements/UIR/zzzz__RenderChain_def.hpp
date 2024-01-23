@@ -150,7 +150,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7389))
 // CS Name: ::RenderChain::DepthOrderedDirtyTracking
 struct CORDL_TYPE __RenderChain__DepthOrderedDirtyTracking {
@@ -219,7 +219,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__DepthOrder
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7390))
 // CS Name: ::RenderChain::RenderChainStaticIndexAllocator
 #pragma pack(push, 0)
@@ -263,22 +263,22 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(9994)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 751
-// }), TypeDefinitionIndex(TypeDefinitionIndex(7424)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 755 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7391)) CS
-// Name: ::RenderChain::RenderNodeData
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7424)), TypeDefinitionIndex(TypeDefinitionIndex(9994)), TypeDefinitionIndex(TypeDefinitionIndex(10246)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 751 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9994), inst: 755 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(7391)) CS Name: ::RenderChain::RenderNodeData
 struct CORDL_TYPE __RenderChain__RenderNodeData {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "standardMaterial", ty: "::UnityEngine::Material*", modifiers: "", def_value: None }, CppParam { name: "initialMaterial", ty: "::UnityEngine::Material*",
-  // modifiers: "", def_value: None }, CppParam { name: "matPropBlock", ty: "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: None }, CppParam { name: "firstCommand", ty:
-  // "::UnityEngine::UIElements::UIR::RenderChainCommand*", modifiers: "", def_value: None }, CppParam { name: "device", ty: "::UnityEngine::UIElements::UIR::UIRenderDevice*", modifiers: "",
-  // def_value: None }, CppParam { name: "vectorAtlas", ty: "::UnityEngine::Texture*", modifiers: "", def_value: None }, CppParam { name: "shaderInfoAtlas", ty: "::UnityEngine::Texture*", modifiers:
-  // "", def_value: None }, CppParam { name: "dpiScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "transformConstants", ty:
-  // "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::Transform3x4>", modifiers: "", def_value: None }, CppParam { name: "clipRectConstants", ty:
-  // "::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4>", modifiers: "", def_value: None }]
-  constexpr __RenderChain__RenderNodeData(::UnityEngine::Material* standardMaterial, ::UnityEngine::Material* initialMaterial, ::UnityEngine::MaterialPropertyBlock* matPropBlock,
-                                          ::UnityEngine::UIElements::UIR::RenderChainCommand* firstCommand, ::UnityEngine::UIElements::UIR::UIRenderDevice* device, ::UnityEngine::Texture* vectorAtlas,
-                                          ::UnityEngine::Texture* shaderInfoAtlas, float_t dpiScale,
+  // Ctor Parameters [CppParam { name: "standardMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "initialMaterial", ty:
+  // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "matPropBlock", ty: "::UnityEngine::MaterialPropertyBlock*", modifiers: "", def_value: None }, CppParam {
+  // name: "firstCommand", ty: "::UnityEngine::UIElements::UIR::RenderChainCommand*", modifiers: "", def_value: None }, CppParam { name: "device", ty:
+  // "::UnityEngine::UIElements::UIR::UIRenderDevice*", modifiers: "", def_value: None }, CppParam { name: "vectorAtlas", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None },
+  // CppParam { name: "shaderInfoAtlas", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }, CppParam { name: "dpiScale", ty: "float_t", modifiers: "", def_value: None },
+  // CppParam { name: "transformConstants", ty: "::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::Transform3x4>", modifiers: "", def_value: None }, CppParam { name:
+  // "clipRectConstants", ty: "::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4>", modifiers: "", def_value: None }]
+  constexpr __RenderChain__RenderNodeData(::UnityW<::UnityEngine::Material> standardMaterial, ::UnityW<::UnityEngine::Material> initialMaterial, ::UnityEngine::MaterialPropertyBlock* matPropBlock,
+                                          ::UnityEngine::UIElements::UIR::RenderChainCommand* firstCommand, ::UnityEngine::UIElements::UIR::UIRenderDevice* device,
+                                          ::UnityW<::UnityEngine::Texture> vectorAtlas, ::UnityW<::UnityEngine::Texture> shaderInfoAtlas, float_t dpiScale,
                                           ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::Transform3x4> transformConstants,
                                           ::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4> clipRectConstants) noexcept;
 
@@ -287,10 +287,10 @@ public:
   constexpr __RenderChain__RenderNodeData();
 
   /// @brief Field standardMaterial, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::Material* standardMaterial;
+  ::UnityW<::UnityEngine::Material> standardMaterial;
 
   /// @brief Field initialMaterial, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::Material* initialMaterial;
+  ::UnityW<::UnityEngine::Material> initialMaterial;
 
   /// @brief Field matPropBlock, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::MaterialPropertyBlock* matPropBlock;
@@ -302,10 +302,10 @@ public:
   ::UnityEngine::UIElements::UIR::UIRenderDevice* device;
 
   /// @brief Field vectorAtlas, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Texture* vectorAtlas;
+  ::UnityW<::UnityEngine::Texture> vectorAtlas;
 
   /// @brief Field shaderInfoAtlas, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Texture* shaderInfoAtlas;
+  ::UnityW<::UnityEngine::Texture> shaderInfoAtlas;
 
   /// @brief Field dpiScale, offset: 0x38, size: 0x4, def value: None
   float_t dpiScale;
@@ -349,7 +349,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__RenderChain__RenderNode
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7392))
 // CS Name: ::RenderChain::<>c*
 class CORDL_TYPE __RenderChain____c : public ::System::Object {
@@ -411,8 +411,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 552, native_size: -1, calculated_instance_size: 552, calculated_native_size: 546, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(7389)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7388)), TypeDefinitionIndex(TypeDefinitionIndex(7377))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7393)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7377)), TypeDefinitionIndex(TypeDefinitionIndex(7388)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7389)), TypeDefinitionIndex(TypeDefinitionIndex(9966))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7393)) CS Name:
 // ::UnityEngine.UIElements.UIR::RenderChain*
 class CORDL_TYPE RenderChain : public ::System::Object {
 public:
@@ -426,107 +426,111 @@ public:
   using DepthOrderedDirtyTracking = ::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking;
 
   /// @brief Field m_FirstCommand, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_FirstCommand, put = __set_m_FirstCommand))::UnityEngine::UIElements::UIR::RenderChainCommand* m_FirstCommand;
+  __declspec(property(get = __cordl_internal_get_m_FirstCommand, put = __cordl_internal_set_m_FirstCommand))::UnityEngine::UIElements::UIR::RenderChainCommand* m_FirstCommand;
 
   /// @brief Field m_DirtyTracker, offset 0x18, size 0x28
-  __declspec(property(get = __get_m_DirtyTracker, put = __set_m_DirtyTracker))::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking m_DirtyTracker;
+  __declspec(property(get = __cordl_internal_get_m_DirtyTracker, put = __cordl_internal_set_m_DirtyTracker))::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking m_DirtyTracker;
 
   /// @brief Field m_CommandPool, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_CommandPool, put = __set_m_CommandPool))::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* m_CommandPool;
+  __declspec(property(get = __cordl_internal_get_m_CommandPool,
+                      put = __cordl_internal_set_m_CommandPool))::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* m_CommandPool;
 
   /// @brief Field m_TexturePool, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_TexturePool, put = __set_m_TexturePool))::UnityEngine::UIElements::UIR::BasicNodePool_1<::UnityEngine::UIElements::UIR::TextureEntry>* m_TexturePool;
+  __declspec(property(get = __cordl_internal_get_m_TexturePool,
+                      put = __cordl_internal_set_m_TexturePool))::UnityEngine::UIElements::UIR::BasicNodePool_1<::UnityEngine::UIElements::UIR::TextureEntry>* m_TexturePool;
 
   /// @brief Field m_RenderNodesData, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_RenderNodesData,
-                      put = __set_m_RenderNodesData))::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>* m_RenderNodesData;
+  __declspec(property(get = __cordl_internal_get_m_RenderNodesData,
+                      put = __cordl_internal_set_m_RenderNodesData))::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>* m_RenderNodesData;
 
   /// @brief Field m_DefaultShader, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_DefaultShader, put = __set_m_DefaultShader))::UnityEngine::Shader* m_DefaultShader;
+  __declspec(property(get = __cordl_internal_get_m_DefaultShader, put = __cordl_internal_set_m_DefaultShader))::UnityW<::UnityEngine::Shader> m_DefaultShader;
 
   /// @brief Field m_DefaultWorldSpaceShader, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_DefaultWorldSpaceShader, put = __set_m_DefaultWorldSpaceShader))::UnityEngine::Shader* m_DefaultWorldSpaceShader;
+  __declspec(property(get = __cordl_internal_get_m_DefaultWorldSpaceShader, put = __cordl_internal_set_m_DefaultWorldSpaceShader))::UnityW<::UnityEngine::Shader> m_DefaultWorldSpaceShader;
 
   /// @brief Field m_DefaultMat, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_DefaultMat, put = __set_m_DefaultMat))::UnityEngine::Material* m_DefaultMat;
+  __declspec(property(get = __cordl_internal_get_m_DefaultMat, put = __cordl_internal_set_m_DefaultMat))::UnityW<::UnityEngine::Material> m_DefaultMat;
 
   /// @brief Field m_DefaultWorldSpaceMat, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_DefaultWorldSpaceMat, put = __set_m_DefaultWorldSpaceMat))::UnityEngine::Material* m_DefaultWorldSpaceMat;
+  __declspec(property(get = __cordl_internal_get_m_DefaultWorldSpaceMat, put = __cordl_internal_set_m_DefaultWorldSpaceMat))::UnityW<::UnityEngine::Material> m_DefaultWorldSpaceMat;
 
   /// @brief Field m_BlockDirtyRegistration, offset 0x78, size 0x1
-  __declspec(property(get = __get_m_BlockDirtyRegistration, put = __set_m_BlockDirtyRegistration)) bool m_BlockDirtyRegistration;
+  __declspec(property(get = __cordl_internal_get_m_BlockDirtyRegistration, put = __cordl_internal_set_m_BlockDirtyRegistration)) bool m_BlockDirtyRegistration;
 
   /// @brief Field m_StaticIndex, offset 0x7c, size 0x4
-  __declspec(property(get = __get_m_StaticIndex, put = __set_m_StaticIndex)) int32_t m_StaticIndex;
+  __declspec(property(get = __cordl_internal_get_m_StaticIndex, put = __cordl_internal_set_m_StaticIndex)) int32_t m_StaticIndex;
 
   /// @brief Field m_ActiveRenderNodes, offset 0x80, size 0x4
-  __declspec(property(get = __get_m_ActiveRenderNodes, put = __set_m_ActiveRenderNodes)) int32_t m_ActiveRenderNodes;
+  __declspec(property(get = __cordl_internal_get_m_ActiveRenderNodes, put = __cordl_internal_set_m_ActiveRenderNodes)) int32_t m_ActiveRenderNodes;
 
   /// @brief Field m_CustomMaterialCommands, offset 0x84, size 0x4
-  __declspec(property(get = __get_m_CustomMaterialCommands, put = __set_m_CustomMaterialCommands)) int32_t m_CustomMaterialCommands;
+  __declspec(property(get = __cordl_internal_get_m_CustomMaterialCommands, put = __cordl_internal_set_m_CustomMaterialCommands)) int32_t m_CustomMaterialCommands;
 
   /// @brief Field m_Stats, offset 0x88, size 0x60
-  __declspec(property(get = __get_m_Stats, put = __set_m_Stats))::UnityEngine::UIElements::UIR::ChainBuilderStats m_Stats;
+  __declspec(property(get = __cordl_internal_get_m_Stats, put = __cordl_internal_set_m_Stats))::UnityEngine::UIElements::UIR::ChainBuilderStats m_Stats;
 
   /// @brief Field m_StatsElementsAdded, offset 0xe8, size 0x4
-  __declspec(property(get = __get_m_StatsElementsAdded, put = __set_m_StatsElementsAdded)) uint32_t m_StatsElementsAdded;
+  __declspec(property(get = __cordl_internal_get_m_StatsElementsAdded, put = __cordl_internal_set_m_StatsElementsAdded)) uint32_t m_StatsElementsAdded;
 
   /// @brief Field m_StatsElementsRemoved, offset 0xec, size 0x4
-  __declspec(property(get = __get_m_StatsElementsRemoved, put = __set_m_StatsElementsRemoved)) uint32_t m_StatsElementsRemoved;
+  __declspec(property(get = __cordl_internal_get_m_StatsElementsRemoved, put = __cordl_internal_set_m_StatsElementsRemoved)) uint32_t m_StatsElementsRemoved;
 
   /// @brief Field m_FirstTextElement, offset 0xf0, size 0x8
-  __declspec(property(get = __get_m_FirstTextElement, put = __set_m_FirstTextElement))::UnityEngine::UIElements::VisualElement* m_FirstTextElement;
+  __declspec(property(get = __cordl_internal_get_m_FirstTextElement, put = __cordl_internal_set_m_FirstTextElement))::UnityEngine::UIElements::VisualElement* m_FirstTextElement;
 
   /// @brief Field m_TextUpdatePainter, offset 0xf8, size 0x8
-  __declspec(property(get = __get_m_TextUpdatePainter, put = __set_m_TextUpdatePainter))::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter* m_TextUpdatePainter;
+  __declspec(property(get = __cordl_internal_get_m_TextUpdatePainter,
+                      put = __cordl_internal_set_m_TextUpdatePainter))::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter* m_TextUpdatePainter;
 
   /// @brief Field m_TextElementCount, offset 0x100, size 0x4
-  __declspec(property(get = __get_m_TextElementCount, put = __set_m_TextElementCount)) int32_t m_TextElementCount;
+  __declspec(property(get = __cordl_internal_get_m_TextElementCount, put = __cordl_internal_set_m_TextElementCount)) int32_t m_TextElementCount;
 
   /// @brief Field m_DirtyTextStartIndex, offset 0x104, size 0x4
-  __declspec(property(get = __get_m_DirtyTextStartIndex, put = __set_m_DirtyTextStartIndex)) int32_t m_DirtyTextStartIndex;
+  __declspec(property(get = __cordl_internal_get_m_DirtyTextStartIndex, put = __cordl_internal_set_m_DirtyTextStartIndex)) int32_t m_DirtyTextStartIndex;
 
   /// @brief Field m_DirtyTextRemaining, offset 0x108, size 0x4
-  __declspec(property(get = __get_m_DirtyTextRemaining, put = __set_m_DirtyTextRemaining)) int32_t m_DirtyTextRemaining;
+  __declspec(property(get = __cordl_internal_get_m_DirtyTextRemaining, put = __cordl_internal_set_m_DirtyTextRemaining)) int32_t m_DirtyTextRemaining;
 
   /// @brief Field m_FontWasReset, offset 0x10c, size 0x1
-  __declspec(property(get = __get_m_FontWasReset, put = __set_m_FontWasReset)) bool m_FontWasReset;
+  __declspec(property(get = __cordl_internal_get_m_FontWasReset, put = __cordl_internal_set_m_FontWasReset)) bool m_FontWasReset;
 
   /// @brief Field m_LastGroupTransformElementScale, offset 0x110, size 0x8
-  __declspec(property(
-      get = __get_m_LastGroupTransformElementScale,
-      put = __set_m_LastGroupTransformElementScale))::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Vector2>* m_LastGroupTransformElementScale;
+  __declspec(property(get = __cordl_internal_get_m_LastGroupTransformElementScale,
+                      put = __cordl_internal_set_m_LastGroupTransformElementScale))::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VisualElement*,
+                                                                                                                                ::UnityEngine::Vector2>* m_LastGroupTransformElementScale;
 
   /// @brief Field m_TextureRegistry, offset 0x118, size 0x8
-  __declspec(property(get = __get_m_TextureRegistry, put = __set_m_TextureRegistry))::UnityEngine::UIElements::TextureRegistry* m_TextureRegistry;
+  __declspec(property(get = __cordl_internal_get_m_TextureRegistry, put = __cordl_internal_set_m_TextureRegistry))::UnityEngine::UIElements::TextureRegistry* m_TextureRegistry;
 
   /// @brief Field <disposed>k__BackingField, offset 0x120, size 0x1
-  __declspec(property(get = __get__disposed_k__BackingField, put = __set__disposed_k__BackingField)) bool _disposed_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__disposed_k__BackingField, put = __cordl_internal_set__disposed_k__BackingField)) bool _disposed_k__BackingField;
 
   /// @brief Field <panel>k__BackingField, offset 0x128, size 0x8
-  __declspec(property(get = __get__panel_k__BackingField, put = __set__panel_k__BackingField))::UnityEngine::UIElements::BaseVisualElementPanel* _panel_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__panel_k__BackingField, put = __cordl_internal_set__panel_k__BackingField))::UnityEngine::UIElements::BaseVisualElementPanel* _panel_k__BackingField;
 
   /// @brief Field <device>k__BackingField, offset 0x130, size 0x8
-  __declspec(property(get = __get__device_k__BackingField, put = __set__device_k__BackingField))::UnityEngine::UIElements::UIR::UIRenderDevice* _device_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__device_k__BackingField, put = __cordl_internal_set__device_k__BackingField))::UnityEngine::UIElements::UIR::UIRenderDevice* _device_k__BackingField;
 
   /// @brief Field <atlas>k__BackingField, offset 0x138, size 0x8
-  __declspec(property(get = __get__atlas_k__BackingField, put = __set__atlas_k__BackingField))::UnityEngine::UIElements::AtlasBase* _atlas_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__atlas_k__BackingField, put = __cordl_internal_set__atlas_k__BackingField))::UnityEngine::UIElements::AtlasBase* _atlas_k__BackingField;
 
   /// @brief Field <vectorImageManager>k__BackingField, offset 0x140, size 0x8
-  __declspec(property(get = __get__vectorImageManager_k__BackingField,
-                      put = __set__vectorImageManager_k__BackingField))::UnityEngine::UIElements::UIR::VectorImageManager* _vectorImageManager_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__vectorImageManager_k__BackingField,
+                      put = __cordl_internal_set__vectorImageManager_k__BackingField))::UnityEngine::UIElements::UIR::VectorImageManager* _vectorImageManager_k__BackingField;
 
   /// @brief Field shaderInfoAllocator, offset 0x148, size 0xd0
-  __declspec(property(get = __get_shaderInfoAllocator, put = __set_shaderInfoAllocator))::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator shaderInfoAllocator;
+  __declspec(property(get = __cordl_internal_get_shaderInfoAllocator, put = __cordl_internal_set_shaderInfoAllocator))::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator shaderInfoAllocator;
 
   /// @brief Field <painter>k__BackingField, offset 0x218, size 0x8
-  __declspec(property(get = __get__painter_k__BackingField, put = __set__painter_k__BackingField))::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* _painter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__painter_k__BackingField,
+                      put = __cordl_internal_set__painter_k__BackingField))::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* _painter_k__BackingField;
 
   /// @brief Field <drawStats>k__BackingField, offset 0x220, size 0x1
-  __declspec(property(get = __get__drawStats_k__BackingField, put = __set__drawStats_k__BackingField)) bool _drawStats_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__drawStats_k__BackingField, put = __cordl_internal_set__drawStats_k__BackingField)) bool _drawStats_k__BackingField;
 
   /// @brief Field <drawInCameras>k__BackingField, offset 0x221, size 0x1
-  __declspec(property(get = __get__drawInCameras_k__BackingField, put = __set__drawInCameras_k__BackingField)) bool _drawInCameras_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__drawInCameras_k__BackingField, put = __cordl_internal_set__drawInCameras_k__BackingField)) bool _drawInCameras_k__BackingField;
 
   /// @brief Field s_MarkerProcess, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_MarkerProcess, put = setStaticF_s_MarkerProcess))::Unity::Profiling::ProfilerMarker s_MarkerProcess;
@@ -568,9 +572,9 @@ public:
 
   __declspec(property(get = get_drawInCameras, put = set_drawInCameras)) bool drawInCameras;
 
-  __declspec(property(put = set_defaultShader))::UnityEngine::Shader* defaultShader;
+  __declspec(property(put = set_defaultShader))::UnityW<::UnityEngine::Shader> defaultShader;
 
-  __declspec(property(put = set_defaultWorldSpaceShader))::UnityEngine::Shader* defaultWorldSpaceShader;
+  __declspec(property(put = set_defaultWorldSpaceShader))::UnityW<::UnityEngine::Shader> defaultWorldSpaceShader;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -578,204 +582,205 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand*& __get_m_FirstCommand();
+  constexpr ::UnityEngine::UIElements::UIR::RenderChainCommand*& __cordl_internal_get_m_FirstCommand();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::RenderChainCommand*> const& __get_m_FirstCommand() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::RenderChainCommand*> const& __cordl_internal_get_m_FirstCommand() const;
 
-  constexpr void __set_m_FirstCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
+  constexpr void __cordl_internal_set_m_FirstCommand(::UnityEngine::UIElements::UIR::RenderChainCommand* value);
 
-  constexpr ::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking& __get_m_DirtyTracker();
+  constexpr ::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking& __cordl_internal_get_m_DirtyTracker();
 
-  constexpr ::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking const& __get_m_DirtyTracker() const;
+  constexpr ::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking const& __cordl_internal_get_m_DirtyTracker() const;
 
-  constexpr void __set_m_DirtyTracker(::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking value);
+  constexpr void __cordl_internal_set_m_DirtyTracker(::UnityEngine::UIElements::UIR::__RenderChain__DepthOrderedDirtyTracking value);
 
-  constexpr ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>*& __get_m_CommandPool();
+  constexpr ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>*& __cordl_internal_get_m_CommandPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>*> const& __get_m_CommandPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>*> const& __cordl_internal_get_m_CommandPool() const;
 
-  constexpr void __set_m_CommandPool(::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* value);
+  constexpr void __cordl_internal_set_m_CommandPool(::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::RenderChainCommand*>* value);
 
-  constexpr ::UnityEngine::UIElements::UIR::BasicNodePool_1<::UnityEngine::UIElements::UIR::TextureEntry>*& __get_m_TexturePool();
+  constexpr ::UnityEngine::UIElements::UIR::BasicNodePool_1<::UnityEngine::UIElements::UIR::TextureEntry>*& __cordl_internal_get_m_TexturePool();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BasicNodePool_1<::UnityEngine::UIElements::UIR::TextureEntry>*> const& __get_m_TexturePool() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::BasicNodePool_1<::UnityEngine::UIElements::UIR::TextureEntry>*> const& __cordl_internal_get_m_TexturePool() const;
 
-  constexpr void __set_m_TexturePool(::UnityEngine::UIElements::UIR::BasicNodePool_1<::UnityEngine::UIElements::UIR::TextureEntry>* value);
+  constexpr void __cordl_internal_set_m_TexturePool(::UnityEngine::UIElements::UIR::BasicNodePool_1<::UnityEngine::UIElements::UIR::TextureEntry>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>*& __get_m_RenderNodesData();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>*& __cordl_internal_get_m_RenderNodesData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>*> const& __get_m_RenderNodesData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>*> const&
+  __cordl_internal_get_m_RenderNodesData() const;
 
-  constexpr void __set_m_RenderNodesData(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>* value);
+  constexpr void __cordl_internal_set_m_RenderNodesData(::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>* value);
 
-  constexpr ::UnityEngine::Shader*& __get_m_DefaultShader();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_m_DefaultShader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get_m_DefaultShader() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_DefaultShader() const;
 
-  constexpr void __set_m_DefaultShader(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set_m_DefaultShader(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr ::UnityEngine::Shader*& __get_m_DefaultWorldSpaceShader();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_m_DefaultWorldSpaceShader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get_m_DefaultWorldSpaceShader() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_DefaultWorldSpaceShader() const;
 
-  constexpr void __set_m_DefaultWorldSpaceShader(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set_m_DefaultWorldSpaceShader(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr ::UnityEngine::Material*& __get_m_DefaultMat();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_m_DefaultMat();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_m_DefaultMat() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_m_DefaultMat() const;
 
-  constexpr void __set_m_DefaultMat(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_m_DefaultMat(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get_m_DefaultWorldSpaceMat();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_m_DefaultWorldSpaceMat();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get_m_DefaultWorldSpaceMat() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_m_DefaultWorldSpaceMat() const;
 
-  constexpr void __set_m_DefaultWorldSpaceMat(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set_m_DefaultWorldSpaceMat(::UnityW<::UnityEngine::Material> value);
 
-  constexpr bool& __get_m_BlockDirtyRegistration();
+  constexpr bool& __cordl_internal_get_m_BlockDirtyRegistration();
 
-  constexpr bool const& __get_m_BlockDirtyRegistration() const;
+  constexpr bool const& __cordl_internal_get_m_BlockDirtyRegistration() const;
 
-  constexpr void __set_m_BlockDirtyRegistration(bool value);
+  constexpr void __cordl_internal_set_m_BlockDirtyRegistration(bool value);
 
-  constexpr int32_t& __get_m_StaticIndex();
+  constexpr int32_t& __cordl_internal_get_m_StaticIndex();
 
-  constexpr int32_t const& __get_m_StaticIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_StaticIndex() const;
 
-  constexpr void __set_m_StaticIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_StaticIndex(int32_t value);
 
-  constexpr int32_t& __get_m_ActiveRenderNodes();
+  constexpr int32_t& __cordl_internal_get_m_ActiveRenderNodes();
 
-  constexpr int32_t const& __get_m_ActiveRenderNodes() const;
+  constexpr int32_t const& __cordl_internal_get_m_ActiveRenderNodes() const;
 
-  constexpr void __set_m_ActiveRenderNodes(int32_t value);
+  constexpr void __cordl_internal_set_m_ActiveRenderNodes(int32_t value);
 
-  constexpr int32_t& __get_m_CustomMaterialCommands();
+  constexpr int32_t& __cordl_internal_get_m_CustomMaterialCommands();
 
-  constexpr int32_t const& __get_m_CustomMaterialCommands() const;
+  constexpr int32_t const& __cordl_internal_get_m_CustomMaterialCommands() const;
 
-  constexpr void __set_m_CustomMaterialCommands(int32_t value);
+  constexpr void __cordl_internal_set_m_CustomMaterialCommands(int32_t value);
 
-  constexpr ::UnityEngine::UIElements::UIR::ChainBuilderStats& __get_m_Stats();
+  constexpr ::UnityEngine::UIElements::UIR::ChainBuilderStats& __cordl_internal_get_m_Stats();
 
-  constexpr ::UnityEngine::UIElements::UIR::ChainBuilderStats const& __get_m_Stats() const;
+  constexpr ::UnityEngine::UIElements::UIR::ChainBuilderStats const& __cordl_internal_get_m_Stats() const;
 
-  constexpr void __set_m_Stats(::UnityEngine::UIElements::UIR::ChainBuilderStats value);
+  constexpr void __cordl_internal_set_m_Stats(::UnityEngine::UIElements::UIR::ChainBuilderStats value);
 
-  constexpr uint32_t& __get_m_StatsElementsAdded();
+  constexpr uint32_t& __cordl_internal_get_m_StatsElementsAdded();
 
-  constexpr uint32_t const& __get_m_StatsElementsAdded() const;
+  constexpr uint32_t const& __cordl_internal_get_m_StatsElementsAdded() const;
 
-  constexpr void __set_m_StatsElementsAdded(uint32_t value);
+  constexpr void __cordl_internal_set_m_StatsElementsAdded(uint32_t value);
 
-  constexpr uint32_t& __get_m_StatsElementsRemoved();
+  constexpr uint32_t& __cordl_internal_get_m_StatsElementsRemoved();
 
-  constexpr uint32_t const& __get_m_StatsElementsRemoved() const;
+  constexpr uint32_t const& __cordl_internal_get_m_StatsElementsRemoved() const;
 
-  constexpr void __set_m_StatsElementsRemoved(uint32_t value);
+  constexpr void __cordl_internal_set_m_StatsElementsRemoved(uint32_t value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_FirstTextElement();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_FirstTextElement();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_FirstTextElement() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_FirstTextElement() const;
 
-  constexpr void __set_m_FirstTextElement(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_FirstTextElement(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*& __get_m_TextUpdatePainter();
+  constexpr ::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*& __cordl_internal_get_m_TextUpdatePainter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*> const& __get_m_TextUpdatePainter() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter*> const& __cordl_internal_get_m_TextUpdatePainter() const;
 
-  constexpr void __set_m_TextUpdatePainter(::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter* value);
+  constexpr void __cordl_internal_set_m_TextUpdatePainter(::UnityEngine::UIElements::UIR::Implementation::UIRTextUpdatePainter* value);
 
-  constexpr int32_t& __get_m_TextElementCount();
+  constexpr int32_t& __cordl_internal_get_m_TextElementCount();
 
-  constexpr int32_t const& __get_m_TextElementCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_TextElementCount() const;
 
-  constexpr void __set_m_TextElementCount(int32_t value);
+  constexpr void __cordl_internal_set_m_TextElementCount(int32_t value);
 
-  constexpr int32_t& __get_m_DirtyTextStartIndex();
+  constexpr int32_t& __cordl_internal_get_m_DirtyTextStartIndex();
 
-  constexpr int32_t const& __get_m_DirtyTextStartIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_DirtyTextStartIndex() const;
 
-  constexpr void __set_m_DirtyTextStartIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_DirtyTextStartIndex(int32_t value);
 
-  constexpr int32_t& __get_m_DirtyTextRemaining();
+  constexpr int32_t& __cordl_internal_get_m_DirtyTextRemaining();
 
-  constexpr int32_t const& __get_m_DirtyTextRemaining() const;
+  constexpr int32_t const& __cordl_internal_get_m_DirtyTextRemaining() const;
 
-  constexpr void __set_m_DirtyTextRemaining(int32_t value);
+  constexpr void __cordl_internal_set_m_DirtyTextRemaining(int32_t value);
 
-  constexpr bool& __get_m_FontWasReset();
+  constexpr bool& __cordl_internal_get_m_FontWasReset();
 
-  constexpr bool const& __get_m_FontWasReset() const;
+  constexpr bool const& __cordl_internal_get_m_FontWasReset() const;
 
-  constexpr void __set_m_FontWasReset(bool value);
+  constexpr void __cordl_internal_set_m_FontWasReset(bool value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Vector2>*& __get_m_LastGroupTransformElementScale();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Vector2>*& __cordl_internal_get_m_LastGroupTransformElementScale();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Vector2>*> const&
-  __get_m_LastGroupTransformElementScale() const;
+  __cordl_internal_get_m_LastGroupTransformElementScale() const;
 
-  constexpr void __set_m_LastGroupTransformElementScale(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Vector2>* value);
+  constexpr void __cordl_internal_set_m_LastGroupTransformElementScale(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::Vector2>* value);
 
-  constexpr ::UnityEngine::UIElements::TextureRegistry*& __get_m_TextureRegistry();
+  constexpr ::UnityEngine::UIElements::TextureRegistry*& __cordl_internal_get_m_TextureRegistry();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextureRegistry*> const& __get_m_TextureRegistry() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextureRegistry*> const& __cordl_internal_get_m_TextureRegistry() const;
 
-  constexpr void __set_m_TextureRegistry(::UnityEngine::UIElements::TextureRegistry* value);
+  constexpr void __cordl_internal_set_m_TextureRegistry(::UnityEngine::UIElements::TextureRegistry* value);
 
-  constexpr bool& __get__disposed_k__BackingField();
+  constexpr bool& __cordl_internal_get__disposed_k__BackingField();
 
-  constexpr bool const& __get__disposed_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
 
-  constexpr void __set__disposed_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__disposed_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __get__panel_k__BackingField();
+  constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __cordl_internal_get__panel_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVisualElementPanel*> const& __get__panel_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVisualElementPanel*> const& __cordl_internal_get__panel_k__BackingField() const;
 
-  constexpr void __set__panel_k__BackingField(::UnityEngine::UIElements::BaseVisualElementPanel* value);
+  constexpr void __cordl_internal_set__panel_k__BackingField(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  constexpr ::UnityEngine::UIElements::UIR::UIRenderDevice*& __get__device_k__BackingField();
+  constexpr ::UnityEngine::UIElements::UIR::UIRenderDevice*& __cordl_internal_get__device_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::UIRenderDevice*> const& __get__device_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::UIRenderDevice*> const& __cordl_internal_get__device_k__BackingField() const;
 
-  constexpr void __set__device_k__BackingField(::UnityEngine::UIElements::UIR::UIRenderDevice* value);
+  constexpr void __cordl_internal_set__device_k__BackingField(::UnityEngine::UIElements::UIR::UIRenderDevice* value);
 
-  constexpr ::UnityEngine::UIElements::AtlasBase*& __get__atlas_k__BackingField();
+  constexpr ::UnityEngine::UIElements::AtlasBase*& __cordl_internal_get__atlas_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::AtlasBase*> const& __get__atlas_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::AtlasBase*> const& __cordl_internal_get__atlas_k__BackingField() const;
 
-  constexpr void __set__atlas_k__BackingField(::UnityEngine::UIElements::AtlasBase* value);
+  constexpr void __cordl_internal_set__atlas_k__BackingField(::UnityEngine::UIElements::AtlasBase* value);
 
-  constexpr ::UnityEngine::UIElements::UIR::VectorImageManager*& __get__vectorImageManager_k__BackingField();
+  constexpr ::UnityEngine::UIElements::UIR::VectorImageManager*& __cordl_internal_get__vectorImageManager_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::VectorImageManager*> const& __get__vectorImageManager_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::VectorImageManager*> const& __cordl_internal_get__vectorImageManager_k__BackingField() const;
 
-  constexpr void __set__vectorImageManager_k__BackingField(::UnityEngine::UIElements::UIR::VectorImageManager* value);
+  constexpr void __cordl_internal_set__vectorImageManager_k__BackingField(::UnityEngine::UIElements::UIR::VectorImageManager* value);
 
-  constexpr ::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator& __get_shaderInfoAllocator();
+  constexpr ::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator& __cordl_internal_get_shaderInfoAllocator();
 
-  constexpr ::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator const& __get_shaderInfoAllocator() const;
+  constexpr ::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator const& __cordl_internal_get_shaderInfoAllocator() const;
 
-  constexpr void __set_shaderInfoAllocator(::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator value);
+  constexpr void __cordl_internal_set_shaderInfoAllocator(::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator value);
 
-  constexpr ::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter*& __get__painter_k__BackingField();
+  constexpr ::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter*& __cordl_internal_get__painter_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter*> const& __get__painter_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter*> const& __cordl_internal_get__painter_k__BackingField() const;
 
-  constexpr void __set__painter_k__BackingField(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* value);
+  constexpr void __cordl_internal_set__painter_k__BackingField(::UnityEngine::UIElements::UIR::Implementation::UIRStylePainter* value);
 
-  constexpr bool& __get__drawStats_k__BackingField();
+  constexpr bool& __cordl_internal_get__drawStats_k__BackingField();
 
-  constexpr bool const& __get__drawStats_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__drawStats_k__BackingField() const;
 
-  constexpr void __set__drawStats_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__drawStats_k__BackingField(bool value);
 
-  constexpr bool& __get__drawInCameras_k__BackingField();
+  constexpr bool& __cordl_internal_get__drawInCameras_k__BackingField();
 
-  constexpr bool const& __get__drawInCameras_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__drawInCameras_k__BackingField() const;
 
-  constexpr void __set__drawInCameras_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__drawInCameras_k__BackingField(bool value);
 
   static inline void setStaticF_s_MarkerProcess(::Unity::Profiling::ProfilerMarker value);
 
@@ -921,10 +926,10 @@ public:
   inline void set_defaultWorldSpaceShader(::UnityEngine::Shader* value);
 
   /// @brief Method GetStandardMaterial, addr 0x2e8dc00, size 0xec, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* GetStandardMaterial();
+  inline ::UnityW<::UnityEngine::Material> GetStandardMaterial();
 
   /// @brief Method GetStandardWorldSpaceMaterial, addr 0x2e8f590, size 0xec, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* GetStandardWorldSpaceMaterial();
+  inline ::UnityW<::UnityEngine::Material> GetStandardWorldSpaceMaterial();
 
   /// @brief Method EnsureFitsDepth, addr 0x2e8f67c, size 0xc, virtual false, abstract: false, final false
   inline void EnsureFitsDepth(int32_t depth);
@@ -1014,16 +1019,16 @@ public:
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::UIR::__RenderChain__RenderNodeData>* ___m_RenderNodesData;
 
   /// @brief Field m_DefaultShader, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::Shader* ___m_DefaultShader;
+  ::UnityW<::UnityEngine::Shader> ___m_DefaultShader;
 
   /// @brief Field m_DefaultWorldSpaceShader, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::Shader* ___m_DefaultWorldSpaceShader;
+  ::UnityW<::UnityEngine::Shader> ___m_DefaultWorldSpaceShader;
 
   /// @brief Field m_DefaultMat, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::Material* ___m_DefaultMat;
+  ::UnityW<::UnityEngine::Material> ___m_DefaultMat;
 
   /// @brief Field m_DefaultWorldSpaceMat, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::Material* ___m_DefaultWorldSpaceMat;
+  ::UnityW<::UnityEngine::Material> ___m_DefaultWorldSpaceMat;
 
   /// @brief Field m_BlockDirtyRegistration, offset: 0x78, size: 0x1, def value: None
   bool ___m_BlockDirtyRegistration;

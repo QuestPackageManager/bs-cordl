@@ -41,56 +41,56 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CADMessageBase);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3155))
 // CS Name: ::System.Runtime.Remoting.Messaging::CADMessageBase*
 class CORDL_TYPE CADMessageBase : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _args, offset 0x10, size 0x8
-  __declspec(property(get = __get__args, put = __set__args))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _args;
+  __declspec(property(get = __cordl_internal_get__args, put = __cordl_internal_set__args))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _args;
 
   /// @brief Field _serializedArgs, offset 0x18, size 0x8
-  __declspec(property(get = __get__serializedArgs, put = __set__serializedArgs))::ArrayW<uint8_t, ::Array<uint8_t>*> _serializedArgs;
+  __declspec(property(get = __cordl_internal_get__serializedArgs, put = __cordl_internal_set__serializedArgs))::ArrayW<uint8_t, ::Array<uint8_t>*> _serializedArgs;
 
   /// @brief Field _propertyCount, offset 0x20, size 0x4
-  __declspec(property(get = __get__propertyCount, put = __set__propertyCount)) int32_t _propertyCount;
+  __declspec(property(get = __cordl_internal_get__propertyCount, put = __cordl_internal_set__propertyCount)) int32_t _propertyCount;
 
   /// @brief Field _callContext, offset 0x28, size 0x8
-  __declspec(property(get = __get__callContext, put = __set__callContext))::System::Runtime::Remoting::Messaging::CADArgHolder* _callContext;
+  __declspec(property(get = __cordl_internal_get__callContext, put = __cordl_internal_set__callContext))::System::Runtime::Remoting::Messaging::CADArgHolder* _callContext;
 
   /// @brief Field serializedMethod, offset 0x30, size 0x8
-  __declspec(property(get = __get_serializedMethod, put = __set_serializedMethod))::ArrayW<uint8_t, ::Array<uint8_t>*> serializedMethod;
+  __declspec(property(get = __cordl_internal_get_serializedMethod, put = __cordl_internal_set_serializedMethod))::ArrayW<uint8_t, ::Array<uint8_t>*> serializedMethod;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get__args();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__args();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get__args() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__args() const;
 
-  constexpr void __set__args(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set__args(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__serializedArgs();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__serializedArgs();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__serializedArgs() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__serializedArgs() const;
 
-  constexpr void __set__serializedArgs(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__serializedArgs(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__propertyCount();
+  constexpr int32_t& __cordl_internal_get__propertyCount();
 
-  constexpr int32_t const& __get__propertyCount() const;
+  constexpr int32_t const& __cordl_internal_get__propertyCount() const;
 
-  constexpr void __set__propertyCount(int32_t value);
+  constexpr void __cordl_internal_set__propertyCount(int32_t value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::CADArgHolder*& __get__callContext();
+  constexpr ::System::Runtime::Remoting::Messaging::CADArgHolder*& __cordl_internal_get__callContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::CADArgHolder*> const& __get__callContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::CADArgHolder*> const& __cordl_internal_get__callContext() const;
 
-  constexpr void __set__callContext(::System::Runtime::Remoting::Messaging::CADArgHolder* value);
+  constexpr void __cordl_internal_set__callContext(::System::Runtime::Remoting::Messaging::CADArgHolder* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_serializedMethod();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_serializedMethod();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_serializedMethod() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_serializedMethod() const;
 
-  constexpr void __set_serializedMethod(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_serializedMethod(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::System::Runtime::Remoting::Messaging::CADMessageBase* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 

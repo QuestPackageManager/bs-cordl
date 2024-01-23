@@ -24,14 +24,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XmlElementWrapper);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12052))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12052))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12049))
 // CS Name: ::Newtonsoft.Json.Converters::XmlElementWrapper*
 class CORDL_TYPE XmlElementWrapper : public ::Newtonsoft::Json::Converters::XmlNodeWrapper {
 public:
   // Declarations
   /// @brief Field _element, offset 0x28, size 0x8
-  __declspec(property(get = __get__element, put = __set__element))::System::Xml::XmlElement* _element;
+  __declspec(property(get = __cordl_internal_get__element, put = __cordl_internal_set__element))::System::Xml::XmlElement* _element;
 
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
@@ -47,11 +47,11 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  constexpr ::System::Xml::XmlElement*& __get__element();
+  constexpr ::System::Xml::XmlElement*& __cordl_internal_get__element();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlElement*> const& __get__element() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlElement*> const& __cordl_internal_get__element() const;
 
-  constexpr void __set__element(::System::Xml::XmlElement* value);
+  constexpr void __cordl_internal_set__element(::System::Xml::XmlElement* value);
 
   static inline ::Newtonsoft::Json::Converters::XmlElementWrapper* New_ctor(::System::Xml::XmlElement* element);
 

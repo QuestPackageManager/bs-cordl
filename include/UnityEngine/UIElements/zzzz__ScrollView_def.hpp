@@ -130,121 +130,123 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__ScrollView__UxmlTraits);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6737))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6737))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7045))
 // CS Name: ::ScrollView::UxmlTraits*
 class CORDL_TYPE __ScrollView__UxmlTraits : public ::UnityEngine::UIElements::__VisualElement__UxmlTraits {
 public:
   // Declarations
   /// @brief Field m_ScrollViewMode, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_ScrollViewMode,
-                      put = __set_m_ScrollViewMode))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollViewMode>* m_ScrollViewMode;
+  __declspec(property(get = __cordl_internal_get_m_ScrollViewMode,
+                      put = __cordl_internal_set_m_ScrollViewMode))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollViewMode>* m_ScrollViewMode;
 
   /// @brief Field m_NestedInteractionKind, offset 0x78, size 0x8
-  __declspec(
-      property(get = __get_m_NestedInteractionKind,
-               put = __set_m_NestedInteractionKind))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__NestedInteractionKind>* m_NestedInteractionKind;
+  __declspec(property(get = __cordl_internal_get_m_NestedInteractionKind, put = __cordl_internal_set_m_NestedInteractionKind))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<
+      ::UnityEngine::UIElements::__ScrollView__NestedInteractionKind>* m_NestedInteractionKind;
 
   /// @brief Field m_ShowHorizontal, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_ShowHorizontal, put = __set_m_ShowHorizontal))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowHorizontal;
+  __declspec(property(get = __cordl_internal_get_m_ShowHorizontal, put = __cordl_internal_set_m_ShowHorizontal))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowHorizontal;
 
   /// @brief Field m_ShowVertical, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_ShowVertical, put = __set_m_ShowVertical))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowVertical;
+  __declspec(property(get = __cordl_internal_get_m_ShowVertical, put = __cordl_internal_set_m_ShowVertical))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_ShowVertical;
 
   /// @brief Field m_HorizontalScrollerVisibility, offset 0x90, size 0x8
-  __declspec(
-      property(get = __get_m_HorizontalScrollerVisibility,
-               put = __set_m_HorizontalScrollerVisibility))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>* m_HorizontalScrollerVisibility;
+  __declspec(property(get = __cordl_internal_get_m_HorizontalScrollerVisibility, put = __cordl_internal_set_m_HorizontalScrollerVisibility))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<
+      ::UnityEngine::UIElements::ScrollerVisibility>* m_HorizontalScrollerVisibility;
 
   /// @brief Field m_VerticalScrollerVisibility, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_VerticalScrollerVisibility,
-                      put = __set_m_VerticalScrollerVisibility))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>* m_VerticalScrollerVisibility;
+  __declspec(property(
+      get = __cordl_internal_get_m_VerticalScrollerVisibility,
+      put = __cordl_internal_set_m_VerticalScrollerVisibility))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>* m_VerticalScrollerVisibility;
 
   /// @brief Field m_HorizontalPageSize, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_HorizontalPageSize, put = __set_m_HorizontalPageSize))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_HorizontalPageSize;
+  __declspec(property(get = __cordl_internal_get_m_HorizontalPageSize, put = __cordl_internal_set_m_HorizontalPageSize))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_HorizontalPageSize;
 
   /// @brief Field m_VerticalPageSize, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_VerticalPageSize, put = __set_m_VerticalPageSize))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_VerticalPageSize;
+  __declspec(property(get = __cordl_internal_get_m_VerticalPageSize, put = __cordl_internal_set_m_VerticalPageSize))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_VerticalPageSize;
 
   /// @brief Field m_TouchScrollBehavior, offset 0xb0, size 0x8
-  __declspec(property(get = __get_m_TouchScrollBehavior,
-                      put = __set_m_TouchScrollBehavior))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior>* m_TouchScrollBehavior;
+  __declspec(property(
+      get = __cordl_internal_get_m_TouchScrollBehavior,
+      put = __cordl_internal_set_m_TouchScrollBehavior))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior>* m_TouchScrollBehavior;
 
   /// @brief Field m_ScrollDecelerationRate, offset 0xb8, size 0x8
-  __declspec(property(get = __get_m_ScrollDecelerationRate, put = __set_m_ScrollDecelerationRate))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_ScrollDecelerationRate;
+  __declspec(property(get = __cordl_internal_get_m_ScrollDecelerationRate,
+                      put = __cordl_internal_set_m_ScrollDecelerationRate))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_ScrollDecelerationRate;
 
   /// @brief Field m_Elasticity, offset 0xc0, size 0x8
-  __declspec(property(get = __get_m_Elasticity, put = __set_m_Elasticity))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_Elasticity;
+  __declspec(property(get = __cordl_internal_get_m_Elasticity, put = __cordl_internal_set_m_Elasticity))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_Elasticity;
 
-  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollViewMode>*& __get_m_ScrollViewMode();
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollViewMode>*& __cordl_internal_get_m_ScrollViewMode();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollViewMode>*> const& __get_m_ScrollViewMode() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollViewMode>*> const&
+  __cordl_internal_get_m_ScrollViewMode() const;
 
-  constexpr void __set_m_ScrollViewMode(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollViewMode>* value);
+  constexpr void __cordl_internal_set_m_ScrollViewMode(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollViewMode>* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__NestedInteractionKind>*& __get_m_NestedInteractionKind();
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__NestedInteractionKind>*& __cordl_internal_get_m_NestedInteractionKind();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__NestedInteractionKind>*> const&
-  __get_m_NestedInteractionKind() const;
+  __cordl_internal_get_m_NestedInteractionKind() const;
 
-  constexpr void __set_m_NestedInteractionKind(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__NestedInteractionKind>* value);
+  constexpr void __cordl_internal_set_m_NestedInteractionKind(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__NestedInteractionKind>* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __get_m_ShowHorizontal();
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_ShowHorizontal();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __get_m_ShowHorizontal() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_ShowHorizontal() const;
 
-  constexpr void __set_m_ShowHorizontal(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_ShowHorizontal(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __get_m_ShowVertical();
+  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_ShowVertical();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __get_m_ShowVertical() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_ShowVertical() const;
 
-  constexpr void __set_m_ShowVertical(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_ShowVertical(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>*& __get_m_HorizontalScrollerVisibility();
-
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>*> const&
-  __get_m_HorizontalScrollerVisibility() const;
-
-  constexpr void __set_m_HorizontalScrollerVisibility(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>* value);
-
-  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>*& __get_m_VerticalScrollerVisibility();
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>*& __cordl_internal_get_m_HorizontalScrollerVisibility();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>*> const&
-  __get_m_VerticalScrollerVisibility() const;
+  __cordl_internal_get_m_HorizontalScrollerVisibility() const;
 
-  constexpr void __set_m_VerticalScrollerVisibility(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>* value);
+  constexpr void __cordl_internal_set_m_HorizontalScrollerVisibility(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __get_m_HorizontalPageSize();
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>*& __cordl_internal_get_m_VerticalScrollerVisibility();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __get_m_HorizontalPageSize() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>*> const&
+  __cordl_internal_get_m_VerticalScrollerVisibility() const;
 
-  constexpr void __set_m_HorizontalPageSize(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_VerticalScrollerVisibility(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::ScrollerVisibility>* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __get_m_VerticalPageSize();
+  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __cordl_internal_get_m_HorizontalPageSize();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __get_m_VerticalPageSize() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __cordl_internal_get_m_HorizontalPageSize() const;
 
-  constexpr void __set_m_VerticalPageSize(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_HorizontalPageSize(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior>*& __get_m_TouchScrollBehavior();
+  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __cordl_internal_get_m_VerticalPageSize();
+
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __cordl_internal_get_m_VerticalPageSize() const;
+
+  constexpr void __cordl_internal_set_m_VerticalPageSize(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
+
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior>*& __cordl_internal_get_m_TouchScrollBehavior();
 
   constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior>*> const&
-  __get_m_TouchScrollBehavior() const;
+  __cordl_internal_get_m_TouchScrollBehavior() const;
 
-  constexpr void __set_m_TouchScrollBehavior(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior>* value);
+  constexpr void __cordl_internal_set_m_TouchScrollBehavior(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior>* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __get_m_ScrollDecelerationRate();
+  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __cordl_internal_get_m_ScrollDecelerationRate();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __get_m_ScrollDecelerationRate() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __cordl_internal_get_m_ScrollDecelerationRate() const;
 
-  constexpr void __set_m_ScrollDecelerationRate(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_ScrollDecelerationRate(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __get_m_Elasticity();
+  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __cordl_internal_get_m_Elasticity();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __get_m_Elasticity() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __cordl_internal_get_m_Elasticity() const;
 
-  constexpr void __set_m_Elasticity(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Elasticity(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
   /// @brief Method Init, addr 0x2e26a68, size 0x390, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
@@ -333,7 +335,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__UxmlTraits, ___m
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7046))
 // CS Name: ::ScrollView::TouchScrollBehavior
 struct CORDL_TYPE __ScrollView__TouchScrollBehavior {
@@ -387,7 +389,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__TouchScrollBehav
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7047))
 // CS Name: ::ScrollView::NestedInteractionKind
 struct CORDL_TYPE __ScrollView__NestedInteractionKind {
@@ -441,8 +443,8 @@ static_assert(offsetof(::UnityEngine::UIElements::__ScrollView__NestedInteractio
 // SizeInfo { instance_size: 1128, native_size: -1, calculated_instance_size: 1128, calculated_native_size: 1128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7046)), TypeDefinitionIndex(TypeDefinitionIndex(7043)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7042)), TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(7047))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7049))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6744)), TypeDefinitionIndex(TypeDefinitionIndex(7042)), TypeDefinitionIndex(TypeDefinitionIndex(7043)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7046)), TypeDefinitionIndex(TypeDefinitionIndex(7047)), TypeDefinitionIndex(TypeDefinitionIndex(10243))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7049))
 // CS Name: ::UnityEngine.UIElements::ScrollView*
 class CORDL_TYPE ScrollView : public ::UnityEngine::UIElements::VisualElement {
 public:
@@ -458,96 +460,108 @@ public:
   using UxmlFactory = ::UnityEngine::UIElements::__ScrollView__UxmlFactory;
 
   /// @brief Field m_HorizontalScrollerVisibility, offset 0x3b0, size 0x4
-  __declspec(property(get = __get_m_HorizontalScrollerVisibility, put = __set_m_HorizontalScrollerVisibility))::UnityEngine::UIElements::ScrollerVisibility m_HorizontalScrollerVisibility;
+  __declspec(property(get = __cordl_internal_get_m_HorizontalScrollerVisibility,
+                      put = __cordl_internal_set_m_HorizontalScrollerVisibility))::UnityEngine::UIElements::ScrollerVisibility m_HorizontalScrollerVisibility;
 
   /// @brief Field m_VerticalScrollerVisibility, offset 0x3b4, size 0x4
-  __declspec(property(get = __get_m_VerticalScrollerVisibility, put = __set_m_VerticalScrollerVisibility))::UnityEngine::UIElements::ScrollerVisibility m_VerticalScrollerVisibility;
+  __declspec(property(get = __cordl_internal_get_m_VerticalScrollerVisibility,
+                      put = __cordl_internal_set_m_VerticalScrollerVisibility))::UnityEngine::UIElements::ScrollerVisibility m_VerticalScrollerVisibility;
 
   /// @brief Field m_AttachedRootVisualContainer, offset 0x3b8, size 0x8
-  __declspec(property(get = __get_m_AttachedRootVisualContainer, put = __set_m_AttachedRootVisualContainer))::UnityEngine::UIElements::VisualElement* m_AttachedRootVisualContainer;
+  __declspec(property(get = __cordl_internal_get_m_AttachedRootVisualContainer,
+                      put = __cordl_internal_set_m_AttachedRootVisualContainer))::UnityEngine::UIElements::VisualElement* m_AttachedRootVisualContainer;
 
   /// @brief Field m_SingleLineHeight, offset 0x3c0, size 0x4
-  __declspec(property(get = __get_m_SingleLineHeight, put = __set_m_SingleLineHeight)) float_t m_SingleLineHeight;
+  __declspec(property(get = __cordl_internal_get_m_SingleLineHeight, put = __cordl_internal_set_m_SingleLineHeight)) float_t m_SingleLineHeight;
 
   /// @brief Field m_HorizontalPageSize, offset 0x3c4, size 0x4
-  __declspec(property(get = __get_m_HorizontalPageSize, put = __set_m_HorizontalPageSize)) float_t m_HorizontalPageSize;
+  __declspec(property(get = __cordl_internal_get_m_HorizontalPageSize, put = __cordl_internal_set_m_HorizontalPageSize)) float_t m_HorizontalPageSize;
 
   /// @brief Field m_VerticalPageSize, offset 0x3c8, size 0x4
-  __declspec(property(get = __get_m_VerticalPageSize, put = __set_m_VerticalPageSize)) float_t m_VerticalPageSize;
+  __declspec(property(get = __cordl_internal_get_m_VerticalPageSize, put = __cordl_internal_set_m_VerticalPageSize)) float_t m_VerticalPageSize;
 
   /// @brief Field m_ScrollDecelerationRate, offset 0x3cc, size 0x4
-  __declspec(property(get = __get_m_ScrollDecelerationRate, put = __set_m_ScrollDecelerationRate)) float_t m_ScrollDecelerationRate;
+  __declspec(property(get = __cordl_internal_get_m_ScrollDecelerationRate, put = __cordl_internal_set_m_ScrollDecelerationRate)) float_t m_ScrollDecelerationRate;
 
   /// @brief Field m_Elasticity, offset 0x3d0, size 0x4
-  __declspec(property(get = __get_m_Elasticity, put = __set_m_Elasticity)) float_t m_Elasticity;
+  __declspec(property(get = __cordl_internal_get_m_Elasticity, put = __cordl_internal_set_m_Elasticity)) float_t m_Elasticity;
 
   /// @brief Field m_TouchScrollBehavior, offset 0x3d4, size 0x4
-  __declspec(property(get = __get_m_TouchScrollBehavior, put = __set_m_TouchScrollBehavior))::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior m_TouchScrollBehavior;
+  __declspec(property(get = __cordl_internal_get_m_TouchScrollBehavior,
+                      put = __cordl_internal_set_m_TouchScrollBehavior))::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior m_TouchScrollBehavior;
 
   /// @brief Field m_NestedInteractionKind, offset 0x3d8, size 0x4
-  __declspec(property(get = __get_m_NestedInteractionKind, put = __set_m_NestedInteractionKind))::UnityEngine::UIElements::__ScrollView__NestedInteractionKind m_NestedInteractionKind;
+  __declspec(property(get = __cordl_internal_get_m_NestedInteractionKind,
+                      put = __cordl_internal_set_m_NestedInteractionKind))::UnityEngine::UIElements::__ScrollView__NestedInteractionKind m_NestedInteractionKind;
 
   /// @brief Field <contentViewport>k__BackingField, offset 0x3e0, size 0x8
-  __declspec(property(get = __get__contentViewport_k__BackingField, put = __set__contentViewport_k__BackingField))::UnityEngine::UIElements::VisualElement* _contentViewport_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__contentViewport_k__BackingField,
+                      put = __cordl_internal_set__contentViewport_k__BackingField))::UnityEngine::UIElements::VisualElement* _contentViewport_k__BackingField;
 
   /// @brief Field <horizontalScroller>k__BackingField, offset 0x3e8, size 0x8
-  __declspec(property(get = __get__horizontalScroller_k__BackingField, put = __set__horizontalScroller_k__BackingField))::UnityEngine::UIElements::Scroller* _horizontalScroller_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__horizontalScroller_k__BackingField,
+                      put = __cordl_internal_set__horizontalScroller_k__BackingField))::UnityEngine::UIElements::Scroller* _horizontalScroller_k__BackingField;
 
   /// @brief Field <verticalScroller>k__BackingField, offset 0x3f0, size 0x8
-  __declspec(property(get = __get__verticalScroller_k__BackingField, put = __set__verticalScroller_k__BackingField))::UnityEngine::UIElements::Scroller* _verticalScroller_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__verticalScroller_k__BackingField,
+                      put = __cordl_internal_set__verticalScroller_k__BackingField))::UnityEngine::UIElements::Scroller* _verticalScroller_k__BackingField;
 
   /// @brief Field m_ContentContainer, offset 0x3f8, size 0x8
-  __declspec(property(get = __get_m_ContentContainer, put = __set_m_ContentContainer))::UnityEngine::UIElements::VisualElement* m_ContentContainer;
+  __declspec(property(get = __cordl_internal_get_m_ContentContainer, put = __cordl_internal_set_m_ContentContainer))::UnityEngine::UIElements::VisualElement* m_ContentContainer;
 
   /// @brief Field m_ContentAndVerticalScrollContainer, offset 0x400, size 0x8
-  __declspec(property(get = __get_m_ContentAndVerticalScrollContainer, put = __set_m_ContentAndVerticalScrollContainer))::UnityEngine::UIElements::VisualElement* m_ContentAndVerticalScrollContainer;
+  __declspec(property(get = __cordl_internal_get_m_ContentAndVerticalScrollContainer,
+                      put = __cordl_internal_set_m_ContentAndVerticalScrollContainer))::UnityEngine::UIElements::VisualElement* m_ContentAndVerticalScrollContainer;
 
   /// @brief Field m_Mode, offset 0x408, size 0x4
-  __declspec(property(get = __get_m_Mode, put = __set_m_Mode))::UnityEngine::UIElements::ScrollViewMode m_Mode;
+  __declspec(property(get = __cordl_internal_get_m_Mode, put = __cordl_internal_set_m_Mode))::UnityEngine::UIElements::ScrollViewMode m_Mode;
 
   /// @brief Field m_ScrollingPointerId, offset 0x40c, size 0x4
-  __declspec(property(get = __get_m_ScrollingPointerId, put = __set_m_ScrollingPointerId)) int32_t m_ScrollingPointerId;
+  __declspec(property(get = __cordl_internal_get_m_ScrollingPointerId, put = __cordl_internal_set_m_ScrollingPointerId)) int32_t m_ScrollingPointerId;
 
   /// @brief Field m_StartPosition, offset 0x410, size 0x8
-  __declspec(property(get = __get_m_StartPosition, put = __set_m_StartPosition))::UnityEngine::Vector2 m_StartPosition;
+  __declspec(property(get = __cordl_internal_get_m_StartPosition, put = __cordl_internal_set_m_StartPosition))::UnityEngine::Vector2 m_StartPosition;
 
   /// @brief Field m_PointerStartPosition, offset 0x418, size 0x8
-  __declspec(property(get = __get_m_PointerStartPosition, put = __set_m_PointerStartPosition))::UnityEngine::Vector2 m_PointerStartPosition;
+  __declspec(property(get = __cordl_internal_get_m_PointerStartPosition, put = __cordl_internal_set_m_PointerStartPosition))::UnityEngine::Vector2 m_PointerStartPosition;
 
   /// @brief Field m_Velocity, offset 0x420, size 0x8
-  __declspec(property(get = __get_m_Velocity, put = __set_m_Velocity))::UnityEngine::Vector2 m_Velocity;
+  __declspec(property(get = __cordl_internal_get_m_Velocity, put = __cordl_internal_set_m_Velocity))::UnityEngine::Vector2 m_Velocity;
 
   /// @brief Field m_SpringBackVelocity, offset 0x428, size 0x8
-  __declspec(property(get = __get_m_SpringBackVelocity, put = __set_m_SpringBackVelocity))::UnityEngine::Vector2 m_SpringBackVelocity;
+  __declspec(property(get = __cordl_internal_get_m_SpringBackVelocity, put = __cordl_internal_set_m_SpringBackVelocity))::UnityEngine::Vector2 m_SpringBackVelocity;
 
   /// @brief Field m_LowBounds, offset 0x430, size 0x8
-  __declspec(property(get = __get_m_LowBounds, put = __set_m_LowBounds))::UnityEngine::Vector2 m_LowBounds;
+  __declspec(property(get = __cordl_internal_get_m_LowBounds, put = __cordl_internal_set_m_LowBounds))::UnityEngine::Vector2 m_LowBounds;
 
   /// @brief Field m_HighBounds, offset 0x438, size 0x8
-  __declspec(property(get = __get_m_HighBounds, put = __set_m_HighBounds))::UnityEngine::Vector2 m_HighBounds;
+  __declspec(property(get = __cordl_internal_get_m_HighBounds, put = __cordl_internal_set_m_HighBounds))::UnityEngine::Vector2 m_HighBounds;
 
   /// @brief Field m_LastVelocityLerpTime, offset 0x440, size 0x4
-  __declspec(property(get = __get_m_LastVelocityLerpTime, put = __set_m_LastVelocityLerpTime)) float_t m_LastVelocityLerpTime;
+  __declspec(property(get = __cordl_internal_get_m_LastVelocityLerpTime, put = __cordl_internal_set_m_LastVelocityLerpTime)) float_t m_LastVelocityLerpTime;
 
   /// @brief Field m_StartedMoving, offset 0x444, size 0x1
-  __declspec(property(get = __get_m_StartedMoving, put = __set_m_StartedMoving)) bool m_StartedMoving;
+  __declspec(property(get = __cordl_internal_get_m_StartedMoving, put = __cordl_internal_set_m_StartedMoving)) bool m_StartedMoving;
 
   /// @brief Field m_TouchStoppedVelocity, offset 0x445, size 0x1
-  __declspec(property(get = __get_m_TouchStoppedVelocity, put = __set_m_TouchStoppedVelocity)) bool m_TouchStoppedVelocity;
+  __declspec(property(get = __cordl_internal_get_m_TouchStoppedVelocity, put = __cordl_internal_set_m_TouchStoppedVelocity)) bool m_TouchStoppedVelocity;
 
   /// @brief Field m_CapturedTarget, offset 0x448, size 0x8
-  __declspec(property(get = __get_m_CapturedTarget, put = __set_m_CapturedTarget))::UnityEngine::UIElements::VisualElement* m_CapturedTarget;
+  __declspec(property(get = __cordl_internal_get_m_CapturedTarget, put = __cordl_internal_set_m_CapturedTarget))::UnityEngine::UIElements::VisualElement* m_CapturedTarget;
 
   /// @brief Field m_CapturedTargetPointerMoveCallback, offset 0x450, size 0x8
-  __declspec(property(get = __get_m_CapturedTargetPointerMoveCallback,
-                      put = __set_m_CapturedTargetPointerMoveCallback))::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>* m_CapturedTargetPointerMoveCallback;
+  __declspec(property(
+      get = __cordl_internal_get_m_CapturedTargetPointerMoveCallback,
+      put = __cordl_internal_set_m_CapturedTargetPointerMoveCallback))::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>* m_CapturedTargetPointerMoveCallback;
 
   /// @brief Field m_CapturedTargetPointerUpCallback, offset 0x458, size 0x8
-  __declspec(property(get = __get_m_CapturedTargetPointerUpCallback,
-                      put = __set_m_CapturedTargetPointerUpCallback))::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>* m_CapturedTargetPointerUpCallback;
+  __declspec(
+      property(get = __cordl_internal_get_m_CapturedTargetPointerUpCallback,
+               put = __cordl_internal_set_m_CapturedTargetPointerUpCallback))::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>* m_CapturedTargetPointerUpCallback;
 
   /// @brief Field m_PostPointerUpAnimation, offset 0x460, size 0x8
-  __declspec(property(get = __get_m_PostPointerUpAnimation, put = __set_m_PostPointerUpAnimation))::UnityEngine::UIElements::IVisualElementScheduledItem* m_PostPointerUpAnimation;
+  __declspec(property(get = __cordl_internal_get_m_PostPointerUpAnimation,
+                      put = __cordl_internal_set_m_PostPointerUpAnimation))::UnityEngine::UIElements::IVisualElementScheduledItem* m_PostPointerUpAnimation;
 
   /// @brief Field k_DefaultScrollDecelerationRate, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_k_DefaultScrollDecelerationRate, put = setStaticF_k_DefaultScrollDecelerationRate)) float_t k_DefaultScrollDecelerationRate;
@@ -631,185 +645,187 @@ public:
 
   __declspec(property(get = get_mode, put = set_mode))::UnityEngine::UIElements::ScrollViewMode mode;
 
-  constexpr ::UnityEngine::UIElements::ScrollerVisibility& __get_m_HorizontalScrollerVisibility();
+  constexpr ::UnityEngine::UIElements::ScrollerVisibility& __cordl_internal_get_m_HorizontalScrollerVisibility();
 
-  constexpr ::UnityEngine::UIElements::ScrollerVisibility const& __get_m_HorizontalScrollerVisibility() const;
+  constexpr ::UnityEngine::UIElements::ScrollerVisibility const& __cordl_internal_get_m_HorizontalScrollerVisibility() const;
 
-  constexpr void __set_m_HorizontalScrollerVisibility(::UnityEngine::UIElements::ScrollerVisibility value);
+  constexpr void __cordl_internal_set_m_HorizontalScrollerVisibility(::UnityEngine::UIElements::ScrollerVisibility value);
 
-  constexpr ::UnityEngine::UIElements::ScrollerVisibility& __get_m_VerticalScrollerVisibility();
+  constexpr ::UnityEngine::UIElements::ScrollerVisibility& __cordl_internal_get_m_VerticalScrollerVisibility();
 
-  constexpr ::UnityEngine::UIElements::ScrollerVisibility const& __get_m_VerticalScrollerVisibility() const;
+  constexpr ::UnityEngine::UIElements::ScrollerVisibility const& __cordl_internal_get_m_VerticalScrollerVisibility() const;
 
-  constexpr void __set_m_VerticalScrollerVisibility(::UnityEngine::UIElements::ScrollerVisibility value);
+  constexpr void __cordl_internal_set_m_VerticalScrollerVisibility(::UnityEngine::UIElements::ScrollerVisibility value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_AttachedRootVisualContainer();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_AttachedRootVisualContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_AttachedRootVisualContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_AttachedRootVisualContainer() const;
 
-  constexpr void __set_m_AttachedRootVisualContainer(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_AttachedRootVisualContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr float_t& __get_m_SingleLineHeight();
+  constexpr float_t& __cordl_internal_get_m_SingleLineHeight();
 
-  constexpr float_t const& __get_m_SingleLineHeight() const;
+  constexpr float_t const& __cordl_internal_get_m_SingleLineHeight() const;
 
-  constexpr void __set_m_SingleLineHeight(float_t value);
+  constexpr void __cordl_internal_set_m_SingleLineHeight(float_t value);
 
-  constexpr float_t& __get_m_HorizontalPageSize();
+  constexpr float_t& __cordl_internal_get_m_HorizontalPageSize();
 
-  constexpr float_t const& __get_m_HorizontalPageSize() const;
+  constexpr float_t const& __cordl_internal_get_m_HorizontalPageSize() const;
 
-  constexpr void __set_m_HorizontalPageSize(float_t value);
+  constexpr void __cordl_internal_set_m_HorizontalPageSize(float_t value);
 
-  constexpr float_t& __get_m_VerticalPageSize();
+  constexpr float_t& __cordl_internal_get_m_VerticalPageSize();
 
-  constexpr float_t const& __get_m_VerticalPageSize() const;
+  constexpr float_t const& __cordl_internal_get_m_VerticalPageSize() const;
 
-  constexpr void __set_m_VerticalPageSize(float_t value);
+  constexpr void __cordl_internal_set_m_VerticalPageSize(float_t value);
 
-  constexpr float_t& __get_m_ScrollDecelerationRate();
+  constexpr float_t& __cordl_internal_get_m_ScrollDecelerationRate();
 
-  constexpr float_t const& __get_m_ScrollDecelerationRate() const;
+  constexpr float_t const& __cordl_internal_get_m_ScrollDecelerationRate() const;
 
-  constexpr void __set_m_ScrollDecelerationRate(float_t value);
+  constexpr void __cordl_internal_set_m_ScrollDecelerationRate(float_t value);
 
-  constexpr float_t& __get_m_Elasticity();
+  constexpr float_t& __cordl_internal_get_m_Elasticity();
 
-  constexpr float_t const& __get_m_Elasticity() const;
+  constexpr float_t const& __cordl_internal_get_m_Elasticity() const;
 
-  constexpr void __set_m_Elasticity(float_t value);
+  constexpr void __cordl_internal_set_m_Elasticity(float_t value);
 
-  constexpr ::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior& __get_m_TouchScrollBehavior();
+  constexpr ::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior& __cordl_internal_get_m_TouchScrollBehavior();
 
-  constexpr ::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior const& __get_m_TouchScrollBehavior() const;
+  constexpr ::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior const& __cordl_internal_get_m_TouchScrollBehavior() const;
 
-  constexpr void __set_m_TouchScrollBehavior(::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior value);
+  constexpr void __cordl_internal_set_m_TouchScrollBehavior(::UnityEngine::UIElements::__ScrollView__TouchScrollBehavior value);
 
-  constexpr ::UnityEngine::UIElements::__ScrollView__NestedInteractionKind& __get_m_NestedInteractionKind();
+  constexpr ::UnityEngine::UIElements::__ScrollView__NestedInteractionKind& __cordl_internal_get_m_NestedInteractionKind();
 
-  constexpr ::UnityEngine::UIElements::__ScrollView__NestedInteractionKind const& __get_m_NestedInteractionKind() const;
+  constexpr ::UnityEngine::UIElements::__ScrollView__NestedInteractionKind const& __cordl_internal_get_m_NestedInteractionKind() const;
 
-  constexpr void __set_m_NestedInteractionKind(::UnityEngine::UIElements::__ScrollView__NestedInteractionKind value);
+  constexpr void __cordl_internal_set_m_NestedInteractionKind(::UnityEngine::UIElements::__ScrollView__NestedInteractionKind value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get__contentViewport_k__BackingField();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__contentViewport_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get__contentViewport_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get__contentViewport_k__BackingField() const;
 
-  constexpr void __set__contentViewport_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set__contentViewport_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::Scroller*& __get__horizontalScroller_k__BackingField();
+  constexpr ::UnityEngine::UIElements::Scroller*& __cordl_internal_get__horizontalScroller_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Scroller*> const& __get__horizontalScroller_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Scroller*> const& __cordl_internal_get__horizontalScroller_k__BackingField() const;
 
-  constexpr void __set__horizontalScroller_k__BackingField(::UnityEngine::UIElements::Scroller* value);
+  constexpr void __cordl_internal_set__horizontalScroller_k__BackingField(::UnityEngine::UIElements::Scroller* value);
 
-  constexpr ::UnityEngine::UIElements::Scroller*& __get__verticalScroller_k__BackingField();
+  constexpr ::UnityEngine::UIElements::Scroller*& __cordl_internal_get__verticalScroller_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Scroller*> const& __get__verticalScroller_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Scroller*> const& __cordl_internal_get__verticalScroller_k__BackingField() const;
 
-  constexpr void __set__verticalScroller_k__BackingField(::UnityEngine::UIElements::Scroller* value);
+  constexpr void __cordl_internal_set__verticalScroller_k__BackingField(::UnityEngine::UIElements::Scroller* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_ContentContainer();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_ContentContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_ContentContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_ContentContainer() const;
 
-  constexpr void __set_m_ContentContainer(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_ContentContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_ContentAndVerticalScrollContainer();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_ContentAndVerticalScrollContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_ContentAndVerticalScrollContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_ContentAndVerticalScrollContainer() const;
 
-  constexpr void __set_m_ContentAndVerticalScrollContainer(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_ContentAndVerticalScrollContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::ScrollViewMode& __get_m_Mode();
+  constexpr ::UnityEngine::UIElements::ScrollViewMode& __cordl_internal_get_m_Mode();
 
-  constexpr ::UnityEngine::UIElements::ScrollViewMode const& __get_m_Mode() const;
+  constexpr ::UnityEngine::UIElements::ScrollViewMode const& __cordl_internal_get_m_Mode() const;
 
-  constexpr void __set_m_Mode(::UnityEngine::UIElements::ScrollViewMode value);
+  constexpr void __cordl_internal_set_m_Mode(::UnityEngine::UIElements::ScrollViewMode value);
 
-  constexpr int32_t& __get_m_ScrollingPointerId();
+  constexpr int32_t& __cordl_internal_get_m_ScrollingPointerId();
 
-  constexpr int32_t const& __get_m_ScrollingPointerId() const;
+  constexpr int32_t const& __cordl_internal_get_m_ScrollingPointerId() const;
 
-  constexpr void __set_m_ScrollingPointerId(int32_t value);
+  constexpr void __cordl_internal_set_m_ScrollingPointerId(int32_t value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_StartPosition();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_StartPosition();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_StartPosition() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_StartPosition() const;
 
-  constexpr void __set_m_StartPosition(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_StartPosition(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_PointerStartPosition();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_PointerStartPosition();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_PointerStartPosition() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_PointerStartPosition() const;
 
-  constexpr void __set_m_PointerStartPosition(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_PointerStartPosition(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_Velocity();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_Velocity();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_Velocity() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_Velocity() const;
 
-  constexpr void __set_m_Velocity(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_Velocity(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_SpringBackVelocity();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_SpringBackVelocity();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_SpringBackVelocity() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_SpringBackVelocity() const;
 
-  constexpr void __set_m_SpringBackVelocity(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_SpringBackVelocity(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_LowBounds();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_LowBounds();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_LowBounds() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_LowBounds() const;
 
-  constexpr void __set_m_LowBounds(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_LowBounds(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_HighBounds();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_HighBounds();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_HighBounds() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_HighBounds() const;
 
-  constexpr void __set_m_HighBounds(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_HighBounds(::UnityEngine::Vector2 value);
 
-  constexpr float_t& __get_m_LastVelocityLerpTime();
+  constexpr float_t& __cordl_internal_get_m_LastVelocityLerpTime();
 
-  constexpr float_t const& __get_m_LastVelocityLerpTime() const;
+  constexpr float_t const& __cordl_internal_get_m_LastVelocityLerpTime() const;
 
-  constexpr void __set_m_LastVelocityLerpTime(float_t value);
+  constexpr void __cordl_internal_set_m_LastVelocityLerpTime(float_t value);
 
-  constexpr bool& __get_m_StartedMoving();
+  constexpr bool& __cordl_internal_get_m_StartedMoving();
 
-  constexpr bool const& __get_m_StartedMoving() const;
+  constexpr bool const& __cordl_internal_get_m_StartedMoving() const;
 
-  constexpr void __set_m_StartedMoving(bool value);
+  constexpr void __cordl_internal_set_m_StartedMoving(bool value);
 
-  constexpr bool& __get_m_TouchStoppedVelocity();
+  constexpr bool& __cordl_internal_get_m_TouchStoppedVelocity();
 
-  constexpr bool const& __get_m_TouchStoppedVelocity() const;
+  constexpr bool const& __cordl_internal_get_m_TouchStoppedVelocity() const;
 
-  constexpr void __set_m_TouchStoppedVelocity(bool value);
+  constexpr void __cordl_internal_set_m_TouchStoppedVelocity(bool value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_CapturedTarget();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_CapturedTarget();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_CapturedTarget() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_CapturedTarget() const;
 
-  constexpr void __set_m_CapturedTarget(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_CapturedTarget(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>*& __get_m_CapturedTargetPointerMoveCallback();
+  constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>*& __cordl_internal_get_m_CapturedTargetPointerMoveCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>*> const& __get_m_CapturedTargetPointerMoveCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>*> const&
+  __cordl_internal_get_m_CapturedTargetPointerMoveCallback() const;
 
-  constexpr void __set_m_CapturedTargetPointerMoveCallback(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>* value);
+  constexpr void __cordl_internal_set_m_CapturedTargetPointerMoveCallback(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerMoveEvent*>* value);
 
-  constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>*& __get_m_CapturedTargetPointerUpCallback();
+  constexpr ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>*& __cordl_internal_get_m_CapturedTargetPointerUpCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>*> const& __get_m_CapturedTargetPointerUpCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>*> const&
+  __cordl_internal_get_m_CapturedTargetPointerUpCallback() const;
 
-  constexpr void __set_m_CapturedTargetPointerUpCallback(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>* value);
+  constexpr void __cordl_internal_set_m_CapturedTargetPointerUpCallback(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::PointerUpEvent*>* value);
 
-  constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& __get_m_PostPointerUpAnimation();
+  constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& __cordl_internal_get_m_PostPointerUpAnimation();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementScheduledItem*> const& __get_m_PostPointerUpAnimation() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementScheduledItem*> const& __cordl_internal_get_m_PostPointerUpAnimation() const;
 
-  constexpr void __set_m_PostPointerUpAnimation(::UnityEngine::UIElements::IVisualElementScheduledItem* value);
+  constexpr void __cordl_internal_set_m_PostPointerUpAnimation(::UnityEngine::UIElements::IVisualElementScheduledItem* value);
 
   static inline void setStaticF_k_DefaultScrollDecelerationRate(float_t value);
 
@@ -1253,8 +1269,8 @@ static_assert(offsetof(::UnityEngine::UIElements::ScrollView, ___m_PostPointerUp
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7049)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5274 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7045)), TypeDefinitionIndex(TypeDefinitionIndex(6997))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7044)) CS Name: ::ScrollView::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7045)), TypeDefinitionIndex(TypeDefinitionIndex(7049)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5274 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7044)) CS Name: ::ScrollView::UxmlFactory*
 class CORDL_TYPE __ScrollView__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::ScrollView*, ::UnityEngine::UIElements::__ScrollView__UxmlTraits*> {
 public:
   // Declarations
@@ -1287,7 +1303,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Scrol
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7048))
 // CS Name: ::ScrollView::TouchScrollingResult
 struct CORDL_TYPE __ScrollView__TouchScrollingResult {

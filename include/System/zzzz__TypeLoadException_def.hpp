@@ -25,23 +25,23 @@ MARK_REF_PTR_T(::System::TypeLoadException);
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 172, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2573))
 // CS Name: ::System::TypeLoadException*
 class CORDL_TYPE TypeLoadException : public ::System::SystemException {
 public:
   // Declarations
   /// @brief Field ClassName, offset 0x90, size 0x8
-  __declspec(property(get = __get_ClassName, put = __set_ClassName))::StringW ClassName;
+  __declspec(property(get = __cordl_internal_get_ClassName, put = __cordl_internal_set_ClassName))::StringW ClassName;
 
   /// @brief Field AssemblyName, offset 0x98, size 0x8
-  __declspec(property(get = __get_AssemblyName, put = __set_AssemblyName))::StringW AssemblyName;
+  __declspec(property(get = __cordl_internal_get_AssemblyName, put = __cordl_internal_set_AssemblyName))::StringW AssemblyName;
 
   /// @brief Field MessageArg, offset 0xa0, size 0x8
-  __declspec(property(get = __get_MessageArg, put = __set_MessageArg))::StringW MessageArg;
+  __declspec(property(get = __cordl_internal_get_MessageArg, put = __cordl_internal_set_MessageArg))::StringW MessageArg;
 
   /// @brief Field ResourceId, offset 0xa8, size 0x4
-  __declspec(property(get = __get_ResourceId, put = __set_ResourceId)) int32_t ResourceId;
+  __declspec(property(get = __cordl_internal_get_ResourceId, put = __cordl_internal_set_ResourceId)) int32_t ResourceId;
 
   __declspec(property(get = get_Message))::StringW Message;
 
@@ -51,29 +51,29 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::StringW& __get_ClassName();
+  constexpr ::StringW& __cordl_internal_get_ClassName();
 
-  constexpr ::StringW const& __get_ClassName() const;
+  constexpr ::StringW const& __cordl_internal_get_ClassName() const;
 
-  constexpr void __set_ClassName(::StringW value);
+  constexpr void __cordl_internal_set_ClassName(::StringW value);
 
-  constexpr ::StringW& __get_AssemblyName();
+  constexpr ::StringW& __cordl_internal_get_AssemblyName();
 
-  constexpr ::StringW const& __get_AssemblyName() const;
+  constexpr ::StringW const& __cordl_internal_get_AssemblyName() const;
 
-  constexpr void __set_AssemblyName(::StringW value);
+  constexpr void __cordl_internal_set_AssemblyName(::StringW value);
 
-  constexpr ::StringW& __get_MessageArg();
+  constexpr ::StringW& __cordl_internal_get_MessageArg();
 
-  constexpr ::StringW const& __get_MessageArg() const;
+  constexpr ::StringW const& __cordl_internal_get_MessageArg() const;
 
-  constexpr void __set_MessageArg(::StringW value);
+  constexpr void __cordl_internal_set_MessageArg(::StringW value);
 
-  constexpr int32_t& __get_ResourceId();
+  constexpr int32_t& __cordl_internal_get_ResourceId();
 
-  constexpr int32_t const& __get_ResourceId() const;
+  constexpr int32_t const& __cordl_internal_get_ResourceId() const;
 
-  constexpr void __set_ResourceId(int32_t value);
+  constexpr void __cordl_internal_set_ResourceId(int32_t value);
 
   static inline ::System::TypeLoadException* New_ctor();
 

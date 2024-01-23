@@ -124,7 +124,7 @@ MARK_VAL_T(::System::Net::__FtpWebRequest___CreateConnectionAsync_d__86);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9047))
 // CS Name: ::FtpWebRequest::RequestStage
 struct CORDL_TYPE __FtpWebRequest__RequestStage {
@@ -186,7 +186,7 @@ static_assert(offsetof(::System::Net::__FtpWebRequest__RequestStage, value__) ==
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3395))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3400))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9048))
 // CS Name: ::FtpWebRequest::<CreateConnectionAsync>d__86
 struct CORDL_TYPE __FtpWebRequest___CreateConnectionAsync_d__86 {
@@ -254,7 +254,7 @@ static_assert(offsetof(::System::Net::__FtpWebRequest___CreateConnectionAsync_d_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9049))
 // CS Name: ::FtpWebRequest::<>c*
 class CORDL_TYPE __FtpWebRequest____c : public ::System::Object {
@@ -306,7 +306,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__FtpWebRequest____
 // SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9096)), TypeDefinitionIndex(TypeDefinitionIndex(9047)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(9047)), TypeDefinitionIndex(TypeDefinitionIndex(9096))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9050))
 // CS Name: ::System.Net::FtpWebRequest*
 class CORDL_TYPE FtpWebRequest : public ::System::Net::WebRequest {
@@ -319,103 +319,104 @@ public:
   using RequestStage = ::System::Net::__FtpWebRequest__RequestStage;
 
   /// @brief Field _syncObject, offset 0x38, size 0x8
-  __declspec(property(get = __get__syncObject, put = __set__syncObject))::System::Object* _syncObject;
+  __declspec(property(get = __cordl_internal_get__syncObject, put = __cordl_internal_set__syncObject))::System::Object* _syncObject;
 
   /// @brief Field _authInfo, offset 0x40, size 0x8
-  __declspec(property(get = __get__authInfo, put = __set__authInfo))::System::Net::ICredentials* _authInfo;
+  __declspec(property(get = __cordl_internal_get__authInfo, put = __cordl_internal_set__authInfo))::System::Net::ICredentials* _authInfo;
 
   /// @brief Field _uri, offset 0x48, size 0x8
-  __declspec(property(get = __get__uri, put = __set__uri))::System::Uri* _uri;
+  __declspec(property(get = __cordl_internal_get__uri, put = __cordl_internal_set__uri))::System::Uri* _uri;
 
   /// @brief Field _methodInfo, offset 0x50, size 0x8
-  __declspec(property(get = __get__methodInfo, put = __set__methodInfo))::System::Net::FtpMethodInfo* _methodInfo;
+  __declspec(property(get = __cordl_internal_get__methodInfo, put = __cordl_internal_set__methodInfo))::System::Net::FtpMethodInfo* _methodInfo;
 
   /// @brief Field _renameTo, offset 0x58, size 0x8
-  __declspec(property(get = __get__renameTo, put = __set__renameTo))::StringW _renameTo;
+  __declspec(property(get = __cordl_internal_get__renameTo, put = __cordl_internal_set__renameTo))::StringW _renameTo;
 
   /// @brief Field _getRequestStreamStarted, offset 0x60, size 0x1
-  __declspec(property(get = __get__getRequestStreamStarted, put = __set__getRequestStreamStarted)) bool _getRequestStreamStarted;
+  __declspec(property(get = __cordl_internal_get__getRequestStreamStarted, put = __cordl_internal_set__getRequestStreamStarted)) bool _getRequestStreamStarted;
 
   /// @brief Field _getResponseStarted, offset 0x61, size 0x1
-  __declspec(property(get = __get__getResponseStarted, put = __set__getResponseStarted)) bool _getResponseStarted;
+  __declspec(property(get = __cordl_internal_get__getResponseStarted, put = __cordl_internal_set__getResponseStarted)) bool _getResponseStarted;
 
   /// @brief Field _startTime, offset 0x68, size 0x8
-  __declspec(property(get = __get__startTime, put = __set__startTime))::System::DateTime _startTime;
+  __declspec(property(get = __cordl_internal_get__startTime, put = __cordl_internal_set__startTime))::System::DateTime _startTime;
 
   /// @brief Field _timeout, offset 0x70, size 0x4
-  __declspec(property(get = __get__timeout, put = __set__timeout)) int32_t _timeout;
+  __declspec(property(get = __cordl_internal_get__timeout, put = __cordl_internal_set__timeout)) int32_t _timeout;
 
   /// @brief Field _remainingTimeout, offset 0x74, size 0x4
-  __declspec(property(get = __get__remainingTimeout, put = __set__remainingTimeout)) int32_t _remainingTimeout;
+  __declspec(property(get = __cordl_internal_get__remainingTimeout, put = __cordl_internal_set__remainingTimeout)) int32_t _remainingTimeout;
 
   /// @brief Field _contentLength, offset 0x78, size 0x8
-  __declspec(property(get = __get__contentLength, put = __set__contentLength)) int64_t _contentLength;
+  __declspec(property(get = __cordl_internal_get__contentLength, put = __cordl_internal_set__contentLength)) int64_t _contentLength;
 
   /// @brief Field _contentOffset, offset 0x80, size 0x8
-  __declspec(property(get = __get__contentOffset, put = __set__contentOffset)) int64_t _contentOffset;
+  __declspec(property(get = __cordl_internal_get__contentOffset, put = __cordl_internal_set__contentOffset)) int64_t _contentOffset;
 
   /// @brief Field _clientCertificates, offset 0x88, size 0x8
-  __declspec(property(get = __get__clientCertificates, put = __set__clientCertificates))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* _clientCertificates;
+  __declspec(property(get = __cordl_internal_get__clientCertificates,
+                      put = __cordl_internal_set__clientCertificates))::System::Security::Cryptography::X509Certificates::X509CertificateCollection* _clientCertificates;
 
   /// @brief Field _passive, offset 0x90, size 0x1
-  __declspec(property(get = __get__passive, put = __set__passive)) bool _passive;
+  __declspec(property(get = __cordl_internal_get__passive, put = __cordl_internal_set__passive)) bool _passive;
 
   /// @brief Field _binary, offset 0x91, size 0x1
-  __declspec(property(get = __get__binary, put = __set__binary)) bool _binary;
+  __declspec(property(get = __cordl_internal_get__binary, put = __cordl_internal_set__binary)) bool _binary;
 
   /// @brief Field _connectionGroupName, offset 0x98, size 0x8
-  __declspec(property(get = __get__connectionGroupName, put = __set__connectionGroupName))::StringW _connectionGroupName;
+  __declspec(property(get = __cordl_internal_get__connectionGroupName, put = __cordl_internal_set__connectionGroupName))::StringW _connectionGroupName;
 
   /// @brief Field _async, offset 0xa0, size 0x1
-  __declspec(property(get = __get__async, put = __set__async)) bool _async;
+  __declspec(property(get = __cordl_internal_get__async, put = __cordl_internal_set__async)) bool _async;
 
   /// @brief Field _aborted, offset 0xa1, size 0x1
-  __declspec(property(get = __get__aborted, put = __set__aborted)) bool _aborted;
+  __declspec(property(get = __cordl_internal_get__aborted, put = __cordl_internal_set__aborted)) bool _aborted;
 
   /// @brief Field _timedOut, offset 0xa2, size 0x1
-  __declspec(property(get = __get__timedOut, put = __set__timedOut)) bool _timedOut;
+  __declspec(property(get = __cordl_internal_get__timedOut, put = __cordl_internal_set__timedOut)) bool _timedOut;
 
   /// @brief Field _exception, offset 0xa8, size 0x8
-  __declspec(property(get = __get__exception, put = __set__exception))::System::Exception* _exception;
+  __declspec(property(get = __cordl_internal_get__exception, put = __cordl_internal_set__exception))::System::Exception* _exception;
 
   /// @brief Field _timerQueue, offset 0xb0, size 0x8
-  __declspec(property(get = __get__timerQueue, put = __set__timerQueue))::System::Net::__TimerThread__Queue* _timerQueue;
+  __declspec(property(get = __cordl_internal_get__timerQueue, put = __cordl_internal_set__timerQueue))::System::Net::__TimerThread__Queue* _timerQueue;
 
   /// @brief Field _timerCallback, offset 0xb8, size 0x8
-  __declspec(property(get = __get__timerCallback, put = __set__timerCallback))::System::Net::__TimerThread__Callback* _timerCallback;
+  __declspec(property(get = __cordl_internal_get__timerCallback, put = __cordl_internal_set__timerCallback))::System::Net::__TimerThread__Callback* _timerCallback;
 
   /// @brief Field _enableSsl, offset 0xc0, size 0x1
-  __declspec(property(get = __get__enableSsl, put = __set__enableSsl)) bool _enableSsl;
+  __declspec(property(get = __cordl_internal_get__enableSsl, put = __cordl_internal_set__enableSsl)) bool _enableSsl;
 
   /// @brief Field _connection, offset 0xc8, size 0x8
-  __declspec(property(get = __get__connection, put = __set__connection))::System::Net::FtpControlStream* _connection;
+  __declspec(property(get = __cordl_internal_get__connection, put = __cordl_internal_set__connection))::System::Net::FtpControlStream* _connection;
 
   /// @brief Field _stream, offset 0xd0, size 0x8
-  __declspec(property(get = __get__stream, put = __set__stream))::System::IO::Stream* _stream;
+  __declspec(property(get = __cordl_internal_get__stream, put = __cordl_internal_set__stream))::System::IO::Stream* _stream;
 
   /// @brief Field _requestStage, offset 0xd8, size 0x4
-  __declspec(property(get = __get__requestStage, put = __set__requestStage))::System::Net::__FtpWebRequest__RequestStage _requestStage;
+  __declspec(property(get = __cordl_internal_get__requestStage, put = __cordl_internal_set__requestStage))::System::Net::__FtpWebRequest__RequestStage _requestStage;
 
   /// @brief Field _onceFailed, offset 0xdc, size 0x1
-  __declspec(property(get = __get__onceFailed, put = __set__onceFailed)) bool _onceFailed;
+  __declspec(property(get = __cordl_internal_get__onceFailed, put = __cordl_internal_set__onceFailed)) bool _onceFailed;
 
   /// @brief Field _ftpRequestHeaders, offset 0xe0, size 0x8
-  __declspec(property(get = __get__ftpRequestHeaders, put = __set__ftpRequestHeaders))::System::Net::WebHeaderCollection* _ftpRequestHeaders;
+  __declspec(property(get = __cordl_internal_get__ftpRequestHeaders, put = __cordl_internal_set__ftpRequestHeaders))::System::Net::WebHeaderCollection* _ftpRequestHeaders;
 
   /// @brief Field _ftpWebResponse, offset 0xe8, size 0x8
-  __declspec(property(get = __get__ftpWebResponse, put = __set__ftpWebResponse))::System::Net::FtpWebResponse* _ftpWebResponse;
+  __declspec(property(get = __cordl_internal_get__ftpWebResponse, put = __cordl_internal_set__ftpWebResponse))::System::Net::FtpWebResponse* _ftpWebResponse;
 
   /// @brief Field _readWriteTimeout, offset 0xf0, size 0x4
-  __declspec(property(get = __get__readWriteTimeout, put = __set__readWriteTimeout)) int32_t _readWriteTimeout;
+  __declspec(property(get = __cordl_internal_get__readWriteTimeout, put = __cordl_internal_set__readWriteTimeout)) int32_t _readWriteTimeout;
 
   /// @brief Field _writeAsyncResult, offset 0xf8, size 0x8
-  __declspec(property(get = __get__writeAsyncResult, put = __set__writeAsyncResult))::System::Net::ContextAwareResult* _writeAsyncResult;
+  __declspec(property(get = __cordl_internal_get__writeAsyncResult, put = __cordl_internal_set__writeAsyncResult))::System::Net::ContextAwareResult* _writeAsyncResult;
 
   /// @brief Field _readAsyncResult, offset 0x100, size 0x8
-  __declspec(property(get = __get__readAsyncResult, put = __set__readAsyncResult))::System::Net::LazyAsyncResult* _readAsyncResult;
+  __declspec(property(get = __cordl_internal_get__readAsyncResult, put = __cordl_internal_set__readAsyncResult))::System::Net::LazyAsyncResult* _readAsyncResult;
 
   /// @brief Field _requestCompleteAsyncResult, offset 0x108, size 0x8
-  __declspec(property(get = __get__requestCompleteAsyncResult, put = __set__requestCompleteAsyncResult))::System::Net::LazyAsyncResult* _requestCompleteAsyncResult;
+  __declspec(property(get = __cordl_internal_get__requestCompleteAsyncResult, put = __cordl_internal_set__requestCompleteAsyncResult))::System::Net::LazyAsyncResult* _requestCompleteAsyncResult;
 
   /// @brief Field s_defaultFtpNetworkCredential, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_defaultFtpNetworkCredential, put = setStaticF_s_defaultFtpNetworkCredential))::System::Net::NetworkCredential* s_defaultFtpNetworkCredential;
@@ -469,203 +470,203 @@ public:
 
   __declspec(property(get = get_InUse)) bool InUse;
 
-  constexpr ::System::Object*& __get__syncObject();
+  constexpr ::System::Object*& __cordl_internal_get__syncObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__syncObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncObject() const;
 
-  constexpr void __set__syncObject(::System::Object* value);
+  constexpr void __cordl_internal_set__syncObject(::System::Object* value);
 
-  constexpr ::System::Net::ICredentials*& __get__authInfo();
+  constexpr ::System::Net::ICredentials*& __cordl_internal_get__authInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& __get__authInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& __cordl_internal_get__authInfo() const;
 
-  constexpr void __set__authInfo(::System::Net::ICredentials* value);
+  constexpr void __cordl_internal_set__authInfo(::System::Net::ICredentials* value);
 
-  constexpr ::System::Uri*& __get__uri();
+  constexpr ::System::Uri*& __cordl_internal_get__uri();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get__uri() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get__uri() const;
 
-  constexpr void __set__uri(::System::Uri* value);
+  constexpr void __cordl_internal_set__uri(::System::Uri* value);
 
-  constexpr ::System::Net::FtpMethodInfo*& __get__methodInfo();
+  constexpr ::System::Net::FtpMethodInfo*& __cordl_internal_get__methodInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::FtpMethodInfo*> const& __get__methodInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::FtpMethodInfo*> const& __cordl_internal_get__methodInfo() const;
 
-  constexpr void __set__methodInfo(::System::Net::FtpMethodInfo* value);
+  constexpr void __cordl_internal_set__methodInfo(::System::Net::FtpMethodInfo* value);
 
-  constexpr ::StringW& __get__renameTo();
+  constexpr ::StringW& __cordl_internal_get__renameTo();
 
-  constexpr ::StringW const& __get__renameTo() const;
+  constexpr ::StringW const& __cordl_internal_get__renameTo() const;
 
-  constexpr void __set__renameTo(::StringW value);
+  constexpr void __cordl_internal_set__renameTo(::StringW value);
 
-  constexpr bool& __get__getRequestStreamStarted();
+  constexpr bool& __cordl_internal_get__getRequestStreamStarted();
 
-  constexpr bool const& __get__getRequestStreamStarted() const;
+  constexpr bool const& __cordl_internal_get__getRequestStreamStarted() const;
 
-  constexpr void __set__getRequestStreamStarted(bool value);
+  constexpr void __cordl_internal_set__getRequestStreamStarted(bool value);
 
-  constexpr bool& __get__getResponseStarted();
+  constexpr bool& __cordl_internal_get__getResponseStarted();
 
-  constexpr bool const& __get__getResponseStarted() const;
+  constexpr bool const& __cordl_internal_get__getResponseStarted() const;
 
-  constexpr void __set__getResponseStarted(bool value);
+  constexpr void __cordl_internal_set__getResponseStarted(bool value);
 
-  constexpr ::System::DateTime& __get__startTime();
+  constexpr ::System::DateTime& __cordl_internal_get__startTime();
 
-  constexpr ::System::DateTime const& __get__startTime() const;
+  constexpr ::System::DateTime const& __cordl_internal_get__startTime() const;
 
-  constexpr void __set__startTime(::System::DateTime value);
+  constexpr void __cordl_internal_set__startTime(::System::DateTime value);
 
-  constexpr int32_t& __get__timeout();
+  constexpr int32_t& __cordl_internal_get__timeout();
 
-  constexpr int32_t const& __get__timeout() const;
+  constexpr int32_t const& __cordl_internal_get__timeout() const;
 
-  constexpr void __set__timeout(int32_t value);
+  constexpr void __cordl_internal_set__timeout(int32_t value);
 
-  constexpr int32_t& __get__remainingTimeout();
+  constexpr int32_t& __cordl_internal_get__remainingTimeout();
 
-  constexpr int32_t const& __get__remainingTimeout() const;
+  constexpr int32_t const& __cordl_internal_get__remainingTimeout() const;
 
-  constexpr void __set__remainingTimeout(int32_t value);
+  constexpr void __cordl_internal_set__remainingTimeout(int32_t value);
 
-  constexpr int64_t& __get__contentLength();
+  constexpr int64_t& __cordl_internal_get__contentLength();
 
-  constexpr int64_t const& __get__contentLength() const;
+  constexpr int64_t const& __cordl_internal_get__contentLength() const;
 
-  constexpr void __set__contentLength(int64_t value);
+  constexpr void __cordl_internal_set__contentLength(int64_t value);
 
-  constexpr int64_t& __get__contentOffset();
+  constexpr int64_t& __cordl_internal_get__contentOffset();
 
-  constexpr int64_t const& __get__contentOffset() const;
+  constexpr int64_t const& __cordl_internal_get__contentOffset() const;
 
-  constexpr void __set__contentOffset(int64_t value);
+  constexpr void __cordl_internal_set__contentOffset(int64_t value);
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& __get__clientCertificates();
+  constexpr ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*& __cordl_internal_get__clientCertificates();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const& __get__clientCertificates() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*> const& __cordl_internal_get__clientCertificates() const;
 
-  constexpr void __set__clientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
+  constexpr void __cordl_internal_set__clientCertificates(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* value);
 
-  constexpr bool& __get__passive();
+  constexpr bool& __cordl_internal_get__passive();
 
-  constexpr bool const& __get__passive() const;
+  constexpr bool const& __cordl_internal_get__passive() const;
 
-  constexpr void __set__passive(bool value);
+  constexpr void __cordl_internal_set__passive(bool value);
 
-  constexpr bool& __get__binary();
+  constexpr bool& __cordl_internal_get__binary();
 
-  constexpr bool const& __get__binary() const;
+  constexpr bool const& __cordl_internal_get__binary() const;
 
-  constexpr void __set__binary(bool value);
+  constexpr void __cordl_internal_set__binary(bool value);
 
-  constexpr ::StringW& __get__connectionGroupName();
+  constexpr ::StringW& __cordl_internal_get__connectionGroupName();
 
-  constexpr ::StringW const& __get__connectionGroupName() const;
+  constexpr ::StringW const& __cordl_internal_get__connectionGroupName() const;
 
-  constexpr void __set__connectionGroupName(::StringW value);
+  constexpr void __cordl_internal_set__connectionGroupName(::StringW value);
 
-  constexpr bool& __get__async();
+  constexpr bool& __cordl_internal_get__async();
 
-  constexpr bool const& __get__async() const;
+  constexpr bool const& __cordl_internal_get__async() const;
 
-  constexpr void __set__async(bool value);
+  constexpr void __cordl_internal_set__async(bool value);
 
-  constexpr bool& __get__aborted();
+  constexpr bool& __cordl_internal_get__aborted();
 
-  constexpr bool const& __get__aborted() const;
+  constexpr bool const& __cordl_internal_get__aborted() const;
 
-  constexpr void __set__aborted(bool value);
+  constexpr void __cordl_internal_set__aborted(bool value);
 
-  constexpr bool& __get__timedOut();
+  constexpr bool& __cordl_internal_get__timedOut();
 
-  constexpr bool const& __get__timedOut() const;
+  constexpr bool const& __cordl_internal_get__timedOut() const;
 
-  constexpr void __set__timedOut(bool value);
+  constexpr void __cordl_internal_set__timedOut(bool value);
 
-  constexpr ::System::Exception*& __get__exception();
+  constexpr ::System::Exception*& __cordl_internal_get__exception();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __get__exception() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get__exception() const;
 
-  constexpr void __set__exception(::System::Exception* value);
+  constexpr void __cordl_internal_set__exception(::System::Exception* value);
 
-  constexpr ::System::Net::__TimerThread__Queue*& __get__timerQueue();
+  constexpr ::System::Net::__TimerThread__Queue*& __cordl_internal_get__timerQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__Queue*> const& __get__timerQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__Queue*> const& __cordl_internal_get__timerQueue() const;
 
-  constexpr void __set__timerQueue(::System::Net::__TimerThread__Queue* value);
+  constexpr void __cordl_internal_set__timerQueue(::System::Net::__TimerThread__Queue* value);
 
-  constexpr ::System::Net::__TimerThread__Callback*& __get__timerCallback();
+  constexpr ::System::Net::__TimerThread__Callback*& __cordl_internal_get__timerCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__Callback*> const& __get__timerCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::__TimerThread__Callback*> const& __cordl_internal_get__timerCallback() const;
 
-  constexpr void __set__timerCallback(::System::Net::__TimerThread__Callback* value);
+  constexpr void __cordl_internal_set__timerCallback(::System::Net::__TimerThread__Callback* value);
 
-  constexpr bool& __get__enableSsl();
+  constexpr bool& __cordl_internal_get__enableSsl();
 
-  constexpr bool const& __get__enableSsl() const;
+  constexpr bool const& __cordl_internal_get__enableSsl() const;
 
-  constexpr void __set__enableSsl(bool value);
+  constexpr void __cordl_internal_set__enableSsl(bool value);
 
-  constexpr ::System::Net::FtpControlStream*& __get__connection();
+  constexpr ::System::Net::FtpControlStream*& __cordl_internal_get__connection();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::FtpControlStream*> const& __get__connection() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::FtpControlStream*> const& __cordl_internal_get__connection() const;
 
-  constexpr void __set__connection(::System::Net::FtpControlStream* value);
+  constexpr void __cordl_internal_set__connection(::System::Net::FtpControlStream* value);
 
-  constexpr ::System::IO::Stream*& __get__stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get__stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get__stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__stream() const;
 
-  constexpr void __set__stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set__stream(::System::IO::Stream* value);
 
-  constexpr ::System::Net::__FtpWebRequest__RequestStage& __get__requestStage();
+  constexpr ::System::Net::__FtpWebRequest__RequestStage& __cordl_internal_get__requestStage();
 
-  constexpr ::System::Net::__FtpWebRequest__RequestStage const& __get__requestStage() const;
+  constexpr ::System::Net::__FtpWebRequest__RequestStage const& __cordl_internal_get__requestStage() const;
 
-  constexpr void __set__requestStage(::System::Net::__FtpWebRequest__RequestStage value);
+  constexpr void __cordl_internal_set__requestStage(::System::Net::__FtpWebRequest__RequestStage value);
 
-  constexpr bool& __get__onceFailed();
+  constexpr bool& __cordl_internal_get__onceFailed();
 
-  constexpr bool const& __get__onceFailed() const;
+  constexpr bool const& __cordl_internal_get__onceFailed() const;
 
-  constexpr void __set__onceFailed(bool value);
+  constexpr void __cordl_internal_set__onceFailed(bool value);
 
-  constexpr ::System::Net::WebHeaderCollection*& __get__ftpRequestHeaders();
+  constexpr ::System::Net::WebHeaderCollection*& __cordl_internal_get__ftpRequestHeaders();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __get__ftpRequestHeaders() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebHeaderCollection*> const& __cordl_internal_get__ftpRequestHeaders() const;
 
-  constexpr void __set__ftpRequestHeaders(::System::Net::WebHeaderCollection* value);
+  constexpr void __cordl_internal_set__ftpRequestHeaders(::System::Net::WebHeaderCollection* value);
 
-  constexpr ::System::Net::FtpWebResponse*& __get__ftpWebResponse();
+  constexpr ::System::Net::FtpWebResponse*& __cordl_internal_get__ftpWebResponse();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::FtpWebResponse*> const& __get__ftpWebResponse() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::FtpWebResponse*> const& __cordl_internal_get__ftpWebResponse() const;
 
-  constexpr void __set__ftpWebResponse(::System::Net::FtpWebResponse* value);
+  constexpr void __cordl_internal_set__ftpWebResponse(::System::Net::FtpWebResponse* value);
 
-  constexpr int32_t& __get__readWriteTimeout();
+  constexpr int32_t& __cordl_internal_get__readWriteTimeout();
 
-  constexpr int32_t const& __get__readWriteTimeout() const;
+  constexpr int32_t const& __cordl_internal_get__readWriteTimeout() const;
 
-  constexpr void __set__readWriteTimeout(int32_t value);
+  constexpr void __cordl_internal_set__readWriteTimeout(int32_t value);
 
-  constexpr ::System::Net::ContextAwareResult*& __get__writeAsyncResult();
+  constexpr ::System::Net::ContextAwareResult*& __cordl_internal_get__writeAsyncResult();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ContextAwareResult*> const& __get__writeAsyncResult() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ContextAwareResult*> const& __cordl_internal_get__writeAsyncResult() const;
 
-  constexpr void __set__writeAsyncResult(::System::Net::ContextAwareResult* value);
+  constexpr void __cordl_internal_set__writeAsyncResult(::System::Net::ContextAwareResult* value);
 
-  constexpr ::System::Net::LazyAsyncResult*& __get__readAsyncResult();
+  constexpr ::System::Net::LazyAsyncResult*& __cordl_internal_get__readAsyncResult();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::LazyAsyncResult*> const& __get__readAsyncResult() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::LazyAsyncResult*> const& __cordl_internal_get__readAsyncResult() const;
 
-  constexpr void __set__readAsyncResult(::System::Net::LazyAsyncResult* value);
+  constexpr void __cordl_internal_set__readAsyncResult(::System::Net::LazyAsyncResult* value);
 
-  constexpr ::System::Net::LazyAsyncResult*& __get__requestCompleteAsyncResult();
+  constexpr ::System::Net::LazyAsyncResult*& __cordl_internal_get__requestCompleteAsyncResult();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::LazyAsyncResult*> const& __get__requestCompleteAsyncResult() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::LazyAsyncResult*> const& __cordl_internal_get__requestCompleteAsyncResult() const;
 
-  constexpr void __set__requestCompleteAsyncResult(::System::Net::LazyAsyncResult* value);
+  constexpr void __cordl_internal_set__requestCompleteAsyncResult(::System::Net::LazyAsyncResult* value);
 
   static inline void setStaticF_s_defaultFtpNetworkCredential(::System::Net::NetworkCredential* value);
 

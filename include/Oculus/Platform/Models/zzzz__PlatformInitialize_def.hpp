@@ -16,20 +16,20 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::PlatformInitialize);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13373))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13373))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13472))
 // CS Name: ::Oculus.Platform.Models::PlatformInitialize*
 class CORDL_TYPE PlatformInitialize : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Result, offset 0x10, size 0x4
-  __declspec(property(get = __get_Result, put = __set_Result))::Oculus::Platform::PlatformInitializeResult Result;
+  __declspec(property(get = __cordl_internal_get_Result, put = __cordl_internal_set_Result))::Oculus::Platform::PlatformInitializeResult Result;
 
-  constexpr ::Oculus::Platform::PlatformInitializeResult& __get_Result();
+  constexpr ::Oculus::Platform::PlatformInitializeResult& __cordl_internal_get_Result();
 
-  constexpr ::Oculus::Platform::PlatformInitializeResult const& __get_Result() const;
+  constexpr ::Oculus::Platform::PlatformInitializeResult const& __cordl_internal_get_Result() const;
 
-  constexpr void __set_Result(::Oculus::Platform::PlatformInitializeResult value);
+  constexpr void __cordl_internal_set_Result(::Oculus::Platform::PlatformInitializeResult value);
 
   static inline ::Oculus::Platform::Models::PlatformInitialize* New_ctor(void* o);
 

@@ -49,7 +49,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__IMECompositionString___buffer
 // SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 2, calculated_native_size: 18, minimum_alignment: 2, natural_alignment: 2, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6528))
 // CS Name: ::IMECompositionString::<buffer>e__FixedBuffer
 #pragma pack(push, 0)
@@ -86,7 +86,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__IMECompositionStr
 // }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6528))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6528))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6529))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::IMECompositionString
 #pragma pack(push, 0)
@@ -98,10 +98,10 @@ public:
   using Enumerator = ::UnityEngine::InputSystem::LowLevel::__IMECompositionString__Enumerator;
 
   /// @brief Field size, offset 0x0, size 0x4
-  __declspec(property(get = __get_size, put = __set_size)) int32_t size;
+  __declspec(property(get = __cordl_internal_get_size, put = __cordl_internal_set_size)) int32_t size;
 
   /// @brief Field buffer, offset 0x4, size 0x80
-  __declspec(property(get = __get_buffer, put = __set_buffer))::UnityEngine::InputSystem::LowLevel::__IMECompositionString___buffer_e__FixedBuffer buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::UnityEngine::InputSystem::LowLevel::__IMECompositionString___buffer_e__FixedBuffer buffer;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -119,17 +119,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
-  constexpr int32_t& __get_size();
+  constexpr int32_t& __cordl_internal_get_size();
 
-  constexpr int32_t const& __get_size() const;
+  constexpr int32_t const& __cordl_internal_get_size() const;
 
-  constexpr void __set_size(int32_t value);
+  constexpr void __cordl_internal_set_size(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::__IMECompositionString___buffer_e__FixedBuffer& __get_buffer();
+  constexpr ::UnityEngine::InputSystem::LowLevel::__IMECompositionString___buffer_e__FixedBuffer& __cordl_internal_get_buffer();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::__IMECompositionString___buffer_e__FixedBuffer const& __get_buffer() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::__IMECompositionString___buffer_e__FixedBuffer const& __cordl_internal_get_buffer() const;
 
-  constexpr void __set_buffer(::UnityEngine::InputSystem::LowLevel::__IMECompositionString___buffer_e__FixedBuffer value);
+  constexpr void __cordl_internal_set_buffer(::UnityEngine::InputSystem::LowLevel::__IMECompositionString___buffer_e__FixedBuffer value);
 
   /// @brief Method get_Count, addr 0x2ae9ee0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
@@ -205,7 +205,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLev
 // SizeInfo { instance_size: 140, native_size: 140, calculated_instance_size: 140, calculated_native_size: 156, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6529))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6529))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6527))
 // CS Name: ::IMECompositionString::Enumerator
 struct CORDL_TYPE __IMECompositionString__Enumerator {

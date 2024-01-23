@@ -32,29 +32,29 @@ MARK_REF_PTR_T(::System::Net::RequestStream);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9198))
 // CS Name: ::System.Net::RequestStream*
 class CORDL_TYPE RequestStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field buffer, offset 0x28, size 0x8
-  __declspec(property(get = __get_buffer, put = __set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
 
   /// @brief Field offset, offset 0x30, size 0x4
-  __declspec(property(get = __get_offset, put = __set_offset)) int32_t offset;
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset)) int32_t offset;
 
   /// @brief Field length, offset 0x34, size 0x4
-  __declspec(property(get = __get_length, put = __set_length)) int32_t length;
+  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) int32_t length;
 
   /// @brief Field remaining_body, offset 0x38, size 0x8
-  __declspec(property(get = __get_remaining_body, put = __set_remaining_body)) int64_t remaining_body;
+  __declspec(property(get = __cordl_internal_get_remaining_body, put = __cordl_internal_set_remaining_body)) int64_t remaining_body;
 
   /// @brief Field disposed, offset 0x40, size 0x1
-  __declspec(property(get = __get_disposed, put = __set_disposed)) bool disposed;
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field stream, offset 0x48, size 0x8
-  __declspec(property(get = __get_stream, put = __set_stream))::System::IO::Stream* stream;
+  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -66,41 +66,41 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
 
-  constexpr void __set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_offset();
+  constexpr int32_t& __cordl_internal_get_offset();
 
-  constexpr int32_t const& __get_offset() const;
+  constexpr int32_t const& __cordl_internal_get_offset() const;
 
-  constexpr void __set_offset(int32_t value);
+  constexpr void __cordl_internal_set_offset(int32_t value);
 
-  constexpr int32_t& __get_length();
+  constexpr int32_t& __cordl_internal_get_length();
 
-  constexpr int32_t const& __get_length() const;
+  constexpr int32_t const& __cordl_internal_get_length() const;
 
-  constexpr void __set_length(int32_t value);
+  constexpr void __cordl_internal_set_length(int32_t value);
 
-  constexpr int64_t& __get_remaining_body();
+  constexpr int64_t& __cordl_internal_get_remaining_body();
 
-  constexpr int64_t const& __get_remaining_body() const;
+  constexpr int64_t const& __cordl_internal_get_remaining_body() const;
 
-  constexpr void __set_remaining_body(int64_t value);
+  constexpr void __cordl_internal_set_remaining_body(int64_t value);
 
-  constexpr bool& __get_disposed();
+  constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr bool const& __get_disposed() const;
+  constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __set_disposed(bool value);
+  constexpr void __cordl_internal_set_disposed(bool value);
 
-  constexpr ::System::IO::Stream*& __get_stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
 
-  constexpr void __set_stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
 
   static inline ::System::Net::RequestStream* New_ctor(::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 

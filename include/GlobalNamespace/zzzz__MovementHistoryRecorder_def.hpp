@@ -18,49 +18,49 @@ MARK_REF_PTR_T(::GlobalNamespace::MovementHistoryRecorder);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5288))
 // CS Name: ::MovementHistoryRecorder*
 class CORDL_TYPE MovementHistoryRecorder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _averagingValueRecorer, offset 0x10, size 0x8
-  __declspec(property(get = __get__averagingValueRecorer, put = __set__averagingValueRecorer))::GlobalNamespace::AveragingValueRecorder* _averagingValueRecorer;
+  __declspec(property(get = __cordl_internal_get__averagingValueRecorer, put = __cordl_internal_set__averagingValueRecorer))::GlobalNamespace::AveragingValueRecorder* _averagingValueRecorer;
 
   /// @brief Field _increaseSpeed, offset 0x18, size 0x4
-  __declspec(property(get = __get__increaseSpeed, put = __set__increaseSpeed)) float_t _increaseSpeed;
+  __declspec(property(get = __cordl_internal_get__increaseSpeed, put = __cordl_internal_set__increaseSpeed)) float_t _increaseSpeed;
 
   /// @brief Field _decreaseSpeed, offset 0x1c, size 0x4
-  __declspec(property(get = __get__decreaseSpeed, put = __set__decreaseSpeed)) float_t _decreaseSpeed;
+  __declspec(property(get = __cordl_internal_get__decreaseSpeed, put = __cordl_internal_set__decreaseSpeed)) float_t _decreaseSpeed;
 
   /// @brief Field _accum, offset 0x20, size 0x4
-  __declspec(property(get = __get__accum, put = __set__accum)) float_t _accum;
+  __declspec(property(get = __cordl_internal_get__accum, put = __cordl_internal_set__accum)) float_t _accum;
 
   __declspec(property(get = get_averagingValueRecorer))::GlobalNamespace::AveragingValueRecorder* averagingValueRecorer;
 
-  constexpr ::GlobalNamespace::AveragingValueRecorder*& __get__averagingValueRecorer();
+  constexpr ::GlobalNamespace::AveragingValueRecorder*& __cordl_internal_get__averagingValueRecorer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AveragingValueRecorder*> const& __get__averagingValueRecorer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AveragingValueRecorder*> const& __cordl_internal_get__averagingValueRecorer() const;
 
-  constexpr void __set__averagingValueRecorer(::GlobalNamespace::AveragingValueRecorder* value);
+  constexpr void __cordl_internal_set__averagingValueRecorer(::GlobalNamespace::AveragingValueRecorder* value);
 
-  constexpr float_t& __get__increaseSpeed();
+  constexpr float_t& __cordl_internal_get__increaseSpeed();
 
-  constexpr float_t const& __get__increaseSpeed() const;
+  constexpr float_t const& __cordl_internal_get__increaseSpeed() const;
 
-  constexpr void __set__increaseSpeed(float_t value);
+  constexpr void __cordl_internal_set__increaseSpeed(float_t value);
 
-  constexpr float_t& __get__decreaseSpeed();
+  constexpr float_t& __cordl_internal_get__decreaseSpeed();
 
-  constexpr float_t const& __get__decreaseSpeed() const;
+  constexpr float_t const& __cordl_internal_get__decreaseSpeed() const;
 
-  constexpr void __set__decreaseSpeed(float_t value);
+  constexpr void __cordl_internal_set__decreaseSpeed(float_t value);
 
-  constexpr float_t& __get__accum();
+  constexpr float_t& __cordl_internal_get__accum();
 
-  constexpr float_t const& __get__accum() const;
+  constexpr float_t const& __cordl_internal_get__accum() const;
 
-  constexpr void __set__accum(float_t value);
+  constexpr void __cordl_internal_set__accum(float_t value);
 
   /// @brief Method get_averagingValueRecorer, addr 0x2262f88, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::AveragingValueRecorder* get_averagingValueRecorer();

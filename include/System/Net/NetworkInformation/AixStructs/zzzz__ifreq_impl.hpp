@@ -10,22 +10,22 @@ constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__F
 }
 // Ctor Parameters []
 constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer::__ifreq___ifr_name_e__FixedBuffer() {}
-constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer& System::Net::NetworkInformation::AixStructs::ifreq::__get_ifr_name() {
+constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer& System::Net::NetworkInformation::AixStructs::ifreq::__cordl_internal_get_ifr_name() {
   return this->___ifr_name;
 }
-constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer const& System::Net::NetworkInformation::AixStructs::ifreq::__get_ifr_name() const {
+constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer const& System::Net::NetworkInformation::AixStructs::ifreq::__cordl_internal_get_ifr_name() const {
   return this->___ifr_name;
 }
-constexpr void System::Net::NetworkInformation::AixStructs::ifreq::__set_ifr_name(::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer value) {
+constexpr void System::Net::NetworkInformation::AixStructs::ifreq::__cordl_internal_set_ifr_name(::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer value) {
   this->___ifr_name = value;
 }
-constexpr ::System::Net::NetworkInformation::AixStructs::sockaddr& System::Net::NetworkInformation::AixStructs::ifreq::__get_ifru_addr() {
+constexpr ::System::Net::NetworkInformation::AixStructs::sockaddr& System::Net::NetworkInformation::AixStructs::ifreq::__cordl_internal_get_ifru_addr() {
   return this->___ifru_addr;
 }
-constexpr ::System::Net::NetworkInformation::AixStructs::sockaddr const& System::Net::NetworkInformation::AixStructs::ifreq::__get_ifru_addr() const {
+constexpr ::System::Net::NetworkInformation::AixStructs::sockaddr const& System::Net::NetworkInformation::AixStructs::ifreq::__cordl_internal_get_ifru_addr() const {
   return this->___ifru_addr;
 }
-constexpr void System::Net::NetworkInformation::AixStructs::ifreq::__set_ifru_addr(::System::Net::NetworkInformation::AixStructs::sockaddr value) {
+constexpr void System::Net::NetworkInformation::AixStructs::ifreq::__cordl_internal_set_ifru_addr(::System::Net::NetworkInformation::AixStructs::sockaddr value) {
   this->___ifru_addr = value;
 }
 // Ctor Parameters [CppParam { name: "ifr_name", ty: "::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name:

@@ -30,29 +30,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::CertRepMessage);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::CertRepMessage*
 class CORDL_TYPE CertRepMessage : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field caPubs, offset 0x10, size 0x8
-  __declspec(property(get = __get_caPubs, put = __set_caPubs))::Org::BouncyCastle::Asn1::Asn1Sequence* caPubs;
+  __declspec(property(get = __cordl_internal_get_caPubs, put = __cordl_internal_set_caPubs))::Org::BouncyCastle::Asn1::Asn1Sequence* caPubs;
 
   /// @brief Field response, offset 0x18, size 0x8
-  __declspec(property(get = __get_response, put = __set_response))::Org::BouncyCastle::Asn1::Asn1Sequence* response;
+  __declspec(property(get = __cordl_internal_get_response, put = __cordl_internal_set_response))::Org::BouncyCastle::Asn1::Asn1Sequence* response;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_caPubs();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_caPubs();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_caPubs() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_caPubs() const;
 
-  constexpr void __set_caPubs(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_caPubs(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_response();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_response();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_response() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_response() const;
 
-  constexpr void __set_response(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_response(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertRepMessage* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

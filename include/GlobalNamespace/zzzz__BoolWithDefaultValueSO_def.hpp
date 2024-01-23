@@ -14,20 +14,20 @@ MARK_REF_PTR_T(::GlobalNamespace::BoolWithDefaultValueSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15861))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15861))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15862))
 // CS Name: ::BoolWithDefaultValueSO*
 class CORDL_TYPE BoolWithDefaultValueSO : public ::GlobalNamespace::BoolSO {
 public:
   // Declarations
   /// @brief Field _defaultValue, offset 0x21, size 0x1
-  __declspec(property(get = __get__defaultValue, put = __set__defaultValue)) bool _defaultValue;
+  __declspec(property(get = __cordl_internal_get__defaultValue, put = __cordl_internal_set__defaultValue)) bool _defaultValue;
 
-  constexpr bool& __get__defaultValue();
+  constexpr bool& __cordl_internal_get__defaultValue();
 
-  constexpr bool const& __get__defaultValue() const;
+  constexpr bool const& __cordl_internal_get__defaultValue() const;
 
-  constexpr void __set__defaultValue(bool value);
+  constexpr void __cordl_internal_set__defaultValue(bool value);
 
   /// @brief Method OnEnable, addr 0xe28934, size 0x68, virtual true, abstract: false, final false
   inline void OnEnable();

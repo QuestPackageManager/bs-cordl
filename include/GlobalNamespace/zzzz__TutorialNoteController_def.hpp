@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__TutorialNoteController__Pool);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4761))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4761))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4787))
 // CS Name: ::TutorialNoteController*
 class CORDL_TYPE TutorialNoteController : public ::GlobalNamespace::NoteController {
@@ -65,21 +65,22 @@ public:
   using Pool = ::GlobalNamespace::__TutorialNoteController__Pool;
 
   /// @brief Field _cuttableBySaberCore, offset 0x80, size 0x8
-  __declspec(property(get = __get__cuttableBySaberCore, put = __set__cuttableBySaberCore))::GlobalNamespace::BoxCuttableBySaber* _cuttableBySaberCore;
+  __declspec(property(get = __cordl_internal_get__cuttableBySaberCore, put = __cordl_internal_set__cuttableBySaberCore))::UnityW<::GlobalNamespace::BoxCuttableBySaber> _cuttableBySaberCore;
 
   /// @brief Field _cuttableBySaberBeforeNote, offset 0x88, size 0x8
-  __declspec(property(get = __get__cuttableBySaberBeforeNote, put = __set__cuttableBySaberBeforeNote))::GlobalNamespace::BoxCuttableBySaber* _cuttableBySaberBeforeNote;
+  __declspec(property(get = __cordl_internal_get__cuttableBySaberBeforeNote,
+                      put = __cordl_internal_set__cuttableBySaberBeforeNote))::UnityW<::GlobalNamespace::BoxCuttableBySaber> _cuttableBySaberBeforeNote;
 
   /// @brief Field _wrapperGO, offset 0x90, size 0x8
-  __declspec(property(get = __get__wrapperGO, put = __set__wrapperGO))::UnityEngine::GameObject* _wrapperGO;
+  __declspec(property(get = __cordl_internal_get__wrapperGO, put = __cordl_internal_set__wrapperGO))::UnityW<::UnityEngine::GameObject> _wrapperGO;
 
   /// @brief Field _beforeNoteCutWasOk, offset 0x98, size 0x1
-  __declspec(property(get = __get__beforeNoteCutWasOk, put = __set__beforeNoteCutWasOk)) bool _beforeNoteCutWasOk;
+  __declspec(property(get = __cordl_internal_get__beforeNoteCutWasOk, put = __cordl_internal_set__beforeNoteCutWasOk)) bool _beforeNoteCutWasOk;
 
   /// @brief Field _cutAngleTolerance, offset 0x9c, size 0x4
-  __declspec(property(get = __get__cutAngleTolerance, put = __set__cutAngleTolerance)) float_t _cutAngleTolerance;
+  __declspec(property(get = __cordl_internal_get__cutAngleTolerance, put = __cordl_internal_set__cutAngleTolerance)) float_t _cutAngleTolerance;
 
-  __declspec(property(get = get_noteMovement))::GlobalNamespace::NoteMovement* noteMovement;
+  __declspec(property(get = get_noteMovement))::UnityW<::GlobalNamespace::NoteMovement> noteMovement;
 
   __declspec(property(get = get_noteVisualModifierType))::GlobalNamespace::NoteVisualModifierType noteVisualModifierType;
 
@@ -97,38 +98,38 @@ public:
   /// @brief Convert to "::GlobalNamespace::INoteMirrorable"
   constexpr ::GlobalNamespace::INoteMirrorable* i___GlobalNamespace__INoteMirrorable() noexcept;
 
-  constexpr ::GlobalNamespace::BoxCuttableBySaber*& __get__cuttableBySaberCore();
+  constexpr ::UnityW<::GlobalNamespace::BoxCuttableBySaber>& __cordl_internal_get__cuttableBySaberCore();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoxCuttableBySaber*> const& __get__cuttableBySaberCore() const;
+  constexpr ::UnityW<::GlobalNamespace::BoxCuttableBySaber> const& __cordl_internal_get__cuttableBySaberCore() const;
 
-  constexpr void __set__cuttableBySaberCore(::GlobalNamespace::BoxCuttableBySaber* value);
+  constexpr void __cordl_internal_set__cuttableBySaberCore(::UnityW<::GlobalNamespace::BoxCuttableBySaber> value);
 
-  constexpr ::GlobalNamespace::BoxCuttableBySaber*& __get__cuttableBySaberBeforeNote();
+  constexpr ::UnityW<::GlobalNamespace::BoxCuttableBySaber>& __cordl_internal_get__cuttableBySaberBeforeNote();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoxCuttableBySaber*> const& __get__cuttableBySaberBeforeNote() const;
+  constexpr ::UnityW<::GlobalNamespace::BoxCuttableBySaber> const& __cordl_internal_get__cuttableBySaberBeforeNote() const;
 
-  constexpr void __set__cuttableBySaberBeforeNote(::GlobalNamespace::BoxCuttableBySaber* value);
+  constexpr void __cordl_internal_set__cuttableBySaberBeforeNote(::UnityW<::GlobalNamespace::BoxCuttableBySaber> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__wrapperGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__wrapperGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__wrapperGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__wrapperGO() const;
 
-  constexpr void __set__wrapperGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__wrapperGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr bool& __get__beforeNoteCutWasOk();
+  constexpr bool& __cordl_internal_get__beforeNoteCutWasOk();
 
-  constexpr bool const& __get__beforeNoteCutWasOk() const;
+  constexpr bool const& __cordl_internal_get__beforeNoteCutWasOk() const;
 
-  constexpr void __set__beforeNoteCutWasOk(bool value);
+  constexpr void __cordl_internal_set__beforeNoteCutWasOk(bool value);
 
-  constexpr float_t& __get__cutAngleTolerance();
+  constexpr float_t& __cordl_internal_get__cutAngleTolerance();
 
-  constexpr float_t const& __get__cutAngleTolerance() const;
+  constexpr float_t const& __cordl_internal_get__cutAngleTolerance() const;
 
-  constexpr void __set__cutAngleTolerance(float_t value);
+  constexpr void __cordl_internal_set__cutAngleTolerance(float_t value);
 
   /// @brief Method get_noteMovement, addr 0x238beac, size 0x8, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::NoteMovement* get_noteMovement();
+  inline ::UnityW<::GlobalNamespace::NoteMovement> get_noteMovement();
 
   /// @brief Method get_noteVisualModifierType, addr 0x238beb4, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
@@ -181,13 +182,13 @@ protected:
 
 public:
   /// @brief Field _cuttableBySaberCore, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::BoxCuttableBySaber* ____cuttableBySaberCore;
+  ::UnityW<::GlobalNamespace::BoxCuttableBySaber> ____cuttableBySaberCore;
 
   /// @brief Field _cuttableBySaberBeforeNote, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::BoxCuttableBySaber* ____cuttableBySaberBeforeNote;
+  ::UnityW<::GlobalNamespace::BoxCuttableBySaber> ____cuttableBySaberBeforeNote;
 
   /// @brief Field _wrapperGO, offset: 0x90, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____wrapperGO;
+  ::UnityW<::UnityEngine::GameObject> ____wrapperGO;
 
   /// @brief Field _beforeNoteCutWasOk, offset: 0x98, size: 0x1, def value: None
   bool ____beforeNoteCutWasOk;
@@ -215,9 +216,9 @@ static_assert(offsetof(::GlobalNamespace::TutorialNoteController, ____cutAngleTo
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2828 }), TypeDefinitionIndex(TypeDefinitionIndex(4787)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11050))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4786)) CS Name: ::TutorialNoteController::Pool*
-class CORDL_TYPE __TutorialNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::TutorialNoteController*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4787)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2828 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4786)) CS Name: ::TutorialNoteController::Pool*
+class CORDL_TYPE __TutorialNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::TutorialNoteController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__TutorialNoteController__Pool* New_ctor();

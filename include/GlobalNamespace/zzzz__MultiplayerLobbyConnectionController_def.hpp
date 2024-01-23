@@ -66,7 +66,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLobbyConnectionController);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4511))
 // CS Name: ::MultiplayerLobbyConnectionController::LobbyConnectionState
 struct CORDL_TYPE __MultiplayerLobbyConnectionController__LobbyConnectionState {
@@ -124,7 +124,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLobbyConnectionController
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4512))
 // CS Name: ::MultiplayerLobbyConnectionController::LobbyConnectionType
 struct CORDL_TYPE __MultiplayerLobbyConnectionController__LobbyConnectionType {
@@ -182,8 +182,8 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLobbyConnectionController
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4512)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12708)),
-// TypeDefinitionIndex(TypeDefinitionIndex(4511))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4513)) CS Name: ::MultiplayerLobbyConnectionController*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4511)), TypeDefinitionIndex(TypeDefinitionIndex(4512)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12708))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4513)) CS Name: ::MultiplayerLobbyConnectionController*
 class CORDL_TYPE MultiplayerLobbyConnectionController : public ::System::Object {
 public:
   // Declarations
@@ -192,35 +192,38 @@ public:
   using LobbyConnectionState = ::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionState;
 
   /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _unifiedNetworkPlayerModel, offset 0x18, size 0x8
-  __declspec(property(get = __get__unifiedNetworkPlayerModel, put = __set__unifiedNetworkPlayerModel))::GlobalNamespace::IUnifiedNetworkPlayerModel* _unifiedNetworkPlayerModel;
+  __declspec(property(get = __cordl_internal_get__unifiedNetworkPlayerModel,
+                      put = __cordl_internal_set__unifiedNetworkPlayerModel))::GlobalNamespace::IUnifiedNetworkPlayerModel* _unifiedNetworkPlayerModel;
 
   /// @brief Field connectionSuccessEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_connectionSuccessEvent, put = __set_connectionSuccessEvent))::System::Action* connectionSuccessEvent;
+  __declspec(property(get = __cordl_internal_get_connectionSuccessEvent, put = __cordl_internal_set_connectionSuccessEvent))::System::Action* connectionSuccessEvent;
 
   /// @brief Field connectionFailedEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_connectionFailedEvent, put = __set_connectionFailedEvent))::System::Action_2<::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType,
-                                                                                                               ::GlobalNamespace::ConnectionFailedReason>* connectionFailedEvent;
+  __declspec(property(get = __cordl_internal_get_connectionFailedEvent,
+                      put = __cordl_internal_set_connectionFailedEvent))::System::Action_2<::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType,
+                                                                                           ::GlobalNamespace::ConnectionFailedReason>* connectionFailedEvent;
 
   /// @brief Field <connectionState>k__BackingField, offset 0x30, size 0x4
-  __declspec(property(get = __get__connectionState_k__BackingField,
-                      put = __set__connectionState_k__BackingField))::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionState _connectionState_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__connectionState_k__BackingField,
+                      put = __cordl_internal_set__connectionState_k__BackingField))::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionState _connectionState_k__BackingField;
 
   /// @brief Field <connectionType>k__BackingField, offset 0x34, size 0x4
-  __declspec(property(get = __get__connectionType_k__BackingField,
-                      put = __set__connectionType_k__BackingField))::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType _connectionType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__connectionType_k__BackingField,
+                      put = __cordl_internal_set__connectionType_k__BackingField))::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType _connectionType_k__BackingField;
 
   /// @brief Field <connectionFailedReason>k__BackingField, offset 0x38, size 0x4
-  __declspec(property(get = __get__connectionFailedReason_k__BackingField,
-                      put = __set__connectionFailedReason_k__BackingField))::GlobalNamespace::ConnectionFailedReason _connectionFailedReason_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__connectionFailedReason_k__BackingField,
+                      put = __cordl_internal_set__connectionFailedReason_k__BackingField))::GlobalNamespace::ConnectionFailedReason _connectionFailedReason_k__BackingField;
 
   /// @brief Field _partyConfig, offset 0x40, size 0x8
-  __declspec(property(get = __get__partyConfig, put = __set__partyConfig))::GlobalNamespace::__UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig* _partyConfig;
+  __declspec(property(get = __cordl_internal_get__partyConfig, put = __cordl_internal_set__partyConfig))::GlobalNamespace::__UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig* _partyConfig;
 
   /// @brief Field _retryAttemptsLeft, offset 0x48, size 0x4
-  __declspec(property(get = __get__retryAttemptsLeft, put = __set__retryAttemptsLeft)) int32_t _retryAttemptsLeft;
+  __declspec(property(get = __cordl_internal_get__retryAttemptsLeft, put = __cordl_internal_set__retryAttemptsLeft)) int32_t _retryAttemptsLeft;
 
   __declspec(property(get = get_connectionState, put = set_connectionState))::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionState connectionState;
 
@@ -228,60 +231,62 @@ public:
 
   __declspec(property(get = get_connectionFailedReason, put = set_connectionFailedReason))::GlobalNamespace::ConnectionFailedReason connectionFailedReason;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  constexpr ::GlobalNamespace::IUnifiedNetworkPlayerModel*& __get__unifiedNetworkPlayerModel();
+  constexpr ::GlobalNamespace::IUnifiedNetworkPlayerModel*& __cordl_internal_get__unifiedNetworkPlayerModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IUnifiedNetworkPlayerModel*> const& __get__unifiedNetworkPlayerModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IUnifiedNetworkPlayerModel*> const& __cordl_internal_get__unifiedNetworkPlayerModel() const;
 
-  constexpr void __set__unifiedNetworkPlayerModel(::GlobalNamespace::IUnifiedNetworkPlayerModel* value);
+  constexpr void __cordl_internal_set__unifiedNetworkPlayerModel(::GlobalNamespace::IUnifiedNetworkPlayerModel* value);
 
-  constexpr ::System::Action*& __get_connectionSuccessEvent();
+  constexpr ::System::Action*& __cordl_internal_get_connectionSuccessEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_connectionSuccessEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_connectionSuccessEvent() const;
 
-  constexpr void __set_connectionSuccessEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_connectionSuccessEvent(::System::Action* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason>*& __get_connectionFailedEvent();
+  constexpr ::System::Action_2<::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason>*&
+  __cordl_internal_get_connectionFailedEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason>*> const&
-  __get_connectionFailedEvent() const;
+  __cordl_internal_get_connectionFailedEvent() const;
 
-  constexpr void __set_connectionFailedEvent(::System::Action_2<::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason>* value);
+  constexpr void
+  __cordl_internal_set_connectionFailedEvent(::System::Action_2<::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason>* value);
 
-  constexpr ::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionState& __get__connectionState_k__BackingField();
+  constexpr ::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionState& __cordl_internal_get__connectionState_k__BackingField();
 
-  constexpr ::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionState const& __get__connectionState_k__BackingField() const;
+  constexpr ::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionState const& __cordl_internal_get__connectionState_k__BackingField() const;
 
-  constexpr void __set__connectionState_k__BackingField(::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionState value);
+  constexpr void __cordl_internal_set__connectionState_k__BackingField(::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionState value);
 
-  constexpr ::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType& __get__connectionType_k__BackingField();
+  constexpr ::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType& __cordl_internal_get__connectionType_k__BackingField();
 
-  constexpr ::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType const& __get__connectionType_k__BackingField() const;
+  constexpr ::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType const& __cordl_internal_get__connectionType_k__BackingField() const;
 
-  constexpr void __set__connectionType_k__BackingField(::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType value);
+  constexpr void __cordl_internal_set__connectionType_k__BackingField(::GlobalNamespace::__MultiplayerLobbyConnectionController__LobbyConnectionType value);
 
-  constexpr ::GlobalNamespace::ConnectionFailedReason& __get__connectionFailedReason_k__BackingField();
+  constexpr ::GlobalNamespace::ConnectionFailedReason& __cordl_internal_get__connectionFailedReason_k__BackingField();
 
-  constexpr ::GlobalNamespace::ConnectionFailedReason const& __get__connectionFailedReason_k__BackingField() const;
+  constexpr ::GlobalNamespace::ConnectionFailedReason const& __cordl_internal_get__connectionFailedReason_k__BackingField() const;
 
-  constexpr void __set__connectionFailedReason_k__BackingField(::GlobalNamespace::ConnectionFailedReason value);
+  constexpr void __cordl_internal_set__connectionFailedReason_k__BackingField(::GlobalNamespace::ConnectionFailedReason value);
 
-  constexpr ::GlobalNamespace::__UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig*& __get__partyConfig();
+  constexpr ::GlobalNamespace::__UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig*& __cordl_internal_get__partyConfig();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig*> const& __get__partyConfig() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig*> const& __cordl_internal_get__partyConfig() const;
 
-  constexpr void __set__partyConfig(::GlobalNamespace::__UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig* value);
+  constexpr void __cordl_internal_set__partyConfig(::GlobalNamespace::__UnifiedNetworkPlayerModel__JoinMatchmakingPartyConfig* value);
 
-  constexpr int32_t& __get__retryAttemptsLeft();
+  constexpr int32_t& __cordl_internal_get__retryAttemptsLeft();
 
-  constexpr int32_t const& __get__retryAttemptsLeft() const;
+  constexpr int32_t const& __cordl_internal_get__retryAttemptsLeft() const;
 
-  constexpr void __set__retryAttemptsLeft(int32_t value);
+  constexpr void __cordl_internal_set__retryAttemptsLeft(int32_t value);
 
   /// @brief Method add_connectionSuccessEvent, addr 0x23614a4, size 0x9c, virtual false, abstract: false, final false
   inline void add_connectionSuccessEvent(::System::Action* value);

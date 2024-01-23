@@ -29,23 +29,23 @@ MARK_REF_PTR_T(::System::Net::SocketAddress);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9083))
 // CS Name: ::System.Net::SocketAddress*
 class CORDL_TYPE SocketAddress : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Size, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_Size, put = __set_m_Size)) int32_t m_Size;
+  __declspec(property(get = __cordl_internal_get_m_Size, put = __cordl_internal_set_m_Size)) int32_t m_Size;
 
   /// @brief Field m_Buffer, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Buffer, put = __set_m_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> m_Buffer;
+  __declspec(property(get = __cordl_internal_get_m_Buffer, put = __cordl_internal_set_m_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> m_Buffer;
 
   /// @brief Field m_changed, offset 0x20, size 0x1
-  __declspec(property(get = __get_m_changed, put = __set_m_changed)) bool m_changed;
+  __declspec(property(get = __cordl_internal_get_m_changed, put = __cordl_internal_set_m_changed)) bool m_changed;
 
   /// @brief Field m_hash, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_hash, put = __set_m_hash)) int32_t m_hash;
+  __declspec(property(get = __cordl_internal_get_m_hash, put = __cordl_internal_set_m_hash)) int32_t m_hash;
 
   __declspec(property(get = get_Family))::System::Net::Sockets::AddressFamily Family;
 
@@ -53,29 +53,29 @@ public:
 
   __declspec(property(get = get_Item)) uint8_t Item[];
 
-  constexpr int32_t& __get_m_Size();
+  constexpr int32_t& __cordl_internal_get_m_Size();
 
-  constexpr int32_t const& __get_m_Size() const;
+  constexpr int32_t const& __cordl_internal_get_m_Size() const;
 
-  constexpr void __set_m_Size(int32_t value);
+  constexpr void __cordl_internal_set_m_Size(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_m_Buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_Buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_m_Buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_Buffer() const;
 
-  constexpr void __set_m_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_m_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get_m_changed();
+  constexpr bool& __cordl_internal_get_m_changed();
 
-  constexpr bool const& __get_m_changed() const;
+  constexpr bool const& __cordl_internal_get_m_changed() const;
 
-  constexpr void __set_m_changed(bool value);
+  constexpr void __cordl_internal_set_m_changed(bool value);
 
-  constexpr int32_t& __get_m_hash();
+  constexpr int32_t& __cordl_internal_get_m_hash();
 
-  constexpr int32_t const& __get_m_hash() const;
+  constexpr int32_t const& __cordl_internal_get_m_hash() const;
 
-  constexpr void __set_m_hash(int32_t value);
+  constexpr void __cordl_internal_set_m_hash(int32_t value);
 
   /// @brief Method get_Family, addr 0x299ec68, size 0x38, virtual false, abstract: false, final false
   inline ::System::Net::Sockets::AddressFamily get_Family();

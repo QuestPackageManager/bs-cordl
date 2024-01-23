@@ -49,40 +49,40 @@ MARK_REF_PTR_T(::System::Security::AccessControl::ObjectSecurity);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3013))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3013))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3044))
 // CS Name: ::System.Security.AccessControl::ObjectSecurity*
 class CORDL_TYPE ObjectSecurity : public ::System::Object {
 public:
   // Declarations
   /// @brief Field descriptor, offset 0x10, size 0x8
-  __declspec(property(get = __get_descriptor, put = __set_descriptor))::System::Security::AccessControl::CommonSecurityDescriptor* descriptor;
+  __declspec(property(get = __cordl_internal_get_descriptor, put = __cordl_internal_set_descriptor))::System::Security::AccessControl::CommonSecurityDescriptor* descriptor;
 
   /// @brief Field sections_modified, offset 0x18, size 0x4
-  __declspec(property(get = __get_sections_modified, put = __set_sections_modified))::System::Security::AccessControl::AccessControlSections sections_modified;
+  __declspec(property(get = __cordl_internal_get_sections_modified, put = __cordl_internal_set_sections_modified))::System::Security::AccessControl::AccessControlSections sections_modified;
 
   /// @brief Field rw_lock, offset 0x20, size 0x8
-  __declspec(property(get = __get_rw_lock, put = __set_rw_lock))::System::Threading::ReaderWriterLock* rw_lock;
+  __declspec(property(get = __cordl_internal_get_rw_lock, put = __cordl_internal_set_rw_lock))::System::Threading::ReaderWriterLock* rw_lock;
 
   __declspec(property(put = set_AccessControlSectionsModified))::System::Security::AccessControl::AccessControlSections AccessControlSectionsModified;
 
-  constexpr ::System::Security::AccessControl::CommonSecurityDescriptor*& __get_descriptor();
+  constexpr ::System::Security::AccessControl::CommonSecurityDescriptor*& __cordl_internal_get_descriptor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::CommonSecurityDescriptor*> const& __get_descriptor() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::CommonSecurityDescriptor*> const& __cordl_internal_get_descriptor() const;
 
-  constexpr void __set_descriptor(::System::Security::AccessControl::CommonSecurityDescriptor* value);
+  constexpr void __cordl_internal_set_descriptor(::System::Security::AccessControl::CommonSecurityDescriptor* value);
 
-  constexpr ::System::Security::AccessControl::AccessControlSections& __get_sections_modified();
+  constexpr ::System::Security::AccessControl::AccessControlSections& __cordl_internal_get_sections_modified();
 
-  constexpr ::System::Security::AccessControl::AccessControlSections const& __get_sections_modified() const;
+  constexpr ::System::Security::AccessControl::AccessControlSections const& __cordl_internal_get_sections_modified() const;
 
-  constexpr void __set_sections_modified(::System::Security::AccessControl::AccessControlSections value);
+  constexpr void __cordl_internal_set_sections_modified(::System::Security::AccessControl::AccessControlSections value);
 
-  constexpr ::System::Threading::ReaderWriterLock*& __get_rw_lock();
+  constexpr ::System::Threading::ReaderWriterLock*& __cordl_internal_get_rw_lock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ReaderWriterLock*> const& __get_rw_lock() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ReaderWriterLock*> const& __cordl_internal_get_rw_lock() const;
 
-  constexpr void __set_rw_lock(::System::Threading::ReaderWriterLock* value);
+  constexpr void __cordl_internal_set_rw_lock(::System::Threading::ReaderWriterLock* value);
 
   static inline ::System::Security::AccessControl::ObjectSecurity* New_ctor(::System::Security::AccessControl::CommonSecurityDescriptor* securityDescriptor);
 

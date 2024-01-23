@@ -16,20 +16,20 @@ MARK_REF_PTR_T(::Meta::XR::Samples::SampleMetadata);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Meta::XR::Samples {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8730))
 // CS Name: ::Meta.XR.Samples::SampleMetadata*
 class CORDL_TYPE SampleMetadata : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _timestampOpen, offset 0x18, size 0x4
-  __declspec(property(get = __get__timestampOpen, put = __set__timestampOpen)) float_t _timestampOpen;
+  __declspec(property(get = __cordl_internal_get__timestampOpen, put = __cordl_internal_set__timestampOpen)) float_t _timestampOpen;
 
-  constexpr float_t& __get__timestampOpen();
+  constexpr float_t& __cordl_internal_get__timestampOpen();
 
-  constexpr float_t const& __get__timestampOpen() const;
+  constexpr float_t const& __cordl_internal_get__timestampOpen() const;
 
-  constexpr void __set__timestampOpen(float_t value);
+  constexpr void __cordl_internal_set__timestampOpen(float_t value);
 
   /// @brief Method Awake, addr 0x27f8174, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();

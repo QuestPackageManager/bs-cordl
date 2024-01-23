@@ -20,34 +20,34 @@ MARK_REF_PTR_T(::Zenject::RunnableContext);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11119))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11119))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11122))
 // CS Name: ::Zenject::RunnableContext*
 class CORDL_TYPE RunnableContext : public ::Zenject::Context {
 public:
   // Declarations
   /// @brief Field _autoRun, offset 0x40, size 0x1
-  __declspec(property(get = __get__autoRun, put = __set__autoRun)) bool _autoRun;
+  __declspec(property(get = __cordl_internal_get__autoRun, put = __cordl_internal_set__autoRun)) bool _autoRun;
 
   /// @brief Field <Initialized>k__BackingField, offset 0x41, size 0x1
-  __declspec(property(get = __get__Initialized_k__BackingField, put = __set__Initialized_k__BackingField)) bool _Initialized_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Initialized_k__BackingField, put = __cordl_internal_set__Initialized_k__BackingField)) bool _Initialized_k__BackingField;
 
   /// @brief Field _staticAutoRun, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF__staticAutoRun, put = setStaticF__staticAutoRun)) bool _staticAutoRun;
 
   __declspec(property(get = get_Initialized, put = set_Initialized)) bool Initialized;
 
-  constexpr bool& __get__autoRun();
+  constexpr bool& __cordl_internal_get__autoRun();
 
-  constexpr bool const& __get__autoRun() const;
+  constexpr bool const& __cordl_internal_get__autoRun() const;
 
-  constexpr void __set__autoRun(bool value);
+  constexpr void __cordl_internal_set__autoRun(bool value);
 
-  constexpr bool& __get__Initialized_k__BackingField();
+  constexpr bool& __cordl_internal_get__Initialized_k__BackingField();
 
-  constexpr bool const& __get__Initialized_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__Initialized_k__BackingField() const;
 
-  constexpr void __set__Initialized_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__Initialized_k__BackingField(bool value);
 
   static inline void setStaticF__staticAutoRun(bool value);
 

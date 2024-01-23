@@ -38,20 +38,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::CrlIdentifier);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(140))
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::CrlIdentifier*
 class CORDL_TYPE CrlIdentifier : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field crlIssuer, offset 0x10, size 0x8
-  __declspec(property(get = __get_crlIssuer, put = __set_crlIssuer))::Org::BouncyCastle::Asn1::X509::X509Name* crlIssuer;
+  __declspec(property(get = __cordl_internal_get_crlIssuer, put = __cordl_internal_set_crlIssuer))::Org::BouncyCastle::Asn1::X509::X509Name* crlIssuer;
 
   /// @brief Field crlIssuedTime, offset 0x18, size 0x8
-  __declspec(property(get = __get_crlIssuedTime, put = __set_crlIssuedTime))::Org::BouncyCastle::Asn1::DerUtcTime* crlIssuedTime;
+  __declspec(property(get = __cordl_internal_get_crlIssuedTime, put = __cordl_internal_set_crlIssuedTime))::Org::BouncyCastle::Asn1::DerUtcTime* crlIssuedTime;
 
   /// @brief Field crlNumber, offset 0x20, size 0x8
-  __declspec(property(get = __get_crlNumber, put = __set_crlNumber))::Org::BouncyCastle::Asn1::DerInteger* crlNumber;
+  __declspec(property(get = __cordl_internal_get_crlNumber, put = __cordl_internal_set_crlNumber))::Org::BouncyCastle::Asn1::DerInteger* crlNumber;
 
   __declspec(property(get = get_CrlIssuer))::Org::BouncyCastle::Asn1::X509::X509Name* CrlIssuer;
 
@@ -59,23 +59,23 @@ public:
 
   __declspec(property(get = get_CrlNumber))::Org::BouncyCastle::Math::BigInteger* CrlNumber;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& __get_crlIssuer();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& __cordl_internal_get_crlIssuer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& __get_crlIssuer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& __cordl_internal_get_crlIssuer() const;
 
-  constexpr void __set_crlIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* value);
+  constexpr void __cordl_internal_set_crlIssuer(::Org::BouncyCastle::Asn1::X509::X509Name* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerUtcTime*& __get_crlIssuedTime();
+  constexpr ::Org::BouncyCastle::Asn1::DerUtcTime*& __cordl_internal_get_crlIssuedTime();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerUtcTime*> const& __get_crlIssuedTime() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerUtcTime*> const& __cordl_internal_get_crlIssuedTime() const;
 
-  constexpr void __set_crlIssuedTime(::Org::BouncyCastle::Asn1::DerUtcTime* value);
+  constexpr void __cordl_internal_set_crlIssuedTime(::Org::BouncyCastle::Asn1::DerUtcTime* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_crlNumber();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_crlNumber();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_crlNumber() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_crlNumber() const;
 
-  constexpr void __set_crlNumber(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_crlNumber(::Org::BouncyCastle::Asn1::DerInteger* value);
 
   /// @brief Method GetInstance, addr 0xe9138c, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CrlIdentifier* GetInstance(::System::Object* obj);

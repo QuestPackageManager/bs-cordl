@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::__Font__FontTextureRebuildCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15908))
 // CS Name: ::Font::FontTextureRebuildCallback*
 class CORDL_TYPE __Font__FontTextureRebuildCallback : public ::System::MulticastDelegate {
@@ -71,7 +71,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__Font__FontTexture
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15909))
 // CS Name: ::UnityEngine::Font*
 class CORDL_TYPE Font : public ::UnityEngine::Object {
@@ -80,35 +80,36 @@ public:
   using FontTextureRebuildCallback = ::UnityEngine::__Font__FontTextureRebuildCallback;
 
   /// @brief Field m_FontTextureRebuildCallback, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_FontTextureRebuildCallback, put = __set_m_FontTextureRebuildCallback))::UnityEngine::__Font__FontTextureRebuildCallback* m_FontTextureRebuildCallback;
+  __declspec(property(get = __cordl_internal_get_m_FontTextureRebuildCallback,
+                      put = __cordl_internal_set_m_FontTextureRebuildCallback))::UnityEngine::__Font__FontTextureRebuildCallback* m_FontTextureRebuildCallback;
 
   /// @brief Field textureRebuilt, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_textureRebuilt, put = setStaticF_textureRebuilt))::System::Action_1<::UnityEngine::Font*>* textureRebuilt;
+  static __declspec(property(get = getStaticF_textureRebuilt, put = setStaticF_textureRebuilt))::System::Action_1<::UnityW<::UnityEngine::Font>>* textureRebuilt;
 
-  __declspec(property(get = get_material))::UnityEngine::Material* material;
+  __declspec(property(get = get_material))::UnityW<::UnityEngine::Material> material;
 
   __declspec(property(get = get_dynamic)) bool dynamic;
 
   __declspec(property(get = get_fontSize)) int32_t fontSize;
 
-  constexpr ::UnityEngine::__Font__FontTextureRebuildCallback*& __get_m_FontTextureRebuildCallback();
+  constexpr ::UnityEngine::__Font__FontTextureRebuildCallback*& __cordl_internal_get_m_FontTextureRebuildCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::__Font__FontTextureRebuildCallback*> const& __get_m_FontTextureRebuildCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::__Font__FontTextureRebuildCallback*> const& __cordl_internal_get_m_FontTextureRebuildCallback() const;
 
-  constexpr void __set_m_FontTextureRebuildCallback(::UnityEngine::__Font__FontTextureRebuildCallback* value);
+  constexpr void __cordl_internal_set_m_FontTextureRebuildCallback(::UnityEngine::__Font__FontTextureRebuildCallback* value);
 
-  static inline void setStaticF_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* value);
+  static inline void setStaticF_textureRebuilt(::System::Action_1<::UnityW<::UnityEngine::Font>>* value);
 
-  static inline ::System::Action_1<::UnityEngine::Font*>* getStaticF_textureRebuilt();
+  static inline ::System::Action_1<::UnityW<::UnityEngine::Font>>* getStaticF_textureRebuilt();
 
   /// @brief Method add_textureRebuilt, addr 0x2d4f418, size 0xcc, virtual false, abstract: false, final false
-  static inline void add_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* value);
+  static inline void add_textureRebuilt(::System::Action_1<::UnityW<::UnityEngine::Font>>* value);
 
   /// @brief Method remove_textureRebuilt, addr 0x2d4f4e4, size 0xcc, virtual false, abstract: false, final false
-  static inline void remove_textureRebuilt(::System::Action_1<::UnityEngine::Font*>* value);
+  static inline void remove_textureRebuilt(::System::Action_1<::UnityW<::UnityEngine::Font>>* value);
 
   /// @brief Method get_material, addr 0x2d4f5b0, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* get_material();
+  inline ::UnityW<::UnityEngine::Material> get_material();
 
   /// @brief Method get_dynamic, addr 0x2d4e578, size 0x3c, virtual false, abstract: false, final false
   inline bool get_dynamic();

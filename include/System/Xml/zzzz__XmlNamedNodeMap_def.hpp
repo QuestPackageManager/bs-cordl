@@ -47,17 +47,17 @@ MARK_VAL_T(::System::Xml::__XmlNamedNodeMap__SmallXmlNodeList);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11517))
 // CS Name: ::XmlNamedNodeMap::SmallXmlNodeList::SingleObjectEnumerator*
 class CORDL_TYPE __XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field loneValue, offset 0x10, size 0x8
-  __declspec(property(get = __get_loneValue, put = __set_loneValue))::System::Object* loneValue;
+  __declspec(property(get = __cordl_internal_get_loneValue, put = __cordl_internal_set_loneValue))::System::Object* loneValue;
 
   /// @brief Field position, offset 0x18, size 0x4
-  __declspec(property(get = __get_position, put = __set_position)) int32_t position;
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position)) int32_t position;
 
   __declspec(property(get = get_Current))::System::Object* Current;
 
@@ -67,17 +67,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::System::Object*& __get_loneValue();
+  constexpr ::System::Object*& __cordl_internal_get_loneValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_loneValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_loneValue() const;
 
-  constexpr void __set_loneValue(::System::Object* value);
+  constexpr void __cordl_internal_set_loneValue(::System::Object* value);
 
-  constexpr int32_t& __get_position();
+  constexpr int32_t& __cordl_internal_get_position();
 
-  constexpr int32_t const& __get_position() const;
+  constexpr int32_t const& __cordl_internal_get_position() const;
 
-  constexpr void __set_position(int32_t value);
+  constexpr void __cordl_internal_set_position(int32_t value);
 
   static inline ::GlobalNamespace::__XmlNamedNodeMap__SmallXmlNodeList__SingleObjectEnumerator* New_ctor(::System::Object* value);
 
@@ -127,7 +127,7 @@ static_assert(offsetof(::GlobalNamespace::__XmlNamedNodeMap__SmallXmlNodeList__S
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11518))
 // CS Name: ::XmlNamedNodeMap::SmallXmlNodeList
 struct CORDL_TYPE __XmlNamedNodeMap__SmallXmlNodeList {
@@ -182,7 +182,7 @@ static_assert(offsetof(::System::Xml::__XmlNamedNodeMap__SmallXmlNodeList, field
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11518)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11518))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11519))
 // CS Name: ::System.Xml::XmlNamedNodeMap*
 class CORDL_TYPE XmlNamedNodeMap : public ::System::Object {
@@ -191,10 +191,10 @@ public:
   using SmallXmlNodeList = ::System::Xml::__XmlNamedNodeMap__SmallXmlNodeList;
 
   /// @brief Field parent, offset 0x10, size 0x8
-  __declspec(property(get = __get_parent, put = __set_parent))::System::Xml::XmlNode* parent;
+  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent))::System::Xml::XmlNode* parent;
 
   /// @brief Field nodes, offset 0x18, size 0x8
-  __declspec(property(get = __get_nodes, put = __set_nodes))::System::Xml::__XmlNamedNodeMap__SmallXmlNodeList nodes;
+  __declspec(property(get = __cordl_internal_get_nodes, put = __cordl_internal_set_nodes))::System::Xml::__XmlNamedNodeMap__SmallXmlNodeList nodes;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -204,17 +204,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Xml::XmlNode*& __get_parent();
+  constexpr ::System::Xml::XmlNode*& __cordl_internal_get_parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& __get_parent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlNode*> const& __cordl_internal_get_parent() const;
 
-  constexpr void __set_parent(::System::Xml::XmlNode* value);
+  constexpr void __cordl_internal_set_parent(::System::Xml::XmlNode* value);
 
-  constexpr ::System::Xml::__XmlNamedNodeMap__SmallXmlNodeList& __get_nodes();
+  constexpr ::System::Xml::__XmlNamedNodeMap__SmallXmlNodeList& __cordl_internal_get_nodes();
 
-  constexpr ::System::Xml::__XmlNamedNodeMap__SmallXmlNodeList const& __get_nodes() const;
+  constexpr ::System::Xml::__XmlNamedNodeMap__SmallXmlNodeList const& __cordl_internal_get_nodes() const;
 
-  constexpr void __set_nodes(::System::Xml::__XmlNamedNodeMap__SmallXmlNodeList value);
+  constexpr void __cordl_internal_set_nodes(::System::Xml::__XmlNamedNodeMap__SmallXmlNodeList value);
 
   static inline ::System::Xml::XmlNamedNodeMap* New_ctor(::System::Xml::XmlNode* parent);
 

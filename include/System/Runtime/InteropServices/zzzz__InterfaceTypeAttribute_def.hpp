@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::InterfaceTypeAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3314)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3314))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3315))
 // CS Name: ::System.Runtime.InteropServices::InterfaceTypeAttribute*
 class CORDL_TYPE InterfaceTypeAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field _val, offset 0x10, size 0x4
-  __declspec(property(get = __get__val, put = __set__val))::System::Runtime::InteropServices::ComInterfaceType _val;
+  __declspec(property(get = __cordl_internal_get__val, put = __cordl_internal_set__val))::System::Runtime::InteropServices::ComInterfaceType _val;
 
-  constexpr ::System::Runtime::InteropServices::ComInterfaceType& __get__val();
+  constexpr ::System::Runtime::InteropServices::ComInterfaceType& __cordl_internal_get__val();
 
-  constexpr ::System::Runtime::InteropServices::ComInterfaceType const& __get__val() const;
+  constexpr ::System::Runtime::InteropServices::ComInterfaceType const& __cordl_internal_get__val() const;
 
-  constexpr void __set__val(::System::Runtime::InteropServices::ComInterfaceType value);
+  constexpr void __cordl_internal_set__val(::System::Runtime::InteropServices::ComInterfaceType value);
 
   static inline ::System::Runtime::InteropServices::InterfaceTypeAttribute* New_ctor(::System::Runtime::InteropServices::ComInterfaceType interfaceType);
 

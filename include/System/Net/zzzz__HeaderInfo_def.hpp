@@ -18,56 +18,56 @@ MARK_REF_PTR_T(::System::Net::HeaderInfo);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9102))
 // CS Name: ::System.Net::HeaderInfo*
 class CORDL_TYPE HeaderInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field IsRequestRestricted, offset 0x10, size 0x1
-  __declspec(property(get = __get_IsRequestRestricted, put = __set_IsRequestRestricted)) bool IsRequestRestricted;
+  __declspec(property(get = __cordl_internal_get_IsRequestRestricted, put = __cordl_internal_set_IsRequestRestricted)) bool IsRequestRestricted;
 
   /// @brief Field IsResponseRestricted, offset 0x11, size 0x1
-  __declspec(property(get = __get_IsResponseRestricted, put = __set_IsResponseRestricted)) bool IsResponseRestricted;
+  __declspec(property(get = __cordl_internal_get_IsResponseRestricted, put = __cordl_internal_set_IsResponseRestricted)) bool IsResponseRestricted;
 
   /// @brief Field Parser, offset 0x18, size 0x8
-  __declspec(property(get = __get_Parser, put = __set_Parser))::System::Net::HeaderParser* Parser;
+  __declspec(property(get = __cordl_internal_get_Parser, put = __cordl_internal_set_Parser))::System::Net::HeaderParser* Parser;
 
   /// @brief Field HeaderName, offset 0x20, size 0x8
-  __declspec(property(get = __get_HeaderName, put = __set_HeaderName))::StringW HeaderName;
+  __declspec(property(get = __cordl_internal_get_HeaderName, put = __cordl_internal_set_HeaderName))::StringW HeaderName;
 
   /// @brief Field AllowMultiValues, offset 0x28, size 0x1
-  __declspec(property(get = __get_AllowMultiValues, put = __set_AllowMultiValues)) bool AllowMultiValues;
+  __declspec(property(get = __cordl_internal_get_AllowMultiValues, put = __cordl_internal_set_AllowMultiValues)) bool AllowMultiValues;
 
-  constexpr bool& __get_IsRequestRestricted();
+  constexpr bool& __cordl_internal_get_IsRequestRestricted();
 
-  constexpr bool const& __get_IsRequestRestricted() const;
+  constexpr bool const& __cordl_internal_get_IsRequestRestricted() const;
 
-  constexpr void __set_IsRequestRestricted(bool value);
+  constexpr void __cordl_internal_set_IsRequestRestricted(bool value);
 
-  constexpr bool& __get_IsResponseRestricted();
+  constexpr bool& __cordl_internal_get_IsResponseRestricted();
 
-  constexpr bool const& __get_IsResponseRestricted() const;
+  constexpr bool const& __cordl_internal_get_IsResponseRestricted() const;
 
-  constexpr void __set_IsResponseRestricted(bool value);
+  constexpr void __cordl_internal_set_IsResponseRestricted(bool value);
 
-  constexpr ::System::Net::HeaderParser*& __get_Parser();
+  constexpr ::System::Net::HeaderParser*& __cordl_internal_get_Parser();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HeaderParser*> const& __get_Parser() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HeaderParser*> const& __cordl_internal_get_Parser() const;
 
-  constexpr void __set_Parser(::System::Net::HeaderParser* value);
+  constexpr void __cordl_internal_set_Parser(::System::Net::HeaderParser* value);
 
-  constexpr ::StringW& __get_HeaderName();
+  constexpr ::StringW& __cordl_internal_get_HeaderName();
 
-  constexpr ::StringW const& __get_HeaderName() const;
+  constexpr ::StringW const& __cordl_internal_get_HeaderName() const;
 
-  constexpr void __set_HeaderName(::StringW value);
+  constexpr void __cordl_internal_set_HeaderName(::StringW value);
 
-  constexpr bool& __get_AllowMultiValues();
+  constexpr bool& __cordl_internal_get_AllowMultiValues();
 
-  constexpr bool const& __get_AllowMultiValues() const;
+  constexpr bool const& __cordl_internal_get_AllowMultiValues() const;
 
-  constexpr void __set_AllowMultiValues(bool value);
+  constexpr void __cordl_internal_set_AllowMultiValues(bool value);
 
   static inline ::System::Net::HeaderInfo* New_ctor(::StringW name, bool requestRestricted, bool responseRestricted, bool multi, ::System::Net::HeaderParser* p);
 

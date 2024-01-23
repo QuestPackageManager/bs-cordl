@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::AnimatorStateInfo);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 52, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14879))
 // CS Name: ::UnityEngine::AnimatorStateInfo
 struct CORDL_TYPE AnimatorStateInfo {

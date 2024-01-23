@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IMethodReturnMessage);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3173))
 // CS Name: ::System.Runtime.Remoting.Messaging::IMethodReturnMessage*
 class CORDL_TYPE IMethodReturnMessage {

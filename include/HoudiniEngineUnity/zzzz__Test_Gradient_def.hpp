@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_Gradient);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9927))
 // CS Name: ::HoudiniEngineUnity::Test_Gradient*
 class CORDL_TYPE Test_Gradient : public ::System::Object {
 public:
   // Declarations
   /// @brief Field self, offset 0x10, size 0x8
-  __declspec(property(get = __get_self, put = __set_self))::UnityEngine::Gradient* self;
+  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self))::UnityEngine::Gradient* self;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Gradient*>"
   constexpr operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_Gradient*>*() noexcept;
@@ -44,11 +44,11 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Gradient*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_Gradient*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_Gradient__() noexcept;
 
-  constexpr ::UnityEngine::Gradient*& __get_self();
+  constexpr ::UnityEngine::Gradient*& __cordl_internal_get_self();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Gradient*> const& __get_self() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Gradient*> const& __cordl_internal_get_self() const;
 
-  constexpr void __set_self(::UnityEngine::Gradient* value);
+  constexpr void __cordl_internal_set_self(::UnityEngine::Gradient* value);
 
   static inline ::HoudiniEngineUnity::Test_Gradient* New_ctor(::UnityEngine::Gradient* self);
 

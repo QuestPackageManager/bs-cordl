@@ -32,7 +32,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InitiateUserAccountPairingComma
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6467))
 // CS Name: ::InitiateUserAccountPairingCommand::Result
 struct CORDL_TYPE __InitiateUserAccountPairingCommand__Result {
@@ -86,7 +86,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InitiateUserAccou
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6471))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6471))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6468))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InitiateUserAccountPairingCommand
 #pragma pack(push, 0)
@@ -96,7 +96,7 @@ public:
   using Result = ::UnityEngine::InputSystem::LowLevel::__InitiateUserAccountPairingCommand__Result;
 
   /// @brief Field baseCommand, offset 0x0, size 0x8
-  __declspec(property(get = __get_baseCommand, put = __set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
+  __declspec(property(get = __cordl_internal_get_baseCommand, put = __cordl_internal_set_baseCommand))::UnityEngine::InputSystem::LowLevel::InputDeviceCommand baseCommand;
 
   __declspec(property(get = get_typeStatic))::UnityEngine::InputSystem::Utilities::FourCC typeStatic;
 
@@ -106,11 +106,11 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __get_baseCommand();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand& __cordl_internal_get_baseCommand();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __get_baseCommand() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
 
-  constexpr void __set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
+  constexpr void __cordl_internal_set_baseCommand(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand value);
 
   /// @brief Method get_Type, addr 0x2ae7630, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();

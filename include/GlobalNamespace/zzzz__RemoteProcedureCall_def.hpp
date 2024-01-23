@@ -39,24 +39,24 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12935))
 // CS Name: ::RemoteProcedureCall::TypeWrapper`1<T>*
 class CORDL_TYPE __RemoteProcedureCall__TypeWrapper_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _v, offset 0x10, size 0x8
-  __declspec(property(get = __get__v, put = __set__v)) T _v;
+  __declspec(property(get = __cordl_internal_get__v, put = __cordl_internal_set__v)) T _v;
 
   __declspec(property(get = get_hasValue)) bool hasValue;
 
   __declspec(property(get = get_value)) T value;
 
-  constexpr T& __get__v();
+  constexpr T& __cordl_internal_get__v();
 
-  constexpr T const& __get__v() const;
+  constexpr T const& __cordl_internal_get__v() const;
 
-  constexpr void __set__v(T value);
+  constexpr void __cordl_internal_set__v(T value);
 
   /// @brief Method get_hasValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool get_hasValue();
@@ -109,7 +109,7 @@ public:
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12936))
 // CS Name: ::RemoteProcedureCall*
 class CORDL_TYPE RemoteProcedureCall : public ::System::Object {
@@ -118,7 +118,7 @@ public:
   template <typename T> using TypeWrapper_1 = ::GlobalNamespace::__RemoteProcedureCall__TypeWrapper_1<T>;
 
   /// @brief Field <syncTime>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__syncTime_k__BackingField, put = __set__syncTime_k__BackingField)) int64_t _syncTime_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__syncTime_k__BackingField, put = __cordl_internal_set__syncTime_k__BackingField)) int64_t _syncTime_k__BackingField;
 
   __declspec(property(get = get_syncTime, put = set_syncTime)) int64_t syncTime;
 
@@ -140,11 +140,11 @@ public:
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
   constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
-  constexpr int64_t& __get__syncTime_k__BackingField();
+  constexpr int64_t& __cordl_internal_get__syncTime_k__BackingField();
 
-  constexpr int64_t const& __get__syncTime_k__BackingField() const;
+  constexpr int64_t const& __cordl_internal_get__syncTime_k__BackingField() const;
 
-  constexpr void __set__syncTime_k__BackingField(int64_t value);
+  constexpr void __cordl_internal_set__syncTime_k__BackingField(int64_t value);
 
   /// @brief Method get_syncTime, addr 0xe543f4, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_syncTime();

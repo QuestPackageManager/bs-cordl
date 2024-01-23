@@ -65,7 +65,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::OVRInputModule);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8738))
 // CS Name: ::OVRInputModule::InputMode
 struct CORDL_TYPE __OVRInputModule__InputMode {
@@ -115,88 +115,88 @@ static_assert(offsetof(::UnityEngine::EventSystems::__OVRInputModule__InputMode,
 // SizeInfo { instance_size: 240, native_size: -1, calculated_instance_size: 240, calculated_native_size: 240, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7587)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10058))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8739)) CS Name: ::UnityEngine.EventSystems::OVRInputModule*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7587)), TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13203))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8739)) CS Name: ::UnityEngine.EventSystems::OVRInputModule*
 class CORDL_TYPE OVRInputModule : public ::UnityEngine::EventSystems::PointerInputModule {
 public:
   // Declarations
   using InputMode = ::UnityEngine::EventSystems::__OVRInputModule__InputMode;
 
   /// @brief Field rayTransform, offset 0x60, size 0x8
-  __declspec(property(get = __get_rayTransform, put = __set_rayTransform))::UnityEngine::Transform* rayTransform;
+  __declspec(property(get = __cordl_internal_get_rayTransform, put = __cordl_internal_set_rayTransform))::UnityW<::UnityEngine::Transform> rayTransform;
 
   /// @brief Field m_Cursor, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_Cursor, put = __set_m_Cursor))::GlobalNamespace::OVRCursor* m_Cursor;
+  __declspec(property(get = __cordl_internal_get_m_Cursor, put = __cordl_internal_set_m_Cursor))::UnityW<::GlobalNamespace::OVRCursor> m_Cursor;
 
   /// @brief Field joyPadClickButton, offset 0x70, size 0x4
-  __declspec(property(get = __get_joyPadClickButton, put = __set_joyPadClickButton))::GlobalNamespace::__OVRInput__Button joyPadClickButton;
+  __declspec(property(get = __cordl_internal_get_joyPadClickButton, put = __cordl_internal_set_joyPadClickButton))::GlobalNamespace::__OVRInput__Button joyPadClickButton;
 
   /// @brief Field gazeClickKey, offset 0x74, size 0x4
-  __declspec(property(get = __get_gazeClickKey, put = __set_gazeClickKey))::UnityEngine::KeyCode gazeClickKey;
+  __declspec(property(get = __cordl_internal_get_gazeClickKey, put = __cordl_internal_set_gazeClickKey))::UnityEngine::KeyCode gazeClickKey;
 
   /// @brief Field performSphereCastForGazepointer, offset 0x78, size 0x1
-  __declspec(property(get = __get_performSphereCastForGazepointer, put = __set_performSphereCastForGazepointer)) bool performSphereCastForGazepointer;
+  __declspec(property(get = __cordl_internal_get_performSphereCastForGazepointer, put = __cordl_internal_set_performSphereCastForGazepointer)) bool performSphereCastForGazepointer;
 
   /// @brief Field useRightStickScroll, offset 0x79, size 0x1
-  __declspec(property(get = __get_useRightStickScroll, put = __set_useRightStickScroll)) bool useRightStickScroll;
+  __declspec(property(get = __cordl_internal_get_useRightStickScroll, put = __cordl_internal_set_useRightStickScroll)) bool useRightStickScroll;
 
   /// @brief Field rightStickDeadZone, offset 0x7c, size 0x4
-  __declspec(property(get = __get_rightStickDeadZone, put = __set_rightStickDeadZone)) float_t rightStickDeadZone;
+  __declspec(property(get = __cordl_internal_get_rightStickDeadZone, put = __cordl_internal_set_rightStickDeadZone)) float_t rightStickDeadZone;
 
   /// @brief Field useSwipeScroll, offset 0x80, size 0x1
-  __declspec(property(get = __get_useSwipeScroll, put = __set_useSwipeScroll)) bool useSwipeScroll;
+  __declspec(property(get = __cordl_internal_get_useSwipeScroll, put = __cordl_internal_set_useSwipeScroll)) bool useSwipeScroll;
 
   /// @brief Field swipeDragThreshold, offset 0x84, size 0x4
-  __declspec(property(get = __get_swipeDragThreshold, put = __set_swipeDragThreshold)) float_t swipeDragThreshold;
+  __declspec(property(get = __cordl_internal_get_swipeDragThreshold, put = __cordl_internal_set_swipeDragThreshold)) float_t swipeDragThreshold;
 
   /// @brief Field swipeDragScale, offset 0x88, size 0x4
-  __declspec(property(get = __get_swipeDragScale, put = __set_swipeDragScale)) float_t swipeDragScale;
+  __declspec(property(get = __cordl_internal_get_swipeDragScale, put = __cordl_internal_set_swipeDragScale)) float_t swipeDragScale;
 
   /// @brief Field InvertSwipeXAxis, offset 0x8c, size 0x1
-  __declspec(property(get = __get_InvertSwipeXAxis, put = __set_InvertSwipeXAxis)) bool InvertSwipeXAxis;
+  __declspec(property(get = __cordl_internal_get_InvertSwipeXAxis, put = __cordl_internal_set_InvertSwipeXAxis)) bool InvertSwipeXAxis;
 
   /// @brief Field activeGraphicRaycaster, offset 0x90, size 0x8
-  __declspec(property(get = __get_activeGraphicRaycaster, put = __set_activeGraphicRaycaster))::GlobalNamespace::OVRRaycaster* activeGraphicRaycaster;
+  __declspec(property(get = __cordl_internal_get_activeGraphicRaycaster, put = __cordl_internal_set_activeGraphicRaycaster))::UnityW<::GlobalNamespace::OVRRaycaster> activeGraphicRaycaster;
 
   /// @brief Field angleDragThreshold, offset 0x98, size 0x4
-  __declspec(property(get = __get_angleDragThreshold, put = __set_angleDragThreshold)) float_t angleDragThreshold;
+  __declspec(property(get = __cordl_internal_get_angleDragThreshold, put = __cordl_internal_set_angleDragThreshold)) float_t angleDragThreshold;
 
   /// @brief Field m_SpherecastRadius, offset 0x9c, size 0x4
-  __declspec(property(get = __get_m_SpherecastRadius, put = __set_m_SpherecastRadius)) float_t m_SpherecastRadius;
+  __declspec(property(get = __cordl_internal_get_m_SpherecastRadius, put = __cordl_internal_set_m_SpherecastRadius)) float_t m_SpherecastRadius;
 
   /// @brief Field m_NextAction, offset 0xa0, size 0x4
-  __declspec(property(get = __get_m_NextAction, put = __set_m_NextAction)) float_t m_NextAction;
+  __declspec(property(get = __cordl_internal_get_m_NextAction, put = __cordl_internal_set_m_NextAction)) float_t m_NextAction;
 
   /// @brief Field m_LastMousePosition, offset 0xa4, size 0x8
-  __declspec(property(get = __get_m_LastMousePosition, put = __set_m_LastMousePosition))::UnityEngine::Vector2 m_LastMousePosition;
+  __declspec(property(get = __cordl_internal_get_m_LastMousePosition, put = __cordl_internal_set_m_LastMousePosition))::UnityEngine::Vector2 m_LastMousePosition;
 
   /// @brief Field m_MousePosition, offset 0xac, size 0x8
-  __declspec(property(get = __get_m_MousePosition, put = __set_m_MousePosition))::UnityEngine::Vector2 m_MousePosition;
+  __declspec(property(get = __cordl_internal_get_m_MousePosition, put = __cordl_internal_set_m_MousePosition))::UnityEngine::Vector2 m_MousePosition;
 
   /// @brief Field m_HorizontalAxis, offset 0xb8, size 0x8
-  __declspec(property(get = __get_m_HorizontalAxis, put = __set_m_HorizontalAxis))::StringW m_HorizontalAxis;
+  __declspec(property(get = __cordl_internal_get_m_HorizontalAxis, put = __cordl_internal_set_m_HorizontalAxis))::StringW m_HorizontalAxis;
 
   /// @brief Field m_VerticalAxis, offset 0xc0, size 0x8
-  __declspec(property(get = __get_m_VerticalAxis, put = __set_m_VerticalAxis))::StringW m_VerticalAxis;
+  __declspec(property(get = __cordl_internal_get_m_VerticalAxis, put = __cordl_internal_set_m_VerticalAxis))::StringW m_VerticalAxis;
 
   /// @brief Field m_SubmitButton, offset 0xc8, size 0x8
-  __declspec(property(get = __get_m_SubmitButton, put = __set_m_SubmitButton))::StringW m_SubmitButton;
+  __declspec(property(get = __cordl_internal_get_m_SubmitButton, put = __cordl_internal_set_m_SubmitButton))::StringW m_SubmitButton;
 
   /// @brief Field m_CancelButton, offset 0xd0, size 0x8
-  __declspec(property(get = __get_m_CancelButton, put = __set_m_CancelButton))::StringW m_CancelButton;
+  __declspec(property(get = __cordl_internal_get_m_CancelButton, put = __cordl_internal_set_m_CancelButton))::StringW m_CancelButton;
 
   /// @brief Field m_InputActionsPerSecond, offset 0xd8, size 0x4
-  __declspec(property(get = __get_m_InputActionsPerSecond, put = __set_m_InputActionsPerSecond)) float_t m_InputActionsPerSecond;
+  __declspec(property(get = __cordl_internal_get_m_InputActionsPerSecond, put = __cordl_internal_set_m_InputActionsPerSecond)) float_t m_InputActionsPerSecond;
 
   /// @brief Field m_AllowActivationOnMobileDevice, offset 0xdc, size 0x1
-  __declspec(property(get = __get_m_AllowActivationOnMobileDevice, put = __set_m_AllowActivationOnMobileDevice)) bool m_AllowActivationOnMobileDevice;
+  __declspec(property(get = __cordl_internal_get_m_AllowActivationOnMobileDevice, put = __cordl_internal_set_m_AllowActivationOnMobileDevice)) bool m_AllowActivationOnMobileDevice;
 
   /// @brief Field m_VRRayPointerData, offset 0xe0, size 0x8
-  __declspec(property(get = __get_m_VRRayPointerData,
-                      put = __set_m_VRRayPointerData))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::OVRPointerEventData*>* m_VRRayPointerData;
+  __declspec(property(get = __cordl_internal_get_m_VRRayPointerData,
+                      put = __cordl_internal_set_m_VRRayPointerData))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::OVRPointerEventData*>* m_VRRayPointerData;
 
   /// @brief Field m_MouseState, offset 0xe8, size 0x8
-  __declspec(property(get = __get_m_MouseState, put = __set_m_MouseState))::UnityEngine::EventSystems::__PointerInputModule__MouseState* m_MouseState;
+  __declspec(property(get = __cordl_internal_get_m_MouseState, put = __cordl_internal_set_m_MouseState))::UnityEngine::EventSystems::__PointerInputModule__MouseState* m_MouseState;
 
   __declspec(property(get = get_inputMode))::UnityEngine::EventSystems::__OVRInputModule__InputMode inputMode;
 
@@ -212,155 +212,156 @@ public:
 
   __declspec(property(get = get_cancelButton, put = set_cancelButton))::StringW cancelButton;
 
-  constexpr ::UnityEngine::Transform*& __get_rayTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rayTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_rayTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rayTransform() const;
 
-  constexpr void __set_rayTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_rayTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::GlobalNamespace::OVRCursor*& __get_m_Cursor();
+  constexpr ::UnityW<::GlobalNamespace::OVRCursor>& __cordl_internal_get_m_Cursor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRCursor*> const& __get_m_Cursor() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRCursor> const& __cordl_internal_get_m_Cursor() const;
 
-  constexpr void __set_m_Cursor(::GlobalNamespace::OVRCursor* value);
+  constexpr void __cordl_internal_set_m_Cursor(::UnityW<::GlobalNamespace::OVRCursor> value);
 
-  constexpr ::GlobalNamespace::__OVRInput__Button& __get_joyPadClickButton();
+  constexpr ::GlobalNamespace::__OVRInput__Button& __cordl_internal_get_joyPadClickButton();
 
-  constexpr ::GlobalNamespace::__OVRInput__Button const& __get_joyPadClickButton() const;
+  constexpr ::GlobalNamespace::__OVRInput__Button const& __cordl_internal_get_joyPadClickButton() const;
 
-  constexpr void __set_joyPadClickButton(::GlobalNamespace::__OVRInput__Button value);
+  constexpr void __cordl_internal_set_joyPadClickButton(::GlobalNamespace::__OVRInput__Button value);
 
-  constexpr ::UnityEngine::KeyCode& __get_gazeClickKey();
+  constexpr ::UnityEngine::KeyCode& __cordl_internal_get_gazeClickKey();
 
-  constexpr ::UnityEngine::KeyCode const& __get_gazeClickKey() const;
+  constexpr ::UnityEngine::KeyCode const& __cordl_internal_get_gazeClickKey() const;
 
-  constexpr void __set_gazeClickKey(::UnityEngine::KeyCode value);
+  constexpr void __cordl_internal_set_gazeClickKey(::UnityEngine::KeyCode value);
 
-  constexpr bool& __get_performSphereCastForGazepointer();
+  constexpr bool& __cordl_internal_get_performSphereCastForGazepointer();
 
-  constexpr bool const& __get_performSphereCastForGazepointer() const;
+  constexpr bool const& __cordl_internal_get_performSphereCastForGazepointer() const;
 
-  constexpr void __set_performSphereCastForGazepointer(bool value);
+  constexpr void __cordl_internal_set_performSphereCastForGazepointer(bool value);
 
-  constexpr bool& __get_useRightStickScroll();
+  constexpr bool& __cordl_internal_get_useRightStickScroll();
 
-  constexpr bool const& __get_useRightStickScroll() const;
+  constexpr bool const& __cordl_internal_get_useRightStickScroll() const;
 
-  constexpr void __set_useRightStickScroll(bool value);
+  constexpr void __cordl_internal_set_useRightStickScroll(bool value);
 
-  constexpr float_t& __get_rightStickDeadZone();
+  constexpr float_t& __cordl_internal_get_rightStickDeadZone();
 
-  constexpr float_t const& __get_rightStickDeadZone() const;
+  constexpr float_t const& __cordl_internal_get_rightStickDeadZone() const;
 
-  constexpr void __set_rightStickDeadZone(float_t value);
+  constexpr void __cordl_internal_set_rightStickDeadZone(float_t value);
 
-  constexpr bool& __get_useSwipeScroll();
+  constexpr bool& __cordl_internal_get_useSwipeScroll();
 
-  constexpr bool const& __get_useSwipeScroll() const;
+  constexpr bool const& __cordl_internal_get_useSwipeScroll() const;
 
-  constexpr void __set_useSwipeScroll(bool value);
+  constexpr void __cordl_internal_set_useSwipeScroll(bool value);
 
-  constexpr float_t& __get_swipeDragThreshold();
+  constexpr float_t& __cordl_internal_get_swipeDragThreshold();
 
-  constexpr float_t const& __get_swipeDragThreshold() const;
+  constexpr float_t const& __cordl_internal_get_swipeDragThreshold() const;
 
-  constexpr void __set_swipeDragThreshold(float_t value);
+  constexpr void __cordl_internal_set_swipeDragThreshold(float_t value);
 
-  constexpr float_t& __get_swipeDragScale();
+  constexpr float_t& __cordl_internal_get_swipeDragScale();
 
-  constexpr float_t const& __get_swipeDragScale() const;
+  constexpr float_t const& __cordl_internal_get_swipeDragScale() const;
 
-  constexpr void __set_swipeDragScale(float_t value);
+  constexpr void __cordl_internal_set_swipeDragScale(float_t value);
 
-  constexpr bool& __get_InvertSwipeXAxis();
+  constexpr bool& __cordl_internal_get_InvertSwipeXAxis();
 
-  constexpr bool const& __get_InvertSwipeXAxis() const;
+  constexpr bool const& __cordl_internal_get_InvertSwipeXAxis() const;
 
-  constexpr void __set_InvertSwipeXAxis(bool value);
+  constexpr void __cordl_internal_set_InvertSwipeXAxis(bool value);
 
-  constexpr ::GlobalNamespace::OVRRaycaster*& __get_activeGraphicRaycaster();
+  constexpr ::UnityW<::GlobalNamespace::OVRRaycaster>& __cordl_internal_get_activeGraphicRaycaster();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRRaycaster*> const& __get_activeGraphicRaycaster() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRRaycaster> const& __cordl_internal_get_activeGraphicRaycaster() const;
 
-  constexpr void __set_activeGraphicRaycaster(::GlobalNamespace::OVRRaycaster* value);
+  constexpr void __cordl_internal_set_activeGraphicRaycaster(::UnityW<::GlobalNamespace::OVRRaycaster> value);
 
-  constexpr float_t& __get_angleDragThreshold();
+  constexpr float_t& __cordl_internal_get_angleDragThreshold();
 
-  constexpr float_t const& __get_angleDragThreshold() const;
+  constexpr float_t const& __cordl_internal_get_angleDragThreshold() const;
 
-  constexpr void __set_angleDragThreshold(float_t value);
+  constexpr void __cordl_internal_set_angleDragThreshold(float_t value);
 
-  constexpr float_t& __get_m_SpherecastRadius();
+  constexpr float_t& __cordl_internal_get_m_SpherecastRadius();
 
-  constexpr float_t const& __get_m_SpherecastRadius() const;
+  constexpr float_t const& __cordl_internal_get_m_SpherecastRadius() const;
 
-  constexpr void __set_m_SpherecastRadius(float_t value);
+  constexpr void __cordl_internal_set_m_SpherecastRadius(float_t value);
 
-  constexpr float_t& __get_m_NextAction();
+  constexpr float_t& __cordl_internal_get_m_NextAction();
 
-  constexpr float_t const& __get_m_NextAction() const;
+  constexpr float_t const& __cordl_internal_get_m_NextAction() const;
 
-  constexpr void __set_m_NextAction(float_t value);
+  constexpr void __cordl_internal_set_m_NextAction(float_t value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_LastMousePosition();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_LastMousePosition();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_LastMousePosition() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_LastMousePosition() const;
 
-  constexpr void __set_m_LastMousePosition(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_LastMousePosition(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_MousePosition();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_MousePosition();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_MousePosition() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_MousePosition() const;
 
-  constexpr void __set_m_MousePosition(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_MousePosition(::UnityEngine::Vector2 value);
 
-  constexpr ::StringW& __get_m_HorizontalAxis();
+  constexpr ::StringW& __cordl_internal_get_m_HorizontalAxis();
 
-  constexpr ::StringW const& __get_m_HorizontalAxis() const;
+  constexpr ::StringW const& __cordl_internal_get_m_HorizontalAxis() const;
 
-  constexpr void __set_m_HorizontalAxis(::StringW value);
+  constexpr void __cordl_internal_set_m_HorizontalAxis(::StringW value);
 
-  constexpr ::StringW& __get_m_VerticalAxis();
+  constexpr ::StringW& __cordl_internal_get_m_VerticalAxis();
 
-  constexpr ::StringW const& __get_m_VerticalAxis() const;
+  constexpr ::StringW const& __cordl_internal_get_m_VerticalAxis() const;
 
-  constexpr void __set_m_VerticalAxis(::StringW value);
+  constexpr void __cordl_internal_set_m_VerticalAxis(::StringW value);
 
-  constexpr ::StringW& __get_m_SubmitButton();
+  constexpr ::StringW& __cordl_internal_get_m_SubmitButton();
 
-  constexpr ::StringW const& __get_m_SubmitButton() const;
+  constexpr ::StringW const& __cordl_internal_get_m_SubmitButton() const;
 
-  constexpr void __set_m_SubmitButton(::StringW value);
+  constexpr void __cordl_internal_set_m_SubmitButton(::StringW value);
 
-  constexpr ::StringW& __get_m_CancelButton();
+  constexpr ::StringW& __cordl_internal_get_m_CancelButton();
 
-  constexpr ::StringW const& __get_m_CancelButton() const;
+  constexpr ::StringW const& __cordl_internal_get_m_CancelButton() const;
 
-  constexpr void __set_m_CancelButton(::StringW value);
+  constexpr void __cordl_internal_set_m_CancelButton(::StringW value);
 
-  constexpr float_t& __get_m_InputActionsPerSecond();
+  constexpr float_t& __cordl_internal_get_m_InputActionsPerSecond();
 
-  constexpr float_t const& __get_m_InputActionsPerSecond() const;
+  constexpr float_t const& __cordl_internal_get_m_InputActionsPerSecond() const;
 
-  constexpr void __set_m_InputActionsPerSecond(float_t value);
+  constexpr void __cordl_internal_set_m_InputActionsPerSecond(float_t value);
 
-  constexpr bool& __get_m_AllowActivationOnMobileDevice();
+  constexpr bool& __cordl_internal_get_m_AllowActivationOnMobileDevice();
 
-  constexpr bool const& __get_m_AllowActivationOnMobileDevice() const;
+  constexpr bool const& __cordl_internal_get_m_AllowActivationOnMobileDevice() const;
 
-  constexpr void __set_m_AllowActivationOnMobileDevice(bool value);
+  constexpr void __cordl_internal_set_m_AllowActivationOnMobileDevice(bool value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::OVRPointerEventData*>*& __get_m_VRRayPointerData();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::OVRPointerEventData*>*& __cordl_internal_get_m_VRRayPointerData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::OVRPointerEventData*>*> const& __get_m_VRRayPointerData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::OVRPointerEventData*>*> const&
+  __cordl_internal_get_m_VRRayPointerData() const;
 
-  constexpr void __set_m_VRRayPointerData(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::OVRPointerEventData*>* value);
+  constexpr void __cordl_internal_set_m_VRRayPointerData(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::EventSystems::OVRPointerEventData*>* value);
 
-  constexpr ::UnityEngine::EventSystems::__PointerInputModule__MouseState*& __get_m_MouseState();
+  constexpr ::UnityEngine::EventSystems::__PointerInputModule__MouseState*& __cordl_internal_get_m_MouseState();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::__PointerInputModule__MouseState*> const& __get_m_MouseState() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::__PointerInputModule__MouseState*> const& __cordl_internal_get_m_MouseState() const;
 
-  constexpr void __set_m_MouseState(::UnityEngine::EventSystems::__PointerInputModule__MouseState* value);
+  constexpr void __cordl_internal_set_m_MouseState(::UnityEngine::EventSystems::__PointerInputModule__MouseState* value);
 
   static inline ::UnityEngine::EventSystems::OVRInputModule* New_ctor();
 
@@ -502,10 +503,10 @@ protected:
 
 public:
   /// @brief Field rayTransform, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___rayTransform;
+  ::UnityW<::UnityEngine::Transform> ___rayTransform;
 
   /// @brief Field m_Cursor, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::OVRCursor* ___m_Cursor;
+  ::UnityW<::GlobalNamespace::OVRCursor> ___m_Cursor;
 
   /// @brief Field joyPadClickButton, offset: 0x70, size: 0x4, def value: None
   ::GlobalNamespace::__OVRInput__Button ___joyPadClickButton;
@@ -535,7 +536,7 @@ public:
   bool ___InvertSwipeXAxis;
 
   /// @brief Field activeGraphicRaycaster, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::OVRRaycaster* ___activeGraphicRaycaster;
+  ::UnityW<::GlobalNamespace::OVRRaycaster> ___activeGraphicRaycaster;
 
   /// @brief Field angleDragThreshold, offset: 0x98, size: 0x4, def value: None
   float_t ___angleDragThreshold;

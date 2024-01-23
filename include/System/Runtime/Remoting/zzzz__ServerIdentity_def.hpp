@@ -42,26 +42,26 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ServerIdentity);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3060))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3060))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3072))
 // CS Name: ::System.Runtime.Remoting::ServerIdentity*
 class CORDL_TYPE ServerIdentity : public ::System::Runtime::Remoting::Identity {
 public:
   // Declarations
   /// @brief Field _objectType, offset 0x48, size 0x8
-  __declspec(property(get = __get__objectType, put = __set__objectType))::System::Type* _objectType;
+  __declspec(property(get = __cordl_internal_get__objectType, put = __cordl_internal_set__objectType))::System::Type* _objectType;
 
   /// @brief Field _serverObject, offset 0x50, size 0x8
-  __declspec(property(get = __get__serverObject, put = __set__serverObject))::System::MarshalByRefObject* _serverObject;
+  __declspec(property(get = __cordl_internal_get__serverObject, put = __cordl_internal_set__serverObject))::System::MarshalByRefObject* _serverObject;
 
   /// @brief Field _serverSink, offset 0x58, size 0x8
-  __declspec(property(get = __get__serverSink, put = __set__serverSink))::System::Runtime::Remoting::Messaging::IMessageSink* _serverSink;
+  __declspec(property(get = __cordl_internal_get__serverSink, put = __cordl_internal_set__serverSink))::System::Runtime::Remoting::Messaging::IMessageSink* _serverSink;
 
   /// @brief Field _context, offset 0x60, size 0x8
-  __declspec(property(get = __get__context, put = __set__context))::System::Runtime::Remoting::Contexts::Context* _context;
+  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::System::Runtime::Remoting::Contexts::Context* _context;
 
   /// @brief Field _lease, offset 0x68, size 0x8
-  __declspec(property(get = __get__lease, put = __set__lease))::System::Runtime::Remoting::Lifetime::Lease* _lease;
+  __declspec(property(get = __cordl_internal_get__lease, put = __cordl_internal_set__lease))::System::Runtime::Remoting::Lifetime::Lease* _lease;
 
   __declspec(property(get = get_ObjectType))::System::Type* ObjectType;
 
@@ -69,35 +69,35 @@ public:
 
   __declspec(property(get = get_Context, put = set_Context))::System::Runtime::Remoting::Contexts::Context* Context;
 
-  constexpr ::System::Type*& __get__objectType();
+  constexpr ::System::Type*& __cordl_internal_get__objectType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__objectType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__objectType() const;
 
-  constexpr void __set__objectType(::System::Type* value);
+  constexpr void __cordl_internal_set__objectType(::System::Type* value);
 
-  constexpr ::System::MarshalByRefObject*& __get__serverObject();
+  constexpr ::System::MarshalByRefObject*& __cordl_internal_get__serverObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::MarshalByRefObject*> const& __get__serverObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::MarshalByRefObject*> const& __cordl_internal_get__serverObject() const;
 
-  constexpr void __set__serverObject(::System::MarshalByRefObject* value);
+  constexpr void __cordl_internal_set__serverObject(::System::MarshalByRefObject* value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __get__serverSink();
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get__serverSink();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __get__serverSink() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __cordl_internal_get__serverSink() const;
 
-  constexpr void __set__serverSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
+  constexpr void __cordl_internal_set__serverSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  constexpr ::System::Runtime::Remoting::Contexts::Context*& __get__context();
+  constexpr ::System::Runtime::Remoting::Contexts::Context*& __cordl_internal_get__context();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::Context*> const& __get__context() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::Context*> const& __cordl_internal_get__context() const;
 
-  constexpr void __set__context(::System::Runtime::Remoting::Contexts::Context* value);
+  constexpr void __cordl_internal_set__context(::System::Runtime::Remoting::Contexts::Context* value);
 
-  constexpr ::System::Runtime::Remoting::Lifetime::Lease*& __get__lease();
+  constexpr ::System::Runtime::Remoting::Lifetime::Lease*& __cordl_internal_get__lease();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Lifetime::Lease*> const& __get__lease() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Lifetime::Lease*> const& __cordl_internal_get__lease() const;
 
-  constexpr void __set__lease(::System::Runtime::Remoting::Lifetime::Lease* value);
+  constexpr void __cordl_internal_set__lease(::System::Runtime::Remoting::Lifetime::Lease* value);
 
   static inline ::System::Runtime::Remoting::ServerIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 

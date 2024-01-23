@@ -115,7 +115,7 @@ MARK_VAL_T(::UnityEngine::__Camera__RenderRequest);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10151))
 // CS Name: ::Camera::StereoscopicEye
 struct CORDL_TYPE __Camera__StereoscopicEye {
@@ -165,7 +165,7 @@ static_assert(offsetof(::UnityEngine::__Camera__StereoscopicEye, value__) == 0x0
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10152))
 // CS Name: ::Camera::MonoOrStereoscopicEye
 struct CORDL_TYPE __Camera__MonoOrStereoscopicEye {
@@ -219,7 +219,7 @@ static_assert(offsetof(::UnityEngine::__Camera__MonoOrStereoscopicEye, value__) 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10153))
 // CS Name: ::Camera::RenderRequestMode
 struct CORDL_TYPE __Camera__RenderRequestMode {
@@ -317,7 +317,7 @@ static_assert(offsetof(::UnityEngine::__Camera__RenderRequestMode, value__) == 0
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10154))
 // CS Name: ::Camera::RenderRequestOutputSpace
 struct CORDL_TYPE __Camera__RenderRequestOutputSpace {
@@ -399,15 +399,16 @@ static_assert(offsetof(::UnityEngine::__Camera__RenderRequestOutputSpace, value_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10153)), TypeDefinitionIndex(TypeDefinitionIndex(10154))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10153)), TypeDefinitionIndex(TypeDefinitionIndex(10154))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10155))
 // CS Name: ::Camera::RenderRequest
 struct CORDL_TYPE __Camera__RenderRequest {
 public:
   // Declarations
   // Ctor Parameters [CppParam { name: "m_CameraRenderMode", ty: "::UnityEngine::__Camera__RenderRequestMode", modifiers: "", def_value: None }, CppParam { name: "m_ResultRT", ty:
-  // "::UnityEngine::RenderTexture*", modifiers: "", def_value: None }, CppParam { name: "m_OutputSpace", ty: "::UnityEngine::__Camera__RenderRequestOutputSpace", modifiers: "", def_value: None }]
-  constexpr __Camera__RenderRequest(::UnityEngine::__Camera__RenderRequestMode m_CameraRenderMode, ::UnityEngine::RenderTexture* m_ResultRT,
+  // "::UnityW<::UnityEngine::RenderTexture>", modifiers: "", def_value: None }, CppParam { name: "m_OutputSpace", ty: "::UnityEngine::__Camera__RenderRequestOutputSpace", modifiers: "", def_value:
+  // None }]
+  constexpr __Camera__RenderRequest(::UnityEngine::__Camera__RenderRequestMode m_CameraRenderMode, ::UnityW<::UnityEngine::RenderTexture> m_ResultRT,
                                     ::UnityEngine::__Camera__RenderRequestOutputSpace m_OutputSpace) noexcept;
 
   // Ctor Parameters []
@@ -418,7 +419,7 @@ public:
   ::UnityEngine::__Camera__RenderRequestMode m_CameraRenderMode;
 
   /// @brief Field m_ResultRT, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::RenderTexture* m_ResultRT;
+  ::UnityW<::UnityEngine::RenderTexture> m_ResultRT;
 
   /// @brief Field m_OutputSpace, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::__Camera__RenderRequestOutputSpace m_OutputSpace;
@@ -442,7 +443,7 @@ static_assert(offsetof(::UnityEngine::__Camera__RenderRequest, m_OutputSpace) ==
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10156))
 // CS Name: ::Camera::CameraCallback*
 class CORDL_TYPE __Camera__CameraCallback : public ::System::MulticastDelegate {
@@ -480,7 +481,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__Camera__CameraCal
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10187))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10187))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10157))
 // CS Name: ::UnityEngine::Camera*
 class CORDL_TYPE Camera : public ::UnityEngine::Behaviour {
@@ -551,7 +552,7 @@ public:
 
   __declspec(property(get = get_pixelHeight)) int32_t pixelHeight;
 
-  __declspec(property(get = get_targetTexture, put = set_targetTexture))::UnityEngine::RenderTexture* targetTexture;
+  __declspec(property(get = get_targetTexture, put = set_targetTexture))::UnityW<::UnityEngine::RenderTexture> targetTexture;
 
   __declspec(property(get = get_targetDisplay, put = set_targetDisplay)) int32_t targetDisplay;
 
@@ -677,7 +678,7 @@ public:
   inline int32_t get_pixelHeight();
 
   /// @brief Method get_targetTexture, addr 0x2cc735c, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::RenderTexture* get_targetTexture();
+  inline ::UnityW<::UnityEngine::RenderTexture> get_targetTexture();
 
   /// @brief Method set_targetTexture, addr 0x2cc7398, size 0x44, virtual false, abstract: false, final false
   inline void set_targetTexture(::UnityEngine::RenderTexture* value);
@@ -734,10 +735,10 @@ public:
   inline ::UnityEngine::Ray ScreenPointToRay(::UnityEngine::Vector3 pos);
 
   /// @brief Method get_main, addr 0x2cc7c5c, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Camera* get_main();
+  static inline ::UnityW<::UnityEngine::Camera> get_main();
 
   /// @brief Method get_current, addr 0x2cc7c84, size 0x28, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Camera* get_current();
+  static inline ::UnityW<::UnityEngine::Camera> get_current();
 
   /// @brief Method get_stereoEnabled, addr 0x2cc7cac, size 0x3c, virtual false, abstract: false, final false
   inline bool get_stereoEnabled();

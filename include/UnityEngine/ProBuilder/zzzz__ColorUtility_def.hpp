@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::ColorUtility);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12116))
 // CS Name: ::UnityEngine.ProBuilder::ColorUtility*
 class CORDL_TYPE ColorUtility : public ::System::Object {

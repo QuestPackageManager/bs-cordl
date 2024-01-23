@@ -27,84 +27,85 @@ MARK_REF_PTR_T(::GlobalNamespace::Mirror);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15296))
 // CS Name: ::Mirror*
 class CORDL_TYPE Mirror : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _mirrorRenderer, offset 0x18, size 0x8
-  __declspec(property(get = __get__mirrorRenderer, put = __set__mirrorRenderer))::GlobalNamespace::MirrorRendererSO* _mirrorRenderer;
+  __declspec(property(get = __cordl_internal_get__mirrorRenderer, put = __cordl_internal_set__mirrorRenderer))::UnityW<::GlobalNamespace::MirrorRendererSO> _mirrorRenderer;
 
   /// @brief Field _renderer, offset 0x20, size 0x8
-  __declspec(property(get = __get__renderer, put = __set__renderer))::UnityEngine::MeshRenderer* _renderer;
+  __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer))::UnityW<::UnityEngine::MeshRenderer> _renderer;
 
   /// @brief Field _mirrorMaterial, offset 0x28, size 0x8
-  __declspec(property(get = __get__mirrorMaterial, put = __set__mirrorMaterial))::UnityEngine::Material* _mirrorMaterial;
+  __declspec(property(get = __cordl_internal_get__mirrorMaterial, put = __cordl_internal_set__mirrorMaterial))::UnityW<::UnityEngine::Material> _mirrorMaterial;
 
   /// @brief Field _noMirrorMaterial, offset 0x30, size 0x8
-  __declspec(property(get = __get__noMirrorMaterial, put = __set__noMirrorMaterial))::UnityEngine::Material* _noMirrorMaterial;
+  __declspec(property(get = __cordl_internal_get__noMirrorMaterial, put = __cordl_internal_set__noMirrorMaterial))::UnityW<::UnityEngine::Material> _noMirrorMaterial;
 
   /// @brief Field <isEnabled>k__BackingField, offset 0x38, size 0x1
-  __declspec(property(get = __get__isEnabled_k__BackingField, put = __set__isEnabled_k__BackingField)) bool _isEnabled_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isEnabled_k__BackingField, put = __cordl_internal_set__isEnabled_k__BackingField)) bool _isEnabled_k__BackingField;
 
   /// @brief Field mirrorDidChangeEnabledStateEvent, offset 0x40, size 0x8
-  __declspec(property(get = __get_mirrorDidChangeEnabledStateEvent, put = __set_mirrorDidChangeEnabledStateEvent))::System::Action_1<bool>* mirrorDidChangeEnabledStateEvent;
+  __declspec(property(get = __cordl_internal_get_mirrorDidChangeEnabledStateEvent,
+                      put = __cordl_internal_set_mirrorDidChangeEnabledStateEvent))::System::Action_1<bool>* mirrorDidChangeEnabledStateEvent;
 
   /// @brief Field _texturePropertyID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__texturePropertyID, put = setStaticF__texturePropertyID)) int32_t _texturePropertyID;
 
-  __declspec(property(get = get_mirrorMaterial))::UnityEngine::Material* mirrorMaterial;
+  __declspec(property(get = get_mirrorMaterial))::UnityW<::UnityEngine::Material> mirrorMaterial;
 
-  __declspec(property(get = get_noMirrorMaterial))::UnityEngine::Material* noMirrorMaterial;
+  __declspec(property(get = get_noMirrorMaterial))::UnityW<::UnityEngine::Material> noMirrorMaterial;
 
   __declspec(property(get = get_isEnabled, put = set_isEnabled)) bool isEnabled;
 
-  constexpr ::GlobalNamespace::MirrorRendererSO*& __get__mirrorRenderer();
+  constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO>& __cordl_internal_get__mirrorRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirrorRendererSO*> const& __get__mirrorRenderer() const;
+  constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO> const& __cordl_internal_get__mirrorRenderer() const;
 
-  constexpr void __set__mirrorRenderer(::GlobalNamespace::MirrorRendererSO* value);
+  constexpr void __cordl_internal_set__mirrorRenderer(::UnityW<::GlobalNamespace::MirrorRendererSO> value);
 
-  constexpr ::UnityEngine::MeshRenderer*& __get__renderer();
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__renderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshRenderer*> const& __get__renderer() const;
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__renderer() const;
 
-  constexpr void __set__renderer(::UnityEngine::MeshRenderer* value);
+  constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  constexpr ::UnityEngine::Material*& __get__mirrorMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__mirrorMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__mirrorMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__mirrorMaterial() const;
 
-  constexpr void __set__mirrorMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__mirrorMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Material*& __get__noMirrorMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__noMirrorMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__noMirrorMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__noMirrorMaterial() const;
 
-  constexpr void __set__noMirrorMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__noMirrorMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr bool& __get__isEnabled_k__BackingField();
+  constexpr bool& __cordl_internal_get__isEnabled_k__BackingField();
 
-  constexpr bool const& __get__isEnabled_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isEnabled_k__BackingField() const;
 
-  constexpr void __set__isEnabled_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isEnabled_k__BackingField(bool value);
 
-  constexpr ::System::Action_1<bool>*& __get_mirrorDidChangeEnabledStateEvent();
+  constexpr ::System::Action_1<bool>*& __cordl_internal_get_mirrorDidChangeEnabledStateEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __get_mirrorDidChangeEnabledStateEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_mirrorDidChangeEnabledStateEvent() const;
 
-  constexpr void __set_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
+  constexpr void __cordl_internal_set_mirrorDidChangeEnabledStateEvent(::System::Action_1<bool>* value);
 
   static inline void setStaticF__texturePropertyID(int32_t value);
 
   static inline int32_t getStaticF__texturePropertyID();
 
   /// @brief Method get_mirrorMaterial, addr 0x2809140, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* get_mirrorMaterial();
+  inline ::UnityW<::UnityEngine::Material> get_mirrorMaterial();
 
   /// @brief Method get_noMirrorMaterial, addr 0x2809148, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* get_noMirrorMaterial();
+  inline ::UnityW<::UnityEngine::Material> get_noMirrorMaterial();
 
   /// @brief Method get_isEnabled, addr 0x2809150, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEnabled();
@@ -147,16 +148,16 @@ protected:
 
 public:
   /// @brief Field _mirrorRenderer, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MirrorRendererSO* ____mirrorRenderer;
+  ::UnityW<::GlobalNamespace::MirrorRendererSO> ____mirrorRenderer;
 
   /// @brief Field _renderer, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::MeshRenderer* ____renderer;
+  ::UnityW<::UnityEngine::MeshRenderer> ____renderer;
 
   /// @brief Field _mirrorMaterial, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Material* ____mirrorMaterial;
+  ::UnityW<::UnityEngine::Material> ____mirrorMaterial;
 
   /// @brief Field _noMirrorMaterial, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Material* ____noMirrorMaterial;
+  ::UnityW<::UnityEngine::Material> ____noMirrorMaterial;
 
   /// @brief Field <isEnabled>k__BackingField, offset: 0x38, size: 0x1, def value: None
   bool ____isEnabled_k__BackingField;

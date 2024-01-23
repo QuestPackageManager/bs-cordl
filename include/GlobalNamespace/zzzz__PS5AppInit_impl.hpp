@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x222a1e4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5AppInit*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5AppInit*>::get(), 10));
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x222a24c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5AppInit*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5AppInit*>::get(), 11));
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x222a2e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5AppInit*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5AppInit*>::get(), 12));
@@ -59,9 +59,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x222a2ec;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5AppInit*>::get(),
-                                                                               "TransitionToNextSceneInternal", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "TransitionToNextSceneInternal", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -72,7 +72,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1ec;
   constexpr static std::size_t addrs = 0x222a340;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5AppInit*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5AppInit*>::get(), 8));
@@ -86,95 +86,94 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x222a52c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5AppInit*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::MainSystemInit*& GlobalNamespace::PS5AppInit::__get__mainSystemInit() {
+constexpr ::UnityW<::GlobalNamespace::MainSystemInit>& GlobalNamespace::PS5AppInit::__cordl_internal_get__mainSystemInit() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainSystemInit;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSystemInit*> const& GlobalNamespace::PS5AppInit::__get__mainSystemInit() const {
+constexpr ::UnityW<::GlobalNamespace::MainSystemInit> const& GlobalNamespace::PS5AppInit::__cordl_internal_get__mainSystemInit() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mainSystemInit;
 }
-constexpr void GlobalNamespace::PS5AppInit::__set__mainSystemInit(::GlobalNamespace::MainSystemInit* value) {
+constexpr void GlobalNamespace::PS5AppInit::__cordl_internal_set__mainSystemInit(::UnityW<::GlobalNamespace::MainSystemInit> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mainSystemInit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::DefaultScenesTransitionsFromInit*& GlobalNamespace::PS5AppInit::__get__defaultScenesTransitionsFromInit() {
+constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit>& GlobalNamespace::PS5AppInit::__cordl_internal_get__defaultScenesTransitionsFromInit() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultScenesTransitionsFromInit;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DefaultScenesTransitionsFromInit*> const& GlobalNamespace::PS5AppInit::__get__defaultScenesTransitionsFromInit() const {
+constexpr ::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> const& GlobalNamespace::PS5AppInit::__cordl_internal_get__defaultScenesTransitionsFromInit() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____defaultScenesTransitionsFromInit;
 }
-constexpr void GlobalNamespace::PS5AppInit::__set__defaultScenesTransitionsFromInit(::GlobalNamespace::DefaultScenesTransitionsFromInit* value) {
+constexpr void GlobalNamespace::PS5AppInit::__cordl_internal_set__defaultScenesTransitionsFromInit(::UnityW<::GlobalNamespace::DefaultScenesTransitionsFromInit> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____defaultScenesTransitionsFromInit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*& GlobalNamespace::PS5AppInit::__get__appInitScenesTransitionSetupDataContainer() {
+constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO>& GlobalNamespace::PS5AppInit::__cordl_internal_get__appInitScenesTransitionSetupDataContainer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appInitScenesTransitionSetupDataContainer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO*> const&
-GlobalNamespace::PS5AppInit::__get__appInitScenesTransitionSetupDataContainer() const {
+constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> const& GlobalNamespace::PS5AppInit::__cordl_internal_get__appInitScenesTransitionSetupDataContainer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____appInitScenesTransitionSetupDataContainer;
 }
-constexpr void GlobalNamespace::PS5AppInit::__set__appInitScenesTransitionSetupDataContainer(::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO* value) {
+constexpr void GlobalNamespace::PS5AppInit::__cordl_internal_set__appInitScenesTransitionSetupDataContainer(::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____appInitScenesTransitionSetupDataContainer)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PS5SharedPackageSKUsSO*& GlobalNamespace::PS5AppInit::__get__ps5SharedPackageSKUs() {
+constexpr ::UnityW<::GlobalNamespace::PS5SharedPackageSKUsSO>& GlobalNamespace::PS5AppInit::__cordl_internal_get__ps5SharedPackageSKUs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5SharedPackageSKUs;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PS5SharedPackageSKUsSO*> const& GlobalNamespace::PS5AppInit::__get__ps5SharedPackageSKUs() const {
+constexpr ::UnityW<::GlobalNamespace::PS5SharedPackageSKUsSO> const& GlobalNamespace::PS5AppInit::__cordl_internal_get__ps5SharedPackageSKUs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5SharedPackageSKUs;
 }
-constexpr void GlobalNamespace::PS5AppInit::__set__ps5SharedPackageSKUs(::GlobalNamespace::PS5SharedPackageSKUsSO* value) {
+constexpr void GlobalNamespace::PS5AppInit::__cordl_internal_set__ps5SharedPackageSKUs(::UnityW<::GlobalNamespace::PS5SharedPackageSKUsSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps5SharedPackageSKUs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler*& GlobalNamespace::PS5AppInit::__get__sonyOnGoingToBackgroundSaveHandler() {
+constexpr ::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler>& GlobalNamespace::PS5AppInit::__cordl_internal_get__sonyOnGoingToBackgroundSaveHandler() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sonyOnGoingToBackgroundSaveHandler;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler*> const& GlobalNamespace::PS5AppInit::__get__sonyOnGoingToBackgroundSaveHandler() const {
+constexpr ::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> const& GlobalNamespace::PS5AppInit::__cordl_internal_get__sonyOnGoingToBackgroundSaveHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sonyOnGoingToBackgroundSaveHandler;
 }
-constexpr void GlobalNamespace::PS5AppInit::__set__sonyOnGoingToBackgroundSaveHandler(::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler* value) {
+constexpr void GlobalNamespace::PS5AppInit::__cordl_internal_set__sonyOnGoingToBackgroundSaveHandler(::UnityW<::GlobalNamespace::SonyOnGoingToBackgroundSaveHandler> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sonyOnGoingToBackgroundSaveHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::PS5AppInit::__get__ps5AdvancedHapticPlayerPrefab() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::PS5AppInit::__cordl_internal_get__ps5AdvancedHapticPlayerPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5AdvancedHapticPlayerPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::PS5AppInit::__get__ps5AdvancedHapticPlayerPrefab() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::PS5AppInit::__cordl_internal_get__ps5AdvancedHapticPlayerPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ps5AdvancedHapticPlayerPrefab;
 }
-constexpr void GlobalNamespace::PS5AppInit::__set__ps5AdvancedHapticPlayerPrefab(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::PS5AppInit::__cordl_internal_set__ps5AdvancedHapticPlayerPrefab(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps5AdvancedHapticPlayerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::SonyBackgroundExecutionHelper*& GlobalNamespace::PS5AppInit::__get__backgroundExecutionHelper() {
+constexpr ::GlobalNamespace::SonyBackgroundExecutionHelper*& GlobalNamespace::PS5AppInit::__cordl_internal_get__backgroundExecutionHelper() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backgroundExecutionHelper;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyBackgroundExecutionHelper*> const& GlobalNamespace::PS5AppInit::__get__backgroundExecutionHelper() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SonyBackgroundExecutionHelper*> const& GlobalNamespace::PS5AppInit::__cordl_internal_get__backgroundExecutionHelper() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backgroundExecutionHelper;
 }
-constexpr void GlobalNamespace::PS5AppInit::__set__backgroundExecutionHelper(::GlobalNamespace::SonyBackgroundExecutionHelper* value) {
+constexpr void GlobalNamespace::PS5AppInit::__cordl_internal_set__backgroundExecutionHelper(::GlobalNamespace::SonyBackgroundExecutionHelper* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____backgroundExecutionHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -195,7 +194,7 @@ inline void GlobalNamespace::PS5AppInit::TransitionToNextScene() {
 }
 inline void GlobalNamespace::PS5AppInit::TransitionToNextSceneInternal() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5AppInit*>::get(),
-                                                                             "TransitionToNextSceneInternal", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "TransitionToNextSceneInternal", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::PS5AppInit::InstallBindings() {
@@ -204,11 +203,11 @@ inline void GlobalNamespace::PS5AppInit::InstallBindings() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::PS5AppInit* GlobalNamespace::PS5AppInit::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::PS5AppInit*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PS5AppInit*>());
 }
 inline void GlobalNamespace::PS5AppInit::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PS5AppInit*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

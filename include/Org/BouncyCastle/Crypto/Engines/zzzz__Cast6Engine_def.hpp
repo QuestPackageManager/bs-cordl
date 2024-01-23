@@ -17,58 +17,58 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::Cast6Engine);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(833))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(833))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(834))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::Cast6Engine*
 class CORDL_TYPE Cast6Engine : public ::Org::BouncyCastle::Crypto::Engines::Cast5Engine {
 public:
   // Declarations
   /// @brief Field _Kr, offset 0x38, size 0x8
-  __declspec(property(get = __get__Kr, put = __set__Kr))::ArrayW<int32_t, ::Array<int32_t>*> _Kr;
+  __declspec(property(get = __cordl_internal_get__Kr, put = __cordl_internal_set__Kr))::ArrayW<int32_t, ::Array<int32_t>*> _Kr;
 
   /// @brief Field _Km, offset 0x40, size 0x8
-  __declspec(property(get = __get__Km, put = __set__Km))::ArrayW<uint32_t, ::Array<uint32_t>*> _Km;
+  __declspec(property(get = __cordl_internal_get__Km, put = __cordl_internal_set__Km))::ArrayW<uint32_t, ::Array<uint32_t>*> _Km;
 
   /// @brief Field _Tr, offset 0x48, size 0x8
-  __declspec(property(get = __get__Tr, put = __set__Tr))::ArrayW<int32_t, ::Array<int32_t>*> _Tr;
+  __declspec(property(get = __cordl_internal_get__Tr, put = __cordl_internal_set__Tr))::ArrayW<int32_t, ::Array<int32_t>*> _Tr;
 
   /// @brief Field _Tm, offset 0x50, size 0x8
-  __declspec(property(get = __get__Tm, put = __set__Tm))::ArrayW<uint32_t, ::Array<uint32_t>*> _Tm;
+  __declspec(property(get = __cordl_internal_get__Tm, put = __cordl_internal_set__Tm))::ArrayW<uint32_t, ::Array<uint32_t>*> _Tm;
 
   /// @brief Field _workingKey, offset 0x58, size 0x8
-  __declspec(property(get = __get__workingKey, put = __set__workingKey))::ArrayW<uint32_t, ::Array<uint32_t>*> _workingKey;
+  __declspec(property(get = __cordl_internal_get__workingKey, put = __cordl_internal_set__workingKey))::ArrayW<uint32_t, ::Array<uint32_t>*> _workingKey;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__Kr();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__Kr();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__Kr() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__Kr() const;
 
-  constexpr void __set__Kr(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__Kr(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get__Km();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get__Km();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get__Km() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__Km() const;
 
-  constexpr void __set__Km(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set__Km(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__Tr();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__Tr();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__Tr() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__Tr() const;
 
-  constexpr void __set__Tr(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__Tr(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get__Tm();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get__Tm();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get__Tm() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__Tm() const;
 
-  constexpr void __set__Tm(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set__Tm(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get__workingKey();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get__workingKey();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get__workingKey() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__workingKey() const;
 
-  constexpr void __set__workingKey(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set__workingKey(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::Cast6Engine* New_ctor();
 

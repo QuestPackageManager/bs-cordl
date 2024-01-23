@@ -27,7 +27,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::IntVec4);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10246))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10246))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12134))
 // CS Name: ::UnityEngine.ProBuilder::IntVec4
 struct CORDL_TYPE IntVec4 {

@@ -38,26 +38,26 @@ MARK_REF_PTR_T(::System::Net::ResponseStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9199))
 // CS Name: ::System.Net::ResponseStream*
 class CORDL_TYPE ResponseStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field response, offset 0x28, size 0x8
-  __declspec(property(get = __get_response, put = __set_response))::System::Net::HttpListenerResponse* response;
+  __declspec(property(get = __cordl_internal_get_response, put = __cordl_internal_set_response))::System::Net::HttpListenerResponse* response;
 
   /// @brief Field ignore_errors, offset 0x30, size 0x1
-  __declspec(property(get = __get_ignore_errors, put = __set_ignore_errors)) bool ignore_errors;
+  __declspec(property(get = __cordl_internal_get_ignore_errors, put = __cordl_internal_set_ignore_errors)) bool ignore_errors;
 
   /// @brief Field disposed, offset 0x31, size 0x1
-  __declspec(property(get = __get_disposed, put = __set_disposed)) bool disposed;
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field trailer_sent, offset 0x32, size 0x1
-  __declspec(property(get = __get_trailer_sent, put = __set_trailer_sent)) bool trailer_sent;
+  __declspec(property(get = __cordl_internal_get_trailer_sent, put = __cordl_internal_set_trailer_sent)) bool trailer_sent;
 
   /// @brief Field stream, offset 0x38, size 0x8
-  __declspec(property(get = __get_stream, put = __set_stream))::System::IO::Stream* stream;
+  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
 
   /// @brief Field crlf, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_crlf, put = setStaticF_crlf))::ArrayW<uint8_t, ::Array<uint8_t>*> crlf;
@@ -72,35 +72,35 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr ::System::Net::HttpListenerResponse*& __get_response();
+  constexpr ::System::Net::HttpListenerResponse*& __cordl_internal_get_response();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerResponse*> const& __get_response() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerResponse*> const& __cordl_internal_get_response() const;
 
-  constexpr void __set_response(::System::Net::HttpListenerResponse* value);
+  constexpr void __cordl_internal_set_response(::System::Net::HttpListenerResponse* value);
 
-  constexpr bool& __get_ignore_errors();
+  constexpr bool& __cordl_internal_get_ignore_errors();
 
-  constexpr bool const& __get_ignore_errors() const;
+  constexpr bool const& __cordl_internal_get_ignore_errors() const;
 
-  constexpr void __set_ignore_errors(bool value);
+  constexpr void __cordl_internal_set_ignore_errors(bool value);
 
-  constexpr bool& __get_disposed();
+  constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr bool const& __get_disposed() const;
+  constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __set_disposed(bool value);
+  constexpr void __cordl_internal_set_disposed(bool value);
 
-  constexpr bool& __get_trailer_sent();
+  constexpr bool& __cordl_internal_get_trailer_sent();
 
-  constexpr bool const& __get_trailer_sent() const;
+  constexpr bool const& __cordl_internal_get_trailer_sent() const;
 
-  constexpr void __set_trailer_sent(bool value);
+  constexpr void __cordl_internal_set_trailer_sent(bool value);
 
-  constexpr ::System::IO::Stream*& __get_stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
 
-  constexpr void __set_stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
 
   static inline void setStaticF_crlf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

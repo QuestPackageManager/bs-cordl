@@ -49,29 +49,29 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11261))
 // CS Name: ::SubContainerCreatorByNewGameObjectMethod`2::<>c__DisplayClass2_0<TParam1,TParam2>*
 class CORDL_TYPE __SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>* __4__this;
 
   /// @brief Field args, offset 0x18, size 0x8
-  __declspec(property(get = __get_args, put = __set_args))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args;
+  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args))::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args;
 
-  constexpr ::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>*& __get___4__this();
+  constexpr ::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __get_args();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*& __cordl_internal_get_args();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __get_args() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*> const& __cordl_internal_get_args() const;
 
-  constexpr void __set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
+  constexpr void __cordl_internal_set_args(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* value);
 
   static inline ::Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>* New_ctor();
 
@@ -117,7 +117,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11255))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11255))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11262))
 // CS Name: ::Zenject::SubContainerCreatorByNewGameObjectMethod`2<TParam1,TParam2>*
 class CORDL_TYPE SubContainerCreatorByNewGameObjectMethod_2 : public ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext {
@@ -126,13 +126,13 @@ public:
   using __c__DisplayClass2_0 = ::Zenject::__SubContainerCreatorByNewGameObjectMethod_2____c__DisplayClass2_0<TParam1, TParam2>;
 
   /// @brief Field _installerMethod, offset 0x20, size 0x8
-  __declspec(property(get = __get__installerMethod, put = __set__installerMethod))::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>* _installerMethod;
+  __declspec(property(get = __cordl_internal_get__installerMethod, put = __cordl_internal_set__installerMethod))::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>* _installerMethod;
 
-  constexpr ::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>*& __get__installerMethod();
+  constexpr ::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>*& __cordl_internal_get__installerMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>*> const& __get__installerMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>*> const& __cordl_internal_get__installerMethod() const;
 
-  constexpr void __set__installerMethod(::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>* value);
+  constexpr void __cordl_internal_set__installerMethod(::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>* value);
 
   static inline ::Zenject::SubContainerCreatorByNewGameObjectMethod_2<TParam1, TParam2>* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo,
                                                                                                   ::System::Action_3<::Zenject::DiContainer*, TParam1, TParam2>* installerMethod);

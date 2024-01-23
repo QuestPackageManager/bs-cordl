@@ -32,57 +32,59 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::BeatAvatarAdapterInstallerSO);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15165))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15165))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15258))
 // CS Name: ::BeatSaber.BeatAvatarAdapter::BeatAvatarAdapterInstallerSO*
 class CORDL_TYPE BeatAvatarAdapterInstallerSO : public ::BeatSaber::AvatarCore::AbstractAdapterInstallerSO {
 public:
   // Declarations
   /// @brief Field _avatarPartsModel, offset 0x20, size 0x8
-  __declspec(property(get = __get__avatarPartsModel, put = __set__avatarPartsModel))::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO* _avatarPartsModel;
+  __declspec(property(get = __cordl_internal_get__avatarPartsModel, put = __cordl_internal_set__avatarPartsModel))::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO> _avatarPartsModel;
 
   /// @brief Field _skinColorSet, offset 0x28, size 0x8
-  __declspec(property(get = __get__skinColorSet, put = __set__skinColorSet))::BeatSaber::BeatAvatarSDK::SkinColorSetSO* _skinColorSet;
+  __declspec(property(get = __cordl_internal_get__skinColorSet, put = __cordl_internal_set__skinColorSet))::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSetSO> _skinColorSet;
 
   /// @brief Field _settings, offset 0x30, size 0x8
-  __declspec(property(get = __get__settings, put = __set__settings))::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings* _settings;
+  __declspec(property(get = __cordl_internal_get__settings, put = __cordl_internal_set__settings))::UnityW<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings> _settings;
 
   /// @brief Field _beatAvatarEditorViewController, offset 0x38, size 0x8
-  __declspec(property(get = __get__beatAvatarEditorViewController,
-                      put = __set__beatAvatarEditorViewController))::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController* _beatAvatarEditorViewController;
+  __declspec(
+      property(get = __cordl_internal_get__beatAvatarEditorViewController,
+               put = __cordl_internal_set__beatAvatarEditorViewController))::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> _beatAvatarEditorViewController;
 
   /// @brief Field _editAvatarColorView, offset 0x40, size 0x8
-  __declspec(property(get = __get__editAvatarColorView, put = __set__editAvatarColorView))::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController* _editAvatarColorView;
+  __declspec(property(get = __cordl_internal_get__editAvatarColorView,
+                      put = __cordl_internal_set__editAvatarColorView))::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController> _editAvatarColorView;
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*& __get__avatarPartsModel();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO>& __cordl_internal_get__avatarPartsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO*> const& __get__avatarPartsModel() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO> const& __cordl_internal_get__avatarPartsModel() const;
 
-  constexpr void __set__avatarPartsModel(::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO* value);
+  constexpr void __cordl_internal_set__avatarPartsModel(::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO> value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::SkinColorSetSO*& __get__skinColorSet();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSetSO>& __cordl_internal_get__skinColorSet();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::SkinColorSetSO*> const& __get__skinColorSet() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSetSO> const& __cordl_internal_get__skinColorSet() const;
 
-  constexpr void __set__skinColorSet(::BeatSaber::BeatAvatarSDK::SkinColorSetSO* value);
+  constexpr void __cordl_internal_set__skinColorSet(::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSetSO> value);
 
-  constexpr ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings*& __get__settings();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings>& __cordl_internal_get__settings();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings*> const& __get__settings() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings> const& __cordl_internal_get__settings() const;
 
-  constexpr void __set__settings(::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings* value);
+  constexpr void __cordl_internal_set__settings(::UnityW<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings> value);
 
-  constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*& __get__beatAvatarEditorViewController();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController>& __cordl_internal_get__beatAvatarEditorViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController*> const& __get__beatAvatarEditorViewController() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> const& __cordl_internal_get__beatAvatarEditorViewController() const;
 
-  constexpr void __set__beatAvatarEditorViewController(::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController* value);
+  constexpr void __cordl_internal_set__beatAvatarEditorViewController(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> value);
 
-  constexpr ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController*& __get__editAvatarColorView();
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController>& __cordl_internal_get__editAvatarColorView();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController*> const& __get__editAvatarColorView() const;
+  constexpr ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController> const& __cordl_internal_get__editAvatarColorView() const;
 
-  constexpr void __set__editAvatarColorView(::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController* value);
+  constexpr void __cordl_internal_set__editAvatarColorView(::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController> value);
 
   /// @brief Method InstallBindings, addr 0xe14484, size 0x10, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -110,19 +112,19 @@ protected:
 
 public:
   /// @brief Field _avatarPartsModel, offset: 0x20, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO* ____avatarPartsModel;
+  ::UnityW<::BeatSaber::BeatAvatarSDK::AvatarPartsModelSO> ____avatarPartsModel;
 
   /// @brief Field _skinColorSet, offset: 0x28, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarSDK::SkinColorSetSO* ____skinColorSet;
+  ::UnityW<::BeatSaber::BeatAvatarSDK::SkinColorSetSO> ____skinColorSet;
 
   /// @brief Field _settings, offset: 0x30, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings* ____settings;
+  ::UnityW<::BeatSaber::BeatAvatarAdapter::BeatAvatarSystemSettings> ____settings;
 
   /// @brief Field _beatAvatarEditorViewController, offset: 0x38, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController* ____beatAvatarEditorViewController;
+  ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::BeatAvatarEditorViewController> ____beatAvatarEditorViewController;
 
   /// @brief Field _editAvatarColorView, offset: 0x40, size: 0x8, def value: None
-  ::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController* ____editAvatarColorView;
+  ::UnityW<::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarColorViewController> ____editAvatarColorView;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

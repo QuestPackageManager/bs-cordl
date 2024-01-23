@@ -27,17 +27,17 @@ MARK_REF_PTR_T(::System::WeakReference);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3336))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2642))
 // CS Name: ::System::WeakReference*
 class CORDL_TYPE WeakReference : public ::System::Object {
 public:
   // Declarations
   /// @brief Field isLongReference, offset 0x10, size 0x1
-  __declspec(property(get = __get_isLongReference, put = __set_isLongReference)) bool isLongReference;
+  __declspec(property(get = __cordl_internal_get_isLongReference, put = __cordl_internal_set_isLongReference)) bool isLongReference;
 
   /// @brief Field gcHandle, offset 0x18, size 0x8
-  __declspec(property(get = __get_gcHandle, put = __set_gcHandle))::System::Runtime::InteropServices::GCHandle gcHandle;
+  __declspec(property(get = __cordl_internal_get_gcHandle, put = __cordl_internal_set_gcHandle))::System::Runtime::InteropServices::GCHandle gcHandle;
 
   __declspec(property(get = get_IsAlive)) bool IsAlive;
 
@@ -51,17 +51,17 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr bool& __get_isLongReference();
+  constexpr bool& __cordl_internal_get_isLongReference();
 
-  constexpr bool const& __get_isLongReference() const;
+  constexpr bool const& __cordl_internal_get_isLongReference() const;
 
-  constexpr void __set_isLongReference(bool value);
+  constexpr void __cordl_internal_set_isLongReference(bool value);
 
-  constexpr ::System::Runtime::InteropServices::GCHandle& __get_gcHandle();
+  constexpr ::System::Runtime::InteropServices::GCHandle& __cordl_internal_get_gcHandle();
 
-  constexpr ::System::Runtime::InteropServices::GCHandle const& __get_gcHandle() const;
+  constexpr ::System::Runtime::InteropServices::GCHandle const& __cordl_internal_get_gcHandle() const;
 
-  constexpr void __set_gcHandle(::System::Runtime::InteropServices::GCHandle value);
+  constexpr void __cordl_internal_set_gcHandle(::System::Runtime::InteropServices::GCHandle value);
 
   /// @brief Method AllocateHandle, addr 0x2609100, size 0x28, virtual false, abstract: false, final false
   inline void AllocateHandle(::System::Object* target);

@@ -33,7 +33,7 @@ MARK_VAL_T(::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__Type
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11930))
 // CS Name: ::DefaultSerializationBinder::TypeNameKey
 struct CORDL_TYPE __DefaultSerializationBinder__TypeNameKey {
@@ -81,7 +81,7 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::__DefaultSerialization
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3206))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3206))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11931))
 // CS Name: ::Newtonsoft.Json.Serialization::DefaultSerializationBinder*
 class CORDL_TYPE DefaultSerializationBinder : public ::System::Runtime::Serialization::SerializationBinder {
@@ -90,19 +90,20 @@ public:
   using TypeNameKey = ::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey;
 
   /// @brief Field _typeCache, offset 0x10, size 0x8
-  __declspec(
-      property(get = __get__typeCache,
-               put = __set__typeCache))::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey, ::System::Type*>* _typeCache;
+  __declspec(property(get = __cordl_internal_get__typeCache,
+                      put = __cordl_internal_set__typeCache))::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey,
+                                                                                                              ::System::Type*>* _typeCache;
 
   /// @brief Field Instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Newtonsoft::Json::Serialization::DefaultSerializationBinder* Instance;
 
-  constexpr ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey, ::System::Type*>*& __get__typeCache();
+  constexpr ::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey, ::System::Type*>*& __cordl_internal_get__typeCache();
 
   constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey, ::System::Type*>*> const&
-  __get__typeCache() const;
+  __cordl_internal_get__typeCache() const;
 
-  constexpr void __set__typeCache(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey, ::System::Type*>* value);
+  constexpr void
+  __cordl_internal_set__typeCache(::Newtonsoft::Json::Utilities::ThreadSafeStore_2<::Newtonsoft::Json::Serialization::__DefaultSerializationBinder__TypeNameKey, ::System::Type*>* value);
 
   static inline void setStaticF_Instance(::Newtonsoft::Json::Serialization::DefaultSerializationBinder* value);
 

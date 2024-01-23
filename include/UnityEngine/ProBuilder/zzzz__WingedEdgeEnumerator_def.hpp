@@ -29,17 +29,17 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::WingedEdgeEnumerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12223))
 // CS Name: ::UnityEngine.ProBuilder::WingedEdgeEnumerator*
 class CORDL_TYPE WingedEdgeEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Start, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Start, put = __set_m_Start))::UnityEngine::ProBuilder::WingedEdge* m_Start;
+  __declspec(property(get = __cordl_internal_get_m_Start, put = __cordl_internal_set_m_Start))::UnityEngine::ProBuilder::WingedEdge* m_Start;
 
   /// @brief Field m_Current, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Current, put = __set_m_Current))::UnityEngine::ProBuilder::WingedEdge* m_Current;
+  __declspec(property(get = __cordl_internal_get_m_Current, put = __cordl_internal_set_m_Current))::UnityEngine::ProBuilder::WingedEdge* m_Current;
 
   __declspec(property(get = get_Current))::UnityEngine::ProBuilder::WingedEdge* Current;
 
@@ -63,17 +63,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::UnityEngine::ProBuilder::WingedEdge*& __get_m_Start();
+  constexpr ::UnityEngine::ProBuilder::WingedEdge*& __cordl_internal_get_m_Start();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::WingedEdge*> const& __get_m_Start() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::WingedEdge*> const& __cordl_internal_get_m_Start() const;
 
-  constexpr void __set_m_Start(::UnityEngine::ProBuilder::WingedEdge* value);
+  constexpr void __cordl_internal_set_m_Start(::UnityEngine::ProBuilder::WingedEdge* value);
 
-  constexpr ::UnityEngine::ProBuilder::WingedEdge*& __get_m_Current();
+  constexpr ::UnityEngine::ProBuilder::WingedEdge*& __cordl_internal_get_m_Current();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::WingedEdge*> const& __get_m_Current() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::WingedEdge*> const& __cordl_internal_get_m_Current() const;
 
-  constexpr void __set_m_Current(::UnityEngine::ProBuilder::WingedEdge* value);
+  constexpr void __cordl_internal_set_m_Current(::UnityEngine::ProBuilder::WingedEdge* value);
 
   static inline ::UnityEngine::ProBuilder::WingedEdgeEnumerator* New_ctor(::UnityEngine::ProBuilder::WingedEdge* start);
 

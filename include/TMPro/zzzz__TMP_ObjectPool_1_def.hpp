@@ -23,23 +23,23 @@ namespace TMPro {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12406))
 // CS Name: ::TMPro::TMP_ObjectPool`1<T>*
 class CORDL_TYPE TMP_ObjectPool_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Stack, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Stack, put = __set_m_Stack))::System::Collections::Generic::Stack_1<T>* m_Stack;
+  __declspec(property(get = __cordl_internal_get_m_Stack, put = __cordl_internal_set_m_Stack))::System::Collections::Generic::Stack_1<T>* m_Stack;
 
   /// @brief Field m_ActionOnGet, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_ActionOnGet, put = __set_m_ActionOnGet))::UnityEngine::Events::UnityAction_1<T>* m_ActionOnGet;
+  __declspec(property(get = __cordl_internal_get_m_ActionOnGet, put = __cordl_internal_set_m_ActionOnGet))::UnityEngine::Events::UnityAction_1<T>* m_ActionOnGet;
 
   /// @brief Field m_ActionOnRelease, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_ActionOnRelease, put = __set_m_ActionOnRelease))::UnityEngine::Events::UnityAction_1<T>* m_ActionOnRelease;
+  __declspec(property(get = __cordl_internal_get_m_ActionOnRelease, put = __cordl_internal_set_m_ActionOnRelease))::UnityEngine::Events::UnityAction_1<T>* m_ActionOnRelease;
 
   /// @brief Field <countAll>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__countAll_k__BackingField, put = __set__countAll_k__BackingField)) int32_t _countAll_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__countAll_k__BackingField, put = __cordl_internal_set__countAll_k__BackingField)) int32_t _countAll_k__BackingField;
 
   __declspec(property(get = get_countAll, put = set_countAll)) int32_t countAll;
 
@@ -47,29 +47,29 @@ public:
 
   __declspec(property(get = get_countInactive)) int32_t countInactive;
 
-  constexpr ::System::Collections::Generic::Stack_1<T>*& __get_m_Stack();
+  constexpr ::System::Collections::Generic::Stack_1<T>*& __cordl_internal_get_m_Stack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<T>*> const& __get_m_Stack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<T>*> const& __cordl_internal_get_m_Stack() const;
 
-  constexpr void __set_m_Stack(::System::Collections::Generic::Stack_1<T>* value);
+  constexpr void __cordl_internal_set_m_Stack(::System::Collections::Generic::Stack_1<T>* value);
 
-  constexpr ::UnityEngine::Events::UnityAction_1<T>*& __get_m_ActionOnGet();
+  constexpr ::UnityEngine::Events::UnityAction_1<T>*& __cordl_internal_get_m_ActionOnGet();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction_1<T>*> const& __get_m_ActionOnGet() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction_1<T>*> const& __cordl_internal_get_m_ActionOnGet() const;
 
-  constexpr void __set_m_ActionOnGet(::UnityEngine::Events::UnityAction_1<T>* value);
+  constexpr void __cordl_internal_set_m_ActionOnGet(::UnityEngine::Events::UnityAction_1<T>* value);
 
-  constexpr ::UnityEngine::Events::UnityAction_1<T>*& __get_m_ActionOnRelease();
+  constexpr ::UnityEngine::Events::UnityAction_1<T>*& __cordl_internal_get_m_ActionOnRelease();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction_1<T>*> const& __get_m_ActionOnRelease() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction_1<T>*> const& __cordl_internal_get_m_ActionOnRelease() const;
 
-  constexpr void __set_m_ActionOnRelease(::UnityEngine::Events::UnityAction_1<T>* value);
+  constexpr void __cordl_internal_set_m_ActionOnRelease(::UnityEngine::Events::UnityAction_1<T>* value);
 
-  constexpr int32_t& __get__countAll_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__countAll_k__BackingField();
 
-  constexpr int32_t const& __get__countAll_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__countAll_k__BackingField() const;
 
-  constexpr void __set__countAll_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__countAll_k__BackingField(int32_t value);
 
   /// @brief Method get_countAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_countAll();

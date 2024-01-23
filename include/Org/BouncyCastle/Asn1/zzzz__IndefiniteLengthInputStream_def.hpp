@@ -19,29 +19,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(500))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(500))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(523))
 // CS Name: ::Org.BouncyCastle.Asn1::IndefiniteLengthInputStream*
 class CORDL_TYPE IndefiniteLengthInputStream : public ::Org::BouncyCastle::Asn1::LimitedInputStream {
 public:
   // Declarations
   /// @brief Field _lookAhead, offset 0x3c, size 0x4
-  __declspec(property(get = __get__lookAhead, put = __set__lookAhead)) int32_t _lookAhead;
+  __declspec(property(get = __cordl_internal_get__lookAhead, put = __cordl_internal_set__lookAhead)) int32_t _lookAhead;
 
   /// @brief Field _eofOn00, offset 0x40, size 0x1
-  __declspec(property(get = __get__eofOn00, put = __set__eofOn00)) bool _eofOn00;
+  __declspec(property(get = __cordl_internal_get__eofOn00, put = __cordl_internal_set__eofOn00)) bool _eofOn00;
 
-  constexpr int32_t& __get__lookAhead();
+  constexpr int32_t& __cordl_internal_get__lookAhead();
 
-  constexpr int32_t const& __get__lookAhead() const;
+  constexpr int32_t const& __cordl_internal_get__lookAhead() const;
 
-  constexpr void __set__lookAhead(int32_t value);
+  constexpr void __cordl_internal_set__lookAhead(int32_t value);
 
-  constexpr bool& __get__eofOn00();
+  constexpr bool& __cordl_internal_get__eofOn00();
 
-  constexpr bool const& __get__eofOn00() const;
+  constexpr bool const& __cordl_internal_get__eofOn00() const;
 
-  constexpr void __set__eofOn00(bool value);
+  constexpr void __cordl_internal_set__eofOn00(bool value);
 
   static inline ::Org::BouncyCastle::Asn1::IndefiniteLengthInputStream* New_ctor(::System::IO::Stream* inStream, int32_t limit);
 

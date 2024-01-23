@@ -20,14 +20,14 @@ MARK_REF_PTR_T(::GlobalNamespace::GameState);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12764))
 // CS Name: ::GameState*
 class CORDL_TYPE GameState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field fsm, offset 0x10, size 0x8
-  __declspec(property(get = __get_fsm, put = __set_fsm))::GlobalNamespace::GameplayServerFiniteStateMachine* fsm;
+  __declspec(property(get = __cordl_internal_get_fsm, put = __cordl_internal_set_fsm))::GlobalNamespace::GameplayServerFiniteStateMachine* fsm;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -35,11 +35,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::GlobalNamespace::GameplayServerFiniteStateMachine*& __get_fsm();
+  constexpr ::GlobalNamespace::GameplayServerFiniteStateMachine*& __cordl_internal_get_fsm();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayServerFiniteStateMachine*> const& __get_fsm() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayServerFiniteStateMachine*> const& __cordl_internal_get_fsm() const;
 
-  constexpr void __set_fsm(::GlobalNamespace::GameplayServerFiniteStateMachine* value);
+  constexpr void __cordl_internal_set_fsm(::GlobalNamespace::GameplayServerFiniteStateMachine* value);
 
   static inline ::GlobalNamespace::GameState* New_ctor(::GlobalNamespace::GameplayServerFiniteStateMachine* fsm);
 

@@ -16,7 +16,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename K, typename V>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3829))
 // CS Name: ::System.Collections.Generic::IDictionaryDebugView`2<K,V>*
 class CORDL_TYPE IDictionaryDebugView_2 : public ::System::Object {

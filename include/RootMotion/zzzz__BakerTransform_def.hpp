@@ -34,128 +34,128 @@ MARK_REF_PTR_T(::RootMotion::BakerTransform);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12478))
 // CS Name: ::RootMotion::BakerTransform*
 class CORDL_TYPE BakerTransform : public ::System::Object {
 public:
   // Declarations
   /// @brief Field transform, offset 0x10, size 0x8
-  __declspec(property(get = __get_transform, put = __set_transform))::UnityEngine::Transform* transform;
+  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
 
   /// @brief Field posX, offset 0x18, size 0x8
-  __declspec(property(get = __get_posX, put = __set_posX))::UnityEngine::AnimationCurve* posX;
+  __declspec(property(get = __cordl_internal_get_posX, put = __cordl_internal_set_posX))::UnityEngine::AnimationCurve* posX;
 
   /// @brief Field posY, offset 0x20, size 0x8
-  __declspec(property(get = __get_posY, put = __set_posY))::UnityEngine::AnimationCurve* posY;
+  __declspec(property(get = __cordl_internal_get_posY, put = __cordl_internal_set_posY))::UnityEngine::AnimationCurve* posY;
 
   /// @brief Field posZ, offset 0x28, size 0x8
-  __declspec(property(get = __get_posZ, put = __set_posZ))::UnityEngine::AnimationCurve* posZ;
+  __declspec(property(get = __cordl_internal_get_posZ, put = __cordl_internal_set_posZ))::UnityEngine::AnimationCurve* posZ;
 
   /// @brief Field rotX, offset 0x30, size 0x8
-  __declspec(property(get = __get_rotX, put = __set_rotX))::UnityEngine::AnimationCurve* rotX;
+  __declspec(property(get = __cordl_internal_get_rotX, put = __cordl_internal_set_rotX))::UnityEngine::AnimationCurve* rotX;
 
   /// @brief Field rotY, offset 0x38, size 0x8
-  __declspec(property(get = __get_rotY, put = __set_rotY))::UnityEngine::AnimationCurve* rotY;
+  __declspec(property(get = __cordl_internal_get_rotY, put = __cordl_internal_set_rotY))::UnityEngine::AnimationCurve* rotY;
 
   /// @brief Field rotZ, offset 0x40, size 0x8
-  __declspec(property(get = __get_rotZ, put = __set_rotZ))::UnityEngine::AnimationCurve* rotZ;
+  __declspec(property(get = __cordl_internal_get_rotZ, put = __cordl_internal_set_rotZ))::UnityEngine::AnimationCurve* rotZ;
 
   /// @brief Field rotW, offset 0x48, size 0x8
-  __declspec(property(get = __get_rotW, put = __set_rotW))::UnityEngine::AnimationCurve* rotW;
+  __declspec(property(get = __cordl_internal_get_rotW, put = __cordl_internal_set_rotW))::UnityEngine::AnimationCurve* rotW;
 
   /// @brief Field relativePath, offset 0x50, size 0x8
-  __declspec(property(get = __get_relativePath, put = __set_relativePath))::StringW relativePath;
+  __declspec(property(get = __cordl_internal_get_relativePath, put = __cordl_internal_set_relativePath))::StringW relativePath;
 
   /// @brief Field recordPosition, offset 0x58, size 0x1
-  __declspec(property(get = __get_recordPosition, put = __set_recordPosition)) bool recordPosition;
+  __declspec(property(get = __cordl_internal_get_recordPosition, put = __cordl_internal_set_recordPosition)) bool recordPosition;
 
   /// @brief Field relativePosition, offset 0x5c, size 0xc
-  __declspec(property(get = __get_relativePosition, put = __set_relativePosition))::UnityEngine::Vector3 relativePosition;
+  __declspec(property(get = __cordl_internal_get_relativePosition, put = __cordl_internal_set_relativePosition))::UnityEngine::Vector3 relativePosition;
 
   /// @brief Field isRootNode, offset 0x68, size 0x1
-  __declspec(property(get = __get_isRootNode, put = __set_isRootNode)) bool isRootNode;
+  __declspec(property(get = __cordl_internal_get_isRootNode, put = __cordl_internal_set_isRootNode)) bool isRootNode;
 
   /// @brief Field relativeRotation, offset 0x6c, size 0x10
-  __declspec(property(get = __get_relativeRotation, put = __set_relativeRotation))::UnityEngine::Quaternion relativeRotation;
+  __declspec(property(get = __cordl_internal_get_relativeRotation, put = __cordl_internal_set_relativeRotation))::UnityEngine::Quaternion relativeRotation;
 
-  constexpr ::UnityEngine::Transform*& __get_transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_transform() const;
 
-  constexpr void __set_transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_posX();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_posX();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_posX() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_posX() const;
 
-  constexpr void __set_posX(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_posX(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_posY();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_posY();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_posY() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_posY() const;
 
-  constexpr void __set_posY(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_posY(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_posZ();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_posZ();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_posZ() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_posZ() const;
 
-  constexpr void __set_posZ(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_posZ(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_rotX();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_rotX();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_rotX() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_rotX() const;
 
-  constexpr void __set_rotX(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_rotX(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_rotY();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_rotY();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_rotY() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_rotY() const;
 
-  constexpr void __set_rotY(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_rotY(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_rotZ();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_rotZ();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_rotZ() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_rotZ() const;
 
-  constexpr void __set_rotZ(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_rotZ(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_rotW();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_rotW();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_rotW() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_rotW() const;
 
-  constexpr void __set_rotW(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_rotW(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::StringW& __get_relativePath();
+  constexpr ::StringW& __cordl_internal_get_relativePath();
 
-  constexpr ::StringW const& __get_relativePath() const;
+  constexpr ::StringW const& __cordl_internal_get_relativePath() const;
 
-  constexpr void __set_relativePath(::StringW value);
+  constexpr void __cordl_internal_set_relativePath(::StringW value);
 
-  constexpr bool& __get_recordPosition();
+  constexpr bool& __cordl_internal_get_recordPosition();
 
-  constexpr bool const& __get_recordPosition() const;
+  constexpr bool const& __cordl_internal_get_recordPosition() const;
 
-  constexpr void __set_recordPosition(bool value);
+  constexpr void __cordl_internal_set_recordPosition(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get_relativePosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_relativePosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_relativePosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_relativePosition() const;
 
-  constexpr void __set_relativePosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_relativePosition(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get_isRootNode();
+  constexpr bool& __cordl_internal_get_isRootNode();
 
-  constexpr bool const& __get_isRootNode() const;
+  constexpr bool const& __cordl_internal_get_isRootNode() const;
 
-  constexpr void __set_isRootNode(bool value);
+  constexpr void __cordl_internal_set_isRootNode(bool value);
 
-  constexpr ::UnityEngine::Quaternion& __get_relativeRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_relativeRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_relativeRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_relativeRotation() const;
 
-  constexpr void __set_relativeRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_relativeRotation(::UnityEngine::Quaternion value);
 
   static inline ::RootMotion::BakerTransform* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::Transform* root, bool recordPosition, bool isRootNode);
 
@@ -198,7 +198,7 @@ protected:
 
 public:
   /// @brief Field transform, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___transform;
+  ::UnityW<::UnityEngine::Transform> ___transform;
 
   /// @brief Field posX, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ___posX;

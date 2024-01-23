@@ -22,60 +22,60 @@ MARK_REF_PTR_T(::System::Xml::CharEntityEncoderFallback);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2844))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2844))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11411))
 // CS Name: ::System.Xml::CharEntityEncoderFallback*
 class CORDL_TYPE CharEntityEncoderFallback : public ::System::Text::EncoderFallback {
 public:
   // Declarations
   /// @brief Field fallbackBuffer, offset 0x10, size 0x8
-  __declspec(property(get = __get_fallbackBuffer, put = __set_fallbackBuffer))::System::Xml::CharEntityEncoderFallbackBuffer* fallbackBuffer;
+  __declspec(property(get = __cordl_internal_get_fallbackBuffer, put = __cordl_internal_set_fallbackBuffer))::System::Xml::CharEntityEncoderFallbackBuffer* fallbackBuffer;
 
   /// @brief Field textContentMarks, offset 0x18, size 0x8
-  __declspec(property(get = __get_textContentMarks, put = __set_textContentMarks))::ArrayW<int32_t, ::Array<int32_t>*> textContentMarks;
+  __declspec(property(get = __cordl_internal_get_textContentMarks, put = __cordl_internal_set_textContentMarks))::ArrayW<int32_t, ::Array<int32_t>*> textContentMarks;
 
   /// @brief Field endMarkPos, offset 0x20, size 0x4
-  __declspec(property(get = __get_endMarkPos, put = __set_endMarkPos)) int32_t endMarkPos;
+  __declspec(property(get = __cordl_internal_get_endMarkPos, put = __cordl_internal_set_endMarkPos)) int32_t endMarkPos;
 
   /// @brief Field curMarkPos, offset 0x24, size 0x4
-  __declspec(property(get = __get_curMarkPos, put = __set_curMarkPos)) int32_t curMarkPos;
+  __declspec(property(get = __cordl_internal_get_curMarkPos, put = __cordl_internal_set_curMarkPos)) int32_t curMarkPos;
 
   /// @brief Field startOffset, offset 0x28, size 0x4
-  __declspec(property(get = __get_startOffset, put = __set_startOffset)) int32_t startOffset;
+  __declspec(property(get = __cordl_internal_get_startOffset, put = __cordl_internal_set_startOffset)) int32_t startOffset;
 
   __declspec(property(get = get_MaxCharCount)) int32_t MaxCharCount;
 
   __declspec(property(put = set_StartOffset)) int32_t StartOffset;
 
-  constexpr ::System::Xml::CharEntityEncoderFallbackBuffer*& __get_fallbackBuffer();
+  constexpr ::System::Xml::CharEntityEncoderFallbackBuffer*& __cordl_internal_get_fallbackBuffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::CharEntityEncoderFallbackBuffer*> const& __get_fallbackBuffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::CharEntityEncoderFallbackBuffer*> const& __cordl_internal_get_fallbackBuffer() const;
 
-  constexpr void __set_fallbackBuffer(::System::Xml::CharEntityEncoderFallbackBuffer* value);
+  constexpr void __cordl_internal_set_fallbackBuffer(::System::Xml::CharEntityEncoderFallbackBuffer* value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_textContentMarks();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_textContentMarks();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_textContentMarks() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_textContentMarks() const;
 
-  constexpr void __set_textContentMarks(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_textContentMarks(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_endMarkPos();
+  constexpr int32_t& __cordl_internal_get_endMarkPos();
 
-  constexpr int32_t const& __get_endMarkPos() const;
+  constexpr int32_t const& __cordl_internal_get_endMarkPos() const;
 
-  constexpr void __set_endMarkPos(int32_t value);
+  constexpr void __cordl_internal_set_endMarkPos(int32_t value);
 
-  constexpr int32_t& __get_curMarkPos();
+  constexpr int32_t& __cordl_internal_get_curMarkPos();
 
-  constexpr int32_t const& __get_curMarkPos() const;
+  constexpr int32_t const& __cordl_internal_get_curMarkPos() const;
 
-  constexpr void __set_curMarkPos(int32_t value);
+  constexpr void __cordl_internal_set_curMarkPos(int32_t value);
 
-  constexpr int32_t& __get_startOffset();
+  constexpr int32_t& __cordl_internal_get_startOffset();
 
-  constexpr int32_t const& __get_startOffset() const;
+  constexpr int32_t const& __cordl_internal_get_startOffset() const;
 
-  constexpr void __set_startOffset(int32_t value);
+  constexpr void __cordl_internal_set_startOffset(int32_t value);
 
   static inline ::System::Xml::CharEntityEncoderFallback* New_ctor();
 

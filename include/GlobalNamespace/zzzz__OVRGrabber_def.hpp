@@ -44,195 +44,197 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRGrabber);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 193, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8111)) CS Name: ::OVRGrabber*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10252))] Self: TypeDefinitionIndex(TypeDefinitionIndex(8111)) CS Name: ::OVRGrabber*
 class CORDL_TYPE OVRGrabber : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field grabBegin, offset 0x18, size 0x4
-  __declspec(property(get = __get_grabBegin, put = __set_grabBegin)) float_t grabBegin;
+  __declspec(property(get = __cordl_internal_get_grabBegin, put = __cordl_internal_set_grabBegin)) float_t grabBegin;
 
   /// @brief Field grabEnd, offset 0x1c, size 0x4
-  __declspec(property(get = __get_grabEnd, put = __set_grabEnd)) float_t grabEnd;
+  __declspec(property(get = __cordl_internal_get_grabEnd, put = __cordl_internal_set_grabEnd)) float_t grabEnd;
 
   /// @brief Field m_parentHeldObject, offset 0x20, size 0x1
-  __declspec(property(get = __get_m_parentHeldObject, put = __set_m_parentHeldObject)) bool m_parentHeldObject;
+  __declspec(property(get = __cordl_internal_get_m_parentHeldObject, put = __cordl_internal_set_m_parentHeldObject)) bool m_parentHeldObject;
 
   /// @brief Field m_moveHandPosition, offset 0x21, size 0x1
-  __declspec(property(get = __get_m_moveHandPosition, put = __set_m_moveHandPosition)) bool m_moveHandPosition;
+  __declspec(property(get = __cordl_internal_get_m_moveHandPosition, put = __cordl_internal_set_m_moveHandPosition)) bool m_moveHandPosition;
 
   /// @brief Field m_gripTransform, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_gripTransform, put = __set_m_gripTransform))::UnityEngine::Transform* m_gripTransform;
+  __declspec(property(get = __cordl_internal_get_m_gripTransform, put = __cordl_internal_set_m_gripTransform))::UnityW<::UnityEngine::Transform> m_gripTransform;
 
   /// @brief Field m_grabVolumes, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_grabVolumes, put = __set_m_grabVolumes))::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> m_grabVolumes;
+  __declspec(property(get = __cordl_internal_get_m_grabVolumes,
+                      put = __cordl_internal_set_m_grabVolumes))::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*> m_grabVolumes;
 
   /// @brief Field m_controller, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_controller, put = __set_m_controller))::GlobalNamespace::__OVRInput__Controller m_controller;
+  __declspec(property(get = __cordl_internal_get_m_controller, put = __cordl_internal_set_m_controller))::GlobalNamespace::__OVRInput__Controller m_controller;
 
   /// @brief Field m_parentTransform, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_parentTransform, put = __set_m_parentTransform))::UnityEngine::Transform* m_parentTransform;
+  __declspec(property(get = __cordl_internal_get_m_parentTransform, put = __cordl_internal_set_m_parentTransform))::UnityW<::UnityEngine::Transform> m_parentTransform;
 
   /// @brief Field m_player, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_player, put = __set_m_player))::UnityEngine::GameObject* m_player;
+  __declspec(property(get = __cordl_internal_get_m_player, put = __cordl_internal_set_m_player))::UnityW<::UnityEngine::GameObject> m_player;
 
   /// @brief Field m_grabVolumeEnabled, offset 0x50, size 0x1
-  __declspec(property(get = __get_m_grabVolumeEnabled, put = __set_m_grabVolumeEnabled)) bool m_grabVolumeEnabled;
+  __declspec(property(get = __cordl_internal_get_m_grabVolumeEnabled, put = __cordl_internal_set_m_grabVolumeEnabled)) bool m_grabVolumeEnabled;
 
   /// @brief Field m_lastPos, offset 0x54, size 0xc
-  __declspec(property(get = __get_m_lastPos, put = __set_m_lastPos))::UnityEngine::Vector3 m_lastPos;
+  __declspec(property(get = __cordl_internal_get_m_lastPos, put = __cordl_internal_set_m_lastPos))::UnityEngine::Vector3 m_lastPos;
 
   /// @brief Field m_lastRot, offset 0x60, size 0x10
-  __declspec(property(get = __get_m_lastRot, put = __set_m_lastRot))::UnityEngine::Quaternion m_lastRot;
+  __declspec(property(get = __cordl_internal_get_m_lastRot, put = __cordl_internal_set_m_lastRot))::UnityEngine::Quaternion m_lastRot;
 
   /// @brief Field m_anchorOffsetRotation, offset 0x70, size 0x10
-  __declspec(property(get = __get_m_anchorOffsetRotation, put = __set_m_anchorOffsetRotation))::UnityEngine::Quaternion m_anchorOffsetRotation;
+  __declspec(property(get = __cordl_internal_get_m_anchorOffsetRotation, put = __cordl_internal_set_m_anchorOffsetRotation))::UnityEngine::Quaternion m_anchorOffsetRotation;
 
   /// @brief Field m_anchorOffsetPosition, offset 0x80, size 0xc
-  __declspec(property(get = __get_m_anchorOffsetPosition, put = __set_m_anchorOffsetPosition))::UnityEngine::Vector3 m_anchorOffsetPosition;
+  __declspec(property(get = __cordl_internal_get_m_anchorOffsetPosition, put = __cordl_internal_set_m_anchorOffsetPosition))::UnityEngine::Vector3 m_anchorOffsetPosition;
 
   /// @brief Field m_prevFlex, offset 0x8c, size 0x4
-  __declspec(property(get = __get_m_prevFlex, put = __set_m_prevFlex)) float_t m_prevFlex;
+  __declspec(property(get = __cordl_internal_get_m_prevFlex, put = __cordl_internal_set_m_prevFlex)) float_t m_prevFlex;
 
   /// @brief Field m_grabbedObj, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_grabbedObj, put = __set_m_grabbedObj))::GlobalNamespace::OVRGrabbable* m_grabbedObj;
+  __declspec(property(get = __cordl_internal_get_m_grabbedObj, put = __cordl_internal_set_m_grabbedObj))::UnityW<::GlobalNamespace::OVRGrabbable> m_grabbedObj;
 
   /// @brief Field m_grabbedObjectPosOff, offset 0x98, size 0xc
-  __declspec(property(get = __get_m_grabbedObjectPosOff, put = __set_m_grabbedObjectPosOff))::UnityEngine::Vector3 m_grabbedObjectPosOff;
+  __declspec(property(get = __cordl_internal_get_m_grabbedObjectPosOff, put = __cordl_internal_set_m_grabbedObjectPosOff))::UnityEngine::Vector3 m_grabbedObjectPosOff;
 
   /// @brief Field m_grabbedObjectRotOff, offset 0xa4, size 0x10
-  __declspec(property(get = __get_m_grabbedObjectRotOff, put = __set_m_grabbedObjectRotOff))::UnityEngine::Quaternion m_grabbedObjectRotOff;
+  __declspec(property(get = __cordl_internal_get_m_grabbedObjectRotOff, put = __cordl_internal_set_m_grabbedObjectRotOff))::UnityEngine::Quaternion m_grabbedObjectRotOff;
 
   /// @brief Field m_grabCandidates, offset 0xb8, size 0x8
-  __declspec(property(get = __get_m_grabCandidates, put = __set_m_grabCandidates))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGrabbable*, int32_t>* m_grabCandidates;
+  __declspec(property(get = __cordl_internal_get_m_grabCandidates,
+                      put = __cordl_internal_set_m_grabCandidates))::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::OVRGrabbable>, int32_t>* m_grabCandidates;
 
   /// @brief Field m_operatingWithoutOVRCameraRig, offset 0xc0, size 0x1
-  __declspec(property(get = __get_m_operatingWithoutOVRCameraRig, put = __set_m_operatingWithoutOVRCameraRig)) bool m_operatingWithoutOVRCameraRig;
+  __declspec(property(get = __cordl_internal_get_m_operatingWithoutOVRCameraRig, put = __cordl_internal_set_m_operatingWithoutOVRCameraRig)) bool m_operatingWithoutOVRCameraRig;
 
-  __declspec(property(get = get_grabbedObject))::GlobalNamespace::OVRGrabbable* grabbedObject;
+  __declspec(property(get = get_grabbedObject))::UnityW<::GlobalNamespace::OVRGrabbable> grabbedObject;
 
-  constexpr float_t& __get_grabBegin();
+  constexpr float_t& __cordl_internal_get_grabBegin();
 
-  constexpr float_t const& __get_grabBegin() const;
+  constexpr float_t const& __cordl_internal_get_grabBegin() const;
 
-  constexpr void __set_grabBegin(float_t value);
+  constexpr void __cordl_internal_set_grabBegin(float_t value);
 
-  constexpr float_t& __get_grabEnd();
+  constexpr float_t& __cordl_internal_get_grabEnd();
 
-  constexpr float_t const& __get_grabEnd() const;
+  constexpr float_t const& __cordl_internal_get_grabEnd() const;
 
-  constexpr void __set_grabEnd(float_t value);
+  constexpr void __cordl_internal_set_grabEnd(float_t value);
 
-  constexpr bool& __get_m_parentHeldObject();
+  constexpr bool& __cordl_internal_get_m_parentHeldObject();
 
-  constexpr bool const& __get_m_parentHeldObject() const;
+  constexpr bool const& __cordl_internal_get_m_parentHeldObject() const;
 
-  constexpr void __set_m_parentHeldObject(bool value);
+  constexpr void __cordl_internal_set_m_parentHeldObject(bool value);
 
-  constexpr bool& __get_m_moveHandPosition();
+  constexpr bool& __cordl_internal_get_m_moveHandPosition();
 
-  constexpr bool const& __get_m_moveHandPosition() const;
+  constexpr bool const& __cordl_internal_get_m_moveHandPosition() const;
 
-  constexpr void __set_m_moveHandPosition(bool value);
+  constexpr void __cordl_internal_set_m_moveHandPosition(bool value);
 
-  constexpr ::UnityEngine::Transform*& __get_m_gripTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_m_gripTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_m_gripTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_m_gripTransform() const;
 
-  constexpr void __set_m_gripTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_m_gripTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*>& __get_m_grabVolumes();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*>& __cordl_internal_get_m_grabVolumes();
 
-  constexpr ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> const& __get_m_grabVolumes() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*> const& __cordl_internal_get_m_grabVolumes() const;
 
-  constexpr void __set_m_grabVolumes(::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> value);
+  constexpr void __cordl_internal_set_m_grabVolumes(::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*> value);
 
-  constexpr ::GlobalNamespace::__OVRInput__Controller& __get_m_controller();
+  constexpr ::GlobalNamespace::__OVRInput__Controller& __cordl_internal_get_m_controller();
 
-  constexpr ::GlobalNamespace::__OVRInput__Controller const& __get_m_controller() const;
+  constexpr ::GlobalNamespace::__OVRInput__Controller const& __cordl_internal_get_m_controller() const;
 
-  constexpr void __set_m_controller(::GlobalNamespace::__OVRInput__Controller value);
+  constexpr void __cordl_internal_set_m_controller(::GlobalNamespace::__OVRInput__Controller value);
 
-  constexpr ::UnityEngine::Transform*& __get_m_parentTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_m_parentTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_m_parentTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_m_parentTransform() const;
 
-  constexpr void __set_m_parentTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_m_parentTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_player();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_player();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_player() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_player() const;
 
-  constexpr void __set_m_player(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_player(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr bool& __get_m_grabVolumeEnabled();
+  constexpr bool& __cordl_internal_get_m_grabVolumeEnabled();
 
-  constexpr bool const& __get_m_grabVolumeEnabled() const;
+  constexpr bool const& __cordl_internal_get_m_grabVolumeEnabled() const;
 
-  constexpr void __set_m_grabVolumeEnabled(bool value);
+  constexpr void __cordl_internal_set_m_grabVolumeEnabled(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_lastPos();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_lastPos();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_lastPos() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_lastPos() const;
 
-  constexpr void __set_m_lastPos(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_lastPos(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_m_lastRot();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_m_lastRot();
 
-  constexpr ::UnityEngine::Quaternion const& __get_m_lastRot() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_m_lastRot() const;
 
-  constexpr void __set_m_lastRot(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_m_lastRot(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Quaternion& __get_m_anchorOffsetRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_m_anchorOffsetRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_m_anchorOffsetRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_m_anchorOffsetRotation() const;
 
-  constexpr void __set_m_anchorOffsetRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_m_anchorOffsetRotation(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_anchorOffsetPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_anchorOffsetPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_anchorOffsetPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_anchorOffsetPosition() const;
 
-  constexpr void __set_m_anchorOffsetPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_anchorOffsetPosition(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get_m_prevFlex();
+  constexpr float_t& __cordl_internal_get_m_prevFlex();
 
-  constexpr float_t const& __get_m_prevFlex() const;
+  constexpr float_t const& __cordl_internal_get_m_prevFlex() const;
 
-  constexpr void __set_m_prevFlex(float_t value);
+  constexpr void __cordl_internal_set_m_prevFlex(float_t value);
 
-  constexpr ::GlobalNamespace::OVRGrabbable*& __get_m_grabbedObj();
+  constexpr ::UnityW<::GlobalNamespace::OVRGrabbable>& __cordl_internal_get_m_grabbedObj();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRGrabbable*> const& __get_m_grabbedObj() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRGrabbable> const& __cordl_internal_get_m_grabbedObj() const;
 
-  constexpr void __set_m_grabbedObj(::GlobalNamespace::OVRGrabbable* value);
+  constexpr void __cordl_internal_set_m_grabbedObj(::UnityW<::GlobalNamespace::OVRGrabbable> value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_grabbedObjectPosOff();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_grabbedObjectPosOff();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_grabbedObjectPosOff() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_grabbedObjectPosOff() const;
 
-  constexpr void __set_m_grabbedObjectPosOff(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_grabbedObjectPosOff(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_m_grabbedObjectRotOff();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_m_grabbedObjectRotOff();
 
-  constexpr ::UnityEngine::Quaternion const& __get_m_grabbedObjectRotOff() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_m_grabbedObjectRotOff() const;
 
-  constexpr void __set_m_grabbedObjectRotOff(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_m_grabbedObjectRotOff(::UnityEngine::Quaternion value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGrabbable*, int32_t>*& __get_m_grabCandidates();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::OVRGrabbable>, int32_t>*& __cordl_internal_get_m_grabCandidates();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGrabbable*, int32_t>*> const& __get_m_grabCandidates() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::OVRGrabbable>, int32_t>*> const& __cordl_internal_get_m_grabCandidates() const;
 
-  constexpr void __set_m_grabCandidates(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGrabbable*, int32_t>* value);
+  constexpr void __cordl_internal_set_m_grabCandidates(::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::OVRGrabbable>, int32_t>* value);
 
-  constexpr bool& __get_m_operatingWithoutOVRCameraRig();
+  constexpr bool& __cordl_internal_get_m_operatingWithoutOVRCameraRig();
 
-  constexpr bool const& __get_m_operatingWithoutOVRCameraRig() const;
+  constexpr bool const& __cordl_internal_get_m_operatingWithoutOVRCameraRig() const;
 
-  constexpr void __set_m_operatingWithoutOVRCameraRig(bool value);
+  constexpr void __cordl_internal_set_m_operatingWithoutOVRCameraRig(bool value);
 
   /// @brief Method get_grabbedObject, addr 0x27accf0, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::OVRGrabbable* get_grabbedObject();
+  inline ::UnityW<::GlobalNamespace::OVRGrabbable> get_grabbedObject();
 
   /// @brief Method ForceRelease, addr 0x27acc30, size 0xb0, virtual false, abstract: false, final false
   inline void ForceRelease(::GlobalNamespace::OVRGrabbable* grabbable);
@@ -317,19 +319,19 @@ public:
   bool ___m_moveHandPosition;
 
   /// @brief Field m_gripTransform, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___m_gripTransform;
+  ::UnityW<::UnityEngine::Transform> ___m_gripTransform;
 
   /// @brief Field m_grabVolumes, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Collider*, ::Array<::UnityEngine::Collider*>*> ___m_grabVolumes;
+  ::ArrayW<::UnityW<::UnityEngine::Collider>, ::Array<::UnityW<::UnityEngine::Collider>>*> ___m_grabVolumes;
 
   /// @brief Field m_controller, offset: 0x38, size: 0x4, def value: None
   ::GlobalNamespace::__OVRInput__Controller ___m_controller;
 
   /// @brief Field m_parentTransform, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___m_parentTransform;
+  ::UnityW<::UnityEngine::Transform> ___m_parentTransform;
 
   /// @brief Field m_player, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_player;
+  ::UnityW<::UnityEngine::GameObject> ___m_player;
 
   /// @brief Field m_grabVolumeEnabled, offset: 0x50, size: 0x1, def value: None
   bool ___m_grabVolumeEnabled;
@@ -350,7 +352,7 @@ public:
   float_t ___m_prevFlex;
 
   /// @brief Field m_grabbedObj, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::OVRGrabbable* ___m_grabbedObj;
+  ::UnityW<::GlobalNamespace::OVRGrabbable> ___m_grabbedObj;
 
   /// @brief Field m_grabbedObjectPosOff, offset: 0x98, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___m_grabbedObjectPosOff;
@@ -359,7 +361,7 @@ public:
   ::UnityEngine::Quaternion ___m_grabbedObjectRotOff;
 
   /// @brief Field m_grabCandidates, offset: 0xb8, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGrabbable*, int32_t>* ___m_grabCandidates;
+  ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::OVRGrabbable>, int32_t>* ___m_grabCandidates;
 
   /// @brief Field m_operatingWithoutOVRCameraRig, offset: 0xc0, size: 0x1, def value: None
   bool ___m_operatingWithoutOVRCameraRig;

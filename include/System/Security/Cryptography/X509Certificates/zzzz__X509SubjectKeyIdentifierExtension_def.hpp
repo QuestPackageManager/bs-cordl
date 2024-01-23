@@ -30,40 +30,40 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509SubjectKe
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9011)), TypeDefinitionIndex(TypeDefinitionIndex(8976))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8976)), TypeDefinitionIndex(TypeDefinitionIndex(9011))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9017))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509SubjectKeyIdentifierExtension*
 class CORDL_TYPE X509SubjectKeyIdentifierExtension : public ::System::Security::Cryptography::X509Certificates::X509Extension {
 public:
   // Declarations
   /// @brief Field _subjectKeyIdentifier, offset 0x28, size 0x8
-  __declspec(property(get = __get__subjectKeyIdentifier, put = __set__subjectKeyIdentifier))::ArrayW<uint8_t, ::Array<uint8_t>*> _subjectKeyIdentifier;
+  __declspec(property(get = __cordl_internal_get__subjectKeyIdentifier, put = __cordl_internal_set__subjectKeyIdentifier))::ArrayW<uint8_t, ::Array<uint8_t>*> _subjectKeyIdentifier;
 
   /// @brief Field _ski, offset 0x30, size 0x8
-  __declspec(property(get = __get__ski, put = __set__ski))::StringW _ski;
+  __declspec(property(get = __cordl_internal_get__ski, put = __cordl_internal_set__ski))::StringW _ski;
 
   /// @brief Field _status, offset 0x38, size 0x4
-  __declspec(property(get = __get__status, put = __set__status))::System::Security::Cryptography::AsnDecodeStatus _status;
+  __declspec(property(get = __cordl_internal_get__status, put = __cordl_internal_set__status))::System::Security::Cryptography::AsnDecodeStatus _status;
 
   __declspec(property(get = get_SubjectKeyIdentifier))::StringW SubjectKeyIdentifier;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__subjectKeyIdentifier();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__subjectKeyIdentifier();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__subjectKeyIdentifier() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__subjectKeyIdentifier() const;
 
-  constexpr void __set__subjectKeyIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__subjectKeyIdentifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::StringW& __get__ski();
+  constexpr ::StringW& __cordl_internal_get__ski();
 
-  constexpr ::StringW const& __get__ski() const;
+  constexpr ::StringW const& __cordl_internal_get__ski() const;
 
-  constexpr void __set__ski(::StringW value);
+  constexpr void __cordl_internal_set__ski(::StringW value);
 
-  constexpr ::System::Security::Cryptography::AsnDecodeStatus& __get__status();
+  constexpr ::System::Security::Cryptography::AsnDecodeStatus& __cordl_internal_get__status();
 
-  constexpr ::System::Security::Cryptography::AsnDecodeStatus const& __get__status() const;
+  constexpr ::System::Security::Cryptography::AsnDecodeStatus const& __cordl_internal_get__status() const;
 
-  constexpr void __set__status(::System::Security::Cryptography::AsnDecodeStatus value);
+  constexpr void __cordl_internal_set__status(::System::Security::Cryptography::AsnDecodeStatus value);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509SubjectKeyIdentifierExtension* New_ctor();
 

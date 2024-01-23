@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::FreeBSDNetworkInterfaceAPI);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9279))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9279))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9265))
 // CS Name: ::System.Net.NetworkInformation::FreeBSDNetworkInterfaceAPI*
 class CORDL_TYPE FreeBSDNetworkInterfaceAPI : public ::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI {

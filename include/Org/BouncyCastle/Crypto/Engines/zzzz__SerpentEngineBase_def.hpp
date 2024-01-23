@@ -23,29 +23,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::SerpentEngineBase);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(869))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::SerpentEngineBase*
 class CORDL_TYPE SerpentEngineBase : public ::System::Object {
 public:
   // Declarations
   /// @brief Field encrypting, offset 0x10, size 0x1
-  __declspec(property(get = __get_encrypting, put = __set_encrypting)) bool encrypting;
+  __declspec(property(get = __cordl_internal_get_encrypting, put = __cordl_internal_set_encrypting)) bool encrypting;
 
   /// @brief Field wKey, offset 0x18, size 0x8
-  __declspec(property(get = __get_wKey, put = __set_wKey))::ArrayW<int32_t, ::Array<int32_t>*> wKey;
+  __declspec(property(get = __cordl_internal_get_wKey, put = __cordl_internal_set_wKey))::ArrayW<int32_t, ::Array<int32_t>*> wKey;
 
   /// @brief Field X0, offset 0x20, size 0x4
-  __declspec(property(get = __get_X0, put = __set_X0)) int32_t X0;
+  __declspec(property(get = __cordl_internal_get_X0, put = __cordl_internal_set_X0)) int32_t X0;
 
   /// @brief Field X1, offset 0x24, size 0x4
-  __declspec(property(get = __get_X1, put = __set_X1)) int32_t X1;
+  __declspec(property(get = __cordl_internal_get_X1, put = __cordl_internal_set_X1)) int32_t X1;
 
   /// @brief Field X2, offset 0x28, size 0x4
-  __declspec(property(get = __get_X2, put = __set_X2)) int32_t X2;
+  __declspec(property(get = __cordl_internal_get_X2, put = __cordl_internal_set_X2)) int32_t X2;
 
   /// @brief Field X3, offset 0x2c, size 0x4
-  __declspec(property(get = __get_X3, put = __set_X3)) int32_t X3;
+  __declspec(property(get = __cordl_internal_get_X3, put = __cordl_internal_set_X3)) int32_t X3;
 
   /// @brief Field BlockSize, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_BlockSize, put = setStaticF_BlockSize)) int32_t BlockSize;
@@ -60,41 +60,41 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr bool& __get_encrypting();
+  constexpr bool& __cordl_internal_get_encrypting();
 
-  constexpr bool const& __get_encrypting() const;
+  constexpr bool const& __cordl_internal_get_encrypting() const;
 
-  constexpr void __set_encrypting(bool value);
+  constexpr void __cordl_internal_set_encrypting(bool value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_wKey();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_wKey();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_wKey() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_wKey() const;
 
-  constexpr void __set_wKey(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_wKey(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_X0();
+  constexpr int32_t& __cordl_internal_get_X0();
 
-  constexpr int32_t const& __get_X0() const;
+  constexpr int32_t const& __cordl_internal_get_X0() const;
 
-  constexpr void __set_X0(int32_t value);
+  constexpr void __cordl_internal_set_X0(int32_t value);
 
-  constexpr int32_t& __get_X1();
+  constexpr int32_t& __cordl_internal_get_X1();
 
-  constexpr int32_t const& __get_X1() const;
+  constexpr int32_t const& __cordl_internal_get_X1() const;
 
-  constexpr void __set_X1(int32_t value);
+  constexpr void __cordl_internal_set_X1(int32_t value);
 
-  constexpr int32_t& __get_X2();
+  constexpr int32_t& __cordl_internal_get_X2();
 
-  constexpr int32_t const& __get_X2() const;
+  constexpr int32_t const& __cordl_internal_get_X2() const;
 
-  constexpr void __set_X2(int32_t value);
+  constexpr void __cordl_internal_set_X2(int32_t value);
 
-  constexpr int32_t& __get_X3();
+  constexpr int32_t& __cordl_internal_get_X3();
 
-  constexpr int32_t const& __get_X3() const;
+  constexpr int32_t const& __cordl_internal_get_X3() const;
 
-  constexpr void __set_X3(int32_t value);
+  constexpr void __cordl_internal_set_X3(int32_t value);
 
   static inline void setStaticF_BlockSize(int32_t value);
 

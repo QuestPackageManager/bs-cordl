@@ -20,7 +20,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_Transform);
 // SizeInfo { instance_size: 40, native_size: 56, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9714))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9714))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9726))
 // CS Name: ::HoudiniEngineUnity::HAPI_Transform
 struct CORDL_TYPE HAPI_Transform {

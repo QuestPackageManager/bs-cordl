@@ -33,121 +33,121 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarSelectionView);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15177))
 // CS Name: ::BeatSaber.AvatarCore::AvatarSelectionView*
 class CORDL_TYPE AvatarSelectionView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _createButton, offset 0x18, size 0x8
-  __declspec(property(get = __get__createButton, put = __set__createButton))::UnityEngine::UI::Button* _createButton;
+  __declspec(property(get = __cordl_internal_get__createButton, put = __cordl_internal_set__createButton))::UnityW<::UnityEngine::UI::Button> _createButton;
 
   /// @brief Field _editButton, offset 0x20, size 0x8
-  __declspec(property(get = __get__editButton, put = __set__editButton))::UnityEngine::UI::Button* _editButton;
+  __declspec(property(get = __cordl_internal_get__editButton, put = __cordl_internal_set__editButton))::UnityW<::UnityEngine::UI::Button> _editButton;
 
   /// @brief Field _setAsPreferredButton, offset 0x28, size 0x8
-  __declspec(property(get = __get__setAsPreferredButton, put = __set__setAsPreferredButton))::UnityEngine::UI::Button* _setAsPreferredButton;
+  __declspec(property(get = __cordl_internal_get__setAsPreferredButton, put = __cordl_internal_set__setAsPreferredButton))::UnityW<::UnityEngine::UI::Button> _setAsPreferredButton;
 
   /// @brief Field _currentlyPreferredText, offset 0x30, size 0x8
-  __declspec(property(get = __get__currentlyPreferredText, put = __set__currentlyPreferredText))::TMPro::TextMeshProUGUI* _currentlyPreferredText;
+  __declspec(property(get = __cordl_internal_get__currentlyPreferredText, put = __cordl_internal_set__currentlyPreferredText))::UnityW<::TMPro::TextMeshProUGUI> _currentlyPreferredText;
 
   /// @brief Field _rectTransform, offset 0x38, size 0x8
-  __declspec(property(get = __get__rectTransform, put = __set__rectTransform))::UnityEngine::RectTransform* _rectTransform;
+  __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform))::UnityW<::UnityEngine::RectTransform> _rectTransform;
 
   /// @brief Field _backgroundImageView, offset 0x40, size 0x8
-  __declspec(property(get = __get__backgroundImageView, put = __set__backgroundImageView))::HMUI::ImageView* _backgroundImageView;
+  __declspec(property(get = __cordl_internal_get__backgroundImageView, put = __cordl_internal_set__backgroundImageView))::UnityW<::HMUI::ImageView> _backgroundImageView;
 
   /// @brief Field _preferredColor, offset 0x48, size 0x10
-  __declspec(property(get = __get__preferredColor, put = __set__preferredColor))::UnityEngine::Color _preferredColor;
+  __declspec(property(get = __cordl_internal_get__preferredColor, put = __cordl_internal_set__preferredColor))::UnityEngine::Color _preferredColor;
 
   /// @brief Field _normalColor, offset 0x58, size 0x10
-  __declspec(property(get = __get__normalColor, put = __set__normalColor))::UnityEngine::Color _normalColor;
+  __declspec(property(get = __cordl_internal_get__normalColor, put = __cordl_internal_set__normalColor))::UnityEngine::Color _normalColor;
 
   /// @brief Field didPressEditButtonEvent, offset 0x68, size 0x8
-  __declspec(property(get = __get_didPressEditButtonEvent, put = __set_didPressEditButtonEvent))::System::Action* didPressEditButtonEvent;
+  __declspec(property(get = __cordl_internal_get_didPressEditButtonEvent, put = __cordl_internal_set_didPressEditButtonEvent))::System::Action* didPressEditButtonEvent;
 
   /// @brief Field didPressCreateButtonEvent, offset 0x70, size 0x8
-  __declspec(property(get = __get_didPressCreateButtonEvent, put = __set_didPressCreateButtonEvent))::System::Action* didPressCreateButtonEvent;
+  __declspec(property(get = __cordl_internal_get_didPressCreateButtonEvent, put = __cordl_internal_set_didPressCreateButtonEvent))::System::Action* didPressCreateButtonEvent;
 
   /// @brief Field didPressPreferredButtonEvent, offset 0x78, size 0x8
-  __declspec(property(get = __get_didPressPreferredButtonEvent, put = __set_didPressPreferredButtonEvent))::System::Action* didPressPreferredButtonEvent;
+  __declspec(property(get = __cordl_internal_get_didPressPreferredButtonEvent, put = __cordl_internal_set_didPressPreferredButtonEvent))::System::Action* didPressPreferredButtonEvent;
 
   /// @brief Field _buttonBinder, offset 0x80, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
-  __declspec(property(get = get_rectTransform))::UnityEngine::RectTransform* rectTransform;
+  __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
 
-  constexpr ::UnityEngine::UI::Button*& __get__createButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__createButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__createButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__createButton() const;
 
-  constexpr void __set__createButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__createButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__editButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__editButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__editButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__editButton() const;
 
-  constexpr void __set__editButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__editButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__setAsPreferredButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__setAsPreferredButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__setAsPreferredButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__setAsPreferredButton() const;
 
-  constexpr void __set__setAsPreferredButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__setAsPreferredButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__currentlyPreferredText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__currentlyPreferredText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__currentlyPreferredText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__currentlyPreferredText() const;
 
-  constexpr void __set__currentlyPreferredText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__currentlyPreferredText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__rectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__rectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
 
-  constexpr void __set__rectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::HMUI::ImageView*& __get__backgroundImageView();
+  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__backgroundImageView();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& __get__backgroundImageView() const;
+  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__backgroundImageView() const;
 
-  constexpr void __set__backgroundImageView(::HMUI::ImageView* value);
+  constexpr void __cordl_internal_set__backgroundImageView(::UnityW<::HMUI::ImageView> value);
 
-  constexpr ::UnityEngine::Color& __get__preferredColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__preferredColor();
 
-  constexpr ::UnityEngine::Color const& __get__preferredColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__preferredColor() const;
 
-  constexpr void __set__preferredColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__preferredColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__normalColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__normalColor();
 
-  constexpr ::UnityEngine::Color const& __get__normalColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__normalColor() const;
 
-  constexpr void __set__normalColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__normalColor(::UnityEngine::Color value);
 
-  constexpr ::System::Action*& __get_didPressEditButtonEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didPressEditButtonEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didPressEditButtonEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressEditButtonEvent() const;
 
-  constexpr void __set_didPressEditButtonEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didPressEditButtonEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_didPressCreateButtonEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didPressCreateButtonEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didPressCreateButtonEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressCreateButtonEvent() const;
 
-  constexpr void __set_didPressCreateButtonEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didPressCreateButtonEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_didPressPreferredButtonEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didPressPreferredButtonEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didPressPreferredButtonEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressPreferredButtonEvent() const;
 
-  constexpr void __set_didPressPreferredButtonEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didPressPreferredButtonEvent(::System::Action* value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
   /// @brief Method add_didPressEditButtonEvent, addr 0xe0c2c0, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressEditButtonEvent(::System::Action* value);
@@ -168,7 +168,7 @@ public:
   inline void remove_didPressPreferredButtonEvent(::System::Action* value);
 
   /// @brief Method get_rectTransform, addr 0xe0c668, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::RectTransform* get_rectTransform();
+  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
   /// @brief Method Start, addr 0xe0c670, size 0x144, virtual true, abstract: false, final false
   inline void Start();
@@ -214,22 +214,22 @@ protected:
 
 public:
   /// @brief Field _createButton, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____createButton;
+  ::UnityW<::UnityEngine::UI::Button> ____createButton;
 
   /// @brief Field _editButton, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____editButton;
+  ::UnityW<::UnityEngine::UI::Button> ____editButton;
 
   /// @brief Field _setAsPreferredButton, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____setAsPreferredButton;
+  ::UnityW<::UnityEngine::UI::Button> ____setAsPreferredButton;
 
   /// @brief Field _currentlyPreferredText, offset: 0x30, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____currentlyPreferredText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____currentlyPreferredText;
 
   /// @brief Field _rectTransform, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____rectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
   /// @brief Field _backgroundImageView, offset: 0x40, size: 0x8, def value: None
-  ::HMUI::ImageView* ____backgroundImageView;
+  ::UnityW<::HMUI::ImageView> ____backgroundImageView;
 
   /// @brief Field _preferredColor, offset: 0x48, size: 0x10, def value: None
   ::UnityEngine::Color ____preferredColor;

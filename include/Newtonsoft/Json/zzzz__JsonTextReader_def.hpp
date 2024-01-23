@@ -53,44 +53,44 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonTextReader);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11833)), TypeDefinitionIndex(TypeDefinitionIndex(11890)), TypeDefinitionIndex(TypeDefinitionIndex(11866))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11833)), TypeDefinitionIndex(TypeDefinitionIndex(11866)), TypeDefinitionIndex(TypeDefinitionIndex(11890))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11824))
 // CS Name: ::Newtonsoft.Json::JsonTextReader*
 class CORDL_TYPE JsonTextReader : public ::Newtonsoft::Json::JsonReader {
 public:
   // Declarations
   /// @brief Field _reader, offset 0x78, size 0x8
-  __declspec(property(get = __get__reader, put = __set__reader))::System::IO::TextReader* _reader;
+  __declspec(property(get = __cordl_internal_get__reader, put = __cordl_internal_set__reader))::System::IO::TextReader* _reader;
 
   /// @brief Field _chars, offset 0x80, size 0x8
-  __declspec(property(get = __get__chars, put = __set__chars))::ArrayW<char16_t, ::Array<char16_t>*> _chars;
+  __declspec(property(get = __cordl_internal_get__chars, put = __cordl_internal_set__chars))::ArrayW<char16_t, ::Array<char16_t>*> _chars;
 
   /// @brief Field _charsUsed, offset 0x88, size 0x4
-  __declspec(property(get = __get__charsUsed, put = __set__charsUsed)) int32_t _charsUsed;
+  __declspec(property(get = __cordl_internal_get__charsUsed, put = __cordl_internal_set__charsUsed)) int32_t _charsUsed;
 
   /// @brief Field _charPos, offset 0x8c, size 0x4
-  __declspec(property(get = __get__charPos, put = __set__charPos)) int32_t _charPos;
+  __declspec(property(get = __cordl_internal_get__charPos, put = __cordl_internal_set__charPos)) int32_t _charPos;
 
   /// @brief Field _lineStartPos, offset 0x90, size 0x4
-  __declspec(property(get = __get__lineStartPos, put = __set__lineStartPos)) int32_t _lineStartPos;
+  __declspec(property(get = __cordl_internal_get__lineStartPos, put = __cordl_internal_set__lineStartPos)) int32_t _lineStartPos;
 
   /// @brief Field _lineNumber, offset 0x94, size 0x4
-  __declspec(property(get = __get__lineNumber, put = __set__lineNumber)) int32_t _lineNumber;
+  __declspec(property(get = __cordl_internal_get__lineNumber, put = __cordl_internal_set__lineNumber)) int32_t _lineNumber;
 
   /// @brief Field _isEndOfFile, offset 0x98, size 0x1
-  __declspec(property(get = __get__isEndOfFile, put = __set__isEndOfFile)) bool _isEndOfFile;
+  __declspec(property(get = __cordl_internal_get__isEndOfFile, put = __cordl_internal_set__isEndOfFile)) bool _isEndOfFile;
 
   /// @brief Field _stringBuffer, offset 0xa0, size 0x10
-  __declspec(property(get = __get__stringBuffer, put = __set__stringBuffer))::Newtonsoft::Json::Utilities::StringBuffer _stringBuffer;
+  __declspec(property(get = __cordl_internal_get__stringBuffer, put = __cordl_internal_set__stringBuffer))::Newtonsoft::Json::Utilities::StringBuffer _stringBuffer;
 
   /// @brief Field _stringReference, offset 0xb0, size 0x10
-  __declspec(property(get = __get__stringReference, put = __set__stringReference))::Newtonsoft::Json::Utilities::StringReference _stringReference;
+  __declspec(property(get = __cordl_internal_get__stringReference, put = __cordl_internal_set__stringReference))::Newtonsoft::Json::Utilities::StringReference _stringReference;
 
   /// @brief Field _arrayPool, offset 0xc0, size 0x8
-  __declspec(property(get = __get__arrayPool, put = __set__arrayPool))::Newtonsoft::Json::IArrayPool_1<char16_t>* _arrayPool;
+  __declspec(property(get = __cordl_internal_get__arrayPool, put = __cordl_internal_set__arrayPool))::Newtonsoft::Json::IArrayPool_1<char16_t>* _arrayPool;
 
   /// @brief Field NameTable, offset 0xc8, size 0x8
-  __declspec(property(get = __get_NameTable, put = __set_NameTable))::Newtonsoft::Json::Utilities::PropertyNameTable* NameTable;
+  __declspec(property(get = __cordl_internal_get_NameTable, put = __cordl_internal_set_NameTable))::Newtonsoft::Json::Utilities::PropertyNameTable* NameTable;
 
   __declspec(property(get = get_ArrayPool, put = set_ArrayPool))::Newtonsoft::Json::IArrayPool_1<char16_t>* ArrayPool;
 
@@ -104,71 +104,71 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
 
-  constexpr ::System::IO::TextReader*& __get__reader();
+  constexpr ::System::IO::TextReader*& __cordl_internal_get__reader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextReader*> const& __get__reader() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextReader*> const& __cordl_internal_get__reader() const;
 
-  constexpr void __set__reader(::System::IO::TextReader* value);
+  constexpr void __cordl_internal_set__reader(::System::IO::TextReader* value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get__chars();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__chars();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get__chars() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__chars() const;
 
-  constexpr void __set__chars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set__chars(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr int32_t& __get__charsUsed();
+  constexpr int32_t& __cordl_internal_get__charsUsed();
 
-  constexpr int32_t const& __get__charsUsed() const;
+  constexpr int32_t const& __cordl_internal_get__charsUsed() const;
 
-  constexpr void __set__charsUsed(int32_t value);
+  constexpr void __cordl_internal_set__charsUsed(int32_t value);
 
-  constexpr int32_t& __get__charPos();
+  constexpr int32_t& __cordl_internal_get__charPos();
 
-  constexpr int32_t const& __get__charPos() const;
+  constexpr int32_t const& __cordl_internal_get__charPos() const;
 
-  constexpr void __set__charPos(int32_t value);
+  constexpr void __cordl_internal_set__charPos(int32_t value);
 
-  constexpr int32_t& __get__lineStartPos();
+  constexpr int32_t& __cordl_internal_get__lineStartPos();
 
-  constexpr int32_t const& __get__lineStartPos() const;
+  constexpr int32_t const& __cordl_internal_get__lineStartPos() const;
 
-  constexpr void __set__lineStartPos(int32_t value);
+  constexpr void __cordl_internal_set__lineStartPos(int32_t value);
 
-  constexpr int32_t& __get__lineNumber();
+  constexpr int32_t& __cordl_internal_get__lineNumber();
 
-  constexpr int32_t const& __get__lineNumber() const;
+  constexpr int32_t const& __cordl_internal_get__lineNumber() const;
 
-  constexpr void __set__lineNumber(int32_t value);
+  constexpr void __cordl_internal_set__lineNumber(int32_t value);
 
-  constexpr bool& __get__isEndOfFile();
+  constexpr bool& __cordl_internal_get__isEndOfFile();
 
-  constexpr bool const& __get__isEndOfFile() const;
+  constexpr bool const& __cordl_internal_get__isEndOfFile() const;
 
-  constexpr void __set__isEndOfFile(bool value);
+  constexpr void __cordl_internal_set__isEndOfFile(bool value);
 
-  constexpr ::Newtonsoft::Json::Utilities::StringBuffer& __get__stringBuffer();
+  constexpr ::Newtonsoft::Json::Utilities::StringBuffer& __cordl_internal_get__stringBuffer();
 
-  constexpr ::Newtonsoft::Json::Utilities::StringBuffer const& __get__stringBuffer() const;
+  constexpr ::Newtonsoft::Json::Utilities::StringBuffer const& __cordl_internal_get__stringBuffer() const;
 
-  constexpr void __set__stringBuffer(::Newtonsoft::Json::Utilities::StringBuffer value);
+  constexpr void __cordl_internal_set__stringBuffer(::Newtonsoft::Json::Utilities::StringBuffer value);
 
-  constexpr ::Newtonsoft::Json::Utilities::StringReference& __get__stringReference();
+  constexpr ::Newtonsoft::Json::Utilities::StringReference& __cordl_internal_get__stringReference();
 
-  constexpr ::Newtonsoft::Json::Utilities::StringReference const& __get__stringReference() const;
+  constexpr ::Newtonsoft::Json::Utilities::StringReference const& __cordl_internal_get__stringReference() const;
 
-  constexpr void __set__stringReference(::Newtonsoft::Json::Utilities::StringReference value);
+  constexpr void __cordl_internal_set__stringReference(::Newtonsoft::Json::Utilities::StringReference value);
 
-  constexpr ::Newtonsoft::Json::IArrayPool_1<char16_t>*& __get__arrayPool();
+  constexpr ::Newtonsoft::Json::IArrayPool_1<char16_t>*& __cordl_internal_get__arrayPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::IArrayPool_1<char16_t>*> const& __get__arrayPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::IArrayPool_1<char16_t>*> const& __cordl_internal_get__arrayPool() const;
 
-  constexpr void __set__arrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
+  constexpr void __cordl_internal_set__arrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
 
-  constexpr ::Newtonsoft::Json::Utilities::PropertyNameTable*& __get_NameTable();
+  constexpr ::Newtonsoft::Json::Utilities::PropertyNameTable*& __cordl_internal_get_NameTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::PropertyNameTable*> const& __get_NameTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::PropertyNameTable*> const& __cordl_internal_get_NameTable() const;
 
-  constexpr void __set_NameTable(::Newtonsoft::Json::Utilities::PropertyNameTable* value);
+  constexpr void __cordl_internal_set_NameTable(::Newtonsoft::Json::Utilities::PropertyNameTable* value);
 
   static inline ::Newtonsoft::Json::JsonTextReader* New_ctor(::System::IO::TextReader* reader);
 

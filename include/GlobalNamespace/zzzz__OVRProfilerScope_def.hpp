@@ -18,7 +18,7 @@ MARK_VAL_T(::GlobalNamespace::OVRProfilerScope);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8154))
 // CS Name: ::OVRProfilerScope
 #pragma pack(push, 0)

@@ -32,20 +32,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(22))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::ErrorMsgContent*
 class CORDL_TYPE ErrorMsgContent : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field pkiStatusInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_pkiStatusInfo, put = __set_pkiStatusInfo))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo;
+  __declspec(property(get = __cordl_internal_get_pkiStatusInfo, put = __cordl_internal_set_pkiStatusInfo))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo;
 
   /// @brief Field errorCode, offset 0x18, size 0x8
-  __declspec(property(get = __get_errorCode, put = __set_errorCode))::Org::BouncyCastle::Asn1::DerInteger* errorCode;
+  __declspec(property(get = __cordl_internal_get_errorCode, put = __cordl_internal_set_errorCode))::Org::BouncyCastle::Asn1::DerInteger* errorCode;
 
   /// @brief Field errorDetails, offset 0x20, size 0x8
-  __declspec(property(get = __get_errorDetails, put = __set_errorDetails))::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* errorDetails;
+  __declspec(property(get = __cordl_internal_get_errorDetails, put = __cordl_internal_set_errorDetails))::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* errorDetails;
 
   __declspec(property(get = get_PkiStatusInfo))::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* PkiStatusInfo;
 
@@ -53,23 +53,23 @@ public:
 
   __declspec(property(get = get_ErrorDetails))::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* ErrorDetails;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*& __get_pkiStatusInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*& __cordl_internal_get_pkiStatusInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*> const& __get_pkiStatusInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo*> const& __cordl_internal_get_pkiStatusInfo() const;
 
-  constexpr void __set_pkiStatusInfo(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* value);
+  constexpr void __cordl_internal_set_pkiStatusInfo(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_errorCode();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_errorCode();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_errorCode() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_errorCode() const;
 
-  constexpr void __set_errorCode(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_errorCode(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*& __get_errorDetails();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*& __cordl_internal_get_errorDetails();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*> const& __get_errorDetails() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*> const& __cordl_internal_get_errorDetails() const;
 
-  constexpr void __set_errorDetails(::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* value);
+  constexpr void __cordl_internal_set_errorDetails(::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

@@ -23,42 +23,42 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementPanelActivator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6749))
 // CS Name: ::UnityEngine.UIElements::VisualElementPanelActivator*
 class CORDL_TYPE VisualElementPanelActivator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Activatable, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Activatable, put = __set_m_Activatable))::UnityEngine::UIElements::IVisualElementPanelActivatable* m_Activatable;
+  __declspec(property(get = __cordl_internal_get_m_Activatable, put = __cordl_internal_set_m_Activatable))::UnityEngine::UIElements::IVisualElementPanelActivatable* m_Activatable;
 
   /// @brief Field <isActive>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__isActive_k__BackingField, put = __set__isActive_k__BackingField)) bool _isActive_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isActive_k__BackingField, put = __cordl_internal_set__isActive_k__BackingField)) bool _isActive_k__BackingField;
 
   /// @brief Field <isDetaching>k__BackingField, offset 0x19, size 0x1
-  __declspec(property(get = __get__isDetaching_k__BackingField, put = __set__isDetaching_k__BackingField)) bool _isDetaching_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isDetaching_k__BackingField, put = __cordl_internal_set__isDetaching_k__BackingField)) bool _isDetaching_k__BackingField;
 
   __declspec(property(get = get_isActive, put = set_isActive)) bool isActive;
 
   __declspec(property(get = get_isDetaching, put = set_isDetaching)) bool isDetaching;
 
-  constexpr ::UnityEngine::UIElements::IVisualElementPanelActivatable*& __get_m_Activatable();
+  constexpr ::UnityEngine::UIElements::IVisualElementPanelActivatable*& __cordl_internal_get_m_Activatable();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementPanelActivatable*> const& __get_m_Activatable() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementPanelActivatable*> const& __cordl_internal_get_m_Activatable() const;
 
-  constexpr void __set_m_Activatable(::UnityEngine::UIElements::IVisualElementPanelActivatable* value);
+  constexpr void __cordl_internal_set_m_Activatable(::UnityEngine::UIElements::IVisualElementPanelActivatable* value);
 
-  constexpr bool& __get__isActive_k__BackingField();
+  constexpr bool& __cordl_internal_get__isActive_k__BackingField();
 
-  constexpr bool const& __get__isActive_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isActive_k__BackingField() const;
 
-  constexpr void __set__isActive_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isActive_k__BackingField(bool value);
 
-  constexpr bool& __get__isDetaching_k__BackingField();
+  constexpr bool& __cordl_internal_get__isDetaching_k__BackingField();
 
-  constexpr bool const& __get__isDetaching_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isDetaching_k__BackingField() const;
 
-  constexpr void __set__isDetaching_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isDetaching_k__BackingField(bool value);
 
   /// @brief Method get_isActive, addr 0x2db21cc, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();

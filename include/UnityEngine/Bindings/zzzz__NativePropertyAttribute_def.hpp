@@ -19,22 +19,22 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::NativePropertyAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16017)), TypeDefinitionIndex(TypeDefinitionIndex(16018))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16017)), TypeDefinitionIndex(TypeDefinitionIndex(16018))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16019))
 // CS Name: ::UnityEngine.Bindings::NativePropertyAttribute*
 class CORDL_TYPE NativePropertyAttribute : public ::UnityEngine::Bindings::NativeMethodAttribute {
 public:
   // Declarations
   /// @brief Field <TargetType>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__TargetType_k__BackingField, put = __set__TargetType_k__BackingField))::UnityEngine::Bindings::TargetType _TargetType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__TargetType_k__BackingField, put = __cordl_internal_set__TargetType_k__BackingField))::UnityEngine::Bindings::TargetType _TargetType_k__BackingField;
 
   __declspec(property(put = set_TargetType))::UnityEngine::Bindings::TargetType TargetType;
 
-  constexpr ::UnityEngine::Bindings::TargetType& __get__TargetType_k__BackingField();
+  constexpr ::UnityEngine::Bindings::TargetType& __cordl_internal_get__TargetType_k__BackingField();
 
-  constexpr ::UnityEngine::Bindings::TargetType const& __get__TargetType_k__BackingField() const;
+  constexpr ::UnityEngine::Bindings::TargetType const& __cordl_internal_get__TargetType_k__BackingField() const;
 
-  constexpr void __set__TargetType_k__BackingField(::UnityEngine::Bindings::TargetType value);
+  constexpr void __cordl_internal_set__TargetType_k__BackingField(::UnityEngine::Bindings::TargetType value);
 
   /// @brief Method set_TargetType, addr 0x2d18654, size 0x8, virtual false, abstract: false, final false
   inline void set_TargetType(::UnityEngine::Bindings::TargetType value);

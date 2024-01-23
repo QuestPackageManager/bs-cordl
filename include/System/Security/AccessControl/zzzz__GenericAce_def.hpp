@@ -36,17 +36,17 @@ MARK_REF_PTR_T(::System::Security::AccessControl::GenericAce);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3019)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3017))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3017)), TypeDefinitionIndex(TypeDefinitionIndex(3019))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3035))
 // CS Name: ::System.Security.AccessControl::GenericAce*
 class CORDL_TYPE GenericAce : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ace_flags, offset 0x10, size 0x1
-  __declspec(property(get = __get_ace_flags, put = __set_ace_flags))::System::Security::AccessControl::AceFlags ace_flags;
+  __declspec(property(get = __cordl_internal_get_ace_flags, put = __cordl_internal_set_ace_flags))::System::Security::AccessControl::AceFlags ace_flags;
 
   /// @brief Field ace_type, offset 0x11, size 0x1
-  __declspec(property(get = __get_ace_type, put = __set_ace_type))::System::Security::AccessControl::AceType ace_type;
+  __declspec(property(get = __cordl_internal_get_ace_type, put = __cordl_internal_set_ace_type))::System::Security::AccessControl::AceType ace_type;
 
   __declspec(property(get = get_AceFlags))::System::Security::AccessControl::AceFlags AceFlags;
 
@@ -62,17 +62,17 @@ public:
 
   __declspec(property(get = get_PropagationFlags))::System::Security::AccessControl::PropagationFlags PropagationFlags;
 
-  constexpr ::System::Security::AccessControl::AceFlags& __get_ace_flags();
+  constexpr ::System::Security::AccessControl::AceFlags& __cordl_internal_get_ace_flags();
 
-  constexpr ::System::Security::AccessControl::AceFlags const& __get_ace_flags() const;
+  constexpr ::System::Security::AccessControl::AceFlags const& __cordl_internal_get_ace_flags() const;
 
-  constexpr void __set_ace_flags(::System::Security::AccessControl::AceFlags value);
+  constexpr void __cordl_internal_set_ace_flags(::System::Security::AccessControl::AceFlags value);
 
-  constexpr ::System::Security::AccessControl::AceType& __get_ace_type();
+  constexpr ::System::Security::AccessControl::AceType& __cordl_internal_get_ace_type();
 
-  constexpr ::System::Security::AccessControl::AceType const& __get_ace_type() const;
+  constexpr ::System::Security::AccessControl::AceType const& __cordl_internal_get_ace_type() const;
 
-  constexpr void __set_ace_type(::System::Security::AccessControl::AceType value);
+  constexpr void __cordl_internal_set_ace_type(::System::Security::AccessControl::AceType value);
 
   static inline ::System::Security::AccessControl::GenericAce* New_ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags);
 

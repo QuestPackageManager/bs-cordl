@@ -25,20 +25,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IO::DigestStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(929))
 // CS Name: ::Org.BouncyCastle.Crypto.IO::DigestStream*
 class CORDL_TYPE DigestStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field stream, offset 0x28, size 0x8
-  __declspec(property(get = __get_stream, put = __set_stream))::System::IO::Stream* stream;
+  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
 
   /// @brief Field inDigest, offset 0x30, size 0x8
-  __declspec(property(get = __get_inDigest, put = __set_inDigest))::Org::BouncyCastle::Crypto::IDigest* inDigest;
+  __declspec(property(get = __cordl_internal_get_inDigest, put = __cordl_internal_set_inDigest))::Org::BouncyCastle::Crypto::IDigest* inDigest;
 
   /// @brief Field outDigest, offset 0x38, size 0x8
-  __declspec(property(get = __get_outDigest, put = __set_outDigest))::Org::BouncyCastle::Crypto::IDigest* outDigest;
+  __declspec(property(get = __cordl_internal_get_outDigest, put = __cordl_internal_set_outDigest))::Org::BouncyCastle::Crypto::IDigest* outDigest;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -50,23 +50,23 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr ::System::IO::Stream*& __get_stream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_stream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
 
-  constexpr void __set_stream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_inDigest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_inDigest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_inDigest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_inDigest() const;
 
-  constexpr void __set_inDigest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_inDigest(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_outDigest();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_outDigest();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_outDigest() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_outDigest() const;
 
-  constexpr void __set_outDigest(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_outDigest(::Org::BouncyCastle::Crypto::IDigest* value);
 
   static inline ::Org::BouncyCastle::Crypto::IO::DigestStream* New_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Crypto::IDigest* readDigest,
                                                                         ::Org::BouncyCastle::Crypto::IDigest* writeDigest);

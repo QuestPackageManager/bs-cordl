@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x233d5b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationBeatmapEventDataBox*>::get(),
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x233d5bc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationBeatmapEventDataBox*>::get(),
@@ -53,10 +53,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x234;
   constexpr static std::size_t addrs = 0x233d5c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationBeatmapEventDataBox*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationBeatmapEventDataBox*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 10>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IndexFilter*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightAxis>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4e8;
   constexpr static std::size_t addrs = 0x233d7f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationBeatmapEventDataBox*>::get(),
@@ -84,53 +84,54 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>*& GlobalNamespace::LightTranslationBeatmapEventDataBox::__get__lightTranslationBaseDataList() {
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>*&
+GlobalNamespace::LightTranslationBeatmapEventDataBox::__cordl_internal_get__lightTranslationBaseDataList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightTranslationBaseDataList;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>*> const&
-GlobalNamespace::LightTranslationBeatmapEventDataBox::__get__lightTranslationBaseDataList() const {
+GlobalNamespace::LightTranslationBeatmapEventDataBox::__cordl_internal_get__lightTranslationBaseDataList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightTranslationBaseDataList;
 }
-constexpr void
-GlobalNamespace::LightTranslationBeatmapEventDataBox::__set__lightTranslationBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>* value) {
+constexpr void GlobalNamespace::LightTranslationBeatmapEventDataBox::__cordl_internal_set__lightTranslationBaseDataList(
+    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightTranslationBaseDataList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::LightAxis& GlobalNamespace::LightTranslationBeatmapEventDataBox::__get__axis() {
+constexpr ::GlobalNamespace::LightAxis& GlobalNamespace::LightTranslationBeatmapEventDataBox::__cordl_internal_get__axis() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____axis;
 }
-constexpr ::GlobalNamespace::LightAxis const& GlobalNamespace::LightTranslationBeatmapEventDataBox::__get__axis() const {
+constexpr ::GlobalNamespace::LightAxis const& GlobalNamespace::LightTranslationBeatmapEventDataBox::__cordl_internal_get__axis() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____axis;
 }
-constexpr void GlobalNamespace::LightTranslationBeatmapEventDataBox::__set__axis(::GlobalNamespace::LightAxis value) {
+constexpr void GlobalNamespace::LightTranslationBeatmapEventDataBox::__cordl_internal_set__axis(::GlobalNamespace::LightAxis value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____axis = value;
 }
-constexpr float_t& GlobalNamespace::LightTranslationBeatmapEventDataBox::__get__translationDirection() {
+constexpr float_t& GlobalNamespace::LightTranslationBeatmapEventDataBox::__cordl_internal_get__translationDirection() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationDirection;
 }
-constexpr float_t const& GlobalNamespace::LightTranslationBeatmapEventDataBox::__get__translationDirection() const {
+constexpr float_t const& GlobalNamespace::LightTranslationBeatmapEventDataBox::__cordl_internal_get__translationDirection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____translationDirection;
 }
-constexpr void GlobalNamespace::LightTranslationBeatmapEventDataBox::__set__translationDirection(float_t value) {
+constexpr void GlobalNamespace::LightTranslationBeatmapEventDataBox::__cordl_internal_set__translationDirection(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____translationDirection = value;
 }
-constexpr float_t& GlobalNamespace::LightTranslationBeatmapEventDataBox::__get__beatStep() {
+constexpr float_t& GlobalNamespace::LightTranslationBeatmapEventDataBox::__cordl_internal_get__beatStep() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatStep;
 }
-constexpr float_t const& GlobalNamespace::LightTranslationBeatmapEventDataBox::__get__beatStep() const {
+constexpr float_t const& GlobalNamespace::LightTranslationBeatmapEventDataBox::__cordl_internal_get__beatStep() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatStep;
 }
-constexpr void GlobalNamespace::LightTranslationBeatmapEventDataBox::__set__beatStep(float_t value) {
+constexpr void GlobalNamespace::LightTranslationBeatmapEventDataBox::__cordl_internal_set__beatStep(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatStep = value;
 }
@@ -151,9 +152,9 @@ inline ::GlobalNamespace::LightTranslationBeatmapEventDataBox* GlobalNamespace::
     ::GlobalNamespace::LightAxis axis, bool flipTranslation, float_t gapDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType gapDistributionParamType,
     bool gapDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType gapDistributionEaseType,
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>* lightTranslationBaseDataList) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::LightTranslationBeatmapEventDataBox*>(indexFilter, beatDistributionParam, beatDistributionParamType, axis, flipTranslation,
-                                                                                                   gapDistributionParam, gapDistributionParamType, gapDistributionShouldAffectFirstBaseEvent,
-                                                                                                   gapDistributionEaseType, lightTranslationBaseDataList));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightTranslationBeatmapEventDataBox*>(indexFilter, beatDistributionParam, beatDistributionParamType, axis, flipTranslation,
+                                                                                                           gapDistributionParam, gapDistributionParamType, gapDistributionShouldAffectFirstBaseEvent,
+                                                                                                           gapDistributionEaseType, lightTranslationBaseDataList));
 }
 inline void GlobalNamespace::LightTranslationBeatmapEventDataBox::_ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam,
                                                                         ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, ::GlobalNamespace::LightAxis axis,
@@ -162,8 +163,8 @@ inline void GlobalNamespace::LightTranslationBeatmapEventDataBox::_ctor(::Global
                                                                         bool gapDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType gapDistributionEaseType,
                                                                         ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightTranslationBaseData*>* lightTranslationBaseDataList) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationBeatmapEventDataBox*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationBeatmapEventDataBox*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 10>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IndexFilter*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightAxis>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),

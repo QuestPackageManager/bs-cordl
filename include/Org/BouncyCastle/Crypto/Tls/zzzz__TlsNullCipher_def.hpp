@@ -28,20 +28,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsNullCipher);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1313))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsNullCipher*
 class CORDL_TYPE TlsNullCipher : public ::System::Object {
 public:
   // Declarations
   /// @brief Field context, offset 0x10, size 0x8
-  __declspec(property(get = __get_context, put = __set_context))::Org::BouncyCastle::Crypto::Tls::TlsContext* context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::Org::BouncyCastle::Crypto::Tls::TlsContext* context;
 
   /// @brief Field writeMac, offset 0x18, size 0x8
-  __declspec(property(get = __get_writeMac, put = __set_writeMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* writeMac;
+  __declspec(property(get = __cordl_internal_get_writeMac, put = __cordl_internal_set_writeMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* writeMac;
 
   /// @brief Field readMac, offset 0x20, size 0x8
-  __declspec(property(get = __get_readMac, put = __set_readMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* readMac;
+  __declspec(property(get = __cordl_internal_get_readMac, put = __cordl_internal_set_readMac))::Org::BouncyCastle::Crypto::Tls::TlsMac* readMac;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCipher*() noexcept;
@@ -49,23 +49,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher* i___Org__BouncyCastle__Crypto__Tls__TlsCipher() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __get_context();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_context();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __get_context() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __cordl_internal_get_context() const;
 
-  constexpr void __set_context(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
+  constexpr void __cordl_internal_set_context(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& __get_writeMac();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& __cordl_internal_get_writeMac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& __get_writeMac() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& __cordl_internal_get_writeMac() const;
 
-  constexpr void __set_writeMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
+  constexpr void __cordl_internal_set_writeMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& __get_readMac();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsMac*& __cordl_internal_get_readMac();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& __get_readMac() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsMac*> const& __cordl_internal_get_readMac() const;
 
-  constexpr void __set_readMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
+  constexpr void __cordl_internal_set_readMac(::Org::BouncyCastle::Crypto::Tls::TlsMac* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 

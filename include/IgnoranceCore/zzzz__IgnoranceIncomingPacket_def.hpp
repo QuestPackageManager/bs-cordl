@@ -19,7 +19,7 @@ MARK_VAL_T(::IgnoranceCore::IgnoranceIncomingPacket);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace IgnoranceCore {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15232))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15232))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15245))
 // CS Name: ::IgnoranceCore::IgnoranceIncomingPacket
 struct CORDL_TYPE IgnoranceIncomingPacket {

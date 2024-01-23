@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::DefaultDllImportSearchPathsAt
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3328))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3328))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3329))
 // CS Name: ::System.Runtime.InteropServices::DefaultDllImportSearchPathsAttribute*
 class CORDL_TYPE DefaultDllImportSearchPathsAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field _paths, offset 0x10, size 0x4
-  __declspec(property(get = __get__paths, put = __set__paths))::System::Runtime::InteropServices::DllImportSearchPath _paths;
+  __declspec(property(get = __cordl_internal_get__paths, put = __cordl_internal_set__paths))::System::Runtime::InteropServices::DllImportSearchPath _paths;
 
-  constexpr ::System::Runtime::InteropServices::DllImportSearchPath& __get__paths();
+  constexpr ::System::Runtime::InteropServices::DllImportSearchPath& __cordl_internal_get__paths();
 
-  constexpr ::System::Runtime::InteropServices::DllImportSearchPath const& __get__paths() const;
+  constexpr ::System::Runtime::InteropServices::DllImportSearchPath const& __cordl_internal_get__paths() const;
 
-  constexpr void __set__paths(::System::Runtime::InteropServices::DllImportSearchPath value);
+  constexpr void __cordl_internal_set__paths(::System::Runtime::InteropServices::DllImportSearchPath value);
 
   static inline ::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute* New_ctor(::System::Runtime::InteropServices::DllImportSearchPath paths);
 

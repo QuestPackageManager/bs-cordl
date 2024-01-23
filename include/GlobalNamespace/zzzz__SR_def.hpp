@@ -3,8 +3,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SR)
+namespace System::Globalization {
+class CultureInfo;
+}
 namespace System {
 class Object;
 }
@@ -18,17 +22,17 @@ MARK_REF_PTR_T(::GlobalNamespace::SR);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(14247))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
+// Self: TypeDefinitionIndex(TypeDefinitionIndex(11401))
 // CS Name: ::SR*
 class CORDL_TYPE SR : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetString, addr 0x280cce4, size 0x4, virtual false, abstract: false, final false
-  static inline ::StringW GetString(::StringW name);
+  /// @brief Method GetString, addr 0x284d624, size 0x70, virtual false, abstract: false, final false
+  static inline ::StringW GetString(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Format, addr 0x280cce8, size 0x70, virtual false, abstract: false, final false
-  static inline ::StringW Format(::StringW resourceFormat, ::System::Object* p1);
+  /// @brief Method GetString, addr 0x284d694, size 0x8, virtual false, abstract: false, final false
+  static inline ::StringW GetString(::System::Globalization::CultureInfo* culture, ::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   // Ctor Parameters [CppParam { name: "", ty: "SR", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

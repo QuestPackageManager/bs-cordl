@@ -37,41 +37,41 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::JPath);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12019))
 // CS Name: ::Newtonsoft.Json.Linq.JsonPath::JPath*
 class CORDL_TYPE JPath : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _expression, offset 0x10, size 0x8
-  __declspec(property(get = __get__expression, put = __set__expression))::StringW _expression;
+  __declspec(property(get = __cordl_internal_get__expression, put = __cordl_internal_set__expression))::StringW _expression;
 
   /// @brief Field <Filters>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Filters_k__BackingField,
-                      put = __set__Filters_k__BackingField))::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* _Filters_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Filters_k__BackingField,
+                      put = __cordl_internal_set__Filters_k__BackingField))::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* _Filters_k__BackingField;
 
   /// @brief Field _currentIndex, offset 0x20, size 0x4
-  __declspec(property(get = __get__currentIndex, put = __set__currentIndex)) int32_t _currentIndex;
+  __declspec(property(get = __cordl_internal_get__currentIndex, put = __cordl_internal_set__currentIndex)) int32_t _currentIndex;
 
   __declspec(property(get = get_Filters, put = set_Filters))::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* Filters;
 
-  constexpr ::StringW& __get__expression();
+  constexpr ::StringW& __cordl_internal_get__expression();
 
-  constexpr ::StringW const& __get__expression() const;
+  constexpr ::StringW const& __cordl_internal_get__expression() const;
 
-  constexpr void __set__expression(::StringW value);
+  constexpr void __cordl_internal_set__expression(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>*& __get__Filters_k__BackingField();
+  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>*& __cordl_internal_get__Filters_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>*> const& __get__Filters_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>*> const& __cordl_internal_get__Filters_k__BackingField() const;
 
-  constexpr void __set__Filters_k__BackingField(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* value);
+  constexpr void __cordl_internal_set__Filters_k__BackingField(::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* value);
 
-  constexpr int32_t& __get__currentIndex();
+  constexpr int32_t& __cordl_internal_get__currentIndex();
 
-  constexpr int32_t const& __get__currentIndex() const;
+  constexpr int32_t const& __cordl_internal_get__currentIndex() const;
 
-  constexpr void __set__currentIndex(int32_t value);
+  constexpr void __cordl_internal_set__currentIndex(int32_t value);
 
   /// @brief Method get_Filters, addr 0x26aea90, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::Newtonsoft::Json::Linq::JsonPath::PathFilter*>* get_Filters();

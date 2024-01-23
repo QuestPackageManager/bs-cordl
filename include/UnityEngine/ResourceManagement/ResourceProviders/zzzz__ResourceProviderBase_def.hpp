@@ -61,20 +61,20 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__ResourceP
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(14032))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 105 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14011))
 // CS Name: ::ResourceProviderBase::BaseInitAsyncOp*
 class CORDL_TYPE __ResourceProviderBase__BaseInitAsyncOp : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<bool> {
 public:
   // Declarations
   /// @brief Field m_CallBack, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_CallBack, put = __set_m_CallBack))::System::Func_1<bool>* m_CallBack;
+  __declspec(property(get = __cordl_internal_get_m_CallBack, put = __cordl_internal_set_m_CallBack))::System::Func_1<bool>* m_CallBack;
 
-  constexpr ::System::Func_1<bool>*& __get_m_CallBack();
+  constexpr ::System::Func_1<bool>*& __cordl_internal_get_m_CallBack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& __get_m_CallBack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& __cordl_internal_get_m_CallBack() const;
 
-  constexpr void __set_m_CallBack(::System::Func_1<bool>* value);
+  constexpr void __cordl_internal_set_m_CallBack(::System::Func_1<bool>* value);
 
   /// @brief Method Init, addr 0x2bd8290, size 0x8, virtual false, abstract: false, final false
   inline void Init(::System::Func_1<bool>* callback);
@@ -119,38 +119,38 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__R
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14012))
 // CS Name: ::ResourceProviderBase::<>c__DisplayClass10_0*
 class CORDL_TYPE __ResourceProviderBase____c__DisplayClass10_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* __4__this;
 
   /// @brief Field id, offset 0x18, size 0x8
-  __declspec(property(get = __get_id, put = __set_id))::StringW id;
+  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::StringW id;
 
   /// @brief Field data, offset 0x20, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::StringW data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::StringW data;
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*& __get___4__this();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase* value);
 
-  constexpr ::StringW& __get_id();
+  constexpr ::StringW& __cordl_internal_get_id();
 
-  constexpr ::StringW const& __get_id() const;
+  constexpr ::StringW const& __cordl_internal_get_id() const;
 
-  constexpr void __set_id(::StringW value);
+  constexpr void __cordl_internal_set_id(::StringW value);
 
-  constexpr ::StringW& __get_data();
+  constexpr ::StringW& __cordl_internal_get_data();
 
-  constexpr ::StringW const& __get_data() const;
+  constexpr ::StringW const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::StringW value);
+  constexpr void __cordl_internal_set_data(::StringW value);
 
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase____c__DisplayClass10_0* New_ctor();
 
@@ -199,7 +199,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__R
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14001))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14001))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14013))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::ResourceProviderBase*
 class CORDL_TYPE ResourceProviderBase : public ::System::Object {
@@ -210,10 +210,11 @@ public:
   using BaseInitAsyncOp = ::UnityEngine::ResourceManagement::ResourceProviders::__ResourceProviderBase__BaseInitAsyncOp;
 
   /// @brief Field m_ProviderId, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_ProviderId, put = __set_m_ProviderId))::StringW m_ProviderId;
+  __declspec(property(get = __cordl_internal_get_m_ProviderId, put = __cordl_internal_set_m_ProviderId))::StringW m_ProviderId;
 
   /// @brief Field m_BehaviourFlags, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_BehaviourFlags, put = __set_m_BehaviourFlags))::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags m_BehaviourFlags;
+  __declspec(property(get = __cordl_internal_get_m_BehaviourFlags,
+                      put = __cordl_internal_set_m_BehaviourFlags))::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags m_BehaviourFlags;
 
   __declspec(property(get = get_ProviderId))::StringW ProviderId;
 
@@ -232,17 +233,17 @@ public:
   /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IInitializableObject"
   constexpr ::UnityEngine::ResourceManagement::Util::IInitializableObject* i___UnityEngine__ResourceManagement__Util__IInitializableObject() noexcept;
 
-  constexpr ::StringW& __get_m_ProviderId();
+  constexpr ::StringW& __cordl_internal_get_m_ProviderId();
 
-  constexpr ::StringW const& __get_m_ProviderId() const;
+  constexpr ::StringW const& __cordl_internal_get_m_ProviderId() const;
 
-  constexpr void __set_m_ProviderId(::StringW value);
+  constexpr void __cordl_internal_set_m_ProviderId(::StringW value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags& __get_m_BehaviourFlags();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags& __cordl_internal_get_m_BehaviourFlags();
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags const& __get_m_BehaviourFlags() const;
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags const& __cordl_internal_get_m_BehaviourFlags() const;
 
-  constexpr void __set_m_BehaviourFlags(::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags value);
+  constexpr void __cordl_internal_set_m_BehaviourFlags(::UnityEngine::ResourceManagement::ResourceProviders::ProviderBehaviourFlags value);
 
   /// @brief Method get_ProviderId, addr 0x2bd7fb4, size 0x50, virtual true, abstract: false, final false
   inline ::StringW get_ProviderId();

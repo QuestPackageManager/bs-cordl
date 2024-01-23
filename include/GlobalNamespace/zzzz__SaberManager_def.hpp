@@ -32,29 +32,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__SaberManager__InitData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15036)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15036))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5295))
 // CS Name: ::SaberManager::InitData*
 class CORDL_TYPE __SaberManager__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field oneSaberMode, offset 0x10, size 0x1
-  __declspec(property(get = __get_oneSaberMode, put = __set_oneSaberMode)) bool oneSaberMode;
+  __declspec(property(get = __cordl_internal_get_oneSaberMode, put = __cordl_internal_set_oneSaberMode)) bool oneSaberMode;
 
   /// @brief Field oneSaberType, offset 0x14, size 0x4
-  __declspec(property(get = __get_oneSaberType, put = __set_oneSaberType))::GlobalNamespace::SaberType oneSaberType;
+  __declspec(property(get = __cordl_internal_get_oneSaberType, put = __cordl_internal_set_oneSaberType))::GlobalNamespace::SaberType oneSaberType;
 
-  constexpr bool& __get_oneSaberMode();
+  constexpr bool& __cordl_internal_get_oneSaberMode();
 
-  constexpr bool const& __get_oneSaberMode() const;
+  constexpr bool const& __cordl_internal_get_oneSaberMode() const;
 
-  constexpr void __set_oneSaberMode(bool value);
+  constexpr void __cordl_internal_set_oneSaberMode(bool value);
 
-  constexpr ::GlobalNamespace::SaberType& __get_oneSaberType();
+  constexpr ::GlobalNamespace::SaberType& __cordl_internal_get_oneSaberType();
 
-  constexpr ::GlobalNamespace::SaberType const& __get_oneSaberType() const;
+  constexpr ::GlobalNamespace::SaberType const& __cordl_internal_get_oneSaberType() const;
 
-  constexpr void __set_oneSaberType(::GlobalNamespace::SaberType value);
+  constexpr void __cordl_internal_set_oneSaberType(::GlobalNamespace::SaberType value);
 
   static inline ::GlobalNamespace::__SaberManager__InitData* New_ctor(bool oneSaberMode, ::GlobalNamespace::SaberType oneSaberType);
 
@@ -95,7 +95,7 @@ static_assert(offsetof(::GlobalNamespace::__SaberManager__InitData, ___oneSaberT
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5296))
 // CS Name: ::SaberManager*
 class CORDL_TYPE SaberManager : public ::UnityEngine::MonoBehaviour {
@@ -104,68 +104,69 @@ public:
   using InitData = ::GlobalNamespace::__SaberManager__InitData;
 
   /// @brief Field _leftSaber, offset 0x18, size 0x8
-  __declspec(property(get = __get__leftSaber, put = __set__leftSaber))::GlobalNamespace::Saber* _leftSaber;
+  __declspec(property(get = __cordl_internal_get__leftSaber, put = __cordl_internal_set__leftSaber))::UnityW<::GlobalNamespace::Saber> _leftSaber;
 
   /// @brief Field _rightSaber, offset 0x20, size 0x8
-  __declspec(property(get = __get__rightSaber, put = __set__rightSaber))::GlobalNamespace::Saber* _rightSaber;
+  __declspec(property(get = __cordl_internal_get__rightSaber, put = __cordl_internal_set__rightSaber))::UnityW<::GlobalNamespace::Saber> _rightSaber;
 
   /// @brief Field _initData, offset 0x28, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__SaberManager__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__SaberManager__InitData* _initData;
 
   /// @brief Field _started, offset 0x30, size 0x1
-  __declspec(property(get = __get__started, put = __set__started)) bool _started;
+  __declspec(property(get = __cordl_internal_get__started, put = __cordl_internal_set__started)) bool _started;
 
   /// @brief Field didUpdateSaberPositionsEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_didUpdateSaberPositionsEvent,
-                      put = __set_didUpdateSaberPositionsEvent))::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>* didUpdateSaberPositionsEvent;
+  __declspec(property(get = __cordl_internal_get_didUpdateSaberPositionsEvent,
+                      put = __cordl_internal_set_didUpdateSaberPositionsEvent))::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* didUpdateSaberPositionsEvent;
 
-  __declspec(property(get = get_leftSaber))::GlobalNamespace::Saber* leftSaber;
+  __declspec(property(get = get_leftSaber))::UnityW<::GlobalNamespace::Saber> leftSaber;
 
-  __declspec(property(get = get_rightSaber))::GlobalNamespace::Saber* rightSaber;
+  __declspec(property(get = get_rightSaber))::UnityW<::GlobalNamespace::Saber> rightSaber;
 
   __declspec(property(put = set_disableSabers)) bool disableSabers;
 
-  constexpr ::GlobalNamespace::Saber*& __get__leftSaber();
+  constexpr ::UnityW<::GlobalNamespace::Saber>& __cordl_internal_get__leftSaber();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Saber*> const& __get__leftSaber() const;
+  constexpr ::UnityW<::GlobalNamespace::Saber> const& __cordl_internal_get__leftSaber() const;
 
-  constexpr void __set__leftSaber(::GlobalNamespace::Saber* value);
+  constexpr void __cordl_internal_set__leftSaber(::UnityW<::GlobalNamespace::Saber> value);
 
-  constexpr ::GlobalNamespace::Saber*& __get__rightSaber();
+  constexpr ::UnityW<::GlobalNamespace::Saber>& __cordl_internal_get__rightSaber();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Saber*> const& __get__rightSaber() const;
+  constexpr ::UnityW<::GlobalNamespace::Saber> const& __cordl_internal_get__rightSaber() const;
 
-  constexpr void __set__rightSaber(::GlobalNamespace::Saber* value);
+  constexpr void __cordl_internal_set__rightSaber(::UnityW<::GlobalNamespace::Saber> value);
 
-  constexpr ::GlobalNamespace::__SaberManager__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__SaberManager__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SaberManager__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SaberManager__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__SaberManager__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__SaberManager__InitData* value);
 
-  constexpr bool& __get__started();
+  constexpr bool& __cordl_internal_get__started();
 
-  constexpr bool const& __get__started() const;
+  constexpr bool const& __cordl_internal_get__started() const;
 
-  constexpr void __set__started(bool value);
+  constexpr void __cordl_internal_set__started(bool value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>*& __get_didUpdateSaberPositionsEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>*& __cordl_internal_get_didUpdateSaberPositionsEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>*> const& __get_didUpdateSaberPositionsEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>*> const&
+  __cordl_internal_get_didUpdateSaberPositionsEvent() const;
 
-  constexpr void __set_didUpdateSaberPositionsEvent(::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>* value);
+  constexpr void __cordl_internal_set_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
 
   /// @brief Method get_leftSaber, addr 0x2263e98, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::Saber* get_leftSaber();
+  inline ::UnityW<::GlobalNamespace::Saber> get_leftSaber();
 
   /// @brief Method get_rightSaber, addr 0x2263ea0, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::Saber* get_rightSaber();
+  inline ::UnityW<::GlobalNamespace::Saber> get_rightSaber();
 
   /// @brief Method add_didUpdateSaberPositionsEvent, addr 0x2262830, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didUpdateSaberPositionsEvent(::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>* value);
+  inline void add_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
 
   /// @brief Method remove_didUpdateSaberPositionsEvent, addr 0x2262968, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didUpdateSaberPositionsEvent(::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>* value);
+  inline void remove_didUpdateSaberPositionsEvent(::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* value);
 
   /// @brief Method set_disableSabers, addr 0x2263ea8, size 0x10, virtual false, abstract: false, final false
   inline void set_disableSabers(bool value);
@@ -183,7 +184,7 @@ public:
   inline void Update();
 
   /// @brief Method SaberForType, addr 0x22640a0, size 0x50, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::Saber* SaberForType(::GlobalNamespace::SaberType saberType);
+  inline ::UnityW<::GlobalNamespace::Saber> SaberForType(::GlobalNamespace::SaberType saberType);
 
   /// @brief Method RefreshSabers, addr 0x2263ed4, size 0x124, virtual false, abstract: false, final false
   inline void RefreshSabers();
@@ -208,10 +209,10 @@ protected:
 
 public:
   /// @brief Field _leftSaber, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::Saber* ____leftSaber;
+  ::UnityW<::GlobalNamespace::Saber> ____leftSaber;
 
   /// @brief Field _rightSaber, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::Saber* ____rightSaber;
+  ::UnityW<::GlobalNamespace::Saber> ____rightSaber;
 
   /// @brief Field _initData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::__SaberManager__InitData* ____initData;
@@ -220,7 +221,7 @@ public:
   bool ____started;
 
   /// @brief Field didUpdateSaberPositionsEvent, offset: 0x38, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::Saber*, ::GlobalNamespace::Saber*>* ___didUpdateSaberPositionsEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::Saber>, ::UnityW<::GlobalNamespace::Saber>>* ___didUpdateSaberPositionsEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,23 +19,23 @@ MARK_REF_PTR_T(::System::Security::Cryptography::TailStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2944))
 // CS Name: ::System.Security.Cryptography::TailStream*
 class CORDL_TYPE TailStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field _Buffer, offset 0x28, size 0x8
-  __declspec(property(get = __get__Buffer, put = __set__Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _Buffer;
+  __declspec(property(get = __cordl_internal_get__Buffer, put = __cordl_internal_set__Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _Buffer;
 
   /// @brief Field _BufferSize, offset 0x30, size 0x4
-  __declspec(property(get = __get__BufferSize, put = __set__BufferSize)) int32_t _BufferSize;
+  __declspec(property(get = __cordl_internal_get__BufferSize, put = __cordl_internal_set__BufferSize)) int32_t _BufferSize;
 
   /// @brief Field _BufferIndex, offset 0x34, size 0x4
-  __declspec(property(get = __get__BufferIndex, put = __set__BufferIndex)) int32_t _BufferIndex;
+  __declspec(property(get = __cordl_internal_get__BufferIndex, put = __cordl_internal_set__BufferIndex)) int32_t _BufferIndex;
 
   /// @brief Field _BufferFull, offset 0x38, size 0x1
-  __declspec(property(get = __get__BufferFull, put = __set__BufferFull)) bool _BufferFull;
+  __declspec(property(get = __cordl_internal_get__BufferFull, put = __cordl_internal_set__BufferFull)) bool _BufferFull;
 
   __declspec(property(get = get_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
 
@@ -49,29 +49,29 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__Buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__Buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__Buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__Buffer() const;
 
-  constexpr void __set__Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__BufferSize();
+  constexpr int32_t& __cordl_internal_get__BufferSize();
 
-  constexpr int32_t const& __get__BufferSize() const;
+  constexpr int32_t const& __cordl_internal_get__BufferSize() const;
 
-  constexpr void __set__BufferSize(int32_t value);
+  constexpr void __cordl_internal_set__BufferSize(int32_t value);
 
-  constexpr int32_t& __get__BufferIndex();
+  constexpr int32_t& __cordl_internal_get__BufferIndex();
 
-  constexpr int32_t const& __get__BufferIndex() const;
+  constexpr int32_t const& __cordl_internal_get__BufferIndex() const;
 
-  constexpr void __set__BufferIndex(int32_t value);
+  constexpr void __cordl_internal_set__BufferIndex(int32_t value);
 
-  constexpr bool& __get__BufferFull();
+  constexpr bool& __cordl_internal_get__BufferFull();
 
-  constexpr bool const& __get__BufferFull() const;
+  constexpr bool const& __cordl_internal_get__BufferFull() const;
 
-  constexpr void __set__BufferFull(bool value);
+  constexpr void __cordl_internal_set__BufferFull(bool value);
 
   static inline ::System::Security::Cryptography::TailStream* New_ctor(int32_t bufferSize);
 

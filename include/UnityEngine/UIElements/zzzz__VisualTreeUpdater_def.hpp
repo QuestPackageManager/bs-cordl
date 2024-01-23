@@ -41,25 +41,26 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterArray);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6751))
 // CS Name: ::VisualTreeUpdater::UpdaterArray*
 class CORDL_TYPE __VisualTreeUpdater__UpdaterArray : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_VisualTreeUpdaters, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_VisualTreeUpdaters,
-                      put = __set_m_VisualTreeUpdaters))::ArrayW<::UnityEngine::UIElements::IVisualTreeUpdater*, ::Array<::UnityEngine::UIElements::IVisualTreeUpdater*>*> m_VisualTreeUpdaters;
+  __declspec(
+      property(get = __cordl_internal_get_m_VisualTreeUpdaters,
+               put = __cordl_internal_set_m_VisualTreeUpdaters))::ArrayW<::UnityEngine::UIElements::IVisualTreeUpdater*, ::Array<::UnityEngine::UIElements::IVisualTreeUpdater*>*> m_VisualTreeUpdaters;
 
   __declspec(property(get = get_Item, put = set_Item))::UnityEngine::UIElements::IVisualTreeUpdater* Item[];
 
   __declspec(property(get = get_Item))::UnityEngine::UIElements::IVisualTreeUpdater* Item[];
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::IVisualTreeUpdater*, ::Array<::UnityEngine::UIElements::IVisualTreeUpdater*>*>& __get_m_VisualTreeUpdaters();
+  constexpr ::ArrayW<::UnityEngine::UIElements::IVisualTreeUpdater*, ::Array<::UnityEngine::UIElements::IVisualTreeUpdater*>*>& __cordl_internal_get_m_VisualTreeUpdaters();
 
-  constexpr ::ArrayW<::UnityEngine::UIElements::IVisualTreeUpdater*, ::Array<::UnityEngine::UIElements::IVisualTreeUpdater*>*> const& __get_m_VisualTreeUpdaters() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::IVisualTreeUpdater*, ::Array<::UnityEngine::UIElements::IVisualTreeUpdater*>*> const& __cordl_internal_get_m_VisualTreeUpdaters() const;
 
-  constexpr void __set_m_VisualTreeUpdaters(::ArrayW<::UnityEngine::UIElements::IVisualTreeUpdater*, ::Array<::UnityEngine::UIElements::IVisualTreeUpdater*>*> value);
+  constexpr void __cordl_internal_set_m_VisualTreeUpdaters(::ArrayW<::UnityEngine::UIElements::IVisualTreeUpdater*, ::Array<::UnityEngine::UIElements::IVisualTreeUpdater*>*> value);
 
   static inline ::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterArray* New_ctor();
 
@@ -104,7 +105,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterAr
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6752))
 // CS Name: ::UnityEngine.UIElements::VisualTreeUpdater*
 class CORDL_TYPE VisualTreeUpdater : public ::System::Object {
@@ -113,10 +114,10 @@ public:
   using UpdaterArray = ::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterArray;
 
   /// @brief Field m_Panel, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Panel, put = __set_m_Panel))::UnityEngine::UIElements::BaseVisualElementPanel* m_Panel;
+  __declspec(property(get = __cordl_internal_get_m_Panel, put = __cordl_internal_set_m_Panel))::UnityEngine::UIElements::BaseVisualElementPanel* m_Panel;
 
   /// @brief Field m_UpdaterArray, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_UpdaterArray, put = __set_m_UpdaterArray))::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterArray* m_UpdaterArray;
+  __declspec(property(get = __cordl_internal_get_m_UpdaterArray, put = __cordl_internal_set_m_UpdaterArray))::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterArray* m_UpdaterArray;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -124,17 +125,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __get_m_Panel();
+  constexpr ::UnityEngine::UIElements::BaseVisualElementPanel*& __cordl_internal_get_m_Panel();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVisualElementPanel*> const& __get_m_Panel() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::BaseVisualElementPanel*> const& __cordl_internal_get_m_Panel() const;
 
-  constexpr void __set_m_Panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
+  constexpr void __cordl_internal_set_m_Panel(::UnityEngine::UIElements::BaseVisualElementPanel* value);
 
-  constexpr ::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterArray*& __get_m_UpdaterArray();
+  constexpr ::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterArray*& __cordl_internal_get_m_UpdaterArray();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterArray*> const& __get_m_UpdaterArray() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterArray*> const& __cordl_internal_get_m_UpdaterArray() const;
 
-  constexpr void __set_m_UpdaterArray(::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterArray* value);
+  constexpr void __cordl_internal_set_m_UpdaterArray(::UnityEngine::UIElements::__VisualTreeUpdater__UpdaterArray* value);
 
   static inline ::UnityEngine::UIElements::VisualTreeUpdater* New_ctor(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 

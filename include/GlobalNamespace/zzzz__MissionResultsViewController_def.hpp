@@ -90,23 +90,23 @@ MARK_REF_PTR_T(::GlobalNamespace::__MissionResultsViewController____c__DisplayCl
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5700))
 // CS Name: ::MissionResultsViewController::<StartFireworksAfterDelay>d__28*
 class CORDL_TYPE __MissionResultsViewController___StartFireworksAfterDelay_d__28 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field delay, offset 0x20, size 0x4
-  __declspec(property(get = __get_delay, put = __set_delay)) float_t delay;
+  __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MissionResultsViewController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MissionResultsViewController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -130,29 +130,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr float_t& __get_delay();
+  constexpr float_t& __cordl_internal_get_delay();
 
-  constexpr float_t const& __get_delay() const;
+  constexpr float_t const& __cordl_internal_get_delay() const;
 
-  constexpr void __set_delay(float_t value);
+  constexpr void __cordl_internal_set_delay(float_t value);
 
-  constexpr ::GlobalNamespace::MissionResultsViewController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionResultsViewController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MissionResultsViewController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MissionResultsViewController> value);
 
   static inline ::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28* New_ctor(int32_t __1__state);
 
@@ -198,7 +198,7 @@ public:
   float_t ___delay;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MissionResultsViewController* _____4__this;
+  ::UnityW<::GlobalNamespace::MissionResultsViewController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -218,48 +218,50 @@ static_assert(offsetof(::GlobalNamespace::__MissionResultsViewController___Start
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5701))
 // CS Name: ::MissionResultsViewController::<>c__DisplayClass29_0*
 class CORDL_TYPE __MissionResultsViewController____c__DisplayClass29_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field levelCleared, offset 0x10, size 0x1
-  __declspec(property(get = __get_levelCleared, put = __set_levelCleared)) bool levelCleared;
+  __declspec(property(get = __cordl_internal_get_levelCleared, put = __cordl_internal_set_levelCleared)) bool levelCleared;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MissionResultsViewController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MissionResultsViewController> __4__this;
 
   /// @brief Field missionObjectives, offset 0x20, size 0x8
-  __declspec(property(get = __get_missionObjectives, put = __set_missionObjectives))::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives;
+  __declspec(property(get = __cordl_internal_get_missionObjectives,
+                      put = __cordl_internal_set_missionObjectives))::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives;
 
   /// @brief Field missionObjectiveResults, offset 0x28, size 0x8
-  __declspec(property(get = __get_missionObjectiveResults,
-                      put = __set_missionObjectiveResults))::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults;
+  __declspec(
+      property(get = __cordl_internal_get_missionObjectiveResults,
+               put = __cordl_internal_set_missionObjectiveResults))::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> missionObjectiveResults;
 
-  constexpr bool& __get_levelCleared();
+  constexpr bool& __cordl_internal_get_levelCleared();
 
-  constexpr bool const& __get_levelCleared() const;
+  constexpr bool const& __cordl_internal_get_levelCleared() const;
 
-  constexpr void __set_levelCleared(bool value);
+  constexpr void __cordl_internal_set_levelCleared(bool value);
 
-  constexpr ::GlobalNamespace::MissionResultsViewController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionResultsViewController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MissionResultsViewController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MissionResultsViewController> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>& __get_missionObjectives();
+  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>& __cordl_internal_get_missionObjectives();
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> const& __get_missionObjectives() const;
+  constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> const& __cordl_internal_get_missionObjectives() const;
 
-  constexpr void __set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
+  constexpr void __cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*>& __get_missionObjectiveResults();
+  constexpr ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*>& __cordl_internal_get_missionObjectiveResults();
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> const& __get_missionObjectiveResults() const;
+  constexpr ::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> const& __cordl_internal_get_missionObjectiveResults() const;
 
-  constexpr void __set_missionObjectiveResults(::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> value);
+  constexpr void __cordl_internal_set_missionObjectiveResults(::ArrayW<::GlobalNamespace::MissionObjectiveResult*, ::Array<::GlobalNamespace::MissionObjectiveResult*>*> value);
 
   static inline ::GlobalNamespace::__MissionResultsViewController____c__DisplayClass29_0* New_ctor();
 
@@ -287,7 +289,7 @@ public:
   bool ___levelCleared;
 
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MissionResultsViewController* _____4__this;
+  ::UnityW<::GlobalNamespace::MissionResultsViewController> _____4__this;
 
   /// @brief Field missionObjectives, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> ___missionObjectives;
@@ -313,7 +315,7 @@ static_assert(offsetof(::GlobalNamespace::__MissionResultsViewController____c__D
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5702))
 // CS Name: ::MissionResultsViewController*
 class CORDL_TYPE MissionResultsViewController : public ::HMUI::ViewController {
@@ -324,205 +326,210 @@ public:
   using _StartFireworksAfterDelay_d__28 = ::GlobalNamespace::__MissionResultsViewController___StartFireworksAfterDelay_d__28;
 
   /// @brief Field _failedBannerGo, offset 0x70, size 0x8
-  __declspec(property(get = __get__failedBannerGo, put = __set__failedBannerGo))::UnityEngine::GameObject* _failedBannerGo;
+  __declspec(property(get = __cordl_internal_get__failedBannerGo, put = __cordl_internal_set__failedBannerGo))::UnityW<::UnityEngine::GameObject> _failedBannerGo;
 
   /// @brief Field _clearedBannerGo, offset 0x78, size 0x8
-  __declspec(property(get = __get__clearedBannerGo, put = __set__clearedBannerGo))::UnityEngine::GameObject* _clearedBannerGo;
+  __declspec(property(get = __cordl_internal_get__clearedBannerGo, put = __cordl_internal_set__clearedBannerGo))::UnityW<::UnityEngine::GameObject> _clearedBannerGo;
 
   /// @brief Field _missionNameText, offset 0x80, size 0x8
-  __declspec(property(get = __get__missionNameText, put = __set__missionNameText))::TMPro::TextMeshProUGUI* _missionNameText;
+  __declspec(property(get = __cordl_internal_get__missionNameText, put = __cordl_internal_set__missionNameText))::UnityW<::TMPro::TextMeshProUGUI> _missionNameText;
 
   /// @brief Field _songNameText, offset 0x88, size 0x8
-  __declspec(property(get = __get__songNameText, put = __set__songNameText))::TMPro::TextMeshProUGUI* _songNameText;
+  __declspec(property(get = __cordl_internal_get__songNameText, put = __cordl_internal_set__songNameText))::UnityW<::TMPro::TextMeshProUGUI> _songNameText;
 
   /// @brief Field _successIcon, offset 0x90, size 0x8
-  __declspec(property(get = __get__successIcon, put = __set__successIcon))::UnityEngine::Sprite* _successIcon;
+  __declspec(property(get = __cordl_internal_get__successIcon, put = __cordl_internal_set__successIcon))::UnityW<::UnityEngine::Sprite> _successIcon;
 
   /// @brief Field _successIconGlow, offset 0x98, size 0x8
-  __declspec(property(get = __get__successIconGlow, put = __set__successIconGlow))::UnityEngine::Sprite* _successIconGlow;
+  __declspec(property(get = __cordl_internal_get__successIconGlow, put = __cordl_internal_set__successIconGlow))::UnityW<::UnityEngine::Sprite> _successIconGlow;
 
   /// @brief Field _successColor, offset 0xa0, size 0x10
-  __declspec(property(get = __get__successColor, put = __set__successColor))::UnityEngine::Color _successColor;
+  __declspec(property(get = __cordl_internal_get__successColor, put = __cordl_internal_set__successColor))::UnityEngine::Color _successColor;
 
   /// @brief Field _failIcon, offset 0xb0, size 0x8
-  __declspec(property(get = __get__failIcon, put = __set__failIcon))::UnityEngine::Sprite* _failIcon;
+  __declspec(property(get = __cordl_internal_get__failIcon, put = __cordl_internal_set__failIcon))::UnityW<::UnityEngine::Sprite> _failIcon;
 
   /// @brief Field _failIconGlow, offset 0xb8, size 0x8
-  __declspec(property(get = __get__failIconGlow, put = __set__failIconGlow))::UnityEngine::Sprite* _failIconGlow;
+  __declspec(property(get = __cordl_internal_get__failIconGlow, put = __cordl_internal_set__failIconGlow))::UnityW<::UnityEngine::Sprite> _failIconGlow;
 
   /// @brief Field _failColor, offset 0xc0, size 0x10
-  __declspec(property(get = __get__failColor, put = __set__failColor))::UnityEngine::Color _failColor;
+  __declspec(property(get = __cordl_internal_get__failColor, put = __cordl_internal_set__failColor))::UnityEngine::Color _failColor;
 
   /// @brief Field _resultObjectiveListItemList, offset 0xd0, size 0x8
-  __declspec(property(get = __get__resultObjectiveListItemList, put = __set__resultObjectiveListItemList))::GlobalNamespace::ResultObjectiveListItemsList* _resultObjectiveListItemList;
+  __declspec(property(get = __cordl_internal_get__resultObjectiveListItemList,
+                      put = __cordl_internal_set__resultObjectiveListItemList))::UnityW<::GlobalNamespace::ResultObjectiveListItemsList> _resultObjectiveListItemList;
 
   /// @brief Field _continueButton, offset 0xd8, size 0x8
-  __declspec(property(get = __get__continueButton, put = __set__continueButton))::UnityEngine::UI::Button* _continueButton;
+  __declspec(property(get = __cordl_internal_get__continueButton, put = __cordl_internal_set__continueButton))::UnityW<::UnityEngine::UI::Button> _continueButton;
 
   /// @brief Field _retryButton, offset 0xe0, size 0x8
-  __declspec(property(get = __get__retryButton, put = __set__retryButton))::UnityEngine::UI::Button* _retryButton;
+  __declspec(property(get = __cordl_internal_get__retryButton, put = __cordl_internal_set__retryButton))::UnityW<::UnityEngine::UI::Button> _retryButton;
 
   /// @brief Field _levelClearedAudioClip, offset 0xe8, size 0x8
-  __declspec(property(get = __get__levelClearedAudioClip, put = __set__levelClearedAudioClip))::UnityEngine::AudioClip* _levelClearedAudioClip;
+  __declspec(property(get = __cordl_internal_get__levelClearedAudioClip, put = __cordl_internal_set__levelClearedAudioClip))::UnityW<::UnityEngine::AudioClip> _levelClearedAudioClip;
 
   /// @brief Field _fireworksController, offset 0xf0, size 0x8
-  __declspec(property(get = __get__fireworksController, put = __set__fireworksController))::GlobalNamespace::FireworksController* _fireworksController;
+  __declspec(property(get = __cordl_internal_get__fireworksController, put = __cordl_internal_set__fireworksController))::UnityW<::GlobalNamespace::FireworksController> _fireworksController;
 
   /// @brief Field _songPreviewPlayer, offset 0xf8, size 0x8
-  __declspec(property(get = __get__songPreviewPlayer, put = __set__songPreviewPlayer))::GlobalNamespace::SongPreviewPlayer* _songPreviewPlayer;
+  __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer))::UnityW<::GlobalNamespace::SongPreviewPlayer> _songPreviewPlayer;
 
   /// @brief Field continueButtonPressedEvent, offset 0x100, size 0x8
-  __declspec(property(get = __get_continueButtonPressedEvent, put = __set_continueButtonPressedEvent))::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* continueButtonPressedEvent;
+  __declspec(property(get = __cordl_internal_get_continueButtonPressedEvent,
+                      put = __cordl_internal_set_continueButtonPressedEvent))::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* continueButtonPressedEvent;
 
   /// @brief Field retryButtonPressedEvent, offset 0x108, size 0x8
-  __declspec(property(get = __get_retryButtonPressedEvent, put = __set_retryButtonPressedEvent))::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* retryButtonPressedEvent;
+  __declspec(property(get = __cordl_internal_get_retryButtonPressedEvent,
+                      put = __cordl_internal_set_retryButtonPressedEvent))::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* retryButtonPressedEvent;
 
   /// @brief Field _missionNode, offset 0x110, size 0x8
-  __declspec(property(get = __get__missionNode, put = __set__missionNode))::GlobalNamespace::MissionNode* _missionNode;
+  __declspec(property(get = __cordl_internal_get__missionNode, put = __cordl_internal_set__missionNode))::UnityW<::GlobalNamespace::MissionNode> _missionNode;
 
   /// @brief Field _missionCompletionResults, offset 0x118, size 0x8
-  __declspec(property(get = __get__missionCompletionResults, put = __set__missionCompletionResults))::GlobalNamespace::MissionCompletionResults* _missionCompletionResults;
+  __declspec(property(get = __cordl_internal_get__missionCompletionResults,
+                      put = __cordl_internal_set__missionCompletionResults))::GlobalNamespace::MissionCompletionResults* _missionCompletionResults;
 
   /// @brief Field _startFireworksAfterDelayCoroutine, offset 0x120, size 0x8
-  __declspec(property(get = __get__startFireworksAfterDelayCoroutine, put = __set__startFireworksAfterDelayCoroutine))::UnityEngine::Coroutine* _startFireworksAfterDelayCoroutine;
+  __declspec(property(get = __cordl_internal_get__startFireworksAfterDelayCoroutine,
+                      put = __cordl_internal_set__startFireworksAfterDelayCoroutine))::UnityEngine::Coroutine* _startFireworksAfterDelayCoroutine;
 
-  constexpr ::UnityEngine::GameObject*& __get__failedBannerGo();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__failedBannerGo();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__failedBannerGo() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__failedBannerGo() const;
 
-  constexpr void __set__failedBannerGo(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__failedBannerGo(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__clearedBannerGo();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__clearedBannerGo();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__clearedBannerGo() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__clearedBannerGo() const;
 
-  constexpr void __set__clearedBannerGo(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__clearedBannerGo(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__missionNameText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__missionNameText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__missionNameText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__missionNameText() const;
 
-  constexpr void __set__missionNameText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__missionNameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__songNameText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__songNameText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__songNameText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__songNameText() const;
 
-  constexpr void __set__songNameText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__songNameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__successIcon();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__successIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__successIcon() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__successIcon() const;
 
-  constexpr void __set__successIcon(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__successIcon(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__successIconGlow();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__successIconGlow();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__successIconGlow() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__successIconGlow() const;
 
-  constexpr void __set__successIconGlow(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__successIconGlow(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Color& __get__successColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__successColor();
 
-  constexpr ::UnityEngine::Color const& __get__successColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__successColor() const;
 
-  constexpr void __set__successColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__successColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Sprite*& __get__failIcon();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__failIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__failIcon() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__failIcon() const;
 
-  constexpr void __set__failIcon(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__failIcon(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__failIconGlow();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__failIconGlow();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__failIconGlow() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__failIconGlow() const;
 
-  constexpr void __set__failIconGlow(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__failIconGlow(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Color& __get__failColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__failColor();
 
-  constexpr ::UnityEngine::Color const& __get__failColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__failColor() const;
 
-  constexpr void __set__failColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__failColor(::UnityEngine::Color value);
 
-  constexpr ::GlobalNamespace::ResultObjectiveListItemsList*& __get__resultObjectiveListItemList();
+  constexpr ::UnityW<::GlobalNamespace::ResultObjectiveListItemsList>& __cordl_internal_get__resultObjectiveListItemList();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ResultObjectiveListItemsList*> const& __get__resultObjectiveListItemList() const;
+  constexpr ::UnityW<::GlobalNamespace::ResultObjectiveListItemsList> const& __cordl_internal_get__resultObjectiveListItemList() const;
 
-  constexpr void __set__resultObjectiveListItemList(::GlobalNamespace::ResultObjectiveListItemsList* value);
+  constexpr void __cordl_internal_set__resultObjectiveListItemList(::UnityW<::GlobalNamespace::ResultObjectiveListItemsList> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__continueButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__continueButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
 
-  constexpr void __set__continueButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__retryButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__retryButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__retryButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__retryButton() const;
 
-  constexpr void __set__retryButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__retryButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::AudioClip*& __get__levelClearedAudioClip();
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__levelClearedAudioClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& __get__levelClearedAudioClip() const;
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__levelClearedAudioClip() const;
 
-  constexpr void __set__levelClearedAudioClip(::UnityEngine::AudioClip* value);
+  constexpr void __cordl_internal_set__levelClearedAudioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  constexpr ::GlobalNamespace::FireworksController*& __get__fireworksController();
+  constexpr ::UnityW<::GlobalNamespace::FireworksController>& __cordl_internal_get__fireworksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FireworksController*> const& __get__fireworksController() const;
+  constexpr ::UnityW<::GlobalNamespace::FireworksController> const& __cordl_internal_get__fireworksController() const;
 
-  constexpr void __set__fireworksController(::GlobalNamespace::FireworksController* value);
+  constexpr void __cordl_internal_set__fireworksController(::UnityW<::GlobalNamespace::FireworksController> value);
 
-  constexpr ::GlobalNamespace::SongPreviewPlayer*& __get__songPreviewPlayer();
+  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer>& __cordl_internal_get__songPreviewPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPreviewPlayer*> const& __get__songPreviewPlayer() const;
+  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer> const& __cordl_internal_get__songPreviewPlayer() const;
 
-  constexpr void __set__songPreviewPlayer(::GlobalNamespace::SongPreviewPlayer* value);
+  constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::SongPreviewPlayer> value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*& __get_continueButtonPressedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*& __cordl_internal_get_continueButtonPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*> const& __get_continueButtonPressedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*> const& __cordl_internal_get_continueButtonPressedEvent() const;
 
-  constexpr void __set_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
+  constexpr void __cordl_internal_set_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*& __get_retryButtonPressedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*& __cordl_internal_get_retryButtonPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MissionResultsViewController*>*> const& __get_retryButtonPressedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>*> const& __cordl_internal_get_retryButtonPressedEvent() const;
 
-  constexpr void __set_retryButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
+  constexpr void __cordl_internal_set_retryButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
-  constexpr ::GlobalNamespace::MissionNode*& __get__missionNode();
+  constexpr ::UnityW<::GlobalNamespace::MissionNode>& __cordl_internal_get__missionNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNode*> const& __get__missionNode() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionNode> const& __cordl_internal_get__missionNode() const;
 
-  constexpr void __set__missionNode(::GlobalNamespace::MissionNode* value);
+  constexpr void __cordl_internal_set__missionNode(::UnityW<::GlobalNamespace::MissionNode> value);
 
-  constexpr ::GlobalNamespace::MissionCompletionResults*& __get__missionCompletionResults();
+  constexpr ::GlobalNamespace::MissionCompletionResults*& __cordl_internal_get__missionCompletionResults();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionCompletionResults*> const& __get__missionCompletionResults() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionCompletionResults*> const& __cordl_internal_get__missionCompletionResults() const;
 
-  constexpr void __set__missionCompletionResults(::GlobalNamespace::MissionCompletionResults* value);
+  constexpr void __cordl_internal_set__missionCompletionResults(::GlobalNamespace::MissionCompletionResults* value);
 
-  constexpr ::UnityEngine::Coroutine*& __get__startFireworksAfterDelayCoroutine();
+  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__startFireworksAfterDelayCoroutine();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __get__startFireworksAfterDelayCoroutine() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get__startFireworksAfterDelayCoroutine() const;
 
-  constexpr void __set__startFireworksAfterDelayCoroutine(::UnityEngine::Coroutine* value);
+  constexpr void __cordl_internal_set__startFireworksAfterDelayCoroutine(::UnityEngine::Coroutine* value);
 
   /// @brief Method add_continueButtonPressedEvent, addr 0x22ca568, size 0xb4, virtual false, abstract: false, final false
-  inline void add_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
+  inline void add_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
   /// @brief Method remove_continueButtonPressedEvent, addr 0x22ca61c, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
+  inline void remove_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
   /// @brief Method add_retryButtonPressedEvent, addr 0x22ca6d0, size 0xb4, virtual false, abstract: false, final false
-  inline void add_retryButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
+  inline void add_retryButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
   /// @brief Method remove_retryButtonPressedEvent, addr 0x22ca784, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_retryButtonPressedEvent(::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* value);
+  inline void remove_retryButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* value);
 
   /// @brief Method Init, addr 0x22ca838, size 0x8, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::MissionNode* missionNode, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
@@ -565,61 +572,61 @@ protected:
 
 public:
   /// @brief Field _failedBannerGo, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____failedBannerGo;
+  ::UnityW<::UnityEngine::GameObject> ____failedBannerGo;
 
   /// @brief Field _clearedBannerGo, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____clearedBannerGo;
+  ::UnityW<::UnityEngine::GameObject> ____clearedBannerGo;
 
   /// @brief Field _missionNameText, offset: 0x80, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____missionNameText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____missionNameText;
 
   /// @brief Field _songNameText, offset: 0x88, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____songNameText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____songNameText;
 
   /// @brief Field _successIcon, offset: 0x90, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____successIcon;
+  ::UnityW<::UnityEngine::Sprite> ____successIcon;
 
   /// @brief Field _successIconGlow, offset: 0x98, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____successIconGlow;
+  ::UnityW<::UnityEngine::Sprite> ____successIconGlow;
 
   /// @brief Field _successColor, offset: 0xa0, size: 0x10, def value: None
   ::UnityEngine::Color ____successColor;
 
   /// @brief Field _failIcon, offset: 0xb0, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____failIcon;
+  ::UnityW<::UnityEngine::Sprite> ____failIcon;
 
   /// @brief Field _failIconGlow, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____failIconGlow;
+  ::UnityW<::UnityEngine::Sprite> ____failIconGlow;
 
   /// @brief Field _failColor, offset: 0xc0, size: 0x10, def value: None
   ::UnityEngine::Color ____failColor;
 
   /// @brief Field _resultObjectiveListItemList, offset: 0xd0, size: 0x8, def value: None
-  ::GlobalNamespace::ResultObjectiveListItemsList* ____resultObjectiveListItemList;
+  ::UnityW<::GlobalNamespace::ResultObjectiveListItemsList> ____resultObjectiveListItemList;
 
   /// @brief Field _continueButton, offset: 0xd8, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____continueButton;
+  ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
   /// @brief Field _retryButton, offset: 0xe0, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____retryButton;
+  ::UnityW<::UnityEngine::UI::Button> ____retryButton;
 
   /// @brief Field _levelClearedAudioClip, offset: 0xe8, size: 0x8, def value: None
-  ::UnityEngine::AudioClip* ____levelClearedAudioClip;
+  ::UnityW<::UnityEngine::AudioClip> ____levelClearedAudioClip;
 
   /// @brief Field _fireworksController, offset: 0xf0, size: 0x8, def value: None
-  ::GlobalNamespace::FireworksController* ____fireworksController;
+  ::UnityW<::GlobalNamespace::FireworksController> ____fireworksController;
 
   /// @brief Field _songPreviewPlayer, offset: 0xf8, size: 0x8, def value: None
-  ::GlobalNamespace::SongPreviewPlayer* ____songPreviewPlayer;
+  ::UnityW<::GlobalNamespace::SongPreviewPlayer> ____songPreviewPlayer;
 
   /// @brief Field continueButtonPressedEvent, offset: 0x100, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* ___continueButtonPressedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* ___continueButtonPressedEvent;
 
   /// @brief Field retryButtonPressedEvent, offset: 0x108, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MissionResultsViewController*>* ___retryButtonPressedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MissionResultsViewController>>* ___retryButtonPressedEvent;
 
   /// @brief Field _missionNode, offset: 0x110, size: 0x8, def value: None
-  ::GlobalNamespace::MissionNode* ____missionNode;
+  ::UnityW<::GlobalNamespace::MissionNode> ____missionNode;
 
   /// @brief Field _missionCompletionResults, offset: 0x118, size: 0x8, def value: None
   ::GlobalNamespace::MissionCompletionResults* ____missionCompletionResults;

@@ -26,56 +26,57 @@ MARK_REF_PTR_T(::HMUI::SelectableCellStaticAnimations);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13654))
 // CS Name: ::HMUI::SelectableCellStaticAnimations*
 class CORDL_TYPE SelectableCellStaticAnimations : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _selectableCell, offset 0x18, size 0x8
-  __declspec(property(get = __get__selectableCell, put = __set__selectableCell))::HMUI::SelectableCell* _selectableCell;
+  __declspec(property(get = __cordl_internal_get__selectableCell, put = __cordl_internal_set__selectableCell))::UnityW<::HMUI::SelectableCell> _selectableCell;
 
   /// @brief Field _normalAnimationClip, offset 0x20, size 0x8
-  __declspec(property(get = __get__normalAnimationClip, put = __set__normalAnimationClip))::UnityEngine::AnimationClip* _normalAnimationClip;
+  __declspec(property(get = __cordl_internal_get__normalAnimationClip, put = __cordl_internal_set__normalAnimationClip))::UnityW<::UnityEngine::AnimationClip> _normalAnimationClip;
 
   /// @brief Field _highlightedAnimationClip, offset 0x28, size 0x8
-  __declspec(property(get = __get__highlightedAnimationClip, put = __set__highlightedAnimationClip))::UnityEngine::AnimationClip* _highlightedAnimationClip;
+  __declspec(property(get = __cordl_internal_get__highlightedAnimationClip, put = __cordl_internal_set__highlightedAnimationClip))::UnityW<::UnityEngine::AnimationClip> _highlightedAnimationClip;
 
   /// @brief Field _selectedAnimationClip, offset 0x30, size 0x8
-  __declspec(property(get = __get__selectedAnimationClip, put = __set__selectedAnimationClip))::UnityEngine::AnimationClip* _selectedAnimationClip;
+  __declspec(property(get = __cordl_internal_get__selectedAnimationClip, put = __cordl_internal_set__selectedAnimationClip))::UnityW<::UnityEngine::AnimationClip> _selectedAnimationClip;
 
   /// @brief Field _selectedAndHighlightedAnimationClip, offset 0x38, size 0x8
-  __declspec(property(get = __get__selectedAndHighlightedAnimationClip, put = __set__selectedAndHighlightedAnimationClip))::UnityEngine::AnimationClip* _selectedAndHighlightedAnimationClip;
+  __declspec(property(get = __cordl_internal_get__selectedAndHighlightedAnimationClip,
+                      put = __cordl_internal_set__selectedAndHighlightedAnimationClip))::UnityW<::UnityEngine::AnimationClip> _selectedAndHighlightedAnimationClip;
 
-  constexpr ::HMUI::SelectableCell*& __get__selectableCell();
+  constexpr ::UnityW<::HMUI::SelectableCell>& __cordl_internal_get__selectableCell();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::SelectableCell*> const& __get__selectableCell() const;
+  constexpr ::UnityW<::HMUI::SelectableCell> const& __cordl_internal_get__selectableCell() const;
 
-  constexpr void __set__selectableCell(::HMUI::SelectableCell* value);
+  constexpr void __cordl_internal_set__selectableCell(::UnityW<::HMUI::SelectableCell> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__normalAnimationClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__normalAnimationClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__normalAnimationClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__normalAnimationClip() const;
 
-  constexpr void __set__normalAnimationClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__normalAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__highlightedAnimationClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__highlightedAnimationClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__highlightedAnimationClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__highlightedAnimationClip() const;
 
-  constexpr void __set__highlightedAnimationClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__highlightedAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__selectedAnimationClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__selectedAnimationClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__selectedAnimationClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__selectedAnimationClip() const;
 
-  constexpr void __set__selectedAnimationClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__selectedAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__selectedAndHighlightedAnimationClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__selectedAndHighlightedAnimationClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__selectedAndHighlightedAnimationClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__selectedAndHighlightedAnimationClip() const;
 
-  constexpr void __set__selectedAndHighlightedAnimationClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__selectedAndHighlightedAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
   /// @brief Method Awake, addr 0x2145e20, size 0xec, virtual false, abstract: false, final false
   inline void Awake();
@@ -115,19 +116,19 @@ protected:
 
 public:
   /// @brief Field _selectableCell, offset: 0x18, size: 0x8, def value: None
-  ::HMUI::SelectableCell* ____selectableCell;
+  ::UnityW<::HMUI::SelectableCell> ____selectableCell;
 
   /// @brief Field _normalAnimationClip, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____normalAnimationClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____normalAnimationClip;
 
   /// @brief Field _highlightedAnimationClip, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____highlightedAnimationClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____highlightedAnimationClip;
 
   /// @brief Field _selectedAnimationClip, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____selectedAnimationClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____selectedAnimationClip;
 
   /// @brief Field _selectedAndHighlightedAnimationClip, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____selectedAndHighlightedAnimationClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____selectedAndHighlightedAnimationClip;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

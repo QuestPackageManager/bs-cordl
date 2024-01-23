@@ -21,41 +21,43 @@ MARK_REF_PTR_T(::GlobalNamespace::AlwaysOwnedContentSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4102))
 // CS Name: ::AlwaysOwnedContentSO*
 class CORDL_TYPE AlwaysOwnedContentSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _alwaysOwnedPacks, offset 0x18, size 0x8
-  __declspec(property(get = __get__alwaysOwnedPacks,
-                      put = __set__alwaysOwnedPacks))::ArrayW<::GlobalNamespace::BeatmapLevelPackSO*, ::Array<::GlobalNamespace::BeatmapLevelPackSO*>*> _alwaysOwnedPacks;
+  __declspec(
+      property(get = __cordl_internal_get__alwaysOwnedPacks,
+               put = __cordl_internal_set__alwaysOwnedPacks))::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>*> _alwaysOwnedPacks;
 
   /// @brief Field _alwaysOwnedBeatmapLevels, offset 0x20, size 0x8
-  __declspec(property(get = __get__alwaysOwnedBeatmapLevels,
-                      put = __set__alwaysOwnedBeatmapLevels))::ArrayW<::GlobalNamespace::BeatmapLevelSO*, ::Array<::GlobalNamespace::BeatmapLevelSO*>*> _alwaysOwnedBeatmapLevels;
+  __declspec(property(
+      get = __cordl_internal_get__alwaysOwnedBeatmapLevels,
+      put = __cordl_internal_set__alwaysOwnedBeatmapLevels))::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*> _alwaysOwnedBeatmapLevels;
 
-  __declspec(property(get = get_alwaysOwnedPacks))::ArrayW<::GlobalNamespace::BeatmapLevelPackSO*, ::Array<::GlobalNamespace::BeatmapLevelPackSO*>*> alwaysOwnedPacks;
+  __declspec(property(get = get_alwaysOwnedPacks))::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>*> alwaysOwnedPacks;
 
-  __declspec(property(get = get_alwaysOwnedBeatmapLevels))::ArrayW<::GlobalNamespace::BeatmapLevelSO*, ::Array<::GlobalNamespace::BeatmapLevelSO*>*> alwaysOwnedBeatmapLevels;
+  __declspec(property(get = get_alwaysOwnedBeatmapLevels))::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*> alwaysOwnedBeatmapLevels;
 
-  constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelPackSO*, ::Array<::GlobalNamespace::BeatmapLevelPackSO*>*>& __get__alwaysOwnedPacks();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>*>& __cordl_internal_get__alwaysOwnedPacks();
 
-  constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelPackSO*, ::Array<::GlobalNamespace::BeatmapLevelPackSO*>*> const& __get__alwaysOwnedPacks() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>*> const& __cordl_internal_get__alwaysOwnedPacks() const;
 
-  constexpr void __set__alwaysOwnedPacks(::ArrayW<::GlobalNamespace::BeatmapLevelPackSO*, ::Array<::GlobalNamespace::BeatmapLevelPackSO*>*> value);
+  constexpr void __cordl_internal_set__alwaysOwnedPacks(::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelSO*, ::Array<::GlobalNamespace::BeatmapLevelSO*>*>& __get__alwaysOwnedBeatmapLevels();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*>& __cordl_internal_get__alwaysOwnedBeatmapLevels();
 
-  constexpr ::ArrayW<::GlobalNamespace::BeatmapLevelSO*, ::Array<::GlobalNamespace::BeatmapLevelSO*>*> const& __get__alwaysOwnedBeatmapLevels() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*> const& __cordl_internal_get__alwaysOwnedBeatmapLevels() const;
 
-  constexpr void __set__alwaysOwnedBeatmapLevels(::ArrayW<::GlobalNamespace::BeatmapLevelSO*, ::Array<::GlobalNamespace::BeatmapLevelSO*>*> value);
+  constexpr void __cordl_internal_set__alwaysOwnedBeatmapLevels(::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*> value);
 
   /// @brief Method get_alwaysOwnedPacks, addr 0x22343f4, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::BeatmapLevelPackSO*, ::Array<::GlobalNamespace::BeatmapLevelPackSO*>*> get_alwaysOwnedPacks();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>*> get_alwaysOwnedPacks();
 
   /// @brief Method get_alwaysOwnedBeatmapLevels, addr 0x22343fc, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::BeatmapLevelSO*, ::Array<::GlobalNamespace::BeatmapLevelSO*>*> get_alwaysOwnedBeatmapLevels();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*> get_alwaysOwnedBeatmapLevels();
 
   static inline ::GlobalNamespace::AlwaysOwnedContentSO* New_ctor();
 
@@ -77,10 +79,10 @@ protected:
 
 public:
   /// @brief Field _alwaysOwnedPacks, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::BeatmapLevelPackSO*, ::Array<::GlobalNamespace::BeatmapLevelPackSO*>*> ____alwaysOwnedPacks;
+  ::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelPackSO>>*> ____alwaysOwnedPacks;
 
   /// @brief Field _alwaysOwnedBeatmapLevels, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::BeatmapLevelSO*, ::Array<::GlobalNamespace::BeatmapLevelSO*>*> ____alwaysOwnedBeatmapLevels;
+  ::ArrayW<::UnityW<::GlobalNamespace::BeatmapLevelSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapLevelSO>>*> ____alwaysOwnedBeatmapLevels;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

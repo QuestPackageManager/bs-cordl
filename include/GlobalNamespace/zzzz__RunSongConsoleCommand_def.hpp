@@ -88,20 +88,20 @@ MARK_VAL_T(::GlobalNamespace::__RunSongConsoleCommand___ExecuteAsync_d__14);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5985))
 // CS Name: ::RunSongConsoleCommand::<>c__DisplayClass14_0*
 class CORDL_TYPE __RunSongConsoleCommand____c__DisplayClass14_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field characteristic, offset 0x10, size 0x8
-  __declspec(property(get = __get_characteristic, put = __set_characteristic))::StringW characteristic;
+  __declspec(property(get = __cordl_internal_get_characteristic, put = __cordl_internal_set_characteristic))::StringW characteristic;
 
-  constexpr ::StringW& __get_characteristic();
+  constexpr ::StringW& __cordl_internal_get_characteristic();
 
-  constexpr ::StringW const& __get_characteristic() const;
+  constexpr ::StringW const& __cordl_internal_get_characteristic() const;
 
-  constexpr void __set_characteristic(::StringW value);
+  constexpr void __cordl_internal_set_characteristic(::StringW value);
 
   static inline ::GlobalNamespace::__RunSongConsoleCommand____c__DisplayClass14_0* New_ctor();
 
@@ -140,7 +140,7 @@ static_assert(offsetof(::GlobalNamespace::__RunSongConsoleCommand____c__DisplayC
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5986))
 // CS Name: ::RunSongConsoleCommand::<>c*
 class CORDL_TYPE __RunSongConsoleCommand____c : public ::System::Object {
@@ -202,8 +202,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__RunSongConsol
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(4358)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 906 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5987)) CS Name: ::RunSongConsoleCommand::<ExecuteAsync>d__14
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(4358)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 906 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5987)) CS Name: ::RunSongConsoleCommand::<ExecuteAsync>d__14
 struct CORDL_TYPE __RunSongConsoleCommand___ExecuteAsync_d__14 {
 public:
   // Declarations
@@ -277,7 +277,7 @@ static_assert(offsetof(::GlobalNamespace::__RunSongConsoleCommand___ExecuteAsync
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5983))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5983))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5988))
 // CS Name: ::RunSongConsoleCommand*
 class CORDL_TYPE RunSongConsoleCommand : public ::GlobalNamespace::ConsoleCommandBase {
@@ -290,69 +290,69 @@ public:
   using __c__DisplayClass14_0 = ::GlobalNamespace::__RunSongConsoleCommand____c__DisplayClass14_0;
 
   /// @brief Field _songRunningHelper, offset 0x18, size 0x8
-  __declspec(property(get = __get__songRunningHelper, put = __set__songRunningHelper))::GlobalNamespace::SongRunningHelper* _songRunningHelper;
+  __declspec(property(get = __cordl_internal_get__songRunningHelper, put = __cordl_internal_set__songRunningHelper))::GlobalNamespace::SongRunningHelper* _songRunningHelper;
 
   /// @brief Field _beatmapLevels, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapLevels, put = __set__beatmapLevels))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevels;
+  __declspec(property(get = __cordl_internal_get__beatmapLevels, put = __cordl_internal_set__beatmapLevels))::UnityW<::GlobalNamespace::BeatmapLevelsModel> _beatmapLevels;
 
   /// @brief Field _levelId, offset 0x28, size 0x8
-  __declspec(property(get = __get__levelId, put = __set__levelId))::GlobalNamespace::RequiredArgument_1<::StringW>* _levelId;
+  __declspec(property(get = __cordl_internal_get__levelId, put = __cordl_internal_set__levelId))::GlobalNamespace::RequiredArgument_1<::StringW>* _levelId;
 
   /// @brief Field _runAutopilot, offset 0x30, size 0x8
-  __declspec(property(get = __get__runAutopilot, put = __set__runAutopilot))::GlobalNamespace::OptionalArgument_1<bool>* _runAutopilot;
+  __declspec(property(get = __cordl_internal_get__runAutopilot, put = __cordl_internal_set__runAutopilot))::GlobalNamespace::OptionalArgument_1<bool>* _runAutopilot;
 
   /// @brief Field _runUnityProfiler, offset 0x38, size 0x8
-  __declspec(property(get = __get__runUnityProfiler, put = __set__runUnityProfiler))::GlobalNamespace::OptionalArgument_1<bool>* _runUnityProfiler;
+  __declspec(property(get = __cordl_internal_get__runUnityProfiler, put = __cordl_internal_set__runUnityProfiler))::GlobalNamespace::OptionalArgument_1<bool>* _runUnityProfiler;
 
   /// @brief Field _difficulty, offset 0x40, size 0x8
-  __declspec(property(get = __get__difficulty, put = __set__difficulty))::GlobalNamespace::OptionalArgument_1<int32_t>* _difficulty;
+  __declspec(property(get = __cordl_internal_get__difficulty, put = __cordl_internal_set__difficulty))::GlobalNamespace::OptionalArgument_1<int32_t>* _difficulty;
 
   /// @brief Field _characteristic, offset 0x48, size 0x8
-  __declspec(property(get = __get__characteristic, put = __set__characteristic))::GlobalNamespace::OptionalArgument_1<::StringW>* _characteristic;
+  __declspec(property(get = __cordl_internal_get__characteristic, put = __cordl_internal_set__characteristic))::GlobalNamespace::OptionalArgument_1<::StringW>* _characteristic;
 
   __declspec(property(get = get_isAsyncCommand)) bool isAsyncCommand;
 
-  constexpr ::GlobalNamespace::SongRunningHelper*& __get__songRunningHelper();
+  constexpr ::GlobalNamespace::SongRunningHelper*& __cordl_internal_get__songRunningHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongRunningHelper*> const& __get__songRunningHelper() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongRunningHelper*> const& __cordl_internal_get__songRunningHelper() const;
 
-  constexpr void __set__songRunningHelper(::GlobalNamespace::SongRunningHelper* value);
+  constexpr void __cordl_internal_set__songRunningHelper(::GlobalNamespace::SongRunningHelper* value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __get__beatmapLevels();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsModel>& __cordl_internal_get__beatmapLevels();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __get__beatmapLevels() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsModel> const& __cordl_internal_get__beatmapLevels() const;
 
-  constexpr void __set__beatmapLevels(::GlobalNamespace::BeatmapLevelsModel* value);
+  constexpr void __cordl_internal_set__beatmapLevels(::UnityW<::GlobalNamespace::BeatmapLevelsModel> value);
 
-  constexpr ::GlobalNamespace::RequiredArgument_1<::StringW>*& __get__levelId();
+  constexpr ::GlobalNamespace::RequiredArgument_1<::StringW>*& __cordl_internal_get__levelId();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RequiredArgument_1<::StringW>*> const& __get__levelId() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RequiredArgument_1<::StringW>*> const& __cordl_internal_get__levelId() const;
 
-  constexpr void __set__levelId(::GlobalNamespace::RequiredArgument_1<::StringW>* value);
+  constexpr void __cordl_internal_set__levelId(::GlobalNamespace::RequiredArgument_1<::StringW>* value);
 
-  constexpr ::GlobalNamespace::OptionalArgument_1<bool>*& __get__runAutopilot();
+  constexpr ::GlobalNamespace::OptionalArgument_1<bool>*& __cordl_internal_get__runAutopilot();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OptionalArgument_1<bool>*> const& __get__runAutopilot() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OptionalArgument_1<bool>*> const& __cordl_internal_get__runAutopilot() const;
 
-  constexpr void __set__runAutopilot(::GlobalNamespace::OptionalArgument_1<bool>* value);
+  constexpr void __cordl_internal_set__runAutopilot(::GlobalNamespace::OptionalArgument_1<bool>* value);
 
-  constexpr ::GlobalNamespace::OptionalArgument_1<bool>*& __get__runUnityProfiler();
+  constexpr ::GlobalNamespace::OptionalArgument_1<bool>*& __cordl_internal_get__runUnityProfiler();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OptionalArgument_1<bool>*> const& __get__runUnityProfiler() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OptionalArgument_1<bool>*> const& __cordl_internal_get__runUnityProfiler() const;
 
-  constexpr void __set__runUnityProfiler(::GlobalNamespace::OptionalArgument_1<bool>* value);
+  constexpr void __cordl_internal_set__runUnityProfiler(::GlobalNamespace::OptionalArgument_1<bool>* value);
 
-  constexpr ::GlobalNamespace::OptionalArgument_1<int32_t>*& __get__difficulty();
+  constexpr ::GlobalNamespace::OptionalArgument_1<int32_t>*& __cordl_internal_get__difficulty();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OptionalArgument_1<int32_t>*> const& __get__difficulty() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OptionalArgument_1<int32_t>*> const& __cordl_internal_get__difficulty() const;
 
-  constexpr void __set__difficulty(::GlobalNamespace::OptionalArgument_1<int32_t>* value);
+  constexpr void __cordl_internal_set__difficulty(::GlobalNamespace::OptionalArgument_1<int32_t>* value);
 
-  constexpr ::GlobalNamespace::OptionalArgument_1<::StringW>*& __get__characteristic();
+  constexpr ::GlobalNamespace::OptionalArgument_1<::StringW>*& __cordl_internal_get__characteristic();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OptionalArgument_1<::StringW>*> const& __get__characteristic() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OptionalArgument_1<::StringW>*> const& __cordl_internal_get__characteristic() const;
 
-  constexpr void __set__characteristic(::GlobalNamespace::OptionalArgument_1<::StringW>* value);
+  constexpr void __cordl_internal_set__characteristic(::GlobalNamespace::OptionalArgument_1<::StringW>* value);
 
   /// @brief Method get_isAsyncCommand, addr 0x230fb5c, size 0x8, virtual true, abstract: false, final false
   inline bool get_isAsyncCommand();
@@ -398,7 +398,7 @@ public:
   ::GlobalNamespace::SongRunningHelper* ____songRunningHelper;
 
   /// @brief Field _beatmapLevels, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevels;
+  ::UnityW<::GlobalNamespace::BeatmapLevelsModel> ____beatmapLevels;
 
   /// @brief Field _levelId, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::RequiredArgument_1<::StringW>* ____levelId;

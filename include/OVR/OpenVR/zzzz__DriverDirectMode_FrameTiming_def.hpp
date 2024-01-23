@@ -15,7 +15,7 @@ MARK_VAL_T(::OVR::OpenVR::DriverDirectMode_FrameTiming);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8701))
 // CS Name: ::OVR.OpenVR::DriverDirectMode_FrameTiming
 struct CORDL_TYPE DriverDirectMode_FrameTiming {

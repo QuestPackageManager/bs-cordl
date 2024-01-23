@@ -75,65 +75,65 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__IKSolver__UpdateDelegate);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12559))
 // CS Name: ::IKSolver::Point*
 class CORDL_TYPE __IKSolver__Point : public ::System::Object {
 public:
   // Declarations
   /// @brief Field transform, offset 0x10, size 0x8
-  __declspec(property(get = __get_transform, put = __set_transform))::UnityEngine::Transform* transform;
+  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
 
   /// @brief Field weight, offset 0x18, size 0x4
-  __declspec(property(get = __get_weight, put = __set_weight)) float_t weight;
+  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
   /// @brief Field solverPosition, offset 0x1c, size 0xc
-  __declspec(property(get = __get_solverPosition, put = __set_solverPosition))::UnityEngine::Vector3 solverPosition;
+  __declspec(property(get = __cordl_internal_get_solverPosition, put = __cordl_internal_set_solverPosition))::UnityEngine::Vector3 solverPosition;
 
   /// @brief Field solverRotation, offset 0x28, size 0x10
-  __declspec(property(get = __get_solverRotation, put = __set_solverRotation))::UnityEngine::Quaternion solverRotation;
+  __declspec(property(get = __cordl_internal_get_solverRotation, put = __cordl_internal_set_solverRotation))::UnityEngine::Quaternion solverRotation;
 
   /// @brief Field defaultLocalPosition, offset 0x38, size 0xc
-  __declspec(property(get = __get_defaultLocalPosition, put = __set_defaultLocalPosition))::UnityEngine::Vector3 defaultLocalPosition;
+  __declspec(property(get = __cordl_internal_get_defaultLocalPosition, put = __cordl_internal_set_defaultLocalPosition))::UnityEngine::Vector3 defaultLocalPosition;
 
   /// @brief Field defaultLocalRotation, offset 0x44, size 0x10
-  __declspec(property(get = __get_defaultLocalRotation, put = __set_defaultLocalRotation))::UnityEngine::Quaternion defaultLocalRotation;
+  __declspec(property(get = __cordl_internal_get_defaultLocalRotation, put = __cordl_internal_set_defaultLocalRotation))::UnityEngine::Quaternion defaultLocalRotation;
 
-  constexpr ::UnityEngine::Transform*& __get_transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_transform() const;
 
-  constexpr void __set_transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get_weight();
+  constexpr float_t& __cordl_internal_get_weight();
 
-  constexpr float_t const& __get_weight() const;
+  constexpr float_t const& __cordl_internal_get_weight() const;
 
-  constexpr void __set_weight(float_t value);
+  constexpr void __cordl_internal_set_weight(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get_solverPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_solverPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_solverPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_solverPosition() const;
 
-  constexpr void __set_solverPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_solverPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_solverRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_solverRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_solverRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_solverRotation() const;
 
-  constexpr void __set_solverRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_solverRotation(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Vector3& __get_defaultLocalPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_defaultLocalPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_defaultLocalPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_defaultLocalPosition() const;
 
-  constexpr void __set_defaultLocalPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_defaultLocalPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_defaultLocalRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_defaultLocalRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_defaultLocalRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_defaultLocalRotation() const;
 
-  constexpr void __set_defaultLocalRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_defaultLocalRotation(::UnityEngine::Quaternion value);
 
   /// @brief Method StoreDefaultLocalState, addr 0x125ec54, size 0x44, virtual false, abstract: false, final false
   inline void StoreDefaultLocalState();
@@ -173,7 +173,7 @@ protected:
 
 public:
   /// @brief Field transform, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___transform;
+  ::UnityW<::UnityEngine::Transform> ___transform;
 
   /// @brief Field weight, offset: 0x18, size: 0x4, def value: None
   float_t ___weight;
@@ -212,61 +212,61 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolver__Point, ___defaultLocal
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12559))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12559))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12560))
 // CS Name: ::IKSolver::Bone*
 class CORDL_TYPE __IKSolver__Bone : public ::RootMotion::FinalIK::__IKSolver__Point {
 public:
   // Declarations
   /// @brief Field length, offset 0x54, size 0x4
-  __declspec(property(get = __get_length, put = __set_length)) float_t length;
+  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) float_t length;
 
   /// @brief Field sqrMag, offset 0x58, size 0x4
-  __declspec(property(get = __get_sqrMag, put = __set_sqrMag)) float_t sqrMag;
+  __declspec(property(get = __cordl_internal_get_sqrMag, put = __cordl_internal_set_sqrMag)) float_t sqrMag;
 
   /// @brief Field axis, offset 0x5c, size 0xc
-  __declspec(property(get = __get_axis, put = __set_axis))::UnityEngine::Vector3 axis;
+  __declspec(property(get = __cordl_internal_get_axis, put = __cordl_internal_set_axis))::UnityEngine::Vector3 axis;
 
   /// @brief Field _rotationLimit, offset 0x68, size 0x8
-  __declspec(property(get = __get__rotationLimit, put = __set__rotationLimit))::RootMotion::FinalIK::RotationLimit* _rotationLimit;
+  __declspec(property(get = __cordl_internal_get__rotationLimit, put = __cordl_internal_set__rotationLimit))::UnityW<::RootMotion::FinalIK::RotationLimit> _rotationLimit;
 
   /// @brief Field isLimited, offset 0x70, size 0x1
-  __declspec(property(get = __get_isLimited, put = __set_isLimited)) bool isLimited;
+  __declspec(property(get = __cordl_internal_get_isLimited, put = __cordl_internal_set_isLimited)) bool isLimited;
 
-  __declspec(property(get = get_rotationLimit, put = set_rotationLimit))::RootMotion::FinalIK::RotationLimit* rotationLimit;
+  __declspec(property(get = get_rotationLimit, put = set_rotationLimit))::UnityW<::RootMotion::FinalIK::RotationLimit> rotationLimit;
 
-  constexpr float_t& __get_length();
+  constexpr float_t& __cordl_internal_get_length();
 
-  constexpr float_t const& __get_length() const;
+  constexpr float_t const& __cordl_internal_get_length() const;
 
-  constexpr void __set_length(float_t value);
+  constexpr void __cordl_internal_set_length(float_t value);
 
-  constexpr float_t& __get_sqrMag();
+  constexpr float_t& __cordl_internal_get_sqrMag();
 
-  constexpr float_t const& __get_sqrMag() const;
+  constexpr float_t const& __cordl_internal_get_sqrMag() const;
 
-  constexpr void __set_sqrMag(float_t value);
+  constexpr void __cordl_internal_set_sqrMag(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get_axis();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_axis();
 
-  constexpr ::UnityEngine::Vector3 const& __get_axis() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_axis() const;
 
-  constexpr void __set_axis(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_axis(::UnityEngine::Vector3 value);
 
-  constexpr ::RootMotion::FinalIK::RotationLimit*& __get__rotationLimit();
+  constexpr ::UnityW<::RootMotion::FinalIK::RotationLimit>& __cordl_internal_get__rotationLimit();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::RotationLimit*> const& __get__rotationLimit() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::RotationLimit> const& __cordl_internal_get__rotationLimit() const;
 
-  constexpr void __set__rotationLimit(::RootMotion::FinalIK::RotationLimit* value);
+  constexpr void __cordl_internal_set__rotationLimit(::UnityW<::RootMotion::FinalIK::RotationLimit> value);
 
-  constexpr bool& __get_isLimited();
+  constexpr bool& __cordl_internal_get_isLimited();
 
-  constexpr bool const& __get_isLimited() const;
+  constexpr bool const& __cordl_internal_get_isLimited() const;
 
-  constexpr void __set_isLimited(bool value);
+  constexpr void __cordl_internal_set_isLimited(bool value);
 
   /// @brief Method get_rotationLimit, addr 0x125eeb8, size 0xe0, virtual false, abstract: false, final false
-  inline ::RootMotion::FinalIK::RotationLimit* get_rotationLimit();
+  inline ::UnityW<::RootMotion::FinalIK::RotationLimit> get_rotationLimit();
 
   /// @brief Method set_rotationLimit, addr 0x125ef98, size 0x78, virtual false, abstract: false, final false
   inline void set_rotationLimit(::RootMotion::FinalIK::RotationLimit* value);
@@ -323,7 +323,7 @@ public:
   ::UnityEngine::Vector3 ___axis;
 
   /// @brief Field _rotationLimit, offset: 0x68, size: 0x8, def value: None
-  ::RootMotion::FinalIK::RotationLimit* ____rotationLimit;
+  ::UnityW<::RootMotion::FinalIK::RotationLimit> ____rotationLimit;
 
   /// @brief Field isLimited, offset: 0x70, size: 0x1, def value: None
   bool ___isLimited;
@@ -348,47 +348,47 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolver__Bone, ___isLimited) ==
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12559)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12559))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12561))
 // CS Name: ::IKSolver::Node*
 class CORDL_TYPE __IKSolver__Node : public ::RootMotion::FinalIK::__IKSolver__Point {
 public:
   // Declarations
   /// @brief Field length, offset 0x54, size 0x4
-  __declspec(property(get = __get_length, put = __set_length)) float_t length;
+  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) float_t length;
 
   /// @brief Field effectorPositionWeight, offset 0x58, size 0x4
-  __declspec(property(get = __get_effectorPositionWeight, put = __set_effectorPositionWeight)) float_t effectorPositionWeight;
+  __declspec(property(get = __cordl_internal_get_effectorPositionWeight, put = __cordl_internal_set_effectorPositionWeight)) float_t effectorPositionWeight;
 
   /// @brief Field effectorRotationWeight, offset 0x5c, size 0x4
-  __declspec(property(get = __get_effectorRotationWeight, put = __set_effectorRotationWeight)) float_t effectorRotationWeight;
+  __declspec(property(get = __cordl_internal_get_effectorRotationWeight, put = __cordl_internal_set_effectorRotationWeight)) float_t effectorRotationWeight;
 
   /// @brief Field offset, offset 0x60, size 0xc
-  __declspec(property(get = __get_offset, put = __set_offset))::UnityEngine::Vector3 offset;
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset))::UnityEngine::Vector3 offset;
 
-  constexpr float_t& __get_length();
+  constexpr float_t& __cordl_internal_get_length();
 
-  constexpr float_t const& __get_length() const;
+  constexpr float_t const& __cordl_internal_get_length() const;
 
-  constexpr void __set_length(float_t value);
+  constexpr void __cordl_internal_set_length(float_t value);
 
-  constexpr float_t& __get_effectorPositionWeight();
+  constexpr float_t& __cordl_internal_get_effectorPositionWeight();
 
-  constexpr float_t const& __get_effectorPositionWeight() const;
+  constexpr float_t const& __cordl_internal_get_effectorPositionWeight() const;
 
-  constexpr void __set_effectorPositionWeight(float_t value);
+  constexpr void __cordl_internal_set_effectorPositionWeight(float_t value);
 
-  constexpr float_t& __get_effectorRotationWeight();
+  constexpr float_t& __cordl_internal_get_effectorRotationWeight();
 
-  constexpr float_t const& __get_effectorRotationWeight() const;
+  constexpr float_t const& __cordl_internal_get_effectorRotationWeight() const;
 
-  constexpr void __set_effectorRotationWeight(float_t value);
+  constexpr void __cordl_internal_set_effectorRotationWeight(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get_offset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_offset();
 
-  constexpr ::UnityEngine::Vector3 const& __get_offset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_offset() const;
 
-  constexpr void __set_offset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_offset(::UnityEngine::Vector3 value);
 
   static inline ::RootMotion::FinalIK::__IKSolver__Node* New_ctor();
 
@@ -449,7 +449,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__IKSolver__Node, ___offset) == 0x
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12562))
 // CS Name: ::IKSolver::UpdateDelegate*
 class CORDL_TYPE __IKSolver__UpdateDelegate : public ::System::MulticastDelegate {
@@ -493,7 +493,7 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__IKSolver_
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12563))
 // CS Name: ::IKSolver::IterationDelegate*
 class CORDL_TYPE __IKSolver__IterationDelegate : public ::System::MulticastDelegate {
@@ -537,7 +537,7 @@ static_assert(::cordl_internals::size_check_v<::RootMotion::FinalIK::__IKSolver_
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12564))
 // CS Name: ::RootMotion.FinalIK::IKSolver*
 class CORDL_TYPE IKSolver : public ::System::Object {
@@ -554,87 +554,87 @@ public:
   using Point = ::RootMotion::FinalIK::__IKSolver__Point;
 
   /// @brief Field IKPosition, offset 0x10, size 0xc
-  __declspec(property(get = __get_IKPosition, put = __set_IKPosition))::UnityEngine::Vector3 IKPosition;
+  __declspec(property(get = __cordl_internal_get_IKPosition, put = __cordl_internal_set_IKPosition))::UnityEngine::Vector3 IKPosition;
 
   /// @brief Field IKPositionWeight, offset 0x1c, size 0x4
-  __declspec(property(get = __get_IKPositionWeight, put = __set_IKPositionWeight)) float_t IKPositionWeight;
+  __declspec(property(get = __cordl_internal_get_IKPositionWeight, put = __cordl_internal_set_IKPositionWeight)) float_t IKPositionWeight;
 
   /// @brief Field <initiated>k__BackingField, offset 0x20, size 0x1
-  __declspec(property(get = __get__initiated_k__BackingField, put = __set__initiated_k__BackingField)) bool _initiated_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__initiated_k__BackingField, put = __cordl_internal_set__initiated_k__BackingField)) bool _initiated_k__BackingField;
 
   /// @brief Field OnPreInitiate, offset 0x28, size 0x8
-  __declspec(property(get = __get_OnPreInitiate, put = __set_OnPreInitiate))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPreInitiate;
+  __declspec(property(get = __cordl_internal_get_OnPreInitiate, put = __cordl_internal_set_OnPreInitiate))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPreInitiate;
 
   /// @brief Field OnPostInitiate, offset 0x30, size 0x8
-  __declspec(property(get = __get_OnPostInitiate, put = __set_OnPostInitiate))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPostInitiate;
+  __declspec(property(get = __cordl_internal_get_OnPostInitiate, put = __cordl_internal_set_OnPostInitiate))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPostInitiate;
 
   /// @brief Field OnPreUpdate, offset 0x38, size 0x8
-  __declspec(property(get = __get_OnPreUpdate, put = __set_OnPreUpdate))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPreUpdate;
+  __declspec(property(get = __cordl_internal_get_OnPreUpdate, put = __cordl_internal_set_OnPreUpdate))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPreUpdate;
 
   /// @brief Field OnPostUpdate, offset 0x40, size 0x8
-  __declspec(property(get = __get_OnPostUpdate, put = __set_OnPostUpdate))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPostUpdate;
+  __declspec(property(get = __cordl_internal_get_OnPostUpdate, put = __cordl_internal_set_OnPostUpdate))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPostUpdate;
 
   /// @brief Field firstInitiation, offset 0x48, size 0x1
-  __declspec(property(get = __get_firstInitiation, put = __set_firstInitiation)) bool firstInitiation;
+  __declspec(property(get = __cordl_internal_get_firstInitiation, put = __cordl_internal_set_firstInitiation)) bool firstInitiation;
 
   /// @brief Field root, offset 0x50, size 0x8
-  __declspec(property(get = __get_root, put = __set_root))::UnityEngine::Transform* root;
+  __declspec(property(get = __cordl_internal_get_root, put = __cordl_internal_set_root))::UnityW<::UnityEngine::Transform> root;
 
   __declspec(property(get = get_initiated, put = set_initiated)) bool initiated;
 
-  constexpr ::UnityEngine::Vector3& __get_IKPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_IKPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_IKPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_IKPosition() const;
 
-  constexpr void __set_IKPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_IKPosition(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get_IKPositionWeight();
+  constexpr float_t& __cordl_internal_get_IKPositionWeight();
 
-  constexpr float_t const& __get_IKPositionWeight() const;
+  constexpr float_t const& __cordl_internal_get_IKPositionWeight() const;
 
-  constexpr void __set_IKPositionWeight(float_t value);
+  constexpr void __cordl_internal_set_IKPositionWeight(float_t value);
 
-  constexpr bool& __get__initiated_k__BackingField();
+  constexpr bool& __cordl_internal_get__initiated_k__BackingField();
 
-  constexpr bool const& __get__initiated_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__initiated_k__BackingField() const;
 
-  constexpr void __set__initiated_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__initiated_k__BackingField(bool value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __get_OnPreInitiate();
+  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __cordl_internal_get_OnPreInitiate();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __get_OnPreInitiate() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __cordl_internal_get_OnPreInitiate() const;
 
-  constexpr void __set_OnPreInitiate(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
+  constexpr void __cordl_internal_set_OnPreInitiate(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __get_OnPostInitiate();
+  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __cordl_internal_get_OnPostInitiate();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __get_OnPostInitiate() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __cordl_internal_get_OnPostInitiate() const;
 
-  constexpr void __set_OnPostInitiate(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
+  constexpr void __cordl_internal_set_OnPostInitiate(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __get_OnPreUpdate();
+  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __cordl_internal_get_OnPreUpdate();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __get_OnPreUpdate() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __cordl_internal_get_OnPreUpdate() const;
 
-  constexpr void __set_OnPreUpdate(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
+  constexpr void __cordl_internal_set_OnPreUpdate(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __get_OnPostUpdate();
+  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __cordl_internal_get_OnPostUpdate();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __get_OnPostUpdate() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __cordl_internal_get_OnPostUpdate() const;
 
-  constexpr void __set_OnPostUpdate(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
+  constexpr void __cordl_internal_set_OnPostUpdate(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
 
-  constexpr bool& __get_firstInitiation();
+  constexpr bool& __cordl_internal_get_firstInitiation();
 
-  constexpr bool const& __get_firstInitiation() const;
+  constexpr bool const& __cordl_internal_get_firstInitiation() const;
 
-  constexpr void __set_firstInitiation(bool value);
+  constexpr void __cordl_internal_set_firstInitiation(bool value);
 
-  constexpr ::UnityEngine::Transform*& __get_root();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_root();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_root() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_root() const;
 
-  constexpr void __set_root(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_root(::UnityW<::UnityEngine::Transform> value);
 
   /// @brief Method IsValid, addr 0x125e5c8, size 0x74, virtual false, abstract: false, final false
   inline bool IsValid();
@@ -661,7 +661,7 @@ public:
   inline void SetIKPositionWeight(float_t weight);
 
   /// @brief Method GetRoot, addr 0x125e858, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* GetRoot();
+  inline ::UnityW<::UnityEngine::Transform> GetRoot();
 
   /// @brief Method get_initiated, addr 0x125e860, size 0x8, virtual false, abstract: false, final false
   inline bool get_initiated();
@@ -691,7 +691,7 @@ public:
   inline void LogWarning(::StringW message);
 
   /// @brief Method ContainsDuplicateBone, addr 0x125e88c, size 0x124, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* ContainsDuplicateBone(::ArrayW<::RootMotion::FinalIK::__IKSolver__Bone*, ::Array<::RootMotion::FinalIK::__IKSolver__Bone*>*> bones);
+  static inline ::UnityW<::UnityEngine::Transform> ContainsDuplicateBone(::ArrayW<::RootMotion::FinalIK::__IKSolver__Bone*, ::Array<::RootMotion::FinalIK::__IKSolver__Bone*>*> bones);
 
   /// @brief Method HierarchyIsValid, addr 0x125e9b0, size 0x98, virtual false, abstract: false, final false
   static inline bool HierarchyIsValid(::ArrayW<::RootMotion::FinalIK::__IKSolver__Bone*, ::Array<::RootMotion::FinalIK::__IKSolver__Bone*>*> bones);
@@ -743,7 +743,7 @@ public:
   bool ___firstInitiation;
 
   /// @brief Field root, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___root;
+  ::UnityW<::UnityEngine::Transform> ___root;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

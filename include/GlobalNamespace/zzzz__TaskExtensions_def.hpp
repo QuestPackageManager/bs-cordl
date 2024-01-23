@@ -53,29 +53,29 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2677))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12989))
 // CS Name: ::TaskExtensions::<>c__DisplayClass0_0`1<T>*
 class CORDL_TYPE __TaskExtensions____c__DisplayClass0_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tcs, offset 0x10, size 0x8
-  __declspec(property(get = __get_tcs, put = __set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<T>* tcs;
+  __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<T>* tcs;
 
   /// @brief Field cancellationToken, offset 0x18, size 0x8
-  __declspec(property(get = __get_cancellationToken, put = __set_cancellationToken))::System::Threading::CancellationToken cancellationToken;
+  __declspec(property(get = __cordl_internal_get_cancellationToken, put = __cordl_internal_set_cancellationToken))::System::Threading::CancellationToken cancellationToken;
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& __get_tcs();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<T>*& __cordl_internal_get_tcs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<T>*> const& __get_tcs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<T>*> const& __cordl_internal_get_tcs() const;
 
-  constexpr void __set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<T>* value);
+  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<T>* value);
 
-  constexpr ::System::Threading::CancellationToken& __get_cancellationToken();
+  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_cancellationToken();
 
-  constexpr ::System::Threading::CancellationToken const& __get_cancellationToken() const;
+  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_cancellationToken() const;
 
-  constexpr void __set_cancellationToken(::System::Threading::CancellationToken value);
+  constexpr void __cordl_internal_set_cancellationToken(::System::Threading::CancellationToken value);
 
   static inline ::GlobalNamespace::__TaskExtensions____c__DisplayClass0_0_1<T>* New_ctor();
 
@@ -115,8 +115,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 104 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12990)) CS Name: ::TaskExtensions::<WaitForTask>d__1`1<T>
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 104
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(12990)) CS Name: ::TaskExtensions::<WaitForTask>d__1`1<T>
 struct CORDL_TYPE __TaskExtensions___WaitForTask_d__1_1 {
 public:
   // Declarations
@@ -174,7 +174,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12991))
 // CS Name: ::TaskExtensions*
 class CORDL_TYPE TaskExtensions : public ::System::Object {

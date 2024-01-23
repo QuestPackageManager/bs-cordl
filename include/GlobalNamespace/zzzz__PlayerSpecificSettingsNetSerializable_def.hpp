@@ -29,32 +29,32 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerSpecificSettingsNetSerializable);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12690)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12690))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12927))
 // CS Name: ::PlayerSpecificSettingsNetSerializable*
 class CORDL_TYPE PlayerSpecificSettingsNetSerializable : public ::System::Object {
 public:
   // Declarations
   /// @brief Field userId, offset 0x10, size 0x8
-  __declspec(property(get = __get_userId, put = __set_userId))::StringW userId;
+  __declspec(property(get = __cordl_internal_get_userId, put = __cordl_internal_set_userId))::StringW userId;
 
   /// @brief Field userName, offset 0x18, size 0x8
-  __declspec(property(get = __get_userName, put = __set_userName))::StringW userName;
+  __declspec(property(get = __cordl_internal_get_userName, put = __cordl_internal_set_userName))::StringW userName;
 
   /// @brief Field leftHanded, offset 0x20, size 0x1
-  __declspec(property(get = __get_leftHanded, put = __set_leftHanded)) bool leftHanded;
+  __declspec(property(get = __cordl_internal_get_leftHanded, put = __cordl_internal_set_leftHanded)) bool leftHanded;
 
   /// @brief Field automaticPlayerHeight, offset 0x21, size 0x1
-  __declspec(property(get = __get_automaticPlayerHeight, put = __set_automaticPlayerHeight)) bool automaticPlayerHeight;
+  __declspec(property(get = __cordl_internal_get_automaticPlayerHeight, put = __cordl_internal_set_automaticPlayerHeight)) bool automaticPlayerHeight;
 
   /// @brief Field playerHeight, offset 0x24, size 0x4
-  __declspec(property(get = __get_playerHeight, put = __set_playerHeight)) float_t playerHeight;
+  __declspec(property(get = __cordl_internal_get_playerHeight, put = __cordl_internal_set_playerHeight)) float_t playerHeight;
 
   /// @brief Field headPosToPlayerHeightOffset, offset 0x28, size 0x4
-  __declspec(property(get = __get_headPosToPlayerHeightOffset, put = __set_headPosToPlayerHeightOffset)) float_t headPosToPlayerHeightOffset;
+  __declspec(property(get = __cordl_internal_get_headPosToPlayerHeightOffset, put = __cordl_internal_set_headPosToPlayerHeightOffset)) float_t headPosToPlayerHeightOffset;
 
   /// @brief Field colorScheme, offset 0x2c, size 0x70
-  __declspec(property(get = __get_colorScheme, put = __set_colorScheme))::GlobalNamespace::ColorSchemeNetSerializable colorScheme;
+  __declspec(property(get = __cordl_internal_get_colorScheme, put = __cordl_internal_set_colorScheme))::GlobalNamespace::ColorSchemeNetSerializable colorScheme;
 
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
@@ -62,47 +62,47 @@ public:
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
   constexpr ::LiteNetLib::Utils::INetSerializable* i___LiteNetLib__Utils__INetSerializable() noexcept;
 
-  constexpr ::StringW& __get_userId();
+  constexpr ::StringW& __cordl_internal_get_userId();
 
-  constexpr ::StringW const& __get_userId() const;
+  constexpr ::StringW const& __cordl_internal_get_userId() const;
 
-  constexpr void __set_userId(::StringW value);
+  constexpr void __cordl_internal_set_userId(::StringW value);
 
-  constexpr ::StringW& __get_userName();
+  constexpr ::StringW& __cordl_internal_get_userName();
 
-  constexpr ::StringW const& __get_userName() const;
+  constexpr ::StringW const& __cordl_internal_get_userName() const;
 
-  constexpr void __set_userName(::StringW value);
+  constexpr void __cordl_internal_set_userName(::StringW value);
 
-  constexpr bool& __get_leftHanded();
+  constexpr bool& __cordl_internal_get_leftHanded();
 
-  constexpr bool const& __get_leftHanded() const;
+  constexpr bool const& __cordl_internal_get_leftHanded() const;
 
-  constexpr void __set_leftHanded(bool value);
+  constexpr void __cordl_internal_set_leftHanded(bool value);
 
-  constexpr bool& __get_automaticPlayerHeight();
+  constexpr bool& __cordl_internal_get_automaticPlayerHeight();
 
-  constexpr bool const& __get_automaticPlayerHeight() const;
+  constexpr bool const& __cordl_internal_get_automaticPlayerHeight() const;
 
-  constexpr void __set_automaticPlayerHeight(bool value);
+  constexpr void __cordl_internal_set_automaticPlayerHeight(bool value);
 
-  constexpr float_t& __get_playerHeight();
+  constexpr float_t& __cordl_internal_get_playerHeight();
 
-  constexpr float_t const& __get_playerHeight() const;
+  constexpr float_t const& __cordl_internal_get_playerHeight() const;
 
-  constexpr void __set_playerHeight(float_t value);
+  constexpr void __cordl_internal_set_playerHeight(float_t value);
 
-  constexpr float_t& __get_headPosToPlayerHeightOffset();
+  constexpr float_t& __cordl_internal_get_headPosToPlayerHeightOffset();
 
-  constexpr float_t const& __get_headPosToPlayerHeightOffset() const;
+  constexpr float_t const& __cordl_internal_get_headPosToPlayerHeightOffset() const;
 
-  constexpr void __set_headPosToPlayerHeightOffset(float_t value);
+  constexpr void __cordl_internal_set_headPosToPlayerHeightOffset(float_t value);
 
-  constexpr ::GlobalNamespace::ColorSchemeNetSerializable& __get_colorScheme();
+  constexpr ::GlobalNamespace::ColorSchemeNetSerializable& __cordl_internal_get_colorScheme();
 
-  constexpr ::GlobalNamespace::ColorSchemeNetSerializable const& __get_colorScheme() const;
+  constexpr ::GlobalNamespace::ColorSchemeNetSerializable const& __cordl_internal_get_colorScheme() const;
 
-  constexpr void __set_colorScheme(::GlobalNamespace::ColorSchemeNetSerializable value);
+  constexpr void __cordl_internal_set_colorScheme(::GlobalNamespace::ColorSchemeNetSerializable value);
 
   static inline ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* New_ctor();
 

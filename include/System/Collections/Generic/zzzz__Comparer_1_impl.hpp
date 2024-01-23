@@ -31,12 +31,12 @@ template <typename T> inline ::System::Collections::Generic::Comparer_1<T>* Syst
 }
 template <typename T> inline ::System::Collections::Generic::Comparer_1<T>* System::Collections::Generic::Comparer_1<T>::get_Default() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Comparer_1<T>*>::get(),
-                                                                             "get_Default", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_Default", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Comparer_1<T>*, false>(nullptr, ___internal_method);
 }
 template <typename T> inline ::System::Collections::Generic::Comparer_1<T>* System::Collections::Generic::Comparer_1<T>::CreateComparer() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Comparer_1<T>*>::get(),
-                                                                             "CreateComparer", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "CreateComparer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Comparer_1<T>*, false>(nullptr, ___internal_method);
 }
 template <typename T> inline int32_t System::Collections::Generic::Comparer_1<T>::Compare(T x, T y) {
@@ -46,17 +46,17 @@ template <typename T> inline int32_t System::Collections::Generic::Comparer_1<T>
 }
 template <typename T> inline int32_t System::Collections::Generic::Comparer_1<T>::System_Collections_IComparer_Compare(::System::Object* x, ::System::Object* y) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Comparer_1<T>*>::get(),
-                                                                             "System.Collections.IComparer.Compare", std::vector<Il2CppClass*>{},
-                                                                             ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                                                                                               ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+                                                                             "System.Collections.IComparer.Compare", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x, y);
 }
 template <typename T> inline ::System::Collections::Generic::Comparer_1<T>* System::Collections::Generic::Comparer_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Collections::Generic::Comparer_1<T>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::Comparer_1<T>*>());
 }
 template <typename T> inline void System::Collections::Generic::Comparer_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Comparer_1<T>*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

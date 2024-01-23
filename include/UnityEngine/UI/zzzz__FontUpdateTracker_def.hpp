@@ -26,20 +26,21 @@ MARK_REF_PTR_T(::UnityEngine::UI::FontUpdateTracker);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13041))
 // CS Name: ::UnityEngine.UI::FontUpdateTracker*
 class CORDL_TYPE FontUpdateTracker : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Tracked, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_m_Tracked,
-               put = setStaticF_m_Tracked))::System::Collections::Generic::Dictionary_2<::UnityEngine::Font*, ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::Text*>*>* m_Tracked;
+  static __declspec(property(
+      get = getStaticF_m_Tracked,
+      put = setStaticF_m_Tracked))::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Font>, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::Text>>*>* m_Tracked;
 
-  static inline void setStaticF_m_Tracked(::System::Collections::Generic::Dictionary_2<::UnityEngine::Font*, ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::Text*>*>* value);
+  static inline void
+  setStaticF_m_Tracked(::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Font>, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::Text>>*>* value);
 
-  static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::Font*, ::System::Collections::Generic::HashSet_1<::UnityEngine::UI::Text*>*>* getStaticF_m_Tracked();
+  static inline ::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Font>, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::UI::Text>>*>* getStaticF_m_Tracked();
 
   /// @brief Method TrackText, addr 0x2d5b244, size 0x250, virtual false, abstract: false, final false
   static inline void TrackText(::UnityEngine::UI::Text* t);

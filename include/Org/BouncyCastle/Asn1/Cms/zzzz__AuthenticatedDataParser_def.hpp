@@ -38,49 +38,49 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(59))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::AuthenticatedDataParser*
 class CORDL_TYPE AuthenticatedDataParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field seq, offset 0x10, size 0x8
-  __declspec(property(get = __get_seq, put = __set_seq))::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq;
+  __declspec(property(get = __cordl_internal_get_seq, put = __cordl_internal_set_seq))::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq;
 
   /// @brief Field version, offset 0x18, size 0x8
-  __declspec(property(get = __get_version, put = __set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
 
   /// @brief Field nextObject, offset 0x20, size 0x8
-  __declspec(property(get = __get_nextObject, put = __set_nextObject))::Org::BouncyCastle::Asn1::IAsn1Convertible* nextObject;
+  __declspec(property(get = __cordl_internal_get_nextObject, put = __cordl_internal_set_nextObject))::Org::BouncyCastle::Asn1::IAsn1Convertible* nextObject;
 
   /// @brief Field originatorInfoCalled, offset 0x28, size 0x1
-  __declspec(property(get = __get_originatorInfoCalled, put = __set_originatorInfoCalled)) bool originatorInfoCalled;
+  __declspec(property(get = __cordl_internal_get_originatorInfoCalled, put = __cordl_internal_set_originatorInfoCalled)) bool originatorInfoCalled;
 
   __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser*& __get_seq();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1SequenceParser*& __cordl_internal_get_seq();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1SequenceParser*> const& __get_seq() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1SequenceParser*> const& __cordl_internal_get_seq() const;
 
-  constexpr void __set_seq(::Org::BouncyCastle::Asn1::Asn1SequenceParser* value);
+  constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1SequenceParser* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_version();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_version() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible*& __get_nextObject();
+  constexpr ::Org::BouncyCastle::Asn1::IAsn1Convertible*& __cordl_internal_get_nextObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::IAsn1Convertible*> const& __get_nextObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::IAsn1Convertible*> const& __cordl_internal_get_nextObject() const;
 
-  constexpr void __set_nextObject(::Org::BouncyCastle::Asn1::IAsn1Convertible* value);
+  constexpr void __cordl_internal_set_nextObject(::Org::BouncyCastle::Asn1::IAsn1Convertible* value);
 
-  constexpr bool& __get_originatorInfoCalled();
+  constexpr bool& __cordl_internal_get_originatorInfoCalled();
 
-  constexpr bool const& __get_originatorInfoCalled() const;
+  constexpr bool const& __cordl_internal_get_originatorInfoCalled() const;
 
-  constexpr void __set_originatorInfoCalled(bool value);
+  constexpr void __cordl_internal_set_originatorInfoCalled(bool value);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 

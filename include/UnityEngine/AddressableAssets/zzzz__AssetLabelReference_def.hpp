@@ -22,14 +22,14 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::AssetLabelReference);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14081))
 // CS Name: ::UnityEngine.AddressableAssets::AssetLabelReference*
 class CORDL_TYPE AssetLabelReference : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_LabelString, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_LabelString, put = __set_m_LabelString))::StringW m_LabelString;
+  __declspec(property(get = __cordl_internal_get_m_LabelString, put = __cordl_internal_set_m_LabelString))::StringW m_LabelString;
 
   __declspec(property(get = get_labelString, put = set_labelString))::StringW labelString;
 
@@ -41,11 +41,11 @@ public:
   /// @brief Convert to "::UnityEngine::AddressableAssets::IKeyEvaluator"
   constexpr ::UnityEngine::AddressableAssets::IKeyEvaluator* i___UnityEngine__AddressableAssets__IKeyEvaluator() noexcept;
 
-  constexpr ::StringW& __get_m_LabelString();
+  constexpr ::StringW& __cordl_internal_get_m_LabelString();
 
-  constexpr ::StringW const& __get_m_LabelString() const;
+  constexpr ::StringW const& __cordl_internal_get_m_LabelString() const;
 
-  constexpr void __set_m_LabelString(::StringW value);
+  constexpr void __cordl_internal_set_m_LabelString(::StringW value);
 
   /// @brief Method get_labelString, addr 0x2a239b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_labelString();

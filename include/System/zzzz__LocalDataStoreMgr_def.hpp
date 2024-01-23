@@ -32,56 +32,58 @@ MARK_REF_PTR_T(::System::LocalDataStoreMgr);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2545))
 // CS Name: ::System::LocalDataStoreMgr*
 class CORDL_TYPE LocalDataStoreMgr : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_SlotInfoTable, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_SlotInfoTable, put = __set_m_SlotInfoTable))::ArrayW<bool, ::Array<bool>*> m_SlotInfoTable;
+  __declspec(property(get = __cordl_internal_get_m_SlotInfoTable, put = __cordl_internal_set_m_SlotInfoTable))::ArrayW<bool, ::Array<bool>*> m_SlotInfoTable;
 
   /// @brief Field m_FirstAvailableSlot, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_FirstAvailableSlot, put = __set_m_FirstAvailableSlot)) int32_t m_FirstAvailableSlot;
+  __declspec(property(get = __cordl_internal_get_m_FirstAvailableSlot, put = __cordl_internal_set_m_FirstAvailableSlot)) int32_t m_FirstAvailableSlot;
 
   /// @brief Field m_ManagedLocalDataStores, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_ManagedLocalDataStores, put = __set_m_ManagedLocalDataStores))::System::Collections::Generic::List_1<::System::LocalDataStore*>* m_ManagedLocalDataStores;
+  __declspec(property(get = __cordl_internal_get_m_ManagedLocalDataStores,
+                      put = __cordl_internal_set_m_ManagedLocalDataStores))::System::Collections::Generic::List_1<::System::LocalDataStore*>* m_ManagedLocalDataStores;
 
   /// @brief Field m_KeyToSlotMap, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_KeyToSlotMap, put = __set_m_KeyToSlotMap))::System::Collections::Generic::Dictionary_2<::StringW, ::System::LocalDataStoreSlot*>* m_KeyToSlotMap;
+  __declspec(property(get = __cordl_internal_get_m_KeyToSlotMap,
+                      put = __cordl_internal_set_m_KeyToSlotMap))::System::Collections::Generic::Dictionary_2<::StringW, ::System::LocalDataStoreSlot*>* m_KeyToSlotMap;
 
   /// @brief Field m_CookieGenerator, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_CookieGenerator, put = __set_m_CookieGenerator)) int64_t m_CookieGenerator;
+  __declspec(property(get = __cordl_internal_get_m_CookieGenerator, put = __cordl_internal_set_m_CookieGenerator)) int64_t m_CookieGenerator;
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get_m_SlotInfoTable();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get_m_SlotInfoTable();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get_m_SlotInfoTable() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_m_SlotInfoTable() const;
 
-  constexpr void __set_m_SlotInfoTable(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set_m_SlotInfoTable(::ArrayW<bool, ::Array<bool>*> value);
 
-  constexpr int32_t& __get_m_FirstAvailableSlot();
+  constexpr int32_t& __cordl_internal_get_m_FirstAvailableSlot();
 
-  constexpr int32_t const& __get_m_FirstAvailableSlot() const;
+  constexpr int32_t const& __cordl_internal_get_m_FirstAvailableSlot() const;
 
-  constexpr void __set_m_FirstAvailableSlot(int32_t value);
+  constexpr void __cordl_internal_set_m_FirstAvailableSlot(int32_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::LocalDataStore*>*& __get_m_ManagedLocalDataStores();
+  constexpr ::System::Collections::Generic::List_1<::System::LocalDataStore*>*& __cordl_internal_get_m_ManagedLocalDataStores();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::LocalDataStore*>*> const& __get_m_ManagedLocalDataStores() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::LocalDataStore*>*> const& __cordl_internal_get_m_ManagedLocalDataStores() const;
 
-  constexpr void __set_m_ManagedLocalDataStores(::System::Collections::Generic::List_1<::System::LocalDataStore*>* value);
+  constexpr void __cordl_internal_set_m_ManagedLocalDataStores(::System::Collections::Generic::List_1<::System::LocalDataStore*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::LocalDataStoreSlot*>*& __get_m_KeyToSlotMap();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::LocalDataStoreSlot*>*& __cordl_internal_get_m_KeyToSlotMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::LocalDataStoreSlot*>*> const& __get_m_KeyToSlotMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::LocalDataStoreSlot*>*> const& __cordl_internal_get_m_KeyToSlotMap() const;
 
-  constexpr void __set_m_KeyToSlotMap(::System::Collections::Generic::Dictionary_2<::StringW, ::System::LocalDataStoreSlot*>* value);
+  constexpr void __cordl_internal_set_m_KeyToSlotMap(::System::Collections::Generic::Dictionary_2<::StringW, ::System::LocalDataStoreSlot*>* value);
 
-  constexpr int64_t& __get_m_CookieGenerator();
+  constexpr int64_t& __cordl_internal_get_m_CookieGenerator();
 
-  constexpr int64_t const& __get_m_CookieGenerator() const;
+  constexpr int64_t const& __cordl_internal_get_m_CookieGenerator() const;
 
-  constexpr void __set_m_CookieGenerator(int64_t value);
+  constexpr void __cordl_internal_set_m_CookieGenerator(int64_t value);
 
   /// @brief Method CreateLocalDataStore, addr 0x25d859c, size 0x1c0, virtual false, abstract: false, final false
   inline ::System::LocalDataStoreHolder* CreateLocalDataStore();

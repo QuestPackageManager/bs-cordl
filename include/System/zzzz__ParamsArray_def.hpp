@@ -19,7 +19,7 @@ MARK_VAL_T(::System::ParamsArray);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2458))
 // CS Name: ::System::ParamsArray
 struct CORDL_TYPE ParamsArray {

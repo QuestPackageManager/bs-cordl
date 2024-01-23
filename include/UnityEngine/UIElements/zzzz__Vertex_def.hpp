@@ -31,8 +31,8 @@ MARK_VAL_T(::UnityEngine::UIElements::Vertex);
 // SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10250))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7330)) CS Name: ::UnityEngine.UIElements::Vertex
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10250))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7330)) CS Name: ::UnityEngine.UIElements::Vertex
 struct CORDL_TYPE Vertex {
 public:
   // Declarations

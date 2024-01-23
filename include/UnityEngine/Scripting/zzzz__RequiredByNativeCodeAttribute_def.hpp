@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::UnityEngine::Scripting::RequiredByNativeCodeAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Scripting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16011))
 // CS Name: ::UnityEngine.Scripting::RequiredByNativeCodeAttribute*
 class CORDL_TYPE RequiredByNativeCodeAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Name_k__BackingField, put = __set__Name_k__BackingField))::StringW _Name_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField))::StringW _Name_k__BackingField;
 
   /// @brief Field <Optional>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__Optional_k__BackingField, put = __set__Optional_k__BackingField)) bool _Optional_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Optional_k__BackingField, put = __cordl_internal_set__Optional_k__BackingField)) bool _Optional_k__BackingField;
 
   /// @brief Field <GenerateProxy>k__BackingField, offset 0x19, size 0x1
-  __declspec(property(get = __get__GenerateProxy_k__BackingField, put = __set__GenerateProxy_k__BackingField)) bool _GenerateProxy_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__GenerateProxy_k__BackingField, put = __cordl_internal_set__GenerateProxy_k__BackingField)) bool _GenerateProxy_k__BackingField;
 
   __declspec(property(put = set_Name))::StringW Name;
 
@@ -36,23 +36,23 @@ public:
 
   __declspec(property(put = set_GenerateProxy)) bool GenerateProxy;
 
-  constexpr ::StringW& __get__Name_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Name_k__BackingField();
 
-  constexpr ::StringW const& __get__Name_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
-  constexpr void __set__Name_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  constexpr bool& __get__Optional_k__BackingField();
+  constexpr bool& __cordl_internal_get__Optional_k__BackingField();
 
-  constexpr bool const& __get__Optional_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__Optional_k__BackingField() const;
 
-  constexpr void __set__Optional_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__Optional_k__BackingField(bool value);
 
-  constexpr bool& __get__GenerateProxy_k__BackingField();
+  constexpr bool& __cordl_internal_get__GenerateProxy_k__BackingField();
 
-  constexpr bool const& __get__GenerateProxy_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__GenerateProxy_k__BackingField() const;
 
-  constexpr void __set__GenerateProxy_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__GenerateProxy_k__BackingField(bool value);
 
   static inline ::UnityEngine::Scripting::RequiredByNativeCodeAttribute* New_ctor();
 

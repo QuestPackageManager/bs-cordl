@@ -42,7 +42,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__Update__ScriptRunDelayedTasks);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10541))
 // CS Name: ::Update::ScriptRunBehaviourUpdate
 #pragma pack(push, 0)
@@ -70,7 +70,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Updat
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10542))
 // CS Name: ::Update::DirectorUpdate
 #pragma pack(push, 0)
@@ -98,7 +98,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Updat
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10543))
 // CS Name: ::Update::ScriptRunDelayedDynamicFrameRate
 #pragma pack(push, 0)
@@ -126,7 +126,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Updat
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10544))
 // CS Name: ::Update::ScriptRunDelayedTasks
 #pragma pack(push, 0)
@@ -154,7 +154,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Updat
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10545))
 // CS Name: ::UnityEngine.PlayerLoop::Update
 #pragma pack(push, 0)

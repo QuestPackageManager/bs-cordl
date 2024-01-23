@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::MarkupTag);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13715))
 // CS Name: ::UnityEngine.TextCore.Text::MarkupTag
 struct CORDL_TYPE MarkupTag {

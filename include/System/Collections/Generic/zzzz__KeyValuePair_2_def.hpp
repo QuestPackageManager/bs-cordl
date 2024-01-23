@@ -18,7 +18,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3841))
 // CS Name: ::System.Collections.Generic::KeyValuePair`2<TKey,TValue>
 struct CORDL_TYPE KeyValuePair_2 {

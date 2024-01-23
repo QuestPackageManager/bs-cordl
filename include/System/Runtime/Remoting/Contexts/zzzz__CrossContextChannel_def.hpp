@@ -33,20 +33,20 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Contexts::__CrossContextChannel__Con
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3102))
 // CS Name: ::CrossContextChannel::ContextRestoreSink*
 class CORDL_TYPE __CrossContextChannel__ContextRestoreSink : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _next, offset 0x10, size 0x8
-  __declspec(property(get = __get__next, put = __set__next))::System::Runtime::Remoting::Messaging::IMessageSink* _next;
+  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next))::System::Runtime::Remoting::Messaging::IMessageSink* _next;
 
   /// @brief Field _context, offset 0x18, size 0x8
-  __declspec(property(get = __get__context, put = __set__context))::System::Runtime::Remoting::Contexts::Context* _context;
+  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::System::Runtime::Remoting::Contexts::Context* _context;
 
   /// @brief Field _call, offset 0x20, size 0x8
-  __declspec(property(get = __get__call, put = __set__call))::System::Runtime::Remoting::Messaging::IMessage* _call;
+  __declspec(property(get = __cordl_internal_get__call, put = __cordl_internal_set__call))::System::Runtime::Remoting::Messaging::IMessage* _call;
 
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
@@ -54,23 +54,23 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __get__next();
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get__next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __get__next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __cordl_internal_get__next() const;
 
-  constexpr void __set__next(::System::Runtime::Remoting::Messaging::IMessageSink* value);
+  constexpr void __cordl_internal_set__next(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  constexpr ::System::Runtime::Remoting::Contexts::Context*& __get__context();
+  constexpr ::System::Runtime::Remoting::Contexts::Context*& __cordl_internal_get__context();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::Context*> const& __get__context() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::Context*> const& __cordl_internal_get__context() const;
 
-  constexpr void __set__context(::System::Runtime::Remoting::Contexts::Context* value);
+  constexpr void __cordl_internal_set__context(::System::Runtime::Remoting::Contexts::Context* value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMessage*& __get__call();
+  constexpr ::System::Runtime::Remoting::Messaging::IMessage*& __cordl_internal_get__call();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessage*> const& __get__call() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessage*> const& __cordl_internal_get__call() const;
 
-  constexpr void __set__call(::System::Runtime::Remoting::Messaging::IMessage* value);
+  constexpr void __cordl_internal_set__call(::System::Runtime::Remoting::Messaging::IMessage* value);
 
   static inline ::System::Runtime::Remoting::Contexts::__CrossContextChannel__ContextRestoreSink*
   New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* next, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Runtime::Remoting::Messaging::IMessage* call);
@@ -124,7 +124,7 @@ static_assert(offsetof(::System::Runtime::Remoting::Contexts::__CrossContextChan
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Contexts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3103))
 // CS Name: ::System.Runtime.Remoting.Contexts::CrossContextChannel*
 class CORDL_TYPE CrossContextChannel : public ::System::Object {

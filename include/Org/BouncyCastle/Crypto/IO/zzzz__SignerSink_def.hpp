@@ -19,22 +19,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IO::SignerSink);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(484))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(932))
 // CS Name: ::Org.BouncyCastle.Crypto.IO::SignerSink*
 class CORDL_TYPE SignerSink : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
   // Declarations
   /// @brief Field mSigner, offset 0x30, size 0x8
-  __declspec(property(get = __get_mSigner, put = __set_mSigner))::Org::BouncyCastle::Crypto::ISigner* mSigner;
+  __declspec(property(get = __cordl_internal_get_mSigner, put = __cordl_internal_set_mSigner))::Org::BouncyCastle::Crypto::ISigner* mSigner;
 
   __declspec(property(get = get_Signer))::Org::BouncyCastle::Crypto::ISigner* Signer;
 
-  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __get_mSigner();
+  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_mSigner();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __get_mSigner() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __cordl_internal_get_mSigner() const;
 
-  constexpr void __set_mSigner(::Org::BouncyCastle::Crypto::ISigner* value);
+  constexpr void __cordl_internal_set_mSigner(::Org::BouncyCastle::Crypto::ISigner* value);
 
   static inline ::Org::BouncyCastle::Crypto::IO::SignerSink* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 

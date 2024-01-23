@@ -18,22 +18,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1247))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::HeartbeatExtension*
 class CORDL_TYPE HeartbeatExtension : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mMode, offset 0x10, size 0x1
-  __declspec(property(get = __get_mMode, put = __set_mMode)) uint8_t mMode;
+  __declspec(property(get = __cordl_internal_get_mMode, put = __cordl_internal_set_mMode)) uint8_t mMode;
 
   __declspec(property(get = get_Mode)) uint8_t Mode;
 
-  constexpr uint8_t& __get_mMode();
+  constexpr uint8_t& __cordl_internal_get_mMode();
 
-  constexpr uint8_t const& __get_mMode() const;
+  constexpr uint8_t const& __cordl_internal_get_mMode() const;
 
-  constexpr void __set_mMode(uint8_t value);
+  constexpr void __cordl_internal_set_mMode(uint8_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::HeartbeatExtension* New_ctor(uint8_t mode);
 

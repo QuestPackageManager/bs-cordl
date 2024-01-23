@@ -27,14 +27,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XElementWrapper);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12064))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12064))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12067))
 // CS Name: ::Newtonsoft.Json.Converters::XElementWrapper*
 class CORDL_TYPE XElementWrapper : public ::Newtonsoft::Json::Converters::XContainerWrapper {
 public:
   // Declarations
   /// @brief Field _attributes, offset 0x20, size 0x8
-  __declspec(property(get = __get__attributes, put = __set__attributes))::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* _attributes;
+  __declspec(property(get = __cordl_internal_get__attributes, put = __cordl_internal_set__attributes))::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* _attributes;
 
   __declspec(property(get = get_Element))::System::Xml::Linq::XElement* Element;
 
@@ -60,11 +60,11 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*& __get__attributes();
+  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*& __cordl_internal_get__attributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*> const& __get__attributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>*> const& __cordl_internal_get__attributes() const;
 
-  constexpr void __set__attributes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* value);
+  constexpr void __cordl_internal_set__attributes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* value);
 
   /// @brief Method get_Element, addr 0x26bcd2c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Xml::Linq::XElement* get_Element();

@@ -65,20 +65,20 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::__WingedEdge____c__DisplayClass32_0);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12220))
 // CS Name: ::WingedEdge::<>c__DisplayClass32_0*
 class CORDL_TYPE __WingedEdge____c__DisplayClass32_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field common, offset 0x10, size 0x8
-  __declspec(property(get = __get_common, put = __set_common))::System::Collections::Generic::HashSet_1<int32_t>* common;
+  __declspec(property(get = __cordl_internal_get_common, put = __cordl_internal_set_common))::System::Collections::Generic::HashSet_1<int32_t>* common;
 
-  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __get_common();
+  constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get_common();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __get_common() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& __cordl_internal_get_common() const;
 
-  constexpr void __set_common(::System::Collections::Generic::HashSet_1<int32_t>* value);
+  constexpr void __cordl_internal_set_common(::System::Collections::Generic::HashSet_1<int32_t>* value);
 
   static inline ::UnityEngine::ProBuilder::__WingedEdge____c__DisplayClass32_0* New_ctor();
 
@@ -117,7 +117,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__WingedEdge____c__DisplayClas
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12221))
 // CS Name: ::WingedEdge::<>c*
 class CORDL_TYPE __WingedEdge____c : public ::System::Object {
@@ -179,7 +179,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__Winge
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12119)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12119))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12222))
 // CS Name: ::UnityEngine.ProBuilder::WingedEdge*
 class CORDL_TYPE WingedEdge : public ::System::Object {
@@ -190,19 +190,19 @@ public:
   using __c__DisplayClass32_0 = ::UnityEngine::ProBuilder::__WingedEdge____c__DisplayClass32_0;
 
   /// @brief Field <edge>k__BackingField, offset 0x10, size 0x10
-  __declspec(property(get = __get__edge_k__BackingField, put = __set__edge_k__BackingField))::UnityEngine::ProBuilder::EdgeLookup _edge_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__edge_k__BackingField, put = __cordl_internal_set__edge_k__BackingField))::UnityEngine::ProBuilder::EdgeLookup _edge_k__BackingField;
 
   /// @brief Field <face>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__face_k__BackingField, put = __set__face_k__BackingField))::UnityEngine::ProBuilder::Face* _face_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__face_k__BackingField, put = __cordl_internal_set__face_k__BackingField))::UnityEngine::ProBuilder::Face* _face_k__BackingField;
 
   /// @brief Field <next>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__next_k__BackingField, put = __set__next_k__BackingField))::UnityEngine::ProBuilder::WingedEdge* _next_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__next_k__BackingField, put = __cordl_internal_set__next_k__BackingField))::UnityEngine::ProBuilder::WingedEdge* _next_k__BackingField;
 
   /// @brief Field <previous>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__previous_k__BackingField, put = __set__previous_k__BackingField))::UnityEngine::ProBuilder::WingedEdge* _previous_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__previous_k__BackingField, put = __cordl_internal_set__previous_k__BackingField))::UnityEngine::ProBuilder::WingedEdge* _previous_k__BackingField;
 
   /// @brief Field <opposite>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__opposite_k__BackingField, put = __set__opposite_k__BackingField))::UnityEngine::ProBuilder::WingedEdge* _opposite_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__opposite_k__BackingField, put = __cordl_internal_set__opposite_k__BackingField))::UnityEngine::ProBuilder::WingedEdge* _opposite_k__BackingField;
 
   /// @brief Field k_OppositeEdgeDictionary, offset 0xffffffff, size 0x8
   static __declspec(property(
@@ -225,35 +225,35 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::WingedEdge*>"
   constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::WingedEdge*>* i___System__IEquatable_1___UnityEngine__ProBuilder__WingedEdge__() noexcept;
 
-  constexpr ::UnityEngine::ProBuilder::EdgeLookup& __get__edge_k__BackingField();
+  constexpr ::UnityEngine::ProBuilder::EdgeLookup& __cordl_internal_get__edge_k__BackingField();
 
-  constexpr ::UnityEngine::ProBuilder::EdgeLookup const& __get__edge_k__BackingField() const;
+  constexpr ::UnityEngine::ProBuilder::EdgeLookup const& __cordl_internal_get__edge_k__BackingField() const;
 
-  constexpr void __set__edge_k__BackingField(::UnityEngine::ProBuilder::EdgeLookup value);
+  constexpr void __cordl_internal_set__edge_k__BackingField(::UnityEngine::ProBuilder::EdgeLookup value);
 
-  constexpr ::UnityEngine::ProBuilder::Face*& __get__face_k__BackingField();
+  constexpr ::UnityEngine::ProBuilder::Face*& __cordl_internal_get__face_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const& __get__face_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Face*> const& __cordl_internal_get__face_k__BackingField() const;
 
-  constexpr void __set__face_k__BackingField(::UnityEngine::ProBuilder::Face* value);
+  constexpr void __cordl_internal_set__face_k__BackingField(::UnityEngine::ProBuilder::Face* value);
 
-  constexpr ::UnityEngine::ProBuilder::WingedEdge*& __get__next_k__BackingField();
+  constexpr ::UnityEngine::ProBuilder::WingedEdge*& __cordl_internal_get__next_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::WingedEdge*> const& __get__next_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::WingedEdge*> const& __cordl_internal_get__next_k__BackingField() const;
 
-  constexpr void __set__next_k__BackingField(::UnityEngine::ProBuilder::WingedEdge* value);
+  constexpr void __cordl_internal_set__next_k__BackingField(::UnityEngine::ProBuilder::WingedEdge* value);
 
-  constexpr ::UnityEngine::ProBuilder::WingedEdge*& __get__previous_k__BackingField();
+  constexpr ::UnityEngine::ProBuilder::WingedEdge*& __cordl_internal_get__previous_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::WingedEdge*> const& __get__previous_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::WingedEdge*> const& __cordl_internal_get__previous_k__BackingField() const;
 
-  constexpr void __set__previous_k__BackingField(::UnityEngine::ProBuilder::WingedEdge* value);
+  constexpr void __cordl_internal_set__previous_k__BackingField(::UnityEngine::ProBuilder::WingedEdge* value);
 
-  constexpr ::UnityEngine::ProBuilder::WingedEdge*& __get__opposite_k__BackingField();
+  constexpr ::UnityEngine::ProBuilder::WingedEdge*& __cordl_internal_get__opposite_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::WingedEdge*> const& __get__opposite_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::WingedEdge*> const& __cordl_internal_get__opposite_k__BackingField() const;
 
-  constexpr void __set__opposite_k__BackingField(::UnityEngine::ProBuilder::WingedEdge* value);
+  constexpr void __cordl_internal_set__opposite_k__BackingField(::UnityEngine::ProBuilder::WingedEdge* value);
 
   static inline void setStaticF_k_OppositeEdgeDictionary(::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Edge, ::UnityEngine::ProBuilder::WingedEdge*>* value);
 

@@ -25,62 +25,62 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRGazePointer);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8086))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8086))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8108))
 // CS Name: ::OVRGazePointer*
 class CORDL_TYPE OVRGazePointer : public ::GlobalNamespace::OVRCursor {
 public:
   // Declarations
   /// @brief Field gazeIcon, offset 0x18, size 0x8
-  __declspec(property(get = __get_gazeIcon, put = __set_gazeIcon))::UnityEngine::Transform* gazeIcon;
+  __declspec(property(get = __cordl_internal_get_gazeIcon, put = __cordl_internal_set_gazeIcon))::UnityW<::UnityEngine::Transform> gazeIcon;
 
   /// @brief Field hideByDefault, offset 0x20, size 0x1
-  __declspec(property(get = __get_hideByDefault, put = __set_hideByDefault)) bool hideByDefault;
+  __declspec(property(get = __cordl_internal_get_hideByDefault, put = __cordl_internal_set_hideByDefault)) bool hideByDefault;
 
   /// @brief Field showTimeoutPeriod, offset 0x24, size 0x4
-  __declspec(property(get = __get_showTimeoutPeriod, put = __set_showTimeoutPeriod)) float_t showTimeoutPeriod;
+  __declspec(property(get = __cordl_internal_get_showTimeoutPeriod, put = __cordl_internal_set_showTimeoutPeriod)) float_t showTimeoutPeriod;
 
   /// @brief Field hideTimeoutPeriod, offset 0x28, size 0x4
-  __declspec(property(get = __get_hideTimeoutPeriod, put = __set_hideTimeoutPeriod)) float_t hideTimeoutPeriod;
+  __declspec(property(get = __cordl_internal_get_hideTimeoutPeriod, put = __cordl_internal_set_hideTimeoutPeriod)) float_t hideTimeoutPeriod;
 
   /// @brief Field dimOnHideRequest, offset 0x2c, size 0x1
-  __declspec(property(get = __get_dimOnHideRequest, put = __set_dimOnHideRequest)) bool dimOnHideRequest;
+  __declspec(property(get = __cordl_internal_get_dimOnHideRequest, put = __cordl_internal_set_dimOnHideRequest)) bool dimOnHideRequest;
 
   /// @brief Field depthScaleMultiplier, offset 0x30, size 0x4
-  __declspec(property(get = __get_depthScaleMultiplier, put = __set_depthScaleMultiplier)) float_t depthScaleMultiplier;
+  __declspec(property(get = __cordl_internal_get_depthScaleMultiplier, put = __cordl_internal_set_depthScaleMultiplier)) float_t depthScaleMultiplier;
 
   /// @brief Field matchNormalOnPhysicsColliders, offset 0x34, size 0x1
-  __declspec(property(get = __get_matchNormalOnPhysicsColliders, put = __set_matchNormalOnPhysicsColliders)) bool matchNormalOnPhysicsColliders;
+  __declspec(property(get = __cordl_internal_get_matchNormalOnPhysicsColliders, put = __cordl_internal_set_matchNormalOnPhysicsColliders)) bool matchNormalOnPhysicsColliders;
 
   /// @brief Field rayTransform, offset 0x38, size 0x8
-  __declspec(property(get = __get_rayTransform, put = __set_rayTransform))::UnityEngine::Transform* rayTransform;
+  __declspec(property(get = __cordl_internal_get_rayTransform, put = __cordl_internal_set_rayTransform))::UnityW<::UnityEngine::Transform> rayTransform;
 
   /// @brief Field <hidden>k__BackingField, offset 0x40, size 0x1
-  __declspec(property(get = __get__hidden_k__BackingField, put = __set__hidden_k__BackingField)) bool _hidden_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__hidden_k__BackingField, put = __cordl_internal_set__hidden_k__BackingField)) bool _hidden_k__BackingField;
 
   /// @brief Field <currentScale>k__BackingField, offset 0x44, size 0x4
-  __declspec(property(get = __get__currentScale_k__BackingField, put = __set__currentScale_k__BackingField)) float_t _currentScale_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__currentScale_k__BackingField, put = __cordl_internal_set__currentScale_k__BackingField)) float_t _currentScale_k__BackingField;
 
   /// @brief Field depth, offset 0x48, size 0x4
-  __declspec(property(get = __get_depth, put = __set_depth)) float_t depth;
+  __declspec(property(get = __cordl_internal_get_depth, put = __cordl_internal_set_depth)) float_t depth;
 
   /// @brief Field hideUntilTime, offset 0x4c, size 0x4
-  __declspec(property(get = __get_hideUntilTime, put = __set_hideUntilTime)) float_t hideUntilTime;
+  __declspec(property(get = __cordl_internal_get_hideUntilTime, put = __cordl_internal_set_hideUntilTime)) float_t hideUntilTime;
 
   /// @brief Field positionSetsThisFrame, offset 0x50, size 0x4
-  __declspec(property(get = __get_positionSetsThisFrame, put = __set_positionSetsThisFrame)) int32_t positionSetsThisFrame;
+  __declspec(property(get = __cordl_internal_get_positionSetsThisFrame, put = __cordl_internal_set_positionSetsThisFrame)) int32_t positionSetsThisFrame;
 
   /// @brief Field lastShowRequestTime, offset 0x54, size 0x4
-  __declspec(property(get = __get_lastShowRequestTime, put = __set_lastShowRequestTime)) float_t lastShowRequestTime;
+  __declspec(property(get = __cordl_internal_get_lastShowRequestTime, put = __cordl_internal_set_lastShowRequestTime)) float_t lastShowRequestTime;
 
   /// @brief Field lastHideRequestTime, offset 0x58, size 0x4
-  __declspec(property(get = __get_lastHideRequestTime, put = __set_lastHideRequestTime)) float_t lastHideRequestTime;
+  __declspec(property(get = __cordl_internal_get_lastHideRequestTime, put = __cordl_internal_set_lastHideRequestTime)) float_t lastHideRequestTime;
 
   /// @brief Field progressIndicator, offset 0x60, size 0x8
-  __declspec(property(get = __get_progressIndicator, put = __set_progressIndicator))::GlobalNamespace::OVRProgressIndicator* progressIndicator;
+  __declspec(property(get = __cordl_internal_get_progressIndicator, put = __cordl_internal_set_progressIndicator))::UnityW<::GlobalNamespace::OVRProgressIndicator> progressIndicator;
 
   /// @brief Field _instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance))::GlobalNamespace::OVRGazePointer* _instance;
+  static __declspec(property(get = getStaticF__instance, put = setStaticF__instance))::UnityW<::GlobalNamespace::OVRGazePointer> _instance;
 
   __declspec(property(get = get_hidden, put = set_hidden)) bool hidden;
 
@@ -90,105 +90,105 @@ public:
 
   __declspec(property(get = get_SelectionProgress, put = set_SelectionProgress)) float_t SelectionProgress;
 
-  constexpr ::UnityEngine::Transform*& __get_gazeIcon();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_gazeIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_gazeIcon() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_gazeIcon() const;
 
-  constexpr void __set_gazeIcon(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_gazeIcon(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr bool& __get_hideByDefault();
+  constexpr bool& __cordl_internal_get_hideByDefault();
 
-  constexpr bool const& __get_hideByDefault() const;
+  constexpr bool const& __cordl_internal_get_hideByDefault() const;
 
-  constexpr void __set_hideByDefault(bool value);
+  constexpr void __cordl_internal_set_hideByDefault(bool value);
 
-  constexpr float_t& __get_showTimeoutPeriod();
+  constexpr float_t& __cordl_internal_get_showTimeoutPeriod();
 
-  constexpr float_t const& __get_showTimeoutPeriod() const;
+  constexpr float_t const& __cordl_internal_get_showTimeoutPeriod() const;
 
-  constexpr void __set_showTimeoutPeriod(float_t value);
+  constexpr void __cordl_internal_set_showTimeoutPeriod(float_t value);
 
-  constexpr float_t& __get_hideTimeoutPeriod();
+  constexpr float_t& __cordl_internal_get_hideTimeoutPeriod();
 
-  constexpr float_t const& __get_hideTimeoutPeriod() const;
+  constexpr float_t const& __cordl_internal_get_hideTimeoutPeriod() const;
 
-  constexpr void __set_hideTimeoutPeriod(float_t value);
+  constexpr void __cordl_internal_set_hideTimeoutPeriod(float_t value);
 
-  constexpr bool& __get_dimOnHideRequest();
+  constexpr bool& __cordl_internal_get_dimOnHideRequest();
 
-  constexpr bool const& __get_dimOnHideRequest() const;
+  constexpr bool const& __cordl_internal_get_dimOnHideRequest() const;
 
-  constexpr void __set_dimOnHideRequest(bool value);
+  constexpr void __cordl_internal_set_dimOnHideRequest(bool value);
 
-  constexpr float_t& __get_depthScaleMultiplier();
+  constexpr float_t& __cordl_internal_get_depthScaleMultiplier();
 
-  constexpr float_t const& __get_depthScaleMultiplier() const;
+  constexpr float_t const& __cordl_internal_get_depthScaleMultiplier() const;
 
-  constexpr void __set_depthScaleMultiplier(float_t value);
+  constexpr void __cordl_internal_set_depthScaleMultiplier(float_t value);
 
-  constexpr bool& __get_matchNormalOnPhysicsColliders();
+  constexpr bool& __cordl_internal_get_matchNormalOnPhysicsColliders();
 
-  constexpr bool const& __get_matchNormalOnPhysicsColliders() const;
+  constexpr bool const& __cordl_internal_get_matchNormalOnPhysicsColliders() const;
 
-  constexpr void __set_matchNormalOnPhysicsColliders(bool value);
+  constexpr void __cordl_internal_set_matchNormalOnPhysicsColliders(bool value);
 
-  constexpr ::UnityEngine::Transform*& __get_rayTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rayTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_rayTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rayTransform() const;
 
-  constexpr void __set_rayTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_rayTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr bool& __get__hidden_k__BackingField();
+  constexpr bool& __cordl_internal_get__hidden_k__BackingField();
 
-  constexpr bool const& __get__hidden_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__hidden_k__BackingField() const;
 
-  constexpr void __set__hidden_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__hidden_k__BackingField(bool value);
 
-  constexpr float_t& __get__currentScale_k__BackingField();
+  constexpr float_t& __cordl_internal_get__currentScale_k__BackingField();
 
-  constexpr float_t const& __get__currentScale_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__currentScale_k__BackingField() const;
 
-  constexpr void __set__currentScale_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__currentScale_k__BackingField(float_t value);
 
-  constexpr float_t& __get_depth();
+  constexpr float_t& __cordl_internal_get_depth();
 
-  constexpr float_t const& __get_depth() const;
+  constexpr float_t const& __cordl_internal_get_depth() const;
 
-  constexpr void __set_depth(float_t value);
+  constexpr void __cordl_internal_set_depth(float_t value);
 
-  constexpr float_t& __get_hideUntilTime();
+  constexpr float_t& __cordl_internal_get_hideUntilTime();
 
-  constexpr float_t const& __get_hideUntilTime() const;
+  constexpr float_t const& __cordl_internal_get_hideUntilTime() const;
 
-  constexpr void __set_hideUntilTime(float_t value);
+  constexpr void __cordl_internal_set_hideUntilTime(float_t value);
 
-  constexpr int32_t& __get_positionSetsThisFrame();
+  constexpr int32_t& __cordl_internal_get_positionSetsThisFrame();
 
-  constexpr int32_t const& __get_positionSetsThisFrame() const;
+  constexpr int32_t const& __cordl_internal_get_positionSetsThisFrame() const;
 
-  constexpr void __set_positionSetsThisFrame(int32_t value);
+  constexpr void __cordl_internal_set_positionSetsThisFrame(int32_t value);
 
-  constexpr float_t& __get_lastShowRequestTime();
+  constexpr float_t& __cordl_internal_get_lastShowRequestTime();
 
-  constexpr float_t const& __get_lastShowRequestTime() const;
+  constexpr float_t const& __cordl_internal_get_lastShowRequestTime() const;
 
-  constexpr void __set_lastShowRequestTime(float_t value);
+  constexpr void __cordl_internal_set_lastShowRequestTime(float_t value);
 
-  constexpr float_t& __get_lastHideRequestTime();
+  constexpr float_t& __cordl_internal_get_lastHideRequestTime();
 
-  constexpr float_t const& __get_lastHideRequestTime() const;
+  constexpr float_t const& __cordl_internal_get_lastHideRequestTime() const;
 
-  constexpr void __set_lastHideRequestTime(float_t value);
+  constexpr void __cordl_internal_set_lastHideRequestTime(float_t value);
 
-  constexpr ::GlobalNamespace::OVRProgressIndicator*& __get_progressIndicator();
+  constexpr ::UnityW<::GlobalNamespace::OVRProgressIndicator>& __cordl_internal_get_progressIndicator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRProgressIndicator*> const& __get_progressIndicator() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRProgressIndicator> const& __cordl_internal_get_progressIndicator() const;
 
-  constexpr void __set_progressIndicator(::GlobalNamespace::OVRProgressIndicator* value);
+  constexpr void __cordl_internal_set_progressIndicator(::UnityW<::GlobalNamespace::OVRProgressIndicator> value);
 
-  static inline void setStaticF__instance(::GlobalNamespace::OVRGazePointer* value);
+  static inline void setStaticF__instance(::UnityW<::GlobalNamespace::OVRGazePointer> value);
 
-  static inline ::GlobalNamespace::OVRGazePointer* getStaticF__instance();
+  static inline ::UnityW<::GlobalNamespace::OVRGazePointer> getStaticF__instance();
 
   /// @brief Method get_hidden, addr 0x27abb04, size 0x8, virtual false, abstract: false, final false
   inline bool get_hidden();
@@ -203,7 +203,7 @@ public:
   inline void set_currentScale(float_t value);
 
   /// @brief Method get_instance, addr 0x27abb28, size 0x214, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::OVRGazePointer* get_instance();
+  static inline ::UnityW<::GlobalNamespace::OVRGazePointer> get_instance();
 
   /// @brief Method get_visibilityStrength, addr 0x27abd3c, size 0x9c, virtual false, abstract: false, final false
   inline float_t get_visibilityStrength();
@@ -261,7 +261,7 @@ protected:
 
 public:
   /// @brief Field gazeIcon, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___gazeIcon;
+  ::UnityW<::UnityEngine::Transform> ___gazeIcon;
 
   /// @brief Field hideByDefault, offset: 0x20, size: 0x1, def value: None
   bool ___hideByDefault;
@@ -282,7 +282,7 @@ public:
   bool ___matchNormalOnPhysicsColliders;
 
   /// @brief Field rayTransform, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___rayTransform;
+  ::UnityW<::UnityEngine::Transform> ___rayTransform;
 
   /// @brief Field <hidden>k__BackingField, offset: 0x40, size: 0x1, def value: None
   bool ____hidden_k__BackingField;
@@ -306,7 +306,7 @@ public:
   float_t ___lastHideRequestTime;
 
   /// @brief Field progressIndicator, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::OVRProgressIndicator* ___progressIndicator;
+  ::UnityW<::GlobalNamespace::OVRProgressIndicator> ___progressIndicator;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

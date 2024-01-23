@@ -30,20 +30,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(139))
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::CompleteRevocationRefs*
 class CORDL_TYPE CompleteRevocationRefs : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field crlOcspRefs, offset 0x10, size 0x8
-  __declspec(property(get = __get_crlOcspRefs, put = __set_crlOcspRefs))::Org::BouncyCastle::Asn1::Asn1Sequence* crlOcspRefs;
+  __declspec(property(get = __cordl_internal_get_crlOcspRefs, put = __cordl_internal_set_crlOcspRefs))::Org::BouncyCastle::Asn1::Asn1Sequence* crlOcspRefs;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_crlOcspRefs();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_crlOcspRefs();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_crlOcspRefs() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_crlOcspRefs() const;
 
-  constexpr void __set_crlOcspRefs(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_crlOcspRefs(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
   /// @brief Method GetInstance, addr 0xe909a0, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::CompleteRevocationRefs* GetInstance(::System::Object* obj);

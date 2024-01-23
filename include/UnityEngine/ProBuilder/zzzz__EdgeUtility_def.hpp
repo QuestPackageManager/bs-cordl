@@ -42,20 +42,20 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::__EdgeUtility____c__DisplayClass0_0);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12120))
 // CS Name: ::EdgeUtility::<>c__DisplayClass0_0*
 class CORDL_TYPE __EdgeUtility____c__DisplayClass0_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mesh, offset 0x10, size 0x8
-  __declspec(property(get = __get_mesh, put = __set_mesh))::UnityEngine::ProBuilder::ProBuilderMesh* mesh;
+  __declspec(property(get = __cordl_internal_get_mesh, put = __cordl_internal_set_mesh))::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> mesh;
 
-  constexpr ::UnityEngine::ProBuilder::ProBuilderMesh*& __get_mesh();
+  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>& __cordl_internal_get_mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::ProBuilderMesh*> const& __get_mesh() const;
+  constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> const& __cordl_internal_get_mesh() const;
 
-  constexpr void __set_mesh(::UnityEngine::ProBuilder::ProBuilderMesh* value);
+  constexpr void __cordl_internal_set_mesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value);
 
   static inline ::UnityEngine::ProBuilder::__EdgeUtility____c__DisplayClass0_0* New_ctor();
 
@@ -80,7 +80,7 @@ protected:
 
 public:
   /// @brief Field mesh, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::ProBuilder::ProBuilderMesh* ___mesh;
+  ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> ___mesh;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -94,7 +94,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__EdgeUtility____c__DisplayCla
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12121))
 // CS Name: ::UnityEngine.ProBuilder::EdgeUtility*
 class CORDL_TYPE EdgeUtility : public ::System::Object {

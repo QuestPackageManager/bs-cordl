@@ -29,7 +29,7 @@ MARK_VAL_T(::UnityEngine::Hash128);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10261))
 // CS Name: ::UnityEngine::Hash128
 struct CORDL_TYPE Hash128 {

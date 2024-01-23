@@ -85,8 +85,8 @@ MARK_REF_PTR_T(::GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(4793))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4792)) CS Name: ::ObstacleController*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4793)), TypeDefinitionIndex(TypeDefinitionIndex(10164)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10252))] Self: TypeDefinitionIndex(TypeDefinitionIndex(4792)) CS Name: ::ObstacleController*
 class CORDL_TYPE ObstacleController : public ::GlobalNamespace::ObstacleControllerBase {
 public:
   // Declarations
@@ -95,98 +95,102 @@ public:
   using Pool = ::GlobalNamespace::__ObstacleController__Pool;
 
   /// @brief Field _stretchableObstacle, offset 0x28, size 0x8
-  __declspec(property(get = __get__stretchableObstacle, put = __set__stretchableObstacle))::GlobalNamespace::StretchableObstacle* _stretchableObstacle;
+  __declspec(property(get = __cordl_internal_get__stretchableObstacle, put = __cordl_internal_set__stretchableObstacle))::UnityW<::GlobalNamespace::StretchableObstacle> _stretchableObstacle;
 
   /// @brief Field _endDistanceOffset, offset 0x30, size 0x4
-  __declspec(property(get = __get__endDistanceOffset, put = __set__endDistanceOffset)) float_t _endDistanceOffset;
+  __declspec(property(get = __cordl_internal_get__endDistanceOffset, put = __cordl_internal_set__endDistanceOffset)) float_t _endDistanceOffset;
 
   /// @brief Field _visualWrappers, offset 0x38, size 0x8
-  __declspec(property(get = __get__visualWrappers, put = __set__visualWrappers))::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> _visualWrappers;
+  __declspec(property(get = __cordl_internal_get__visualWrappers,
+                      put = __cordl_internal_set__visualWrappers))::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> _visualWrappers;
 
   /// @brief Field _playerTransforms, offset 0x40, size 0x8
-  __declspec(property(get = __get__playerTransforms, put = __set__playerTransforms))::GlobalNamespace::PlayerTransforms* _playerTransforms;
+  __declspec(property(get = __cordl_internal_get__playerTransforms, put = __cordl_internal_set__playerTransforms))::UnityW<::GlobalNamespace::PlayerTransforms> _playerTransforms;
 
   /// @brief Field _audioTimeSyncController, offset 0x48, size 0x8
-  __declspec(property(get = __get__audioTimeSyncController, put = __set__audioTimeSyncController))::GlobalNamespace::IAudioTimeSource* _audioTimeSyncController;
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController, put = __cordl_internal_set__audioTimeSyncController))::GlobalNamespace::IAudioTimeSource* _audioTimeSyncController;
 
   /// @brief Field _colorManager, offset 0x50, size 0x8
-  __declspec(property(get = __get__colorManager, put = __set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
 
   /// @brief Field finishedMovementEvent, offset 0x58, size 0x8
-  __declspec(property(get = __get_finishedMovementEvent, put = __set_finishedMovementEvent))::System::Action_1<::GlobalNamespace::ObstacleController*>* finishedMovementEvent;
+  __declspec(property(get = __cordl_internal_get_finishedMovementEvent,
+                      put = __cordl_internal_set_finishedMovementEvent))::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* finishedMovementEvent;
 
   /// @brief Field passedThreeQuartersOfMove2Event, offset 0x60, size 0x8
-  __declspec(property(get = __get_passedThreeQuartersOfMove2Event,
-                      put = __set_passedThreeQuartersOfMove2Event))::System::Action_1<::GlobalNamespace::ObstacleController*>* passedThreeQuartersOfMove2Event;
+  __declspec(property(get = __cordl_internal_get_passedThreeQuartersOfMove2Event,
+                      put = __cordl_internal_set_passedThreeQuartersOfMove2Event))::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* passedThreeQuartersOfMove2Event;
 
   /// @brief Field passedAvoidedMarkEvent, offset 0x68, size 0x8
-  __declspec(property(get = __get_passedAvoidedMarkEvent, put = __set_passedAvoidedMarkEvent))::System::Action_1<::GlobalNamespace::ObstacleController*>* passedAvoidedMarkEvent;
+  __declspec(property(get = __cordl_internal_get_passedAvoidedMarkEvent,
+                      put = __cordl_internal_set_passedAvoidedMarkEvent))::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* passedAvoidedMarkEvent;
 
   /// @brief Field didDissolveEvent, offset 0x70, size 0x8
-  __declspec(property(get = __get_didDissolveEvent, put = __set_didDissolveEvent))::System::Action_1<::GlobalNamespace::ObstacleController*>* didDissolveEvent;
+  __declspec(property(get = __cordl_internal_get_didDissolveEvent, put = __cordl_internal_set_didDissolveEvent))::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* didDissolveEvent;
 
   /// @brief Field didUpdateProgress, offset 0x78, size 0x8
-  __declspec(property(get = __get_didUpdateProgress, put = __set_didUpdateProgress))::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>* didUpdateProgress;
+  __declspec(property(get = __cordl_internal_get_didUpdateProgress,
+                      put = __cordl_internal_set_didUpdateProgress))::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* didUpdateProgress;
 
   /// @brief Field _width, offset 0x80, size 0x4
-  __declspec(property(get = __get__width, put = __set__width)) float_t _width;
+  __declspec(property(get = __cordl_internal_get__width, put = __cordl_internal_set__width)) float_t _width;
 
   /// @brief Field _height, offset 0x84, size 0x4
-  __declspec(property(get = __get__height, put = __set__height)) float_t _height;
+  __declspec(property(get = __cordl_internal_get__height, put = __cordl_internal_set__height)) float_t _height;
 
   /// @brief Field _length, offset 0x88, size 0x4
-  __declspec(property(get = __get__length, put = __set__length)) float_t _length;
+  __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) float_t _length;
 
   /// @brief Field _startPos, offset 0x8c, size 0xc
-  __declspec(property(get = __get__startPos, put = __set__startPos))::UnityEngine::Vector3 _startPos;
+  __declspec(property(get = __cordl_internal_get__startPos, put = __cordl_internal_set__startPos))::UnityEngine::Vector3 _startPos;
 
   /// @brief Field _midPos, offset 0x98, size 0xc
-  __declspec(property(get = __get__midPos, put = __set__midPos))::UnityEngine::Vector3 _midPos;
+  __declspec(property(get = __cordl_internal_get__midPos, put = __cordl_internal_set__midPos))::UnityEngine::Vector3 _midPos;
 
   /// @brief Field _endPos, offset 0xa4, size 0xc
-  __declspec(property(get = __get__endPos, put = __set__endPos))::UnityEngine::Vector3 _endPos;
+  __declspec(property(get = __cordl_internal_get__endPos, put = __cordl_internal_set__endPos))::UnityEngine::Vector3 _endPos;
 
   /// @brief Field _move1Duration, offset 0xb0, size 0x4
-  __declspec(property(get = __get__move1Duration, put = __set__move1Duration)) float_t _move1Duration;
+  __declspec(property(get = __cordl_internal_get__move1Duration, put = __cordl_internal_set__move1Duration)) float_t _move1Duration;
 
   /// @brief Field _move2Duration, offset 0xb4, size 0x4
-  __declspec(property(get = __get__move2Duration, put = __set__move2Duration)) float_t _move2Duration;
+  __declspec(property(get = __cordl_internal_get__move2Duration, put = __cordl_internal_set__move2Duration)) float_t _move2Duration;
 
   /// @brief Field _startTimeOffset, offset 0xb8, size 0x4
-  __declspec(property(get = __get__startTimeOffset, put = __set__startTimeOffset)) float_t _startTimeOffset;
+  __declspec(property(get = __cordl_internal_get__startTimeOffset, put = __cordl_internal_set__startTimeOffset)) float_t _startTimeOffset;
 
   /// @brief Field _obstacleDuration, offset 0xbc, size 0x4
-  __declspec(property(get = __get__obstacleDuration, put = __set__obstacleDuration)) float_t _obstacleDuration;
+  __declspec(property(get = __cordl_internal_get__obstacleDuration, put = __cordl_internal_set__obstacleDuration)) float_t _obstacleDuration;
 
   /// @brief Field _passedThreeQuartersOfMove2Reported, offset 0xc0, size 0x1
-  __declspec(property(get = __get__passedThreeQuartersOfMove2Reported, put = __set__passedThreeQuartersOfMove2Reported)) bool _passedThreeQuartersOfMove2Reported;
+  __declspec(property(get = __cordl_internal_get__passedThreeQuartersOfMove2Reported, put = __cordl_internal_set__passedThreeQuartersOfMove2Reported)) bool _passedThreeQuartersOfMove2Reported;
 
   /// @brief Field _passedAvoidedMarkReported, offset 0xc1, size 0x1
-  __declspec(property(get = __get__passedAvoidedMarkReported, put = __set__passedAvoidedMarkReported)) bool _passedAvoidedMarkReported;
+  __declspec(property(get = __cordl_internal_get__passedAvoidedMarkReported, put = __cordl_internal_set__passedAvoidedMarkReported)) bool _passedAvoidedMarkReported;
 
   /// @brief Field _passedAvoidedMarkTime, offset 0xc4, size 0x4
-  __declspec(property(get = __get__passedAvoidedMarkTime, put = __set__passedAvoidedMarkTime)) float_t _passedAvoidedMarkTime;
+  __declspec(property(get = __cordl_internal_get__passedAvoidedMarkTime, put = __cordl_internal_set__passedAvoidedMarkTime)) float_t _passedAvoidedMarkTime;
 
   /// @brief Field _finishMovementTime, offset 0xc8, size 0x4
-  __declspec(property(get = __get__finishMovementTime, put = __set__finishMovementTime)) float_t _finishMovementTime;
+  __declspec(property(get = __cordl_internal_get__finishMovementTime, put = __cordl_internal_set__finishMovementTime)) float_t _finishMovementTime;
 
   /// @brief Field _bounds, offset 0xcc, size 0x18
-  __declspec(property(get = __get__bounds, put = __set__bounds))::UnityEngine::Bounds _bounds;
+  __declspec(property(get = __cordl_internal_get__bounds, put = __cordl_internal_set__bounds))::UnityEngine::Bounds _bounds;
 
   /// @brief Field _dissolving, offset 0xe4, size 0x1
-  __declspec(property(get = __get__dissolving, put = __set__dissolving)) bool _dissolving;
+  __declspec(property(get = __cordl_internal_get__dissolving, put = __cordl_internal_set__dissolving)) bool _dissolving;
 
   /// @brief Field _obstacleData, offset 0xe8, size 0x8
-  __declspec(property(get = __get__obstacleData, put = __set__obstacleData))::GlobalNamespace::ObstacleData* _obstacleData;
+  __declspec(property(get = __cordl_internal_get__obstacleData, put = __cordl_internal_set__obstacleData))::GlobalNamespace::ObstacleData* _obstacleData;
 
   /// @brief Field _color, offset 0xf0, size 0x10
-  __declspec(property(get = __get__color, put = __set__color))::UnityEngine::Color _color;
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
   /// @brief Field _worldRotation, offset 0x100, size 0x10
-  __declspec(property(get = __get__worldRotation, put = __set__worldRotation))::UnityEngine::Quaternion _worldRotation;
+  __declspec(property(get = __cordl_internal_get__worldRotation, put = __cordl_internal_set__worldRotation))::UnityEngine::Quaternion _worldRotation;
 
   /// @brief Field _inverseWorldRotation, offset 0x110, size 0x10
-  __declspec(property(get = __get__inverseWorldRotation, put = __set__inverseWorldRotation))::UnityEngine::Quaternion _inverseWorldRotation;
+  __declspec(property(get = __cordl_internal_get__inverseWorldRotation, put = __cordl_internal_set__inverseWorldRotation))::UnityEngine::Quaternion _inverseWorldRotation;
 
   __declspec(property(get = get_bounds))::UnityEngine::Bounds bounds;
 
@@ -212,221 +216,221 @@ public:
   /// @brief Convert to "::GlobalNamespace::IBeatmapObjectController"
   constexpr ::GlobalNamespace::IBeatmapObjectController* i___GlobalNamespace__IBeatmapObjectController() noexcept;
 
-  constexpr ::GlobalNamespace::StretchableObstacle*& __get__stretchableObstacle();
+  constexpr ::UnityW<::GlobalNamespace::StretchableObstacle>& __cordl_internal_get__stretchableObstacle();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StretchableObstacle*> const& __get__stretchableObstacle() const;
+  constexpr ::UnityW<::GlobalNamespace::StretchableObstacle> const& __cordl_internal_get__stretchableObstacle() const;
 
-  constexpr void __set__stretchableObstacle(::GlobalNamespace::StretchableObstacle* value);
+  constexpr void __cordl_internal_set__stretchableObstacle(::UnityW<::GlobalNamespace::StretchableObstacle> value);
 
-  constexpr float_t& __get__endDistanceOffset();
+  constexpr float_t& __cordl_internal_get__endDistanceOffset();
 
-  constexpr float_t const& __get__endDistanceOffset() const;
+  constexpr float_t const& __cordl_internal_get__endDistanceOffset() const;
 
-  constexpr void __set__endDistanceOffset(float_t value);
+  constexpr void __cordl_internal_set__endDistanceOffset(float_t value);
 
-  constexpr ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>& __get__visualWrappers();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>& __cordl_internal_get__visualWrappers();
 
-  constexpr ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> const& __get__visualWrappers() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__visualWrappers() const;
 
-  constexpr void __set__visualWrappers(::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> value);
+  constexpr void __cordl_internal_set__visualWrappers(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  constexpr ::GlobalNamespace::PlayerTransforms*& __get__playerTransforms();
+  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms>& __cordl_internal_get__playerTransforms();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerTransforms*> const& __get__playerTransforms() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms> const& __cordl_internal_get__playerTransforms() const;
 
-  constexpr void __set__playerTransforms(::GlobalNamespace::PlayerTransforms* value);
+  constexpr void __cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms> value);
 
-  constexpr ::GlobalNamespace::IAudioTimeSource*& __get__audioTimeSyncController();
+  constexpr ::GlobalNamespace::IAudioTimeSource*& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __get__audioTimeSyncController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAudioTimeSource*> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource* value);
+  constexpr void __cordl_internal_set__audioTimeSyncController(::GlobalNamespace::IAudioTimeSource* value);
 
-  constexpr ::GlobalNamespace::ColorManager*& __get__colorManager();
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __get__colorManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
 
-  constexpr void __set__colorManager(::GlobalNamespace::ColorManager* value);
+  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>*& __get_finishedMovementEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get_finishedMovementEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ObstacleController*>*> const& __get_finishedMovementEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*> const& __cordl_internal_get_finishedMovementEvent() const;
 
-  constexpr void __set_finishedMovementEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  constexpr void __cordl_internal_set_finishedMovementEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>*& __get_passedThreeQuartersOfMove2Event();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get_passedThreeQuartersOfMove2Event();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ObstacleController*>*> const& __get_passedThreeQuartersOfMove2Event() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*> const& __cordl_internal_get_passedThreeQuartersOfMove2Event() const;
 
-  constexpr void __set_passedThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  constexpr void __cordl_internal_set_passedThreeQuartersOfMove2Event(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>*& __get_passedAvoidedMarkEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get_passedAvoidedMarkEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ObstacleController*>*> const& __get_passedAvoidedMarkEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*> const& __cordl_internal_get_passedAvoidedMarkEvent() const;
 
-  constexpr void __set_passedAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  constexpr void __cordl_internal_set_passedAvoidedMarkEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::ObstacleController*>*& __get_didDissolveEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*& __cordl_internal_get_didDissolveEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ObstacleController*>*> const& __get_didDissolveEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*> const& __cordl_internal_get_didDissolveEvent() const;
 
-  constexpr void __set_didDissolveEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  constexpr void __cordl_internal_set_didDissolveEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>*& __get_didUpdateProgress();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>*& __cordl_internal_get_didUpdateProgress();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>*> const& __get_didUpdateProgress() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>*> const& __cordl_internal_get_didUpdateProgress() const;
 
-  constexpr void __set_didUpdateProgress(::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>* value);
+  constexpr void __cordl_internal_set_didUpdateProgress(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* value);
 
-  constexpr float_t& __get__width();
+  constexpr float_t& __cordl_internal_get__width();
 
-  constexpr float_t const& __get__width() const;
+  constexpr float_t const& __cordl_internal_get__width() const;
 
-  constexpr void __set__width(float_t value);
+  constexpr void __cordl_internal_set__width(float_t value);
 
-  constexpr float_t& __get__height();
+  constexpr float_t& __cordl_internal_get__height();
 
-  constexpr float_t const& __get__height() const;
+  constexpr float_t const& __cordl_internal_get__height() const;
 
-  constexpr void __set__height(float_t value);
+  constexpr void __cordl_internal_set__height(float_t value);
 
-  constexpr float_t& __get__length();
+  constexpr float_t& __cordl_internal_get__length();
 
-  constexpr float_t const& __get__length() const;
+  constexpr float_t const& __cordl_internal_get__length() const;
 
-  constexpr void __set__length(float_t value);
+  constexpr void __cordl_internal_set__length(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get__startPos();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__startPos();
 
-  constexpr ::UnityEngine::Vector3 const& __get__startPos() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__startPos() const;
 
-  constexpr void __set__startPos(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__startPos(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__midPos();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__midPos();
 
-  constexpr ::UnityEngine::Vector3 const& __get__midPos() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__midPos() const;
 
-  constexpr void __set__midPos(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__midPos(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__endPos();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__endPos();
 
-  constexpr ::UnityEngine::Vector3 const& __get__endPos() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__endPos() const;
 
-  constexpr void __set__endPos(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__endPos(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get__move1Duration();
+  constexpr float_t& __cordl_internal_get__move1Duration();
 
-  constexpr float_t const& __get__move1Duration() const;
+  constexpr float_t const& __cordl_internal_get__move1Duration() const;
 
-  constexpr void __set__move1Duration(float_t value);
+  constexpr void __cordl_internal_set__move1Duration(float_t value);
 
-  constexpr float_t& __get__move2Duration();
+  constexpr float_t& __cordl_internal_get__move2Duration();
 
-  constexpr float_t const& __get__move2Duration() const;
+  constexpr float_t const& __cordl_internal_get__move2Duration() const;
 
-  constexpr void __set__move2Duration(float_t value);
+  constexpr void __cordl_internal_set__move2Duration(float_t value);
 
-  constexpr float_t& __get__startTimeOffset();
+  constexpr float_t& __cordl_internal_get__startTimeOffset();
 
-  constexpr float_t const& __get__startTimeOffset() const;
+  constexpr float_t const& __cordl_internal_get__startTimeOffset() const;
 
-  constexpr void __set__startTimeOffset(float_t value);
+  constexpr void __cordl_internal_set__startTimeOffset(float_t value);
 
-  constexpr float_t& __get__obstacleDuration();
+  constexpr float_t& __cordl_internal_get__obstacleDuration();
 
-  constexpr float_t const& __get__obstacleDuration() const;
+  constexpr float_t const& __cordl_internal_get__obstacleDuration() const;
 
-  constexpr void __set__obstacleDuration(float_t value);
+  constexpr void __cordl_internal_set__obstacleDuration(float_t value);
 
-  constexpr bool& __get__passedThreeQuartersOfMove2Reported();
+  constexpr bool& __cordl_internal_get__passedThreeQuartersOfMove2Reported();
 
-  constexpr bool const& __get__passedThreeQuartersOfMove2Reported() const;
+  constexpr bool const& __cordl_internal_get__passedThreeQuartersOfMove2Reported() const;
 
-  constexpr void __set__passedThreeQuartersOfMove2Reported(bool value);
+  constexpr void __cordl_internal_set__passedThreeQuartersOfMove2Reported(bool value);
 
-  constexpr bool& __get__passedAvoidedMarkReported();
+  constexpr bool& __cordl_internal_get__passedAvoidedMarkReported();
 
-  constexpr bool const& __get__passedAvoidedMarkReported() const;
+  constexpr bool const& __cordl_internal_get__passedAvoidedMarkReported() const;
 
-  constexpr void __set__passedAvoidedMarkReported(bool value);
+  constexpr void __cordl_internal_set__passedAvoidedMarkReported(bool value);
 
-  constexpr float_t& __get__passedAvoidedMarkTime();
+  constexpr float_t& __cordl_internal_get__passedAvoidedMarkTime();
 
-  constexpr float_t const& __get__passedAvoidedMarkTime() const;
+  constexpr float_t const& __cordl_internal_get__passedAvoidedMarkTime() const;
 
-  constexpr void __set__passedAvoidedMarkTime(float_t value);
+  constexpr void __cordl_internal_set__passedAvoidedMarkTime(float_t value);
 
-  constexpr float_t& __get__finishMovementTime();
+  constexpr float_t& __cordl_internal_get__finishMovementTime();
 
-  constexpr float_t const& __get__finishMovementTime() const;
+  constexpr float_t const& __cordl_internal_get__finishMovementTime() const;
 
-  constexpr void __set__finishMovementTime(float_t value);
+  constexpr void __cordl_internal_set__finishMovementTime(float_t value);
 
-  constexpr ::UnityEngine::Bounds& __get__bounds();
+  constexpr ::UnityEngine::Bounds& __cordl_internal_get__bounds();
 
-  constexpr ::UnityEngine::Bounds const& __get__bounds() const;
+  constexpr ::UnityEngine::Bounds const& __cordl_internal_get__bounds() const;
 
-  constexpr void __set__bounds(::UnityEngine::Bounds value);
+  constexpr void __cordl_internal_set__bounds(::UnityEngine::Bounds value);
 
-  constexpr bool& __get__dissolving();
+  constexpr bool& __cordl_internal_get__dissolving();
 
-  constexpr bool const& __get__dissolving() const;
+  constexpr bool const& __cordl_internal_get__dissolving() const;
 
-  constexpr void __set__dissolving(bool value);
+  constexpr void __cordl_internal_set__dissolving(bool value);
 
-  constexpr ::GlobalNamespace::ObstacleData*& __get__obstacleData();
+  constexpr ::GlobalNamespace::ObstacleData*& __cordl_internal_get__obstacleData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObstacleData*> const& __get__obstacleData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObstacleData*> const& __cordl_internal_get__obstacleData() const;
 
-  constexpr void __set__obstacleData(::GlobalNamespace::ObstacleData* value);
+  constexpr void __cordl_internal_set__obstacleData(::GlobalNamespace::ObstacleData* value);
 
-  constexpr ::UnityEngine::Color& __get__color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::UnityEngine::Color const& __get__color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr void __set__color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Quaternion& __get__worldRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__worldRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get__worldRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__worldRotation() const;
 
-  constexpr void __set__worldRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set__worldRotation(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Quaternion& __get__inverseWorldRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__inverseWorldRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get__inverseWorldRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__inverseWorldRotation() const;
 
-  constexpr void __set__inverseWorldRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set__inverseWorldRotation(::UnityEngine::Quaternion value);
 
   /// @brief Method add_finishedMovementEvent, addr 0x238d150, size 0xb0, virtual false, abstract: false, final false
-  inline void add_finishedMovementEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_finishedMovementEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method remove_finishedMovementEvent, addr 0x238d200, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_finishedMovementEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_finishedMovementEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method add_passedThreeQuartersOfMove2Event, addr 0x238d2b0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_passedThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_passedThreeQuartersOfMove2Event(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method remove_passedThreeQuartersOfMove2Event, addr 0x238d360, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_passedThreeQuartersOfMove2Event(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_passedThreeQuartersOfMove2Event(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method add_passedAvoidedMarkEvent, addr 0x238d410, size 0xb0, virtual false, abstract: false, final false
-  inline void add_passedAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_passedAvoidedMarkEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method remove_passedAvoidedMarkEvent, addr 0x238d4c0, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_passedAvoidedMarkEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_passedAvoidedMarkEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method add_didDissolveEvent, addr 0x238d570, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didDissolveEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void add_didDissolveEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method remove_didDissolveEvent, addr 0x238d620, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didDissolveEvent(::System::Action_1<::GlobalNamespace::ObstacleController*>* value);
+  inline void remove_didDissolveEvent(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* value);
 
   /// @brief Method add_didUpdateProgress, addr 0x238d6d0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didUpdateProgress(::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>* value);
+  inline void add_didUpdateProgress(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* value);
 
   /// @brief Method remove_didUpdateProgress, addr 0x238d780, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didUpdateProgress(::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>* value);
+  inline void remove_didUpdateProgress(::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* value);
 
   /// @brief Method get_bounds, addr 0x238d830, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
@@ -500,16 +504,16 @@ protected:
 
 public:
   /// @brief Field _stretchableObstacle, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::StretchableObstacle* ____stretchableObstacle;
+  ::UnityW<::GlobalNamespace::StretchableObstacle> ____stretchableObstacle;
 
   /// @brief Field _endDistanceOffset, offset: 0x30, size: 0x4, def value: None
   float_t ____endDistanceOffset;
 
   /// @brief Field _visualWrappers, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> ____visualWrappers;
+  ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> ____visualWrappers;
 
   /// @brief Field _playerTransforms, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerTransforms* ____playerTransforms;
+  ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
 
   /// @brief Field _audioTimeSyncController, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSyncController;
@@ -518,19 +522,19 @@ public:
   ::GlobalNamespace::ColorManager* ____colorManager;
 
   /// @brief Field finishedMovementEvent, offset: 0x58, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ObstacleController*>* ___finishedMovementEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___finishedMovementEvent;
 
   /// @brief Field passedThreeQuartersOfMove2Event, offset: 0x60, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ObstacleController*>* ___passedThreeQuartersOfMove2Event;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___passedThreeQuartersOfMove2Event;
 
   /// @brief Field passedAvoidedMarkEvent, offset: 0x68, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ObstacleController*>* ___passedAvoidedMarkEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___passedAvoidedMarkEvent;
 
   /// @brief Field didDissolveEvent, offset: 0x70, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ObstacleController*>* ___didDissolveEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>* ___didDissolveEvent;
 
   /// @brief Field didUpdateProgress, offset: 0x78, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::ObstacleController*, float_t>* ___didUpdateProgress;
+  ::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>* ___didUpdateProgress;
 
   /// @brief Field _width, offset: 0x80, size: 0x4, def value: None
   float_t ____width;
@@ -667,9 +671,9 @@ static_assert(offsetof(::GlobalNamespace::ObstacleController, ____inverseWorldRo
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4792)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 372 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4790)) CS Name: ::ObstacleController::Pool*
-class CORDL_TYPE __ObstacleController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::ObstacleController*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4792)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 372 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4790)) CS Name: ::ObstacleController::Pool*
+class CORDL_TYPE __ObstacleController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::ObstacleController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__ObstacleController__Pool* New_ctor();
@@ -701,23 +705,23 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ObstacleContr
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4791))
 // CS Name: ::ObstacleController::<DissolveCoroutine>d__65*
 class CORDL_TYPE __ObstacleController___DissolveCoroutine_d__65 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::ObstacleController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::ObstacleController> __4__this;
 
   /// @brief Field duration, offset 0x28, size 0x4
-  __declspec(property(get = __get_duration, put = __set_duration)) float_t duration;
+  __declspec(property(get = __cordl_internal_get_duration, put = __cordl_internal_set_duration)) float_t duration;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -741,29 +745,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::ObstacleController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::ObstacleController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ObstacleController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::ObstacleController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::ObstacleController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::ObstacleController> value);
 
-  constexpr float_t& __get_duration();
+  constexpr float_t& __cordl_internal_get_duration();
 
-  constexpr float_t const& __get_duration() const;
+  constexpr float_t const& __cordl_internal_get_duration() const;
 
-  constexpr void __set_duration(float_t value);
+  constexpr void __cordl_internal_set_duration(float_t value);
 
   static inline ::GlobalNamespace::__ObstacleController___DissolveCoroutine_d__65* New_ctor(int32_t __1__state);
 
@@ -806,7 +810,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::ObstacleController* _____4__this;
+  ::UnityW<::GlobalNamespace::ObstacleController> _____4__this;
 
   /// @brief Field duration, offset: 0x28, size: 0x4, def value: None
   float_t ___duration;

@@ -33,38 +33,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Apache::Bzip2::__CBZip2OutputStream__StackEl
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Apache::Bzip2 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1633))
 // CS Name: ::CBZip2OutputStream::StackElem*
 class CORDL_TYPE __CBZip2OutputStream__StackElem : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ll, offset 0x10, size 0x4
-  __declspec(property(get = __get_ll, put = __set_ll)) int32_t ll;
+  __declspec(property(get = __cordl_internal_get_ll, put = __cordl_internal_set_ll)) int32_t ll;
 
   /// @brief Field hh, offset 0x14, size 0x4
-  __declspec(property(get = __get_hh, put = __set_hh)) int32_t hh;
+  __declspec(property(get = __cordl_internal_get_hh, put = __cordl_internal_set_hh)) int32_t hh;
 
   /// @brief Field dd, offset 0x18, size 0x4
-  __declspec(property(get = __get_dd, put = __set_dd)) int32_t dd;
+  __declspec(property(get = __cordl_internal_get_dd, put = __cordl_internal_set_dd)) int32_t dd;
 
-  constexpr int32_t& __get_ll();
+  constexpr int32_t& __cordl_internal_get_ll();
 
-  constexpr int32_t const& __get_ll() const;
+  constexpr int32_t const& __cordl_internal_get_ll() const;
 
-  constexpr void __set_ll(int32_t value);
+  constexpr void __cordl_internal_set_ll(int32_t value);
 
-  constexpr int32_t& __get_hh();
+  constexpr int32_t& __cordl_internal_get_hh();
 
-  constexpr int32_t const& __get_hh() const;
+  constexpr int32_t const& __cordl_internal_get_hh() const;
 
-  constexpr void __set_hh(int32_t value);
+  constexpr void __cordl_internal_set_hh(int32_t value);
 
-  constexpr int32_t& __get_dd();
+  constexpr int32_t& __cordl_internal_get_dd();
 
-  constexpr int32_t const& __get_dd() const;
+  constexpr int32_t const& __cordl_internal_get_dd() const;
 
-  constexpr void __set_dd(int32_t value);
+  constexpr void __cordl_internal_set_dd(int32_t value);
 
   static inline ::Org::BouncyCastle::Apache::Bzip2::__CBZip2OutputStream__StackElem* New_ctor();
 
@@ -110,7 +110,7 @@ static_assert(offsetof(::Org::BouncyCastle::Apache::Bzip2::__CBZip2OutputStream_
 // SizeInfo { instance_size: 248, native_size: -1, calculated_instance_size: 248, calculated_native_size: 248, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Apache::Bzip2 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1634))
 // CS Name: ::Org.BouncyCastle.Apache.Bzip2::CBZip2OutputStream*
 class CORDL_TYPE CBZip2OutputStream : public ::System::IO::Stream {
@@ -119,109 +119,109 @@ public:
   using StackElem = ::Org::BouncyCastle::Apache::Bzip2::__CBZip2OutputStream__StackElem;
 
   /// @brief Field finished, offset 0x28, size 0x1
-  __declspec(property(get = __get_finished, put = __set_finished)) bool finished;
+  __declspec(property(get = __cordl_internal_get_finished, put = __cordl_internal_set_finished)) bool finished;
 
   /// @brief Field last, offset 0x2c, size 0x4
-  __declspec(property(get = __get_last, put = __set_last)) int32_t last;
+  __declspec(property(get = __cordl_internal_get_last, put = __cordl_internal_set_last)) int32_t last;
 
   /// @brief Field origPtr, offset 0x30, size 0x4
-  __declspec(property(get = __get_origPtr, put = __set_origPtr)) int32_t origPtr;
+  __declspec(property(get = __cordl_internal_get_origPtr, put = __cordl_internal_set_origPtr)) int32_t origPtr;
 
   /// @brief Field blockSize100k, offset 0x34, size 0x4
-  __declspec(property(get = __get_blockSize100k, put = __set_blockSize100k)) int32_t blockSize100k;
+  __declspec(property(get = __cordl_internal_get_blockSize100k, put = __cordl_internal_set_blockSize100k)) int32_t blockSize100k;
 
   /// @brief Field blockRandomised, offset 0x38, size 0x1
-  __declspec(property(get = __get_blockRandomised, put = __set_blockRandomised)) bool blockRandomised;
+  __declspec(property(get = __cordl_internal_get_blockRandomised, put = __cordl_internal_set_blockRandomised)) bool blockRandomised;
 
   /// @brief Field bytesOut, offset 0x3c, size 0x4
-  __declspec(property(get = __get_bytesOut, put = __set_bytesOut)) int32_t bytesOut;
+  __declspec(property(get = __cordl_internal_get_bytesOut, put = __cordl_internal_set_bytesOut)) int32_t bytesOut;
 
   /// @brief Field bsBuff, offset 0x40, size 0x4
-  __declspec(property(get = __get_bsBuff, put = __set_bsBuff)) int32_t bsBuff;
+  __declspec(property(get = __cordl_internal_get_bsBuff, put = __cordl_internal_set_bsBuff)) int32_t bsBuff;
 
   /// @brief Field bsLive, offset 0x44, size 0x4
-  __declspec(property(get = __get_bsLive, put = __set_bsLive)) int32_t bsLive;
+  __declspec(property(get = __cordl_internal_get_bsLive, put = __cordl_internal_set_bsLive)) int32_t bsLive;
 
   /// @brief Field mCrc, offset 0x48, size 0x8
-  __declspec(property(get = __get_mCrc, put = __set_mCrc))::Org::BouncyCastle::Apache::Bzip2::CRC* mCrc;
+  __declspec(property(get = __cordl_internal_get_mCrc, put = __cordl_internal_set_mCrc))::Org::BouncyCastle::Apache::Bzip2::CRC* mCrc;
 
   /// @brief Field inUse, offset 0x50, size 0x8
-  __declspec(property(get = __get_inUse, put = __set_inUse))::ArrayW<bool, ::Array<bool>*> inUse;
+  __declspec(property(get = __cordl_internal_get_inUse, put = __cordl_internal_set_inUse))::ArrayW<bool, ::Array<bool>*> inUse;
 
   /// @brief Field nInUse, offset 0x58, size 0x4
-  __declspec(property(get = __get_nInUse, put = __set_nInUse)) int32_t nInUse;
+  __declspec(property(get = __cordl_internal_get_nInUse, put = __cordl_internal_set_nInUse)) int32_t nInUse;
 
   /// @brief Field seqToUnseq, offset 0x60, size 0x8
-  __declspec(property(get = __get_seqToUnseq, put = __set_seqToUnseq))::ArrayW<char16_t, ::Array<char16_t>*> seqToUnseq;
+  __declspec(property(get = __cordl_internal_get_seqToUnseq, put = __cordl_internal_set_seqToUnseq))::ArrayW<char16_t, ::Array<char16_t>*> seqToUnseq;
 
   /// @brief Field unseqToSeq, offset 0x68, size 0x8
-  __declspec(property(get = __get_unseqToSeq, put = __set_unseqToSeq))::ArrayW<char16_t, ::Array<char16_t>*> unseqToSeq;
+  __declspec(property(get = __cordl_internal_get_unseqToSeq, put = __cordl_internal_set_unseqToSeq))::ArrayW<char16_t, ::Array<char16_t>*> unseqToSeq;
 
   /// @brief Field selector, offset 0x70, size 0x8
-  __declspec(property(get = __get_selector, put = __set_selector))::ArrayW<char16_t, ::Array<char16_t>*> selector;
+  __declspec(property(get = __cordl_internal_get_selector, put = __cordl_internal_set_selector))::ArrayW<char16_t, ::Array<char16_t>*> selector;
 
   /// @brief Field selectorMtf, offset 0x78, size 0x8
-  __declspec(property(get = __get_selectorMtf, put = __set_selectorMtf))::ArrayW<char16_t, ::Array<char16_t>*> selectorMtf;
+  __declspec(property(get = __cordl_internal_get_selectorMtf, put = __cordl_internal_set_selectorMtf))::ArrayW<char16_t, ::Array<char16_t>*> selectorMtf;
 
   /// @brief Field block, offset 0x80, size 0x8
-  __declspec(property(get = __get_block, put = __set_block))::ArrayW<char16_t, ::Array<char16_t>*> block;
+  __declspec(property(get = __cordl_internal_get_block, put = __cordl_internal_set_block))::ArrayW<char16_t, ::Array<char16_t>*> block;
 
   /// @brief Field quadrant, offset 0x88, size 0x8
-  __declspec(property(get = __get_quadrant, put = __set_quadrant))::ArrayW<int32_t, ::Array<int32_t>*> quadrant;
+  __declspec(property(get = __cordl_internal_get_quadrant, put = __cordl_internal_set_quadrant))::ArrayW<int32_t, ::Array<int32_t>*> quadrant;
 
   /// @brief Field zptr, offset 0x90, size 0x8
-  __declspec(property(get = __get_zptr, put = __set_zptr))::ArrayW<int32_t, ::Array<int32_t>*> zptr;
+  __declspec(property(get = __cordl_internal_get_zptr, put = __cordl_internal_set_zptr))::ArrayW<int32_t, ::Array<int32_t>*> zptr;
 
   /// @brief Field szptr, offset 0x98, size 0x8
-  __declspec(property(get = __get_szptr, put = __set_szptr))::ArrayW<int16_t, ::Array<int16_t>*> szptr;
+  __declspec(property(get = __cordl_internal_get_szptr, put = __cordl_internal_set_szptr))::ArrayW<int16_t, ::Array<int16_t>*> szptr;
 
   /// @brief Field ftab, offset 0xa0, size 0x8
-  __declspec(property(get = __get_ftab, put = __set_ftab))::ArrayW<int32_t, ::Array<int32_t>*> ftab;
+  __declspec(property(get = __cordl_internal_get_ftab, put = __cordl_internal_set_ftab))::ArrayW<int32_t, ::Array<int32_t>*> ftab;
 
   /// @brief Field nMTF, offset 0xa8, size 0x4
-  __declspec(property(get = __get_nMTF, put = __set_nMTF)) int32_t nMTF;
+  __declspec(property(get = __cordl_internal_get_nMTF, put = __cordl_internal_set_nMTF)) int32_t nMTF;
 
   /// @brief Field mtfFreq, offset 0xb0, size 0x8
-  __declspec(property(get = __get_mtfFreq, put = __set_mtfFreq))::ArrayW<int32_t, ::Array<int32_t>*> mtfFreq;
+  __declspec(property(get = __cordl_internal_get_mtfFreq, put = __cordl_internal_set_mtfFreq))::ArrayW<int32_t, ::Array<int32_t>*> mtfFreq;
 
   /// @brief Field workFactor, offset 0xb8, size 0x4
-  __declspec(property(get = __get_workFactor, put = __set_workFactor)) int32_t workFactor;
+  __declspec(property(get = __cordl_internal_get_workFactor, put = __cordl_internal_set_workFactor)) int32_t workFactor;
 
   /// @brief Field workDone, offset 0xbc, size 0x4
-  __declspec(property(get = __get_workDone, put = __set_workDone)) int32_t workDone;
+  __declspec(property(get = __cordl_internal_get_workDone, put = __cordl_internal_set_workDone)) int32_t workDone;
 
   /// @brief Field workLimit, offset 0xc0, size 0x4
-  __declspec(property(get = __get_workLimit, put = __set_workLimit)) int32_t workLimit;
+  __declspec(property(get = __cordl_internal_get_workLimit, put = __cordl_internal_set_workLimit)) int32_t workLimit;
 
   /// @brief Field firstAttempt, offset 0xc4, size 0x1
-  __declspec(property(get = __get_firstAttempt, put = __set_firstAttempt)) bool firstAttempt;
+  __declspec(property(get = __cordl_internal_get_firstAttempt, put = __cordl_internal_set_firstAttempt)) bool firstAttempt;
 
   /// @brief Field nBlocksRandomised, offset 0xc8, size 0x4
-  __declspec(property(get = __get_nBlocksRandomised, put = __set_nBlocksRandomised)) int32_t nBlocksRandomised;
+  __declspec(property(get = __cordl_internal_get_nBlocksRandomised, put = __cordl_internal_set_nBlocksRandomised)) int32_t nBlocksRandomised;
 
   /// @brief Field currentChar, offset 0xcc, size 0x4
-  __declspec(property(get = __get_currentChar, put = __set_currentChar)) int32_t currentChar;
+  __declspec(property(get = __cordl_internal_get_currentChar, put = __cordl_internal_set_currentChar)) int32_t currentChar;
 
   /// @brief Field runLength, offset 0xd0, size 0x4
-  __declspec(property(get = __get_runLength, put = __set_runLength)) int32_t runLength;
+  __declspec(property(get = __cordl_internal_get_runLength, put = __cordl_internal_set_runLength)) int32_t runLength;
 
   /// @brief Field closed, offset 0xd4, size 0x1
-  __declspec(property(get = __get_closed, put = __set_closed)) bool closed;
+  __declspec(property(get = __cordl_internal_get_closed, put = __cordl_internal_set_closed)) bool closed;
 
   /// @brief Field blockCRC, offset 0xd8, size 0x4
-  __declspec(property(get = __get_blockCRC, put = __set_blockCRC)) int32_t blockCRC;
+  __declspec(property(get = __cordl_internal_get_blockCRC, put = __cordl_internal_set_blockCRC)) int32_t blockCRC;
 
   /// @brief Field combinedCRC, offset 0xdc, size 0x4
-  __declspec(property(get = __get_combinedCRC, put = __set_combinedCRC)) int32_t combinedCRC;
+  __declspec(property(get = __cordl_internal_get_combinedCRC, put = __cordl_internal_set_combinedCRC)) int32_t combinedCRC;
 
   /// @brief Field allowableBlockSize, offset 0xe0, size 0x4
-  __declspec(property(get = __get_allowableBlockSize, put = __set_allowableBlockSize)) int32_t allowableBlockSize;
+  __declspec(property(get = __cordl_internal_get_allowableBlockSize, put = __cordl_internal_set_allowableBlockSize)) int32_t allowableBlockSize;
 
   /// @brief Field bsStream, offset 0xe8, size 0x8
-  __declspec(property(get = __get_bsStream, put = __set_bsStream))::System::IO::Stream* bsStream;
+  __declspec(property(get = __cordl_internal_get_bsStream, put = __cordl_internal_set_bsStream))::System::IO::Stream* bsStream;
 
   /// @brief Field incs, offset 0xf0, size 0x8
-  __declspec(property(get = __get_incs, put = __set_incs))::ArrayW<int32_t, ::Array<int32_t>*> incs;
+  __declspec(property(get = __cordl_internal_get_incs, put = __cordl_internal_set_incs))::ArrayW<int32_t, ::Array<int32_t>*> incs;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -233,215 +233,215 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr bool& __get_finished();
+  constexpr bool& __cordl_internal_get_finished();
 
-  constexpr bool const& __get_finished() const;
+  constexpr bool const& __cordl_internal_get_finished() const;
 
-  constexpr void __set_finished(bool value);
+  constexpr void __cordl_internal_set_finished(bool value);
 
-  constexpr int32_t& __get_last();
+  constexpr int32_t& __cordl_internal_get_last();
 
-  constexpr int32_t const& __get_last() const;
+  constexpr int32_t const& __cordl_internal_get_last() const;
 
-  constexpr void __set_last(int32_t value);
+  constexpr void __cordl_internal_set_last(int32_t value);
 
-  constexpr int32_t& __get_origPtr();
+  constexpr int32_t& __cordl_internal_get_origPtr();
 
-  constexpr int32_t const& __get_origPtr() const;
+  constexpr int32_t const& __cordl_internal_get_origPtr() const;
 
-  constexpr void __set_origPtr(int32_t value);
+  constexpr void __cordl_internal_set_origPtr(int32_t value);
 
-  constexpr int32_t& __get_blockSize100k();
+  constexpr int32_t& __cordl_internal_get_blockSize100k();
 
-  constexpr int32_t const& __get_blockSize100k() const;
+  constexpr int32_t const& __cordl_internal_get_blockSize100k() const;
 
-  constexpr void __set_blockSize100k(int32_t value);
+  constexpr void __cordl_internal_set_blockSize100k(int32_t value);
 
-  constexpr bool& __get_blockRandomised();
+  constexpr bool& __cordl_internal_get_blockRandomised();
 
-  constexpr bool const& __get_blockRandomised() const;
+  constexpr bool const& __cordl_internal_get_blockRandomised() const;
 
-  constexpr void __set_blockRandomised(bool value);
+  constexpr void __cordl_internal_set_blockRandomised(bool value);
 
-  constexpr int32_t& __get_bytesOut();
+  constexpr int32_t& __cordl_internal_get_bytesOut();
 
-  constexpr int32_t const& __get_bytesOut() const;
+  constexpr int32_t const& __cordl_internal_get_bytesOut() const;
 
-  constexpr void __set_bytesOut(int32_t value);
+  constexpr void __cordl_internal_set_bytesOut(int32_t value);
 
-  constexpr int32_t& __get_bsBuff();
+  constexpr int32_t& __cordl_internal_get_bsBuff();
 
-  constexpr int32_t const& __get_bsBuff() const;
+  constexpr int32_t const& __cordl_internal_get_bsBuff() const;
 
-  constexpr void __set_bsBuff(int32_t value);
+  constexpr void __cordl_internal_set_bsBuff(int32_t value);
 
-  constexpr int32_t& __get_bsLive();
+  constexpr int32_t& __cordl_internal_get_bsLive();
 
-  constexpr int32_t const& __get_bsLive() const;
+  constexpr int32_t const& __cordl_internal_get_bsLive() const;
 
-  constexpr void __set_bsLive(int32_t value);
+  constexpr void __cordl_internal_set_bsLive(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Apache::Bzip2::CRC*& __get_mCrc();
+  constexpr ::Org::BouncyCastle::Apache::Bzip2::CRC*& __cordl_internal_get_mCrc();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Apache::Bzip2::CRC*> const& __get_mCrc() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Apache::Bzip2::CRC*> const& __cordl_internal_get_mCrc() const;
 
-  constexpr void __set_mCrc(::Org::BouncyCastle::Apache::Bzip2::CRC* value);
+  constexpr void __cordl_internal_set_mCrc(::Org::BouncyCastle::Apache::Bzip2::CRC* value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get_inUse();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get_inUse();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get_inUse() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_inUse() const;
 
-  constexpr void __set_inUse(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set_inUse(::ArrayW<bool, ::Array<bool>*> value);
 
-  constexpr int32_t& __get_nInUse();
+  constexpr int32_t& __cordl_internal_get_nInUse();
 
-  constexpr int32_t const& __get_nInUse() const;
+  constexpr int32_t const& __cordl_internal_get_nInUse() const;
 
-  constexpr void __set_nInUse(int32_t value);
+  constexpr void __cordl_internal_set_nInUse(int32_t value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_seqToUnseq();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_seqToUnseq();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_seqToUnseq() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_seqToUnseq() const;
 
-  constexpr void __set_seqToUnseq(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_seqToUnseq(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_unseqToSeq();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_unseqToSeq();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_unseqToSeq() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_unseqToSeq() const;
 
-  constexpr void __set_unseqToSeq(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_unseqToSeq(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_selector();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_selector();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_selector() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_selector() const;
 
-  constexpr void __set_selector(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_selector(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_selectorMtf();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_selectorMtf();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_selectorMtf() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_selectorMtf() const;
 
-  constexpr void __set_selectorMtf(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_selectorMtf(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_block();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_block();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_block() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_block() const;
 
-  constexpr void __set_block(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_block(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_quadrant();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_quadrant();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_quadrant() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_quadrant() const;
 
-  constexpr void __set_quadrant(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_quadrant(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_zptr();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_zptr();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_zptr() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_zptr() const;
 
-  constexpr void __set_zptr(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_zptr(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __get_szptr();
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*>& __cordl_internal_get_szptr();
 
-  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __get_szptr() const;
+  constexpr ::ArrayW<int16_t, ::Array<int16_t>*> const& __cordl_internal_get_szptr() const;
 
-  constexpr void __set_szptr(::ArrayW<int16_t, ::Array<int16_t>*> value);
+  constexpr void __cordl_internal_set_szptr(::ArrayW<int16_t, ::Array<int16_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_ftab();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_ftab();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_ftab() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_ftab() const;
 
-  constexpr void __set_ftab(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_ftab(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_nMTF();
+  constexpr int32_t& __cordl_internal_get_nMTF();
 
-  constexpr int32_t const& __get_nMTF() const;
+  constexpr int32_t const& __cordl_internal_get_nMTF() const;
 
-  constexpr void __set_nMTF(int32_t value);
+  constexpr void __cordl_internal_set_nMTF(int32_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_mtfFreq();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_mtfFreq();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_mtfFreq() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_mtfFreq() const;
 
-  constexpr void __set_mtfFreq(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_mtfFreq(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_workFactor();
+  constexpr int32_t& __cordl_internal_get_workFactor();
 
-  constexpr int32_t const& __get_workFactor() const;
+  constexpr int32_t const& __cordl_internal_get_workFactor() const;
 
-  constexpr void __set_workFactor(int32_t value);
+  constexpr void __cordl_internal_set_workFactor(int32_t value);
 
-  constexpr int32_t& __get_workDone();
+  constexpr int32_t& __cordl_internal_get_workDone();
 
-  constexpr int32_t const& __get_workDone() const;
+  constexpr int32_t const& __cordl_internal_get_workDone() const;
 
-  constexpr void __set_workDone(int32_t value);
+  constexpr void __cordl_internal_set_workDone(int32_t value);
 
-  constexpr int32_t& __get_workLimit();
+  constexpr int32_t& __cordl_internal_get_workLimit();
 
-  constexpr int32_t const& __get_workLimit() const;
+  constexpr int32_t const& __cordl_internal_get_workLimit() const;
 
-  constexpr void __set_workLimit(int32_t value);
+  constexpr void __cordl_internal_set_workLimit(int32_t value);
 
-  constexpr bool& __get_firstAttempt();
+  constexpr bool& __cordl_internal_get_firstAttempt();
 
-  constexpr bool const& __get_firstAttempt() const;
+  constexpr bool const& __cordl_internal_get_firstAttempt() const;
 
-  constexpr void __set_firstAttempt(bool value);
+  constexpr void __cordl_internal_set_firstAttempt(bool value);
 
-  constexpr int32_t& __get_nBlocksRandomised();
+  constexpr int32_t& __cordl_internal_get_nBlocksRandomised();
 
-  constexpr int32_t const& __get_nBlocksRandomised() const;
+  constexpr int32_t const& __cordl_internal_get_nBlocksRandomised() const;
 
-  constexpr void __set_nBlocksRandomised(int32_t value);
+  constexpr void __cordl_internal_set_nBlocksRandomised(int32_t value);
 
-  constexpr int32_t& __get_currentChar();
+  constexpr int32_t& __cordl_internal_get_currentChar();
 
-  constexpr int32_t const& __get_currentChar() const;
+  constexpr int32_t const& __cordl_internal_get_currentChar() const;
 
-  constexpr void __set_currentChar(int32_t value);
+  constexpr void __cordl_internal_set_currentChar(int32_t value);
 
-  constexpr int32_t& __get_runLength();
+  constexpr int32_t& __cordl_internal_get_runLength();
 
-  constexpr int32_t const& __get_runLength() const;
+  constexpr int32_t const& __cordl_internal_get_runLength() const;
 
-  constexpr void __set_runLength(int32_t value);
+  constexpr void __cordl_internal_set_runLength(int32_t value);
 
-  constexpr bool& __get_closed();
+  constexpr bool& __cordl_internal_get_closed();
 
-  constexpr bool const& __get_closed() const;
+  constexpr bool const& __cordl_internal_get_closed() const;
 
-  constexpr void __set_closed(bool value);
+  constexpr void __cordl_internal_set_closed(bool value);
 
-  constexpr int32_t& __get_blockCRC();
+  constexpr int32_t& __cordl_internal_get_blockCRC();
 
-  constexpr int32_t const& __get_blockCRC() const;
+  constexpr int32_t const& __cordl_internal_get_blockCRC() const;
 
-  constexpr void __set_blockCRC(int32_t value);
+  constexpr void __cordl_internal_set_blockCRC(int32_t value);
 
-  constexpr int32_t& __get_combinedCRC();
+  constexpr int32_t& __cordl_internal_get_combinedCRC();
 
-  constexpr int32_t const& __get_combinedCRC() const;
+  constexpr int32_t const& __cordl_internal_get_combinedCRC() const;
 
-  constexpr void __set_combinedCRC(int32_t value);
+  constexpr void __cordl_internal_set_combinedCRC(int32_t value);
 
-  constexpr int32_t& __get_allowableBlockSize();
+  constexpr int32_t& __cordl_internal_get_allowableBlockSize();
 
-  constexpr int32_t const& __get_allowableBlockSize() const;
+  constexpr int32_t const& __cordl_internal_get_allowableBlockSize() const;
 
-  constexpr void __set_allowableBlockSize(int32_t value);
+  constexpr void __cordl_internal_set_allowableBlockSize(int32_t value);
 
-  constexpr ::System::IO::Stream*& __get_bsStream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_bsStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_bsStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_bsStream() const;
 
-  constexpr void __set_bsStream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_bsStream(::System::IO::Stream* value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_incs();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_incs();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_incs() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_incs() const;
 
-  constexpr void __set_incs(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_incs(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   /// @brief Method Panic, addr 0x10a5c90, size 0x4, virtual false, abstract: false, final false
   static inline void Panic();

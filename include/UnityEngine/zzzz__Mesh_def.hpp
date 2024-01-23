@@ -104,7 +104,7 @@ MARK_VAL_T(::UnityEngine::__Mesh__MeshDataArray);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10068))
 // CS Name: ::Mesh::MeshDataArray
 struct CORDL_TYPE __Mesh__MeshDataArray {
@@ -193,7 +193,7 @@ static_assert(offsetof(::UnityEngine::__Mesh__MeshDataArray, m_Length) == 0x8, "
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10069))
 // CS Name: ::Mesh::MeshData
 struct CORDL_TYPE __Mesh__MeshData {
@@ -280,7 +280,7 @@ static_assert(offsetof(::UnityEngine::__Mesh__MeshData, m_Ptr) == 0x0, "Offset m
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10070))
 // CS Name: ::UnityEngine::Mesh*
 class CORDL_TYPE Mesh : public ::UnityEngine::Object {
@@ -353,7 +353,7 @@ public:
   inline void _ctor();
 
   /// @brief Method FromInstanceID, addr 0x2ca4438, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Mesh* FromInstanceID(int32_t id);
+  static inline ::UnityW<::UnityEngine::Mesh> FromInstanceID(int32_t id);
 
   /// @brief Method get_indexFormat, addr 0x2ca4474, size 0x3c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::IndexFormat get_indexFormat();
@@ -1040,7 +1040,7 @@ public:
   static inline ::UnityEngine::__Mesh__MeshDataArray AcquireReadOnlyMeshData(::ArrayW<::UnityEngine::Mesh*, ::Array<::UnityEngine::Mesh*>*> meshes);
 
   /// @brief Method AcquireReadOnlyMeshData, addr 0x2ca9398, size 0xe0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::__Mesh__MeshDataArray AcquireReadOnlyMeshData(::System::Collections::Generic::List_1<::UnityEngine::Mesh*>* meshes);
+  static inline ::UnityEngine::__Mesh__MeshDataArray AcquireReadOnlyMeshData(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes);
 
   /// @brief Method AllocateWritableMeshData, addr 0x2ca9478, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::__Mesh__MeshDataArray AllocateWritableMeshData(int32_t meshCount);
@@ -1053,7 +1053,7 @@ public:
                                                      ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method ApplyAndDisposeWritableMeshData, addr 0x2ca9c58, size 0x1bc, virtual false, abstract: false, final false
-  static inline void ApplyAndDisposeWritableMeshData(::UnityEngine::__Mesh__MeshDataArray data, ::System::Collections::Generic::List_1<::UnityEngine::Mesh*>* meshes,
+  static inline void ApplyAndDisposeWritableMeshData(::UnityEngine::__Mesh__MeshDataArray data, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Mesh>>* meshes,
                                                      ::UnityEngine::Rendering::MeshUpdateFlags flags);
 
   /// @brief Method GetVertexBuffer, addr 0x2ca9e14, size 0xd4, virtual false, abstract: false, final false

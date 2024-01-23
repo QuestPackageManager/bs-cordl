@@ -151,7 +151,7 @@ MARK_VAL_T(::OVR::OpenVR::__CVRSystem__PollNextEventUnion);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8552))
 // CS Name: ::CVRSystem::_PollNextEventPacked*
 class CORDL_TYPE __CVRSystem___PollNextEventPacked : public ::System::MulticastDelegate {
@@ -195,29 +195,29 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVRSystem___PollN
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8553))
 // CS Name: ::CVRSystem::PollNextEventUnion
 struct CORDL_TYPE __CVRSystem__PollNextEventUnion {
 public:
   // Declarations
   /// @brief Field pPollNextEvent, offset 0x0, size 0x8
-  __declspec(property(get = __get_pPollNextEvent, put = __set_pPollNextEvent))::OVR::OpenVR::__IVRSystem___PollNextEvent* pPollNextEvent;
+  __declspec(property(get = __cordl_internal_get_pPollNextEvent, put = __cordl_internal_set_pPollNextEvent))::OVR::OpenVR::__IVRSystem___PollNextEvent* pPollNextEvent;
 
   /// @brief Field pPollNextEventPacked, offset 0x0, size 0x8
-  __declspec(property(get = __get_pPollNextEventPacked, put = __set_pPollNextEventPacked))::OVR::OpenVR::__CVRSystem___PollNextEventPacked* pPollNextEventPacked;
+  __declspec(property(get = __cordl_internal_get_pPollNextEventPacked, put = __cordl_internal_set_pPollNextEventPacked))::OVR::OpenVR::__CVRSystem___PollNextEventPacked* pPollNextEventPacked;
 
-  constexpr ::OVR::OpenVR::__IVRSystem___PollNextEvent*& __get_pPollNextEvent();
+  constexpr ::OVR::OpenVR::__IVRSystem___PollNextEvent*& __cordl_internal_get_pPollNextEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__IVRSystem___PollNextEvent*> const& __get_pPollNextEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__IVRSystem___PollNextEvent*> const& __cordl_internal_get_pPollNextEvent() const;
 
-  constexpr void __set_pPollNextEvent(::OVR::OpenVR::__IVRSystem___PollNextEvent* value);
+  constexpr void __cordl_internal_set_pPollNextEvent(::OVR::OpenVR::__IVRSystem___PollNextEvent* value);
 
-  constexpr ::OVR::OpenVR::__CVRSystem___PollNextEventPacked*& __get_pPollNextEventPacked();
+  constexpr ::OVR::OpenVR::__CVRSystem___PollNextEventPacked*& __cordl_internal_get_pPollNextEventPacked();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__CVRSystem___PollNextEventPacked*> const& __get_pPollNextEventPacked() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__CVRSystem___PollNextEventPacked*> const& __cordl_internal_get_pPollNextEventPacked() const;
 
-  constexpr void __set_pPollNextEventPacked(::OVR::OpenVR::__CVRSystem___PollNextEventPacked* value);
+  constexpr void __cordl_internal_set_pPollNextEventPacked(::OVR::OpenVR::__CVRSystem___PollNextEventPacked* value);
 
   // Ctor Parameters [CppParam { name: "pPollNextEvent", ty: "::OVR::OpenVR::__IVRSystem___PollNextEvent*", modifiers: "", def_value: None }, CppParam { name: "pPollNextEventPacked", ty:
   // "::OVR::OpenVR::__CVRSystem___PollNextEventPacked*", modifiers: "", def_value: None }]
@@ -274,7 +274,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVRSystem__PollNe
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8554))
 // CS Name: ::CVRSystem::_GetControllerStatePacked*
 class CORDL_TYPE __CVRSystem___GetControllerStatePacked : public ::System::MulticastDelegate {
@@ -319,29 +319,30 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVRSystem___GetCo
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8555))
 // CS Name: ::CVRSystem::GetControllerStateUnion
 struct CORDL_TYPE __CVRSystem__GetControllerStateUnion {
 public:
   // Declarations
   /// @brief Field pGetControllerState, offset 0x0, size 0x8
-  __declspec(property(get = __get_pGetControllerState, put = __set_pGetControllerState))::OVR::OpenVR::__IVRSystem___GetControllerState* pGetControllerState;
+  __declspec(property(get = __cordl_internal_get_pGetControllerState, put = __cordl_internal_set_pGetControllerState))::OVR::OpenVR::__IVRSystem___GetControllerState* pGetControllerState;
 
   /// @brief Field pGetControllerStatePacked, offset 0x0, size 0x8
-  __declspec(property(get = __get_pGetControllerStatePacked, put = __set_pGetControllerStatePacked))::OVR::OpenVR::__CVRSystem___GetControllerStatePacked* pGetControllerStatePacked;
+  __declspec(property(get = __cordl_internal_get_pGetControllerStatePacked,
+                      put = __cordl_internal_set_pGetControllerStatePacked))::OVR::OpenVR::__CVRSystem___GetControllerStatePacked* pGetControllerStatePacked;
 
-  constexpr ::OVR::OpenVR::__IVRSystem___GetControllerState*& __get_pGetControllerState();
+  constexpr ::OVR::OpenVR::__IVRSystem___GetControllerState*& __cordl_internal_get_pGetControllerState();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__IVRSystem___GetControllerState*> const& __get_pGetControllerState() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__IVRSystem___GetControllerState*> const& __cordl_internal_get_pGetControllerState() const;
 
-  constexpr void __set_pGetControllerState(::OVR::OpenVR::__IVRSystem___GetControllerState* value);
+  constexpr void __cordl_internal_set_pGetControllerState(::OVR::OpenVR::__IVRSystem___GetControllerState* value);
 
-  constexpr ::OVR::OpenVR::__CVRSystem___GetControllerStatePacked*& __get_pGetControllerStatePacked();
+  constexpr ::OVR::OpenVR::__CVRSystem___GetControllerStatePacked*& __cordl_internal_get_pGetControllerStatePacked();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__CVRSystem___GetControllerStatePacked*> const& __get_pGetControllerStatePacked() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__CVRSystem___GetControllerStatePacked*> const& __cordl_internal_get_pGetControllerStatePacked() const;
 
-  constexpr void __set_pGetControllerStatePacked(::OVR::OpenVR::__CVRSystem___GetControllerStatePacked* value);
+  constexpr void __cordl_internal_set_pGetControllerStatePacked(::OVR::OpenVR::__CVRSystem___GetControllerStatePacked* value);
 
   // Ctor Parameters [CppParam { name: "pGetControllerState", ty: "::OVR::OpenVR::__IVRSystem___GetControllerState*", modifiers: "", def_value: None }, CppParam { name: "pGetControllerStatePacked",
   // ty: "::OVR::OpenVR::__CVRSystem___GetControllerStatePacked*", modifiers: "", def_value: None }]
@@ -399,7 +400,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVRSystem__GetCon
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8556))
 // CS Name: ::CVRSystem::_GetControllerStateWithPosePacked*
 class CORDL_TYPE __CVRSystem___GetControllerStateWithPosePacked : public ::System::MulticastDelegate {
@@ -445,30 +446,31 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVRSystem___GetCo
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8557))
 // CS Name: ::CVRSystem::GetControllerStateWithPoseUnion
 struct CORDL_TYPE __CVRSystem__GetControllerStateWithPoseUnion {
 public:
   // Declarations
   /// @brief Field pGetControllerStateWithPose, offset 0x0, size 0x8
-  __declspec(property(get = __get_pGetControllerStateWithPose, put = __set_pGetControllerStateWithPose))::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose* pGetControllerStateWithPose;
+  __declspec(property(get = __cordl_internal_get_pGetControllerStateWithPose,
+                      put = __cordl_internal_set_pGetControllerStateWithPose))::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose* pGetControllerStateWithPose;
 
   /// @brief Field pGetControllerStateWithPosePacked, offset 0x0, size 0x8
-  __declspec(property(get = __get_pGetControllerStateWithPosePacked,
-                      put = __set_pGetControllerStateWithPosePacked))::OVR::OpenVR::__CVRSystem___GetControllerStateWithPosePacked* pGetControllerStateWithPosePacked;
+  __declspec(property(get = __cordl_internal_get_pGetControllerStateWithPosePacked,
+                      put = __cordl_internal_set_pGetControllerStateWithPosePacked))::OVR::OpenVR::__CVRSystem___GetControllerStateWithPosePacked* pGetControllerStateWithPosePacked;
 
-  constexpr ::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose*& __get_pGetControllerStateWithPose();
+  constexpr ::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose*& __cordl_internal_get_pGetControllerStateWithPose();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose*> const& __get_pGetControllerStateWithPose() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose*> const& __cordl_internal_get_pGetControllerStateWithPose() const;
 
-  constexpr void __set_pGetControllerStateWithPose(::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose* value);
+  constexpr void __cordl_internal_set_pGetControllerStateWithPose(::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose* value);
 
-  constexpr ::OVR::OpenVR::__CVRSystem___GetControllerStateWithPosePacked*& __get_pGetControllerStateWithPosePacked();
+  constexpr ::OVR::OpenVR::__CVRSystem___GetControllerStateWithPosePacked*& __cordl_internal_get_pGetControllerStateWithPosePacked();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__CVRSystem___GetControllerStateWithPosePacked*> const& __get_pGetControllerStateWithPosePacked() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVR::OpenVR::__CVRSystem___GetControllerStateWithPosePacked*> const& __cordl_internal_get_pGetControllerStateWithPosePacked() const;
 
-  constexpr void __set_pGetControllerStateWithPosePacked(::OVR::OpenVR::__CVRSystem___GetControllerStateWithPosePacked* value);
+  constexpr void __cordl_internal_set_pGetControllerStateWithPosePacked(::OVR::OpenVR::__CVRSystem___GetControllerStateWithPosePacked* value);
 
   // Ctor Parameters [CppParam { name: "pGetControllerStateWithPose", ty: "::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose*", modifiers: "", def_value: None }, CppParam { name:
   // "pGetControllerStateWithPosePacked", ty: "::OVR::OpenVR::__CVRSystem___GetControllerStateWithPosePacked*", modifiers: "", def_value: None }]
@@ -526,7 +528,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__CVRSystem__GetCon
 // SizeInfo { instance_size: 392, native_size: -1, calculated_instance_size: 392, calculated_native_size: 392, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8264))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8264))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8558))
 // CS Name: ::OVR.OpenVR::CVRSystem*
 class CORDL_TYPE CVRSystem : public ::System::Object {
@@ -545,13 +547,13 @@ public:
   using _PollNextEventPacked = ::OVR::OpenVR::__CVRSystem___PollNextEventPacked;
 
   /// @brief Field FnTable, offset 0x10, size 0x178
-  __declspec(property(get = __get_FnTable, put = __set_FnTable))::OVR::OpenVR::IVRSystem FnTable;
+  __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRSystem FnTable;
 
-  constexpr ::OVR::OpenVR::IVRSystem& __get_FnTable();
+  constexpr ::OVR::OpenVR::IVRSystem& __cordl_internal_get_FnTable();
 
-  constexpr ::OVR::OpenVR::IVRSystem const& __get_FnTable() const;
+  constexpr ::OVR::OpenVR::IVRSystem const& __cordl_internal_get_FnTable() const;
 
-  constexpr void __set_FnTable(::OVR::OpenVR::IVRSystem value);
+  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRSystem value);
 
   static inline ::OVR::OpenVR::CVRSystem* New_ctor(void* pInterface);
 

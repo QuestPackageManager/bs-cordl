@@ -15,22 +15,22 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::UI::BaseInputOverride);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13198))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13198))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6369))
 // CS Name: ::UnityEngine.InputSystem.UI::BaseInputOverride*
 class CORDL_TYPE BaseInputOverride : public ::UnityEngine::EventSystems::BaseInput {
 public:
   // Declarations
   /// @brief Field <compositionString>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__compositionString_k__BackingField, put = __set__compositionString_k__BackingField))::StringW _compositionString_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__compositionString_k__BackingField, put = __cordl_internal_set__compositionString_k__BackingField))::StringW _compositionString_k__BackingField;
 
   __declspec(property(get = get_compositionString))::StringW compositionString;
 
-  constexpr ::StringW& __get__compositionString_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__compositionString_k__BackingField();
 
-  constexpr ::StringW const& __get__compositionString_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__compositionString_k__BackingField() const;
 
-  constexpr void __set__compositionString_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__compositionString_k__BackingField(::StringW value);
 
   /// @brief Method get_compositionString, addr 0x2acf728, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_compositionString();

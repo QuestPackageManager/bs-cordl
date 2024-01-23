@@ -26,17 +26,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Macs::GMac);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Macs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(941))
 // CS Name: ::Org.BouncyCastle.Crypto.Macs::GMac*
 class CORDL_TYPE GMac : public ::System::Object {
 public:
   // Declarations
   /// @brief Field cipher, offset 0x10, size 0x8
-  __declspec(property(get = __get_cipher, put = __set_cipher))::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* cipher;
 
   /// @brief Field macSizeBits, offset 0x18, size 0x4
-  __declspec(property(get = __get_macSizeBits, put = __set_macSizeBits)) int32_t macSizeBits;
+  __declspec(property(get = __cordl_internal_get_macSizeBits, put = __cordl_internal_set_macSizeBits)) int32_t macSizeBits;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -46,17 +46,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
   constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*& __get_cipher();
+  constexpr ::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*& __cordl_internal_get_cipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*> const& __get_cipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher*> const& __cordl_internal_get_cipher() const;
 
-  constexpr void __set_cipher(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* value);
+  constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* value);
 
-  constexpr int32_t& __get_macSizeBits();
+  constexpr int32_t& __cordl_internal_get_macSizeBits();
 
-  constexpr int32_t const& __get_macSizeBits() const;
+  constexpr int32_t const& __cordl_internal_get_macSizeBits() const;
 
-  constexpr void __set_macSizeBits(int32_t value);
+  constexpr void __cordl_internal_set_macSizeBits(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::GMac* New_ctor(::Org::BouncyCastle::Crypto::Modes::GcmBlockCipher* cipher);
 

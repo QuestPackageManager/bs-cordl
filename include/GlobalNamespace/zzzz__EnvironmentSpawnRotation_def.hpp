@@ -25,32 +25,34 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentSpawnRotation);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4983))
 // CS Name: ::EnvironmentSpawnRotation*
 class CORDL_TYPE EnvironmentSpawnRotation : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _aheadTime, offset 0x18, size 0x4
-  __declspec(property(get = __get__aheadTime, put = __set__aheadTime)) float_t _aheadTime;
+  __declspec(property(get = __cordl_internal_get__aheadTime, put = __cordl_internal_set__aheadTime)) float_t _aheadTime;
 
   /// @brief Field _smooth, offset 0x1c, size 0x4
-  __declspec(property(get = __get__smooth, put = __set__smooth)) float_t _smooth;
+  __declspec(property(get = __cordl_internal_get__smooth, put = __cordl_internal_set__smooth)) float_t _smooth;
 
   /// @brief Field _beatmapCallbacksController, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapCallbacksController, put = __set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
+                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
   /// @brief Field _beatmapDataCallbackWrapper, offset 0x28, size 0x8
-  __declspec(property(get = __get__beatmapDataCallbackWrapper, put = __set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
+  __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
+                      put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
   /// @brief Field _currentRotation, offset 0x30, size 0x4
-  __declspec(property(get = __get__currentRotation, put = __set__currentRotation)) float_t _currentRotation;
+  __declspec(property(get = __cordl_internal_get__currentRotation, put = __cordl_internal_set__currentRotation)) float_t _currentRotation;
 
   /// @brief Field _prevRotation, offset 0x34, size 0x4
-  __declspec(property(get = __get__prevRotation, put = __set__prevRotation)) float_t _prevRotation;
+  __declspec(property(get = __cordl_internal_get__prevRotation, put = __cordl_internal_set__prevRotation)) float_t _prevRotation;
 
   /// @brief Field _targetRotation, offset 0x38, size 0x4
-  __declspec(property(get = __get__targetRotation, put = __set__targetRotation)) float_t _targetRotation;
+  __declspec(property(get = __cordl_internal_get__targetRotation, put = __cordl_internal_set__targetRotation)) float_t _targetRotation;
 
   /// @brief Field _spawnRotationID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__spawnRotationID, put = setStaticF__spawnRotationID)) int32_t _spawnRotationID;
@@ -61,47 +63,47 @@ public:
 
   __declspec(property(get = get_targetRotation)) float_t targetRotation;
 
-  constexpr float_t& __get__aheadTime();
+  constexpr float_t& __cordl_internal_get__aheadTime();
 
-  constexpr float_t const& __get__aheadTime() const;
+  constexpr float_t const& __cordl_internal_get__aheadTime() const;
 
-  constexpr void __set__aheadTime(float_t value);
+  constexpr void __cordl_internal_set__aheadTime(float_t value);
 
-  constexpr float_t& __get__smooth();
+  constexpr float_t& __cordl_internal_get__smooth();
 
-  constexpr float_t const& __get__smooth() const;
+  constexpr float_t const& __cordl_internal_get__smooth() const;
 
-  constexpr void __set__smooth(float_t value);
+  constexpr void __cordl_internal_set__smooth(float_t value);
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __get__beatmapCallbacksController();
+  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __get__beatmapCallbacksController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr void __set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
 
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __get__beatmapDataCallbackWrapper();
+  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __get__beatmapDataCallbackWrapper() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
-  constexpr void __set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
+  constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
 
-  constexpr float_t& __get__currentRotation();
+  constexpr float_t& __cordl_internal_get__currentRotation();
 
-  constexpr float_t const& __get__currentRotation() const;
+  constexpr float_t const& __cordl_internal_get__currentRotation() const;
 
-  constexpr void __set__currentRotation(float_t value);
+  constexpr void __cordl_internal_set__currentRotation(float_t value);
 
-  constexpr float_t& __get__prevRotation();
+  constexpr float_t& __cordl_internal_get__prevRotation();
 
-  constexpr float_t const& __get__prevRotation() const;
+  constexpr float_t const& __cordl_internal_get__prevRotation() const;
 
-  constexpr void __set__prevRotation(float_t value);
+  constexpr void __cordl_internal_set__prevRotation(float_t value);
 
-  constexpr float_t& __get__targetRotation();
+  constexpr float_t& __cordl_internal_get__targetRotation();
 
-  constexpr float_t const& __get__targetRotation() const;
+  constexpr float_t const& __cordl_internal_get__targetRotation() const;
 
-  constexpr void __set__targetRotation(float_t value);
+  constexpr void __cordl_internal_set__targetRotation(float_t value);
 
   static inline void setStaticF__spawnRotationID(int32_t value);
 

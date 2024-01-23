@@ -31,7 +31,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__InputStateBuffers__DoubleBuff
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6567))
 // CS Name: ::InputStateBuffers::DoubleBuffers
 struct CORDL_TYPE __InputStateBuffers__DoubleBuffers {
@@ -82,7 +82,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputStateBuffers
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6567))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6567))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6568))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputStateBuffers
 struct CORDL_TYPE InputStateBuffers {

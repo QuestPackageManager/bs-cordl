@@ -40,47 +40,48 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarEditor::EditAvatarAnalytics
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter::AvatarEditor {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15171))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15171))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15269))
 // CS Name: ::BeatSaber.BeatAvatarAdapter.AvatarEditor::EditAvatarAnalytics*
 class CORDL_TYPE EditAvatarAnalytics : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _avatarEditorFlowCoordinator, offset 0x18, size 0x8
-  __declspec(property(get = __get__avatarEditorFlowCoordinator, put = __set__avatarEditorFlowCoordinator))::GlobalNamespace::BeatAvatarEditorFlowCoordinator* _avatarEditorFlowCoordinator;
+  __declspec(property(get = __cordl_internal_get__avatarEditorFlowCoordinator,
+                      put = __cordl_internal_set__avatarEditorFlowCoordinator))::UnityW<::GlobalNamespace::BeatAvatarEditorFlowCoordinator> _avatarEditorFlowCoordinator;
 
   /// @brief Field _analyticsModel, offset 0x20, size 0x8
-  __declspec(property(get = __get__analyticsModel, put = __set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
+  __declspec(property(get = __cordl_internal_get__analyticsModel, put = __cordl_internal_set__analyticsModel))::GlobalNamespace::IAnalyticsModel* _analyticsModel;
 
   /// @brief Field _avatarDataModel, offset 0x28, size 0x8
-  __declspec(property(get = __get__avatarDataModel, put = __set__avatarDataModel))::BeatSaber::BeatAvatarSDK::AvatarDataModel* _avatarDataModel;
+  __declspec(property(get = __cordl_internal_get__avatarDataModel, put = __cordl_internal_set__avatarDataModel))::BeatSaber::BeatAvatarSDK::AvatarDataModel* _avatarDataModel;
 
   /// @brief Field _lastEditMode, offset 0x30, size 0x4
-  __declspec(property(get = __get__lastEditMode, put = __set__lastEditMode))::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode _lastEditMode;
+  __declspec(property(get = __cordl_internal_get__lastEditMode, put = __cordl_internal_set__lastEditMode))::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode _lastEditMode;
 
-  constexpr ::GlobalNamespace::BeatAvatarEditorFlowCoordinator*& __get__avatarEditorFlowCoordinator();
+  constexpr ::UnityW<::GlobalNamespace::BeatAvatarEditorFlowCoordinator>& __cordl_internal_get__avatarEditorFlowCoordinator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatAvatarEditorFlowCoordinator*> const& __get__avatarEditorFlowCoordinator() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatAvatarEditorFlowCoordinator> const& __cordl_internal_get__avatarEditorFlowCoordinator() const;
 
-  constexpr void __set__avatarEditorFlowCoordinator(::GlobalNamespace::BeatAvatarEditorFlowCoordinator* value);
+  constexpr void __cordl_internal_set__avatarEditorFlowCoordinator(::UnityW<::GlobalNamespace::BeatAvatarEditorFlowCoordinator> value);
 
-  constexpr ::GlobalNamespace::IAnalyticsModel*& __get__analyticsModel();
+  constexpr ::GlobalNamespace::IAnalyticsModel*& __cordl_internal_get__analyticsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __get__analyticsModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAnalyticsModel*> const& __cordl_internal_get__analyticsModel() const;
 
-  constexpr void __set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
+  constexpr void __cordl_internal_set__analyticsModel(::GlobalNamespace::IAnalyticsModel* value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& __get__avatarDataModel();
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarDataModel*& __cordl_internal_get__avatarDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarDataModel*> const& __get__avatarDataModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarDataModel*> const& __cordl_internal_get__avatarDataModel() const;
 
-  constexpr void __set__avatarDataModel(::BeatSaber::BeatAvatarSDK::AvatarDataModel* value);
+  constexpr void __cordl_internal_set__avatarDataModel(::BeatSaber::BeatAvatarSDK::AvatarDataModel* value);
 
-  constexpr ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode& __get__lastEditMode();
+  constexpr ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode& __cordl_internal_get__lastEditMode();
 
-  constexpr ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode const& __get__lastEditMode() const;
+  constexpr ::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode const& __cordl_internal_get__lastEditMode() const;
 
-  constexpr void __set__lastEditMode(::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode value);
+  constexpr void __cordl_internal_set__lastEditMode(::BeatSaber::AvatarCore::__AvatarEditorFlowCoordinator__EditMode value);
 
   /// @brief Method Awake, addr 0xe17a38, size 0x154, virtual false, abstract: false, final false
   inline void Awake();
@@ -121,7 +122,7 @@ protected:
 
 public:
   /// @brief Field _avatarEditorFlowCoordinator, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BeatAvatarEditorFlowCoordinator* ____avatarEditorFlowCoordinator;
+  ::UnityW<::GlobalNamespace::BeatAvatarEditorFlowCoordinator> ____avatarEditorFlowCoordinator;
 
   /// @brief Field _analyticsModel, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IAnalyticsModel* ____analyticsModel;

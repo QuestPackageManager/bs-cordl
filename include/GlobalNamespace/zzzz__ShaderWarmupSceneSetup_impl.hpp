@@ -9,7 +9,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb8;
   constexpr static std::size_t addrs = 0x2320098;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShaderWarmupSceneSetup*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShaderWarmupSceneSetup*>::get(), 8));
@@ -23,21 +23,21 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2320150;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShaderWarmupSceneSetup*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::ColorSchemeSO*& GlobalNamespace::ShaderWarmupSceneSetup::__get__sharedWarmupColorScheme() {
+constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO>& GlobalNamespace::ShaderWarmupSceneSetup::__cordl_internal_get__sharedWarmupColorScheme() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sharedWarmupColorScheme;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeSO*> const& GlobalNamespace::ShaderWarmupSceneSetup::__get__sharedWarmupColorScheme() const {
+constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO> const& GlobalNamespace::ShaderWarmupSceneSetup::__cordl_internal_get__sharedWarmupColorScheme() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sharedWarmupColorScheme;
 }
-constexpr void GlobalNamespace::ShaderWarmupSceneSetup::__set__sharedWarmupColorScheme(::GlobalNamespace::ColorSchemeSO* value) {
+constexpr void GlobalNamespace::ShaderWarmupSceneSetup::__cordl_internal_set__sharedWarmupColorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sharedWarmupColorScheme)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -47,11 +47,11 @@ inline void GlobalNamespace::ShaderWarmupSceneSetup::InstallBindings() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::ShaderWarmupSceneSetup* GlobalNamespace::ShaderWarmupSceneSetup::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::ShaderWarmupSceneSetup*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ShaderWarmupSceneSetup*>());
 }
 inline void GlobalNamespace::ShaderWarmupSceneSetup::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ShaderWarmupSceneSetup*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

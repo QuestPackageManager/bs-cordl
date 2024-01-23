@@ -27,53 +27,55 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionNodeSelectionManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5547))
 // CS Name: ::MissionNodeSelectionManager*
 class CORDL_TYPE MissionNodeSelectionManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _missionNodesManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__missionNodesManager, put = __set__missionNodesManager))::GlobalNamespace::MissionNodesManager* _missionNodesManager;
+  __declspec(property(get = __cordl_internal_get__missionNodesManager, put = __cordl_internal_set__missionNodesManager))::UnityW<::GlobalNamespace::MissionNodesManager> _missionNodesManager;
 
   /// @brief Field didSelectMissionNodeEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_didSelectMissionNodeEvent, put = __set_didSelectMissionNodeEvent))::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* didSelectMissionNodeEvent;
+  __declspec(property(get = __cordl_internal_get_didSelectMissionNodeEvent,
+                      put = __cordl_internal_set_didSelectMissionNodeEvent))::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* didSelectMissionNodeEvent;
 
   /// @brief Field _missionNodes, offset 0x28, size 0x8
-  __declspec(property(get = __get__missionNodes, put = __set__missionNodes))::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> _missionNodes;
+  __declspec(property(get = __cordl_internal_get__missionNodes,
+                      put = __cordl_internal_set__missionNodes))::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> _missionNodes;
 
   /// @brief Field _selectedNode, offset 0x30, size 0x8
-  __declspec(property(get = __get__selectedNode, put = __set__selectedNode))::GlobalNamespace::MissionNodeVisualController* _selectedNode;
+  __declspec(property(get = __cordl_internal_get__selectedNode, put = __cordl_internal_set__selectedNode))::UnityW<::GlobalNamespace::MissionNodeVisualController> _selectedNode;
 
-  constexpr ::GlobalNamespace::MissionNodesManager*& __get__missionNodesManager();
+  constexpr ::UnityW<::GlobalNamespace::MissionNodesManager>& __cordl_internal_get__missionNodesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNodesManager*> const& __get__missionNodesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionNodesManager> const& __cordl_internal_get__missionNodesManager() const;
 
-  constexpr void __set__missionNodesManager(::GlobalNamespace::MissionNodesManager* value);
+  constexpr void __cordl_internal_set__missionNodesManager(::UnityW<::GlobalNamespace::MissionNodesManager> value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*& __get_didSelectMissionNodeEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*& __cordl_internal_get_didSelectMissionNodeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*> const& __get_didSelectMissionNodeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*> const& __cordl_internal_get_didSelectMissionNodeEvent() const;
 
-  constexpr void __set_didSelectMissionNodeEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
+  constexpr void __cordl_internal_set_didSelectMissionNodeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*>& __get__missionNodes();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*>& __cordl_internal_get__missionNodes();
 
-  constexpr ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> const& __get__missionNodes() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> const& __cordl_internal_get__missionNodes() const;
 
-  constexpr void __set__missionNodes(::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> value);
+  constexpr void __cordl_internal_set__missionNodes(::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> value);
 
-  constexpr ::GlobalNamespace::MissionNodeVisualController*& __get__selectedNode();
+  constexpr ::UnityW<::GlobalNamespace::MissionNodeVisualController>& __cordl_internal_get__selectedNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNodeVisualController*> const& __get__selectedNode() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionNodeVisualController> const& __cordl_internal_get__selectedNode() const;
 
-  constexpr void __set__selectedNode(::GlobalNamespace::MissionNodeVisualController* value);
+  constexpr void __cordl_internal_set__selectedNode(::UnityW<::GlobalNamespace::MissionNodeVisualController> value);
 
   /// @brief Method add_didSelectMissionNodeEvent, addr 0x22a0894, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectMissionNodeEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
+  inline void add_didSelectMissionNodeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
   /// @brief Method remove_didSelectMissionNodeEvent, addr 0x22a0944, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectMissionNodeEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
+  inline void remove_didSelectMissionNodeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
   /// @brief Method DeselectSelectedNode, addr 0x22a09f4, size 0x80, virtual false, abstract: false, final false
   inline void DeselectSelectedNode();
@@ -110,16 +112,16 @@ protected:
 
 public:
   /// @brief Field _missionNodesManager, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MissionNodesManager* ____missionNodesManager;
+  ::UnityW<::GlobalNamespace::MissionNodesManager> ____missionNodesManager;
 
   /// @brief Field didSelectMissionNodeEvent, offset: 0x20, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* ___didSelectMissionNodeEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* ___didSelectMissionNodeEvent;
 
   /// @brief Field _missionNodes, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::MissionNode*, ::Array<::GlobalNamespace::MissionNode*>*> ____missionNodes;
+  ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> ____missionNodes;
 
   /// @brief Field _selectedNode, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::MissionNodeVisualController* ____selectedNode;
+  ::UnityW<::GlobalNamespace::MissionNodeVisualController> ____selectedNode;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

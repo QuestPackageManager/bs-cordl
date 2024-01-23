@@ -21,29 +21,29 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryObjec
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3261))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryObject*
 class CORDL_TYPE BinaryObject : public ::System::Object {
 public:
   // Declarations
   /// @brief Field objectId, offset 0x10, size 0x4
-  __declspec(property(get = __get_objectId, put = __set_objectId)) int32_t objectId;
+  __declspec(property(get = __cordl_internal_get_objectId, put = __cordl_internal_set_objectId)) int32_t objectId;
 
   /// @brief Field mapId, offset 0x14, size 0x4
-  __declspec(property(get = __get_mapId, put = __set_mapId)) int32_t mapId;
+  __declspec(property(get = __cordl_internal_get_mapId, put = __cordl_internal_set_mapId)) int32_t mapId;
 
-  constexpr int32_t& __get_objectId();
+  constexpr int32_t& __cordl_internal_get_objectId();
 
-  constexpr int32_t const& __get_objectId() const;
+  constexpr int32_t const& __cordl_internal_get_objectId() const;
 
-  constexpr void __set_objectId(int32_t value);
+  constexpr void __cordl_internal_set_objectId(int32_t value);
 
-  constexpr int32_t& __get_mapId();
+  constexpr int32_t& __cordl_internal_get_mapId();
 
-  constexpr int32_t const& __get_mapId() const;
+  constexpr int32_t const& __cordl_internal_get_mapId() const;
 
-  constexpr void __set_mapId(int32_t value);
+  constexpr void __cordl_internal_set_mapId(int32_t value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObject* New_ctor();
 

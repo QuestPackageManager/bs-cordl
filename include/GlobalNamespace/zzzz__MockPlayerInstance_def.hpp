@@ -117,29 +117,29 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15517))
 // CS Name: ::MockPlayerInstance::<>c__DisplayClass17_0`1<T>*
 class CORDL_TYPE __MockPlayerInstance____c__DisplayClass17_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MockPlayerInstance* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::MockPlayerInstance* __4__this;
 
   /// @brief Field connectionInitParams, offset 0x18, size 0x8
-  __declspec(property(get = __get_connectionInitParams, put = __set_connectionInitParams))::GlobalNamespace::IConnectionInitParams_1<T>* connectionInitParams;
+  __declspec(property(get = __cordl_internal_get_connectionInitParams, put = __cordl_internal_set_connectionInitParams))::GlobalNamespace::IConnectionInitParams_1<T>* connectionInitParams;
 
-  constexpr ::GlobalNamespace::MockPlayerInstance*& __get___4__this();
+  constexpr ::GlobalNamespace::MockPlayerInstance*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlayerInstance*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlayerInstance*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MockPlayerInstance* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::MockPlayerInstance* value);
 
-  constexpr ::GlobalNamespace::IConnectionInitParams_1<T>*& __get_connectionInitParams();
+  constexpr ::GlobalNamespace::IConnectionInitParams_1<T>*& __cordl_internal_get_connectionInitParams();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectionInitParams_1<T>*> const& __get_connectionInitParams() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectionInitParams_1<T>*> const& __cordl_internal_get_connectionInitParams() const;
 
-  constexpr void __set_connectionInitParams(::GlobalNamespace::IConnectionInitParams_1<T>* value);
+  constexpr void __cordl_internal_set_connectionInitParams(::GlobalNamespace::IConnectionInitParams_1<T>* value);
 
   static inline ::GlobalNamespace::__MockPlayerInstance____c__DisplayClass17_0_1<T>* New_ctor();
 
@@ -177,7 +177,7 @@ public:
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(2677))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15518))
 // CS Name: ::MockPlayerInstance::<RunAsync>d__18
 struct CORDL_TYPE __MockPlayerInstance___RunAsync_d__18 {
@@ -250,7 +250,7 @@ static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___RunAsync_d__18,
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15519))
 // CS Name: ::MockPlayerInstance::<Stop>d__21
 struct CORDL_TYPE __MockPlayerInstance___Stop_d__21 {
@@ -311,7 +311,7 @@ static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___Stop_d__21, __u
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15520))
 // CS Name: ::MockPlayerInstance::<DisposeAsync>d__22
 struct CORDL_TYPE __MockPlayerInstance___DisposeAsync_d__22 {
@@ -372,7 +372,7 @@ static_assert(offsetof(::GlobalNamespace::__MockPlayerInstance___DisposeAsync_d_
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15521))
 // CS Name: ::MockPlayerInstance*
 class CORDL_TYPE MockPlayerInstance : public ::System::Object {
@@ -387,31 +387,32 @@ public:
   template <typename T> using __c__DisplayClass17_0_1 = ::GlobalNamespace::__MockPlayerInstance____c__DisplayClass17_0_1<T>;
 
   /// @brief Field _id, offset 0x10, size 0x8
-  __declspec(property(get = __get__id, put = __set__id))::StringW _id;
+  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id))::StringW _id;
 
   /// @brief Field _userId, offset 0x18, size 0x8
-  __declspec(property(get = __get__userId, put = __set__userId))::StringW _userId;
+  __declspec(property(get = __cordl_internal_get__userId, put = __cordl_internal_set__userId))::StringW _userId;
 
   /// @brief Field _userName, offset 0x20, size 0x8
-  __declspec(property(get = __get__userName, put = __set__userName))::StringW _userName;
+  __declspec(property(get = __cordl_internal_get__userName, put = __cordl_internal_set__userName))::StringW _userName;
 
   /// @brief Field _timeProvider, offset 0x28, size 0x8
-  __declspec(property(get = __get__timeProvider, put = __set__timeProvider))::BGNet::Core::ITimeProvider* _timeProvider;
+  __declspec(property(get = __cordl_internal_get__timeProvider, put = __cordl_internal_set__timeProvider))::BGNet::Core::ITimeProvider* _timeProvider;
 
   /// @brief Field _taskUtility, offset 0x30, size 0x8
-  __declspec(property(get = __get__taskUtility, put = __set__taskUtility))::BGNet::Core::ITaskUtility* _taskUtility;
+  __declspec(property(get = __cordl_internal_get__taskUtility, put = __cordl_internal_set__taskUtility))::BGNet::Core::ITaskUtility* _taskUtility;
 
   /// @brief Field _cancellationTokenSource, offset 0x38, size 0x8
-  __declspec(property(get = __get__cancellationTokenSource, put = __set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
+  __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource))::System::Threading::CancellationTokenSource* _cancellationTokenSource;
 
   /// @brief Field _multiplayerSessionManager, offset 0x40, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::MultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::UnityW<::GlobalNamespace::MultiplayerSessionManager> _multiplayerSessionManager;
 
   /// @brief Field _connectedPlayerManager, offset 0x48, size 0x8
-  __declspec(property(get = __get__connectedPlayerManager, put = __set__connectedPlayerManager))::GlobalNamespace::ConnectedPlayerManager* _connectedPlayerManager;
+  __declspec(property(get = __cordl_internal_get__connectedPlayerManager, put = __cordl_internal_set__connectedPlayerManager))::GlobalNamespace::ConnectedPlayerManager* _connectedPlayerManager;
 
   /// @brief Field _fsm, offset 0x50, size 0x8
-  __declspec(property(get = __get__fsm, put = __set__fsm))::GlobalNamespace::MockPlayerFiniteStateMachine* _fsm;
+  __declspec(property(get = __cordl_internal_get__fsm, put = __cordl_internal_set__fsm))::GlobalNamespace::MockPlayerFiniteStateMachine* _fsm;
 
   __declspec(property(get = get_id))::StringW id;
 
@@ -431,59 +432,59 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::StringW& __get__id();
+  constexpr ::StringW& __cordl_internal_get__id();
 
-  constexpr ::StringW const& __get__id() const;
+  constexpr ::StringW const& __cordl_internal_get__id() const;
 
-  constexpr void __set__id(::StringW value);
+  constexpr void __cordl_internal_set__id(::StringW value);
 
-  constexpr ::StringW& __get__userId();
+  constexpr ::StringW& __cordl_internal_get__userId();
 
-  constexpr ::StringW const& __get__userId() const;
+  constexpr ::StringW const& __cordl_internal_get__userId() const;
 
-  constexpr void __set__userId(::StringW value);
+  constexpr void __cordl_internal_set__userId(::StringW value);
 
-  constexpr ::StringW& __get__userName();
+  constexpr ::StringW& __cordl_internal_get__userName();
 
-  constexpr ::StringW const& __get__userName() const;
+  constexpr ::StringW const& __cordl_internal_get__userName() const;
 
-  constexpr void __set__userName(::StringW value);
+  constexpr void __cordl_internal_set__userName(::StringW value);
 
-  constexpr ::BGNet::Core::ITimeProvider*& __get__timeProvider();
+  constexpr ::BGNet::Core::ITimeProvider*& __cordl_internal_get__timeProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITimeProvider*> const& __get__timeProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITimeProvider*> const& __cordl_internal_get__timeProvider() const;
 
-  constexpr void __set__timeProvider(::BGNet::Core::ITimeProvider* value);
+  constexpr void __cordl_internal_set__timeProvider(::BGNet::Core::ITimeProvider* value);
 
-  constexpr ::BGNet::Core::ITaskUtility*& __get__taskUtility();
+  constexpr ::BGNet::Core::ITaskUtility*& __cordl_internal_get__taskUtility();
 
-  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& __get__taskUtility() const;
+  constexpr ::cordl_internals::to_const_pointer<::BGNet::Core::ITaskUtility*> const& __cordl_internal_get__taskUtility() const;
 
-  constexpr void __set__taskUtility(::BGNet::Core::ITaskUtility* value);
+  constexpr void __cordl_internal_set__taskUtility(::BGNet::Core::ITaskUtility* value);
 
-  constexpr ::System::Threading::CancellationTokenSource*& __get__cancellationTokenSource();
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__cancellationTokenSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __get__cancellationTokenSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__cancellationTokenSource() const;
 
-  constexpr void __set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+  constexpr void __cordl_internal_set__cancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
-  constexpr ::GlobalNamespace::MultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerSessionManager>& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerSessionManager> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::MultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::UnityW<::GlobalNamespace::MultiplayerSessionManager> value);
 
-  constexpr ::GlobalNamespace::ConnectedPlayerManager*& __get__connectedPlayerManager();
+  constexpr ::GlobalNamespace::ConnectedPlayerManager*& __cordl_internal_get__connectedPlayerManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ConnectedPlayerManager*> const& __get__connectedPlayerManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ConnectedPlayerManager*> const& __cordl_internal_get__connectedPlayerManager() const;
 
-  constexpr void __set__connectedPlayerManager(::GlobalNamespace::ConnectedPlayerManager* value);
+  constexpr void __cordl_internal_set__connectedPlayerManager(::GlobalNamespace::ConnectedPlayerManager* value);
 
-  constexpr ::GlobalNamespace::MockPlayerFiniteStateMachine*& __get__fsm();
+  constexpr ::GlobalNamespace::MockPlayerFiniteStateMachine*& __cordl_internal_get__fsm();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlayerFiniteStateMachine*> const& __get__fsm() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MockPlayerFiniteStateMachine*> const& __cordl_internal_get__fsm() const;
 
-  constexpr void __set__fsm(::GlobalNamespace::MockPlayerFiniteStateMachine* value);
+  constexpr void __cordl_internal_set__fsm(::GlobalNamespace::MockPlayerFiniteStateMachine* value);
 
   /// @brief Method get_id, addr 0x23eb074, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_id();
@@ -567,7 +568,7 @@ public:
   ::System::Threading::CancellationTokenSource* ____cancellationTokenSource;
 
   /// @brief Field _multiplayerSessionManager, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerSessionManager* ____multiplayerSessionManager;
+  ::UnityW<::GlobalNamespace::MultiplayerSessionManager> ____multiplayerSessionManager;
 
   /// @brief Field _connectedPlayerManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ConnectedPlayerManager* ____connectedPlayerManager;

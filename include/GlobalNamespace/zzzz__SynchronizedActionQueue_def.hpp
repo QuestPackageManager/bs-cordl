@@ -29,7 +29,7 @@ MARK_VAL_T(::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12968))
 // CS Name: ::SynchronizedActionQueue::SynchronizedAction
 struct CORDL_TYPE __SynchronizedActionQueue__SynchronizedAction {
@@ -68,7 +68,7 @@ static_assert(offsetof(::GlobalNamespace::__SynchronizedActionQueue__Synchronize
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12969))
 // CS Name: ::SynchronizedActionQueue*
 class CORDL_TYPE SynchronizedActionQueue : public ::System::Object {
@@ -77,15 +77,16 @@ public:
   using SynchronizedAction = ::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction;
 
   /// @brief Field _synchronizedActionQueue, offset 0x10, size 0x8
-  __declspec(property(get = __get__synchronizedActionQueue,
-                      put = __set__synchronizedActionQueue))::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>* _synchronizedActionQueue;
+  __declspec(
+      property(get = __cordl_internal_get__synchronizedActionQueue,
+               put = __cordl_internal_set__synchronizedActionQueue))::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>* _synchronizedActionQueue;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>*& __get__synchronizedActionQueue();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>*& __cordl_internal_get__synchronizedActionQueue();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>*> const&
-  __get__synchronizedActionQueue() const;
+  __cordl_internal_get__synchronizedActionQueue() const;
 
-  constexpr void __set__synchronizedActionQueue(::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>* value);
+  constexpr void __cordl_internal_set__synchronizedActionQueue(::System::Collections::Generic::List_1<::GlobalNamespace::__SynchronizedActionQueue__SynchronizedAction>* value);
 
   /// @brief Method Clear, addr 0xe5941c, size 0x70, virtual false, abstract: false, final false
   inline void Clear();

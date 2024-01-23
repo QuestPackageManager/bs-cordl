@@ -15,7 +15,7 @@ MARK_VAL_T(::GlobalNamespace::PS4ApplicationCategory);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4554))
 // CS Name: ::PS4ApplicationCategory
 struct CORDL_TYPE PS4ApplicationCategory {

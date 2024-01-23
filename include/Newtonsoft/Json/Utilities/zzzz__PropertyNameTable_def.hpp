@@ -24,38 +24,38 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11849))
 // CS Name: ::PropertyNameTable::Entry*
 class CORDL_TYPE __PropertyNameTable__Entry : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Value, offset 0x10, size 0x8
-  __declspec(property(get = __get_Value, put = __set_Value))::StringW Value;
+  __declspec(property(get = __cordl_internal_get_Value, put = __cordl_internal_set_Value))::StringW Value;
 
   /// @brief Field HashCode, offset 0x18, size 0x4
-  __declspec(property(get = __get_HashCode, put = __set_HashCode)) int32_t HashCode;
+  __declspec(property(get = __cordl_internal_get_HashCode, put = __cordl_internal_set_HashCode)) int32_t HashCode;
 
   /// @brief Field Next, offset 0x20, size 0x8
-  __declspec(property(get = __get_Next, put = __set_Next))::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry* Next;
+  __declspec(property(get = __cordl_internal_get_Next, put = __cordl_internal_set_Next))::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry* Next;
 
-  constexpr ::StringW& __get_Value();
+  constexpr ::StringW& __cordl_internal_get_Value();
 
-  constexpr ::StringW const& __get_Value() const;
+  constexpr ::StringW const& __cordl_internal_get_Value() const;
 
-  constexpr void __set_Value(::StringW value);
+  constexpr void __cordl_internal_set_Value(::StringW value);
 
-  constexpr int32_t& __get_HashCode();
+  constexpr int32_t& __cordl_internal_get_HashCode();
 
-  constexpr int32_t const& __get_HashCode() const;
+  constexpr int32_t const& __cordl_internal_get_HashCode() const;
 
-  constexpr void __set_HashCode(int32_t value);
+  constexpr void __cordl_internal_set_HashCode(int32_t value);
 
-  constexpr ::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*& __get_Next();
+  constexpr ::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*& __cordl_internal_get_Next();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*> const& __get_Next() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*> const& __cordl_internal_get_Next() const;
 
-  constexpr void __set_Next(::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry* value);
+  constexpr void __cordl_internal_set_Next(::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry* value);
 
   static inline ::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry* New_ctor(::StringW value, int32_t hashCode, ::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry* next);
 
@@ -101,7 +101,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11850))
 // CS Name: ::Newtonsoft.Json.Utilities::PropertyNameTable*
 class CORDL_TYPE PropertyNameTable : public ::System::Object {
@@ -110,35 +110,36 @@ public:
   using Entry = ::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry;
 
   /// @brief Field _count, offset 0x10, size 0x4
-  __declspec(property(get = __get__count, put = __set__count)) int32_t _count;
+  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
 
   /// @brief Field _entries, offset 0x18, size 0x8
-  __declspec(property(get = __get__entries,
-                      put = __set__entries))::ArrayW<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*, ::Array<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*>*> _entries;
+  __declspec(
+      property(get = __cordl_internal_get__entries,
+               put = __cordl_internal_set__entries))::ArrayW<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*, ::Array<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*>*> _entries;
 
   /// @brief Field _mask, offset 0x20, size 0x4
-  __declspec(property(get = __get__mask, put = __set__mask)) int32_t _mask;
+  __declspec(property(get = __cordl_internal_get__mask, put = __cordl_internal_set__mask)) int32_t _mask;
 
   /// @brief Field HashCodeRandomizer, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_HashCodeRandomizer, put = setStaticF_HashCodeRandomizer)) int32_t HashCodeRandomizer;
 
-  constexpr int32_t& __get__count();
+  constexpr int32_t& __cordl_internal_get__count();
 
-  constexpr int32_t const& __get__count() const;
+  constexpr int32_t const& __cordl_internal_get__count() const;
 
-  constexpr void __set__count(int32_t value);
+  constexpr void __cordl_internal_set__count(int32_t value);
 
-  constexpr ::ArrayW<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*, ::Array<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*>*>& __get__entries();
+  constexpr ::ArrayW<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*, ::Array<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*>*>& __cordl_internal_get__entries();
 
-  constexpr ::ArrayW<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*, ::Array<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*>*> const& __get__entries() const;
+  constexpr ::ArrayW<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*, ::Array<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*>*> const& __cordl_internal_get__entries() const;
 
-  constexpr void __set__entries(::ArrayW<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*, ::Array<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*>*> value);
+  constexpr void __cordl_internal_set__entries(::ArrayW<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*, ::Array<::Newtonsoft::Json::Utilities::__PropertyNameTable__Entry*>*> value);
 
-  constexpr int32_t& __get__mask();
+  constexpr int32_t& __cordl_internal_get__mask();
 
-  constexpr int32_t const& __get__mask() const;
+  constexpr int32_t const& __cordl_internal_get__mask() const;
 
-  constexpr void __set__mask(int32_t value);
+  constexpr void __cordl_internal_set__mask(int32_t value);
 
   static inline void setStaticF_HashCodeRandomizer(int32_t value);
 

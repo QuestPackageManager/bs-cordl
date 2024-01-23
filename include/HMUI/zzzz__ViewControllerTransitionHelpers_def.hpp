@@ -87,29 +87,29 @@ MARK_REF_PTR_T(::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13601))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13601))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13606))
 // CS Name: ::ViewControllerTransitionHelpers::<DoPresentTransition>d__3*
 class CORDL_TYPE __ViewControllerTransitionHelpers___DoPresentTransition_d__3 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field animationDirection, offset 0x20, size 0x4
-  __declspec(property(get = __get_animationDirection, put = __set_animationDirection))::HMUI::__ViewController__AnimationDirection animationDirection;
+  __declspec(property(get = __cordl_internal_get_animationDirection, put = __cordl_internal_set_animationDirection))::HMUI::__ViewController__AnimationDirection animationDirection;
 
   /// @brief Field toPresentViewController, offset 0x28, size 0x8
-  __declspec(property(get = __get_toPresentViewController, put = __set_toPresentViewController))::HMUI::ViewController* toPresentViewController;
+  __declspec(property(get = __cordl_internal_get_toPresentViewController, put = __cordl_internal_set_toPresentViewController))::UnityW<::HMUI::ViewController> toPresentViewController;
 
   /// @brief Field toDismissViewController, offset 0x30, size 0x8
-  __declspec(property(get = __get_toDismissViewController, put = __set_toDismissViewController))::HMUI::ViewController* toDismissViewController;
+  __declspec(property(get = __cordl_internal_get_toDismissViewController, put = __cordl_internal_set_toDismissViewController))::UnityW<::HMUI::ViewController> toDismissViewController;
 
   /// @brief Field moveOffsetMultiplier, offset 0x38, size 0x4
-  __declspec(property(get = __get_moveOffsetMultiplier, put = __set_moveOffsetMultiplier)) float_t moveOffsetMultiplier;
+  __declspec(property(get = __cordl_internal_get_moveOffsetMultiplier, put = __cordl_internal_set_moveOffsetMultiplier)) float_t moveOffsetMultiplier;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -133,41 +133,41 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::HMUI::__ViewController__AnimationDirection& __get_animationDirection();
+  constexpr ::HMUI::__ViewController__AnimationDirection& __cordl_internal_get_animationDirection();
 
-  constexpr ::HMUI::__ViewController__AnimationDirection const& __get_animationDirection() const;
+  constexpr ::HMUI::__ViewController__AnimationDirection const& __cordl_internal_get_animationDirection() const;
 
-  constexpr void __set_animationDirection(::HMUI::__ViewController__AnimationDirection value);
+  constexpr void __cordl_internal_set_animationDirection(::HMUI::__ViewController__AnimationDirection value);
 
-  constexpr ::HMUI::ViewController*& __get_toPresentViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_toPresentViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get_toPresentViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_toPresentViewController() const;
 
-  constexpr void __set_toPresentViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set_toPresentViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr ::HMUI::ViewController*& __get_toDismissViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_toDismissViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get_toDismissViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_toDismissViewController() const;
 
-  constexpr void __set_toDismissViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set_toDismissViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr float_t& __get_moveOffsetMultiplier();
+  constexpr float_t& __cordl_internal_get_moveOffsetMultiplier();
 
-  constexpr float_t const& __get_moveOffsetMultiplier() const;
+  constexpr float_t const& __cordl_internal_get_moveOffsetMultiplier() const;
 
-  constexpr void __set_moveOffsetMultiplier(float_t value);
+  constexpr void __cordl_internal_set_moveOffsetMultiplier(float_t value);
 
   static inline ::HMUI::__ViewControllerTransitionHelpers___DoPresentTransition_d__3* New_ctor(int32_t __1__state);
 
@@ -213,10 +213,10 @@ public:
   ::HMUI::__ViewController__AnimationDirection ___animationDirection;
 
   /// @brief Field toPresentViewController, offset: 0x28, size: 0x8, def value: None
-  ::HMUI::ViewController* ___toPresentViewController;
+  ::UnityW<::HMUI::ViewController> ___toPresentViewController;
 
   /// @brief Field toDismissViewController, offset: 0x30, size: 0x8, def value: None
-  ::HMUI::ViewController* ___toDismissViewController;
+  ::UnityW<::HMUI::ViewController> ___toDismissViewController;
 
   /// @brief Field moveOffsetMultiplier, offset: 0x38, size: 0x4, def value: None
   float_t ___moveOffsetMultiplier;
@@ -243,29 +243,29 @@ static_assert(offsetof(::HMUI::__ViewControllerTransitionHelpers___DoPresentTran
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13601)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13601))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13607))
 // CS Name: ::ViewControllerTransitionHelpers::<DoDismissTransition>d__4*
 class CORDL_TYPE __ViewControllerTransitionHelpers___DoDismissTransition_d__4 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field animationDirection, offset 0x20, size 0x4
-  __declspec(property(get = __get_animationDirection, put = __set_animationDirection))::HMUI::__ViewController__AnimationDirection animationDirection;
+  __declspec(property(get = __cordl_internal_get_animationDirection, put = __cordl_internal_set_animationDirection))::HMUI::__ViewController__AnimationDirection animationDirection;
 
   /// @brief Field toPresentViewController, offset 0x28, size 0x8
-  __declspec(property(get = __get_toPresentViewController, put = __set_toPresentViewController))::HMUI::ViewController* toPresentViewController;
+  __declspec(property(get = __cordl_internal_get_toPresentViewController, put = __cordl_internal_set_toPresentViewController))::UnityW<::HMUI::ViewController> toPresentViewController;
 
   /// @brief Field toDismissViewController, offset 0x30, size 0x8
-  __declspec(property(get = __get_toDismissViewController, put = __set_toDismissViewController))::HMUI::ViewController* toDismissViewController;
+  __declspec(property(get = __cordl_internal_get_toDismissViewController, put = __cordl_internal_set_toDismissViewController))::UnityW<::HMUI::ViewController> toDismissViewController;
 
   /// @brief Field moveOffsetMultiplier, offset 0x38, size 0x4
-  __declspec(property(get = __get_moveOffsetMultiplier, put = __set_moveOffsetMultiplier)) float_t moveOffsetMultiplier;
+  __declspec(property(get = __cordl_internal_get_moveOffsetMultiplier, put = __cordl_internal_set_moveOffsetMultiplier)) float_t moveOffsetMultiplier;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -289,41 +289,41 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::HMUI::__ViewController__AnimationDirection& __get_animationDirection();
+  constexpr ::HMUI::__ViewController__AnimationDirection& __cordl_internal_get_animationDirection();
 
-  constexpr ::HMUI::__ViewController__AnimationDirection const& __get_animationDirection() const;
+  constexpr ::HMUI::__ViewController__AnimationDirection const& __cordl_internal_get_animationDirection() const;
 
-  constexpr void __set_animationDirection(::HMUI::__ViewController__AnimationDirection value);
+  constexpr void __cordl_internal_set_animationDirection(::HMUI::__ViewController__AnimationDirection value);
 
-  constexpr ::HMUI::ViewController*& __get_toPresentViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_toPresentViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get_toPresentViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_toPresentViewController() const;
 
-  constexpr void __set_toPresentViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set_toPresentViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr ::HMUI::ViewController*& __get_toDismissViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_toDismissViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get_toDismissViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_toDismissViewController() const;
 
-  constexpr void __set_toDismissViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set_toDismissViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr float_t& __get_moveOffsetMultiplier();
+  constexpr float_t& __cordl_internal_get_moveOffsetMultiplier();
 
-  constexpr float_t const& __get_moveOffsetMultiplier() const;
+  constexpr float_t const& __cordl_internal_get_moveOffsetMultiplier() const;
 
-  constexpr void __set_moveOffsetMultiplier(float_t value);
+  constexpr void __cordl_internal_set_moveOffsetMultiplier(float_t value);
 
   static inline ::HMUI::__ViewControllerTransitionHelpers___DoDismissTransition_d__4* New_ctor(int32_t __1__state);
 
@@ -369,10 +369,10 @@ public:
   ::HMUI::__ViewController__AnimationDirection ___animationDirection;
 
   /// @brief Field toPresentViewController, offset: 0x28, size: 0x8, def value: None
-  ::HMUI::ViewController* ___toPresentViewController;
+  ::UnityW<::HMUI::ViewController> ___toPresentViewController;
 
   /// @brief Field toDismissViewController, offset: 0x30, size: 0x8, def value: None
-  ::HMUI::ViewController* ___toDismissViewController;
+  ::UnityW<::HMUI::ViewController> ___toDismissViewController;
 
   /// @brief Field moveOffsetMultiplier, offset: 0x38, size: 0x4, def value: None
   float_t ___moveOffsetMultiplier;
@@ -399,47 +399,47 @@ static_assert(offsetof(::HMUI::__ViewControllerTransitionHelpers___DoDismissTran
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13608))
 // CS Name: ::ViewControllerTransitionHelpers::<>c__DisplayClass5_0*
 class CORDL_TYPE __ViewControllerTransitionHelpers____c__DisplayClass5_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field toPresentViewController, offset 0x10, size 0x8
-  __declspec(property(get = __get_toPresentViewController, put = __set_toPresentViewController))::HMUI::ViewController* toPresentViewController;
+  __declspec(property(get = __cordl_internal_get_toPresentViewController, put = __cordl_internal_set_toPresentViewController))::UnityW<::HMUI::ViewController> toPresentViewController;
 
   /// @brief Field moveOffset, offset 0x18, size 0x4
-  __declspec(property(get = __get_moveOffset, put = __set_moveOffset)) float_t moveOffset;
+  __declspec(property(get = __cordl_internal_get_moveOffset, put = __cordl_internal_set_moveOffset)) float_t moveOffset;
 
   /// @brief Field toDismissViewController, offset 0x20, size 0x8
-  __declspec(property(get = __get_toDismissViewController, put = __set_toDismissViewController))::HMUI::ViewController* toDismissViewController;
+  __declspec(property(get = __cordl_internal_get_toDismissViewController, put = __cordl_internal_set_toDismissViewController))::UnityW<::HMUI::ViewController> toDismissViewController;
 
   /// @brief Field baseCanvasGroupAlpha, offset 0x28, size 0x4
-  __declspec(property(get = __get_baseCanvasGroupAlpha, put = __set_baseCanvasGroupAlpha)) float_t baseCanvasGroupAlpha;
+  __declspec(property(get = __cordl_internal_get_baseCanvasGroupAlpha, put = __cordl_internal_set_baseCanvasGroupAlpha)) float_t baseCanvasGroupAlpha;
 
-  constexpr ::HMUI::ViewController*& __get_toPresentViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_toPresentViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get_toPresentViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_toPresentViewController() const;
 
-  constexpr void __set_toPresentViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set_toPresentViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr float_t& __get_moveOffset();
+  constexpr float_t& __cordl_internal_get_moveOffset();
 
-  constexpr float_t const& __get_moveOffset() const;
+  constexpr float_t const& __cordl_internal_get_moveOffset() const;
 
-  constexpr void __set_moveOffset(float_t value);
+  constexpr void __cordl_internal_set_moveOffset(float_t value);
 
-  constexpr ::HMUI::ViewController*& __get_toDismissViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_toDismissViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get_toDismissViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_toDismissViewController() const;
 
-  constexpr void __set_toDismissViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set_toDismissViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr float_t& __get_baseCanvasGroupAlpha();
+  constexpr float_t& __cordl_internal_get_baseCanvasGroupAlpha();
 
-  constexpr float_t const& __get_baseCanvasGroupAlpha() const;
+  constexpr float_t const& __cordl_internal_get_baseCanvasGroupAlpha() const;
 
-  constexpr void __set_baseCanvasGroupAlpha(float_t value);
+  constexpr void __cordl_internal_set_baseCanvasGroupAlpha(float_t value);
 
   static inline ::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0* New_ctor();
 
@@ -464,13 +464,13 @@ protected:
 
 public:
   /// @brief Field toPresentViewController, offset: 0x10, size: 0x8, def value: None
-  ::HMUI::ViewController* ___toPresentViewController;
+  ::UnityW<::HMUI::ViewController> ___toPresentViewController;
 
   /// @brief Field moveOffset, offset: 0x18, size: 0x4, def value: None
   float_t ___moveOffset;
 
   /// @brief Field toDismissViewController, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::ViewController* ___toDismissViewController;
+  ::UnityW<::HMUI::ViewController> ___toDismissViewController;
 
   /// @brief Field baseCanvasGroupAlpha, offset: 0x28, size: 0x4, def value: None
   float_t ___baseCanvasGroupAlpha;
@@ -493,29 +493,29 @@ static_assert(offsetof(::HMUI::__ViewControllerTransitionHelpers____c__DisplayCl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13609))
 // CS Name: ::ViewControllerTransitionHelpers::<DoHorizontalTransition>d__5*
 class CORDL_TYPE __ViewControllerTransitionHelpers___DoHorizontalTransition_d__5 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field toPresentViewController, offset 0x20, size 0x8
-  __declspec(property(get = __get_toPresentViewController, put = __set_toPresentViewController))::HMUI::ViewController* toPresentViewController;
+  __declspec(property(get = __cordl_internal_get_toPresentViewController, put = __cordl_internal_set_toPresentViewController))::UnityW<::HMUI::ViewController> toPresentViewController;
 
   /// @brief Field toDismissViewController, offset 0x28, size 0x8
-  __declspec(property(get = __get_toDismissViewController, put = __set_toDismissViewController))::HMUI::ViewController* toDismissViewController;
+  __declspec(property(get = __cordl_internal_get_toDismissViewController, put = __cordl_internal_set_toDismissViewController))::UnityW<::HMUI::ViewController> toDismissViewController;
 
   /// @brief Field moveOffsetMultiplier, offset 0x30, size 0x4
-  __declspec(property(get = __get_moveOffsetMultiplier, put = __set_moveOffsetMultiplier)) float_t moveOffsetMultiplier;
+  __declspec(property(get = __cordl_internal_get_moveOffsetMultiplier, put = __cordl_internal_set_moveOffsetMultiplier)) float_t moveOffsetMultiplier;
 
   /// @brief Field <>8__1, offset 0x38, size 0x8
-  __declspec(property(get = __get___8__1, put = __set___8__1))::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0* __8__1;
+  __declspec(property(get = __cordl_internal_get___8__1, put = __cordl_internal_set___8__1))::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0* __8__1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -539,41 +539,41 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::HMUI::ViewController*& __get_toPresentViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_toPresentViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get_toPresentViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_toPresentViewController() const;
 
-  constexpr void __set_toPresentViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set_toPresentViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr ::HMUI::ViewController*& __get_toDismissViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_toDismissViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get_toDismissViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_toDismissViewController() const;
 
-  constexpr void __set_toDismissViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set_toDismissViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr float_t& __get_moveOffsetMultiplier();
+  constexpr float_t& __cordl_internal_get_moveOffsetMultiplier();
 
-  constexpr float_t const& __get_moveOffsetMultiplier() const;
+  constexpr float_t const& __cordl_internal_get_moveOffsetMultiplier() const;
 
-  constexpr void __set_moveOffsetMultiplier(float_t value);
+  constexpr void __cordl_internal_set_moveOffsetMultiplier(float_t value);
 
-  constexpr ::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0*& __get___8__1();
+  constexpr ::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0*& __cordl_internal_get___8__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0*> const& __get___8__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0*> const& __cordl_internal_get___8__1() const;
 
-  constexpr void __set___8__1(::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0* value);
+  constexpr void __cordl_internal_set___8__1(::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass5_0* value);
 
   static inline ::HMUI::__ViewControllerTransitionHelpers___DoHorizontalTransition_d__5* New_ctor(int32_t __1__state);
 
@@ -616,10 +616,10 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field toPresentViewController, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::ViewController* ___toPresentViewController;
+  ::UnityW<::HMUI::ViewController> ___toPresentViewController;
 
   /// @brief Field toDismissViewController, offset: 0x28, size: 0x8, def value: None
-  ::HMUI::ViewController* ___toDismissViewController;
+  ::UnityW<::HMUI::ViewController> ___toDismissViewController;
 
   /// @brief Field moveOffsetMultiplier, offset: 0x30, size: 0x4, def value: None
   float_t ___moveOffsetMultiplier;
@@ -649,47 +649,47 @@ static_assert(offsetof(::HMUI::__ViewControllerTransitionHelpers___DoHorizontalT
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13610))
 // CS Name: ::ViewControllerTransitionHelpers::<>c__DisplayClass6_0*
 class CORDL_TYPE __ViewControllerTransitionHelpers____c__DisplayClass6_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field toPresentViewController, offset 0x10, size 0x8
-  __declspec(property(get = __get_toPresentViewController, put = __set_toPresentViewController))::HMUI::ViewController* toPresentViewController;
+  __declspec(property(get = __cordl_internal_get_toPresentViewController, put = __cordl_internal_set_toPresentViewController))::UnityW<::HMUI::ViewController> toPresentViewController;
 
   /// @brief Field moveOffset, offset 0x18, size 0x4
-  __declspec(property(get = __get_moveOffset, put = __set_moveOffset)) float_t moveOffset;
+  __declspec(property(get = __cordl_internal_get_moveOffset, put = __cordl_internal_set_moveOffset)) float_t moveOffset;
 
   /// @brief Field baseCanvasGroupAlpha, offset 0x1c, size 0x4
-  __declspec(property(get = __get_baseCanvasGroupAlpha, put = __set_baseCanvasGroupAlpha)) float_t baseCanvasGroupAlpha;
+  __declspec(property(get = __cordl_internal_get_baseCanvasGroupAlpha, put = __cordl_internal_set_baseCanvasGroupAlpha)) float_t baseCanvasGroupAlpha;
 
   /// @brief Field toDismissViewController, offset 0x20, size 0x8
-  __declspec(property(get = __get_toDismissViewController, put = __set_toDismissViewController))::HMUI::ViewController* toDismissViewController;
+  __declspec(property(get = __cordl_internal_get_toDismissViewController, put = __cordl_internal_set_toDismissViewController))::UnityW<::HMUI::ViewController> toDismissViewController;
 
-  constexpr ::HMUI::ViewController*& __get_toPresentViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_toPresentViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get_toPresentViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_toPresentViewController() const;
 
-  constexpr void __set_toPresentViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set_toPresentViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr float_t& __get_moveOffset();
+  constexpr float_t& __cordl_internal_get_moveOffset();
 
-  constexpr float_t const& __get_moveOffset() const;
+  constexpr float_t const& __cordl_internal_get_moveOffset() const;
 
-  constexpr void __set_moveOffset(float_t value);
+  constexpr void __cordl_internal_set_moveOffset(float_t value);
 
-  constexpr float_t& __get_baseCanvasGroupAlpha();
+  constexpr float_t& __cordl_internal_get_baseCanvasGroupAlpha();
 
-  constexpr float_t const& __get_baseCanvasGroupAlpha() const;
+  constexpr float_t const& __cordl_internal_get_baseCanvasGroupAlpha() const;
 
-  constexpr void __set_baseCanvasGroupAlpha(float_t value);
+  constexpr void __cordl_internal_set_baseCanvasGroupAlpha(float_t value);
 
-  constexpr ::HMUI::ViewController*& __get_toDismissViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_toDismissViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get_toDismissViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_toDismissViewController() const;
 
-  constexpr void __set_toDismissViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set_toDismissViewController(::UnityW<::HMUI::ViewController> value);
 
   static inline ::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0* New_ctor();
 
@@ -714,7 +714,7 @@ protected:
 
 public:
   /// @brief Field toPresentViewController, offset: 0x10, size: 0x8, def value: None
-  ::HMUI::ViewController* ___toPresentViewController;
+  ::UnityW<::HMUI::ViewController> ___toPresentViewController;
 
   /// @brief Field moveOffset, offset: 0x18, size: 0x4, def value: None
   float_t ___moveOffset;
@@ -723,7 +723,7 @@ public:
   float_t ___baseCanvasGroupAlpha;
 
   /// @brief Field toDismissViewController, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::ViewController* ___toDismissViewController;
+  ::UnityW<::HMUI::ViewController> ___toDismissViewController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -743,29 +743,29 @@ static_assert(offsetof(::HMUI::__ViewControllerTransitionHelpers____c__DisplayCl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13611))
 // CS Name: ::ViewControllerTransitionHelpers::<DoVerticalTransition>d__6*
 class CORDL_TYPE __ViewControllerTransitionHelpers___DoVerticalTransition_d__6 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field toPresentViewController, offset 0x20, size 0x8
-  __declspec(property(get = __get_toPresentViewController, put = __set_toPresentViewController))::HMUI::ViewController* toPresentViewController;
+  __declspec(property(get = __cordl_internal_get_toPresentViewController, put = __cordl_internal_set_toPresentViewController))::UnityW<::HMUI::ViewController> toPresentViewController;
 
   /// @brief Field toDismissViewController, offset 0x28, size 0x8
-  __declspec(property(get = __get_toDismissViewController, put = __set_toDismissViewController))::HMUI::ViewController* toDismissViewController;
+  __declspec(property(get = __cordl_internal_get_toDismissViewController, put = __cordl_internal_set_toDismissViewController))::UnityW<::HMUI::ViewController> toDismissViewController;
 
   /// @brief Field moveOffsetMultiplier, offset 0x30, size 0x4
-  __declspec(property(get = __get_moveOffsetMultiplier, put = __set_moveOffsetMultiplier)) float_t moveOffsetMultiplier;
+  __declspec(property(get = __cordl_internal_get_moveOffsetMultiplier, put = __cordl_internal_set_moveOffsetMultiplier)) float_t moveOffsetMultiplier;
 
   /// @brief Field <>8__1, offset 0x38, size 0x8
-  __declspec(property(get = __get___8__1, put = __set___8__1))::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0* __8__1;
+  __declspec(property(get = __cordl_internal_get___8__1, put = __cordl_internal_set___8__1))::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0* __8__1;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -789,41 +789,41 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::HMUI::ViewController*& __get_toPresentViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_toPresentViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get_toPresentViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_toPresentViewController() const;
 
-  constexpr void __set_toPresentViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set_toPresentViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr ::HMUI::ViewController*& __get_toDismissViewController();
+  constexpr ::UnityW<::HMUI::ViewController>& __cordl_internal_get_toDismissViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ViewController*> const& __get_toDismissViewController() const;
+  constexpr ::UnityW<::HMUI::ViewController> const& __cordl_internal_get_toDismissViewController() const;
 
-  constexpr void __set_toDismissViewController(::HMUI::ViewController* value);
+  constexpr void __cordl_internal_set_toDismissViewController(::UnityW<::HMUI::ViewController> value);
 
-  constexpr float_t& __get_moveOffsetMultiplier();
+  constexpr float_t& __cordl_internal_get_moveOffsetMultiplier();
 
-  constexpr float_t const& __get_moveOffsetMultiplier() const;
+  constexpr float_t const& __cordl_internal_get_moveOffsetMultiplier() const;
 
-  constexpr void __set_moveOffsetMultiplier(float_t value);
+  constexpr void __cordl_internal_set_moveOffsetMultiplier(float_t value);
 
-  constexpr ::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0*& __get___8__1();
+  constexpr ::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0*& __cordl_internal_get___8__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0*> const& __get___8__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0*> const& __cordl_internal_get___8__1() const;
 
-  constexpr void __set___8__1(::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0* value);
+  constexpr void __cordl_internal_set___8__1(::HMUI::__ViewControllerTransitionHelpers____c__DisplayClass6_0* value);
 
   static inline ::HMUI::__ViewControllerTransitionHelpers___DoVerticalTransition_d__6* New_ctor(int32_t __1__state);
 
@@ -866,10 +866,10 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field toPresentViewController, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::ViewController* ___toPresentViewController;
+  ::UnityW<::HMUI::ViewController> ___toPresentViewController;
 
   /// @brief Field toDismissViewController, offset: 0x28, size: 0x8, def value: None
-  ::HMUI::ViewController* ___toDismissViewController;
+  ::UnityW<::HMUI::ViewController> ___toDismissViewController;
 
   /// @brief Field moveOffsetMultiplier, offset: 0x30, size: 0x4, def value: None
   float_t ___moveOffsetMultiplier;
@@ -899,23 +899,23 @@ static_assert(offsetof(::HMUI::__ViewControllerTransitionHelpers___DoVerticalTra
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13612))
 // CS Name: ::ViewControllerTransitionHelpers::<AnimationCoroutine>d__8*
 class CORDL_TYPE __ViewControllerTransitionHelpers___AnimationCoroutine_d__8 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field transitionAnimation, offset 0x20, size 0x8
-  __declspec(property(get = __get_transitionAnimation, put = __set_transitionAnimation))::System::Action_1<float_t>* transitionAnimation;
+  __declspec(property(get = __cordl_internal_get_transitionAnimation, put = __cordl_internal_set_transitionAnimation))::System::Action_1<float_t>* transitionAnimation;
 
   /// @brief Field <elapsedTime>5__2, offset 0x28, size 0x4
-  __declspec(property(get = __get__elapsedTime_5__2, put = __set__elapsedTime_5__2)) float_t _elapsedTime_5__2;
+  __declspec(property(get = __cordl_internal_get__elapsedTime_5__2, put = __cordl_internal_set__elapsedTime_5__2)) float_t _elapsedTime_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -939,29 +939,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::System::Action_1<float_t>*& __get_transitionAnimation();
+  constexpr ::System::Action_1<float_t>*& __cordl_internal_get_transitionAnimation();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __get_transitionAnimation() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __cordl_internal_get_transitionAnimation() const;
 
-  constexpr void __set_transitionAnimation(::System::Action_1<float_t>* value);
+  constexpr void __cordl_internal_set_transitionAnimation(::System::Action_1<float_t>* value);
 
-  constexpr float_t& __get__elapsedTime_5__2();
+  constexpr float_t& __cordl_internal_get__elapsedTime_5__2();
 
-  constexpr float_t const& __get__elapsedTime_5__2() const;
+  constexpr float_t const& __cordl_internal_get__elapsedTime_5__2() const;
 
-  constexpr void __set__elapsedTime_5__2(float_t value);
+  constexpr void __cordl_internal_set__elapsedTime_5__2(float_t value);
 
   static inline ::HMUI::__ViewControllerTransitionHelpers___AnimationCoroutine_d__8* New_ctor(int32_t __1__state);
 
@@ -1027,7 +1027,7 @@ static_assert(offsetof(::HMUI::__ViewControllerTransitionHelpers___AnimationCoro
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13613))
 // CS Name: ::HMUI::ViewControllerTransitionHelpers*
 class CORDL_TYPE ViewControllerTransitionHelpers : public ::System::Object {

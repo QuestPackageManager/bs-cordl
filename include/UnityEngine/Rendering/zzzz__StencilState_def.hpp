@@ -27,7 +27,7 @@ MARK_VAL_T(::UnityEngine::Rendering::StencilState);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10359))
 // CS Name: ::UnityEngine.Rendering::StencilState
 struct CORDL_TYPE StencilState {

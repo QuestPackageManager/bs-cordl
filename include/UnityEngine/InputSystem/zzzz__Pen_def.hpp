@@ -26,42 +26,44 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Pen);
 // SizeInfo { instance_size: 456, native_size: -1, calculated_instance_size: 456, calculated_native_size: 456, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6247))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6247))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6246))
 // CS Name: ::UnityEngine.InputSystem::Pen*
 class CORDL_TYPE Pen : public ::UnityEngine::InputSystem::Pointer {
 public:
   // Declarations
   /// @brief Field <tip>k__BackingField, offset 0x180, size 0x8
-  __declspec(property(get = __get__tip_k__BackingField, put = __set__tip_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _tip_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__tip_k__BackingField, put = __cordl_internal_set__tip_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _tip_k__BackingField;
 
   /// @brief Field <eraser>k__BackingField, offset 0x188, size 0x8
-  __declspec(property(get = __get__eraser_k__BackingField, put = __set__eraser_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _eraser_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__eraser_k__BackingField,
+                      put = __cordl_internal_set__eraser_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _eraser_k__BackingField;
 
   /// @brief Field <firstBarrelButton>k__BackingField, offset 0x190, size 0x8
-  __declspec(property(get = __get__firstBarrelButton_k__BackingField,
-                      put = __set__firstBarrelButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _firstBarrelButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__firstBarrelButton_k__BackingField,
+                      put = __cordl_internal_set__firstBarrelButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _firstBarrelButton_k__BackingField;
 
   /// @brief Field <secondBarrelButton>k__BackingField, offset 0x198, size 0x8
-  __declspec(property(get = __get__secondBarrelButton_k__BackingField,
-                      put = __set__secondBarrelButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _secondBarrelButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__secondBarrelButton_k__BackingField,
+                      put = __cordl_internal_set__secondBarrelButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _secondBarrelButton_k__BackingField;
 
   /// @brief Field <thirdBarrelButton>k__BackingField, offset 0x1a0, size 0x8
-  __declspec(property(get = __get__thirdBarrelButton_k__BackingField,
-                      put = __set__thirdBarrelButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _thirdBarrelButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__thirdBarrelButton_k__BackingField,
+                      put = __cordl_internal_set__thirdBarrelButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _thirdBarrelButton_k__BackingField;
 
   /// @brief Field <fourthBarrelButton>k__BackingField, offset 0x1a8, size 0x8
-  __declspec(property(get = __get__fourthBarrelButton_k__BackingField,
-                      put = __set__fourthBarrelButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _fourthBarrelButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__fourthBarrelButton_k__BackingField,
+                      put = __cordl_internal_set__fourthBarrelButton_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _fourthBarrelButton_k__BackingField;
 
   /// @brief Field <inRange>k__BackingField, offset 0x1b0, size 0x8
-  __declspec(property(get = __get__inRange_k__BackingField, put = __set__inRange_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _inRange_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__inRange_k__BackingField,
+                      put = __cordl_internal_set__inRange_k__BackingField))::UnityEngine::InputSystem::Controls::ButtonControl* _inRange_k__BackingField;
 
   /// @brief Field <tilt>k__BackingField, offset 0x1b8, size 0x8
-  __declspec(property(get = __get__tilt_k__BackingField, put = __set__tilt_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _tilt_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__tilt_k__BackingField, put = __cordl_internal_set__tilt_k__BackingField))::UnityEngine::InputSystem::Controls::Vector2Control* _tilt_k__BackingField;
 
   /// @brief Field <twist>k__BackingField, offset 0x1c0, size 0x8
-  __declspec(property(get = __get__twist_k__BackingField, put = __set__twist_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _twist_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__twist_k__BackingField, put = __cordl_internal_set__twist_k__BackingField))::UnityEngine::InputSystem::Controls::AxisControl* _twist_k__BackingField;
 
   /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField))::UnityEngine::InputSystem::Pen* _current_k__BackingField;
@@ -86,59 +88,59 @@ public:
 
   __declspec(property(get = get_Item))::UnityEngine::InputSystem::Controls::ButtonControl* Item[];
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__tip_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__tip_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__tip_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__tip_k__BackingField() const;
 
-  constexpr void __set__tip_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__tip_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__eraser_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__eraser_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__eraser_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__eraser_k__BackingField() const;
 
-  constexpr void __set__eraser_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__eraser_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__firstBarrelButton_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__firstBarrelButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__firstBarrelButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__firstBarrelButton_k__BackingField() const;
 
-  constexpr void __set__firstBarrelButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__firstBarrelButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__secondBarrelButton_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__secondBarrelButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__secondBarrelButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__secondBarrelButton_k__BackingField() const;
 
-  constexpr void __set__secondBarrelButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__secondBarrelButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__thirdBarrelButton_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__thirdBarrelButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__thirdBarrelButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__thirdBarrelButton_k__BackingField() const;
 
-  constexpr void __set__thirdBarrelButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__thirdBarrelButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__fourthBarrelButton_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__fourthBarrelButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__fourthBarrelButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__fourthBarrelButton_k__BackingField() const;
 
-  constexpr void __set__fourthBarrelButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__fourthBarrelButton_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __get__inRange_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& __cordl_internal_get__inRange_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __get__inRange_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::ButtonControl*> const& __cordl_internal_get__inRange_k__BackingField() const;
 
-  constexpr void __set__inRange_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
+  constexpr void __cordl_internal_set__inRange_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __get__tilt_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector2Control*& __cordl_internal_get__tilt_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __get__tilt_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector2Control*> const& __cordl_internal_get__tilt_k__BackingField() const;
 
-  constexpr void __set__tilt_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
+  constexpr void __cordl_internal_set__tilt_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __get__twist_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::AxisControl*& __cordl_internal_get__twist_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __get__twist_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::AxisControl*> const& __cordl_internal_get__twist_k__BackingField() const;
 
-  constexpr void __set__twist_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
+  constexpr void __cordl_internal_set__twist_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Pen* value);
 

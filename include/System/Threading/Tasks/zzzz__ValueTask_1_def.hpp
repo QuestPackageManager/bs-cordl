@@ -55,7 +55,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2765))
 // CS Name: ::ValueTask`1::ValueTaskSourceAsTask::<>c<TResult>*
 class CORDL_TYPE __ValueTask_1__ValueTaskSourceAsTask____c : public ::System::Object {
@@ -100,7 +100,7 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 3850 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2773)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2773), inst: 3850 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2766))
 // CS Name: ::ValueTask`1::ValueTaskSourceAsTask<TResult>*
 class CORDL_TYPE __ValueTask_1__ValueTaskSourceAsTask : public ::System::Threading::Tasks::Task_1<TResult> {
@@ -109,25 +109,25 @@ public:
   using __c = ::GlobalNamespace::__ValueTask_1__ValueTaskSourceAsTask____c<TResult>;
 
   /// @brief Field _source, offset 0x58, size 0x8
-  __declspec(property(get = __get__source, put = __set__source))::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* _source;
+  __declspec(property(get = __cordl_internal_get__source, put = __cordl_internal_set__source))::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* _source;
 
   /// @brief Field _token, offset 0x60, size 0x2
-  __declspec(property(get = __get__token, put = __set__token)) int16_t _token;
+  __declspec(property(get = __cordl_internal_get__token, put = __cordl_internal_set__token)) int16_t _token;
 
   /// @brief Field s_completionAction, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_completionAction, put = setStaticF_s_completionAction))::System::Action_1<::System::Object*>* s_completionAction;
 
-  constexpr ::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>*& __get__source();
+  constexpr ::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>*& __cordl_internal_get__source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>*> const& __get__source() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>*> const& __cordl_internal_get__source() const;
 
-  constexpr void __set__source(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* value);
+  constexpr void __cordl_internal_set__source(::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* value);
 
-  constexpr int16_t& __get__token();
+  constexpr int16_t& __cordl_internal_get__token();
 
-  constexpr int16_t const& __get__token() const;
+  constexpr int16_t const& __cordl_internal_get__token() const;
 
-  constexpr void __set__token(int16_t value);
+  constexpr void __cordl_internal_set__token(int16_t value);
 
   static inline void setStaticF_s_completionAction(::System::Action_1<::System::Object*>* value);
 
@@ -168,7 +168,7 @@ namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2767))
 // CS Name: ::System.Threading.Tasks::ValueTask`1<TResult>
 struct CORDL_TYPE ValueTask_1 {

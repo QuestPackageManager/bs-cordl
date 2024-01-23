@@ -29,33 +29,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(98))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::TimeStampAndCrl*
 class CORDL_TYPE TimeStampAndCrl : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field timeStamp, offset 0x10, size 0x8
-  __declspec(property(get = __get_timeStamp, put = __set_timeStamp))::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStamp;
+  __declspec(property(get = __cordl_internal_get_timeStamp, put = __cordl_internal_set_timeStamp))::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStamp;
 
   /// @brief Field crl, offset 0x18, size 0x8
-  __declspec(property(get = __get_crl, put = __set_crl))::Org::BouncyCastle::Asn1::X509::CertificateList* crl;
+  __declspec(property(get = __cordl_internal_get_crl, put = __cordl_internal_set_crl))::Org::BouncyCastle::Asn1::X509::CertificateList* crl;
 
   __declspec(property(get = get_TimeStampToken))::Org::BouncyCastle::Asn1::Cms::ContentInfo* TimeStampToken;
 
   __declspec(property(get = get_Crl))::Org::BouncyCastle::Asn1::X509::CertificateList* Crl;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __get_timeStamp();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __cordl_internal_get_timeStamp();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __get_timeStamp() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __cordl_internal_get_timeStamp() const;
 
-  constexpr void __set_timeStamp(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
+  constexpr void __cordl_internal_set_timeStamp(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::CertificateList*& __get_crl();
+  constexpr ::Org::BouncyCastle::Asn1::X509::CertificateList*& __cordl_internal_get_crl();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::CertificateList*> const& __get_crl() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::CertificateList*> const& __cordl_internal_get_crl() const;
 
-  constexpr void __set_crl(::Org::BouncyCastle::Asn1::X509::CertificateList* value);
+  constexpr void __cordl_internal_set_crl(::Org::BouncyCastle::Asn1::X509::CertificateList* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* New_ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* timeStamp);
 

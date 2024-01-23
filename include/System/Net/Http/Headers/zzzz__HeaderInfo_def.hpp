@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::HeaderInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14673))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14673))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14671))
 // CS Name: ::System.Net.Http.Headers::HeaderInfo*
 class CORDL_TYPE HeaderInfo : public ::System::Object {
@@ -56,44 +56,45 @@ public:
   template <typename T, typename U> using HeaderTypeInfo_2 = ::System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>;
 
   /// @brief Field AllowsMany, offset 0x10, size 0x1
-  __declspec(property(get = __get_AllowsMany, put = __set_AllowsMany)) bool AllowsMany;
+  __declspec(property(get = __cordl_internal_get_AllowsMany, put = __cordl_internal_set_AllowsMany)) bool AllowsMany;
 
   /// @brief Field HeaderKind, offset 0x14, size 0x4
-  __declspec(property(get = __get_HeaderKind, put = __set_HeaderKind))::System::Net::Http::Headers::HttpHeaderKind HeaderKind;
+  __declspec(property(get = __cordl_internal_get_HeaderKind, put = __cordl_internal_set_HeaderKind))::System::Net::Http::Headers::HttpHeaderKind HeaderKind;
 
   /// @brief Field Name, offset 0x18, size 0x8
-  __declspec(property(get = __get_Name, put = __set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
 
   /// @brief Field <CustomToString>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__CustomToString_k__BackingField, put = __set__CustomToString_k__BackingField))::System::Func_2<::System::Object*, ::StringW>* _CustomToString_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CustomToString_k__BackingField,
+                      put = __cordl_internal_set__CustomToString_k__BackingField))::System::Func_2<::System::Object*, ::StringW>* _CustomToString_k__BackingField;
 
   __declspec(property(get = get_CustomToString, put = set_CustomToString))::System::Func_2<::System::Object*, ::StringW>* CustomToString;
 
   __declspec(property(get = get_Separator))::StringW Separator;
 
-  constexpr bool& __get_AllowsMany();
+  constexpr bool& __cordl_internal_get_AllowsMany();
 
-  constexpr bool const& __get_AllowsMany() const;
+  constexpr bool const& __cordl_internal_get_AllowsMany() const;
 
-  constexpr void __set_AllowsMany(bool value);
+  constexpr void __cordl_internal_set_AllowsMany(bool value);
 
-  constexpr ::System::Net::Http::Headers::HttpHeaderKind& __get_HeaderKind();
+  constexpr ::System::Net::Http::Headers::HttpHeaderKind& __cordl_internal_get_HeaderKind();
 
-  constexpr ::System::Net::Http::Headers::HttpHeaderKind const& __get_HeaderKind() const;
+  constexpr ::System::Net::Http::Headers::HttpHeaderKind const& __cordl_internal_get_HeaderKind() const;
 
-  constexpr void __set_HeaderKind(::System::Net::Http::Headers::HttpHeaderKind value);
+  constexpr void __cordl_internal_set_HeaderKind(::System::Net::Http::Headers::HttpHeaderKind value);
 
-  constexpr ::StringW& __get_Name();
+  constexpr ::StringW& __cordl_internal_get_Name();
 
-  constexpr ::StringW const& __get_Name() const;
+  constexpr ::StringW const& __cordl_internal_get_Name() const;
 
-  constexpr void __set_Name(::StringW value);
+  constexpr void __cordl_internal_set_Name(::StringW value);
 
-  constexpr ::System::Func_2<::System::Object*, ::StringW>*& __get__CustomToString_k__BackingField();
+  constexpr ::System::Func_2<::System::Object*, ::StringW>*& __cordl_internal_get__CustomToString_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::StringW>*> const& __get__CustomToString_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::System::Object*, ::StringW>*> const& __cordl_internal_get__CustomToString_k__BackingField() const;
 
-  constexpr void __set__CustomToString_k__BackingField(::System::Func_2<::System::Object*, ::StringW>* value);
+  constexpr void __cordl_internal_set__CustomToString_k__BackingField(::System::Func_2<::System::Object*, ::StringW>* value);
 
   static inline ::System::Net::Http::Headers::HeaderInfo* New_ctor(::StringW name, ::System::Net::Http::Headers::HttpHeaderKind headerKind);
 

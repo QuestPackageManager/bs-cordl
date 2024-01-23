@@ -18,38 +18,38 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockFloatCurve);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14563))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14563))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14568))
 // CS Name: ::MaterialPropertyBlockFloatCurve*
 class CORDL_TYPE MaterialPropertyBlockFloatCurve : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
   // Declarations
   /// @brief Field _curve, offset 0x30, size 0x8
-  __declspec(property(get = __get__curve, put = __set__curve))::UnityEngine::AnimationCurve* _curve;
+  __declspec(property(get = __cordl_internal_get__curve, put = __cordl_internal_set__curve))::UnityEngine::AnimationCurve* _curve;
 
   /// @brief Field _valueMultiplier, offset 0x38, size 0x4
-  __declspec(property(get = __get__valueMultiplier, put = __set__valueMultiplier)) float_t _valueMultiplier;
+  __declspec(property(get = __cordl_internal_get__valueMultiplier, put = __cordl_internal_set__valueMultiplier)) float_t _valueMultiplier;
 
   /// @brief Field _speedMultiplier, offset 0x3c, size 0x4
-  __declspec(property(get = __get__speedMultiplier, put = __set__speedMultiplier)) float_t _speedMultiplier;
+  __declspec(property(get = __cordl_internal_get__speedMultiplier, put = __cordl_internal_set__speedMultiplier)) float_t _speedMultiplier;
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__curve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__curve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__curve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__curve() const;
 
-  constexpr void __set__curve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__curve(::UnityEngine::AnimationCurve* value);
 
-  constexpr float_t& __get__valueMultiplier();
+  constexpr float_t& __cordl_internal_get__valueMultiplier();
 
-  constexpr float_t const& __get__valueMultiplier() const;
+  constexpr float_t const& __cordl_internal_get__valueMultiplier() const;
 
-  constexpr void __set__valueMultiplier(float_t value);
+  constexpr void __cordl_internal_set__valueMultiplier(float_t value);
 
-  constexpr float_t& __get__speedMultiplier();
+  constexpr float_t& __cordl_internal_get__speedMultiplier();
 
-  constexpr float_t const& __get__speedMultiplier() const;
+  constexpr float_t const& __cordl_internal_get__speedMultiplier() const;
 
-  constexpr void __set__speedMultiplier(float_t value);
+  constexpr void __cordl_internal_set__speedMultiplier(float_t value);
 
   /// @brief Method SetProperty, addr 0x21150a8, size 0x98, virtual true, abstract: false, final false
   inline void SetProperty();

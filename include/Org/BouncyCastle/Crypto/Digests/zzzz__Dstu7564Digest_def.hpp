@@ -23,41 +23,41 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(749))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::Dstu7564Digest*
 class CORDL_TYPE Dstu7564Digest : public ::System::Object {
 public:
   // Declarations
   /// @brief Field hashSize, offset 0x10, size 0x4
-  __declspec(property(get = __get_hashSize, put = __set_hashSize)) int32_t hashSize;
+  __declspec(property(get = __cordl_internal_get_hashSize, put = __cordl_internal_set_hashSize)) int32_t hashSize;
 
   /// @brief Field blockSize, offset 0x14, size 0x4
-  __declspec(property(get = __get_blockSize, put = __set_blockSize)) int32_t blockSize;
+  __declspec(property(get = __cordl_internal_get_blockSize, put = __cordl_internal_set_blockSize)) int32_t blockSize;
 
   /// @brief Field columns, offset 0x18, size 0x4
-  __declspec(property(get = __get_columns, put = __set_columns)) int32_t columns;
+  __declspec(property(get = __cordl_internal_get_columns, put = __cordl_internal_set_columns)) int32_t columns;
 
   /// @brief Field rounds, offset 0x1c, size 0x4
-  __declspec(property(get = __get_rounds, put = __set_rounds)) int32_t rounds;
+  __declspec(property(get = __cordl_internal_get_rounds, put = __cordl_internal_set_rounds)) int32_t rounds;
 
   /// @brief Field state, offset 0x20, size 0x8
-  __declspec(property(get = __get_state, put = __set_state))::ArrayW<uint64_t, ::Array<uint64_t>*> state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::ArrayW<uint64_t, ::Array<uint64_t>*> state;
 
   /// @brief Field tempState1, offset 0x28, size 0x8
-  __declspec(property(get = __get_tempState1, put = __set_tempState1))::ArrayW<uint64_t, ::Array<uint64_t>*> tempState1;
+  __declspec(property(get = __cordl_internal_get_tempState1, put = __cordl_internal_set_tempState1))::ArrayW<uint64_t, ::Array<uint64_t>*> tempState1;
 
   /// @brief Field tempState2, offset 0x30, size 0x8
-  __declspec(property(get = __get_tempState2, put = __set_tempState2))::ArrayW<uint64_t, ::Array<uint64_t>*> tempState2;
+  __declspec(property(get = __cordl_internal_get_tempState2, put = __cordl_internal_set_tempState2))::ArrayW<uint64_t, ::Array<uint64_t>*> tempState2;
 
   /// @brief Field inputBlocks, offset 0x38, size 0x8
-  __declspec(property(get = __get_inputBlocks, put = __set_inputBlocks)) uint64_t inputBlocks;
+  __declspec(property(get = __cordl_internal_get_inputBlocks, put = __cordl_internal_set_inputBlocks)) uint64_t inputBlocks;
 
   /// @brief Field bufOff, offset 0x40, size 0x4
-  __declspec(property(get = __get_bufOff, put = __set_bufOff)) int32_t bufOff;
+  __declspec(property(get = __cordl_internal_get_bufOff, put = __cordl_internal_set_bufOff)) int32_t bufOff;
 
   /// @brief Field buf, offset 0x48, size 0x8
-  __declspec(property(get = __get_buf, put = __set_buf))::ArrayW<uint8_t, ::Array<uint8_t>*> buf;
+  __declspec(property(get = __cordl_internal_get_buf, put = __cordl_internal_set_buf))::ArrayW<uint8_t, ::Array<uint8_t>*> buf;
 
   /// @brief Field S0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_S0, put = setStaticF_S0))::ArrayW<uint8_t, ::Array<uint8_t>*> S0;
@@ -85,65 +85,65 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr ::Org::BouncyCastle::Utilities::IMemoable* i___Org__BouncyCastle__Utilities__IMemoable() noexcept;
 
-  constexpr int32_t& __get_hashSize();
+  constexpr int32_t& __cordl_internal_get_hashSize();
 
-  constexpr int32_t const& __get_hashSize() const;
+  constexpr int32_t const& __cordl_internal_get_hashSize() const;
 
-  constexpr void __set_hashSize(int32_t value);
+  constexpr void __cordl_internal_set_hashSize(int32_t value);
 
-  constexpr int32_t& __get_blockSize();
+  constexpr int32_t& __cordl_internal_get_blockSize();
 
-  constexpr int32_t const& __get_blockSize() const;
+  constexpr int32_t const& __cordl_internal_get_blockSize() const;
 
-  constexpr void __set_blockSize(int32_t value);
+  constexpr void __cordl_internal_set_blockSize(int32_t value);
 
-  constexpr int32_t& __get_columns();
+  constexpr int32_t& __cordl_internal_get_columns();
 
-  constexpr int32_t const& __get_columns() const;
+  constexpr int32_t const& __cordl_internal_get_columns() const;
 
-  constexpr void __set_columns(int32_t value);
+  constexpr void __cordl_internal_set_columns(int32_t value);
 
-  constexpr int32_t& __get_rounds();
+  constexpr int32_t& __cordl_internal_get_rounds();
 
-  constexpr int32_t const& __get_rounds() const;
+  constexpr int32_t const& __cordl_internal_get_rounds() const;
 
-  constexpr void __set_rounds(int32_t value);
+  constexpr void __cordl_internal_set_rounds(int32_t value);
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_state();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_state();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_state() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_state(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_tempState1();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_tempState1();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_tempState1() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_tempState1() const;
 
-  constexpr void __set_tempState1(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_tempState1(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_tempState2();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_tempState2();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_tempState2() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_tempState2() const;
 
-  constexpr void __set_tempState2(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_tempState2(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  constexpr uint64_t& __get_inputBlocks();
+  constexpr uint64_t& __cordl_internal_get_inputBlocks();
 
-  constexpr uint64_t const& __get_inputBlocks() const;
+  constexpr uint64_t const& __cordl_internal_get_inputBlocks() const;
 
-  constexpr void __set_inputBlocks(uint64_t value);
+  constexpr void __cordl_internal_set_inputBlocks(uint64_t value);
 
-  constexpr int32_t& __get_bufOff();
+  constexpr int32_t& __cordl_internal_get_bufOff();
 
-  constexpr int32_t const& __get_bufOff() const;
+  constexpr int32_t const& __cordl_internal_get_bufOff() const;
 
-  constexpr void __set_bufOff(int32_t value);
+  constexpr void __cordl_internal_set_bufOff(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_buf();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buf();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_buf() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buf() const;
 
-  constexpr void __set_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_S0(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

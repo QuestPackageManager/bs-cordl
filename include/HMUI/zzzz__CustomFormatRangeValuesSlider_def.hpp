@@ -16,20 +16,20 @@ MARK_REF_PTR_T(::HMUI::CustomFormatRangeValuesSlider);
 // SizeInfo { instance_size: 368, native_size: -1, calculated_instance_size: 368, calculated_native_size: 368, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13558))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13558))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13556))
 // CS Name: ::HMUI::CustomFormatRangeValuesSlider*
 class CORDL_TYPE CustomFormatRangeValuesSlider : public ::HMUI::RangeValuesTextSlider {
 public:
   // Declarations
   /// @brief Field _formatString, offset 0x168, size 0x8
-  __declspec(property(get = __get__formatString, put = __set__formatString))::StringW _formatString;
+  __declspec(property(get = __cordl_internal_get__formatString, put = __cordl_internal_set__formatString))::StringW _formatString;
 
-  constexpr ::StringW& __get__formatString();
+  constexpr ::StringW& __cordl_internal_get__formatString();
 
-  constexpr ::StringW const& __get__formatString() const;
+  constexpr ::StringW const& __cordl_internal_get__formatString() const;
 
-  constexpr void __set__formatString(::StringW value);
+  constexpr void __cordl_internal_set__formatString(::StringW value);
 
   /// @brief Method TextForValue, addr 0x21223d8, size 0x70, virtual true, abstract: false, final false
   inline ::StringW TextForValue(float_t value);

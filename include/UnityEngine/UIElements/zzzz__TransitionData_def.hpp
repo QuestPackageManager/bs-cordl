@@ -37,7 +37,7 @@ MARK_VAL_T(::UnityEngine::UIElements::TransitionData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7360))
 // CS Name: ::UnityEngine.UIElements::TransitionData
 struct CORDL_TYPE TransitionData {

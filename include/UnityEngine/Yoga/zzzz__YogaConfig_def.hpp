@@ -20,17 +20,17 @@ MARK_REF_PTR_T(::UnityEngine::Yoga::YogaConfig);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Yoga {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15362))
 // CS Name: ::UnityEngine.Yoga::YogaConfig*
 class CORDL_TYPE YogaConfig : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _ygConfig, offset 0x10, size 0x8
-  __declspec(property(get = __get__ygConfig, put = __set__ygConfig)) void* _ygConfig;
+  __declspec(property(get = __cordl_internal_get__ygConfig, put = __cordl_internal_set__ygConfig)) void* _ygConfig;
 
   /// @brief Field _logger, offset 0x18, size 0x8
-  __declspec(property(get = __get__logger, put = __set__logger))::UnityEngine::Yoga::Logger* _logger;
+  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger))::UnityEngine::Yoga::Logger* _logger;
 
   /// @brief Field Default, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::UnityEngine::Yoga::YogaConfig* Default;
@@ -41,17 +41,17 @@ public:
 
   __declspec(property(put = set_PointScaleFactor)) float_t PointScaleFactor;
 
-  constexpr void*& __get__ygConfig();
+  constexpr void*& __cordl_internal_get__ygConfig();
 
-  constexpr void* const& __get__ygConfig() const;
+  constexpr void* const& __cordl_internal_get__ygConfig() const;
 
-  constexpr void __set__ygConfig(void* value);
+  constexpr void __cordl_internal_set__ygConfig(void* value);
 
-  constexpr ::UnityEngine::Yoga::Logger*& __get__logger();
+  constexpr ::UnityEngine::Yoga::Logger*& __cordl_internal_get__logger();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Yoga::Logger*> const& __get__logger() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Yoga::Logger*> const& __cordl_internal_get__logger() const;
 
-  constexpr void __set__logger(::UnityEngine::Yoga::Logger* value);
+  constexpr void __cordl_internal_set__logger(::UnityEngine::Yoga::Logger* value);
 
   static inline void setStaticF_Default(::UnityEngine::Yoga::YogaConfig* value);
 

@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::GlobalNamespace::AbTestExperimentDefinitionSO);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5816))
 // CS Name: ::AbTestExperimentDefinitionSO::Group
 struct CORDL_TYPE __AbTestExperimentDefinitionSO__Group {
@@ -80,7 +80,7 @@ static_assert(offsetof(::GlobalNamespace::__AbTestExperimentDefinitionSO__Group,
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5816)), TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5816)), TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5817))
 // CS Name: ::AbTestExperimentDefinitionSO*
 class CORDL_TYPE AbTestExperimentDefinitionSO : public ::GlobalNamespace::PersistentScriptableObject {
@@ -89,22 +89,23 @@ public:
   using Group = ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group;
 
   /// @brief Field _experimentName, offset 0x18, size 0x8
-  __declspec(property(get = __get__experimentName, put = __set__experimentName))::StringW _experimentName;
+  __declspec(property(get = __cordl_internal_get__experimentName, put = __cordl_internal_set__experimentName))::StringW _experimentName;
 
   /// @brief Field _test1GroupSize, offset 0x20, size 0x4
-  __declspec(property(get = __get__test1GroupSize, put = __set__test1GroupSize)) float_t _test1GroupSize;
+  __declspec(property(get = __cordl_internal_get__test1GroupSize, put = __cordl_internal_set__test1GroupSize)) float_t _test1GroupSize;
 
   /// @brief Field _test2GroupSize, offset 0x24, size 0x4
-  __declspec(property(get = __get__test2GroupSize, put = __set__test2GroupSize)) float_t _test2GroupSize;
+  __declspec(property(get = __cordl_internal_get__test2GroupSize, put = __cordl_internal_set__test2GroupSize)) float_t _test2GroupSize;
 
   /// @brief Field _controlGroupSize, offset 0x28, size 0x4
-  __declspec(property(get = __get__controlGroupSize, put = __set__controlGroupSize)) float_t _controlGroupSize;
+  __declspec(property(get = __cordl_internal_get__controlGroupSize, put = __cordl_internal_set__controlGroupSize)) float_t _controlGroupSize;
 
   /// @brief Field _salt, offset 0x30, size 0x8
-  __declspec(property(get = __get__salt, put = __set__salt))::StringW _salt;
+  __declspec(property(get = __cordl_internal_get__salt, put = __cordl_internal_set__salt))::StringW _salt;
 
   /// @brief Field _currentUserTreatmentGroup, offset 0x38, size 0x4
-  __declspec(property(get = __get__currentUserTreatmentGroup, put = __set__currentUserTreatmentGroup))::GlobalNamespace::__AbTestExperimentDefinitionSO__Group _currentUserTreatmentGroup;
+  __declspec(property(get = __cordl_internal_get__currentUserTreatmentGroup,
+                      put = __cordl_internal_set__currentUserTreatmentGroup))::GlobalNamespace::__AbTestExperimentDefinitionSO__Group _currentUserTreatmentGroup;
 
   __declspec(property(get = get_test1GroupSize)) float_t test1GroupSize;
 
@@ -114,41 +115,41 @@ public:
 
   __declspec(property(get = get_currentUserTreatmentGroup))::GlobalNamespace::__AbTestExperimentDefinitionSO__Group currentUserTreatmentGroup;
 
-  constexpr ::StringW& __get__experimentName();
+  constexpr ::StringW& __cordl_internal_get__experimentName();
 
-  constexpr ::StringW const& __get__experimentName() const;
+  constexpr ::StringW const& __cordl_internal_get__experimentName() const;
 
-  constexpr void __set__experimentName(::StringW value);
+  constexpr void __cordl_internal_set__experimentName(::StringW value);
 
-  constexpr float_t& __get__test1GroupSize();
+  constexpr float_t& __cordl_internal_get__test1GroupSize();
 
-  constexpr float_t const& __get__test1GroupSize() const;
+  constexpr float_t const& __cordl_internal_get__test1GroupSize() const;
 
-  constexpr void __set__test1GroupSize(float_t value);
+  constexpr void __cordl_internal_set__test1GroupSize(float_t value);
 
-  constexpr float_t& __get__test2GroupSize();
+  constexpr float_t& __cordl_internal_get__test2GroupSize();
 
-  constexpr float_t const& __get__test2GroupSize() const;
+  constexpr float_t const& __cordl_internal_get__test2GroupSize() const;
 
-  constexpr void __set__test2GroupSize(float_t value);
+  constexpr void __cordl_internal_set__test2GroupSize(float_t value);
 
-  constexpr float_t& __get__controlGroupSize();
+  constexpr float_t& __cordl_internal_get__controlGroupSize();
 
-  constexpr float_t const& __get__controlGroupSize() const;
+  constexpr float_t const& __cordl_internal_get__controlGroupSize() const;
 
-  constexpr void __set__controlGroupSize(float_t value);
+  constexpr void __cordl_internal_set__controlGroupSize(float_t value);
 
-  constexpr ::StringW& __get__salt();
+  constexpr ::StringW& __cordl_internal_get__salt();
 
-  constexpr ::StringW const& __get__salt() const;
+  constexpr ::StringW const& __cordl_internal_get__salt() const;
 
-  constexpr void __set__salt(::StringW value);
+  constexpr void __cordl_internal_set__salt(::StringW value);
 
-  constexpr ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group& __get__currentUserTreatmentGroup();
+  constexpr ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group& __cordl_internal_get__currentUserTreatmentGroup();
 
-  constexpr ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group const& __get__currentUserTreatmentGroup() const;
+  constexpr ::GlobalNamespace::__AbTestExperimentDefinitionSO__Group const& __cordl_internal_get__currentUserTreatmentGroup() const;
 
-  constexpr void __set__currentUserTreatmentGroup(::GlobalNamespace::__AbTestExperimentDefinitionSO__Group value);
+  constexpr void __cordl_internal_set__currentUserTreatmentGroup(::GlobalNamespace::__AbTestExperimentDefinitionSO__Group value);
 
   /// @brief Method get_test1GroupSize, addr 0x22eada8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_test1GroupSize();

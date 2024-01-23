@@ -64,7 +64,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__EventDispatcher__EventRecord);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6913))
 // CS Name: ::EventDispatcher::EventRecord
 struct CORDL_TYPE __EventDispatcher__EventRecord {
@@ -101,7 +101,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__EventDispatcher__EventRecord
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6914))
 // CS Name: ::EventDispatcher::DispatchContext
 struct CORDL_TYPE __EventDispatcher__DispatchContext {
@@ -138,7 +138,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__EventDispatcher__DispatchCon
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6915))
 // CS Name: ::UnityEngine.UIElements::EventDispatcher*
 class CORDL_TYPE EventDispatcher : public ::System::Object {
@@ -149,30 +149,32 @@ public:
   using EventRecord = ::UnityEngine::UIElements::__EventDispatcher__EventRecord;
 
   /// @brief Field m_ClickDetector, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_ClickDetector, put = __set_m_ClickDetector))::UnityEngine::UIElements::ClickDetector* m_ClickDetector;
+  __declspec(property(get = __cordl_internal_get_m_ClickDetector, put = __cordl_internal_set_m_ClickDetector))::UnityEngine::UIElements::ClickDetector* m_ClickDetector;
 
   /// @brief Field m_DispatchingStrategies, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_DispatchingStrategies,
-                      put = __set_m_DispatchingStrategies))::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* m_DispatchingStrategies;
+  __declspec(property(get = __cordl_internal_get_m_DispatchingStrategies,
+                      put = __cordl_internal_set_m_DispatchingStrategies))::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* m_DispatchingStrategies;
 
   /// @brief Field m_Queue, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Queue, put = __set_m_Queue))::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>* m_Queue;
+  __declspec(property(get = __cordl_internal_get_m_Queue,
+                      put = __cordl_internal_set_m_Queue))::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>* m_Queue;
 
   /// @brief Field <pointerState>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__pointerState_k__BackingField, put = __set__pointerState_k__BackingField))::UnityEngine::UIElements::PointerDispatchState* _pointerState_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__pointerState_k__BackingField,
+                      put = __cordl_internal_set__pointerState_k__BackingField))::UnityEngine::UIElements::PointerDispatchState* _pointerState_k__BackingField;
 
   /// @brief Field m_GateCount, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_GateCount, put = __set_m_GateCount)) uint32_t m_GateCount;
+  __declspec(property(get = __cordl_internal_get_m_GateCount, put = __cordl_internal_set_m_GateCount)) uint32_t m_GateCount;
 
   /// @brief Field m_DispatchContexts, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_DispatchContexts,
-                      put = __set_m_DispatchContexts))::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::__EventDispatcher__DispatchContext>* m_DispatchContexts;
+  __declspec(property(get = __cordl_internal_get_m_DispatchContexts,
+                      put = __cordl_internal_set_m_DispatchContexts))::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::__EventDispatcher__DispatchContext>* m_DispatchContexts;
 
   /// @brief Field m_Immediate, offset 0x40, size 0x1
-  __declspec(property(get = __get_m_Immediate, put = __set_m_Immediate)) bool m_Immediate;
+  __declspec(property(get = __cordl_internal_get_m_Immediate, put = __cordl_internal_set_m_Immediate)) bool m_Immediate;
 
   /// @brief Field <processingEvents>k__BackingField, offset 0x41, size 0x1
-  __declspec(property(get = __get__processingEvents_k__BackingField, put = __set__processingEvents_k__BackingField)) bool _processingEvents_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__processingEvents_k__BackingField, put = __cordl_internal_set__processingEvents_k__BackingField)) bool _processingEvents_k__BackingField;
 
   /// @brief Field k_EventQueuePool, offset 0xffffffff, size 0x8
   static __declspec(property(
@@ -190,53 +192,55 @@ public:
 
   __declspec(property(put = set_processingEvents)) bool processingEvents;
 
-  constexpr ::UnityEngine::UIElements::ClickDetector*& __get_m_ClickDetector();
+  constexpr ::UnityEngine::UIElements::ClickDetector*& __cordl_internal_get_m_ClickDetector();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ClickDetector*> const& __get_m_ClickDetector() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ClickDetector*> const& __cordl_internal_get_m_ClickDetector() const;
 
-  constexpr void __set_m_ClickDetector(::UnityEngine::UIElements::ClickDetector* value);
+  constexpr void __cordl_internal_set_m_ClickDetector(::UnityEngine::UIElements::ClickDetector* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>*& __get_m_DispatchingStrategies();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>*& __cordl_internal_get_m_DispatchingStrategies();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>*> const& __get_m_DispatchingStrategies() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>*> const&
+  __cordl_internal_get_m_DispatchingStrategies() const;
 
-  constexpr void __set_m_DispatchingStrategies(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* value);
+  constexpr void __cordl_internal_set_m_DispatchingStrategies(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventDispatchingStrategy*>* value);
 
-  constexpr ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*& __get_m_Queue();
+  constexpr ::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*& __cordl_internal_get_m_Queue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*> const& __get_m_Queue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*> const& __cordl_internal_get_m_Queue() const;
 
-  constexpr void __set_m_Queue(::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>* value);
+  constexpr void __cordl_internal_set_m_Queue(::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>* value);
 
-  constexpr ::UnityEngine::UIElements::PointerDispatchState*& __get__pointerState_k__BackingField();
+  constexpr ::UnityEngine::UIElements::PointerDispatchState*& __cordl_internal_get__pointerState_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::PointerDispatchState*> const& __get__pointerState_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::PointerDispatchState*> const& __cordl_internal_get__pointerState_k__BackingField() const;
 
-  constexpr void __set__pointerState_k__BackingField(::UnityEngine::UIElements::PointerDispatchState* value);
+  constexpr void __cordl_internal_set__pointerState_k__BackingField(::UnityEngine::UIElements::PointerDispatchState* value);
 
-  constexpr uint32_t& __get_m_GateCount();
+  constexpr uint32_t& __cordl_internal_get_m_GateCount();
 
-  constexpr uint32_t const& __get_m_GateCount() const;
+  constexpr uint32_t const& __cordl_internal_get_m_GateCount() const;
 
-  constexpr void __set_m_GateCount(uint32_t value);
+  constexpr void __cordl_internal_set_m_GateCount(uint32_t value);
 
-  constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::__EventDispatcher__DispatchContext>*& __get_m_DispatchContexts();
+  constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::__EventDispatcher__DispatchContext>*& __cordl_internal_get_m_DispatchContexts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::__EventDispatcher__DispatchContext>*> const& __get_m_DispatchContexts() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::__EventDispatcher__DispatchContext>*> const&
+  __cordl_internal_get_m_DispatchContexts() const;
 
-  constexpr void __set_m_DispatchContexts(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::__EventDispatcher__DispatchContext>* value);
+  constexpr void __cordl_internal_set_m_DispatchContexts(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::__EventDispatcher__DispatchContext>* value);
 
-  constexpr bool& __get_m_Immediate();
+  constexpr bool& __cordl_internal_get_m_Immediate();
 
-  constexpr bool const& __get_m_Immediate() const;
+  constexpr bool const& __cordl_internal_get_m_Immediate() const;
 
-  constexpr void __set_m_Immediate(bool value);
+  constexpr void __cordl_internal_set_m_Immediate(bool value);
 
-  constexpr bool& __get__processingEvents_k__BackingField();
+  constexpr bool& __cordl_internal_get__processingEvents_k__BackingField();
 
-  constexpr bool const& __get__processingEvents_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__processingEvents_k__BackingField() const;
 
-  constexpr void __set__processingEvents_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__processingEvents_k__BackingField(bool value);
 
   static inline void setStaticF_k_EventQueuePool(::UnityEngine::UIElements::ObjectPool_1<::System::Collections::Generic::Queue_1<::UnityEngine::UIElements::__EventDispatcher__EventRecord>*>* value);
 

@@ -22,14 +22,14 @@ MARK_REF_PTR_T(::System::Net::Http::HttpMethod);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14652))
 // CS Name: ::System.Net.Http::HttpMethod*
 class CORDL_TYPE HttpMethod : public ::System::Object {
 public:
   // Declarations
   /// @brief Field method, offset 0x10, size 0x8
-  __declspec(property(get = __get_method, put = __set_method))::StringW method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::StringW method;
 
   /// @brief Field delete_method, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_delete_method, put = setStaticF_delete_method))::System::Net::Http::HttpMethod* delete_method;
@@ -60,11 +60,11 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::System::Net::Http::HttpMethod*>"
   constexpr ::System::IEquatable_1<::System::Net::Http::HttpMethod*>* i___System__IEquatable_1___System__Net__Http__HttpMethod__() noexcept;
 
-  constexpr ::StringW& __get_method();
+  constexpr ::StringW& __cordl_internal_get_method();
 
-  constexpr ::StringW const& __get_method() const;
+  constexpr ::StringW const& __cordl_internal_get_method() const;
 
-  constexpr void __set_method(::StringW value);
+  constexpr void __cordl_internal_set_method(::StringW value);
 
   static inline void setStaticF_delete_method(::System::Net::Http::HttpMethod* value);
 

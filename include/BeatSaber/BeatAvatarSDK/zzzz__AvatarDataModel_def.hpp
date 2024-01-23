@@ -30,26 +30,27 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarDataModel);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15681))
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarDataModel*
 class CORDL_TYPE AvatarDataModel : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <avatarCreated>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__avatarCreated_k__BackingField, put = __set__avatarCreated_k__BackingField)) bool _avatarCreated_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__avatarCreated_k__BackingField, put = __cordl_internal_set__avatarCreated_k__BackingField)) bool _avatarCreated_k__BackingField;
 
   /// @brief Field didChangeAvatarDataEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_didChangeAvatarDataEvent, put = __set_didChangeAvatarDataEvent))::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* didChangeAvatarDataEvent;
+  __declspec(property(get = __cordl_internal_get_didChangeAvatarDataEvent,
+                      put = __cordl_internal_set_didChangeAvatarDataEvent))::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* didChangeAvatarDataEvent;
 
   /// @brief Field _avatarPartsModel, offset 0x20, size 0x8
-  __declspec(property(get = __get__avatarPartsModel, put = __set__avatarPartsModel))::BeatSaber::BeatAvatarSDK::AvatarPartsModel* _avatarPartsModel;
+  __declspec(property(get = __cordl_internal_get__avatarPartsModel, put = __cordl_internal_set__avatarPartsModel))::BeatSaber::BeatAvatarSDK::AvatarPartsModel* _avatarPartsModel;
 
   /// @brief Field _saveData, offset 0x28, size 0x8
-  __declspec(property(get = __get__saveData, put = __set__saveData))::GlobalNamespace::ISaveData* _saveData;
+  __declspec(property(get = __cordl_internal_get__saveData, put = __cordl_internal_set__saveData))::GlobalNamespace::ISaveData* _saveData;
 
   /// @brief Field _avatarData, offset 0x30, size 0x8
-  __declspec(property(get = __get__avatarData, put = __set__avatarData))::BeatSaber::BeatAvatarSDK::AvatarData* _avatarData;
+  __declspec(property(get = __cordl_internal_get__avatarData, put = __cordl_internal_set__avatarData))::BeatSaber::BeatAvatarSDK::AvatarData* _avatarData;
 
   /// @brief Field filePath, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_filePath, put = setStaticF_filePath))::StringW filePath;
@@ -64,35 +65,35 @@ public:
 
   __declspec(property(get = get_avatarCreated, put = set_avatarCreated)) bool avatarCreated;
 
-  constexpr bool& __get__avatarCreated_k__BackingField();
+  constexpr bool& __cordl_internal_get__avatarCreated_k__BackingField();
 
-  constexpr bool const& __get__avatarCreated_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__avatarCreated_k__BackingField() const;
 
-  constexpr void __set__avatarCreated_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__avatarCreated_k__BackingField(bool value);
 
-  constexpr ::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>*& __get_didChangeAvatarDataEvent();
+  constexpr ::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>*& __cordl_internal_get_didChangeAvatarDataEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>*> const& __get_didChangeAvatarDataEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>*> const& __cordl_internal_get_didChangeAvatarDataEvent() const;
 
-  constexpr void __set_didChangeAvatarDataEvent(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* value);
+  constexpr void __cordl_internal_set_didChangeAvatarDataEvent(::System::Action_1<::BeatSaber::BeatAvatarSDK::AvatarData*>* value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartsModel*& __get__avatarPartsModel();
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarPartsModel*& __cordl_internal_get__avatarPartsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartsModel*> const& __get__avatarPartsModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarPartsModel*> const& __cordl_internal_get__avatarPartsModel() const;
 
-  constexpr void __set__avatarPartsModel(::BeatSaber::BeatAvatarSDK::AvatarPartsModel* value);
+  constexpr void __cordl_internal_set__avatarPartsModel(::BeatSaber::BeatAvatarSDK::AvatarPartsModel* value);
 
-  constexpr ::GlobalNamespace::ISaveData*& __get__saveData();
+  constexpr ::GlobalNamespace::ISaveData*& __cordl_internal_get__saveData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& __get__saveData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ISaveData*> const& __cordl_internal_get__saveData() const;
 
-  constexpr void __set__saveData(::GlobalNamespace::ISaveData* value);
+  constexpr void __cordl_internal_set__saveData(::GlobalNamespace::ISaveData* value);
 
-  constexpr ::BeatSaber::BeatAvatarSDK::AvatarData*& __get__avatarData();
+  constexpr ::BeatSaber::BeatAvatarSDK::AvatarData*& __cordl_internal_get__avatarData();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarData*> const& __get__avatarData() const;
+  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::BeatAvatarSDK::AvatarData*> const& __cordl_internal_get__avatarData() const;
 
-  constexpr void __set__avatarData(::BeatSaber::BeatAvatarSDK::AvatarData* value);
+  constexpr void __cordl_internal_set__avatarData(::BeatSaber::BeatAvatarSDK::AvatarData* value);
 
   static inline void setStaticF_filePath(::StringW value);
 

@@ -23,29 +23,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::KeccakDigest);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 45, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(755))
 // CS Name: ::Org.BouncyCastle.Crypto.Digests::KeccakDigest*
 class CORDL_TYPE KeccakDigest : public ::System::Object {
 public:
   // Declarations
   /// @brief Field state, offset 0x10, size 0x8
-  __declspec(property(get = __get_state, put = __set_state))::ArrayW<uint64_t, ::Array<uint64_t>*> state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::ArrayW<uint64_t, ::Array<uint64_t>*> state;
 
   /// @brief Field dataQueue, offset 0x18, size 0x8
-  __declspec(property(get = __get_dataQueue, put = __set_dataQueue))::ArrayW<uint8_t, ::Array<uint8_t>*> dataQueue;
+  __declspec(property(get = __cordl_internal_get_dataQueue, put = __cordl_internal_set_dataQueue))::ArrayW<uint8_t, ::Array<uint8_t>*> dataQueue;
 
   /// @brief Field rate, offset 0x20, size 0x4
-  __declspec(property(get = __get_rate, put = __set_rate)) int32_t rate;
+  __declspec(property(get = __cordl_internal_get_rate, put = __cordl_internal_set_rate)) int32_t rate;
 
   /// @brief Field bitsInQueue, offset 0x24, size 0x4
-  __declspec(property(get = __get_bitsInQueue, put = __set_bitsInQueue)) int32_t bitsInQueue;
+  __declspec(property(get = __cordl_internal_get_bitsInQueue, put = __cordl_internal_set_bitsInQueue)) int32_t bitsInQueue;
 
   /// @brief Field fixedOutputLength, offset 0x28, size 0x4
-  __declspec(property(get = __get_fixedOutputLength, put = __set_fixedOutputLength)) int32_t fixedOutputLength;
+  __declspec(property(get = __cordl_internal_get_fixedOutputLength, put = __cordl_internal_set_fixedOutputLength)) int32_t fixedOutputLength;
 
   /// @brief Field squeezing, offset 0x2c, size 0x1
-  __declspec(property(get = __get_squeezing, put = __set_squeezing)) bool squeezing;
+  __declspec(property(get = __cordl_internal_get_squeezing, put = __cordl_internal_set_squeezing)) bool squeezing;
 
   /// @brief Field KeccakRoundConstants, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_KeccakRoundConstants, put = setStaticF_KeccakRoundConstants))::ArrayW<uint64_t, ::Array<uint64_t>*> KeccakRoundConstants;
@@ -64,41 +64,41 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr ::Org::BouncyCastle::Utilities::IMemoable* i___Org__BouncyCastle__Utilities__IMemoable() noexcept;
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __get_state();
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*>& __cordl_internal_get_state();
 
-  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __get_state() const;
+  constexpr ::ArrayW<uint64_t, ::Array<uint64_t>*> const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
+  constexpr void __cordl_internal_set_state(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_dataQueue();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_dataQueue();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_dataQueue() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_dataQueue() const;
 
-  constexpr void __set_dataQueue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_dataQueue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_rate();
+  constexpr int32_t& __cordl_internal_get_rate();
 
-  constexpr int32_t const& __get_rate() const;
+  constexpr int32_t const& __cordl_internal_get_rate() const;
 
-  constexpr void __set_rate(int32_t value);
+  constexpr void __cordl_internal_set_rate(int32_t value);
 
-  constexpr int32_t& __get_bitsInQueue();
+  constexpr int32_t& __cordl_internal_get_bitsInQueue();
 
-  constexpr int32_t const& __get_bitsInQueue() const;
+  constexpr int32_t const& __cordl_internal_get_bitsInQueue() const;
 
-  constexpr void __set_bitsInQueue(int32_t value);
+  constexpr void __cordl_internal_set_bitsInQueue(int32_t value);
 
-  constexpr int32_t& __get_fixedOutputLength();
+  constexpr int32_t& __cordl_internal_get_fixedOutputLength();
 
-  constexpr int32_t const& __get_fixedOutputLength() const;
+  constexpr int32_t const& __cordl_internal_get_fixedOutputLength() const;
 
-  constexpr void __set_fixedOutputLength(int32_t value);
+  constexpr void __cordl_internal_set_fixedOutputLength(int32_t value);
 
-  constexpr bool& __get_squeezing();
+  constexpr bool& __cordl_internal_get_squeezing();
 
-  constexpr bool const& __get_squeezing() const;
+  constexpr bool const& __cordl_internal_get_squeezing() const;
 
-  constexpr void __set_squeezing(bool value);
+  constexpr void __cordl_internal_set_squeezing(bool value);
 
   static inline void setStaticF_KeccakRoundConstants(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 

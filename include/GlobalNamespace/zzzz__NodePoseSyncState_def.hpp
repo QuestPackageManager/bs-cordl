@@ -42,7 +42,7 @@ MARK_VAL_T(::GlobalNamespace::NodePoseSyncState);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12972))
 // CS Name: ::NodePoseSyncState::NodePose
 struct CORDL_TYPE __NodePoseSyncState__NodePose {
@@ -100,7 +100,7 @@ static_assert(offsetof(::GlobalNamespace::__NodePoseSyncState__NodePose, value__
 // SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15042))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15042))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12973))
 // CS Name: ::NodePoseSyncState
 struct CORDL_TYPE NodePoseSyncState {

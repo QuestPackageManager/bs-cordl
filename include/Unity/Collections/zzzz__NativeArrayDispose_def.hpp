@@ -18,7 +18,7 @@ MARK_VAL_T(::Unity::Collections::NativeArrayDispose);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10003))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10003))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10000))
 // CS Name: ::Unity.Collections::NativeArrayDispose
 struct CORDL_TYPE NativeArrayDispose {

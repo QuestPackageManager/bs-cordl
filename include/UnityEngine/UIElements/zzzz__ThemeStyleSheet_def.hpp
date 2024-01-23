@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::ThemeStyleSheet);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7279))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7279))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7273))
 // CS Name: ::UnityEngine.UIElements::ThemeStyleSheet*
 class CORDL_TYPE ThemeStyleSheet : public ::UnityEngine::UIElements::StyleSheet {

@@ -45,20 +45,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__MenuLightsManager___Start_d__4);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4867))
 // CS Name: ::MenuLightsManager::<Start>d__4*
 class CORDL_TYPE __MenuLightsManager___Start_d__4 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MenuLightsManager* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MenuLightsManager> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -82,23 +82,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::MenuLightsManager*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsManager>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuLightsManager*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsManager> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MenuLightsManager* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MenuLightsManager> value);
 
   static inline ::GlobalNamespace::__MenuLightsManager___Start_d__4* New_ctor(int32_t __1__state);
 
@@ -141,7 +141,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MenuLightsManager* _____4__this;
+  ::UnityW<::GlobalNamespace::MenuLightsManager> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -159,7 +159,7 @@ static_assert(offsetof(::GlobalNamespace::__MenuLightsManager___Start_d__4, ____
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4868))
 // CS Name: ::MenuLightsManager*
 class CORDL_TYPE MenuLightsManager : public ::UnityEngine::MonoBehaviour {
@@ -168,40 +168,40 @@ public:
   using _Start_d__4 = ::GlobalNamespace::__MenuLightsManager___Start_d__4;
 
   /// @brief Field _defaultPreset, offset 0x18, size 0x8
-  __declspec(property(get = __get__defaultPreset, put = __set__defaultPreset))::GlobalNamespace::MenuLightsPresetSO* _defaultPreset;
+  __declspec(property(get = __cordl_internal_get__defaultPreset, put = __cordl_internal_set__defaultPreset))::UnityW<::GlobalNamespace::MenuLightsPresetSO> _defaultPreset;
 
   /// @brief Field _smooth, offset 0x20, size 0x4
-  __declspec(property(get = __get__smooth, put = __set__smooth)) float_t _smooth;
+  __declspec(property(get = __cordl_internal_get__smooth, put = __cordl_internal_set__smooth)) float_t _smooth;
 
   /// @brief Field _lightManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__lightManager, put = __set__lightManager))::GlobalNamespace::LightWithIdManager* _lightManager;
+  __declspec(property(get = __cordl_internal_get__lightManager, put = __cordl_internal_set__lightManager))::UnityW<::GlobalNamespace::LightWithIdManager> _lightManager;
 
   /// @brief Field _preset, offset 0x30, size 0x8
-  __declspec(property(get = __get__preset, put = __set__preset))::GlobalNamespace::MenuLightsPresetSO* _preset;
+  __declspec(property(get = __cordl_internal_get__preset, put = __cordl_internal_set__preset))::UnityW<::GlobalNamespace::MenuLightsPresetSO> _preset;
 
-  constexpr ::GlobalNamespace::MenuLightsPresetSO*& __get__defaultPreset();
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO>& __cordl_internal_get__defaultPreset();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuLightsPresetSO*> const& __get__defaultPreset() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO> const& __cordl_internal_get__defaultPreset() const;
 
-  constexpr void __set__defaultPreset(::GlobalNamespace::MenuLightsPresetSO* value);
+  constexpr void __cordl_internal_set__defaultPreset(::UnityW<::GlobalNamespace::MenuLightsPresetSO> value);
 
-  constexpr float_t& __get__smooth();
+  constexpr float_t& __cordl_internal_get__smooth();
 
-  constexpr float_t const& __get__smooth() const;
+  constexpr float_t const& __cordl_internal_get__smooth() const;
 
-  constexpr void __set__smooth(float_t value);
+  constexpr void __cordl_internal_set__smooth(float_t value);
 
-  constexpr ::GlobalNamespace::LightWithIdManager*& __get__lightManager();
+  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager>& __cordl_internal_get__lightManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightWithIdManager*> const& __get__lightManager() const;
+  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager> const& __cordl_internal_get__lightManager() const;
 
-  constexpr void __set__lightManager(::GlobalNamespace::LightWithIdManager* value);
+  constexpr void __cordl_internal_set__lightManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
 
-  constexpr ::GlobalNamespace::MenuLightsPresetSO*& __get__preset();
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO>& __cordl_internal_get__preset();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuLightsPresetSO*> const& __get__preset() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO> const& __cordl_internal_get__preset() const;
 
-  constexpr void __set__preset(::GlobalNamespace::MenuLightsPresetSO* value);
+  constexpr void __cordl_internal_set__preset(::UnityW<::GlobalNamespace::MenuLightsPresetSO> value);
 
   /// @brief Method Start, addr 0x239a2c0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
@@ -250,16 +250,16 @@ protected:
 
 public:
   /// @brief Field _defaultPreset, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MenuLightsPresetSO* ____defaultPreset;
+  ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____defaultPreset;
 
   /// @brief Field _smooth, offset: 0x20, size: 0x4, def value: None
   float_t ____smooth;
 
   /// @brief Field _lightManager, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::LightWithIdManager* ____lightManager;
+  ::UnityW<::GlobalNamespace::LightWithIdManager> ____lightManager;
 
   /// @brief Field _preset, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::MenuLightsPresetSO* ____preset;
+  ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____preset;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

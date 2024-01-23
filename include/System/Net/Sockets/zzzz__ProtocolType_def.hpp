@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Net::Sockets::ProtocolType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9343))
 // CS Name: ::System.Net.Sockets::ProtocolType
 struct CORDL_TYPE ProtocolType {

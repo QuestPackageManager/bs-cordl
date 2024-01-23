@@ -22,23 +22,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ServerSrpParams);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1271))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::ServerSrpParams*
 class CORDL_TYPE ServerSrpParams : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_N, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_N, put = __set_m_N))::Org::BouncyCastle::Math::BigInteger* m_N;
+  __declspec(property(get = __cordl_internal_get_m_N, put = __cordl_internal_set_m_N))::Org::BouncyCastle::Math::BigInteger* m_N;
 
   /// @brief Field m_g, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_g, put = __set_m_g))::Org::BouncyCastle::Math::BigInteger* m_g;
+  __declspec(property(get = __cordl_internal_get_m_g, put = __cordl_internal_set_m_g))::Org::BouncyCastle::Math::BigInteger* m_g;
 
   /// @brief Field m_B, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_B, put = __set_m_B))::Org::BouncyCastle::Math::BigInteger* m_B;
+  __declspec(property(get = __cordl_internal_get_m_B, put = __cordl_internal_set_m_B))::Org::BouncyCastle::Math::BigInteger* m_B;
 
   /// @brief Field m_s, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_s, put = __set_m_s))::ArrayW<uint8_t, ::Array<uint8_t>*> m_s;
+  __declspec(property(get = __cordl_internal_get_m_s, put = __cordl_internal_set_m_s))::ArrayW<uint8_t, ::Array<uint8_t>*> m_s;
 
   __declspec(property(get = get_B))::Org::BouncyCastle::Math::BigInteger* B;
 
@@ -48,29 +48,29 @@ public:
 
   __declspec(property(get = get_S))::ArrayW<uint8_t, ::Array<uint8_t>*> S;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_m_N();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_m_N();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_m_N() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_m_N() const;
 
-  constexpr void __set_m_N(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_m_N(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_m_g();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_m_g();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_m_g() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_m_g() const;
 
-  constexpr void __set_m_g(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_m_g(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_m_B();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_m_B();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_m_B() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_m_B() const;
 
-  constexpr void __set_m_B(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_m_B(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_m_s();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_s();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_m_s() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_s() const;
 
-  constexpr void __set_m_s(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_m_s(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerSrpParams* New_ctor(::Org::BouncyCastle::Math::BigInteger* N, ::Org::BouncyCastle::Math::BigInteger* g, ::ArrayW<uint8_t, ::Array<uint8_t>*> s,
                                                                             ::Org::BouncyCastle::Math::BigInteger* B);

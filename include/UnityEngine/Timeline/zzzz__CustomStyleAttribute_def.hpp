@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::CustomStyleAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13925))
 // CS Name: ::UnityEngine.Timeline::CustomStyleAttribute*
 class CORDL_TYPE CustomStyleAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field ussStyle, offset 0x10, size 0x8
-  __declspec(property(get = __get_ussStyle, put = __set_ussStyle))::StringW ussStyle;
+  __declspec(property(get = __cordl_internal_get_ussStyle, put = __cordl_internal_set_ussStyle))::StringW ussStyle;
 
-  constexpr ::StringW& __get_ussStyle();
+  constexpr ::StringW& __cordl_internal_get_ussStyle();
 
-  constexpr ::StringW const& __get_ussStyle() const;
+  constexpr ::StringW const& __cordl_internal_get_ussStyle() const;
 
-  constexpr void __set_ussStyle(::StringW value);
+  constexpr void __cordl_internal_set_ussStyle(::StringW value);
 
   static inline ::UnityEngine::Timeline::CustomStyleAttribute* New_ctor(::StringW ussStyle);
 

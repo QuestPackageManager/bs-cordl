@@ -65,29 +65,29 @@ namespace GlobalNamespace {
 // cpp template
 template <typename A>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5370))
 // CS Name: ::MainThreadDispatcher::<>c__DisplayClass2_0`1<A>*
 class CORDL_TYPE __MainThreadDispatcher____c__DisplayClass2_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field action, offset 0x10, size 0x8
-  __declspec(property(get = __get_action, put = __set_action))::System::Action_1<A>* action;
+  __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action))::System::Action_1<A>* action;
 
   /// @brief Field firstParameter, offset 0x18, size 0x8
-  __declspec(property(get = __get_firstParameter, put = __set_firstParameter)) A firstParameter;
+  __declspec(property(get = __cordl_internal_get_firstParameter, put = __cordl_internal_set_firstParameter)) A firstParameter;
 
-  constexpr ::System::Action_1<A>*& __get_action();
+  constexpr ::System::Action_1<A>*& __cordl_internal_get_action();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<A>*> const& __get_action() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<A>*> const& __cordl_internal_get_action() const;
 
-  constexpr void __set_action(::System::Action_1<A>* value);
+  constexpr void __cordl_internal_set_action(::System::Action_1<A>* value);
 
-  constexpr A& __get_firstParameter();
+  constexpr A& __cordl_internal_get_firstParameter();
 
-  constexpr A const& __get_firstParameter() const;
+  constexpr A const& __cordl_internal_get_firstParameter() const;
 
-  constexpr void __set_firstParameter(A value);
+  constexpr void __cordl_internal_set_firstParameter(A value);
 
   static inline ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass2_0_1<A>* New_ctor();
 
@@ -127,38 +127,38 @@ namespace GlobalNamespace {
 // cpp template
 template <typename A, typename B>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5371))
 // CS Name: ::MainThreadDispatcher::<>c__DisplayClass3_0`2<A,B>*
 class CORDL_TYPE __MainThreadDispatcher____c__DisplayClass3_0_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field action, offset 0x10, size 0x8
-  __declspec(property(get = __get_action, put = __set_action))::System::Action_2<A, B>* action;
+  __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action))::System::Action_2<A, B>* action;
 
   /// @brief Field firstParameter, offset 0x18, size 0x8
-  __declspec(property(get = __get_firstParameter, put = __set_firstParameter)) A firstParameter;
+  __declspec(property(get = __cordl_internal_get_firstParameter, put = __cordl_internal_set_firstParameter)) A firstParameter;
 
   /// @brief Field secondParameter, offset 0x20, size 0x8
-  __declspec(property(get = __get_secondParameter, put = __set_secondParameter)) B secondParameter;
+  __declspec(property(get = __cordl_internal_get_secondParameter, put = __cordl_internal_set_secondParameter)) B secondParameter;
 
-  constexpr ::System::Action_2<A, B>*& __get_action();
+  constexpr ::System::Action_2<A, B>*& __cordl_internal_get_action();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<A, B>*> const& __get_action() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<A, B>*> const& __cordl_internal_get_action() const;
 
-  constexpr void __set_action(::System::Action_2<A, B>* value);
+  constexpr void __cordl_internal_set_action(::System::Action_2<A, B>* value);
 
-  constexpr A& __get_firstParameter();
+  constexpr A& __cordl_internal_get_firstParameter();
 
-  constexpr A const& __get_firstParameter() const;
+  constexpr A const& __cordl_internal_get_firstParameter() const;
 
-  constexpr void __set_firstParameter(A value);
+  constexpr void __cordl_internal_set_firstParameter(A value);
 
-  constexpr B& __get_secondParameter();
+  constexpr B& __cordl_internal_get_secondParameter();
 
-  constexpr B const& __get_secondParameter() const;
+  constexpr B const& __cordl_internal_get_secondParameter() const;
 
-  constexpr void __set_secondParameter(B value);
+  constexpr void __cordl_internal_set_secondParameter(B value);
 
   static inline ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass3_0_2<A, B>* New_ctor();
 
@@ -201,47 +201,47 @@ namespace GlobalNamespace {
 // cpp template
 template <typename A, typename B, typename C>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5372))
 // CS Name: ::MainThreadDispatcher::<>c__DisplayClass4_0`3<A,B,C>*
 class CORDL_TYPE __MainThreadDispatcher____c__DisplayClass4_0_3 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field action, offset 0x10, size 0x8
-  __declspec(property(get = __get_action, put = __set_action))::System::Action_3<A, B, C>* action;
+  __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action))::System::Action_3<A, B, C>* action;
 
   /// @brief Field firstParameter, offset 0x18, size 0x8
-  __declspec(property(get = __get_firstParameter, put = __set_firstParameter)) A firstParameter;
+  __declspec(property(get = __cordl_internal_get_firstParameter, put = __cordl_internal_set_firstParameter)) A firstParameter;
 
   /// @brief Field secondParameter, offset 0x20, size 0x8
-  __declspec(property(get = __get_secondParameter, put = __set_secondParameter)) B secondParameter;
+  __declspec(property(get = __cordl_internal_get_secondParameter, put = __cordl_internal_set_secondParameter)) B secondParameter;
 
   /// @brief Field thirdParameter, offset 0x28, size 0x8
-  __declspec(property(get = __get_thirdParameter, put = __set_thirdParameter)) C thirdParameter;
+  __declspec(property(get = __cordl_internal_get_thirdParameter, put = __cordl_internal_set_thirdParameter)) C thirdParameter;
 
-  constexpr ::System::Action_3<A, B, C>*& __get_action();
+  constexpr ::System::Action_3<A, B, C>*& __cordl_internal_get_action();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<A, B, C>*> const& __get_action() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<A, B, C>*> const& __cordl_internal_get_action() const;
 
-  constexpr void __set_action(::System::Action_3<A, B, C>* value);
+  constexpr void __cordl_internal_set_action(::System::Action_3<A, B, C>* value);
 
-  constexpr A& __get_firstParameter();
+  constexpr A& __cordl_internal_get_firstParameter();
 
-  constexpr A const& __get_firstParameter() const;
+  constexpr A const& __cordl_internal_get_firstParameter() const;
 
-  constexpr void __set_firstParameter(A value);
+  constexpr void __cordl_internal_set_firstParameter(A value);
 
-  constexpr B& __get_secondParameter();
+  constexpr B& __cordl_internal_get_secondParameter();
 
-  constexpr B const& __get_secondParameter() const;
+  constexpr B const& __cordl_internal_get_secondParameter() const;
 
-  constexpr void __set_secondParameter(B value);
+  constexpr void __cordl_internal_set_secondParameter(B value);
 
-  constexpr C& __get_thirdParameter();
+  constexpr C& __cordl_internal_get_thirdParameter();
 
-  constexpr C const& __get_thirdParameter() const;
+  constexpr C const& __cordl_internal_get_thirdParameter() const;
 
-  constexpr void __set_thirdParameter(C value);
+  constexpr void __cordl_internal_set_thirdParameter(C value);
 
   static inline ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass4_0_3<A, B, C>* New_ctor();
 
@@ -287,56 +287,56 @@ namespace GlobalNamespace {
 // cpp template
 template <typename A, typename B, typename C, typename D>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5373))
 // CS Name: ::MainThreadDispatcher::<>c__DisplayClass5_0`4<A,B,C,D>*
 class CORDL_TYPE __MainThreadDispatcher____c__DisplayClass5_0_4 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field action, offset 0x10, size 0x8
-  __declspec(property(get = __get_action, put = __set_action))::System::Action_4<A, B, C, D>* action;
+  __declspec(property(get = __cordl_internal_get_action, put = __cordl_internal_set_action))::System::Action_4<A, B, C, D>* action;
 
   /// @brief Field firstParameter, offset 0x18, size 0x8
-  __declspec(property(get = __get_firstParameter, put = __set_firstParameter)) A firstParameter;
+  __declspec(property(get = __cordl_internal_get_firstParameter, put = __cordl_internal_set_firstParameter)) A firstParameter;
 
   /// @brief Field secondParameter, offset 0x20, size 0x8
-  __declspec(property(get = __get_secondParameter, put = __set_secondParameter)) B secondParameter;
+  __declspec(property(get = __cordl_internal_get_secondParameter, put = __cordl_internal_set_secondParameter)) B secondParameter;
 
   /// @brief Field thirdParameter, offset 0x28, size 0x8
-  __declspec(property(get = __get_thirdParameter, put = __set_thirdParameter)) C thirdParameter;
+  __declspec(property(get = __cordl_internal_get_thirdParameter, put = __cordl_internal_set_thirdParameter)) C thirdParameter;
 
   /// @brief Field fourthParameter, offset 0x30, size 0x8
-  __declspec(property(get = __get_fourthParameter, put = __set_fourthParameter)) D fourthParameter;
+  __declspec(property(get = __cordl_internal_get_fourthParameter, put = __cordl_internal_set_fourthParameter)) D fourthParameter;
 
-  constexpr ::System::Action_4<A, B, C, D>*& __get_action();
+  constexpr ::System::Action_4<A, B, C, D>*& __cordl_internal_get_action();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_4<A, B, C, D>*> const& __get_action() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_4<A, B, C, D>*> const& __cordl_internal_get_action() const;
 
-  constexpr void __set_action(::System::Action_4<A, B, C, D>* value);
+  constexpr void __cordl_internal_set_action(::System::Action_4<A, B, C, D>* value);
 
-  constexpr A& __get_firstParameter();
+  constexpr A& __cordl_internal_get_firstParameter();
 
-  constexpr A const& __get_firstParameter() const;
+  constexpr A const& __cordl_internal_get_firstParameter() const;
 
-  constexpr void __set_firstParameter(A value);
+  constexpr void __cordl_internal_set_firstParameter(A value);
 
-  constexpr B& __get_secondParameter();
+  constexpr B& __cordl_internal_get_secondParameter();
 
-  constexpr B const& __get_secondParameter() const;
+  constexpr B const& __cordl_internal_get_secondParameter() const;
 
-  constexpr void __set_secondParameter(B value);
+  constexpr void __cordl_internal_set_secondParameter(B value);
 
-  constexpr C& __get_thirdParameter();
+  constexpr C& __cordl_internal_get_thirdParameter();
 
-  constexpr C const& __get_thirdParameter() const;
+  constexpr C const& __cordl_internal_get_thirdParameter() const;
 
-  constexpr void __set_thirdParameter(C value);
+  constexpr void __cordl_internal_set_thirdParameter(C value);
 
-  constexpr D& __get_fourthParameter();
+  constexpr D& __cordl_internal_get_fourthParameter();
 
-  constexpr D const& __get_fourthParameter() const;
+  constexpr D const& __cordl_internal_get_fourthParameter() const;
 
-  constexpr void __set_fourthParameter(D value);
+  constexpr void __cordl_internal_set_fourthParameter(D value);
 
   static inline ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass5_0_4<A, B, C, D>* New_ctor();
 
@@ -383,7 +383,7 @@ public:
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5374))
 // CS Name: ::MainThreadDispatcher*
 class CORDL_TYPE MainThreadDispatcher : public ::System::Object {
@@ -398,7 +398,7 @@ public:
   template <typename A> using __c__DisplayClass2_0_1 = ::GlobalNamespace::__MainThreadDispatcher____c__DisplayClass2_0_1<A>;
 
   /// @brief Field _dispatchQueue, offset 0x10, size 0x8
-  __declspec(property(get = __get__dispatchQueue, put = __set__dispatchQueue))::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>* _dispatchQueue;
+  __declspec(property(get = __cordl_internal_get__dispatchQueue, put = __cordl_internal_set__dispatchQueue))::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>* _dispatchQueue;
 
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
@@ -406,11 +406,11 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>*& __get__dispatchQueue();
+  constexpr ::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>*& __cordl_internal_get__dispatchQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>*> const& __get__dispatchQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>*> const& __cordl_internal_get__dispatchQueue() const;
 
-  constexpr void __set__dispatchQueue(::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>* value);
+  constexpr void __cordl_internal_set__dispatchQueue(::System::Collections::Concurrent::ConcurrentQueue_1<::System::Action*>* value);
 
   /// @brief Method DispatchOnMainThread, addr 0x226ca44, size 0x58, virtual false, abstract: false, final false
   inline void DispatchOnMainThread(::System::Action* action);

@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContract
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 35, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11929))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11929))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11918))
 // CS Name: ::Newtonsoft.Json.Serialization::CamelCasePropertyNamesContractResolver*
 class CORDL_TYPE CamelCasePropertyNamesContractResolver : public ::Newtonsoft::Json::Serialization::DefaultContractResolver {

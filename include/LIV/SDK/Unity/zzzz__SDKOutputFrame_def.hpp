@@ -23,7 +23,7 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKOutputFrame);
 // SizeInfo { instance_size: 172, native_size: 172, calculated_instance_size: 172, calculated_native_size: 188, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15107)), TypeDefinitionIndex(TypeDefinitionIndex(15117))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15107)), TypeDefinitionIndex(TypeDefinitionIndex(15117))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15116))
 // CS Name: ::LIV.SDK.Unity::SDKOutputFrame
 struct CORDL_TYPE SDKOutputFrame {

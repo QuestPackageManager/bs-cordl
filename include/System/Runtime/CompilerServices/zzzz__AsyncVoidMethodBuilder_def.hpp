@@ -31,7 +31,7 @@ MARK_VAL_T(::System::Runtime::CompilerServices::AsyncVoidMethodBuilder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3408))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3408))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3400))
 // CS Name: ::System.Runtime.CompilerServices::AsyncVoidMethodBuilder
 struct CORDL_TYPE AsyncVoidMethodBuilder {

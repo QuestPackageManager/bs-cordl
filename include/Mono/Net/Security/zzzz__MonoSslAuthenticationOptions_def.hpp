@@ -33,15 +33,15 @@ MARK_REF_PTR_T(::Mono::Net::Security::MonoSslAuthenticationOptions);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8839))
 // CS Name: ::Mono.Net.Security::MonoSslAuthenticationOptions*
 class CORDL_TYPE MonoSslAuthenticationOptions : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <ServerCertSelectionDelegate>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__ServerCertSelectionDelegate_k__BackingField,
-                      put = __set__ServerCertSelectionDelegate_k__BackingField))::System::Net::Security::ServerCertSelectionCallback* _ServerCertSelectionDelegate_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ServerCertSelectionDelegate_k__BackingField,
+                      put = __cordl_internal_set__ServerCertSelectionDelegate_k__BackingField))::System::Net::Security::ServerCertSelectionCallback* _ServerCertSelectionDelegate_k__BackingField;
 
   __declspec(property(get = get_ServerMode)) bool ServerMode;
 
@@ -61,11 +61,11 @@ public:
 
   __declspec(property(get = get_ServerCertSelectionDelegate))::System::Net::Security::ServerCertSelectionCallback* ServerCertSelectionDelegate;
 
-  constexpr ::System::Net::Security::ServerCertSelectionCallback*& __get__ServerCertSelectionDelegate_k__BackingField();
+  constexpr ::System::Net::Security::ServerCertSelectionCallback*& __cordl_internal_get__ServerCertSelectionDelegate_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::ServerCertSelectionCallback*> const& __get__ServerCertSelectionDelegate_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::ServerCertSelectionCallback*> const& __cordl_internal_get__ServerCertSelectionDelegate_k__BackingField() const;
 
-  constexpr void __set__ServerCertSelectionDelegate_k__BackingField(::System::Net::Security::ServerCertSelectionCallback* value);
+  constexpr void __cordl_internal_set__ServerCertSelectionDelegate_k__BackingField(::System::Net::Security::ServerCertSelectionCallback* value);
 
   /// @brief Method get_ServerMode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_ServerMode();

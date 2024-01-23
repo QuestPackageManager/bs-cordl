@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::UnityEngine::XR::InputTracking);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15626))
 // CS Name: ::InputTracking::TrackingStateEventType
 struct CORDL_TYPE __InputTracking__TrackingStateEventType {
@@ -93,7 +93,7 @@ static_assert(offsetof(::UnityEngine::XR::__InputTracking__TrackingStateEventTyp
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15627))
 // CS Name: ::UnityEngine.XR::InputTracking*
 class CORDL_TYPE InputTracking : public ::System::Object {

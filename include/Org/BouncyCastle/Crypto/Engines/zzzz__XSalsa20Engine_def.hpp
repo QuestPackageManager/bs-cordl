@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::XSalsa20Engine);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(836))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(836))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(884))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::XSalsa20Engine*
 class CORDL_TYPE XSalsa20Engine : public ::Org::BouncyCastle::Crypto::Engines::Salsa20Engine {

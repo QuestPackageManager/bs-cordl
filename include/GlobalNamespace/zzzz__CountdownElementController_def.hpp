@@ -21,29 +21,29 @@ MARK_REF_PTR_T(::GlobalNamespace::CountdownElementController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5559))
 // CS Name: ::CountdownElementController*
 class CORDL_TYPE CountdownElementController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _text, offset 0x18, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::TMPro::TextMeshProUGUI* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
 
   /// @brief Field _animation, offset 0x20, size 0x8
-  __declspec(property(get = __get__animation, put = __set__animation))::UnityEngine::Animation* _animation;
+  __declspec(property(get = __cordl_internal_get__animation, put = __cordl_internal_set__animation))::UnityW<::UnityEngine::Animation> _animation;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__text();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__text() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::Animation*& __get__animation();
+  constexpr ::UnityW<::UnityEngine::Animation>& __cordl_internal_get__animation();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animation*> const& __get__animation() const;
+  constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
 
-  constexpr void __set__animation(::UnityEngine::Animation* value);
+  constexpr void __cordl_internal_set__animation(::UnityW<::UnityEngine::Animation> value);
 
   /// @brief Method SetTextAndRunAnimation, addr 0x22a3148, size 0x64, virtual false, abstract: false, final false
   inline void SetTextAndRunAnimation(::StringW text);
@@ -71,10 +71,10 @@ protected:
 
 public:
   /// @brief Field _text, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____text;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
   /// @brief Field _animation, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Animation* ____animation;
+  ::UnityW<::UnityEngine::Animation> ____animation;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

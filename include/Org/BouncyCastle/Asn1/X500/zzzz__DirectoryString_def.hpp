@@ -33,14 +33,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X500::DirectoryString);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X500 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(325))
 // CS Name: ::Org.BouncyCastle.Asn1.X500::DirectoryString*
 class CORDL_TYPE DirectoryString : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field str, offset 0x10, size 0x8
-  __declspec(property(get = __get_str, put = __set_str))::Org::BouncyCastle::Asn1::DerStringBase* str;
+  __declspec(property(get = __cordl_internal_get_str, put = __cordl_internal_set_str))::Org::BouncyCastle::Asn1::DerStringBase* str;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
@@ -54,11 +54,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1String"
   constexpr ::Org::BouncyCastle::Asn1::IAsn1String* i___Org__BouncyCastle__Asn1__IAsn1String() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerStringBase*& __get_str();
+  constexpr ::Org::BouncyCastle::Asn1::DerStringBase*& __cordl_internal_get_str();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerStringBase*> const& __get_str() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerStringBase*> const& __cordl_internal_get_str() const;
 
-  constexpr void __set_str(::Org::BouncyCastle::Asn1::DerStringBase* value);
+  constexpr void __cordl_internal_set_str(::Org::BouncyCastle::Asn1::DerStringBase* value);
 
   /// @brief Method GetInstance, addr 0x107f95c, size 0x290, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* GetInstance(::System::Object* obj);

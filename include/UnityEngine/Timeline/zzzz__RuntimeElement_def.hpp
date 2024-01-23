@@ -22,14 +22,14 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::RuntimeElement);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13884))
 // CS Name: ::UnityEngine.Timeline::RuntimeElement*
 class CORDL_TYPE RuntimeElement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <intervalBit>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__intervalBit_k__BackingField, put = __set__intervalBit_k__BackingField)) int32_t _intervalBit_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__intervalBit_k__BackingField, put = __cordl_internal_set__intervalBit_k__BackingField)) int32_t _intervalBit_k__BackingField;
 
   __declspec(property(get = get_intervalStart)) int64_t intervalStart;
 
@@ -45,11 +45,11 @@ public:
   /// @brief Convert to "::UnityEngine::Timeline::IInterval"
   constexpr ::UnityEngine::Timeline::IInterval* i___UnityEngine__Timeline__IInterval() noexcept;
 
-  constexpr int32_t& __get__intervalBit_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__intervalBit_k__BackingField();
 
-  constexpr int32_t const& __get__intervalBit_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__intervalBit_k__BackingField() const;
 
-  constexpr void __set__intervalBit_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__intervalBit_k__BackingField(int32_t value);
 
   /// @brief Method get_intervalStart, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline int64_t get_intervalStart();

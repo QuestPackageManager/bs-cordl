@@ -32,76 +32,76 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Stairs);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12233)), TypeDefinitionIndex(TypeDefinitionIndex(12237))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12233)), TypeDefinitionIndex(TypeDefinitionIndex(12237))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12238))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Stairs*
 class CORDL_TYPE Stairs : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
   // Declarations
   /// @brief Field m_StepGenerationType, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_StepGenerationType, put = __set_m_StepGenerationType))::UnityEngine::ProBuilder::Shapes::StepGenerationType m_StepGenerationType;
+  __declspec(property(get = __cordl_internal_get_m_StepGenerationType, put = __cordl_internal_set_m_StepGenerationType))::UnityEngine::ProBuilder::Shapes::StepGenerationType m_StepGenerationType;
 
   /// @brief Field m_StepsHeight, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_StepsHeight, put = __set_m_StepsHeight)) float_t m_StepsHeight;
+  __declspec(property(get = __cordl_internal_get_m_StepsHeight, put = __cordl_internal_set_m_StepsHeight)) float_t m_StepsHeight;
 
   /// @brief Field m_StepsCount, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_StepsCount, put = __set_m_StepsCount)) int32_t m_StepsCount;
+  __declspec(property(get = __cordl_internal_get_m_StepsCount, put = __cordl_internal_set_m_StepsCount)) int32_t m_StepsCount;
 
   /// @brief Field m_HomogeneousSteps, offset 0x1c, size 0x1
-  __declspec(property(get = __get_m_HomogeneousSteps, put = __set_m_HomogeneousSteps)) bool m_HomogeneousSteps;
+  __declspec(property(get = __cordl_internal_get_m_HomogeneousSteps, put = __cordl_internal_set_m_HomogeneousSteps)) bool m_HomogeneousSteps;
 
   /// @brief Field m_Circumference, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_Circumference, put = __set_m_Circumference)) float_t m_Circumference;
+  __declspec(property(get = __cordl_internal_get_m_Circumference, put = __cordl_internal_set_m_Circumference)) float_t m_Circumference;
 
   /// @brief Field m_Sides, offset 0x24, size 0x1
-  __declspec(property(get = __get_m_Sides, put = __set_m_Sides)) bool m_Sides;
+  __declspec(property(get = __cordl_internal_get_m_Sides, put = __cordl_internal_set_m_Sides)) bool m_Sides;
 
   /// @brief Field m_InnerRadius, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_InnerRadius, put = __set_m_InnerRadius)) float_t m_InnerRadius;
+  __declspec(property(get = __cordl_internal_get_m_InnerRadius, put = __cordl_internal_set_m_InnerRadius)) float_t m_InnerRadius;
 
   __declspec(property(get = get_sides, put = set_sides)) bool sides;
 
-  constexpr ::UnityEngine::ProBuilder::Shapes::StepGenerationType& __get_m_StepGenerationType();
+  constexpr ::UnityEngine::ProBuilder::Shapes::StepGenerationType& __cordl_internal_get_m_StepGenerationType();
 
-  constexpr ::UnityEngine::ProBuilder::Shapes::StepGenerationType const& __get_m_StepGenerationType() const;
+  constexpr ::UnityEngine::ProBuilder::Shapes::StepGenerationType const& __cordl_internal_get_m_StepGenerationType() const;
 
-  constexpr void __set_m_StepGenerationType(::UnityEngine::ProBuilder::Shapes::StepGenerationType value);
+  constexpr void __cordl_internal_set_m_StepGenerationType(::UnityEngine::ProBuilder::Shapes::StepGenerationType value);
 
-  constexpr float_t& __get_m_StepsHeight();
+  constexpr float_t& __cordl_internal_get_m_StepsHeight();
 
-  constexpr float_t const& __get_m_StepsHeight() const;
+  constexpr float_t const& __cordl_internal_get_m_StepsHeight() const;
 
-  constexpr void __set_m_StepsHeight(float_t value);
+  constexpr void __cordl_internal_set_m_StepsHeight(float_t value);
 
-  constexpr int32_t& __get_m_StepsCount();
+  constexpr int32_t& __cordl_internal_get_m_StepsCount();
 
-  constexpr int32_t const& __get_m_StepsCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_StepsCount() const;
 
-  constexpr void __set_m_StepsCount(int32_t value);
+  constexpr void __cordl_internal_set_m_StepsCount(int32_t value);
 
-  constexpr bool& __get_m_HomogeneousSteps();
+  constexpr bool& __cordl_internal_get_m_HomogeneousSteps();
 
-  constexpr bool const& __get_m_HomogeneousSteps() const;
+  constexpr bool const& __cordl_internal_get_m_HomogeneousSteps() const;
 
-  constexpr void __set_m_HomogeneousSteps(bool value);
+  constexpr void __cordl_internal_set_m_HomogeneousSteps(bool value);
 
-  constexpr float_t& __get_m_Circumference();
+  constexpr float_t& __cordl_internal_get_m_Circumference();
 
-  constexpr float_t const& __get_m_Circumference() const;
+  constexpr float_t const& __cordl_internal_get_m_Circumference() const;
 
-  constexpr void __set_m_Circumference(float_t value);
+  constexpr void __cordl_internal_set_m_Circumference(float_t value);
 
-  constexpr bool& __get_m_Sides();
+  constexpr bool& __cordl_internal_get_m_Sides();
 
-  constexpr bool const& __get_m_Sides() const;
+  constexpr bool const& __cordl_internal_get_m_Sides() const;
 
-  constexpr void __set_m_Sides(bool value);
+  constexpr void __cordl_internal_set_m_Sides(bool value);
 
-  constexpr float_t& __get_m_InnerRadius();
+  constexpr float_t& __cordl_internal_get_m_InnerRadius();
 
-  constexpr float_t const& __get_m_InnerRadius() const;
+  constexpr float_t const& __cordl_internal_get_m_InnerRadius() const;
 
-  constexpr void __set_m_InnerRadius(float_t value);
+  constexpr void __cordl_internal_set_m_InnerRadius(float_t value);
 
   /// @brief Method get_sides, addr 0x2b8f1b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_sides();

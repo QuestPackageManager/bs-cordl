@@ -55,167 +55,169 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ReadObjectI
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3235)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3235))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3282))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ReadObjectInfo*
 class CORDL_TYPE ReadObjectInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field objectInfoId, offset 0x10, size 0x4
-  __declspec(property(get = __get_objectInfoId, put = __set_objectInfoId)) int32_t objectInfoId;
+  __declspec(property(get = __cordl_internal_get_objectInfoId, put = __cordl_internal_set_objectInfoId)) int32_t objectInfoId;
 
   /// @brief Field objectType, offset 0x18, size 0x8
-  __declspec(property(get = __get_objectType, put = __set_objectType))::System::Type* objectType;
+  __declspec(property(get = __cordl_internal_get_objectType, put = __cordl_internal_set_objectType))::System::Type* objectType;
 
   /// @brief Field objectManager, offset 0x20, size 0x8
-  __declspec(property(get = __get_objectManager, put = __set_objectManager))::System::Runtime::Serialization::ObjectManager* objectManager;
+  __declspec(property(get = __cordl_internal_get_objectManager, put = __cordl_internal_set_objectManager))::System::Runtime::Serialization::ObjectManager* objectManager;
 
   /// @brief Field count, offset 0x28, size 0x4
-  __declspec(property(get = __get_count, put = __set_count)) int32_t count;
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field isSi, offset 0x2c, size 0x1
-  __declspec(property(get = __get_isSi, put = __set_isSi)) bool isSi;
+  __declspec(property(get = __cordl_internal_get_isSi, put = __cordl_internal_set_isSi)) bool isSi;
 
   /// @brief Field isNamed, offset 0x2d, size 0x1
-  __declspec(property(get = __get_isNamed, put = __set_isNamed)) bool isNamed;
+  __declspec(property(get = __cordl_internal_get_isNamed, put = __cordl_internal_set_isNamed)) bool isNamed;
 
   /// @brief Field isTyped, offset 0x2e, size 0x1
-  __declspec(property(get = __get_isTyped, put = __set_isTyped)) bool isTyped;
+  __declspec(property(get = __cordl_internal_get_isTyped, put = __cordl_internal_set_isTyped)) bool isTyped;
 
   /// @brief Field bSimpleAssembly, offset 0x2f, size 0x1
-  __declspec(property(get = __get_bSimpleAssembly, put = __set_bSimpleAssembly)) bool bSimpleAssembly;
+  __declspec(property(get = __cordl_internal_get_bSimpleAssembly, put = __cordl_internal_set_bSimpleAssembly)) bool bSimpleAssembly;
 
   /// @brief Field cache, offset 0x30, size 0x8
-  __declspec(property(get = __get_cache, put = __set_cache))::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* cache;
+  __declspec(property(get = __cordl_internal_get_cache, put = __cordl_internal_set_cache))::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* cache;
 
   /// @brief Field wireMemberNames, offset 0x38, size 0x8
-  __declspec(property(get = __get_wireMemberNames, put = __set_wireMemberNames))::ArrayW<::StringW, ::Array<::StringW>*> wireMemberNames;
+  __declspec(property(get = __cordl_internal_get_wireMemberNames, put = __cordl_internal_set_wireMemberNames))::ArrayW<::StringW, ::Array<::StringW>*> wireMemberNames;
 
   /// @brief Field wireMemberTypes, offset 0x40, size 0x8
-  __declspec(property(get = __get_wireMemberTypes, put = __set_wireMemberTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> wireMemberTypes;
+  __declspec(property(get = __cordl_internal_get_wireMemberTypes, put = __cordl_internal_set_wireMemberTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> wireMemberTypes;
 
   /// @brief Field lastPosition, offset 0x48, size 0x4
-  __declspec(property(get = __get_lastPosition, put = __set_lastPosition)) int32_t lastPosition;
+  __declspec(property(get = __cordl_internal_get_lastPosition, put = __cordl_internal_set_lastPosition)) int32_t lastPosition;
 
   /// @brief Field serializationSurrogate, offset 0x50, size 0x8
-  __declspec(property(get = __get_serializationSurrogate, put = __set_serializationSurrogate))::System::Runtime::Serialization::ISerializationSurrogate* serializationSurrogate;
+  __declspec(property(get = __cordl_internal_get_serializationSurrogate,
+                      put = __cordl_internal_set_serializationSurrogate))::System::Runtime::Serialization::ISerializationSurrogate* serializationSurrogate;
 
   /// @brief Field context, offset 0x58, size 0x10
-  __declspec(property(get = __get_context, put = __set_context))::System::Runtime::Serialization::StreamingContext context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::System::Runtime::Serialization::StreamingContext context;
 
   /// @brief Field memberTypesList, offset 0x68, size 0x8
-  __declspec(property(get = __get_memberTypesList, put = __set_memberTypesList))::System::Collections::Generic::List_1<::System::Type*>* memberTypesList;
+  __declspec(property(get = __cordl_internal_get_memberTypesList, put = __cordl_internal_set_memberTypesList))::System::Collections::Generic::List_1<::System::Type*>* memberTypesList;
 
   /// @brief Field serObjectInfoInit, offset 0x70, size 0x8
-  __declspec(property(get = __get_serObjectInfoInit, put = __set_serObjectInfoInit))::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit;
+  __declspec(property(get = __cordl_internal_get_serObjectInfoInit,
+                      put = __cordl_internal_set_serObjectInfoInit))::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit;
 
   /// @brief Field formatterConverter, offset 0x78, size 0x8
-  __declspec(property(get = __get_formatterConverter, put = __set_formatterConverter))::System::Runtime::Serialization::IFormatterConverter* formatterConverter;
+  __declspec(property(get = __cordl_internal_get_formatterConverter, put = __cordl_internal_set_formatterConverter))::System::Runtime::Serialization::IFormatterConverter* formatterConverter;
 
   /// @brief Field readObjectInfoCounter, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_readObjectInfoCounter, put = setStaticF_readObjectInfoCounter)) int32_t readObjectInfoCounter;
 
-  constexpr int32_t& __get_objectInfoId();
+  constexpr int32_t& __cordl_internal_get_objectInfoId();
 
-  constexpr int32_t const& __get_objectInfoId() const;
+  constexpr int32_t const& __cordl_internal_get_objectInfoId() const;
 
-  constexpr void __set_objectInfoId(int32_t value);
+  constexpr void __cordl_internal_set_objectInfoId(int32_t value);
 
-  constexpr ::System::Type*& __get_objectType();
+  constexpr ::System::Type*& __cordl_internal_get_objectType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_objectType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_objectType() const;
 
-  constexpr void __set_objectType(::System::Type* value);
+  constexpr void __cordl_internal_set_objectType(::System::Type* value);
 
-  constexpr ::System::Runtime::Serialization::ObjectManager*& __get_objectManager();
+  constexpr ::System::Runtime::Serialization::ObjectManager*& __cordl_internal_get_objectManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ObjectManager*> const& __get_objectManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ObjectManager*> const& __cordl_internal_get_objectManager() const;
 
-  constexpr void __set_objectManager(::System::Runtime::Serialization::ObjectManager* value);
+  constexpr void __cordl_internal_set_objectManager(::System::Runtime::Serialization::ObjectManager* value);
 
-  constexpr int32_t& __get_count();
+  constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr int32_t const& __get_count() const;
+  constexpr int32_t const& __cordl_internal_get_count() const;
 
-  constexpr void __set_count(int32_t value);
+  constexpr void __cordl_internal_set_count(int32_t value);
 
-  constexpr bool& __get_isSi();
+  constexpr bool& __cordl_internal_get_isSi();
 
-  constexpr bool const& __get_isSi() const;
+  constexpr bool const& __cordl_internal_get_isSi() const;
 
-  constexpr void __set_isSi(bool value);
+  constexpr void __cordl_internal_set_isSi(bool value);
 
-  constexpr bool& __get_isNamed();
+  constexpr bool& __cordl_internal_get_isNamed();
 
-  constexpr bool const& __get_isNamed() const;
+  constexpr bool const& __cordl_internal_get_isNamed() const;
 
-  constexpr void __set_isNamed(bool value);
+  constexpr void __cordl_internal_set_isNamed(bool value);
 
-  constexpr bool& __get_isTyped();
+  constexpr bool& __cordl_internal_get_isTyped();
 
-  constexpr bool const& __get_isTyped() const;
+  constexpr bool const& __cordl_internal_get_isTyped() const;
 
-  constexpr void __set_isTyped(bool value);
+  constexpr void __cordl_internal_set_isTyped(bool value);
 
-  constexpr bool& __get_bSimpleAssembly();
+  constexpr bool& __cordl_internal_get_bSimpleAssembly();
 
-  constexpr bool const& __get_bSimpleAssembly() const;
+  constexpr bool const& __cordl_internal_get_bSimpleAssembly() const;
 
-  constexpr void __set_bSimpleAssembly(bool value);
+  constexpr void __cordl_internal_set_bSimpleAssembly(bool value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*& __get_cache();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*& __cordl_internal_get_cache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*> const& __get_cache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*> const& __cordl_internal_get_cache() const;
 
-  constexpr void __set_cache(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* value);
+  constexpr void __cordl_internal_set_cache(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_wireMemberNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_wireMemberNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_wireMemberNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_wireMemberNames() const;
 
-  constexpr void __set_wireMemberNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_wireMemberNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __get_wireMemberTypes();
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get_wireMemberTypes();
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __get_wireMemberTypes() const;
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_wireMemberTypes() const;
 
-  constexpr void __set_wireMemberTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+  constexpr void __cordl_internal_set_wireMemberTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  constexpr int32_t& __get_lastPosition();
+  constexpr int32_t& __cordl_internal_get_lastPosition();
 
-  constexpr int32_t const& __get_lastPosition() const;
+  constexpr int32_t const& __cordl_internal_get_lastPosition() const;
 
-  constexpr void __set_lastPosition(int32_t value);
+  constexpr void __cordl_internal_set_lastPosition(int32_t value);
 
-  constexpr ::System::Runtime::Serialization::ISerializationSurrogate*& __get_serializationSurrogate();
+  constexpr ::System::Runtime::Serialization::ISerializationSurrogate*& __cordl_internal_get_serializationSurrogate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISerializationSurrogate*> const& __get_serializationSurrogate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISerializationSurrogate*> const& __cordl_internal_get_serializationSurrogate() const;
 
-  constexpr void __set_serializationSurrogate(::System::Runtime::Serialization::ISerializationSurrogate* value);
+  constexpr void __cordl_internal_set_serializationSurrogate(::System::Runtime::Serialization::ISerializationSurrogate* value);
 
-  constexpr ::System::Runtime::Serialization::StreamingContext& __get_context();
+  constexpr ::System::Runtime::Serialization::StreamingContext& __cordl_internal_get_context();
 
-  constexpr ::System::Runtime::Serialization::StreamingContext const& __get_context() const;
+  constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get_context() const;
 
-  constexpr void __set_context(::System::Runtime::Serialization::StreamingContext value);
+  constexpr void __cordl_internal_set_context(::System::Runtime::Serialization::StreamingContext value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __get_memberTypesList();
+  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __cordl_internal_get_memberTypesList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __get_memberTypesList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __cordl_internal_get_memberTypesList() const;
 
-  constexpr void __set_memberTypesList(::System::Collections::Generic::List_1<::System::Type*>* value);
+  constexpr void __cordl_internal_set_memberTypesList(::System::Collections::Generic::List_1<::System::Type*>* value);
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*& __get_serObjectInfoInit();
+  constexpr ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*& __cordl_internal_get_serObjectInfoInit();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*> const& __get_serObjectInfoInit() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*> const& __cordl_internal_get_serObjectInfoInit() const;
 
-  constexpr void __set_serObjectInfoInit(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* value);
+  constexpr void __cordl_internal_set_serObjectInfoInit(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* value);
 
-  constexpr ::System::Runtime::Serialization::IFormatterConverter*& __get_formatterConverter();
+  constexpr ::System::Runtime::Serialization::IFormatterConverter*& __cordl_internal_get_formatterConverter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::IFormatterConverter*> const& __get_formatterConverter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::IFormatterConverter*> const& __cordl_internal_get_formatterConverter() const;
 
-  constexpr void __set_formatterConverter(::System::Runtime::Serialization::IFormatterConverter* value);
+  constexpr void __cordl_internal_set_formatterConverter(::System::Runtime::Serialization::IFormatterConverter* value);
 
   static inline void setStaticF_readObjectInfoCounter(int32_t value);
 

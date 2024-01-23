@@ -44,32 +44,33 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeDropdown);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 121, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13624))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13624))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5410))
 // CS Name: ::ColorSchemeDropdown*
 class CORDL_TYPE ColorSchemeDropdown : public ::HMUI::DropdownWithTableView {
 public:
   // Declarations
   /// @brief Field _text, offset 0x48, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::TMPro::TextMeshProUGUI* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
 
   /// @brief Field _colorSchemeView, offset 0x50, size 0x8
-  __declspec(property(get = __get__colorSchemeView, put = __set__colorSchemeView))::GlobalNamespace::ColorSchemeView* _colorSchemeView;
+  __declspec(property(get = __cordl_internal_get__colorSchemeView, put = __cordl_internal_set__colorSchemeView))::UnityW<::GlobalNamespace::ColorSchemeView> _colorSchemeView;
 
   /// @brief Field _cellPrefab, offset 0x58, size 0x8
-  __declspec(property(get = __get__cellPrefab, put = __set__cellPrefab))::GlobalNamespace::ColorSchemeTableCell* _cellPrefab;
+  __declspec(property(get = __cordl_internal_get__cellPrefab, put = __cordl_internal_set__cellPrefab))::UnityW<::GlobalNamespace::ColorSchemeTableCell> _cellPrefab;
 
   /// @brief Field _cellReuseIdentifier, offset 0x60, size 0x8
-  __declspec(property(get = __get__cellReuseIdentifier, put = __set__cellReuseIdentifier))::StringW _cellReuseIdentifier;
+  __declspec(property(get = __cordl_internal_get__cellReuseIdentifier, put = __cordl_internal_set__cellReuseIdentifier))::StringW _cellReuseIdentifier;
 
   /// @brief Field _cellSize, offset 0x68, size 0x4
-  __declspec(property(get = __get__cellSize, put = __set__cellSize)) float_t _cellSize;
+  __declspec(property(get = __cordl_internal_get__cellSize, put = __cordl_internal_set__cellSize)) float_t _cellSize;
 
   /// @brief Field _colorSchemes, offset 0x70, size 0x8
-  __declspec(property(get = __get__colorSchemes, put = __set__colorSchemes))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>* _colorSchemes;
+  __declspec(property(get = __cordl_internal_get__colorSchemes,
+                      put = __cordl_internal_set__colorSchemes))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>* _colorSchemes;
 
   /// @brief Field _initialized, offset 0x78, size 0x1
-  __declspec(property(get = __get__initialized, put = __set__initialized)) bool _initialized;
+  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
   /// @brief Convert operator to "::HMUI::__TableView__IDataSource"
   constexpr operator ::HMUI::__TableView__IDataSource*() noexcept;
@@ -77,47 +78,47 @@ public:
   /// @brief Convert to "::HMUI::__TableView__IDataSource"
   constexpr ::HMUI::__TableView__IDataSource* i___HMUI____TableView__IDataSource() noexcept;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__text();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__text() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::GlobalNamespace::ColorSchemeView*& __get__colorSchemeView();
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeView>& __cordl_internal_get__colorSchemeView();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeView*> const& __get__colorSchemeView() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeView> const& __cordl_internal_get__colorSchemeView() const;
 
-  constexpr void __set__colorSchemeView(::GlobalNamespace::ColorSchemeView* value);
+  constexpr void __cordl_internal_set__colorSchemeView(::UnityW<::GlobalNamespace::ColorSchemeView> value);
 
-  constexpr ::GlobalNamespace::ColorSchemeTableCell*& __get__cellPrefab();
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeTableCell>& __cordl_internal_get__cellPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeTableCell*> const& __get__cellPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeTableCell> const& __cordl_internal_get__cellPrefab() const;
 
-  constexpr void __set__cellPrefab(::GlobalNamespace::ColorSchemeTableCell* value);
+  constexpr void __cordl_internal_set__cellPrefab(::UnityW<::GlobalNamespace::ColorSchemeTableCell> value);
 
-  constexpr ::StringW& __get__cellReuseIdentifier();
+  constexpr ::StringW& __cordl_internal_get__cellReuseIdentifier();
 
-  constexpr ::StringW const& __get__cellReuseIdentifier() const;
+  constexpr ::StringW const& __cordl_internal_get__cellReuseIdentifier() const;
 
-  constexpr void __set__cellReuseIdentifier(::StringW value);
+  constexpr void __cordl_internal_set__cellReuseIdentifier(::StringW value);
 
-  constexpr float_t& __get__cellSize();
+  constexpr float_t& __cordl_internal_get__cellSize();
 
-  constexpr float_t const& __get__cellSize() const;
+  constexpr float_t const& __cordl_internal_get__cellSize() const;
 
-  constexpr void __set__cellSize(float_t value);
+  constexpr void __cordl_internal_set__cellSize(float_t value);
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>*& __get__colorSchemes();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>*& __cordl_internal_get__colorSchemes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>*> const& __get__colorSchemes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>*> const& __cordl_internal_get__colorSchemes() const;
 
-  constexpr void __set__colorSchemes(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>* value);
+  constexpr void __cordl_internal_set__colorSchemes(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::ColorScheme*>* value);
 
-  constexpr bool& __get__initialized();
+  constexpr bool& __cordl_internal_get__initialized();
 
-  constexpr bool const& __get__initialized() const;
+  constexpr bool const& __cordl_internal_get__initialized() const;
 
-  constexpr void __set__initialized(bool value);
+  constexpr void __cordl_internal_set__initialized(bool value);
 
   /// @brief Method LazyInit, addr 0x2275428, size 0xb0, virtual false, abstract: false, final false
   inline void LazyInit();
@@ -138,7 +139,7 @@ public:
   inline int32_t NumberOfCells();
 
   /// @brief Method CellForIdx, addr 0x22758ac, size 0x298, virtual true, abstract: false, final true
-  inline ::HMUI::TableCell* CellForIdx(::HMUI::TableView* tableView, int32_t idx);
+  inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
   /// @brief Method SelectCellWithIdx, addr 0x2275c04, size 0xc4, virtual true, abstract: false, final false
   inline void SelectCellWithIdx(int32_t idx);
@@ -169,13 +170,13 @@ protected:
 
 public:
   /// @brief Field _text, offset: 0x48, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____text;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
   /// @brief Field _colorSchemeView, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSchemeView* ____colorSchemeView;
+  ::UnityW<::GlobalNamespace::ColorSchemeView> ____colorSchemeView;
 
   /// @brief Field _cellPrefab, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSchemeTableCell* ____cellPrefab;
+  ::UnityW<::GlobalNamespace::ColorSchemeTableCell> ____cellPrefab;
 
   /// @brief Field _cellReuseIdentifier, offset: 0x60, size: 0x8, def value: None
   ::StringW ____cellReuseIdentifier;

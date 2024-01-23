@@ -18,25 +18,25 @@ MARK_REF_PTR_T(::GlobalNamespace::AssetObjectListSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5818))
 // CS Name: ::AssetObjectListSO*
 class CORDL_TYPE AssetObjectListSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _objects, offset 0x18, size 0x8
-  __declspec(property(get = __get__objects, put = __set__objects))::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> _objects;
+  __declspec(property(get = __cordl_internal_get__objects, put = __cordl_internal_set__objects))::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> _objects;
 
-  __declspec(property(get = get_objects))::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> objects;
+  __declspec(property(get = get_objects))::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> objects;
 
-  constexpr ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*>& __get__objects();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*>& __cordl_internal_get__objects();
 
-  constexpr ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> const& __get__objects() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> const& __cordl_internal_get__objects() const;
 
-  constexpr void __set__objects(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> value);
+  constexpr void __cordl_internal_set__objects(::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> value);
 
   /// @brief Method get_objects, addr 0x22eb0b4, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> get_objects();
+  inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> get_objects();
 
   static inline ::GlobalNamespace::AssetObjectListSO* New_ctor();
 
@@ -58,7 +58,7 @@ protected:
 
 public:
   /// @brief Field _objects, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> ____objects;
+  ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> ____objects;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

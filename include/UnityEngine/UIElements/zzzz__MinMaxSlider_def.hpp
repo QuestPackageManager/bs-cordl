@@ -67,46 +67,46 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__MinMaxSlider__UxmlTraits);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7129), inst: 411 }), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7129))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7106)) CS Name: ::MinMaxSlider::UxmlTraits*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7129)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7129), inst: 411
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7106)) CS Name: ::MinMaxSlider::UxmlTraits*
 class CORDL_TYPE __MinMaxSlider__UxmlTraits : public ::UnityEngine::UIElements::__BaseField_1__UxmlTraits<::UnityEngine::Vector2> {
 public:
   // Declarations
   /// @brief Field m_MinValue, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_MinValue, put = __set_m_MinValue))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_MinValue;
+  __declspec(property(get = __cordl_internal_get_m_MinValue, put = __cordl_internal_set_m_MinValue))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_MinValue;
 
   /// @brief Field m_MaxValue, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_MaxValue, put = __set_m_MaxValue))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_MaxValue;
+  __declspec(property(get = __cordl_internal_get_m_MaxValue, put = __cordl_internal_set_m_MaxValue))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_MaxValue;
 
   /// @brief Field m_LowLimit, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_LowLimit, put = __set_m_LowLimit))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_LowLimit;
+  __declspec(property(get = __cordl_internal_get_m_LowLimit, put = __cordl_internal_set_m_LowLimit))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_LowLimit;
 
   /// @brief Field m_HighLimit, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_HighLimit, put = __set_m_HighLimit))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_HighLimit;
+  __declspec(property(get = __cordl_internal_get_m_HighLimit, put = __cordl_internal_set_m_HighLimit))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_HighLimit;
 
-  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __get_m_MinValue();
+  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __cordl_internal_get_m_MinValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __get_m_MinValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __cordl_internal_get_m_MinValue() const;
 
-  constexpr void __set_m_MinValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_MinValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __get_m_MaxValue();
+  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __cordl_internal_get_m_MaxValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __get_m_MaxValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __cordl_internal_get_m_MaxValue() const;
 
-  constexpr void __set_m_MaxValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_MaxValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __get_m_LowLimit();
+  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __cordl_internal_get_m_LowLimit();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __get_m_LowLimit() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __cordl_internal_get_m_LowLimit() const;
 
-  constexpr void __set_m_LowLimit(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_LowLimit(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __get_m_HighLimit();
+  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __cordl_internal_get_m_HighLimit();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __get_m_HighLimit() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __cordl_internal_get_m_HighLimit() const;
 
-  constexpr void __set_m_HighLimit(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_HighLimit(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
   /// @brief Method Init, addr 0x2e36c9c, size 0x1bc, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
@@ -160,7 +160,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__MinMaxSlider__UxmlTraits, __
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7107))
 // CS Name: ::MinMaxSlider::DragState
 struct CORDL_TYPE __MinMaxSlider__DragState {
@@ -218,9 +218,9 @@ static_assert(offsetof(::UnityEngine::UIElements::__MinMaxSlider__DragState, val
 // SizeInfo { instance_size: 1128, native_size: -1, calculated_instance_size: 1128, calculated_native_size: 1124, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7130)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 411 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(7107)), TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(7108)) CS Name: ::UnityEngine.UIElements::MinMaxSlider*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7107)), TypeDefinitionIndex(TypeDefinitionIndex(7130)), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 411 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7108)) CS
+// Name: ::UnityEngine.UIElements::MinMaxSlider*
 class CORDL_TYPE MinMaxSlider : public ::UnityEngine::UIElements::BaseField_1<::UnityEngine::Vector2> {
 public:
   // Declarations
@@ -231,37 +231,41 @@ public:
   using UxmlFactory = ::UnityEngine::UIElements::__MinMaxSlider__UxmlFactory;
 
   /// @brief Field <dragElement>k__BackingField, offset 0x408, size 0x8
-  __declspec(property(get = __get__dragElement_k__BackingField, put = __set__dragElement_k__BackingField))::UnityEngine::UIElements::VisualElement* _dragElement_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__dragElement_k__BackingField,
+                      put = __cordl_internal_set__dragElement_k__BackingField))::UnityEngine::UIElements::VisualElement* _dragElement_k__BackingField;
 
   /// @brief Field <dragMinThumb>k__BackingField, offset 0x410, size 0x8
-  __declspec(property(get = __get__dragMinThumb_k__BackingField, put = __set__dragMinThumb_k__BackingField))::UnityEngine::UIElements::VisualElement* _dragMinThumb_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__dragMinThumb_k__BackingField,
+                      put = __cordl_internal_set__dragMinThumb_k__BackingField))::UnityEngine::UIElements::VisualElement* _dragMinThumb_k__BackingField;
 
   /// @brief Field <dragMaxThumb>k__BackingField, offset 0x418, size 0x8
-  __declspec(property(get = __get__dragMaxThumb_k__BackingField, put = __set__dragMaxThumb_k__BackingField))::UnityEngine::UIElements::VisualElement* _dragMaxThumb_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__dragMaxThumb_k__BackingField,
+                      put = __cordl_internal_set__dragMaxThumb_k__BackingField))::UnityEngine::UIElements::VisualElement* _dragMaxThumb_k__BackingField;
 
   /// @brief Field <clampedDragger>k__BackingField, offset 0x420, size 0x8
-  __declspec(property(get = __get__clampedDragger_k__BackingField, put = __set__clampedDragger_k__BackingField))::UnityEngine::UIElements::ClampedDragger_1<float_t>* _clampedDragger_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__clampedDragger_k__BackingField,
+                      put = __cordl_internal_set__clampedDragger_k__BackingField))::UnityEngine::UIElements::ClampedDragger_1<float_t>* _clampedDragger_k__BackingField;
 
   /// @brief Field m_DragElementStartPos, offset 0x428, size 0x8
-  __declspec(property(get = __get_m_DragElementStartPos, put = __set_m_DragElementStartPos))::UnityEngine::Vector2 m_DragElementStartPos;
+  __declspec(property(get = __cordl_internal_get_m_DragElementStartPos, put = __cordl_internal_set_m_DragElementStartPos))::UnityEngine::Vector2 m_DragElementStartPos;
 
   /// @brief Field m_ValueStartPos, offset 0x430, size 0x8
-  __declspec(property(get = __get_m_ValueStartPos, put = __set_m_ValueStartPos))::UnityEngine::Vector2 m_ValueStartPos;
+  __declspec(property(get = __cordl_internal_get_m_ValueStartPos, put = __cordl_internal_set_m_ValueStartPos))::UnityEngine::Vector2 m_ValueStartPos;
 
   /// @brief Field m_DragMinThumbRect, offset 0x438, size 0x10
-  __declspec(property(get = __get_m_DragMinThumbRect, put = __set_m_DragMinThumbRect))::UnityEngine::Rect m_DragMinThumbRect;
+  __declspec(property(get = __cordl_internal_get_m_DragMinThumbRect, put = __cordl_internal_set_m_DragMinThumbRect))::UnityEngine::Rect m_DragMinThumbRect;
 
   /// @brief Field m_DragMaxThumbRect, offset 0x448, size 0x10
-  __declspec(property(get = __get_m_DragMaxThumbRect, put = __set_m_DragMaxThumbRect))::UnityEngine::Rect m_DragMaxThumbRect;
+  __declspec(property(get = __cordl_internal_get_m_DragMaxThumbRect, put = __cordl_internal_set_m_DragMaxThumbRect))::UnityEngine::Rect m_DragMaxThumbRect;
 
   /// @brief Field m_DragState, offset 0x458, size 0x4
-  __declspec(property(get = __get_m_DragState, put = __set_m_DragState))::UnityEngine::UIElements::__MinMaxSlider__DragState m_DragState;
+  __declspec(property(get = __cordl_internal_get_m_DragState, put = __cordl_internal_set_m_DragState))::UnityEngine::UIElements::__MinMaxSlider__DragState m_DragState;
 
   /// @brief Field m_MinLimit, offset 0x45c, size 0x4
-  __declspec(property(get = __get_m_MinLimit, put = __set_m_MinLimit)) float_t m_MinLimit;
+  __declspec(property(get = __cordl_internal_get_m_MinLimit, put = __cordl_internal_set_m_MinLimit)) float_t m_MinLimit;
 
   /// @brief Field m_MaxLimit, offset 0x460, size 0x4
-  __declspec(property(get = __get_m_MaxLimit, put = __set_m_MaxLimit)) float_t m_MaxLimit;
+  __declspec(property(get = __cordl_internal_get_m_MaxLimit, put = __cordl_internal_set_m_MaxLimit)) float_t m_MaxLimit;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
@@ -302,71 +306,71 @@ public:
 
   __declspec(property(get = get_highLimit, put = set_highLimit)) float_t highLimit;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get__dragElement_k__BackingField();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__dragElement_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get__dragElement_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get__dragElement_k__BackingField() const;
 
-  constexpr void __set__dragElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set__dragElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get__dragMinThumb_k__BackingField();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__dragMinThumb_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get__dragMinThumb_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get__dragMinThumb_k__BackingField() const;
 
-  constexpr void __set__dragMinThumb_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set__dragMinThumb_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get__dragMaxThumb_k__BackingField();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__dragMaxThumb_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get__dragMaxThumb_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get__dragMaxThumb_k__BackingField() const;
 
-  constexpr void __set__dragMaxThumb_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set__dragMaxThumb_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::ClampedDragger_1<float_t>*& __get__clampedDragger_k__BackingField();
+  constexpr ::UnityEngine::UIElements::ClampedDragger_1<float_t>*& __cordl_internal_get__clampedDragger_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ClampedDragger_1<float_t>*> const& __get__clampedDragger_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::ClampedDragger_1<float_t>*> const& __cordl_internal_get__clampedDragger_k__BackingField() const;
 
-  constexpr void __set__clampedDragger_k__BackingField(::UnityEngine::UIElements::ClampedDragger_1<float_t>* value);
+  constexpr void __cordl_internal_set__clampedDragger_k__BackingField(::UnityEngine::UIElements::ClampedDragger_1<float_t>* value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_DragElementStartPos();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_DragElementStartPos();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_DragElementStartPos() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_DragElementStartPos() const;
 
-  constexpr void __set_m_DragElementStartPos(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_DragElementStartPos(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_ValueStartPos();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_ValueStartPos();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_ValueStartPos() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_ValueStartPos() const;
 
-  constexpr void __set_m_ValueStartPos(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_ValueStartPos(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Rect& __get_m_DragMinThumbRect();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_DragMinThumbRect();
 
-  constexpr ::UnityEngine::Rect const& __get_m_DragMinThumbRect() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_DragMinThumbRect() const;
 
-  constexpr void __set_m_DragMinThumbRect(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_m_DragMinThumbRect(::UnityEngine::Rect value);
 
-  constexpr ::UnityEngine::Rect& __get_m_DragMaxThumbRect();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_DragMaxThumbRect();
 
-  constexpr ::UnityEngine::Rect const& __get_m_DragMaxThumbRect() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_DragMaxThumbRect() const;
 
-  constexpr void __set_m_DragMaxThumbRect(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_m_DragMaxThumbRect(::UnityEngine::Rect value);
 
-  constexpr ::UnityEngine::UIElements::__MinMaxSlider__DragState& __get_m_DragState();
+  constexpr ::UnityEngine::UIElements::__MinMaxSlider__DragState& __cordl_internal_get_m_DragState();
 
-  constexpr ::UnityEngine::UIElements::__MinMaxSlider__DragState const& __get_m_DragState() const;
+  constexpr ::UnityEngine::UIElements::__MinMaxSlider__DragState const& __cordl_internal_get_m_DragState() const;
 
-  constexpr void __set_m_DragState(::UnityEngine::UIElements::__MinMaxSlider__DragState value);
+  constexpr void __cordl_internal_set_m_DragState(::UnityEngine::UIElements::__MinMaxSlider__DragState value);
 
-  constexpr float_t& __get_m_MinLimit();
+  constexpr float_t& __cordl_internal_get_m_MinLimit();
 
-  constexpr float_t const& __get_m_MinLimit() const;
+  constexpr float_t const& __cordl_internal_get_m_MinLimit() const;
 
-  constexpr void __set_m_MinLimit(float_t value);
+  constexpr void __cordl_internal_set_m_MinLimit(float_t value);
 
-  constexpr float_t& __get_m_MaxLimit();
+  constexpr float_t& __cordl_internal_get_m_MaxLimit();
 
-  constexpr float_t const& __get_m_MaxLimit() const;
+  constexpr float_t const& __cordl_internal_get_m_MaxLimit() const;
 
-  constexpr void __set_m_MaxLimit(float_t value);
+  constexpr void __cordl_internal_set_m_MaxLimit(float_t value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 
@@ -578,8 +582,8 @@ static_assert(offsetof(::UnityEngine::UIElements::MinMaxSlider, ___m_MaxLimit) =
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7106)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5268
-// }), TypeDefinitionIndex(TypeDefinitionIndex(7108))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7105)) CS Name: ::MinMaxSlider::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7106)), TypeDefinitionIndex(TypeDefinitionIndex(7108)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5268 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7105)) CS Name: ::MinMaxSlider::UxmlFactory*
 class CORDL_TYPE __MinMaxSlider__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::MinMaxSlider*, ::UnityEngine::UIElements::__MinMaxSlider__UxmlTraits*> {
 public:
   // Declarations

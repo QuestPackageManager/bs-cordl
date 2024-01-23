@@ -25,40 +25,40 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DefaultTlsEncryptionCredentials
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1169))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1169))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1213))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DefaultTlsEncryptionCredentials*
 class CORDL_TYPE DefaultTlsEncryptionCredentials : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials {
 public:
   // Declarations
   /// @brief Field mContext, offset 0x10, size 0x8
-  __declspec(property(get = __get_mContext, put = __set_mContext))::Org::BouncyCastle::Crypto::Tls::TlsContext* mContext;
+  __declspec(property(get = __cordl_internal_get_mContext, put = __cordl_internal_set_mContext))::Org::BouncyCastle::Crypto::Tls::TlsContext* mContext;
 
   /// @brief Field mCertificate, offset 0x18, size 0x8
-  __declspec(property(get = __get_mCertificate, put = __set_mCertificate))::Org::BouncyCastle::Crypto::Tls::Certificate* mCertificate;
+  __declspec(property(get = __cordl_internal_get_mCertificate, put = __cordl_internal_set_mCertificate))::Org::BouncyCastle::Crypto::Tls::Certificate* mCertificate;
 
   /// @brief Field mPrivateKey, offset 0x20, size 0x8
-  __declspec(property(get = __get_mPrivateKey, put = __set_mPrivateKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mPrivateKey;
+  __declspec(property(get = __cordl_internal_get_mPrivateKey, put = __cordl_internal_set_mPrivateKey))::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* mPrivateKey;
 
   __declspec(property(get = get_Certificate))::Org::BouncyCastle::Crypto::Tls::Certificate* Certificate;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __get_mContext();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_mContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __get_mContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __cordl_internal_get_mContext() const;
 
-  constexpr void __set_mContext(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
+  constexpr void __cordl_internal_set_mContext(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate*& __get_mCertificate();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate*& __cordl_internal_get_mCertificate();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::Certificate*> const& __get_mCertificate() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::Certificate*> const& __cordl_internal_get_mCertificate() const;
 
-  constexpr void __set_mCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* value);
+  constexpr void __cordl_internal_set_mCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __get_mPrivateKey();
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*& __cordl_internal_get_mPrivateKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __get_mPrivateKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*> const& __cordl_internal_get_mPrivateKey() const;
 
-  constexpr void __set_mPrivateKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
+  constexpr void __cordl_internal_set_mPrivateKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsEncryptionCredentials*
   New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::Certificate* certificate, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);

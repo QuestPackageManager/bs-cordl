@@ -31,40 +31,40 @@ MARK_REF_PTR_T(::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4452))
 // CS Name: ::MenuLightsPresetSO::LightIdColorPair*
 class CORDL_TYPE __MenuLightsPresetSO__LightIdColorPair : public ::System::Object {
 public:
   // Declarations
   /// @brief Field lightId, offset 0x10, size 0x4
-  __declspec(property(get = __get_lightId, put = __set_lightId)) int32_t lightId;
+  __declspec(property(get = __cordl_internal_get_lightId, put = __cordl_internal_set_lightId)) int32_t lightId;
 
   /// @brief Field baseColor, offset 0x18, size 0x8
-  __declspec(property(get = __get_baseColor, put = __set_baseColor))::GlobalNamespace::ColorSO* baseColor;
+  __declspec(property(get = __cordl_internal_get_baseColor, put = __cordl_internal_set_baseColor))::UnityW<::GlobalNamespace::ColorSO> baseColor;
 
   /// @brief Field intensity, offset 0x20, size 0x4
-  __declspec(property(get = __get_intensity, put = __set_intensity)) float_t intensity;
+  __declspec(property(get = __cordl_internal_get_intensity, put = __cordl_internal_set_intensity)) float_t intensity;
 
   __declspec(property(get = get_lightColor))::UnityEngine::Color lightColor;
 
-  constexpr int32_t& __get_lightId();
+  constexpr int32_t& __cordl_internal_get_lightId();
 
-  constexpr int32_t const& __get_lightId() const;
+  constexpr int32_t const& __cordl_internal_get_lightId() const;
 
-  constexpr void __set_lightId(int32_t value);
+  constexpr void __cordl_internal_set_lightId(int32_t value);
 
-  constexpr ::GlobalNamespace::ColorSO*& __get_baseColor();
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get_baseColor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& __get_baseColor() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get_baseColor() const;
 
-  constexpr void __set_baseColor(::GlobalNamespace::ColorSO* value);
+  constexpr void __cordl_internal_set_baseColor(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  constexpr float_t& __get_intensity();
+  constexpr float_t& __cordl_internal_get_intensity();
 
-  constexpr float_t const& __get_intensity() const;
+  constexpr float_t const& __cordl_internal_get_intensity() const;
 
-  constexpr void __set_intensity(float_t value);
+  constexpr void __cordl_internal_set_intensity(float_t value);
 
   /// @brief Method get_lightColor, addr 0x23524dc, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_lightColor();
@@ -92,7 +92,7 @@ public:
   int32_t ___lightId;
 
   /// @brief Field baseColor, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSO* ___baseColor;
+  ::UnityW<::GlobalNamespace::ColorSO> ___baseColor;
 
   /// @brief Field intensity, offset: 0x20, size: 0x4, def value: None
   float_t ___intensity;
@@ -113,7 +113,7 @@ static_assert(offsetof(::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4453))
 // CS Name: ::MenuLightsPresetSO*
 class CORDL_TYPE MenuLightsPresetSO : public ::GlobalNamespace::PersistentScriptableObject {
@@ -122,43 +122,45 @@ public:
   using LightIdColorPair = ::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair;
 
   /// @brief Field _playersPlaceNeonsColor, offset 0x18, size 0x8
-  __declspec(property(get = __get__playersPlaceNeonsColor, put = __set__playersPlaceNeonsColor))::GlobalNamespace::ColorSO* _playersPlaceNeonsColor;
+  __declspec(property(get = __cordl_internal_get__playersPlaceNeonsColor, put = __cordl_internal_set__playersPlaceNeonsColor))::UnityW<::GlobalNamespace::ColorSO> _playersPlaceNeonsColor;
 
   /// @brief Field _playersPlaceNeonsIntensity, offset 0x20, size 0x4
-  __declspec(property(get = __get__playersPlaceNeonsIntensity, put = __set__playersPlaceNeonsIntensity)) float_t _playersPlaceNeonsIntensity;
+  __declspec(property(get = __cordl_internal_get__playersPlaceNeonsIntensity, put = __cordl_internal_set__playersPlaceNeonsIntensity)) float_t _playersPlaceNeonsIntensity;
 
   /// @brief Field _lightIdColorPairs, offset 0x28, size 0x8
-  __declspec(property(
-      get = __get__lightIdColorPairs,
-      put = __set__lightIdColorPairs))::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*> _lightIdColorPairs;
+  __declspec(property(get = __cordl_internal_get__lightIdColorPairs,
+                      put = __cordl_internal_set__lightIdColorPairs))::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*,
+                                                                              ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*> _lightIdColorPairs;
 
-  __declspec(property(get = get_playersPlaceNeonsColor))::GlobalNamespace::ColorSO* playersPlaceNeonsColor;
+  __declspec(property(get = get_playersPlaceNeonsColor))::UnityW<::GlobalNamespace::ColorSO> playersPlaceNeonsColor;
 
   __declspec(property(get = get_playersPlaceNeonsIntensity)) float_t playersPlaceNeonsIntensity;
 
   __declspec(property(
       get = get_lightIdColorPairs))::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*> lightIdColorPairs;
 
-  constexpr ::GlobalNamespace::ColorSO*& __get__playersPlaceNeonsColor();
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__playersPlaceNeonsColor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& __get__playersPlaceNeonsColor() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__playersPlaceNeonsColor() const;
 
-  constexpr void __set__playersPlaceNeonsColor(::GlobalNamespace::ColorSO* value);
+  constexpr void __cordl_internal_set__playersPlaceNeonsColor(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  constexpr float_t& __get__playersPlaceNeonsIntensity();
+  constexpr float_t& __cordl_internal_get__playersPlaceNeonsIntensity();
 
-  constexpr float_t const& __get__playersPlaceNeonsIntensity() const;
+  constexpr float_t const& __cordl_internal_get__playersPlaceNeonsIntensity() const;
 
-  constexpr void __set__playersPlaceNeonsIntensity(float_t value);
+  constexpr void __cordl_internal_set__playersPlaceNeonsIntensity(float_t value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*>& __get__lightIdColorPairs();
+  constexpr ::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*>& __cordl_internal_get__lightIdColorPairs();
 
-  constexpr ::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*> const& __get__lightIdColorPairs() const;
+  constexpr ::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*> const&
+  __cordl_internal_get__lightIdColorPairs() const;
 
-  constexpr void __set__lightIdColorPairs(::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*> value);
+  constexpr void
+  __cordl_internal_set__lightIdColorPairs(::ArrayW<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*, ::Array<::GlobalNamespace::__MenuLightsPresetSO__LightIdColorPair*>*> value);
 
   /// @brief Method get_playersPlaceNeonsColor, addr 0x23524b4, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::ColorSO* get_playersPlaceNeonsColor();
+  inline ::UnityW<::GlobalNamespace::ColorSO> get_playersPlaceNeonsColor();
 
   /// @brief Method get_playersPlaceNeonsIntensity, addr 0x23524bc, size 0x8, virtual false, abstract: false, final false
   inline float_t get_playersPlaceNeonsIntensity();
@@ -186,7 +188,7 @@ protected:
 
 public:
   /// @brief Field _playersPlaceNeonsColor, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSO* ____playersPlaceNeonsColor;
+  ::UnityW<::GlobalNamespace::ColorSO> ____playersPlaceNeonsColor;
 
   /// @brief Field _playersPlaceNeonsIntensity, offset: 0x20, size: 0x4, def value: None
   float_t ____playersPlaceNeonsIntensity;

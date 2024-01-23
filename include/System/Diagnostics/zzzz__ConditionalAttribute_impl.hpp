@@ -9,32 +9,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x2579bd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ConditionalAttribute*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ConditionalAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Diagnostics::ConditionalAttribute::__get__ConditionString_k__BackingField() {
+constexpr ::StringW& System::Diagnostics::ConditionalAttribute::__cordl_internal_get__ConditionString_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ConditionString_k__BackingField;
 }
-constexpr ::StringW const& System::Diagnostics::ConditionalAttribute::__get__ConditionString_k__BackingField() const {
+constexpr ::StringW const& System::Diagnostics::ConditionalAttribute::__cordl_internal_get__ConditionString_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ConditionString_k__BackingField;
 }
-constexpr void System::Diagnostics::ConditionalAttribute::__set__ConditionString_k__BackingField(::StringW value) {
+constexpr void System::Diagnostics::ConditionalAttribute::__cordl_internal_set__ConditionString_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ConditionString_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Diagnostics::ConditionalAttribute* System::Diagnostics::ConditionalAttribute::New_ctor(::StringW conditionString) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Diagnostics::ConditionalAttribute*>(conditionString));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Diagnostics::ConditionalAttribute*>(conditionString));
 }
 inline void System::Diagnostics::ConditionalAttribute::_ctor(::StringW conditionString) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ConditionalAttribute*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::ConditionalAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, conditionString);
 }
 // Ctor Parameters []

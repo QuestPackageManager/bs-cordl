@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionsList
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TrackDefinitions::DataModels {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16070))
 // CS Name: ::EnvironmentTrackDefinitionsListModel::<>c*
 class CORDL_TYPE __EnvironmentTrackDefinitionsListModel____c : public ::System::Object {
@@ -53,24 +53,24 @@ public:
 
   /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__2_0,
-                             put = setStaticF___9__2_0))::System::Func_2<::TrackDefinitions::EnvironmentTracksDefinitionSO*, ::GlobalNamespace::EnvironmentInfoSO*>* __9__2_0;
+                             put = setStaticF___9__2_0))::System::Func_2<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* __9__2_0;
 
   /// @brief Field <>9__2_1, offset 0xffffffff, size 0x8
   static __declspec(
       property(get = getStaticF___9__2_1,
-               put = setStaticF___9__2_1))::System::Func_2<::TrackDefinitions::EnvironmentTracksDefinitionSO*, ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* __9__2_1;
+               put = setStaticF___9__2_1))::System::Func_2<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>, ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* __9__2_1;
 
   static inline void setStaticF___9(::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionsListModel____c* value);
 
   static inline ::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionsListModel____c* getStaticF___9();
 
-  static inline void setStaticF___9__2_0(::System::Func_2<::TrackDefinitions::EnvironmentTracksDefinitionSO*, ::GlobalNamespace::EnvironmentInfoSO*>* value);
+  static inline void setStaticF___9__2_0(::System::Func_2<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* value);
 
-  static inline ::System::Func_2<::TrackDefinitions::EnvironmentTracksDefinitionSO*, ::GlobalNamespace::EnvironmentInfoSO*>* getStaticF___9__2_0();
+  static inline ::System::Func_2<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* getStaticF___9__2_0();
 
-  static inline void setStaticF___9__2_1(::System::Func_2<::TrackDefinitions::EnvironmentTracksDefinitionSO*, ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* value);
+  static inline void setStaticF___9__2_1(::System::Func_2<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>, ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* value);
 
-  static inline ::System::Func_2<::TrackDefinitions::EnvironmentTracksDefinitionSO*, ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* getStaticF___9__2_1();
+  static inline ::System::Func_2<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>, ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* getStaticF___9__2_1();
 
   static inline ::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionsListModel____c* New_ctor();
 
@@ -78,7 +78,7 @@ public:
   inline void _ctor();
 
   /// @brief Method <.ctor>b__2_0, addr 0x2a0cb54, size 0x18, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::EnvironmentInfoSO* __ctor_b__2_0(::TrackDefinitions::EnvironmentTracksDefinitionSO* trackDefinition);
+  inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> __ctor_b__2_0(::TrackDefinitions::EnvironmentTracksDefinitionSO* trackDefinition);
 
   /// @brief Method <.ctor>b__2_1, addr 0x2a0cb6c, size 0x60, virtual false, abstract: false, final false
   inline ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel* __ctor_b__2_1(::TrackDefinitions::EnvironmentTracksDefinitionSO* trackDefinition);
@@ -107,7 +107,7 @@ static_assert(::cordl_internals::size_check_v<::TrackDefinitions::DataModels::__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TrackDefinitions::DataModels {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16071))
 // CS Name: ::TrackDefinitions.DataModels::EnvironmentTrackDefinitionsListModel*
 class CORDL_TYPE EnvironmentTrackDefinitionsListModel : public ::System::Object {
@@ -116,20 +116,20 @@ public:
   using __c = ::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionsListModel____c;
 
   /// @brief Field _environmentTracksTypeMap, offset 0x10, size 0x8
-  __declspec(property(get = __get__environmentTracksTypeMap,
-                      put = __set__environmentTracksTypeMap))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentInfoSO*,
-                                                                                                          ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* _environmentTracksTypeMap;
+  __declspec(property(get = __cordl_internal_get__environmentTracksTypeMap, put = __cordl_internal_set__environmentTracksTypeMap))::System::Collections::Generic::Dictionary_2<
+      ::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* _environmentTracksTypeMap;
 
   __declspec(property(get = get_Item))::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel* Item[];
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentInfoSO*, ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>*& __get__environmentTracksTypeMap();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>*&
+  __cordl_internal_get__environmentTracksTypeMap();
 
   constexpr ::cordl_internals::to_const_pointer<
-      ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentInfoSO*, ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>*> const&
-  __get__environmentTracksTypeMap() const;
+      ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>*> const&
+  __cordl_internal_get__environmentTracksTypeMap() const;
 
-  constexpr void
-  __set__environmentTracksTypeMap(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentInfoSO*, ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* value);
+  constexpr void __cordl_internal_set__environmentTracksTypeMap(
+      ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* value);
 
   static inline ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel* New_ctor(::TrackDefinitions::EnvironmentDefinitionsListSO* environmentDefinitionsList);
 
@@ -137,10 +137,10 @@ public:
   inline void _ctor(::TrackDefinitions::EnvironmentDefinitionsListSO* environmentDefinitionsList);
 
   static inline ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel*
-  New_ctor(::System::Collections::Generic::IEnumerable_1<::TrackDefinitions::EnvironmentTracksDefinitionSO*>* environmentTrackDefinitions);
+  New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>>* environmentTrackDefinitions);
 
   /// @brief Method .ctor, addr 0x2a0c8d0, size 0x1a8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::TrackDefinitions::EnvironmentTracksDefinitionSO*>* environmentTrackDefinitions);
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>>* environmentTrackDefinitions);
 
   /// @brief Method get_Item, addr 0x2a0ca78, size 0x70, virtual false, abstract: false, final false
   inline ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel* get_Item(::GlobalNamespace::EnvironmentInfoSO* type);
@@ -160,7 +160,7 @@ protected:
 
 public:
   /// @brief Field _environmentTracksTypeMap, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::EnvironmentInfoSO*, ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* ____environmentTracksTypeMap;
+  ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel*>* ____environmentTracksTypeMap;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,29 +21,30 @@ MARK_REF_PTR_T(::GlobalNamespace::CustomTimelineTween);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6010))
 // CS Name: ::CustomTimelineTween*
 class CORDL_TYPE CustomTimelineTween : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field transforms, offset 0x18, size 0x8
-  __declspec(property(get = __get_transforms, put = __set_transforms))::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms;
+  __declspec(property(get = __cordl_internal_get_transforms,
+                      put = __cordl_internal_set_transforms))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> transforms;
 
   /// @brief Field startPositions, offset 0x20, size 0x8
-  __declspec(property(get = __get_startPositions, put = __set_startPositions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> startPositions;
+  __declspec(property(get = __cordl_internal_get_startPositions, put = __cordl_internal_set_startPositions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> startPositions;
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& __get_transforms();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_transforms();
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& __get_transforms() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_transforms() const;
 
-  constexpr void __set_transforms(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
+  constexpr void __cordl_internal_set_transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get_startPositions();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_startPositions();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get_startPositions() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_startPositions() const;
 
-  constexpr void __set_startPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set_startPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
   /// @brief Method OnValidate, addr 0x23158c0, size 0xd4, virtual false, abstract: false, final false
   inline void OnValidate();
@@ -68,7 +69,7 @@ protected:
 
 public:
   /// @brief Field transforms, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> ___transforms;
+  ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ___transforms;
 
   /// @brief Field startPositions, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ___startPositions;

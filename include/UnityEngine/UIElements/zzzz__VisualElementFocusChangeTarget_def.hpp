@@ -23,25 +23,25 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementFocusChangeTarget);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6881))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6881))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6794))
 // CS Name: ::UnityEngine.UIElements::VisualElementFocusChangeTarget*
 class CORDL_TYPE VisualElementFocusChangeTarget : public ::UnityEngine::UIElements::FocusChangeDirection {
 public:
   // Declarations
   /// @brief Field <target>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__target_k__BackingField, put = __set__target_k__BackingField))::UnityEngine::UIElements::Focusable* _target_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__target_k__BackingField, put = __cordl_internal_set__target_k__BackingField))::UnityEngine::UIElements::Focusable* _target_k__BackingField;
 
   /// @brief Field Pool, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Pool, put = setStaticF_Pool))::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>* Pool;
 
   __declspec(property(get = get_target, put = set_target))::UnityEngine::UIElements::Focusable* target;
 
-  constexpr ::UnityEngine::UIElements::Focusable*& __get__target_k__BackingField();
+  constexpr ::UnityEngine::UIElements::Focusable*& __cordl_internal_get__target_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Focusable*> const& __get__target_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Focusable*> const& __cordl_internal_get__target_k__BackingField() const;
 
-  constexpr void __set__target_k__BackingField(::UnityEngine::UIElements::Focusable* value);
+  constexpr void __cordl_internal_set__target_k__BackingField(::UnityEngine::UIElements::Focusable* value);
 
   static inline void setStaticF_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::VisualElementFocusChangeTarget*>* value);
 

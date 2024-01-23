@@ -22,20 +22,20 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::WellKnownServiceTypeEntry);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3079)), TypeDefinitionIndex(TypeDefinitionIndex(3082))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3079)), TypeDefinitionIndex(TypeDefinitionIndex(3082))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3083))
 // CS Name: ::System.Runtime.Remoting::WellKnownServiceTypeEntry*
 class CORDL_TYPE WellKnownServiceTypeEntry : public ::System::Runtime::Remoting::TypeEntry {
 public:
   // Declarations
   /// @brief Field obj_type, offset 0x20, size 0x8
-  __declspec(property(get = __get_obj_type, put = __set_obj_type))::System::Type* obj_type;
+  __declspec(property(get = __cordl_internal_get_obj_type, put = __cordl_internal_set_obj_type))::System::Type* obj_type;
 
   /// @brief Field obj_uri, offset 0x28, size 0x8
-  __declspec(property(get = __get_obj_uri, put = __set_obj_uri))::StringW obj_uri;
+  __declspec(property(get = __cordl_internal_get_obj_uri, put = __cordl_internal_set_obj_uri))::StringW obj_uri;
 
   /// @brief Field obj_mode, offset 0x30, size 0x4
-  __declspec(property(get = __get_obj_mode, put = __set_obj_mode))::System::Runtime::Remoting::WellKnownObjectMode obj_mode;
+  __declspec(property(get = __cordl_internal_get_obj_mode, put = __cordl_internal_set_obj_mode))::System::Runtime::Remoting::WellKnownObjectMode obj_mode;
 
   __declspec(property(get = get_Mode))::System::Runtime::Remoting::WellKnownObjectMode Mode;
 
@@ -43,23 +43,23 @@ public:
 
   __declspec(property(get = get_ObjectUri))::StringW ObjectUri;
 
-  constexpr ::System::Type*& __get_obj_type();
+  constexpr ::System::Type*& __cordl_internal_get_obj_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_obj_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_obj_type() const;
 
-  constexpr void __set_obj_type(::System::Type* value);
+  constexpr void __cordl_internal_set_obj_type(::System::Type* value);
 
-  constexpr ::StringW& __get_obj_uri();
+  constexpr ::StringW& __cordl_internal_get_obj_uri();
 
-  constexpr ::StringW const& __get_obj_uri() const;
+  constexpr ::StringW const& __cordl_internal_get_obj_uri() const;
 
-  constexpr void __set_obj_uri(::StringW value);
+  constexpr void __cordl_internal_set_obj_uri(::StringW value);
 
-  constexpr ::System::Runtime::Remoting::WellKnownObjectMode& __get_obj_mode();
+  constexpr ::System::Runtime::Remoting::WellKnownObjectMode& __cordl_internal_get_obj_mode();
 
-  constexpr ::System::Runtime::Remoting::WellKnownObjectMode const& __get_obj_mode() const;
+  constexpr ::System::Runtime::Remoting::WellKnownObjectMode const& __cordl_internal_get_obj_mode() const;
 
-  constexpr void __set_obj_mode(::System::Runtime::Remoting::WellKnownObjectMode value);
+  constexpr void __cordl_internal_set_obj_mode(::System::Runtime::Remoting::WellKnownObjectMode value);
 
   static inline ::System::Runtime::Remoting::WellKnownServiceTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUri,
                                                                                  ::System::Runtime::Remoting::WellKnownObjectMode mode);

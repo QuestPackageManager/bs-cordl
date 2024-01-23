@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::GlobalNamespace::HEU_ExampleEvergreenQuery);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9587))
 // CS Name: ::HEU_ExampleEvergreenQuery*
 class CORDL_TYPE HEU_ExampleEvergreenQuery : public ::System::Object {
@@ -48,7 +48,7 @@ public:
   static inline void StartQuery();
 
   /// @brief Method QueryHoudiniAsset, addr 0x214b1e4, size 0x1c0, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::HEU_HoudiniAsset* QueryHoudiniAsset(::UnityEngine::GameObject* rootGO);
+  static inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> QueryHoudiniAsset(::UnityEngine::GameObject* rootGO);
 
   /// @brief Method CookAsset, addr 0x214b3a4, size 0x10, virtual false, abstract: false, final false
   static inline void CookAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* houdiniAsset);

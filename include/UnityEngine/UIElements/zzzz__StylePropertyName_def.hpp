@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StylePropertyName);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7487))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7487))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6791))
 // CS Name: ::UnityEngine.UIElements::StylePropertyName
 struct CORDL_TYPE StylePropertyName {

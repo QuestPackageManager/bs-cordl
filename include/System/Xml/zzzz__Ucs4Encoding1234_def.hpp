@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Xml::Ucs4Encoding1234);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11557))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11557))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11558))
 // CS Name: ::System.Xml::Ucs4Encoding1234*
 class CORDL_TYPE Ucs4Encoding1234 : public ::System::Xml::Ucs4Encoding {

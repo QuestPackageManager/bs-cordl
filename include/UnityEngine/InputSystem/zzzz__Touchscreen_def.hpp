@@ -44,17 +44,19 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Touchscreen);
 // SizeInfo { instance_size: 408, native_size: -1, calculated_instance_size: 408, calculated_native_size: 408, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6701)), TypeDefinitionIndex(TypeDefinitionIndex(6247)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 4895
-// }), TypeDefinitionIndex(TypeDefinitionIndex(6641))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6288)) CS Name: ::UnityEngine.InputSystem::Touchscreen*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6247)), TypeDefinitionIndex(TypeDefinitionIndex(6641)), TypeDefinitionIndex(TypeDefinitionIndex(6701)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6701), inst: 4895 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6288)) CS Name: ::UnityEngine.InputSystem::Touchscreen*
 class CORDL_TYPE Touchscreen : public ::UnityEngine::InputSystem::Pointer {
 public:
   // Declarations
   /// @brief Field <primaryTouch>k__BackingField, offset 0x180, size 0x8
-  __declspec(property(get = __get__primaryTouch_k__BackingField, put = __set__primaryTouch_k__BackingField))::UnityEngine::InputSystem::Controls::TouchControl* _primaryTouch_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__primaryTouch_k__BackingField,
+                      put = __cordl_internal_set__primaryTouch_k__BackingField))::UnityEngine::InputSystem::Controls::TouchControl* _primaryTouch_k__BackingField;
 
   /// @brief Field <touches>k__BackingField, offset 0x188, size 0x10
-  __declspec(property(get = __get__touches_k__BackingField,
-                      put = __set__touches_k__BackingField))::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::TouchControl*> _touches_k__BackingField;
+  __declspec(property(
+      get = __cordl_internal_get__touches_k__BackingField,
+      put = __cordl_internal_set__touches_k__BackingField))::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::TouchControl*> _touches_k__BackingField;
 
   /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField))::UnityEngine::InputSystem::Touchscreen* _current_k__BackingField;
@@ -93,17 +95,17 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::ICustomDeviceReset"
   constexpr ::UnityEngine::InputSystem::LowLevel::ICustomDeviceReset* i___UnityEngine__InputSystem__LowLevel__ICustomDeviceReset() noexcept;
 
-  constexpr ::UnityEngine::InputSystem::Controls::TouchControl*& __get__primaryTouch_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::TouchControl*& __cordl_internal_get__primaryTouch_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::TouchControl*> const& __get__primaryTouch_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::TouchControl*> const& __cordl_internal_get__primaryTouch_k__BackingField() const;
 
-  constexpr void __set__primaryTouch_k__BackingField(::UnityEngine::InputSystem::Controls::TouchControl* value);
+  constexpr void __cordl_internal_set__primaryTouch_k__BackingField(::UnityEngine::InputSystem::Controls::TouchControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::TouchControl*>& __get__touches_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::TouchControl*>& __cordl_internal_get__touches_k__BackingField();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::TouchControl*> const& __get__touches_k__BackingField() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::TouchControl*> const& __cordl_internal_get__touches_k__BackingField() const;
 
-  constexpr void __set__touches_k__BackingField(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::TouchControl*> value);
+  constexpr void __cordl_internal_set__touches_k__BackingField(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::TouchControl*> value);
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Touchscreen* value);
 

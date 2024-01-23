@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__ScheduledItem____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6941))
 // CS Name: ::ScheduledItem::<>c*
 class CORDL_TYPE __ScheduledItem____c : public ::System::Object {
@@ -76,7 +76,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Sched
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6942))
 // CS Name: ::UnityEngine.UIElements::ScheduledItem*
 class CORDL_TYPE ScheduledItem : public ::System::Object {
@@ -85,19 +85,19 @@ public:
   using __c = ::UnityEngine::UIElements::__ScheduledItem____c;
 
   /// @brief Field timerUpdateStopCondition, offset 0x10, size 0x8
-  __declspec(property(get = __get_timerUpdateStopCondition, put = __set_timerUpdateStopCondition))::System::Func_1<bool>* timerUpdateStopCondition;
+  __declspec(property(get = __cordl_internal_get_timerUpdateStopCondition, put = __cordl_internal_set_timerUpdateStopCondition))::System::Func_1<bool>* timerUpdateStopCondition;
 
   /// @brief Field <startMs>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__startMs_k__BackingField, put = __set__startMs_k__BackingField)) int64_t _startMs_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__startMs_k__BackingField, put = __cordl_internal_set__startMs_k__BackingField)) int64_t _startMs_k__BackingField;
 
   /// @brief Field <delayMs>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__delayMs_k__BackingField, put = __set__delayMs_k__BackingField)) int64_t _delayMs_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__delayMs_k__BackingField, put = __cordl_internal_set__delayMs_k__BackingField)) int64_t _delayMs_k__BackingField;
 
   /// @brief Field <intervalMs>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__intervalMs_k__BackingField, put = __set__intervalMs_k__BackingField)) int64_t _intervalMs_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__intervalMs_k__BackingField, put = __cordl_internal_set__intervalMs_k__BackingField)) int64_t _intervalMs_k__BackingField;
 
   /// @brief Field <endTimeMs>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__endTimeMs_k__BackingField, put = __set__endTimeMs_k__BackingField)) int64_t _endTimeMs_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__endTimeMs_k__BackingField, put = __cordl_internal_set__endTimeMs_k__BackingField)) int64_t _endTimeMs_k__BackingField;
 
   /// @brief Field OnceCondition, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_OnceCondition, put = setStaticF_OnceCondition))::System::Func_1<bool>* OnceCondition;
@@ -113,35 +113,35 @@ public:
 
   __declspec(property(get = get_endTimeMs)) int64_t endTimeMs;
 
-  constexpr ::System::Func_1<bool>*& __get_timerUpdateStopCondition();
+  constexpr ::System::Func_1<bool>*& __cordl_internal_get_timerUpdateStopCondition();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& __get_timerUpdateStopCondition() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& __cordl_internal_get_timerUpdateStopCondition() const;
 
-  constexpr void __set_timerUpdateStopCondition(::System::Func_1<bool>* value);
+  constexpr void __cordl_internal_set_timerUpdateStopCondition(::System::Func_1<bool>* value);
 
-  constexpr int64_t& __get__startMs_k__BackingField();
+  constexpr int64_t& __cordl_internal_get__startMs_k__BackingField();
 
-  constexpr int64_t const& __get__startMs_k__BackingField() const;
+  constexpr int64_t const& __cordl_internal_get__startMs_k__BackingField() const;
 
-  constexpr void __set__startMs_k__BackingField(int64_t value);
+  constexpr void __cordl_internal_set__startMs_k__BackingField(int64_t value);
 
-  constexpr int64_t& __get__delayMs_k__BackingField();
+  constexpr int64_t& __cordl_internal_get__delayMs_k__BackingField();
 
-  constexpr int64_t const& __get__delayMs_k__BackingField() const;
+  constexpr int64_t const& __cordl_internal_get__delayMs_k__BackingField() const;
 
-  constexpr void __set__delayMs_k__BackingField(int64_t value);
+  constexpr void __cordl_internal_set__delayMs_k__BackingField(int64_t value);
 
-  constexpr int64_t& __get__intervalMs_k__BackingField();
+  constexpr int64_t& __cordl_internal_get__intervalMs_k__BackingField();
 
-  constexpr int64_t const& __get__intervalMs_k__BackingField() const;
+  constexpr int64_t const& __cordl_internal_get__intervalMs_k__BackingField() const;
 
-  constexpr void __set__intervalMs_k__BackingField(int64_t value);
+  constexpr void __cordl_internal_set__intervalMs_k__BackingField(int64_t value);
 
-  constexpr int64_t& __get__endTimeMs_k__BackingField();
+  constexpr int64_t& __cordl_internal_get__endTimeMs_k__BackingField();
 
-  constexpr int64_t const& __get__endTimeMs_k__BackingField() const;
+  constexpr int64_t const& __cordl_internal_get__endTimeMs_k__BackingField() const;
 
-  constexpr void __set__endTimeMs_k__BackingField(int64_t value);
+  constexpr void __cordl_internal_set__endTimeMs_k__BackingField(int64_t value);
 
   static inline void setStaticF_OnceCondition(::System::Func_1<bool>* value);
 

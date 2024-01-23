@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::UnmanagedFunctionPointerAttri
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3333)), TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3333))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3313))
 // CS Name: ::System.Runtime.InteropServices::UnmanagedFunctionPointerAttribute*
 class CORDL_TYPE UnmanagedFunctionPointerAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field m_callingConvention, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_callingConvention, put = __set_m_callingConvention))::System::Runtime::InteropServices::CallingConvention m_callingConvention;
+  __declspec(property(get = __cordl_internal_get_m_callingConvention, put = __cordl_internal_set_m_callingConvention))::System::Runtime::InteropServices::CallingConvention m_callingConvention;
 
-  constexpr ::System::Runtime::InteropServices::CallingConvention& __get_m_callingConvention();
+  constexpr ::System::Runtime::InteropServices::CallingConvention& __cordl_internal_get_m_callingConvention();
 
-  constexpr ::System::Runtime::InteropServices::CallingConvention const& __get_m_callingConvention() const;
+  constexpr ::System::Runtime::InteropServices::CallingConvention const& __cordl_internal_get_m_callingConvention() const;
 
-  constexpr void __set_m_callingConvention(::System::Runtime::InteropServices::CallingConvention value);
+  constexpr void __cordl_internal_set_m_callingConvention(::System::Runtime::InteropServices::CallingConvention value);
 
   static inline ::System::Runtime::InteropServices::UnmanagedFunctionPointerAttribute* New_ctor(::System::Runtime::InteropServices::CallingConvention callingConvention);
 

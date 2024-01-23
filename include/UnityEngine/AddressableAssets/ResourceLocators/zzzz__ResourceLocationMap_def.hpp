@@ -41,17 +41,17 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocat
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14115))
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::ResourceLocationMap*
 class CORDL_TYPE ResourceLocationMap : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <LocatorId>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__LocatorId_k__BackingField, put = __set__LocatorId_k__BackingField))::StringW _LocatorId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__LocatorId_k__BackingField, put = __cordl_internal_set__LocatorId_k__BackingField))::StringW _LocatorId_k__BackingField;
 
   /// @brief Field <Locations>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Locations_k__BackingField, put = __set__Locations_k__BackingField))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get__Locations_k__BackingField, put = __cordl_internal_set__Locations_k__BackingField))::System::Collections::Generic::Dictionary_2<
       ::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* _Locations_k__BackingField;
 
   __declspec(property(get = get_LocatorId, put = set_LocatorId))::StringW LocatorId;
@@ -67,20 +67,20 @@ public:
   /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
   constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i___UnityEngine__AddressableAssets__ResourceLocators__IResourceLocator() noexcept;
 
-  constexpr ::StringW& __get__LocatorId_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__LocatorId_k__BackingField();
 
-  constexpr ::StringW const& __get__LocatorId_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__LocatorId_k__BackingField() const;
 
-  constexpr void __set__LocatorId_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__LocatorId_k__BackingField(::StringW value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>*&
-  __get__Locations_k__BackingField();
+  __cordl_internal_get__Locations_k__BackingField();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>*> const&
-  __get__Locations_k__BackingField() const;
+  __cordl_internal_get__Locations_k__BackingField() const;
 
-  constexpr void __set__Locations_k__BackingField(
+  constexpr void __cordl_internal_set__Locations_k__BackingField(
       ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>* value);
 
   static inline ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* New_ctor(::StringW id, int32_t capacity);

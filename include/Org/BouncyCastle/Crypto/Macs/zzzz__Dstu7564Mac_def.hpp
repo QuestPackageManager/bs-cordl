@@ -26,26 +26,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Macs::Dstu7564Mac);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Macs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(939))
 // CS Name: ::Org.BouncyCastle.Crypto.Macs::Dstu7564Mac*
 class CORDL_TYPE Dstu7564Mac : public ::System::Object {
 public:
   // Declarations
   /// @brief Field engine, offset 0x10, size 0x8
-  __declspec(property(get = __get_engine, put = __set_engine))::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* engine;
+  __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine))::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* engine;
 
   /// @brief Field macSize, offset 0x18, size 0x4
-  __declspec(property(get = __get_macSize, put = __set_macSize)) int32_t macSize;
+  __declspec(property(get = __cordl_internal_get_macSize, put = __cordl_internal_set_macSize)) int32_t macSize;
 
   /// @brief Field inputLength, offset 0x20, size 0x8
-  __declspec(property(get = __get_inputLength, put = __set_inputLength)) uint64_t inputLength;
+  __declspec(property(get = __cordl_internal_get_inputLength, put = __cordl_internal_set_inputLength)) uint64_t inputLength;
 
   /// @brief Field paddedKey, offset 0x28, size 0x8
-  __declspec(property(get = __get_paddedKey, put = __set_paddedKey))::ArrayW<uint8_t, ::Array<uint8_t>*> paddedKey;
+  __declspec(property(get = __cordl_internal_get_paddedKey, put = __cordl_internal_set_paddedKey))::ArrayW<uint8_t, ::Array<uint8_t>*> paddedKey;
 
   /// @brief Field invertedKey, offset 0x30, size 0x8
-  __declspec(property(get = __get_invertedKey, put = __set_invertedKey))::ArrayW<uint8_t, ::Array<uint8_t>*> invertedKey;
+  __declspec(property(get = __cordl_internal_get_invertedKey, put = __cordl_internal_set_invertedKey))::ArrayW<uint8_t, ::Array<uint8_t>*> invertedKey;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -55,35 +55,35 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
   constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest*& __get_engine();
+  constexpr ::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest*& __cordl_internal_get_engine();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest*> const& __get_engine() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest*> const& __cordl_internal_get_engine() const;
 
-  constexpr void __set_engine(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* value);
+  constexpr void __cordl_internal_set_engine(::Org::BouncyCastle::Crypto::Digests::Dstu7564Digest* value);
 
-  constexpr int32_t& __get_macSize();
+  constexpr int32_t& __cordl_internal_get_macSize();
 
-  constexpr int32_t const& __get_macSize() const;
+  constexpr int32_t const& __cordl_internal_get_macSize() const;
 
-  constexpr void __set_macSize(int32_t value);
+  constexpr void __cordl_internal_set_macSize(int32_t value);
 
-  constexpr uint64_t& __get_inputLength();
+  constexpr uint64_t& __cordl_internal_get_inputLength();
 
-  constexpr uint64_t const& __get_inputLength() const;
+  constexpr uint64_t const& __cordl_internal_get_inputLength() const;
 
-  constexpr void __set_inputLength(uint64_t value);
+  constexpr void __cordl_internal_set_inputLength(uint64_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_paddedKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_paddedKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_paddedKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_paddedKey() const;
 
-  constexpr void __set_paddedKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_paddedKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_invertedKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_invertedKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_invertedKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_invertedKey() const;
 
-  constexpr void __set_invertedKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_invertedKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   /// @brief Method get_AlgorithmName, addr 0xf0bc98, size 0x40, virtual true, abstract: false, final true
   inline ::StringW get_AlgorithmName();

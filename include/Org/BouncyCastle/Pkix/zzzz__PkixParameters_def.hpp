@@ -39,71 +39,71 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixParameters);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 141, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1713))
 // CS Name: ::Org.BouncyCastle.Pkix::PkixParameters*
 class CORDL_TYPE PkixParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field trustAnchors, offset 0x10, size 0x8
-  __declspec(property(get = __get_trustAnchors, put = __set_trustAnchors))::Org::BouncyCastle::Utilities::Collections::ISet* trustAnchors;
+  __declspec(property(get = __cordl_internal_get_trustAnchors, put = __cordl_internal_set_trustAnchors))::Org::BouncyCastle::Utilities::Collections::ISet* trustAnchors;
 
   /// @brief Field date, offset 0x18, size 0x8
-  __declspec(property(get = __get_date, put = __set_date))::Org::BouncyCastle::Utilities::Date::DateTimeObject* date;
+  __declspec(property(get = __cordl_internal_get_date, put = __cordl_internal_set_date))::Org::BouncyCastle::Utilities::Date::DateTimeObject* date;
 
   /// @brief Field certPathCheckers, offset 0x20, size 0x8
-  __declspec(property(get = __get_certPathCheckers, put = __set_certPathCheckers))::System::Collections::IList* certPathCheckers;
+  __declspec(property(get = __cordl_internal_get_certPathCheckers, put = __cordl_internal_set_certPathCheckers))::System::Collections::IList* certPathCheckers;
 
   /// @brief Field revocationEnabled, offset 0x28, size 0x1
-  __declspec(property(get = __get_revocationEnabled, put = __set_revocationEnabled)) bool revocationEnabled;
+  __declspec(property(get = __cordl_internal_get_revocationEnabled, put = __cordl_internal_set_revocationEnabled)) bool revocationEnabled;
 
   /// @brief Field initialPolicies, offset 0x30, size 0x8
-  __declspec(property(get = __get_initialPolicies, put = __set_initialPolicies))::Org::BouncyCastle::Utilities::Collections::ISet* initialPolicies;
+  __declspec(property(get = __cordl_internal_get_initialPolicies, put = __cordl_internal_set_initialPolicies))::Org::BouncyCastle::Utilities::Collections::ISet* initialPolicies;
 
   /// @brief Field explicitPolicyRequired, offset 0x38, size 0x1
-  __declspec(property(get = __get_explicitPolicyRequired, put = __set_explicitPolicyRequired)) bool explicitPolicyRequired;
+  __declspec(property(get = __cordl_internal_get_explicitPolicyRequired, put = __cordl_internal_set_explicitPolicyRequired)) bool explicitPolicyRequired;
 
   /// @brief Field anyPolicyInhibited, offset 0x39, size 0x1
-  __declspec(property(get = __get_anyPolicyInhibited, put = __set_anyPolicyInhibited)) bool anyPolicyInhibited;
+  __declspec(property(get = __cordl_internal_get_anyPolicyInhibited, put = __cordl_internal_set_anyPolicyInhibited)) bool anyPolicyInhibited;
 
   /// @brief Field policyMappingInhibited, offset 0x3a, size 0x1
-  __declspec(property(get = __get_policyMappingInhibited, put = __set_policyMappingInhibited)) bool policyMappingInhibited;
+  __declspec(property(get = __cordl_internal_get_policyMappingInhibited, put = __cordl_internal_set_policyMappingInhibited)) bool policyMappingInhibited;
 
   /// @brief Field policyQualifiersRejected, offset 0x3b, size 0x1
-  __declspec(property(get = __get_policyQualifiersRejected, put = __set_policyQualifiersRejected)) bool policyQualifiersRejected;
+  __declspec(property(get = __cordl_internal_get_policyQualifiersRejected, put = __cordl_internal_set_policyQualifiersRejected)) bool policyQualifiersRejected;
 
   /// @brief Field certSelector, offset 0x40, size 0x8
-  __declspec(property(get = __get_certSelector, put = __set_certSelector))::Org::BouncyCastle::X509::Store::IX509Selector* certSelector;
+  __declspec(property(get = __cordl_internal_get_certSelector, put = __cordl_internal_set_certSelector))::Org::BouncyCastle::X509::Store::IX509Selector* certSelector;
 
   /// @brief Field stores, offset 0x48, size 0x8
-  __declspec(property(get = __get_stores, put = __set_stores))::System::Collections::IList* stores;
+  __declspec(property(get = __cordl_internal_get_stores, put = __cordl_internal_set_stores))::System::Collections::IList* stores;
 
   /// @brief Field selector, offset 0x50, size 0x8
-  __declspec(property(get = __get_selector, put = __set_selector))::Org::BouncyCastle::X509::Store::IX509Selector* selector;
+  __declspec(property(get = __cordl_internal_get_selector, put = __cordl_internal_set_selector))::Org::BouncyCastle::X509::Store::IX509Selector* selector;
 
   /// @brief Field additionalLocationsEnabled, offset 0x58, size 0x1
-  __declspec(property(get = __get_additionalLocationsEnabled, put = __set_additionalLocationsEnabled)) bool additionalLocationsEnabled;
+  __declspec(property(get = __cordl_internal_get_additionalLocationsEnabled, put = __cordl_internal_set_additionalLocationsEnabled)) bool additionalLocationsEnabled;
 
   /// @brief Field additionalStores, offset 0x60, size 0x8
-  __declspec(property(get = __get_additionalStores, put = __set_additionalStores))::System::Collections::IList* additionalStores;
+  __declspec(property(get = __cordl_internal_get_additionalStores, put = __cordl_internal_set_additionalStores))::System::Collections::IList* additionalStores;
 
   /// @brief Field trustedACIssuers, offset 0x68, size 0x8
-  __declspec(property(get = __get_trustedACIssuers, put = __set_trustedACIssuers))::Org::BouncyCastle::Utilities::Collections::ISet* trustedACIssuers;
+  __declspec(property(get = __cordl_internal_get_trustedACIssuers, put = __cordl_internal_set_trustedACIssuers))::Org::BouncyCastle::Utilities::Collections::ISet* trustedACIssuers;
 
   /// @brief Field necessaryACAttributes, offset 0x70, size 0x8
-  __declspec(property(get = __get_necessaryACAttributes, put = __set_necessaryACAttributes))::Org::BouncyCastle::Utilities::Collections::ISet* necessaryACAttributes;
+  __declspec(property(get = __cordl_internal_get_necessaryACAttributes, put = __cordl_internal_set_necessaryACAttributes))::Org::BouncyCastle::Utilities::Collections::ISet* necessaryACAttributes;
 
   /// @brief Field prohibitedACAttributes, offset 0x78, size 0x8
-  __declspec(property(get = __get_prohibitedACAttributes, put = __set_prohibitedACAttributes))::Org::BouncyCastle::Utilities::Collections::ISet* prohibitedACAttributes;
+  __declspec(property(get = __cordl_internal_get_prohibitedACAttributes, put = __cordl_internal_set_prohibitedACAttributes))::Org::BouncyCastle::Utilities::Collections::ISet* prohibitedACAttributes;
 
   /// @brief Field attrCertCheckers, offset 0x80, size 0x8
-  __declspec(property(get = __get_attrCertCheckers, put = __set_attrCertCheckers))::Org::BouncyCastle::Utilities::Collections::ISet* attrCertCheckers;
+  __declspec(property(get = __cordl_internal_get_attrCertCheckers, put = __cordl_internal_set_attrCertCheckers))::Org::BouncyCastle::Utilities::Collections::ISet* attrCertCheckers;
 
   /// @brief Field validityModel, offset 0x88, size 0x4
-  __declspec(property(get = __get_validityModel, put = __set_validityModel)) int32_t validityModel;
+  __declspec(property(get = __cordl_internal_get_validityModel, put = __cordl_internal_set_validityModel)) int32_t validityModel;
 
   /// @brief Field useDeltas, offset 0x8c, size 0x1
-  __declspec(property(get = __get_useDeltas, put = __set_useDeltas)) bool useDeltas;
+  __declspec(property(get = __cordl_internal_get_useDeltas, put = __cordl_internal_set_useDeltas)) bool useDeltas;
 
   __declspec(property(get = get_IsRevocationEnabled, put = set_IsRevocationEnabled)) bool IsRevocationEnabled;
 
@@ -123,125 +123,125 @@ public:
 
   __declspec(property(get = get_IsAdditionalLocationsEnabled)) bool IsAdditionalLocationsEnabled;
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_trustAnchors();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_trustAnchors();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_trustAnchors() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_trustAnchors() const;
 
-  constexpr void __set_trustAnchors(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_trustAnchors(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject*& __get_date();
+  constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject*& __cordl_internal_get_date();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Date::DateTimeObject*> const& __get_date() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Date::DateTimeObject*> const& __cordl_internal_get_date() const;
 
-  constexpr void __set_date(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
+  constexpr void __cordl_internal_set_date(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
 
-  constexpr ::System::Collections::IList*& __get_certPathCheckers();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_certPathCheckers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_certPathCheckers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_certPathCheckers() const;
 
-  constexpr void __set_certPathCheckers(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_certPathCheckers(::System::Collections::IList* value);
 
-  constexpr bool& __get_revocationEnabled();
+  constexpr bool& __cordl_internal_get_revocationEnabled();
 
-  constexpr bool const& __get_revocationEnabled() const;
+  constexpr bool const& __cordl_internal_get_revocationEnabled() const;
 
-  constexpr void __set_revocationEnabled(bool value);
+  constexpr void __cordl_internal_set_revocationEnabled(bool value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_initialPolicies();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_initialPolicies();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_initialPolicies() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_initialPolicies() const;
 
-  constexpr void __set_initialPolicies(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_initialPolicies(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr bool& __get_explicitPolicyRequired();
+  constexpr bool& __cordl_internal_get_explicitPolicyRequired();
 
-  constexpr bool const& __get_explicitPolicyRequired() const;
+  constexpr bool const& __cordl_internal_get_explicitPolicyRequired() const;
 
-  constexpr void __set_explicitPolicyRequired(bool value);
+  constexpr void __cordl_internal_set_explicitPolicyRequired(bool value);
 
-  constexpr bool& __get_anyPolicyInhibited();
+  constexpr bool& __cordl_internal_get_anyPolicyInhibited();
 
-  constexpr bool const& __get_anyPolicyInhibited() const;
+  constexpr bool const& __cordl_internal_get_anyPolicyInhibited() const;
 
-  constexpr void __set_anyPolicyInhibited(bool value);
+  constexpr void __cordl_internal_set_anyPolicyInhibited(bool value);
 
-  constexpr bool& __get_policyMappingInhibited();
+  constexpr bool& __cordl_internal_get_policyMappingInhibited();
 
-  constexpr bool const& __get_policyMappingInhibited() const;
+  constexpr bool const& __cordl_internal_get_policyMappingInhibited() const;
 
-  constexpr void __set_policyMappingInhibited(bool value);
+  constexpr void __cordl_internal_set_policyMappingInhibited(bool value);
 
-  constexpr bool& __get_policyQualifiersRejected();
+  constexpr bool& __cordl_internal_get_policyQualifiersRejected();
 
-  constexpr bool const& __get_policyQualifiersRejected() const;
+  constexpr bool const& __cordl_internal_get_policyQualifiersRejected() const;
 
-  constexpr void __set_policyQualifiersRejected(bool value);
+  constexpr void __cordl_internal_set_policyQualifiersRejected(bool value);
 
-  constexpr ::Org::BouncyCastle::X509::Store::IX509Selector*& __get_certSelector();
+  constexpr ::Org::BouncyCastle::X509::Store::IX509Selector*& __cordl_internal_get_certSelector();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Selector*> const& __get_certSelector() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Selector*> const& __cordl_internal_get_certSelector() const;
 
-  constexpr void __set_certSelector(::Org::BouncyCastle::X509::Store::IX509Selector* value);
+  constexpr void __cordl_internal_set_certSelector(::Org::BouncyCastle::X509::Store::IX509Selector* value);
 
-  constexpr ::System::Collections::IList*& __get_stores();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_stores();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_stores() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_stores() const;
 
-  constexpr void __set_stores(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_stores(::System::Collections::IList* value);
 
-  constexpr ::Org::BouncyCastle::X509::Store::IX509Selector*& __get_selector();
+  constexpr ::Org::BouncyCastle::X509::Store::IX509Selector*& __cordl_internal_get_selector();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Selector*> const& __get_selector() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Selector*> const& __cordl_internal_get_selector() const;
 
-  constexpr void __set_selector(::Org::BouncyCastle::X509::Store::IX509Selector* value);
+  constexpr void __cordl_internal_set_selector(::Org::BouncyCastle::X509::Store::IX509Selector* value);
 
-  constexpr bool& __get_additionalLocationsEnabled();
+  constexpr bool& __cordl_internal_get_additionalLocationsEnabled();
 
-  constexpr bool const& __get_additionalLocationsEnabled() const;
+  constexpr bool const& __cordl_internal_get_additionalLocationsEnabled() const;
 
-  constexpr void __set_additionalLocationsEnabled(bool value);
+  constexpr void __cordl_internal_set_additionalLocationsEnabled(bool value);
 
-  constexpr ::System::Collections::IList*& __get_additionalStores();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_additionalStores();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_additionalStores() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_additionalStores() const;
 
-  constexpr void __set_additionalStores(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_additionalStores(::System::Collections::IList* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_trustedACIssuers();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_trustedACIssuers();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_trustedACIssuers() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_trustedACIssuers() const;
 
-  constexpr void __set_trustedACIssuers(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_trustedACIssuers(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_necessaryACAttributes();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_necessaryACAttributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_necessaryACAttributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_necessaryACAttributes() const;
 
-  constexpr void __set_necessaryACAttributes(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_necessaryACAttributes(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_prohibitedACAttributes();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_prohibitedACAttributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_prohibitedACAttributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_prohibitedACAttributes() const;
 
-  constexpr void __set_prohibitedACAttributes(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_prohibitedACAttributes(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_attrCertCheckers();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_attrCertCheckers();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_attrCertCheckers() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_attrCertCheckers() const;
 
-  constexpr void __set_attrCertCheckers(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_attrCertCheckers(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  constexpr int32_t& __get_validityModel();
+  constexpr int32_t& __cordl_internal_get_validityModel();
 
-  constexpr int32_t const& __get_validityModel() const;
+  constexpr int32_t const& __cordl_internal_get_validityModel() const;
 
-  constexpr void __set_validityModel(int32_t value);
+  constexpr void __cordl_internal_set_validityModel(int32_t value);
 
-  constexpr bool& __get_useDeltas();
+  constexpr bool& __cordl_internal_get_useDeltas();
 
-  constexpr bool const& __get_useDeltas() const;
+  constexpr bool const& __cordl_internal_get_useDeltas() const;
 
-  constexpr void __set_useDeltas(bool value);
+  constexpr void __cordl_internal_set_useDeltas(bool value);
 
   static inline ::Org::BouncyCastle::Pkix::PkixParameters* New_ctor(::Org::BouncyCastle::Utilities::Collections::ISet* trustAnchors);
 

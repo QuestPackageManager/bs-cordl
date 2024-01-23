@@ -13,10 +13,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x2219ba4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterResultAnimationController*>::get(), "SetCharacter",
-                                    std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BTSCharacter*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterResultAnimationController*>::get(), "SetCharacter", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BTSCharacter*>::get() })));
     return ___internal_method;
   }
 };
@@ -28,9 +28,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x2219c0c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterResultAnimationController*>::get(),
-                                                                               "StopAnimation", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "StopAnimation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -42,79 +42,77 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2219c2c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterResultAnimationController*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::MaterialPropertyBlockColorSetter*& GlobalNamespace::BTSCharacterResultAnimationController::__get__rimLightColorSetter() {
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter>& GlobalNamespace::BTSCharacterResultAnimationController::__cordl_internal_get__rimLightColorSetter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rimLightColorSetter;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockColorSetter*> const& GlobalNamespace::BTSCharacterResultAnimationController::__get__rimLightColorSetter() const {
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> const& GlobalNamespace::BTSCharacterResultAnimationController::__cordl_internal_get__rimLightColorSetter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rimLightColorSetter;
 }
-constexpr void GlobalNamespace::BTSCharacterResultAnimationController::__set__rimLightColorSetter(::GlobalNamespace::MaterialPropertyBlockColorSetter* value) {
+constexpr void GlobalNamespace::BTSCharacterResultAnimationController::__cordl_internal_set__rimLightColorSetter(::UnityW<::GlobalNamespace::MaterialPropertyBlockColorSetter> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rimLightColorSetter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MaterialPropertyBlockFloatAnimator*& GlobalNamespace::BTSCharacterResultAnimationController::__get__rimLightIntensityAnimator() {
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator>& GlobalNamespace::BTSCharacterResultAnimationController::__cordl_internal_get__rimLightIntensityAnimator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rimLightIntensityAnimator;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockFloatAnimator*> const&
-GlobalNamespace::BTSCharacterResultAnimationController::__get__rimLightIntensityAnimator() const {
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> const& GlobalNamespace::BTSCharacterResultAnimationController::__cordl_internal_get__rimLightIntensityAnimator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rimLightIntensityAnimator;
 }
-constexpr void GlobalNamespace::BTSCharacterResultAnimationController::__set__rimLightIntensityAnimator(::GlobalNamespace::MaterialPropertyBlockFloatAnimator* value) {
+constexpr void GlobalNamespace::BTSCharacterResultAnimationController::__cordl_internal_set__rimLightIntensityAnimator(::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rimLightIntensityAnimator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MaterialPropertyBlockFloatAnimator*& GlobalNamespace::BTSCharacterResultAnimationController::__get__rimLightEdgeStartAnimator() {
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator>& GlobalNamespace::BTSCharacterResultAnimationController::__cordl_internal_get__rimLightEdgeStartAnimator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rimLightEdgeStartAnimator;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockFloatAnimator*> const&
-GlobalNamespace::BTSCharacterResultAnimationController::__get__rimLightEdgeStartAnimator() const {
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> const& GlobalNamespace::BTSCharacterResultAnimationController::__cordl_internal_get__rimLightEdgeStartAnimator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rimLightEdgeStartAnimator;
 }
-constexpr void GlobalNamespace::BTSCharacterResultAnimationController::__set__rimLightEdgeStartAnimator(::GlobalNamespace::MaterialPropertyBlockFloatAnimator* value) {
+constexpr void GlobalNamespace::BTSCharacterResultAnimationController::__cordl_internal_set__rimLightEdgeStartAnimator(::UnityW<::GlobalNamespace::MaterialPropertyBlockFloatAnimator> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rimLightEdgeStartAnimator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::BTSCharacterResultAnimationController::__get__collidersGameObject() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::BTSCharacterResultAnimationController::__cordl_internal_get__collidersGameObject() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collidersGameObject;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::BTSCharacterResultAnimationController::__get__collidersGameObject() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::BTSCharacterResultAnimationController::__cordl_internal_get__collidersGameObject() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____collidersGameObject;
 }
-constexpr void GlobalNamespace::BTSCharacterResultAnimationController::__set__collidersGameObject(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::BTSCharacterResultAnimationController::__cordl_internal_set__collidersGameObject(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____collidersGameObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::BTSCharacterResultAnimationController::SetCharacter(::GlobalNamespace::BTSCharacter* btsCharacter) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterResultAnimationController*>::get(), "SetCharacter", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BTSCharacter*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterResultAnimationController*>::get(), "SetCharacter", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BTSCharacter*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, btsCharacter);
 }
 inline void GlobalNamespace::BTSCharacterResultAnimationController::StopAnimation() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterResultAnimationController*>::get(),
-                                                                             "StopAnimation", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "StopAnimation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::BTSCharacterResultAnimationController* GlobalNamespace::BTSCharacterResultAnimationController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::BTSCharacterResultAnimationController*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BTSCharacterResultAnimationController*>());
 }
 inline void GlobalNamespace::BTSCharacterResultAnimationController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BTSCharacterResultAnimationController*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

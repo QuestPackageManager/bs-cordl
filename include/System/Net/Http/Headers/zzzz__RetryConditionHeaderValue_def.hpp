@@ -35,17 +35,17 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::RetryConditionHeaderValue);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2702
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2711 }), TypeDefinitionIndex(TypeDefinitionIndex(2370)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(14706)) CS Name: ::System.Net.Http.Headers::RetryConditionHeaderValue*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2370)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2484)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2702 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 2711 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14706)) CS Name: ::System.Net.Http.Headers::RetryConditionHeaderValue*
 class CORDL_TYPE RetryConditionHeaderValue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Date>k__BackingField, offset 0x10, size 0x18
-  __declspec(property(get = __get__Date_k__BackingField, put = __set__Date_k__BackingField))::System::Nullable_1<::System::DateTimeOffset> _Date_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Date_k__BackingField, put = __cordl_internal_set__Date_k__BackingField))::System::Nullable_1<::System::DateTimeOffset> _Date_k__BackingField;
 
   /// @brief Field <Delta>k__BackingField, offset 0x28, size 0x10
-  __declspec(property(get = __get__Delta_k__BackingField, put = __set__Delta_k__BackingField))::System::Nullable_1<::System::TimeSpan> _Delta_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Delta_k__BackingField, put = __cordl_internal_set__Delta_k__BackingField))::System::Nullable_1<::System::TimeSpan> _Delta_k__BackingField;
 
   __declspec(property(get = get_Date, put = set_Date))::System::Nullable_1<::System::DateTimeOffset> Date;
 
@@ -57,17 +57,17 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::System::Nullable_1<::System::DateTimeOffset>& __get__Date_k__BackingField();
+  constexpr ::System::Nullable_1<::System::DateTimeOffset>& __cordl_internal_get__Date_k__BackingField();
 
-  constexpr ::System::Nullable_1<::System::DateTimeOffset> const& __get__Date_k__BackingField() const;
+  constexpr ::System::Nullable_1<::System::DateTimeOffset> const& __cordl_internal_get__Date_k__BackingField() const;
 
-  constexpr void __set__Date_k__BackingField(::System::Nullable_1<::System::DateTimeOffset> value);
+  constexpr void __cordl_internal_set__Date_k__BackingField(::System::Nullable_1<::System::DateTimeOffset> value);
 
-  constexpr ::System::Nullable_1<::System::TimeSpan>& __get__Delta_k__BackingField();
+  constexpr ::System::Nullable_1<::System::TimeSpan>& __cordl_internal_get__Delta_k__BackingField();
 
-  constexpr ::System::Nullable_1<::System::TimeSpan> const& __get__Delta_k__BackingField() const;
+  constexpr ::System::Nullable_1<::System::TimeSpan> const& __cordl_internal_get__Delta_k__BackingField() const;
 
-  constexpr void __set__Delta_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
+  constexpr void __cordl_internal_set__Delta_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
 
   static inline ::System::Net::Http::Headers::RetryConditionHeaderValue* New_ctor(::System::DateTimeOffset date);
 

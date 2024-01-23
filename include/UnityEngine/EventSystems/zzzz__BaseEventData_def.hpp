@@ -23,24 +23,24 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::BaseEventData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13164))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13164))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13165))
 // CS Name: ::UnityEngine.EventSystems::BaseEventData*
 class CORDL_TYPE BaseEventData : public ::UnityEngine::EventSystems::AbstractEventData {
 public:
   // Declarations
   /// @brief Field m_EventSystem, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_EventSystem, put = __set_m_EventSystem))::UnityEngine::EventSystems::EventSystem* m_EventSystem;
+  __declspec(property(get = __cordl_internal_get_m_EventSystem, put = __cordl_internal_set_m_EventSystem))::UnityW<::UnityEngine::EventSystems::EventSystem> m_EventSystem;
 
-  __declspec(property(get = get_currentInputModule))::UnityEngine::EventSystems::BaseInputModule* currentInputModule;
+  __declspec(property(get = get_currentInputModule))::UnityW<::UnityEngine::EventSystems::BaseInputModule> currentInputModule;
 
-  __declspec(property(get = get_selectedObject, put = set_selectedObject))::UnityEngine::GameObject* selectedObject;
+  __declspec(property(get = get_selectedObject, put = set_selectedObject))::UnityW<::UnityEngine::GameObject> selectedObject;
 
-  constexpr ::UnityEngine::EventSystems::EventSystem*& __get_m_EventSystem();
+  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem>& __cordl_internal_get_m_EventSystem();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::EventSystem*> const& __get_m_EventSystem() const;
+  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem> const& __cordl_internal_get_m_EventSystem() const;
 
-  constexpr void __set_m_EventSystem(::UnityEngine::EventSystems::EventSystem* value);
+  constexpr void __cordl_internal_set_m_EventSystem(::UnityW<::UnityEngine::EventSystems::EventSystem> value);
 
   static inline ::UnityEngine::EventSystems::BaseEventData* New_ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
@@ -48,10 +48,10 @@ public:
   inline void _ctor(::UnityEngine::EventSystems::EventSystem* eventSystem);
 
   /// @brief Method get_currentInputModule, addr 0x2d9544c, size 0x1c, virtual false, abstract: false, final false
-  inline ::UnityEngine::EventSystems::BaseInputModule* get_currentInputModule();
+  inline ::UnityW<::UnityEngine::EventSystems::BaseInputModule> get_currentInputModule();
 
   /// @brief Method get_selectedObject, addr 0x2d95468, size 0x1c, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_selectedObject();
+  inline ::UnityW<::UnityEngine::GameObject> get_selectedObject();
 
   /// @brief Method set_selectedObject, addr 0x2d95484, size 0x1c, virtual false, abstract: false, final false
   inline void set_selectedObject(::UnityEngine::GameObject* value);
@@ -71,7 +71,7 @@ protected:
 
 public:
   /// @brief Field m_EventSystem, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::EventSystems::EventSystem* ___m_EventSystem;
+  ::UnityW<::UnityEngine::EventSystems::EventSystem> ___m_EventSystem;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

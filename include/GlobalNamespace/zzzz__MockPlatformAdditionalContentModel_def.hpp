@@ -64,9 +64,9 @@ MARK_VAL_T(::GlobalNamespace::__MockPlatformAdditionalContentModel___OpenLevelPr
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3409)), TypeDefinitionIndex(TypeDefinitionIndex(16271))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4103))
-// CS Name: ::MockPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__8
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3409)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16271)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4103)) CS
+// Name: ::MockPlatformAdditionalContentModel::<OpenLevelProductStoreAsync>d__8
 struct CORDL_TYPE __MockPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__8 {
 public:
   // Declarations
@@ -138,7 +138,7 @@ static_assert(offsetof(::GlobalNamespace::__MockPlatformAdditionalContentModel__
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4100))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4100))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4104))
 // CS Name: ::MockPlatformAdditionalContentModel*
 class CORDL_TYPE MockPlatformAdditionalContentModel : public ::GlobalNamespace::AdditionalContentModel {
@@ -147,33 +147,35 @@ public:
   using _OpenLevelProductStoreAsync_d__8 = ::GlobalNamespace::__MockPlatformAdditionalContentModel___OpenLevelProductStoreAsync_d__8;
 
   /// @brief Field _levelsEntitlements, offset 0x28, size 0x8
-  __declspec(property(get = __get__levelsEntitlements,
-                      put = __set__levelsEntitlements))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* _levelsEntitlements;
+  __declspec(property(get = __cordl_internal_get__levelsEntitlements,
+                      put = __cordl_internal_set__levelsEntitlements))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* _levelsEntitlements;
 
   /// @brief Field _levelPacksEntitlements, offset 0x30, size 0x8
-  __declspec(property(get = __get__levelPacksEntitlements,
-                      put = __set__levelPacksEntitlements))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* _levelPacksEntitlements;
+  __declspec(property(get = __cordl_internal_get__levelPacksEntitlements,
+                      put = __cordl_internal_set__levelPacksEntitlements))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* _levelPacksEntitlements;
 
   /// @brief Field _packBetterBuyThanLevel, offset 0x38, size 0x1
-  __declspec(property(get = __get__packBetterBuyThanLevel, put = __set__packBetterBuyThanLevel)) bool _packBetterBuyThanLevel;
+  __declspec(property(get = __cordl_internal_get__packBetterBuyThanLevel, put = __cordl_internal_set__packBetterBuyThanLevel)) bool _packBetterBuyThanLevel;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>*& __get__levelsEntitlements();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>*& __cordl_internal_get__levelsEntitlements();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>*> const& __get__levelsEntitlements() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>*> const&
+  __cordl_internal_get__levelsEntitlements() const;
 
-  constexpr void __set__levelsEntitlements(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* value);
+  constexpr void __cordl_internal_set__levelsEntitlements(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>*& __get__levelPacksEntitlements();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>*& __cordl_internal_get__levelPacksEntitlements();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>*> const& __get__levelPacksEntitlements() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>*> const&
+  __cordl_internal_get__levelPacksEntitlements() const;
 
-  constexpr void __set__levelPacksEntitlements(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* value);
+  constexpr void __cordl_internal_set__levelPacksEntitlements(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* value);
 
-  constexpr bool& __get__packBetterBuyThanLevel();
+  constexpr bool& __cordl_internal_get__packBetterBuyThanLevel();
 
-  constexpr bool const& __get__packBetterBuyThanLevel() const;
+  constexpr bool const& __cordl_internal_get__packBetterBuyThanLevel() const;
 
-  constexpr void __set__packBetterBuyThanLevel(bool value);
+  constexpr void __cordl_internal_set__packBetterBuyThanLevel(bool value);
 
   static inline ::GlobalNamespace::MockPlatformAdditionalContentModel* New_ctor(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* mockPlatformAdditionalContentModelInitialData,
                                                                                 ::GlobalNamespace::AlwaysOwnedContentContainerSO* alwaysOwnedContentContainer);

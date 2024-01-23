@@ -32,33 +32,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms::Ecc {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(54))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms.Ecc::MQVuserKeyingMaterial*
 class CORDL_TYPE MQVuserKeyingMaterial : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field ephemeralPublicKey, offset 0x10, size 0x8
-  __declspec(property(get = __get_ephemeralPublicKey, put = __set_ephemeralPublicKey))::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* ephemeralPublicKey;
+  __declspec(property(get = __cordl_internal_get_ephemeralPublicKey, put = __cordl_internal_set_ephemeralPublicKey))::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* ephemeralPublicKey;
 
   /// @brief Field addedukm, offset 0x18, size 0x8
-  __declspec(property(get = __get_addedukm, put = __set_addedukm))::Org::BouncyCastle::Asn1::Asn1OctetString* addedukm;
+  __declspec(property(get = __cordl_internal_get_addedukm, put = __cordl_internal_set_addedukm))::Org::BouncyCastle::Asn1::Asn1OctetString* addedukm;
 
   __declspec(property(get = get_EphemeralPublicKey))::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* EphemeralPublicKey;
 
   __declspec(property(get = get_AddedUkm))::Org::BouncyCastle::Asn1::Asn1OctetString* AddedUkm;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey*& __get_ephemeralPublicKey();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey*& __cordl_internal_get_ephemeralPublicKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey*> const& __get_ephemeralPublicKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey*> const& __cordl_internal_get_ephemeralPublicKey() const;
 
-  constexpr void __set_ephemeralPublicKey(::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* value);
+  constexpr void __cordl_internal_set_ephemeralPublicKey(::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_addedukm();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_addedukm();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_addedukm() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_addedukm() const;
 
-  constexpr void __set_addedukm(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_addedukm(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::Ecc::MQVuserKeyingMaterial* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey* ephemeralPublicKey,
                                                                                      ::Org::BouncyCastle::Asn1::Asn1OctetString* addedukm);

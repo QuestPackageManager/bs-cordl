@@ -15,56 +15,56 @@ MARK_REF_PTR_T(::System::Threading::ReaderWriterCount);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14318))
 // CS Name: ::System.Threading::ReaderWriterCount*
 class CORDL_TYPE ReaderWriterCount : public ::System::Object {
 public:
   // Declarations
   /// @brief Field lockID, offset 0x10, size 0x8
-  __declspec(property(get = __get_lockID, put = __set_lockID)) int64_t lockID;
+  __declspec(property(get = __cordl_internal_get_lockID, put = __cordl_internal_set_lockID)) int64_t lockID;
 
   /// @brief Field readercount, offset 0x18, size 0x4
-  __declspec(property(get = __get_readercount, put = __set_readercount)) int32_t readercount;
+  __declspec(property(get = __cordl_internal_get_readercount, put = __cordl_internal_set_readercount)) int32_t readercount;
 
   /// @brief Field writercount, offset 0x1c, size 0x4
-  __declspec(property(get = __get_writercount, put = __set_writercount)) int32_t writercount;
+  __declspec(property(get = __cordl_internal_get_writercount, put = __cordl_internal_set_writercount)) int32_t writercount;
 
   /// @brief Field upgradecount, offset 0x20, size 0x4
-  __declspec(property(get = __get_upgradecount, put = __set_upgradecount)) int32_t upgradecount;
+  __declspec(property(get = __cordl_internal_get_upgradecount, put = __cordl_internal_set_upgradecount)) int32_t upgradecount;
 
   /// @brief Field next, offset 0x28, size 0x8
-  __declspec(property(get = __get_next, put = __set_next))::System::Threading::ReaderWriterCount* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Threading::ReaderWriterCount* next;
 
-  constexpr int64_t& __get_lockID();
+  constexpr int64_t& __cordl_internal_get_lockID();
 
-  constexpr int64_t const& __get_lockID() const;
+  constexpr int64_t const& __cordl_internal_get_lockID() const;
 
-  constexpr void __set_lockID(int64_t value);
+  constexpr void __cordl_internal_set_lockID(int64_t value);
 
-  constexpr int32_t& __get_readercount();
+  constexpr int32_t& __cordl_internal_get_readercount();
 
-  constexpr int32_t const& __get_readercount() const;
+  constexpr int32_t const& __cordl_internal_get_readercount() const;
 
-  constexpr void __set_readercount(int32_t value);
+  constexpr void __cordl_internal_set_readercount(int32_t value);
 
-  constexpr int32_t& __get_writercount();
+  constexpr int32_t& __cordl_internal_get_writercount();
 
-  constexpr int32_t const& __get_writercount() const;
+  constexpr int32_t const& __cordl_internal_get_writercount() const;
 
-  constexpr void __set_writercount(int32_t value);
+  constexpr void __cordl_internal_set_writercount(int32_t value);
 
-  constexpr int32_t& __get_upgradecount();
+  constexpr int32_t& __cordl_internal_get_upgradecount();
 
-  constexpr int32_t const& __get_upgradecount() const;
+  constexpr int32_t const& __cordl_internal_get_upgradecount() const;
 
-  constexpr void __set_upgradecount(int32_t value);
+  constexpr void __cordl_internal_set_upgradecount(int32_t value);
 
-  constexpr ::System::Threading::ReaderWriterCount*& __get_next();
+  constexpr ::System::Threading::ReaderWriterCount*& __cordl_internal_get_next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ReaderWriterCount*> const& __get_next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ReaderWriterCount*> const& __cordl_internal_get_next() const;
 
-  constexpr void __set_next(::System::Threading::ReaderWriterCount* value);
+  constexpr void __cordl_internal_set_next(::System::Threading::ReaderWriterCount* value);
 
   static inline ::System::Threading::ReaderWriterCount* New_ctor();
 

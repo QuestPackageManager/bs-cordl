@@ -55,7 +55,7 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2348))
 // CS Name: ::ArraySegment`1::Enumerator<T>
 struct CORDL_TYPE __ArraySegment_1__Enumerator {
@@ -134,7 +134,7 @@ namespace System {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2349)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2349), inst: 772 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2349)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2349), inst: 772 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2349))
 // CS Name: ::System::ArraySegment`1<T>
 struct CORDL_TYPE ArraySegment_1 {

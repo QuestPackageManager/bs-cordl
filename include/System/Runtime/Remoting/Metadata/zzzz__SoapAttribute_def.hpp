@@ -18,42 +18,42 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Metadata::SoapAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Metadata {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3138))
 // CS Name: ::System.Runtime.Remoting.Metadata::SoapAttribute*
 class CORDL_TYPE SoapAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field _useAttribute, offset 0x10, size 0x1
-  __declspec(property(get = __get__useAttribute, put = __set__useAttribute)) bool _useAttribute;
+  __declspec(property(get = __cordl_internal_get__useAttribute, put = __cordl_internal_set__useAttribute)) bool _useAttribute;
 
   /// @brief Field ProtXmlNamespace, offset 0x18, size 0x8
-  __declspec(property(get = __get_ProtXmlNamespace, put = __set_ProtXmlNamespace))::StringW ProtXmlNamespace;
+  __declspec(property(get = __cordl_internal_get_ProtXmlNamespace, put = __cordl_internal_set_ProtXmlNamespace))::StringW ProtXmlNamespace;
 
   /// @brief Field ReflectInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get_ReflectInfo, put = __set_ReflectInfo))::System::Object* ReflectInfo;
+  __declspec(property(get = __cordl_internal_get_ReflectInfo, put = __cordl_internal_set_ReflectInfo))::System::Object* ReflectInfo;
 
   __declspec(property(get = get_UseAttribute)) bool UseAttribute;
 
   __declspec(property(get = get_XmlNamespace))::StringW XmlNamespace;
 
-  constexpr bool& __get__useAttribute();
+  constexpr bool& __cordl_internal_get__useAttribute();
 
-  constexpr bool const& __get__useAttribute() const;
+  constexpr bool const& __cordl_internal_get__useAttribute() const;
 
-  constexpr void __set__useAttribute(bool value);
+  constexpr void __cordl_internal_set__useAttribute(bool value);
 
-  constexpr ::StringW& __get_ProtXmlNamespace();
+  constexpr ::StringW& __cordl_internal_get_ProtXmlNamespace();
 
-  constexpr ::StringW const& __get_ProtXmlNamespace() const;
+  constexpr ::StringW const& __cordl_internal_get_ProtXmlNamespace() const;
 
-  constexpr void __set_ProtXmlNamespace(::StringW value);
+  constexpr void __cordl_internal_set_ProtXmlNamespace(::StringW value);
 
-  constexpr ::System::Object*& __get_ReflectInfo();
+  constexpr ::System::Object*& __cordl_internal_get_ReflectInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_ReflectInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_ReflectInfo() const;
 
-  constexpr void __set_ReflectInfo(::System::Object* value);
+  constexpr void __cordl_internal_set_ReflectInfo(::System::Object* value);
 
   static inline ::System::Runtime::Remoting::Metadata::SoapAttribute* New_ctor();
 

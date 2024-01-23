@@ -42,23 +42,23 @@ MARK_REF_PTR_T(::BeatSaber::AvatarCore::__AvatarVisualController___WaitForAvatar
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15184))
 // CS Name: ::AvatarVisualController::<WaitForAvatarLoadAndSetLightColor>d__2*
 class CORDL_TYPE __AvatarVisualController___WaitForAvatarLoadAndSetLightColor_d__2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::BeatSaber::AvatarCore::AvatarVisualController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::BeatSaber::AvatarCore::AvatarVisualController> __4__this;
 
   /// @brief Field color, offset 0x28, size 0x10
-  __declspec(property(get = __get_color, put = __set_color))::UnityEngine::Color color;
+  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::UnityEngine::Color color;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -82,29 +82,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::BeatSaber::AvatarCore::AvatarVisualController*& __get___4__this();
+  constexpr ::UnityW<::BeatSaber::AvatarCore::AvatarVisualController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::AvatarVisualController*> const& __get___4__this() const;
+  constexpr ::UnityW<::BeatSaber::AvatarCore::AvatarVisualController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::BeatSaber::AvatarCore::AvatarVisualController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::BeatSaber::AvatarCore::AvatarVisualController> value);
 
-  constexpr ::UnityEngine::Color& __get_color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_color();
 
-  constexpr ::UnityEngine::Color const& __get_color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
 
-  constexpr void __set_color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
 
   static inline ::BeatSaber::AvatarCore::__AvatarVisualController___WaitForAvatarLoadAndSetLightColor_d__2* New_ctor(int32_t __1__state);
 
@@ -147,7 +147,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::BeatSaber::AvatarCore::AvatarVisualController* _____4__this;
+  ::UnityW<::BeatSaber::AvatarCore::AvatarVisualController> _____4__this;
 
   /// @brief Field color, offset: 0x28, size: 0x10, def value: None
   ::UnityEngine::Color ___color;
@@ -170,7 +170,7 @@ static_assert(offsetof(::BeatSaber::AvatarCore::__AvatarVisualController___WaitF
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::AvatarCore {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15185))
 // CS Name: ::BeatSaber.AvatarCore::AvatarVisualController*
 class CORDL_TYPE AvatarVisualController : public ::UnityEngine::MonoBehaviour {
@@ -179,13 +179,13 @@ public:
   using _WaitForAvatarLoadAndSetLightColor_d__2 = ::BeatSaber::AvatarCore::__AvatarVisualController___WaitForAvatarLoadAndSetLightColor_d__2;
 
   /// @brief Field _avatarController, offset 0x18, size 0x8
-  __declspec(property(get = __get__avatarController, put = __set__avatarController))::BeatSaber::AvatarCore::AvatarController* _avatarController;
+  __declspec(property(get = __cordl_internal_get__avatarController, put = __cordl_internal_set__avatarController))::UnityW<::BeatSaber::AvatarCore::AvatarController> _avatarController;
 
-  constexpr ::BeatSaber::AvatarCore::AvatarController*& __get__avatarController();
+  constexpr ::UnityW<::BeatSaber::AvatarCore::AvatarController>& __cordl_internal_get__avatarController();
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::AvatarCore::AvatarController*> const& __get__avatarController() const;
+  constexpr ::UnityW<::BeatSaber::AvatarCore::AvatarController> const& __cordl_internal_get__avatarController() const;
 
-  constexpr void __set__avatarController(::BeatSaber::AvatarCore::AvatarController* value);
+  constexpr void __cordl_internal_set__avatarController(::UnityW<::BeatSaber::AvatarCore::AvatarController> value);
 
   /// @brief Method SetLightColor, addr 0xe0e934, size 0x13c, virtual false, abstract: false, final false
   inline void SetLightColor(::UnityEngine::Color color);
@@ -216,7 +216,7 @@ protected:
 
 public:
   /// @brief Field _avatarController, offset: 0x18, size: 0x8, def value: None
-  ::BeatSaber::AvatarCore::AvatarController* ____avatarController;
+  ::UnityW<::BeatSaber::AvatarCore::AvatarController> ____avatarController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

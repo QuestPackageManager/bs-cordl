@@ -25,7 +25,7 @@ MARK_REF_PTR_T(::GlobalNamespace::BombExecutionRating);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4136))
 // CS Name: ::BombExecutionRating::Rating
 struct CORDL_TYPE __BombExecutionRating__Rating {
@@ -75,7 +75,7 @@ static_assert(offsetof(::GlobalNamespace::__BombExecutionRating__Rating, value__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4136)), TypeDefinitionIndex(TypeDefinitionIndex(4135))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4135)), TypeDefinitionIndex(TypeDefinitionIndex(4136))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4137))
 // CS Name: ::BombExecutionRating*
 class CORDL_TYPE BombExecutionRating : public ::GlobalNamespace::BeatmapObjectExecutionRating {
@@ -84,15 +84,15 @@ public:
   using Rating = ::GlobalNamespace::__BombExecutionRating__Rating;
 
   /// @brief Field <rating>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__rating_k__BackingField, put = __set__rating_k__BackingField))::GlobalNamespace::__BombExecutionRating__Rating _rating_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rating_k__BackingField, put = __cordl_internal_set__rating_k__BackingField))::GlobalNamespace::__BombExecutionRating__Rating _rating_k__BackingField;
 
   __declspec(property(get = get_rating))::GlobalNamespace::__BombExecutionRating__Rating rating;
 
-  constexpr ::GlobalNamespace::__BombExecutionRating__Rating& __get__rating_k__BackingField();
+  constexpr ::GlobalNamespace::__BombExecutionRating__Rating& __cordl_internal_get__rating_k__BackingField();
 
-  constexpr ::GlobalNamespace::__BombExecutionRating__Rating const& __get__rating_k__BackingField() const;
+  constexpr ::GlobalNamespace::__BombExecutionRating__Rating const& __cordl_internal_get__rating_k__BackingField() const;
 
-  constexpr void __set__rating_k__BackingField(::GlobalNamespace::__BombExecutionRating__Rating value);
+  constexpr void __cordl_internal_set__rating_k__BackingField(::GlobalNamespace::__BombExecutionRating__Rating value);
 
   /// @brief Method get_rating, addr 0x223bfbc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__BombExecutionRating__Rating get_rating();

@@ -29,14 +29,14 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByInstance);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11244))
 // CS Name: ::Zenject::SubContainerCreatorByInstance*
 class CORDL_TYPE SubContainerCreatorByInstance : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _subcontainer, offset 0x10, size 0x8
-  __declspec(property(get = __get__subcontainer, put = __set__subcontainer))::Zenject::DiContainer* _subcontainer;
+  __declspec(property(get = __cordl_internal_get__subcontainer, put = __cordl_internal_set__subcontainer))::Zenject::DiContainer* _subcontainer;
 
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
@@ -44,11 +44,11 @@ public:
   /// @brief Convert to "::Zenject::ISubContainerCreator"
   constexpr ::Zenject::ISubContainerCreator* i___Zenject__ISubContainerCreator() noexcept;
 
-  constexpr ::Zenject::DiContainer*& __get__subcontainer();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__subcontainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__subcontainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__subcontainer() const;
 
-  constexpr void __set__subcontainer(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__subcontainer(::Zenject::DiContainer* value);
 
   static inline ::Zenject::SubContainerCreatorByInstance* New_ctor(::Zenject::DiContainer* subcontainer);
 

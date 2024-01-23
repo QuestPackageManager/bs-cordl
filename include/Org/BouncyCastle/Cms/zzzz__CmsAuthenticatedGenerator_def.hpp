@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsAuthenticatedGenerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(617))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(617))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(618))
 // CS Name: ::Org.BouncyCastle.Cms::CmsAuthenticatedGenerator*
 class CORDL_TYPE CmsAuthenticatedGenerator : public ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator {

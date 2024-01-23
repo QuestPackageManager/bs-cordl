@@ -41,38 +41,38 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12520))
 // CS Name: ::GrounderFBBIK::SpineEffector*
 class CORDL_TYPE __GrounderFBBIK__SpineEffector : public ::System::Object {
 public:
   // Declarations
   /// @brief Field effectorType, offset 0x10, size 0x4
-  __declspec(property(get = __get_effectorType, put = __set_effectorType))::RootMotion::FinalIK::FullBodyBipedEffector effectorType;
+  __declspec(property(get = __cordl_internal_get_effectorType, put = __cordl_internal_set_effectorType))::RootMotion::FinalIK::FullBodyBipedEffector effectorType;
 
   /// @brief Field horizontalWeight, offset 0x14, size 0x4
-  __declspec(property(get = __get_horizontalWeight, put = __set_horizontalWeight)) float_t horizontalWeight;
+  __declspec(property(get = __cordl_internal_get_horizontalWeight, put = __cordl_internal_set_horizontalWeight)) float_t horizontalWeight;
 
   /// @brief Field verticalWeight, offset 0x18, size 0x4
-  __declspec(property(get = __get_verticalWeight, put = __set_verticalWeight)) float_t verticalWeight;
+  __declspec(property(get = __cordl_internal_get_verticalWeight, put = __cordl_internal_set_verticalWeight)) float_t verticalWeight;
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& __get_effectorType();
+  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& __cordl_internal_get_effectorType();
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& __get_effectorType() const;
+  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& __cordl_internal_get_effectorType() const;
 
-  constexpr void __set_effectorType(::RootMotion::FinalIK::FullBodyBipedEffector value);
+  constexpr void __cordl_internal_set_effectorType(::RootMotion::FinalIK::FullBodyBipedEffector value);
 
-  constexpr float_t& __get_horizontalWeight();
+  constexpr float_t& __cordl_internal_get_horizontalWeight();
 
-  constexpr float_t const& __get_horizontalWeight() const;
+  constexpr float_t const& __cordl_internal_get_horizontalWeight() const;
 
-  constexpr void __set_horizontalWeight(float_t value);
+  constexpr void __cordl_internal_set_horizontalWeight(float_t value);
 
-  constexpr float_t& __get_verticalWeight();
+  constexpr float_t& __cordl_internal_get_verticalWeight();
 
-  constexpr float_t const& __get_verticalWeight() const;
+  constexpr float_t const& __cordl_internal_get_verticalWeight() const;
 
-  constexpr void __set_verticalWeight(float_t value);
+  constexpr void __cordl_internal_set_verticalWeight(float_t value);
 
   static inline ::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector* New_ctor();
 
@@ -123,7 +123,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector, __
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 109, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12518)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12518))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12521))
 // CS Name: ::RootMotion.FinalIK::GrounderFBBIK*
 class CORDL_TYPE GrounderFBBIK : public ::RootMotion::FinalIK::Grounder {
@@ -132,67 +132,68 @@ public:
   using SpineEffector = ::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector;
 
   /// @brief Field ik, offset 0x40, size 0x8
-  __declspec(property(get = __get_ik, put = __set_ik))::RootMotion::FinalIK::FullBodyBipedIK* ik;
+  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> ik;
 
   /// @brief Field spineBend, offset 0x48, size 0x4
-  __declspec(property(get = __get_spineBend, put = __set_spineBend)) float_t spineBend;
+  __declspec(property(get = __cordl_internal_get_spineBend, put = __cordl_internal_set_spineBend)) float_t spineBend;
 
   /// @brief Field spineSpeed, offset 0x4c, size 0x4
-  __declspec(property(get = __get_spineSpeed, put = __set_spineSpeed)) float_t spineSpeed;
+  __declspec(property(get = __cordl_internal_get_spineSpeed, put = __cordl_internal_set_spineSpeed)) float_t spineSpeed;
 
   /// @brief Field spine, offset 0x50, size 0x8
-  __declspec(property(get = __get_spine, put = __set_spine))::ArrayW<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*, ::Array<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*>*> spine;
+  __declspec(property(get = __cordl_internal_get_spine,
+                      put = __cordl_internal_set_spine))::ArrayW<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*, ::Array<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*>*> spine;
 
   /// @brief Field feet, offset 0x58, size 0x8
-  __declspec(property(get = __get_feet, put = __set_feet))::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> feet;
+  __declspec(property(get = __cordl_internal_get_feet, put = __cordl_internal_set_feet))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> feet;
 
   /// @brief Field spineOffset, offset 0x60, size 0xc
-  __declspec(property(get = __get_spineOffset, put = __set_spineOffset))::UnityEngine::Vector3 spineOffset;
+  __declspec(property(get = __cordl_internal_get_spineOffset, put = __cordl_internal_set_spineOffset))::UnityEngine::Vector3 spineOffset;
 
   /// @brief Field firstSolve, offset 0x6c, size 0x1
-  __declspec(property(get = __get_firstSolve, put = __set_firstSolve)) bool firstSolve;
+  __declspec(property(get = __cordl_internal_get_firstSolve, put = __cordl_internal_set_firstSolve)) bool firstSolve;
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedIK*& __get_ik();
+  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK>& __cordl_internal_get_ik();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::FullBodyBipedIK*> const& __get_ik() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> const& __cordl_internal_get_ik() const;
 
-  constexpr void __set_ik(::RootMotion::FinalIK::FullBodyBipedIK* value);
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> value);
 
-  constexpr float_t& __get_spineBend();
+  constexpr float_t& __cordl_internal_get_spineBend();
 
-  constexpr float_t const& __get_spineBend() const;
+  constexpr float_t const& __cordl_internal_get_spineBend() const;
 
-  constexpr void __set_spineBend(float_t value);
+  constexpr void __cordl_internal_set_spineBend(float_t value);
 
-  constexpr float_t& __get_spineSpeed();
+  constexpr float_t& __cordl_internal_get_spineSpeed();
 
-  constexpr float_t const& __get_spineSpeed() const;
+  constexpr float_t const& __cordl_internal_get_spineSpeed() const;
 
-  constexpr void __set_spineSpeed(float_t value);
+  constexpr void __cordl_internal_set_spineSpeed(float_t value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*, ::Array<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*>*>& __get_spine();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*, ::Array<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*>*>& __cordl_internal_get_spine();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*, ::Array<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*>*> const& __get_spine() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*, ::Array<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*>*> const& __cordl_internal_get_spine() const;
 
-  constexpr void __set_spine(::ArrayW<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*, ::Array<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*>*> value);
+  constexpr void __cordl_internal_set_spine(::ArrayW<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*, ::Array<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& __get_feet();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_feet();
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& __get_feet() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_feet() const;
 
-  constexpr void __set_feet(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
+  constexpr void __cordl_internal_set_feet(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  constexpr ::UnityEngine::Vector3& __get_spineOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_spineOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get_spineOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_spineOffset() const;
 
-  constexpr void __set_spineOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_spineOffset(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get_firstSolve();
+  constexpr bool& __cordl_internal_get_firstSolve();
 
-  constexpr bool const& __get_firstSolve() const;
+  constexpr bool const& __cordl_internal_get_firstSolve() const;
 
-  constexpr void __set_firstSolve(bool value);
+  constexpr void __cordl_internal_set_firstSolve(bool value);
 
   /// @brief Method OpenTutorial, addr 0x1246700, size 0x44, virtual false, abstract: false, final false
   inline void OpenTutorial();
@@ -253,7 +254,7 @@ protected:
 
 public:
   /// @brief Field ik, offset: 0x40, size: 0x8, def value: None
-  ::RootMotion::FinalIK::FullBodyBipedIK* ___ik;
+  ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> ___ik;
 
   /// @brief Field spineBend, offset: 0x48, size: 0x4, def value: None
   float_t ___spineBend;
@@ -265,7 +266,7 @@ public:
   ::ArrayW<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*, ::Array<::RootMotion::FinalIK::__GrounderFBBIK__SpineEffector*>*> ___spine;
 
   /// @brief Field feet, offset: 0x58, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> ___feet;
+  ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ___feet;
 
   /// @brief Field spineOffset, offset: 0x60, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___spineOffset;

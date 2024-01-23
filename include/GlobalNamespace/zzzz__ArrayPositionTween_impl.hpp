@@ -17,9 +17,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2315044;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArrayPositionTween*>::get(), "get_clipCaps",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x144;
   constexpr static std::size_t addrs = 0x231504c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArrayPositionTween*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArrayPositionTween*>::get(), 6));
@@ -45,9 +45,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2315190;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArrayPositionTween*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -59,45 +59,45 @@ constexpr GlobalNamespace::ArrayPositionTween::operator ::UnityEngine::Timeline:
 constexpr ::UnityEngine::Timeline::ITimelineClipAsset* GlobalNamespace::ArrayPositionTween::i___UnityEngine__Timeline__ITimelineClipAsset() noexcept {
   return static_cast<::UnityEngine::Timeline::ITimelineClipAsset*>(static_cast<void*>(this));
 }
-constexpr ::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference*>& GlobalNamespace::ArrayPositionTween::__get_arrayReference() {
+constexpr ::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>>& GlobalNamespace::ArrayPositionTween::__cordl_internal_get_arrayReference() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arrayReference;
 }
-constexpr ::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference*> const& GlobalNamespace::ArrayPositionTween::__get_arrayReference() const {
+constexpr ::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>> const& GlobalNamespace::ArrayPositionTween::__cordl_internal_get_arrayReference() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___arrayReference;
 }
-constexpr void GlobalNamespace::ArrayPositionTween::__set_arrayReference(::UnityEngine::ExposedReference_1<::GlobalNamespace::TimelineArrayReference*> value) {
+constexpr void GlobalNamespace::ArrayPositionTween::__cordl_internal_set_arrayReference(::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___arrayReference = value;
 }
-constexpr float_t& GlobalNamespace::ArrayPositionTween::__get_elementDelay() {
+constexpr float_t& GlobalNamespace::ArrayPositionTween::__cordl_internal_get_elementDelay() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementDelay;
 }
-constexpr float_t const& GlobalNamespace::ArrayPositionTween::__get_elementDelay() const {
+constexpr float_t const& GlobalNamespace::ArrayPositionTween::__cordl_internal_get_elementDelay() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___elementDelay;
 }
-constexpr void GlobalNamespace::ArrayPositionTween::__set_elementDelay(float_t value) {
+constexpr void GlobalNamespace::ArrayPositionTween::__cordl_internal_set_elementDelay(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___elementDelay = value;
 }
-constexpr ::GlobalNamespace::CustomTweenBehaviour*& GlobalNamespace::ArrayPositionTween::__get__cordl_template() {
+constexpr ::GlobalNamespace::CustomTweenBehaviour*& GlobalNamespace::ArrayPositionTween::__cordl_internal_get__cordl_template() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_template;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CustomTweenBehaviour*> const& GlobalNamespace::ArrayPositionTween::__get__cordl_template() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CustomTweenBehaviour*> const& GlobalNamespace::ArrayPositionTween::__cordl_internal_get__cordl_template() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cordl_template;
 }
-constexpr void GlobalNamespace::ArrayPositionTween::__set__cordl_template(::GlobalNamespace::CustomTweenBehaviour* value) {
+constexpr void GlobalNamespace::ArrayPositionTween::__cordl_internal_set__cordl_template(::GlobalNamespace::CustomTweenBehaviour* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____cordl_template)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::UnityEngine::Timeline::ClipCaps GlobalNamespace::ArrayPositionTween::get_clipCaps() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArrayPositionTween*>::get(), "get_clipCaps",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Timeline::ClipCaps, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Playables::Playable GlobalNamespace::ArrayPositionTween::CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go) {
@@ -106,11 +106,11 @@ inline ::UnityEngine::Playables::Playable GlobalNamespace::ArrayPositionTween::C
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Playables::Playable, false>(this, ___internal_method, graph, go);
 }
 inline ::GlobalNamespace::ArrayPositionTween* GlobalNamespace::ArrayPositionTween::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::ArrayPositionTween*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ArrayPositionTween*>());
 }
 inline void GlobalNamespace::ArrayPositionTween::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArrayPositionTween*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

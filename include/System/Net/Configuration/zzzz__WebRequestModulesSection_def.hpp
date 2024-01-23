@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Net::Configuration::WebRequestModulesSection);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16258))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16258))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9580))
 // CS Name: ::System.Net.Configuration::WebRequestModulesSection*
 class CORDL_TYPE WebRequestModulesSection : public ::System::Configuration::ConfigurationSection {

@@ -47,59 +47,59 @@ MARK_REF_PTR_T(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7);
 // SizeInfo { instance_size: 552, native_size: -1, calculated_instance_size: 552, calculated_native_size: 548, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12332)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12405))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12332)), TypeDefinitionIndex(TypeDefinitionIndex(12405))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12418))
 // CS Name: ::TMP_SpriteAnimator::<DoSpriteAnimationInternal>d__7*
 class CORDL_TYPE __TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::TMPro::TMP_SpriteAnimator* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::TMPro::TMP_SpriteAnimator> __4__this;
 
   /// @brief Field start, offset 0x28, size 0x4
-  __declspec(property(get = __get_start, put = __set_start)) int32_t start;
+  __declspec(property(get = __cordl_internal_get_start, put = __cordl_internal_set_start)) int32_t start;
 
   /// @brief Field end, offset 0x2c, size 0x4
-  __declspec(property(get = __get_end, put = __set_end)) int32_t end;
+  __declspec(property(get = __cordl_internal_get_end, put = __cordl_internal_set_end)) int32_t end;
 
   /// @brief Field spriteAsset, offset 0x30, size 0x8
-  __declspec(property(get = __get_spriteAsset, put = __set_spriteAsset))::TMPro::TMP_SpriteAsset* spriteAsset;
+  __declspec(property(get = __cordl_internal_get_spriteAsset, put = __cordl_internal_set_spriteAsset))::UnityW<::TMPro::TMP_SpriteAsset> spriteAsset;
 
   /// @brief Field currentCharacter, offset 0x38, size 0x4
-  __declspec(property(get = __get_currentCharacter, put = __set_currentCharacter)) int32_t currentCharacter;
+  __declspec(property(get = __cordl_internal_get_currentCharacter, put = __cordl_internal_set_currentCharacter)) int32_t currentCharacter;
 
   /// @brief Field framerate, offset 0x3c, size 0x4
-  __declspec(property(get = __get_framerate, put = __set_framerate)) int32_t framerate;
+  __declspec(property(get = __cordl_internal_get_framerate, put = __cordl_internal_set_framerate)) int32_t framerate;
 
   /// @brief Field <currentFrame>5__2, offset 0x40, size 0x4
-  __declspec(property(get = __get__currentFrame_5__2, put = __set__currentFrame_5__2)) int32_t _currentFrame_5__2;
+  __declspec(property(get = __cordl_internal_get__currentFrame_5__2, put = __cordl_internal_set__currentFrame_5__2)) int32_t _currentFrame_5__2;
 
   /// @brief Field <charInfo>5__3, offset 0x48, size 0x178
-  __declspec(property(get = __get__charInfo_5__3, put = __set__charInfo_5__3))::TMPro::TMP_CharacterInfo _charInfo_5__3;
+  __declspec(property(get = __cordl_internal_get__charInfo_5__3, put = __cordl_internal_set__charInfo_5__3))::TMPro::TMP_CharacterInfo _charInfo_5__3;
 
   /// @brief Field <materialIndex>5__4, offset 0x1c0, size 0x4
-  __declspec(property(get = __get__materialIndex_5__4, put = __set__materialIndex_5__4)) int32_t _materialIndex_5__4;
+  __declspec(property(get = __cordl_internal_get__materialIndex_5__4, put = __cordl_internal_set__materialIndex_5__4)) int32_t _materialIndex_5__4;
 
   /// @brief Field <vertexIndex>5__5, offset 0x1c4, size 0x4
-  __declspec(property(get = __get__vertexIndex_5__5, put = __set__vertexIndex_5__5)) int32_t _vertexIndex_5__5;
+  __declspec(property(get = __cordl_internal_get__vertexIndex_5__5, put = __cordl_internal_set__vertexIndex_5__5)) int32_t _vertexIndex_5__5;
 
   /// @brief Field <meshInfo>5__6, offset 0x1c8, size 0x50
-  __declspec(property(get = __get__meshInfo_5__6, put = __set__meshInfo_5__6))::TMPro::TMP_MeshInfo _meshInfo_5__6;
+  __declspec(property(get = __cordl_internal_get__meshInfo_5__6, put = __cordl_internal_set__meshInfo_5__6))::TMPro::TMP_MeshInfo _meshInfo_5__6;
 
   /// @brief Field <baseSpriteScale>5__7, offset 0x218, size 0x4
-  __declspec(property(get = __get__baseSpriteScale_5__7, put = __set__baseSpriteScale_5__7)) float_t _baseSpriteScale_5__7;
+  __declspec(property(get = __cordl_internal_get__baseSpriteScale_5__7, put = __cordl_internal_set__baseSpriteScale_5__7)) float_t _baseSpriteScale_5__7;
 
   /// @brief Field <elapsedTime>5__8, offset 0x21c, size 0x4
-  __declspec(property(get = __get__elapsedTime_5__8, put = __set__elapsedTime_5__8)) float_t _elapsedTime_5__8;
+  __declspec(property(get = __cordl_internal_get__elapsedTime_5__8, put = __cordl_internal_set__elapsedTime_5__8)) float_t _elapsedTime_5__8;
 
   /// @brief Field <targetTime>5__9, offset 0x220, size 0x4
-  __declspec(property(get = __get__targetTime_5__9, put = __set__targetTime_5__9)) float_t _targetTime_5__9;
+  __declspec(property(get = __cordl_internal_get__targetTime_5__9, put = __cordl_internal_set__targetTime_5__9)) float_t _targetTime_5__9;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -123,101 +123,101 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::TMPro::TMP_SpriteAnimator*& __get___4__this();
+  constexpr ::UnityW<::TMPro::TMP_SpriteAnimator>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_SpriteAnimator*> const& __get___4__this() const;
+  constexpr ::UnityW<::TMPro::TMP_SpriteAnimator> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::TMPro::TMP_SpriteAnimator* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::TMPro::TMP_SpriteAnimator> value);
 
-  constexpr int32_t& __get_start();
+  constexpr int32_t& __cordl_internal_get_start();
 
-  constexpr int32_t const& __get_start() const;
+  constexpr int32_t const& __cordl_internal_get_start() const;
 
-  constexpr void __set_start(int32_t value);
+  constexpr void __cordl_internal_set_start(int32_t value);
 
-  constexpr int32_t& __get_end();
+  constexpr int32_t& __cordl_internal_get_end();
 
-  constexpr int32_t const& __get_end() const;
+  constexpr int32_t const& __cordl_internal_get_end() const;
 
-  constexpr void __set_end(int32_t value);
+  constexpr void __cordl_internal_set_end(int32_t value);
 
-  constexpr ::TMPro::TMP_SpriteAsset*& __get_spriteAsset();
+  constexpr ::UnityW<::TMPro::TMP_SpriteAsset>& __cordl_internal_get_spriteAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_SpriteAsset*> const& __get_spriteAsset() const;
+  constexpr ::UnityW<::TMPro::TMP_SpriteAsset> const& __cordl_internal_get_spriteAsset() const;
 
-  constexpr void __set_spriteAsset(::TMPro::TMP_SpriteAsset* value);
+  constexpr void __cordl_internal_set_spriteAsset(::UnityW<::TMPro::TMP_SpriteAsset> value);
 
-  constexpr int32_t& __get_currentCharacter();
+  constexpr int32_t& __cordl_internal_get_currentCharacter();
 
-  constexpr int32_t const& __get_currentCharacter() const;
+  constexpr int32_t const& __cordl_internal_get_currentCharacter() const;
 
-  constexpr void __set_currentCharacter(int32_t value);
+  constexpr void __cordl_internal_set_currentCharacter(int32_t value);
 
-  constexpr int32_t& __get_framerate();
+  constexpr int32_t& __cordl_internal_get_framerate();
 
-  constexpr int32_t const& __get_framerate() const;
+  constexpr int32_t const& __cordl_internal_get_framerate() const;
 
-  constexpr void __set_framerate(int32_t value);
+  constexpr void __cordl_internal_set_framerate(int32_t value);
 
-  constexpr int32_t& __get__currentFrame_5__2();
+  constexpr int32_t& __cordl_internal_get__currentFrame_5__2();
 
-  constexpr int32_t const& __get__currentFrame_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__currentFrame_5__2() const;
 
-  constexpr void __set__currentFrame_5__2(int32_t value);
+  constexpr void __cordl_internal_set__currentFrame_5__2(int32_t value);
 
-  constexpr ::TMPro::TMP_CharacterInfo& __get__charInfo_5__3();
+  constexpr ::TMPro::TMP_CharacterInfo& __cordl_internal_get__charInfo_5__3();
 
-  constexpr ::TMPro::TMP_CharacterInfo const& __get__charInfo_5__3() const;
+  constexpr ::TMPro::TMP_CharacterInfo const& __cordl_internal_get__charInfo_5__3() const;
 
-  constexpr void __set__charInfo_5__3(::TMPro::TMP_CharacterInfo value);
+  constexpr void __cordl_internal_set__charInfo_5__3(::TMPro::TMP_CharacterInfo value);
 
-  constexpr int32_t& __get__materialIndex_5__4();
+  constexpr int32_t& __cordl_internal_get__materialIndex_5__4();
 
-  constexpr int32_t const& __get__materialIndex_5__4() const;
+  constexpr int32_t const& __cordl_internal_get__materialIndex_5__4() const;
 
-  constexpr void __set__materialIndex_5__4(int32_t value);
+  constexpr void __cordl_internal_set__materialIndex_5__4(int32_t value);
 
-  constexpr int32_t& __get__vertexIndex_5__5();
+  constexpr int32_t& __cordl_internal_get__vertexIndex_5__5();
 
-  constexpr int32_t const& __get__vertexIndex_5__5() const;
+  constexpr int32_t const& __cordl_internal_get__vertexIndex_5__5() const;
 
-  constexpr void __set__vertexIndex_5__5(int32_t value);
+  constexpr void __cordl_internal_set__vertexIndex_5__5(int32_t value);
 
-  constexpr ::TMPro::TMP_MeshInfo& __get__meshInfo_5__6();
+  constexpr ::TMPro::TMP_MeshInfo& __cordl_internal_get__meshInfo_5__6();
 
-  constexpr ::TMPro::TMP_MeshInfo const& __get__meshInfo_5__6() const;
+  constexpr ::TMPro::TMP_MeshInfo const& __cordl_internal_get__meshInfo_5__6() const;
 
-  constexpr void __set__meshInfo_5__6(::TMPro::TMP_MeshInfo value);
+  constexpr void __cordl_internal_set__meshInfo_5__6(::TMPro::TMP_MeshInfo value);
 
-  constexpr float_t& __get__baseSpriteScale_5__7();
+  constexpr float_t& __cordl_internal_get__baseSpriteScale_5__7();
 
-  constexpr float_t const& __get__baseSpriteScale_5__7() const;
+  constexpr float_t const& __cordl_internal_get__baseSpriteScale_5__7() const;
 
-  constexpr void __set__baseSpriteScale_5__7(float_t value);
+  constexpr void __cordl_internal_set__baseSpriteScale_5__7(float_t value);
 
-  constexpr float_t& __get__elapsedTime_5__8();
+  constexpr float_t& __cordl_internal_get__elapsedTime_5__8();
 
-  constexpr float_t const& __get__elapsedTime_5__8() const;
+  constexpr float_t const& __cordl_internal_get__elapsedTime_5__8() const;
 
-  constexpr void __set__elapsedTime_5__8(float_t value);
+  constexpr void __cordl_internal_set__elapsedTime_5__8(float_t value);
 
-  constexpr float_t& __get__targetTime_5__9();
+  constexpr float_t& __cordl_internal_get__targetTime_5__9();
 
-  constexpr float_t const& __get__targetTime_5__9() const;
+  constexpr float_t const& __cordl_internal_get__targetTime_5__9() const;
 
-  constexpr void __set__targetTime_5__9(float_t value);
+  constexpr void __cordl_internal_set__targetTime_5__9(float_t value);
 
   static inline ::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7* New_ctor(int32_t __1__state);
 
@@ -260,7 +260,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TMP_SpriteAnimator* _____4__this;
+  ::UnityW<::TMPro::TMP_SpriteAnimator> _____4__this;
 
   /// @brief Field start, offset: 0x28, size: 0x4, def value: None
   int32_t ___start;
@@ -269,7 +269,7 @@ public:
   int32_t ___end;
 
   /// @brief Field spriteAsset, offset: 0x30, size: 0x8, def value: None
-  ::TMPro::TMP_SpriteAsset* ___spriteAsset;
+  ::UnityW<::TMPro::TMP_SpriteAsset> ___spriteAsset;
 
   /// @brief Field currentCharacter, offset: 0x38, size: 0x4, def value: None
   int32_t ___currentCharacter;
@@ -343,7 +343,7 @@ static_assert(offsetof(::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12419))
 // CS Name: ::TMPro::TMP_SpriteAnimator*
 class CORDL_TYPE TMP_SpriteAnimator : public ::UnityEngine::MonoBehaviour {
@@ -352,22 +352,22 @@ public:
   using _DoSpriteAnimationInternal_d__7 = ::TMPro::__TMP_SpriteAnimator___DoSpriteAnimationInternal_d__7;
 
   /// @brief Field m_animations, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_animations, put = __set_m_animations))::System::Collections::Generic::Dictionary_2<int32_t, bool>* m_animations;
+  __declspec(property(get = __cordl_internal_get_m_animations, put = __cordl_internal_set_m_animations))::System::Collections::Generic::Dictionary_2<int32_t, bool>* m_animations;
 
   /// @brief Field m_TextComponent, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_TextComponent, put = __set_m_TextComponent))::TMPro::TMP_Text* m_TextComponent;
+  __declspec(property(get = __cordl_internal_get_m_TextComponent, put = __cordl_internal_set_m_TextComponent))::UnityW<::TMPro::TMP_Text> m_TextComponent;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, bool>*& __get_m_animations();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, bool>*& __cordl_internal_get_m_animations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, bool>*> const& __get_m_animations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, bool>*> const& __cordl_internal_get_m_animations() const;
 
-  constexpr void __set_m_animations(::System::Collections::Generic::Dictionary_2<int32_t, bool>* value);
+  constexpr void __cordl_internal_set_m_animations(::System::Collections::Generic::Dictionary_2<int32_t, bool>* value);
 
-  constexpr ::TMPro::TMP_Text*& __get_m_TextComponent();
+  constexpr ::UnityW<::TMPro::TMP_Text>& __cordl_internal_get_m_TextComponent();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TMP_Text*> const& __get_m_TextComponent() const;
+  constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get_m_TextComponent() const;
 
-  constexpr void __set_m_TextComponent(::TMPro::TMP_Text* value);
+  constexpr void __cordl_internal_set_m_TextComponent(::UnityW<::TMPro::TMP_Text> value);
 
   /// @brief Method Awake, addr 0x2c41f44, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
@@ -410,7 +410,7 @@ public:
   ::System::Collections::Generic::Dictionary_2<int32_t, bool>* ___m_animations;
 
   /// @brief Field m_TextComponent, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TMP_Text* ___m_TextComponent;
+  ::UnityW<::TMPro::TMP_Text> ___m_TextComponent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

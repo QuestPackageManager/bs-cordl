@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::System::Xml::OpenedHost);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11552))
 // CS Name: ::System.Xml::OpenedHost*
 class CORDL_TYPE OpenedHost : public ::System::Object {
 public:
   // Declarations
   /// @brief Field nonCachedConnectionsCount, offset 0x10, size 0x4
-  __declspec(property(get = __get_nonCachedConnectionsCount, put = __set_nonCachedConnectionsCount)) int32_t nonCachedConnectionsCount;
+  __declspec(property(get = __cordl_internal_get_nonCachedConnectionsCount, put = __cordl_internal_set_nonCachedConnectionsCount)) int32_t nonCachedConnectionsCount;
 
-  constexpr int32_t& __get_nonCachedConnectionsCount();
+  constexpr int32_t& __cordl_internal_get_nonCachedConnectionsCount();
 
-  constexpr int32_t const& __get_nonCachedConnectionsCount() const;
+  constexpr int32_t const& __cordl_internal_get_nonCachedConnectionsCount() const;
 
-  constexpr void __set_nonCachedConnectionsCount(int32_t value);
+  constexpr void __cordl_internal_set_nonCachedConnectionsCount(int32_t value);
 
   static inline ::System::Xml::OpenedHost* New_ctor();
 

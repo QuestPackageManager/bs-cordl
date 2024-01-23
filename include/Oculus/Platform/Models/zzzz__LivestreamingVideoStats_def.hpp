@@ -16,38 +16,38 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LivestreamingVideoStats);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13456))
 // CS Name: ::Oculus.Platform.Models::LivestreamingVideoStats*
 class CORDL_TYPE LivestreamingVideoStats : public ::System::Object {
 public:
   // Declarations
   /// @brief Field CommentCount, offset 0x10, size 0x4
-  __declspec(property(get = __get_CommentCount, put = __set_CommentCount)) int32_t CommentCount;
+  __declspec(property(get = __cordl_internal_get_CommentCount, put = __cordl_internal_set_CommentCount)) int32_t CommentCount;
 
   /// @brief Field ReactionCount, offset 0x14, size 0x4
-  __declspec(property(get = __get_ReactionCount, put = __set_ReactionCount)) int32_t ReactionCount;
+  __declspec(property(get = __cordl_internal_get_ReactionCount, put = __cordl_internal_set_ReactionCount)) int32_t ReactionCount;
 
   /// @brief Field TotalViews, offset 0x18, size 0x8
-  __declspec(property(get = __get_TotalViews, put = __set_TotalViews))::StringW TotalViews;
+  __declspec(property(get = __cordl_internal_get_TotalViews, put = __cordl_internal_set_TotalViews))::StringW TotalViews;
 
-  constexpr int32_t& __get_CommentCount();
+  constexpr int32_t& __cordl_internal_get_CommentCount();
 
-  constexpr int32_t const& __get_CommentCount() const;
+  constexpr int32_t const& __cordl_internal_get_CommentCount() const;
 
-  constexpr void __set_CommentCount(int32_t value);
+  constexpr void __cordl_internal_set_CommentCount(int32_t value);
 
-  constexpr int32_t& __get_ReactionCount();
+  constexpr int32_t& __cordl_internal_get_ReactionCount();
 
-  constexpr int32_t const& __get_ReactionCount() const;
+  constexpr int32_t const& __cordl_internal_get_ReactionCount() const;
 
-  constexpr void __set_ReactionCount(int32_t value);
+  constexpr void __cordl_internal_set_ReactionCount(int32_t value);
 
-  constexpr ::StringW& __get_TotalViews();
+  constexpr ::StringW& __cordl_internal_get_TotalViews();
 
-  constexpr ::StringW const& __get_TotalViews() const;
+  constexpr ::StringW const& __cordl_internal_get_TotalViews() const;
 
-  constexpr void __set_TotalViews(::StringW value);
+  constexpr void __cordl_internal_set_TotalViews(::StringW value);
 
   static inline ::Oculus::Platform::Models::LivestreamingVideoStats* New_ctor(void* o);
 

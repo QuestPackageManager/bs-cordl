@@ -16,20 +16,20 @@ MARK_REF_PTR_T(::Mono::Net::Security::BufferOffsetSize2);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8815))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8815))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8816))
 // CS Name: ::Mono.Net.Security::BufferOffsetSize2*
 class CORDL_TYPE BufferOffsetSize2 : public ::Mono::Net::Security::BufferOffsetSize {
 public:
   // Declarations
   /// @brief Field InitialSize, offset 0x28, size 0x4
-  __declspec(property(get = __get_InitialSize, put = __set_InitialSize)) int32_t InitialSize;
+  __declspec(property(get = __cordl_internal_get_InitialSize, put = __cordl_internal_set_InitialSize)) int32_t InitialSize;
 
-  constexpr int32_t& __get_InitialSize();
+  constexpr int32_t& __cordl_internal_get_InitialSize();
 
-  constexpr int32_t const& __get_InitialSize() const;
+  constexpr int32_t const& __cordl_internal_get_InitialSize() const;
 
-  constexpr void __set_InitialSize(int32_t value);
+  constexpr void __cordl_internal_set_InitialSize(int32_t value);
 
   static inline ::Mono::Net::Security::BufferOffsetSize2* New_ctor(int32_t size);
 

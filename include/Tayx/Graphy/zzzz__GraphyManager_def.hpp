@@ -97,7 +97,7 @@ MARK_REF_PTR_T(::Tayx::Graphy::GraphyManager);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15062))
 // CS Name: ::GraphyManager::Mode
 struct CORDL_TYPE __GraphyManager__Mode {
@@ -147,7 +147,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyManager__Mode, value__) == 0x0, "
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15063))
 // CS Name: ::GraphyManager::ModuleType
 struct CORDL_TYPE __GraphyManager__ModuleType {
@@ -205,7 +205,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyManager__ModuleType, value__) == 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15064))
 // CS Name: ::GraphyManager::ModuleState
 struct CORDL_TYPE __GraphyManager__ModuleState {
@@ -267,7 +267,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyManager__ModuleState, value__) ==
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15065))
 // CS Name: ::GraphyManager::ModulePosition
 struct CORDL_TYPE __GraphyManager__ModulePosition {
@@ -329,7 +329,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyManager__ModulePosition, value__)
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15066))
 // CS Name: ::GraphyManager::LookForAudioListener
 struct CORDL_TYPE __GraphyManager__LookForAudioListener {
@@ -383,7 +383,7 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyManager__LookForAudioListener, va
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15067))
 // CS Name: ::GraphyManager::ModulePreset
 struct CORDL_TYPE __GraphyManager__ModulePreset {
@@ -473,12 +473,11 @@ static_assert(offsetof(::Tayx::Graphy::__GraphyManager__ModulePreset, value__) =
 // SizeInfo { instance_size: 328, native_size: -1, calculated_instance_size: 328, calculated_native_size: 324, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Tayx::Graphy {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15064)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15071), inst: 2553 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(15071)), TypeDefinitionIndex(TypeDefinitionIndex(6242)), TypeDefinitionIndex(TypeDefinitionIndex(15062)), TypeDefinitionIndex(TypeDefinitionIndex(15066)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15588)), TypeDefinitionIndex(TypeDefinitionIndex(15065)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15067))}
-// Self: TypeDefinitionIndex(TypeDefinitionIndex(15068))
-// CS Name: ::Tayx.Graphy::GraphyManager*
-class CORDL_TYPE GraphyManager : public ::Tayx::Graphy::Utils::G_Singleton_1<::Tayx::Graphy::GraphyManager*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6242)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15062)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15064)), TypeDefinitionIndex(TypeDefinitionIndex(15065)), TypeDefinitionIndex(TypeDefinitionIndex(15066)), TypeDefinitionIndex(TypeDefinitionIndex(15067)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15071)), TypeDefinitionIndex(TypeDefinitionIndex(15588)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15071), inst: 2553 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(15068)) CS Name: ::Tayx.Graphy::GraphyManager*
+class CORDL_TYPE GraphyManager : public ::Tayx::Graphy::Utils::G_Singleton_1<::UnityW<::Tayx::Graphy::GraphyManager>> {
 public:
   // Declarations
   using ModulePreset = ::Tayx::Graphy::__GraphyManager__ModulePreset;
@@ -494,149 +493,150 @@ public:
   using Mode = ::Tayx::Graphy::__GraphyManager__Mode;
 
   /// @brief Field m_graphyMode, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_graphyMode, put = __set_m_graphyMode))::Tayx::Graphy::__GraphyManager__Mode m_graphyMode;
+  __declspec(property(get = __cordl_internal_get_m_graphyMode, put = __cordl_internal_set_m_graphyMode))::Tayx::Graphy::__GraphyManager__Mode m_graphyMode;
 
   /// @brief Field m_enableOnStartup, offset 0x1c, size 0x1
-  __declspec(property(get = __get_m_enableOnStartup, put = __set_m_enableOnStartup)) bool m_enableOnStartup;
+  __declspec(property(get = __cordl_internal_get_m_enableOnStartup, put = __cordl_internal_set_m_enableOnStartup)) bool m_enableOnStartup;
 
   /// @brief Field m_keepAlive, offset 0x1d, size 0x1
-  __declspec(property(get = __get_m_keepAlive, put = __set_m_keepAlive)) bool m_keepAlive;
+  __declspec(property(get = __cordl_internal_get_m_keepAlive, put = __cordl_internal_set_m_keepAlive)) bool m_keepAlive;
 
   /// @brief Field m_background, offset 0x1e, size 0x1
-  __declspec(property(get = __get_m_background, put = __set_m_background)) bool m_background;
+  __declspec(property(get = __cordl_internal_get_m_background, put = __cordl_internal_set_m_background)) bool m_background;
 
   /// @brief Field m_backgroundColor, offset 0x20, size 0x10
-  __declspec(property(get = __get_m_backgroundColor, put = __set_m_backgroundColor))::UnityEngine::Color m_backgroundColor;
+  __declspec(property(get = __cordl_internal_get_m_backgroundColor, put = __cordl_internal_set_m_backgroundColor))::UnityEngine::Color m_backgroundColor;
 
   /// @brief Field m_enableHotkeys, offset 0x30, size 0x1
-  __declspec(property(get = __get_m_enableHotkeys, put = __set_m_enableHotkeys)) bool m_enableHotkeys;
+  __declspec(property(get = __cordl_internal_get_m_enableHotkeys, put = __cordl_internal_set_m_enableHotkeys)) bool m_enableHotkeys;
 
   /// @brief Field m_toggleModeKeyCode, offset 0x34, size 0x4
-  __declspec(property(get = __get_m_toggleModeKeyCode, put = __set_m_toggleModeKeyCode))::UnityEngine::InputSystem::Key m_toggleModeKeyCode;
+  __declspec(property(get = __cordl_internal_get_m_toggleModeKeyCode, put = __cordl_internal_set_m_toggleModeKeyCode))::UnityEngine::InputSystem::Key m_toggleModeKeyCode;
 
   /// @brief Field m_toggleModeCtrl, offset 0x38, size 0x1
-  __declspec(property(get = __get_m_toggleModeCtrl, put = __set_m_toggleModeCtrl)) bool m_toggleModeCtrl;
+  __declspec(property(get = __cordl_internal_get_m_toggleModeCtrl, put = __cordl_internal_set_m_toggleModeCtrl)) bool m_toggleModeCtrl;
 
   /// @brief Field m_toggleModeAlt, offset 0x39, size 0x1
-  __declspec(property(get = __get_m_toggleModeAlt, put = __set_m_toggleModeAlt)) bool m_toggleModeAlt;
+  __declspec(property(get = __cordl_internal_get_m_toggleModeAlt, put = __cordl_internal_set_m_toggleModeAlt)) bool m_toggleModeAlt;
 
   /// @brief Field m_toggleActiveKeyCode, offset 0x3c, size 0x4
-  __declspec(property(get = __get_m_toggleActiveKeyCode, put = __set_m_toggleActiveKeyCode))::UnityEngine::InputSystem::Key m_toggleActiveKeyCode;
+  __declspec(property(get = __cordl_internal_get_m_toggleActiveKeyCode, put = __cordl_internal_set_m_toggleActiveKeyCode))::UnityEngine::InputSystem::Key m_toggleActiveKeyCode;
 
   /// @brief Field m_toggleActiveCtrl, offset 0x40, size 0x1
-  __declspec(property(get = __get_m_toggleActiveCtrl, put = __set_m_toggleActiveCtrl)) bool m_toggleActiveCtrl;
+  __declspec(property(get = __cordl_internal_get_m_toggleActiveCtrl, put = __cordl_internal_set_m_toggleActiveCtrl)) bool m_toggleActiveCtrl;
 
   /// @brief Field m_toggleActiveAlt, offset 0x41, size 0x1
-  __declspec(property(get = __get_m_toggleActiveAlt, put = __set_m_toggleActiveAlt)) bool m_toggleActiveAlt;
+  __declspec(property(get = __cordl_internal_get_m_toggleActiveAlt, put = __cordl_internal_set_m_toggleActiveAlt)) bool m_toggleActiveAlt;
 
   /// @brief Field m_graphModulePosition, offset 0x44, size 0x4
-  __declspec(property(get = __get_m_graphModulePosition, put = __set_m_graphModulePosition))::Tayx::Graphy::__GraphyManager__ModulePosition m_graphModulePosition;
+  __declspec(property(get = __cordl_internal_get_m_graphModulePosition, put = __cordl_internal_set_m_graphModulePosition))::Tayx::Graphy::__GraphyManager__ModulePosition m_graphModulePosition;
 
   /// @brief Field m_fpsModuleState, offset 0x48, size 0x4
-  __declspec(property(get = __get_m_fpsModuleState, put = __set_m_fpsModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_fpsModuleState;
+  __declspec(property(get = __cordl_internal_get_m_fpsModuleState, put = __cordl_internal_set_m_fpsModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_fpsModuleState;
 
   /// @brief Field m_goodFpsColor, offset 0x4c, size 0x10
-  __declspec(property(get = __get_m_goodFpsColor, put = __set_m_goodFpsColor))::UnityEngine::Color m_goodFpsColor;
+  __declspec(property(get = __cordl_internal_get_m_goodFpsColor, put = __cordl_internal_set_m_goodFpsColor))::UnityEngine::Color m_goodFpsColor;
 
   /// @brief Field m_goodFpsThreshold, offset 0x5c, size 0x4
-  __declspec(property(get = __get_m_goodFpsThreshold, put = __set_m_goodFpsThreshold)) int32_t m_goodFpsThreshold;
+  __declspec(property(get = __cordl_internal_get_m_goodFpsThreshold, put = __cordl_internal_set_m_goodFpsThreshold)) int32_t m_goodFpsThreshold;
 
   /// @brief Field m_cautionFpsColor, offset 0x60, size 0x10
-  __declspec(property(get = __get_m_cautionFpsColor, put = __set_m_cautionFpsColor))::UnityEngine::Color m_cautionFpsColor;
+  __declspec(property(get = __cordl_internal_get_m_cautionFpsColor, put = __cordl_internal_set_m_cautionFpsColor))::UnityEngine::Color m_cautionFpsColor;
 
   /// @brief Field m_cautionFpsThreshold, offset 0x70, size 0x4
-  __declspec(property(get = __get_m_cautionFpsThreshold, put = __set_m_cautionFpsThreshold)) int32_t m_cautionFpsThreshold;
+  __declspec(property(get = __cordl_internal_get_m_cautionFpsThreshold, put = __cordl_internal_set_m_cautionFpsThreshold)) int32_t m_cautionFpsThreshold;
 
   /// @brief Field m_criticalFpsColor, offset 0x74, size 0x10
-  __declspec(property(get = __get_m_criticalFpsColor, put = __set_m_criticalFpsColor))::UnityEngine::Color m_criticalFpsColor;
+  __declspec(property(get = __cordl_internal_get_m_criticalFpsColor, put = __cordl_internal_set_m_criticalFpsColor))::UnityEngine::Color m_criticalFpsColor;
 
   /// @brief Field m_fpsGraphResolution, offset 0x84, size 0x4
-  __declspec(property(get = __get_m_fpsGraphResolution, put = __set_m_fpsGraphResolution)) int32_t m_fpsGraphResolution;
+  __declspec(property(get = __cordl_internal_get_m_fpsGraphResolution, put = __cordl_internal_set_m_fpsGraphResolution)) int32_t m_fpsGraphResolution;
 
   /// @brief Field m_fpsTextUpdateRate, offset 0x88, size 0x4
-  __declspec(property(get = __get_m_fpsTextUpdateRate, put = __set_m_fpsTextUpdateRate)) int32_t m_fpsTextUpdateRate;
+  __declspec(property(get = __cordl_internal_get_m_fpsTextUpdateRate, put = __cordl_internal_set_m_fpsTextUpdateRate)) int32_t m_fpsTextUpdateRate;
 
   /// @brief Field m_ramModuleState, offset 0x8c, size 0x4
-  __declspec(property(get = __get_m_ramModuleState, put = __set_m_ramModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_ramModuleState;
+  __declspec(property(get = __cordl_internal_get_m_ramModuleState, put = __cordl_internal_set_m_ramModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_ramModuleState;
 
   /// @brief Field m_allocatedRamColor, offset 0x90, size 0x10
-  __declspec(property(get = __get_m_allocatedRamColor, put = __set_m_allocatedRamColor))::UnityEngine::Color m_allocatedRamColor;
+  __declspec(property(get = __cordl_internal_get_m_allocatedRamColor, put = __cordl_internal_set_m_allocatedRamColor))::UnityEngine::Color m_allocatedRamColor;
 
   /// @brief Field m_reservedRamColor, offset 0xa0, size 0x10
-  __declspec(property(get = __get_m_reservedRamColor, put = __set_m_reservedRamColor))::UnityEngine::Color m_reservedRamColor;
+  __declspec(property(get = __cordl_internal_get_m_reservedRamColor, put = __cordl_internal_set_m_reservedRamColor))::UnityEngine::Color m_reservedRamColor;
 
   /// @brief Field m_monoRamColor, offset 0xb0, size 0x10
-  __declspec(property(get = __get_m_monoRamColor, put = __set_m_monoRamColor))::UnityEngine::Color m_monoRamColor;
+  __declspec(property(get = __cordl_internal_get_m_monoRamColor, put = __cordl_internal_set_m_monoRamColor))::UnityEngine::Color m_monoRamColor;
 
   /// @brief Field m_ramGraphResolution, offset 0xc0, size 0x4
-  __declspec(property(get = __get_m_ramGraphResolution, put = __set_m_ramGraphResolution)) int32_t m_ramGraphResolution;
+  __declspec(property(get = __cordl_internal_get_m_ramGraphResolution, put = __cordl_internal_set_m_ramGraphResolution)) int32_t m_ramGraphResolution;
 
   /// @brief Field m_ramTextUpdateRate, offset 0xc4, size 0x4
-  __declspec(property(get = __get_m_ramTextUpdateRate, put = __set_m_ramTextUpdateRate)) int32_t m_ramTextUpdateRate;
+  __declspec(property(get = __cordl_internal_get_m_ramTextUpdateRate, put = __cordl_internal_set_m_ramTextUpdateRate)) int32_t m_ramTextUpdateRate;
 
   /// @brief Field m_audioModuleState, offset 0xc8, size 0x4
-  __declspec(property(get = __get_m_audioModuleState, put = __set_m_audioModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_audioModuleState;
+  __declspec(property(get = __cordl_internal_get_m_audioModuleState, put = __cordl_internal_set_m_audioModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_audioModuleState;
 
   /// @brief Field m_findAudioListenerInCameraIfNull, offset 0xcc, size 0x4
-  __declspec(property(get = __get_m_findAudioListenerInCameraIfNull,
-                      put = __set_m_findAudioListenerInCameraIfNull))::Tayx::Graphy::__GraphyManager__LookForAudioListener m_findAudioListenerInCameraIfNull;
+  __declspec(property(get = __cordl_internal_get_m_findAudioListenerInCameraIfNull,
+                      put = __cordl_internal_set_m_findAudioListenerInCameraIfNull))::Tayx::Graphy::__GraphyManager__LookForAudioListener m_findAudioListenerInCameraIfNull;
 
   /// @brief Field m_audioListener, offset 0xd0, size 0x8
-  __declspec(property(get = __get_m_audioListener, put = __set_m_audioListener))::UnityEngine::AudioListener* m_audioListener;
+  __declspec(property(get = __cordl_internal_get_m_audioListener, put = __cordl_internal_set_m_audioListener))::UnityW<::UnityEngine::AudioListener> m_audioListener;
 
   /// @brief Field m_audioGraphColor, offset 0xd8, size 0x10
-  __declspec(property(get = __get_m_audioGraphColor, put = __set_m_audioGraphColor))::UnityEngine::Color m_audioGraphColor;
+  __declspec(property(get = __cordl_internal_get_m_audioGraphColor, put = __cordl_internal_set_m_audioGraphColor))::UnityEngine::Color m_audioGraphColor;
 
   /// @brief Field m_audioGraphResolution, offset 0xe8, size 0x4
-  __declspec(property(get = __get_m_audioGraphResolution, put = __set_m_audioGraphResolution)) int32_t m_audioGraphResolution;
+  __declspec(property(get = __cordl_internal_get_m_audioGraphResolution, put = __cordl_internal_set_m_audioGraphResolution)) int32_t m_audioGraphResolution;
 
   /// @brief Field m_audioTextUpdateRate, offset 0xec, size 0x4
-  __declspec(property(get = __get_m_audioTextUpdateRate, put = __set_m_audioTextUpdateRate)) int32_t m_audioTextUpdateRate;
+  __declspec(property(get = __cordl_internal_get_m_audioTextUpdateRate, put = __cordl_internal_set_m_audioTextUpdateRate)) int32_t m_audioTextUpdateRate;
 
   /// @brief Field m_FFTWindow, offset 0xf0, size 0x4
-  __declspec(property(get = __get_m_FFTWindow, put = __set_m_FFTWindow))::UnityEngine::FFTWindow m_FFTWindow;
+  __declspec(property(get = __cordl_internal_get_m_FFTWindow, put = __cordl_internal_set_m_FFTWindow))::UnityEngine::FFTWindow m_FFTWindow;
 
   /// @brief Field m_spectrumSize, offset 0xf4, size 0x4
-  __declspec(property(get = __get_m_spectrumSize, put = __set_m_spectrumSize)) int32_t m_spectrumSize;
+  __declspec(property(get = __cordl_internal_get_m_spectrumSize, put = __cordl_internal_set_m_spectrumSize)) int32_t m_spectrumSize;
 
   /// @brief Field m_advancedModulePosition, offset 0xf8, size 0x4
-  __declspec(property(get = __get_m_advancedModulePosition, put = __set_m_advancedModulePosition))::Tayx::Graphy::__GraphyManager__ModulePosition m_advancedModulePosition;
+  __declspec(property(get = __cordl_internal_get_m_advancedModulePosition,
+                      put = __cordl_internal_set_m_advancedModulePosition))::Tayx::Graphy::__GraphyManager__ModulePosition m_advancedModulePosition;
 
   /// @brief Field m_advancedModuleState, offset 0xfc, size 0x4
-  __declspec(property(get = __get_m_advancedModuleState, put = __set_m_advancedModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_advancedModuleState;
+  __declspec(property(get = __cordl_internal_get_m_advancedModuleState, put = __cordl_internal_set_m_advancedModuleState))::Tayx::Graphy::__GraphyManager__ModuleState m_advancedModuleState;
 
   /// @brief Field m_initialized, offset 0x100, size 0x1
-  __declspec(property(get = __get_m_initialized, put = __set_m_initialized)) bool m_initialized;
+  __declspec(property(get = __cordl_internal_get_m_initialized, put = __cordl_internal_set_m_initialized)) bool m_initialized;
 
   /// @brief Field m_active, offset 0x101, size 0x1
-  __declspec(property(get = __get_m_active, put = __set_m_active)) bool m_active;
+  __declspec(property(get = __cordl_internal_get_m_active, put = __cordl_internal_set_m_active)) bool m_active;
 
   /// @brief Field m_focused, offset 0x102, size 0x1
-  __declspec(property(get = __get_m_focused, put = __set_m_focused)) bool m_focused;
+  __declspec(property(get = __cordl_internal_get_m_focused, put = __cordl_internal_set_m_focused)) bool m_focused;
 
   /// @brief Field m_fpsManager, offset 0x108, size 0x8
-  __declspec(property(get = __get_m_fpsManager, put = __set_m_fpsManager))::Tayx::Graphy::Fps::G_FpsManager* m_fpsManager;
+  __declspec(property(get = __cordl_internal_get_m_fpsManager, put = __cordl_internal_set_m_fpsManager))::UnityW<::Tayx::Graphy::Fps::G_FpsManager> m_fpsManager;
 
   /// @brief Field m_ramManager, offset 0x110, size 0x8
-  __declspec(property(get = __get_m_ramManager, put = __set_m_ramManager))::Tayx::Graphy::Ram::G_RamManager* m_ramManager;
+  __declspec(property(get = __cordl_internal_get_m_ramManager, put = __cordl_internal_set_m_ramManager))::UnityW<::Tayx::Graphy::Ram::G_RamManager> m_ramManager;
 
   /// @brief Field m_audioManager, offset 0x118, size 0x8
-  __declspec(property(get = __get_m_audioManager, put = __set_m_audioManager))::Tayx::Graphy::Audio::G_AudioManager* m_audioManager;
+  __declspec(property(get = __cordl_internal_get_m_audioManager, put = __cordl_internal_set_m_audioManager))::UnityW<::Tayx::Graphy::Audio::G_AudioManager> m_audioManager;
 
   /// @brief Field m_advancedData, offset 0x120, size 0x8
-  __declspec(property(get = __get_m_advancedData, put = __set_m_advancedData))::Tayx::Graphy::Advanced::G_AdvancedData* m_advancedData;
+  __declspec(property(get = __cordl_internal_get_m_advancedData, put = __cordl_internal_set_m_advancedData))::UnityW<::Tayx::Graphy::Advanced::G_AdvancedData> m_advancedData;
 
   /// @brief Field m_fpsMonitor, offset 0x128, size 0x8
-  __declspec(property(get = __get_m_fpsMonitor, put = __set_m_fpsMonitor))::Tayx::Graphy::Fps::G_FpsMonitor* m_fpsMonitor;
+  __declspec(property(get = __cordl_internal_get_m_fpsMonitor, put = __cordl_internal_set_m_fpsMonitor))::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> m_fpsMonitor;
 
   /// @brief Field m_ramMonitor, offset 0x130, size 0x8
-  __declspec(property(get = __get_m_ramMonitor, put = __set_m_ramMonitor))::Tayx::Graphy::Ram::G_RamMonitor* m_ramMonitor;
+  __declspec(property(get = __cordl_internal_get_m_ramMonitor, put = __cordl_internal_set_m_ramMonitor))::UnityW<::Tayx::Graphy::Ram::G_RamMonitor> m_ramMonitor;
 
   /// @brief Field m_audioMonitor, offset 0x138, size 0x8
-  __declspec(property(get = __get_m_audioMonitor, put = __set_m_audioMonitor))::Tayx::Graphy::Audio::G_AudioMonitor* m_audioMonitor;
+  __declspec(property(get = __cordl_internal_get_m_audioMonitor, put = __cordl_internal_set_m_audioMonitor))::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> m_audioMonitor;
 
   /// @brief Field m_modulePresetState, offset 0x140, size 0x4
-  __declspec(property(get = __get_m_modulePresetState, put = __set_m_modulePresetState))::Tayx::Graphy::__GraphyManager__ModulePreset m_modulePresetState;
+  __declspec(property(get = __cordl_internal_get_m_modulePresetState, put = __cordl_internal_set_m_modulePresetState))::Tayx::Graphy::__GraphyManager__ModulePreset m_modulePresetState;
 
   __declspec(property(get = get_GraphyMode, put = set_GraphyMode))::Tayx::Graphy::__GraphyManager__Mode GraphyMode;
 
@@ -694,7 +694,7 @@ public:
 
   __declspec(property(get = get_AudioModuleState, put = set_AudioModuleState))::Tayx::Graphy::__GraphyManager__ModuleState AudioModuleState;
 
-  __declspec(property(get = get_AudioListener, put = set_AudioListener))::UnityEngine::AudioListener* AudioListener;
+  __declspec(property(get = get_AudioListener, put = set_AudioListener))::UnityW<::UnityEngine::AudioListener> AudioListener;
 
   __declspec(property(get = get_FindAudioListenerInCameraIfNull, put = set_FindAudioListenerInCameraIfNull))::Tayx::Graphy::__GraphyManager__LookForAudioListener FindAudioListenerInCameraIfNull;
 
@@ -716,293 +716,293 @@ public:
 
   __declspec(property(get = get_AdvancedModulePosition, put = set_AdvancedModulePosition))::Tayx::Graphy::__GraphyManager__ModulePosition AdvancedModulePosition;
 
-  constexpr ::Tayx::Graphy::__GraphyManager__Mode& __get_m_graphyMode();
+  constexpr ::Tayx::Graphy::__GraphyManager__Mode& __cordl_internal_get_m_graphyMode();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__Mode const& __get_m_graphyMode() const;
+  constexpr ::Tayx::Graphy::__GraphyManager__Mode const& __cordl_internal_get_m_graphyMode() const;
 
-  constexpr void __set_m_graphyMode(::Tayx::Graphy::__GraphyManager__Mode value);
+  constexpr void __cordl_internal_set_m_graphyMode(::Tayx::Graphy::__GraphyManager__Mode value);
 
-  constexpr bool& __get_m_enableOnStartup();
+  constexpr bool& __cordl_internal_get_m_enableOnStartup();
 
-  constexpr bool const& __get_m_enableOnStartup() const;
+  constexpr bool const& __cordl_internal_get_m_enableOnStartup() const;
 
-  constexpr void __set_m_enableOnStartup(bool value);
+  constexpr void __cordl_internal_set_m_enableOnStartup(bool value);
 
-  constexpr bool& __get_m_keepAlive();
+  constexpr bool& __cordl_internal_get_m_keepAlive();
 
-  constexpr bool const& __get_m_keepAlive() const;
+  constexpr bool const& __cordl_internal_get_m_keepAlive() const;
 
-  constexpr void __set_m_keepAlive(bool value);
+  constexpr void __cordl_internal_set_m_keepAlive(bool value);
 
-  constexpr bool& __get_m_background();
+  constexpr bool& __cordl_internal_get_m_background();
 
-  constexpr bool const& __get_m_background() const;
+  constexpr bool const& __cordl_internal_get_m_background() const;
 
-  constexpr void __set_m_background(bool value);
+  constexpr void __cordl_internal_set_m_background(bool value);
 
-  constexpr ::UnityEngine::Color& __get_m_backgroundColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_backgroundColor();
 
-  constexpr ::UnityEngine::Color const& __get_m_backgroundColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_backgroundColor() const;
 
-  constexpr void __set_m_backgroundColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_backgroundColor(::UnityEngine::Color value);
 
-  constexpr bool& __get_m_enableHotkeys();
+  constexpr bool& __cordl_internal_get_m_enableHotkeys();
 
-  constexpr bool const& __get_m_enableHotkeys() const;
+  constexpr bool const& __cordl_internal_get_m_enableHotkeys() const;
 
-  constexpr void __set_m_enableHotkeys(bool value);
+  constexpr void __cordl_internal_set_m_enableHotkeys(bool value);
 
-  constexpr ::UnityEngine::InputSystem::Key& __get_m_toggleModeKeyCode();
+  constexpr ::UnityEngine::InputSystem::Key& __cordl_internal_get_m_toggleModeKeyCode();
 
-  constexpr ::UnityEngine::InputSystem::Key const& __get_m_toggleModeKeyCode() const;
+  constexpr ::UnityEngine::InputSystem::Key const& __cordl_internal_get_m_toggleModeKeyCode() const;
 
-  constexpr void __set_m_toggleModeKeyCode(::UnityEngine::InputSystem::Key value);
+  constexpr void __cordl_internal_set_m_toggleModeKeyCode(::UnityEngine::InputSystem::Key value);
 
-  constexpr bool& __get_m_toggleModeCtrl();
+  constexpr bool& __cordl_internal_get_m_toggleModeCtrl();
 
-  constexpr bool const& __get_m_toggleModeCtrl() const;
+  constexpr bool const& __cordl_internal_get_m_toggleModeCtrl() const;
 
-  constexpr void __set_m_toggleModeCtrl(bool value);
+  constexpr void __cordl_internal_set_m_toggleModeCtrl(bool value);
 
-  constexpr bool& __get_m_toggleModeAlt();
+  constexpr bool& __cordl_internal_get_m_toggleModeAlt();
 
-  constexpr bool const& __get_m_toggleModeAlt() const;
+  constexpr bool const& __cordl_internal_get_m_toggleModeAlt() const;
 
-  constexpr void __set_m_toggleModeAlt(bool value);
+  constexpr void __cordl_internal_set_m_toggleModeAlt(bool value);
 
-  constexpr ::UnityEngine::InputSystem::Key& __get_m_toggleActiveKeyCode();
+  constexpr ::UnityEngine::InputSystem::Key& __cordl_internal_get_m_toggleActiveKeyCode();
 
-  constexpr ::UnityEngine::InputSystem::Key const& __get_m_toggleActiveKeyCode() const;
+  constexpr ::UnityEngine::InputSystem::Key const& __cordl_internal_get_m_toggleActiveKeyCode() const;
 
-  constexpr void __set_m_toggleActiveKeyCode(::UnityEngine::InputSystem::Key value);
+  constexpr void __cordl_internal_set_m_toggleActiveKeyCode(::UnityEngine::InputSystem::Key value);
 
-  constexpr bool& __get_m_toggleActiveCtrl();
+  constexpr bool& __cordl_internal_get_m_toggleActiveCtrl();
 
-  constexpr bool const& __get_m_toggleActiveCtrl() const;
+  constexpr bool const& __cordl_internal_get_m_toggleActiveCtrl() const;
 
-  constexpr void __set_m_toggleActiveCtrl(bool value);
+  constexpr void __cordl_internal_set_m_toggleActiveCtrl(bool value);
 
-  constexpr bool& __get_m_toggleActiveAlt();
+  constexpr bool& __cordl_internal_get_m_toggleActiveAlt();
 
-  constexpr bool const& __get_m_toggleActiveAlt() const;
+  constexpr bool const& __cordl_internal_get_m_toggleActiveAlt() const;
 
-  constexpr void __set_m_toggleActiveAlt(bool value);
+  constexpr void __cordl_internal_set_m_toggleActiveAlt(bool value);
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition& __get_m_graphModulePosition();
+  constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition& __cordl_internal_get_m_graphModulePosition();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition const& __get_m_graphModulePosition() const;
+  constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition const& __cordl_internal_get_m_graphModulePosition() const;
 
-  constexpr void __set_m_graphModulePosition(::Tayx::Graphy::__GraphyManager__ModulePosition value);
+  constexpr void __cordl_internal_set_m_graphModulePosition(::Tayx::Graphy::__GraphyManager__ModulePosition value);
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __get_m_fpsModuleState();
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_fpsModuleState();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __get_m_fpsModuleState() const;
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_fpsModuleState() const;
 
-  constexpr void __set_m_fpsModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  constexpr void __cordl_internal_set_m_fpsModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
 
-  constexpr ::UnityEngine::Color& __get_m_goodFpsColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_goodFpsColor();
 
-  constexpr ::UnityEngine::Color const& __get_m_goodFpsColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_goodFpsColor() const;
 
-  constexpr void __set_m_goodFpsColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_goodFpsColor(::UnityEngine::Color value);
 
-  constexpr int32_t& __get_m_goodFpsThreshold();
+  constexpr int32_t& __cordl_internal_get_m_goodFpsThreshold();
 
-  constexpr int32_t const& __get_m_goodFpsThreshold() const;
+  constexpr int32_t const& __cordl_internal_get_m_goodFpsThreshold() const;
 
-  constexpr void __set_m_goodFpsThreshold(int32_t value);
+  constexpr void __cordl_internal_set_m_goodFpsThreshold(int32_t value);
 
-  constexpr ::UnityEngine::Color& __get_m_cautionFpsColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_cautionFpsColor();
 
-  constexpr ::UnityEngine::Color const& __get_m_cautionFpsColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_cautionFpsColor() const;
 
-  constexpr void __set_m_cautionFpsColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_cautionFpsColor(::UnityEngine::Color value);
 
-  constexpr int32_t& __get_m_cautionFpsThreshold();
+  constexpr int32_t& __cordl_internal_get_m_cautionFpsThreshold();
 
-  constexpr int32_t const& __get_m_cautionFpsThreshold() const;
+  constexpr int32_t const& __cordl_internal_get_m_cautionFpsThreshold() const;
 
-  constexpr void __set_m_cautionFpsThreshold(int32_t value);
+  constexpr void __cordl_internal_set_m_cautionFpsThreshold(int32_t value);
 
-  constexpr ::UnityEngine::Color& __get_m_criticalFpsColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_criticalFpsColor();
 
-  constexpr ::UnityEngine::Color const& __get_m_criticalFpsColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_criticalFpsColor() const;
 
-  constexpr void __set_m_criticalFpsColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_criticalFpsColor(::UnityEngine::Color value);
 
-  constexpr int32_t& __get_m_fpsGraphResolution();
+  constexpr int32_t& __cordl_internal_get_m_fpsGraphResolution();
 
-  constexpr int32_t const& __get_m_fpsGraphResolution() const;
+  constexpr int32_t const& __cordl_internal_get_m_fpsGraphResolution() const;
 
-  constexpr void __set_m_fpsGraphResolution(int32_t value);
+  constexpr void __cordl_internal_set_m_fpsGraphResolution(int32_t value);
 
-  constexpr int32_t& __get_m_fpsTextUpdateRate();
+  constexpr int32_t& __cordl_internal_get_m_fpsTextUpdateRate();
 
-  constexpr int32_t const& __get_m_fpsTextUpdateRate() const;
+  constexpr int32_t const& __cordl_internal_get_m_fpsTextUpdateRate() const;
 
-  constexpr void __set_m_fpsTextUpdateRate(int32_t value);
+  constexpr void __cordl_internal_set_m_fpsTextUpdateRate(int32_t value);
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __get_m_ramModuleState();
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_ramModuleState();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __get_m_ramModuleState() const;
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_ramModuleState() const;
 
-  constexpr void __set_m_ramModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  constexpr void __cordl_internal_set_m_ramModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
 
-  constexpr ::UnityEngine::Color& __get_m_allocatedRamColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_allocatedRamColor();
 
-  constexpr ::UnityEngine::Color const& __get_m_allocatedRamColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_allocatedRamColor() const;
 
-  constexpr void __set_m_allocatedRamColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_allocatedRamColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get_m_reservedRamColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_reservedRamColor();
 
-  constexpr ::UnityEngine::Color const& __get_m_reservedRamColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_reservedRamColor() const;
 
-  constexpr void __set_m_reservedRamColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_reservedRamColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get_m_monoRamColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_monoRamColor();
 
-  constexpr ::UnityEngine::Color const& __get_m_monoRamColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_monoRamColor() const;
 
-  constexpr void __set_m_monoRamColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_monoRamColor(::UnityEngine::Color value);
 
-  constexpr int32_t& __get_m_ramGraphResolution();
+  constexpr int32_t& __cordl_internal_get_m_ramGraphResolution();
 
-  constexpr int32_t const& __get_m_ramGraphResolution() const;
+  constexpr int32_t const& __cordl_internal_get_m_ramGraphResolution() const;
 
-  constexpr void __set_m_ramGraphResolution(int32_t value);
+  constexpr void __cordl_internal_set_m_ramGraphResolution(int32_t value);
 
-  constexpr int32_t& __get_m_ramTextUpdateRate();
+  constexpr int32_t& __cordl_internal_get_m_ramTextUpdateRate();
 
-  constexpr int32_t const& __get_m_ramTextUpdateRate() const;
+  constexpr int32_t const& __cordl_internal_get_m_ramTextUpdateRate() const;
 
-  constexpr void __set_m_ramTextUpdateRate(int32_t value);
+  constexpr void __cordl_internal_set_m_ramTextUpdateRate(int32_t value);
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __get_m_audioModuleState();
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_audioModuleState();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __get_m_audioModuleState() const;
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_audioModuleState() const;
 
-  constexpr void __set_m_audioModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  constexpr void __cordl_internal_set_m_audioModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
 
-  constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener& __get_m_findAudioListenerInCameraIfNull();
+  constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener& __cordl_internal_get_m_findAudioListenerInCameraIfNull();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener const& __get_m_findAudioListenerInCameraIfNull() const;
+  constexpr ::Tayx::Graphy::__GraphyManager__LookForAudioListener const& __cordl_internal_get_m_findAudioListenerInCameraIfNull() const;
 
-  constexpr void __set_m_findAudioListenerInCameraIfNull(::Tayx::Graphy::__GraphyManager__LookForAudioListener value);
+  constexpr void __cordl_internal_set_m_findAudioListenerInCameraIfNull(::Tayx::Graphy::__GraphyManager__LookForAudioListener value);
 
-  constexpr ::UnityEngine::AudioListener*& __get_m_audioListener();
+  constexpr ::UnityW<::UnityEngine::AudioListener>& __cordl_internal_get_m_audioListener();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioListener*> const& __get_m_audioListener() const;
+  constexpr ::UnityW<::UnityEngine::AudioListener> const& __cordl_internal_get_m_audioListener() const;
 
-  constexpr void __set_m_audioListener(::UnityEngine::AudioListener* value);
+  constexpr void __cordl_internal_set_m_audioListener(::UnityW<::UnityEngine::AudioListener> value);
 
-  constexpr ::UnityEngine::Color& __get_m_audioGraphColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_m_audioGraphColor();
 
-  constexpr ::UnityEngine::Color const& __get_m_audioGraphColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_m_audioGraphColor() const;
 
-  constexpr void __set_m_audioGraphColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_m_audioGraphColor(::UnityEngine::Color value);
 
-  constexpr int32_t& __get_m_audioGraphResolution();
+  constexpr int32_t& __cordl_internal_get_m_audioGraphResolution();
 
-  constexpr int32_t const& __get_m_audioGraphResolution() const;
+  constexpr int32_t const& __cordl_internal_get_m_audioGraphResolution() const;
 
-  constexpr void __set_m_audioGraphResolution(int32_t value);
+  constexpr void __cordl_internal_set_m_audioGraphResolution(int32_t value);
 
-  constexpr int32_t& __get_m_audioTextUpdateRate();
+  constexpr int32_t& __cordl_internal_get_m_audioTextUpdateRate();
 
-  constexpr int32_t const& __get_m_audioTextUpdateRate() const;
+  constexpr int32_t const& __cordl_internal_get_m_audioTextUpdateRate() const;
 
-  constexpr void __set_m_audioTextUpdateRate(int32_t value);
+  constexpr void __cordl_internal_set_m_audioTextUpdateRate(int32_t value);
 
-  constexpr ::UnityEngine::FFTWindow& __get_m_FFTWindow();
+  constexpr ::UnityEngine::FFTWindow& __cordl_internal_get_m_FFTWindow();
 
-  constexpr ::UnityEngine::FFTWindow const& __get_m_FFTWindow() const;
+  constexpr ::UnityEngine::FFTWindow const& __cordl_internal_get_m_FFTWindow() const;
 
-  constexpr void __set_m_FFTWindow(::UnityEngine::FFTWindow value);
+  constexpr void __cordl_internal_set_m_FFTWindow(::UnityEngine::FFTWindow value);
 
-  constexpr int32_t& __get_m_spectrumSize();
+  constexpr int32_t& __cordl_internal_get_m_spectrumSize();
 
-  constexpr int32_t const& __get_m_spectrumSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_spectrumSize() const;
 
-  constexpr void __set_m_spectrumSize(int32_t value);
+  constexpr void __cordl_internal_set_m_spectrumSize(int32_t value);
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition& __get_m_advancedModulePosition();
+  constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition& __cordl_internal_get_m_advancedModulePosition();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition const& __get_m_advancedModulePosition() const;
+  constexpr ::Tayx::Graphy::__GraphyManager__ModulePosition const& __cordl_internal_get_m_advancedModulePosition() const;
 
-  constexpr void __set_m_advancedModulePosition(::Tayx::Graphy::__GraphyManager__ModulePosition value);
+  constexpr void __cordl_internal_set_m_advancedModulePosition(::Tayx::Graphy::__GraphyManager__ModulePosition value);
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __get_m_advancedModuleState();
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState& __cordl_internal_get_m_advancedModuleState();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __get_m_advancedModuleState() const;
+  constexpr ::Tayx::Graphy::__GraphyManager__ModuleState const& __cordl_internal_get_m_advancedModuleState() const;
 
-  constexpr void __set_m_advancedModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
+  constexpr void __cordl_internal_set_m_advancedModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
 
-  constexpr bool& __get_m_initialized();
+  constexpr bool& __cordl_internal_get_m_initialized();
 
-  constexpr bool const& __get_m_initialized() const;
+  constexpr bool const& __cordl_internal_get_m_initialized() const;
 
-  constexpr void __set_m_initialized(bool value);
+  constexpr void __cordl_internal_set_m_initialized(bool value);
 
-  constexpr bool& __get_m_active();
+  constexpr bool& __cordl_internal_get_m_active();
 
-  constexpr bool const& __get_m_active() const;
+  constexpr bool const& __cordl_internal_get_m_active() const;
 
-  constexpr void __set_m_active(bool value);
+  constexpr void __cordl_internal_set_m_active(bool value);
 
-  constexpr bool& __get_m_focused();
+  constexpr bool& __cordl_internal_get_m_focused();
 
-  constexpr bool const& __get_m_focused() const;
+  constexpr bool const& __cordl_internal_get_m_focused() const;
 
-  constexpr void __set_m_focused(bool value);
+  constexpr void __cordl_internal_set_m_focused(bool value);
 
-  constexpr ::Tayx::Graphy::Fps::G_FpsManager*& __get_m_fpsManager();
+  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsManager>& __cordl_internal_get_m_fpsManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Fps::G_FpsManager*> const& __get_m_fpsManager() const;
+  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsManager> const& __cordl_internal_get_m_fpsManager() const;
 
-  constexpr void __set_m_fpsManager(::Tayx::Graphy::Fps::G_FpsManager* value);
+  constexpr void __cordl_internal_set_m_fpsManager(::UnityW<::Tayx::Graphy::Fps::G_FpsManager> value);
 
-  constexpr ::Tayx::Graphy::Ram::G_RamManager*& __get_m_ramManager();
+  constexpr ::UnityW<::Tayx::Graphy::Ram::G_RamManager>& __cordl_internal_get_m_ramManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Ram::G_RamManager*> const& __get_m_ramManager() const;
+  constexpr ::UnityW<::Tayx::Graphy::Ram::G_RamManager> const& __cordl_internal_get_m_ramManager() const;
 
-  constexpr void __set_m_ramManager(::Tayx::Graphy::Ram::G_RamManager* value);
+  constexpr void __cordl_internal_set_m_ramManager(::UnityW<::Tayx::Graphy::Ram::G_RamManager> value);
 
-  constexpr ::Tayx::Graphy::Audio::G_AudioManager*& __get_m_audioManager();
+  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioManager>& __cordl_internal_get_m_audioManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Audio::G_AudioManager*> const& __get_m_audioManager() const;
+  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioManager> const& __cordl_internal_get_m_audioManager() const;
 
-  constexpr void __set_m_audioManager(::Tayx::Graphy::Audio::G_AudioManager* value);
+  constexpr void __cordl_internal_set_m_audioManager(::UnityW<::Tayx::Graphy::Audio::G_AudioManager> value);
 
-  constexpr ::Tayx::Graphy::Advanced::G_AdvancedData*& __get_m_advancedData();
+  constexpr ::UnityW<::Tayx::Graphy::Advanced::G_AdvancedData>& __cordl_internal_get_m_advancedData();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Advanced::G_AdvancedData*> const& __get_m_advancedData() const;
+  constexpr ::UnityW<::Tayx::Graphy::Advanced::G_AdvancedData> const& __cordl_internal_get_m_advancedData() const;
 
-  constexpr void __set_m_advancedData(::Tayx::Graphy::Advanced::G_AdvancedData* value);
+  constexpr void __cordl_internal_set_m_advancedData(::UnityW<::Tayx::Graphy::Advanced::G_AdvancedData> value);
 
-  constexpr ::Tayx::Graphy::Fps::G_FpsMonitor*& __get_m_fpsMonitor();
+  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor>& __cordl_internal_get_m_fpsMonitor();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Fps::G_FpsMonitor*> const& __get_m_fpsMonitor() const;
+  constexpr ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> const& __cordl_internal_get_m_fpsMonitor() const;
 
-  constexpr void __set_m_fpsMonitor(::Tayx::Graphy::Fps::G_FpsMonitor* value);
+  constexpr void __cordl_internal_set_m_fpsMonitor(::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> value);
 
-  constexpr ::Tayx::Graphy::Ram::G_RamMonitor*& __get_m_ramMonitor();
+  constexpr ::UnityW<::Tayx::Graphy::Ram::G_RamMonitor>& __cordl_internal_get_m_ramMonitor();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Ram::G_RamMonitor*> const& __get_m_ramMonitor() const;
+  constexpr ::UnityW<::Tayx::Graphy::Ram::G_RamMonitor> const& __cordl_internal_get_m_ramMonitor() const;
 
-  constexpr void __set_m_ramMonitor(::Tayx::Graphy::Ram::G_RamMonitor* value);
+  constexpr void __cordl_internal_set_m_ramMonitor(::UnityW<::Tayx::Graphy::Ram::G_RamMonitor> value);
 
-  constexpr ::Tayx::Graphy::Audio::G_AudioMonitor*& __get_m_audioMonitor();
+  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor>& __cordl_internal_get_m_audioMonitor();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tayx::Graphy::Audio::G_AudioMonitor*> const& __get_m_audioMonitor() const;
+  constexpr ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> const& __cordl_internal_get_m_audioMonitor() const;
 
-  constexpr void __set_m_audioMonitor(::Tayx::Graphy::Audio::G_AudioMonitor* value);
+  constexpr void __cordl_internal_set_m_audioMonitor(::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> value);
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset& __get_m_modulePresetState();
+  constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset& __cordl_internal_get_m_modulePresetState();
 
-  constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset const& __get_m_modulePresetState() const;
+  constexpr ::Tayx::Graphy::__GraphyManager__ModulePreset const& __cordl_internal_get_m_modulePresetState() const;
 
-  constexpr void __set_m_modulePresetState(::Tayx::Graphy::__GraphyManager__ModulePreset value);
+  constexpr void __cordl_internal_set_m_modulePresetState(::Tayx::Graphy::__GraphyManager__ModulePreset value);
 
   static inline ::Tayx::Graphy::GraphyManager* New_ctor();
 
@@ -1151,7 +1151,7 @@ public:
   inline void set_AudioModuleState(::Tayx::Graphy::__GraphyManager__ModuleState value);
 
   /// @brief Method get_AudioListener, addr 0x2a01cfc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::AudioListener* get_AudioListener();
+  inline ::UnityW<::UnityEngine::AudioListener> get_AudioListener();
 
   /// @brief Method set_AudioListener, addr 0x2a01d04, size 0x20, virtual false, abstract: false, final false
   inline void set_AudioListener(::UnityEngine::AudioListener* value);
@@ -1366,7 +1366,7 @@ public:
   ::Tayx::Graphy::__GraphyManager__LookForAudioListener ___m_findAudioListenerInCameraIfNull;
 
   /// @brief Field m_audioListener, offset: 0xd0, size: 0x8, def value: None
-  ::UnityEngine::AudioListener* ___m_audioListener;
+  ::UnityW<::UnityEngine::AudioListener> ___m_audioListener;
 
   /// @brief Field m_audioGraphColor, offset: 0xd8, size: 0x10, def value: None
   ::UnityEngine::Color ___m_audioGraphColor;
@@ -1399,25 +1399,25 @@ public:
   bool ___m_focused;
 
   /// @brief Field m_fpsManager, offset: 0x108, size: 0x8, def value: None
-  ::Tayx::Graphy::Fps::G_FpsManager* ___m_fpsManager;
+  ::UnityW<::Tayx::Graphy::Fps::G_FpsManager> ___m_fpsManager;
 
   /// @brief Field m_ramManager, offset: 0x110, size: 0x8, def value: None
-  ::Tayx::Graphy::Ram::G_RamManager* ___m_ramManager;
+  ::UnityW<::Tayx::Graphy::Ram::G_RamManager> ___m_ramManager;
 
   /// @brief Field m_audioManager, offset: 0x118, size: 0x8, def value: None
-  ::Tayx::Graphy::Audio::G_AudioManager* ___m_audioManager;
+  ::UnityW<::Tayx::Graphy::Audio::G_AudioManager> ___m_audioManager;
 
   /// @brief Field m_advancedData, offset: 0x120, size: 0x8, def value: None
-  ::Tayx::Graphy::Advanced::G_AdvancedData* ___m_advancedData;
+  ::UnityW<::Tayx::Graphy::Advanced::G_AdvancedData> ___m_advancedData;
 
   /// @brief Field m_fpsMonitor, offset: 0x128, size: 0x8, def value: None
-  ::Tayx::Graphy::Fps::G_FpsMonitor* ___m_fpsMonitor;
+  ::UnityW<::Tayx::Graphy::Fps::G_FpsMonitor> ___m_fpsMonitor;
 
   /// @brief Field m_ramMonitor, offset: 0x130, size: 0x8, def value: None
-  ::Tayx::Graphy::Ram::G_RamMonitor* ___m_ramMonitor;
+  ::UnityW<::Tayx::Graphy::Ram::G_RamMonitor> ___m_ramMonitor;
 
   /// @brief Field m_audioMonitor, offset: 0x138, size: 0x8, def value: None
-  ::Tayx::Graphy::Audio::G_AudioMonitor* ___m_audioMonitor;
+  ::UnityW<::Tayx::Graphy::Audio::G_AudioMonitor> ___m_audioMonitor;
 
   /// @brief Field m_modulePresetState, offset: 0x140, size: 0x4, def value: None
   ::Tayx::Graphy::__GraphyManager__ModulePreset ___m_modulePresetState;

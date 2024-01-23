@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::GlobalNamespace::TextMeshProAutosizeGroup);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13496))
 // CS Name: ::TextMeshProAutosizeGroup*
 class CORDL_TYPE TextMeshProAutosizeGroup : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _texts, offset 0x18, size 0x8
-  __declspec(property(get = __get__texts, put = __set__texts))::ArrayW<::TMPro::TMP_Text*, ::Array<::TMPro::TMP_Text*>*> _texts;
+  __declspec(property(get = __cordl_internal_get__texts, put = __cordl_internal_set__texts))::ArrayW<::UnityW<::TMPro::TMP_Text>, ::Array<::UnityW<::TMPro::TMP_Text>>*> _texts;
 
-  constexpr ::ArrayW<::TMPro::TMP_Text*, ::Array<::TMPro::TMP_Text*>*>& __get__texts();
+  constexpr ::ArrayW<::UnityW<::TMPro::TMP_Text>, ::Array<::UnityW<::TMPro::TMP_Text>>*>& __cordl_internal_get__texts();
 
-  constexpr ::ArrayW<::TMPro::TMP_Text*, ::Array<::TMPro::TMP_Text*>*> const& __get__texts() const;
+  constexpr ::ArrayW<::UnityW<::TMPro::TMP_Text>, ::Array<::UnityW<::TMPro::TMP_Text>>*> const& __cordl_internal_get__texts() const;
 
-  constexpr void __set__texts(::ArrayW<::TMPro::TMP_Text*, ::Array<::TMPro::TMP_Text*>*> value);
+  constexpr void __cordl_internal_set__texts(::ArrayW<::UnityW<::TMPro::TMP_Text>, ::Array<::UnityW<::TMPro::TMP_Text>>*> value);
 
   /// @brief Method Start, addr 0x2115e44, size 0x108, virtual false, abstract: false, final false
   inline void Start();
@@ -56,7 +56,7 @@ protected:
 
 public:
   /// @brief Field _texts, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::TMPro::TMP_Text*, ::Array<::TMPro::TMP_Text*>*> ____texts;
+  ::ArrayW<::UnityW<::TMPro::TMP_Text>, ::Array<::UnityW<::TMPro::TMP_Text>>*> ____texts;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

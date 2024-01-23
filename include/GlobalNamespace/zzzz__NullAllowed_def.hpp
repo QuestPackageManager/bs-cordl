@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::NullAllowed);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16251))
 // CS Name: ::NullAllowed::Context
 struct CORDL_TYPE __NullAllowed__Context {
@@ -74,7 +74,7 @@ static_assert(offsetof(::GlobalNamespace::__NullAllowed__Context, value__) == 0x
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(16251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(16251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16252))
 // CS Name: ::NullAllowed*
 class CORDL_TYPE NullAllowed : public ::UnityEngine::PropertyAttribute {
@@ -83,13 +83,13 @@ public:
   using Context = ::GlobalNamespace::__NullAllowed__Context;
 
   /// @brief Field _context, offset 0x10, size 0x4
-  __declspec(property(get = __get__context, put = __set__context))::GlobalNamespace::__NullAllowed__Context _context;
+  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::GlobalNamespace::__NullAllowed__Context _context;
 
-  constexpr ::GlobalNamespace::__NullAllowed__Context& __get__context();
+  constexpr ::GlobalNamespace::__NullAllowed__Context& __cordl_internal_get__context();
 
-  constexpr ::GlobalNamespace::__NullAllowed__Context const& __get__context() const;
+  constexpr ::GlobalNamespace::__NullAllowed__Context const& __cordl_internal_get__context() const;
 
-  constexpr void __set__context(::GlobalNamespace::__NullAllowed__Context value);
+  constexpr void __cordl_internal_set__context(::GlobalNamespace::__NullAllowed__Context value);
 
   static inline ::GlobalNamespace::NullAllowed* New_ctor(::GlobalNamespace::__NullAllowed__Context context);
 

@@ -25,23 +25,23 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11117))
 // CS Name: ::Zenject::LazyInject`1<T>*
 class CORDL_TYPE LazyInject_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _container, offset 0x10, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _context, offset 0x18, size 0x8
-  __declspec(property(get = __get__context, put = __set__context))::Zenject::InjectContext* _context;
+  __declspec(property(get = __cordl_internal_get__context, put = __cordl_internal_set__context))::Zenject::InjectContext* _context;
 
   /// @brief Field _hasValue, offset 0x20, size 0x1
-  __declspec(property(get = __get__hasValue, put = __set__hasValue)) bool _hasValue;
+  __declspec(property(get = __cordl_internal_get__hasValue, put = __cordl_internal_set__hasValue)) bool _hasValue;
 
   /// @brief Field _value, offset 0x28, size 0x8
-  __declspec(property(get = __get__value, put = __set__value)) T _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) T _value;
 
   __declspec(property(get = get_Value)) T Value;
 
@@ -51,29 +51,29 @@ public:
   /// @brief Convert to "::Zenject::IValidatable"
   constexpr ::Zenject::IValidatable* i___Zenject__IValidatable() noexcept;
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::Zenject::InjectContext*& __get__context();
+  constexpr ::Zenject::InjectContext*& __cordl_internal_get__context();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __get__context() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __cordl_internal_get__context() const;
 
-  constexpr void __set__context(::Zenject::InjectContext* value);
+  constexpr void __cordl_internal_set__context(::Zenject::InjectContext* value);
 
-  constexpr bool& __get__hasValue();
+  constexpr bool& __cordl_internal_get__hasValue();
 
-  constexpr bool const& __get__hasValue() const;
+  constexpr bool const& __cordl_internal_get__hasValue() const;
 
-  constexpr void __set__hasValue(bool value);
+  constexpr void __cordl_internal_set__hasValue(bool value);
 
-  constexpr T& __get__value();
+  constexpr T& __cordl_internal_get__value();
 
-  constexpr T const& __get__value() const;
+  constexpr T const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(T value);
+  constexpr void __cordl_internal_set__value(T value);
 
   static inline ::Zenject::LazyInject_1<T>* New_ctor(::Zenject::DiContainer* container, ::Zenject::InjectContext* context);
 

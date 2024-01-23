@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::SecretSubkeyPacket);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(587))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(587))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(588))
 // CS Name: ::Org.BouncyCastle.Bcpg::SecretSubkeyPacket*
 class CORDL_TYPE SecretSubkeyPacket : public ::Org::BouncyCastle::Bcpg::SecretKeyPacket {

@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::ContextBoundObject);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2549))
 // CS Name: ::System::ContextBoundObject*
 class CORDL_TYPE ContextBoundObject : public ::System::MarshalByRefObject {

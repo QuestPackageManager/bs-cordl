@@ -76,29 +76,29 @@ MARK_REF_PTR_T(::System::Net::Security::__SslStream____c__DisplayClass21_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9372))
 // CS Name: ::SslStream::<>c__DisplayClass21_0*
 class CORDL_TYPE __SslStream____c__DisplayClass21_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __get_callback, put = __set_callback))::System::Net::Security::LocalCertificateSelectionCallback* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Net::Security::LocalCertificateSelectionCallback* callback;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::System::Net::Security::SslStream* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Net::Security::SslStream* __4__this;
 
-  constexpr ::System::Net::Security::LocalCertificateSelectionCallback*& __get_callback();
+  constexpr ::System::Net::Security::LocalCertificateSelectionCallback*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::LocalCertificateSelectionCallback*> const& __get_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::LocalCertificateSelectionCallback*> const& __cordl_internal_get_callback() const;
 
-  constexpr void __set_callback(::System::Net::Security::LocalCertificateSelectionCallback* value);
+  constexpr void __cordl_internal_set_callback(::System::Net::Security::LocalCertificateSelectionCallback* value);
 
-  constexpr ::System::Net::Security::SslStream*& __get___4__this();
+  constexpr ::System::Net::Security::SslStream*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslStream*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslStream*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::System::Net::Security::SslStream* value);
+  constexpr void __cordl_internal_set___4__this(::System::Net::Security::SslStream* value);
 
   static inline ::System::Net::Security::__SslStream____c__DisplayClass21_0* New_ctor();
 
@@ -145,7 +145,7 @@ static_assert(offsetof(::System::Net::Security::__SslStream____c__DisplayClass21
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9364))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9364))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9373))
 // CS Name: ::System.Net.Security::SslStream*
 class CORDL_TYPE SslStream : public ::System::Net::Security::AuthenticatedStream {
@@ -154,22 +154,22 @@ public:
   using __c__DisplayClass21_0 = ::System::Net::Security::__SslStream____c__DisplayClass21_0;
 
   /// @brief Field provider, offset 0x38, size 0x8
-  __declspec(property(get = __get_provider, put = __set_provider))::Mono::Net::Security::MobileTlsProvider* provider;
+  __declspec(property(get = __cordl_internal_get_provider, put = __cordl_internal_set_provider))::Mono::Net::Security::MobileTlsProvider* provider;
 
   /// @brief Field settings, offset 0x40, size 0x8
-  __declspec(property(get = __get_settings, put = __set_settings))::Mono::Security::Interface::MonoTlsSettings* settings;
+  __declspec(property(get = __cordl_internal_get_settings, put = __cordl_internal_set_settings))::Mono::Security::Interface::MonoTlsSettings* settings;
 
   /// @brief Field validationCallback, offset 0x48, size 0x8
-  __declspec(property(get = __get_validationCallback, put = __set_validationCallback))::System::Net::Security::RemoteCertificateValidationCallback* validationCallback;
+  __declspec(property(get = __cordl_internal_get_validationCallback, put = __cordl_internal_set_validationCallback))::System::Net::Security::RemoteCertificateValidationCallback* validationCallback;
 
   /// @brief Field selectionCallback, offset 0x50, size 0x8
-  __declspec(property(get = __get_selectionCallback, put = __set_selectionCallback))::System::Net::Security::LocalCertificateSelectionCallback* selectionCallback;
+  __declspec(property(get = __cordl_internal_get_selectionCallback, put = __cordl_internal_set_selectionCallback))::System::Net::Security::LocalCertificateSelectionCallback* selectionCallback;
 
   /// @brief Field impl, offset 0x58, size 0x8
-  __declspec(property(get = __get_impl, put = __set_impl))::Mono::Net::Security::MobileAuthenticatedStream* impl;
+  __declspec(property(get = __cordl_internal_get_impl, put = __cordl_internal_set_impl))::Mono::Net::Security::MobileAuthenticatedStream* impl;
 
   /// @brief Field explicitSettings, offset 0x60, size 0x1
-  __declspec(property(get = __get_explicitSettings, put = __set_explicitSettings)) bool explicitSettings;
+  __declspec(property(get = __cordl_internal_get_explicitSettings, put = __cordl_internal_set_explicitSettings)) bool explicitSettings;
 
   __declspec(property(get = get_Impl))::Mono::Net::Security::MobileAuthenticatedStream* Impl;
 
@@ -195,41 +195,41 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr ::Mono::Net::Security::MobileTlsProvider*& __get_provider();
+  constexpr ::Mono::Net::Security::MobileTlsProvider*& __cordl_internal_get_provider();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileTlsProvider*> const& __get_provider() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileTlsProvider*> const& __cordl_internal_get_provider() const;
 
-  constexpr void __set_provider(::Mono::Net::Security::MobileTlsProvider* value);
+  constexpr void __cordl_internal_set_provider(::Mono::Net::Security::MobileTlsProvider* value);
 
-  constexpr ::Mono::Security::Interface::MonoTlsSettings*& __get_settings();
+  constexpr ::Mono::Security::Interface::MonoTlsSettings*& __cordl_internal_get_settings();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsSettings*> const& __get_settings() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsSettings*> const& __cordl_internal_get_settings() const;
 
-  constexpr void __set_settings(::Mono::Security::Interface::MonoTlsSettings* value);
+  constexpr void __cordl_internal_set_settings(::Mono::Security::Interface::MonoTlsSettings* value);
 
-  constexpr ::System::Net::Security::RemoteCertificateValidationCallback*& __get_validationCallback();
+  constexpr ::System::Net::Security::RemoteCertificateValidationCallback*& __cordl_internal_get_validationCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::RemoteCertificateValidationCallback*> const& __get_validationCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::RemoteCertificateValidationCallback*> const& __cordl_internal_get_validationCallback() const;
 
-  constexpr void __set_validationCallback(::System::Net::Security::RemoteCertificateValidationCallback* value);
+  constexpr void __cordl_internal_set_validationCallback(::System::Net::Security::RemoteCertificateValidationCallback* value);
 
-  constexpr ::System::Net::Security::LocalCertificateSelectionCallback*& __get_selectionCallback();
+  constexpr ::System::Net::Security::LocalCertificateSelectionCallback*& __cordl_internal_get_selectionCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::LocalCertificateSelectionCallback*> const& __get_selectionCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::LocalCertificateSelectionCallback*> const& __cordl_internal_get_selectionCallback() const;
 
-  constexpr void __set_selectionCallback(::System::Net::Security::LocalCertificateSelectionCallback* value);
+  constexpr void __cordl_internal_set_selectionCallback(::System::Net::Security::LocalCertificateSelectionCallback* value);
 
-  constexpr ::Mono::Net::Security::MobileAuthenticatedStream*& __get_impl();
+  constexpr ::Mono::Net::Security::MobileAuthenticatedStream*& __cordl_internal_get_impl();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileAuthenticatedStream*> const& __get_impl() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileAuthenticatedStream*> const& __cordl_internal_get_impl() const;
 
-  constexpr void __set_impl(::Mono::Net::Security::MobileAuthenticatedStream* value);
+  constexpr void __cordl_internal_set_impl(::Mono::Net::Security::MobileAuthenticatedStream* value);
 
-  constexpr bool& __get_explicitSettings();
+  constexpr bool& __cordl_internal_get_explicitSettings();
 
-  constexpr bool const& __get_explicitSettings() const;
+  constexpr bool const& __cordl_internal_get_explicitSettings() const;
 
-  constexpr void __set_explicitSettings(bool value);
+  constexpr void __cordl_internal_set_explicitSettings(bool value);
 
   /// @brief Method get_Impl, addr 0x28ffe44, size 0x18, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::MobileAuthenticatedStream* get_Impl();

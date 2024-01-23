@@ -56,29 +56,29 @@ MARK_REF_PTR_T(::TMPro::__KerningTable____c__DisplayClass5_0);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12364))
 // CS Name: ::KerningTable::<>c__DisplayClass3_0*
 class CORDL_TYPE __KerningTable____c__DisplayClass3_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field first, offset 0x10, size 0x4
-  __declspec(property(get = __get_first, put = __set_first)) uint32_t first;
+  __declspec(property(get = __cordl_internal_get_first, put = __cordl_internal_set_first)) uint32_t first;
 
   /// @brief Field second, offset 0x14, size 0x4
-  __declspec(property(get = __get_second, put = __set_second)) uint32_t second;
+  __declspec(property(get = __cordl_internal_get_second, put = __cordl_internal_set_second)) uint32_t second;
 
-  constexpr uint32_t& __get_first();
+  constexpr uint32_t& __cordl_internal_get_first();
 
-  constexpr uint32_t const& __get_first() const;
+  constexpr uint32_t const& __cordl_internal_get_first() const;
 
-  constexpr void __set_first(uint32_t value);
+  constexpr void __cordl_internal_set_first(uint32_t value);
 
-  constexpr uint32_t& __get_second();
+  constexpr uint32_t& __cordl_internal_get_second();
 
-  constexpr uint32_t const& __get_second() const;
+  constexpr uint32_t const& __cordl_internal_get_second() const;
 
-  constexpr void __set_second(uint32_t value);
+  constexpr void __cordl_internal_set_second(uint32_t value);
 
   static inline ::TMPro::__KerningTable____c__DisplayClass3_0* New_ctor();
 
@@ -122,29 +122,29 @@ static_assert(offsetof(::TMPro::__KerningTable____c__DisplayClass3_0, ___second)
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12365))
 // CS Name: ::KerningTable::<>c__DisplayClass4_0*
 class CORDL_TYPE __KerningTable____c__DisplayClass4_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field first, offset 0x10, size 0x4
-  __declspec(property(get = __get_first, put = __set_first)) uint32_t first;
+  __declspec(property(get = __cordl_internal_get_first, put = __cordl_internal_set_first)) uint32_t first;
 
   /// @brief Field second, offset 0x14, size 0x4
-  __declspec(property(get = __get_second, put = __set_second)) uint32_t second;
+  __declspec(property(get = __cordl_internal_get_second, put = __cordl_internal_set_second)) uint32_t second;
 
-  constexpr uint32_t& __get_first();
+  constexpr uint32_t& __cordl_internal_get_first();
 
-  constexpr uint32_t const& __get_first() const;
+  constexpr uint32_t const& __cordl_internal_get_first() const;
 
-  constexpr void __set_first(uint32_t value);
+  constexpr void __cordl_internal_set_first(uint32_t value);
 
-  constexpr uint32_t& __get_second();
+  constexpr uint32_t& __cordl_internal_get_second();
 
-  constexpr uint32_t const& __get_second() const;
+  constexpr uint32_t const& __cordl_internal_get_second() const;
 
-  constexpr void __set_second(uint32_t value);
+  constexpr void __cordl_internal_set_second(uint32_t value);
 
   static inline ::TMPro::__KerningTable____c__DisplayClass4_0* New_ctor();
 
@@ -188,29 +188,29 @@ static_assert(offsetof(::TMPro::__KerningTable____c__DisplayClass4_0, ___second)
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12366))
 // CS Name: ::KerningTable::<>c__DisplayClass5_0*
 class CORDL_TYPE __KerningTable____c__DisplayClass5_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field left, offset 0x10, size 0x4
-  __declspec(property(get = __get_left, put = __set_left)) int32_t left;
+  __declspec(property(get = __cordl_internal_get_left, put = __cordl_internal_set_left)) int32_t left;
 
   /// @brief Field right, offset 0x14, size 0x4
-  __declspec(property(get = __get_right, put = __set_right)) int32_t right;
+  __declspec(property(get = __cordl_internal_get_right, put = __cordl_internal_set_right)) int32_t right;
 
-  constexpr int32_t& __get_left();
+  constexpr int32_t& __cordl_internal_get_left();
 
-  constexpr int32_t const& __get_left() const;
+  constexpr int32_t const& __cordl_internal_get_left() const;
 
-  constexpr void __set_left(int32_t value);
+  constexpr void __cordl_internal_set_left(int32_t value);
 
-  constexpr int32_t& __get_right();
+  constexpr int32_t& __cordl_internal_get_right();
 
-  constexpr int32_t const& __get_right() const;
+  constexpr int32_t const& __cordl_internal_get_right() const;
 
-  constexpr void __set_right(int32_t value);
+  constexpr void __cordl_internal_set_right(int32_t value);
 
   static inline ::TMPro::__KerningTable____c__DisplayClass5_0* New_ctor();
 
@@ -254,7 +254,7 @@ static_assert(offsetof(::TMPro::__KerningTable____c__DisplayClass5_0, ___right) 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12367))
 // CS Name: ::KerningTable::<>c*
 class CORDL_TYPE __KerningTable____c : public ::System::Object {
@@ -316,7 +316,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__KerningTable____c, 0x10
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12368))
 // CS Name: ::TMPro::KerningTable*
 class CORDL_TYPE KerningTable : public ::System::Object {
@@ -331,13 +331,13 @@ public:
   using __c__DisplayClass3_0 = ::TMPro::__KerningTable____c__DisplayClass3_0;
 
   /// @brief Field kerningPairs, offset 0x10, size 0x8
-  __declspec(property(get = __get_kerningPairs, put = __set_kerningPairs))::System::Collections::Generic::List_1<::TMPro::KerningPair*>* kerningPairs;
+  __declspec(property(get = __cordl_internal_get_kerningPairs, put = __cordl_internal_set_kerningPairs))::System::Collections::Generic::List_1<::TMPro::KerningPair*>* kerningPairs;
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::KerningPair*>*& __get_kerningPairs();
+  constexpr ::System::Collections::Generic::List_1<::TMPro::KerningPair*>*& __cordl_internal_get_kerningPairs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::KerningPair*>*> const& __get_kerningPairs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::KerningPair*>*> const& __cordl_internal_get_kerningPairs() const;
 
-  constexpr void __set_kerningPairs(::System::Collections::Generic::List_1<::TMPro::KerningPair*>* value);
+  constexpr void __cordl_internal_set_kerningPairs(::System::Collections::Generic::List_1<::TMPro::KerningPair*>* value);
 
   static inline ::TMPro::KerningTable* New_ctor();
 

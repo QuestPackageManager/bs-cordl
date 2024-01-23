@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::Rijndael);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2973))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2973))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2949))
 // CS Name: ::System.Security.Cryptography::Rijndael*
 class CORDL_TYPE Rijndael : public ::System::Security::Cryptography::SymmetricAlgorithm {

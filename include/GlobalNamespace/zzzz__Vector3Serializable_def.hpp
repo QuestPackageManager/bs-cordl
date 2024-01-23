@@ -34,7 +34,7 @@ MARK_VAL_T(::GlobalNamespace::Vector3Serializable);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15039))
 // CS Name: ::Vector3Serializable
 struct CORDL_TYPE Vector3Serializable {

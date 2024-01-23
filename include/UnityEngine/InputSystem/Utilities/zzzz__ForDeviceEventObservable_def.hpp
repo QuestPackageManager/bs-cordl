@@ -42,20 +42,20 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6685))
 // CS Name: ::ForDeviceEventObservable::ForDevice*
 class CORDL_TYPE __ForDeviceEventObservable__ForDevice : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Observer, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Observer, put = __set_m_Observer))::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_Observer;
+  __declspec(property(get = __cordl_internal_get_m_Observer, put = __cordl_internal_set_m_Observer))::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_Observer;
 
   /// @brief Field m_Device, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Device, put = __set_m_Device))::UnityEngine::InputSystem::InputDevice* m_Device;
+  __declspec(property(get = __cordl_internal_get_m_Device, put = __cordl_internal_set_m_Device))::UnityEngine::InputSystem::InputDevice* m_Device;
 
   /// @brief Field m_DeviceType, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_DeviceType, put = __set_m_DeviceType))::System::Type* m_DeviceType;
+  __declspec(property(get = __cordl_internal_get_m_DeviceType, put = __cordl_internal_set_m_DeviceType))::System::Type* m_DeviceType;
 
   /// @brief Convert operator to "::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr operator ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*() noexcept;
@@ -63,23 +63,23 @@ public:
   /// @brief Convert to "::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* i___System__IObserver_1___UnityEngine__InputSystem__LowLevel__InputEventPtr_() noexcept;
 
-  constexpr ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*& __get_m_Observer();
+  constexpr ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*& __cordl_internal_get_m_Observer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> const& __get_m_Observer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> const& __cordl_internal_get_m_Observer() const;
 
-  constexpr void __set_m_Observer(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
+  constexpr void __cordl_internal_set_m_Observer(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  constexpr ::UnityEngine::InputSystem::InputDevice*& __get_m_Device();
+  constexpr ::UnityEngine::InputSystem::InputDevice*& __cordl_internal_get_m_Device();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputDevice*> const& __get_m_Device() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputDevice*> const& __cordl_internal_get_m_Device() const;
 
-  constexpr void __set_m_Device(::UnityEngine::InputSystem::InputDevice* value);
+  constexpr void __cordl_internal_set_m_Device(::UnityEngine::InputSystem::InputDevice* value);
 
-  constexpr ::System::Type*& __get_m_DeviceType();
+  constexpr ::System::Type*& __cordl_internal_get_m_DeviceType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_m_DeviceType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_DeviceType() const;
 
-  constexpr void __set_m_DeviceType(::System::Type* value);
+  constexpr void __cordl_internal_set_m_DeviceType(::System::Type* value);
 
   static inline ::UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice* New_ctor(::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device,
                                                                                                        ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
@@ -135,7 +135,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__ForDeviceEventOb
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6686))
 // CS Name: ::UnityEngine.InputSystem.Utilities::ForDeviceEventObservable*
 class CORDL_TYPE ForDeviceEventObservable : public ::System::Object {
@@ -144,13 +144,13 @@ public:
   using ForDevice = ::UnityEngine::InputSystem::Utilities::__ForDeviceEventObservable__ForDevice;
 
   /// @brief Field m_Source, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Source, put = __set_m_Source))::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_Source;
+  __declspec(property(get = __cordl_internal_get_m_Source, put = __cordl_internal_set_m_Source))::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_Source;
 
   /// @brief Field m_Device, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Device, put = __set_m_Device))::UnityEngine::InputSystem::InputDevice* m_Device;
+  __declspec(property(get = __cordl_internal_get_m_Device, put = __cordl_internal_set_m_Device))::UnityEngine::InputSystem::InputDevice* m_Device;
 
   /// @brief Field m_DeviceType, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_DeviceType, put = __set_m_DeviceType))::System::Type* m_DeviceType;
+  __declspec(property(get = __cordl_internal_get_m_DeviceType, put = __cordl_internal_set_m_DeviceType))::System::Type* m_DeviceType;
 
   /// @brief Convert operator to "::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr operator ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*() noexcept;
@@ -158,23 +158,23 @@ public:
   /// @brief Convert to "::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* i___System__IObservable_1___UnityEngine__InputSystem__LowLevel__InputEventPtr_() noexcept;
 
-  constexpr ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*& __get_m_Source();
+  constexpr ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*& __cordl_internal_get_m_Source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> const& __get_m_Source() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> const& __cordl_internal_get_m_Source() const;
 
-  constexpr void __set_m_Source(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
+  constexpr void __cordl_internal_set_m_Source(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  constexpr ::UnityEngine::InputSystem::InputDevice*& __get_m_Device();
+  constexpr ::UnityEngine::InputSystem::InputDevice*& __cordl_internal_get_m_Device();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputDevice*> const& __get_m_Device() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputDevice*> const& __cordl_internal_get_m_Device() const;
 
-  constexpr void __set_m_Device(::UnityEngine::InputSystem::InputDevice* value);
+  constexpr void __cordl_internal_set_m_Device(::UnityEngine::InputSystem::InputDevice* value);
 
-  constexpr ::System::Type*& __get_m_DeviceType();
+  constexpr ::System::Type*& __cordl_internal_get_m_DeviceType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_m_DeviceType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_m_DeviceType() const;
 
-  constexpr void __set_m_DeviceType(::System::Type* value);
+  constexpr void __cordl_internal_set_m_DeviceType(::System::Type* value);
 
   static inline ::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable* New_ctor(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source,
                                                                                           ::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device);

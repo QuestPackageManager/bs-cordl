@@ -23,7 +23,7 @@ MARK_VAL_T(::OVR::OpenVR::VRControllerState_t_Packed);
 // SizeInfo { instance_size: 60, native_size: 60, calculated_instance_size: 60, calculated_native_size: 76, minimum_alignment: 4, natural_alignment: 8, packing: Some(4), specified_packing: Some(4) }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8695))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8695))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8697))
 // CS Name: ::OVR.OpenVR::VRControllerState_t_Packed
 #pragma pack(push, 4)

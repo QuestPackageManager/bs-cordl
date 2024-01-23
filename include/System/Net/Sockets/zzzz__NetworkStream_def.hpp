@@ -64,35 +64,35 @@ MARK_REF_PTR_T(::System::Net::Sockets::NetworkStream);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9324))
 // CS Name: ::System.Net.Sockets::NetworkStream*
 class CORDL_TYPE NetworkStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field _streamSocket, offset 0x28, size 0x8
-  __declspec(property(get = __get__streamSocket, put = __set__streamSocket))::System::Net::Sockets::Socket* _streamSocket;
+  __declspec(property(get = __cordl_internal_get__streamSocket, put = __cordl_internal_set__streamSocket))::System::Net::Sockets::Socket* _streamSocket;
 
   /// @brief Field _ownsSocket, offset 0x30, size 0x1
-  __declspec(property(get = __get__ownsSocket, put = __set__ownsSocket)) bool _ownsSocket;
+  __declspec(property(get = __cordl_internal_get__ownsSocket, put = __cordl_internal_set__ownsSocket)) bool _ownsSocket;
 
   /// @brief Field _readable, offset 0x31, size 0x1
-  __declspec(property(get = __get__readable, put = __set__readable)) bool _readable;
+  __declspec(property(get = __cordl_internal_get__readable, put = __cordl_internal_set__readable)) bool _readable;
 
   /// @brief Field _writeable, offset 0x32, size 0x1
-  __declspec(property(get = __get__writeable, put = __set__writeable)) bool _writeable;
+  __declspec(property(get = __cordl_internal_get__writeable, put = __cordl_internal_set__writeable)) bool _writeable;
 
   /// @brief Field _closeTimeout, offset 0x34, size 0x4
-  __declspec(property(get = __get__closeTimeout, put = __set__closeTimeout)) int32_t _closeTimeout;
+  __declspec(property(get = __cordl_internal_get__closeTimeout, put = __cordl_internal_set__closeTimeout)) int32_t _closeTimeout;
 
   /// @brief Field _cleanedUp, offset 0x38, size 0x1
-  __declspec(property(get = __get__cleanedUp, put = __set__cleanedUp)) bool _cleanedUp;
+  __declspec(property(get = __cordl_internal_get__cleanedUp, put = __cordl_internal_set__cleanedUp)) bool _cleanedUp;
 
   /// @brief Field _currentReadTimeout, offset 0x3c, size 0x4
-  __declspec(property(get = __get__currentReadTimeout, put = __set__currentReadTimeout)) int32_t _currentReadTimeout;
+  __declspec(property(get = __cordl_internal_get__currentReadTimeout, put = __cordl_internal_set__currentReadTimeout)) int32_t _currentReadTimeout;
 
   /// @brief Field _currentWriteTimeout, offset 0x40, size 0x4
-  __declspec(property(get = __get__currentWriteTimeout, put = __set__currentWriteTimeout)) int32_t _currentWriteTimeout;
+  __declspec(property(get = __cordl_internal_get__currentWriteTimeout, put = __cordl_internal_set__currentWriteTimeout)) int32_t _currentWriteTimeout;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -114,53 +114,53 @@ public:
 
   __declspec(property(get = get_InternalSocket))::System::Net::Sockets::Socket* InternalSocket;
 
-  constexpr ::System::Net::Sockets::Socket*& __get__streamSocket();
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get__streamSocket();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __get__streamSocket() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get__streamSocket() const;
 
-  constexpr void __set__streamSocket(::System::Net::Sockets::Socket* value);
+  constexpr void __cordl_internal_set__streamSocket(::System::Net::Sockets::Socket* value);
 
-  constexpr bool& __get__ownsSocket();
+  constexpr bool& __cordl_internal_get__ownsSocket();
 
-  constexpr bool const& __get__ownsSocket() const;
+  constexpr bool const& __cordl_internal_get__ownsSocket() const;
 
-  constexpr void __set__ownsSocket(bool value);
+  constexpr void __cordl_internal_set__ownsSocket(bool value);
 
-  constexpr bool& __get__readable();
+  constexpr bool& __cordl_internal_get__readable();
 
-  constexpr bool const& __get__readable() const;
+  constexpr bool const& __cordl_internal_get__readable() const;
 
-  constexpr void __set__readable(bool value);
+  constexpr void __cordl_internal_set__readable(bool value);
 
-  constexpr bool& __get__writeable();
+  constexpr bool& __cordl_internal_get__writeable();
 
-  constexpr bool const& __get__writeable() const;
+  constexpr bool const& __cordl_internal_get__writeable() const;
 
-  constexpr void __set__writeable(bool value);
+  constexpr void __cordl_internal_set__writeable(bool value);
 
-  constexpr int32_t& __get__closeTimeout();
+  constexpr int32_t& __cordl_internal_get__closeTimeout();
 
-  constexpr int32_t const& __get__closeTimeout() const;
+  constexpr int32_t const& __cordl_internal_get__closeTimeout() const;
 
-  constexpr void __set__closeTimeout(int32_t value);
+  constexpr void __cordl_internal_set__closeTimeout(int32_t value);
 
-  constexpr bool& __get__cleanedUp();
+  constexpr bool& __cordl_internal_get__cleanedUp();
 
-  constexpr bool const& __get__cleanedUp() const;
+  constexpr bool const& __cordl_internal_get__cleanedUp() const;
 
-  constexpr void __set__cleanedUp(bool value);
+  constexpr void __cordl_internal_set__cleanedUp(bool value);
 
-  constexpr int32_t& __get__currentReadTimeout();
+  constexpr int32_t& __cordl_internal_get__currentReadTimeout();
 
-  constexpr int32_t const& __get__currentReadTimeout() const;
+  constexpr int32_t const& __cordl_internal_get__currentReadTimeout() const;
 
-  constexpr void __set__currentReadTimeout(int32_t value);
+  constexpr void __cordl_internal_set__currentReadTimeout(int32_t value);
 
-  constexpr int32_t& __get__currentWriteTimeout();
+  constexpr int32_t& __cordl_internal_get__currentWriteTimeout();
 
-  constexpr int32_t const& __get__currentWriteTimeout() const;
+  constexpr int32_t const& __cordl_internal_get__currentWriteTimeout() const;
 
-  constexpr void __set__currentWriteTimeout(int32_t value);
+  constexpr void __cordl_internal_set__currentWriteTimeout(int32_t value);
 
   static inline ::System::Net::Sockets::NetworkStream* New_ctor(::System::Net::Sockets::Socket* socket);
 

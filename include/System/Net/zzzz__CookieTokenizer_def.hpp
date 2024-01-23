@@ -29,7 +29,7 @@ MARK_VAL_T(::System::Net::__CookieTokenizer__RecognizedAttribute);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9121))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9121))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9122))
 // CS Name: ::CookieTokenizer::RecognizedAttribute
 struct CORDL_TYPE __CookieTokenizer__RecognizedAttribute {
@@ -76,7 +76,7 @@ static_assert(offsetof(::System::Net::__CookieTokenizer__RecognizedAttribute, m_
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9121))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9121))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9123))
 // CS Name: ::System.Net::CookieTokenizer*
 class CORDL_TYPE CookieTokenizer : public ::System::Object {
@@ -85,34 +85,34 @@ public:
   using RecognizedAttribute = ::System::Net::__CookieTokenizer__RecognizedAttribute;
 
   /// @brief Field m_eofCookie, offset 0x10, size 0x1
-  __declspec(property(get = __get_m_eofCookie, put = __set_m_eofCookie)) bool m_eofCookie;
+  __declspec(property(get = __cordl_internal_get_m_eofCookie, put = __cordl_internal_set_m_eofCookie)) bool m_eofCookie;
 
   /// @brief Field m_index, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_index, put = __set_m_index)) int32_t m_index;
+  __declspec(property(get = __cordl_internal_get_m_index, put = __cordl_internal_set_m_index)) int32_t m_index;
 
   /// @brief Field m_length, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_length, put = __set_m_length)) int32_t m_length;
+  __declspec(property(get = __cordl_internal_get_m_length, put = __cordl_internal_set_m_length)) int32_t m_length;
 
   /// @brief Field m_name, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_name, put = __set_m_name))::StringW m_name;
+  __declspec(property(get = __cordl_internal_get_m_name, put = __cordl_internal_set_m_name))::StringW m_name;
 
   /// @brief Field m_quoted, offset 0x28, size 0x1
-  __declspec(property(get = __get_m_quoted, put = __set_m_quoted)) bool m_quoted;
+  __declspec(property(get = __cordl_internal_get_m_quoted, put = __cordl_internal_set_m_quoted)) bool m_quoted;
 
   /// @brief Field m_start, offset 0x2c, size 0x4
-  __declspec(property(get = __get_m_start, put = __set_m_start)) int32_t m_start;
+  __declspec(property(get = __cordl_internal_get_m_start, put = __cordl_internal_set_m_start)) int32_t m_start;
 
   /// @brief Field m_token, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_token, put = __set_m_token))::System::Net::CookieToken m_token;
+  __declspec(property(get = __cordl_internal_get_m_token, put = __cordl_internal_set_m_token))::System::Net::CookieToken m_token;
 
   /// @brief Field m_tokenLength, offset 0x34, size 0x4
-  __declspec(property(get = __get_m_tokenLength, put = __set_m_tokenLength)) int32_t m_tokenLength;
+  __declspec(property(get = __cordl_internal_get_m_tokenLength, put = __cordl_internal_set_m_tokenLength)) int32_t m_tokenLength;
 
   /// @brief Field m_tokenStream, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_tokenStream, put = __set_m_tokenStream))::StringW m_tokenStream;
+  __declspec(property(get = __cordl_internal_get_m_tokenStream, put = __cordl_internal_set_m_tokenStream))::StringW m_tokenStream;
 
   /// @brief Field m_value, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_value, put = __set_m_value))::StringW m_value;
+  __declspec(property(get = __cordl_internal_get_m_value, put = __cordl_internal_set_m_value))::StringW m_value;
 
   /// @brief Field RecognizedAttributes, offset 0xffffffff, size 0x8
   static __declspec(property(
@@ -136,65 +136,65 @@ public:
 
   __declspec(property(get = get_Value, put = set_Value))::StringW Value;
 
-  constexpr bool& __get_m_eofCookie();
+  constexpr bool& __cordl_internal_get_m_eofCookie();
 
-  constexpr bool const& __get_m_eofCookie() const;
+  constexpr bool const& __cordl_internal_get_m_eofCookie() const;
 
-  constexpr void __set_m_eofCookie(bool value);
+  constexpr void __cordl_internal_set_m_eofCookie(bool value);
 
-  constexpr int32_t& __get_m_index();
+  constexpr int32_t& __cordl_internal_get_m_index();
 
-  constexpr int32_t const& __get_m_index() const;
+  constexpr int32_t const& __cordl_internal_get_m_index() const;
 
-  constexpr void __set_m_index(int32_t value);
+  constexpr void __cordl_internal_set_m_index(int32_t value);
 
-  constexpr int32_t& __get_m_length();
+  constexpr int32_t& __cordl_internal_get_m_length();
 
-  constexpr int32_t const& __get_m_length() const;
+  constexpr int32_t const& __cordl_internal_get_m_length() const;
 
-  constexpr void __set_m_length(int32_t value);
+  constexpr void __cordl_internal_set_m_length(int32_t value);
 
-  constexpr ::StringW& __get_m_name();
+  constexpr ::StringW& __cordl_internal_get_m_name();
 
-  constexpr ::StringW const& __get_m_name() const;
+  constexpr ::StringW const& __cordl_internal_get_m_name() const;
 
-  constexpr void __set_m_name(::StringW value);
+  constexpr void __cordl_internal_set_m_name(::StringW value);
 
-  constexpr bool& __get_m_quoted();
+  constexpr bool& __cordl_internal_get_m_quoted();
 
-  constexpr bool const& __get_m_quoted() const;
+  constexpr bool const& __cordl_internal_get_m_quoted() const;
 
-  constexpr void __set_m_quoted(bool value);
+  constexpr void __cordl_internal_set_m_quoted(bool value);
 
-  constexpr int32_t& __get_m_start();
+  constexpr int32_t& __cordl_internal_get_m_start();
 
-  constexpr int32_t const& __get_m_start() const;
+  constexpr int32_t const& __cordl_internal_get_m_start() const;
 
-  constexpr void __set_m_start(int32_t value);
+  constexpr void __cordl_internal_set_m_start(int32_t value);
 
-  constexpr ::System::Net::CookieToken& __get_m_token();
+  constexpr ::System::Net::CookieToken& __cordl_internal_get_m_token();
 
-  constexpr ::System::Net::CookieToken const& __get_m_token() const;
+  constexpr ::System::Net::CookieToken const& __cordl_internal_get_m_token() const;
 
-  constexpr void __set_m_token(::System::Net::CookieToken value);
+  constexpr void __cordl_internal_set_m_token(::System::Net::CookieToken value);
 
-  constexpr int32_t& __get_m_tokenLength();
+  constexpr int32_t& __cordl_internal_get_m_tokenLength();
 
-  constexpr int32_t const& __get_m_tokenLength() const;
+  constexpr int32_t const& __cordl_internal_get_m_tokenLength() const;
 
-  constexpr void __set_m_tokenLength(int32_t value);
+  constexpr void __cordl_internal_set_m_tokenLength(int32_t value);
 
-  constexpr ::StringW& __get_m_tokenStream();
+  constexpr ::StringW& __cordl_internal_get_m_tokenStream();
 
-  constexpr ::StringW const& __get_m_tokenStream() const;
+  constexpr ::StringW const& __cordl_internal_get_m_tokenStream() const;
 
-  constexpr void __set_m_tokenStream(::StringW value);
+  constexpr void __cordl_internal_set_m_tokenStream(::StringW value);
 
-  constexpr ::StringW& __get_m_value();
+  constexpr ::StringW& __cordl_internal_get_m_value();
 
-  constexpr ::StringW const& __get_m_value() const;
+  constexpr ::StringW const& __cordl_internal_get_m_value() const;
 
-  constexpr void __set_m_value(::StringW value);
+  constexpr void __cordl_internal_set_m_value(::StringW value);
 
   static inline void setStaticF_RecognizedAttributes(::ArrayW<::System::Net::__CookieTokenizer__RecognizedAttribute, ::Array<::System::Net::__CookieTokenizer__RecognizedAttribute>*> value);
 

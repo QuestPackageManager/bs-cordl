@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::FadeOutInstantly);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15284))
 // CS Name: ::FadeOutInstantly*
 class CORDL_TYPE FadeOutInstantly : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _fadeInOut, offset 0x18, size 0x8
-  __declspec(property(get = __get__fadeInOut, put = __set__fadeInOut))::GlobalNamespace::FadeInOutController* _fadeInOut;
+  __declspec(property(get = __cordl_internal_get__fadeInOut, put = __cordl_internal_set__fadeInOut))::UnityW<::GlobalNamespace::FadeInOutController> _fadeInOut;
 
-  constexpr ::GlobalNamespace::FadeInOutController*& __get__fadeInOut();
+  constexpr ::UnityW<::GlobalNamespace::FadeInOutController>& __cordl_internal_get__fadeInOut();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FadeInOutController*> const& __get__fadeInOut() const;
+  constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& __cordl_internal_get__fadeInOut() const;
 
-  constexpr void __set__fadeInOut(::GlobalNamespace::FadeInOutController* value);
+  constexpr void __cordl_internal_set__fadeInOut(::UnityW<::GlobalNamespace::FadeInOutController> value);
 
   /// @brief Method Start, addr 0x2807840, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
@@ -55,7 +55,7 @@ protected:
 
 public:
   /// @brief Field _fadeInOut, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::FadeInOutController* ____fadeInOut;
+  ::UnityW<::GlobalNamespace::FadeInOutController> ____fadeInOut;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

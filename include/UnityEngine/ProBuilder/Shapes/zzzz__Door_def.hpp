@@ -30,29 +30,29 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Door);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12233))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12233))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12228))
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Door*
 class CORDL_TYPE Door : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
   // Declarations
   /// @brief Field m_DoorHeight, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_DoorHeight, put = __set_m_DoorHeight)) float_t m_DoorHeight;
+  __declspec(property(get = __cordl_internal_get_m_DoorHeight, put = __cordl_internal_set_m_DoorHeight)) float_t m_DoorHeight;
 
   /// @brief Field m_LegWidth, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_LegWidth, put = __set_m_LegWidth)) float_t m_LegWidth;
+  __declspec(property(get = __cordl_internal_get_m_LegWidth, put = __cordl_internal_set_m_LegWidth)) float_t m_LegWidth;
 
-  constexpr float_t& __get_m_DoorHeight();
+  constexpr float_t& __cordl_internal_get_m_DoorHeight();
 
-  constexpr float_t const& __get_m_DoorHeight() const;
+  constexpr float_t const& __cordl_internal_get_m_DoorHeight() const;
 
-  constexpr void __set_m_DoorHeight(float_t value);
+  constexpr void __cordl_internal_set_m_DoorHeight(float_t value);
 
-  constexpr float_t& __get_m_LegWidth();
+  constexpr float_t& __cordl_internal_get_m_LegWidth();
 
-  constexpr float_t const& __get_m_LegWidth() const;
+  constexpr float_t const& __cordl_internal_get_m_LegWidth() const;
 
-  constexpr void __set_m_LegWidth(float_t value);
+  constexpr void __cordl_internal_set_m_LegWidth(float_t value);
 
   /// @brief Method CopyShape, addr 0x2b899f0, size 0xac, virtual true, abstract: false, final false
   inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);

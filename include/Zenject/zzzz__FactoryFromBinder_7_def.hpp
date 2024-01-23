@@ -68,20 +68,21 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10772))
 // CS Name: ::FactoryFromBinder`7::<>c__DisplayClass1_0<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract>*
 class CORDL_TYPE __FactoryFromBinder_7____c__DisplayClass1_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field method, offset 0x10, size 0x8
-  __declspec(property(get = __get_method, put = __set_method))::System::Func_8<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* method;
+  __declspec(property(get = __cordl_internal_get_method,
+                      put = __cordl_internal_set_method))::System::Func_8<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* method;
 
-  constexpr ::System::Func_8<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*& __get_method();
+  constexpr ::System::Func_8<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*& __cordl_internal_get_method();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_8<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*> const& __get_method() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_8<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>*> const& __cordl_internal_get_method() const;
 
-  constexpr void __set_method(::System::Func_8<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* value);
+  constexpr void __cordl_internal_set_method(::System::Func_8<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* value);
 
   static inline ::Zenject::__FactoryFromBinder_7____c__DisplayClass1_0<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TContract>* New_ctor();
 
@@ -124,7 +125,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract, typename TSubFactory>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10773))
 // CS Name: ::FactoryFromBinder`7::<>c__2`1<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract,TSubFactory>*
 class CORDL_TYPE __FactoryFromBinder_7____c__2_1 : public ::System::Object {
@@ -184,7 +185,7 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10846))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10846))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10774))
 // CS Name: ::Zenject::FactoryFromBinder`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TContract>*
 class CORDL_TYPE FactoryFromBinder_7 : public ::Zenject::FactoryFromBinderBase {

@@ -19,29 +19,29 @@ MARK_REF_PTR_T(::UnityEngine::AssetReferenceUILabelRestriction);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14045))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14045))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14046))
 // CS Name: ::UnityEngine::AssetReferenceUILabelRestriction*
 class CORDL_TYPE AssetReferenceUILabelRestriction : public ::UnityEngine::AssetReferenceUIRestriction {
 public:
   // Declarations
   /// @brief Field m_AllowedLabels, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_AllowedLabels, put = __set_m_AllowedLabels))::ArrayW<::StringW, ::Array<::StringW>*> m_AllowedLabels;
+  __declspec(property(get = __cordl_internal_get_m_AllowedLabels, put = __cordl_internal_set_m_AllowedLabels))::ArrayW<::StringW, ::Array<::StringW>*> m_AllowedLabels;
 
   /// @brief Field m_CachedToString, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_CachedToString, put = __set_m_CachedToString))::StringW m_CachedToString;
+  __declspec(property(get = __cordl_internal_get_m_CachedToString, put = __cordl_internal_set_m_CachedToString))::StringW m_CachedToString;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_AllowedLabels();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_AllowedLabels();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_AllowedLabels() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_AllowedLabels() const;
 
-  constexpr void __set_m_AllowedLabels(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_AllowedLabels(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::StringW& __get_m_CachedToString();
+  constexpr ::StringW& __cordl_internal_get_m_CachedToString();
 
-  constexpr ::StringW const& __get_m_CachedToString() const;
+  constexpr ::StringW const& __cordl_internal_get_m_CachedToString() const;
 
-  constexpr void __set_m_CachedToString(::StringW value);
+  constexpr void __cordl_internal_set_m_CachedToString(::StringW value);
 
   static inline ::UnityEngine::AssetReferenceUILabelRestriction* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> allowedLabels);
 

@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::System::IO::__TextWriter____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3585))
 // CS Name: ::TextWriter::<>c*
 class CORDL_TYPE __TextWriter____c : public ::System::Object {
@@ -107,7 +107,7 @@ static_assert(::cordl_internals::size_check_v<::System::IO::__TextWriter____c, 0
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3586))
 // CS Name: ::System.IO::TextWriter*
 class CORDL_TYPE TextWriter : public ::System::MarshalByRefObject {
@@ -120,13 +120,13 @@ public:
   using NullTextWriter = ::System::IO::__TextWriter__NullTextWriter;
 
   /// @brief Field CoreNewLine, offset 0x18, size 0x8
-  __declspec(property(get = __get_CoreNewLine, put = __set_CoreNewLine))::ArrayW<char16_t, ::Array<char16_t>*> CoreNewLine;
+  __declspec(property(get = __cordl_internal_get_CoreNewLine, put = __cordl_internal_set_CoreNewLine))::ArrayW<char16_t, ::Array<char16_t>*> CoreNewLine;
 
   /// @brief Field CoreNewLineStr, offset 0x20, size 0x8
-  __declspec(property(get = __get_CoreNewLineStr, put = __set_CoreNewLineStr))::StringW CoreNewLineStr;
+  __declspec(property(get = __cordl_internal_get_CoreNewLineStr, put = __cordl_internal_set_CoreNewLineStr))::StringW CoreNewLineStr;
 
   /// @brief Field _internalFormatProvider, offset 0x28, size 0x8
-  __declspec(property(get = __get__internalFormatProvider, put = __set__internalFormatProvider))::System::IFormatProvider* _internalFormatProvider;
+  __declspec(property(get = __cordl_internal_get__internalFormatProvider, put = __cordl_internal_set__internalFormatProvider))::System::IFormatProvider* _internalFormatProvider;
 
   /// @brief Field Null, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Null, put = setStaticF_Null))::System::IO::TextWriter* Null;
@@ -152,23 +152,23 @@ public:
   /// @brief Convert to "::System::IAsyncDisposable"
   constexpr ::System::IAsyncDisposable* i___System__IAsyncDisposable() noexcept;
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_CoreNewLine();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_CoreNewLine();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_CoreNewLine() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_CoreNewLine() const;
 
-  constexpr void __set_CoreNewLine(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_CoreNewLine(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr ::StringW& __get_CoreNewLineStr();
+  constexpr ::StringW& __cordl_internal_get_CoreNewLineStr();
 
-  constexpr ::StringW const& __get_CoreNewLineStr() const;
+  constexpr ::StringW const& __cordl_internal_get_CoreNewLineStr() const;
 
-  constexpr void __set_CoreNewLineStr(::StringW value);
+  constexpr void __cordl_internal_set_CoreNewLineStr(::StringW value);
 
-  constexpr ::System::IFormatProvider*& __get__internalFormatProvider();
+  constexpr ::System::IFormatProvider*& __cordl_internal_get__internalFormatProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IFormatProvider*> const& __get__internalFormatProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IFormatProvider*> const& __cordl_internal_get__internalFormatProvider() const;
 
-  constexpr void __set__internalFormatProvider(::System::IFormatProvider* value);
+  constexpr void __cordl_internal_set__internalFormatProvider(::System::IFormatProvider* value);
 
   static inline void setStaticF_Null(::System::IO::TextWriter* value);
 

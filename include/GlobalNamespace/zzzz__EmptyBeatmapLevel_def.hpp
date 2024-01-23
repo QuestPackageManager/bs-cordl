@@ -50,14 +50,15 @@ MARK_REF_PTR_T(::GlobalNamespace::EmptyBeatmapLevel);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4386))
 // CS Name: ::EmptyBeatmapLevel*
 class CORDL_TYPE EmptyBeatmapLevel : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <beatmapLevelData>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__beatmapLevelData_k__BackingField, put = __set__beatmapLevelData_k__BackingField))::GlobalNamespace::IBeatmapLevelData* _beatmapLevelData_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelData_k__BackingField,
+                      put = __cordl_internal_set__beatmapLevelData_k__BackingField))::GlobalNamespace::IBeatmapLevelData* _beatmapLevelData_k__BackingField;
 
   __declspec(property(get = get_levelID))::StringW levelID;
 
@@ -83,11 +84,11 @@ public:
 
   __declspec(property(get = get_songDuration)) float_t songDuration;
 
-  __declspec(property(get = get_environmentInfo))::GlobalNamespace::EnvironmentInfoSO* environmentInfo;
+  __declspec(property(get = get_environmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
 
-  __declspec(property(get = get_allDirectionsEnvironmentInfo))::GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo;
+  __declspec(property(get = get_allDirectionsEnvironmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> allDirectionsEnvironmentInfo;
 
-  __declspec(property(get = get_environmentInfos))::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> environmentInfos;
+  __declspec(property(get = get_environmentInfos))::ArrayW<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::Array<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> environmentInfos;
 
   __declspec(property(get = get_previewDifficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSets;
 
@@ -107,11 +108,11 @@ public:
   /// @brief Convert to "::GlobalNamespace::IPreviewBeatmapLevel"
   constexpr ::GlobalNamespace::IPreviewBeatmapLevel* i___GlobalNamespace__IPreviewBeatmapLevel() noexcept;
 
-  constexpr ::GlobalNamespace::IBeatmapLevelData*& __get__beatmapLevelData_k__BackingField();
+  constexpr ::GlobalNamespace::IBeatmapLevelData*& __cordl_internal_get__beatmapLevelData_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelData*> const& __get__beatmapLevelData_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelData*> const& __cordl_internal_get__beatmapLevelData_k__BackingField() const;
 
-  constexpr void __set__beatmapLevelData_k__BackingField(::GlobalNamespace::IBeatmapLevelData* value);
+  constexpr void __cordl_internal_set__beatmapLevelData_k__BackingField(::GlobalNamespace::IBeatmapLevelData* value);
 
   /// @brief Method get_levelID, addr 0x2347bdc, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_levelID();
@@ -150,13 +151,13 @@ public:
   inline float_t get_songDuration();
 
   /// @brief Method get_environmentInfo, addr 0x2347c3c, size 0x8, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
+  inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfo();
 
   /// @brief Method get_allDirectionsEnvironmentInfo, addr 0x2347c44, size 0x8, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
+  inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_allDirectionsEnvironmentInfo();
 
   /// @brief Method get_environmentInfos, addr 0x2347c4c, size 0x7c, virtual true, abstract: false, final true
-  inline ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> get_environmentInfos();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::Array<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> get_environmentInfos();
 
   /// @brief Method get_previewDifficultyBeatmapSets, addr 0x2347cc8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
@@ -165,10 +166,10 @@ public:
   inline ::GlobalNamespace::PlayerSensitivityFlag get_contentRating();
 
   /// @brief Method GetPreviewAudioClipAsync, addr 0x2347cd8, size 0x40, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::UnityEngine::AudioClip*>* GetPreviewAudioClipAsync(::System::Threading::CancellationToken cancellationToken);
+  inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* GetPreviewAudioClipAsync(::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method GetCoverImageAsync, addr 0x2347d18, size 0x40, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
+  inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method get_beatmapLevelData, addr 0x2347d58, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IBeatmapLevelData* get_beatmapLevelData();

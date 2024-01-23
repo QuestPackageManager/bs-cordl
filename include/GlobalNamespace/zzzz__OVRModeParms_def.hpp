@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRModeParms);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7588))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7588)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8138))
 // CS Name: ::OVRModeParms*
 class CORDL_TYPE OVRModeParms : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field resetButton, offset 0x18, size 0x4
-  __declspec(property(get = __get_resetButton, put = __set_resetButton))::GlobalNamespace::__OVRInput__RawButton resetButton;
+  __declspec(property(get = __cordl_internal_get_resetButton, put = __cordl_internal_set_resetButton))::GlobalNamespace::__OVRInput__RawButton resetButton;
 
-  constexpr ::GlobalNamespace::__OVRInput__RawButton& __get_resetButton();
+  constexpr ::GlobalNamespace::__OVRInput__RawButton& __cordl_internal_get_resetButton();
 
-  constexpr ::GlobalNamespace::__OVRInput__RawButton const& __get_resetButton() const;
+  constexpr ::GlobalNamespace::__OVRInput__RawButton const& __cordl_internal_get_resetButton() const;
 
-  constexpr void __set_resetButton(::GlobalNamespace::__OVRInput__RawButton value);
+  constexpr void __cordl_internal_set_resetButton(::GlobalNamespace::__OVRInput__RawButton value);
 
   /// @brief Method Start, addr 0x27b44a0, size 0x9c, virtual false, abstract: false, final false
   inline void Start();

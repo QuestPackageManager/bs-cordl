@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Net::Configuration::Ipv6Element);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Configuration {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16257))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16257))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9573))
 // CS Name: ::System.Net.Configuration::Ipv6Element*
 class CORDL_TYPE Ipv6Element : public ::System::Configuration::ConfigurationElement {

@@ -53,20 +53,20 @@ MARK_VAL_T(::GlobalNamespace::__FlowCoordinatorAvatarsHelper___HasUserSelectedAv
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5494))
 // CS Name: ::FlowCoordinatorAvatarsHelper::<>c__DisplayClass0_0*
 class CORDL_TYPE __FlowCoordinatorAvatarsHelper____c__DisplayClass0_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field playerDataModel, offset 0x10, size 0x8
-  __declspec(property(get = __get_playerDataModel, put = __set_playerDataModel))::GlobalNamespace::PlayerDataModel* playerDataModel;
+  __declspec(property(get = __cordl_internal_get_playerDataModel, put = __cordl_internal_set_playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> playerDataModel;
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get_playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get_playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get_playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get_playerDataModel() const;
 
-  constexpr void __set_playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set_playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
   static inline ::GlobalNamespace::__FlowCoordinatorAvatarsHelper____c__DisplayClass0_0* New_ctor();
 
@@ -91,7 +91,7 @@ protected:
 
 public:
   /// @brief Field playerDataModel, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ___playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ___playerDataModel;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -105,9 +105,9 @@ static_assert(offsetof(::GlobalNamespace::__FlowCoordinatorAvatarsHelper____c__D
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5495)) CS
-// Name: ::FlowCoordinatorAvatarsHelper::<HasUserSelectedAvatarSystemWithCreatedAvatar>d__0
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5495)) CS Name:
+// ::FlowCoordinatorAvatarsHelper::<HasUserSelectedAvatarSystemWithCreatedAvatar>d__0
 struct CORDL_TYPE __FlowCoordinatorAvatarsHelper___HasUserSelectedAvatarSystemWithCreatedAvatar_d__0 {
 public:
   // Declarations
@@ -124,11 +124,11 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "playerDataModel", ty: "::GlobalNamespace::PlayerDataModel*", modifiers:
-  // "", def_value: None }, CppParam { name: "avatarSystemCollection", ty: "::BeatSaber::AvatarCore::AvatarSystemCollection*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "playerDataModel", ty: "::UnityW<::GlobalNamespace::PlayerDataModel>",
+  // modifiers: "", def_value: None }, CppParam { name: "avatarSystemCollection", ty: "::BeatSaber::AvatarCore::AvatarSystemCollection*", modifiers: "", def_value: None }, CppParam { name: "__u__1",
+  // ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: None }]
   constexpr __FlowCoordinatorAvatarsHelper___HasUserSelectedAvatarSystemWithCreatedAvatar_d__0(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder,
-                                                                                               ::GlobalNamespace::PlayerDataModel* playerDataModel,
+                                                                                               ::UnityW<::GlobalNamespace::PlayerDataModel> playerDataModel,
                                                                                                ::BeatSaber::AvatarCore::AvatarSystemCollection* avatarSystemCollection,
                                                                                                ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
@@ -143,7 +143,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
 
   /// @brief Field playerDataModel, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> playerDataModel;
 
   /// @brief Field avatarSystemCollection, offset: 0x28, size: 0x8, def value: None
   ::BeatSaber::AvatarCore::AvatarSystemCollection* avatarSystemCollection;
@@ -174,7 +174,7 @@ static_assert(offsetof(::GlobalNamespace::__FlowCoordinatorAvatarsHelper___HasUs
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5496))
 // CS Name: ::FlowCoordinatorAvatarsHelper*
 class CORDL_TYPE FlowCoordinatorAvatarsHelper : public ::System::Object {

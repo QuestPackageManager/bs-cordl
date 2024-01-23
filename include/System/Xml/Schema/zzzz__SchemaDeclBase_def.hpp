@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::SchemaDeclBase);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11702))
 // CS Name: ::SchemaDeclBase::Use
 struct CORDL_TYPE __SchemaDeclBase__Use {
@@ -102,7 +102,7 @@ static_assert(offsetof(::System::Xml::Schema::__SchemaDeclBase__Use, value__) ==
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11702))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11702))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11703))
 // CS Name: ::System.Xml.Schema::SchemaDeclBase*
 class CORDL_TYPE SchemaDeclBase : public ::System::Object {
@@ -111,37 +111,37 @@ public:
   using Use = ::System::Xml::Schema::__SchemaDeclBase__Use;
 
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::System::Xml::XmlQualifiedName* name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::System::Xml::XmlQualifiedName* name;
 
   /// @brief Field prefix, offset 0x18, size 0x8
-  __declspec(property(get = __get_prefix, put = __set_prefix))::StringW prefix;
+  __declspec(property(get = __cordl_internal_get_prefix, put = __cordl_internal_set_prefix))::StringW prefix;
 
   /// @brief Field isDeclaredInExternal, offset 0x20, size 0x1
-  __declspec(property(get = __get_isDeclaredInExternal, put = __set_isDeclaredInExternal)) bool isDeclaredInExternal;
+  __declspec(property(get = __cordl_internal_get_isDeclaredInExternal, put = __cordl_internal_set_isDeclaredInExternal)) bool isDeclaredInExternal;
 
   /// @brief Field presence, offset 0x24, size 0x4
-  __declspec(property(get = __get_presence, put = __set_presence))::System::Xml::Schema::__SchemaDeclBase__Use presence;
+  __declspec(property(get = __cordl_internal_get_presence, put = __cordl_internal_set_presence))::System::Xml::Schema::__SchemaDeclBase__Use presence;
 
   /// @brief Field schemaType, offset 0x28, size 0x8
-  __declspec(property(get = __get_schemaType, put = __set_schemaType))::System::Xml::Schema::XmlSchemaType* schemaType;
+  __declspec(property(get = __cordl_internal_get_schemaType, put = __cordl_internal_set_schemaType))::System::Xml::Schema::XmlSchemaType* schemaType;
 
   /// @brief Field datatype, offset 0x30, size 0x8
-  __declspec(property(get = __get_datatype, put = __set_datatype))::System::Xml::Schema::XmlSchemaDatatype* datatype;
+  __declspec(property(get = __cordl_internal_get_datatype, put = __cordl_internal_set_datatype))::System::Xml::Schema::XmlSchemaDatatype* datatype;
 
   /// @brief Field defaultValueRaw, offset 0x38, size 0x8
-  __declspec(property(get = __get_defaultValueRaw, put = __set_defaultValueRaw))::StringW defaultValueRaw;
+  __declspec(property(get = __cordl_internal_get_defaultValueRaw, put = __cordl_internal_set_defaultValueRaw))::StringW defaultValueRaw;
 
   /// @brief Field defaultValueTyped, offset 0x40, size 0x8
-  __declspec(property(get = __get_defaultValueTyped, put = __set_defaultValueTyped))::System::Object* defaultValueTyped;
+  __declspec(property(get = __cordl_internal_get_defaultValueTyped, put = __cordl_internal_set_defaultValueTyped))::System::Object* defaultValueTyped;
 
   /// @brief Field maxLength, offset 0x48, size 0x8
-  __declspec(property(get = __get_maxLength, put = __set_maxLength)) int64_t maxLength;
+  __declspec(property(get = __cordl_internal_get_maxLength, put = __cordl_internal_set_maxLength)) int64_t maxLength;
 
   /// @brief Field minLength, offset 0x50, size 0x8
-  __declspec(property(get = __get_minLength, put = __set_minLength)) int64_t minLength;
+  __declspec(property(get = __cordl_internal_get_minLength, put = __cordl_internal_set_minLength)) int64_t minLength;
 
   /// @brief Field values, offset 0x58, size 0x8
-  __declspec(property(get = __get_values, put = __set_values))::System::Collections::Generic::List_1<::StringW>* values;
+  __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values))::System::Collections::Generic::List_1<::StringW>* values;
 
   __declspec(property(get = get_Name))::System::Xml::XmlQualifiedName* Name;
 
@@ -161,71 +161,71 @@ public:
 
   __declspec(property(get = get_DefaultValueTyped, put = set_DefaultValueTyped))::System::Object* DefaultValueTyped;
 
-  constexpr ::System::Xml::XmlQualifiedName*& __get_name();
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_name();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __get_name() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::System::Xml::XmlQualifiedName* value);
+  constexpr void __cordl_internal_set_name(::System::Xml::XmlQualifiedName* value);
 
-  constexpr ::StringW& __get_prefix();
+  constexpr ::StringW& __cordl_internal_get_prefix();
 
-  constexpr ::StringW const& __get_prefix() const;
+  constexpr ::StringW const& __cordl_internal_get_prefix() const;
 
-  constexpr void __set_prefix(::StringW value);
+  constexpr void __cordl_internal_set_prefix(::StringW value);
 
-  constexpr bool& __get_isDeclaredInExternal();
+  constexpr bool& __cordl_internal_get_isDeclaredInExternal();
 
-  constexpr bool const& __get_isDeclaredInExternal() const;
+  constexpr bool const& __cordl_internal_get_isDeclaredInExternal() const;
 
-  constexpr void __set_isDeclaredInExternal(bool value);
+  constexpr void __cordl_internal_set_isDeclaredInExternal(bool value);
 
-  constexpr ::System::Xml::Schema::__SchemaDeclBase__Use& __get_presence();
+  constexpr ::System::Xml::Schema::__SchemaDeclBase__Use& __cordl_internal_get_presence();
 
-  constexpr ::System::Xml::Schema::__SchemaDeclBase__Use const& __get_presence() const;
+  constexpr ::System::Xml::Schema::__SchemaDeclBase__Use const& __cordl_internal_get_presence() const;
 
-  constexpr void __set_presence(::System::Xml::Schema::__SchemaDeclBase__Use value);
+  constexpr void __cordl_internal_set_presence(::System::Xml::Schema::__SchemaDeclBase__Use value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaType*& __get_schemaType();
+  constexpr ::System::Xml::Schema::XmlSchemaType*& __cordl_internal_get_schemaType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __get_schemaType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaType*> const& __cordl_internal_get_schemaType() const;
 
-  constexpr void __set_schemaType(::System::Xml::Schema::XmlSchemaType* value);
+  constexpr void __cordl_internal_set_schemaType(::System::Xml::Schema::XmlSchemaType* value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaDatatype*& __get_datatype();
+  constexpr ::System::Xml::Schema::XmlSchemaDatatype*& __cordl_internal_get_datatype();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaDatatype*> const& __get_datatype() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaDatatype*> const& __cordl_internal_get_datatype() const;
 
-  constexpr void __set_datatype(::System::Xml::Schema::XmlSchemaDatatype* value);
+  constexpr void __cordl_internal_set_datatype(::System::Xml::Schema::XmlSchemaDatatype* value);
 
-  constexpr ::StringW& __get_defaultValueRaw();
+  constexpr ::StringW& __cordl_internal_get_defaultValueRaw();
 
-  constexpr ::StringW const& __get_defaultValueRaw() const;
+  constexpr ::StringW const& __cordl_internal_get_defaultValueRaw() const;
 
-  constexpr void __set_defaultValueRaw(::StringW value);
+  constexpr void __cordl_internal_set_defaultValueRaw(::StringW value);
 
-  constexpr ::System::Object*& __get_defaultValueTyped();
+  constexpr ::System::Object*& __cordl_internal_get_defaultValueTyped();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_defaultValueTyped() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_defaultValueTyped() const;
 
-  constexpr void __set_defaultValueTyped(::System::Object* value);
+  constexpr void __cordl_internal_set_defaultValueTyped(::System::Object* value);
 
-  constexpr int64_t& __get_maxLength();
+  constexpr int64_t& __cordl_internal_get_maxLength();
 
-  constexpr int64_t const& __get_maxLength() const;
+  constexpr int64_t const& __cordl_internal_get_maxLength() const;
 
-  constexpr void __set_maxLength(int64_t value);
+  constexpr void __cordl_internal_set_maxLength(int64_t value);
 
-  constexpr int64_t& __get_minLength();
+  constexpr int64_t& __cordl_internal_get_minLength();
 
-  constexpr int64_t const& __get_minLength() const;
+  constexpr int64_t const& __cordl_internal_get_minLength() const;
 
-  constexpr void __set_minLength(int64_t value);
+  constexpr void __cordl_internal_set_minLength(int64_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_values();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_values() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_values() const;
 
-  constexpr void __set_values(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_values(::System::Collections::Generic::List_1<::StringW>* value);
 
   static inline ::System::Xml::Schema::SchemaDeclBase* New_ctor(::System::Xml::XmlQualifiedName* name, ::StringW prefix);
 

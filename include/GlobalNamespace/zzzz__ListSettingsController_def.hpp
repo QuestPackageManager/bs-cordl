@@ -17,29 +17,29 @@ MARK_REF_PTR_T(::GlobalNamespace::ListSettingsController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16147))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16147))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16149))
 // CS Name: ::ListSettingsController*
 class CORDL_TYPE ListSettingsController : public ::GlobalNamespace::IncDecSettingsController {
 public:
   // Declarations
   /// @brief Field _idx, offset 0x20, size 0x4
-  __declspec(property(get = __get__idx, put = __set__idx)) int32_t _idx;
+  __declspec(property(get = __cordl_internal_get__idx, put = __cordl_internal_set__idx)) int32_t _idx;
 
   /// @brief Field _numberOfElements, offset 0x24, size 0x4
-  __declspec(property(get = __get__numberOfElements, put = __set__numberOfElements)) int32_t _numberOfElements;
+  __declspec(property(get = __cordl_internal_get__numberOfElements, put = __cordl_internal_set__numberOfElements)) int32_t _numberOfElements;
 
-  constexpr int32_t& __get__idx();
+  constexpr int32_t& __cordl_internal_get__idx();
 
-  constexpr int32_t const& __get__idx() const;
+  constexpr int32_t const& __cordl_internal_get__idx() const;
 
-  constexpr void __set__idx(int32_t value);
+  constexpr void __cordl_internal_set__idx(int32_t value);
 
-  constexpr int32_t& __get__numberOfElements();
+  constexpr int32_t& __cordl_internal_get__numberOfElements();
 
-  constexpr int32_t const& __get__numberOfElements() const;
+  constexpr int32_t const& __cordl_internal_get__numberOfElements() const;
 
-  constexpr void __set__numberOfElements(int32_t value);
+  constexpr void __cordl_internal_set__numberOfElements(int32_t value);
 
   /// @brief Method GetInitValues, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);

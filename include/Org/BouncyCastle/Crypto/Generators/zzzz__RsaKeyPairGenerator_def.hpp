@@ -31,14 +31,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::RsaKeyPairGenerator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(923))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::RsaKeyPairGenerator*
 class CORDL_TYPE RsaKeyPairGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field parameters, offset 0x10, size 0x8
-  __declspec(property(get = __get_parameters, put = __set_parameters))::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters* parameters;
+  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters* parameters;
 
   /// @brief Field SPECIAL_E_VALUES, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SPECIAL_E_VALUES, put = setStaticF_SPECIAL_E_VALUES))::ArrayW<int32_t, ::Array<int32_t>*> SPECIAL_E_VALUES;
@@ -61,11 +61,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters*& __get_parameters();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters*& __cordl_internal_get_parameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters*> const& __get_parameters() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters*> const& __cordl_internal_get_parameters() const;
 
-  constexpr void __set_parameters(::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters* value);
+  constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::RsaKeyGenerationParameters* value);
 
   static inline void setStaticF_SPECIAL_E_VALUES(::ArrayW<int32_t, ::Array<int32_t>*> value);
 

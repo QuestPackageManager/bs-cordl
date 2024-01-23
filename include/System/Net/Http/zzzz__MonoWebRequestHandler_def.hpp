@@ -132,7 +132,7 @@ MARK_VAL_T(::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14636))
 // CS Name: ::MonoWebRequestHandler::<>c*
 class CORDL_TYPE __MonoWebRequestHandler____c : public ::System::Object {
@@ -204,11 +204,11 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::__MonoWebRequ
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9097)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 1125 }), TypeDefinitionIndex(TypeDefinitionIndex(2683)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3619)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14655)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 883 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(3395))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14637)) CS Name: ::MonoWebRequestHandler::<SendAsync>d__99
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(2683)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3619)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9097)), TypeDefinitionIndex(TypeDefinitionIndex(14655)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 883 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 1125 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 883 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14637)) CS Name: ::MonoWebRequestHandler::<SendAsync>d__99
 struct CORDL_TYPE __MonoWebRequestHandler___SendAsync_d__99 {
 public:
   // Declarations
@@ -331,9 +331,9 @@ static_assert(offsetof(::System::Net::Http::__MonoWebRequestHandler___SendAsync_
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 177, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2711 }), TypeDefinitionIndex(TypeDefinitionIndex(2484)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2997)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9157)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9365))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14638)) CS Name: ::System.Net.Http::MonoWebRequestHandler*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// TypeDefinitionIndex(TypeDefinitionIndex(2997)), TypeDefinitionIndex(TypeDefinitionIndex(9157)), TypeDefinitionIndex(TypeDefinitionIndex(9365)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 2711 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14638)) CS Name: ::System.Net.Http::MonoWebRequestHandler*
 class CORDL_TYPE MonoWebRequestHandler : public ::System::Object {
 public:
   // Declarations
@@ -342,77 +342,77 @@ public:
   using __c = ::System::Net::Http::__MonoWebRequestHandler____c;
 
   /// @brief Field allowAutoRedirect, offset 0x10, size 0x1
-  __declspec(property(get = __get_allowAutoRedirect, put = __set_allowAutoRedirect)) bool allowAutoRedirect;
+  __declspec(property(get = __cordl_internal_get_allowAutoRedirect, put = __cordl_internal_set_allowAutoRedirect)) bool allowAutoRedirect;
 
   /// @brief Field automaticDecompression, offset 0x14, size 0x4
-  __declspec(property(get = __get_automaticDecompression, put = __set_automaticDecompression))::System::Net::DecompressionMethods automaticDecompression;
+  __declspec(property(get = __cordl_internal_get_automaticDecompression, put = __cordl_internal_set_automaticDecompression))::System::Net::DecompressionMethods automaticDecompression;
 
   /// @brief Field cookieContainer, offset 0x18, size 0x8
-  __declspec(property(get = __get_cookieContainer, put = __set_cookieContainer))::System::Net::CookieContainer* cookieContainer;
+  __declspec(property(get = __cordl_internal_get_cookieContainer, put = __cordl_internal_set_cookieContainer))::System::Net::CookieContainer* cookieContainer;
 
   /// @brief Field credentials, offset 0x20, size 0x8
-  __declspec(property(get = __get_credentials, put = __set_credentials))::System::Net::ICredentials* credentials;
+  __declspec(property(get = __cordl_internal_get_credentials, put = __cordl_internal_set_credentials))::System::Net::ICredentials* credentials;
 
   /// @brief Field maxAutomaticRedirections, offset 0x28, size 0x4
-  __declspec(property(get = __get_maxAutomaticRedirections, put = __set_maxAutomaticRedirections)) int32_t maxAutomaticRedirections;
+  __declspec(property(get = __cordl_internal_get_maxAutomaticRedirections, put = __cordl_internal_set_maxAutomaticRedirections)) int32_t maxAutomaticRedirections;
 
   /// @brief Field maxRequestContentBufferSize, offset 0x30, size 0x8
-  __declspec(property(get = __get_maxRequestContentBufferSize, put = __set_maxRequestContentBufferSize)) int64_t maxRequestContentBufferSize;
+  __declspec(property(get = __cordl_internal_get_maxRequestContentBufferSize, put = __cordl_internal_set_maxRequestContentBufferSize)) int64_t maxRequestContentBufferSize;
 
   /// @brief Field preAuthenticate, offset 0x38, size 0x1
-  __declspec(property(get = __get_preAuthenticate, put = __set_preAuthenticate)) bool preAuthenticate;
+  __declspec(property(get = __cordl_internal_get_preAuthenticate, put = __cordl_internal_set_preAuthenticate)) bool preAuthenticate;
 
   /// @brief Field proxy, offset 0x40, size 0x8
-  __declspec(property(get = __get_proxy, put = __set_proxy))::System::Net::IWebProxy* proxy;
+  __declspec(property(get = __cordl_internal_get_proxy, put = __cordl_internal_set_proxy))::System::Net::IWebProxy* proxy;
 
   /// @brief Field useCookies, offset 0x48, size 0x1
-  __declspec(property(get = __get_useCookies, put = __set_useCookies)) bool useCookies;
+  __declspec(property(get = __cordl_internal_get_useCookies, put = __cordl_internal_set_useCookies)) bool useCookies;
 
   /// @brief Field useProxy, offset 0x49, size 0x1
-  __declspec(property(get = __get_useProxy, put = __set_useProxy)) bool useProxy;
+  __declspec(property(get = __cordl_internal_get_useProxy, put = __cordl_internal_set_useProxy)) bool useProxy;
 
   /// @brief Field sslOptions, offset 0x50, size 0x8
-  __declspec(property(get = __get_sslOptions, put = __set_sslOptions))::System::Net::Security::SslClientAuthenticationOptions* sslOptions;
+  __declspec(property(get = __cordl_internal_get_sslOptions, put = __cordl_internal_set_sslOptions))::System::Net::Security::SslClientAuthenticationOptions* sslOptions;
 
   /// @brief Field allowPipelining, offset 0x58, size 0x1
-  __declspec(property(get = __get_allowPipelining, put = __set_allowPipelining)) bool allowPipelining;
+  __declspec(property(get = __cordl_internal_get_allowPipelining, put = __cordl_internal_set_allowPipelining)) bool allowPipelining;
 
   /// @brief Field cachePolicy, offset 0x60, size 0x8
-  __declspec(property(get = __get_cachePolicy, put = __set_cachePolicy))::System::Net::Cache::RequestCachePolicy* cachePolicy;
+  __declspec(property(get = __cordl_internal_get_cachePolicy, put = __cordl_internal_set_cachePolicy))::System::Net::Cache::RequestCachePolicy* cachePolicy;
 
   /// @brief Field authenticationLevel, offset 0x68, size 0x4
-  __declspec(property(get = __get_authenticationLevel, put = __set_authenticationLevel))::System::Net::Security::AuthenticationLevel authenticationLevel;
+  __declspec(property(get = __cordl_internal_get_authenticationLevel, put = __cordl_internal_set_authenticationLevel))::System::Net::Security::AuthenticationLevel authenticationLevel;
 
   /// @brief Field continueTimeout, offset 0x70, size 0x8
-  __declspec(property(get = __get_continueTimeout, put = __set_continueTimeout))::System::TimeSpan continueTimeout;
+  __declspec(property(get = __cordl_internal_get_continueTimeout, put = __cordl_internal_set_continueTimeout))::System::TimeSpan continueTimeout;
 
   /// @brief Field impersonationLevel, offset 0x78, size 0x4
-  __declspec(property(get = __get_impersonationLevel, put = __set_impersonationLevel))::System::Security::Principal::TokenImpersonationLevel impersonationLevel;
+  __declspec(property(get = __cordl_internal_get_impersonationLevel, put = __cordl_internal_set_impersonationLevel))::System::Security::Principal::TokenImpersonationLevel impersonationLevel;
 
   /// @brief Field maxResponseHeadersLength, offset 0x7c, size 0x4
-  __declspec(property(get = __get_maxResponseHeadersLength, put = __set_maxResponseHeadersLength)) int32_t maxResponseHeadersLength;
+  __declspec(property(get = __cordl_internal_get_maxResponseHeadersLength, put = __cordl_internal_set_maxResponseHeadersLength)) int32_t maxResponseHeadersLength;
 
   /// @brief Field readWriteTimeout, offset 0x80, size 0x4
-  __declspec(property(get = __get_readWriteTimeout, put = __set_readWriteTimeout)) int32_t readWriteTimeout;
+  __declspec(property(get = __cordl_internal_get_readWriteTimeout, put = __cordl_internal_set_readWriteTimeout)) int32_t readWriteTimeout;
 
   /// @brief Field serverCertificateValidationCallback, offset 0x88, size 0x8
-  __declspec(property(get = __get_serverCertificateValidationCallback,
-                      put = __set_serverCertificateValidationCallback))::System::Net::Security::RemoteCertificateValidationCallback* serverCertificateValidationCallback;
+  __declspec(property(get = __cordl_internal_get_serverCertificateValidationCallback,
+                      put = __cordl_internal_set_serverCertificateValidationCallback))::System::Net::Security::RemoteCertificateValidationCallback* serverCertificateValidationCallback;
 
   /// @brief Field unsafeAuthenticatedConnectionSharing, offset 0x90, size 0x1
-  __declspec(property(get = __get_unsafeAuthenticatedConnectionSharing, put = __set_unsafeAuthenticatedConnectionSharing)) bool unsafeAuthenticatedConnectionSharing;
+  __declspec(property(get = __cordl_internal_get_unsafeAuthenticatedConnectionSharing, put = __cordl_internal_set_unsafeAuthenticatedConnectionSharing)) bool unsafeAuthenticatedConnectionSharing;
 
   /// @brief Field sentRequest, offset 0x91, size 0x1
-  __declspec(property(get = __get_sentRequest, put = __set_sentRequest)) bool sentRequest;
+  __declspec(property(get = __cordl_internal_get_sentRequest, put = __cordl_internal_set_sentRequest)) bool sentRequest;
 
   /// @brief Field connectionGroupName, offset 0x98, size 0x8
-  __declspec(property(get = __get_connectionGroupName, put = __set_connectionGroupName))::StringW connectionGroupName;
+  __declspec(property(get = __cordl_internal_get_connectionGroupName, put = __cordl_internal_set_connectionGroupName))::StringW connectionGroupName;
 
   /// @brief Field timeout, offset 0xa0, size 0x10
-  __declspec(property(get = __get_timeout, put = __set_timeout))::System::Nullable_1<::System::TimeSpan> timeout;
+  __declspec(property(get = __cordl_internal_get_timeout, put = __cordl_internal_set_timeout))::System::Nullable_1<::System::TimeSpan> timeout;
 
   /// @brief Field disposed, offset 0xb0, size 0x1
-  __declspec(property(get = __get_disposed, put = __set_disposed)) bool disposed;
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field groupCounter, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_groupCounter, put = setStaticF_groupCounter)) int64_t groupCounter;
@@ -435,149 +435,149 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr bool& __get_allowAutoRedirect();
+  constexpr bool& __cordl_internal_get_allowAutoRedirect();
 
-  constexpr bool const& __get_allowAutoRedirect() const;
+  constexpr bool const& __cordl_internal_get_allowAutoRedirect() const;
 
-  constexpr void __set_allowAutoRedirect(bool value);
+  constexpr void __cordl_internal_set_allowAutoRedirect(bool value);
 
-  constexpr ::System::Net::DecompressionMethods& __get_automaticDecompression();
+  constexpr ::System::Net::DecompressionMethods& __cordl_internal_get_automaticDecompression();
 
-  constexpr ::System::Net::DecompressionMethods const& __get_automaticDecompression() const;
+  constexpr ::System::Net::DecompressionMethods const& __cordl_internal_get_automaticDecompression() const;
 
-  constexpr void __set_automaticDecompression(::System::Net::DecompressionMethods value);
+  constexpr void __cordl_internal_set_automaticDecompression(::System::Net::DecompressionMethods value);
 
-  constexpr ::System::Net::CookieContainer*& __get_cookieContainer();
+  constexpr ::System::Net::CookieContainer*& __cordl_internal_get_cookieContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieContainer*> const& __get_cookieContainer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieContainer*> const& __cordl_internal_get_cookieContainer() const;
 
-  constexpr void __set_cookieContainer(::System::Net::CookieContainer* value);
+  constexpr void __cordl_internal_set_cookieContainer(::System::Net::CookieContainer* value);
 
-  constexpr ::System::Net::ICredentials*& __get_credentials();
+  constexpr ::System::Net::ICredentials*& __cordl_internal_get_credentials();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& __get_credentials() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& __cordl_internal_get_credentials() const;
 
-  constexpr void __set_credentials(::System::Net::ICredentials* value);
+  constexpr void __cordl_internal_set_credentials(::System::Net::ICredentials* value);
 
-  constexpr int32_t& __get_maxAutomaticRedirections();
+  constexpr int32_t& __cordl_internal_get_maxAutomaticRedirections();
 
-  constexpr int32_t const& __get_maxAutomaticRedirections() const;
+  constexpr int32_t const& __cordl_internal_get_maxAutomaticRedirections() const;
 
-  constexpr void __set_maxAutomaticRedirections(int32_t value);
+  constexpr void __cordl_internal_set_maxAutomaticRedirections(int32_t value);
 
-  constexpr int64_t& __get_maxRequestContentBufferSize();
+  constexpr int64_t& __cordl_internal_get_maxRequestContentBufferSize();
 
-  constexpr int64_t const& __get_maxRequestContentBufferSize() const;
+  constexpr int64_t const& __cordl_internal_get_maxRequestContentBufferSize() const;
 
-  constexpr void __set_maxRequestContentBufferSize(int64_t value);
+  constexpr void __cordl_internal_set_maxRequestContentBufferSize(int64_t value);
 
-  constexpr bool& __get_preAuthenticate();
+  constexpr bool& __cordl_internal_get_preAuthenticate();
 
-  constexpr bool const& __get_preAuthenticate() const;
+  constexpr bool const& __cordl_internal_get_preAuthenticate() const;
 
-  constexpr void __set_preAuthenticate(bool value);
+  constexpr void __cordl_internal_set_preAuthenticate(bool value);
 
-  constexpr ::System::Net::IWebProxy*& __get_proxy();
+  constexpr ::System::Net::IWebProxy*& __cordl_internal_get_proxy();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& __get_proxy() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& __cordl_internal_get_proxy() const;
 
-  constexpr void __set_proxy(::System::Net::IWebProxy* value);
+  constexpr void __cordl_internal_set_proxy(::System::Net::IWebProxy* value);
 
-  constexpr bool& __get_useCookies();
+  constexpr bool& __cordl_internal_get_useCookies();
 
-  constexpr bool const& __get_useCookies() const;
+  constexpr bool const& __cordl_internal_get_useCookies() const;
 
-  constexpr void __set_useCookies(bool value);
+  constexpr void __cordl_internal_set_useCookies(bool value);
 
-  constexpr bool& __get_useProxy();
+  constexpr bool& __cordl_internal_get_useProxy();
 
-  constexpr bool const& __get_useProxy() const;
+  constexpr bool const& __cordl_internal_get_useProxy() const;
 
-  constexpr void __set_useProxy(bool value);
+  constexpr void __cordl_internal_set_useProxy(bool value);
 
-  constexpr ::System::Net::Security::SslClientAuthenticationOptions*& __get_sslOptions();
+  constexpr ::System::Net::Security::SslClientAuthenticationOptions*& __cordl_internal_get_sslOptions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslClientAuthenticationOptions*> const& __get_sslOptions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslClientAuthenticationOptions*> const& __cordl_internal_get_sslOptions() const;
 
-  constexpr void __set_sslOptions(::System::Net::Security::SslClientAuthenticationOptions* value);
+  constexpr void __cordl_internal_set_sslOptions(::System::Net::Security::SslClientAuthenticationOptions* value);
 
-  constexpr bool& __get_allowPipelining();
+  constexpr bool& __cordl_internal_get_allowPipelining();
 
-  constexpr bool const& __get_allowPipelining() const;
+  constexpr bool const& __cordl_internal_get_allowPipelining() const;
 
-  constexpr void __set_allowPipelining(bool value);
+  constexpr void __cordl_internal_set_allowPipelining(bool value);
 
-  constexpr ::System::Net::Cache::RequestCachePolicy*& __get_cachePolicy();
+  constexpr ::System::Net::Cache::RequestCachePolicy*& __cordl_internal_get_cachePolicy();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& __get_cachePolicy() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& __cordl_internal_get_cachePolicy() const;
 
-  constexpr void __set_cachePolicy(::System::Net::Cache::RequestCachePolicy* value);
+  constexpr void __cordl_internal_set_cachePolicy(::System::Net::Cache::RequestCachePolicy* value);
 
-  constexpr ::System::Net::Security::AuthenticationLevel& __get_authenticationLevel();
+  constexpr ::System::Net::Security::AuthenticationLevel& __cordl_internal_get_authenticationLevel();
 
-  constexpr ::System::Net::Security::AuthenticationLevel const& __get_authenticationLevel() const;
+  constexpr ::System::Net::Security::AuthenticationLevel const& __cordl_internal_get_authenticationLevel() const;
 
-  constexpr void __set_authenticationLevel(::System::Net::Security::AuthenticationLevel value);
+  constexpr void __cordl_internal_set_authenticationLevel(::System::Net::Security::AuthenticationLevel value);
 
-  constexpr ::System::TimeSpan& __get_continueTimeout();
+  constexpr ::System::TimeSpan& __cordl_internal_get_continueTimeout();
 
-  constexpr ::System::TimeSpan const& __get_continueTimeout() const;
+  constexpr ::System::TimeSpan const& __cordl_internal_get_continueTimeout() const;
 
-  constexpr void __set_continueTimeout(::System::TimeSpan value);
+  constexpr void __cordl_internal_set_continueTimeout(::System::TimeSpan value);
 
-  constexpr ::System::Security::Principal::TokenImpersonationLevel& __get_impersonationLevel();
+  constexpr ::System::Security::Principal::TokenImpersonationLevel& __cordl_internal_get_impersonationLevel();
 
-  constexpr ::System::Security::Principal::TokenImpersonationLevel const& __get_impersonationLevel() const;
+  constexpr ::System::Security::Principal::TokenImpersonationLevel const& __cordl_internal_get_impersonationLevel() const;
 
-  constexpr void __set_impersonationLevel(::System::Security::Principal::TokenImpersonationLevel value);
+  constexpr void __cordl_internal_set_impersonationLevel(::System::Security::Principal::TokenImpersonationLevel value);
 
-  constexpr int32_t& __get_maxResponseHeadersLength();
+  constexpr int32_t& __cordl_internal_get_maxResponseHeadersLength();
 
-  constexpr int32_t const& __get_maxResponseHeadersLength() const;
+  constexpr int32_t const& __cordl_internal_get_maxResponseHeadersLength() const;
 
-  constexpr void __set_maxResponseHeadersLength(int32_t value);
+  constexpr void __cordl_internal_set_maxResponseHeadersLength(int32_t value);
 
-  constexpr int32_t& __get_readWriteTimeout();
+  constexpr int32_t& __cordl_internal_get_readWriteTimeout();
 
-  constexpr int32_t const& __get_readWriteTimeout() const;
+  constexpr int32_t const& __cordl_internal_get_readWriteTimeout() const;
 
-  constexpr void __set_readWriteTimeout(int32_t value);
+  constexpr void __cordl_internal_set_readWriteTimeout(int32_t value);
 
-  constexpr ::System::Net::Security::RemoteCertificateValidationCallback*& __get_serverCertificateValidationCallback();
+  constexpr ::System::Net::Security::RemoteCertificateValidationCallback*& __cordl_internal_get_serverCertificateValidationCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::RemoteCertificateValidationCallback*> const& __get_serverCertificateValidationCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::RemoteCertificateValidationCallback*> const& __cordl_internal_get_serverCertificateValidationCallback() const;
 
-  constexpr void __set_serverCertificateValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback* value);
+  constexpr void __cordl_internal_set_serverCertificateValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback* value);
 
-  constexpr bool& __get_unsafeAuthenticatedConnectionSharing();
+  constexpr bool& __cordl_internal_get_unsafeAuthenticatedConnectionSharing();
 
-  constexpr bool const& __get_unsafeAuthenticatedConnectionSharing() const;
+  constexpr bool const& __cordl_internal_get_unsafeAuthenticatedConnectionSharing() const;
 
-  constexpr void __set_unsafeAuthenticatedConnectionSharing(bool value);
+  constexpr void __cordl_internal_set_unsafeAuthenticatedConnectionSharing(bool value);
 
-  constexpr bool& __get_sentRequest();
+  constexpr bool& __cordl_internal_get_sentRequest();
 
-  constexpr bool const& __get_sentRequest() const;
+  constexpr bool const& __cordl_internal_get_sentRequest() const;
 
-  constexpr void __set_sentRequest(bool value);
+  constexpr void __cordl_internal_set_sentRequest(bool value);
 
-  constexpr ::StringW& __get_connectionGroupName();
+  constexpr ::StringW& __cordl_internal_get_connectionGroupName();
 
-  constexpr ::StringW const& __get_connectionGroupName() const;
+  constexpr ::StringW const& __cordl_internal_get_connectionGroupName() const;
 
-  constexpr void __set_connectionGroupName(::StringW value);
+  constexpr void __cordl_internal_set_connectionGroupName(::StringW value);
 
-  constexpr ::System::Nullable_1<::System::TimeSpan>& __get_timeout();
+  constexpr ::System::Nullable_1<::System::TimeSpan>& __cordl_internal_get_timeout();
 
-  constexpr ::System::Nullable_1<::System::TimeSpan> const& __get_timeout() const;
+  constexpr ::System::Nullable_1<::System::TimeSpan> const& __cordl_internal_get_timeout() const;
 
-  constexpr void __set_timeout(::System::Nullable_1<::System::TimeSpan> value);
+  constexpr void __cordl_internal_set_timeout(::System::Nullable_1<::System::TimeSpan> value);
 
-  constexpr bool& __get_disposed();
+  constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr bool const& __get_disposed() const;
+  constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __set_disposed(bool value);
+  constexpr void __cordl_internal_set_disposed(bool value);
 
   static inline void setStaticF_groupCounter(int64_t value);
 

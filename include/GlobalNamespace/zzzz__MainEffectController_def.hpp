@@ -29,53 +29,54 @@ MARK_REF_PTR_T(::GlobalNamespace::MainEffectController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15291))
 // CS Name: ::MainEffectController*
 class CORDL_TYPE MainEffectController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _mainEffectContainer, offset 0x18, size 0x8
-  __declspec(property(get = __get__mainEffectContainer, put = __set__mainEffectContainer))::GlobalNamespace::MainEffectContainerSO* _mainEffectContainer;
+  __declspec(property(get = __cordl_internal_get__mainEffectContainer, put = __cordl_internal_set__mainEffectContainer))::UnityW<::GlobalNamespace::MainEffectContainerSO> _mainEffectContainer;
 
   /// @brief Field _fadeValue, offset 0x20, size 0x8
-  __declspec(property(get = __get__fadeValue, put = __set__fadeValue))::GlobalNamespace::FloatSO* _fadeValue;
+  __declspec(property(get = __cordl_internal_get__fadeValue, put = __cordl_internal_set__fadeValue))::UnityW<::GlobalNamespace::FloatSO> _fadeValue;
 
   /// @brief Field afterImageEffectEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_afterImageEffectEvent, put = __set_afterImageEffectEvent))::System::Action_1<::UnityEngine::RenderTexture*>* afterImageEffectEvent;
+  __declspec(property(get = __cordl_internal_get_afterImageEffectEvent,
+                      put = __cordl_internal_set_afterImageEffectEvent))::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* afterImageEffectEvent;
 
   /// @brief Field _imageEffectController, offset 0x30, size 0x8
-  __declspec(property(get = __get__imageEffectController, put = __set__imageEffectController))::GlobalNamespace::ImageEffectController* _imageEffectController;
+  __declspec(property(get = __cordl_internal_get__imageEffectController, put = __cordl_internal_set__imageEffectController))::UnityW<::GlobalNamespace::ImageEffectController> _imageEffectController;
 
-  constexpr ::GlobalNamespace::MainEffectContainerSO*& __get__mainEffectContainer();
+  constexpr ::UnityW<::GlobalNamespace::MainEffectContainerSO>& __cordl_internal_get__mainEffectContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainEffectContainerSO*> const& __get__mainEffectContainer() const;
+  constexpr ::UnityW<::GlobalNamespace::MainEffectContainerSO> const& __cordl_internal_get__mainEffectContainer() const;
 
-  constexpr void __set__mainEffectContainer(::GlobalNamespace::MainEffectContainerSO* value);
+  constexpr void __cordl_internal_set__mainEffectContainer(::UnityW<::GlobalNamespace::MainEffectContainerSO> value);
 
-  constexpr ::GlobalNamespace::FloatSO*& __get__fadeValue();
+  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__fadeValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& __get__fadeValue() const;
+  constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__fadeValue() const;
 
-  constexpr void __set__fadeValue(::GlobalNamespace::FloatSO* value);
+  constexpr void __cordl_internal_set__fadeValue(::UnityW<::GlobalNamespace::FloatSO> value);
 
-  constexpr ::System::Action_1<::UnityEngine::RenderTexture*>*& __get_afterImageEffectEvent();
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*& __cordl_internal_get_afterImageEffectEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::RenderTexture*>*> const& __get_afterImageEffectEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>*> const& __cordl_internal_get_afterImageEffectEvent() const;
 
-  constexpr void __set_afterImageEffectEvent(::System::Action_1<::UnityEngine::RenderTexture*>* value);
+  constexpr void __cordl_internal_set_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
-  constexpr ::GlobalNamespace::ImageEffectController*& __get__imageEffectController();
+  constexpr ::UnityW<::GlobalNamespace::ImageEffectController>& __cordl_internal_get__imageEffectController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ImageEffectController*> const& __get__imageEffectController() const;
+  constexpr ::UnityW<::GlobalNamespace::ImageEffectController> const& __cordl_internal_get__imageEffectController() const;
 
-  constexpr void __set__imageEffectController(::GlobalNamespace::ImageEffectController* value);
+  constexpr void __cordl_internal_set__imageEffectController(::UnityW<::GlobalNamespace::ImageEffectController> value);
 
   /// @brief Method add_afterImageEffectEvent, addr 0x28083a4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_afterImageEffectEvent(::System::Action_1<::UnityEngine::RenderTexture*>* value);
+  inline void add_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
   /// @brief Method remove_afterImageEffectEvent, addr 0x2808454, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_afterImageEffectEvent(::System::Action_1<::UnityEngine::RenderTexture*>* value);
+  inline void remove_afterImageEffectEvent(::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* value);
 
   /// @brief Method OnEnable, addr 0x2808504, size 0x28, virtual false, abstract: false, final false
   inline void OnEnable();
@@ -118,16 +119,16 @@ protected:
 
 public:
   /// @brief Field _mainEffectContainer, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MainEffectContainerSO* ____mainEffectContainer;
+  ::UnityW<::GlobalNamespace::MainEffectContainerSO> ____mainEffectContainer;
 
   /// @brief Field _fadeValue, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::FloatSO* ____fadeValue;
+  ::UnityW<::GlobalNamespace::FloatSO> ____fadeValue;
 
   /// @brief Field afterImageEffectEvent, offset: 0x28, size: 0x8, def value: None
-  ::System::Action_1<::UnityEngine::RenderTexture*>* ___afterImageEffectEvent;
+  ::System::Action_1<::UnityW<::UnityEngine::RenderTexture>>* ___afterImageEffectEvent;
 
   /// @brief Field _imageEffectController, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::ImageEffectController* ____imageEffectController;
+  ::UnityW<::GlobalNamespace::ImageEffectController> ____imageEffectController;
 
   /// @brief Field kMainEffectEnabledKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString kMainEffectEnabledKeyword{ u"MAIN_EFFECT_ENABLED" };

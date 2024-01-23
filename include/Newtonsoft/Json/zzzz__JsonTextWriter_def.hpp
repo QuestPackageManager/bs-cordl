@@ -54,41 +54,41 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonTextWriter);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11843))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11843))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11827))
 // CS Name: ::Newtonsoft.Json::JsonTextWriter*
 class CORDL_TYPE JsonTextWriter : public ::Newtonsoft::Json::JsonWriter {
 public:
   // Declarations
   /// @brief Field _writer, offset 0x60, size 0x8
-  __declspec(property(get = __get__writer, put = __set__writer))::System::IO::TextWriter* _writer;
+  __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer))::System::IO::TextWriter* _writer;
 
   /// @brief Field _base64Encoder, offset 0x68, size 0x8
-  __declspec(property(get = __get__base64Encoder, put = __set__base64Encoder))::Newtonsoft::Json::Utilities::Base64Encoder* _base64Encoder;
+  __declspec(property(get = __cordl_internal_get__base64Encoder, put = __cordl_internal_set__base64Encoder))::Newtonsoft::Json::Utilities::Base64Encoder* _base64Encoder;
 
   /// @brief Field _indentChar, offset 0x70, size 0x2
-  __declspec(property(get = __get__indentChar, put = __set__indentChar)) char16_t _indentChar;
+  __declspec(property(get = __cordl_internal_get__indentChar, put = __cordl_internal_set__indentChar)) char16_t _indentChar;
 
   /// @brief Field _indentation, offset 0x74, size 0x4
-  __declspec(property(get = __get__indentation, put = __set__indentation)) int32_t _indentation;
+  __declspec(property(get = __cordl_internal_get__indentation, put = __cordl_internal_set__indentation)) int32_t _indentation;
 
   /// @brief Field _quoteChar, offset 0x78, size 0x2
-  __declspec(property(get = __get__quoteChar, put = __set__quoteChar)) char16_t _quoteChar;
+  __declspec(property(get = __cordl_internal_get__quoteChar, put = __cordl_internal_set__quoteChar)) char16_t _quoteChar;
 
   /// @brief Field _quoteName, offset 0x7a, size 0x1
-  __declspec(property(get = __get__quoteName, put = __set__quoteName)) bool _quoteName;
+  __declspec(property(get = __cordl_internal_get__quoteName, put = __cordl_internal_set__quoteName)) bool _quoteName;
 
   /// @brief Field _charEscapeFlags, offset 0x80, size 0x8
-  __declspec(property(get = __get__charEscapeFlags, put = __set__charEscapeFlags))::ArrayW<bool, ::Array<bool>*> _charEscapeFlags;
+  __declspec(property(get = __cordl_internal_get__charEscapeFlags, put = __cordl_internal_set__charEscapeFlags))::ArrayW<bool, ::Array<bool>*> _charEscapeFlags;
 
   /// @brief Field _writeBuffer, offset 0x88, size 0x8
-  __declspec(property(get = __get__writeBuffer, put = __set__writeBuffer))::ArrayW<char16_t, ::Array<char16_t>*> _writeBuffer;
+  __declspec(property(get = __cordl_internal_get__writeBuffer, put = __cordl_internal_set__writeBuffer))::ArrayW<char16_t, ::Array<char16_t>*> _writeBuffer;
 
   /// @brief Field _arrayPool, offset 0x90, size 0x8
-  __declspec(property(get = __get__arrayPool, put = __set__arrayPool))::Newtonsoft::Json::IArrayPool_1<char16_t>* _arrayPool;
+  __declspec(property(get = __cordl_internal_get__arrayPool, put = __cordl_internal_set__arrayPool))::Newtonsoft::Json::IArrayPool_1<char16_t>* _arrayPool;
 
   /// @brief Field _indentChars, offset 0x98, size 0x8
-  __declspec(property(get = __get__indentChars, put = __set__indentChars))::ArrayW<char16_t, ::Array<char16_t>*> _indentChars;
+  __declspec(property(get = __cordl_internal_get__indentChars, put = __cordl_internal_set__indentChars))::ArrayW<char16_t, ::Array<char16_t>*> _indentChars;
 
   __declspec(property(get = get_Base64Encoder))::Newtonsoft::Json::Utilities::Base64Encoder* Base64Encoder;
 
@@ -102,65 +102,65 @@ public:
 
   __declspec(property(get = get_QuoteName, put = set_QuoteName)) bool QuoteName;
 
-  constexpr ::System::IO::TextWriter*& __get__writer();
+  constexpr ::System::IO::TextWriter*& __cordl_internal_get__writer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& __get__writer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& __cordl_internal_get__writer() const;
 
-  constexpr void __set__writer(::System::IO::TextWriter* value);
+  constexpr void __cordl_internal_set__writer(::System::IO::TextWriter* value);
 
-  constexpr ::Newtonsoft::Json::Utilities::Base64Encoder*& __get__base64Encoder();
+  constexpr ::Newtonsoft::Json::Utilities::Base64Encoder*& __cordl_internal_get__base64Encoder();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::Base64Encoder*> const& __get__base64Encoder() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Utilities::Base64Encoder*> const& __cordl_internal_get__base64Encoder() const;
 
-  constexpr void __set__base64Encoder(::Newtonsoft::Json::Utilities::Base64Encoder* value);
+  constexpr void __cordl_internal_set__base64Encoder(::Newtonsoft::Json::Utilities::Base64Encoder* value);
 
-  constexpr char16_t& __get__indentChar();
+  constexpr char16_t& __cordl_internal_get__indentChar();
 
-  constexpr char16_t const& __get__indentChar() const;
+  constexpr char16_t const& __cordl_internal_get__indentChar() const;
 
-  constexpr void __set__indentChar(char16_t value);
+  constexpr void __cordl_internal_set__indentChar(char16_t value);
 
-  constexpr int32_t& __get__indentation();
+  constexpr int32_t& __cordl_internal_get__indentation();
 
-  constexpr int32_t const& __get__indentation() const;
+  constexpr int32_t const& __cordl_internal_get__indentation() const;
 
-  constexpr void __set__indentation(int32_t value);
+  constexpr void __cordl_internal_set__indentation(int32_t value);
 
-  constexpr char16_t& __get__quoteChar();
+  constexpr char16_t& __cordl_internal_get__quoteChar();
 
-  constexpr char16_t const& __get__quoteChar() const;
+  constexpr char16_t const& __cordl_internal_get__quoteChar() const;
 
-  constexpr void __set__quoteChar(char16_t value);
+  constexpr void __cordl_internal_set__quoteChar(char16_t value);
 
-  constexpr bool& __get__quoteName();
+  constexpr bool& __cordl_internal_get__quoteName();
 
-  constexpr bool const& __get__quoteName() const;
+  constexpr bool const& __cordl_internal_get__quoteName() const;
 
-  constexpr void __set__quoteName(bool value);
+  constexpr void __cordl_internal_set__quoteName(bool value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get__charEscapeFlags();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get__charEscapeFlags();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get__charEscapeFlags() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get__charEscapeFlags() const;
 
-  constexpr void __set__charEscapeFlags(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set__charEscapeFlags(::ArrayW<bool, ::Array<bool>*> value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get__writeBuffer();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__writeBuffer();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get__writeBuffer() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__writeBuffer() const;
 
-  constexpr void __set__writeBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set__writeBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr ::Newtonsoft::Json::IArrayPool_1<char16_t>*& __get__arrayPool();
+  constexpr ::Newtonsoft::Json::IArrayPool_1<char16_t>*& __cordl_internal_get__arrayPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::IArrayPool_1<char16_t>*> const& __get__arrayPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::IArrayPool_1<char16_t>*> const& __cordl_internal_get__arrayPool() const;
 
-  constexpr void __set__arrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
+  constexpr void __cordl_internal_set__arrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get__indentChars();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__indentChars();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get__indentChars() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__indentChars() const;
 
-  constexpr void __set__indentChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set__indentChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
   /// @brief Method get_Base64Encoder, addr 0x26482dc, size 0x74, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Utilities::Base64Encoder* get_Base64Encoder();

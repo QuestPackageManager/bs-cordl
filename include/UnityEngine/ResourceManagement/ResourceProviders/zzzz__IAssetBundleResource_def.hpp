@@ -16,14 +16,14 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::IAssetBundl
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13990))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::IAssetBundleResource*
 class CORDL_TYPE IAssetBundleResource {
 public:
   // Declarations
   /// @brief Method GetAssetBundle, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::AssetBundle* GetAssetBundle();
+  inline ::UnityW<::UnityEngine::AssetBundle> GetAssetBundle();
 
   // Ctor Parameters [CppParam { name: "", ty: "IAssetBundleResource", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

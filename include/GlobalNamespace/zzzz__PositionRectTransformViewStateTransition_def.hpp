@@ -27,33 +27,33 @@ MARK_REF_PTR_T(::GlobalNamespace::PositionRectTransformViewStateTransition);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 926 }), TypeDefinitionIndex(TypeDefinitionIndex(10282)),
-// TypeDefinitionIndex(TypeDefinitionIndex(5442))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5453)) CS Name: ::PositionRectTransformViewStateTransition*
-class CORDL_TYPE PositionRectTransformViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::RectTransform*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5442)), TypeDefinitionIndex(TypeDefinitionIndex(10282)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 926
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5453)) CS Name: ::PositionRectTransformViewStateTransition*
+class CORDL_TYPE PositionRectTransformViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityW<::UnityEngine::RectTransform>> {
 public:
   // Declarations
   /// @brief Field _transition, offset 0x28, size 0x8
-  __declspec(property(get = __get__transition, put = __set__transition))::GlobalNamespace::Vector3TransitionSO* _transition;
+  __declspec(property(get = __cordl_internal_get__transition, put = __cordl_internal_set__transition))::UnityW<::GlobalNamespace::Vector3TransitionSO> _transition;
 
   /// @brief Field _vectorTween, offset 0x30, size 0x8
-  __declspec(property(get = __get__vectorTween, put = __set__vectorTween))::Tweening::Vector3Tween* _vectorTween;
+  __declspec(property(get = __cordl_internal_get__vectorTween, put = __cordl_internal_set__vectorTween))::Tweening::Vector3Tween* _vectorTween;
 
-  __declspec(property(get = get_transition))::GlobalNamespace::BaseTransitionSO* transition;
+  __declspec(property(get = get_transition))::UnityW<::GlobalNamespace::BaseTransitionSO> transition;
 
-  constexpr ::GlobalNamespace::Vector3TransitionSO*& __get__transition();
+  constexpr ::UnityW<::GlobalNamespace::Vector3TransitionSO>& __cordl_internal_get__transition();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Vector3TransitionSO*> const& __get__transition() const;
+  constexpr ::UnityW<::GlobalNamespace::Vector3TransitionSO> const& __cordl_internal_get__transition() const;
 
-  constexpr void __set__transition(::GlobalNamespace::Vector3TransitionSO* value);
+  constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::Vector3TransitionSO> value);
 
-  constexpr ::Tweening::Vector3Tween*& __get__vectorTween();
+  constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__vectorTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __get__vectorTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __cordl_internal_get__vectorTween() const;
 
-  constexpr void __set__vectorTween(::Tweening::Vector3Tween* value);
+  constexpr void __cordl_internal_set__vectorTween(::Tweening::Vector3Tween* value);
 
   /// @brief Method get_transition, addr 0x227ec54, size 0x8, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::BaseTransitionSO* get_transition();
+  inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
 
   /// @brief Method TransitionToNormalState, addr 0x227ec5c, size 0x20, virtual true, abstract: false, final false
   inline void TransitionToNormalState();
@@ -120,7 +120,7 @@ protected:
 
 public:
   /// @brief Field _transition, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::Vector3TransitionSO* ____transition;
+  ::UnityW<::GlobalNamespace::Vector3TransitionSO> ____transition;
 
   /// @brief Field _vectorTween, offset: 0x30, size: 0x8, def value: None
   ::Tweening::Vector3Tween* ____vectorTween;

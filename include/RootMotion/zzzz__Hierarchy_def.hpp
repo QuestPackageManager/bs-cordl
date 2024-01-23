@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::RootMotion::Hierarchy);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12491))
 // CS Name: ::RootMotion::Hierarchy*
 class CORDL_TYPE Hierarchy : public ::System::Object {
@@ -33,7 +33,7 @@ public:
   static inline bool HierarchyIsValid(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> bones);
 
   /// @brief Method ContainsDuplicate, addr 0x123cac4, size 0x10c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* ContainsDuplicate(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> objects);
+  static inline ::UnityW<::UnityEngine::Object> ContainsDuplicate(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> objects);
 
   /// @brief Method IsAncestor, addr 0x123aeb4, size 0x130, virtual false, abstract: false, final false
   static inline bool IsAncestor(::UnityEngine::Transform* transform, ::UnityEngine::Transform* ancestor);
@@ -45,16 +45,17 @@ public:
   static inline void AddAncestors(::UnityEngine::Transform* transform, ::UnityEngine::Transform* blocker, ByRef<::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>> array);
 
   /// @brief Method GetAncestor, addr 0x123cde8, size 0xf4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* GetAncestor(::UnityEngine::Transform* transform, int32_t minChildCount);
+  static inline ::UnityW<::UnityEngine::Transform> GetAncestor(::UnityEngine::Transform* transform, int32_t minChildCount);
 
   /// @brief Method GetFirstCommonAncestor, addr 0x123afe4, size 0x150, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* GetFirstCommonAncestor(::UnityEngine::Transform* t1, ::UnityEngine::Transform* t2);
+  static inline ::UnityW<::UnityEngine::Transform> GetFirstCommonAncestor(::UnityEngine::Transform* t1, ::UnityEngine::Transform* t2);
 
   /// @brief Method GetFirstCommonAncestor, addr 0x123cedc, size 0x164, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* GetFirstCommonAncestor(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms);
+  static inline ::UnityW<::UnityEngine::Transform> GetFirstCommonAncestor(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms);
 
   /// @brief Method GetFirstCommonAncestorRecursive, addr 0x123d248, size 0x188, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Transform* GetFirstCommonAncestorRecursive(::UnityEngine::Transform* transform, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms);
+  static inline ::UnityW<::UnityEngine::Transform> GetFirstCommonAncestorRecursive(::UnityEngine::Transform* transform,
+                                                                                   ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms);
 
   /// @brief Method IsCommonAncestor, addr 0x123d040, size 0x208, virtual false, abstract: false, final false
   static inline bool IsCommonAncestor(::UnityEngine::Transform* transform, ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> transforms);

@@ -73,17 +73,17 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JValue);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12006)), TypeDefinitionIndex(TypeDefinitionIndex(12002))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12002)), TypeDefinitionIndex(TypeDefinitionIndex(12006))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12007))
 // CS Name: ::Newtonsoft.Json.Linq::JValue*
 class CORDL_TYPE JValue : public ::Newtonsoft::Json::Linq::JToken {
 public:
   // Declarations
   /// @brief Field _valueType, offset 0x30, size 0x4
-  __declspec(property(get = __get__valueType, put = __set__valueType))::Newtonsoft::Json::Linq::JTokenType _valueType;
+  __declspec(property(get = __cordl_internal_get__valueType, put = __cordl_internal_set__valueType))::Newtonsoft::Json::Linq::JTokenType _valueType;
 
   /// @brief Field _value, offset 0x38, size 0x8
-  __declspec(property(get = __get__value, put = __set__value))::System::Object* _value;
+  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value))::System::Object* _value;
 
   __declspec(property(get = get_HasValues)) bool HasValues;
 
@@ -109,17 +109,17 @@ public:
   /// @brief Convert to "::System::IConvertible"
   constexpr ::System::IConvertible* i___System__IConvertible() noexcept;
 
-  constexpr ::Newtonsoft::Json::Linq::JTokenType& __get__valueType();
+  constexpr ::Newtonsoft::Json::Linq::JTokenType& __cordl_internal_get__valueType();
 
-  constexpr ::Newtonsoft::Json::Linq::JTokenType const& __get__valueType() const;
+  constexpr ::Newtonsoft::Json::Linq::JTokenType const& __cordl_internal_get__valueType() const;
 
-  constexpr void __set__valueType(::Newtonsoft::Json::Linq::JTokenType value);
+  constexpr void __cordl_internal_set__valueType(::Newtonsoft::Json::Linq::JTokenType value);
 
-  constexpr ::System::Object*& __get__value();
+  constexpr ::System::Object*& __cordl_internal_get__value();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__value() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__value() const;
 
-  constexpr void __set__value(::System::Object* value);
+  constexpr void __cordl_internal_set__value(::System::Object* value);
 
   static inline ::Newtonsoft::Json::Linq::JValue* New_ctor(::System::Object* value, ::Newtonsoft::Json::Linq::JTokenType type);
 

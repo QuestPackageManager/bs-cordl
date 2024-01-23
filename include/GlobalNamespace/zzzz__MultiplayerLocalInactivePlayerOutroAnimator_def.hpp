@@ -20,29 +20,29 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5163))
 // CS Name: ::MultiplayerLocalInactivePlayerOutroAnimator*
 class CORDL_TYPE MultiplayerLocalInactivePlayerOutroAnimator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _outroPlayableDirector, offset 0x18, size 0x8
-  __declspec(property(get = __get__outroPlayableDirector, put = __set__outroPlayableDirector))::UnityEngine::Playables::PlayableDirector* _outroPlayableDirector;
+  __declspec(property(get = __cordl_internal_get__outroPlayableDirector, put = __cordl_internal_set__outroPlayableDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> _outroPlayableDirector;
 
   /// @brief Field _multiplayerController, offset 0x20, size 0x8
-  __declspec(property(get = __get__multiplayerController, put = __set__multiplayerController))::GlobalNamespace::MultiplayerController* _multiplayerController;
+  __declspec(property(get = __cordl_internal_get__multiplayerController, put = __cordl_internal_set__multiplayerController))::UnityW<::GlobalNamespace::MultiplayerController> _multiplayerController;
 
-  constexpr ::UnityEngine::Playables::PlayableDirector*& __get__outroPlayableDirector();
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get__outroPlayableDirector();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Playables::PlayableDirector*> const& __get__outroPlayableDirector() const;
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__outroPlayableDirector() const;
 
-  constexpr void __set__outroPlayableDirector(::UnityEngine::Playables::PlayableDirector* value);
+  constexpr void __cordl_internal_set__outroPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  constexpr ::GlobalNamespace::MultiplayerController*& __get__multiplayerController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController>& __cordl_internal_get__multiplayerController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerController*> const& __get__multiplayerController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
 
-  constexpr void __set__multiplayerController(::GlobalNamespace::MultiplayerController* value);
+  constexpr void __cordl_internal_set__multiplayerController(::UnityW<::GlobalNamespace::MultiplayerController> value);
 
   /// @brief Method Start, addr 0x23dd26c, size 0x3c, virtual false, abstract: false, final false
   inline void Start();
@@ -67,10 +67,10 @@ protected:
 
 public:
   /// @brief Field _outroPlayableDirector, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Playables::PlayableDirector* ____outroPlayableDirector;
+  ::UnityW<::UnityEngine::Playables::PlayableDirector> ____outroPlayableDirector;
 
   /// @brief Field _multiplayerController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerController* ____multiplayerController;
+  ::UnityW<::GlobalNamespace::MultiplayerController> ____multiplayerController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

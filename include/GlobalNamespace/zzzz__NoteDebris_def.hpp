@@ -61,7 +61,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__NoteDebris__Pool);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4773))
 // CS Name: ::NoteDebris*
 class CORDL_TYPE NoteDebris : public ::UnityEngine::MonoBehaviour {
@@ -70,34 +70,36 @@ public:
   using Pool = ::GlobalNamespace::__NoteDebris__Pool;
 
   /// @brief Field _meshTransform, offset 0x18, size 0x8
-  __declspec(property(get = __get__meshTransform, put = __set__meshTransform))::UnityEngine::Transform* _meshTransform;
+  __declspec(property(get = __cordl_internal_get__meshTransform, put = __cordl_internal_set__meshTransform))::UnityW<::UnityEngine::Transform> _meshTransform;
 
   /// @brief Field _physics, offset 0x20, size 0x8
-  __declspec(property(get = __get__physics, put = __set__physics))::GlobalNamespace::NoteDebrisPhysics* _physics;
+  __declspec(property(get = __cordl_internal_get__physics, put = __cordl_internal_set__physics))::UnityW<::GlobalNamespace::NoteDebrisPhysics> _physics;
 
   /// @brief Field _materialPropertyBlockController, offset 0x28, size 0x8
-  __declspec(property(get = __get__materialPropertyBlockController, put = __set__materialPropertyBlockController))::GlobalNamespace::MaterialPropertyBlockController* _materialPropertyBlockController;
+  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
+                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
 
   /// @brief Field _cutoutCurve, offset 0x30, size 0x8
-  __declspec(property(get = __get__cutoutCurve, put = __set__cutoutCurve))::UnityEngine::AnimationCurve* _cutoutCurve;
+  __declspec(property(get = __cordl_internal_get__cutoutCurve, put = __cordl_internal_set__cutoutCurve))::UnityEngine::AnimationCurve* _cutoutCurve;
 
   /// @brief Field _maxCutPointCenterDistance, offset 0x38, size 0x4
-  __declspec(property(get = __get__maxCutPointCenterDistance, put = __set__maxCutPointCenterDistance)) float_t _maxCutPointCenterDistance;
+  __declspec(property(get = __cordl_internal_get__maxCutPointCenterDistance, put = __cordl_internal_set__maxCutPointCenterDistance)) float_t _maxCutPointCenterDistance;
 
   /// @brief Field _centroidComputationMesh, offset 0x40, size 0x8
-  __declspec(property(get = __get__centroidComputationMesh, put = __set__centroidComputationMesh))::UnityEngine::Mesh* _centroidComputationMesh;
+  __declspec(property(get = __cordl_internal_get__centroidComputationMesh, put = __cordl_internal_set__centroidComputationMesh))::UnityW<::UnityEngine::Mesh> _centroidComputationMesh;
 
   /// @brief Field _colorManager, offset 0x48, size 0x8
-  __declspec(property(get = __get__colorManager, put = __set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
 
   /// @brief Field _elapsedTime, offset 0x50, size 0x4
-  __declspec(property(get = __get__elapsedTime, put = __set__elapsedTime)) float_t _elapsedTime;
+  __declspec(property(get = __cordl_internal_get__elapsedTime, put = __cordl_internal_set__elapsedTime)) float_t _elapsedTime;
 
   /// @brief Field _lifeTime, offset 0x54, size 0x4
-  __declspec(property(get = __get__lifeTime, put = __set__lifeTime)) float_t _lifeTime;
+  __declspec(property(get = __cordl_internal_get__lifeTime, put = __cordl_internal_set__lifeTime)) float_t _lifeTime;
 
   /// @brief Field _didFinishEvent, offset 0x58, size 0x8
-  __declspec(property(get = __get__didFinishEvent, put = __set__didFinishEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* _didFinishEvent;
+  __declspec(property(get = __cordl_internal_get__didFinishEvent,
+                      put = __cordl_internal_set__didFinishEvent))::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* _didFinishEvent;
 
   /// @brief Field _cutoutPropertyID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__cutoutPropertyID, put = setStaticF__cutoutPropertyID)) int32_t _cutoutPropertyID;
@@ -116,65 +118,65 @@ public:
 
   __declspec(property(get = get_didFinishEvent))::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* didFinishEvent;
 
-  constexpr ::UnityEngine::Transform*& __get__meshTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__meshTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__meshTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__meshTransform() const;
 
-  constexpr void __set__meshTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__meshTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::GlobalNamespace::NoteDebrisPhysics*& __get__physics();
+  constexpr ::UnityW<::GlobalNamespace::NoteDebrisPhysics>& __cordl_internal_get__physics();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteDebrisPhysics*> const& __get__physics() const;
+  constexpr ::UnityW<::GlobalNamespace::NoteDebrisPhysics> const& __cordl_internal_get__physics() const;
 
-  constexpr void __set__physics(::GlobalNamespace::NoteDebrisPhysics* value);
+  constexpr void __cordl_internal_set__physics(::UnityW<::GlobalNamespace::NoteDebrisPhysics> value);
 
-  constexpr ::GlobalNamespace::MaterialPropertyBlockController*& __get__materialPropertyBlockController();
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockController*> const& __get__materialPropertyBlockController() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
 
-  constexpr void __set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
+  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__cutoutCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__cutoutCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__cutoutCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__cutoutCurve() const;
 
-  constexpr void __set__cutoutCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__cutoutCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr float_t& __get__maxCutPointCenterDistance();
+  constexpr float_t& __cordl_internal_get__maxCutPointCenterDistance();
 
-  constexpr float_t const& __get__maxCutPointCenterDistance() const;
+  constexpr float_t const& __cordl_internal_get__maxCutPointCenterDistance() const;
 
-  constexpr void __set__maxCutPointCenterDistance(float_t value);
+  constexpr void __cordl_internal_set__maxCutPointCenterDistance(float_t value);
 
-  constexpr ::UnityEngine::Mesh*& __get__centroidComputationMesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__centroidComputationMesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get__centroidComputationMesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__centroidComputationMesh() const;
 
-  constexpr void __set__centroidComputationMesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set__centroidComputationMesh(::UnityW<::UnityEngine::Mesh> value);
 
-  constexpr ::GlobalNamespace::ColorManager*& __get__colorManager();
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __get__colorManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
 
-  constexpr void __set__colorManager(::GlobalNamespace::ColorManager* value);
+  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
 
-  constexpr float_t& __get__elapsedTime();
+  constexpr float_t& __cordl_internal_get__elapsedTime();
 
-  constexpr float_t const& __get__elapsedTime() const;
+  constexpr float_t const& __cordl_internal_get__elapsedTime() const;
 
-  constexpr void __set__elapsedTime(float_t value);
+  constexpr void __cordl_internal_set__elapsedTime(float_t value);
 
-  constexpr float_t& __get__lifeTime();
+  constexpr float_t& __cordl_internal_get__lifeTime();
 
-  constexpr float_t const& __get__lifeTime() const;
+  constexpr float_t const& __cordl_internal_get__lifeTime() const;
 
-  constexpr void __set__lifeTime(float_t value);
+  constexpr void __cordl_internal_set__lifeTime(float_t value);
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>*& __get__didFinishEvent();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>*& __cordl_internal_get__didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>*> const& __get__didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>*> const& __cordl_internal_get__didFinishEvent() const;
 
-  constexpr void __set__didFinishEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* value);
+  constexpr void __cordl_internal_set__didFinishEvent(::GlobalNamespace::LazyCopyHashSet_1<::GlobalNamespace::INoteDebrisDidFinishEvent*>* value);
 
   static inline void setStaticF__cutoutPropertyID(int32_t value);
 
@@ -230,13 +232,13 @@ protected:
 
 public:
   /// @brief Field _meshTransform, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____meshTransform;
+  ::UnityW<::UnityEngine::Transform> ____meshTransform;
 
   /// @brief Field _physics, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::NoteDebrisPhysics* ____physics;
+  ::UnityW<::GlobalNamespace::NoteDebrisPhysics> ____physics;
 
   /// @brief Field _materialPropertyBlockController, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MaterialPropertyBlockController* ____materialPropertyBlockController;
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
   /// @brief Field _cutoutCurve, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____cutoutCurve;
@@ -245,7 +247,7 @@ public:
   float_t ____maxCutPointCenterDistance;
 
   /// @brief Field _centroidComputationMesh, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ____centroidComputationMesh;
+  ::UnityW<::UnityEngine::Mesh> ____centroidComputationMesh;
 
   /// @brief Field _colorManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
@@ -289,9 +291,9 @@ static_assert(offsetof(::GlobalNamespace::NoteDebris, ____didFinishEvent) == 0x5
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst: 2824 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4773))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4772)) CS Name: ::NoteDebris::Pool*
-class CORDL_TYPE __NoteDebris__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::NoteDebris*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4773)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2824 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4772)) CS Name: ::NoteDebris::Pool*
+class CORDL_TYPE __NoteDebris__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::NoteDebris>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__NoteDebris__Pool* New_ctor();

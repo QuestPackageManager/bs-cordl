@@ -41,7 +41,7 @@ MARK_VAL_T(::System::Threading::__Volatile__VolatileObject);
 // SizeInfo { instance_size: 1, native_size: 4, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2752))
 // CS Name: ::Volatile::VolatileBoolean
 struct CORDL_TYPE __Volatile__VolatileBoolean {
@@ -72,7 +72,7 @@ static_assert(offsetof(::System::Threading::__Volatile__VolatileBoolean, Value) 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2753))
 // CS Name: ::Volatile::VolatileInt32
 struct CORDL_TYPE __Volatile__VolatileInt32 {
@@ -103,7 +103,7 @@ static_assert(offsetof(::System::Threading::__Volatile__VolatileInt32, Value) ==
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2754))
 // CS Name: ::Volatile::VolatileObject
 struct CORDL_TYPE __Volatile__VolatileObject {
@@ -134,7 +134,7 @@ static_assert(offsetof(::System::Threading::__Volatile__VolatileObject, Value) =
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2755))
 // CS Name: ::System.Threading::Volatile*
 class CORDL_TYPE Volatile : public ::System::Object {

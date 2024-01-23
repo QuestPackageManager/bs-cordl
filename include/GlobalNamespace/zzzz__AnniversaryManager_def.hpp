@@ -29,29 +29,30 @@ MARK_REF_PTR_T(::GlobalNamespace::AnniversaryManager);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4009))
 // CS Name: ::AnniversaryManager*
 class CORDL_TYPE AnniversaryManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _fireworksController, offset 0x18, size 0x8
-  __declspec(property(get = __get__fireworksController, put = __set__fireworksController))::GlobalNamespace::FireworksController* _fireworksController;
+  __declspec(property(get = __cordl_internal_get__fireworksController, put = __cordl_internal_set__fireworksController))::UnityW<::GlobalNamespace::FireworksController> _fireworksController;
 
   /// @brief Field _mainMenuViewController, offset 0x20, size 0x8
-  __declspec(property(get = __get__mainMenuViewController, put = __set__mainMenuViewController))::GlobalNamespace::MainMenuViewController* _mainMenuViewController;
+  __declspec(property(get = __cordl_internal_get__mainMenuViewController,
+                      put = __cordl_internal_set__mainMenuViewController))::UnityW<::GlobalNamespace::MainMenuViewController> _mainMenuViewController;
 
-  constexpr ::GlobalNamespace::FireworksController*& __get__fireworksController();
+  constexpr ::UnityW<::GlobalNamespace::FireworksController>& __cordl_internal_get__fireworksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FireworksController*> const& __get__fireworksController() const;
+  constexpr ::UnityW<::GlobalNamespace::FireworksController> const& __cordl_internal_get__fireworksController() const;
 
-  constexpr void __set__fireworksController(::GlobalNamespace::FireworksController* value);
+  constexpr void __cordl_internal_set__fireworksController(::UnityW<::GlobalNamespace::FireworksController> value);
 
-  constexpr ::GlobalNamespace::MainMenuViewController*& __get__mainMenuViewController();
+  constexpr ::UnityW<::GlobalNamespace::MainMenuViewController>& __cordl_internal_get__mainMenuViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainMenuViewController*> const& __get__mainMenuViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::MainMenuViewController> const& __cordl_internal_get__mainMenuViewController() const;
 
-  constexpr void __set__mainMenuViewController(::GlobalNamespace::MainMenuViewController* value);
+  constexpr void __cordl_internal_set__mainMenuViewController(::UnityW<::GlobalNamespace::MainMenuViewController> value);
 
   /// @brief Method Start, addr 0x22220c8, size 0xfc, virtual false, abstract: false, final false
   inline void Start();
@@ -91,10 +92,10 @@ protected:
 
 public:
   /// @brief Field _fireworksController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::FireworksController* ____fireworksController;
+  ::UnityW<::GlobalNamespace::FireworksController> ____fireworksController;
 
   /// @brief Field _mainMenuViewController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MainMenuViewController* ____mainMenuViewController;
+  ::UnityW<::GlobalNamespace::MainMenuViewController> ____mainMenuViewController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

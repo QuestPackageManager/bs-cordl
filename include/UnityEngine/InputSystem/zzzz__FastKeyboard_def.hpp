@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::FastKeyboard);
 // SizeInfo { instance_size: 448, native_size: -1, calculated_instance_size: 448, calculated_native_size: 448, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6248))
 // CS Name: ::UnityEngine.InputSystem::FastKeyboard*
 class CORDL_TYPE FastKeyboard : public ::UnityEngine::InputSystem::Keyboard {

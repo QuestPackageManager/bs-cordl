@@ -42,29 +42,29 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__Amplifier__Body);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12571)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12571))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12633))
 // CS Name: ::Amplifier::Body::EffectorLink*
 class CORDL_TYPE __Amplifier__Body__EffectorLink : public ::System::Object {
 public:
   // Declarations
   /// @brief Field effector, offset 0x10, size 0x4
-  __declspec(property(get = __get_effector, put = __set_effector))::RootMotion::FinalIK::FullBodyBipedEffector effector;
+  __declspec(property(get = __cordl_internal_get_effector, put = __cordl_internal_set_effector))::RootMotion::FinalIK::FullBodyBipedEffector effector;
 
   /// @brief Field weight, offset 0x14, size 0x4
-  __declspec(property(get = __get_weight, put = __set_weight)) float_t weight;
+  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& __get_effector();
+  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector& __cordl_internal_get_effector();
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& __get_effector() const;
+  constexpr ::RootMotion::FinalIK::FullBodyBipedEffector const& __cordl_internal_get_effector() const;
 
-  constexpr void __set_effector(::RootMotion::FinalIK::FullBodyBipedEffector value);
+  constexpr void __cordl_internal_set_effector(::RootMotion::FinalIK::FullBodyBipedEffector value);
 
-  constexpr float_t& __get_weight();
+  constexpr float_t& __cordl_internal_get_weight();
 
-  constexpr float_t const& __get_weight() const;
+  constexpr float_t const& __cordl_internal_get_weight() const;
 
-  constexpr void __set_weight(float_t value);
+  constexpr void __cordl_internal_set_weight(float_t value);
 
   static inline ::GlobalNamespace::__Amplifier__Body__EffectorLink* New_ctor();
 
@@ -105,7 +105,7 @@ static_assert(offsetof(::GlobalNamespace::__Amplifier__Body__EffectorLink, ___we
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 77, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12634))
 // CS Name: ::Amplifier::Body*
 class CORDL_TYPE __Amplifier__Body : public ::System::Object {
@@ -114,86 +114,87 @@ public:
   using EffectorLink = ::GlobalNamespace::__Amplifier__Body__EffectorLink;
 
   /// @brief Field transform, offset 0x10, size 0x8
-  __declspec(property(get = __get_transform, put = __set_transform))::UnityEngine::Transform* transform;
+  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
 
   /// @brief Field relativeTo, offset 0x18, size 0x8
-  __declspec(property(get = __get_relativeTo, put = __set_relativeTo))::UnityEngine::Transform* relativeTo;
+  __declspec(property(get = __cordl_internal_get_relativeTo, put = __cordl_internal_set_relativeTo))::UnityW<::UnityEngine::Transform> relativeTo;
 
   /// @brief Field effectorLinks, offset 0x20, size 0x8
-  __declspec(property(get = __get_effectorLinks,
-                      put = __set_effectorLinks))::ArrayW<::GlobalNamespace::__Amplifier__Body__EffectorLink*, ::Array<::GlobalNamespace::__Amplifier__Body__EffectorLink*>*> effectorLinks;
+  __declspec(
+      property(get = __cordl_internal_get_effectorLinks,
+               put = __cordl_internal_set_effectorLinks))::ArrayW<::GlobalNamespace::__Amplifier__Body__EffectorLink*, ::Array<::GlobalNamespace::__Amplifier__Body__EffectorLink*>*> effectorLinks;
 
   /// @brief Field verticalWeight, offset 0x28, size 0x4
-  __declspec(property(get = __get_verticalWeight, put = __set_verticalWeight)) float_t verticalWeight;
+  __declspec(property(get = __cordl_internal_get_verticalWeight, put = __cordl_internal_set_verticalWeight)) float_t verticalWeight;
 
   /// @brief Field horizontalWeight, offset 0x2c, size 0x4
-  __declspec(property(get = __get_horizontalWeight, put = __set_horizontalWeight)) float_t horizontalWeight;
+  __declspec(property(get = __cordl_internal_get_horizontalWeight, put = __cordl_internal_set_horizontalWeight)) float_t horizontalWeight;
 
   /// @brief Field speed, offset 0x30, size 0x4
-  __declspec(property(get = __get_speed, put = __set_speed)) float_t speed;
+  __declspec(property(get = __cordl_internal_get_speed, put = __cordl_internal_set_speed)) float_t speed;
 
   /// @brief Field lastRelativePos, offset 0x34, size 0xc
-  __declspec(property(get = __get_lastRelativePos, put = __set_lastRelativePos))::UnityEngine::Vector3 lastRelativePos;
+  __declspec(property(get = __cordl_internal_get_lastRelativePos, put = __cordl_internal_set_lastRelativePos))::UnityEngine::Vector3 lastRelativePos;
 
   /// @brief Field smoothDelta, offset 0x40, size 0xc
-  __declspec(property(get = __get_smoothDelta, put = __set_smoothDelta))::UnityEngine::Vector3 smoothDelta;
+  __declspec(property(get = __cordl_internal_get_smoothDelta, put = __cordl_internal_set_smoothDelta))::UnityEngine::Vector3 smoothDelta;
 
   /// @brief Field firstUpdate, offset 0x4c, size 0x1
-  __declspec(property(get = __get_firstUpdate, put = __set_firstUpdate)) bool firstUpdate;
+  __declspec(property(get = __cordl_internal_get_firstUpdate, put = __cordl_internal_set_firstUpdate)) bool firstUpdate;
 
-  constexpr ::UnityEngine::Transform*& __get_transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_transform() const;
 
-  constexpr void __set_transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_relativeTo();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_relativeTo();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_relativeTo() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_relativeTo() const;
 
-  constexpr void __set_relativeTo(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_relativeTo(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__Amplifier__Body__EffectorLink*, ::Array<::GlobalNamespace::__Amplifier__Body__EffectorLink*>*>& __get_effectorLinks();
+  constexpr ::ArrayW<::GlobalNamespace::__Amplifier__Body__EffectorLink*, ::Array<::GlobalNamespace::__Amplifier__Body__EffectorLink*>*>& __cordl_internal_get_effectorLinks();
 
-  constexpr ::ArrayW<::GlobalNamespace::__Amplifier__Body__EffectorLink*, ::Array<::GlobalNamespace::__Amplifier__Body__EffectorLink*>*> const& __get_effectorLinks() const;
+  constexpr ::ArrayW<::GlobalNamespace::__Amplifier__Body__EffectorLink*, ::Array<::GlobalNamespace::__Amplifier__Body__EffectorLink*>*> const& __cordl_internal_get_effectorLinks() const;
 
-  constexpr void __set_effectorLinks(::ArrayW<::GlobalNamespace::__Amplifier__Body__EffectorLink*, ::Array<::GlobalNamespace::__Amplifier__Body__EffectorLink*>*> value);
+  constexpr void __cordl_internal_set_effectorLinks(::ArrayW<::GlobalNamespace::__Amplifier__Body__EffectorLink*, ::Array<::GlobalNamespace::__Amplifier__Body__EffectorLink*>*> value);
 
-  constexpr float_t& __get_verticalWeight();
+  constexpr float_t& __cordl_internal_get_verticalWeight();
 
-  constexpr float_t const& __get_verticalWeight() const;
+  constexpr float_t const& __cordl_internal_get_verticalWeight() const;
 
-  constexpr void __set_verticalWeight(float_t value);
+  constexpr void __cordl_internal_set_verticalWeight(float_t value);
 
-  constexpr float_t& __get_horizontalWeight();
+  constexpr float_t& __cordl_internal_get_horizontalWeight();
 
-  constexpr float_t const& __get_horizontalWeight() const;
+  constexpr float_t const& __cordl_internal_get_horizontalWeight() const;
 
-  constexpr void __set_horizontalWeight(float_t value);
+  constexpr void __cordl_internal_set_horizontalWeight(float_t value);
 
-  constexpr float_t& __get_speed();
+  constexpr float_t& __cordl_internal_get_speed();
 
-  constexpr float_t const& __get_speed() const;
+  constexpr float_t const& __cordl_internal_get_speed() const;
 
-  constexpr void __set_speed(float_t value);
+  constexpr void __cordl_internal_set_speed(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get_lastRelativePos();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_lastRelativePos();
 
-  constexpr ::UnityEngine::Vector3 const& __get_lastRelativePos() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastRelativePos() const;
 
-  constexpr void __set_lastRelativePos(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_lastRelativePos(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_smoothDelta();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_smoothDelta();
 
-  constexpr ::UnityEngine::Vector3 const& __get_smoothDelta() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_smoothDelta() const;
 
-  constexpr void __set_smoothDelta(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_smoothDelta(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get_firstUpdate();
+  constexpr bool& __cordl_internal_get_firstUpdate();
 
-  constexpr bool const& __get_firstUpdate() const;
+  constexpr bool const& __cordl_internal_get_firstUpdate() const;
 
-  constexpr void __set_firstUpdate(bool value);
+  constexpr void __cordl_internal_set_firstUpdate(bool value);
 
   /// @brief Method Update, addr 0x12946cc, size 0x310, virtual false, abstract: false, final false
   inline void Update(::RootMotion::FinalIK::IKSolverFullBodyBiped* solver, float_t w, float_t deltaTime);
@@ -221,10 +222,10 @@ protected:
 
 public:
   /// @brief Field transform, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___transform;
+  ::UnityW<::UnityEngine::Transform> ___transform;
 
   /// @brief Field relativeTo, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___relativeTo;
+  ::UnityW<::UnityEngine::Transform> ___relativeTo;
 
   /// @brief Field effectorLinks, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__Amplifier__Body__EffectorLink*, ::Array<::GlobalNamespace::__Amplifier__Body__EffectorLink*>*> ___effectorLinks;
@@ -275,7 +276,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__Amplifier__Body, ___firstUpdate)
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12656))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12656))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12635))
 // CS Name: ::RootMotion.FinalIK::Amplifier*
 class CORDL_TYPE Amplifier : public ::RootMotion::FinalIK::OffsetModifier {
@@ -284,13 +285,14 @@ public:
   using Body = ::RootMotion::FinalIK::__Amplifier__Body;
 
   /// @brief Field bodies, offset 0x30, size 0x8
-  __declspec(property(get = __get_bodies, put = __set_bodies))::ArrayW<::RootMotion::FinalIK::__Amplifier__Body*, ::Array<::RootMotion::FinalIK::__Amplifier__Body*>*> bodies;
+  __declspec(property(get = __cordl_internal_get_bodies,
+                      put = __cordl_internal_set_bodies))::ArrayW<::RootMotion::FinalIK::__Amplifier__Body*, ::Array<::RootMotion::FinalIK::__Amplifier__Body*>*> bodies;
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__Amplifier__Body*, ::Array<::RootMotion::FinalIK::__Amplifier__Body*>*>& __get_bodies();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__Amplifier__Body*, ::Array<::RootMotion::FinalIK::__Amplifier__Body*>*>& __cordl_internal_get_bodies();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__Amplifier__Body*, ::Array<::RootMotion::FinalIK::__Amplifier__Body*>*> const& __get_bodies() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__Amplifier__Body*, ::Array<::RootMotion::FinalIK::__Amplifier__Body*>*> const& __cordl_internal_get_bodies() const;
 
-  constexpr void __set_bodies(::ArrayW<::RootMotion::FinalIK::__Amplifier__Body*, ::Array<::RootMotion::FinalIK::__Amplifier__Body*>*> value);
+  constexpr void __cordl_internal_set_bodies(::ArrayW<::RootMotion::FinalIK::__Amplifier__Body*, ::Array<::RootMotion::FinalIK::__Amplifier__Body*>*> value);
 
   /// @brief Method OnModifyOffset, addr 0x129457c, size 0x130, virtual true, abstract: false, final false
   inline void OnModifyOffset();

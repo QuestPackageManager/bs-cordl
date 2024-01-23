@@ -55,35 +55,35 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::AbstractTlsClient);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 78, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1163))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1163))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1165))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::AbstractTlsClient*
 class CORDL_TYPE AbstractTlsClient : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsPeer {
 public:
   // Declarations
   /// @brief Field mCipherFactory, offset 0x18, size 0x8
-  __declspec(property(get = __get_mCipherFactory, put = __set_mCipherFactory))::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* mCipherFactory;
+  __declspec(property(get = __cordl_internal_get_mCipherFactory, put = __cordl_internal_set_mCipherFactory))::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* mCipherFactory;
 
   /// @brief Field mContext, offset 0x20, size 0x8
-  __declspec(property(get = __get_mContext, put = __set_mContext))::Org::BouncyCastle::Crypto::Tls::TlsClientContext* mContext;
+  __declspec(property(get = __cordl_internal_get_mContext, put = __cordl_internal_set_mContext))::Org::BouncyCastle::Crypto::Tls::TlsClientContext* mContext;
 
   /// @brief Field mSupportedSignatureAlgorithms, offset 0x28, size 0x8
-  __declspec(property(get = __get_mSupportedSignatureAlgorithms, put = __set_mSupportedSignatureAlgorithms))::System::Collections::IList* mSupportedSignatureAlgorithms;
+  __declspec(property(get = __cordl_internal_get_mSupportedSignatureAlgorithms, put = __cordl_internal_set_mSupportedSignatureAlgorithms))::System::Collections::IList* mSupportedSignatureAlgorithms;
 
   /// @brief Field mNamedCurves, offset 0x30, size 0x8
-  __declspec(property(get = __get_mNamedCurves, put = __set_mNamedCurves))::ArrayW<int32_t, ::Array<int32_t>*> mNamedCurves;
+  __declspec(property(get = __cordl_internal_get_mNamedCurves, put = __cordl_internal_set_mNamedCurves))::ArrayW<int32_t, ::Array<int32_t>*> mNamedCurves;
 
   /// @brief Field mClientECPointFormats, offset 0x38, size 0x8
-  __declspec(property(get = __get_mClientECPointFormats, put = __set_mClientECPointFormats))::ArrayW<uint8_t, ::Array<uint8_t>*> mClientECPointFormats;
+  __declspec(property(get = __cordl_internal_get_mClientECPointFormats, put = __cordl_internal_set_mClientECPointFormats))::ArrayW<uint8_t, ::Array<uint8_t>*> mClientECPointFormats;
 
   /// @brief Field mServerECPointFormats, offset 0x40, size 0x8
-  __declspec(property(get = __get_mServerECPointFormats, put = __set_mServerECPointFormats))::ArrayW<uint8_t, ::Array<uint8_t>*> mServerECPointFormats;
+  __declspec(property(get = __cordl_internal_get_mServerECPointFormats, put = __cordl_internal_set_mServerECPointFormats))::ArrayW<uint8_t, ::Array<uint8_t>*> mServerECPointFormats;
 
   /// @brief Field mSelectedCipherSuite, offset 0x48, size 0x4
-  __declspec(property(get = __get_mSelectedCipherSuite, put = __set_mSelectedCipherSuite)) int32_t mSelectedCipherSuite;
+  __declspec(property(get = __cordl_internal_get_mSelectedCipherSuite, put = __cordl_internal_set_mSelectedCipherSuite)) int32_t mSelectedCipherSuite;
 
   /// @brief Field mSelectedCompressionMethod, offset 0x4c, size 0x2
-  __declspec(property(get = __get_mSelectedCompressionMethod, put = __set_mSelectedCompressionMethod)) int16_t mSelectedCompressionMethod;
+  __declspec(property(get = __cordl_internal_get_mSelectedCompressionMethod, put = __cordl_internal_set_mSelectedCompressionMethod)) int16_t mSelectedCompressionMethod;
 
   __declspec(property(get = get_ClientHelloRecordLayerVersion))::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* ClientHelloRecordLayerVersion;
 
@@ -105,53 +105,53 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsPeer"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPeer* i___Org__BouncyCastle__Crypto__Tls__TlsPeer() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*& __get_mCipherFactory();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*& __cordl_internal_get_mCipherFactory();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*> const& __get_mCipherFactory() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*> const& __cordl_internal_get_mCipherFactory() const;
 
-  constexpr void __set_mCipherFactory(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* value);
+  constexpr void __cordl_internal_set_mCipherFactory(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsClientContext*& __get_mContext();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsClientContext*& __cordl_internal_get_mContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsClientContext*> const& __get_mContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsClientContext*> const& __cordl_internal_get_mContext() const;
 
-  constexpr void __set_mContext(::Org::BouncyCastle::Crypto::Tls::TlsClientContext* value);
+  constexpr void __cordl_internal_set_mContext(::Org::BouncyCastle::Crypto::Tls::TlsClientContext* value);
 
-  constexpr ::System::Collections::IList*& __get_mSupportedSignatureAlgorithms();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_mSupportedSignatureAlgorithms();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_mSupportedSignatureAlgorithms() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_mSupportedSignatureAlgorithms() const;
 
-  constexpr void __set_mSupportedSignatureAlgorithms(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_mSupportedSignatureAlgorithms(::System::Collections::IList* value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_mNamedCurves();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_mNamedCurves();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_mNamedCurves() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_mNamedCurves() const;
 
-  constexpr void __set_mNamedCurves(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_mNamedCurves(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mClientECPointFormats();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mClientECPointFormats();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mClientECPointFormats() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mClientECPointFormats() const;
 
-  constexpr void __set_mClientECPointFormats(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mClientECPointFormats(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mServerECPointFormats();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mServerECPointFormats();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mServerECPointFormats() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mServerECPointFormats() const;
 
-  constexpr void __set_mServerECPointFormats(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mServerECPointFormats(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_mSelectedCipherSuite();
+  constexpr int32_t& __cordl_internal_get_mSelectedCipherSuite();
 
-  constexpr int32_t const& __get_mSelectedCipherSuite() const;
+  constexpr int32_t const& __cordl_internal_get_mSelectedCipherSuite() const;
 
-  constexpr void __set_mSelectedCipherSuite(int32_t value);
+  constexpr void __cordl_internal_set_mSelectedCipherSuite(int32_t value);
 
-  constexpr int16_t& __get_mSelectedCompressionMethod();
+  constexpr int16_t& __cordl_internal_get_mSelectedCompressionMethod();
 
-  constexpr int16_t const& __get_mSelectedCompressionMethod() const;
+  constexpr int16_t const& __cordl_internal_get_mSelectedCompressionMethod() const;
 
-  constexpr void __set_mSelectedCompressionMethod(int16_t value);
+  constexpr void __cordl_internal_set_mSelectedCompressionMethod(int16_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsClient* New_ctor();
 

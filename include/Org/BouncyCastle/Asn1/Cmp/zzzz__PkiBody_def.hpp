@@ -30,17 +30,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::PkiBody);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(29))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::PkiBody*
 class CORDL_TYPE PkiBody : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field tagNo, offset 0x10, size 0x4
-  __declspec(property(get = __get_tagNo, put = __set_tagNo)) int32_t tagNo;
+  __declspec(property(get = __cordl_internal_get_tagNo, put = __cordl_internal_set_tagNo)) int32_t tagNo;
 
   /// @brief Field body, offset 0x18, size 0x8
-  __declspec(property(get = __get_body, put = __set_body))::Org::BouncyCastle::Asn1::Asn1Encodable* body;
+  __declspec(property(get = __cordl_internal_get_body, put = __cordl_internal_set_body))::Org::BouncyCastle::Asn1::Asn1Encodable* body;
 
   __declspec(property(get = get_Type)) int32_t Type;
 
@@ -52,17 +52,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
-  constexpr int32_t& __get_tagNo();
+  constexpr int32_t& __cordl_internal_get_tagNo();
 
-  constexpr int32_t const& __get_tagNo() const;
+  constexpr int32_t const& __cordl_internal_get_tagNo() const;
 
-  constexpr void __set_tagNo(int32_t value);
+  constexpr void __cordl_internal_set_tagNo(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __get_body();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable*& __cordl_internal_get_body();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __get_body() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Encodable*> const& __cordl_internal_get_body() const;
 
-  constexpr void __set_body(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
+  constexpr void __cordl_internal_set_body(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
   /// @brief Method GetInstance, addr 0xe690a4, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* GetInstance(::System::Object* obj);

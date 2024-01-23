@@ -24,22 +24,23 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroup);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14509))
 // CS Name: ::LightGroup*
 class CORDL_TYPE LightGroup : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _lightGroupSO, offset 0x18, size 0x8
-  __declspec(property(get = __get__lightGroupSO, put = __set__lightGroupSO))::GlobalNamespace::LightGroupSO* _lightGroupSO;
+  __declspec(property(get = __cordl_internal_get__lightGroupSO, put = __cordl_internal_set__lightGroupSO))::UnityW<::GlobalNamespace::LightGroupSO> _lightGroupSO;
 
   /// @brief Field respawnEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_respawnEvent, put = __set_respawnEvent))::System::Action_1<::UnityEngine::GameObject*>* respawnEvent;
+  __declspec(property(get = __cordl_internal_get_respawnEvent, put = __cordl_internal_set_respawnEvent))::System::Action_1<::UnityW<::UnityEngine::GameObject>>* respawnEvent;
 
   /// @brief Field didRefreshContentEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_didRefreshContentEvent, put = __set_didRefreshContentEvent))::System::Action_1<::UnityEngine::GameObject*>* didRefreshContentEvent;
+  __declspec(property(get = __cordl_internal_get_didRefreshContentEvent,
+                      put = __cordl_internal_set_didRefreshContentEvent))::System::Action_1<::UnityW<::UnityEngine::GameObject>>* didRefreshContentEvent;
 
-  __declspec(property(get = get_lightGroupSO))::GlobalNamespace::LightGroupSO* lightGroupSO;
+  __declspec(property(get = get_lightGroupSO))::UnityW<::GlobalNamespace::LightGroupSO> lightGroupSO;
 
   __declspec(property(get = get_numberOfElements)) int32_t numberOfElements;
 
@@ -51,26 +52,26 @@ public:
 
   __declspec(property(get = get_ignoreLightGroupEffectManager)) bool ignoreLightGroupEffectManager;
 
-  constexpr ::GlobalNamespace::LightGroupSO*& __get__lightGroupSO();
+  constexpr ::UnityW<::GlobalNamespace::LightGroupSO>& __cordl_internal_get__lightGroupSO();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightGroupSO*> const& __get__lightGroupSO() const;
+  constexpr ::UnityW<::GlobalNamespace::LightGroupSO> const& __cordl_internal_get__lightGroupSO() const;
 
-  constexpr void __set__lightGroupSO(::GlobalNamespace::LightGroupSO* value);
+  constexpr void __cordl_internal_set__lightGroupSO(::UnityW<::GlobalNamespace::LightGroupSO> value);
 
-  constexpr ::System::Action_1<::UnityEngine::GameObject*>*& __get_respawnEvent();
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_respawnEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::GameObject*>*> const& __get_respawnEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get_respawnEvent() const;
 
-  constexpr void __set_respawnEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
+  constexpr void __cordl_internal_set_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::GameObject*>*& __get_didRefreshContentEvent();
+  constexpr ::System::Action_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_didRefreshContentEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::GameObject*>*> const& __get_didRefreshContentEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get_didRefreshContentEvent() const;
 
-  constexpr void __set_didRefreshContentEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
+  constexpr void __cordl_internal_set_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
   /// @brief Method get_lightGroupSO, addr 0x210ddf8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::LightGroupSO* get_lightGroupSO();
+  inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroupSO();
 
   /// @brief Method get_numberOfElements, addr 0x210de00, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_numberOfElements();
@@ -88,16 +89,16 @@ public:
   inline bool get_ignoreLightGroupEffectManager();
 
   /// @brief Method add_respawnEvent, addr 0x210e074, size 0xb0, virtual false, abstract: false, final false
-  inline void add_respawnEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
+  inline void add_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
   /// @brief Method remove_respawnEvent, addr 0x210e124, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_respawnEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
+  inline void remove_respawnEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
   /// @brief Method add_didRefreshContentEvent, addr 0x210e1d4, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didRefreshContentEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
+  inline void add_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
   /// @brief Method remove_didRefreshContentEvent, addr 0x210e284, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didRefreshContentEvent(::System::Action_1<::UnityEngine::GameObject*>* value);
+  inline void remove_didRefreshContentEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
   static inline ::GlobalNamespace::LightGroup* New_ctor();
 
@@ -119,13 +120,13 @@ protected:
 
 public:
   /// @brief Field _lightGroupSO, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::LightGroupSO* ____lightGroupSO;
+  ::UnityW<::GlobalNamespace::LightGroupSO> ____lightGroupSO;
 
   /// @brief Field respawnEvent, offset: 0x20, size: 0x8, def value: None
-  ::System::Action_1<::UnityEngine::GameObject*>* ___respawnEvent;
+  ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* ___respawnEvent;
 
   /// @brief Field didRefreshContentEvent, offset: 0x28, size: 0x8, def value: None
-  ::System::Action_1<::UnityEngine::GameObject*>* ___didRefreshContentEvent;
+  ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* ___didRefreshContentEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

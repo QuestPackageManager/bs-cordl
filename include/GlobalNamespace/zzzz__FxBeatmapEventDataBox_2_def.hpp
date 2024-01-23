@@ -39,29 +39,29 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TIn, typename TOut>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4301))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4301))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4309))
 // CS Name: ::FxBeatmapEventDataBox`2<TIn,TOut>*
 class CORDL_TYPE FxBeatmapEventDataBox_2 : public ::GlobalNamespace::BeatmapEventDataBox {
 public:
   // Declarations
   /// @brief Field _beatStep, offset 0x34, size 0x4
-  __declspec(property(get = __get__beatStep, put = __set__beatStep)) float_t _beatStep;
+  __declspec(property(get = __cordl_internal_get__beatStep, put = __cordl_internal_set__beatStep)) float_t _beatStep;
 
   /// @brief Field _fxBaseDataList, offset 0x38, size 0x8
-  __declspec(property(get = __get__fxBaseDataList, put = __set__fxBaseDataList))::System::Collections::Generic::IReadOnlyList_1<TIn>* _fxBaseDataList;
+  __declspec(property(get = __cordl_internal_get__fxBaseDataList, put = __cordl_internal_set__fxBaseDataList))::System::Collections::Generic::IReadOnlyList_1<TIn>* _fxBaseDataList;
 
-  constexpr float_t& __get__beatStep();
+  constexpr float_t& __cordl_internal_get__beatStep();
 
-  constexpr float_t const& __get__beatStep() const;
+  constexpr float_t const& __cordl_internal_get__beatStep() const;
 
-  constexpr void __set__beatStep(float_t value);
+  constexpr void __cordl_internal_set__beatStep(float_t value);
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<TIn>*& __get__fxBaseDataList();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<TIn>*& __cordl_internal_get__fxBaseDataList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<TIn>*> const& __get__fxBaseDataList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<TIn>*> const& __cordl_internal_get__fxBaseDataList() const;
 
-  constexpr void __set__fxBaseDataList(::System::Collections::Generic::IReadOnlyList_1<TIn>* value);
+  constexpr void __cordl_internal_set__fxBaseDataList(::System::Collections::Generic::IReadOnlyList_1<TIn>* value);
 
   static inline ::GlobalNamespace::FxBeatmapEventDataBox_2<TIn, TOut>*
   New_ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType, float_t beatDistributionParam,

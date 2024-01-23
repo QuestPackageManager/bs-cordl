@@ -34,26 +34,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::Chacha20Poly1305);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1195))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::Chacha20Poly1305*
 class CORDL_TYPE Chacha20Poly1305 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field context, offset 0x10, size 0x8
-  __declspec(property(get = __get_context, put = __set_context))::Org::BouncyCastle::Crypto::Tls::TlsContext* context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::Org::BouncyCastle::Crypto::Tls::TlsContext* context;
 
   /// @brief Field encryptCipher, offset 0x18, size 0x8
-  __declspec(property(get = __get_encryptCipher, put = __set_encryptCipher))::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* encryptCipher;
+  __declspec(property(get = __cordl_internal_get_encryptCipher, put = __cordl_internal_set_encryptCipher))::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* encryptCipher;
 
   /// @brief Field decryptCipher, offset 0x20, size 0x8
-  __declspec(property(get = __get_decryptCipher, put = __set_decryptCipher))::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* decryptCipher;
+  __declspec(property(get = __cordl_internal_get_decryptCipher, put = __cordl_internal_set_decryptCipher))::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* decryptCipher;
 
   /// @brief Field encryptIV, offset 0x28, size 0x8
-  __declspec(property(get = __get_encryptIV, put = __set_encryptIV))::ArrayW<uint8_t, ::Array<uint8_t>*> encryptIV;
+  __declspec(property(get = __cordl_internal_get_encryptIV, put = __cordl_internal_set_encryptIV))::ArrayW<uint8_t, ::Array<uint8_t>*> encryptIV;
 
   /// @brief Field decryptIV, offset 0x30, size 0x8
-  __declspec(property(get = __get_decryptIV, put = __set_decryptIV))::ArrayW<uint8_t, ::Array<uint8_t>*> decryptIV;
+  __declspec(property(get = __cordl_internal_get_decryptIV, put = __cordl_internal_set_decryptIV))::ArrayW<uint8_t, ::Array<uint8_t>*> decryptIV;
 
   /// @brief Field Zeroes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Zeroes, put = setStaticF_Zeroes))::ArrayW<uint8_t, ::Array<uint8_t>*> Zeroes;
@@ -64,35 +64,35 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCipher* i___Org__BouncyCastle__Crypto__Tls__TlsCipher() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __get_context();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_context();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __get_context() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __cordl_internal_get_context() const;
 
-  constexpr void __set_context(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
+  constexpr void __cordl_internal_set_context(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*& __get_encryptCipher();
+  constexpr ::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*& __cordl_internal_get_encryptCipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*> const& __get_encryptCipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*> const& __cordl_internal_get_encryptCipher() const;
 
-  constexpr void __set_encryptCipher(::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* value);
+  constexpr void __cordl_internal_set_encryptCipher(::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*& __get_decryptCipher();
+  constexpr ::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*& __cordl_internal_get_decryptCipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*> const& __get_decryptCipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine*> const& __cordl_internal_get_decryptCipher() const;
 
-  constexpr void __set_decryptCipher(::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* value);
+  constexpr void __cordl_internal_set_decryptCipher(::Org::BouncyCastle::Crypto::Engines::ChaCha7539Engine* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_encryptIV();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_encryptIV();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_encryptIV() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_encryptIV() const;
 
-  constexpr void __set_encryptIV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_encryptIV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_decryptIV();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_decryptIV();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_decryptIV() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_decryptIV() const;
 
-  constexpr void __set_decryptIV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_decryptIV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_Zeroes(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

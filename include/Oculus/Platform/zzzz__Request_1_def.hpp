@@ -23,20 +23,20 @@ namespace Oculus::Platform {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13381))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13381))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13380))
 // CS Name: ::Oculus.Platform::Request`1<T>*
 class CORDL_TYPE Request_1 : public ::Oculus::Platform::Request {
 public:
   // Declarations
   /// @brief Field callback_, offset 0x20, size 0x8
-  __declspec(property(get = __get_callback_, put = __set_callback_))::Oculus::Platform::__Message_1__Callback<T>* callback_;
+  __declspec(property(get = __cordl_internal_get_callback_, put = __cordl_internal_set_callback_))::Oculus::Platform::__Message_1__Callback<T>* callback_;
 
-  constexpr ::Oculus::Platform::__Message_1__Callback<T>*& __get_callback_();
+  constexpr ::Oculus::Platform::__Message_1__Callback<T>*& __cordl_internal_get_callback_();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::__Message_1__Callback<T>*> const& __get_callback_() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::__Message_1__Callback<T>*> const& __cordl_internal_get_callback_() const;
 
-  constexpr void __set_callback_(::Oculus::Platform::__Message_1__Callback<T>* value);
+  constexpr void __cordl_internal_set_callback_(::Oculus::Platform::__Message_1__Callback<T>* value);
 
   static inline ::Oculus::Platform::Request_1<T>* New_ctor(uint64_t requestID);
 

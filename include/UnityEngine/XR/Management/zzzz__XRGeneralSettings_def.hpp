@@ -18,88 +18,90 @@ MARK_REF_PTR_T(::UnityEngine::XR::Management::XRGeneralSettings);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16034))
 // CS Name: ::UnityEngine.XR.Management::XRGeneralSettings*
 class CORDL_TYPE XRGeneralSettings : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field m_LoaderManagerInstance, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_LoaderManagerInstance, put = __set_m_LoaderManagerInstance))::UnityEngine::XR::Management::XRManagerSettings* m_LoaderManagerInstance;
+  __declspec(property(get = __cordl_internal_get_m_LoaderManagerInstance,
+                      put = __cordl_internal_set_m_LoaderManagerInstance))::UnityW<::UnityEngine::XR::Management::XRManagerSettings> m_LoaderManagerInstance;
 
   /// @brief Field m_InitManagerOnStart, offset 0x20, size 0x1
-  __declspec(property(get = __get_m_InitManagerOnStart, put = __set_m_InitManagerOnStart)) bool m_InitManagerOnStart;
+  __declspec(property(get = __cordl_internal_get_m_InitManagerOnStart, put = __cordl_internal_set_m_InitManagerOnStart)) bool m_InitManagerOnStart;
 
   /// @brief Field m_XRManager, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_XRManager, put = __set_m_XRManager))::UnityEngine::XR::Management::XRManagerSettings* m_XRManager;
+  __declspec(property(get = __cordl_internal_get_m_XRManager, put = __cordl_internal_set_m_XRManager))::UnityW<::UnityEngine::XR::Management::XRManagerSettings> m_XRManager;
 
   /// @brief Field m_ProviderIntialized, offset 0x30, size 0x1
-  __declspec(property(get = __get_m_ProviderIntialized, put = __set_m_ProviderIntialized)) bool m_ProviderIntialized;
+  __declspec(property(get = __cordl_internal_get_m_ProviderIntialized, put = __cordl_internal_set_m_ProviderIntialized)) bool m_ProviderIntialized;
 
   /// @brief Field m_ProviderStarted, offset 0x31, size 0x1
-  __declspec(property(get = __get_m_ProviderStarted, put = __set_m_ProviderStarted)) bool m_ProviderStarted;
+  __declspec(property(get = __cordl_internal_get_m_ProviderStarted, put = __cordl_internal_set_m_ProviderStarted)) bool m_ProviderStarted;
 
   /// @brief Field k_SettingsKey, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_SettingsKey, put = setStaticF_k_SettingsKey))::StringW k_SettingsKey;
 
   /// @brief Field s_RuntimeSettingsInstance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_RuntimeSettingsInstance, put = setStaticF_s_RuntimeSettingsInstance))::UnityEngine::XR::Management::XRGeneralSettings* s_RuntimeSettingsInstance;
+  static __declspec(property(get = getStaticF_s_RuntimeSettingsInstance,
+                             put = setStaticF_s_RuntimeSettingsInstance))::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> s_RuntimeSettingsInstance;
 
-  __declspec(property(get = get_Manager, put = set_Manager))::UnityEngine::XR::Management::XRManagerSettings* Manager;
+  __declspec(property(get = get_Manager, put = set_Manager))::UnityW<::UnityEngine::XR::Management::XRManagerSettings> Manager;
 
-  __declspec(property(get = get_AssignedSettings))::UnityEngine::XR::Management::XRManagerSettings* AssignedSettings;
+  __declspec(property(get = get_AssignedSettings))::UnityW<::UnityEngine::XR::Management::XRManagerSettings> AssignedSettings;
 
   __declspec(property(get = get_InitManagerOnStart)) bool InitManagerOnStart;
 
-  constexpr ::UnityEngine::XR::Management::XRManagerSettings*& __get_m_LoaderManagerInstance();
+  constexpr ::UnityW<::UnityEngine::XR::Management::XRManagerSettings>& __cordl_internal_get_m_LoaderManagerInstance();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::XR::Management::XRManagerSettings*> const& __get_m_LoaderManagerInstance() const;
+  constexpr ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> const& __cordl_internal_get_m_LoaderManagerInstance() const;
 
-  constexpr void __set_m_LoaderManagerInstance(::UnityEngine::XR::Management::XRManagerSettings* value);
+  constexpr void __cordl_internal_set_m_LoaderManagerInstance(::UnityW<::UnityEngine::XR::Management::XRManagerSettings> value);
 
-  constexpr bool& __get_m_InitManagerOnStart();
+  constexpr bool& __cordl_internal_get_m_InitManagerOnStart();
 
-  constexpr bool const& __get_m_InitManagerOnStart() const;
+  constexpr bool const& __cordl_internal_get_m_InitManagerOnStart() const;
 
-  constexpr void __set_m_InitManagerOnStart(bool value);
+  constexpr void __cordl_internal_set_m_InitManagerOnStart(bool value);
 
-  constexpr ::UnityEngine::XR::Management::XRManagerSettings*& __get_m_XRManager();
+  constexpr ::UnityW<::UnityEngine::XR::Management::XRManagerSettings>& __cordl_internal_get_m_XRManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::XR::Management::XRManagerSettings*> const& __get_m_XRManager() const;
+  constexpr ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> const& __cordl_internal_get_m_XRManager() const;
 
-  constexpr void __set_m_XRManager(::UnityEngine::XR::Management::XRManagerSettings* value);
+  constexpr void __cordl_internal_set_m_XRManager(::UnityW<::UnityEngine::XR::Management::XRManagerSettings> value);
 
-  constexpr bool& __get_m_ProviderIntialized();
+  constexpr bool& __cordl_internal_get_m_ProviderIntialized();
 
-  constexpr bool const& __get_m_ProviderIntialized() const;
+  constexpr bool const& __cordl_internal_get_m_ProviderIntialized() const;
 
-  constexpr void __set_m_ProviderIntialized(bool value);
+  constexpr void __cordl_internal_set_m_ProviderIntialized(bool value);
 
-  constexpr bool& __get_m_ProviderStarted();
+  constexpr bool& __cordl_internal_get_m_ProviderStarted();
 
-  constexpr bool const& __get_m_ProviderStarted() const;
+  constexpr bool const& __cordl_internal_get_m_ProviderStarted() const;
 
-  constexpr void __set_m_ProviderStarted(bool value);
+  constexpr void __cordl_internal_set_m_ProviderStarted(bool value);
 
   static inline void setStaticF_k_SettingsKey(::StringW value);
 
   static inline ::StringW getStaticF_k_SettingsKey();
 
-  static inline void setStaticF_s_RuntimeSettingsInstance(::UnityEngine::XR::Management::XRGeneralSettings* value);
+  static inline void setStaticF_s_RuntimeSettingsInstance(::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> value);
 
-  static inline ::UnityEngine::XR::Management::XRGeneralSettings* getStaticF_s_RuntimeSettingsInstance();
+  static inline ::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> getStaticF_s_RuntimeSettingsInstance();
 
   /// @brief Method get_Manager, addr 0x2c75650, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::XR::Management::XRManagerSettings* get_Manager();
+  inline ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> get_Manager();
 
   /// @brief Method set_Manager, addr 0x2c75658, size 0x8, virtual false, abstract: false, final false
   inline void set_Manager(::UnityEngine::XR::Management::XRManagerSettings* value);
 
   /// @brief Method get_Instance, addr 0x2c75660, size 0x58, virtual false, abstract: false, final false
-  static inline ::UnityEngine::XR::Management::XRGeneralSettings* get_Instance();
+  static inline ::UnityW<::UnityEngine::XR::Management::XRGeneralSettings> get_Instance();
 
   /// @brief Method get_AssignedSettings, addr 0x2c756b8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::XR::Management::XRManagerSettings* get_AssignedSettings();
+  inline ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> get_AssignedSettings();
 
   /// @brief Method get_InitManagerOnStart, addr 0x2c756c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_InitManagerOnStart();
@@ -154,13 +156,13 @@ protected:
 
 public:
   /// @brief Field m_LoaderManagerInstance, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::XR::Management::XRManagerSettings* ___m_LoaderManagerInstance;
+  ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> ___m_LoaderManagerInstance;
 
   /// @brief Field m_InitManagerOnStart, offset: 0x20, size: 0x1, def value: None
   bool ___m_InitManagerOnStart;
 
   /// @brief Field m_XRManager, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::XR::Management::XRManagerSettings* ___m_XRManager;
+  ::UnityW<::UnityEngine::XR::Management::XRManagerSettings> ___m_XRManager;
 
   /// @brief Field m_ProviderIntialized, offset: 0x30, size: 0x1, def value: None
   bool ___m_ProviderIntialized;

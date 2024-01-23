@@ -25,14 +25,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::X448Agreement);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(744))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement::X448Agreement*
 class CORDL_TYPE X448Agreement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field privateKey, offset 0x10, size 0x8
-  __declspec(property(get = __get_privateKey, put = __set_privateKey))::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters* privateKey;
+  __declspec(property(get = __cordl_internal_get_privateKey, put = __cordl_internal_set_privateKey))::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters* privateKey;
 
   __declspec(property(get = get_AgreementSize)) int32_t AgreementSize;
 
@@ -42,11 +42,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IRawAgreement"
   constexpr ::Org::BouncyCastle::Crypto::IRawAgreement* i___Org__BouncyCastle__Crypto__IRawAgreement() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters*& __get_privateKey();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters*& __cordl_internal_get_privateKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters*> const& __get_privateKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters*> const& __cordl_internal_get_privateKey() const;
 
-  constexpr void __set_privateKey(::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters* value);
+  constexpr void __cordl_internal_set_privateKey(::Org::BouncyCastle::Crypto::Parameters::X448PrivateKeyParameters* value);
 
   /// @brief Method Init, addr 0x121d350, size 0x74, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);

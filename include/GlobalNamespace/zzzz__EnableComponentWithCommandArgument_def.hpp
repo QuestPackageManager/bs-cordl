@@ -18,29 +18,29 @@ MARK_REF_PTR_T(::GlobalNamespace::EnableComponentWithCommandArgument);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14362))
 // CS Name: ::EnableComponentWithCommandArgument*
 class CORDL_TYPE EnableComponentWithCommandArgument : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _argument, offset 0x18, size 0x8
-  __declspec(property(get = __get__argument, put = __set__argument))::StringW _argument;
+  __declspec(property(get = __cordl_internal_get__argument, put = __cordl_internal_set__argument))::StringW _argument;
 
   /// @brief Field _component, offset 0x20, size 0x8
-  __declspec(property(get = __get__component, put = __set__component))::UnityEngine::Behaviour* _component;
+  __declspec(property(get = __cordl_internal_get__component, put = __cordl_internal_set__component))::UnityW<::UnityEngine::Behaviour> _component;
 
-  constexpr ::StringW& __get__argument();
+  constexpr ::StringW& __cordl_internal_get__argument();
 
-  constexpr ::StringW const& __get__argument() const;
+  constexpr ::StringW const& __cordl_internal_get__argument() const;
 
-  constexpr void __set__argument(::StringW value);
+  constexpr void __cordl_internal_set__argument(::StringW value);
 
-  constexpr ::UnityEngine::Behaviour*& __get__component();
+  constexpr ::UnityW<::UnityEngine::Behaviour>& __cordl_internal_get__component();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Behaviour*> const& __get__component() const;
+  constexpr ::UnityW<::UnityEngine::Behaviour> const& __cordl_internal_get__component() const;
 
-  constexpr void __set__component(::UnityEngine::Behaviour* value);
+  constexpr void __cordl_internal_set__component(::UnityW<::UnityEngine::Behaviour> value);
 
   /// @brief Method Awake, addr 0x20f2038, size 0x90, virtual false, abstract: false, final false
   inline void Awake();
@@ -68,7 +68,7 @@ public:
   ::StringW ____argument;
 
   /// @brief Field _component, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Behaviour* ____component;
+  ::UnityW<::UnityEngine::Behaviour> ____component;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,38 +23,38 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::IsaacEngine);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(850))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::IsaacEngine*
 class CORDL_TYPE IsaacEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field engineState, offset 0x10, size 0x8
-  __declspec(property(get = __get_engineState, put = __set_engineState))::ArrayW<uint32_t, ::Array<uint32_t>*> engineState;
+  __declspec(property(get = __cordl_internal_get_engineState, put = __cordl_internal_set_engineState))::ArrayW<uint32_t, ::Array<uint32_t>*> engineState;
 
   /// @brief Field results, offset 0x18, size 0x8
-  __declspec(property(get = __get_results, put = __set_results))::ArrayW<uint32_t, ::Array<uint32_t>*> results;
+  __declspec(property(get = __cordl_internal_get_results, put = __cordl_internal_set_results))::ArrayW<uint32_t, ::Array<uint32_t>*> results;
 
   /// @brief Field a, offset 0x20, size 0x4
-  __declspec(property(get = __get_a, put = __set_a)) uint32_t a;
+  __declspec(property(get = __cordl_internal_get_a, put = __cordl_internal_set_a)) uint32_t a;
 
   /// @brief Field b, offset 0x24, size 0x4
-  __declspec(property(get = __get_b, put = __set_b)) uint32_t b;
+  __declspec(property(get = __cordl_internal_get_b, put = __cordl_internal_set_b)) uint32_t b;
 
   /// @brief Field c, offset 0x28, size 0x4
-  __declspec(property(get = __get_c, put = __set_c)) uint32_t c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c)) uint32_t c;
 
   /// @brief Field index, offset 0x2c, size 0x4
-  __declspec(property(get = __get_index, put = __set_index)) int32_t index;
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   /// @brief Field keyStream, offset 0x30, size 0x8
-  __declspec(property(get = __get_keyStream, put = __set_keyStream))::ArrayW<uint8_t, ::Array<uint8_t>*> keyStream;
+  __declspec(property(get = __cordl_internal_get_keyStream, put = __cordl_internal_set_keyStream))::ArrayW<uint8_t, ::Array<uint8_t>*> keyStream;
 
   /// @brief Field workingKey, offset 0x38, size 0x8
-  __declspec(property(get = __get_workingKey, put = __set_workingKey))::ArrayW<uint8_t, ::Array<uint8_t>*> workingKey;
+  __declspec(property(get = __cordl_internal_get_workingKey, put = __cordl_internal_set_workingKey))::ArrayW<uint8_t, ::Array<uint8_t>*> workingKey;
 
   /// @brief Field initialised, offset 0x40, size 0x1
-  __declspec(property(get = __get_initialised, put = __set_initialised)) bool initialised;
+  __declspec(property(get = __cordl_internal_get_initialised, put = __cordl_internal_set_initialised)) bool initialised;
 
   /// @brief Field sizeL, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_sizeL, put = setStaticF_sizeL)) int32_t sizeL;
@@ -70,59 +70,59 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCipher"
   constexpr ::Org::BouncyCastle::Crypto::IStreamCipher* i___Org__BouncyCastle__Crypto__IStreamCipher() noexcept;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_engineState();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_engineState();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_engineState() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_engineState() const;
 
-  constexpr void __set_engineState(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_engineState(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_results();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_results();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_results() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_results() const;
 
-  constexpr void __set_results(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_results(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr uint32_t& __get_a();
+  constexpr uint32_t& __cordl_internal_get_a();
 
-  constexpr uint32_t const& __get_a() const;
+  constexpr uint32_t const& __cordl_internal_get_a() const;
 
-  constexpr void __set_a(uint32_t value);
+  constexpr void __cordl_internal_set_a(uint32_t value);
 
-  constexpr uint32_t& __get_b();
+  constexpr uint32_t& __cordl_internal_get_b();
 
-  constexpr uint32_t const& __get_b() const;
+  constexpr uint32_t const& __cordl_internal_get_b() const;
 
-  constexpr void __set_b(uint32_t value);
+  constexpr void __cordl_internal_set_b(uint32_t value);
 
-  constexpr uint32_t& __get_c();
+  constexpr uint32_t& __cordl_internal_get_c();
 
-  constexpr uint32_t const& __get_c() const;
+  constexpr uint32_t const& __cordl_internal_get_c() const;
 
-  constexpr void __set_c(uint32_t value);
+  constexpr void __cordl_internal_set_c(uint32_t value);
 
-  constexpr int32_t& __get_index();
+  constexpr int32_t& __cordl_internal_get_index();
 
-  constexpr int32_t const& __get_index() const;
+  constexpr int32_t const& __cordl_internal_get_index() const;
 
-  constexpr void __set_index(int32_t value);
+  constexpr void __cordl_internal_set_index(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_keyStream();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_keyStream();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_keyStream() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_keyStream() const;
 
-  constexpr void __set_keyStream(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_keyStream(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_workingKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_workingKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_workingKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_workingKey() const;
 
-  constexpr void __set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get_initialised();
+  constexpr bool& __cordl_internal_get_initialised();
 
-  constexpr bool const& __get_initialised() const;
+  constexpr bool const& __cordl_internal_get_initialised() const;
 
-  constexpr void __set_initialised(bool value);
+  constexpr void __cordl_internal_set_initialised(bool value);
 
   static inline void setStaticF_sizeL(int32_t value);
 

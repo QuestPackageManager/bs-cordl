@@ -22,7 +22,7 @@ MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphValueRecord);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15540))
 // CS Name: ::UnityEngine.TextCore.LowLevel::GlyphValueRecord
 struct CORDL_TYPE GlyphValueRecord {

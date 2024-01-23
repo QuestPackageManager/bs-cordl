@@ -10,10 +10,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x23fcb3c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::X509::X509Extension*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::X509::X509Extension*>::get() })));
     return ___internal_method;
   }
 };
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x138;
   constexpr static std::size_t addrs = 0x23fe72c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>::get(),
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x134;
   constexpr static std::size_t addrs = 0x23fe864;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>::get(),
@@ -57,10 +57,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23fe998;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>::get(),
-                                                 "get_CertificateAuthority", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "get_CertificateAuthority", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -72,7 +72,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1a8;
   constexpr static std::size_t addrs = 0x23fe9a0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>::get(),
@@ -80,37 +80,37 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr bool& Mono::Security::X509::Extensions::BasicConstraintsExtension::__get_cA() {
+constexpr bool& Mono::Security::X509::Extensions::BasicConstraintsExtension::__cordl_internal_get_cA() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cA;
 }
-constexpr bool const& Mono::Security::X509::Extensions::BasicConstraintsExtension::__get_cA() const {
+constexpr bool const& Mono::Security::X509::Extensions::BasicConstraintsExtension::__cordl_internal_get_cA() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cA;
 }
-constexpr void Mono::Security::X509::Extensions::BasicConstraintsExtension::__set_cA(bool value) {
+constexpr void Mono::Security::X509::Extensions::BasicConstraintsExtension::__cordl_internal_set_cA(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cA = value;
 }
-constexpr int32_t& Mono::Security::X509::Extensions::BasicConstraintsExtension::__get_pathLenConstraint() {
+constexpr int32_t& Mono::Security::X509::Extensions::BasicConstraintsExtension::__cordl_internal_get_pathLenConstraint() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pathLenConstraint;
 }
-constexpr int32_t const& Mono::Security::X509::Extensions::BasicConstraintsExtension::__get_pathLenConstraint() const {
+constexpr int32_t const& Mono::Security::X509::Extensions::BasicConstraintsExtension::__cordl_internal_get_pathLenConstraint() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pathLenConstraint;
 }
-constexpr void Mono::Security::X509::Extensions::BasicConstraintsExtension::__set_pathLenConstraint(int32_t value) {
+constexpr void Mono::Security::X509::Extensions::BasicConstraintsExtension::__cordl_internal_set_pathLenConstraint(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___pathLenConstraint = value;
 }
 inline ::Mono::Security::X509::Extensions::BasicConstraintsExtension* Mono::Security::X509::Extensions::BasicConstraintsExtension::New_ctor(::Mono::Security::X509::X509Extension* extension) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>(extension));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>(extension));
 }
 inline void Mono::Security::X509::Extensions::BasicConstraintsExtension::_ctor(::Mono::Security::X509::X509Extension* extension) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::X509::X509Extension*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Security::X509::X509Extension*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, extension);
 }
 inline void Mono::Security::X509::Extensions::BasicConstraintsExtension::Decode() {
@@ -128,7 +128,7 @@ inline void Mono::Security::X509::Extensions::BasicConstraintsExtension::Encode(
 inline bool Mono::Security::X509::Extensions::BasicConstraintsExtension::get_CertificateAuthority() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::X509::Extensions::BasicConstraintsExtension*>::get(),
-                                               "get_CertificateAuthority", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "get_CertificateAuthority", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::StringW Mono::Security::X509::Extensions::BasicConstraintsExtension::ToString() {

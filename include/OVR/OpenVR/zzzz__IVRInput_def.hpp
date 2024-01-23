@@ -191,7 +191,7 @@ MARK_VAL_T(::OVR::OpenVR::IVRInput);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8522))
 // CS Name: ::IVRInput::_SetActionManifestPath*
 class CORDL_TYPE __IVRInput___SetActionManifestPath : public ::System::MulticastDelegate {
@@ -235,7 +235,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___SetAct
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8523))
 // CS Name: ::IVRInput::_GetActionSetHandle*
 class CORDL_TYPE __IVRInput___GetActionSetHandle : public ::System::MulticastDelegate {
@@ -279,7 +279,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetAct
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8524))
 // CS Name: ::IVRInput::_GetActionHandle*
 class CORDL_TYPE __IVRInput___GetActionHandle : public ::System::MulticastDelegate {
@@ -323,7 +323,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetAct
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8525))
 // CS Name: ::IVRInput::_GetInputSourceHandle*
 class CORDL_TYPE __IVRInput___GetInputSourceHandle : public ::System::MulticastDelegate {
@@ -367,7 +367,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetInp
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8526))
 // CS Name: ::IVRInput::_UpdateActionState*
 class CORDL_TYPE __IVRInput___UpdateActionState : public ::System::MulticastDelegate {
@@ -413,7 +413,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___Update
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8527))
 // CS Name: ::IVRInput::_GetDigitalActionData*
 class CORDL_TYPE __IVRInput___GetDigitalActionData : public ::System::MulticastDelegate {
@@ -458,7 +458,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetDig
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8528))
 // CS Name: ::IVRInput::_GetAnalogActionData*
 class CORDL_TYPE __IVRInput___GetAnalogActionData : public ::System::MulticastDelegate {
@@ -503,7 +503,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetAna
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8529))
 // CS Name: ::IVRInput::_GetPoseActionData*
 class CORDL_TYPE __IVRInput___GetPoseActionData : public ::System::MulticastDelegate {
@@ -549,7 +549,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetPos
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8530))
 // CS Name: ::IVRInput::_GetSkeletalActionData*
 class CORDL_TYPE __IVRInput___GetSkeletalActionData : public ::System::MulticastDelegate {
@@ -594,7 +594,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetSke
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8531))
 // CS Name: ::IVRInput::_GetSkeletalBoneData*
 class CORDL_TYPE __IVRInput___GetSkeletalBoneData : public ::System::MulticastDelegate {
@@ -642,7 +642,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetSke
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8532))
 // CS Name: ::IVRInput::_GetSkeletalBoneDataCompressed*
 class CORDL_TYPE __IVRInput___GetSkeletalBoneDataCompressed : public ::System::MulticastDelegate {
@@ -689,7 +689,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetSke
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8533))
 // CS Name: ::IVRInput::_DecompressSkeletalBoneData*
 class CORDL_TYPE __IVRInput___DecompressSkeletalBoneData : public ::System::MulticastDelegate {
@@ -736,7 +736,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___Decomp
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8534))
 // CS Name: ::IVRInput::_TriggerHapticVibrationAction*
 class CORDL_TYPE __IVRInput___TriggerHapticVibrationAction : public ::System::MulticastDelegate {
@@ -781,7 +781,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___Trigge
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8535))
 // CS Name: ::IVRInput::_GetActionOrigins*
 class CORDL_TYPE __IVRInput___GetActionOrigins : public ::System::MulticastDelegate {
@@ -826,7 +826,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetAct
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8536))
 // CS Name: ::IVRInput::_GetOriginLocalizedName*
 class CORDL_TYPE __IVRInput___GetOriginLocalizedName : public ::System::MulticastDelegate {
@@ -870,7 +870,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetOri
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8537))
 // CS Name: ::IVRInput::_GetOriginTrackedDeviceInfo*
 class CORDL_TYPE __IVRInput___GetOriginTrackedDeviceInfo : public ::System::MulticastDelegate {
@@ -915,7 +915,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___GetOri
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8538))
 // CS Name: ::IVRInput::_ShowActionOrigins*
 class CORDL_TYPE __IVRInput___ShowActionOrigins : public ::System::MulticastDelegate {
@@ -959,7 +959,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___ShowAc
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8539))
 // CS Name: ::IVRInput::_ShowBindingsForActionSet*
 class CORDL_TYPE __IVRInput___ShowBindingsForActionSet : public ::System::MulticastDelegate {
@@ -1005,7 +1005,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRInput___ShowBi
 // SizeInfo { instance_size: 144, native_size: 144, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8540))
 // CS Name: ::OVR.OpenVR::IVRInput
 struct CORDL_TYPE IVRInput {

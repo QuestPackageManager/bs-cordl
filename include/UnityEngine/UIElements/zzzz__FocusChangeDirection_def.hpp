@@ -24,14 +24,14 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::FocusChangeDirection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6881))
 // CS Name: ::UnityEngine.UIElements::FocusChangeDirection*
 class CORDL_TYPE FocusChangeDirection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Value, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_Value, put = __set_m_Value)) int32_t m_Value;
+  __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) int32_t m_Value;
 
   /// @brief Field <unspecified>k__BackingField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__unspecified_k__BackingField,
@@ -49,11 +49,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get_m_Value();
+  constexpr int32_t& __cordl_internal_get_m_Value();
 
-  constexpr int32_t const& __get_m_Value() const;
+  constexpr int32_t const& __cordl_internal_get_m_Value() const;
 
-  constexpr void __set_m_Value(int32_t value);
+  constexpr void __cordl_internal_set_m_Value(int32_t value);
 
   static inline void setStaticF__unspecified_k__BackingField(::UnityEngine::UIElements::FocusChangeDirection* value);
 

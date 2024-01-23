@@ -21,25 +21,25 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentAudioEffectsPlayer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4062))
 // CS Name: ::EnvironmentAudioEffectsPlayer*
 class CORDL_TYPE EnvironmentAudioEffectsPlayer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _audioSource, offset 0x18, size 0x8
-  __declspec(property(get = __get__audioSource, put = __set__audioSource))::UnityEngine::AudioSource* _audioSource;
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
 
-  __declspec(property(get = get_audioSource))::UnityEngine::AudioSource* audioSource;
+  __declspec(property(get = get_audioSource))::UnityW<::UnityEngine::AudioSource> audioSource;
 
-  constexpr ::UnityEngine::AudioSource*& __get__audioSource();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get__audioSource() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
 
-  constexpr void __set__audioSource(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
   /// @brief Method get_audioSource, addr 0x222d348, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::AudioSource* get_audioSource();
+  inline ::UnityW<::UnityEngine::AudioSource> get_audioSource();
 
   /// @brief Method PlayEffect, addr 0x222d350, size 0x64, virtual false, abstract: false, final false
   inline void PlayEffect(::UnityEngine::AudioClip* clip, float_t volume);
@@ -64,7 +64,7 @@ protected:
 
 public:
   /// @brief Field _audioSource, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ____audioSource;
+  ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -45,85 +45,87 @@ namespace UnityEngine::ResourceManagement {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 788 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(14036)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 788 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14034))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13950)) CS Name: ::UnityEngine.ResourceManagement::ChainOperationTypelessDepedency`1<TObject>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(14034)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14036)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 788 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(14033), inst: 788 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13950)) CS Name: ::UnityEngine.ResourceManagement::ChainOperationTypelessDepedency`1<TObject>*
 class CORDL_TYPE ChainOperationTypelessDepedency_1 : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject> {
 public:
   // Declarations
   /// @brief Field m_DepOp, offset 0x88, size 0x18
-  __declspec(property(get = __get_m_DepOp, put = __set_m_DepOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle m_DepOp;
+  __declspec(property(get = __cordl_internal_get_m_DepOp, put = __cordl_internal_set_m_DepOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle m_DepOp;
 
   /// @brief Field m_WrappedOp, offset 0xa0, size 0x20
-  __declspec(property(get = __get_m_WrappedOp, put = __set_m_WrappedOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> m_WrappedOp;
+  __declspec(property(get = __cordl_internal_get_m_WrappedOp, put = __cordl_internal_set_m_WrappedOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> m_WrappedOp;
 
   /// @brief Field m_depStatus, offset 0xc0, size 0x18
-  __declspec(property(get = __get_m_depStatus, put = __set_m_depStatus))::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus m_depStatus;
+  __declspec(property(get = __cordl_internal_get_m_depStatus, put = __cordl_internal_set_m_depStatus))::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus m_depStatus;
 
   /// @brief Field m_wrapStatus, offset 0xd8, size 0x18
-  __declspec(property(get = __get_m_wrapStatus, put = __set_m_wrapStatus))::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus m_wrapStatus;
+  __declspec(property(get = __cordl_internal_get_m_wrapStatus, put = __cordl_internal_set_m_wrapStatus))::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus m_wrapStatus;
 
   /// @brief Field m_Callback, offset 0xf0, size 0x8
-  __declspec(property(get = __get_m_Callback, put = __set_m_Callback))::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle,
-                                                                                       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* m_Callback;
+  __declspec(property(get = __cordl_internal_get_m_Callback,
+                      put = __cordl_internal_set_m_Callback))::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle,
+                                                                              ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* m_Callback;
 
   /// @brief Field m_CachedOnWrappedCompleted, offset 0xf8, size 0x8
-  __declspec(property(get = __get_m_CachedOnWrappedCompleted,
-                      put = __set_m_CachedOnWrappedCompleted))::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* m_CachedOnWrappedCompleted;
+  __declspec(property(
+      get = __cordl_internal_get_m_CachedOnWrappedCompleted,
+      put = __cordl_internal_set_m_CachedOnWrappedCompleted))::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* m_CachedOnWrappedCompleted;
 
   /// @brief Field m_ReleaseDependenciesOnFailure, offset 0x100, size 0x1
-  __declspec(property(get = __get_m_ReleaseDependenciesOnFailure, put = __set_m_ReleaseDependenciesOnFailure)) bool m_ReleaseDependenciesOnFailure;
+  __declspec(property(get = __cordl_internal_get_m_ReleaseDependenciesOnFailure, put = __cordl_internal_set_m_ReleaseDependenciesOnFailure)) bool m_ReleaseDependenciesOnFailure;
 
   __declspec(property(get = get_DebugName))::StringW DebugName;
 
   __declspec(property(get = get_Progress)) float_t Progress;
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle& __get_m_DepOp();
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle& __cordl_internal_get_m_DepOp();
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle const& __get_m_DepOp() const;
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle const& __cordl_internal_get_m_DepOp() const;
 
-  constexpr void __set_m_DepOp(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle value);
+  constexpr void __cordl_internal_set_m_DepOp(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle value);
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>& __get_m_WrappedOp();
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>& __cordl_internal_get_m_WrappedOp();
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> const& __get_m_WrappedOp() const;
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> const& __cordl_internal_get_m_WrappedOp() const;
 
-  constexpr void __set_m_WrappedOp(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> value);
+  constexpr void __cordl_internal_set_m_WrappedOp(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> value);
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus& __get_m_depStatus();
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus& __cordl_internal_get_m_depStatus();
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus const& __get_m_depStatus() const;
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus const& __cordl_internal_get_m_depStatus() const;
 
-  constexpr void __set_m_depStatus(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus value);
+  constexpr void __cordl_internal_set_m_depStatus(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus value);
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus& __get_m_wrapStatus();
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus& __cordl_internal_get_m_wrapStatus();
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus const& __get_m_wrapStatus() const;
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus const& __cordl_internal_get_m_wrapStatus() const;
 
-  constexpr void __set_m_wrapStatus(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus value);
+  constexpr void __cordl_internal_set_m_wrapStatus(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus value);
 
   constexpr ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*&
-  __get_m_Callback();
+  __cordl_internal_get_m_Callback();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*> const&
-  __get_m_Callback() const;
+  __cordl_internal_get_m_Callback() const;
 
-  constexpr void __set_m_Callback(
+  constexpr void __cordl_internal_set_m_Callback(
       ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*& __get_m_CachedOnWrappedCompleted();
+  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*& __cordl_internal_get_m_CachedOnWrappedCompleted();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>*> const&
-  __get_m_CachedOnWrappedCompleted() const;
+  __cordl_internal_get_m_CachedOnWrappedCompleted() const;
 
-  constexpr void __set_m_CachedOnWrappedCompleted(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* value);
+  constexpr void __cordl_internal_set_m_CachedOnWrappedCompleted(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* value);
 
-  constexpr bool& __get_m_ReleaseDependenciesOnFailure();
+  constexpr bool& __cordl_internal_get_m_ReleaseDependenciesOnFailure();
 
-  constexpr bool const& __get_m_ReleaseDependenciesOnFailure() const;
+  constexpr bool const& __cordl_internal_get_m_ReleaseDependenciesOnFailure() const;
 
-  constexpr void __set_m_ReleaseDependenciesOnFailure(bool value);
+  constexpr void __cordl_internal_set_m_ReleaseDependenciesOnFailure(bool value);
 
   static inline ::UnityEngine::ResourceManagement::ChainOperationTypelessDepedency_1<TObject>* New_ctor();
 

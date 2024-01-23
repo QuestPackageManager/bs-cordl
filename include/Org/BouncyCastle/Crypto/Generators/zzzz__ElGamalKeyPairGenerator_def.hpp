@@ -26,14 +26,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator)
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(902))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::ElGamalKeyPairGenerator*
 class CORDL_TYPE ElGamalKeyPairGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field param, offset 0x10, size 0x8
-  __declspec(property(get = __get_param, put = __set_param))::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters* param;
+  __declspec(property(get = __cordl_internal_get_param, put = __cordl_internal_set_param))::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters* param;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
@@ -41,11 +41,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters*& __get_param();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters*& __cordl_internal_get_param();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters*> const& __get_param() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters*> const& __cordl_internal_get_param() const;
 
-  constexpr void __set_param(::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters* value);
+  constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::ElGamalKeyGenerationParameters* value);
 
   /// @brief Method Init, addr 0xefa354, size 0xa4, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);

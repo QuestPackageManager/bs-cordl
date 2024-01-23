@@ -25,38 +25,38 @@ MARK_REF_PTR_T(::RootMotion::BakerMuscle);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12477))
 // CS Name: ::RootMotion::BakerMuscle*
 class CORDL_TYPE BakerMuscle : public ::System::Object {
 public:
   // Declarations
   /// @brief Field curve, offset 0x10, size 0x8
-  __declspec(property(get = __get_curve, put = __set_curve))::UnityEngine::AnimationCurve* curve;
+  __declspec(property(get = __cordl_internal_get_curve, put = __cordl_internal_set_curve))::UnityEngine::AnimationCurve* curve;
 
   /// @brief Field muscleIndex, offset 0x18, size 0x4
-  __declspec(property(get = __get_muscleIndex, put = __set_muscleIndex)) int32_t muscleIndex;
+  __declspec(property(get = __cordl_internal_get_muscleIndex, put = __cordl_internal_set_muscleIndex)) int32_t muscleIndex;
 
   /// @brief Field propertyName, offset 0x20, size 0x8
-  __declspec(property(get = __get_propertyName, put = __set_propertyName))::StringW propertyName;
+  __declspec(property(get = __cordl_internal_get_propertyName, put = __cordl_internal_set_propertyName))::StringW propertyName;
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_curve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_curve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_curve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_curve() const;
 
-  constexpr void __set_curve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_curve(::UnityEngine::AnimationCurve* value);
 
-  constexpr int32_t& __get_muscleIndex();
+  constexpr int32_t& __cordl_internal_get_muscleIndex();
 
-  constexpr int32_t const& __get_muscleIndex() const;
+  constexpr int32_t const& __cordl_internal_get_muscleIndex() const;
 
-  constexpr void __set_muscleIndex(int32_t value);
+  constexpr void __cordl_internal_set_muscleIndex(int32_t value);
 
-  constexpr ::StringW& __get_propertyName();
+  constexpr ::StringW& __cordl_internal_get_propertyName();
 
-  constexpr ::StringW const& __get_propertyName() const;
+  constexpr ::StringW const& __cordl_internal_get_propertyName() const;
 
-  constexpr void __set_propertyName(::StringW value);
+  constexpr void __cordl_internal_set_propertyName(::StringW value);
 
   static inline ::RootMotion::BakerMuscle* New_ctor(int32_t muscleIndex);
 

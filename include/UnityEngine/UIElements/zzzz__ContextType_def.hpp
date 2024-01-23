@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::UIElements::ContextType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6862))
 // CS Name: ::UnityEngine.UIElements::ContextType
 struct CORDL_TYPE ContextType {

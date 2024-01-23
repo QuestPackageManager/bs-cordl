@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::System::Buffers::Utilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Buffers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3890))
 // CS Name: ::System.Buffers::Utilities*
 class CORDL_TYPE Utilities : public ::System::Object {

@@ -21,29 +21,30 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerLobbyPermissionConfigurationNetSerializa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 37, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15033))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15033))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15030))
 // CS Name: ::PlayerLobbyPermissionConfigurationNetSerializable*
 class CORDL_TYPE PlayerLobbyPermissionConfigurationNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
   // Declarations
   /// @brief Field _userId, offset 0x18, size 0x8
-  __declspec(property(get = __get__userId, put = __set__userId))::StringW _userId;
+  __declspec(property(get = __cordl_internal_get__userId, put = __cordl_internal_set__userId))::StringW _userId;
 
   /// @brief Field _isServerOwner, offset 0x20, size 0x1
-  __declspec(property(get = __get__isServerOwner, put = __set__isServerOwner)) bool _isServerOwner;
+  __declspec(property(get = __cordl_internal_get__isServerOwner, put = __cordl_internal_set__isServerOwner)) bool _isServerOwner;
 
   /// @brief Field _hasRecommendBeatmapsPermission, offset 0x21, size 0x1
-  __declspec(property(get = __get__hasRecommendBeatmapsPermission, put = __set__hasRecommendBeatmapsPermission)) bool _hasRecommendBeatmapsPermission;
+  __declspec(property(get = __cordl_internal_get__hasRecommendBeatmapsPermission, put = __cordl_internal_set__hasRecommendBeatmapsPermission)) bool _hasRecommendBeatmapsPermission;
 
   /// @brief Field _hasRecommendGameplayModifiersPermission, offset 0x22, size 0x1
-  __declspec(property(get = __get__hasRecommendGameplayModifiersPermission, put = __set__hasRecommendGameplayModifiersPermission)) bool _hasRecommendGameplayModifiersPermission;
+  __declspec(property(get = __cordl_internal_get__hasRecommendGameplayModifiersPermission,
+                      put = __cordl_internal_set__hasRecommendGameplayModifiersPermission)) bool _hasRecommendGameplayModifiersPermission;
 
   /// @brief Field _hasKickVotePermission, offset 0x23, size 0x1
-  __declspec(property(get = __get__hasKickVotePermission, put = __set__hasKickVotePermission)) bool _hasKickVotePermission;
+  __declspec(property(get = __cordl_internal_get__hasKickVotePermission, put = __cordl_internal_set__hasKickVotePermission)) bool _hasKickVotePermission;
 
   /// @brief Field _hasInvitePermission, offset 0x24, size 0x1
-  __declspec(property(get = __get__hasInvitePermission, put = __set__hasInvitePermission)) bool _hasInvitePermission;
+  __declspec(property(get = __cordl_internal_get__hasInvitePermission, put = __cordl_internal_set__hasInvitePermission)) bool _hasInvitePermission;
 
   __declspec(property(get = get_userId))::StringW userId;
 
@@ -57,41 +58,41 @@ public:
 
   __declspec(property(get = get_hasInvitePermission)) bool hasInvitePermission;
 
-  constexpr ::StringW& __get__userId();
+  constexpr ::StringW& __cordl_internal_get__userId();
 
-  constexpr ::StringW const& __get__userId() const;
+  constexpr ::StringW const& __cordl_internal_get__userId() const;
 
-  constexpr void __set__userId(::StringW value);
+  constexpr void __cordl_internal_set__userId(::StringW value);
 
-  constexpr bool& __get__isServerOwner();
+  constexpr bool& __cordl_internal_get__isServerOwner();
 
-  constexpr bool const& __get__isServerOwner() const;
+  constexpr bool const& __cordl_internal_get__isServerOwner() const;
 
-  constexpr void __set__isServerOwner(bool value);
+  constexpr void __cordl_internal_set__isServerOwner(bool value);
 
-  constexpr bool& __get__hasRecommendBeatmapsPermission();
+  constexpr bool& __cordl_internal_get__hasRecommendBeatmapsPermission();
 
-  constexpr bool const& __get__hasRecommendBeatmapsPermission() const;
+  constexpr bool const& __cordl_internal_get__hasRecommendBeatmapsPermission() const;
 
-  constexpr void __set__hasRecommendBeatmapsPermission(bool value);
+  constexpr void __cordl_internal_set__hasRecommendBeatmapsPermission(bool value);
 
-  constexpr bool& __get__hasRecommendGameplayModifiersPermission();
+  constexpr bool& __cordl_internal_get__hasRecommendGameplayModifiersPermission();
 
-  constexpr bool const& __get__hasRecommendGameplayModifiersPermission() const;
+  constexpr bool const& __cordl_internal_get__hasRecommendGameplayModifiersPermission() const;
 
-  constexpr void __set__hasRecommendGameplayModifiersPermission(bool value);
+  constexpr void __cordl_internal_set__hasRecommendGameplayModifiersPermission(bool value);
 
-  constexpr bool& __get__hasKickVotePermission();
+  constexpr bool& __cordl_internal_get__hasKickVotePermission();
 
-  constexpr bool const& __get__hasKickVotePermission() const;
+  constexpr bool const& __cordl_internal_get__hasKickVotePermission() const;
 
-  constexpr void __set__hasKickVotePermission(bool value);
+  constexpr void __cordl_internal_set__hasKickVotePermission(bool value);
 
-  constexpr bool& __get__hasInvitePermission();
+  constexpr bool& __cordl_internal_get__hasInvitePermission();
 
-  constexpr bool const& __get__hasInvitePermission() const;
+  constexpr bool const& __cordl_internal_get__hasInvitePermission() const;
 
-  constexpr void __set__hasInvitePermission(bool value);
+  constexpr void __cordl_internal_set__hasInvitePermission(bool value);
 
   /// @brief Method get_userId, addr 0x12a55a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userId();

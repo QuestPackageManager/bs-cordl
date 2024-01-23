@@ -26,19 +26,19 @@ MARK_REF_PTR_T(::GlobalNamespace::MainCamera);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5882))
 // CS Name: ::MainCamera*
 class CORDL_TYPE MainCamera : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _camera, offset 0x18, size 0x8
-  __declspec(property(get = __get__camera, put = __set__camera))::UnityEngine::Camera* _camera;
+  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera))::UnityW<::UnityEngine::Camera> _camera;
 
   /// @brief Field _transform, offset 0x20, size 0x8
-  __declspec(property(get = __get__transform, put = __set__transform))::UnityEngine::Transform* _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
-  __declspec(property(get = get_camera))::UnityEngine::Camera* camera;
+  __declspec(property(get = get_camera))::UnityW<::UnityEngine::Camera> camera;
 
   __declspec(property(put = set_enableCamera)) bool enableCamera;
 
@@ -46,20 +46,20 @@ public:
 
   __declspec(property(get = get_rotation))::UnityEngine::Quaternion rotation;
 
-  constexpr ::UnityEngine::Camera*& __get__camera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get__camera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
 
-  constexpr void __set__camera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr ::UnityEngine::Transform*& __get__transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr void __set__transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
   /// @brief Method get_camera, addr 0x22fa244, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Camera* get_camera();
+  inline ::UnityW<::UnityEngine::Camera> get_camera();
 
   /// @brief Method set_enableCamera, addr 0x22fa24c, size 0x28, virtual false, abstract: false, final false
   inline void set_enableCamera(bool value);
@@ -93,10 +93,10 @@ protected:
 
 public:
   /// @brief Field _camera, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Camera* ____camera;
+  ::UnityW<::UnityEngine::Camera> ____camera;
 
   /// @brief Field _transform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____transform;
+  ::UnityW<::UnityEngine::Transform> ____transform;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -36,17 +36,17 @@ MARK_REF_PTR_T(::GlobalNamespace::PosesSerializer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5941))
 // CS Name: ::PosesSerializer*
 class CORDL_TYPE PosesSerializer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _logger, offset 0x10, size 0x8
-  __declspec(property(get = __get__logger, put = __set__logger))::GlobalNamespace::IBeatSaberLogger* _logger;
+  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger))::GlobalNamespace::IBeatSaberLogger* _logger;
 
   /// @brief Field _recordingConverter, offset 0x18, size 0x8
-  __declspec(property(get = __get__recordingConverter, put = __set__recordingConverter))::GlobalNamespace::RecordingConverter* _recordingConverter;
+  __declspec(property(get = __cordl_internal_get__recordingConverter, put = __cordl_internal_set__recordingConverter))::GlobalNamespace::RecordingConverter* _recordingConverter;
 
   /// @brief Convert operator to "::GlobalNamespace::IPosesSerializer"
   constexpr operator ::GlobalNamespace::IPosesSerializer*() noexcept;
@@ -54,17 +54,17 @@ public:
   /// @brief Convert to "::GlobalNamespace::IPosesSerializer"
   constexpr ::GlobalNamespace::IPosesSerializer* i___GlobalNamespace__IPosesSerializer() noexcept;
 
-  constexpr ::GlobalNamespace::IBeatSaberLogger*& __get__logger();
+  constexpr ::GlobalNamespace::IBeatSaberLogger*& __cordl_internal_get__logger();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __get__logger() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __cordl_internal_get__logger() const;
 
-  constexpr void __set__logger(::GlobalNamespace::IBeatSaberLogger* value);
+  constexpr void __cordl_internal_set__logger(::GlobalNamespace::IBeatSaberLogger* value);
 
-  constexpr ::GlobalNamespace::RecordingConverter*& __get__recordingConverter();
+  constexpr ::GlobalNamespace::RecordingConverter*& __cordl_internal_get__recordingConverter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingConverter*> const& __get__recordingConverter() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingConverter*> const& __cordl_internal_get__recordingConverter() const;
 
-  constexpr void __set__recordingConverter(::GlobalNamespace::RecordingConverter* value);
+  constexpr void __cordl_internal_set__recordingConverter(::GlobalNamespace::RecordingConverter* value);
 
   static inline ::GlobalNamespace::PosesSerializer* New_ctor(::GlobalNamespace::IBeatSaberLogger* logger);
 

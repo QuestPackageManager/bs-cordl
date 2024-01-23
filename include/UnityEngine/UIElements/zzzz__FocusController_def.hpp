@@ -45,7 +45,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__FocusController__FocusedElement);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6883))
 // CS Name: ::FocusController::FocusedElement
 struct CORDL_TYPE __FocusController__FocusedElement {
@@ -82,7 +82,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__FocusController__FocusedElem
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6884))
 // CS Name: ::UnityEngine.UIElements::FocusController*
 class CORDL_TYPE FocusController : public ::System::Object {
@@ -91,23 +91,24 @@ public:
   using FocusedElement = ::UnityEngine::UIElements::__FocusController__FocusedElement;
 
   /// @brief Field <focusRing>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__focusRing_k__BackingField, put = __set__focusRing_k__BackingField))::UnityEngine::UIElements::IFocusRing* _focusRing_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__focusRing_k__BackingField, put = __cordl_internal_set__focusRing_k__BackingField))::UnityEngine::UIElements::IFocusRing* _focusRing_k__BackingField;
 
   /// @brief Field m_FocusedElements, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_FocusedElements,
-                      put = __set_m_FocusedElements))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__FocusController__FocusedElement>* m_FocusedElements;
+  __declspec(property(get = __cordl_internal_get_m_FocusedElements,
+                      put = __cordl_internal_set_m_FocusedElements))::System::Collections::Generic::List_1<::UnityEngine::UIElements::__FocusController__FocusedElement>* m_FocusedElements;
 
   /// @brief Field m_LastFocusedElement, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_LastFocusedElement, put = __set_m_LastFocusedElement))::UnityEngine::UIElements::Focusable* m_LastFocusedElement;
+  __declspec(property(get = __cordl_internal_get_m_LastFocusedElement, put = __cordl_internal_set_m_LastFocusedElement))::UnityEngine::UIElements::Focusable* m_LastFocusedElement;
 
   /// @brief Field m_LastPendingFocusedElement, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_LastPendingFocusedElement, put = __set_m_LastPendingFocusedElement))::UnityEngine::UIElements::Focusable* m_LastPendingFocusedElement;
+  __declspec(property(get = __cordl_internal_get_m_LastPendingFocusedElement, put = __cordl_internal_set_m_LastPendingFocusedElement))::UnityEngine::UIElements::Focusable* m_LastPendingFocusedElement;
 
   /// @brief Field m_PendingFocusCount, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_PendingFocusCount, put = __set_m_PendingFocusCount)) int32_t m_PendingFocusCount;
+  __declspec(property(get = __cordl_internal_get_m_PendingFocusCount, put = __cordl_internal_set_m_PendingFocusCount)) int32_t m_PendingFocusCount;
 
   /// @brief Field <imguiKeyboardControl>k__BackingField, offset 0x34, size 0x4
-  __declspec(property(get = __get__imguiKeyboardControl_k__BackingField, put = __set__imguiKeyboardControl_k__BackingField)) int32_t _imguiKeyboardControl_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__imguiKeyboardControl_k__BackingField,
+                      put = __cordl_internal_set__imguiKeyboardControl_k__BackingField)) int32_t _imguiKeyboardControl_k__BackingField;
 
   __declspec(property(get = get_focusRing))::UnityEngine::UIElements::IFocusRing* focusRing;
 
@@ -115,41 +116,42 @@ public:
 
   __declspec(property(get = get_imguiKeyboardControl, put = set_imguiKeyboardControl)) int32_t imguiKeyboardControl;
 
-  constexpr ::UnityEngine::UIElements::IFocusRing*& __get__focusRing_k__BackingField();
+  constexpr ::UnityEngine::UIElements::IFocusRing*& __cordl_internal_get__focusRing_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IFocusRing*> const& __get__focusRing_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IFocusRing*> const& __cordl_internal_get__focusRing_k__BackingField() const;
 
-  constexpr void __set__focusRing_k__BackingField(::UnityEngine::UIElements::IFocusRing* value);
+  constexpr void __cordl_internal_set__focusRing_k__BackingField(::UnityEngine::UIElements::IFocusRing* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__FocusController__FocusedElement>*& __get_m_FocusedElements();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::__FocusController__FocusedElement>*& __cordl_internal_get_m_FocusedElements();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__FocusController__FocusedElement>*> const& __get_m_FocusedElements() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::__FocusController__FocusedElement>*> const&
+  __cordl_internal_get_m_FocusedElements() const;
 
-  constexpr void __set_m_FocusedElements(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__FocusController__FocusedElement>* value);
+  constexpr void __cordl_internal_set_m_FocusedElements(::System::Collections::Generic::List_1<::UnityEngine::UIElements::__FocusController__FocusedElement>* value);
 
-  constexpr ::UnityEngine::UIElements::Focusable*& __get_m_LastFocusedElement();
+  constexpr ::UnityEngine::UIElements::Focusable*& __cordl_internal_get_m_LastFocusedElement();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Focusable*> const& __get_m_LastFocusedElement() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Focusable*> const& __cordl_internal_get_m_LastFocusedElement() const;
 
-  constexpr void __set_m_LastFocusedElement(::UnityEngine::UIElements::Focusable* value);
+  constexpr void __cordl_internal_set_m_LastFocusedElement(::UnityEngine::UIElements::Focusable* value);
 
-  constexpr ::UnityEngine::UIElements::Focusable*& __get_m_LastPendingFocusedElement();
+  constexpr ::UnityEngine::UIElements::Focusable*& __cordl_internal_get_m_LastPendingFocusedElement();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Focusable*> const& __get_m_LastPendingFocusedElement() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Focusable*> const& __cordl_internal_get_m_LastPendingFocusedElement() const;
 
-  constexpr void __set_m_LastPendingFocusedElement(::UnityEngine::UIElements::Focusable* value);
+  constexpr void __cordl_internal_set_m_LastPendingFocusedElement(::UnityEngine::UIElements::Focusable* value);
 
-  constexpr int32_t& __get_m_PendingFocusCount();
+  constexpr int32_t& __cordl_internal_get_m_PendingFocusCount();
 
-  constexpr int32_t const& __get_m_PendingFocusCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_PendingFocusCount() const;
 
-  constexpr void __set_m_PendingFocusCount(int32_t value);
+  constexpr void __cordl_internal_set_m_PendingFocusCount(int32_t value);
 
-  constexpr int32_t& __get__imguiKeyboardControl_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__imguiKeyboardControl_k__BackingField();
 
-  constexpr int32_t const& __get__imguiKeyboardControl_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__imguiKeyboardControl_k__BackingField() const;
 
-  constexpr void __set__imguiKeyboardControl_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__imguiKeyboardControl_k__BackingField(int32_t value);
 
   static inline ::UnityEngine::UIElements::FocusController* New_ctor(::UnityEngine::UIElements::IFocusRing* focusRing);
 

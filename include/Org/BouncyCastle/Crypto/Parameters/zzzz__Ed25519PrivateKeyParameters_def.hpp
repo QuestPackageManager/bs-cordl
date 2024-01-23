@@ -28,17 +28,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::Ed25519PrivateKeyParamet
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1020))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1020))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1041))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::Ed25519PrivateKeyParameters*
 class CORDL_TYPE Ed25519PrivateKeyParameters : public ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter {
 public:
   // Declarations
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::ArrayW<uint8_t, ::Array<uint8_t>*> data;
 
   /// @brief Field cachedPublicKey, offset 0x20, size 0x8
-  __declspec(property(get = __get_cachedPublicKey, put = __set_cachedPublicKey))::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* cachedPublicKey;
+  __declspec(property(get = __cordl_internal_get_cachedPublicKey, put = __cordl_internal_set_cachedPublicKey))::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* cachedPublicKey;
 
   /// @brief Field KeySize, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_KeySize, put = setStaticF_KeySize)) int32_t KeySize;
@@ -46,17 +46,17 @@ public:
   /// @brief Field SignatureSize, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_SignatureSize, put = setStaticF_SignatureSize)) int32_t SignatureSize;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_data();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_data();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_data() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*& __get_cachedPublicKey();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*& __cordl_internal_get_cachedPublicKey();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*> const& __get_cachedPublicKey() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters*> const& __cordl_internal_get_cachedPublicKey() const;
 
-  constexpr void __set_cachedPublicKey(::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* value);
+  constexpr void __cordl_internal_set_cachedPublicKey(::Org::BouncyCastle::Crypto::Parameters::Ed25519PublicKeyParameters* value);
 
   static inline void setStaticF_KeySize(int32_t value);
 

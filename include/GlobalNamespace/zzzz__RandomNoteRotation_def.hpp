@@ -23,17 +23,17 @@ MARK_REF_PTR_T(::GlobalNamespace::RandomNoteRotation);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4785))
 // CS Name: ::RandomNoteRotation*
 class CORDL_TYPE RandomNoteRotation : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _noteController, offset 0x18, size 0x8
-  __declspec(property(get = __get__noteController, put = __set__noteController))::GlobalNamespace::NoteControllerBase* _noteController;
+  __declspec(property(get = __cordl_internal_get__noteController, put = __cordl_internal_set__noteController))::UnityW<::GlobalNamespace::NoteControllerBase> _noteController;
 
   /// @brief Field _transform, offset 0x20, size 0x8
-  __declspec(property(get = __get__transform, put = __set__transform))::UnityEngine::Transform* _transform;
+  __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform))::UnityW<::UnityEngine::Transform> _transform;
 
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
   constexpr operator ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
@@ -41,17 +41,17 @@ public:
   /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"
   constexpr ::GlobalNamespace::INoteControllerDidInitEvent* i___GlobalNamespace__INoteControllerDidInitEvent() noexcept;
 
-  constexpr ::GlobalNamespace::NoteControllerBase*& __get__noteController();
+  constexpr ::UnityW<::GlobalNamespace::NoteControllerBase>& __cordl_internal_get__noteController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteControllerBase*> const& __get__noteController() const;
+  constexpr ::UnityW<::GlobalNamespace::NoteControllerBase> const& __cordl_internal_get__noteController() const;
 
-  constexpr void __set__noteController(::GlobalNamespace::NoteControllerBase* value);
+  constexpr void __cordl_internal_set__noteController(::UnityW<::GlobalNamespace::NoteControllerBase> value);
 
-  constexpr ::UnityEngine::Transform*& __get__transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform() const;
 
-  constexpr void __set__transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
   /// @brief Method Awake, addr 0x238bcc4, size 0xb8, virtual false, abstract: false, final false
   inline void Awake();
@@ -82,10 +82,10 @@ protected:
 
 public:
   /// @brief Field _noteController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::NoteControllerBase* ____noteController;
+  ::UnityW<::GlobalNamespace::NoteControllerBase> ____noteController;
 
   /// @brief Field _transform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____transform;
+  ::UnityW<::UnityEngine::Transform> ____transform;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

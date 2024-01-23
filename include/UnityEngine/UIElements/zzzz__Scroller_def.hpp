@@ -61,47 +61,48 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__Scroller__UxmlTraits);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6737))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6737))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7063))
 // CS Name: ::Scroller::UxmlTraits*
 class CORDL_TYPE __Scroller__UxmlTraits : public ::UnityEngine::UIElements::__VisualElement__UxmlTraits {
 public:
   // Declarations
   /// @brief Field m_LowValue, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_LowValue, put = __set_m_LowValue))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_LowValue;
+  __declspec(property(get = __cordl_internal_get_m_LowValue, put = __cordl_internal_set_m_LowValue))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_LowValue;
 
   /// @brief Field m_HighValue, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_HighValue, put = __set_m_HighValue))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_HighValue;
+  __declspec(property(get = __cordl_internal_get_m_HighValue, put = __cordl_internal_set_m_HighValue))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_HighValue;
 
   /// @brief Field m_Direction, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_Direction, put = __set_m_Direction))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SliderDirection>* m_Direction;
+  __declspec(property(get = __cordl_internal_get_m_Direction,
+                      put = __cordl_internal_set_m_Direction))::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SliderDirection>* m_Direction;
 
   /// @brief Field m_Value, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_Value, put = __set_m_Value))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_Value;
+  __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value))::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_Value;
 
-  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __get_m_LowValue();
+  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __cordl_internal_get_m_LowValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __get_m_LowValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __cordl_internal_get_m_LowValue() const;
 
-  constexpr void __set_m_LowValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_LowValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __get_m_HighValue();
+  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __cordl_internal_get_m_HighValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __get_m_HighValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __cordl_internal_get_m_HighValue() const;
 
-  constexpr void __set_m_HighValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_HighValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SliderDirection>*& __get_m_Direction();
+  constexpr ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SliderDirection>*& __cordl_internal_get_m_Direction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SliderDirection>*> const& __get_m_Direction() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SliderDirection>*> const& __cordl_internal_get_m_Direction() const;
 
-  constexpr void __set_m_Direction(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SliderDirection>* value);
+  constexpr void __cordl_internal_set_m_Direction(::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::SliderDirection>* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __get_m_Value();
+  constexpr ::UnityEngine::UIElements::UxmlFloatAttributeDescription*& __cordl_internal_get_m_Value();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __get_m_Value() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlFloatAttributeDescription*> const& __cordl_internal_get_m_Value() const;
 
-  constexpr void __set_m_Value(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Value(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
   /// @brief Method Init, addr 0x2e2ad88, size 0x1ec, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
@@ -155,7 +156,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__Scroller__UxmlTraits, ___m_V
 // SizeInfo { instance_size: 976, native_size: -1, calculated_instance_size: 976, calculated_native_size: 976, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6744))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6744))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7064))
 // CS Name: ::UnityEngine.UIElements::Scroller*
 class CORDL_TYPE Scroller : public ::UnityEngine::UIElements::VisualElement {
@@ -166,16 +167,17 @@ public:
   using UxmlFactory = ::UnityEngine::UIElements::__Scroller__UxmlFactory;
 
   /// @brief Field valueChanged, offset 0x3b0, size 0x8
-  __declspec(property(get = __get_valueChanged, put = __set_valueChanged))::System::Action_1<float_t>* valueChanged;
+  __declspec(property(get = __cordl_internal_get_valueChanged, put = __cordl_internal_set_valueChanged))::System::Action_1<float_t>* valueChanged;
 
   /// @brief Field <slider>k__BackingField, offset 0x3b8, size 0x8
-  __declspec(property(get = __get__slider_k__BackingField, put = __set__slider_k__BackingField))::UnityEngine::UIElements::Slider* _slider_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__slider_k__BackingField, put = __cordl_internal_set__slider_k__BackingField))::UnityEngine::UIElements::Slider* _slider_k__BackingField;
 
   /// @brief Field <lowButton>k__BackingField, offset 0x3c0, size 0x8
-  __declspec(property(get = __get__lowButton_k__BackingField, put = __set__lowButton_k__BackingField))::UnityEngine::UIElements::RepeatButton* _lowButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__lowButton_k__BackingField, put = __cordl_internal_set__lowButton_k__BackingField))::UnityEngine::UIElements::RepeatButton* _lowButton_k__BackingField;
 
   /// @brief Field <highButton>k__BackingField, offset 0x3c8, size 0x8
-  __declspec(property(get = __get__highButton_k__BackingField, put = __set__highButton_k__BackingField))::UnityEngine::UIElements::RepeatButton* _highButton_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__highButton_k__BackingField,
+                      put = __cordl_internal_set__highButton_k__BackingField))::UnityEngine::UIElements::RepeatButton* _highButton_k__BackingField;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
@@ -209,29 +211,29 @@ public:
 
   __declspec(property(put = set_direction))::UnityEngine::UIElements::SliderDirection direction;
 
-  constexpr ::System::Action_1<float_t>*& __get_valueChanged();
+  constexpr ::System::Action_1<float_t>*& __cordl_internal_get_valueChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __get_valueChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __cordl_internal_get_valueChanged() const;
 
-  constexpr void __set_valueChanged(::System::Action_1<float_t>* value);
+  constexpr void __cordl_internal_set_valueChanged(::System::Action_1<float_t>* value);
 
-  constexpr ::UnityEngine::UIElements::Slider*& __get__slider_k__BackingField();
+  constexpr ::UnityEngine::UIElements::Slider*& __cordl_internal_get__slider_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Slider*> const& __get__slider_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Slider*> const& __cordl_internal_get__slider_k__BackingField() const;
 
-  constexpr void __set__slider_k__BackingField(::UnityEngine::UIElements::Slider* value);
+  constexpr void __cordl_internal_set__slider_k__BackingField(::UnityEngine::UIElements::Slider* value);
 
-  constexpr ::UnityEngine::UIElements::RepeatButton*& __get__lowButton_k__BackingField();
+  constexpr ::UnityEngine::UIElements::RepeatButton*& __cordl_internal_get__lowButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::RepeatButton*> const& __get__lowButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::RepeatButton*> const& __cordl_internal_get__lowButton_k__BackingField() const;
 
-  constexpr void __set__lowButton_k__BackingField(::UnityEngine::UIElements::RepeatButton* value);
+  constexpr void __cordl_internal_set__lowButton_k__BackingField(::UnityEngine::UIElements::RepeatButton* value);
 
-  constexpr ::UnityEngine::UIElements::RepeatButton*& __get__highButton_k__BackingField();
+  constexpr ::UnityEngine::UIElements::RepeatButton*& __cordl_internal_get__highButton_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::RepeatButton*> const& __get__highButton_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::RepeatButton*> const& __cordl_internal_get__highButton_k__BackingField() const;
 
-  constexpr void __set__highButton_k__BackingField(::UnityEngine::UIElements::RepeatButton* value);
+  constexpr void __cordl_internal_set__highButton_k__BackingField(::UnityEngine::UIElements::RepeatButton* value);
 
   static inline void setStaticF_ussClassName(::StringW value);
 
@@ -374,8 +376,8 @@ static_assert(offsetof(::UnityEngine::UIElements::Scroller, ____highButton_k__Ba
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7063)), TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7064)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5275 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7062)) CS Name: ::Scroller::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7063)), TypeDefinitionIndex(TypeDefinitionIndex(7064)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5275 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7062)) CS Name: ::Scroller::UxmlFactory*
 class CORDL_TYPE __Scroller__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::Scroller*, ::UnityEngine::UIElements::__Scroller__UxmlTraits*> {
 public:
   // Declarations

@@ -118,7 +118,7 @@ MARK_VAL_T(::GlobalNamespace::__AppInit___StartGameAsync_d__11);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15385))
 // CS Name: ::AppInit::AppStartType
 struct CORDL_TYPE __AppInit__AppStartType {
@@ -172,7 +172,7 @@ static_assert(offsetof(::GlobalNamespace::__AppInit__AppStartType, value__) == 0
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15386))
 // CS Name: ::AppInit::<Awake>d__10
 struct CORDL_TYPE __AppInit___Awake_d__10 {
@@ -191,9 +191,9 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::AppInit*", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __AppInit___Awake_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::AppInit* __4__this,
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::AppInit>", modifiers: "",
+  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  constexpr __AppInit___Awake_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::AppInit> __4__this,
                                     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   // Ctor Parameters []
@@ -207,7 +207,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::AppInit* __4__this;
+  ::UnityW<::GlobalNamespace::AppInit> __4__this;
 
   /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
@@ -233,7 +233,7 @@ static_assert(offsetof(::GlobalNamespace::__AppInit___Awake_d__10, __u__1) == 0x
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15387))
 // CS Name: ::AppInit::<StartGameAsync>d__11
 struct CORDL_TYPE __AppInit___StartGameAsync_d__11 {
@@ -252,9 +252,9 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::AppInit*", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __AppInit___StartGameAsync_d__11(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::AppInit* __4__this,
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::AppInit>", modifiers: "",
+  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  constexpr __AppInit___StartGameAsync_d__11(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::AppInit> __4__this,
                                              ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   // Ctor Parameters []
@@ -268,7 +268,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::AppInit* __4__this;
+  ::UnityW<::GlobalNamespace::AppInit> __4__this;
 
   /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
@@ -294,7 +294,7 @@ static_assert(offsetof(::GlobalNamespace::__AppInit___StartGameAsync_d__11, __u_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15388))
 // CS Name: ::AppInit::<>c*
 class CORDL_TYPE __AppInit____c : public ::System::Object {
@@ -346,7 +346,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__AppInit____c,
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(15385))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(15385))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15389))
 // CS Name: ::AppInit::<InitializeAsync>d__13
 struct CORDL_TYPE __AppInit___InitializeAsync_d__13 {
@@ -365,10 +365,10 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::AppInit*", modifiers: "", def_value: None },
-  // CppParam { name: "_startType_5__2", ty: "::GlobalNamespace::__AppInit__AppStartType", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::AppInit>", modifiers: "",
+  // def_value: None }, CppParam { name: "_startType_5__2", ty: "::GlobalNamespace::__AppInit__AppStartType", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __AppInit___InitializeAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::AppInit* __4__this,
+  constexpr __AppInit___InitializeAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::AppInit> __4__this,
                                               ::GlobalNamespace::__AppInit__AppStartType _startType_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   // Ctor Parameters []
@@ -382,7 +382,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::AppInit* __4__this;
+  ::UnityW<::GlobalNamespace::AppInit> __4__this;
 
   /// @brief Field <startType>5__2, offset: 0x28, size: 0x4, def value: None
   ::GlobalNamespace::__AppInit__AppStartType _startType_5__2;
@@ -413,20 +413,20 @@ static_assert(offsetof(::GlobalNamespace::__AppInit___InitializeAsync_d__13, __u
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15390))
 // CS Name: ::AppInit::<>c__DisplayClass21_0::<<WaitUntilAsync>g__WaitUntilPredicateTrue|0>d*
 class CORDL_TYPE __AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::__AppInit____c__DisplayClass21_0* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::__AppInit____c__DisplayClass21_0* __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -450,23 +450,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::__AppInit____c__DisplayClass21_0*& __get___4__this();
+  constexpr ::GlobalNamespace::__AppInit____c__DisplayClass21_0*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__AppInit____c__DisplayClass21_0*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__AppInit____c__DisplayClass21_0*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::__AppInit____c__DisplayClass21_0* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::__AppInit____c__DisplayClass21_0* value);
 
   static inline ::GlobalNamespace::__AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d* New_ctor(int32_t __1__state);
 
@@ -527,7 +527,7 @@ static_assert(offsetof(::GlobalNamespace::__AppInit____c__DisplayClass21_0____Wa
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15391))
 // CS Name: ::AppInit::<>c__DisplayClass21_0*
 class CORDL_TYPE __AppInit____c__DisplayClass21_0 : public ::System::Object {
@@ -536,22 +536,22 @@ public:
   using __WaitUntilAsync_g__WaitUntilPredicateTrue_0_d = ::GlobalNamespace::__AppInit____c__DisplayClass21_0____WaitUntilAsync_g__WaitUntilPredicateTrue_0_d;
 
   /// @brief Field predicate, offset 0x10, size 0x8
-  __declspec(property(get = __get_predicate, put = __set_predicate))::System::Func_1<bool>* predicate;
+  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate))::System::Func_1<bool>* predicate;
 
   /// @brief Field tcs, offset 0x18, size 0x8
-  __declspec(property(get = __get_tcs, put = __set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* tcs;
+  __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* tcs;
 
-  constexpr ::System::Func_1<bool>*& __get_predicate();
+  constexpr ::System::Func_1<bool>*& __cordl_internal_get_predicate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& __get_predicate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& __cordl_internal_get_predicate() const;
 
-  constexpr void __set_predicate(::System::Func_1<bool>* value);
+  constexpr void __cordl_internal_set_predicate(::System::Func_1<bool>* value);
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<int32_t>*& __get_tcs();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<int32_t>*& __cordl_internal_get_tcs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<int32_t>*> const& __get_tcs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<int32_t>*> const& __cordl_internal_get_tcs() const;
 
-  constexpr void __set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* value);
+  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* value);
 
   static inline ::GlobalNamespace::__AppInit____c__DisplayClass21_0* New_ctor();
 
@@ -595,7 +595,7 @@ static_assert(offsetof(::GlobalNamespace::__AppInit____c__DisplayClass21_0, ___t
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15392))
 // CS Name: ::AppInit*
 class CORDL_TYPE AppInit : public ::Zenject::MonoInstaller {
@@ -614,56 +614,57 @@ public:
   using AppStartType = ::GlobalNamespace::__AppInit__AppStartType;
 
   /// @brief Field _cameraGO, offset 0x20, size 0x8
-  __declspec(property(get = __get__cameraGO, put = __set__cameraGO))::UnityEngine::GameObject* _cameraGO;
+  __declspec(property(get = __cordl_internal_get__cameraGO, put = __cordl_internal_set__cameraGO))::UnityW<::UnityEngine::GameObject> _cameraGO;
 
   /// @brief Field _asyncSceneContext, offset 0x28, size 0x8
-  __declspec(property(get = __get__asyncSceneContext, put = __set__asyncSceneContext))::BGLib::AppFlow::Initialization::AsyncSceneContext* _asyncSceneContext;
+  __declspec(property(get = __cordl_internal_get__asyncSceneContext, put = __cordl_internal_set__asyncSceneContext))::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> _asyncSceneContext;
 
   /// @brief Field sceneSetupData, offset 0x30, size 0x8
-  __declspec(property(get = __get_sceneSetupData, put = __set_sceneSetupData))::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData* sceneSetupData;
+  __declspec(property(get = __cordl_internal_get_sceneSetupData,
+                      put = __cordl_internal_set_sceneSetupData))::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData* sceneSetupData;
 
   /// @brief Field _setupData, offset 0x38, size 0x8
-  __declspec(property(get = __get__setupData, put = __set__setupData))::GlobalNamespace::AppInitSetupData* _setupData;
+  __declspec(property(get = __cordl_internal_get__setupData, put = __cordl_internal_set__setupData))::GlobalNamespace::AppInitSetupData* _setupData;
 
   /// @brief Field _gameScenesManager, offset 0x40, size 0x8
-  __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
-  __declspec(property(get = get_gameScenesManager))::GlobalNamespace::GameScenesManager* gameScenesManager;
+  __declspec(property(get = get_gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> gameScenesManager;
 
   __declspec(property(get = get_isTestContext)) bool isTestContext;
 
-  constexpr ::UnityEngine::GameObject*& __get__cameraGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__cameraGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__cameraGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__cameraGO() const;
 
-  constexpr void __set__cameraGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__cameraGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::BGLib::AppFlow::Initialization::AsyncSceneContext*& __get__asyncSceneContext();
+  constexpr ::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext>& __cordl_internal_get__asyncSceneContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::BGLib::AppFlow::Initialization::AsyncSceneContext*> const& __get__asyncSceneContext() const;
+  constexpr ::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> const& __cordl_internal_get__asyncSceneContext() const;
 
-  constexpr void __set__asyncSceneContext(::BGLib::AppFlow::Initialization::AsyncSceneContext* value);
+  constexpr void __cordl_internal_set__asyncSceneContext(::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> value);
 
-  constexpr ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData*& __get_sceneSetupData();
+  constexpr ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData*& __cordl_internal_get_sceneSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData*> const& __get_sceneSetupData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData*> const& __cordl_internal_get_sceneSetupData() const;
 
-  constexpr void __set_sceneSetupData(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData* value);
+  constexpr void __cordl_internal_set_sceneSetupData(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData* value);
 
-  constexpr ::GlobalNamespace::AppInitSetupData*& __get__setupData();
+  constexpr ::GlobalNamespace::AppInitSetupData*& __cordl_internal_get__setupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AppInitSetupData*> const& __get__setupData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AppInitSetupData*> const& __cordl_internal_get__setupData() const;
 
-  constexpr void __set__setupData(::GlobalNamespace::AppInitSetupData* value);
+  constexpr void __cordl_internal_set__setupData(::GlobalNamespace::AppInitSetupData* value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get__gameScenesManager();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get__gameScenesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
-  constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
   /// @brief Method get_gameScenesManager, addr 0xe1d57c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::GameScenesManager* get_gameScenesManager();
+  inline ::UnityW<::GlobalNamespace::GameScenesManager> get_gameScenesManager();
 
   /// @brief Method get_isTestContext, addr 0xe1d584, size 0x20, virtual false, abstract: false, final false
   inline bool get_isTestContext();
@@ -727,10 +728,10 @@ protected:
 
 public:
   /// @brief Field _cameraGO, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____cameraGO;
+  ::UnityW<::UnityEngine::GameObject> ____cameraGO;
 
   /// @brief Field _asyncSceneContext, offset: 0x28, size: 0x8, def value: None
-  ::BGLib::AppFlow::Initialization::AsyncSceneContext* ____asyncSceneContext;
+  ::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> ____asyncSceneContext;
 
   /// @brief Field sceneSetupData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData* ___sceneSetupData;
@@ -739,7 +740,7 @@ public:
   ::GlobalNamespace::AppInitSetupData* ____setupData;
 
   /// @brief Field _gameScenesManager, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
+  ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

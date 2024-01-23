@@ -64,9 +64,9 @@ MARK_VAL_T(::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 2 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3619))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11575)) CS Name: ::XmlUrlResolver::<GetEntityAsync>d__15
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3619)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 899 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 2 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11575)) CS Name: ::XmlUrlResolver::<GetEntityAsync>d__15
 struct CORDL_TYPE __XmlUrlResolver___GetEntityAsync_d__15 {
 public:
   // Declarations
@@ -138,7 +138,7 @@ static_assert(offsetof(::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15, _
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11574))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11574))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11576))
 // CS Name: ::System.Xml::XmlUrlResolver*
 class CORDL_TYPE XmlUrlResolver : public ::System::Xml::XmlResolver {
@@ -147,34 +147,34 @@ public:
   using _GetEntityAsync_d__15 = ::System::Xml::__XmlUrlResolver___GetEntityAsync_d__15;
 
   /// @brief Field _credentials, offset 0x10, size 0x8
-  __declspec(property(get = __get__credentials, put = __set__credentials))::System::Net::ICredentials* _credentials;
+  __declspec(property(get = __cordl_internal_get__credentials, put = __cordl_internal_set__credentials))::System::Net::ICredentials* _credentials;
 
   /// @brief Field _proxy, offset 0x18, size 0x8
-  __declspec(property(get = __get__proxy, put = __set__proxy))::System::Net::IWebProxy* _proxy;
+  __declspec(property(get = __cordl_internal_get__proxy, put = __cordl_internal_set__proxy))::System::Net::IWebProxy* _proxy;
 
   /// @brief Field _cachePolicy, offset 0x20, size 0x8
-  __declspec(property(get = __get__cachePolicy, put = __set__cachePolicy))::System::Net::Cache::RequestCachePolicy* _cachePolicy;
+  __declspec(property(get = __cordl_internal_get__cachePolicy, put = __cordl_internal_set__cachePolicy))::System::Net::Cache::RequestCachePolicy* _cachePolicy;
 
   /// @brief Field s_DownloadManager, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_DownloadManager, put = setStaticF_s_DownloadManager))::System::Object* s_DownloadManager;
 
-  constexpr ::System::Net::ICredentials*& __get__credentials();
+  constexpr ::System::Net::ICredentials*& __cordl_internal_get__credentials();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& __get__credentials() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& __cordl_internal_get__credentials() const;
 
-  constexpr void __set__credentials(::System::Net::ICredentials* value);
+  constexpr void __cordl_internal_set__credentials(::System::Net::ICredentials* value);
 
-  constexpr ::System::Net::IWebProxy*& __get__proxy();
+  constexpr ::System::Net::IWebProxy*& __cordl_internal_get__proxy();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& __get__proxy() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& __cordl_internal_get__proxy() const;
 
-  constexpr void __set__proxy(::System::Net::IWebProxy* value);
+  constexpr void __cordl_internal_set__proxy(::System::Net::IWebProxy* value);
 
-  constexpr ::System::Net::Cache::RequestCachePolicy*& __get__cachePolicy();
+  constexpr ::System::Net::Cache::RequestCachePolicy*& __cordl_internal_get__cachePolicy();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& __get__cachePolicy() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& __cordl_internal_get__cachePolicy() const;
 
-  constexpr void __set__cachePolicy(::System::Net::Cache::RequestCachePolicy* value);
+  constexpr void __cordl_internal_set__cachePolicy(::System::Net::Cache::RequestCachePolicy* value);
 
   static inline void setStaticF_s_DownloadManager(::System::Object* value);
 

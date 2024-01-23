@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1119))
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::VmpcRandomGenerator*
 class CORDL_TYPE VmpcRandomGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field n, offset 0x10, size 0x1
-  __declspec(property(get = __get_n, put = __set_n)) uint8_t n;
+  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n)) uint8_t n;
 
   /// @brief Field P, offset 0x18, size 0x8
-  __declspec(property(get = __get_P, put = __set_P))::ArrayW<uint8_t, ::Array<uint8_t>*> P;
+  __declspec(property(get = __cordl_internal_get_P, put = __cordl_internal_set_P))::ArrayW<uint8_t, ::Array<uint8_t>*> P;
 
   /// @brief Field s, offset 0x20, size 0x1
-  __declspec(property(get = __get_s, put = __set_s)) uint8_t s;
+  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s)) uint8_t s;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() noexcept;
@@ -40,23 +40,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
   constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* i___Org__BouncyCastle__Crypto__Prng__IRandomGenerator() noexcept;
 
-  constexpr uint8_t& __get_n();
+  constexpr uint8_t& __cordl_internal_get_n();
 
-  constexpr uint8_t const& __get_n() const;
+  constexpr uint8_t const& __cordl_internal_get_n() const;
 
-  constexpr void __set_n(uint8_t value);
+  constexpr void __cordl_internal_set_n(uint8_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_P();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_P();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_P() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_P() const;
 
-  constexpr void __set_P(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_P(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr uint8_t& __get_s();
+  constexpr uint8_t& __cordl_internal_get_s();
 
-  constexpr uint8_t const& __get_s() const;
+  constexpr uint8_t const& __cordl_internal_get_s() const;
 
-  constexpr void __set_s(uint8_t value);
+  constexpr void __cordl_internal_set_s(uint8_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator* New_ctor();
 

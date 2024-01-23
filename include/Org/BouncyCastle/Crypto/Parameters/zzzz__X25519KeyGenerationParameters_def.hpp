@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::X25519KeyGenerationParam
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1018))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1018))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1088))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::X25519KeyGenerationParameters*
 class CORDL_TYPE X25519KeyGenerationParameters : public ::Org::BouncyCastle::Crypto::KeyGenerationParameters {

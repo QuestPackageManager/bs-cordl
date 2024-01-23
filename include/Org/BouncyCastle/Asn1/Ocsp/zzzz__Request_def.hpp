@@ -32,33 +32,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::Request);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(215))
 // CS Name: ::Org.BouncyCastle.Asn1.Ocsp::Request*
 class CORDL_TYPE Request : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field reqCert, offset 0x10, size 0x8
-  __declspec(property(get = __get_reqCert, put = __set_reqCert))::Org::BouncyCastle::Asn1::Ocsp::CertID* reqCert;
+  __declspec(property(get = __cordl_internal_get_reqCert, put = __cordl_internal_set_reqCert))::Org::BouncyCastle::Asn1::Ocsp::CertID* reqCert;
 
   /// @brief Field singleRequestExtensions, offset 0x18, size 0x8
-  __declspec(property(get = __get_singleRequestExtensions, put = __set_singleRequestExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* singleRequestExtensions;
+  __declspec(property(get = __cordl_internal_get_singleRequestExtensions, put = __cordl_internal_set_singleRequestExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* singleRequestExtensions;
 
   __declspec(property(get = get_ReqCert))::Org::BouncyCastle::Asn1::Ocsp::CertID* ReqCert;
 
   __declspec(property(get = get_SingleRequestExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* SingleRequestExtensions;
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::CertID*& __get_reqCert();
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::CertID*& __cordl_internal_get_reqCert();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::CertID*> const& __get_reqCert() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::CertID*> const& __cordl_internal_get_reqCert() const;
 
-  constexpr void __set_reqCert(::Org::BouncyCastle::Asn1::Ocsp::CertID* value);
+  constexpr void __cordl_internal_set_reqCert(::Org::BouncyCastle::Asn1::Ocsp::CertID* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __get_singleRequestExtensions();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_singleRequestExtensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __get_singleRequestExtensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __cordl_internal_get_singleRequestExtensions() const;
 
-  constexpr void __set_singleRequestExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
+  constexpr void __cordl_internal_set_singleRequestExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
   /// @brief Method GetInstance, addr 0xf820cc, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Ocsp::Request* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);

@@ -19,10 +19,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x21100e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>::get(), "get_intensity",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -34,10 +34,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x21100f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>::get(),
-                                                 "get_probeHighlightsIntensityMultiplier", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 "get_probeHighlightsIntensityMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -49,59 +49,59 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x21100f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr float_t& GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId::__get__intensity() {
+constexpr float_t& GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId::__cordl_internal_get__intensity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
-constexpr float_t const& GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId::__get__intensity() const {
+constexpr float_t const& GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId::__cordl_internal_get__intensity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
-constexpr void GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId::__set__intensity(float_t value) {
+constexpr void GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId::__cordl_internal_set__intensity(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____intensity = value;
 }
-constexpr float_t& GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId::__get__probeHighlightsIntensityMultiplier() {
+constexpr float_t& GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId::__cordl_internal_get__probeHighlightsIntensityMultiplier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____probeHighlightsIntensityMultiplier;
 }
-constexpr float_t const& GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId::__get__probeHighlightsIntensityMultiplier() const {
+constexpr float_t const& GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId::__cordl_internal_get__probeHighlightsIntensityMultiplier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____probeHighlightsIntensityMultiplier;
 }
-constexpr void GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId::__set__probeHighlightsIntensityMultiplier(float_t value) {
+constexpr void GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId::__cordl_internal_set__probeHighlightsIntensityMultiplier(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____probeHighlightsIntensityMultiplier = value;
 }
 inline float_t GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId::get_intensity() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>::get(), "get_intensity",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline float_t GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId::get_probeHighlightsIntensityMultiplier() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>::get(),
-                                               "get_probeHighlightsIntensityMultiplier", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               "get_probeHighlightsIntensityMultiplier", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId* GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId::New_ctor(int32_t lightId, float_t lightIntensity,
                                                                                                                                                     float_t probeMultiplier) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>(lightId, lightIntensity, probeMultiplier));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>(lightId, lightIntensity, probeMultiplier));
 }
 inline void GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId::_ctor(int32_t lightId, float_t lightIntensity, float_t probeMultiplier) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, lightId, lightIntensity, probeMultiplier);
 }
 // Ctor Parameters []
@@ -114,9 +114,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x210fa98;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "get_mixType",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -127,9 +127,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x210faa0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "get_intensity",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -141,10 +141,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x210faa8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "set_intensity", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "set_intensity", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -156,9 +156,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x210fab0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(),
-                                                                               "get_normalizerWeight", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_normalizerWeight", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -170,10 +170,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x210fab8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "set_normalizerWeight",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "set_normalizerWeight",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -185,9 +185,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x210fac0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(),
-                                                                               "get_calculatedColorPreNormalization", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "get_calculatedColorPreNormalization",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -199,9 +200,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x210facc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "get_bakeId",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -212,7 +213,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x210fad4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), 4));
@@ -226,7 +227,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x39c;
   constexpr static std::size_t addrs = 0x210fd2c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), 7));
@@ -241,7 +242,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x21100c8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), 6));
@@ -256,11 +257,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x210fcd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "SetDataToShaders", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "SetDataToShaders", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
     return ___internal_method;
   }
 };
@@ -271,9 +272,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xe8;
   constexpr static std::size_t addrs = 0x210fbf0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(),
-                                                                               "SetShaderProperties", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "SetShaderProperties", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -285,9 +286,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x210fb64;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(),
-                                                                               "GetBakedLightsNormalizer", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "GetBakedLightsNormalizer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -298,206 +299,207 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x21100d0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__LightConstants__BakeId& GlobalNamespace::LightmapLightWithIds::__get__bakeId() {
+constexpr ::GlobalNamespace::__LightConstants__BakeId& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__bakeId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakeId;
 }
-constexpr ::GlobalNamespace::__LightConstants__BakeId const& GlobalNamespace::LightmapLightWithIds::__get__bakeId() const {
+constexpr ::GlobalNamespace::__LightConstants__BakeId const& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__bakeId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakeId;
 }
-constexpr void GlobalNamespace::LightmapLightWithIds::__set__bakeId(::GlobalNamespace::__LightConstants__BakeId value) {
+constexpr void GlobalNamespace::LightmapLightWithIds::__cordl_internal_set__bakeId(::GlobalNamespace::__LightConstants__BakeId value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bakeId = value;
 }
-constexpr float_t& GlobalNamespace::LightmapLightWithIds::__get__intensity() {
+constexpr float_t& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__intensity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
-constexpr float_t const& GlobalNamespace::LightmapLightWithIds::__get__intensity() const {
+constexpr float_t const& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__intensity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____intensity;
 }
-constexpr void GlobalNamespace::LightmapLightWithIds::__set__intensity(float_t value) {
+constexpr void GlobalNamespace::LightmapLightWithIds::__cordl_internal_set__intensity(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____intensity = value;
 }
-constexpr float_t& GlobalNamespace::LightmapLightWithIds::__get__probeIntensity() {
+constexpr float_t& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__probeIntensity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____probeIntensity;
 }
-constexpr float_t const& GlobalNamespace::LightmapLightWithIds::__get__probeIntensity() const {
+constexpr float_t const& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__probeIntensity() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____probeIntensity;
 }
-constexpr void GlobalNamespace::LightmapLightWithIds::__set__probeIntensity(float_t value) {
+constexpr void GlobalNamespace::LightmapLightWithIds::__cordl_internal_set__probeIntensity(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____probeIntensity = value;
 }
 constexpr ::ArrayW<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>*>&
-GlobalNamespace::LightmapLightWithIds::__get__lightIntensityData() {
+GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__lightIntensityData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightIntensityData;
 }
 constexpr ::ArrayW<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>*> const&
-GlobalNamespace::LightmapLightWithIds::__get__lightIntensityData() const {
+GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__lightIntensityData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightIntensityData;
 }
-constexpr void GlobalNamespace::LightmapLightWithIds::__set__lightIntensityData(
+constexpr void GlobalNamespace::LightmapLightWithIds::__cordl_internal_set__lightIntensityData(
     ::ArrayW<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightIntensityData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::ColorMixAndWeightingApproach& GlobalNamespace::LightmapLightWithIds::__get__mixType() {
+constexpr ::GlobalNamespace::ColorMixAndWeightingApproach& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__mixType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mixType;
 }
-constexpr ::GlobalNamespace::ColorMixAndWeightingApproach const& GlobalNamespace::LightmapLightWithIds::__get__mixType() const {
+constexpr ::GlobalNamespace::ColorMixAndWeightingApproach const& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__mixType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mixType;
 }
-constexpr void GlobalNamespace::LightmapLightWithIds::__set__mixType(::GlobalNamespace::ColorMixAndWeightingApproach value) {
+constexpr void GlobalNamespace::LightmapLightWithIds::__cordl_internal_set__mixType(::GlobalNamespace::ColorMixAndWeightingApproach value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mixType = value;
 }
-constexpr float_t& GlobalNamespace::LightmapLightWithIds::__get__normalizerWeight() {
+constexpr float_t& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__normalizerWeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalizerWeight;
 }
-constexpr float_t const& GlobalNamespace::LightmapLightWithIds::__get__normalizerWeight() const {
+constexpr float_t const& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__normalizerWeight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalizerWeight;
 }
-constexpr void GlobalNamespace::LightmapLightWithIds::__set__normalizerWeight(float_t value) {
+constexpr void GlobalNamespace::LightmapLightWithIds::__cordl_internal_set__normalizerWeight(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____normalizerWeight = value;
 }
-constexpr ::GlobalNamespace::BakedLightsNormalizer*& GlobalNamespace::LightmapLightWithIds::__get__bakedLightsNormalizer() {
+constexpr ::UnityW<::GlobalNamespace::BakedLightsNormalizer>& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__bakedLightsNormalizer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakedLightsNormalizer;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BakedLightsNormalizer*> const& GlobalNamespace::LightmapLightWithIds::__get__bakedLightsNormalizer() const {
+constexpr ::UnityW<::GlobalNamespace::BakedLightsNormalizer> const& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__bakedLightsNormalizer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bakedLightsNormalizer;
 }
-constexpr void GlobalNamespace::LightmapLightWithIds::__set__bakedLightsNormalizer(::GlobalNamespace::BakedLightsNormalizer* value) {
+constexpr void GlobalNamespace::LightmapLightWithIds::__cordl_internal_set__bakedLightsNormalizer(::UnityW<::GlobalNamespace::BakedLightsNormalizer> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bakedLightsNormalizer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::LightmapLightWithIds::__get__lightmapLightIdColorPropertyId() {
+constexpr int32_t& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__lightmapLightIdColorPropertyId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightmapLightIdColorPropertyId;
 }
-constexpr int32_t const& GlobalNamespace::LightmapLightWithIds::__get__lightmapLightIdColorPropertyId() const {
+constexpr int32_t const& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__lightmapLightIdColorPropertyId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightmapLightIdColorPropertyId;
 }
-constexpr void GlobalNamespace::LightmapLightWithIds::__set__lightmapLightIdColorPropertyId(int32_t value) {
+constexpr void GlobalNamespace::LightmapLightWithIds::__cordl_internal_set__lightmapLightIdColorPropertyId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightmapLightIdColorPropertyId = value;
 }
-constexpr int32_t& GlobalNamespace::LightmapLightWithIds::__get__lightProbeLightIdColorPropertyId() {
+constexpr int32_t& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__lightProbeLightIdColorPropertyId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightProbeLightIdColorPropertyId;
 }
-constexpr int32_t const& GlobalNamespace::LightmapLightWithIds::__get__lightProbeLightIdColorPropertyId() const {
+constexpr int32_t const& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__lightProbeLightIdColorPropertyId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightProbeLightIdColorPropertyId;
 }
-constexpr void GlobalNamespace::LightmapLightWithIds::__set__lightProbeLightIdColorPropertyId(int32_t value) {
+constexpr void GlobalNamespace::LightmapLightWithIds::__cordl_internal_set__lightProbeLightIdColorPropertyId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lightProbeLightIdColorPropertyId = value;
 }
-constexpr bool& GlobalNamespace::LightmapLightWithIds::__get__initializedPropertyIds() {
+constexpr bool& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__initializedPropertyIds() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initializedPropertyIds;
 }
-constexpr bool const& GlobalNamespace::LightmapLightWithIds::__get__initializedPropertyIds() const {
+constexpr bool const& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__initializedPropertyIds() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initializedPropertyIds;
 }
-constexpr void GlobalNamespace::LightmapLightWithIds::__set__initializedPropertyIds(bool value) {
+constexpr void GlobalNamespace::LightmapLightWithIds::__cordl_internal_set__initializedPropertyIds(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initializedPropertyIds = value;
 }
-constexpr bool& GlobalNamespace::LightmapLightWithIds::__get__initializedNormalizer() {
+constexpr bool& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__initializedNormalizer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initializedNormalizer;
 }
-constexpr bool const& GlobalNamespace::LightmapLightWithIds::__get__initializedNormalizer() const {
+constexpr bool const& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__initializedNormalizer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initializedNormalizer;
 }
-constexpr void GlobalNamespace::LightmapLightWithIds::__set__initializedNormalizer(bool value) {
+constexpr void GlobalNamespace::LightmapLightWithIds::__cordl_internal_set__initializedNormalizer(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initializedNormalizer = value;
 }
-constexpr bool& GlobalNamespace::LightmapLightWithIds::__get__isNormalizerInScene() {
+constexpr bool& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__isNormalizerInScene() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isNormalizerInScene;
 }
-constexpr bool const& GlobalNamespace::LightmapLightWithIds::__get__isNormalizerInScene() const {
+constexpr bool const& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__isNormalizerInScene() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isNormalizerInScene;
 }
-constexpr void GlobalNamespace::LightmapLightWithIds::__set__isNormalizerInScene(bool value) {
+constexpr void GlobalNamespace::LightmapLightWithIds::__cordl_internal_set__isNormalizerInScene(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isNormalizerInScene = value;
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::LightmapLightWithIds::__get__calculatedColorPreNormalization() {
+constexpr ::UnityEngine::Color& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__calculatedColorPreNormalization() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____calculatedColorPreNormalization;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::LightmapLightWithIds::__get__calculatedColorPreNormalization() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::LightmapLightWithIds::__cordl_internal_get__calculatedColorPreNormalization() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____calculatedColorPreNormalization;
 }
-constexpr void GlobalNamespace::LightmapLightWithIds::__set__calculatedColorPreNormalization(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::LightmapLightWithIds::__cordl_internal_set__calculatedColorPreNormalization(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____calculatedColorPreNormalization = value;
 }
 inline ::GlobalNamespace::ColorMixAndWeightingApproach GlobalNamespace::LightmapLightWithIds::get_mixType() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "get_mixType",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ColorMixAndWeightingApproach, false>(this, ___internal_method);
 }
 inline float_t GlobalNamespace::LightmapLightWithIds::get_intensity() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "get_intensity",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::LightmapLightWithIds::set_intensity(float_t value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "set_intensity", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "set_intensity",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline float_t GlobalNamespace::LightmapLightWithIds::get_normalizerWeight() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(),
-                                                                             "get_normalizerWeight", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_normalizerWeight", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::LightmapLightWithIds::set_normalizerWeight(float_t value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "set_normalizerWeight",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityEngine::Color GlobalNamespace::LightmapLightWithIds::get_calculatedColorPreNormalization() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(),
-                                                                             "get_calculatedColorPreNormalization", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "get_calculatedColorPreNormalization",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::__LightConstants__BakeId GlobalNamespace::LightmapLightWithIds::get_bakeId() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "get_bakeId",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__LightConstants__BakeId, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::LightmapLightWithIds::Awake() {
@@ -516,28 +518,28 @@ inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightW
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>*, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::LightmapLightWithIds::SetDataToShaders(::UnityEngine::Color lightmapColor, ::UnityEngine::Color probeColor) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "SetDataToShaders", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), "SetDataToShaders", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, lightmapColor, probeColor);
 }
 inline void GlobalNamespace::LightmapLightWithIds::SetShaderProperties() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(),
-                                                                             "SetShaderProperties", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "SetShaderProperties", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::LightmapLightWithIds::GetBakedLightsNormalizer() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(),
-                                                                             "GetBakedLightsNormalizer", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "GetBakedLightsNormalizer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::LightmapLightWithIds* GlobalNamespace::LightmapLightWithIds::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::LightmapLightWithIds*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightmapLightWithIds*>());
 }
 inline void GlobalNamespace::LightmapLightWithIds::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmapLightWithIds*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -67,7 +67,7 @@ namespace Zenject {
 // cpp template
 template <typename TConcrete, typename TFactory>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10915))
 // CS Name: ::FromBinderNonGeneric::<>c__1`2<TConcrete,TFactory>*
 class CORDL_TYPE __FromBinderNonGeneric____c__1_2 : public ::System::Object {
@@ -123,7 +123,7 @@ public:
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10909))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10909))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10916))
 // CS Name: ::Zenject::FromBinderNonGeneric*
 class CORDL_TYPE FromBinderNonGeneric : public ::Zenject::FromBinder {
@@ -176,13 +176,14 @@ public:
   inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromInstance(::System::Object* instance);
 
   /// @brief Method FromComponentsInChildren, addr 0x2eda058, size 0x14, virtual false, abstract: false, final false
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(::System::Func_2<::UnityEngine::Component*, bool>* predicate, bool includeInactive);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate, bool includeInactive);
 
   /// @brief Method FromComponentsInChildren, addr 0x2eda06c, size 0xc, virtual false, abstract: false, final false
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(bool excludeSelf, ::System::Func_2<::UnityEngine::Component*, bool>* predicate, bool includeInactive);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInChildren(bool excludeSelf, ::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate,
+                                                                                           bool includeInactive);
 
   /// @brief Method FromComponentsInHierarchy, addr 0x2eda078, size 0x8, virtual false, abstract: false, final false
-  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInHierarchy(::System::Func_2<::UnityEngine::Component*, bool>* predicate, bool includeInactive);
+  inline ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentsInHierarchy(::System::Func_2<::UnityW<::UnityEngine::Component>, bool>* predicate, bool includeInactive);
 
   // Ctor Parameters [CppParam { name: "", ty: "FromBinderNonGeneric", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

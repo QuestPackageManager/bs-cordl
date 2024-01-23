@@ -36,93 +36,96 @@ MARK_REF_PTR_T(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsViewController
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5651))
 // CS Name: ::AnnotatedBeatmapLevelCollectionsViewController*
 class CORDL_TYPE AnnotatedBeatmapLevelCollectionsViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _annotatedBeatmapLevelCollectionsGridView, offset 0x70, size 0x8
-  __declspec(property(get = __get__annotatedBeatmapLevelCollectionsGridView,
-                      put = __set__annotatedBeatmapLevelCollectionsGridView))::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView* _annotatedBeatmapLevelCollectionsGridView;
+  __declspec(
+      property(get = __cordl_internal_get__annotatedBeatmapLevelCollectionsGridView,
+               put = __cordl_internal_set__annotatedBeatmapLevelCollectionsGridView))::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView> _annotatedBeatmapLevelCollectionsGridView;
 
   /// @brief Field _loadingControl, offset 0x78, size 0x8
-  __declspec(property(get = __get__loadingControl, put = __set__loadingControl))::GlobalNamespace::LoadingControl* _loadingControl;
+  __declspec(property(get = __cordl_internal_get__loadingControl, put = __cordl_internal_set__loadingControl))::UnityW<::GlobalNamespace::LoadingControl> _loadingControl;
 
   /// @brief Field _additionalContentModel, offset 0x80, size 0x8
-  __declspec(property(get = __get__additionalContentModel, put = __set__additionalContentModel))::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
+  __declspec(property(get = __cordl_internal_get__additionalContentModel, put = __cordl_internal_set__additionalContentModel))::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
 
   /// @brief Field didOpenBeatmapLevelCollectionsEvent, offset 0x88, size 0x8
-  __declspec(property(get = __get_didOpenBeatmapLevelCollectionsEvent, put = __set_didOpenBeatmapLevelCollectionsEvent))::System::Action* didOpenBeatmapLevelCollectionsEvent;
+  __declspec(property(get = __cordl_internal_get_didOpenBeatmapLevelCollectionsEvent,
+                      put = __cordl_internal_set_didOpenBeatmapLevelCollectionsEvent))::System::Action* didOpenBeatmapLevelCollectionsEvent;
 
   /// @brief Field didCloseBeatmapLevelCollectionsEvent, offset 0x90, size 0x8
-  __declspec(property(get = __get_didCloseBeatmapLevelCollectionsEvent, put = __set_didCloseBeatmapLevelCollectionsEvent))::System::Action* didCloseBeatmapLevelCollectionsEvent;
+  __declspec(property(get = __cordl_internal_get_didCloseBeatmapLevelCollectionsEvent,
+                      put = __cordl_internal_set_didCloseBeatmapLevelCollectionsEvent))::System::Action* didCloseBeatmapLevelCollectionsEvent;
 
   /// @brief Field didSelectAnnotatedBeatmapLevelCollectionEvent, offset 0x98, size 0x8
-  __declspec(
-      property(get = __get_didSelectAnnotatedBeatmapLevelCollectionEvent,
-               put = __set_didSelectAnnotatedBeatmapLevelCollectionEvent))::System::Action_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* didSelectAnnotatedBeatmapLevelCollectionEvent;
+  __declspec(property(
+      get = __cordl_internal_get_didSelectAnnotatedBeatmapLevelCollectionEvent,
+      put = __cordl_internal_set_didSelectAnnotatedBeatmapLevelCollectionEvent))::System::Action_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* didSelectAnnotatedBeatmapLevelCollectionEvent;
 
   /// @brief Field _selectedItemIndex, offset 0xa0, size 0x4
-  __declspec(property(get = __get__selectedItemIndex, put = __set__selectedItemIndex)) int32_t _selectedItemIndex;
+  __declspec(property(get = __cordl_internal_get__selectedItemIndex, put = __cordl_internal_set__selectedItemIndex)) int32_t _selectedItemIndex;
 
   /// @brief Field _annotatedBeatmapLevelCollections, offset 0xa8, size 0x8
-  __declspec(
-      property(get = __get__annotatedBeatmapLevelCollections,
-               put = __set__annotatedBeatmapLevelCollections))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* _annotatedBeatmapLevelCollections;
+  __declspec(property(get = __cordl_internal_get__annotatedBeatmapLevelCollections, put = __cordl_internal_set__annotatedBeatmapLevelCollections))::System::Collections::Generic::IReadOnlyList_1<
+      ::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* _annotatedBeatmapLevelCollections;
 
   __declspec(property(get = get_selectedAnnotatedBeatmapLevelCollection))::GlobalNamespace::IAnnotatedBeatmapLevelCollection* selectedAnnotatedBeatmapLevelCollection;
 
   __declspec(property(get = get_selectedItemIndex)) int32_t selectedItemIndex;
 
-  constexpr ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView*& __get__annotatedBeatmapLevelCollectionsGridView();
+  constexpr ::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView>& __cordl_internal_get__annotatedBeatmapLevelCollectionsGridView();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView*> const& __get__annotatedBeatmapLevelCollectionsGridView() const;
+  constexpr ::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView> const& __cordl_internal_get__annotatedBeatmapLevelCollectionsGridView() const;
 
-  constexpr void __set__annotatedBeatmapLevelCollectionsGridView(::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView* value);
+  constexpr void __cordl_internal_set__annotatedBeatmapLevelCollectionsGridView(::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView> value);
 
-  constexpr ::GlobalNamespace::LoadingControl*& __get__loadingControl();
+  constexpr ::UnityW<::GlobalNamespace::LoadingControl>& __cordl_internal_get__loadingControl();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LoadingControl*> const& __get__loadingControl() const;
+  constexpr ::UnityW<::GlobalNamespace::LoadingControl> const& __cordl_internal_get__loadingControl() const;
 
-  constexpr void __set__loadingControl(::GlobalNamespace::LoadingControl* value);
+  constexpr void __cordl_internal_set__loadingControl(::UnityW<::GlobalNamespace::LoadingControl> value);
 
-  constexpr ::GlobalNamespace::IAdditionalContentModel*& __get__additionalContentModel();
+  constexpr ::GlobalNamespace::IAdditionalContentModel*& __cordl_internal_get__additionalContentModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const& __get__additionalContentModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const& __cordl_internal_get__additionalContentModel() const;
 
-  constexpr void __set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
+  constexpr void __cordl_internal_set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
 
-  constexpr ::System::Action*& __get_didOpenBeatmapLevelCollectionsEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didOpenBeatmapLevelCollectionsEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didOpenBeatmapLevelCollectionsEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didOpenBeatmapLevelCollectionsEvent() const;
 
-  constexpr void __set_didOpenBeatmapLevelCollectionsEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didOpenBeatmapLevelCollectionsEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_didCloseBeatmapLevelCollectionsEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didCloseBeatmapLevelCollectionsEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didCloseBeatmapLevelCollectionsEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didCloseBeatmapLevelCollectionsEvent() const;
 
-  constexpr void __set_didCloseBeatmapLevelCollectionsEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didCloseBeatmapLevelCollectionsEvent(::System::Action* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*& __get_didSelectAnnotatedBeatmapLevelCollectionEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*& __cordl_internal_get_didSelectAnnotatedBeatmapLevelCollectionEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*> const& __get_didSelectAnnotatedBeatmapLevelCollectionEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*> const&
+  __cordl_internal_get_didSelectAnnotatedBeatmapLevelCollectionEvent() const;
 
-  constexpr void __set_didSelectAnnotatedBeatmapLevelCollectionEvent(::System::Action_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
+  constexpr void __cordl_internal_set_didSelectAnnotatedBeatmapLevelCollectionEvent(::System::Action_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
 
-  constexpr int32_t& __get__selectedItemIndex();
+  constexpr int32_t& __cordl_internal_get__selectedItemIndex();
 
-  constexpr int32_t const& __get__selectedItemIndex() const;
+  constexpr int32_t const& __cordl_internal_get__selectedItemIndex() const;
 
-  constexpr void __set__selectedItemIndex(int32_t value);
+  constexpr void __cordl_internal_set__selectedItemIndex(int32_t value);
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*& __get__annotatedBeatmapLevelCollections();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*& __cordl_internal_get__annotatedBeatmapLevelCollections();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>*> const&
-  __get__annotatedBeatmapLevelCollections() const;
+  __cordl_internal_get__annotatedBeatmapLevelCollections() const;
 
-  constexpr void __set__annotatedBeatmapLevelCollections(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
+  constexpr void __cordl_internal_set__annotatedBeatmapLevelCollections(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IAnnotatedBeatmapLevelCollection*>* value);
 
   /// @brief Method add_didOpenBeatmapLevelCollectionsEvent, addr 0x22b5c20, size 0x9c, virtual false, abstract: false, final false
   inline void add_didOpenBeatmapLevelCollectionsEvent(::System::Action* value);
@@ -196,10 +199,10 @@ protected:
 
 public:
   /// @brief Field _annotatedBeatmapLevelCollectionsGridView, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView* ____annotatedBeatmapLevelCollectionsGridView;
+  ::UnityW<::GlobalNamespace::AnnotatedBeatmapLevelCollectionsGridView> ____annotatedBeatmapLevelCollectionsGridView;
 
   /// @brief Field _loadingControl, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::LoadingControl* ____loadingControl;
+  ::UnityW<::GlobalNamespace::LoadingControl> ____loadingControl;
 
   /// @brief Field _additionalContentModel, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::IAdditionalContentModel* ____additionalContentModel;

@@ -31,14 +31,15 @@ namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11085)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11085), inst: 189 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11085)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11085), inst: 189 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11092))
 // CS Name: ::Zenject::StaticMemoryPool`7<TParam1,TParam2,TParam3,TParam4,TParam5,TParam6,TValue>*
 class CORDL_TYPE StaticMemoryPool_7 : public ::Zenject::StaticMemoryPoolBase_1<TValue> {
 public:
   // Declarations
   /// @brief Field _onSpawnMethod, offset 0x28, size 0x8
-  __declspec(property(get = __get__onSpawnMethod, put = __set__onSpawnMethod))::System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* _onSpawnMethod;
+  __declspec(property(get = __cordl_internal_get__onSpawnMethod,
+                      put = __cordl_internal_set__onSpawnMethod))::System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* _onSpawnMethod;
 
   __declspec(property(put = set_OnSpawnMethod))::System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* OnSpawnMethod;
 
@@ -60,11 +61,11 @@ public:
   /// @brief Convert to "::Zenject::IMemoryPool"
   constexpr ::Zenject::IMemoryPool* i___Zenject__IMemoryPool() noexcept;
 
-  constexpr ::System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*& __get__onSpawnMethod();
+  constexpr ::System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*& __cordl_internal_get__onSpawnMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*> const& __get__onSpawnMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*> const& __cordl_internal_get__onSpawnMethod() const;
 
-  constexpr void __set__onSpawnMethod(::System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* value);
+  constexpr void __cordl_internal_set__onSpawnMethod(::System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* value);
 
   static inline ::Zenject::StaticMemoryPool_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>*
   New_ctor(::System::Action_7<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TValue>* onSpawnMethod, ::System::Action_1<TValue>* onDespawnedMethod);

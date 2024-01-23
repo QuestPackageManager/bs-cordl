@@ -88,7 +88,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__PartyMessageHandler__ServerStatusUpdatedDele
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12916))
 // CS Name: ::PartyMessageHandler::MessageType
 struct CORDL_TYPE __PartyMessageHandler__MessageType {
@@ -134,7 +134,7 @@ static_assert(offsetof(::GlobalNamespace::__PartyMessageHandler__MessageType, va
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12917))
 // CS Name: ::PartyMessageHandler::ServerStatusUpdatedDelegate*
 class CORDL_TYPE __PartyMessageHandler__ServerStatusUpdatedDelegate : public ::System::MulticastDelegate {
@@ -179,7 +179,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PartyMessageH
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12918))
 // CS Name: ::PartyMessageHandler::ConnectToMasterServerDelegate*
 class CORDL_TYPE __PartyMessageHandler__ConnectToMasterServerDelegate : public ::System::MulticastDelegate {
@@ -223,14 +223,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PartyMessageH
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12919))
 // CS Name: ::PartyMessageHandler::ConnectToMasterServerMessage*
 class CORDL_TYPE __PartyMessageHandler__ConnectToMasterServerMessage : public ::System::Object {
 public:
   // Declarations
   /// @brief Field secret, offset 0x10, size 0x8
-  __declspec(property(get = __get_secret, put = __set_secret))::StringW secret;
+  __declspec(property(get = __cordl_internal_get_secret, put = __cordl_internal_set_secret))::StringW secret;
 
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
@@ -244,11 +244,11 @@ public:
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
   constexpr ::GlobalNamespace::IPoolablePacket* i___GlobalNamespace__IPoolablePacket() noexcept;
 
-  constexpr ::StringW& __get_secret();
+  constexpr ::StringW& __cordl_internal_get_secret();
 
-  constexpr ::StringW const& __get_secret() const;
+  constexpr ::StringW const& __cordl_internal_get_secret() const;
 
-  constexpr void __set_secret(::StringW value);
+  constexpr void __cordl_internal_set_secret(::StringW value);
 
   /// @brief Method get_pool, addr 0xe50fd0, size 0x40, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerMessage*>* get_pool();
@@ -299,7 +299,7 @@ static_assert(offsetof(::GlobalNamespace::__PartyMessageHandler__ConnectToMaster
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12920))
 // CS Name: ::PartyMessageHandler*
 class CORDL_TYPE PartyMessageHandler : public ::System::Object {
@@ -314,15 +314,16 @@ public:
   using MessageType = ::GlobalNamespace::__PartyMessageHandler__MessageType;
 
   /// @brief Field _serializer, offset 0x10, size 0x8
-  __declspec(property(get = __get__serializer,
-                      put = __set__serializer))::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__PartyMessageHandler__MessageType, ::GlobalNamespace::IConnectedPlayer*>* _serializer;
+  __declspec(property(
+      get = __cordl_internal_get__serializer,
+      put = __cordl_internal_set__serializer))::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__PartyMessageHandler__MessageType, ::GlobalNamespace::IConnectedPlayer*>* _serializer;
 
   /// @brief Field _connectedPlayerManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__connectedPlayerManager, put = __set__connectedPlayerManager))::GlobalNamespace::ConnectedPlayerManager* _connectedPlayerManager;
+  __declspec(property(get = __cordl_internal_get__connectedPlayerManager, put = __cordl_internal_set__connectedPlayerManager))::GlobalNamespace::ConnectedPlayerManager* _connectedPlayerManager;
 
   /// @brief Field connectToMasterServerEvent, offset 0x20, size 0x8
-  __declspec(property(get = __get_connectToMasterServerEvent,
-                      put = __set_connectToMasterServerEvent))::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate* connectToMasterServerEvent;
+  __declspec(property(get = __cordl_internal_get_connectToMasterServerEvent,
+                      put = __cordl_internal_set_connectToMasterServerEvent))::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate* connectToMasterServerEvent;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -330,24 +331,24 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__PartyMessageHandler__MessageType, ::GlobalNamespace::IConnectedPlayer*>*& __get__serializer();
+  constexpr ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__PartyMessageHandler__MessageType, ::GlobalNamespace::IConnectedPlayer*>*& __cordl_internal_get__serializer();
 
   constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__PartyMessageHandler__MessageType, ::GlobalNamespace::IConnectedPlayer*>*> const&
-  __get__serializer() const;
+  __cordl_internal_get__serializer() const;
 
-  constexpr void __set__serializer(::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__PartyMessageHandler__MessageType, ::GlobalNamespace::IConnectedPlayer*>* value);
+  constexpr void __cordl_internal_set__serializer(::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::__PartyMessageHandler__MessageType, ::GlobalNamespace::IConnectedPlayer*>* value);
 
-  constexpr ::GlobalNamespace::ConnectedPlayerManager*& __get__connectedPlayerManager();
+  constexpr ::GlobalNamespace::ConnectedPlayerManager*& __cordl_internal_get__connectedPlayerManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ConnectedPlayerManager*> const& __get__connectedPlayerManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ConnectedPlayerManager*> const& __cordl_internal_get__connectedPlayerManager() const;
 
-  constexpr void __set__connectedPlayerManager(::GlobalNamespace::ConnectedPlayerManager* value);
+  constexpr void __cordl_internal_set__connectedPlayerManager(::GlobalNamespace::ConnectedPlayerManager* value);
 
-  constexpr ::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate*& __get_connectToMasterServerEvent();
+  constexpr ::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate*& __cordl_internal_get_connectToMasterServerEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate*> const& __get_connectToMasterServerEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate*> const& __cordl_internal_get_connectToMasterServerEvent() const;
 
-  constexpr void __set_connectToMasterServerEvent(::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate* value);
+  constexpr void __cordl_internal_set_connectToMasterServerEvent(::GlobalNamespace::__PartyMessageHandler__ConnectToMasterServerDelegate* value);
 
   static inline ::GlobalNamespace::PartyMessageHandler* New_ctor(::GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
 

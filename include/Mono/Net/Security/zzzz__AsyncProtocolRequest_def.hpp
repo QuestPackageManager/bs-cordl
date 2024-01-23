@@ -85,9 +85,9 @@ MARK_VAL_T(::Mono::Net::Security::__AsyncProtocolRequest___StartOperation_d__23)
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 875
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(8818))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8819)) CS Name:
-// ::AsyncProtocolRequest::<StartOperation>d__23
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(8818)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 875 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8819)) CS
+// Name: ::AsyncProtocolRequest::<StartOperation>d__23
 struct CORDL_TYPE __AsyncProtocolRequest___StartOperation_d__23 {
 public:
   // Declarations
@@ -153,9 +153,9 @@ static_assert(offsetof(::Mono::Net::Security::__AsyncProtocolRequest___StartOper
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8817)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2448), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 867 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(8820)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(8817)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 867 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8820)) CS Name:
 // ::AsyncProtocolRequest::<ProcessOperation>d__24
 struct CORDL_TYPE __AsyncProtocolRequest___ProcessOperation_d__24 {
 public:
@@ -241,10 +241,10 @@ static_assert(offsetof(::Mono::Net::Security::__AsyncProtocolRequest___ProcessOp
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 867 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8821)) CS
-// Name: ::AsyncProtocolRequest::<InnerRead>d__25
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 867 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8821)) CS Name:
+// ::AsyncProtocolRequest::<InnerRead>d__25
 struct CORDL_TYPE __AsyncProtocolRequest___InnerRead_d__25 {
 public:
   // Declarations
@@ -322,7 +322,7 @@ static_assert(offsetof(::Mono::Net::Security::__AsyncProtocolRequest___InnerRead
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8822))
 // CS Name: ::Mono.Net.Security::AsyncProtocolRequest*
 class CORDL_TYPE AsyncProtocolRequest : public ::System::Object {
@@ -335,25 +335,25 @@ public:
   using _StartOperation_d__23 = ::Mono::Net::Security::__AsyncProtocolRequest___StartOperation_d__23;
 
   /// @brief Field <Parent>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Parent_k__BackingField, put = __set__Parent_k__BackingField))::Mono::Net::Security::MobileAuthenticatedStream* _Parent_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Parent_k__BackingField, put = __cordl_internal_set__Parent_k__BackingField))::Mono::Net::Security::MobileAuthenticatedStream* _Parent_k__BackingField;
 
   /// @brief Field <RunSynchronously>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__RunSynchronously_k__BackingField, put = __set__RunSynchronously_k__BackingField)) bool _RunSynchronously_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__RunSynchronously_k__BackingField, put = __cordl_internal_set__RunSynchronously_k__BackingField)) bool _RunSynchronously_k__BackingField;
 
   /// @brief Field <UserResult>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__UserResult_k__BackingField, put = __set__UserResult_k__BackingField)) int32_t _UserResult_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__UserResult_k__BackingField, put = __cordl_internal_set__UserResult_k__BackingField)) int32_t _UserResult_k__BackingField;
 
   /// @brief Field Started, offset 0x20, size 0x4
-  __declspec(property(get = __get_Started, put = __set_Started)) int32_t Started;
+  __declspec(property(get = __cordl_internal_get_Started, put = __cordl_internal_set_Started)) int32_t Started;
 
   /// @brief Field RequestedSize, offset 0x24, size 0x4
-  __declspec(property(get = __get_RequestedSize, put = __set_RequestedSize)) int32_t RequestedSize;
+  __declspec(property(get = __cordl_internal_get_RequestedSize, put = __cordl_internal_set_RequestedSize)) int32_t RequestedSize;
 
   /// @brief Field WriteRequested, offset 0x28, size 0x4
-  __declspec(property(get = __get_WriteRequested, put = __set_WriteRequested)) int32_t WriteRequested;
+  __declspec(property(get = __cordl_internal_get_WriteRequested, put = __cordl_internal_set_WriteRequested)) int32_t WriteRequested;
 
   /// @brief Field locker, offset 0x30, size 0x8
-  __declspec(property(get = __get_locker, put = __set_locker))::System::Object* locker;
+  __declspec(property(get = __cordl_internal_get_locker, put = __cordl_internal_set_locker))::System::Object* locker;
 
   __declspec(property(get = get_Parent))::Mono::Net::Security::MobileAuthenticatedStream* Parent;
 
@@ -363,47 +363,47 @@ public:
 
   __declspec(property(get = get_UserResult, put = set_UserResult)) int32_t UserResult;
 
-  constexpr ::Mono::Net::Security::MobileAuthenticatedStream*& __get__Parent_k__BackingField();
+  constexpr ::Mono::Net::Security::MobileAuthenticatedStream*& __cordl_internal_get__Parent_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileAuthenticatedStream*> const& __get__Parent_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileAuthenticatedStream*> const& __cordl_internal_get__Parent_k__BackingField() const;
 
-  constexpr void __set__Parent_k__BackingField(::Mono::Net::Security::MobileAuthenticatedStream* value);
+  constexpr void __cordl_internal_set__Parent_k__BackingField(::Mono::Net::Security::MobileAuthenticatedStream* value);
 
-  constexpr bool& __get__RunSynchronously_k__BackingField();
+  constexpr bool& __cordl_internal_get__RunSynchronously_k__BackingField();
 
-  constexpr bool const& __get__RunSynchronously_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__RunSynchronously_k__BackingField() const;
 
-  constexpr void __set__RunSynchronously_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__RunSynchronously_k__BackingField(bool value);
 
-  constexpr int32_t& __get__UserResult_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__UserResult_k__BackingField();
 
-  constexpr int32_t const& __get__UserResult_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__UserResult_k__BackingField() const;
 
-  constexpr void __set__UserResult_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__UserResult_k__BackingField(int32_t value);
 
-  constexpr int32_t& __get_Started();
+  constexpr int32_t& __cordl_internal_get_Started();
 
-  constexpr int32_t const& __get_Started() const;
+  constexpr int32_t const& __cordl_internal_get_Started() const;
 
-  constexpr void __set_Started(int32_t value);
+  constexpr void __cordl_internal_set_Started(int32_t value);
 
-  constexpr int32_t& __get_RequestedSize();
+  constexpr int32_t& __cordl_internal_get_RequestedSize();
 
-  constexpr int32_t const& __get_RequestedSize() const;
+  constexpr int32_t const& __cordl_internal_get_RequestedSize() const;
 
-  constexpr void __set_RequestedSize(int32_t value);
+  constexpr void __cordl_internal_set_RequestedSize(int32_t value);
 
-  constexpr int32_t& __get_WriteRequested();
+  constexpr int32_t& __cordl_internal_get_WriteRequested();
 
-  constexpr int32_t const& __get_WriteRequested() const;
+  constexpr int32_t const& __cordl_internal_get_WriteRequested() const;
 
-  constexpr void __set_WriteRequested(int32_t value);
+  constexpr void __cordl_internal_set_WriteRequested(int32_t value);
 
-  constexpr ::System::Object*& __get_locker();
+  constexpr ::System::Object*& __cordl_internal_get_locker();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_locker() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_locker() const;
 
-  constexpr void __set_locker(::System::Object* value);
+  constexpr void __cordl_internal_set_locker(::System::Object* value);
 
   /// @brief Method get_Parent, addr 0x281e1c0, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::Net::Security::MobileAuthenticatedStream* get_Parent();

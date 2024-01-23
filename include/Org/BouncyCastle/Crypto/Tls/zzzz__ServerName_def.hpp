@@ -22,33 +22,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ServerName);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1267))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::ServerName*
 class CORDL_TYPE ServerName : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mNameType, offset 0x10, size 0x1
-  __declspec(property(get = __get_mNameType, put = __set_mNameType)) uint8_t mNameType;
+  __declspec(property(get = __cordl_internal_get_mNameType, put = __cordl_internal_set_mNameType)) uint8_t mNameType;
 
   /// @brief Field mName, offset 0x18, size 0x8
-  __declspec(property(get = __get_mName, put = __set_mName))::System::Object* mName;
+  __declspec(property(get = __cordl_internal_get_mName, put = __cordl_internal_set_mName))::System::Object* mName;
 
   __declspec(property(get = get_NameType)) uint8_t NameType;
 
   __declspec(property(get = get_Name))::System::Object* Name;
 
-  constexpr uint8_t& __get_mNameType();
+  constexpr uint8_t& __cordl_internal_get_mNameType();
 
-  constexpr uint8_t const& __get_mNameType() const;
+  constexpr uint8_t const& __cordl_internal_get_mNameType() const;
 
-  constexpr void __set_mNameType(uint8_t value);
+  constexpr void __cordl_internal_set_mNameType(uint8_t value);
 
-  constexpr ::System::Object*& __get_mName();
+  constexpr ::System::Object*& __cordl_internal_get_mName();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_mName() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_mName() const;
 
-  constexpr void __set_mName(::System::Object* value);
+  constexpr void __cordl_internal_set_mName(::System::Object* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerName* New_ctor(uint8_t nameType, ::System::Object* name);
 

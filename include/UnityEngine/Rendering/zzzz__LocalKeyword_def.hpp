@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::Rendering::LocalKeyword);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10373))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10373))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10369))
 // CS Name: ::UnityEngine.Rendering::LocalKeyword
 struct CORDL_TYPE LocalKeyword {

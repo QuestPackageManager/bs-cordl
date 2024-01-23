@@ -48,23 +48,23 @@ MARK_REF_PTR_T(::System::Collections::__Stack__StackEnumerator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3784))
 // CS Name: ::Stack::StackEnumerator*
 class CORDL_TYPE __Stack__StackEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _stack, offset 0x10, size 0x8
-  __declspec(property(get = __get__stack, put = __set__stack))::System::Collections::Stack* _stack;
+  __declspec(property(get = __cordl_internal_get__stack, put = __cordl_internal_set__stack))::System::Collections::Stack* _stack;
 
   /// @brief Field _index, offset 0x18, size 0x4
-  __declspec(property(get = __get__index, put = __set__index)) int32_t _index;
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
   /// @brief Field _version, offset 0x1c, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _currentElement, offset 0x20, size 0x8
-  __declspec(property(get = __get__currentElement, put = __set__currentElement))::System::Object* _currentElement;
+  __declspec(property(get = __cordl_internal_get__currentElement, put = __cordl_internal_set__currentElement))::System::Object* _currentElement;
 
   __declspec(property(get = get_Current))::System::Object* Current;
 
@@ -80,29 +80,29 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::System::Collections::Stack*& __get__stack();
+  constexpr ::System::Collections::Stack*& __cordl_internal_get__stack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& __get__stack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& __cordl_internal_get__stack() const;
 
-  constexpr void __set__stack(::System::Collections::Stack* value);
+  constexpr void __cordl_internal_set__stack(::System::Collections::Stack* value);
 
-  constexpr int32_t& __get__index();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr int32_t const& __get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __set__index(int32_t value);
+  constexpr void __cordl_internal_set__index(int32_t value);
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
-  constexpr ::System::Object*& __get__currentElement();
+  constexpr ::System::Object*& __cordl_internal_get__currentElement();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__currentElement() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__currentElement() const;
 
-  constexpr void __set__currentElement(::System::Object* value);
+  constexpr void __cordl_internal_set__currentElement(::System::Object* value);
 
   static inline ::System::Collections::__Stack__StackEnumerator* New_ctor(::System::Collections::Stack* stack);
 
@@ -165,7 +165,7 @@ static_assert(offsetof(::System::Collections::__Stack__StackEnumerator, ____curr
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3785))
 // CS Name: ::Stack::StackDebugView*
 class CORDL_TYPE __Stack__StackDebugView : public ::System::Object {
@@ -195,7 +195,7 @@ static_assert(::cordl_internals::size_check_v<::System::Collections::__Stack__St
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3786))
 // CS Name: ::System.Collections::Stack*
 class CORDL_TYPE Stack : public ::System::Object {
@@ -206,16 +206,16 @@ public:
   using StackEnumerator = ::System::Collections::__Stack__StackEnumerator;
 
   /// @brief Field _array, offset 0x10, size 0x8
-  __declspec(property(get = __get__array, put = __set__array))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _array;
+  __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _array;
 
   /// @brief Field _size, offset 0x18, size 0x4
-  __declspec(property(get = __get__size, put = __set__size)) int32_t _size;
+  __declspec(property(get = __cordl_internal_get__size, put = __cordl_internal_set__size)) int32_t _size;
 
   /// @brief Field _version, offset 0x1c, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _syncRoot, offset 0x20, size 0x8
-  __declspec(property(get = __get__syncRoot, put = __set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -241,29 +241,29 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get__array();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__array();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get__array() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__array() const;
 
-  constexpr void __set__array(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set__array(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  constexpr int32_t& __get__size();
+  constexpr int32_t& __cordl_internal_get__size();
 
-  constexpr int32_t const& __get__size() const;
+  constexpr int32_t const& __cordl_internal_get__size() const;
 
-  constexpr void __set__size(int32_t value);
+  constexpr void __cordl_internal_set__size(int32_t value);
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
-  constexpr ::System::Object*& __get__syncRoot();
+  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__syncRoot() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
-  constexpr void __set__syncRoot(::System::Object* value);
+  constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
   static inline ::System::Collections::Stack* New_ctor();
 

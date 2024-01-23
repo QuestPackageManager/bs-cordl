@@ -53,7 +53,7 @@ MARK_VAL_T(::OVR::OpenVR::IVRNotifications);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8491))
 // CS Name: ::IVRNotifications::_CreateNotification*
 class CORDL_TYPE __IVRNotifications___CreateNotification : public ::System::MulticastDelegate {
@@ -99,7 +99,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRNotifications_
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8492))
 // CS Name: ::IVRNotifications::_RemoveNotification*
 class CORDL_TYPE __IVRNotifications___RemoveNotification : public ::System::MulticastDelegate {
@@ -143,7 +143,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRNotifications_
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8493))
 // CS Name: ::OVR.OpenVR::IVRNotifications
 struct CORDL_TYPE IVRNotifications {

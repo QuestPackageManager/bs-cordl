@@ -26,60 +26,60 @@ MARK_REF_PTR_T(::GlobalNamespace::PlayerTransforms);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 193, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5277))
 // CS Name: ::PlayerTransforms*
 class CORDL_TYPE PlayerTransforms : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _headTransform, offset 0x18, size 0x8
-  __declspec(property(get = __get__headTransform, put = __set__headTransform))::UnityEngine::Transform* _headTransform;
+  __declspec(property(get = __cordl_internal_get__headTransform, put = __cordl_internal_set__headTransform))::UnityW<::UnityEngine::Transform> _headTransform;
 
   /// @brief Field _originTransform, offset 0x20, size 0x8
-  __declspec(property(get = __get__originTransform, put = __set__originTransform))::UnityEngine::Transform* _originTransform;
+  __declspec(property(get = __cordl_internal_get__originTransform, put = __cordl_internal_set__originTransform))::UnityW<::UnityEngine::Transform> _originTransform;
 
   /// @brief Field _leftHandTransform, offset 0x28, size 0x8
-  __declspec(property(get = __get__leftHandTransform, put = __set__leftHandTransform))::UnityEngine::Transform* _leftHandTransform;
+  __declspec(property(get = __cordl_internal_get__leftHandTransform, put = __cordl_internal_set__leftHandTransform))::UnityW<::UnityEngine::Transform> _leftHandTransform;
 
   /// @brief Field _rightHandTransform, offset 0x30, size 0x8
-  __declspec(property(get = __get__rightHandTransform, put = __set__rightHandTransform))::UnityEngine::Transform* _rightHandTransform;
+  __declspec(property(get = __cordl_internal_get__rightHandTransform, put = __cordl_internal_set__rightHandTransform))::UnityW<::UnityEngine::Transform> _rightHandTransform;
 
   /// @brief Field _overrideHeadPos, offset 0x38, size 0x1
-  __declspec(property(get = __get__overrideHeadPos, put = __set__overrideHeadPos)) bool _overrideHeadPos;
+  __declspec(property(get = __cordl_internal_get__overrideHeadPos, put = __cordl_internal_set__overrideHeadPos)) bool _overrideHeadPos;
 
   /// @brief Field _overriddenHeadPos, offset 0x3c, size 0xc
-  __declspec(property(get = __get__overriddenHeadPos, put = __set__overriddenHeadPos))::UnityEngine::Vector3 _overriddenHeadPos;
+  __declspec(property(get = __cordl_internal_get__overriddenHeadPos, put = __cordl_internal_set__overriddenHeadPos))::UnityEngine::Vector3 _overriddenHeadPos;
 
   /// @brief Field _headWorldPos, offset 0x48, size 0xc
-  __declspec(property(get = __get__headWorldPos, put = __set__headWorldPos))::UnityEngine::Vector3 _headWorldPos;
+  __declspec(property(get = __cordl_internal_get__headWorldPos, put = __cordl_internal_set__headWorldPos))::UnityEngine::Vector3 _headWorldPos;
 
   /// @brief Field _headWorldRot, offset 0x54, size 0x10
-  __declspec(property(get = __get__headWorldRot, put = __set__headWorldRot))::UnityEngine::Quaternion _headWorldRot;
+  __declspec(property(get = __cordl_internal_get__headWorldRot, put = __cordl_internal_set__headWorldRot))::UnityEngine::Quaternion _headWorldRot;
 
   /// @brief Field _headPseudoLocalPos, offset 0x64, size 0xc
-  __declspec(property(get = __get__headPseudoLocalPos, put = __set__headPseudoLocalPos))::UnityEngine::Vector3 _headPseudoLocalPos;
+  __declspec(property(get = __cordl_internal_get__headPseudoLocalPos, put = __cordl_internal_set__headPseudoLocalPos))::UnityEngine::Vector3 _headPseudoLocalPos;
 
   /// @brief Field _headPseudoLocalRot, offset 0x70, size 0x10
-  __declspec(property(get = __get__headPseudoLocalRot, put = __set__headPseudoLocalRot))::UnityEngine::Quaternion _headPseudoLocalRot;
+  __declspec(property(get = __cordl_internal_get__headPseudoLocalRot, put = __cordl_internal_set__headPseudoLocalRot))::UnityEngine::Quaternion _headPseudoLocalRot;
 
   /// @brief Field _leftHandPseudoLocalPos, offset 0x80, size 0xc
-  __declspec(property(get = __get__leftHandPseudoLocalPos, put = __set__leftHandPseudoLocalPos))::UnityEngine::Vector3 _leftHandPseudoLocalPos;
+  __declspec(property(get = __cordl_internal_get__leftHandPseudoLocalPos, put = __cordl_internal_set__leftHandPseudoLocalPos))::UnityEngine::Vector3 _leftHandPseudoLocalPos;
 
   /// @brief Field _leftHandPseudoLocalRot, offset 0x8c, size 0x10
-  __declspec(property(get = __get__leftHandPseudoLocalRot, put = __set__leftHandPseudoLocalRot))::UnityEngine::Quaternion _leftHandPseudoLocalRot;
+  __declspec(property(get = __cordl_internal_get__leftHandPseudoLocalRot, put = __cordl_internal_set__leftHandPseudoLocalRot))::UnityEngine::Quaternion _leftHandPseudoLocalRot;
 
   /// @brief Field _rightHandPseudoLocalPos, offset 0x9c, size 0xc
-  __declspec(property(get = __get__rightHandPseudoLocalPos, put = __set__rightHandPseudoLocalPos))::UnityEngine::Vector3 _rightHandPseudoLocalPos;
+  __declspec(property(get = __cordl_internal_get__rightHandPseudoLocalPos, put = __cordl_internal_set__rightHandPseudoLocalPos))::UnityEngine::Vector3 _rightHandPseudoLocalPos;
 
   /// @brief Field _rightHandPseudoLocalRot, offset 0xa8, size 0x10
-  __declspec(property(get = __get__rightHandPseudoLocalRot, put = __set__rightHandPseudoLocalRot))::UnityEngine::Quaternion _rightHandPseudoLocalRot;
+  __declspec(property(get = __cordl_internal_get__rightHandPseudoLocalRot, put = __cordl_internal_set__rightHandPseudoLocalRot))::UnityEngine::Quaternion _rightHandPseudoLocalRot;
 
   /// @brief Field _originParentTransform, offset 0xb8, size 0x8
-  __declspec(property(get = __get__originParentTransform, put = __set__originParentTransform))::UnityEngine::Transform* _originParentTransform;
+  __declspec(property(get = __cordl_internal_get__originParentTransform, put = __cordl_internal_set__originParentTransform))::UnityW<::UnityEngine::Transform> _originParentTransform;
 
   /// @brief Field _useOriginParentTransformForPseudoLocalCalculations, offset 0xc0, size 0x1
-  __declspec(property(get = __get__useOriginParentTransformForPseudoLocalCalculations,
-                      put = __set__useOriginParentTransformForPseudoLocalCalculations)) bool _useOriginParentTransformForPseudoLocalCalculations;
+  __declspec(property(get = __cordl_internal_get__useOriginParentTransformForPseudoLocalCalculations,
+                      put = __cordl_internal_set__useOriginParentTransformForPseudoLocalCalculations)) bool _useOriginParentTransformForPseudoLocalCalculations;
 
   __declspec(property(get = get_headWorldPos))::UnityEngine::Vector3 headWorldPos;
 
@@ -97,101 +97,101 @@ public:
 
   __declspec(property(get = get_rightHandPseudoLocalRot))::UnityEngine::Quaternion rightHandPseudoLocalRot;
 
-  constexpr ::UnityEngine::Transform*& __get__headTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__headTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__headTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__headTransform() const;
 
-  constexpr void __set__headTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__headTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__originTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__originTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__originTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__originTransform() const;
 
-  constexpr void __set__originTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__originTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__leftHandTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__leftHandTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__leftHandTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__leftHandTransform() const;
 
-  constexpr void __set__leftHandTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__leftHandTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get__rightHandTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__rightHandTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__rightHandTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__rightHandTransform() const;
 
-  constexpr void __set__rightHandTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__rightHandTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr bool& __get__overrideHeadPos();
+  constexpr bool& __cordl_internal_get__overrideHeadPos();
 
-  constexpr bool const& __get__overrideHeadPos() const;
+  constexpr bool const& __cordl_internal_get__overrideHeadPos() const;
 
-  constexpr void __set__overrideHeadPos(bool value);
+  constexpr void __cordl_internal_set__overrideHeadPos(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get__overriddenHeadPos();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__overriddenHeadPos();
 
-  constexpr ::UnityEngine::Vector3 const& __get__overriddenHeadPos() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__overriddenHeadPos() const;
 
-  constexpr void __set__overriddenHeadPos(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__overriddenHeadPos(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__headWorldPos();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__headWorldPos();
 
-  constexpr ::UnityEngine::Vector3 const& __get__headWorldPos() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__headWorldPos() const;
 
-  constexpr void __set__headWorldPos(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__headWorldPos(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get__headWorldRot();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__headWorldRot();
 
-  constexpr ::UnityEngine::Quaternion const& __get__headWorldRot() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__headWorldRot() const;
 
-  constexpr void __set__headWorldRot(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set__headWorldRot(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Vector3& __get__headPseudoLocalPos();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__headPseudoLocalPos();
 
-  constexpr ::UnityEngine::Vector3 const& __get__headPseudoLocalPos() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__headPseudoLocalPos() const;
 
-  constexpr void __set__headPseudoLocalPos(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__headPseudoLocalPos(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get__headPseudoLocalRot();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__headPseudoLocalRot();
 
-  constexpr ::UnityEngine::Quaternion const& __get__headPseudoLocalRot() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__headPseudoLocalRot() const;
 
-  constexpr void __set__headPseudoLocalRot(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set__headPseudoLocalRot(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Vector3& __get__leftHandPseudoLocalPos();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__leftHandPseudoLocalPos();
 
-  constexpr ::UnityEngine::Vector3 const& __get__leftHandPseudoLocalPos() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__leftHandPseudoLocalPos() const;
 
-  constexpr void __set__leftHandPseudoLocalPos(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__leftHandPseudoLocalPos(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get__leftHandPseudoLocalRot();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__leftHandPseudoLocalRot();
 
-  constexpr ::UnityEngine::Quaternion const& __get__leftHandPseudoLocalRot() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__leftHandPseudoLocalRot() const;
 
-  constexpr void __set__leftHandPseudoLocalRot(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set__leftHandPseudoLocalRot(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Vector3& __get__rightHandPseudoLocalPos();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__rightHandPseudoLocalPos();
 
-  constexpr ::UnityEngine::Vector3 const& __get__rightHandPseudoLocalPos() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__rightHandPseudoLocalPos() const;
 
-  constexpr void __set__rightHandPseudoLocalPos(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__rightHandPseudoLocalPos(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get__rightHandPseudoLocalRot();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get__rightHandPseudoLocalRot();
 
-  constexpr ::UnityEngine::Quaternion const& __get__rightHandPseudoLocalRot() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get__rightHandPseudoLocalRot() const;
 
-  constexpr void __set__rightHandPseudoLocalRot(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set__rightHandPseudoLocalRot(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Transform*& __get__originParentTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__originParentTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__originParentTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__originParentTransform() const;
 
-  constexpr void __set__originParentTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__originParentTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr bool& __get__useOriginParentTransformForPseudoLocalCalculations();
+  constexpr bool& __cordl_internal_get__useOriginParentTransformForPseudoLocalCalculations();
 
-  constexpr bool const& __get__useOriginParentTransformForPseudoLocalCalculations() const;
+  constexpr bool const& __cordl_internal_get__useOriginParentTransformForPseudoLocalCalculations() const;
 
-  constexpr void __set__useOriginParentTransformForPseudoLocalCalculations(bool value);
+  constexpr void __cordl_internal_set__useOriginParentTransformForPseudoLocalCalculations(bool value);
 
   /// @brief Method get_headWorldPos, addr 0x2260d2c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_headWorldPos();
@@ -258,16 +258,16 @@ protected:
 
 public:
   /// @brief Field _headTransform, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____headTransform;
+  ::UnityW<::UnityEngine::Transform> ____headTransform;
 
   /// @brief Field _originTransform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____originTransform;
+  ::UnityW<::UnityEngine::Transform> ____originTransform;
 
   /// @brief Field _leftHandTransform, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____leftHandTransform;
+  ::UnityW<::UnityEngine::Transform> ____leftHandTransform;
 
   /// @brief Field _rightHandTransform, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____rightHandTransform;
+  ::UnityW<::UnityEngine::Transform> ____rightHandTransform;
 
   /// @brief Field _overrideHeadPos, offset: 0x38, size: 0x1, def value: None
   bool ____overrideHeadPos;
@@ -300,7 +300,7 @@ public:
   ::UnityEngine::Quaternion ____rightHandPseudoLocalRot;
 
   /// @brief Field _originParentTransform, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____originParentTransform;
+  ::UnityW<::UnityEngine::Transform> ____originParentTransform;
 
   /// @brief Field _useOriginParentTransformForPseudoLocalCalculations, offset: 0xc0, size: 0x1, def value: None
   bool ____useOriginParentTransformForPseudoLocalCalculations;

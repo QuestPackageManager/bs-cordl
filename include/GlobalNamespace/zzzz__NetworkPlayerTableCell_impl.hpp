@@ -15,9 +15,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x22a9ab0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(),
-                                                                               "get_showSeparator", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_showSeparator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -29,10 +29,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x22a8ea8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), "set_showSeparator",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -44,12 +44,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x22a8e0c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), "SetData", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), "SetData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x22a9ce0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), 10));
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x22a9ce4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), 11));
@@ -90,9 +90,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x214;
   constexpr static std::size_t addrs = 0x22a9acc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(),
-                                                                               "RefreshVisuals", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "RefreshVisuals", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -104,9 +104,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x22a9ce8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(),
-                                                                               "get_activeColor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_activeColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -117,161 +117,161 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x22a9d44;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::TMPro::TextMeshProUGUI*& GlobalNamespace::NetworkPlayerTableCell::__get__playerNameText() {
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__playerNameText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerNameText;
 }
-constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& GlobalNamespace::NetworkPlayerTableCell::__get__playerNameText() const {
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__playerNameText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerNameText;
 }
-constexpr void GlobalNamespace::NetworkPlayerTableCell::__set__playerNameText(::TMPro::TextMeshProUGUI* value) {
+constexpr void GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_set__playerNameText(::UnityW<::TMPro::TextMeshProUGUI> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerNameText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::NetworkPlayerTableCell::__get__separator() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__separator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____separator;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::NetworkPlayerTableCell::__get__separator() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__separator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____separator;
 }
-constexpr void GlobalNamespace::NetworkPlayerTableCell::__set__separator(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_set__separator(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____separator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Image*& GlobalNamespace::NetworkPlayerTableCell::__get__privateIcon() {
+constexpr ::UnityW<::UnityEngine::UI::Image>& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__privateIcon() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____privateIcon;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& GlobalNamespace::NetworkPlayerTableCell::__get__privateIcon() const {
+constexpr ::UnityW<::UnityEngine::UI::Image> const& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__privateIcon() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____privateIcon;
 }
-constexpr void GlobalNamespace::NetworkPlayerTableCell::__set__privateIcon(::UnityEngine::UI::Image* value) {
+constexpr void GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_set__privateIcon(::UnityW<::UnityEngine::UI::Image> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____privateIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Image*& GlobalNamespace::NetworkPlayerTableCell::__get__spectateIcon() {
+constexpr ::UnityW<::UnityEngine::UI::Image>& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__spectateIcon() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectateIcon;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& GlobalNamespace::NetworkPlayerTableCell::__get__spectateIcon() const {
+constexpr ::UnityW<::UnityEngine::UI::Image> const& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__spectateIcon() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____spectateIcon;
 }
-constexpr void GlobalNamespace::NetworkPlayerTableCell::__set__spectateIcon(::UnityEngine::UI::Image* value) {
+constexpr void GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_set__spectateIcon(::UnityW<::UnityEngine::UI::Image> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____spectateIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Image*& GlobalNamespace::NetworkPlayerTableCell::__get__partyLeaderIcon() {
+constexpr ::UnityW<::UnityEngine::UI::Image>& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__partyLeaderIcon() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partyLeaderIcon;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& GlobalNamespace::NetworkPlayerTableCell::__get__partyLeaderIcon() const {
+constexpr ::UnityW<::UnityEngine::UI::Image> const& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__partyLeaderIcon() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____partyLeaderIcon;
 }
-constexpr void GlobalNamespace::NetworkPlayerTableCell::__set__partyLeaderIcon(::UnityEngine::UI::Image* value) {
+constexpr void GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_set__partyLeaderIcon(::UnityW<::UnityEngine::UI::Image> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____partyLeaderIcon)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Image*& GlobalNamespace::NetworkPlayerTableCell::__get__bgImage() {
+constexpr ::UnityW<::UnityEngine::UI::Image>& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__bgImage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bgImage;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& GlobalNamespace::NetworkPlayerTableCell::__get__bgImage() const {
+constexpr ::UnityW<::UnityEngine::UI::Image> const& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__bgImage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bgImage;
 }
-constexpr void GlobalNamespace::NetworkPlayerTableCell::__set__bgImage(::UnityEngine::UI::Image* value) {
+constexpr void GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_set__bgImage(::UnityW<::UnityEngine::UI::Image> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bgImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Image*& GlobalNamespace::NetworkPlayerTableCell::__get__highlightImage() {
+constexpr ::UnityW<::UnityEngine::UI::Image>& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__highlightImage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightImage;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& GlobalNamespace::NetworkPlayerTableCell::__get__highlightImage() const {
+constexpr ::UnityW<::UnityEngine::UI::Image> const& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__highlightImage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightImage;
 }
-constexpr void GlobalNamespace::NetworkPlayerTableCell::__set__highlightImage(::UnityEngine::UI::Image* value) {
+constexpr void GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_set__highlightImage(::UnityW<::UnityEngine::UI::Image> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____highlightImage)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::NetworkPlayerTableCell::__get__textColorNormal() {
+constexpr ::UnityEngine::Color& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__textColorNormal() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textColorNormal;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::NetworkPlayerTableCell::__get__textColorNormal() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__textColorNormal() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textColorNormal;
 }
-constexpr void GlobalNamespace::NetworkPlayerTableCell::__set__textColorNormal(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_set__textColorNormal(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____textColorNormal = value;
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::NetworkPlayerTableCell::__get__textColorMe() {
+constexpr ::UnityEngine::Color& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__textColorMe() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textColorMe;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::NetworkPlayerTableCell::__get__textColorMe() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__textColorMe() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textColorMe;
 }
-constexpr void GlobalNamespace::NetworkPlayerTableCell::__set__textColorMe(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_set__textColorMe(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____textColorMe = value;
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::NetworkPlayerTableCell::__get__textColorSelected() {
+constexpr ::UnityEngine::Color& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__textColorSelected() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textColorSelected;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::NetworkPlayerTableCell::__get__textColorSelected() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__textColorSelected() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____textColorSelected;
 }
-constexpr void GlobalNamespace::NetworkPlayerTableCell::__set__textColorSelected(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_set__textColorSelected(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____textColorSelected = value;
 }
-constexpr bool& GlobalNamespace::NetworkPlayerTableCell::__get__isMe() {
+constexpr bool& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__isMe() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isMe;
 }
-constexpr bool const& GlobalNamespace::NetworkPlayerTableCell::__get__isMe() const {
+constexpr bool const& GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_get__isMe() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isMe;
 }
-constexpr void GlobalNamespace::NetworkPlayerTableCell::__set__isMe(bool value) {
+constexpr void GlobalNamespace::NetworkPlayerTableCell::__cordl_internal_set__isMe(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isMe = value;
 }
 inline bool GlobalNamespace::NetworkPlayerTableCell::get_showSeparator() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(),
-                                                                             "get_showSeparator", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_showSeparator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::NetworkPlayerTableCell::set_showSeparator(bool value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), "set_showSeparator",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::NetworkPlayerTableCell::SetData(::StringW userName, bool isOpenParty, bool wantsToPlayNextLevel, bool isMyPartyOwner, bool isMe) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), "SetData", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), "SetData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, userName, isOpenParty, wantsToPlayNextLevel, isMyPartyOwner, isMe);
 }
 inline void GlobalNamespace::NetworkPlayerTableCell::SelectionDidChange(::HMUI::__SelectableCell__TransitionType transitionType) {
@@ -286,20 +286,20 @@ inline void GlobalNamespace::NetworkPlayerTableCell::HighlightDidChange(::HMUI::
 }
 inline void GlobalNamespace::NetworkPlayerTableCell::RefreshVisuals() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(),
-                                                                             "RefreshVisuals", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "RefreshVisuals", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Color GlobalNamespace::NetworkPlayerTableCell::get_activeColor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(),
-                                                                             "get_activeColor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_activeColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::NetworkPlayerTableCell* GlobalNamespace::NetworkPlayerTableCell::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::NetworkPlayerTableCell*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NetworkPlayerTableCell*>());
 }
 inline void GlobalNamespace::NetworkPlayerTableCell::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerTableCell*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

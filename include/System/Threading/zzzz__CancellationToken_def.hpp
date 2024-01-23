@@ -38,7 +38,7 @@ MARK_VAL_T(::System::Threading::CancellationToken);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2676))
 // CS Name: ::CancellationToken::<>c*
 class CORDL_TYPE __CancellationToken____c : public ::System::Object {
@@ -83,7 +83,7 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::__Cancellatio
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2677))
 // CS Name: ::System.Threading::CancellationToken
 struct CORDL_TYPE CancellationToken {

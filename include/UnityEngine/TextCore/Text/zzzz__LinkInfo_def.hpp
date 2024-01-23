@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::LinkInfo);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13686))
 // CS Name: ::UnityEngine.TextCore.Text::LinkInfo
 struct CORDL_TYPE LinkInfo {

@@ -23,93 +23,95 @@ MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockColorSetter);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14565))
 // CS Name: ::MaterialPropertyBlockColorSetter*
 class CORDL_TYPE MaterialPropertyBlockColorSetter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _useTestColor, offset 0x18, size 0x1
-  __declspec(property(get = __get__useTestColor, put = __set__useTestColor)) bool _useTestColor;
+  __declspec(property(get = __cordl_internal_get__useTestColor, put = __cordl_internal_set__useTestColor)) bool _useTestColor;
 
   /// @brief Field _testColor, offset 0x1c, size 0x10
-  __declspec(property(get = __get__testColor, put = __set__testColor))::UnityEngine::Color _testColor;
+  __declspec(property(get = __cordl_internal_get__testColor, put = __cordl_internal_set__testColor))::UnityEngine::Color _testColor;
 
   /// @brief Field _property, offset 0x30, size 0x8
-  __declspec(property(get = __get__property, put = __set__property))::StringW _property;
+  __declspec(property(get = __cordl_internal_get__property, put = __cordl_internal_set__property))::StringW _property;
 
   /// @brief Field _materialPropertyBlockController, offset 0x38, size 0x8
-  __declspec(property(get = __get__materialPropertyBlockController, put = __set__materialPropertyBlockController))::GlobalNamespace::MaterialPropertyBlockController* _materialPropertyBlockController;
+  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
+                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
 
   /// @brief Field _inverseAlpha, offset 0x40, size 0x1
-  __declspec(property(get = __get__inverseAlpha, put = __set__inverseAlpha)) bool _inverseAlpha;
+  __declspec(property(get = __cordl_internal_get__inverseAlpha, put = __cordl_internal_set__inverseAlpha)) bool _inverseAlpha;
 
   /// @brief Field _multiplyWithAlpha, offset 0x41, size 0x1
-  __declspec(property(get = __get__multiplyWithAlpha, put = __set__multiplyWithAlpha)) bool _multiplyWithAlpha;
+  __declspec(property(get = __cordl_internal_get__multiplyWithAlpha, put = __cordl_internal_set__multiplyWithAlpha)) bool _multiplyWithAlpha;
 
   /// @brief Field _propertyId, offset 0x44, size 0x4
-  __declspec(property(get = __get__propertyId, put = __set__propertyId)) int32_t _propertyId;
+  __declspec(property(get = __cordl_internal_get__propertyId, put = __cordl_internal_set__propertyId)) int32_t _propertyId;
 
   /// @brief Field _isInitialized, offset 0x48, size 0x1
-  __declspec(property(get = __get__isInitialized, put = __set__isInitialized)) bool _isInitialized;
+  __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
 
   __declspec(property(get = get_color))::UnityEngine::Color color;
 
-  __declspec(property(get = get_materialPropertyBlockController, put = set_materialPropertyBlockController))::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController;
+  __declspec(property(get = get_materialPropertyBlockController,
+                      put = set_materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> materialPropertyBlockController;
 
-  constexpr bool& __get__useTestColor();
+  constexpr bool& __cordl_internal_get__useTestColor();
 
-  constexpr bool const& __get__useTestColor() const;
+  constexpr bool const& __cordl_internal_get__useTestColor() const;
 
-  constexpr void __set__useTestColor(bool value);
+  constexpr void __cordl_internal_set__useTestColor(bool value);
 
-  constexpr ::UnityEngine::Color& __get__testColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__testColor();
 
-  constexpr ::UnityEngine::Color const& __get__testColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__testColor() const;
 
-  constexpr void __set__testColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__testColor(::UnityEngine::Color value);
 
-  constexpr ::StringW& __get__property();
+  constexpr ::StringW& __cordl_internal_get__property();
 
-  constexpr ::StringW const& __get__property() const;
+  constexpr ::StringW const& __cordl_internal_get__property() const;
 
-  constexpr void __set__property(::StringW value);
+  constexpr void __cordl_internal_set__property(::StringW value);
 
-  constexpr ::GlobalNamespace::MaterialPropertyBlockController*& __get__materialPropertyBlockController();
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockController*> const& __get__materialPropertyBlockController() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
 
-  constexpr void __set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
+  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  constexpr bool& __get__inverseAlpha();
+  constexpr bool& __cordl_internal_get__inverseAlpha();
 
-  constexpr bool const& __get__inverseAlpha() const;
+  constexpr bool const& __cordl_internal_get__inverseAlpha() const;
 
-  constexpr void __set__inverseAlpha(bool value);
+  constexpr void __cordl_internal_set__inverseAlpha(bool value);
 
-  constexpr bool& __get__multiplyWithAlpha();
+  constexpr bool& __cordl_internal_get__multiplyWithAlpha();
 
-  constexpr bool const& __get__multiplyWithAlpha() const;
+  constexpr bool const& __cordl_internal_get__multiplyWithAlpha() const;
 
-  constexpr void __set__multiplyWithAlpha(bool value);
+  constexpr void __cordl_internal_set__multiplyWithAlpha(bool value);
 
-  constexpr int32_t& __get__propertyId();
+  constexpr int32_t& __cordl_internal_get__propertyId();
 
-  constexpr int32_t const& __get__propertyId() const;
+  constexpr int32_t const& __cordl_internal_get__propertyId() const;
 
-  constexpr void __set__propertyId(int32_t value);
+  constexpr void __cordl_internal_set__propertyId(int32_t value);
 
-  constexpr bool& __get__isInitialized();
+  constexpr bool& __cordl_internal_get__isInitialized();
 
-  constexpr bool const& __get__isInitialized() const;
+  constexpr bool const& __cordl_internal_get__isInitialized() const;
 
-  constexpr void __set__isInitialized(bool value);
+  constexpr void __cordl_internal_set__isInitialized(bool value);
 
   /// @brief Method get_color, addr 0x2114de0, size 0x2c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
   /// @brief Method get_materialPropertyBlockController, addr 0x2114e0c, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MaterialPropertyBlockController* get_materialPropertyBlockController();
+  inline ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> get_materialPropertyBlockController();
 
   /// @brief Method set_materialPropertyBlockController, addr 0x2114e14, size 0x8, virtual false, abstract: false, final false
   inline void set_materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
@@ -158,7 +160,7 @@ public:
   ::StringW ____property;
 
   /// @brief Field _materialPropertyBlockController, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::MaterialPropertyBlockController* ____materialPropertyBlockController;
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
   /// @brief Field _inverseAlpha, offset: 0x40, size: 0x1, def value: None
   bool ____inverseAlpha;

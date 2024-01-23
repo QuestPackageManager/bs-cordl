@@ -16,20 +16,20 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::UserAccountAgeCategory);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13224)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13224))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13486))
 // CS Name: ::Oculus.Platform.Models::UserAccountAgeCategory*
 class CORDL_TYPE UserAccountAgeCategory : public ::System::Object {
 public:
   // Declarations
   /// @brief Field AgeCategory, offset 0x10, size 0x4
-  __declspec(property(get = __get_AgeCategory, put = __set_AgeCategory))::Oculus::Platform::AccountAgeCategory AgeCategory;
+  __declspec(property(get = __cordl_internal_get_AgeCategory, put = __cordl_internal_set_AgeCategory))::Oculus::Platform::AccountAgeCategory AgeCategory;
 
-  constexpr ::Oculus::Platform::AccountAgeCategory& __get_AgeCategory();
+  constexpr ::Oculus::Platform::AccountAgeCategory& __cordl_internal_get_AgeCategory();
 
-  constexpr ::Oculus::Platform::AccountAgeCategory const& __get_AgeCategory() const;
+  constexpr ::Oculus::Platform::AccountAgeCategory const& __cordl_internal_get_AgeCategory() const;
 
-  constexpr void __set_AgeCategory(::Oculus::Platform::AccountAgeCategory value);
+  constexpr void __cordl_internal_set_AgeCategory(::Oculus::Platform::AccountAgeCategory value);
 
   static inline ::Oculus::Platform::Models::UserAccountAgeCategory* New_ctor(void* o);
 

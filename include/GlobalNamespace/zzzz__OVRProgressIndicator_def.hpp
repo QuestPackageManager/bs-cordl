@@ -18,29 +18,29 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRProgressIndicator);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8155))
 // CS Name: ::OVRProgressIndicator*
 class CORDL_TYPE OVRProgressIndicator : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field progressImage, offset 0x18, size 0x8
-  __declspec(property(get = __get_progressImage, put = __set_progressImage))::UnityEngine::MeshRenderer* progressImage;
+  __declspec(property(get = __cordl_internal_get_progressImage, put = __cordl_internal_set_progressImage))::UnityW<::UnityEngine::MeshRenderer> progressImage;
 
   /// @brief Field currentProgress, offset 0x20, size 0x4
-  __declspec(property(get = __get_currentProgress, put = __set_currentProgress)) float_t currentProgress;
+  __declspec(property(get = __cordl_internal_get_currentProgress, put = __cordl_internal_set_currentProgress)) float_t currentProgress;
 
-  constexpr ::UnityEngine::MeshRenderer*& __get_progressImage();
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get_progressImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshRenderer*> const& __get_progressImage() const;
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get_progressImage() const;
 
-  constexpr void __set_progressImage(::UnityEngine::MeshRenderer* value);
+  constexpr void __cordl_internal_set_progressImage(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  constexpr float_t& __get_currentProgress();
+  constexpr float_t& __cordl_internal_get_currentProgress();
 
-  constexpr float_t const& __get_currentProgress() const;
+  constexpr float_t const& __cordl_internal_get_currentProgress() const;
 
-  constexpr void __set_currentProgress(float_t value);
+  constexpr void __cordl_internal_set_currentProgress(float_t value);
 
   /// @brief Method Awake, addr 0x27b90f4, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
@@ -68,7 +68,7 @@ protected:
 
 public:
   /// @brief Field progressImage, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::MeshRenderer* ___progressImage;
+  ::UnityW<::UnityEngine::MeshRenderer> ___progressImage;
 
   /// @brief Field currentProgress, offset: 0x20, size: 0x4, def value: None
   float_t ___currentProgress;

@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::LazyAsn1InputStream);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(453))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(453))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(524))
 // CS Name: ::Org.BouncyCastle.Asn1::LazyAsn1InputStream*
 class CORDL_TYPE LazyAsn1InputStream : public ::Org::BouncyCastle::Asn1::Asn1InputStream {

@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::HowToPlayViewController);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5648))
 // CS Name: ::HowToPlayViewController::HowToPlayOptions
 struct CORDL_TYPE __HowToPlayViewController__HowToPlayOptions {
@@ -79,7 +79,7 @@ static_assert(offsetof(::GlobalNamespace::__HowToPlayViewController__HowToPlayOp
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5649))
 // CS Name: ::HowToPlayViewController*
 class CORDL_TYPE HowToPlayViewController : public ::HMUI::ViewController {
@@ -88,31 +88,32 @@ public:
   using HowToPlayOptions = ::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions;
 
   /// @brief Field _tutorialButton, offset 0x70, size 0x8
-  __declspec(property(get = __get__tutorialButton, put = __set__tutorialButton))::UnityEngine::UI::Button* _tutorialButton;
+  __declspec(property(get = __cordl_internal_get__tutorialButton, put = __cordl_internal_set__tutorialButton))::UnityW<::UnityEngine::UI::Button> _tutorialButton;
 
   /// @brief Field _creditsButton, offset 0x78, size 0x8
-  __declspec(property(get = __get__creditsButton, put = __set__creditsButton))::UnityEngine::UI::Button* _creditsButton;
+  __declspec(property(get = __cordl_internal_get__creditsButton, put = __cordl_internal_set__creditsButton))::UnityW<::UnityEngine::UI::Button> _creditsButton;
 
   /// @brief Field didFinishEvent, offset 0x80, size 0x8
-  __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent,
+                      put = __cordl_internal_set_didFinishEvent))::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* didFinishEvent;
 
-  constexpr ::UnityEngine::UI::Button*& __get__tutorialButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__tutorialButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__tutorialButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__tutorialButton() const;
 
-  constexpr void __set__tutorialButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__tutorialButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__creditsButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__creditsButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__creditsButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__creditsButton() const;
 
-  constexpr void __set__creditsButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__creditsButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>*& __get_didFinishEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>*> const& __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>*> const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* value);
 
   /// @brief Method add_didFinishEvent, addr 0x22b5934, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* value);
@@ -152,10 +153,10 @@ protected:
 
 public:
   /// @brief Field _tutorialButton, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____tutorialButton;
+  ::UnityW<::UnityEngine::UI::Button> ____tutorialButton;
 
   /// @brief Field _creditsButton, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____creditsButton;
+  ::UnityW<::UnityEngine::UI::Button> ____creditsButton;
 
   /// @brief Field didFinishEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::__HowToPlayViewController__HowToPlayOptions>* ___didFinishEvent;

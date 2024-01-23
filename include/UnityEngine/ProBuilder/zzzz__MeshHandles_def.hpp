@@ -57,7 +57,7 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::__MeshHandles____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12141))
 // CS Name: ::MeshHandles::<>c*
 class CORDL_TYPE __MeshHandles____c : public ::System::Object {
@@ -121,7 +121,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__MeshH
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12142))
 // CS Name: ::UnityEngine.ProBuilder::MeshHandles*
 class CORDL_TYPE MeshHandles : public ::System::Object {

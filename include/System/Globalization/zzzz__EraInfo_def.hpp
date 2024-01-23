@@ -16,83 +16,83 @@ MARK_REF_PTR_T(::System::Globalization::EraInfo);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3699))
 // CS Name: ::System.Globalization::EraInfo*
 class CORDL_TYPE EraInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field era, offset 0x10, size 0x4
-  __declspec(property(get = __get_era, put = __set_era)) int32_t era;
+  __declspec(property(get = __cordl_internal_get_era, put = __cordl_internal_set_era)) int32_t era;
 
   /// @brief Field ticks, offset 0x18, size 0x8
-  __declspec(property(get = __get_ticks, put = __set_ticks)) int64_t ticks;
+  __declspec(property(get = __cordl_internal_get_ticks, put = __cordl_internal_set_ticks)) int64_t ticks;
 
   /// @brief Field yearOffset, offset 0x20, size 0x4
-  __declspec(property(get = __get_yearOffset, put = __set_yearOffset)) int32_t yearOffset;
+  __declspec(property(get = __cordl_internal_get_yearOffset, put = __cordl_internal_set_yearOffset)) int32_t yearOffset;
 
   /// @brief Field minEraYear, offset 0x24, size 0x4
-  __declspec(property(get = __get_minEraYear, put = __set_minEraYear)) int32_t minEraYear;
+  __declspec(property(get = __cordl_internal_get_minEraYear, put = __cordl_internal_set_minEraYear)) int32_t minEraYear;
 
   /// @brief Field maxEraYear, offset 0x28, size 0x4
-  __declspec(property(get = __get_maxEraYear, put = __set_maxEraYear)) int32_t maxEraYear;
+  __declspec(property(get = __cordl_internal_get_maxEraYear, put = __cordl_internal_set_maxEraYear)) int32_t maxEraYear;
 
   /// @brief Field eraName, offset 0x30, size 0x8
-  __declspec(property(get = __get_eraName, put = __set_eraName))::StringW eraName;
+  __declspec(property(get = __cordl_internal_get_eraName, put = __cordl_internal_set_eraName))::StringW eraName;
 
   /// @brief Field abbrevEraName, offset 0x38, size 0x8
-  __declspec(property(get = __get_abbrevEraName, put = __set_abbrevEraName))::StringW abbrevEraName;
+  __declspec(property(get = __cordl_internal_get_abbrevEraName, put = __cordl_internal_set_abbrevEraName))::StringW abbrevEraName;
 
   /// @brief Field englishEraName, offset 0x40, size 0x8
-  __declspec(property(get = __get_englishEraName, put = __set_englishEraName))::StringW englishEraName;
+  __declspec(property(get = __cordl_internal_get_englishEraName, put = __cordl_internal_set_englishEraName))::StringW englishEraName;
 
-  constexpr int32_t& __get_era();
+  constexpr int32_t& __cordl_internal_get_era();
 
-  constexpr int32_t const& __get_era() const;
+  constexpr int32_t const& __cordl_internal_get_era() const;
 
-  constexpr void __set_era(int32_t value);
+  constexpr void __cordl_internal_set_era(int32_t value);
 
-  constexpr int64_t& __get_ticks();
+  constexpr int64_t& __cordl_internal_get_ticks();
 
-  constexpr int64_t const& __get_ticks() const;
+  constexpr int64_t const& __cordl_internal_get_ticks() const;
 
-  constexpr void __set_ticks(int64_t value);
+  constexpr void __cordl_internal_set_ticks(int64_t value);
 
-  constexpr int32_t& __get_yearOffset();
+  constexpr int32_t& __cordl_internal_get_yearOffset();
 
-  constexpr int32_t const& __get_yearOffset() const;
+  constexpr int32_t const& __cordl_internal_get_yearOffset() const;
 
-  constexpr void __set_yearOffset(int32_t value);
+  constexpr void __cordl_internal_set_yearOffset(int32_t value);
 
-  constexpr int32_t& __get_minEraYear();
+  constexpr int32_t& __cordl_internal_get_minEraYear();
 
-  constexpr int32_t const& __get_minEraYear() const;
+  constexpr int32_t const& __cordl_internal_get_minEraYear() const;
 
-  constexpr void __set_minEraYear(int32_t value);
+  constexpr void __cordl_internal_set_minEraYear(int32_t value);
 
-  constexpr int32_t& __get_maxEraYear();
+  constexpr int32_t& __cordl_internal_get_maxEraYear();
 
-  constexpr int32_t const& __get_maxEraYear() const;
+  constexpr int32_t const& __cordl_internal_get_maxEraYear() const;
 
-  constexpr void __set_maxEraYear(int32_t value);
+  constexpr void __cordl_internal_set_maxEraYear(int32_t value);
 
-  constexpr ::StringW& __get_eraName();
+  constexpr ::StringW& __cordl_internal_get_eraName();
 
-  constexpr ::StringW const& __get_eraName() const;
+  constexpr ::StringW const& __cordl_internal_get_eraName() const;
 
-  constexpr void __set_eraName(::StringW value);
+  constexpr void __cordl_internal_set_eraName(::StringW value);
 
-  constexpr ::StringW& __get_abbrevEraName();
+  constexpr ::StringW& __cordl_internal_get_abbrevEraName();
 
-  constexpr ::StringW const& __get_abbrevEraName() const;
+  constexpr ::StringW const& __cordl_internal_get_abbrevEraName() const;
 
-  constexpr void __set_abbrevEraName(::StringW value);
+  constexpr void __cordl_internal_set_abbrevEraName(::StringW value);
 
-  constexpr ::StringW& __get_englishEraName();
+  constexpr ::StringW& __cordl_internal_get_englishEraName();
 
-  constexpr ::StringW const& __get_englishEraName() const;
+  constexpr ::StringW const& __cordl_internal_get_englishEraName() const;
 
-  constexpr void __set_englishEraName(::StringW value);
+  constexpr void __cordl_internal_set_englishEraName(::StringW value);
 
   static inline ::System::Globalization::EraInfo* New_ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear);
 

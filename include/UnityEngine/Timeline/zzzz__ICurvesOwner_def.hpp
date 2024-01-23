@@ -24,13 +24,13 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::ICurvesOwner);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13844))
 // CS Name: ::UnityEngine.Timeline::ICurvesOwner*
 class CORDL_TYPE ICurvesOwner {
 public:
   // Declarations
-  __declspec(property(get = get_curves))::UnityEngine::AnimationClip* curves;
+  __declspec(property(get = get_curves))::UnityW<::UnityEngine::AnimationClip> curves;
 
   __declspec(property(get = get_hasCurves)) bool hasCurves;
 
@@ -38,14 +38,14 @@ public:
 
   __declspec(property(get = get_defaultCurvesName))::StringW defaultCurvesName;
 
-  __declspec(property(get = get_asset))::UnityEngine::Object* asset;
+  __declspec(property(get = get_asset))::UnityW<::UnityEngine::Object> asset;
 
-  __declspec(property(get = get_assetOwner))::UnityEngine::Object* assetOwner;
+  __declspec(property(get = get_assetOwner))::UnityW<::UnityEngine::Object> assetOwner;
 
-  __declspec(property(get = get_targetTrack))::UnityEngine::Timeline::TrackAsset* targetTrack;
+  __declspec(property(get = get_targetTrack))::UnityW<::UnityEngine::Timeline::TrackAsset> targetTrack;
 
   /// @brief Method get_curves, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::AnimationClip* get_curves();
+  inline ::UnityW<::UnityEngine::AnimationClip> get_curves();
 
   /// @brief Method get_hasCurves, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool get_hasCurves();
@@ -60,13 +60,13 @@ public:
   inline ::StringW get_defaultCurvesName();
 
   /// @brief Method get_asset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::Object* get_asset();
+  inline ::UnityW<::UnityEngine::Object> get_asset();
 
   /// @brief Method get_assetOwner, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::Object* get_assetOwner();
+  inline ::UnityW<::UnityEngine::Object> get_assetOwner();
 
   /// @brief Method get_targetTrack, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::Timeline::TrackAsset* get_targetTrack();
+  inline ::UnityW<::UnityEngine::Timeline::TrackAsset> get_targetTrack();
 
   // Ctor Parameters [CppParam { name: "", ty: "ICurvesOwner", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

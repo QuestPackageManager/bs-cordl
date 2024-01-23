@@ -21,33 +21,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1275))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SignatureAndHashAlgorithm*
 class CORDL_TYPE SignatureAndHashAlgorithm : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mHash, offset 0x10, size 0x1
-  __declspec(property(get = __get_mHash, put = __set_mHash)) uint8_t mHash;
+  __declspec(property(get = __cordl_internal_get_mHash, put = __cordl_internal_set_mHash)) uint8_t mHash;
 
   /// @brief Field mSignature, offset 0x11, size 0x1
-  __declspec(property(get = __get_mSignature, put = __set_mSignature)) uint8_t mSignature;
+  __declspec(property(get = __cordl_internal_get_mSignature, put = __cordl_internal_set_mSignature)) uint8_t mSignature;
 
   __declspec(property(get = get_Hash)) uint8_t Hash;
 
   __declspec(property(get = get_Signature)) uint8_t Signature;
 
-  constexpr uint8_t& __get_mHash();
+  constexpr uint8_t& __cordl_internal_get_mHash();
 
-  constexpr uint8_t const& __get_mHash() const;
+  constexpr uint8_t const& __cordl_internal_get_mHash() const;
 
-  constexpr void __set_mHash(uint8_t value);
+  constexpr void __cordl_internal_set_mHash(uint8_t value);
 
-  constexpr uint8_t& __get_mSignature();
+  constexpr uint8_t& __cordl_internal_get_mSignature();
 
-  constexpr uint8_t const& __get_mSignature() const;
+  constexpr uint8_t const& __cordl_internal_get_mSignature() const;
 
-  constexpr void __set_mSignature(uint8_t value);
+  constexpr void __cordl_internal_set_mSignature(uint8_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* New_ctor(uint8_t hash, uint8_t signature);
 

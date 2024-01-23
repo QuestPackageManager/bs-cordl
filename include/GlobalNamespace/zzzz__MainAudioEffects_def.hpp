@@ -19,38 +19,38 @@ MARK_REF_PTR_T(::GlobalNamespace::MainAudioEffects);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4066))
 // CS Name: ::MainAudioEffects*
 class CORDL_TYPE MainAudioEffects : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _audioLowPassFilter, offset 0x18, size 0x8
-  __declspec(property(get = __get__audioLowPassFilter, put = __set__audioLowPassFilter))::UnityEngine::AudioLowPassFilter* _audioLowPassFilter;
+  __declspec(property(get = __cordl_internal_get__audioLowPassFilter, put = __cordl_internal_set__audioLowPassFilter))::UnityW<::UnityEngine::AudioLowPassFilter> _audioLowPassFilter;
 
   /// @brief Field _smooth, offset 0x20, size 0x4
-  __declspec(property(get = __get__smooth, put = __set__smooth)) float_t _smooth;
+  __declspec(property(get = __cordl_internal_get__smooth, put = __cordl_internal_set__smooth)) float_t _smooth;
 
   /// @brief Field _targetFrequency, offset 0x24, size 0x4
-  __declspec(property(get = __get__targetFrequency, put = __set__targetFrequency)) float_t _targetFrequency;
+  __declspec(property(get = __cordl_internal_get__targetFrequency, put = __cordl_internal_set__targetFrequency)) float_t _targetFrequency;
 
-  constexpr ::UnityEngine::AudioLowPassFilter*& __get__audioLowPassFilter();
+  constexpr ::UnityW<::UnityEngine::AudioLowPassFilter>& __cordl_internal_get__audioLowPassFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioLowPassFilter*> const& __get__audioLowPassFilter() const;
+  constexpr ::UnityW<::UnityEngine::AudioLowPassFilter> const& __cordl_internal_get__audioLowPassFilter() const;
 
-  constexpr void __set__audioLowPassFilter(::UnityEngine::AudioLowPassFilter* value);
+  constexpr void __cordl_internal_set__audioLowPassFilter(::UnityW<::UnityEngine::AudioLowPassFilter> value);
 
-  constexpr float_t& __get__smooth();
+  constexpr float_t& __cordl_internal_get__smooth();
 
-  constexpr float_t const& __get__smooth() const;
+  constexpr float_t const& __cordl_internal_get__smooth() const;
 
-  constexpr void __set__smooth(float_t value);
+  constexpr void __cordl_internal_set__smooth(float_t value);
 
-  constexpr float_t& __get__targetFrequency();
+  constexpr float_t& __cordl_internal_get__targetFrequency();
 
-  constexpr float_t const& __get__targetFrequency() const;
+  constexpr float_t const& __cordl_internal_get__targetFrequency() const;
 
-  constexpr void __set__targetFrequency(float_t value);
+  constexpr void __cordl_internal_set__targetFrequency(float_t value);
 
   /// @brief Method Start, addr 0x222e018, size 0x34, virtual false, abstract: false, final false
   inline void Start();
@@ -84,7 +84,7 @@ protected:
 
 public:
   /// @brief Field _audioLowPassFilter, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::AudioLowPassFilter* ____audioLowPassFilter;
+  ::UnityW<::UnityEngine::AudioLowPassFilter> ____audioLowPassFilter;
 
   /// @brief Field _smooth, offset: 0x20, size: 0x4, def value: None
   float_t ____smooth;

@@ -28,26 +28,26 @@ MARK_REF_PTR_T(::GlobalNamespace::CPUMonitor);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12709))
 // CS Name: ::CPUMonitor*
 class CORDL_TYPE CPUMonitor : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _utilization, offset 0x10, size 0x8
-  __declspec(property(get = __get__utilization, put = __set__utilization))::GlobalNamespace::RollingAverage* _utilization;
+  __declspec(property(get = __cordl_internal_get__utilization, put = __cordl_internal_set__utilization))::GlobalNamespace::RollingAverage* _utilization;
 
   /// @brief Field _currentProcess, offset 0x18, size 0x8
-  __declspec(property(get = __get__currentProcess, put = __set__currentProcess))::System::Diagnostics::Process* _currentProcess;
+  __declspec(property(get = __cordl_internal_get__currentProcess, put = __cordl_internal_set__currentProcess))::System::Diagnostics::Process* _currentProcess;
 
   /// @brief Field _processorCount, offset 0x20, size 0x4
-  __declspec(property(get = __get__processorCount, put = __set__processorCount)) int32_t _processorCount;
+  __declspec(property(get = __cordl_internal_get__processorCount, put = __cordl_internal_set__processorCount)) int32_t _processorCount;
 
   /// @brief Field _lastSampleTime, offset 0x28, size 0x8
-  __declspec(property(get = __get__lastSampleTime, put = __set__lastSampleTime)) int64_t _lastSampleTime;
+  __declspec(property(get = __cordl_internal_get__lastSampleTime, put = __cordl_internal_set__lastSampleTime)) int64_t _lastSampleTime;
 
   /// @brief Field _lastSampleValue, offset 0x30, size 0x8
-  __declspec(property(get = __get__lastSampleValue, put = __set__lastSampleValue)) int64_t _lastSampleValue;
+  __declspec(property(get = __cordl_internal_get__lastSampleValue, put = __cordl_internal_set__lastSampleValue)) int64_t _lastSampleValue;
 
   __declspec(property(get = get_utilization)) float_t utilization;
 
@@ -63,35 +63,35 @@ public:
   /// @brief Convert to "::GlobalNamespace::IPollable"
   constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
 
-  constexpr ::GlobalNamespace::RollingAverage*& __get__utilization();
+  constexpr ::GlobalNamespace::RollingAverage*& __cordl_internal_get__utilization();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RollingAverage*> const& __get__utilization() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RollingAverage*> const& __cordl_internal_get__utilization() const;
 
-  constexpr void __set__utilization(::GlobalNamespace::RollingAverage* value);
+  constexpr void __cordl_internal_set__utilization(::GlobalNamespace::RollingAverage* value);
 
-  constexpr ::System::Diagnostics::Process*& __get__currentProcess();
+  constexpr ::System::Diagnostics::Process*& __cordl_internal_get__currentProcess();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Process*> const& __get__currentProcess() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Diagnostics::Process*> const& __cordl_internal_get__currentProcess() const;
 
-  constexpr void __set__currentProcess(::System::Diagnostics::Process* value);
+  constexpr void __cordl_internal_set__currentProcess(::System::Diagnostics::Process* value);
 
-  constexpr int32_t& __get__processorCount();
+  constexpr int32_t& __cordl_internal_get__processorCount();
 
-  constexpr int32_t const& __get__processorCount() const;
+  constexpr int32_t const& __cordl_internal_get__processorCount() const;
 
-  constexpr void __set__processorCount(int32_t value);
+  constexpr void __cordl_internal_set__processorCount(int32_t value);
 
-  constexpr int64_t& __get__lastSampleTime();
+  constexpr int64_t& __cordl_internal_get__lastSampleTime();
 
-  constexpr int64_t const& __get__lastSampleTime() const;
+  constexpr int64_t const& __cordl_internal_get__lastSampleTime() const;
 
-  constexpr void __set__lastSampleTime(int64_t value);
+  constexpr void __cordl_internal_set__lastSampleTime(int64_t value);
 
-  constexpr int64_t& __get__lastSampleValue();
+  constexpr int64_t& __cordl_internal_get__lastSampleValue();
 
-  constexpr int64_t const& __get__lastSampleValue() const;
+  constexpr int64_t const& __cordl_internal_get__lastSampleValue() const;
 
-  constexpr void __set__lastSampleValue(int64_t value);
+  constexpr void __cordl_internal_set__lastSampleValue(int64_t value);
 
   /// @brief Method PollUpdate, addr 0xe32340, size 0xf8, virtual true, abstract: false, final true
   inline void PollUpdate();

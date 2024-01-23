@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::HelpNavigationController);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13588))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13588))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5647))
 // CS Name: ::HelpNavigationController*
 class CORDL_TYPE HelpNavigationController : public ::HMUI::NavigationController {

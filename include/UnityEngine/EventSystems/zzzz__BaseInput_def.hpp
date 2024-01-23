@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::BaseInput);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13214))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13214))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13198))
 // CS Name: ::UnityEngine.EventSystems::BaseInput*
 class CORDL_TYPE BaseInput : public ::UnityEngine::EventSystems::UIBehaviour {

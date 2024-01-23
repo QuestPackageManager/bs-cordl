@@ -18,23 +18,23 @@ namespace System::Threading {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2694))
 // CS Name: ::System.Threading::SparselyPopulatedArrayFragment`1<T>*
 class CORDL_TYPE SparselyPopulatedArrayFragment_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _elements, offset 0x10, size 0x8
-  __declspec(property(get = __get__elements, put = __set__elements))::ArrayW<T, ::Array<T>*> _elements;
+  __declspec(property(get = __cordl_internal_get__elements, put = __cordl_internal_set__elements))::ArrayW<T, ::Array<T>*> _elements;
 
   /// @brief Field _freeCount, offset 0x18, size 0x4
-  __declspec(property(get = __get__freeCount, put = __set__freeCount)) int32_t _freeCount;
+  __declspec(property(get = __cordl_internal_get__freeCount, put = __cordl_internal_set__freeCount)) int32_t _freeCount;
 
   /// @brief Field _next, offset 0x20, size 0x8
-  __declspec(property(get = __get__next, put = __set__next))::System::Threading::SparselyPopulatedArrayFragment_1<T>* _next;
+  __declspec(property(get = __cordl_internal_get__next, put = __cordl_internal_set__next))::System::Threading::SparselyPopulatedArrayFragment_1<T>* _next;
 
   /// @brief Field _prev, offset 0x28, size 0x8
-  __declspec(property(get = __get__prev, put = __set__prev))::System::Threading::SparselyPopulatedArrayFragment_1<T>* _prev;
+  __declspec(property(get = __cordl_internal_get__prev, put = __cordl_internal_set__prev))::System::Threading::SparselyPopulatedArrayFragment_1<T>* _prev;
 
   __declspec(property(get = get_Item)) T Item[];
 
@@ -42,29 +42,29 @@ public:
 
   __declspec(property(get = get_Prev))::System::Threading::SparselyPopulatedArrayFragment_1<T>* Prev;
 
-  constexpr ::ArrayW<T, ::Array<T>*>& __get__elements();
+  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__elements();
 
-  constexpr ::ArrayW<T, ::Array<T>*> const& __get__elements() const;
+  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__elements() const;
 
-  constexpr void __set__elements(::ArrayW<T, ::Array<T>*> value);
+  constexpr void __cordl_internal_set__elements(::ArrayW<T, ::Array<T>*> value);
 
-  constexpr int32_t& __get__freeCount();
+  constexpr int32_t& __cordl_internal_get__freeCount();
 
-  constexpr int32_t const& __get__freeCount() const;
+  constexpr int32_t const& __cordl_internal_get__freeCount() const;
 
-  constexpr void __set__freeCount(int32_t value);
+  constexpr void __cordl_internal_set__freeCount(int32_t value);
 
-  constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>*& __get__next();
+  constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>*& __cordl_internal_get__next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const& __get__next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const& __cordl_internal_get__next() const;
 
-  constexpr void __set__next(::System::Threading::SparselyPopulatedArrayFragment_1<T>* value);
+  constexpr void __cordl_internal_set__next(::System::Threading::SparselyPopulatedArrayFragment_1<T>* value);
 
-  constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>*& __get__prev();
+  constexpr ::System::Threading::SparselyPopulatedArrayFragment_1<T>*& __cordl_internal_get__prev();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const& __get__prev() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SparselyPopulatedArrayFragment_1<T>*> const& __cordl_internal_get__prev() const;
 
-  constexpr void __set__prev(::System::Threading::SparselyPopulatedArrayFragment_1<T>* value);
+  constexpr void __cordl_internal_set__prev(::System::Threading::SparselyPopulatedArrayFragment_1<T>* value);
 
   static inline ::System::Threading::SparselyPopulatedArrayFragment_1<T>* New_ctor(int32_t size);
 

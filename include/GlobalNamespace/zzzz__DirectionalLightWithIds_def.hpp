@@ -21,38 +21,38 @@ MARK_REF_PTR_T(::GlobalNamespace::DirectionalLightWithIds);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14552))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14552))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14524))
 // CS Name: ::DirectionalLightWithIds*
 class CORDL_TYPE DirectionalLightWithIds : public ::GlobalNamespace::RuntimeLightWithIds {
 public:
   // Declarations
   /// @brief Field _directionalLight, offset 0x48, size 0x8
-  __declspec(property(get = __get__directionalLight, put = __set__directionalLight))::GlobalNamespace::DirectionalLight* _directionalLight;
+  __declspec(property(get = __cordl_internal_get__directionalLight, put = __cordl_internal_set__directionalLight))::UnityW<::GlobalNamespace::DirectionalLight> _directionalLight;
 
   /// @brief Field _setIntensityOnly, offset 0x50, size 0x1
-  __declspec(property(get = __get__setIntensityOnly, put = __set__setIntensityOnly)) bool _setIntensityOnly;
+  __declspec(property(get = __cordl_internal_get__setIntensityOnly, put = __cordl_internal_set__setIntensityOnly)) bool _setIntensityOnly;
 
   /// @brief Field _defaultColor, offset 0x54, size 0x10
-  __declspec(property(get = __get__defaultColor, put = __set__defaultColor))::UnityEngine::Color _defaultColor;
+  __declspec(property(get = __cordl_internal_get__defaultColor, put = __cordl_internal_set__defaultColor))::UnityEngine::Color _defaultColor;
 
-  constexpr ::GlobalNamespace::DirectionalLight*& __get__directionalLight();
+  constexpr ::UnityW<::GlobalNamespace::DirectionalLight>& __cordl_internal_get__directionalLight();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DirectionalLight*> const& __get__directionalLight() const;
+  constexpr ::UnityW<::GlobalNamespace::DirectionalLight> const& __cordl_internal_get__directionalLight() const;
 
-  constexpr void __set__directionalLight(::GlobalNamespace::DirectionalLight* value);
+  constexpr void __cordl_internal_set__directionalLight(::UnityW<::GlobalNamespace::DirectionalLight> value);
 
-  constexpr bool& __get__setIntensityOnly();
+  constexpr bool& __cordl_internal_get__setIntensityOnly();
 
-  constexpr bool const& __get__setIntensityOnly() const;
+  constexpr bool const& __cordl_internal_get__setIntensityOnly() const;
 
-  constexpr void __set__setIntensityOnly(bool value);
+  constexpr void __cordl_internal_set__setIntensityOnly(bool value);
 
-  constexpr ::UnityEngine::Color& __get__defaultColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__defaultColor();
 
-  constexpr ::UnityEngine::Color const& __get__defaultColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__defaultColor() const;
 
-  constexpr void __set__defaultColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__defaultColor(::UnityEngine::Color value);
 
   /// @brief Method ColorWasSet, addr 0x210f0e4, size 0x44, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
@@ -77,7 +77,7 @@ protected:
 
 public:
   /// @brief Field _directionalLight, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::DirectionalLight* ____directionalLight;
+  ::UnityW<::GlobalNamespace::DirectionalLight> ____directionalLight;
 
   /// @brief Field _setIntensityOnly, offset: 0x50, size: 0x1, def value: None
   bool ____setIntensityOnly;

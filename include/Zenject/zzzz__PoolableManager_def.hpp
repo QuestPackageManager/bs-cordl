@@ -69,7 +69,7 @@ MARK_VAL_T(::Zenject::__PoolableManager__PoolableInfo);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11327))
 // CS Name: ::PoolableManager::PoolableInfo
 struct CORDL_TYPE __PoolableManager__PoolableInfo {
@@ -108,29 +108,30 @@ static_assert(offsetof(::Zenject::__PoolableManager__PoolableInfo, Priority) == 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11328))
 // CS Name: ::PoolableManager::<>c__DisplayClass2_0*
 class CORDL_TYPE __PoolableManager____c__DisplayClass2_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::PoolableManager* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::PoolableManager* __4__this;
 
   /// @brief Field priorities, offset 0x18, size 0x8
-  __declspec(property(get = __get_priorities, put = __set_priorities))::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities;
+  __declspec(property(get = __cordl_internal_get_priorities,
+                      put = __cordl_internal_set_priorities))::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities;
 
-  constexpr ::Zenject::PoolableManager*& __get___4__this();
+  constexpr ::Zenject::PoolableManager*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::PoolableManager*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::PoolableManager*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::PoolableManager* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::PoolableManager* value);
 
-  constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*& __get_priorities();
+  constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*& __cordl_internal_get_priorities();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*> const& __get_priorities() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*> const& __cordl_internal_get_priorities() const;
 
-  constexpr void __set_priorities(::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* value);
+  constexpr void __cordl_internal_set_priorities(::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* value);
 
   static inline ::Zenject::__PoolableManager____c__DisplayClass2_0* New_ctor();
 
@@ -180,7 +181,7 @@ static_assert(offsetof(::Zenject::__PoolableManager____c__DisplayClass2_0, ___pr
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11329))
 // CS Name: ::PoolableManager::<>c*
 class CORDL_TYPE __PoolableManager____c : public ::System::Object {
@@ -259,20 +260,20 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__PoolableManager____c,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11330))
 // CS Name: ::PoolableManager::<>c__DisplayClass3_0*
 class CORDL_TYPE __PoolableManager____c__DisplayClass3_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field poolable, offset 0x10, size 0x8
-  __declspec(property(get = __get_poolable, put = __set_poolable))::Zenject::IPoolable* poolable;
+  __declspec(property(get = __cordl_internal_get_poolable, put = __cordl_internal_set_poolable))::Zenject::IPoolable* poolable;
 
-  constexpr ::Zenject::IPoolable*& __get_poolable();
+  constexpr ::Zenject::IPoolable*& __cordl_internal_get_poolable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IPoolable*> const& __get_poolable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IPoolable*> const& __cordl_internal_get_poolable() const;
 
-  constexpr void __set_poolable(::Zenject::IPoolable* value);
+  constexpr void __cordl_internal_set_poolable(::Zenject::IPoolable* value);
 
   static inline ::Zenject::__PoolableManager____c__DisplayClass3_0* New_ctor();
 
@@ -317,7 +318,7 @@ static_assert(offsetof(::Zenject::__PoolableManager____c__DisplayClass3_0, ___po
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11331))
 // CS Name: ::Zenject::PoolableManager*
 class CORDL_TYPE PoolableManager : public ::System::Object {
@@ -332,22 +333,22 @@ public:
   using PoolableInfo = ::Zenject::__PoolableManager__PoolableInfo;
 
   /// @brief Field _poolables, offset 0x10, size 0x8
-  __declspec(property(get = __get__poolables, put = __set__poolables))::System::Collections::Generic::List_1<::Zenject::IPoolable*>* _poolables;
+  __declspec(property(get = __cordl_internal_get__poolables, put = __cordl_internal_set__poolables))::System::Collections::Generic::List_1<::Zenject::IPoolable*>* _poolables;
 
   /// @brief Field _isSpawned, offset 0x18, size 0x1
-  __declspec(property(get = __get__isSpawned, put = __set__isSpawned)) bool _isSpawned;
+  __declspec(property(get = __cordl_internal_get__isSpawned, put = __cordl_internal_set__isSpawned)) bool _isSpawned;
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::IPoolable*>*& __get__poolables();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::IPoolable*>*& __cordl_internal_get__poolables();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IPoolable*>*> const& __get__poolables() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IPoolable*>*> const& __cordl_internal_get__poolables() const;
 
-  constexpr void __set__poolables(::System::Collections::Generic::List_1<::Zenject::IPoolable*>* value);
+  constexpr void __cordl_internal_set__poolables(::System::Collections::Generic::List_1<::Zenject::IPoolable*>* value);
 
-  constexpr bool& __get__isSpawned();
+  constexpr bool& __cordl_internal_get__isSpawned();
 
-  constexpr bool const& __get__isSpawned() const;
+  constexpr bool const& __cordl_internal_get__isSpawned() const;
 
-  constexpr void __set__isSpawned(bool value);
+  constexpr void __cordl_internal_set__isSpawned(bool value);
 
   static inline ::Zenject::PoolableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IPoolable*>* poolables,
                                                      ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);

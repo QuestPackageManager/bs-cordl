@@ -21,20 +21,20 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24e1588;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::__ResourceManager__CultureNameResourceSetPair*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 inline ::System::Resources::__ResourceManager__CultureNameResourceSetPair* System::Resources::__ResourceManager__CultureNameResourceSetPair::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Resources::__ResourceManager__CultureNameResourceSetPair*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Resources::__ResourceManager__CultureNameResourceSetPair*>());
 }
 inline void System::Resources::__ResourceManager__CultureNameResourceSetPair::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::__ResourceManager__CultureNameResourceSetPair*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -47,32 +47,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x24e1590;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::__ResourceManager__ResourceManagerMediator*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Resources::ResourceManager*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::__ResourceManager__ResourceManagerMediator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Resources::ResourceManager*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Resources::ResourceManager*& System::Resources::__ResourceManager__ResourceManagerMediator::__get__rm() {
+constexpr ::System::Resources::ResourceManager*& System::Resources::__ResourceManager__ResourceManagerMediator::__cordl_internal_get__rm() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rm;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Resources::ResourceManager*> const& System::Resources::__ResourceManager__ResourceManagerMediator::__get__rm() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Resources::ResourceManager*> const& System::Resources::__ResourceManager__ResourceManagerMediator::__cordl_internal_get__rm() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rm;
 }
-constexpr void System::Resources::__ResourceManager__ResourceManagerMediator::__set__rm(::System::Resources::ResourceManager* value) {
+constexpr void System::Resources::__ResourceManager__ResourceManagerMediator::__cordl_internal_set__rm(::System::Resources::ResourceManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rm)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Resources::__ResourceManager__ResourceManagerMediator* System::Resources::__ResourceManager__ResourceManagerMediator::New_ctor(::System::Resources::ResourceManager* rm) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Resources::__ResourceManager__ResourceManagerMediator*>(rm));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Resources::__ResourceManager__ResourceManagerMediator*>(rm));
 }
 inline void System::Resources::__ResourceManager__ResourceManagerMediator::_ctor(::System::Resources::ResourceManager* rm) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::__ResourceManager__ResourceManagerMediator*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Resources::ResourceManager*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::__ResourceManager__ResourceManagerMediator*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Resources::ResourceManager*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rm);
 }
 // Ctor Parameters []
@@ -84,9 +84,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x118;
   constexpr static std::size_t addrs = 0x24e1398;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "Init",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -97,9 +97,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x24e14b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -111,10 +111,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x24e1608;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "OnDeserializing", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "OnDeserializing", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
     return ___internal_method;
   }
 };
@@ -126,10 +126,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1cc;
   constexpr static std::size_t addrs = 0x24e1618;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "OnDeserialized", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "OnDeserialized", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
     return ___internal_method;
   }
 };
@@ -141,10 +141,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x24e17e4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "OnSerializing", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "OnSerializing", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
     return ___internal_method;
   }
 };
@@ -156,144 +156,145 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x254;
   constexpr static std::size_t addrs = 0x24e1854;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "CompareNames", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::AssemblyName*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "CompareNames", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::AssemblyName*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Hashtable*& System::Resources::ResourceManager::__get_ResourceSets() {
+constexpr ::System::Collections::Hashtable*& System::Resources::ResourceManager::__cordl_internal_get_ResourceSets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ResourceSets;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Resources::ResourceManager::__get_ResourceSets() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& System::Resources::ResourceManager::__cordl_internal_get_ResourceSets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ResourceSets;
 }
-constexpr void System::Resources::ResourceManager::__set_ResourceSets(::System::Collections::Hashtable* value) {
+constexpr void System::Resources::ResourceManager::__cordl_internal_set_ResourceSets(::System::Collections::Hashtable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ResourceSets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>*& System::Resources::ResourceManager::__get__resourceSets() {
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>*& System::Resources::ResourceManager::__cordl_internal_get__resourceSets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resourceSets;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>*> const&
-System::Resources::ResourceManager::__get__resourceSets() const {
+System::Resources::ResourceManager::__cordl_internal_get__resourceSets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resourceSets;
 }
-constexpr void System::Resources::ResourceManager::__set__resourceSets(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>* value) {
+constexpr void System::Resources::ResourceManager::__cordl_internal_set__resourceSets(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceSet*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____resourceSets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Reflection::Assembly*& System::Resources::ResourceManager::__get_MainAssembly() {
+constexpr ::System::Reflection::Assembly*& System::Resources::ResourceManager::__cordl_internal_get_MainAssembly() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MainAssembly;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& System::Resources::ResourceManager::__get_MainAssembly() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& System::Resources::ResourceManager::__cordl_internal_get_MainAssembly() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___MainAssembly;
 }
-constexpr void System::Resources::ResourceManager::__set_MainAssembly(::System::Reflection::Assembly* value) {
+constexpr void System::Resources::ResourceManager::__cordl_internal_set_MainAssembly(::System::Reflection::Assembly* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___MainAssembly)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Globalization::CultureInfo*& System::Resources::ResourceManager::__get__neutralResourcesCulture() {
+constexpr ::System::Globalization::CultureInfo*& System::Resources::ResourceManager::__cordl_internal_get__neutralResourcesCulture() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____neutralResourcesCulture;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& System::Resources::ResourceManager::__get__neutralResourcesCulture() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& System::Resources::ResourceManager::__cordl_internal_get__neutralResourcesCulture() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____neutralResourcesCulture;
 }
-constexpr void System::Resources::ResourceManager::__set__neutralResourcesCulture(::System::Globalization::CultureInfo* value) {
+constexpr void System::Resources::ResourceManager::__cordl_internal_set__neutralResourcesCulture(::System::Globalization::CultureInfo* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____neutralResourcesCulture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Resources::__ResourceManager__CultureNameResourceSetPair*& System::Resources::ResourceManager::__get__lastUsedResourceCache() {
+constexpr ::System::Resources::__ResourceManager__CultureNameResourceSetPair*& System::Resources::ResourceManager::__cordl_internal_get__lastUsedResourceCache() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastUsedResourceCache;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Resources::__ResourceManager__CultureNameResourceSetPair*> const& System::Resources::ResourceManager::__get__lastUsedResourceCache() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Resources::__ResourceManager__CultureNameResourceSetPair*> const&
+System::Resources::ResourceManager::__cordl_internal_get__lastUsedResourceCache() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lastUsedResourceCache;
 }
-constexpr void System::Resources::ResourceManager::__set__lastUsedResourceCache(::System::Resources::__ResourceManager__CultureNameResourceSetPair* value) {
+constexpr void System::Resources::ResourceManager::__cordl_internal_set__lastUsedResourceCache(::System::Resources::__ResourceManager__CultureNameResourceSetPair* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lastUsedResourceCache)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::Resources::ResourceManager::__get_UseManifest() {
+constexpr bool& System::Resources::ResourceManager::__cordl_internal_get_UseManifest() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UseManifest;
 }
-constexpr bool const& System::Resources::ResourceManager::__get_UseManifest() const {
+constexpr bool const& System::Resources::ResourceManager::__cordl_internal_get_UseManifest() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UseManifest;
 }
-constexpr void System::Resources::ResourceManager::__set_UseManifest(bool value) {
+constexpr void System::Resources::ResourceManager::__cordl_internal_set_UseManifest(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___UseManifest = value;
 }
-constexpr bool& System::Resources::ResourceManager::__get_UseSatelliteAssem() {
+constexpr bool& System::Resources::ResourceManager::__cordl_internal_get_UseSatelliteAssem() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UseSatelliteAssem;
 }
-constexpr bool const& System::Resources::ResourceManager::__get_UseSatelliteAssem() const {
+constexpr bool const& System::Resources::ResourceManager::__cordl_internal_get_UseSatelliteAssem() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___UseSatelliteAssem;
 }
-constexpr void System::Resources::ResourceManager::__set_UseSatelliteAssem(bool value) {
+constexpr void System::Resources::ResourceManager::__cordl_internal_set_UseSatelliteAssem(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___UseSatelliteAssem = value;
 }
-constexpr ::System::Resources::UltimateResourceFallbackLocation& System::Resources::ResourceManager::__get__fallbackLoc() {
+constexpr ::System::Resources::UltimateResourceFallbackLocation& System::Resources::ResourceManager::__cordl_internal_get__fallbackLoc() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fallbackLoc;
 }
-constexpr ::System::Resources::UltimateResourceFallbackLocation const& System::Resources::ResourceManager::__get__fallbackLoc() const {
+constexpr ::System::Resources::UltimateResourceFallbackLocation const& System::Resources::ResourceManager::__cordl_internal_get__fallbackLoc() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fallbackLoc;
 }
-constexpr void System::Resources::ResourceManager::__set__fallbackLoc(::System::Resources::UltimateResourceFallbackLocation value) {
+constexpr void System::Resources::ResourceManager::__cordl_internal_set__fallbackLoc(::System::Resources::UltimateResourceFallbackLocation value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fallbackLoc = value;
 }
-constexpr ::System::Reflection::Assembly*& System::Resources::ResourceManager::__get__callingAssembly() {
+constexpr ::System::Reflection::Assembly*& System::Resources::ResourceManager::__cordl_internal_get__callingAssembly() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callingAssembly;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& System::Resources::ResourceManager::__get__callingAssembly() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& System::Resources::ResourceManager::__cordl_internal_get__callingAssembly() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____callingAssembly;
 }
-constexpr void System::Resources::ResourceManager::__set__callingAssembly(::System::Reflection::Assembly* value) {
+constexpr void System::Resources::ResourceManager::__cordl_internal_set__callingAssembly(::System::Reflection::Assembly* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____callingAssembly)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Reflection::RuntimeAssembly*& System::Resources::ResourceManager::__get_m_callingAssembly() {
+constexpr ::System::Reflection::RuntimeAssembly*& System::Resources::ResourceManager::__cordl_internal_get_m_callingAssembly() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_callingAssembly;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeAssembly*> const& System::Resources::ResourceManager::__get_m_callingAssembly() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Reflection::RuntimeAssembly*> const& System::Resources::ResourceManager::__cordl_internal_get_m_callingAssembly() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_callingAssembly;
 }
-constexpr void System::Resources::ResourceManager::__set_m_callingAssembly(::System::Reflection::RuntimeAssembly* value) {
+constexpr void System::Resources::ResourceManager::__cordl_internal_set_m_callingAssembly(::System::Reflection::RuntimeAssembly* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_callingAssembly)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Resources::IResourceGroveler*& System::Resources::ResourceManager::__get_resourceGroveler() {
+constexpr ::System::Resources::IResourceGroveler*& System::Resources::ResourceManager::__cordl_internal_get_resourceGroveler() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resourceGroveler;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Resources::IResourceGroveler*> const& System::Resources::ResourceManager::__get_resourceGroveler() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Resources::IResourceGroveler*> const& System::Resources::ResourceManager::__cordl_internal_get_resourceGroveler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resourceGroveler;
 }
-constexpr void System::Resources::ResourceManager::__set_resourceGroveler(::System::Resources::IResourceGroveler* value) {
+constexpr void System::Resources::ResourceManager::__cordl_internal_set_resourceGroveler(::System::Resources::IResourceGroveler* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___resourceGroveler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -342,40 +343,40 @@ inline int32_t System::Resources::ResourceManager::getStaticF_DEBUG() {
 }
 inline void System::Resources::ResourceManager::Init() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "Init",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Resources::ResourceManager* System::Resources::ResourceManager::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Resources::ResourceManager*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Resources::ResourceManager*>());
 }
 inline void System::Resources::ResourceManager::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void System::Resources::ResourceManager::OnDeserializing(::System::Runtime::Serialization::StreamingContext ctx) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "OnDeserializing", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "OnDeserializing", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ctx);
 }
 inline void System::Resources::ResourceManager::OnDeserialized(::System::Runtime::Serialization::StreamingContext ctx) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "OnDeserialized", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "OnDeserialized", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ctx);
 }
 inline void System::Resources::ResourceManager::OnSerializing(::System::Runtime::Serialization::StreamingContext ctx) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "OnSerializing", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "OnSerializing", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ctx);
 }
 inline bool System::Resources::ResourceManager::CompareNames(::StringW asmTypeName1, ::StringW typeName2, ::System::Reflection::AssemblyName* asmName2) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "CompareNames", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::AssemblyName*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceManager*>::get(), "CompareNames", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::AssemblyName*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, asmTypeName1, typeName2, asmName2);
 }
 // Ctor Parameters []

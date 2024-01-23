@@ -43,7 +43,7 @@ MARK_VAL_T(::OVR::OpenVR::IVRResources);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8515))
 // CS Name: ::IVRResources::_LoadSharedResource*
 class CORDL_TYPE __IVRResources___LoadSharedResource : public ::System::MulticastDelegate {
@@ -87,7 +87,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRResources___Lo
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8516))
 // CS Name: ::IVRResources::_GetResourceFullPath*
 class CORDL_TYPE __IVRResources___GetResourceFullPath : public ::System::MulticastDelegate {
@@ -132,7 +132,7 @@ static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRResources___Ge
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8517))
 // CS Name: ::OVR.OpenVR::IVRResources
 struct CORDL_TYPE IVRResources {

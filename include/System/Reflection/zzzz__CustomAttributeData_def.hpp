@@ -59,38 +59,38 @@ MARK_REF_PTR_T(::System::Reflection::__CustomAttributeData__LazyCAttrData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3513))
 // CS Name: ::CustomAttributeData::LazyCAttrData*
 class CORDL_TYPE __CustomAttributeData__LazyCAttrData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field assembly, offset 0x10, size 0x8
-  __declspec(property(get = __get_assembly, put = __set_assembly))::System::Reflection::Assembly* assembly;
+  __declspec(property(get = __cordl_internal_get_assembly, put = __cordl_internal_set_assembly))::System::Reflection::Assembly* assembly;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __get_data, put = __set_data)) void* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) void* data;
 
   /// @brief Field data_length, offset 0x20, size 0x4
-  __declspec(property(get = __get_data_length, put = __set_data_length)) uint32_t data_length;
+  __declspec(property(get = __cordl_internal_get_data_length, put = __cordl_internal_set_data_length)) uint32_t data_length;
 
-  constexpr ::System::Reflection::Assembly*& __get_assembly();
+  constexpr ::System::Reflection::Assembly*& __cordl_internal_get_assembly();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __get_assembly() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::Assembly*> const& __cordl_internal_get_assembly() const;
 
-  constexpr void __set_assembly(::System::Reflection::Assembly* value);
+  constexpr void __cordl_internal_set_assembly(::System::Reflection::Assembly* value);
 
-  constexpr void*& __get_data();
+  constexpr void*& __cordl_internal_get_data();
 
-  constexpr void* const& __get_data() const;
+  constexpr void* const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(void* value);
+  constexpr void __cordl_internal_set_data(void* value);
 
-  constexpr uint32_t& __get_data_length();
+  constexpr uint32_t& __cordl_internal_get_data_length();
 
-  constexpr uint32_t const& __get_data_length() const;
+  constexpr uint32_t const& __cordl_internal_get_data_length() const;
 
-  constexpr void __set_data_length(uint32_t value);
+  constexpr void __cordl_internal_set_data_length(uint32_t value);
 
   static inline ::System::Reflection::__CustomAttributeData__LazyCAttrData* New_ctor();
 
@@ -136,7 +136,7 @@ static_assert(offsetof(::System::Reflection::__CustomAttributeData__LazyCAttrDat
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3514))
 // CS Name: ::System.Reflection::CustomAttributeData*
 class CORDL_TYPE CustomAttributeData : public ::System::Object {
@@ -145,16 +145,17 @@ public:
   using LazyCAttrData = ::System::Reflection::__CustomAttributeData__LazyCAttrData;
 
   /// @brief Field ctorInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_ctorInfo, put = __set_ctorInfo))::System::Reflection::ConstructorInfo* ctorInfo;
+  __declspec(property(get = __cordl_internal_get_ctorInfo, put = __cordl_internal_set_ctorInfo))::System::Reflection::ConstructorInfo* ctorInfo;
 
   /// @brief Field ctorArgs, offset 0x18, size 0x8
-  __declspec(property(get = __get_ctorArgs, put = __set_ctorArgs))::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* ctorArgs;
+  __declspec(property(get = __cordl_internal_get_ctorArgs, put = __cordl_internal_set_ctorArgs))::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* ctorArgs;
 
   /// @brief Field namedArgs, offset 0x20, size 0x8
-  __declspec(property(get = __get_namedArgs, put = __set_namedArgs))::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* namedArgs;
+  __declspec(property(get = __cordl_internal_get_namedArgs,
+                      put = __cordl_internal_set_namedArgs))::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* namedArgs;
 
   /// @brief Field lazyData, offset 0x28, size 0x8
-  __declspec(property(get = __get_lazyData, put = __set_lazyData))::System::Reflection::__CustomAttributeData__LazyCAttrData* lazyData;
+  __declspec(property(get = __cordl_internal_get_lazyData, put = __cordl_internal_set_lazyData))::System::Reflection::__CustomAttributeData__LazyCAttrData* lazyData;
 
   __declspec(property(get = get_Constructor))::System::Reflection::ConstructorInfo* Constructor;
 
@@ -164,29 +165,29 @@ public:
 
   __declspec(property(get = get_AttributeType))::System::Type* AttributeType;
 
-  constexpr ::System::Reflection::ConstructorInfo*& __get_ctorInfo();
+  constexpr ::System::Reflection::ConstructorInfo*& __cordl_internal_get_ctorInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __get_ctorInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::ConstructorInfo*> const& __cordl_internal_get_ctorInfo() const;
 
-  constexpr void __set_ctorInfo(::System::Reflection::ConstructorInfo* value);
+  constexpr void __cordl_internal_set_ctorInfo(::System::Reflection::ConstructorInfo* value);
 
-  constexpr ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>*& __get_ctorArgs();
+  constexpr ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>*& __cordl_internal_get_ctorArgs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>*> const& __get_ctorArgs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>*> const& __cordl_internal_get_ctorArgs() const;
 
-  constexpr void __set_ctorArgs(::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* value);
+  constexpr void __cordl_internal_set_ctorArgs(::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeTypedArgument>* value);
 
-  constexpr ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>*& __get_namedArgs();
+  constexpr ::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>*& __cordl_internal_get_namedArgs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>*> const& __get_namedArgs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>*> const& __cordl_internal_get_namedArgs() const;
 
-  constexpr void __set_namedArgs(::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* value);
+  constexpr void __cordl_internal_set_namedArgs(::System::Collections::Generic::IList_1<::System::Reflection::CustomAttributeNamedArgument>* value);
 
-  constexpr ::System::Reflection::__CustomAttributeData__LazyCAttrData*& __get_lazyData();
+  constexpr ::System::Reflection::__CustomAttributeData__LazyCAttrData*& __cordl_internal_get_lazyData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::__CustomAttributeData__LazyCAttrData*> const& __get_lazyData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::__CustomAttributeData__LazyCAttrData*> const& __cordl_internal_get_lazyData() const;
 
-  constexpr void __set_lazyData(::System::Reflection::__CustomAttributeData__LazyCAttrData* value);
+  constexpr void __cordl_internal_set_lazyData(::System::Reflection::__CustomAttributeData__LazyCAttrData* value);
 
   static inline ::System::Reflection::CustomAttributeData* New_ctor();
 

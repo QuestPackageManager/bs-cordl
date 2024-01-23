@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x448;
   constexpr static std::size_t addrs = 0xf11470;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(), 11));
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0xf118b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(), 12));
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xf118f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(), 13));
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1b0;
   constexpr static std::size_t addrs = 0xf11900;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(), 14));
@@ -70,11 +70,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1fc;
   constexpr static std::size_t addrs = 0xf11ab0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(), "initKey", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(), "initKey", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -85,7 +85,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0xf11cac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(), 15));
@@ -99,7 +99,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24c;
   constexpr static std::size_t addrs = 0xf11d48;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(), 16));
@@ -114,7 +114,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xf4;
   constexpr static std::size_t addrs = 0xf11f94;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(), 17));
@@ -128,9 +128,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0xf12088;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -142,135 +142,135 @@ constexpr Org::BouncyCastle::Crypto::Macs::VmpcMac::operator ::Org::BouncyCastle
 constexpr ::Org::BouncyCastle::Crypto::IMac* Org::BouncyCastle::Crypto::Macs::VmpcMac::i___Org__BouncyCastle__Crypto__IMac() noexcept {
   return static_cast<::Org::BouncyCastle::Crypto::IMac*>(static_cast<void*>(this));
 }
-constexpr uint8_t& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_g() {
+constexpr uint8_t& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_g() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___g;
 }
-constexpr uint8_t const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_g() const {
+constexpr uint8_t const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_g() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___g;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__set_g(uint8_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_set_g(uint8_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___g = value;
 }
-constexpr uint8_t& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_n() {
+constexpr uint8_t& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_n() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___n;
 }
-constexpr uint8_t const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_n() const {
+constexpr uint8_t const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_n() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___n;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__set_n(uint8_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_set_n(uint8_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___n = value;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_P() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_P() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___P;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_P() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_P() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___P;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__set_P(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_set_P(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___P)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr uint8_t& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_s() {
+constexpr uint8_t& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_s() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
-constexpr uint8_t const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_s() const {
+constexpr uint8_t const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_s() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___s;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__set_s(uint8_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_set_s(uint8_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___s = value;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_T() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_T() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___T;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_T() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_T() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___T;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__set_T(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_set_T(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___T)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_workingIV() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_workingIV() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___workingIV;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_workingIV() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_workingIV() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___workingIV;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__set_workingIV(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_set_workingIV(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___workingIV)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_workingKey() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_workingKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___workingKey;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_workingKey() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_workingKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___workingKey;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_set_workingKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___workingKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr uint8_t& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_x1() {
+constexpr uint8_t& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_x1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x1;
 }
-constexpr uint8_t const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_x1() const {
+constexpr uint8_t const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_x1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x1;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__set_x1(uint8_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_set_x1(uint8_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___x1 = value;
 }
-constexpr uint8_t& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_x2() {
+constexpr uint8_t& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_x2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x2;
 }
-constexpr uint8_t const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_x2() const {
+constexpr uint8_t const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_x2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x2;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__set_x2(uint8_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_set_x2(uint8_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___x2 = value;
 }
-constexpr uint8_t& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_x3() {
+constexpr uint8_t& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_x3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x3;
 }
-constexpr uint8_t const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_x3() const {
+constexpr uint8_t const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_x3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x3;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__set_x3(uint8_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_set_x3(uint8_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___x3 = value;
 }
-constexpr uint8_t& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_x4() {
+constexpr uint8_t& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_x4() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x4;
 }
-constexpr uint8_t const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__get_x4() const {
+constexpr uint8_t const& Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_get_x4() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___x4;
 }
-constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__set_x4(uint8_t value) {
+constexpr void Org::BouncyCastle::Crypto::Macs::VmpcMac::__cordl_internal_set_x4(uint8_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___x4 = value;
 }
@@ -295,10 +295,10 @@ inline void Org::BouncyCastle::Crypto::Macs::VmpcMac::Init(::Org::BouncyCastle::
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, parameters);
 }
 inline void Org::BouncyCastle::Crypto::Macs::VmpcMac::initKey(::ArrayW<uint8_t, ::Array<uint8_t>*> keyBytes, ::ArrayW<uint8_t, ::Array<uint8_t>*> ivBytes) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(), "initKey", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(), "initKey", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint8_t, ::Array<uint8_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, keyBytes, ivBytes);
 }
 inline void Org::BouncyCastle::Crypto::Macs::VmpcMac::Reset() {
@@ -317,11 +317,11 @@ inline void Org::BouncyCastle::Crypto::Macs::VmpcMac::BlockUpdate(::ArrayW<uint8
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, input, inOff, len);
 }
 inline ::Org::BouncyCastle::Crypto::Macs::VmpcMac* Org::BouncyCastle::Crypto::Macs::VmpcMac::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>());
 }
 inline void Org::BouncyCastle::Crypto::Macs::VmpcMac::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::VmpcMac*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -27,7 +27,7 @@ MARK_VAL_T(::System::Net::NetworkInformation::AixStructs::ifreq);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9301))
 // CS Name: ::ifreq::<ifr_name>e__FixedBuffer
 #pragma pack(push, 0)
@@ -63,7 +63,7 @@ static_assert(offsetof(::System::Net::NetworkInformation::AixStructs::__ifreq___
 // SizeInfo { instance_size: 18, native_size: 18, calculated_instance_size: 18, calculated_native_size: 34, minimum_alignment: 1, natural_alignment: 1, packing: Some(1), specified_packing: Some(0) }
 namespace System::Net::NetworkInformation::AixStructs {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9301)), TypeDefinitionIndex(TypeDefinitionIndex(9307))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9301)), TypeDefinitionIndex(TypeDefinitionIndex(9307))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9302))
 // CS Name: ::System.Net.NetworkInformation.AixStructs::ifreq
 #pragma pack(push, 0)
@@ -73,22 +73,22 @@ public:
   using _ifr_name_e__FixedBuffer = ::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer;
 
   /// @brief Field ifr_name, offset 0x0, size 0x10
-  __declspec(property(get = __get_ifr_name, put = __set_ifr_name))::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer ifr_name;
+  __declspec(property(get = __cordl_internal_get_ifr_name, put = __cordl_internal_set_ifr_name))::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer ifr_name;
 
   /// @brief Field ifru_addr, offset 0x10, size 0x2
-  __declspec(property(get = __get_ifru_addr, put = __set_ifru_addr))::System::Net::NetworkInformation::AixStructs::sockaddr ifru_addr;
+  __declspec(property(get = __cordl_internal_get_ifru_addr, put = __cordl_internal_set_ifru_addr))::System::Net::NetworkInformation::AixStructs::sockaddr ifru_addr;
 
-  constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer& __get_ifr_name();
+  constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer& __cordl_internal_get_ifr_name();
 
-  constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer const& __get_ifr_name() const;
+  constexpr ::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer const& __cordl_internal_get_ifr_name() const;
 
-  constexpr void __set_ifr_name(::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer value);
+  constexpr void __cordl_internal_set_ifr_name(::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer value);
 
-  constexpr ::System::Net::NetworkInformation::AixStructs::sockaddr& __get_ifru_addr();
+  constexpr ::System::Net::NetworkInformation::AixStructs::sockaddr& __cordl_internal_get_ifru_addr();
 
-  constexpr ::System::Net::NetworkInformation::AixStructs::sockaddr const& __get_ifru_addr() const;
+  constexpr ::System::Net::NetworkInformation::AixStructs::sockaddr const& __cordl_internal_get_ifru_addr() const;
 
-  constexpr void __set_ifru_addr(::System::Net::NetworkInformation::AixStructs::sockaddr value);
+  constexpr void __cordl_internal_set_ifru_addr(::System::Net::NetworkInformation::AixStructs::sockaddr value);
 
   // Ctor Parameters [CppParam { name: "ifr_name", ty: "::System::Net::NetworkInformation::AixStructs::__ifreq___ifr_name_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name:
   // "ifru_addr", ty: "::System::Net::NetworkInformation::AixStructs::sockaddr", modifiers: "", def_value: None }]

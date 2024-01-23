@@ -23,17 +23,18 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1717 }), TypeDefinitionIndex(TypeDefinitionIndex(7180))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1717 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7150))
 // CS Name: ::UnityEngine.UIElements::PointerCaptureEventBase`1<T>*
 class CORDL_TYPE PointerCaptureEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
   /// @brief Field <relatedTarget>k__BackingField, offset 0x80, size 0x8
-  __declspec(property(get = __get__relatedTarget_k__BackingField, put = __set__relatedTarget_k__BackingField))::UnityEngine::UIElements::IEventHandler* _relatedTarget_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__relatedTarget_k__BackingField,
+                      put = __cordl_internal_set__relatedTarget_k__BackingField))::UnityEngine::UIElements::IEventHandler* _relatedTarget_k__BackingField;
 
   /// @brief Field <pointerId>k__BackingField, offset 0x88, size 0x4
-  __declspec(property(get = __get__pointerId_k__BackingField, put = __set__pointerId_k__BackingField)) int32_t _pointerId_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__pointerId_k__BackingField, put = __cordl_internal_set__pointerId_k__BackingField)) int32_t _pointerId_k__BackingField;
 
   __declspec(property(put = set_relatedTarget))::UnityEngine::UIElements::IEventHandler* relatedTarget;
 
@@ -45,17 +46,17 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IPointerCaptureEventInternal"
   constexpr ::UnityEngine::UIElements::IPointerCaptureEventInternal* i___UnityEngine__UIElements__IPointerCaptureEventInternal() noexcept;
 
-  constexpr ::UnityEngine::UIElements::IEventHandler*& __get__relatedTarget_k__BackingField();
+  constexpr ::UnityEngine::UIElements::IEventHandler*& __cordl_internal_get__relatedTarget_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IEventHandler*> const& __get__relatedTarget_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IEventHandler*> const& __cordl_internal_get__relatedTarget_k__BackingField() const;
 
-  constexpr void __set__relatedTarget_k__BackingField(::UnityEngine::UIElements::IEventHandler* value);
+  constexpr void __cordl_internal_set__relatedTarget_k__BackingField(::UnityEngine::UIElements::IEventHandler* value);
 
-  constexpr int32_t& __get__pointerId_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__pointerId_k__BackingField();
 
-  constexpr int32_t const& __get__pointerId_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__pointerId_k__BackingField() const;
 
-  constexpr void __set__pointerId_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__pointerId_k__BackingField(int32_t value);
 
   /// @brief Method set_relatedTarget, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_relatedTarget(::UnityEngine::UIElements::IEventHandler* value);

@@ -32,7 +32,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::JoystickState);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6500))
 // CS Name: ::JoystickState::Button
 struct CORDL_TYPE __JoystickState__Button {
@@ -94,7 +94,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__JoystickState__Bu
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6501))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::JoystickState
 struct CORDL_TYPE JoystickState {

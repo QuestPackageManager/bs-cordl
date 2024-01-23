@@ -39,17 +39,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::TimeStampTokenInfo);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1772))
 // CS Name: ::Org.BouncyCastle.Tsp::TimeStampTokenInfo*
 class CORDL_TYPE TimeStampTokenInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tstInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_tstInfo, put = __set_tstInfo))::Org::BouncyCastle::Asn1::Tsp::TstInfo* tstInfo;
+  __declspec(property(get = __cordl_internal_get_tstInfo, put = __cordl_internal_set_tstInfo))::Org::BouncyCastle::Asn1::Tsp::TstInfo* tstInfo;
 
   /// @brief Field genTime, offset 0x18, size 0x8
-  __declspec(property(get = __get_genTime, put = __set_genTime))::System::DateTime genTime;
+  __declspec(property(get = __cordl_internal_get_genTime, put = __cordl_internal_set_genTime))::System::DateTime genTime;
 
   __declspec(property(get = get_IsOrdered)) bool IsOrdered;
 
@@ -73,17 +73,17 @@ public:
 
   __declspec(property(get = get_TstInfo))::Org::BouncyCastle::Asn1::Tsp::TstInfo* TstInfo;
 
-  constexpr ::Org::BouncyCastle::Asn1::Tsp::TstInfo*& __get_tstInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Tsp::TstInfo*& __cordl_internal_get_tstInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Tsp::TstInfo*> const& __get_tstInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Tsp::TstInfo*> const& __cordl_internal_get_tstInfo() const;
 
-  constexpr void __set_tstInfo(::Org::BouncyCastle::Asn1::Tsp::TstInfo* value);
+  constexpr void __cordl_internal_set_tstInfo(::Org::BouncyCastle::Asn1::Tsp::TstInfo* value);
 
-  constexpr ::System::DateTime& __get_genTime();
+  constexpr ::System::DateTime& __cordl_internal_get_genTime();
 
-  constexpr ::System::DateTime const& __get_genTime() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_genTime() const;
 
-  constexpr void __set_genTime(::System::DateTime value);
+  constexpr void __cordl_internal_set_genTime(::System::DateTime value);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampTokenInfo* New_ctor(::Org::BouncyCastle::Asn1::Tsp::TstInfo* tstInfo);
 

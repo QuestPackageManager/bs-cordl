@@ -24,65 +24,65 @@ MARK_REF_PTR_T(::GlobalNamespace::LightRotationBaseData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16090)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14736))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14736)), TypeDefinitionIndex(TypeDefinitionIndex(16090))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4323))
 // CS Name: ::LightRotationBaseData*
 class CORDL_TYPE LightRotationBaseData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field beat, offset 0x10, size 0x4
-  __declspec(property(get = __get_beat, put = __set_beat)) float_t beat;
+  __declspec(property(get = __cordl_internal_get_beat, put = __cordl_internal_set_beat)) float_t beat;
 
   /// @brief Field usePreviousEventRotationValue, offset 0x14, size 0x1
-  __declspec(property(get = __get_usePreviousEventRotationValue, put = __set_usePreviousEventRotationValue)) bool usePreviousEventRotationValue;
+  __declspec(property(get = __cordl_internal_get_usePreviousEventRotationValue, put = __cordl_internal_set_usePreviousEventRotationValue)) bool usePreviousEventRotationValue;
 
   /// @brief Field easeType, offset 0x18, size 0x4
-  __declspec(property(get = __get_easeType, put = __set_easeType))::GlobalNamespace::EaseType easeType;
+  __declspec(property(get = __cordl_internal_get_easeType, put = __cordl_internal_set_easeType))::GlobalNamespace::EaseType easeType;
 
   /// @brief Field rotation, offset 0x1c, size 0x4
-  __declspec(property(get = __get_rotation, put = __set_rotation)) float_t rotation;
+  __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation)) float_t rotation;
 
   /// @brief Field loopsCount, offset 0x20, size 0x4
-  __declspec(property(get = __get_loopsCount, put = __set_loopsCount)) int32_t loopsCount;
+  __declspec(property(get = __cordl_internal_get_loopsCount, put = __cordl_internal_set_loopsCount)) int32_t loopsCount;
 
   /// @brief Field rotationDirection, offset 0x24, size 0x4
-  __declspec(property(get = __get_rotationDirection, put = __set_rotationDirection))::GlobalNamespace::LightRotationDirection rotationDirection;
+  __declspec(property(get = __cordl_internal_get_rotationDirection, put = __cordl_internal_set_rotationDirection))::GlobalNamespace::LightRotationDirection rotationDirection;
 
-  constexpr float_t& __get_beat();
+  constexpr float_t& __cordl_internal_get_beat();
 
-  constexpr float_t const& __get_beat() const;
+  constexpr float_t const& __cordl_internal_get_beat() const;
 
-  constexpr void __set_beat(float_t value);
+  constexpr void __cordl_internal_set_beat(float_t value);
 
-  constexpr bool& __get_usePreviousEventRotationValue();
+  constexpr bool& __cordl_internal_get_usePreviousEventRotationValue();
 
-  constexpr bool const& __get_usePreviousEventRotationValue() const;
+  constexpr bool const& __cordl_internal_get_usePreviousEventRotationValue() const;
 
-  constexpr void __set_usePreviousEventRotationValue(bool value);
+  constexpr void __cordl_internal_set_usePreviousEventRotationValue(bool value);
 
-  constexpr ::GlobalNamespace::EaseType& __get_easeType();
+  constexpr ::GlobalNamespace::EaseType& __cordl_internal_get_easeType();
 
-  constexpr ::GlobalNamespace::EaseType const& __get_easeType() const;
+  constexpr ::GlobalNamespace::EaseType const& __cordl_internal_get_easeType() const;
 
-  constexpr void __set_easeType(::GlobalNamespace::EaseType value);
+  constexpr void __cordl_internal_set_easeType(::GlobalNamespace::EaseType value);
 
-  constexpr float_t& __get_rotation();
+  constexpr float_t& __cordl_internal_get_rotation();
 
-  constexpr float_t const& __get_rotation() const;
+  constexpr float_t const& __cordl_internal_get_rotation() const;
 
-  constexpr void __set_rotation(float_t value);
+  constexpr void __cordl_internal_set_rotation(float_t value);
 
-  constexpr int32_t& __get_loopsCount();
+  constexpr int32_t& __cordl_internal_get_loopsCount();
 
-  constexpr int32_t const& __get_loopsCount() const;
+  constexpr int32_t const& __cordl_internal_get_loopsCount() const;
 
-  constexpr void __set_loopsCount(int32_t value);
+  constexpr void __cordl_internal_set_loopsCount(int32_t value);
 
-  constexpr ::GlobalNamespace::LightRotationDirection& __get_rotationDirection();
+  constexpr ::GlobalNamespace::LightRotationDirection& __cordl_internal_get_rotationDirection();
 
-  constexpr ::GlobalNamespace::LightRotationDirection const& __get_rotationDirection() const;
+  constexpr ::GlobalNamespace::LightRotationDirection const& __cordl_internal_get_rotationDirection() const;
 
-  constexpr void __set_rotationDirection(::GlobalNamespace::LightRotationDirection value);
+  constexpr void __cordl_internal_set_rotationDirection(::GlobalNamespace::LightRotationDirection value);
 
   static inline ::GlobalNamespace::LightRotationBaseData* New_ctor(float_t beat, bool usePreviousEventRotationValue, ::GlobalNamespace::EaseType easeType, float_t rotation, int32_t loopsCount,
                                                                    ::GlobalNamespace::LightRotationDirection rotationDirection);

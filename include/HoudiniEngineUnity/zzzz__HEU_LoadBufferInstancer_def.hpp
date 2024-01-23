@@ -20,57 +20,57 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_LoadBufferInstancer);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9804))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9804))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9808))
 // CS Name: ::HoudiniEngineUnity::HEU_LoadBufferInstancer*
 class CORDL_TYPE HEU_LoadBufferInstancer : public ::HoudiniEngineUnity::HEU_LoadBufferBase {
 public:
   // Declarations
   /// @brief Field _instanceTransforms, offset 0x30, size 0x8
-  __declspec(property(get = __get__instanceTransforms,
-                      put = __set__instanceTransforms))::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*> _instanceTransforms;
+  __declspec(property(get = __cordl_internal_get__instanceTransforms,
+                      put = __cordl_internal_set__instanceTransforms))::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*> _instanceTransforms;
 
   /// @brief Field _instancePrefixes, offset 0x38, size 0x8
-  __declspec(property(get = __get__instancePrefixes, put = __set__instancePrefixes))::ArrayW<::StringW, ::Array<::StringW>*> _instancePrefixes;
+  __declspec(property(get = __cordl_internal_get__instancePrefixes, put = __cordl_internal_set__instancePrefixes))::ArrayW<::StringW, ::Array<::StringW>*> _instancePrefixes;
 
   /// @brief Field _instanceNodeIDs, offset 0x40, size 0x8
-  __declspec(property(get = __get__instanceNodeIDs, put = __set__instanceNodeIDs))::ArrayW<int32_t, ::Array<int32_t>*> _instanceNodeIDs;
+  __declspec(property(get = __cordl_internal_get__instanceNodeIDs, put = __cordl_internal_set__instanceNodeIDs))::ArrayW<int32_t, ::Array<int32_t>*> _instanceNodeIDs;
 
   /// @brief Field _assetPaths, offset 0x48, size 0x8
-  __declspec(property(get = __get__assetPaths, put = __set__assetPaths))::ArrayW<::StringW, ::Array<::StringW>*> _assetPaths;
+  __declspec(property(get = __cordl_internal_get__assetPaths, put = __cordl_internal_set__assetPaths))::ArrayW<::StringW, ::Array<::StringW>*> _assetPaths;
 
   /// @brief Field _collisionAssetPaths, offset 0x50, size 0x8
-  __declspec(property(get = __get__collisionAssetPaths, put = __set__collisionAssetPaths))::ArrayW<::StringW, ::Array<::StringW>*> _collisionAssetPaths;
+  __declspec(property(get = __cordl_internal_get__collisionAssetPaths, put = __cordl_internal_set__collisionAssetPaths))::ArrayW<::StringW, ::Array<::StringW>*> _collisionAssetPaths;
 
-  constexpr ::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*>& __get__instanceTransforms();
+  constexpr ::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*>& __cordl_internal_get__instanceTransforms();
 
-  constexpr ::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*> const& __get__instanceTransforms() const;
+  constexpr ::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*> const& __cordl_internal_get__instanceTransforms() const;
 
-  constexpr void __set__instanceTransforms(::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*> value);
+  constexpr void __cordl_internal_set__instanceTransforms(::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__instancePrefixes();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__instancePrefixes();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__instancePrefixes() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__instancePrefixes() const;
 
-  constexpr void __set__instancePrefixes(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__instancePrefixes(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__instanceNodeIDs();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__instanceNodeIDs();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__instanceNodeIDs() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__instanceNodeIDs() const;
 
-  constexpr void __set__instanceNodeIDs(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__instanceNodeIDs(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__assetPaths();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__assetPaths();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__assetPaths() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__assetPaths() const;
 
-  constexpr void __set__assetPaths(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__assetPaths(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__collisionAssetPaths();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__collisionAssetPaths();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__collisionAssetPaths() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__collisionAssetPaths() const;
 
-  constexpr void __set__collisionAssetPaths(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__collisionAssetPaths(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
   static inline ::HoudiniEngineUnity::HEU_LoadBufferInstancer* New_ctor();
 

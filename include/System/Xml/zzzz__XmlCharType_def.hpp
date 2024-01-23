@@ -21,7 +21,7 @@ MARK_VAL_T(::System::Xml::XmlCharType);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11544))
 // CS Name: ::System.Xml::XmlCharType
 struct CORDL_TYPE XmlCharType {

@@ -23,32 +23,32 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Macs::Gost28147Mac);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Macs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(942))
 // CS Name: ::Org.BouncyCastle.Crypto.Macs::Gost28147Mac*
 class CORDL_TYPE Gost28147Mac : public ::System::Object {
 public:
   // Declarations
   /// @brief Field bufOff, offset 0x10, size 0x4
-  __declspec(property(get = __get_bufOff, put = __set_bufOff)) int32_t bufOff;
+  __declspec(property(get = __cordl_internal_get_bufOff, put = __cordl_internal_set_bufOff)) int32_t bufOff;
 
   /// @brief Field buf, offset 0x18, size 0x8
-  __declspec(property(get = __get_buf, put = __set_buf))::ArrayW<uint8_t, ::Array<uint8_t>*> buf;
+  __declspec(property(get = __cordl_internal_get_buf, put = __cordl_internal_set_buf))::ArrayW<uint8_t, ::Array<uint8_t>*> buf;
 
   /// @brief Field mac, offset 0x20, size 0x8
-  __declspec(property(get = __get_mac, put = __set_mac))::ArrayW<uint8_t, ::Array<uint8_t>*> mac;
+  __declspec(property(get = __cordl_internal_get_mac, put = __cordl_internal_set_mac))::ArrayW<uint8_t, ::Array<uint8_t>*> mac;
 
   /// @brief Field firstStep, offset 0x28, size 0x1
-  __declspec(property(get = __get_firstStep, put = __set_firstStep)) bool firstStep;
+  __declspec(property(get = __cordl_internal_get_firstStep, put = __cordl_internal_set_firstStep)) bool firstStep;
 
   /// @brief Field workingKey, offset 0x30, size 0x8
-  __declspec(property(get = __get_workingKey, put = __set_workingKey))::ArrayW<int32_t, ::Array<int32_t>*> workingKey;
+  __declspec(property(get = __cordl_internal_get_workingKey, put = __cordl_internal_set_workingKey))::ArrayW<int32_t, ::Array<int32_t>*> workingKey;
 
   /// @brief Field macIV, offset 0x38, size 0x8
-  __declspec(property(get = __get_macIV, put = __set_macIV))::ArrayW<uint8_t, ::Array<uint8_t>*> macIV;
+  __declspec(property(get = __cordl_internal_get_macIV, put = __cordl_internal_set_macIV))::ArrayW<uint8_t, ::Array<uint8_t>*> macIV;
 
   /// @brief Field S, offset 0x40, size 0x8
-  __declspec(property(get = __get_S, put = __set_S))::ArrayW<uint8_t, ::Array<uint8_t>*> S;
+  __declspec(property(get = __cordl_internal_get_S, put = __cordl_internal_set_S))::ArrayW<uint8_t, ::Array<uint8_t>*> S;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -58,47 +58,47 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
   constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
-  constexpr int32_t& __get_bufOff();
+  constexpr int32_t& __cordl_internal_get_bufOff();
 
-  constexpr int32_t const& __get_bufOff() const;
+  constexpr int32_t const& __cordl_internal_get_bufOff() const;
 
-  constexpr void __set_bufOff(int32_t value);
+  constexpr void __cordl_internal_set_bufOff(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_buf();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buf();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_buf() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buf() const;
 
-  constexpr void __set_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_buf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mac();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mac();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mac() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mac() const;
 
-  constexpr void __set_mac(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mac(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get_firstStep();
+  constexpr bool& __cordl_internal_get_firstStep();
 
-  constexpr bool const& __get_firstStep() const;
+  constexpr bool const& __cordl_internal_get_firstStep() const;
 
-  constexpr void __set_firstStep(bool value);
+  constexpr void __cordl_internal_set_firstStep(bool value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_workingKey();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_workingKey();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_workingKey() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_workingKey() const;
 
-  constexpr void __set_workingKey(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_workingKey(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_macIV();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_macIV();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_macIV() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_macIV() const;
 
-  constexpr void __set_macIV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_macIV(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_S();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_S();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_S() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_S() const;
 
-  constexpr void __set_S(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_S(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::Gost28147Mac* New_ctor();
 

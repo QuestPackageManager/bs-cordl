@@ -37,40 +37,40 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CADMethodReturnMessage);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3155))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3155))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3157))
 // CS Name: ::System.Runtime.Remoting.Messaging::CADMethodReturnMessage*
 class CORDL_TYPE CADMethodReturnMessage : public ::System::Runtime::Remoting::Messaging::CADMessageBase {
 public:
   // Declarations
   /// @brief Field _returnValue, offset 0x38, size 0x8
-  __declspec(property(get = __get__returnValue, put = __set__returnValue))::System::Object* _returnValue;
+  __declspec(property(get = __cordl_internal_get__returnValue, put = __cordl_internal_set__returnValue))::System::Object* _returnValue;
 
   /// @brief Field _exception, offset 0x40, size 0x8
-  __declspec(property(get = __get__exception, put = __set__exception))::System::Runtime::Remoting::Messaging::CADArgHolder* _exception;
+  __declspec(property(get = __cordl_internal_get__exception, put = __cordl_internal_set__exception))::System::Runtime::Remoting::Messaging::CADArgHolder* _exception;
 
   /// @brief Field _sig, offset 0x48, size 0x8
-  __declspec(property(get = __get__sig, put = __set__sig))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _sig;
+  __declspec(property(get = __cordl_internal_get__sig, put = __cordl_internal_set__sig))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _sig;
 
   __declspec(property(get = get_PropertiesCount)) int32_t PropertiesCount;
 
-  constexpr ::System::Object*& __get__returnValue();
+  constexpr ::System::Object*& __cordl_internal_get__returnValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__returnValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__returnValue() const;
 
-  constexpr void __set__returnValue(::System::Object* value);
+  constexpr void __cordl_internal_set__returnValue(::System::Object* value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::CADArgHolder*& __get__exception();
+  constexpr ::System::Runtime::Remoting::Messaging::CADArgHolder*& __cordl_internal_get__exception();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::CADArgHolder*> const& __get__exception() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::CADArgHolder*> const& __cordl_internal_get__exception() const;
 
-  constexpr void __set__exception(::System::Runtime::Remoting::Messaging::CADArgHolder* value);
+  constexpr void __cordl_internal_set__exception(::System::Runtime::Remoting::Messaging::CADArgHolder* value);
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __get__sig();
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get__sig();
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __get__sig() const;
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get__sig() const;
 
-  constexpr void __set__sig(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+  constexpr void __cordl_internal_set__sig(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
   /// @brief Method Create, addr 0x24aa504, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* Create(::System::Runtime::Remoting::Messaging::IMessage* callMsg);

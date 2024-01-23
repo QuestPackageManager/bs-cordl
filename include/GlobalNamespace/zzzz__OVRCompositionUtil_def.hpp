@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRCompositionUtil);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7505))
 // CS Name: ::OVRCompositionUtil*
 class CORDL_TYPE OVRCompositionUtil : public ::System::Object {
@@ -53,7 +53,7 @@ public:
   static inline float_t GetMaximumBoundaryDistance(::UnityEngine::Camera* camera, ::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType);
 
   /// @brief Method BuildBoundaryMesh, addr 0x270da90, size 0x480, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Mesh* BuildBoundaryMesh(::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType, float_t topY, float_t bottomY);
+  static inline ::UnityW<::UnityEngine::Mesh> BuildBoundaryMesh(::GlobalNamespace::__OVRBoundary__BoundaryType boundaryType, float_t topY, float_t bottomY);
 
   static inline ::GlobalNamespace::OVRCompositionUtil* New_ctor();
 

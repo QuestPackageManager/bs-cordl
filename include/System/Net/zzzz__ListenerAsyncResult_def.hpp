@@ -38,44 +38,44 @@ MARK_REF_PTR_T(::System::Net::ListenerAsyncResult);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 82, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9189))
 // CS Name: ::System.Net::ListenerAsyncResult*
 class CORDL_TYPE ListenerAsyncResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field handle, offset 0x10, size 0x8
-  __declspec(property(get = __get_handle, put = __set_handle))::System::Threading::ManualResetEvent* handle;
+  __declspec(property(get = __cordl_internal_get_handle, put = __cordl_internal_set_handle))::System::Threading::ManualResetEvent* handle;
 
   /// @brief Field synch, offset 0x18, size 0x1
-  __declspec(property(get = __get_synch, put = __set_synch)) bool synch;
+  __declspec(property(get = __cordl_internal_get_synch, put = __cordl_internal_set_synch)) bool synch;
 
   /// @brief Field completed, offset 0x19, size 0x1
-  __declspec(property(get = __get_completed, put = __set_completed)) bool completed;
+  __declspec(property(get = __cordl_internal_get_completed, put = __cordl_internal_set_completed)) bool completed;
 
   /// @brief Field cb, offset 0x20, size 0x8
-  __declspec(property(get = __get_cb, put = __set_cb))::System::AsyncCallback* cb;
+  __declspec(property(get = __cordl_internal_get_cb, put = __cordl_internal_set_cb))::System::AsyncCallback* cb;
 
   /// @brief Field state, offset 0x28, size 0x8
-  __declspec(property(get = __get_state, put = __set_state))::System::Object* state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::Object* state;
 
   /// @brief Field exception, offset 0x30, size 0x8
-  __declspec(property(get = __get_exception, put = __set_exception))::System::Exception* exception;
+  __declspec(property(get = __cordl_internal_get_exception, put = __cordl_internal_set_exception))::System::Exception* exception;
 
   /// @brief Field context, offset 0x38, size 0x8
-  __declspec(property(get = __get_context, put = __set_context))::System::Net::HttpListenerContext* context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::System::Net::HttpListenerContext* context;
 
   /// @brief Field locker, offset 0x40, size 0x8
-  __declspec(property(get = __get_locker, put = __set_locker))::System::Object* locker;
+  __declspec(property(get = __cordl_internal_get_locker, put = __cordl_internal_set_locker))::System::Object* locker;
 
   /// @brief Field forward, offset 0x48, size 0x8
-  __declspec(property(get = __get_forward, put = __set_forward))::System::Net::ListenerAsyncResult* forward;
+  __declspec(property(get = __cordl_internal_get_forward, put = __cordl_internal_set_forward))::System::Net::ListenerAsyncResult* forward;
 
   /// @brief Field EndCalled, offset 0x50, size 0x1
-  __declspec(property(get = __get_EndCalled, put = __set_EndCalled)) bool EndCalled;
+  __declspec(property(get = __cordl_internal_get_EndCalled, put = __cordl_internal_set_EndCalled)) bool EndCalled;
 
   /// @brief Field InGet, offset 0x51, size 0x1
-  __declspec(property(get = __get_InGet, put = __set_InGet)) bool InGet;
+  __declspec(property(get = __cordl_internal_get_InGet, put = __cordl_internal_set_InGet)) bool InGet;
 
   /// @brief Field InvokeCB, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_InvokeCB, put = setStaticF_InvokeCB))::System::Threading::WaitCallback* InvokeCB;
@@ -94,71 +94,71 @@ public:
   /// @brief Convert to "::System::IAsyncResult"
   constexpr ::System::IAsyncResult* i___System__IAsyncResult() noexcept;
 
-  constexpr ::System::Threading::ManualResetEvent*& __get_handle();
+  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get_handle();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __get_handle() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get_handle() const;
 
-  constexpr void __set_handle(::System::Threading::ManualResetEvent* value);
+  constexpr void __cordl_internal_set_handle(::System::Threading::ManualResetEvent* value);
 
-  constexpr bool& __get_synch();
+  constexpr bool& __cordl_internal_get_synch();
 
-  constexpr bool const& __get_synch() const;
+  constexpr bool const& __cordl_internal_get_synch() const;
 
-  constexpr void __set_synch(bool value);
+  constexpr void __cordl_internal_set_synch(bool value);
 
-  constexpr bool& __get_completed();
+  constexpr bool& __cordl_internal_get_completed();
 
-  constexpr bool const& __get_completed() const;
+  constexpr bool const& __cordl_internal_get_completed() const;
 
-  constexpr void __set_completed(bool value);
+  constexpr void __cordl_internal_set_completed(bool value);
 
-  constexpr ::System::AsyncCallback*& __get_cb();
+  constexpr ::System::AsyncCallback*& __cordl_internal_get_cb();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __get_cb() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __cordl_internal_get_cb() const;
 
-  constexpr void __set_cb(::System::AsyncCallback* value);
+  constexpr void __cordl_internal_set_cb(::System::AsyncCallback* value);
 
-  constexpr ::System::Object*& __get_state();
+  constexpr ::System::Object*& __cordl_internal_get_state();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_state() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(::System::Object* value);
+  constexpr void __cordl_internal_set_state(::System::Object* value);
 
-  constexpr ::System::Exception*& __get_exception();
+  constexpr ::System::Exception*& __cordl_internal_get_exception();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __get_exception() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Exception*> const& __cordl_internal_get_exception() const;
 
-  constexpr void __set_exception(::System::Exception* value);
+  constexpr void __cordl_internal_set_exception(::System::Exception* value);
 
-  constexpr ::System::Net::HttpListenerContext*& __get_context();
+  constexpr ::System::Net::HttpListenerContext*& __cordl_internal_get_context();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerContext*> const& __get_context() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerContext*> const& __cordl_internal_get_context() const;
 
-  constexpr void __set_context(::System::Net::HttpListenerContext* value);
+  constexpr void __cordl_internal_set_context(::System::Net::HttpListenerContext* value);
 
-  constexpr ::System::Object*& __get_locker();
+  constexpr ::System::Object*& __cordl_internal_get_locker();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_locker() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_locker() const;
 
-  constexpr void __set_locker(::System::Object* value);
+  constexpr void __cordl_internal_set_locker(::System::Object* value);
 
-  constexpr ::System::Net::ListenerAsyncResult*& __get_forward();
+  constexpr ::System::Net::ListenerAsyncResult*& __cordl_internal_get_forward();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ListenerAsyncResult*> const& __get_forward() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ListenerAsyncResult*> const& __cordl_internal_get_forward() const;
 
-  constexpr void __set_forward(::System::Net::ListenerAsyncResult* value);
+  constexpr void __cordl_internal_set_forward(::System::Net::ListenerAsyncResult* value);
 
-  constexpr bool& __get_EndCalled();
+  constexpr bool& __cordl_internal_get_EndCalled();
 
-  constexpr bool const& __get_EndCalled() const;
+  constexpr bool const& __cordl_internal_get_EndCalled() const;
 
-  constexpr void __set_EndCalled(bool value);
+  constexpr void __cordl_internal_set_EndCalled(bool value);
 
-  constexpr bool& __get_InGet();
+  constexpr bool& __cordl_internal_get_InGet();
 
-  constexpr bool const& __get_InGet() const;
+  constexpr bool const& __cordl_internal_get_InGet() const;
 
-  constexpr void __set_InGet(bool value);
+  constexpr void __cordl_internal_set_InGet(bool value);
 
   static inline void setStaticF_InvokeCB(::System::Threading::WaitCallback* value);
 

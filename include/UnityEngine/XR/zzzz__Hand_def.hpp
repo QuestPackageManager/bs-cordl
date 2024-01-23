@@ -21,7 +21,7 @@ MARK_VAL_T(::UnityEngine::XR::Hand);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15622))
 // CS Name: ::UnityEngine.XR::Hand
 struct CORDL_TYPE Hand {

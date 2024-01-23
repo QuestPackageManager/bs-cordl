@@ -18,29 +18,29 @@ MARK_REF_PTR_T(::GlobalNamespace::Vector3TransitionSO);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5443)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5443)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5464))
 // CS Name: ::Vector3TransitionSO*
 class CORDL_TYPE Vector3TransitionSO : public ::GlobalNamespace::BaseTransitionSO {
 public:
   // Declarations
   /// @brief Field _normalState, offset 0x20, size 0xc
-  __declspec(property(get = __get__normalState, put = __set__normalState))::UnityEngine::Vector3 _normalState;
+  __declspec(property(get = __cordl_internal_get__normalState, put = __cordl_internal_set__normalState))::UnityEngine::Vector3 _normalState;
 
   /// @brief Field _highlightedState, offset 0x2c, size 0xc
-  __declspec(property(get = __get__highlightedState, put = __set__highlightedState))::UnityEngine::Vector3 _highlightedState;
+  __declspec(property(get = __cordl_internal_get__highlightedState, put = __cordl_internal_set__highlightedState))::UnityEngine::Vector3 _highlightedState;
 
   /// @brief Field _pressedState, offset 0x38, size 0xc
-  __declspec(property(get = __get__pressedState, put = __set__pressedState))::UnityEngine::Vector3 _pressedState;
+  __declspec(property(get = __cordl_internal_get__pressedState, put = __cordl_internal_set__pressedState))::UnityEngine::Vector3 _pressedState;
 
   /// @brief Field _disabledState, offset 0x44, size 0xc
-  __declspec(property(get = __get__disabledState, put = __set__disabledState))::UnityEngine::Vector3 _disabledState;
+  __declspec(property(get = __cordl_internal_get__disabledState, put = __cordl_internal_set__disabledState))::UnityEngine::Vector3 _disabledState;
 
   /// @brief Field _selectedState, offset 0x50, size 0xc
-  __declspec(property(get = __get__selectedState, put = __set__selectedState))::UnityEngine::Vector3 _selectedState;
+  __declspec(property(get = __cordl_internal_get__selectedState, put = __cordl_internal_set__selectedState))::UnityEngine::Vector3 _selectedState;
 
   /// @brief Field _selectedAndHighlightedState, offset 0x5c, size 0xc
-  __declspec(property(get = __get__selectedAndHighlightedState, put = __set__selectedAndHighlightedState))::UnityEngine::Vector3 _selectedAndHighlightedState;
+  __declspec(property(get = __cordl_internal_get__selectedAndHighlightedState, put = __cordl_internal_set__selectedAndHighlightedState))::UnityEngine::Vector3 _selectedAndHighlightedState;
 
   __declspec(property(get = get_normalState))::UnityEngine::Vector3 normalState;
 
@@ -54,41 +54,41 @@ public:
 
   __declspec(property(get = get_selectedAndHighlightedState))::UnityEngine::Vector3 selectedAndHighlightedState;
 
-  constexpr ::UnityEngine::Vector3& __get__normalState();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__normalState();
 
-  constexpr ::UnityEngine::Vector3 const& __get__normalState() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__normalState() const;
 
-  constexpr void __set__normalState(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__normalState(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__highlightedState();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__highlightedState();
 
-  constexpr ::UnityEngine::Vector3 const& __get__highlightedState() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__highlightedState() const;
 
-  constexpr void __set__highlightedState(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__highlightedState(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__pressedState();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__pressedState();
 
-  constexpr ::UnityEngine::Vector3 const& __get__pressedState() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__pressedState() const;
 
-  constexpr void __set__pressedState(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__pressedState(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__disabledState();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__disabledState();
 
-  constexpr ::UnityEngine::Vector3 const& __get__disabledState() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__disabledState() const;
 
-  constexpr void __set__disabledState(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__disabledState(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__selectedState();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__selectedState();
 
-  constexpr ::UnityEngine::Vector3 const& __get__selectedState() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__selectedState() const;
 
-  constexpr void __set__selectedState(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__selectedState(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__selectedAndHighlightedState();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__selectedAndHighlightedState();
 
-  constexpr ::UnityEngine::Vector3 const& __get__selectedAndHighlightedState() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__selectedAndHighlightedState() const;
 
-  constexpr void __set__selectedAndHighlightedState(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__selectedAndHighlightedState(::UnityEngine::Vector3 value);
 
   /// @brief Method get_normalState, addr 0x2280094, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_normalState();

@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::Timeline::DiscreteTime);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13876))
 // CS Name: ::UnityEngine.Timeline::DiscreteTime
 struct CORDL_TYPE DiscreteTime {

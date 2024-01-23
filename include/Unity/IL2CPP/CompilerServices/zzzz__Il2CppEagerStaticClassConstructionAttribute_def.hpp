@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstruc
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Unity::IL2CPP::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9984))
 // CS Name: ::Unity.IL2CPP.CompilerServices::Il2CppEagerStaticClassConstructionAttribute*
 class CORDL_TYPE Il2CppEagerStaticClassConstructionAttribute : public ::System::Attribute {

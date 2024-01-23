@@ -35,7 +35,7 @@ MARK_REF_PTR_T(::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13012))
 // CS Name: ::BGNet.Core.GameLift::IGameLiftPlayerSessionProvider*
 class CORDL_TYPE IGameLiftPlayerSessionProvider {

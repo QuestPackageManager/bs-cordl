@@ -78,7 +78,7 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Initialization::__Initializatio
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14121))
 // CS Name: ::InitializationOperation::<>c*
 class CORDL_TYPE __InitializationOperation____c : public ::System::Object {
@@ -130,38 +130,39 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14122))
 // CS Name: ::InitializationOperation::<>c__DisplayClass16_0*
 class CORDL_TYPE __InitializationOperation____c__DisplayClass16_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field addressables, offset 0x10, size 0x8
-  __declspec(property(get = __get_addressables, put = __set_addressables))::UnityEngine::AddressableAssets::AddressablesImpl* addressables;
+  __declspec(property(get = __cordl_internal_get_addressables, put = __cordl_internal_set_addressables))::UnityEngine::AddressableAssets::AddressablesImpl* addressables;
 
   /// @brief Field providerSuffix, offset 0x18, size 0x8
-  __declspec(property(get = __get_providerSuffix, put = __set_providerSuffix))::StringW providerSuffix;
+  __declspec(property(get = __cordl_internal_get_providerSuffix, put = __cordl_internal_set_providerSuffix))::StringW providerSuffix;
 
   /// @brief Field remoteHashLocation, offset 0x20, size 0x8
-  __declspec(property(get = __get_remoteHashLocation, put = __set_remoteHashLocation))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation;
+  __declspec(property(get = __cordl_internal_get_remoteHashLocation,
+                      put = __cordl_internal_set_remoteHashLocation))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation;
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get_addressables();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get_addressables();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get_addressables() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get_addressables() const;
 
-  constexpr void __set_addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set_addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::StringW& __get_providerSuffix();
+  constexpr ::StringW& __cordl_internal_get_providerSuffix();
 
-  constexpr ::StringW const& __get_providerSuffix() const;
+  constexpr ::StringW const& __cordl_internal_get_providerSuffix() const;
 
-  constexpr void __set_providerSuffix(::StringW value);
+  constexpr void __cordl_internal_set_providerSuffix(::StringW value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __get_remoteHashLocation();
+  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __cordl_internal_get_remoteHashLocation();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __get_remoteHashLocation() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __cordl_internal_get_remoteHashLocation() const;
 
-  constexpr void __set_remoteHashLocation(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
+  constexpr void __cordl_internal_set_remoteHashLocation(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
   static inline ::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass16_0* New_ctor();
 
@@ -211,56 +212,59 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__Initi
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14123))
 // CS Name: ::InitializationOperation::<>c__DisplayClass18_0*
 class CORDL_TYPE __InitializationOperation____c__DisplayClass18_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::AddressableAssets::Initialization::InitializationOperation* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::AddressableAssets::Initialization::InitializationOperation* __4__this;
 
   /// @brief Field catalogs, offset 0x18, size 0x8
-  __declspec(property(get = __get_catalogs, put = __set_catalogs))::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* catalogs;
+  __declspec(property(get = __cordl_internal_get_catalogs,
+                      put = __cordl_internal_set_catalogs))::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* catalogs;
 
   /// @brief Field locMap, offset 0x20, size 0x8
-  __declspec(property(get = __get_locMap, put = __set_locMap))::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locMap;
+  __declspec(property(get = __cordl_internal_get_locMap, put = __cordl_internal_set_locMap))::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* locMap;
 
   /// @brief Field index, offset 0x28, size 0x4
-  __declspec(property(get = __get_index, put = __set_index)) int32_t index;
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   /// @brief Field remoteHashLocation, offset 0x30, size 0x8
-  __declspec(property(get = __get_remoteHashLocation, put = __set_remoteHashLocation))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation;
+  __declspec(property(get = __cordl_internal_get_remoteHashLocation,
+                      put = __cordl_internal_set_remoteHashLocation))::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteHashLocation;
 
-  constexpr ::UnityEngine::AddressableAssets::Initialization::InitializationOperation*& __get___4__this();
+  constexpr ::UnityEngine::AddressableAssets::Initialization::InitializationOperation*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::Initialization::InitializationOperation*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::Initialization::InitializationOperation*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::AddressableAssets::Initialization::InitializationOperation* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::AddressableAssets::Initialization::InitializationOperation* value);
 
-  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& __get_catalogs();
+  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& __cordl_internal_get_catalogs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const& __get_catalogs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const&
+  __cordl_internal_get_catalogs() const;
 
-  constexpr void __set_catalogs(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
+  constexpr void __cordl_internal_set_catalogs(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
 
-  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*& __get_locMap();
+  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*& __cordl_internal_get_locMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*> const& __get_locMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*> const& __cordl_internal_get_locMap() const;
 
-  constexpr void __set_locMap(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* value);
+  constexpr void __cordl_internal_set_locMap(::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* value);
 
-  constexpr int32_t& __get_index();
+  constexpr int32_t& __cordl_internal_get_index();
 
-  constexpr int32_t const& __get_index() const;
+  constexpr int32_t const& __cordl_internal_get_index() const;
 
-  constexpr void __set_index(int32_t value);
+  constexpr void __cordl_internal_set_index(int32_t value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __get_remoteHashLocation();
+  constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*& __cordl_internal_get_remoteHashLocation();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __get_remoteHashLocation() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*> const& __cordl_internal_get_remoteHashLocation() const;
 
-  constexpr void __set_remoteHashLocation(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
+  constexpr void __cordl_internal_set_remoteHashLocation(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
   static inline ::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c__DisplayClass18_0* New_ctor();
 
@@ -319,10 +323,10 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::Initialization::__Initi
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Initialization {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 796 }), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14112)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 858 }), TypeDefinitionIndex(TypeDefinitionIndex(14125)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14032)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 796 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14124)) CS
-// Name: ::UnityEngine.AddressableAssets.Initialization::InitializationOperation*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14032)), TypeDefinitionIndex(TypeDefinitionIndex(14033)), TypeDefinitionIndex(TypeDefinitionIndex(14112)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14125)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14032), inst: 796 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(14033), inst: 796 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 858 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14124)) CS Name:
+// ::UnityEngine.AddressableAssets.Initialization::InitializationOperation*
 class CORDL_TYPE InitializationOperation : public ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> {
 public:
   // Declarations
@@ -333,66 +337,69 @@ public:
   using __c = ::UnityEngine::AddressableAssets::Initialization::__InitializationOperation____c;
 
   /// @brief Field m_rtdOp, offset 0x88, size 0x20
-  __declspec(
-      property(get = __get_m_rtdOp,
-               put = __set_m_rtdOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> m_rtdOp;
+  __declspec(property(get = __cordl_internal_get_m_rtdOp, put = __cordl_internal_set_m_rtdOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
+      ::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> m_rtdOp;
 
   /// @brief Field m_loadCatalogOp, offset 0xa8, size 0x20
-  __declspec(property(
-      get = __get_m_loadCatalogOp,
-      put = __set_m_loadCatalogOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> m_loadCatalogOp;
+  __declspec(property(get = __cordl_internal_get_m_loadCatalogOp, put = __cordl_internal_set_m_loadCatalogOp))::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
+      ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> m_loadCatalogOp;
 
   /// @brief Field m_ProviderSuffix, offset 0xc8, size 0x8
-  __declspec(property(get = __get_m_ProviderSuffix, put = __set_m_ProviderSuffix))::StringW m_ProviderSuffix;
+  __declspec(property(get = __cordl_internal_get_m_ProviderSuffix, put = __cordl_internal_set_m_ProviderSuffix))::StringW m_ProviderSuffix;
 
   /// @brief Field m_Addressables, offset 0xd0, size 0x8
-  __declspec(property(get = __get_m_Addressables, put = __set_m_Addressables))::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
+  __declspec(property(get = __cordl_internal_get_m_Addressables, put = __cordl_internal_set_m_Addressables))::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
 
   /// @brief Field m_Diagnostics, offset 0xd8, size 0x8
-  __declspec(property(get = __get_m_Diagnostics, put = __set_m_Diagnostics))::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics* m_Diagnostics;
+  __declspec(property(get = __cordl_internal_get_m_Diagnostics, put = __cordl_internal_set_m_Diagnostics))::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics* m_Diagnostics;
 
   /// @brief Field m_InitGroupOps, offset 0xe0, size 0x8
-  __declspec(property(get = __get_m_InitGroupOps, put = __set_m_InitGroupOps))::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation* m_InitGroupOps;
+  __declspec(property(get = __cordl_internal_get_m_InitGroupOps,
+                      put = __cordl_internal_set_m_InitGroupOps))::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation* m_InitGroupOps;
 
   __declspec(property(get = get_Progress)) float_t Progress;
 
   __declspec(property(get = get_DebugName))::StringW DebugName;
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*>& __get_m_rtdOp();
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*>& __cordl_internal_get_m_rtdOp();
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> const& __get_m_rtdOp() const;
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> const&
+  __cordl_internal_get_m_rtdOp() const;
 
-  constexpr void __set_m_rtdOp(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> value);
+  constexpr void
+  __cordl_internal_set_m_rtdOp(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> value);
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>& __get_m_loadCatalogOp();
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>& __cordl_internal_get_m_loadCatalogOp();
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> const& __get_m_loadCatalogOp() const;
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> const&
+  __cordl_internal_get_m_loadCatalogOp() const;
 
-  constexpr void __set_m_loadCatalogOp(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> value);
+  constexpr void
+  __cordl_internal_set_m_loadCatalogOp(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> value);
 
-  constexpr ::StringW& __get_m_ProviderSuffix();
+  constexpr ::StringW& __cordl_internal_get_m_ProviderSuffix();
 
-  constexpr ::StringW const& __get_m_ProviderSuffix() const;
+  constexpr ::StringW const& __cordl_internal_get_m_ProviderSuffix() const;
 
-  constexpr void __set_m_ProviderSuffix(::StringW value);
+  constexpr void __cordl_internal_set_m_ProviderSuffix(::StringW value);
 
-  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __get_m_Addressables();
+  constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& __cordl_internal_get_m_Addressables();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __get_m_Addressables() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AddressablesImpl*> const& __cordl_internal_get_m_Addressables() const;
 
-  constexpr void __set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
+  constexpr void __cordl_internal_set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value);
 
-  constexpr ::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics*& __get_m_Diagnostics();
+  constexpr ::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics*& __cordl_internal_get_m_Diagnostics();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics*> const& __get_m_Diagnostics() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics*> const& __cordl_internal_get_m_Diagnostics() const;
 
-  constexpr void __set_m_Diagnostics(::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics* value);
+  constexpr void __cordl_internal_set_m_Diagnostics(::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics* value);
 
-  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation*& __get_m_InitGroupOps();
+  constexpr ::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation*& __cordl_internal_get_m_InitGroupOps();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation*> const& __get_m_InitGroupOps() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation*> const& __cordl_internal_get_m_InitGroupOps() const;
 
-  constexpr void __set_m_InitGroupOps(::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation* value);
+  constexpr void __cordl_internal_set_m_InitGroupOps(::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation* value);
 
   static inline ::UnityEngine::AddressableAssets::Initialization::InitializationOperation* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
 

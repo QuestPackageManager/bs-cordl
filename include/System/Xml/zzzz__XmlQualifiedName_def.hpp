@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::System::Xml::__XmlQualifiedName__HashCodeOfStringDelegate);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11572))
 // CS Name: ::XmlQualifiedName::HashCodeOfStringDelegate*
 class CORDL_TYPE __XmlQualifiedName__HashCodeOfStringDelegate : public ::System::MulticastDelegate {
@@ -69,7 +69,7 @@ static_assert(::cordl_internals::size_check_v<::System::Xml::__XmlQualifiedName_
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11573))
 // CS Name: ::System.Xml::XmlQualifiedName*
 class CORDL_TYPE XmlQualifiedName : public ::System::Object {
@@ -78,13 +78,13 @@ public:
   using HashCodeOfStringDelegate = ::System::Xml::__XmlQualifiedName__HashCodeOfStringDelegate;
 
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field ns, offset 0x18, size 0x8
-  __declspec(property(get = __get_ns, put = __set_ns))::StringW ns;
+  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns))::StringW ns;
 
   /// @brief Field hash, offset 0x20, size 0x4
-  __declspec(property(get = __get_hash, put = __set_hash)) int32_t hash;
+  __declspec(property(get = __cordl_internal_get_hash, put = __cordl_internal_set_hash)) int32_t hash;
 
   /// @brief Field hashCodeDelegate, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_hashCodeDelegate, put = setStaticF_hashCodeDelegate))::System::Xml::__XmlQualifiedName__HashCodeOfStringDelegate* hashCodeDelegate;
@@ -98,23 +98,23 @@ public:
 
   __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::StringW& __get_ns();
+  constexpr ::StringW& __cordl_internal_get_ns();
 
-  constexpr ::StringW const& __get_ns() const;
+  constexpr ::StringW const& __cordl_internal_get_ns() const;
 
-  constexpr void __set_ns(::StringW value);
+  constexpr void __cordl_internal_set_ns(::StringW value);
 
-  constexpr int32_t& __get_hash();
+  constexpr int32_t& __cordl_internal_get_hash();
 
-  constexpr int32_t const& __get_hash() const;
+  constexpr int32_t const& __cordl_internal_get_hash() const;
 
-  constexpr void __set_hash(int32_t value);
+  constexpr void __cordl_internal_set_hash(int32_t value);
 
   static inline void setStaticF_hashCodeDelegate(::System::Xml::__XmlQualifiedName__HashCodeOfStringDelegate* value);
 

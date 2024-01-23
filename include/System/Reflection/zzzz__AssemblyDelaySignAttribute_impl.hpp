@@ -9,32 +9,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x24e5f20;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::AssemblyDelaySignAttribute*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::AssemblyDelaySignAttribute*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-constexpr bool& System::Reflection::AssemblyDelaySignAttribute::__get__DelaySign_k__BackingField() {
+constexpr bool& System::Reflection::AssemblyDelaySignAttribute::__cordl_internal_get__DelaySign_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DelaySign_k__BackingField;
 }
-constexpr bool const& System::Reflection::AssemblyDelaySignAttribute::__get__DelaySign_k__BackingField() const {
+constexpr bool const& System::Reflection::AssemblyDelaySignAttribute::__cordl_internal_get__DelaySign_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DelaySign_k__BackingField;
 }
-constexpr void System::Reflection::AssemblyDelaySignAttribute::__set__DelaySign_k__BackingField(bool value) {
+constexpr void System::Reflection::AssemblyDelaySignAttribute::__cordl_internal_set__DelaySign_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____DelaySign_k__BackingField = value;
 }
 inline ::System::Reflection::AssemblyDelaySignAttribute* System::Reflection::AssemblyDelaySignAttribute::New_ctor(bool delaySign) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Reflection::AssemblyDelaySignAttribute*>(delaySign));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Reflection::AssemblyDelaySignAttribute*>(delaySign));
 }
 inline void System::Reflection::AssemblyDelaySignAttribute::_ctor(bool delaySign) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::AssemblyDelaySignAttribute*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::AssemblyDelaySignAttribute*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delaySign);
 }
 // Ctor Parameters []

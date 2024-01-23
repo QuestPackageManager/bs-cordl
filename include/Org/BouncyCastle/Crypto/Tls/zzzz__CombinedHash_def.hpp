@@ -26,20 +26,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::CombinedHash);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1202))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::CombinedHash*
 class CORDL_TYPE CombinedHash : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mContext, offset 0x10, size 0x8
-  __declspec(property(get = __get_mContext, put = __set_mContext))::Org::BouncyCastle::Crypto::Tls::TlsContext* mContext;
+  __declspec(property(get = __cordl_internal_get_mContext, put = __cordl_internal_set_mContext))::Org::BouncyCastle::Crypto::Tls::TlsContext* mContext;
 
   /// @brief Field mMd5, offset 0x18, size 0x8
-  __declspec(property(get = __get_mMd5, put = __set_mMd5))::Org::BouncyCastle::Crypto::IDigest* mMd5;
+  __declspec(property(get = __cordl_internal_get_mMd5, put = __cordl_internal_set_mMd5))::Org::BouncyCastle::Crypto::IDigest* mMd5;
 
   /// @brief Field mSha1, offset 0x20, size 0x8
-  __declspec(property(get = __get_mSha1, put = __set_mSha1))::Org::BouncyCastle::Crypto::IDigest* mSha1;
+  __declspec(property(get = __cordl_internal_get_mSha1, put = __cordl_internal_set_mSha1))::Org::BouncyCastle::Crypto::IDigest* mSha1;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -55,23 +55,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
   constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __get_mContext();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_mContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __get_mContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __cordl_internal_get_mContext() const;
 
-  constexpr void __set_mContext(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
+  constexpr void __cordl_internal_set_mContext(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_mMd5();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mMd5();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_mMd5() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_mMd5() const;
 
-  constexpr void __set_mMd5(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_mMd5(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __get_mSha1();
+  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mSha1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __get_mSha1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_mSha1() const;
 
-  constexpr void __set_mSha1(::Org::BouncyCastle::Crypto::IDigest* value);
+  constexpr void __cordl_internal_set_mSha1(::Org::BouncyCastle::Crypto::IDigest* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::CombinedHash* New_ctor();
 

@@ -30,137 +30,137 @@ MARK_REF_PTR_T(::GlobalNamespace::ObstacleSpawnInfoNetSerializable);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(15039))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14760)), TypeDefinitionIndex(TypeDefinitionIndex(15033)), TypeDefinitionIndex(TypeDefinitionIndex(15039))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15029))
 // CS Name: ::ObstacleSpawnInfoNetSerializable*
 class CORDL_TYPE ObstacleSpawnInfoNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
   // Declarations
   /// @brief Field time, offset 0x14, size 0x4
-  __declspec(property(get = __get_time, put = __set_time)) float_t time;
+  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) float_t time;
 
   /// @brief Field lineIndex, offset 0x18, size 0x4
-  __declspec(property(get = __get_lineIndex, put = __set_lineIndex)) int32_t lineIndex;
+  __declspec(property(get = __cordl_internal_get_lineIndex, put = __cordl_internal_set_lineIndex)) int32_t lineIndex;
 
   /// @brief Field lineLayer, offset 0x1c, size 0x4
-  __declspec(property(get = __get_lineLayer, put = __set_lineLayer))::GlobalNamespace::NoteLineLayer lineLayer;
+  __declspec(property(get = __cordl_internal_get_lineLayer, put = __cordl_internal_set_lineLayer))::GlobalNamespace::NoteLineLayer lineLayer;
 
   /// @brief Field duration, offset 0x20, size 0x4
-  __declspec(property(get = __get_duration, put = __set_duration)) float_t duration;
+  __declspec(property(get = __cordl_internal_get_duration, put = __cordl_internal_set_duration)) float_t duration;
 
   /// @brief Field width, offset 0x24, size 0x4
-  __declspec(property(get = __get_width, put = __set_width)) int32_t width;
+  __declspec(property(get = __cordl_internal_get_width, put = __cordl_internal_set_width)) int32_t width;
 
   /// @brief Field height, offset 0x28, size 0x4
-  __declspec(property(get = __get_height, put = __set_height)) int32_t height;
+  __declspec(property(get = __cordl_internal_get_height, put = __cordl_internal_set_height)) int32_t height;
 
   /// @brief Field moveStartPos, offset 0x2c, size 0xc
-  __declspec(property(get = __get_moveStartPos, put = __set_moveStartPos))::GlobalNamespace::Vector3Serializable moveStartPos;
+  __declspec(property(get = __cordl_internal_get_moveStartPos, put = __cordl_internal_set_moveStartPos))::GlobalNamespace::Vector3Serializable moveStartPos;
 
   /// @brief Field moveEndPos, offset 0x38, size 0xc
-  __declspec(property(get = __get_moveEndPos, put = __set_moveEndPos))::GlobalNamespace::Vector3Serializable moveEndPos;
+  __declspec(property(get = __cordl_internal_get_moveEndPos, put = __cordl_internal_set_moveEndPos))::GlobalNamespace::Vector3Serializable moveEndPos;
 
   /// @brief Field jumpEndPos, offset 0x44, size 0xc
-  __declspec(property(get = __get_jumpEndPos, put = __set_jumpEndPos))::GlobalNamespace::Vector3Serializable jumpEndPos;
+  __declspec(property(get = __cordl_internal_get_jumpEndPos, put = __cordl_internal_set_jumpEndPos))::GlobalNamespace::Vector3Serializable jumpEndPos;
 
   /// @brief Field obstacleHeight, offset 0x50, size 0x4
-  __declspec(property(get = __get_obstacleHeight, put = __set_obstacleHeight)) float_t obstacleHeight;
+  __declspec(property(get = __cordl_internal_get_obstacleHeight, put = __cordl_internal_set_obstacleHeight)) float_t obstacleHeight;
 
   /// @brief Field moveDuration, offset 0x54, size 0x4
-  __declspec(property(get = __get_moveDuration, put = __set_moveDuration)) float_t moveDuration;
+  __declspec(property(get = __cordl_internal_get_moveDuration, put = __cordl_internal_set_moveDuration)) float_t moveDuration;
 
   /// @brief Field jumpDuration, offset 0x58, size 0x4
-  __declspec(property(get = __get_jumpDuration, put = __set_jumpDuration)) float_t jumpDuration;
+  __declspec(property(get = __cordl_internal_get_jumpDuration, put = __cordl_internal_set_jumpDuration)) float_t jumpDuration;
 
   /// @brief Field noteLinesDistance, offset 0x5c, size 0x4
-  __declspec(property(get = __get_noteLinesDistance, put = __set_noteLinesDistance)) float_t noteLinesDistance;
+  __declspec(property(get = __cordl_internal_get_noteLinesDistance, put = __cordl_internal_set_noteLinesDistance)) float_t noteLinesDistance;
 
   /// @brief Field rotation, offset 0x60, size 0x4
-  __declspec(property(get = __get_rotation, put = __set_rotation)) float_t rotation;
+  __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation)) float_t rotation;
 
-  constexpr float_t& __get_time();
+  constexpr float_t& __cordl_internal_get_time();
 
-  constexpr float_t const& __get_time() const;
+  constexpr float_t const& __cordl_internal_get_time() const;
 
-  constexpr void __set_time(float_t value);
+  constexpr void __cordl_internal_set_time(float_t value);
 
-  constexpr int32_t& __get_lineIndex();
+  constexpr int32_t& __cordl_internal_get_lineIndex();
 
-  constexpr int32_t const& __get_lineIndex() const;
+  constexpr int32_t const& __cordl_internal_get_lineIndex() const;
 
-  constexpr void __set_lineIndex(int32_t value);
+  constexpr void __cordl_internal_set_lineIndex(int32_t value);
 
-  constexpr ::GlobalNamespace::NoteLineLayer& __get_lineLayer();
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get_lineLayer();
 
-  constexpr ::GlobalNamespace::NoteLineLayer const& __get_lineLayer() const;
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get_lineLayer() const;
 
-  constexpr void __set_lineLayer(::GlobalNamespace::NoteLineLayer value);
+  constexpr void __cordl_internal_set_lineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  constexpr float_t& __get_duration();
+  constexpr float_t& __cordl_internal_get_duration();
 
-  constexpr float_t const& __get_duration() const;
+  constexpr float_t const& __cordl_internal_get_duration() const;
 
-  constexpr void __set_duration(float_t value);
+  constexpr void __cordl_internal_set_duration(float_t value);
 
-  constexpr int32_t& __get_width();
+  constexpr int32_t& __cordl_internal_get_width();
 
-  constexpr int32_t const& __get_width() const;
+  constexpr int32_t const& __cordl_internal_get_width() const;
 
-  constexpr void __set_width(int32_t value);
+  constexpr void __cordl_internal_set_width(int32_t value);
 
-  constexpr int32_t& __get_height();
+  constexpr int32_t& __cordl_internal_get_height();
 
-  constexpr int32_t const& __get_height() const;
+  constexpr int32_t const& __cordl_internal_get_height() const;
 
-  constexpr void __set_height(int32_t value);
+  constexpr void __cordl_internal_set_height(int32_t value);
 
-  constexpr ::GlobalNamespace::Vector3Serializable& __get_moveStartPos();
+  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_moveStartPos();
 
-  constexpr ::GlobalNamespace::Vector3Serializable const& __get_moveStartPos() const;
+  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_moveStartPos() const;
 
-  constexpr void __set_moveStartPos(::GlobalNamespace::Vector3Serializable value);
+  constexpr void __cordl_internal_set_moveStartPos(::GlobalNamespace::Vector3Serializable value);
 
-  constexpr ::GlobalNamespace::Vector3Serializable& __get_moveEndPos();
+  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_moveEndPos();
 
-  constexpr ::GlobalNamespace::Vector3Serializable const& __get_moveEndPos() const;
+  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_moveEndPos() const;
 
-  constexpr void __set_moveEndPos(::GlobalNamespace::Vector3Serializable value);
+  constexpr void __cordl_internal_set_moveEndPos(::GlobalNamespace::Vector3Serializable value);
 
-  constexpr ::GlobalNamespace::Vector3Serializable& __get_jumpEndPos();
+  constexpr ::GlobalNamespace::Vector3Serializable& __cordl_internal_get_jumpEndPos();
 
-  constexpr ::GlobalNamespace::Vector3Serializable const& __get_jumpEndPos() const;
+  constexpr ::GlobalNamespace::Vector3Serializable const& __cordl_internal_get_jumpEndPos() const;
 
-  constexpr void __set_jumpEndPos(::GlobalNamespace::Vector3Serializable value);
+  constexpr void __cordl_internal_set_jumpEndPos(::GlobalNamespace::Vector3Serializable value);
 
-  constexpr float_t& __get_obstacleHeight();
+  constexpr float_t& __cordl_internal_get_obstacleHeight();
 
-  constexpr float_t const& __get_obstacleHeight() const;
+  constexpr float_t const& __cordl_internal_get_obstacleHeight() const;
 
-  constexpr void __set_obstacleHeight(float_t value);
+  constexpr void __cordl_internal_set_obstacleHeight(float_t value);
 
-  constexpr float_t& __get_moveDuration();
+  constexpr float_t& __cordl_internal_get_moveDuration();
 
-  constexpr float_t const& __get_moveDuration() const;
+  constexpr float_t const& __cordl_internal_get_moveDuration() const;
 
-  constexpr void __set_moveDuration(float_t value);
+  constexpr void __cordl_internal_set_moveDuration(float_t value);
 
-  constexpr float_t& __get_jumpDuration();
+  constexpr float_t& __cordl_internal_get_jumpDuration();
 
-  constexpr float_t const& __get_jumpDuration() const;
+  constexpr float_t const& __cordl_internal_get_jumpDuration() const;
 
-  constexpr void __set_jumpDuration(float_t value);
+  constexpr void __cordl_internal_set_jumpDuration(float_t value);
 
-  constexpr float_t& __get_noteLinesDistance();
+  constexpr float_t& __cordl_internal_get_noteLinesDistance();
 
-  constexpr float_t const& __get_noteLinesDistance() const;
+  constexpr float_t const& __cordl_internal_get_noteLinesDistance() const;
 
-  constexpr void __set_noteLinesDistance(float_t value);
+  constexpr void __cordl_internal_set_noteLinesDistance(float_t value);
 
-  constexpr float_t& __get_rotation();
+  constexpr float_t& __cordl_internal_get_rotation();
 
-  constexpr float_t const& __get_rotation() const;
+  constexpr float_t const& __cordl_internal_get_rotation() const;
 
-  constexpr void __set_rotation(float_t value);
+  constexpr void __cordl_internal_set_rotation(float_t value);
 
   /// @brief Method Obtain, addr 0x12a51a8, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::ObstacleSpawnInfoNetSerializable* Obtain();

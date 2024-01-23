@@ -66,7 +66,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__HapticsAudioClipPlayer___HandleOneShotPlayEn
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14424))
 // CS Name: ::HapticsAudioClipPlayer*
 class CORDL_TYPE HapticsAudioClipPlayer : public ::UnityEngine::MonoBehaviour {
@@ -79,43 +79,44 @@ public:
   using Pool = ::GlobalNamespace::__HapticsAudioClipPlayer__Pool;
 
   /// @brief Field _audioSource, offset 0x18, size 0x8
-  __declspec(property(get = __get__audioSource, put = __set__audioSource))::UnityEngine::AudioSource* _audioSource;
+  __declspec(property(get = __cordl_internal_get__audioSource, put = __cordl_internal_set__audioSource))::UnityW<::UnityEngine::AudioSource> _audioSource;
 
   /// @brief Field _baseVolume, offset 0x20, size 0x4
-  __declspec(property(get = __get__baseVolume, put = __set__baseVolume)) float_t _baseVolume;
+  __declspec(property(get = __cordl_internal_get__baseVolume, put = __cordl_internal_set__baseVolume)) float_t _baseVolume;
 
   /// @brief Field _triggeredThisFrame, offset 0x24, size 0x1
-  __declspec(property(get = __get__triggeredThisFrame, put = __set__triggeredThisFrame)) bool _triggeredThisFrame;
+  __declspec(property(get = __cordl_internal_get__triggeredThisFrame, put = __cordl_internal_set__triggeredThisFrame)) bool _triggeredThisFrame;
 
   /// @brief Field _lastTriggerTime, offset 0x28, size 0x4
-  __declspec(property(get = __get__lastTriggerTime, put = __set__lastTriggerTime)) float_t _lastTriggerTime;
+  __declspec(property(get = __cordl_internal_get__lastTriggerTime, put = __cordl_internal_set__lastTriggerTime)) float_t _lastTriggerTime;
 
-  constexpr ::UnityEngine::AudioSource*& __get__audioSource();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get__audioSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get__audioSource() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
 
-  constexpr void __set__audioSource(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set__audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr float_t& __get__baseVolume();
+  constexpr float_t& __cordl_internal_get__baseVolume();
 
-  constexpr float_t const& __get__baseVolume() const;
+  constexpr float_t const& __cordl_internal_get__baseVolume() const;
 
-  constexpr void __set__baseVolume(float_t value);
+  constexpr void __cordl_internal_set__baseVolume(float_t value);
 
-  constexpr bool& __get__triggeredThisFrame();
+  constexpr bool& __cordl_internal_get__triggeredThisFrame();
 
-  constexpr bool const& __get__triggeredThisFrame() const;
+  constexpr bool const& __cordl_internal_get__triggeredThisFrame() const;
 
-  constexpr void __set__triggeredThisFrame(bool value);
+  constexpr void __cordl_internal_set__triggeredThisFrame(bool value);
 
-  constexpr float_t& __get__lastTriggerTime();
+  constexpr float_t& __cordl_internal_get__lastTriggerTime();
 
-  constexpr float_t const& __get__lastTriggerTime() const;
+  constexpr float_t const& __cordl_internal_get__lastTriggerTime() const;
 
-  constexpr void __set__lastTriggerTime(float_t value);
+  constexpr void __cordl_internal_set__lastTriggerTime(float_t value);
 
   /// @brief Method PlayHapticsPreset, addr 0x20f91e0, size 0x13c, virtual false, abstract: false, final false
-  inline void PlayHapticsPreset(::UnityEngine::XR::XRNode onNode, ::Libraries::HM::HMLib::VR::HapticPresetSO* preset, ::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>* onComplete);
+  inline void PlayHapticsPreset(::UnityEngine::XR::XRNode onNode, ::Libraries::HM::HMLib::VR::HapticPresetSO* preset,
+                                ::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* onComplete);
 
   /// @brief Method TriggerContinuousHaptic, addr 0x20f953c, size 0x38, virtual false, abstract: false, final false
   inline void TriggerContinuousHaptic();
@@ -124,13 +125,13 @@ public:
   inline void RestartHaptic();
 
   /// @brief Method HandleContinuousAudioCoroutine, addr 0x20f94c8, size 0x74, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* HandleContinuousAudioCoroutine(::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>* onComplete);
+  inline ::System::Collections::IEnumerator* HandleContinuousAudioCoroutine(::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* onComplete);
 
   /// @brief Method UpdateFadeVolume, addr 0x20f95a0, size 0x48, virtual false, abstract: false, final false
   inline void UpdateFadeVolume(float_t timeSinceEnd);
 
   /// @brief Method HandleOneShotPlayEndCoroutine, addr 0x20f9454, size 0x74, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* HandleOneShotPlayEndCoroutine(::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>* onComplete);
+  inline ::System::Collections::IEnumerator* HandleOneShotPlayEndCoroutine(::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* onComplete);
 
   /// @brief Method Reset, addr 0x20f931c, size 0x54, virtual false, abstract: false, final false
   inline void Reset();
@@ -167,7 +168,7 @@ protected:
 
 public:
   /// @brief Field _audioSource, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ____audioSource;
+  ::UnityW<::UnityEngine::AudioSource> ____audioSource;
 
   /// @brief Field _baseVolume, offset: 0x20, size: 0x4, def value: None
   float_t ____baseVolume;
@@ -199,9 +200,9 @@ static_assert(offsetof(::GlobalNamespace::HapticsAudioClipPlayer, ____lastTrigge
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14424)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11038), inst: 315 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(11038))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14421)) CS Name: ::HapticsAudioClipPlayer::Pool*
-class CORDL_TYPE __HapticsAudioClipPlayer__Pool : public ::Zenject::MemoryPool_1<::GlobalNamespace::HapticsAudioClipPlayer*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11038)), TypeDefinitionIndex(TypeDefinitionIndex(14424)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11038), inst:
+// 315 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14421)) CS Name: ::HapticsAudioClipPlayer::Pool*
+class CORDL_TYPE __HapticsAudioClipPlayer__Pool : public ::Zenject::MemoryPool_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>> {
 public:
   // Declarations
   /// @brief Method OnCreated, addr 0x20f96a4, size 0x14, virtual true, abstract: false, final false
@@ -245,26 +246,26 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__HapticsAudioC
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14422))
 // CS Name: ::HapticsAudioClipPlayer::<HandleContinuousAudioCoroutine>d__9*
 class CORDL_TYPE __HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::HapticsAudioClipPlayer* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::HapticsAudioClipPlayer> __4__this;
 
   /// @brief Field onComplete, offset 0x28, size 0x8
-  __declspec(property(get = __get_onComplete, put = __set_onComplete))::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>* onComplete;
+  __declspec(property(get = __cordl_internal_get_onComplete, put = __cordl_internal_set_onComplete))::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* onComplete;
 
   /// @brief Field <waitForLateUpdate>5__2, offset 0x30, size 0x8
-  __declspec(property(get = __get__waitForLateUpdate_5__2, put = __set__waitForLateUpdate_5__2))::UnityEngine::WaitForEndOfFrame* _waitForLateUpdate_5__2;
+  __declspec(property(get = __cordl_internal_get__waitForLateUpdate_5__2, put = __cordl_internal_set__waitForLateUpdate_5__2))::UnityEngine::WaitForEndOfFrame* _waitForLateUpdate_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -288,35 +289,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::HapticsAudioClipPlayer*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HapticsAudioClipPlayer*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::HapticsAudioClipPlayer> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::HapticsAudioClipPlayer* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::HapticsAudioClipPlayer> value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>*& __get_onComplete();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*& __cordl_internal_get_onComplete();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>*> const& __get_onComplete() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*> const& __cordl_internal_get_onComplete() const;
 
-  constexpr void __set_onComplete(::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>* value);
+  constexpr void __cordl_internal_set_onComplete(::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* value);
 
-  constexpr ::UnityEngine::WaitForEndOfFrame*& __get__waitForLateUpdate_5__2();
+  constexpr ::UnityEngine::WaitForEndOfFrame*& __cordl_internal_get__waitForLateUpdate_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::WaitForEndOfFrame*> const& __get__waitForLateUpdate_5__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::WaitForEndOfFrame*> const& __cordl_internal_get__waitForLateUpdate_5__2() const;
 
-  constexpr void __set__waitForLateUpdate_5__2(::UnityEngine::WaitForEndOfFrame* value);
+  constexpr void __cordl_internal_set__waitForLateUpdate_5__2(::UnityEngine::WaitForEndOfFrame* value);
 
   static inline ::GlobalNamespace::__HapticsAudioClipPlayer___HandleContinuousAudioCoroutine_d__9* New_ctor(int32_t __1__state);
 
@@ -359,10 +360,10 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::HapticsAudioClipPlayer* _____4__this;
+  ::UnityW<::GlobalNamespace::HapticsAudioClipPlayer> _____4__this;
 
   /// @brief Field onComplete, offset: 0x28, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>* ___onComplete;
+  ::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* ___onComplete;
 
   /// @brief Field <waitForLateUpdate>5__2, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::WaitForEndOfFrame* ____waitForLateUpdate_5__2;
@@ -387,23 +388,23 @@ static_assert(offsetof(::GlobalNamespace::__HapticsAudioClipPlayer___HandleConti
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14423))
 // CS Name: ::HapticsAudioClipPlayer::<HandleOneShotPlayEndCoroutine>d__11*
 class CORDL_TYPE __HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::HapticsAudioClipPlayer* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::HapticsAudioClipPlayer> __4__this;
 
   /// @brief Field onComplete, offset 0x28, size 0x8
-  __declspec(property(get = __get_onComplete, put = __set_onComplete))::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>* onComplete;
+  __declspec(property(get = __cordl_internal_get_onComplete, put = __cordl_internal_set_onComplete))::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* onComplete;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -427,29 +428,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::HapticsAudioClipPlayer*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HapticsAudioClipPlayer*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::HapticsAudioClipPlayer> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::HapticsAudioClipPlayer* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::HapticsAudioClipPlayer> value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>*& __get_onComplete();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*& __cordl_internal_get_onComplete();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>*> const& __get_onComplete() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>*> const& __cordl_internal_get_onComplete() const;
 
-  constexpr void __set_onComplete(::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>* value);
+  constexpr void __cordl_internal_set_onComplete(::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* value);
 
   static inline ::GlobalNamespace::__HapticsAudioClipPlayer___HandleOneShotPlayEndCoroutine_d__11* New_ctor(int32_t __1__state);
 
@@ -492,10 +493,10 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::HapticsAudioClipPlayer* _____4__this;
+  ::UnityW<::GlobalNamespace::HapticsAudioClipPlayer> _____4__this;
 
   /// @brief Field onComplete, offset: 0x28, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::HapticsAudioClipPlayer*>* ___onComplete;
+  ::System::Action_1<::UnityW<::GlobalNamespace::HapticsAudioClipPlayer>>* ___onComplete;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

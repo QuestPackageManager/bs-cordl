@@ -26,50 +26,50 @@ MARK_REF_PTR_T(::Zenject::MemoryPoolSettings);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 29, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10950))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10950))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11048))
 // CS Name: ::Zenject::MemoryPoolSettings*
 class CORDL_TYPE MemoryPoolSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field InitialSize, offset 0x10, size 0x4
-  __declspec(property(get = __get_InitialSize, put = __set_InitialSize)) int32_t InitialSize;
+  __declspec(property(get = __cordl_internal_get_InitialSize, put = __cordl_internal_set_InitialSize)) int32_t InitialSize;
 
   /// @brief Field MaxSize, offset 0x14, size 0x4
-  __declspec(property(get = __get_MaxSize, put = __set_MaxSize)) int32_t MaxSize;
+  __declspec(property(get = __cordl_internal_get_MaxSize, put = __cordl_internal_set_MaxSize)) int32_t MaxSize;
 
   /// @brief Field ExpandMethod, offset 0x18, size 0x4
-  __declspec(property(get = __get_ExpandMethod, put = __set_ExpandMethod))::Zenject::PoolExpandMethods ExpandMethod;
+  __declspec(property(get = __cordl_internal_get_ExpandMethod, put = __cordl_internal_set_ExpandMethod))::Zenject::PoolExpandMethods ExpandMethod;
 
   /// @brief Field ShowExpandWarning, offset 0x1c, size 0x1
-  __declspec(property(get = __get_ShowExpandWarning, put = __set_ShowExpandWarning)) bool ShowExpandWarning;
+  __declspec(property(get = __cordl_internal_get_ShowExpandWarning, put = __cordl_internal_set_ShowExpandWarning)) bool ShowExpandWarning;
 
   /// @brief Field Default, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Default, put = setStaticF_Default))::Zenject::MemoryPoolSettings* Default;
 
-  constexpr int32_t& __get_InitialSize();
+  constexpr int32_t& __cordl_internal_get_InitialSize();
 
-  constexpr int32_t const& __get_InitialSize() const;
+  constexpr int32_t const& __cordl_internal_get_InitialSize() const;
 
-  constexpr void __set_InitialSize(int32_t value);
+  constexpr void __cordl_internal_set_InitialSize(int32_t value);
 
-  constexpr int32_t& __get_MaxSize();
+  constexpr int32_t& __cordl_internal_get_MaxSize();
 
-  constexpr int32_t const& __get_MaxSize() const;
+  constexpr int32_t const& __cordl_internal_get_MaxSize() const;
 
-  constexpr void __set_MaxSize(int32_t value);
+  constexpr void __cordl_internal_set_MaxSize(int32_t value);
 
-  constexpr ::Zenject::PoolExpandMethods& __get_ExpandMethod();
+  constexpr ::Zenject::PoolExpandMethods& __cordl_internal_get_ExpandMethod();
 
-  constexpr ::Zenject::PoolExpandMethods const& __get_ExpandMethod() const;
+  constexpr ::Zenject::PoolExpandMethods const& __cordl_internal_get_ExpandMethod() const;
 
-  constexpr void __set_ExpandMethod(::Zenject::PoolExpandMethods value);
+  constexpr void __cordl_internal_set_ExpandMethod(::Zenject::PoolExpandMethods value);
 
-  constexpr bool& __get_ShowExpandWarning();
+  constexpr bool& __cordl_internal_get_ShowExpandWarning();
 
-  constexpr bool const& __get_ShowExpandWarning() const;
+  constexpr bool const& __cordl_internal_get_ShowExpandWarning() const;
 
-  constexpr void __set_ShowExpandWarning(bool value);
+  constexpr void __cordl_internal_set_ShowExpandWarning(bool value);
 
   static inline void setStaticF_Default(::Zenject::MemoryPoolSettings* value);
 

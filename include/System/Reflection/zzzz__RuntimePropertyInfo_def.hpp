@@ -97,7 +97,7 @@ MARK_GEN_REF_PTR_T(::System::Reflection::__RuntimePropertyInfo__StaticGetter_1);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3529))
 // CS Name: ::RuntimePropertyInfo::GetterAdapter*
 class CORDL_TYPE __RuntimePropertyInfo__GetterAdapter : public ::System::MulticastDelegate {
@@ -137,7 +137,7 @@ namespace System::Reflection {
 // cpp template
 template <typename T, typename R>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3530))
 // CS Name: ::RuntimePropertyInfo::Getter`2<T,R>*
 class CORDL_TYPE __RuntimePropertyInfo__Getter_2 : public ::System::MulticastDelegate {
@@ -175,7 +175,7 @@ namespace System::Reflection {
 // cpp template
 template <typename R>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3531))
 // CS Name: ::RuntimePropertyInfo::StaticGetter`1<R>*
 class CORDL_TYPE __RuntimePropertyInfo__StaticGetter_1 : public ::System::MulticastDelegate {
@@ -211,8 +211,8 @@ public:
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3488)), TypeDefinitionIndex(TypeDefinitionIndex(3528)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3527))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3532)) CS Name: ::System.Reflection::RuntimePropertyInfo*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3488)), TypeDefinitionIndex(TypeDefinitionIndex(3527)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3528))] Self: TypeDefinitionIndex(TypeDefinitionIndex(3532)) CS Name: ::System.Reflection::RuntimePropertyInfo*
 class CORDL_TYPE RuntimePropertyInfo : public ::System::Reflection::PropertyInfo {
 public:
   // Declarations
@@ -223,19 +223,19 @@ public:
   using GetterAdapter = ::System::Reflection::__RuntimePropertyInfo__GetterAdapter;
 
   /// @brief Field klass, offset 0x10, size 0x8
-  __declspec(property(get = __get_klass, put = __set_klass)) void* klass;
+  __declspec(property(get = __cordl_internal_get_klass, put = __cordl_internal_set_klass)) void* klass;
 
   /// @brief Field prop, offset 0x18, size 0x8
-  __declspec(property(get = __get_prop, put = __set_prop)) void* prop;
+  __declspec(property(get = __cordl_internal_get_prop, put = __cordl_internal_set_prop)) void* prop;
 
   /// @brief Field info, offset 0x20, size 0x30
-  __declspec(property(get = __get_info, put = __set_info))::System::Reflection::MonoPropertyInfo info;
+  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::System::Reflection::MonoPropertyInfo info;
 
   /// @brief Field cached, offset 0x50, size 0x4
-  __declspec(property(get = __get_cached, put = __set_cached))::System::Reflection::PInfo cached;
+  __declspec(property(get = __cordl_internal_get_cached, put = __cordl_internal_set_cached))::System::Reflection::PInfo cached;
 
   /// @brief Field cached_getter, offset 0x58, size 0x8
-  __declspec(property(get = __get_cached_getter, put = __set_cached_getter))::System::Reflection::__RuntimePropertyInfo__GetterAdapter* cached_getter;
+  __declspec(property(get = __cordl_internal_get_cached_getter, put = __cordl_internal_set_cached_getter))::System::Reflection::__RuntimePropertyInfo__GetterAdapter* cached_getter;
 
   __declspec(property(get = get_BindingFlags))::System::Reflection::BindingFlags BindingFlags;
 
@@ -263,35 +263,35 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr void*& __get_klass();
+  constexpr void*& __cordl_internal_get_klass();
 
-  constexpr void* const& __get_klass() const;
+  constexpr void* const& __cordl_internal_get_klass() const;
 
-  constexpr void __set_klass(void* value);
+  constexpr void __cordl_internal_set_klass(void* value);
 
-  constexpr void*& __get_prop();
+  constexpr void*& __cordl_internal_get_prop();
 
-  constexpr void* const& __get_prop() const;
+  constexpr void* const& __cordl_internal_get_prop() const;
 
-  constexpr void __set_prop(void* value);
+  constexpr void __cordl_internal_set_prop(void* value);
 
-  constexpr ::System::Reflection::MonoPropertyInfo& __get_info();
+  constexpr ::System::Reflection::MonoPropertyInfo& __cordl_internal_get_info();
 
-  constexpr ::System::Reflection::MonoPropertyInfo const& __get_info() const;
+  constexpr ::System::Reflection::MonoPropertyInfo const& __cordl_internal_get_info() const;
 
-  constexpr void __set_info(::System::Reflection::MonoPropertyInfo value);
+  constexpr void __cordl_internal_set_info(::System::Reflection::MonoPropertyInfo value);
 
-  constexpr ::System::Reflection::PInfo& __get_cached();
+  constexpr ::System::Reflection::PInfo& __cordl_internal_get_cached();
 
-  constexpr ::System::Reflection::PInfo const& __get_cached() const;
+  constexpr ::System::Reflection::PInfo const& __cordl_internal_get_cached() const;
 
-  constexpr void __set_cached(::System::Reflection::PInfo value);
+  constexpr void __cordl_internal_set_cached(::System::Reflection::PInfo value);
 
-  constexpr ::System::Reflection::__RuntimePropertyInfo__GetterAdapter*& __get_cached_getter();
+  constexpr ::System::Reflection::__RuntimePropertyInfo__GetterAdapter*& __cordl_internal_get_cached_getter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::__RuntimePropertyInfo__GetterAdapter*> const& __get_cached_getter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::__RuntimePropertyInfo__GetterAdapter*> const& __cordl_internal_get_cached_getter() const;
 
-  constexpr void __set_cached_getter(::System::Reflection::__RuntimePropertyInfo__GetterAdapter* value);
+  constexpr void __cordl_internal_set_cached_getter(::System::Reflection::__RuntimePropertyInfo__GetterAdapter* value);
 
   /// @brief Method get_property_info, addr 0x24f8578, size 0x4, virtual false, abstract: false, final false
   static inline void get_property_info(::System::Reflection::RuntimePropertyInfo* prop, ByRef<::System::Reflection::MonoPropertyInfo> info, ::System::Reflection::PInfo req_info);

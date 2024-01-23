@@ -38,47 +38,49 @@ MARK_REF_PTR_T(::GlobalNamespace::IntroTutorialRing);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15036))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15036))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5337))
 // CS Name: ::IntroTutorialRing*
 class CORDL_TYPE IntroTutorialRing : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _progressImages, offset 0x18, size 0x8
-  __declspec(property(get = __get__progressImages, put = __set__progressImages))::ArrayW<::UnityEngine::UI::Image*, ::Array<::UnityEngine::UI::Image*>*> _progressImages;
+  __declspec(property(get = __cordl_internal_get__progressImages,
+                      put = __cordl_internal_set__progressImages))::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*> _progressImages;
 
   /// @brief Field _saberType, offset 0x20, size 0x4
-  __declspec(property(get = __get__saberType, put = __set__saberType))::GlobalNamespace::SaberType _saberType;
+  __declspec(property(get = __cordl_internal_get__saberType, put = __cordl_internal_set__saberType))::GlobalNamespace::SaberType _saberType;
 
   /// @brief Field _particleSystem, offset 0x28, size 0x8
-  __declspec(property(get = __get__particleSystem, put = __set__particleSystem))::UnityEngine::ParticleSystem* _particleSystem;
+  __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem))::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
 
   /// @brief Field _canvasGroup, offset 0x30, size 0x8
-  __declspec(property(get = __get__canvasGroup, put = __set__canvasGroup))::UnityEngine::CanvasGroup* _canvasGroup;
+  __declspec(property(get = __cordl_internal_get__canvasGroup, put = __cordl_internal_set__canvasGroup))::UnityW<::UnityEngine::CanvasGroup> _canvasGroup;
 
   /// @brief Field _activationDuration, offset 0x38, size 0x4
-  __declspec(property(get = __get__activationDuration, put = __set__activationDuration)) float_t _activationDuration;
+  __declspec(property(get = __cordl_internal_get__activationDuration, put = __cordl_internal_set__activationDuration)) float_t _activationDuration;
 
   /// @brief Field _ringGLowImages, offset 0x40, size 0x8
-  __declspec(property(get = __get__ringGLowImages, put = __set__ringGLowImages))::ArrayW<::UnityEngine::UI::Image*, ::Array<::UnityEngine::UI::Image*>*> _ringGLowImages;
+  __declspec(property(get = __cordl_internal_get__ringGLowImages,
+                      put = __cordl_internal_set__ringGLowImages))::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*> _ringGLowImages;
 
   /// @brief Field _colorManager, offset 0x48, size 0x8
-  __declspec(property(get = __get__colorManager, put = __set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
 
   /// @brief Field _highlighted, offset 0x50, size 0x1
-  __declspec(property(get = __get__highlighted, put = __set__highlighted)) bool _highlighted;
+  __declspec(property(get = __cordl_internal_get__highlighted, put = __cordl_internal_set__highlighted)) bool _highlighted;
 
   /// @brief Field _emitNextParticleTimer, offset 0x54, size 0x4
-  __declspec(property(get = __get__emitNextParticleTimer, put = __set__emitNextParticleTimer)) float_t _emitNextParticleTimer;
+  __declspec(property(get = __cordl_internal_get__emitNextParticleTimer, put = __cordl_internal_set__emitNextParticleTimer)) float_t _emitNextParticleTimer;
 
   /// @brief Field _activationProgress, offset 0x58, size 0x4
-  __declspec(property(get = __get__activationProgress, put = __set__activationProgress)) float_t _activationProgress;
+  __declspec(property(get = __cordl_internal_get__activationProgress, put = __cordl_internal_set__activationProgress)) float_t _activationProgress;
 
   /// @brief Field _sabersInside, offset 0x60, size 0x8
-  __declspec(property(get = __get__sabersInside, put = __set__sabersInside))::System::Collections::Generic::HashSet_1<::GlobalNamespace::SaberType>* _sabersInside;
+  __declspec(property(get = __cordl_internal_get__sabersInside, put = __cordl_internal_set__sabersInside))::System::Collections::Generic::HashSet_1<::GlobalNamespace::SaberType>* _sabersInside;
 
   /// @brief Field _sabersInsideAfterOnEnable, offset 0x68, size 0x1
-  __declspec(property(get = __get__sabersInsideAfterOnEnable, put = __set__sabersInsideAfterOnEnable)) bool _sabersInsideAfterOnEnable;
+  __declspec(property(get = __cordl_internal_get__sabersInsideAfterOnEnable, put = __cordl_internal_set__sabersInsideAfterOnEnable)) bool _sabersInsideAfterOnEnable;
 
   __declspec(property(put = set_alpha)) float_t alpha;
 
@@ -86,77 +88,77 @@ public:
 
   __declspec(property(get = get_saberType, put = set_saberType))::GlobalNamespace::SaberType saberType;
 
-  constexpr ::ArrayW<::UnityEngine::UI::Image*, ::Array<::UnityEngine::UI::Image*>*>& __get__progressImages();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*>& __cordl_internal_get__progressImages();
 
-  constexpr ::ArrayW<::UnityEngine::UI::Image*, ::Array<::UnityEngine::UI::Image*>*> const& __get__progressImages() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*> const& __cordl_internal_get__progressImages() const;
 
-  constexpr void __set__progressImages(::ArrayW<::UnityEngine::UI::Image*, ::Array<::UnityEngine::UI::Image*>*> value);
+  constexpr void __cordl_internal_set__progressImages(::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*> value);
 
-  constexpr ::GlobalNamespace::SaberType& __get__saberType();
+  constexpr ::GlobalNamespace::SaberType& __cordl_internal_get__saberType();
 
-  constexpr ::GlobalNamespace::SaberType const& __get__saberType() const;
+  constexpr ::GlobalNamespace::SaberType const& __cordl_internal_get__saberType() const;
 
-  constexpr void __set__saberType(::GlobalNamespace::SaberType value);
+  constexpr void __cordl_internal_set__saberType(::GlobalNamespace::SaberType value);
 
-  constexpr ::UnityEngine::ParticleSystem*& __get__particleSystem();
+  constexpr ::UnityW<::UnityEngine::ParticleSystem>& __cordl_internal_get__particleSystem();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& __get__particleSystem() const;
+  constexpr ::UnityW<::UnityEngine::ParticleSystem> const& __cordl_internal_get__particleSystem() const;
 
-  constexpr void __set__particleSystem(::UnityEngine::ParticleSystem* value);
+  constexpr void __cordl_internal_set__particleSystem(::UnityW<::UnityEngine::ParticleSystem> value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__canvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__canvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__canvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
 
-  constexpr void __set__canvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__canvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr float_t& __get__activationDuration();
+  constexpr float_t& __cordl_internal_get__activationDuration();
 
-  constexpr float_t const& __get__activationDuration() const;
+  constexpr float_t const& __cordl_internal_get__activationDuration() const;
 
-  constexpr void __set__activationDuration(float_t value);
+  constexpr void __cordl_internal_set__activationDuration(float_t value);
 
-  constexpr ::ArrayW<::UnityEngine::UI::Image*, ::Array<::UnityEngine::UI::Image*>*>& __get__ringGLowImages();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*>& __cordl_internal_get__ringGLowImages();
 
-  constexpr ::ArrayW<::UnityEngine::UI::Image*, ::Array<::UnityEngine::UI::Image*>*> const& __get__ringGLowImages() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*> const& __cordl_internal_get__ringGLowImages() const;
 
-  constexpr void __set__ringGLowImages(::ArrayW<::UnityEngine::UI::Image*, ::Array<::UnityEngine::UI::Image*>*> value);
+  constexpr void __cordl_internal_set__ringGLowImages(::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*> value);
 
-  constexpr ::GlobalNamespace::ColorManager*& __get__colorManager();
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __get__colorManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
 
-  constexpr void __set__colorManager(::GlobalNamespace::ColorManager* value);
+  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
 
-  constexpr bool& __get__highlighted();
+  constexpr bool& __cordl_internal_get__highlighted();
 
-  constexpr bool const& __get__highlighted() const;
+  constexpr bool const& __cordl_internal_get__highlighted() const;
 
-  constexpr void __set__highlighted(bool value);
+  constexpr void __cordl_internal_set__highlighted(bool value);
 
-  constexpr float_t& __get__emitNextParticleTimer();
+  constexpr float_t& __cordl_internal_get__emitNextParticleTimer();
 
-  constexpr float_t const& __get__emitNextParticleTimer() const;
+  constexpr float_t const& __cordl_internal_get__emitNextParticleTimer() const;
 
-  constexpr void __set__emitNextParticleTimer(float_t value);
+  constexpr void __cordl_internal_set__emitNextParticleTimer(float_t value);
 
-  constexpr float_t& __get__activationProgress();
+  constexpr float_t& __cordl_internal_get__activationProgress();
 
-  constexpr float_t const& __get__activationProgress() const;
+  constexpr float_t const& __cordl_internal_get__activationProgress() const;
 
-  constexpr void __set__activationProgress(float_t value);
+  constexpr void __cordl_internal_set__activationProgress(float_t value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::SaberType>*& __get__sabersInside();
+  constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::SaberType>*& __cordl_internal_get__sabersInside();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::GlobalNamespace::SaberType>*> const& __get__sabersInside() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::GlobalNamespace::SaberType>*> const& __cordl_internal_get__sabersInside() const;
 
-  constexpr void __set__sabersInside(::System::Collections::Generic::HashSet_1<::GlobalNamespace::SaberType>* value);
+  constexpr void __cordl_internal_set__sabersInside(::System::Collections::Generic::HashSet_1<::GlobalNamespace::SaberType>* value);
 
-  constexpr bool& __get__sabersInsideAfterOnEnable();
+  constexpr bool& __cordl_internal_get__sabersInsideAfterOnEnable();
 
-  constexpr bool const& __get__sabersInsideAfterOnEnable() const;
+  constexpr bool const& __cordl_internal_get__sabersInsideAfterOnEnable() const;
 
-  constexpr void __set__sabersInsideAfterOnEnable(bool value);
+  constexpr void __cordl_internal_set__sabersInsideAfterOnEnable(bool value);
 
   /// @brief Method set_alpha, addr 0x2269230, size 0x1c, virtual false, abstract: false, final false
   inline void set_alpha(float_t value);
@@ -211,22 +213,22 @@ protected:
 
 public:
   /// @brief Field _progressImages, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::UI::Image*, ::Array<::UnityEngine::UI::Image*>*> ____progressImages;
+  ::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*> ____progressImages;
 
   /// @brief Field _saberType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::SaberType ____saberType;
 
   /// @brief Field _particleSystem, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem* ____particleSystem;
+  ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 
   /// @brief Field _canvasGroup, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____canvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;
 
   /// @brief Field _activationDuration, offset: 0x38, size: 0x4, def value: None
   float_t ____activationDuration;
 
   /// @brief Field _ringGLowImages, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::UI::Image*, ::Array<::UnityEngine::UI::Image*>*> ____ringGLowImages;
+  ::ArrayW<::UnityW<::UnityEngine::UI::Image>, ::Array<::UnityW<::UnityEngine::UI::Image>>*> ____ringGLowImages;
 
   /// @brief Field _colorManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;

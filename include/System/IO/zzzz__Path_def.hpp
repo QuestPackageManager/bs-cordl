@@ -43,7 +43,7 @@ MARK_REF_PTR_T(::System::IO::__Path____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3633))
 // CS Name: ::Path::<>c*
 class CORDL_TYPE __Path____c : public ::System::Object {
@@ -107,7 +107,7 @@ static_assert(::cordl_internals::size_check_v<::System::IO::__Path____c, 0x10>, 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3634))
 // CS Name: ::System.IO::Path*
 class CORDL_TYPE Path : public ::System::Object {

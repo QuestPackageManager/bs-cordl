@@ -21,23 +21,23 @@ MARK_REF_PTR_T(::Mono::Security::Cryptography::KeyPairPersistence);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2276))
 // CS Name: ::Mono.Security.Cryptography::KeyPairPersistence*
 class CORDL_TYPE KeyPairPersistence : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _params, offset 0x10, size 0x8
-  __declspec(property(get = __get__params, put = __set__params))::System::Security::Cryptography::CspParameters* _params;
+  __declspec(property(get = __cordl_internal_get__params, put = __cordl_internal_set__params))::System::Security::Cryptography::CspParameters* _params;
 
   /// @brief Field _keyvalue, offset 0x18, size 0x8
-  __declspec(property(get = __get__keyvalue, put = __set__keyvalue))::StringW _keyvalue;
+  __declspec(property(get = __cordl_internal_get__keyvalue, put = __cordl_internal_set__keyvalue))::StringW _keyvalue;
 
   /// @brief Field _filename, offset 0x20, size 0x8
-  __declspec(property(get = __get__filename, put = __set__filename))::StringW _filename;
+  __declspec(property(get = __cordl_internal_get__filename, put = __cordl_internal_set__filename))::StringW _filename;
 
   /// @brief Field _container, offset 0x28, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::StringW _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::StringW _container;
 
   /// @brief Field _userPathExists, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF__userPathExists, put = setStaticF__userPathExists)) bool _userPathExists;
@@ -66,29 +66,29 @@ public:
 
   __declspec(property(get = get_ContainerName))::StringW ContainerName;
 
-  constexpr ::System::Security::Cryptography::CspParameters*& __get__params();
+  constexpr ::System::Security::Cryptography::CspParameters*& __cordl_internal_get__params();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::CspParameters*> const& __get__params() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::CspParameters*> const& __cordl_internal_get__params() const;
 
-  constexpr void __set__params(::System::Security::Cryptography::CspParameters* value);
+  constexpr void __cordl_internal_set__params(::System::Security::Cryptography::CspParameters* value);
 
-  constexpr ::StringW& __get__keyvalue();
+  constexpr ::StringW& __cordl_internal_get__keyvalue();
 
-  constexpr ::StringW const& __get__keyvalue() const;
+  constexpr ::StringW const& __cordl_internal_get__keyvalue() const;
 
-  constexpr void __set__keyvalue(::StringW value);
+  constexpr void __cordl_internal_set__keyvalue(::StringW value);
 
-  constexpr ::StringW& __get__filename();
+  constexpr ::StringW& __cordl_internal_get__filename();
 
-  constexpr ::StringW const& __get__filename() const;
+  constexpr ::StringW const& __cordl_internal_get__filename() const;
 
-  constexpr void __set__filename(::StringW value);
+  constexpr void __cordl_internal_set__filename(::StringW value);
 
-  constexpr ::StringW& __get__container();
+  constexpr ::StringW& __cordl_internal_get__container();
 
-  constexpr ::StringW const& __get__container() const;
+  constexpr ::StringW const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::StringW value);
+  constexpr void __cordl_internal_set__container(::StringW value);
 
   static inline void setStaticF__userPathExists(bool value);
 

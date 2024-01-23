@@ -21,34 +21,34 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshHandle);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12140))
 // CS Name: ::UnityEngine.ProBuilder::MeshHandle*
 class CORDL_TYPE MeshHandle : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Transform, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Transform, put = __set_m_Transform))::UnityEngine::Transform* m_Transform;
+  __declspec(property(get = __cordl_internal_get_m_Transform, put = __cordl_internal_set_m_Transform))::UnityW<::UnityEngine::Transform> m_Transform;
 
   /// @brief Field m_Mesh, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Mesh, put = __set_m_Mesh))::UnityEngine::Mesh* m_Mesh;
+  __declspec(property(get = __cordl_internal_get_m_Mesh, put = __cordl_internal_set_m_Mesh))::UnityW<::UnityEngine::Mesh> m_Mesh;
 
-  __declspec(property(get = get_mesh))::UnityEngine::Mesh* mesh;
+  __declspec(property(get = get_mesh))::UnityW<::UnityEngine::Mesh> mesh;
 
-  constexpr ::UnityEngine::Transform*& __get_m_Transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_m_Transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_m_Transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_m_Transform() const;
 
-  constexpr void __set_m_Transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_m_Transform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Mesh*& __get_m_Mesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get_m_Mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get_m_Mesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get_m_Mesh() const;
 
-  constexpr void __set_m_Mesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set_m_Mesh(::UnityW<::UnityEngine::Mesh> value);
 
   /// @brief Method get_mesh, addr 0x2b4c104, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Mesh* get_mesh();
+  inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
   static inline ::UnityEngine::ProBuilder::MeshHandle* New_ctor(::UnityEngine::Transform* transform, ::UnityEngine::Mesh* mesh);
 
@@ -73,10 +73,10 @@ protected:
 
 public:
   /// @brief Field m_Transform, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___m_Transform;
+  ::UnityW<::UnityEngine::Transform> ___m_Transform;
 
   /// @brief Field m_Mesh, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ___m_Mesh;
+  ::UnityW<::UnityEngine::Mesh> ___m_Mesh;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

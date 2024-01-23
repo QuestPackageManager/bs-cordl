@@ -24,65 +24,65 @@ MARK_REF_PTR_T(::System::TermInfoReader);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2625))
 // CS Name: ::System::TermInfoReader*
 class CORDL_TYPE TermInfoReader : public ::System::Object {
 public:
   // Declarations
   /// @brief Field boolSize, offset 0x10, size 0x4
-  __declspec(property(get = __get_boolSize, put = __set_boolSize)) int32_t boolSize;
+  __declspec(property(get = __cordl_internal_get_boolSize, put = __cordl_internal_set_boolSize)) int32_t boolSize;
 
   /// @brief Field numSize, offset 0x14, size 0x4
-  __declspec(property(get = __get_numSize, put = __set_numSize)) int32_t numSize;
+  __declspec(property(get = __cordl_internal_get_numSize, put = __cordl_internal_set_numSize)) int32_t numSize;
 
   /// @brief Field strOffsets, offset 0x18, size 0x4
-  __declspec(property(get = __get_strOffsets, put = __set_strOffsets)) int32_t strOffsets;
+  __declspec(property(get = __cordl_internal_get_strOffsets, put = __cordl_internal_set_strOffsets)) int32_t strOffsets;
 
   /// @brief Field buffer, offset 0x20, size 0x8
-  __declspec(property(get = __get_buffer, put = __set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
 
   /// @brief Field booleansOffset, offset 0x28, size 0x4
-  __declspec(property(get = __get_booleansOffset, put = __set_booleansOffset)) int32_t booleansOffset;
+  __declspec(property(get = __cordl_internal_get_booleansOffset, put = __cordl_internal_set_booleansOffset)) int32_t booleansOffset;
 
   /// @brief Field intOffset, offset 0x2c, size 0x4
-  __declspec(property(get = __get_intOffset, put = __set_intOffset)) int32_t intOffset;
+  __declspec(property(get = __cordl_internal_get_intOffset, put = __cordl_internal_set_intOffset)) int32_t intOffset;
 
-  constexpr int32_t& __get_boolSize();
+  constexpr int32_t& __cordl_internal_get_boolSize();
 
-  constexpr int32_t const& __get_boolSize() const;
+  constexpr int32_t const& __cordl_internal_get_boolSize() const;
 
-  constexpr void __set_boolSize(int32_t value);
+  constexpr void __cordl_internal_set_boolSize(int32_t value);
 
-  constexpr int32_t& __get_numSize();
+  constexpr int32_t& __cordl_internal_get_numSize();
 
-  constexpr int32_t const& __get_numSize() const;
+  constexpr int32_t const& __cordl_internal_get_numSize() const;
 
-  constexpr void __set_numSize(int32_t value);
+  constexpr void __cordl_internal_set_numSize(int32_t value);
 
-  constexpr int32_t& __get_strOffsets();
+  constexpr int32_t& __cordl_internal_get_strOffsets();
 
-  constexpr int32_t const& __get_strOffsets() const;
+  constexpr int32_t const& __cordl_internal_get_strOffsets() const;
 
-  constexpr void __set_strOffsets(int32_t value);
+  constexpr void __cordl_internal_set_strOffsets(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_buffer() const;
 
-  constexpr void __set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_booleansOffset();
+  constexpr int32_t& __cordl_internal_get_booleansOffset();
 
-  constexpr int32_t const& __get_booleansOffset() const;
+  constexpr int32_t const& __cordl_internal_get_booleansOffset() const;
 
-  constexpr void __set_booleansOffset(int32_t value);
+  constexpr void __cordl_internal_set_booleansOffset(int32_t value);
 
-  constexpr int32_t& __get_intOffset();
+  constexpr int32_t& __cordl_internal_get_intOffset();
 
-  constexpr int32_t const& __get_intOffset() const;
+  constexpr int32_t const& __cordl_internal_get_intOffset() const;
 
-  constexpr void __set_intOffset(int32_t value);
+  constexpr void __cordl_internal_set_intOffset(int32_t value);
 
   static inline ::System::TermInfoReader* New_ctor(::StringW term, ::StringW filename);
 

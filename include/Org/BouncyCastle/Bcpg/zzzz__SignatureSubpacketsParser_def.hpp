@@ -23,20 +23,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(590))
 // CS Name: ::Org.BouncyCastle.Bcpg::SignatureSubpacketsParser*
 class CORDL_TYPE SignatureSubpacketsParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field input, offset 0x10, size 0x8
-  __declspec(property(get = __get_input, put = __set_input))::System::IO::Stream* input;
+  __declspec(property(get = __cordl_internal_get_input, put = __cordl_internal_set_input))::System::IO::Stream* input;
 
-  constexpr ::System::IO::Stream*& __get_input();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_input();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_input() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_input() const;
 
-  constexpr void __set_input(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_input(::System::IO::Stream* value);
 
   static inline ::Org::BouncyCastle::Bcpg::SignatureSubpacketsParser* New_ctor(::System::IO::Stream* input);
 

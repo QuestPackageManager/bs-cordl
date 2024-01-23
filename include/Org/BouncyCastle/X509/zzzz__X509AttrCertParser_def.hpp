@@ -34,41 +34,41 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509AttrCertParser);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1858))
 // CS Name: ::Org.BouncyCastle.X509::X509AttrCertParser*
 class CORDL_TYPE X509AttrCertParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field sData, offset 0x10, size 0x8
-  __declspec(property(get = __get_sData, put = __set_sData))::Org::BouncyCastle::Asn1::Asn1Set* sData;
+  __declspec(property(get = __cordl_internal_get_sData, put = __cordl_internal_set_sData))::Org::BouncyCastle::Asn1::Asn1Set* sData;
 
   /// @brief Field sDataObjectCount, offset 0x18, size 0x4
-  __declspec(property(get = __get_sDataObjectCount, put = __set_sDataObjectCount)) int32_t sDataObjectCount;
+  __declspec(property(get = __cordl_internal_get_sDataObjectCount, put = __cordl_internal_set_sDataObjectCount)) int32_t sDataObjectCount;
 
   /// @brief Field currentStream, offset 0x20, size 0x8
-  __declspec(property(get = __get_currentStream, put = __set_currentStream))::System::IO::Stream* currentStream;
+  __declspec(property(get = __cordl_internal_get_currentStream, put = __cordl_internal_set_currentStream))::System::IO::Stream* currentStream;
 
   /// @brief Field PemAttrCertParser, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_PemAttrCertParser, put = setStaticF_PemAttrCertParser))::Org::BouncyCastle::X509::PemParser* PemAttrCertParser;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __get_sData();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Set*& __cordl_internal_get_sData();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __get_sData() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Set*> const& __cordl_internal_get_sData() const;
 
-  constexpr void __set_sData(::Org::BouncyCastle::Asn1::Asn1Set* value);
+  constexpr void __cordl_internal_set_sData(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  constexpr int32_t& __get_sDataObjectCount();
+  constexpr int32_t& __cordl_internal_get_sDataObjectCount();
 
-  constexpr int32_t const& __get_sDataObjectCount() const;
+  constexpr int32_t const& __cordl_internal_get_sDataObjectCount() const;
 
-  constexpr void __set_sDataObjectCount(int32_t value);
+  constexpr void __cordl_internal_set_sDataObjectCount(int32_t value);
 
-  constexpr ::System::IO::Stream*& __get_currentStream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_currentStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_currentStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_currentStream() const;
 
-  constexpr void __set_currentStream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_currentStream(::System::IO::Stream* value);
 
   static inline void setStaticF_PemAttrCertParser(::Org::BouncyCastle::X509::PemParser* value);
 

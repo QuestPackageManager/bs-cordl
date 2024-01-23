@@ -19,7 +19,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_Session);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9691))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9691))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9728))
 // CS Name: ::HoudiniEngineUnity::HAPI_Session
 struct CORDL_TYPE HAPI_Session {

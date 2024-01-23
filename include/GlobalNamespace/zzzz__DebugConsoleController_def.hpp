@@ -125,7 +125,7 @@ MARK_VAL_T(::GlobalNamespace::__DebugConsoleController___TryExecuteCommand_d__8)
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10036))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10036))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5992))
 // CS Name: ::DebugConsoleController::ConsoleMessage
 struct CORDL_TYPE __DebugConsoleController__ConsoleMessage {
@@ -167,7 +167,7 @@ static_assert(offsetof(::GlobalNamespace::__DebugConsoleController__ConsoleMessa
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5993))
 // CS Name: ::DebugConsoleController::<ExecuteCommands>d__6
 struct CORDL_TYPE __DebugConsoleController___ExecuteCommands_d__6 {
@@ -228,7 +228,7 @@ static_assert(offsetof(::GlobalNamespace::__DebugConsoleController___ExecuteComm
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5994))
 // CS Name: ::DebugConsoleController::<ExecuteCommandsAsync>d__7
 struct CORDL_TYPE __DebugConsoleController___ExecuteCommandsAsync_d__7 {
@@ -297,7 +297,7 @@ static_assert(offsetof(::GlobalNamespace::__DebugConsoleController___ExecuteComm
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3401))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5995))
 // CS Name: ::DebugConsoleController::<TryExecuteCommand>d__8
 struct CORDL_TYPE __DebugConsoleController___TryExecuteCommand_d__8 {
@@ -372,7 +372,7 @@ static_assert(offsetof(::GlobalNamespace::__DebugConsoleController___TryExecuteC
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(3393))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5996))
 // CS Name: ::DebugConsoleController::<StartConsoleReadTask>d__20
 struct CORDL_TYPE __DebugConsoleController___StartConsoleReadTask_d__20 {
@@ -428,8 +428,8 @@ static_assert(offsetof(::GlobalNamespace::__DebugConsoleController___StartConsol
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3401))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5997)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3390)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 397 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5997)) CS Name:
 // ::DebugConsoleController::<ReadInputLoopAsync>d__21
 struct CORDL_TYPE __DebugConsoleController___ReadInputLoopAsync_d__21 {
 public:
@@ -513,7 +513,7 @@ static_assert(offsetof(::GlobalNamespace::__DebugConsoleController___ReadInputLo
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5998))
 // CS Name: ::DebugConsoleController*
 class CORDL_TYPE DebugConsoleController : public ::System::Object {
@@ -532,13 +532,14 @@ public:
   using ConsoleMessage = ::GlobalNamespace::__DebugConsoleController__ConsoleMessage;
 
   /// @brief Field _container, offset 0x10, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _commands, offset 0x18, size 0x8
-  __declspec(property(get = __get__commands, put = __set__commands))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>* _commands;
+  __declspec(property(get = __cordl_internal_get__commands,
+                      put = __cordl_internal_set__commands))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>* _commands;
 
   /// @brief Field _commandsExecutionTask, offset 0x20, size 0x8
-  __declspec(property(get = __get__commandsExecutionTask, put = __set__commandsExecutionTask))::System::Threading::Tasks::Task* _commandsExecutionTask;
+  __declspec(property(get = __cordl_internal_get__commandsExecutionTask, put = __cordl_internal_set__commandsExecutionTask))::System::Threading::Tasks::Task* _commandsExecutionTask;
 
   /// @brief Field _stringsFromSTDIN, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__stringsFromSTDIN, put = setStaticF__stringsFromSTDIN))::System::Collections::Generic::Queue_1<::StringW>* _stringsFromSTDIN;
@@ -558,23 +559,23 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>*& __get__commands();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>*& __cordl_internal_get__commands();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>*> const& __get__commands() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>*> const& __cordl_internal_get__commands() const;
 
-  constexpr void __set__commands(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>* value);
+  constexpr void __cordl_internal_set__commands(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ConsoleCommandBase*>* value);
 
-  constexpr ::System::Threading::Tasks::Task*& __get__commandsExecutionTask();
+  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get__commandsExecutionTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __get__commandsExecutionTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get__commandsExecutionTask() const;
 
-  constexpr void __set__commandsExecutionTask(::System::Threading::Tasks::Task* value);
+  constexpr void __cordl_internal_set__commandsExecutionTask(::System::Threading::Tasks::Task* value);
 
   static inline void setStaticF__stringsFromSTDIN(::System::Collections::Generic::Queue_1<::StringW>* value);
 

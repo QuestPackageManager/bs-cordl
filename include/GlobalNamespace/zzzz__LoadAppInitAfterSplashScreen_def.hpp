@@ -54,7 +54,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__LoadAppInitAfterSplashScreen____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4024))
 // CS Name: ::LoadAppInitAfterSplashScreen::<>c*
 class CORDL_TYPE __LoadAppInitAfterSplashScreen____c : public ::System::Object {
@@ -106,23 +106,23 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LoadAppInitAf
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4025))
 // CS Name: ::LoadAppInitAfterSplashScreen::<Start>d__2*
 class CORDL_TYPE __LoadAppInitAfterSplashScreen___Start_d__2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::LoadAppInitAfterSplashScreen* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::LoadAppInitAfterSplashScreen> __4__this;
 
   /// @brief Field <sceneAsyncLoad>5__2, offset 0x28, size 0x8
-  __declspec(property(get = __get__sceneAsyncLoad_5__2, put = __set__sceneAsyncLoad_5__2))::UnityEngine::AsyncOperation* _sceneAsyncLoad_5__2;
+  __declspec(property(get = __cordl_internal_get__sceneAsyncLoad_5__2, put = __cordl_internal_set__sceneAsyncLoad_5__2))::UnityEngine::AsyncOperation* _sceneAsyncLoad_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -146,29 +146,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::LoadAppInitAfterSplashScreen*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::LoadAppInitAfterSplashScreen>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LoadAppInitAfterSplashScreen*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::LoadAppInitAfterSplashScreen> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::LoadAppInitAfterSplashScreen* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::LoadAppInitAfterSplashScreen> value);
 
-  constexpr ::UnityEngine::AsyncOperation*& __get__sceneAsyncLoad_5__2();
+  constexpr ::UnityEngine::AsyncOperation*& __cordl_internal_get__sceneAsyncLoad_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AsyncOperation*> const& __get__sceneAsyncLoad_5__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AsyncOperation*> const& __cordl_internal_get__sceneAsyncLoad_5__2() const;
 
-  constexpr void __set__sceneAsyncLoad_5__2(::UnityEngine::AsyncOperation* value);
+  constexpr void __cordl_internal_set__sceneAsyncLoad_5__2(::UnityEngine::AsyncOperation* value);
 
   static inline ::GlobalNamespace::__LoadAppInitAfterSplashScreen___Start_d__2* New_ctor(int32_t __1__state);
 
@@ -211,7 +211,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::LoadAppInitAfterSplashScreen* _____4__this;
+  ::UnityW<::GlobalNamespace::LoadAppInitAfterSplashScreen> _____4__this;
 
   /// @brief Field <sceneAsyncLoad>5__2, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::AsyncOperation* ____sceneAsyncLoad_5__2;
@@ -234,7 +234,7 @@ static_assert(offsetof(::GlobalNamespace::__LoadAppInitAfterSplashScreen___Start
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4026))
 // CS Name: ::LoadAppInitAfterSplashScreen*
 class CORDL_TYPE LoadAppInitAfterSplashScreen : public ::UnityEngine::MonoBehaviour {
@@ -245,22 +245,23 @@ public:
   using __c = ::GlobalNamespace::__LoadAppInitAfterSplashScreen____c;
 
   /// @brief Field _camera, offset 0x18, size 0x8
-  __declspec(property(get = __get__camera, put = __set__camera))::UnityEngine::Camera* _camera;
+  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera))::UnityW<::UnityEngine::Camera> _camera;
 
   /// @brief Field _appInitScenesTransitionSetup, offset 0x20, size 0x8
-  __declspec(property(get = __get__appInitScenesTransitionSetup, put = __set__appInitScenesTransitionSetup))::GlobalNamespace::AppInitScenesTransitionSetupDataSO* _appInitScenesTransitionSetup;
+  __declspec(property(get = __cordl_internal_get__appInitScenesTransitionSetup,
+                      put = __cordl_internal_set__appInitScenesTransitionSetup))::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> _appInitScenesTransitionSetup;
 
-  constexpr ::UnityEngine::Camera*& __get__camera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get__camera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
 
-  constexpr void __set__camera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataSO*& __get__appInitScenesTransitionSetup();
+  constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO>& __cordl_internal_get__appInitScenesTransitionSetup();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*> const& __get__appInitScenesTransitionSetup() const;
+  constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> const& __cordl_internal_get__appInitScenesTransitionSetup() const;
 
-  constexpr void __set__appInitScenesTransitionSetup(::GlobalNamespace::AppInitScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__appInitScenesTransitionSetup(::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> value);
 
   /// @brief Method Start, addr 0x2225f3c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
@@ -285,10 +286,10 @@ protected:
 
 public:
   /// @brief Field _camera, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Camera* ____camera;
+  ::UnityW<::UnityEngine::Camera> ____camera;
 
   /// @brief Field _appInitScenesTransitionSetup, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::AppInitScenesTransitionSetupDataSO* ____appInitScenesTransitionSetup;
+  ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataSO> ____appInitScenesTransitionSetup;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

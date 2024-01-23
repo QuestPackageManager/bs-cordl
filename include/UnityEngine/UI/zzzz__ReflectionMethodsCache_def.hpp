@@ -82,7 +82,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13134))
 // CS Name: ::ReflectionMethodsCache::Raycast3DCallback*
 class CORDL_TYPE __ReflectionMethodsCache__Raycast3DCallback : public ::System::MulticastDelegate {
@@ -126,7 +126,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__ReflectionMet
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13135))
 // CS Name: ::ReflectionMethodsCache::RaycastAllCallback*
 class CORDL_TYPE __ReflectionMethodsCache__RaycastAllCallback : public ::System::MulticastDelegate {
@@ -170,7 +170,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__ReflectionMet
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13136))
 // CS Name: ::ReflectionMethodsCache::GetRaycastNonAllocCallback*
 class CORDL_TYPE __ReflectionMethodsCache__GetRaycastNonAllocCallback : public ::System::MulticastDelegate {
@@ -215,7 +215,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__ReflectionMet
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13137))
 // CS Name: ::ReflectionMethodsCache::Raycast2DCallback*
 class CORDL_TYPE __ReflectionMethodsCache__Raycast2DCallback : public ::System::MulticastDelegate {
@@ -259,7 +259,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__ReflectionMet
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13138))
 // CS Name: ::ReflectionMethodsCache::GetRayIntersectionAllCallback*
 class CORDL_TYPE __ReflectionMethodsCache__GetRayIntersectionAllCallback : public ::System::MulticastDelegate {
@@ -303,7 +303,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__ReflectionMet
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13139))
 // CS Name: ::ReflectionMethodsCache::GetRayIntersectionAllNonAllocCallback*
 class CORDL_TYPE __ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback : public ::System::MulticastDelegate {
@@ -348,7 +348,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__ReflectionMet
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13140))
 // CS Name: ::UnityEngine.UI::ReflectionMethodsCache*
 class CORDL_TYPE ReflectionMethodsCache : public ::System::Object {
@@ -367,62 +367,64 @@ public:
   using Raycast3DCallback = ::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback;
 
   /// @brief Field raycast3D, offset 0x10, size 0x8
-  __declspec(property(get = __get_raycast3D, put = __set_raycast3D))::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback* raycast3D;
+  __declspec(property(get = __cordl_internal_get_raycast3D, put = __cordl_internal_set_raycast3D))::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback* raycast3D;
 
   /// @brief Field raycast3DAll, offset 0x18, size 0x8
-  __declspec(property(get = __get_raycast3DAll, put = __set_raycast3DAll))::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback* raycast3DAll;
+  __declspec(property(get = __cordl_internal_get_raycast3DAll, put = __cordl_internal_set_raycast3DAll))::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback* raycast3DAll;
 
   /// @brief Field getRaycastNonAlloc, offset 0x20, size 0x8
-  __declspec(property(get = __get_getRaycastNonAlloc, put = __set_getRaycastNonAlloc))::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback* getRaycastNonAlloc;
+  __declspec(property(get = __cordl_internal_get_getRaycastNonAlloc,
+                      put = __cordl_internal_set_getRaycastNonAlloc))::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback* getRaycastNonAlloc;
 
   /// @brief Field raycast2D, offset 0x28, size 0x8
-  __declspec(property(get = __get_raycast2D, put = __set_raycast2D))::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback* raycast2D;
+  __declspec(property(get = __cordl_internal_get_raycast2D, put = __cordl_internal_set_raycast2D))::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback* raycast2D;
 
   /// @brief Field getRayIntersectionAll, offset 0x30, size 0x8
-  __declspec(property(get = __get_getRayIntersectionAll, put = __set_getRayIntersectionAll))::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback* getRayIntersectionAll;
+  __declspec(property(get = __cordl_internal_get_getRayIntersectionAll,
+                      put = __cordl_internal_set_getRayIntersectionAll))::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback* getRayIntersectionAll;
 
   /// @brief Field getRayIntersectionAllNonAlloc, offset 0x38, size 0x8
-  __declspec(property(get = __get_getRayIntersectionAllNonAlloc,
-                      put = __set_getRayIntersectionAllNonAlloc))::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback* getRayIntersectionAllNonAlloc;
+  __declspec(property(get = __cordl_internal_get_getRayIntersectionAllNonAlloc,
+                      put = __cordl_internal_set_getRayIntersectionAllNonAlloc))::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback* getRayIntersectionAllNonAlloc;
 
   /// @brief Field s_ReflectionMethodsCache, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_ReflectionMethodsCache, put = setStaticF_s_ReflectionMethodsCache))::UnityEngine::UI::ReflectionMethodsCache* s_ReflectionMethodsCache;
 
-  constexpr ::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*& __get_raycast3D();
+  constexpr ::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*& __cordl_internal_get_raycast3D();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*> const& __get_raycast3D() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback*> const& __cordl_internal_get_raycast3D() const;
 
-  constexpr void __set_raycast3D(::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback* value);
+  constexpr void __cordl_internal_set_raycast3D(::UnityEngine::UI::__ReflectionMethodsCache__Raycast3DCallback* value);
 
-  constexpr ::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*& __get_raycast3DAll();
+  constexpr ::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*& __cordl_internal_get_raycast3DAll();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*> const& __get_raycast3DAll() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback*> const& __cordl_internal_get_raycast3DAll() const;
 
-  constexpr void __set_raycast3DAll(::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback* value);
+  constexpr void __cordl_internal_set_raycast3DAll(::UnityEngine::UI::__ReflectionMethodsCache__RaycastAllCallback* value);
 
-  constexpr ::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*& __get_getRaycastNonAlloc();
+  constexpr ::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*& __cordl_internal_get_getRaycastNonAlloc();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*> const& __get_getRaycastNonAlloc() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback*> const& __cordl_internal_get_getRaycastNonAlloc() const;
 
-  constexpr void __set_getRaycastNonAlloc(::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback* value);
+  constexpr void __cordl_internal_set_getRaycastNonAlloc(::UnityEngine::UI::__ReflectionMethodsCache__GetRaycastNonAllocCallback* value);
 
-  constexpr ::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*& __get_raycast2D();
+  constexpr ::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*& __cordl_internal_get_raycast2D();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*> const& __get_raycast2D() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback*> const& __cordl_internal_get_raycast2D() const;
 
-  constexpr void __set_raycast2D(::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback* value);
+  constexpr void __cordl_internal_set_raycast2D(::UnityEngine::UI::__ReflectionMethodsCache__Raycast2DCallback* value);
 
-  constexpr ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*& __get_getRayIntersectionAll();
+  constexpr ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*& __cordl_internal_get_getRayIntersectionAll();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*> const& __get_getRayIntersectionAll() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback*> const& __cordl_internal_get_getRayIntersectionAll() const;
 
-  constexpr void __set_getRayIntersectionAll(::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback* value);
+  constexpr void __cordl_internal_set_getRayIntersectionAll(::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllCallback* value);
 
-  constexpr ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*& __get_getRayIntersectionAllNonAlloc();
+  constexpr ::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*& __cordl_internal_get_getRayIntersectionAllNonAlloc();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*> const& __get_getRayIntersectionAllNonAlloc() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback*> const& __cordl_internal_get_getRayIntersectionAllNonAlloc() const;
 
-  constexpr void __set_getRayIntersectionAllNonAlloc(::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback* value);
+  constexpr void __cordl_internal_set_getRayIntersectionAllNonAlloc(::UnityEngine::UI::__ReflectionMethodsCache__GetRayIntersectionAllNonAllocCallback* value);
 
   static inline void setStaticF_s_ReflectionMethodsCache(::UnityEngine::UI::ReflectionMethodsCache* value);
 

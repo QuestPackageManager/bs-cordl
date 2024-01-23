@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::FocusEvent);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7232)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7232), inst: 1985 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7232)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7232), inst: 1985 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7236))
 // CS Name: ::UnityEngine.UIElements::FocusEvent*
 class CORDL_TYPE FocusEvent : public ::UnityEngine::UIElements::FocusEventBase_1<::UnityEngine::UIElements::FocusEvent*> {

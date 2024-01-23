@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::System::Xml::Schema::SchemaNotation);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11707))
 // CS Name: ::System.Xml.Schema::SchemaNotation*
 class CORDL_TYPE SchemaNotation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::System::Xml::XmlQualifiedName* name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::System::Xml::XmlQualifiedName* name;
 
   /// @brief Field systemLiteral, offset 0x18, size 0x8
-  __declspec(property(get = __get_systemLiteral, put = __set_systemLiteral))::StringW systemLiteral;
+  __declspec(property(get = __cordl_internal_get_systemLiteral, put = __cordl_internal_set_systemLiteral))::StringW systemLiteral;
 
   /// @brief Field pubid, offset 0x20, size 0x8
-  __declspec(property(get = __get_pubid, put = __set_pubid))::StringW pubid;
+  __declspec(property(get = __cordl_internal_get_pubid, put = __cordl_internal_set_pubid))::StringW pubid;
 
   __declspec(property(get = get_Name))::System::Xml::XmlQualifiedName* Name;
 
@@ -39,23 +39,23 @@ public:
 
   __declspec(property(get = get_Pubid, put = set_Pubid))::StringW Pubid;
 
-  constexpr ::System::Xml::XmlQualifiedName*& __get_name();
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_name();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __get_name() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::System::Xml::XmlQualifiedName* value);
+  constexpr void __cordl_internal_set_name(::System::Xml::XmlQualifiedName* value);
 
-  constexpr ::StringW& __get_systemLiteral();
+  constexpr ::StringW& __cordl_internal_get_systemLiteral();
 
-  constexpr ::StringW const& __get_systemLiteral() const;
+  constexpr ::StringW const& __cordl_internal_get_systemLiteral() const;
 
-  constexpr void __set_systemLiteral(::StringW value);
+  constexpr void __cordl_internal_set_systemLiteral(::StringW value);
 
-  constexpr ::StringW& __get_pubid();
+  constexpr ::StringW& __cordl_internal_get_pubid();
 
-  constexpr ::StringW const& __get_pubid() const;
+  constexpr ::StringW const& __cordl_internal_get_pubid() const;
 
-  constexpr void __set_pubid(::StringW value);
+  constexpr void __cordl_internal_set_pubid(::StringW value);
 
   static inline ::System::Xml::Schema::SchemaNotation* New_ctor(::System::Xml::XmlQualifiedName* name);
 

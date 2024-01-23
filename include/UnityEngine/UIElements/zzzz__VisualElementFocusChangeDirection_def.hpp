@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementFocusChangeDirection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6881))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6881))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6793))
 // CS Name: ::UnityEngine.UIElements::VisualElementFocusChangeDirection*
 class CORDL_TYPE VisualElementFocusChangeDirection : public ::UnityEngine::UIElements::FocusChangeDirection {

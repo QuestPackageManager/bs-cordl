@@ -33,14 +33,14 @@ MARK_REF_PTR_T(::System::Xml::Linq::XDocument);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15436))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15436))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15438))
 // CS Name: ::System.Xml.Linq::XDocument*
 class CORDL_TYPE XDocument : public ::System::Xml::Linq::XContainer {
 public:
   // Declarations
   /// @brief Field _declaration, offset 0x30, size 0x8
-  __declspec(property(get = __get__declaration, put = __set__declaration))::System::Xml::Linq::XDeclaration* _declaration;
+  __declspec(property(get = __cordl_internal_get__declaration, put = __cordl_internal_set__declaration))::System::Xml::Linq::XDeclaration* _declaration;
 
   __declspec(property(get = get_Declaration, put = set_Declaration))::System::Xml::Linq::XDeclaration* Declaration;
 
@@ -48,11 +48,11 @@ public:
 
   __declspec(property(get = get_Root))::System::Xml::Linq::XElement* Root;
 
-  constexpr ::System::Xml::Linq::XDeclaration*& __get__declaration();
+  constexpr ::System::Xml::Linq::XDeclaration*& __cordl_internal_get__declaration();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XDeclaration*> const& __get__declaration() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XDeclaration*> const& __cordl_internal_get__declaration() const;
 
-  constexpr void __set__declaration(::System::Xml::Linq::XDeclaration* value);
+  constexpr void __cordl_internal_set__declaration(::System::Xml::Linq::XDeclaration* value);
 
   static inline ::System::Xml::Linq::XDocument* New_ctor();
 

@@ -31,42 +31,42 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::MacData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(239))
 // CS Name: ::Org.BouncyCastle.Asn1.Pkcs::MacData*
 class CORDL_TYPE MacData : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field digInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_digInfo, put = __set_digInfo))::Org::BouncyCastle::Asn1::X509::DigestInfo* digInfo;
+  __declspec(property(get = __cordl_internal_get_digInfo, put = __cordl_internal_set_digInfo))::Org::BouncyCastle::Asn1::X509::DigestInfo* digInfo;
 
   /// @brief Field salt, offset 0x18, size 0x8
-  __declspec(property(get = __get_salt, put = __set_salt))::ArrayW<uint8_t, ::Array<uint8_t>*> salt;
+  __declspec(property(get = __cordl_internal_get_salt, put = __cordl_internal_set_salt))::ArrayW<uint8_t, ::Array<uint8_t>*> salt;
 
   /// @brief Field iterationCount, offset 0x20, size 0x8
-  __declspec(property(get = __get_iterationCount, put = __set_iterationCount))::Org::BouncyCastle::Math::BigInteger* iterationCount;
+  __declspec(property(get = __cordl_internal_get_iterationCount, put = __cordl_internal_set_iterationCount))::Org::BouncyCastle::Math::BigInteger* iterationCount;
 
   __declspec(property(get = get_Mac))::Org::BouncyCastle::Asn1::X509::DigestInfo* Mac;
 
   __declspec(property(get = get_IterationCount))::Org::BouncyCastle::Math::BigInteger* IterationCount;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::DigestInfo*& __get_digInfo();
+  constexpr ::Org::BouncyCastle::Asn1::X509::DigestInfo*& __cordl_internal_get_digInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::DigestInfo*> const& __get_digInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::DigestInfo*> const& __cordl_internal_get_digInfo() const;
 
-  constexpr void __set_digInfo(::Org::BouncyCastle::Asn1::X509::DigestInfo* value);
+  constexpr void __cordl_internal_set_digInfo(::Org::BouncyCastle::Asn1::X509::DigestInfo* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_salt();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_salt();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_salt() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_salt() const;
 
-  constexpr void __set_salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_iterationCount();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_iterationCount();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_iterationCount() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_iterationCount() const;
 
-  constexpr void __set_iterationCount(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_iterationCount(::Org::BouncyCastle::Math::BigInteger* value);
 
   /// @brief Method GetInstance, addr 0xf88ee0, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::MacData* GetInstance(::System::Object* obj);

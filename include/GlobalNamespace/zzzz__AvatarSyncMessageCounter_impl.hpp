@@ -13,10 +13,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x2635468;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarSyncMessageCounter*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::TimeSpan>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarSyncMessageCounter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::TimeSpan>::get() })));
     return ___internal_method;
   }
 };
@@ -28,9 +28,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8c;
   constexpr static std::size_t addrs = 0x26354f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarSyncMessageCounter*>::get(),
-                                                                               "MessageReceived", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "MessageReceived", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -42,9 +42,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x26356bc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarSyncMessageCounter*>::get(),
-                                                                               "CurrentMessages", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "CurrentMessages", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -56,58 +56,59 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x138;
   constexpr static std::size_t addrs = 0x2635584;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarSyncMessageCounter*>::get(),
-                                                                               "CleanOldMessages", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "CleanOldMessages", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::Queue_1<::System::DateTime>*& GlobalNamespace::AvatarSyncMessageCounter::__get_messageTimestamps() {
+constexpr ::System::Collections::Generic::Queue_1<::System::DateTime>*& GlobalNamespace::AvatarSyncMessageCounter::__cordl_internal_get_messageTimestamps() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___messageTimestamps;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::System::DateTime>*> const& GlobalNamespace::AvatarSyncMessageCounter::__get_messageTimestamps() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::System::DateTime>*> const&
+GlobalNamespace::AvatarSyncMessageCounter::__cordl_internal_get_messageTimestamps() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___messageTimestamps;
 }
-constexpr void GlobalNamespace::AvatarSyncMessageCounter::__set_messageTimestamps(::System::Collections::Generic::Queue_1<::System::DateTime>* value) {
+constexpr void GlobalNamespace::AvatarSyncMessageCounter::__cordl_internal_set_messageTimestamps(::System::Collections::Generic::Queue_1<::System::DateTime>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___messageTimestamps)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::TimeSpan& GlobalNamespace::AvatarSyncMessageCounter::__get_period() {
+constexpr ::System::TimeSpan& GlobalNamespace::AvatarSyncMessageCounter::__cordl_internal_get_period() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___period;
 }
-constexpr ::System::TimeSpan const& GlobalNamespace::AvatarSyncMessageCounter::__get_period() const {
+constexpr ::System::TimeSpan const& GlobalNamespace::AvatarSyncMessageCounter::__cordl_internal_get_period() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___period;
 }
-constexpr void GlobalNamespace::AvatarSyncMessageCounter::__set_period(::System::TimeSpan value) {
+constexpr void GlobalNamespace::AvatarSyncMessageCounter::__cordl_internal_set_period(::System::TimeSpan value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___period = value;
 }
 inline ::GlobalNamespace::AvatarSyncMessageCounter* GlobalNamespace::AvatarSyncMessageCounter::New_ctor(::System::TimeSpan period) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::AvatarSyncMessageCounter*>(period));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AvatarSyncMessageCounter*>(period));
 }
 inline void GlobalNamespace::AvatarSyncMessageCounter::_ctor(::System::TimeSpan period) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarSyncMessageCounter*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::TimeSpan>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarSyncMessageCounter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::TimeSpan>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, period);
 }
 inline void GlobalNamespace::AvatarSyncMessageCounter::MessageReceived() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarSyncMessageCounter*>::get(),
-                                                                             "MessageReceived", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "MessageReceived", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline int32_t GlobalNamespace::AvatarSyncMessageCounter::CurrentMessages() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarSyncMessageCounter*>::get(),
-                                                                             "CurrentMessages", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "CurrentMessages", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::AvatarSyncMessageCounter::CleanOldMessages() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarSyncMessageCounter*>::get(),
-                                                                             "CleanOldMessages", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "CleanOldMessages", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

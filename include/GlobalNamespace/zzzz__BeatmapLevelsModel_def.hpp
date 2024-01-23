@@ -157,20 +157,20 @@ MARK_VAL_T(::GlobalNamespace::__BeatmapLevelsModel___ReloadCustomLevelPackCollec
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4357))
 // CS Name: ::BeatmapLevelsModel::InitData*
 class CORDL_TYPE __BeatmapLevelsModel__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field maxCachedBeatmapLevels, offset 0x10, size 0x4
-  __declspec(property(get = __get_maxCachedBeatmapLevels, put = __set_maxCachedBeatmapLevels)) int32_t maxCachedBeatmapLevels;
+  __declspec(property(get = __cordl_internal_get_maxCachedBeatmapLevels, put = __cordl_internal_set_maxCachedBeatmapLevels)) int32_t maxCachedBeatmapLevels;
 
-  constexpr int32_t& __get_maxCachedBeatmapLevels();
+  constexpr int32_t& __cordl_internal_get_maxCachedBeatmapLevels();
 
-  constexpr int32_t const& __get_maxCachedBeatmapLevels() const;
+  constexpr int32_t const& __cordl_internal_get_maxCachedBeatmapLevels() const;
 
-  constexpr void __set_maxCachedBeatmapLevels(int32_t value);
+  constexpr void __cordl_internal_set_maxCachedBeatmapLevels(int32_t value);
 
   static inline ::GlobalNamespace::__BeatmapLevelsModel__InitData* New_ctor(int32_t maxCachedBeatmapLevels);
 
@@ -206,7 +206,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelsModel__InitData, ___max
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4358))
 // CS Name: ::BeatmapLevelsModel::GetBeatmapLevelResult
 struct CORDL_TYPE __BeatmapLevelsModel__GetBeatmapLevelResult {
@@ -246,7 +246,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelsModel__GetBeatmapLevelR
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4359))
 // CS Name: ::BeatmapLevelsModel::LevelDownloadingUpdate::DownloadingState
 struct CORDL_TYPE __BeatmapLevelsModel__LevelDownloadingUpdate__DownloadingState {
@@ -300,7 +300,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelsModel__LevelDownloading
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4359))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4359))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4360))
 // CS Name: ::BeatmapLevelsModel::LevelDownloadingUpdate
 struct CORDL_TYPE __BeatmapLevelsModel__LevelDownloadingUpdate {
@@ -354,9 +354,9 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelsModel__LevelDownloading
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 889 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3394), inst: 889 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4352))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4361)) CS
-// Name: ::BeatmapLevelsModel::<ReloadCustomLevelPackCollectionAsync>d__33
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4352)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 889 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 889 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4361)) CS Name: ::BeatmapLevelsModel::<ReloadCustomLevelPackCollectionAsync>d__33
 struct CORDL_TYPE __BeatmapLevelsModel___ReloadCustomLevelPackCollectionAsync_d__33 {
 public:
   // Declarations
@@ -411,20 +411,20 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelsModel___ReloadCustomLev
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4362))
 // CS Name: ::BeatmapLevelsModel::<>c__DisplayClass36_0*
 class CORDL_TYPE __BeatmapLevelsModel____c__DisplayClass36_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field levelId, offset 0x10, size 0x8
-  __declspec(property(get = __get_levelId, put = __set_levelId))::StringW levelId;
+  __declspec(property(get = __cordl_internal_get_levelId, put = __cordl_internal_set_levelId))::StringW levelId;
 
-  constexpr ::StringW& __get_levelId();
+  constexpr ::StringW& __cordl_internal_get_levelId();
 
-  constexpr ::StringW const& __get_levelId() const;
+  constexpr ::StringW const& __cordl_internal_get_levelId() const;
 
-  constexpr void __set_levelId(::StringW value);
+  constexpr void __cordl_internal_set_levelId(::StringW value);
 
   static inline ::GlobalNamespace::__BeatmapLevelsModel____c__DisplayClass36_0* New_ctor();
 
@@ -463,7 +463,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelsModel____c__DisplayClas
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4363))
 // CS Name: ::BeatmapLevelsModel::<>c*
 class CORDL_TYPE __BeatmapLevelsModel____c : public ::System::Object {
@@ -517,11 +517,11 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapLevels
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880
-// }), TypeDefinitionIndex(TypeDefinitionIndex(15594)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 904 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 906 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4358)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 }), TypeDefinitionIndex(TypeDefinitionIndex(4339))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4364)) CS
-// Name: ::BeatmapLevelsModel::<GetBeatmapLevelAsync>d__39
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4339)), TypeDefinitionIndex(TypeDefinitionIndex(4358)), TypeDefinitionIndex(TypeDefinitionIndex(15594)), TypeDefinitionIndex(TypeDefinitionIndex(16270)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 276 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 904 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 906 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4364)) CS Name: ::BeatmapLevelsModel::<GetBeatmapLevelAsync>d__39
 struct CORDL_TYPE __BeatmapLevelsModel___GetBeatmapLevelAsync_d__39 {
 public:
   // Declarations
@@ -539,17 +539,17 @@ public:
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::__BeatmapLevelsModel__GetBeatmapLevelResult>", modifiers: "", def_value: None }, CppParam { name: "__4__this",
-  // ty: "::GlobalNamespace::BeatmapLevelsModel*", modifiers: "", def_value: None }, CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
+  // ty: "::UnityW<::GlobalNamespace::BeatmapLevelsModel>", modifiers: "", def_value: None }, CppParam { name: "levelID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }, CppParam { name: "_beatmapLevel_5__2", ty:
   // "::GlobalNamespace::IBeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "_loadLevelResult_5__3", ty: "::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelResult", modifiers:
-  // "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AudioClip*>", modifiers: "", def_value: None }, CppParam { name: "__u__3",
-  // ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelResult>", modifiers: "", def_value: None }]
+  // "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>>", modifiers: "", def_value: None }, CppParam { name:
+  // "__u__3", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelResult>", modifiers: "", def_value: None }]
   constexpr __BeatmapLevelsModel___GetBeatmapLevelAsync_d__39(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::__BeatmapLevelsModel__GetBeatmapLevelResult> __t__builder,
-      ::GlobalNamespace::BeatmapLevelsModel* __4__this, ::StringW levelID, ::System::Threading::CancellationToken cancellationToken,
+      ::UnityW<::GlobalNamespace::BeatmapLevelsModel> __4__this, ::StringW levelID, ::System::Threading::CancellationToken cancellationToken,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1, ::GlobalNamespace::IBeatmapLevel* _beatmapLevel_5__2,
-      ::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelResult _loadLevelResult_5__3, ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AudioClip*> __u__2,
+      ::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelResult _loadLevelResult_5__3, ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__2,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelResult> __u__3) noexcept;
 
   // Ctor Parameters []
@@ -563,7 +563,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::__BeatmapLevelsModel__GetBeatmapLevelResult> __t__builder;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelsModel* __4__this;
+  ::UnityW<::GlobalNamespace::BeatmapLevelsModel> __4__this;
 
   /// @brief Field levelID, offset: 0x28, size: 0x8, def value: None
   ::StringW levelID;
@@ -581,7 +581,7 @@ public:
   ::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelResult _loadLevelResult_5__3;
 
   /// @brief Field <>u__2, offset: 0x58, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AudioClip*> __u__2;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__2;
 
   /// @brief Field <>u__3, offset: 0x60, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::__BeatmapLevelLoader__LoadBeatmapLevelResult> __u__3;
@@ -619,7 +619,7 @@ static_assert(offsetof(::GlobalNamespace::__BeatmapLevelsModel___GetBeatmapLevel
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4365))
 // CS Name: ::BeatmapLevelsModel*
 class CORDL_TYPE BeatmapLevelsModel : public ::UnityEngine::MonoBehaviour {
@@ -640,53 +640,59 @@ public:
   using InitData = ::GlobalNamespace::__BeatmapLevelsModel__InitData;
 
   /// @brief Field _dlcLevelPackCollectionContainer, offset 0x18, size 0x8
-  __declspec(property(get = __get__dlcLevelPackCollectionContainer,
-                      put = __set__dlcLevelPackCollectionContainer))::GlobalNamespace::BeatmapLevelPackCollectionContainerSO* _dlcLevelPackCollectionContainer;
+  __declspec(property(get = __cordl_internal_get__dlcLevelPackCollectionContainer,
+                      put = __cordl_internal_set__dlcLevelPackCollectionContainer))::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionContainerSO> _dlcLevelPackCollectionContainer;
 
   /// @brief Field _ostAndExtrasPackCollection, offset 0x20, size 0x8
-  __declspec(property(get = __get__ostAndExtrasPackCollection, put = __set__ostAndExtrasPackCollection))::GlobalNamespace::BeatmapLevelPackCollectionSO* _ostAndExtrasPackCollection;
+  __declspec(property(get = __cordl_internal_get__ostAndExtrasPackCollection,
+                      put = __cordl_internal_set__ostAndExtrasPackCollection))::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> _ostAndExtrasPackCollection;
 
   /// @brief Field _maxCachedBeatmapLevels, offset 0x28, size 0x4
-  __declspec(property(get = __get__maxCachedBeatmapLevels, put = __set__maxCachedBeatmapLevels)) int32_t _maxCachedBeatmapLevels;
+  __declspec(property(get = __cordl_internal_get__maxCachedBeatmapLevels, put = __cordl_internal_set__maxCachedBeatmapLevels)) int32_t _maxCachedBeatmapLevels;
 
   /// @brief Field _additionalContentModel, offset 0x30, size 0x8
-  __declspec(property(get = __get__additionalContentModel, put = __set__additionalContentModel))::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
+  __declspec(property(get = __cordl_internal_get__additionalContentModel, put = __cordl_internal_set__additionalContentModel))::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
 
   /// @brief Field _beatmapDataAssetFileModel, offset 0x38, size 0x8
-  __declspec(property(get = __get__beatmapDataAssetFileModel, put = __set__beatmapDataAssetFileModel))::GlobalNamespace::IBeatmapDataAssetFileModel* _beatmapDataAssetFileModel;
+  __declspec(property(get = __cordl_internal_get__beatmapDataAssetFileModel,
+                      put = __cordl_internal_set__beatmapDataAssetFileModel))::GlobalNamespace::IBeatmapDataAssetFileModel* _beatmapDataAssetFileModel;
 
   /// @brief Field _audioClipAsyncLoader, offset 0x40, size 0x8
-  __declspec(property(get = __get__audioClipAsyncLoader, put = __set__audioClipAsyncLoader))::GlobalNamespace::AudioClipAsyncLoader* _audioClipAsyncLoader;
+  __declspec(property(get = __cordl_internal_get__audioClipAsyncLoader, put = __cordl_internal_set__audioClipAsyncLoader))::GlobalNamespace::AudioClipAsyncLoader* _audioClipAsyncLoader;
 
   /// @brief Field _beatmapLevelDataLoader, offset 0x48, size 0x8
-  __declspec(property(get = __get__beatmapLevelDataLoader, put = __set__beatmapLevelDataLoader))::GlobalNamespace::BeatmapLevelDataLoader* _beatmapLevelDataLoader;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelDataLoader, put = __cordl_internal_set__beatmapLevelDataLoader))::GlobalNamespace::BeatmapLevelDataLoader* _beatmapLevelDataLoader;
 
   /// @brief Field levelDownloadingUpdateEvent, offset 0x50, size 0x8
-  __declspec(property(get = __get_levelDownloadingUpdateEvent,
-                      put = __set_levelDownloadingUpdateEvent))::System::Action_1<::GlobalNamespace::__BeatmapLevelsModel__LevelDownloadingUpdate>* levelDownloadingUpdateEvent;
+  __declspec(property(get = __cordl_internal_get_levelDownloadingUpdateEvent,
+                      put = __cordl_internal_set_levelDownloadingUpdateEvent))::System::Action_1<::GlobalNamespace::__BeatmapLevelsModel__LevelDownloadingUpdate>* levelDownloadingUpdateEvent;
 
   /// @brief Field _allLoadedBeatmapLevelPackCollection, offset 0x58, size 0x8
-  __declspec(property(get = __get__allLoadedBeatmapLevelPackCollection,
-                      put = __set__allLoadedBeatmapLevelPackCollection))::GlobalNamespace::IBeatmapLevelPackCollection* _allLoadedBeatmapLevelPackCollection;
+  __declspec(property(get = __cordl_internal_get__allLoadedBeatmapLevelPackCollection,
+                      put = __cordl_internal_set__allLoadedBeatmapLevelPackCollection))::GlobalNamespace::IBeatmapLevelPackCollection* _allLoadedBeatmapLevelPackCollection;
 
   /// @brief Field _allLoadedBeatmapLevelWithoutCustomLevelPackCollection, offset 0x60, size 0x8
-  __declspec(property(get = __get__allLoadedBeatmapLevelWithoutCustomLevelPackCollection,
-                      put = __set__allLoadedBeatmapLevelWithoutCustomLevelPackCollection))::GlobalNamespace::IBeatmapLevelPackCollection* _allLoadedBeatmapLevelWithoutCustomLevelPackCollection;
+  __declspec(property(
+      get = __cordl_internal_get__allLoadedBeatmapLevelWithoutCustomLevelPackCollection,
+      put = __cordl_internal_set__allLoadedBeatmapLevelWithoutCustomLevelPackCollection))::GlobalNamespace::IBeatmapLevelPackCollection* _allLoadedBeatmapLevelWithoutCustomLevelPackCollection;
 
   /// @brief Field _customLevelPackCollection, offset 0x68, size 0x8
-  __declspec(property(get = __get__customLevelPackCollection, put = __set__customLevelPackCollection))::GlobalNamespace::IBeatmapLevelPackCollection* _customLevelPackCollection;
+  __declspec(property(get = __cordl_internal_get__customLevelPackCollection,
+                      put = __cordl_internal_set__customLevelPackCollection))::GlobalNamespace::IBeatmapLevelPackCollection* _customLevelPackCollection;
 
   /// @brief Field _loadedBeatmapLevels, offset 0x70, size 0x8
-  __declspec(property(get = __get__loadedBeatmapLevels, put = __set__loadedBeatmapLevels))::GlobalNamespace::HMCache_2<::StringW, ::GlobalNamespace::IBeatmapLevel*>* _loadedBeatmapLevels;
+  __declspec(property(get = __cordl_internal_get__loadedBeatmapLevels,
+                      put = __cordl_internal_set__loadedBeatmapLevels))::GlobalNamespace::HMCache_2<::StringW, ::GlobalNamespace::IBeatmapLevel*>* _loadedBeatmapLevels;
 
   /// @brief Field _loadedPreviewBeatmapLevels, offset 0x78, size 0x8
-  __declspec(property(get = __get__loadedPreviewBeatmapLevels,
-                      put = __set__loadedPreviewBeatmapLevels))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::IPreviewBeatmapLevel*>* _loadedPreviewBeatmapLevels;
+  __declspec(
+      property(get = __cordl_internal_get__loadedPreviewBeatmapLevels,
+               put = __cordl_internal_set__loadedPreviewBeatmapLevels))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::IPreviewBeatmapLevel*>* _loadedPreviewBeatmapLevels;
 
   /// @brief Field _beatmapLevelLoader, offset 0x80, size 0x8
-  __declspec(property(get = __get__beatmapLevelLoader, put = __set__beatmapLevelLoader))::GlobalNamespace::BeatmapLevelLoader* _beatmapLevelLoader;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelLoader, put = __cordl_internal_set__beatmapLevelLoader))::GlobalNamespace::BeatmapLevelLoader* _beatmapLevelLoader;
 
-  __declspec(property(get = get_ostAndExtrasPackCollection))::GlobalNamespace::BeatmapLevelPackCollectionSO* ostAndExtrasPackCollection;
+  __declspec(property(get = get_ostAndExtrasPackCollection))::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> ostAndExtrasPackCollection;
 
   __declspec(property(get = get_dlcBeatmapLevelPackCollection))::GlobalNamespace::IBeatmapLevelPackCollection* dlcBeatmapLevelPackCollection;
 
@@ -696,89 +702,90 @@ public:
 
   __declspec(property(get = get_customLevelPackCollection))::GlobalNamespace::IBeatmapLevelPackCollection* customLevelPackCollection;
 
-  constexpr ::GlobalNamespace::BeatmapLevelPackCollectionContainerSO*& __get__dlcLevelPackCollectionContainer();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionContainerSO>& __cordl_internal_get__dlcLevelPackCollectionContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPackCollectionContainerSO*> const& __get__dlcLevelPackCollectionContainer() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionContainerSO> const& __cordl_internal_get__dlcLevelPackCollectionContainer() const;
 
-  constexpr void __set__dlcLevelPackCollectionContainer(::GlobalNamespace::BeatmapLevelPackCollectionContainerSO* value);
+  constexpr void __cordl_internal_set__dlcLevelPackCollectionContainer(::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionContainerSO> value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelPackCollectionSO*& __get__ostAndExtrasPackCollection();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO>& __cordl_internal_get__ostAndExtrasPackCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelPackCollectionSO*> const& __get__ostAndExtrasPackCollection() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> const& __cordl_internal_get__ostAndExtrasPackCollection() const;
 
-  constexpr void __set__ostAndExtrasPackCollection(::GlobalNamespace::BeatmapLevelPackCollectionSO* value);
+  constexpr void __cordl_internal_set__ostAndExtrasPackCollection(::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> value);
 
-  constexpr int32_t& __get__maxCachedBeatmapLevels();
+  constexpr int32_t& __cordl_internal_get__maxCachedBeatmapLevels();
 
-  constexpr int32_t const& __get__maxCachedBeatmapLevels() const;
+  constexpr int32_t const& __cordl_internal_get__maxCachedBeatmapLevels() const;
 
-  constexpr void __set__maxCachedBeatmapLevels(int32_t value);
+  constexpr void __cordl_internal_set__maxCachedBeatmapLevels(int32_t value);
 
-  constexpr ::GlobalNamespace::IAdditionalContentModel*& __get__additionalContentModel();
+  constexpr ::GlobalNamespace::IAdditionalContentModel*& __cordl_internal_get__additionalContentModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const& __get__additionalContentModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IAdditionalContentModel*> const& __cordl_internal_get__additionalContentModel() const;
 
-  constexpr void __set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
+  constexpr void __cordl_internal_set__additionalContentModel(::GlobalNamespace::IAdditionalContentModel* value);
 
-  constexpr ::GlobalNamespace::IBeatmapDataAssetFileModel*& __get__beatmapDataAssetFileModel();
+  constexpr ::GlobalNamespace::IBeatmapDataAssetFileModel*& __cordl_internal_get__beatmapDataAssetFileModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapDataAssetFileModel*> const& __get__beatmapDataAssetFileModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapDataAssetFileModel*> const& __cordl_internal_get__beatmapDataAssetFileModel() const;
 
-  constexpr void __set__beatmapDataAssetFileModel(::GlobalNamespace::IBeatmapDataAssetFileModel* value);
+  constexpr void __cordl_internal_set__beatmapDataAssetFileModel(::GlobalNamespace::IBeatmapDataAssetFileModel* value);
 
-  constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __get__audioClipAsyncLoader();
+  constexpr ::GlobalNamespace::AudioClipAsyncLoader*& __cordl_internal_get__audioClipAsyncLoader();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioClipAsyncLoader*> const& __get__audioClipAsyncLoader() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioClipAsyncLoader*> const& __cordl_internal_get__audioClipAsyncLoader() const;
 
-  constexpr void __set__audioClipAsyncLoader(::GlobalNamespace::AudioClipAsyncLoader* value);
+  constexpr void __cordl_internal_set__audioClipAsyncLoader(::GlobalNamespace::AudioClipAsyncLoader* value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelDataLoader*& __get__beatmapLevelDataLoader();
+  constexpr ::GlobalNamespace::BeatmapLevelDataLoader*& __cordl_internal_get__beatmapLevelDataLoader();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelDataLoader*> const& __get__beatmapLevelDataLoader() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelDataLoader*> const& __cordl_internal_get__beatmapLevelDataLoader() const;
 
-  constexpr void __set__beatmapLevelDataLoader(::GlobalNamespace::BeatmapLevelDataLoader* value);
+  constexpr void __cordl_internal_set__beatmapLevelDataLoader(::GlobalNamespace::BeatmapLevelDataLoader* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::__BeatmapLevelsModel__LevelDownloadingUpdate>*& __get_levelDownloadingUpdateEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::__BeatmapLevelsModel__LevelDownloadingUpdate>*& __cordl_internal_get_levelDownloadingUpdateEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__BeatmapLevelsModel__LevelDownloadingUpdate>*> const& __get_levelDownloadingUpdateEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::__BeatmapLevelsModel__LevelDownloadingUpdate>*> const& __cordl_internal_get_levelDownloadingUpdateEvent() const;
 
-  constexpr void __set_levelDownloadingUpdateEvent(::System::Action_1<::GlobalNamespace::__BeatmapLevelsModel__LevelDownloadingUpdate>* value);
+  constexpr void __cordl_internal_set_levelDownloadingUpdateEvent(::System::Action_1<::GlobalNamespace::__BeatmapLevelsModel__LevelDownloadingUpdate>* value);
 
-  constexpr ::GlobalNamespace::IBeatmapLevelPackCollection*& __get__allLoadedBeatmapLevelPackCollection();
+  constexpr ::GlobalNamespace::IBeatmapLevelPackCollection*& __cordl_internal_get__allLoadedBeatmapLevelPackCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelPackCollection*> const& __get__allLoadedBeatmapLevelPackCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelPackCollection*> const& __cordl_internal_get__allLoadedBeatmapLevelPackCollection() const;
 
-  constexpr void __set__allLoadedBeatmapLevelPackCollection(::GlobalNamespace::IBeatmapLevelPackCollection* value);
+  constexpr void __cordl_internal_set__allLoadedBeatmapLevelPackCollection(::GlobalNamespace::IBeatmapLevelPackCollection* value);
 
-  constexpr ::GlobalNamespace::IBeatmapLevelPackCollection*& __get__allLoadedBeatmapLevelWithoutCustomLevelPackCollection();
+  constexpr ::GlobalNamespace::IBeatmapLevelPackCollection*& __cordl_internal_get__allLoadedBeatmapLevelWithoutCustomLevelPackCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelPackCollection*> const& __get__allLoadedBeatmapLevelWithoutCustomLevelPackCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelPackCollection*> const& __cordl_internal_get__allLoadedBeatmapLevelWithoutCustomLevelPackCollection() const;
 
-  constexpr void __set__allLoadedBeatmapLevelWithoutCustomLevelPackCollection(::GlobalNamespace::IBeatmapLevelPackCollection* value);
+  constexpr void __cordl_internal_set__allLoadedBeatmapLevelWithoutCustomLevelPackCollection(::GlobalNamespace::IBeatmapLevelPackCollection* value);
 
-  constexpr ::GlobalNamespace::IBeatmapLevelPackCollection*& __get__customLevelPackCollection();
+  constexpr ::GlobalNamespace::IBeatmapLevelPackCollection*& __cordl_internal_get__customLevelPackCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelPackCollection*> const& __get__customLevelPackCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatmapLevelPackCollection*> const& __cordl_internal_get__customLevelPackCollection() const;
 
-  constexpr void __set__customLevelPackCollection(::GlobalNamespace::IBeatmapLevelPackCollection* value);
+  constexpr void __cordl_internal_set__customLevelPackCollection(::GlobalNamespace::IBeatmapLevelPackCollection* value);
 
-  constexpr ::GlobalNamespace::HMCache_2<::StringW, ::GlobalNamespace::IBeatmapLevel*>*& __get__loadedBeatmapLevels();
+  constexpr ::GlobalNamespace::HMCache_2<::StringW, ::GlobalNamespace::IBeatmapLevel*>*& __cordl_internal_get__loadedBeatmapLevels();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HMCache_2<::StringW, ::GlobalNamespace::IBeatmapLevel*>*> const& __get__loadedBeatmapLevels() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HMCache_2<::StringW, ::GlobalNamespace::IBeatmapLevel*>*> const& __cordl_internal_get__loadedBeatmapLevels() const;
 
-  constexpr void __set__loadedBeatmapLevels(::GlobalNamespace::HMCache_2<::StringW, ::GlobalNamespace::IBeatmapLevel*>* value);
+  constexpr void __cordl_internal_set__loadedBeatmapLevels(::GlobalNamespace::HMCache_2<::StringW, ::GlobalNamespace::IBeatmapLevel*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::IPreviewBeatmapLevel*>*& __get__loadedPreviewBeatmapLevels();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::IPreviewBeatmapLevel*>*& __cordl_internal_get__loadedPreviewBeatmapLevels();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::IPreviewBeatmapLevel*>*> const& __get__loadedPreviewBeatmapLevels() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::IPreviewBeatmapLevel*>*> const&
+  __cordl_internal_get__loadedPreviewBeatmapLevels() const;
 
-  constexpr void __set__loadedPreviewBeatmapLevels(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
+  constexpr void __cordl_internal_set__loadedPreviewBeatmapLevels(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::IPreviewBeatmapLevel*>* value);
 
-  constexpr ::GlobalNamespace::BeatmapLevelLoader*& __get__beatmapLevelLoader();
+  constexpr ::GlobalNamespace::BeatmapLevelLoader*& __cordl_internal_get__beatmapLevelLoader();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelLoader*> const& __get__beatmapLevelLoader() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelLoader*> const& __cordl_internal_get__beatmapLevelLoader() const;
 
-  constexpr void __set__beatmapLevelLoader(::GlobalNamespace::BeatmapLevelLoader* value);
+  constexpr void __cordl_internal_set__beatmapLevelLoader(::GlobalNamespace::BeatmapLevelLoader* value);
 
   /// @brief Method add_levelDownloadingUpdateEvent, addr 0x234275c, size 0xb0, virtual false, abstract: false, final false
   inline void add_levelDownloadingUpdateEvent(::System::Action_1<::GlobalNamespace::__BeatmapLevelsModel__LevelDownloadingUpdate>* value);
@@ -787,7 +794,7 @@ public:
   inline void remove_levelDownloadingUpdateEvent(::System::Action_1<::GlobalNamespace::__BeatmapLevelsModel__LevelDownloadingUpdate>* value);
 
   /// @brief Method get_ostAndExtrasPackCollection, addr 0x23428bc, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapLevelPackCollectionSO* get_ostAndExtrasPackCollection();
+  inline ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> get_ostAndExtrasPackCollection();
 
   /// @brief Method get_dlcBeatmapLevelPackCollection, addr 0x23428c4, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IBeatmapLevelPackCollection* get_dlcBeatmapLevelPackCollection();
@@ -867,10 +874,10 @@ protected:
 
 public:
   /// @brief Field _dlcLevelPackCollectionContainer, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelPackCollectionContainerSO* ____dlcLevelPackCollectionContainer;
+  ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionContainerSO> ____dlcLevelPackCollectionContainer;
 
   /// @brief Field _ostAndExtrasPackCollection, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelPackCollectionSO* ____ostAndExtrasPackCollection;
+  ::UnityW<::GlobalNamespace::BeatmapLevelPackCollectionSO> ____ostAndExtrasPackCollection;
 
   /// @brief Field _maxCachedBeatmapLevels, offset: 0x28, size: 0x4, def value: None
   int32_t ____maxCachedBeatmapLevels;

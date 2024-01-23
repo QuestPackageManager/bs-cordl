@@ -18,30 +18,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0xe1eac0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitSetupData*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__AppInitSetupData__RunMode& GlobalNamespace::AppInitSetupData::__get_runMode() {
+constexpr ::GlobalNamespace::__AppInitSetupData__RunMode& GlobalNamespace::AppInitSetupData::__cordl_internal_get_runMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___runMode;
 }
-constexpr ::GlobalNamespace::__AppInitSetupData__RunMode const& GlobalNamespace::AppInitSetupData::__get_runMode() const {
+constexpr ::GlobalNamespace::__AppInitSetupData__RunMode const& GlobalNamespace::AppInitSetupData::__cordl_internal_get_runMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___runMode;
 }
-constexpr void GlobalNamespace::AppInitSetupData::__set_runMode(::GlobalNamespace::__AppInitSetupData__RunMode value) {
+constexpr void GlobalNamespace::AppInitSetupData::__cordl_internal_set_runMode(::GlobalNamespace::__AppInitSetupData__RunMode value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___runMode = value;
 }
 inline ::GlobalNamespace::AppInitSetupData* GlobalNamespace::AppInitSetupData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::AppInitSetupData*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::AppInitSetupData*>());
 }
 inline void GlobalNamespace::AppInitSetupData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitSetupData*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

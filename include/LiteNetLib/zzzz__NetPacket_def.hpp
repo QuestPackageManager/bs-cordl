@@ -22,20 +22,20 @@ MARK_REF_PTR_T(::LiteNetLib::NetPacket);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14169))
 // CS Name: ::LiteNetLib::NetPacket*
 class CORDL_TYPE NetPacket : public ::System::Object {
 public:
   // Declarations
   /// @brief Field RawData, offset 0x10, size 0x8
-  __declspec(property(get = __get_RawData, put = __set_RawData))::ArrayW<uint8_t, ::Array<uint8_t>*> RawData;
+  __declspec(property(get = __cordl_internal_get_RawData, put = __cordl_internal_set_RawData))::ArrayW<uint8_t, ::Array<uint8_t>*> RawData;
 
   /// @brief Field Size, offset 0x18, size 0x4
-  __declspec(property(get = __get_Size, put = __set_Size)) int32_t Size;
+  __declspec(property(get = __cordl_internal_get_Size, put = __cordl_internal_set_Size)) int32_t Size;
 
   /// @brief Field UserData, offset 0x20, size 0x8
-  __declspec(property(get = __get_UserData, put = __set_UserData))::System::Object* UserData;
+  __declspec(property(get = __cordl_internal_get_UserData, put = __cordl_internal_set_UserData))::System::Object* UserData;
 
   /// @brief Field LastProperty, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_LastProperty, put = setStaticF_LastProperty)) int32_t LastProperty;
@@ -56,23 +56,23 @@ public:
 
   __declspec(property(get = get_FragmentsTotal, put = set_FragmentsTotal)) uint16_t FragmentsTotal;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_RawData();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_RawData();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_RawData() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_RawData() const;
 
-  constexpr void __set_RawData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_RawData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_Size();
+  constexpr int32_t& __cordl_internal_get_Size();
 
-  constexpr int32_t const& __get_Size() const;
+  constexpr int32_t const& __cordl_internal_get_Size() const;
 
-  constexpr void __set_Size(int32_t value);
+  constexpr void __cordl_internal_set_Size(int32_t value);
 
-  constexpr ::System::Object*& __get_UserData();
+  constexpr ::System::Object*& __cordl_internal_get_UserData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_UserData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_UserData() const;
 
-  constexpr void __set_UserData(::System::Object* value);
+  constexpr void __cordl_internal_set_UserData(::System::Object* value);
 
   static inline void setStaticF_LastProperty(int32_t value);
 

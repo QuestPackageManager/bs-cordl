@@ -46,7 +46,7 @@ MARK_REF_PTR_T(::System::Reflection::Emit::DynamicMethod);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Reflection::Emit {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3479))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3479))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3536))
 // CS Name: ::System.Reflection.Emit::DynamicMethod*
 class CORDL_TYPE DynamicMethod : public ::System::Reflection::MethodInfo {

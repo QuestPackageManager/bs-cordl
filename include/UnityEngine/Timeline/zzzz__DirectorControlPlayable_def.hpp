@@ -33,38 +33,38 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::DirectorControlPlayable);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10425))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10425))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13904))
 // CS Name: ::UnityEngine.Timeline::DirectorControlPlayable*
 class CORDL_TYPE DirectorControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
   // Declarations
   /// @brief Field director, offset 0x10, size 0x8
-  __declspec(property(get = __get_director, put = __set_director))::UnityEngine::Playables::PlayableDirector* director;
+  __declspec(property(get = __cordl_internal_get_director, put = __cordl_internal_set_director))::UnityW<::UnityEngine::Playables::PlayableDirector> director;
 
   /// @brief Field m_SyncTime, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_SyncTime, put = __set_m_SyncTime)) bool m_SyncTime;
+  __declspec(property(get = __cordl_internal_get_m_SyncTime, put = __cordl_internal_set_m_SyncTime)) bool m_SyncTime;
 
   /// @brief Field m_AssetDuration, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_AssetDuration, put = __set_m_AssetDuration)) double_t m_AssetDuration;
+  __declspec(property(get = __cordl_internal_get_m_AssetDuration, put = __cordl_internal_set_m_AssetDuration)) double_t m_AssetDuration;
 
-  constexpr ::UnityEngine::Playables::PlayableDirector*& __get_director();
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get_director();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Playables::PlayableDirector*> const& __get_director() const;
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get_director() const;
 
-  constexpr void __set_director(::UnityEngine::Playables::PlayableDirector* value);
+  constexpr void __cordl_internal_set_director(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  constexpr bool& __get_m_SyncTime();
+  constexpr bool& __cordl_internal_get_m_SyncTime();
 
-  constexpr bool const& __get_m_SyncTime() const;
+  constexpr bool const& __cordl_internal_get_m_SyncTime() const;
 
-  constexpr void __set_m_SyncTime(bool value);
+  constexpr void __cordl_internal_set_m_SyncTime(bool value);
 
-  constexpr double_t& __get_m_AssetDuration();
+  constexpr double_t& __cordl_internal_get_m_AssetDuration();
 
-  constexpr double_t const& __get_m_AssetDuration() const;
+  constexpr double_t const& __cordl_internal_get_m_AssetDuration() const;
 
-  constexpr void __set_m_AssetDuration(double_t value);
+  constexpr void __cordl_internal_set_m_AssetDuration(double_t value);
 
   /// @brief Method Create, addr 0x2c65364, size 0x130, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::DirectorControlPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph,
@@ -123,7 +123,7 @@ protected:
 
 public:
   /// @brief Field director, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Playables::PlayableDirector* ___director;
+  ::UnityW<::UnityEngine::Playables::PlayableDirector> ___director;
 
   /// @brief Field m_SyncTime, offset: 0x18, size: 0x1, def value: None
   bool ___m_SyncTime;

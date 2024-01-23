@@ -18,22 +18,22 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Entity);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(12156))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(12156))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12122))
 // CS Name: ::UnityEngine.ProBuilder::Entity*
 class CORDL_TYPE Entity : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field m_EntityType, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_EntityType, put = __set_m_EntityType))::UnityEngine::ProBuilder::EntityType m_EntityType;
+  __declspec(property(get = __cordl_internal_get_m_EntityType, put = __cordl_internal_set_m_EntityType))::UnityEngine::ProBuilder::EntityType m_EntityType;
 
   __declspec(property(get = get_entityType))::UnityEngine::ProBuilder::EntityType entityType;
 
-  constexpr ::UnityEngine::ProBuilder::EntityType& __get_m_EntityType();
+  constexpr ::UnityEngine::ProBuilder::EntityType& __cordl_internal_get_m_EntityType();
 
-  constexpr ::UnityEngine::ProBuilder::EntityType const& __get_m_EntityType() const;
+  constexpr ::UnityEngine::ProBuilder::EntityType const& __cordl_internal_get_m_EntityType() const;
 
-  constexpr void __set_m_EntityType(::UnityEngine::ProBuilder::EntityType value);
+  constexpr void __cordl_internal_set_m_EntityType(::UnityEngine::ProBuilder::EntityType value);
 
   /// @brief Method get_entityType, addr 0x2b3ffb8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::EntityType get_entityType();

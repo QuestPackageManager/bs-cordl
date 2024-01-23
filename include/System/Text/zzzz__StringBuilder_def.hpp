@@ -43,26 +43,26 @@ MARK_REF_PTR_T(::System::Text::StringBuilder);
 // SizeInfo { instance_size: 48, native_size: 8, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2853))
 // CS Name: ::System.Text::StringBuilder*
 class CORDL_TYPE StringBuilder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_ChunkChars, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_ChunkChars, put = __set_m_ChunkChars))::ArrayW<char16_t, ::Array<char16_t>*> m_ChunkChars;
+  __declspec(property(get = __cordl_internal_get_m_ChunkChars, put = __cordl_internal_set_m_ChunkChars))::ArrayW<char16_t, ::Array<char16_t>*> m_ChunkChars;
 
   /// @brief Field m_ChunkPrevious, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_ChunkPrevious, put = __set_m_ChunkPrevious))::System::Text::StringBuilder* m_ChunkPrevious;
+  __declspec(property(get = __cordl_internal_get_m_ChunkPrevious, put = __cordl_internal_set_m_ChunkPrevious))::System::Text::StringBuilder* m_ChunkPrevious;
 
   /// @brief Field m_ChunkLength, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_ChunkLength, put = __set_m_ChunkLength)) int32_t m_ChunkLength;
+  __declspec(property(get = __cordl_internal_get_m_ChunkLength, put = __cordl_internal_set_m_ChunkLength)) int32_t m_ChunkLength;
 
   /// @brief Field m_ChunkOffset, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_ChunkOffset, put = __set_m_ChunkOffset)) int32_t m_ChunkOffset;
+  __declspec(property(get = __cordl_internal_get_m_ChunkOffset, put = __cordl_internal_set_m_ChunkOffset)) int32_t m_ChunkOffset;
 
   /// @brief Field m_MaxCapacity, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_MaxCapacity, put = __set_m_MaxCapacity)) int32_t m_MaxCapacity;
+  __declspec(property(get = __cordl_internal_get_m_MaxCapacity, put = __cordl_internal_set_m_MaxCapacity)) int32_t m_MaxCapacity;
 
   __declspec(property(get = get_Capacity, put = set_Capacity)) int32_t Capacity;
 
@@ -80,35 +80,35 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_m_ChunkChars();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_m_ChunkChars();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_m_ChunkChars() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_m_ChunkChars() const;
 
-  constexpr void __set_m_ChunkChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_m_ChunkChars(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr ::System::Text::StringBuilder*& __get_m_ChunkPrevious();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_m_ChunkPrevious();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get_m_ChunkPrevious() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_m_ChunkPrevious() const;
 
-  constexpr void __set_m_ChunkPrevious(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set_m_ChunkPrevious(::System::Text::StringBuilder* value);
 
-  constexpr int32_t& __get_m_ChunkLength();
+  constexpr int32_t& __cordl_internal_get_m_ChunkLength();
 
-  constexpr int32_t const& __get_m_ChunkLength() const;
+  constexpr int32_t const& __cordl_internal_get_m_ChunkLength() const;
 
-  constexpr void __set_m_ChunkLength(int32_t value);
+  constexpr void __cordl_internal_set_m_ChunkLength(int32_t value);
 
-  constexpr int32_t& __get_m_ChunkOffset();
+  constexpr int32_t& __cordl_internal_get_m_ChunkOffset();
 
-  constexpr int32_t const& __get_m_ChunkOffset() const;
+  constexpr int32_t const& __cordl_internal_get_m_ChunkOffset() const;
 
-  constexpr void __set_m_ChunkOffset(int32_t value);
+  constexpr void __cordl_internal_set_m_ChunkOffset(int32_t value);
 
-  constexpr int32_t& __get_m_MaxCapacity();
+  constexpr int32_t& __cordl_internal_get_m_MaxCapacity();
 
-  constexpr int32_t const& __get_m_MaxCapacity() const;
+  constexpr int32_t const& __cordl_internal_get_m_MaxCapacity() const;
 
-  constexpr void __set_m_MaxCapacity(int32_t value);
+  constexpr void __cordl_internal_set_m_MaxCapacity(int32_t value);
 
   static inline ::System::Text::StringBuilder* New_ctor();
 

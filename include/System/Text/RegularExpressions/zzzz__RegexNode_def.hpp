@@ -23,83 +23,83 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexNode);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8925)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8925))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8924))
 // CS Name: ::System.Text.RegularExpressions::RegexNode*
 class CORDL_TYPE RegexNode : public ::System::Object {
 public:
   // Declarations
   /// @brief Field NType, offset 0x10, size 0x4
-  __declspec(property(get = __get_NType, put = __set_NType)) int32_t NType;
+  __declspec(property(get = __cordl_internal_get_NType, put = __cordl_internal_set_NType)) int32_t NType;
 
   /// @brief Field Children, offset 0x18, size 0x8
-  __declspec(property(get = __get_Children, put = __set_Children))::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>* Children;
+  __declspec(property(get = __cordl_internal_get_Children, put = __cordl_internal_set_Children))::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>* Children;
 
   /// @brief Field Str, offset 0x20, size 0x8
-  __declspec(property(get = __get_Str, put = __set_Str))::StringW Str;
+  __declspec(property(get = __cordl_internal_get_Str, put = __cordl_internal_set_Str))::StringW Str;
 
   /// @brief Field Ch, offset 0x28, size 0x2
-  __declspec(property(get = __get_Ch, put = __set_Ch)) char16_t Ch;
+  __declspec(property(get = __cordl_internal_get_Ch, put = __cordl_internal_set_Ch)) char16_t Ch;
 
   /// @brief Field M, offset 0x2c, size 0x4
-  __declspec(property(get = __get_M, put = __set_M)) int32_t M;
+  __declspec(property(get = __cordl_internal_get_M, put = __cordl_internal_set_M)) int32_t M;
 
   /// @brief Field N, offset 0x30, size 0x4
-  __declspec(property(get = __get_N, put = __set_N)) int32_t N;
+  __declspec(property(get = __cordl_internal_get_N, put = __cordl_internal_set_N)) int32_t N;
 
   /// @brief Field Options, offset 0x34, size 0x4
-  __declspec(property(get = __get_Options, put = __set_Options))::System::Text::RegularExpressions::RegexOptions Options;
+  __declspec(property(get = __cordl_internal_get_Options, put = __cordl_internal_set_Options))::System::Text::RegularExpressions::RegexOptions Options;
 
   /// @brief Field Next, offset 0x38, size 0x8
-  __declspec(property(get = __get_Next, put = __set_Next))::System::Text::RegularExpressions::RegexNode* Next;
+  __declspec(property(get = __cordl_internal_get_Next, put = __cordl_internal_set_Next))::System::Text::RegularExpressions::RegexNode* Next;
 
-  constexpr int32_t& __get_NType();
+  constexpr int32_t& __cordl_internal_get_NType();
 
-  constexpr int32_t const& __get_NType() const;
+  constexpr int32_t const& __cordl_internal_get_NType() const;
 
-  constexpr void __set_NType(int32_t value);
+  constexpr void __cordl_internal_set_NType(int32_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>*& __get_Children();
+  constexpr ::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>*& __cordl_internal_get_Children();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>*> const& __get_Children() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>*> const& __cordl_internal_get_Children() const;
 
-  constexpr void __set_Children(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>* value);
+  constexpr void __cordl_internal_set_Children(::System::Collections::Generic::List_1<::System::Text::RegularExpressions::RegexNode*>* value);
 
-  constexpr ::StringW& __get_Str();
+  constexpr ::StringW& __cordl_internal_get_Str();
 
-  constexpr ::StringW const& __get_Str() const;
+  constexpr ::StringW const& __cordl_internal_get_Str() const;
 
-  constexpr void __set_Str(::StringW value);
+  constexpr void __cordl_internal_set_Str(::StringW value);
 
-  constexpr char16_t& __get_Ch();
+  constexpr char16_t& __cordl_internal_get_Ch();
 
-  constexpr char16_t const& __get_Ch() const;
+  constexpr char16_t const& __cordl_internal_get_Ch() const;
 
-  constexpr void __set_Ch(char16_t value);
+  constexpr void __cordl_internal_set_Ch(char16_t value);
 
-  constexpr int32_t& __get_M();
+  constexpr int32_t& __cordl_internal_get_M();
 
-  constexpr int32_t const& __get_M() const;
+  constexpr int32_t const& __cordl_internal_get_M() const;
 
-  constexpr void __set_M(int32_t value);
+  constexpr void __cordl_internal_set_M(int32_t value);
 
-  constexpr int32_t& __get_N();
+  constexpr int32_t& __cordl_internal_get_N();
 
-  constexpr int32_t const& __get_N() const;
+  constexpr int32_t const& __cordl_internal_get_N() const;
 
-  constexpr void __set_N(int32_t value);
+  constexpr void __cordl_internal_set_N(int32_t value);
 
-  constexpr ::System::Text::RegularExpressions::RegexOptions& __get_Options();
+  constexpr ::System::Text::RegularExpressions::RegexOptions& __cordl_internal_get_Options();
 
-  constexpr ::System::Text::RegularExpressions::RegexOptions const& __get_Options() const;
+  constexpr ::System::Text::RegularExpressions::RegexOptions const& __cordl_internal_get_Options() const;
 
-  constexpr void __set_Options(::System::Text::RegularExpressions::RegexOptions value);
+  constexpr void __cordl_internal_set_Options(::System::Text::RegularExpressions::RegexOptions value);
 
-  constexpr ::System::Text::RegularExpressions::RegexNode*& __get_Next();
+  constexpr ::System::Text::RegularExpressions::RegexNode*& __cordl_internal_get_Next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexNode*> const& __get_Next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexNode*> const& __cordl_internal_get_Next() const;
 
-  constexpr void __set_Next(::System::Text::RegularExpressions::RegexNode* value);
+  constexpr void __cordl_internal_set_Next(::System::Text::RegularExpressions::RegexNode* value);
 
   static inline ::System::Text::RegularExpressions::RegexNode* New_ctor(int32_t type, ::System::Text::RegularExpressions::RegexOptions options);
 

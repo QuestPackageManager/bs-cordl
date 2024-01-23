@@ -18,29 +18,29 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::RotationLimitAngle);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12622))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12622))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12623))
 // CS Name: ::RootMotion.FinalIK::RotationLimitAngle*
 class CORDL_TYPE RotationLimitAngle : public ::RootMotion::FinalIK::RotationLimit {
 public:
   // Declarations
   /// @brief Field limit, offset 0x38, size 0x4
-  __declspec(property(get = __get_limit, put = __set_limit)) float_t limit;
+  __declspec(property(get = __cordl_internal_get_limit, put = __cordl_internal_set_limit)) float_t limit;
 
   /// @brief Field twistLimit, offset 0x3c, size 0x4
-  __declspec(property(get = __get_twistLimit, put = __set_twistLimit)) float_t twistLimit;
+  __declspec(property(get = __cordl_internal_get_twistLimit, put = __cordl_internal_set_twistLimit)) float_t twistLimit;
 
-  constexpr float_t& __get_limit();
+  constexpr float_t& __cordl_internal_get_limit();
 
-  constexpr float_t const& __get_limit() const;
+  constexpr float_t const& __cordl_internal_get_limit() const;
 
-  constexpr void __set_limit(float_t value);
+  constexpr void __cordl_internal_set_limit(float_t value);
 
-  constexpr float_t& __get_twistLimit();
+  constexpr float_t& __cordl_internal_get_twistLimit();
 
-  constexpr float_t const& __get_twistLimit() const;
+  constexpr float_t const& __cordl_internal_get_twistLimit() const;
 
-  constexpr void __set_twistLimit(float_t value);
+  constexpr void __cordl_internal_set_twistLimit(float_t value);
 
   /// @brief Method OpenUserManual, addr 0x128f62c, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();

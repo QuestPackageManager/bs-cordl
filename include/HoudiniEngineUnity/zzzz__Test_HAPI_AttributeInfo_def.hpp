@@ -21,14 +21,14 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_AttributeInfo);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9741)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9741))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9898))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_AttributeInfo*
 class CORDL_TYPE Test_HAPI_AttributeInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field self, offset 0x10, size 0x28
-  __declspec(property(get = __get_self, put = __set_self))::HoudiniEngineUnity::HAPI_AttributeInfo self;
+  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self))::HoudiniEngineUnity::HAPI_AttributeInfo self;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>*() noexcept;
@@ -36,11 +36,11 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_AttributeInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_HAPI_AttributeInfo__() noexcept;
 
-  constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& __get_self();
+  constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo& __cordl_internal_get_self();
 
-  constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo const& __get_self() const;
+  constexpr ::HoudiniEngineUnity::HAPI_AttributeInfo const& __cordl_internal_get_self() const;
 
-  constexpr void __set_self(::HoudiniEngineUnity::HAPI_AttributeInfo value);
+  constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_AttributeInfo value);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_AttributeInfo* New_ctor(::HoudiniEngineUnity::HAPI_AttributeInfo self);
 

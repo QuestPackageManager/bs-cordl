@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupEditorPrefabContext);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14510))
 // CS Name: ::LightGroupEditorPrefabContext*
 class CORDL_TYPE LightGroupEditorPrefabContext : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field lightGroups, offset 0x18, size 0x8
-  __declspec(property(get = __get_lightGroups, put = __set_lightGroups))::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>* lightGroups;
+  __declspec(property(get = __cordl_internal_get_lightGroups, put = __cordl_internal_set_lightGroups))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* lightGroups;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>*& __get_lightGroups();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>*& __cordl_internal_get_lightGroups();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>*> const& __get_lightGroups() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>*> const& __cordl_internal_get_lightGroups() const;
 
-  constexpr void __set_lightGroups(::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>* value);
+  constexpr void __cordl_internal_set_lightGroups(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* value);
 
   static inline ::GlobalNamespace::LightGroupEditorPrefabContext* New_ctor();
 
@@ -55,7 +55,7 @@ protected:
 
 public:
   /// @brief Field lightGroups, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::LightGroupSO*>* ___lightGroups;
+  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* ___lightGroups;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

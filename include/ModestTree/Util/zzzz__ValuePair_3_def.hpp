@@ -20,38 +20,38 @@ namespace ModestTree::Util {
 // cpp template
 template <typename T1, typename T2, typename T3>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10627))
 // CS Name: ::ModestTree.Util::ValuePair`3<T1,T2,T3>*
 class CORDL_TYPE ValuePair_3 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field First, offset 0x10, size 0x8
-  __declspec(property(get = __get_First, put = __set_First)) T1 First;
+  __declspec(property(get = __cordl_internal_get_First, put = __cordl_internal_set_First)) T1 First;
 
   /// @brief Field Second, offset 0x18, size 0x8
-  __declspec(property(get = __get_Second, put = __set_Second)) T2 Second;
+  __declspec(property(get = __cordl_internal_get_Second, put = __cordl_internal_set_Second)) T2 Second;
 
   /// @brief Field Third, offset 0x20, size 0x8
-  __declspec(property(get = __get_Third, put = __set_Third)) T3 Third;
+  __declspec(property(get = __cordl_internal_get_Third, put = __cordl_internal_set_Third)) T3 Third;
 
-  constexpr T1& __get_First();
+  constexpr T1& __cordl_internal_get_First();
 
-  constexpr T1 const& __get_First() const;
+  constexpr T1 const& __cordl_internal_get_First() const;
 
-  constexpr void __set_First(T1 value);
+  constexpr void __cordl_internal_set_First(T1 value);
 
-  constexpr T2& __get_Second();
+  constexpr T2& __cordl_internal_get_Second();
 
-  constexpr T2 const& __get_Second() const;
+  constexpr T2 const& __cordl_internal_get_Second() const;
 
-  constexpr void __set_Second(T2 value);
+  constexpr void __cordl_internal_set_Second(T2 value);
 
-  constexpr T3& __get_Third();
+  constexpr T3& __cordl_internal_get_Third();
 
-  constexpr T3 const& __get_Third() const;
+  constexpr T3 const& __cordl_internal_get_Third() const;
 
-  constexpr void __set_Third(T3 value);
+  constexpr void __cordl_internal_set_Third(T3 value);
 
   static inline ::ModestTree::Util::ValuePair_3<T1, T2, T3>* New_ctor();
 

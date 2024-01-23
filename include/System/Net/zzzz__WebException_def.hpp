@@ -38,20 +38,20 @@ MARK_REF_PTR_T(::System::Net::WebException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9087)), TypeDefinitionIndex(TypeDefinitionIndex(2427)), TypeDefinitionIndex(TypeDefinitionIndex(9086))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2427)), TypeDefinitionIndex(TypeDefinitionIndex(9086)), TypeDefinitionIndex(TypeDefinitionIndex(9087))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9085))
 // CS Name: ::System.Net::WebException*
 class CORDL_TYPE WebException : public ::System::InvalidOperationException {
 public:
   // Declarations
   /// @brief Field m_Status, offset 0x8c, size 0x4
-  __declspec(property(get = __get_m_Status, put = __set_m_Status))::System::Net::WebExceptionStatus m_Status;
+  __declspec(property(get = __cordl_internal_get_m_Status, put = __cordl_internal_set_m_Status))::System::Net::WebExceptionStatus m_Status;
 
   /// @brief Field m_Response, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_Response, put = __set_m_Response))::System::Net::WebResponse* m_Response;
+  __declspec(property(get = __cordl_internal_get_m_Response, put = __cordl_internal_set_m_Response))::System::Net::WebResponse* m_Response;
 
   /// @brief Field m_InternalStatus, offset 0x98, size 0x4
-  __declspec(property(get = __get_m_InternalStatus, put = __set_m_InternalStatus))::System::Net::WebExceptionInternalStatus m_InternalStatus;
+  __declspec(property(get = __cordl_internal_get_m_InternalStatus, put = __cordl_internal_set_m_InternalStatus))::System::Net::WebExceptionInternalStatus m_InternalStatus;
 
   __declspec(property(get = get_Status))::System::Net::WebExceptionStatus Status;
 
@@ -63,23 +63,23 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::System::Net::WebExceptionStatus& __get_m_Status();
+  constexpr ::System::Net::WebExceptionStatus& __cordl_internal_get_m_Status();
 
-  constexpr ::System::Net::WebExceptionStatus const& __get_m_Status() const;
+  constexpr ::System::Net::WebExceptionStatus const& __cordl_internal_get_m_Status() const;
 
-  constexpr void __set_m_Status(::System::Net::WebExceptionStatus value);
+  constexpr void __cordl_internal_set_m_Status(::System::Net::WebExceptionStatus value);
 
-  constexpr ::System::Net::WebResponse*& __get_m_Response();
+  constexpr ::System::Net::WebResponse*& __cordl_internal_get_m_Response();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebResponse*> const& __get_m_Response() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebResponse*> const& __cordl_internal_get_m_Response() const;
 
-  constexpr void __set_m_Response(::System::Net::WebResponse* value);
+  constexpr void __cordl_internal_set_m_Response(::System::Net::WebResponse* value);
 
-  constexpr ::System::Net::WebExceptionInternalStatus& __get_m_InternalStatus();
+  constexpr ::System::Net::WebExceptionInternalStatus& __cordl_internal_get_m_InternalStatus();
 
-  constexpr ::System::Net::WebExceptionInternalStatus const& __get_m_InternalStatus() const;
+  constexpr ::System::Net::WebExceptionInternalStatus const& __cordl_internal_get_m_InternalStatus() const;
 
-  constexpr void __set_m_InternalStatus(::System::Net::WebExceptionInternalStatus value);
+  constexpr void __cordl_internal_set_m_InternalStatus(::System::Net::WebExceptionInternalStatus value);
 
   static inline ::System::Net::WebException* New_ctor();
 

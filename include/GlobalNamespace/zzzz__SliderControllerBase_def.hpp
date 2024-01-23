@@ -21,38 +21,39 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderControllerBase);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4812))
 // CS Name: ::SliderControllerBase*
 class CORDL_TYPE SliderControllerBase : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _materialPropertyBlockController, offset 0x18, size 0x8
-  __declspec(property(get = __get__materialPropertyBlockController, put = __set__materialPropertyBlockController))::GlobalNamespace::MaterialPropertyBlockController* _materialPropertyBlockController;
+  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
+                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
 
   /// @brief Field _cutoutAnimateEffect, offset 0x20, size 0x8
-  __declspec(property(get = __get__cutoutAnimateEffect, put = __set__cutoutAnimateEffect))::GlobalNamespace::CutoutAnimateEffect* _cutoutAnimateEffect;
+  __declspec(property(get = __cordl_internal_get__cutoutAnimateEffect, put = __cordl_internal_set__cutoutAnimateEffect))::UnityW<::GlobalNamespace::CutoutAnimateEffect> _cutoutAnimateEffect;
 
   /// @brief Field _dissolving, offset 0x28, size 0x1
-  __declspec(property(get = __get__dissolving, put = __set__dissolving)) bool _dissolving;
+  __declspec(property(get = __cordl_internal_get__dissolving, put = __cordl_internal_set__dissolving)) bool _dissolving;
 
-  constexpr ::GlobalNamespace::MaterialPropertyBlockController*& __get__materialPropertyBlockController();
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockController*> const& __get__materialPropertyBlockController() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
 
-  constexpr void __set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
+  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  constexpr ::GlobalNamespace::CutoutAnimateEffect*& __get__cutoutAnimateEffect();
+  constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect>& __cordl_internal_get__cutoutAnimateEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CutoutAnimateEffect*> const& __get__cutoutAnimateEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect> const& __cordl_internal_get__cutoutAnimateEffect() const;
 
-  constexpr void __set__cutoutAnimateEffect(::GlobalNamespace::CutoutAnimateEffect* value);
+  constexpr void __cordl_internal_set__cutoutAnimateEffect(::UnityW<::GlobalNamespace::CutoutAnimateEffect> value);
 
-  constexpr bool& __get__dissolving();
+  constexpr bool& __cordl_internal_get__dissolving();
 
-  constexpr bool const& __get__dissolving() const;
+  constexpr bool const& __cordl_internal_get__dissolving() const;
 
-  constexpr void __set__dissolving(bool value);
+  constexpr void __cordl_internal_set__dissolving(bool value);
 
   /// @brief Method AnimateCutout, addr 0x2391ba0, size 0x28, virtual false, abstract: false, final false
   inline void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration);
@@ -77,10 +78,10 @@ protected:
 
 public:
   /// @brief Field _materialPropertyBlockController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MaterialPropertyBlockController* ____materialPropertyBlockController;
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
   /// @brief Field _cutoutAnimateEffect, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::CutoutAnimateEffect* ____cutoutAnimateEffect;
+  ::UnityW<::GlobalNamespace::CutoutAnimateEffect> ____cutoutAnimateEffect;
 
   /// @brief Field _dissolving, offset: 0x28, size: 0x1, def value: None
   bool ____dissolving;

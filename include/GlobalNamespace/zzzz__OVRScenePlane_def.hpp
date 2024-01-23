@@ -60,8 +60,8 @@ MARK_VAL_T(::GlobalNamespace::__OVRScenePlane__GetBoundaryLengthJob);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(7991))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7974)) CS Name: ::OVRScenePlane::GetBoundaryLengthJob
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7991)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7974)) CS Name: ::OVRScenePlane::GetBoundaryLengthJob
 struct CORDL_TYPE __OVRScenePlane__GetBoundaryLengthJob {
 public:
   // Declarations
@@ -105,8 +105,8 @@ static_assert(offsetof(::GlobalNamespace::__OVRScenePlane__GetBoundaryLengthJob,
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7991)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7975)) CS Name: ::OVRScenePlane::GetBoundaryJob
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7991)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7975)) CS Name: ::OVRScenePlane::GetBoundaryJob
 struct CORDL_TYPE __OVRScenePlane__GetBoundaryJob {
 public:
   // Declarations
@@ -163,9 +163,9 @@ static_assert(offsetof(::GlobalNamespace::__OVRScenePlane__GetBoundaryJob, Previ
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4742 }), TypeDefinitionIndex(TypeDefinitionIndex(9977)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(9977)), TypeDefinitionIndex(TypeDefinitionIndex(9999)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4742 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 411 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(7976)) CS Name: ::OVRScenePlane*
 class CORDL_TYPE OVRScenePlane : public ::UnityEngine::MonoBehaviour {
 public:
@@ -175,40 +175,40 @@ public:
   using GetBoundaryLengthJob = ::GlobalNamespace::__OVRScenePlane__GetBoundaryLengthJob;
 
   /// @brief Field <Width>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__Width_k__BackingField, put = __set__Width_k__BackingField)) float_t _Width_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Width_k__BackingField, put = __cordl_internal_set__Width_k__BackingField)) float_t _Width_k__BackingField;
 
   /// @brief Field <Height>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__Height_k__BackingField, put = __set__Height_k__BackingField)) float_t _Height_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Height_k__BackingField, put = __cordl_internal_set__Height_k__BackingField)) float_t _Height_k__BackingField;
 
   /// @brief Field <Offset>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__Offset_k__BackingField, put = __set__Offset_k__BackingField))::UnityEngine::Vector2 _Offset_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Offset_k__BackingField, put = __cordl_internal_set__Offset_k__BackingField))::UnityEngine::Vector2 _Offset_k__BackingField;
 
   /// @brief Field _scaleChildren, offset 0x28, size 0x1
-  __declspec(property(get = __get__scaleChildren, put = __set__scaleChildren)) bool _scaleChildren;
+  __declspec(property(get = __cordl_internal_get__scaleChildren, put = __cordl_internal_set__scaleChildren)) bool _scaleChildren;
 
   /// @brief Field _offsetChildren, offset 0x29, size 0x1
-  __declspec(property(get = __get__offsetChildren, put = __set__offsetChildren)) bool _offsetChildren;
+  __declspec(property(get = __cordl_internal_get__offsetChildren, put = __cordl_internal_set__offsetChildren)) bool _offsetChildren;
 
   /// @brief Field _jobHandle, offset 0x30, size 0x18
-  __declspec(property(get = __get__jobHandle, put = __set__jobHandle))::System::Nullable_1<::Unity::Jobs::JobHandle> _jobHandle;
+  __declspec(property(get = __cordl_internal_get__jobHandle, put = __cordl_internal_set__jobHandle))::System::Nullable_1<::Unity::Jobs::JobHandle> _jobHandle;
 
   /// @brief Field _previousBoundary, offset 0x48, size 0x10
-  __declspec(property(get = __get__previousBoundary, put = __set__previousBoundary))::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> _previousBoundary;
+  __declspec(property(get = __cordl_internal_get__previousBoundary, put = __cordl_internal_set__previousBoundary))::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> _previousBoundary;
 
   /// @brief Field _boundaryLength, offset 0x58, size 0x10
-  __declspec(property(get = __get__boundaryLength, put = __set__boundaryLength))::Unity::Collections::NativeArray_1<int32_t> _boundaryLength;
+  __declspec(property(get = __cordl_internal_get__boundaryLength, put = __cordl_internal_set__boundaryLength))::Unity::Collections::NativeArray_1<int32_t> _boundaryLength;
 
   /// @brief Field _boundaryBuffer, offset 0x68, size 0x10
-  __declspec(property(get = __get__boundaryBuffer, put = __set__boundaryBuffer))::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> _boundaryBuffer;
+  __declspec(property(get = __cordl_internal_get__boundaryBuffer, put = __cordl_internal_set__boundaryBuffer))::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> _boundaryBuffer;
 
   /// @brief Field _boundaryRequested, offset 0x78, size 0x1
-  __declspec(property(get = __get__boundaryRequested, put = __set__boundaryRequested)) bool _boundaryRequested;
+  __declspec(property(get = __cordl_internal_get__boundaryRequested, put = __cordl_internal_set__boundaryRequested)) bool _boundaryRequested;
 
   /// @brief Field _sceneAnchor, offset 0x80, size 0x8
-  __declspec(property(get = __get__sceneAnchor, put = __set__sceneAnchor))::GlobalNamespace::OVRSceneAnchor* _sceneAnchor;
+  __declspec(property(get = __cordl_internal_get__sceneAnchor, put = __cordl_internal_set__sceneAnchor))::UnityW<::GlobalNamespace::OVRSceneAnchor> _sceneAnchor;
 
   /// @brief Field _boundary, offset 0x88, size 0x8
-  __declspec(property(get = __get__boundary, put = __set__boundary))::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _boundary;
+  __declspec(property(get = __cordl_internal_get__boundary, put = __cordl_internal_set__boundary))::System::Collections::Generic::List_1<::UnityEngine::Vector2>* _boundary;
 
   __declspec(property(get = get_Width, put = set_Width)) float_t Width;
 
@@ -230,77 +230,77 @@ public:
   /// @brief Convert to "::GlobalNamespace::IOVRSceneComponent"
   constexpr ::GlobalNamespace::IOVRSceneComponent* i___GlobalNamespace__IOVRSceneComponent() noexcept;
 
-  constexpr float_t& __get__Width_k__BackingField();
+  constexpr float_t& __cordl_internal_get__Width_k__BackingField();
 
-  constexpr float_t const& __get__Width_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__Width_k__BackingField() const;
 
-  constexpr void __set__Width_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__Width_k__BackingField(float_t value);
 
-  constexpr float_t& __get__Height_k__BackingField();
+  constexpr float_t& __cordl_internal_get__Height_k__BackingField();
 
-  constexpr float_t const& __get__Height_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__Height_k__BackingField() const;
 
-  constexpr void __set__Height_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__Height_k__BackingField(float_t value);
 
-  constexpr ::UnityEngine::Vector2& __get__Offset_k__BackingField();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__Offset_k__BackingField();
 
-  constexpr ::UnityEngine::Vector2 const& __get__Offset_k__BackingField() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__Offset_k__BackingField() const;
 
-  constexpr void __set__Offset_k__BackingField(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__Offset_k__BackingField(::UnityEngine::Vector2 value);
 
-  constexpr bool& __get__scaleChildren();
+  constexpr bool& __cordl_internal_get__scaleChildren();
 
-  constexpr bool const& __get__scaleChildren() const;
+  constexpr bool const& __cordl_internal_get__scaleChildren() const;
 
-  constexpr void __set__scaleChildren(bool value);
+  constexpr void __cordl_internal_set__scaleChildren(bool value);
 
-  constexpr bool& __get__offsetChildren();
+  constexpr bool& __cordl_internal_get__offsetChildren();
 
-  constexpr bool const& __get__offsetChildren() const;
+  constexpr bool const& __cordl_internal_get__offsetChildren() const;
 
-  constexpr void __set__offsetChildren(bool value);
+  constexpr void __cordl_internal_set__offsetChildren(bool value);
 
-  constexpr ::System::Nullable_1<::Unity::Jobs::JobHandle>& __get__jobHandle();
+  constexpr ::System::Nullable_1<::Unity::Jobs::JobHandle>& __cordl_internal_get__jobHandle();
 
-  constexpr ::System::Nullable_1<::Unity::Jobs::JobHandle> const& __get__jobHandle() const;
+  constexpr ::System::Nullable_1<::Unity::Jobs::JobHandle> const& __cordl_internal_get__jobHandle() const;
 
-  constexpr void __set__jobHandle(::System::Nullable_1<::Unity::Jobs::JobHandle> value);
+  constexpr void __cordl_internal_set__jobHandle(::System::Nullable_1<::Unity::Jobs::JobHandle> value);
 
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>& __get__previousBoundary();
+  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>& __cordl_internal_get__previousBoundary();
 
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> const& __get__previousBoundary() const;
+  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> const& __cordl_internal_get__previousBoundary() const;
 
-  constexpr void __set__previousBoundary(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> value);
+  constexpr void __cordl_internal_set__previousBoundary(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> value);
 
-  constexpr ::Unity::Collections::NativeArray_1<int32_t>& __get__boundaryLength();
+  constexpr ::Unity::Collections::NativeArray_1<int32_t>& __cordl_internal_get__boundaryLength();
 
-  constexpr ::Unity::Collections::NativeArray_1<int32_t> const& __get__boundaryLength() const;
+  constexpr ::Unity::Collections::NativeArray_1<int32_t> const& __cordl_internal_get__boundaryLength() const;
 
-  constexpr void __set__boundaryLength(::Unity::Collections::NativeArray_1<int32_t> value);
+  constexpr void __cordl_internal_set__boundaryLength(::Unity::Collections::NativeArray_1<int32_t> value);
 
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>& __get__boundaryBuffer();
+  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2>& __cordl_internal_get__boundaryBuffer();
 
-  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> const& __get__boundaryBuffer() const;
+  constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> const& __cordl_internal_get__boundaryBuffer() const;
 
-  constexpr void __set__boundaryBuffer(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> value);
+  constexpr void __cordl_internal_set__boundaryBuffer(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> value);
 
-  constexpr bool& __get__boundaryRequested();
+  constexpr bool& __cordl_internal_get__boundaryRequested();
 
-  constexpr bool const& __get__boundaryRequested() const;
+  constexpr bool const& __cordl_internal_get__boundaryRequested() const;
 
-  constexpr void __set__boundaryRequested(bool value);
+  constexpr void __cordl_internal_set__boundaryRequested(bool value);
 
-  constexpr ::GlobalNamespace::OVRSceneAnchor*& __get__sceneAnchor();
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor>& __cordl_internal_get__sceneAnchor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSceneAnchor*> const& __get__sceneAnchor() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneAnchor> const& __cordl_internal_get__sceneAnchor() const;
 
-  constexpr void __set__sceneAnchor(::GlobalNamespace::OVRSceneAnchor* value);
+  constexpr void __cordl_internal_set__sceneAnchor(::UnityW<::GlobalNamespace::OVRSceneAnchor> value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*& __get__boundary();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*& __cordl_internal_get__boundary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector2>*> const& __get__boundary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector2>*> const& __cordl_internal_get__boundary() const;
 
-  constexpr void __set__boundary(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* value);
+  constexpr void __cordl_internal_set__boundary(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* value);
 
   /// @brief Method get_Width, addr 0x2786eb0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_Width();
@@ -418,7 +418,7 @@ public:
   bool ____boundaryRequested;
 
   /// @brief Field _sceneAnchor, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSceneAnchor* ____sceneAnchor;
+  ::UnityW<::GlobalNamespace::OVRSceneAnchor> ____sceneAnchor;
 
   /// @brief Field _boundary, offset: 0x88, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* ____boundary;

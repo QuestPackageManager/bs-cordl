@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x12308e4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DynamicBoneColliderBase*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DynamicBoneColliderBase*>::get(), 4));
@@ -44,45 +44,45 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x1230880;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DynamicBoneColliderBase*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__DynamicBoneColliderBase__Direction& GlobalNamespace::DynamicBoneColliderBase::__get_m_Direction() {
+constexpr ::GlobalNamespace::__DynamicBoneColliderBase__Direction& GlobalNamespace::DynamicBoneColliderBase::__cordl_internal_get_m_Direction() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Direction;
 }
-constexpr ::GlobalNamespace::__DynamicBoneColliderBase__Direction const& GlobalNamespace::DynamicBoneColliderBase::__get_m_Direction() const {
+constexpr ::GlobalNamespace::__DynamicBoneColliderBase__Direction const& GlobalNamespace::DynamicBoneColliderBase::__cordl_internal_get_m_Direction() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Direction;
 }
-constexpr void GlobalNamespace::DynamicBoneColliderBase::__set_m_Direction(::GlobalNamespace::__DynamicBoneColliderBase__Direction value) {
+constexpr void GlobalNamespace::DynamicBoneColliderBase::__cordl_internal_set_m_Direction(::GlobalNamespace::__DynamicBoneColliderBase__Direction value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Direction = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::DynamicBoneColliderBase::__get_m_Center() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::DynamicBoneColliderBase::__cordl_internal_get_m_Center() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Center;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::DynamicBoneColliderBase::__get_m_Center() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::DynamicBoneColliderBase::__cordl_internal_get_m_Center() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Center;
 }
-constexpr void GlobalNamespace::DynamicBoneColliderBase::__set_m_Center(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::DynamicBoneColliderBase::__cordl_internal_set_m_Center(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Center = value;
 }
-constexpr ::GlobalNamespace::__DynamicBoneColliderBase__Bound& GlobalNamespace::DynamicBoneColliderBase::__get_m_Bound() {
+constexpr ::GlobalNamespace::__DynamicBoneColliderBase__Bound& GlobalNamespace::DynamicBoneColliderBase::__cordl_internal_get_m_Bound() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Bound;
 }
-constexpr ::GlobalNamespace::__DynamicBoneColliderBase__Bound const& GlobalNamespace::DynamicBoneColliderBase::__get_m_Bound() const {
+constexpr ::GlobalNamespace::__DynamicBoneColliderBase__Bound const& GlobalNamespace::DynamicBoneColliderBase::__cordl_internal_get_m_Bound() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Bound;
 }
-constexpr void GlobalNamespace::DynamicBoneColliderBase::__set_m_Bound(::GlobalNamespace::__DynamicBoneColliderBase__Bound value) {
+constexpr void GlobalNamespace::DynamicBoneColliderBase::__cordl_internal_set_m_Bound(::GlobalNamespace::__DynamicBoneColliderBase__Bound value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Bound = value;
 }
@@ -92,11 +92,11 @@ inline void GlobalNamespace::DynamicBoneColliderBase::Collide(ByRef<::UnityEngin
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, particlePosition, particleRadius);
 }
 inline ::GlobalNamespace::DynamicBoneColliderBase* GlobalNamespace::DynamicBoneColliderBase::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::DynamicBoneColliderBase*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DynamicBoneColliderBase*>());
 }
 inline void GlobalNamespace::DynamicBoneColliderBase::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DynamicBoneColliderBase*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -103,16 +103,16 @@ MARK_VAL_T(::UnityEngine::UIElements::__InlineStyleAccess__InlineRule);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7309))
 // CS Name: ::InlineStyleAccess::InlineRule
 struct CORDL_TYPE __InlineStyleAccess__InlineRule {
 public:
   // Declarations
-  // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityEngine::UIElements::StyleSheet*", modifiers: "", def_value: None }, CppParam { name: "rule", ty: "::UnityEngine::UIElements::StyleRule*",
-  // modifiers: "", def_value: None }, CppParam { name: "propertyIds", ty:
+  // Ctor Parameters [CppParam { name: "sheet", ty: "::UnityW<::UnityEngine::UIElements::StyleSheet>", modifiers: "", def_value: None }, CppParam { name: "rule", ty:
+  // "::UnityEngine::UIElements::StyleRule*", modifiers: "", def_value: None }, CppParam { name: "propertyIds", ty:
   // "::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId,::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*>", modifiers: "", def_value: None }]
-  constexpr __InlineStyleAccess__InlineRule(::UnityEngine::UIElements::StyleSheet* sheet, ::UnityEngine::UIElements::StyleRule* rule,
+  constexpr __InlineStyleAccess__InlineRule(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, ::UnityEngine::UIElements::StyleRule* rule,
                                             ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*> propertyIds) noexcept;
 
   // Ctor Parameters []
@@ -120,7 +120,7 @@ public:
   constexpr __InlineStyleAccess__InlineRule();
 
   /// @brief Field sheet, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::StyleSheet* sheet;
+  ::UnityW<::UnityEngine::UIElements::StyleSheet> sheet;
 
   /// @brief Field rule, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::UIElements::StyleRule* rule;
@@ -147,58 +147,60 @@ static_assert(offsetof(::UnityEngine::UIElements::__InlineStyleAccess__InlineRul
 // SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 256, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7319)), TypeDefinitionIndex(TypeDefinitionIndex(7316)), TypeDefinitionIndex(TypeDefinitionIndex(7292)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7320)), TypeDefinitionIndex(TypeDefinitionIndex(7309)), TypeDefinitionIndex(TypeDefinitionIndex(7308)), TypeDefinitionIndex(TypeDefinitionIndex(7283)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7291))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7310)) CS Name: ::UnityEngine.UIElements::InlineStyleAccess*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7283)), TypeDefinitionIndex(TypeDefinitionIndex(7291)), TypeDefinitionIndex(TypeDefinitionIndex(7292)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7308)), TypeDefinitionIndex(TypeDefinitionIndex(7309)), TypeDefinitionIndex(TypeDefinitionIndex(7316)), TypeDefinitionIndex(TypeDefinitionIndex(7319)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7320))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7310)) CS Name: ::UnityEngine.UIElements::InlineStyleAccess*
 class CORDL_TYPE InlineStyleAccess : public ::UnityEngine::UIElements::StyleValueCollection {
 public:
   // Declarations
   using InlineRule = ::UnityEngine::UIElements::__InlineStyleAccess__InlineRule;
 
   /// @brief Field m_ValuesManaged, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_ValuesManaged, put = __set_m_ValuesManaged))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValueManaged>* m_ValuesManaged;
+  __declspec(property(get = __cordl_internal_get_m_ValuesManaged,
+                      put = __cordl_internal_set_m_ValuesManaged))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValueManaged>* m_ValuesManaged;
 
   /// @brief Field <ve>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__ve_k__BackingField, put = __set__ve_k__BackingField))::UnityEngine::UIElements::VisualElement* _ve_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ve_k__BackingField, put = __cordl_internal_set__ve_k__BackingField))::UnityEngine::UIElements::VisualElement* _ve_k__BackingField;
 
   /// @brief Field m_HasInlineCursor, offset 0x28, size 0x1
-  __declspec(property(get = __get_m_HasInlineCursor, put = __set_m_HasInlineCursor)) bool m_HasInlineCursor;
+  __declspec(property(get = __cordl_internal_get_m_HasInlineCursor, put = __cordl_internal_set_m_HasInlineCursor)) bool m_HasInlineCursor;
 
   /// @brief Field m_InlineCursor, offset 0x30, size 0x20
-  __declspec(property(get = __get_m_InlineCursor, put = __set_m_InlineCursor))::UnityEngine::UIElements::StyleCursor m_InlineCursor;
+  __declspec(property(get = __cordl_internal_get_m_InlineCursor, put = __cordl_internal_set_m_InlineCursor))::UnityEngine::UIElements::StyleCursor m_InlineCursor;
 
   /// @brief Field m_HasInlineTextShadow, offset 0x50, size 0x1
-  __declspec(property(get = __get_m_HasInlineTextShadow, put = __set_m_HasInlineTextShadow)) bool m_HasInlineTextShadow;
+  __declspec(property(get = __cordl_internal_get_m_HasInlineTextShadow, put = __cordl_internal_set_m_HasInlineTextShadow)) bool m_HasInlineTextShadow;
 
   /// @brief Field m_InlineTextShadow, offset 0x54, size 0x20
-  __declspec(property(get = __get_m_InlineTextShadow, put = __set_m_InlineTextShadow))::UnityEngine::UIElements::StyleTextShadow m_InlineTextShadow;
+  __declspec(property(get = __cordl_internal_get_m_InlineTextShadow, put = __cordl_internal_set_m_InlineTextShadow))::UnityEngine::UIElements::StyleTextShadow m_InlineTextShadow;
 
   /// @brief Field m_HasInlineTransformOrigin, offset 0x74, size 0x1
-  __declspec(property(get = __get_m_HasInlineTransformOrigin, put = __set_m_HasInlineTransformOrigin)) bool m_HasInlineTransformOrigin;
+  __declspec(property(get = __cordl_internal_get_m_HasInlineTransformOrigin, put = __cordl_internal_set_m_HasInlineTransformOrigin)) bool m_HasInlineTransformOrigin;
 
   /// @brief Field m_InlineTransformOrigin, offset 0x78, size 0x18
-  __declspec(property(get = __get_m_InlineTransformOrigin, put = __set_m_InlineTransformOrigin))::UnityEngine::UIElements::StyleTransformOrigin m_InlineTransformOrigin;
+  __declspec(property(get = __cordl_internal_get_m_InlineTransformOrigin, put = __cordl_internal_set_m_InlineTransformOrigin))::UnityEngine::UIElements::StyleTransformOrigin m_InlineTransformOrigin;
 
   /// @brief Field m_HasInlineTranslate, offset 0x90, size 0x1
-  __declspec(property(get = __get_m_HasInlineTranslate, put = __set_m_HasInlineTranslate)) bool m_HasInlineTranslate;
+  __declspec(property(get = __cordl_internal_get_m_HasInlineTranslate, put = __cordl_internal_set_m_HasInlineTranslate)) bool m_HasInlineTranslate;
 
   /// @brief Field m_InlineTranslateOperation, offset 0x94, size 0x1c
-  __declspec(property(get = __get_m_InlineTranslateOperation, put = __set_m_InlineTranslateOperation))::UnityEngine::UIElements::StyleTranslate m_InlineTranslateOperation;
+  __declspec(property(get = __cordl_internal_get_m_InlineTranslateOperation,
+                      put = __cordl_internal_set_m_InlineTranslateOperation))::UnityEngine::UIElements::StyleTranslate m_InlineTranslateOperation;
 
   /// @brief Field m_HasInlineRotate, offset 0xb0, size 0x1
-  __declspec(property(get = __get_m_HasInlineRotate, put = __set_m_HasInlineRotate)) bool m_HasInlineRotate;
+  __declspec(property(get = __cordl_internal_get_m_HasInlineRotate, put = __cordl_internal_set_m_HasInlineRotate)) bool m_HasInlineRotate;
 
   /// @brief Field m_InlineRotateOperation, offset 0xb4, size 0x1c
-  __declspec(property(get = __get_m_InlineRotateOperation, put = __set_m_InlineRotateOperation))::UnityEngine::UIElements::StyleRotate m_InlineRotateOperation;
+  __declspec(property(get = __cordl_internal_get_m_InlineRotateOperation, put = __cordl_internal_set_m_InlineRotateOperation))::UnityEngine::UIElements::StyleRotate m_InlineRotateOperation;
 
   /// @brief Field m_HasInlineScale, offset 0xd0, size 0x1
-  __declspec(property(get = __get_m_HasInlineScale, put = __set_m_HasInlineScale)) bool m_HasInlineScale;
+  __declspec(property(get = __cordl_internal_get_m_HasInlineScale, put = __cordl_internal_set_m_HasInlineScale)) bool m_HasInlineScale;
 
   /// @brief Field m_InlineScale, offset 0xd4, size 0x14
-  __declspec(property(get = __get_m_InlineScale, put = __set_m_InlineScale))::UnityEngine::UIElements::StyleScale m_InlineScale;
+  __declspec(property(get = __cordl_internal_get_m_InlineScale, put = __cordl_internal_set_m_InlineScale))::UnityEngine::UIElements::StyleScale m_InlineScale;
 
   /// @brief Field m_InlineRule, offset 0xe8, size 0x18
-  __declspec(property(get = __get_m_InlineRule, put = __set_m_InlineRule))::UnityEngine::UIElements::__InlineStyleAccess__InlineRule m_InlineRule;
+  __declspec(property(get = __cordl_internal_get_m_InlineRule, put = __cordl_internal_set_m_InlineRule))::UnityEngine::UIElements::__InlineStyleAccess__InlineRule m_InlineRule;
 
   /// @brief Field s_StylePropertyReader, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_StylePropertyReader, put = setStaticF_s_StylePropertyReader))::UnityEngine::UIElements::StyleSheets::StylePropertyReader* s_StylePropertyReader;
@@ -305,95 +307,95 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyle"
   constexpr ::UnityEngine::UIElements::IStyle* i___UnityEngine__UIElements__IStyle() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValueManaged>*& __get_m_ValuesManaged();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValueManaged>*& __cordl_internal_get_m_ValuesManaged();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValueManaged>*> const& __get_m_ValuesManaged() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValueManaged>*> const& __cordl_internal_get_m_ValuesManaged() const;
 
-  constexpr void __set_m_ValuesManaged(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValueManaged>* value);
+  constexpr void __cordl_internal_set_m_ValuesManaged(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StyleValueManaged>* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get__ve_k__BackingField();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__ve_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get__ve_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get__ve_k__BackingField() const;
 
-  constexpr void __set__ve_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set__ve_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr bool& __get_m_HasInlineCursor();
+  constexpr bool& __cordl_internal_get_m_HasInlineCursor();
 
-  constexpr bool const& __get_m_HasInlineCursor() const;
+  constexpr bool const& __cordl_internal_get_m_HasInlineCursor() const;
 
-  constexpr void __set_m_HasInlineCursor(bool value);
+  constexpr void __cordl_internal_set_m_HasInlineCursor(bool value);
 
-  constexpr ::UnityEngine::UIElements::StyleCursor& __get_m_InlineCursor();
+  constexpr ::UnityEngine::UIElements::StyleCursor& __cordl_internal_get_m_InlineCursor();
 
-  constexpr ::UnityEngine::UIElements::StyleCursor const& __get_m_InlineCursor() const;
+  constexpr ::UnityEngine::UIElements::StyleCursor const& __cordl_internal_get_m_InlineCursor() const;
 
-  constexpr void __set_m_InlineCursor(::UnityEngine::UIElements::StyleCursor value);
+  constexpr void __cordl_internal_set_m_InlineCursor(::UnityEngine::UIElements::StyleCursor value);
 
-  constexpr bool& __get_m_HasInlineTextShadow();
+  constexpr bool& __cordl_internal_get_m_HasInlineTextShadow();
 
-  constexpr bool const& __get_m_HasInlineTextShadow() const;
+  constexpr bool const& __cordl_internal_get_m_HasInlineTextShadow() const;
 
-  constexpr void __set_m_HasInlineTextShadow(bool value);
+  constexpr void __cordl_internal_set_m_HasInlineTextShadow(bool value);
 
-  constexpr ::UnityEngine::UIElements::StyleTextShadow& __get_m_InlineTextShadow();
+  constexpr ::UnityEngine::UIElements::StyleTextShadow& __cordl_internal_get_m_InlineTextShadow();
 
-  constexpr ::UnityEngine::UIElements::StyleTextShadow const& __get_m_InlineTextShadow() const;
+  constexpr ::UnityEngine::UIElements::StyleTextShadow const& __cordl_internal_get_m_InlineTextShadow() const;
 
-  constexpr void __set_m_InlineTextShadow(::UnityEngine::UIElements::StyleTextShadow value);
+  constexpr void __cordl_internal_set_m_InlineTextShadow(::UnityEngine::UIElements::StyleTextShadow value);
 
-  constexpr bool& __get_m_HasInlineTransformOrigin();
+  constexpr bool& __cordl_internal_get_m_HasInlineTransformOrigin();
 
-  constexpr bool const& __get_m_HasInlineTransformOrigin() const;
+  constexpr bool const& __cordl_internal_get_m_HasInlineTransformOrigin() const;
 
-  constexpr void __set_m_HasInlineTransformOrigin(bool value);
+  constexpr void __cordl_internal_set_m_HasInlineTransformOrigin(bool value);
 
-  constexpr ::UnityEngine::UIElements::StyleTransformOrigin& __get_m_InlineTransformOrigin();
+  constexpr ::UnityEngine::UIElements::StyleTransformOrigin& __cordl_internal_get_m_InlineTransformOrigin();
 
-  constexpr ::UnityEngine::UIElements::StyleTransformOrigin const& __get_m_InlineTransformOrigin() const;
+  constexpr ::UnityEngine::UIElements::StyleTransformOrigin const& __cordl_internal_get_m_InlineTransformOrigin() const;
 
-  constexpr void __set_m_InlineTransformOrigin(::UnityEngine::UIElements::StyleTransformOrigin value);
+  constexpr void __cordl_internal_set_m_InlineTransformOrigin(::UnityEngine::UIElements::StyleTransformOrigin value);
 
-  constexpr bool& __get_m_HasInlineTranslate();
+  constexpr bool& __cordl_internal_get_m_HasInlineTranslate();
 
-  constexpr bool const& __get_m_HasInlineTranslate() const;
+  constexpr bool const& __cordl_internal_get_m_HasInlineTranslate() const;
 
-  constexpr void __set_m_HasInlineTranslate(bool value);
+  constexpr void __cordl_internal_set_m_HasInlineTranslate(bool value);
 
-  constexpr ::UnityEngine::UIElements::StyleTranslate& __get_m_InlineTranslateOperation();
+  constexpr ::UnityEngine::UIElements::StyleTranslate& __cordl_internal_get_m_InlineTranslateOperation();
 
-  constexpr ::UnityEngine::UIElements::StyleTranslate const& __get_m_InlineTranslateOperation() const;
+  constexpr ::UnityEngine::UIElements::StyleTranslate const& __cordl_internal_get_m_InlineTranslateOperation() const;
 
-  constexpr void __set_m_InlineTranslateOperation(::UnityEngine::UIElements::StyleTranslate value);
+  constexpr void __cordl_internal_set_m_InlineTranslateOperation(::UnityEngine::UIElements::StyleTranslate value);
 
-  constexpr bool& __get_m_HasInlineRotate();
+  constexpr bool& __cordl_internal_get_m_HasInlineRotate();
 
-  constexpr bool const& __get_m_HasInlineRotate() const;
+  constexpr bool const& __cordl_internal_get_m_HasInlineRotate() const;
 
-  constexpr void __set_m_HasInlineRotate(bool value);
+  constexpr void __cordl_internal_set_m_HasInlineRotate(bool value);
 
-  constexpr ::UnityEngine::UIElements::StyleRotate& __get_m_InlineRotateOperation();
+  constexpr ::UnityEngine::UIElements::StyleRotate& __cordl_internal_get_m_InlineRotateOperation();
 
-  constexpr ::UnityEngine::UIElements::StyleRotate const& __get_m_InlineRotateOperation() const;
+  constexpr ::UnityEngine::UIElements::StyleRotate const& __cordl_internal_get_m_InlineRotateOperation() const;
 
-  constexpr void __set_m_InlineRotateOperation(::UnityEngine::UIElements::StyleRotate value);
+  constexpr void __cordl_internal_set_m_InlineRotateOperation(::UnityEngine::UIElements::StyleRotate value);
 
-  constexpr bool& __get_m_HasInlineScale();
+  constexpr bool& __cordl_internal_get_m_HasInlineScale();
 
-  constexpr bool const& __get_m_HasInlineScale() const;
+  constexpr bool const& __cordl_internal_get_m_HasInlineScale() const;
 
-  constexpr void __set_m_HasInlineScale(bool value);
+  constexpr void __cordl_internal_set_m_HasInlineScale(bool value);
 
-  constexpr ::UnityEngine::UIElements::StyleScale& __get_m_InlineScale();
+  constexpr ::UnityEngine::UIElements::StyleScale& __cordl_internal_get_m_InlineScale();
 
-  constexpr ::UnityEngine::UIElements::StyleScale const& __get_m_InlineScale() const;
+  constexpr ::UnityEngine::UIElements::StyleScale const& __cordl_internal_get_m_InlineScale() const;
 
-  constexpr void __set_m_InlineScale(::UnityEngine::UIElements::StyleScale value);
+  constexpr void __cordl_internal_set_m_InlineScale(::UnityEngine::UIElements::StyleScale value);
 
-  constexpr ::UnityEngine::UIElements::__InlineStyleAccess__InlineRule& __get_m_InlineRule();
+  constexpr ::UnityEngine::UIElements::__InlineStyleAccess__InlineRule& __cordl_internal_get_m_InlineRule();
 
-  constexpr ::UnityEngine::UIElements::__InlineStyleAccess__InlineRule const& __get_m_InlineRule() const;
+  constexpr ::UnityEngine::UIElements::__InlineStyleAccess__InlineRule const& __cordl_internal_get_m_InlineRule() const;
 
-  constexpr void __set_m_InlineRule(::UnityEngine::UIElements::__InlineStyleAccess__InlineRule value);
+  constexpr void __cordl_internal_set_m_InlineRule(::UnityEngine::UIElements::__InlineStyleAccess__InlineRule value);
 
   static inline void setStaticF_s_StylePropertyReader(::UnityEngine::UIElements::StyleSheets::StylePropertyReader* value);
 

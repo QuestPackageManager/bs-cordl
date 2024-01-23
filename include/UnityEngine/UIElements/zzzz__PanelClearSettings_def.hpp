@@ -18,7 +18,7 @@ MARK_VAL_T(::UnityEngine::UIElements::PanelClearSettings);
 // SizeInfo { instance_size: 20, native_size: 24, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6866))
 // CS Name: ::UnityEngine.UIElements::PanelClearSettings
 struct CORDL_TYPE PanelClearSettings {

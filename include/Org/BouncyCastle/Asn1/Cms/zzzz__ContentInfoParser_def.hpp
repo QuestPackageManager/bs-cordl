@@ -27,31 +27,31 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::ContentInfoParser);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(67))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::ContentInfoParser*
 class CORDL_TYPE ContentInfoParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field contentType, offset 0x10, size 0x8
-  __declspec(property(get = __get_contentType, put = __set_contentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType;
+  __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* contentType;
 
   /// @brief Field content, offset 0x18, size 0x8
-  __declspec(property(get = __get_content, put = __set_content))::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* content;
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* content;
 
   __declspec(property(get = get_ContentType))::Org::BouncyCastle::Asn1::DerObjectIdentifier* ContentType;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_contentType();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_contentType();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_contentType() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_contentType() const;
 
-  constexpr void __set_contentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_contentType(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser*& __get_content();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser*& __cordl_internal_get_content();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser*> const& __get_content() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser*> const& __cordl_internal_get_content() const;
 
-  constexpr void __set_content(::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* value);
+  constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 

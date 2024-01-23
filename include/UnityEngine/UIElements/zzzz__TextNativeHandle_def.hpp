@@ -40,8 +40,8 @@ MARK_VAL_T(::UnityEngine::UIElements::TextNativeHandle);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 749
-// }), TypeDefinitionIndex(TypeDefinitionIndex(15377))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7146)) CS Name: ::UnityEngine.UIElements::TextNativeHandle
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(15377)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 749 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7146)) CS Name: ::UnityEngine.UIElements::TextNativeHandle
 struct CORDL_TYPE TextNativeHandle {
 public:
   // Declarations

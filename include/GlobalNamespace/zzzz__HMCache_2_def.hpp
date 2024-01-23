@@ -26,47 +26,47 @@ namespace GlobalNamespace {
 // cpp template
 template <typename K, typename V>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14372))
 // CS Name: ::HMCache`2<K,V>*
 class CORDL_TYPE HMCache_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field itemWillBeRemovedFromCacheEvent, offset 0x10, size 0x8
-  __declspec(property(get = __get_itemWillBeRemovedFromCacheEvent, put = __set_itemWillBeRemovedFromCacheEvent))::System::Action_1<V>* itemWillBeRemovedFromCacheEvent;
+  __declspec(property(get = __cordl_internal_get_itemWillBeRemovedFromCacheEvent, put = __cordl_internal_set_itemWillBeRemovedFromCacheEvent))::System::Action_1<V>* itemWillBeRemovedFromCacheEvent;
 
   /// @brief Field _cache, offset 0x18, size 0x8
-  __declspec(property(get = __get__cache, put = __set__cache))::System::Collections::Generic::Dictionary_2<K, V>* _cache;
+  __declspec(property(get = __cordl_internal_get__cache, put = __cordl_internal_set__cache))::System::Collections::Generic::Dictionary_2<K, V>* _cache;
 
   /// @brief Field _addedElements, offset 0x20, size 0x8
-  __declspec(property(get = __get__addedElements, put = __set__addedElements))::System::Collections::Generic::Queue_1<K>* _addedElements;
+  __declspec(property(get = __cordl_internal_get__addedElements, put = __cordl_internal_set__addedElements))::System::Collections::Generic::Queue_1<K>* _addedElements;
 
   /// @brief Field _maxNumberElements, offset 0x28, size 0x4
-  __declspec(property(get = __get__maxNumberElements, put = __set__maxNumberElements)) int32_t _maxNumberElements;
+  __declspec(property(get = __cordl_internal_get__maxNumberElements, put = __cordl_internal_set__maxNumberElements)) int32_t _maxNumberElements;
 
-  constexpr ::System::Action_1<V>*& __get_itemWillBeRemovedFromCacheEvent();
+  constexpr ::System::Action_1<V>*& __cordl_internal_get_itemWillBeRemovedFromCacheEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<V>*> const& __get_itemWillBeRemovedFromCacheEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<V>*> const& __cordl_internal_get_itemWillBeRemovedFromCacheEvent() const;
 
-  constexpr void __set_itemWillBeRemovedFromCacheEvent(::System::Action_1<V>* value);
+  constexpr void __cordl_internal_set_itemWillBeRemovedFromCacheEvent(::System::Action_1<V>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<K, V>*& __get__cache();
+  constexpr ::System::Collections::Generic::Dictionary_2<K, V>*& __cordl_internal_get__cache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<K, V>*> const& __get__cache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<K, V>*> const& __cordl_internal_get__cache() const;
 
-  constexpr void __set__cache(::System::Collections::Generic::Dictionary_2<K, V>* value);
+  constexpr void __cordl_internal_set__cache(::System::Collections::Generic::Dictionary_2<K, V>* value);
 
-  constexpr ::System::Collections::Generic::Queue_1<K>*& __get__addedElements();
+  constexpr ::System::Collections::Generic::Queue_1<K>*& __cordl_internal_get__addedElements();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<K>*> const& __get__addedElements() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<K>*> const& __cordl_internal_get__addedElements() const;
 
-  constexpr void __set__addedElements(::System::Collections::Generic::Queue_1<K>* value);
+  constexpr void __cordl_internal_set__addedElements(::System::Collections::Generic::Queue_1<K>* value);
 
-  constexpr int32_t& __get__maxNumberElements();
+  constexpr int32_t& __cordl_internal_get__maxNumberElements();
 
-  constexpr int32_t const& __get__maxNumberElements() const;
+  constexpr int32_t const& __cordl_internal_get__maxNumberElements() const;
 
-  constexpr void __set__maxNumberElements(int32_t value);
+  constexpr void __cordl_internal_set__maxNumberElements(int32_t value);
 
   /// @brief Method add_itemWillBeRemovedFromCacheEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void add_itemWillBeRemovedFromCacheEvent(::System::Action_1<V>* value);

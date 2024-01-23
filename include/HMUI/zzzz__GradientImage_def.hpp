@@ -45,19 +45,19 @@ MARK_REF_PTR_T(::HMUI::GradientImage);
 // SizeInfo { instance_size: 304, native_size: -1, calculated_instance_size: 304, calculated_native_size: 304, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13055)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10243)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10249))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13625)) CS Name: ::HMUI::GradientImage*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(13055))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13625)) CS Name: ::HMUI::GradientImage*
 class CORDL_TYPE GradientImage : public ::UnityEngine::UI::Image {
 public:
   // Declarations
   /// @brief Field _color0, offset 0x108, size 0x10
-  __declspec(property(get = __get__color0, put = __set__color0))::UnityEngine::Color _color0;
+  __declspec(property(get = __cordl_internal_get__color0, put = __cordl_internal_set__color0))::UnityEngine::Color _color0;
 
   /// @brief Field _color1, offset 0x118, size 0x10
-  __declspec(property(get = __get__color1, put = __set__color1))::UnityEngine::Color _color1;
+  __declspec(property(get = __cordl_internal_get__color1, put = __cordl_internal_set__color1))::UnityEngine::Color _color1;
 
   /// @brief Field _curvedCanvasSettingsHelper, offset 0x128, size 0x8
-  __declspec(property(get = __get__curvedCanvasSettingsHelper, put = __set__curvedCanvasSettingsHelper))::HMUI::CurvedCanvasSettingsHelper* _curvedCanvasSettingsHelper;
+  __declspec(property(get = __cordl_internal_get__curvedCanvasSettingsHelper, put = __cordl_internal_set__curvedCanvasSettingsHelper))::HMUI::CurvedCanvasSettingsHelper* _curvedCanvasSettingsHelper;
 
   /// @brief Field kVec2Zero, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_kVec2Zero, put = setStaticF_kVec2Zero))::UnityEngine::Vector2 kVec2Zero;
@@ -87,23 +87,23 @@ public:
 
   __declspec(property(get = get_color1, put = set_color1))::UnityEngine::Color color1;
 
-  constexpr ::UnityEngine::Color& __get__color0();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color0();
 
-  constexpr ::UnityEngine::Color const& __get__color0() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color0() const;
 
-  constexpr void __set__color0(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color0(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__color1();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color1();
 
-  constexpr ::UnityEngine::Color const& __get__color1() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color1() const;
 
-  constexpr void __set__color1(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color1(::UnityEngine::Color value);
 
-  constexpr ::HMUI::CurvedCanvasSettingsHelper*& __get__curvedCanvasSettingsHelper();
+  constexpr ::HMUI::CurvedCanvasSettingsHelper*& __cordl_internal_get__curvedCanvasSettingsHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedCanvasSettingsHelper*> const& __get__curvedCanvasSettingsHelper() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedCanvasSettingsHelper*> const& __cordl_internal_get__curvedCanvasSettingsHelper() const;
 
-  constexpr void __set__curvedCanvasSettingsHelper(::HMUI::CurvedCanvasSettingsHelper* value);
+  constexpr void __cordl_internal_set__curvedCanvasSettingsHelper(::HMUI::CurvedCanvasSettingsHelper* value);
 
   static inline void setStaticF_kVec2Zero(::UnityEngine::Vector2 value);
 

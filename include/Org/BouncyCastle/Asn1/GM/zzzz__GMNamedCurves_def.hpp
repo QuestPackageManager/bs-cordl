@@ -54,7 +54,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::GM::__GMNamedCurves__WapiP192V1Holder)
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::GM {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(168))
 // CS Name: ::GMNamedCurves::SM2P256V1Holder*
 class CORDL_TYPE __GMNamedCurves__SM2P256V1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -99,7 +99,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::GM::__G
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::GM {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(169))
 // CS Name: ::GMNamedCurves::WapiP192V1Holder*
 class CORDL_TYPE __GMNamedCurves__WapiP192V1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -144,7 +144,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::GM::__G
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::GM {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(170))
 // CS Name: ::Org.BouncyCastle.Asn1.GM::GMNamedCurves*
 class CORDL_TYPE GMNamedCurves : public ::System::Object {

@@ -61,9 +61,9 @@ MARK_VAL_T(::UnityEngine::UIElements::InheritedData);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(6790)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6897)), TypeDefinitionIndex(TypeDefinitionIndex(6896)), TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(15901)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7284))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7356)) CS Name: ::UnityEngine.UIElements::InheritedData
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6790)), TypeDefinitionIndex(TypeDefinitionIndex(6896)), TypeDefinitionIndex(TypeDefinitionIndex(6897)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7284)), TypeDefinitionIndex(TypeDefinitionIndex(7313)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15896)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15901))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7356)) CS Name: ::UnityEngine.UIElements::InheritedData
 struct CORDL_TYPE InheritedData {
 public:
   // Declarations
@@ -99,7 +99,7 @@ public:
 
   // Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "fontSize", ty: "::UnityEngine::UIElements::Length", modifiers: "",
   // def_value: None }, CppParam { name: "letterSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "textShadow", ty:
-  // "::UnityEngine::UIElements::TextShadow", modifiers: "", def_value: None }, CppParam { name: "unityFont", ty: "::UnityEngine::Font*", modifiers: "", def_value: None }, CppParam { name:
+  // "::UnityEngine::UIElements::TextShadow", modifiers: "", def_value: None }, CppParam { name: "unityFont", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None }, CppParam { name:
   // "unityFontDefinition", ty: "::UnityEngine::UIElements::FontDefinition", modifiers: "", def_value: None }, CppParam { name: "unityFontStyleAndWeight", ty: "::UnityEngine::FontStyle", modifiers:
   // "", def_value: None }, CppParam { name: "unityParagraphSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "unityTextAlign", ty:
   // "::UnityEngine::TextAnchor", modifiers: "", def_value: None }, CppParam { name: "unityTextOutlineColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name:
@@ -107,7 +107,7 @@ public:
   // name: "whiteSpace", ty: "::UnityEngine::UIElements::WhiteSpace", modifiers: "", def_value: None }, CppParam { name: "wordSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "",
   // def_value: None }]
   constexpr InheritedData(::UnityEngine::Color color, ::UnityEngine::UIElements::Length fontSize, ::UnityEngine::UIElements::Length letterSpacing, ::UnityEngine::UIElements::TextShadow textShadow,
-                          ::UnityEngine::Font* unityFont, ::UnityEngine::UIElements::FontDefinition unityFontDefinition, ::UnityEngine::FontStyle unityFontStyleAndWeight,
+                          ::UnityW<::UnityEngine::Font> unityFont, ::UnityEngine::UIElements::FontDefinition unityFontDefinition, ::UnityEngine::FontStyle unityFontStyleAndWeight,
                           ::UnityEngine::UIElements::Length unityParagraphSpacing, ::UnityEngine::TextAnchor unityTextAlign, ::UnityEngine::Color unityTextOutlineColor, float_t unityTextOutlineWidth,
                           ::UnityEngine::UIElements::Visibility visibility, ::UnityEngine::UIElements::WhiteSpace whiteSpace, ::UnityEngine::UIElements::Length wordSpacing) noexcept;
 
@@ -128,7 +128,7 @@ public:
   ::UnityEngine::UIElements::TextShadow textShadow;
 
   /// @brief Field unityFont, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Font* unityFont;
+  ::UnityW<::UnityEngine::Font> unityFont;
 
   /// @brief Field unityFontDefinition, offset: 0x48, size: 0x10, def value: None
   ::UnityEngine::UIElements::FontDefinition unityFontDefinition;

@@ -47,14 +47,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::OcspReq);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1606))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1606))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1613))
 // CS Name: ::Org.BouncyCastle.Ocsp::OcspReq*
 class CORDL_TYPE OcspReq : public ::Org::BouncyCastle::X509::X509ExtensionBase {
 public:
   // Declarations
   /// @brief Field req, offset 0x10, size 0x8
-  __declspec(property(get = __get_req, put = __set_req))::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* req;
+  __declspec(property(get = __cordl_internal_get_req, put = __cordl_internal_set_req))::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* req;
 
   __declspec(property(get = get_Version)) int32_t Version;
 
@@ -66,11 +66,11 @@ public:
 
   __declspec(property(get = get_IsSigned)) bool IsSigned;
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest*& __get_req();
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::OcspRequest*& __cordl_internal_get_req();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest*> const& __get_req() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::OcspRequest*> const& __cordl_internal_get_req() const;
 
-  constexpr void __set_req(::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* value);
+  constexpr void __cordl_internal_set_req(::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* value);
 
   static inline ::Org::BouncyCastle::Ocsp::OcspReq* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::OcspRequest* req);
 

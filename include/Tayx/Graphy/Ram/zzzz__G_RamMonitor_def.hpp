@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::Tayx::Graphy::Ram::G_RamMonitor);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Tayx::Graphy::Ram {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15078))
 // CS Name: ::Tayx.Graphy.Ram::G_RamMonitor*
 class CORDL_TYPE G_RamMonitor : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field <AllocatedRam>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__AllocatedRam_k__BackingField, put = __set__AllocatedRam_k__BackingField)) float_t _AllocatedRam_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__AllocatedRam_k__BackingField, put = __cordl_internal_set__AllocatedRam_k__BackingField)) float_t _AllocatedRam_k__BackingField;
 
   /// @brief Field <ReservedRam>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__ReservedRam_k__BackingField, put = __set__ReservedRam_k__BackingField)) float_t _ReservedRam_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ReservedRam_k__BackingField, put = __cordl_internal_set__ReservedRam_k__BackingField)) float_t _ReservedRam_k__BackingField;
 
   /// @brief Field <MonoRam>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __get__MonoRam_k__BackingField, put = __set__MonoRam_k__BackingField)) float_t _MonoRam_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MonoRam_k__BackingField, put = __cordl_internal_set__MonoRam_k__BackingField)) float_t _MonoRam_k__BackingField;
 
   __declspec(property(get = get_AllocatedRam, put = set_AllocatedRam)) float_t AllocatedRam;
 
@@ -36,23 +36,23 @@ public:
 
   __declspec(property(get = get_MonoRam, put = set_MonoRam)) float_t MonoRam;
 
-  constexpr float_t& __get__AllocatedRam_k__BackingField();
+  constexpr float_t& __cordl_internal_get__AllocatedRam_k__BackingField();
 
-  constexpr float_t const& __get__AllocatedRam_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__AllocatedRam_k__BackingField() const;
 
-  constexpr void __set__AllocatedRam_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__AllocatedRam_k__BackingField(float_t value);
 
-  constexpr float_t& __get__ReservedRam_k__BackingField();
+  constexpr float_t& __cordl_internal_get__ReservedRam_k__BackingField();
 
-  constexpr float_t const& __get__ReservedRam_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__ReservedRam_k__BackingField() const;
 
-  constexpr void __set__ReservedRam_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__ReservedRam_k__BackingField(float_t value);
 
-  constexpr float_t& __get__MonoRam_k__BackingField();
+  constexpr float_t& __cordl_internal_get__MonoRam_k__BackingField();
 
-  constexpr float_t const& __get__MonoRam_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__MonoRam_k__BackingField() const;
 
-  constexpr void __set__MonoRam_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__MonoRam_k__BackingField(float_t value);
 
   /// @brief Method get_AllocatedRam, addr 0x2a0823c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_AllocatedRam();

@@ -140,13 +140,13 @@ MARK_VAL_T(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___PingRegion
 // SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(12686)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 876 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 902 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4764 }), TypeDefinitionIndex(TypeDefinitionIndex(12681)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 897 }), TypeDefinitionIndex(TypeDefinitionIndex(13011)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 95 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(12682)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12925)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 876 }), TypeDefinitionIndex(TypeDefinitionIndex(12758)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13013))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13005)) CS Name: ::GameLiftPlayerSessionProvider::<GetGameLiftPlayerSessionInfo>d__14
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(12681)), TypeDefinitionIndex(TypeDefinitionIndex(12682)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12686)), TypeDefinitionIndex(TypeDefinitionIndex(12758)), TypeDefinitionIndex(TypeDefinitionIndex(12925)), TypeDefinitionIndex(TypeDefinitionIndex(13011)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13013)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 876 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2448), inst: 4764 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 95 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 876 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 902 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 897 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13005)) CS Name: ::GameLiftPlayerSessionProvider::<GetGameLiftPlayerSessionInfo>d__14
 struct CORDL_TYPE __GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14 {
 public:
   // Declarations
@@ -328,8 +328,8 @@ static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider_
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 601 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5060 })} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 601 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 5060 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(13006)) CS Name: ::GameLiftPlayerSessionProvider::<PingAllAwsGameLiftRegions>d__15
 struct CORDL_TYPE __GameLiftPlayerSessionProvider___PingAllAwsGameLiftRegions_d__15 {
 public:
@@ -391,7 +391,7 @@ static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13007))
 // CS Name: ::GameLiftPlayerSessionProvider::<>c*
 class CORDL_TYPE __GameLiftPlayerSessionProvider____c : public ::System::Object {
@@ -466,9 +466,10 @@ static_assert(::cordl_internals::size_check_v<::BGNet::Core::GameLift::__GameLif
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 333
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 869 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 601 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13008)) CS Name: ::GameLiftPlayerSessionProvider::<PingRegionAsync>d__17
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 601 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 333 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 869 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13008)) CS Name:
+// ::GameLiftPlayerSessionProvider::<PingRegionAsync>d__17
 struct CORDL_TYPE __GameLiftPlayerSessionProvider___PingRegionAsync_d__17 {
 public:
   // Declarations
@@ -528,7 +529,7 @@ static_assert(offsetof(::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace BGNet::Core::GameLift {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13009))
 // CS Name: ::BGNet.Core.GameLift::GameLiftPlayerSessionProvider*
 class CORDL_TYPE GameLiftPlayerSessionProvider : public ::System::Object {
@@ -543,22 +544,24 @@ public:
   using _GetGameLiftPlayerSessionInfo_d__14 = ::BGNet::Core::GameLift::__GameLiftPlayerSessionProvider___GetGameLiftPlayerSessionInfo_d__14;
 
   /// @brief Field _networkConfig, offset 0x10, size 0x8
-  __declspec(property(get = __get__networkConfig, put = __set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
+  __declspec(property(get = __cordl_internal_get__networkConfig, put = __cordl_internal_set__networkConfig))::GlobalNamespace::INetworkConfig* _networkConfig;
 
   /// @brief Field _graphAPIClient, offset 0x18, size 0x8
-  __declspec(property(get = __get__graphAPIClient, put = __set__graphAPIClient))::GlobalNamespace::GraphAPIClient* _graphAPIClient;
+  __declspec(property(get = __cordl_internal_get__graphAPIClient, put = __cordl_internal_set__graphAPIClient))::GlobalNamespace::GraphAPIClient* _graphAPIClient;
 
   /// @brief Field _xPlatformAuthFeatureFlag, offset 0x20, size 0x8
-  __declspec(property(get = __get__xPlatformAuthFeatureFlag, put = __set__xPlatformAuthFeatureFlag))::GlobalNamespace::XPlatformAuthFeatureFlag* _xPlatformAuthFeatureFlag;
+  __declspec(property(get = __cordl_internal_get__xPlatformAuthFeatureFlag,
+                      put = __cordl_internal_set__xPlatformAuthFeatureFlag))::GlobalNamespace::XPlatformAuthFeatureFlag* _xPlatformAuthFeatureFlag;
 
   /// @brief Field _pingAverages, offset 0x28, size 0x8
-  __declspec(property(get = __get__pingAverages, put = __set__pingAverages))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>* _pingAverages;
+  __declspec(property(get = __cordl_internal_get__pingAverages,
+                      put = __cordl_internal_set__pingAverages))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>* _pingAverages;
 
   /// @brief Field _pingCount, offset 0x30, size 0x4
-  __declspec(property(get = __get__pingCount, put = __set__pingCount)) int32_t _pingCount;
+  __declspec(property(get = __cordl_internal_get__pingCount, put = __cordl_internal_set__pingCount)) int32_t _pingCount;
 
   /// @brief Field _lastPingTime, offset 0x38, size 0x8
-  __declspec(property(get = __get__lastPingTime, put = __set__lastPingTime)) int64_t _lastPingTime;
+  __declspec(property(get = __cordl_internal_get__lastPingTime, put = __cordl_internal_set__lastPingTime)) int64_t _lastPingTime;
 
   /// @brief Field _awsGameLiftRegions, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF__awsGameLiftRegions, put = setStaticF__awsGameLiftRegions))::ArrayW<::StringW, ::Array<::StringW>*> _awsGameLiftRegions;
@@ -575,41 +578,41 @@ public:
   /// @brief Convert to "::GlobalNamespace::IPollable"
   constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
 
-  constexpr ::GlobalNamespace::INetworkConfig*& __get__networkConfig();
+  constexpr ::GlobalNamespace::INetworkConfig*& __cordl_internal_get__networkConfig();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& __get__networkConfig() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkConfig*> const& __cordl_internal_get__networkConfig() const;
 
-  constexpr void __set__networkConfig(::GlobalNamespace::INetworkConfig* value);
+  constexpr void __cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value);
 
-  constexpr ::GlobalNamespace::GraphAPIClient*& __get__graphAPIClient();
+  constexpr ::GlobalNamespace::GraphAPIClient*& __cordl_internal_get__graphAPIClient();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GraphAPIClient*> const& __get__graphAPIClient() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GraphAPIClient*> const& __cordl_internal_get__graphAPIClient() const;
 
-  constexpr void __set__graphAPIClient(::GlobalNamespace::GraphAPIClient* value);
+  constexpr void __cordl_internal_set__graphAPIClient(::GlobalNamespace::GraphAPIClient* value);
 
-  constexpr ::GlobalNamespace::XPlatformAuthFeatureFlag*& __get__xPlatformAuthFeatureFlag();
+  constexpr ::GlobalNamespace::XPlatformAuthFeatureFlag*& __cordl_internal_get__xPlatformAuthFeatureFlag();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::XPlatformAuthFeatureFlag*> const& __get__xPlatformAuthFeatureFlag() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::XPlatformAuthFeatureFlag*> const& __cordl_internal_get__xPlatformAuthFeatureFlag() const;
 
-  constexpr void __set__xPlatformAuthFeatureFlag(::GlobalNamespace::XPlatformAuthFeatureFlag* value);
+  constexpr void __cordl_internal_set__xPlatformAuthFeatureFlag(::GlobalNamespace::XPlatformAuthFeatureFlag* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>*& __get__pingAverages();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>*& __cordl_internal_get__pingAverages();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>*> const& __get__pingAverages() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>*> const& __cordl_internal_get__pingAverages() const;
 
-  constexpr void __set__pingAverages(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>* value);
+  constexpr void __cordl_internal_set__pingAverages(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>* value);
 
-  constexpr int32_t& __get__pingCount();
+  constexpr int32_t& __cordl_internal_get__pingCount();
 
-  constexpr int32_t const& __get__pingCount() const;
+  constexpr int32_t const& __cordl_internal_get__pingCount() const;
 
-  constexpr void __set__pingCount(int32_t value);
+  constexpr void __cordl_internal_set__pingCount(int32_t value);
 
-  constexpr int64_t& __get__lastPingTime();
+  constexpr int64_t& __cordl_internal_get__lastPingTime();
 
-  constexpr int64_t const& __get__lastPingTime() const;
+  constexpr int64_t const& __cordl_internal_get__lastPingTime() const;
 
-  constexpr void __set__lastPingTime(int64_t value);
+  constexpr void __cordl_internal_set__lastPingTime(int64_t value);
 
   static inline void setStaticF__awsGameLiftRegions(::ArrayW<::StringW, ::Array<::StringW>*> value);
 

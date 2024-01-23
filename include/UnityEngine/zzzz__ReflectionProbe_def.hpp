@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::ReflectionProbe);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10149))
 // CS Name: ::ReflectionProbe::ReflectionProbeEvent
 struct CORDL_TYPE __ReflectionProbe__ReflectionProbeEvent {
@@ -82,7 +82,7 @@ static_assert(offsetof(::UnityEngine::__ReflectionProbe__ReflectionProbeEvent, v
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10187))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10187))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10150))
 // CS Name: ::UnityEngine::ReflectionProbe*
 class CORDL_TYPE ReflectionProbe : public ::UnityEngine::Behaviour {
@@ -93,18 +93,18 @@ public:
   /// @brief Field reflectionProbeChanged, offset 0xffffffff, size 0x8
   static __declspec(
       property(get = getStaticF_reflectionProbeChanged,
-               put = setStaticF_reflectionProbeChanged))::System::Action_2<::UnityEngine::ReflectionProbe*, ::UnityEngine::__ReflectionProbe__ReflectionProbeEvent>* reflectionProbeChanged;
+               put = setStaticF_reflectionProbeChanged))::System::Action_2<::UnityW<::UnityEngine::ReflectionProbe>, ::UnityEngine::__ReflectionProbe__ReflectionProbeEvent>* reflectionProbeChanged;
 
   /// @brief Field defaultReflectionTexture, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_defaultReflectionTexture, put = setStaticF_defaultReflectionTexture))::System::Action_1<::UnityEngine::Texture*>* defaultReflectionTexture;
+  static __declspec(property(get = getStaticF_defaultReflectionTexture, put = setStaticF_defaultReflectionTexture))::System::Action_1<::UnityW<::UnityEngine::Texture>>* defaultReflectionTexture;
 
-  static inline void setStaticF_reflectionProbeChanged(::System::Action_2<::UnityEngine::ReflectionProbe*, ::UnityEngine::__ReflectionProbe__ReflectionProbeEvent>* value);
+  static inline void setStaticF_reflectionProbeChanged(::System::Action_2<::UnityW<::UnityEngine::ReflectionProbe>, ::UnityEngine::__ReflectionProbe__ReflectionProbeEvent>* value);
 
-  static inline ::System::Action_2<::UnityEngine::ReflectionProbe*, ::UnityEngine::__ReflectionProbe__ReflectionProbeEvent>* getStaticF_reflectionProbeChanged();
+  static inline ::System::Action_2<::UnityW<::UnityEngine::ReflectionProbe>, ::UnityEngine::__ReflectionProbe__ReflectionProbeEvent>* getStaticF_reflectionProbeChanged();
 
-  static inline void setStaticF_defaultReflectionTexture(::System::Action_1<::UnityEngine::Texture*>* value);
+  static inline void setStaticF_defaultReflectionTexture(::System::Action_1<::UnityW<::UnityEngine::Texture>>* value);
 
-  static inline ::System::Action_1<::UnityEngine::Texture*>* getStaticF_defaultReflectionTexture();
+  static inline ::System::Action_1<::UnityW<::UnityEngine::Texture>>* getStaticF_defaultReflectionTexture();
 
   /// @brief Method CallReflectionProbeEvent, addr 0x2cc68c8, size 0x80, virtual false, abstract: false, final false
   static inline void CallReflectionProbeEvent(::UnityEngine::ReflectionProbe* probe, ::UnityEngine::__ReflectionProbe__ReflectionProbeEvent probeEvent);

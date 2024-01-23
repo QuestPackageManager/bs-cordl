@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_AnimationCurve);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9930))
 // CS Name: ::HoudiniEngineUnity::Test_AnimationCurve*
 class CORDL_TYPE Test_AnimationCurve : public ::System::Object {
 public:
   // Declarations
   /// @brief Field self, offset 0x10, size 0x8
-  __declspec(property(get = __get_self, put = __set_self))::UnityEngine::AnimationCurve* self;
+  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self))::UnityEngine::AnimationCurve* self;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_AnimationCurve*>"
   constexpr operator ::HoudiniEngineUnity::IEquivableWrapperClass_1<::HoudiniEngineUnity::Test_AnimationCurve*>*() noexcept;
@@ -45,11 +45,11 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_AnimationCurve*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_AnimationCurve*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_AnimationCurve__() noexcept;
 
-  constexpr ::UnityEngine::AnimationCurve*& __get_self();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get_self();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get_self() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get_self() const;
 
-  constexpr void __set_self(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set_self(::UnityEngine::AnimationCurve* value);
 
   static inline ::HoudiniEngineUnity::Test_AnimationCurve* New_ctor(::UnityEngine::AnimationCurve* self);
 

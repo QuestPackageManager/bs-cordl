@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::__LayoutUtility____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13094))
 // CS Name: ::LayoutUtility::<>c*
 class CORDL_TYPE __LayoutUtility____c : public ::System::Object {
@@ -155,7 +155,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__LayoutUtility
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13095))
 // CS Name: ::UnityEngine.UI::LayoutUtility*
 class CORDL_TYPE LayoutUtility : public ::System::Object {

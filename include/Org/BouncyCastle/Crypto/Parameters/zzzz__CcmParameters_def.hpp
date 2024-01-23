@@ -19,7 +19,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::CcmParameters);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1013))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1013))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1014))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::CcmParameters*
 class CORDL_TYPE CcmParameters : public ::Org::BouncyCastle::Crypto::Parameters::AeadParameters {

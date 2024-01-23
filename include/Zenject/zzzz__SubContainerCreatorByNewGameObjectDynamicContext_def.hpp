@@ -24,20 +24,20 @@ MARK_REF_PTR_T(::Zenject::SubContainerCreatorByNewGameObjectDynamicContext);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11295))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11295))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11255))
 // CS Name: ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext*
 class CORDL_TYPE SubContainerCreatorByNewGameObjectDynamicContext : public ::Zenject::SubContainerCreatorDynamicContext {
 public:
   // Declarations
   /// @brief Field _gameObjectBindInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get__gameObjectBindInfo, put = __set__gameObjectBindInfo))::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
+  __declspec(property(get = __cordl_internal_get__gameObjectBindInfo, put = __cordl_internal_set__gameObjectBindInfo))::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
 
-  constexpr ::Zenject::GameObjectCreationParameters*& __get__gameObjectBindInfo();
+  constexpr ::Zenject::GameObjectCreationParameters*& __cordl_internal_get__gameObjectBindInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __get__gameObjectBindInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __cordl_internal_get__gameObjectBindInfo() const;
 
-  constexpr void __set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value);
+  constexpr void __cordl_internal_set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value);
 
   static inline ::Zenject::SubContainerCreatorByNewGameObjectDynamicContext* New_ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
@@ -45,7 +45,7 @@ public:
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
   /// @brief Method CreateGameObject, addr 0x2f0b8f4, size 0x4c, virtual true, abstract: false, final false
-  inline ::UnityEngine::GameObject* CreateGameObject(ByRef<bool> shouldMakeActive);
+  inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(ByRef<bool> shouldMakeActive);
 
   // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewGameObjectDynamicContext", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

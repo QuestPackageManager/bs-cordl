@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8121))
 // CS Name: ::OVRMesh::IOVRMeshDataProvider*
 class CORDL_TYPE __OVRMesh__IOVRMeshDataProvider {
@@ -62,7 +62,7 @@ public:
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8122))
 // CS Name: ::OVRMesh::MeshType
 struct CORDL_TYPE __OVRMesh__MeshType {
@@ -116,7 +116,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRMesh__MeshType, value__) == 0x0, 
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8122)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8122)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8123))
 // CS Name: ::OVRMesh*
 class CORDL_TYPE OVRMesh : public ::UnityEngine::MonoBehaviour {
@@ -127,44 +127,44 @@ public:
   using IOVRMeshDataProvider = ::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider;
 
   /// @brief Field _dataProvider, offset 0x18, size 0x8
-  __declspec(property(get = __get__dataProvider, put = __set__dataProvider))::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider* _dataProvider;
+  __declspec(property(get = __cordl_internal_get__dataProvider, put = __cordl_internal_set__dataProvider))::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider* _dataProvider;
 
   /// @brief Field _meshType, offset 0x20, size 0x4
-  __declspec(property(get = __get__meshType, put = __set__meshType))::GlobalNamespace::__OVRMesh__MeshType _meshType;
+  __declspec(property(get = __cordl_internal_get__meshType, put = __cordl_internal_set__meshType))::GlobalNamespace::__OVRMesh__MeshType _meshType;
 
   /// @brief Field _mesh, offset 0x28, size 0x8
-  __declspec(property(get = __get__mesh, put = __set__mesh))::UnityEngine::Mesh* _mesh;
+  __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh))::UnityW<::UnityEngine::Mesh> _mesh;
 
   /// @brief Field <IsInitialized>k__BackingField, offset 0x30, size 0x1
-  __declspec(property(get = __get__IsInitialized_k__BackingField, put = __set__IsInitialized_k__BackingField)) bool _IsInitialized_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsInitialized_k__BackingField, put = __cordl_internal_set__IsInitialized_k__BackingField)) bool _IsInitialized_k__BackingField;
 
   __declspec(property(get = get_IsInitialized, put = set_IsInitialized)) bool IsInitialized;
 
-  __declspec(property(get = get_Mesh))::UnityEngine::Mesh* Mesh;
+  __declspec(property(get = get_Mesh))::UnityW<::UnityEngine::Mesh> Mesh;
 
-  constexpr ::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider*& __get__dataProvider();
+  constexpr ::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider*& __cordl_internal_get__dataProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider*> const& __get__dataProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider*> const& __cordl_internal_get__dataProvider() const;
 
-  constexpr void __set__dataProvider(::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider* value);
+  constexpr void __cordl_internal_set__dataProvider(::GlobalNamespace::__OVRMesh__IOVRMeshDataProvider* value);
 
-  constexpr ::GlobalNamespace::__OVRMesh__MeshType& __get__meshType();
+  constexpr ::GlobalNamespace::__OVRMesh__MeshType& __cordl_internal_get__meshType();
 
-  constexpr ::GlobalNamespace::__OVRMesh__MeshType const& __get__meshType() const;
+  constexpr ::GlobalNamespace::__OVRMesh__MeshType const& __cordl_internal_get__meshType() const;
 
-  constexpr void __set__meshType(::GlobalNamespace::__OVRMesh__MeshType value);
+  constexpr void __cordl_internal_set__meshType(::GlobalNamespace::__OVRMesh__MeshType value);
 
-  constexpr ::UnityEngine::Mesh*& __get__mesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__mesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get__mesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__mesh() const;
 
-  constexpr void __set__mesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set__mesh(::UnityW<::UnityEngine::Mesh> value);
 
-  constexpr bool& __get__IsInitialized_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsInitialized_k__BackingField();
 
-  constexpr bool const& __get__IsInitialized_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsInitialized_k__BackingField() const;
 
-  constexpr void __set__IsInitialized_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsInitialized_k__BackingField(bool value);
 
   /// @brief Method get_IsInitialized, addr 0x27b0710, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
@@ -173,7 +173,7 @@ public:
   inline void set_IsInitialized(bool value);
 
   /// @brief Method get_Mesh, addr 0x27b0724, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Mesh* get_Mesh();
+  inline ::UnityW<::UnityEngine::Mesh> get_Mesh();
 
   /// @brief Method SetMeshType, addr 0x27b072c, size 0x8, virtual false, abstract: false, final false
   inline void SetMeshType(::GlobalNamespace::__OVRMesh__MeshType type);
@@ -216,7 +216,7 @@ public:
   ::GlobalNamespace::__OVRMesh__MeshType ____meshType;
 
   /// @brief Field _mesh, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ____mesh;
+  ::UnityW<::UnityEngine::Mesh> ____mesh;
 
   /// @brief Field <IsInitialized>k__BackingField, offset: 0x30, size: 0x1, def value: None
   bool ____IsInitialized_k__BackingField;

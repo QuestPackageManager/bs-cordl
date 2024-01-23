@@ -22,17 +22,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Abc {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1356))
 // CS Name: ::Org.BouncyCastle.Math.EC.Abc::SimpleBigDecimal*
 class CORDL_TYPE SimpleBigDecimal : public ::System::Object {
 public:
   // Declarations
   /// @brief Field bigInt, offset 0x10, size 0x8
-  __declspec(property(get = __get_bigInt, put = __set_bigInt))::Org::BouncyCastle::Math::BigInteger* bigInt;
+  __declspec(property(get = __cordl_internal_get_bigInt, put = __cordl_internal_set_bigInt))::Org::BouncyCastle::Math::BigInteger* bigInt;
 
   /// @brief Field scale, offset 0x18, size 0x4
-  __declspec(property(get = __get_scale, put = __set_scale)) int32_t scale;
+  __declspec(property(get = __cordl_internal_get_scale, put = __cordl_internal_set_scale)) int32_t scale;
 
   __declspec(property(get = get_IntValue)) int32_t IntValue;
 
@@ -40,17 +40,17 @@ public:
 
   __declspec(property(get = get_Scale)) int32_t Scale;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_bigInt();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_bigInt();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_bigInt() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_bigInt() const;
 
-  constexpr void __set_bigInt(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_bigInt(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr int32_t& __get_scale();
+  constexpr int32_t& __cordl_internal_get_scale();
 
-  constexpr int32_t const& __get_scale() const;
+  constexpr int32_t const& __cordl_internal_get_scale() const;
 
-  constexpr void __set_scale(int32_t value);
+  constexpr void __cordl_internal_set_scale(int32_t value);
 
   /// @brief Method GetInstance, addr 0xfc6658, size 0x84, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* GetInstance(::Org::BouncyCastle::Math::BigInteger* val, int32_t scale);

@@ -60,32 +60,32 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6709))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6709))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6706))
 // CS Name: ::StringHelpers::<Tokenize>d__8*
 class CORDL_TYPE __StringHelpers___Tokenize_d__8 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x10
-  __declspec(property(get = __get___2__current, put = __set___2__current))::UnityEngine::InputSystem::Utilities::Substring __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityEngine::InputSystem::Utilities::Substring __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x28, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field str, offset 0x30, size 0x8
-  __declspec(property(get = __get_str, put = __set_str))::StringW str;
+  __declspec(property(get = __cordl_internal_get_str, put = __cordl_internal_set_str))::StringW str;
 
   /// @brief Field <>3__str, offset 0x38, size 0x8
-  __declspec(property(get = __get___3__str, put = __set___3__str))::StringW __3__str;
+  __declspec(property(get = __cordl_internal_get___3__str, put = __cordl_internal_set___3__str))::StringW __3__str;
 
   /// @brief Field <length>5__2, offset 0x40, size 0x4
-  __declspec(property(get = __get__length_5__2, put = __set__length_5__2)) int32_t _length_5__2;
+  __declspec(property(get = __cordl_internal_get__length_5__2, put = __cordl_internal_set__length_5__2)) int32_t _length_5__2;
 
   /// @brief Field <endPos>5__3, offset 0x44, size 0x4
-  __declspec(property(get = __get__endPos_5__3, put = __set__endPos_5__3)) int32_t _endPos_5__3;
+  __declspec(property(get = __cordl_internal_get__endPos_5__3, put = __cordl_internal_set__endPos_5__3)) int32_t _endPos_5__3;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_Utilities_Substring__get_Current))::UnityEngine::InputSystem::Utilities::Substring
       System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_Utilities_Substring__Current;
@@ -124,47 +124,47 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::Substring& __get___2__current();
+  constexpr ::UnityEngine::InputSystem::Utilities::Substring& __cordl_internal_get___2__current();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::Substring const& __get___2__current() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::Substring const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::UnityEngine::InputSystem::Utilities::Substring value);
+  constexpr void __cordl_internal_set___2__current(::UnityEngine::InputSystem::Utilities::Substring value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::StringW& __get_str();
+  constexpr ::StringW& __cordl_internal_get_str();
 
-  constexpr ::StringW const& __get_str() const;
+  constexpr ::StringW const& __cordl_internal_get_str() const;
 
-  constexpr void __set_str(::StringW value);
+  constexpr void __cordl_internal_set_str(::StringW value);
 
-  constexpr ::StringW& __get___3__str();
+  constexpr ::StringW& __cordl_internal_get___3__str();
 
-  constexpr ::StringW const& __get___3__str() const;
+  constexpr ::StringW const& __cordl_internal_get___3__str() const;
 
-  constexpr void __set___3__str(::StringW value);
+  constexpr void __cordl_internal_set___3__str(::StringW value);
 
-  constexpr int32_t& __get__length_5__2();
+  constexpr int32_t& __cordl_internal_get__length_5__2();
 
-  constexpr int32_t const& __get__length_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__length_5__2() const;
 
-  constexpr void __set__length_5__2(int32_t value);
+  constexpr void __cordl_internal_set__length_5__2(int32_t value);
 
-  constexpr int32_t& __get__endPos_5__3();
+  constexpr int32_t& __cordl_internal_get__endPos_5__3();
 
-  constexpr int32_t const& __get__endPos_5__3() const;
+  constexpr int32_t const& __cordl_internal_get__endPos_5__3() const;
 
-  constexpr void __set__endPos_5__3(int32_t value);
+  constexpr void __cordl_internal_set__endPos_5__3(int32_t value);
 
   static inline ::UnityEngine::InputSystem::Utilities::__StringHelpers___Tokenize_d__8* New_ctor(int32_t __1__state);
 
@@ -252,38 +252,38 @@ static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6707))
 // CS Name: ::StringHelpers::<Split>d__9*
 class CORDL_TYPE __StringHelpers___Split_d__9 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::StringW __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::StringW __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field str, offset 0x28, size 0x8
-  __declspec(property(get = __get_str, put = __set_str))::StringW str;
+  __declspec(property(get = __cordl_internal_get_str, put = __cordl_internal_set_str))::StringW str;
 
   /// @brief Field <>3__str, offset 0x30, size 0x8
-  __declspec(property(get = __get___3__str, put = __set___3__str))::StringW __3__str;
+  __declspec(property(get = __cordl_internal_get___3__str, put = __cordl_internal_set___3__str))::StringW __3__str;
 
   /// @brief Field predicate, offset 0x38, size 0x8
-  __declspec(property(get = __get_predicate, put = __set_predicate))::System::Func_2<char16_t, bool>* predicate;
+  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate))::System::Func_2<char16_t, bool>* predicate;
 
   /// @brief Field <>3__predicate, offset 0x40, size 0x8
-  __declspec(property(get = __get___3__predicate, put = __set___3__predicate))::System::Func_2<char16_t, bool>* __3__predicate;
+  __declspec(property(get = __cordl_internal_get___3__predicate, put = __cordl_internal_set___3__predicate))::System::Func_2<char16_t, bool>* __3__predicate;
 
   /// @brief Field <length>5__2, offset 0x48, size 0x4
-  __declspec(property(get = __get__length_5__2, put = __set__length_5__2)) int32_t _length_5__2;
+  __declspec(property(get = __cordl_internal_get__length_5__2, put = __cordl_internal_set__length_5__2)) int32_t _length_5__2;
 
   /// @brief Field <position>5__3, offset 0x4c, size 0x4
-  __declspec(property(get = __get__position_5__3, put = __set__position_5__3)) int32_t _position_5__3;
+  __declspec(property(get = __cordl_internal_get__position_5__3, put = __cordl_internal_set__position_5__3)) int32_t _position_5__3;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_String__get_Current))::StringW System_Collections_Generic_IEnumerator_System_String__Current;
 
@@ -319,59 +319,59 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::StringW& __get___2__current();
+  constexpr ::StringW& __cordl_internal_get___2__current();
 
-  constexpr ::StringW const& __get___2__current() const;
+  constexpr ::StringW const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::StringW value);
+  constexpr void __cordl_internal_set___2__current(::StringW value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::StringW& __get_str();
+  constexpr ::StringW& __cordl_internal_get_str();
 
-  constexpr ::StringW const& __get_str() const;
+  constexpr ::StringW const& __cordl_internal_get_str() const;
 
-  constexpr void __set_str(::StringW value);
+  constexpr void __cordl_internal_set_str(::StringW value);
 
-  constexpr ::StringW& __get___3__str();
+  constexpr ::StringW& __cordl_internal_get___3__str();
 
-  constexpr ::StringW const& __get___3__str() const;
+  constexpr ::StringW const& __cordl_internal_get___3__str() const;
 
-  constexpr void __set___3__str(::StringW value);
+  constexpr void __cordl_internal_set___3__str(::StringW value);
 
-  constexpr ::System::Func_2<char16_t, bool>*& __get_predicate();
+  constexpr ::System::Func_2<char16_t, bool>*& __cordl_internal_get_predicate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<char16_t, bool>*> const& __get_predicate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<char16_t, bool>*> const& __cordl_internal_get_predicate() const;
 
-  constexpr void __set_predicate(::System::Func_2<char16_t, bool>* value);
+  constexpr void __cordl_internal_set_predicate(::System::Func_2<char16_t, bool>* value);
 
-  constexpr ::System::Func_2<char16_t, bool>*& __get___3__predicate();
+  constexpr ::System::Func_2<char16_t, bool>*& __cordl_internal_get___3__predicate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<char16_t, bool>*> const& __get___3__predicate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<char16_t, bool>*> const& __cordl_internal_get___3__predicate() const;
 
-  constexpr void __set___3__predicate(::System::Func_2<char16_t, bool>* value);
+  constexpr void __cordl_internal_set___3__predicate(::System::Func_2<char16_t, bool>* value);
 
-  constexpr int32_t& __get__length_5__2();
+  constexpr int32_t& __cordl_internal_get__length_5__2();
 
-  constexpr int32_t const& __get__length_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__length_5__2() const;
 
-  constexpr void __set__length_5__2(int32_t value);
+  constexpr void __cordl_internal_set__length_5__2(int32_t value);
 
-  constexpr int32_t& __get__position_5__3();
+  constexpr int32_t& __cordl_internal_get__position_5__3();
 
-  constexpr int32_t const& __get__position_5__3() const;
+  constexpr int32_t const& __cordl_internal_get__position_5__3() const;
 
-  constexpr void __set__position_5__3(int32_t value);
+  constexpr void __cordl_internal_set__position_5__3(int32_t value);
 
   static inline ::UnityEngine::InputSystem::Utilities::__StringHelpers___Split_d__9* New_ctor(int32_t __1__state);
 
@@ -468,7 +468,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Utilities::__StringHelpers___
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6708))
 // CS Name: ::UnityEngine.InputSystem.Utilities::StringHelpers*
 class CORDL_TYPE StringHelpers : public ::System::Object {

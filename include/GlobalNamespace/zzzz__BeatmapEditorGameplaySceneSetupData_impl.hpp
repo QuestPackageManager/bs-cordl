@@ -9,59 +9,59 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x231c354;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEditorGameplaySceneSetupData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEditorGameplaySceneSetupData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-constexpr bool& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__get_useFirstPersonFlyingController() {
+constexpr bool& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__cordl_internal_get_useFirstPersonFlyingController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useFirstPersonFlyingController;
 }
-constexpr bool const& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__get_useFirstPersonFlyingController() const {
+constexpr bool const& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__cordl_internal_get_useFirstPersonFlyingController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useFirstPersonFlyingController;
 }
-constexpr void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__set_useFirstPersonFlyingController(bool value) {
+constexpr void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__cordl_internal_set_useFirstPersonFlyingController(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useFirstPersonFlyingController = value;
 }
-constexpr bool& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__get_recordVRMovement() {
+constexpr bool& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__cordl_internal_get_recordVRMovement() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordVRMovement;
 }
-constexpr bool const& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__get_recordVRMovement() const {
+constexpr bool const& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__cordl_internal_get_recordVRMovement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___recordVRMovement;
 }
-constexpr void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__set_recordVRMovement(bool value) {
+constexpr void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__cordl_internal_set_recordVRMovement(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___recordVRMovement = value;
 }
-constexpr bool& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__get_playVRMovement() {
+constexpr bool& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__cordl_internal_get_playVRMovement() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playVRMovement;
 }
-constexpr bool const& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__get_playVRMovement() const {
+constexpr bool const& GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__cordl_internal_get_playVRMovement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___playVRMovement;
 }
-constexpr void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__set_playVRMovement(bool value) {
+constexpr void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::__cordl_internal_set_playVRMovement(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___playVRMovement = value;
 }
 inline ::GlobalNamespace::BeatmapEditorGameplaySceneSetupData* GlobalNamespace::BeatmapEditorGameplaySceneSetupData::New_ctor(bool useFirstPersonFlyingController, bool recordVRMovement,
                                                                                                                               bool playVRMovement) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::BeatmapEditorGameplaySceneSetupData*>(useFirstPersonFlyingController, recordVRMovement, playVRMovement));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BeatmapEditorGameplaySceneSetupData*>(useFirstPersonFlyingController, recordVRMovement, playVRMovement));
 }
 inline void GlobalNamespace::BeatmapEditorGameplaySceneSetupData::_ctor(bool useFirstPersonFlyingController, bool recordVRMovement, bool playVRMovement) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEditorGameplaySceneSetupData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEditorGameplaySceneSetupData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, useFirstPersonFlyingController, recordVRMovement, playVRMovement);
 }
 // Ctor Parameters []

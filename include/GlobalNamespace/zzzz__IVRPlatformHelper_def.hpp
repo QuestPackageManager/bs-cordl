@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IVRPlatformHelper);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14416))
 // CS Name: ::IVRPlatformHelper*
 class CORDL_TYPE IVRPlatformHelper {

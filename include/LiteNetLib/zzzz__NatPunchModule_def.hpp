@@ -80,7 +80,7 @@ MARK_VAL_T(::LiteNetLib::__NatPunchModule__SuccessEventData);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14149))
 // CS Name: ::NatPunchModule::RequestEventData
 struct CORDL_TYPE __NatPunchModule__RequestEventData {
@@ -122,7 +122,7 @@ static_assert(offsetof(::LiteNetLib::__NatPunchModule__RequestEventData, Token) 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14144))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14144))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14150))
 // CS Name: ::NatPunchModule::SuccessEventData
 struct CORDL_TYPE __NatPunchModule__SuccessEventData {
@@ -164,33 +164,33 @@ static_assert(offsetof(::LiteNetLib::__NatPunchModule__SuccessEventData, Token) 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14151))
 // CS Name: ::NatPunchModule::NatIntroduceRequestPacket*
 class CORDL_TYPE __NatPunchModule__NatIntroduceRequestPacket : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Internal>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Internal_k__BackingField, put = __set__Internal_k__BackingField))::System::Net::IPEndPoint* _Internal_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Internal_k__BackingField, put = __cordl_internal_set__Internal_k__BackingField))::System::Net::IPEndPoint* _Internal_k__BackingField;
 
   /// @brief Field <Token>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Token_k__BackingField, put = __set__Token_k__BackingField))::StringW _Token_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Token_k__BackingField, put = __cordl_internal_set__Token_k__BackingField))::StringW _Token_k__BackingField;
 
   __declspec(property(get = get_Internal, put = set_Internal))::System::Net::IPEndPoint* Internal;
 
   __declspec(property(get = get_Token, put = set_Token))::StringW Token;
 
-  constexpr ::System::Net::IPEndPoint*& __get__Internal_k__BackingField();
+  constexpr ::System::Net::IPEndPoint*& __cordl_internal_get__Internal_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __get__Internal_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get__Internal_k__BackingField() const;
 
-  constexpr void __set__Internal_k__BackingField(::System::Net::IPEndPoint* value);
+  constexpr void __cordl_internal_set__Internal_k__BackingField(::System::Net::IPEndPoint* value);
 
-  constexpr ::StringW& __get__Token_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Token_k__BackingField();
 
-  constexpr ::StringW const& __get__Token_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Token_k__BackingField() const;
 
-  constexpr void __set__Token_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Token_k__BackingField(::StringW value);
 
   /// @brief Method get_Internal, addr 0x21fbda8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_Internal();
@@ -243,20 +243,20 @@ static_assert(offsetof(::LiteNetLib::__NatPunchModule__NatIntroduceRequestPacket
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14152))
 // CS Name: ::NatPunchModule::NatIntroduceResponsePacket*
 class CORDL_TYPE __NatPunchModule__NatIntroduceResponsePacket : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Internal>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Internal_k__BackingField, put = __set__Internal_k__BackingField))::System::Net::IPEndPoint* _Internal_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Internal_k__BackingField, put = __cordl_internal_set__Internal_k__BackingField))::System::Net::IPEndPoint* _Internal_k__BackingField;
 
   /// @brief Field <External>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__External_k__BackingField, put = __set__External_k__BackingField))::System::Net::IPEndPoint* _External_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__External_k__BackingField, put = __cordl_internal_set__External_k__BackingField))::System::Net::IPEndPoint* _External_k__BackingField;
 
   /// @brief Field <Token>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__Token_k__BackingField, put = __set__Token_k__BackingField))::StringW _Token_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Token_k__BackingField, put = __cordl_internal_set__Token_k__BackingField))::StringW _Token_k__BackingField;
 
   __declspec(property(get = get_Internal, put = set_Internal))::System::Net::IPEndPoint* Internal;
 
@@ -264,23 +264,23 @@ public:
 
   __declspec(property(get = get_Token, put = set_Token))::StringW Token;
 
-  constexpr ::System::Net::IPEndPoint*& __get__Internal_k__BackingField();
+  constexpr ::System::Net::IPEndPoint*& __cordl_internal_get__Internal_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __get__Internal_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get__Internal_k__BackingField() const;
 
-  constexpr void __set__Internal_k__BackingField(::System::Net::IPEndPoint* value);
+  constexpr void __cordl_internal_set__Internal_k__BackingField(::System::Net::IPEndPoint* value);
 
-  constexpr ::System::Net::IPEndPoint*& __get__External_k__BackingField();
+  constexpr ::System::Net::IPEndPoint*& __cordl_internal_get__External_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __get__External_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get__External_k__BackingField() const;
 
-  constexpr void __set__External_k__BackingField(::System::Net::IPEndPoint* value);
+  constexpr void __cordl_internal_set__External_k__BackingField(::System::Net::IPEndPoint* value);
 
-  constexpr ::StringW& __get__Token_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Token_k__BackingField();
 
-  constexpr ::StringW const& __get__Token_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Token_k__BackingField() const;
 
-  constexpr void __set__Token_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Token_k__BackingField(::StringW value);
 
   /// @brief Method get_Internal, addr 0x21fbdc8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::IPEndPoint* get_Internal();
@@ -344,33 +344,33 @@ static_assert(offsetof(::LiteNetLib::__NatPunchModule__NatIntroduceResponsePacke
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14153))
 // CS Name: ::NatPunchModule::NatPunchPacket*
 class CORDL_TYPE __NatPunchModule__NatPunchPacket : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Token>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Token_k__BackingField, put = __set__Token_k__BackingField))::StringW _Token_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Token_k__BackingField, put = __cordl_internal_set__Token_k__BackingField))::StringW _Token_k__BackingField;
 
   /// @brief Field <IsExternal>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__IsExternal_k__BackingField, put = __set__IsExternal_k__BackingField)) bool _IsExternal_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsExternal_k__BackingField, put = __cordl_internal_set__IsExternal_k__BackingField)) bool _IsExternal_k__BackingField;
 
   __declspec(property(get = get_Token, put = set_Token))::StringW Token;
 
   __declspec(property(get = get_IsExternal, put = set_IsExternal)) bool IsExternal;
 
-  constexpr ::StringW& __get__Token_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Token_k__BackingField();
 
-  constexpr ::StringW const& __get__Token_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Token_k__BackingField() const;
 
-  constexpr void __set__Token_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Token_k__BackingField(::StringW value);
 
-  constexpr bool& __get__IsExternal_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsExternal_k__BackingField();
 
-  constexpr bool const& __get__IsExternal_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsExternal_k__BackingField() const;
 
-  constexpr void __set__IsExternal_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsExternal_k__BackingField(bool value);
 
   /// @brief Method get_Token, addr 0x21fbdf8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Token();
@@ -423,7 +423,7 @@ static_assert(offsetof(::LiteNetLib::__NatPunchModule__NatPunchPacket, ____IsExt
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14154))
 // CS Name: ::LiteNetLib::NatPunchModule*
 class CORDL_TYPE NatPunchModule : public ::System::Object {
@@ -440,67 +440,69 @@ public:
   using RequestEventData = ::LiteNetLib::__NatPunchModule__RequestEventData;
 
   /// @brief Field _socket, offset 0x10, size 0x8
-  __declspec(property(get = __get__socket, put = __set__socket))::LiteNetLib::NetSocket* _socket;
+  __declspec(property(get = __cordl_internal_get__socket, put = __cordl_internal_set__socket))::LiteNetLib::NetSocket* _socket;
 
   /// @brief Field _requestEvents, offset 0x18, size 0x8
-  __declspec(property(get = __get__requestEvents, put = __set__requestEvents))::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__RequestEventData>* _requestEvents;
+  __declspec(property(get = __cordl_internal_get__requestEvents,
+                      put = __cordl_internal_set__requestEvents))::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__RequestEventData>* _requestEvents;
 
   /// @brief Field _successEvents, offset 0x20, size 0x8
-  __declspec(property(get = __get__successEvents, put = __set__successEvents))::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__SuccessEventData>* _successEvents;
+  __declspec(property(get = __cordl_internal_get__successEvents,
+                      put = __cordl_internal_set__successEvents))::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__SuccessEventData>* _successEvents;
 
   /// @brief Field _cacheReader, offset 0x28, size 0x8
-  __declspec(property(get = __get__cacheReader, put = __set__cacheReader))::LiteNetLib::Utils::NetDataReader* _cacheReader;
+  __declspec(property(get = __cordl_internal_get__cacheReader, put = __cordl_internal_set__cacheReader))::LiteNetLib::Utils::NetDataReader* _cacheReader;
 
   /// @brief Field _cacheWriter, offset 0x30, size 0x8
-  __declspec(property(get = __get__cacheWriter, put = __set__cacheWriter))::LiteNetLib::Utils::NetDataWriter* _cacheWriter;
+  __declspec(property(get = __cordl_internal_get__cacheWriter, put = __cordl_internal_set__cacheWriter))::LiteNetLib::Utils::NetDataWriter* _cacheWriter;
 
   /// @brief Field _netPacketProcessor, offset 0x38, size 0x8
-  __declspec(property(get = __get__netPacketProcessor, put = __set__netPacketProcessor))::LiteNetLib::Utils::NetPacketProcessor* _netPacketProcessor;
+  __declspec(property(get = __cordl_internal_get__netPacketProcessor, put = __cordl_internal_set__netPacketProcessor))::LiteNetLib::Utils::NetPacketProcessor* _netPacketProcessor;
 
   /// @brief Field _natPunchListener, offset 0x40, size 0x8
-  __declspec(property(get = __get__natPunchListener, put = __set__natPunchListener))::LiteNetLib::INatPunchListener* _natPunchListener;
+  __declspec(property(get = __cordl_internal_get__natPunchListener, put = __cordl_internal_set__natPunchListener))::LiteNetLib::INatPunchListener* _natPunchListener;
 
-  constexpr ::LiteNetLib::NetSocket*& __get__socket();
+  constexpr ::LiteNetLib::NetSocket*& __cordl_internal_get__socket();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetSocket*> const& __get__socket() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetSocket*> const& __cordl_internal_get__socket() const;
 
-  constexpr void __set__socket(::LiteNetLib::NetSocket* value);
+  constexpr void __cordl_internal_set__socket(::LiteNetLib::NetSocket* value);
 
-  constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__RequestEventData>*& __get__requestEvents();
+  constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__RequestEventData>*& __cordl_internal_get__requestEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__RequestEventData>*> const& __get__requestEvents() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__RequestEventData>*> const& __cordl_internal_get__requestEvents() const;
 
-  constexpr void __set__requestEvents(::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__RequestEventData>* value);
+  constexpr void __cordl_internal_set__requestEvents(::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__RequestEventData>* value);
 
-  constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__SuccessEventData>*& __get__successEvents();
+  constexpr ::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__SuccessEventData>*& __cordl_internal_get__successEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__SuccessEventData>*> const& __get__successEvents() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__SuccessEventData>*> const& __cordl_internal_get__successEvents() const;
 
-  constexpr void __set__successEvents(::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__SuccessEventData>* value);
+  constexpr void __cordl_internal_set__successEvents(::System::Collections::Generic::Queue_1<::LiteNetLib::__NatPunchModule__SuccessEventData>* value);
 
-  constexpr ::LiteNetLib::Utils::NetDataReader*& __get__cacheReader();
+  constexpr ::LiteNetLib::Utils::NetDataReader*& __cordl_internal_get__cacheReader();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataReader*> const& __get__cacheReader() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataReader*> const& __cordl_internal_get__cacheReader() const;
 
-  constexpr void __set__cacheReader(::LiteNetLib::Utils::NetDataReader* value);
+  constexpr void __cordl_internal_set__cacheReader(::LiteNetLib::Utils::NetDataReader* value);
 
-  constexpr ::LiteNetLib::Utils::NetDataWriter*& __get__cacheWriter();
+  constexpr ::LiteNetLib::Utils::NetDataWriter*& __cordl_internal_get__cacheWriter();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& __get__cacheWriter() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataWriter*> const& __cordl_internal_get__cacheWriter() const;
 
-  constexpr void __set__cacheWriter(::LiteNetLib::Utils::NetDataWriter* value);
+  constexpr void __cordl_internal_set__cacheWriter(::LiteNetLib::Utils::NetDataWriter* value);
 
-  constexpr ::LiteNetLib::Utils::NetPacketProcessor*& __get__netPacketProcessor();
+  constexpr ::LiteNetLib::Utils::NetPacketProcessor*& __cordl_internal_get__netPacketProcessor();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& __get__netPacketProcessor() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetPacketProcessor*> const& __cordl_internal_get__netPacketProcessor() const;
 
-  constexpr void __set__netPacketProcessor(::LiteNetLib::Utils::NetPacketProcessor* value);
+  constexpr void __cordl_internal_set__netPacketProcessor(::LiteNetLib::Utils::NetPacketProcessor* value);
 
-  constexpr ::LiteNetLib::INatPunchListener*& __get__natPunchListener();
+  constexpr ::LiteNetLib::INatPunchListener*& __cordl_internal_get__natPunchListener();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::INatPunchListener*> const& __get__natPunchListener() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::INatPunchListener*> const& __cordl_internal_get__natPunchListener() const;
 
-  constexpr void __set__natPunchListener(::LiteNetLib::INatPunchListener* value);
+  constexpr void __cordl_internal_set__natPunchListener(::LiteNetLib::INatPunchListener* value);
 
   static inline ::LiteNetLib::NatPunchModule* New_ctor(::LiteNetLib::NetSocket* socket);
 

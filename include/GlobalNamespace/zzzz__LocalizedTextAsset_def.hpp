@@ -45,29 +45,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5872))
 // CS Name: ::LocalizedTextAsset::TextInfo*
 class CORDL_TYPE __LocalizedTextAsset__TextInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field language, offset 0x10, size 0x4
-  __declspec(property(get = __get_language, put = __set_language))::Polyglot::Language language;
+  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language))::Polyglot::Language language;
 
   /// @brief Field localizedText, offset 0x18, size 0x8
-  __declspec(property(get = __get_localizedText, put = __set_localizedText))::UnityEngine::TextAsset* localizedText;
+  __declspec(property(get = __cordl_internal_get_localizedText, put = __cordl_internal_set_localizedText))::UnityW<::UnityEngine::TextAsset> localizedText;
 
-  constexpr ::Polyglot::Language& __get_language();
+  constexpr ::Polyglot::Language& __cordl_internal_get_language();
 
-  constexpr ::Polyglot::Language const& __get_language() const;
+  constexpr ::Polyglot::Language const& __cordl_internal_get_language() const;
 
-  constexpr void __set_language(::Polyglot::Language value);
+  constexpr void __cordl_internal_set_language(::Polyglot::Language value);
 
-  constexpr ::UnityEngine::TextAsset*& __get_localizedText();
+  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_localizedText();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& __get_localizedText() const;
+  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_localizedText() const;
 
-  constexpr void __set_localizedText(::UnityEngine::TextAsset* value);
+  constexpr void __cordl_internal_set_localizedText(::UnityW<::UnityEngine::TextAsset> value);
 
   static inline ::GlobalNamespace::__LocalizedTextAsset__TextInfo* New_ctor();
 
@@ -92,7 +92,7 @@ public:
   ::Polyglot::Language ___language;
 
   /// @brief Field localizedText, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::TextAsset* ___localizedText;
+  ::UnityW<::UnityEngine::TextAsset> ___localizedText;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -108,20 +108,20 @@ static_assert(offsetof(::GlobalNamespace::__LocalizedTextAsset__TextInfo, ___loc
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15554)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5873))
 // CS Name: ::LocalizedTextAsset::<>c__DisplayClass6_0*
 class CORDL_TYPE __LocalizedTextAsset____c__DisplayClass6_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field language, offset 0x10, size 0x4
-  __declspec(property(get = __get_language, put = __set_language))::Polyglot::Language language;
+  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language))::Polyglot::Language language;
 
-  constexpr ::Polyglot::Language& __get_language();
+  constexpr ::Polyglot::Language& __cordl_internal_get_language();
 
-  constexpr ::Polyglot::Language const& __get_language() const;
+  constexpr ::Polyglot::Language const& __cordl_internal_get_language() const;
 
-  constexpr void __set_language(::Polyglot::Language value);
+  constexpr void __cordl_internal_set_language(::Polyglot::Language value);
 
   static inline ::GlobalNamespace::__LocalizedTextAsset____c__DisplayClass6_0* New_ctor();
 
@@ -160,7 +160,7 @@ static_assert(offsetof(::GlobalNamespace::__LocalizedTextAsset____c__DisplayClas
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5874))
 // CS Name: ::LocalizedTextAsset::<>c*
 class CORDL_TYPE __LocalizedTextAsset____c : public ::System::Object {
@@ -212,7 +212,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__LocalizedText
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5875))
 // CS Name: ::LocalizedTextAsset*
 class CORDL_TYPE LocalizedTextAsset : public ::UnityEngine::ScriptableObject {
@@ -225,27 +225,27 @@ public:
   using TextInfo = ::GlobalNamespace::__LocalizedTextAsset__TextInfo;
 
   /// @brief Field _textInfos, offset 0x18, size 0x8
-  __declspec(property(get = __get__textInfos,
-                      put = __set__textInfos))::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*> _textInfos;
+  __declspec(property(get = __cordl_internal_get__textInfos,
+                      put = __cordl_internal_set__textInfos))::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*> _textInfos;
 
   /// @brief Field _lastTextInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get__lastTextInfo, put = __set__lastTextInfo))::GlobalNamespace::__LocalizedTextAsset__TextInfo* _lastTextInfo;
+  __declspec(property(get = __cordl_internal_get__lastTextInfo, put = __cordl_internal_set__lastTextInfo))::GlobalNamespace::__LocalizedTextAsset__TextInfo* _lastTextInfo;
 
   __declspec(property(get = get_textInfos))::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*> textInfos;
 
   __declspec(property(get = get_localizedText))::StringW localizedText;
 
-  constexpr ::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*>& __get__textInfos();
+  constexpr ::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*>& __cordl_internal_get__textInfos();
 
-  constexpr ::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*> const& __get__textInfos() const;
+  constexpr ::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*> const& __cordl_internal_get__textInfos() const;
 
-  constexpr void __set__textInfos(::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*> value);
+  constexpr void __cordl_internal_set__textInfos(::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*> value);
 
-  constexpr ::GlobalNamespace::__LocalizedTextAsset__TextInfo*& __get__lastTextInfo();
+  constexpr ::GlobalNamespace::__LocalizedTextAsset__TextInfo*& __cordl_internal_get__lastTextInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LocalizedTextAsset__TextInfo*> const& __get__lastTextInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__LocalizedTextAsset__TextInfo*> const& __cordl_internal_get__lastTextInfo() const;
 
-  constexpr void __set__lastTextInfo(::GlobalNamespace::__LocalizedTextAsset__TextInfo* value);
+  constexpr void __cordl_internal_set__lastTextInfo(::GlobalNamespace::__LocalizedTextAsset__TextInfo* value);
 
   /// @brief Method get_textInfos, addr 0x22f8620, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::__LocalizedTextAsset__TextInfo*, ::Array<::GlobalNamespace::__LocalizedTextAsset__TextInfo*>*> get_textInfos();

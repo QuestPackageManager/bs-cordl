@@ -119,9 +119,9 @@ MARK_VAL_T(::GlobalNamespace::__SteamPlatformAdditionalContentModel___OpenLevelP
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(16270))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4116)) CS Name: ::SteamPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__11
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 880 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4116)) CS Name: ::SteamPlatformAdditionalContentModel::<GetLevelEntitlementStatusInternalAsync>d__11
 struct CORDL_TYPE __SteamPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__11 {
 public:
   // Declarations
@@ -194,9 +194,9 @@ static_assert(offsetof(::GlobalNamespace::__SteamPlatformAdditionalContentModel_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4117)) CS Name: ::SteamPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__12
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 880 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4117)) CS Name: ::SteamPlatformAdditionalContentModel::<GetPackEntitlementStatusInternalAsync>d__12
 struct CORDL_TYPE __SteamPlatformAdditionalContentModel___GetPackEntitlementStatusInternalAsync_d__12 {
 public:
   // Declarations
@@ -269,10 +269,10 @@ static_assert(offsetof(::GlobalNamespace::__SteamPlatformAdditionalContentModel_
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 868 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3394), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 753 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(16270))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4118))
-// CS Name: ::SteamPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__14
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 753 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 868 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(4118)) CS Name: ::SteamPlatformAdditionalContentModel::<GetRedirectedLevelPackProductData>d__14
 struct CORDL_TYPE __SteamPlatformAdditionalContentModel___GetRedirectedLevelPackProductData_d__14 {
 public:
   // Declarations
@@ -360,9 +360,10 @@ static_assert(offsetof(::GlobalNamespace::__SteamPlatformAdditionalContentModel_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4097)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 903 }), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4119)) CS Name: ::SteamPlatformAdditionalContentModel::<IsDataValidAsync>d__16
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(4097)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 903 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4119)) CS Name:
+// ::SteamPlatformAdditionalContentModel::<IsDataValidAsync>d__16
 struct CORDL_TYPE __SteamPlatformAdditionalContentModel___IsDataValidAsync_d__16 {
 public:
   // Declarations
@@ -435,9 +436,9 @@ static_assert(offsetof(::GlobalNamespace::__SteamPlatformAdditionalContentModel_
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(2448)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 868 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 753 }), TypeDefinitionIndex(TypeDefinitionIndex(16271))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(16271)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 753 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 868 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 895 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(4120)) CS Name: ::SteamPlatformAdditionalContentModel::<OpenLevelPackProductStoreAsync>d__18
 struct CORDL_TYPE __SteamPlatformAdditionalContentModel___OpenLevelPackProductStoreAsync_d__18 {
 public:
@@ -511,7 +512,7 @@ static_assert(offsetof(::GlobalNamespace::__SteamPlatformAdditionalContentModel_
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4100))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4100))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4121))
 // CS Name: ::SteamPlatformAdditionalContentModel*
 class CORDL_TYPE SteamPlatformAdditionalContentModel : public ::GlobalNamespace::AdditionalContentModel {
@@ -528,85 +529,85 @@ public:
   using _GetLevelEntitlementStatusInternalAsync_d__11 = ::GlobalNamespace::__SteamPlatformAdditionalContentModel___GetLevelEntitlementStatusInternalAsync_d__11;
 
   /// @brief Field _steamLevelProductsModel, offset 0x28, size 0x8
-  __declspec(property(get = __get__steamLevelProductsModel, put = __set__steamLevelProductsModel))::GlobalNamespace::SteamLevelProductsModelSO* _steamLevelProductsModel;
+  __declspec(property(get = __cordl_internal_get__steamLevelProductsModel,
+                      put = __cordl_internal_set__steamLevelProductsModel))::UnityW<::GlobalNamespace::SteamLevelProductsModelSO> _steamLevelProductsModel;
 
   /// @brief Field _entitlementsAppIds, offset 0x30, size 0x8
-  __declspec(property(get = __get__entitlementsAppIds, put = __set__entitlementsAppIds))::System::Collections::Generic::HashSet_1<uint32_t>* _entitlementsAppIds;
+  __declspec(property(get = __cordl_internal_get__entitlementsAppIds, put = __cordl_internal_set__entitlementsAppIds))::System::Collections::Generic::HashSet_1<uint32_t>* _entitlementsAppIds;
 
   /// @brief Field _dataIsValidTaskCompletionSource, offset 0x38, size 0x8
-  __declspec(property(get = __get__dataIsValidTaskCompletionSource,
-                      put = __set__dataIsValidTaskCompletionSource))::System::Threading::Tasks::TaskCompletionSource_1<bool>* _dataIsValidTaskCompletionSource;
+  __declspec(property(get = __cordl_internal_get__dataIsValidTaskCompletionSource,
+                      put = __cordl_internal_set__dataIsValidTaskCompletionSource))::System::Threading::Tasks::TaskCompletionSource_1<bool>* _dataIsValidTaskCompletionSource;
 
   /// @brief Field _semaphoreSlim, offset 0x40, size 0x8
-  __declspec(property(get = __get__semaphoreSlim, put = __set__semaphoreSlim))::System::Threading::SemaphoreSlim* _semaphoreSlim;
+  __declspec(property(get = __cordl_internal_get__semaphoreSlim, put = __cordl_internal_set__semaphoreSlim))::System::Threading::SemaphoreSlim* _semaphoreSlim;
 
   /// @brief Field _isDataValid, offset 0x48, size 0x1
-  __declspec(property(get = __get__isDataValid, put = __set__isDataValid)) bool _isDataValid;
+  __declspec(property(get = __cordl_internal_get__isDataValid, put = __cordl_internal_set__isDataValid)) bool _isDataValid;
 
   /// @brief Field _levelIdToProductData, offset 0x50, size 0x8
-  __declspec(
-      property(get = __get__levelIdToProductData,
-               put = __set__levelIdToProductData))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelProductData*>* _levelIdToProductData;
+  __declspec(property(get = __cordl_internal_get__levelIdToProductData, put = __cordl_internal_set__levelIdToProductData))::System::Collections::Generic::Dictionary_2<
+      ::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelProductData*>* _levelIdToProductData;
 
   /// @brief Field _levelPackIdToProductData, offset 0x58, size 0x8
-  __declspec(property(
-      get = __get__levelPackIdToProductData,
-      put = __set__levelPackIdToProductData))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelPackProductData*>* _levelPackIdToProductData;
+  __declspec(property(get = __cordl_internal_get__levelPackIdToProductData, put = __cordl_internal_set__levelPackIdToProductData))::System::Collections::Generic::Dictionary_2<
+      ::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelPackProductData*>* _levelPackIdToProductData;
 
   /// @brief Field _levelPackRedirectionData, offset 0x60, size 0x8
-  __declspec(property(get = __get__levelPackRedirectionData, put = __set__levelPackRedirectionData))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get__levelPackRedirectionData, put = __cordl_internal_set__levelPackRedirectionData))::System::Collections::Generic::Dictionary_2<
       ::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelPackRedirectionData*>* _levelPackRedirectionData;
 
-  constexpr ::GlobalNamespace::SteamLevelProductsModelSO*& __get__steamLevelProductsModel();
+  constexpr ::UnityW<::GlobalNamespace::SteamLevelProductsModelSO>& __cordl_internal_get__steamLevelProductsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SteamLevelProductsModelSO*> const& __get__steamLevelProductsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::SteamLevelProductsModelSO> const& __cordl_internal_get__steamLevelProductsModel() const;
 
-  constexpr void __set__steamLevelProductsModel(::GlobalNamespace::SteamLevelProductsModelSO* value);
+  constexpr void __cordl_internal_set__steamLevelProductsModel(::UnityW<::GlobalNamespace::SteamLevelProductsModelSO> value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __get__entitlementsAppIds();
+  constexpr ::System::Collections::Generic::HashSet_1<uint32_t>*& __cordl_internal_get__entitlementsAppIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<uint32_t>*> const& __get__entitlementsAppIds() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<uint32_t>*> const& __cordl_internal_get__entitlementsAppIds() const;
 
-  constexpr void __set__entitlementsAppIds(::System::Collections::Generic::HashSet_1<uint32_t>* value);
+  constexpr void __cordl_internal_set__entitlementsAppIds(::System::Collections::Generic::HashSet_1<uint32_t>* value);
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __get__dataIsValidTaskCompletionSource();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get__dataIsValidTaskCompletionSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __get__dataIsValidTaskCompletionSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __cordl_internal_get__dataIsValidTaskCompletionSource() const;
 
-  constexpr void __set__dataIsValidTaskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+  constexpr void __cordl_internal_set__dataIsValidTaskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  constexpr ::System::Threading::SemaphoreSlim*& __get__semaphoreSlim();
+  constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get__semaphoreSlim();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __get__semaphoreSlim() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get__semaphoreSlim() const;
 
-  constexpr void __set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
+  constexpr void __cordl_internal_set__semaphoreSlim(::System::Threading::SemaphoreSlim* value);
 
-  constexpr bool& __get__isDataValid();
+  constexpr bool& __cordl_internal_get__isDataValid();
 
-  constexpr bool const& __get__isDataValid() const;
+  constexpr bool const& __cordl_internal_get__isDataValid() const;
 
-  constexpr void __set__isDataValid(bool value);
+  constexpr void __cordl_internal_set__isDataValid(bool value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelProductData*>*& __get__levelIdToProductData();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelProductData*>*& __cordl_internal_get__levelIdToProductData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelProductData*>*> const&
-  __get__levelIdToProductData() const;
+  __cordl_internal_get__levelIdToProductData() const;
 
-  constexpr void __set__levelIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelProductData*>* value);
+  constexpr void __cordl_internal_set__levelIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelProductData*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelPackProductData*>*& __get__levelPackIdToProductData();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelPackProductData*>*& __cordl_internal_get__levelPackIdToProductData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelPackProductData*>*> const&
-  __get__levelPackIdToProductData() const;
+  __cordl_internal_get__levelPackIdToProductData() const;
 
-  constexpr void __set__levelPackIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelPackProductData*>* value);
+  constexpr void __cordl_internal_set__levelPackIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelPackProductData*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelPackRedirectionData*>*& __get__levelPackRedirectionData();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelPackRedirectionData*>*& __cordl_internal_get__levelPackRedirectionData();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelPackRedirectionData*>*> const&
-  __get__levelPackRedirectionData() const;
+  __cordl_internal_get__levelPackRedirectionData() const;
 
-  constexpr void __set__levelPackRedirectionData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelPackRedirectionData*>* value);
+  constexpr void
+  __cordl_internal_set__levelPackRedirectionData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductsModelSO__LevelPackRedirectionData*>* value);
 
   /// @brief Method InvalidateDataInternal, addr 0x2237fdc, size 0x8, virtual true, abstract: false, final false
   inline void InvalidateDataInternal();
@@ -678,7 +679,7 @@ protected:
 
 public:
   /// @brief Field _steamLevelProductsModel, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::SteamLevelProductsModelSO* ____steamLevelProductsModel;
+  ::UnityW<::GlobalNamespace::SteamLevelProductsModelSO> ____steamLevelProductsModel;
 
   /// @brief Field _entitlementsAppIds, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<uint32_t>* ____entitlementsAppIds;

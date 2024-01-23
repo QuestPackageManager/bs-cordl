@@ -104,7 +104,7 @@ MARK_VAL_T(::GlobalNamespace::__PlatformLeaderboardViewController___Refresh_d__3
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3393)), TypeDefinitionIndex(TypeDefinitionIndex(3400))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5726))
 // CS Name: ::PlatformLeaderboardViewController::<Refresh>d__30
 struct CORDL_TYPE __PlatformLeaderboardViewController___Refresh_d__30 {
@@ -123,11 +123,11 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::PlatformLeaderboardViewController*",
-  // modifiers: "", def_value: None }, CppParam { name: "showLoadingIndicator", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "clear", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
+  // "::UnityW<::GlobalNamespace::PlatformLeaderboardViewController>", modifiers: "", def_value: None }, CppParam { name: "showLoadingIndicator", ty: "bool", modifiers: "", def_value: None }, CppParam
+  // { name: "clear", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
   constexpr __PlatformLeaderboardViewController___Refresh_d__30(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                ::GlobalNamespace::PlatformLeaderboardViewController* __4__this, bool showLoadingIndicator, bool clear,
+                                                                ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> __4__this, bool showLoadingIndicator, bool clear,
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   // Ctor Parameters []
@@ -141,7 +141,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::PlatformLeaderboardViewController* __4__this;
+  ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> __4__this;
 
   /// @brief Field showLoadingIndicator, offset: 0x30, size: 0x1, def value: None
   bool showLoadingIndicator;
@@ -177,26 +177,26 @@ static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardViewController___
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5727))
 // CS Name: ::PlatformLeaderboardViewController::<RefreshDelayed>d__32*
 class CORDL_TYPE __PlatformLeaderboardViewController___RefreshDelayed_d__32 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::PlatformLeaderboardViewController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> __4__this;
 
   /// @brief Field clear, offset 0x28, size 0x1
-  __declspec(property(get = __get_clear, put = __set_clear)) bool clear;
+  __declspec(property(get = __cordl_internal_get_clear, put = __cordl_internal_set_clear)) bool clear;
 
   /// @brief Field showLoadingIndicator, offset 0x29, size 0x1
-  __declspec(property(get = __get_showLoadingIndicator, put = __set_showLoadingIndicator)) bool showLoadingIndicator;
+  __declspec(property(get = __cordl_internal_get_showLoadingIndicator, put = __cordl_internal_set_showLoadingIndicator)) bool showLoadingIndicator;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -220,35 +220,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::PlatformLeaderboardViewController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlatformLeaderboardViewController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::PlatformLeaderboardViewController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> value);
 
-  constexpr bool& __get_clear();
+  constexpr bool& __cordl_internal_get_clear();
 
-  constexpr bool const& __get_clear() const;
+  constexpr bool const& __cordl_internal_get_clear() const;
 
-  constexpr void __set_clear(bool value);
+  constexpr void __cordl_internal_set_clear(bool value);
 
-  constexpr bool& __get_showLoadingIndicator();
+  constexpr bool& __cordl_internal_get_showLoadingIndicator();
 
-  constexpr bool const& __get_showLoadingIndicator() const;
+  constexpr bool const& __cordl_internal_get_showLoadingIndicator() const;
 
-  constexpr void __set_showLoadingIndicator(bool value);
+  constexpr void __cordl_internal_set_showLoadingIndicator(bool value);
 
   static inline ::GlobalNamespace::__PlatformLeaderboardViewController___RefreshDelayed_d__32* New_ctor(int32_t __1__state);
 
@@ -291,7 +291,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::PlatformLeaderboardViewController* _____4__this;
+  ::UnityW<::GlobalNamespace::PlatformLeaderboardViewController> _____4__this;
 
   /// @brief Field clear, offset: 0x28, size: 0x1, def value: None
   bool ___clear;
@@ -319,7 +319,7 @@ static_assert(offsetof(::GlobalNamespace::__PlatformLeaderboardViewController___
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5650)), TypeDefinitionIndex(TypeDefinitionIndex(4230))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4230)), TypeDefinitionIndex(TypeDefinitionIndex(5650))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5728))
 // CS Name: ::PlatformLeaderboardViewController*
 class CORDL_TYPE PlatformLeaderboardViewController : public ::GlobalNamespace::LeaderboardViewController {
@@ -330,162 +330,162 @@ public:
   using _Refresh_d__30 = ::GlobalNamespace::__PlatformLeaderboardViewController___Refresh_d__30;
 
   /// @brief Field _leaderboardTableView, offset 0x70, size 0x8
-  __declspec(property(get = __get__leaderboardTableView, put = __set__leaderboardTableView))::GlobalNamespace::LeaderboardTableView* _leaderboardTableView;
+  __declspec(property(get = __cordl_internal_get__leaderboardTableView, put = __cordl_internal_set__leaderboardTableView))::UnityW<::GlobalNamespace::LeaderboardTableView> _leaderboardTableView;
 
   /// @brief Field _scopeSegmentedControl, offset 0x78, size 0x8
-  __declspec(property(get = __get__scopeSegmentedControl, put = __set__scopeSegmentedControl))::HMUI::IconSegmentedControl* _scopeSegmentedControl;
+  __declspec(property(get = __cordl_internal_get__scopeSegmentedControl, put = __cordl_internal_set__scopeSegmentedControl))::UnityW<::HMUI::IconSegmentedControl> _scopeSegmentedControl;
 
   /// @brief Field _loadingControl, offset 0x80, size 0x8
-  __declspec(property(get = __get__loadingControl, put = __set__loadingControl))::GlobalNamespace::LoadingControl* _loadingControl;
+  __declspec(property(get = __cordl_internal_get__loadingControl, put = __cordl_internal_set__loadingControl))::UnityW<::GlobalNamespace::LoadingControl> _loadingControl;
 
   /// @brief Field _globalLeaderboardIcon, offset 0x88, size 0x8
-  __declspec(property(get = __get__globalLeaderboardIcon, put = __set__globalLeaderboardIcon))::UnityEngine::Sprite* _globalLeaderboardIcon;
+  __declspec(property(get = __cordl_internal_get__globalLeaderboardIcon, put = __cordl_internal_set__globalLeaderboardIcon))::UnityW<::UnityEngine::Sprite> _globalLeaderboardIcon;
 
   /// @brief Field _aroundPlayerLeaderboardIcon, offset 0x90, size 0x8
-  __declspec(property(get = __get__aroundPlayerLeaderboardIcon, put = __set__aroundPlayerLeaderboardIcon))::UnityEngine::Sprite* _aroundPlayerLeaderboardIcon;
+  __declspec(property(get = __cordl_internal_get__aroundPlayerLeaderboardIcon, put = __cordl_internal_set__aroundPlayerLeaderboardIcon))::UnityW<::UnityEngine::Sprite> _aroundPlayerLeaderboardIcon;
 
   /// @brief Field _friendsLeaderboardIcon, offset 0x98, size 0x8
-  __declspec(property(get = __get__friendsLeaderboardIcon, put = __set__friendsLeaderboardIcon))::UnityEngine::Sprite* _friendsLeaderboardIcon;
+  __declspec(property(get = __cordl_internal_get__friendsLeaderboardIcon, put = __cordl_internal_set__friendsLeaderboardIcon))::UnityW<::UnityEngine::Sprite> _friendsLeaderboardIcon;
 
   /// @brief Field _levelStatsView, offset 0xa0, size 0x8
-  __declspec(property(get = __get__levelStatsView, put = __set__levelStatsView))::GlobalNamespace::LevelStatsView* _levelStatsView;
+  __declspec(property(get = __cordl_internal_get__levelStatsView, put = __cordl_internal_set__levelStatsView))::UnityW<::GlobalNamespace::LevelStatsView> _levelStatsView;
 
   /// @brief Field _leaderboardsModel, offset 0xa8, size 0x8
-  __declspec(property(get = __get__leaderboardsModel, put = __set__leaderboardsModel))::GlobalNamespace::PlatformLeaderboardsModel* _leaderboardsModel;
+  __declspec(property(get = __cordl_internal_get__leaderboardsModel, put = __cordl_internal_set__leaderboardsModel))::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> _leaderboardsModel;
 
   /// @brief Field _playerDataModel, offset 0xb0, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _getScoresAsyncRequest, offset 0xb8, size 0x8
-  __declspec(property(get = __get__getScoresAsyncRequest, put = __set__getScoresAsyncRequest))::GlobalNamespace::HMAsyncRequest* _getScoresAsyncRequest;
+  __declspec(property(get = __cordl_internal_get__getScoresAsyncRequest, put = __cordl_internal_set__getScoresAsyncRequest))::GlobalNamespace::HMAsyncRequest* _getScoresAsyncRequest;
 
   /// @brief Field _playerScorePos, offset 0xc0, size 0x8
-  __declspec(property(get = __get__playerScorePos, put = __set__playerScorePos))::ArrayW<int32_t, ::Array<int32_t>*> _playerScorePos;
+  __declspec(property(get = __cordl_internal_get__playerScorePos, put = __cordl_internal_set__playerScorePos))::ArrayW<int32_t, ::Array<int32_t>*> _playerScorePos;
 
   /// @brief Field _scores, offset 0xc8, size 0x8
-  __declspec(property(get = __get__scores, put = __set__scores))::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>* _scores;
+  __declspec(property(get = __cordl_internal_get__scores, put = __cordl_internal_set__scores))::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>* _scores;
 
   /// @brief Field _difficultyBeatmap, offset 0xd0, size 0x8
-  __declspec(property(get = __get__difficultyBeatmap, put = __set__difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* _difficultyBeatmap;
+  __declspec(property(get = __cordl_internal_get__difficultyBeatmap, put = __cordl_internal_set__difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* _difficultyBeatmap;
 
   /// @brief Field _refreshIsNeeded, offset 0xd8, size 0x1
-  __declspec(property(get = __get__refreshIsNeeded, put = __set__refreshIsNeeded)) bool _refreshIsNeeded;
+  __declspec(property(get = __cordl_internal_get__refreshIsNeeded, put = __cordl_internal_set__refreshIsNeeded)) bool _refreshIsNeeded;
 
   /// @brief Field _hasScoresData, offset 0xd9, size 0x1
-  __declspec(property(get = __get__hasScoresData, put = __set__hasScoresData)) bool _hasScoresData;
+  __declspec(property(get = __cordl_internal_get__hasScoresData, put = __cordl_internal_set__hasScoresData)) bool _hasScoresData;
 
   /// @brief Field _scoreScopes, offset 0xe0, size 0x8
-  __declspec(
-      property(get = __get__scoreScopes,
-               put = __set__scoreScopes))::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope>*> _scoreScopes;
+  __declspec(property(get = __cordl_internal_get__scoreScopes, put = __cordl_internal_set__scoreScopes))::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope,
+                                                                                                                 ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope>*> _scoreScopes;
 
   /// @brief Field _scoresScope, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__scoresScope, put = setStaticF__scoresScope))::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope _scoresScope;
 
-  __declspec(property(get = get_leaderboardsModel))::GlobalNamespace::PlatformLeaderboardsModel* leaderboardsModel;
+  __declspec(property(get = get_leaderboardsModel))::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> leaderboardsModel;
 
-  constexpr ::GlobalNamespace::LeaderboardTableView*& __get__leaderboardTableView();
+  constexpr ::UnityW<::GlobalNamespace::LeaderboardTableView>& __cordl_internal_get__leaderboardTableView();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LeaderboardTableView*> const& __get__leaderboardTableView() const;
+  constexpr ::UnityW<::GlobalNamespace::LeaderboardTableView> const& __cordl_internal_get__leaderboardTableView() const;
 
-  constexpr void __set__leaderboardTableView(::GlobalNamespace::LeaderboardTableView* value);
+  constexpr void __cordl_internal_set__leaderboardTableView(::UnityW<::GlobalNamespace::LeaderboardTableView> value);
 
-  constexpr ::HMUI::IconSegmentedControl*& __get__scopeSegmentedControl();
+  constexpr ::UnityW<::HMUI::IconSegmentedControl>& __cordl_internal_get__scopeSegmentedControl();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::IconSegmentedControl*> const& __get__scopeSegmentedControl() const;
+  constexpr ::UnityW<::HMUI::IconSegmentedControl> const& __cordl_internal_get__scopeSegmentedControl() const;
 
-  constexpr void __set__scopeSegmentedControl(::HMUI::IconSegmentedControl* value);
+  constexpr void __cordl_internal_set__scopeSegmentedControl(::UnityW<::HMUI::IconSegmentedControl> value);
 
-  constexpr ::GlobalNamespace::LoadingControl*& __get__loadingControl();
+  constexpr ::UnityW<::GlobalNamespace::LoadingControl>& __cordl_internal_get__loadingControl();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LoadingControl*> const& __get__loadingControl() const;
+  constexpr ::UnityW<::GlobalNamespace::LoadingControl> const& __cordl_internal_get__loadingControl() const;
 
-  constexpr void __set__loadingControl(::GlobalNamespace::LoadingControl* value);
+  constexpr void __cordl_internal_set__loadingControl(::UnityW<::GlobalNamespace::LoadingControl> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__globalLeaderboardIcon();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__globalLeaderboardIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__globalLeaderboardIcon() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__globalLeaderboardIcon() const;
 
-  constexpr void __set__globalLeaderboardIcon(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__globalLeaderboardIcon(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__aroundPlayerLeaderboardIcon();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__aroundPlayerLeaderboardIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__aroundPlayerLeaderboardIcon() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__aroundPlayerLeaderboardIcon() const;
 
-  constexpr void __set__aroundPlayerLeaderboardIcon(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__aroundPlayerLeaderboardIcon(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__friendsLeaderboardIcon();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__friendsLeaderboardIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__friendsLeaderboardIcon() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__friendsLeaderboardIcon() const;
 
-  constexpr void __set__friendsLeaderboardIcon(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__friendsLeaderboardIcon(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::GlobalNamespace::LevelStatsView*& __get__levelStatsView();
+  constexpr ::UnityW<::GlobalNamespace::LevelStatsView>& __cordl_internal_get__levelStatsView();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelStatsView*> const& __get__levelStatsView() const;
+  constexpr ::UnityW<::GlobalNamespace::LevelStatsView> const& __cordl_internal_get__levelStatsView() const;
 
-  constexpr void __set__levelStatsView(::GlobalNamespace::LevelStatsView* value);
+  constexpr void __cordl_internal_set__levelStatsView(::UnityW<::GlobalNamespace::LevelStatsView> value);
 
-  constexpr ::GlobalNamespace::PlatformLeaderboardsModel*& __get__leaderboardsModel();
+  constexpr ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel>& __cordl_internal_get__leaderboardsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlatformLeaderboardsModel*> const& __get__leaderboardsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> const& __cordl_internal_get__leaderboardsModel() const;
 
-  constexpr void __set__leaderboardsModel(::GlobalNamespace::PlatformLeaderboardsModel* value);
+  constexpr void __cordl_internal_set__leaderboardsModel(::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> value);
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::GlobalNamespace::HMAsyncRequest*& __get__getScoresAsyncRequest();
+  constexpr ::GlobalNamespace::HMAsyncRequest*& __cordl_internal_get__getScoresAsyncRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HMAsyncRequest*> const& __get__getScoresAsyncRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::HMAsyncRequest*> const& __cordl_internal_get__getScoresAsyncRequest() const;
 
-  constexpr void __set__getScoresAsyncRequest(::GlobalNamespace::HMAsyncRequest* value);
+  constexpr void __cordl_internal_set__getScoresAsyncRequest(::GlobalNamespace::HMAsyncRequest* value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__playerScorePos();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__playerScorePos();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__playerScorePos() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__playerScorePos() const;
 
-  constexpr void __set__playerScorePos(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__playerScorePos(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>*& __get__scores();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>*& __cordl_internal_get__scores();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>*> const& __get__scores() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>*> const& __cordl_internal_get__scores() const;
 
-  constexpr void __set__scores(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>* value);
+  constexpr void __cordl_internal_set__scores(::System::Collections::Generic::List_1<::GlobalNamespace::__LeaderboardTableView__ScoreData*>* value);
 
-  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __get__difficultyBeatmap();
+  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __cordl_internal_get__difficultyBeatmap();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __get__difficultyBeatmap() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __cordl_internal_get__difficultyBeatmap() const;
 
-  constexpr void __set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
+  constexpr void __cordl_internal_set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
 
-  constexpr bool& __get__refreshIsNeeded();
+  constexpr bool& __cordl_internal_get__refreshIsNeeded();
 
-  constexpr bool const& __get__refreshIsNeeded() const;
+  constexpr bool const& __cordl_internal_get__refreshIsNeeded() const;
 
-  constexpr void __set__refreshIsNeeded(bool value);
+  constexpr void __cordl_internal_set__refreshIsNeeded(bool value);
 
-  constexpr bool& __get__hasScoresData();
+  constexpr bool& __cordl_internal_get__hasScoresData();
 
-  constexpr bool const& __get__hasScoresData() const;
+  constexpr bool const& __cordl_internal_get__hasScoresData() const;
 
-  constexpr void __set__hasScoresData(bool value);
+  constexpr void __cordl_internal_set__hasScoresData(bool value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope>*>& __get__scoreScopes();
+  constexpr ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope>*>& __cordl_internal_get__scoreScopes();
 
-  constexpr ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope>*> const& __get__scoreScopes() const;
+  constexpr ::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope>*> const&
+  __cordl_internal_get__scoreScopes() const;
 
-  constexpr void __set__scoreScopes(::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope>*> value);
+  constexpr void __cordl_internal_set__scoreScopes(::ArrayW<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope, ::Array<::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope>*> value);
 
   static inline void setStaticF__scoresScope(::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope value);
 
   static inline ::GlobalNamespace::__PlatformLeaderboardsModel__ScoresScope getStaticF__scoresScope();
 
   /// @brief Method get_leaderboardsModel, addr 0x22d2bcc, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PlatformLeaderboardsModel* get_leaderboardsModel();
+  inline ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> get_leaderboardsModel();
 
   /// @brief Method SetData, addr 0x22d2bd4, size 0x58, virtual true, abstract: false, final false
   inline void SetData(::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap);
@@ -555,31 +555,31 @@ protected:
 
 public:
   /// @brief Field _leaderboardTableView, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::LeaderboardTableView* ____leaderboardTableView;
+  ::UnityW<::GlobalNamespace::LeaderboardTableView> ____leaderboardTableView;
 
   /// @brief Field _scopeSegmentedControl, offset: 0x78, size: 0x8, def value: None
-  ::HMUI::IconSegmentedControl* ____scopeSegmentedControl;
+  ::UnityW<::HMUI::IconSegmentedControl> ____scopeSegmentedControl;
 
   /// @brief Field _loadingControl, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::LoadingControl* ____loadingControl;
+  ::UnityW<::GlobalNamespace::LoadingControl> ____loadingControl;
 
   /// @brief Field _globalLeaderboardIcon, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____globalLeaderboardIcon;
+  ::UnityW<::UnityEngine::Sprite> ____globalLeaderboardIcon;
 
   /// @brief Field _aroundPlayerLeaderboardIcon, offset: 0x90, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____aroundPlayerLeaderboardIcon;
+  ::UnityW<::UnityEngine::Sprite> ____aroundPlayerLeaderboardIcon;
 
   /// @brief Field _friendsLeaderboardIcon, offset: 0x98, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____friendsLeaderboardIcon;
+  ::UnityW<::UnityEngine::Sprite> ____friendsLeaderboardIcon;
 
   /// @brief Field _levelStatsView, offset: 0xa0, size: 0x8, def value: None
-  ::GlobalNamespace::LevelStatsView* ____levelStatsView;
+  ::UnityW<::GlobalNamespace::LevelStatsView> ____levelStatsView;
 
   /// @brief Field _leaderboardsModel, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::PlatformLeaderboardsModel* ____leaderboardsModel;
+  ::UnityW<::GlobalNamespace::PlatformLeaderboardsModel> ____leaderboardsModel;
 
   /// @brief Field _playerDataModel, offset: 0xb0, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _getScoresAsyncRequest, offset: 0xb8, size: 0x8, def value: None
   ::GlobalNamespace::HMAsyncRequest* ____getScoresAsyncRequest;

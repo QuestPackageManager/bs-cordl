@@ -46,56 +46,56 @@ MARK_REF_PTR_T(::System::Net::__ChunkedInputStream__ReadBufferState);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9153))
 // CS Name: ::ChunkedInputStream::ReadBufferState*
 class CORDL_TYPE __ChunkedInputStream__ReadBufferState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Buffer, offset 0x10, size 0x8
-  __declspec(property(get = __get_Buffer, put = __set_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
+  __declspec(property(get = __cordl_internal_get_Buffer, put = __cordl_internal_set_Buffer))::ArrayW<uint8_t, ::Array<uint8_t>*> Buffer;
 
   /// @brief Field Offset, offset 0x18, size 0x4
-  __declspec(property(get = __get_Offset, put = __set_Offset)) int32_t Offset;
+  __declspec(property(get = __cordl_internal_get_Offset, put = __cordl_internal_set_Offset)) int32_t Offset;
 
   /// @brief Field Count, offset 0x1c, size 0x4
-  __declspec(property(get = __get_Count, put = __set_Count)) int32_t Count;
+  __declspec(property(get = __cordl_internal_get_Count, put = __cordl_internal_set_Count)) int32_t Count;
 
   /// @brief Field InitialCount, offset 0x20, size 0x4
-  __declspec(property(get = __get_InitialCount, put = __set_InitialCount)) int32_t InitialCount;
+  __declspec(property(get = __cordl_internal_get_InitialCount, put = __cordl_internal_set_InitialCount)) int32_t InitialCount;
 
   /// @brief Field Ares, offset 0x28, size 0x8
-  __declspec(property(get = __get_Ares, put = __set_Ares))::System::Net::HttpStreamAsyncResult* Ares;
+  __declspec(property(get = __cordl_internal_get_Ares, put = __cordl_internal_set_Ares))::System::Net::HttpStreamAsyncResult* Ares;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_Buffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_Buffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_Buffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Buffer() const;
 
-  constexpr void __set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_Buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_Offset();
+  constexpr int32_t& __cordl_internal_get_Offset();
 
-  constexpr int32_t const& __get_Offset() const;
+  constexpr int32_t const& __cordl_internal_get_Offset() const;
 
-  constexpr void __set_Offset(int32_t value);
+  constexpr void __cordl_internal_set_Offset(int32_t value);
 
-  constexpr int32_t& __get_Count();
+  constexpr int32_t& __cordl_internal_get_Count();
 
-  constexpr int32_t const& __get_Count() const;
+  constexpr int32_t const& __cordl_internal_get_Count() const;
 
-  constexpr void __set_Count(int32_t value);
+  constexpr void __cordl_internal_set_Count(int32_t value);
 
-  constexpr int32_t& __get_InitialCount();
+  constexpr int32_t& __cordl_internal_get_InitialCount();
 
-  constexpr int32_t const& __get_InitialCount() const;
+  constexpr int32_t const& __cordl_internal_get_InitialCount() const;
 
-  constexpr void __set_InitialCount(int32_t value);
+  constexpr void __cordl_internal_set_InitialCount(int32_t value);
 
-  constexpr ::System::Net::HttpStreamAsyncResult*& __get_Ares();
+  constexpr ::System::Net::HttpStreamAsyncResult*& __cordl_internal_get_Ares();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpStreamAsyncResult*> const& __get_Ares() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpStreamAsyncResult*> const& __cordl_internal_get_Ares() const;
 
-  constexpr void __set_Ares(::System::Net::HttpStreamAsyncResult* value);
+  constexpr void __cordl_internal_set_Ares(::System::Net::HttpStreamAsyncResult* value);
 
   static inline ::System::Net::__ChunkedInputStream__ReadBufferState* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Net::HttpStreamAsyncResult* ares);
 
@@ -151,7 +151,7 @@ static_assert(offsetof(::System::Net::__ChunkedInputStream__ReadBufferState, ___
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 105, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9198))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9198))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9154))
 // CS Name: ::System.Net::ChunkedInputStream*
 class CORDL_TYPE ChunkedInputStream : public ::System::Net::RequestStream {
@@ -160,40 +160,40 @@ public:
   using ReadBufferState = ::System::Net::__ChunkedInputStream__ReadBufferState;
 
   /// @brief Field disposed, offset 0x50, size 0x1
-  __declspec(property(get = __get_disposed, put = __set_disposed)) bool disposed;
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field decoder, offset 0x58, size 0x8
-  __declspec(property(get = __get_decoder, put = __set_decoder))::System::Net::MonoChunkParser* decoder;
+  __declspec(property(get = __cordl_internal_get_decoder, put = __cordl_internal_set_decoder))::System::Net::MonoChunkParser* decoder;
 
   /// @brief Field context, offset 0x60, size 0x8
-  __declspec(property(get = __get_context, put = __set_context))::System::Net::HttpListenerContext* context;
+  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::System::Net::HttpListenerContext* context;
 
   /// @brief Field no_more_data, offset 0x68, size 0x1
-  __declspec(property(get = __get_no_more_data, put = __set_no_more_data)) bool no_more_data;
+  __declspec(property(get = __cordl_internal_get_no_more_data, put = __cordl_internal_set_no_more_data)) bool no_more_data;
 
-  constexpr bool& __get_disposed();
+  constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr bool const& __get_disposed() const;
+  constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __set_disposed(bool value);
+  constexpr void __cordl_internal_set_disposed(bool value);
 
-  constexpr ::System::Net::MonoChunkParser*& __get_decoder();
+  constexpr ::System::Net::MonoChunkParser*& __cordl_internal_get_decoder();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::MonoChunkParser*> const& __get_decoder() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::MonoChunkParser*> const& __cordl_internal_get_decoder() const;
 
-  constexpr void __set_decoder(::System::Net::MonoChunkParser* value);
+  constexpr void __cordl_internal_set_decoder(::System::Net::MonoChunkParser* value);
 
-  constexpr ::System::Net::HttpListenerContext*& __get_context();
+  constexpr ::System::Net::HttpListenerContext*& __cordl_internal_get_context();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerContext*> const& __get_context() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerContext*> const& __cordl_internal_get_context() const;
 
-  constexpr void __set_context(::System::Net::HttpListenerContext* value);
+  constexpr void __cordl_internal_set_context(::System::Net::HttpListenerContext* value);
 
-  constexpr bool& __get_no_more_data();
+  constexpr bool& __cordl_internal_get_no_more_data();
 
-  constexpr bool const& __get_no_more_data() const;
+  constexpr bool const& __cordl_internal_get_no_more_data() const;
 
-  constexpr void __set_no_more_data(bool value);
+  constexpr void __cordl_internal_set_no_more_data(bool value);
 
   static inline ::System::Net::ChunkedInputStream* New_ctor(::System::Net::HttpListenerContext* context, ::System::IO::Stream* stream, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset,
                                                             int32_t length);

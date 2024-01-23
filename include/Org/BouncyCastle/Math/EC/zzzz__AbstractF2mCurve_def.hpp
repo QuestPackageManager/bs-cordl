@@ -31,22 +31,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::AbstractF2mCurve);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1361))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1361))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1443))
 // CS Name: ::Org.BouncyCastle.Math.EC::AbstractF2mCurve*
 class CORDL_TYPE AbstractF2mCurve : public ::Org::BouncyCastle::Math::EC::ECCurve {
 public:
   // Declarations
   /// @brief Field si, offset 0x50, size 0x8
-  __declspec(property(get = __get_si, put = __set_si))::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> si;
+  __declspec(property(get = __cordl_internal_get_si, put = __cordl_internal_set_si))::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> si;
 
   __declspec(property(get = get_IsKoblitz)) bool IsKoblitz;
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>& __get_si();
+  constexpr ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*>& __cordl_internal_get_si();
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> const& __get_si() const;
+  constexpr ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> const& __cordl_internal_get_si() const;
 
-  constexpr void __set_si(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> value);
+  constexpr void __cordl_internal_set_si(::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> value);
 
   /// @brief Method Inverse, addr 0x1002888, size 0x8c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* Inverse(int32_t m, ::ArrayW<int32_t, ::Array<int32_t>*> ks, ::Org::BouncyCastle::Math::BigInteger* x);

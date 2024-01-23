@@ -71,7 +71,7 @@ MARK_VAL_T(::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyLimit);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14428))
 // CS Name: ::PSVR2Helper::HeadsetHapticFrequencyLimit
 struct CORDL_TYPE __PSVR2Helper__HeadsetHapticFrequencyLimit {
@@ -110,7 +110,7 @@ static_assert(offsetof(::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyL
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10057))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14429))
 // CS Name: ::PSVR2Helper*
 class CORDL_TYPE PSVR2Helper : public ::UnityEngine::MonoBehaviour {
@@ -119,61 +119,64 @@ public:
   using HeadsetHapticFrequencyLimit = ::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyLimit;
 
   /// @brief Field _leftController, offset 0x18, size 0x8
-  __declspec(property(get = __get__leftController, put = __set__leftController))::GlobalNamespace::__UnityXRController__Configuration* _leftController;
+  __declspec(property(get = __cordl_internal_get__leftController, put = __cordl_internal_set__leftController))::GlobalNamespace::__UnityXRController__Configuration* _leftController;
 
   /// @brief Field _rightController, offset 0x20, size 0x8
-  __declspec(property(get = __get__rightController, put = __set__rightController))::GlobalNamespace::__UnityXRController__Configuration* _rightController;
+  __declspec(property(get = __cordl_internal_get__rightController, put = __cordl_internal_set__rightController))::GlobalNamespace::__UnityXRController__Configuration* _rightController;
 
   /// @brief Field _defaultPose, offset 0x28, size 0x1c
-  __declspec(property(get = __get__defaultPose, put = __set__defaultPose))::UnityEngine::Pose _defaultPose;
+  __declspec(property(get = __cordl_internal_get__defaultPose, put = __cordl_internal_set__defaultPose))::UnityEngine::Pose _defaultPose;
 
   /// @brief Field _controllers, offset 0x48, size 0x8
-  __declspec(property(get = __get__controllers, put = __set__controllers))::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::GlobalNamespace::UnityXRController*>* _controllers;
+  __declspec(property(get = __cordl_internal_get__controllers,
+                      put = __cordl_internal_set__controllers))::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::GlobalNamespace::UnityXRController*>* _controllers;
 
   /// @brief Field _controllersWithRumble, offset 0x50, size 0x8
-  __declspec(property(
-      get = __get__controllersWithRumble,
-      put = __set__controllersWithRumble))::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::UnityEngine::InputSystem::XR::XRControllerWithRumble*>* _controllersWithRumble;
+  __declspec(property(get = __cordl_internal_get__controllersWithRumble,
+                      put = __cordl_internal_set__controllersWithRumble))::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode,
+                                                                                                                      ::UnityEngine::InputSystem::XR::XRControllerWithRumble*>* _controllersWithRumble;
 
   /// @brief Field _timeWhenStartedPlayingHaptic, offset 0x58, size 0x4
-  __declspec(property(get = __get__timeWhenStartedPlayingHaptic, put = __set__timeWhenStartedPlayingHaptic)) float_t _timeWhenStartedPlayingHaptic;
+  __declspec(property(get = __cordl_internal_get__timeWhenStartedPlayingHaptic, put = __cordl_internal_set__timeWhenStartedPlayingHaptic)) float_t _timeWhenStartedPlayingHaptic;
 
   /// @brief Field _lastTimeWhenTriggeredHaptic, offset 0x5c, size 0x4
-  __declspec(property(get = __get__lastTimeWhenTriggeredHaptic, put = __set__lastTimeWhenTriggeredHaptic)) float_t _lastTimeWhenTriggeredHaptic;
+  __declspec(property(get = __cordl_internal_get__lastTimeWhenTriggeredHaptic, put = __cordl_internal_set__lastTimeWhenTriggeredHaptic)) float_t _lastTimeWhenTriggeredHaptic;
 
   /// @brief Field _hasInputFocus, offset 0x60, size 0x1
-  __declspec(property(get = __get__hasInputFocus, put = __set__hasInputFocus)) bool _hasInputFocus;
+  __declspec(property(get = __cordl_internal_get__hasInputFocus, put = __cordl_internal_set__hasInputFocus)) bool _hasInputFocus;
 
   /// @brief Field _maximumHapticFrequencyLimits, offset 0x68, size 0x8
-  __declspec(property(get = __get__maximumHapticFrequencyLimits,
-                      put = __set__maximumHapticFrequencyLimits))::System::Collections::Generic::List_1<::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyLimit>* _maximumHapticFrequencyLimits;
+  __declspec(property(
+      get = __cordl_internal_get__maximumHapticFrequencyLimits,
+      put = __cordl_internal_set__maximumHapticFrequencyLimits))::System::Collections::Generic::List_1<::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyLimit>* _maximumHapticFrequencyLimits;
 
   /// @brief Field controllersDidChangeReferenceEvent, offset 0x70, size 0x8
-  __declspec(property(get = __get_controllersDidChangeReferenceEvent, put = __set_controllersDidChangeReferenceEvent))::System::Action* controllersDidChangeReferenceEvent;
+  __declspec(property(get = __cordl_internal_get_controllersDidChangeReferenceEvent,
+                      put = __cordl_internal_set_controllersDidChangeReferenceEvent))::System::Action* controllersDidChangeReferenceEvent;
 
   /// @brief Field _hasVrFocus, offset 0x78, size 0x1
-  __declspec(property(get = __get__hasVrFocus, put = __set__hasVrFocus)) bool _hasVrFocus;
+  __declspec(property(get = __cordl_internal_get__hasVrFocus, put = __cordl_internal_set__hasVrFocus)) bool _hasVrFocus;
 
   /// @brief Field inputFocusWasCapturedEvent, offset 0x80, size 0x8
-  __declspec(property(get = __get_inputFocusWasCapturedEvent, put = __set_inputFocusWasCapturedEvent))::System::Action* inputFocusWasCapturedEvent;
+  __declspec(property(get = __cordl_internal_get_inputFocusWasCapturedEvent, put = __cordl_internal_set_inputFocusWasCapturedEvent))::System::Action* inputFocusWasCapturedEvent;
 
   /// @brief Field inputFocusWasReleasedEvent, offset 0x88, size 0x8
-  __declspec(property(get = __get_inputFocusWasReleasedEvent, put = __set_inputFocusWasReleasedEvent))::System::Action* inputFocusWasReleasedEvent;
+  __declspec(property(get = __cordl_internal_get_inputFocusWasReleasedEvent, put = __cordl_internal_set_inputFocusWasReleasedEvent))::System::Action* inputFocusWasReleasedEvent;
 
   /// @brief Field vrFocusWasCapturedEvent, offset 0x90, size 0x8
-  __declspec(property(get = __get_vrFocusWasCapturedEvent, put = __set_vrFocusWasCapturedEvent))::System::Action* vrFocusWasCapturedEvent;
+  __declspec(property(get = __cordl_internal_get_vrFocusWasCapturedEvent, put = __cordl_internal_set_vrFocusWasCapturedEvent))::System::Action* vrFocusWasCapturedEvent;
 
   /// @brief Field vrFocusWasReleasedEvent, offset 0x98, size 0x8
-  __declspec(property(get = __get_vrFocusWasReleasedEvent, put = __set_vrFocusWasReleasedEvent))::System::Action* vrFocusWasReleasedEvent;
+  __declspec(property(get = __cordl_internal_get_vrFocusWasReleasedEvent, put = __cordl_internal_set_vrFocusWasReleasedEvent))::System::Action* vrFocusWasReleasedEvent;
 
   /// @brief Field hmdUnmountedEvent, offset 0xa0, size 0x8
-  __declspec(property(get = __get_hmdUnmountedEvent, put = __set_hmdUnmountedEvent))::System::Action* hmdUnmountedEvent;
+  __declspec(property(get = __cordl_internal_get_hmdUnmountedEvent, put = __cordl_internal_set_hmdUnmountedEvent))::System::Action* hmdUnmountedEvent;
 
   /// @brief Field hmdMountedEvent, offset 0xa8, size 0x8
-  __declspec(property(get = __get_hmdMountedEvent, put = __set_hmdMountedEvent))::System::Action* hmdMountedEvent;
+  __declspec(property(get = __cordl_internal_get_hmdMountedEvent, put = __cordl_internal_set_hmdMountedEvent))::System::Action* hmdMountedEvent;
 
   /// @brief Field controllersDidDisconnectEvent, offset 0xb0, size 0x8
-  __declspec(property(get = __get_controllersDidDisconnectEvent, put = __set_controllersDidDisconnectEvent))::System::Action* controllersDidDisconnectEvent;
+  __declspec(property(get = __cordl_internal_get_controllersDidDisconnectEvent, put = __cordl_internal_set_controllersDidDisconnectEvent))::System::Action* controllersDidDisconnectEvent;
 
   __declspec(property(get = get_hasInputFocus)) bool hasInputFocus;
 
@@ -189,115 +192,116 @@ public:
   /// @brief Convert to "::GlobalNamespace::IVRPlatformHelper"
   constexpr ::GlobalNamespace::IVRPlatformHelper* i___GlobalNamespace__IVRPlatformHelper() noexcept;
 
-  constexpr ::GlobalNamespace::__UnityXRController__Configuration*& __get__leftController();
+  constexpr ::GlobalNamespace::__UnityXRController__Configuration*& __cordl_internal_get__leftController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityXRController__Configuration*> const& __get__leftController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityXRController__Configuration*> const& __cordl_internal_get__leftController() const;
 
-  constexpr void __set__leftController(::GlobalNamespace::__UnityXRController__Configuration* value);
+  constexpr void __cordl_internal_set__leftController(::GlobalNamespace::__UnityXRController__Configuration* value);
 
-  constexpr ::GlobalNamespace::__UnityXRController__Configuration*& __get__rightController();
+  constexpr ::GlobalNamespace::__UnityXRController__Configuration*& __cordl_internal_get__rightController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityXRController__Configuration*> const& __get__rightController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__UnityXRController__Configuration*> const& __cordl_internal_get__rightController() const;
 
-  constexpr void __set__rightController(::GlobalNamespace::__UnityXRController__Configuration* value);
+  constexpr void __cordl_internal_set__rightController(::GlobalNamespace::__UnityXRController__Configuration* value);
 
-  constexpr ::UnityEngine::Pose& __get__defaultPose();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get__defaultPose();
 
-  constexpr ::UnityEngine::Pose const& __get__defaultPose() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get__defaultPose() const;
 
-  constexpr void __set__defaultPose(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set__defaultPose(::UnityEngine::Pose value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::GlobalNamespace::UnityXRController*>*& __get__controllers();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::GlobalNamespace::UnityXRController*>*& __cordl_internal_get__controllers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::GlobalNamespace::UnityXRController*>*> const& __get__controllers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::GlobalNamespace::UnityXRController*>*> const&
+  __cordl_internal_get__controllers() const;
 
-  constexpr void __set__controllers(::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::GlobalNamespace::UnityXRController*>* value);
+  constexpr void __cordl_internal_set__controllers(::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::GlobalNamespace::UnityXRController*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::UnityEngine::InputSystem::XR::XRControllerWithRumble*>*& __get__controllersWithRumble();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::UnityEngine::InputSystem::XR::XRControllerWithRumble*>*& __cordl_internal_get__controllersWithRumble();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::UnityEngine::InputSystem::XR::XRControllerWithRumble*>*> const&
-  __get__controllersWithRumble() const;
+  __cordl_internal_get__controllersWithRumble() const;
 
-  constexpr void __set__controllersWithRumble(::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::UnityEngine::InputSystem::XR::XRControllerWithRumble*>* value);
+  constexpr void __cordl_internal_set__controllersWithRumble(::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode, ::UnityEngine::InputSystem::XR::XRControllerWithRumble*>* value);
 
-  constexpr float_t& __get__timeWhenStartedPlayingHaptic();
+  constexpr float_t& __cordl_internal_get__timeWhenStartedPlayingHaptic();
 
-  constexpr float_t const& __get__timeWhenStartedPlayingHaptic() const;
+  constexpr float_t const& __cordl_internal_get__timeWhenStartedPlayingHaptic() const;
 
-  constexpr void __set__timeWhenStartedPlayingHaptic(float_t value);
+  constexpr void __cordl_internal_set__timeWhenStartedPlayingHaptic(float_t value);
 
-  constexpr float_t& __get__lastTimeWhenTriggeredHaptic();
+  constexpr float_t& __cordl_internal_get__lastTimeWhenTriggeredHaptic();
 
-  constexpr float_t const& __get__lastTimeWhenTriggeredHaptic() const;
+  constexpr float_t const& __cordl_internal_get__lastTimeWhenTriggeredHaptic() const;
 
-  constexpr void __set__lastTimeWhenTriggeredHaptic(float_t value);
+  constexpr void __cordl_internal_set__lastTimeWhenTriggeredHaptic(float_t value);
 
-  constexpr bool& __get__hasInputFocus();
+  constexpr bool& __cordl_internal_get__hasInputFocus();
 
-  constexpr bool const& __get__hasInputFocus() const;
+  constexpr bool const& __cordl_internal_get__hasInputFocus() const;
 
-  constexpr void __set__hasInputFocus(bool value);
+  constexpr void __cordl_internal_set__hasInputFocus(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyLimit>*& __get__maximumHapticFrequencyLimits();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyLimit>*& __cordl_internal_get__maximumHapticFrequencyLimits();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyLimit>*> const&
-  __get__maximumHapticFrequencyLimits() const;
+  __cordl_internal_get__maximumHapticFrequencyLimits() const;
 
-  constexpr void __set__maximumHapticFrequencyLimits(::System::Collections::Generic::List_1<::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyLimit>* value);
+  constexpr void __cordl_internal_set__maximumHapticFrequencyLimits(::System::Collections::Generic::List_1<::GlobalNamespace::__PSVR2Helper__HeadsetHapticFrequencyLimit>* value);
 
-  constexpr ::System::Action*& __get_controllersDidChangeReferenceEvent();
+  constexpr ::System::Action*& __cordl_internal_get_controllersDidChangeReferenceEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_controllersDidChangeReferenceEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_controllersDidChangeReferenceEvent() const;
 
-  constexpr void __set_controllersDidChangeReferenceEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_controllersDidChangeReferenceEvent(::System::Action* value);
 
-  constexpr bool& __get__hasVrFocus();
+  constexpr bool& __cordl_internal_get__hasVrFocus();
 
-  constexpr bool const& __get__hasVrFocus() const;
+  constexpr bool const& __cordl_internal_get__hasVrFocus() const;
 
-  constexpr void __set__hasVrFocus(bool value);
+  constexpr void __cordl_internal_set__hasVrFocus(bool value);
 
-  constexpr ::System::Action*& __get_inputFocusWasCapturedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_inputFocusWasCapturedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_inputFocusWasCapturedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_inputFocusWasCapturedEvent() const;
 
-  constexpr void __set_inputFocusWasCapturedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_inputFocusWasCapturedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_inputFocusWasReleasedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_inputFocusWasReleasedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_inputFocusWasReleasedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_inputFocusWasReleasedEvent() const;
 
-  constexpr void __set_inputFocusWasReleasedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_inputFocusWasReleasedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_vrFocusWasCapturedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_vrFocusWasCapturedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_vrFocusWasCapturedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_vrFocusWasCapturedEvent() const;
 
-  constexpr void __set_vrFocusWasCapturedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_vrFocusWasCapturedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_vrFocusWasReleasedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_vrFocusWasReleasedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_vrFocusWasReleasedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_vrFocusWasReleasedEvent() const;
 
-  constexpr void __set_vrFocusWasReleasedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_vrFocusWasReleasedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_hmdUnmountedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_hmdUnmountedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_hmdUnmountedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_hmdUnmountedEvent() const;
 
-  constexpr void __set_hmdUnmountedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_hmdUnmountedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_hmdMountedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_hmdMountedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_hmdMountedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_hmdMountedEvent() const;
 
-  constexpr void __set_hmdMountedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_hmdMountedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_controllersDidDisconnectEvent();
+  constexpr ::System::Action*& __cordl_internal_get_controllersDidDisconnectEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_controllersDidDisconnectEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_controllersDidDisconnectEvent() const;
 
-  constexpr void __set_controllersDidDisconnectEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_controllersDidDisconnectEvent(::System::Action* value);
 
   /// @brief Method add_controllersDidChangeReferenceEvent, addr 0x20fa108, size 0x9c, virtual true, abstract: false, final true
   inline void add_controllersDidChangeReferenceEvent(::System::Action* value);

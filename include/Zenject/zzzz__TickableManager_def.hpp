@@ -83,20 +83,20 @@ MARK_REF_PTR_T(::Zenject::__TickableManager____c__DisplayClass19_0);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11341))
 // CS Name: ::TickableManager::<>c__DisplayClass17_0*
 class CORDL_TYPE __TickableManager____c__DisplayClass17_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tickable, offset 0x10, size 0x8
-  __declspec(property(get = __get_tickable, put = __set_tickable))::Zenject::IFixedTickable* tickable;
+  __declspec(property(get = __cordl_internal_get_tickable, put = __cordl_internal_set_tickable))::Zenject::IFixedTickable* tickable;
 
-  constexpr ::Zenject::IFixedTickable*& __get_tickable();
+  constexpr ::Zenject::IFixedTickable*& __cordl_internal_get_tickable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IFixedTickable*> const& __get_tickable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IFixedTickable*> const& __cordl_internal_get_tickable() const;
 
-  constexpr void __set_tickable(::Zenject::IFixedTickable* value);
+  constexpr void __cordl_internal_set_tickable(::Zenject::IFixedTickable* value);
 
   static inline ::Zenject::__TickableManager____c__DisplayClass17_0* New_ctor();
 
@@ -141,7 +141,7 @@ static_assert(offsetof(::Zenject::__TickableManager____c__DisplayClass17_0, ___t
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11342))
 // CS Name: ::TickableManager::<>c*
 class CORDL_TYPE __TickableManager____c : public ::System::Object {
@@ -249,20 +249,20 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__TickableManager____c,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11343))
 // CS Name: ::TickableManager::<>c__DisplayClass18_0*
 class CORDL_TYPE __TickableManager____c__DisplayClass18_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tickable, offset 0x10, size 0x8
-  __declspec(property(get = __get_tickable, put = __set_tickable))::Zenject::ITickable* tickable;
+  __declspec(property(get = __cordl_internal_get_tickable, put = __cordl_internal_set_tickable))::Zenject::ITickable* tickable;
 
-  constexpr ::Zenject::ITickable*& __get_tickable();
+  constexpr ::Zenject::ITickable*& __cordl_internal_get_tickable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::ITickable*> const& __get_tickable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::ITickable*> const& __cordl_internal_get_tickable() const;
 
-  constexpr void __set_tickable(::Zenject::ITickable* value);
+  constexpr void __cordl_internal_set_tickable(::Zenject::ITickable* value);
 
   static inline ::Zenject::__TickableManager____c__DisplayClass18_0* New_ctor();
 
@@ -307,20 +307,20 @@ static_assert(offsetof(::Zenject::__TickableManager____c__DisplayClass18_0, ___t
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11344))
 // CS Name: ::TickableManager::<>c__DisplayClass19_0*
 class CORDL_TYPE __TickableManager____c__DisplayClass19_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tickable, offset 0x10, size 0x8
-  __declspec(property(get = __get_tickable, put = __set_tickable))::Zenject::ILateTickable* tickable;
+  __declspec(property(get = __cordl_internal_get_tickable, put = __cordl_internal_set_tickable))::Zenject::ILateTickable* tickable;
 
-  constexpr ::Zenject::ILateTickable*& __get_tickable();
+  constexpr ::Zenject::ILateTickable*& __cordl_internal_get_tickable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::ILateTickable*> const& __get_tickable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::ILateTickable*> const& __cordl_internal_get_tickable() const;
 
-  constexpr void __set_tickable(::Zenject::ILateTickable* value);
+  constexpr void __cordl_internal_set_tickable(::Zenject::ILateTickable* value);
 
   static inline ::Zenject::__TickableManager____c__DisplayClass19_0* New_ctor();
 
@@ -365,7 +365,7 @@ static_assert(offsetof(::Zenject::__TickableManager____c__DisplayClass19_0, ___t
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11345))
 // CS Name: ::Zenject::TickableManager*
 class CORDL_TYPE TickableManager : public ::System::Object {
@@ -380,98 +380,103 @@ public:
   using __c__DisplayClass17_0 = ::Zenject::__TickableManager____c__DisplayClass17_0;
 
   /// @brief Field _tickables, offset 0x10, size 0x8
-  __declspec(property(get = __get__tickables, put = __set__tickables))::System::Collections::Generic::List_1<::Zenject::ITickable*>* _tickables;
+  __declspec(property(get = __cordl_internal_get__tickables, put = __cordl_internal_set__tickables))::System::Collections::Generic::List_1<::Zenject::ITickable*>* _tickables;
 
   /// @brief Field _fixedTickables, offset 0x18, size 0x8
-  __declspec(property(get = __get__fixedTickables, put = __set__fixedTickables))::System::Collections::Generic::List_1<::Zenject::IFixedTickable*>* _fixedTickables;
+  __declspec(property(get = __cordl_internal_get__fixedTickables, put = __cordl_internal_set__fixedTickables))::System::Collections::Generic::List_1<::Zenject::IFixedTickable*>* _fixedTickables;
 
   /// @brief Field _lateTickables, offset 0x20, size 0x8
-  __declspec(property(get = __get__lateTickables, put = __set__lateTickables))::System::Collections::Generic::List_1<::Zenject::ILateTickable*>* _lateTickables;
+  __declspec(property(get = __cordl_internal_get__lateTickables, put = __cordl_internal_set__lateTickables))::System::Collections::Generic::List_1<::Zenject::ILateTickable*>* _lateTickables;
 
   /// @brief Field _priorities, offset 0x28, size 0x8
-  __declspec(property(get = __get__priorities, put = __set__priorities))::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* _priorities;
+  __declspec(property(get = __cordl_internal_get__priorities,
+                      put = __cordl_internal_set__priorities))::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* _priorities;
 
   /// @brief Field _fixedPriorities, offset 0x30, size 0x8
-  __declspec(property(get = __get__fixedPriorities, put = __set__fixedPriorities))::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* _fixedPriorities;
+  __declspec(property(get = __cordl_internal_get__fixedPriorities,
+                      put = __cordl_internal_set__fixedPriorities))::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* _fixedPriorities;
 
   /// @brief Field _latePriorities, offset 0x38, size 0x8
-  __declspec(property(get = __get__latePriorities, put = __set__latePriorities))::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* _latePriorities;
+  __declspec(property(get = __cordl_internal_get__latePriorities,
+                      put = __cordl_internal_set__latePriorities))::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* _latePriorities;
 
   /// @brief Field _updater, offset 0x40, size 0x8
-  __declspec(property(get = __get__updater, put = __set__updater))::Zenject::TickablesTaskUpdater* _updater;
+  __declspec(property(get = __cordl_internal_get__updater, put = __cordl_internal_set__updater))::Zenject::TickablesTaskUpdater* _updater;
 
   /// @brief Field _fixedUpdater, offset 0x48, size 0x8
-  __declspec(property(get = __get__fixedUpdater, put = __set__fixedUpdater))::Zenject::FixedTickablesTaskUpdater* _fixedUpdater;
+  __declspec(property(get = __cordl_internal_get__fixedUpdater, put = __cordl_internal_set__fixedUpdater))::Zenject::FixedTickablesTaskUpdater* _fixedUpdater;
 
   /// @brief Field _lateUpdater, offset 0x50, size 0x8
-  __declspec(property(get = __get__lateUpdater, put = __set__lateUpdater))::Zenject::LateTickablesTaskUpdater* _lateUpdater;
+  __declspec(property(get = __cordl_internal_get__lateUpdater, put = __cordl_internal_set__lateUpdater))::Zenject::LateTickablesTaskUpdater* _lateUpdater;
 
   /// @brief Field _isPaused, offset 0x58, size 0x1
-  __declspec(property(get = __get__isPaused, put = __set__isPaused)) bool _isPaused;
+  __declspec(property(get = __cordl_internal_get__isPaused, put = __cordl_internal_set__isPaused)) bool _isPaused;
 
   __declspec(property(get = get_Tickables))::System::Collections::Generic::IEnumerable_1<::Zenject::ITickable*>* Tickables;
 
   __declspec(property(get = get_IsPaused, put = set_IsPaused)) bool IsPaused;
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::ITickable*>*& __get__tickables();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::ITickable*>*& __cordl_internal_get__tickables();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::ITickable*>*> const& __get__tickables() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::ITickable*>*> const& __cordl_internal_get__tickables() const;
 
-  constexpr void __set__tickables(::System::Collections::Generic::List_1<::Zenject::ITickable*>* value);
+  constexpr void __cordl_internal_set__tickables(::System::Collections::Generic::List_1<::Zenject::ITickable*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::IFixedTickable*>*& __get__fixedTickables();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::IFixedTickable*>*& __cordl_internal_get__fixedTickables();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IFixedTickable*>*> const& __get__fixedTickables() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IFixedTickable*>*> const& __cordl_internal_get__fixedTickables() const;
 
-  constexpr void __set__fixedTickables(::System::Collections::Generic::List_1<::Zenject::IFixedTickable*>* value);
+  constexpr void __cordl_internal_set__fixedTickables(::System::Collections::Generic::List_1<::Zenject::IFixedTickable*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::ILateTickable*>*& __get__lateTickables();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::ILateTickable*>*& __cordl_internal_get__lateTickables();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::ILateTickable*>*> const& __get__lateTickables() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::ILateTickable*>*> const& __cordl_internal_get__lateTickables() const;
 
-  constexpr void __set__lateTickables(::System::Collections::Generic::List_1<::Zenject::ILateTickable*>* value);
+  constexpr void __cordl_internal_set__lateTickables(::System::Collections::Generic::List_1<::Zenject::ILateTickable*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*& __get__priorities();
+  constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*& __cordl_internal_get__priorities();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*> const& __get__priorities() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*> const& __cordl_internal_get__priorities() const;
 
-  constexpr void __set__priorities(::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* value);
+  constexpr void __cordl_internal_set__priorities(::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*& __get__fixedPriorities();
+  constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*& __cordl_internal_get__fixedPriorities();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*> const& __get__fixedPriorities() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*> const&
+  __cordl_internal_get__fixedPriorities() const;
 
-  constexpr void __set__fixedPriorities(::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* value);
+  constexpr void __cordl_internal_set__fixedPriorities(::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*& __get__latePriorities();
+  constexpr ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*& __cordl_internal_get__latePriorities();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*> const& __get__latePriorities() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*> const&
+  __cordl_internal_get__latePriorities() const;
 
-  constexpr void __set__latePriorities(::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* value);
+  constexpr void __cordl_internal_set__latePriorities(::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* value);
 
-  constexpr ::Zenject::TickablesTaskUpdater*& __get__updater();
+  constexpr ::Zenject::TickablesTaskUpdater*& __cordl_internal_get__updater();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::TickablesTaskUpdater*> const& __get__updater() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::TickablesTaskUpdater*> const& __cordl_internal_get__updater() const;
 
-  constexpr void __set__updater(::Zenject::TickablesTaskUpdater* value);
+  constexpr void __cordl_internal_set__updater(::Zenject::TickablesTaskUpdater* value);
 
-  constexpr ::Zenject::FixedTickablesTaskUpdater*& __get__fixedUpdater();
+  constexpr ::Zenject::FixedTickablesTaskUpdater*& __cordl_internal_get__fixedUpdater();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::FixedTickablesTaskUpdater*> const& __get__fixedUpdater() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::FixedTickablesTaskUpdater*> const& __cordl_internal_get__fixedUpdater() const;
 
-  constexpr void __set__fixedUpdater(::Zenject::FixedTickablesTaskUpdater* value);
+  constexpr void __cordl_internal_set__fixedUpdater(::Zenject::FixedTickablesTaskUpdater* value);
 
-  constexpr ::Zenject::LateTickablesTaskUpdater*& __get__lateUpdater();
+  constexpr ::Zenject::LateTickablesTaskUpdater*& __cordl_internal_get__lateUpdater();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::LateTickablesTaskUpdater*> const& __get__lateUpdater() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::LateTickablesTaskUpdater*> const& __cordl_internal_get__lateUpdater() const;
 
-  constexpr void __set__lateUpdater(::Zenject::LateTickablesTaskUpdater* value);
+  constexpr void __cordl_internal_set__lateUpdater(::Zenject::LateTickablesTaskUpdater* value);
 
-  constexpr bool& __get__isPaused();
+  constexpr bool& __cordl_internal_get__isPaused();
 
-  constexpr bool const& __get__isPaused() const;
+  constexpr bool const& __cordl_internal_get__isPaused() const;
 
-  constexpr void __set__isPaused(bool value);
+  constexpr void __cordl_internal_set__isPaused(bool value);
 
   static inline ::Zenject::TickableManager* New_ctor();
 

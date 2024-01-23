@@ -21,31 +21,31 @@ MARK_REF_PTR_T(::GlobalNamespace::MultipliedColorSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(16207))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(16207))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16209))
 // CS Name: ::MultipliedColorSO*
 class CORDL_TYPE MultipliedColorSO : public ::GlobalNamespace::ColorSO {
 public:
   // Declarations
   /// @brief Field _baseColor, offset 0x18, size 0x8
-  __declspec(property(get = __get__baseColor, put = __set__baseColor))::GlobalNamespace::SimpleColorSO* _baseColor;
+  __declspec(property(get = __cordl_internal_get__baseColor, put = __cordl_internal_set__baseColor))::UnityW<::GlobalNamespace::SimpleColorSO> _baseColor;
 
   /// @brief Field _multiplierColor, offset 0x20, size 0x10
-  __declspec(property(get = __get__multiplierColor, put = __set__multiplierColor))::UnityEngine::Color _multiplierColor;
+  __declspec(property(get = __cordl_internal_get__multiplierColor, put = __cordl_internal_set__multiplierColor))::UnityEngine::Color _multiplierColor;
 
   __declspec(property(get = get_color))::UnityEngine::Color color;
 
-  constexpr ::GlobalNamespace::SimpleColorSO*& __get__baseColor();
+  constexpr ::UnityW<::GlobalNamespace::SimpleColorSO>& __cordl_internal_get__baseColor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SimpleColorSO*> const& __get__baseColor() const;
+  constexpr ::UnityW<::GlobalNamespace::SimpleColorSO> const& __cordl_internal_get__baseColor() const;
 
-  constexpr void __set__baseColor(::GlobalNamespace::SimpleColorSO* value);
+  constexpr void __cordl_internal_set__baseColor(::UnityW<::GlobalNamespace::SimpleColorSO> value);
 
-  constexpr ::UnityEngine::Color& __get__multiplierColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__multiplierColor();
 
-  constexpr ::UnityEngine::Color const& __get__multiplierColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__multiplierColor() const;
 
-  constexpr void __set__multiplierColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__multiplierColor(::UnityEngine::Color value);
 
   /// @brief Method get_color, addr 0x122d948, size 0x50, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();
@@ -70,7 +70,7 @@ protected:
 
 public:
   /// @brief Field _baseColor, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::SimpleColorSO* ____baseColor;
+  ::UnityW<::GlobalNamespace::SimpleColorSO> ____baseColor;
 
   /// @brief Field _multiplierColor, offset: 0x20, size: 0x10, def value: None
   ::UnityEngine::Color ____multiplierColor;

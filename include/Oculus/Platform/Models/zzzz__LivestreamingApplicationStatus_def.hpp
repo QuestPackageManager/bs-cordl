@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LivestreamingApplicationStatus);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13453))
 // CS Name: ::Oculus.Platform.Models::LivestreamingApplicationStatus*
 class CORDL_TYPE LivestreamingApplicationStatus : public ::System::Object {
 public:
   // Declarations
   /// @brief Field StreamingEnabled, offset 0x10, size 0x1
-  __declspec(property(get = __get_StreamingEnabled, put = __set_StreamingEnabled)) bool StreamingEnabled;
+  __declspec(property(get = __cordl_internal_get_StreamingEnabled, put = __cordl_internal_set_StreamingEnabled)) bool StreamingEnabled;
 
-  constexpr bool& __get_StreamingEnabled();
+  constexpr bool& __cordl_internal_get_StreamingEnabled();
 
-  constexpr bool const& __get_StreamingEnabled() const;
+  constexpr bool const& __cordl_internal_get_StreamingEnabled() const;
 
-  constexpr void __set_StreamingEnabled(bool value);
+  constexpr void __cordl_internal_set_StreamingEnabled(bool value);
 
   static inline ::Oculus::Platform::Models::LivestreamingApplicationStatus* New_ctor(void* o);
 

@@ -23,18 +23,18 @@ MARK_REF_PTR_T(::System::Security::Cryptography::AsymmetricAlgorithm);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2918))
 // CS Name: ::System.Security.Cryptography::AsymmetricAlgorithm*
 class CORDL_TYPE AsymmetricAlgorithm : public ::System::Object {
 public:
   // Declarations
   /// @brief Field KeySizeValue, offset 0x10, size 0x4
-  __declspec(property(get = __get_KeySizeValue, put = __set_KeySizeValue)) int32_t KeySizeValue;
+  __declspec(property(get = __cordl_internal_get_KeySizeValue, put = __cordl_internal_set_KeySizeValue)) int32_t KeySizeValue;
 
   /// @brief Field LegalKeySizesValue, offset 0x18, size 0x8
-  __declspec(property(get = __get_LegalKeySizesValue,
-                      put = __set_LegalKeySizesValue))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> LegalKeySizesValue;
+  __declspec(property(get = __cordl_internal_get_LegalKeySizesValue,
+                      put = __cordl_internal_set_LegalKeySizesValue))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> LegalKeySizesValue;
 
   __declspec(property(get = get_KeySize, put = set_KeySize)) int32_t KeySize;
 
@@ -44,17 +44,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get_KeySizeValue();
+  constexpr int32_t& __cordl_internal_get_KeySizeValue();
 
-  constexpr int32_t const& __get_KeySizeValue() const;
+  constexpr int32_t const& __cordl_internal_get_KeySizeValue() const;
 
-  constexpr void __set_KeySizeValue(int32_t value);
+  constexpr void __cordl_internal_set_KeySizeValue(int32_t value);
 
-  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>& __get_LegalKeySizesValue();
+  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>& __cordl_internal_get_LegalKeySizesValue();
 
-  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> const& __get_LegalKeySizesValue() const;
+  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> const& __cordl_internal_get_LegalKeySizesValue() const;
 
-  constexpr void __set_LegalKeySizesValue(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
+  constexpr void __cordl_internal_set_LegalKeySizesValue(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
   static inline ::System::Security::Cryptography::AsymmetricAlgorithm* New_ctor();
 

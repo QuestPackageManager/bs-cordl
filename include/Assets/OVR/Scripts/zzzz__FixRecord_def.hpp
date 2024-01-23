@@ -23,56 +23,56 @@ MARK_REF_PTR_T(::Assets::OVR::Scripts::FixRecord);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Assets::OVR::Scripts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8734))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8734))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8737))
 // CS Name: ::Assets.OVR.Scripts::FixRecord*
 class CORDL_TYPE FixRecord : public ::Assets::OVR::Scripts::Record {
 public:
   // Declarations
   /// @brief Field fixMethod, offset 0x28, size 0x8
-  __declspec(property(get = __get_fixMethod, put = __set_fixMethod))::Assets::OVR::Scripts::FixMethodDelegate* fixMethod;
+  __declspec(property(get = __cordl_internal_get_fixMethod, put = __cordl_internal_set_fixMethod))::Assets::OVR::Scripts::FixMethodDelegate* fixMethod;
 
   /// @brief Field targetObject, offset 0x30, size 0x8
-  __declspec(property(get = __get_targetObject, put = __set_targetObject))::UnityEngine::Object* targetObject;
+  __declspec(property(get = __cordl_internal_get_targetObject, put = __cordl_internal_set_targetObject))::UnityW<::UnityEngine::Object> targetObject;
 
   /// @brief Field buttonNames, offset 0x38, size 0x8
-  __declspec(property(get = __get_buttonNames, put = __set_buttonNames))::ArrayW<::StringW, ::Array<::StringW>*> buttonNames;
+  __declspec(property(get = __cordl_internal_get_buttonNames, put = __cordl_internal_set_buttonNames))::ArrayW<::StringW, ::Array<::StringW>*> buttonNames;
 
   /// @brief Field editModeRequired, offset 0x40, size 0x1
-  __declspec(property(get = __get_editModeRequired, put = __set_editModeRequired)) bool editModeRequired;
+  __declspec(property(get = __cordl_internal_get_editModeRequired, put = __cordl_internal_set_editModeRequired)) bool editModeRequired;
 
   /// @brief Field complete, offset 0x41, size 0x1
-  __declspec(property(get = __get_complete, put = __set_complete)) bool complete;
+  __declspec(property(get = __cordl_internal_get_complete, put = __cordl_internal_set_complete)) bool complete;
 
-  constexpr ::Assets::OVR::Scripts::FixMethodDelegate*& __get_fixMethod();
+  constexpr ::Assets::OVR::Scripts::FixMethodDelegate*& __cordl_internal_get_fixMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::Assets::OVR::Scripts::FixMethodDelegate*> const& __get_fixMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::Assets::OVR::Scripts::FixMethodDelegate*> const& __cordl_internal_get_fixMethod() const;
 
-  constexpr void __set_fixMethod(::Assets::OVR::Scripts::FixMethodDelegate* value);
+  constexpr void __cordl_internal_set_fixMethod(::Assets::OVR::Scripts::FixMethodDelegate* value);
 
-  constexpr ::UnityEngine::Object*& __get_targetObject();
+  constexpr ::UnityW<::UnityEngine::Object>& __cordl_internal_get_targetObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Object*> const& __get_targetObject() const;
+  constexpr ::UnityW<::UnityEngine::Object> const& __cordl_internal_get_targetObject() const;
 
-  constexpr void __set_targetObject(::UnityEngine::Object* value);
+  constexpr void __cordl_internal_set_targetObject(::UnityW<::UnityEngine::Object> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_buttonNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_buttonNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_buttonNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_buttonNames() const;
 
-  constexpr void __set_buttonNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_buttonNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr bool& __get_editModeRequired();
+  constexpr bool& __cordl_internal_get_editModeRequired();
 
-  constexpr bool const& __get_editModeRequired() const;
+  constexpr bool const& __cordl_internal_get_editModeRequired() const;
 
-  constexpr void __set_editModeRequired(bool value);
+  constexpr void __cordl_internal_set_editModeRequired(bool value);
 
-  constexpr bool& __get_complete();
+  constexpr bool& __cordl_internal_get_complete();
 
-  constexpr bool const& __get_complete() const;
+  constexpr bool const& __cordl_internal_get_complete() const;
 
-  constexpr void __set_complete(bool value);
+  constexpr void __cordl_internal_set_complete(bool value);
 
   static inline ::Assets::OVR::Scripts::FixRecord* New_ctor(int32_t order, ::StringW cat, ::StringW msg, ::Assets::OVR::Scripts::FixMethodDelegate* fix, ::UnityEngine::Object* target,
                                                             bool editRequired, ::ArrayW<::StringW, ::Array<::StringW>*> buttons);
@@ -99,7 +99,7 @@ public:
   ::Assets::OVR::Scripts::FixMethodDelegate* ___fixMethod;
 
   /// @brief Field targetObject, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Object* ___targetObject;
+  ::UnityW<::UnityEngine::Object> ___targetObject;
 
   /// @brief Field buttonNames, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___buttonNames;

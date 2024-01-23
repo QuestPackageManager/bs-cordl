@@ -19,10 +19,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x28019ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -34,9 +34,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x28019d4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(),
-                                                                               "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -48,9 +48,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x300;
   constexpr static std::size_t addrs = 0x28019d8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(),
-                                                                               "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -62,10 +62,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2801cd8;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(),
-                                                 "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(),
+                                    "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -77,9 +77,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x2801ce0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(),
-                                                                               "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(),
+                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -91,9 +92,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2801d20;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(),
-                                                                               "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(),
+                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -122,147 +124,149 @@ constexpr Polyglot::__GoogleDownload___DownloadSheet_d__0::operator ::System::ID
 constexpr ::System::IDisposable* Polyglot::__GoogleDownload___DownloadSheet_d__0::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr int32_t& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get___1__state() {
+constexpr int32_t& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get___1__state() const {
+constexpr int32_t const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set___1__state(int32_t value) {
+constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get___2__current() {
+constexpr ::System::Object*& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get___2__current() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set___2__current(::System::Object* value) {
+constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Func_2<float_t, bool>*& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_progressbar() {
+constexpr ::System::Func_2<float_t, bool>*& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get_progressbar() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___progressbar;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Func_2<float_t, bool>*> const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_progressbar() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Func_2<float_t, bool>*> const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get_progressbar() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___progressbar;
 }
-constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set_progressbar(::System::Func_2<float_t, bool>* value) {
+constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_set_progressbar(::System::Func_2<float_t, bool>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___progressbar)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::StringW>*& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_done() {
+constexpr ::System::Action_1<::StringW>*& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get_done() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___done;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_done() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::StringW>*> const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get_done() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___done;
 }
-constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set_done(::System::Action_1<::StringW>* value) {
+constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_set_done(::System::Action_1<::StringW>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___done)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_docsId() {
+constexpr ::StringW& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get_docsId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___docsId;
 }
-constexpr ::StringW const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_docsId() const {
+constexpr ::StringW const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get_docsId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___docsId;
 }
-constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set_docsId(::StringW value) {
+constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_set_docsId(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___docsId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_sheetId() {
+constexpr ::StringW& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get_sheetId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sheetId;
 }
-constexpr ::StringW const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_sheetId() const {
+constexpr ::StringW const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get_sheetId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sheetId;
 }
-constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set_sheetId(::StringW value) {
+constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_set_sheetId(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sheetId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::Polyglot::GoogleDriveDownloadFormat& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_format() {
+constexpr ::Polyglot::GoogleDriveDownloadFormat& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get_format() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___format;
 }
-constexpr ::Polyglot::GoogleDriveDownloadFormat const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get_format() const {
+constexpr ::Polyglot::GoogleDriveDownloadFormat const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get_format() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___format;
 }
-constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set_format(::Polyglot::GoogleDriveDownloadFormat value) {
+constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_set_format(::Polyglot::GoogleDriveDownloadFormat value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___format = value;
 }
-constexpr ::StringW& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get__url_5__2() {
+constexpr ::StringW& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get__url_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____url_5__2;
 }
-constexpr ::StringW const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get__url_5__2() const {
+constexpr ::StringW const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get__url_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____url_5__2;
 }
-constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set__url_5__2(::StringW value) {
+constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_set__url_5__2(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____url_5__2)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Networking::UnityWebRequest*& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get__www_5__3() {
+constexpr ::UnityEngine::Networking::UnityWebRequest*& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get__www_5__3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____www_5__3;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequest*> const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__get__www_5__3() const {
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequest*> const& Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_get__www_5__3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____www_5__3;
 }
-constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__set__www_5__3(::UnityEngine::Networking::UnityWebRequest* value) {
+constexpr void Polyglot::__GoogleDownload___DownloadSheet_d__0::__cordl_internal_set__www_5__3(::UnityEngine::Networking::UnityWebRequest* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____www_5__3)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::Polyglot::__GoogleDownload___DownloadSheet_d__0* Polyglot::__GoogleDownload___DownloadSheet_d__0::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::New<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>(__1__state));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>(__1__state));
 }
 inline void Polyglot::__GoogleDownload___DownloadSheet_d__0::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
 inline void Polyglot::__GoogleDownload___DownloadSheet_d__0::System_IDisposable_Dispose() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(),
-                                                                             "System.IDisposable.Dispose", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool Polyglot::__GoogleDownload___DownloadSheet_d__0::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(),
-                                                                             "MoveNext", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::System::Object* Polyglot::__GoogleDownload___DownloadSheet_d__0::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(),
-                                               "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(),
+                                  "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline void Polyglot::__GoogleDownload___DownloadSheet_d__0::System_Collections_IEnumerator_Reset() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(),
-                                                                             "System.Collections.IEnumerator.Reset", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(),
+                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Object* Polyglot::__GoogleDownload___DownloadSheet_d__0::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(),
-                                                                             "System.Collections.IEnumerator.get_Current", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::__GoogleDownload___DownloadSheet_d__0*>::get(),
+                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -276,13 +280,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x280191c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::GoogleDownload*>::get(), "DownloadSheet", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::StringW>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Polyglot::GoogleDriveDownloadFormat>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<float_t, bool>*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::GoogleDownload*>::get(), "DownloadSheet", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::StringW>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Polyglot::GoogleDriveDownloadFormat>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<float_t, bool>*>::get() })));
     return ___internal_method;
   }
 };
@@ -291,11 +295,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 inline ::System::Collections::IEnumerator* Polyglot::GoogleDownload::DownloadSheet(::StringW docsId, ::StringW sheetId, ::System::Action_1<::StringW>* done,
                                                                                    ::Polyglot::GoogleDriveDownloadFormat format, ::System::Func_2<float_t, bool>* progressbar) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::GoogleDownload*>::get(), "DownloadSheet", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::StringW>*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Polyglot::GoogleDriveDownloadFormat>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<float_t, bool>*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Polyglot::GoogleDownload*>::get(), "DownloadSheet", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::StringW>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Polyglot::GoogleDriveDownloadFormat>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<float_t, bool>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(nullptr, ___internal_method, docsId, sheetId, done, format, progressbar);
 }
 // Ctor Parameters []

@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::GlobalNamespace::DrawIfAttribute);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16249))
 // CS Name: ::DrawIfAttribute::DisablingType
 struct CORDL_TYPE __DrawIfAttribute__DisablingType {
@@ -78,7 +78,7 @@ static_assert(offsetof(::GlobalNamespace::__DrawIfAttribute__DisablingType, valu
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16249)), TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170)), TypeDefinitionIndex(TypeDefinitionIndex(16249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16250))
 // CS Name: ::DrawIfAttribute*
 class CORDL_TYPE DrawIfAttribute : public ::UnityEngine::PropertyAttribute {
@@ -87,40 +87,40 @@ public:
   using DisablingType = ::GlobalNamespace::__DrawIfAttribute__DisablingType;
 
   /// @brief Field propertyName, offset 0x10, size 0x8
-  __declspec(property(get = __get_propertyName, put = __set_propertyName))::StringW propertyName;
+  __declspec(property(get = __cordl_internal_get_propertyName, put = __cordl_internal_set_propertyName))::StringW propertyName;
 
   /// @brief Field value, offset 0x18, size 0x8
-  __declspec(property(get = __get_value, put = __set_value))::System::Object* value;
+  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::System::Object* value;
 
   /// @brief Field orValue, offset 0x20, size 0x8
-  __declspec(property(get = __get_orValue, put = __set_orValue))::System::Object* orValue;
+  __declspec(property(get = __cordl_internal_get_orValue, put = __cordl_internal_set_orValue))::System::Object* orValue;
 
   /// @brief Field disablingType, offset 0x28, size 0x4
-  __declspec(property(get = __get_disablingType, put = __set_disablingType))::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType;
+  __declspec(property(get = __cordl_internal_get_disablingType, put = __cordl_internal_set_disablingType))::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType;
 
-  constexpr ::StringW& __get_propertyName();
+  constexpr ::StringW& __cordl_internal_get_propertyName();
 
-  constexpr ::StringW const& __get_propertyName() const;
+  constexpr ::StringW const& __cordl_internal_get_propertyName() const;
 
-  constexpr void __set_propertyName(::StringW value);
+  constexpr void __cordl_internal_set_propertyName(::StringW value);
 
-  constexpr ::System::Object*& __get_value();
+  constexpr ::System::Object*& __cordl_internal_get_value();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_value() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_value() const;
 
-  constexpr void __set_value(::System::Object* value);
+  constexpr void __cordl_internal_set_value(::System::Object* value);
 
-  constexpr ::System::Object*& __get_orValue();
+  constexpr ::System::Object*& __cordl_internal_get_orValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_orValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_orValue() const;
 
-  constexpr void __set_orValue(::System::Object* value);
+  constexpr void __cordl_internal_set_orValue(::System::Object* value);
 
-  constexpr ::GlobalNamespace::__DrawIfAttribute__DisablingType& __get_disablingType();
+  constexpr ::GlobalNamespace::__DrawIfAttribute__DisablingType& __cordl_internal_get_disablingType();
 
-  constexpr ::GlobalNamespace::__DrawIfAttribute__DisablingType const& __get_disablingType() const;
+  constexpr ::GlobalNamespace::__DrawIfAttribute__DisablingType const& __cordl_internal_get_disablingType() const;
 
-  constexpr void __set_disablingType(::GlobalNamespace::__DrawIfAttribute__DisablingType value);
+  constexpr void __cordl_internal_set_disablingType(::GlobalNamespace::__DrawIfAttribute__DisablingType value);
 
   static inline ::GlobalNamespace::DrawIfAttribute* New_ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::__DrawIfAttribute__DisablingType disablingType);
 

@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::TMPro::__TMP_FontFeatureTable____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12376))
 // CS Name: ::TMP_FontFeatureTable::<>c*
 class CORDL_TYPE __TMP_FontFeatureTable____c : public ::System::Object {
@@ -96,7 +96,7 @@ static_assert(::cordl_internals::size_check_v<::TMPro::__TMP_FontFeatureTable___
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12377))
 // CS Name: ::TMPro::TMP_FontFeatureTable*
 class CORDL_TYPE TMP_FontFeatureTable : public ::System::Object {
@@ -105,28 +105,28 @@ public:
   using __c = ::TMPro::__TMP_FontFeatureTable____c;
 
   /// @brief Field m_GlyphPairAdjustmentRecords, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_GlyphPairAdjustmentRecords,
-                      put = __set_m_GlyphPairAdjustmentRecords))::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* m_GlyphPairAdjustmentRecords;
+  __declspec(property(get = __cordl_internal_get_m_GlyphPairAdjustmentRecords,
+                      put = __cordl_internal_set_m_GlyphPairAdjustmentRecords))::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* m_GlyphPairAdjustmentRecords;
 
   /// @brief Field m_GlyphPairAdjustmentRecordLookupDictionary, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_GlyphPairAdjustmentRecordLookupDictionary, put = __set_m_GlyphPairAdjustmentRecordLookupDictionary))::System::Collections::Generic::Dictionary_2<
-      uint32_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>* m_GlyphPairAdjustmentRecordLookupDictionary;
+  __declspec(property(get = __cordl_internal_get_m_GlyphPairAdjustmentRecordLookupDictionary, put = __cordl_internal_set_m_GlyphPairAdjustmentRecordLookupDictionary))::System::Collections::Generic::
+      Dictionary_2<uint32_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>* m_GlyphPairAdjustmentRecordLookupDictionary;
 
   __declspec(property(get = get_glyphPairAdjustmentRecords,
                       put = set_glyphPairAdjustmentRecords))::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* glyphPairAdjustmentRecords;
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>*& __get_m_GlyphPairAdjustmentRecords();
+  constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>*& __cordl_internal_get_m_GlyphPairAdjustmentRecords();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>*> const& __get_m_GlyphPairAdjustmentRecords() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>*> const& __cordl_internal_get_m_GlyphPairAdjustmentRecords() const;
 
-  constexpr void __set_m_GlyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* value);
+  constexpr void __cordl_internal_set_m_GlyphPairAdjustmentRecords(::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>*& __get_m_GlyphPairAdjustmentRecordLookupDictionary();
+  constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>*& __cordl_internal_get_m_GlyphPairAdjustmentRecordLookupDictionary();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<uint32_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>*> const&
-  __get_m_GlyphPairAdjustmentRecordLookupDictionary() const;
+  __cordl_internal_get_m_GlyphPairAdjustmentRecordLookupDictionary() const;
 
-  constexpr void __set_m_GlyphPairAdjustmentRecordLookupDictionary(::System::Collections::Generic::Dictionary_2<uint32_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>* value);
+  constexpr void __cordl_internal_set_m_GlyphPairAdjustmentRecordLookupDictionary(::System::Collections::Generic::Dictionary_2<uint32_t, ::TMPro::TMP_GlyphPairAdjustmentRecord*>* value);
 
   /// @brief Method get_glyphPairAdjustmentRecords, addr 0x2c122b0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::TMPro::TMP_GlyphPairAdjustmentRecord*>* get_glyphPairAdjustmentRecords();

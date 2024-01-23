@@ -27,20 +27,22 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::BoneControl);
 // SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6337)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3892 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6216))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6339)) CS Name: ::UnityEngine.InputSystem.XR::BoneControl*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6216)), TypeDefinitionIndex(TypeDefinitionIndex(6337)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6216), inst: 3892
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6339)) CS Name: ::UnityEngine.InputSystem.XR::BoneControl*
 class CORDL_TYPE BoneControl : public ::UnityEngine::InputSystem::InputControl_1<::UnityEngine::InputSystem::XR::Bone> {
 public:
   // Declarations
   /// @brief Field <parentBoneIndex>k__BackingField, offset 0xf0, size 0x8
-  __declspec(property(get = __get__parentBoneIndex_k__BackingField,
-                      put = __set__parentBoneIndex_k__BackingField))::UnityEngine::InputSystem::Controls::IntegerControl* _parentBoneIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__parentBoneIndex_k__BackingField,
+                      put = __cordl_internal_set__parentBoneIndex_k__BackingField))::UnityEngine::InputSystem::Controls::IntegerControl* _parentBoneIndex_k__BackingField;
 
   /// @brief Field <position>k__BackingField, offset 0xf8, size 0x8
-  __declspec(property(get = __get__position_k__BackingField, put = __set__position_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _position_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__position_k__BackingField,
+                      put = __cordl_internal_set__position_k__BackingField))::UnityEngine::InputSystem::Controls::Vector3Control* _position_k__BackingField;
 
   /// @brief Field <rotation>k__BackingField, offset 0x100, size 0x8
-  __declspec(property(get = __get__rotation_k__BackingField, put = __set__rotation_k__BackingField))::UnityEngine::InputSystem::Controls::QuaternionControl* _rotation_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rotation_k__BackingField,
+                      put = __cordl_internal_set__rotation_k__BackingField))::UnityEngine::InputSystem::Controls::QuaternionControl* _rotation_k__BackingField;
 
   __declspec(property(get = get_parentBoneIndex, put = set_parentBoneIndex))::UnityEngine::InputSystem::Controls::IntegerControl* parentBoneIndex;
 
@@ -48,23 +50,23 @@ public:
 
   __declspec(property(get = get_rotation, put = set_rotation))::UnityEngine::InputSystem::Controls::QuaternionControl* rotation;
 
-  constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __get__parentBoneIndex_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __cordl_internal_get__parentBoneIndex_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::IntegerControl*> const& __get__parentBoneIndex_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::IntegerControl*> const& __cordl_internal_get__parentBoneIndex_k__BackingField() const;
 
-  constexpr void __set__parentBoneIndex_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
+  constexpr void __cordl_internal_set__parentBoneIndex_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __get__position_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__position_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __get__position_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::Vector3Control*> const& __cordl_internal_get__position_k__BackingField() const;
 
-  constexpr void __set__position_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
+  constexpr void __cordl_internal_set__position_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __get__rotation_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __cordl_internal_get__rotation_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::QuaternionControl*> const& __get__rotation_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Controls::QuaternionControl*> const& __cordl_internal_get__rotation_k__BackingField() const;
 
-  constexpr void __set__rotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
+  constexpr void __cordl_internal_set__rotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
   /// @brief Method get_parentBoneIndex, addr 0x2ac8410, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_parentBoneIndex();

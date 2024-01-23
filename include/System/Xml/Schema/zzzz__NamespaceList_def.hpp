@@ -34,7 +34,7 @@ MARK_REF_PTR_T(::System::Xml::Schema::NamespaceList);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11698))
 // CS Name: ::NamespaceList::ListType
 struct CORDL_TYPE __NamespaceList__ListType {
@@ -88,7 +88,7 @@ static_assert(offsetof(::System::Xml::Schema::__NamespaceList__ListType, value__
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11698))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11698))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11699))
 // CS Name: ::System.Xml.Schema::NamespaceList*
 class CORDL_TYPE NamespaceList : public ::System::Object {
@@ -97,13 +97,13 @@ public:
   using ListType = ::System::Xml::Schema::__NamespaceList__ListType;
 
   /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __get_type, put = __set_type))::System::Xml::Schema::__NamespaceList__ListType type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Xml::Schema::__NamespaceList__ListType type;
 
   /// @brief Field set, offset 0x18, size 0x8
-  __declspec(property(get = __get_set, put = __set_set))::System::Collections::Hashtable* set;
+  __declspec(property(get = __cordl_internal_get_set, put = __cordl_internal_set_set))::System::Collections::Hashtable* set;
 
   /// @brief Field targetNamespace, offset 0x20, size 0x8
-  __declspec(property(get = __get_targetNamespace, put = __set_targetNamespace))::StringW targetNamespace;
+  __declspec(property(get = __cordl_internal_get_targetNamespace, put = __cordl_internal_set_targetNamespace))::StringW targetNamespace;
 
   __declspec(property(get = get_Type))::System::Xml::Schema::__NamespaceList__ListType Type;
 
@@ -111,23 +111,23 @@ public:
 
   __declspec(property(get = get_Enumerate))::System::Collections::ICollection* Enumerate;
 
-  constexpr ::System::Xml::Schema::__NamespaceList__ListType& __get_type();
+  constexpr ::System::Xml::Schema::__NamespaceList__ListType& __cordl_internal_get_type();
 
-  constexpr ::System::Xml::Schema::__NamespaceList__ListType const& __get_type() const;
+  constexpr ::System::Xml::Schema::__NamespaceList__ListType const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::System::Xml::Schema::__NamespaceList__ListType value);
+  constexpr void __cordl_internal_set_type(::System::Xml::Schema::__NamespaceList__ListType value);
 
-  constexpr ::System::Collections::Hashtable*& __get_set();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_set();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get_set() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_set() const;
 
-  constexpr void __set_set(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set_set(::System::Collections::Hashtable* value);
 
-  constexpr ::StringW& __get_targetNamespace();
+  constexpr ::StringW& __cordl_internal_get_targetNamespace();
 
-  constexpr ::StringW const& __get_targetNamespace() const;
+  constexpr ::StringW const& __cordl_internal_get_targetNamespace() const;
 
-  constexpr void __set_targetNamespace(::StringW value);
+  constexpr void __cordl_internal_set_targetNamespace(::StringW value);
 
   static inline ::System::Xml::Schema::NamespaceList* New_ctor();
 

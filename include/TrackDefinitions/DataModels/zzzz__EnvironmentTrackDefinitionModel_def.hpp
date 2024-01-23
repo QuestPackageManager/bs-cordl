@@ -87,38 +87,38 @@ MARK_REF_PTR_T(::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TrackDefinitions::DataModels {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16072)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(16072))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16066))
 // CS Name: ::EnvironmentTrackDefinitionModel::SpawnableEventBoxGroupTypeTrack*
 class CORDL_TYPE __EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack : public ::System::Object {
 public:
   // Declarations
   /// @brief Field lightGroup, offset 0x10, size 0x8
-  __declspec(property(get = __get_lightGroup, put = __set_lightGroup))::GlobalNamespace::LightGroupSO* lightGroup;
+  __declspec(property(get = __cordl_internal_get_lightGroup, put = __cordl_internal_set_lightGroup))::UnityW<::GlobalNamespace::LightGroupSO> lightGroup;
 
   /// @brief Field groupName, offset 0x18, size 0x8
-  __declspec(property(get = __get_groupName, put = __set_groupName))::StringW groupName;
+  __declspec(property(get = __cordl_internal_get_groupName, put = __cordl_internal_set_groupName))::StringW groupName;
 
   /// @brief Field trackType, offset 0x20, size 0x4
-  __declspec(property(get = __get_trackType, put = __set_trackType))::TrackDefinitions::DataModels::EventBoxGroupType trackType;
+  __declspec(property(get = __cordl_internal_get_trackType, put = __cordl_internal_set_trackType))::TrackDefinitions::DataModels::EventBoxGroupType trackType;
 
-  constexpr ::GlobalNamespace::LightGroupSO*& __get_lightGroup();
+  constexpr ::UnityW<::GlobalNamespace::LightGroupSO>& __cordl_internal_get_lightGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightGroupSO*> const& __get_lightGroup() const;
+  constexpr ::UnityW<::GlobalNamespace::LightGroupSO> const& __cordl_internal_get_lightGroup() const;
 
-  constexpr void __set_lightGroup(::GlobalNamespace::LightGroupSO* value);
+  constexpr void __cordl_internal_set_lightGroup(::UnityW<::GlobalNamespace::LightGroupSO> value);
 
-  constexpr ::StringW& __get_groupName();
+  constexpr ::StringW& __cordl_internal_get_groupName();
 
-  constexpr ::StringW const& __get_groupName() const;
+  constexpr ::StringW const& __cordl_internal_get_groupName() const;
 
-  constexpr void __set_groupName(::StringW value);
+  constexpr void __cordl_internal_set_groupName(::StringW value);
 
-  constexpr ::TrackDefinitions::DataModels::EventBoxGroupType& __get_trackType();
+  constexpr ::TrackDefinitions::DataModels::EventBoxGroupType& __cordl_internal_get_trackType();
 
-  constexpr ::TrackDefinitions::DataModels::EventBoxGroupType const& __get_trackType() const;
+  constexpr ::TrackDefinitions::DataModels::EventBoxGroupType const& __cordl_internal_get_trackType() const;
 
-  constexpr void __set_trackType(::TrackDefinitions::DataModels::EventBoxGroupType value);
+  constexpr void __cordl_internal_set_trackType(::TrackDefinitions::DataModels::EventBoxGroupType value);
 
   static inline ::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack* New_ctor(::GlobalNamespace::LightGroupSO* lightGroup, ::StringW groupName,
                                                                                                                              ::TrackDefinitions::DataModels::EventBoxGroupType trackType);
@@ -141,7 +141,7 @@ protected:
 
 public:
   /// @brief Field lightGroup, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::LightGroupSO* ___lightGroup;
+  ::UnityW<::GlobalNamespace::LightGroupSO> ___lightGroup;
 
   /// @brief Field groupName, offset: 0x18, size: 0x8, def value: None
   ::StringW ___groupName;
@@ -165,50 +165,52 @@ static_assert(offsetof(::TrackDefinitions::DataModels::__EnvironmentTrackDefinit
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TrackDefinitions::DataModels {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16067))
 // CS Name: ::EnvironmentTrackDefinitionModel::SpawnableEventBoxGroupTrack*
 class CORDL_TYPE __EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack : public ::System::Object {
 public:
   // Declarations
   /// @brief Field lightGroup, offset 0x10, size 0x8
-  __declspec(property(get = __get_lightGroup, put = __set_lightGroup))::GlobalNamespace::LightGroupSO* lightGroup;
+  __declspec(property(get = __cordl_internal_get_lightGroup, put = __cordl_internal_set_lightGroup))::UnityW<::GlobalNamespace::LightGroupSO> lightGroup;
 
   /// @brief Field groupName, offset 0x18, size 0x8
-  __declspec(property(get = __get_groupName, put = __set_groupName))::StringW groupName;
+  __declspec(property(get = __cordl_internal_get_groupName, put = __cordl_internal_set_groupName))::StringW groupName;
 
   /// @brief Field tracksCount, offset 0x20, size 0x4
-  __declspec(property(get = __get_tracksCount, put = __set_tracksCount)) int32_t tracksCount;
+  __declspec(property(get = __cordl_internal_get_tracksCount, put = __cordl_internal_set_tracksCount)) int32_t tracksCount;
 
   /// @brief Field eventBoxGroupTracks, offset 0x28, size 0x8
-  __declspec(property(get = __get_eventBoxGroupTracks, put = __set_eventBoxGroupTracks))::System::Collections::Generic::IReadOnlyList_1<
+  __declspec(property(get = __cordl_internal_get_eventBoxGroupTracks, put = __cordl_internal_set_eventBoxGroupTracks))::System::Collections::Generic::IReadOnlyList_1<
       ::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack*>* eventBoxGroupTracks;
 
-  constexpr ::GlobalNamespace::LightGroupSO*& __get_lightGroup();
+  constexpr ::UnityW<::GlobalNamespace::LightGroupSO>& __cordl_internal_get_lightGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightGroupSO*> const& __get_lightGroup() const;
+  constexpr ::UnityW<::GlobalNamespace::LightGroupSO> const& __cordl_internal_get_lightGroup() const;
 
-  constexpr void __set_lightGroup(::GlobalNamespace::LightGroupSO* value);
+  constexpr void __cordl_internal_set_lightGroup(::UnityW<::GlobalNamespace::LightGroupSO> value);
 
-  constexpr ::StringW& __get_groupName();
+  constexpr ::StringW& __cordl_internal_get_groupName();
 
-  constexpr ::StringW const& __get_groupName() const;
+  constexpr ::StringW const& __cordl_internal_get_groupName() const;
 
-  constexpr void __set_groupName(::StringW value);
+  constexpr void __cordl_internal_set_groupName(::StringW value);
 
-  constexpr int32_t& __get_tracksCount();
+  constexpr int32_t& __cordl_internal_get_tracksCount();
 
-  constexpr int32_t const& __get_tracksCount() const;
+  constexpr int32_t const& __cordl_internal_get_tracksCount() const;
 
-  constexpr void __set_tracksCount(int32_t value);
+  constexpr void __cordl_internal_set_tracksCount(int32_t value);
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack*>*& __get_eventBoxGroupTracks();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack*>*&
+  __cordl_internal_get_eventBoxGroupTracks();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::IReadOnlyList_1<::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack*>*> const&
-  __get_eventBoxGroupTracks() const;
+  __cordl_internal_get_eventBoxGroupTracks() const;
 
-  constexpr void __set_eventBoxGroupTracks(::System::Collections::Generic::IReadOnlyList_1<::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack*>* value);
+  constexpr void
+  __cordl_internal_set_eventBoxGroupTracks(::System::Collections::Generic::IReadOnlyList_1<::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack*>* value);
 
   static inline ::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack*
   New_ctor(::GlobalNamespace::LightGroupSO* lightGroup, ::StringW groupName, int32_t tracksCount,
@@ -233,7 +235,7 @@ protected:
 
 public:
   /// @brief Field lightGroup, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::LightGroupSO* ___lightGroup;
+  ::UnityW<::GlobalNamespace::LightGroupSO> ___lightGroup;
 
   /// @brief Field groupName, offset: 0x18, size: 0x8, def value: None
   ::StringW ___groupName;
@@ -262,7 +264,7 @@ static_assert(offsetof(::TrackDefinitions::DataModels::__EnvironmentTrackDefinit
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TrackDefinitions::DataModels {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16068))
 // CS Name: ::EnvironmentTrackDefinitionModel::<>c*
 class CORDL_TYPE __EnvironmentTrackDefinitionModel____c : public ::System::Object {
@@ -286,17 +288,16 @@ public:
   /// @brief Field <>9__11_3, offset 0xffffffff, size 0x8
   static __declspec(
       property(get = getStaticF___9__11_3,
-               put = setStaticF___9__11_3))::System::Func_2<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::TrackDefinitions::EventTrackDefinitionSO*>* __9__11_3;
+               put = setStaticF___9__11_3))::System::Func_2<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::UnityW<::TrackDefinitions::EventTrackDefinitionSO>>* __9__11_3;
 
   /// @brief Field <>9__11_4, offset 0xffffffff, size 0x8
-  static __declspec(property(
-      get = getStaticF___9__11_4,
-      put = setStaticF___9__11_4))::System::Func_2<::System::Linq::IGrouping_2<::TrackDefinitions::EventTrackDefinitionSO*, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
-                                                   ::TrackDefinitions::EventTrackDefinitionSO*>* __9__11_4;
+  static __declspec(property(get = getStaticF___9__11_4, put = setStaticF___9__11_4))::System::Func_2<
+      ::System::Linq::IGrouping_2<::UnityW<::TrackDefinitions::EventTrackDefinitionSO>, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
+      ::UnityW<::TrackDefinitions::EventTrackDefinitionSO>>* __9__11_4;
 
   /// @brief Field <>9__11_5, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF___9__11_5, put = setStaticF___9__11_5))::System::Func_2<
-      ::System::Linq::IGrouping_2<::TrackDefinitions::EventTrackDefinitionSO*, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
+      ::System::Linq::IGrouping_2<::UnityW<::TrackDefinitions::EventTrackDefinitionSO>, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
       ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>>* __9__11_5;
 
   /// @brief Field <>9__11_6, offset 0xffffffff, size 0x8
@@ -332,25 +333,25 @@ public:
   static inline ::System::Func_2<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*
   getStaticF___9__11_2();
 
-  static inline void setStaticF___9__11_3(::System::Func_2<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::TrackDefinitions::EventTrackDefinitionSO*>* value);
+  static inline void setStaticF___9__11_3(::System::Func_2<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::UnityW<::TrackDefinitions::EventTrackDefinitionSO>>* value);
 
-  static inline ::System::Func_2<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::TrackDefinitions::EventTrackDefinitionSO*>* getStaticF___9__11_3();
+  static inline ::System::Func_2<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::UnityW<::TrackDefinitions::EventTrackDefinitionSO>>* getStaticF___9__11_3();
 
   static inline void
-  setStaticF___9__11_4(::System::Func_2<::System::Linq::IGrouping_2<::TrackDefinitions::EventTrackDefinitionSO*, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
-                                        ::TrackDefinitions::EventTrackDefinitionSO*>* value);
+  setStaticF___9__11_4(::System::Func_2<::System::Linq::IGrouping_2<::UnityW<::TrackDefinitions::EventTrackDefinitionSO>, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
+                                        ::UnityW<::TrackDefinitions::EventTrackDefinitionSO>>* value);
 
-  static inline ::System::Func_2<::System::Linq::IGrouping_2<::TrackDefinitions::EventTrackDefinitionSO*, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
-                                 ::TrackDefinitions::EventTrackDefinitionSO*>*
+  static inline ::System::Func_2<::System::Linq::IGrouping_2<::UnityW<::TrackDefinitions::EventTrackDefinitionSO>, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
+                                 ::UnityW<::TrackDefinitions::EventTrackDefinitionSO>>*
   getStaticF___9__11_4();
 
   static inline void setStaticF___9__11_5(
-      ::System::Func_2<::System::Linq::IGrouping_2<::TrackDefinitions::EventTrackDefinitionSO*, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
+      ::System::Func_2<::System::Linq::IGrouping_2<::UnityW<::TrackDefinitions::EventTrackDefinitionSO>, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
                        ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>>*
           value);
 
   static inline ::System::Func_2<
-      ::System::Linq::IGrouping_2<::TrackDefinitions::EventTrackDefinitionSO*, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
+      ::System::Linq::IGrouping_2<::UnityW<::TrackDefinitions::EventTrackDefinitionSO>, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
       ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>>*
   getStaticF___9__11_5();
 
@@ -388,15 +389,15 @@ public:
   inline ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo* __ctor_b__11_2(::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo* trackInfo);
 
   /// @brief Method <.ctor>b__11_3, addr 0x2a0c618, size 0x18, virtual false, abstract: false, final false
-  inline ::TrackDefinitions::EventTrackDefinitionSO* __ctor_b__11_3(::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo* trackInfo);
+  inline ::UnityW<::TrackDefinitions::EventTrackDefinitionSO> __ctor_b__11_3(::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo* trackInfo);
 
   /// @brief Method <.ctor>b__11_4, addr 0x2a0c630, size 0x9c, virtual false, abstract: false, final false
-  inline ::TrackDefinitions::EventTrackDefinitionSO*
-  __ctor_b__11_4(::System::Linq::IGrouping_2<::TrackDefinitions::EventTrackDefinitionSO*, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>* group);
+  inline ::UnityW<::TrackDefinitions::EventTrackDefinitionSO>
+  __ctor_b__11_4(::System::Linq::IGrouping_2<::UnityW<::TrackDefinitions::EventTrackDefinitionSO>, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>* group);
 
   /// @brief Method <.ctor>b__11_5, addr 0x2a0c6cc, size 0x48, virtual false, abstract: false, final false
   inline ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>
-  __ctor_b__11_5(::System::Linq::IGrouping_2<::TrackDefinitions::EventTrackDefinitionSO*, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>* group);
+  __ctor_b__11_5(::System::Linq::IGrouping_2<::UnityW<::TrackDefinitions::EventTrackDefinitionSO>, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>* group);
 
   /// @brief Method <.ctor>b__11_6, addr 0x2a0c714, size 0x18, virtual false, abstract: false, final false
   inline ::TrackDefinitions::DataModels::TrackToolbarType __ctor_b__11_6(::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo* info);
@@ -433,7 +434,7 @@ static_assert(::cordl_internals::size_check_v<::TrackDefinitions::DataModels::__
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TrackDefinitions::DataModels {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16069))
 // CS Name: ::TrackDefinitions.DataModels::EnvironmentTrackDefinitionModel*
 class CORDL_TYPE EnvironmentTrackDefinitionModel : public ::System::Object {
@@ -446,43 +447,43 @@ public:
   using SpawnableEventBoxGroupTypeTrack = ::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTypeTrack;
 
   /// @brief Field _trackDefinition, offset 0x10, size 0x8
-  __declspec(property(get = __get__trackDefinition, put = __set__trackDefinition))::TrackDefinitions::EnvironmentTracksDefinitionSO* _trackDefinition;
+  __declspec(property(get = __cordl_internal_get__trackDefinition, put = __cordl_internal_set__trackDefinition))::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO> _trackDefinition;
 
   /// @brief Field _beatmapTypeToTrackInfoMap, offset 0x18, size 0x8
-  __declspec(property(get = __get__beatmapTypeToTrackInfoMap, put = __set__beatmapTypeToTrackInfoMap))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get__beatmapTypeToTrackInfoMap, put = __cordl_internal_set__beatmapTypeToTrackInfoMap))::System::Collections::Generic::Dictionary_2<
       ::GlobalNamespace::BasicBeatmapEventType, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>* _beatmapTypeToTrackInfoMap;
 
   /// @brief Field _trackDefinitionToTrackInfoListMap, offset 0x20, size 0x8
-  __declspec(property(get = __get__trackDefinitionToTrackInfoListMap, put = __set__trackDefinitionToTrackInfoListMap))::System::Collections::Generic::Dictionary_2<
-      ::TrackDefinitions::EventTrackDefinitionSO*, ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
-                                                            ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>>* _trackDefinitionToTrackInfoListMap;
+  __declspec(property(get = __cordl_internal_get__trackDefinitionToTrackInfoListMap, put = __cordl_internal_set__trackDefinitionToTrackInfoListMap))::System::Collections::Generic::Dictionary_2<
+      ::UnityW<::TrackDefinitions::EventTrackDefinitionSO>, ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
+                                                                     ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>>* _trackDefinitionToTrackInfoListMap;
 
   /// @brief Field _trackPageToTrackInfoListMap, offset 0x28, size 0x8
-  __declspec(property(get = __get__trackPageToTrackInfoListMap, put = __set__trackPageToTrackInfoListMap))::ArrayW<
+  __declspec(property(get = __cordl_internal_get__trackPageToTrackInfoListMap, put = __cordl_internal_set__trackPageToTrackInfoListMap))::ArrayW<
       ::System::Collections::Generic::List_1<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
       ::Array<::System::Collections::Generic::List_1<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>*> _trackPageToTrackInfoListMap;
 
   /// @brief Field _trackPageToTrackToolbarTypeMap, offset 0x30, size 0x8
-  __declspec(property(
-      get = __get__trackPageToTrackToolbarTypeMap,
-      put = __set__trackPageToTrackToolbarTypeMap))::ArrayW<::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*,
-                                                            ::Array<::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*>*> _trackPageToTrackToolbarTypeMap;
+  __declspec(property(get = __cordl_internal_get__trackPageToTrackToolbarTypeMap, put = __cordl_internal_set__trackPageToTrackToolbarTypeMap))::ArrayW<
+      ::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*,
+      ::Array<::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*>*> _trackPageToTrackToolbarTypeMap;
 
   /// @brief Field _visibleTrackInfos, offset 0x38, size 0x8
-  __declspec(property(get = __get__visibleTrackInfos, put = __set__visibleTrackInfos))::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
-                                                                                               ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*> _visibleTrackInfos;
+  __declspec(property(get = __cordl_internal_get__visibleTrackInfos,
+                      put = __cordl_internal_set__visibleTrackInfos))::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
+                                                                              ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*> _visibleTrackInfos;
 
   /// @brief Field _groupIdToPageMap, offset 0x40, size 0x8
-  __declspec(property(get = __get__groupIdToPageMap, put = __set__groupIdToPageMap))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* _groupIdToPageMap;
+  __declspec(property(get = __cordl_internal_get__groupIdToPageMap, put = __cordl_internal_set__groupIdToPageMap))::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* _groupIdToPageMap;
 
   /// @brief Field _groupIdToTrackMap, offset 0x48, size 0x8
-  __declspec(
-      property(get = __get__groupIdToTrackMap,
-               put = __set__groupIdToTrackMap))::System::Collections::Generic::Dictionary_2<int32_t, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>* _groupIdToTrackMap;
+  __declspec(property(get = __cordl_internal_get__groupIdToTrackMap, put = __cordl_internal_set__groupIdToTrackMap))::System::Collections::Generic::Dictionary_2<
+      int32_t, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>* _groupIdToTrackMap;
 
   /// @brief Field _spawnableEventBoxGroupTracksByPageMap, offset 0x50, size 0x8
-  __declspec(property(get = __get__spawnableEventBoxGroupTracksByPageMap, put = __set__spawnableEventBoxGroupTracksByPageMap))::System::Collections::Generic::Dictionary_2<
-      int32_t, ::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack*>*>* _spawnableEventBoxGroupTracksByPageMap;
+  __declspec(property(get = __cordl_internal_get__spawnableEventBoxGroupTracksByPageMap, put = __cordl_internal_set__spawnableEventBoxGroupTracksByPageMap))::System::Collections::Generic::
+      Dictionary_2<int32_t,
+                   ::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack*>*>* _spawnableEventBoxGroupTracksByPageMap;
 
   __declspec(property(get = get_basicEventTrackInfos))::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
                                                                ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*> basicEventTrackInfos;
@@ -510,90 +511,93 @@ public:
       ::System::Collections::Generic::List_1<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
       ::Array<::System::Collections::Generic::List_1<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>*> beatmapTypeToTrackInfoMap;
 
-  constexpr ::TrackDefinitions::EnvironmentTracksDefinitionSO*& __get__trackDefinition();
+  constexpr ::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO>& __cordl_internal_get__trackDefinition();
 
-  constexpr ::cordl_internals::to_const_pointer<::TrackDefinitions::EnvironmentTracksDefinitionSO*> const& __get__trackDefinition() const;
+  constexpr ::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO> const& __cordl_internal_get__trackDefinition() const;
 
-  constexpr void __set__trackDefinition(::TrackDefinitions::EnvironmentTracksDefinitionSO* value);
+  constexpr void __cordl_internal_set__trackDefinition(::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO> value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BasicBeatmapEventType, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*&
-  __get__beatmapTypeToTrackInfoMap();
+  __cordl_internal_get__beatmapTypeToTrackInfoMap();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BasicBeatmapEventType, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*> const&
-  __get__beatmapTypeToTrackInfoMap() const;
+  __cordl_internal_get__beatmapTypeToTrackInfoMap() const;
 
-  constexpr void __set__beatmapTypeToTrackInfoMap(
+  constexpr void __cordl_internal_set__beatmapTypeToTrackInfoMap(
       ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BasicBeatmapEventType, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::TrackDefinitions::EventTrackDefinitionSO*, ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
-                                                                                                               ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>>*&
-  __get__trackDefinitionToTrackInfoListMap();
+  constexpr ::System::Collections::Generic::Dictionary_2<
+      ::UnityW<::TrackDefinitions::EventTrackDefinitionSO>,
+      ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>>*&
+  __cordl_internal_get__trackDefinitionToTrackInfoListMap();
 
-  constexpr ::cordl_internals::to_const_pointer<
-      ::System::Collections::Generic::Dictionary_2<::TrackDefinitions::EventTrackDefinitionSO*, ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
-                                                                                                         ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>>*> const&
-  __get__trackDefinitionToTrackInfoListMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<
+      ::UnityW<::TrackDefinitions::EventTrackDefinitionSO>,
+      ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>>*> const&
+  __cordl_internal_get__trackDefinitionToTrackInfoListMap() const;
 
-  constexpr void __set__trackDefinitionToTrackInfoListMap(
-      ::System::Collections::Generic::Dictionary_2<::TrackDefinitions::EventTrackDefinitionSO*, ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
-                                                                                                         ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>>* value);
+  constexpr void __cordl_internal_set__trackDefinitionToTrackInfoListMap(
+      ::System::Collections::Generic::Dictionary_2<
+          ::UnityW<::TrackDefinitions::EventTrackDefinitionSO>,
+          ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>>* value);
 
   constexpr ::ArrayW<::System::Collections::Generic::List_1<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
                      ::Array<::System::Collections::Generic::List_1<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>*>&
-  __get__trackPageToTrackInfoListMap();
+  __cordl_internal_get__trackPageToTrackInfoListMap();
 
   constexpr ::ArrayW<::System::Collections::Generic::List_1<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
                      ::Array<::System::Collections::Generic::List_1<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>*> const&
-  __get__trackPageToTrackInfoListMap() const;
+  __cordl_internal_get__trackPageToTrackInfoListMap() const;
 
-  constexpr void __set__trackPageToTrackInfoListMap(::ArrayW<::System::Collections::Generic::List_1<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
+  constexpr void
+  __cordl_internal_set__trackPageToTrackInfoListMap(::ArrayW<::System::Collections::Generic::List_1<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*,
                                                              ::Array<::System::Collections::Generic::List_1<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>*>
                                                         value);
 
   constexpr ::ArrayW<::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*,
                      ::Array<::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*>*>&
-  __get__trackPageToTrackToolbarTypeMap();
+  __cordl_internal_get__trackPageToTrackToolbarTypeMap();
 
   constexpr ::ArrayW<::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*,
                      ::Array<::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*>*> const&
-  __get__trackPageToTrackToolbarTypeMap() const;
+  __cordl_internal_get__trackPageToTrackToolbarTypeMap() const;
 
-  constexpr void __set__trackPageToTrackToolbarTypeMap(::ArrayW<::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*,
-                                                                ::Array<::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*>*>
-                                                           value);
+  constexpr void __cordl_internal_set__trackPageToTrackToolbarTypeMap(::ArrayW<::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*,
+                                                                               ::Array<::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::TrackToolbarType>*>*>
+                                                                          value);
 
   constexpr ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>&
-  __get__visibleTrackInfos();
+  __cordl_internal_get__visibleTrackInfos();
 
   constexpr ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*> const&
-  __get__visibleTrackInfos() const;
+  __cordl_internal_get__visibleTrackInfos() const;
 
-  constexpr void __set__visibleTrackInfos(
+  constexpr void __cordl_internal_set__visibleTrackInfos(
       ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*, ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*> value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __get__groupIdToPageMap();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __cordl_internal_get__groupIdToPageMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __get__groupIdToPageMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& __cordl_internal_get__groupIdToPageMap() const;
 
-  constexpr void __set__groupIdToPageMap(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
+  constexpr void __cordl_internal_set__groupIdToPageMap(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>*& __get__groupIdToTrackMap();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>*& __cordl_internal_get__groupIdToTrackMap();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>*> const&
-  __get__groupIdToTrackMap() const;
+  __cordl_internal_get__groupIdToTrackMap() const;
 
-  constexpr void __set__groupIdToTrackMap(::System::Collections::Generic::Dictionary_2<int32_t, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>* value);
+  constexpr void __cordl_internal_set__groupIdToTrackMap(::System::Collections::Generic::Dictionary_2<int32_t, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__EventBoxGroupTrackInfo*>* value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t,
                                                          ::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack*>*>*&
-  __get__spawnableEventBoxGroupTracksByPageMap();
+  __cordl_internal_get__spawnableEventBoxGroupTracksByPageMap();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<
       int32_t, ::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack*>*>*> const&
-  __get__spawnableEventBoxGroupTracksByPageMap() const;
+  __cordl_internal_get__spawnableEventBoxGroupTracksByPageMap() const;
 
-  constexpr void __set__spawnableEventBoxGroupTracksByPageMap(
+  constexpr void __cordl_internal_set__spawnableEventBoxGroupTracksByPageMap(
       ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::TrackDefinitions::DataModels::__EnvironmentTrackDefinitionModel__SpawnableEventBoxGroupTrack*>*>*
           value);
 
@@ -663,14 +667,14 @@ protected:
 
 public:
   /// @brief Field _trackDefinition, offset: 0x10, size: 0x8, def value: None
-  ::TrackDefinitions::EnvironmentTracksDefinitionSO* ____trackDefinition;
+  ::UnityW<::TrackDefinitions::EnvironmentTracksDefinitionSO> ____trackDefinition;
 
   /// @brief Field _beatmapTypeToTrackInfoMap, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::BasicBeatmapEventType, ::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>* ____beatmapTypeToTrackInfoMap;
 
   /// @brief Field _trackDefinitionToTrackInfoListMap, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::TrackDefinitions::EventTrackDefinitionSO*, ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
-                                                                                                     ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>>*
+  ::System::Collections::Generic::Dictionary_2<::UnityW<::TrackDefinitions::EventTrackDefinitionSO>, ::ArrayW<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*,
+                                                                                                              ::Array<::TrackDefinitions::__EnvironmentTracksDefinitionSO__BasicEventTrackInfo*>*>>*
       ____trackDefinitionToTrackInfoListMap;
 
   /// @brief Field _trackPageToTrackInfoListMap, offset: 0x28, size: 0x8, def value: None

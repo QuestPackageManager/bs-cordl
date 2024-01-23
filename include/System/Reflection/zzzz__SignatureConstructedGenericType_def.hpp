@@ -23,17 +23,17 @@ MARK_REF_PTR_T(::System::Reflection::SignatureConstructedGenericType);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3495))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3495))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3492))
 // CS Name: ::System.Reflection::SignatureConstructedGenericType*
 class CORDL_TYPE SignatureConstructedGenericType : public ::System::Reflection::SignatureType {
 public:
   // Declarations
   /// @brief Field _genericTypeDefinition, offset 0x18, size 0x8
-  __declspec(property(get = __get__genericTypeDefinition, put = __set__genericTypeDefinition))::System::Type* _genericTypeDefinition;
+  __declspec(property(get = __cordl_internal_get__genericTypeDefinition, put = __cordl_internal_set__genericTypeDefinition))::System::Type* _genericTypeDefinition;
 
   /// @brief Field _genericTypeArguments, offset 0x20, size 0x8
-  __declspec(property(get = __get__genericTypeArguments, put = __set__genericTypeArguments))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _genericTypeArguments;
+  __declspec(property(get = __cordl_internal_get__genericTypeArguments, put = __cordl_internal_set__genericTypeArguments))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _genericTypeArguments;
 
   __declspec(property(get = get_IsGenericTypeDefinition)) bool IsGenericTypeDefinition;
 
@@ -59,17 +59,17 @@ public:
 
   __declspec(property(get = get_Namespace))::StringW Namespace;
 
-  constexpr ::System::Type*& __get__genericTypeDefinition();
+  constexpr ::System::Type*& __cordl_internal_get__genericTypeDefinition();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__genericTypeDefinition() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__genericTypeDefinition() const;
 
-  constexpr void __set__genericTypeDefinition(::System::Type* value);
+  constexpr void __cordl_internal_set__genericTypeDefinition(::System::Type* value);
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __get__genericTypeArguments();
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get__genericTypeArguments();
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __get__genericTypeArguments() const;
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get__genericTypeArguments() const;
 
-  constexpr void __set__genericTypeArguments(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+  constexpr void __cordl_internal_set__genericTypeArguments(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
   static inline ::System::Reflection::SignatureConstructedGenericType* New_ctor(::System::Type* genericTypeDefinition, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> typeArguments);
 

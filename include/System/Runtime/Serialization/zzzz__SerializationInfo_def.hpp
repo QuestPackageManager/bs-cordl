@@ -37,47 +37,47 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::SerializationInfo);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 91, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3234))
 // CS Name: ::System.Runtime.Serialization::SerializationInfo*
 class CORDL_TYPE SerializationInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_members, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_members, put = __set_m_members))::ArrayW<::StringW, ::Array<::StringW>*> m_members;
+  __declspec(property(get = __cordl_internal_get_m_members, put = __cordl_internal_set_m_members))::ArrayW<::StringW, ::Array<::StringW>*> m_members;
 
   /// @brief Field m_data, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_data, put = __set_m_data))::ArrayW<::System::Object*, ::Array<::System::Object*>*> m_data;
+  __declspec(property(get = __cordl_internal_get_m_data, put = __cordl_internal_set_m_data))::ArrayW<::System::Object*, ::Array<::System::Object*>*> m_data;
 
   /// @brief Field m_types, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_types, put = __set_m_types))::ArrayW<::System::Type*, ::Array<::System::Type*>*> m_types;
+  __declspec(property(get = __cordl_internal_get_m_types, put = __cordl_internal_set_m_types))::ArrayW<::System::Type*, ::Array<::System::Type*>*> m_types;
 
   /// @brief Field m_nameToIndex, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_nameToIndex, put = __set_m_nameToIndex))::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* m_nameToIndex;
+  __declspec(property(get = __cordl_internal_get_m_nameToIndex, put = __cordl_internal_set_m_nameToIndex))::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* m_nameToIndex;
 
   /// @brief Field m_currMember, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_currMember, put = __set_m_currMember)) int32_t m_currMember;
+  __declspec(property(get = __cordl_internal_get_m_currMember, put = __cordl_internal_set_m_currMember)) int32_t m_currMember;
 
   /// @brief Field m_converter, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_converter, put = __set_m_converter))::System::Runtime::Serialization::IFormatterConverter* m_converter;
+  __declspec(property(get = __cordl_internal_get_m_converter, put = __cordl_internal_set_m_converter))::System::Runtime::Serialization::IFormatterConverter* m_converter;
 
   /// @brief Field m_fullTypeName, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_fullTypeName, put = __set_m_fullTypeName))::StringW m_fullTypeName;
+  __declspec(property(get = __cordl_internal_get_m_fullTypeName, put = __cordl_internal_set_m_fullTypeName))::StringW m_fullTypeName;
 
   /// @brief Field m_assemName, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_assemName, put = __set_m_assemName))::StringW m_assemName;
+  __declspec(property(get = __cordl_internal_get_m_assemName, put = __cordl_internal_set_m_assemName))::StringW m_assemName;
 
   /// @brief Field objectType, offset 0x50, size 0x8
-  __declspec(property(get = __get_objectType, put = __set_objectType))::System::Type* objectType;
+  __declspec(property(get = __cordl_internal_get_objectType, put = __cordl_internal_set_objectType))::System::Type* objectType;
 
   /// @brief Field isFullTypeNameSetExplicit, offset 0x58, size 0x1
-  __declspec(property(get = __get_isFullTypeNameSetExplicit, put = __set_isFullTypeNameSetExplicit)) bool isFullTypeNameSetExplicit;
+  __declspec(property(get = __cordl_internal_get_isFullTypeNameSetExplicit, put = __cordl_internal_set_isFullTypeNameSetExplicit)) bool isFullTypeNameSetExplicit;
 
   /// @brief Field isAssemblyNameSetExplicit, offset 0x59, size 0x1
-  __declspec(property(get = __get_isAssemblyNameSetExplicit, put = __set_isAssemblyNameSetExplicit)) bool isAssemblyNameSetExplicit;
+  __declspec(property(get = __cordl_internal_get_isAssemblyNameSetExplicit, put = __cordl_internal_set_isAssemblyNameSetExplicit)) bool isAssemblyNameSetExplicit;
 
   /// @brief Field requireSameTokenInPartialTrust, offset 0x5a, size 0x1
-  __declspec(property(get = __get_requireSameTokenInPartialTrust, put = __set_requireSameTokenInPartialTrust)) bool requireSameTokenInPartialTrust;
+  __declspec(property(get = __cordl_internal_get_requireSameTokenInPartialTrust, put = __cordl_internal_set_requireSameTokenInPartialTrust)) bool requireSameTokenInPartialTrust;
 
   __declspec(property(get = get_FullTypeName))::StringW FullTypeName;
 
@@ -91,77 +91,77 @@ public:
 
   __declspec(property(get = get_IsAssemblyNameSetExplicit)) bool IsAssemblyNameSetExplicit;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_members();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_members();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_members() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_members() const;
 
-  constexpr void __set_m_members(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_members(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get_m_data();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_m_data();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get_m_data() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_m_data() const;
 
-  constexpr void __set_m_data(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set_m_data(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __get_m_types();
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get_m_types();
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __get_m_types() const;
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_m_types() const;
 
-  constexpr void __set_m_types(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+  constexpr void __cordl_internal_set_m_types(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __get_m_nameToIndex();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*& __cordl_internal_get_m_nameToIndex();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& __get_m_nameToIndex() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, int32_t>*> const& __cordl_internal_get_m_nameToIndex() const;
 
-  constexpr void __set_m_nameToIndex(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
+  constexpr void __cordl_internal_set_m_nameToIndex(::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* value);
 
-  constexpr int32_t& __get_m_currMember();
+  constexpr int32_t& __cordl_internal_get_m_currMember();
 
-  constexpr int32_t const& __get_m_currMember() const;
+  constexpr int32_t const& __cordl_internal_get_m_currMember() const;
 
-  constexpr void __set_m_currMember(int32_t value);
+  constexpr void __cordl_internal_set_m_currMember(int32_t value);
 
-  constexpr ::System::Runtime::Serialization::IFormatterConverter*& __get_m_converter();
+  constexpr ::System::Runtime::Serialization::IFormatterConverter*& __cordl_internal_get_m_converter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::IFormatterConverter*> const& __get_m_converter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::IFormatterConverter*> const& __cordl_internal_get_m_converter() const;
 
-  constexpr void __set_m_converter(::System::Runtime::Serialization::IFormatterConverter* value);
+  constexpr void __cordl_internal_set_m_converter(::System::Runtime::Serialization::IFormatterConverter* value);
 
-  constexpr ::StringW& __get_m_fullTypeName();
+  constexpr ::StringW& __cordl_internal_get_m_fullTypeName();
 
-  constexpr ::StringW const& __get_m_fullTypeName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_fullTypeName() const;
 
-  constexpr void __set_m_fullTypeName(::StringW value);
+  constexpr void __cordl_internal_set_m_fullTypeName(::StringW value);
 
-  constexpr ::StringW& __get_m_assemName();
+  constexpr ::StringW& __cordl_internal_get_m_assemName();
 
-  constexpr ::StringW const& __get_m_assemName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_assemName() const;
 
-  constexpr void __set_m_assemName(::StringW value);
+  constexpr void __cordl_internal_set_m_assemName(::StringW value);
 
-  constexpr ::System::Type*& __get_objectType();
+  constexpr ::System::Type*& __cordl_internal_get_objectType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_objectType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_objectType() const;
 
-  constexpr void __set_objectType(::System::Type* value);
+  constexpr void __cordl_internal_set_objectType(::System::Type* value);
 
-  constexpr bool& __get_isFullTypeNameSetExplicit();
+  constexpr bool& __cordl_internal_get_isFullTypeNameSetExplicit();
 
-  constexpr bool const& __get_isFullTypeNameSetExplicit() const;
+  constexpr bool const& __cordl_internal_get_isFullTypeNameSetExplicit() const;
 
-  constexpr void __set_isFullTypeNameSetExplicit(bool value);
+  constexpr void __cordl_internal_set_isFullTypeNameSetExplicit(bool value);
 
-  constexpr bool& __get_isAssemblyNameSetExplicit();
+  constexpr bool& __cordl_internal_get_isAssemblyNameSetExplicit();
 
-  constexpr bool const& __get_isAssemblyNameSetExplicit() const;
+  constexpr bool const& __cordl_internal_get_isAssemblyNameSetExplicit() const;
 
-  constexpr void __set_isAssemblyNameSetExplicit(bool value);
+  constexpr void __cordl_internal_set_isAssemblyNameSetExplicit(bool value);
 
-  constexpr bool& __get_requireSameTokenInPartialTrust();
+  constexpr bool& __cordl_internal_get_requireSameTokenInPartialTrust();
 
-  constexpr bool const& __get_requireSameTokenInPartialTrust() const;
+  constexpr bool const& __cordl_internal_get_requireSameTokenInPartialTrust() const;
 
-  constexpr void __set_requireSameTokenInPartialTrust(bool value);
+  constexpr void __cordl_internal_set_requireSameTokenInPartialTrust(bool value);
 
   static inline ::System::Runtime::Serialization::SerializationInfo* New_ctor(::System::Type* type, ::System::Runtime::Serialization::IFormatterConverter* converter);
 

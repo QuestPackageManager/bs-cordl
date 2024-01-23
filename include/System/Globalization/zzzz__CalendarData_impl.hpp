@@ -8,9 +8,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x255ea1c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -22,11 +22,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x518;
   constexpr static std::size_t addrs = 0x255ff58;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -38,10 +38,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3bc;
   constexpr static std::size_t addrs = 0x2560534;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "InitializeEraNames", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "InitializeEraNames", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -52,9 +52,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xec;
   constexpr static std::size_t addrs = 0x2560cd8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(),
-                                                                               "GetJapaneseEraNames", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "GetJapaneseEraNames", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -65,9 +65,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xec;
   constexpr static std::size_t addrs = 0x2560bec;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(),
-                                                                               "GetJapaneseEnglishEraNames", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "GetJapaneseEnglishEraNames", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -79,10 +79,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2fc;
   constexpr static std::size_t addrs = 0x25608f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "InitializeAbbreviatedEraNames", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "InitializeAbbreviatedEraNames", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -93,10 +93,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x255e320;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "GetCalendarData", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "GetCalendarData", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -107,10 +107,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xcc;
   constexpr static std::size_t addrs = 0x2560fec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "CalendarIdToCultureName",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "CalendarIdToCultureName",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -121,10 +121,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x255ea14;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "nativeGetTwoDigitYearMax",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "nativeGetTwoDigitYearMax",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -136,11 +136,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xbc;
   constexpr static std::size_t addrs = 0x2560470;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "nativeGetCalendarData", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CalendarData*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "nativeGetCalendarData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CalendarData*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -152,238 +152,238 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x25611d0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "fill_calendar_data", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "fill_calendar_data", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Globalization::CalendarData::__get_sNativeName() {
+constexpr ::StringW& System::Globalization::CalendarData::__cordl_internal_get_sNativeName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sNativeName;
 }
-constexpr ::StringW const& System::Globalization::CalendarData::__get_sNativeName() const {
+constexpr ::StringW const& System::Globalization::CalendarData::__cordl_internal_get_sNativeName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sNativeName;
 }
-constexpr void System::Globalization::CalendarData::__set_sNativeName(::StringW value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_sNativeName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sNativeName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__get_saShortDates() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__cordl_internal_get_saShortDates() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saShortDates;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__get_saShortDates() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__cordl_internal_get_saShortDates() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saShortDates;
 }
-constexpr void System::Globalization::CalendarData::__set_saShortDates(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_saShortDates(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___saShortDates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__get_saYearMonths() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__cordl_internal_get_saYearMonths() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saYearMonths;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__get_saYearMonths() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__cordl_internal_get_saYearMonths() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saYearMonths;
 }
-constexpr void System::Globalization::CalendarData::__set_saYearMonths(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_saYearMonths(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___saYearMonths)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__get_saLongDates() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__cordl_internal_get_saLongDates() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saLongDates;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__get_saLongDates() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__cordl_internal_get_saLongDates() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saLongDates;
 }
-constexpr void System::Globalization::CalendarData::__set_saLongDates(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_saLongDates(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___saLongDates)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::Globalization::CalendarData::__get_sMonthDay() {
+constexpr ::StringW& System::Globalization::CalendarData::__cordl_internal_get_sMonthDay() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sMonthDay;
 }
-constexpr ::StringW const& System::Globalization::CalendarData::__get_sMonthDay() const {
+constexpr ::StringW const& System::Globalization::CalendarData::__cordl_internal_get_sMonthDay() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sMonthDay;
 }
-constexpr void System::Globalization::CalendarData::__set_sMonthDay(::StringW value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_sMonthDay(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sMonthDay)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__get_saEraNames() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__cordl_internal_get_saEraNames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saEraNames;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__get_saEraNames() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__cordl_internal_get_saEraNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saEraNames;
 }
-constexpr void System::Globalization::CalendarData::__set_saEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_saEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___saEraNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__get_saAbbrevEraNames() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__cordl_internal_get_saAbbrevEraNames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saAbbrevEraNames;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__get_saAbbrevEraNames() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__cordl_internal_get_saAbbrevEraNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saAbbrevEraNames;
 }
-constexpr void System::Globalization::CalendarData::__set_saAbbrevEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_saAbbrevEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___saAbbrevEraNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__get_saAbbrevEnglishEraNames() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__cordl_internal_get_saAbbrevEnglishEraNames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saAbbrevEnglishEraNames;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__get_saAbbrevEnglishEraNames() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__cordl_internal_get_saAbbrevEnglishEraNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saAbbrevEnglishEraNames;
 }
-constexpr void System::Globalization::CalendarData::__set_saAbbrevEnglishEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_saAbbrevEnglishEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___saAbbrevEnglishEraNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__get_saDayNames() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__cordl_internal_get_saDayNames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saDayNames;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__get_saDayNames() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__cordl_internal_get_saDayNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saDayNames;
 }
-constexpr void System::Globalization::CalendarData::__set_saDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_saDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___saDayNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__get_saAbbrevDayNames() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__cordl_internal_get_saAbbrevDayNames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saAbbrevDayNames;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__get_saAbbrevDayNames() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__cordl_internal_get_saAbbrevDayNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saAbbrevDayNames;
 }
-constexpr void System::Globalization::CalendarData::__set_saAbbrevDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_saAbbrevDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___saAbbrevDayNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__get_saSuperShortDayNames() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__cordl_internal_get_saSuperShortDayNames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saSuperShortDayNames;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__get_saSuperShortDayNames() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__cordl_internal_get_saSuperShortDayNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saSuperShortDayNames;
 }
-constexpr void System::Globalization::CalendarData::__set_saSuperShortDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_saSuperShortDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___saSuperShortDayNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__get_saMonthNames() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__cordl_internal_get_saMonthNames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saMonthNames;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__get_saMonthNames() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__cordl_internal_get_saMonthNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saMonthNames;
 }
-constexpr void System::Globalization::CalendarData::__set_saMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_saMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___saMonthNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__get_saAbbrevMonthNames() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__cordl_internal_get_saAbbrevMonthNames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saAbbrevMonthNames;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__get_saAbbrevMonthNames() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__cordl_internal_get_saAbbrevMonthNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saAbbrevMonthNames;
 }
-constexpr void System::Globalization::CalendarData::__set_saAbbrevMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_saAbbrevMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___saAbbrevMonthNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__get_saMonthGenitiveNames() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__cordl_internal_get_saMonthGenitiveNames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saMonthGenitiveNames;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__get_saMonthGenitiveNames() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__cordl_internal_get_saMonthGenitiveNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saMonthGenitiveNames;
 }
-constexpr void System::Globalization::CalendarData::__set_saMonthGenitiveNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_saMonthGenitiveNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___saMonthGenitiveNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__get_saAbbrevMonthGenitiveNames() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__cordl_internal_get_saAbbrevMonthGenitiveNames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saAbbrevMonthGenitiveNames;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__get_saAbbrevMonthGenitiveNames() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__cordl_internal_get_saAbbrevMonthGenitiveNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saAbbrevMonthGenitiveNames;
 }
-constexpr void System::Globalization::CalendarData::__set_saAbbrevMonthGenitiveNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_saAbbrevMonthGenitiveNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___saAbbrevMonthGenitiveNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__get_saLeapYearMonthNames() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Globalization::CalendarData::__cordl_internal_get_saLeapYearMonthNames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saLeapYearMonthNames;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__get_saLeapYearMonthNames() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Globalization::CalendarData::__cordl_internal_get_saLeapYearMonthNames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___saLeapYearMonthNames;
 }
-constexpr void System::Globalization::CalendarData::__set_saLeapYearMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_saLeapYearMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___saLeapYearMonthNames)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Globalization::CalendarData::__get_iTwoDigitYearMax() {
+constexpr int32_t& System::Globalization::CalendarData::__cordl_internal_get_iTwoDigitYearMax() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iTwoDigitYearMax;
 }
-constexpr int32_t const& System::Globalization::CalendarData::__get_iTwoDigitYearMax() const {
+constexpr int32_t const& System::Globalization::CalendarData::__cordl_internal_get_iTwoDigitYearMax() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iTwoDigitYearMax;
 }
-constexpr void System::Globalization::CalendarData::__set_iTwoDigitYearMax(int32_t value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_iTwoDigitYearMax(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___iTwoDigitYearMax = value;
 }
-constexpr int32_t& System::Globalization::CalendarData::__get_iCurrentEra() {
+constexpr int32_t& System::Globalization::CalendarData::__cordl_internal_get_iCurrentEra() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iCurrentEra;
 }
-constexpr int32_t const& System::Globalization::CalendarData::__get_iCurrentEra() const {
+constexpr int32_t const& System::Globalization::CalendarData::__cordl_internal_get_iCurrentEra() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___iCurrentEra;
 }
-constexpr void System::Globalization::CalendarData::__set_iCurrentEra(int32_t value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_iCurrentEra(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___iCurrentEra = value;
 }
-constexpr bool& System::Globalization::CalendarData::__get_bUseUserOverrides() {
+constexpr bool& System::Globalization::CalendarData::__cordl_internal_get_bUseUserOverrides() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bUseUserOverrides;
 }
-constexpr bool const& System::Globalization::CalendarData::__get_bUseUserOverrides() const {
+constexpr bool const& System::Globalization::CalendarData::__cordl_internal_get_bUseUserOverrides() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___bUseUserOverrides;
 }
-constexpr void System::Globalization::CalendarData::__set_bUseUserOverrides(bool value) {
+constexpr void System::Globalization::CalendarData::__cordl_internal_set_bUseUserOverrides(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___bUseUserOverrides = value;
 }
@@ -411,74 +411,74 @@ inline ::ArrayW<::StringW, ::Array<::StringW>*> System::Globalization::CalendarD
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get>();
 }
 inline ::System::Globalization::CalendarData* System::Globalization::CalendarData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Globalization::CalendarData*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Globalization::CalendarData*>());
 }
 inline void System::Globalization::CalendarData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Globalization::CalendarData* System::Globalization::CalendarData::New_ctor(::StringW localeName, int32_t calendarId, bool bUseUserOverrides) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Globalization::CalendarData*>(localeName, calendarId, bUseUserOverrides));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Globalization::CalendarData*>(localeName, calendarId, bUseUserOverrides));
 }
 inline void System::Globalization::CalendarData::_ctor(::StringW localeName, int32_t calendarId, bool bUseUserOverrides) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, localeName, calendarId, bUseUserOverrides);
 }
 inline void System::Globalization::CalendarData::InitializeEraNames(::StringW localeName, int32_t calendarId) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "InitializeEraNames", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "InitializeEraNames", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, localeName, calendarId);
 }
 inline ::ArrayW<::StringW, ::Array<::StringW>*> System::Globalization::CalendarData::GetJapaneseEraNames() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(),
-                                                                             "GetJapaneseEraNames", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "GetJapaneseEraNames", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW, ::Array<::StringW>*>, false>(nullptr, ___internal_method);
 }
 inline ::ArrayW<::StringW, ::Array<::StringW>*> System::Globalization::CalendarData::GetJapaneseEnglishEraNames() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(),
-                                                                             "GetJapaneseEnglishEraNames", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "GetJapaneseEnglishEraNames", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW, ::Array<::StringW>*>, false>(nullptr, ___internal_method);
 }
 inline void System::Globalization::CalendarData::InitializeAbbreviatedEraNames(::StringW localeName, int32_t calendarId) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "InitializeAbbreviatedEraNames", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "InitializeAbbreviatedEraNames", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, localeName, calendarId);
 }
 inline ::System::Globalization::CalendarData* System::Globalization::CalendarData::GetCalendarData(int32_t calendarId) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "GetCalendarData", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "GetCalendarData",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Globalization::CalendarData*, false>(nullptr, ___internal_method, calendarId);
 }
 inline ::StringW System::Globalization::CalendarData::CalendarIdToCultureName(int32_t calendarId) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "CalendarIdToCultureName",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, calendarId);
 }
 inline int32_t System::Globalization::CalendarData::nativeGetTwoDigitYearMax(int32_t calID) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "nativeGetTwoDigitYearMax",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, calID);
 }
 inline bool System::Globalization::CalendarData::nativeGetCalendarData(::System::Globalization::CalendarData* data, ::StringW localeName, int32_t calendarId) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "nativeGetCalendarData", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CalendarData*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "nativeGetCalendarData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CalendarData*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, data, localeName, calendarId);
 }
 inline bool System::Globalization::CalendarData::fill_calendar_data(::StringW localeName, int32_t datetimeIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "fill_calendar_data", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::CalendarData*>::get(), "fill_calendar_data", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, localeName, datetimeIndex);
 }
 // Ctor Parameters []

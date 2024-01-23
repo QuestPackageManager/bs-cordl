@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::Timeline::MatchTargetFields);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13837))
 // CS Name: ::UnityEngine.Timeline::MatchTargetFields
 struct CORDL_TYPE MatchTargetFields {

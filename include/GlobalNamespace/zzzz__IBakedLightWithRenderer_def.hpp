@@ -16,16 +16,16 @@ MARK_REF_PTR_T(::GlobalNamespace::IBakedLightWithRenderer);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15275))
 // CS Name: ::IBakedLightWithRenderer*
 class CORDL_TYPE IBakedLightWithRenderer {
 public:
   // Declarations
-  __declspec(property(get = get_bakingMaterial))::UnityEngine::Material* bakingMaterial;
+  __declspec(property(get = get_bakingMaterial))::UnityW<::UnityEngine::Material> bakingMaterial;
 
   /// @brief Method get_bakingMaterial, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::Material* get_bakingMaterial();
+  inline ::UnityW<::UnityEngine::Material> get_bakingMaterial();
 
   // Ctor Parameters [CppParam { name: "", ty: "IBakedLightWithRenderer", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

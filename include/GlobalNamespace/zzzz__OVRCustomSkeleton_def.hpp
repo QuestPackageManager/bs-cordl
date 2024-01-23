@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRCustomSkeleton);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8090))
 // CS Name: ::OVRCustomSkeleton::RetargetingType
 struct CORDL_TYPE __OVRCustomSkeleton__RetargetingType {
@@ -85,7 +85,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRCustomSkeleton__RetargetingType, 
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 196, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8170)), TypeDefinitionIndex(TypeDefinitionIndex(8090))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8090)), TypeDefinitionIndex(TypeDefinitionIndex(8170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8091))
 // CS Name: ::OVRCustomSkeleton*
 class CORDL_TYPE OVRCustomSkeleton : public ::GlobalNamespace::OVRSkeleton {
@@ -94,12 +94,13 @@ public:
   using RetargetingType = ::GlobalNamespace::__OVRCustomSkeleton__RetargetingType;
 
   /// @brief Field _customBones_V2, offset 0xb8, size 0x8
-  __declspec(property(get = __get__customBones_V2, put = __set__customBones_V2))::System::Collections::Generic::List_1<::UnityEngine::Transform*>* _customBones_V2;
+  __declspec(property(get = __cordl_internal_get__customBones_V2,
+                      put = __cordl_internal_set__customBones_V2))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* _customBones_V2;
 
   /// @brief Field retargetingType, offset 0xc0, size 0x4
-  __declspec(property(get = __get_retargetingType, put = __set_retargetingType))::GlobalNamespace::__OVRCustomSkeleton__RetargetingType retargetingType;
+  __declspec(property(get = __cordl_internal_get_retargetingType, put = __cordl_internal_set_retargetingType))::GlobalNamespace::__OVRCustomSkeleton__RetargetingType retargetingType;
 
-  __declspec(property(get = get_CustomBones))::System::Collections::Generic::List_1<::UnityEngine::Transform*>* CustomBones;
+  __declspec(property(get = get_CustomBones))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* CustomBones;
 
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
@@ -107,23 +108,23 @@ public:
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*& __get__customBones_V2();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*& __cordl_internal_get__customBones_V2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Transform*>*> const& __get__customBones_V2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__customBones_V2() const;
 
-  constexpr void __set__customBones_V2(::System::Collections::Generic::List_1<::UnityEngine::Transform*>* value);
+  constexpr void __cordl_internal_set__customBones_V2(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  constexpr ::GlobalNamespace::__OVRCustomSkeleton__RetargetingType& __get_retargetingType();
+  constexpr ::GlobalNamespace::__OVRCustomSkeleton__RetargetingType& __cordl_internal_get_retargetingType();
 
-  constexpr ::GlobalNamespace::__OVRCustomSkeleton__RetargetingType const& __get_retargetingType() const;
+  constexpr ::GlobalNamespace::__OVRCustomSkeleton__RetargetingType const& __cordl_internal_get_retargetingType() const;
 
-  constexpr void __set_retargetingType(::GlobalNamespace::__OVRCustomSkeleton__RetargetingType value);
+  constexpr void __cordl_internal_set_retargetingType(::GlobalNamespace::__OVRCustomSkeleton__RetargetingType value);
 
   /// @brief Method get_CustomBones, addr 0x27aa0a8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::Transform*>* get_CustomBones();
+  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* get_CustomBones();
 
   /// @brief Method GetBoneTransform, addr 0x27aa0b0, size 0x58, virtual true, abstract: false, final false
-  inline ::UnityEngine::Transform* GetBoneTransform(::GlobalNamespace::__OVRSkeleton__BoneId boneId);
+  inline ::UnityW<::UnityEngine::Transform> GetBoneTransform(::GlobalNamespace::__OVRSkeleton__BoneId boneId);
 
   /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x27aa108, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
@@ -157,7 +158,7 @@ protected:
 
 public:
   /// @brief Field _customBones_V2, offset: 0xb8, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Transform*>* ____customBones_V2;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* ____customBones_V2;
 
   /// @brief Field retargetingType, offset: 0xc0, size: 0x4, def value: None
   ::GlobalNamespace::__OVRCustomSkeleton__RetargetingType ___retargetingType;

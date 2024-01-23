@@ -132,9 +132,9 @@ MARK_VAL_T(::GlobalNamespace::__OculusPlatformUserModel___RequestXPlatformAccess
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 }), TypeDefinitionIndex(TypeDefinitionIndex(15996)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 410 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15985)) CS Name: ::OculusPlatformUserModel::<GetUserInfo>d__12
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15996)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 410 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15985)) CS Name: ::OculusPlatformUserModel::<GetUserInfo>d__12
 struct CORDL_TYPE __OculusPlatformUserModel___GetUserInfo_d__12 {
 public:
   // Declarations
@@ -200,20 +200,20 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserInf
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15986))
 // CS Name: ::OculusPlatformUserModel::<>c__DisplayClass13_0*
 class CORDL_TYPE __OculusPlatformUserModel____c__DisplayClass13_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tcs, offset 0x10, size 0x8
-  __declspec(property(get = __get_tcs, put = __set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::UserInfo*>* tcs;
+  __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::UserInfo*>* tcs;
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::UserInfo*>*& __get_tcs();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::UserInfo*>*& __cordl_internal_get_tcs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::UserInfo*>*> const& __get_tcs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::UserInfo*>*> const& __cordl_internal_get_tcs() const;
 
-  constexpr void __set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::UserInfo*>* value);
+  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::UserInfo*>* value);
 
   static inline ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass13_0* New_ctor();
 
@@ -252,9 +252,9 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____c__Displa
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3402), inst: 410 }), TypeDefinitionIndex(TypeDefinitionIndex(15996))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15987)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(15996)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 410 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 410 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15987)) CS Name:
 // ::OculusPlatformUserModel::<GetUserInfoTask>d__13
 struct CORDL_TYPE __OculusPlatformUserModel___GetUserInfoTask_d__13 {
 public:
@@ -328,29 +328,31 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___GetUserInf
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15988))
 // CS Name: ::OculusPlatformUserModel::<>c__DisplayClass14_0*
 class CORDL_TYPE __OculusPlatformUserModel____c__DisplayClass14_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tcs, offset 0x10, size 0x8
-  __declspec(property(get = __get_tcs, put = __set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* tcs;
+  __declspec(property(get = __cordl_internal_get_tcs,
+                      put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* tcs;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::OculusPlatformUserModel* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusPlatformUserModel* __4__this;
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*& __get_tcs();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*& __cordl_internal_get_tcs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*> const& __get_tcs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*> const&
+  __cordl_internal_get_tcs() const;
 
-  constexpr void __set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* value);
+  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* value);
 
-  constexpr ::GlobalNamespace::OculusPlatformUserModel*& __get___4__this();
+  constexpr ::GlobalNamespace::OculusPlatformUserModel*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusPlatformUserModel*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusPlatformUserModel*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::OculusPlatformUserModel* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::OculusPlatformUserModel* value);
 
   static inline ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass14_0* New_ctor();
 
@@ -394,20 +396,20 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____c__Displa
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15989))
 // CS Name: ::OculusPlatformUserModel::<>c__DisplayClass15_0*
 class CORDL_TYPE __OculusPlatformUserModel____c__DisplayClass15_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tcs, offset 0x10, size 0x8
-  __declspec(property(get = __get_tcs, put = __set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlatformUserAuthTokenData*>* tcs;
+  __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlatformUserAuthTokenData*>* tcs;
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlatformUserAuthTokenData*>*& __get_tcs();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlatformUserAuthTokenData*>*& __cordl_internal_get_tcs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlatformUserAuthTokenData*>*> const& __get_tcs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlatformUserAuthTokenData*>*> const& __cordl_internal_get_tcs() const;
 
-  constexpr void __set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlatformUserAuthTokenData*>* value);
+  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::GlobalNamespace::PlatformUserAuthTokenData*>* value);
 
   static inline ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass15_0* New_ctor();
 
@@ -446,47 +448,49 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____c__Displa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15990))
 // CS Name: ::OculusPlatformUserModel::<>c__DisplayClass16_0*
 class CORDL_TYPE __OculusPlatformUserModel____c__DisplayClass16_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field requests, offset 0x10, size 0x4
-  __declspec(property(get = __get_requests, put = __set_requests)) int32_t requests;
+  __declspec(property(get = __cordl_internal_get_requests, put = __cordl_internal_set_requests)) int32_t requests;
 
   /// @brief Field success, offset 0x14, size 0x1
-  __declspec(property(get = __get_success, put = __set_success)) bool success;
+  __declspec(property(get = __cordl_internal_get_success, put = __cordl_internal_set_success)) bool success;
 
   /// @brief Field userNames, offset 0x18, size 0x8
-  __declspec(property(get = __get_userNames, put = __set_userNames))::ArrayW<::StringW, ::Array<::StringW>*> userNames;
+  __declspec(property(get = __cordl_internal_get_userNames, put = __cordl_internal_set_userNames))::ArrayW<::StringW, ::Array<::StringW>*> userNames;
 
   /// @brief Field tcs, offset 0x20, size 0x8
-  __declspec(property(get = __get_tcs, put = __set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* tcs;
+  __declspec(property(get = __cordl_internal_get_tcs,
+                      put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* tcs;
 
-  constexpr int32_t& __get_requests();
+  constexpr int32_t& __cordl_internal_get_requests();
 
-  constexpr int32_t const& __get_requests() const;
+  constexpr int32_t const& __cordl_internal_get_requests() const;
 
-  constexpr void __set_requests(int32_t value);
+  constexpr void __cordl_internal_set_requests(int32_t value);
 
-  constexpr bool& __get_success();
+  constexpr bool& __cordl_internal_get_success();
 
-  constexpr bool const& __get_success() const;
+  constexpr bool const& __cordl_internal_get_success() const;
 
-  constexpr void __set_success(bool value);
+  constexpr void __cordl_internal_set_success(bool value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_userNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_userNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_userNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_userNames() const;
 
-  constexpr void __set_userNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_userNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*& __get_tcs();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*& __cordl_internal_get_tcs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*> const& __get_tcs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>*> const&
+  __cordl_internal_get_tcs() const;
 
-  constexpr void __set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* value);
+  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>* value);
 
   static inline ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0* New_ctor();
 
@@ -540,29 +544,29 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____c__Displa
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15991))
 // CS Name: ::OculusPlatformUserModel::<>c__DisplayClass16_1*
 class CORDL_TYPE __OculusPlatformUserModel____c__DisplayClass16_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field index, offset 0x10, size 0x4
-  __declspec(property(get = __get_index, put = __set_index)) int32_t index;
+  __declspec(property(get = __cordl_internal_get_index, put = __cordl_internal_set_index)) int32_t index;
 
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
-  __declspec(property(get = __get_CS$__8__locals1, put = __set_CS$__8__locals1))::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0* CS$__8__locals1;
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1))::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0* CS$__8__locals1;
 
-  constexpr int32_t& __get_index();
+  constexpr int32_t& __cordl_internal_get_index();
 
-  constexpr int32_t const& __get_index() const;
+  constexpr int32_t const& __cordl_internal_get_index() const;
 
-  constexpr void __set_index(int32_t value);
+  constexpr void __cordl_internal_set_index(int32_t value);
 
-  constexpr ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0*& __get_CS$__8__locals1();
+  constexpr ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0*& __cordl_internal_get_CS$__8__locals1();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0*> const& __get_CS$__8__locals1() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0*> const& __cordl_internal_get_CS$__8__locals1() const;
 
-  constexpr void __set_CS$__8__locals1(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0* value);
+  constexpr void __cordl_internal_set_CS$__8__locals1(::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_0* value);
 
   static inline ::GlobalNamespace::__OculusPlatformUserModel____c__DisplayClass16_1* New_ctor();
 
@@ -606,9 +610,9 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel____c__Displa
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3402), inst: 902 }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(12925)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3394), inst: 902 }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15992)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12925)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 902 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 902 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15992)) CS Name:
 // ::OculusPlatformUserModel::<RequestXPlatformAccessToken>d__17
 struct CORDL_TYPE __OculusPlatformUserModel___RequestXPlatformAccessToken_d__17 {
 public:
@@ -683,7 +687,7 @@ static_assert(offsetof(::GlobalNamespace::__OculusPlatformUserModel___RequestXPl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12924))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12924))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15993))
 // CS Name: ::OculusPlatformUserModel*
 class CORDL_TYPE OculusPlatformUserModel : public ::System::Object {
@@ -706,22 +710,23 @@ public:
   using _GetUserInfo_d__12 = ::GlobalNamespace::__OculusPlatformUserModel___GetUserInfo_d__12;
 
   /// @brief Field _userInfoTask, offset 0x10, size 0x8
-  __declspec(property(get = __get__userInfoTask, put = __set__userInfoTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* _userInfoTask;
+  __declspec(property(get = __cordl_internal_get__userInfoTask, put = __cordl_internal_set__userInfoTask))::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* _userInfoTask;
 
   /// @brief Field _friendsUserIds, offset 0x18, size 0x8
-  __declspec(property(get = __get__friendsUserIds, put = __set__friendsUserIds))::ArrayW<::StringW, ::Array<::StringW>*> _friendsUserIds;
+  __declspec(property(get = __cordl_internal_get__friendsUserIds, put = __cordl_internal_set__friendsUserIds))::ArrayW<::StringW, ::Array<::StringW>*> _friendsUserIds;
 
   /// @brief Field _userInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get__userInfo, put = __set__userInfo))::GlobalNamespace::UserInfo* _userInfo;
+  __declspec(property(get = __cordl_internal_get__userInfo, put = __cordl_internal_set__userInfo))::GlobalNamespace::UserInfo* _userInfo;
 
   /// @brief Field _platformInit, offset 0x28, size 0x8
-  __declspec(property(get = __get__platformInit, put = __set__platformInit))::GlobalNamespace::IPlatformInit* _platformInit;
+  __declspec(property(get = __cordl_internal_get__platformInit, put = __cordl_internal_set__platformInit))::GlobalNamespace::IPlatformInit* _platformInit;
 
   /// @brief Field _lastXPlatformTokenStatusChange, offset 0x30, size 0x4
-  __declspec(property(get = __get__lastXPlatformTokenStatusChange, put = __set__lastXPlatformTokenStatusChange)) float_t _lastXPlatformTokenStatusChange;
+  __declspec(property(get = __cordl_internal_get__lastXPlatformTokenStatusChange, put = __cordl_internal_set__lastXPlatformTokenStatusChange)) float_t _lastXPlatformTokenStatusChange;
 
   /// @brief Field platformUserInfoDidChangeEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_platformUserInfoDidChangeEvent, put = __set_platformUserInfoDidChangeEvent))::System::Action_1<::GlobalNamespace::UserInfo*>* platformUserInfoDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_platformUserInfoDidChangeEvent,
+                      put = __cordl_internal_set_platformUserInfoDidChangeEvent))::System::Action_1<::GlobalNamespace::UserInfo*>* platformUserInfoDidChangeEvent;
 
   __declspec(property(get = get_CanXPlatformAccessTokenBeCached)) bool CanXPlatformAccessTokenBeCached;
 
@@ -731,41 +736,41 @@ public:
   /// @brief Convert to "::GlobalNamespace::IPlatformUserModel"
   constexpr ::GlobalNamespace::IPlatformUserModel* i___GlobalNamespace__IPlatformUserModel() noexcept;
 
-  constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>*& __get__userInfoTask();
+  constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>*& __cordl_internal_get__userInfoTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>*> const& __get__userInfoTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>*> const& __cordl_internal_get__userInfoTask() const;
 
-  constexpr void __set__userInfoTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* value);
+  constexpr void __cordl_internal_set__userInfoTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::UserInfo*>* value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__friendsUserIds();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__friendsUserIds();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__friendsUserIds() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__friendsUserIds() const;
 
-  constexpr void __set__friendsUserIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__friendsUserIds(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::GlobalNamespace::UserInfo*& __get__userInfo();
+  constexpr ::GlobalNamespace::UserInfo*& __cordl_internal_get__userInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::UserInfo*> const& __get__userInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::UserInfo*> const& __cordl_internal_get__userInfo() const;
 
-  constexpr void __set__userInfo(::GlobalNamespace::UserInfo* value);
+  constexpr void __cordl_internal_set__userInfo(::GlobalNamespace::UserInfo* value);
 
-  constexpr ::GlobalNamespace::IPlatformInit*& __get__platformInit();
+  constexpr ::GlobalNamespace::IPlatformInit*& __cordl_internal_get__platformInit();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformInit*> const& __get__platformInit() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPlatformInit*> const& __cordl_internal_get__platformInit() const;
 
-  constexpr void __set__platformInit(::GlobalNamespace::IPlatformInit* value);
+  constexpr void __cordl_internal_set__platformInit(::GlobalNamespace::IPlatformInit* value);
 
-  constexpr float_t& __get__lastXPlatformTokenStatusChange();
+  constexpr float_t& __cordl_internal_get__lastXPlatformTokenStatusChange();
 
-  constexpr float_t const& __get__lastXPlatformTokenStatusChange() const;
+  constexpr float_t const& __cordl_internal_get__lastXPlatformTokenStatusChange() const;
 
-  constexpr void __set__lastXPlatformTokenStatusChange(float_t value);
+  constexpr void __cordl_internal_set__lastXPlatformTokenStatusChange(float_t value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::UserInfo*>*& __get_platformUserInfoDidChangeEvent();
+  constexpr ::System::Action_1<::GlobalNamespace::UserInfo*>*& __cordl_internal_get_platformUserInfoDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::UserInfo*>*> const& __get_platformUserInfoDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::UserInfo*>*> const& __cordl_internal_get_platformUserInfoDidChangeEvent() const;
 
-  constexpr void __set_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
+  constexpr void __cordl_internal_set_platformUserInfoDidChangeEvent(::System::Action_1<::GlobalNamespace::UserInfo*>* value);
 
   static inline ::GlobalNamespace::OculusPlatformUserModel* New_ctor(::GlobalNamespace::IPlatformInit* platformInit);
 

@@ -27,7 +27,7 @@ MARK_VAL_T(::GlobalNamespace::__AveragingValueRecorder__AverageValueData);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5838))
 // CS Name: ::AveragingValueRecorder::AverageValueData
 struct CORDL_TYPE __AveragingValueRecorder__AverageValueData {
@@ -83,7 +83,7 @@ static_assert(offsetof(::GlobalNamespace::__AveragingValueRecorder__AverageValue
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5839))
 // CS Name: ::AveragingValueRecorder*
 class CORDL_TYPE AveragingValueRecorder : public ::System::Object {
@@ -92,95 +92,96 @@ public:
   using AverageValueData = ::GlobalNamespace::__AveragingValueRecorder__AverageValueData;
 
   /// @brief Field _averageWindowDuration, offset 0x10, size 0x4
-  __declspec(property(get = __get__averageWindowDuration, put = __set__averageWindowDuration)) float_t _averageWindowDuration;
+  __declspec(property(get = __cordl_internal_get__averageWindowDuration, put = __cordl_internal_set__averageWindowDuration)) float_t _averageWindowDuration;
 
   /// @brief Field _historyValuesPerSecond, offset 0x14, size 0x4
-  __declspec(property(get = __get__historyValuesPerSecond, put = __set__historyValuesPerSecond)) float_t _historyValuesPerSecond;
+  __declspec(property(get = __cordl_internal_get__historyValuesPerSecond, put = __cordl_internal_set__historyValuesPerSecond)) float_t _historyValuesPerSecond;
 
   /// @brief Field _historyValuesCount, offset 0x18, size 0x4
-  __declspec(property(get = __get__historyValuesCount, put = __set__historyValuesCount)) int32_t _historyValuesCount;
+  __declspec(property(get = __cordl_internal_get__historyValuesCount, put = __cordl_internal_set__historyValuesCount)) int32_t _historyValuesCount;
 
   /// @brief Field _averageWindowValues, offset 0x20, size 0x8
-  __declspec(property(get = __get__averageWindowValues,
-                      put = __set__averageWindowValues))::System::Collections::Generic::Queue_1<::GlobalNamespace::__AveragingValueRecorder__AverageValueData>* _averageWindowValues;
+  __declspec(property(get = __cordl_internal_get__averageWindowValues,
+                      put = __cordl_internal_set__averageWindowValues))::System::Collections::Generic::Queue_1<::GlobalNamespace::__AveragingValueRecorder__AverageValueData>* _averageWindowValues;
 
   /// @brief Field _historyValues, offset 0x28, size 0x8
-  __declspec(property(get = __get__historyValues, put = __set__historyValues))::System::Collections::Generic::Queue_1<float_t>* _historyValues;
+  __declspec(property(get = __cordl_internal_get__historyValues, put = __cordl_internal_set__historyValues))::System::Collections::Generic::Queue_1<float_t>* _historyValues;
 
   /// @brief Field _time, offset 0x30, size 0x4
-  __declspec(property(get = __get__time, put = __set__time)) float_t _time;
+  __declspec(property(get = __cordl_internal_get__time, put = __cordl_internal_set__time)) float_t _time;
 
   /// @brief Field _historyTime, offset 0x34, size 0x4
-  __declspec(property(get = __get__historyTime, put = __set__historyTime)) float_t _historyTime;
+  __declspec(property(get = __cordl_internal_get__historyTime, put = __cordl_internal_set__historyTime)) float_t _historyTime;
 
   /// @brief Field _averageValue, offset 0x38, size 0x4
-  __declspec(property(get = __get__averageValue, put = __set__averageValue)) float_t _averageValue;
+  __declspec(property(get = __cordl_internal_get__averageValue, put = __cordl_internal_set__averageValue)) float_t _averageValue;
 
   /// @brief Field _averageWindowValuesDuration, offset 0x3c, size 0x4
-  __declspec(property(get = __get__averageWindowValuesDuration, put = __set__averageWindowValuesDuration)) float_t _averageWindowValuesDuration;
+  __declspec(property(get = __cordl_internal_get__averageWindowValuesDuration, put = __cordl_internal_set__averageWindowValuesDuration)) float_t _averageWindowValuesDuration;
 
   /// @brief Field _lastValue, offset 0x40, size 0x4
-  __declspec(property(get = __get__lastValue, put = __set__lastValue)) float_t _lastValue;
+  __declspec(property(get = __cordl_internal_get__lastValue, put = __cordl_internal_set__lastValue)) float_t _lastValue;
 
-  constexpr float_t& __get__averageWindowDuration();
+  constexpr float_t& __cordl_internal_get__averageWindowDuration();
 
-  constexpr float_t const& __get__averageWindowDuration() const;
+  constexpr float_t const& __cordl_internal_get__averageWindowDuration() const;
 
-  constexpr void __set__averageWindowDuration(float_t value);
+  constexpr void __cordl_internal_set__averageWindowDuration(float_t value);
 
-  constexpr float_t& __get__historyValuesPerSecond();
+  constexpr float_t& __cordl_internal_get__historyValuesPerSecond();
 
-  constexpr float_t const& __get__historyValuesPerSecond() const;
+  constexpr float_t const& __cordl_internal_get__historyValuesPerSecond() const;
 
-  constexpr void __set__historyValuesPerSecond(float_t value);
+  constexpr void __cordl_internal_set__historyValuesPerSecond(float_t value);
 
-  constexpr int32_t& __get__historyValuesCount();
+  constexpr int32_t& __cordl_internal_get__historyValuesCount();
 
-  constexpr int32_t const& __get__historyValuesCount() const;
+  constexpr int32_t const& __cordl_internal_get__historyValuesCount() const;
 
-  constexpr void __set__historyValuesCount(int32_t value);
+  constexpr void __cordl_internal_set__historyValuesCount(int32_t value);
 
-  constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::__AveragingValueRecorder__AverageValueData>*& __get__averageWindowValues();
+  constexpr ::System::Collections::Generic::Queue_1<::GlobalNamespace::__AveragingValueRecorder__AverageValueData>*& __cordl_internal_get__averageWindowValues();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::GlobalNamespace::__AveragingValueRecorder__AverageValueData>*> const& __get__averageWindowValues() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<::GlobalNamespace::__AveragingValueRecorder__AverageValueData>*> const&
+  __cordl_internal_get__averageWindowValues() const;
 
-  constexpr void __set__averageWindowValues(::System::Collections::Generic::Queue_1<::GlobalNamespace::__AveragingValueRecorder__AverageValueData>* value);
+  constexpr void __cordl_internal_set__averageWindowValues(::System::Collections::Generic::Queue_1<::GlobalNamespace::__AveragingValueRecorder__AverageValueData>* value);
 
-  constexpr ::System::Collections::Generic::Queue_1<float_t>*& __get__historyValues();
+  constexpr ::System::Collections::Generic::Queue_1<float_t>*& __cordl_internal_get__historyValues();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<float_t>*> const& __get__historyValues() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Queue_1<float_t>*> const& __cordl_internal_get__historyValues() const;
 
-  constexpr void __set__historyValues(::System::Collections::Generic::Queue_1<float_t>* value);
+  constexpr void __cordl_internal_set__historyValues(::System::Collections::Generic::Queue_1<float_t>* value);
 
-  constexpr float_t& __get__time();
+  constexpr float_t& __cordl_internal_get__time();
 
-  constexpr float_t const& __get__time() const;
+  constexpr float_t const& __cordl_internal_get__time() const;
 
-  constexpr void __set__time(float_t value);
+  constexpr void __cordl_internal_set__time(float_t value);
 
-  constexpr float_t& __get__historyTime();
+  constexpr float_t& __cordl_internal_get__historyTime();
 
-  constexpr float_t const& __get__historyTime() const;
+  constexpr float_t const& __cordl_internal_get__historyTime() const;
 
-  constexpr void __set__historyTime(float_t value);
+  constexpr void __cordl_internal_set__historyTime(float_t value);
 
-  constexpr float_t& __get__averageValue();
+  constexpr float_t& __cordl_internal_get__averageValue();
 
-  constexpr float_t const& __get__averageValue() const;
+  constexpr float_t const& __cordl_internal_get__averageValue() const;
 
-  constexpr void __set__averageValue(float_t value);
+  constexpr void __cordl_internal_set__averageValue(float_t value);
 
-  constexpr float_t& __get__averageWindowValuesDuration();
+  constexpr float_t& __cordl_internal_get__averageWindowValuesDuration();
 
-  constexpr float_t const& __get__averageWindowValuesDuration() const;
+  constexpr float_t const& __cordl_internal_get__averageWindowValuesDuration() const;
 
-  constexpr void __set__averageWindowValuesDuration(float_t value);
+  constexpr void __cordl_internal_set__averageWindowValuesDuration(float_t value);
 
-  constexpr float_t& __get__lastValue();
+  constexpr float_t& __cordl_internal_get__lastValue();
 
-  constexpr float_t const& __get__lastValue() const;
+  constexpr float_t const& __cordl_internal_get__lastValue() const;
 
-  constexpr void __set__lastValue(float_t value);
+  constexpr void __cordl_internal_set__lastValue(float_t value);
 
   static inline ::GlobalNamespace::AveragingValueRecorder* New_ctor(float_t averageWindowDuration, float_t historyWindowDuration, float_t historyValuesPerSecond);
 

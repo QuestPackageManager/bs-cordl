@@ -45,14 +45,14 @@ MARK_REF_PTR_T(::ENet::Host);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15233))
 // CS Name: ::ENet::Host*
 class CORDL_TYPE Host : public ::System::Object {
 public:
   // Declarations
   /// @brief Field nativeHost, offset 0x10, size 0x8
-  __declspec(property(get = __get_nativeHost, put = __set_nativeHost)) void* nativeHost;
+  __declspec(property(get = __cordl_internal_get_nativeHost, put = __cordl_internal_set_nativeHost)) void* nativeHost;
 
   __declspec(property(get = get_NativeData, put = set_NativeData)) void* NativeData;
 
@@ -74,11 +74,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr void*& __get_nativeHost();
+  constexpr void*& __cordl_internal_get_nativeHost();
 
-  constexpr void* const& __get_nativeHost() const;
+  constexpr void* const& __cordl_internal_get_nativeHost() const;
 
-  constexpr void __set_nativeHost(void* value);
+  constexpr void __cordl_internal_set_nativeHost(void* value);
 
   /// @brief Method get_NativeData, addr 0x21f0d68, size 0x8, virtual false, abstract: false, final false
   inline void* get_NativeData();

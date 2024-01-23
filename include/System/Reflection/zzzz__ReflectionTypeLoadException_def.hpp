@@ -31,18 +31,18 @@ MARK_REF_PTR_T(::System::Reflection::ReflectionTypeLoadException);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3489))
 // CS Name: ::System.Reflection::ReflectionTypeLoadException*
 class CORDL_TYPE ReflectionTypeLoadException : public ::System::SystemException {
 public:
   // Declarations
   /// @brief Field <Types>k__BackingField, offset 0x90, size 0x8
-  __declspec(property(get = __get__Types_k__BackingField, put = __set__Types_k__BackingField))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _Types_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Types_k__BackingField, put = __cordl_internal_set__Types_k__BackingField))::ArrayW<::System::Type*, ::Array<::System::Type*>*> _Types_k__BackingField;
 
   /// @brief Field <LoaderExceptions>k__BackingField, offset 0x98, size 0x8
-  __declspec(property(get = __get__LoaderExceptions_k__BackingField,
-                      put = __set__LoaderExceptions_k__BackingField))::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> _LoaderExceptions_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__LoaderExceptions_k__BackingField,
+                      put = __cordl_internal_set__LoaderExceptions_k__BackingField))::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> _LoaderExceptions_k__BackingField;
 
   __declspec(property(get = get_LoaderExceptions))::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> LoaderExceptions;
 
@@ -54,17 +54,17 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __get__Types_k__BackingField();
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get__Types_k__BackingField();
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __get__Types_k__BackingField() const;
+  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get__Types_k__BackingField() const;
 
-  constexpr void __set__Types_k__BackingField(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+  constexpr void __cordl_internal_set__Types_k__BackingField(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  constexpr ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*>& __get__LoaderExceptions_k__BackingField();
+  constexpr ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*>& __cordl_internal_get__LoaderExceptions_k__BackingField();
 
-  constexpr ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> const& __get__LoaderExceptions_k__BackingField() const;
+  constexpr ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> const& __cordl_internal_get__LoaderExceptions_k__BackingField() const;
 
-  constexpr void __set__LoaderExceptions_k__BackingField(::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> value);
+  constexpr void __cordl_internal_set__LoaderExceptions_k__BackingField(::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> value);
 
   static inline ::System::Reflection::ReflectionTypeLoadException* New_ctor(::ArrayW<::System::Type*, ::Array<::System::Type*>*> classes,
                                                                             ::ArrayW<::System::Exception*, ::Array<::System::Exception*>*> exceptions);

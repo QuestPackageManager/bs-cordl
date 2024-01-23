@@ -129,7 +129,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3818))
 // CS Name: ::Dictionary`2::Entry<TKey,TValue>
 struct CORDL_TYPE __Dictionary_2__Entry {
@@ -168,7 +168,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1206 }), TypeDefinitionIndex(TypeDefinitionIndex(3841))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 1206 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3819))
 // CS Name: ::Dictionary`2::Enumerator<TKey,TValue>
 struct CORDL_TYPE __Dictionary_2__Enumerator {
@@ -274,7 +274,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3820))
 // CS Name: ::Dictionary`2::KeyCollection::Enumerator<TKey,TValue>
 struct CORDL_TYPE __Dictionary_2__KeyCollection__Enumerator {
@@ -353,7 +353,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3821))
 // CS Name: ::Dictionary`2::KeyCollection<TKey,TValue>*
 class CORDL_TYPE __Dictionary_2__KeyCollection : public ::System::Object {
@@ -362,7 +362,7 @@ public:
   using Enumerator = ::GlobalNamespace::__Dictionary_2__KeyCollection__Enumerator<TKey, TValue>;
 
   /// @brief Field _dictionary, offset 0x10, size 0x8
-  __declspec(property(get = __get__dictionary, put = __set__dictionary))::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
+  __declspec(property(get = __cordl_internal_get__dictionary, put = __cordl_internal_set__dictionary))::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -402,11 +402,11 @@ public:
   /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<TKey>"
   constexpr ::System::Collections::Generic::IReadOnlyCollection_1<TKey>* i___System__Collections__Generic__IReadOnlyCollection_1_TKey_() noexcept;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __get__dictionary();
+  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __cordl_internal_get__dictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& __get__dictionary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& __cordl_internal_get__dictionary() const;
 
-  constexpr void __set__dictionary(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__dictionary(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value);
 
   static inline ::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>* New_ctor(::System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary);
 
@@ -479,7 +479,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3822))
 // CS Name: ::Dictionary`2::ValueCollection::Enumerator<TKey,TValue>
 struct CORDL_TYPE __Dictionary_2__ValueCollection__Enumerator {
@@ -558,7 +558,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3823))
 // CS Name: ::Dictionary`2::ValueCollection<TKey,TValue>*
 class CORDL_TYPE __Dictionary_2__ValueCollection : public ::System::Object {
@@ -567,7 +567,7 @@ public:
   using Enumerator = ::GlobalNamespace::__Dictionary_2__ValueCollection__Enumerator<TKey, TValue>;
 
   /// @brief Field _dictionary, offset 0x10, size 0x8
-  __declspec(property(get = __get__dictionary, put = __set__dictionary))::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
+  __declspec(property(get = __cordl_internal_get__dictionary, put = __cordl_internal_set__dictionary))::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -607,11 +607,11 @@ public:
   /// @brief Convert to "::System::Collections::Generic::IReadOnlyCollection_1<TValue>"
   constexpr ::System::Collections::Generic::IReadOnlyCollection_1<TValue>* i___System__Collections__Generic__IReadOnlyCollection_1_TValue_() noexcept;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __get__dictionary();
+  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TValue>*& __cordl_internal_get__dictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& __get__dictionary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TValue>*> const& __cordl_internal_get__dictionary() const;
 
-  constexpr void __set__dictionary(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__dictionary(::System::Collections::Generic::Dictionary_2<TKey, TValue>* value);
 
   static inline ::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* New_ctor(::System::Collections::Generic::Dictionary_2<TKey, TValue>* dictionary);
 
@@ -684,7 +684,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3824))
 // CS Name: ::System.Collections.Generic::Dictionary`2<TKey,TValue>*
 class CORDL_TYPE Dictionary_2 : public ::System::Object {
@@ -699,36 +699,35 @@ public:
   using Entry = ::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>;
 
   /// @brief Field _buckets, offset 0x10, size 0x8
-  __declspec(property(get = __get__buckets, put = __set__buckets))::ArrayW<int32_t, ::Array<int32_t>*> _buckets;
+  __declspec(property(get = __cordl_internal_get__buckets, put = __cordl_internal_set__buckets))::ArrayW<int32_t, ::Array<int32_t>*> _buckets;
 
   /// @brief Field _entries, offset 0x18, size 0x8
-  __declspec(property(
-      get = __get__entries,
-      put = __set__entries))::ArrayW<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>, ::Array<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>>*> _entries;
+  __declspec(property(get = __cordl_internal_get__entries, put = __cordl_internal_set__entries))::ArrayW<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>,
+                                                                                                         ::Array<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>>*> _entries;
 
   /// @brief Field _count, offset 0x20, size 0x4
-  __declspec(property(get = __get__count, put = __set__count)) int32_t _count;
+  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
 
   /// @brief Field _freeList, offset 0x24, size 0x4
-  __declspec(property(get = __get__freeList, put = __set__freeList)) int32_t _freeList;
+  __declspec(property(get = __cordl_internal_get__freeList, put = __cordl_internal_set__freeList)) int32_t _freeList;
 
   /// @brief Field _freeCount, offset 0x28, size 0x4
-  __declspec(property(get = __get__freeCount, put = __set__freeCount)) int32_t _freeCount;
+  __declspec(property(get = __cordl_internal_get__freeCount, put = __cordl_internal_set__freeCount)) int32_t _freeCount;
 
   /// @brief Field _version, offset 0x2c, size 0x4
-  __declspec(property(get = __get__version, put = __set__version)) int32_t _version;
+  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
 
   /// @brief Field _comparer, offset 0x30, size 0x8
-  __declspec(property(get = __get__comparer, put = __set__comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* _comparer;
+  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* _comparer;
 
   /// @brief Field _keys, offset 0x38, size 0x8
-  __declspec(property(get = __get__keys, put = __set__keys))::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>* _keys;
+  __declspec(property(get = __cordl_internal_get__keys, put = __cordl_internal_set__keys))::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>* _keys;
 
   /// @brief Field _values, offset 0x40, size 0x8
-  __declspec(property(get = __get__values, put = __set__values))::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* _values;
+  __declspec(property(get = __cordl_internal_get__values, put = __cordl_internal_set__values))::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* _values;
 
   /// @brief Field _syncRoot, offset 0x48, size 0x8
-  __declspec(property(get = __get__syncRoot, put = __set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -824,65 +823,68 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__buckets();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__buckets();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__buckets() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__buckets() const;
 
-  constexpr void __set__buckets(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__buckets(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>, ::Array<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>>*>& __get__entries();
+  constexpr ::ArrayW<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>, ::Array<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>>*>&
+  __cordl_internal_get__entries();
 
-  constexpr ::ArrayW<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>, ::Array<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>>*> const& __get__entries() const;
+  constexpr ::ArrayW<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>, ::Array<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>>*> const&
+  __cordl_internal_get__entries() const;
 
-  constexpr void __set__entries(::ArrayW<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>, ::Array<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>>*> value);
+  constexpr void
+  __cordl_internal_set__entries(::ArrayW<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>, ::Array<::System::Collections::Generic::__Dictionary_2__Entry<TKey, TValue>>*> value);
 
-  constexpr int32_t& __get__count();
+  constexpr int32_t& __cordl_internal_get__count();
 
-  constexpr int32_t const& __get__count() const;
+  constexpr int32_t const& __cordl_internal_get__count() const;
 
-  constexpr void __set__count(int32_t value);
+  constexpr void __cordl_internal_set__count(int32_t value);
 
-  constexpr int32_t& __get__freeList();
+  constexpr int32_t& __cordl_internal_get__freeList();
 
-  constexpr int32_t const& __get__freeList() const;
+  constexpr int32_t const& __cordl_internal_get__freeList() const;
 
-  constexpr void __set__freeList(int32_t value);
+  constexpr void __cordl_internal_set__freeList(int32_t value);
 
-  constexpr int32_t& __get__freeCount();
+  constexpr int32_t& __cordl_internal_get__freeCount();
 
-  constexpr int32_t const& __get__freeCount() const;
+  constexpr int32_t const& __cordl_internal_get__freeCount() const;
 
-  constexpr void __set__freeCount(int32_t value);
+  constexpr void __cordl_internal_set__freeCount(int32_t value);
 
-  constexpr int32_t& __get__version();
+  constexpr int32_t& __cordl_internal_get__version();
 
-  constexpr int32_t const& __get__version() const;
+  constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr void __set__version(int32_t value);
+  constexpr void __cordl_internal_set__version(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __get__comparer();
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __cordl_internal_get__comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& __get__comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& __cordl_internal_get__comparer() const;
 
-  constexpr void __set__comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value);
+  constexpr void __cordl_internal_set__comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value);
 
-  constexpr ::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>*& __get__keys();
+  constexpr ::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>*& __cordl_internal_get__keys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>*> const& __get__keys() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>*> const& __cordl_internal_get__keys() const;
 
-  constexpr void __set__keys(::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__keys(::System::Collections::Generic::__Dictionary_2__KeyCollection<TKey, TValue>* value);
 
-  constexpr ::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>*& __get__values();
+  constexpr ::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>*& __cordl_internal_get__values();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>*> const& __get__values() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>*> const& __cordl_internal_get__values() const;
 
-  constexpr void __set__values(::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* value);
+  constexpr void __cordl_internal_set__values(::System::Collections::Generic::__Dictionary_2__ValueCollection<TKey, TValue>* value);
 
-  constexpr ::System::Object*& __get__syncRoot();
+  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__syncRoot() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
-  constexpr void __set__syncRoot(::System::Object* value);
+  constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
   static inline ::System::Collections::Generic::Dictionary_2<TKey, TValue>* New_ctor();
 

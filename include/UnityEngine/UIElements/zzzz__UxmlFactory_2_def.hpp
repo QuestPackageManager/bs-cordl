@@ -29,14 +29,14 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TCreatedType, typename TTraits>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6997))
 // CS Name: ::UnityEngine.UIElements::UxmlFactory`2<TCreatedType,TTraits>*
 class CORDL_TYPE UxmlFactory_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Traits, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Traits, put = __set_m_Traits)) TTraits m_Traits;
+  __declspec(property(get = __cordl_internal_get_m_Traits, put = __cordl_internal_set_m_Traits)) TTraits m_Traits;
 
   __declspec(property(get = get_uxmlName))::StringW uxmlName;
 
@@ -50,11 +50,11 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IUxmlFactory"
   constexpr ::UnityEngine::UIElements::IUxmlFactory* i___UnityEngine__UIElements__IUxmlFactory() noexcept;
 
-  constexpr TTraits& __get_m_Traits();
+  constexpr TTraits& __cordl_internal_get_m_Traits();
 
-  constexpr TTraits const& __get_m_Traits() const;
+  constexpr TTraits const& __cordl_internal_get_m_Traits() const;
 
-  constexpr void __set_m_Traits(TTraits value);
+  constexpr void __cordl_internal_set_m_Traits(TTraits value);
 
   static inline ::UnityEngine::UIElements::UxmlFactory_2<TCreatedType, TTraits>* New_ctor();
 

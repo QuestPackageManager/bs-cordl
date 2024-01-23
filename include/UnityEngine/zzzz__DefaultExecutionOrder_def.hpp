@@ -15,22 +15,22 @@ MARK_REF_PTR_T(::UnityEngine::DefaultExecutionOrder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10222))
 // CS Name: ::UnityEngine::DefaultExecutionOrder*
 class CORDL_TYPE DefaultExecutionOrder : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field m_Order, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_Order, put = __set_m_Order)) int32_t m_Order;
+  __declspec(property(get = __cordl_internal_get_m_Order, put = __cordl_internal_set_m_Order)) int32_t m_Order;
 
   __declspec(property(get = get_order)) int32_t order;
 
-  constexpr int32_t& __get_m_Order();
+  constexpr int32_t& __cordl_internal_get_m_Order();
 
-  constexpr int32_t const& __get_m_Order() const;
+  constexpr int32_t const& __cordl_internal_get_m_Order() const;
 
-  constexpr void __set_m_Order(int32_t value);
+  constexpr void __cordl_internal_set_m_Order(int32_t value);
 
   static inline ::UnityEngine::DefaultExecutionOrder* New_ctor(int32_t order);
 

@@ -18,22 +18,22 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::ActivatedServiceTypeEntry);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3079))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3079))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3054))
 // CS Name: ::System.Runtime.Remoting::ActivatedServiceTypeEntry*
 class CORDL_TYPE ActivatedServiceTypeEntry : public ::System::Runtime::Remoting::TypeEntry {
 public:
   // Declarations
   /// @brief Field obj_type, offset 0x20, size 0x8
-  __declspec(property(get = __get_obj_type, put = __set_obj_type))::System::Type* obj_type;
+  __declspec(property(get = __cordl_internal_get_obj_type, put = __cordl_internal_set_obj_type))::System::Type* obj_type;
 
   __declspec(property(get = get_ObjectType))::System::Type* ObjectType;
 
-  constexpr ::System::Type*& __get_obj_type();
+  constexpr ::System::Type*& __cordl_internal_get_obj_type();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_obj_type() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_obj_type() const;
 
-  constexpr void __set_obj_type(::System::Type* value);
+  constexpr void __cordl_internal_set_obj_type(::System::Type* value);
 
   static inline ::System::Runtime::Remoting::ActivatedServiceTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName);
 

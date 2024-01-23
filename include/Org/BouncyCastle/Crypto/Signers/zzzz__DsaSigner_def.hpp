@@ -38,20 +38,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::DsaSigner);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1127))
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::DsaSigner*
 class CORDL_TYPE DsaSigner : public ::System::Object {
 public:
   // Declarations
   /// @brief Field kCalculator, offset 0x10, size 0x8
-  __declspec(property(get = __get_kCalculator, put = __set_kCalculator))::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* kCalculator;
+  __declspec(property(get = __cordl_internal_get_kCalculator, put = __cordl_internal_set_kCalculator))::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* kCalculator;
 
   /// @brief Field key, offset 0x18, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* key;
 
   /// @brief Field random, offset 0x20, size 0x8
-  __declspec(property(get = __get_random, put = __set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -69,23 +69,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDsa"
   constexpr ::Org::BouncyCastle::Crypto::IDsa* i___Org__BouncyCastle__Crypto__IDsa() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*& __get_kCalculator();
+  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*& __cordl_internal_get_kCalculator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*> const& __get_kCalculator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*> const& __cordl_internal_get_kCalculator() const;
 
-  constexpr void __set_kCalculator(::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* value);
+  constexpr void __cordl_internal_set_kCalculator(::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*& __get_key();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* value);
+  constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::DsaKeyParameters* value);
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_random();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_random() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
-  constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::DsaSigner* New_ctor();
 

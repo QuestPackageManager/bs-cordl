@@ -27,7 +27,7 @@ namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T, typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11860))
 // CS Name: ::Newtonsoft.Json.Utilities::MethodCall`2<T,TResult>*
 class CORDL_TYPE MethodCall_2 : public ::System::MulticastDelegate {

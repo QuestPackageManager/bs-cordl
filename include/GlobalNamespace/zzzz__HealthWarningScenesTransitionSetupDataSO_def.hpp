@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::HealthWarningScenesTransitionSetupDataSO);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15418))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15418))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6065))
 // CS Name: ::HealthWarningScenesTransitionSetupDataSO*
 class CORDL_TYPE HealthWarningScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {

@@ -23,7 +23,7 @@ MARK_REF_PTR_T(::Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10926))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10926))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10921))
 // CS Name: ::Zenject::IdScopeConcreteIdArgConditionCopyNonLazyBinder*
 class CORDL_TYPE IdScopeConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder {

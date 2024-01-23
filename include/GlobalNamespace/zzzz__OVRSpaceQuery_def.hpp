@@ -49,8 +49,8 @@ MARK_VAL_T(::GlobalNamespace::__OVRSpaceQuery__Options);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7838)), TypeDefinitionIndex(TypeDefinitionIndex(7835)), TypeDefinitionIndex(TypeDefinitionIndex(7839)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7990))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7992)) CS Name: ::OVRSpaceQuery::Options
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7835)), TypeDefinitionIndex(TypeDefinitionIndex(7838)), TypeDefinitionIndex(TypeDefinitionIndex(7839)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7990))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7992)) CS Name: ::OVRSpaceQuery::Options
 struct CORDL_TYPE __OVRSpaceQuery__Options {
 public:
   // Declarations
@@ -201,7 +201,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSpaceQuery__Options, _uuidFilter)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7993))
 // CS Name: ::OVRSpaceQuery*
 class CORDL_TYPE OVRSpaceQuery : public ::System::Object {

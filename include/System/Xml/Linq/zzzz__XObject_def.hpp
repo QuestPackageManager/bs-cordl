@@ -35,33 +35,33 @@ MARK_REF_PTR_T(::System::Xml::Linq::XObject);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15454))
 // CS Name: ::System.Xml.Linq::XObject*
 class CORDL_TYPE XObject : public ::System::Object {
 public:
   // Declarations
   /// @brief Field parent, offset 0x10, size 0x8
-  __declspec(property(get = __get_parent, put = __set_parent))::System::Xml::Linq::XContainer* parent;
+  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent))::System::Xml::Linq::XContainer* parent;
 
   /// @brief Field annotations, offset 0x18, size 0x8
-  __declspec(property(get = __get_annotations, put = __set_annotations))::System::Object* annotations;
+  __declspec(property(get = __cordl_internal_get_annotations, put = __cordl_internal_set_annotations))::System::Object* annotations;
 
   __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
 
   __declspec(property(get = get_Parent))::System::Xml::Linq::XElement* Parent;
 
-  constexpr ::System::Xml::Linq::XContainer*& __get_parent();
+  constexpr ::System::Xml::Linq::XContainer*& __cordl_internal_get_parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XContainer*> const& __get_parent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XContainer*> const& __cordl_internal_get_parent() const;
 
-  constexpr void __set_parent(::System::Xml::Linq::XContainer* value);
+  constexpr void __cordl_internal_set_parent(::System::Xml::Linq::XContainer* value);
 
-  constexpr ::System::Object*& __get_annotations();
+  constexpr ::System::Object*& __cordl_internal_get_annotations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_annotations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_annotations() const;
 
-  constexpr void __set_annotations(::System::Object* value);
+  constexpr void __cordl_internal_set_annotations(::System::Object* value);
 
   static inline ::System::Xml::Linq::XObject* New_ctor();
 

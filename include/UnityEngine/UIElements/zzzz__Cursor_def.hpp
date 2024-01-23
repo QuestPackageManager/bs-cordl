@@ -29,13 +29,13 @@ MARK_VAL_T(::UnityEngine::UIElements::Cursor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6808))
 // CS Name: ::UnityEngine.UIElements::Cursor
 struct CORDL_TYPE Cursor {
 public:
   // Declarations
-  __declspec(property(get = get_texture, put = set_texture))::UnityEngine::Texture2D* texture;
+  __declspec(property(get = get_texture, put = set_texture))::UnityW<::UnityEngine::Texture2D> texture;
 
   __declspec(property(get = get_hotspot, put = set_hotspot))::UnityEngine::Vector2 hotspot;
 
@@ -48,7 +48,7 @@ public:
   constexpr ::System::IEquatable_1<::UnityEngine::UIElements::Cursor>* i___System__IEquatable_1___UnityEngine__UIElements__Cursor_();
 
   /// @brief Method get_texture, addr 0x2dbf064, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture2D* get_texture();
+  inline ::UnityW<::UnityEngine::Texture2D> get_texture();
 
   /// @brief Method set_texture, addr 0x2dbf06c, size 0x8, virtual false, abstract: false, final false
   inline void set_texture(::UnityEngine::Texture2D* value);
@@ -80,16 +80,16 @@ public:
   /// @brief Method ToString, addr 0x2dbf2dc, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  // Ctor Parameters [CppParam { name: "_texture_k__BackingField", ty: "::UnityEngine::Texture2D*", modifiers: "", def_value: None }, CppParam { name: "_hotspot_k__BackingField", ty:
+  // Ctor Parameters [CppParam { name: "_texture_k__BackingField", ty: "::UnityW<::UnityEngine::Texture2D>", modifiers: "", def_value: None }, CppParam { name: "_hotspot_k__BackingField", ty:
   // "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "_defaultCursorId_k__BackingField", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr Cursor(::UnityEngine::Texture2D* _texture_k__BackingField, ::UnityEngine::Vector2 _hotspot_k__BackingField, int32_t _defaultCursorId_k__BackingField) noexcept;
+  constexpr Cursor(::UnityW<::UnityEngine::Texture2D> _texture_k__BackingField, ::UnityEngine::Vector2 _hotspot_k__BackingField, int32_t _defaultCursorId_k__BackingField) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr Cursor();
 
   /// @brief Field <texture>k__BackingField, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::Texture2D* _texture_k__BackingField;
+  ::UnityW<::UnityEngine::Texture2D> _texture_k__BackingField;
 
   /// @brief Field <hotspot>k__BackingField, offset: 0x8, size: 0x8, def value: None
   ::UnityEngine::Vector2 _hotspot_k__BackingField;

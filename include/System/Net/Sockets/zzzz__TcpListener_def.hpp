@@ -39,49 +39,49 @@ MARK_REF_PTR_T(::System::Net::Sockets::TcpListener);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9354))
 // CS Name: ::System.Net.Sockets::TcpListener*
 class CORDL_TYPE TcpListener : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_ServerSocketEP, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_ServerSocketEP, put = __set_m_ServerSocketEP))::System::Net::IPEndPoint* m_ServerSocketEP;
+  __declspec(property(get = __cordl_internal_get_m_ServerSocketEP, put = __cordl_internal_set_m_ServerSocketEP))::System::Net::IPEndPoint* m_ServerSocketEP;
 
   /// @brief Field m_ServerSocket, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_ServerSocket, put = __set_m_ServerSocket))::System::Net::Sockets::Socket* m_ServerSocket;
+  __declspec(property(get = __cordl_internal_get_m_ServerSocket, put = __cordl_internal_set_m_ServerSocket))::System::Net::Sockets::Socket* m_ServerSocket;
 
   /// @brief Field m_Active, offset 0x20, size 0x1
-  __declspec(property(get = __get_m_Active, put = __set_m_Active)) bool m_Active;
+  __declspec(property(get = __cordl_internal_get_m_Active, put = __cordl_internal_set_m_Active)) bool m_Active;
 
   /// @brief Field m_ExclusiveAddressUse, offset 0x21, size 0x1
-  __declspec(property(get = __get_m_ExclusiveAddressUse, put = __set_m_ExclusiveAddressUse)) bool m_ExclusiveAddressUse;
+  __declspec(property(get = __cordl_internal_get_m_ExclusiveAddressUse, put = __cordl_internal_set_m_ExclusiveAddressUse)) bool m_ExclusiveAddressUse;
 
   __declspec(property(get = get_LocalEndpoint))::System::Net::EndPoint* LocalEndpoint;
 
-  constexpr ::System::Net::IPEndPoint*& __get_m_ServerSocketEP();
+  constexpr ::System::Net::IPEndPoint*& __cordl_internal_get_m_ServerSocketEP();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __get_m_ServerSocketEP() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get_m_ServerSocketEP() const;
 
-  constexpr void __set_m_ServerSocketEP(::System::Net::IPEndPoint* value);
+  constexpr void __cordl_internal_set_m_ServerSocketEP(::System::Net::IPEndPoint* value);
 
-  constexpr ::System::Net::Sockets::Socket*& __get_m_ServerSocket();
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_m_ServerSocket();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __get_m_ServerSocket() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_m_ServerSocket() const;
 
-  constexpr void __set_m_ServerSocket(::System::Net::Sockets::Socket* value);
+  constexpr void __cordl_internal_set_m_ServerSocket(::System::Net::Sockets::Socket* value);
 
-  constexpr bool& __get_m_Active();
+  constexpr bool& __cordl_internal_get_m_Active();
 
-  constexpr bool const& __get_m_Active() const;
+  constexpr bool const& __cordl_internal_get_m_Active() const;
 
-  constexpr void __set_m_Active(bool value);
+  constexpr void __cordl_internal_set_m_Active(bool value);
 
-  constexpr bool& __get_m_ExclusiveAddressUse();
+  constexpr bool& __cordl_internal_get_m_ExclusiveAddressUse();
 
-  constexpr bool const& __get_m_ExclusiveAddressUse() const;
+  constexpr bool const& __cordl_internal_get_m_ExclusiveAddressUse() const;
 
-  constexpr void __set_m_ExclusiveAddressUse(bool value);
+  constexpr void __cordl_internal_set_m_ExclusiveAddressUse(bool value);
 
   static inline ::System::Net::Sockets::TcpListener* New_ctor(::System::Net::IPAddress* localaddr, int32_t port);
 

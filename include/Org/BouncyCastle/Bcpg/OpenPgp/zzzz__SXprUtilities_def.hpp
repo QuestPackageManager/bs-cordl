@@ -34,22 +34,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::__SXprUtilities__MyS2k);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(586))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(586))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1676))
 // CS Name: ::SXprUtilities::MyS2k*
 class CORDL_TYPE __SXprUtilities__MyS2k : public ::Org::BouncyCastle::Bcpg::S2k {
 public:
   // Declarations
   /// @brief Field mIterationCount64, offset 0x28, size 0x8
-  __declspec(property(get = __get_mIterationCount64, put = __set_mIterationCount64)) int64_t mIterationCount64;
+  __declspec(property(get = __cordl_internal_get_mIterationCount64, put = __cordl_internal_set_mIterationCount64)) int64_t mIterationCount64;
 
   __declspec(property(get = get_IterationCount)) int64_t IterationCount;
 
-  constexpr int64_t& __get_mIterationCount64();
+  constexpr int64_t& __cordl_internal_get_mIterationCount64();
 
-  constexpr int64_t const& __get_mIterationCount64() const;
+  constexpr int64_t const& __cordl_internal_get_mIterationCount64() const;
 
-  constexpr void __set_mIterationCount64(int64_t value);
+  constexpr void __cordl_internal_set_mIterationCount64(int64_t value);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::__SXprUtilities__MyS2k* New_ctor(::Org::BouncyCastle::Bcpg::HashAlgorithmTag algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv,
                                                                                      int64_t iterationCount64);
@@ -89,7 +89,7 @@ static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::__SXprUtilities__MyS2
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1677))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::SXprUtilities*
 class CORDL_TYPE SXprUtilities : public ::System::Object {

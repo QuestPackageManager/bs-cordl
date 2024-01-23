@@ -10,9 +10,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x9c;
   constexpr static std::size_t addrs = 0x2633658;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::InternalEncoderBestFitFallbackBuffer*>::get(),
-                                                                               "get_InternalSyncObject", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_InternalSyncObject", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -24,10 +24,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x128;
   constexpr static std::size_t addrs = 0x2633440;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::InternalEncoderBestFitFallbackBuffer*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::InternalEncoderBestFitFallback*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::InternalEncoderBestFitFallbackBuffer*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::InternalEncoderBestFitFallback*>::get() })));
     return ___internal_method;
   }
 };
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x26336fc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::InternalEncoderBestFitFallbackBuffer*>::get(),
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1e0;
   constexpr static std::size_t addrs = 0x2633800;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::InternalEncoderBestFitFallbackBuffer*>::get(),
@@ -71,7 +71,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x26339e0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::InternalEncoderBestFitFallbackBuffer*>::get(),
@@ -87,7 +87,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2c;
   constexpr static std::size_t addrs = 0x2633a20;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::InternalEncoderBestFitFallbackBuffer*>::get(),
@@ -103,7 +103,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2633a4c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::InternalEncoderBestFitFallbackBuffer*>::get(),
@@ -119,7 +119,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x2633a58;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::InternalEncoderBestFitFallbackBuffer*>::get(),
@@ -135,58 +135,58 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xd4;
   constexpr static std::size_t addrs = 0x263372c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::InternalEncoderBestFitFallbackBuffer*>::get(), "TryBestFit",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::InternalEncoderBestFitFallbackBuffer*>::get(), "TryBestFit",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
     return ___internal_method;
   }
 };
-constexpr char16_t& System::Text::InternalEncoderBestFitFallbackBuffer::__get__cBestFit() {
+constexpr char16_t& System::Text::InternalEncoderBestFitFallbackBuffer::__cordl_internal_get__cBestFit() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cBestFit;
 }
-constexpr char16_t const& System::Text::InternalEncoderBestFitFallbackBuffer::__get__cBestFit() const {
+constexpr char16_t const& System::Text::InternalEncoderBestFitFallbackBuffer::__cordl_internal_get__cBestFit() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____cBestFit;
 }
-constexpr void System::Text::InternalEncoderBestFitFallbackBuffer::__set__cBestFit(char16_t value) {
+constexpr void System::Text::InternalEncoderBestFitFallbackBuffer::__cordl_internal_set__cBestFit(char16_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____cBestFit = value;
 }
-constexpr ::System::Text::InternalEncoderBestFitFallback*& System::Text::InternalEncoderBestFitFallbackBuffer::__get__oFallback() {
+constexpr ::System::Text::InternalEncoderBestFitFallback*& System::Text::InternalEncoderBestFitFallbackBuffer::__cordl_internal_get__oFallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oFallback;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Text::InternalEncoderBestFitFallback*> const& System::Text::InternalEncoderBestFitFallbackBuffer::__get__oFallback() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Text::InternalEncoderBestFitFallback*> const& System::Text::InternalEncoderBestFitFallbackBuffer::__cordl_internal_get__oFallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____oFallback;
 }
-constexpr void System::Text::InternalEncoderBestFitFallbackBuffer::__set__oFallback(::System::Text::InternalEncoderBestFitFallback* value) {
+constexpr void System::Text::InternalEncoderBestFitFallbackBuffer::__cordl_internal_set__oFallback(::System::Text::InternalEncoderBestFitFallback* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____oFallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Text::InternalEncoderBestFitFallbackBuffer::__get__iCount() {
+constexpr int32_t& System::Text::InternalEncoderBestFitFallbackBuffer::__cordl_internal_get__iCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____iCount;
 }
-constexpr int32_t const& System::Text::InternalEncoderBestFitFallbackBuffer::__get__iCount() const {
+constexpr int32_t const& System::Text::InternalEncoderBestFitFallbackBuffer::__cordl_internal_get__iCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____iCount;
 }
-constexpr void System::Text::InternalEncoderBestFitFallbackBuffer::__set__iCount(int32_t value) {
+constexpr void System::Text::InternalEncoderBestFitFallbackBuffer::__cordl_internal_set__iCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____iCount = value;
 }
-constexpr int32_t& System::Text::InternalEncoderBestFitFallbackBuffer::__get__iSize() {
+constexpr int32_t& System::Text::InternalEncoderBestFitFallbackBuffer::__cordl_internal_get__iSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____iSize;
 }
-constexpr int32_t const& System::Text::InternalEncoderBestFitFallbackBuffer::__get__iSize() const {
+constexpr int32_t const& System::Text::InternalEncoderBestFitFallbackBuffer::__cordl_internal_get__iSize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____iSize;
 }
-constexpr void System::Text::InternalEncoderBestFitFallbackBuffer::__set__iSize(int32_t value) {
+constexpr void System::Text::InternalEncoderBestFitFallbackBuffer::__cordl_internal_set__iSize(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____iSize = value;
 }
@@ -200,16 +200,16 @@ inline ::System::Object* System::Text::InternalEncoderBestFitFallbackBuffer::get
 }
 inline ::System::Object* System::Text::InternalEncoderBestFitFallbackBuffer::get_InternalSyncObject() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::InternalEncoderBestFitFallbackBuffer*>::get(),
-                                                                             "get_InternalSyncObject", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_InternalSyncObject", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method);
 }
 inline ::System::Text::InternalEncoderBestFitFallbackBuffer* System::Text::InternalEncoderBestFitFallbackBuffer::New_ctor(::System::Text::InternalEncoderBestFitFallback* fallback) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Text::InternalEncoderBestFitFallbackBuffer*>(fallback));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::InternalEncoderBestFitFallbackBuffer*>(fallback));
 }
 inline void System::Text::InternalEncoderBestFitFallbackBuffer::_ctor(::System::Text::InternalEncoderBestFitFallback* fallback) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::InternalEncoderBestFitFallbackBuffer*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::InternalEncoderBestFitFallback*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::InternalEncoderBestFitFallbackBuffer*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::InternalEncoderBestFitFallback*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, fallback);
 }
 inline bool System::Text::InternalEncoderBestFitFallbackBuffer::Fallback(char16_t charUnknown, int32_t index) {
@@ -243,9 +243,9 @@ inline void System::Text::InternalEncoderBestFitFallbackBuffer::Reset() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline char16_t System::Text::InternalEncoderBestFitFallbackBuffer::TryBestFit(char16_t cUnknown) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::InternalEncoderBestFitFallbackBuffer*>::get(), "TryBestFit",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::InternalEncoderBestFitFallbackBuffer*>::get(), "TryBestFit",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<char16_t, false>(this, ___internal_method, cUnknown);
 }
 // Ctor Parameters []

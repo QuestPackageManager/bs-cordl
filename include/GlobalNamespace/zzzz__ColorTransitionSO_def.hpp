@@ -20,29 +20,30 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorTransitionSO);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5443))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5443))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5448))
 // CS Name: ::ColorTransitionSO*
 class CORDL_TYPE ColorTransitionSO : public ::GlobalNamespace::BaseTransitionSO {
 public:
   // Declarations
   /// @brief Field _normalColor, offset 0x20, size 0x8
-  __declspec(property(get = __get__normalColor, put = __set__normalColor))::GlobalNamespace::ColorSO* _normalColor;
+  __declspec(property(get = __cordl_internal_get__normalColor, put = __cordl_internal_set__normalColor))::UnityW<::GlobalNamespace::ColorSO> _normalColor;
 
   /// @brief Field _highlightedColor, offset 0x28, size 0x8
-  __declspec(property(get = __get__highlightedColor, put = __set__highlightedColor))::GlobalNamespace::ColorSO* _highlightedColor;
+  __declspec(property(get = __cordl_internal_get__highlightedColor, put = __cordl_internal_set__highlightedColor))::UnityW<::GlobalNamespace::ColorSO> _highlightedColor;
 
   /// @brief Field _pressedColor, offset 0x30, size 0x8
-  __declspec(property(get = __get__pressedColor, put = __set__pressedColor))::GlobalNamespace::ColorSO* _pressedColor;
+  __declspec(property(get = __cordl_internal_get__pressedColor, put = __cordl_internal_set__pressedColor))::UnityW<::GlobalNamespace::ColorSO> _pressedColor;
 
   /// @brief Field _disabledColor, offset 0x38, size 0x8
-  __declspec(property(get = __get__disabledColor, put = __set__disabledColor))::GlobalNamespace::ColorSO* _disabledColor;
+  __declspec(property(get = __cordl_internal_get__disabledColor, put = __cordl_internal_set__disabledColor))::UnityW<::GlobalNamespace::ColorSO> _disabledColor;
 
   /// @brief Field _selectedColor, offset 0x40, size 0x8
-  __declspec(property(get = __get__selectedColor, put = __set__selectedColor))::GlobalNamespace::ColorSO* _selectedColor;
+  __declspec(property(get = __cordl_internal_get__selectedColor, put = __cordl_internal_set__selectedColor))::UnityW<::GlobalNamespace::ColorSO> _selectedColor;
 
   /// @brief Field _selectedAndHighlightedColor, offset 0x48, size 0x8
-  __declspec(property(get = __get__selectedAndHighlightedColor, put = __set__selectedAndHighlightedColor))::GlobalNamespace::ColorSO* _selectedAndHighlightedColor;
+  __declspec(property(get = __cordl_internal_get__selectedAndHighlightedColor,
+                      put = __cordl_internal_set__selectedAndHighlightedColor))::UnityW<::GlobalNamespace::ColorSO> _selectedAndHighlightedColor;
 
   __declspec(property(get = get_normalColor))::UnityEngine::Color normalColor;
 
@@ -56,41 +57,41 @@ public:
 
   __declspec(property(get = get_selectedAndHighlightedColor))::UnityEngine::Color selectedAndHighlightedColor;
 
-  constexpr ::GlobalNamespace::ColorSO*& __get__normalColor();
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__normalColor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& __get__normalColor() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__normalColor() const;
 
-  constexpr void __set__normalColor(::GlobalNamespace::ColorSO* value);
+  constexpr void __cordl_internal_set__normalColor(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  constexpr ::GlobalNamespace::ColorSO*& __get__highlightedColor();
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__highlightedColor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& __get__highlightedColor() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__highlightedColor() const;
 
-  constexpr void __set__highlightedColor(::GlobalNamespace::ColorSO* value);
+  constexpr void __cordl_internal_set__highlightedColor(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  constexpr ::GlobalNamespace::ColorSO*& __get__pressedColor();
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__pressedColor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& __get__pressedColor() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__pressedColor() const;
 
-  constexpr void __set__pressedColor(::GlobalNamespace::ColorSO* value);
+  constexpr void __cordl_internal_set__pressedColor(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  constexpr ::GlobalNamespace::ColorSO*& __get__disabledColor();
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__disabledColor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& __get__disabledColor() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__disabledColor() const;
 
-  constexpr void __set__disabledColor(::GlobalNamespace::ColorSO* value);
+  constexpr void __cordl_internal_set__disabledColor(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  constexpr ::GlobalNamespace::ColorSO*& __get__selectedColor();
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__selectedColor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& __get__selectedColor() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__selectedColor() const;
 
-  constexpr void __set__selectedColor(::GlobalNamespace::ColorSO* value);
+  constexpr void __cordl_internal_set__selectedColor(::UnityW<::GlobalNamespace::ColorSO> value);
 
-  constexpr ::GlobalNamespace::ColorSO*& __get__selectedAndHighlightedColor();
+  constexpr ::UnityW<::GlobalNamespace::ColorSO>& __cordl_internal_get__selectedAndHighlightedColor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSO*> const& __get__selectedAndHighlightedColor() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__selectedAndHighlightedColor() const;
 
-  constexpr void __set__selectedAndHighlightedColor(::GlobalNamespace::ColorSO* value);
+  constexpr void __cordl_internal_set__selectedAndHighlightedColor(::UnityW<::GlobalNamespace::ColorSO> value);
 
   /// @brief Method get_normalColor, addr 0x227d2f0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_normalColor();
@@ -130,22 +131,22 @@ protected:
 
 public:
   /// @brief Field _normalColor, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSO* ____normalColor;
+  ::UnityW<::GlobalNamespace::ColorSO> ____normalColor;
 
   /// @brief Field _highlightedColor, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSO* ____highlightedColor;
+  ::UnityW<::GlobalNamespace::ColorSO> ____highlightedColor;
 
   /// @brief Field _pressedColor, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSO* ____pressedColor;
+  ::UnityW<::GlobalNamespace::ColorSO> ____pressedColor;
 
   /// @brief Field _disabledColor, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSO* ____disabledColor;
+  ::UnityW<::GlobalNamespace::ColorSO> ____disabledColor;
 
   /// @brief Field _selectedColor, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSO* ____selectedColor;
+  ::UnityW<::GlobalNamespace::ColorSO> ____selectedColor;
 
   /// @brief Field _selectedAndHighlightedColor, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSO* ____selectedAndHighlightedColor;
+  ::UnityW<::GlobalNamespace::ColorSO> ____selectedAndHighlightedColor;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

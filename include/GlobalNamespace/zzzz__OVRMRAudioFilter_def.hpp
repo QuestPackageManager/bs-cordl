@@ -20,29 +20,29 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRMRAudioFilter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7508))
 // CS Name: ::OVRMRAudioFilter*
 class CORDL_TYPE OVRMRAudioFilter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field running, offset 0x18, size 0x1
-  __declspec(property(get = __get_running, put = __set_running)) bool running;
+  __declspec(property(get = __cordl_internal_get_running, put = __cordl_internal_set_running)) bool running;
 
   /// @brief Field composition, offset 0x20, size 0x8
-  __declspec(property(get = __get_composition, put = __set_composition))::GlobalNamespace::OVRExternalComposition* composition;
+  __declspec(property(get = __cordl_internal_get_composition, put = __cordl_internal_set_composition))::GlobalNamespace::OVRExternalComposition* composition;
 
-  constexpr bool& __get_running();
+  constexpr bool& __cordl_internal_get_running();
 
-  constexpr bool const& __get_running() const;
+  constexpr bool const& __cordl_internal_get_running() const;
 
-  constexpr void __set_running(bool value);
+  constexpr void __cordl_internal_set_running(bool value);
 
-  constexpr ::GlobalNamespace::OVRExternalComposition*& __get_composition();
+  constexpr ::GlobalNamespace::OVRExternalComposition*& __cordl_internal_get_composition();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRExternalComposition*> const& __get_composition() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRExternalComposition*> const& __cordl_internal_get_composition() const;
 
-  constexpr void __set_composition(::GlobalNamespace::OVRExternalComposition* value);
+  constexpr void __cordl_internal_set_composition(::GlobalNamespace::OVRExternalComposition* value);
 
   /// @brief Method Start, addr 0x2710e7c, size 0xc, virtual false, abstract: false, final false
   inline void Start();

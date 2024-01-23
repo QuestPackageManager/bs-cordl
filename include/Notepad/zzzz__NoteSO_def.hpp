@@ -19,38 +19,38 @@ MARK_REF_PTR_T(::Notepad::NoteSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Notepad {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16280))
 // CS Name: ::Notepad::NoteSO*
 class CORDL_TYPE NoteSO : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field title, offset 0x18, size 0x8
-  __declspec(property(get = __get_title, put = __set_title))::StringW title;
+  __declspec(property(get = __cordl_internal_get_title, put = __cordl_internal_set_title))::StringW title;
 
   /// @brief Field content, offset 0x20, size 0x8
-  __declspec(property(get = __get_content, put = __set_content))::StringW content;
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::StringW content;
 
   /// @brief Field urls, offset 0x28, size 0x8
-  __declspec(property(get = __get_urls, put = __set_urls))::ArrayW<::Notepad::NoteURL, ::Array<::Notepad::NoteURL>*> urls;
+  __declspec(property(get = __cordl_internal_get_urls, put = __cordl_internal_set_urls))::ArrayW<::Notepad::NoteURL, ::Array<::Notepad::NoteURL>*> urls;
 
-  constexpr ::StringW& __get_title();
+  constexpr ::StringW& __cordl_internal_get_title();
 
-  constexpr ::StringW const& __get_title() const;
+  constexpr ::StringW const& __cordl_internal_get_title() const;
 
-  constexpr void __set_title(::StringW value);
+  constexpr void __cordl_internal_set_title(::StringW value);
 
-  constexpr ::StringW& __get_content();
+  constexpr ::StringW& __cordl_internal_get_content();
 
-  constexpr ::StringW const& __get_content() const;
+  constexpr ::StringW const& __cordl_internal_get_content() const;
 
-  constexpr void __set_content(::StringW value);
+  constexpr void __cordl_internal_set_content(::StringW value);
 
-  constexpr ::ArrayW<::Notepad::NoteURL, ::Array<::Notepad::NoteURL>*>& __get_urls();
+  constexpr ::ArrayW<::Notepad::NoteURL, ::Array<::Notepad::NoteURL>*>& __cordl_internal_get_urls();
 
-  constexpr ::ArrayW<::Notepad::NoteURL, ::Array<::Notepad::NoteURL>*> const& __get_urls() const;
+  constexpr ::ArrayW<::Notepad::NoteURL, ::Array<::Notepad::NoteURL>*> const& __cordl_internal_get_urls() const;
 
-  constexpr void __set_urls(::ArrayW<::Notepad::NoteURL, ::Array<::Notepad::NoteURL>*> value);
+  constexpr void __cordl_internal_set_urls(::ArrayW<::Notepad::NoteURL, ::Array<::Notepad::NoteURL>*> value);
 
   static inline ::Notepad::NoteSO* New_ctor();
 

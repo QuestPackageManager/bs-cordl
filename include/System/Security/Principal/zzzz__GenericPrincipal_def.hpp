@@ -19,29 +19,29 @@ MARK_REF_PTR_T(::System::Security::Principal::GenericPrincipal);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3011))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3011))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2998))
 // CS Name: ::System.Security.Principal::GenericPrincipal*
 class CORDL_TYPE GenericPrincipal : public ::System::Security::Claims::ClaimsPrincipal {
 public:
   // Declarations
   /// @brief Field m_identity, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_identity, put = __set_m_identity))::System::Security::Principal::IIdentity* m_identity;
+  __declspec(property(get = __cordl_internal_get_m_identity, put = __cordl_internal_set_m_identity))::System::Security::Principal::IIdentity* m_identity;
 
   /// @brief Field m_roles, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_roles, put = __set_m_roles))::ArrayW<::StringW, ::Array<::StringW>*> m_roles;
+  __declspec(property(get = __cordl_internal_get_m_roles, put = __cordl_internal_set_m_roles))::ArrayW<::StringW, ::Array<::StringW>*> m_roles;
 
-  constexpr ::System::Security::Principal::IIdentity*& __get_m_identity();
+  constexpr ::System::Security::Principal::IIdentity*& __cordl_internal_get_m_identity();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::IIdentity*> const& __get_m_identity() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Principal::IIdentity*> const& __cordl_internal_get_m_identity() const;
 
-  constexpr void __set_m_identity(::System::Security::Principal::IIdentity* value);
+  constexpr void __cordl_internal_set_m_identity(::System::Security::Principal::IIdentity* value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_roles();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_roles();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_roles() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_roles() const;
 
-  constexpr void __set_m_roles(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_roles(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
   static inline ::System::Security::Principal::GenericPrincipal* New_ctor(::System::Security::Principal::IIdentity* identity, ::ArrayW<::StringW, ::Array<::StringW>*> roles);
 

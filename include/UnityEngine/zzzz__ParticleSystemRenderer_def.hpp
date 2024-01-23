@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::UnityEngine::ParticleSystemRenderer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10064))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10064))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15891))
 // CS Name: ::UnityEngine::ParticleSystemRenderer*
 class CORDL_TYPE ParticleSystemRenderer : public ::UnityEngine::Renderer {

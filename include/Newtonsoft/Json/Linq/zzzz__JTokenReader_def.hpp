@@ -34,23 +34,23 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JTokenReader);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11833))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11833))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11994))
 // CS Name: ::Newtonsoft.Json.Linq::JTokenReader*
 class CORDL_TYPE JTokenReader : public ::Newtonsoft::Json::JsonReader {
 public:
   // Declarations
   /// @brief Field _root, offset 0x78, size 0x8
-  __declspec(property(get = __get__root, put = __set__root))::Newtonsoft::Json::Linq::JToken* _root;
+  __declspec(property(get = __cordl_internal_get__root, put = __cordl_internal_set__root))::Newtonsoft::Json::Linq::JToken* _root;
 
   /// @brief Field _initialPath, offset 0x80, size 0x8
-  __declspec(property(get = __get__initialPath, put = __set__initialPath))::StringW _initialPath;
+  __declspec(property(get = __cordl_internal_get__initialPath, put = __cordl_internal_set__initialPath))::StringW _initialPath;
 
   /// @brief Field _parent, offset 0x88, size 0x8
-  __declspec(property(get = __get__parent, put = __set__parent))::Newtonsoft::Json::Linq::JToken* _parent;
+  __declspec(property(get = __cordl_internal_get__parent, put = __cordl_internal_set__parent))::Newtonsoft::Json::Linq::JToken* _parent;
 
   /// @brief Field _current, offset 0x90, size 0x8
-  __declspec(property(get = __get__current, put = __set__current))::Newtonsoft::Json::Linq::JToken* _current;
+  __declspec(property(get = __cordl_internal_get__current, put = __cordl_internal_set__current))::Newtonsoft::Json::Linq::JToken* _current;
 
   __declspec(property(get = get_CurrentToken))::Newtonsoft::Json::Linq::JToken* CurrentToken;
 
@@ -66,29 +66,29 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get__root();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get__root();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get__root() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get__root() const;
 
-  constexpr void __set__root(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set__root(::Newtonsoft::Json::Linq::JToken* value);
 
-  constexpr ::StringW& __get__initialPath();
+  constexpr ::StringW& __cordl_internal_get__initialPath();
 
-  constexpr ::StringW const& __get__initialPath() const;
+  constexpr ::StringW const& __cordl_internal_get__initialPath() const;
 
-  constexpr void __set__initialPath(::StringW value);
+  constexpr void __cordl_internal_set__initialPath(::StringW value);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get__parent();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get__parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get__parent() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get__parent() const;
 
-  constexpr void __set__parent(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set__parent(::Newtonsoft::Json::Linq::JToken* value);
 
-  constexpr ::Newtonsoft::Json::Linq::JToken*& __get__current();
+  constexpr ::Newtonsoft::Json::Linq::JToken*& __cordl_internal_get__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __get__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JToken*> const& __cordl_internal_get__current() const;
 
-  constexpr void __set__current(::Newtonsoft::Json::Linq::JToken* value);
+  constexpr void __cordl_internal_set__current(::Newtonsoft::Json::Linq::JToken* value);
 
   /// @brief Method get_CurrentToken, addr 0x269bc48, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* get_CurrentToken();

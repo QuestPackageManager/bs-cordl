@@ -17,29 +17,29 @@ MARK_REF_PTR_T(::GlobalNamespace::SwitchSettingsController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16155))
 // CS Name: ::SwitchSettingsController*
 class CORDL_TYPE SwitchSettingsController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _toggle, offset 0x18, size 0x8
-  __declspec(property(get = __get__toggle, put = __set__toggle))::UnityEngine::UI::Toggle* _toggle;
+  __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle))::UnityW<::UnityEngine::UI::Toggle> _toggle;
 
   /// @brief Field _on, offset 0x20, size 0x1
-  __declspec(property(get = __get__on, put = __set__on)) bool _on;
+  __declspec(property(get = __cordl_internal_get__on, put = __cordl_internal_set__on)) bool _on;
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__toggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__toggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__toggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__toggle() const;
 
-  constexpr void __set__toggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr bool& __get__on();
+  constexpr bool& __cordl_internal_get__on();
 
-  constexpr bool const& __get__on() const;
+  constexpr bool const& __cordl_internal_get__on() const;
 
-  constexpr void __set__on(bool value);
+  constexpr void __cordl_internal_set__on(bool value);
 
   /// @brief Method GetInitValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool GetInitValue();
@@ -82,7 +82,7 @@ protected:
 
 public:
   /// @brief Field _toggle, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____toggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____toggle;
 
   /// @brief Field _on, offset: 0x20, size: 0x1, def value: None
   bool ____on;

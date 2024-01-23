@@ -20,22 +20,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1Generator);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(451))
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1Generator*
 class CORDL_TYPE Asn1Generator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _out, offset 0x10, size 0x8
-  __declspec(property(get = __get__out, put = __set__out))::System::IO::Stream* _out;
+  __declspec(property(get = __cordl_internal_get__out, put = __cordl_internal_set__out))::System::IO::Stream* _out;
 
   __declspec(property(get = get_Out))::System::IO::Stream* Out;
 
-  constexpr ::System::IO::Stream*& __get__out();
+  constexpr ::System::IO::Stream*& __cordl_internal_get__out();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get__out() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__out() const;
 
-  constexpr void __set__out(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set__out(::System::IO::Stream* value);
 
   static inline ::Org::BouncyCastle::Asn1::Asn1Generator* New_ctor(::System::IO::Stream* outStream);
 

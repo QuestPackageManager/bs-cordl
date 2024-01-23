@@ -18,20 +18,20 @@ MARK_REF_PTR_T(::GlobalNamespace::EnergyMissionObjectiveChecker);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5093))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5093))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5088))
 // CS Name: ::EnergyMissionObjectiveChecker*
 class CORDL_TYPE EnergyMissionObjectiveChecker : public ::GlobalNamespace::MissionObjectiveChecker {
 public:
   // Declarations
   /// @brief Field _energyCounter, offset 0x48, size 0x8
-  __declspec(property(get = __get__energyCounter, put = __set__energyCounter))::GlobalNamespace::GameEnergyCounter* _energyCounter;
+  __declspec(property(get = __cordl_internal_get__energyCounter, put = __cordl_internal_set__energyCounter))::UnityW<::GlobalNamespace::GameEnergyCounter> _energyCounter;
 
-  constexpr ::GlobalNamespace::GameEnergyCounter*& __get__energyCounter();
+  constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter>& __cordl_internal_get__energyCounter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameEnergyCounter*> const& __get__energyCounter() const;
+  constexpr ::UnityW<::GlobalNamespace::GameEnergyCounter> const& __cordl_internal_get__energyCounter() const;
 
-  constexpr void __set__energyCounter(::GlobalNamespace::GameEnergyCounter* value);
+  constexpr void __cordl_internal_set__energyCounter(::UnityW<::GlobalNamespace::GameEnergyCounter> value);
 
   /// @brief Method OnDestroy, addr 0x23cb6dc, size 0xd0, virtual false, abstract: false, final false
   inline void OnDestroy();
@@ -65,7 +65,7 @@ protected:
 
 public:
   /// @brief Field _energyCounter, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::GameEnergyCounter* ____energyCounter;
+  ::UnityW<::GlobalNamespace::GameEnergyCounter> ____energyCounter;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

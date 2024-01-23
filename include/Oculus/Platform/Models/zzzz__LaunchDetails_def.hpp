@@ -20,74 +20,74 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LaunchDetails);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13252))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13442))
 // CS Name: ::Oculus.Platform.Models::LaunchDetails*
 class CORDL_TYPE LaunchDetails : public ::System::Object {
 public:
   // Declarations
   /// @brief Field DeeplinkMessage, offset 0x10, size 0x8
-  __declspec(property(get = __get_DeeplinkMessage, put = __set_DeeplinkMessage))::StringW DeeplinkMessage;
+  __declspec(property(get = __cordl_internal_get_DeeplinkMessage, put = __cordl_internal_set_DeeplinkMessage))::StringW DeeplinkMessage;
 
   /// @brief Field DestinationApiName, offset 0x18, size 0x8
-  __declspec(property(get = __get_DestinationApiName, put = __set_DestinationApiName))::StringW DestinationApiName;
+  __declspec(property(get = __cordl_internal_get_DestinationApiName, put = __cordl_internal_set_DestinationApiName))::StringW DestinationApiName;
 
   /// @brief Field LaunchSource, offset 0x20, size 0x8
-  __declspec(property(get = __get_LaunchSource, put = __set_LaunchSource))::StringW LaunchSource;
+  __declspec(property(get = __cordl_internal_get_LaunchSource, put = __cordl_internal_set_LaunchSource))::StringW LaunchSource;
 
   /// @brief Field LaunchType, offset 0x28, size 0x4
-  __declspec(property(get = __get_LaunchType, put = __set_LaunchType))::Oculus::Platform::LaunchType LaunchType;
+  __declspec(property(get = __cordl_internal_get_LaunchType, put = __cordl_internal_set_LaunchType))::Oculus::Platform::LaunchType LaunchType;
 
   /// @brief Field TrackingID, offset 0x30, size 0x8
-  __declspec(property(get = __get_TrackingID, put = __set_TrackingID))::StringW TrackingID;
+  __declspec(property(get = __cordl_internal_get_TrackingID, put = __cordl_internal_set_TrackingID))::StringW TrackingID;
 
   /// @brief Field UsersOptional, offset 0x38, size 0x8
-  __declspec(property(get = __get_UsersOptional, put = __set_UsersOptional))::Oculus::Platform::Models::UserList* UsersOptional;
+  __declspec(property(get = __cordl_internal_get_UsersOptional, put = __cordl_internal_set_UsersOptional))::Oculus::Platform::Models::UserList* UsersOptional;
 
   /// @brief Field Users, offset 0x40, size 0x8
-  __declspec(property(get = __get_Users, put = __set_Users))::Oculus::Platform::Models::UserList* Users;
+  __declspec(property(get = __cordl_internal_get_Users, put = __cordl_internal_set_Users))::Oculus::Platform::Models::UserList* Users;
 
-  constexpr ::StringW& __get_DeeplinkMessage();
+  constexpr ::StringW& __cordl_internal_get_DeeplinkMessage();
 
-  constexpr ::StringW const& __get_DeeplinkMessage() const;
+  constexpr ::StringW const& __cordl_internal_get_DeeplinkMessage() const;
 
-  constexpr void __set_DeeplinkMessage(::StringW value);
+  constexpr void __cordl_internal_set_DeeplinkMessage(::StringW value);
 
-  constexpr ::StringW& __get_DestinationApiName();
+  constexpr ::StringW& __cordl_internal_get_DestinationApiName();
 
-  constexpr ::StringW const& __get_DestinationApiName() const;
+  constexpr ::StringW const& __cordl_internal_get_DestinationApiName() const;
 
-  constexpr void __set_DestinationApiName(::StringW value);
+  constexpr void __cordl_internal_set_DestinationApiName(::StringW value);
 
-  constexpr ::StringW& __get_LaunchSource();
+  constexpr ::StringW& __cordl_internal_get_LaunchSource();
 
-  constexpr ::StringW const& __get_LaunchSource() const;
+  constexpr ::StringW const& __cordl_internal_get_LaunchSource() const;
 
-  constexpr void __set_LaunchSource(::StringW value);
+  constexpr void __cordl_internal_set_LaunchSource(::StringW value);
 
-  constexpr ::Oculus::Platform::LaunchType& __get_LaunchType();
+  constexpr ::Oculus::Platform::LaunchType& __cordl_internal_get_LaunchType();
 
-  constexpr ::Oculus::Platform::LaunchType const& __get_LaunchType() const;
+  constexpr ::Oculus::Platform::LaunchType const& __cordl_internal_get_LaunchType() const;
 
-  constexpr void __set_LaunchType(::Oculus::Platform::LaunchType value);
+  constexpr void __cordl_internal_set_LaunchType(::Oculus::Platform::LaunchType value);
 
-  constexpr ::StringW& __get_TrackingID();
+  constexpr ::StringW& __cordl_internal_get_TrackingID();
 
-  constexpr ::StringW const& __get_TrackingID() const;
+  constexpr ::StringW const& __cordl_internal_get_TrackingID() const;
 
-  constexpr void __set_TrackingID(::StringW value);
+  constexpr void __cordl_internal_set_TrackingID(::StringW value);
 
-  constexpr ::Oculus::Platform::Models::UserList*& __get_UsersOptional();
+  constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_UsersOptional();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __get_UsersOptional() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_UsersOptional() const;
 
-  constexpr void __set_UsersOptional(::Oculus::Platform::Models::UserList* value);
+  constexpr void __cordl_internal_set_UsersOptional(::Oculus::Platform::Models::UserList* value);
 
-  constexpr ::Oculus::Platform::Models::UserList*& __get_Users();
+  constexpr ::Oculus::Platform::Models::UserList*& __cordl_internal_get_Users();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __get_Users() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::UserList*> const& __cordl_internal_get_Users() const;
 
-  constexpr void __set_Users(::Oculus::Platform::Models::UserList* value);
+  constexpr void __cordl_internal_set_Users(::Oculus::Platform::Models::UserList* value);
 
   static inline ::Oculus::Platform::Models::LaunchDetails* New_ctor(void* o);
 

@@ -7,14 +7,14 @@
 //  Writing Method size for method: ::GlobalNamespace::PageControlElement.get_rectTransform
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RectTransform* (::GlobalNamespace::PageControlElement::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::GlobalNamespace::PageControlElement::*)()>(
     &::GlobalNamespace::PageControlElement::get_rectTransform)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x22e7fa0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PageControlElement*>::get(),
-                                                                               "get_rectTransform", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_rectTransform", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -25,10 +25,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x64;
   constexpr static std::size_t addrs = 0x22e7d74;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PageControlElement*>::get(), "SetSelected", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PageControlElement*>::get(), "SetSelected",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -39,77 +39,77 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x22e7fa8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PageControlElement*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::RectTransform*& GlobalNamespace::PageControlElement::__get__rectTransform() {
+constexpr ::UnityW<::UnityEngine::RectTransform>& GlobalNamespace::PageControlElement::__cordl_internal_get__rectTransform() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rectTransform;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& GlobalNamespace::PageControlElement::__get__rectTransform() const {
+constexpr ::UnityW<::UnityEngine::RectTransform> const& GlobalNamespace::PageControlElement::__cordl_internal_get__rectTransform() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rectTransform;
 }
-constexpr void GlobalNamespace::PageControlElement::__set__rectTransform(::UnityEngine::RectTransform* value) {
+constexpr void GlobalNamespace::PageControlElement::__cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rectTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::ImageView*& GlobalNamespace::PageControlElement::__get__imageView() {
+constexpr ::UnityW<::HMUI::ImageView>& GlobalNamespace::PageControlElement::__cordl_internal_get__imageView() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____imageView;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& GlobalNamespace::PageControlElement::__get__imageView() const {
+constexpr ::UnityW<::HMUI::ImageView> const& GlobalNamespace::PageControlElement::__cordl_internal_get__imageView() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____imageView;
 }
-constexpr void GlobalNamespace::PageControlElement::__set__imageView(::HMUI::ImageView* value) {
+constexpr void GlobalNamespace::PageControlElement::__cordl_internal_set__imageView(::UnityW<::HMUI::ImageView> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____imageView)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::PageControlElement::__get__selectedColor() {
+constexpr ::UnityEngine::Color& GlobalNamespace::PageControlElement::__cordl_internal_get__selectedColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedColor;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::PageControlElement::__get__selectedColor() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::PageControlElement::__cordl_internal_get__selectedColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedColor;
 }
-constexpr void GlobalNamespace::PageControlElement::__set__selectedColor(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::PageControlElement::__cordl_internal_set__selectedColor(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedColor = value;
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::PageControlElement::__get__unselectedColor() {
+constexpr ::UnityEngine::Color& GlobalNamespace::PageControlElement::__cordl_internal_get__unselectedColor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unselectedColor;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::PageControlElement::__get__unselectedColor() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::PageControlElement::__cordl_internal_get__unselectedColor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unselectedColor;
 }
-constexpr void GlobalNamespace::PageControlElement::__set__unselectedColor(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::PageControlElement::__cordl_internal_set__unselectedColor(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____unselectedColor = value;
 }
-inline ::UnityEngine::RectTransform* GlobalNamespace::PageControlElement::get_rectTransform() {
+inline ::UnityW<::UnityEngine::RectTransform> GlobalNamespace::PageControlElement::get_rectTransform() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PageControlElement*>::get(), "get_rectTransform",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::RectTransform*, false>(this, ___internal_method);
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RectTransform>, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::PageControlElement::SetSelected(bool isSelected) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PageControlElement*>::get(), "SetSelected", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PageControlElement*>::get(), "SetSelected",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isSelected);
 }
 inline ::GlobalNamespace::PageControlElement* GlobalNamespace::PageControlElement::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::PageControlElement*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PageControlElement*>());
 }
 inline void GlobalNamespace::PageControlElement::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PageControlElement*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

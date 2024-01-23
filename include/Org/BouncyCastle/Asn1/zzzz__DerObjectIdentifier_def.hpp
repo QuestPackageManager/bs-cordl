@@ -38,34 +38,34 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerObjectIdentifier);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(31))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(31))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(350))
 // CS Name: ::Org.BouncyCastle.Asn1::DerObjectIdentifier*
 class CORDL_TYPE DerObjectIdentifier : public ::Org::BouncyCastle::Asn1::Asn1Object {
 public:
   // Declarations
   /// @brief Field identifier, offset 0x10, size 0x8
-  __declspec(property(get = __get_identifier, put = __set_identifier))::StringW identifier;
+  __declspec(property(get = __cordl_internal_get_identifier, put = __cordl_internal_set_identifier))::StringW identifier;
 
   /// @brief Field body, offset 0x18, size 0x8
-  __declspec(property(get = __get_body, put = __set_body))::ArrayW<uint8_t, ::Array<uint8_t>*> body;
+  __declspec(property(get = __cordl_internal_get_body, put = __cordl_internal_set_body))::ArrayW<uint8_t, ::Array<uint8_t>*> body;
 
   /// @brief Field cache, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_cache, put = setStaticF_cache))::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Array<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>*> cache;
 
   __declspec(property(get = get_Id))::StringW Id;
 
-  constexpr ::StringW& __get_identifier();
+  constexpr ::StringW& __cordl_internal_get_identifier();
 
-  constexpr ::StringW const& __get_identifier() const;
+  constexpr ::StringW const& __cordl_internal_get_identifier() const;
 
-  constexpr void __set_identifier(::StringW value);
+  constexpr void __cordl_internal_set_identifier(::StringW value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_body();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_body();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_body() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_body() const;
 
-  constexpr void __set_body(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_body(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_cache(::ArrayW<::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Array<::Org::BouncyCastle::Asn1::DerObjectIdentifier*>*> value);
 

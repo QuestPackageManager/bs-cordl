@@ -14,10 +14,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xfc;
   constexpr static std::size_t addrs = 0x23a4274;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(), "set_color",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(), "set_color", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
     return ___internal_method;
   }
 };
@@ -28,9 +28,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x5c;
   constexpr static std::size_t addrs = 0x23aec1c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(), "Awake",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -42,11 +42,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x23a4dcc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(), "SetPositionAndRotation", std::vector<Il2CppClass*>{},
-                                   ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(), "SetPositionAndRotation", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
     return ___internal_method;
   }
 };
@@ -58,9 +58,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x54;
   constexpr static std::size_t addrs = 0x23a4e44;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(),
-                                                                               "StartEmission", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "StartEmission", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -72,9 +72,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x23a4e98;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(),
-                                                                               "StopEmission", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "StopEmission", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -85,94 +85,94 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23aec78;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::ParticleSystem*& GlobalNamespace::ObstacleSaberSparkleEffect::__get__sparkleParticleSystem() {
+constexpr ::UnityW<::UnityEngine::ParticleSystem>& GlobalNamespace::ObstacleSaberSparkleEffect::__cordl_internal_get__sparkleParticleSystem() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparkleParticleSystem;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& GlobalNamespace::ObstacleSaberSparkleEffect::__get__sparkleParticleSystem() const {
+constexpr ::UnityW<::UnityEngine::ParticleSystem> const& GlobalNamespace::ObstacleSaberSparkleEffect::__cordl_internal_get__sparkleParticleSystem() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparkleParticleSystem;
 }
-constexpr void GlobalNamespace::ObstacleSaberSparkleEffect::__set__sparkleParticleSystem(::UnityEngine::ParticleSystem* value) {
+constexpr void GlobalNamespace::ObstacleSaberSparkleEffect::__cordl_internal_set__sparkleParticleSystem(::UnityW<::UnityEngine::ParticleSystem> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sparkleParticleSystem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::ParticleSystem*& GlobalNamespace::ObstacleSaberSparkleEffect::__get__burnParticleSystem() {
+constexpr ::UnityW<::UnityEngine::ParticleSystem>& GlobalNamespace::ObstacleSaberSparkleEffect::__cordl_internal_get__burnParticleSystem() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____burnParticleSystem;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ParticleSystem*> const& GlobalNamespace::ObstacleSaberSparkleEffect::__get__burnParticleSystem() const {
+constexpr ::UnityW<::UnityEngine::ParticleSystem> const& GlobalNamespace::ObstacleSaberSparkleEffect::__cordl_internal_get__burnParticleSystem() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____burnParticleSystem;
 }
-constexpr void GlobalNamespace::ObstacleSaberSparkleEffect::__set__burnParticleSystem(::UnityEngine::ParticleSystem* value) {
+constexpr void GlobalNamespace::ObstacleSaberSparkleEffect::__cordl_internal_set__burnParticleSystem(::UnityW<::UnityEngine::ParticleSystem> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____burnParticleSystem)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::__ParticleSystem__EmissionModule& GlobalNamespace::ObstacleSaberSparkleEffect::__get__sparkleParticleSystemEmissionModule() {
+constexpr ::UnityEngine::__ParticleSystem__EmissionModule& GlobalNamespace::ObstacleSaberSparkleEffect::__cordl_internal_get__sparkleParticleSystemEmissionModule() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparkleParticleSystemEmissionModule;
 }
-constexpr ::UnityEngine::__ParticleSystem__EmissionModule const& GlobalNamespace::ObstacleSaberSparkleEffect::__get__sparkleParticleSystemEmissionModule() const {
+constexpr ::UnityEngine::__ParticleSystem__EmissionModule const& GlobalNamespace::ObstacleSaberSparkleEffect::__cordl_internal_get__sparkleParticleSystemEmissionModule() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sparkleParticleSystemEmissionModule;
 }
-constexpr void GlobalNamespace::ObstacleSaberSparkleEffect::__set__sparkleParticleSystemEmissionModule(::UnityEngine::__ParticleSystem__EmissionModule value) {
+constexpr void GlobalNamespace::ObstacleSaberSparkleEffect::__cordl_internal_set__sparkleParticleSystemEmissionModule(::UnityEngine::__ParticleSystem__EmissionModule value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____sparkleParticleSystemEmissionModule = value;
 }
-constexpr ::UnityEngine::__ParticleSystem__EmissionModule& GlobalNamespace::ObstacleSaberSparkleEffect::__get__burnParticleSystemEmissionModule() {
+constexpr ::UnityEngine::__ParticleSystem__EmissionModule& GlobalNamespace::ObstacleSaberSparkleEffect::__cordl_internal_get__burnParticleSystemEmissionModule() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____burnParticleSystemEmissionModule;
 }
-constexpr ::UnityEngine::__ParticleSystem__EmissionModule const& GlobalNamespace::ObstacleSaberSparkleEffect::__get__burnParticleSystemEmissionModule() const {
+constexpr ::UnityEngine::__ParticleSystem__EmissionModule const& GlobalNamespace::ObstacleSaberSparkleEffect::__cordl_internal_get__burnParticleSystemEmissionModule() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____burnParticleSystemEmissionModule;
 }
-constexpr void GlobalNamespace::ObstacleSaberSparkleEffect::__set__burnParticleSystemEmissionModule(::UnityEngine::__ParticleSystem__EmissionModule value) {
+constexpr void GlobalNamespace::ObstacleSaberSparkleEffect::__cordl_internal_set__burnParticleSystemEmissionModule(::UnityEngine::__ParticleSystem__EmissionModule value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____burnParticleSystemEmissionModule = value;
 }
 inline void GlobalNamespace::ObstacleSaberSparkleEffect::set_color(::UnityEngine::Color value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(), "set_color", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(), "set_color", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::ObstacleSaberSparkleEffect::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(), "Awake",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::ObstacleSaberSparkleEffect::SetPositionAndRotation(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rot) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(), "SetPositionAndRotation", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(), "SetPositionAndRotation", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pos, rot);
 }
 inline void GlobalNamespace::ObstacleSaberSparkleEffect::StartEmission() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(),
-                                                                             "StartEmission", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "StartEmission", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::ObstacleSaberSparkleEffect::StopEmission() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(),
-                                                                             "StopEmission", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "StopEmission", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::ObstacleSaberSparkleEffect* GlobalNamespace::ObstacleSaberSparkleEffect::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::ObstacleSaberSparkleEffect*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ObstacleSaberSparkleEffect*>());
 }
 inline void GlobalNamespace::ObstacleSaberSparkleEffect::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleSaberSparkleEffect*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

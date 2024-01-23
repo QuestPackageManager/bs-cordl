@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::IsByRefLikeAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3377))
 // CS Name: ::System.Runtime.CompilerServices::IsByRefLikeAttribute*
 class CORDL_TYPE IsByRefLikeAttribute : public ::System::Attribute {

@@ -49,101 +49,101 @@ MARK_REF_PTR_T(::GlobalNamespace::GroupPresenceSample);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 93, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13218))
 // CS Name: ::GroupPresenceSample*
 class CORDL_TYPE GroupPresenceSample : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field IsJoinable, offset 0x18, size 0x1
-  __declspec(property(get = __get_IsJoinable, put = __set_IsJoinable)) bool IsJoinable;
+  __declspec(property(get = __cordl_internal_get_IsJoinable, put = __cordl_internal_set_IsJoinable)) bool IsJoinable;
 
   /// @brief Field LobbySessionID, offset 0x20, size 0x8
-  __declspec(property(get = __get_LobbySessionID, put = __set_LobbySessionID))::StringW LobbySessionID;
+  __declspec(property(get = __cordl_internal_get_LobbySessionID, put = __cordl_internal_set_LobbySessionID))::StringW LobbySessionID;
 
   /// @brief Field MatchSessionID, offset 0x28, size 0x8
-  __declspec(property(get = __get_MatchSessionID, put = __set_MatchSessionID))::StringW MatchSessionID;
+  __declspec(property(get = __cordl_internal_get_MatchSessionID, put = __cordl_internal_set_MatchSessionID))::StringW MatchSessionID;
 
   /// @brief Field SuggestedUserID, offset 0x30, size 0x8
-  __declspec(property(get = __get_SuggestedUserID, put = __set_SuggestedUserID)) uint64_t SuggestedUserID;
+  __declspec(property(get = __cordl_internal_get_SuggestedUserID, put = __cordl_internal_set_SuggestedUserID)) uint64_t SuggestedUserID;
 
   /// @brief Field InVRConsole, offset 0x38, size 0x8
-  __declspec(property(get = __get_InVRConsole, put = __set_InVRConsole))::UnityEngine::UI::Text* InVRConsole;
+  __declspec(property(get = __cordl_internal_get_InVRConsole, put = __cordl_internal_set_InVRConsole))::UnityW<::UnityEngine::UI::Text> InVRConsole;
 
   /// @brief Field DestinationsConsole, offset 0x40, size 0x8
-  __declspec(property(get = __get_DestinationsConsole, put = __set_DestinationsConsole))::UnityEngine::UI::Text* DestinationsConsole;
+  __declspec(property(get = __cordl_internal_get_DestinationsConsole, put = __cordl_internal_set_DestinationsConsole))::UnityW<::UnityEngine::UI::Text> DestinationsConsole;
 
   /// @brief Field DestinationAPINames, offset 0x48, size 0x8
-  __declspec(property(get = __get_DestinationAPINames, put = __set_DestinationAPINames))::System::Collections::Generic::List_1<::StringW>* DestinationAPINames;
+  __declspec(property(get = __cordl_internal_get_DestinationAPINames, put = __cordl_internal_set_DestinationAPINames))::System::Collections::Generic::List_1<::StringW>* DestinationAPINames;
 
   /// @brief Field LoggedInUserID, offset 0x50, size 0x8
-  __declspec(property(get = __get_LoggedInUserID, put = __set_LoggedInUserID)) uint64_t LoggedInUserID;
+  __declspec(property(get = __cordl_internal_get_LoggedInUserID, put = __cordl_internal_set_LoggedInUserID)) uint64_t LoggedInUserID;
 
   /// @brief Field DestinationIndex, offset 0x58, size 0x4
-  __declspec(property(get = __get_DestinationIndex, put = __set_DestinationIndex)) int32_t DestinationIndex;
+  __declspec(property(get = __cordl_internal_get_DestinationIndex, put = __cordl_internal_set_DestinationIndex)) int32_t DestinationIndex;
 
   /// @brief Field OnlyPushUpOnce, offset 0x5c, size 0x1
-  __declspec(property(get = __get_OnlyPushUpOnce, put = __set_OnlyPushUpOnce)) bool OnlyPushUpOnce;
+  __declspec(property(get = __cordl_internal_get_OnlyPushUpOnce, put = __cordl_internal_set_OnlyPushUpOnce)) bool OnlyPushUpOnce;
 
-  constexpr bool& __get_IsJoinable();
+  constexpr bool& __cordl_internal_get_IsJoinable();
 
-  constexpr bool const& __get_IsJoinable() const;
+  constexpr bool const& __cordl_internal_get_IsJoinable() const;
 
-  constexpr void __set_IsJoinable(bool value);
+  constexpr void __cordl_internal_set_IsJoinable(bool value);
 
-  constexpr ::StringW& __get_LobbySessionID();
+  constexpr ::StringW& __cordl_internal_get_LobbySessionID();
 
-  constexpr ::StringW const& __get_LobbySessionID() const;
+  constexpr ::StringW const& __cordl_internal_get_LobbySessionID() const;
 
-  constexpr void __set_LobbySessionID(::StringW value);
+  constexpr void __cordl_internal_set_LobbySessionID(::StringW value);
 
-  constexpr ::StringW& __get_MatchSessionID();
+  constexpr ::StringW& __cordl_internal_get_MatchSessionID();
 
-  constexpr ::StringW const& __get_MatchSessionID() const;
+  constexpr ::StringW const& __cordl_internal_get_MatchSessionID() const;
 
-  constexpr void __set_MatchSessionID(::StringW value);
+  constexpr void __cordl_internal_set_MatchSessionID(::StringW value);
 
-  constexpr uint64_t& __get_SuggestedUserID();
+  constexpr uint64_t& __cordl_internal_get_SuggestedUserID();
 
-  constexpr uint64_t const& __get_SuggestedUserID() const;
+  constexpr uint64_t const& __cordl_internal_get_SuggestedUserID() const;
 
-  constexpr void __set_SuggestedUserID(uint64_t value);
+  constexpr void __cordl_internal_set_SuggestedUserID(uint64_t value);
 
-  constexpr ::UnityEngine::UI::Text*& __get_InVRConsole();
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_InVRConsole();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& __get_InVRConsole() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_InVRConsole() const;
 
-  constexpr void __set_InVRConsole(::UnityEngine::UI::Text* value);
+  constexpr void __cordl_internal_set_InVRConsole(::UnityW<::UnityEngine::UI::Text> value);
 
-  constexpr ::UnityEngine::UI::Text*& __get_DestinationsConsole();
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_DestinationsConsole();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& __get_DestinationsConsole() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_DestinationsConsole() const;
 
-  constexpr void __set_DestinationsConsole(::UnityEngine::UI::Text* value);
+  constexpr void __cordl_internal_set_DestinationsConsole(::UnityW<::UnityEngine::UI::Text> value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_DestinationAPINames();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_DestinationAPINames();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_DestinationAPINames() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_DestinationAPINames() const;
 
-  constexpr void __set_DestinationAPINames(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_DestinationAPINames(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr uint64_t& __get_LoggedInUserID();
+  constexpr uint64_t& __cordl_internal_get_LoggedInUserID();
 
-  constexpr uint64_t const& __get_LoggedInUserID() const;
+  constexpr uint64_t const& __cordl_internal_get_LoggedInUserID() const;
 
-  constexpr void __set_LoggedInUserID(uint64_t value);
+  constexpr void __cordl_internal_set_LoggedInUserID(uint64_t value);
 
-  constexpr int32_t& __get_DestinationIndex();
+  constexpr int32_t& __cordl_internal_get_DestinationIndex();
 
-  constexpr int32_t const& __get_DestinationIndex() const;
+  constexpr int32_t const& __cordl_internal_get_DestinationIndex() const;
 
-  constexpr void __set_DestinationIndex(int32_t value);
+  constexpr void __cordl_internal_set_DestinationIndex(int32_t value);
 
-  constexpr bool& __get_OnlyPushUpOnce();
+  constexpr bool& __cordl_internal_get_OnlyPushUpOnce();
 
-  constexpr bool const& __get_OnlyPushUpOnce() const;
+  constexpr bool const& __cordl_internal_get_OnlyPushUpOnce() const;
 
-  constexpr void __set_OnlyPushUpOnce(bool value);
+  constexpr void __cordl_internal_set_OnlyPushUpOnce(bool value);
 
   /// @brief Method Start, addr 0x26c9be4, size 0xf8, virtual false, abstract: false, final false
   inline void Start();
@@ -258,10 +258,10 @@ public:
   uint64_t ___SuggestedUserID;
 
   /// @brief Field InVRConsole, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::UI::Text* ___InVRConsole;
+  ::UnityW<::UnityEngine::UI::Text> ___InVRConsole;
 
   /// @brief Field DestinationsConsole, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::UI::Text* ___DestinationsConsole;
+  ::UnityW<::UnityEngine::UI::Text> ___DestinationsConsole;
 
   /// @brief Field DestinationAPINames, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___DestinationAPINames;

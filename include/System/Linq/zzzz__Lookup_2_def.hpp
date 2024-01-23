@@ -72,23 +72,23 @@ namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14283))
 // CS Name: ::Lookup`2::Grouping::<GetEnumerator>d__7<TKey,TElement>*
 class CORDL_TYPE __Lookup_2__Grouping___GetEnumerator_d__7 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current)) TElement __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TElement __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::System::Linq::__Lookup_2__Grouping<TKey, TElement>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Linq::__Lookup_2__Grouping<TKey, TElement>* __4__this;
 
   /// @brief Field <i>5__2, offset 0x28, size 0x4
-  __declspec(property(get = __get__i_5__2, put = __set__i_5__2)) int32_t _i_5__2;
+  __declspec(property(get = __cordl_internal_get__i_5__2, put = __cordl_internal_set__i_5__2)) int32_t _i_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_TElement__get_Current)) TElement System_Collections_Generic_IEnumerator_TElement__Current;
 
@@ -112,29 +112,29 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr TElement& __get___2__current();
+  constexpr TElement& __cordl_internal_get___2__current();
 
-  constexpr TElement const& __get___2__current() const;
+  constexpr TElement const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(TElement value);
+  constexpr void __cordl_internal_set___2__current(TElement value);
 
-  constexpr ::System::Linq::__Lookup_2__Grouping<TKey, TElement>*& __get___4__this();
+  constexpr ::System::Linq::__Lookup_2__Grouping<TKey, TElement>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::System::Linq::__Lookup_2__Grouping<TKey, TElement>* value);
+  constexpr void __cordl_internal_set___4__this(::System::Linq::__Lookup_2__Grouping<TKey, TElement>* value);
 
-  constexpr int32_t& __get__i_5__2();
+  constexpr int32_t& __cordl_internal_get__i_5__2();
 
-  constexpr int32_t const& __get__i_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__2() const;
 
-  constexpr void __set__i_5__2(int32_t value);
+  constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
   static inline ::GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>* New_ctor(int32_t __1__state);
 
@@ -192,7 +192,7 @@ namespace System::Linq {
 // cpp template
 template <typename TKey, typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14284))
 // CS Name: ::Lookup`2::Grouping<TKey,TElement>*
 class CORDL_TYPE __Lookup_2__Grouping : public ::System::Object {
@@ -201,22 +201,22 @@ public:
   using _GetEnumerator_d__7 = ::GlobalNamespace::__Lookup_2__Grouping___GetEnumerator_d__7<TKey, TElement>;
 
   /// @brief Field key, offset 0x10, size 0x8
-  __declspec(property(get = __get_key, put = __set_key)) TKey key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key)) TKey key;
 
   /// @brief Field hashCode, offset 0x18, size 0x4
-  __declspec(property(get = __get_hashCode, put = __set_hashCode)) int32_t hashCode;
+  __declspec(property(get = __cordl_internal_get_hashCode, put = __cordl_internal_set_hashCode)) int32_t hashCode;
 
   /// @brief Field elements, offset 0x20, size 0x8
-  __declspec(property(get = __get_elements, put = __set_elements))::ArrayW<TElement, ::Array<TElement>*> elements;
+  __declspec(property(get = __cordl_internal_get_elements, put = __cordl_internal_set_elements))::ArrayW<TElement, ::Array<TElement>*> elements;
 
   /// @brief Field count, offset 0x28, size 0x4
-  __declspec(property(get = __get_count, put = __set_count)) int32_t count;
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field hashNext, offset 0x30, size 0x8
-  __declspec(property(get = __get_hashNext, put = __set_hashNext))::System::Linq::__Lookup_2__Grouping<TKey, TElement>* hashNext;
+  __declspec(property(get = __cordl_internal_get_hashNext, put = __cordl_internal_set_hashNext))::System::Linq::__Lookup_2__Grouping<TKey, TElement>* hashNext;
 
   /// @brief Field next, offset 0x38, size 0x8
-  __declspec(property(get = __get_next, put = __set_next))::System::Linq::__Lookup_2__Grouping<TKey, TElement>* next;
+  __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next))::System::Linq::__Lookup_2__Grouping<TKey, TElement>* next;
 
   __declspec(property(get = get_Key)) TKey Key;
 
@@ -256,41 +256,41 @@ public:
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<TElement>"
   constexpr ::System::Collections::Generic::ICollection_1<TElement>* i___System__Collections__Generic__ICollection_1_TElement_() noexcept;
 
-  constexpr TKey& __get_key();
+  constexpr TKey& __cordl_internal_get_key();
 
-  constexpr TKey const& __get_key() const;
+  constexpr TKey const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(TKey value);
+  constexpr void __cordl_internal_set_key(TKey value);
 
-  constexpr int32_t& __get_hashCode();
+  constexpr int32_t& __cordl_internal_get_hashCode();
 
-  constexpr int32_t const& __get_hashCode() const;
+  constexpr int32_t const& __cordl_internal_get_hashCode() const;
 
-  constexpr void __set_hashCode(int32_t value);
+  constexpr void __cordl_internal_set_hashCode(int32_t value);
 
-  constexpr ::ArrayW<TElement, ::Array<TElement>*>& __get_elements();
+  constexpr ::ArrayW<TElement, ::Array<TElement>*>& __cordl_internal_get_elements();
 
-  constexpr ::ArrayW<TElement, ::Array<TElement>*> const& __get_elements() const;
+  constexpr ::ArrayW<TElement, ::Array<TElement>*> const& __cordl_internal_get_elements() const;
 
-  constexpr void __set_elements(::ArrayW<TElement, ::Array<TElement>*> value);
+  constexpr void __cordl_internal_set_elements(::ArrayW<TElement, ::Array<TElement>*> value);
 
-  constexpr int32_t& __get_count();
+  constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr int32_t const& __get_count() const;
+  constexpr int32_t const& __cordl_internal_get_count() const;
 
-  constexpr void __set_count(int32_t value);
+  constexpr void __cordl_internal_set_count(int32_t value);
 
-  constexpr ::System::Linq::__Lookup_2__Grouping<TKey, TElement>*& __get_hashNext();
+  constexpr ::System::Linq::__Lookup_2__Grouping<TKey, TElement>*& __cordl_internal_get_hashNext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*> const& __get_hashNext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*> const& __cordl_internal_get_hashNext() const;
 
-  constexpr void __set_hashNext(::System::Linq::__Lookup_2__Grouping<TKey, TElement>* value);
+  constexpr void __cordl_internal_set_hashNext(::System::Linq::__Lookup_2__Grouping<TKey, TElement>* value);
 
-  constexpr ::System::Linq::__Lookup_2__Grouping<TKey, TElement>*& __get_next();
+  constexpr ::System::Linq::__Lookup_2__Grouping<TKey, TElement>*& __cordl_internal_get_next();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*> const& __get_next() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*> const& __cordl_internal_get_next() const;
 
-  constexpr void __set_next(::System::Linq::__Lookup_2__Grouping<TKey, TElement>* value);
+  constexpr void __cordl_internal_set_next(::System::Linq::__Lookup_2__Grouping<TKey, TElement>* value);
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Add(TElement element);
@@ -387,23 +387,23 @@ namespace System::Linq {
 // cpp template
 template <typename TKey, typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14285))
 // CS Name: ::Lookup`2::<GetEnumerator>d__12<TKey,TElement>*
 class CORDL_TYPE __Lookup_2___GetEnumerator_d__12 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Linq::IGrouping_2<TKey, TElement>* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Linq::IGrouping_2<TKey, TElement>* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::System::Linq::Lookup_2<TKey, TElement>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Linq::Lookup_2<TKey, TElement>* __4__this;
 
   /// @brief Field <g>5__2, offset 0x28, size 0x8
-  __declspec(property(get = __get__g_5__2, put = __set__g_5__2))::System::Linq::__Lookup_2__Grouping<TKey, TElement>* _g_5__2;
+  __declspec(property(get = __cordl_internal_get__g_5__2, put = __cordl_internal_set__g_5__2))::System::Linq::__Lookup_2__Grouping<TKey, TElement>* _g_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Linq_IGrouping_TKey_TElement___get_Current))::System::Linq::IGrouping_2<
       TKey, TElement>* System_Collections_Generic_IEnumerator_System_Linq_IGrouping_TKey_TElement___Current;
@@ -429,29 +429,29 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Linq::IGrouping_2<TKey, TElement>*& __get___2__current();
+  constexpr ::System::Linq::IGrouping_2<TKey, TElement>*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::IGrouping_2<TKey, TElement>*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Linq::IGrouping_2<TKey, TElement>*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Linq::IGrouping_2<TKey, TElement>* value);
+  constexpr void __cordl_internal_set___2__current(::System::Linq::IGrouping_2<TKey, TElement>* value);
 
-  constexpr ::System::Linq::Lookup_2<TKey, TElement>*& __get___4__this();
+  constexpr ::System::Linq::Lookup_2<TKey, TElement>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Lookup_2<TKey, TElement>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Lookup_2<TKey, TElement>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::System::Linq::Lookup_2<TKey, TElement>* value);
+  constexpr void __cordl_internal_set___4__this(::System::Linq::Lookup_2<TKey, TElement>* value);
 
-  constexpr ::System::Linq::__Lookup_2__Grouping<TKey, TElement>*& __get__g_5__2();
+  constexpr ::System::Linq::__Lookup_2__Grouping<TKey, TElement>*& __cordl_internal_get__g_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*> const& __get__g_5__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*> const& __cordl_internal_get__g_5__2() const;
 
-  constexpr void __set__g_5__2(::System::Linq::__Lookup_2__Grouping<TKey, TElement>* value);
+  constexpr void __cordl_internal_set__g_5__2(::System::Linq::__Lookup_2__Grouping<TKey, TElement>* value);
 
   static inline ::System::Linq::__Lookup_2___GetEnumerator_d__12<TKey, TElement>* New_ctor(int32_t __1__state);
 
@@ -509,7 +509,7 @@ namespace System::Linq {
 // cpp template
 template <typename TKey, typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14286))
 // CS Name: ::System.Linq::Lookup`2<TKey,TElement>*
 class CORDL_TYPE Lookup_2 : public ::System::Object {
@@ -520,17 +520,17 @@ public:
   using Grouping = ::System::Linq::__Lookup_2__Grouping<TKey, TElement>;
 
   /// @brief Field comparer, offset 0x10, size 0x8
-  __declspec(property(get = __get_comparer, put = __set_comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer;
 
   /// @brief Field groupings, offset 0x18, size 0x8
-  __declspec(property(get = __get_groupings,
-                      put = __set_groupings))::ArrayW<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*, ::Array<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*>*> groupings;
+  __declspec(property(get = __cordl_internal_get_groupings,
+                      put = __cordl_internal_set_groupings))::ArrayW<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*, ::Array<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*>*> groupings;
 
   /// @brief Field lastGrouping, offset 0x20, size 0x8
-  __declspec(property(get = __get_lastGrouping, put = __set_lastGrouping))::System::Linq::__Lookup_2__Grouping<TKey, TElement>* lastGrouping;
+  __declspec(property(get = __cordl_internal_get_lastGrouping, put = __cordl_internal_set_lastGrouping))::System::Linq::__Lookup_2__Grouping<TKey, TElement>* lastGrouping;
 
   /// @brief Field count, offset 0x28, size 0x4
-  __declspec(property(get = __get_count, put = __set_count)) int32_t count;
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey,TElement>*>"
   constexpr operator ::System::Collections::Generic::IEnumerable_1<::System::Linq::IGrouping_2<TKey, TElement>*>*() noexcept;
@@ -545,29 +545,29 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __get_comparer();
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __cordl_internal_get_comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& __get_comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& __cordl_internal_get_comparer() const;
 
-  constexpr void __set_comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value);
+  constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value);
 
-  constexpr ::ArrayW<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*, ::Array<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*>*>& __get_groupings();
+  constexpr ::ArrayW<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*, ::Array<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*>*>& __cordl_internal_get_groupings();
 
-  constexpr ::ArrayW<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*, ::Array<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*>*> const& __get_groupings() const;
+  constexpr ::ArrayW<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*, ::Array<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*>*> const& __cordl_internal_get_groupings() const;
 
-  constexpr void __set_groupings(::ArrayW<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*, ::Array<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*>*> value);
+  constexpr void __cordl_internal_set_groupings(::ArrayW<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*, ::Array<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*>*> value);
 
-  constexpr ::System::Linq::__Lookup_2__Grouping<TKey, TElement>*& __get_lastGrouping();
+  constexpr ::System::Linq::__Lookup_2__Grouping<TKey, TElement>*& __cordl_internal_get_lastGrouping();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*> const& __get_lastGrouping() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Linq::__Lookup_2__Grouping<TKey, TElement>*> const& __cordl_internal_get_lastGrouping() const;
 
-  constexpr void __set_lastGrouping(::System::Linq::__Lookup_2__Grouping<TKey, TElement>* value);
+  constexpr void __cordl_internal_set_lastGrouping(::System::Linq::__Lookup_2__Grouping<TKey, TElement>* value);
 
-  constexpr int32_t& __get_count();
+  constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr int32_t const& __get_count() const;
+  constexpr int32_t const& __cordl_internal_get_count() const;
 
-  constexpr void __set_count(int32_t value);
+  constexpr void __cordl_internal_set_count(int32_t value);
 
   /// @brief Method Create, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource>

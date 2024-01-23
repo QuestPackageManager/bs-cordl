@@ -30,32 +30,34 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Identity);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3060))
 // CS Name: ::System.Runtime.Remoting::Identity*
 class CORDL_TYPE Identity : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _objectUri, offset 0x10, size 0x8
-  __declspec(property(get = __get__objectUri, put = __set__objectUri))::StringW _objectUri;
+  __declspec(property(get = __cordl_internal_get__objectUri, put = __cordl_internal_set__objectUri))::StringW _objectUri;
 
   /// @brief Field _channelSink, offset 0x18, size 0x8
-  __declspec(property(get = __get__channelSink, put = __set__channelSink))::System::Runtime::Remoting::Messaging::IMessageSink* _channelSink;
+  __declspec(property(get = __cordl_internal_get__channelSink, put = __cordl_internal_set__channelSink))::System::Runtime::Remoting::Messaging::IMessageSink* _channelSink;
 
   /// @brief Field _envoySink, offset 0x20, size 0x8
-  __declspec(property(get = __get__envoySink, put = __set__envoySink))::System::Runtime::Remoting::Messaging::IMessageSink* _envoySink;
+  __declspec(property(get = __cordl_internal_get__envoySink, put = __cordl_internal_set__envoySink))::System::Runtime::Remoting::Messaging::IMessageSink* _envoySink;
 
   /// @brief Field _clientDynamicProperties, offset 0x28, size 0x8
-  __declspec(property(get = __get__clientDynamicProperties, put = __set__clientDynamicProperties))::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _clientDynamicProperties;
+  __declspec(property(get = __cordl_internal_get__clientDynamicProperties,
+                      put = __cordl_internal_set__clientDynamicProperties))::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _clientDynamicProperties;
 
   /// @brief Field _serverDynamicProperties, offset 0x30, size 0x8
-  __declspec(property(get = __get__serverDynamicProperties, put = __set__serverDynamicProperties))::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _serverDynamicProperties;
+  __declspec(property(get = __cordl_internal_get__serverDynamicProperties,
+                      put = __cordl_internal_set__serverDynamicProperties))::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* _serverDynamicProperties;
 
   /// @brief Field _objRef, offset 0x38, size 0x8
-  __declspec(property(get = __get__objRef, put = __set__objRef))::System::Runtime::Remoting::ObjRef* _objRef;
+  __declspec(property(get = __cordl_internal_get__objRef, put = __cordl_internal_set__objRef))::System::Runtime::Remoting::ObjRef* _objRef;
 
   /// @brief Field _disposed, offset 0x40, size 0x1
-  __declspec(property(get = __get__disposed, put = __set__disposed)) bool _disposed;
+  __declspec(property(get = __cordl_internal_get__disposed, put = __cordl_internal_set__disposed)) bool _disposed;
 
   __declspec(property(get = get_ChannelSink, put = set_ChannelSink))::System::Runtime::Remoting::Messaging::IMessageSink* ChannelSink;
 
@@ -71,47 +73,47 @@ public:
 
   __declspec(property(get = get_HasServerDynamicSinks)) bool HasServerDynamicSinks;
 
-  constexpr ::StringW& __get__objectUri();
+  constexpr ::StringW& __cordl_internal_get__objectUri();
 
-  constexpr ::StringW const& __get__objectUri() const;
+  constexpr ::StringW const& __cordl_internal_get__objectUri() const;
 
-  constexpr void __set__objectUri(::StringW value);
+  constexpr void __cordl_internal_set__objectUri(::StringW value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __get__channelSink();
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get__channelSink();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __get__channelSink() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __cordl_internal_get__channelSink() const;
 
-  constexpr void __set__channelSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
+  constexpr void __cordl_internal_set__channelSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __get__envoySink();
+  constexpr ::System::Runtime::Remoting::Messaging::IMessageSink*& __cordl_internal_get__envoySink();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __get__envoySink() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMessageSink*> const& __cordl_internal_get__envoySink() const;
 
-  constexpr void __set__envoySink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
+  constexpr void __cordl_internal_set__envoySink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  constexpr ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*& __get__clientDynamicProperties();
+  constexpr ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*& __cordl_internal_get__clientDynamicProperties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*> const& __get__clientDynamicProperties() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*> const& __cordl_internal_get__clientDynamicProperties() const;
 
-  constexpr void __set__clientDynamicProperties(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* value);
+  constexpr void __cordl_internal_set__clientDynamicProperties(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* value);
 
-  constexpr ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*& __get__serverDynamicProperties();
+  constexpr ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*& __cordl_internal_get__serverDynamicProperties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*> const& __get__serverDynamicProperties() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Contexts::DynamicPropertyCollection*> const& __cordl_internal_get__serverDynamicProperties() const;
 
-  constexpr void __set__serverDynamicProperties(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* value);
+  constexpr void __cordl_internal_set__serverDynamicProperties(::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* value);
 
-  constexpr ::System::Runtime::Remoting::ObjRef*& __get__objRef();
+  constexpr ::System::Runtime::Remoting::ObjRef*& __cordl_internal_get__objRef();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::ObjRef*> const& __get__objRef() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::ObjRef*> const& __cordl_internal_get__objRef() const;
 
-  constexpr void __set__objRef(::System::Runtime::Remoting::ObjRef* value);
+  constexpr void __cordl_internal_set__objRef(::System::Runtime::Remoting::ObjRef* value);
 
-  constexpr bool& __get__disposed();
+  constexpr bool& __cordl_internal_get__disposed();
 
-  constexpr bool const& __get__disposed() const;
+  constexpr bool const& __cordl_internal_get__disposed() const;
 
-  constexpr void __set__disposed(bool value);
+  constexpr void __cordl_internal_set__disposed(bool value);
 
   static inline ::System::Runtime::Remoting::Identity* New_ctor(::StringW objectUri);
 

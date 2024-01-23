@@ -19,7 +19,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x233cd90;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationBeatmapEventDataBox*>::get(),
@@ -35,7 +35,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x233cd98;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationBeatmapEventDataBox*>::get(),
@@ -53,10 +53,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x234;
   constexpr static std::size_t addrs = 0x233cda0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationBeatmapEventDataBox*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationBeatmapEventDataBox*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 10>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IndexFilter*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightAxis>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
@@ -76,7 +76,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x584;
   constexpr static std::size_t addrs = 0x233cfd4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationBeatmapEventDataBox*>::get(),
@@ -84,64 +84,66 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>*& GlobalNamespace::LightRotationBeatmapEventDataBox::__get__lightRotationBaseDataList() {
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>*&
+GlobalNamespace::LightRotationBeatmapEventDataBox::__cordl_internal_get__lightRotationBaseDataList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightRotationBaseDataList;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>*> const&
-GlobalNamespace::LightRotationBeatmapEventDataBox::__get__lightRotationBaseDataList() const {
+GlobalNamespace::LightRotationBeatmapEventDataBox::__cordl_internal_get__lightRotationBaseDataList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____lightRotationBaseDataList;
 }
-constexpr void GlobalNamespace::LightRotationBeatmapEventDataBox::__set__lightRotationBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* value) {
+constexpr void
+GlobalNamespace::LightRotationBeatmapEventDataBox::__cordl_internal_set__lightRotationBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lightRotationBaseDataList)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::LightAxis& GlobalNamespace::LightRotationBeatmapEventDataBox::__get__axis() {
+constexpr ::GlobalNamespace::LightAxis& GlobalNamespace::LightRotationBeatmapEventDataBox::__cordl_internal_get__axis() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____axis;
 }
-constexpr ::GlobalNamespace::LightAxis const& GlobalNamespace::LightRotationBeatmapEventDataBox::__get__axis() const {
+constexpr ::GlobalNamespace::LightAxis const& GlobalNamespace::LightRotationBeatmapEventDataBox::__cordl_internal_get__axis() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____axis;
 }
-constexpr void GlobalNamespace::LightRotationBeatmapEventDataBox::__set__axis(::GlobalNamespace::LightAxis value) {
+constexpr void GlobalNamespace::LightRotationBeatmapEventDataBox::__cordl_internal_set__axis(::GlobalNamespace::LightAxis value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____axis = value;
 }
-constexpr float_t& GlobalNamespace::LightRotationBeatmapEventDataBox::__get__rotationDirection() {
+constexpr float_t& GlobalNamespace::LightRotationBeatmapEventDataBox::__cordl_internal_get__rotationDirection() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationDirection;
 }
-constexpr float_t const& GlobalNamespace::LightRotationBeatmapEventDataBox::__get__rotationDirection() const {
+constexpr float_t const& GlobalNamespace::LightRotationBeatmapEventDataBox::__cordl_internal_get__rotationDirection() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationDirection;
 }
-constexpr void GlobalNamespace::LightRotationBeatmapEventDataBox::__set__rotationDirection(float_t value) {
+constexpr void GlobalNamespace::LightRotationBeatmapEventDataBox::__cordl_internal_set__rotationDirection(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationDirection = value;
 }
-constexpr float_t& GlobalNamespace::LightRotationBeatmapEventDataBox::__get__rotationStep() {
+constexpr float_t& GlobalNamespace::LightRotationBeatmapEventDataBox::__cordl_internal_get__rotationStep() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationStep;
 }
-constexpr float_t const& GlobalNamespace::LightRotationBeatmapEventDataBox::__get__rotationStep() const {
+constexpr float_t const& GlobalNamespace::LightRotationBeatmapEventDataBox::__cordl_internal_get__rotationStep() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rotationStep;
 }
-constexpr void GlobalNamespace::LightRotationBeatmapEventDataBox::__set__rotationStep(float_t value) {
+constexpr void GlobalNamespace::LightRotationBeatmapEventDataBox::__cordl_internal_set__rotationStep(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____rotationStep = value;
 }
-constexpr float_t& GlobalNamespace::LightRotationBeatmapEventDataBox::__get__beatStep() {
+constexpr float_t& GlobalNamespace::LightRotationBeatmapEventDataBox::__cordl_internal_get__beatStep() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatStep;
 }
-constexpr float_t const& GlobalNamespace::LightRotationBeatmapEventDataBox::__get__beatStep() const {
+constexpr float_t const& GlobalNamespace::LightRotationBeatmapEventDataBox::__cordl_internal_get__beatStep() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatStep;
 }
-constexpr void GlobalNamespace::LightRotationBeatmapEventDataBox::__set__beatStep(float_t value) {
+constexpr void GlobalNamespace::LightRotationBeatmapEventDataBox::__cordl_internal_set__beatStep(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatStep = value;
 }
@@ -160,7 +162,7 @@ inline ::GlobalNamespace::LightRotationBeatmapEventDataBox* GlobalNamespace::Lig
     ::GlobalNamespace::LightAxis axis, bool flipRotation, float_t rotationDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType rotationDistributionParamType,
     bool rotationDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType rotationDistributionEaseType,
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* lightRotationBaseDataList) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::LightRotationBeatmapEventDataBox*>(
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LightRotationBeatmapEventDataBox*>(
       indexFilter, beatDistributionParam, beatDistributionParamType, axis, flipRotation, rotationDistributionParam, rotationDistributionParamType, rotationDistributionShouldAffectFirstBaseEvent,
       rotationDistributionEaseType, lightRotationBaseDataList));
 }
@@ -171,15 +173,15 @@ inline void GlobalNamespace::LightRotationBeatmapEventDataBox::_ctor(::GlobalNam
                                                                      bool rotationDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType rotationDistributionEaseType,
                                                                      ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>* lightRotationBaseDataList) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationBeatmapEventDataBox*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IndexFilter*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightAxis>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EaseType>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightRotationBeatmapEventDataBox*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 10>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IndexFilter*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LightAxis>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EaseType>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightRotationBaseData*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, indexFilter, beatDistributionParam, beatDistributionParamType, axis, flipRotation, rotationDistributionParam,
                                                           rotationDistributionParamType, rotationDistributionShouldAffectFirstBaseEvent, rotationDistributionEaseType, lightRotationBaseDataList);
 }

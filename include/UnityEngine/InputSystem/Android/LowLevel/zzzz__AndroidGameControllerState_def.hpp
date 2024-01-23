@@ -52,7 +52,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::__AndroidGameControlle
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6446))
 // CS Name: ::AndroidGameControllerState::Variants*
 class CORDL_TYPE __AndroidGameControllerState__Variants : public ::System::Object {
@@ -99,7 +99,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Androi
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6447))
 // CS Name: ::AndroidGameControllerState::<buttons>e__FixedBuffer
 #pragma pack(push, 0)
@@ -135,7 +135,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::__AndroidG
 // SizeInfo { instance_size: 192, native_size: 192, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6448))
 // CS Name: ::AndroidGameControllerState::<axis>e__FixedBuffer
 #pragma pack(push, 0)
@@ -171,7 +171,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::__AndroidG
 // SizeInfo { instance_size: 220, native_size: 220, calculated_instance_size: 220, calculated_native_size: 236, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(6448)), TypeDefinitionIndex(TypeDefinitionIndex(6447))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6447)), TypeDefinitionIndex(TypeDefinitionIndex(6448)), TypeDefinitionIndex(TypeDefinitionIndex(6667))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6449))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidGameControllerState
 struct CORDL_TYPE AndroidGameControllerState {

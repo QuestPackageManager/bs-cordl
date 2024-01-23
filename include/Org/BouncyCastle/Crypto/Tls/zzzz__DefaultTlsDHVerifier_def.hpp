@@ -27,17 +27,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DefaultTlsDHVerifier);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1212))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DefaultTlsDHVerifier*
 class CORDL_TYPE DefaultTlsDHVerifier : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mGroups, offset 0x10, size 0x8
-  __declspec(property(get = __get_mGroups, put = __set_mGroups))::System::Collections::IList* mGroups;
+  __declspec(property(get = __cordl_internal_get_mGroups, put = __cordl_internal_set_mGroups))::System::Collections::IList* mGroups;
 
   /// @brief Field mMinimumPrimeBits, offset 0x18, size 0x4
-  __declspec(property(get = __get_mMinimumPrimeBits, put = __set_mMinimumPrimeBits)) int32_t mMinimumPrimeBits;
+  __declspec(property(get = __cordl_internal_get_mMinimumPrimeBits, put = __cordl_internal_set_mMinimumPrimeBits)) int32_t mMinimumPrimeBits;
 
   /// @brief Field DefaultMinimumPrimeBits, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_DefaultMinimumPrimeBits, put = setStaticF_DefaultMinimumPrimeBits)) int32_t DefaultMinimumPrimeBits;
@@ -53,17 +53,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsDHVerifier* i___Org__BouncyCastle__Crypto__Tls__TlsDHVerifier() noexcept;
 
-  constexpr ::System::Collections::IList*& __get_mGroups();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_mGroups();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_mGroups() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_mGroups() const;
 
-  constexpr void __set_mGroups(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_mGroups(::System::Collections::IList* value);
 
-  constexpr int32_t& __get_mMinimumPrimeBits();
+  constexpr int32_t& __cordl_internal_get_mMinimumPrimeBits();
 
-  constexpr int32_t const& __get_mMinimumPrimeBits() const;
+  constexpr int32_t const& __cordl_internal_get_mMinimumPrimeBits() const;
 
-  constexpr void __set_mMinimumPrimeBits(int32_t value);
+  constexpr void __cordl_internal_set_mMinimumPrimeBits(int32_t value);
 
   static inline void setStaticF_DefaultMinimumPrimeBits(int32_t value);
 

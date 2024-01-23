@@ -16,56 +16,56 @@ MARK_REF_PTR_T(::System::Security::Cryptography::SHA1Internal);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2985))
 // CS Name: ::System.Security.Cryptography::SHA1Internal*
 class CORDL_TYPE SHA1Internal : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _H, offset 0x10, size 0x8
-  __declspec(property(get = __get__H, put = __set__H))::ArrayW<uint32_t, ::Array<uint32_t>*> _H;
+  __declspec(property(get = __cordl_internal_get__H, put = __cordl_internal_set__H))::ArrayW<uint32_t, ::Array<uint32_t>*> _H;
 
   /// @brief Field count, offset 0x18, size 0x8
-  __declspec(property(get = __get_count, put = __set_count)) uint64_t count;
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) uint64_t count;
 
   /// @brief Field _ProcessingBuffer, offset 0x20, size 0x8
-  __declspec(property(get = __get__ProcessingBuffer, put = __set__ProcessingBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _ProcessingBuffer;
+  __declspec(property(get = __cordl_internal_get__ProcessingBuffer, put = __cordl_internal_set__ProcessingBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _ProcessingBuffer;
 
   /// @brief Field _ProcessingBufferCount, offset 0x28, size 0x4
-  __declspec(property(get = __get__ProcessingBufferCount, put = __set__ProcessingBufferCount)) int32_t _ProcessingBufferCount;
+  __declspec(property(get = __cordl_internal_get__ProcessingBufferCount, put = __cordl_internal_set__ProcessingBufferCount)) int32_t _ProcessingBufferCount;
 
   /// @brief Field buff, offset 0x30, size 0x8
-  __declspec(property(get = __get_buff, put = __set_buff))::ArrayW<uint32_t, ::Array<uint32_t>*> buff;
+  __declspec(property(get = __cordl_internal_get_buff, put = __cordl_internal_set_buff))::ArrayW<uint32_t, ::Array<uint32_t>*> buff;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get__H();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get__H();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get__H() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__H() const;
 
-  constexpr void __set__H(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set__H(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr uint64_t& __get_count();
+  constexpr uint64_t& __cordl_internal_get_count();
 
-  constexpr uint64_t const& __get_count() const;
+  constexpr uint64_t const& __cordl_internal_get_count() const;
 
-  constexpr void __set_count(uint64_t value);
+  constexpr void __cordl_internal_set_count(uint64_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__ProcessingBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__ProcessingBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__ProcessingBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__ProcessingBuffer() const;
 
-  constexpr void __set__ProcessingBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__ProcessingBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__ProcessingBufferCount();
+  constexpr int32_t& __cordl_internal_get__ProcessingBufferCount();
 
-  constexpr int32_t const& __get__ProcessingBufferCount() const;
+  constexpr int32_t const& __cordl_internal_get__ProcessingBufferCount() const;
 
-  constexpr void __set__ProcessingBufferCount(int32_t value);
+  constexpr void __cordl_internal_set__ProcessingBufferCount(int32_t value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_buff();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_buff();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_buff() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_buff() const;
 
-  constexpr void __set_buff(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_buff(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
   static inline ::System::Security::Cryptography::SHA1Internal* New_ctor();
 

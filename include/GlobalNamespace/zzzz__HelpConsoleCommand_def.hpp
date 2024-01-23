@@ -34,31 +34,31 @@ MARK_REF_PTR_T(::GlobalNamespace::HelpConsoleCommand);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5983))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5983))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5984))
 // CS Name: ::HelpConsoleCommand*
 class CORDL_TYPE HelpConsoleCommand : public ::GlobalNamespace::ConsoleCommandBase {
 public:
   // Declarations
   /// @brief Field _console, offset 0x18, size 0x8
-  __declspec(property(get = __get__console, put = __set__console))::GlobalNamespace::DebugConsoleController* _console;
+  __declspec(property(get = __cordl_internal_get__console, put = __cordl_internal_set__console))::GlobalNamespace::DebugConsoleController* _console;
 
   /// @brief Field _commandName, offset 0x20, size 0x8
-  __declspec(property(get = __get__commandName, put = __set__commandName))::GlobalNamespace::OptionalArgument_1<::StringW>* _commandName;
+  __declspec(property(get = __cordl_internal_get__commandName, put = __cordl_internal_set__commandName))::GlobalNamespace::OptionalArgument_1<::StringW>* _commandName;
 
   __declspec(property(get = get_isAsyncCommand)) bool isAsyncCommand;
 
-  constexpr ::GlobalNamespace::DebugConsoleController*& __get__console();
+  constexpr ::GlobalNamespace::DebugConsoleController*& __cordl_internal_get__console();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DebugConsoleController*> const& __get__console() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DebugConsoleController*> const& __cordl_internal_get__console() const;
 
-  constexpr void __set__console(::GlobalNamespace::DebugConsoleController* value);
+  constexpr void __cordl_internal_set__console(::GlobalNamespace::DebugConsoleController* value);
 
-  constexpr ::GlobalNamespace::OptionalArgument_1<::StringW>*& __get__commandName();
+  constexpr ::GlobalNamespace::OptionalArgument_1<::StringW>*& __cordl_internal_get__commandName();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OptionalArgument_1<::StringW>*> const& __get__commandName() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OptionalArgument_1<::StringW>*> const& __cordl_internal_get__commandName() const;
 
-  constexpr void __set__commandName(::GlobalNamespace::OptionalArgument_1<::StringW>* value);
+  constexpr void __cordl_internal_set__commandName(::GlobalNamespace::OptionalArgument_1<::StringW>* value);
 
   /// @brief Method get_isAsyncCommand, addr 0x230f2f8, size 0x8, virtual true, abstract: false, final false
   inline bool get_isAsyncCommand();

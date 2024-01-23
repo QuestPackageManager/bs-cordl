@@ -66,7 +66,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::Tessellation);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7409))
 // CS Name: ::Tessellation::Edges
 struct CORDL_TYPE __Tessellation__Edges {
@@ -132,7 +132,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::__Tessellation__Edges, va
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7410))
 // CS Name: ::UnityEngine.UIElements.UIR::Tessellation*
 class CORDL_TYPE Tessellation : public ::System::Object {

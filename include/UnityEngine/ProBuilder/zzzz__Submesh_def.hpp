@@ -33,20 +33,20 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Submesh);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10109)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10109))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12206))
 // CS Name: ::UnityEngine.ProBuilder::Submesh*
 class CORDL_TYPE Submesh : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Indexes, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Indexes, put = __set_m_Indexes))::ArrayW<int32_t, ::Array<int32_t>*> m_Indexes;
+  __declspec(property(get = __cordl_internal_get_m_Indexes, put = __cordl_internal_set_m_Indexes))::ArrayW<int32_t, ::Array<int32_t>*> m_Indexes;
 
   /// @brief Field m_Topology, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_Topology, put = __set_m_Topology))::UnityEngine::MeshTopology m_Topology;
+  __declspec(property(get = __cordl_internal_get_m_Topology, put = __cordl_internal_set_m_Topology))::UnityEngine::MeshTopology m_Topology;
 
   /// @brief Field m_SubmeshIndex, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_SubmeshIndex, put = __set_m_SubmeshIndex)) int32_t m_SubmeshIndex;
+  __declspec(property(get = __cordl_internal_get_m_SubmeshIndex, put = __cordl_internal_set_m_SubmeshIndex)) int32_t m_SubmeshIndex;
 
   __declspec(property(get = get_indexes, put = set_indexes))::System::Collections::Generic::IEnumerable_1<int32_t>* indexes;
 
@@ -54,23 +54,23 @@ public:
 
   __declspec(property(get = get_submeshIndex, put = set_submeshIndex)) int32_t submeshIndex;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_m_Indexes();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_Indexes();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_m_Indexes() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_Indexes() const;
 
-  constexpr void __set_m_Indexes(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_m_Indexes(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::UnityEngine::MeshTopology& __get_m_Topology();
+  constexpr ::UnityEngine::MeshTopology& __cordl_internal_get_m_Topology();
 
-  constexpr ::UnityEngine::MeshTopology const& __get_m_Topology() const;
+  constexpr ::UnityEngine::MeshTopology const& __cordl_internal_get_m_Topology() const;
 
-  constexpr void __set_m_Topology(::UnityEngine::MeshTopology value);
+  constexpr void __cordl_internal_set_m_Topology(::UnityEngine::MeshTopology value);
 
-  constexpr int32_t& __get_m_SubmeshIndex();
+  constexpr int32_t& __cordl_internal_get_m_SubmeshIndex();
 
-  constexpr int32_t const& __get_m_SubmeshIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_SubmeshIndex() const;
 
-  constexpr void __set_m_SubmeshIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_SubmeshIndex(int32_t value);
 
   /// @brief Method get_indexes, addr 0x2b7b184, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* get_indexes();

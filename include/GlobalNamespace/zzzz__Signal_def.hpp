@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::Signal);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14395))
 // CS Name: ::Signal*
 class CORDL_TYPE Signal : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field _event, offset 0x18, size 0x8
-  __declspec(property(get = __get__event, put = __set__event))::System::Action* _event;
+  __declspec(property(get = __cordl_internal_get__event, put = __cordl_internal_set__event))::System::Action* _event;
 
-  constexpr ::System::Action*& __get__event();
+  constexpr ::System::Action*& __cordl_internal_get__event();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get__event() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get__event() const;
 
-  constexpr void __set__event(::System::Action* value);
+  constexpr void __cordl_internal_set__event(::System::Action* value);
 
   /// @brief Method add__event, addr 0x20f5644, size 0x9c, virtual false, abstract: false, final false
   inline void add__event(::System::Action* value);

@@ -16,65 +16,65 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InputObjectPreset);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9609))
 // CS Name: ::HoudiniEngineUnity::HEU_InputObjectPreset*
 class CORDL_TYPE HEU_InputObjectPreset : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _gameObjectName, offset 0x10, size 0x8
-  __declspec(property(get = __get__gameObjectName, put = __set__gameObjectName))::StringW _gameObjectName;
+  __declspec(property(get = __cordl_internal_get__gameObjectName, put = __cordl_internal_set__gameObjectName))::StringW _gameObjectName;
 
   /// @brief Field _isSceneObject, offset 0x18, size 0x1
-  __declspec(property(get = __get__isSceneObject, put = __set__isSceneObject)) bool _isSceneObject;
+  __declspec(property(get = __cordl_internal_get__isSceneObject, put = __cordl_internal_set__isSceneObject)) bool _isSceneObject;
 
   /// @brief Field _useTransformOffset, offset 0x19, size 0x1
-  __declspec(property(get = __get__useTransformOffset, put = __set__useTransformOffset)) bool _useTransformOffset;
+  __declspec(property(get = __cordl_internal_get__useTransformOffset, put = __cordl_internal_set__useTransformOffset)) bool _useTransformOffset;
 
   /// @brief Field _translateOffset, offset 0x1c, size 0xc
-  __declspec(property(get = __get__translateOffset, put = __set__translateOffset))::UnityEngine::Vector3 _translateOffset;
+  __declspec(property(get = __cordl_internal_get__translateOffset, put = __cordl_internal_set__translateOffset))::UnityEngine::Vector3 _translateOffset;
 
   /// @brief Field _rotateOffset, offset 0x28, size 0xc
-  __declspec(property(get = __get__rotateOffset, put = __set__rotateOffset))::UnityEngine::Vector3 _rotateOffset;
+  __declspec(property(get = __cordl_internal_get__rotateOffset, put = __cordl_internal_set__rotateOffset))::UnityEngine::Vector3 _rotateOffset;
 
   /// @brief Field _scaleOffset, offset 0x34, size 0xc
-  __declspec(property(get = __get__scaleOffset, put = __set__scaleOffset))::UnityEngine::Vector3 _scaleOffset;
+  __declspec(property(get = __cordl_internal_get__scaleOffset, put = __cordl_internal_set__scaleOffset))::UnityEngine::Vector3 _scaleOffset;
 
-  constexpr ::StringW& __get__gameObjectName();
+  constexpr ::StringW& __cordl_internal_get__gameObjectName();
 
-  constexpr ::StringW const& __get__gameObjectName() const;
+  constexpr ::StringW const& __cordl_internal_get__gameObjectName() const;
 
-  constexpr void __set__gameObjectName(::StringW value);
+  constexpr void __cordl_internal_set__gameObjectName(::StringW value);
 
-  constexpr bool& __get__isSceneObject();
+  constexpr bool& __cordl_internal_get__isSceneObject();
 
-  constexpr bool const& __get__isSceneObject() const;
+  constexpr bool const& __cordl_internal_get__isSceneObject() const;
 
-  constexpr void __set__isSceneObject(bool value);
+  constexpr void __cordl_internal_set__isSceneObject(bool value);
 
-  constexpr bool& __get__useTransformOffset();
+  constexpr bool& __cordl_internal_get__useTransformOffset();
 
-  constexpr bool const& __get__useTransformOffset() const;
+  constexpr bool const& __cordl_internal_get__useTransformOffset() const;
 
-  constexpr void __set__useTransformOffset(bool value);
+  constexpr void __cordl_internal_set__useTransformOffset(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get__translateOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__translateOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__translateOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__translateOffset() const;
 
-  constexpr void __set__translateOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__translateOffset(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__rotateOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__rotateOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__rotateOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__rotateOffset() const;
 
-  constexpr void __set__rotateOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__rotateOffset(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__scaleOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__scaleOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__scaleOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__scaleOffset() const;
 
-  constexpr void __set__scaleOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__scaleOffset(::UnityEngine::Vector3 value);
 
   static inline ::HoudiniEngineUnity::HEU_InputObjectPreset* New_ctor();
 

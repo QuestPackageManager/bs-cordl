@@ -15,7 +15,7 @@ MARK_VAL_T(::GlobalNamespace::SliderMidAnchorMode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14766))
 // CS Name: ::SliderMidAnchorMode
 struct CORDL_TYPE SliderMidAnchorMode {

@@ -18,29 +18,29 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryCross
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3260))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryCrossAppDomainAssembly*
 class CORDL_TYPE BinaryCrossAppDomainAssembly : public ::System::Object {
 public:
   // Declarations
   /// @brief Field assemId, offset 0x10, size 0x4
-  __declspec(property(get = __get_assemId, put = __set_assemId)) int32_t assemId;
+  __declspec(property(get = __cordl_internal_get_assemId, put = __cordl_internal_set_assemId)) int32_t assemId;
 
   /// @brief Field assemblyIndex, offset 0x14, size 0x4
-  __declspec(property(get = __get_assemblyIndex, put = __set_assemblyIndex)) int32_t assemblyIndex;
+  __declspec(property(get = __cordl_internal_get_assemblyIndex, put = __cordl_internal_set_assemblyIndex)) int32_t assemblyIndex;
 
-  constexpr int32_t& __get_assemId();
+  constexpr int32_t& __cordl_internal_get_assemId();
 
-  constexpr int32_t const& __get_assemId() const;
+  constexpr int32_t const& __cordl_internal_get_assemId() const;
 
-  constexpr void __set_assemId(int32_t value);
+  constexpr void __cordl_internal_set_assemId(int32_t value);
 
-  constexpr int32_t& __get_assemblyIndex();
+  constexpr int32_t& __cordl_internal_get_assemblyIndex();
 
-  constexpr int32_t const& __get_assemblyIndex() const;
+  constexpr int32_t const& __cordl_internal_get_assemblyIndex() const;
 
-  constexpr void __set_assemblyIndex(int32_t value);
+  constexpr void __cordl_internal_set_assemblyIndex(int32_t value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly* New_ctor();
 

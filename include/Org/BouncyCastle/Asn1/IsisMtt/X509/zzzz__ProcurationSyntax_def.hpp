@@ -33,23 +33,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(189))
 // CS Name: ::Org.BouncyCastle.Asn1.IsisMtt.X509::ProcurationSyntax*
 class CORDL_TYPE ProcurationSyntax : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field country, offset 0x10, size 0x8
-  __declspec(property(get = __get_country, put = __set_country))::StringW country;
+  __declspec(property(get = __cordl_internal_get_country, put = __cordl_internal_set_country))::StringW country;
 
   /// @brief Field typeOfSubstitution, offset 0x18, size 0x8
-  __declspec(property(get = __get_typeOfSubstitution, put = __set_typeOfSubstitution))::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution;
+  __declspec(property(get = __cordl_internal_get_typeOfSubstitution, put = __cordl_internal_set_typeOfSubstitution))::Org::BouncyCastle::Asn1::X500::DirectoryString* typeOfSubstitution;
 
   /// @brief Field thirdPerson, offset 0x20, size 0x8
-  __declspec(property(get = __get_thirdPerson, put = __set_thirdPerson))::Org::BouncyCastle::Asn1::X509::GeneralName* thirdPerson;
+  __declspec(property(get = __cordl_internal_get_thirdPerson, put = __cordl_internal_set_thirdPerson))::Org::BouncyCastle::Asn1::X509::GeneralName* thirdPerson;
 
   /// @brief Field certRef, offset 0x28, size 0x8
-  __declspec(property(get = __get_certRef, put = __set_certRef))::Org::BouncyCastle::Asn1::X509::IssuerSerial* certRef;
+  __declspec(property(get = __cordl_internal_get_certRef, put = __cordl_internal_set_certRef))::Org::BouncyCastle::Asn1::X509::IssuerSerial* certRef;
 
   __declspec(property(get = get_Country))::StringW Country;
 
@@ -59,29 +59,29 @@ public:
 
   __declspec(property(get = get_CertRef))::Org::BouncyCastle::Asn1::X509::IssuerSerial* CertRef;
 
-  constexpr ::StringW& __get_country();
+  constexpr ::StringW& __cordl_internal_get_country();
 
-  constexpr ::StringW const& __get_country() const;
+  constexpr ::StringW const& __cordl_internal_get_country() const;
 
-  constexpr void __set_country(::StringW value);
+  constexpr void __cordl_internal_set_country(::StringW value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __get_typeOfSubstitution();
+  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_typeOfSubstitution();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __get_typeOfSubstitution() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __cordl_internal_get_typeOfSubstitution() const;
 
-  constexpr void __set_typeOfSubstitution(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
+  constexpr void __cordl_internal_set_typeOfSubstitution(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __get_thirdPerson();
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName*& __cordl_internal_get_thirdPerson();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __get_thirdPerson() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralName*> const& __cordl_internal_get_thirdPerson() const;
 
-  constexpr void __set_thirdPerson(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
+  constexpr void __cordl_internal_set_thirdPerson(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial*& __get_certRef();
+  constexpr ::Org::BouncyCastle::Asn1::X509::IssuerSerial*& __cordl_internal_get_certRef();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::IssuerSerial*> const& __get_certRef() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::IssuerSerial*> const& __cordl_internal_get_certRef() const;
 
-  constexpr void __set_certRef(::Org::BouncyCastle::Asn1::X509::IssuerSerial* value);
+  constexpr void __cordl_internal_set_certRef(::Org::BouncyCastle::Asn1::X509::IssuerSerial* value);
 
   /// @brief Method GetInstance, addr 0xf795c4, size 0x188, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::ProcurationSyntax* GetInstance(::System::Object* obj);

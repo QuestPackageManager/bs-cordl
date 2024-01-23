@@ -16,19 +16,19 @@ MARK_REF_PTR_T(::UnityEngine::UI::IMask);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13056))
 // CS Name: ::UnityEngine.UI::IMask*
 class CORDL_TYPE IMask {
 public:
   // Declarations
-  __declspec(property(get = get_rectTransform))::UnityEngine::RectTransform* rectTransform;
+  __declspec(property(get = get_rectTransform))::UnityW<::UnityEngine::RectTransform> rectTransform;
 
   /// @brief Method Enabled, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline bool Enabled();
 
   /// @brief Method get_rectTransform, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::UnityEngine::RectTransform* get_rectTransform();
+  inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
   // Ctor Parameters [CppParam { name: "", ty: "IMask", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

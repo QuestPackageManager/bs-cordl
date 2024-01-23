@@ -32,20 +32,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ElGamalPublicBcpgKey);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(554))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(554))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(569))
 // CS Name: ::Org.BouncyCastle.Bcpg::ElGamalPublicBcpgKey*
 class CORDL_TYPE ElGamalPublicBcpgKey : public ::Org::BouncyCastle::Bcpg::BcpgObject {
 public:
   // Declarations
   /// @brief Field p, offset 0x10, size 0x8
-  __declspec(property(get = __get_p, put = __set_p))::Org::BouncyCastle::Bcpg::MPInteger* p;
+  __declspec(property(get = __cordl_internal_get_p, put = __cordl_internal_set_p))::Org::BouncyCastle::Bcpg::MPInteger* p;
 
   /// @brief Field g, offset 0x18, size 0x8
-  __declspec(property(get = __get_g, put = __set_g))::Org::BouncyCastle::Bcpg::MPInteger* g;
+  __declspec(property(get = __cordl_internal_get_g, put = __cordl_internal_set_g))::Org::BouncyCastle::Bcpg::MPInteger* g;
 
   /// @brief Field y, offset 0x20, size 0x8
-  __declspec(property(get = __get_y, put = __set_y))::Org::BouncyCastle::Bcpg::MPInteger* y;
+  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y))::Org::BouncyCastle::Bcpg::MPInteger* y;
 
   __declspec(property(get = get_Format))::StringW Format;
 
@@ -61,23 +61,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::IBcpgKey"
   constexpr ::Org::BouncyCastle::Bcpg::IBcpgKey* i___Org__BouncyCastle__Bcpg__IBcpgKey() noexcept;
 
-  constexpr ::Org::BouncyCastle::Bcpg::MPInteger*& __get_p();
+  constexpr ::Org::BouncyCastle::Bcpg::MPInteger*& __cordl_internal_get_p();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::MPInteger*> const& __get_p() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::MPInteger*> const& __cordl_internal_get_p() const;
 
-  constexpr void __set_p(::Org::BouncyCastle::Bcpg::MPInteger* value);
+  constexpr void __cordl_internal_set_p(::Org::BouncyCastle::Bcpg::MPInteger* value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::MPInteger*& __get_g();
+  constexpr ::Org::BouncyCastle::Bcpg::MPInteger*& __cordl_internal_get_g();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::MPInteger*> const& __get_g() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::MPInteger*> const& __cordl_internal_get_g() const;
 
-  constexpr void __set_g(::Org::BouncyCastle::Bcpg::MPInteger* value);
+  constexpr void __cordl_internal_set_g(::Org::BouncyCastle::Bcpg::MPInteger* value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::MPInteger*& __get_y();
+  constexpr ::Org::BouncyCastle::Bcpg::MPInteger*& __cordl_internal_get_y();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::MPInteger*> const& __get_y() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::MPInteger*> const& __cordl_internal_get_y() const;
 
-  constexpr void __set_y(::Org::BouncyCastle::Bcpg::MPInteger* value);
+  constexpr void __cordl_internal_set_y(::Org::BouncyCastle::Bcpg::MPInteger* value);
 
   static inline ::Org::BouncyCastle::Bcpg::ElGamalPublicBcpgKey* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 

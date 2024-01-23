@@ -14,12 +14,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x120;
   constexpr static std::size_t addrs = 0x2628370;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::StandardTaskContinuation*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskContinuationOptions>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskScheduler*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::StandardTaskContinuation*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskContinuationOptions>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskScheduler*>::get() })));
     return ___internal_method;
   }
 };
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x198;
   constexpr static std::size_t addrs = 0x262b60c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::StandardTaskContinuation*>::get(),
@@ -39,54 +39,54 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::Threading::Tasks::Task*& System::Threading::Tasks::StandardTaskContinuation::__get_m_task() {
+constexpr ::System::Threading::Tasks::Task*& System::Threading::Tasks::StandardTaskContinuation::__cordl_internal_get_m_task() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_task;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& System::Threading::Tasks::StandardTaskContinuation::__get_m_task() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& System::Threading::Tasks::StandardTaskContinuation::__cordl_internal_get_m_task() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_task;
 }
-constexpr void System::Threading::Tasks::StandardTaskContinuation::__set_m_task(::System::Threading::Tasks::Task* value) {
+constexpr void System::Threading::Tasks::StandardTaskContinuation::__cordl_internal_set_m_task(::System::Threading::Tasks::Task* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_task)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Threading::Tasks::TaskContinuationOptions& System::Threading::Tasks::StandardTaskContinuation::__get_m_options() {
+constexpr ::System::Threading::Tasks::TaskContinuationOptions& System::Threading::Tasks::StandardTaskContinuation::__cordl_internal_get_m_options() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_options;
 }
-constexpr ::System::Threading::Tasks::TaskContinuationOptions const& System::Threading::Tasks::StandardTaskContinuation::__get_m_options() const {
+constexpr ::System::Threading::Tasks::TaskContinuationOptions const& System::Threading::Tasks::StandardTaskContinuation::__cordl_internal_get_m_options() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_options;
 }
-constexpr void System::Threading::Tasks::StandardTaskContinuation::__set_m_options(::System::Threading::Tasks::TaskContinuationOptions value) {
+constexpr void System::Threading::Tasks::StandardTaskContinuation::__cordl_internal_set_m_options(::System::Threading::Tasks::TaskContinuationOptions value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_options = value;
 }
-constexpr ::System::Threading::Tasks::TaskScheduler*& System::Threading::Tasks::StandardTaskContinuation::__get_m_taskScheduler() {
+constexpr ::System::Threading::Tasks::TaskScheduler*& System::Threading::Tasks::StandardTaskContinuation::__cordl_internal_get_m_taskScheduler() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_taskScheduler;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskScheduler*> const& System::Threading::Tasks::StandardTaskContinuation::__get_m_taskScheduler() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskScheduler*> const& System::Threading::Tasks::StandardTaskContinuation::__cordl_internal_get_m_taskScheduler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_taskScheduler;
 }
-constexpr void System::Threading::Tasks::StandardTaskContinuation::__set_m_taskScheduler(::System::Threading::Tasks::TaskScheduler* value) {
+constexpr void System::Threading::Tasks::StandardTaskContinuation::__cordl_internal_set_m_taskScheduler(::System::Threading::Tasks::TaskScheduler* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_taskScheduler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Threading::Tasks::StandardTaskContinuation* System::Threading::Tasks::StandardTaskContinuation::New_ctor(::System::Threading::Tasks::Task* task,
                                                                                                                           ::System::Threading::Tasks::TaskContinuationOptions options,
                                                                                                                           ::System::Threading::Tasks::TaskScheduler* scheduler) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Threading::Tasks::StandardTaskContinuation*>(task, options, scheduler));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::StandardTaskContinuation*>(task, options, scheduler));
 }
 inline void System::Threading::Tasks::StandardTaskContinuation::_ctor(::System::Threading::Tasks::Task* task, ::System::Threading::Tasks::TaskContinuationOptions options,
                                                                       ::System::Threading::Tasks::TaskScheduler* scheduler) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::StandardTaskContinuation*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskContinuationOptions>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskScheduler*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::StandardTaskContinuation*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::Task*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskContinuationOptions>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskScheduler*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, task, options, scheduler);
 }
 inline void System::Threading::Tasks::StandardTaskContinuation::Run(::System::Threading::Tasks::Task* completedTask, bool bCanInlineContinuationTask) {

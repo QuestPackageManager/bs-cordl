@@ -19,65 +19,65 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::RotationLimitHinge);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 92, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12622)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(12622))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12624))
 // CS Name: ::RootMotion.FinalIK::RotationLimitHinge*
 class CORDL_TYPE RotationLimitHinge : public ::RootMotion::FinalIK::RotationLimit {
 public:
   // Declarations
   /// @brief Field useLimits, offset 0x38, size 0x1
-  __declspec(property(get = __get_useLimits, put = __set_useLimits)) bool useLimits;
+  __declspec(property(get = __cordl_internal_get_useLimits, put = __cordl_internal_set_useLimits)) bool useLimits;
 
   /// @brief Field min, offset 0x3c, size 0x4
-  __declspec(property(get = __get_min, put = __set_min)) float_t min;
+  __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
 
   /// @brief Field max, offset 0x40, size 0x4
-  __declspec(property(get = __get_max, put = __set_max)) float_t max;
+  __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) float_t max;
 
   /// @brief Field zeroAxisDisplayOffset, offset 0x44, size 0x4
-  __declspec(property(get = __get_zeroAxisDisplayOffset, put = __set_zeroAxisDisplayOffset)) float_t zeroAxisDisplayOffset;
+  __declspec(property(get = __cordl_internal_get_zeroAxisDisplayOffset, put = __cordl_internal_set_zeroAxisDisplayOffset)) float_t zeroAxisDisplayOffset;
 
   /// @brief Field lastRotation, offset 0x48, size 0x10
-  __declspec(property(get = __get_lastRotation, put = __set_lastRotation))::UnityEngine::Quaternion lastRotation;
+  __declspec(property(get = __cordl_internal_get_lastRotation, put = __cordl_internal_set_lastRotation))::UnityEngine::Quaternion lastRotation;
 
   /// @brief Field lastAngle, offset 0x58, size 0x4
-  __declspec(property(get = __get_lastAngle, put = __set_lastAngle)) float_t lastAngle;
+  __declspec(property(get = __cordl_internal_get_lastAngle, put = __cordl_internal_set_lastAngle)) float_t lastAngle;
 
-  constexpr bool& __get_useLimits();
+  constexpr bool& __cordl_internal_get_useLimits();
 
-  constexpr bool const& __get_useLimits() const;
+  constexpr bool const& __cordl_internal_get_useLimits() const;
 
-  constexpr void __set_useLimits(bool value);
+  constexpr void __cordl_internal_set_useLimits(bool value);
 
-  constexpr float_t& __get_min();
+  constexpr float_t& __cordl_internal_get_min();
 
-  constexpr float_t const& __get_min() const;
+  constexpr float_t const& __cordl_internal_get_min() const;
 
-  constexpr void __set_min(float_t value);
+  constexpr void __cordl_internal_set_min(float_t value);
 
-  constexpr float_t& __get_max();
+  constexpr float_t& __cordl_internal_get_max();
 
-  constexpr float_t const& __get_max() const;
+  constexpr float_t const& __cordl_internal_get_max() const;
 
-  constexpr void __set_max(float_t value);
+  constexpr void __cordl_internal_set_max(float_t value);
 
-  constexpr float_t& __get_zeroAxisDisplayOffset();
+  constexpr float_t& __cordl_internal_get_zeroAxisDisplayOffset();
 
-  constexpr float_t const& __get_zeroAxisDisplayOffset() const;
+  constexpr float_t const& __cordl_internal_get_zeroAxisDisplayOffset() const;
 
-  constexpr void __set_zeroAxisDisplayOffset(float_t value);
+  constexpr void __cordl_internal_set_zeroAxisDisplayOffset(float_t value);
 
-  constexpr ::UnityEngine::Quaternion& __get_lastRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_lastRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_lastRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_lastRotation() const;
 
-  constexpr void __set_lastRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_lastRotation(::UnityEngine::Quaternion value);
 
-  constexpr float_t& __get_lastAngle();
+  constexpr float_t& __cordl_internal_get_lastAngle();
 
-  constexpr float_t const& __get_lastAngle() const;
+  constexpr float_t const& __cordl_internal_get_lastAngle() const;
 
-  constexpr void __set_lastAngle(float_t value);
+  constexpr void __cordl_internal_set_lastAngle(float_t value);
 
   /// @brief Method OpenUserManual, addr 0x128faa8, size 0x44, virtual false, abstract: false, final false
   inline void OpenUserManual();

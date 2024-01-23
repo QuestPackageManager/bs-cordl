@@ -42,7 +42,7 @@ MARK_VAL_T(::UnityEngine::UIElements::__PointerDeviceState__PointerLocation);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7158))
 // CS Name: ::PointerDeviceState::LocationFlag
 struct CORDL_TYPE __PointerDeviceState__LocationFlag {
@@ -92,7 +92,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__PointerDeviceState__Location
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(7158))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7158)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7159))
 // CS Name: ::PointerDeviceState::PointerLocation
 struct CORDL_TYPE __PointerDeviceState__PointerLocation {
@@ -163,7 +163,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__PointerDeviceState__PointerL
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7160))
 // CS Name: ::UnityEngine.UIElements::PointerDeviceState*
 class CORDL_TYPE PointerDeviceState : public ::System::Object {

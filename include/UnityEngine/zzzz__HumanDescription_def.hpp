@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::HumanDescription);
 // SizeInfo { instance_size: 64, native_size: 72, calculated_instance_size: 64, calculated_native_size: 75, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14852))
 // CS Name: ::UnityEngine::HumanDescription
 struct CORDL_TYPE HumanDescription {

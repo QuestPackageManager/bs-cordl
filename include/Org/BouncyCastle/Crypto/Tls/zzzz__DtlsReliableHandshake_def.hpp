@@ -59,20 +59,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Retran
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1230))
 // CS Name: ::DtlsReliableHandshake::Message*
 class CORDL_TYPE __DtlsReliableHandshake__Message : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mMessageSeq, offset 0x10, size 0x4
-  __declspec(property(get = __get_mMessageSeq, put = __set_mMessageSeq)) int32_t mMessageSeq;
+  __declspec(property(get = __cordl_internal_get_mMessageSeq, put = __cordl_internal_set_mMessageSeq)) int32_t mMessageSeq;
 
   /// @brief Field mMsgType, offset 0x14, size 0x1
-  __declspec(property(get = __get_mMsgType, put = __set_mMsgType)) uint8_t mMsgType;
+  __declspec(property(get = __cordl_internal_get_mMsgType, put = __cordl_internal_set_mMsgType)) uint8_t mMsgType;
 
   /// @brief Field mBody, offset 0x18, size 0x8
-  __declspec(property(get = __get_mBody, put = __set_mBody))::ArrayW<uint8_t, ::Array<uint8_t>*> mBody;
+  __declspec(property(get = __cordl_internal_get_mBody, put = __cordl_internal_set_mBody))::ArrayW<uint8_t, ::Array<uint8_t>*> mBody;
 
   __declspec(property(get = get_Seq)) int32_t Seq;
 
@@ -80,23 +80,23 @@ public:
 
   __declspec(property(get = get_Body))::ArrayW<uint8_t, ::Array<uint8_t>*> Body;
 
-  constexpr int32_t& __get_mMessageSeq();
+  constexpr int32_t& __cordl_internal_get_mMessageSeq();
 
-  constexpr int32_t const& __get_mMessageSeq() const;
+  constexpr int32_t const& __cordl_internal_get_mMessageSeq() const;
 
-  constexpr void __set_mMessageSeq(int32_t value);
+  constexpr void __cordl_internal_set_mMessageSeq(int32_t value);
 
-  constexpr uint8_t& __get_mMsgType();
+  constexpr uint8_t& __cordl_internal_get_mMsgType();
 
-  constexpr uint8_t const& __get_mMsgType() const;
+  constexpr uint8_t const& __cordl_internal_get_mMsgType() const;
 
-  constexpr void __set_mMsgType(uint8_t value);
+  constexpr void __cordl_internal_set_mMsgType(uint8_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mBody();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mBody();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mBody() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mBody() const;
 
-  constexpr void __set_mBody(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mBody(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Message* New_ctor(int32_t message_seq, uint8_t msg_type, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
@@ -151,7 +151,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3566))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1231))
 // CS Name: ::DtlsReliableHandshake::RecordLayerBuffer*
 class CORDL_TYPE __DtlsReliableHandshake__RecordLayerBuffer : public ::System::IO::MemoryStream {
@@ -189,14 +189,14 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1232))
 // CS Name: ::DtlsReliableHandshake::Retransmit*
 class CORDL_TYPE __DtlsReliableHandshake__Retransmit : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mOuter, offset 0x10, size 0x8
-  __declspec(property(get = __get_mOuter, put = __set_mOuter))::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake* mOuter;
+  __declspec(property(get = __cordl_internal_get_mOuter, put = __cordl_internal_set_mOuter))::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake* mOuter;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit*() noexcept;
@@ -204,11 +204,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit"
   constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit* i___Org__BouncyCastle__Crypto__Tls__DtlsHandshakeRetransmit() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake*& __get_mOuter();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake*& __cordl_internal_get_mOuter();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake*> const& __get_mOuter() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake*> const& __cordl_internal_get_mOuter() const;
 
-  constexpr void __set_mOuter(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake* value);
+  constexpr void __cordl_internal_set_mOuter(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Retransmit* New_ctor(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake* outer);
 
@@ -247,7 +247,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1233))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsReliableHandshake*
 class CORDL_TYPE DtlsReliableHandshake : public ::System::Object {
@@ -260,96 +260,96 @@ public:
   using Message = ::Org::BouncyCastle::Crypto::Tls::__DtlsReliableHandshake__Message;
 
   /// @brief Field mRecordLayer, offset 0x10, size 0x8
-  __declspec(property(get = __get_mRecordLayer, put = __set_mRecordLayer))::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* mRecordLayer;
+  __declspec(property(get = __cordl_internal_get_mRecordLayer, put = __cordl_internal_set_mRecordLayer))::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* mRecordLayer;
 
   /// @brief Field mHandshakeTimeout, offset 0x18, size 0x8
-  __declspec(property(get = __get_mHandshakeTimeout, put = __set_mHandshakeTimeout))::Org::BouncyCastle::Crypto::Tls::Timeout* mHandshakeTimeout;
+  __declspec(property(get = __cordl_internal_get_mHandshakeTimeout, put = __cordl_internal_set_mHandshakeTimeout))::Org::BouncyCastle::Crypto::Tls::Timeout* mHandshakeTimeout;
 
   /// @brief Field mHandshakeHash, offset 0x20, size 0x8
-  __declspec(property(get = __get_mHandshakeHash, put = __set_mHandshakeHash))::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* mHandshakeHash;
+  __declspec(property(get = __cordl_internal_get_mHandshakeHash, put = __cordl_internal_set_mHandshakeHash))::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* mHandshakeHash;
 
   /// @brief Field mCurrentInboundFlight, offset 0x28, size 0x8
-  __declspec(property(get = __get_mCurrentInboundFlight, put = __set_mCurrentInboundFlight))::System::Collections::IDictionary* mCurrentInboundFlight;
+  __declspec(property(get = __cordl_internal_get_mCurrentInboundFlight, put = __cordl_internal_set_mCurrentInboundFlight))::System::Collections::IDictionary* mCurrentInboundFlight;
 
   /// @brief Field mPreviousInboundFlight, offset 0x30, size 0x8
-  __declspec(property(get = __get_mPreviousInboundFlight, put = __set_mPreviousInboundFlight))::System::Collections::IDictionary* mPreviousInboundFlight;
+  __declspec(property(get = __cordl_internal_get_mPreviousInboundFlight, put = __cordl_internal_set_mPreviousInboundFlight))::System::Collections::IDictionary* mPreviousInboundFlight;
 
   /// @brief Field mOutboundFlight, offset 0x38, size 0x8
-  __declspec(property(get = __get_mOutboundFlight, put = __set_mOutboundFlight))::System::Collections::IList* mOutboundFlight;
+  __declspec(property(get = __cordl_internal_get_mOutboundFlight, put = __cordl_internal_set_mOutboundFlight))::System::Collections::IList* mOutboundFlight;
 
   /// @brief Field mResendMillis, offset 0x40, size 0x4
-  __declspec(property(get = __get_mResendMillis, put = __set_mResendMillis)) int32_t mResendMillis;
+  __declspec(property(get = __cordl_internal_get_mResendMillis, put = __cordl_internal_set_mResendMillis)) int32_t mResendMillis;
 
   /// @brief Field mResendTimeout, offset 0x48, size 0x8
-  __declspec(property(get = __get_mResendTimeout, put = __set_mResendTimeout))::Org::BouncyCastle::Crypto::Tls::Timeout* mResendTimeout;
+  __declspec(property(get = __cordl_internal_get_mResendTimeout, put = __cordl_internal_set_mResendTimeout))::Org::BouncyCastle::Crypto::Tls::Timeout* mResendTimeout;
 
   /// @brief Field mMessageSeq, offset 0x50, size 0x4
-  __declspec(property(get = __get_mMessageSeq, put = __set_mMessageSeq)) int32_t mMessageSeq;
+  __declspec(property(get = __cordl_internal_get_mMessageSeq, put = __cordl_internal_set_mMessageSeq)) int32_t mMessageSeq;
 
   /// @brief Field mNextReceiveSeq, offset 0x54, size 0x4
-  __declspec(property(get = __get_mNextReceiveSeq, put = __set_mNextReceiveSeq)) int32_t mNextReceiveSeq;
+  __declspec(property(get = __cordl_internal_get_mNextReceiveSeq, put = __cordl_internal_set_mNextReceiveSeq)) int32_t mNextReceiveSeq;
 
   __declspec(property(get = get_HandshakeHash))::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* HandshakeHash;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer*& __get_mRecordLayer();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer*& __cordl_internal_get_mRecordLayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer*> const& __get_mRecordLayer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer*> const& __cordl_internal_get_mRecordLayer() const;
 
-  constexpr void __set_mRecordLayer(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* value);
+  constexpr void __cordl_internal_set_mRecordLayer(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::Timeout*& __get_mHandshakeTimeout();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::Timeout*& __cordl_internal_get_mHandshakeTimeout();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::Timeout*> const& __get_mHandshakeTimeout() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::Timeout*> const& __cordl_internal_get_mHandshakeTimeout() const;
 
-  constexpr void __set_mHandshakeTimeout(::Org::BouncyCastle::Crypto::Tls::Timeout* value);
+  constexpr void __cordl_internal_set_mHandshakeTimeout(::Org::BouncyCastle::Crypto::Tls::Timeout* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*& __get_mHandshakeHash();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*& __cordl_internal_get_mHandshakeHash();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*> const& __get_mHandshakeHash() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*> const& __cordl_internal_get_mHandshakeHash() const;
 
-  constexpr void __set_mHandshakeHash(::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* value);
+  constexpr void __cordl_internal_set_mHandshakeHash(::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* value);
 
-  constexpr ::System::Collections::IDictionary*& __get_mCurrentInboundFlight();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_mCurrentInboundFlight();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get_mCurrentInboundFlight() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_mCurrentInboundFlight() const;
 
-  constexpr void __set_mCurrentInboundFlight(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set_mCurrentInboundFlight(::System::Collections::IDictionary* value);
 
-  constexpr ::System::Collections::IDictionary*& __get_mPreviousInboundFlight();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_mPreviousInboundFlight();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get_mPreviousInboundFlight() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_mPreviousInboundFlight() const;
 
-  constexpr void __set_mPreviousInboundFlight(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set_mPreviousInboundFlight(::System::Collections::IDictionary* value);
 
-  constexpr ::System::Collections::IList*& __get_mOutboundFlight();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_mOutboundFlight();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_mOutboundFlight() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_mOutboundFlight() const;
 
-  constexpr void __set_mOutboundFlight(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_mOutboundFlight(::System::Collections::IList* value);
 
-  constexpr int32_t& __get_mResendMillis();
+  constexpr int32_t& __cordl_internal_get_mResendMillis();
 
-  constexpr int32_t const& __get_mResendMillis() const;
+  constexpr int32_t const& __cordl_internal_get_mResendMillis() const;
 
-  constexpr void __set_mResendMillis(int32_t value);
+  constexpr void __cordl_internal_set_mResendMillis(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::Timeout*& __get_mResendTimeout();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::Timeout*& __cordl_internal_get_mResendTimeout();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::Timeout*> const& __get_mResendTimeout() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::Timeout*> const& __cordl_internal_get_mResendTimeout() const;
 
-  constexpr void __set_mResendTimeout(::Org::BouncyCastle::Crypto::Tls::Timeout* value);
+  constexpr void __cordl_internal_set_mResendTimeout(::Org::BouncyCastle::Crypto::Tls::Timeout* value);
 
-  constexpr int32_t& __get_mMessageSeq();
+  constexpr int32_t& __cordl_internal_get_mMessageSeq();
 
-  constexpr int32_t const& __get_mMessageSeq() const;
+  constexpr int32_t const& __cordl_internal_get_mMessageSeq() const;
 
-  constexpr void __set_mMessageSeq(int32_t value);
+  constexpr void __cordl_internal_set_mMessageSeq(int32_t value);
 
-  constexpr int32_t& __get_mNextReceiveSeq();
+  constexpr int32_t& __cordl_internal_get_mNextReceiveSeq();
 
-  constexpr int32_t const& __get_mNextReceiveSeq() const;
+  constexpr int32_t const& __cordl_internal_get_mNextReceiveSeq() const;
 
-  constexpr void __set_mNextReceiveSeq(int32_t value);
+  constexpr void __cordl_internal_set_mNextReceiveSeq(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* transport,
                                                                                   int32_t timeoutMillis);

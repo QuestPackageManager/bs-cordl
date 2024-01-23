@@ -19,29 +19,29 @@ MARK_REF_PTR_T(::GlobalNamespace::DynamicBoneCollider);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16049))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16049))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16046))
 // CS Name: ::DynamicBoneCollider*
 class CORDL_TYPE DynamicBoneCollider : public ::GlobalNamespace::DynamicBoneColliderBase {
 public:
   // Declarations
   /// @brief Field m_Radius, offset 0x2c, size 0x4
-  __declspec(property(get = __get_m_Radius, put = __set_m_Radius)) float_t m_Radius;
+  __declspec(property(get = __cordl_internal_get_m_Radius, put = __cordl_internal_set_m_Radius)) float_t m_Radius;
 
   /// @brief Field m_Height, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_Height, put = __set_m_Height)) float_t m_Height;
+  __declspec(property(get = __cordl_internal_get_m_Height, put = __cordl_internal_set_m_Height)) float_t m_Height;
 
-  constexpr float_t& __get_m_Radius();
+  constexpr float_t& __cordl_internal_get_m_Radius();
 
-  constexpr float_t const& __get_m_Radius() const;
+  constexpr float_t const& __cordl_internal_get_m_Radius() const;
 
-  constexpr void __set_m_Radius(float_t value);
+  constexpr void __cordl_internal_set_m_Radius(float_t value);
 
-  constexpr float_t& __get_m_Height();
+  constexpr float_t& __cordl_internal_get_m_Height();
 
-  constexpr float_t const& __get_m_Height() const;
+  constexpr float_t const& __cordl_internal_get_m_Height() const;
 
-  constexpr void __set_m_Height(float_t value);
+  constexpr void __cordl_internal_set_m_Height(float_t value);
 
   /// @brief Method OnValidate, addr 0x1230144, size 0x18, virtual false, abstract: false, final false
   inline void OnValidate();

@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerStatusData__UserMessage__Localize
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4469))
 // CS Name: ::MultiplayerStatusData::AvailabilityStatus
 struct CORDL_TYPE __MultiplayerStatusData__AvailabilityStatus {
@@ -94,29 +94,29 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerStatusData__AvailabilityS
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4470))
 // CS Name: ::MultiplayerStatusData::UserMessage::LocalizedMessage*
 class CORDL_TYPE __MultiplayerStatusData__UserMessage__LocalizedMessage : public ::System::Object {
 public:
   // Declarations
   /// @brief Field language, offset 0x10, size 0x8
-  __declspec(property(get = __get_language, put = __set_language))::StringW language;
+  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language))::StringW language;
 
   /// @brief Field message, offset 0x18, size 0x8
-  __declspec(property(get = __get_message, put = __set_message))::StringW message;
+  __declspec(property(get = __cordl_internal_get_message, put = __cordl_internal_set_message))::StringW message;
 
-  constexpr ::StringW& __get_language();
+  constexpr ::StringW& __cordl_internal_get_language();
 
-  constexpr ::StringW const& __get_language() const;
+  constexpr ::StringW const& __cordl_internal_get_language() const;
 
-  constexpr void __set_language(::StringW value);
+  constexpr void __cordl_internal_set_language(::StringW value);
 
-  constexpr ::StringW& __get_message();
+  constexpr ::StringW& __cordl_internal_get_message();
 
-  constexpr ::StringW const& __get_message() const;
+  constexpr ::StringW const& __cordl_internal_get_message() const;
 
-  constexpr void __set_message(::StringW value);
+  constexpr void __cordl_internal_set_message(::StringW value);
 
   static inline ::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage* New_ctor();
 
@@ -157,7 +157,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerStatusData__UserMessage__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4471))
 // CS Name: ::MultiplayerStatusData::UserMessage*
 class CORDL_TYPE __MultiplayerStatusData__UserMessage : public ::System::Object {
@@ -166,17 +166,18 @@ public:
   using LocalizedMessage = ::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage;
 
   /// @brief Field localizations, offset 0x10, size 0x8
-  __declspec(property(get = __get_localizations, put = __set_localizations))::ArrayW<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*,
-                                                                                     ::Array<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*>*> localizations;
+  __declspec(property(get = __cordl_internal_get_localizations,
+                      put = __cordl_internal_set_localizations))::ArrayW<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*,
+                                                                         ::Array<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*>*> localizations;
 
   constexpr ::ArrayW<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*, ::Array<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*>*>&
-  __get_localizations();
+  __cordl_internal_get_localizations();
 
   constexpr ::ArrayW<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*, ::Array<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*>*> const&
-  __get_localizations() const;
+  __cordl_internal_get_localizations() const;
 
-  constexpr void
-  __set_localizations(::ArrayW<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*, ::Array<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*>*> value);
+  constexpr void __cordl_internal_set_localizations(
+      ::ArrayW<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*, ::Array<::GlobalNamespace::__MultiplayerStatusData__UserMessage__LocalizedMessage*>*> value);
 
   static inline ::GlobalNamespace::__MultiplayerStatusData__UserMessage* New_ctor();
 
@@ -212,7 +213,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerStatusData__UserMessage, 
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4469))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4469))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4472))
 // CS Name: ::MultiplayerStatusData*
 class CORDL_TYPE MultiplayerStatusData : public ::System::Object {
@@ -223,25 +224,25 @@ public:
   using AvailabilityStatus = ::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus;
 
   /// @brief Field minimum_app_version, offset 0x10, size 0x8
-  __declspec(property(get = __get_minimum_app_version, put = __set_minimum_app_version))::StringW minimum_app_version;
+  __declspec(property(get = __cordl_internal_get_minimum_app_version, put = __cordl_internal_set_minimum_app_version))::StringW minimum_app_version;
 
   /// @brief Field status, offset 0x18, size 0x4
-  __declspec(property(get = __get_status, put = __set_status))::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus status;
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus status;
 
   /// @brief Field maintenance_start_time, offset 0x20, size 0x8
-  __declspec(property(get = __get_maintenance_start_time, put = __set_maintenance_start_time)) int64_t maintenance_start_time;
+  __declspec(property(get = __cordl_internal_get_maintenance_start_time, put = __cordl_internal_set_maintenance_start_time)) int64_t maintenance_start_time;
 
   /// @brief Field maintenance_end_time, offset 0x28, size 0x8
-  __declspec(property(get = __get_maintenance_end_time, put = __set_maintenance_end_time)) int64_t maintenance_end_time;
+  __declspec(property(get = __cordl_internal_get_maintenance_end_time, put = __cordl_internal_set_maintenance_end_time)) int64_t maintenance_end_time;
 
   /// @brief Field user_message, offset 0x30, size 0x8
-  __declspec(property(get = __get_user_message, put = __set_user_message))::GlobalNamespace::__MultiplayerStatusData__UserMessage* user_message;
+  __declspec(property(get = __cordl_internal_get_user_message, put = __cordl_internal_set_user_message))::GlobalNamespace::__MultiplayerStatusData__UserMessage* user_message;
 
   /// @brief Field use_gamelift, offset 0x38, size 0x1
-  __declspec(property(get = __get_use_gamelift, put = __set_use_gamelift)) bool use_gamelift;
+  __declspec(property(get = __cordl_internal_get_use_gamelift, put = __cordl_internal_set_use_gamelift)) bool use_gamelift;
 
   /// @brief Field use_xplatform_auth, offset 0x39, size 0x1
-  __declspec(property(get = __get_use_xplatform_auth, put = __set_use_xplatform_auth)) bool use_xplatform_auth;
+  __declspec(property(get = __cordl_internal_get_use_xplatform_auth, put = __cordl_internal_set_use_xplatform_auth)) bool use_xplatform_auth;
 
   __declspec(property(get = get_minimumAppVersion, put = set_minimumAppVersion))::StringW minimumAppVersion;
 
@@ -255,47 +256,47 @@ public:
 
   __declspec(property(get = get_useXPlatformAuth, put = set_useXPlatformAuth)) bool useXPlatformAuth;
 
-  constexpr ::StringW& __get_minimum_app_version();
+  constexpr ::StringW& __cordl_internal_get_minimum_app_version();
 
-  constexpr ::StringW const& __get_minimum_app_version() const;
+  constexpr ::StringW const& __cordl_internal_get_minimum_app_version() const;
 
-  constexpr void __set_minimum_app_version(::StringW value);
+  constexpr void __cordl_internal_set_minimum_app_version(::StringW value);
 
-  constexpr ::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus& __get_status();
+  constexpr ::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus& __cordl_internal_get_status();
 
-  constexpr ::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus const& __get_status() const;
+  constexpr ::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus const& __cordl_internal_get_status() const;
 
-  constexpr void __set_status(::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus value);
+  constexpr void __cordl_internal_set_status(::GlobalNamespace::__MultiplayerStatusData__AvailabilityStatus value);
 
-  constexpr int64_t& __get_maintenance_start_time();
+  constexpr int64_t& __cordl_internal_get_maintenance_start_time();
 
-  constexpr int64_t const& __get_maintenance_start_time() const;
+  constexpr int64_t const& __cordl_internal_get_maintenance_start_time() const;
 
-  constexpr void __set_maintenance_start_time(int64_t value);
+  constexpr void __cordl_internal_set_maintenance_start_time(int64_t value);
 
-  constexpr int64_t& __get_maintenance_end_time();
+  constexpr int64_t& __cordl_internal_get_maintenance_end_time();
 
-  constexpr int64_t const& __get_maintenance_end_time() const;
+  constexpr int64_t const& __cordl_internal_get_maintenance_end_time() const;
 
-  constexpr void __set_maintenance_end_time(int64_t value);
+  constexpr void __cordl_internal_set_maintenance_end_time(int64_t value);
 
-  constexpr ::GlobalNamespace::__MultiplayerStatusData__UserMessage*& __get_user_message();
+  constexpr ::GlobalNamespace::__MultiplayerStatusData__UserMessage*& __cordl_internal_get_user_message();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerStatusData__UserMessage*> const& __get_user_message() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerStatusData__UserMessage*> const& __cordl_internal_get_user_message() const;
 
-  constexpr void __set_user_message(::GlobalNamespace::__MultiplayerStatusData__UserMessage* value);
+  constexpr void __cordl_internal_set_user_message(::GlobalNamespace::__MultiplayerStatusData__UserMessage* value);
 
-  constexpr bool& __get_use_gamelift();
+  constexpr bool& __cordl_internal_get_use_gamelift();
 
-  constexpr bool const& __get_use_gamelift() const;
+  constexpr bool const& __cordl_internal_get_use_gamelift() const;
 
-  constexpr void __set_use_gamelift(bool value);
+  constexpr void __cordl_internal_set_use_gamelift(bool value);
 
-  constexpr bool& __get_use_xplatform_auth();
+  constexpr bool& __cordl_internal_get_use_xplatform_auth();
 
-  constexpr bool const& __get_use_xplatform_auth() const;
+  constexpr bool const& __cordl_internal_get_use_xplatform_auth() const;
 
-  constexpr void __set_use_xplatform_auth(bool value);
+  constexpr void __cordl_internal_set_use_xplatform_auth(bool value);
 
   /// @brief Method get_minimumAppVersion, addr 0x2352f2c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_minimumAppVersion();

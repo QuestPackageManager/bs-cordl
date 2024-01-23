@@ -26,29 +26,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1527))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1527))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1533))
 // CS Name: ::Org.BouncyCastle.Math.EC.Multiplier::GlvMultiplier*
 class CORDL_TYPE GlvMultiplier : public ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier {
 public:
   // Declarations
   /// @brief Field curve, offset 0x10, size 0x8
-  __declspec(property(get = __get_curve, put = __set_curve))::Org::BouncyCastle::Math::EC::ECCurve* curve;
+  __declspec(property(get = __cordl_internal_get_curve, put = __cordl_internal_set_curve))::Org::BouncyCastle::Math::EC::ECCurve* curve;
 
   /// @brief Field glvEndomorphism, offset 0x18, size 0x8
-  __declspec(property(get = __get_glvEndomorphism, put = __set_glvEndomorphism))::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism;
+  __declspec(property(get = __cordl_internal_get_glvEndomorphism, put = __cordl_internal_set_glvEndomorphism))::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism;
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __get_curve();
+  constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __cordl_internal_get_curve();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& __get_curve() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& __cordl_internal_get_curve() const;
 
-  constexpr void __set_curve(::Org::BouncyCastle::Math::EC::ECCurve* value);
+  constexpr void __cordl_internal_set_curve(::Org::BouncyCastle::Math::EC::ECCurve* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*& __get_glvEndomorphism();
+  constexpr ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*& __cordl_internal_get_glvEndomorphism();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*> const& __get_glvEndomorphism() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism*> const& __cordl_internal_get_glvEndomorphism() const;
 
-  constexpr void __set_glvEndomorphism(::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* value);
+  constexpr void __cordl_internal_set_glvEndomorphism(::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* value);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve,
                                                                                    ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism);

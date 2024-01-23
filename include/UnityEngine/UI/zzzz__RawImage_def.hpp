@@ -24,35 +24,35 @@ MARK_REF_PTR_T(::UnityEngine::UI::RawImage);
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13099)), TypeDefinitionIndex(TypeDefinitionIndex(10165))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10165)), TypeDefinitionIndex(TypeDefinitionIndex(13099))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13106))
 // CS Name: ::UnityEngine.UI::RawImage*
 class CORDL_TYPE RawImage : public ::UnityEngine::UI::MaskableGraphic {
 public:
   // Declarations
   /// @brief Field m_Texture, offset 0xd0, size 0x8
-  __declspec(property(get = __get_m_Texture, put = __set_m_Texture))::UnityEngine::Texture* m_Texture;
+  __declspec(property(get = __cordl_internal_get_m_Texture, put = __cordl_internal_set_m_Texture))::UnityW<::UnityEngine::Texture> m_Texture;
 
   /// @brief Field m_UVRect, offset 0xd8, size 0x10
-  __declspec(property(get = __get_m_UVRect, put = __set_m_UVRect))::UnityEngine::Rect m_UVRect;
+  __declspec(property(get = __cordl_internal_get_m_UVRect, put = __cordl_internal_set_m_UVRect))::UnityEngine::Rect m_UVRect;
 
-  __declspec(property(get = get_mainTexture))::UnityEngine::Texture* mainTexture;
+  __declspec(property(get = get_mainTexture))::UnityW<::UnityEngine::Texture> mainTexture;
 
-  __declspec(property(get = get_texture, put = set_texture))::UnityEngine::Texture* texture;
+  __declspec(property(get = get_texture, put = set_texture))::UnityW<::UnityEngine::Texture> texture;
 
   __declspec(property(get = get_uvRect, put = set_uvRect))::UnityEngine::Rect uvRect;
 
-  constexpr ::UnityEngine::Texture*& __get_m_Texture();
+  constexpr ::UnityW<::UnityEngine::Texture>& __cordl_internal_get_m_Texture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Texture*> const& __get_m_Texture() const;
+  constexpr ::UnityW<::UnityEngine::Texture> const& __cordl_internal_get_m_Texture() const;
 
-  constexpr void __set_m_Texture(::UnityEngine::Texture* value);
+  constexpr void __cordl_internal_set_m_Texture(::UnityW<::UnityEngine::Texture> value);
 
-  constexpr ::UnityEngine::Rect& __get_m_UVRect();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_UVRect();
 
-  constexpr ::UnityEngine::Rect const& __get_m_UVRect() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_UVRect() const;
 
-  constexpr void __set_m_UVRect(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_m_UVRect(::UnityEngine::Rect value);
 
   static inline ::UnityEngine::UI::RawImage* New_ctor();
 
@@ -60,10 +60,10 @@ public:
   inline void _ctor();
 
   /// @brief Method get_mainTexture, addr 0x2d7e218, size 0x158, virtual true, abstract: false, final false
-  inline ::UnityEngine::Texture* get_mainTexture();
+  inline ::UnityW<::UnityEngine::Texture> get_mainTexture();
 
   /// @brief Method get_texture, addr 0x2d7e370, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture* get_texture();
+  inline ::UnityW<::UnityEngine::Texture> get_texture();
 
   /// @brief Method set_texture, addr 0x2d7e378, size 0xac, virtual false, abstract: false, final false
   inline void set_texture(::UnityEngine::Texture* value);
@@ -98,7 +98,7 @@ protected:
 
 public:
   /// @brief Field m_Texture, offset: 0xd0, size: 0x8, def value: None
-  ::UnityEngine::Texture* ___m_Texture;
+  ::UnityW<::UnityEngine::Texture> ___m_Texture;
 
   /// @brief Field m_UVRect, offset: 0xd8, size: 0x10, def value: None
   ::UnityEngine::Rect ___m_UVRect;

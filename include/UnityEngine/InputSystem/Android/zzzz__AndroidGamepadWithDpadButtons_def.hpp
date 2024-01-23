@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Android::AndroidGamepadWithDpadButton
 // SizeInfo { instance_size: 472, native_size: -1, calculated_instance_size: 472, calculated_native_size: 472, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6426))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6426))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6428))
 // CS Name: ::UnityEngine.InputSystem.Android::AndroidGamepadWithDpadButtons*
 class CORDL_TYPE AndroidGamepadWithDpadButtons : public ::UnityEngine::InputSystem::Android::AndroidGamepad {

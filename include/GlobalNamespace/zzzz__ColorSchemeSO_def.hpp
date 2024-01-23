@@ -17,22 +17,22 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeSO);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16206))
 // CS Name: ::ColorSchemeSO*
 class CORDL_TYPE ColorSchemeSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _colorScheme, offset 0x18, size 0x8
-  __declspec(property(get = __get__colorScheme, put = __set__colorScheme))::GlobalNamespace::ColorScheme* _colorScheme;
+  __declspec(property(get = __cordl_internal_get__colorScheme, put = __cordl_internal_set__colorScheme))::GlobalNamespace::ColorScheme* _colorScheme;
 
   __declspec(property(get = get_colorScheme))::GlobalNamespace::ColorScheme* colorScheme;
 
-  constexpr ::GlobalNamespace::ColorScheme*& __get__colorScheme();
+  constexpr ::GlobalNamespace::ColorScheme*& __cordl_internal_get__colorScheme();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& __get__colorScheme() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& __cordl_internal_get__colorScheme() const;
 
-  constexpr void __set__colorScheme(::GlobalNamespace::ColorScheme* value);
+  constexpr void __cordl_internal_set__colorScheme(::GlobalNamespace::ColorScheme* value);
 
   /// @brief Method get_colorScheme, addr 0x122d590, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorScheme* get_colorScheme();

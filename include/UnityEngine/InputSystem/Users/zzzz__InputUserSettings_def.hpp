@@ -23,49 +23,51 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Users::InputUserSettings);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Users {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6368)) CS Name: ::UnityEngine.InputSystem.Users::InputUserSettings*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 391
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6368)) CS Name: ::UnityEngine.InputSystem.Users::InputUserSettings*
 class CORDL_TYPE InputUserSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <customBindings>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__customBindings_k__BackingField, put = __set__customBindings_k__BackingField))::StringW _customBindings_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__customBindings_k__BackingField, put = __cordl_internal_set__customBindings_k__BackingField))::StringW _customBindings_k__BackingField;
 
   /// @brief Field <invertMouseX>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__invertMouseX_k__BackingField, put = __set__invertMouseX_k__BackingField)) bool _invertMouseX_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__invertMouseX_k__BackingField, put = __cordl_internal_set__invertMouseX_k__BackingField)) bool _invertMouseX_k__BackingField;
 
   /// @brief Field <invertMouseY>k__BackingField, offset 0x19, size 0x1
-  __declspec(property(get = __get__invertMouseY_k__BackingField, put = __set__invertMouseY_k__BackingField)) bool _invertMouseY_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__invertMouseY_k__BackingField, put = __cordl_internal_set__invertMouseY_k__BackingField)) bool _invertMouseY_k__BackingField;
 
   /// @brief Field <mouseSmoothing>k__BackingField, offset 0x1c, size 0x8
-  __declspec(property(get = __get__mouseSmoothing_k__BackingField, put = __set__mouseSmoothing_k__BackingField))::System::Nullable_1<float_t> _mouseSmoothing_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__mouseSmoothing_k__BackingField,
+                      put = __cordl_internal_set__mouseSmoothing_k__BackingField))::System::Nullable_1<float_t> _mouseSmoothing_k__BackingField;
 
   /// @brief Field <mouseSensitivity>k__BackingField, offset 0x24, size 0x8
-  __declspec(property(get = __get__mouseSensitivity_k__BackingField, put = __set__mouseSensitivity_k__BackingField))::System::Nullable_1<float_t> _mouseSensitivity_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__mouseSensitivity_k__BackingField,
+                      put = __cordl_internal_set__mouseSensitivity_k__BackingField))::System::Nullable_1<float_t> _mouseSensitivity_k__BackingField;
 
   /// @brief Field <invertStickX>k__BackingField, offset 0x2c, size 0x1
-  __declspec(property(get = __get__invertStickX_k__BackingField, put = __set__invertStickX_k__BackingField)) bool _invertStickX_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__invertStickX_k__BackingField, put = __cordl_internal_set__invertStickX_k__BackingField)) bool _invertStickX_k__BackingField;
 
   /// @brief Field <invertStickY>k__BackingField, offset 0x2d, size 0x1
-  __declspec(property(get = __get__invertStickY_k__BackingField, put = __set__invertStickY_k__BackingField)) bool _invertStickY_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__invertStickY_k__BackingField, put = __cordl_internal_set__invertStickY_k__BackingField)) bool _invertStickY_k__BackingField;
 
   /// @brief Field <swapSticks>k__BackingField, offset 0x2e, size 0x1
-  __declspec(property(get = __get__swapSticks_k__BackingField, put = __set__swapSticks_k__BackingField)) bool _swapSticks_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__swapSticks_k__BackingField, put = __cordl_internal_set__swapSticks_k__BackingField)) bool _swapSticks_k__BackingField;
 
   /// @brief Field <swapBumpers>k__BackingField, offset 0x2f, size 0x1
-  __declspec(property(get = __get__swapBumpers_k__BackingField, put = __set__swapBumpers_k__BackingField)) bool _swapBumpers_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__swapBumpers_k__BackingField, put = __cordl_internal_set__swapBumpers_k__BackingField)) bool _swapBumpers_k__BackingField;
 
   /// @brief Field <swapTriggers>k__BackingField, offset 0x30, size 0x1
-  __declspec(property(get = __get__swapTriggers_k__BackingField, put = __set__swapTriggers_k__BackingField)) bool _swapTriggers_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__swapTriggers_k__BackingField, put = __cordl_internal_set__swapTriggers_k__BackingField)) bool _swapTriggers_k__BackingField;
 
   /// @brief Field <swapDpadAndLeftStick>k__BackingField, offset 0x31, size 0x1
-  __declspec(property(get = __get__swapDpadAndLeftStick_k__BackingField, put = __set__swapDpadAndLeftStick_k__BackingField)) bool _swapDpadAndLeftStick_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__swapDpadAndLeftStick_k__BackingField, put = __cordl_internal_set__swapDpadAndLeftStick_k__BackingField)) bool _swapDpadAndLeftStick_k__BackingField;
 
   /// @brief Field <vibrationStrength>k__BackingField, offset 0x34, size 0x4
-  __declspec(property(get = __get__vibrationStrength_k__BackingField, put = __set__vibrationStrength_k__BackingField)) float_t _vibrationStrength_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__vibrationStrength_k__BackingField, put = __cordl_internal_set__vibrationStrength_k__BackingField)) float_t _vibrationStrength_k__BackingField;
 
   /// @brief Field m_CustomBindings, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_CustomBindings, put = __set_m_CustomBindings))::StringW m_CustomBindings;
+  __declspec(property(get = __cordl_internal_get_m_CustomBindings, put = __cordl_internal_set_m_CustomBindings))::StringW m_CustomBindings;
 
   __declspec(property(get = get_customBindings, put = set_customBindings))::StringW customBindings;
 
@@ -91,83 +93,83 @@ public:
 
   __declspec(property(get = get_vibrationStrength, put = set_vibrationStrength)) float_t vibrationStrength;
 
-  constexpr ::StringW& __get__customBindings_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__customBindings_k__BackingField();
 
-  constexpr ::StringW const& __get__customBindings_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__customBindings_k__BackingField() const;
 
-  constexpr void __set__customBindings_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__customBindings_k__BackingField(::StringW value);
 
-  constexpr bool& __get__invertMouseX_k__BackingField();
+  constexpr bool& __cordl_internal_get__invertMouseX_k__BackingField();
 
-  constexpr bool const& __get__invertMouseX_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__invertMouseX_k__BackingField() const;
 
-  constexpr void __set__invertMouseX_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__invertMouseX_k__BackingField(bool value);
 
-  constexpr bool& __get__invertMouseY_k__BackingField();
+  constexpr bool& __cordl_internal_get__invertMouseY_k__BackingField();
 
-  constexpr bool const& __get__invertMouseY_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__invertMouseY_k__BackingField() const;
 
-  constexpr void __set__invertMouseY_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__invertMouseY_k__BackingField(bool value);
 
-  constexpr ::System::Nullable_1<float_t>& __get__mouseSmoothing_k__BackingField();
+  constexpr ::System::Nullable_1<float_t>& __cordl_internal_get__mouseSmoothing_k__BackingField();
 
-  constexpr ::System::Nullable_1<float_t> const& __get__mouseSmoothing_k__BackingField() const;
+  constexpr ::System::Nullable_1<float_t> const& __cordl_internal_get__mouseSmoothing_k__BackingField() const;
 
-  constexpr void __set__mouseSmoothing_k__BackingField(::System::Nullable_1<float_t> value);
+  constexpr void __cordl_internal_set__mouseSmoothing_k__BackingField(::System::Nullable_1<float_t> value);
 
-  constexpr ::System::Nullable_1<float_t>& __get__mouseSensitivity_k__BackingField();
+  constexpr ::System::Nullable_1<float_t>& __cordl_internal_get__mouseSensitivity_k__BackingField();
 
-  constexpr ::System::Nullable_1<float_t> const& __get__mouseSensitivity_k__BackingField() const;
+  constexpr ::System::Nullable_1<float_t> const& __cordl_internal_get__mouseSensitivity_k__BackingField() const;
 
-  constexpr void __set__mouseSensitivity_k__BackingField(::System::Nullable_1<float_t> value);
+  constexpr void __cordl_internal_set__mouseSensitivity_k__BackingField(::System::Nullable_1<float_t> value);
 
-  constexpr bool& __get__invertStickX_k__BackingField();
+  constexpr bool& __cordl_internal_get__invertStickX_k__BackingField();
 
-  constexpr bool const& __get__invertStickX_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__invertStickX_k__BackingField() const;
 
-  constexpr void __set__invertStickX_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__invertStickX_k__BackingField(bool value);
 
-  constexpr bool& __get__invertStickY_k__BackingField();
+  constexpr bool& __cordl_internal_get__invertStickY_k__BackingField();
 
-  constexpr bool const& __get__invertStickY_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__invertStickY_k__BackingField() const;
 
-  constexpr void __set__invertStickY_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__invertStickY_k__BackingField(bool value);
 
-  constexpr bool& __get__swapSticks_k__BackingField();
+  constexpr bool& __cordl_internal_get__swapSticks_k__BackingField();
 
-  constexpr bool const& __get__swapSticks_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__swapSticks_k__BackingField() const;
 
-  constexpr void __set__swapSticks_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__swapSticks_k__BackingField(bool value);
 
-  constexpr bool& __get__swapBumpers_k__BackingField();
+  constexpr bool& __cordl_internal_get__swapBumpers_k__BackingField();
 
-  constexpr bool const& __get__swapBumpers_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__swapBumpers_k__BackingField() const;
 
-  constexpr void __set__swapBumpers_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__swapBumpers_k__BackingField(bool value);
 
-  constexpr bool& __get__swapTriggers_k__BackingField();
+  constexpr bool& __cordl_internal_get__swapTriggers_k__BackingField();
 
-  constexpr bool const& __get__swapTriggers_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__swapTriggers_k__BackingField() const;
 
-  constexpr void __set__swapTriggers_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__swapTriggers_k__BackingField(bool value);
 
-  constexpr bool& __get__swapDpadAndLeftStick_k__BackingField();
+  constexpr bool& __cordl_internal_get__swapDpadAndLeftStick_k__BackingField();
 
-  constexpr bool const& __get__swapDpadAndLeftStick_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__swapDpadAndLeftStick_k__BackingField() const;
 
-  constexpr void __set__swapDpadAndLeftStick_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__swapDpadAndLeftStick_k__BackingField(bool value);
 
-  constexpr float_t& __get__vibrationStrength_k__BackingField();
+  constexpr float_t& __cordl_internal_get__vibrationStrength_k__BackingField();
 
-  constexpr float_t const& __get__vibrationStrength_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__vibrationStrength_k__BackingField() const;
 
-  constexpr void __set__vibrationStrength_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__vibrationStrength_k__BackingField(float_t value);
 
-  constexpr ::StringW& __get_m_CustomBindings();
+  constexpr ::StringW& __cordl_internal_get_m_CustomBindings();
 
-  constexpr ::StringW const& __get_m_CustomBindings() const;
+  constexpr ::StringW const& __cordl_internal_get_m_CustomBindings() const;
 
-  constexpr void __set_m_CustomBindings(::StringW value);
+  constexpr void __cordl_internal_set_m_CustomBindings(::StringW value);
 
   /// @brief Method get_customBindings, addr 0x2acf63c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_customBindings();

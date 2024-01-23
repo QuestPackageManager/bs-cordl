@@ -58,56 +58,56 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::__CmsEnvelopedDataStreamGenerator__CmsE
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(484))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(484))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(636))
 // CS Name: ::CmsEnvelopedDataStreamGenerator::CmsEnvelopedDataOutputStream*
 class CORDL_TYPE __CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream : public ::Org::BouncyCastle::Utilities::IO::BaseOutputStream {
 public:
   // Declarations
   /// @brief Field _outer, offset 0x30, size 0x8
-  __declspec(property(get = __get__outer, put = __set__outer))::Org::BouncyCastle::Cms::CmsEnvelopedGenerator* _outer;
+  __declspec(property(get = __cordl_internal_get__outer, put = __cordl_internal_set__outer))::Org::BouncyCastle::Cms::CmsEnvelopedGenerator* _outer;
 
   /// @brief Field _out, offset 0x38, size 0x8
-  __declspec(property(get = __get__out, put = __set__out))::Org::BouncyCastle::Crypto::IO::CipherStream* _out;
+  __declspec(property(get = __cordl_internal_get__out, put = __cordl_internal_set__out))::Org::BouncyCastle::Crypto::IO::CipherStream* _out;
 
   /// @brief Field _cGen, offset 0x40, size 0x8
-  __declspec(property(get = __get__cGen, put = __set__cGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* _cGen;
+  __declspec(property(get = __cordl_internal_get__cGen, put = __cordl_internal_set__cGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* _cGen;
 
   /// @brief Field _envGen, offset 0x48, size 0x8
-  __declspec(property(get = __get__envGen, put = __set__envGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* _envGen;
+  __declspec(property(get = __cordl_internal_get__envGen, put = __cordl_internal_set__envGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* _envGen;
 
   /// @brief Field _eiGen, offset 0x50, size 0x8
-  __declspec(property(get = __get__eiGen, put = __set__eiGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* _eiGen;
+  __declspec(property(get = __cordl_internal_get__eiGen, put = __cordl_internal_set__eiGen))::Org::BouncyCastle::Asn1::BerSequenceGenerator* _eiGen;
 
-  constexpr ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator*& __get__outer();
+  constexpr ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator*& __cordl_internal_get__outer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsEnvelopedGenerator*> const& __get__outer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsEnvelopedGenerator*> const& __cordl_internal_get__outer() const;
 
-  constexpr void __set__outer(::Org::BouncyCastle::Cms::CmsEnvelopedGenerator* value);
+  constexpr void __cordl_internal_set__outer(::Org::BouncyCastle::Cms::CmsEnvelopedGenerator* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::IO::CipherStream*& __get__out();
+  constexpr ::Org::BouncyCastle::Crypto::IO::CipherStream*& __cordl_internal_get__out();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IO::CipherStream*> const& __get__out() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IO::CipherStream*> const& __cordl_internal_get__out() const;
 
-  constexpr void __set__out(::Org::BouncyCastle::Crypto::IO::CipherStream* value);
+  constexpr void __cordl_internal_set__out(::Org::BouncyCastle::Crypto::IO::CipherStream* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __get__cGen();
+  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __cordl_internal_get__cGen();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __get__cGen() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __cordl_internal_get__cGen() const;
 
-  constexpr void __set__cGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
+  constexpr void __cordl_internal_set__cGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __get__envGen();
+  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __cordl_internal_get__envGen();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __get__envGen() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __cordl_internal_get__envGen() const;
 
-  constexpr void __set__envGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
+  constexpr void __cordl_internal_set__envGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __get__eiGen();
+  constexpr ::Org::BouncyCastle::Asn1::BerSequenceGenerator*& __cordl_internal_get__eiGen();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __get__eiGen() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::BerSequenceGenerator*> const& __cordl_internal_get__eiGen() const;
 
-  constexpr void __set__eiGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
+  constexpr void __cordl_internal_set__eiGen(::Org::BouncyCastle::Asn1::BerSequenceGenerator* value);
 
   static inline ::Org::BouncyCastle::Cms::__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream*
   New_ctor(::Org::BouncyCastle::Cms::CmsEnvelopedGenerator* outer, ::Org::BouncyCastle::Crypto::IO::CipherStream* outStream, ::Org::BouncyCastle::Asn1::BerSequenceGenerator* cGen,
@@ -175,7 +175,7 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsEnvelopedDataStreamGenerat
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(617))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(617))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(637))
 // CS Name: ::Org.BouncyCastle.Cms::CmsEnvelopedDataStreamGenerator*
 class CORDL_TYPE CmsEnvelopedDataStreamGenerator : public ::Org::BouncyCastle::Cms::CmsEnvelopedGenerator {
@@ -184,42 +184,42 @@ public:
   using CmsEnvelopedDataOutputStream = ::Org::BouncyCastle::Cms::__CmsEnvelopedDataStreamGenerator__CmsEnvelopedDataOutputStream;
 
   /// @brief Field _originatorInfo, offset 0x28, size 0x8
-  __declspec(property(get = __get__originatorInfo, put = __set__originatorInfo))::System::Object* _originatorInfo;
+  __declspec(property(get = __cordl_internal_get__originatorInfo, put = __cordl_internal_set__originatorInfo))::System::Object* _originatorInfo;
 
   /// @brief Field _unprotectedAttributes, offset 0x30, size 0x8
-  __declspec(property(get = __get__unprotectedAttributes, put = __set__unprotectedAttributes))::System::Object* _unprotectedAttributes;
+  __declspec(property(get = __cordl_internal_get__unprotectedAttributes, put = __cordl_internal_set__unprotectedAttributes))::System::Object* _unprotectedAttributes;
 
   /// @brief Field _bufferSize, offset 0x38, size 0x4
-  __declspec(property(get = __get__bufferSize, put = __set__bufferSize)) int32_t _bufferSize;
+  __declspec(property(get = __cordl_internal_get__bufferSize, put = __cordl_internal_set__bufferSize)) int32_t _bufferSize;
 
   /// @brief Field _berEncodeRecipientSet, offset 0x3c, size 0x1
-  __declspec(property(get = __get__berEncodeRecipientSet, put = __set__berEncodeRecipientSet)) bool _berEncodeRecipientSet;
+  __declspec(property(get = __cordl_internal_get__berEncodeRecipientSet, put = __cordl_internal_set__berEncodeRecipientSet)) bool _berEncodeRecipientSet;
 
   __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
 
-  constexpr ::System::Object*& __get__originatorInfo();
+  constexpr ::System::Object*& __cordl_internal_get__originatorInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__originatorInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__originatorInfo() const;
 
-  constexpr void __set__originatorInfo(::System::Object* value);
+  constexpr void __cordl_internal_set__originatorInfo(::System::Object* value);
 
-  constexpr ::System::Object*& __get__unprotectedAttributes();
+  constexpr ::System::Object*& __cordl_internal_get__unprotectedAttributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__unprotectedAttributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__unprotectedAttributes() const;
 
-  constexpr void __set__unprotectedAttributes(::System::Object* value);
+  constexpr void __cordl_internal_set__unprotectedAttributes(::System::Object* value);
 
-  constexpr int32_t& __get__bufferSize();
+  constexpr int32_t& __cordl_internal_get__bufferSize();
 
-  constexpr int32_t const& __get__bufferSize() const;
+  constexpr int32_t const& __cordl_internal_get__bufferSize() const;
 
-  constexpr void __set__bufferSize(int32_t value);
+  constexpr void __cordl_internal_set__bufferSize(int32_t value);
 
-  constexpr bool& __get__berEncodeRecipientSet();
+  constexpr bool& __cordl_internal_get__berEncodeRecipientSet();
 
-  constexpr bool const& __get__berEncodeRecipientSet() const;
+  constexpr bool const& __cordl_internal_get__berEncodeRecipientSet() const;
 
-  constexpr void __set__berEncodeRecipientSet(bool value);
+  constexpr void __cordl_internal_set__berEncodeRecipientSet(bool value);
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedDataStreamGenerator* New_ctor();
 

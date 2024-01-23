@@ -10,9 +10,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x28079e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(),
-                                                                               "get_fakeMirrorTransparency", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_fakeMirrorTransparency", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -24,10 +24,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x28079f0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(), "set_fakeMirrorTransparency",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(), "set_fakeMirrorTransparency",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -38,9 +38,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x28079f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(), "Start",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -51,9 +51,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2807b0c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(), "OnEnable",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -64,9 +64,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x2807b10;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(), "OnValidate",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -77,9 +77,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x110;
   constexpr static std::size_t addrs = 0x28079fc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(),
-                                                                               "SetGlobalParameters", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "SetGlobalParameters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -90,81 +90,81 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x2807b14;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr float_t& GlobalNamespace::FakeMirrorSettings::__get__fakeMirrorTransparency() {
+constexpr float_t& GlobalNamespace::FakeMirrorSettings::__cordl_internal_get__fakeMirrorTransparency() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fakeMirrorTransparency;
 }
-constexpr float_t const& GlobalNamespace::FakeMirrorSettings::__get__fakeMirrorTransparency() const {
+constexpr float_t const& GlobalNamespace::FakeMirrorSettings::__cordl_internal_get__fakeMirrorTransparency() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fakeMirrorTransparency;
 }
-constexpr void GlobalNamespace::FakeMirrorSettings::__set__fakeMirrorTransparency(float_t value) {
+constexpr void GlobalNamespace::FakeMirrorSettings::__cordl_internal_set__fakeMirrorTransparency(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fakeMirrorTransparency = value;
 }
-constexpr bool& GlobalNamespace::FakeMirrorSettings::__get__useVertexDistortion() {
+constexpr bool& GlobalNamespace::FakeMirrorSettings::__cordl_internal_get__useVertexDistortion() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useVertexDistortion;
 }
-constexpr bool const& GlobalNamespace::FakeMirrorSettings::__get__useVertexDistortion() const {
+constexpr bool const& GlobalNamespace::FakeMirrorSettings::__cordl_internal_get__useVertexDistortion() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____useVertexDistortion;
 }
-constexpr void GlobalNamespace::FakeMirrorSettings::__set__useVertexDistortion(bool value) {
+constexpr void GlobalNamespace::FakeMirrorSettings::__cordl_internal_set__useVertexDistortion(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useVertexDistortion = value;
 }
-constexpr float_t& GlobalNamespace::FakeMirrorSettings::__get__vertexDistortionNoiseScale() {
+constexpr float_t& GlobalNamespace::FakeMirrorSettings::__cordl_internal_get__vertexDistortionNoiseScale() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexDistortionNoiseScale;
 }
-constexpr float_t const& GlobalNamespace::FakeMirrorSettings::__get__vertexDistortionNoiseScale() const {
+constexpr float_t const& GlobalNamespace::FakeMirrorSettings::__cordl_internal_get__vertexDistortionNoiseScale() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexDistortionNoiseScale;
 }
-constexpr void GlobalNamespace::FakeMirrorSettings::__set__vertexDistortionNoiseScale(float_t value) {
+constexpr void GlobalNamespace::FakeMirrorSettings::__cordl_internal_set__vertexDistortionNoiseScale(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____vertexDistortionNoiseScale = value;
 }
-constexpr float_t& GlobalNamespace::FakeMirrorSettings::__get__vertexDistortionStrength() {
+constexpr float_t& GlobalNamespace::FakeMirrorSettings::__cordl_internal_get__vertexDistortionStrength() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexDistortionStrength;
 }
-constexpr float_t const& GlobalNamespace::FakeMirrorSettings::__get__vertexDistortionStrength() const {
+constexpr float_t const& GlobalNamespace::FakeMirrorSettings::__cordl_internal_get__vertexDistortionStrength() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexDistortionStrength;
 }
-constexpr void GlobalNamespace::FakeMirrorSettings::__set__vertexDistortionStrength(float_t value) {
+constexpr void GlobalNamespace::FakeMirrorSettings::__cordl_internal_set__vertexDistortionStrength(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____vertexDistortionStrength = value;
 }
-constexpr ::UnityEngine::Vector3& GlobalNamespace::FakeMirrorSettings::__get__vertexDistortionDirectionality() {
+constexpr ::UnityEngine::Vector3& GlobalNamespace::FakeMirrorSettings::__cordl_internal_get__vertexDistortionDirectionality() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexDistortionDirectionality;
 }
-constexpr ::UnityEngine::Vector3 const& GlobalNamespace::FakeMirrorSettings::__get__vertexDistortionDirectionality() const {
+constexpr ::UnityEngine::Vector3 const& GlobalNamespace::FakeMirrorSettings::__cordl_internal_get__vertexDistortionDirectionality() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexDistortionDirectionality;
 }
-constexpr void GlobalNamespace::FakeMirrorSettings::__set__vertexDistortionDirectionality(::UnityEngine::Vector3 value) {
+constexpr void GlobalNamespace::FakeMirrorSettings::__cordl_internal_set__vertexDistortionDirectionality(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____vertexDistortionDirectionality = value;
 }
-constexpr float_t& GlobalNamespace::FakeMirrorSettings::__get__vertexDistortionZposMultiplier() {
+constexpr float_t& GlobalNamespace::FakeMirrorSettings::__cordl_internal_get__vertexDistortionZposMultiplier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexDistortionZposMultiplier;
 }
-constexpr float_t const& GlobalNamespace::FakeMirrorSettings::__get__vertexDistortionZposMultiplier() const {
+constexpr float_t const& GlobalNamespace::FakeMirrorSettings::__cordl_internal_get__vertexDistortionZposMultiplier() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertexDistortionZposMultiplier;
 }
-constexpr void GlobalNamespace::FakeMirrorSettings::__set__vertexDistortionZposMultiplier(float_t value) {
+constexpr void GlobalNamespace::FakeMirrorSettings::__cordl_internal_set__vertexDistortionZposMultiplier(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____vertexDistortionZposMultiplier = value;
 }
@@ -205,41 +205,41 @@ inline int32_t GlobalNamespace::FakeMirrorSettings::getStaticF__vertexDistortion
 }
 inline float_t GlobalNamespace::FakeMirrorSettings::get_fakeMirrorTransparency() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(),
-                                                                             "get_fakeMirrorTransparency", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_fakeMirrorTransparency", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::FakeMirrorSettings::set_fakeMirrorTransparency(float_t value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(), "set_fakeMirrorTransparency",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::FakeMirrorSettings::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(), "Start",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::FakeMirrorSettings::OnEnable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(), "OnEnable",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::FakeMirrorSettings::OnValidate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(), "OnValidate",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::FakeMirrorSettings::SetGlobalParameters() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(),
-                                                                             "SetGlobalParameters", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "SetGlobalParameters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::FakeMirrorSettings* GlobalNamespace::FakeMirrorSettings::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::FakeMirrorSettings*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FakeMirrorSettings*>());
 }
 inline void GlobalNamespace::FakeMirrorSettings::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FakeMirrorSettings*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

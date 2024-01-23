@@ -48,20 +48,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__SaberModelController__InitData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5298))
 // CS Name: ::SaberModelController::InitData*
 class CORDL_TYPE __SaberModelController__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field trailTintColor, offset 0x10, size 0x10
-  __declspec(property(get = __get_trailTintColor, put = __set_trailTintColor))::UnityEngine::Color trailTintColor;
+  __declspec(property(get = __cordl_internal_get_trailTintColor, put = __cordl_internal_set_trailTintColor))::UnityEngine::Color trailTintColor;
 
-  constexpr ::UnityEngine::Color& __get_trailTintColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get_trailTintColor();
 
-  constexpr ::UnityEngine::Color const& __get_trailTintColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get_trailTintColor() const;
 
-  constexpr void __set_trailTintColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set_trailTintColor(::UnityEngine::Color value);
 
   static inline ::GlobalNamespace::__SaberModelController__InitData* New_ctor();
 
@@ -102,7 +102,7 @@ static_assert(offsetof(::GlobalNamespace::__SaberModelController__InitData, ___t
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5299))
 // CS Name: ::SaberModelController*
 class CORDL_TYPE SaberModelController : public ::UnityEngine::MonoBehaviour {
@@ -111,60 +111,62 @@ public:
   using InitData = ::GlobalNamespace::__SaberModelController__InitData;
 
   /// @brief Field _saberTrail, offset 0x18, size 0x8
-  __declspec(property(get = __get__saberTrail, put = __set__saberTrail))::GlobalNamespace::SaberTrail* _saberTrail;
+  __declspec(property(get = __cordl_internal_get__saberTrail, put = __cordl_internal_set__saberTrail))::UnityW<::GlobalNamespace::SaberTrail> _saberTrail;
 
   /// @brief Field _setSaberGlowColors, offset 0x20, size 0x8
-  __declspec(property(get = __get__setSaberGlowColors,
-                      put = __set__setSaberGlowColors))::ArrayW<::GlobalNamespace::SetSaberGlowColor*, ::Array<::GlobalNamespace::SetSaberGlowColor*>*> _setSaberGlowColors;
+  __declspec(
+      property(get = __cordl_internal_get__setSaberGlowColors,
+               put = __cordl_internal_set__setSaberGlowColors))::ArrayW<::UnityW<::GlobalNamespace::SetSaberGlowColor>, ::Array<::UnityW<::GlobalNamespace::SetSaberGlowColor>>*> _setSaberGlowColors;
 
   /// @brief Field _setSaberFakeGlowColors, offset 0x28, size 0x8
-  __declspec(property(get = __get__setSaberFakeGlowColors,
-                      put = __set__setSaberFakeGlowColors))::ArrayW<::GlobalNamespace::SetSaberFakeGlowColor*, ::Array<::GlobalNamespace::SetSaberFakeGlowColor*>*> _setSaberFakeGlowColors;
+  __declspec(property(get = __cordl_internal_get__setSaberFakeGlowColors,
+                      put = __cordl_internal_set__setSaberFakeGlowColors))::ArrayW<::UnityW<::GlobalNamespace::SetSaberFakeGlowColor>,
+                                                                                   ::Array<::UnityW<::GlobalNamespace::SetSaberFakeGlowColor>>*> _setSaberFakeGlowColors;
 
   /// @brief Field _saberLight, offset 0x30, size 0x8
-  __declspec(property(get = __get__saberLight, put = __set__saberLight))::GlobalNamespace::TubeBloomPrePassLight* _saberLight;
+  __declspec(property(get = __cordl_internal_get__saberLight, put = __cordl_internal_set__saberLight))::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _saberLight;
 
   /// @brief Field _initData, offset 0x38, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__SaberModelController__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__SaberModelController__InitData* _initData;
 
   /// @brief Field _colorManager, offset 0x40, size 0x8
-  __declspec(property(get = __get__colorManager, put = __set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
 
-  constexpr ::GlobalNamespace::SaberTrail*& __get__saberTrail();
+  constexpr ::UnityW<::GlobalNamespace::SaberTrail>& __cordl_internal_get__saberTrail();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberTrail*> const& __get__saberTrail() const;
+  constexpr ::UnityW<::GlobalNamespace::SaberTrail> const& __cordl_internal_get__saberTrail() const;
 
-  constexpr void __set__saberTrail(::GlobalNamespace::SaberTrail* value);
+  constexpr void __cordl_internal_set__saberTrail(::UnityW<::GlobalNamespace::SaberTrail> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::SetSaberGlowColor*, ::Array<::GlobalNamespace::SetSaberGlowColor*>*>& __get__setSaberGlowColors();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::SetSaberGlowColor>, ::Array<::UnityW<::GlobalNamespace::SetSaberGlowColor>>*>& __cordl_internal_get__setSaberGlowColors();
 
-  constexpr ::ArrayW<::GlobalNamespace::SetSaberGlowColor*, ::Array<::GlobalNamespace::SetSaberGlowColor*>*> const& __get__setSaberGlowColors() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::SetSaberGlowColor>, ::Array<::UnityW<::GlobalNamespace::SetSaberGlowColor>>*> const& __cordl_internal_get__setSaberGlowColors() const;
 
-  constexpr void __set__setSaberGlowColors(::ArrayW<::GlobalNamespace::SetSaberGlowColor*, ::Array<::GlobalNamespace::SetSaberGlowColor*>*> value);
+  constexpr void __cordl_internal_set__setSaberGlowColors(::ArrayW<::UnityW<::GlobalNamespace::SetSaberGlowColor>, ::Array<::UnityW<::GlobalNamespace::SetSaberGlowColor>>*> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::SetSaberFakeGlowColor*, ::Array<::GlobalNamespace::SetSaberFakeGlowColor*>*>& __get__setSaberFakeGlowColors();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::SetSaberFakeGlowColor>, ::Array<::UnityW<::GlobalNamespace::SetSaberFakeGlowColor>>*>& __cordl_internal_get__setSaberFakeGlowColors();
 
-  constexpr ::ArrayW<::GlobalNamespace::SetSaberFakeGlowColor*, ::Array<::GlobalNamespace::SetSaberFakeGlowColor*>*> const& __get__setSaberFakeGlowColors() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::SetSaberFakeGlowColor>, ::Array<::UnityW<::GlobalNamespace::SetSaberFakeGlowColor>>*> const& __cordl_internal_get__setSaberFakeGlowColors() const;
 
-  constexpr void __set__setSaberFakeGlowColors(::ArrayW<::GlobalNamespace::SetSaberFakeGlowColor*, ::Array<::GlobalNamespace::SetSaberFakeGlowColor*>*> value);
+  constexpr void __cordl_internal_set__setSaberFakeGlowColors(::ArrayW<::UnityW<::GlobalNamespace::SetSaberFakeGlowColor>, ::Array<::UnityW<::GlobalNamespace::SetSaberFakeGlowColor>>*> value);
 
-  constexpr ::GlobalNamespace::TubeBloomPrePassLight*& __get__saberLight();
+  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight>& __cordl_internal_get__saberLight();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TubeBloomPrePassLight*> const& __get__saberLight() const;
+  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> const& __cordl_internal_get__saberLight() const;
 
-  constexpr void __set__saberLight(::GlobalNamespace::TubeBloomPrePassLight* value);
+  constexpr void __cordl_internal_set__saberLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  constexpr ::GlobalNamespace::__SaberModelController__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__SaberModelController__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SaberModelController__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SaberModelController__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__SaberModelController__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__SaberModelController__InitData* value);
 
-  constexpr ::GlobalNamespace::ColorManager*& __get__colorManager();
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __get__colorManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
 
-  constexpr void __set__colorManager(::GlobalNamespace::ColorManager* value);
+  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
 
   /// @brief Method Init, addr 0x22641ac, size 0x2f0, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::Transform* parent, ::GlobalNamespace::Saber* saber);
@@ -189,16 +191,16 @@ protected:
 
 public:
   /// @brief Field _saberTrail, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::SaberTrail* ____saberTrail;
+  ::UnityW<::GlobalNamespace::SaberTrail> ____saberTrail;
 
   /// @brief Field _setSaberGlowColors, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::SetSaberGlowColor*, ::Array<::GlobalNamespace::SetSaberGlowColor*>*> ____setSaberGlowColors;
+  ::ArrayW<::UnityW<::GlobalNamespace::SetSaberGlowColor>, ::Array<::UnityW<::GlobalNamespace::SetSaberGlowColor>>*> ____setSaberGlowColors;
 
   /// @brief Field _setSaberFakeGlowColors, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::SetSaberFakeGlowColor*, ::Array<::GlobalNamespace::SetSaberFakeGlowColor*>*> ____setSaberFakeGlowColors;
+  ::ArrayW<::UnityW<::GlobalNamespace::SetSaberFakeGlowColor>, ::Array<::UnityW<::GlobalNamespace::SetSaberFakeGlowColor>>*> ____setSaberFakeGlowColors;
 
   /// @brief Field _saberLight, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::TubeBloomPrePassLight* ____saberLight;
+  ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____saberLight;
 
   /// @brief Field _initData, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::__SaberModelController__InitData* ____initData;

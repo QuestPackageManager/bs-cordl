@@ -35,26 +35,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::RevAnnContent);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(49))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::RevAnnContent*
 class CORDL_TYPE RevAnnContent : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field status, offset 0x10, size 0x8
-  __declspec(property(get = __get_status, put = __set_status))::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* status;
+  __declspec(property(get = __cordl_internal_get_status, put = __cordl_internal_set_status))::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* status;
 
   /// @brief Field certId, offset 0x18, size 0x8
-  __declspec(property(get = __get_certId, put = __set_certId))::Org::BouncyCastle::Asn1::Crmf::CertId* certId;
+  __declspec(property(get = __cordl_internal_get_certId, put = __cordl_internal_set_certId))::Org::BouncyCastle::Asn1::Crmf::CertId* certId;
 
   /// @brief Field willBeRevokedAt, offset 0x20, size 0x8
-  __declspec(property(get = __get_willBeRevokedAt, put = __set_willBeRevokedAt))::Org::BouncyCastle::Asn1::DerGeneralizedTime* willBeRevokedAt;
+  __declspec(property(get = __cordl_internal_get_willBeRevokedAt, put = __cordl_internal_set_willBeRevokedAt))::Org::BouncyCastle::Asn1::DerGeneralizedTime* willBeRevokedAt;
 
   /// @brief Field badSinceDate, offset 0x28, size 0x8
-  __declspec(property(get = __get_badSinceDate, put = __set_badSinceDate))::Org::BouncyCastle::Asn1::DerGeneralizedTime* badSinceDate;
+  __declspec(property(get = __cordl_internal_get_badSinceDate, put = __cordl_internal_set_badSinceDate))::Org::BouncyCastle::Asn1::DerGeneralizedTime* badSinceDate;
 
   /// @brief Field crlDetails, offset 0x30, size 0x8
-  __declspec(property(get = __get_crlDetails, put = __set_crlDetails))::Org::BouncyCastle::Asn1::X509::X509Extensions* crlDetails;
+  __declspec(property(get = __cordl_internal_get_crlDetails, put = __cordl_internal_set_crlDetails))::Org::BouncyCastle::Asn1::X509::X509Extensions* crlDetails;
 
   __declspec(property(get = get_Status))::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* Status;
 
@@ -66,35 +66,35 @@ public:
 
   __declspec(property(get = get_CrlDetails))::Org::BouncyCastle::Asn1::X509::X509Extensions* CrlDetails;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable*& __get_status();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable*& __cordl_internal_get_status();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable*> const& __get_status() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable*> const& __cordl_internal_get_status() const;
 
-  constexpr void __set_status(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);
+  constexpr void __cordl_internal_set_status(::Org::BouncyCastle::Asn1::Cmp::PkiStatusEncodable* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::CertId*& __get_certId();
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::CertId*& __cordl_internal_get_certId();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertId*> const& __get_certId() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::CertId*> const& __cordl_internal_get_certId() const;
 
-  constexpr void __set_certId(::Org::BouncyCastle::Asn1::Crmf::CertId* value);
+  constexpr void __cordl_internal_set_certId(::Org::BouncyCastle::Asn1::Crmf::CertId* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __get_willBeRevokedAt();
+  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_willBeRevokedAt();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __get_willBeRevokedAt() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_willBeRevokedAt() const;
 
-  constexpr void __set_willBeRevokedAt(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
+  constexpr void __cordl_internal_set_willBeRevokedAt(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __get_badSinceDate();
+  constexpr ::Org::BouncyCastle::Asn1::DerGeneralizedTime*& __cordl_internal_get_badSinceDate();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __get_badSinceDate() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerGeneralizedTime*> const& __cordl_internal_get_badSinceDate() const;
 
-  constexpr void __set_badSinceDate(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
+  constexpr void __cordl_internal_set_badSinceDate(::Org::BouncyCastle::Asn1::DerGeneralizedTime* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __get_crlDetails();
+  constexpr ::Org::BouncyCastle::Asn1::X509::X509Extensions*& __cordl_internal_get_crlDetails();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __get_crlDetails() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Extensions*> const& __cordl_internal_get_crlDetails() const;
 
-  constexpr void __set_crlDetails(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
+  constexpr void __cordl_internal_set_crlDetails(::Org::BouncyCastle::Asn1::X509::X509Extensions* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::RevAnnContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

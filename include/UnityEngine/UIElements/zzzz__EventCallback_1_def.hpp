@@ -20,7 +20,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename TEventType>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7182))
 // CS Name: ::UnityEngine.UIElements::EventCallback`1<TEventType>*
 class CORDL_TYPE EventCallback_1 : public ::System::MulticastDelegate {

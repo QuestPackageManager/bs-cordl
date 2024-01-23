@@ -70,20 +70,20 @@ MARK_REF_PTR_T(::System::Reflection::RuntimeConstructorInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3461)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(3461))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3524))
 // CS Name: ::System.Reflection::RuntimeConstructorInfo*
 class CORDL_TYPE RuntimeConstructorInfo : public ::System::Reflection::ConstructorInfo {
 public:
   // Declarations
   /// @brief Field mhandle, offset 0x10, size 0x8
-  __declspec(property(get = __get_mhandle, put = __set_mhandle)) void* mhandle;
+  __declspec(property(get = __cordl_internal_get_mhandle, put = __cordl_internal_set_mhandle)) void* mhandle;
 
   /// @brief Field name, offset 0x18, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field reftype, offset 0x20, size 0x8
-  __declspec(property(get = __get_reftype, put = __set_reftype))::System::Type* reftype;
+  __declspec(property(get = __cordl_internal_get_reftype, put = __cordl_internal_set_reftype))::System::Type* reftype;
 
   __declspec(property(get = get_Module))::System::Reflection::Module* Module;
 
@@ -115,23 +115,23 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr void*& __get_mhandle();
+  constexpr void*& __cordl_internal_get_mhandle();
 
-  constexpr void* const& __get_mhandle() const;
+  constexpr void* const& __cordl_internal_get_mhandle() const;
 
-  constexpr void __set_mhandle(void* value);
+  constexpr void __cordl_internal_set_mhandle(void* value);
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::System::Type*& __get_reftype();
+  constexpr ::System::Type*& __cordl_internal_get_reftype();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_reftype() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_reftype() const;
 
-  constexpr void __set_reftype(::System::Type* value);
+  constexpr void __cordl_internal_set_reftype(::System::Type* value);
 
   /// @brief Method get_Module, addr 0x24f56b0, size 0x4, virtual true, abstract: false, final false
   inline ::System::Reflection::Module* get_Module();

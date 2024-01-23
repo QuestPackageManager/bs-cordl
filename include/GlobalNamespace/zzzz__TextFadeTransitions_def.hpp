@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::TextFadeTransitions);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5338))
 // CS Name: ::TextFadeTransitions::State
 struct CORDL_TYPE __TextFadeTransitions__State {
@@ -86,7 +86,7 @@ static_assert(offsetof(::GlobalNamespace::__TextFadeTransitions__State, value__)
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5338))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5338)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5339))
 // CS Name: ::TextFadeTransitions*
 class CORDL_TYPE TextFadeTransitions : public ::UnityEngine::MonoBehaviour {
@@ -95,58 +95,58 @@ public:
   using State = ::GlobalNamespace::__TextFadeTransitions__State;
 
   /// @brief Field _textLabel, offset 0x18, size 0x8
-  __declspec(property(get = __get__textLabel, put = __set__textLabel))::TMPro::TextMeshProUGUI* _textLabel;
+  __declspec(property(get = __cordl_internal_get__textLabel, put = __cordl_internal_set__textLabel))::UnityW<::TMPro::TextMeshProUGUI> _textLabel;
 
   /// @brief Field _canvasGroup, offset 0x20, size 0x8
-  __declspec(property(get = __get__canvasGroup, put = __set__canvasGroup))::UnityEngine::CanvasGroup* _canvasGroup;
+  __declspec(property(get = __cordl_internal_get__canvasGroup, put = __cordl_internal_set__canvasGroup))::UnityW<::UnityEngine::CanvasGroup> _canvasGroup;
 
   /// @brief Field _fadeDuration, offset 0x28, size 0x4
-  __declspec(property(get = __get__fadeDuration, put = __set__fadeDuration)) float_t _fadeDuration;
+  __declspec(property(get = __cordl_internal_get__fadeDuration, put = __cordl_internal_set__fadeDuration)) float_t _fadeDuration;
 
   /// @brief Field _state, offset 0x2c, size 0x4
-  __declspec(property(get = __get__state, put = __set__state))::GlobalNamespace::__TextFadeTransitions__State _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state))::GlobalNamespace::__TextFadeTransitions__State _state;
 
   /// @brief Field _nextText, offset 0x30, size 0x8
-  __declspec(property(get = __get__nextText, put = __set__nextText))::StringW _nextText;
+  __declspec(property(get = __cordl_internal_get__nextText, put = __cordl_internal_set__nextText))::StringW _nextText;
 
   /// @brief Field _fade, offset 0x38, size 0x4
-  __declspec(property(get = __get__fade, put = __set__fade)) float_t _fade;
+  __declspec(property(get = __cordl_internal_get__fade, put = __cordl_internal_set__fade)) float_t _fade;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__textLabel();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__textLabel();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__textLabel() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__textLabel() const;
 
-  constexpr void __set__textLabel(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__textLabel(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__canvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__canvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__canvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
 
-  constexpr void __set__canvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__canvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr float_t& __get__fadeDuration();
+  constexpr float_t& __cordl_internal_get__fadeDuration();
 
-  constexpr float_t const& __get__fadeDuration() const;
+  constexpr float_t const& __cordl_internal_get__fadeDuration() const;
 
-  constexpr void __set__fadeDuration(float_t value);
+  constexpr void __cordl_internal_set__fadeDuration(float_t value);
 
-  constexpr ::GlobalNamespace::__TextFadeTransitions__State& __get__state();
+  constexpr ::GlobalNamespace::__TextFadeTransitions__State& __cordl_internal_get__state();
 
-  constexpr ::GlobalNamespace::__TextFadeTransitions__State const& __get__state() const;
+  constexpr ::GlobalNamespace::__TextFadeTransitions__State const& __cordl_internal_get__state() const;
 
-  constexpr void __set__state(::GlobalNamespace::__TextFadeTransitions__State value);
+  constexpr void __cordl_internal_set__state(::GlobalNamespace::__TextFadeTransitions__State value);
 
-  constexpr ::StringW& __get__nextText();
+  constexpr ::StringW& __cordl_internal_get__nextText();
 
-  constexpr ::StringW const& __get__nextText() const;
+  constexpr ::StringW const& __cordl_internal_get__nextText() const;
 
-  constexpr void __set__nextText(::StringW value);
+  constexpr void __cordl_internal_set__nextText(::StringW value);
 
-  constexpr float_t& __get__fade();
+  constexpr float_t& __cordl_internal_get__fade();
 
-  constexpr float_t const& __get__fade() const;
+  constexpr float_t const& __cordl_internal_get__fade() const;
 
-  constexpr void __set__fade(float_t value);
+  constexpr void __cordl_internal_set__fade(float_t value);
 
   /// @brief Method Awake, addr 0x22699f4, size 0x7c, virtual false, abstract: false, final false
   inline void Awake();
@@ -183,10 +183,10 @@ protected:
 
 public:
   /// @brief Field _textLabel, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____textLabel;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____textLabel;
 
   /// @brief Field _canvasGroup, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____canvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;
 
   /// @brief Field _fadeDuration, offset: 0x28, size: 0x4, def value: None
   float_t ____fadeDuration;

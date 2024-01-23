@@ -45,23 +45,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(480))
 // CS Name: ::BerOctetString::ChunkEnumerator*
 class CORDL_TYPE __BerOctetString__ChunkEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field octets, offset 0x10, size 0x8
-  __declspec(property(get = __get_octets, put = __set_octets))::ArrayW<uint8_t, ::Array<uint8_t>*> octets;
+  __declspec(property(get = __cordl_internal_get_octets, put = __cordl_internal_set_octets))::ArrayW<uint8_t, ::Array<uint8_t>*> octets;
 
   /// @brief Field chunkSize, offset 0x18, size 0x4
-  __declspec(property(get = __get_chunkSize, put = __set_chunkSize)) int32_t chunkSize;
+  __declspec(property(get = __cordl_internal_get_chunkSize, put = __cordl_internal_set_chunkSize)) int32_t chunkSize;
 
   /// @brief Field currentChunk, offset 0x20, size 0x8
-  __declspec(property(get = __get_currentChunk, put = __set_currentChunk))::Org::BouncyCastle::Asn1::DerOctetString* currentChunk;
+  __declspec(property(get = __cordl_internal_get_currentChunk, put = __cordl_internal_set_currentChunk))::Org::BouncyCastle::Asn1::DerOctetString* currentChunk;
 
   /// @brief Field nextChunkPos, offset 0x28, size 0x4
-  __declspec(property(get = __get_nextChunkPos, put = __set_nextChunkPos)) int32_t nextChunkPos;
+  __declspec(property(get = __cordl_internal_get_nextChunkPos, put = __cordl_internal_set_nextChunkPos)) int32_t nextChunkPos;
 
   __declspec(property(get = get_Current))::System::Object* Current;
 
@@ -71,29 +71,29 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_octets();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_octets();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_octets() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_octets() const;
 
-  constexpr void __set_octets(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_octets(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_chunkSize();
+  constexpr int32_t& __cordl_internal_get_chunkSize();
 
-  constexpr int32_t const& __get_chunkSize() const;
+  constexpr int32_t const& __cordl_internal_get_chunkSize() const;
 
-  constexpr void __set_chunkSize(int32_t value);
+  constexpr void __cordl_internal_set_chunkSize(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerOctetString*& __get_currentChunk();
+  constexpr ::Org::BouncyCastle::Asn1::DerOctetString*& __cordl_internal_get_currentChunk();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerOctetString*> const& __get_currentChunk() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerOctetString*> const& __cordl_internal_get_currentChunk() const;
 
-  constexpr void __set_currentChunk(::Org::BouncyCastle::Asn1::DerOctetString* value);
+  constexpr void __cordl_internal_set_currentChunk(::Org::BouncyCastle::Asn1::DerOctetString* value);
 
-  constexpr int32_t& __get_nextChunkPos();
+  constexpr int32_t& __cordl_internal_get_nextChunkPos();
 
-  constexpr int32_t const& __get_nextChunkPos() const;
+  constexpr int32_t const& __cordl_internal_get_nextChunkPos() const;
 
-  constexpr void __set_nextChunkPos(int32_t value);
+  constexpr void __cordl_internal_set_nextChunkPos(int32_t value);
 
   static inline ::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> octets, int32_t chunkSize);
 
@@ -153,7 +153,7 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumera
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(479))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(479))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(481))
 // CS Name: ::Org.BouncyCastle.Asn1::BerOctetString*
 class CORDL_TYPE BerOctetString : public ::Org::BouncyCastle::Asn1::DerOctetString {
@@ -162,10 +162,11 @@ public:
   using ChunkEnumerator = ::Org::BouncyCastle::Asn1::__BerOctetString__ChunkEnumerator;
 
   /// @brief Field chunkSize, offset 0x18, size 0x4
-  __declspec(property(get = __get_chunkSize, put = __set_chunkSize)) int32_t chunkSize;
+  __declspec(property(get = __cordl_internal_get_chunkSize, put = __cordl_internal_set_chunkSize)) int32_t chunkSize;
 
   /// @brief Field octs, offset 0x20, size 0x8
-  __declspec(property(get = __get_octs, put = __set_octs))::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs;
+  __declspec(property(get = __cordl_internal_get_octs,
+                      put = __cordl_internal_set_octs))::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> octs;
 
   /// @brief Field DefaultChunkSize, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_DefaultChunkSize, put = setStaticF_DefaultChunkSize)) int32_t DefaultChunkSize;
@@ -176,17 +177,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr int32_t& __get_chunkSize();
+  constexpr int32_t& __cordl_internal_get_chunkSize();
 
-  constexpr int32_t const& __get_chunkSize() const;
+  constexpr int32_t const& __cordl_internal_get_chunkSize() const;
 
-  constexpr void __set_chunkSize(int32_t value);
+  constexpr void __cordl_internal_set_chunkSize(int32_t value);
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*>& __get_octs();
+  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*>& __cordl_internal_get_octs();
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> const& __get_octs() const;
+  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> const& __cordl_internal_get_octs() const;
 
-  constexpr void __set_octs(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> value);
+  constexpr void __cordl_internal_set_octs(::ArrayW<::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Array<::Org::BouncyCastle::Asn1::Asn1OctetString*>*> value);
 
   static inline void setStaticF_DefaultChunkSize(int32_t value);
 

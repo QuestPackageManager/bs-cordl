@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::GlobalNamespace::CountdownGameplayServerFiniteStateMachine);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12762))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12762))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12760))
 // CS Name: ::CountdownGameplayServerFiniteStateMachine*
 class CORDL_TYPE CountdownGameplayServerFiniteStateMachine : public ::GlobalNamespace::GameplayServerFiniteStateMachine {

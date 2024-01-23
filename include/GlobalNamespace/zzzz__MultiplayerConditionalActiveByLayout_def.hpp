@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerConditionalActiveByLayout);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5195))
 // CS Name: ::MultiplayerConditionalActiveByLayout::Condition
 struct CORDL_TYPE __MultiplayerConditionalActiveByLayout__Condition {
@@ -81,7 +81,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerConditionalActiveByLayout
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(5195)), TypeDefinitionIndex(TypeDefinitionIndex(5233))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5195)), TypeDefinitionIndex(TypeDefinitionIndex(5233)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5196))
 // CS Name: ::MultiplayerConditionalActiveByLayout*
 class CORDL_TYPE MultiplayerConditionalActiveByLayout : public ::UnityEngine::MonoBehaviour {
@@ -90,31 +90,31 @@ public:
   using Condition = ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition;
 
   /// @brief Field _condition, offset 0x18, size 0x4
-  __declspec(property(get = __get__condition, put = __set__condition))::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition _condition;
+  __declspec(property(get = __cordl_internal_get__condition, put = __cordl_internal_set__condition))::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition _condition;
 
   /// @brief Field _layout, offset 0x1c, size 0x4
-  __declspec(property(get = __get__layout, put = __set__layout))::GlobalNamespace::MultiplayerPlayerLayout _layout;
+  __declspec(property(get = __cordl_internal_get__layout, put = __cordl_internal_set__layout))::GlobalNamespace::MultiplayerPlayerLayout _layout;
 
   /// @brief Field _layoutProvider, offset 0x20, size 0x8
-  __declspec(property(get = __get__layoutProvider, put = __set__layoutProvider))::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
+  __declspec(property(get = __cordl_internal_get__layoutProvider, put = __cordl_internal_set__layoutProvider))::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
 
-  constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition& __get__condition();
+  constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition& __cordl_internal_get__condition();
 
-  constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition const& __get__condition() const;
+  constexpr ::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition const& __cordl_internal_get__condition() const;
 
-  constexpr void __set__condition(::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition value);
+  constexpr void __cordl_internal_set__condition(::GlobalNamespace::__MultiplayerConditionalActiveByLayout__Condition value);
 
-  constexpr ::GlobalNamespace::MultiplayerPlayerLayout& __get__layout();
+  constexpr ::GlobalNamespace::MultiplayerPlayerLayout& __cordl_internal_get__layout();
 
-  constexpr ::GlobalNamespace::MultiplayerPlayerLayout const& __get__layout() const;
+  constexpr ::GlobalNamespace::MultiplayerPlayerLayout const& __cordl_internal_get__layout() const;
 
-  constexpr void __set__layout(::GlobalNamespace::MultiplayerPlayerLayout value);
+  constexpr void __cordl_internal_set__layout(::GlobalNamespace::MultiplayerPlayerLayout value);
 
-  constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __get__layoutProvider();
+  constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __cordl_internal_get__layoutProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& __get__layoutProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& __cordl_internal_get__layoutProvider() const;
 
-  constexpr void __set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
+  constexpr void __cordl_internal_set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
 
   /// @brief Method Start, addr 0x22462a4, size 0xa0, virtual false, abstract: false, final false
   inline void Start();

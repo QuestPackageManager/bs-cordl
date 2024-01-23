@@ -57,38 +57,38 @@ namespace Zenject {
 // cpp template
 template <typename TTask>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11334))
 // CS Name: ::TaskUpdater`1::TaskInfo<TTask>*
 class CORDL_TYPE __TaskUpdater_1__TaskInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Task, offset 0x10, size 0x8
-  __declspec(property(get = __get_Task, put = __set_Task)) TTask Task;
+  __declspec(property(get = __cordl_internal_get_Task, put = __cordl_internal_set_Task)) TTask Task;
 
   /// @brief Field Priority, offset 0x18, size 0x4
-  __declspec(property(get = __get_Priority, put = __set_Priority)) int32_t Priority;
+  __declspec(property(get = __cordl_internal_get_Priority, put = __cordl_internal_set_Priority)) int32_t Priority;
 
   /// @brief Field IsRemoved, offset 0x1c, size 0x1
-  __declspec(property(get = __get_IsRemoved, put = __set_IsRemoved)) bool IsRemoved;
+  __declspec(property(get = __cordl_internal_get_IsRemoved, put = __cordl_internal_set_IsRemoved)) bool IsRemoved;
 
-  constexpr TTask& __get_Task();
+  constexpr TTask& __cordl_internal_get_Task();
 
-  constexpr TTask const& __get_Task() const;
+  constexpr TTask const& __cordl_internal_get_Task() const;
 
-  constexpr void __set_Task(TTask value);
+  constexpr void __cordl_internal_set_Task(TTask value);
 
-  constexpr int32_t& __get_Priority();
+  constexpr int32_t& __cordl_internal_get_Priority();
 
-  constexpr int32_t const& __get_Priority() const;
+  constexpr int32_t const& __cordl_internal_get_Priority() const;
 
-  constexpr void __set_Priority(int32_t value);
+  constexpr void __cordl_internal_set_Priority(int32_t value);
 
-  constexpr bool& __get_IsRemoved();
+  constexpr bool& __cordl_internal_get_IsRemoved();
 
-  constexpr bool const& __get_IsRemoved() const;
+  constexpr bool const& __cordl_internal_get_IsRemoved() const;
 
-  constexpr void __set_IsRemoved(bool value);
+  constexpr void __cordl_internal_set_IsRemoved(bool value);
 
   static inline ::Zenject::__TaskUpdater_1__TaskInfo<TTask>* New_ctor(TTask task, int32_t priority);
 
@@ -134,7 +134,7 @@ namespace Zenject {
 // cpp template
 template <typename TTask>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11335))
 // CS Name: ::TaskUpdater`1::<>c<TTask>*
 class CORDL_TYPE __TaskUpdater_1____c : public ::System::Object {
@@ -192,20 +192,20 @@ namespace Zenject {
 // cpp template
 template <typename TTask>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11336))
 // CS Name: ::TaskUpdater`1::<>c__DisplayClass8_0<TTask>*
 class CORDL_TYPE __TaskUpdater_1____c__DisplayClass8_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field task, offset 0x10, size 0x8
-  __declspec(property(get = __get_task, put = __set_task)) TTask task;
+  __declspec(property(get = __cordl_internal_get_task, put = __cordl_internal_set_task)) TTask task;
 
-  constexpr TTask& __get_task();
+  constexpr TTask& __cordl_internal_get_task();
 
-  constexpr TTask const& __get_task() const;
+  constexpr TTask const& __cordl_internal_get_task() const;
 
-  constexpr void __set_task(TTask value);
+  constexpr void __cordl_internal_set_task(TTask value);
 
   static inline ::Zenject::__TaskUpdater_1____c__DisplayClass8_0<TTask>* New_ctor();
 
@@ -248,7 +248,7 @@ namespace Zenject {
 // cpp template
 template <typename TTask>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11337))
 // CS Name: ::Zenject::TaskUpdater`1<TTask>*
 class CORDL_TYPE TaskUpdater_1 : public ::System::Object {
@@ -261,26 +261,27 @@ public:
   using TaskInfo = ::Zenject::__TaskUpdater_1__TaskInfo<TTask>;
 
   /// @brief Field _tasks, offset 0x10, size 0x8
-  __declspec(property(get = __get__tasks, put = __set__tasks))::System::Collections::Generic::LinkedList_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* _tasks;
+  __declspec(property(get = __cordl_internal_get__tasks, put = __cordl_internal_set__tasks))::System::Collections::Generic::LinkedList_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* _tasks;
 
   /// @brief Field _queuedTasks, offset 0x18, size 0x8
-  __declspec(property(get = __get__queuedTasks, put = __set__queuedTasks))::System::Collections::Generic::List_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* _queuedTasks;
+  __declspec(property(get = __cordl_internal_get__queuedTasks,
+                      put = __cordl_internal_set__queuedTasks))::System::Collections::Generic::List_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* _queuedTasks;
 
   __declspec(property(get = get_AllTasks))::System::Collections::Generic::IEnumerable_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* AllTasks;
 
   __declspec(property(get = get_ActiveTasks))::System::Collections::Generic::IEnumerable_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* ActiveTasks;
 
-  constexpr ::System::Collections::Generic::LinkedList_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>*& __get__tasks();
+  constexpr ::System::Collections::Generic::LinkedList_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>*& __cordl_internal_get__tasks();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>*> const& __get__tasks() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedList_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>*> const& __cordl_internal_get__tasks() const;
 
-  constexpr void __set__tasks(::System::Collections::Generic::LinkedList_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* value);
+  constexpr void __cordl_internal_set__tasks(::System::Collections::Generic::LinkedList_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>*& __get__queuedTasks();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>*& __cordl_internal_get__queuedTasks();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>*> const& __get__queuedTasks() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>*> const& __cordl_internal_get__queuedTasks() const;
 
-  constexpr void __set__queuedTasks(::System::Collections::Generic::List_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* value);
+  constexpr void __cordl_internal_set__queuedTasks(::System::Collections::Generic::List_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* value);
 
   /// @brief Method get_AllTasks, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Zenject::__TaskUpdater_1__TaskInfo<TTask>*>* get_AllTasks();

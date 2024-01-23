@@ -15,29 +15,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DtlsReplayWindow);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1234))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DtlsReplayWindow*
 class CORDL_TYPE DtlsReplayWindow : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mLatestConfirmedSeq, offset 0x10, size 0x8
-  __declspec(property(get = __get_mLatestConfirmedSeq, put = __set_mLatestConfirmedSeq)) int64_t mLatestConfirmedSeq;
+  __declspec(property(get = __cordl_internal_get_mLatestConfirmedSeq, put = __cordl_internal_set_mLatestConfirmedSeq)) int64_t mLatestConfirmedSeq;
 
   /// @brief Field mBitmap, offset 0x18, size 0x8
-  __declspec(property(get = __get_mBitmap, put = __set_mBitmap)) int64_t mBitmap;
+  __declspec(property(get = __cordl_internal_get_mBitmap, put = __cordl_internal_set_mBitmap)) int64_t mBitmap;
 
-  constexpr int64_t& __get_mLatestConfirmedSeq();
+  constexpr int64_t& __cordl_internal_get_mLatestConfirmedSeq();
 
-  constexpr int64_t const& __get_mLatestConfirmedSeq() const;
+  constexpr int64_t const& __cordl_internal_get_mLatestConfirmedSeq() const;
 
-  constexpr void __set_mLatestConfirmedSeq(int64_t value);
+  constexpr void __cordl_internal_set_mLatestConfirmedSeq(int64_t value);
 
-  constexpr int64_t& __get_mBitmap();
+  constexpr int64_t& __cordl_internal_get_mBitmap();
 
-  constexpr int64_t const& __get_mBitmap() const;
+  constexpr int64_t const& __cordl_internal_get_mBitmap() const;
 
-  constexpr void __set_mBitmap(int64_t value);
+  constexpr void __cordl_internal_set_mBitmap(int64_t value);
 
   /// @brief Method ShouldDiscard, addr 0xf6f894, size 0x44, virtual false, abstract: false, final false
   inline bool ShouldDiscard(int64_t seq);

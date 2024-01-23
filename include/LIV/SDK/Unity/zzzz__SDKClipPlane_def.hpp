@@ -21,7 +21,7 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKClipPlane);
 // SizeInfo { instance_size: 76, native_size: 76, calculated_instance_size: 76, calculated_native_size: 92, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15111))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15111))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15120))
 // CS Name: ::LIV.SDK.Unity::SDKClipPlane
 struct CORDL_TYPE SDKClipPlane {

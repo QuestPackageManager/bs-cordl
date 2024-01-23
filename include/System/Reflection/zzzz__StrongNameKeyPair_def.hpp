@@ -32,23 +32,23 @@ MARK_REF_PTR_T(::System::Reflection::StrongNameKeyPair);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3533))
 // CS Name: ::System.Reflection::StrongNameKeyPair*
 class CORDL_TYPE StrongNameKeyPair : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _publicKey, offset 0x10, size 0x8
-  __declspec(property(get = __get__publicKey, put = __set__publicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> _publicKey;
+  __declspec(property(get = __cordl_internal_get__publicKey, put = __cordl_internal_set__publicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> _publicKey;
 
   /// @brief Field _keyPairContainer, offset 0x18, size 0x8
-  __declspec(property(get = __get__keyPairContainer, put = __set__keyPairContainer))::StringW _keyPairContainer;
+  __declspec(property(get = __cordl_internal_get__keyPairContainer, put = __cordl_internal_set__keyPairContainer))::StringW _keyPairContainer;
 
   /// @brief Field _keyPairExported, offset 0x20, size 0x1
-  __declspec(property(get = __get__keyPairExported, put = __set__keyPairExported)) bool _keyPairExported;
+  __declspec(property(get = __cordl_internal_get__keyPairExported, put = __cordl_internal_set__keyPairExported)) bool _keyPairExported;
 
   /// @brief Field _keyPairArray, offset 0x28, size 0x8
-  __declspec(property(get = __get__keyPairArray, put = __set__keyPairArray))::ArrayW<uint8_t, ::Array<uint8_t>*> _keyPairArray;
+  __declspec(property(get = __cordl_internal_get__keyPairArray, put = __cordl_internal_set__keyPairArray))::ArrayW<uint8_t, ::Array<uint8_t>*> _keyPairArray;
 
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
@@ -62,29 +62,29 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__publicKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__publicKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__publicKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__publicKey() const;
 
-  constexpr void __set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::StringW& __get__keyPairContainer();
+  constexpr ::StringW& __cordl_internal_get__keyPairContainer();
 
-  constexpr ::StringW const& __get__keyPairContainer() const;
+  constexpr ::StringW const& __cordl_internal_get__keyPairContainer() const;
 
-  constexpr void __set__keyPairContainer(::StringW value);
+  constexpr void __cordl_internal_set__keyPairContainer(::StringW value);
 
-  constexpr bool& __get__keyPairExported();
+  constexpr bool& __cordl_internal_get__keyPairExported();
 
-  constexpr bool const& __get__keyPairExported() const;
+  constexpr bool const& __cordl_internal_get__keyPairExported() const;
 
-  constexpr void __set__keyPairExported(bool value);
+  constexpr void __cordl_internal_set__keyPairExported(bool value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__keyPairArray();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__keyPairArray();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__keyPairArray() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__keyPairArray() const;
 
-  constexpr void __set__keyPairArray(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__keyPairArray(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::System::Reflection::StrongNameKeyPair* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 

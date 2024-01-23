@@ -47,7 +47,7 @@ MARK_VAL_T(::GlobalNamespace::__BeatLine__HighlightData);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14542)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14542))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4700))
 // CS Name: ::BeatLine*
 class CORDL_TYPE BeatLine : public ::GlobalNamespace::LightWithIdMonoBehaviour {
@@ -58,80 +58,80 @@ public:
   using Pool = ::GlobalNamespace::__BeatLine__Pool;
 
   /// @brief Field _tubeBloomPrePassLight, offset 0x30, size 0x8
-  __declspec(property(get = __get__tubeBloomPrePassLight, put = __set__tubeBloomPrePassLight))::GlobalNamespace::TubeBloomPrePassLight* _tubeBloomPrePassLight;
+  __declspec(property(get = __cordl_internal_get__tubeBloomPrePassLight, put = __cordl_internal_set__tubeBloomPrePassLight))::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _tubeBloomPrePassLight;
 
   /// @brief Field _arriveFadeCurve, offset 0x38, size 0x8
-  __declspec(property(get = __get__arriveFadeCurve, put = __set__arriveFadeCurve))::UnityEngine::AnimationCurve* _arriveFadeCurve;
+  __declspec(property(get = __cordl_internal_get__arriveFadeCurve, put = __cordl_internal_set__arriveFadeCurve))::UnityEngine::AnimationCurve* _arriveFadeCurve;
 
   /// @brief Field _jumpFadeCurve, offset 0x40, size 0x8
-  __declspec(property(get = __get__jumpFadeCurve, put = __set__jumpFadeCurve))::UnityEngine::AnimationCurve* _jumpFadeCurve;
+  __declspec(property(get = __cordl_internal_get__jumpFadeCurve, put = __cordl_internal_set__jumpFadeCurve))::UnityEngine::AnimationCurve* _jumpFadeCurve;
 
   /// @brief Field _alphaMul, offset 0x48, size 0x4
-  __declspec(property(get = __get__alphaMul, put = __set__alphaMul)) float_t _alphaMul;
+  __declspec(property(get = __cordl_internal_get__alphaMul, put = __cordl_internal_set__alphaMul)) float_t _alphaMul;
 
   /// @brief Field _maxAlpha, offset 0x4c, size 0x4
-  __declspec(property(get = __get__maxAlpha, put = __set__maxAlpha)) float_t _maxAlpha;
+  __declspec(property(get = __cordl_internal_get__maxAlpha, put = __cordl_internal_set__maxAlpha)) float_t _maxAlpha;
 
   /// @brief Field _highlights, offset 0x50, size 0x8
-  __declspec(property(get = __get__highlights, put = __set__highlights))::System::Collections::Generic::List_1<::GlobalNamespace::__BeatLine__HighlightData>* _highlights;
+  __declspec(property(get = __cordl_internal_get__highlights, put = __cordl_internal_set__highlights))::System::Collections::Generic::List_1<::GlobalNamespace::__BeatLine__HighlightData>* _highlights;
 
   /// @brief Field _color, offset 0x58, size 0x10
-  __declspec(property(get = __get__color, put = __set__color))::UnityEngine::Color _color;
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
   /// @brief Field _rotation, offset 0x68, size 0x4
-  __declspec(property(get = __get__rotation, put = __set__rotation)) float_t _rotation;
+  __declspec(property(get = __cordl_internal_get__rotation, put = __cordl_internal_set__rotation)) float_t _rotation;
 
   __declspec(property(get = get_isFinished)) bool isFinished;
 
   __declspec(property(get = get_rotation)) float_t rotation;
 
-  constexpr ::GlobalNamespace::TubeBloomPrePassLight*& __get__tubeBloomPrePassLight();
+  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight>& __cordl_internal_get__tubeBloomPrePassLight();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TubeBloomPrePassLight*> const& __get__tubeBloomPrePassLight() const;
+  constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> const& __cordl_internal_get__tubeBloomPrePassLight() const;
 
-  constexpr void __set__tubeBloomPrePassLight(::GlobalNamespace::TubeBloomPrePassLight* value);
+  constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__arriveFadeCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__arriveFadeCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__arriveFadeCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__arriveFadeCurve() const;
 
-  constexpr void __set__arriveFadeCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__arriveFadeCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__jumpFadeCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__jumpFadeCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__jumpFadeCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__jumpFadeCurve() const;
 
-  constexpr void __set__jumpFadeCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__jumpFadeCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr float_t& __get__alphaMul();
+  constexpr float_t& __cordl_internal_get__alphaMul();
 
-  constexpr float_t const& __get__alphaMul() const;
+  constexpr float_t const& __cordl_internal_get__alphaMul() const;
 
-  constexpr void __set__alphaMul(float_t value);
+  constexpr void __cordl_internal_set__alphaMul(float_t value);
 
-  constexpr float_t& __get__maxAlpha();
+  constexpr float_t& __cordl_internal_get__maxAlpha();
 
-  constexpr float_t const& __get__maxAlpha() const;
+  constexpr float_t const& __cordl_internal_get__maxAlpha() const;
 
-  constexpr void __set__maxAlpha(float_t value);
+  constexpr void __cordl_internal_set__maxAlpha(float_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__BeatLine__HighlightData>*& __get__highlights();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__BeatLine__HighlightData>*& __cordl_internal_get__highlights();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__BeatLine__HighlightData>*> const& __get__highlights() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__BeatLine__HighlightData>*> const& __cordl_internal_get__highlights() const;
 
-  constexpr void __set__highlights(::System::Collections::Generic::List_1<::GlobalNamespace::__BeatLine__HighlightData>* value);
+  constexpr void __cordl_internal_set__highlights(::System::Collections::Generic::List_1<::GlobalNamespace::__BeatLine__HighlightData>* value);
 
-  constexpr ::UnityEngine::Color& __get__color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::UnityEngine::Color const& __get__color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr void __set__color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  constexpr float_t& __get__rotation();
+  constexpr float_t& __cordl_internal_get__rotation();
 
-  constexpr float_t const& __get__rotation() const;
+  constexpr float_t const& __cordl_internal_get__rotation() const;
 
-  constexpr void __set__rotation(float_t value);
+  constexpr void __cordl_internal_set__rotation(float_t value);
 
   /// @brief Method get_isFinished, addr 0x2376a3c, size 0x50, virtual false, abstract: false, final false
   inline bool get_isFinished();
@@ -171,7 +171,7 @@ protected:
 
 public:
   /// @brief Field _tubeBloomPrePassLight, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::TubeBloomPrePassLight* ____tubeBloomPrePassLight;
+  ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;
 
   /// @brief Field _arriveFadeCurve, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____arriveFadeCurve;
@@ -220,9 +220,9 @@ static_assert(offsetof(::GlobalNamespace::BeatLine, ____rotation) == 0x68, "Offs
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4700)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2809 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4698)) CS Name: ::BeatLine::Pool*
-class CORDL_TYPE __BeatLine__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::BeatLine*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4700)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2809 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4698)) CS Name: ::BeatLine::Pool*
+class CORDL_TYPE __BeatLine__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::BeatLine>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__BeatLine__Pool* New_ctor();
@@ -254,7 +254,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatLine__Poo
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4699))
 // CS Name: ::BeatLine::HighlightData
 struct CORDL_TYPE __BeatLine__HighlightData {

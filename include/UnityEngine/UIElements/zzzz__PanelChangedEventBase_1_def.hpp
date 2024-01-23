@@ -19,33 +19,34 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1716 }), TypeDefinitionIndex(TypeDefinitionIndex(7180))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7180)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7180), inst: 1716 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7243))
 // CS Name: ::UnityEngine.UIElements::PanelChangedEventBase`1<T>*
 class CORDL_TYPE PanelChangedEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
   /// @brief Field <originPanel>k__BackingField, offset 0x80, size 0x8
-  __declspec(property(get = __get__originPanel_k__BackingField, put = __set__originPanel_k__BackingField))::UnityEngine::UIElements::IPanel* _originPanel_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__originPanel_k__BackingField, put = __cordl_internal_set__originPanel_k__BackingField))::UnityEngine::UIElements::IPanel* _originPanel_k__BackingField;
 
   /// @brief Field <destinationPanel>k__BackingField, offset 0x88, size 0x8
-  __declspec(property(get = __get__destinationPanel_k__BackingField, put = __set__destinationPanel_k__BackingField))::UnityEngine::UIElements::IPanel* _destinationPanel_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__destinationPanel_k__BackingField,
+                      put = __cordl_internal_set__destinationPanel_k__BackingField))::UnityEngine::UIElements::IPanel* _destinationPanel_k__BackingField;
 
   __declspec(property(get = get_originPanel, put = set_originPanel))::UnityEngine::UIElements::IPanel* originPanel;
 
   __declspec(property(get = get_destinationPanel, put = set_destinationPanel))::UnityEngine::UIElements::IPanel* destinationPanel;
 
-  constexpr ::UnityEngine::UIElements::IPanel*& __get__originPanel_k__BackingField();
+  constexpr ::UnityEngine::UIElements::IPanel*& __cordl_internal_get__originPanel_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IPanel*> const& __get__originPanel_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IPanel*> const& __cordl_internal_get__originPanel_k__BackingField() const;
 
-  constexpr void __set__originPanel_k__BackingField(::UnityEngine::UIElements::IPanel* value);
+  constexpr void __cordl_internal_set__originPanel_k__BackingField(::UnityEngine::UIElements::IPanel* value);
 
-  constexpr ::UnityEngine::UIElements::IPanel*& __get__destinationPanel_k__BackingField();
+  constexpr ::UnityEngine::UIElements::IPanel*& __cordl_internal_get__destinationPanel_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IPanel*> const& __get__destinationPanel_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IPanel*> const& __cordl_internal_get__destinationPanel_k__BackingField() const;
 
-  constexpr void __set__destinationPanel_k__BackingField(::UnityEngine::UIElements::IPanel* value);
+  constexpr void __cordl_internal_set__destinationPanel_k__BackingField(::UnityEngine::UIElements::IPanel* value);
 
   /// @brief Method get_originPanel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IPanel* get_originPanel();

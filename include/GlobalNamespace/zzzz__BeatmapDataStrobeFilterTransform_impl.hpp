@@ -15,10 +15,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x98;
   constexpr static std::size_t addrs = 0x223b940;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData*>::get(), "StartPotentialStrobe", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData*>::get(), "StartPotentialStrobe",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get() })));
     return ___internal_method;
   }
 };
@@ -30,10 +30,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x94;
   constexpr static std::size_t addrs = 0x223b868;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData*>::get(), "AddStrobeData", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData*>::get(), "AddStrobeData",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get() })));
     return ___internal_method;
   }
 };
@@ -45,129 +45,129 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x223b860;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_isActive() {
+constexpr bool& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_get_isActive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isActive;
 }
-constexpr bool const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_isActive() const {
+constexpr bool const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_get_isActive() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isActive;
 }
-constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__set_isActive(bool value) {
+constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_set_isActive(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isActive = value;
 }
-constexpr float_t& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_strobeStartTime() {
+constexpr float_t& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_get_strobeStartTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strobeStartTime;
 }
-constexpr float_t const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_strobeStartTime() const {
+constexpr float_t const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_get_strobeStartTime() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___strobeStartTime;
 }
-constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__set_strobeStartTime(float_t value) {
+constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_set_strobeStartTime(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___strobeStartTime = value;
 }
-constexpr ::GlobalNamespace::EnvironmentColorType& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_startColorType() {
+constexpr ::GlobalNamespace::EnvironmentColorType& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_get_startColorType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startColorType;
 }
-constexpr ::GlobalNamespace::EnvironmentColorType const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_startColorType() const {
+constexpr ::GlobalNamespace::EnvironmentColorType const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_get_startColorType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___startColorType;
 }
-constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__set_startColorType(::GlobalNamespace::EnvironmentColorType value) {
+constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_set_startColorType(::GlobalNamespace::EnvironmentColorType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___startColorType = value;
 }
-constexpr float_t& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_lastSwitchTime() {
+constexpr float_t& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_get_lastSwitchTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastSwitchTime;
 }
-constexpr float_t const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_lastSwitchTime() const {
+constexpr float_t const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_get_lastSwitchTime() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastSwitchTime;
 }
-constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__set_lastSwitchTime(float_t value) {
+constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_set_lastSwitchTime(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastSwitchTime = value;
 }
-constexpr ::GlobalNamespace::EnvironmentColorType& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_lastColorType() {
+constexpr ::GlobalNamespace::EnvironmentColorType& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_get_lastColorType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastColorType;
 }
-constexpr ::GlobalNamespace::EnvironmentColorType const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_lastColorType() const {
+constexpr ::GlobalNamespace::EnvironmentColorType const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_get_lastColorType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastColorType;
 }
-constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__set_lastColorType(::GlobalNamespace::EnvironmentColorType value) {
+constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_set_lastColorType(::GlobalNamespace::EnvironmentColorType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastColorType = value;
 }
-constexpr bool& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_lastIsOn() {
+constexpr bool& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_get_lastIsOn() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastIsOn;
 }
-constexpr bool const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_lastIsOn() const {
+constexpr bool const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_get_lastIsOn() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___lastIsOn;
 }
-constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__set_lastIsOn(bool value) {
+constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_set_lastIsOn(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___lastIsOn = value;
 }
-constexpr ::GlobalNamespace::BasicBeatmapEventData*& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_originalBasicBeatmapEventData() {
+constexpr ::GlobalNamespace::BasicBeatmapEventData*& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_get_originalBasicBeatmapEventData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___originalBasicBeatmapEventData;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BasicBeatmapEventData*> const&
-GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get_originalBasicBeatmapEventData() const {
+GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_get_originalBasicBeatmapEventData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___originalBasicBeatmapEventData;
 }
-constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__set_originalBasicBeatmapEventData(::GlobalNamespace::BasicBeatmapEventData* value) {
+constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_set_originalBasicBeatmapEventData(::GlobalNamespace::BasicBeatmapEventData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___originalBasicBeatmapEventData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get__foundFirstColoredEventData() {
+constexpr bool& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_get__foundFirstColoredEventData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____foundFirstColoredEventData;
 }
-constexpr bool const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__get__foundFirstColoredEventData() const {
+constexpr bool const& GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_get__foundFirstColoredEventData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____foundFirstColoredEventData;
 }
-constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__set__foundFirstColoredEventData(bool value) {
+constexpr void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::__cordl_internal_set__foundFirstColoredEventData(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____foundFirstColoredEventData = value;
 }
 inline void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::StartPotentialStrobe(::GlobalNamespace::BasicBeatmapEventData* startBasicBeatmapEventData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData*>::get(), "StartPotentialStrobe", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData*>::get(), "StartPotentialStrobe",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, startBasicBeatmapEventData);
 }
 inline void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::AddStrobeData(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData*>::get(), "AddStrobeData", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData*>::get(), "AddStrobeData",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BasicBeatmapEventData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, basicBeatmapEventData);
 }
 inline ::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData* GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData*>());
 }
 inline void GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataStrobeFilterTransform__StrobeStreakData*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -181,11 +181,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0xc38;
   constexpr static std::size_t addrs = 0x223ac28;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataStrobeFilterTransform*>::get(), "CreateTransformedData", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyBeatmapData*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentIntensityReductionOptions*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataStrobeFilterTransform*>::get(), "CreateTransformedData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyBeatmapData*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentIntensityReductionOptions*>::get() })));
     return ___internal_method;
   }
 };
@@ -197,10 +197,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x223b8fc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataStrobeFilterTransform*>::get(), "GetOnEventDataValue", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentColorType>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataStrobeFilterTransform*>::get(), "GetOnEventDataValue", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentColorType>::get() })));
     return ___internal_method;
   }
 };
@@ -212,10 +212,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x223b920;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataStrobeFilterTransform*>::get(), "GetFlashAndFadeToBlackEventDataValue", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentColorType>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataStrobeFilterTransform*>::get(), "GetFlashAndFadeToBlackEventDataValue",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentColorType>::get() })));
     return ___internal_method;
   }
 };
@@ -223,21 +223,21 @@ inline ::GlobalNamespace::IReadonlyBeatmapData*
 GlobalNamespace::BeatmapDataStrobeFilterTransform::CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData,
                                                                          ::GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataStrobeFilterTransform*>::get(), "CreateTransformedData", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyBeatmapData*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentIntensityReductionOptions*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataStrobeFilterTransform*>::get(), "CreateTransformedData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyBeatmapData*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentIntensityReductionOptions*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IReadonlyBeatmapData*, false>(nullptr, ___internal_method, beatmapData, environmentIntensityReductionOptions);
 }
 inline int32_t GlobalNamespace::BeatmapDataStrobeFilterTransform::GetOnEventDataValue(::GlobalNamespace::EnvironmentColorType lightColorType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataStrobeFilterTransform*>::get(), "GetOnEventDataValue", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentColorType>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataStrobeFilterTransform*>::get(), "GetOnEventDataValue", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentColorType>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, lightColorType);
 }
 inline int32_t GlobalNamespace::BeatmapDataStrobeFilterTransform::GetFlashAndFadeToBlackEventDataValue(::GlobalNamespace::EnvironmentColorType lightColorType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataStrobeFilterTransform*>::get(), "GetFlashAndFadeToBlackEventDataValue", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentColorType>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataStrobeFilterTransform*>::get(), "GetFlashAndFadeToBlackEventDataValue",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentColorType>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, lightColorType);
 }
 // Ctor Parameters []

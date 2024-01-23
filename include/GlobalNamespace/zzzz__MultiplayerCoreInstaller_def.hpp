@@ -26,47 +26,50 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerCoreInstaller);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5398))
 // CS Name: ::MultiplayerCoreInstaller*
 class CORDL_TYPE MultiplayerCoreInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
   /// @brief Field _scoreSyncStateManagerPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__scoreSyncStateManagerPrefab, put = __set__scoreSyncStateManagerPrefab))::GlobalNamespace::ScoreSyncStateManager* _scoreSyncStateManagerPrefab;
+  __declspec(property(get = __cordl_internal_get__scoreSyncStateManagerPrefab,
+                      put = __cordl_internal_set__scoreSyncStateManagerPrefab))::UnityW<::GlobalNamespace::ScoreSyncStateManager> _scoreSyncStateManagerPrefab;
 
   /// @brief Field _multiplayerBadgesModel, offset 0x28, size 0x8
-  __declspec(property(get = __get__multiplayerBadgesModel, put = __set__multiplayerBadgesModel))::GlobalNamespace::MultiplayerBadgesModelSO* _multiplayerBadgesModel;
+  __declspec(property(get = __cordl_internal_get__multiplayerBadgesModel,
+                      put = __cordl_internal_set__multiplayerBadgesModel))::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> _multiplayerBadgesModel;
 
   /// @brief Field _sceneSetupData, offset 0x30, size 0x8
-  __declspec(property(get = __get__sceneSetupData, put = __set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
+  __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData))::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
   /// @brief Field _multiplayerSessionManager, offset 0x38, size 0x8
-  __declspec(property(get = __get__multiplayerSessionManager, put = __set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
+                      put = __cordl_internal_set__multiplayerSessionManager))::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
 
-  constexpr ::GlobalNamespace::ScoreSyncStateManager*& __get__scoreSyncStateManagerPrefab();
+  constexpr ::UnityW<::GlobalNamespace::ScoreSyncStateManager>& __cordl_internal_get__scoreSyncStateManagerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScoreSyncStateManager*> const& __get__scoreSyncStateManagerPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::ScoreSyncStateManager> const& __cordl_internal_get__scoreSyncStateManagerPrefab() const;
 
-  constexpr void __set__scoreSyncStateManagerPrefab(::GlobalNamespace::ScoreSyncStateManager* value);
+  constexpr void __cordl_internal_set__scoreSyncStateManagerPrefab(::UnityW<::GlobalNamespace::ScoreSyncStateManager> value);
 
-  constexpr ::GlobalNamespace::MultiplayerBadgesModelSO*& __get__multiplayerBadgesModel();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO>& __cordl_internal_get__multiplayerBadgesModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerBadgesModelSO*> const& __get__multiplayerBadgesModel() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> const& __cordl_internal_get__multiplayerBadgesModel() const;
 
-  constexpr void __set__multiplayerBadgesModel(::GlobalNamespace::MultiplayerBadgesModelSO* value);
+  constexpr void __cordl_internal_set__multiplayerBadgesModel(::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> value);
 
-  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __get__sceneSetupData();
+  constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __get__sceneSetupData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayCoreSceneSetupData*> const& __cordl_internal_get__sceneSetupData() const;
 
-  constexpr void __set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
+  constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __get__multiplayerSessionManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IMultiplayerSessionManager*> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr void __set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
   /// @brief Method InstallBindings, addr 0x22725cc, size 0x61c, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -91,10 +94,10 @@ protected:
 
 public:
   /// @brief Field _scoreSyncStateManagerPrefab, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::ScoreSyncStateManager* ____scoreSyncStateManagerPrefab;
+  ::UnityW<::GlobalNamespace::ScoreSyncStateManager> ____scoreSyncStateManagerPrefab;
 
   /// @brief Field _multiplayerBadgesModel, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerBadgesModelSO* ____multiplayerBadgesModel;
+  ::UnityW<::GlobalNamespace::MultiplayerBadgesModelSO> ____multiplayerBadgesModel;
 
   /// @brief Field _sceneSetupData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;

@@ -22,51 +22,51 @@ MARK_REF_PTR_T(::HMUI::UIKeyboardKey);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10058)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13540))
 // CS Name: ::HMUI::UIKeyboardKey*
 class CORDL_TYPE UIKeyboardKey : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _keyCode, offset 0x18, size 0x4
-  __declspec(property(get = __get__keyCode, put = __set__keyCode))::UnityEngine::KeyCode _keyCode;
+  __declspec(property(get = __cordl_internal_get__keyCode, put = __cordl_internal_set__keyCode))::UnityEngine::KeyCode _keyCode;
 
   /// @brief Field _text, offset 0x20, size 0x8
-  __declspec(property(get = __get__text, put = __set__text))::TMPro::TextMeshProUGUI* _text;
+  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
 
   /// @brief Field _overrideText, offset 0x28, size 0x8
-  __declspec(property(get = __get__overrideText, put = __set__overrideText))::StringW _overrideText;
+  __declspec(property(get = __cordl_internal_get__overrideText, put = __cordl_internal_set__overrideText))::StringW _overrideText;
 
   /// @brief Field _canBeUppercase, offset 0x30, size 0x1
-  __declspec(property(get = __get__canBeUppercase, put = __set__canBeUppercase)) bool _canBeUppercase;
+  __declspec(property(get = __cordl_internal_get__canBeUppercase, put = __cordl_internal_set__canBeUppercase)) bool _canBeUppercase;
 
   __declspec(property(get = get_keyCode))::UnityEngine::KeyCode keyCode;
 
   __declspec(property(get = get_canBeUppercase)) bool canBeUppercase;
 
-  constexpr ::UnityEngine::KeyCode& __get__keyCode();
+  constexpr ::UnityEngine::KeyCode& __cordl_internal_get__keyCode();
 
-  constexpr ::UnityEngine::KeyCode const& __get__keyCode() const;
+  constexpr ::UnityEngine::KeyCode const& __cordl_internal_get__keyCode() const;
 
-  constexpr void __set__keyCode(::UnityEngine::KeyCode value);
+  constexpr void __cordl_internal_set__keyCode(::UnityEngine::KeyCode value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__text();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__text() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr void __set__text(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::StringW& __get__overrideText();
+  constexpr ::StringW& __cordl_internal_get__overrideText();
 
-  constexpr ::StringW const& __get__overrideText() const;
+  constexpr ::StringW const& __cordl_internal_get__overrideText() const;
 
-  constexpr void __set__overrideText(::StringW value);
+  constexpr void __cordl_internal_set__overrideText(::StringW value);
 
-  constexpr bool& __get__canBeUppercase();
+  constexpr bool& __cordl_internal_get__canBeUppercase();
 
-  constexpr bool const& __get__canBeUppercase() const;
+  constexpr bool const& __cordl_internal_get__canBeUppercase() const;
 
-  constexpr void __set__canBeUppercase(bool value);
+  constexpr void __cordl_internal_set__canBeUppercase(bool value);
 
   /// @brief Method get_keyCode, addr 0x211e540, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::KeyCode get_keyCode();
@@ -103,7 +103,7 @@ public:
   ::UnityEngine::KeyCode ____keyCode;
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____text;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
 
   /// @brief Field _overrideText, offset: 0x28, size: 0x8, def value: None
   ::StringW ____overrideText;

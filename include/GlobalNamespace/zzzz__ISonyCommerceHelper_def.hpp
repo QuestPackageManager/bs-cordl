@@ -52,7 +52,7 @@ MARK_VAL_T(::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlemen
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4140))
 // CS Name: ::ISonyCommerceHelper::DisplayProductBrowseDialogResult
 struct CORDL_TYPE __ISonyCommerceHelper__DisplayProductBrowseDialogResult {
@@ -102,7 +102,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__DisplayProductB
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4141))
 // CS Name: ::ISonyCommerceHelper::DisplayCategoryBrowseDialogResult
 struct CORDL_TYPE __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult {
@@ -152,7 +152,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__DisplayCategory
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4142))
 // CS Name: ::ISonyCommerceHelper::GetAdditionalContentEntitlementsResult
 struct CORDL_TYPE __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult {
@@ -202,7 +202,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalCo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4142))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4142))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4143))
 // CS Name: ::ISonyCommerceHelper::AdditionalContentEntitlementsAsyncResult
 struct CORDL_TYPE __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult {
@@ -240,7 +240,7 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__AdditionalConte
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4144))
 // CS Name: ::ISonyCommerceHelper*
 class CORDL_TYPE ISonyCommerceHelper {

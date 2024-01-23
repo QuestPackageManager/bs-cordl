@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::StandaloneInputModule);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13204))
 // CS Name: ::StandaloneInputModule::InputMode
 struct CORDL_TYPE __StandaloneInputModule__InputMode {
@@ -88,7 +88,7 @@ static_assert(offsetof(::UnityEngine::EventSystems::__StandaloneInputModule__Inp
 // SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 185, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13203)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13203))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13205))
 // CS Name: ::UnityEngine.EventSystems::StandaloneInputModule*
 class CORDL_TYPE StandaloneInputModule : public ::UnityEngine::EventSystems::PointerInputModule {
@@ -97,46 +97,46 @@ public:
   using InputMode = ::UnityEngine::EventSystems::__StandaloneInputModule__InputMode;
 
   /// @brief Field m_PrevActionTime, offset 0x60, size 0x4
-  __declspec(property(get = __get_m_PrevActionTime, put = __set_m_PrevActionTime)) float_t m_PrevActionTime;
+  __declspec(property(get = __cordl_internal_get_m_PrevActionTime, put = __cordl_internal_set_m_PrevActionTime)) float_t m_PrevActionTime;
 
   /// @brief Field m_LastMoveVector, offset 0x64, size 0x8
-  __declspec(property(get = __get_m_LastMoveVector, put = __set_m_LastMoveVector))::UnityEngine::Vector2 m_LastMoveVector;
+  __declspec(property(get = __cordl_internal_get_m_LastMoveVector, put = __cordl_internal_set_m_LastMoveVector))::UnityEngine::Vector2 m_LastMoveVector;
 
   /// @brief Field m_ConsecutiveMoveCount, offset 0x6c, size 0x4
-  __declspec(property(get = __get_m_ConsecutiveMoveCount, put = __set_m_ConsecutiveMoveCount)) int32_t m_ConsecutiveMoveCount;
+  __declspec(property(get = __cordl_internal_get_m_ConsecutiveMoveCount, put = __cordl_internal_set_m_ConsecutiveMoveCount)) int32_t m_ConsecutiveMoveCount;
 
   /// @brief Field m_LastMousePosition, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_LastMousePosition, put = __set_m_LastMousePosition))::UnityEngine::Vector2 m_LastMousePosition;
+  __declspec(property(get = __cordl_internal_get_m_LastMousePosition, put = __cordl_internal_set_m_LastMousePosition))::UnityEngine::Vector2 m_LastMousePosition;
 
   /// @brief Field m_MousePosition, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_MousePosition, put = __set_m_MousePosition))::UnityEngine::Vector2 m_MousePosition;
+  __declspec(property(get = __cordl_internal_get_m_MousePosition, put = __cordl_internal_set_m_MousePosition))::UnityEngine::Vector2 m_MousePosition;
 
   /// @brief Field m_CurrentFocusedGameObject, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_CurrentFocusedGameObject, put = __set_m_CurrentFocusedGameObject))::UnityEngine::GameObject* m_CurrentFocusedGameObject;
+  __declspec(property(get = __cordl_internal_get_m_CurrentFocusedGameObject, put = __cordl_internal_set_m_CurrentFocusedGameObject))::UnityW<::UnityEngine::GameObject> m_CurrentFocusedGameObject;
 
   /// @brief Field m_InputPointerEvent, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_InputPointerEvent, put = __set_m_InputPointerEvent))::UnityEngine::EventSystems::PointerEventData* m_InputPointerEvent;
+  __declspec(property(get = __cordl_internal_get_m_InputPointerEvent, put = __cordl_internal_set_m_InputPointerEvent))::UnityEngine::EventSystems::PointerEventData* m_InputPointerEvent;
 
   /// @brief Field m_HorizontalAxis, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_HorizontalAxis, put = __set_m_HorizontalAxis))::StringW m_HorizontalAxis;
+  __declspec(property(get = __cordl_internal_get_m_HorizontalAxis, put = __cordl_internal_set_m_HorizontalAxis))::StringW m_HorizontalAxis;
 
   /// @brief Field m_VerticalAxis, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_VerticalAxis, put = __set_m_VerticalAxis))::StringW m_VerticalAxis;
+  __declspec(property(get = __cordl_internal_get_m_VerticalAxis, put = __cordl_internal_set_m_VerticalAxis))::StringW m_VerticalAxis;
 
   /// @brief Field m_SubmitButton, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_SubmitButton, put = __set_m_SubmitButton))::StringW m_SubmitButton;
+  __declspec(property(get = __cordl_internal_get_m_SubmitButton, put = __cordl_internal_set_m_SubmitButton))::StringW m_SubmitButton;
 
   /// @brief Field m_CancelButton, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_CancelButton, put = __set_m_CancelButton))::StringW m_CancelButton;
+  __declspec(property(get = __cordl_internal_get_m_CancelButton, put = __cordl_internal_set_m_CancelButton))::StringW m_CancelButton;
 
   /// @brief Field m_InputActionsPerSecond, offset 0xb0, size 0x4
-  __declspec(property(get = __get_m_InputActionsPerSecond, put = __set_m_InputActionsPerSecond)) float_t m_InputActionsPerSecond;
+  __declspec(property(get = __cordl_internal_get_m_InputActionsPerSecond, put = __cordl_internal_set_m_InputActionsPerSecond)) float_t m_InputActionsPerSecond;
 
   /// @brief Field m_RepeatDelay, offset 0xb4, size 0x4
-  __declspec(property(get = __get_m_RepeatDelay, put = __set_m_RepeatDelay)) float_t m_RepeatDelay;
+  __declspec(property(get = __cordl_internal_get_m_RepeatDelay, put = __cordl_internal_set_m_RepeatDelay)) float_t m_RepeatDelay;
 
   /// @brief Field m_ForceModuleActive, offset 0xb8, size 0x1
-  __declspec(property(get = __get_m_ForceModuleActive, put = __set_m_ForceModuleActive)) bool m_ForceModuleActive;
+  __declspec(property(get = __cordl_internal_get_m_ForceModuleActive, put = __cordl_internal_set_m_ForceModuleActive)) bool m_ForceModuleActive;
 
   __declspec(property(get = get_inputMode))::UnityEngine::EventSystems::__StandaloneInputModule__InputMode inputMode;
 
@@ -156,89 +156,89 @@ public:
 
   __declspec(property(get = get_cancelButton, put = set_cancelButton))::StringW cancelButton;
 
-  constexpr float_t& __get_m_PrevActionTime();
+  constexpr float_t& __cordl_internal_get_m_PrevActionTime();
 
-  constexpr float_t const& __get_m_PrevActionTime() const;
+  constexpr float_t const& __cordl_internal_get_m_PrevActionTime() const;
 
-  constexpr void __set_m_PrevActionTime(float_t value);
+  constexpr void __cordl_internal_set_m_PrevActionTime(float_t value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_LastMoveVector();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_LastMoveVector();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_LastMoveVector() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_LastMoveVector() const;
 
-  constexpr void __set_m_LastMoveVector(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_LastMoveVector(::UnityEngine::Vector2 value);
 
-  constexpr int32_t& __get_m_ConsecutiveMoveCount();
+  constexpr int32_t& __cordl_internal_get_m_ConsecutiveMoveCount();
 
-  constexpr int32_t const& __get_m_ConsecutiveMoveCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_ConsecutiveMoveCount() const;
 
-  constexpr void __set_m_ConsecutiveMoveCount(int32_t value);
+  constexpr void __cordl_internal_set_m_ConsecutiveMoveCount(int32_t value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_LastMousePosition();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_LastMousePosition();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_LastMousePosition() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_LastMousePosition() const;
 
-  constexpr void __set_m_LastMousePosition(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_LastMousePosition(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_MousePosition();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_MousePosition();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_MousePosition() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_MousePosition() const;
 
-  constexpr void __set_m_MousePosition(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_MousePosition(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_CurrentFocusedGameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_CurrentFocusedGameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_CurrentFocusedGameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_CurrentFocusedGameObject() const;
 
-  constexpr void __set_m_CurrentFocusedGameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_CurrentFocusedGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::EventSystems::PointerEventData*& __get_m_InputPointerEvent();
+  constexpr ::UnityEngine::EventSystems::PointerEventData*& __cordl_internal_get_m_InputPointerEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& __get_m_InputPointerEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::PointerEventData*> const& __cordl_internal_get_m_InputPointerEvent() const;
 
-  constexpr void __set_m_InputPointerEvent(::UnityEngine::EventSystems::PointerEventData* value);
+  constexpr void __cordl_internal_set_m_InputPointerEvent(::UnityEngine::EventSystems::PointerEventData* value);
 
-  constexpr ::StringW& __get_m_HorizontalAxis();
+  constexpr ::StringW& __cordl_internal_get_m_HorizontalAxis();
 
-  constexpr ::StringW const& __get_m_HorizontalAxis() const;
+  constexpr ::StringW const& __cordl_internal_get_m_HorizontalAxis() const;
 
-  constexpr void __set_m_HorizontalAxis(::StringW value);
+  constexpr void __cordl_internal_set_m_HorizontalAxis(::StringW value);
 
-  constexpr ::StringW& __get_m_VerticalAxis();
+  constexpr ::StringW& __cordl_internal_get_m_VerticalAxis();
 
-  constexpr ::StringW const& __get_m_VerticalAxis() const;
+  constexpr ::StringW const& __cordl_internal_get_m_VerticalAxis() const;
 
-  constexpr void __set_m_VerticalAxis(::StringW value);
+  constexpr void __cordl_internal_set_m_VerticalAxis(::StringW value);
 
-  constexpr ::StringW& __get_m_SubmitButton();
+  constexpr ::StringW& __cordl_internal_get_m_SubmitButton();
 
-  constexpr ::StringW const& __get_m_SubmitButton() const;
+  constexpr ::StringW const& __cordl_internal_get_m_SubmitButton() const;
 
-  constexpr void __set_m_SubmitButton(::StringW value);
+  constexpr void __cordl_internal_set_m_SubmitButton(::StringW value);
 
-  constexpr ::StringW& __get_m_CancelButton();
+  constexpr ::StringW& __cordl_internal_get_m_CancelButton();
 
-  constexpr ::StringW const& __get_m_CancelButton() const;
+  constexpr ::StringW const& __cordl_internal_get_m_CancelButton() const;
 
-  constexpr void __set_m_CancelButton(::StringW value);
+  constexpr void __cordl_internal_set_m_CancelButton(::StringW value);
 
-  constexpr float_t& __get_m_InputActionsPerSecond();
+  constexpr float_t& __cordl_internal_get_m_InputActionsPerSecond();
 
-  constexpr float_t const& __get_m_InputActionsPerSecond() const;
+  constexpr float_t const& __cordl_internal_get_m_InputActionsPerSecond() const;
 
-  constexpr void __set_m_InputActionsPerSecond(float_t value);
+  constexpr void __cordl_internal_set_m_InputActionsPerSecond(float_t value);
 
-  constexpr float_t& __get_m_RepeatDelay();
+  constexpr float_t& __cordl_internal_get_m_RepeatDelay();
 
-  constexpr float_t const& __get_m_RepeatDelay() const;
+  constexpr float_t const& __cordl_internal_get_m_RepeatDelay() const;
 
-  constexpr void __set_m_RepeatDelay(float_t value);
+  constexpr void __cordl_internal_set_m_RepeatDelay(float_t value);
 
-  constexpr bool& __get_m_ForceModuleActive();
+  constexpr bool& __cordl_internal_get_m_ForceModuleActive();
 
-  constexpr bool const& __get_m_ForceModuleActive() const;
+  constexpr bool const& __cordl_internal_get_m_ForceModuleActive() const;
 
-  constexpr void __set_m_ForceModuleActive(bool value);
+  constexpr void __cordl_internal_set_m_ForceModuleActive(bool value);
 
   static inline ::UnityEngine::EventSystems::StandaloneInputModule* New_ctor();
 
@@ -348,7 +348,7 @@ public:
   inline void ProcessMousePress(::UnityEngine::EventSystems::__PointerInputModule__MouseButtonEventData* data);
 
   /// @brief Method GetCurrentFocusedGameObject, addr 0x2d9efe4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* GetCurrentFocusedGameObject();
+  inline ::UnityW<::UnityEngine::GameObject> GetCurrentFocusedGameObject();
 
   // Ctor Parameters [CppParam { name: "", ty: "StandaloneInputModule", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -380,7 +380,7 @@ public:
   ::UnityEngine::Vector2 ___m_MousePosition;
 
   /// @brief Field m_CurrentFocusedGameObject, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_CurrentFocusedGameObject;
+  ::UnityW<::UnityEngine::GameObject> ___m_CurrentFocusedGameObject;
 
   /// @brief Field m_InputPointerEvent, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::EventSystems::PointerEventData* ___m_InputPointerEvent;

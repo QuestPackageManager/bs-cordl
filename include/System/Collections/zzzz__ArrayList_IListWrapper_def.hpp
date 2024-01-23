@@ -37,14 +37,14 @@ MARK_REF_PTR_T(::System::Collections::__ArrayList__IListWrapper);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3791))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3791))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3787))
 // CS Name: ::ArrayList::IListWrapper*
 class CORDL_TYPE __ArrayList__IListWrapper : public ::System::Collections::ArrayList {
 public:
   // Declarations
   /// @brief Field _list, offset 0x28, size 0x8
-  __declspec(property(get = __get__list, put = __set__list))::System::Collections::IList* _list;
+  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::IList* _list;
 
   __declspec(property(put = set_Capacity)) int32_t Capacity;
 
@@ -60,11 +60,11 @@ public:
 
   __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
 
-  constexpr ::System::Collections::IList*& __get__list();
+  constexpr ::System::Collections::IList*& __cordl_internal_get__list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get__list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__list() const;
 
-  constexpr void __set__list(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set__list(::System::Collections::IList* value);
 
   static inline ::System::Collections::__ArrayList__IListWrapper* New_ctor(::System::Collections::IList* list);
 

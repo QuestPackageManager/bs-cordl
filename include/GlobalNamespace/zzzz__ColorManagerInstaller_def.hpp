@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorManagerInstaller);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5389))
 // CS Name: ::ColorManagerInstaller*
 class CORDL_TYPE ColorManagerInstaller : public ::Zenject::MonoInstaller {
 public:
   // Declarations
   /// @brief Field _menuColorScheme, offset 0x20, size 0x8
-  __declspec(property(get = __get__menuColorScheme, put = __set__menuColorScheme))::GlobalNamespace::ColorSchemeSO* _menuColorScheme;
+  __declspec(property(get = __cordl_internal_get__menuColorScheme, put = __cordl_internal_set__menuColorScheme))::UnityW<::GlobalNamespace::ColorSchemeSO> _menuColorScheme;
 
-  constexpr ::GlobalNamespace::ColorSchemeSO*& __get__menuColorScheme();
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO>& __cordl_internal_get__menuColorScheme();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeSO*> const& __get__menuColorScheme() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO> const& __cordl_internal_get__menuColorScheme() const;
 
-  constexpr void __set__menuColorScheme(::GlobalNamespace::ColorSchemeSO* value);
+  constexpr void __cordl_internal_set__menuColorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
 
   /// @brief Method InstallBindings, addr 0x226f59c, size 0xb8, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -55,7 +55,7 @@ protected:
 
 public:
   /// @brief Field _menuColorScheme, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSchemeSO* ____menuColorScheme;
+  ::UnityW<::GlobalNamespace::ColorSchemeSO> ____menuColorScheme;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -46,20 +46,20 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__AimController___TurnToTarget_d__33);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12629))
 // CS Name: ::AimController::<TurnToTarget>d__33*
 class CORDL_TYPE __AimController___TurnToTarget_d__33 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::RootMotion::FinalIK::AimController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::RootMotion::FinalIK::AimController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -83,23 +83,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::RootMotion::FinalIK::AimController*& __get___4__this();
+  constexpr ::UnityW<::RootMotion::FinalIK::AimController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::AimController*> const& __get___4__this() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::AimController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::RootMotion::FinalIK::AimController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::RootMotion::FinalIK::AimController> value);
 
   static inline ::RootMotion::FinalIK::__AimController___TurnToTarget_d__33* New_ctor(int32_t __1__state);
 
@@ -142,7 +142,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::RootMotion::FinalIK::AimController* _____4__this;
+  ::UnityW<::RootMotion::FinalIK::AimController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -160,7 +160,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__AimController___TurnToTarget_d__
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12630))
 // CS Name: ::RootMotion.FinalIK::AimController*
 class CORDL_TYPE AimController : public ::UnityEngine::MonoBehaviour {
@@ -169,249 +169,249 @@ public:
   using _TurnToTarget_d__33 = ::RootMotion::FinalIK::__AimController___TurnToTarget_d__33;
 
   /// @brief Field ik, offset 0x18, size 0x8
-  __declspec(property(get = __get_ik, put = __set_ik))::RootMotion::FinalIK::AimIK* ik;
+  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::AimIK> ik;
 
   /// @brief Field weight, offset 0x20, size 0x4
-  __declspec(property(get = __get_weight, put = __set_weight)) float_t weight;
+  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
   /// @brief Field target, offset 0x28, size 0x8
-  __declspec(property(get = __get_target, put = __set_target))::UnityEngine::Transform* target;
+  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::UnityW<::UnityEngine::Transform> target;
 
   /// @brief Field targetSwitchSmoothTime, offset 0x30, size 0x4
-  __declspec(property(get = __get_targetSwitchSmoothTime, put = __set_targetSwitchSmoothTime)) float_t targetSwitchSmoothTime;
+  __declspec(property(get = __cordl_internal_get_targetSwitchSmoothTime, put = __cordl_internal_set_targetSwitchSmoothTime)) float_t targetSwitchSmoothTime;
 
   /// @brief Field weightSmoothTime, offset 0x34, size 0x4
-  __declspec(property(get = __get_weightSmoothTime, put = __set_weightSmoothTime)) float_t weightSmoothTime;
+  __declspec(property(get = __cordl_internal_get_weightSmoothTime, put = __cordl_internal_set_weightSmoothTime)) float_t weightSmoothTime;
 
   /// @brief Field smoothTurnTowardsTarget, offset 0x38, size 0x1
-  __declspec(property(get = __get_smoothTurnTowardsTarget, put = __set_smoothTurnTowardsTarget)) bool smoothTurnTowardsTarget;
+  __declspec(property(get = __cordl_internal_get_smoothTurnTowardsTarget, put = __cordl_internal_set_smoothTurnTowardsTarget)) bool smoothTurnTowardsTarget;
 
   /// @brief Field maxRadiansDelta, offset 0x3c, size 0x4
-  __declspec(property(get = __get_maxRadiansDelta, put = __set_maxRadiansDelta)) float_t maxRadiansDelta;
+  __declspec(property(get = __cordl_internal_get_maxRadiansDelta, put = __cordl_internal_set_maxRadiansDelta)) float_t maxRadiansDelta;
 
   /// @brief Field maxMagnitudeDelta, offset 0x40, size 0x4
-  __declspec(property(get = __get_maxMagnitudeDelta, put = __set_maxMagnitudeDelta)) float_t maxMagnitudeDelta;
+  __declspec(property(get = __cordl_internal_get_maxMagnitudeDelta, put = __cordl_internal_set_maxMagnitudeDelta)) float_t maxMagnitudeDelta;
 
   /// @brief Field slerpSpeed, offset 0x44, size 0x4
-  __declspec(property(get = __get_slerpSpeed, put = __set_slerpSpeed)) float_t slerpSpeed;
+  __declspec(property(get = __cordl_internal_get_slerpSpeed, put = __cordl_internal_set_slerpSpeed)) float_t slerpSpeed;
 
   /// @brief Field pivotOffsetFromRoot, offset 0x48, size 0xc
-  __declspec(property(get = __get_pivotOffsetFromRoot, put = __set_pivotOffsetFromRoot))::UnityEngine::Vector3 pivotOffsetFromRoot;
+  __declspec(property(get = __cordl_internal_get_pivotOffsetFromRoot, put = __cordl_internal_set_pivotOffsetFromRoot))::UnityEngine::Vector3 pivotOffsetFromRoot;
 
   /// @brief Field minDistance, offset 0x54, size 0x4
-  __declspec(property(get = __get_minDistance, put = __set_minDistance)) float_t minDistance;
+  __declspec(property(get = __cordl_internal_get_minDistance, put = __cordl_internal_set_minDistance)) float_t minDistance;
 
   /// @brief Field offset, offset 0x58, size 0xc
-  __declspec(property(get = __get_offset, put = __set_offset))::UnityEngine::Vector3 offset;
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset))::UnityEngine::Vector3 offset;
 
   /// @brief Field maxRootAngle, offset 0x64, size 0x4
-  __declspec(property(get = __get_maxRootAngle, put = __set_maxRootAngle)) float_t maxRootAngle;
+  __declspec(property(get = __cordl_internal_get_maxRootAngle, put = __cordl_internal_set_maxRootAngle)) float_t maxRootAngle;
 
   /// @brief Field turnToTarget, offset 0x68, size 0x1
-  __declspec(property(get = __get_turnToTarget, put = __set_turnToTarget)) bool turnToTarget;
+  __declspec(property(get = __cordl_internal_get_turnToTarget, put = __cordl_internal_set_turnToTarget)) bool turnToTarget;
 
   /// @brief Field turnToTargetTime, offset 0x6c, size 0x4
-  __declspec(property(get = __get_turnToTargetTime, put = __set_turnToTargetTime)) float_t turnToTargetTime;
+  __declspec(property(get = __cordl_internal_get_turnToTargetTime, put = __cordl_internal_set_turnToTargetTime)) float_t turnToTargetTime;
 
   /// @brief Field useAnimatedAimDirection, offset 0x70, size 0x1
-  __declspec(property(get = __get_useAnimatedAimDirection, put = __set_useAnimatedAimDirection)) bool useAnimatedAimDirection;
+  __declspec(property(get = __cordl_internal_get_useAnimatedAimDirection, put = __cordl_internal_set_useAnimatedAimDirection)) bool useAnimatedAimDirection;
 
   /// @brief Field animatedAimDirection, offset 0x74, size 0xc
-  __declspec(property(get = __get_animatedAimDirection, put = __set_animatedAimDirection))::UnityEngine::Vector3 animatedAimDirection;
+  __declspec(property(get = __cordl_internal_get_animatedAimDirection, put = __cordl_internal_set_animatedAimDirection))::UnityEngine::Vector3 animatedAimDirection;
 
   /// @brief Field lastTarget, offset 0x80, size 0x8
-  __declspec(property(get = __get_lastTarget, put = __set_lastTarget))::UnityEngine::Transform* lastTarget;
+  __declspec(property(get = __cordl_internal_get_lastTarget, put = __cordl_internal_set_lastTarget))::UnityW<::UnityEngine::Transform> lastTarget;
 
   /// @brief Field switchWeight, offset 0x88, size 0x4
-  __declspec(property(get = __get_switchWeight, put = __set_switchWeight)) float_t switchWeight;
+  __declspec(property(get = __cordl_internal_get_switchWeight, put = __cordl_internal_set_switchWeight)) float_t switchWeight;
 
   /// @brief Field switchWeightV, offset 0x8c, size 0x4
-  __declspec(property(get = __get_switchWeightV, put = __set_switchWeightV)) float_t switchWeightV;
+  __declspec(property(get = __cordl_internal_get_switchWeightV, put = __cordl_internal_set_switchWeightV)) float_t switchWeightV;
 
   /// @brief Field weightV, offset 0x90, size 0x4
-  __declspec(property(get = __get_weightV, put = __set_weightV)) float_t weightV;
+  __declspec(property(get = __cordl_internal_get_weightV, put = __cordl_internal_set_weightV)) float_t weightV;
 
   /// @brief Field lastPosition, offset 0x94, size 0xc
-  __declspec(property(get = __get_lastPosition, put = __set_lastPosition))::UnityEngine::Vector3 lastPosition;
+  __declspec(property(get = __cordl_internal_get_lastPosition, put = __cordl_internal_set_lastPosition))::UnityEngine::Vector3 lastPosition;
 
   /// @brief Field dir, offset 0xa0, size 0xc
-  __declspec(property(get = __get_dir, put = __set_dir))::UnityEngine::Vector3 dir;
+  __declspec(property(get = __cordl_internal_get_dir, put = __cordl_internal_set_dir))::UnityEngine::Vector3 dir;
 
   /// @brief Field lastSmoothTowardsTarget, offset 0xac, size 0x1
-  __declspec(property(get = __get_lastSmoothTowardsTarget, put = __set_lastSmoothTowardsTarget)) bool lastSmoothTowardsTarget;
+  __declspec(property(get = __cordl_internal_get_lastSmoothTowardsTarget, put = __cordl_internal_set_lastSmoothTowardsTarget)) bool lastSmoothTowardsTarget;
 
   /// @brief Field turningToTarget, offset 0xad, size 0x1
-  __declspec(property(get = __get_turningToTarget, put = __set_turningToTarget)) bool turningToTarget;
+  __declspec(property(get = __cordl_internal_get_turningToTarget, put = __cordl_internal_set_turningToTarget)) bool turningToTarget;
 
   /// @brief Field turnToTargetMlp, offset 0xb0, size 0x4
-  __declspec(property(get = __get_turnToTargetMlp, put = __set_turnToTargetMlp)) float_t turnToTargetMlp;
+  __declspec(property(get = __cordl_internal_get_turnToTargetMlp, put = __cordl_internal_set_turnToTargetMlp)) float_t turnToTargetMlp;
 
   /// @brief Field turnToTargetMlpV, offset 0xb4, size 0x4
-  __declspec(property(get = __get_turnToTargetMlpV, put = __set_turnToTargetMlpV)) float_t turnToTargetMlpV;
+  __declspec(property(get = __cordl_internal_get_turnToTargetMlpV, put = __cordl_internal_set_turnToTargetMlpV)) float_t turnToTargetMlpV;
 
   __declspec(property(get = get_pivot))::UnityEngine::Vector3 pivot;
 
-  constexpr ::RootMotion::FinalIK::AimIK*& __get_ik();
+  constexpr ::UnityW<::RootMotion::FinalIK::AimIK>& __cordl_internal_get_ik();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::AimIK*> const& __get_ik() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::AimIK> const& __cordl_internal_get_ik() const;
 
-  constexpr void __set_ik(::RootMotion::FinalIK::AimIK* value);
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::AimIK> value);
 
-  constexpr float_t& __get_weight();
+  constexpr float_t& __cordl_internal_get_weight();
 
-  constexpr float_t const& __get_weight() const;
+  constexpr float_t const& __cordl_internal_get_weight() const;
 
-  constexpr void __set_weight(float_t value);
+  constexpr void __cordl_internal_set_weight(float_t value);
 
-  constexpr ::UnityEngine::Transform*& __get_target();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_target();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_target() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_target() const;
 
-  constexpr void __set_target(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_target(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get_targetSwitchSmoothTime();
+  constexpr float_t& __cordl_internal_get_targetSwitchSmoothTime();
 
-  constexpr float_t const& __get_targetSwitchSmoothTime() const;
+  constexpr float_t const& __cordl_internal_get_targetSwitchSmoothTime() const;
 
-  constexpr void __set_targetSwitchSmoothTime(float_t value);
+  constexpr void __cordl_internal_set_targetSwitchSmoothTime(float_t value);
 
-  constexpr float_t& __get_weightSmoothTime();
+  constexpr float_t& __cordl_internal_get_weightSmoothTime();
 
-  constexpr float_t const& __get_weightSmoothTime() const;
+  constexpr float_t const& __cordl_internal_get_weightSmoothTime() const;
 
-  constexpr void __set_weightSmoothTime(float_t value);
+  constexpr void __cordl_internal_set_weightSmoothTime(float_t value);
 
-  constexpr bool& __get_smoothTurnTowardsTarget();
+  constexpr bool& __cordl_internal_get_smoothTurnTowardsTarget();
 
-  constexpr bool const& __get_smoothTurnTowardsTarget() const;
+  constexpr bool const& __cordl_internal_get_smoothTurnTowardsTarget() const;
 
-  constexpr void __set_smoothTurnTowardsTarget(bool value);
+  constexpr void __cordl_internal_set_smoothTurnTowardsTarget(bool value);
 
-  constexpr float_t& __get_maxRadiansDelta();
+  constexpr float_t& __cordl_internal_get_maxRadiansDelta();
 
-  constexpr float_t const& __get_maxRadiansDelta() const;
+  constexpr float_t const& __cordl_internal_get_maxRadiansDelta() const;
 
-  constexpr void __set_maxRadiansDelta(float_t value);
+  constexpr void __cordl_internal_set_maxRadiansDelta(float_t value);
 
-  constexpr float_t& __get_maxMagnitudeDelta();
+  constexpr float_t& __cordl_internal_get_maxMagnitudeDelta();
 
-  constexpr float_t const& __get_maxMagnitudeDelta() const;
+  constexpr float_t const& __cordl_internal_get_maxMagnitudeDelta() const;
 
-  constexpr void __set_maxMagnitudeDelta(float_t value);
+  constexpr void __cordl_internal_set_maxMagnitudeDelta(float_t value);
 
-  constexpr float_t& __get_slerpSpeed();
+  constexpr float_t& __cordl_internal_get_slerpSpeed();
 
-  constexpr float_t const& __get_slerpSpeed() const;
+  constexpr float_t const& __cordl_internal_get_slerpSpeed() const;
 
-  constexpr void __set_slerpSpeed(float_t value);
+  constexpr void __cordl_internal_set_slerpSpeed(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get_pivotOffsetFromRoot();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_pivotOffsetFromRoot();
 
-  constexpr ::UnityEngine::Vector3 const& __get_pivotOffsetFromRoot() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_pivotOffsetFromRoot() const;
 
-  constexpr void __set_pivotOffsetFromRoot(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_pivotOffsetFromRoot(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get_minDistance();
+  constexpr float_t& __cordl_internal_get_minDistance();
 
-  constexpr float_t const& __get_minDistance() const;
+  constexpr float_t const& __cordl_internal_get_minDistance() const;
 
-  constexpr void __set_minDistance(float_t value);
+  constexpr void __cordl_internal_set_minDistance(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get_offset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_offset();
 
-  constexpr ::UnityEngine::Vector3 const& __get_offset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_offset() const;
 
-  constexpr void __set_offset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_offset(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get_maxRootAngle();
+  constexpr float_t& __cordl_internal_get_maxRootAngle();
 
-  constexpr float_t const& __get_maxRootAngle() const;
+  constexpr float_t const& __cordl_internal_get_maxRootAngle() const;
 
-  constexpr void __set_maxRootAngle(float_t value);
+  constexpr void __cordl_internal_set_maxRootAngle(float_t value);
 
-  constexpr bool& __get_turnToTarget();
+  constexpr bool& __cordl_internal_get_turnToTarget();
 
-  constexpr bool const& __get_turnToTarget() const;
+  constexpr bool const& __cordl_internal_get_turnToTarget() const;
 
-  constexpr void __set_turnToTarget(bool value);
+  constexpr void __cordl_internal_set_turnToTarget(bool value);
 
-  constexpr float_t& __get_turnToTargetTime();
+  constexpr float_t& __cordl_internal_get_turnToTargetTime();
 
-  constexpr float_t const& __get_turnToTargetTime() const;
+  constexpr float_t const& __cordl_internal_get_turnToTargetTime() const;
 
-  constexpr void __set_turnToTargetTime(float_t value);
+  constexpr void __cordl_internal_set_turnToTargetTime(float_t value);
 
-  constexpr bool& __get_useAnimatedAimDirection();
+  constexpr bool& __cordl_internal_get_useAnimatedAimDirection();
 
-  constexpr bool const& __get_useAnimatedAimDirection() const;
+  constexpr bool const& __cordl_internal_get_useAnimatedAimDirection() const;
 
-  constexpr void __set_useAnimatedAimDirection(bool value);
+  constexpr void __cordl_internal_set_useAnimatedAimDirection(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get_animatedAimDirection();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_animatedAimDirection();
 
-  constexpr ::UnityEngine::Vector3 const& __get_animatedAimDirection() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_animatedAimDirection() const;
 
-  constexpr void __set_animatedAimDirection(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_animatedAimDirection(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Transform*& __get_lastTarget();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_lastTarget();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_lastTarget() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_lastTarget() const;
 
-  constexpr void __set_lastTarget(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_lastTarget(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get_switchWeight();
+  constexpr float_t& __cordl_internal_get_switchWeight();
 
-  constexpr float_t const& __get_switchWeight() const;
+  constexpr float_t const& __cordl_internal_get_switchWeight() const;
 
-  constexpr void __set_switchWeight(float_t value);
+  constexpr void __cordl_internal_set_switchWeight(float_t value);
 
-  constexpr float_t& __get_switchWeightV();
+  constexpr float_t& __cordl_internal_get_switchWeightV();
 
-  constexpr float_t const& __get_switchWeightV() const;
+  constexpr float_t const& __cordl_internal_get_switchWeightV() const;
 
-  constexpr void __set_switchWeightV(float_t value);
+  constexpr void __cordl_internal_set_switchWeightV(float_t value);
 
-  constexpr float_t& __get_weightV();
+  constexpr float_t& __cordl_internal_get_weightV();
 
-  constexpr float_t const& __get_weightV() const;
+  constexpr float_t const& __cordl_internal_get_weightV() const;
 
-  constexpr void __set_weightV(float_t value);
+  constexpr void __cordl_internal_set_weightV(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get_lastPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_lastPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_lastPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastPosition() const;
 
-  constexpr void __set_lastPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_lastPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_dir();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_dir();
 
-  constexpr ::UnityEngine::Vector3 const& __get_dir() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_dir() const;
 
-  constexpr void __set_dir(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_dir(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get_lastSmoothTowardsTarget();
+  constexpr bool& __cordl_internal_get_lastSmoothTowardsTarget();
 
-  constexpr bool const& __get_lastSmoothTowardsTarget() const;
+  constexpr bool const& __cordl_internal_get_lastSmoothTowardsTarget() const;
 
-  constexpr void __set_lastSmoothTowardsTarget(bool value);
+  constexpr void __cordl_internal_set_lastSmoothTowardsTarget(bool value);
 
-  constexpr bool& __get_turningToTarget();
+  constexpr bool& __cordl_internal_get_turningToTarget();
 
-  constexpr bool const& __get_turningToTarget() const;
+  constexpr bool const& __cordl_internal_get_turningToTarget() const;
 
-  constexpr void __set_turningToTarget(bool value);
+  constexpr void __cordl_internal_set_turningToTarget(bool value);
 
-  constexpr float_t& __get_turnToTargetMlp();
+  constexpr float_t& __cordl_internal_get_turnToTargetMlp();
 
-  constexpr float_t const& __get_turnToTargetMlp() const;
+  constexpr float_t const& __cordl_internal_get_turnToTargetMlp() const;
 
-  constexpr void __set_turnToTargetMlp(float_t value);
+  constexpr void __cordl_internal_set_turnToTargetMlp(float_t value);
 
-  constexpr float_t& __get_turnToTargetMlpV();
+  constexpr float_t& __cordl_internal_get_turnToTargetMlpV();
 
-  constexpr float_t const& __get_turnToTargetMlpV() const;
+  constexpr float_t const& __cordl_internal_get_turnToTargetMlpV() const;
 
-  constexpr void __set_turnToTargetMlpV(float_t value);
+  constexpr void __cordl_internal_set_turnToTargetMlpV(float_t value);
 
   /// @brief Method Start, addr 0x1293218, size 0x7c, virtual false, abstract: false, final false
   inline void Start();
@@ -451,13 +451,13 @@ protected:
 
 public:
   /// @brief Field ik, offset: 0x18, size: 0x8, def value: None
-  ::RootMotion::FinalIK::AimIK* ___ik;
+  ::UnityW<::RootMotion::FinalIK::AimIK> ___ik;
 
   /// @brief Field weight, offset: 0x20, size: 0x4, def value: None
   float_t ___weight;
 
   /// @brief Field target, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___target;
+  ::UnityW<::UnityEngine::Transform> ___target;
 
   /// @brief Field targetSwitchSmoothTime, offset: 0x30, size: 0x4, def value: None
   float_t ___targetSwitchSmoothTime;
@@ -502,7 +502,7 @@ public:
   ::UnityEngine::Vector3 ___animatedAimDirection;
 
   /// @brief Field lastTarget, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___lastTarget;
+  ::UnityW<::UnityEngine::Transform> ___lastTarget;
 
   /// @brief Field switchWeight, offset: 0x88, size: 0x4, def value: None
   float_t ___switchWeight;

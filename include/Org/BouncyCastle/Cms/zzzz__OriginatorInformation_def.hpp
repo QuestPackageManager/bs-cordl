@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::OriginatorInformation);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(681))
 // CS Name: ::Org.BouncyCastle.Cms::OriginatorInformation*
 class CORDL_TYPE OriginatorInformation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field originatorInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_originatorInfo, put = __set_originatorInfo))::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo;
+  __declspec(property(get = __cordl_internal_get_originatorInfo, put = __cordl_internal_set_originatorInfo))::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*& __get_originatorInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*& __cordl_internal_get_originatorInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*> const& __get_originatorInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*> const& __cordl_internal_get_originatorInfo() const;
 
-  constexpr void __set_originatorInfo(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* value);
+  constexpr void __cordl_internal_set_originatorInfo(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* value);
 
   static inline ::Org::BouncyCastle::Cms::OriginatorInformation* New_ctor(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* originatorInfo);
 

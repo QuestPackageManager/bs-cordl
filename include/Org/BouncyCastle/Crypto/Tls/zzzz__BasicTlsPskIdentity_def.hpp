@@ -20,17 +20,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1181))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::BasicTlsPskIdentity*
 class CORDL_TYPE BasicTlsPskIdentity : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mIdentity, offset 0x10, size 0x8
-  __declspec(property(get = __get_mIdentity, put = __set_mIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> mIdentity;
+  __declspec(property(get = __cordl_internal_get_mIdentity, put = __cordl_internal_set_mIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> mIdentity;
 
   /// @brief Field mPsk, offset 0x18, size 0x8
-  __declspec(property(get = __get_mPsk, put = __set_mPsk))::ArrayW<uint8_t, ::Array<uint8_t>*> mPsk;
+  __declspec(property(get = __cordl_internal_get_mPsk, put = __cordl_internal_set_mPsk))::ArrayW<uint8_t, ::Array<uint8_t>*> mPsk;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity*() noexcept;
@@ -38,17 +38,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentity* i___Org__BouncyCastle__Crypto__Tls__TlsPskIdentity() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mIdentity();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mIdentity();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mIdentity() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mIdentity() const;
 
-  constexpr void __set_mIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mPsk();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPsk();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mPsk() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPsk() const;
 
-  constexpr void __set_mPsk(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mPsk(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::BasicTlsPskIdentity* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> identity, ::ArrayW<uint8_t, ::Array<uint8_t>*> psk);
 

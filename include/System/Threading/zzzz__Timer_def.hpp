@@ -61,7 +61,7 @@ MARK_VAL_T(::System::Threading::__Timer__TimerComparer);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2748))
 // CS Name: ::Timer::TimerComparer
 #pragma pack(push, 0)
@@ -107,50 +107,50 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::__Timer__Time
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2749))
 // CS Name: ::Timer::Scheduler*
 class CORDL_TYPE __Timer__Scheduler : public ::System::Object {
 public:
   // Declarations
   /// @brief Field needReSort, offset 0x10, size 0x1
-  __declspec(property(get = __get_needReSort, put = __set_needReSort)) bool needReSort;
+  __declspec(property(get = __cordl_internal_get_needReSort, put = __cordl_internal_set_needReSort)) bool needReSort;
 
   /// @brief Field list, offset 0x18, size 0x8
-  __declspec(property(get = __get_list, put = __set_list))::System::Collections::Generic::List_1<::System::Threading::Timer*>* list;
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::Generic::List_1<::System::Threading::Timer*>* list;
 
   /// @brief Field current_next_run, offset 0x20, size 0x8
-  __declspec(property(get = __get_current_next_run, put = __set_current_next_run)) int64_t current_next_run;
+  __declspec(property(get = __cordl_internal_get_current_next_run, put = __cordl_internal_set_current_next_run)) int64_t current_next_run;
 
   /// @brief Field changed, offset 0x28, size 0x8
-  __declspec(property(get = __get_changed, put = __set_changed))::System::Threading::ManualResetEvent* changed;
+  __declspec(property(get = __cordl_internal_get_changed, put = __cordl_internal_set_changed))::System::Threading::ManualResetEvent* changed;
 
   /// @brief Field instance, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_instance, put = setStaticF_instance))::System::Threading::__Timer__Scheduler* instance;
 
-  constexpr bool& __get_needReSort();
+  constexpr bool& __cordl_internal_get_needReSort();
 
-  constexpr bool const& __get_needReSort() const;
+  constexpr bool const& __cordl_internal_get_needReSort() const;
 
-  constexpr void __set_needReSort(bool value);
+  constexpr void __cordl_internal_set_needReSort(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Threading::Timer*>*& __get_list();
+  constexpr ::System::Collections::Generic::List_1<::System::Threading::Timer*>*& __cordl_internal_get_list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Threading::Timer*>*> const& __get_list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Threading::Timer*>*> const& __cordl_internal_get_list() const;
 
-  constexpr void __set_list(::System::Collections::Generic::List_1<::System::Threading::Timer*>* value);
+  constexpr void __cordl_internal_set_list(::System::Collections::Generic::List_1<::System::Threading::Timer*>* value);
 
-  constexpr int64_t& __get_current_next_run();
+  constexpr int64_t& __cordl_internal_get_current_next_run();
 
-  constexpr int64_t const& __get_current_next_run() const;
+  constexpr int64_t const& __cordl_internal_get_current_next_run() const;
 
-  constexpr void __set_current_next_run(int64_t value);
+  constexpr void __cordl_internal_set_current_next_run(int64_t value);
 
-  constexpr ::System::Threading::ManualResetEvent*& __get_changed();
+  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get_changed();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __get_changed() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get_changed() const;
 
-  constexpr void __set_changed(::System::Threading::ManualResetEvent* value);
+  constexpr void __cordl_internal_set_changed(::System::Threading::ManualResetEvent* value);
 
   static inline void setStaticF_instance(::System::Threading::__Timer__Scheduler* value);
 
@@ -238,7 +238,7 @@ static_assert(offsetof(::System::Threading::__Timer__Scheduler, ___changed) == 0
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 67, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2750))
 // CS Name: ::System.Threading::Timer*
 class CORDL_TYPE Timer : public ::System::MarshalByRefObject {
@@ -249,28 +249,28 @@ public:
   using TimerComparer = ::System::Threading::__Timer__TimerComparer;
 
   /// @brief Field callback, offset 0x18, size 0x8
-  __declspec(property(get = __get_callback, put = __set_callback))::System::Threading::TimerCallback* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Threading::TimerCallback* callback;
 
   /// @brief Field state, offset 0x20, size 0x8
-  __declspec(property(get = __get_state, put = __set_state))::System::Object* state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::Object* state;
 
   /// @brief Field due_time_ms, offset 0x28, size 0x8
-  __declspec(property(get = __get_due_time_ms, put = __set_due_time_ms)) int64_t due_time_ms;
+  __declspec(property(get = __cordl_internal_get_due_time_ms, put = __cordl_internal_set_due_time_ms)) int64_t due_time_ms;
 
   /// @brief Field period_ms, offset 0x30, size 0x8
-  __declspec(property(get = __get_period_ms, put = __set_period_ms)) int64_t period_ms;
+  __declspec(property(get = __cordl_internal_get_period_ms, put = __cordl_internal_set_period_ms)) int64_t period_ms;
 
   /// @brief Field next_run, offset 0x38, size 0x8
-  __declspec(property(get = __get_next_run, put = __set_next_run)) int64_t next_run;
+  __declspec(property(get = __cordl_internal_get_next_run, put = __cordl_internal_set_next_run)) int64_t next_run;
 
   /// @brief Field disposed, offset 0x40, size 0x1
-  __declspec(property(get = __get_disposed, put = __set_disposed)) bool disposed;
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field is_dead, offset 0x41, size 0x1
-  __declspec(property(get = __get_is_dead, put = __set_is_dead)) bool is_dead;
+  __declspec(property(get = __cordl_internal_get_is_dead, put = __cordl_internal_set_is_dead)) bool is_dead;
 
   /// @brief Field is_added, offset 0x42, size 0x1
-  __declspec(property(get = __get_is_added, put = __set_is_added)) bool is_added;
+  __declspec(property(get = __cordl_internal_get_is_added, put = __cordl_internal_set_is_added)) bool is_added;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -284,53 +284,53 @@ public:
   /// @brief Convert to "::System::IAsyncDisposable"
   constexpr ::System::IAsyncDisposable* i___System__IAsyncDisposable() noexcept;
 
-  constexpr ::System::Threading::TimerCallback*& __get_callback();
+  constexpr ::System::Threading::TimerCallback*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::TimerCallback*> const& __get_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::TimerCallback*> const& __cordl_internal_get_callback() const;
 
-  constexpr void __set_callback(::System::Threading::TimerCallback* value);
+  constexpr void __cordl_internal_set_callback(::System::Threading::TimerCallback* value);
 
-  constexpr ::System::Object*& __get_state();
+  constexpr ::System::Object*& __cordl_internal_get_state();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_state() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(::System::Object* value);
+  constexpr void __cordl_internal_set_state(::System::Object* value);
 
-  constexpr int64_t& __get_due_time_ms();
+  constexpr int64_t& __cordl_internal_get_due_time_ms();
 
-  constexpr int64_t const& __get_due_time_ms() const;
+  constexpr int64_t const& __cordl_internal_get_due_time_ms() const;
 
-  constexpr void __set_due_time_ms(int64_t value);
+  constexpr void __cordl_internal_set_due_time_ms(int64_t value);
 
-  constexpr int64_t& __get_period_ms();
+  constexpr int64_t& __cordl_internal_get_period_ms();
 
-  constexpr int64_t const& __get_period_ms() const;
+  constexpr int64_t const& __cordl_internal_get_period_ms() const;
 
-  constexpr void __set_period_ms(int64_t value);
+  constexpr void __cordl_internal_set_period_ms(int64_t value);
 
-  constexpr int64_t& __get_next_run();
+  constexpr int64_t& __cordl_internal_get_next_run();
 
-  constexpr int64_t const& __get_next_run() const;
+  constexpr int64_t const& __cordl_internal_get_next_run() const;
 
-  constexpr void __set_next_run(int64_t value);
+  constexpr void __cordl_internal_set_next_run(int64_t value);
 
-  constexpr bool& __get_disposed();
+  constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr bool const& __get_disposed() const;
+  constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __set_disposed(bool value);
+  constexpr void __cordl_internal_set_disposed(bool value);
 
-  constexpr bool& __get_is_dead();
+  constexpr bool& __cordl_internal_get_is_dead();
 
-  constexpr bool const& __get_is_dead() const;
+  constexpr bool const& __cordl_internal_get_is_dead() const;
 
-  constexpr void __set_is_dead(bool value);
+  constexpr void __cordl_internal_set_is_dead(bool value);
 
-  constexpr bool& __get_is_added();
+  constexpr bool& __cordl_internal_get_is_added();
 
-  constexpr bool const& __get_is_added() const;
+  constexpr bool const& __cordl_internal_get_is_added() const;
 
-  constexpr void __set_is_added(bool value);
+  constexpr void __cordl_internal_set_is_added(bool value);
 
   /// @brief Method get_scheduler, addr 0x261f8ac, size 0x88, virtual false, abstract: false, final false
   static inline ::System::Threading::__Timer__Scheduler* get_scheduler();

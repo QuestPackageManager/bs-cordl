@@ -32,17 +32,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1651))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpLiteralDataGenerator*
 class CORDL_TYPE PgpLiteralDataGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field pkOut, offset 0x10, size 0x8
-  __declspec(property(get = __get_pkOut, put = __set_pkOut))::Org::BouncyCastle::Bcpg::BcpgOutputStream* pkOut;
+  __declspec(property(get = __cordl_internal_get_pkOut, put = __cordl_internal_set_pkOut))::Org::BouncyCastle::Bcpg::BcpgOutputStream* pkOut;
 
   /// @brief Field oldFormat, offset 0x18, size 0x1
-  __declspec(property(get = __get_oldFormat, put = __set_oldFormat)) bool oldFormat;
+  __declspec(property(get = __cordl_internal_get_oldFormat, put = __cordl_internal_set_oldFormat)) bool oldFormat;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"
   constexpr operator ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator*() noexcept;
@@ -50,17 +50,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator"
   constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::IStreamGenerator* i___Org__BouncyCastle__Bcpg__OpenPgp__IStreamGenerator() noexcept;
 
-  constexpr ::Org::BouncyCastle::Bcpg::BcpgOutputStream*& __get_pkOut();
+  constexpr ::Org::BouncyCastle::Bcpg::BcpgOutputStream*& __cordl_internal_get_pkOut();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::BcpgOutputStream*> const& __get_pkOut() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::BcpgOutputStream*> const& __cordl_internal_get_pkOut() const;
 
-  constexpr void __set_pkOut(::Org::BouncyCastle::Bcpg::BcpgOutputStream* value);
+  constexpr void __cordl_internal_set_pkOut(::Org::BouncyCastle::Bcpg::BcpgOutputStream* value);
 
-  constexpr bool& __get_oldFormat();
+  constexpr bool& __cordl_internal_get_oldFormat();
 
-  constexpr bool const& __get_oldFormat() const;
+  constexpr bool const& __cordl_internal_get_oldFormat() const;
 
-  constexpr void __set_oldFormat(bool value);
+  constexpr void __cordl_internal_set_oldFormat(bool value);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpLiteralDataGenerator* New_ctor();
 

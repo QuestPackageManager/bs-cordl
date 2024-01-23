@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::CommonUnixIPGlobalProperties);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9285))
 // CS Name: ::System.Net.NetworkInformation::CommonUnixIPGlobalProperties*
 class CORDL_TYPE CommonUnixIPGlobalProperties : public ::System::Net::NetworkInformation::IPGlobalProperties {

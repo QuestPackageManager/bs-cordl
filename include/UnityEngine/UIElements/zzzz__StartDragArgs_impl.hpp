@@ -13,9 +13,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2e09984;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs*>::get(), "get_userData",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -27,75 +27,77 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x80;
   constexpr static std::size_t addrs = 0x2e098cc;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::StringW& UnityEngine::UIElements::StartDragArgs::__get__title_k__BackingField() {
+constexpr ::StringW& UnityEngine::UIElements::StartDragArgs::__cordl_internal_get__title_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____title_k__BackingField;
 }
-constexpr ::StringW const& UnityEngine::UIElements::StartDragArgs::__get__title_k__BackingField() const {
+constexpr ::StringW const& UnityEngine::UIElements::StartDragArgs::__cordl_internal_get__title_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____title_k__BackingField;
 }
-constexpr void UnityEngine::UIElements::StartDragArgs::__set__title_k__BackingField(::StringW value) {
+constexpr void UnityEngine::UIElements::StartDragArgs::__cordl_internal_set__title_k__BackingField(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____title_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Object*& UnityEngine::UIElements::StartDragArgs::__get__userData_k__BackingField() {
+constexpr ::System::Object*& UnityEngine::UIElements::StartDragArgs::__cordl_internal_get__userData_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userData_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& UnityEngine::UIElements::StartDragArgs::__get__userData_k__BackingField() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& UnityEngine::UIElements::StartDragArgs::__cordl_internal_get__userData_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____userData_k__BackingField;
 }
-constexpr void UnityEngine::UIElements::StartDragArgs::__set__userData_k__BackingField(::System::Object* value) {
+constexpr void UnityEngine::UIElements::StartDragArgs::__cordl_internal_set__userData_k__BackingField(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userData_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Hashtable*& UnityEngine::UIElements::StartDragArgs::__get_m_GenericData() {
+constexpr ::System::Collections::Hashtable*& UnityEngine::UIElements::StartDragArgs::__cordl_internal_get_m_GenericData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GenericData;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& UnityEngine::UIElements::StartDragArgs::__get_m_GenericData() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& UnityEngine::UIElements::StartDragArgs::__cordl_internal_get_m_GenericData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_GenericData;
 }
-constexpr void UnityEngine::UIElements::StartDragArgs::__set_m_GenericData(::System::Collections::Hashtable* value) {
+constexpr void UnityEngine::UIElements::StartDragArgs::__cordl_internal_set_m_GenericData(::System::Collections::Hashtable* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GenericData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Object*>*& UnityEngine::UIElements::StartDragArgs::__get__unityObjectReferences_k__BackingField() {
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*& UnityEngine::UIElements::StartDragArgs::__cordl_internal_get__unityObjectReferences_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityObjectReferences_k__BackingField;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Object*>*> const&
-UnityEngine::UIElements::StartDragArgs::__get__unityObjectReferences_k__BackingField() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*> const&
+UnityEngine::UIElements::StartDragArgs::__cordl_internal_get__unityObjectReferences_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____unityObjectReferences_k__BackingField;
 }
-constexpr void UnityEngine::UIElements::StartDragArgs::__set__unityObjectReferences_k__BackingField(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Object*>* value) {
+constexpr void
+UnityEngine::UIElements::StartDragArgs::__cordl_internal_set__unityObjectReferences_k__BackingField(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____unityObjectReferences_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Object* UnityEngine::UIElements::StartDragArgs::get_userData() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs*>::get(), "get_userData",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::StartDragArgs* UnityEngine::UIElements::StartDragArgs::New_ctor(::StringW title, ::System::Object* userData) {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::UIElements::StartDragArgs*>(title, userData));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::StartDragArgs*>(title, userData));
 }
 inline void UnityEngine::UIElements::StartDragArgs::_ctor(::StringW title, ::System::Object* userData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, title, userData);
 }
 // Ctor Parameters []

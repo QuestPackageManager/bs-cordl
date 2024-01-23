@@ -24,7 +24,7 @@ MARK_VAL_T(::System::Threading::ExecutionContextSwitcher);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2712))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2712))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2710))
 // CS Name: ::System.Threading::ExecutionContextSwitcher
 struct CORDL_TYPE ExecutionContextSwitcher {

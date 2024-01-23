@@ -40,7 +40,7 @@ MARK_REF_PTR_T(::System::Threading::Tasks::__SynchronizationContextAwaitTaskCont
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2803))
 // CS Name: ::SynchronizationContextAwaitTaskContinuation::<>c*
 class CORDL_TYPE __SynchronizationContextAwaitTaskContinuation____c : public ::System::Object {
@@ -85,7 +85,7 @@ static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__Sync
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2807))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2807))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2804))
 // CS Name: ::System.Threading.Tasks::SynchronizationContextAwaitTaskContinuation*
 class CORDL_TYPE SynchronizationContextAwaitTaskContinuation : public ::System::Threading::Tasks::AwaitTaskContinuation {
@@ -94,7 +94,7 @@ public:
   using __c = ::System::Threading::Tasks::__SynchronizationContextAwaitTaskContinuation____c;
 
   /// @brief Field m_syncContext, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_syncContext, put = __set_m_syncContext))::System::Threading::SynchronizationContext* m_syncContext;
+  __declspec(property(get = __cordl_internal_get_m_syncContext, put = __cordl_internal_set_m_syncContext))::System::Threading::SynchronizationContext* m_syncContext;
 
   /// @brief Field s_postCallback, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_postCallback, put = setStaticF_s_postCallback))::System::Threading::SendOrPostCallback* s_postCallback;
@@ -102,11 +102,11 @@ public:
   /// @brief Field s_postActionCallback, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_postActionCallback, put = setStaticF_s_postActionCallback))::System::Threading::ContextCallback* s_postActionCallback;
 
-  constexpr ::System::Threading::SynchronizationContext*& __get_m_syncContext();
+  constexpr ::System::Threading::SynchronizationContext*& __cordl_internal_get_m_syncContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SynchronizationContext*> const& __get_m_syncContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SynchronizationContext*> const& __cordl_internal_get_m_syncContext() const;
 
-  constexpr void __set_m_syncContext(::System::Threading::SynchronizationContext* value);
+  constexpr void __cordl_internal_set_m_syncContext(::System::Threading::SynchronizationContext* value);
 
   static inline void setStaticF_s_postCallback(::System::Threading::SendOrPostCallback* value);
 

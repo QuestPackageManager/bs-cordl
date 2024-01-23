@@ -70,7 +70,7 @@ namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TValue>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6575))
 // CS Name: ::InputStateHistory`1::Enumerator<TValue>
 struct CORDL_TYPE __InputStateHistory_1__Enumerator {
@@ -144,7 +144,7 @@ namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TValue>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6576))
 // CS Name: ::InputStateHistory`1::Record<TValue>
 struct CORDL_TYPE __InputStateHistory_1__Record {
@@ -272,7 +272,7 @@ namespace UnityEngine::InputSystem::LowLevel {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6574))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6574))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6577))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputStateHistory`1<TValue>*
 class CORDL_TYPE InputStateHistory_1 : public ::UnityEngine::InputSystem::LowLevel::InputStateHistory {

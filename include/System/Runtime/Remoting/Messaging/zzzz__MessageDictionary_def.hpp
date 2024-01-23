@@ -51,20 +51,20 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::__MessageDictionary__Dict
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3176))
 // CS Name: ::MessageDictionary::DictionaryEnumerator*
 class CORDL_TYPE __MessageDictionary__DictionaryEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _methodDictionary, offset 0x10, size 0x8
-  __declspec(property(get = __get__methodDictionary, put = __set__methodDictionary))::System::Runtime::Remoting::Messaging::MessageDictionary* _methodDictionary;
+  __declspec(property(get = __cordl_internal_get__methodDictionary, put = __cordl_internal_set__methodDictionary))::System::Runtime::Remoting::Messaging::MessageDictionary* _methodDictionary;
 
   /// @brief Field _hashtableEnum, offset 0x18, size 0x8
-  __declspec(property(get = __get__hashtableEnum, put = __set__hashtableEnum))::System::Collections::IDictionaryEnumerator* _hashtableEnum;
+  __declspec(property(get = __cordl_internal_get__hashtableEnum, put = __cordl_internal_set__hashtableEnum))::System::Collections::IDictionaryEnumerator* _hashtableEnum;
 
   /// @brief Field _posMethod, offset 0x20, size 0x4
-  __declspec(property(get = __get__posMethod, put = __set__posMethod)) int32_t _posMethod;
+  __declspec(property(get = __cordl_internal_get__posMethod, put = __cordl_internal_set__posMethod)) int32_t _posMethod;
 
   __declspec(property(get = get_Current))::System::Object* Current;
 
@@ -86,23 +86,23 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::System::Runtime::Remoting::Messaging::MessageDictionary*& __get__methodDictionary();
+  constexpr ::System::Runtime::Remoting::Messaging::MessageDictionary*& __cordl_internal_get__methodDictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::MessageDictionary*> const& __get__methodDictionary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::MessageDictionary*> const& __cordl_internal_get__methodDictionary() const;
 
-  constexpr void __set__methodDictionary(::System::Runtime::Remoting::Messaging::MessageDictionary* value);
+  constexpr void __cordl_internal_set__methodDictionary(::System::Runtime::Remoting::Messaging::MessageDictionary* value);
 
-  constexpr ::System::Collections::IDictionaryEnumerator*& __get__hashtableEnum();
+  constexpr ::System::Collections::IDictionaryEnumerator*& __cordl_internal_get__hashtableEnum();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionaryEnumerator*> const& __get__hashtableEnum() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionaryEnumerator*> const& __cordl_internal_get__hashtableEnum() const;
 
-  constexpr void __set__hashtableEnum(::System::Collections::IDictionaryEnumerator* value);
+  constexpr void __cordl_internal_set__hashtableEnum(::System::Collections::IDictionaryEnumerator* value);
 
-  constexpr int32_t& __get__posMethod();
+  constexpr int32_t& __cordl_internal_get__posMethod();
 
-  constexpr int32_t const& __get__posMethod() const;
+  constexpr int32_t const& __cordl_internal_get__posMethod() const;
 
-  constexpr void __set__posMethod(int32_t value);
+  constexpr void __cordl_internal_set__posMethod(int32_t value);
 
   static inline ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator* New_ctor(::System::Runtime::Remoting::Messaging::MessageDictionary* methodDictionary);
 
@@ -166,7 +166,7 @@ static_assert(offsetof(::System::Runtime::Remoting::Messaging::__MessageDictiona
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3177))
 // CS Name: ::System.Runtime.Remoting.Messaging::MessageDictionary*
 class CORDL_TYPE MessageDictionary : public ::System::Object {
@@ -175,16 +175,16 @@ public:
   using DictionaryEnumerator = ::System::Runtime::Remoting::Messaging::__MessageDictionary__DictionaryEnumerator;
 
   /// @brief Field _internalProperties, offset 0x10, size 0x8
-  __declspec(property(get = __get__internalProperties, put = __set__internalProperties))::System::Collections::IDictionary* _internalProperties;
+  __declspec(property(get = __cordl_internal_get__internalProperties, put = __cordl_internal_set__internalProperties))::System::Collections::IDictionary* _internalProperties;
 
   /// @brief Field _message, offset 0x18, size 0x8
-  __declspec(property(get = __get__message, put = __set__message))::System::Runtime::Remoting::Messaging::IMethodMessage* _message;
+  __declspec(property(get = __cordl_internal_get__message, put = __cordl_internal_set__message))::System::Runtime::Remoting::Messaging::IMethodMessage* _message;
 
   /// @brief Field _methodKeys, offset 0x20, size 0x8
-  __declspec(property(get = __get__methodKeys, put = __set__methodKeys))::ArrayW<::StringW, ::Array<::StringW>*> _methodKeys;
+  __declspec(property(get = __cordl_internal_get__methodKeys, put = __cordl_internal_set__methodKeys))::ArrayW<::StringW, ::Array<::StringW>*> _methodKeys;
 
   /// @brief Field _ownProperties, offset 0x28, size 0x1
-  __declspec(property(get = __get__ownProperties, put = __set__ownProperties)) bool _ownProperties;
+  __declspec(property(get = __cordl_internal_get__ownProperties, put = __cordl_internal_set__ownProperties)) bool _ownProperties;
 
   __declspec(property(get = get_InternalDictionary))::System::Collections::IDictionary* InternalDictionary;
 
@@ -224,29 +224,29 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::IDictionary*& __get__internalProperties();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get__internalProperties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get__internalProperties() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get__internalProperties() const;
 
-  constexpr void __set__internalProperties(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set__internalProperties(::System::Collections::IDictionary* value);
 
-  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage*& __get__message();
+  constexpr ::System::Runtime::Remoting::Messaging::IMethodMessage*& __cordl_internal_get__message();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMethodMessage*> const& __get__message() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Remoting::Messaging::IMethodMessage*> const& __cordl_internal_get__message() const;
 
-  constexpr void __set__message(::System::Runtime::Remoting::Messaging::IMethodMessage* value);
+  constexpr void __cordl_internal_set__message(::System::Runtime::Remoting::Messaging::IMethodMessage* value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__methodKeys();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__methodKeys();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__methodKeys() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__methodKeys() const;
 
-  constexpr void __set__methodKeys(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__methodKeys(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr bool& __get__ownProperties();
+  constexpr bool& __cordl_internal_get__ownProperties();
 
-  constexpr bool const& __get__ownProperties() const;
+  constexpr bool const& __cordl_internal_get__ownProperties() const;
 
-  constexpr void __set__ownProperties(bool value);
+  constexpr void __cordl_internal_set__ownProperties(bool value);
 
   static inline ::System::Runtime::Remoting::Messaging::MessageDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 

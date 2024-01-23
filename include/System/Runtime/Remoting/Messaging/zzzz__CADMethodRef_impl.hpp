@@ -12,10 +12,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14c;
   constexpr static std::size_t addrs = 0x24a7c28;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::CADMethodRef*>::get(), "GetTypes", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::CADMethodRef*>::get(), "GetTypes", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -27,9 +27,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x524;
   constexpr static std::size_t addrs = 0x24a7d74;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::CADMethodRef*>::get(),
-                                                                               "Resolve", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "Resolve", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -41,91 +41,91 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x2d0;
   constexpr static std::size_t addrs = 0x24a8298;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::CADMethodRef*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::IMethodMessage*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::CADMethodRef*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::IMethodMessage*>::get() })));
     return ___internal_method;
   }
 };
-constexpr bool& System::Runtime::Remoting::Messaging::CADMethodRef::__get_ctor() {
+constexpr bool& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_ctor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ctor;
 }
-constexpr bool const& System::Runtime::Remoting::Messaging::CADMethodRef::__get_ctor() const {
+constexpr bool const& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_ctor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___ctor;
 }
-constexpr void System::Runtime::Remoting::Messaging::CADMethodRef::__set_ctor(bool value) {
+constexpr void System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_set_ctor(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___ctor = value;
 }
-constexpr ::StringW& System::Runtime::Remoting::Messaging::CADMethodRef::__get_typeName() {
+constexpr ::StringW& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_typeName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typeName;
 }
-constexpr ::StringW const& System::Runtime::Remoting::Messaging::CADMethodRef::__get_typeName() const {
+constexpr ::StringW const& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_typeName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___typeName;
 }
-constexpr void System::Runtime::Remoting::Messaging::CADMethodRef::__set_typeName(::StringW value) {
+constexpr void System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_set_typeName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___typeName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::Runtime::Remoting::Messaging::CADMethodRef::__get_methodName() {
+constexpr ::StringW& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_methodName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___methodName;
 }
-constexpr ::StringW const& System::Runtime::Remoting::Messaging::CADMethodRef::__get_methodName() const {
+constexpr ::StringW const& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_methodName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___methodName;
 }
-constexpr void System::Runtime::Remoting::Messaging::CADMethodRef::__set_methodName(::StringW value) {
+constexpr void System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_set_methodName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___methodName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Runtime::Remoting::Messaging::CADMethodRef::__get_param_names() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_param_names() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___param_names;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Runtime::Remoting::Messaging::CADMethodRef::__get_param_names() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_param_names() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___param_names;
 }
-constexpr void System::Runtime::Remoting::Messaging::CADMethodRef::__set_param_names(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_set_param_names(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___param_names)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Runtime::Remoting::Messaging::CADMethodRef::__get_generic_arg_names() {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_generic_arg_names() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___generic_arg_names;
 }
-constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Runtime::Remoting::Messaging::CADMethodRef::__get_generic_arg_names() const {
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_get_generic_arg_names() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___generic_arg_names;
 }
-constexpr void System::Runtime::Remoting::Messaging::CADMethodRef::__set_generic_arg_names(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+constexpr void System::Runtime::Remoting::Messaging::CADMethodRef::__cordl_internal_set_generic_arg_names(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___generic_arg_names)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> System::Runtime::Remoting::Messaging::CADMethodRef::GetTypes(::ArrayW<::StringW, ::Array<::StringW>*> typeArray) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::CADMethodRef*>::get(), "GetTypes", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::CADMethodRef*>::get(), "GetTypes", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Type*, ::Array<::System::Type*>*>, false>(this, ___internal_method, typeArray);
 }
 inline ::System::Reflection::MethodBase* System::Runtime::Remoting::Messaging::CADMethodRef::Resolve() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::CADMethodRef*>::get(),
-                                                                             "Resolve", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "Resolve", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::MethodBase*, false>(this, ___internal_method);
 }
 inline ::System::Runtime::Remoting::Messaging::CADMethodRef* System::Runtime::Remoting::Messaging::CADMethodRef::New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Runtime::Remoting::Messaging::CADMethodRef*>(msg));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Messaging::CADMethodRef*>(msg));
 }
 inline void System::Runtime::Remoting::Messaging::CADMethodRef::_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::CADMethodRef*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::IMethodMessage*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::CADMethodRef*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Remoting::Messaging::IMethodMessage*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, msg);
 }
 // Ctor Parameters []

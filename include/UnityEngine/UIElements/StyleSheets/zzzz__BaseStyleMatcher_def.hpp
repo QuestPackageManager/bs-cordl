@@ -34,7 +34,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchCont
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7482))
 // CS Name: ::BaseStyleMatcher::MatchContext
 struct CORDL_TYPE __BaseStyleMatcher__MatchContext {
@@ -70,7 +70,7 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::__BaseStyleMatche
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7482)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7482))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7483))
 // CS Name: ::UnityEngine.UIElements.StyleSheets::BaseStyleMatcher*
 class CORDL_TYPE BaseStyleMatcher : public ::System::Object {
@@ -79,11 +79,12 @@ public:
   using MatchContext = ::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext;
 
   /// @brief Field m_ContextStack, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_ContextStack,
-                      put = __set_m_ContextStack))::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext>* m_ContextStack;
+  __declspec(property(get = __cordl_internal_get_m_ContextStack,
+                      put = __cordl_internal_set_m_ContextStack))::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext>* m_ContextStack;
 
   /// @brief Field m_CurrentContext, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_CurrentContext, put = __set_m_CurrentContext))::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext m_CurrentContext;
+  __declspec(property(get = __cordl_internal_get_m_CurrentContext,
+                      put = __cordl_internal_set_m_CurrentContext))::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext m_CurrentContext;
 
   /// @brief Field s_CustomIdentRegex, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_CustomIdentRegex, put = setStaticF_s_CustomIdentRegex))::System::Text::RegularExpressions::Regex* s_CustomIdentRegex;
@@ -100,17 +101,18 @@ public:
 
   __declspec(property(get = get_matchedVariableCount, put = set_matchedVariableCount)) int32_t matchedVariableCount;
 
-  constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext>*& __get_m_ContextStack();
+  constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext>*& __cordl_internal_get_m_ContextStack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext>*> const& __get_m_ContextStack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext>*> const&
+  __cordl_internal_get_m_ContextStack() const;
 
-  constexpr void __set_m_ContextStack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext>* value);
+  constexpr void __cordl_internal_set_m_ContextStack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext>* value);
 
-  constexpr ::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext& __get_m_CurrentContext();
+  constexpr ::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext& __cordl_internal_get_m_CurrentContext();
 
-  constexpr ::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext const& __get_m_CurrentContext() const;
+  constexpr ::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext const& __cordl_internal_get_m_CurrentContext() const;
 
-  constexpr void __set_m_CurrentContext(::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext value);
+  constexpr void __cordl_internal_set_m_CurrentContext(::UnityEngine::UIElements::StyleSheets::__BaseStyleMatcher__MatchContext value);
 
   static inline void setStaticF_s_CustomIdentRegex(::System::Text::RegularExpressions::Regex* value);
 

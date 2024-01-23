@@ -39,76 +39,76 @@ MARK_REF_PTR_T(::LiteNetLib::ConnectionRequest);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14128)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14128))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14129))
 // CS Name: ::LiteNetLib::ConnectionRequest*
 class CORDL_TYPE ConnectionRequest : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _listener, offset 0x10, size 0x8
-  __declspec(property(get = __get__listener, put = __set__listener))::LiteNetLib::NetManager* _listener;
+  __declspec(property(get = __cordl_internal_get__listener, put = __cordl_internal_set__listener))::LiteNetLib::NetManager* _listener;
 
   /// @brief Field _used, offset 0x18, size 0x4
-  __declspec(property(get = __get__used, put = __set__used)) int32_t _used;
+  __declspec(property(get = __cordl_internal_get__used, put = __cordl_internal_set__used)) int32_t _used;
 
   /// @brief Field Data, offset 0x20, size 0x8
-  __declspec(property(get = __get_Data, put = __set_Data))::LiteNetLib::Utils::NetDataReader* Data;
+  __declspec(property(get = __cordl_internal_get_Data, put = __cordl_internal_set_Data))::LiteNetLib::Utils::NetDataReader* Data;
 
   /// @brief Field <Result>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__Result_k__BackingField, put = __set__Result_k__BackingField))::LiteNetLib::ConnectionRequestResult _Result_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Result_k__BackingField, put = __cordl_internal_set__Result_k__BackingField))::LiteNetLib::ConnectionRequestResult _Result_k__BackingField;
 
   /// @brief Field ConnectionTime, offset 0x30, size 0x8
-  __declspec(property(get = __get_ConnectionTime, put = __set_ConnectionTime)) int64_t ConnectionTime;
+  __declspec(property(get = __cordl_internal_get_ConnectionTime, put = __cordl_internal_set_ConnectionTime)) int64_t ConnectionTime;
 
   /// @brief Field ConnectionNumber, offset 0x38, size 0x1
-  __declspec(property(get = __get_ConnectionNumber, put = __set_ConnectionNumber)) uint8_t ConnectionNumber;
+  __declspec(property(get = __cordl_internal_get_ConnectionNumber, put = __cordl_internal_set_ConnectionNumber)) uint8_t ConnectionNumber;
 
   /// @brief Field RemoteEndPoint, offset 0x40, size 0x8
-  __declspec(property(get = __get_RemoteEndPoint, put = __set_RemoteEndPoint))::System::Net::IPEndPoint* RemoteEndPoint;
+  __declspec(property(get = __cordl_internal_get_RemoteEndPoint, put = __cordl_internal_set_RemoteEndPoint))::System::Net::IPEndPoint* RemoteEndPoint;
 
   __declspec(property(get = get_Result, put = set_Result))::LiteNetLib::ConnectionRequestResult Result;
 
-  constexpr ::LiteNetLib::NetManager*& __get__listener();
+  constexpr ::LiteNetLib::NetManager*& __cordl_internal_get__listener();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetManager*> const& __get__listener() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetManager*> const& __cordl_internal_get__listener() const;
 
-  constexpr void __set__listener(::LiteNetLib::NetManager* value);
+  constexpr void __cordl_internal_set__listener(::LiteNetLib::NetManager* value);
 
-  constexpr int32_t& __get__used();
+  constexpr int32_t& __cordl_internal_get__used();
 
-  constexpr int32_t const& __get__used() const;
+  constexpr int32_t const& __cordl_internal_get__used() const;
 
-  constexpr void __set__used(int32_t value);
+  constexpr void __cordl_internal_set__used(int32_t value);
 
-  constexpr ::LiteNetLib::Utils::NetDataReader*& __get_Data();
+  constexpr ::LiteNetLib::Utils::NetDataReader*& __cordl_internal_get_Data();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataReader*> const& __get_Data() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::Utils::NetDataReader*> const& __cordl_internal_get_Data() const;
 
-  constexpr void __set_Data(::LiteNetLib::Utils::NetDataReader* value);
+  constexpr void __cordl_internal_set_Data(::LiteNetLib::Utils::NetDataReader* value);
 
-  constexpr ::LiteNetLib::ConnectionRequestResult& __get__Result_k__BackingField();
+  constexpr ::LiteNetLib::ConnectionRequestResult& __cordl_internal_get__Result_k__BackingField();
 
-  constexpr ::LiteNetLib::ConnectionRequestResult const& __get__Result_k__BackingField() const;
+  constexpr ::LiteNetLib::ConnectionRequestResult const& __cordl_internal_get__Result_k__BackingField() const;
 
-  constexpr void __set__Result_k__BackingField(::LiteNetLib::ConnectionRequestResult value);
+  constexpr void __cordl_internal_set__Result_k__BackingField(::LiteNetLib::ConnectionRequestResult value);
 
-  constexpr int64_t& __get_ConnectionTime();
+  constexpr int64_t& __cordl_internal_get_ConnectionTime();
 
-  constexpr int64_t const& __get_ConnectionTime() const;
+  constexpr int64_t const& __cordl_internal_get_ConnectionTime() const;
 
-  constexpr void __set_ConnectionTime(int64_t value);
+  constexpr void __cordl_internal_set_ConnectionTime(int64_t value);
 
-  constexpr uint8_t& __get_ConnectionNumber();
+  constexpr uint8_t& __cordl_internal_get_ConnectionNumber();
 
-  constexpr uint8_t const& __get_ConnectionNumber() const;
+  constexpr uint8_t const& __cordl_internal_get_ConnectionNumber() const;
 
-  constexpr void __set_ConnectionNumber(uint8_t value);
+  constexpr void __cordl_internal_set_ConnectionNumber(uint8_t value);
 
-  constexpr ::System::Net::IPEndPoint*& __get_RemoteEndPoint();
+  constexpr ::System::Net::IPEndPoint*& __cordl_internal_get_RemoteEndPoint();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __get_RemoteEndPoint() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::IPEndPoint*> const& __cordl_internal_get_RemoteEndPoint() const;
 
-  constexpr void __set_RemoteEndPoint(::System::Net::IPEndPoint* value);
+  constexpr void __cordl_internal_set_RemoteEndPoint(::System::Net::IPEndPoint* value);
 
   /// @brief Method get_Result, addr 0x21f81d0, size 0x8, virtual false, abstract: false, final false
   inline ::LiteNetLib::ConnectionRequestResult get_Result();

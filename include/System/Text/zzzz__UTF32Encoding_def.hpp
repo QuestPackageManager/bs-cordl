@@ -43,31 +43,31 @@ MARK_REF_PTR_T(::System::Text::__UTF32Encoding__UTF32Decoder);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2835))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2835))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2855))
 // CS Name: ::UTF32Encoding::UTF32Decoder*
 class CORDL_TYPE __UTF32Encoding__UTF32Decoder : public ::System::Text::DecoderNLS {
 public:
   // Declarations
   /// @brief Field iChar, offset 0x30, size 0x4
-  __declspec(property(get = __get_iChar, put = __set_iChar)) int32_t iChar;
+  __declspec(property(get = __cordl_internal_get_iChar, put = __cordl_internal_set_iChar)) int32_t iChar;
 
   /// @brief Field readByteCount, offset 0x34, size 0x4
-  __declspec(property(get = __get_readByteCount, put = __set_readByteCount)) int32_t readByteCount;
+  __declspec(property(get = __cordl_internal_get_readByteCount, put = __cordl_internal_set_readByteCount)) int32_t readByteCount;
 
   __declspec(property(get = get_HasState)) bool HasState;
 
-  constexpr int32_t& __get_iChar();
+  constexpr int32_t& __cordl_internal_get_iChar();
 
-  constexpr int32_t const& __get_iChar() const;
+  constexpr int32_t const& __cordl_internal_get_iChar() const;
 
-  constexpr void __set_iChar(int32_t value);
+  constexpr void __cordl_internal_set_iChar(int32_t value);
 
-  constexpr int32_t& __get_readByteCount();
+  constexpr int32_t& __cordl_internal_get_readByteCount();
 
-  constexpr int32_t const& __get_readByteCount() const;
+  constexpr int32_t const& __cordl_internal_get_readByteCount() const;
 
-  constexpr void __set_readByteCount(int32_t value);
+  constexpr void __cordl_internal_set_readByteCount(int32_t value);
 
   static inline ::System::Text::__UTF32Encoding__UTF32Decoder* New_ctor(::System::Text::UTF32Encoding* encoding);
 
@@ -114,7 +114,7 @@ static_assert(offsetof(::System::Text::__UTF32Encoding__UTF32Decoder, ___readByt
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 59, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2874))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2874))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2856))
 // CS Name: ::System.Text::UTF32Encoding*
 class CORDL_TYPE UTF32Encoding : public ::System::Text::Encoding {
@@ -123,13 +123,13 @@ public:
   using UTF32Decoder = ::System::Text::__UTF32Encoding__UTF32Decoder;
 
   /// @brief Field _emitUTF32ByteOrderMark, offset 0x38, size 0x1
-  __declspec(property(get = __get__emitUTF32ByteOrderMark, put = __set__emitUTF32ByteOrderMark)) bool _emitUTF32ByteOrderMark;
+  __declspec(property(get = __cordl_internal_get__emitUTF32ByteOrderMark, put = __cordl_internal_set__emitUTF32ByteOrderMark)) bool _emitUTF32ByteOrderMark;
 
   /// @brief Field _isThrowException, offset 0x39, size 0x1
-  __declspec(property(get = __get__isThrowException, put = __set__isThrowException)) bool _isThrowException;
+  __declspec(property(get = __cordl_internal_get__isThrowException, put = __cordl_internal_set__isThrowException)) bool _isThrowException;
 
   /// @brief Field _bigEndian, offset 0x3a, size 0x1
-  __declspec(property(get = __get__bigEndian, put = __set__bigEndian)) bool _bigEndian;
+  __declspec(property(get = __cordl_internal_get__bigEndian, put = __cordl_internal_set__bigEndian)) bool _bigEndian;
 
   /// @brief Field s_default, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_default, put = setStaticF_s_default))::System::Text::UTF32Encoding* s_default;
@@ -145,23 +145,23 @@ public:
 
   __declspec(property(get = get_Preamble))::System::ReadOnlySpan_1<uint8_t> Preamble;
 
-  constexpr bool& __get__emitUTF32ByteOrderMark();
+  constexpr bool& __cordl_internal_get__emitUTF32ByteOrderMark();
 
-  constexpr bool const& __get__emitUTF32ByteOrderMark() const;
+  constexpr bool const& __cordl_internal_get__emitUTF32ByteOrderMark() const;
 
-  constexpr void __set__emitUTF32ByteOrderMark(bool value);
+  constexpr void __cordl_internal_set__emitUTF32ByteOrderMark(bool value);
 
-  constexpr bool& __get__isThrowException();
+  constexpr bool& __cordl_internal_get__isThrowException();
 
-  constexpr bool const& __get__isThrowException() const;
+  constexpr bool const& __cordl_internal_get__isThrowException() const;
 
-  constexpr void __set__isThrowException(bool value);
+  constexpr void __cordl_internal_set__isThrowException(bool value);
 
-  constexpr bool& __get__bigEndian();
+  constexpr bool& __cordl_internal_get__bigEndian();
 
-  constexpr bool const& __get__bigEndian() const;
+  constexpr bool const& __cordl_internal_get__bigEndian() const;
 
-  constexpr void __set__bigEndian(bool value);
+  constexpr void __cordl_internal_set__bigEndian(bool value);
 
   static inline void setStaticF_s_default(::System::Text::UTF32Encoding* value);
 

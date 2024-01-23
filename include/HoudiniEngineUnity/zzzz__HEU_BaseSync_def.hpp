@@ -61,155 +61,156 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_BaseSync);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 125, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9794)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9794)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9793))
 // CS Name: ::HoudiniEngineUnity::HEU_BaseSync*
 class CORDL_TYPE HEU_BaseSync : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _cookNodeID, offset 0x18, size 0x4
-  __declspec(property(get = __get__cookNodeID, put = __set__cookNodeID)) int32_t _cookNodeID;
+  __declspec(property(get = __cordl_internal_get__cookNodeID, put = __cordl_internal_set__cookNodeID)) int32_t _cookNodeID;
 
   /// @brief Field _sessionID, offset 0x20, size 0x8
-  __declspec(property(get = __get__sessionID, put = __set__sessionID)) int64_t _sessionID;
+  __declspec(property(get = __cordl_internal_get__sessionID, put = __cordl_internal_set__sessionID)) int64_t _sessionID;
 
   /// @brief Field _nodeName, offset 0x28, size 0x8
-  __declspec(property(get = __get__nodeName, put = __set__nodeName))::StringW _nodeName;
+  __declspec(property(get = __cordl_internal_get__nodeName, put = __cordl_internal_set__nodeName))::StringW _nodeName;
 
   /// @brief Field _initialized, offset 0x30, size 0x1
-  __declspec(property(get = __get__initialized, put = __set__initialized)) bool _initialized;
+  __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
 
   /// @brief Field _syncing, offset 0x31, size 0x1
-  __declspec(property(get = __get__syncing, put = __set__syncing)) bool _syncing;
+  __declspec(property(get = __cordl_internal_get__syncing, put = __cordl_internal_set__syncing)) bool _syncing;
 
   /// @brief Field _deleteParent, offset 0x32, size 0x1
-  __declspec(property(get = __get__deleteParent, put = __set__deleteParent)) bool _deleteParent;
+  __declspec(property(get = __cordl_internal_get__deleteParent, put = __cordl_internal_set__deleteParent)) bool _deleteParent;
 
   /// @brief Field _generatedOutputs, offset 0x38, size 0x8
-  __declspec(property(get = __get__generatedOutputs, put = __set__generatedOutputs))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* _generatedOutputs;
+  __declspec(property(get = __cordl_internal_get__generatedOutputs,
+                      put = __cordl_internal_set__generatedOutputs))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* _generatedOutputs;
 
   /// @brief Field _outputCacheDirectory, offset 0x40, size 0x8
-  __declspec(property(get = __get__outputCacheDirectory, put = __set__outputCacheDirectory))::StringW _outputCacheDirectory;
+  __declspec(property(get = __cordl_internal_get__outputCacheDirectory, put = __cordl_internal_set__outputCacheDirectory))::StringW _outputCacheDirectory;
 
   /// @brief Field _outputCacheFilePaths, offset 0x48, size 0x8
-  __declspec(property(get = __get__outputCacheFilePaths, put = __set__outputCacheFilePaths))::System::Collections::Generic::List_1<::StringW>* _outputCacheFilePaths;
+  __declspec(property(get = __cordl_internal_get__outputCacheFilePaths, put = __cordl_internal_set__outputCacheFilePaths))::System::Collections::Generic::List_1<::StringW>* _outputCacheFilePaths;
 
   /// @brief Field _generateOptions, offset 0x50, size 0x5
-  __declspec(property(get = __get__generateOptions, put = __set__generateOptions))::HoudiniEngineUnity::HEU_GenerateOptions _generateOptions;
+  __declspec(property(get = __cordl_internal_get__generateOptions, put = __cordl_internal_set__generateOptions))::HoudiniEngineUnity::HEU_GenerateOptions _generateOptions;
 
   /// @brief Field _log, offset 0x58, size 0x8
-  __declspec(property(get = __get__log, put = __set__log))::System::Text::StringBuilder* _log;
+  __declspec(property(get = __cordl_internal_get__log, put = __cordl_internal_set__log))::System::Text::StringBuilder* _log;
 
   /// @brief Field _error, offset 0x60, size 0x8
-  __declspec(property(get = __get__error, put = __set__error))::System::Text::StringBuilder* _error;
+  __declspec(property(get = __cordl_internal_get__error, put = __cordl_internal_set__error))::System::Text::StringBuilder* _error;
 
   /// @brief Field _sessionSyncAutoCook, offset 0x68, size 0x1
-  __declspec(property(get = __get__sessionSyncAutoCook, put = __set__sessionSyncAutoCook)) bool _sessionSyncAutoCook;
+  __declspec(property(get = __cordl_internal_get__sessionSyncAutoCook, put = __cordl_internal_set__sessionSyncAutoCook)) bool _sessionSyncAutoCook;
 
   /// @brief Field _loadTask, offset 0x70, size 0x8
-  __declspec(property(get = __get__loadTask, put = __set__loadTask))::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo* _loadTask;
+  __declspec(property(get = __cordl_internal_get__loadTask, put = __cordl_internal_set__loadTask))::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo* _loadTask;
 
   /// @brief Field _totalCookCount, offset 0x78, size 0x4
-  __declspec(property(get = __get__totalCookCount, put = __set__totalCookCount)) int32_t _totalCookCount;
+  __declspec(property(get = __cordl_internal_get__totalCookCount, put = __cordl_internal_set__totalCookCount)) int32_t _totalCookCount;
 
   /// @brief Field _firstSyncComplete, offset 0x7c, size 0x1
-  __declspec(property(get = __get__firstSyncComplete, put = __set__firstSyncComplete)) bool _firstSyncComplete;
+  __declspec(property(get = __cordl_internal_get__firstSyncComplete, put = __cordl_internal_set__firstSyncComplete)) bool _firstSyncComplete;
 
-  constexpr int32_t& __get__cookNodeID();
+  constexpr int32_t& __cordl_internal_get__cookNodeID();
 
-  constexpr int32_t const& __get__cookNodeID() const;
+  constexpr int32_t const& __cordl_internal_get__cookNodeID() const;
 
-  constexpr void __set__cookNodeID(int32_t value);
+  constexpr void __cordl_internal_set__cookNodeID(int32_t value);
 
-  constexpr int64_t& __get__sessionID();
+  constexpr int64_t& __cordl_internal_get__sessionID();
 
-  constexpr int64_t const& __get__sessionID() const;
+  constexpr int64_t const& __cordl_internal_get__sessionID() const;
 
-  constexpr void __set__sessionID(int64_t value);
+  constexpr void __cordl_internal_set__sessionID(int64_t value);
 
-  constexpr ::StringW& __get__nodeName();
+  constexpr ::StringW& __cordl_internal_get__nodeName();
 
-  constexpr ::StringW const& __get__nodeName() const;
+  constexpr ::StringW const& __cordl_internal_get__nodeName() const;
 
-  constexpr void __set__nodeName(::StringW value);
+  constexpr void __cordl_internal_set__nodeName(::StringW value);
 
-  constexpr bool& __get__initialized();
+  constexpr bool& __cordl_internal_get__initialized();
 
-  constexpr bool const& __get__initialized() const;
+  constexpr bool const& __cordl_internal_get__initialized() const;
 
-  constexpr void __set__initialized(bool value);
+  constexpr void __cordl_internal_set__initialized(bool value);
 
-  constexpr bool& __get__syncing();
+  constexpr bool& __cordl_internal_get__syncing();
 
-  constexpr bool const& __get__syncing() const;
+  constexpr bool const& __cordl_internal_get__syncing() const;
 
-  constexpr void __set__syncing(bool value);
+  constexpr void __cordl_internal_set__syncing(bool value);
 
-  constexpr bool& __get__deleteParent();
+  constexpr bool& __cordl_internal_get__deleteParent();
 
-  constexpr bool const& __get__deleteParent() const;
+  constexpr bool const& __cordl_internal_get__deleteParent() const;
 
-  constexpr void __set__deleteParent(bool value);
+  constexpr void __cordl_internal_set__deleteParent(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>*& __get__generatedOutputs();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>*& __cordl_internal_get__generatedOutputs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>*> const& __get__generatedOutputs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>*> const& __cordl_internal_get__generatedOutputs() const;
 
-  constexpr void __set__generatedOutputs(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* value);
+  constexpr void __cordl_internal_set__generatedOutputs(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* value);
 
-  constexpr ::StringW& __get__outputCacheDirectory();
+  constexpr ::StringW& __cordl_internal_get__outputCacheDirectory();
 
-  constexpr ::StringW const& __get__outputCacheDirectory() const;
+  constexpr ::StringW const& __cordl_internal_get__outputCacheDirectory() const;
 
-  constexpr void __set__outputCacheDirectory(::StringW value);
+  constexpr void __cordl_internal_set__outputCacheDirectory(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get__outputCacheFilePaths();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__outputCacheFilePaths();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get__outputCacheFilePaths() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__outputCacheFilePaths() const;
 
-  constexpr void __set__outputCacheFilePaths(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set__outputCacheFilePaths(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::HoudiniEngineUnity::HEU_GenerateOptions& __get__generateOptions();
+  constexpr ::HoudiniEngineUnity::HEU_GenerateOptions& __cordl_internal_get__generateOptions();
 
-  constexpr ::HoudiniEngineUnity::HEU_GenerateOptions const& __get__generateOptions() const;
+  constexpr ::HoudiniEngineUnity::HEU_GenerateOptions const& __cordl_internal_get__generateOptions() const;
 
-  constexpr void __set__generateOptions(::HoudiniEngineUnity::HEU_GenerateOptions value);
+  constexpr void __cordl_internal_set__generateOptions(::HoudiniEngineUnity::HEU_GenerateOptions value);
 
-  constexpr ::System::Text::StringBuilder*& __get__log();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__log();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get__log() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__log() const;
 
-  constexpr void __set__log(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set__log(::System::Text::StringBuilder* value);
 
-  constexpr ::System::Text::StringBuilder*& __get__error();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get__error();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get__error() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get__error() const;
 
-  constexpr void __set__error(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set__error(::System::Text::StringBuilder* value);
 
-  constexpr bool& __get__sessionSyncAutoCook();
+  constexpr bool& __cordl_internal_get__sessionSyncAutoCook();
 
-  constexpr bool const& __get__sessionSyncAutoCook() const;
+  constexpr bool const& __cordl_internal_get__sessionSyncAutoCook() const;
 
-  constexpr void __set__sessionSyncAutoCook(bool value);
+  constexpr void __cordl_internal_set__sessionSyncAutoCook(bool value);
 
-  constexpr ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo*& __get__loadTask();
+  constexpr ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo*& __cordl_internal_get__loadTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo*> const& __get__loadTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo*> const& __cordl_internal_get__loadTask() const;
 
-  constexpr void __set__loadTask(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo* value);
+  constexpr void __cordl_internal_set__loadTask(::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo* value);
 
-  constexpr int32_t& __get__totalCookCount();
+  constexpr int32_t& __cordl_internal_get__totalCookCount();
 
-  constexpr int32_t const& __get__totalCookCount() const;
+  constexpr int32_t const& __cordl_internal_get__totalCookCount() const;
 
-  constexpr void __set__totalCookCount(int32_t value);
+  constexpr void __cordl_internal_set__totalCookCount(int32_t value);
 
-  constexpr bool& __get__firstSyncComplete();
+  constexpr bool& __cordl_internal_get__firstSyncComplete();
 
-  constexpr bool const& __get__firstSyncComplete() const;
+  constexpr bool const& __cordl_internal_get__firstSyncComplete() const;
 
-  constexpr void __set__firstSyncComplete(bool value);
+  constexpr void __cordl_internal_set__firstSyncComplete(bool value);
 
   /// @brief Method Awake, addr 0x21a59e0, size 0x4, virtual false, abstract: false, final false
   inline void Awake();

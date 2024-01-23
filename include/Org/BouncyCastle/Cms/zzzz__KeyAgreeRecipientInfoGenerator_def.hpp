@@ -47,23 +47,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::KeyAgreeRecipientInfoGenerator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(673))
 // CS Name: ::Org.BouncyCastle.Cms::KeyAgreeRecipientInfoGenerator*
 class CORDL_TYPE KeyAgreeRecipientInfoGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field keyAgreementOID, offset 0x10, size 0x8
-  __declspec(property(get = __get_keyAgreementOID, put = __set_keyAgreementOID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAgreementOID;
+  __declspec(property(get = __cordl_internal_get_keyAgreementOID, put = __cordl_internal_set_keyAgreementOID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAgreementOID;
 
   /// @brief Field keyEncryptionOID, offset 0x18, size 0x8
-  __declspec(property(get = __get_keyEncryptionOID, put = __set_keyEncryptionOID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyEncryptionOID;
+  __declspec(property(get = __cordl_internal_get_keyEncryptionOID, put = __cordl_internal_set_keyEncryptionOID))::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyEncryptionOID;
 
   /// @brief Field recipientCerts, offset 0x20, size 0x8
-  __declspec(property(get = __get_recipientCerts, put = __set_recipientCerts))::System::Collections::IList* recipientCerts;
+  __declspec(property(get = __cordl_internal_get_recipientCerts, put = __cordl_internal_set_recipientCerts))::System::Collections::IList* recipientCerts;
 
   /// @brief Field senderKeyPair, offset 0x28, size 0x8
-  __declspec(property(get = __get_senderKeyPair, put = __set_senderKeyPair))::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* senderKeyPair;
+  __declspec(property(get = __cordl_internal_get_senderKeyPair, put = __cordl_internal_set_senderKeyPair))::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* senderKeyPair;
 
   /// @brief Field Helper, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper))::Org::BouncyCastle::Cms::CmsEnvelopedHelper* Helper;
@@ -82,29 +82,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Cms::RecipientInfoGenerator"
   constexpr ::Org::BouncyCastle::Cms::RecipientInfoGenerator* i___Org__BouncyCastle__Cms__RecipientInfoGenerator() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_keyAgreementOID();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_keyAgreementOID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_keyAgreementOID() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_keyAgreementOID() const;
 
-  constexpr void __set_keyAgreementOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_keyAgreementOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_keyEncryptionOID();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_keyEncryptionOID();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_keyEncryptionOID() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_keyEncryptionOID() const;
 
-  constexpr void __set_keyEncryptionOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_keyEncryptionOID(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::System::Collections::IList*& __get_recipientCerts();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_recipientCerts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_recipientCerts() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_recipientCerts() const;
 
-  constexpr void __set_recipientCerts(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_recipientCerts(::System::Collections::IList* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*& __get_senderKeyPair();
+  constexpr ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*& __cordl_internal_get_senderKeyPair();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*> const& __get_senderKeyPair() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*> const& __cordl_internal_get_senderKeyPair() const;
 
-  constexpr void __set_senderKeyPair(::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* value);
+  constexpr void __cordl_internal_set_senderKeyPair(::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* value);
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsEnvelopedHelper* value);
 

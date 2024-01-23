@@ -30,17 +30,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnum
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1784))
 // CS Name: ::Org.BouncyCastle.Utilities.Collections::LinkedDictionaryEnumerator*
 class CORDL_TYPE LinkedDictionaryEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field parent, offset 0x10, size 0x8
-  __declspec(property(get = __get_parent, put = __set_parent))::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* parent;
+  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent))::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* parent;
 
   /// @brief Field pos, offset 0x18, size 0x4
-  __declspec(property(get = __get_pos, put = __set_pos)) int32_t pos;
+  __declspec(property(get = __cordl_internal_get_pos, put = __cordl_internal_set_pos)) int32_t pos;
 
   __declspec(property(get = get_Current))::System::Object* Current;
 
@@ -64,17 +64,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*& __get_parent();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*& __cordl_internal_get_parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*> const& __get_parent() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::LinkedDictionary*> const& __cordl_internal_get_parent() const;
 
-  constexpr void __set_parent(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* value);
+  constexpr void __cordl_internal_set_parent(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* value);
 
-  constexpr int32_t& __get_pos();
+  constexpr int32_t& __cordl_internal_get_pos();
 
-  constexpr int32_t const& __get_pos() const;
+  constexpr int32_t const& __cordl_internal_get_pos() const;
 
-  constexpr void __set_pos(int32_t value);
+  constexpr void __cordl_internal_set_pos(int32_t value);
 
   static inline ::Org::BouncyCastle::Utilities::Collections::LinkedDictionaryEnumerator* New_ctor(::Org::BouncyCastle::Utilities::Collections::LinkedDictionary* parent);
 

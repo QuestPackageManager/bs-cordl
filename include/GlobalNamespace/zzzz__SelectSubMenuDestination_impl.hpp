@@ -24,32 +24,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x223d0a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectSubMenuDestination*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SelectSubMenuDestination__Destination>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectSubMenuDestination*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SelectSubMenuDestination__Destination>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__SelectSubMenuDestination__Destination& GlobalNamespace::SelectSubMenuDestination::__get_menuDestination() {
+constexpr ::GlobalNamespace::__SelectSubMenuDestination__Destination& GlobalNamespace::SelectSubMenuDestination::__cordl_internal_get_menuDestination() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___menuDestination;
 }
-constexpr ::GlobalNamespace::__SelectSubMenuDestination__Destination const& GlobalNamespace::SelectSubMenuDestination::__get_menuDestination() const {
+constexpr ::GlobalNamespace::__SelectSubMenuDestination__Destination const& GlobalNamespace::SelectSubMenuDestination::__cordl_internal_get_menuDestination() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___menuDestination;
 }
-constexpr void GlobalNamespace::SelectSubMenuDestination::__set_menuDestination(::GlobalNamespace::__SelectSubMenuDestination__Destination value) {
+constexpr void GlobalNamespace::SelectSubMenuDestination::__cordl_internal_set_menuDestination(::GlobalNamespace::__SelectSubMenuDestination__Destination value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___menuDestination = value;
 }
 inline ::GlobalNamespace::SelectSubMenuDestination* GlobalNamespace::SelectSubMenuDestination::New_ctor(::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination) {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::SelectSubMenuDestination*>(menuDestination));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SelectSubMenuDestination*>(menuDestination));
 }
 inline void GlobalNamespace::SelectSubMenuDestination::_ctor(::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectSubMenuDestination*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SelectSubMenuDestination__Destination>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectSubMenuDestination*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__SelectSubMenuDestination__Destination>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, menuDestination);
 }
 // Ctor Parameters []

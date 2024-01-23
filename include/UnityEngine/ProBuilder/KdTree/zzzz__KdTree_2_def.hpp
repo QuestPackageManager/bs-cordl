@@ -83,29 +83,30 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15916))
 // CS Name: ::KdTree`2::<>c__DisplayClass33_0<TKey,TValue>*
 class CORDL_TYPE __KdTree_2____c__DisplayClass33_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field left, offset 0x10, size 0x8
-  __declspec(property(get = __get_left, put = __set_left))::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* left;
+  __declspec(property(get = __cordl_internal_get_left, put = __cordl_internal_set_left))::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* left;
 
   /// @brief Field right, offset 0x18, size 0x8
-  __declspec(property(get = __get_right, put = __set_right))::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* right;
+  __declspec(property(get = __cordl_internal_get_right,
+                      put = __cordl_internal_set_right))::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* right;
 
-  constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*& __get_left();
+  constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*& __cordl_internal_get_left();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*> const& __get_left() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*> const& __cordl_internal_get_left() const;
 
-  constexpr void __set_left(::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* value);
+  constexpr void __cordl_internal_set_left(::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* value);
 
-  constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*& __get_right();
+  constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*& __cordl_internal_get_right();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*> const& __get_right() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*> const& __cordl_internal_get_right() const;
 
-  constexpr void __set_right(::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* value);
+  constexpr void __cordl_internal_set_right(::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* value);
 
   static inline ::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>* New_ctor();
 
@@ -148,29 +149,31 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15917))
 // CS Name: ::KdTree`2::<GetEnumerator>d__33<TKey,TValue>*
 class CORDL_TYPE __KdTree_2___GetEnumerator_d__33 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>* __4__this;
 
   /// @brief Field <>8__1, offset 0x28, size 0x8
-  __declspec(property(get = __get___8__1, put = __set___8__1))::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>* __8__1;
+  __declspec(property(get = __cordl_internal_get___8__1, put = __cordl_internal_set___8__1))::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>* __8__1;
 
   /// @brief Field <addLeft>5__2, offset 0x30, size 0x8
-  __declspec(property(get = __get__addLeft_5__2, put = __set__addLeft_5__2))::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* _addLeft_5__2;
+  __declspec(property(get = __cordl_internal_get__addLeft_5__2,
+                      put = __cordl_internal_set__addLeft_5__2))::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* _addLeft_5__2;
 
   /// @brief Field <addRight>5__3, offset 0x38, size 0x8
-  __declspec(property(get = __get__addRight_5__3, put = __set__addRight_5__3))::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* _addRight_5__3;
+  __declspec(property(get = __cordl_internal_get__addRight_5__3,
+                      put = __cordl_internal_set__addRight_5__3))::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* _addRight_5__3;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_ProBuilder_KdTree_KdTreeNode_TKey_TValue___get_Current))::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<
       TKey, TValue>* System_Collections_Generic_IEnumerator_UnityEngine_ProBuilder_KdTree_KdTreeNode_TKey_TValue___Current;
@@ -196,41 +199,41 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*& __get___2__current();
+  constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set___2__current(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* value);
 
-  constexpr ::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>*& __get___4__this();
+  constexpr ::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>* value);
 
-  constexpr ::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>*& __get___8__1();
+  constexpr ::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>*& __cordl_internal_get___8__1();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>*> const& __get___8__1() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>*> const& __cordl_internal_get___8__1() const;
 
-  constexpr void __set___8__1(::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>* value);
+  constexpr void __cordl_internal_set___8__1(::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*& __get__addLeft_5__2();
+  constexpr ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*& __cordl_internal_get__addLeft_5__2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*> const& __get__addLeft_5__2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*> const& __cordl_internal_get__addLeft_5__2() const;
 
-  constexpr void __set__addLeft_5__2(::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* value);
+  constexpr void __cordl_internal_set__addLeft_5__2(::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* value);
 
-  constexpr ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*& __get__addRight_5__3();
+  constexpr ::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*& __cordl_internal_get__addRight_5__3();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*> const& __get__addRight_5__3() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>*> const& __cordl_internal_get__addRight_5__3() const;
 
-  constexpr void __set__addRight_5__3(::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* value);
+  constexpr void __cordl_internal_set__addRight_5__3(::System::Action_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* value);
 
   static inline ::UnityEngine::ProBuilder::KdTree::__KdTree_2___GetEnumerator_d__33<TKey, TValue>* New_ctor(int32_t __1__state);
 
@@ -295,7 +298,7 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15914)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15914))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15918))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::KdTree`2<TKey,TValue>*
 class CORDL_TYPE KdTree_2 : public ::System::Object {
@@ -306,20 +309,20 @@ public:
   using __c__DisplayClass33_0 = ::UnityEngine::ProBuilder::KdTree::__KdTree_2____c__DisplayClass33_0<TKey, TValue>;
 
   /// @brief Field dimensions, offset 0x10, size 0x4
-  __declspec(property(get = __get_dimensions, put = __set_dimensions)) int32_t dimensions;
+  __declspec(property(get = __cordl_internal_get_dimensions, put = __cordl_internal_set_dimensions)) int32_t dimensions;
 
   /// @brief Field typeMath, offset 0x18, size 0x8
-  __declspec(property(get = __get_typeMath, put = __set_typeMath))::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* typeMath;
+  __declspec(property(get = __cordl_internal_get_typeMath, put = __cordl_internal_set_typeMath))::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* typeMath;
 
   /// @brief Field root, offset 0x20, size 0x8
-  __declspec(property(get = __get_root, put = __set_root))::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* root;
+  __declspec(property(get = __cordl_internal_get_root, put = __cordl_internal_set_root))::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* root;
 
   /// @brief Field <AddDuplicateBehavior>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__AddDuplicateBehavior_k__BackingField,
-                      put = __set__AddDuplicateBehavior_k__BackingField))::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior _AddDuplicateBehavior_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__AddDuplicateBehavior_k__BackingField,
+                      put = __cordl_internal_set__AddDuplicateBehavior_k__BackingField))::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior _AddDuplicateBehavior_k__BackingField;
 
   /// @brief Field <Count>k__BackingField, offset 0x2c, size 0x4
-  __declspec(property(get = __get__Count_k__BackingField, put = __set__Count_k__BackingField)) int32_t _Count_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Count_k__BackingField, put = __cordl_internal_set__Count_k__BackingField)) int32_t _Count_k__BackingField;
 
   __declspec(property(get = get_AddDuplicateBehavior, put = set_AddDuplicateBehavior))::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior AddDuplicateBehavior;
 
@@ -344,35 +347,35 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr int32_t& __get_dimensions();
+  constexpr int32_t& __cordl_internal_get_dimensions();
 
-  constexpr int32_t const& __get_dimensions() const;
+  constexpr int32_t const& __cordl_internal_get_dimensions() const;
 
-  constexpr void __set_dimensions(int32_t value);
+  constexpr void __cordl_internal_set_dimensions(int32_t value);
 
-  constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>*& __get_typeMath();
+  constexpr ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>*& __cordl_internal_get_typeMath();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>*> const& __get_typeMath() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>*> const& __cordl_internal_get_typeMath() const;
 
-  constexpr void __set_typeMath(::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* value);
+  constexpr void __cordl_internal_set_typeMath(::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* value);
 
-  constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*& __get_root();
+  constexpr ::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*& __cordl_internal_get_root();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*> const& __get_root() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*> const& __cordl_internal_get_root() const;
 
-  constexpr void __set_root(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* value);
+  constexpr void __cordl_internal_set_root(::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>* value);
 
-  constexpr ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior& __get__AddDuplicateBehavior_k__BackingField();
+  constexpr ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior& __cordl_internal_get__AddDuplicateBehavior_k__BackingField();
 
-  constexpr ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior const& __get__AddDuplicateBehavior_k__BackingField() const;
+  constexpr ::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior const& __cordl_internal_get__AddDuplicateBehavior_k__BackingField() const;
 
-  constexpr void __set__AddDuplicateBehavior_k__BackingField(::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior value);
+  constexpr void __cordl_internal_set__AddDuplicateBehavior_k__BackingField(::UnityEngine::ProBuilder::KdTree::AddDuplicateBehavior value);
 
-  constexpr int32_t& __get__Count_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__Count_k__BackingField();
 
-  constexpr int32_t const& __get__Count_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__Count_k__BackingField() const;
 
-  constexpr void __set__Count_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__Count_k__BackingField(int32_t value);
 
   static inline ::UnityEngine::ProBuilder::KdTree::KdTree_2<TKey, TValue>* New_ctor(int32_t dimensions, ::UnityEngine::ProBuilder::KdTree::ITypeMath_1<TKey>* typeMath);
 

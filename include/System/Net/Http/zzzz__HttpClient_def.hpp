@@ -80,9 +80,10 @@ MARK_VAL_T(::System::Net::Http::__HttpClient___SendAsyncWorker_d__47);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14645)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 883
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(14655)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 883 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(14642)) CS Name: ::HttpClient::<SendAsyncWorker>d__47
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3395)), TypeDefinitionIndex(TypeDefinitionIndex(3397)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(14645)), TypeDefinitionIndex(TypeDefinitionIndex(14655)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3397), inst: 883 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 883 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14642)) CS Name:
+// ::HttpClient::<SendAsyncWorker>d__47
 struct CORDL_TYPE __HttpClient___SendAsyncWorker_d__47 {
 public:
   // Declarations
@@ -180,9 +181,9 @@ static_assert(offsetof(::System::Net::Http::__HttpClient___SendAsyncWorker_d__47
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 883 }), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3397), inst: 397 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14655))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14643)) CS Name: ::HttpClient::<GetStringAsync>d__53
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(14655)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 397 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 883 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 397 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14643)) CS Name: ::HttpClient::<GetStringAsync>d__53
 struct CORDL_TYPE __HttpClient___GetStringAsync_d__53 {
 public:
   // Declarations
@@ -261,7 +262,7 @@ static_assert(offsetof(::System::Net::Http::__HttpClient___GetStringAsync_d__53,
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14651)), TypeDefinitionIndex(TypeDefinitionIndex(2484))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(14651))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14644))
 // CS Name: ::System.Net.Http::HttpClient*
 class CORDL_TYPE HttpClient : public ::System::Net::Http::HttpMessageInvoker {
@@ -272,22 +273,22 @@ public:
   using _SendAsyncWorker_d__47 = ::System::Net::Http::__HttpClient___SendAsyncWorker_d__47;
 
   /// @brief Field base_address, offset 0x20, size 0x8
-  __declspec(property(get = __get_base_address, put = __set_base_address))::System::Uri* base_address;
+  __declspec(property(get = __cordl_internal_get_base_address, put = __cordl_internal_set_base_address))::System::Uri* base_address;
 
   /// @brief Field cts, offset 0x28, size 0x8
-  __declspec(property(get = __get_cts, put = __set_cts))::System::Threading::CancellationTokenSource* cts;
+  __declspec(property(get = __cordl_internal_get_cts, put = __cordl_internal_set_cts))::System::Threading::CancellationTokenSource* cts;
 
   /// @brief Field disposed, offset 0x30, size 0x1
-  __declspec(property(get = __get_disposed, put = __set_disposed)) bool disposed;
+  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
   /// @brief Field headers, offset 0x38, size 0x8
-  __declspec(property(get = __get_headers, put = __set_headers))::System::Net::Http::Headers::HttpRequestHeaders* headers;
+  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers))::System::Net::Http::Headers::HttpRequestHeaders* headers;
 
   /// @brief Field buffer_size, offset 0x40, size 0x8
-  __declspec(property(get = __get_buffer_size, put = __set_buffer_size)) int64_t buffer_size;
+  __declspec(property(get = __cordl_internal_get_buffer_size, put = __cordl_internal_set_buffer_size)) int64_t buffer_size;
 
   /// @brief Field timeout, offset 0x48, size 0x8
-  __declspec(property(get = __get_timeout, put = __set_timeout))::System::TimeSpan timeout;
+  __declspec(property(get = __cordl_internal_get_timeout, put = __cordl_internal_set_timeout))::System::TimeSpan timeout;
 
   /// @brief Field TimeoutDefault, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_TimeoutDefault, put = setStaticF_TimeoutDefault))::System::TimeSpan TimeoutDefault;
@@ -296,41 +297,41 @@ public:
 
   __declspec(property(put = set_Timeout))::System::TimeSpan Timeout;
 
-  constexpr ::System::Uri*& __get_base_address();
+  constexpr ::System::Uri*& __cordl_internal_get_base_address();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __get_base_address() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_base_address() const;
 
-  constexpr void __set_base_address(::System::Uri* value);
+  constexpr void __cordl_internal_set_base_address(::System::Uri* value);
 
-  constexpr ::System::Threading::CancellationTokenSource*& __get_cts();
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get_cts();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __get_cts() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get_cts() const;
 
-  constexpr void __set_cts(::System::Threading::CancellationTokenSource* value);
+  constexpr void __cordl_internal_set_cts(::System::Threading::CancellationTokenSource* value);
 
-  constexpr bool& __get_disposed();
+  constexpr bool& __cordl_internal_get_disposed();
 
-  constexpr bool const& __get_disposed() const;
+  constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr void __set_disposed(bool value);
+  constexpr void __cordl_internal_set_disposed(bool value);
 
-  constexpr ::System::Net::Http::Headers::HttpRequestHeaders*& __get_headers();
+  constexpr ::System::Net::Http::Headers::HttpRequestHeaders*& __cordl_internal_get_headers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpRequestHeaders*> const& __get_headers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpRequestHeaders*> const& __cordl_internal_get_headers() const;
 
-  constexpr void __set_headers(::System::Net::Http::Headers::HttpRequestHeaders* value);
+  constexpr void __cordl_internal_set_headers(::System::Net::Http::Headers::HttpRequestHeaders* value);
 
-  constexpr int64_t& __get_buffer_size();
+  constexpr int64_t& __cordl_internal_get_buffer_size();
 
-  constexpr int64_t const& __get_buffer_size() const;
+  constexpr int64_t const& __cordl_internal_get_buffer_size() const;
 
-  constexpr void __set_buffer_size(int64_t value);
+  constexpr void __cordl_internal_set_buffer_size(int64_t value);
 
-  constexpr ::System::TimeSpan& __get_timeout();
+  constexpr ::System::TimeSpan& __cordl_internal_get_timeout();
 
-  constexpr ::System::TimeSpan const& __get_timeout() const;
+  constexpr ::System::TimeSpan const& __cordl_internal_get_timeout() const;
 
-  constexpr void __set_timeout(::System::TimeSpan value);
+  constexpr void __cordl_internal_set_timeout(::System::TimeSpan value);
 
   static inline void setStaticF_TimeoutDefault(::System::TimeSpan value);
 

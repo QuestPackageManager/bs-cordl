@@ -35,76 +35,77 @@ MARK_REF_PTR_T(::GlobalNamespace::JoinQuickPlayViewController);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5716))
 // CS Name: ::JoinQuickPlayViewController*
 class CORDL_TYPE JoinQuickPlayViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _beatmapDifficultyDropdown, offset 0x70, size 0x8
-  __declspec(property(get = __get__beatmapDifficultyDropdown, put = __set__beatmapDifficultyDropdown))::GlobalNamespace::BeatmapDifficultyDropdown* _beatmapDifficultyDropdown;
+  __declspec(property(get = __cordl_internal_get__beatmapDifficultyDropdown,
+                      put = __cordl_internal_set__beatmapDifficultyDropdown))::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> _beatmapDifficultyDropdown;
 
   /// @brief Field _songPacksDropdown, offset 0x78, size 0x8
-  __declspec(property(get = __get__songPacksDropdown, put = __set__songPacksDropdown))::GlobalNamespace::QuickPlaySongPacksDropdown* _songPacksDropdown;
+  __declspec(property(get = __cordl_internal_get__songPacksDropdown, put = __cordl_internal_set__songPacksDropdown))::UnityW<::GlobalNamespace::QuickPlaySongPacksDropdown> _songPacksDropdown;
 
   /// @brief Field _levelSelectionToggle, offset 0x80, size 0x8
-  __declspec(property(get = __get__levelSelectionToggle, put = __set__levelSelectionToggle))::UnityEngine::UI::Toggle* _levelSelectionToggle;
+  __declspec(property(get = __cordl_internal_get__levelSelectionToggle, put = __cordl_internal_set__levelSelectionToggle))::UnityW<::UnityEngine::UI::Toggle> _levelSelectionToggle;
 
   /// @brief Field _joinButton, offset 0x88, size 0x8
-  __declspec(property(get = __get__joinButton, put = __set__joinButton))::UnityEngine::UI::Button* _joinButton;
+  __declspec(property(get = __cordl_internal_get__joinButton, put = __cordl_internal_set__joinButton))::UnityW<::UnityEngine::UI::Button> _joinButton;
 
   /// @brief Field _cancelJoinButton, offset 0x90, size 0x8
-  __declspec(property(get = __get__cancelJoinButton, put = __set__cancelJoinButton))::UnityEngine::UI::Button* _cancelJoinButton;
+  __declspec(property(get = __cordl_internal_get__cancelJoinButton, put = __cordl_internal_set__cancelJoinButton))::UnityW<::UnityEngine::UI::Button> _cancelJoinButton;
 
   /// @brief Field didFinishEvent, offset 0x98, size 0x8
-  __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action_1<bool>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<bool>* didFinishEvent;
 
   /// @brief Field _multiplayerModeSettings, offset 0xa0, size 0x8
-  __declspec(property(get = __get__multiplayerModeSettings, put = __set__multiplayerModeSettings))::GlobalNamespace::MultiplayerModeSettings* _multiplayerModeSettings;
+  __declspec(property(get = __cordl_internal_get__multiplayerModeSettings, put = __cordl_internal_set__multiplayerModeSettings))::GlobalNamespace::MultiplayerModeSettings* _multiplayerModeSettings;
 
   __declspec(property(get = get_multiplayerModeSettings))::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings;
 
-  constexpr ::GlobalNamespace::BeatmapDifficultyDropdown*& __get__beatmapDifficultyDropdown();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown>& __cordl_internal_get__beatmapDifficultyDropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDifficultyDropdown*> const& __get__beatmapDifficultyDropdown() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> const& __cordl_internal_get__beatmapDifficultyDropdown() const;
 
-  constexpr void __set__beatmapDifficultyDropdown(::GlobalNamespace::BeatmapDifficultyDropdown* value);
+  constexpr void __cordl_internal_set__beatmapDifficultyDropdown(::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> value);
 
-  constexpr ::GlobalNamespace::QuickPlaySongPacksDropdown*& __get__songPacksDropdown();
+  constexpr ::UnityW<::GlobalNamespace::QuickPlaySongPacksDropdown>& __cordl_internal_get__songPacksDropdown();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::QuickPlaySongPacksDropdown*> const& __get__songPacksDropdown() const;
+  constexpr ::UnityW<::GlobalNamespace::QuickPlaySongPacksDropdown> const& __cordl_internal_get__songPacksDropdown() const;
 
-  constexpr void __set__songPacksDropdown(::GlobalNamespace::QuickPlaySongPacksDropdown* value);
+  constexpr void __cordl_internal_set__songPacksDropdown(::UnityW<::GlobalNamespace::QuickPlaySongPacksDropdown> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__levelSelectionToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__levelSelectionToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__levelSelectionToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__levelSelectionToggle() const;
 
-  constexpr void __set__levelSelectionToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__levelSelectionToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__joinButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__joinButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__joinButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__joinButton() const;
 
-  constexpr void __set__joinButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__joinButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__cancelJoinButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__cancelJoinButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__cancelJoinButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelJoinButton() const;
 
-  constexpr void __set__cancelJoinButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__cancelJoinButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::System::Action_1<bool>*& __get_didFinishEvent();
+  constexpr ::System::Action_1<bool>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_1<bool>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<bool>* value);
 
-  constexpr ::GlobalNamespace::MultiplayerModeSettings*& __get__multiplayerModeSettings();
+  constexpr ::GlobalNamespace::MultiplayerModeSettings*& __cordl_internal_get__multiplayerModeSettings();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerModeSettings*> const& __get__multiplayerModeSettings() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerModeSettings*> const& __cordl_internal_get__multiplayerModeSettings() const;
 
-  constexpr void __set__multiplayerModeSettings(::GlobalNamespace::MultiplayerModeSettings* value);
+  constexpr void __cordl_internal_set__multiplayerModeSettings(::GlobalNamespace::MultiplayerModeSettings* value);
 
   /// @brief Method add_didFinishEvent, addr 0x22cda2c, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<bool>* value);
@@ -150,19 +151,19 @@ protected:
 
 public:
   /// @brief Field _beatmapDifficultyDropdown, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapDifficultyDropdown* ____beatmapDifficultyDropdown;
+  ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> ____beatmapDifficultyDropdown;
 
   /// @brief Field _songPacksDropdown, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::QuickPlaySongPacksDropdown* ____songPacksDropdown;
+  ::UnityW<::GlobalNamespace::QuickPlaySongPacksDropdown> ____songPacksDropdown;
 
   /// @brief Field _levelSelectionToggle, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____levelSelectionToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____levelSelectionToggle;
 
   /// @brief Field _joinButton, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____joinButton;
+  ::UnityW<::UnityEngine::UI::Button> ____joinButton;
 
   /// @brief Field _cancelJoinButton, offset: 0x90, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____cancelJoinButton;
+  ::UnityW<::UnityEngine::UI::Button> ____cancelJoinButton;
 
   /// @brief Field didFinishEvent, offset: 0x98, size: 0x8, def value: None
   ::System::Action_1<bool>* ___didFinishEvent;

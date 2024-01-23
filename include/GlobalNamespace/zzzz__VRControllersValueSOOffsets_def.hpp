@@ -20,33 +20,33 @@ MARK_REF_PTR_T(::GlobalNamespace::VRControllersValueSOOffsets);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14439))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14439))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4686))
 // CS Name: ::VRControllersValueSOOffsets*
 class CORDL_TYPE VRControllersValueSOOffsets : public ::GlobalNamespace::VRControllerTransformOffset {
 public:
   // Declarations
   /// @brief Field _positionOffset, offset 0x18, size 0x8
-  __declspec(property(get = __get__positionOffset, put = __set__positionOffset))::GlobalNamespace::Vector3SO* _positionOffset;
+  __declspec(property(get = __cordl_internal_get__positionOffset, put = __cordl_internal_set__positionOffset))::UnityW<::GlobalNamespace::Vector3SO> _positionOffset;
 
   /// @brief Field _rotationOffset, offset 0x20, size 0x8
-  __declspec(property(get = __get__rotationOffset, put = __set__rotationOffset))::GlobalNamespace::Vector3SO* _rotationOffset;
+  __declspec(property(get = __cordl_internal_get__rotationOffset, put = __cordl_internal_set__rotationOffset))::UnityW<::GlobalNamespace::Vector3SO> _rotationOffset;
 
   __declspec(property(get = get_positionOffset))::UnityEngine::Vector3 positionOffset;
 
   __declspec(property(get = get_rotationOffset))::UnityEngine::Vector3 rotationOffset;
 
-  constexpr ::GlobalNamespace::Vector3SO*& __get__positionOffset();
+  constexpr ::UnityW<::GlobalNamespace::Vector3SO>& __cordl_internal_get__positionOffset();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Vector3SO*> const& __get__positionOffset() const;
+  constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& __cordl_internal_get__positionOffset() const;
 
-  constexpr void __set__positionOffset(::GlobalNamespace::Vector3SO* value);
+  constexpr void __cordl_internal_set__positionOffset(::UnityW<::GlobalNamespace::Vector3SO> value);
 
-  constexpr ::GlobalNamespace::Vector3SO*& __get__rotationOffset();
+  constexpr ::UnityW<::GlobalNamespace::Vector3SO>& __cordl_internal_get__rotationOffset();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Vector3SO*> const& __get__rotationOffset() const;
+  constexpr ::UnityW<::GlobalNamespace::Vector3SO> const& __cordl_internal_get__rotationOffset() const;
 
-  constexpr void __set__rotationOffset(::GlobalNamespace::Vector3SO* value);
+  constexpr void __cordl_internal_set__rotationOffset(::UnityW<::GlobalNamespace::Vector3SO> value);
 
   /// @brief Method get_positionOffset, addr 0x2376250, size 0x4c, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_positionOffset();
@@ -74,10 +74,10 @@ protected:
 
 public:
   /// @brief Field _positionOffset, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::Vector3SO* ____positionOffset;
+  ::UnityW<::GlobalNamespace::Vector3SO> ____positionOffset;
 
   /// @brief Field _rotationOffset, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::Vector3SO* ____rotationOffset;
+  ::UnityW<::GlobalNamespace::Vector3SO> ____rotationOffset;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

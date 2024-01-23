@@ -90,7 +90,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_AttributesStore__SetAttributeValueFun
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9664))
 // CS Name: ::HEU_AttributesStore::SetAttributeValueFunc*
 class CORDL_TYPE __HEU_AttributesStore__SetAttributeValueFunc : public ::System::MulticastDelegate {
@@ -135,7 +135,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_Attrib
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 146, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9665))
 // CS Name: ::HoudiniEngineUnity::HEU_AttributesStore*
 class CORDL_TYPE HEU_AttributesStore : public ::UnityEngine::ScriptableObject {
@@ -144,58 +144,61 @@ public:
   using SetAttributeValueFunc = ::HoudiniEngineUnity::__HEU_AttributesStore__SetAttributeValueFunc;
 
   /// @brief Field _geoID, offset 0x18, size 0x4
-  __declspec(property(get = __get__geoID, put = __set__geoID)) int32_t _geoID;
+  __declspec(property(get = __cordl_internal_get__geoID, put = __cordl_internal_set__geoID)) int32_t _geoID;
 
   /// @brief Field _partID, offset 0x1c, size 0x4
-  __declspec(property(get = __get__partID, put = __set__partID)) int32_t _partID;
+  __declspec(property(get = __cordl_internal_get__partID, put = __cordl_internal_set__partID)) int32_t _partID;
 
   /// @brief Field _geoName, offset 0x20, size 0x8
-  __declspec(property(get = __get__geoName, put = __set__geoName))::StringW _geoName;
+  __declspec(property(get = __cordl_internal_get__geoName, put = __cordl_internal_set__geoName))::StringW _geoName;
 
   /// @brief Field _attributeDatas, offset 0x28, size 0x8
-  __declspec(property(get = __get__attributeDatas, put = __set__attributeDatas))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>* _attributeDatas;
+  __declspec(property(get = __cordl_internal_get__attributeDatas,
+                      put = __cordl_internal_set__attributeDatas))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>* _attributeDatas;
 
   /// @brief Field _hasColorAttribute, offset 0x30, size 0x1
-  __declspec(property(get = __get__hasColorAttribute, put = __set__hasColorAttribute)) bool _hasColorAttribute;
+  __declspec(property(get = __cordl_internal_get__hasColorAttribute, put = __cordl_internal_set__hasColorAttribute)) bool _hasColorAttribute;
 
   /// @brief Field _localMaterial, offset 0x38, size 0x8
-  __declspec(property(get = __get__localMaterial, put = __set__localMaterial))::UnityEngine::Material* _localMaterial;
+  __declspec(property(get = __cordl_internal_get__localMaterial, put = __cordl_internal_set__localMaterial))::UnityW<::UnityEngine::Material> _localMaterial;
 
   /// @brief Field _outputTransform, offset 0x40, size 0x8
-  __declspec(property(get = __get__outputTransform, put = __set__outputTransform))::UnityEngine::Transform* _outputTransform;
+  __declspec(property(get = __cordl_internal_get__outputTransform, put = __cordl_internal_set__outputTransform))::UnityW<::UnityEngine::Transform> _outputTransform;
 
   /// @brief Field _positionAttributeValues, offset 0x48, size 0x8
-  __declspec(property(get = __get__positionAttributeValues, put = __set__positionAttributeValues))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _positionAttributeValues;
+  __declspec(property(get = __cordl_internal_get__positionAttributeValues,
+                      put = __cordl_internal_set__positionAttributeValues))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _positionAttributeValues;
 
   /// @brief Field _vertexIndices, offset 0x50, size 0x8
-  __declspec(property(get = __get__vertexIndices, put = __set__vertexIndices))::ArrayW<int32_t, ::Array<int32_t>*> _vertexIndices;
+  __declspec(property(get = __cordl_internal_get__vertexIndices, put = __cordl_internal_set__vertexIndices))::ArrayW<int32_t, ::Array<int32_t>*> _vertexIndices;
 
   /// @brief Field _outputGameObject, offset 0x58, size 0x8
-  __declspec(property(get = __get__outputGameObject, put = __set__outputGameObject))::UnityEngine::GameObject* _outputGameObject;
+  __declspec(property(get = __cordl_internal_get__outputGameObject, put = __cordl_internal_set__outputGameObject))::UnityW<::UnityEngine::GameObject> _outputGameObject;
 
   /// @brief Field _outputMesh, offset 0x60, size 0x8
-  __declspec(property(get = __get__outputMesh, put = __set__outputMesh))::UnityEngine::Mesh* _outputMesh;
+  __declspec(property(get = __cordl_internal_get__outputMesh, put = __cordl_internal_set__outputMesh))::UnityW<::UnityEngine::Mesh> _outputMesh;
 
   /// @brief Field _outputMaterials, offset 0x68, size 0x8
-  __declspec(property(get = __get__outputMaterials, put = __set__outputMaterials))::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> _outputMaterials;
+  __declspec(property(get = __cordl_internal_get__outputMaterials,
+                      put = __cordl_internal_set__outputMaterials))::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> _outputMaterials;
 
   /// @brief Field _outputCollider, offset 0x70, size 0x8
-  __declspec(property(get = __get__outputCollider, put = __set__outputCollider))::UnityEngine::MeshCollider* _outputCollider;
+  __declspec(property(get = __cordl_internal_get__outputCollider, put = __cordl_internal_set__outputCollider))::UnityW<::UnityEngine::MeshCollider> _outputCollider;
 
   /// @brief Field _outputColliderMesh, offset 0x78, size 0x8
-  __declspec(property(get = __get__outputColliderMesh, put = __set__outputColliderMesh))::UnityEngine::Mesh* _outputColliderMesh;
+  __declspec(property(get = __cordl_internal_get__outputColliderMesh, put = __cordl_internal_set__outputColliderMesh))::UnityW<::UnityEngine::Mesh> _outputColliderMesh;
 
   /// @brief Field _outputMeshCollider, offset 0x80, size 0x8
-  __declspec(property(get = __get__outputMeshCollider, put = __set__outputMeshCollider))::UnityEngine::MeshCollider* _outputMeshCollider;
+  __declspec(property(get = __cordl_internal_get__outputMeshCollider, put = __cordl_internal_set__outputMeshCollider))::UnityW<::UnityEngine::MeshCollider> _outputMeshCollider;
 
   /// @brief Field _localMeshCollider, offset 0x88, size 0x8
-  __declspec(property(get = __get__localMeshCollider, put = __set__localMeshCollider))::UnityEngine::MeshCollider* _localMeshCollider;
+  __declspec(property(get = __cordl_internal_get__localMeshCollider, put = __cordl_internal_set__localMeshCollider))::UnityW<::UnityEngine::MeshCollider> _localMeshCollider;
 
   /// @brief Field _outputMeshRendererInitiallyEnabled, offset 0x90, size 0x1
-  __declspec(property(get = __get__outputMeshRendererInitiallyEnabled, put = __set__outputMeshRendererInitiallyEnabled)) bool _outputMeshRendererInitiallyEnabled;
+  __declspec(property(get = __cordl_internal_get__outputMeshRendererInitiallyEnabled, put = __cordl_internal_set__outputMeshRendererInitiallyEnabled)) bool _outputMeshRendererInitiallyEnabled;
 
   /// @brief Field _outputMeshColliderInitiallyEnabled, offset 0x91, size 0x1
-  __declspec(property(get = __get__outputMeshColliderInitiallyEnabled, put = __set__outputMeshColliderInitiallyEnabled)) bool _outputMeshColliderInitiallyEnabled;
+  __declspec(property(get = __cordl_internal_get__outputMeshColliderInitiallyEnabled, put = __cordl_internal_set__outputMeshColliderInitiallyEnabled)) bool _outputMeshColliderInitiallyEnabled;
 
   __declspec(property(get = get_GeoID)) int32_t GeoID;
 
@@ -203,123 +206,124 @@ public:
 
   __declspec(property(get = get_GeoName))::StringW GeoName;
 
-  __declspec(property(get = get_OutputTransform))::UnityEngine::Transform* OutputTransform;
+  __declspec(property(get = get_OutputTransform))::UnityW<::UnityEngine::Transform> OutputTransform;
 
-  __declspec(property(get = get_OutputMesh))::UnityEngine::Mesh* OutputMesh;
+  __declspec(property(get = get_OutputMesh))::UnityW<::UnityEngine::Mesh> OutputMesh;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributesStore*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributesStore*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributesStore*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_AttributesStore*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_AttributesStore__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_AttributesStore>>*
+  i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_AttributesStore__() noexcept;
 
-  constexpr int32_t& __get__geoID();
+  constexpr int32_t& __cordl_internal_get__geoID();
 
-  constexpr int32_t const& __get__geoID() const;
+  constexpr int32_t const& __cordl_internal_get__geoID() const;
 
-  constexpr void __set__geoID(int32_t value);
+  constexpr void __cordl_internal_set__geoID(int32_t value);
 
-  constexpr int32_t& __get__partID();
+  constexpr int32_t& __cordl_internal_get__partID();
 
-  constexpr int32_t const& __get__partID() const;
+  constexpr int32_t const& __cordl_internal_get__partID() const;
 
-  constexpr void __set__partID(int32_t value);
+  constexpr void __cordl_internal_set__partID(int32_t value);
 
-  constexpr ::StringW& __get__geoName();
+  constexpr ::StringW& __cordl_internal_get__geoName();
 
-  constexpr ::StringW const& __get__geoName() const;
+  constexpr ::StringW const& __cordl_internal_get__geoName() const;
 
-  constexpr void __set__geoName(::StringW value);
+  constexpr void __cordl_internal_set__geoName(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>*& __get__attributeDatas();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>*& __cordl_internal_get__attributeDatas();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>*> const& __get__attributeDatas() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>*> const& __cordl_internal_get__attributeDatas() const;
 
-  constexpr void __set__attributeDatas(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>* value);
+  constexpr void __cordl_internal_set__attributeDatas(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_AttributeData*>* value);
 
-  constexpr bool& __get__hasColorAttribute();
+  constexpr bool& __cordl_internal_get__hasColorAttribute();
 
-  constexpr bool const& __get__hasColorAttribute() const;
+  constexpr bool const& __cordl_internal_get__hasColorAttribute() const;
 
-  constexpr void __set__hasColorAttribute(bool value);
+  constexpr void __cordl_internal_set__hasColorAttribute(bool value);
 
-  constexpr ::UnityEngine::Material*& __get__localMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__localMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__localMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__localMaterial() const;
 
-  constexpr void __set__localMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__localMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::UnityEngine::Transform*& __get__outputTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__outputTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__outputTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__outputTransform() const;
 
-  constexpr void __set__outputTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__outputTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get__positionAttributeValues();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__positionAttributeValues();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get__positionAttributeValues() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__positionAttributeValues() const;
 
-  constexpr void __set__positionAttributeValues(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set__positionAttributeValues(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__vertexIndices();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__vertexIndices();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__vertexIndices() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__vertexIndices() const;
 
-  constexpr void __set__vertexIndices(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__vertexIndices(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__outputGameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__outputGameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__outputGameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__outputGameObject() const;
 
-  constexpr void __set__outputGameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__outputGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::Mesh*& __get__outputMesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__outputMesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get__outputMesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__outputMesh() const;
 
-  constexpr void __set__outputMesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set__outputMesh(::UnityW<::UnityEngine::Mesh> value);
 
-  constexpr ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>& __get__outputMaterials();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*>& __cordl_internal_get__outputMaterials();
 
-  constexpr ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> const& __get__outputMaterials() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> const& __cordl_internal_get__outputMaterials() const;
 
-  constexpr void __set__outputMaterials(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> value);
+  constexpr void __cordl_internal_set__outputMaterials(::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> value);
 
-  constexpr ::UnityEngine::MeshCollider*& __get__outputCollider();
+  constexpr ::UnityW<::UnityEngine::MeshCollider>& __cordl_internal_get__outputCollider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshCollider*> const& __get__outputCollider() const;
+  constexpr ::UnityW<::UnityEngine::MeshCollider> const& __cordl_internal_get__outputCollider() const;
 
-  constexpr void __set__outputCollider(::UnityEngine::MeshCollider* value);
+  constexpr void __cordl_internal_set__outputCollider(::UnityW<::UnityEngine::MeshCollider> value);
 
-  constexpr ::UnityEngine::Mesh*& __get__outputColliderMesh();
+  constexpr ::UnityW<::UnityEngine::Mesh>& __cordl_internal_get__outputColliderMesh();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Mesh*> const& __get__outputColliderMesh() const;
+  constexpr ::UnityW<::UnityEngine::Mesh> const& __cordl_internal_get__outputColliderMesh() const;
 
-  constexpr void __set__outputColliderMesh(::UnityEngine::Mesh* value);
+  constexpr void __cordl_internal_set__outputColliderMesh(::UnityW<::UnityEngine::Mesh> value);
 
-  constexpr ::UnityEngine::MeshCollider*& __get__outputMeshCollider();
+  constexpr ::UnityW<::UnityEngine::MeshCollider>& __cordl_internal_get__outputMeshCollider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshCollider*> const& __get__outputMeshCollider() const;
+  constexpr ::UnityW<::UnityEngine::MeshCollider> const& __cordl_internal_get__outputMeshCollider() const;
 
-  constexpr void __set__outputMeshCollider(::UnityEngine::MeshCollider* value);
+  constexpr void __cordl_internal_set__outputMeshCollider(::UnityW<::UnityEngine::MeshCollider> value);
 
-  constexpr ::UnityEngine::MeshCollider*& __get__localMeshCollider();
+  constexpr ::UnityW<::UnityEngine::MeshCollider>& __cordl_internal_get__localMeshCollider();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshCollider*> const& __get__localMeshCollider() const;
+  constexpr ::UnityW<::UnityEngine::MeshCollider> const& __cordl_internal_get__localMeshCollider() const;
 
-  constexpr void __set__localMeshCollider(::UnityEngine::MeshCollider* value);
+  constexpr void __cordl_internal_set__localMeshCollider(::UnityW<::UnityEngine::MeshCollider> value);
 
-  constexpr bool& __get__outputMeshRendererInitiallyEnabled();
+  constexpr bool& __cordl_internal_get__outputMeshRendererInitiallyEnabled();
 
-  constexpr bool const& __get__outputMeshRendererInitiallyEnabled() const;
+  constexpr bool const& __cordl_internal_get__outputMeshRendererInitiallyEnabled() const;
 
-  constexpr void __set__outputMeshRendererInitiallyEnabled(bool value);
+  constexpr void __cordl_internal_set__outputMeshRendererInitiallyEnabled(bool value);
 
-  constexpr bool& __get__outputMeshColliderInitiallyEnabled();
+  constexpr bool& __cordl_internal_get__outputMeshColliderInitiallyEnabled();
 
-  constexpr bool const& __get__outputMeshColliderInitiallyEnabled() const;
+  constexpr bool const& __cordl_internal_get__outputMeshColliderInitiallyEnabled() const;
 
-  constexpr void __set__outputMeshColliderInitiallyEnabled(bool value);
+  constexpr void __cordl_internal_set__outputMeshColliderInitiallyEnabled(bool value);
 
   /// @brief Method get_GeoID, addr 0x217fc88, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_GeoID();
@@ -334,10 +338,10 @@ public:
   inline bool HasColorAttribute();
 
   /// @brief Method get_OutputTransform, addr 0x217fca8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_OutputTransform();
+  inline ::UnityW<::UnityEngine::Transform> get_OutputTransform();
 
   /// @brief Method get_OutputMesh, addr 0x217fcb0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Mesh* get_OutputMesh();
+  inline ::UnityW<::UnityEngine::Mesh> get_OutputMesh();
 
   /// @brief Method DestroyAllData, addr 0x217e964, size 0xcc, virtual false, abstract: false, final false
   inline void DestroyAllData(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
@@ -411,7 +415,7 @@ public:
   inline bool HasMeshForPainting();
 
   /// @brief Method GetPaintMeshCollider, addr 0x2181e18, size 0x78, virtual false, abstract: false, final false
-  inline ::UnityEngine::MeshCollider* GetPaintMeshCollider();
+  inline ::UnityW<::UnityEngine::MeshCollider> GetPaintMeshCollider();
 
   /// @brief Method PaintAttribute, addr 0x2181e90, size 0x54, virtual false, abstract: false, final false
   inline void PaintAttribute(::HoudiniEngineUnity::HEU_AttributeData* attributeData, ::HoudiniEngineUnity::HEU_ToolsInfo* sourceTools, int32_t attributeIndex, float_t paintFactor,
@@ -522,10 +526,10 @@ public:
   bool ____hasColorAttribute;
 
   /// @brief Field _localMaterial, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Material* ____localMaterial;
+  ::UnityW<::UnityEngine::Material> ____localMaterial;
 
   /// @brief Field _outputTransform, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____outputTransform;
+  ::UnityW<::UnityEngine::Transform> ____outputTransform;
 
   /// @brief Field _positionAttributeValues, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ____positionAttributeValues;
@@ -534,25 +538,25 @@ public:
   ::ArrayW<int32_t, ::Array<int32_t>*> ____vertexIndices;
 
   /// @brief Field _outputGameObject, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____outputGameObject;
+  ::UnityW<::UnityEngine::GameObject> ____outputGameObject;
 
   /// @brief Field _outputMesh, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ____outputMesh;
+  ::UnityW<::UnityEngine::Mesh> ____outputMesh;
 
   /// @brief Field _outputMaterials, offset: 0x68, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> ____outputMaterials;
+  ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> ____outputMaterials;
 
   /// @brief Field _outputCollider, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::MeshCollider* ____outputCollider;
+  ::UnityW<::UnityEngine::MeshCollider> ____outputCollider;
 
   /// @brief Field _outputColliderMesh, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::Mesh* ____outputColliderMesh;
+  ::UnityW<::UnityEngine::Mesh> ____outputColliderMesh;
 
   /// @brief Field _outputMeshCollider, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::MeshCollider* ____outputMeshCollider;
+  ::UnityW<::UnityEngine::MeshCollider> ____outputMeshCollider;
 
   /// @brief Field _localMeshCollider, offset: 0x88, size: 0x8, def value: None
-  ::UnityEngine::MeshCollider* ____localMeshCollider;
+  ::UnityW<::UnityEngine::MeshCollider> ____localMeshCollider;
 
   /// @brief Field _outputMeshRendererInitiallyEnabled, offset: 0x90, size: 0x1, def value: None
   bool ____outputMeshRendererInitiallyEnabled;

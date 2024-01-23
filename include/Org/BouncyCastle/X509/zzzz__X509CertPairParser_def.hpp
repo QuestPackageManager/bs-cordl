@@ -25,20 +25,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509CertPairParser);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1863))
 // CS Name: ::Org.BouncyCastle.X509::X509CertPairParser*
 class CORDL_TYPE X509CertPairParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field currentStream, offset 0x10, size 0x8
-  __declspec(property(get = __get_currentStream, put = __set_currentStream))::System::IO::Stream* currentStream;
+  __declspec(property(get = __cordl_internal_get_currentStream, put = __cordl_internal_set_currentStream))::System::IO::Stream* currentStream;
 
-  constexpr ::System::IO::Stream*& __get_currentStream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_currentStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_currentStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_currentStream() const;
 
-  constexpr void __set_currentStream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_currentStream(::System::IO::Stream* value);
 
   /// @brief Method ReadDerCrossCertificatePair, addr 0x117aae8, size 0xf4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::X509::X509CertificatePair* ReadDerCrossCertificatePair(::System::IO::Stream* inStream);

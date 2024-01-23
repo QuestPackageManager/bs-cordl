@@ -29,25 +29,25 @@ MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassEffectSO);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(14579))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(14579))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14470))
 // CS Name: ::BloomPrePassEffectSO*
 class CORDL_TYPE BloomPrePassEffectSO : public ::GlobalNamespace::TextureEffectSO {
 public:
   // Declarations
   /// @brief Field _textureWidth, offset 0x18, size 0x4
-  __declspec(property(get = __get__textureWidth, put = __set__textureWidth)) int32_t _textureWidth;
+  __declspec(property(get = __cordl_internal_get__textureWidth, put = __cordl_internal_set__textureWidth)) int32_t _textureWidth;
 
   /// @brief Field _textureHeight, offset 0x1c, size 0x4
-  __declspec(property(get = __get__textureHeight, put = __set__textureHeight)) int32_t _textureHeight;
+  __declspec(property(get = __cordl_internal_get__textureHeight, put = __cordl_internal_set__textureHeight)) int32_t _textureHeight;
 
   /// @brief Field _fov, offset 0x20, size 0x8
-  __declspec(property(get = __get__fov, put = __set__fov))::UnityEngine::Vector2 _fov;
+  __declspec(property(get = __cordl_internal_get__fov, put = __cordl_internal_set__fov))::UnityEngine::Vector2 _fov;
 
   /// @brief Field _linesWidth, offset 0x28, size 0x4
-  __declspec(property(get = __get__linesWidth, put = __set__linesWidth)) float_t _linesWidth;
+  __declspec(property(get = __cordl_internal_get__linesWidth, put = __cordl_internal_set__linesWidth)) float_t _linesWidth;
 
-  __declspec(property(get = get_textureEffect))::GlobalNamespace::TextureEffectSO* textureEffect;
+  __declspec(property(get = get_textureEffect))::UnityW<::GlobalNamespace::TextureEffectSO> textureEffect;
 
   __declspec(property(get = get_textureWidth)) int32_t textureWidth;
 
@@ -65,32 +65,32 @@ public:
   /// @brief Convert to "::GlobalNamespace::IBloomPrePassParams"
   constexpr ::GlobalNamespace::IBloomPrePassParams* i___GlobalNamespace__IBloomPrePassParams() noexcept;
 
-  constexpr int32_t& __get__textureWidth();
+  constexpr int32_t& __cordl_internal_get__textureWidth();
 
-  constexpr int32_t const& __get__textureWidth() const;
+  constexpr int32_t const& __cordl_internal_get__textureWidth() const;
 
-  constexpr void __set__textureWidth(int32_t value);
+  constexpr void __cordl_internal_set__textureWidth(int32_t value);
 
-  constexpr int32_t& __get__textureHeight();
+  constexpr int32_t& __cordl_internal_get__textureHeight();
 
-  constexpr int32_t const& __get__textureHeight() const;
+  constexpr int32_t const& __cordl_internal_get__textureHeight() const;
 
-  constexpr void __set__textureHeight(int32_t value);
+  constexpr void __cordl_internal_set__textureHeight(int32_t value);
 
-  constexpr ::UnityEngine::Vector2& __get__fov();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__fov();
 
-  constexpr ::UnityEngine::Vector2 const& __get__fov() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__fov() const;
 
-  constexpr void __set__fov(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__fov(::UnityEngine::Vector2 value);
 
-  constexpr float_t& __get__linesWidth();
+  constexpr float_t& __cordl_internal_get__linesWidth();
 
-  constexpr float_t const& __get__linesWidth() const;
+  constexpr float_t const& __cordl_internal_get__linesWidth() const;
 
-  constexpr void __set__linesWidth(float_t value);
+  constexpr void __cordl_internal_set__linesWidth(float_t value);
 
   /// @brief Method get_textureEffect, addr 0x21068e4, size 0x4, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::TextureEffectSO* get_textureEffect();
+  inline ::UnityW<::GlobalNamespace::TextureEffectSO> get_textureEffect();
 
   /// @brief Method get_textureWidth, addr 0x21068e8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_textureWidth();

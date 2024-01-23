@@ -52,7 +52,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::TrackedPoseDriver);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6327))
 // CS Name: ::TrackedPoseDriver::TrackingType
 struct CORDL_TYPE __TrackedPoseDriver__TrackingType {
@@ -106,7 +106,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::XR::__TrackedPoseDriver__Trac
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6328))
 // CS Name: ::TrackedPoseDriver::UpdateType
 struct CORDL_TYPE __TrackedPoseDriver__UpdateType {
@@ -160,8 +160,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::XR::__TrackedPoseDriver__Upda
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 129, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6327)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6328)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6164)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6164)), TypeDefinitionIndex(TypeDefinitionIndex(6327)), TypeDefinitionIndex(TypeDefinitionIndex(6328)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(6329)) CS Name: ::UnityEngine.InputSystem.XR::TrackedPoseDriver*
 class CORDL_TYPE TrackedPoseDriver : public ::UnityEngine::MonoBehaviour {
 public:
@@ -171,37 +171,37 @@ public:
   using TrackingType = ::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType;
 
   /// @brief Field m_TrackingType, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_TrackingType, put = __set_m_TrackingType))::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType m_TrackingType;
+  __declspec(property(get = __cordl_internal_get_m_TrackingType, put = __cordl_internal_set_m_TrackingType))::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType m_TrackingType;
 
   /// @brief Field m_UpdateType, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_UpdateType, put = __set_m_UpdateType))::UnityEngine::InputSystem::XR::__TrackedPoseDriver__UpdateType m_UpdateType;
+  __declspec(property(get = __cordl_internal_get_m_UpdateType, put = __cordl_internal_set_m_UpdateType))::UnityEngine::InputSystem::XR::__TrackedPoseDriver__UpdateType m_UpdateType;
 
   /// @brief Field m_PositionInput, offset 0x20, size 0x18
-  __declspec(property(get = __get_m_PositionInput, put = __set_m_PositionInput))::UnityEngine::InputSystem::InputActionProperty m_PositionInput;
+  __declspec(property(get = __cordl_internal_get_m_PositionInput, put = __cordl_internal_set_m_PositionInput))::UnityEngine::InputSystem::InputActionProperty m_PositionInput;
 
   /// @brief Field m_RotationInput, offset 0x38, size 0x18
-  __declspec(property(get = __get_m_RotationInput, put = __set_m_RotationInput))::UnityEngine::InputSystem::InputActionProperty m_RotationInput;
+  __declspec(property(get = __cordl_internal_get_m_RotationInput, put = __cordl_internal_set_m_RotationInput))::UnityEngine::InputSystem::InputActionProperty m_RotationInput;
 
   /// @brief Field m_CurrentPosition, offset 0x50, size 0xc
-  __declspec(property(get = __get_m_CurrentPosition, put = __set_m_CurrentPosition))::UnityEngine::Vector3 m_CurrentPosition;
+  __declspec(property(get = __cordl_internal_get_m_CurrentPosition, put = __cordl_internal_set_m_CurrentPosition))::UnityEngine::Vector3 m_CurrentPosition;
 
   /// @brief Field m_CurrentRotation, offset 0x5c, size 0x10
-  __declspec(property(get = __get_m_CurrentRotation, put = __set_m_CurrentRotation))::UnityEngine::Quaternion m_CurrentRotation;
+  __declspec(property(get = __cordl_internal_get_m_CurrentRotation, put = __cordl_internal_set_m_CurrentRotation))::UnityEngine::Quaternion m_CurrentRotation;
 
   /// @brief Field m_RotationBound, offset 0x6c, size 0x1
-  __declspec(property(get = __get_m_RotationBound, put = __set_m_RotationBound)) bool m_RotationBound;
+  __declspec(property(get = __cordl_internal_get_m_RotationBound, put = __cordl_internal_set_m_RotationBound)) bool m_RotationBound;
 
   /// @brief Field m_PositionBound, offset 0x6d, size 0x1
-  __declspec(property(get = __get_m_PositionBound, put = __set_m_PositionBound)) bool m_PositionBound;
+  __declspec(property(get = __cordl_internal_get_m_PositionBound, put = __cordl_internal_set_m_PositionBound)) bool m_PositionBound;
 
   /// @brief Field m_PositionAction, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_PositionAction, put = __set_m_PositionAction))::UnityEngine::InputSystem::InputAction* m_PositionAction;
+  __declspec(property(get = __cordl_internal_get_m_PositionAction, put = __cordl_internal_set_m_PositionAction))::UnityEngine::InputSystem::InputAction* m_PositionAction;
 
   /// @brief Field m_RotationAction, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_RotationAction, put = __set_m_RotationAction))::UnityEngine::InputSystem::InputAction* m_RotationAction;
+  __declspec(property(get = __cordl_internal_get_m_RotationAction, put = __cordl_internal_set_m_RotationAction))::UnityEngine::InputSystem::InputAction* m_RotationAction;
 
   /// @brief Field m_HasMigratedActions, offset 0x80, size 0x1
-  __declspec(property(get = __get_m_HasMigratedActions, put = __set_m_HasMigratedActions)) bool m_HasMigratedActions;
+  __declspec(property(get = __cordl_internal_get_m_HasMigratedActions, put = __cordl_internal_set_m_HasMigratedActions)) bool m_HasMigratedActions;
 
   __declspec(property(get = get_trackingType, put = set_trackingType))::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType trackingType;
 
@@ -221,71 +221,71 @@ public:
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
-  constexpr ::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType& __get_m_TrackingType();
+  constexpr ::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType& __cordl_internal_get_m_TrackingType();
 
-  constexpr ::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType const& __get_m_TrackingType() const;
+  constexpr ::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType const& __cordl_internal_get_m_TrackingType() const;
 
-  constexpr void __set_m_TrackingType(::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType value);
+  constexpr void __cordl_internal_set_m_TrackingType(::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType value);
 
-  constexpr ::UnityEngine::InputSystem::XR::__TrackedPoseDriver__UpdateType& __get_m_UpdateType();
+  constexpr ::UnityEngine::InputSystem::XR::__TrackedPoseDriver__UpdateType& __cordl_internal_get_m_UpdateType();
 
-  constexpr ::UnityEngine::InputSystem::XR::__TrackedPoseDriver__UpdateType const& __get_m_UpdateType() const;
+  constexpr ::UnityEngine::InputSystem::XR::__TrackedPoseDriver__UpdateType const& __cordl_internal_get_m_UpdateType() const;
 
-  constexpr void __set_m_UpdateType(::UnityEngine::InputSystem::XR::__TrackedPoseDriver__UpdateType value);
+  constexpr void __cordl_internal_set_m_UpdateType(::UnityEngine::InputSystem::XR::__TrackedPoseDriver__UpdateType value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionProperty& __get_m_PositionInput();
+  constexpr ::UnityEngine::InputSystem::InputActionProperty& __cordl_internal_get_m_PositionInput();
 
-  constexpr ::UnityEngine::InputSystem::InputActionProperty const& __get_m_PositionInput() const;
+  constexpr ::UnityEngine::InputSystem::InputActionProperty const& __cordl_internal_get_m_PositionInput() const;
 
-  constexpr void __set_m_PositionInput(::UnityEngine::InputSystem::InputActionProperty value);
+  constexpr void __cordl_internal_set_m_PositionInput(::UnityEngine::InputSystem::InputActionProperty value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionProperty& __get_m_RotationInput();
+  constexpr ::UnityEngine::InputSystem::InputActionProperty& __cordl_internal_get_m_RotationInput();
 
-  constexpr ::UnityEngine::InputSystem::InputActionProperty const& __get_m_RotationInput() const;
+  constexpr ::UnityEngine::InputSystem::InputActionProperty const& __cordl_internal_get_m_RotationInput() const;
 
-  constexpr void __set_m_RotationInput(::UnityEngine::InputSystem::InputActionProperty value);
+  constexpr void __cordl_internal_set_m_RotationInput(::UnityEngine::InputSystem::InputActionProperty value);
 
-  constexpr ::UnityEngine::Vector3& __get_m_CurrentPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_m_CurrentPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_m_CurrentPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_m_CurrentPosition() const;
 
-  constexpr void __set_m_CurrentPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_m_CurrentPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_m_CurrentRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_m_CurrentRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_m_CurrentRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_m_CurrentRotation() const;
 
-  constexpr void __set_m_CurrentRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_m_CurrentRotation(::UnityEngine::Quaternion value);
 
-  constexpr bool& __get_m_RotationBound();
+  constexpr bool& __cordl_internal_get_m_RotationBound();
 
-  constexpr bool const& __get_m_RotationBound() const;
+  constexpr bool const& __cordl_internal_get_m_RotationBound() const;
 
-  constexpr void __set_m_RotationBound(bool value);
+  constexpr void __cordl_internal_set_m_RotationBound(bool value);
 
-  constexpr bool& __get_m_PositionBound();
+  constexpr bool& __cordl_internal_get_m_PositionBound();
 
-  constexpr bool const& __get_m_PositionBound() const;
+  constexpr bool const& __cordl_internal_get_m_PositionBound() const;
 
-  constexpr void __set_m_PositionBound(bool value);
+  constexpr void __cordl_internal_set_m_PositionBound(bool value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_m_PositionAction();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_PositionAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_m_PositionAction() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_PositionAction() const;
 
-  constexpr void __set_m_PositionAction(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_m_PositionAction(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_m_RotationAction();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_RotationAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_m_RotationAction() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_RotationAction() const;
 
-  constexpr void __set_m_RotationAction(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_m_RotationAction(::UnityEngine::InputSystem::InputAction* value);
 
-  constexpr bool& __get_m_HasMigratedActions();
+  constexpr bool& __cordl_internal_get_m_HasMigratedActions();
 
-  constexpr bool const& __get_m_HasMigratedActions() const;
+  constexpr bool const& __cordl_internal_get_m_HasMigratedActions() const;
 
-  constexpr void __set_m_HasMigratedActions(bool value);
+  constexpr void __cordl_internal_set_m_HasMigratedActions(bool value);
 
   /// @brief Method get_trackingType, addr 0x2ac5d68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::XR::__TrackedPoseDriver__TrackingType get_trackingType();

@@ -29,49 +29,51 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemesSettings);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4607))
 // CS Name: ::ColorSchemesSettings*
 class CORDL_TYPE ColorSchemesSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field overrideDefaultColors, offset 0x10, size 0x1
-  __declspec(property(get = __get_overrideDefaultColors, put = __set_overrideDefaultColors)) bool overrideDefaultColors;
+  __declspec(property(get = __cordl_internal_get_overrideDefaultColors, put = __cordl_internal_set_overrideDefaultColors)) bool overrideDefaultColors;
 
   /// @brief Field _colorSchemesList, offset 0x18, size 0x8
-  __declspec(property(get = __get__colorSchemesList, put = __set__colorSchemesList))::System::Collections::Generic::List_1<::GlobalNamespace::ColorScheme*>* _colorSchemesList;
+  __declspec(property(get = __cordl_internal_get__colorSchemesList,
+                      put = __cordl_internal_set__colorSchemesList))::System::Collections::Generic::List_1<::GlobalNamespace::ColorScheme*>* _colorSchemesList;
 
   /// @brief Field _colorSchemesDict, offset 0x20, size 0x8
-  __declspec(property(get = __get__colorSchemesDict, put = __set__colorSchemesDict))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ColorScheme*>* _colorSchemesDict;
+  __declspec(property(get = __cordl_internal_get__colorSchemesDict,
+                      put = __cordl_internal_set__colorSchemesDict))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ColorScheme*>* _colorSchemesDict;
 
   /// @brief Field _selectedColorSchemeId, offset 0x28, size 0x8
-  __declspec(property(get = __get__selectedColorSchemeId, put = __set__selectedColorSchemeId))::StringW _selectedColorSchemeId;
+  __declspec(property(get = __cordl_internal_get__selectedColorSchemeId, put = __cordl_internal_set__selectedColorSchemeId))::StringW _selectedColorSchemeId;
 
   __declspec(property(get = get_selectedColorSchemeId, put = set_selectedColorSchemeId))::StringW selectedColorSchemeId;
 
-  constexpr bool& __get_overrideDefaultColors();
+  constexpr bool& __cordl_internal_get_overrideDefaultColors();
 
-  constexpr bool const& __get_overrideDefaultColors() const;
+  constexpr bool const& __cordl_internal_get_overrideDefaultColors() const;
 
-  constexpr void __set_overrideDefaultColors(bool value);
+  constexpr void __cordl_internal_set_overrideDefaultColors(bool value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ColorScheme*>*& __get__colorSchemesList();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ColorScheme*>*& __cordl_internal_get__colorSchemesList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::ColorScheme*>*> const& __get__colorSchemesList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::ColorScheme*>*> const& __cordl_internal_get__colorSchemesList() const;
 
-  constexpr void __set__colorSchemesList(::System::Collections::Generic::List_1<::GlobalNamespace::ColorScheme*>* value);
+  constexpr void __cordl_internal_set__colorSchemesList(::System::Collections::Generic::List_1<::GlobalNamespace::ColorScheme*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ColorScheme*>*& __get__colorSchemesDict();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ColorScheme*>*& __cordl_internal_get__colorSchemesDict();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ColorScheme*>*> const& __get__colorSchemesDict() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ColorScheme*>*> const& __cordl_internal_get__colorSchemesDict() const;
 
-  constexpr void __set__colorSchemesDict(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ColorScheme*>* value);
+  constexpr void __cordl_internal_set__colorSchemesDict(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::ColorScheme*>* value);
 
-  constexpr ::StringW& __get__selectedColorSchemeId();
+  constexpr ::StringW& __cordl_internal_get__selectedColorSchemeId();
 
-  constexpr ::StringW const& __get__selectedColorSchemeId() const;
+  constexpr ::StringW const& __cordl_internal_get__selectedColorSchemeId() const;
 
-  constexpr void __set__selectedColorSchemeId(::StringW value);
+  constexpr void __cordl_internal_set__selectedColorSchemeId(::StringW value);
 
   /// @brief Method set_selectedColorSchemeId, addr 0x236a778, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedColorSchemeId(::StringW value);

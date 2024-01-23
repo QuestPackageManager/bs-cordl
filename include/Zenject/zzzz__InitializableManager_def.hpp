@@ -58,29 +58,29 @@ MARK_REF_PTR_T(::Zenject::__InitializableManager____c__DisplayClass2_0);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11317))
 // CS Name: ::InitializableManager::InitializableInfo*
 class CORDL_TYPE __InitializableManager__InitializableInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Initializable, offset 0x10, size 0x8
-  __declspec(property(get = __get_Initializable, put = __set_Initializable))::Zenject::IInitializable* Initializable;
+  __declspec(property(get = __cordl_internal_get_Initializable, put = __cordl_internal_set_Initializable))::Zenject::IInitializable* Initializable;
 
   /// @brief Field Priority, offset 0x18, size 0x4
-  __declspec(property(get = __get_Priority, put = __set_Priority)) int32_t Priority;
+  __declspec(property(get = __cordl_internal_get_Priority, put = __cordl_internal_set_Priority)) int32_t Priority;
 
-  constexpr ::Zenject::IInitializable*& __get_Initializable();
+  constexpr ::Zenject::IInitializable*& __cordl_internal_get_Initializable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IInitializable*> const& __get_Initializable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IInitializable*> const& __cordl_internal_get_Initializable() const;
 
-  constexpr void __set_Initializable(::Zenject::IInitializable* value);
+  constexpr void __cordl_internal_set_Initializable(::Zenject::IInitializable* value);
 
-  constexpr int32_t& __get_Priority();
+  constexpr int32_t& __cordl_internal_get_Priority();
 
-  constexpr int32_t const& __get_Priority() const;
+  constexpr int32_t const& __cordl_internal_get_Priority() const;
 
-  constexpr void __set_Priority(int32_t value);
+  constexpr void __cordl_internal_set_Priority(int32_t value);
 
   static inline ::Zenject::__InitializableManager__InitializableInfo* New_ctor(::Zenject::IInitializable* initializable, int32_t priority);
 
@@ -127,20 +127,20 @@ static_assert(offsetof(::Zenject::__InitializableManager__InitializableInfo, ___
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11318))
 // CS Name: ::InitializableManager::<>c__DisplayClass2_0*
 class CORDL_TYPE __InitializableManager____c__DisplayClass2_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field initializable, offset 0x10, size 0x8
-  __declspec(property(get = __get_initializable, put = __set_initializable))::Zenject::IInitializable* initializable;
+  __declspec(property(get = __cordl_internal_get_initializable, put = __cordl_internal_set_initializable))::Zenject::IInitializable* initializable;
 
-  constexpr ::Zenject::IInitializable*& __get_initializable();
+  constexpr ::Zenject::IInitializable*& __cordl_internal_get_initializable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IInitializable*> const& __get_initializable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IInitializable*> const& __cordl_internal_get_initializable() const;
 
-  constexpr void __set_initializable(::Zenject::IInitializable* value);
+  constexpr void __cordl_internal_set_initializable(::Zenject::IInitializable* value);
 
   static inline ::Zenject::__InitializableManager____c__DisplayClass2_0* New_ctor();
 
@@ -185,7 +185,7 @@ static_assert(offsetof(::Zenject::__InitializableManager____c__DisplayClass2_0, 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11319))
 // CS Name: ::InitializableManager::<>c*
 class CORDL_TYPE __InitializableManager____c : public ::System::Object {
@@ -253,7 +253,7 @@ static_assert(::cordl_internals::size_check_v<::Zenject::__InitializableManager_
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11320))
 // CS Name: ::Zenject::InitializableManager*
 class CORDL_TYPE InitializableManager : public ::System::Object {
@@ -266,22 +266,23 @@ public:
   using InitializableInfo = ::Zenject::__InitializableManager__InitializableInfo;
 
   /// @brief Field _initializables, offset 0x10, size 0x8
-  __declspec(property(get = __get__initializables, put = __set__initializables))::System::Collections::Generic::List_1<::Zenject::__InitializableManager__InitializableInfo*>* _initializables;
+  __declspec(property(get = __cordl_internal_get__initializables,
+                      put = __cordl_internal_set__initializables))::System::Collections::Generic::List_1<::Zenject::__InitializableManager__InitializableInfo*>* _initializables;
 
   /// @brief Field _hasInitialized, offset 0x18, size 0x1
-  __declspec(property(get = __get__hasInitialized, put = __set__hasInitialized)) bool _hasInitialized;
+  __declspec(property(get = __cordl_internal_get__hasInitialized, put = __cordl_internal_set__hasInitialized)) bool _hasInitialized;
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::__InitializableManager__InitializableInfo*>*& __get__initializables();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::__InitializableManager__InitializableInfo*>*& __cordl_internal_get__initializables();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__InitializableManager__InitializableInfo*>*> const& __get__initializables() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::__InitializableManager__InitializableInfo*>*> const& __cordl_internal_get__initializables() const;
 
-  constexpr void __set__initializables(::System::Collections::Generic::List_1<::Zenject::__InitializableManager__InitializableInfo*>* value);
+  constexpr void __cordl_internal_set__initializables(::System::Collections::Generic::List_1<::Zenject::__InitializableManager__InitializableInfo*>* value);
 
-  constexpr bool& __get__hasInitialized();
+  constexpr bool& __cordl_internal_get__hasInitialized();
 
-  constexpr bool const& __get__hasInitialized() const;
+  constexpr bool const& __cordl_internal_get__hasInitialized() const;
 
-  constexpr void __set__hasInitialized(bool value);
+  constexpr void __cordl_internal_set__hasInitialized(bool value);
 
   static inline ::Zenject::InitializableManager* New_ctor(::System::Collections::Generic::List_1<::Zenject::IInitializable*>* initializables,
                                                           ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>* priorities);

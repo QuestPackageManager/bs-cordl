@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Net::Http::StringContent);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14640))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14640))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14657))
 // CS Name: ::System.Net.Http::StringContent*
 class CORDL_TYPE StringContent : public ::System::Net::Http::ByteArrayContent {

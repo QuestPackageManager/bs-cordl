@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::IResourcePr
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14003))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::IResourceProvider*
 class CORDL_TYPE IResourceProvider {

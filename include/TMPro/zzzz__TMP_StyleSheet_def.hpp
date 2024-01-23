@@ -25,31 +25,32 @@ MARK_REF_PTR_T(::TMPro::TMP_StyleSheet);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12425))
 // CS Name: ::TMPro::TMP_StyleSheet*
 class CORDL_TYPE TMP_StyleSheet : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field m_StyleList, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_StyleList, put = __set_m_StyleList))::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* m_StyleList;
+  __declspec(property(get = __cordl_internal_get_m_StyleList, put = __cordl_internal_set_m_StyleList))::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* m_StyleList;
 
   /// @brief Field m_StyleLookupDictionary, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_StyleLookupDictionary, put = __set_m_StyleLookupDictionary))::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>* m_StyleLookupDictionary;
+  __declspec(property(get = __cordl_internal_get_m_StyleLookupDictionary,
+                      put = __cordl_internal_set_m_StyleLookupDictionary))::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>* m_StyleLookupDictionary;
 
   __declspec(property(get = get_styles))::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* styles;
 
-  constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>*& __get_m_StyleList();
+  constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>*& __cordl_internal_get_m_StyleList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::TMP_Style*>*> const& __get_m_StyleList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::TMPro::TMP_Style*>*> const& __cordl_internal_get_m_StyleList() const;
 
-  constexpr void __set_m_StyleList(::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* value);
+  constexpr void __cordl_internal_set_m_StyleList(::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>*& __get_m_StyleLookupDictionary();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>*& __cordl_internal_get_m_StyleLookupDictionary();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>*> const& __get_m_StyleLookupDictionary() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>*> const& __cordl_internal_get_m_StyleLookupDictionary() const;
 
-  constexpr void __set_m_StyleLookupDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>* value);
+  constexpr void __cordl_internal_set_m_StyleLookupDictionary(::System::Collections::Generic::Dictionary_2<int32_t, ::TMPro::TMP_Style*>* value);
 
   /// @brief Method get_styles, addr 0x2c44fac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::TMPro::TMP_Style*>* get_styles();

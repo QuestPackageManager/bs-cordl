@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::__GradientRemapPool____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7420))
 // CS Name: ::GradientRemapPool::<>c*
 class CORDL_TYPE __GradientRemapPool____c : public ::System::Object {
@@ -94,8 +94,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::__
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7400), inst: 313 }), TypeDefinitionIndex(TypeDefinitionIndex(7400)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7422))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7421)) CS Name: ::UnityEngine.UIElements.UIR::GradientRemapPool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7400)), TypeDefinitionIndex(TypeDefinitionIndex(7422)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7400), inst: 313
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7421)) CS Name: ::UnityEngine.UIElements.UIR::GradientRemapPool*
 class CORDL_TYPE GradientRemapPool : public ::UnityEngine::UIElements::UIR::LinkedPool_1<::UnityEngine::UIElements::UIR::GradientRemap*> {
 public:
   // Declarations

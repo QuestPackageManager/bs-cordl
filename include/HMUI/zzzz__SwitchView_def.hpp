@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::HMUI::SwitchView);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13657))
 // CS Name: ::SwitchView::AnimationType
 struct CORDL_TYPE __SwitchView__AnimationType {
@@ -83,7 +83,7 @@ static_assert(offsetof(::HMUI::__SwitchView__AnimationType, value__) == 0x0, "Of
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13657)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(13657))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13658))
 // CS Name: ::HMUI::SwitchView*
 class CORDL_TYPE SwitchView : public ::UnityEngine::MonoBehaviour {
@@ -92,94 +92,95 @@ public:
   using AnimationType = ::HMUI::__SwitchView__AnimationType;
 
   /// @brief Field _animationType, offset 0x18, size 0x4
-  __declspec(property(get = __get__animationType, put = __set__animationType))::HMUI::__SwitchView__AnimationType _animationType;
+  __declspec(property(get = __cordl_internal_get__animationType, put = __cordl_internal_set__animationType))::HMUI::__SwitchView__AnimationType _animationType;
 
   /// @brief Field _normalAnimationClip, offset 0x20, size 0x8
-  __declspec(property(get = __get__normalAnimationClip, put = __set__normalAnimationClip))::UnityEngine::AnimationClip* _normalAnimationClip;
+  __declspec(property(get = __cordl_internal_get__normalAnimationClip, put = __cordl_internal_set__normalAnimationClip))::UnityW<::UnityEngine::AnimationClip> _normalAnimationClip;
 
   /// @brief Field _highlightedAnimationClip, offset 0x28, size 0x8
-  __declspec(property(get = __get__highlightedAnimationClip, put = __set__highlightedAnimationClip))::UnityEngine::AnimationClip* _highlightedAnimationClip;
+  __declspec(property(get = __cordl_internal_get__highlightedAnimationClip, put = __cordl_internal_set__highlightedAnimationClip))::UnityW<::UnityEngine::AnimationClip> _highlightedAnimationClip;
 
   /// @brief Field _pressedAnimationClip, offset 0x30, size 0x8
-  __declspec(property(get = __get__pressedAnimationClip, put = __set__pressedAnimationClip))::UnityEngine::AnimationClip* _pressedAnimationClip;
+  __declspec(property(get = __cordl_internal_get__pressedAnimationClip, put = __cordl_internal_set__pressedAnimationClip))::UnityW<::UnityEngine::AnimationClip> _pressedAnimationClip;
 
   /// @brief Field _disabledAnimationClip, offset 0x38, size 0x8
-  __declspec(property(get = __get__disabledAnimationClip, put = __set__disabledAnimationClip))::UnityEngine::AnimationClip* _disabledAnimationClip;
+  __declspec(property(get = __cordl_internal_get__disabledAnimationClip, put = __cordl_internal_set__disabledAnimationClip))::UnityW<::UnityEngine::AnimationClip> _disabledAnimationClip;
 
   /// @brief Field _onAnimationClip, offset 0x40, size 0x8
-  __declspec(property(get = __get__onAnimationClip, put = __set__onAnimationClip))::UnityEngine::AnimationClip* _onAnimationClip;
+  __declspec(property(get = __cordl_internal_get__onAnimationClip, put = __cordl_internal_set__onAnimationClip))::UnityW<::UnityEngine::AnimationClip> _onAnimationClip;
 
   /// @brief Field _offAnimationClip, offset 0x48, size 0x8
-  __declspec(property(get = __get__offAnimationClip, put = __set__offAnimationClip))::UnityEngine::AnimationClip* _offAnimationClip;
+  __declspec(property(get = __cordl_internal_get__offAnimationClip, put = __cordl_internal_set__offAnimationClip))::UnityW<::UnityEngine::AnimationClip> _offAnimationClip;
 
   /// @brief Field _selectedAnimationClip, offset 0x50, size 0x8
-  __declspec(property(get = __get__selectedAnimationClip, put = __set__selectedAnimationClip))::UnityEngine::AnimationClip* _selectedAnimationClip;
+  __declspec(property(get = __cordl_internal_get__selectedAnimationClip, put = __cordl_internal_set__selectedAnimationClip))::UnityW<::UnityEngine::AnimationClip> _selectedAnimationClip;
 
   /// @brief Field _selectedAndHighlightedAnimationClip, offset 0x58, size 0x8
-  __declspec(property(get = __get__selectedAndHighlightedAnimationClip, put = __set__selectedAndHighlightedAnimationClip))::UnityEngine::AnimationClip* _selectedAndHighlightedAnimationClip;
+  __declspec(property(get = __cordl_internal_get__selectedAndHighlightedAnimationClip,
+                      put = __cordl_internal_set__selectedAndHighlightedAnimationClip))::UnityW<::UnityEngine::AnimationClip> _selectedAndHighlightedAnimationClip;
 
   /// @brief Field _toggle, offset 0x60, size 0x8
-  __declspec(property(get = __get__toggle, put = __set__toggle))::HMUI::ToggleWithCallbacks* _toggle;
+  __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle))::UnityW<::HMUI::ToggleWithCallbacks> _toggle;
 
-  constexpr ::HMUI::__SwitchView__AnimationType& __get__animationType();
+  constexpr ::HMUI::__SwitchView__AnimationType& __cordl_internal_get__animationType();
 
-  constexpr ::HMUI::__SwitchView__AnimationType const& __get__animationType() const;
+  constexpr ::HMUI::__SwitchView__AnimationType const& __cordl_internal_get__animationType() const;
 
-  constexpr void __set__animationType(::HMUI::__SwitchView__AnimationType value);
+  constexpr void __cordl_internal_set__animationType(::HMUI::__SwitchView__AnimationType value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__normalAnimationClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__normalAnimationClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__normalAnimationClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__normalAnimationClip() const;
 
-  constexpr void __set__normalAnimationClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__normalAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__highlightedAnimationClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__highlightedAnimationClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__highlightedAnimationClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__highlightedAnimationClip() const;
 
-  constexpr void __set__highlightedAnimationClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__highlightedAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__pressedAnimationClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__pressedAnimationClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__pressedAnimationClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__pressedAnimationClip() const;
 
-  constexpr void __set__pressedAnimationClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__pressedAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__disabledAnimationClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__disabledAnimationClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__disabledAnimationClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__disabledAnimationClip() const;
 
-  constexpr void __set__disabledAnimationClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__disabledAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__onAnimationClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__onAnimationClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__onAnimationClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__onAnimationClip() const;
 
-  constexpr void __set__onAnimationClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__onAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__offAnimationClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__offAnimationClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__offAnimationClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__offAnimationClip() const;
 
-  constexpr void __set__offAnimationClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__offAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__selectedAnimationClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__selectedAnimationClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__selectedAnimationClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__selectedAnimationClip() const;
 
-  constexpr void __set__selectedAnimationClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__selectedAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__selectedAndHighlightedAnimationClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__selectedAndHighlightedAnimationClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__selectedAndHighlightedAnimationClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__selectedAndHighlightedAnimationClip() const;
 
-  constexpr void __set__selectedAndHighlightedAnimationClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__selectedAndHighlightedAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::HMUI::ToggleWithCallbacks*& __get__toggle();
+  constexpr ::UnityW<::HMUI::ToggleWithCallbacks>& __cordl_internal_get__toggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleWithCallbacks*> const& __get__toggle() const;
+  constexpr ::UnityW<::HMUI::ToggleWithCallbacks> const& __cordl_internal_get__toggle() const;
 
-  constexpr void __set__toggle(::HMUI::ToggleWithCallbacks* value);
+  constexpr void __cordl_internal_set__toggle(::UnityW<::HMUI::ToggleWithCallbacks> value);
 
   /// @brief Method Awake, addr 0x2146a7c, size 0x50, virtual false, abstract: false, final false
   inline void Awake();
@@ -222,31 +223,31 @@ public:
   ::HMUI::__SwitchView__AnimationType ____animationType;
 
   /// @brief Field _normalAnimationClip, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____normalAnimationClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____normalAnimationClip;
 
   /// @brief Field _highlightedAnimationClip, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____highlightedAnimationClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____highlightedAnimationClip;
 
   /// @brief Field _pressedAnimationClip, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____pressedAnimationClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____pressedAnimationClip;
 
   /// @brief Field _disabledAnimationClip, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____disabledAnimationClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____disabledAnimationClip;
 
   /// @brief Field _onAnimationClip, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____onAnimationClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____onAnimationClip;
 
   /// @brief Field _offAnimationClip, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____offAnimationClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____offAnimationClip;
 
   /// @brief Field _selectedAnimationClip, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____selectedAnimationClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____selectedAnimationClip;
 
   /// @brief Field _selectedAndHighlightedAnimationClip, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____selectedAndHighlightedAnimationClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____selectedAndHighlightedAnimationClip;
 
   /// @brief Field _toggle, offset: 0x60, size: 0x8, def value: None
-  ::HMUI::ToggleWithCallbacks* ____toggle;
+  ::UnityW<::HMUI::ToggleWithCallbacks> ____toggle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

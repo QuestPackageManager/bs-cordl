@@ -47,17 +47,17 @@ namespace Zenject {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11026))
 // CS Name: ::Zenject::PlaceholderFactoryBase`1<TValue>*
 class CORDL_TYPE PlaceholderFactoryBase_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _provider, offset 0x10, size 0x8
-  __declspec(property(get = __get__provider, put = __set__provider))::Zenject::IProvider* _provider;
+  __declspec(property(get = __cordl_internal_get__provider, put = __cordl_internal_set__provider))::Zenject::IProvider* _provider;
 
   /// @brief Field _injectContext, offset 0x18, size 0x8
-  __declspec(property(get = __get__injectContext, put = __set__injectContext))::Zenject::InjectContext* _injectContext;
+  __declspec(property(get = __cordl_internal_get__injectContext, put = __cordl_internal_set__injectContext))::Zenject::InjectContext* _injectContext;
 
   __declspec(property(get = get_ParamTypes))::System::Collections::Generic::IEnumerable_1<::System::Type*>* ParamTypes;
 
@@ -73,17 +73,17 @@ public:
   /// @brief Convert to "::Zenject::IValidatable"
   constexpr ::Zenject::IValidatable* i___Zenject__IValidatable() noexcept;
 
-  constexpr ::Zenject::IProvider*& __get__provider();
+  constexpr ::Zenject::IProvider*& __cordl_internal_get__provider();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& __get__provider() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IProvider*> const& __cordl_internal_get__provider() const;
 
-  constexpr void __set__provider(::Zenject::IProvider* value);
+  constexpr void __cordl_internal_set__provider(::Zenject::IProvider* value);
 
-  constexpr ::Zenject::InjectContext*& __get__injectContext();
+  constexpr ::Zenject::InjectContext*& __cordl_internal_get__injectContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __get__injectContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::InjectContext*> const& __cordl_internal_get__injectContext() const;
 
-  constexpr void __set__injectContext(::Zenject::InjectContext* value);
+  constexpr void __cordl_internal_set__injectContext(::Zenject::InjectContext* value);
 
   /// @brief Method Construct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Construct(::Zenject::IProvider* provider, ::Zenject::InjectContext* injectContext);

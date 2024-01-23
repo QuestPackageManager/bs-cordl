@@ -26,20 +26,20 @@ MARK_REF_PTR_T(::Zenject::CopyNonLazyBinder);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10925))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10925))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10701))
 // CS Name: ::Zenject::CopyNonLazyBinder*
 class CORDL_TYPE CopyNonLazyBinder : public ::Zenject::NonLazyBinder {
 public:
   // Declarations
   /// @brief Field _secondaryBindInfos, offset 0x18, size 0x8
-  __declspec(property(get = __get__secondaryBindInfos, put = __set__secondaryBindInfos))::System::Collections::Generic::List_1<::Zenject::BindInfo*>* _secondaryBindInfos;
+  __declspec(property(get = __cordl_internal_get__secondaryBindInfos, put = __cordl_internal_set__secondaryBindInfos))::System::Collections::Generic::List_1<::Zenject::BindInfo*>* _secondaryBindInfos;
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::BindInfo*>*& __get__secondaryBindInfos();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::BindInfo*>*& __cordl_internal_get__secondaryBindInfos();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::BindInfo*>*> const& __get__secondaryBindInfos() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::BindInfo*>*> const& __cordl_internal_get__secondaryBindInfos() const;
 
-  constexpr void __set__secondaryBindInfos(::System::Collections::Generic::List_1<::Zenject::BindInfo*>* value);
+  constexpr void __cordl_internal_set__secondaryBindInfos(::System::Collections::Generic::List_1<::Zenject::BindInfo*>* value);
 
   static inline ::Zenject::CopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
 

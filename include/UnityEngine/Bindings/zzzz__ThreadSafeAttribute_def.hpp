@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::Bindings::ThreadSafeAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16017))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16017))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16026))
 // CS Name: ::UnityEngine.Bindings::ThreadSafeAttribute*
 class CORDL_TYPE ThreadSafeAttribute : public ::UnityEngine::Bindings::NativeMethodAttribute {

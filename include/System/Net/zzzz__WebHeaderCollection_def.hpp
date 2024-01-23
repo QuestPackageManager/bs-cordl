@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::System::Net::WebHeaderCollection);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9090))
 // CS Name: ::WebHeaderCollection::RfcChar
 struct CORDL_TYPE __WebHeaderCollection__RfcChar {
@@ -127,7 +127,7 @@ static_assert(offsetof(::System::Net::__WebHeaderCollection__RfcChar, value__) =
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 122, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9513)), TypeDefinitionIndex(TypeDefinitionIndex(9089))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9089)), TypeDefinitionIndex(TypeDefinitionIndex(9513))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9091))
 // CS Name: ::System.Net::WebHeaderCollection*
 class CORDL_TYPE WebHeaderCollection : public ::System::Collections::Specialized::NameValueCollection {
@@ -136,16 +136,16 @@ public:
   using RfcChar = ::System::Net::__WebHeaderCollection__RfcChar;
 
   /// @brief Field m_CommonHeaders, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_CommonHeaders, put = __set_m_CommonHeaders))::ArrayW<::StringW, ::Array<::StringW>*> m_CommonHeaders;
+  __declspec(property(get = __cordl_internal_get_m_CommonHeaders, put = __cordl_internal_set_m_CommonHeaders))::ArrayW<::StringW, ::Array<::StringW>*> m_CommonHeaders;
 
   /// @brief Field m_NumCommonHeaders, offset 0x68, size 0x4
-  __declspec(property(get = __get_m_NumCommonHeaders, put = __set_m_NumCommonHeaders)) int32_t m_NumCommonHeaders;
+  __declspec(property(get = __cordl_internal_get_m_NumCommonHeaders, put = __cordl_internal_set_m_NumCommonHeaders)) int32_t m_NumCommonHeaders;
 
   /// @brief Field m_InnerCollection, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_InnerCollection, put = __set_m_InnerCollection))::System::Collections::Specialized::NameValueCollection* m_InnerCollection;
+  __declspec(property(get = __cordl_internal_get_m_InnerCollection, put = __cordl_internal_set_m_InnerCollection))::System::Collections::Specialized::NameValueCollection* m_InnerCollection;
 
   /// @brief Field m_Type, offset 0x78, size 0x2
-  __declspec(property(get = __get_m_Type, put = __set_m_Type))::System::Net::WebHeaderCollectionType m_Type;
+  __declspec(property(get = __cordl_internal_get_m_Type, put = __cordl_internal_set_m_Type))::System::Net::WebHeaderCollectionType m_Type;
 
   /// @brief Field HInfo, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_HInfo, put = setStaticF_HInfo))::System::Net::HeaderInfoTable* HInfo;
@@ -175,29 +175,29 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_CommonHeaders();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_CommonHeaders();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_CommonHeaders() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_CommonHeaders() const;
 
-  constexpr void __set_m_CommonHeaders(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_CommonHeaders(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr int32_t& __get_m_NumCommonHeaders();
+  constexpr int32_t& __cordl_internal_get_m_NumCommonHeaders();
 
-  constexpr int32_t const& __get_m_NumCommonHeaders() const;
+  constexpr int32_t const& __cordl_internal_get_m_NumCommonHeaders() const;
 
-  constexpr void __set_m_NumCommonHeaders(int32_t value);
+  constexpr void __cordl_internal_set_m_NumCommonHeaders(int32_t value);
 
-  constexpr ::System::Collections::Specialized::NameValueCollection*& __get_m_InnerCollection();
+  constexpr ::System::Collections::Specialized::NameValueCollection*& __cordl_internal_get_m_InnerCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::NameValueCollection*> const& __get_m_InnerCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Specialized::NameValueCollection*> const& __cordl_internal_get_m_InnerCollection() const;
 
-  constexpr void __set_m_InnerCollection(::System::Collections::Specialized::NameValueCollection* value);
+  constexpr void __cordl_internal_set_m_InnerCollection(::System::Collections::Specialized::NameValueCollection* value);
 
-  constexpr ::System::Net::WebHeaderCollectionType& __get_m_Type();
+  constexpr ::System::Net::WebHeaderCollectionType& __cordl_internal_get_m_Type();
 
-  constexpr ::System::Net::WebHeaderCollectionType const& __get_m_Type() const;
+  constexpr ::System::Net::WebHeaderCollectionType const& __cordl_internal_get_m_Type() const;
 
-  constexpr void __set_m_Type(::System::Net::WebHeaderCollectionType value);
+  constexpr void __cordl_internal_set_m_Type(::System::Net::WebHeaderCollectionType value);
 
   static inline void setStaticF_HInfo(::System::Net::HeaderInfoTable* value);
 

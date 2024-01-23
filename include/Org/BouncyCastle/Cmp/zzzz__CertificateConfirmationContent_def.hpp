@@ -24,29 +24,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cmp::CertificateConfirmationContent);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(601))
 // CS Name: ::Org.BouncyCastle.Cmp::CertificateConfirmationContent*
 class CORDL_TYPE CertificateConfirmationContent : public ::System::Object {
 public:
   // Declarations
   /// @brief Field digestAlgFinder, offset 0x10, size 0x8
-  __declspec(property(get = __get_digestAlgFinder, put = __set_digestAlgFinder))::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder;
+  __declspec(property(get = __cordl_internal_get_digestAlgFinder, put = __cordl_internal_set_digestAlgFinder))::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* digestAlgFinder;
 
   /// @brief Field content, offset 0x18, size 0x8
-  __declspec(property(get = __get_content, put = __set_content))::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* content;
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* content;
 
-  constexpr ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*& __get_digestAlgFinder();
+  constexpr ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*& __cordl_internal_get_digestAlgFinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*> const& __get_digestAlgFinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*> const& __cordl_internal_get_digestAlgFinder() const;
 
-  constexpr void __set_digestAlgFinder(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* value);
+  constexpr void __cordl_internal_set_digestAlgFinder(::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent*& __get_content();
+  constexpr ::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent*& __cordl_internal_get_content();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent*> const& __get_content() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent*> const& __cordl_internal_get_content() const;
 
-  constexpr void __set_content(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* value);
+  constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* value);
 
   static inline ::Org::BouncyCastle::Cmp::CertificateConfirmationContent* New_ctor(::Org::BouncyCastle::Asn1::Cmp::CertConfirmContent* content);
 

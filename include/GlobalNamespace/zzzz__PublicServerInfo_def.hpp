@@ -22,7 +22,7 @@ MARK_VAL_T(::GlobalNamespace::PublicServerInfo);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12934))
 // CS Name: ::PublicServerInfo
 struct CORDL_TYPE PublicServerInfo {

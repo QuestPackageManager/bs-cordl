@@ -24,33 +24,33 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonObjectAttribute);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4756 }), TypeDefinitionIndex(TypeDefinitionIndex(11811)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11815)), TypeDefinitionIndex(TypeDefinitionIndex(11821)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(11818)) CS Name: ::Newtonsoft.Json::JsonObjectAttribute*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(11811)), TypeDefinitionIndex(TypeDefinitionIndex(11815)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11821)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4756 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11818)) CS
+// Name: ::Newtonsoft.Json::JsonObjectAttribute*
 class CORDL_TYPE JsonObjectAttribute : public ::Newtonsoft::Json::JsonContainerAttribute {
 public:
   // Declarations
   /// @brief Field _memberSerialization, offset 0x4c, size 0x4
-  __declspec(property(get = __get__memberSerialization, put = __set__memberSerialization))::Newtonsoft::Json::MemberSerialization _memberSerialization;
+  __declspec(property(get = __cordl_internal_get__memberSerialization, put = __cordl_internal_set__memberSerialization))::Newtonsoft::Json::MemberSerialization _memberSerialization;
 
   /// @brief Field _itemRequired, offset 0x50, size 0x8
-  __declspec(property(get = __get__itemRequired, put = __set__itemRequired))::System::Nullable_1<::Newtonsoft::Json::Required> _itemRequired;
+  __declspec(property(get = __cordl_internal_get__itemRequired, put = __cordl_internal_set__itemRequired))::System::Nullable_1<::Newtonsoft::Json::Required> _itemRequired;
 
   __declspec(property(get = get_MemberSerialization, put = set_MemberSerialization))::Newtonsoft::Json::MemberSerialization MemberSerialization;
 
   __declspec(property(get = get_ItemRequired, put = set_ItemRequired))::Newtonsoft::Json::Required ItemRequired;
 
-  constexpr ::Newtonsoft::Json::MemberSerialization& __get__memberSerialization();
+  constexpr ::Newtonsoft::Json::MemberSerialization& __cordl_internal_get__memberSerialization();
 
-  constexpr ::Newtonsoft::Json::MemberSerialization const& __get__memberSerialization() const;
+  constexpr ::Newtonsoft::Json::MemberSerialization const& __cordl_internal_get__memberSerialization() const;
 
-  constexpr void __set__memberSerialization(::Newtonsoft::Json::MemberSerialization value);
+  constexpr void __cordl_internal_set__memberSerialization(::Newtonsoft::Json::MemberSerialization value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::Required>& __get__itemRequired();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::Required>& __cordl_internal_get__itemRequired();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::Required> const& __get__itemRequired() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::Required> const& __cordl_internal_get__itemRequired() const;
 
-  constexpr void __set__itemRequired(::System::Nullable_1<::Newtonsoft::Json::Required> value);
+  constexpr void __cordl_internal_set__itemRequired(::System::Nullable_1<::Newtonsoft::Json::Required> value);
 
   /// @brief Method get_MemberSerialization, addr 0x263f418, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::MemberSerialization get_MemberSerialization();

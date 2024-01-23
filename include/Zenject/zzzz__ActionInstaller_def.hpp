@@ -27,20 +27,20 @@ MARK_REF_PTR_T(::Zenject::ActionInstaller);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11131), inst: 3902 }), TypeDefinitionIndex(TypeDefinitionIndex(11131))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11131)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11131), inst: 3902 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11346))
 // CS Name: ::Zenject::ActionInstaller*
 class CORDL_TYPE ActionInstaller : public ::Zenject::Installer_1<::Zenject::ActionInstaller*> {
 public:
   // Declarations
   /// @brief Field _installMethod, offset 0x18, size 0x8
-  __declspec(property(get = __get__installMethod, put = __set__installMethod))::System::Action_1<::Zenject::DiContainer*>* _installMethod;
+  __declspec(property(get = __cordl_internal_get__installMethod, put = __cordl_internal_set__installMethod))::System::Action_1<::Zenject::DiContainer*>* _installMethod;
 
-  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __get__installMethod();
+  constexpr ::System::Action_1<::Zenject::DiContainer*>*& __cordl_internal_get__installMethod();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __get__installMethod() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::Zenject::DiContainer*>*> const& __cordl_internal_get__installMethod() const;
 
-  constexpr void __set__installMethod(::System::Action_1<::Zenject::DiContainer*>* value);
+  constexpr void __cordl_internal_set__installMethod(::System::Action_1<::Zenject::DiContainer*>* value);
 
   static inline ::Zenject::ActionInstaller* New_ctor(::System::Action_1<::Zenject::DiContainer*>* installMethod);
 

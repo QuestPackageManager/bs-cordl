@@ -18,7 +18,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Haptics::DualMotorRumble);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Haptics {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6460))
 // CS Name: ::UnityEngine.InputSystem.Haptics::DualMotorRumble
 struct CORDL_TYPE DualMotorRumble {

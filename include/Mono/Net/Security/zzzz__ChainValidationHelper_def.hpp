@@ -69,20 +69,20 @@ MARK_REF_PTR_T(::Mono::Net::Security::__ChainValidationHelper____c__DisplayClass
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8827))
 // CS Name: ::ChainValidationHelper::<>c__DisplayClass11_0*
 class CORDL_TYPE __ChainValidationHelper____c__DisplayClass11_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field settings, offset 0x10, size 0x8
-  __declspec(property(get = __get_settings, put = __set_settings))::Mono::Security::Interface::MonoTlsSettings* settings;
+  __declspec(property(get = __cordl_internal_get_settings, put = __cordl_internal_set_settings))::Mono::Security::Interface::MonoTlsSettings* settings;
 
-  constexpr ::Mono::Security::Interface::MonoTlsSettings*& __get_settings();
+  constexpr ::Mono::Security::Interface::MonoTlsSettings*& __cordl_internal_get_settings();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsSettings*> const& __get_settings() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsSettings*> const& __cordl_internal_get_settings() const;
 
-  constexpr void __set_settings(::Mono::Security::Interface::MonoTlsSettings* value);
+  constexpr void __cordl_internal_set_settings(::Mono::Security::Interface::MonoTlsSettings* value);
 
   static inline ::Mono::Net::Security::__ChainValidationHelper____c__DisplayClass11_0* New_ctor();
 
@@ -122,7 +122,7 @@ static_assert(offsetof(::Mono::Net::Security::__ChainValidationHelper____c__Disp
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8828))
 // CS Name: ::Mono.Net.Security::ChainValidationHelper*
 class CORDL_TYPE ChainValidationHelper : public ::System::Object {
@@ -131,25 +131,25 @@ public:
   using __c__DisplayClass11_0 = ::Mono::Net::Security::__ChainValidationHelper____c__DisplayClass11_0;
 
   /// @brief Field owner, offset 0x10, size 0x8
-  __declspec(property(get = __get_owner, put = __set_owner))::System::WeakReference_1<::System::Net::Security::SslStream*>* owner;
+  __declspec(property(get = __cordl_internal_get_owner, put = __cordl_internal_set_owner))::System::WeakReference_1<::System::Net::Security::SslStream*>* owner;
 
   /// @brief Field settings, offset 0x18, size 0x8
-  __declspec(property(get = __get_settings, put = __set_settings))::Mono::Security::Interface::MonoTlsSettings* settings;
+  __declspec(property(get = __cordl_internal_get_settings, put = __cordl_internal_set_settings))::Mono::Security::Interface::MonoTlsSettings* settings;
 
   /// @brief Field provider, offset 0x20, size 0x8
-  __declspec(property(get = __get_provider, put = __set_provider))::Mono::Net::Security::MobileTlsProvider* provider;
+  __declspec(property(get = __cordl_internal_get_provider, put = __cordl_internal_set_provider))::Mono::Net::Security::MobileTlsProvider* provider;
 
   /// @brief Field certValidationCallback, offset 0x28, size 0x8
-  __declspec(property(get = __get_certValidationCallback, put = __set_certValidationCallback))::System::Net::ServerCertValidationCallback* certValidationCallback;
+  __declspec(property(get = __cordl_internal_get_certValidationCallback, put = __cordl_internal_set_certValidationCallback))::System::Net::ServerCertValidationCallback* certValidationCallback;
 
   /// @brief Field certSelectionCallback, offset 0x30, size 0x8
-  __declspec(property(get = __get_certSelectionCallback, put = __set_certSelectionCallback))::System::Net::Security::LocalCertSelectionCallback* certSelectionCallback;
+  __declspec(property(get = __cordl_internal_get_certSelectionCallback, put = __cordl_internal_set_certSelectionCallback))::System::Net::Security::LocalCertSelectionCallback* certSelectionCallback;
 
   /// @brief Field tlsStream, offset 0x38, size 0x8
-  __declspec(property(get = __get_tlsStream, put = __set_tlsStream))::Mono::Net::Security::MonoTlsStream* tlsStream;
+  __declspec(property(get = __cordl_internal_get_tlsStream, put = __cordl_internal_set_tlsStream))::Mono::Net::Security::MonoTlsStream* tlsStream;
 
   /// @brief Field request, offset 0x40, size 0x8
-  __declspec(property(get = __get_request, put = __set_request))::System::Net::HttpWebRequest* request;
+  __declspec(property(get = __cordl_internal_get_request, put = __cordl_internal_set_request))::System::Net::HttpWebRequest* request;
 
   __declspec(property(get = get_Settings))::Mono::Security::Interface::MonoTlsSettings* Settings;
 
@@ -159,47 +159,47 @@ public:
   /// @brief Convert to "::Mono::Security::Interface::ICertificateValidator"
   constexpr ::Mono::Security::Interface::ICertificateValidator* i___Mono__Security__Interface__ICertificateValidator() noexcept;
 
-  constexpr ::System::WeakReference_1<::System::Net::Security::SslStream*>*& __get_owner();
+  constexpr ::System::WeakReference_1<::System::Net::Security::SslStream*>*& __cordl_internal_get_owner();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::WeakReference_1<::System::Net::Security::SslStream*>*> const& __get_owner() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::WeakReference_1<::System::Net::Security::SslStream*>*> const& __cordl_internal_get_owner() const;
 
-  constexpr void __set_owner(::System::WeakReference_1<::System::Net::Security::SslStream*>* value);
+  constexpr void __cordl_internal_set_owner(::System::WeakReference_1<::System::Net::Security::SslStream*>* value);
 
-  constexpr ::Mono::Security::Interface::MonoTlsSettings*& __get_settings();
+  constexpr ::Mono::Security::Interface::MonoTlsSettings*& __cordl_internal_get_settings();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsSettings*> const& __get_settings() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsSettings*> const& __cordl_internal_get_settings() const;
 
-  constexpr void __set_settings(::Mono::Security::Interface::MonoTlsSettings* value);
+  constexpr void __cordl_internal_set_settings(::Mono::Security::Interface::MonoTlsSettings* value);
 
-  constexpr ::Mono::Net::Security::MobileTlsProvider*& __get_provider();
+  constexpr ::Mono::Net::Security::MobileTlsProvider*& __cordl_internal_get_provider();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileTlsProvider*> const& __get_provider() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MobileTlsProvider*> const& __cordl_internal_get_provider() const;
 
-  constexpr void __set_provider(::Mono::Net::Security::MobileTlsProvider* value);
+  constexpr void __cordl_internal_set_provider(::Mono::Net::Security::MobileTlsProvider* value);
 
-  constexpr ::System::Net::ServerCertValidationCallback*& __get_certValidationCallback();
+  constexpr ::System::Net::ServerCertValidationCallback*& __cordl_internal_get_certValidationCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ServerCertValidationCallback*> const& __get_certValidationCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::ServerCertValidationCallback*> const& __cordl_internal_get_certValidationCallback() const;
 
-  constexpr void __set_certValidationCallback(::System::Net::ServerCertValidationCallback* value);
+  constexpr void __cordl_internal_set_certValidationCallback(::System::Net::ServerCertValidationCallback* value);
 
-  constexpr ::System::Net::Security::LocalCertSelectionCallback*& __get_certSelectionCallback();
+  constexpr ::System::Net::Security::LocalCertSelectionCallback*& __cordl_internal_get_certSelectionCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::LocalCertSelectionCallback*> const& __get_certSelectionCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::LocalCertSelectionCallback*> const& __cordl_internal_get_certSelectionCallback() const;
 
-  constexpr void __set_certSelectionCallback(::System::Net::Security::LocalCertSelectionCallback* value);
+  constexpr void __cordl_internal_set_certSelectionCallback(::System::Net::Security::LocalCertSelectionCallback* value);
 
-  constexpr ::Mono::Net::Security::MonoTlsStream*& __get_tlsStream();
+  constexpr ::Mono::Net::Security::MonoTlsStream*& __cordl_internal_get_tlsStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MonoTlsStream*> const& __get_tlsStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MonoTlsStream*> const& __cordl_internal_get_tlsStream() const;
 
-  constexpr void __set_tlsStream(::Mono::Net::Security::MonoTlsStream* value);
+  constexpr void __cordl_internal_set_tlsStream(::Mono::Net::Security::MonoTlsStream* value);
 
-  constexpr ::System::Net::HttpWebRequest*& __get_request();
+  constexpr ::System::Net::HttpWebRequest*& __cordl_internal_get_request();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __get_request() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __cordl_internal_get_request() const;
 
-  constexpr void __set_request(::System::Net::HttpWebRequest* value);
+  constexpr void __cordl_internal_set_request(::System::Net::HttpWebRequest* value);
 
   /// @brief Method GetInternalValidator, addr 0x281ff20, size 0xe0, virtual false, abstract: false, final false
   static inline ::Mono::Net::Security::ChainValidationHelper* GetInternalValidator(::System::Net::Security::SslStream* owner, ::Mono::Net::Security::MobileTlsProvider* provider,

@@ -35,7 +35,7 @@ MARK_VAL_T(::GlobalNamespace::__SongPackMasksModel__LocalizedText);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4518))
 // CS Name: ::SongPackMasksModel::LocalizedText
 struct CORDL_TYPE __SongPackMasksModel__LocalizedText {
@@ -81,7 +81,7 @@ static_assert(offsetof(::GlobalNamespace::__SongPackMasksModel__LocalizedText, i
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15554)), TypeDefinitionIndex(TypeDefinitionIndex(15047))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15047)), TypeDefinitionIndex(TypeDefinitionIndex(15554))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4519))
 // CS Name: ::SongPackMasksModel*
 class CORDL_TYPE SongPackMasksModel : public ::System::Object {
@@ -90,62 +90,67 @@ public:
   using LocalizedText = ::GlobalNamespace::__SongPackMasksModel__LocalizedText;
 
   /// @brief Field content, offset 0x10, size 0x8
-  __declspec(property(get = __get_content, put = __set_content))::GlobalNamespace::SongPackMasksModelSO* content;
+  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::UnityW<::GlobalNamespace::SongPackMasksModelSO> content;
 
   /// @brief Field allSongPackMask, offset 0x18, size 0x20
-  __declspec(property(get = __get_allSongPackMask, put = __set_allSongPackMask))::GlobalNamespace::SongPackMask allSongPackMask;
+  __declspec(property(get = __cordl_internal_get_allSongPackMask, put = __cordl_internal_set_allSongPackMask))::GlobalNamespace::SongPackMask allSongPackMask;
 
   /// @brief Field _currentLocalizedLanguage, offset 0x38, size 0x4
-  __declspec(property(get = __get__currentLocalizedLanguage, put = __set__currentLocalizedLanguage))::Polyglot::Language _currentLocalizedLanguage;
+  __declspec(property(get = __cordl_internal_get__currentLocalizedLanguage, put = __cordl_internal_set__currentLocalizedLanguage))::Polyglot::Language _currentLocalizedLanguage;
 
   /// @brief Field _songPackSerializedNameToLocalizedNameDict, offset 0x40, size 0x8
-  __declspec(property(get = __get__songPackSerializedNameToLocalizedNameDict, put = __set__songPackSerializedNameToLocalizedNameDict))::System::Collections::Generic::Dictionary_2<
-      ::StringW, ::GlobalNamespace::__SongPackMasksModel__LocalizedText>* _songPackSerializedNameToLocalizedNameDict;
+  __declspec(property(get = __cordl_internal_get__songPackSerializedNameToLocalizedNameDict, put = __cordl_internal_set__songPackSerializedNameToLocalizedNameDict))::System::Collections::Generic::
+      Dictionary_2<::StringW, ::GlobalNamespace::__SongPackMasksModel__LocalizedText>* _songPackSerializedNameToLocalizedNameDict;
 
   /// @brief Field _songPackSerializedNameToMaskDict, offset 0x48, size 0x8
-  __declspec(property(get = __get__songPackSerializedNameToMaskDict,
-                      put = __set__songPackSerializedNameToMaskDict))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>* _songPackSerializedNameToMaskDict;
+  __declspec(property(
+      get = __cordl_internal_get__songPackSerializedNameToMaskDict,
+      put = __cordl_internal_set__songPackSerializedNameToMaskDict))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>* _songPackSerializedNameToMaskDict;
 
   /// @brief Field _songPackMaskToSerializedNameDict, offset 0x50, size 0x8
-  __declspec(property(get = __get__songPackMaskToSerializedNameDict,
-                      put = __set__songPackMaskToSerializedNameDict))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SongPackMask, ::StringW>* _songPackMaskToSerializedNameDict;
+  __declspec(property(
+      get = __cordl_internal_get__songPackMaskToSerializedNameDict,
+      put = __cordl_internal_set__songPackMaskToSerializedNameDict))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SongPackMask, ::StringW>* _songPackMaskToSerializedNameDict;
 
-  constexpr ::GlobalNamespace::SongPackMasksModelSO*& __get_content();
+  constexpr ::UnityW<::GlobalNamespace::SongPackMasksModelSO>& __cordl_internal_get_content();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPackMasksModelSO*> const& __get_content() const;
+  constexpr ::UnityW<::GlobalNamespace::SongPackMasksModelSO> const& __cordl_internal_get_content() const;
 
-  constexpr void __set_content(::GlobalNamespace::SongPackMasksModelSO* value);
+  constexpr void __cordl_internal_set_content(::UnityW<::GlobalNamespace::SongPackMasksModelSO> value);
 
-  constexpr ::GlobalNamespace::SongPackMask& __get_allSongPackMask();
+  constexpr ::GlobalNamespace::SongPackMask& __cordl_internal_get_allSongPackMask();
 
-  constexpr ::GlobalNamespace::SongPackMask const& __get_allSongPackMask() const;
+  constexpr ::GlobalNamespace::SongPackMask const& __cordl_internal_get_allSongPackMask() const;
 
-  constexpr void __set_allSongPackMask(::GlobalNamespace::SongPackMask value);
+  constexpr void __cordl_internal_set_allSongPackMask(::GlobalNamespace::SongPackMask value);
 
-  constexpr ::Polyglot::Language& __get__currentLocalizedLanguage();
+  constexpr ::Polyglot::Language& __cordl_internal_get__currentLocalizedLanguage();
 
-  constexpr ::Polyglot::Language const& __get__currentLocalizedLanguage() const;
+  constexpr ::Polyglot::Language const& __cordl_internal_get__currentLocalizedLanguage() const;
 
-  constexpr void __set__currentLocalizedLanguage(::Polyglot::Language value);
+  constexpr void __cordl_internal_set__currentLocalizedLanguage(::Polyglot::Language value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SongPackMasksModel__LocalizedText>*& __get__songPackSerializedNameToLocalizedNameDict();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SongPackMasksModel__LocalizedText>*& __cordl_internal_get__songPackSerializedNameToLocalizedNameDict();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SongPackMasksModel__LocalizedText>*> const&
-  __get__songPackSerializedNameToLocalizedNameDict() const;
+  __cordl_internal_get__songPackSerializedNameToLocalizedNameDict() const;
 
-  constexpr void __set__songPackSerializedNameToLocalizedNameDict(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SongPackMasksModel__LocalizedText>* value);
+  constexpr void
+  __cordl_internal_set__songPackSerializedNameToLocalizedNameDict(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SongPackMasksModel__LocalizedText>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>*& __get__songPackSerializedNameToMaskDict();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>*& __cordl_internal_get__songPackSerializedNameToMaskDict();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>*> const& __get__songPackSerializedNameToMaskDict() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>*> const&
+  __cordl_internal_get__songPackSerializedNameToMaskDict() const;
 
-  constexpr void __set__songPackSerializedNameToMaskDict(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>* value);
+  constexpr void __cordl_internal_set__songPackSerializedNameToMaskDict(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::SongPackMask>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SongPackMask, ::StringW>*& __get__songPackMaskToSerializedNameDict();
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SongPackMask, ::StringW>*& __cordl_internal_get__songPackMaskToSerializedNameDict();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SongPackMask, ::StringW>*> const& __get__songPackMaskToSerializedNameDict() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SongPackMask, ::StringW>*> const&
+  __cordl_internal_get__songPackMaskToSerializedNameDict() const;
 
-  constexpr void __set__songPackMaskToSerializedNameDict(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SongPackMask, ::StringW>* value);
+  constexpr void __cordl_internal_set__songPackMaskToSerializedNameDict(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::SongPackMask, ::StringW>* value);
 
   static inline ::GlobalNamespace::SongPackMasksModel* New_ctor(::GlobalNamespace::SongPackMasksModelSO* songPackMasks);
 
@@ -188,7 +193,7 @@ protected:
 
 public:
   /// @brief Field content, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::SongPackMasksModelSO* ___content;
+  ::UnityW<::GlobalNamespace::SongPackMasksModelSO> ___content;
 
   /// @brief Field allSongPackMask, offset: 0x18, size: 0x20, def value: None
   ::GlobalNamespace::SongPackMask ___allSongPackMask;

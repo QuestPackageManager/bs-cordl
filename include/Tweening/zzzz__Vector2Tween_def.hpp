@@ -28,8 +28,8 @@ MARK_REF_PTR_T(::Tweening::Vector2Tween);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Tweening {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16099)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16099), inst:
-// 411 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(16094)) CS Name: ::Tweening::Vector2Tween*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(16099)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(16099), inst:
+// 411 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(16094)) CS Name: ::Tweening::Vector2Tween*
 class CORDL_TYPE Vector2Tween : public ::Tweening::Tween_1<::UnityEngine::Vector2> {
 public:
   // Declarations

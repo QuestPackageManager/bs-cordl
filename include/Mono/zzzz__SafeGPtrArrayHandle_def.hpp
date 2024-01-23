@@ -22,7 +22,7 @@ MARK_VAL_T(::Mono::SafeGPtrArrayHandle);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2233))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2233))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2248))
 // CS Name: ::Mono::SafeGPtrArrayHandle
 struct CORDL_TYPE SafeGPtrArrayHandle {

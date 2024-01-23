@@ -92,7 +92,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_PDGAssetLink__UpdateUIDelegate);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9766))
 // CS Name: ::HEU_PDGAssetLink::LinkState
 struct CORDL_TYPE __HEU_PDGAssetLink__LinkState {
@@ -150,7 +150,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_PDGAssetLink__LinkState, valu
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9767))
 // CS Name: ::HEU_PDGAssetLink::UpdateUIDelegate*
 class CORDL_TYPE __HEU_PDGAssetLink__UpdateUIDelegate : public ::System::MulticastDelegate {
@@ -194,7 +194,7 @@ static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_PDGAss
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(9766))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9766)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9768))
 // CS Name: ::HoudiniEngineUnity::HEU_PDGAssetLink*
 class CORDL_TYPE HEU_PDGAssetLink : public ::UnityEngine::MonoBehaviour {
@@ -205,52 +205,52 @@ public:
   using LinkState = ::HoudiniEngineUnity::__HEU_PDGAssetLink__LinkState;
 
   /// @brief Field _assetPath, offset 0x18, size 0x8
-  __declspec(property(get = __get__assetPath, put = __set__assetPath))::StringW _assetPath;
+  __declspec(property(get = __cordl_internal_get__assetPath, put = __cordl_internal_set__assetPath))::StringW _assetPath;
 
   /// @brief Field _assetGO, offset 0x20, size 0x8
-  __declspec(property(get = __get__assetGO, put = __set__assetGO))::UnityEngine::GameObject* _assetGO;
+  __declspec(property(get = __cordl_internal_get__assetGO, put = __cordl_internal_set__assetGO))::UnityW<::UnityEngine::GameObject> _assetGO;
 
   /// @brief Field _assetName, offset 0x28, size 0x8
-  __declspec(property(get = __get__assetName, put = __set__assetName))::StringW _assetName;
+  __declspec(property(get = __cordl_internal_get__assetName, put = __cordl_internal_set__assetName))::StringW _assetName;
 
   /// @brief Field _assetID, offset 0x30, size 0x4
-  __declspec(property(get = __get__assetID, put = __set__assetID)) int32_t _assetID;
+  __declspec(property(get = __cordl_internal_get__assetID, put = __cordl_internal_set__assetID)) int32_t _assetID;
 
   /// @brief Field _heu, offset 0x38, size 0x8
-  __declspec(property(get = __get__heu, put = __set__heu))::HoudiniEngineUnity::HEU_HoudiniAsset* _heu;
+  __declspec(property(get = __cordl_internal_get__heu, put = __cordl_internal_set__heu))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _heu;
 
   /// @brief Field _topNetworks, offset 0x40, size 0x8
-  __declspec(property(get = __get__topNetworks, put = __set__topNetworks))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNetworkData*>* _topNetworks;
+  __declspec(property(get = __cordl_internal_get__topNetworks, put = __cordl_internal_set__topNetworks))::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNetworkData*>* _topNetworks;
 
   /// @brief Field _topNetworkNames, offset 0x48, size 0x8
-  __declspec(property(get = __get__topNetworkNames, put = __set__topNetworkNames))::ArrayW<::StringW, ::Array<::StringW>*> _topNetworkNames;
+  __declspec(property(get = __cordl_internal_get__topNetworkNames, put = __cordl_internal_set__topNetworkNames))::ArrayW<::StringW, ::Array<::StringW>*> _topNetworkNames;
 
   /// @brief Field _selectedTOPNetwork, offset 0x50, size 0x4
-  __declspec(property(get = __get__selectedTOPNetwork, put = __set__selectedTOPNetwork)) int32_t _selectedTOPNetwork;
+  __declspec(property(get = __cordl_internal_get__selectedTOPNetwork, put = __cordl_internal_set__selectedTOPNetwork)) int32_t _selectedTOPNetwork;
 
   /// @brief Field _linkState, offset 0x54, size 0x4
-  __declspec(property(get = __get__linkState, put = __set__linkState))::HoudiniEngineUnity::__HEU_PDGAssetLink__LinkState _linkState;
+  __declspec(property(get = __cordl_internal_get__linkState, put = __cordl_internal_set__linkState))::HoudiniEngineUnity::__HEU_PDGAssetLink__LinkState _linkState;
 
   /// @brief Field _autoCook, offset 0x58, size 0x1
-  __declspec(property(get = __get__autoCook, put = __set__autoCook)) bool _autoCook;
+  __declspec(property(get = __cordl_internal_get__autoCook, put = __cordl_internal_set__autoCook)) bool _autoCook;
 
   /// @brief Field _useHEngineData, offset 0x59, size 0x1
-  __declspec(property(get = __get__useHEngineData, put = __set__useHEngineData)) bool _useHEngineData;
+  __declspec(property(get = __cordl_internal_get__useHEngineData, put = __cordl_internal_set__useHEngineData)) bool _useHEngineData;
 
   /// @brief Field _repaintUIDelegate, offset 0x60, size 0x8
-  __declspec(property(get = __get__repaintUIDelegate, put = __set__repaintUIDelegate))::HoudiniEngineUnity::__HEU_PDGAssetLink__UpdateUIDelegate* _repaintUIDelegate;
+  __declspec(property(get = __cordl_internal_get__repaintUIDelegate, put = __cordl_internal_set__repaintUIDelegate))::HoudiniEngineUnity::__HEU_PDGAssetLink__UpdateUIDelegate* _repaintUIDelegate;
 
   /// @brief Field _numWorkItems, offset 0x68, size 0x4
-  __declspec(property(get = __get__numWorkItems, put = __set__numWorkItems)) int32_t _numWorkItems;
+  __declspec(property(get = __cordl_internal_get__numWorkItems, put = __cordl_internal_set__numWorkItems)) int32_t _numWorkItems;
 
   /// @brief Field _workItemTally, offset 0x70, size 0x8
-  __declspec(property(get = __get__workItemTally, put = __set__workItemTally))::HoudiniEngineUnity::HEU_WorkItemTally* _workItemTally;
+  __declspec(property(get = __cordl_internal_get__workItemTally, put = __cordl_internal_set__workItemTally))::HoudiniEngineUnity::HEU_WorkItemTally* _workItemTally;
 
   /// @brief Field _loadRootGameObject, offset 0x78, size 0x8
-  __declspec(property(get = __get__loadRootGameObject, put = __set__loadRootGameObject))::UnityEngine::GameObject* _loadRootGameObject;
+  __declspec(property(get = __cordl_internal_get__loadRootGameObject, put = __cordl_internal_set__loadRootGameObject))::UnityW<::UnityEngine::GameObject> _loadRootGameObject;
 
   /// @brief Field _outputCachePathRoot, offset 0x80, size 0x8
-  __declspec(property(get = __get__outputCachePathRoot, put = __set__outputCachePathRoot))::StringW _outputCachePathRoot;
+  __declspec(property(get = __cordl_internal_get__outputCachePathRoot, put = __cordl_internal_set__outputCachePathRoot))::StringW _outputCachePathRoot;
 
   __declspec(property(get = get_AssetName))::StringW AssetName;
 
@@ -264,101 +264,101 @@ public:
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
-  constexpr ::StringW& __get__assetPath();
+  constexpr ::StringW& __cordl_internal_get__assetPath();
 
-  constexpr ::StringW const& __get__assetPath() const;
+  constexpr ::StringW const& __cordl_internal_get__assetPath() const;
 
-  constexpr void __set__assetPath(::StringW value);
+  constexpr void __cordl_internal_set__assetPath(::StringW value);
 
-  constexpr ::UnityEngine::GameObject*& __get__assetGO();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__assetGO();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__assetGO() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__assetGO() const;
 
-  constexpr void __set__assetGO(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__assetGO(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::StringW& __get__assetName();
+  constexpr ::StringW& __cordl_internal_get__assetName();
 
-  constexpr ::StringW const& __get__assetName() const;
+  constexpr ::StringW const& __cordl_internal_get__assetName() const;
 
-  constexpr void __set__assetName(::StringW value);
+  constexpr void __cordl_internal_set__assetName(::StringW value);
 
-  constexpr int32_t& __get__assetID();
+  constexpr int32_t& __cordl_internal_get__assetID();
 
-  constexpr int32_t const& __get__assetID() const;
+  constexpr int32_t const& __cordl_internal_get__assetID() const;
 
-  constexpr void __set__assetID(int32_t value);
+  constexpr void __cordl_internal_set__assetID(int32_t value);
 
-  constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset*& __get__heu();
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get__heu();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HoudiniAsset*> const& __get__heu() const;
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get__heu() const;
 
-  constexpr void __set__heu(::HoudiniEngineUnity::HEU_HoudiniAsset* value);
+  constexpr void __cordl_internal_set__heu(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNetworkData*>*& __get__topNetworks();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNetworkData*>*& __cordl_internal_get__topNetworks();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNetworkData*>*> const& __get__topNetworks() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNetworkData*>*> const& __cordl_internal_get__topNetworks() const;
 
-  constexpr void __set__topNetworks(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNetworkData*>* value);
+  constexpr void __cordl_internal_set__topNetworks(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNetworkData*>* value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__topNetworkNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__topNetworkNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__topNetworkNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__topNetworkNames() const;
 
-  constexpr void __set__topNetworkNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__topNetworkNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr int32_t& __get__selectedTOPNetwork();
+  constexpr int32_t& __cordl_internal_get__selectedTOPNetwork();
 
-  constexpr int32_t const& __get__selectedTOPNetwork() const;
+  constexpr int32_t const& __cordl_internal_get__selectedTOPNetwork() const;
 
-  constexpr void __set__selectedTOPNetwork(int32_t value);
+  constexpr void __cordl_internal_set__selectedTOPNetwork(int32_t value);
 
-  constexpr ::HoudiniEngineUnity::__HEU_PDGAssetLink__LinkState& __get__linkState();
+  constexpr ::HoudiniEngineUnity::__HEU_PDGAssetLink__LinkState& __cordl_internal_get__linkState();
 
-  constexpr ::HoudiniEngineUnity::__HEU_PDGAssetLink__LinkState const& __get__linkState() const;
+  constexpr ::HoudiniEngineUnity::__HEU_PDGAssetLink__LinkState const& __cordl_internal_get__linkState() const;
 
-  constexpr void __set__linkState(::HoudiniEngineUnity::__HEU_PDGAssetLink__LinkState value);
+  constexpr void __cordl_internal_set__linkState(::HoudiniEngineUnity::__HEU_PDGAssetLink__LinkState value);
 
-  constexpr bool& __get__autoCook();
+  constexpr bool& __cordl_internal_get__autoCook();
 
-  constexpr bool const& __get__autoCook() const;
+  constexpr bool const& __cordl_internal_get__autoCook() const;
 
-  constexpr void __set__autoCook(bool value);
+  constexpr void __cordl_internal_set__autoCook(bool value);
 
-  constexpr bool& __get__useHEngineData();
+  constexpr bool& __cordl_internal_get__useHEngineData();
 
-  constexpr bool const& __get__useHEngineData() const;
+  constexpr bool const& __cordl_internal_get__useHEngineData() const;
 
-  constexpr void __set__useHEngineData(bool value);
+  constexpr void __cordl_internal_set__useHEngineData(bool value);
 
-  constexpr ::HoudiniEngineUnity::__HEU_PDGAssetLink__UpdateUIDelegate*& __get__repaintUIDelegate();
+  constexpr ::HoudiniEngineUnity::__HEU_PDGAssetLink__UpdateUIDelegate*& __cordl_internal_get__repaintUIDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_PDGAssetLink__UpdateUIDelegate*> const& __get__repaintUIDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_PDGAssetLink__UpdateUIDelegate*> const& __cordl_internal_get__repaintUIDelegate() const;
 
-  constexpr void __set__repaintUIDelegate(::HoudiniEngineUnity::__HEU_PDGAssetLink__UpdateUIDelegate* value);
+  constexpr void __cordl_internal_set__repaintUIDelegate(::HoudiniEngineUnity::__HEU_PDGAssetLink__UpdateUIDelegate* value);
 
-  constexpr int32_t& __get__numWorkItems();
+  constexpr int32_t& __cordl_internal_get__numWorkItems();
 
-  constexpr int32_t const& __get__numWorkItems() const;
+  constexpr int32_t const& __cordl_internal_get__numWorkItems() const;
 
-  constexpr void __set__numWorkItems(int32_t value);
+  constexpr void __cordl_internal_set__numWorkItems(int32_t value);
 
-  constexpr ::HoudiniEngineUnity::HEU_WorkItemTally*& __get__workItemTally();
+  constexpr ::HoudiniEngineUnity::HEU_WorkItemTally*& __cordl_internal_get__workItemTally();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_WorkItemTally*> const& __get__workItemTally() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_WorkItemTally*> const& __cordl_internal_get__workItemTally() const;
 
-  constexpr void __set__workItemTally(::HoudiniEngineUnity::HEU_WorkItemTally* value);
+  constexpr void __cordl_internal_set__workItemTally(::HoudiniEngineUnity::HEU_WorkItemTally* value);
 
-  constexpr ::UnityEngine::GameObject*& __get__loadRootGameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__loadRootGameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__loadRootGameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__loadRootGameObject() const;
 
-  constexpr void __set__loadRootGameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__loadRootGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::StringW& __get__outputCachePathRoot();
+  constexpr ::StringW& __cordl_internal_get__outputCachePathRoot();
 
-  constexpr ::StringW const& __get__outputCachePathRoot() const;
+  constexpr ::StringW const& __cordl_internal_get__outputCachePathRoot() const;
 
-  constexpr void __set__outputCachePathRoot(::StringW value);
+  constexpr void __cordl_internal_set__outputCachePathRoot(::StringW value);
 
   /// @brief Method Awake, addr 0x21994bc, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
@@ -379,7 +379,7 @@ public:
   inline void Setup(::HoudiniEngineUnity::HEU_HoudiniAsset* hdaAsset);
 
   /// @brief Method NotifyAssetCooked, addr 0x2199aac, size 0x2c, virtual false, abstract: false, final false
-  inline void NotifyAssetCooked(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* generatedOutputs);
+  inline void NotifyAssetCooked(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool bSuccess, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* generatedOutputs);
 
   /// @brief Method NotifyAssetCooked, addr 0x2199ca0, size 0x10, virtual false, abstract: false, final false
   inline void NotifyAssetCooked(::HoudiniEngineUnity::HEU_CookedEventData* cookedEventData);
@@ -474,7 +474,7 @@ public:
                           ::ArrayW<::HoudiniEngineUnity::HAPI_PDG_WorkitemResultInfo, ::Array<::HoudiniEngineUnity::HAPI_PDG_WorkitemResultInfo>*> resultInfos, int32_t workItemID);
 
   /// @brief Method GetLoadRootTransform, addr 0x219c0ec, size 0xe4, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* GetLoadRootTransform();
+  inline ::UnityW<::UnityEngine::Transform> GetLoadRootTransform();
 
   /// @brief Method GetTOPNode, addr 0x219c1d0, size 0x170, virtual false, abstract: false, final false
   inline ::HoudiniEngineUnity::HEU_TOPNodeData* GetTOPNode(int32_t nodeID);
@@ -527,7 +527,7 @@ public:
   ::StringW ____assetPath;
 
   /// @brief Field _assetGO, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____assetGO;
+  ::UnityW<::UnityEngine::GameObject> ____assetGO;
 
   /// @brief Field _assetName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____assetName;
@@ -536,7 +536,7 @@ public:
   int32_t ____assetID;
 
   /// @brief Field _heu, offset: 0x38, size: 0x8, def value: None
-  ::HoudiniEngineUnity::HEU_HoudiniAsset* ____heu;
+  ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ____heu;
 
   /// @brief Field _topNetworks, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_TOPNetworkData*>* ____topNetworks;
@@ -566,7 +566,7 @@ public:
   ::HoudiniEngineUnity::HEU_WorkItemTally* ____workItemTally;
 
   /// @brief Field _loadRootGameObject, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____loadRootGameObject;
+  ::UnityW<::UnityEngine::GameObject> ____loadRootGameObject;
 
   /// @brief Field _outputCachePathRoot, offset: 0x80, size: 0x8, def value: None
   ::StringW ____outputCachePathRoot;

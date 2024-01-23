@@ -52,17 +52,17 @@
 // "strikethroughColorStack", ty: "::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: Some("{}") }, CppParam { name: "highlightColorStack", ty:
 // "::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: Some("{}") }, CppParam { name: "highlightStateStack", ty:
 // "::TMPro::TMP_TextProcessingStack_1<::TMPro::HighlightState>", modifiers: "", def_value: Some("{}") }, CppParam { name: "colorGradientStack", ty:
-// "::TMPro::TMP_TextProcessingStack_1<::TMPro::TMP_ColorGradient*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "sizeStack", ty: "::TMPro::TMP_TextProcessingStack_1<float_t>",
+// "::TMPro::TMP_TextProcessingStack_1<::UnityW<::TMPro::TMP_ColorGradient>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "sizeStack", ty: "::TMPro::TMP_TextProcessingStack_1<float_t>",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "indentStack", ty: "::TMPro::TMP_TextProcessingStack_1<float_t>", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "fontWeightStack", ty: "::TMPro::TMP_TextProcessingStack_1<::TMPro::FontWeight>", modifiers: "", def_value: Some("{}") }, CppParam { name: "styleStack", ty:
 // "::TMPro::TMP_TextProcessingStack_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "baselineStack", ty: "::TMPro::TMP_TextProcessingStack_1<float_t>", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "actionStack", ty: "::TMPro::TMP_TextProcessingStack_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "materialReferenceStack", ty:
 // "::TMPro::TMP_TextProcessingStack_1<::TMPro::MaterialReference>", modifiers: "", def_value: Some("{}") }, CppParam { name: "lineJustificationStack", ty:
 // "::TMPro::TMP_TextProcessingStack_1<::TMPro::HorizontalAlignmentOptions>", modifiers: "", def_value: Some("{}") }, CppParam { name: "spriteAnimationID", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "currentFontAsset", ty: "::TMPro::TMP_FontAsset*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "currentSpriteAsset", ty:
-// "::TMPro::TMP_SpriteAsset*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "currentMaterial", ty: "::UnityEngine::Material*", modifiers: "", def_value: Some("nullptr") }, CppParam {
-// name: "currentMaterialIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "meshExtents", ty: "::TMPro::Extents", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "tagNoParsing", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "isNonBreakingSpace", ty: "bool", modifiers: "", def_value: Some("{}") }]
+// Some("{}") }, CppParam { name: "currentFontAsset", ty: "::UnityW<::TMPro::TMP_FontAsset>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "currentSpriteAsset", ty:
+// "::UnityW<::TMPro::TMP_SpriteAsset>", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "currentMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value:
+// Some("nullptr") }, CppParam { name: "currentMaterialIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "meshExtents", ty: "::TMPro::Extents", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "tagNoParsing", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "isNonBreakingSpace", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr ::TMPro::WordWrapState::WordWrapState(
     int32_t previous_WordBreak, int32_t total_CharacterCount, int32_t visible_CharacterCount, int32_t visible_SpriteCount, int32_t visible_LinkCount, int32_t firstCharacterIndex,
     int32_t firstVisibleCharacterIndex, int32_t lastCharacterIndex, int32_t lastVisibleCharIndex, int32_t lineNumber, float_t maxCapHeight, float_t maxAscender, float_t maxDescender,
@@ -73,12 +73,12 @@ constexpr ::TMPro::WordWrapState::WordWrapState(
     ::UnityEngine::Color32 strikethroughColor, ::UnityEngine::Color32 highlightColor, ::TMPro::TMP_FontStyleStack basicStyleStack, ::TMPro::TMP_TextProcessingStack_1<int32_t> italicAngleStack,
     ::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32> colorStack, ::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32> underlineColorStack,
     ::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32> strikethroughColorStack, ::TMPro::TMP_TextProcessingStack_1<::UnityEngine::Color32> highlightColorStack,
-    ::TMPro::TMP_TextProcessingStack_1<::TMPro::HighlightState> highlightStateStack, ::TMPro::TMP_TextProcessingStack_1<::TMPro::TMP_ColorGradient*> colorGradientStack,
+    ::TMPro::TMP_TextProcessingStack_1<::TMPro::HighlightState> highlightStateStack, ::TMPro::TMP_TextProcessingStack_1<::UnityW<::TMPro::TMP_ColorGradient>> colorGradientStack,
     ::TMPro::TMP_TextProcessingStack_1<float_t> sizeStack, ::TMPro::TMP_TextProcessingStack_1<float_t> indentStack, ::TMPro::TMP_TextProcessingStack_1<::TMPro::FontWeight> fontWeightStack,
     ::TMPro::TMP_TextProcessingStack_1<int32_t> styleStack, ::TMPro::TMP_TextProcessingStack_1<float_t> baselineStack, ::TMPro::TMP_TextProcessingStack_1<int32_t> actionStack,
     ::TMPro::TMP_TextProcessingStack_1<::TMPro::MaterialReference> materialReferenceStack, ::TMPro::TMP_TextProcessingStack_1<::TMPro::HorizontalAlignmentOptions> lineJustificationStack,
-    int32_t spriteAnimationID, ::TMPro::TMP_FontAsset* currentFontAsset, ::TMPro::TMP_SpriteAsset* currentSpriteAsset, ::UnityEngine::Material* currentMaterial, int32_t currentMaterialIndex,
-    ::TMPro::Extents meshExtents, bool tagNoParsing, bool isNonBreakingSpace) noexcept {
+    int32_t spriteAnimationID, ::UnityW<::TMPro::TMP_FontAsset> currentFontAsset, ::UnityW<::TMPro::TMP_SpriteAsset> currentSpriteAsset, ::UnityW<::UnityEngine::Material> currentMaterial,
+    int32_t currentMaterialIndex, ::TMPro::Extents meshExtents, bool tagNoParsing, bool isNonBreakingSpace) noexcept {
   this->previous_WordBreak = previous_WordBreak;
   this->total_CharacterCount = total_CharacterCount;
   this->visible_CharacterCount = visible_CharacterCount;

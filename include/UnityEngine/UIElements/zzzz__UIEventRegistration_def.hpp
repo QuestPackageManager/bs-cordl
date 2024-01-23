@@ -31,7 +31,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__UIEventRegistration____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6900))
 // CS Name: ::UIEventRegistration::<>c*
 class CORDL_TYPE __UIEventRegistration____c : public ::System::Object {
@@ -91,7 +91,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UIEve
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6901))
 // CS Name: ::UnityEngine.UIElements::UIEventRegistration*
 class CORDL_TYPE UIEventRegistration : public ::System::Object {

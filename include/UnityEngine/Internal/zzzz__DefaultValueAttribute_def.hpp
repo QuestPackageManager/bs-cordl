@@ -19,22 +19,22 @@ MARK_REF_PTR_T(::UnityEngine::Internal::DefaultValueAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Internal {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10323))
 // CS Name: ::UnityEngine.Internal::DefaultValueAttribute*
 class CORDL_TYPE DefaultValueAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field DefaultValue, offset 0x10, size 0x8
-  __declspec(property(get = __get_DefaultValue, put = __set_DefaultValue))::System::Object* DefaultValue;
+  __declspec(property(get = __cordl_internal_get_DefaultValue, put = __cordl_internal_set_DefaultValue))::System::Object* DefaultValue;
 
   __declspec(property(get = get_Value))::System::Object* Value;
 
-  constexpr ::System::Object*& __get_DefaultValue();
+  constexpr ::System::Object*& __cordl_internal_get_DefaultValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_DefaultValue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_DefaultValue() const;
 
-  constexpr void __set_DefaultValue(::System::Object* value);
+  constexpr void __cordl_internal_set_DefaultValue(::System::Object* value);
 
   static inline ::UnityEngine::Internal::DefaultValueAttribute* New_ctor(::StringW value);
 

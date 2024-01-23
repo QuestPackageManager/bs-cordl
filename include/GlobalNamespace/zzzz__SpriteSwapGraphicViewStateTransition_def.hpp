@@ -21,24 +21,24 @@ MARK_REF_PTR_T(::GlobalNamespace::SpriteSwapGraphicViewStateTransition);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13055)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 924 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(5442))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5461)) CS Name: ::SpriteSwapGraphicViewStateTransition*
-class CORDL_TYPE SpriteSwapGraphicViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityEngine::UI::Image*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5442)), TypeDefinitionIndex(TypeDefinitionIndex(13055)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(5442), inst: 924
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5461)) CS Name: ::SpriteSwapGraphicViewStateTransition*
+class CORDL_TYPE SpriteSwapGraphicViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityW<::UnityEngine::UI::Image>> {
 public:
   // Declarations
   /// @brief Field _transition, offset 0x28, size 0x8
-  __declspec(property(get = __get__transition, put = __set__transition))::GlobalNamespace::SpriteSwapTransitionSO* _transition;
+  __declspec(property(get = __cordl_internal_get__transition, put = __cordl_internal_set__transition))::UnityW<::GlobalNamespace::SpriteSwapTransitionSO> _transition;
 
-  __declspec(property(get = get_transition))::GlobalNamespace::BaseTransitionSO* transition;
+  __declspec(property(get = get_transition))::UnityW<::GlobalNamespace::BaseTransitionSO> transition;
 
-  constexpr ::GlobalNamespace::SpriteSwapTransitionSO*& __get__transition();
+  constexpr ::UnityW<::GlobalNamespace::SpriteSwapTransitionSO>& __cordl_internal_get__transition();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SpriteSwapTransitionSO*> const& __get__transition() const;
+  constexpr ::UnityW<::GlobalNamespace::SpriteSwapTransitionSO> const& __cordl_internal_get__transition() const;
 
-  constexpr void __set__transition(::GlobalNamespace::SpriteSwapTransitionSO* value);
+  constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::SpriteSwapTransitionSO> value);
 
   /// @brief Method get_transition, addr 0x227feac, size 0x8, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::BaseTransitionSO* get_transition();
+  inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
 
   /// @brief Method TransitionToNormalState, addr 0x227feb4, size 0xc, virtual true, abstract: false, final false
   inline void TransitionToNormalState();
@@ -96,7 +96,7 @@ protected:
 
 public:
   /// @brief Field _transition, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::SpriteSwapTransitionSO* ____transition;
+  ::UnityW<::GlobalNamespace::SpriteSwapTransitionSO> ____transition;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

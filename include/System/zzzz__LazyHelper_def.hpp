@@ -33,17 +33,17 @@ MARK_REF_PTR_T(::System::LazyHelper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2430))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2430)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2431))
 // CS Name: ::System::LazyHelper*
 class CORDL_TYPE LazyHelper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <State>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__State_k__BackingField, put = __set__State_k__BackingField))::System::LazyState _State_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__State_k__BackingField, put = __cordl_internal_set__State_k__BackingField))::System::LazyState _State_k__BackingField;
 
   /// @brief Field _exceptionDispatch, offset 0x18, size 0x8
-  __declspec(property(get = __get__exceptionDispatch, put = __set__exceptionDispatch))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _exceptionDispatch;
+  __declspec(property(get = __cordl_internal_get__exceptionDispatch, put = __cordl_internal_set__exceptionDispatch))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* _exceptionDispatch;
 
   /// @brief Field NoneViaConstructor, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_NoneViaConstructor, put = setStaticF_NoneViaConstructor))::System::LazyHelper* NoneViaConstructor;
@@ -63,17 +63,17 @@ public:
 
   __declspec(property(get = get_State))::System::LazyState State;
 
-  constexpr ::System::LazyState& __get__State_k__BackingField();
+  constexpr ::System::LazyState& __cordl_internal_get__State_k__BackingField();
 
-  constexpr ::System::LazyState const& __get__State_k__BackingField() const;
+  constexpr ::System::LazyState const& __cordl_internal_get__State_k__BackingField() const;
 
-  constexpr void __set__State_k__BackingField(::System::LazyState value);
+  constexpr void __cordl_internal_set__State_k__BackingField(::System::LazyState value);
 
-  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __get__exceptionDispatch();
+  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __cordl_internal_get__exceptionDispatch();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __get__exceptionDispatch() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __cordl_internal_get__exceptionDispatch() const;
 
-  constexpr void __set__exceptionDispatch(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
+  constexpr void __cordl_internal_set__exceptionDispatch(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
 
   static inline void setStaticF_NoneViaConstructor(::System::LazyHelper* value);
 

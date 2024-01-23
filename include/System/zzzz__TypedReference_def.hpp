@@ -30,7 +30,7 @@ MARK_VAL_T(::System::TypedReference);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2618))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2618))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2572))
 // CS Name: ::System::TypedReference
 struct CORDL_TYPE TypedReference {

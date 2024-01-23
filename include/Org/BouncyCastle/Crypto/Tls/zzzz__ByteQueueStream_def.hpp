@@ -22,14 +22,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ByteQueueStream);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1184))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::ByteQueueStream*
 class CORDL_TYPE ByteQueueStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field buffer, offset 0x28, size 0x8
-  __declspec(property(get = __get_buffer, put = __set_buffer))::Org::BouncyCastle::Crypto::Tls::ByteQueue* buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::Org::BouncyCastle::Crypto::Tls::ByteQueue* buffer;
 
   __declspec(property(get = get_Available)) int32_t Available;
 
@@ -43,11 +43,11 @@ public:
 
   __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueue*& __get_buffer();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueue*& __cordl_internal_get_buffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ByteQueue*> const& __get_buffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ByteQueue*> const& __cordl_internal_get_buffer() const;
 
-  constexpr void __set_buffer(::Org::BouncyCastle::Crypto::Tls::ByteQueue* value);
+  constexpr void __cordl_internal_set_buffer(::Org::BouncyCastle::Crypto::Tls::ByteQueue* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ByteQueueStream* New_ctor();
 

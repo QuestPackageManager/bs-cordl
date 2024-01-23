@@ -18,24 +18,24 @@ MARK_REF_PTR_T(::UnityEngine::AssetBundleRequest);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10262))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10262))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16104))
 // CS Name: ::UnityEngine::AssetBundleRequest*
 class CORDL_TYPE AssetBundleRequest : public ::UnityEngine::ResourceRequest {
 public:
   // Declarations
-  __declspec(property(get = get_asset))::UnityEngine::Object* asset;
+  __declspec(property(get = get_asset))::UnityW<::UnityEngine::Object> asset;
 
-  __declspec(property(get = get_allAssets))::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> allAssets;
+  __declspec(property(get = get_allAssets))::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> allAssets;
 
   /// @brief Method GetResult, addr 0x2c99e94, size 0x3c, virtual true, abstract: false, final false
-  inline ::UnityEngine::Object* GetResult();
+  inline ::UnityW<::UnityEngine::Object> GetResult();
 
   /// @brief Method get_asset, addr 0x2c99ed0, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Object* get_asset();
+  inline ::UnityW<::UnityEngine::Object> get_asset();
 
   /// @brief Method get_allAssets, addr 0x2c99edc, size 0x3c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> get_allAssets();
+  inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> get_allAssets();
 
   static inline ::UnityEngine::AssetBundleRequest* New_ctor();
 

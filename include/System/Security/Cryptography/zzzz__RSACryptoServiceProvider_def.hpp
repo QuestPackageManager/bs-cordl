@@ -36,29 +36,29 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RSACryptoServiceProvider);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2956)), TypeDefinitionIndex(TypeDefinitionIndex(2926))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2926)), TypeDefinitionIndex(TypeDefinitionIndex(2956))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2957))
 // CS Name: ::System.Security.Cryptography::RSACryptoServiceProvider*
 class CORDL_TYPE RSACryptoServiceProvider : public ::System::Security::Cryptography::RSA {
 public:
   // Declarations
   /// @brief Field store, offset 0x20, size 0x8
-  __declspec(property(get = __get_store, put = __set_store))::Mono::Security::Cryptography::KeyPairPersistence* store;
+  __declspec(property(get = __cordl_internal_get_store, put = __cordl_internal_set_store))::Mono::Security::Cryptography::KeyPairPersistence* store;
 
   /// @brief Field persistKey, offset 0x28, size 0x1
-  __declspec(property(get = __get_persistKey, put = __set_persistKey)) bool persistKey;
+  __declspec(property(get = __cordl_internal_get_persistKey, put = __cordl_internal_set_persistKey)) bool persistKey;
 
   /// @brief Field persisted, offset 0x29, size 0x1
-  __declspec(property(get = __get_persisted, put = __set_persisted)) bool persisted;
+  __declspec(property(get = __cordl_internal_get_persisted, put = __cordl_internal_set_persisted)) bool persisted;
 
   /// @brief Field privateKeyExportable, offset 0x2a, size 0x1
-  __declspec(property(get = __get_privateKeyExportable, put = __set_privateKeyExportable)) bool privateKeyExportable;
+  __declspec(property(get = __cordl_internal_get_privateKeyExportable, put = __cordl_internal_set_privateKeyExportable)) bool privateKeyExportable;
 
   /// @brief Field m_disposed, offset 0x2b, size 0x1
-  __declspec(property(get = __get_m_disposed, put = __set_m_disposed)) bool m_disposed;
+  __declspec(property(get = __cordl_internal_get_m_disposed, put = __cordl_internal_set_m_disposed)) bool m_disposed;
 
   /// @brief Field rsa, offset 0x30, size 0x8
-  __declspec(property(get = __get_rsa, put = __set_rsa))::Mono::Security::Cryptography::RSAManaged* rsa;
+  __declspec(property(get = __cordl_internal_get_rsa, put = __cordl_internal_set_rsa))::Mono::Security::Cryptography::RSAManaged* rsa;
 
   /// @brief Field s_UseMachineKeyStore, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_s_UseMachineKeyStore, put = setStaticF_s_UseMachineKeyStore))::System::Security::Cryptography::CspProviderFlags s_UseMachineKeyStore;
@@ -67,41 +67,41 @@ public:
 
   __declspec(property(get = get_PublicOnly)) bool PublicOnly;
 
-  constexpr ::Mono::Security::Cryptography::KeyPairPersistence*& __get_store();
+  constexpr ::Mono::Security::Cryptography::KeyPairPersistence*& __cordl_internal_get_store();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Cryptography::KeyPairPersistence*> const& __get_store() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Cryptography::KeyPairPersistence*> const& __cordl_internal_get_store() const;
 
-  constexpr void __set_store(::Mono::Security::Cryptography::KeyPairPersistence* value);
+  constexpr void __cordl_internal_set_store(::Mono::Security::Cryptography::KeyPairPersistence* value);
 
-  constexpr bool& __get_persistKey();
+  constexpr bool& __cordl_internal_get_persistKey();
 
-  constexpr bool const& __get_persistKey() const;
+  constexpr bool const& __cordl_internal_get_persistKey() const;
 
-  constexpr void __set_persistKey(bool value);
+  constexpr void __cordl_internal_set_persistKey(bool value);
 
-  constexpr bool& __get_persisted();
+  constexpr bool& __cordl_internal_get_persisted();
 
-  constexpr bool const& __get_persisted() const;
+  constexpr bool const& __cordl_internal_get_persisted() const;
 
-  constexpr void __set_persisted(bool value);
+  constexpr void __cordl_internal_set_persisted(bool value);
 
-  constexpr bool& __get_privateKeyExportable();
+  constexpr bool& __cordl_internal_get_privateKeyExportable();
 
-  constexpr bool const& __get_privateKeyExportable() const;
+  constexpr bool const& __cordl_internal_get_privateKeyExportable() const;
 
-  constexpr void __set_privateKeyExportable(bool value);
+  constexpr void __cordl_internal_set_privateKeyExportable(bool value);
 
-  constexpr bool& __get_m_disposed();
+  constexpr bool& __cordl_internal_get_m_disposed();
 
-  constexpr bool const& __get_m_disposed() const;
+  constexpr bool const& __cordl_internal_get_m_disposed() const;
 
-  constexpr void __set_m_disposed(bool value);
+  constexpr void __cordl_internal_set_m_disposed(bool value);
 
-  constexpr ::Mono::Security::Cryptography::RSAManaged*& __get_rsa();
+  constexpr ::Mono::Security::Cryptography::RSAManaged*& __cordl_internal_get_rsa();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Cryptography::RSAManaged*> const& __get_rsa() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Cryptography::RSAManaged*> const& __cordl_internal_get_rsa() const;
 
-  constexpr void __set_rsa(::Mono::Security::Cryptography::RSAManaged* value);
+  constexpr void __cordl_internal_set_rsa(::Mono::Security::Cryptography::RSAManaged* value);
 
   static inline void setStaticF_s_UseMachineKeyStore(::System::Security::Cryptography::CspProviderFlags value);
 

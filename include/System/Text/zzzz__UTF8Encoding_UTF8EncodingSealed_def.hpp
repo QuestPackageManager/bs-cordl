@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Text::__UTF8Encoding__UTF8EncodingSealed);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 58, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2865))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2865))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2862))
 // CS Name: ::UTF8Encoding::UTF8EncodingSealed*
 class CORDL_TYPE __UTF8Encoding__UTF8EncodingSealed : public ::System::Text::UTF8Encoding {

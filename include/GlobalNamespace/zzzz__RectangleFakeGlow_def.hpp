@@ -24,23 +24,24 @@ MARK_REF_PTR_T(::GlobalNamespace::RectangleFakeGlow);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4990))
 // CS Name: ::RectangleFakeGlow*
 class CORDL_TYPE RectangleFakeGlow : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _size, offset 0x18, size 0x8
-  __declspec(property(get = __get__size, put = __set__size))::UnityEngine::Vector2 _size;
+  __declspec(property(get = __cordl_internal_get__size, put = __cordl_internal_set__size))::UnityEngine::Vector2 _size;
 
   /// @brief Field _edgeSize, offset 0x20, size 0x4
-  __declspec(property(get = __get__edgeSize, put = __set__edgeSize)) float_t _edgeSize;
+  __declspec(property(get = __cordl_internal_get__edgeSize, put = __cordl_internal_set__edgeSize)) float_t _edgeSize;
 
   /// @brief Field _color, offset 0x24, size 0x10
-  __declspec(property(get = __get__color, put = __set__color))::UnityEngine::Color _color;
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
   /// @brief Field _materialPropertyBlockController, offset 0x38, size 0x8
-  __declspec(property(get = __get__materialPropertyBlockController, put = __set__materialPropertyBlockController))::GlobalNamespace::MaterialPropertyBlockController* _materialPropertyBlockController;
+  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
+                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
 
   /// @brief Field _colorID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__colorID, put = setStaticF__colorID)) int32_t _colorID;
@@ -50,29 +51,29 @@ public:
 
   __declspec(property(get = get_color, put = set_color))::UnityEngine::Color color;
 
-  constexpr ::UnityEngine::Vector2& __get__size();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__size();
 
-  constexpr ::UnityEngine::Vector2 const& __get__size() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__size() const;
 
-  constexpr void __set__size(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__size(::UnityEngine::Vector2 value);
 
-  constexpr float_t& __get__edgeSize();
+  constexpr float_t& __cordl_internal_get__edgeSize();
 
-  constexpr float_t const& __get__edgeSize() const;
+  constexpr float_t const& __cordl_internal_get__edgeSize() const;
 
-  constexpr void __set__edgeSize(float_t value);
+  constexpr void __cordl_internal_set__edgeSize(float_t value);
 
-  constexpr ::UnityEngine::Color& __get__color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::UnityEngine::Color const& __get__color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr void __set__color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  constexpr ::GlobalNamespace::MaterialPropertyBlockController*& __get__materialPropertyBlockController();
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockController*> const& __get__materialPropertyBlockController() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
 
-  constexpr void __set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
+  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
   static inline void setStaticF__colorID(int32_t value);
 
@@ -129,7 +130,7 @@ public:
   ::UnityEngine::Color ____color;
 
   /// @brief Field _materialPropertyBlockController, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::MaterialPropertyBlockController* ____materialPropertyBlockController;
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

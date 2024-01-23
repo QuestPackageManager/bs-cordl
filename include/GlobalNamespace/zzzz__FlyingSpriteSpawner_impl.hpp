@@ -17,12 +17,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1fc;
   constexpr static std::size_t addrs = 0x23a1114;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingSpriteSpawner*>::get(), "SpawnFlyingSprite", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingSpriteSpawner*>::get(), "SpawnFlyingSprite", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
     return ___internal_method;
   }
 };
@@ -34,10 +34,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x11c;
   constexpr static std::size_t addrs = 0x23a1df0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingSpriteSpawner*>::get(), "HandleFlyingObjectEffectDidFinish", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::FlyingObjectEffect*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingSpriteSpawner*>::get(), "HandleFlyingObjectEffectDidFinish", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::FlyingObjectEffect*>::get() })));
     return ___internal_method;
   }
 };
@@ -48,9 +48,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x23a1f0c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingSpriteSpawner*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -62,134 +62,134 @@ constexpr GlobalNamespace::FlyingSpriteSpawner::operator ::GlobalNamespace::IFly
 constexpr ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent* GlobalNamespace::FlyingSpriteSpawner::i___GlobalNamespace__IFlyingObjectEffectDidFinishEvent() noexcept {
   return static_cast<::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*>(static_cast<void*>(this));
 }
-constexpr ::UnityEngine::Sprite*& GlobalNamespace::FlyingSpriteSpawner::__get__sprite() {
+constexpr ::UnityW<::UnityEngine::Sprite>& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__sprite() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sprite;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& GlobalNamespace::FlyingSpriteSpawner::__get__sprite() const {
+constexpr ::UnityW<::UnityEngine::Sprite> const& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__sprite() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sprite;
 }
-constexpr void GlobalNamespace::FlyingSpriteSpawner::__set__sprite(::UnityEngine::Sprite* value) {
+constexpr void GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_set__sprite(::UnityW<::UnityEngine::Sprite> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sprite)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Material*& GlobalNamespace::FlyingSpriteSpawner::__get__material() {
+constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__material() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____material;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::FlyingSpriteSpawner::__get__material() const {
+constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__material() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____material;
 }
-constexpr void GlobalNamespace::FlyingSpriteSpawner::__set__material(::UnityEngine::Material* value) {
+constexpr void GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_set__material(::UnityW<::UnityEngine::Material> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____material)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::FlyingSpriteSpawner::__get__duration() {
+constexpr float_t& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__duration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration;
 }
-constexpr float_t const& GlobalNamespace::FlyingSpriteSpawner::__get__duration() const {
+constexpr float_t const& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__duration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____duration;
 }
-constexpr void GlobalNamespace::FlyingSpriteSpawner::__set__duration(float_t value) {
+constexpr void GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_set__duration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____duration = value;
 }
-constexpr float_t& GlobalNamespace::FlyingSpriteSpawner::__get__xSpread() {
+constexpr float_t& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__xSpread() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xSpread;
 }
-constexpr float_t const& GlobalNamespace::FlyingSpriteSpawner::__get__xSpread() const {
+constexpr float_t const& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__xSpread() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____xSpread;
 }
-constexpr void GlobalNamespace::FlyingSpriteSpawner::__set__xSpread(float_t value) {
+constexpr void GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_set__xSpread(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____xSpread = value;
 }
-constexpr float_t& GlobalNamespace::FlyingSpriteSpawner::__get__targetYPos() {
+constexpr float_t& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__targetYPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetYPos;
 }
-constexpr float_t const& GlobalNamespace::FlyingSpriteSpawner::__get__targetYPos() const {
+constexpr float_t const& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__targetYPos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetYPos;
 }
-constexpr void GlobalNamespace::FlyingSpriteSpawner::__set__targetYPos(float_t value) {
+constexpr void GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_set__targetYPos(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____targetYPos = value;
 }
-constexpr float_t& GlobalNamespace::FlyingSpriteSpawner::__get__targetZPos() {
+constexpr float_t& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__targetZPos() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetZPos;
 }
-constexpr float_t const& GlobalNamespace::FlyingSpriteSpawner::__get__targetZPos() const {
+constexpr float_t const& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__targetZPos() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____targetZPos;
 }
-constexpr void GlobalNamespace::FlyingSpriteSpawner::__set__targetZPos(float_t value) {
+constexpr void GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_set__targetZPos(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____targetZPos = value;
 }
-constexpr ::UnityEngine::Color& GlobalNamespace::FlyingSpriteSpawner::__get__color() {
+constexpr ::UnityEngine::Color& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__color() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
-constexpr ::UnityEngine::Color const& GlobalNamespace::FlyingSpriteSpawner::__get__color() const {
+constexpr ::UnityEngine::Color const& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__color() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____color;
 }
-constexpr void GlobalNamespace::FlyingSpriteSpawner::__set__color(::UnityEngine::Color value) {
+constexpr void GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_set__color(::UnityEngine::Color value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____color = value;
 }
-constexpr bool& GlobalNamespace::FlyingSpriteSpawner::__get__shake() {
+constexpr bool& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__shake() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shake;
 }
-constexpr bool const& GlobalNamespace::FlyingSpriteSpawner::__get__shake() const {
+constexpr bool const& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__shake() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____shake;
 }
-constexpr void GlobalNamespace::FlyingSpriteSpawner::__set__shake(bool value) {
+constexpr void GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_set__shake(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____shake = value;
 }
-constexpr ::GlobalNamespace::__FlyingSpriteEffect__Pool*& GlobalNamespace::FlyingSpriteSpawner::__get__flyingSpriteEffectPool() {
+constexpr ::GlobalNamespace::__FlyingSpriteEffect__Pool*& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__flyingSpriteEffectPool() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flyingSpriteEffectPool;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__FlyingSpriteEffect__Pool*> const& GlobalNamespace::FlyingSpriteSpawner::__get__flyingSpriteEffectPool() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__FlyingSpriteEffect__Pool*> const& GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_get__flyingSpriteEffectPool() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____flyingSpriteEffectPool;
 }
-constexpr void GlobalNamespace::FlyingSpriteSpawner::__set__flyingSpriteEffectPool(::GlobalNamespace::__FlyingSpriteEffect__Pool* value) {
+constexpr void GlobalNamespace::FlyingSpriteSpawner::__cordl_internal_set__flyingSpriteEffectPool(::GlobalNamespace::__FlyingSpriteEffect__Pool* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____flyingSpriteEffectPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::FlyingSpriteSpawner::SpawnFlyingSprite(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingSpriteSpawner*>::get(), "SpawnFlyingSprite", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingSpriteSpawner*>::get(), "SpawnFlyingSprite", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pos, rotation, inverseRotation);
 }
 inline void GlobalNamespace::FlyingSpriteSpawner::HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingSpriteSpawner*>::get(), "HandleFlyingObjectEffectDidFinish", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::FlyingObjectEffect*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingSpriteSpawner*>::get(), "HandleFlyingObjectEffectDidFinish", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::FlyingObjectEffect*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, flyingObjectEffect);
 }
 inline ::GlobalNamespace::FlyingSpriteSpawner* GlobalNamespace::FlyingSpriteSpawner::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::FlyingSpriteSpawner*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::FlyingSpriteSpawner*>());
 }
 inline void GlobalNamespace::FlyingSpriteSpawner::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingSpriteSpawner*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

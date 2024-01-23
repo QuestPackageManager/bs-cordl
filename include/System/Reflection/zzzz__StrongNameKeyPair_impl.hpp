@@ -14,11 +14,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1ec;
   constexpr static std::size_t addrs = 0x24f958c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::StrongNameKeyPair*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::StrongNameKeyPair*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
     return ___internal_method;
   }
 };
@@ -31,12 +31,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x148;
   constexpr static std::size_t addrs = 0x24f9778;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::StrongNameKeyPair*>::get(), "System.Runtime.Serialization.ISerializable.GetObjectData",
-                                    std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
     return ___internal_method;
   }
 };
@@ -48,10 +48,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x24f98c0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::StrongNameKeyPair*>::get(),
-                                                                               "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>{},
-                                                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+                                                                               "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
@@ -71,77 +71,78 @@ constexpr System::Reflection::StrongNameKeyPair::operator ::System::Runtime::Ser
 constexpr ::System::Runtime::Serialization::IDeserializationCallback* System::Reflection::StrongNameKeyPair::i___System__Runtime__Serialization__IDeserializationCallback() noexcept {
   return static_cast<::System::Runtime::Serialization::IDeserializationCallback*>(static_cast<void*>(this));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Reflection::StrongNameKeyPair::__get__publicKey() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Reflection::StrongNameKeyPair::__cordl_internal_get__publicKey() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____publicKey;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Reflection::StrongNameKeyPair::__get__publicKey() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Reflection::StrongNameKeyPair::__cordl_internal_get__publicKey() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____publicKey;
 }
-constexpr void System::Reflection::StrongNameKeyPair::__set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void System::Reflection::StrongNameKeyPair::__cordl_internal_set__publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____publicKey)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& System::Reflection::StrongNameKeyPair::__get__keyPairContainer() {
+constexpr ::StringW& System::Reflection::StrongNameKeyPair::__cordl_internal_get__keyPairContainer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyPairContainer;
 }
-constexpr ::StringW const& System::Reflection::StrongNameKeyPair::__get__keyPairContainer() const {
+constexpr ::StringW const& System::Reflection::StrongNameKeyPair::__cordl_internal_get__keyPairContainer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyPairContainer;
 }
-constexpr void System::Reflection::StrongNameKeyPair::__set__keyPairContainer(::StringW value) {
+constexpr void System::Reflection::StrongNameKeyPair::__cordl_internal_set__keyPairContainer(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keyPairContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::Reflection::StrongNameKeyPair::__get__keyPairExported() {
+constexpr bool& System::Reflection::StrongNameKeyPair::__cordl_internal_get__keyPairExported() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyPairExported;
 }
-constexpr bool const& System::Reflection::StrongNameKeyPair::__get__keyPairExported() const {
+constexpr bool const& System::Reflection::StrongNameKeyPair::__cordl_internal_get__keyPairExported() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyPairExported;
 }
-constexpr void System::Reflection::StrongNameKeyPair::__set__keyPairExported(bool value) {
+constexpr void System::Reflection::StrongNameKeyPair::__cordl_internal_set__keyPairExported(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____keyPairExported = value;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Reflection::StrongNameKeyPair::__get__keyPairArray() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& System::Reflection::StrongNameKeyPair::__cordl_internal_get__keyPairArray() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyPairArray;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Reflection::StrongNameKeyPair::__get__keyPairArray() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Reflection::StrongNameKeyPair::__cordl_internal_get__keyPairArray() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyPairArray;
 }
-constexpr void System::Reflection::StrongNameKeyPair::__set__keyPairArray(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void System::Reflection::StrongNameKeyPair::__cordl_internal_set__keyPairArray(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____keyPairArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::System::Reflection::StrongNameKeyPair* System::Reflection::StrongNameKeyPair::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                                 ::System::Runtime::Serialization::StreamingContext context) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Reflection::StrongNameKeyPair*>(info, context));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Reflection::StrongNameKeyPair*>(info, context));
 }
 inline void System::Reflection::StrongNameKeyPair::_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::StrongNameKeyPair*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::StrongNameKeyPair*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
 }
 inline void System::Reflection::StrongNameKeyPair::System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                                             ::System::Runtime::Serialization::StreamingContext context) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::StrongNameKeyPair*>::get(), "System.Runtime.Serialization.ISerializable.GetObjectData", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::StrongNameKeyPair*>::get(), "System.Runtime.Serialization.ISerializable.GetObjectData",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::SerializationInfo*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
 }
 inline void System::Reflection::StrongNameKeyPair::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::StrongNameKeyPair*>::get(),
-                                                                             "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::vector<Il2CppClass*>{},
-                                                                             ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+                                                                             "System.Runtime.Serialization.IDeserializationCallback.OnDeserialization", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sender);
 }
 // Ctor Parameters []

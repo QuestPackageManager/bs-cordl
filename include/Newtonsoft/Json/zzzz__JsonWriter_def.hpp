@@ -102,7 +102,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonWriter);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11842))
 // CS Name: ::JsonWriter::State
 struct CORDL_TYPE __JsonWriter__State {
@@ -184,46 +184,46 @@ static_assert(offsetof(::Newtonsoft::Json::__JsonWriter__State, value__) == 0x0,
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11797)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11807)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11800)), TypeDefinitionIndex(TypeDefinitionIndex(11810)), TypeDefinitionIndex(TypeDefinitionIndex(11795)), TypeDefinitionIndex(TypeDefinitionIndex(11798)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11843)) CS Name: ::Newtonsoft.Json::JsonWriter*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11795)), TypeDefinitionIndex(TypeDefinitionIndex(11797)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11798)), TypeDefinitionIndex(TypeDefinitionIndex(11800)), TypeDefinitionIndex(TypeDefinitionIndex(11807)), TypeDefinitionIndex(TypeDefinitionIndex(11810)),
+// TypeDefinitionIndex(TypeDefinitionIndex(11842))] Self: TypeDefinitionIndex(TypeDefinitionIndex(11843)) CS Name: ::Newtonsoft.Json::JsonWriter*
 class CORDL_TYPE JsonWriter : public ::System::Object {
 public:
   // Declarations
   using State = ::Newtonsoft::Json::__JsonWriter__State;
 
   /// @brief Field _stack, offset 0x10, size 0x8
-  __declspec(property(get = __get__stack, put = __set__stack))::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* _stack;
+  __declspec(property(get = __cordl_internal_get__stack, put = __cordl_internal_set__stack))::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* _stack;
 
   /// @brief Field _currentPosition, offset 0x18, size 0x18
-  __declspec(property(get = __get__currentPosition, put = __set__currentPosition))::Newtonsoft::Json::JsonPosition _currentPosition;
+  __declspec(property(get = __cordl_internal_get__currentPosition, put = __cordl_internal_set__currentPosition))::Newtonsoft::Json::JsonPosition _currentPosition;
 
   /// @brief Field _currentState, offset 0x30, size 0x4
-  __declspec(property(get = __get__currentState, put = __set__currentState))::Newtonsoft::Json::__JsonWriter__State _currentState;
+  __declspec(property(get = __cordl_internal_get__currentState, put = __cordl_internal_set__currentState))::Newtonsoft::Json::__JsonWriter__State _currentState;
 
   /// @brief Field _formatting, offset 0x34, size 0x4
-  __declspec(property(get = __get__formatting, put = __set__formatting))::Newtonsoft::Json::Formatting _formatting;
+  __declspec(property(get = __cordl_internal_get__formatting, put = __cordl_internal_set__formatting))::Newtonsoft::Json::Formatting _formatting;
 
   /// @brief Field <CloseOutput>k__BackingField, offset 0x38, size 0x1
-  __declspec(property(get = __get__CloseOutput_k__BackingField, put = __set__CloseOutput_k__BackingField)) bool _CloseOutput_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CloseOutput_k__BackingField, put = __cordl_internal_set__CloseOutput_k__BackingField)) bool _CloseOutput_k__BackingField;
 
   /// @brief Field _dateFormatHandling, offset 0x3c, size 0x4
-  __declspec(property(get = __get__dateFormatHandling, put = __set__dateFormatHandling))::Newtonsoft::Json::DateFormatHandling _dateFormatHandling;
+  __declspec(property(get = __cordl_internal_get__dateFormatHandling, put = __cordl_internal_set__dateFormatHandling))::Newtonsoft::Json::DateFormatHandling _dateFormatHandling;
 
   /// @brief Field _dateTimeZoneHandling, offset 0x40, size 0x4
-  __declspec(property(get = __get__dateTimeZoneHandling, put = __set__dateTimeZoneHandling))::Newtonsoft::Json::DateTimeZoneHandling _dateTimeZoneHandling;
+  __declspec(property(get = __cordl_internal_get__dateTimeZoneHandling, put = __cordl_internal_set__dateTimeZoneHandling))::Newtonsoft::Json::DateTimeZoneHandling _dateTimeZoneHandling;
 
   /// @brief Field _stringEscapeHandling, offset 0x44, size 0x4
-  __declspec(property(get = __get__stringEscapeHandling, put = __set__stringEscapeHandling))::Newtonsoft::Json::StringEscapeHandling _stringEscapeHandling;
+  __declspec(property(get = __cordl_internal_get__stringEscapeHandling, put = __cordl_internal_set__stringEscapeHandling))::Newtonsoft::Json::StringEscapeHandling _stringEscapeHandling;
 
   /// @brief Field _floatFormatHandling, offset 0x48, size 0x4
-  __declspec(property(get = __get__floatFormatHandling, put = __set__floatFormatHandling))::Newtonsoft::Json::FloatFormatHandling _floatFormatHandling;
+  __declspec(property(get = __cordl_internal_get__floatFormatHandling, put = __cordl_internal_set__floatFormatHandling))::Newtonsoft::Json::FloatFormatHandling _floatFormatHandling;
 
   /// @brief Field _dateFormatString, offset 0x50, size 0x8
-  __declspec(property(get = __get__dateFormatString, put = __set__dateFormatString))::StringW _dateFormatString;
+  __declspec(property(get = __cordl_internal_get__dateFormatString, put = __cordl_internal_set__dateFormatString))::StringW _dateFormatString;
 
   /// @brief Field _culture, offset 0x58, size 0x8
-  __declspec(property(get = __get__culture, put = __set__culture))::System::Globalization::CultureInfo* _culture;
+  __declspec(property(get = __cordl_internal_get__culture, put = __cordl_internal_set__culture))::System::Globalization::CultureInfo* _culture;
 
   /// @brief Field StateArray, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_StateArray,
@@ -266,71 +266,71 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*& __get__stack();
+  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*& __cordl_internal_get__stack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*> const& __get__stack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>*> const& __cordl_internal_get__stack() const;
 
-  constexpr void __set__stack(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* value);
+  constexpr void __cordl_internal_set__stack(::System::Collections::Generic::List_1<::Newtonsoft::Json::JsonPosition>* value);
 
-  constexpr ::Newtonsoft::Json::JsonPosition& __get__currentPosition();
+  constexpr ::Newtonsoft::Json::JsonPosition& __cordl_internal_get__currentPosition();
 
-  constexpr ::Newtonsoft::Json::JsonPosition const& __get__currentPosition() const;
+  constexpr ::Newtonsoft::Json::JsonPosition const& __cordl_internal_get__currentPosition() const;
 
-  constexpr void __set__currentPosition(::Newtonsoft::Json::JsonPosition value);
+  constexpr void __cordl_internal_set__currentPosition(::Newtonsoft::Json::JsonPosition value);
 
-  constexpr ::Newtonsoft::Json::__JsonWriter__State& __get__currentState();
+  constexpr ::Newtonsoft::Json::__JsonWriter__State& __cordl_internal_get__currentState();
 
-  constexpr ::Newtonsoft::Json::__JsonWriter__State const& __get__currentState() const;
+  constexpr ::Newtonsoft::Json::__JsonWriter__State const& __cordl_internal_get__currentState() const;
 
-  constexpr void __set__currentState(::Newtonsoft::Json::__JsonWriter__State value);
+  constexpr void __cordl_internal_set__currentState(::Newtonsoft::Json::__JsonWriter__State value);
 
-  constexpr ::Newtonsoft::Json::Formatting& __get__formatting();
+  constexpr ::Newtonsoft::Json::Formatting& __cordl_internal_get__formatting();
 
-  constexpr ::Newtonsoft::Json::Formatting const& __get__formatting() const;
+  constexpr ::Newtonsoft::Json::Formatting const& __cordl_internal_get__formatting() const;
 
-  constexpr void __set__formatting(::Newtonsoft::Json::Formatting value);
+  constexpr void __cordl_internal_set__formatting(::Newtonsoft::Json::Formatting value);
 
-  constexpr bool& __get__CloseOutput_k__BackingField();
+  constexpr bool& __cordl_internal_get__CloseOutput_k__BackingField();
 
-  constexpr bool const& __get__CloseOutput_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__CloseOutput_k__BackingField() const;
 
-  constexpr void __set__CloseOutput_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__CloseOutput_k__BackingField(bool value);
 
-  constexpr ::Newtonsoft::Json::DateFormatHandling& __get__dateFormatHandling();
+  constexpr ::Newtonsoft::Json::DateFormatHandling& __cordl_internal_get__dateFormatHandling();
 
-  constexpr ::Newtonsoft::Json::DateFormatHandling const& __get__dateFormatHandling() const;
+  constexpr ::Newtonsoft::Json::DateFormatHandling const& __cordl_internal_get__dateFormatHandling() const;
 
-  constexpr void __set__dateFormatHandling(::Newtonsoft::Json::DateFormatHandling value);
+  constexpr void __cordl_internal_set__dateFormatHandling(::Newtonsoft::Json::DateFormatHandling value);
 
-  constexpr ::Newtonsoft::Json::DateTimeZoneHandling& __get__dateTimeZoneHandling();
+  constexpr ::Newtonsoft::Json::DateTimeZoneHandling& __cordl_internal_get__dateTimeZoneHandling();
 
-  constexpr ::Newtonsoft::Json::DateTimeZoneHandling const& __get__dateTimeZoneHandling() const;
+  constexpr ::Newtonsoft::Json::DateTimeZoneHandling const& __cordl_internal_get__dateTimeZoneHandling() const;
 
-  constexpr void __set__dateTimeZoneHandling(::Newtonsoft::Json::DateTimeZoneHandling value);
+  constexpr void __cordl_internal_set__dateTimeZoneHandling(::Newtonsoft::Json::DateTimeZoneHandling value);
 
-  constexpr ::Newtonsoft::Json::StringEscapeHandling& __get__stringEscapeHandling();
+  constexpr ::Newtonsoft::Json::StringEscapeHandling& __cordl_internal_get__stringEscapeHandling();
 
-  constexpr ::Newtonsoft::Json::StringEscapeHandling const& __get__stringEscapeHandling() const;
+  constexpr ::Newtonsoft::Json::StringEscapeHandling const& __cordl_internal_get__stringEscapeHandling() const;
 
-  constexpr void __set__stringEscapeHandling(::Newtonsoft::Json::StringEscapeHandling value);
+  constexpr void __cordl_internal_set__stringEscapeHandling(::Newtonsoft::Json::StringEscapeHandling value);
 
-  constexpr ::Newtonsoft::Json::FloatFormatHandling& __get__floatFormatHandling();
+  constexpr ::Newtonsoft::Json::FloatFormatHandling& __cordl_internal_get__floatFormatHandling();
 
-  constexpr ::Newtonsoft::Json::FloatFormatHandling const& __get__floatFormatHandling() const;
+  constexpr ::Newtonsoft::Json::FloatFormatHandling const& __cordl_internal_get__floatFormatHandling() const;
 
-  constexpr void __set__floatFormatHandling(::Newtonsoft::Json::FloatFormatHandling value);
+  constexpr void __cordl_internal_set__floatFormatHandling(::Newtonsoft::Json::FloatFormatHandling value);
 
-  constexpr ::StringW& __get__dateFormatString();
+  constexpr ::StringW& __cordl_internal_get__dateFormatString();
 
-  constexpr ::StringW const& __get__dateFormatString() const;
+  constexpr ::StringW const& __cordl_internal_get__dateFormatString() const;
 
-  constexpr void __set__dateFormatString(::StringW value);
+  constexpr void __cordl_internal_set__dateFormatString(::StringW value);
 
-  constexpr ::System::Globalization::CultureInfo*& __get__culture();
+  constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get__culture();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __get__culture() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __cordl_internal_get__culture() const;
 
-  constexpr void __set__culture(::System::Globalization::CultureInfo* value);
+  constexpr void __cordl_internal_set__culture(::System::Globalization::CultureInfo* value);
 
   static inline void setStaticF_StateArray(::ArrayW<::ArrayW<::Newtonsoft::Json::__JsonWriter__State, ::Array<::Newtonsoft::Json::__JsonWriter__State>*>,
                                                     ::Array<::ArrayW<::Newtonsoft::Json::__JsonWriter__State, ::Array<::Newtonsoft::Json::__JsonWriter__State>*>>*>

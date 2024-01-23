@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Configuration::ConfigurationSaveMode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Configuration {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16259))
 // CS Name: ::System.Configuration::ConfigurationSaveMode
 struct CORDL_TYPE ConfigurationSaveMode {

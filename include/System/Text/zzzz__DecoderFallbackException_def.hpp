@@ -23,29 +23,29 @@ MARK_REF_PTR_T(::System::Text::DecoderFallbackException);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 164, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2344))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2344))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2832))
 // CS Name: ::System.Text::DecoderFallbackException*
 class CORDL_TYPE DecoderFallbackException : public ::System::ArgumentException {
 public:
   // Declarations
   /// @brief Field _bytesUnknown, offset 0x98, size 0x8
-  __declspec(property(get = __get__bytesUnknown, put = __set__bytesUnknown))::ArrayW<uint8_t, ::Array<uint8_t>*> _bytesUnknown;
+  __declspec(property(get = __cordl_internal_get__bytesUnknown, put = __cordl_internal_set__bytesUnknown))::ArrayW<uint8_t, ::Array<uint8_t>*> _bytesUnknown;
 
   /// @brief Field _index, offset 0xa0, size 0x4
-  __declspec(property(get = __get__index, put = __set__index)) int32_t _index;
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__bytesUnknown();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__bytesUnknown();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__bytesUnknown() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__bytesUnknown() const;
 
-  constexpr void __set__bytesUnknown(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__bytesUnknown(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get__index();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr int32_t const& __get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __set__index(int32_t value);
+  constexpr void __cordl_internal_set__index(int32_t value);
 
   static inline ::System::Text::DecoderFallbackException* New_ctor();
 

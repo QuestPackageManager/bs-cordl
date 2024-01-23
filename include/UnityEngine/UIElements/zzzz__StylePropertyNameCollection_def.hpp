@@ -50,8 +50,8 @@ MARK_VAL_T(::UnityEngine::UIElements::__StylePropertyNameCollection__Enumerator)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1693 }), TypeDefinitionIndex(TypeDefinitionIndex(6791)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7186)) CS Name: ::StylePropertyNameCollection::Enumerator
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(6791)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1693
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7186)) CS Name: ::StylePropertyNameCollection::Enumerator
 struct CORDL_TYPE __StylePropertyNameCollection__Enumerator {
 public:
   // Declarations
@@ -121,7 +121,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__StylePropertyNameCollection_
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7187))
 // CS Name: ::UnityEngine.UIElements::StylePropertyNameCollection
 struct CORDL_TYPE StylePropertyNameCollection {

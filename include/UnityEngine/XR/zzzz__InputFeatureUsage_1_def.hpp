@@ -24,7 +24,7 @@ namespace UnityEngine::XR {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15620))
 // CS Name: ::UnityEngine.XR::InputFeatureUsage`1<T>
 struct CORDL_TYPE InputFeatureUsage_1 {

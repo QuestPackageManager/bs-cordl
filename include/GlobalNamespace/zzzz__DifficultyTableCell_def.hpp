@@ -28,51 +28,51 @@ MARK_REF_PTR_T(::GlobalNamespace::DifficultyTableCell);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13664))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13664))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5417))
 // CS Name: ::DifficultyTableCell*
 class CORDL_TYPE DifficultyTableCell : public ::HMUI::TableCell {
 public:
   // Declarations
   /// @brief Field _difficultyText, offset 0x58, size 0x8
-  __declspec(property(get = __get__difficultyText, put = __set__difficultyText))::TMPro::TextMeshProUGUI* _difficultyText;
+  __declspec(property(get = __cordl_internal_get__difficultyText, put = __cordl_internal_set__difficultyText))::UnityW<::TMPro::TextMeshProUGUI> _difficultyText;
 
   /// @brief Field _bgImage, offset 0x60, size 0x8
-  __declspec(property(get = __get__bgImage, put = __set__bgImage))::UnityEngine::UI::Image* _bgImage;
+  __declspec(property(get = __cordl_internal_get__bgImage, put = __cordl_internal_set__bgImage))::UnityW<::UnityEngine::UI::Image> _bgImage;
 
   /// @brief Field _highlightImage, offset 0x68, size 0x8
-  __declspec(property(get = __get__highlightImage, put = __set__highlightImage))::UnityEngine::UI::Image* _highlightImage;
+  __declspec(property(get = __cordl_internal_get__highlightImage, put = __cordl_internal_set__highlightImage))::UnityW<::UnityEngine::UI::Image> _highlightImage;
 
   /// @brief Field _fillIndicator, offset 0x70, size 0x8
-  __declspec(property(get = __get__fillIndicator, put = __set__fillIndicator))::GlobalNamespace::FillIndicator* _fillIndicator;
+  __declspec(property(get = __cordl_internal_get__fillIndicator, put = __cordl_internal_set__fillIndicator))::UnityW<::GlobalNamespace::FillIndicator> _fillIndicator;
 
   __declspec(property(get = get_difficultyText, put = set_difficultyText))::StringW difficultyText;
 
   __declspec(property(put = set_difficultyValue)) int32_t difficultyValue;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__difficultyText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__difficultyText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__difficultyText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__difficultyText() const;
 
-  constexpr void __set__difficultyText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__difficultyText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__bgImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__bgImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__bgImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__bgImage() const;
 
-  constexpr void __set__bgImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__bgImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__highlightImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__highlightImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__highlightImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__highlightImage() const;
 
-  constexpr void __set__highlightImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__highlightImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::GlobalNamespace::FillIndicator*& __get__fillIndicator();
+  constexpr ::UnityW<::GlobalNamespace::FillIndicator>& __cordl_internal_get__fillIndicator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FillIndicator*> const& __get__fillIndicator() const;
+  constexpr ::UnityW<::GlobalNamespace::FillIndicator> const& __cordl_internal_get__fillIndicator() const;
 
-  constexpr void __set__fillIndicator(::GlobalNamespace::FillIndicator* value);
+  constexpr void __cordl_internal_set__fillIndicator(::UnityW<::GlobalNamespace::FillIndicator> value);
 
   /// @brief Method set_difficultyText, addr 0x22788c8, size 0x24, virtual false, abstract: false, final false
   inline void set_difficultyText(::StringW value);
@@ -109,16 +109,16 @@ protected:
 
 public:
   /// @brief Field _difficultyText, offset: 0x58, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____difficultyText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____difficultyText;
 
   /// @brief Field _bgImage, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____bgImage;
+  ::UnityW<::UnityEngine::UI::Image> ____bgImage;
 
   /// @brief Field _highlightImage, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____highlightImage;
+  ::UnityW<::UnityEngine::UI::Image> ____highlightImage;
 
   /// @brief Field _fillIndicator, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::FillIndicator* ____fillIndicator;
+  ::UnityW<::GlobalNamespace::FillIndicator> ____fillIndicator;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

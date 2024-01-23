@@ -18,22 +18,22 @@ MARK_REF_PTR_T(::GlobalNamespace::ProgramArguments);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5955))
 // CS Name: ::ProgramArguments*
 class CORDL_TYPE ProgramArguments : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _arguments, offset 0x10, size 0x8
-  __declspec(property(get = __get__arguments, put = __set__arguments))::System::Collections::Generic::IReadOnlyList_1<::StringW>* _arguments;
+  __declspec(property(get = __cordl_internal_get__arguments, put = __cordl_internal_set__arguments))::System::Collections::Generic::IReadOnlyList_1<::StringW>* _arguments;
 
   __declspec(property(get = get_arguments))::System::Collections::Generic::IReadOnlyList_1<::StringW>* arguments;
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& __get__arguments();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& __cordl_internal_get__arguments();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::StringW>*> const& __get__arguments() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::StringW>*> const& __cordl_internal_get__arguments() const;
 
-  constexpr void __set__arguments(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value);
+  constexpr void __cordl_internal_set__arguments(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value);
 
   /// @brief Method get_arguments, addr 0x230516c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_arguments();

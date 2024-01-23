@@ -53,9 +53,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x282e910;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler____c*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -67,10 +67,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x282e918;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler____c*>::get(), "<GetConnectionKeepAlive>b__95_0",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler____c*>::get(), "<GetConnectionKeepAlive>b__95_0",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
@@ -82,10 +82,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x282e968;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler____c*>::get(), "<CreateWebRequest>b__96_0",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler____c*>::get(), "<CreateWebRequest>b__96_0",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
@@ -97,10 +97,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xb0;
   constexpr static std::size_t addrs = 0x282e9b4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler____c*>::get(), "<SendAsync>b__99_0",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler____c*>::get(), "<SendAsync>b__99_0",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
     return ___internal_method;
   }
 };
@@ -139,29 +139,29 @@ inline ::System::Action_1<::System::Object*>* System::Net::Http::__MonoWebReques
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler____c*>::get>();
 }
 inline ::System::Net::Http::__MonoWebRequestHandler____c* System::Net::Http::__MonoWebRequestHandler____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Net::Http::__MonoWebRequestHandler____c*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::__MonoWebRequestHandler____c*>());
 }
 inline void System::Net::Http::__MonoWebRequestHandler____c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler____c*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool System::Net::Http::__MonoWebRequestHandler____c::_GetConnectionKeepAlive_b__95_0(::StringW l) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler____c*>::get(), "<GetConnectionKeepAlive>b__95_0",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler____c*>::get(), "<GetConnectionKeepAlive>b__95_0",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, l);
 }
 inline bool System::Net::Http::__MonoWebRequestHandler____c::_CreateWebRequest_b__96_0(::StringW l) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler____c*>::get(), "<CreateWebRequest>b__96_0",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler____c*>::get(), "<CreateWebRequest>b__96_0",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, l);
 }
 inline void System::Net::Http::__MonoWebRequestHandler____c::_SendAsync_b__99_0(::System::Object* l) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler____c*>::get(), "<SendAsync>b__99_0",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler____c*>::get(), "<SendAsync>b__99_0",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, l);
 }
 // Ctor Parameters []
@@ -174,10 +174,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1700;
   constexpr static std::size_t addrs = 0x282ea64;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99>::get(), "MoveNext",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -189,31 +189,31 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x58;
   constexpr static std::size_t addrs = 0x2830540;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99>::get(), "SetStateMachine", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::cordl_internals::Box(this)));
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 inline void System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99::MoveNext() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99>::get(), "MoveNext",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99>::get(), "SetStateMachine", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::__MonoWebRequestHandler___SendAsync_d__99>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
@@ -260,9 +260,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1b0;
   constexpr static std::size_t addrs = 0x282c6a8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -274,9 +274,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x60;
   constexpr static std::size_t addrs = 0x282d0d8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(),
-                                                                               "EnsureModifiability", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "EnsureModifiability", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -288,9 +288,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x282d138;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(),
-                                                                               "get_CookieContainer", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_CookieContainer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -302,9 +302,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x282d1a4;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(),
-                                                                               "get_MaxRequestContentBufferSize", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "get_MaxRequestContentBufferSize",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -316,9 +317,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x282d1ac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(),
-                                                                               "get_SslOptions", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_SslOptions", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -330,10 +331,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x24;
   constexpr static std::size_t addrs = 0x282d218;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "set_SslOptions", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Security::SslClientAuthenticationOptions*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "set_SslOptions", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Security::SslClientAuthenticationOptions*>::get() })));
     return ___internal_method;
   }
 };
@@ -344,9 +345,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x282d23c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "Dispose",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -357,7 +358,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x84;
   constexpr static std::size_t addrs = 0x282d24c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), 11));
@@ -372,10 +373,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x110;
   constexpr static std::size_t addrs = 0x282d2d0;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "GetConnectionKeepAlive", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::HttpRequestHeaders*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "GetConnectionKeepAlive", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::HttpRequestHeaders*>::get() })));
     return ___internal_method;
   }
 };
@@ -387,7 +388,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x7bc;
   constexpr static std::size_t addrs = 0x282d448;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), 12));
@@ -403,12 +404,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c8;
   constexpr static std::size_t addrs = 0x282e0ec;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "CreateResponseMessage", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::HttpWebResponse*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpRequestMessage*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "CreateResponseMessage", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::HttpWebResponse*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpRequestMessage*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
@@ -419,10 +420,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10c;
   constexpr static std::size_t addrs = 0x282e61c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "MethodHasBody", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpMethod*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "MethodHasBody", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpMethod*>::get() })));
     return ___internal_method;
   }
 };
@@ -434,11 +435,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x114;
   constexpr static std::size_t addrs = 0x282e728;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "SendAsync", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpRequestMessage*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "SendAsync", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpRequestMessage*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
     return ___internal_method;
   }
 };
@@ -450,10 +451,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x70;
   constexpr static std::size_t addrs = 0x282e83c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(),
-                                                                               "System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout", std::vector<Il2CppClass*>{},
-                                                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::TimeSpan>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::TimeSpan>::get() })));
     return ___internal_method;
   }
 };
@@ -473,292 +474,292 @@ constexpr System::Net::Http::MonoWebRequestHandler::operator ::System::IDisposab
 constexpr ::System::IDisposable* System::Net::Http::MonoWebRequestHandler::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
-constexpr bool& System::Net::Http::MonoWebRequestHandler::__get_allowAutoRedirect() {
+constexpr bool& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_allowAutoRedirect() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowAutoRedirect;
 }
-constexpr bool const& System::Net::Http::MonoWebRequestHandler::__get_allowAutoRedirect() const {
+constexpr bool const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_allowAutoRedirect() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowAutoRedirect;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_allowAutoRedirect(bool value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_allowAutoRedirect(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___allowAutoRedirect = value;
 }
-constexpr ::System::Net::DecompressionMethods& System::Net::Http::MonoWebRequestHandler::__get_automaticDecompression() {
+constexpr ::System::Net::DecompressionMethods& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_automaticDecompression() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___automaticDecompression;
 }
-constexpr ::System::Net::DecompressionMethods const& System::Net::Http::MonoWebRequestHandler::__get_automaticDecompression() const {
+constexpr ::System::Net::DecompressionMethods const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_automaticDecompression() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___automaticDecompression;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_automaticDecompression(::System::Net::DecompressionMethods value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_automaticDecompression(::System::Net::DecompressionMethods value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___automaticDecompression = value;
 }
-constexpr ::System::Net::CookieContainer*& System::Net::Http::MonoWebRequestHandler::__get_cookieContainer() {
+constexpr ::System::Net::CookieContainer*& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_cookieContainer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookieContainer;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieContainer*> const& System::Net::Http::MonoWebRequestHandler::__get_cookieContainer() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Net::CookieContainer*> const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_cookieContainer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cookieContainer;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_cookieContainer(::System::Net::CookieContainer* value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_cookieContainer(::System::Net::CookieContainer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cookieContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Net::ICredentials*& System::Net::Http::MonoWebRequestHandler::__get_credentials() {
+constexpr ::System::Net::ICredentials*& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_credentials() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___credentials;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& System::Net::Http::MonoWebRequestHandler::__get_credentials() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Net::ICredentials*> const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_credentials() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___credentials;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_credentials(::System::Net::ICredentials* value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_credentials(::System::Net::ICredentials* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___credentials)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Net::Http::MonoWebRequestHandler::__get_maxAutomaticRedirections() {
+constexpr int32_t& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_maxAutomaticRedirections() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxAutomaticRedirections;
 }
-constexpr int32_t const& System::Net::Http::MonoWebRequestHandler::__get_maxAutomaticRedirections() const {
+constexpr int32_t const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_maxAutomaticRedirections() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxAutomaticRedirections;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_maxAutomaticRedirections(int32_t value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_maxAutomaticRedirections(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxAutomaticRedirections = value;
 }
-constexpr int64_t& System::Net::Http::MonoWebRequestHandler::__get_maxRequestContentBufferSize() {
+constexpr int64_t& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_maxRequestContentBufferSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxRequestContentBufferSize;
 }
-constexpr int64_t const& System::Net::Http::MonoWebRequestHandler::__get_maxRequestContentBufferSize() const {
+constexpr int64_t const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_maxRequestContentBufferSize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxRequestContentBufferSize;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_maxRequestContentBufferSize(int64_t value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_maxRequestContentBufferSize(int64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxRequestContentBufferSize = value;
 }
-constexpr bool& System::Net::Http::MonoWebRequestHandler::__get_preAuthenticate() {
+constexpr bool& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_preAuthenticate() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___preAuthenticate;
 }
-constexpr bool const& System::Net::Http::MonoWebRequestHandler::__get_preAuthenticate() const {
+constexpr bool const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_preAuthenticate() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___preAuthenticate;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_preAuthenticate(bool value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_preAuthenticate(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___preAuthenticate = value;
 }
-constexpr ::System::Net::IWebProxy*& System::Net::Http::MonoWebRequestHandler::__get_proxy() {
+constexpr ::System::Net::IWebProxy*& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_proxy() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___proxy;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& System::Net::Http::MonoWebRequestHandler::__get_proxy() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Net::IWebProxy*> const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_proxy() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___proxy;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_proxy(::System::Net::IWebProxy* value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_proxy(::System::Net::IWebProxy* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___proxy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::Net::Http::MonoWebRequestHandler::__get_useCookies() {
+constexpr bool& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_useCookies() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useCookies;
 }
-constexpr bool const& System::Net::Http::MonoWebRequestHandler::__get_useCookies() const {
+constexpr bool const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_useCookies() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useCookies;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_useCookies(bool value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_useCookies(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useCookies = value;
 }
-constexpr bool& System::Net::Http::MonoWebRequestHandler::__get_useProxy() {
+constexpr bool& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_useProxy() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useProxy;
 }
-constexpr bool const& System::Net::Http::MonoWebRequestHandler::__get_useProxy() const {
+constexpr bool const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_useProxy() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___useProxy;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_useProxy(bool value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_useProxy(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___useProxy = value;
 }
-constexpr ::System::Net::Security::SslClientAuthenticationOptions*& System::Net::Http::MonoWebRequestHandler::__get_sslOptions() {
+constexpr ::System::Net::Security::SslClientAuthenticationOptions*& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_sslOptions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sslOptions;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslClientAuthenticationOptions*> const& System::Net::Http::MonoWebRequestHandler::__get_sslOptions() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::SslClientAuthenticationOptions*> const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_sslOptions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sslOptions;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_sslOptions(::System::Net::Security::SslClientAuthenticationOptions* value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_sslOptions(::System::Net::Security::SslClientAuthenticationOptions* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___sslOptions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::Net::Http::MonoWebRequestHandler::__get_allowPipelining() {
+constexpr bool& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_allowPipelining() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowPipelining;
 }
-constexpr bool const& System::Net::Http::MonoWebRequestHandler::__get_allowPipelining() const {
+constexpr bool const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_allowPipelining() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___allowPipelining;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_allowPipelining(bool value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_allowPipelining(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___allowPipelining = value;
 }
-constexpr ::System::Net::Cache::RequestCachePolicy*& System::Net::Http::MonoWebRequestHandler::__get_cachePolicy() {
+constexpr ::System::Net::Cache::RequestCachePolicy*& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_cachePolicy() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cachePolicy;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& System::Net::Http::MonoWebRequestHandler::__get_cachePolicy() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Net::Cache::RequestCachePolicy*> const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_cachePolicy() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cachePolicy;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_cachePolicy(::System::Net::Cache::RequestCachePolicy* value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_cachePolicy(::System::Net::Cache::RequestCachePolicy* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cachePolicy)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Net::Security::AuthenticationLevel& System::Net::Http::MonoWebRequestHandler::__get_authenticationLevel() {
+constexpr ::System::Net::Security::AuthenticationLevel& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_authenticationLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___authenticationLevel;
 }
-constexpr ::System::Net::Security::AuthenticationLevel const& System::Net::Http::MonoWebRequestHandler::__get_authenticationLevel() const {
+constexpr ::System::Net::Security::AuthenticationLevel const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_authenticationLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___authenticationLevel;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_authenticationLevel(::System::Net::Security::AuthenticationLevel value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_authenticationLevel(::System::Net::Security::AuthenticationLevel value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___authenticationLevel = value;
 }
-constexpr ::System::TimeSpan& System::Net::Http::MonoWebRequestHandler::__get_continueTimeout() {
+constexpr ::System::TimeSpan& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_continueTimeout() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___continueTimeout;
 }
-constexpr ::System::TimeSpan const& System::Net::Http::MonoWebRequestHandler::__get_continueTimeout() const {
+constexpr ::System::TimeSpan const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_continueTimeout() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___continueTimeout;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_continueTimeout(::System::TimeSpan value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_continueTimeout(::System::TimeSpan value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___continueTimeout = value;
 }
-constexpr ::System::Security::Principal::TokenImpersonationLevel& System::Net::Http::MonoWebRequestHandler::__get_impersonationLevel() {
+constexpr ::System::Security::Principal::TokenImpersonationLevel& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_impersonationLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___impersonationLevel;
 }
-constexpr ::System::Security::Principal::TokenImpersonationLevel const& System::Net::Http::MonoWebRequestHandler::__get_impersonationLevel() const {
+constexpr ::System::Security::Principal::TokenImpersonationLevel const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_impersonationLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___impersonationLevel;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_impersonationLevel(::System::Security::Principal::TokenImpersonationLevel value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_impersonationLevel(::System::Security::Principal::TokenImpersonationLevel value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___impersonationLevel = value;
 }
-constexpr int32_t& System::Net::Http::MonoWebRequestHandler::__get_maxResponseHeadersLength() {
+constexpr int32_t& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_maxResponseHeadersLength() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxResponseHeadersLength;
 }
-constexpr int32_t const& System::Net::Http::MonoWebRequestHandler::__get_maxResponseHeadersLength() const {
+constexpr int32_t const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_maxResponseHeadersLength() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___maxResponseHeadersLength;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_maxResponseHeadersLength(int32_t value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_maxResponseHeadersLength(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___maxResponseHeadersLength = value;
 }
-constexpr int32_t& System::Net::Http::MonoWebRequestHandler::__get_readWriteTimeout() {
+constexpr int32_t& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_readWriteTimeout() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readWriteTimeout;
 }
-constexpr int32_t const& System::Net::Http::MonoWebRequestHandler::__get_readWriteTimeout() const {
+constexpr int32_t const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_readWriteTimeout() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___readWriteTimeout;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_readWriteTimeout(int32_t value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_readWriteTimeout(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___readWriteTimeout = value;
 }
-constexpr ::System::Net::Security::RemoteCertificateValidationCallback*& System::Net::Http::MonoWebRequestHandler::__get_serverCertificateValidationCallback() {
+constexpr ::System::Net::Security::RemoteCertificateValidationCallback*& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_serverCertificateValidationCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverCertificateValidationCallback;
 }
 constexpr ::cordl_internals::to_const_pointer<::System::Net::Security::RemoteCertificateValidationCallback*> const&
-System::Net::Http::MonoWebRequestHandler::__get_serverCertificateValidationCallback() const {
+System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_serverCertificateValidationCallback() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverCertificateValidationCallback;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_serverCertificateValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback* value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_serverCertificateValidationCallback(::System::Net::Security::RemoteCertificateValidationCallback* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serverCertificateValidationCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::Net::Http::MonoWebRequestHandler::__get_unsafeAuthenticatedConnectionSharing() {
+constexpr bool& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_unsafeAuthenticatedConnectionSharing() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unsafeAuthenticatedConnectionSharing;
 }
-constexpr bool const& System::Net::Http::MonoWebRequestHandler::__get_unsafeAuthenticatedConnectionSharing() const {
+constexpr bool const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_unsafeAuthenticatedConnectionSharing() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___unsafeAuthenticatedConnectionSharing;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_unsafeAuthenticatedConnectionSharing(bool value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_unsafeAuthenticatedConnectionSharing(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___unsafeAuthenticatedConnectionSharing = value;
 }
-constexpr bool& System::Net::Http::MonoWebRequestHandler::__get_sentRequest() {
+constexpr bool& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_sentRequest() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sentRequest;
 }
-constexpr bool const& System::Net::Http::MonoWebRequestHandler::__get_sentRequest() const {
+constexpr bool const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_sentRequest() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sentRequest;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_sentRequest(bool value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_sentRequest(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sentRequest = value;
 }
-constexpr ::StringW& System::Net::Http::MonoWebRequestHandler::__get_connectionGroupName() {
+constexpr ::StringW& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_connectionGroupName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionGroupName;
 }
-constexpr ::StringW const& System::Net::Http::MonoWebRequestHandler::__get_connectionGroupName() const {
+constexpr ::StringW const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_connectionGroupName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___connectionGroupName;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_connectionGroupName(::StringW value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_connectionGroupName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___connectionGroupName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Nullable_1<::System::TimeSpan>& System::Net::Http::MonoWebRequestHandler::__get_timeout() {
+constexpr ::System::Nullable_1<::System::TimeSpan>& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_timeout() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeout;
 }
-constexpr ::System::Nullable_1<::System::TimeSpan> const& System::Net::Http::MonoWebRequestHandler::__get_timeout() const {
+constexpr ::System::Nullable_1<::System::TimeSpan> const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_timeout() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___timeout;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_timeout(::System::Nullable_1<::System::TimeSpan> value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_timeout(::System::Nullable_1<::System::TimeSpan> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___timeout = value;
 }
-constexpr bool& System::Net::Http::MonoWebRequestHandler::__get_disposed() {
+constexpr bool& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_disposed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposed;
 }
-constexpr bool const& System::Net::Http::MonoWebRequestHandler::__get_disposed() const {
+constexpr bool const& System::Net::Http::MonoWebRequestHandler::__cordl_internal_get_disposed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___disposed;
 }
-constexpr void System::Net::Http::MonoWebRequestHandler::__set_disposed(bool value) {
+constexpr void System::Net::Http::MonoWebRequestHandler::__cordl_internal_set_disposed(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___disposed = value;
 }
@@ -769,42 +770,42 @@ inline int64_t System::Net::Http::MonoWebRequestHandler::getStaticF_groupCounter
   return ::cordl_internals::getStaticField<int64_t, "groupCounter", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get>();
 }
 inline ::System::Net::Http::MonoWebRequestHandler* System::Net::Http::MonoWebRequestHandler::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Net::Http::MonoWebRequestHandler*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::MonoWebRequestHandler*>());
 }
 inline void System::Net::Http::MonoWebRequestHandler::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void System::Net::Http::MonoWebRequestHandler::EnsureModifiability() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(),
-                                                                             "EnsureModifiability", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "EnsureModifiability", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Net::CookieContainer* System::Net::Http::MonoWebRequestHandler::get_CookieContainer() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(),
-                                                                             "get_CookieContainer", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_CookieContainer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Net::CookieContainer*, false>(this, ___internal_method);
 }
 inline int64_t System::Net::Http::MonoWebRequestHandler::get_MaxRequestContentBufferSize() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(),
-                                                                             "get_MaxRequestContentBufferSize", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_MaxRequestContentBufferSize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
 inline ::System::Net::Security::SslClientAuthenticationOptions* System::Net::Http::MonoWebRequestHandler::get_SslOptions() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(),
-                                                                             "get_SslOptions", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_SslOptions", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Net::Security::SslClientAuthenticationOptions*, false>(this, ___internal_method);
 }
 inline void System::Net::Http::MonoWebRequestHandler::set_SslOptions(::System::Net::Security::SslClientAuthenticationOptions* value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "set_SslOptions", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Security::SslClientAuthenticationOptions*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "set_SslOptions", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Security::SslClientAuthenticationOptions*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void System::Net::Http::MonoWebRequestHandler::Dispose() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "Dispose",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void System::Net::Http::MonoWebRequestHandler::Dispose(bool disposing) {
@@ -813,9 +814,9 @@ inline void System::Net::Http::MonoWebRequestHandler::Dispose(bool disposing) {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
 }
 inline bool System::Net::Http::MonoWebRequestHandler::GetConnectionKeepAlive(::System::Net::Http::Headers::HttpRequestHeaders* headers) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "GetConnectionKeepAlive", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::HttpRequestHeaders*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "GetConnectionKeepAlive", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::HttpRequestHeaders*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, headers);
 }
 inline ::System::Net::HttpWebRequest* System::Net::Http::MonoWebRequestHandler::CreateWebRequest(::System::Net::Http::HttpRequestMessage* request) {
@@ -826,31 +827,31 @@ inline ::System::Net::HttpWebRequest* System::Net::Http::MonoWebRequestHandler::
 inline ::System::Net::Http::HttpResponseMessage* System::Net::Http::MonoWebRequestHandler::CreateResponseMessage(::System::Net::HttpWebResponse* wr,
                                                                                                                  ::System::Net::Http::HttpRequestMessage* requestMessage,
                                                                                                                  ::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "CreateResponseMessage", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::HttpWebResponse*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpRequestMessage*>::get(),
-                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "CreateResponseMessage", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::HttpWebResponse*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpRequestMessage*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Net::Http::HttpResponseMessage*, false>(this, ___internal_method, wr, requestMessage, cancellationToken);
 }
 inline bool System::Net::Http::MonoWebRequestHandler::MethodHasBody(::System::Net::Http::HttpMethod* method) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "MethodHasBody", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpMethod*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "MethodHasBody", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpMethod*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, method);
 }
 inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* System::Net::Http::MonoWebRequestHandler::SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                                                           ::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "SendAsync", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpRequestMessage*>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(), "SendAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpRequestMessage*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*, false>(this, ___internal_method, request, cancellationToken);
 }
 inline void System::Net::Http::MonoWebRequestHandler::System_Net_Http_IMonoHttpClientHandler_SetWebRequestTimeout(::System::TimeSpan timeout) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::MonoWebRequestHandler*>::get(),
-                                                                             "System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout", std::vector<Il2CppClass*>{},
-                                                                             ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::TimeSpan>::get() })));
+                                                                             "System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::TimeSpan>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, timeout);
 }
 // Ctor Parameters []

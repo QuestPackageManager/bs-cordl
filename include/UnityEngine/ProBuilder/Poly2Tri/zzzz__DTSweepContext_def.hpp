@@ -45,32 +45,34 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::DTSweepContext);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15341))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15341))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15330))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::DTSweepContext*
 class CORDL_TYPE DTSweepContext : public ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext {
 public:
   // Declarations
   /// @brief Field ALPHA, offset 0x40, size 0x4
-  __declspec(property(get = __get_ALPHA, put = __set_ALPHA)) float_t ALPHA;
+  __declspec(property(get = __cordl_internal_get_ALPHA, put = __cordl_internal_set_ALPHA)) float_t ALPHA;
 
   /// @brief Field Front, offset 0x48, size 0x8
-  __declspec(property(get = __get_Front, put = __set_Front))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* Front;
+  __declspec(property(get = __cordl_internal_get_Front, put = __cordl_internal_set_Front))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* Front;
 
   /// @brief Field <Head>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __get__Head_k__BackingField, put = __set__Head_k__BackingField))::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _Head_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Head_k__BackingField,
+                      put = __cordl_internal_set__Head_k__BackingField))::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _Head_k__BackingField;
 
   /// @brief Field <Tail>k__BackingField, offset 0x58, size 0x8
-  __declspec(property(get = __get__Tail_k__BackingField, put = __set__Tail_k__BackingField))::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _Tail_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Tail_k__BackingField,
+                      put = __cordl_internal_set__Tail_k__BackingField))::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* _Tail_k__BackingField;
 
   /// @brief Field Basin, offset 0x60, size 0x8
-  __declspec(property(get = __get_Basin, put = __set_Basin))::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* Basin;
+  __declspec(property(get = __cordl_internal_get_Basin, put = __cordl_internal_set_Basin))::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* Basin;
 
   /// @brief Field EdgeEvent, offset 0x68, size 0x8
-  __declspec(property(get = __get_EdgeEvent, put = __set_EdgeEvent))::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* EdgeEvent;
+  __declspec(property(get = __cordl_internal_get_EdgeEvent, put = __cordl_internal_set_EdgeEvent))::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* EdgeEvent;
 
   /// @brief Field _comparator, offset 0x70, size 0x8
-  __declspec(property(get = __get__comparator, put = __set__comparator))::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* _comparator;
+  __declspec(property(get = __cordl_internal_get__comparator, put = __cordl_internal_set__comparator))::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* _comparator;
 
   __declspec(property(get = get_Head, put = set_Head))::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* Head;
 
@@ -80,47 +82,47 @@ public:
 
   __declspec(property(get = get_Algorithm))::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm Algorithm;
 
-  constexpr float_t& __get_ALPHA();
+  constexpr float_t& __cordl_internal_get_ALPHA();
 
-  constexpr float_t const& __get_ALPHA() const;
+  constexpr float_t const& __cordl_internal_get_ALPHA() const;
 
-  constexpr void __set_ALPHA(float_t value);
+  constexpr void __cordl_internal_set_ALPHA(float_t value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront*& __get_Front();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront*& __cordl_internal_get_Front();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront*> const& __get_Front() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront*> const& __cordl_internal_get_Front() const;
 
-  constexpr void __set_Front(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* value);
+  constexpr void __cordl_internal_set_Front(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __get__Head_k__BackingField();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get__Head_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __get__Head_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get__Head_k__BackingField() const;
 
-  constexpr void __set__Head_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
+  constexpr void __cordl_internal_set__Head_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __get__Tail_k__BackingField();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*& __cordl_internal_get__Tail_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __get__Tail_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*> const& __cordl_internal_get__Tail_k__BackingField() const;
 
-  constexpr void __set__Tail_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
+  constexpr void __cordl_internal_set__Tail_k__BackingField(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin*& __get_Basin();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin*& __cordl_internal_get_Basin();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin*> const& __get_Basin() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin*> const& __cordl_internal_get_Basin() const;
 
-  constexpr void __set_Basin(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* value);
+  constexpr void __cordl_internal_set_Basin(::UnityEngine::ProBuilder::Poly2Tri::DTSweepBasin* value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent*& __get_EdgeEvent();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent*& __cordl_internal_get_EdgeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent*> const& __get_EdgeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent*> const& __cordl_internal_get_EdgeEvent() const;
 
-  constexpr void __set_EdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* value);
+  constexpr void __cordl_internal_set_EdgeEvent(::UnityEngine::ProBuilder::Poly2Tri::DTSweepEdgeEvent* value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator*& __get__comparator();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator*& __cordl_internal_get__comparator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator*> const& __get__comparator() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator*> const& __cordl_internal_get__comparator() const;
 
-  constexpr void __set__comparator(::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* value);
+  constexpr void __cordl_internal_set__comparator(::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator* value);
 
   /// @brief Method get_Head, addr 0x2b34484, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* get_Head();

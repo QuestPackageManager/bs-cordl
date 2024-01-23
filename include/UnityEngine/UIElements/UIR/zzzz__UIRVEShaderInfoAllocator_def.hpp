@@ -67,10 +67,10 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator);
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7424)), TypeDefinitionIndex(TypeDefinitionIndex(7376)), TypeDefinitionIndex(TypeDefinitionIndex(10244)),
-// TypeDefinitionIndex(TypeDefinitionIndex(9999)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 751 }), TypeDefinitionIndex(TypeDefinitionIndex(7415)),
-// TypeDefinitionIndex(TypeDefinitionIndex(7374)), TypeDefinitionIndex(TypeDefinitionIndex(10245)), TypeDefinitionIndex(TypeDefinitionIndex(10246)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(9999), inst: 755 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7377)) CS Name: ::UnityEngine.UIElements.UIR::UIRVEShaderInfoAllocator
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7374)), TypeDefinitionIndex(TypeDefinitionIndex(7376)), TypeDefinitionIndex(TypeDefinitionIndex(7415)),
+// TypeDefinitionIndex(TypeDefinitionIndex(7424)), TypeDefinitionIndex(TypeDefinitionIndex(9999)), TypeDefinitionIndex(TypeDefinitionIndex(10244)), TypeDefinitionIndex(TypeDefinitionIndex(10245)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10246)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9999), inst: 751 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(9999), inst: 755 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7377)) CS Name: ::UnityEngine.UIElements.UIR::UIRVEShaderInfoAllocator
 struct CORDL_TYPE UIRVEShaderInfoAllocator {
 public:
   // Declarations
@@ -133,7 +133,7 @@ public:
 
   __declspec(property(get = get_clipRectConstants))::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4> clipRectConstants;
 
-  __declspec(property(get = get_atlas))::UnityEngine::Texture* atlas;
+  __declspec(property(get = get_atlas))::UnityW<::UnityEngine::Texture> atlas;
 
   static inline void setStaticF_identityTransformTexel(::UnityEngine::Vector2Int value);
 
@@ -229,7 +229,7 @@ public:
   inline ::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4> get_clipRectConstants();
 
   /// @brief Method get_atlas, addr 0x2e88b84, size 0x90, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture* get_atlas();
+  inline ::UnityW<::UnityEngine::Texture> get_atlas();
 
   /// @brief Method Construct, addr 0x2e88c14, size 0x288, virtual false, abstract: false, final false
   inline void Construct();

@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::DSA);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2918))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2918))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2931))
 // CS Name: ::System.Security.Cryptography::DSA*
 class CORDL_TYPE DSA : public ::System::Security::Cryptography::AsymmetricAlgorithm {

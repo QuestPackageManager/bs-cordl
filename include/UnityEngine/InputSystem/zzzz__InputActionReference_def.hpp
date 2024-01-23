@@ -21,45 +21,45 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::InputActionReference);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6165))
 // CS Name: ::UnityEngine.InputSystem::InputActionReference*
 class CORDL_TYPE InputActionReference : public ::UnityEngine::ScriptableObject {
 public:
   // Declarations
   /// @brief Field m_Asset, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Asset, put = __set_m_Asset))::UnityEngine::InputSystem::InputActionAsset* m_Asset;
+  __declspec(property(get = __cordl_internal_get_m_Asset, put = __cordl_internal_set_m_Asset))::UnityW<::UnityEngine::InputSystem::InputActionAsset> m_Asset;
 
   /// @brief Field m_ActionId, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_ActionId, put = __set_m_ActionId))::StringW m_ActionId;
+  __declspec(property(get = __cordl_internal_get_m_ActionId, put = __cordl_internal_set_m_ActionId))::StringW m_ActionId;
 
   /// @brief Field m_Action, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Action, put = __set_m_Action))::UnityEngine::InputSystem::InputAction* m_Action;
+  __declspec(property(get = __cordl_internal_get_m_Action, put = __cordl_internal_set_m_Action))::UnityEngine::InputSystem::InputAction* m_Action;
 
-  __declspec(property(get = get_asset))::UnityEngine::InputSystem::InputActionAsset* asset;
+  __declspec(property(get = get_asset))::UnityW<::UnityEngine::InputSystem::InputActionAsset> asset;
 
   __declspec(property(get = get_action))::UnityEngine::InputSystem::InputAction* action;
 
-  constexpr ::UnityEngine::InputSystem::InputActionAsset*& __get_m_Asset();
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset>& __cordl_internal_get_m_Asset();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputActionAsset*> const& __get_m_Asset() const;
+  constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset> const& __cordl_internal_get_m_Asset() const;
 
-  constexpr void __set_m_Asset(::UnityEngine::InputSystem::InputActionAsset* value);
+  constexpr void __cordl_internal_set_m_Asset(::UnityW<::UnityEngine::InputSystem::InputActionAsset> value);
 
-  constexpr ::StringW& __get_m_ActionId();
+  constexpr ::StringW& __cordl_internal_get_m_ActionId();
 
-  constexpr ::StringW const& __get_m_ActionId() const;
+  constexpr ::StringW const& __cordl_internal_get_m_ActionId() const;
 
-  constexpr void __set_m_ActionId(::StringW value);
+  constexpr void __cordl_internal_set_m_ActionId(::StringW value);
 
-  constexpr ::UnityEngine::InputSystem::InputAction*& __get_m_Action();
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_m_Action();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __get_m_Action() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputAction*> const& __cordl_internal_get_m_Action() const;
 
-  constexpr void __set_m_Action(::UnityEngine::InputSystem::InputAction* value);
+  constexpr void __cordl_internal_set_m_Action(::UnityEngine::InputSystem::InputAction* value);
 
   /// @brief Method get_asset, addr 0x2a46e30, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputActionAsset* get_asset();
+  inline ::UnityW<::UnityEngine::InputSystem::InputActionAsset> get_asset();
 
   /// @brief Method get_action, addr 0x2a46a58, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_action();
@@ -86,7 +86,7 @@ public:
   static inline ::UnityEngine::InputSystem::InputAction* op_Implicit___UnityEngine__InputSystem__InputAction_(::UnityEngine::InputSystem::InputActionReference* reference);
 
   /// @brief Method Create, addr 0x2a47700, size 0x6c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::InputActionReference* Create(::UnityEngine::InputSystem::InputAction* action);
+  static inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> Create(::UnityEngine::InputSystem::InputAction* action);
 
   /// @brief Method ToInputAction, addr 0x2a4776c, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* ToInputAction();
@@ -111,7 +111,7 @@ protected:
 
 public:
   /// @brief Field m_Asset, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputActionAsset* ___m_Asset;
+  ::UnityW<::UnityEngine::InputSystem::InputActionAsset> ___m_Asset;
 
   /// @brief Field m_ActionId, offset: 0x20, size: 0x8, def value: None
   ::StringW ___m_ActionId;

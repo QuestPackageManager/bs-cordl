@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::PivotPoint);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12148))
 // CS Name: ::UnityEngine.ProBuilder::PivotPoint
 struct CORDL_TYPE PivotPoint {

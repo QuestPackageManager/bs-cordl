@@ -79,7 +79,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__UIElementsRuntimeUtility____c);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6933))
 // CS Name: ::UIElementsRuntimeUtility::CreateRuntimePanelDelegate*
 class CORDL_TYPE __UIElementsRuntimeUtility__CreateRuntimePanelDelegate : public ::System::MulticastDelegate {
@@ -117,7 +117,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UIEle
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6934))
 // CS Name: ::UIElementsRuntimeUtility::<>c*
 class CORDL_TYPE __UIElementsRuntimeUtility____c : public ::System::Object {
@@ -175,7 +175,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UIEle
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6935))
 // CS Name: ::UnityEngine.UIElements::UIElementsRuntimeUtility*
 class CORDL_TYPE UIElementsRuntimeUtility : public ::System::Object {
@@ -208,14 +208,16 @@ public:
   static __declspec(property(get = getStaticF_currentOverlayIndex, put = setStaticF_currentOverlayIndex)) int32_t currentOverlayIndex;
 
   /// @brief Field <activeEventSystem>k__BackingField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__activeEventSystem_k__BackingField, put = setStaticF__activeEventSystem_k__BackingField))::UnityEngine::Object* _activeEventSystem_k__BackingField;
+  static __declspec(property(get = getStaticF__activeEventSystem_k__BackingField,
+                             put = setStaticF__activeEventSystem_k__BackingField))::UnityW<::UnityEngine::Object> _activeEventSystem_k__BackingField;
 
   /// @brief Field s_DefaultEventSystem, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_DefaultEventSystem, put = setStaticF_s_DefaultEventSystem))::UnityEngine::UIElements::DefaultEventSystem* s_DefaultEventSystem;
 
   /// @brief Field s_PotentiallyEmptyPanelSettings, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_PotentiallyEmptyPanelSettings,
-                             put = setStaticF_s_PotentiallyEmptyPanelSettings))::System::Collections::Generic::List_1<::UnityEngine::UIElements::PanelSettings*>* s_PotentiallyEmptyPanelSettings;
+  static __declspec(
+      property(get = getStaticF_s_PotentiallyEmptyPanelSettings,
+               put = setStaticF_s_PotentiallyEmptyPanelSettings))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::PanelSettings>>* s_PotentiallyEmptyPanelSettings;
 
   static inline void setStaticF_onCreatePanel(::System::Action_1<::UnityEngine::UIElements::BaseRuntimePanel*>* value);
 
@@ -245,17 +247,17 @@ public:
 
   static inline int32_t getStaticF_currentOverlayIndex();
 
-  static inline void setStaticF__activeEventSystem_k__BackingField(::UnityEngine::Object* value);
+  static inline void setStaticF__activeEventSystem_k__BackingField(::UnityW<::UnityEngine::Object> value);
 
-  static inline ::UnityEngine::Object* getStaticF__activeEventSystem_k__BackingField();
+  static inline ::UnityW<::UnityEngine::Object> getStaticF__activeEventSystem_k__BackingField();
 
   static inline void setStaticF_s_DefaultEventSystem(::UnityEngine::UIElements::DefaultEventSystem* value);
 
   static inline ::UnityEngine::UIElements::DefaultEventSystem* getStaticF_s_DefaultEventSystem();
 
-  static inline void setStaticF_s_PotentiallyEmptyPanelSettings(::System::Collections::Generic::List_1<::UnityEngine::UIElements::PanelSettings*>* value);
+  static inline void setStaticF_s_PotentiallyEmptyPanelSettings(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::PanelSettings>>* value);
 
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::PanelSettings*>* getStaticF_s_PotentiallyEmptyPanelSettings();
+  static inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::PanelSettings>>* getStaticF_s_PotentiallyEmptyPanelSettings();
 
   /// @brief Method add_onCreatePanel, addr 0x2e0531c, size 0xf0, virtual false, abstract: false, final false
   static inline void add_onCreatePanel(::System::Action_1<::UnityEngine::UIElements::BaseRuntimePanel*>* value);
@@ -292,7 +294,7 @@ public:
   static inline void EndRenderOverlays(int32_t displayIndex);
 
   /// @brief Method get_activeEventSystem, addr 0x2e06310, size 0x58, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Object* get_activeEventSystem();
+  static inline ::UnityW<::UnityEngine::Object> get_activeEventSystem();
 
   /// @brief Method set_activeEventSystem, addr 0x2e06368, size 0x5c, virtual false, abstract: false, final false
   static inline void set_activeEventSystem(::UnityEngine::Object* value);

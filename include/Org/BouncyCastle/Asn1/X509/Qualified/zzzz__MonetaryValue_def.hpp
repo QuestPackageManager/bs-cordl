@@ -33,20 +33,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509::Qualified {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(330))
 // CS Name: ::Org.BouncyCastle.Asn1.X509.Qualified::MonetaryValue*
 class CORDL_TYPE MonetaryValue : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field currency, offset 0x10, size 0x8
-  __declspec(property(get = __get_currency, put = __set_currency))::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* currency;
+  __declspec(property(get = __cordl_internal_get_currency, put = __cordl_internal_set_currency))::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* currency;
 
   /// @brief Field amount, offset 0x18, size 0x8
-  __declspec(property(get = __get_amount, put = __set_amount))::Org::BouncyCastle::Asn1::DerInteger* amount;
+  __declspec(property(get = __cordl_internal_get_amount, put = __cordl_internal_set_amount))::Org::BouncyCastle::Asn1::DerInteger* amount;
 
   /// @brief Field exponent, offset 0x20, size 0x8
-  __declspec(property(get = __get_exponent, put = __set_exponent))::Org::BouncyCastle::Asn1::DerInteger* exponent;
+  __declspec(property(get = __cordl_internal_get_exponent, put = __cordl_internal_set_exponent))::Org::BouncyCastle::Asn1::DerInteger* exponent;
 
   __declspec(property(get = get_Currency))::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* Currency;
 
@@ -54,23 +54,23 @@ public:
 
   __declspec(property(get = get_Exponent))::Org::BouncyCastle::Math::BigInteger* Exponent;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode*& __get_currency();
+  constexpr ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode*& __cordl_internal_get_currency();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode*> const& __get_currency() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode*> const& __cordl_internal_get_currency() const;
 
-  constexpr void __set_currency(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* value);
+  constexpr void __cordl_internal_set_currency(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_amount();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_amount();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_amount() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_amount() const;
 
-  constexpr void __set_amount(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_amount(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_exponent();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_exponent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_exponent() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_exponent() const;
 
-  constexpr void __set_exponent(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_exponent(::Org::BouncyCastle::Asn1::DerInteger* value);
 
   /// @brief Method GetInstance, addr 0x10810e4, size 0x168, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::MonetaryValue* GetInstance(::System::Object* obj);

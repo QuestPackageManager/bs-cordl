@@ -75,9 +75,9 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::__PlayerInputManager__PlayerLeftEvent
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), TypeDefinitionIndex(TypeDefinitionIndex(6315)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
-// 378 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6316)) CS Name: ::PlayerInputManager::PlayerJoinedEvent*
-class CORDL_TYPE __PlayerInputManager__PlayerJoinedEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6315)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
+// 378 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6316)) CS Name: ::PlayerInputManager::PlayerJoinedEvent*
+class CORDL_TYPE __PlayerInputManager__PlayerJoinedEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>> {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::__PlayerInputManager__PlayerJoinedEvent* New_ctor();
@@ -109,9 +109,9 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Play
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6315)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
-// 378 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6317)) CS Name: ::PlayerInputManager::PlayerLeftEvent*
-class CORDL_TYPE __PlayerInputManager__PlayerLeftEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityEngine::InputSystem::PlayerInput*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6315)), TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst:
+// 378 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6317)) CS Name: ::PlayerInputManager::PlayerLeftEvent*
+class CORDL_TYPE __PlayerInputManager__PlayerLeftEvent : public ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>> {
 public:
   // Declarations
   static inline ::UnityEngine::InputSystem::__PlayerInputManager__PlayerLeftEvent* New_ctor();
@@ -143,10 +143,10 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Play
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6320)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 988
-// }), TypeDefinitionIndex(TypeDefinitionIndex(6319)), TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(10165)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2323), inst: 378 }), TypeDefinitionIndex(TypeDefinitionIndex(6164)), TypeDefinitionIndex(TypeDefinitionIndex(6315)), TypeDefinitionIndex(TypeDefinitionIndex(6660))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(6318)) CS Name: ::UnityEngine.InputSystem::PlayerInputManager*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(6164)), TypeDefinitionIndex(TypeDefinitionIndex(6315)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6319)), TypeDefinitionIndex(TypeDefinitionIndex(6320)), TypeDefinitionIndex(TypeDefinitionIndex(6660)), TypeDefinitionIndex(TypeDefinitionIndex(10165)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10225)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 378 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6660), inst: 988 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6318)) CS Name: ::UnityEngine.InputSystem::PlayerInputManager*
 class CORDL_TYPE PlayerInputManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
@@ -155,66 +155,67 @@ public:
   using PlayerJoinedEvent = ::UnityEngine::InputSystem::__PlayerInputManager__PlayerJoinedEvent;
 
   /// @brief Field m_NotificationBehavior, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_NotificationBehavior, put = __set_m_NotificationBehavior))::UnityEngine::InputSystem::PlayerNotifications m_NotificationBehavior;
+  __declspec(property(get = __cordl_internal_get_m_NotificationBehavior, put = __cordl_internal_set_m_NotificationBehavior))::UnityEngine::InputSystem::PlayerNotifications m_NotificationBehavior;
 
   /// @brief Field m_MaxPlayerCount, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_MaxPlayerCount, put = __set_m_MaxPlayerCount)) int32_t m_MaxPlayerCount;
+  __declspec(property(get = __cordl_internal_get_m_MaxPlayerCount, put = __cordl_internal_set_m_MaxPlayerCount)) int32_t m_MaxPlayerCount;
 
   /// @brief Field m_AllowJoining, offset 0x20, size 0x1
-  __declspec(property(get = __get_m_AllowJoining, put = __set_m_AllowJoining)) bool m_AllowJoining;
+  __declspec(property(get = __cordl_internal_get_m_AllowJoining, put = __cordl_internal_set_m_AllowJoining)) bool m_AllowJoining;
 
   /// @brief Field m_JoinBehavior, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_JoinBehavior, put = __set_m_JoinBehavior))::UnityEngine::InputSystem::PlayerJoinBehavior m_JoinBehavior;
+  __declspec(property(get = __cordl_internal_get_m_JoinBehavior, put = __cordl_internal_set_m_JoinBehavior))::UnityEngine::InputSystem::PlayerJoinBehavior m_JoinBehavior;
 
   /// @brief Field m_PlayerJoinedEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_PlayerJoinedEvent, put = __set_m_PlayerJoinedEvent))::UnityEngine::InputSystem::__PlayerInputManager__PlayerJoinedEvent* m_PlayerJoinedEvent;
+  __declspec(property(get = __cordl_internal_get_m_PlayerJoinedEvent,
+                      put = __cordl_internal_set_m_PlayerJoinedEvent))::UnityEngine::InputSystem::__PlayerInputManager__PlayerJoinedEvent* m_PlayerJoinedEvent;
 
   /// @brief Field m_PlayerLeftEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_PlayerLeftEvent, put = __set_m_PlayerLeftEvent))::UnityEngine::InputSystem::__PlayerInputManager__PlayerLeftEvent* m_PlayerLeftEvent;
+  __declspec(property(get = __cordl_internal_get_m_PlayerLeftEvent, put = __cordl_internal_set_m_PlayerLeftEvent))::UnityEngine::InputSystem::__PlayerInputManager__PlayerLeftEvent* m_PlayerLeftEvent;
 
   /// @brief Field m_JoinAction, offset 0x38, size 0x18
-  __declspec(property(get = __get_m_JoinAction, put = __set_m_JoinAction))::UnityEngine::InputSystem::InputActionProperty m_JoinAction;
+  __declspec(property(get = __cordl_internal_get_m_JoinAction, put = __cordl_internal_set_m_JoinAction))::UnityEngine::InputSystem::InputActionProperty m_JoinAction;
 
   /// @brief Field m_PlayerPrefab, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_PlayerPrefab, put = __set_m_PlayerPrefab))::UnityEngine::GameObject* m_PlayerPrefab;
+  __declspec(property(get = __cordl_internal_get_m_PlayerPrefab, put = __cordl_internal_set_m_PlayerPrefab))::UnityW<::UnityEngine::GameObject> m_PlayerPrefab;
 
   /// @brief Field m_SplitScreen, offset 0x58, size 0x1
-  __declspec(property(get = __get_m_SplitScreen, put = __set_m_SplitScreen)) bool m_SplitScreen;
+  __declspec(property(get = __cordl_internal_get_m_SplitScreen, put = __cordl_internal_set_m_SplitScreen)) bool m_SplitScreen;
 
   /// @brief Field m_MaintainAspectRatioInSplitScreen, offset 0x59, size 0x1
-  __declspec(property(get = __get_m_MaintainAspectRatioInSplitScreen, put = __set_m_MaintainAspectRatioInSplitScreen)) bool m_MaintainAspectRatioInSplitScreen;
+  __declspec(property(get = __cordl_internal_get_m_MaintainAspectRatioInSplitScreen, put = __cordl_internal_set_m_MaintainAspectRatioInSplitScreen)) bool m_MaintainAspectRatioInSplitScreen;
 
   /// @brief Field m_FixedNumberOfSplitScreens, offset 0x5c, size 0x4
-  __declspec(property(get = __get_m_FixedNumberOfSplitScreens, put = __set_m_FixedNumberOfSplitScreens)) int32_t m_FixedNumberOfSplitScreens;
+  __declspec(property(get = __cordl_internal_get_m_FixedNumberOfSplitScreens, put = __cordl_internal_set_m_FixedNumberOfSplitScreens)) int32_t m_FixedNumberOfSplitScreens;
 
   /// @brief Field m_SplitScreenRect, offset 0x60, size 0x10
-  __declspec(property(get = __get_m_SplitScreenRect, put = __set_m_SplitScreenRect))::UnityEngine::Rect m_SplitScreenRect;
+  __declspec(property(get = __cordl_internal_get_m_SplitScreenRect, put = __cordl_internal_set_m_SplitScreenRect))::UnityEngine::Rect m_SplitScreenRect;
 
   /// @brief Field m_JoinActionDelegateHooked, offset 0x70, size 0x1
-  __declspec(property(get = __get_m_JoinActionDelegateHooked, put = __set_m_JoinActionDelegateHooked)) bool m_JoinActionDelegateHooked;
+  __declspec(property(get = __cordl_internal_get_m_JoinActionDelegateHooked, put = __cordl_internal_set_m_JoinActionDelegateHooked)) bool m_JoinActionDelegateHooked;
 
   /// @brief Field m_UnpairedDeviceUsedDelegateHooked, offset 0x71, size 0x1
-  __declspec(property(get = __get_m_UnpairedDeviceUsedDelegateHooked, put = __set_m_UnpairedDeviceUsedDelegateHooked)) bool m_UnpairedDeviceUsedDelegateHooked;
+  __declspec(property(get = __cordl_internal_get_m_UnpairedDeviceUsedDelegateHooked, put = __cordl_internal_set_m_UnpairedDeviceUsedDelegateHooked)) bool m_UnpairedDeviceUsedDelegateHooked;
 
   /// @brief Field m_JoinActionDelegate, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_JoinActionDelegate, put = __set_m_JoinActionDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_JoinActionDelegate;
+  __declspec(property(get = __cordl_internal_get_m_JoinActionDelegate,
+                      put = __cordl_internal_set_m_JoinActionDelegate))::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* m_JoinActionDelegate;
 
   /// @brief Field m_UnpairedDeviceUsedDelegate, offset 0x80, size 0x8
-  __declspec(property(
-      get = __get_m_UnpairedDeviceUsedDelegate,
-      put = __set_m_UnpairedDeviceUsedDelegate))::System::Action_2<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_UnpairedDeviceUsedDelegate;
+  __declspec(property(get = __cordl_internal_get_m_UnpairedDeviceUsedDelegate,
+                      put = __cordl_internal_set_m_UnpairedDeviceUsedDelegate))::System::Action_2<::UnityEngine::InputSystem::InputControl*,
+                                                                                                  ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_UnpairedDeviceUsedDelegate;
 
   /// @brief Field m_PlayerJoinedCallbacks, offset 0x88, size 0x50
-  __declspec(
-      property(get = __get_m_PlayerJoinedCallbacks,
-               put = __set_m_PlayerJoinedCallbacks))::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> m_PlayerJoinedCallbacks;
+  __declspec(property(get = __cordl_internal_get_m_PlayerJoinedCallbacks, put = __cordl_internal_set_m_PlayerJoinedCallbacks))::UnityEngine::InputSystem::Utilities::CallbackArray_1<
+      ::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> m_PlayerJoinedCallbacks;
 
   /// @brief Field m_PlayerLeftCallbacks, offset 0xd8, size 0x50
-  __declspec(property(get = __get_m_PlayerLeftCallbacks,
-                      put = __set_m_PlayerLeftCallbacks))::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> m_PlayerLeftCallbacks;
+  __declspec(property(get = __cordl_internal_get_m_PlayerLeftCallbacks, put = __cordl_internal_set_m_PlayerLeftCallbacks))::UnityEngine::InputSystem::Utilities::CallbackArray_1<
+      ::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> m_PlayerLeftCallbacks;
 
   /// @brief Field <instance>k__BackingField, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__instance_k__BackingField, put = setStaticF__instance_k__BackingField))::UnityEngine::InputSystem::PlayerInputManager* _instance_k__BackingField;
+  static __declspec(property(get = getStaticF__instance_k__BackingField, put = setStaticF__instance_k__BackingField))::UnityW<::UnityEngine::InputSystem::PlayerInputManager> _instance_k__BackingField;
 
   __declspec(property(get = get_splitScreen, put = set_splitScreen)) bool splitScreen;
 
@@ -240,120 +241,120 @@ public:
 
   __declspec(property(get = get_playerLeftEvent))::UnityEngine::InputSystem::__PlayerInputManager__PlayerLeftEvent* playerLeftEvent;
 
-  __declspec(property(get = get_playerPrefab, put = set_playerPrefab))::UnityEngine::GameObject* playerPrefab;
+  __declspec(property(get = get_playerPrefab, put = set_playerPrefab))::UnityW<::UnityEngine::GameObject> playerPrefab;
 
-  constexpr ::UnityEngine::InputSystem::PlayerNotifications& __get_m_NotificationBehavior();
+  constexpr ::UnityEngine::InputSystem::PlayerNotifications& __cordl_internal_get_m_NotificationBehavior();
 
-  constexpr ::UnityEngine::InputSystem::PlayerNotifications const& __get_m_NotificationBehavior() const;
+  constexpr ::UnityEngine::InputSystem::PlayerNotifications const& __cordl_internal_get_m_NotificationBehavior() const;
 
-  constexpr void __set_m_NotificationBehavior(::UnityEngine::InputSystem::PlayerNotifications value);
+  constexpr void __cordl_internal_set_m_NotificationBehavior(::UnityEngine::InputSystem::PlayerNotifications value);
 
-  constexpr int32_t& __get_m_MaxPlayerCount();
+  constexpr int32_t& __cordl_internal_get_m_MaxPlayerCount();
 
-  constexpr int32_t const& __get_m_MaxPlayerCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_MaxPlayerCount() const;
 
-  constexpr void __set_m_MaxPlayerCount(int32_t value);
+  constexpr void __cordl_internal_set_m_MaxPlayerCount(int32_t value);
 
-  constexpr bool& __get_m_AllowJoining();
+  constexpr bool& __cordl_internal_get_m_AllowJoining();
 
-  constexpr bool const& __get_m_AllowJoining() const;
+  constexpr bool const& __cordl_internal_get_m_AllowJoining() const;
 
-  constexpr void __set_m_AllowJoining(bool value);
+  constexpr void __cordl_internal_set_m_AllowJoining(bool value);
 
-  constexpr ::UnityEngine::InputSystem::PlayerJoinBehavior& __get_m_JoinBehavior();
+  constexpr ::UnityEngine::InputSystem::PlayerJoinBehavior& __cordl_internal_get_m_JoinBehavior();
 
-  constexpr ::UnityEngine::InputSystem::PlayerJoinBehavior const& __get_m_JoinBehavior() const;
+  constexpr ::UnityEngine::InputSystem::PlayerJoinBehavior const& __cordl_internal_get_m_JoinBehavior() const;
 
-  constexpr void __set_m_JoinBehavior(::UnityEngine::InputSystem::PlayerJoinBehavior value);
+  constexpr void __cordl_internal_set_m_JoinBehavior(::UnityEngine::InputSystem::PlayerJoinBehavior value);
 
-  constexpr ::UnityEngine::InputSystem::__PlayerInputManager__PlayerJoinedEvent*& __get_m_PlayerJoinedEvent();
+  constexpr ::UnityEngine::InputSystem::__PlayerInputManager__PlayerJoinedEvent*& __cordl_internal_get_m_PlayerJoinedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::__PlayerInputManager__PlayerJoinedEvent*> const& __get_m_PlayerJoinedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::__PlayerInputManager__PlayerJoinedEvent*> const& __cordl_internal_get_m_PlayerJoinedEvent() const;
 
-  constexpr void __set_m_PlayerJoinedEvent(::UnityEngine::InputSystem::__PlayerInputManager__PlayerJoinedEvent* value);
+  constexpr void __cordl_internal_set_m_PlayerJoinedEvent(::UnityEngine::InputSystem::__PlayerInputManager__PlayerJoinedEvent* value);
 
-  constexpr ::UnityEngine::InputSystem::__PlayerInputManager__PlayerLeftEvent*& __get_m_PlayerLeftEvent();
+  constexpr ::UnityEngine::InputSystem::__PlayerInputManager__PlayerLeftEvent*& __cordl_internal_get_m_PlayerLeftEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::__PlayerInputManager__PlayerLeftEvent*> const& __get_m_PlayerLeftEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::__PlayerInputManager__PlayerLeftEvent*> const& __cordl_internal_get_m_PlayerLeftEvent() const;
 
-  constexpr void __set_m_PlayerLeftEvent(::UnityEngine::InputSystem::__PlayerInputManager__PlayerLeftEvent* value);
+  constexpr void __cordl_internal_set_m_PlayerLeftEvent(::UnityEngine::InputSystem::__PlayerInputManager__PlayerLeftEvent* value);
 
-  constexpr ::UnityEngine::InputSystem::InputActionProperty& __get_m_JoinAction();
+  constexpr ::UnityEngine::InputSystem::InputActionProperty& __cordl_internal_get_m_JoinAction();
 
-  constexpr ::UnityEngine::InputSystem::InputActionProperty const& __get_m_JoinAction() const;
+  constexpr ::UnityEngine::InputSystem::InputActionProperty const& __cordl_internal_get_m_JoinAction() const;
 
-  constexpr void __set_m_JoinAction(::UnityEngine::InputSystem::InputActionProperty value);
+  constexpr void __cordl_internal_set_m_JoinAction(::UnityEngine::InputSystem::InputActionProperty value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_PlayerPrefab();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_PlayerPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_PlayerPrefab() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_PlayerPrefab() const;
 
-  constexpr void __set_m_PlayerPrefab(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_PlayerPrefab(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr bool& __get_m_SplitScreen();
+  constexpr bool& __cordl_internal_get_m_SplitScreen();
 
-  constexpr bool const& __get_m_SplitScreen() const;
+  constexpr bool const& __cordl_internal_get_m_SplitScreen() const;
 
-  constexpr void __set_m_SplitScreen(bool value);
+  constexpr void __cordl_internal_set_m_SplitScreen(bool value);
 
-  constexpr bool& __get_m_MaintainAspectRatioInSplitScreen();
+  constexpr bool& __cordl_internal_get_m_MaintainAspectRatioInSplitScreen();
 
-  constexpr bool const& __get_m_MaintainAspectRatioInSplitScreen() const;
+  constexpr bool const& __cordl_internal_get_m_MaintainAspectRatioInSplitScreen() const;
 
-  constexpr void __set_m_MaintainAspectRatioInSplitScreen(bool value);
+  constexpr void __cordl_internal_set_m_MaintainAspectRatioInSplitScreen(bool value);
 
-  constexpr int32_t& __get_m_FixedNumberOfSplitScreens();
+  constexpr int32_t& __cordl_internal_get_m_FixedNumberOfSplitScreens();
 
-  constexpr int32_t const& __get_m_FixedNumberOfSplitScreens() const;
+  constexpr int32_t const& __cordl_internal_get_m_FixedNumberOfSplitScreens() const;
 
-  constexpr void __set_m_FixedNumberOfSplitScreens(int32_t value);
+  constexpr void __cordl_internal_set_m_FixedNumberOfSplitScreens(int32_t value);
 
-  constexpr ::UnityEngine::Rect& __get_m_SplitScreenRect();
+  constexpr ::UnityEngine::Rect& __cordl_internal_get_m_SplitScreenRect();
 
-  constexpr ::UnityEngine::Rect const& __get_m_SplitScreenRect() const;
+  constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_SplitScreenRect() const;
 
-  constexpr void __set_m_SplitScreenRect(::UnityEngine::Rect value);
+  constexpr void __cordl_internal_set_m_SplitScreenRect(::UnityEngine::Rect value);
 
-  constexpr bool& __get_m_JoinActionDelegateHooked();
+  constexpr bool& __cordl_internal_get_m_JoinActionDelegateHooked();
 
-  constexpr bool const& __get_m_JoinActionDelegateHooked() const;
+  constexpr bool const& __cordl_internal_get_m_JoinActionDelegateHooked() const;
 
-  constexpr void __set_m_JoinActionDelegateHooked(bool value);
+  constexpr void __cordl_internal_set_m_JoinActionDelegateHooked(bool value);
 
-  constexpr bool& __get_m_UnpairedDeviceUsedDelegateHooked();
+  constexpr bool& __cordl_internal_get_m_UnpairedDeviceUsedDelegateHooked();
 
-  constexpr bool const& __get_m_UnpairedDeviceUsedDelegateHooked() const;
+  constexpr bool const& __cordl_internal_get_m_UnpairedDeviceUsedDelegateHooked() const;
 
-  constexpr void __set_m_UnpairedDeviceUsedDelegateHooked(bool value);
+  constexpr void __cordl_internal_set_m_UnpairedDeviceUsedDelegateHooked(bool value);
 
-  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __get_m_JoinActionDelegate();
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*& __cordl_internal_get_m_JoinActionDelegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __get_m_JoinActionDelegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>*> const& __cordl_internal_get_m_JoinActionDelegate() const;
 
-  constexpr void __set_m_JoinActionDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
+  constexpr void __cordl_internal_set_m_JoinActionDelegate(::System::Action_1<::UnityEngine::InputSystem::__InputAction__CallbackContext>* value);
 
-  constexpr ::System::Action_2<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>*& __get_m_UnpairedDeviceUsedDelegate();
+  constexpr ::System::Action_2<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>*& __cordl_internal_get_m_UnpairedDeviceUsedDelegate();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> const&
-  __get_m_UnpairedDeviceUsedDelegate() const;
+  __cordl_internal_get_m_UnpairedDeviceUsedDelegate() const;
 
-  constexpr void __set_m_UnpairedDeviceUsedDelegate(::System::Action_2<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
+  constexpr void __cordl_internal_set_m_UnpairedDeviceUsedDelegate(::System::Action_2<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*>& __get_m_PlayerJoinedCallbacks();
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*>& __cordl_internal_get_m_PlayerJoinedCallbacks();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> const& __get_m_PlayerJoinedCallbacks() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> const& __cordl_internal_get_m_PlayerJoinedCallbacks() const;
 
-  constexpr void __set_m_PlayerJoinedCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> value);
+  constexpr void __cordl_internal_set_m_PlayerJoinedCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*>& __get_m_PlayerLeftCallbacks();
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*>& __cordl_internal_get_m_PlayerLeftCallbacks();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> const& __get_m_PlayerLeftCallbacks() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> const& __cordl_internal_get_m_PlayerLeftCallbacks() const;
 
-  constexpr void __set_m_PlayerLeftCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> value);
+  constexpr void __cordl_internal_set_m_PlayerLeftCallbacks(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> value);
 
-  static inline void setStaticF__instance_k__BackingField(::UnityEngine::InputSystem::PlayerInputManager* value);
+  static inline void setStaticF__instance_k__BackingField(::UnityW<::UnityEngine::InputSystem::PlayerInputManager> value);
 
-  static inline ::UnityEngine::InputSystem::PlayerInputManager* getStaticF__instance_k__BackingField();
+  static inline ::UnityW<::UnityEngine::InputSystem::PlayerInputManager> getStaticF__instance_k__BackingField();
 
   /// @brief Method get_splitScreen, addr 0x2ac3030, size 0x8, virtual false, abstract: false, final false
   inline bool get_splitScreen();
@@ -404,25 +405,25 @@ public:
   inline ::UnityEngine::InputSystem::__PlayerInputManager__PlayerLeftEvent* get_playerLeftEvent();
 
   /// @brief Method add_onPlayerJoined, addr 0x2ac3ea4, size 0xa0, virtual false, abstract: false, final false
-  inline void add_onPlayerJoined(::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>* value);
+  inline void add_onPlayerJoined(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
   /// @brief Method remove_onPlayerJoined, addr 0x2ac3f44, size 0xa0, virtual false, abstract: false, final false
-  inline void remove_onPlayerJoined(::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>* value);
+  inline void remove_onPlayerJoined(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
   /// @brief Method add_onPlayerLeft, addr 0x2ac3fe4, size 0xa0, virtual false, abstract: false, final false
-  inline void add_onPlayerLeft(::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>* value);
+  inline void add_onPlayerLeft(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
   /// @brief Method remove_onPlayerLeft, addr 0x2ac4084, size 0xa0, virtual false, abstract: false, final false
-  inline void remove_onPlayerLeft(::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>* value);
+  inline void remove_onPlayerLeft(::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>* value);
 
   /// @brief Method get_playerPrefab, addr 0x2ac4124, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_playerPrefab();
+  inline ::UnityW<::UnityEngine::GameObject> get_playerPrefab();
 
   /// @brief Method set_playerPrefab, addr 0x2ac412c, size 0x8, virtual false, abstract: false, final false
   inline void set_playerPrefab(::UnityEngine::GameObject* value);
 
   /// @brief Method get_instance, addr 0x2ac4134, size 0x48, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::PlayerInputManager* get_instance();
+  static inline ::UnityW<::UnityEngine::InputSystem::PlayerInputManager> get_instance();
 
   /// @brief Method set_instance, addr 0x2ac417c, size 0x4c, virtual false, abstract: false, final false
   static inline void set_instance(::UnityEngine::InputSystem::PlayerInputManager* value);
@@ -443,11 +444,11 @@ public:
   inline void JoinPlayerFromActionIfNotAlreadyJoined(::UnityEngine::InputSystem::__InputAction__CallbackContext context);
 
   /// @brief Method JoinPlayer, addr 0x2ac454c, size 0xbc, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::PlayerInput* JoinPlayer(int32_t playerIndex, int32_t splitScreenIndex, ::StringW controlScheme, ::UnityEngine::InputSystem::InputDevice* pairWithDevice);
+  inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> JoinPlayer(int32_t playerIndex, int32_t splitScreenIndex, ::StringW controlScheme, ::UnityEngine::InputSystem::InputDevice* pairWithDevice);
 
   /// @brief Method JoinPlayer, addr 0x2ac46f0, size 0xbc, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::PlayerInput* JoinPlayer(int32_t playerIndex, int32_t splitScreenIndex, ::StringW controlScheme,
-                                                             ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> pairWithDevices);
+  inline ::UnityW<::UnityEngine::InputSystem::PlayerInput> JoinPlayer(int32_t playerIndex, int32_t splitScreenIndex, ::StringW controlScheme,
+                                                                      ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*> pairWithDevices);
 
   /// @brief Method get_messages, addr 0x2ac47ac, size 0xe4, virtual false, abstract: false, final false
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> get_messages();
@@ -520,7 +521,7 @@ public:
   ::UnityEngine::InputSystem::InputActionProperty ___m_JoinAction;
 
   /// @brief Field m_PlayerPrefab, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_PlayerPrefab;
+  ::UnityW<::UnityEngine::GameObject> ___m_PlayerPrefab;
 
   /// @brief Field m_SplitScreen, offset: 0x58, size: 0x1, def value: None
   bool ___m_SplitScreen;
@@ -547,10 +548,10 @@ public:
   ::System::Action_2<::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ___m_UnpairedDeviceUsedDelegate;
 
   /// @brief Field m_PlayerJoinedCallbacks, offset: 0x88, size: 0x50, def value: None
-  ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> ___m_PlayerJoinedCallbacks;
+  ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> ___m_PlayerJoinedCallbacks;
 
   /// @brief Field m_PlayerLeftCallbacks, offset: 0xd8, size: 0x50, def value: None
-  ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::PlayerInput*>*> ___m_PlayerLeftCallbacks;
+  ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*> ___m_PlayerLeftCallbacks;
 
   /// @brief Field PlayerJoinedMessage offset 0xffffffff size 0x8
   static constexpr ::ConstString PlayerJoinedMessage{ u"OnPlayerJoined" };

@@ -53,38 +53,38 @@ MARK_REF_PTR_T(::System::IO::UnmanagedMemoryStream);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3559)), TypeDefinitionIndex(TypeDefinitionIndex(3619))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3559)), TypeDefinitionIndex(TypeDefinitionIndex(3619))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3587))
 // CS Name: ::System.IO::UnmanagedMemoryStream*
 class CORDL_TYPE UnmanagedMemoryStream : public ::System::IO::Stream {
 public:
   // Declarations
   /// @brief Field _buffer, offset 0x28, size 0x8
-  __declspec(property(get = __get__buffer, put = __set__buffer))::System::Runtime::InteropServices::SafeBuffer* _buffer;
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::System::Runtime::InteropServices::SafeBuffer* _buffer;
 
   /// @brief Field _mem, offset 0x30, size 0x8
-  __declspec(property(get = __get__mem, put = __set__mem))::cordl_internals::Ptr<uint8_t> _mem;
+  __declspec(property(get = __cordl_internal_get__mem, put = __cordl_internal_set__mem))::cordl_internals::Ptr<uint8_t> _mem;
 
   /// @brief Field _length, offset 0x38, size 0x8
-  __declspec(property(get = __get__length, put = __set__length)) int64_t _length;
+  __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) int64_t _length;
 
   /// @brief Field _capacity, offset 0x40, size 0x8
-  __declspec(property(get = __get__capacity, put = __set__capacity)) int64_t _capacity;
+  __declspec(property(get = __cordl_internal_get__capacity, put = __cordl_internal_set__capacity)) int64_t _capacity;
 
   /// @brief Field _position, offset 0x48, size 0x8
-  __declspec(property(get = __get__position, put = __set__position)) int64_t _position;
+  __declspec(property(get = __cordl_internal_get__position, put = __cordl_internal_set__position)) int64_t _position;
 
   /// @brief Field _offset, offset 0x50, size 0x8
-  __declspec(property(get = __get__offset, put = __set__offset)) int64_t _offset;
+  __declspec(property(get = __cordl_internal_get__offset, put = __cordl_internal_set__offset)) int64_t _offset;
 
   /// @brief Field _access, offset 0x58, size 0x4
-  __declspec(property(get = __get__access, put = __set__access))::System::IO::FileAccess _access;
+  __declspec(property(get = __cordl_internal_get__access, put = __cordl_internal_set__access))::System::IO::FileAccess _access;
 
   /// @brief Field _isOpen, offset 0x5c, size 0x1
-  __declspec(property(get = __get__isOpen, put = __set__isOpen)) bool _isOpen;
+  __declspec(property(get = __cordl_internal_get__isOpen, put = __cordl_internal_set__isOpen)) bool _isOpen;
 
   /// @brief Field _lastReadTask, offset 0x60, size 0x8
-  __declspec(property(get = __get__lastReadTask, put = __set__lastReadTask))::System::Threading::Tasks::Task_1<int32_t>* _lastReadTask;
+  __declspec(property(get = __cordl_internal_get__lastReadTask, put = __cordl_internal_set__lastReadTask))::System::Threading::Tasks::Task_1<int32_t>* _lastReadTask;
 
   __declspec(property(get = get_CanRead)) bool CanRead;
 
@@ -98,59 +98,59 @@ public:
 
   __declspec(property(get = get_PositionPointer))::cordl_internals::Ptr<uint8_t> PositionPointer;
 
-  constexpr ::System::Runtime::InteropServices::SafeBuffer*& __get__buffer();
+  constexpr ::System::Runtime::InteropServices::SafeBuffer*& __cordl_internal_get__buffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::InteropServices::SafeBuffer*> const& __get__buffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::InteropServices::SafeBuffer*> const& __cordl_internal_get__buffer() const;
 
-  constexpr void __set__buffer(::System::Runtime::InteropServices::SafeBuffer* value);
+  constexpr void __cordl_internal_set__buffer(::System::Runtime::InteropServices::SafeBuffer* value);
 
-  constexpr ::cordl_internals::Ptr<uint8_t>& __get__mem();
+  constexpr ::cordl_internals::Ptr<uint8_t>& __cordl_internal_get__mem();
 
-  constexpr ::cordl_internals::Ptr<uint8_t> const& __get__mem() const;
+  constexpr ::cordl_internals::Ptr<uint8_t> const& __cordl_internal_get__mem() const;
 
-  constexpr void __set__mem(::cordl_internals::Ptr<uint8_t> value);
+  constexpr void __cordl_internal_set__mem(::cordl_internals::Ptr<uint8_t> value);
 
-  constexpr int64_t& __get__length();
+  constexpr int64_t& __cordl_internal_get__length();
 
-  constexpr int64_t const& __get__length() const;
+  constexpr int64_t const& __cordl_internal_get__length() const;
 
-  constexpr void __set__length(int64_t value);
+  constexpr void __cordl_internal_set__length(int64_t value);
 
-  constexpr int64_t& __get__capacity();
+  constexpr int64_t& __cordl_internal_get__capacity();
 
-  constexpr int64_t const& __get__capacity() const;
+  constexpr int64_t const& __cordl_internal_get__capacity() const;
 
-  constexpr void __set__capacity(int64_t value);
+  constexpr void __cordl_internal_set__capacity(int64_t value);
 
-  constexpr int64_t& __get__position();
+  constexpr int64_t& __cordl_internal_get__position();
 
-  constexpr int64_t const& __get__position() const;
+  constexpr int64_t const& __cordl_internal_get__position() const;
 
-  constexpr void __set__position(int64_t value);
+  constexpr void __cordl_internal_set__position(int64_t value);
 
-  constexpr int64_t& __get__offset();
+  constexpr int64_t& __cordl_internal_get__offset();
 
-  constexpr int64_t const& __get__offset() const;
+  constexpr int64_t const& __cordl_internal_get__offset() const;
 
-  constexpr void __set__offset(int64_t value);
+  constexpr void __cordl_internal_set__offset(int64_t value);
 
-  constexpr ::System::IO::FileAccess& __get__access();
+  constexpr ::System::IO::FileAccess& __cordl_internal_get__access();
 
-  constexpr ::System::IO::FileAccess const& __get__access() const;
+  constexpr ::System::IO::FileAccess const& __cordl_internal_get__access() const;
 
-  constexpr void __set__access(::System::IO::FileAccess value);
+  constexpr void __cordl_internal_set__access(::System::IO::FileAccess value);
 
-  constexpr bool& __get__isOpen();
+  constexpr bool& __cordl_internal_get__isOpen();
 
-  constexpr bool const& __get__isOpen() const;
+  constexpr bool const& __cordl_internal_get__isOpen() const;
 
-  constexpr void __set__isOpen(bool value);
+  constexpr void __cordl_internal_set__isOpen(bool value);
 
-  constexpr ::System::Threading::Tasks::Task_1<int32_t>*& __get__lastReadTask();
+  constexpr ::System::Threading::Tasks::Task_1<int32_t>*& __cordl_internal_get__lastReadTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<int32_t>*> const& __get__lastReadTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<int32_t>*> const& __cordl_internal_get__lastReadTask() const;
 
-  constexpr void __set__lastReadTask(::System::Threading::Tasks::Task_1<int32_t>* value);
+  constexpr void __cordl_internal_set__lastReadTask(::System::Threading::Tasks::Task_1<int32_t>* value);
 
   static inline ::System::IO::UnmanagedMemoryStream* New_ctor();
 

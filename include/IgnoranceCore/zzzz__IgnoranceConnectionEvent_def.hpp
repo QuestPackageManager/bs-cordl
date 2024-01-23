@@ -16,7 +16,7 @@ MARK_VAL_T(::IgnoranceCore::IgnoranceConnectionEvent);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace IgnoranceCore {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15247))
 // CS Name: ::IgnoranceCore::IgnoranceConnectionEvent
 struct CORDL_TYPE IgnoranceConnectionEvent {

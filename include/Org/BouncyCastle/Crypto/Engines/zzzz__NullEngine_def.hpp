@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::NullEngine);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(853))
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::NullEngine*
 class CORDL_TYPE NullEngine : public ::System::Object {
 public:
   // Declarations
   /// @brief Field initialised, offset 0x10, size 0x1
-  __declspec(property(get = __get_initialised, put = __set_initialised)) bool initialised;
+  __declspec(property(get = __cordl_internal_get_initialised, put = __cordl_internal_set_initialised)) bool initialised;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -42,11 +42,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IBlockCipher* i___Org__BouncyCastle__Crypto__IBlockCipher() noexcept;
 
-  constexpr bool& __get_initialised();
+  constexpr bool& __cordl_internal_get_initialised();
 
-  constexpr bool const& __get_initialised() const;
+  constexpr bool const& __cordl_internal_get_initialised() const;
 
-  constexpr void __set_initialised(bool value);
+  constexpr void __cordl_internal_set_initialised(bool value);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::NullEngine* New_ctor();
 

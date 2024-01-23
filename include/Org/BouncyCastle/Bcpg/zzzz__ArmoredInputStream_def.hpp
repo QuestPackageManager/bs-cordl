@@ -26,140 +26,140 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ArmoredInputStream);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 125, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(498))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(498))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(550))
 // CS Name: ::Org.BouncyCastle.Bcpg::ArmoredInputStream*
 class CORDL_TYPE ArmoredInputStream : public ::Org::BouncyCastle::Utilities::IO::BaseInputStream {
 public:
   // Declarations
   /// @brief Field input, offset 0x30, size 0x8
-  __declspec(property(get = __get_input, put = __set_input))::System::IO::Stream* input;
+  __declspec(property(get = __cordl_internal_get_input, put = __cordl_internal_set_input))::System::IO::Stream* input;
 
   /// @brief Field start, offset 0x38, size 0x1
-  __declspec(property(get = __get_start, put = __set_start)) bool start;
+  __declspec(property(get = __cordl_internal_get_start, put = __cordl_internal_set_start)) bool start;
 
   /// @brief Field outBuf, offset 0x40, size 0x8
-  __declspec(property(get = __get_outBuf, put = __set_outBuf))::ArrayW<int32_t, ::Array<int32_t>*> outBuf;
+  __declspec(property(get = __cordl_internal_get_outBuf, put = __cordl_internal_set_outBuf))::ArrayW<int32_t, ::Array<int32_t>*> outBuf;
 
   /// @brief Field bufPtr, offset 0x48, size 0x4
-  __declspec(property(get = __get_bufPtr, put = __set_bufPtr)) int32_t bufPtr;
+  __declspec(property(get = __cordl_internal_get_bufPtr, put = __cordl_internal_set_bufPtr)) int32_t bufPtr;
 
   /// @brief Field crc, offset 0x50, size 0x8
-  __declspec(property(get = __get_crc, put = __set_crc))::Org::BouncyCastle::Bcpg::Crc24* crc;
+  __declspec(property(get = __cordl_internal_get_crc, put = __cordl_internal_set_crc))::Org::BouncyCastle::Bcpg::Crc24* crc;
 
   /// @brief Field crcFound, offset 0x58, size 0x1
-  __declspec(property(get = __get_crcFound, put = __set_crcFound)) bool crcFound;
+  __declspec(property(get = __cordl_internal_get_crcFound, put = __cordl_internal_set_crcFound)) bool crcFound;
 
   /// @brief Field hasHeaders, offset 0x59, size 0x1
-  __declspec(property(get = __get_hasHeaders, put = __set_hasHeaders)) bool hasHeaders;
+  __declspec(property(get = __cordl_internal_get_hasHeaders, put = __cordl_internal_set_hasHeaders)) bool hasHeaders;
 
   /// @brief Field header, offset 0x60, size 0x8
-  __declspec(property(get = __get_header, put = __set_header))::StringW header;
+  __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header))::StringW header;
 
   /// @brief Field newLineFound, offset 0x68, size 0x1
-  __declspec(property(get = __get_newLineFound, put = __set_newLineFound)) bool newLineFound;
+  __declspec(property(get = __cordl_internal_get_newLineFound, put = __cordl_internal_set_newLineFound)) bool newLineFound;
 
   /// @brief Field clearText, offset 0x69, size 0x1
-  __declspec(property(get = __get_clearText, put = __set_clearText)) bool clearText;
+  __declspec(property(get = __cordl_internal_get_clearText, put = __cordl_internal_set_clearText)) bool clearText;
 
   /// @brief Field restart, offset 0x6a, size 0x1
-  __declspec(property(get = __get_restart, put = __set_restart)) bool restart;
+  __declspec(property(get = __cordl_internal_get_restart, put = __cordl_internal_set_restart)) bool restart;
 
   /// @brief Field headerList, offset 0x70, size 0x8
-  __declspec(property(get = __get_headerList, put = __set_headerList))::System::Collections::IList* headerList;
+  __declspec(property(get = __cordl_internal_get_headerList, put = __cordl_internal_set_headerList))::System::Collections::IList* headerList;
 
   /// @brief Field lastC, offset 0x78, size 0x4
-  __declspec(property(get = __get_lastC, put = __set_lastC)) int32_t lastC;
+  __declspec(property(get = __cordl_internal_get_lastC, put = __cordl_internal_set_lastC)) int32_t lastC;
 
   /// @brief Field isEndOfStream, offset 0x7c, size 0x1
-  __declspec(property(get = __get_isEndOfStream, put = __set_isEndOfStream)) bool isEndOfStream;
+  __declspec(property(get = __cordl_internal_get_isEndOfStream, put = __cordl_internal_set_isEndOfStream)) bool isEndOfStream;
 
   /// @brief Field decodingTable, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_decodingTable, put = setStaticF_decodingTable))::ArrayW<uint8_t, ::Array<uint8_t>*> decodingTable;
 
-  constexpr ::System::IO::Stream*& __get_input();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_input();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_input() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_input() const;
 
-  constexpr void __set_input(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_input(::System::IO::Stream* value);
 
-  constexpr bool& __get_start();
+  constexpr bool& __cordl_internal_get_start();
 
-  constexpr bool const& __get_start() const;
+  constexpr bool const& __cordl_internal_get_start() const;
 
-  constexpr void __set_start(bool value);
+  constexpr void __cordl_internal_set_start(bool value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_outBuf();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_outBuf();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_outBuf() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_outBuf() const;
 
-  constexpr void __set_outBuf(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_outBuf(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get_bufPtr();
+  constexpr int32_t& __cordl_internal_get_bufPtr();
 
-  constexpr int32_t const& __get_bufPtr() const;
+  constexpr int32_t const& __cordl_internal_get_bufPtr() const;
 
-  constexpr void __set_bufPtr(int32_t value);
+  constexpr void __cordl_internal_set_bufPtr(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::Crc24*& __get_crc();
+  constexpr ::Org::BouncyCastle::Bcpg::Crc24*& __cordl_internal_get_crc();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::Crc24*> const& __get_crc() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::Crc24*> const& __cordl_internal_get_crc() const;
 
-  constexpr void __set_crc(::Org::BouncyCastle::Bcpg::Crc24* value);
+  constexpr void __cordl_internal_set_crc(::Org::BouncyCastle::Bcpg::Crc24* value);
 
-  constexpr bool& __get_crcFound();
+  constexpr bool& __cordl_internal_get_crcFound();
 
-  constexpr bool const& __get_crcFound() const;
+  constexpr bool const& __cordl_internal_get_crcFound() const;
 
-  constexpr void __set_crcFound(bool value);
+  constexpr void __cordl_internal_set_crcFound(bool value);
 
-  constexpr bool& __get_hasHeaders();
+  constexpr bool& __cordl_internal_get_hasHeaders();
 
-  constexpr bool const& __get_hasHeaders() const;
+  constexpr bool const& __cordl_internal_get_hasHeaders() const;
 
-  constexpr void __set_hasHeaders(bool value);
+  constexpr void __cordl_internal_set_hasHeaders(bool value);
 
-  constexpr ::StringW& __get_header();
+  constexpr ::StringW& __cordl_internal_get_header();
 
-  constexpr ::StringW const& __get_header() const;
+  constexpr ::StringW const& __cordl_internal_get_header() const;
 
-  constexpr void __set_header(::StringW value);
+  constexpr void __cordl_internal_set_header(::StringW value);
 
-  constexpr bool& __get_newLineFound();
+  constexpr bool& __cordl_internal_get_newLineFound();
 
-  constexpr bool const& __get_newLineFound() const;
+  constexpr bool const& __cordl_internal_get_newLineFound() const;
 
-  constexpr void __set_newLineFound(bool value);
+  constexpr void __cordl_internal_set_newLineFound(bool value);
 
-  constexpr bool& __get_clearText();
+  constexpr bool& __cordl_internal_get_clearText();
 
-  constexpr bool const& __get_clearText() const;
+  constexpr bool const& __cordl_internal_get_clearText() const;
 
-  constexpr void __set_clearText(bool value);
+  constexpr void __cordl_internal_set_clearText(bool value);
 
-  constexpr bool& __get_restart();
+  constexpr bool& __cordl_internal_get_restart();
 
-  constexpr bool const& __get_restart() const;
+  constexpr bool const& __cordl_internal_get_restart() const;
 
-  constexpr void __set_restart(bool value);
+  constexpr void __cordl_internal_set_restart(bool value);
 
-  constexpr ::System::Collections::IList*& __get_headerList();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_headerList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_headerList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_headerList() const;
 
-  constexpr void __set_headerList(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_headerList(::System::Collections::IList* value);
 
-  constexpr int32_t& __get_lastC();
+  constexpr int32_t& __cordl_internal_get_lastC();
 
-  constexpr int32_t const& __get_lastC() const;
+  constexpr int32_t const& __cordl_internal_get_lastC() const;
 
-  constexpr void __set_lastC(int32_t value);
+  constexpr void __cordl_internal_set_lastC(int32_t value);
 
-  constexpr bool& __get_isEndOfStream();
+  constexpr bool& __cordl_internal_get_isEndOfStream();
 
-  constexpr bool const& __get_isEndOfStream() const;
+  constexpr bool const& __cordl_internal_get_isEndOfStream() const;
 
-  constexpr void __set_isEndOfStream(bool value);
+  constexpr void __cordl_internal_set_isEndOfStream(bool value);
 
   static inline void setStaticF_decodingTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

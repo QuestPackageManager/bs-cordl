@@ -19,14 +19,14 @@ MARK_REF_PTR_T(::UnityEngine::ObjectGUIState);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14610))
 // CS Name: ::UnityEngine::ObjectGUIState*
 class CORDL_TYPE ObjectGUIState : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Ptr, put = __set_m_Ptr)) void* m_Ptr;
+  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) void* m_Ptr;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -34,11 +34,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr void*& __get_m_Ptr();
+  constexpr void*& __cordl_internal_get_m_Ptr();
 
-  constexpr void* const& __get_m_Ptr() const;
+  constexpr void* const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr void __set_m_Ptr(void* value);
+  constexpr void __cordl_internal_set_m_Ptr(void* value);
 
   static inline ::UnityEngine::ObjectGUIState* New_ctor();
 

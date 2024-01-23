@@ -51,7 +51,7 @@ MARK_REF_PTR_T(::System::Xml::XPath::XPathNavigator);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml::XPath {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11580))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11580))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11582))
 // CS Name: ::System.Xml.XPath::XPathNavigator*
 class CORDL_TYPE XPathNavigator : public ::System::Xml::XPath::XPathItem {

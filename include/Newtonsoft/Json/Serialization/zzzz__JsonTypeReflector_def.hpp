@@ -69,29 +69,29 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::__JsonTypeReflector____c__Disp
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11959))
 // CS Name: ::JsonTypeReflector::<>c__DisplayClass18_0*
 class CORDL_TYPE __JsonTypeReflector____c__DisplayClass18_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field converterType, offset 0x10, size 0x8
-  __declspec(property(get = __get_converterType, put = __set_converterType))::System::Type* converterType;
+  __declspec(property(get = __cordl_internal_get_converterType, put = __cordl_internal_set_converterType))::System::Type* converterType;
 
   /// @brief Field defaultConstructor, offset 0x18, size 0x8
-  __declspec(property(get = __get_defaultConstructor, put = __set_defaultConstructor))::System::Func_1<::System::Object*>* defaultConstructor;
+  __declspec(property(get = __cordl_internal_get_defaultConstructor, put = __cordl_internal_set_defaultConstructor))::System::Func_1<::System::Object*>* defaultConstructor;
 
-  constexpr ::System::Type*& __get_converterType();
+  constexpr ::System::Type*& __cordl_internal_get_converterType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_converterType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_converterType() const;
 
-  constexpr void __set_converterType(::System::Type* value);
+  constexpr void __cordl_internal_set_converterType(::System::Type* value);
 
-  constexpr ::System::Func_1<::System::Object*>*& __get_defaultConstructor();
+  constexpr ::System::Func_1<::System::Object*>*& __cordl_internal_get_defaultConstructor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Object*>*> const& __get_defaultConstructor() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::System::Object*>*> const& __cordl_internal_get_defaultConstructor() const;
 
-  constexpr void __set_defaultConstructor(::System::Func_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set_defaultConstructor(::System::Func_1<::System::Object*>* value);
 
   static inline ::Newtonsoft::Json::Serialization::__JsonTypeReflector____c__DisplayClass18_0* New_ctor();
 
@@ -135,7 +135,7 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::__JsonTypeReflector___
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11960))
 // CS Name: ::JsonTypeReflector::<>c*
 class CORDL_TYPE __JsonTypeReflector____c : public ::System::Object {
@@ -187,8 +187,8 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2448)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(11961)) CS Name: ::Newtonsoft.Json.Serialization::JsonTypeReflector*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11961)) CS Name: ::Newtonsoft.Json.Serialization::JsonTypeReflector*
 class CORDL_TYPE JsonTypeReflector : public ::System::Object {
 public:
   // Declarations

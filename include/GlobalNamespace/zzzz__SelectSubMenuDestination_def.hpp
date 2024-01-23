@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::SelectSubMenuDestination);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4153))
 // CS Name: ::SelectSubMenuDestination::Destination
 struct CORDL_TYPE __SelectSubMenuDestination__Destination {
@@ -94,7 +94,7 @@ static_assert(offsetof(::GlobalNamespace::__SelectSubMenuDestination__Destinatio
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4153)), TypeDefinitionIndex(TypeDefinitionIndex(4152))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4152)), TypeDefinitionIndex(TypeDefinitionIndex(4153))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4154))
 // CS Name: ::SelectSubMenuDestination*
 class CORDL_TYPE SelectSubMenuDestination : public ::GlobalNamespace::MenuDestination {
@@ -103,13 +103,13 @@ public:
   using Destination = ::GlobalNamespace::__SelectSubMenuDestination__Destination;
 
   /// @brief Field menuDestination, offset 0x10, size 0x4
-  __declspec(property(get = __get_menuDestination, put = __set_menuDestination))::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination;
+  __declspec(property(get = __cordl_internal_get_menuDestination, put = __cordl_internal_set_menuDestination))::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination;
 
-  constexpr ::GlobalNamespace::__SelectSubMenuDestination__Destination& __get_menuDestination();
+  constexpr ::GlobalNamespace::__SelectSubMenuDestination__Destination& __cordl_internal_get_menuDestination();
 
-  constexpr ::GlobalNamespace::__SelectSubMenuDestination__Destination const& __get_menuDestination() const;
+  constexpr ::GlobalNamespace::__SelectSubMenuDestination__Destination const& __cordl_internal_get_menuDestination() const;
 
-  constexpr void __set_menuDestination(::GlobalNamespace::__SelectSubMenuDestination__Destination value);
+  constexpr void __cordl_internal_set_menuDestination(::GlobalNamespace::__SelectSubMenuDestination__Destination value);
 
   static inline ::GlobalNamespace::SelectSubMenuDestination* New_ctor(::GlobalNamespace::__SelectSubMenuDestination__Destination menuDestination);
 

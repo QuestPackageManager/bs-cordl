@@ -56,7 +56,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Bson::__BsonReader__ContainerContext);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12071))
 // CS Name: ::BsonReader::BsonReaderState
 struct CORDL_TYPE __BsonReader__BsonReaderState {
@@ -134,38 +134,38 @@ static_assert(offsetof(::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState, 
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12082)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12082))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12072))
 // CS Name: ::BsonReader::ContainerContext*
 class CORDL_TYPE __BsonReader__ContainerContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Type, offset 0x10, size 0x1
-  __declspec(property(get = __get_Type, put = __set_Type))::Newtonsoft::Json::Bson::BsonType Type;
+  __declspec(property(get = __cordl_internal_get_Type, put = __cordl_internal_set_Type))::Newtonsoft::Json::Bson::BsonType Type;
 
   /// @brief Field Length, offset 0x14, size 0x4
-  __declspec(property(get = __get_Length, put = __set_Length)) int32_t Length;
+  __declspec(property(get = __cordl_internal_get_Length, put = __cordl_internal_set_Length)) int32_t Length;
 
   /// @brief Field Position, offset 0x18, size 0x4
-  __declspec(property(get = __get_Position, put = __set_Position)) int32_t Position;
+  __declspec(property(get = __cordl_internal_get_Position, put = __cordl_internal_set_Position)) int32_t Position;
 
-  constexpr ::Newtonsoft::Json::Bson::BsonType& __get_Type();
+  constexpr ::Newtonsoft::Json::Bson::BsonType& __cordl_internal_get_Type();
 
-  constexpr ::Newtonsoft::Json::Bson::BsonType const& __get_Type() const;
+  constexpr ::Newtonsoft::Json::Bson::BsonType const& __cordl_internal_get_Type() const;
 
-  constexpr void __set_Type(::Newtonsoft::Json::Bson::BsonType value);
+  constexpr void __cordl_internal_set_Type(::Newtonsoft::Json::Bson::BsonType value);
 
-  constexpr int32_t& __get_Length();
+  constexpr int32_t& __cordl_internal_get_Length();
 
-  constexpr int32_t const& __get_Length() const;
+  constexpr int32_t const& __cordl_internal_get_Length() const;
 
-  constexpr void __set_Length(int32_t value);
+  constexpr void __cordl_internal_set_Length(int32_t value);
 
-  constexpr int32_t& __get_Position();
+  constexpr int32_t& __cordl_internal_get_Position();
 
-  constexpr int32_t const& __get_Position() const;
+  constexpr int32_t const& __cordl_internal_get_Position() const;
 
-  constexpr void __set_Position(int32_t value);
+  constexpr void __cordl_internal_set_Position(int32_t value);
 
   static inline ::Newtonsoft::Json::Bson::__BsonReader__ContainerContext* New_ctor(::Newtonsoft::Json::Bson::BsonType type);
 
@@ -211,8 +211,8 @@ static_assert(offsetof(::Newtonsoft::Json::Bson::__BsonReader__ContainerContext,
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Bson {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12082)), TypeDefinitionIndex(TypeDefinitionIndex(11833)), TypeDefinitionIndex(TypeDefinitionIndex(12071)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2369))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12073)) CS Name: ::Newtonsoft.Json.Bson::BsonReader*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2369)), TypeDefinitionIndex(TypeDefinitionIndex(11833)), TypeDefinitionIndex(TypeDefinitionIndex(12071)),
+// TypeDefinitionIndex(TypeDefinitionIndex(12082))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12073)) CS Name: ::Newtonsoft.Json.Bson::BsonReader*
 class CORDL_TYPE BsonReader : public ::Newtonsoft::Json::JsonReader {
 public:
   // Declarations
@@ -221,34 +221,34 @@ public:
   using BsonReaderState = ::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState;
 
   /// @brief Field _reader, offset 0x78, size 0x8
-  __declspec(property(get = __get__reader, put = __set__reader))::System::IO::BinaryReader* _reader;
+  __declspec(property(get = __cordl_internal_get__reader, put = __cordl_internal_set__reader))::System::IO::BinaryReader* _reader;
 
   /// @brief Field _stack, offset 0x80, size 0x8
-  __declspec(property(get = __get__stack, put = __set__stack))::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::__BsonReader__ContainerContext*>* _stack;
+  __declspec(property(get = __cordl_internal_get__stack, put = __cordl_internal_set__stack))::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::__BsonReader__ContainerContext*>* _stack;
 
   /// @brief Field _byteBuffer, offset 0x88, size 0x8
-  __declspec(property(get = __get__byteBuffer, put = __set__byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _byteBuffer;
+  __declspec(property(get = __cordl_internal_get__byteBuffer, put = __cordl_internal_set__byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _byteBuffer;
 
   /// @brief Field _charBuffer, offset 0x90, size 0x8
-  __declspec(property(get = __get__charBuffer, put = __set__charBuffer))::ArrayW<char16_t, ::Array<char16_t>*> _charBuffer;
+  __declspec(property(get = __cordl_internal_get__charBuffer, put = __cordl_internal_set__charBuffer))::ArrayW<char16_t, ::Array<char16_t>*> _charBuffer;
 
   /// @brief Field _currentElementType, offset 0x98, size 0x1
-  __declspec(property(get = __get__currentElementType, put = __set__currentElementType))::Newtonsoft::Json::Bson::BsonType _currentElementType;
+  __declspec(property(get = __cordl_internal_get__currentElementType, put = __cordl_internal_set__currentElementType))::Newtonsoft::Json::Bson::BsonType _currentElementType;
 
   /// @brief Field _bsonReaderState, offset 0x9c, size 0x4
-  __declspec(property(get = __get__bsonReaderState, put = __set__bsonReaderState))::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState _bsonReaderState;
+  __declspec(property(get = __cordl_internal_get__bsonReaderState, put = __cordl_internal_set__bsonReaderState))::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState _bsonReaderState;
 
   /// @brief Field _currentContext, offset 0xa0, size 0x8
-  __declspec(property(get = __get__currentContext, put = __set__currentContext))::Newtonsoft::Json::Bson::__BsonReader__ContainerContext* _currentContext;
+  __declspec(property(get = __cordl_internal_get__currentContext, put = __cordl_internal_set__currentContext))::Newtonsoft::Json::Bson::__BsonReader__ContainerContext* _currentContext;
 
   /// @brief Field _readRootValueAsArray, offset 0xa8, size 0x1
-  __declspec(property(get = __get__readRootValueAsArray, put = __set__readRootValueAsArray)) bool _readRootValueAsArray;
+  __declspec(property(get = __cordl_internal_get__readRootValueAsArray, put = __cordl_internal_set__readRootValueAsArray)) bool _readRootValueAsArray;
 
   /// @brief Field _jsonNet35BinaryCompatibility, offset 0xa9, size 0x1
-  __declspec(property(get = __get__jsonNet35BinaryCompatibility, put = __set__jsonNet35BinaryCompatibility)) bool _jsonNet35BinaryCompatibility;
+  __declspec(property(get = __cordl_internal_get__jsonNet35BinaryCompatibility, put = __cordl_internal_set__jsonNet35BinaryCompatibility)) bool _jsonNet35BinaryCompatibility;
 
   /// @brief Field _dateTimeKindHandling, offset 0xac, size 0x4
-  __declspec(property(get = __get__dateTimeKindHandling, put = __set__dateTimeKindHandling))::System::DateTimeKind _dateTimeKindHandling;
+  __declspec(property(get = __cordl_internal_get__dateTimeKindHandling, put = __cordl_internal_set__dateTimeKindHandling))::System::DateTimeKind _dateTimeKindHandling;
 
   /// @brief Field SeqRange1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SeqRange1, put = setStaticF_SeqRange1))::ArrayW<uint8_t, ::Array<uint8_t>*> SeqRange1;
@@ -268,65 +268,65 @@ public:
 
   __declspec(property(get = get_DateTimeKindHandling, put = set_DateTimeKindHandling))::System::DateTimeKind DateTimeKindHandling;
 
-  constexpr ::System::IO::BinaryReader*& __get__reader();
+  constexpr ::System::IO::BinaryReader*& __cordl_internal_get__reader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::BinaryReader*> const& __get__reader() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::BinaryReader*> const& __cordl_internal_get__reader() const;
 
-  constexpr void __set__reader(::System::IO::BinaryReader* value);
+  constexpr void __cordl_internal_set__reader(::System::IO::BinaryReader* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::__BsonReader__ContainerContext*>*& __get__stack();
+  constexpr ::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::__BsonReader__ContainerContext*>*& __cordl_internal_get__stack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::__BsonReader__ContainerContext*>*> const& __get__stack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::__BsonReader__ContainerContext*>*> const& __cordl_internal_get__stack() const;
 
-  constexpr void __set__stack(::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::__BsonReader__ContainerContext*>* value);
+  constexpr void __cordl_internal_set__stack(::System::Collections::Generic::List_1<::Newtonsoft::Json::Bson::__BsonReader__ContainerContext*>* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__byteBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__byteBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__byteBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__byteBuffer() const;
 
-  constexpr void __set__byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get__charBuffer();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__charBuffer();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get__charBuffer() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__charBuffer() const;
 
-  constexpr void __set__charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set__charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr ::Newtonsoft::Json::Bson::BsonType& __get__currentElementType();
+  constexpr ::Newtonsoft::Json::Bson::BsonType& __cordl_internal_get__currentElementType();
 
-  constexpr ::Newtonsoft::Json::Bson::BsonType const& __get__currentElementType() const;
+  constexpr ::Newtonsoft::Json::Bson::BsonType const& __cordl_internal_get__currentElementType() const;
 
-  constexpr void __set__currentElementType(::Newtonsoft::Json::Bson::BsonType value);
+  constexpr void __cordl_internal_set__currentElementType(::Newtonsoft::Json::Bson::BsonType value);
 
-  constexpr ::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState& __get__bsonReaderState();
+  constexpr ::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState& __cordl_internal_get__bsonReaderState();
 
-  constexpr ::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState const& __get__bsonReaderState() const;
+  constexpr ::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState const& __cordl_internal_get__bsonReaderState() const;
 
-  constexpr void __set__bsonReaderState(::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState value);
+  constexpr void __cordl_internal_set__bsonReaderState(::Newtonsoft::Json::Bson::__BsonReader__BsonReaderState value);
 
-  constexpr ::Newtonsoft::Json::Bson::__BsonReader__ContainerContext*& __get__currentContext();
+  constexpr ::Newtonsoft::Json::Bson::__BsonReader__ContainerContext*& __cordl_internal_get__currentContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::__BsonReader__ContainerContext*> const& __get__currentContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Bson::__BsonReader__ContainerContext*> const& __cordl_internal_get__currentContext() const;
 
-  constexpr void __set__currentContext(::Newtonsoft::Json::Bson::__BsonReader__ContainerContext* value);
+  constexpr void __cordl_internal_set__currentContext(::Newtonsoft::Json::Bson::__BsonReader__ContainerContext* value);
 
-  constexpr bool& __get__readRootValueAsArray();
+  constexpr bool& __cordl_internal_get__readRootValueAsArray();
 
-  constexpr bool const& __get__readRootValueAsArray() const;
+  constexpr bool const& __cordl_internal_get__readRootValueAsArray() const;
 
-  constexpr void __set__readRootValueAsArray(bool value);
+  constexpr void __cordl_internal_set__readRootValueAsArray(bool value);
 
-  constexpr bool& __get__jsonNet35BinaryCompatibility();
+  constexpr bool& __cordl_internal_get__jsonNet35BinaryCompatibility();
 
-  constexpr bool const& __get__jsonNet35BinaryCompatibility() const;
+  constexpr bool const& __cordl_internal_get__jsonNet35BinaryCompatibility() const;
 
-  constexpr void __set__jsonNet35BinaryCompatibility(bool value);
+  constexpr void __cordl_internal_set__jsonNet35BinaryCompatibility(bool value);
 
-  constexpr ::System::DateTimeKind& __get__dateTimeKindHandling();
+  constexpr ::System::DateTimeKind& __cordl_internal_get__dateTimeKindHandling();
 
-  constexpr ::System::DateTimeKind const& __get__dateTimeKindHandling() const;
+  constexpr ::System::DateTimeKind const& __cordl_internal_get__dateTimeKindHandling() const;
 
-  constexpr void __set__dateTimeKindHandling(::System::DateTimeKind value);
+  constexpr void __cordl_internal_set__dateTimeKindHandling(::System::DateTimeKind value);
 
   static inline void setStaticF_SeqRange1(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

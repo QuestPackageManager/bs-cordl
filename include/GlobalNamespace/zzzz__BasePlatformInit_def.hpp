@@ -54,8 +54,8 @@ MARK_VAL_T(::GlobalNamespace::__BasePlatformInit___Initialize_d__5);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15976)) CS Name: ::BasePlatformInit::<Initialize>d__5
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15976)) CS Name: ::BasePlatformInit::<Initialize>d__5
 struct CORDL_TYPE __BasePlatformInit___Initialize_d__5 {
 public:
   // Declarations
@@ -114,8 +114,8 @@ static_assert(offsetof(::GlobalNamespace::__BasePlatformInit___Initialize_d__5, 
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(15977)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15977)) CS Name:
 // ::BasePlatformInit::<InitializeAsync>d__7
 struct CORDL_TYPE __BasePlatformInit___InitializeAsync_d__7 {
 public:
@@ -175,7 +175,7 @@ static_assert(offsetof(::GlobalNamespace::__BasePlatformInit___InitializeAsync_d
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15978))
 // CS Name: ::BasePlatformInit*
 class CORDL_TYPE BasePlatformInit : public ::System::Object {
@@ -186,10 +186,10 @@ public:
   using _Initialize_d__5 = ::GlobalNamespace::__BasePlatformInit___Initialize_d__5;
 
   /// @brief Field <IsInitialized>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__IsInitialized_k__BackingField, put = __set__IsInitialized_k__BackingField)) bool _IsInitialized_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IsInitialized_k__BackingField, put = __cordl_internal_set__IsInitialized_k__BackingField)) bool _IsInitialized_k__BackingField;
 
   /// @brief Field _initializationTask, offset 0x18, size 0x8
-  __declspec(property(get = __get__initializationTask, put = __set__initializationTask))::System::Threading::Tasks::Task_1<bool>* _initializationTask;
+  __declspec(property(get = __cordl_internal_get__initializationTask, put = __cordl_internal_set__initializationTask))::System::Threading::Tasks::Task_1<bool>* _initializationTask;
 
   __declspec(property(get = get_IsInitialized, put = set_IsInitialized)) bool IsInitialized;
 
@@ -205,17 +205,17 @@ public:
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
-  constexpr bool& __get__IsInitialized_k__BackingField();
+  constexpr bool& __cordl_internal_get__IsInitialized_k__BackingField();
 
-  constexpr bool const& __get__IsInitialized_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__IsInitialized_k__BackingField() const;
 
-  constexpr void __set__IsInitialized_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__IsInitialized_k__BackingField(bool value);
 
-  constexpr ::System::Threading::Tasks::Task_1<bool>*& __get__initializationTask();
+  constexpr ::System::Threading::Tasks::Task_1<bool>*& __cordl_internal_get__initializationTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<bool>*> const& __get__initializationTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task_1<bool>*> const& __cordl_internal_get__initializationTask() const;
 
-  constexpr void __set__initializationTask(::System::Threading::Tasks::Task_1<bool>* value);
+  constexpr void __cordl_internal_set__initializationTask(::System::Threading::Tasks::Task_1<bool>* value);
 
   /// @brief Method get_IsInitialized, addr 0x27fd6b8, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsInitialized();

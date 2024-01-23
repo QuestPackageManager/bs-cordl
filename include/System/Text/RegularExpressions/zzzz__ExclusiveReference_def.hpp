@@ -18,38 +18,38 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::ExclusiveReference);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8910))
 // CS Name: ::System.Text.RegularExpressions::ExclusiveReference*
 class CORDL_TYPE ExclusiveReference : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _ref, offset 0x10, size 0x8
-  __declspec(property(get = __get__ref, put = __set__ref))::System::Text::RegularExpressions::RegexRunner* _ref;
+  __declspec(property(get = __cordl_internal_get__ref, put = __cordl_internal_set__ref))::System::Text::RegularExpressions::RegexRunner* _ref;
 
   /// @brief Field _obj, offset 0x18, size 0x8
-  __declspec(property(get = __get__obj, put = __set__obj))::System::Text::RegularExpressions::RegexRunner* _obj;
+  __declspec(property(get = __cordl_internal_get__obj, put = __cordl_internal_set__obj))::System::Text::RegularExpressions::RegexRunner* _obj;
 
   /// @brief Field _locked, offset 0x20, size 0x4
-  __declspec(property(get = __get__locked, put = __set__locked)) int32_t _locked;
+  __declspec(property(get = __cordl_internal_get__locked, put = __cordl_internal_set__locked)) int32_t _locked;
 
-  constexpr ::System::Text::RegularExpressions::RegexRunner*& __get__ref();
+  constexpr ::System::Text::RegularExpressions::RegexRunner*& __cordl_internal_get__ref();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexRunner*> const& __get__ref() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexRunner*> const& __cordl_internal_get__ref() const;
 
-  constexpr void __set__ref(::System::Text::RegularExpressions::RegexRunner* value);
+  constexpr void __cordl_internal_set__ref(::System::Text::RegularExpressions::RegexRunner* value);
 
-  constexpr ::System::Text::RegularExpressions::RegexRunner*& __get__obj();
+  constexpr ::System::Text::RegularExpressions::RegexRunner*& __cordl_internal_get__obj();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexRunner*> const& __get__obj() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::RegularExpressions::RegexRunner*> const& __cordl_internal_get__obj() const;
 
-  constexpr void __set__obj(::System::Text::RegularExpressions::RegexRunner* value);
+  constexpr void __cordl_internal_set__obj(::System::Text::RegularExpressions::RegexRunner* value);
 
-  constexpr int32_t& __get__locked();
+  constexpr int32_t& __cordl_internal_get__locked();
 
-  constexpr int32_t const& __get__locked() const;
+  constexpr int32_t const& __cordl_internal_get__locked() const;
 
-  constexpr void __set__locked(int32_t value);
+  constexpr void __cordl_internal_set__locked(int32_t value);
 
   /// @brief Method Get, addr 0x29515ec, size 0x58, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexRunner* Get();

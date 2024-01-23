@@ -21,7 +21,7 @@ MARK_VAL_T(::TMPro::TMP_GlyphValueRecord);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12372))
 // CS Name: ::TMPro::TMP_GlyphValueRecord
 struct CORDL_TYPE TMP_GlyphValueRecord {

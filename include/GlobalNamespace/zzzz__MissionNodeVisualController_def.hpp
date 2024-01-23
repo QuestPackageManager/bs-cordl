@@ -23,37 +23,39 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionNodeVisualController);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5551))
 // CS Name: ::MissionNodeVisualController*
 class CORDL_TYPE MissionNodeVisualController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _missionToggle, offset 0x18, size 0x8
-  __declspec(property(get = __get__missionToggle, put = __set__missionToggle))::GlobalNamespace::MissionToggle* _missionToggle;
+  __declspec(property(get = __cordl_internal_get__missionToggle, put = __cordl_internal_set__missionToggle))::UnityW<::GlobalNamespace::MissionToggle> _missionToggle;
 
   /// @brief Field _missionNode, offset 0x20, size 0x8
-  __declspec(property(get = __get__missionNode, put = __set__missionNode))::GlobalNamespace::MissionNode* _missionNode;
+  __declspec(property(get = __cordl_internal_get__missionNode, put = __cordl_internal_set__missionNode))::UnityW<::GlobalNamespace::MissionNode> _missionNode;
 
   /// @brief Field nodeWasSelectEvent, offset 0x28, size 0x8
-  __declspec(property(get = __get_nodeWasSelectEvent, put = __set_nodeWasSelectEvent))::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* nodeWasSelectEvent;
+  __declspec(property(get = __cordl_internal_get_nodeWasSelectEvent,
+                      put = __cordl_internal_set_nodeWasSelectEvent))::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* nodeWasSelectEvent;
 
   /// @brief Field nodeWasDisplayedEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_nodeWasDisplayedEvent, put = __set_nodeWasDisplayedEvent))::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* nodeWasDisplayedEvent;
+  __declspec(property(get = __cordl_internal_get_nodeWasDisplayedEvent,
+                      put = __cordl_internal_set_nodeWasDisplayedEvent))::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* nodeWasDisplayedEvent;
 
   /// @brief Field _selected, offset 0x38, size 0x1
-  __declspec(property(get = __get__selected, put = __set__selected)) bool _selected;
+  __declspec(property(get = __cordl_internal_get__selected, put = __cordl_internal_set__selected)) bool _selected;
 
   /// @brief Field _isInitialized, offset 0x39, size 0x1
-  __declspec(property(get = __get__isInitialized, put = __set__isInitialized)) bool _isInitialized;
+  __declspec(property(get = __cordl_internal_get__isInitialized, put = __cordl_internal_set__isInitialized)) bool _isInitialized;
 
   /// @brief Field _cleared, offset 0x3a, size 0x1
-  __declspec(property(get = __get__cleared, put = __set__cleared)) bool _cleared;
+  __declspec(property(get = __cordl_internal_get__cleared, put = __cordl_internal_set__cleared)) bool _cleared;
 
   /// @brief Field _interactable, offset 0x3b, size 0x1
-  __declspec(property(get = __get__interactable, put = __set__interactable)) bool _interactable;
+  __declspec(property(get = __cordl_internal_get__interactable, put = __cordl_internal_set__interactable)) bool _interactable;
 
-  __declspec(property(get = get_missionNode))::GlobalNamespace::MissionNode* missionNode;
+  __declspec(property(get = get_missionNode))::UnityW<::GlobalNamespace::MissionNode> missionNode;
 
   __declspec(property(get = get_selected)) bool selected;
 
@@ -63,68 +65,68 @@ public:
 
   __declspec(property(get = get_interactable)) bool interactable;
 
-  constexpr ::GlobalNamespace::MissionToggle*& __get__missionToggle();
+  constexpr ::UnityW<::GlobalNamespace::MissionToggle>& __cordl_internal_get__missionToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionToggle*> const& __get__missionToggle() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionToggle> const& __cordl_internal_get__missionToggle() const;
 
-  constexpr void __set__missionToggle(::GlobalNamespace::MissionToggle* value);
+  constexpr void __cordl_internal_set__missionToggle(::UnityW<::GlobalNamespace::MissionToggle> value);
 
-  constexpr ::GlobalNamespace::MissionNode*& __get__missionNode();
+  constexpr ::UnityW<::GlobalNamespace::MissionNode>& __cordl_internal_get__missionNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNode*> const& __get__missionNode() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionNode> const& __cordl_internal_get__missionNode() const;
 
-  constexpr void __set__missionNode(::GlobalNamespace::MissionNode* value);
+  constexpr void __cordl_internal_set__missionNode(::UnityW<::GlobalNamespace::MissionNode> value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*& __get_nodeWasSelectEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*& __cordl_internal_get_nodeWasSelectEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*> const& __get_nodeWasSelectEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*> const& __cordl_internal_get_nodeWasSelectEvent() const;
 
-  constexpr void __set_nodeWasSelectEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
+  constexpr void __cordl_internal_set_nodeWasSelectEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*& __get_nodeWasDisplayedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*& __cordl_internal_get_nodeWasDisplayedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>*> const& __get_nodeWasDisplayedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>*> const& __cordl_internal_get_nodeWasDisplayedEvent() const;
 
-  constexpr void __set_nodeWasDisplayedEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
+  constexpr void __cordl_internal_set_nodeWasDisplayedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
-  constexpr bool& __get__selected();
+  constexpr bool& __cordl_internal_get__selected();
 
-  constexpr bool const& __get__selected() const;
+  constexpr bool const& __cordl_internal_get__selected() const;
 
-  constexpr void __set__selected(bool value);
+  constexpr void __cordl_internal_set__selected(bool value);
 
-  constexpr bool& __get__isInitialized();
+  constexpr bool& __cordl_internal_get__isInitialized();
 
-  constexpr bool const& __get__isInitialized() const;
+  constexpr bool const& __cordl_internal_get__isInitialized() const;
 
-  constexpr void __set__isInitialized(bool value);
+  constexpr void __cordl_internal_set__isInitialized(bool value);
 
-  constexpr bool& __get__cleared();
+  constexpr bool& __cordl_internal_get__cleared();
 
-  constexpr bool const& __get__cleared() const;
+  constexpr bool const& __cordl_internal_get__cleared() const;
 
-  constexpr void __set__cleared(bool value);
+  constexpr void __cordl_internal_set__cleared(bool value);
 
-  constexpr bool& __get__interactable();
+  constexpr bool& __cordl_internal_get__interactable();
 
-  constexpr bool const& __get__interactable() const;
+  constexpr bool const& __cordl_internal_get__interactable() const;
 
-  constexpr void __set__interactable(bool value);
+  constexpr void __cordl_internal_set__interactable(bool value);
 
   /// @brief Method add_nodeWasSelectEvent, addr 0x22a0bd8, size 0xb0, virtual false, abstract: false, final false
-  inline void add_nodeWasSelectEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
+  inline void add_nodeWasSelectEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
   /// @brief Method remove_nodeWasSelectEvent, addr 0x22a0ea8, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_nodeWasSelectEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
+  inline void remove_nodeWasSelectEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
   /// @brief Method add_nodeWasDisplayedEvent, addr 0x22a0c88, size 0xb0, virtual false, abstract: false, final false
-  inline void add_nodeWasDisplayedEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
+  inline void add_nodeWasDisplayedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
   /// @brief Method remove_nodeWasDisplayedEvent, addr 0x22a0f58, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_nodeWasDisplayedEvent(::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* value);
+  inline void remove_nodeWasDisplayedEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* value);
 
   /// @brief Method get_missionNode, addr 0x22a1d88, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MissionNode* get_missionNode();
+  inline ::UnityW<::GlobalNamespace::MissionNode> get_missionNode();
 
   /// @brief Method get_selected, addr 0x22a1d90, size 0x8, virtual false, abstract: false, final false
   inline bool get_selected();
@@ -197,16 +199,16 @@ protected:
 
 public:
   /// @brief Field _missionToggle, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MissionToggle* ____missionToggle;
+  ::UnityW<::GlobalNamespace::MissionToggle> ____missionToggle;
 
   /// @brief Field _missionNode, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MissionNode* ____missionNode;
+  ::UnityW<::GlobalNamespace::MissionNode> ____missionNode;
 
   /// @brief Field nodeWasSelectEvent, offset: 0x28, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* ___nodeWasSelectEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* ___nodeWasSelectEvent;
 
   /// @brief Field nodeWasDisplayedEvent, offset: 0x30, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::MissionNodeVisualController*>* ___nodeWasDisplayedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::MissionNodeVisualController>>* ___nodeWasDisplayedEvent;
 
   /// @brief Field _selected, offset: 0x38, size: 0x1, def value: None
   bool ____selected;

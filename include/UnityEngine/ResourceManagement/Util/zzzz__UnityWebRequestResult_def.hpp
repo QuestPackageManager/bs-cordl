@@ -23,26 +23,27 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::UnityWebRequestResult);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15578))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15578))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13987))
 // CS Name: ::UnityEngine.ResourceManagement.Util::UnityWebRequestResult*
 class CORDL_TYPE UnityWebRequestResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Error>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Error_k__BackingField, put = __set__Error_k__BackingField))::StringW _Error_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Error_k__BackingField, put = __cordl_internal_set__Error_k__BackingField))::StringW _Error_k__BackingField;
 
   /// @brief Field <ResponseCode>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__ResponseCode_k__BackingField, put = __set__ResponseCode_k__BackingField)) int64_t _ResponseCode_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ResponseCode_k__BackingField, put = __cordl_internal_set__ResponseCode_k__BackingField)) int64_t _ResponseCode_k__BackingField;
 
   /// @brief Field <Result>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __get__Result_k__BackingField, put = __set__Result_k__BackingField))::UnityEngine::Networking::__UnityWebRequest__Result _Result_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Result_k__BackingField,
+                      put = __cordl_internal_set__Result_k__BackingField))::UnityEngine::Networking::__UnityWebRequest__Result _Result_k__BackingField;
 
   /// @brief Field <Method>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__Method_k__BackingField, put = __set__Method_k__BackingField))::StringW _Method_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Method_k__BackingField, put = __cordl_internal_set__Method_k__BackingField))::StringW _Method_k__BackingField;
 
   /// @brief Field <Url>k__BackingField, offset 0x30, size 0x8
-  __declspec(property(get = __get__Url_k__BackingField, put = __set__Url_k__BackingField))::StringW _Url_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Url_k__BackingField, put = __cordl_internal_set__Url_k__BackingField))::StringW _Url_k__BackingField;
 
   __declspec(property(get = get_Error, put = set_Error))::StringW Error;
 
@@ -54,35 +55,35 @@ public:
 
   __declspec(property(get = get_Url))::StringW Url;
 
-  constexpr ::StringW& __get__Error_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Error_k__BackingField();
 
-  constexpr ::StringW const& __get__Error_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Error_k__BackingField() const;
 
-  constexpr void __set__Error_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Error_k__BackingField(::StringW value);
 
-  constexpr int64_t& __get__ResponseCode_k__BackingField();
+  constexpr int64_t& __cordl_internal_get__ResponseCode_k__BackingField();
 
-  constexpr int64_t const& __get__ResponseCode_k__BackingField() const;
+  constexpr int64_t const& __cordl_internal_get__ResponseCode_k__BackingField() const;
 
-  constexpr void __set__ResponseCode_k__BackingField(int64_t value);
+  constexpr void __cordl_internal_set__ResponseCode_k__BackingField(int64_t value);
 
-  constexpr ::UnityEngine::Networking::__UnityWebRequest__Result& __get__Result_k__BackingField();
+  constexpr ::UnityEngine::Networking::__UnityWebRequest__Result& __cordl_internal_get__Result_k__BackingField();
 
-  constexpr ::UnityEngine::Networking::__UnityWebRequest__Result const& __get__Result_k__BackingField() const;
+  constexpr ::UnityEngine::Networking::__UnityWebRequest__Result const& __cordl_internal_get__Result_k__BackingField() const;
 
-  constexpr void __set__Result_k__BackingField(::UnityEngine::Networking::__UnityWebRequest__Result value);
+  constexpr void __cordl_internal_set__Result_k__BackingField(::UnityEngine::Networking::__UnityWebRequest__Result value);
 
-  constexpr ::StringW& __get__Method_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Method_k__BackingField();
 
-  constexpr ::StringW const& __get__Method_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Method_k__BackingField() const;
 
-  constexpr void __set__Method_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Method_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__Url_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Url_k__BackingField();
 
-  constexpr ::StringW const& __get__Url_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Url_k__BackingField() const;
 
-  constexpr void __set__Url_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Url_k__BackingField(::StringW value);
 
   static inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* New_ctor(::UnityEngine::Networking::UnityWebRequest* request);
 

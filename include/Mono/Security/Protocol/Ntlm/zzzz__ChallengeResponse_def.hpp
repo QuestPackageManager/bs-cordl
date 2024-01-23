@@ -20,23 +20,23 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::ChallengeResponse);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13763))
 // CS Name: ::Mono.Security.Protocol.Ntlm::ChallengeResponse*
 class CORDL_TYPE ChallengeResponse : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _disposed, offset 0x10, size 0x1
-  __declspec(property(get = __get__disposed, put = __set__disposed)) bool _disposed;
+  __declspec(property(get = __cordl_internal_get__disposed, put = __cordl_internal_set__disposed)) bool _disposed;
 
   /// @brief Field _challenge, offset 0x18, size 0x8
-  __declspec(property(get = __get__challenge, put = __set__challenge))::ArrayW<uint8_t, ::Array<uint8_t>*> _challenge;
+  __declspec(property(get = __cordl_internal_get__challenge, put = __cordl_internal_set__challenge))::ArrayW<uint8_t, ::Array<uint8_t>*> _challenge;
 
   /// @brief Field _lmpwd, offset 0x20, size 0x8
-  __declspec(property(get = __get__lmpwd, put = __set__lmpwd))::ArrayW<uint8_t, ::Array<uint8_t>*> _lmpwd;
+  __declspec(property(get = __cordl_internal_get__lmpwd, put = __cordl_internal_set__lmpwd))::ArrayW<uint8_t, ::Array<uint8_t>*> _lmpwd;
 
   /// @brief Field _ntpwd, offset 0x28, size 0x8
-  __declspec(property(get = __get__ntpwd, put = __set__ntpwd))::ArrayW<uint8_t, ::Array<uint8_t>*> _ntpwd;
+  __declspec(property(get = __cordl_internal_get__ntpwd, put = __cordl_internal_set__ntpwd))::ArrayW<uint8_t, ::Array<uint8_t>*> _ntpwd;
 
   /// @brief Field magic, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_magic, put = setStaticF_magic))::ArrayW<uint8_t, ::Array<uint8_t>*> magic;
@@ -58,29 +58,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr bool& __get__disposed();
+  constexpr bool& __cordl_internal_get__disposed();
 
-  constexpr bool const& __get__disposed() const;
+  constexpr bool const& __cordl_internal_get__disposed() const;
 
-  constexpr void __set__disposed(bool value);
+  constexpr void __cordl_internal_set__disposed(bool value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__challenge();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__challenge();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__challenge() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__challenge() const;
 
-  constexpr void __set__challenge(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__challenge(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__lmpwd();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__lmpwd();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__lmpwd() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__lmpwd() const;
 
-  constexpr void __set__lmpwd(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__lmpwd(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__ntpwd();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__ntpwd();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__ntpwd() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__ntpwd() const;
 
-  constexpr void __set__ntpwd(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__ntpwd(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_magic(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

@@ -21,38 +21,38 @@ MARK_REF_PTR_T(::Mono::Security::Protocol::Ntlm::Type3Message);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Protocol::Ntlm {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13766)), TypeDefinitionIndex(TypeDefinitionIndex(13765))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13765)), TypeDefinitionIndex(TypeDefinitionIndex(13766))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13771))
 // CS Name: ::Mono.Security.Protocol.Ntlm::Type3Message*
 class CORDL_TYPE Type3Message : public ::Mono::Security::Protocol::Ntlm::MessageBase {
 public:
   // Declarations
   /// @brief Field _level, offset 0x18, size 0x4
-  __declspec(property(get = __get__level, put = __set__level))::Mono::Security::Protocol::Ntlm::NtlmAuthLevel _level;
+  __declspec(property(get = __cordl_internal_get__level, put = __cordl_internal_set__level))::Mono::Security::Protocol::Ntlm::NtlmAuthLevel _level;
 
   /// @brief Field _challenge, offset 0x20, size 0x8
-  __declspec(property(get = __get__challenge, put = __set__challenge))::ArrayW<uint8_t, ::Array<uint8_t>*> _challenge;
+  __declspec(property(get = __cordl_internal_get__challenge, put = __cordl_internal_set__challenge))::ArrayW<uint8_t, ::Array<uint8_t>*> _challenge;
 
   /// @brief Field _host, offset 0x28, size 0x8
-  __declspec(property(get = __get__host, put = __set__host))::StringW _host;
+  __declspec(property(get = __cordl_internal_get__host, put = __cordl_internal_set__host))::StringW _host;
 
   /// @brief Field _domain, offset 0x30, size 0x8
-  __declspec(property(get = __get__domain, put = __set__domain))::StringW _domain;
+  __declspec(property(get = __cordl_internal_get__domain, put = __cordl_internal_set__domain))::StringW _domain;
 
   /// @brief Field _username, offset 0x38, size 0x8
-  __declspec(property(get = __get__username, put = __set__username))::StringW _username;
+  __declspec(property(get = __cordl_internal_get__username, put = __cordl_internal_set__username))::StringW _username;
 
   /// @brief Field _password, offset 0x40, size 0x8
-  __declspec(property(get = __get__password, put = __set__password))::StringW _password;
+  __declspec(property(get = __cordl_internal_get__password, put = __cordl_internal_set__password))::StringW _password;
 
   /// @brief Field _type2, offset 0x48, size 0x8
-  __declspec(property(get = __get__type2, put = __set__type2))::Mono::Security::Protocol::Ntlm::Type2Message* _type2;
+  __declspec(property(get = __cordl_internal_get__type2, put = __cordl_internal_set__type2))::Mono::Security::Protocol::Ntlm::Type2Message* _type2;
 
   /// @brief Field _lm, offset 0x50, size 0x8
-  __declspec(property(get = __get__lm, put = __set__lm))::ArrayW<uint8_t, ::Array<uint8_t>*> _lm;
+  __declspec(property(get = __cordl_internal_get__lm, put = __cordl_internal_set__lm))::ArrayW<uint8_t, ::Array<uint8_t>*> _lm;
 
   /// @brief Field _nt, offset 0x58, size 0x8
-  __declspec(property(get = __get__nt, put = __set__nt))::ArrayW<uint8_t, ::Array<uint8_t>*> _nt;
+  __declspec(property(get = __cordl_internal_get__nt, put = __cordl_internal_set__nt))::ArrayW<uint8_t, ::Array<uint8_t>*> _nt;
 
   __declspec(property(put = set_Domain))::StringW Domain;
 
@@ -60,59 +60,59 @@ public:
 
   __declspec(property(put = set_Username))::StringW Username;
 
-  constexpr ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel& __get__level();
+  constexpr ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel& __cordl_internal_get__level();
 
-  constexpr ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel const& __get__level() const;
+  constexpr ::Mono::Security::Protocol::Ntlm::NtlmAuthLevel const& __cordl_internal_get__level() const;
 
-  constexpr void __set__level(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel value);
+  constexpr void __cordl_internal_set__level(::Mono::Security::Protocol::Ntlm::NtlmAuthLevel value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__challenge();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__challenge();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__challenge() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__challenge() const;
 
-  constexpr void __set__challenge(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__challenge(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::StringW& __get__host();
+  constexpr ::StringW& __cordl_internal_get__host();
 
-  constexpr ::StringW const& __get__host() const;
+  constexpr ::StringW const& __cordl_internal_get__host() const;
 
-  constexpr void __set__host(::StringW value);
+  constexpr void __cordl_internal_set__host(::StringW value);
 
-  constexpr ::StringW& __get__domain();
+  constexpr ::StringW& __cordl_internal_get__domain();
 
-  constexpr ::StringW const& __get__domain() const;
+  constexpr ::StringW const& __cordl_internal_get__domain() const;
 
-  constexpr void __set__domain(::StringW value);
+  constexpr void __cordl_internal_set__domain(::StringW value);
 
-  constexpr ::StringW& __get__username();
+  constexpr ::StringW& __cordl_internal_get__username();
 
-  constexpr ::StringW const& __get__username() const;
+  constexpr ::StringW const& __cordl_internal_get__username() const;
 
-  constexpr void __set__username(::StringW value);
+  constexpr void __cordl_internal_set__username(::StringW value);
 
-  constexpr ::StringW& __get__password();
+  constexpr ::StringW& __cordl_internal_get__password();
 
-  constexpr ::StringW const& __get__password() const;
+  constexpr ::StringW const& __cordl_internal_get__password() const;
 
-  constexpr void __set__password(::StringW value);
+  constexpr void __cordl_internal_set__password(::StringW value);
 
-  constexpr ::Mono::Security::Protocol::Ntlm::Type2Message*& __get__type2();
+  constexpr ::Mono::Security::Protocol::Ntlm::Type2Message*& __cordl_internal_get__type2();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Protocol::Ntlm::Type2Message*> const& __get__type2() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Protocol::Ntlm::Type2Message*> const& __cordl_internal_get__type2() const;
 
-  constexpr void __set__type2(::Mono::Security::Protocol::Ntlm::Type2Message* value);
+  constexpr void __cordl_internal_set__type2(::Mono::Security::Protocol::Ntlm::Type2Message* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__lm();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__lm();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__lm() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__lm() const;
 
-  constexpr void __set__lm(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__lm(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__nt();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__nt();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__nt() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__nt() const;
 
-  constexpr void __set__nt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__nt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Mono::Security::Protocol::Ntlm::Type3Message* New_ctor(::Mono::Security::Protocol::Ntlm::Type2Message* type2);
 

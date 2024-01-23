@@ -34,18 +34,19 @@ MARK_REF_PTR_T(::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnos
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::Utility {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14101))
 // CS Name: ::UnityEngine.AddressableAssets.Utility::ResourceManagerDiagnostics*
 class CORDL_TYPE ResourceManagerDiagnostics : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_ResourceManager, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_ResourceManager, put = __set_m_ResourceManager))::UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager;
+  __declspec(property(get = __cordl_internal_get_m_ResourceManager, put = __cordl_internal_set_m_ResourceManager))::UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager;
 
   /// @brief Field m_cachedDiagnosticInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_cachedDiagnosticInfo,
-                      put = __set_m_cachedDiagnosticInfo))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>* m_cachedDiagnosticInfo;
+  __declspec(property(
+      get = __cordl_internal_get_m_cachedDiagnosticInfo,
+      put = __cordl_internal_set_m_cachedDiagnosticInfo))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>* m_cachedDiagnosticInfo;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
@@ -53,18 +54,18 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceManager*& __get_m_ResourceManager();
+  constexpr ::UnityEngine::ResourceManagement::ResourceManager*& __cordl_internal_get_m_ResourceManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceManager*> const& __get_m_ResourceManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::ResourceManager*> const& __cordl_internal_get_m_ResourceManager() const;
 
-  constexpr void __set_m_ResourceManager(::UnityEngine::ResourceManagement::ResourceManager* value);
+  constexpr void __cordl_internal_set_m_ResourceManager(::UnityEngine::ResourceManagement::ResourceManager* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>*& __get_m_cachedDiagnosticInfo();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>*& __cordl_internal_get_m_cachedDiagnosticInfo();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>*> const&
-  __get_m_cachedDiagnosticInfo() const;
+  __cordl_internal_get_m_cachedDiagnosticInfo() const;
 
-  constexpr void __set_m_cachedDiagnosticInfo(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>* value);
+  constexpr void __cordl_internal_set_m_cachedDiagnosticInfo(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::AddressableAssets::Utility::DiagnosticInfo*>* value);
 
   static inline ::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics* New_ctor(::UnityEngine::ResourceManagement::ResourceManager* resourceManager);
 

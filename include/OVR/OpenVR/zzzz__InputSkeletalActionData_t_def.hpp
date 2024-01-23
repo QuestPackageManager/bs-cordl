@@ -15,7 +15,7 @@ MARK_VAL_T(::OVR::OpenVR::InputSkeletalActionData_t);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8723))
 // CS Name: ::OVR.OpenVR::InputSkeletalActionData_t
 struct CORDL_TYPE InputSkeletalActionData_t {

@@ -40,23 +40,23 @@ namespace TMPro {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12343))
 // CS Name: ::TweenRunner`1::<Start>d__2<T>*
 class CORDL_TYPE __TweenRunner_1___Start_d__2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field tweenInfo, offset 0x20, size 0x8
-  __declspec(property(get = __get_tweenInfo, put = __set_tweenInfo)) T tweenInfo;
+  __declspec(property(get = __cordl_internal_get_tweenInfo, put = __cordl_internal_set_tweenInfo)) T tweenInfo;
 
   /// @brief Field <elapsedTime>5__2, offset 0x28, size 0x4
-  __declspec(property(get = __get__elapsedTime_5__2, put = __set__elapsedTime_5__2)) float_t _elapsedTime_5__2;
+  __declspec(property(get = __cordl_internal_get__elapsedTime_5__2, put = __cordl_internal_set__elapsedTime_5__2)) float_t _elapsedTime_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -80,29 +80,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr T& __get_tweenInfo();
+  constexpr T& __cordl_internal_get_tweenInfo();
 
-  constexpr T const& __get_tweenInfo() const;
+  constexpr T const& __cordl_internal_get_tweenInfo() const;
 
-  constexpr void __set_tweenInfo(T value);
+  constexpr void __cordl_internal_set_tweenInfo(T value);
 
-  constexpr float_t& __get__elapsedTime_5__2();
+  constexpr float_t& __cordl_internal_get__elapsedTime_5__2();
 
-  constexpr float_t const& __get__elapsedTime_5__2() const;
+  constexpr float_t const& __cordl_internal_get__elapsedTime_5__2() const;
 
-  constexpr void __set__elapsedTime_5__2(float_t value);
+  constexpr void __cordl_internal_set__elapsedTime_5__2(float_t value);
 
   static inline ::TMPro::__TweenRunner_1___Start_d__2<T>* New_ctor(int32_t __1__state);
 
@@ -160,7 +160,7 @@ namespace TMPro {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12344))
 // CS Name: ::TMPro::TweenRunner`1<T>*
 class CORDL_TYPE TweenRunner_1 : public ::System::Object {
@@ -169,22 +169,22 @@ public:
   using _Start_d__2 = ::TMPro::__TweenRunner_1___Start_d__2<T>;
 
   /// @brief Field m_CoroutineContainer, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_CoroutineContainer, put = __set_m_CoroutineContainer))::UnityEngine::MonoBehaviour* m_CoroutineContainer;
+  __declspec(property(get = __cordl_internal_get_m_CoroutineContainer, put = __cordl_internal_set_m_CoroutineContainer))::UnityW<::UnityEngine::MonoBehaviour> m_CoroutineContainer;
 
   /// @brief Field m_Tween, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Tween, put = __set_m_Tween))::System::Collections::IEnumerator* m_Tween;
+  __declspec(property(get = __cordl_internal_get_m_Tween, put = __cordl_internal_set_m_Tween))::System::Collections::IEnumerator* m_Tween;
 
-  constexpr ::UnityEngine::MonoBehaviour*& __get_m_CoroutineContainer();
+  constexpr ::UnityW<::UnityEngine::MonoBehaviour>& __cordl_internal_get_m_CoroutineContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MonoBehaviour*> const& __get_m_CoroutineContainer() const;
+  constexpr ::UnityW<::UnityEngine::MonoBehaviour> const& __cordl_internal_get_m_CoroutineContainer() const;
 
-  constexpr void __set_m_CoroutineContainer(::UnityEngine::MonoBehaviour* value);
+  constexpr void __cordl_internal_set_m_CoroutineContainer(::UnityW<::UnityEngine::MonoBehaviour> value);
 
-  constexpr ::System::Collections::IEnumerator*& __get_m_Tween();
+  constexpr ::System::Collections::IEnumerator*& __cordl_internal_get_m_Tween();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __get_m_Tween() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __cordl_internal_get_m_Tween() const;
 
-  constexpr void __set_m_Tween(::System::Collections::IEnumerator* value);
+  constexpr void __cordl_internal_set_m_Tween(::System::Collections::IEnumerator* value);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* Start(T tweenInfo);
@@ -218,7 +218,7 @@ protected:
 
 public:
   /// @brief Field m_CoroutineContainer, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::MonoBehaviour* ___m_CoroutineContainer;
+  ::UnityW<::UnityEngine::MonoBehaviour> ___m_CoroutineContainer;
 
   /// @brief Field m_Tween, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::IEnumerator* ___m_Tween;

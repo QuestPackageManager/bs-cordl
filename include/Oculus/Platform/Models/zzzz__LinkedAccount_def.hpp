@@ -17,38 +17,38 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::LinkedAccount);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13386))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13386))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13451))
 // CS Name: ::Oculus.Platform.Models::LinkedAccount*
 class CORDL_TYPE LinkedAccount : public ::System::Object {
 public:
   // Declarations
   /// @brief Field AccessToken, offset 0x10, size 0x8
-  __declspec(property(get = __get_AccessToken, put = __set_AccessToken))::StringW AccessToken;
+  __declspec(property(get = __cordl_internal_get_AccessToken, put = __cordl_internal_set_AccessToken))::StringW AccessToken;
 
   /// @brief Field ServiceProvider, offset 0x18, size 0x4
-  __declspec(property(get = __get_ServiceProvider, put = __set_ServiceProvider))::Oculus::Platform::ServiceProvider ServiceProvider;
+  __declspec(property(get = __cordl_internal_get_ServiceProvider, put = __cordl_internal_set_ServiceProvider))::Oculus::Platform::ServiceProvider ServiceProvider;
 
   /// @brief Field UserId, offset 0x20, size 0x8
-  __declspec(property(get = __get_UserId, put = __set_UserId))::StringW UserId;
+  __declspec(property(get = __cordl_internal_get_UserId, put = __cordl_internal_set_UserId))::StringW UserId;
 
-  constexpr ::StringW& __get_AccessToken();
+  constexpr ::StringW& __cordl_internal_get_AccessToken();
 
-  constexpr ::StringW const& __get_AccessToken() const;
+  constexpr ::StringW const& __cordl_internal_get_AccessToken() const;
 
-  constexpr void __set_AccessToken(::StringW value);
+  constexpr void __cordl_internal_set_AccessToken(::StringW value);
 
-  constexpr ::Oculus::Platform::ServiceProvider& __get_ServiceProvider();
+  constexpr ::Oculus::Platform::ServiceProvider& __cordl_internal_get_ServiceProvider();
 
-  constexpr ::Oculus::Platform::ServiceProvider const& __get_ServiceProvider() const;
+  constexpr ::Oculus::Platform::ServiceProvider const& __cordl_internal_get_ServiceProvider() const;
 
-  constexpr void __set_ServiceProvider(::Oculus::Platform::ServiceProvider value);
+  constexpr void __cordl_internal_set_ServiceProvider(::Oculus::Platform::ServiceProvider value);
 
-  constexpr ::StringW& __get_UserId();
+  constexpr ::StringW& __cordl_internal_get_UserId();
 
-  constexpr ::StringW const& __get_UserId() const;
+  constexpr ::StringW const& __cordl_internal_get_UserId() const;
 
-  constexpr void __set_UserId(::StringW value);
+  constexpr void __cordl_internal_set_UserId(::StringW value);
 
   static inline ::Oculus::Platform::Models::LinkedAccount* New_ctor(void* o);
 

@@ -13,7 +13,7 @@ MARK_REF_PTR_T(::Zenject::IGuiRenderable);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15704))
 // CS Name: ::Zenject::IGuiRenderable*
 class CORDL_TYPE IGuiRenderable {

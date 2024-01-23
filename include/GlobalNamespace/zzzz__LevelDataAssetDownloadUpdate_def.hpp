@@ -24,7 +24,7 @@ MARK_VAL_T(::GlobalNamespace::LevelDataAssetDownloadUpdate);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4414))
 // CS Name: ::LevelDataAssetDownloadUpdate::AssetDownloadingState
 struct CORDL_TYPE __LevelDataAssetDownloadUpdate__AssetDownloadingState {
@@ -78,7 +78,7 @@ static_assert(offsetof(::GlobalNamespace::__LevelDataAssetDownloadUpdate__AssetD
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4414))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4414))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4415))
 // CS Name: ::LevelDataAssetDownloadUpdate
 struct CORDL_TYPE LevelDataAssetDownloadUpdate {

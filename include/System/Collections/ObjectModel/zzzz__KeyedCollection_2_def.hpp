@@ -30,23 +30,23 @@ namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TItem>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3814), inst: 1020 }), TypeDefinitionIndex(TypeDefinitionIndex(3814))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3814)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3814), inst: 1020 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3816))
 // CS Name: ::System.Collections.ObjectModel::KeyedCollection`2<TKey,TItem>*
 class CORDL_TYPE KeyedCollection_2 : public ::System::Collections::ObjectModel::Collection_1<TItem> {
 public:
   // Declarations
   /// @brief Field comparer, offset 0x18, size 0x8
-  __declspec(property(get = __get_comparer, put = __set_comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer;
+  __declspec(property(get = __cordl_internal_get_comparer, put = __cordl_internal_set_comparer))::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer;
 
   /// @brief Field dict, offset 0x20, size 0x8
-  __declspec(property(get = __get_dict, put = __set_dict))::System::Collections::Generic::Dictionary_2<TKey, TItem>* dict;
+  __declspec(property(get = __cordl_internal_get_dict, put = __cordl_internal_set_dict))::System::Collections::Generic::Dictionary_2<TKey, TItem>* dict;
 
   /// @brief Field keyCount, offset 0x28, size 0x4
-  __declspec(property(get = __get_keyCount, put = __set_keyCount)) int32_t keyCount;
+  __declspec(property(get = __cordl_internal_get_keyCount, put = __cordl_internal_set_keyCount)) int32_t keyCount;
 
   /// @brief Field threshold, offset 0x2c, size 0x4
-  __declspec(property(get = __get_threshold, put = __set_threshold)) int32_t threshold;
+  __declspec(property(get = __cordl_internal_get_threshold, put = __cordl_internal_set_threshold)) int32_t threshold;
 
   __declspec(property(get = get_Items))::System::Collections::Generic::List_1<TItem>* Items;
 
@@ -54,29 +54,29 @@ public:
 
   __declspec(property(get = get_Dictionary))::System::Collections::Generic::IDictionary_2<TKey, TItem>* Dictionary;
 
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __get_comparer();
+  constexpr ::System::Collections::Generic::IEqualityComparer_1<TKey>*& __cordl_internal_get_comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& __get_comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEqualityComparer_1<TKey>*> const& __cordl_internal_get_comparer() const;
 
-  constexpr void __set_comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value);
+  constexpr void __cordl_internal_set_comparer(::System::Collections::Generic::IEqualityComparer_1<TKey>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TItem>*& __get_dict();
+  constexpr ::System::Collections::Generic::Dictionary_2<TKey, TItem>*& __cordl_internal_get_dict();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TItem>*> const& __get_dict() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<TKey, TItem>*> const& __cordl_internal_get_dict() const;
 
-  constexpr void __set_dict(::System::Collections::Generic::Dictionary_2<TKey, TItem>* value);
+  constexpr void __cordl_internal_set_dict(::System::Collections::Generic::Dictionary_2<TKey, TItem>* value);
 
-  constexpr int32_t& __get_keyCount();
+  constexpr int32_t& __cordl_internal_get_keyCount();
 
-  constexpr int32_t const& __get_keyCount() const;
+  constexpr int32_t const& __cordl_internal_get_keyCount() const;
 
-  constexpr void __set_keyCount(int32_t value);
+  constexpr void __cordl_internal_set_keyCount(int32_t value);
 
-  constexpr int32_t& __get_threshold();
+  constexpr int32_t& __cordl_internal_get_threshold();
 
-  constexpr int32_t const& __get_threshold() const;
+  constexpr int32_t const& __cordl_internal_get_threshold() const;
 
-  constexpr void __set_threshold(int32_t value);
+  constexpr void __cordl_internal_set_threshold(int32_t value);
 
   static inline ::System::Collections::ObjectModel::KeyedCollection_2<TKey, TItem>* New_ctor();
 

@@ -61,25 +61,25 @@ MARK_REF_PTR_T(::OVRSimpleJSON::__JSONArray___get_Children_d__22);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVRSimpleJSON {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1691 }), TypeDefinitionIndex(TypeDefinitionIndex(8204)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842))} Self: TypeDefinitionIndex(TypeDefinitionIndex(8205)) CS Name: ::JSONArray::<get_Children>d__22*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3842)), TypeDefinitionIndex(TypeDefinitionIndex(8204)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3842), inst: 1691 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(8205)) CS Name: ::JSONArray::<get_Children>d__22*
 class CORDL_TYPE __JSONArray___get_Children_d__22 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::OVRSimpleJSON::JSONNode* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::OVRSimpleJSON::JSONNode* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::OVRSimpleJSON::JSONArray* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::OVRSimpleJSON::JSONArray* __4__this;
 
   /// @brief Field <>7__wrap1, offset 0x30, size 0x18
-  __declspec(property(get = __get___7__wrap1, put = __set___7__wrap1))::System::Collections::Generic::__List_1__Enumerator<::OVRSimpleJSON::JSONNode*> __7__wrap1;
+  __declspec(property(get = __cordl_internal_get___7__wrap1, put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::__List_1__Enumerator<::OVRSimpleJSON::JSONNode*> __7__wrap1;
 
   __declspec(
       property(get = System_Collections_Generic_IEnumerator_OVRSimpleJSON_JSONNode__get_Current))::OVRSimpleJSON::JSONNode* System_Collections_Generic_IEnumerator_OVRSimpleJSON_JSONNode__Current;
@@ -116,35 +116,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::OVRSimpleJSON::JSONNode*& __get___2__current();
+  constexpr ::OVRSimpleJSON::JSONNode*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVRSimpleJSON::JSONNode*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVRSimpleJSON::JSONNode*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::OVRSimpleJSON::JSONNode* value);
+  constexpr void __cordl_internal_set___2__current(::OVRSimpleJSON::JSONNode* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::OVRSimpleJSON::JSONArray*& __get___4__this();
+  constexpr ::OVRSimpleJSON::JSONArray*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVRSimpleJSON::JSONArray*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVRSimpleJSON::JSONArray*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::OVRSimpleJSON::JSONArray* value);
+  constexpr void __cordl_internal_set___4__this(::OVRSimpleJSON::JSONArray* value);
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::OVRSimpleJSON::JSONNode*>& __get___7__wrap1();
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::OVRSimpleJSON::JSONNode*>& __cordl_internal_get___7__wrap1();
 
-  constexpr ::System::Collections::Generic::__List_1__Enumerator<::OVRSimpleJSON::JSONNode*> const& __get___7__wrap1() const;
+  constexpr ::System::Collections::Generic::__List_1__Enumerator<::OVRSimpleJSON::JSONNode*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr void __set___7__wrap1(::System::Collections::Generic::__List_1__Enumerator<::OVRSimpleJSON::JSONNode*> value);
+  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::__List_1__Enumerator<::OVRSimpleJSON::JSONNode*> value);
 
   static inline ::OVRSimpleJSON::__JSONArray___get_Children_d__22* New_ctor(int32_t __1__state);
 
@@ -224,7 +224,7 @@ static_assert(offsetof(::OVRSimpleJSON::__JSONArray___get_Children_d__22, _____7
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVRSimpleJSON {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8204))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8204))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8206))
 // CS Name: ::OVRSimpleJSON::JSONArray*
 class CORDL_TYPE JSONArray : public ::OVRSimpleJSON::JSONNode {
@@ -233,10 +233,10 @@ public:
   using _get_Children_d__22 = ::OVRSimpleJSON::__JSONArray___get_Children_d__22;
 
   /// @brief Field m_List, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_List, put = __set_m_List))::System::Collections::Generic::List_1<::OVRSimpleJSON::JSONNode*>* m_List;
+  __declspec(property(get = __cordl_internal_get_m_List, put = __cordl_internal_set_m_List))::System::Collections::Generic::List_1<::OVRSimpleJSON::JSONNode*>* m_List;
 
   /// @brief Field inline, offset 0x18, size 0x1
-  __declspec(property(get = __get__cordl_inline, put = __set__cordl_inline)) bool _cordl_inline;
+  __declspec(property(get = __cordl_internal_get__cordl_inline, put = __cordl_internal_set__cordl_inline)) bool _cordl_inline;
 
   __declspec(property(get = get_Inline, put = set_Inline)) bool Inline;
 
@@ -252,17 +252,17 @@ public:
 
   __declspec(property(get = get_Children))::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>* Children;
 
-  constexpr ::System::Collections::Generic::List_1<::OVRSimpleJSON::JSONNode*>*& __get_m_List();
+  constexpr ::System::Collections::Generic::List_1<::OVRSimpleJSON::JSONNode*>*& __cordl_internal_get_m_List();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::OVRSimpleJSON::JSONNode*>*> const& __get_m_List() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::OVRSimpleJSON::JSONNode*>*> const& __cordl_internal_get_m_List() const;
 
-  constexpr void __set_m_List(::System::Collections::Generic::List_1<::OVRSimpleJSON::JSONNode*>* value);
+  constexpr void __cordl_internal_set_m_List(::System::Collections::Generic::List_1<::OVRSimpleJSON::JSONNode*>* value);
 
-  constexpr bool& __get__cordl_inline();
+  constexpr bool& __cordl_internal_get__cordl_inline();
 
-  constexpr bool const& __get__cordl_inline() const;
+  constexpr bool const& __cordl_internal_get__cordl_inline() const;
 
-  constexpr void __set__cordl_inline(bool value);
+  constexpr void __cordl_internal_set__cordl_inline(bool value);
 
   /// @brief Method get_Inline, addr 0x27cbf34, size 0x8, virtual true, abstract: false, final false
   inline bool get_Inline();

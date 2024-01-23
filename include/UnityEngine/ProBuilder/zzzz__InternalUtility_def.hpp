@@ -48,20 +48,20 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::__InternalUtility____c__DisplayClass7_
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12130))
 // CS Name: ::InternalUtility::<>c__DisplayClass7_0*
 class CORDL_TYPE __InternalUtility____c__DisplayClass7_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field valid, offset 0x10, size 0x8
-  __declspec(property(get = __get_valid, put = __set_valid))::StringW valid;
+  __declspec(property(get = __cordl_internal_get_valid, put = __cordl_internal_set_valid))::StringW valid;
 
-  constexpr ::StringW& __get_valid();
+  constexpr ::StringW& __cordl_internal_get_valid();
 
-  constexpr ::StringW const& __get_valid() const;
+  constexpr ::StringW const& __cordl_internal_get_valid() const;
 
-  constexpr void __set_valid(::StringW value);
+  constexpr void __cordl_internal_set_valid(::StringW value);
 
   static inline ::UnityEngine::ProBuilder::__InternalUtility____c__DisplayClass7_0* New_ctor();
 
@@ -100,7 +100,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__InternalUtility____c__Displa
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12131))
 // CS Name: ::UnityEngine.ProBuilder::InternalUtility*
 class CORDL_TYPE InternalUtility : public ::System::Object {
@@ -109,19 +109,20 @@ public:
   using __c__DisplayClass7_0 = ::UnityEngine::ProBuilder::__InternalUtility____c__DisplayClass7_0;
 
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityEngine::GameObject*>* gameObjects);
+  template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* gameObjects);
 
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetComponents(::UnityEngine::GameObject* go);
 
   /// @brief Method GetComponents, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Transform*>* transforms);
+  template <typename T> static inline ::ArrayW<T, ::Array<T>*> GetComponents(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Transform>>* transforms);
 
   /// @brief Method EmptyGameObjectWithTransform, addr 0x2b45eec, size 0xe8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* EmptyGameObjectWithTransform(::UnityEngine::Transform* t);
+  static inline ::UnityW<::UnityEngine::GameObject> EmptyGameObjectWithTransform(::UnityEngine::Transform* t);
 
   /// @brief Method MeshGameObjectWithTransform, addr 0x2b45fd4, size 0x11c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GameObject* MeshGameObjectWithTransform(::StringW name, ::UnityEngine::Transform* t, ::UnityEngine::Mesh* mesh, ::UnityEngine::Material* mat, bool inheritParent);
+  static inline ::UnityW<::UnityEngine::GameObject> MeshGameObjectWithTransform(::StringW name, ::UnityEngine::Transform* t, ::UnityEngine::Mesh* mesh, ::UnityEngine::Material* mat,
+                                                                                bool inheritParent);
 
   /// @brief Method NextEnumValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T NextEnumValue(T current);

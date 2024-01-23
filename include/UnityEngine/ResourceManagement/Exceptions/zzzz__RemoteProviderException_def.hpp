@@ -24,25 +24,25 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Exceptions::RemoteProviderExce
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Exceptions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13964))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13964))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13965))
 // CS Name: ::UnityEngine.ResourceManagement.Exceptions::RemoteProviderException*
 class CORDL_TYPE RemoteProviderException : public ::UnityEngine::ResourceManagement::Exceptions::ProviderException {
 public:
   // Declarations
   /// @brief Field <WebRequestResult>k__BackingField, offset 0x98, size 0x8
-  __declspec(property(get = __get__WebRequestResult_k__BackingField,
-                      put = __set__WebRequestResult_k__BackingField))::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* _WebRequestResult_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__WebRequestResult_k__BackingField,
+                      put = __cordl_internal_set__WebRequestResult_k__BackingField))::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* _WebRequestResult_k__BackingField;
 
   __declspec(property(get = get_Message))::StringW Message;
 
   __declspec(property(get = get_WebRequestResult))::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* WebRequestResult;
 
-  constexpr ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*& __get__WebRequestResult_k__BackingField();
+  constexpr ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*& __cordl_internal_get__WebRequestResult_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*> const& __get__WebRequestResult_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*> const& __cordl_internal_get__WebRequestResult_k__BackingField() const;
 
-  constexpr void __set__WebRequestResult_k__BackingField(::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* value);
+  constexpr void __cordl_internal_set__WebRequestResult_k__BackingField(::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* value);
 
   static inline ::UnityEngine::ResourceManagement::Exceptions::RemoteProviderException* New_ctor(::StringW message, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                                                                                                  ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* uwrResult,

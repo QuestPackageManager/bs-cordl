@@ -59,22 +59,22 @@ namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6096)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6096), inst: 2555 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6096)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6096), inst: 2555 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6099))
 // CS Name: ::SimplePriorityQueue`2::SimpleNode<TItem,TPriority>*
 class CORDL_TYPE __SimplePriorityQueue_2__SimpleNode : public ::Priority_Queue::GenericPriorityQueueNode_1<TPriority> {
 public:
   // Declarations
   /// @brief Field <Data>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__Data_k__BackingField, put = __set__Data_k__BackingField)) TItem _Data_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Data_k__BackingField, put = __cordl_internal_set__Data_k__BackingField)) TItem _Data_k__BackingField;
 
   __declspec(property(get = get_Data, put = set_Data)) TItem Data;
 
-  constexpr TItem& __get__Data_k__BackingField();
+  constexpr TItem& __cordl_internal_get__Data_k__BackingField();
 
-  constexpr TItem const& __get__Data_k__BackingField() const;
+  constexpr TItem const& __cordl_internal_get__Data_k__BackingField() const;
 
-  constexpr void __set__Data_k__BackingField(TItem value);
+  constexpr void __cordl_internal_set__Data_k__BackingField(TItem value);
 
   /// @brief Method get_Data, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TItem get_Data();
@@ -114,7 +114,7 @@ namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6100))
 // CS Name: ::Priority_Queue::SimplePriorityQueue`2<TItem,TPriority>*
 class CORDL_TYPE SimplePriorityQueue_2 : public ::System::Object {
@@ -123,15 +123,16 @@ public:
   using SimpleNode = ::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>;
 
   /// @brief Field _queue, offset 0x10, size 0x8
-  __declspec(property(get = __get__queue, put = __set__queue))::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>* _queue;
+  __declspec(property(get = __cordl_internal_get__queue,
+                      put = __cordl_internal_set__queue))::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>* _queue;
 
   /// @brief Field _itemToNodesCache, offset 0x18, size 0x8
-  __declspec(property(get = __get__itemToNodesCache, put = __set__itemToNodesCache))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get__itemToNodesCache, put = __cordl_internal_set__itemToNodesCache))::System::Collections::Generic::Dictionary_2<
       TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*>* _itemToNodesCache;
 
   /// @brief Field _nullNodesCache, offset 0x20, size 0x8
-  __declspec(property(get = __get__nullNodesCache,
-                      put = __set__nullNodesCache))::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>* _nullNodesCache;
+  __declspec(property(get = __cordl_internal_get__nullNodesCache,
+                      put = __cordl_internal_set__nullNodesCache))::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>* _nullNodesCache;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -155,29 +156,29 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>*& __get__queue();
+  constexpr ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>*& __cordl_internal_get__queue();
 
   constexpr ::cordl_internals::to_const_pointer<::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>*> const&
-  __get__queue() const;
+  __cordl_internal_get__queue() const;
 
-  constexpr void __set__queue(::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>* value);
+  constexpr void __cordl_internal_set__queue(::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*, TPriority>* value);
 
   constexpr ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*>*&
-  __get__itemToNodesCache();
+  __cordl_internal_get__itemToNodesCache();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*>*> const&
-  __get__itemToNodesCache() const;
+  __cordl_internal_get__itemToNodesCache() const;
 
-  constexpr void __set__itemToNodesCache(
+  constexpr void __cordl_internal_set__itemToNodesCache(
       ::System::Collections::Generic::Dictionary_2<TItem, ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*>* value);
 
-  constexpr ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*& __get__nullNodesCache();
+  constexpr ::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*& __cordl_internal_get__nullNodesCache();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>*> const&
-  __get__nullNodesCache() const;
+  __cordl_internal_get__nullNodesCache() const;
 
-  constexpr void __set__nullNodesCache(::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>* value);
+  constexpr void __cordl_internal_set__nullNodesCache(::System::Collections::Generic::IList_1<::Priority_Queue::__SimplePriorityQueue_2__SimpleNode<TItem, TPriority>*>* value);
 
   static inline ::Priority_Queue::SimplePriorityQueue_2<TItem, TPriority>* New_ctor();
 

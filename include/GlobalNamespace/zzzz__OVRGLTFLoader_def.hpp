@@ -91,29 +91,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRGLTFLoader____c__DisplayClass30_0);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7566)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7566))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7570))
 // CS Name: ::OVRGLTFLoader::<>c__DisplayClass30_0*
 class CORDL_TYPE __OVRGLTFLoader____c__DisplayClass30_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::OVRGLTFLoader* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OVRGLTFLoader* __4__this;
 
   /// @brief Field matData, offset 0x18, size 0x40
-  __declspec(property(get = __get_matData, put = __set_matData))::GlobalNamespace::OVRMaterialData matData;
+  __declspec(property(get = __cordl_internal_get_matData, put = __cordl_internal_set_matData))::GlobalNamespace::OVRMaterialData matData;
 
-  constexpr ::GlobalNamespace::OVRGLTFLoader*& __get___4__this();
+  constexpr ::GlobalNamespace::OVRGLTFLoader*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRGLTFLoader*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRGLTFLoader*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::OVRGLTFLoader* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::OVRGLTFLoader* value);
 
-  constexpr ::GlobalNamespace::OVRMaterialData& __get_matData();
+  constexpr ::GlobalNamespace::OVRMaterialData& __cordl_internal_get_matData();
 
-  constexpr ::GlobalNamespace::OVRMaterialData const& __get_matData() const;
+  constexpr ::GlobalNamespace::OVRMaterialData const& __cordl_internal_get_matData() const;
 
-  constexpr void __set_matData(::GlobalNamespace::OVRMaterialData value);
+  constexpr void __cordl_internal_set_matData(::GlobalNamespace::OVRMaterialData value);
 
   static inline ::GlobalNamespace::__OVRGLTFLoader____c__DisplayClass30_0* New_ctor();
 
@@ -157,52 +157,54 @@ static_assert(offsetof(::GlobalNamespace::__OVRGLTFLoader____c__DisplayClass30_0
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7564)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(7563))} Self: TypeDefinitionIndex(TypeDefinitionIndex(7571)) CS Name: ::OVRGLTFLoader*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7563)), TypeDefinitionIndex(TypeDefinitionIndex(7564)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10246)), TypeDefinitionIndex(TypeDefinitionIndex(10249))] Self: TypeDefinitionIndex(TypeDefinitionIndex(7571)) CS Name: ::OVRGLTFLoader*
 class CORDL_TYPE OVRGLTFLoader : public ::System::Object {
 public:
   // Declarations
   using __c__DisplayClass30_0 = ::GlobalNamespace::__OVRGLTFLoader____c__DisplayClass30_0;
 
   /// @brief Field m_jsonData, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_jsonData, put = __set_m_jsonData))::OVRSimpleJSON::JSONNode* m_jsonData;
+  __declspec(property(get = __cordl_internal_get_m_jsonData, put = __cordl_internal_set_m_jsonData))::OVRSimpleJSON::JSONNode* m_jsonData;
 
   /// @brief Field m_glbStream, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_glbStream, put = __set_m_glbStream))::System::IO::Stream* m_glbStream;
+  __declspec(property(get = __cordl_internal_get_m_glbStream, put = __cordl_internal_set_m_glbStream))::System::IO::Stream* m_glbStream;
 
   /// @brief Field m_binaryChunk, offset 0x20, size 0x18
-  __declspec(property(get = __get_m_binaryChunk, put = __set_m_binaryChunk))::GlobalNamespace::OVRBinaryChunk m_binaryChunk;
+  __declspec(property(get = __cordl_internal_get_m_binaryChunk, put = __cordl_internal_set_m_binaryChunk))::GlobalNamespace::OVRBinaryChunk m_binaryChunk;
 
   /// @brief Field m_Nodes, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_Nodes, put = __set_m_Nodes))::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* m_Nodes;
+  __declspec(property(get = __cordl_internal_get_m_Nodes, put = __cordl_internal_set_m_Nodes))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* m_Nodes;
 
   /// @brief Field m_InputAnimationNodes, offset 0x40, size 0x8
-  __declspec(
-      property(get = __get_m_InputAnimationNodes,
-               put = __set_m_InputAnimationNodes))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* m_InputAnimationNodes;
+  __declspec(property(get = __cordl_internal_get_m_InputAnimationNodes,
+                      put = __cordl_internal_set_m_InputAnimationNodes))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode,
+                                                                                                                     ::GlobalNamespace::OVRGLTFAnimatinonNode*>* m_InputAnimationNodes;
 
   /// @brief Field m_AnimationLookup, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_AnimationLookup, put = __set_m_AnimationLookup))::System::Collections::Generic::Dictionary_2<
+  __declspec(property(get = __cordl_internal_get_m_AnimationLookup, put = __cordl_internal_set_m_AnimationLookup))::System::Collections::Generic::Dictionary_2<
       int32_t, ::ArrayW<::GlobalNamespace::OVRGLTFAnimatinonNode*, ::Array<::GlobalNamespace::OVRGLTFAnimatinonNode*>*>>* m_AnimationLookup;
 
   /// @brief Field m_morphTargetHandlers, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_morphTargetHandlers,
-                      put = __set_m_morphTargetHandlers))::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>* m_morphTargetHandlers;
+  __declspec(property(
+      get = __cordl_internal_get_m_morphTargetHandlers,
+      put = __cordl_internal_set_m_morphTargetHandlers))::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>* m_morphTargetHandlers;
 
   /// @brief Field m_Shader, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_Shader, put = __set_m_Shader))::UnityEngine::Shader* m_Shader;
+  __declspec(property(get = __cordl_internal_get_m_Shader, put = __cordl_internal_set_m_Shader))::UnityW<::UnityEngine::Shader> m_Shader;
 
   /// @brief Field m_AlphaBlendShader, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_AlphaBlendShader, put = __set_m_AlphaBlendShader))::UnityEngine::Shader* m_AlphaBlendShader;
+  __declspec(property(get = __cordl_internal_get_m_AlphaBlendShader, put = __cordl_internal_set_m_AlphaBlendShader))::UnityW<::UnityEngine::Shader> m_AlphaBlendShader;
 
   /// @brief Field m_TextureQuality, offset 0x68, size 0x4
-  __declspec(property(get = __get_m_TextureQuality, put = __set_m_TextureQuality))::GlobalNamespace::OVRTextureQualityFiltering m_TextureQuality;
+  __declspec(property(get = __cordl_internal_get_m_TextureQuality, put = __cordl_internal_set_m_TextureQuality))::GlobalNamespace::OVRTextureQualityFiltering m_TextureQuality;
 
   /// @brief Field m_TextureMipmapBias, offset 0x6c, size 0x4
-  __declspec(property(get = __get_m_TextureMipmapBias, put = __set_m_TextureMipmapBias)) float_t m_TextureMipmapBias;
+  __declspec(property(get = __cordl_internal_get_m_TextureMipmapBias, put = __cordl_internal_set_m_TextureMipmapBias)) float_t m_TextureMipmapBias;
 
   /// @brief Field textureUriHandler, offset 0x70, size 0x8
-  __declspec(property(get = __get_textureUriHandler, put = __set_textureUriHandler))::System::Func_3<::StringW, ::UnityEngine::Material*, ::UnityEngine::Texture2D*>* textureUriHandler;
+  __declspec(property(get = __cordl_internal_get_textureUriHandler,
+                      put = __cordl_internal_set_textureUriHandler))::System::Func_3<::StringW, ::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Texture2D>>* textureUriHandler;
 
   /// @brief Field GLTFToUnitySpace, offset 0xffffffff, size 0xc
   static __declspec(property(get = getStaticF_GLTFToUnitySpace, put = setStaticF_GLTFToUnitySpace))::UnityEngine::Vector3 GLTFToUnitySpace;
@@ -217,82 +219,84 @@ public:
   static __declspec(property(get = getStaticF_InputNodeNameMap,
                              put = setStaticF_InputNodeNameMap))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::OVRGLTFInputNode>* InputNodeNameMap;
 
-  constexpr ::OVRSimpleJSON::JSONNode*& __get_m_jsonData();
+  constexpr ::OVRSimpleJSON::JSONNode*& __cordl_internal_get_m_jsonData();
 
-  constexpr ::cordl_internals::to_const_pointer<::OVRSimpleJSON::JSONNode*> const& __get_m_jsonData() const;
+  constexpr ::cordl_internals::to_const_pointer<::OVRSimpleJSON::JSONNode*> const& __cordl_internal_get_m_jsonData() const;
 
-  constexpr void __set_m_jsonData(::OVRSimpleJSON::JSONNode* value);
+  constexpr void __cordl_internal_set_m_jsonData(::OVRSimpleJSON::JSONNode* value);
 
-  constexpr ::System::IO::Stream*& __get_m_glbStream();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_m_glbStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_m_glbStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_m_glbStream() const;
 
-  constexpr void __set_m_glbStream(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_m_glbStream(::System::IO::Stream* value);
 
-  constexpr ::GlobalNamespace::OVRBinaryChunk& __get_m_binaryChunk();
+  constexpr ::GlobalNamespace::OVRBinaryChunk& __cordl_internal_get_m_binaryChunk();
 
-  constexpr ::GlobalNamespace::OVRBinaryChunk const& __get_m_binaryChunk() const;
+  constexpr ::GlobalNamespace::OVRBinaryChunk const& __cordl_internal_get_m_binaryChunk() const;
 
-  constexpr void __set_m_binaryChunk(::GlobalNamespace::OVRBinaryChunk value);
+  constexpr void __cordl_internal_set_m_binaryChunk(::GlobalNamespace::OVRBinaryChunk value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*& __get_m_Nodes();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get_m_Nodes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::GameObject*>*> const& __get_m_Nodes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get_m_Nodes() const;
 
-  constexpr void __set_m_Nodes(::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* value);
+  constexpr void __cordl_internal_set_m_Nodes(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>*& __get_m_InputAnimationNodes();
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>*& __cordl_internal_get_m_InputAnimationNodes();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>*> const&
-  __get_m_InputAnimationNodes() const;
+  __cordl_internal_get_m_InputAnimationNodes() const;
 
-  constexpr void __set_m_InputAnimationNodes(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* value);
+  constexpr void __cordl_internal_set_m_InputAnimationNodes(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::ArrayW<::GlobalNamespace::OVRGLTFAnimatinonNode*, ::Array<::GlobalNamespace::OVRGLTFAnimatinonNode*>*>>*& __get_m_AnimationLookup();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::ArrayW<::GlobalNamespace::OVRGLTFAnimatinonNode*, ::Array<::GlobalNamespace::OVRGLTFAnimatinonNode*>*>>*&
+  __cordl_internal_get_m_AnimationLookup();
 
   constexpr ::cordl_internals::to_const_pointer<
       ::System::Collections::Generic::Dictionary_2<int32_t, ::ArrayW<::GlobalNamespace::OVRGLTFAnimatinonNode*, ::Array<::GlobalNamespace::OVRGLTFAnimatinonNode*>*>>*> const&
-  __get_m_AnimationLookup() const;
+  __cordl_internal_get_m_AnimationLookup() const;
 
-  constexpr void
-  __set_m_AnimationLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::ArrayW<::GlobalNamespace::OVRGLTFAnimatinonNode*, ::Array<::GlobalNamespace::OVRGLTFAnimatinonNode*>*>>* value);
+  constexpr void __cordl_internal_set_m_AnimationLookup(
+      ::System::Collections::Generic::Dictionary_2<int32_t, ::ArrayW<::GlobalNamespace::OVRGLTFAnimatinonNode*, ::Array<::GlobalNamespace::OVRGLTFAnimatinonNode*>*>>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>*& __get_m_morphTargetHandlers();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>*& __cordl_internal_get_m_morphTargetHandlers();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>*> const&
-  __get_m_morphTargetHandlers() const;
+  __cordl_internal_get_m_morphTargetHandlers() const;
 
-  constexpr void __set_m_morphTargetHandlers(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>* value);
+  constexpr void __cordl_internal_set_m_morphTargetHandlers(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>* value);
 
-  constexpr ::UnityEngine::Shader*& __get_m_Shader();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_m_Shader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get_m_Shader() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_Shader() const;
 
-  constexpr void __set_m_Shader(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set_m_Shader(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr ::UnityEngine::Shader*& __get_m_AlphaBlendShader();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_m_AlphaBlendShader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get_m_AlphaBlendShader() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_AlphaBlendShader() const;
 
-  constexpr void __set_m_AlphaBlendShader(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set_m_AlphaBlendShader(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr ::GlobalNamespace::OVRTextureQualityFiltering& __get_m_TextureQuality();
+  constexpr ::GlobalNamespace::OVRTextureQualityFiltering& __cordl_internal_get_m_TextureQuality();
 
-  constexpr ::GlobalNamespace::OVRTextureQualityFiltering const& __get_m_TextureQuality() const;
+  constexpr ::GlobalNamespace::OVRTextureQualityFiltering const& __cordl_internal_get_m_TextureQuality() const;
 
-  constexpr void __set_m_TextureQuality(::GlobalNamespace::OVRTextureQualityFiltering value);
+  constexpr void __cordl_internal_set_m_TextureQuality(::GlobalNamespace::OVRTextureQualityFiltering value);
 
-  constexpr float_t& __get_m_TextureMipmapBias();
+  constexpr float_t& __cordl_internal_get_m_TextureMipmapBias();
 
-  constexpr float_t const& __get_m_TextureMipmapBias() const;
+  constexpr float_t const& __cordl_internal_get_m_TextureMipmapBias() const;
 
-  constexpr void __set_m_TextureMipmapBias(float_t value);
+  constexpr void __cordl_internal_set_m_TextureMipmapBias(float_t value);
 
-  constexpr ::System::Func_3<::StringW, ::UnityEngine::Material*, ::UnityEngine::Texture2D*>*& __get_textureUriHandler();
+  constexpr ::System::Func_3<::StringW, ::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Texture2D>>*& __cordl_internal_get_textureUriHandler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::StringW, ::UnityEngine::Material*, ::UnityEngine::Texture2D*>*> const& __get_textureUriHandler() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::StringW, ::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Texture2D>>*> const&
+  __cordl_internal_get_textureUriHandler() const;
 
-  constexpr void __set_textureUriHandler(::System::Func_3<::StringW, ::UnityEngine::Material*, ::UnityEngine::Texture2D*>* value);
+  constexpr void __cordl_internal_set_textureUriHandler(::System::Func_3<::StringW, ::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Texture2D>>* value);
 
   static inline void setStaticF_GLTFToUnitySpace(::UnityEngine::Vector3 value);
 
@@ -378,7 +382,7 @@ public:
   inline void TranscodeTexture(ByRef<::GlobalNamespace::OVRTextureData> textureData);
 
   /// @brief Method CreateUnityMaterial, addr 0x2727058, size 0x274, virtual false, abstract: false, final false
-  inline ::UnityEngine::Material* CreateUnityMaterial(::GlobalNamespace::OVRMaterialData matData, bool loadMips);
+  inline ::UnityW<::UnityEngine::Material> CreateUnityMaterial(::GlobalNamespace::OVRMaterialData matData, bool loadMips);
 
   /// @brief Method GetInputNodeType, addr 0x2727380, size 0x1c4, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRGLTFInputNode GetInputNodeType(::StringW name);
@@ -410,7 +414,7 @@ public:
   ::GlobalNamespace::OVRBinaryChunk ___m_binaryChunk;
 
   /// @brief Field m_Nodes, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::GameObject*>* ___m_Nodes;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* ___m_Nodes;
 
   /// @brief Field m_InputAnimationNodes, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* ___m_InputAnimationNodes;
@@ -422,10 +426,10 @@ public:
   ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::OVRGLTFAnimationNodeMorphTargetHandler*>* ___m_morphTargetHandlers;
 
   /// @brief Field m_Shader, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::Shader* ___m_Shader;
+  ::UnityW<::UnityEngine::Shader> ___m_Shader;
 
   /// @brief Field m_AlphaBlendShader, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::Shader* ___m_AlphaBlendShader;
+  ::UnityW<::UnityEngine::Shader> ___m_AlphaBlendShader;
 
   /// @brief Field m_TextureQuality, offset: 0x68, size: 0x4, def value: None
   ::GlobalNamespace::OVRTextureQualityFiltering ___m_TextureQuality;
@@ -434,7 +438,7 @@ public:
   float_t ___m_TextureMipmapBias;
 
   /// @brief Field textureUriHandler, offset: 0x70, size: 0x8, def value: None
-  ::System::Func_3<::StringW, ::UnityEngine::Material*, ::UnityEngine::Texture2D*>* ___textureUriHandler;
+  ::System::Func_3<::StringW, ::UnityW<::UnityEngine::Material>, ::UnityW<::UnityEngine::Texture2D>>* ___textureUriHandler;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

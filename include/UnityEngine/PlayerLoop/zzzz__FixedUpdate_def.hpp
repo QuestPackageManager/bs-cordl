@@ -105,7 +105,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__FixedUpdate__XRFixedUpdate);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10517))
 // CS Name: ::FixedUpdate::ClearLines
 #pragma pack(push, 0)
@@ -133,7 +133,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10518))
 // CS Name: ::FixedUpdate::DirectorFixedSampleTime
 #pragma pack(push, 0)
@@ -161,7 +161,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10519))
 // CS Name: ::FixedUpdate::AudioFixedUpdate
 #pragma pack(push, 0)
@@ -189,7 +189,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10520))
 // CS Name: ::FixedUpdate::ScriptRunBehaviourFixedUpdate
 #pragma pack(push, 0)
@@ -217,7 +217,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10521))
 // CS Name: ::FixedUpdate::DirectorFixedUpdate
 #pragma pack(push, 0)
@@ -245,7 +245,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10522))
 // CS Name: ::FixedUpdate::LegacyFixedAnimationUpdate
 #pragma pack(push, 0)
@@ -273,7 +273,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10523))
 // CS Name: ::FixedUpdate::XRFixedUpdate
 #pragma pack(push, 0)
@@ -301,7 +301,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10524))
 // CS Name: ::FixedUpdate::PhysicsFixedUpdate
 #pragma pack(push, 0)
@@ -329,7 +329,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10525))
 // CS Name: ::FixedUpdate::Physics2DFixedUpdate
 #pragma pack(push, 0)
@@ -357,7 +357,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10526))
 // CS Name: ::FixedUpdate::PhysicsClothFixedUpdate
 #pragma pack(push, 0)
@@ -385,7 +385,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10527))
 // CS Name: ::FixedUpdate::DirectorFixedUpdatePostPhysics
 #pragma pack(push, 0)
@@ -413,7 +413,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10528))
 // CS Name: ::FixedUpdate::ScriptRunDelayedFixedFrameRate
 #pragma pack(push, 0)
@@ -441,7 +441,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10529))
 // CS Name: ::FixedUpdate::NewInputFixedUpdate
 #pragma pack(push, 0)
@@ -469,7 +469,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__Fixed
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10530))
 // CS Name: ::UnityEngine.PlayerLoop::FixedUpdate
 #pragma pack(push, 0)

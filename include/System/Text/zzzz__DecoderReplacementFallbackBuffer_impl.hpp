@@ -10,10 +10,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x2632850;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::DecoderReplacementFallbackBuffer*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::DecoderReplacementFallback*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::DecoderReplacementFallbackBuffer*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::DecoderReplacementFallback*>::get() })));
     return ___internal_method;
   }
 };
@@ -25,7 +25,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x44;
   constexpr static std::size_t addrs = 0x2632948;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::DecoderReplacementFallbackBuffer*>::get(),
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x50;
   constexpr static std::size_t addrs = 0x263298c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::DecoderReplacementFallbackBuffer*>::get(),
@@ -57,7 +57,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x26329dc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::DecoderReplacementFallbackBuffer*>::get(),
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x26329e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::DecoderReplacementFallbackBuffer*>::get(),
@@ -89,7 +89,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1c;
   constexpr static std::size_t addrs = 0x26329f8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::DecoderReplacementFallbackBuffer*>::get(),
@@ -97,49 +97,49 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Text::DecoderReplacementFallbackBuffer::__get__strDefault() {
+constexpr ::StringW& System::Text::DecoderReplacementFallbackBuffer::__cordl_internal_get__strDefault() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strDefault;
 }
-constexpr ::StringW const& System::Text::DecoderReplacementFallbackBuffer::__get__strDefault() const {
+constexpr ::StringW const& System::Text::DecoderReplacementFallbackBuffer::__cordl_internal_get__strDefault() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____strDefault;
 }
-constexpr void System::Text::DecoderReplacementFallbackBuffer::__set__strDefault(::StringW value) {
+constexpr void System::Text::DecoderReplacementFallbackBuffer::__cordl_internal_set__strDefault(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____strDefault)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& System::Text::DecoderReplacementFallbackBuffer::__get__fallbackCount() {
+constexpr int32_t& System::Text::DecoderReplacementFallbackBuffer::__cordl_internal_get__fallbackCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fallbackCount;
 }
-constexpr int32_t const& System::Text::DecoderReplacementFallbackBuffer::__get__fallbackCount() const {
+constexpr int32_t const& System::Text::DecoderReplacementFallbackBuffer::__cordl_internal_get__fallbackCount() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fallbackCount;
 }
-constexpr void System::Text::DecoderReplacementFallbackBuffer::__set__fallbackCount(int32_t value) {
+constexpr void System::Text::DecoderReplacementFallbackBuffer::__cordl_internal_set__fallbackCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fallbackCount = value;
 }
-constexpr int32_t& System::Text::DecoderReplacementFallbackBuffer::__get__fallbackIndex() {
+constexpr int32_t& System::Text::DecoderReplacementFallbackBuffer::__cordl_internal_get__fallbackIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fallbackIndex;
 }
-constexpr int32_t const& System::Text::DecoderReplacementFallbackBuffer::__get__fallbackIndex() const {
+constexpr int32_t const& System::Text::DecoderReplacementFallbackBuffer::__cordl_internal_get__fallbackIndex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fallbackIndex;
 }
-constexpr void System::Text::DecoderReplacementFallbackBuffer::__set__fallbackIndex(int32_t value) {
+constexpr void System::Text::DecoderReplacementFallbackBuffer::__cordl_internal_set__fallbackIndex(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____fallbackIndex = value;
 }
 inline ::System::Text::DecoderReplacementFallbackBuffer* System::Text::DecoderReplacementFallbackBuffer::New_ctor(::System::Text::DecoderReplacementFallback* fallback) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Text::DecoderReplacementFallbackBuffer*>(fallback));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Text::DecoderReplacementFallbackBuffer*>(fallback));
 }
 inline void System::Text::DecoderReplacementFallbackBuffer::_ctor(::System::Text::DecoderReplacementFallback* fallback) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::DecoderReplacementFallbackBuffer*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::DecoderReplacementFallback*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::DecoderReplacementFallbackBuffer*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::DecoderReplacementFallback*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, fallback);
 }
 inline bool System::Text::DecoderReplacementFallbackBuffer::Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index) {

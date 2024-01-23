@@ -22,29 +22,29 @@ MARK_REF_PTR_T(::RootMotion::TQ);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12473))
 // CS Name: ::RootMotion::TQ*
 class CORDL_TYPE TQ : public ::System::Object {
 public:
   // Declarations
   /// @brief Field t, offset 0x10, size 0xc
-  __declspec(property(get = __get_t, put = __set_t))::UnityEngine::Vector3 t;
+  __declspec(property(get = __cordl_internal_get_t, put = __cordl_internal_set_t))::UnityEngine::Vector3 t;
 
   /// @brief Field q, offset 0x1c, size 0x10
-  __declspec(property(get = __get_q, put = __set_q))::UnityEngine::Quaternion q;
+  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::UnityEngine::Quaternion q;
 
-  constexpr ::UnityEngine::Vector3& __get_t();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_t();
 
-  constexpr ::UnityEngine::Vector3 const& __get_t() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_t() const;
 
-  constexpr void __set_t(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_t(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_q();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_q();
 
-  constexpr ::UnityEngine::Quaternion const& __get_q() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_q() const;
 
-  constexpr void __set_q(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_q(::UnityEngine::Quaternion value);
 
   static inline ::RootMotion::TQ* New_ctor(::UnityEngine::Vector3 translation, ::UnityEngine::Quaternion rotation);
 

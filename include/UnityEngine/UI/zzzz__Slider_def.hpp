@@ -78,7 +78,7 @@ MARK_REF_PTR_T(::UnityEngine::UI::__Slider__SliderEvent);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13121))
 // CS Name: ::Slider::Direction
 struct CORDL_TYPE __Slider__Direction {
@@ -136,7 +136,7 @@ static_assert(offsetof(::UnityEngine::UI::__Slider__Direction, value__) == 0x0, 
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 391 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10465)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10465), inst: 391 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13122))
 // CS Name: ::Slider::SliderEvent*
 class CORDL_TYPE __Slider__SliderEvent : public ::UnityEngine::Events::UnityEvent_1<float_t> {
@@ -171,7 +171,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::__Slider__Slide
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13123))
 // CS Name: ::Slider::Axis
 struct CORDL_TYPE __Slider__Axis {
@@ -221,8 +221,8 @@ static_assert(offsetof(::UnityEngine::UI::__Slider__Axis, value__) == 0x0, "Offs
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 346, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13119)), TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13121)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10243))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13124)) CS Name: ::UnityEngine.UI::Slider*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10278)), TypeDefinitionIndex(TypeDefinitionIndex(13119)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13121))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13124)) CS Name: ::UnityEngine.UI::Slider*
 class CORDL_TYPE Slider : public ::UnityEngine::UI::Selectable {
 public:
   // Declarations
@@ -233,56 +233,56 @@ public:
   using Direction = ::UnityEngine::UI::__Slider__Direction;
 
   /// @brief Field m_FillRect, offset 0xf8, size 0x8
-  __declspec(property(get = __get_m_FillRect, put = __set_m_FillRect))::UnityEngine::RectTransform* m_FillRect;
+  __declspec(property(get = __cordl_internal_get_m_FillRect, put = __cordl_internal_set_m_FillRect))::UnityW<::UnityEngine::RectTransform> m_FillRect;
 
   /// @brief Field m_HandleRect, offset 0x100, size 0x8
-  __declspec(property(get = __get_m_HandleRect, put = __set_m_HandleRect))::UnityEngine::RectTransform* m_HandleRect;
+  __declspec(property(get = __cordl_internal_get_m_HandleRect, put = __cordl_internal_set_m_HandleRect))::UnityW<::UnityEngine::RectTransform> m_HandleRect;
 
   /// @brief Field m_Direction, offset 0x108, size 0x4
-  __declspec(property(get = __get_m_Direction, put = __set_m_Direction))::UnityEngine::UI::__Slider__Direction m_Direction;
+  __declspec(property(get = __cordl_internal_get_m_Direction, put = __cordl_internal_set_m_Direction))::UnityEngine::UI::__Slider__Direction m_Direction;
 
   /// @brief Field m_MinValue, offset 0x10c, size 0x4
-  __declspec(property(get = __get_m_MinValue, put = __set_m_MinValue)) float_t m_MinValue;
+  __declspec(property(get = __cordl_internal_get_m_MinValue, put = __cordl_internal_set_m_MinValue)) float_t m_MinValue;
 
   /// @brief Field m_MaxValue, offset 0x110, size 0x4
-  __declspec(property(get = __get_m_MaxValue, put = __set_m_MaxValue)) float_t m_MaxValue;
+  __declspec(property(get = __cordl_internal_get_m_MaxValue, put = __cordl_internal_set_m_MaxValue)) float_t m_MaxValue;
 
   /// @brief Field m_WholeNumbers, offset 0x114, size 0x1
-  __declspec(property(get = __get_m_WholeNumbers, put = __set_m_WholeNumbers)) bool m_WholeNumbers;
+  __declspec(property(get = __cordl_internal_get_m_WholeNumbers, put = __cordl_internal_set_m_WholeNumbers)) bool m_WholeNumbers;
 
   /// @brief Field m_Value, offset 0x118, size 0x4
-  __declspec(property(get = __get_m_Value, put = __set_m_Value)) float_t m_Value;
+  __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) float_t m_Value;
 
   /// @brief Field m_OnValueChanged, offset 0x120, size 0x8
-  __declspec(property(get = __get_m_OnValueChanged, put = __set_m_OnValueChanged))::UnityEngine::UI::__Slider__SliderEvent* m_OnValueChanged;
+  __declspec(property(get = __cordl_internal_get_m_OnValueChanged, put = __cordl_internal_set_m_OnValueChanged))::UnityEngine::UI::__Slider__SliderEvent* m_OnValueChanged;
 
   /// @brief Field m_FillImage, offset 0x128, size 0x8
-  __declspec(property(get = __get_m_FillImage, put = __set_m_FillImage))::UnityEngine::UI::Image* m_FillImage;
+  __declspec(property(get = __cordl_internal_get_m_FillImage, put = __cordl_internal_set_m_FillImage))::UnityW<::UnityEngine::UI::Image> m_FillImage;
 
   /// @brief Field m_FillTransform, offset 0x130, size 0x8
-  __declspec(property(get = __get_m_FillTransform, put = __set_m_FillTransform))::UnityEngine::Transform* m_FillTransform;
+  __declspec(property(get = __cordl_internal_get_m_FillTransform, put = __cordl_internal_set_m_FillTransform))::UnityW<::UnityEngine::Transform> m_FillTransform;
 
   /// @brief Field m_FillContainerRect, offset 0x138, size 0x8
-  __declspec(property(get = __get_m_FillContainerRect, put = __set_m_FillContainerRect))::UnityEngine::RectTransform* m_FillContainerRect;
+  __declspec(property(get = __cordl_internal_get_m_FillContainerRect, put = __cordl_internal_set_m_FillContainerRect))::UnityW<::UnityEngine::RectTransform> m_FillContainerRect;
 
   /// @brief Field m_HandleTransform, offset 0x140, size 0x8
-  __declspec(property(get = __get_m_HandleTransform, put = __set_m_HandleTransform))::UnityEngine::Transform* m_HandleTransform;
+  __declspec(property(get = __cordl_internal_get_m_HandleTransform, put = __cordl_internal_set_m_HandleTransform))::UnityW<::UnityEngine::Transform> m_HandleTransform;
 
   /// @brief Field m_HandleContainerRect, offset 0x148, size 0x8
-  __declspec(property(get = __get_m_HandleContainerRect, put = __set_m_HandleContainerRect))::UnityEngine::RectTransform* m_HandleContainerRect;
+  __declspec(property(get = __cordl_internal_get_m_HandleContainerRect, put = __cordl_internal_set_m_HandleContainerRect))::UnityW<::UnityEngine::RectTransform> m_HandleContainerRect;
 
   /// @brief Field m_Offset, offset 0x150, size 0x8
-  __declspec(property(get = __get_m_Offset, put = __set_m_Offset))::UnityEngine::Vector2 m_Offset;
+  __declspec(property(get = __cordl_internal_get_m_Offset, put = __cordl_internal_set_m_Offset))::UnityEngine::Vector2 m_Offset;
 
   /// @brief Field m_Tracker, offset 0x158, size 0x1
-  __declspec(property(get = __get_m_Tracker, put = __set_m_Tracker))::UnityEngine::DrivenRectTransformTracker m_Tracker;
+  __declspec(property(get = __cordl_internal_get_m_Tracker, put = __cordl_internal_set_m_Tracker))::UnityEngine::DrivenRectTransformTracker m_Tracker;
 
   /// @brief Field m_DelayedUpdateVisuals, offset 0x159, size 0x1
-  __declspec(property(get = __get_m_DelayedUpdateVisuals, put = __set_m_DelayedUpdateVisuals)) bool m_DelayedUpdateVisuals;
+  __declspec(property(get = __cordl_internal_get_m_DelayedUpdateVisuals, put = __cordl_internal_set_m_DelayedUpdateVisuals)) bool m_DelayedUpdateVisuals;
 
-  __declspec(property(get = get_fillRect, put = set_fillRect))::UnityEngine::RectTransform* fillRect;
+  __declspec(property(get = get_fillRect, put = set_fillRect))::UnityW<::UnityEngine::RectTransform> fillRect;
 
-  __declspec(property(get = get_handleRect, put = set_handleRect))::UnityEngine::RectTransform* handleRect;
+  __declspec(property(get = get_handleRect, put = set_handleRect))::UnityW<::UnityEngine::RectTransform> handleRect;
 
   __declspec(property(get = get_direction, put = set_direction))::UnityEngine::UI::__Slider__Direction direction;
 
@@ -328,110 +328,110 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
   constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
-  constexpr ::UnityEngine::RectTransform*& __get_m_FillRect();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_FillRect();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_FillRect() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_FillRect() const;
 
-  constexpr void __set_m_FillRect(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_m_FillRect(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get_m_HandleRect();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_HandleRect();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_HandleRect() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_HandleRect() const;
 
-  constexpr void __set_m_HandleRect(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_m_HandleRect(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::UI::__Slider__Direction& __get_m_Direction();
+  constexpr ::UnityEngine::UI::__Slider__Direction& __cordl_internal_get_m_Direction();
 
-  constexpr ::UnityEngine::UI::__Slider__Direction const& __get_m_Direction() const;
+  constexpr ::UnityEngine::UI::__Slider__Direction const& __cordl_internal_get_m_Direction() const;
 
-  constexpr void __set_m_Direction(::UnityEngine::UI::__Slider__Direction value);
+  constexpr void __cordl_internal_set_m_Direction(::UnityEngine::UI::__Slider__Direction value);
 
-  constexpr float_t& __get_m_MinValue();
+  constexpr float_t& __cordl_internal_get_m_MinValue();
 
-  constexpr float_t const& __get_m_MinValue() const;
+  constexpr float_t const& __cordl_internal_get_m_MinValue() const;
 
-  constexpr void __set_m_MinValue(float_t value);
+  constexpr void __cordl_internal_set_m_MinValue(float_t value);
 
-  constexpr float_t& __get_m_MaxValue();
+  constexpr float_t& __cordl_internal_get_m_MaxValue();
 
-  constexpr float_t const& __get_m_MaxValue() const;
+  constexpr float_t const& __cordl_internal_get_m_MaxValue() const;
 
-  constexpr void __set_m_MaxValue(float_t value);
+  constexpr void __cordl_internal_set_m_MaxValue(float_t value);
 
-  constexpr bool& __get_m_WholeNumbers();
+  constexpr bool& __cordl_internal_get_m_WholeNumbers();
 
-  constexpr bool const& __get_m_WholeNumbers() const;
+  constexpr bool const& __cordl_internal_get_m_WholeNumbers() const;
 
-  constexpr void __set_m_WholeNumbers(bool value);
+  constexpr void __cordl_internal_set_m_WholeNumbers(bool value);
 
-  constexpr float_t& __get_m_Value();
+  constexpr float_t& __cordl_internal_get_m_Value();
 
-  constexpr float_t const& __get_m_Value() const;
+  constexpr float_t const& __cordl_internal_get_m_Value() const;
 
-  constexpr void __set_m_Value(float_t value);
+  constexpr void __cordl_internal_set_m_Value(float_t value);
 
-  constexpr ::UnityEngine::UI::__Slider__SliderEvent*& __get_m_OnValueChanged();
+  constexpr ::UnityEngine::UI::__Slider__SliderEvent*& __cordl_internal_get_m_OnValueChanged();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__Slider__SliderEvent*> const& __get_m_OnValueChanged() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::__Slider__SliderEvent*> const& __cordl_internal_get_m_OnValueChanged() const;
 
-  constexpr void __set_m_OnValueChanged(::UnityEngine::UI::__Slider__SliderEvent* value);
+  constexpr void __cordl_internal_set_m_OnValueChanged(::UnityEngine::UI::__Slider__SliderEvent* value);
 
-  constexpr ::UnityEngine::UI::Image*& __get_m_FillImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get_m_FillImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get_m_FillImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get_m_FillImage() const;
 
-  constexpr void __set_m_FillImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set_m_FillImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::UnityEngine::Transform*& __get_m_FillTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_m_FillTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_m_FillTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_m_FillTransform() const;
 
-  constexpr void __set_m_FillTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_m_FillTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get_m_FillContainerRect();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_FillContainerRect();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_FillContainerRect() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_FillContainerRect() const;
 
-  constexpr void __set_m_FillContainerRect(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_m_FillContainerRect(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_m_HandleTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_m_HandleTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_m_HandleTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_m_HandleTransform() const;
 
-  constexpr void __set_m_HandleTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_m_HandleTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get_m_HandleContainerRect();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get_m_HandleContainerRect();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get_m_HandleContainerRect() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get_m_HandleContainerRect() const;
 
-  constexpr void __set_m_HandleContainerRect(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set_m_HandleContainerRect(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_Offset();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_Offset();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_Offset() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_Offset() const;
 
-  constexpr void __set_m_Offset(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_Offset(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::DrivenRectTransformTracker& __get_m_Tracker();
+  constexpr ::UnityEngine::DrivenRectTransformTracker& __cordl_internal_get_m_Tracker();
 
-  constexpr ::UnityEngine::DrivenRectTransformTracker const& __get_m_Tracker() const;
+  constexpr ::UnityEngine::DrivenRectTransformTracker const& __cordl_internal_get_m_Tracker() const;
 
-  constexpr void __set_m_Tracker(::UnityEngine::DrivenRectTransformTracker value);
+  constexpr void __cordl_internal_set_m_Tracker(::UnityEngine::DrivenRectTransformTracker value);
 
-  constexpr bool& __get_m_DelayedUpdateVisuals();
+  constexpr bool& __cordl_internal_get_m_DelayedUpdateVisuals();
 
-  constexpr bool const& __get_m_DelayedUpdateVisuals() const;
+  constexpr bool const& __cordl_internal_get_m_DelayedUpdateVisuals() const;
 
-  constexpr void __set_m_DelayedUpdateVisuals(bool value);
+  constexpr void __cordl_internal_set_m_DelayedUpdateVisuals(bool value);
 
   /// @brief Method get_fillRect, addr 0x2d882d4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::RectTransform* get_fillRect();
+  inline ::UnityW<::UnityEngine::RectTransform> get_fillRect();
 
   /// @brief Method set_fillRect, addr 0x2d882dc, size 0x7c, virtual false, abstract: false, final false
   inline void set_fillRect(::UnityEngine::RectTransform* value);
 
   /// @brief Method get_handleRect, addr 0x2d888e4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::RectTransform* get_handleRect();
+  inline ::UnityW<::UnityEngine::RectTransform> get_handleRect();
 
   /// @brief Method set_handleRect, addr 0x2d888ec, size 0x7c, virtual false, abstract: false, final false
   inline void set_handleRect(::UnityEngine::RectTransform* value);
@@ -547,16 +547,16 @@ public:
   inline void OnMove(::UnityEngine::EventSystems::AxisEventData* eventData);
 
   /// @brief Method FindSelectableOnLeft, addr 0x2d89a34, size 0x24, virtual true, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectableOnLeft();
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnLeft();
 
   /// @brief Method FindSelectableOnRight, addr 0x2d89a58, size 0x24, virtual true, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectableOnRight();
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnRight();
 
   /// @brief Method FindSelectableOnUp, addr 0x2d89a7c, size 0x24, virtual true, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectableOnUp();
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnUp();
 
   /// @brief Method FindSelectableOnDown, addr 0x2d89aa0, size 0x24, virtual true, abstract: false, final false
-  inline ::UnityEngine::UI::Selectable* FindSelectableOnDown();
+  inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnDown();
 
   /// @brief Method OnInitializePotentialDrag, addr 0x2d89ac4, size 0x18, virtual true, abstract: false, final false
   inline void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
@@ -565,7 +565,7 @@ public:
   inline void SetDirection(::UnityEngine::UI::__Slider__Direction direction, bool includeRectLayouts);
 
   /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x2d89c54, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::Transform* UnityEngine_UI_ICanvasElement_get_transform();
+  inline ::UnityW<::UnityEngine::Transform> UnityEngine_UI_ICanvasElement_get_transform();
 
   // Ctor Parameters [CppParam { name: "", ty: "Slider", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
@@ -582,10 +582,10 @@ protected:
 
 public:
   /// @brief Field m_FillRect, offset: 0xf8, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___m_FillRect;
+  ::UnityW<::UnityEngine::RectTransform> ___m_FillRect;
 
   /// @brief Field m_HandleRect, offset: 0x100, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___m_HandleRect;
+  ::UnityW<::UnityEngine::RectTransform> ___m_HandleRect;
 
   /// @brief Field m_Direction, offset: 0x108, size: 0x4, def value: None
   ::UnityEngine::UI::__Slider__Direction ___m_Direction;
@@ -606,19 +606,19 @@ public:
   ::UnityEngine::UI::__Slider__SliderEvent* ___m_OnValueChanged;
 
   /// @brief Field m_FillImage, offset: 0x128, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ___m_FillImage;
+  ::UnityW<::UnityEngine::UI::Image> ___m_FillImage;
 
   /// @brief Field m_FillTransform, offset: 0x130, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___m_FillTransform;
+  ::UnityW<::UnityEngine::Transform> ___m_FillTransform;
 
   /// @brief Field m_FillContainerRect, offset: 0x138, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___m_FillContainerRect;
+  ::UnityW<::UnityEngine::RectTransform> ___m_FillContainerRect;
 
   /// @brief Field m_HandleTransform, offset: 0x140, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___m_HandleTransform;
+  ::UnityW<::UnityEngine::Transform> ___m_HandleTransform;
 
   /// @brief Field m_HandleContainerRect, offset: 0x148, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ___m_HandleContainerRect;
+  ::UnityW<::UnityEngine::RectTransform> ___m_HandleContainerRect;
 
   /// @brief Field m_Offset, offset: 0x150, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_Offset;

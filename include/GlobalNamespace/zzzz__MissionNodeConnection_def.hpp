@@ -28,113 +28,113 @@ MARK_REF_PTR_T(::GlobalNamespace::MissionNodeConnection);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 89, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5544))
 // CS Name: ::MissionNodeConnection*
 class CORDL_TYPE MissionNodeConnection : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _separator, offset 0x18, size 0x4
-  __declspec(property(get = __get__separator, put = __set__separator)) float_t _separator;
+  __declspec(property(get = __cordl_internal_get__separator, put = __cordl_internal_set__separator)) float_t _separator;
 
   /// @brief Field _width, offset 0x1c, size 0x4
-  __declspec(property(get = __get__width, put = __set__width)) float_t _width;
+  __declspec(property(get = __cordl_internal_get__width, put = __cordl_internal_set__width)) float_t _width;
 
   /// @brief Field _rectTransform, offset 0x20, size 0x8
-  __declspec(property(get = __get__rectTransform, put = __set__rectTransform))::UnityEngine::RectTransform* _rectTransform;
+  __declspec(property(get = __cordl_internal_get__rectTransform, put = __cordl_internal_set__rectTransform))::UnityW<::UnityEngine::RectTransform> _rectTransform;
 
   /// @brief Field _image, offset 0x28, size 0x8
-  __declspec(property(get = __get__image, put = __set__image))::UnityEngine::UI::Image* _image;
+  __declspec(property(get = __cordl_internal_get__image, put = __cordl_internal_set__image))::UnityW<::UnityEngine::UI::Image> _image;
 
   /// @brief Field _parentMissionNode, offset 0x30, size 0x8
-  __declspec(property(get = __get__parentMissionNode, put = __set__parentMissionNode))::GlobalNamespace::MissionNodeVisualController* _parentMissionNode;
+  __declspec(property(get = __cordl_internal_get__parentMissionNode, put = __cordl_internal_set__parentMissionNode))::UnityW<::GlobalNamespace::MissionNodeVisualController> _parentMissionNode;
 
   /// @brief Field _childMissionNode, offset 0x38, size 0x8
-  __declspec(property(get = __get__childMissionNode, put = __set__childMissionNode))::GlobalNamespace::MissionNodeVisualController* _childMissionNode;
+  __declspec(property(get = __cordl_internal_get__childMissionNode, put = __cordl_internal_set__childMissionNode))::UnityW<::GlobalNamespace::MissionNodeVisualController> _childMissionNode;
 
   /// @brief Field _animator, offset 0x40, size 0x8
-  __declspec(property(get = __get__animator, put = __set__animator))::UnityEngine::Animator* _animator;
+  __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator))::UnityW<::UnityEngine::Animator> _animator;
 
   /// @brief Field _parentMissionNodePosition, offset 0x48, size 0x8
-  __declspec(property(get = __get__parentMissionNodePosition, put = __set__parentMissionNodePosition))::UnityEngine::Vector2 _parentMissionNodePosition;
+  __declspec(property(get = __cordl_internal_get__parentMissionNodePosition, put = __cordl_internal_set__parentMissionNodePosition))::UnityEngine::Vector2 _parentMissionNodePosition;
 
   /// @brief Field _childMissionNodePosition, offset 0x50, size 0x8
-  __declspec(property(get = __get__childMissionNodePosition, put = __set__childMissionNodePosition))::UnityEngine::Vector2 _childMissionNodePosition;
+  __declspec(property(get = __cordl_internal_get__childMissionNodePosition, put = __cordl_internal_set__childMissionNodePosition))::UnityEngine::Vector2 _childMissionNodePosition;
 
   /// @brief Field _isActive, offset 0x58, size 0x1
-  __declspec(property(get = __get__isActive, put = __set__isActive)) bool _isActive;
+  __declspec(property(get = __cordl_internal_get__isActive, put = __cordl_internal_set__isActive)) bool _isActive;
 
-  __declspec(property(get = get_parentMissionNode))::GlobalNamespace::MissionNodeVisualController* parentMissionNode;
+  __declspec(property(get = get_parentMissionNode))::UnityW<::GlobalNamespace::MissionNodeVisualController> parentMissionNode;
 
-  __declspec(property(get = get_childMissionNode))::GlobalNamespace::MissionNodeVisualController* childMissionNode;
+  __declspec(property(get = get_childMissionNode))::UnityW<::GlobalNamespace::MissionNodeVisualController> childMissionNode;
 
   __declspec(property(get = get_isActive)) bool isActive;
 
-  constexpr float_t& __get__separator();
+  constexpr float_t& __cordl_internal_get__separator();
 
-  constexpr float_t const& __get__separator() const;
+  constexpr float_t const& __cordl_internal_get__separator() const;
 
-  constexpr void __set__separator(float_t value);
+  constexpr void __cordl_internal_set__separator(float_t value);
 
-  constexpr float_t& __get__width();
+  constexpr float_t& __cordl_internal_get__width();
 
-  constexpr float_t const& __get__width() const;
+  constexpr float_t const& __cordl_internal_get__width() const;
 
-  constexpr void __set__width(float_t value);
+  constexpr void __cordl_internal_set__width(float_t value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__rectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__rectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
 
-  constexpr void __set__rectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__image();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__image();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__image() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__image() const;
 
-  constexpr void __set__image(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::GlobalNamespace::MissionNodeVisualController*& __get__parentMissionNode();
+  constexpr ::UnityW<::GlobalNamespace::MissionNodeVisualController>& __cordl_internal_get__parentMissionNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNodeVisualController*> const& __get__parentMissionNode() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionNodeVisualController> const& __cordl_internal_get__parentMissionNode() const;
 
-  constexpr void __set__parentMissionNode(::GlobalNamespace::MissionNodeVisualController* value);
+  constexpr void __cordl_internal_set__parentMissionNode(::UnityW<::GlobalNamespace::MissionNodeVisualController> value);
 
-  constexpr ::GlobalNamespace::MissionNodeVisualController*& __get__childMissionNode();
+  constexpr ::UnityW<::GlobalNamespace::MissionNodeVisualController>& __cordl_internal_get__childMissionNode();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionNodeVisualController*> const& __get__childMissionNode() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionNodeVisualController> const& __cordl_internal_get__childMissionNode() const;
 
-  constexpr void __set__childMissionNode(::GlobalNamespace::MissionNodeVisualController* value);
+  constexpr void __cordl_internal_set__childMissionNode(::UnityW<::GlobalNamespace::MissionNodeVisualController> value);
 
-  constexpr ::UnityEngine::Animator*& __get__animator();
+  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> const& __get__animator() const;
+  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
 
-  constexpr void __set__animator(::UnityEngine::Animator* value);
+  constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
-  constexpr ::UnityEngine::Vector2& __get__parentMissionNodePosition();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__parentMissionNodePosition();
 
-  constexpr ::UnityEngine::Vector2 const& __get__parentMissionNodePosition() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__parentMissionNodePosition() const;
 
-  constexpr void __set__parentMissionNodePosition(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__parentMissionNodePosition(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get__childMissionNodePosition();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__childMissionNodePosition();
 
-  constexpr ::UnityEngine::Vector2 const& __get__childMissionNodePosition() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__childMissionNodePosition() const;
 
-  constexpr void __set__childMissionNodePosition(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__childMissionNodePosition(::UnityEngine::Vector2 value);
 
-  constexpr bool& __get__isActive();
+  constexpr bool& __cordl_internal_get__isActive();
 
-  constexpr bool const& __get__isActive() const;
+  constexpr bool const& __cordl_internal_get__isActive() const;
 
-  constexpr void __set__isActive(bool value);
+  constexpr void __cordl_internal_set__isActive(bool value);
 
   /// @brief Method get_parentMissionNode, addr 0x22a05c0, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MissionNodeVisualController* get_parentMissionNode();
+  inline ::UnityW<::GlobalNamespace::MissionNodeVisualController> get_parentMissionNode();
 
   /// @brief Method get_childMissionNode, addr 0x22a05c8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::MissionNodeVisualController* get_childMissionNode();
+  inline ::UnityW<::GlobalNamespace::MissionNodeVisualController> get_childMissionNode();
 
   /// @brief Method get_isActive, addr 0x22a05d0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isActive();
@@ -177,19 +177,19 @@ public:
   float_t ____width;
 
   /// @brief Field _rectTransform, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____rectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ____rectTransform;
 
   /// @brief Field _image, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____image;
+  ::UnityW<::UnityEngine::UI::Image> ____image;
 
   /// @brief Field _parentMissionNode, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::MissionNodeVisualController* ____parentMissionNode;
+  ::UnityW<::GlobalNamespace::MissionNodeVisualController> ____parentMissionNode;
 
   /// @brief Field _childMissionNode, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::MissionNodeVisualController* ____childMissionNode;
+  ::UnityW<::GlobalNamespace::MissionNodeVisualController> ____childMissionNode;
 
   /// @brief Field _animator, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Animator* ____animator;
+  ::UnityW<::UnityEngine::Animator> ____animator;
 
   /// @brief Field _parentMissionNodePosition, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____parentMissionNodePosition;

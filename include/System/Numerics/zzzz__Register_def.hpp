@@ -16,605 +16,605 @@ MARK_VAL_T(::System::Numerics::Register);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: None }
 namespace System::Numerics {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3551))
 // CS Name: ::System.Numerics::Register
 struct CORDL_TYPE Register {
 public:
   // Declarations
   /// @brief Field byte_0, offset 0x0, size 0x1
-  __declspec(property(get = __get_byte_0, put = __set_byte_0)) uint8_t byte_0;
+  __declspec(property(get = __cordl_internal_get_byte_0, put = __cordl_internal_set_byte_0)) uint8_t byte_0;
 
   /// @brief Field byte_1, offset 0x1, size 0x1
-  __declspec(property(get = __get_byte_1, put = __set_byte_1)) uint8_t byte_1;
+  __declspec(property(get = __cordl_internal_get_byte_1, put = __cordl_internal_set_byte_1)) uint8_t byte_1;
 
   /// @brief Field byte_2, offset 0x2, size 0x1
-  __declspec(property(get = __get_byte_2, put = __set_byte_2)) uint8_t byte_2;
+  __declspec(property(get = __cordl_internal_get_byte_2, put = __cordl_internal_set_byte_2)) uint8_t byte_2;
 
   /// @brief Field byte_3, offset 0x3, size 0x1
-  __declspec(property(get = __get_byte_3, put = __set_byte_3)) uint8_t byte_3;
+  __declspec(property(get = __cordl_internal_get_byte_3, put = __cordl_internal_set_byte_3)) uint8_t byte_3;
 
   /// @brief Field byte_4, offset 0x4, size 0x1
-  __declspec(property(get = __get_byte_4, put = __set_byte_4)) uint8_t byte_4;
+  __declspec(property(get = __cordl_internal_get_byte_4, put = __cordl_internal_set_byte_4)) uint8_t byte_4;
 
   /// @brief Field byte_5, offset 0x5, size 0x1
-  __declspec(property(get = __get_byte_5, put = __set_byte_5)) uint8_t byte_5;
+  __declspec(property(get = __cordl_internal_get_byte_5, put = __cordl_internal_set_byte_5)) uint8_t byte_5;
 
   /// @brief Field byte_6, offset 0x6, size 0x1
-  __declspec(property(get = __get_byte_6, put = __set_byte_6)) uint8_t byte_6;
+  __declspec(property(get = __cordl_internal_get_byte_6, put = __cordl_internal_set_byte_6)) uint8_t byte_6;
 
   /// @brief Field byte_7, offset 0x7, size 0x1
-  __declspec(property(get = __get_byte_7, put = __set_byte_7)) uint8_t byte_7;
+  __declspec(property(get = __cordl_internal_get_byte_7, put = __cordl_internal_set_byte_7)) uint8_t byte_7;
 
   /// @brief Field byte_8, offset 0x8, size 0x1
-  __declspec(property(get = __get_byte_8, put = __set_byte_8)) uint8_t byte_8;
+  __declspec(property(get = __cordl_internal_get_byte_8, put = __cordl_internal_set_byte_8)) uint8_t byte_8;
 
   /// @brief Field byte_9, offset 0x9, size 0x1
-  __declspec(property(get = __get_byte_9, put = __set_byte_9)) uint8_t byte_9;
+  __declspec(property(get = __cordl_internal_get_byte_9, put = __cordl_internal_set_byte_9)) uint8_t byte_9;
 
   /// @brief Field byte_10, offset 0xa, size 0x1
-  __declspec(property(get = __get_byte_10, put = __set_byte_10)) uint8_t byte_10;
+  __declspec(property(get = __cordl_internal_get_byte_10, put = __cordl_internal_set_byte_10)) uint8_t byte_10;
 
   /// @brief Field byte_11, offset 0xb, size 0x1
-  __declspec(property(get = __get_byte_11, put = __set_byte_11)) uint8_t byte_11;
+  __declspec(property(get = __cordl_internal_get_byte_11, put = __cordl_internal_set_byte_11)) uint8_t byte_11;
 
   /// @brief Field byte_12, offset 0xc, size 0x1
-  __declspec(property(get = __get_byte_12, put = __set_byte_12)) uint8_t byte_12;
+  __declspec(property(get = __cordl_internal_get_byte_12, put = __cordl_internal_set_byte_12)) uint8_t byte_12;
 
   /// @brief Field byte_13, offset 0xd, size 0x1
-  __declspec(property(get = __get_byte_13, put = __set_byte_13)) uint8_t byte_13;
+  __declspec(property(get = __cordl_internal_get_byte_13, put = __cordl_internal_set_byte_13)) uint8_t byte_13;
 
   /// @brief Field byte_14, offset 0xe, size 0x1
-  __declspec(property(get = __get_byte_14, put = __set_byte_14)) uint8_t byte_14;
+  __declspec(property(get = __cordl_internal_get_byte_14, put = __cordl_internal_set_byte_14)) uint8_t byte_14;
 
   /// @brief Field byte_15, offset 0xf, size 0x1
-  __declspec(property(get = __get_byte_15, put = __set_byte_15)) uint8_t byte_15;
+  __declspec(property(get = __cordl_internal_get_byte_15, put = __cordl_internal_set_byte_15)) uint8_t byte_15;
 
   /// @brief Field sbyte_0, offset 0x0, size 0x1
-  __declspec(property(get = __get_sbyte_0, put = __set_sbyte_0)) int8_t sbyte_0;
+  __declspec(property(get = __cordl_internal_get_sbyte_0, put = __cordl_internal_set_sbyte_0)) int8_t sbyte_0;
 
   /// @brief Field sbyte_1, offset 0x1, size 0x1
-  __declspec(property(get = __get_sbyte_1, put = __set_sbyte_1)) int8_t sbyte_1;
+  __declspec(property(get = __cordl_internal_get_sbyte_1, put = __cordl_internal_set_sbyte_1)) int8_t sbyte_1;
 
   /// @brief Field sbyte_2, offset 0x2, size 0x1
-  __declspec(property(get = __get_sbyte_2, put = __set_sbyte_2)) int8_t sbyte_2;
+  __declspec(property(get = __cordl_internal_get_sbyte_2, put = __cordl_internal_set_sbyte_2)) int8_t sbyte_2;
 
   /// @brief Field sbyte_3, offset 0x3, size 0x1
-  __declspec(property(get = __get_sbyte_3, put = __set_sbyte_3)) int8_t sbyte_3;
+  __declspec(property(get = __cordl_internal_get_sbyte_3, put = __cordl_internal_set_sbyte_3)) int8_t sbyte_3;
 
   /// @brief Field sbyte_4, offset 0x4, size 0x1
-  __declspec(property(get = __get_sbyte_4, put = __set_sbyte_4)) int8_t sbyte_4;
+  __declspec(property(get = __cordl_internal_get_sbyte_4, put = __cordl_internal_set_sbyte_4)) int8_t sbyte_4;
 
   /// @brief Field sbyte_5, offset 0x5, size 0x1
-  __declspec(property(get = __get_sbyte_5, put = __set_sbyte_5)) int8_t sbyte_5;
+  __declspec(property(get = __cordl_internal_get_sbyte_5, put = __cordl_internal_set_sbyte_5)) int8_t sbyte_5;
 
   /// @brief Field sbyte_6, offset 0x6, size 0x1
-  __declspec(property(get = __get_sbyte_6, put = __set_sbyte_6)) int8_t sbyte_6;
+  __declspec(property(get = __cordl_internal_get_sbyte_6, put = __cordl_internal_set_sbyte_6)) int8_t sbyte_6;
 
   /// @brief Field sbyte_7, offset 0x7, size 0x1
-  __declspec(property(get = __get_sbyte_7, put = __set_sbyte_7)) int8_t sbyte_7;
+  __declspec(property(get = __cordl_internal_get_sbyte_7, put = __cordl_internal_set_sbyte_7)) int8_t sbyte_7;
 
   /// @brief Field sbyte_8, offset 0x8, size 0x1
-  __declspec(property(get = __get_sbyte_8, put = __set_sbyte_8)) int8_t sbyte_8;
+  __declspec(property(get = __cordl_internal_get_sbyte_8, put = __cordl_internal_set_sbyte_8)) int8_t sbyte_8;
 
   /// @brief Field sbyte_9, offset 0x9, size 0x1
-  __declspec(property(get = __get_sbyte_9, put = __set_sbyte_9)) int8_t sbyte_9;
+  __declspec(property(get = __cordl_internal_get_sbyte_9, put = __cordl_internal_set_sbyte_9)) int8_t sbyte_9;
 
   /// @brief Field sbyte_10, offset 0xa, size 0x1
-  __declspec(property(get = __get_sbyte_10, put = __set_sbyte_10)) int8_t sbyte_10;
+  __declspec(property(get = __cordl_internal_get_sbyte_10, put = __cordl_internal_set_sbyte_10)) int8_t sbyte_10;
 
   /// @brief Field sbyte_11, offset 0xb, size 0x1
-  __declspec(property(get = __get_sbyte_11, put = __set_sbyte_11)) int8_t sbyte_11;
+  __declspec(property(get = __cordl_internal_get_sbyte_11, put = __cordl_internal_set_sbyte_11)) int8_t sbyte_11;
 
   /// @brief Field sbyte_12, offset 0xc, size 0x1
-  __declspec(property(get = __get_sbyte_12, put = __set_sbyte_12)) int8_t sbyte_12;
+  __declspec(property(get = __cordl_internal_get_sbyte_12, put = __cordl_internal_set_sbyte_12)) int8_t sbyte_12;
 
   /// @brief Field sbyte_13, offset 0xd, size 0x1
-  __declspec(property(get = __get_sbyte_13, put = __set_sbyte_13)) int8_t sbyte_13;
+  __declspec(property(get = __cordl_internal_get_sbyte_13, put = __cordl_internal_set_sbyte_13)) int8_t sbyte_13;
 
   /// @brief Field sbyte_14, offset 0xe, size 0x1
-  __declspec(property(get = __get_sbyte_14, put = __set_sbyte_14)) int8_t sbyte_14;
+  __declspec(property(get = __cordl_internal_get_sbyte_14, put = __cordl_internal_set_sbyte_14)) int8_t sbyte_14;
 
   /// @brief Field sbyte_15, offset 0xf, size 0x1
-  __declspec(property(get = __get_sbyte_15, put = __set_sbyte_15)) int8_t sbyte_15;
+  __declspec(property(get = __cordl_internal_get_sbyte_15, put = __cordl_internal_set_sbyte_15)) int8_t sbyte_15;
 
   /// @brief Field uint16_0, offset 0x0, size 0x2
-  __declspec(property(get = __get_uint16_0, put = __set_uint16_0)) uint16_t uint16_0;
+  __declspec(property(get = __cordl_internal_get_uint16_0, put = __cordl_internal_set_uint16_0)) uint16_t uint16_0;
 
   /// @brief Field uint16_1, offset 0x2, size 0x2
-  __declspec(property(get = __get_uint16_1, put = __set_uint16_1)) uint16_t uint16_1;
+  __declspec(property(get = __cordl_internal_get_uint16_1, put = __cordl_internal_set_uint16_1)) uint16_t uint16_1;
 
   /// @brief Field uint16_2, offset 0x4, size 0x2
-  __declspec(property(get = __get_uint16_2, put = __set_uint16_2)) uint16_t uint16_2;
+  __declspec(property(get = __cordl_internal_get_uint16_2, put = __cordl_internal_set_uint16_2)) uint16_t uint16_2;
 
   /// @brief Field uint16_3, offset 0x6, size 0x2
-  __declspec(property(get = __get_uint16_3, put = __set_uint16_3)) uint16_t uint16_3;
+  __declspec(property(get = __cordl_internal_get_uint16_3, put = __cordl_internal_set_uint16_3)) uint16_t uint16_3;
 
   /// @brief Field uint16_4, offset 0x8, size 0x2
-  __declspec(property(get = __get_uint16_4, put = __set_uint16_4)) uint16_t uint16_4;
+  __declspec(property(get = __cordl_internal_get_uint16_4, put = __cordl_internal_set_uint16_4)) uint16_t uint16_4;
 
   /// @brief Field uint16_5, offset 0xa, size 0x2
-  __declspec(property(get = __get_uint16_5, put = __set_uint16_5)) uint16_t uint16_5;
+  __declspec(property(get = __cordl_internal_get_uint16_5, put = __cordl_internal_set_uint16_5)) uint16_t uint16_5;
 
   /// @brief Field uint16_6, offset 0xc, size 0x2
-  __declspec(property(get = __get_uint16_6, put = __set_uint16_6)) uint16_t uint16_6;
+  __declspec(property(get = __cordl_internal_get_uint16_6, put = __cordl_internal_set_uint16_6)) uint16_t uint16_6;
 
   /// @brief Field uint16_7, offset 0xe, size 0x2
-  __declspec(property(get = __get_uint16_7, put = __set_uint16_7)) uint16_t uint16_7;
+  __declspec(property(get = __cordl_internal_get_uint16_7, put = __cordl_internal_set_uint16_7)) uint16_t uint16_7;
 
   /// @brief Field int16_0, offset 0x0, size 0x2
-  __declspec(property(get = __get_int16_0, put = __set_int16_0)) int16_t int16_0;
+  __declspec(property(get = __cordl_internal_get_int16_0, put = __cordl_internal_set_int16_0)) int16_t int16_0;
 
   /// @brief Field int16_1, offset 0x2, size 0x2
-  __declspec(property(get = __get_int16_1, put = __set_int16_1)) int16_t int16_1;
+  __declspec(property(get = __cordl_internal_get_int16_1, put = __cordl_internal_set_int16_1)) int16_t int16_1;
 
   /// @brief Field int16_2, offset 0x4, size 0x2
-  __declspec(property(get = __get_int16_2, put = __set_int16_2)) int16_t int16_2;
+  __declspec(property(get = __cordl_internal_get_int16_2, put = __cordl_internal_set_int16_2)) int16_t int16_2;
 
   /// @brief Field int16_3, offset 0x6, size 0x2
-  __declspec(property(get = __get_int16_3, put = __set_int16_3)) int16_t int16_3;
+  __declspec(property(get = __cordl_internal_get_int16_3, put = __cordl_internal_set_int16_3)) int16_t int16_3;
 
   /// @brief Field int16_4, offset 0x8, size 0x2
-  __declspec(property(get = __get_int16_4, put = __set_int16_4)) int16_t int16_4;
+  __declspec(property(get = __cordl_internal_get_int16_4, put = __cordl_internal_set_int16_4)) int16_t int16_4;
 
   /// @brief Field int16_5, offset 0xa, size 0x2
-  __declspec(property(get = __get_int16_5, put = __set_int16_5)) int16_t int16_5;
+  __declspec(property(get = __cordl_internal_get_int16_5, put = __cordl_internal_set_int16_5)) int16_t int16_5;
 
   /// @brief Field int16_6, offset 0xc, size 0x2
-  __declspec(property(get = __get_int16_6, put = __set_int16_6)) int16_t int16_6;
+  __declspec(property(get = __cordl_internal_get_int16_6, put = __cordl_internal_set_int16_6)) int16_t int16_6;
 
   /// @brief Field int16_7, offset 0xe, size 0x2
-  __declspec(property(get = __get_int16_7, put = __set_int16_7)) int16_t int16_7;
+  __declspec(property(get = __cordl_internal_get_int16_7, put = __cordl_internal_set_int16_7)) int16_t int16_7;
 
   /// @brief Field uint32_0, offset 0x0, size 0x4
-  __declspec(property(get = __get_uint32_0, put = __set_uint32_0)) uint32_t uint32_0;
+  __declspec(property(get = __cordl_internal_get_uint32_0, put = __cordl_internal_set_uint32_0)) uint32_t uint32_0;
 
   /// @brief Field uint32_1, offset 0x4, size 0x4
-  __declspec(property(get = __get_uint32_1, put = __set_uint32_1)) uint32_t uint32_1;
+  __declspec(property(get = __cordl_internal_get_uint32_1, put = __cordl_internal_set_uint32_1)) uint32_t uint32_1;
 
   /// @brief Field uint32_2, offset 0x8, size 0x4
-  __declspec(property(get = __get_uint32_2, put = __set_uint32_2)) uint32_t uint32_2;
+  __declspec(property(get = __cordl_internal_get_uint32_2, put = __cordl_internal_set_uint32_2)) uint32_t uint32_2;
 
   /// @brief Field uint32_3, offset 0xc, size 0x4
-  __declspec(property(get = __get_uint32_3, put = __set_uint32_3)) uint32_t uint32_3;
+  __declspec(property(get = __cordl_internal_get_uint32_3, put = __cordl_internal_set_uint32_3)) uint32_t uint32_3;
 
   /// @brief Field int32_0, offset 0x0, size 0x4
-  __declspec(property(get = __get_int32_0, put = __set_int32_0)) int32_t int32_0;
+  __declspec(property(get = __cordl_internal_get_int32_0, put = __cordl_internal_set_int32_0)) int32_t int32_0;
 
   /// @brief Field int32_1, offset 0x4, size 0x4
-  __declspec(property(get = __get_int32_1, put = __set_int32_1)) int32_t int32_1;
+  __declspec(property(get = __cordl_internal_get_int32_1, put = __cordl_internal_set_int32_1)) int32_t int32_1;
 
   /// @brief Field int32_2, offset 0x8, size 0x4
-  __declspec(property(get = __get_int32_2, put = __set_int32_2)) int32_t int32_2;
+  __declspec(property(get = __cordl_internal_get_int32_2, put = __cordl_internal_set_int32_2)) int32_t int32_2;
 
   /// @brief Field int32_3, offset 0xc, size 0x4
-  __declspec(property(get = __get_int32_3, put = __set_int32_3)) int32_t int32_3;
+  __declspec(property(get = __cordl_internal_get_int32_3, put = __cordl_internal_set_int32_3)) int32_t int32_3;
 
   /// @brief Field uint64_0, offset 0x0, size 0x8
-  __declspec(property(get = __get_uint64_0, put = __set_uint64_0)) uint64_t uint64_0;
+  __declspec(property(get = __cordl_internal_get_uint64_0, put = __cordl_internal_set_uint64_0)) uint64_t uint64_0;
 
   /// @brief Field uint64_1, offset 0x8, size 0x8
-  __declspec(property(get = __get_uint64_1, put = __set_uint64_1)) uint64_t uint64_1;
+  __declspec(property(get = __cordl_internal_get_uint64_1, put = __cordl_internal_set_uint64_1)) uint64_t uint64_1;
 
   /// @brief Field int64_0, offset 0x0, size 0x8
-  __declspec(property(get = __get_int64_0, put = __set_int64_0)) int64_t int64_0;
+  __declspec(property(get = __cordl_internal_get_int64_0, put = __cordl_internal_set_int64_0)) int64_t int64_0;
 
   /// @brief Field int64_1, offset 0x8, size 0x8
-  __declspec(property(get = __get_int64_1, put = __set_int64_1)) int64_t int64_1;
+  __declspec(property(get = __cordl_internal_get_int64_1, put = __cordl_internal_set_int64_1)) int64_t int64_1;
 
   /// @brief Field single_0, offset 0x0, size 0x4
-  __declspec(property(get = __get_single_0, put = __set_single_0)) float_t single_0;
+  __declspec(property(get = __cordl_internal_get_single_0, put = __cordl_internal_set_single_0)) float_t single_0;
 
   /// @brief Field single_1, offset 0x4, size 0x4
-  __declspec(property(get = __get_single_1, put = __set_single_1)) float_t single_1;
+  __declspec(property(get = __cordl_internal_get_single_1, put = __cordl_internal_set_single_1)) float_t single_1;
 
   /// @brief Field single_2, offset 0x8, size 0x4
-  __declspec(property(get = __get_single_2, put = __set_single_2)) float_t single_2;
+  __declspec(property(get = __cordl_internal_get_single_2, put = __cordl_internal_set_single_2)) float_t single_2;
 
   /// @brief Field single_3, offset 0xc, size 0x4
-  __declspec(property(get = __get_single_3, put = __set_single_3)) float_t single_3;
+  __declspec(property(get = __cordl_internal_get_single_3, put = __cordl_internal_set_single_3)) float_t single_3;
 
   /// @brief Field double_0, offset 0x0, size 0x8
-  __declspec(property(get = __get_double_0, put = __set_double_0)) double_t double_0;
+  __declspec(property(get = __cordl_internal_get_double_0, put = __cordl_internal_set_double_0)) double_t double_0;
 
   /// @brief Field double_1, offset 0x8, size 0x8
-  __declspec(property(get = __get_double_1, put = __set_double_1)) double_t double_1;
+  __declspec(property(get = __cordl_internal_get_double_1, put = __cordl_internal_set_double_1)) double_t double_1;
 
-  constexpr uint8_t& __get_byte_0();
+  constexpr uint8_t& __cordl_internal_get_byte_0();
 
-  constexpr uint8_t const& __get_byte_0() const;
+  constexpr uint8_t const& __cordl_internal_get_byte_0() const;
 
-  constexpr void __set_byte_0(uint8_t value);
+  constexpr void __cordl_internal_set_byte_0(uint8_t value);
 
-  constexpr uint8_t& __get_byte_1();
+  constexpr uint8_t& __cordl_internal_get_byte_1();
 
-  constexpr uint8_t const& __get_byte_1() const;
+  constexpr uint8_t const& __cordl_internal_get_byte_1() const;
 
-  constexpr void __set_byte_1(uint8_t value);
+  constexpr void __cordl_internal_set_byte_1(uint8_t value);
 
-  constexpr uint8_t& __get_byte_2();
+  constexpr uint8_t& __cordl_internal_get_byte_2();
 
-  constexpr uint8_t const& __get_byte_2() const;
+  constexpr uint8_t const& __cordl_internal_get_byte_2() const;
 
-  constexpr void __set_byte_2(uint8_t value);
+  constexpr void __cordl_internal_set_byte_2(uint8_t value);
 
-  constexpr uint8_t& __get_byte_3();
+  constexpr uint8_t& __cordl_internal_get_byte_3();
 
-  constexpr uint8_t const& __get_byte_3() const;
+  constexpr uint8_t const& __cordl_internal_get_byte_3() const;
 
-  constexpr void __set_byte_3(uint8_t value);
+  constexpr void __cordl_internal_set_byte_3(uint8_t value);
 
-  constexpr uint8_t& __get_byte_4();
+  constexpr uint8_t& __cordl_internal_get_byte_4();
 
-  constexpr uint8_t const& __get_byte_4() const;
+  constexpr uint8_t const& __cordl_internal_get_byte_4() const;
 
-  constexpr void __set_byte_4(uint8_t value);
+  constexpr void __cordl_internal_set_byte_4(uint8_t value);
 
-  constexpr uint8_t& __get_byte_5();
+  constexpr uint8_t& __cordl_internal_get_byte_5();
 
-  constexpr uint8_t const& __get_byte_5() const;
+  constexpr uint8_t const& __cordl_internal_get_byte_5() const;
 
-  constexpr void __set_byte_5(uint8_t value);
+  constexpr void __cordl_internal_set_byte_5(uint8_t value);
 
-  constexpr uint8_t& __get_byte_6();
+  constexpr uint8_t& __cordl_internal_get_byte_6();
 
-  constexpr uint8_t const& __get_byte_6() const;
+  constexpr uint8_t const& __cordl_internal_get_byte_6() const;
 
-  constexpr void __set_byte_6(uint8_t value);
+  constexpr void __cordl_internal_set_byte_6(uint8_t value);
 
-  constexpr uint8_t& __get_byte_7();
+  constexpr uint8_t& __cordl_internal_get_byte_7();
 
-  constexpr uint8_t const& __get_byte_7() const;
+  constexpr uint8_t const& __cordl_internal_get_byte_7() const;
 
-  constexpr void __set_byte_7(uint8_t value);
+  constexpr void __cordl_internal_set_byte_7(uint8_t value);
 
-  constexpr uint8_t& __get_byte_8();
+  constexpr uint8_t& __cordl_internal_get_byte_8();
 
-  constexpr uint8_t const& __get_byte_8() const;
+  constexpr uint8_t const& __cordl_internal_get_byte_8() const;
 
-  constexpr void __set_byte_8(uint8_t value);
+  constexpr void __cordl_internal_set_byte_8(uint8_t value);
 
-  constexpr uint8_t& __get_byte_9();
+  constexpr uint8_t& __cordl_internal_get_byte_9();
 
-  constexpr uint8_t const& __get_byte_9() const;
+  constexpr uint8_t const& __cordl_internal_get_byte_9() const;
 
-  constexpr void __set_byte_9(uint8_t value);
+  constexpr void __cordl_internal_set_byte_9(uint8_t value);
 
-  constexpr uint8_t& __get_byte_10();
+  constexpr uint8_t& __cordl_internal_get_byte_10();
 
-  constexpr uint8_t const& __get_byte_10() const;
+  constexpr uint8_t const& __cordl_internal_get_byte_10() const;
 
-  constexpr void __set_byte_10(uint8_t value);
+  constexpr void __cordl_internal_set_byte_10(uint8_t value);
 
-  constexpr uint8_t& __get_byte_11();
+  constexpr uint8_t& __cordl_internal_get_byte_11();
 
-  constexpr uint8_t const& __get_byte_11() const;
+  constexpr uint8_t const& __cordl_internal_get_byte_11() const;
 
-  constexpr void __set_byte_11(uint8_t value);
+  constexpr void __cordl_internal_set_byte_11(uint8_t value);
 
-  constexpr uint8_t& __get_byte_12();
+  constexpr uint8_t& __cordl_internal_get_byte_12();
 
-  constexpr uint8_t const& __get_byte_12() const;
+  constexpr uint8_t const& __cordl_internal_get_byte_12() const;
 
-  constexpr void __set_byte_12(uint8_t value);
+  constexpr void __cordl_internal_set_byte_12(uint8_t value);
 
-  constexpr uint8_t& __get_byte_13();
+  constexpr uint8_t& __cordl_internal_get_byte_13();
 
-  constexpr uint8_t const& __get_byte_13() const;
+  constexpr uint8_t const& __cordl_internal_get_byte_13() const;
 
-  constexpr void __set_byte_13(uint8_t value);
+  constexpr void __cordl_internal_set_byte_13(uint8_t value);
 
-  constexpr uint8_t& __get_byte_14();
+  constexpr uint8_t& __cordl_internal_get_byte_14();
 
-  constexpr uint8_t const& __get_byte_14() const;
+  constexpr uint8_t const& __cordl_internal_get_byte_14() const;
 
-  constexpr void __set_byte_14(uint8_t value);
+  constexpr void __cordl_internal_set_byte_14(uint8_t value);
 
-  constexpr uint8_t& __get_byte_15();
+  constexpr uint8_t& __cordl_internal_get_byte_15();
 
-  constexpr uint8_t const& __get_byte_15() const;
+  constexpr uint8_t const& __cordl_internal_get_byte_15() const;
 
-  constexpr void __set_byte_15(uint8_t value);
+  constexpr void __cordl_internal_set_byte_15(uint8_t value);
 
-  constexpr int8_t& __get_sbyte_0();
+  constexpr int8_t& __cordl_internal_get_sbyte_0();
 
-  constexpr int8_t const& __get_sbyte_0() const;
+  constexpr int8_t const& __cordl_internal_get_sbyte_0() const;
 
-  constexpr void __set_sbyte_0(int8_t value);
+  constexpr void __cordl_internal_set_sbyte_0(int8_t value);
 
-  constexpr int8_t& __get_sbyte_1();
+  constexpr int8_t& __cordl_internal_get_sbyte_1();
 
-  constexpr int8_t const& __get_sbyte_1() const;
+  constexpr int8_t const& __cordl_internal_get_sbyte_1() const;
 
-  constexpr void __set_sbyte_1(int8_t value);
+  constexpr void __cordl_internal_set_sbyte_1(int8_t value);
 
-  constexpr int8_t& __get_sbyte_2();
+  constexpr int8_t& __cordl_internal_get_sbyte_2();
 
-  constexpr int8_t const& __get_sbyte_2() const;
+  constexpr int8_t const& __cordl_internal_get_sbyte_2() const;
 
-  constexpr void __set_sbyte_2(int8_t value);
+  constexpr void __cordl_internal_set_sbyte_2(int8_t value);
 
-  constexpr int8_t& __get_sbyte_3();
+  constexpr int8_t& __cordl_internal_get_sbyte_3();
 
-  constexpr int8_t const& __get_sbyte_3() const;
+  constexpr int8_t const& __cordl_internal_get_sbyte_3() const;
 
-  constexpr void __set_sbyte_3(int8_t value);
+  constexpr void __cordl_internal_set_sbyte_3(int8_t value);
 
-  constexpr int8_t& __get_sbyte_4();
+  constexpr int8_t& __cordl_internal_get_sbyte_4();
 
-  constexpr int8_t const& __get_sbyte_4() const;
+  constexpr int8_t const& __cordl_internal_get_sbyte_4() const;
 
-  constexpr void __set_sbyte_4(int8_t value);
+  constexpr void __cordl_internal_set_sbyte_4(int8_t value);
 
-  constexpr int8_t& __get_sbyte_5();
+  constexpr int8_t& __cordl_internal_get_sbyte_5();
 
-  constexpr int8_t const& __get_sbyte_5() const;
+  constexpr int8_t const& __cordl_internal_get_sbyte_5() const;
 
-  constexpr void __set_sbyte_5(int8_t value);
+  constexpr void __cordl_internal_set_sbyte_5(int8_t value);
 
-  constexpr int8_t& __get_sbyte_6();
+  constexpr int8_t& __cordl_internal_get_sbyte_6();
 
-  constexpr int8_t const& __get_sbyte_6() const;
+  constexpr int8_t const& __cordl_internal_get_sbyte_6() const;
 
-  constexpr void __set_sbyte_6(int8_t value);
+  constexpr void __cordl_internal_set_sbyte_6(int8_t value);
 
-  constexpr int8_t& __get_sbyte_7();
+  constexpr int8_t& __cordl_internal_get_sbyte_7();
 
-  constexpr int8_t const& __get_sbyte_7() const;
+  constexpr int8_t const& __cordl_internal_get_sbyte_7() const;
 
-  constexpr void __set_sbyte_7(int8_t value);
+  constexpr void __cordl_internal_set_sbyte_7(int8_t value);
 
-  constexpr int8_t& __get_sbyte_8();
+  constexpr int8_t& __cordl_internal_get_sbyte_8();
 
-  constexpr int8_t const& __get_sbyte_8() const;
+  constexpr int8_t const& __cordl_internal_get_sbyte_8() const;
 
-  constexpr void __set_sbyte_8(int8_t value);
+  constexpr void __cordl_internal_set_sbyte_8(int8_t value);
 
-  constexpr int8_t& __get_sbyte_9();
+  constexpr int8_t& __cordl_internal_get_sbyte_9();
 
-  constexpr int8_t const& __get_sbyte_9() const;
+  constexpr int8_t const& __cordl_internal_get_sbyte_9() const;
 
-  constexpr void __set_sbyte_9(int8_t value);
+  constexpr void __cordl_internal_set_sbyte_9(int8_t value);
 
-  constexpr int8_t& __get_sbyte_10();
+  constexpr int8_t& __cordl_internal_get_sbyte_10();
 
-  constexpr int8_t const& __get_sbyte_10() const;
+  constexpr int8_t const& __cordl_internal_get_sbyte_10() const;
 
-  constexpr void __set_sbyte_10(int8_t value);
+  constexpr void __cordl_internal_set_sbyte_10(int8_t value);
 
-  constexpr int8_t& __get_sbyte_11();
+  constexpr int8_t& __cordl_internal_get_sbyte_11();
 
-  constexpr int8_t const& __get_sbyte_11() const;
+  constexpr int8_t const& __cordl_internal_get_sbyte_11() const;
 
-  constexpr void __set_sbyte_11(int8_t value);
+  constexpr void __cordl_internal_set_sbyte_11(int8_t value);
 
-  constexpr int8_t& __get_sbyte_12();
+  constexpr int8_t& __cordl_internal_get_sbyte_12();
 
-  constexpr int8_t const& __get_sbyte_12() const;
+  constexpr int8_t const& __cordl_internal_get_sbyte_12() const;
 
-  constexpr void __set_sbyte_12(int8_t value);
+  constexpr void __cordl_internal_set_sbyte_12(int8_t value);
 
-  constexpr int8_t& __get_sbyte_13();
+  constexpr int8_t& __cordl_internal_get_sbyte_13();
 
-  constexpr int8_t const& __get_sbyte_13() const;
+  constexpr int8_t const& __cordl_internal_get_sbyte_13() const;
 
-  constexpr void __set_sbyte_13(int8_t value);
+  constexpr void __cordl_internal_set_sbyte_13(int8_t value);
 
-  constexpr int8_t& __get_sbyte_14();
+  constexpr int8_t& __cordl_internal_get_sbyte_14();
 
-  constexpr int8_t const& __get_sbyte_14() const;
+  constexpr int8_t const& __cordl_internal_get_sbyte_14() const;
 
-  constexpr void __set_sbyte_14(int8_t value);
+  constexpr void __cordl_internal_set_sbyte_14(int8_t value);
 
-  constexpr int8_t& __get_sbyte_15();
+  constexpr int8_t& __cordl_internal_get_sbyte_15();
 
-  constexpr int8_t const& __get_sbyte_15() const;
+  constexpr int8_t const& __cordl_internal_get_sbyte_15() const;
 
-  constexpr void __set_sbyte_15(int8_t value);
+  constexpr void __cordl_internal_set_sbyte_15(int8_t value);
 
-  constexpr uint16_t& __get_uint16_0();
+  constexpr uint16_t& __cordl_internal_get_uint16_0();
 
-  constexpr uint16_t const& __get_uint16_0() const;
+  constexpr uint16_t const& __cordl_internal_get_uint16_0() const;
 
-  constexpr void __set_uint16_0(uint16_t value);
+  constexpr void __cordl_internal_set_uint16_0(uint16_t value);
 
-  constexpr uint16_t& __get_uint16_1();
+  constexpr uint16_t& __cordl_internal_get_uint16_1();
 
-  constexpr uint16_t const& __get_uint16_1() const;
+  constexpr uint16_t const& __cordl_internal_get_uint16_1() const;
 
-  constexpr void __set_uint16_1(uint16_t value);
+  constexpr void __cordl_internal_set_uint16_1(uint16_t value);
 
-  constexpr uint16_t& __get_uint16_2();
+  constexpr uint16_t& __cordl_internal_get_uint16_2();
 
-  constexpr uint16_t const& __get_uint16_2() const;
+  constexpr uint16_t const& __cordl_internal_get_uint16_2() const;
 
-  constexpr void __set_uint16_2(uint16_t value);
+  constexpr void __cordl_internal_set_uint16_2(uint16_t value);
 
-  constexpr uint16_t& __get_uint16_3();
+  constexpr uint16_t& __cordl_internal_get_uint16_3();
 
-  constexpr uint16_t const& __get_uint16_3() const;
+  constexpr uint16_t const& __cordl_internal_get_uint16_3() const;
 
-  constexpr void __set_uint16_3(uint16_t value);
+  constexpr void __cordl_internal_set_uint16_3(uint16_t value);
 
-  constexpr uint16_t& __get_uint16_4();
+  constexpr uint16_t& __cordl_internal_get_uint16_4();
 
-  constexpr uint16_t const& __get_uint16_4() const;
+  constexpr uint16_t const& __cordl_internal_get_uint16_4() const;
 
-  constexpr void __set_uint16_4(uint16_t value);
+  constexpr void __cordl_internal_set_uint16_4(uint16_t value);
 
-  constexpr uint16_t& __get_uint16_5();
+  constexpr uint16_t& __cordl_internal_get_uint16_5();
 
-  constexpr uint16_t const& __get_uint16_5() const;
+  constexpr uint16_t const& __cordl_internal_get_uint16_5() const;
 
-  constexpr void __set_uint16_5(uint16_t value);
+  constexpr void __cordl_internal_set_uint16_5(uint16_t value);
 
-  constexpr uint16_t& __get_uint16_6();
+  constexpr uint16_t& __cordl_internal_get_uint16_6();
 
-  constexpr uint16_t const& __get_uint16_6() const;
+  constexpr uint16_t const& __cordl_internal_get_uint16_6() const;
 
-  constexpr void __set_uint16_6(uint16_t value);
+  constexpr void __cordl_internal_set_uint16_6(uint16_t value);
 
-  constexpr uint16_t& __get_uint16_7();
+  constexpr uint16_t& __cordl_internal_get_uint16_7();
 
-  constexpr uint16_t const& __get_uint16_7() const;
+  constexpr uint16_t const& __cordl_internal_get_uint16_7() const;
 
-  constexpr void __set_uint16_7(uint16_t value);
+  constexpr void __cordl_internal_set_uint16_7(uint16_t value);
 
-  constexpr int16_t& __get_int16_0();
+  constexpr int16_t& __cordl_internal_get_int16_0();
 
-  constexpr int16_t const& __get_int16_0() const;
+  constexpr int16_t const& __cordl_internal_get_int16_0() const;
 
-  constexpr void __set_int16_0(int16_t value);
+  constexpr void __cordl_internal_set_int16_0(int16_t value);
 
-  constexpr int16_t& __get_int16_1();
+  constexpr int16_t& __cordl_internal_get_int16_1();
 
-  constexpr int16_t const& __get_int16_1() const;
+  constexpr int16_t const& __cordl_internal_get_int16_1() const;
 
-  constexpr void __set_int16_1(int16_t value);
+  constexpr void __cordl_internal_set_int16_1(int16_t value);
 
-  constexpr int16_t& __get_int16_2();
+  constexpr int16_t& __cordl_internal_get_int16_2();
 
-  constexpr int16_t const& __get_int16_2() const;
+  constexpr int16_t const& __cordl_internal_get_int16_2() const;
 
-  constexpr void __set_int16_2(int16_t value);
+  constexpr void __cordl_internal_set_int16_2(int16_t value);
 
-  constexpr int16_t& __get_int16_3();
+  constexpr int16_t& __cordl_internal_get_int16_3();
 
-  constexpr int16_t const& __get_int16_3() const;
+  constexpr int16_t const& __cordl_internal_get_int16_3() const;
 
-  constexpr void __set_int16_3(int16_t value);
+  constexpr void __cordl_internal_set_int16_3(int16_t value);
 
-  constexpr int16_t& __get_int16_4();
+  constexpr int16_t& __cordl_internal_get_int16_4();
 
-  constexpr int16_t const& __get_int16_4() const;
+  constexpr int16_t const& __cordl_internal_get_int16_4() const;
 
-  constexpr void __set_int16_4(int16_t value);
+  constexpr void __cordl_internal_set_int16_4(int16_t value);
 
-  constexpr int16_t& __get_int16_5();
+  constexpr int16_t& __cordl_internal_get_int16_5();
 
-  constexpr int16_t const& __get_int16_5() const;
+  constexpr int16_t const& __cordl_internal_get_int16_5() const;
 
-  constexpr void __set_int16_5(int16_t value);
+  constexpr void __cordl_internal_set_int16_5(int16_t value);
 
-  constexpr int16_t& __get_int16_6();
+  constexpr int16_t& __cordl_internal_get_int16_6();
 
-  constexpr int16_t const& __get_int16_6() const;
+  constexpr int16_t const& __cordl_internal_get_int16_6() const;
 
-  constexpr void __set_int16_6(int16_t value);
+  constexpr void __cordl_internal_set_int16_6(int16_t value);
 
-  constexpr int16_t& __get_int16_7();
+  constexpr int16_t& __cordl_internal_get_int16_7();
 
-  constexpr int16_t const& __get_int16_7() const;
+  constexpr int16_t const& __cordl_internal_get_int16_7() const;
 
-  constexpr void __set_int16_7(int16_t value);
+  constexpr void __cordl_internal_set_int16_7(int16_t value);
 
-  constexpr uint32_t& __get_uint32_0();
+  constexpr uint32_t& __cordl_internal_get_uint32_0();
 
-  constexpr uint32_t const& __get_uint32_0() const;
+  constexpr uint32_t const& __cordl_internal_get_uint32_0() const;
 
-  constexpr void __set_uint32_0(uint32_t value);
+  constexpr void __cordl_internal_set_uint32_0(uint32_t value);
 
-  constexpr uint32_t& __get_uint32_1();
+  constexpr uint32_t& __cordl_internal_get_uint32_1();
 
-  constexpr uint32_t const& __get_uint32_1() const;
+  constexpr uint32_t const& __cordl_internal_get_uint32_1() const;
 
-  constexpr void __set_uint32_1(uint32_t value);
+  constexpr void __cordl_internal_set_uint32_1(uint32_t value);
 
-  constexpr uint32_t& __get_uint32_2();
+  constexpr uint32_t& __cordl_internal_get_uint32_2();
 
-  constexpr uint32_t const& __get_uint32_2() const;
+  constexpr uint32_t const& __cordl_internal_get_uint32_2() const;
 
-  constexpr void __set_uint32_2(uint32_t value);
+  constexpr void __cordl_internal_set_uint32_2(uint32_t value);
 
-  constexpr uint32_t& __get_uint32_3();
+  constexpr uint32_t& __cordl_internal_get_uint32_3();
 
-  constexpr uint32_t const& __get_uint32_3() const;
+  constexpr uint32_t const& __cordl_internal_get_uint32_3() const;
 
-  constexpr void __set_uint32_3(uint32_t value);
+  constexpr void __cordl_internal_set_uint32_3(uint32_t value);
 
-  constexpr int32_t& __get_int32_0();
+  constexpr int32_t& __cordl_internal_get_int32_0();
 
-  constexpr int32_t const& __get_int32_0() const;
+  constexpr int32_t const& __cordl_internal_get_int32_0() const;
 
-  constexpr void __set_int32_0(int32_t value);
+  constexpr void __cordl_internal_set_int32_0(int32_t value);
 
-  constexpr int32_t& __get_int32_1();
+  constexpr int32_t& __cordl_internal_get_int32_1();
 
-  constexpr int32_t const& __get_int32_1() const;
+  constexpr int32_t const& __cordl_internal_get_int32_1() const;
 
-  constexpr void __set_int32_1(int32_t value);
+  constexpr void __cordl_internal_set_int32_1(int32_t value);
 
-  constexpr int32_t& __get_int32_2();
+  constexpr int32_t& __cordl_internal_get_int32_2();
 
-  constexpr int32_t const& __get_int32_2() const;
+  constexpr int32_t const& __cordl_internal_get_int32_2() const;
 
-  constexpr void __set_int32_2(int32_t value);
+  constexpr void __cordl_internal_set_int32_2(int32_t value);
 
-  constexpr int32_t& __get_int32_3();
+  constexpr int32_t& __cordl_internal_get_int32_3();
 
-  constexpr int32_t const& __get_int32_3() const;
+  constexpr int32_t const& __cordl_internal_get_int32_3() const;
 
-  constexpr void __set_int32_3(int32_t value);
+  constexpr void __cordl_internal_set_int32_3(int32_t value);
 
-  constexpr uint64_t& __get_uint64_0();
+  constexpr uint64_t& __cordl_internal_get_uint64_0();
 
-  constexpr uint64_t const& __get_uint64_0() const;
+  constexpr uint64_t const& __cordl_internal_get_uint64_0() const;
 
-  constexpr void __set_uint64_0(uint64_t value);
+  constexpr void __cordl_internal_set_uint64_0(uint64_t value);
 
-  constexpr uint64_t& __get_uint64_1();
+  constexpr uint64_t& __cordl_internal_get_uint64_1();
 
-  constexpr uint64_t const& __get_uint64_1() const;
+  constexpr uint64_t const& __cordl_internal_get_uint64_1() const;
 
-  constexpr void __set_uint64_1(uint64_t value);
+  constexpr void __cordl_internal_set_uint64_1(uint64_t value);
 
-  constexpr int64_t& __get_int64_0();
+  constexpr int64_t& __cordl_internal_get_int64_0();
 
-  constexpr int64_t const& __get_int64_0() const;
+  constexpr int64_t const& __cordl_internal_get_int64_0() const;
 
-  constexpr void __set_int64_0(int64_t value);
+  constexpr void __cordl_internal_set_int64_0(int64_t value);
 
-  constexpr int64_t& __get_int64_1();
+  constexpr int64_t& __cordl_internal_get_int64_1();
 
-  constexpr int64_t const& __get_int64_1() const;
+  constexpr int64_t const& __cordl_internal_get_int64_1() const;
 
-  constexpr void __set_int64_1(int64_t value);
+  constexpr void __cordl_internal_set_int64_1(int64_t value);
 
-  constexpr float_t& __get_single_0();
+  constexpr float_t& __cordl_internal_get_single_0();
 
-  constexpr float_t const& __get_single_0() const;
+  constexpr float_t const& __cordl_internal_get_single_0() const;
 
-  constexpr void __set_single_0(float_t value);
+  constexpr void __cordl_internal_set_single_0(float_t value);
 
-  constexpr float_t& __get_single_1();
+  constexpr float_t& __cordl_internal_get_single_1();
 
-  constexpr float_t const& __get_single_1() const;
+  constexpr float_t const& __cordl_internal_get_single_1() const;
 
-  constexpr void __set_single_1(float_t value);
+  constexpr void __cordl_internal_set_single_1(float_t value);
 
-  constexpr float_t& __get_single_2();
+  constexpr float_t& __cordl_internal_get_single_2();
 
-  constexpr float_t const& __get_single_2() const;
+  constexpr float_t const& __cordl_internal_get_single_2() const;
 
-  constexpr void __set_single_2(float_t value);
+  constexpr void __cordl_internal_set_single_2(float_t value);
 
-  constexpr float_t& __get_single_3();
+  constexpr float_t& __cordl_internal_get_single_3();
 
-  constexpr float_t const& __get_single_3() const;
+  constexpr float_t const& __cordl_internal_get_single_3() const;
 
-  constexpr void __set_single_3(float_t value);
+  constexpr void __cordl_internal_set_single_3(float_t value);
 
-  constexpr double_t& __get_double_0();
+  constexpr double_t& __cordl_internal_get_double_0();
 
-  constexpr double_t const& __get_double_0() const;
+  constexpr double_t const& __cordl_internal_get_double_0() const;
 
-  constexpr void __set_double_0(double_t value);
+  constexpr void __cordl_internal_set_double_0(double_t value);
 
-  constexpr double_t& __get_double_1();
+  constexpr double_t& __cordl_internal_get_double_1();
 
-  constexpr double_t const& __get_double_1() const;
+  constexpr double_t const& __cordl_internal_get_double_1() const;
 
-  constexpr void __set_double_1(double_t value);
+  constexpr void __cordl_internal_set_double_1(double_t value);
 
   // Ctor Parameters [CppParam { name: "byte_0", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte_1", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte_2",
   // ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte_3", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "byte_4", ty: "uint8_t", modifiers: "", def_value:

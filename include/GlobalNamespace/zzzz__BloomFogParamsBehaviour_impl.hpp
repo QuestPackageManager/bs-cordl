@@ -14,7 +14,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x158;
   constexpr static std::size_t addrs = 0x2315668;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsBehaviour*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsBehaviour*>::get(), 20));
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x23157c0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsBehaviour*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsBehaviour*>::get(), 16));
@@ -43,57 +43,57 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2315850;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsBehaviour*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::BloomFogEnvironmentParams*& GlobalNamespace::BloomFogParamsBehaviour::__get__bloomFogParams() {
+constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams>& GlobalNamespace::BloomFogParamsBehaviour::__cordl_internal_get__bloomFogParams() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFogParams;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogEnvironmentParams*> const& GlobalNamespace::BloomFogParamsBehaviour::__get__bloomFogParams() const {
+constexpr ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> const& GlobalNamespace::BloomFogParamsBehaviour::__cordl_internal_get__bloomFogParams() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFogParams;
 }
-constexpr void GlobalNamespace::BloomFogParamsBehaviour::__set__bloomFogParams(::GlobalNamespace::BloomFogEnvironmentParams* value) {
+constexpr void GlobalNamespace::BloomFogParamsBehaviour::__cordl_internal_set__bloomFogParams(::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomFogParams)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::BloomFogParamsBehaviour::__get__blend() {
+constexpr float_t& GlobalNamespace::BloomFogParamsBehaviour::__cordl_internal_get__blend() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blend;
 }
-constexpr float_t const& GlobalNamespace::BloomFogParamsBehaviour::__get__blend() const {
+constexpr float_t const& GlobalNamespace::BloomFogParamsBehaviour::__cordl_internal_get__blend() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____blend;
 }
-constexpr void GlobalNamespace::BloomFogParamsBehaviour::__set__blend(float_t value) {
+constexpr void GlobalNamespace::BloomFogParamsBehaviour::__cordl_internal_set__blend(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____blend = value;
 }
-constexpr ::GlobalNamespace::BloomFogSO*& GlobalNamespace::BloomFogParamsBehaviour::__get__bloomFog() {
+constexpr ::UnityW<::GlobalNamespace::BloomFogSO>& GlobalNamespace::BloomFogParamsBehaviour::__cordl_internal_get__bloomFog() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFog;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BloomFogSO*> const& GlobalNamespace::BloomFogParamsBehaviour::__get__bloomFog() const {
+constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& GlobalNamespace::BloomFogParamsBehaviour::__cordl_internal_get__bloomFog() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bloomFog;
 }
-constexpr void GlobalNamespace::BloomFogParamsBehaviour::__set__bloomFog(::GlobalNamespace::BloomFogSO* value) {
+constexpr void GlobalNamespace::BloomFogParamsBehaviour::__cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomFog)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::BloomFogParamsBehaviour::__get__initialized() {
+constexpr bool& GlobalNamespace::BloomFogParamsBehaviour::__cordl_internal_get__initialized() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
-constexpr bool const& GlobalNamespace::BloomFogParamsBehaviour::__get__initialized() const {
+constexpr bool const& GlobalNamespace::BloomFogParamsBehaviour::__cordl_internal_get__initialized() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____initialized;
 }
-constexpr void GlobalNamespace::BloomFogParamsBehaviour::__set__initialized(bool value) {
+constexpr void GlobalNamespace::BloomFogParamsBehaviour::__cordl_internal_set__initialized(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____initialized = value;
 }
@@ -108,11 +108,11 @@ inline void GlobalNamespace::BloomFogParamsBehaviour::OnPlayableDestroy(::UnityE
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playable);
 }
 inline ::GlobalNamespace::BloomFogParamsBehaviour* GlobalNamespace::BloomFogParamsBehaviour::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::BloomFogParamsBehaviour*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomFogParamsBehaviour*>());
 }
 inline void GlobalNamespace::BloomFogParamsBehaviour::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsBehaviour*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

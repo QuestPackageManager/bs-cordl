@@ -16,35 +16,35 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14716))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14716))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14727))
 // CS Name: ::BeatmapEventData*
 class CORDL_TYPE BeatmapEventData : public ::GlobalNamespace::BeatmapDataItem {
 public:
   // Declarations
   /// @brief Field <previousSameTypeEventData>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__previousSameTypeEventData_k__BackingField,
-                      put = __set__previousSameTypeEventData_k__BackingField))::GlobalNamespace::BeatmapEventData* _previousSameTypeEventData_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__previousSameTypeEventData_k__BackingField,
+                      put = __cordl_internal_set__previousSameTypeEventData_k__BackingField))::GlobalNamespace::BeatmapEventData* _previousSameTypeEventData_k__BackingField;
 
   /// @brief Field <nextSameTypeEventData>k__BackingField, offset 0x28, size 0x8
-  __declspec(property(get = __get__nextSameTypeEventData_k__BackingField,
-                      put = __set__nextSameTypeEventData_k__BackingField))::GlobalNamespace::BeatmapEventData* _nextSameTypeEventData_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__nextSameTypeEventData_k__BackingField,
+                      put = __cordl_internal_set__nextSameTypeEventData_k__BackingField))::GlobalNamespace::BeatmapEventData* _nextSameTypeEventData_k__BackingField;
 
   __declspec(property(get = get_previousSameTypeEventData, put = set_previousSameTypeEventData))::GlobalNamespace::BeatmapEventData* previousSameTypeEventData;
 
   __declspec(property(get = get_nextSameTypeEventData, put = set_nextSameTypeEventData))::GlobalNamespace::BeatmapEventData* nextSameTypeEventData;
 
-  constexpr ::GlobalNamespace::BeatmapEventData*& __get__previousSameTypeEventData_k__BackingField();
+  constexpr ::GlobalNamespace::BeatmapEventData*& __cordl_internal_get__previousSameTypeEventData_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapEventData*> const& __get__previousSameTypeEventData_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapEventData*> const& __cordl_internal_get__previousSameTypeEventData_k__BackingField() const;
 
-  constexpr void __set__previousSameTypeEventData_k__BackingField(::GlobalNamespace::BeatmapEventData* value);
+  constexpr void __cordl_internal_set__previousSameTypeEventData_k__BackingField(::GlobalNamespace::BeatmapEventData* value);
 
-  constexpr ::GlobalNamespace::BeatmapEventData*& __get__nextSameTypeEventData_k__BackingField();
+  constexpr ::GlobalNamespace::BeatmapEventData*& __cordl_internal_get__nextSameTypeEventData_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapEventData*> const& __get__nextSameTypeEventData_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapEventData*> const& __cordl_internal_get__nextSameTypeEventData_k__BackingField() const;
 
-  constexpr void __set__nextSameTypeEventData_k__BackingField(::GlobalNamespace::BeatmapEventData* value);
+  constexpr void __cordl_internal_set__nextSameTypeEventData_k__BackingField(::GlobalNamespace::BeatmapEventData* value);
 
   /// @brief Method get_previousSameTypeEventData, addr 0xdfe050, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventData* get_previousSameTypeEventData();

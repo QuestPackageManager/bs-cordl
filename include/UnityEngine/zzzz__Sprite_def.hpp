@@ -48,7 +48,7 @@ MARK_REF_PTR_T(::UnityEngine::Sprite);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10200))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10200))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10291))
 // CS Name: ::UnityEngine::Sprite*
 class CORDL_TYPE Sprite : public ::UnityEngine::Object {
@@ -60,13 +60,13 @@ public:
 
   __declspec(property(get = get_border))::UnityEngine::Vector4 border;
 
-  __declspec(property(get = get_texture))::UnityEngine::Texture2D* texture;
+  __declspec(property(get = get_texture))::UnityW<::UnityEngine::Texture2D> texture;
 
   __declspec(property(get = get_pixelsPerUnit)) float_t pixelsPerUnit;
 
   __declspec(property(get = get_spriteAtlasTextureScale)) float_t spriteAtlasTextureScale;
 
-  __declspec(property(get = get_associatedAlphaSplitTexture))::UnityEngine::Texture2D* associatedAlphaSplitTexture;
+  __declspec(property(get = get_associatedAlphaSplitTexture))::UnityW<::UnityEngine::Texture2D> associatedAlphaSplitTexture;
 
   __declspec(property(get = get_pivot))::UnityEngine::Vector2 pivot;
 
@@ -116,11 +116,11 @@ public:
   inline ::UnityEngine::Vector4 GetPadding();
 
   /// @brief Method CreateSpriteWithoutTextureScripting, addr 0x2ce4b0c, size 0x6c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Sprite* CreateSpriteWithoutTextureScripting(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsToUnits, ::UnityEngine::Texture2D* texture);
+  static inline ::UnityW<::UnityEngine::Sprite> CreateSpriteWithoutTextureScripting(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsToUnits, ::UnityEngine::Texture2D* texture);
 
   /// @brief Method CreateSprite, addr 0x2ce4bdc, size 0x98, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Sprite* CreateSprite(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
-                                                    ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, bool generateFallbackPhysicsShape);
+  static inline ::UnityW<::UnityEngine::Sprite> CreateSprite(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
+                                                             ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, bool generateFallbackPhysicsShape);
 
   /// @brief Method get_bounds, addr 0x2ce4d08, size 0x68, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
@@ -132,10 +132,10 @@ public:
   inline ::UnityEngine::Vector4 get_border();
 
   /// @brief Method get_texture, addr 0x2ce4eec, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture2D* get_texture();
+  inline ::UnityW<::UnityEngine::Texture2D> get_texture();
 
   /// @brief Method GetSecondaryTexture, addr 0x2ce4f28, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture2D* GetSecondaryTexture(int32_t index);
+  inline ::UnityW<::UnityEngine::Texture2D> GetSecondaryTexture(int32_t index);
 
   /// @brief Method get_pixelsPerUnit, addr 0x2ce4f6c, size 0x3c, virtual false, abstract: false, final false
   inline float_t get_pixelsPerUnit();
@@ -144,7 +144,7 @@ public:
   inline float_t get_spriteAtlasTextureScale();
 
   /// @brief Method get_associatedAlphaSplitTexture, addr 0x2ce4fe4, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Texture2D* get_associatedAlphaSplitTexture();
+  inline ::UnityW<::UnityEngine::Texture2D> get_associatedAlphaSplitTexture();
 
   /// @brief Method get_pivot, addr 0x2ce5020, size 0x4c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_pivot();
@@ -201,31 +201,31 @@ public:
   inline void OverrideGeometry(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> vertices, ::ArrayW<uint16_t, ::Array<uint16_t>*> triangles);
 
   /// @brief Method Create, addr 0x2ce5be4, size 0x4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Sprite* Create(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsToUnits, ::UnityEngine::Texture2D* texture);
+  static inline ::UnityW<::UnityEngine::Sprite> Create(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsToUnits, ::UnityEngine::Texture2D* texture);
 
   /// @brief Method Create, addr 0x2ce5be8, size 0x8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Sprite* Create(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsToUnits);
+  static inline ::UnityW<::UnityEngine::Sprite> Create(::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsToUnits);
 
   /// @brief Method Create, addr 0x2ce5bf0, size 0x3ec, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Sprite* Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
-                                              ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, bool generateFallbackPhysicsShape);
+  static inline ::UnityW<::UnityEngine::Sprite> Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
+                                                       ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border, bool generateFallbackPhysicsShape);
 
   /// @brief Method Create, addr 0x2ce5fdc, size 0x10, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Sprite* Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
-                                              ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border);
+  static inline ::UnityW<::UnityEngine::Sprite> Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
+                                                       ::UnityEngine::SpriteMeshType meshType, ::UnityEngine::Vector4 border);
 
   /// @brief Method Create, addr 0x2ce5fec, size 0xe4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Sprite* Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
-                                              ::UnityEngine::SpriteMeshType meshType);
+  static inline ::UnityW<::UnityEngine::Sprite> Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude,
+                                                       ::UnityEngine::SpriteMeshType meshType);
 
   /// @brief Method Create, addr 0x2ce60d0, size 0x8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Sprite* Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude);
+  static inline ::UnityW<::UnityEngine::Sprite> Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit, uint32_t extrude);
 
   /// @brief Method Create, addr 0x2ce60d8, size 0xc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Sprite* Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit);
+  static inline ::UnityW<::UnityEngine::Sprite> Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot, float_t pixelsPerUnit);
 
   /// @brief Method Create, addr 0x2ce60e4, size 0x14, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Sprite* Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot);
+  static inline ::UnityW<::UnityEngine::Sprite> Create(::UnityEngine::Texture2D* texture, ::UnityEngine::Rect rect, ::UnityEngine::Vector2 pivot);
 
   /// @brief Method GetTextureRect_Injected, addr 0x2ce4864, size 0x44, virtual false, abstract: false, final false
   inline void GetTextureRect_Injected(ByRef<::UnityEngine::Rect> ret);
@@ -243,12 +243,13 @@ public:
   inline void GetPadding_Injected(ByRef<::UnityEngine::Vector4> ret);
 
   /// @brief Method CreateSpriteWithoutTextureScripting_Injected, addr 0x2ce4b78, size 0x64, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Sprite* CreateSpriteWithoutTextureScripting_Injected(ByRef<::UnityEngine::Rect> rect, ByRef<::UnityEngine::Vector2> pivot, float_t pixelsToUnits,
-                                                                                    ::UnityEngine::Texture2D* texture);
+  static inline ::UnityW<::UnityEngine::Sprite> CreateSpriteWithoutTextureScripting_Injected(ByRef<::UnityEngine::Rect> rect, ByRef<::UnityEngine::Vector2> pivot, float_t pixelsToUnits,
+                                                                                             ::UnityEngine::Texture2D* texture);
 
   /// @brief Method CreateSprite_Injected, addr 0x2ce4c74, size 0x94, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Sprite* CreateSprite_Injected(::UnityEngine::Texture2D* texture, ByRef<::UnityEngine::Rect> rect, ByRef<::UnityEngine::Vector2> pivot, float_t pixelsPerUnit,
-                                                             uint32_t extrude, ::UnityEngine::SpriteMeshType meshType, ByRef<::UnityEngine::Vector4> border, bool generateFallbackPhysicsShape);
+  static inline ::UnityW<::UnityEngine::Sprite> CreateSprite_Injected(::UnityEngine::Texture2D* texture, ByRef<::UnityEngine::Rect> rect, ByRef<::UnityEngine::Vector2> pivot, float_t pixelsPerUnit,
+                                                                      uint32_t extrude, ::UnityEngine::SpriteMeshType meshType, ByRef<::UnityEngine::Vector4> border,
+                                                                      bool generateFallbackPhysicsShape);
 
   /// @brief Method get_bounds_Injected, addr 0x2ce4d70, size 0x44, virtual false, abstract: false, final false
   inline void get_bounds_Injected(ByRef<::UnityEngine::Bounds> ret);

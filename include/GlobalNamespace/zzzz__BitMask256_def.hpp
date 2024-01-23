@@ -35,7 +35,7 @@ MARK_VAL_T(::GlobalNamespace::BitMask256);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14990))
 // CS Name: ::BitMask256
 struct CORDL_TYPE BitMask256 {

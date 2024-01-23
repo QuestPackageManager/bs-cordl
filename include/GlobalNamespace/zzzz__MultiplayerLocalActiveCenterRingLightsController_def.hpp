@@ -28,74 +28,77 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsControll
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 66, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5146))
 // CS Name: ::MultiplayerLocalActiveCenterRingLightsController*
 class CORDL_TYPE MultiplayerLocalActiveCenterRingLightsController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _verticalLinePositions, offset 0x18, size 0x8
-  __declspec(property(get = __get__verticalLinePositions, put = __set__verticalLinePositions))::ArrayW<float_t, ::Array<float_t>*> _verticalLinePositions;
+  __declspec(property(get = __cordl_internal_get__verticalLinePositions, put = __cordl_internal_set__verticalLinePositions))::ArrayW<float_t, ::Array<float_t>*> _verticalLinePositions;
 
   /// @brief Field _horizontalLines, offset 0x20, size 0x8
-  __declspec(property(get = __get__horizontalLines, put = __set__horizontalLines))::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> _horizontalLines;
+  __declspec(property(get = __cordl_internal_get__horizontalLines,
+                      put = __cordl_internal_set__horizontalLines))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> _horizontalLines;
 
   /// @brief Field _centerResizeController, offset 0x28, size 0x8
-  __declspec(property(get = __get__centerResizeController, put = __set__centerResizeController))::GlobalNamespace::MultiplayerCenterResizeController* _centerResizeController;
+  __declspec(property(get = __cordl_internal_get__centerResizeController,
+                      put = __cordl_internal_set__centerResizeController))::UnityW<::GlobalNamespace::MultiplayerCenterResizeController> _centerResizeController;
 
   /// @brief Field _layoutProvider, offset 0x30, size 0x8
-  __declspec(property(get = __get__layoutProvider, put = __set__layoutProvider))::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
+  __declspec(property(get = __cordl_internal_get__layoutProvider, put = __cordl_internal_set__layoutProvider))::GlobalNamespace::MultiplayerLayoutProvider* _layoutProvider;
 
   /// @brief Field _beatmapObjectSpawnCenter, offset 0x38, size 0x8
-  __declspec(property(get = __get__beatmapObjectSpawnCenter, put = __set__beatmapObjectSpawnCenter))::GlobalNamespace::BeatmapObjectSpawnCenter* _beatmapObjectSpawnCenter;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectSpawnCenter,
+                      put = __cordl_internal_set__beatmapObjectSpawnCenter))::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> _beatmapObjectSpawnCenter;
 
   /// @brief Field _edgeDistanceFromCenterCalculated, offset 0x40, size 0x1
-  __declspec(property(get = __get__edgeDistanceFromCenterCalculated, put = __set__edgeDistanceFromCenterCalculated)) bool _edgeDistanceFromCenterCalculated;
+  __declspec(property(get = __cordl_internal_get__edgeDistanceFromCenterCalculated, put = __cordl_internal_set__edgeDistanceFromCenterCalculated)) bool _edgeDistanceFromCenterCalculated;
 
   /// @brief Field _spawnCenterDistanceFound, offset 0x41, size 0x1
-  __declspec(property(get = __get__spawnCenterDistanceFound, put = __set__spawnCenterDistanceFound)) bool _spawnCenterDistanceFound;
+  __declspec(property(get = __cordl_internal_get__spawnCenterDistanceFound, put = __cordl_internal_set__spawnCenterDistanceFound)) bool _spawnCenterDistanceFound;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get__verticalLinePositions();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__verticalLinePositions();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get__verticalLinePositions() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__verticalLinePositions() const;
 
-  constexpr void __set__verticalLinePositions(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set__verticalLinePositions(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& __get__horizontalLines();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get__horizontalLines();
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& __get__horizontalLines() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__horizontalLines() const;
 
-  constexpr void __set__horizontalLines(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
+  constexpr void __cordl_internal_set__horizontalLines(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  constexpr ::GlobalNamespace::MultiplayerCenterResizeController*& __get__centerResizeController();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerCenterResizeController>& __cordl_internal_get__centerResizeController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerCenterResizeController*> const& __get__centerResizeController() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerCenterResizeController> const& __cordl_internal_get__centerResizeController() const;
 
-  constexpr void __set__centerResizeController(::GlobalNamespace::MultiplayerCenterResizeController* value);
+  constexpr void __cordl_internal_set__centerResizeController(::UnityW<::GlobalNamespace::MultiplayerCenterResizeController> value);
 
-  constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __get__layoutProvider();
+  constexpr ::GlobalNamespace::MultiplayerLayoutProvider*& __cordl_internal_get__layoutProvider();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& __get__layoutProvider() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLayoutProvider*> const& __cordl_internal_get__layoutProvider() const;
 
-  constexpr void __set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
+  constexpr void __cordl_internal_set__layoutProvider(::GlobalNamespace::MultiplayerLayoutProvider* value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectSpawnCenter*& __get__beatmapObjectSpawnCenter();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter>& __cordl_internal_get__beatmapObjectSpawnCenter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectSpawnCenter*> const& __get__beatmapObjectSpawnCenter() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> const& __cordl_internal_get__beatmapObjectSpawnCenter() const;
 
-  constexpr void __set__beatmapObjectSpawnCenter(::GlobalNamespace::BeatmapObjectSpawnCenter* value);
+  constexpr void __cordl_internal_set__beatmapObjectSpawnCenter(::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> value);
 
-  constexpr bool& __get__edgeDistanceFromCenterCalculated();
+  constexpr bool& __cordl_internal_get__edgeDistanceFromCenterCalculated();
 
-  constexpr bool const& __get__edgeDistanceFromCenterCalculated() const;
+  constexpr bool const& __cordl_internal_get__edgeDistanceFromCenterCalculated() const;
 
-  constexpr void __set__edgeDistanceFromCenterCalculated(bool value);
+  constexpr void __cordl_internal_set__edgeDistanceFromCenterCalculated(bool value);
 
-  constexpr bool& __get__spawnCenterDistanceFound();
+  constexpr bool& __cordl_internal_get__spawnCenterDistanceFound();
 
-  constexpr bool const& __get__spawnCenterDistanceFound() const;
+  constexpr bool const& __cordl_internal_get__spawnCenterDistanceFound() const;
 
-  constexpr void __set__spawnCenterDistanceFound(bool value);
+  constexpr void __cordl_internal_set__spawnCenterDistanceFound(bool value);
 
   /// @brief Method Start, addr 0x23d8350, size 0x198, virtual false, abstract: false, final false
   inline void Start();
@@ -138,16 +141,16 @@ public:
   ::ArrayW<float_t, ::Array<float_t>*> ____verticalLinePositions;
 
   /// @brief Field _horizontalLines, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> ____horizontalLines;
+  ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ____horizontalLines;
 
   /// @brief Field _centerResizeController, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerCenterResizeController* ____centerResizeController;
+  ::UnityW<::GlobalNamespace::MultiplayerCenterResizeController> ____centerResizeController;
 
   /// @brief Field _layoutProvider, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLayoutProvider* ____layoutProvider;
 
   /// @brief Field _beatmapObjectSpawnCenter, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapObjectSpawnCenter* ____beatmapObjectSpawnCenter;
+  ::UnityW<::GlobalNamespace::BeatmapObjectSpawnCenter> ____beatmapObjectSpawnCenter;
 
   /// @brief Field _edgeDistanceFromCenterCalculated, offset: 0x40, size: 0x1, def value: None
   bool ____edgeDistanceFromCenterCalculated;

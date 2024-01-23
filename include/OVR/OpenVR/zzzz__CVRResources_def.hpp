@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::OVR::OpenVR::CVRResources);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8517))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(8517))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8574))
 // CS Name: ::OVR.OpenVR::CVRResources*
 class CORDL_TYPE CVRResources : public ::System::Object {
 public:
   // Declarations
   /// @brief Field FnTable, offset 0x10, size 0x10
-  __declspec(property(get = __get_FnTable, put = __set_FnTable))::OVR::OpenVR::IVRResources FnTable;
+  __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRResources FnTable;
 
-  constexpr ::OVR::OpenVR::IVRResources& __get_FnTable();
+  constexpr ::OVR::OpenVR::IVRResources& __cordl_internal_get_FnTable();
 
-  constexpr ::OVR::OpenVR::IVRResources const& __get_FnTable() const;
+  constexpr ::OVR::OpenVR::IVRResources const& __cordl_internal_get_FnTable() const;
 
-  constexpr void __set_FnTable(::OVR::OpenVR::IVRResources value);
+  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRResources value);
 
   static inline ::OVR::OpenVR::CVRResources* New_ctor(void* pInterface);
 

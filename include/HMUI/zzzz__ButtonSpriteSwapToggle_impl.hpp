@@ -9,9 +9,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2130674;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ButtonSpriteSwapToggle*>::get(), "get_isToggled",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -22,10 +22,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x40;
   constexpr static std::size_t addrs = 0x213067c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ButtonSpriteSwapToggle*>::get(), "set_isToggled", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ButtonSpriteSwapToggle*>::get(), "set_isToggled",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -36,7 +36,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x30;
   constexpr static std::size_t addrs = 0x21306bc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ButtonSpriteSwapToggle*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ButtonSpriteSwapToggle*>::get(), 4));
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14c;
   constexpr static std::size_t addrs = 0x21306ec;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ButtonSpriteSwapToggle*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ButtonSpriteSwapToggle*>::get(), 5));
@@ -65,57 +65,57 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10;
   constexpr static std::size_t addrs = 0x2130838;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ButtonSpriteSwapToggle*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool& HMUI::ButtonSpriteSwapToggle::__get__resetToggleOnEnable() {
+constexpr bool& HMUI::ButtonSpriteSwapToggle::__cordl_internal_get__resetToggleOnEnable() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resetToggleOnEnable;
 }
-constexpr bool const& HMUI::ButtonSpriteSwapToggle::__get__resetToggleOnEnable() const {
+constexpr bool const& HMUI::ButtonSpriteSwapToggle::__cordl_internal_get__resetToggleOnEnable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____resetToggleOnEnable;
 }
-constexpr void HMUI::ButtonSpriteSwapToggle::__set__resetToggleOnEnable(bool value) {
+constexpr void HMUI::ButtonSpriteSwapToggle::__cordl_internal_set__resetToggleOnEnable(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____resetToggleOnEnable = value;
 }
-constexpr bool& HMUI::ButtonSpriteSwapToggle::__get__ignoreHighlight() {
+constexpr bool& HMUI::ButtonSpriteSwapToggle::__cordl_internal_get__ignoreHighlight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoreHighlight;
 }
-constexpr bool const& HMUI::ButtonSpriteSwapToggle::__get__ignoreHighlight() const {
+constexpr bool const& HMUI::ButtonSpriteSwapToggle::__cordl_internal_get__ignoreHighlight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ignoreHighlight;
 }
-constexpr void HMUI::ButtonSpriteSwapToggle::__set__ignoreHighlight(bool value) {
+constexpr void HMUI::ButtonSpriteSwapToggle::__cordl_internal_set__ignoreHighlight(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ignoreHighlight = value;
 }
-constexpr bool& HMUI::ButtonSpriteSwapToggle::__get__isToggled() {
+constexpr bool& HMUI::ButtonSpriteSwapToggle::__cordl_internal_get__isToggled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isToggled;
 }
-constexpr bool const& HMUI::ButtonSpriteSwapToggle::__get__isToggled() const {
+constexpr bool const& HMUI::ButtonSpriteSwapToggle::__cordl_internal_get__isToggled() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isToggled;
 }
-constexpr void HMUI::ButtonSpriteSwapToggle::__set__isToggled(bool value) {
+constexpr void HMUI::ButtonSpriteSwapToggle::__cordl_internal_set__isToggled(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isToggled = value;
 }
 inline bool HMUI::ButtonSpriteSwapToggle::get_isToggled() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ButtonSpriteSwapToggle*>::get(), "get_isToggled",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void HMUI::ButtonSpriteSwapToggle::set_isToggled(bool value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ButtonSpriteSwapToggle*>::get(), "set_isToggled", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ButtonSpriteSwapToggle*>::get(), "set_isToggled",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void HMUI::ButtonSpriteSwapToggle::OnEnable() {
@@ -129,11 +129,11 @@ inline void HMUI::ButtonSpriteSwapToggle::HandleButtonSelectionStateDidChange(::
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, state);
 }
 inline ::HMUI::ButtonSpriteSwapToggle* HMUI::ButtonSpriteSwapToggle::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::HMUI::ButtonSpriteSwapToggle*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::ButtonSpriteSwapToggle*>());
 }
 inline void HMUI::ButtonSpriteSwapToggle::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ButtonSpriteSwapToggle*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

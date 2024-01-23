@@ -38,7 +38,7 @@ MARK_VAL_T(::UnityEngine::__UnitySynchronizationContext__WorkRequest);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10239))
 // CS Name: ::UnitySynchronizationContext::WorkRequest
 struct CORDL_TYPE __UnitySynchronizationContext__WorkRequest {
@@ -87,7 +87,7 @@ static_assert(offsetof(::UnityEngine::__UnitySynchronizationContext__WorkRequest
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2717))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2717))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10240))
 // CS Name: ::UnityEngine::UnitySynchronizationContext*
 class CORDL_TYPE UnitySynchronizationContext : public ::System::Threading::SynchronizationContext {
@@ -96,41 +96,44 @@ public:
   using WorkRequest = ::UnityEngine::__UnitySynchronizationContext__WorkRequest;
 
   /// @brief Field m_AsyncWorkQueue, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_AsyncWorkQueue, put = __set_m_AsyncWorkQueue))::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* m_AsyncWorkQueue;
+  __declspec(property(get = __cordl_internal_get_m_AsyncWorkQueue,
+                      put = __cordl_internal_set_m_AsyncWorkQueue))::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* m_AsyncWorkQueue;
 
   /// @brief Field m_CurrentFrameWork, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_CurrentFrameWork,
-                      put = __set_m_CurrentFrameWork))::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* m_CurrentFrameWork;
+  __declspec(property(get = __cordl_internal_get_m_CurrentFrameWork,
+                      put = __cordl_internal_set_m_CurrentFrameWork))::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* m_CurrentFrameWork;
 
   /// @brief Field m_MainThreadID, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_MainThreadID, put = __set_m_MainThreadID)) int32_t m_MainThreadID;
+  __declspec(property(get = __cordl_internal_get_m_MainThreadID, put = __cordl_internal_set_m_MainThreadID)) int32_t m_MainThreadID;
 
   /// @brief Field m_TrackedCount, offset 0x2c, size 0x4
-  __declspec(property(get = __get_m_TrackedCount, put = __set_m_TrackedCount)) int32_t m_TrackedCount;
+  __declspec(property(get = __cordl_internal_get_m_TrackedCount, put = __cordl_internal_set_m_TrackedCount)) int32_t m_TrackedCount;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>*& __get_m_AsyncWorkQueue();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>*& __cordl_internal_get_m_AsyncWorkQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>*> const& __get_m_AsyncWorkQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>*> const&
+  __cordl_internal_get_m_AsyncWorkQueue() const;
 
-  constexpr void __set_m_AsyncWorkQueue(::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* value);
+  constexpr void __cordl_internal_set_m_AsyncWorkQueue(::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>*& __get_m_CurrentFrameWork();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>*& __cordl_internal_get_m_CurrentFrameWork();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>*> const& __get_m_CurrentFrameWork() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>*> const&
+  __cordl_internal_get_m_CurrentFrameWork() const;
 
-  constexpr void __set_m_CurrentFrameWork(::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* value);
+  constexpr void __cordl_internal_set_m_CurrentFrameWork(::System::Collections::Generic::List_1<::UnityEngine::__UnitySynchronizationContext__WorkRequest>* value);
 
-  constexpr int32_t& __get_m_MainThreadID();
+  constexpr int32_t& __cordl_internal_get_m_MainThreadID();
 
-  constexpr int32_t const& __get_m_MainThreadID() const;
+  constexpr int32_t const& __cordl_internal_get_m_MainThreadID() const;
 
-  constexpr void __set_m_MainThreadID(int32_t value);
+  constexpr void __cordl_internal_set_m_MainThreadID(int32_t value);
 
-  constexpr int32_t& __get_m_TrackedCount();
+  constexpr int32_t& __cordl_internal_get_m_TrackedCount();
 
-  constexpr int32_t const& __get_m_TrackedCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_TrackedCount() const;
 
-  constexpr void __set_m_TrackedCount(int32_t value);
+  constexpr void __cordl_internal_set_m_TrackedCount(int32_t value);
 
   static inline ::UnityEngine::UnitySynchronizationContext* New_ctor(int32_t mainThreadID);
 

@@ -48,7 +48,7 @@ namespace System {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2509))
 // CS Name: ::System::ValueTuple`4<T1,T2,T3,T4>
 struct CORDL_TYPE ValueTuple_4 {

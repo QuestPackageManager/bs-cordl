@@ -116,7 +116,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::__InputControlPath__PathParser);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6227))
 // CS Name: ::InputControlPath::HumanReadableStringOptions
 struct CORDL_TYPE __InputControlPath__HumanReadableStringOptions {
@@ -170,7 +170,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControlPath__HumanRead
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6228))
 // CS Name: ::InputControlPath::PathComponentType
 struct CORDL_TYPE __InputControlPath__PathComponentType {
@@ -228,7 +228,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControlPath__PathCompo
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6229))
 // CS Name: ::InputControlPath::ParsedPathComponent::<>c*
 class CORDL_TYPE __InputControlPath__ParsedPathComponent____c : public ::System::Object {
@@ -280,8 +280,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputControlP
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6709)), TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 2710
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6230)) CS Name: ::InputControlPath::ParsedPathComponent
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6669)), TypeDefinitionIndex(TypeDefinitionIndex(6709)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 2710
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6230)) CS Name: ::InputControlPath::ParsedPathComponent
 struct CORDL_TYPE __InputControlPath__ParsedPathComponent {
 public:
   // Declarations
@@ -375,7 +375,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControlPath__ParsedPat
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6230))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6230))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6231))
 // CS Name: ::InputControlPath::PathParser
 struct CORDL_TYPE __InputControlPath__PathParser {
@@ -443,7 +443,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControlPath__PathParse
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6232))
 // CS Name: ::InputControlPath::<>c*
 class CORDL_TYPE __InputControlPath____c : public ::System::Object {
@@ -495,29 +495,29 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::__Inpu
 // SizeInfo { instance_size: 232, native_size: -1, calculated_instance_size: 232, calculated_native_size: 232, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6231)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6230))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6230)), TypeDefinitionIndex(TypeDefinitionIndex(6231))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6233))
 // CS Name: ::InputControlPath::<Parse>d__33*
 class CORDL_TYPE __InputControlPath___Parse_d__33 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x50
-  __declspec(property(get = __get___2__current, put = __set___2__current))::UnityEngine::InputSystem::__InputControlPath__ParsedPathComponent __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityEngine::InputSystem::__InputControlPath__ParsedPathComponent __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x68, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field path, offset 0x70, size 0x8
-  __declspec(property(get = __get_path, put = __set_path))::StringW path;
+  __declspec(property(get = __cordl_internal_get_path, put = __cordl_internal_set_path))::StringW path;
 
   /// @brief Field <>3__path, offset 0x78, size 0x8
-  __declspec(property(get = __get___3__path, put = __set___3__path))::StringW __3__path;
+  __declspec(property(get = __cordl_internal_get___3__path, put = __cordl_internal_set___3__path))::StringW __3__path;
 
   /// @brief Field <parser>5__2, offset 0x80, size 0x68
-  __declspec(property(get = __get__parser_5__2, put = __set__parser_5__2))::UnityEngine::InputSystem::__InputControlPath__PathParser _parser_5__2;
+  __declspec(property(get = __cordl_internal_get__parser_5__2, put = __cordl_internal_set__parser_5__2))::UnityEngine::InputSystem::__InputControlPath__PathParser _parser_5__2;
 
   __declspec(property(
       get = System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputControlPath_ParsedPathComponent__get_Current))::UnityEngine::InputSystem::__InputControlPath__ParsedPathComponent
@@ -557,41 +557,41 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::__InputControlPath__ParsedPathComponent& __get___2__current();
+  constexpr ::UnityEngine::InputSystem::__InputControlPath__ParsedPathComponent& __cordl_internal_get___2__current();
 
-  constexpr ::UnityEngine::InputSystem::__InputControlPath__ParsedPathComponent const& __get___2__current() const;
+  constexpr ::UnityEngine::InputSystem::__InputControlPath__ParsedPathComponent const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::UnityEngine::InputSystem::__InputControlPath__ParsedPathComponent value);
+  constexpr void __cordl_internal_set___2__current(::UnityEngine::InputSystem::__InputControlPath__ParsedPathComponent value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::StringW& __get_path();
+  constexpr ::StringW& __cordl_internal_get_path();
 
-  constexpr ::StringW const& __get_path() const;
+  constexpr ::StringW const& __cordl_internal_get_path() const;
 
-  constexpr void __set_path(::StringW value);
+  constexpr void __cordl_internal_set_path(::StringW value);
 
-  constexpr ::StringW& __get___3__path();
+  constexpr ::StringW& __cordl_internal_get___3__path();
 
-  constexpr ::StringW const& __get___3__path() const;
+  constexpr ::StringW const& __cordl_internal_get___3__path() const;
 
-  constexpr void __set___3__path(::StringW value);
+  constexpr void __cordl_internal_set___3__path(::StringW value);
 
-  constexpr ::UnityEngine::InputSystem::__InputControlPath__PathParser& __get__parser_5__2();
+  constexpr ::UnityEngine::InputSystem::__InputControlPath__PathParser& __cordl_internal_get__parser_5__2();
 
-  constexpr ::UnityEngine::InputSystem::__InputControlPath__PathParser const& __get__parser_5__2() const;
+  constexpr ::UnityEngine::InputSystem::__InputControlPath__PathParser const& __cordl_internal_get__parser_5__2() const;
 
-  constexpr void __set__parser_5__2(::UnityEngine::InputSystem::__InputControlPath__PathParser value);
+  constexpr void __cordl_internal_set__parser_5__2(::UnityEngine::InputSystem::__InputControlPath__PathParser value);
 
   static inline ::UnityEngine::InputSystem::__InputControlPath___Parse_d__33* New_ctor(int32_t __1__state);
 
@@ -676,7 +676,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControlPath___Parse_d_
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6234))
 // CS Name: ::UnityEngine.InputSystem::InputControlPath*
 class CORDL_TYPE InputControlPath : public ::System::Object {

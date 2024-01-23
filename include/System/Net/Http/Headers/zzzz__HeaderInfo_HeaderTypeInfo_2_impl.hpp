@@ -7,16 +7,18 @@
 #include "System/Net/Http/Headers/zzzz__HttpHeaders_def.hpp"
 #include "System/Net/Http/Headers/zzzz__TryParseDelegate_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-template <typename T, typename U> constexpr ::System::Net::Http::Headers::TryParseDelegate_1<T>*& System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>::__get_parser() {
+template <typename T, typename U> constexpr ::System::Net::Http::Headers::TryParseDelegate_1<T>*& System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>::__cordl_internal_get_parser() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parser;
 }
 template <typename T, typename U>
-constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::TryParseDelegate_1<T>*> const& System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>::__get_parser() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::TryParseDelegate_1<T>*> const&
+System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>::__cordl_internal_get_parser() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___parser;
 }
-template <typename T, typename U> constexpr void System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>::__set_parser(::System::Net::Http::Headers::TryParseDelegate_1<T>* value) {
+template <typename T, typename U>
+constexpr void System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>::__cordl_internal_set_parser(::System::Net::Http::Headers::TryParseDelegate_1<T>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___parser)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -24,16 +26,16 @@ template <typename T, typename U>
 inline ::System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>*
 System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>::New_ctor(::StringW name, ::System::Net::Http::Headers::TryParseDelegate_1<T>* parser,
                                                                            ::System::Net::Http::Headers::HttpHeaderKind headerKind) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>*>(name, parser, headerKind));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>*>(name, parser, headerKind));
 }
 template <typename T, typename U>
 inline void System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>::_ctor(::StringW name, ::System::Net::Http::Headers::TryParseDelegate_1<T>* parser,
                                                                                     ::System::Net::Http::Headers::HttpHeaderKind headerKind) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::TryParseDelegate_1<T>*>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::HttpHeaderKind>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::TryParseDelegate_1<T>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::HttpHeaderKind>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name, parser, headerKind);
 }
 template <typename T, typename U> inline void System::Net::Http::Headers::__HeaderInfo__HeaderTypeInfo_2<T, U>::AddToCollection(::System::Object* collection, ::System::Object* value) {

@@ -10,10 +10,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24a5cac;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapFieldAttribute*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -25,10 +25,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24a5cb4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapFieldAttribute*>::get(), "get_XmlElementName",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -40,10 +40,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x24a5cbc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapFieldAttribute*>::get(), "IsInteropXmlElement",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa0;
   constexpr static std::size_t addrs = 0x24a5cc4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapFieldAttribute*>::get(),
@@ -63,46 +63,46 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapFieldAttribute::__get__elementName() {
+constexpr ::StringW& System::Runtime::Remoting::Metadata::SoapFieldAttribute::__cordl_internal_get__elementName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementName;
 }
-constexpr ::StringW const& System::Runtime::Remoting::Metadata::SoapFieldAttribute::__get__elementName() const {
+constexpr ::StringW const& System::Runtime::Remoting::Metadata::SoapFieldAttribute::__cordl_internal_get__elementName() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____elementName;
 }
-constexpr void System::Runtime::Remoting::Metadata::SoapFieldAttribute::__set__elementName(::StringW value) {
+constexpr void System::Runtime::Remoting::Metadata::SoapFieldAttribute::__cordl_internal_set__elementName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____elementName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& System::Runtime::Remoting::Metadata::SoapFieldAttribute::__get__isElement() {
+constexpr bool& System::Runtime::Remoting::Metadata::SoapFieldAttribute::__cordl_internal_get__isElement() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isElement;
 }
-constexpr bool const& System::Runtime::Remoting::Metadata::SoapFieldAttribute::__get__isElement() const {
+constexpr bool const& System::Runtime::Remoting::Metadata::SoapFieldAttribute::__cordl_internal_get__isElement() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____isElement;
 }
-constexpr void System::Runtime::Remoting::Metadata::SoapFieldAttribute::__set__isElement(bool value) {
+constexpr void System::Runtime::Remoting::Metadata::SoapFieldAttribute::__cordl_internal_set__isElement(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____isElement = value;
 }
 inline ::System::Runtime::Remoting::Metadata::SoapFieldAttribute* System::Runtime::Remoting::Metadata::SoapFieldAttribute::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Runtime::Remoting::Metadata::SoapFieldAttribute*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::Remoting::Metadata::SoapFieldAttribute*>());
 }
 inline void System::Runtime::Remoting::Metadata::SoapFieldAttribute::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapFieldAttribute*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::StringW System::Runtime::Remoting::Metadata::SoapFieldAttribute::get_XmlElementName() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapFieldAttribute*>::get(),
-                                                                             "get_XmlElementName", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_XmlElementName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline bool System::Runtime::Remoting::Metadata::SoapFieldAttribute::IsInteropXmlElement() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapFieldAttribute*>::get(),
-                                                                             "IsInteropXmlElement", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "IsInteropXmlElement", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void System::Runtime::Remoting::Metadata::SoapFieldAttribute::SetReflectionObject(::System::Object* reflectionObject) {

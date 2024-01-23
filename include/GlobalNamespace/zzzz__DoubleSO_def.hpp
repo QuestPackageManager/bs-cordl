@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::GlobalNamespace::DoubleSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst: 2704 }), TypeDefinitionIndex(TypeDefinitionIndex(15869))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15869)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15869), inst: 2704 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15863))
 // CS Name: ::DoubleSO*
 class CORDL_TYPE DoubleSO : public ::GlobalNamespace::ObservableVariableSO_1<double_t> {

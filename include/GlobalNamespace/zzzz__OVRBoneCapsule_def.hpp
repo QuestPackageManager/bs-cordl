@@ -21,44 +21,46 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRBoneCapsule);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8172))
 // CS Name: ::OVRBoneCapsule*
 class CORDL_TYPE OVRBoneCapsule : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <BoneIndex>k__BackingField, offset 0x10, size 0x2
-  __declspec(property(get = __get__BoneIndex_k__BackingField, put = __set__BoneIndex_k__BackingField)) int16_t _BoneIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BoneIndex_k__BackingField, put = __cordl_internal_set__BoneIndex_k__BackingField)) int16_t _BoneIndex_k__BackingField;
 
   /// @brief Field <CapsuleRigidbody>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__CapsuleRigidbody_k__BackingField, put = __set__CapsuleRigidbody_k__BackingField))::UnityEngine::Rigidbody* _CapsuleRigidbody_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CapsuleRigidbody_k__BackingField,
+                      put = __cordl_internal_set__CapsuleRigidbody_k__BackingField))::UnityW<::UnityEngine::Rigidbody> _CapsuleRigidbody_k__BackingField;
 
   /// @brief Field <CapsuleCollider>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__CapsuleCollider_k__BackingField, put = __set__CapsuleCollider_k__BackingField))::UnityEngine::CapsuleCollider* _CapsuleCollider_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CapsuleCollider_k__BackingField,
+                      put = __cordl_internal_set__CapsuleCollider_k__BackingField))::UnityW<::UnityEngine::CapsuleCollider> _CapsuleCollider_k__BackingField;
 
   __declspec(property(get = get_BoneIndex, put = set_BoneIndex)) int16_t BoneIndex;
 
-  __declspec(property(get = get_CapsuleRigidbody, put = set_CapsuleRigidbody))::UnityEngine::Rigidbody* CapsuleRigidbody;
+  __declspec(property(get = get_CapsuleRigidbody, put = set_CapsuleRigidbody))::UnityW<::UnityEngine::Rigidbody> CapsuleRigidbody;
 
-  __declspec(property(get = get_CapsuleCollider, put = set_CapsuleCollider))::UnityEngine::CapsuleCollider* CapsuleCollider;
+  __declspec(property(get = get_CapsuleCollider, put = set_CapsuleCollider))::UnityW<::UnityEngine::CapsuleCollider> CapsuleCollider;
 
-  constexpr int16_t& __get__BoneIndex_k__BackingField();
+  constexpr int16_t& __cordl_internal_get__BoneIndex_k__BackingField();
 
-  constexpr int16_t const& __get__BoneIndex_k__BackingField() const;
+  constexpr int16_t const& __cordl_internal_get__BoneIndex_k__BackingField() const;
 
-  constexpr void __set__BoneIndex_k__BackingField(int16_t value);
+  constexpr void __cordl_internal_set__BoneIndex_k__BackingField(int16_t value);
 
-  constexpr ::UnityEngine::Rigidbody*& __get__CapsuleRigidbody_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::Rigidbody>& __cordl_internal_get__CapsuleRigidbody_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rigidbody*> const& __get__CapsuleRigidbody_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Rigidbody> const& __cordl_internal_get__CapsuleRigidbody_k__BackingField() const;
 
-  constexpr void __set__CapsuleRigidbody_k__BackingField(::UnityEngine::Rigidbody* value);
+  constexpr void __cordl_internal_set__CapsuleRigidbody_k__BackingField(::UnityW<::UnityEngine::Rigidbody> value);
 
-  constexpr ::UnityEngine::CapsuleCollider*& __get__CapsuleCollider_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::CapsuleCollider>& __cordl_internal_get__CapsuleCollider_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CapsuleCollider*> const& __get__CapsuleCollider_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::CapsuleCollider> const& __cordl_internal_get__CapsuleCollider_k__BackingField() const;
 
-  constexpr void __set__CapsuleCollider_k__BackingField(::UnityEngine::CapsuleCollider* value);
+  constexpr void __cordl_internal_set__CapsuleCollider_k__BackingField(::UnityW<::UnityEngine::CapsuleCollider> value);
 
   /// @brief Method get_BoneIndex, addr 0x27c007c, size 0x8, virtual false, abstract: false, final false
   inline int16_t get_BoneIndex();
@@ -67,13 +69,13 @@ public:
   inline void set_BoneIndex(int16_t value);
 
   /// @brief Method get_CapsuleRigidbody, addr 0x27c008c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rigidbody* get_CapsuleRigidbody();
+  inline ::UnityW<::UnityEngine::Rigidbody> get_CapsuleRigidbody();
 
   /// @brief Method set_CapsuleRigidbody, addr 0x27c0094, size 0x8, virtual false, abstract: false, final false
   inline void set_CapsuleRigidbody(::UnityEngine::Rigidbody* value);
 
   /// @brief Method get_CapsuleCollider, addr 0x27c009c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::CapsuleCollider* get_CapsuleCollider();
+  inline ::UnityW<::UnityEngine::CapsuleCollider> get_CapsuleCollider();
 
   /// @brief Method set_CapsuleCollider, addr 0x27c00a4, size 0x8, virtual false, abstract: false, final false
   inline void set_CapsuleCollider(::UnityEngine::CapsuleCollider* value);
@@ -106,10 +108,10 @@ public:
   int16_t ____BoneIndex_k__BackingField;
 
   /// @brief Field <CapsuleRigidbody>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Rigidbody* ____CapsuleRigidbody_k__BackingField;
+  ::UnityW<::UnityEngine::Rigidbody> ____CapsuleRigidbody_k__BackingField;
 
   /// @brief Field <CapsuleCollider>k__BackingField, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::CapsuleCollider* ____CapsuleCollider_k__BackingField;
+  ::UnityW<::UnityEngine::CapsuleCollider> ____CapsuleCollider_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

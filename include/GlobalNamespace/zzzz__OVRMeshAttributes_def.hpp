@@ -30,7 +30,7 @@ MARK_VAL_T(::GlobalNamespace::OVRMeshAttributes);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7569))
 // CS Name: ::OVRMeshAttributes
 struct CORDL_TYPE OVRMeshAttributes {

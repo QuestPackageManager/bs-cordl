@@ -20,29 +20,30 @@ MARK_REF_PTR_T(::GlobalNamespace::SongTimeAnimationPlayer);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5384))
 // CS Name: ::SongTimeAnimationPlayer*
 class CORDL_TYPE SongTimeAnimationPlayer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _animationClip, offset 0x18, size 0x8
-  __declspec(property(get = __get__animationClip, put = __set__animationClip))::UnityEngine::AnimationClip* _animationClip;
+  __declspec(property(get = __cordl_internal_get__animationClip, put = __cordl_internal_set__animationClip))::UnityW<::UnityEngine::AnimationClip> _animationClip;
 
   /// @brief Field _audioTimeSyncController, offset 0x20, size 0x8
-  __declspec(property(get = __get__audioTimeSyncController, put = __set__audioTimeSyncController))::GlobalNamespace::AudioTimeSyncController* _audioTimeSyncController;
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
+                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
-  constexpr ::UnityEngine::AnimationClip*& __get__animationClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__animationClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__animationClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__animationClip() const;
 
-  constexpr void __set__animationClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__animationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::GlobalNamespace::AudioTimeSyncController*& __get__audioTimeSyncController();
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& __get__audioTimeSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value);
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
   /// @brief Method Update, addr 0x226ef14, size 0x44, virtual false, abstract: false, final false
   inline void Update();
@@ -67,10 +68,10 @@ protected:
 
 public:
   /// @brief Field _animationClip, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____animationClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____animationClip;
 
   /// @brief Field _audioTimeSyncController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::AudioTimeSyncController* ____audioTimeSyncController;
+  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

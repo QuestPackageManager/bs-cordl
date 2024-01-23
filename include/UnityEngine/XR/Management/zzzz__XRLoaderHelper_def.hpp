@@ -27,21 +27,21 @@ MARK_REF_PTR_T(::UnityEngine::XR::Management::XRLoaderHelper);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::XR::Management {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16035))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16035))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16036))
 // CS Name: ::UnityEngine.XR.Management::XRLoaderHelper*
 class CORDL_TYPE XRLoaderHelper : public ::UnityEngine::XR::Management::XRLoader {
 public:
   // Declarations
   /// @brief Field m_SubsystemInstanceMap, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_SubsystemInstanceMap,
-                      put = __set_m_SubsystemInstanceMap))::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* m_SubsystemInstanceMap;
+  __declspec(property(get = __cordl_internal_get_m_SubsystemInstanceMap,
+                      put = __cordl_internal_set_m_SubsystemInstanceMap))::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* m_SubsystemInstanceMap;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>*& __get_m_SubsystemInstanceMap();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>*& __cordl_internal_get_m_SubsystemInstanceMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>*> const& __get_m_SubsystemInstanceMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>*> const& __cordl_internal_get_m_SubsystemInstanceMap() const;
 
-  constexpr void __set_m_SubsystemInstanceMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* value);
+  constexpr void __cordl_internal_set_m_SubsystemInstanceMap(::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ISubsystem*>* value);
 
   /// @brief Method GetLoadedSubsystem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline T GetLoadedSubsystem();

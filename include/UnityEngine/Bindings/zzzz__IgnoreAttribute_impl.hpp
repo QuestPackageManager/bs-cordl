@@ -9,10 +9,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2d189d0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bindings::IgnoreAttribute*>::get(), "set_DoesNotContributeToSize",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -23,36 +23,36 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2d189dc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bindings::IgnoreAttribute*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr bool& UnityEngine::Bindings::IgnoreAttribute::__get__DoesNotContributeToSize_k__BackingField() {
+constexpr bool& UnityEngine::Bindings::IgnoreAttribute::__cordl_internal_get__DoesNotContributeToSize_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DoesNotContributeToSize_k__BackingField;
 }
-constexpr bool const& UnityEngine::Bindings::IgnoreAttribute::__get__DoesNotContributeToSize_k__BackingField() const {
+constexpr bool const& UnityEngine::Bindings::IgnoreAttribute::__cordl_internal_get__DoesNotContributeToSize_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____DoesNotContributeToSize_k__BackingField;
 }
-constexpr void UnityEngine::Bindings::IgnoreAttribute::__set__DoesNotContributeToSize_k__BackingField(bool value) {
+constexpr void UnityEngine::Bindings::IgnoreAttribute::__cordl_internal_set__DoesNotContributeToSize_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____DoesNotContributeToSize_k__BackingField = value;
 }
 inline void UnityEngine::Bindings::IgnoreAttribute::set_DoesNotContributeToSize(bool value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bindings::IgnoreAttribute*>::get(), "set_DoesNotContributeToSize",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityEngine::Bindings::IgnoreAttribute* UnityEngine::Bindings::IgnoreAttribute::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::Bindings::IgnoreAttribute*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Bindings::IgnoreAttribute*>());
 }
 inline void UnityEngine::Bindings::IgnoreAttribute::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bindings::IgnoreAttribute*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

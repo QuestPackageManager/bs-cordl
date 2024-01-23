@@ -37,7 +37,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IPreviewBeatmapLevel);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4399))
 // CS Name: ::IPreviewBeatmapLevel*
 class CORDL_TYPE IPreviewBeatmapLevel {
@@ -67,11 +67,11 @@ public:
 
   __declspec(property(get = get_songDuration)) float_t songDuration;
 
-  __declspec(property(get = get_environmentInfo))::GlobalNamespace::EnvironmentInfoSO* environmentInfo;
+  __declspec(property(get = get_environmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> environmentInfo;
 
-  __declspec(property(get = get_allDirectionsEnvironmentInfo))::GlobalNamespace::EnvironmentInfoSO* allDirectionsEnvironmentInfo;
+  __declspec(property(get = get_allDirectionsEnvironmentInfo))::UnityW<::GlobalNamespace::EnvironmentInfoSO> allDirectionsEnvironmentInfo;
 
-  __declspec(property(get = get_environmentInfos))::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> environmentInfos;
+  __declspec(property(get = get_environmentInfos))::ArrayW<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::Array<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> environmentInfos;
 
   __declspec(property(get = get_previewDifficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* previewDifficultyBeatmapSets;
 
@@ -114,13 +114,13 @@ public:
   inline float_t get_songDuration();
 
   /// @brief Method get_environmentInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::GlobalNamespace::EnvironmentInfoSO* get_environmentInfo();
+  inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_environmentInfo();
 
   /// @brief Method get_allDirectionsEnvironmentInfo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::GlobalNamespace::EnvironmentInfoSO* get_allDirectionsEnvironmentInfo();
+  inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO> get_allDirectionsEnvironmentInfo();
 
   /// @brief Method get_environmentInfos, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::ArrayW<::GlobalNamespace::EnvironmentInfoSO*, ::Array<::GlobalNamespace::EnvironmentInfoSO*>*> get_environmentInfos();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::Array<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*> get_environmentInfos();
 
   /// @brief Method get_previewDifficultyBeatmapSets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PreviewDifficultyBeatmapSet*>* get_previewDifficultyBeatmapSets();
@@ -129,7 +129,7 @@ public:
   inline ::GlobalNamespace::PlayerSensitivityFlag get_contentRating();
 
   /// @brief Method GetCoverImageAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Threading::Tasks::Task_1<::UnityEngine::Sprite*>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
+  inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverImageAsync(::System::Threading::CancellationToken cancellationToken);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPreviewBeatmapLevel", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

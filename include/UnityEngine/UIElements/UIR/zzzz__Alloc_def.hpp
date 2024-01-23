@@ -18,7 +18,7 @@ MARK_VAL_T(::UnityEngine::UIElements::UIR::Alloc);
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7433))
 // CS Name: ::UnityEngine.UIElements.UIR::Alloc
 struct CORDL_TYPE Alloc {

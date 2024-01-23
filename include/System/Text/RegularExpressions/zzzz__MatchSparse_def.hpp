@@ -25,22 +25,22 @@ MARK_REF_PTR_T(::System::Text::RegularExpressions::MatchSparse);
 // SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text::RegularExpressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8906))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8906))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8907))
 // CS Name: ::System.Text.RegularExpressions::MatchSparse*
 class CORDL_TYPE MatchSparse : public ::System::Text::RegularExpressions::Match {
 public:
   // Declarations
   /// @brief Field _caps, offset 0x78, size 0x8
-  __declspec(property(get = __get__caps, put = __set__caps))::System::Collections::Hashtable* _caps;
+  __declspec(property(get = __cordl_internal_get__caps, put = __cordl_internal_set__caps))::System::Collections::Hashtable* _caps;
 
   __declspec(property(get = get_Groups))::System::Text::RegularExpressions::GroupCollection* Groups;
 
-  constexpr ::System::Collections::Hashtable*& __get__caps();
+  constexpr ::System::Collections::Hashtable*& __cordl_internal_get__caps();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __get__caps() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get__caps() const;
 
-  constexpr void __set__caps(::System::Collections::Hashtable* value);
+  constexpr void __cordl_internal_set__caps(::System::Collections::Hashtable* value);
 
   static inline ::System::Text::RegularExpressions::MatchSparse* New_ctor(::System::Text::RegularExpressions::Regex* regex, ::System::Collections::Hashtable* caps, int32_t capcount, ::StringW text,
                                                                           int32_t begpos, int32_t len, int32_t startpos);

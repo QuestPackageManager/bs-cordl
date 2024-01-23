@@ -35,20 +35,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(119))
 // CS Name: ::Org.BouncyCastle.Asn1.Crmf::PopoSigningKey*
 class CORDL_TYPE PopoSigningKey : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field poposkInput, offset 0x10, size 0x8
-  __declspec(property(get = __get_poposkInput, put = __set_poposkInput))::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* poposkInput;
+  __declspec(property(get = __cordl_internal_get_poposkInput, put = __cordl_internal_set_poposkInput))::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* poposkInput;
 
   /// @brief Field algorithmIdentifier, offset 0x18, size 0x8
-  __declspec(property(get = __get_algorithmIdentifier, put = __set_algorithmIdentifier))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier;
+  __declspec(property(get = __cordl_internal_get_algorithmIdentifier, put = __cordl_internal_set_algorithmIdentifier))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algorithmIdentifier;
 
   /// @brief Field signature, offset 0x20, size 0x8
-  __declspec(property(get = __get_signature, put = __set_signature))::Org::BouncyCastle::Asn1::DerBitString* signature;
+  __declspec(property(get = __cordl_internal_get_signature, put = __cordl_internal_set_signature))::Org::BouncyCastle::Asn1::DerBitString* signature;
 
   __declspec(property(get = get_PoposkInput))::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* PoposkInput;
 
@@ -56,23 +56,23 @@ public:
 
   __declspec(property(get = get_Signature))::Org::BouncyCastle::Asn1::DerBitString* Signature;
 
-  constexpr ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput*& __get_poposkInput();
+  constexpr ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput*& __cordl_internal_get_poposkInput();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput*> const& __get_poposkInput() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput*> const& __cordl_internal_get_poposkInput() const;
 
-  constexpr void __set_poposkInput(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* value);
+  constexpr void __cordl_internal_set_poposkInput(::Org::BouncyCastle::Asn1::Crmf::PopoSigningKeyInput* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_algorithmIdentifier();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_algorithmIdentifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_algorithmIdentifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_algorithmIdentifier() const;
 
-  constexpr void __set_algorithmIdentifier(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_algorithmIdentifier(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __get_signature();
+  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __cordl_internal_get_signature();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __get_signature() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __cordl_internal_get_signature() const;
 
-  constexpr void __set_signature(::Org::BouncyCastle::Asn1::DerBitString* value);
+  constexpr void __cordl_internal_set_signature(::Org::BouncyCastle::Asn1::DerBitString* value);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::PopoSigningKey* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

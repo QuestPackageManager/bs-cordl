@@ -45,7 +45,7 @@ namespace HoudiniEngineUnity {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9885))
 // CS Name: ::HEU_TestHelpers::RequireStruct`1<T>*
 class CORDL_TYPE __HEU_TestHelpers__RequireStruct_1 : public ::System::Object {
@@ -80,7 +80,7 @@ namespace HoudiniEngineUnity {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9886))
 // CS Name: ::HEU_TestHelpers::RequireClass`1<T>*
 class CORDL_TYPE __HEU_TestHelpers__RequireClass_1 : public ::System::Object {
@@ -113,7 +113,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9887))
 // CS Name: ::HoudiniEngineUnity::HEU_TestHelpers*
 class CORDL_TYPE HEU_TestHelpers : public ::System::Object {

@@ -31,7 +31,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10671)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10671), inst: 1067 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10671)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10671), inst: 1067 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10673))
 // CS Name: ::Zenject::ConcreteIdBinderGeneric`1<TContract>*
 class CORDL_TYPE ConcreteIdBinderGeneric_1 : public ::Zenject::ConcreteBinderGeneric_1<TContract> {

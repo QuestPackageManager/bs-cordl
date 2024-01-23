@@ -82,48 +82,50 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayC
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12243))
 // CS Name: ::Bevel::<>c__DisplayClass0_0*
 class CORDL_TYPE __Bevel____c__DisplayClass0_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ignore, offset 0x10, size 0x8
-  __declspec(property(get = __get_ignore, put = __set_ignore))::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>* ignore;
+  __declspec(property(get = __cordl_internal_get_ignore,
+                      put = __cordl_internal_set_ignore))::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>* ignore;
 
   /// @brief Field sharedIndexes, offset 0x18, size 0x8
-  __declspec(property(get = __get_sharedIndexes, put = __set_sharedIndexes))::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> sharedIndexes;
+  __declspec(property(get = __cordl_internal_get_sharedIndexes,
+                      put = __cordl_internal_set_sharedIndexes))::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> sharedIndexes;
 
   /// @brief Field <>9__7, offset 0x20, size 0x8
-  __declspec(property(get = __get___9__7, put = __set___9__7))::System::Func_2<int32_t, int32_t>* __9__7;
+  __declspec(property(get = __cordl_internal_get___9__7, put = __cordl_internal_set___9__7))::System::Func_2<int32_t, int32_t>* __9__7;
 
   /// @brief Field <>9__8, offset 0x28, size 0x8
-  __declspec(property(get = __get___9__8, put = __set___9__8))::System::Func_2<int32_t, int32_t>* __9__8;
+  __declspec(property(get = __cordl_internal_get___9__8, put = __cordl_internal_set___9__8))::System::Func_2<int32_t, int32_t>* __9__8;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>*& __get_ignore();
+  constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>*& __cordl_internal_get_ignore();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>*> const&
-  __get_ignore() const;
+  __cordl_internal_get_ignore() const;
 
-  constexpr void __set_ignore(::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>* value);
+  constexpr void __cordl_internal_set_ignore(::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*>* value);
 
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>& __get_sharedIndexes();
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*>& __cordl_internal_get_sharedIndexes();
 
-  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> const& __get_sharedIndexes() const;
+  constexpr ::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> const& __cordl_internal_get_sharedIndexes() const;
 
-  constexpr void __set_sharedIndexes(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value);
+  constexpr void __cordl_internal_set_sharedIndexes(::ArrayW<::UnityEngine::ProBuilder::SharedVertex*, ::Array<::UnityEngine::ProBuilder::SharedVertex*>*> value);
 
-  constexpr ::System::Func_2<int32_t, int32_t>*& __get___9__7();
+  constexpr ::System::Func_2<int32_t, int32_t>*& __cordl_internal_get___9__7();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<int32_t, int32_t>*> const& __get___9__7() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<int32_t, int32_t>*> const& __cordl_internal_get___9__7() const;
 
-  constexpr void __set___9__7(::System::Func_2<int32_t, int32_t>* value);
+  constexpr void __cordl_internal_set___9__7(::System::Func_2<int32_t, int32_t>* value);
 
-  constexpr ::System::Func_2<int32_t, int32_t>*& __get___9__8();
+  constexpr ::System::Func_2<int32_t, int32_t>*& __cordl_internal_get___9__8();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<int32_t, int32_t>*> const& __get___9__8() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<int32_t, int32_t>*> const& __cordl_internal_get___9__8() const;
 
-  constexpr void __set___9__8(::System::Func_2<int32_t, int32_t>* value);
+  constexpr void __cordl_internal_set___9__8(::System::Func_2<int32_t, int32_t>* value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* New_ctor();
 
@@ -180,20 +182,20 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12119)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12119))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12244))
 // CS Name: ::Bevel::<>c__DisplayClass0_1*
 class CORDL_TYPE __Bevel____c__DisplayClass0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field lup, offset 0x10, size 0x10
-  __declspec(property(get = __get_lup, put = __set_lup))::UnityEngine::ProBuilder::EdgeLookup lup;
+  __declspec(property(get = __cordl_internal_get_lup, put = __cordl_internal_set_lup))::UnityEngine::ProBuilder::EdgeLookup lup;
 
-  constexpr ::UnityEngine::ProBuilder::EdgeLookup& __get_lup();
+  constexpr ::UnityEngine::ProBuilder::EdgeLookup& __cordl_internal_get_lup();
 
-  constexpr ::UnityEngine::ProBuilder::EdgeLookup const& __get_lup() const;
+  constexpr ::UnityEngine::ProBuilder::EdgeLookup const& __cordl_internal_get_lup() const;
 
-  constexpr void __set_lup(::UnityEngine::ProBuilder::EdgeLookup value);
+  constexpr void __cordl_internal_set_lup(::UnityEngine::ProBuilder::EdgeLookup value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_1* New_ctor();
 
@@ -232,29 +234,29 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12245))
 // CS Name: ::Bevel::<>c__DisplayClass0_2*
 class CORDL_TYPE __Bevel____c__DisplayClass0_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field c, offset 0x10, size 0x4
-  __declspec(property(get = __get_c, put = __set_c)) int32_t c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c)) int32_t c;
 
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
-  __declspec(property(get = __get_CS$__8__locals1, put = __set_CS$__8__locals1))::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* CS$__8__locals1;
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1))::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* CS$__8__locals1;
 
-  constexpr int32_t& __get_c();
+  constexpr int32_t& __cordl_internal_get_c();
 
-  constexpr int32_t const& __get_c() const;
+  constexpr int32_t const& __cordl_internal_get_c() const;
 
-  constexpr void __set_c(int32_t value);
+  constexpr void __cordl_internal_set_c(int32_t value);
 
-  constexpr ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*& __get_CS$__8__locals1();
+  constexpr ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*& __cordl_internal_get_CS$__8__locals1();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*> const& __get_CS$__8__locals1() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0*> const& __cordl_internal_get_CS$__8__locals1() const;
 
-  constexpr void __set_CS$__8__locals1(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* value);
+  constexpr void __cordl_internal_set_CS$__8__locals1(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_0* value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__DisplayClass0_2* New_ctor();
 
@@ -298,7 +300,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::MeshOperations::__Bevel____c__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12246))
 // CS Name: ::Bevel::<>c*
 class CORDL_TYPE __Bevel____c : public ::System::Object {
@@ -393,7 +395,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::MeshOpe
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12247))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::Bevel*
 class CORDL_TYPE Bevel : public ::System::Object {

@@ -31,42 +31,42 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(365))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::IetfAttrSyntax*
 class CORDL_TYPE IetfAttrSyntax : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field policyAuthority, offset 0x10, size 0x8
-  __declspec(property(get = __get_policyAuthority, put = __set_policyAuthority))::Org::BouncyCastle::Asn1::X509::GeneralNames* policyAuthority;
+  __declspec(property(get = __cordl_internal_get_policyAuthority, put = __cordl_internal_set_policyAuthority))::Org::BouncyCastle::Asn1::X509::GeneralNames* policyAuthority;
 
   /// @brief Field values, offset 0x18, size 0x8
-  __declspec(property(get = __get_values, put = __set_values))::Org::BouncyCastle::Asn1::Asn1EncodableVector* values;
+  __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values))::Org::BouncyCastle::Asn1::Asn1EncodableVector* values;
 
   /// @brief Field valueChoice, offset 0x20, size 0x4
-  __declspec(property(get = __get_valueChoice, put = __set_valueChoice)) int32_t valueChoice;
+  __declspec(property(get = __cordl_internal_get_valueChoice, put = __cordl_internal_set_valueChoice)) int32_t valueChoice;
 
   __declspec(property(get = get_PolicyAuthority))::Org::BouncyCastle::Asn1::X509::GeneralNames* PolicyAuthority;
 
   __declspec(property(get = get_ValueType)) int32_t ValueType;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames*& __get_policyAuthority();
+  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames*& __cordl_internal_get_policyAuthority();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralNames*> const& __get_policyAuthority() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralNames*> const& __cordl_internal_get_policyAuthority() const;
 
-  constexpr void __set_policyAuthority(::Org::BouncyCastle::Asn1::X509::GeneralNames* value);
+  constexpr void __cordl_internal_set_policyAuthority(::Org::BouncyCastle::Asn1::X509::GeneralNames* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& __get_values();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1EncodableVector*& __cordl_internal_get_values();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1EncodableVector*> const& __get_values() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1EncodableVector*> const& __cordl_internal_get_values() const;
 
-  constexpr void __set_values(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
+  constexpr void __cordl_internal_set_values(::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
 
-  constexpr int32_t& __get_valueChoice();
+  constexpr int32_t& __cordl_internal_get_valueChoice();
 
-  constexpr int32_t const& __get_valueChoice() const;
+  constexpr int32_t const& __cordl_internal_get_valueChoice() const;
 
-  constexpr void __set_valueChoice(int32_t value);
+  constexpr void __cordl_internal_set_valueChoice(int32_t value);
 
   static inline ::Org::BouncyCastle::Asn1::X509::IetfAttrSyntax* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

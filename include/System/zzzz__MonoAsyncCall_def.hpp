@@ -19,65 +19,65 @@ MARK_REF_PTR_T(::System::MonoAsyncCall);
 // SizeInfo { instance_size: 64, native_size: 48, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2606))
 // CS Name: ::System::MonoAsyncCall*
 class CORDL_TYPE MonoAsyncCall : public ::System::Object {
 public:
   // Declarations
   /// @brief Field msg, offset 0x10, size 0x8
-  __declspec(property(get = __get_msg, put = __set_msg))::System::Object* msg;
+  __declspec(property(get = __cordl_internal_get_msg, put = __cordl_internal_set_msg))::System::Object* msg;
 
   /// @brief Field cb_method, offset 0x18, size 0x8
-  __declspec(property(get = __get_cb_method, put = __set_cb_method)) void* cb_method;
+  __declspec(property(get = __cordl_internal_get_cb_method, put = __cordl_internal_set_cb_method)) void* cb_method;
 
   /// @brief Field cb_target, offset 0x20, size 0x8
-  __declspec(property(get = __get_cb_target, put = __set_cb_target))::System::Object* cb_target;
+  __declspec(property(get = __cordl_internal_get_cb_target, put = __cordl_internal_set_cb_target))::System::Object* cb_target;
 
   /// @brief Field state, offset 0x28, size 0x8
-  __declspec(property(get = __get_state, put = __set_state))::System::Object* state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::Object* state;
 
   /// @brief Field res, offset 0x30, size 0x8
-  __declspec(property(get = __get_res, put = __set_res))::System::Object* res;
+  __declspec(property(get = __cordl_internal_get_res, put = __cordl_internal_set_res))::System::Object* res;
 
   /// @brief Field out_args, offset 0x38, size 0x8
-  __declspec(property(get = __get_out_args, put = __set_out_args))::System::Object* out_args;
+  __declspec(property(get = __cordl_internal_get_out_args, put = __cordl_internal_set_out_args))::System::Object* out_args;
 
-  constexpr ::System::Object*& __get_msg();
+  constexpr ::System::Object*& __cordl_internal_get_msg();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_msg() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_msg() const;
 
-  constexpr void __set_msg(::System::Object* value);
+  constexpr void __cordl_internal_set_msg(::System::Object* value);
 
-  constexpr void*& __get_cb_method();
+  constexpr void*& __cordl_internal_get_cb_method();
 
-  constexpr void* const& __get_cb_method() const;
+  constexpr void* const& __cordl_internal_get_cb_method() const;
 
-  constexpr void __set_cb_method(void* value);
+  constexpr void __cordl_internal_set_cb_method(void* value);
 
-  constexpr ::System::Object*& __get_cb_target();
+  constexpr ::System::Object*& __cordl_internal_get_cb_target();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_cb_target() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_cb_target() const;
 
-  constexpr void __set_cb_target(::System::Object* value);
+  constexpr void __cordl_internal_set_cb_target(::System::Object* value);
 
-  constexpr ::System::Object*& __get_state();
+  constexpr ::System::Object*& __cordl_internal_get_state();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_state() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(::System::Object* value);
+  constexpr void __cordl_internal_set_state(::System::Object* value);
 
-  constexpr ::System::Object*& __get_res();
+  constexpr ::System::Object*& __cordl_internal_get_res();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_res() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_res() const;
 
-  constexpr void __set_res(::System::Object* value);
+  constexpr void __cordl_internal_set_res(::System::Object* value);
 
-  constexpr ::System::Object*& __get_out_args();
+  constexpr ::System::Object*& __cordl_internal_get_out_args();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_out_args() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_out_args() const;
 
-  constexpr void __set_out_args(::System::Object* value);
+  constexpr void __cordl_internal_set_out_args(::System::Object* value);
 
   static inline ::System::MonoAsyncCall* New_ctor();
 

@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::PenButton);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6245))
 // CS Name: ::UnityEngine.InputSystem::PenButton
 struct CORDL_TYPE PenButton {

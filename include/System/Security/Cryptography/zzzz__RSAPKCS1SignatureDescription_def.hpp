@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RSAPKCS1SignatureDescription);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2966))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2967))
 // CS Name: ::System.Security.Cryptography::RSAPKCS1SignatureDescription*
 class CORDL_TYPE RSAPKCS1SignatureDescription : public ::System::Security::Cryptography::SignatureDescription {
 public:
   // Declarations
   /// @brief Field _hashAlgorithm, offset 0x30, size 0x8
-  __declspec(property(get = __get__hashAlgorithm, put = __set__hashAlgorithm))::StringW _hashAlgorithm;
+  __declspec(property(get = __cordl_internal_get__hashAlgorithm, put = __cordl_internal_set__hashAlgorithm))::StringW _hashAlgorithm;
 
-  constexpr ::StringW& __get__hashAlgorithm();
+  constexpr ::StringW& __cordl_internal_get__hashAlgorithm();
 
-  constexpr ::StringW const& __get__hashAlgorithm() const;
+  constexpr ::StringW const& __cordl_internal_get__hashAlgorithm() const;
 
-  constexpr void __set__hashAlgorithm(::StringW value);
+  constexpr void __cordl_internal_set__hashAlgorithm(::StringW value);
 
   static inline ::System::Security::Cryptography::RSAPKCS1SignatureDescription* New_ctor(::StringW hashAlgorithm, ::StringW digestAlgorithm);
 

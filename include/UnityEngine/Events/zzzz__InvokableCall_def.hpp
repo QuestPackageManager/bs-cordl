@@ -24,20 +24,20 @@ MARK_REF_PTR_T(::UnityEngine::Events::InvokableCall);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10450))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10450))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10451))
 // CS Name: ::UnityEngine.Events::InvokableCall*
 class CORDL_TYPE InvokableCall : public ::UnityEngine::Events::BaseInvokableCall {
 public:
   // Declarations
   /// @brief Field Delegate, offset 0x10, size 0x8
-  __declspec(property(get = __get_Delegate, put = __set_Delegate))::UnityEngine::Events::UnityAction* Delegate;
+  __declspec(property(get = __cordl_internal_get_Delegate, put = __cordl_internal_set_Delegate))::UnityEngine::Events::UnityAction* Delegate;
 
-  constexpr ::UnityEngine::Events::UnityAction*& __get_Delegate();
+  constexpr ::UnityEngine::Events::UnityAction*& __cordl_internal_get_Delegate();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction*> const& __get_Delegate() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityAction*> const& __cordl_internal_get_Delegate() const;
 
-  constexpr void __set_Delegate(::UnityEngine::Events::UnityAction* value);
+  constexpr void __cordl_internal_set_Delegate(::UnityEngine::Events::UnityAction* value);
 
   /// @brief Method add_Delegate, addr 0x2cf85b8, size 0x9c, virtual false, abstract: false, final false
   inline void add_Delegate(::UnityEngine::Events::UnityAction* value);

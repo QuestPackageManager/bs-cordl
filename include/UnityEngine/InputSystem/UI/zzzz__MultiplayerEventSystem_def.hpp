@@ -17,25 +17,25 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::UI::MultiplayerEventSystem);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13191))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13191))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6377))
 // CS Name: ::UnityEngine.InputSystem.UI::MultiplayerEventSystem*
 class CORDL_TYPE MultiplayerEventSystem : public ::UnityEngine::EventSystems::EventSystem {
 public:
   // Declarations
   /// @brief Field m_PlayerRoot, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_PlayerRoot, put = __set_m_PlayerRoot))::UnityEngine::GameObject* m_PlayerRoot;
+  __declspec(property(get = __cordl_internal_get_m_PlayerRoot, put = __cordl_internal_set_m_PlayerRoot))::UnityW<::UnityEngine::GameObject> m_PlayerRoot;
 
-  __declspec(property(get = get_playerRoot, put = set_playerRoot))::UnityEngine::GameObject* playerRoot;
+  __declspec(property(get = get_playerRoot, put = set_playerRoot))::UnityW<::UnityEngine::GameObject> playerRoot;
 
-  constexpr ::UnityEngine::GameObject*& __get_m_PlayerRoot();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_PlayerRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_PlayerRoot() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_PlayerRoot() const;
 
-  constexpr void __set_m_PlayerRoot(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_PlayerRoot(::UnityW<::UnityEngine::GameObject> value);
 
   /// @brief Method get_playerRoot, addr 0x2ad6510, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_playerRoot();
+  inline ::UnityW<::UnityEngine::GameObject> get_playerRoot();
 
   /// @brief Method set_playerRoot, addr 0x2ad6518, size 0x8, virtual false, abstract: false, final false
   inline void set_playerRoot(::UnityEngine::GameObject* value);
@@ -72,7 +72,7 @@ protected:
 
 public:
   /// @brief Field m_PlayerRoot, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_PlayerRoot;
+  ::UnityW<::UnityEngine::GameObject> ___m_PlayerRoot;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -36,65 +36,65 @@ MARK_REF_PTR_T(::System::Net::__WebUtility__UrlDecoder);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9098))
 // CS Name: ::WebUtility::UrlDecoder*
 class CORDL_TYPE __WebUtility__UrlDecoder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _bufferSize, offset 0x10, size 0x4
-  __declspec(property(get = __get__bufferSize, put = __set__bufferSize)) int32_t _bufferSize;
+  __declspec(property(get = __cordl_internal_get__bufferSize, put = __cordl_internal_set__bufferSize)) int32_t _bufferSize;
 
   /// @brief Field _numChars, offset 0x14, size 0x4
-  __declspec(property(get = __get__numChars, put = __set__numChars)) int32_t _numChars;
+  __declspec(property(get = __cordl_internal_get__numChars, put = __cordl_internal_set__numChars)) int32_t _numChars;
 
   /// @brief Field _charBuffer, offset 0x18, size 0x8
-  __declspec(property(get = __get__charBuffer, put = __set__charBuffer))::ArrayW<char16_t, ::Array<char16_t>*> _charBuffer;
+  __declspec(property(get = __cordl_internal_get__charBuffer, put = __cordl_internal_set__charBuffer))::ArrayW<char16_t, ::Array<char16_t>*> _charBuffer;
 
   /// @brief Field _numBytes, offset 0x20, size 0x4
-  __declspec(property(get = __get__numBytes, put = __set__numBytes)) int32_t _numBytes;
+  __declspec(property(get = __cordl_internal_get__numBytes, put = __cordl_internal_set__numBytes)) int32_t _numBytes;
 
   /// @brief Field _byteBuffer, offset 0x28, size 0x8
-  __declspec(property(get = __get__byteBuffer, put = __set__byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _byteBuffer;
+  __declspec(property(get = __cordl_internal_get__byteBuffer, put = __cordl_internal_set__byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _byteBuffer;
 
   /// @brief Field _encoding, offset 0x30, size 0x8
-  __declspec(property(get = __get__encoding, put = __set__encoding))::System::Text::Encoding* _encoding;
+  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding))::System::Text::Encoding* _encoding;
 
-  constexpr int32_t& __get__bufferSize();
+  constexpr int32_t& __cordl_internal_get__bufferSize();
 
-  constexpr int32_t const& __get__bufferSize() const;
+  constexpr int32_t const& __cordl_internal_get__bufferSize() const;
 
-  constexpr void __set__bufferSize(int32_t value);
+  constexpr void __cordl_internal_set__bufferSize(int32_t value);
 
-  constexpr int32_t& __get__numChars();
+  constexpr int32_t& __cordl_internal_get__numChars();
 
-  constexpr int32_t const& __get__numChars() const;
+  constexpr int32_t const& __cordl_internal_get__numChars() const;
 
-  constexpr void __set__numChars(int32_t value);
+  constexpr void __cordl_internal_set__numChars(int32_t value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get__charBuffer();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__charBuffer();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get__charBuffer() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__charBuffer() const;
 
-  constexpr void __set__charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set__charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr int32_t& __get__numBytes();
+  constexpr int32_t& __cordl_internal_get__numBytes();
 
-  constexpr int32_t const& __get__numBytes() const;
+  constexpr int32_t const& __cordl_internal_get__numBytes() const;
 
-  constexpr void __set__numBytes(int32_t value);
+  constexpr void __cordl_internal_set__numBytes(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__byteBuffer();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__byteBuffer();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__byteBuffer() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__byteBuffer() const;
 
-  constexpr void __set__byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Text::Encoding*& __get__encoding();
+  constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __get__encoding() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__encoding() const;
 
-  constexpr void __set__encoding(::System::Text::Encoding* value);
+  constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
 
   /// @brief Method FlushBytes, addr 0x29a5cf0, size 0x60, virtual false, abstract: false, final false
   inline void FlushBytes();
@@ -167,7 +167,7 @@ static_assert(offsetof(::System::Net::__WebUtility__UrlDecoder, ____encoding) ==
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9313)), TypeDefinitionIndex(TypeDefinitionIndex(9314))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9313)), TypeDefinitionIndex(TypeDefinitionIndex(9314))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9099))
 // CS Name: ::System.Net::WebUtility*
 class CORDL_TYPE WebUtility : public ::System::Object {

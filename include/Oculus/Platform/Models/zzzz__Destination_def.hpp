@@ -16,38 +16,38 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Destination);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13431))
 // CS Name: ::Oculus.Platform.Models::Destination*
 class CORDL_TYPE Destination : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ApiName, offset 0x10, size 0x8
-  __declspec(property(get = __get_ApiName, put = __set_ApiName))::StringW ApiName;
+  __declspec(property(get = __cordl_internal_get_ApiName, put = __cordl_internal_set_ApiName))::StringW ApiName;
 
   /// @brief Field DeeplinkMessage, offset 0x18, size 0x8
-  __declspec(property(get = __get_DeeplinkMessage, put = __set_DeeplinkMessage))::StringW DeeplinkMessage;
+  __declspec(property(get = __cordl_internal_get_DeeplinkMessage, put = __cordl_internal_set_DeeplinkMessage))::StringW DeeplinkMessage;
 
   /// @brief Field DisplayName, offset 0x20, size 0x8
-  __declspec(property(get = __get_DisplayName, put = __set_DisplayName))::StringW DisplayName;
+  __declspec(property(get = __cordl_internal_get_DisplayName, put = __cordl_internal_set_DisplayName))::StringW DisplayName;
 
-  constexpr ::StringW& __get_ApiName();
+  constexpr ::StringW& __cordl_internal_get_ApiName();
 
-  constexpr ::StringW const& __get_ApiName() const;
+  constexpr ::StringW const& __cordl_internal_get_ApiName() const;
 
-  constexpr void __set_ApiName(::StringW value);
+  constexpr void __cordl_internal_set_ApiName(::StringW value);
 
-  constexpr ::StringW& __get_DeeplinkMessage();
+  constexpr ::StringW& __cordl_internal_get_DeeplinkMessage();
 
-  constexpr ::StringW const& __get_DeeplinkMessage() const;
+  constexpr ::StringW const& __cordl_internal_get_DeeplinkMessage() const;
 
-  constexpr void __set_DeeplinkMessage(::StringW value);
+  constexpr void __cordl_internal_set_DeeplinkMessage(::StringW value);
 
-  constexpr ::StringW& __get_DisplayName();
+  constexpr ::StringW& __cordl_internal_get_DisplayName();
 
-  constexpr ::StringW const& __get_DisplayName() const;
+  constexpr ::StringW const& __cordl_internal_get_DisplayName() const;
 
-  constexpr void __set_DisplayName(::StringW value);
+  constexpr void __cordl_internal_set_DisplayName(::StringW value);
 
   static inline ::Oculus::Platform::Models::Destination* New_ctor(void* o);
 

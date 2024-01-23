@@ -19,7 +19,7 @@ MARK_VAL_T(::UnityEngine::HumanBone);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14850))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14850))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14851))
 // CS Name: ::UnityEngine::HumanBone
 struct CORDL_TYPE HumanBone {

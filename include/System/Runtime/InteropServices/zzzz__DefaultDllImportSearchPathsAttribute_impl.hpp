@@ -11,33 +11,33 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x24d72e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::InteropServices::DllImportSearchPath>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::InteropServices::DllImportSearchPath>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::System::Runtime::InteropServices::DllImportSearchPath& System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::__get__paths() {
+constexpr ::System::Runtime::InteropServices::DllImportSearchPath& System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::__cordl_internal_get__paths() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____paths;
 }
-constexpr ::System::Runtime::InteropServices::DllImportSearchPath const& System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::__get__paths() const {
+constexpr ::System::Runtime::InteropServices::DllImportSearchPath const& System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::__cordl_internal_get__paths() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____paths;
 }
-constexpr void System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::__set__paths(::System::Runtime::InteropServices::DllImportSearchPath value) {
+constexpr void System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::__cordl_internal_set__paths(::System::Runtime::InteropServices::DllImportSearchPath value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____paths = value;
 }
 inline ::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute*
 System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::New_ctor(::System::Runtime::InteropServices::DllImportSearchPath paths) {
-  return THROW_UNLESS(::il2cpp_utils::New<::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute*>(paths));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute*>(paths));
 }
 inline void System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute::_ctor(::System::Runtime::InteropServices::DllImportSearchPath paths) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::InteropServices::DllImportSearchPath>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::DefaultDllImportSearchPathsAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::InteropServices::DllImportSearchPath>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, paths);
 }
 // Ctor Parameters []

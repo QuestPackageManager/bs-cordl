@@ -102,7 +102,7 @@ MARK_VAL_T(::System::Globalization::__TimeSpanParse__TimeSpanTokenizer);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3684))
 // CS Name: ::TimeSpanParse::ParseFailureKind
 struct CORDL_TYPE __TimeSpanParse__ParseFailureKind {
@@ -164,7 +164,7 @@ static_assert(offsetof(::System::Globalization::__TimeSpanParse__ParseFailureKin
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3685))
 // CS Name: ::TimeSpanParse::TimeSpanStandardStyles
 struct CORDL_TYPE __TimeSpanParse__TimeSpanStandardStyles {
@@ -226,7 +226,7 @@ static_assert(offsetof(::System::Globalization::__TimeSpanParse__TimeSpanStandar
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3686))
 // CS Name: ::TimeSpanParse::TTT
 struct CORDL_TYPE __TimeSpanParse__TTT {
@@ -288,8 +288,8 @@ static_assert(offsetof(::System::Globalization::__TimeSpanParse__TTT, value__) =
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3686))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3687)) CS Name: ::TimeSpanParse::TimeSpanToken
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2464)), TypeDefinitionIndex(TypeDefinitionIndex(3686)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3687)) CS Name: ::TimeSpanParse::TimeSpanToken
 struct CORDL_TYPE __TimeSpanParse__TimeSpanToken {
 public:
   // Declarations
@@ -349,7 +349,7 @@ static_assert(offsetof(::System::Globalization::__TimeSpanParse__TimeSpanToken, 
 // SizeInfo { instance_size: 24, native_size: 24, calculated_instance_size: 24, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 }), TypeDefinitionIndex(TypeDefinitionIndex(2464))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3688))
 // CS Name: ::TimeSpanParse::TimeSpanTokenizer
 struct CORDL_TYPE __TimeSpanParse__TimeSpanTokenizer {
@@ -407,8 +407,8 @@ static_assert(offsetof(::System::Globalization::__TimeSpanParse__TimeSpanTokeniz
 // SizeInfo { instance_size: 376, native_size: -1, calculated_instance_size: 376, calculated_native_size: 392, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3682)), TypeDefinitionIndex(TypeDefinitionIndex(2464)), TypeDefinitionIndex(TypeDefinitionIndex(3686)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3687)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(3689)) CS
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2464)), TypeDefinitionIndex(TypeDefinitionIndex(3682)), TypeDefinitionIndex(TypeDefinitionIndex(3686)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3687)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(3689)) CS
 // Name: ::TimeSpanParse::TimeSpanRawInfo
 struct CORDL_TYPE __TimeSpanParse__TimeSpanRawInfo {
 public:
@@ -615,7 +615,7 @@ static_assert(offsetof(::System::Globalization::__TimeSpanParse__TimeSpanRawInfo
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2484))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2484))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3690))
 // CS Name: ::TimeSpanParse::TimeSpanResult
 struct CORDL_TYPE __TimeSpanParse__TimeSpanResult {
@@ -657,7 +657,7 @@ static_assert(offsetof(::System::Globalization::__TimeSpanParse__TimeSpanResult,
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 }), TypeDefinitionIndex(TypeDefinitionIndex(2464))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2464)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2464), inst: 292 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3691))
 // CS Name: ::TimeSpanParse::StringParser
 struct CORDL_TYPE __TimeSpanParse__StringParser {
@@ -722,7 +722,7 @@ static_assert(offsetof(::System::Globalization::__TimeSpanParse__StringParser, _
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3692))
 // CS Name: ::System.Globalization::TimeSpanParse*
 class CORDL_TYPE TimeSpanParse : public ::System::Object {

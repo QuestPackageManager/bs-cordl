@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Xml::Ucs4Decoder2143);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11562))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11562))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11565))
 // CS Name: ::System.Xml::Ucs4Decoder2143*
 class CORDL_TYPE Ucs4Decoder2143 : public ::System::Xml::Ucs4Decoder {

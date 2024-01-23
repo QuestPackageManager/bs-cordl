@@ -53,7 +53,7 @@ MARK_REF_PTR_T(::Mono::Xml::__SmallXmlParser__IContentHandler);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Xml {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2251))
 // CS Name: ::SmallXmlParser::IContentHandler*
 class CORDL_TYPE __SmallXmlParser__IContentHandler {
@@ -96,7 +96,7 @@ public:
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Xml {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2252))
 // CS Name: ::SmallXmlParser::IAttrList*
 class CORDL_TYPE __SmallXmlParser__IAttrList {
@@ -142,17 +142,17 @@ public:
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2253))
 // CS Name: ::SmallXmlParser::AttrListImpl*
 class CORDL_TYPE __SmallXmlParser__AttrListImpl : public ::System::Object {
 public:
   // Declarations
   /// @brief Field attrNames, offset 0x10, size 0x8
-  __declspec(property(get = __get_attrNames, put = __set_attrNames))::System::Collections::Generic::List_1<::StringW>* attrNames;
+  __declspec(property(get = __cordl_internal_get_attrNames, put = __cordl_internal_set_attrNames))::System::Collections::Generic::List_1<::StringW>* attrNames;
 
   /// @brief Field attrValues, offset 0x18, size 0x8
-  __declspec(property(get = __get_attrValues, put = __set_attrValues))::System::Collections::Generic::List_1<::StringW>* attrValues;
+  __declspec(property(get = __cordl_internal_get_attrValues, put = __cordl_internal_set_attrValues))::System::Collections::Generic::List_1<::StringW>* attrValues;
 
   __declspec(property(get = get_Length)) int32_t Length;
 
@@ -166,17 +166,17 @@ public:
   /// @brief Convert to "::Mono::Xml::__SmallXmlParser__IAttrList"
   constexpr ::Mono::Xml::__SmallXmlParser__IAttrList* i___Mono__Xml____SmallXmlParser__IAttrList() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_attrNames();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_attrNames();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_attrNames() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_attrNames() const;
 
-  constexpr void __set_attrNames(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_attrNames(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_attrValues();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_attrValues();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_attrValues() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_attrValues() const;
 
-  constexpr void __set_attrValues(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_attrValues(::System::Collections::Generic::List_1<::StringW>* value);
 
   /// @brief Method get_Length, addr 0x24150ec, size 0x48, virtual true, abstract: false, final true
   inline int32_t get_Length();
@@ -241,7 +241,7 @@ static_assert(offsetof(::Mono::Xml::__SmallXmlParser__AttrListImpl, ___attrValue
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2254))
 // CS Name: ::Mono.Xml::SmallXmlParser*
 class CORDL_TYPE SmallXmlParser : public ::System::Object {
@@ -254,112 +254,112 @@ public:
   using IContentHandler = ::Mono::Xml::__SmallXmlParser__IContentHandler;
 
   /// @brief Field handler, offset 0x10, size 0x8
-  __declspec(property(get = __get_handler, put = __set_handler))::Mono::Xml::__SmallXmlParser__IContentHandler* handler;
+  __declspec(property(get = __cordl_internal_get_handler, put = __cordl_internal_set_handler))::Mono::Xml::__SmallXmlParser__IContentHandler* handler;
 
   /// @brief Field reader, offset 0x18, size 0x8
-  __declspec(property(get = __get_reader, put = __set_reader))::System::IO::TextReader* reader;
+  __declspec(property(get = __cordl_internal_get_reader, put = __cordl_internal_set_reader))::System::IO::TextReader* reader;
 
   /// @brief Field elementNames, offset 0x20, size 0x8
-  __declspec(property(get = __get_elementNames, put = __set_elementNames))::System::Collections::Stack* elementNames;
+  __declspec(property(get = __cordl_internal_get_elementNames, put = __cordl_internal_set_elementNames))::System::Collections::Stack* elementNames;
 
   /// @brief Field xmlSpaces, offset 0x28, size 0x8
-  __declspec(property(get = __get_xmlSpaces, put = __set_xmlSpaces))::System::Collections::Stack* xmlSpaces;
+  __declspec(property(get = __cordl_internal_get_xmlSpaces, put = __cordl_internal_set_xmlSpaces))::System::Collections::Stack* xmlSpaces;
 
   /// @brief Field xmlSpace, offset 0x30, size 0x8
-  __declspec(property(get = __get_xmlSpace, put = __set_xmlSpace))::StringW xmlSpace;
+  __declspec(property(get = __cordl_internal_get_xmlSpace, put = __cordl_internal_set_xmlSpace))::StringW xmlSpace;
 
   /// @brief Field buffer, offset 0x38, size 0x8
-  __declspec(property(get = __get_buffer, put = __set_buffer))::System::Text::StringBuilder* buffer;
+  __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer))::System::Text::StringBuilder* buffer;
 
   /// @brief Field nameBuffer, offset 0x40, size 0x8
-  __declspec(property(get = __get_nameBuffer, put = __set_nameBuffer))::ArrayW<char16_t, ::Array<char16_t>*> nameBuffer;
+  __declspec(property(get = __cordl_internal_get_nameBuffer, put = __cordl_internal_set_nameBuffer))::ArrayW<char16_t, ::Array<char16_t>*> nameBuffer;
 
   /// @brief Field isWhitespace, offset 0x48, size 0x1
-  __declspec(property(get = __get_isWhitespace, put = __set_isWhitespace)) bool isWhitespace;
+  __declspec(property(get = __cordl_internal_get_isWhitespace, put = __cordl_internal_set_isWhitespace)) bool isWhitespace;
 
   /// @brief Field attributes, offset 0x50, size 0x8
-  __declspec(property(get = __get_attributes, put = __set_attributes))::Mono::Xml::__SmallXmlParser__AttrListImpl* attributes;
+  __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes))::Mono::Xml::__SmallXmlParser__AttrListImpl* attributes;
 
   /// @brief Field line, offset 0x58, size 0x4
-  __declspec(property(get = __get_line, put = __set_line)) int32_t line;
+  __declspec(property(get = __cordl_internal_get_line, put = __cordl_internal_set_line)) int32_t line;
 
   /// @brief Field column, offset 0x5c, size 0x4
-  __declspec(property(get = __get_column, put = __set_column)) int32_t column;
+  __declspec(property(get = __cordl_internal_get_column, put = __cordl_internal_set_column)) int32_t column;
 
   /// @brief Field resetColumn, offset 0x60, size 0x1
-  __declspec(property(get = __get_resetColumn, put = __set_resetColumn)) bool resetColumn;
+  __declspec(property(get = __cordl_internal_get_resetColumn, put = __cordl_internal_set_resetColumn)) bool resetColumn;
 
-  constexpr ::Mono::Xml::__SmallXmlParser__IContentHandler*& __get_handler();
+  constexpr ::Mono::Xml::__SmallXmlParser__IContentHandler*& __cordl_internal_get_handler();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Xml::__SmallXmlParser__IContentHandler*> const& __get_handler() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Xml::__SmallXmlParser__IContentHandler*> const& __cordl_internal_get_handler() const;
 
-  constexpr void __set_handler(::Mono::Xml::__SmallXmlParser__IContentHandler* value);
+  constexpr void __cordl_internal_set_handler(::Mono::Xml::__SmallXmlParser__IContentHandler* value);
 
-  constexpr ::System::IO::TextReader*& __get_reader();
+  constexpr ::System::IO::TextReader*& __cordl_internal_get_reader();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextReader*> const& __get_reader() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextReader*> const& __cordl_internal_get_reader() const;
 
-  constexpr void __set_reader(::System::IO::TextReader* value);
+  constexpr void __cordl_internal_set_reader(::System::IO::TextReader* value);
 
-  constexpr ::System::Collections::Stack*& __get_elementNames();
+  constexpr ::System::Collections::Stack*& __cordl_internal_get_elementNames();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& __get_elementNames() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& __cordl_internal_get_elementNames() const;
 
-  constexpr void __set_elementNames(::System::Collections::Stack* value);
+  constexpr void __cordl_internal_set_elementNames(::System::Collections::Stack* value);
 
-  constexpr ::System::Collections::Stack*& __get_xmlSpaces();
+  constexpr ::System::Collections::Stack*& __cordl_internal_get_xmlSpaces();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& __get_xmlSpaces() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Stack*> const& __cordl_internal_get_xmlSpaces() const;
 
-  constexpr void __set_xmlSpaces(::System::Collections::Stack* value);
+  constexpr void __cordl_internal_set_xmlSpaces(::System::Collections::Stack* value);
 
-  constexpr ::StringW& __get_xmlSpace();
+  constexpr ::StringW& __cordl_internal_get_xmlSpace();
 
-  constexpr ::StringW const& __get_xmlSpace() const;
+  constexpr ::StringW const& __cordl_internal_get_xmlSpace() const;
 
-  constexpr void __set_xmlSpace(::StringW value);
+  constexpr void __cordl_internal_set_xmlSpace(::StringW value);
 
-  constexpr ::System::Text::StringBuilder*& __get_buffer();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_buffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get_buffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_buffer() const;
 
-  constexpr void __set_buffer(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set_buffer(::System::Text::StringBuilder* value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_nameBuffer();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_nameBuffer();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_nameBuffer() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_nameBuffer() const;
 
-  constexpr void __set_nameBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_nameBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr bool& __get_isWhitespace();
+  constexpr bool& __cordl_internal_get_isWhitespace();
 
-  constexpr bool const& __get_isWhitespace() const;
+  constexpr bool const& __cordl_internal_get_isWhitespace() const;
 
-  constexpr void __set_isWhitespace(bool value);
+  constexpr void __cordl_internal_set_isWhitespace(bool value);
 
-  constexpr ::Mono::Xml::__SmallXmlParser__AttrListImpl*& __get_attributes();
+  constexpr ::Mono::Xml::__SmallXmlParser__AttrListImpl*& __cordl_internal_get_attributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Xml::__SmallXmlParser__AttrListImpl*> const& __get_attributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Xml::__SmallXmlParser__AttrListImpl*> const& __cordl_internal_get_attributes() const;
 
-  constexpr void __set_attributes(::Mono::Xml::__SmallXmlParser__AttrListImpl* value);
+  constexpr void __cordl_internal_set_attributes(::Mono::Xml::__SmallXmlParser__AttrListImpl* value);
 
-  constexpr int32_t& __get_line();
+  constexpr int32_t& __cordl_internal_get_line();
 
-  constexpr int32_t const& __get_line() const;
+  constexpr int32_t const& __cordl_internal_get_line() const;
 
-  constexpr void __set_line(int32_t value);
+  constexpr void __cordl_internal_set_line(int32_t value);
 
-  constexpr int32_t& __get_column();
+  constexpr int32_t& __cordl_internal_get_column();
 
-  constexpr int32_t const& __get_column() const;
+  constexpr int32_t const& __cordl_internal_get_column() const;
 
-  constexpr void __set_column(int32_t value);
+  constexpr void __cordl_internal_set_column(int32_t value);
 
-  constexpr bool& __get_resetColumn();
+  constexpr bool& __cordl_internal_get_resetColumn();
 
-  constexpr bool const& __get_resetColumn() const;
+  constexpr bool const& __cordl_internal_get_resetColumn() const;
 
-  constexpr void __set_resetColumn(bool value);
+  constexpr void __cordl_internal_set_resetColumn(bool value);
 
   static inline ::Mono::Xml::SmallXmlParser* New_ctor();
 

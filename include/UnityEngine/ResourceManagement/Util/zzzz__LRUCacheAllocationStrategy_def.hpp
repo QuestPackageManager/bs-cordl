@@ -30,26 +30,28 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrate
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13979))
 // CS Name: ::UnityEngine.ResourceManagement.Util::LRUCacheAllocationStrategy*
 class CORDL_TYPE LRUCacheAllocationStrategy : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_poolMaxSize, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_poolMaxSize, put = __set_m_poolMaxSize)) int32_t m_poolMaxSize;
+  __declspec(property(get = __cordl_internal_get_m_poolMaxSize, put = __cordl_internal_set_m_poolMaxSize)) int32_t m_poolMaxSize;
 
   /// @brief Field m_poolInitialCapacity, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_poolInitialCapacity, put = __set_m_poolInitialCapacity)) int32_t m_poolInitialCapacity;
+  __declspec(property(get = __cordl_internal_get_m_poolInitialCapacity, put = __cordl_internal_set_m_poolInitialCapacity)) int32_t m_poolInitialCapacity;
 
   /// @brief Field m_poolCacheMaxSize, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_poolCacheMaxSize, put = __set_m_poolCacheMaxSize)) int32_t m_poolCacheMaxSize;
+  __declspec(property(get = __cordl_internal_get_m_poolCacheMaxSize, put = __cordl_internal_set_m_poolCacheMaxSize)) int32_t m_poolCacheMaxSize;
 
   /// @brief Field m_poolCache, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_poolCache, put = __set_m_poolCache))::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>* m_poolCache;
+  __declspec(property(get = __cordl_internal_get_m_poolCache,
+                      put = __cordl_internal_set_m_poolCache))::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>* m_poolCache;
 
   /// @brief Field m_cache, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_cache, put = __set_m_cache))::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>* m_cache;
+  __declspec(property(get = __cordl_internal_get_m_cache,
+                      put = __cordl_internal_set_m_cache))::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>* m_cache;
 
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*() noexcept;
@@ -57,35 +59,36 @@ public:
   /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
   constexpr ::UnityEngine::ResourceManagement::Util::IAllocationStrategy* i___UnityEngine__ResourceManagement__Util__IAllocationStrategy() noexcept;
 
-  constexpr int32_t& __get_m_poolMaxSize();
+  constexpr int32_t& __cordl_internal_get_m_poolMaxSize();
 
-  constexpr int32_t const& __get_m_poolMaxSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_poolMaxSize() const;
 
-  constexpr void __set_m_poolMaxSize(int32_t value);
+  constexpr void __cordl_internal_set_m_poolMaxSize(int32_t value);
 
-  constexpr int32_t& __get_m_poolInitialCapacity();
+  constexpr int32_t& __cordl_internal_get_m_poolInitialCapacity();
 
-  constexpr int32_t const& __get_m_poolInitialCapacity() const;
+  constexpr int32_t const& __cordl_internal_get_m_poolInitialCapacity() const;
 
-  constexpr void __set_m_poolInitialCapacity(int32_t value);
+  constexpr void __cordl_internal_set_m_poolInitialCapacity(int32_t value);
 
-  constexpr int32_t& __get_m_poolCacheMaxSize();
+  constexpr int32_t& __cordl_internal_get_m_poolCacheMaxSize();
 
-  constexpr int32_t const& __get_m_poolCacheMaxSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_poolCacheMaxSize() const;
 
-  constexpr void __set_m_poolCacheMaxSize(int32_t value);
+  constexpr void __cordl_internal_set_m_poolCacheMaxSize(int32_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>*& __get_m_poolCache();
+  constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>*& __cordl_internal_get_m_poolCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>*> const& __get_m_poolCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>*> const& __cordl_internal_get_m_poolCache() const;
 
-  constexpr void __set_m_poolCache(::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>* value);
+  constexpr void __cordl_internal_set_m_poolCache(::System::Collections::Generic::List_1<::System::Collections::Generic::List_1<::System::Object*>*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>*& __get_m_cache();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>*& __cordl_internal_get_m_cache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>*> const& __get_m_cache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>*> const&
+  __cordl_internal_get_m_cache() const;
 
-  constexpr void __set_m_cache(::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>* value);
+  constexpr void __cordl_internal_set_m_cache(::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>* value);
 
   static inline ::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy* New_ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity);
 

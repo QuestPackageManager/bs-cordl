@@ -27,7 +27,7 @@ namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15912))
 // CS Name: ::UnityEngine.ProBuilder.KdTree::IKdTree`2<TKey,TValue>*
 class CORDL_TYPE IKdTree_2 {

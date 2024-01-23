@@ -68,13 +68,13 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::WordWrapState);
 // SizeInfo { instance_size: 784, native_size: -1, calculated_instance_size: 784, calculated_native_size: 798, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 391 }), TypeDefinitionIndex(TypeDefinitionIndex(13723)), GenericInstantiation(GenericInstantiation
-// { tdi: TypeDefinitionIndex(13727), inst: 5144 }), TypeDefinitionIndex(TypeDefinitionIndex(13719)), TypeDefinitionIndex(TypeDefinitionIndex(13727)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(13727), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(13694)), TypeDefinitionIndex(TypeDefinitionIndex(13697)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(13727), inst: 5143 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5142 }), TypeDefinitionIndex(TypeDefinitionIndex(13718)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13695)), TypeDefinitionIndex(TypeDefinitionIndex(13726)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 742 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(13677)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5141 }), TypeDefinitionIndex(TypeDefinitionIndex(10250))} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(13709)) CS Name: ::UnityEngine.TextCore.Text::WordWrapState
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(13677)), TypeDefinitionIndex(TypeDefinitionIndex(13694)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13695)), TypeDefinitionIndex(TypeDefinitionIndex(13697)), TypeDefinitionIndex(TypeDefinitionIndex(13718)), TypeDefinitionIndex(TypeDefinitionIndex(13719)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13723)), TypeDefinitionIndex(TypeDefinitionIndex(13726)), TypeDefinitionIndex(TypeDefinitionIndex(13727)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(13727), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 391 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(13727), inst: 742 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5141 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(13727), inst: 5142 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13727), inst: 5143 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(13727), inst: 5144 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(13709)) CS Name: ::UnityEngine.TextCore.Text::WordWrapState
 struct CORDL_TYPE WordWrapState {
 public:
   // Declarations
@@ -99,7 +99,7 @@ public:
   // "::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: None }, CppParam { name: "strikethroughColorStack", ty:
   // "::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: None }, CppParam { name: "highlightColorStack", ty:
   // "::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::Color32>", modifiers: "", def_value: None }, CppParam { name: "colorGradientStack", ty:
-  // "::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::TextColorGradient*>", modifiers: "", def_value: None }, CppParam { name: "sizeStack", ty:
+  // "::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityW<::UnityEngine::TextCore::Text::TextColorGradient>>", modifiers: "", def_value: None }, CppParam { name: "sizeStack", ty:
   // "::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "indentStack", ty:
   // "::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t>", modifiers: "", def_value: None }, CppParam { name: "fontWeightStack", ty:
   // "::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::TextFontWeight>", modifiers: "", def_value: None }, CppParam { name: "styleStack", ty:
@@ -108,10 +108,11 @@ public:
   // "::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>", modifiers: "", def_value: None }, CppParam { name: "materialReferenceStack", ty:
   // "::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::MaterialReference>", modifiers: "", def_value: None }, CppParam { name: "lineJustificationStack", ty:
   // "::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::TextAlignment>", modifiers: "", def_value: None }, CppParam { name: "spriteAnimationId", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "currentFontAsset", ty: "::UnityEngine::TextCore::Text::FontAsset*", modifiers: "", def_value: None }, CppParam { name: "currentSpriteAsset",
-  // ty: "::UnityEngine::TextCore::Text::SpriteAsset*", modifiers: "", def_value: None }, CppParam { name: "currentMaterial", ty: "::UnityEngine::Material*", modifiers: "", def_value: None }, CppParam
-  // { name: "currentMaterialIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "meshExtents", ty: "::UnityEngine::TextCore::Text::Extents", modifiers: "", def_value: None },
-  // CppParam { name: "tagNoParsing", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isNonBreakingSpace", ty: "bool", modifiers: "", def_value: None }]
+  // modifiers: "", def_value: None }, CppParam { name: "currentFontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None }, CppParam { name:
+  // "currentSpriteAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>", modifiers: "", def_value: None }, CppParam { name: "currentMaterial", ty: "::UnityW<::UnityEngine::Material>",
+  // modifiers: "", def_value: None }, CppParam { name: "currentMaterialIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "meshExtents", ty:
+  // "::UnityEngine::TextCore::Text::Extents", modifiers: "", def_value: None }, CppParam { name: "tagNoParsing", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isNonBreakingSpace",
+  // ty: "bool", modifiers: "", def_value: None }]
   constexpr WordWrapState(int32_t previousWordBreak, int32_t totalCharacterCount, int32_t visibleCharacterCount, int32_t visibleSpriteCount, int32_t visibleLinkCount, int32_t firstCharacterIndex,
                           int32_t firstVisibleCharacterIndex, int32_t lastCharacterIndex, int32_t lastVisibleCharIndex, int32_t lineNumber, float_t maxCapHeight, float_t maxAscender,
                           float_t maxDescender, float_t maxLineAscender, float_t maxLineDescender, float_t previousLineAscender, float_t xAdvance, float_t preferredWidth, float_t preferredHeight,
@@ -122,15 +123,16 @@ public:
                           ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::Color32> underlineColorStack,
                           ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::Color32> strikethroughColorStack,
                           ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::Color32> highlightColorStack,
-                          ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::TextColorGradient*> colorGradientStack,
+                          ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityW<::UnityEngine::TextCore::Text::TextColorGradient>> colorGradientStack,
                           ::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t> sizeStack, ::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t> indentStack,
                           ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::TextFontWeight> fontWeightStack,
                           ::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t> styleStack, ::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t> baselineStack,
                           ::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t> actionStack,
                           ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::MaterialReference> materialReferenceStack,
                           ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::TextAlignment> lineJustificationStack, int32_t spriteAnimationId,
-                          ::UnityEngine::TextCore::Text::FontAsset* currentFontAsset, ::UnityEngine::TextCore::Text::SpriteAsset* currentSpriteAsset, ::UnityEngine::Material* currentMaterial,
-                          int32_t currentMaterialIndex, ::UnityEngine::TextCore::Text::Extents meshExtents, bool tagNoParsing, bool isNonBreakingSpace) noexcept;
+                          ::UnityW<::UnityEngine::TextCore::Text::FontAsset> currentFontAsset, ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> currentSpriteAsset,
+                          ::UnityW<::UnityEngine::Material> currentMaterial, int32_t currentMaterialIndex, ::UnityEngine::TextCore::Text::Extents meshExtents, bool tagNoParsing,
+                          bool isNonBreakingSpace) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -251,7 +253,7 @@ public:
   ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::Color32> highlightColorStack;
 
   /// @brief Field colorGradientStack, offset: 0x178, size: 0x28, def value: None
-  ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::TextColorGradient*> colorGradientStack;
+  ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityW<::UnityEngine::TextCore::Text::TextColorGradient>> colorGradientStack;
 
   /// @brief Field sizeStack, offset: 0x1a0, size: 0x20, def value: None
   ::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t> sizeStack;
@@ -281,13 +283,13 @@ public:
   int32_t spriteAnimationId;
 
   /// @brief Field currentFontAsset, offset: 0x2e0, size: 0x8, def value: None
-  ::UnityEngine::TextCore::Text::FontAsset* currentFontAsset;
+  ::UnityW<::UnityEngine::TextCore::Text::FontAsset> currentFontAsset;
 
   /// @brief Field currentSpriteAsset, offset: 0x2e8, size: 0x8, def value: None
-  ::UnityEngine::TextCore::Text::SpriteAsset* currentSpriteAsset;
+  ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> currentSpriteAsset;
 
   /// @brief Field currentMaterial, offset: 0x2f0, size: 0x8, def value: None
-  ::UnityEngine::Material* currentMaterial;
+  ::UnityW<::UnityEngine::Material> currentMaterial;
 
   /// @brief Field currentMaterialIndex, offset: 0x2f8, size: 0x4, def value: None
   int32_t currentMaterialIndex;

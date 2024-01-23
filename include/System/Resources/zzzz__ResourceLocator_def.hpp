@@ -21,7 +21,7 @@ MARK_VAL_T(::System::Resources::ResourceLocator);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3439))
 // CS Name: ::System.Resources::ResourceLocator
 struct CORDL_TYPE ResourceLocator {

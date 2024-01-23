@@ -43,23 +43,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpOnePassSignature);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1654))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpOnePassSignature*
 class CORDL_TYPE PgpOnePassSignature : public ::System::Object {
 public:
   // Declarations
   /// @brief Field sigPack, offset 0x10, size 0x8
-  __declspec(property(get = __get_sigPack, put = __set_sigPack))::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* sigPack;
+  __declspec(property(get = __cordl_internal_get_sigPack, put = __cordl_internal_set_sigPack))::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* sigPack;
 
   /// @brief Field signatureType, offset 0x18, size 0x4
-  __declspec(property(get = __get_signatureType, put = __set_signatureType)) int32_t signatureType;
+  __declspec(property(get = __cordl_internal_get_signatureType, put = __cordl_internal_set_signatureType)) int32_t signatureType;
 
   /// @brief Field sig, offset 0x20, size 0x8
-  __declspec(property(get = __get_sig, put = __set_sig))::Org::BouncyCastle::Crypto::ISigner* sig;
+  __declspec(property(get = __cordl_internal_get_sig, put = __cordl_internal_set_sig))::Org::BouncyCastle::Crypto::ISigner* sig;
 
   /// @brief Field lastb, offset 0x28, size 0x1
-  __declspec(property(get = __get_lastb, put = __set_lastb)) uint8_t lastb;
+  __declspec(property(get = __cordl_internal_get_lastb, put = __cordl_internal_set_lastb)) uint8_t lastb;
 
   __declspec(property(get = get_KeyId)) int64_t KeyId;
 
@@ -69,29 +69,29 @@ public:
 
   __declspec(property(get = get_KeyAlgorithm))::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag KeyAlgorithm;
 
-  constexpr ::Org::BouncyCastle::Bcpg::OnePassSignaturePacket*& __get_sigPack();
+  constexpr ::Org::BouncyCastle::Bcpg::OnePassSignaturePacket*& __cordl_internal_get_sigPack();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OnePassSignaturePacket*> const& __get_sigPack() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OnePassSignaturePacket*> const& __cordl_internal_get_sigPack() const;
 
-  constexpr void __set_sigPack(::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* value);
+  constexpr void __cordl_internal_set_sigPack(::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* value);
 
-  constexpr int32_t& __get_signatureType();
+  constexpr int32_t& __cordl_internal_get_signatureType();
 
-  constexpr int32_t const& __get_signatureType() const;
+  constexpr int32_t const& __cordl_internal_get_signatureType() const;
 
-  constexpr void __set_signatureType(int32_t value);
+  constexpr void __cordl_internal_set_signatureType(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __get_sig();
+  constexpr ::Org::BouncyCastle::Crypto::ISigner*& __cordl_internal_get_sig();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __get_sig() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISigner*> const& __cordl_internal_get_sig() const;
 
-  constexpr void __set_sig(::Org::BouncyCastle::Crypto::ISigner* value);
+  constexpr void __cordl_internal_set_sig(::Org::BouncyCastle::Crypto::ISigner* value);
 
-  constexpr uint8_t& __get_lastb();
+  constexpr uint8_t& __cordl_internal_get_lastb();
 
-  constexpr uint8_t const& __get_lastb() const;
+  constexpr uint8_t const& __cordl_internal_get_lastb() const;
 
-  constexpr void __set_lastb(uint8_t value);
+  constexpr void __cordl_internal_set_lastb(uint8_t value);
 
   /// @brief Method Cast, addr 0x10b1654, size 0xd0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Bcpg::OnePassSignaturePacket* Cast(::Org::BouncyCastle::Bcpg::Packet* packet);

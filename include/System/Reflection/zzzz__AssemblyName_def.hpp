@@ -62,59 +62,59 @@ MARK_REF_PTR_T(::System::Reflection::AssemblyName);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3750)), TypeDefinitionIndex(TypeDefinitionIndex(3486)), TypeDefinitionIndex(TypeDefinitionIndex(3446)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3454)), TypeDefinitionIndex(TypeDefinitionIndex(3751)), TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(3512))
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3446)), TypeDefinitionIndex(TypeDefinitionIndex(3454)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3486)), TypeDefinitionIndex(TypeDefinitionIndex(3750)), TypeDefinitionIndex(TypeDefinitionIndex(3751))] Self: TypeDefinitionIndex(TypeDefinitionIndex(3512))
 // CS Name: ::System.Reflection::AssemblyName*
 class CORDL_TYPE AssemblyName : public ::System::Object {
 public:
   // Declarations
   /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field codebase, offset 0x18, size 0x8
-  __declspec(property(get = __get_codebase, put = __set_codebase))::StringW codebase;
+  __declspec(property(get = __cordl_internal_get_codebase, put = __cordl_internal_set_codebase))::StringW codebase;
 
   /// @brief Field major, offset 0x20, size 0x4
-  __declspec(property(get = __get_major, put = __set_major)) int32_t major;
+  __declspec(property(get = __cordl_internal_get_major, put = __cordl_internal_set_major)) int32_t major;
 
   /// @brief Field minor, offset 0x24, size 0x4
-  __declspec(property(get = __get_minor, put = __set_minor)) int32_t minor;
+  __declspec(property(get = __cordl_internal_get_minor, put = __cordl_internal_set_minor)) int32_t minor;
 
   /// @brief Field build, offset 0x28, size 0x4
-  __declspec(property(get = __get_build, put = __set_build)) int32_t build;
+  __declspec(property(get = __cordl_internal_get_build, put = __cordl_internal_set_build)) int32_t build;
 
   /// @brief Field revision, offset 0x2c, size 0x4
-  __declspec(property(get = __get_revision, put = __set_revision)) int32_t revision;
+  __declspec(property(get = __cordl_internal_get_revision, put = __cordl_internal_set_revision)) int32_t revision;
 
   /// @brief Field cultureinfo, offset 0x30, size 0x8
-  __declspec(property(get = __get_cultureinfo, put = __set_cultureinfo))::System::Globalization::CultureInfo* cultureinfo;
+  __declspec(property(get = __cordl_internal_get_cultureinfo, put = __cordl_internal_set_cultureinfo))::System::Globalization::CultureInfo* cultureinfo;
 
   /// @brief Field flags, offset 0x38, size 0x4
-  __declspec(property(get = __get_flags, put = __set_flags))::System::Reflection::AssemblyNameFlags flags;
+  __declspec(property(get = __cordl_internal_get_flags, put = __cordl_internal_set_flags))::System::Reflection::AssemblyNameFlags flags;
 
   /// @brief Field hashalg, offset 0x3c, size 0x4
-  __declspec(property(get = __get_hashalg, put = __set_hashalg))::System::Configuration::Assemblies::AssemblyHashAlgorithm hashalg;
+  __declspec(property(get = __cordl_internal_get_hashalg, put = __cordl_internal_set_hashalg))::System::Configuration::Assemblies::AssemblyHashAlgorithm hashalg;
 
   /// @brief Field keypair, offset 0x40, size 0x8
-  __declspec(property(get = __get_keypair, put = __set_keypair))::System::Reflection::StrongNameKeyPair* keypair;
+  __declspec(property(get = __cordl_internal_get_keypair, put = __cordl_internal_set_keypair))::System::Reflection::StrongNameKeyPair* keypair;
 
   /// @brief Field publicKey, offset 0x48, size 0x8
-  __declspec(property(get = __get_publicKey, put = __set_publicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey;
+  __declspec(property(get = __cordl_internal_get_publicKey, put = __cordl_internal_set_publicKey))::ArrayW<uint8_t, ::Array<uint8_t>*> publicKey;
 
   /// @brief Field keyToken, offset 0x50, size 0x8
-  __declspec(property(get = __get_keyToken, put = __set_keyToken))::ArrayW<uint8_t, ::Array<uint8_t>*> keyToken;
+  __declspec(property(get = __cordl_internal_get_keyToken, put = __cordl_internal_set_keyToken))::ArrayW<uint8_t, ::Array<uint8_t>*> keyToken;
 
   /// @brief Field versioncompat, offset 0x58, size 0x4
-  __declspec(property(get = __get_versioncompat, put = __set_versioncompat))::System::Configuration::Assemblies::AssemblyVersionCompatibility versioncompat;
+  __declspec(property(get = __cordl_internal_get_versioncompat, put = __cordl_internal_set_versioncompat))::System::Configuration::Assemblies::AssemblyVersionCompatibility versioncompat;
 
   /// @brief Field version, offset 0x60, size 0x8
-  __declspec(property(get = __get_version, put = __set_version))::System::Version* version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::System::Version* version;
 
   /// @brief Field processor_architecture, offset 0x68, size 0x4
-  __declspec(property(get = __get_processor_architecture, put = __set_processor_architecture))::System::Reflection::ProcessorArchitecture processor_architecture;
+  __declspec(property(get = __cordl_internal_get_processor_architecture, put = __cordl_internal_set_processor_architecture))::System::Reflection::ProcessorArchitecture processor_architecture;
 
   /// @brief Field contentType, offset 0x6c, size 0x4
-  __declspec(property(get = __get_contentType, put = __set_contentType))::System::Reflection::AssemblyContentType contentType;
+  __declspec(property(get = __cordl_internal_get_contentType, put = __cordl_internal_set_contentType))::System::Reflection::AssemblyContentType contentType;
 
   __declspec(property(get = get_Name))::StringW Name;
 
@@ -152,101 +152,101 @@ public:
   /// @brief Convert to "::System::Runtime::InteropServices::_AssemblyName"
   constexpr ::System::Runtime::InteropServices::_AssemblyName* i___System__Runtime__InteropServices___AssemblyName() noexcept;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr ::StringW& __get_codebase();
+  constexpr ::StringW& __cordl_internal_get_codebase();
 
-  constexpr ::StringW const& __get_codebase() const;
+  constexpr ::StringW const& __cordl_internal_get_codebase() const;
 
-  constexpr void __set_codebase(::StringW value);
+  constexpr void __cordl_internal_set_codebase(::StringW value);
 
-  constexpr int32_t& __get_major();
+  constexpr int32_t& __cordl_internal_get_major();
 
-  constexpr int32_t const& __get_major() const;
+  constexpr int32_t const& __cordl_internal_get_major() const;
 
-  constexpr void __set_major(int32_t value);
+  constexpr void __cordl_internal_set_major(int32_t value);
 
-  constexpr int32_t& __get_minor();
+  constexpr int32_t& __cordl_internal_get_minor();
 
-  constexpr int32_t const& __get_minor() const;
+  constexpr int32_t const& __cordl_internal_get_minor() const;
 
-  constexpr void __set_minor(int32_t value);
+  constexpr void __cordl_internal_set_minor(int32_t value);
 
-  constexpr int32_t& __get_build();
+  constexpr int32_t& __cordl_internal_get_build();
 
-  constexpr int32_t const& __get_build() const;
+  constexpr int32_t const& __cordl_internal_get_build() const;
 
-  constexpr void __set_build(int32_t value);
+  constexpr void __cordl_internal_set_build(int32_t value);
 
-  constexpr int32_t& __get_revision();
+  constexpr int32_t& __cordl_internal_get_revision();
 
-  constexpr int32_t const& __get_revision() const;
+  constexpr int32_t const& __cordl_internal_get_revision() const;
 
-  constexpr void __set_revision(int32_t value);
+  constexpr void __cordl_internal_set_revision(int32_t value);
 
-  constexpr ::System::Globalization::CultureInfo*& __get_cultureinfo();
+  constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get_cultureinfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __get_cultureinfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __cordl_internal_get_cultureinfo() const;
 
-  constexpr void __set_cultureinfo(::System::Globalization::CultureInfo* value);
+  constexpr void __cordl_internal_set_cultureinfo(::System::Globalization::CultureInfo* value);
 
-  constexpr ::System::Reflection::AssemblyNameFlags& __get_flags();
+  constexpr ::System::Reflection::AssemblyNameFlags& __cordl_internal_get_flags();
 
-  constexpr ::System::Reflection::AssemblyNameFlags const& __get_flags() const;
+  constexpr ::System::Reflection::AssemblyNameFlags const& __cordl_internal_get_flags() const;
 
-  constexpr void __set_flags(::System::Reflection::AssemblyNameFlags value);
+  constexpr void __cordl_internal_set_flags(::System::Reflection::AssemblyNameFlags value);
 
-  constexpr ::System::Configuration::Assemblies::AssemblyHashAlgorithm& __get_hashalg();
+  constexpr ::System::Configuration::Assemblies::AssemblyHashAlgorithm& __cordl_internal_get_hashalg();
 
-  constexpr ::System::Configuration::Assemblies::AssemblyHashAlgorithm const& __get_hashalg() const;
+  constexpr ::System::Configuration::Assemblies::AssemblyHashAlgorithm const& __cordl_internal_get_hashalg() const;
 
-  constexpr void __set_hashalg(::System::Configuration::Assemblies::AssemblyHashAlgorithm value);
+  constexpr void __cordl_internal_set_hashalg(::System::Configuration::Assemblies::AssemblyHashAlgorithm value);
 
-  constexpr ::System::Reflection::StrongNameKeyPair*& __get_keypair();
+  constexpr ::System::Reflection::StrongNameKeyPair*& __cordl_internal_get_keypair();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::StrongNameKeyPair*> const& __get_keypair() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::StrongNameKeyPair*> const& __cordl_internal_get_keypair() const;
 
-  constexpr void __set_keypair(::System::Reflection::StrongNameKeyPair* value);
+  constexpr void __cordl_internal_set_keypair(::System::Reflection::StrongNameKeyPair* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_publicKey();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_publicKey();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_publicKey() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_publicKey() const;
 
-  constexpr void __set_publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_publicKey(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_keyToken();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_keyToken();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_keyToken() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_keyToken() const;
 
-  constexpr void __set_keyToken(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_keyToken(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Configuration::Assemblies::AssemblyVersionCompatibility& __get_versioncompat();
+  constexpr ::System::Configuration::Assemblies::AssemblyVersionCompatibility& __cordl_internal_get_versioncompat();
 
-  constexpr ::System::Configuration::Assemblies::AssemblyVersionCompatibility const& __get_versioncompat() const;
+  constexpr ::System::Configuration::Assemblies::AssemblyVersionCompatibility const& __cordl_internal_get_versioncompat() const;
 
-  constexpr void __set_versioncompat(::System::Configuration::Assemblies::AssemblyVersionCompatibility value);
+  constexpr void __cordl_internal_set_versioncompat(::System::Configuration::Assemblies::AssemblyVersionCompatibility value);
 
-  constexpr ::System::Version*& __get_version();
+  constexpr ::System::Version*& __cordl_internal_get_version();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __get_version() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Version*> const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(::System::Version* value);
+  constexpr void __cordl_internal_set_version(::System::Version* value);
 
-  constexpr ::System::Reflection::ProcessorArchitecture& __get_processor_architecture();
+  constexpr ::System::Reflection::ProcessorArchitecture& __cordl_internal_get_processor_architecture();
 
-  constexpr ::System::Reflection::ProcessorArchitecture const& __get_processor_architecture() const;
+  constexpr ::System::Reflection::ProcessorArchitecture const& __cordl_internal_get_processor_architecture() const;
 
-  constexpr void __set_processor_architecture(::System::Reflection::ProcessorArchitecture value);
+  constexpr void __cordl_internal_set_processor_architecture(::System::Reflection::ProcessorArchitecture value);
 
-  constexpr ::System::Reflection::AssemblyContentType& __get_contentType();
+  constexpr ::System::Reflection::AssemblyContentType& __cordl_internal_get_contentType();
 
-  constexpr ::System::Reflection::AssemblyContentType const& __get_contentType() const;
+  constexpr ::System::Reflection::AssemblyContentType const& __cordl_internal_get_contentType() const;
 
-  constexpr void __set_contentType(::System::Reflection::AssemblyContentType value);
+  constexpr void __cordl_internal_set_contentType(::System::Reflection::AssemblyContentType value);
 
   static inline ::System::Reflection::AssemblyName* New_ctor();
 

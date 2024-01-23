@@ -88,7 +88,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__TlsProtocol__HandshakeMessage
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3566))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3566))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1291))
 // CS Name: ::TlsProtocol::HandshakeMessage*
 class CORDL_TYPE __TlsProtocol__HandshakeMessage : public ::System::IO::MemoryStream {
@@ -134,7 +134,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1292))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsProtocol*
 class CORDL_TYPE TlsProtocol : public ::System::Object {
@@ -143,91 +143,91 @@ public:
   using HandshakeMessage = ::Org::BouncyCastle::Crypto::Tls::__TlsProtocol__HandshakeMessage;
 
   /// @brief Field mApplicationDataQueue, offset 0x10, size 0x8
-  __declspec(property(get = __get_mApplicationDataQueue, put = __set_mApplicationDataQueue))::Org::BouncyCastle::Crypto::Tls::ByteQueue* mApplicationDataQueue;
+  __declspec(property(get = __cordl_internal_get_mApplicationDataQueue, put = __cordl_internal_set_mApplicationDataQueue))::Org::BouncyCastle::Crypto::Tls::ByteQueue* mApplicationDataQueue;
 
   /// @brief Field mAlertQueue, offset 0x18, size 0x8
-  __declspec(property(get = __get_mAlertQueue, put = __set_mAlertQueue))::Org::BouncyCastle::Crypto::Tls::ByteQueue* mAlertQueue;
+  __declspec(property(get = __cordl_internal_get_mAlertQueue, put = __cordl_internal_set_mAlertQueue))::Org::BouncyCastle::Crypto::Tls::ByteQueue* mAlertQueue;
 
   /// @brief Field mHandshakeQueue, offset 0x20, size 0x8
-  __declspec(property(get = __get_mHandshakeQueue, put = __set_mHandshakeQueue))::Org::BouncyCastle::Crypto::Tls::ByteQueue* mHandshakeQueue;
+  __declspec(property(get = __cordl_internal_get_mHandshakeQueue, put = __cordl_internal_set_mHandshakeQueue))::Org::BouncyCastle::Crypto::Tls::ByteQueue* mHandshakeQueue;
 
   /// @brief Field mRecordStream, offset 0x28, size 0x8
-  __declspec(property(get = __get_mRecordStream, put = __set_mRecordStream))::Org::BouncyCastle::Crypto::Tls::RecordStream* mRecordStream;
+  __declspec(property(get = __cordl_internal_get_mRecordStream, put = __cordl_internal_set_mRecordStream))::Org::BouncyCastle::Crypto::Tls::RecordStream* mRecordStream;
 
   /// @brief Field mSecureRandom, offset 0x30, size 0x8
-  __declspec(property(get = __get_mSecureRandom, put = __set_mSecureRandom))::Org::BouncyCastle::Security::SecureRandom* mSecureRandom;
+  __declspec(property(get = __cordl_internal_get_mSecureRandom, put = __cordl_internal_set_mSecureRandom))::Org::BouncyCastle::Security::SecureRandom* mSecureRandom;
 
   /// @brief Field mTlsStream, offset 0x38, size 0x8
-  __declspec(property(get = __get_mTlsStream, put = __set_mTlsStream))::Org::BouncyCastle::Crypto::Tls::TlsStream* mTlsStream;
+  __declspec(property(get = __cordl_internal_get_mTlsStream, put = __cordl_internal_set_mTlsStream))::Org::BouncyCastle::Crypto::Tls::TlsStream* mTlsStream;
 
   /// @brief Field mClosed, offset 0x40, size 0x1
-  __declspec(property(get = __get_mClosed, put = __set_mClosed)) bool mClosed;
+  __declspec(property(get = __cordl_internal_get_mClosed, put = __cordl_internal_set_mClosed)) bool mClosed;
 
   /// @brief Field mFailedWithError, offset 0x41, size 0x1
-  __declspec(property(get = __get_mFailedWithError, put = __set_mFailedWithError)) bool mFailedWithError;
+  __declspec(property(get = __cordl_internal_get_mFailedWithError, put = __cordl_internal_set_mFailedWithError)) bool mFailedWithError;
 
   /// @brief Field mAppDataReady, offset 0x42, size 0x1
-  __declspec(property(get = __get_mAppDataReady, put = __set_mAppDataReady)) bool mAppDataReady;
+  __declspec(property(get = __cordl_internal_get_mAppDataReady, put = __cordl_internal_set_mAppDataReady)) bool mAppDataReady;
 
   /// @brief Field mAppDataSplitEnabled, offset 0x43, size 0x1
-  __declspec(property(get = __get_mAppDataSplitEnabled, put = __set_mAppDataSplitEnabled)) bool mAppDataSplitEnabled;
+  __declspec(property(get = __cordl_internal_get_mAppDataSplitEnabled, put = __cordl_internal_set_mAppDataSplitEnabled)) bool mAppDataSplitEnabled;
 
   /// @brief Field mAppDataSplitMode, offset 0x44, size 0x4
-  __declspec(property(get = __get_mAppDataSplitMode, put = __set_mAppDataSplitMode)) int32_t mAppDataSplitMode;
+  __declspec(property(get = __cordl_internal_get_mAppDataSplitMode, put = __cordl_internal_set_mAppDataSplitMode)) int32_t mAppDataSplitMode;
 
   /// @brief Field mExpectedVerifyData, offset 0x48, size 0x8
-  __declspec(property(get = __get_mExpectedVerifyData, put = __set_mExpectedVerifyData))::ArrayW<uint8_t, ::Array<uint8_t>*> mExpectedVerifyData;
+  __declspec(property(get = __cordl_internal_get_mExpectedVerifyData, put = __cordl_internal_set_mExpectedVerifyData))::ArrayW<uint8_t, ::Array<uint8_t>*> mExpectedVerifyData;
 
   /// @brief Field mTlsSession, offset 0x50, size 0x8
-  __declspec(property(get = __get_mTlsSession, put = __set_mTlsSession))::Org::BouncyCastle::Crypto::Tls::TlsSession* mTlsSession;
+  __declspec(property(get = __cordl_internal_get_mTlsSession, put = __cordl_internal_set_mTlsSession))::Org::BouncyCastle::Crypto::Tls::TlsSession* mTlsSession;
 
   /// @brief Field mSessionParameters, offset 0x58, size 0x8
-  __declspec(property(get = __get_mSessionParameters, put = __set_mSessionParameters))::Org::BouncyCastle::Crypto::Tls::SessionParameters* mSessionParameters;
+  __declspec(property(get = __cordl_internal_get_mSessionParameters, put = __cordl_internal_set_mSessionParameters))::Org::BouncyCastle::Crypto::Tls::SessionParameters* mSessionParameters;
 
   /// @brief Field mSecurityParameters, offset 0x60, size 0x8
-  __declspec(property(get = __get_mSecurityParameters, put = __set_mSecurityParameters))::Org::BouncyCastle::Crypto::Tls::SecurityParameters* mSecurityParameters;
+  __declspec(property(get = __cordl_internal_get_mSecurityParameters, put = __cordl_internal_set_mSecurityParameters))::Org::BouncyCastle::Crypto::Tls::SecurityParameters* mSecurityParameters;
 
   /// @brief Field mPeerCertificate, offset 0x68, size 0x8
-  __declspec(property(get = __get_mPeerCertificate, put = __set_mPeerCertificate))::Org::BouncyCastle::Crypto::Tls::Certificate* mPeerCertificate;
+  __declspec(property(get = __cordl_internal_get_mPeerCertificate, put = __cordl_internal_set_mPeerCertificate))::Org::BouncyCastle::Crypto::Tls::Certificate* mPeerCertificate;
 
   /// @brief Field mOfferedCipherSuites, offset 0x70, size 0x8
-  __declspec(property(get = __get_mOfferedCipherSuites, put = __set_mOfferedCipherSuites))::ArrayW<int32_t, ::Array<int32_t>*> mOfferedCipherSuites;
+  __declspec(property(get = __cordl_internal_get_mOfferedCipherSuites, put = __cordl_internal_set_mOfferedCipherSuites))::ArrayW<int32_t, ::Array<int32_t>*> mOfferedCipherSuites;
 
   /// @brief Field mOfferedCompressionMethods, offset 0x78, size 0x8
-  __declspec(property(get = __get_mOfferedCompressionMethods, put = __set_mOfferedCompressionMethods))::ArrayW<uint8_t, ::Array<uint8_t>*> mOfferedCompressionMethods;
+  __declspec(property(get = __cordl_internal_get_mOfferedCompressionMethods, put = __cordl_internal_set_mOfferedCompressionMethods))::ArrayW<uint8_t, ::Array<uint8_t>*> mOfferedCompressionMethods;
 
   /// @brief Field mClientExtensions, offset 0x80, size 0x8
-  __declspec(property(get = __get_mClientExtensions, put = __set_mClientExtensions))::System::Collections::IDictionary* mClientExtensions;
+  __declspec(property(get = __cordl_internal_get_mClientExtensions, put = __cordl_internal_set_mClientExtensions))::System::Collections::IDictionary* mClientExtensions;
 
   /// @brief Field mServerExtensions, offset 0x88, size 0x8
-  __declspec(property(get = __get_mServerExtensions, put = __set_mServerExtensions))::System::Collections::IDictionary* mServerExtensions;
+  __declspec(property(get = __cordl_internal_get_mServerExtensions, put = __cordl_internal_set_mServerExtensions))::System::Collections::IDictionary* mServerExtensions;
 
   /// @brief Field mConnectionState, offset 0x90, size 0x2
-  __declspec(property(get = __get_mConnectionState, put = __set_mConnectionState)) int16_t mConnectionState;
+  __declspec(property(get = __cordl_internal_get_mConnectionState, put = __cordl_internal_set_mConnectionState)) int16_t mConnectionState;
 
   /// @brief Field mResumedSession, offset 0x92, size 0x1
-  __declspec(property(get = __get_mResumedSession, put = __set_mResumedSession)) bool mResumedSession;
+  __declspec(property(get = __cordl_internal_get_mResumedSession, put = __cordl_internal_set_mResumedSession)) bool mResumedSession;
 
   /// @brief Field mReceivedChangeCipherSpec, offset 0x93, size 0x1
-  __declspec(property(get = __get_mReceivedChangeCipherSpec, put = __set_mReceivedChangeCipherSpec)) bool mReceivedChangeCipherSpec;
+  __declspec(property(get = __cordl_internal_get_mReceivedChangeCipherSpec, put = __cordl_internal_set_mReceivedChangeCipherSpec)) bool mReceivedChangeCipherSpec;
 
   /// @brief Field mSecureRenegotiation, offset 0x94, size 0x1
-  __declspec(property(get = __get_mSecureRenegotiation, put = __set_mSecureRenegotiation)) bool mSecureRenegotiation;
+  __declspec(property(get = __cordl_internal_get_mSecureRenegotiation, put = __cordl_internal_set_mSecureRenegotiation)) bool mSecureRenegotiation;
 
   /// @brief Field mAllowCertificateStatus, offset 0x95, size 0x1
-  __declspec(property(get = __get_mAllowCertificateStatus, put = __set_mAllowCertificateStatus)) bool mAllowCertificateStatus;
+  __declspec(property(get = __cordl_internal_get_mAllowCertificateStatus, put = __cordl_internal_set_mAllowCertificateStatus)) bool mAllowCertificateStatus;
 
   /// @brief Field mExpectSessionTicket, offset 0x96, size 0x1
-  __declspec(property(get = __get_mExpectSessionTicket, put = __set_mExpectSessionTicket)) bool mExpectSessionTicket;
+  __declspec(property(get = __cordl_internal_get_mExpectSessionTicket, put = __cordl_internal_set_mExpectSessionTicket)) bool mExpectSessionTicket;
 
   /// @brief Field mBlocking, offset 0x97, size 0x1
-  __declspec(property(get = __get_mBlocking, put = __set_mBlocking)) bool mBlocking;
+  __declspec(property(get = __cordl_internal_get_mBlocking, put = __cordl_internal_set_mBlocking)) bool mBlocking;
 
   /// @brief Field mInputBuffers, offset 0x98, size 0x8
-  __declspec(property(get = __get_mInputBuffers, put = __set_mInputBuffers))::Org::BouncyCastle::Crypto::Tls::ByteQueueStream* mInputBuffers;
+  __declspec(property(get = __cordl_internal_get_mInputBuffers, put = __cordl_internal_set_mInputBuffers))::Org::BouncyCastle::Crypto::Tls::ByteQueueStream* mInputBuffers;
 
   /// @brief Field mOutputBuffer, offset 0xa0, size 0x8
-  __declspec(property(get = __get_mOutputBuffer, put = __set_mOutputBuffer))::Org::BouncyCastle::Crypto::Tls::ByteQueueStream* mOutputBuffer;
+  __declspec(property(get = __cordl_internal_get_mOutputBuffer, put = __cordl_internal_set_mOutputBuffer))::Org::BouncyCastle::Crypto::Tls::ByteQueueStream* mOutputBuffer;
 
   __declspec(property(get = get_Context))::Org::BouncyCastle::Crypto::Tls::TlsContext* Context;
 
@@ -245,179 +245,179 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
   constexpr ::Org::BouncyCastle::Crypto::Tls::TlsCloseable* i___Org__BouncyCastle__Crypto__Tls__TlsCloseable() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueue*& __get_mApplicationDataQueue();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueue*& __cordl_internal_get_mApplicationDataQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ByteQueue*> const& __get_mApplicationDataQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ByteQueue*> const& __cordl_internal_get_mApplicationDataQueue() const;
 
-  constexpr void __set_mApplicationDataQueue(::Org::BouncyCastle::Crypto::Tls::ByteQueue* value);
+  constexpr void __cordl_internal_set_mApplicationDataQueue(::Org::BouncyCastle::Crypto::Tls::ByteQueue* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueue*& __get_mAlertQueue();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueue*& __cordl_internal_get_mAlertQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ByteQueue*> const& __get_mAlertQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ByteQueue*> const& __cordl_internal_get_mAlertQueue() const;
 
-  constexpr void __set_mAlertQueue(::Org::BouncyCastle::Crypto::Tls::ByteQueue* value);
+  constexpr void __cordl_internal_set_mAlertQueue(::Org::BouncyCastle::Crypto::Tls::ByteQueue* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueue*& __get_mHandshakeQueue();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueue*& __cordl_internal_get_mHandshakeQueue();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ByteQueue*> const& __get_mHandshakeQueue() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ByteQueue*> const& __cordl_internal_get_mHandshakeQueue() const;
 
-  constexpr void __set_mHandshakeQueue(::Org::BouncyCastle::Crypto::Tls::ByteQueue* value);
+  constexpr void __cordl_internal_set_mHandshakeQueue(::Org::BouncyCastle::Crypto::Tls::ByteQueue* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::RecordStream*& __get_mRecordStream();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::RecordStream*& __cordl_internal_get_mRecordStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::RecordStream*> const& __get_mRecordStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::RecordStream*> const& __cordl_internal_get_mRecordStream() const;
 
-  constexpr void __set_mRecordStream(::Org::BouncyCastle::Crypto::Tls::RecordStream* value);
+  constexpr void __cordl_internal_set_mRecordStream(::Org::BouncyCastle::Crypto::Tls::RecordStream* value);
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_mSecureRandom();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_mSecureRandom();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_mSecureRandom() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_mSecureRandom() const;
 
-  constexpr void __set_mSecureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_mSecureRandom(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsStream*& __get_mTlsStream();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsStream*& __cordl_internal_get_mTlsStream();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsStream*> const& __get_mTlsStream() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsStream*> const& __cordl_internal_get_mTlsStream() const;
 
-  constexpr void __set_mTlsStream(::Org::BouncyCastle::Crypto::Tls::TlsStream* value);
+  constexpr void __cordl_internal_set_mTlsStream(::Org::BouncyCastle::Crypto::Tls::TlsStream* value);
 
-  constexpr bool& __get_mClosed();
+  constexpr bool& __cordl_internal_get_mClosed();
 
-  constexpr bool const& __get_mClosed() const;
+  constexpr bool const& __cordl_internal_get_mClosed() const;
 
-  constexpr void __set_mClosed(bool value);
+  constexpr void __cordl_internal_set_mClosed(bool value);
 
-  constexpr bool& __get_mFailedWithError();
+  constexpr bool& __cordl_internal_get_mFailedWithError();
 
-  constexpr bool const& __get_mFailedWithError() const;
+  constexpr bool const& __cordl_internal_get_mFailedWithError() const;
 
-  constexpr void __set_mFailedWithError(bool value);
+  constexpr void __cordl_internal_set_mFailedWithError(bool value);
 
-  constexpr bool& __get_mAppDataReady();
+  constexpr bool& __cordl_internal_get_mAppDataReady();
 
-  constexpr bool const& __get_mAppDataReady() const;
+  constexpr bool const& __cordl_internal_get_mAppDataReady() const;
 
-  constexpr void __set_mAppDataReady(bool value);
+  constexpr void __cordl_internal_set_mAppDataReady(bool value);
 
-  constexpr bool& __get_mAppDataSplitEnabled();
+  constexpr bool& __cordl_internal_get_mAppDataSplitEnabled();
 
-  constexpr bool const& __get_mAppDataSplitEnabled() const;
+  constexpr bool const& __cordl_internal_get_mAppDataSplitEnabled() const;
 
-  constexpr void __set_mAppDataSplitEnabled(bool value);
+  constexpr void __cordl_internal_set_mAppDataSplitEnabled(bool value);
 
-  constexpr int32_t& __get_mAppDataSplitMode();
+  constexpr int32_t& __cordl_internal_get_mAppDataSplitMode();
 
-  constexpr int32_t const& __get_mAppDataSplitMode() const;
+  constexpr int32_t const& __cordl_internal_get_mAppDataSplitMode() const;
 
-  constexpr void __set_mAppDataSplitMode(int32_t value);
+  constexpr void __cordl_internal_set_mAppDataSplitMode(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mExpectedVerifyData();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mExpectedVerifyData();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mExpectedVerifyData() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mExpectedVerifyData() const;
 
-  constexpr void __set_mExpectedVerifyData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mExpectedVerifyData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSession*& __get_mTlsSession();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsSession*& __cordl_internal_get_mTlsSession();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSession*> const& __get_mTlsSession() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsSession*> const& __cordl_internal_get_mTlsSession() const;
 
-  constexpr void __set_mTlsSession(::Org::BouncyCastle::Crypto::Tls::TlsSession* value);
+  constexpr void __cordl_internal_set_mTlsSession(::Org::BouncyCastle::Crypto::Tls::TlsSession* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::SessionParameters*& __get_mSessionParameters();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::SessionParameters*& __cordl_internal_get_mSessionParameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::SessionParameters*> const& __get_mSessionParameters() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::SessionParameters*> const& __cordl_internal_get_mSessionParameters() const;
 
-  constexpr void __set_mSessionParameters(::Org::BouncyCastle::Crypto::Tls::SessionParameters* value);
+  constexpr void __cordl_internal_set_mSessionParameters(::Org::BouncyCastle::Crypto::Tls::SessionParameters* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::SecurityParameters*& __get_mSecurityParameters();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::SecurityParameters*& __cordl_internal_get_mSecurityParameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*> const& __get_mSecurityParameters() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::SecurityParameters*> const& __cordl_internal_get_mSecurityParameters() const;
 
-  constexpr void __set_mSecurityParameters(::Org::BouncyCastle::Crypto::Tls::SecurityParameters* value);
+  constexpr void __cordl_internal_set_mSecurityParameters(::Org::BouncyCastle::Crypto::Tls::SecurityParameters* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate*& __get_mPeerCertificate();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate*& __cordl_internal_get_mPeerCertificate();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::Certificate*> const& __get_mPeerCertificate() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::Certificate*> const& __cordl_internal_get_mPeerCertificate() const;
 
-  constexpr void __set_mPeerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* value);
+  constexpr void __cordl_internal_set_mPeerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_mOfferedCipherSuites();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_mOfferedCipherSuites();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_mOfferedCipherSuites() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_mOfferedCipherSuites() const;
 
-  constexpr void __set_mOfferedCipherSuites(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_mOfferedCipherSuites(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mOfferedCompressionMethods();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mOfferedCompressionMethods();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mOfferedCompressionMethods() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mOfferedCompressionMethods() const;
 
-  constexpr void __set_mOfferedCompressionMethods(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mOfferedCompressionMethods(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Collections::IDictionary*& __get_mClientExtensions();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_mClientExtensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get_mClientExtensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_mClientExtensions() const;
 
-  constexpr void __set_mClientExtensions(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set_mClientExtensions(::System::Collections::IDictionary* value);
 
-  constexpr ::System::Collections::IDictionary*& __get_mServerExtensions();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_mServerExtensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get_mServerExtensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_mServerExtensions() const;
 
-  constexpr void __set_mServerExtensions(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set_mServerExtensions(::System::Collections::IDictionary* value);
 
-  constexpr int16_t& __get_mConnectionState();
+  constexpr int16_t& __cordl_internal_get_mConnectionState();
 
-  constexpr int16_t const& __get_mConnectionState() const;
+  constexpr int16_t const& __cordl_internal_get_mConnectionState() const;
 
-  constexpr void __set_mConnectionState(int16_t value);
+  constexpr void __cordl_internal_set_mConnectionState(int16_t value);
 
-  constexpr bool& __get_mResumedSession();
+  constexpr bool& __cordl_internal_get_mResumedSession();
 
-  constexpr bool const& __get_mResumedSession() const;
+  constexpr bool const& __cordl_internal_get_mResumedSession() const;
 
-  constexpr void __set_mResumedSession(bool value);
+  constexpr void __cordl_internal_set_mResumedSession(bool value);
 
-  constexpr bool& __get_mReceivedChangeCipherSpec();
+  constexpr bool& __cordl_internal_get_mReceivedChangeCipherSpec();
 
-  constexpr bool const& __get_mReceivedChangeCipherSpec() const;
+  constexpr bool const& __cordl_internal_get_mReceivedChangeCipherSpec() const;
 
-  constexpr void __set_mReceivedChangeCipherSpec(bool value);
+  constexpr void __cordl_internal_set_mReceivedChangeCipherSpec(bool value);
 
-  constexpr bool& __get_mSecureRenegotiation();
+  constexpr bool& __cordl_internal_get_mSecureRenegotiation();
 
-  constexpr bool const& __get_mSecureRenegotiation() const;
+  constexpr bool const& __cordl_internal_get_mSecureRenegotiation() const;
 
-  constexpr void __set_mSecureRenegotiation(bool value);
+  constexpr void __cordl_internal_set_mSecureRenegotiation(bool value);
 
-  constexpr bool& __get_mAllowCertificateStatus();
+  constexpr bool& __cordl_internal_get_mAllowCertificateStatus();
 
-  constexpr bool const& __get_mAllowCertificateStatus() const;
+  constexpr bool const& __cordl_internal_get_mAllowCertificateStatus() const;
 
-  constexpr void __set_mAllowCertificateStatus(bool value);
+  constexpr void __cordl_internal_set_mAllowCertificateStatus(bool value);
 
-  constexpr bool& __get_mExpectSessionTicket();
+  constexpr bool& __cordl_internal_get_mExpectSessionTicket();
 
-  constexpr bool const& __get_mExpectSessionTicket() const;
+  constexpr bool const& __cordl_internal_get_mExpectSessionTicket() const;
 
-  constexpr void __set_mExpectSessionTicket(bool value);
+  constexpr void __cordl_internal_set_mExpectSessionTicket(bool value);
 
-  constexpr bool& __get_mBlocking();
+  constexpr bool& __cordl_internal_get_mBlocking();
 
-  constexpr bool const& __get_mBlocking() const;
+  constexpr bool const& __cordl_internal_get_mBlocking() const;
 
-  constexpr void __set_mBlocking(bool value);
+  constexpr void __cordl_internal_set_mBlocking(bool value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueueStream*& __get_mInputBuffers();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueueStream*& __cordl_internal_get_mInputBuffers();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ByteQueueStream*> const& __get_mInputBuffers() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ByteQueueStream*> const& __cordl_internal_get_mInputBuffers() const;
 
-  constexpr void __set_mInputBuffers(::Org::BouncyCastle::Crypto::Tls::ByteQueueStream* value);
+  constexpr void __cordl_internal_set_mInputBuffers(::Org::BouncyCastle::Crypto::Tls::ByteQueueStream* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueueStream*& __get_mOutputBuffer();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::ByteQueueStream*& __cordl_internal_get_mOutputBuffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ByteQueueStream*> const& __get_mOutputBuffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::ByteQueueStream*> const& __cordl_internal_get_mOutputBuffer() const;
 
-  constexpr void __set_mOutputBuffer(::Org::BouncyCastle::Crypto::Tls::ByteQueueStream* value);
+  constexpr void __cordl_internal_set_mOutputBuffer(::Org::BouncyCastle::Crypto::Tls::ByteQueueStream* value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsProtocol* New_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Security::SecureRandom* secureRandom);
 

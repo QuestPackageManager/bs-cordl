@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2d09db4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), 4));
@@ -26,7 +26,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2d09dbc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), 5));
@@ -40,7 +40,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2d09dc4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), 6));
@@ -54,7 +54,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2d09dcc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), 7));
@@ -68,9 +68,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x118;
   constexpr static std::size_t addrs = 0x2d01ff8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -82,7 +82,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
   constexpr static std::size_t size = 0x120;
   constexpr static std::size_t addrs = 0x2d09dd4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), 13));
@@ -97,7 +97,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x2d09ef4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), 12));
@@ -111,9 +111,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2d02994;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), "ResetCursor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -124,9 +124,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x378;
   constexpr static std::size_t addrs = 0x2d02de8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), "GetNext",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -137,10 +137,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa8;
   constexpr static std::size_t addrs = 0x2d02d40;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), "Add", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUILayoutEntry*>::get() })));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), "Add", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUILayoutEntry*>::get() })));
     return ___internal_method;
   }
 };
@@ -151,7 +151,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x630;
   constexpr static std::size_t addrs = 0x2d09f6c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), 8));
@@ -165,7 +165,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x814;
   constexpr static std::size_t addrs = 0x2d0a59c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), 10));
@@ -179,7 +179,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x580;
   constexpr static std::size_t addrs = 0x2d0adb0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), 9));
@@ -193,7 +193,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x820;
   constexpr static std::size_t addrs = 0x2d0b330;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), 11));
@@ -207,250 +207,250 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x420;
   constexpr static std::size_t addrs = 0x2d0bb50;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), 3));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>*& UnityEngine::GUILayoutGroup::__get_entries() {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>*& UnityEngine::GUILayoutGroup::__cordl_internal_get_entries() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entries;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>*> const& UnityEngine::GUILayoutGroup::__get_entries() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>*> const& UnityEngine::GUILayoutGroup::__cordl_internal_get_entries() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___entries;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_entries(::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>* value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_entries(::System::Collections::Generic::List_1<::UnityEngine::GUILayoutEntry*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___entries)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& UnityEngine::GUILayoutGroup::__get_isVertical() {
+constexpr bool& UnityEngine::GUILayoutGroup::__cordl_internal_get_isVertical() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isVertical;
 }
-constexpr bool const& UnityEngine::GUILayoutGroup::__get_isVertical() const {
+constexpr bool const& UnityEngine::GUILayoutGroup::__cordl_internal_get_isVertical() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isVertical;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_isVertical(bool value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_isVertical(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isVertical = value;
 }
-constexpr bool& UnityEngine::GUILayoutGroup::__get_resetCoords() {
+constexpr bool& UnityEngine::GUILayoutGroup::__cordl_internal_get_resetCoords() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resetCoords;
 }
-constexpr bool const& UnityEngine::GUILayoutGroup::__get_resetCoords() const {
+constexpr bool const& UnityEngine::GUILayoutGroup::__cordl_internal_get_resetCoords() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___resetCoords;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_resetCoords(bool value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_resetCoords(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___resetCoords = value;
 }
-constexpr float_t& UnityEngine::GUILayoutGroup::__get_spacing() {
+constexpr float_t& UnityEngine::GUILayoutGroup::__cordl_internal_get_spacing() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spacing;
 }
-constexpr float_t const& UnityEngine::GUILayoutGroup::__get_spacing() const {
+constexpr float_t const& UnityEngine::GUILayoutGroup::__cordl_internal_get_spacing() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___spacing;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_spacing(float_t value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_spacing(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___spacing = value;
 }
-constexpr bool& UnityEngine::GUILayoutGroup::__get_sameSize() {
+constexpr bool& UnityEngine::GUILayoutGroup::__cordl_internal_get_sameSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sameSize;
 }
-constexpr bool const& UnityEngine::GUILayoutGroup::__get_sameSize() const {
+constexpr bool const& UnityEngine::GUILayoutGroup::__cordl_internal_get_sameSize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sameSize;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_sameSize(bool value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_sameSize(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sameSize = value;
 }
-constexpr bool& UnityEngine::GUILayoutGroup::__get_isWindow() {
+constexpr bool& UnityEngine::GUILayoutGroup::__cordl_internal_get_isWindow() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isWindow;
 }
-constexpr bool const& UnityEngine::GUILayoutGroup::__get_isWindow() const {
+constexpr bool const& UnityEngine::GUILayoutGroup::__cordl_internal_get_isWindow() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isWindow;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_isWindow(bool value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_isWindow(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isWindow = value;
 }
-constexpr int32_t& UnityEngine::GUILayoutGroup::__get_windowID() {
+constexpr int32_t& UnityEngine::GUILayoutGroup::__cordl_internal_get_windowID() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowID;
 }
-constexpr int32_t const& UnityEngine::GUILayoutGroup::__get_windowID() const {
+constexpr int32_t const& UnityEngine::GUILayoutGroup::__cordl_internal_get_windowID() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___windowID;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_windowID(int32_t value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_windowID(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___windowID = value;
 }
-constexpr int32_t& UnityEngine::GUILayoutGroup::__get_m_Cursor() {
+constexpr int32_t& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_Cursor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Cursor;
 }
-constexpr int32_t const& UnityEngine::GUILayoutGroup::__get_m_Cursor() const {
+constexpr int32_t const& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_Cursor() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Cursor;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_m_Cursor(int32_t value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_m_Cursor(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Cursor = value;
 }
-constexpr int32_t& UnityEngine::GUILayoutGroup::__get_m_StretchableCountX() {
+constexpr int32_t& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_StretchableCountX() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StretchableCountX;
 }
-constexpr int32_t const& UnityEngine::GUILayoutGroup::__get_m_StretchableCountX() const {
+constexpr int32_t const& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_StretchableCountX() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StretchableCountX;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_m_StretchableCountX(int32_t value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_m_StretchableCountX(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StretchableCountX = value;
 }
-constexpr int32_t& UnityEngine::GUILayoutGroup::__get_m_StretchableCountY() {
+constexpr int32_t& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_StretchableCountY() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StretchableCountY;
 }
-constexpr int32_t const& UnityEngine::GUILayoutGroup::__get_m_StretchableCountY() const {
+constexpr int32_t const& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_StretchableCountY() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_StretchableCountY;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_m_StretchableCountY(int32_t value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_m_StretchableCountY(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StretchableCountY = value;
 }
-constexpr bool& UnityEngine::GUILayoutGroup::__get_m_UserSpecifiedWidth() {
+constexpr bool& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_UserSpecifiedWidth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UserSpecifiedWidth;
 }
-constexpr bool const& UnityEngine::GUILayoutGroup::__get_m_UserSpecifiedWidth() const {
+constexpr bool const& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_UserSpecifiedWidth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UserSpecifiedWidth;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_m_UserSpecifiedWidth(bool value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_m_UserSpecifiedWidth(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UserSpecifiedWidth = value;
 }
-constexpr bool& UnityEngine::GUILayoutGroup::__get_m_UserSpecifiedHeight() {
+constexpr bool& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_UserSpecifiedHeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UserSpecifiedHeight;
 }
-constexpr bool const& UnityEngine::GUILayoutGroup::__get_m_UserSpecifiedHeight() const {
+constexpr bool const& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_UserSpecifiedHeight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UserSpecifiedHeight;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_m_UserSpecifiedHeight(bool value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_m_UserSpecifiedHeight(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UserSpecifiedHeight = value;
 }
-constexpr float_t& UnityEngine::GUILayoutGroup::__get_m_ChildMinWidth() {
+constexpr float_t& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_ChildMinWidth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildMinWidth;
 }
-constexpr float_t const& UnityEngine::GUILayoutGroup::__get_m_ChildMinWidth() const {
+constexpr float_t const& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_ChildMinWidth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildMinWidth;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_m_ChildMinWidth(float_t value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_m_ChildMinWidth(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ChildMinWidth = value;
 }
-constexpr float_t& UnityEngine::GUILayoutGroup::__get_m_ChildMaxWidth() {
+constexpr float_t& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_ChildMaxWidth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildMaxWidth;
 }
-constexpr float_t const& UnityEngine::GUILayoutGroup::__get_m_ChildMaxWidth() const {
+constexpr float_t const& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_ChildMaxWidth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildMaxWidth;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_m_ChildMaxWidth(float_t value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_m_ChildMaxWidth(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ChildMaxWidth = value;
 }
-constexpr float_t& UnityEngine::GUILayoutGroup::__get_m_ChildMinHeight() {
+constexpr float_t& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_ChildMinHeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildMinHeight;
 }
-constexpr float_t const& UnityEngine::GUILayoutGroup::__get_m_ChildMinHeight() const {
+constexpr float_t const& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_ChildMinHeight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildMinHeight;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_m_ChildMinHeight(float_t value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_m_ChildMinHeight(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ChildMinHeight = value;
 }
-constexpr float_t& UnityEngine::GUILayoutGroup::__get_m_ChildMaxHeight() {
+constexpr float_t& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_ChildMaxHeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildMaxHeight;
 }
-constexpr float_t const& UnityEngine::GUILayoutGroup::__get_m_ChildMaxHeight() const {
+constexpr float_t const& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_ChildMaxHeight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ChildMaxHeight;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_m_ChildMaxHeight(float_t value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_m_ChildMaxHeight(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ChildMaxHeight = value;
 }
-constexpr int32_t& UnityEngine::GUILayoutGroup::__get_m_MarginLeft() {
+constexpr int32_t& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_MarginLeft() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MarginLeft;
 }
-constexpr int32_t const& UnityEngine::GUILayoutGroup::__get_m_MarginLeft() const {
+constexpr int32_t const& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_MarginLeft() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MarginLeft;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_m_MarginLeft(int32_t value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_m_MarginLeft(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MarginLeft = value;
 }
-constexpr int32_t& UnityEngine::GUILayoutGroup::__get_m_MarginRight() {
+constexpr int32_t& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_MarginRight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MarginRight;
 }
-constexpr int32_t const& UnityEngine::GUILayoutGroup::__get_m_MarginRight() const {
+constexpr int32_t const& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_MarginRight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MarginRight;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_m_MarginRight(int32_t value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_m_MarginRight(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MarginRight = value;
 }
-constexpr int32_t& UnityEngine::GUILayoutGroup::__get_m_MarginTop() {
+constexpr int32_t& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_MarginTop() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MarginTop;
 }
-constexpr int32_t const& UnityEngine::GUILayoutGroup::__get_m_MarginTop() const {
+constexpr int32_t const& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_MarginTop() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MarginTop;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_m_MarginTop(int32_t value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_m_MarginTop(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MarginTop = value;
 }
-constexpr int32_t& UnityEngine::GUILayoutGroup::__get_m_MarginBottom() {
+constexpr int32_t& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_MarginBottom() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MarginBottom;
 }
-constexpr int32_t const& UnityEngine::GUILayoutGroup::__get_m_MarginBottom() const {
+constexpr int32_t const& UnityEngine::GUILayoutGroup::__cordl_internal_get_m_MarginBottom() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_MarginBottom;
 }
-constexpr void UnityEngine::GUILayoutGroup::__set_m_MarginBottom(int32_t value) {
+constexpr void UnityEngine::GUILayoutGroup::__cordl_internal_set_m_MarginBottom(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MarginBottom = value;
 }
@@ -482,11 +482,11 @@ inline int32_t UnityEngine::GUILayoutGroup::get_marginBottom() {
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline ::UnityEngine::GUILayoutGroup* UnityEngine::GUILayoutGroup::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::GUILayoutGroup*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::GUILayoutGroup*>());
 }
 inline void UnityEngine::GUILayoutGroup::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::GUILayoutGroup::ApplyOptions(::ArrayW<::UnityEngine::GUILayoutOption*, ::Array<::UnityEngine::GUILayoutOption*>*> options) {
@@ -501,18 +501,18 @@ inline void UnityEngine::GUILayoutGroup::ApplyStyleSettings(::UnityEngine::GUISt
 }
 inline void UnityEngine::GUILayoutGroup::ResetCursor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), "ResetCursor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::UnityEngine::GUILayoutEntry* UnityEngine::GUILayoutGroup::GetNext() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), "GetNext",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::GUILayoutEntry*, false>(this, ___internal_method);
 }
 inline void UnityEngine::GUILayoutGroup::Add(::UnityEngine::GUILayoutEntry* e) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), "Add", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUILayoutEntry*>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUILayoutGroup*>::get(), "Add", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUILayoutEntry*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e);
 }
 inline void UnityEngine::GUILayoutGroup::CalcWidth() {

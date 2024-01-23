@@ -15,33 +15,33 @@ MARK_REF_PTR_T(::JetBrains::Annotations::RazorPageBaseTypeAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace JetBrains::Annotations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15804))
 // CS Name: ::JetBrains.Annotations::RazorPageBaseTypeAttribute*
 class CORDL_TYPE RazorPageBaseTypeAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <BaseType>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__BaseType_k__BackingField, put = __set__BaseType_k__BackingField))::StringW _BaseType_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__BaseType_k__BackingField, put = __cordl_internal_set__BaseType_k__BackingField))::StringW _BaseType_k__BackingField;
 
   /// @brief Field <PageName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__PageName_k__BackingField, put = __set__PageName_k__BackingField))::StringW _PageName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__PageName_k__BackingField, put = __cordl_internal_set__PageName_k__BackingField))::StringW _PageName_k__BackingField;
 
   __declspec(property(get = get_BaseType, put = set_BaseType))::StringW BaseType;
 
   __declspec(property(get = get_PageName, put = set_PageName))::StringW PageName;
 
-  constexpr ::StringW& __get__BaseType_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__BaseType_k__BackingField();
 
-  constexpr ::StringW const& __get__BaseType_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__BaseType_k__BackingField() const;
 
-  constexpr void __set__BaseType_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__BaseType_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__PageName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__PageName_k__BackingField();
 
-  constexpr ::StringW const& __get__PageName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__PageName_k__BackingField() const;
 
-  constexpr void __set__PageName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__PageName_k__BackingField(::StringW value);
 
   static inline ::JetBrains::Annotations::RazorPageBaseTypeAttribute* New_ctor(::StringW baseType);
 

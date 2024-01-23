@@ -33,7 +33,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleRotate);
 // SizeInfo { instance_size: 28, native_size: 28, calculated_instance_size: 28, calculated_native_size: 44, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7295)), TypeDefinitionIndex(TypeDefinitionIndex(7300))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7295)), TypeDefinitionIndex(TypeDefinitionIndex(7300))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7320))
 // CS Name: ::UnityEngine.UIElements::StyleRotate
 struct CORDL_TYPE StyleRotate {

@@ -19,22 +19,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Date::DateTimeObject);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Date {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1791))
 // CS Name: ::Org.BouncyCastle.Utilities.Date::DateTimeObject*
 class CORDL_TYPE DateTimeObject : public ::System::Object {
 public:
   // Declarations
   /// @brief Field dt, offset 0x10, size 0x8
-  __declspec(property(get = __get_dt, put = __set_dt))::System::DateTime dt;
+  __declspec(property(get = __cordl_internal_get_dt, put = __cordl_internal_set_dt))::System::DateTime dt;
 
   __declspec(property(get = get_Value))::System::DateTime Value;
 
-  constexpr ::System::DateTime& __get_dt();
+  constexpr ::System::DateTime& __cordl_internal_get_dt();
 
-  constexpr ::System::DateTime const& __get_dt() const;
+  constexpr ::System::DateTime const& __cordl_internal_get_dt() const;
 
-  constexpr void __set_dt(::System::DateTime value);
+  constexpr void __cordl_internal_set_dt(::System::DateTime value);
 
   static inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* New_ctor(::System::DateTime dt);
 

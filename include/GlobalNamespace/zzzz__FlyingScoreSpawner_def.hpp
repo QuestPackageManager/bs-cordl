@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__FlyingScoreSpawner__InitData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4887))
 // CS Name: ::FlyingScoreSpawner::SpawnPosition
 struct CORDL_TYPE __FlyingScoreSpawner__SpawnPosition {
@@ -97,20 +97,20 @@ static_assert(offsetof(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition, v
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4887))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(4887))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4888))
 // CS Name: ::FlyingScoreSpawner::InitData*
 class CORDL_TYPE __FlyingScoreSpawner__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field spawnPosition, offset 0x10, size 0x4
-  __declspec(property(get = __get_spawnPosition, put = __set_spawnPosition))::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition spawnPosition;
+  __declspec(property(get = __cordl_internal_get_spawnPosition, put = __cordl_internal_set_spawnPosition))::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition spawnPosition;
 
-  constexpr ::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition& __get_spawnPosition();
+  constexpr ::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition& __cordl_internal_get_spawnPosition();
 
-  constexpr ::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition const& __get_spawnPosition() const;
+  constexpr ::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition const& __cordl_internal_get_spawnPosition() const;
 
-  constexpr void __set_spawnPosition(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition value);
+  constexpr void __cordl_internal_set_spawnPosition(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition value);
 
   static inline ::GlobalNamespace::__FlyingScoreSpawner__InitData* New_ctor(::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition spawnPosition);
 
@@ -146,7 +146,7 @@ static_assert(offsetof(::GlobalNamespace::__FlyingScoreSpawner__InitData, ___spa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4889))
 // CS Name: ::FlyingScoreSpawner*
 class CORDL_TYPE FlyingScoreSpawner : public ::UnityEngine::MonoBehaviour {
@@ -157,10 +157,10 @@ public:
   using SpawnPosition = ::GlobalNamespace::__FlyingScoreSpawner__SpawnPosition;
 
   /// @brief Field _flyingScoreEffectPool, offset 0x18, size 0x8
-  __declspec(property(get = __get__flyingScoreEffectPool, put = __set__flyingScoreEffectPool))::GlobalNamespace::__FlyingScoreEffect__Pool* _flyingScoreEffectPool;
+  __declspec(property(get = __cordl_internal_get__flyingScoreEffectPool, put = __cordl_internal_set__flyingScoreEffectPool))::GlobalNamespace::__FlyingScoreEffect__Pool* _flyingScoreEffectPool;
 
   /// @brief Field _initData, offset 0x20, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__FlyingScoreSpawner__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__FlyingScoreSpawner__InitData* _initData;
 
   /// @brief Convert operator to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*() noexcept;
@@ -168,17 +168,17 @@ public:
   /// @brief Convert to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
   constexpr ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent* i___GlobalNamespace__IFlyingObjectEffectDidFinishEvent() noexcept;
 
-  constexpr ::GlobalNamespace::__FlyingScoreEffect__Pool*& __get__flyingScoreEffectPool();
+  constexpr ::GlobalNamespace::__FlyingScoreEffect__Pool*& __cordl_internal_get__flyingScoreEffectPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__FlyingScoreEffect__Pool*> const& __get__flyingScoreEffectPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__FlyingScoreEffect__Pool*> const& __cordl_internal_get__flyingScoreEffectPool() const;
 
-  constexpr void __set__flyingScoreEffectPool(::GlobalNamespace::__FlyingScoreEffect__Pool* value);
+  constexpr void __cordl_internal_set__flyingScoreEffectPool(::GlobalNamespace::__FlyingScoreEffect__Pool* value);
 
-  constexpr ::GlobalNamespace::__FlyingScoreSpawner__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__FlyingScoreSpawner__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__FlyingScoreSpawner__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__FlyingScoreSpawner__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__FlyingScoreSpawner__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__FlyingScoreSpawner__InitData* value);
 
   /// @brief Method SpawnFlyingScore, addr 0x23a1a20, size 0x284, virtual false, abstract: false, final false
   inline void SpawnFlyingScore(::GlobalNamespace::IReadonlyCutScoreBuffer* cutScoreBuffer, ::UnityEngine::Color color);

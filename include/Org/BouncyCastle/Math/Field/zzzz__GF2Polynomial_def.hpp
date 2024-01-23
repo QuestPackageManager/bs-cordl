@@ -22,14 +22,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::Field::GF2Polynomial);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::Field {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1586))
 // CS Name: ::Org.BouncyCastle.Math.Field::GF2Polynomial*
 class CORDL_TYPE GF2Polynomial : public ::System::Object {
 public:
   // Declarations
   /// @brief Field exponents, offset 0x10, size 0x8
-  __declspec(property(get = __get_exponents, put = __set_exponents))::ArrayW<int32_t, ::Array<int32_t>*> exponents;
+  __declspec(property(get = __cordl_internal_get_exponents, put = __cordl_internal_set_exponents))::ArrayW<int32_t, ::Array<int32_t>*> exponents;
 
   __declspec(property(get = get_Degree)) int32_t Degree;
 
@@ -39,11 +39,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Math::Field::IPolynomial"
   constexpr ::Org::BouncyCastle::Math::Field::IPolynomial* i___Org__BouncyCastle__Math__Field__IPolynomial() noexcept;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_exponents();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_exponents();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_exponents() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_exponents() const;
 
-  constexpr void __set_exponents(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_exponents(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   static inline ::Org::BouncyCastle::Math::Field::GF2Polynomial* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> exponents);
 

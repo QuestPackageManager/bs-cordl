@@ -26,40 +26,40 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::IO::Pem::PemWriter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1690))
 // CS Name: ::Org.BouncyCastle.Utilities.IO.Pem::PemWriter*
 class CORDL_TYPE PemWriter : public ::System::Object {
 public:
   // Declarations
   /// @brief Field writer, offset 0x10, size 0x8
-  __declspec(property(get = __get_writer, put = __set_writer))::System::IO::TextWriter* writer;
+  __declspec(property(get = __cordl_internal_get_writer, put = __cordl_internal_set_writer))::System::IO::TextWriter* writer;
 
   /// @brief Field nlLength, offset 0x18, size 0x4
-  __declspec(property(get = __get_nlLength, put = __set_nlLength)) int32_t nlLength;
+  __declspec(property(get = __cordl_internal_get_nlLength, put = __cordl_internal_set_nlLength)) int32_t nlLength;
 
   /// @brief Field buf, offset 0x20, size 0x8
-  __declspec(property(get = __get_buf, put = __set_buf))::ArrayW<char16_t, ::Array<char16_t>*> buf;
+  __declspec(property(get = __cordl_internal_get_buf, put = __cordl_internal_set_buf))::ArrayW<char16_t, ::Array<char16_t>*> buf;
 
   __declspec(property(get = get_Writer))::System::IO::TextWriter* Writer;
 
-  constexpr ::System::IO::TextWriter*& __get_writer();
+  constexpr ::System::IO::TextWriter*& __cordl_internal_get_writer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& __get_writer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::TextWriter*> const& __cordl_internal_get_writer() const;
 
-  constexpr void __set_writer(::System::IO::TextWriter* value);
+  constexpr void __cordl_internal_set_writer(::System::IO::TextWriter* value);
 
-  constexpr int32_t& __get_nlLength();
+  constexpr int32_t& __cordl_internal_get_nlLength();
 
-  constexpr int32_t const& __get_nlLength() const;
+  constexpr int32_t const& __cordl_internal_get_nlLength() const;
 
-  constexpr void __set_nlLength(int32_t value);
+  constexpr void __cordl_internal_set_nlLength(int32_t value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_buf();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_buf();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_buf() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_buf() const;
 
-  constexpr void __set_buf(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_buf(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemWriter* New_ctor(::System::IO::TextWriter* writer);
 

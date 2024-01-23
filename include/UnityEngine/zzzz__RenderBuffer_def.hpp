@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::RenderBuffer);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10084))
 // CS Name: ::UnityEngine::RenderBuffer
 struct CORDL_TYPE RenderBuffer {

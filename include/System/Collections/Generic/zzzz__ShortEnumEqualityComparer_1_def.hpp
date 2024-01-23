@@ -26,7 +26,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3874), inst: 1673 }), TypeDefinitionIndex(TypeDefinitionIndex(3874))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3874)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3874), inst: 1673 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3876))
 // CS Name: ::System.Collections.Generic::ShortEnumEqualityComparer`1<T>*
 class CORDL_TYPE ShortEnumEqualityComparer_1 : public ::System::Collections::Generic::EnumEqualityComparer_1<T> {

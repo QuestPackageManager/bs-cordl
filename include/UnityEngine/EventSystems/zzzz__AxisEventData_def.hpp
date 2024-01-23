@@ -25,33 +25,33 @@ MARK_REF_PTR_T(::UnityEngine::EventSystems::AxisEventData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13165)), TypeDefinitionIndex(TypeDefinitionIndex(13207))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(13165)), TypeDefinitionIndex(TypeDefinitionIndex(13207))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13163))
 // CS Name: ::UnityEngine.EventSystems::AxisEventData*
 class CORDL_TYPE AxisEventData : public ::UnityEngine::EventSystems::BaseEventData {
 public:
   // Declarations
   /// @brief Field <moveVector>k__BackingField, offset 0x20, size 0x8
-  __declspec(property(get = __get__moveVector_k__BackingField, put = __set__moveVector_k__BackingField))::UnityEngine::Vector2 _moveVector_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__moveVector_k__BackingField, put = __cordl_internal_set__moveVector_k__BackingField))::UnityEngine::Vector2 _moveVector_k__BackingField;
 
   /// @brief Field <moveDir>k__BackingField, offset 0x28, size 0x4
-  __declspec(property(get = __get__moveDir_k__BackingField, put = __set__moveDir_k__BackingField))::UnityEngine::EventSystems::MoveDirection _moveDir_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__moveDir_k__BackingField, put = __cordl_internal_set__moveDir_k__BackingField))::UnityEngine::EventSystems::MoveDirection _moveDir_k__BackingField;
 
   __declspec(property(get = get_moveVector, put = set_moveVector))::UnityEngine::Vector2 moveVector;
 
   __declspec(property(get = get_moveDir, put = set_moveDir))::UnityEngine::EventSystems::MoveDirection moveDir;
 
-  constexpr ::UnityEngine::Vector2& __get__moveVector_k__BackingField();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__moveVector_k__BackingField();
 
-  constexpr ::UnityEngine::Vector2 const& __get__moveVector_k__BackingField() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__moveVector_k__BackingField() const;
 
-  constexpr void __set__moveVector_k__BackingField(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set__moveVector_k__BackingField(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::EventSystems::MoveDirection& __get__moveDir_k__BackingField();
+  constexpr ::UnityEngine::EventSystems::MoveDirection& __cordl_internal_get__moveDir_k__BackingField();
 
-  constexpr ::UnityEngine::EventSystems::MoveDirection const& __get__moveDir_k__BackingField() const;
+  constexpr ::UnityEngine::EventSystems::MoveDirection const& __cordl_internal_get__moveDir_k__BackingField() const;
 
-  constexpr void __set__moveDir_k__BackingField(::UnityEngine::EventSystems::MoveDirection value);
+  constexpr void __cordl_internal_set__moveDir_k__BackingField(::UnityEngine::EventSystems::MoveDirection value);
 
   /// @brief Method get_moveVector, addr 0x2d95378, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_moveVector();

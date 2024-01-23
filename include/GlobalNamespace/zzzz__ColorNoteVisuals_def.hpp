@@ -42,37 +42,40 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorNoteVisuals);
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4740))
 // CS Name: ::ColorNoteVisuals*
 class CORDL_TYPE ColorNoteVisuals : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _defaultColorAlpha, offset 0x18, size 0x4
-  __declspec(property(get = __get__defaultColorAlpha, put = __set__defaultColorAlpha)) float_t _defaultColorAlpha;
+  __declspec(property(get = __cordl_internal_get__defaultColorAlpha, put = __cordl_internal_set__defaultColorAlpha)) float_t _defaultColorAlpha;
 
   /// @brief Field _noteController, offset 0x20, size 0x8
-  __declspec(property(get = __get__noteController, put = __set__noteController))::GlobalNamespace::NoteControllerBase* _noteController;
+  __declspec(property(get = __cordl_internal_get__noteController, put = __cordl_internal_set__noteController))::UnityW<::GlobalNamespace::NoteControllerBase> _noteController;
 
   /// @brief Field _materialPropertyBlockControllers, offset 0x28, size 0x8
-  __declspec(property(get = __get__materialPropertyBlockControllers,
-                      put = __set__materialPropertyBlockControllers))::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*,
-                                                                              ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> _materialPropertyBlockControllers;
+  __declspec(property(get = __cordl_internal_get__materialPropertyBlockControllers,
+                      put = __cordl_internal_set__materialPropertyBlockControllers))::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>,
+                                                                                             ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> _materialPropertyBlockControllers;
 
   /// @brief Field _arrowMeshRenderers, offset 0x30, size 0x8
-  __declspec(property(get = __get__arrowMeshRenderers, put = __set__arrowMeshRenderers))::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*> _arrowMeshRenderers;
+  __declspec(property(get = __cordl_internal_get__arrowMeshRenderers,
+                      put = __cordl_internal_set__arrowMeshRenderers))::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> _arrowMeshRenderers;
 
   /// @brief Field _circleMeshRenderers, offset 0x38, size 0x8
-  __declspec(property(get = __get__circleMeshRenderers, put = __set__circleMeshRenderers))::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*> _circleMeshRenderers;
+  __declspec(property(get = __cordl_internal_get__circleMeshRenderers,
+                      put = __cordl_internal_set__circleMeshRenderers))::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> _circleMeshRenderers;
 
   /// @brief Field _colorManager, offset 0x40, size 0x8
-  __declspec(property(get = __get__colorManager, put = __set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
 
   /// @brief Field didInitEvent, offset 0x48, size 0x8
-  __declspec(property(get = __get_didInitEvent, put = __set_didInitEvent))::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::GlobalNamespace::NoteControllerBase*>* didInitEvent;
+  __declspec(property(get = __cordl_internal_get_didInitEvent,
+                      put = __cordl_internal_set_didInitEvent))::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* didInitEvent;
 
   /// @brief Field _noteColor, offset 0x50, size 0x10
-  __declspec(property(get = __get__noteColor, put = __set__noteColor))::UnityEngine::Color _noteColor;
+  __declspec(property(get = __cordl_internal_get__noteColor, put = __cordl_internal_set__noteColor))::UnityEngine::Color _noteColor;
 
   /// @brief Field _colorId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__colorId, put = setStaticF__colorId)) int32_t _colorId;
@@ -99,63 +102,67 @@ public:
   /// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
   constexpr ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent* i___GlobalNamespace__INoteControllerNoteDidStartDissolvingEvent() noexcept;
 
-  constexpr float_t& __get__defaultColorAlpha();
+  constexpr float_t& __cordl_internal_get__defaultColorAlpha();
 
-  constexpr float_t const& __get__defaultColorAlpha() const;
+  constexpr float_t const& __cordl_internal_get__defaultColorAlpha() const;
 
-  constexpr void __set__defaultColorAlpha(float_t value);
+  constexpr void __cordl_internal_set__defaultColorAlpha(float_t value);
 
-  constexpr ::GlobalNamespace::NoteControllerBase*& __get__noteController();
+  constexpr ::UnityW<::GlobalNamespace::NoteControllerBase>& __cordl_internal_get__noteController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteControllerBase*> const& __get__noteController() const;
+  constexpr ::UnityW<::GlobalNamespace::NoteControllerBase> const& __cordl_internal_get__noteController() const;
 
-  constexpr void __set__noteController(::GlobalNamespace::NoteControllerBase* value);
+  constexpr void __cordl_internal_set__noteController(::UnityW<::GlobalNamespace::NoteControllerBase> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*>& __get__materialPropertyBlockControllers();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*>&
+  __cordl_internal_get__materialPropertyBlockControllers();
 
-  constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> const& __get__materialPropertyBlockControllers() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> const&
+  __cordl_internal_get__materialPropertyBlockControllers() const;
 
-  constexpr void __set__materialPropertyBlockControllers(::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> value);
+  constexpr void __cordl_internal_set__materialPropertyBlockControllers(
+      ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*>& __get__arrowMeshRenderers();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*>& __cordl_internal_get__arrowMeshRenderers();
 
-  constexpr ::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*> const& __get__arrowMeshRenderers() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> const& __cordl_internal_get__arrowMeshRenderers() const;
 
-  constexpr void __set__arrowMeshRenderers(::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*> value);
+  constexpr void __cordl_internal_set__arrowMeshRenderers(::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*>& __get__circleMeshRenderers();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*>& __cordl_internal_get__circleMeshRenderers();
 
-  constexpr ::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*> const& __get__circleMeshRenderers() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> const& __cordl_internal_get__circleMeshRenderers() const;
 
-  constexpr void __set__circleMeshRenderers(::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*> value);
+  constexpr void __cordl_internal_set__circleMeshRenderers(::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> value);
 
-  constexpr ::GlobalNamespace::ColorManager*& __get__colorManager();
+  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __get__colorManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
 
-  constexpr void __set__colorManager(::GlobalNamespace::ColorManager* value);
+  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::GlobalNamespace::NoteControllerBase*>*& __get_didInitEvent();
+  constexpr ::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>*& __cordl_internal_get_didInitEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::GlobalNamespace::NoteControllerBase*>*> const& __get_didInitEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>*> const&
+  __cordl_internal_get_didInitEvent() const;
 
-  constexpr void __set_didInitEvent(::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::GlobalNamespace::NoteControllerBase*>* value);
+  constexpr void __cordl_internal_set_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
-  constexpr ::UnityEngine::Color& __get__noteColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__noteColor();
 
-  constexpr ::UnityEngine::Color const& __get__noteColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__noteColor() const;
 
-  constexpr void __set__noteColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__noteColor(::UnityEngine::Color value);
 
   static inline void setStaticF__colorId(int32_t value);
 
   static inline int32_t getStaticF__colorId();
 
   /// @brief Method add_didInitEvent, addr 0x2384c18, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didInitEvent(::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::GlobalNamespace::NoteControllerBase*>* value);
+  inline void add_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
   /// @brief Method remove_didInitEvent, addr 0x2384cc8, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didInitEvent(::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::GlobalNamespace::NoteControllerBase*>* value);
+  inline void remove_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
   /// @brief Method set_showArrow, addr 0x2384d78, size 0x68, virtual false, abstract: false, final false
   inline void set_showArrow(bool value);
@@ -201,22 +208,22 @@ public:
   float_t ____defaultColorAlpha;
 
   /// @brief Field _noteController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::NoteControllerBase* ____noteController;
+  ::UnityW<::GlobalNamespace::NoteControllerBase> ____noteController;
 
   /// @brief Field _materialPropertyBlockControllers, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> ____materialPropertyBlockControllers;
+  ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> ____materialPropertyBlockControllers;
 
   /// @brief Field _arrowMeshRenderers, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*> ____arrowMeshRenderers;
+  ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> ____arrowMeshRenderers;
 
   /// @brief Field _circleMeshRenderers, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::MeshRenderer*, ::Array<::UnityEngine::MeshRenderer*>*> ____circleMeshRenderers;
+  ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> ____circleMeshRenderers;
 
   /// @brief Field _colorManager, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
   /// @brief Field didInitEvent, offset: 0x48, size: 0x8, def value: None
-  ::System::Action_2<::GlobalNamespace::ColorNoteVisuals*, ::GlobalNamespace::NoteControllerBase*>* ___didInitEvent;
+  ::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* ___didInitEvent;
 
   /// @brief Field _noteColor, offset: 0x50, size: 0x10, def value: None
   ::UnityEngine::Color ____noteColor;

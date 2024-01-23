@@ -17,20 +17,21 @@ MARK_REF_PTR_T(::GlobalNamespace::RecordingToolInstallerSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11147))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11147))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5961))
 // CS Name: ::RecordingToolInstallerSO*
 class CORDL_TYPE RecordingToolInstallerSO : public ::Zenject::ScriptableObjectInstaller {
 public:
   // Declarations
   /// @brief Field _recordingToolResourceContainer, offset 0x20, size 0x8
-  __declspec(property(get = __get__recordingToolResourceContainer, put = __set__recordingToolResourceContainer))::GlobalNamespace::RecordingToolResourceContainerSO* _recordingToolResourceContainer;
+  __declspec(property(get = __cordl_internal_get__recordingToolResourceContainer,
+                      put = __cordl_internal_set__recordingToolResourceContainer))::UnityW<::GlobalNamespace::RecordingToolResourceContainerSO> _recordingToolResourceContainer;
 
-  constexpr ::GlobalNamespace::RecordingToolResourceContainerSO*& __get__recordingToolResourceContainer();
+  constexpr ::UnityW<::GlobalNamespace::RecordingToolResourceContainerSO>& __cordl_internal_get__recordingToolResourceContainer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolResourceContainerSO*> const& __get__recordingToolResourceContainer() const;
+  constexpr ::UnityW<::GlobalNamespace::RecordingToolResourceContainerSO> const& __cordl_internal_get__recordingToolResourceContainer() const;
 
-  constexpr void __set__recordingToolResourceContainer(::GlobalNamespace::RecordingToolResourceContainerSO* value);
+  constexpr void __cordl_internal_set__recordingToolResourceContainer(::UnityW<::GlobalNamespace::RecordingToolResourceContainerSO> value);
 
   /// @brief Method InstallBindings, addr 0x2307f30, size 0x1e4, virtual true, abstract: false, final false
   inline void InstallBindings();
@@ -55,7 +56,7 @@ protected:
 
 public:
   /// @brief Field _recordingToolResourceContainer, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::RecordingToolResourceContainerSO* ____recordingToolResourceContainer;
+  ::UnityW<::GlobalNamespace::RecordingToolResourceContainerSO> ____recordingToolResourceContainer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,7 +19,7 @@ MARK_VAL_T(::LIV::SDK::Unity::SDKApplicationOutput);
 // SizeInfo { instance_size: 72, native_size: 72, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LIV::SDK::Unity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15101))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15101))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15114))
 // CS Name: ::LIV.SDK.Unity::SDKApplicationOutput
 struct CORDL_TYPE SDKApplicationOutput {

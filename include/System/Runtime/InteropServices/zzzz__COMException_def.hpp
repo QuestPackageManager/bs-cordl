@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::COMException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3302))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3302))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3310))
 // CS Name: ::System.Runtime.InteropServices::COMException*
 class CORDL_TYPE COMException : public ::System::Runtime::InteropServices::ExternalException {

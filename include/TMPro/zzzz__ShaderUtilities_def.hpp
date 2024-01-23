@@ -27,7 +27,7 @@ MARK_REF_PTR_T(::TMPro::ShaderUtilities);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12416))
 // CS Name: ::TMPro::ShaderUtilities*
 class CORDL_TYPE ShaderUtilities : public ::System::Object {
@@ -232,10 +232,10 @@ public:
   static __declspec(property(get = getStaticF_isInitialized, put = setStaticF_isInitialized)) bool isInitialized;
 
   /// @brief Field k_ShaderRef_MobileSDF, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_ShaderRef_MobileSDF, put = setStaticF_k_ShaderRef_MobileSDF))::UnityEngine::Shader* k_ShaderRef_MobileSDF;
+  static __declspec(property(get = getStaticF_k_ShaderRef_MobileSDF, put = setStaticF_k_ShaderRef_MobileSDF))::UnityW<::UnityEngine::Shader> k_ShaderRef_MobileSDF;
 
   /// @brief Field k_ShaderRef_MobileBitmap, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_k_ShaderRef_MobileBitmap, put = setStaticF_k_ShaderRef_MobileBitmap))::UnityEngine::Shader* k_ShaderRef_MobileBitmap;
+  static __declspec(property(get = getStaticF_k_ShaderRef_MobileBitmap, put = setStaticF_k_ShaderRef_MobileBitmap))::UnityW<::UnityEngine::Shader> k_ShaderRef_MobileBitmap;
 
   static inline void setStaticF_ID_MainTex(int32_t value);
 
@@ -501,19 +501,19 @@ public:
 
   static inline bool getStaticF_isInitialized();
 
-  static inline void setStaticF_k_ShaderRef_MobileSDF(::UnityEngine::Shader* value);
+  static inline void setStaticF_k_ShaderRef_MobileSDF(::UnityW<::UnityEngine::Shader> value);
 
-  static inline ::UnityEngine::Shader* getStaticF_k_ShaderRef_MobileSDF();
+  static inline ::UnityW<::UnityEngine::Shader> getStaticF_k_ShaderRef_MobileSDF();
 
-  static inline void setStaticF_k_ShaderRef_MobileBitmap(::UnityEngine::Shader* value);
+  static inline void setStaticF_k_ShaderRef_MobileBitmap(::UnityW<::UnityEngine::Shader> value);
 
-  static inline ::UnityEngine::Shader* getStaticF_k_ShaderRef_MobileBitmap();
+  static inline ::UnityW<::UnityEngine::Shader> getStaticF_k_ShaderRef_MobileBitmap();
 
   /// @brief Method get_ShaderRef_MobileSDF, addr 0x2c40648, size 0xfc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Shader* get_ShaderRef_MobileSDF();
+  static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileSDF();
 
   /// @brief Method get_ShaderRef_MobileBitmap, addr 0x2c40744, size 0xfc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Shader* get_ShaderRef_MobileBitmap();
+  static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileBitmap();
 
   /// @brief Method GetShaderPropertyIDs, addr 0x2c39ed0, size 0xaec, virtual false, abstract: false, final false
   static inline void GetShaderPropertyIDs();

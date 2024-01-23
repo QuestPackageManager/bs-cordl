@@ -36,20 +36,20 @@ MARK_REF_PTR_T(::System::Security::AccessControl::ObjectAce);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3046)), TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(3043))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(3043)), TypeDefinitionIndex(TypeDefinitionIndex(3046))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3042))
 // CS Name: ::System.Security.AccessControl::ObjectAce*
 class CORDL_TYPE ObjectAce : public ::System::Security::AccessControl::QualifiedAce {
 public:
   // Declarations
   /// @brief Field object_ace_type, offset 0x28, size 0x10
-  __declspec(property(get = __get_object_ace_type, put = __set_object_ace_type))::System::Guid object_ace_type;
+  __declspec(property(get = __cordl_internal_get_object_ace_type, put = __cordl_internal_set_object_ace_type))::System::Guid object_ace_type;
 
   /// @brief Field inherited_object_type, offset 0x38, size 0x10
-  __declspec(property(get = __get_inherited_object_type, put = __set_inherited_object_type))::System::Guid inherited_object_type;
+  __declspec(property(get = __cordl_internal_get_inherited_object_type, put = __cordl_internal_set_inherited_object_type))::System::Guid inherited_object_type;
 
   /// @brief Field object_ace_flags, offset 0x48, size 0x4
-  __declspec(property(get = __get_object_ace_flags, put = __set_object_ace_flags))::System::Security::AccessControl::ObjectAceFlags object_ace_flags;
+  __declspec(property(get = __cordl_internal_get_object_ace_flags, put = __cordl_internal_set_object_ace_flags))::System::Security::AccessControl::ObjectAceFlags object_ace_flags;
 
   __declspec(property(get = get_BinaryLength)) int32_t BinaryLength;
 
@@ -63,23 +63,23 @@ public:
 
   __declspec(property(get = get_ObjectAceTypePresent)) bool ObjectAceTypePresent;
 
-  constexpr ::System::Guid& __get_object_ace_type();
+  constexpr ::System::Guid& __cordl_internal_get_object_ace_type();
 
-  constexpr ::System::Guid const& __get_object_ace_type() const;
+  constexpr ::System::Guid const& __cordl_internal_get_object_ace_type() const;
 
-  constexpr void __set_object_ace_type(::System::Guid value);
+  constexpr void __cordl_internal_set_object_ace_type(::System::Guid value);
 
-  constexpr ::System::Guid& __get_inherited_object_type();
+  constexpr ::System::Guid& __cordl_internal_get_inherited_object_type();
 
-  constexpr ::System::Guid const& __get_inherited_object_type() const;
+  constexpr ::System::Guid const& __cordl_internal_get_inherited_object_type() const;
 
-  constexpr void __set_inherited_object_type(::System::Guid value);
+  constexpr void __cordl_internal_set_inherited_object_type(::System::Guid value);
 
-  constexpr ::System::Security::AccessControl::ObjectAceFlags& __get_object_ace_flags();
+  constexpr ::System::Security::AccessControl::ObjectAceFlags& __cordl_internal_get_object_ace_flags();
 
-  constexpr ::System::Security::AccessControl::ObjectAceFlags const& __get_object_ace_flags() const;
+  constexpr ::System::Security::AccessControl::ObjectAceFlags const& __cordl_internal_get_object_ace_flags() const;
 
-  constexpr void __set_object_ace_flags(::System::Security::AccessControl::ObjectAceFlags value);
+  constexpr void __cordl_internal_set_object_ace_flags(::System::Security::AccessControl::ObjectAceFlags value);
 
   static inline ::System::Security::AccessControl::ObjectAce* New_ctor(::System::Security::AccessControl::AceFlags aceFlags, ::System::Security::AccessControl::AceQualifier qualifier,
                                                                        int32_t accessMask, ::System::Security::Principal::SecurityIdentifier* sid,

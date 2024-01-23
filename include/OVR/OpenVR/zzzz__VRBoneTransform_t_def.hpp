@@ -22,7 +22,7 @@ MARK_VAL_T(::OVR::OpenVR::VRBoneTransform_t);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8652)), TypeDefinitionIndex(TypeDefinitionIndex(8648))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8648)), TypeDefinitionIndex(TypeDefinitionIndex(8652))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8699))
 // CS Name: ::OVR.OpenVR::VRBoneTransform_t
 struct CORDL_TYPE VRBoneTransform_t {

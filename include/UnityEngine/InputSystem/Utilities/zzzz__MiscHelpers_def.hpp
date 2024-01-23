@@ -45,44 +45,44 @@ namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6679))
 // CS Name: ::MiscHelpers::<EveryNth>d__1`1<TValue>*
 class CORDL_TYPE __MiscHelpers___EveryNth_d__1_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current)) TValue __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TValue __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field enumerable, offset 0x28, size 0x8
-  __declspec(property(get = __get_enumerable, put = __set_enumerable))::System::Collections::Generic::IEnumerable_1<TValue>* enumerable;
+  __declspec(property(get = __cordl_internal_get_enumerable, put = __cordl_internal_set_enumerable))::System::Collections::Generic::IEnumerable_1<TValue>* enumerable;
 
   /// @brief Field <>3__enumerable, offset 0x30, size 0x8
-  __declspec(property(get = __get___3__enumerable, put = __set___3__enumerable))::System::Collections::Generic::IEnumerable_1<TValue>* __3__enumerable;
+  __declspec(property(get = __cordl_internal_get___3__enumerable, put = __cordl_internal_set___3__enumerable))::System::Collections::Generic::IEnumerable_1<TValue>* __3__enumerable;
 
   /// @brief Field start, offset 0x38, size 0x4
-  __declspec(property(get = __get_start, put = __set_start)) int32_t start;
+  __declspec(property(get = __cordl_internal_get_start, put = __cordl_internal_set_start)) int32_t start;
 
   /// @brief Field <>3__start, offset 0x3c, size 0x4
-  __declspec(property(get = __get___3__start, put = __set___3__start)) int32_t __3__start;
+  __declspec(property(get = __cordl_internal_get___3__start, put = __cordl_internal_set___3__start)) int32_t __3__start;
 
   /// @brief Field n, offset 0x40, size 0x4
-  __declspec(property(get = __get_n, put = __set_n)) int32_t n;
+  __declspec(property(get = __cordl_internal_get_n, put = __cordl_internal_set_n)) int32_t n;
 
   /// @brief Field <>3__n, offset 0x44, size 0x4
-  __declspec(property(get = __get___3__n, put = __set___3__n)) int32_t __3__n;
+  __declspec(property(get = __cordl_internal_get___3__n, put = __cordl_internal_set___3__n)) int32_t __3__n;
 
   /// @brief Field <index>5__2, offset 0x48, size 0x4
-  __declspec(property(get = __get__index_5__2, put = __set__index_5__2)) int32_t _index_5__2;
+  __declspec(property(get = __cordl_internal_get__index_5__2, put = __cordl_internal_set__index_5__2)) int32_t _index_5__2;
 
   /// @brief Field <>7__wrap2, offset 0x50, size 0x8
-  __declspec(property(get = __get___7__wrap2, put = __set___7__wrap2))::System::Collections::Generic::IEnumerator_1<TValue>* __7__wrap2;
+  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2))::System::Collections::Generic::IEnumerator_1<TValue>* __7__wrap2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_TValue__get_Current)) TValue System_Collections_Generic_IEnumerator_TValue__Current;
 
@@ -118,71 +118,71 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr TValue& __get___2__current();
+  constexpr TValue& __cordl_internal_get___2__current();
 
-  constexpr TValue const& __get___2__current() const;
+  constexpr TValue const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(TValue value);
+  constexpr void __cordl_internal_set___2__current(TValue value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>*& __get_enumerable();
+  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>*& __cordl_internal_get_enumerable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TValue>*> const& __get_enumerable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TValue>*> const& __cordl_internal_get_enumerable() const;
 
-  constexpr void __set_enumerable(::System::Collections::Generic::IEnumerable_1<TValue>* value);
+  constexpr void __cordl_internal_set_enumerable(::System::Collections::Generic::IEnumerable_1<TValue>* value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>*& __get___3__enumerable();
+  constexpr ::System::Collections::Generic::IEnumerable_1<TValue>*& __cordl_internal_get___3__enumerable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TValue>*> const& __get___3__enumerable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TValue>*> const& __cordl_internal_get___3__enumerable() const;
 
-  constexpr void __set___3__enumerable(::System::Collections::Generic::IEnumerable_1<TValue>* value);
+  constexpr void __cordl_internal_set___3__enumerable(::System::Collections::Generic::IEnumerable_1<TValue>* value);
 
-  constexpr int32_t& __get_start();
+  constexpr int32_t& __cordl_internal_get_start();
 
-  constexpr int32_t const& __get_start() const;
+  constexpr int32_t const& __cordl_internal_get_start() const;
 
-  constexpr void __set_start(int32_t value);
+  constexpr void __cordl_internal_set_start(int32_t value);
 
-  constexpr int32_t& __get___3__start();
+  constexpr int32_t& __cordl_internal_get___3__start();
 
-  constexpr int32_t const& __get___3__start() const;
+  constexpr int32_t const& __cordl_internal_get___3__start() const;
 
-  constexpr void __set___3__start(int32_t value);
+  constexpr void __cordl_internal_set___3__start(int32_t value);
 
-  constexpr int32_t& __get_n();
+  constexpr int32_t& __cordl_internal_get_n();
 
-  constexpr int32_t const& __get_n() const;
+  constexpr int32_t const& __cordl_internal_get_n() const;
 
-  constexpr void __set_n(int32_t value);
+  constexpr void __cordl_internal_set_n(int32_t value);
 
-  constexpr int32_t& __get___3__n();
+  constexpr int32_t& __cordl_internal_get___3__n();
 
-  constexpr int32_t const& __get___3__n() const;
+  constexpr int32_t const& __cordl_internal_get___3__n() const;
 
-  constexpr void __set___3__n(int32_t value);
+  constexpr void __cordl_internal_set___3__n(int32_t value);
 
-  constexpr int32_t& __get__index_5__2();
+  constexpr int32_t& __cordl_internal_get__index_5__2();
 
-  constexpr int32_t const& __get__index_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__index_5__2() const;
 
-  constexpr void __set__index_5__2(int32_t value);
+  constexpr void __cordl_internal_set__index_5__2(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<TValue>*& __get___7__wrap2();
+  constexpr ::System::Collections::Generic::IEnumerator_1<TValue>*& __cordl_internal_get___7__wrap2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TValue>*> const& __get___7__wrap2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<TValue>*> const& __cordl_internal_get___7__wrap2() const;
 
-  constexpr void __set___7__wrap2(::System::Collections::Generic::IEnumerator_1<TValue>* value);
+  constexpr void __cordl_internal_set___7__wrap2(::System::Collections::Generic::IEnumerator_1<TValue>* value);
 
   static inline ::UnityEngine::InputSystem::Utilities::__MiscHelpers___EveryNth_d__1_1<TValue>* New_ctor(int32_t __1__state);
 
@@ -268,7 +268,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6680))
 // CS Name: ::UnityEngine.InputSystem.Utilities::MiscHelpers*
 class CORDL_TYPE MiscHelpers : public ::System::Object {

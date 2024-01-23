@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::InputControl);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6214))
 // CS Name: ::InputControl::ControlFlags
 struct CORDL_TYPE __InputControl__ControlFlags {
@@ -117,8 +117,8 @@ static_assert(offsetof(::UnityEngine::InputSystem::__InputControl__ControlFlags,
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 216, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6214)), TypeDefinitionIndex(TypeDefinitionIndex(6699)),
-// TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(6566))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6215)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6214)), TypeDefinitionIndex(TypeDefinitionIndex(6566)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6671)), TypeDefinitionIndex(TypeDefinitionIndex(6699))] Self: TypeDefinitionIndex(TypeDefinitionIndex(6215)) CS Name:
 // ::UnityEngine.InputSystem::InputControl*
 class CORDL_TYPE InputControl : public ::System::Object {
 public:
@@ -126,67 +126,67 @@ public:
   using ControlFlags = ::UnityEngine::InputSystem::__InputControl__ControlFlags;
 
   /// @brief Field m_StateBlock, offset 0x10, size 0x10
-  __declspec(property(get = __get_m_StateBlock, put = __set_m_StateBlock))::UnityEngine::InputSystem::LowLevel::InputStateBlock m_StateBlock;
+  __declspec(property(get = __cordl_internal_get_m_StateBlock, put = __cordl_internal_set_m_StateBlock))::UnityEngine::InputSystem::LowLevel::InputStateBlock m_StateBlock;
 
   /// @brief Field m_Name, offset 0x20, size 0x10
-  __declspec(property(get = __get_m_Name, put = __set_m_Name))::UnityEngine::InputSystem::Utilities::InternedString m_Name;
+  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name))::UnityEngine::InputSystem::Utilities::InternedString m_Name;
 
   /// @brief Field m_Path, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Path, put = __set_m_Path))::StringW m_Path;
+  __declspec(property(get = __cordl_internal_get_m_Path, put = __cordl_internal_set_m_Path))::StringW m_Path;
 
   /// @brief Field m_DisplayName, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_DisplayName, put = __set_m_DisplayName))::StringW m_DisplayName;
+  __declspec(property(get = __cordl_internal_get_m_DisplayName, put = __cordl_internal_set_m_DisplayName))::StringW m_DisplayName;
 
   /// @brief Field m_DisplayNameFromLayout, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_DisplayNameFromLayout, put = __set_m_DisplayNameFromLayout))::StringW m_DisplayNameFromLayout;
+  __declspec(property(get = __cordl_internal_get_m_DisplayNameFromLayout, put = __cordl_internal_set_m_DisplayNameFromLayout))::StringW m_DisplayNameFromLayout;
 
   /// @brief Field m_ShortDisplayName, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_ShortDisplayName, put = __set_m_ShortDisplayName))::StringW m_ShortDisplayName;
+  __declspec(property(get = __cordl_internal_get_m_ShortDisplayName, put = __cordl_internal_set_m_ShortDisplayName))::StringW m_ShortDisplayName;
 
   /// @brief Field m_ShortDisplayNameFromLayout, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_ShortDisplayNameFromLayout, put = __set_m_ShortDisplayNameFromLayout))::StringW m_ShortDisplayNameFromLayout;
+  __declspec(property(get = __cordl_internal_get_m_ShortDisplayNameFromLayout, put = __cordl_internal_set_m_ShortDisplayNameFromLayout))::StringW m_ShortDisplayNameFromLayout;
 
   /// @brief Field m_Layout, offset 0x58, size 0x10
-  __declspec(property(get = __get_m_Layout, put = __set_m_Layout))::UnityEngine::InputSystem::Utilities::InternedString m_Layout;
+  __declspec(property(get = __cordl_internal_get_m_Layout, put = __cordl_internal_set_m_Layout))::UnityEngine::InputSystem::Utilities::InternedString m_Layout;
 
   /// @brief Field m_Variants, offset 0x68, size 0x10
-  __declspec(property(get = __get_m_Variants, put = __set_m_Variants))::UnityEngine::InputSystem::Utilities::InternedString m_Variants;
+  __declspec(property(get = __cordl_internal_get_m_Variants, put = __cordl_internal_set_m_Variants))::UnityEngine::InputSystem::Utilities::InternedString m_Variants;
 
   /// @brief Field m_Device, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_Device, put = __set_m_Device))::UnityEngine::InputSystem::InputDevice* m_Device;
+  __declspec(property(get = __cordl_internal_get_m_Device, put = __cordl_internal_set_m_Device))::UnityEngine::InputSystem::InputDevice* m_Device;
 
   /// @brief Field m_Parent, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_Parent, put = __set_m_Parent))::UnityEngine::InputSystem::InputControl* m_Parent;
+  __declspec(property(get = __cordl_internal_get_m_Parent, put = __cordl_internal_set_m_Parent))::UnityEngine::InputSystem::InputControl* m_Parent;
 
   /// @brief Field m_UsageCount, offset 0x88, size 0x4
-  __declspec(property(get = __get_m_UsageCount, put = __set_m_UsageCount)) int32_t m_UsageCount;
+  __declspec(property(get = __cordl_internal_get_m_UsageCount, put = __cordl_internal_set_m_UsageCount)) int32_t m_UsageCount;
 
   /// @brief Field m_UsageStartIndex, offset 0x8c, size 0x4
-  __declspec(property(get = __get_m_UsageStartIndex, put = __set_m_UsageStartIndex)) int32_t m_UsageStartIndex;
+  __declspec(property(get = __cordl_internal_get_m_UsageStartIndex, put = __cordl_internal_set_m_UsageStartIndex)) int32_t m_UsageStartIndex;
 
   /// @brief Field m_AliasCount, offset 0x90, size 0x4
-  __declspec(property(get = __get_m_AliasCount, put = __set_m_AliasCount)) int32_t m_AliasCount;
+  __declspec(property(get = __cordl_internal_get_m_AliasCount, put = __cordl_internal_set_m_AliasCount)) int32_t m_AliasCount;
 
   /// @brief Field m_AliasStartIndex, offset 0x94, size 0x4
-  __declspec(property(get = __get_m_AliasStartIndex, put = __set_m_AliasStartIndex)) int32_t m_AliasStartIndex;
+  __declspec(property(get = __cordl_internal_get_m_AliasStartIndex, put = __cordl_internal_set_m_AliasStartIndex)) int32_t m_AliasStartIndex;
 
   /// @brief Field m_ChildCount, offset 0x98, size 0x4
-  __declspec(property(get = __get_m_ChildCount, put = __set_m_ChildCount)) int32_t m_ChildCount;
+  __declspec(property(get = __cordl_internal_get_m_ChildCount, put = __cordl_internal_set_m_ChildCount)) int32_t m_ChildCount;
 
   /// @brief Field m_ChildStartIndex, offset 0x9c, size 0x4
-  __declspec(property(get = __get_m_ChildStartIndex, put = __set_m_ChildStartIndex)) int32_t m_ChildStartIndex;
+  __declspec(property(get = __cordl_internal_get_m_ChildStartIndex, put = __cordl_internal_set_m_ChildStartIndex)) int32_t m_ChildStartIndex;
 
   /// @brief Field m_ControlFlags, offset 0xa0, size 0x4
-  __declspec(property(get = __get_m_ControlFlags, put = __set_m_ControlFlags))::UnityEngine::InputSystem::__InputControl__ControlFlags m_ControlFlags;
+  __declspec(property(get = __cordl_internal_get_m_ControlFlags, put = __cordl_internal_set_m_ControlFlags))::UnityEngine::InputSystem::__InputControl__ControlFlags m_ControlFlags;
 
   /// @brief Field m_DefaultState, offset 0xa8, size 0x10
-  __declspec(property(get = __get_m_DefaultState, put = __set_m_DefaultState))::UnityEngine::InputSystem::Utilities::PrimitiveValue m_DefaultState;
+  __declspec(property(get = __cordl_internal_get_m_DefaultState, put = __cordl_internal_set_m_DefaultState))::UnityEngine::InputSystem::Utilities::PrimitiveValue m_DefaultState;
 
   /// @brief Field m_MinValue, offset 0xb8, size 0x10
-  __declspec(property(get = __get_m_MinValue, put = __set_m_MinValue))::UnityEngine::InputSystem::Utilities::PrimitiveValue m_MinValue;
+  __declspec(property(get = __cordl_internal_get_m_MinValue, put = __cordl_internal_set_m_MinValue))::UnityEngine::InputSystem::Utilities::PrimitiveValue m_MinValue;
 
   /// @brief Field m_MaxValue, offset 0xc8, size 0x10
-  __declspec(property(get = __get_m_MaxValue, put = __set_m_MaxValue))::UnityEngine::InputSystem::Utilities::PrimitiveValue m_MaxValue;
+  __declspec(property(get = __cordl_internal_get_m_MaxValue, put = __cordl_internal_set_m_MaxValue))::UnityEngine::InputSystem::Utilities::PrimitiveValue m_MaxValue;
 
   __declspec(property(get = get_name))::StringW name;
 
@@ -244,131 +244,131 @@ public:
 
   __declspec(property(get = get_hasDefaultState)) bool hasDefaultState;
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBlock& __get_m_StateBlock();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBlock& __cordl_internal_get_m_StateBlock();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBlock const& __get_m_StateBlock() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputStateBlock const& __cordl_internal_get_m_StateBlock() const;
 
-  constexpr void __set_m_StateBlock(::UnityEngine::InputSystem::LowLevel::InputStateBlock value);
+  constexpr void __cordl_internal_set_m_StateBlock(::UnityEngine::InputSystem::LowLevel::InputStateBlock value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __get_m_Name();
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get_m_Name();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __get_m_Name() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __cordl_internal_get_m_Name() const;
 
-  constexpr void __set_m_Name(::UnityEngine::InputSystem::Utilities::InternedString value);
+  constexpr void __cordl_internal_set_m_Name(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  constexpr ::StringW& __get_m_Path();
+  constexpr ::StringW& __cordl_internal_get_m_Path();
 
-  constexpr ::StringW const& __get_m_Path() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Path() const;
 
-  constexpr void __set_m_Path(::StringW value);
+  constexpr void __cordl_internal_set_m_Path(::StringW value);
 
-  constexpr ::StringW& __get_m_DisplayName();
+  constexpr ::StringW& __cordl_internal_get_m_DisplayName();
 
-  constexpr ::StringW const& __get_m_DisplayName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_DisplayName() const;
 
-  constexpr void __set_m_DisplayName(::StringW value);
+  constexpr void __cordl_internal_set_m_DisplayName(::StringW value);
 
-  constexpr ::StringW& __get_m_DisplayNameFromLayout();
+  constexpr ::StringW& __cordl_internal_get_m_DisplayNameFromLayout();
 
-  constexpr ::StringW const& __get_m_DisplayNameFromLayout() const;
+  constexpr ::StringW const& __cordl_internal_get_m_DisplayNameFromLayout() const;
 
-  constexpr void __set_m_DisplayNameFromLayout(::StringW value);
+  constexpr void __cordl_internal_set_m_DisplayNameFromLayout(::StringW value);
 
-  constexpr ::StringW& __get_m_ShortDisplayName();
+  constexpr ::StringW& __cordl_internal_get_m_ShortDisplayName();
 
-  constexpr ::StringW const& __get_m_ShortDisplayName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_ShortDisplayName() const;
 
-  constexpr void __set_m_ShortDisplayName(::StringW value);
+  constexpr void __cordl_internal_set_m_ShortDisplayName(::StringW value);
 
-  constexpr ::StringW& __get_m_ShortDisplayNameFromLayout();
+  constexpr ::StringW& __cordl_internal_get_m_ShortDisplayNameFromLayout();
 
-  constexpr ::StringW const& __get_m_ShortDisplayNameFromLayout() const;
+  constexpr ::StringW const& __cordl_internal_get_m_ShortDisplayNameFromLayout() const;
 
-  constexpr void __set_m_ShortDisplayNameFromLayout(::StringW value);
+  constexpr void __cordl_internal_set_m_ShortDisplayNameFromLayout(::StringW value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __get_m_Layout();
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get_m_Layout();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __get_m_Layout() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __cordl_internal_get_m_Layout() const;
 
-  constexpr void __set_m_Layout(::UnityEngine::InputSystem::Utilities::InternedString value);
+  constexpr void __cordl_internal_set_m_Layout(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __get_m_Variants();
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString& __cordl_internal_get_m_Variants();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __get_m_Variants() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& __cordl_internal_get_m_Variants() const;
 
-  constexpr void __set_m_Variants(::UnityEngine::InputSystem::Utilities::InternedString value);
+  constexpr void __cordl_internal_set_m_Variants(::UnityEngine::InputSystem::Utilities::InternedString value);
 
-  constexpr ::UnityEngine::InputSystem::InputDevice*& __get_m_Device();
+  constexpr ::UnityEngine::InputSystem::InputDevice*& __cordl_internal_get_m_Device();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputDevice*> const& __get_m_Device() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputDevice*> const& __cordl_internal_get_m_Device() const;
 
-  constexpr void __set_m_Device(::UnityEngine::InputSystem::InputDevice* value);
+  constexpr void __cordl_internal_set_m_Device(::UnityEngine::InputSystem::InputDevice* value);
 
-  constexpr ::UnityEngine::InputSystem::InputControl*& __get_m_Parent();
+  constexpr ::UnityEngine::InputSystem::InputControl*& __cordl_internal_get_m_Parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputControl*> const& __get_m_Parent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::InputControl*> const& __cordl_internal_get_m_Parent() const;
 
-  constexpr void __set_m_Parent(::UnityEngine::InputSystem::InputControl* value);
+  constexpr void __cordl_internal_set_m_Parent(::UnityEngine::InputSystem::InputControl* value);
 
-  constexpr int32_t& __get_m_UsageCount();
+  constexpr int32_t& __cordl_internal_get_m_UsageCount();
 
-  constexpr int32_t const& __get_m_UsageCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_UsageCount() const;
 
-  constexpr void __set_m_UsageCount(int32_t value);
+  constexpr void __cordl_internal_set_m_UsageCount(int32_t value);
 
-  constexpr int32_t& __get_m_UsageStartIndex();
+  constexpr int32_t& __cordl_internal_get_m_UsageStartIndex();
 
-  constexpr int32_t const& __get_m_UsageStartIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_UsageStartIndex() const;
 
-  constexpr void __set_m_UsageStartIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_UsageStartIndex(int32_t value);
 
-  constexpr int32_t& __get_m_AliasCount();
+  constexpr int32_t& __cordl_internal_get_m_AliasCount();
 
-  constexpr int32_t const& __get_m_AliasCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_AliasCount() const;
 
-  constexpr void __set_m_AliasCount(int32_t value);
+  constexpr void __cordl_internal_set_m_AliasCount(int32_t value);
 
-  constexpr int32_t& __get_m_AliasStartIndex();
+  constexpr int32_t& __cordl_internal_get_m_AliasStartIndex();
 
-  constexpr int32_t const& __get_m_AliasStartIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_AliasStartIndex() const;
 
-  constexpr void __set_m_AliasStartIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_AliasStartIndex(int32_t value);
 
-  constexpr int32_t& __get_m_ChildCount();
+  constexpr int32_t& __cordl_internal_get_m_ChildCount();
 
-  constexpr int32_t const& __get_m_ChildCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_ChildCount() const;
 
-  constexpr void __set_m_ChildCount(int32_t value);
+  constexpr void __cordl_internal_set_m_ChildCount(int32_t value);
 
-  constexpr int32_t& __get_m_ChildStartIndex();
+  constexpr int32_t& __cordl_internal_get_m_ChildStartIndex();
 
-  constexpr int32_t const& __get_m_ChildStartIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_ChildStartIndex() const;
 
-  constexpr void __set_m_ChildStartIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_ChildStartIndex(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::__InputControl__ControlFlags& __get_m_ControlFlags();
+  constexpr ::UnityEngine::InputSystem::__InputControl__ControlFlags& __cordl_internal_get_m_ControlFlags();
 
-  constexpr ::UnityEngine::InputSystem::__InputControl__ControlFlags const& __get_m_ControlFlags() const;
+  constexpr ::UnityEngine::InputSystem::__InputControl__ControlFlags const& __cordl_internal_get_m_ControlFlags() const;
 
-  constexpr void __set_m_ControlFlags(::UnityEngine::InputSystem::__InputControl__ControlFlags value);
+  constexpr void __cordl_internal_set_m_ControlFlags(::UnityEngine::InputSystem::__InputControl__ControlFlags value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue& __get_m_DefaultState();
+  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue& __cordl_internal_get_m_DefaultState();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue const& __get_m_DefaultState() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue const& __cordl_internal_get_m_DefaultState() const;
 
-  constexpr void __set_m_DefaultState(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
+  constexpr void __cordl_internal_set_m_DefaultState(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue& __get_m_MinValue();
+  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue& __cordl_internal_get_m_MinValue();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue const& __get_m_MinValue() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue const& __cordl_internal_get_m_MinValue() const;
 
-  constexpr void __set_m_MinValue(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
+  constexpr void __cordl_internal_set_m_MinValue(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue& __get_m_MaxValue();
+  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue& __cordl_internal_get_m_MaxValue();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue const& __get_m_MaxValue() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::PrimitiveValue const& __cordl_internal_get_m_MaxValue() const;
 
-  constexpr void __set_m_MaxValue(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
+  constexpr void __cordl_internal_set_m_MaxValue(::UnityEngine::InputSystem::Utilities::PrimitiveValue value);
 
   /// @brief Method get_name, addr 0x2a63388, size 0x10, virtual false, abstract: false, final false
   inline ::StringW get_name();

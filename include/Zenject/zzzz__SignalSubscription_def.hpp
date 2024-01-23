@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::Zenject::__SignalSubscription__Pool);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11158)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11158))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10661))
 // CS Name: ::Zenject::SignalSubscription*
 class CORDL_TYPE SignalSubscription : public ::System::Object {
@@ -56,16 +56,16 @@ public:
   using Pool = ::Zenject::__SignalSubscription__Pool;
 
   /// @brief Field _pool, offset 0x10, size 0x8
-  __declspec(property(get = __get__pool, put = __set__pool))::Zenject::__SignalSubscription__Pool* _pool;
+  __declspec(property(get = __cordl_internal_get__pool, put = __cordl_internal_set__pool))::Zenject::__SignalSubscription__Pool* _pool;
 
   /// @brief Field _callback, offset 0x18, size 0x8
-  __declspec(property(get = __get__callback, put = __set__callback))::System::Action_1<::System::Object*>* _callback;
+  __declspec(property(get = __cordl_internal_get__callback, put = __cordl_internal_set__callback))::System::Action_1<::System::Object*>* _callback;
 
   /// @brief Field _declaration, offset 0x20, size 0x8
-  __declspec(property(get = __get__declaration, put = __set__declaration))::Zenject::SignalDeclaration* _declaration;
+  __declspec(property(get = __cordl_internal_get__declaration, put = __cordl_internal_set__declaration))::Zenject::SignalDeclaration* _declaration;
 
   /// @brief Field _signalId, offset 0x28, size 0x10
-  __declspec(property(get = __get__signalId, put = __set__signalId))::Zenject::BindingId _signalId;
+  __declspec(property(get = __cordl_internal_get__signalId, put = __cordl_internal_set__signalId))::Zenject::BindingId _signalId;
 
   __declspec(property(get = get_SignalId))::Zenject::BindingId SignalId;
 
@@ -82,29 +82,29 @@ public:
   constexpr ::Zenject::IPoolable_2<::System::Action_1<::System::Object*>*, ::Zenject::SignalDeclaration*>*
   i___Zenject__IPoolable_2___System__Action_1___System__Object______Zenject__SignalDeclaration__() noexcept;
 
-  constexpr ::Zenject::__SignalSubscription__Pool*& __get__pool();
+  constexpr ::Zenject::__SignalSubscription__Pool*& __cordl_internal_get__pool();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::__SignalSubscription__Pool*> const& __get__pool() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::__SignalSubscription__Pool*> const& __cordl_internal_get__pool() const;
 
-  constexpr void __set__pool(::Zenject::__SignalSubscription__Pool* value);
+  constexpr void __cordl_internal_set__pool(::Zenject::__SignalSubscription__Pool* value);
 
-  constexpr ::System::Action_1<::System::Object*>*& __get__callback();
+  constexpr ::System::Action_1<::System::Object*>*& __cordl_internal_get__callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Object*>*> const& __get__callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Object*>*> const& __cordl_internal_get__callback() const;
 
-  constexpr void __set__callback(::System::Action_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set__callback(::System::Action_1<::System::Object*>* value);
 
-  constexpr ::Zenject::SignalDeclaration*& __get__declaration();
+  constexpr ::Zenject::SignalDeclaration*& __cordl_internal_get__declaration();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::SignalDeclaration*> const& __get__declaration() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::SignalDeclaration*> const& __cordl_internal_get__declaration() const;
 
-  constexpr void __set__declaration(::Zenject::SignalDeclaration* value);
+  constexpr void __cordl_internal_set__declaration(::Zenject::SignalDeclaration* value);
 
-  constexpr ::Zenject::BindingId& __get__signalId();
+  constexpr ::Zenject::BindingId& __cordl_internal_get__signalId();
 
-  constexpr ::Zenject::BindingId const& __get__signalId() const;
+  constexpr ::Zenject::BindingId const& __cordl_internal_get__signalId() const;
 
-  constexpr void __set__signalId(::Zenject::BindingId value);
+  constexpr void __cordl_internal_set__signalId(::Zenject::BindingId value);
 
   static inline ::Zenject::SignalSubscription* New_ctor(::Zenject::__SignalSubscription__Pool* pool);
 
@@ -182,9 +182,9 @@ static_assert(offsetof(::Zenject::SignalSubscription, ____signalId) == 0x28, "Of
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10661)), TypeDefinitionIndex(TypeDefinitionIndex(10659)),
-// TypeDefinitionIndex(TypeDefinitionIndex(11067)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11067), inst: 3502 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(2323), inst: 2 }), TypeDefinitionIndex(TypeDefinitionIndex(2323))} Self: TypeDefinitionIndex(TypeDefinitionIndex(10660)) CS Name: ::SignalSubscription::Pool*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10659)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10661)), TypeDefinitionIndex(TypeDefinitionIndex(11067)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 2 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11067), inst: 3502 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(10660)) CS Name: ::SignalSubscription::Pool*
 class CORDL_TYPE __SignalSubscription__Pool : public ::Zenject::PoolableMemoryPool_3<::System::Action_1<::System::Object*>*, ::Zenject::SignalDeclaration*, ::Zenject::SignalSubscription*> {
 public:
   // Declarations

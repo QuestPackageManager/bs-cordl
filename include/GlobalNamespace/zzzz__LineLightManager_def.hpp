@@ -20,23 +20,23 @@ MARK_REF_PTR_T(::GlobalNamespace::LineLightManager);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14561))
 // CS Name: ::LineLightManager*
 class CORDL_TYPE LineLightManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _points, offset 0x18, size 0x8
-  __declspec(property(get = __get__points, put = __set__points))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _points;
+  __declspec(property(get = __cordl_internal_get__points, put = __cordl_internal_set__points))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _points;
 
   /// @brief Field _dirs, offset 0x20, size 0x8
-  __declspec(property(get = __get__dirs, put = __set__dirs))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _dirs;
+  __declspec(property(get = __cordl_internal_get__dirs, put = __cordl_internal_set__dirs))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _dirs;
 
   /// @brief Field _dirLengths, offset 0x28, size 0x8
-  __declspec(property(get = __get__dirLengths, put = __set__dirLengths))::ArrayW<float_t, ::Array<float_t>*> _dirLengths;
+  __declspec(property(get = __cordl_internal_get__dirLengths, put = __cordl_internal_set__dirLengths))::ArrayW<float_t, ::Array<float_t>*> _dirLengths;
 
   /// @brief Field _colors, offset 0x30, size 0x8
-  __declspec(property(get = __get__colors, put = __set__colors))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _colors;
+  __declspec(property(get = __cordl_internal_get__colors, put = __cordl_internal_set__colors))::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> _colors;
 
   /// @brief Field _activeLineLightsCountID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__activeLineLightsCountID, put = setStaticF__activeLineLightsCountID)) int32_t _activeLineLightsCountID;
@@ -53,29 +53,29 @@ public:
   /// @brief Field _lineLightColorsID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__lineLightColorsID, put = setStaticF__lineLightColorsID)) int32_t _lineLightColorsID;
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __get__points();
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get__points();
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __get__points() const;
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__points() const;
 
-  constexpr void __set__points(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+  constexpr void __cordl_internal_set__points(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __get__dirs();
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get__dirs();
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __get__dirs() const;
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__dirs() const;
 
-  constexpr void __set__dirs(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+  constexpr void __cordl_internal_set__dirs(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get__dirLengths();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__dirLengths();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get__dirLengths() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__dirLengths() const;
 
-  constexpr void __set__dirLengths(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set__dirLengths(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __get__colors();
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>& __cordl_internal_get__colors();
 
-  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __get__colors() const;
+  constexpr ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> const& __cordl_internal_get__colors() const;
 
-  constexpr void __set__colors(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
+  constexpr void __cordl_internal_set__colors(::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> value);
 
   static inline void setStaticF__activeLineLightsCountID(int32_t value);
 

@@ -38,14 +38,14 @@ MARK_REF_PTR_T(::System::Collections::Specialized::StringCollection);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9517))
 // CS Name: ::System.Collections.Specialized::StringCollection*
 class CORDL_TYPE StringCollection : public ::System::Object {
 public:
   // Declarations
   /// @brief Field data, offset 0x10, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::System::Collections::ArrayList* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::System::Collections::ArrayList* data;
 
   __declspec(property(get = get_Item, put = set_Item))::StringW Item[];
 
@@ -79,11 +79,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::ArrayList*& __get_data();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_data() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_data(::System::Collections::ArrayList* value);
 
   /// @brief Method get_Item, addr 0x293f660, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW get_Item(int32_t index);

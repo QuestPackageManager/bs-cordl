@@ -43,14 +43,14 @@ template <typename T> inline T UnityEngine::ProBuilder::KdTree::Math::TypeMath_1
 }
 template <typename T> inline T UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::Min(T a, T b) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>*>::get(), "Min", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>*>::get(), "Min", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, a, b);
 }
 template <typename T> inline T UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::Max(T a, T b) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>*>::get(), "Max", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>*>::get(), "Max", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, a, b);
 }
 template <typename T> inline T UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::get_Zero() {
@@ -96,11 +96,11 @@ template <typename T> inline T UnityEngine::ProBuilder::KdTree::Math::TypeMath_1
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, a, b);
 }
 template <typename T> inline ::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>* UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>*>());
 }
 template <typename T> inline void UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

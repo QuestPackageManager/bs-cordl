@@ -26,29 +26,29 @@ MARK_REF_PTR_T(::System::Xml::XmlException);
 // SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2481))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2481))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11567))
 // CS Name: ::System.Xml::XmlException*
 class CORDL_TYPE XmlException : public ::System::SystemException {
 public:
   // Declarations
   /// @brief Field res, offset 0x90, size 0x8
-  __declspec(property(get = __get_res, put = __set_res))::StringW res;
+  __declspec(property(get = __cordl_internal_get_res, put = __cordl_internal_set_res))::StringW res;
 
   /// @brief Field args, offset 0x98, size 0x8
-  __declspec(property(get = __get_args, put = __set_args))::ArrayW<::StringW, ::Array<::StringW>*> args;
+  __declspec(property(get = __cordl_internal_get_args, put = __cordl_internal_set_args))::ArrayW<::StringW, ::Array<::StringW>*> args;
 
   /// @brief Field lineNumber, offset 0xa0, size 0x4
-  __declspec(property(get = __get_lineNumber, put = __set_lineNumber)) int32_t lineNumber;
+  __declspec(property(get = __cordl_internal_get_lineNumber, put = __cordl_internal_set_lineNumber)) int32_t lineNumber;
 
   /// @brief Field linePosition, offset 0xa4, size 0x4
-  __declspec(property(get = __get_linePosition, put = __set_linePosition)) int32_t linePosition;
+  __declspec(property(get = __cordl_internal_get_linePosition, put = __cordl_internal_set_linePosition)) int32_t linePosition;
 
   /// @brief Field sourceUri, offset 0xa8, size 0x8
-  __declspec(property(get = __get_sourceUri, put = __set_sourceUri))::StringW sourceUri;
+  __declspec(property(get = __cordl_internal_get_sourceUri, put = __cordl_internal_set_sourceUri))::StringW sourceUri;
 
   /// @brief Field message, offset 0xb0, size 0x8
-  __declspec(property(get = __get_message, put = __set_message))::StringW message;
+  __declspec(property(get = __cordl_internal_get_message, put = __cordl_internal_set_message))::StringW message;
 
   __declspec(property(get = get_LineNumber)) int32_t LineNumber;
 
@@ -58,41 +58,41 @@ public:
 
   __declspec(property(get = get_ResString))::StringW ResString;
 
-  constexpr ::StringW& __get_res();
+  constexpr ::StringW& __cordl_internal_get_res();
 
-  constexpr ::StringW const& __get_res() const;
+  constexpr ::StringW const& __cordl_internal_get_res() const;
 
-  constexpr void __set_res(::StringW value);
+  constexpr void __cordl_internal_set_res(::StringW value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_args();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_args();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_args() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_args() const;
 
-  constexpr void __set_args(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_args(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr int32_t& __get_lineNumber();
+  constexpr int32_t& __cordl_internal_get_lineNumber();
 
-  constexpr int32_t const& __get_lineNumber() const;
+  constexpr int32_t const& __cordl_internal_get_lineNumber() const;
 
-  constexpr void __set_lineNumber(int32_t value);
+  constexpr void __cordl_internal_set_lineNumber(int32_t value);
 
-  constexpr int32_t& __get_linePosition();
+  constexpr int32_t& __cordl_internal_get_linePosition();
 
-  constexpr int32_t const& __get_linePosition() const;
+  constexpr int32_t const& __cordl_internal_get_linePosition() const;
 
-  constexpr void __set_linePosition(int32_t value);
+  constexpr void __cordl_internal_set_linePosition(int32_t value);
 
-  constexpr ::StringW& __get_sourceUri();
+  constexpr ::StringW& __cordl_internal_get_sourceUri();
 
-  constexpr ::StringW const& __get_sourceUri() const;
+  constexpr ::StringW const& __cordl_internal_get_sourceUri() const;
 
-  constexpr void __set_sourceUri(::StringW value);
+  constexpr void __cordl_internal_set_sourceUri(::StringW value);
 
-  constexpr ::StringW& __get_message();
+  constexpr ::StringW& __cordl_internal_get_message();
 
-  constexpr ::StringW const& __get_message() const;
+  constexpr ::StringW const& __cordl_internal_get_message() const;
 
-  constexpr void __set_message(::StringW value);
+  constexpr void __cordl_internal_set_message(::StringW value);
 
   static inline ::System::Xml::XmlException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 

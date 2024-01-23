@@ -41,53 +41,56 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::Syntax::StyleSyntaxParser
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7491))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::StyleSyntaxParser*
 class CORDL_TYPE StyleSyntaxParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_ProcessExpressionList, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_ProcessExpressionList,
-                      put = __set_m_ProcessExpressionList))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>* m_ProcessExpressionList;
+  __declspec(property(get = __cordl_internal_get_m_ProcessExpressionList,
+                      put = __cordl_internal_set_m_ProcessExpressionList))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>* m_ProcessExpressionList;
 
   /// @brief Field m_ExpressionStack, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_ExpressionStack,
-                      put = __set_m_ExpressionStack))::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>* m_ExpressionStack;
+  __declspec(property(get = __cordl_internal_get_m_ExpressionStack,
+                      put = __cordl_internal_set_m_ExpressionStack))::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>* m_ExpressionStack;
 
   /// @brief Field m_CombinatorStack, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_CombinatorStack,
-                      put = __set_m_CombinatorStack))::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator>* m_CombinatorStack;
+  __declspec(property(get = __cordl_internal_get_m_CombinatorStack,
+                      put = __cordl_internal_set_m_CombinatorStack))::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator>* m_CombinatorStack;
 
   /// @brief Field m_ParsedExpressionCache, offset 0x28, size 0x8
-  __declspec(
-      property(get = __get_m_ParsedExpressionCache,
-               put = __set_m_ParsedExpressionCache))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>* m_ParsedExpressionCache;
+  __declspec(property(
+      get = __cordl_internal_get_m_ParsedExpressionCache,
+      put = __cordl_internal_set_m_ParsedExpressionCache))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>* m_ParsedExpressionCache;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*& __get_m_ProcessExpressionList();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*& __cordl_internal_get_m_ProcessExpressionList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*> const& __get_m_ProcessExpressionList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*> const&
+  __cordl_internal_get_m_ProcessExpressionList() const;
 
-  constexpr void __set_m_ProcessExpressionList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>* value);
+  constexpr void __cordl_internal_set_m_ProcessExpressionList(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>* value);
 
-  constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*& __get_m_ExpressionStack();
+  constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*& __cordl_internal_get_m_ExpressionStack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*> const& __get_m_ExpressionStack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*> const&
+  __cordl_internal_get_m_ExpressionStack() const;
 
-  constexpr void __set_m_ExpressionStack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>* value);
+  constexpr void __cordl_internal_set_m_ExpressionStack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>* value);
 
-  constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator>*& __get_m_CombinatorStack();
+  constexpr ::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator>*& __cordl_internal_get_m_CombinatorStack();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator>*> const& __get_m_CombinatorStack() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator>*> const&
+  __cordl_internal_get_m_CombinatorStack() const;
 
-  constexpr void __set_m_CombinatorStack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator>* value);
+  constexpr void __cordl_internal_set_m_CombinatorStack(::System::Collections::Generic::Stack_1<::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*& __get_m_ParsedExpressionCache();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*& __cordl_internal_get_m_ParsedExpressionCache();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>*> const&
-  __get_m_ParsedExpressionCache() const;
+  __cordl_internal_get_m_ParsedExpressionCache() const;
 
-  constexpr void __set_m_ParsedExpressionCache(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>* value);
+  constexpr void __cordl_internal_set_m_ParsedExpressionCache(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::Syntax::Expression*>* value);
 
   /// @brief Method Parse, addr 0x2df6fa8, size 0x198, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSheets::Syntax::Expression* Parse(::StringW syntax);

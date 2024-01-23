@@ -26,24 +26,25 @@ MARK_REF_PTR_T(::Zenject::NoTransitionContext);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11175))
 // CS Name: ::Zenject::NoTransitionContext*
 class CORDL_TYPE NoTransitionContext : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _noScenesTransitionInstaller, offset 0x18, size 0x8
-  __declspec(property(get = __get__noScenesTransitionInstaller, put = __set__noScenesTransitionInstaller))::Zenject::NoTransitionInstaller* _noScenesTransitionInstaller;
+  __declspec(property(get = __cordl_internal_get__noScenesTransitionInstaller,
+                      put = __cordl_internal_set__noScenesTransitionInstaller))::UnityW<::Zenject::NoTransitionInstaller> _noScenesTransitionInstaller;
 
   __declspec(property(get = get_installMethod))::System::Action_1<::Zenject::DiContainer*>* installMethod;
 
   __declspec(property(get = get_postInstallMethod))::System::Action_1<::Zenject::DiContainer*>* postInstallMethod;
 
-  constexpr ::Zenject::NoTransitionInstaller*& __get__noScenesTransitionInstaller();
+  constexpr ::UnityW<::Zenject::NoTransitionInstaller>& __cordl_internal_get__noScenesTransitionInstaller();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::NoTransitionInstaller*> const& __get__noScenesTransitionInstaller() const;
+  constexpr ::UnityW<::Zenject::NoTransitionInstaller> const& __cordl_internal_get__noScenesTransitionInstaller() const;
 
-  constexpr void __set__noScenesTransitionInstaller(::Zenject::NoTransitionInstaller* value);
+  constexpr void __cordl_internal_set__noScenesTransitionInstaller(::UnityW<::Zenject::NoTransitionInstaller> value);
 
   /// @brief Method get_installMethod, addr 0x2f049d0, size 0x74, virtual false, abstract: false, final false
   inline ::System::Action_1<::Zenject::DiContainer*>* get_installMethod();
@@ -77,7 +78,7 @@ protected:
 
 public:
   /// @brief Field _noScenesTransitionInstaller, offset: 0x18, size: 0x8, def value: None
-  ::Zenject::NoTransitionInstaller* ____noScenesTransitionInstaller;
+  ::UnityW<::Zenject::NoTransitionInstaller> ____noScenesTransitionInstaller;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

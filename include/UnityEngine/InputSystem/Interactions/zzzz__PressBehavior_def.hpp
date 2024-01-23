@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Interactions::PressBehavior);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Interactions {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6650))
 // CS Name: ::UnityEngine.InputSystem.Interactions::PressBehavior
 struct CORDL_TYPE PressBehavior {

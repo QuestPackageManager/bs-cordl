@@ -23,47 +23,47 @@ MARK_REF_PTR_T(::GlobalNamespace::PresetsSettingsController);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16149))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16149))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5599))
 // CS Name: ::PresetsSettingsController*
 class CORDL_TYPE PresetsSettingsController : public ::GlobalNamespace::ListSettingsController {
 public:
   // Declarations
   /// @brief Field _settingsValue, offset 0x28, size 0x8
-  __declspec(property(get = __get__settingsValue, put = __set__settingsValue))::GlobalNamespace::IntSO* _settingsValue;
+  __declspec(property(get = __cordl_internal_get__settingsValue, put = __cordl_internal_set__settingsValue))::UnityW<::GlobalNamespace::IntSO> _settingsValue;
 
   /// @brief Field _presets, offset 0x30, size 0x8
-  __declspec(property(get = __get__presets, put = __set__presets))::GlobalNamespace::NamedPresetsSO* _presets;
+  __declspec(property(get = __cordl_internal_get__presets, put = __cordl_internal_set__presets))::UnityW<::GlobalNamespace::NamedPresetsSO> _presets;
 
   /// @brief Field _limitNumberOfElements, offset 0x38, size 0x1
-  __declspec(property(get = __get__limitNumberOfElements, put = __set__limitNumberOfElements)) bool _limitNumberOfElements;
+  __declspec(property(get = __cordl_internal_get__limitNumberOfElements, put = __cordl_internal_set__limitNumberOfElements)) bool _limitNumberOfElements;
 
   /// @brief Field _numberOfElementsLimit, offset 0x3c, size 0x4
-  __declspec(property(get = __get__numberOfElementsLimit, put = __set__numberOfElementsLimit)) int32_t _numberOfElementsLimit;
+  __declspec(property(get = __cordl_internal_get__numberOfElementsLimit, put = __cordl_internal_set__numberOfElementsLimit)) int32_t _numberOfElementsLimit;
 
-  constexpr ::GlobalNamespace::IntSO*& __get__settingsValue();
+  constexpr ::UnityW<::GlobalNamespace::IntSO>& __cordl_internal_get__settingsValue();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IntSO*> const& __get__settingsValue() const;
+  constexpr ::UnityW<::GlobalNamespace::IntSO> const& __cordl_internal_get__settingsValue() const;
 
-  constexpr void __set__settingsValue(::GlobalNamespace::IntSO* value);
+  constexpr void __cordl_internal_set__settingsValue(::UnityW<::GlobalNamespace::IntSO> value);
 
-  constexpr ::GlobalNamespace::NamedPresetsSO*& __get__presets();
+  constexpr ::UnityW<::GlobalNamespace::NamedPresetsSO>& __cordl_internal_get__presets();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NamedPresetsSO*> const& __get__presets() const;
+  constexpr ::UnityW<::GlobalNamespace::NamedPresetsSO> const& __cordl_internal_get__presets() const;
 
-  constexpr void __set__presets(::GlobalNamespace::NamedPresetsSO* value);
+  constexpr void __cordl_internal_set__presets(::UnityW<::GlobalNamespace::NamedPresetsSO> value);
 
-  constexpr bool& __get__limitNumberOfElements();
+  constexpr bool& __cordl_internal_get__limitNumberOfElements();
 
-  constexpr bool const& __get__limitNumberOfElements() const;
+  constexpr bool const& __cordl_internal_get__limitNumberOfElements() const;
 
-  constexpr void __set__limitNumberOfElements(bool value);
+  constexpr void __cordl_internal_set__limitNumberOfElements(bool value);
 
-  constexpr int32_t& __get__numberOfElementsLimit();
+  constexpr int32_t& __cordl_internal_get__numberOfElementsLimit();
 
-  constexpr int32_t const& __get__numberOfElementsLimit() const;
+  constexpr int32_t const& __cordl_internal_get__numberOfElementsLimit() const;
 
-  constexpr void __set__numberOfElementsLimit(int32_t value);
+  constexpr void __cordl_internal_set__numberOfElementsLimit(int32_t value);
 
   /// @brief Method GetInitValues, addr 0x22ab000, size 0xd8, virtual true, abstract: false, final false
   inline bool GetInitValues(ByRef<int32_t> idx, ByRef<int32_t> numberOfElements);
@@ -94,10 +94,10 @@ protected:
 
 public:
   /// @brief Field _settingsValue, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::IntSO* ____settingsValue;
+  ::UnityW<::GlobalNamespace::IntSO> ____settingsValue;
 
   /// @brief Field _presets, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::NamedPresetsSO* ____presets;
+  ::UnityW<::GlobalNamespace::NamedPresetsSO> ____presets;
 
   /// @brief Field _limitNumberOfElements, offset: 0x38, size: 0x1, def value: None
   bool ____limitNumberOfElements;

@@ -29,24 +29,24 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CADMethodCallMessage);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3155))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3155))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3156))
 // CS Name: ::System.Runtime.Remoting.Messaging::CADMethodCallMessage*
 class CORDL_TYPE CADMethodCallMessage : public ::System::Runtime::Remoting::Messaging::CADMessageBase {
 public:
   // Declarations
   /// @brief Field _uri, offset 0x38, size 0x8
-  __declspec(property(get = __get__uri, put = __set__uri))::StringW _uri;
+  __declspec(property(get = __cordl_internal_get__uri, put = __cordl_internal_set__uri))::StringW _uri;
 
   __declspec(property(get = get_Uri))::StringW Uri;
 
   __declspec(property(get = get_PropertiesCount)) int32_t PropertiesCount;
 
-  constexpr ::StringW& __get__uri();
+  constexpr ::StringW& __cordl_internal_get__uri();
 
-  constexpr ::StringW const& __get__uri() const;
+  constexpr ::StringW const& __cordl_internal_get__uri() const;
 
-  constexpr void __set__uri(::StringW value);
+  constexpr void __cordl_internal_set__uri(::StringW value);
 
   /// @brief Method get_Uri, addr 0x24aa1b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Uri();

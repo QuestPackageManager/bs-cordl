@@ -34,29 +34,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__SimpleDialogPromptViewController____c__Displ
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5762))
 // CS Name: ::SimpleDialogPromptViewController::<>c__DisplayClass5_0*
 class CORDL_TYPE __SimpleDialogPromptViewController____c__DisplayClass5_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field buttonNum, offset 0x10, size 0x4
-  __declspec(property(get = __get_buttonNum, put = __set_buttonNum)) int32_t buttonNum;
+  __declspec(property(get = __cordl_internal_get_buttonNum, put = __cordl_internal_set_buttonNum)) int32_t buttonNum;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::SimpleDialogPromptViewController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> __4__this;
 
-  constexpr int32_t& __get_buttonNum();
+  constexpr int32_t& __cordl_internal_get_buttonNum();
 
-  constexpr int32_t const& __get_buttonNum() const;
+  constexpr int32_t const& __cordl_internal_get_buttonNum() const;
 
-  constexpr void __set_buttonNum(int32_t value);
+  constexpr void __cordl_internal_set_buttonNum(int32_t value);
 
-  constexpr ::GlobalNamespace::SimpleDialogPromptViewController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SimpleDialogPromptViewController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::SimpleDialogPromptViewController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> value);
 
   static inline ::GlobalNamespace::__SimpleDialogPromptViewController____c__DisplayClass5_0* New_ctor();
 
@@ -84,7 +84,7 @@ public:
   int32_t ___buttonNum;
 
   /// @brief Field <>4__this, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::SimpleDialogPromptViewController* _____4__this;
+  ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -100,7 +100,7 @@ static_assert(offsetof(::GlobalNamespace::__SimpleDialogPromptViewController____
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5763))
 // CS Name: ::SimpleDialogPromptViewController*
 class CORDL_TYPE SimpleDialogPromptViewController : public ::HMUI::ViewController {
@@ -109,49 +109,50 @@ public:
   using __c__DisplayClass5_0 = ::GlobalNamespace::__SimpleDialogPromptViewController____c__DisplayClass5_0;
 
   /// @brief Field _titleText, offset 0x70, size 0x8
-  __declspec(property(get = __get__titleText, put = __set__titleText))::TMPro::TextMeshProUGUI* _titleText;
+  __declspec(property(get = __cordl_internal_get__titleText, put = __cordl_internal_set__titleText))::UnityW<::TMPro::TextMeshProUGUI> _titleText;
 
   /// @brief Field _messageText, offset 0x78, size 0x8
-  __declspec(property(get = __get__messageText, put = __set__messageText))::TMPro::TextMeshProUGUI* _messageText;
+  __declspec(property(get = __cordl_internal_get__messageText, put = __cordl_internal_set__messageText))::UnityW<::TMPro::TextMeshProUGUI> _messageText;
 
   /// @brief Field _buttons, offset 0x80, size 0x8
-  __declspec(property(get = __get__buttons, put = __set__buttons))::ArrayW<::UnityEngine::UI::Button*, ::Array<::UnityEngine::UI::Button*>*> _buttons;
+  __declspec(property(get = __cordl_internal_get__buttons, put = __cordl_internal_set__buttons))::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> _buttons;
 
   /// @brief Field _buttonTexts, offset 0x88, size 0x8
-  __declspec(property(get = __get__buttonTexts, put = __set__buttonTexts))::ArrayW<::TMPro::TextMeshProUGUI*, ::Array<::TMPro::TextMeshProUGUI*>*> _buttonTexts;
+  __declspec(property(get = __cordl_internal_get__buttonTexts,
+                      put = __cordl_internal_set__buttonTexts))::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> _buttonTexts;
 
   /// @brief Field _didFinishAction, offset 0x90, size 0x8
-  __declspec(property(get = __get__didFinishAction, put = __set__didFinishAction))::System::Action_1<int32_t>* _didFinishAction;
+  __declspec(property(get = __cordl_internal_get__didFinishAction, put = __cordl_internal_set__didFinishAction))::System::Action_1<int32_t>* _didFinishAction;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__titleText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__titleText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__titleText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__titleText() const;
 
-  constexpr void __set__titleText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__messageText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__messageText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__messageText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__messageText() const;
 
-  constexpr void __set__messageText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__messageText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::ArrayW<::UnityEngine::UI::Button*, ::Array<::UnityEngine::UI::Button*>*>& __get__buttons();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*>& __cordl_internal_get__buttons();
 
-  constexpr ::ArrayW<::UnityEngine::UI::Button*, ::Array<::UnityEngine::UI::Button*>*> const& __get__buttons() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> const& __cordl_internal_get__buttons() const;
 
-  constexpr void __set__buttons(::ArrayW<::UnityEngine::UI::Button*, ::Array<::UnityEngine::UI::Button*>*> value);
+  constexpr void __cordl_internal_set__buttons(::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> value);
 
-  constexpr ::ArrayW<::TMPro::TextMeshProUGUI*, ::Array<::TMPro::TextMeshProUGUI*>*>& __get__buttonTexts();
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*>& __cordl_internal_get__buttonTexts();
 
-  constexpr ::ArrayW<::TMPro::TextMeshProUGUI*, ::Array<::TMPro::TextMeshProUGUI*>*> const& __get__buttonTexts() const;
+  constexpr ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> const& __cordl_internal_get__buttonTexts() const;
 
-  constexpr void __set__buttonTexts(::ArrayW<::TMPro::TextMeshProUGUI*, ::Array<::TMPro::TextMeshProUGUI*>*> value);
+  constexpr void __cordl_internal_set__buttonTexts(::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> value);
 
-  constexpr ::System::Action_1<int32_t>*& __get__didFinishAction();
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get__didFinishAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __get__didFinishAction() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get__didFinishAction() const;
 
-  constexpr void __set__didFinishAction(::System::Action_1<int32_t>* value);
+  constexpr void __cordl_internal_set__didFinishAction(::System::Action_1<int32_t>* value);
 
   /// @brief Method DidActivate, addr 0x22db8d0, size 0x12c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -188,16 +189,16 @@ protected:
 
 public:
   /// @brief Field _titleText, offset: 0x70, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____titleText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____titleText;
 
   /// @brief Field _messageText, offset: 0x78, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____messageText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____messageText;
 
   /// @brief Field _buttons, offset: 0x80, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::UI::Button*, ::Array<::UnityEngine::UI::Button*>*> ____buttons;
+  ::ArrayW<::UnityW<::UnityEngine::UI::Button>, ::Array<::UnityW<::UnityEngine::UI::Button>>*> ____buttons;
 
   /// @brief Field _buttonTexts, offset: 0x88, size: 0x8, def value: None
-  ::ArrayW<::TMPro::TextMeshProUGUI*, ::Array<::TMPro::TextMeshProUGUI*>*> ____buttonTexts;
+  ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*> ____buttonTexts;
 
   /// @brief Field _didFinishAction, offset: 0x90, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ____didFinishAction;

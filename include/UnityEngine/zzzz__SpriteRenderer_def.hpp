@@ -46,18 +46,19 @@ MARK_REF_PTR_T(::UnityEngine::SpriteRenderer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10064))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10064))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10286))
 // CS Name: ::UnityEngine::SpriteRenderer*
 class CORDL_TYPE SpriteRenderer : public ::UnityEngine::Renderer {
 public:
   // Declarations
   /// @brief Field m_SpriteChangeEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_SpriteChangeEvent, put = __set_m_SpriteChangeEvent))::UnityEngine::Events::UnityEvent_1<::UnityEngine::SpriteRenderer*>* m_SpriteChangeEvent;
+  __declspec(property(get = __cordl_internal_get_m_SpriteChangeEvent,
+                      put = __cordl_internal_set_m_SpriteChangeEvent))::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::SpriteRenderer>>* m_SpriteChangeEvent;
 
   __declspec(property(get = get_shouldSupportTiling)) bool shouldSupportTiling;
 
-  __declspec(property(get = get_sprite, put = set_sprite))::UnityEngine::Sprite* sprite;
+  __declspec(property(get = get_sprite, put = set_sprite))::UnityW<::UnityEngine::Sprite> sprite;
 
   __declspec(property(get = get_drawMode, put = set_drawMode))::UnityEngine::SpriteDrawMode drawMode;
 
@@ -77,17 +78,17 @@ public:
 
   __declspec(property(get = get_spriteSortPoint, put = set_spriteSortPoint))::UnityEngine::SpriteSortPoint spriteSortPoint;
 
-  constexpr ::UnityEngine::Events::UnityEvent_1<::UnityEngine::SpriteRenderer*>*& __get_m_SpriteChangeEvent();
+  constexpr ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::SpriteRenderer>>*& __cordl_internal_get_m_SpriteChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent_1<::UnityEngine::SpriteRenderer*>*> const& __get_m_SpriteChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::SpriteRenderer>>*> const& __cordl_internal_get_m_SpriteChangeEvent() const;
 
-  constexpr void __set_m_SpriteChangeEvent(::UnityEngine::Events::UnityEvent_1<::UnityEngine::SpriteRenderer*>* value);
+  constexpr void __cordl_internal_set_m_SpriteChangeEvent(::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::SpriteRenderer>>* value);
 
   /// @brief Method RegisterSpriteChangeCallback, addr 0x2ce3d00, size 0xa0, virtual false, abstract: false, final false
-  inline void RegisterSpriteChangeCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::SpriteRenderer*>* callback);
+  inline void RegisterSpriteChangeCallback(::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::SpriteRenderer>>* callback);
 
   /// @brief Method UnregisterSpriteChangeCallback, addr 0x2ce3da0, size 0x60, virtual false, abstract: false, final false
-  inline void UnregisterSpriteChangeCallback(::UnityEngine::Events::UnityAction_1<::UnityEngine::SpriteRenderer*>* callback);
+  inline void UnregisterSpriteChangeCallback(::UnityEngine::Events::UnityAction_1<::UnityW<::UnityEngine::SpriteRenderer>>* callback);
 
   /// @brief Method InvokeSpriteChanged, addr 0x2ce3e00, size 0xf4, virtual false, abstract: false, final false
   inline void InvokeSpriteChanged();
@@ -96,7 +97,7 @@ public:
   inline bool get_shouldSupportTiling();
 
   /// @brief Method get_sprite, addr 0x2ce3f30, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Sprite* get_sprite();
+  inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
   /// @brief Method set_sprite, addr 0x2ce3f6c, size 0x44, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
@@ -196,7 +197,7 @@ protected:
 
 public:
   /// @brief Field m_SpriteChangeEvent, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Events::UnityEvent_1<::UnityEngine::SpriteRenderer*>* ___m_SpriteChangeEvent;
+  ::UnityEngine::Events::UnityEvent_1<::UnityW<::UnityEngine::SpriteRenderer>>* ___m_SpriteChangeEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

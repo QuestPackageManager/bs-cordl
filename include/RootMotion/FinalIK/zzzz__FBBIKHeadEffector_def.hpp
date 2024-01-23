@@ -46,38 +46,38 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12546))
 // CS Name: ::FBBIKHeadEffector::BendBone*
 class CORDL_TYPE __FBBIKHeadEffector__BendBone : public ::System::Object {
 public:
   // Declarations
   /// @brief Field transform, offset 0x10, size 0x8
-  __declspec(property(get = __get_transform, put = __set_transform))::UnityEngine::Transform* transform;
+  __declspec(property(get = __cordl_internal_get_transform, put = __cordl_internal_set_transform))::UnityW<::UnityEngine::Transform> transform;
 
   /// @brief Field weight, offset 0x18, size 0x4
-  __declspec(property(get = __get_weight, put = __set_weight)) float_t weight;
+  __declspec(property(get = __cordl_internal_get_weight, put = __cordl_internal_set_weight)) float_t weight;
 
   /// @brief Field defaultLocalRotation, offset 0x1c, size 0x10
-  __declspec(property(get = __get_defaultLocalRotation, put = __set_defaultLocalRotation))::UnityEngine::Quaternion defaultLocalRotation;
+  __declspec(property(get = __cordl_internal_get_defaultLocalRotation, put = __cordl_internal_set_defaultLocalRotation))::UnityEngine::Quaternion defaultLocalRotation;
 
-  constexpr ::UnityEngine::Transform*& __get_transform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_transform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_transform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_transform() const;
 
-  constexpr void __set_transform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get_weight();
+  constexpr float_t& __cordl_internal_get_weight();
 
-  constexpr float_t const& __get_weight() const;
+  constexpr float_t const& __cordl_internal_get_weight() const;
 
-  constexpr void __set_weight(float_t value);
+  constexpr void __cordl_internal_set_weight(float_t value);
 
-  constexpr ::UnityEngine::Quaternion& __get_defaultLocalRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_defaultLocalRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_defaultLocalRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_defaultLocalRotation() const;
 
-  constexpr void __set_defaultLocalRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_defaultLocalRotation(::UnityEngine::Quaternion value);
 
   static inline ::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone* New_ctor();
 
@@ -110,7 +110,7 @@ protected:
 
 public:
   /// @brief Field transform, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___transform;
+  ::UnityW<::UnityEngine::Transform> ___transform;
 
   /// @brief Field weight, offset: 0x18, size: 0x4, def value: None
   float_t ___weight;
@@ -134,7 +134,7 @@ static_assert(offsetof(::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone, ___
 // SizeInfo { instance_size: 368, native_size: -1, calculated_instance_size: 368, calculated_native_size: 368, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12547))
 // CS Name: ::RootMotion.FinalIK::FBBIKHeadEffector*
 class CORDL_TYPE FBBIKHeadEffector : public ::UnityEngine::MonoBehaviour {
@@ -143,419 +143,426 @@ public:
   using BendBone = ::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone;
 
   /// @brief Field ik, offset 0x18, size 0x8
-  __declspec(property(get = __get_ik, put = __set_ik))::RootMotion::FinalIK::FullBodyBipedIK* ik;
+  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> ik;
 
   /// @brief Field positionWeight, offset 0x20, size 0x4
-  __declspec(property(get = __get_positionWeight, put = __set_positionWeight)) float_t positionWeight;
+  __declspec(property(get = __cordl_internal_get_positionWeight, put = __cordl_internal_set_positionWeight)) float_t positionWeight;
 
   /// @brief Field bodyWeight, offset 0x24, size 0x4
-  __declspec(property(get = __get_bodyWeight, put = __set_bodyWeight)) float_t bodyWeight;
+  __declspec(property(get = __cordl_internal_get_bodyWeight, put = __cordl_internal_set_bodyWeight)) float_t bodyWeight;
 
   /// @brief Field thighWeight, offset 0x28, size 0x4
-  __declspec(property(get = __get_thighWeight, put = __set_thighWeight)) float_t thighWeight;
+  __declspec(property(get = __cordl_internal_get_thighWeight, put = __cordl_internal_set_thighWeight)) float_t thighWeight;
 
   /// @brief Field handsPullBody, offset 0x2c, size 0x1
-  __declspec(property(get = __get_handsPullBody, put = __set_handsPullBody)) bool handsPullBody;
+  __declspec(property(get = __cordl_internal_get_handsPullBody, put = __cordl_internal_set_handsPullBody)) bool handsPullBody;
 
   /// @brief Field rotationWeight, offset 0x30, size 0x4
-  __declspec(property(get = __get_rotationWeight, put = __set_rotationWeight)) float_t rotationWeight;
+  __declspec(property(get = __cordl_internal_get_rotationWeight, put = __cordl_internal_set_rotationWeight)) float_t rotationWeight;
 
   /// @brief Field bodyClampWeight, offset 0x34, size 0x4
-  __declspec(property(get = __get_bodyClampWeight, put = __set_bodyClampWeight)) float_t bodyClampWeight;
+  __declspec(property(get = __cordl_internal_get_bodyClampWeight, put = __cordl_internal_set_bodyClampWeight)) float_t bodyClampWeight;
 
   /// @brief Field headClampWeight, offset 0x38, size 0x4
-  __declspec(property(get = __get_headClampWeight, put = __set_headClampWeight)) float_t headClampWeight;
+  __declspec(property(get = __cordl_internal_get_headClampWeight, put = __cordl_internal_set_headClampWeight)) float_t headClampWeight;
 
   /// @brief Field bendWeight, offset 0x3c, size 0x4
-  __declspec(property(get = __get_bendWeight, put = __set_bendWeight)) float_t bendWeight;
+  __declspec(property(get = __cordl_internal_get_bendWeight, put = __cordl_internal_set_bendWeight)) float_t bendWeight;
 
   /// @brief Field bendBones, offset 0x40, size 0x8
-  __declspec(property(get = __get_bendBones,
-                      put = __set_bendBones))::ArrayW<::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone*, ::Array<::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone*>*> bendBones;
+  __declspec(property(get = __cordl_internal_get_bendBones,
+                      put = __cordl_internal_set_bendBones))::ArrayW<::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone*, ::Array<::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone*>*> bendBones;
 
   /// @brief Field CCDWeight, offset 0x48, size 0x4
-  __declspec(property(get = __get_CCDWeight, put = __set_CCDWeight)) float_t CCDWeight;
+  __declspec(property(get = __cordl_internal_get_CCDWeight, put = __cordl_internal_set_CCDWeight)) float_t CCDWeight;
 
   /// @brief Field roll, offset 0x4c, size 0x4
-  __declspec(property(get = __get_roll, put = __set_roll)) float_t roll;
+  __declspec(property(get = __cordl_internal_get_roll, put = __cordl_internal_set_roll)) float_t roll;
 
   /// @brief Field damper, offset 0x50, size 0x4
-  __declspec(property(get = __get_damper, put = __set_damper)) float_t damper;
+  __declspec(property(get = __cordl_internal_get_damper, put = __cordl_internal_set_damper)) float_t damper;
 
   /// @brief Field CCDBones, offset 0x58, size 0x8
-  __declspec(property(get = __get_CCDBones, put = __set_CCDBones))::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> CCDBones;
+  __declspec(property(get = __cordl_internal_get_CCDBones, put = __cordl_internal_set_CCDBones))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> CCDBones;
 
   /// @brief Field postStretchWeight, offset 0x60, size 0x4
-  __declspec(property(get = __get_postStretchWeight, put = __set_postStretchWeight)) float_t postStretchWeight;
+  __declspec(property(get = __cordl_internal_get_postStretchWeight, put = __cordl_internal_set_postStretchWeight)) float_t postStretchWeight;
 
   /// @brief Field maxStretch, offset 0x64, size 0x4
-  __declspec(property(get = __get_maxStretch, put = __set_maxStretch)) float_t maxStretch;
+  __declspec(property(get = __cordl_internal_get_maxStretch, put = __cordl_internal_set_maxStretch)) float_t maxStretch;
 
   /// @brief Field stretchDamper, offset 0x68, size 0x4
-  __declspec(property(get = __get_stretchDamper, put = __set_stretchDamper)) float_t stretchDamper;
+  __declspec(property(get = __cordl_internal_get_stretchDamper, put = __cordl_internal_set_stretchDamper)) float_t stretchDamper;
 
   /// @brief Field fixHead, offset 0x6c, size 0x1
-  __declspec(property(get = __get_fixHead, put = __set_fixHead)) bool fixHead;
+  __declspec(property(get = __cordl_internal_get_fixHead, put = __cordl_internal_set_fixHead)) bool fixHead;
 
   /// @brief Field stretchBones, offset 0x70, size 0x8
-  __declspec(property(get = __get_stretchBones, put = __set_stretchBones))::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> stretchBones;
+  __declspec(property(get = __cordl_internal_get_stretchBones,
+                      put = __cordl_internal_set_stretchBones))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> stretchBones;
 
   /// @brief Field chestDirection, offset 0x78, size 0xc
-  __declspec(property(get = __get_chestDirection, put = __set_chestDirection))::UnityEngine::Vector3 chestDirection;
+  __declspec(property(get = __cordl_internal_get_chestDirection, put = __cordl_internal_set_chestDirection))::UnityEngine::Vector3 chestDirection;
 
   /// @brief Field chestDirectionWeight, offset 0x84, size 0x4
-  __declspec(property(get = __get_chestDirectionWeight, put = __set_chestDirectionWeight)) float_t chestDirectionWeight;
+  __declspec(property(get = __cordl_internal_get_chestDirectionWeight, put = __cordl_internal_set_chestDirectionWeight)) float_t chestDirectionWeight;
 
   /// @brief Field chestBones, offset 0x88, size 0x8
-  __declspec(property(get = __get_chestBones, put = __set_chestBones))::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> chestBones;
+  __declspec(property(get = __cordl_internal_get_chestBones,
+                      put = __cordl_internal_set_chestBones))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> chestBones;
 
   /// @brief Field OnPostHeadEffectorFK, offset 0x90, size 0x8
-  __declspec(property(get = __get_OnPostHeadEffectorFK, put = __set_OnPostHeadEffectorFK))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPostHeadEffectorFK;
+  __declspec(property(get = __cordl_internal_get_OnPostHeadEffectorFK, put = __cordl_internal_set_OnPostHeadEffectorFK))::RootMotion::FinalIK::__IKSolver__UpdateDelegate* OnPostHeadEffectorFK;
 
   /// @brief Field offset, offset 0x98, size 0xc
-  __declspec(property(get = __get_offset, put = __set_offset))::UnityEngine::Vector3 offset;
+  __declspec(property(get = __cordl_internal_get_offset, put = __cordl_internal_set_offset))::UnityEngine::Vector3 offset;
 
   /// @brief Field headToBody, offset 0xa4, size 0xc
-  __declspec(property(get = __get_headToBody, put = __set_headToBody))::UnityEngine::Vector3 headToBody;
+  __declspec(property(get = __cordl_internal_get_headToBody, put = __cordl_internal_set_headToBody))::UnityEngine::Vector3 headToBody;
 
   /// @brief Field shoulderCenterToHead, offset 0xb0, size 0xc
-  __declspec(property(get = __get_shoulderCenterToHead, put = __set_shoulderCenterToHead))::UnityEngine::Vector3 shoulderCenterToHead;
+  __declspec(property(get = __cordl_internal_get_shoulderCenterToHead, put = __cordl_internal_set_shoulderCenterToHead))::UnityEngine::Vector3 shoulderCenterToHead;
 
   /// @brief Field headToLeftThigh, offset 0xbc, size 0xc
-  __declspec(property(get = __get_headToLeftThigh, put = __set_headToLeftThigh))::UnityEngine::Vector3 headToLeftThigh;
+  __declspec(property(get = __cordl_internal_get_headToLeftThigh, put = __cordl_internal_set_headToLeftThigh))::UnityEngine::Vector3 headToLeftThigh;
 
   /// @brief Field headToRightThigh, offset 0xc8, size 0xc
-  __declspec(property(get = __get_headToRightThigh, put = __set_headToRightThigh))::UnityEngine::Vector3 headToRightThigh;
+  __declspec(property(get = __cordl_internal_get_headToRightThigh, put = __cordl_internal_set_headToRightThigh))::UnityEngine::Vector3 headToRightThigh;
 
   /// @brief Field leftShoulderPos, offset 0xd4, size 0xc
-  __declspec(property(get = __get_leftShoulderPos, put = __set_leftShoulderPos))::UnityEngine::Vector3 leftShoulderPos;
+  __declspec(property(get = __cordl_internal_get_leftShoulderPos, put = __cordl_internal_set_leftShoulderPos))::UnityEngine::Vector3 leftShoulderPos;
 
   /// @brief Field rightShoulderPos, offset 0xe0, size 0xc
-  __declspec(property(get = __get_rightShoulderPos, put = __set_rightShoulderPos))::UnityEngine::Vector3 rightShoulderPos;
+  __declspec(property(get = __cordl_internal_get_rightShoulderPos, put = __cordl_internal_set_rightShoulderPos))::UnityEngine::Vector3 rightShoulderPos;
 
   /// @brief Field shoulderDist, offset 0xec, size 0x4
-  __declspec(property(get = __get_shoulderDist, put = __set_shoulderDist)) float_t shoulderDist;
+  __declspec(property(get = __cordl_internal_get_shoulderDist, put = __cordl_internal_set_shoulderDist)) float_t shoulderDist;
 
   /// @brief Field leftShoulderDist, offset 0xf0, size 0x4
-  __declspec(property(get = __get_leftShoulderDist, put = __set_leftShoulderDist)) float_t leftShoulderDist;
+  __declspec(property(get = __cordl_internal_get_leftShoulderDist, put = __cordl_internal_set_leftShoulderDist)) float_t leftShoulderDist;
 
   /// @brief Field rightShoulderDist, offset 0xf4, size 0x4
-  __declspec(property(get = __get_rightShoulderDist, put = __set_rightShoulderDist)) float_t rightShoulderDist;
+  __declspec(property(get = __cordl_internal_get_rightShoulderDist, put = __cordl_internal_set_rightShoulderDist)) float_t rightShoulderDist;
 
   /// @brief Field chestRotation, offset 0xf8, size 0x10
-  __declspec(property(get = __get_chestRotation, put = __set_chestRotation))::UnityEngine::Quaternion chestRotation;
+  __declspec(property(get = __cordl_internal_get_chestRotation, put = __cordl_internal_set_chestRotation))::UnityEngine::Quaternion chestRotation;
 
   /// @brief Field headRotationRelativeToRoot, offset 0x108, size 0x10
-  __declspec(property(get = __get_headRotationRelativeToRoot, put = __set_headRotationRelativeToRoot))::UnityEngine::Quaternion headRotationRelativeToRoot;
+  __declspec(property(get = __cordl_internal_get_headRotationRelativeToRoot, put = __cordl_internal_set_headRotationRelativeToRoot))::UnityEngine::Quaternion headRotationRelativeToRoot;
 
   /// @brief Field ccdDefaultLocalRotations, offset 0x118, size 0x8
-  __declspec(property(get = __get_ccdDefaultLocalRotations, put = __set_ccdDefaultLocalRotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> ccdDefaultLocalRotations;
+  __declspec(property(get = __cordl_internal_get_ccdDefaultLocalRotations,
+                      put = __cordl_internal_set_ccdDefaultLocalRotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> ccdDefaultLocalRotations;
 
   /// @brief Field headLocalPosition, offset 0x120, size 0xc
-  __declspec(property(get = __get_headLocalPosition, put = __set_headLocalPosition))::UnityEngine::Vector3 headLocalPosition;
+  __declspec(property(get = __cordl_internal_get_headLocalPosition, put = __cordl_internal_set_headLocalPosition))::UnityEngine::Vector3 headLocalPosition;
 
   /// @brief Field headLocalRotation, offset 0x12c, size 0x10
-  __declspec(property(get = __get_headLocalRotation, put = __set_headLocalRotation))::UnityEngine::Quaternion headLocalRotation;
+  __declspec(property(get = __cordl_internal_get_headLocalRotation, put = __cordl_internal_set_headLocalRotation))::UnityEngine::Quaternion headLocalRotation;
 
   /// @brief Field stretchLocalPositions, offset 0x140, size 0x8
-  __declspec(property(get = __get_stretchLocalPositions, put = __set_stretchLocalPositions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> stretchLocalPositions;
+  __declspec(property(get = __cordl_internal_get_stretchLocalPositions,
+                      put = __cordl_internal_set_stretchLocalPositions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> stretchLocalPositions;
 
   /// @brief Field stretchLocalRotations, offset 0x148, size 0x8
-  __declspec(property(get = __get_stretchLocalRotations, put = __set_stretchLocalRotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> stretchLocalRotations;
+  __declspec(property(get = __cordl_internal_get_stretchLocalRotations,
+                      put = __cordl_internal_set_stretchLocalRotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> stretchLocalRotations;
 
   /// @brief Field chestLocalPositions, offset 0x150, size 0x8
-  __declspec(property(get = __get_chestLocalPositions, put = __set_chestLocalPositions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> chestLocalPositions;
+  __declspec(property(get = __cordl_internal_get_chestLocalPositions,
+                      put = __cordl_internal_set_chestLocalPositions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> chestLocalPositions;
 
   /// @brief Field chestLocalRotations, offset 0x158, size 0x8
-  __declspec(property(get = __get_chestLocalRotations, put = __set_chestLocalRotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> chestLocalRotations;
+  __declspec(property(get = __cordl_internal_get_chestLocalRotations,
+                      put = __cordl_internal_set_chestLocalRotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> chestLocalRotations;
 
   /// @brief Field bendBonesCount, offset 0x160, size 0x4
-  __declspec(property(get = __get_bendBonesCount, put = __set_bendBonesCount)) int32_t bendBonesCount;
+  __declspec(property(get = __cordl_internal_get_bendBonesCount, put = __cordl_internal_set_bendBonesCount)) int32_t bendBonesCount;
 
   /// @brief Field ccdBonesCount, offset 0x164, size 0x4
-  __declspec(property(get = __get_ccdBonesCount, put = __set_ccdBonesCount)) int32_t ccdBonesCount;
+  __declspec(property(get = __cordl_internal_get_ccdBonesCount, put = __cordl_internal_set_ccdBonesCount)) int32_t ccdBonesCount;
 
   /// @brief Field stretchBonesCount, offset 0x168, size 0x4
-  __declspec(property(get = __get_stretchBonesCount, put = __set_stretchBonesCount)) int32_t stretchBonesCount;
+  __declspec(property(get = __cordl_internal_get_stretchBonesCount, put = __cordl_internal_set_stretchBonesCount)) int32_t stretchBonesCount;
 
   /// @brief Field chestBonesCount, offset 0x16c, size 0x4
-  __declspec(property(get = __get_chestBonesCount, put = __set_chestBonesCount)) int32_t chestBonesCount;
+  __declspec(property(get = __cordl_internal_get_chestBonesCount, put = __cordl_internal_set_chestBonesCount)) int32_t chestBonesCount;
 
-  constexpr ::RootMotion::FinalIK::FullBodyBipedIK*& __get_ik();
+  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK>& __cordl_internal_get_ik();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::FullBodyBipedIK*> const& __get_ik() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> const& __cordl_internal_get_ik() const;
 
-  constexpr void __set_ik(::RootMotion::FinalIK::FullBodyBipedIK* value);
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> value);
 
-  constexpr float_t& __get_positionWeight();
+  constexpr float_t& __cordl_internal_get_positionWeight();
 
-  constexpr float_t const& __get_positionWeight() const;
+  constexpr float_t const& __cordl_internal_get_positionWeight() const;
 
-  constexpr void __set_positionWeight(float_t value);
+  constexpr void __cordl_internal_set_positionWeight(float_t value);
 
-  constexpr float_t& __get_bodyWeight();
+  constexpr float_t& __cordl_internal_get_bodyWeight();
 
-  constexpr float_t const& __get_bodyWeight() const;
+  constexpr float_t const& __cordl_internal_get_bodyWeight() const;
 
-  constexpr void __set_bodyWeight(float_t value);
+  constexpr void __cordl_internal_set_bodyWeight(float_t value);
 
-  constexpr float_t& __get_thighWeight();
+  constexpr float_t& __cordl_internal_get_thighWeight();
 
-  constexpr float_t const& __get_thighWeight() const;
+  constexpr float_t const& __cordl_internal_get_thighWeight() const;
 
-  constexpr void __set_thighWeight(float_t value);
+  constexpr void __cordl_internal_set_thighWeight(float_t value);
 
-  constexpr bool& __get_handsPullBody();
+  constexpr bool& __cordl_internal_get_handsPullBody();
 
-  constexpr bool const& __get_handsPullBody() const;
+  constexpr bool const& __cordl_internal_get_handsPullBody() const;
 
-  constexpr void __set_handsPullBody(bool value);
+  constexpr void __cordl_internal_set_handsPullBody(bool value);
 
-  constexpr float_t& __get_rotationWeight();
+  constexpr float_t& __cordl_internal_get_rotationWeight();
 
-  constexpr float_t const& __get_rotationWeight() const;
+  constexpr float_t const& __cordl_internal_get_rotationWeight() const;
 
-  constexpr void __set_rotationWeight(float_t value);
+  constexpr void __cordl_internal_set_rotationWeight(float_t value);
 
-  constexpr float_t& __get_bodyClampWeight();
+  constexpr float_t& __cordl_internal_get_bodyClampWeight();
 
-  constexpr float_t const& __get_bodyClampWeight() const;
+  constexpr float_t const& __cordl_internal_get_bodyClampWeight() const;
 
-  constexpr void __set_bodyClampWeight(float_t value);
+  constexpr void __cordl_internal_set_bodyClampWeight(float_t value);
 
-  constexpr float_t& __get_headClampWeight();
+  constexpr float_t& __cordl_internal_get_headClampWeight();
 
-  constexpr float_t const& __get_headClampWeight() const;
+  constexpr float_t const& __cordl_internal_get_headClampWeight() const;
 
-  constexpr void __set_headClampWeight(float_t value);
+  constexpr void __cordl_internal_set_headClampWeight(float_t value);
 
-  constexpr float_t& __get_bendWeight();
+  constexpr float_t& __cordl_internal_get_bendWeight();
 
-  constexpr float_t const& __get_bendWeight() const;
+  constexpr float_t const& __cordl_internal_get_bendWeight() const;
 
-  constexpr void __set_bendWeight(float_t value);
+  constexpr void __cordl_internal_set_bendWeight(float_t value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone*, ::Array<::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone*>*>& __get_bendBones();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone*, ::Array<::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone*>*>& __cordl_internal_get_bendBones();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone*, ::Array<::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone*>*> const& __get_bendBones() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone*, ::Array<::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone*>*> const& __cordl_internal_get_bendBones() const;
 
-  constexpr void __set_bendBones(::ArrayW<::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone*, ::Array<::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone*>*> value);
+  constexpr void __cordl_internal_set_bendBones(::ArrayW<::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone*, ::Array<::RootMotion::FinalIK::__FBBIKHeadEffector__BendBone*>*> value);
 
-  constexpr float_t& __get_CCDWeight();
+  constexpr float_t& __cordl_internal_get_CCDWeight();
 
-  constexpr float_t const& __get_CCDWeight() const;
+  constexpr float_t const& __cordl_internal_get_CCDWeight() const;
 
-  constexpr void __set_CCDWeight(float_t value);
+  constexpr void __cordl_internal_set_CCDWeight(float_t value);
 
-  constexpr float_t& __get_roll();
+  constexpr float_t& __cordl_internal_get_roll();
 
-  constexpr float_t const& __get_roll() const;
+  constexpr float_t const& __cordl_internal_get_roll() const;
 
-  constexpr void __set_roll(float_t value);
+  constexpr void __cordl_internal_set_roll(float_t value);
 
-  constexpr float_t& __get_damper();
+  constexpr float_t& __cordl_internal_get_damper();
 
-  constexpr float_t const& __get_damper() const;
+  constexpr float_t const& __cordl_internal_get_damper() const;
 
-  constexpr void __set_damper(float_t value);
+  constexpr void __cordl_internal_set_damper(float_t value);
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& __get_CCDBones();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_CCDBones();
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& __get_CCDBones() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_CCDBones() const;
 
-  constexpr void __set_CCDBones(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
+  constexpr void __cordl_internal_set_CCDBones(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  constexpr float_t& __get_postStretchWeight();
+  constexpr float_t& __cordl_internal_get_postStretchWeight();
 
-  constexpr float_t const& __get_postStretchWeight() const;
+  constexpr float_t const& __cordl_internal_get_postStretchWeight() const;
 
-  constexpr void __set_postStretchWeight(float_t value);
+  constexpr void __cordl_internal_set_postStretchWeight(float_t value);
 
-  constexpr float_t& __get_maxStretch();
+  constexpr float_t& __cordl_internal_get_maxStretch();
 
-  constexpr float_t const& __get_maxStretch() const;
+  constexpr float_t const& __cordl_internal_get_maxStretch() const;
 
-  constexpr void __set_maxStretch(float_t value);
+  constexpr void __cordl_internal_set_maxStretch(float_t value);
 
-  constexpr float_t& __get_stretchDamper();
+  constexpr float_t& __cordl_internal_get_stretchDamper();
 
-  constexpr float_t const& __get_stretchDamper() const;
+  constexpr float_t const& __cordl_internal_get_stretchDamper() const;
 
-  constexpr void __set_stretchDamper(float_t value);
+  constexpr void __cordl_internal_set_stretchDamper(float_t value);
 
-  constexpr bool& __get_fixHead();
+  constexpr bool& __cordl_internal_get_fixHead();
 
-  constexpr bool const& __get_fixHead() const;
+  constexpr bool const& __cordl_internal_get_fixHead() const;
 
-  constexpr void __set_fixHead(bool value);
+  constexpr void __cordl_internal_set_fixHead(bool value);
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& __get_stretchBones();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_stretchBones();
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& __get_stretchBones() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_stretchBones() const;
 
-  constexpr void __set_stretchBones(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
+  constexpr void __cordl_internal_set_stretchBones(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  constexpr ::UnityEngine::Vector3& __get_chestDirection();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_chestDirection();
 
-  constexpr ::UnityEngine::Vector3 const& __get_chestDirection() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_chestDirection() const;
 
-  constexpr void __set_chestDirection(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_chestDirection(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get_chestDirectionWeight();
+  constexpr float_t& __cordl_internal_get_chestDirectionWeight();
 
-  constexpr float_t const& __get_chestDirectionWeight() const;
+  constexpr float_t const& __cordl_internal_get_chestDirectionWeight() const;
 
-  constexpr void __set_chestDirectionWeight(float_t value);
+  constexpr void __cordl_internal_set_chestDirectionWeight(float_t value);
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& __get_chestBones();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_chestBones();
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& __get_chestBones() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_chestBones() const;
 
-  constexpr void __set_chestBones(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
+  constexpr void __cordl_internal_set_chestBones(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __get_OnPostHeadEffectorFK();
+  constexpr ::RootMotion::FinalIK::__IKSolver__UpdateDelegate*& __cordl_internal_get_OnPostHeadEffectorFK();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __get_OnPostHeadEffectorFK() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKSolver__UpdateDelegate*> const& __cordl_internal_get_OnPostHeadEffectorFK() const;
 
-  constexpr void __set_OnPostHeadEffectorFK(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
+  constexpr void __cordl_internal_set_OnPostHeadEffectorFK(::RootMotion::FinalIK::__IKSolver__UpdateDelegate* value);
 
-  constexpr ::UnityEngine::Vector3& __get_offset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_offset();
 
-  constexpr ::UnityEngine::Vector3 const& __get_offset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_offset() const;
 
-  constexpr void __set_offset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_offset(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_headToBody();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headToBody();
 
-  constexpr ::UnityEngine::Vector3 const& __get_headToBody() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headToBody() const;
 
-  constexpr void __set_headToBody(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_headToBody(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_shoulderCenterToHead();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_shoulderCenterToHead();
 
-  constexpr ::UnityEngine::Vector3 const& __get_shoulderCenterToHead() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_shoulderCenterToHead() const;
 
-  constexpr void __set_shoulderCenterToHead(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_shoulderCenterToHead(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_headToLeftThigh();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headToLeftThigh();
 
-  constexpr ::UnityEngine::Vector3 const& __get_headToLeftThigh() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headToLeftThigh() const;
 
-  constexpr void __set_headToLeftThigh(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_headToLeftThigh(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_headToRightThigh();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headToRightThigh();
 
-  constexpr ::UnityEngine::Vector3 const& __get_headToRightThigh() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headToRightThigh() const;
 
-  constexpr void __set_headToRightThigh(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_headToRightThigh(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_leftShoulderPos();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_leftShoulderPos();
 
-  constexpr ::UnityEngine::Vector3 const& __get_leftShoulderPos() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_leftShoulderPos() const;
 
-  constexpr void __set_leftShoulderPos(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_leftShoulderPos(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_rightShoulderPos();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rightShoulderPos();
 
-  constexpr ::UnityEngine::Vector3 const& __get_rightShoulderPos() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rightShoulderPos() const;
 
-  constexpr void __set_rightShoulderPos(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_rightShoulderPos(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get_shoulderDist();
+  constexpr float_t& __cordl_internal_get_shoulderDist();
 
-  constexpr float_t const& __get_shoulderDist() const;
+  constexpr float_t const& __cordl_internal_get_shoulderDist() const;
 
-  constexpr void __set_shoulderDist(float_t value);
+  constexpr void __cordl_internal_set_shoulderDist(float_t value);
 
-  constexpr float_t& __get_leftShoulderDist();
+  constexpr float_t& __cordl_internal_get_leftShoulderDist();
 
-  constexpr float_t const& __get_leftShoulderDist() const;
+  constexpr float_t const& __cordl_internal_get_leftShoulderDist() const;
 
-  constexpr void __set_leftShoulderDist(float_t value);
+  constexpr void __cordl_internal_set_leftShoulderDist(float_t value);
 
-  constexpr float_t& __get_rightShoulderDist();
+  constexpr float_t& __cordl_internal_get_rightShoulderDist();
 
-  constexpr float_t const& __get_rightShoulderDist() const;
+  constexpr float_t const& __cordl_internal_get_rightShoulderDist() const;
 
-  constexpr void __set_rightShoulderDist(float_t value);
+  constexpr void __cordl_internal_set_rightShoulderDist(float_t value);
 
-  constexpr ::UnityEngine::Quaternion& __get_chestRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_chestRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_chestRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_chestRotation() const;
 
-  constexpr void __set_chestRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_chestRotation(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Quaternion& __get_headRotationRelativeToRoot();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_headRotationRelativeToRoot();
 
-  constexpr ::UnityEngine::Quaternion const& __get_headRotationRelativeToRoot() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_headRotationRelativeToRoot() const;
 
-  constexpr void __set_headRotationRelativeToRoot(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_headRotationRelativeToRoot(::UnityEngine::Quaternion value);
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __get_ccdDefaultLocalRotations();
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __cordl_internal_get_ccdDefaultLocalRotations();
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __get_ccdDefaultLocalRotations() const;
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __cordl_internal_get_ccdDefaultLocalRotations() const;
 
-  constexpr void __set_ccdDefaultLocalRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
+  constexpr void __cordl_internal_set_ccdDefaultLocalRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
 
-  constexpr ::UnityEngine::Vector3& __get_headLocalPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_headLocalPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_headLocalPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_headLocalPosition() const;
 
-  constexpr void __set_headLocalPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_headLocalPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_headLocalRotation();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_headLocalRotation();
 
-  constexpr ::UnityEngine::Quaternion const& __get_headLocalRotation() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_headLocalRotation() const;
 
-  constexpr void __set_headLocalRotation(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_headLocalRotation(::UnityEngine::Quaternion value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get_stretchLocalPositions();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_stretchLocalPositions();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get_stretchLocalPositions() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_stretchLocalPositions() const;
 
-  constexpr void __set_stretchLocalPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set_stretchLocalPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __get_stretchLocalRotations();
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __cordl_internal_get_stretchLocalRotations();
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __get_stretchLocalRotations() const;
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __cordl_internal_get_stretchLocalRotations() const;
 
-  constexpr void __set_stretchLocalRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
+  constexpr void __cordl_internal_set_stretchLocalRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get_chestLocalPositions();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_chestLocalPositions();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get_chestLocalPositions() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_chestLocalPositions() const;
 
-  constexpr void __set_chestLocalPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set_chestLocalPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __get_chestLocalRotations();
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __cordl_internal_get_chestLocalRotations();
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __get_chestLocalRotations() const;
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __cordl_internal_get_chestLocalRotations() const;
 
-  constexpr void __set_chestLocalRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
+  constexpr void __cordl_internal_set_chestLocalRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
 
-  constexpr int32_t& __get_bendBonesCount();
+  constexpr int32_t& __cordl_internal_get_bendBonesCount();
 
-  constexpr int32_t const& __get_bendBonesCount() const;
+  constexpr int32_t const& __cordl_internal_get_bendBonesCount() const;
 
-  constexpr void __set_bendBonesCount(int32_t value);
+  constexpr void __cordl_internal_set_bendBonesCount(int32_t value);
 
-  constexpr int32_t& __get_ccdBonesCount();
+  constexpr int32_t& __cordl_internal_get_ccdBonesCount();
 
-  constexpr int32_t const& __get_ccdBonesCount() const;
+  constexpr int32_t const& __cordl_internal_get_ccdBonesCount() const;
 
-  constexpr void __set_ccdBonesCount(int32_t value);
+  constexpr void __cordl_internal_set_ccdBonesCount(int32_t value);
 
-  constexpr int32_t& __get_stretchBonesCount();
+  constexpr int32_t& __cordl_internal_get_stretchBonesCount();
 
-  constexpr int32_t const& __get_stretchBonesCount() const;
+  constexpr int32_t const& __cordl_internal_get_stretchBonesCount() const;
 
-  constexpr void __set_stretchBonesCount(int32_t value);
+  constexpr void __cordl_internal_set_stretchBonesCount(int32_t value);
 
-  constexpr int32_t& __get_chestBonesCount();
+  constexpr int32_t& __cordl_internal_get_chestBonesCount();
 
-  constexpr int32_t const& __get_chestBonesCount() const;
+  constexpr int32_t const& __cordl_internal_get_chestBonesCount() const;
 
-  constexpr void __set_chestBonesCount(int32_t value);
+  constexpr void __cordl_internal_set_chestBonesCount(int32_t value);
 
   /// @brief Method Start, addr 0x1251948, size 0x3ec, virtual false, abstract: false, final false
   inline void Start();
@@ -616,7 +623,7 @@ protected:
 
 public:
   /// @brief Field ik, offset: 0x18, size: 0x8, def value: None
-  ::RootMotion::FinalIK::FullBodyBipedIK* ___ik;
+  ::UnityW<::RootMotion::FinalIK::FullBodyBipedIK> ___ik;
 
   /// @brief Field positionWeight, offset: 0x20, size: 0x4, def value: None
   float_t ___positionWeight;
@@ -655,7 +662,7 @@ public:
   float_t ___damper;
 
   /// @brief Field CCDBones, offset: 0x58, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> ___CCDBones;
+  ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ___CCDBones;
 
   /// @brief Field postStretchWeight, offset: 0x60, size: 0x4, def value: None
   float_t ___postStretchWeight;
@@ -670,7 +677,7 @@ public:
   bool ___fixHead;
 
   /// @brief Field stretchBones, offset: 0x70, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> ___stretchBones;
+  ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ___stretchBones;
 
   /// @brief Field chestDirection, offset: 0x78, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___chestDirection;
@@ -679,7 +686,7 @@ public:
   float_t ___chestDirectionWeight;
 
   /// @brief Field chestBones, offset: 0x88, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> ___chestBones;
+  ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ___chestBones;
 
   /// @brief Field OnPostHeadEffectorFK, offset: 0x90, size: 0x8, def value: None
   ::RootMotion::FinalIK::__IKSolver__UpdateDelegate* ___OnPostHeadEffectorFK;

@@ -15,29 +15,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::Timeout);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1286))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::Timeout*
 class CORDL_TYPE Timeout : public ::System::Object {
 public:
   // Declarations
   /// @brief Field durationMillis, offset 0x10, size 0x8
-  __declspec(property(get = __get_durationMillis, put = __set_durationMillis)) int64_t durationMillis;
+  __declspec(property(get = __cordl_internal_get_durationMillis, put = __cordl_internal_set_durationMillis)) int64_t durationMillis;
 
   /// @brief Field startMillis, offset 0x18, size 0x8
-  __declspec(property(get = __get_startMillis, put = __set_startMillis)) int64_t startMillis;
+  __declspec(property(get = __cordl_internal_get_startMillis, put = __cordl_internal_set_startMillis)) int64_t startMillis;
 
-  constexpr int64_t& __get_durationMillis();
+  constexpr int64_t& __cordl_internal_get_durationMillis();
 
-  constexpr int64_t const& __get_durationMillis() const;
+  constexpr int64_t const& __cordl_internal_get_durationMillis() const;
 
-  constexpr void __set_durationMillis(int64_t value);
+  constexpr void __cordl_internal_set_durationMillis(int64_t value);
 
-  constexpr int64_t& __get_startMillis();
+  constexpr int64_t& __cordl_internal_get_startMillis();
 
-  constexpr int64_t const& __get_startMillis() const;
+  constexpr int64_t const& __cordl_internal_get_startMillis() const;
 
-  constexpr void __set_startMillis(int64_t value);
+  constexpr void __cordl_internal_set_startMillis(int64_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::Timeout* New_ctor(int64_t durationMillis);
 

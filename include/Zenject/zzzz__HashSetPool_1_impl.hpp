@@ -11,28 +11,28 @@ template <typename T> inline ::Zenject::HashSetPool_1<T>* Zenject::HashSetPool_1
   return ::cordl_internals::getStaticField<::Zenject::HashSetPool_1<T>*, "_instance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::HashSetPool_1<T>*>::get>();
 }
 template <typename T> inline ::Zenject::HashSetPool_1<T>* Zenject::HashSetPool_1<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::Zenject::HashSetPool_1<T>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::HashSetPool_1<T>*>());
 }
 template <typename T> inline void Zenject::HashSetPool_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::HashSetPool_1<T>*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline ::Zenject::HashSetPool_1<T>* Zenject::HashSetPool_1<T>::get_Instance() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::HashSetPool_1<T>*>::get(), "get_Instance",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::HashSetPool_1<T>*, false>(nullptr, ___internal_method);
 }
 template <typename T> inline void Zenject::HashSetPool_1<T>::OnSpawned(::System::Collections::Generic::HashSet_1<T>* items) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::HashSetPool_1<T>*>::get(), "OnSpawned", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<T>*>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::HashSetPool_1<T>*>::get(), "OnSpawned", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, items);
 }
 template <typename T> inline void Zenject::HashSetPool_1<T>::OnDespawned(::System::Collections::Generic::HashSet_1<T>* items) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::HashSetPool_1<T>*>::get(), "OnDespawned", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<T>*>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::HashSetPool_1<T>*>::get(), "OnDespawned", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, items);
 }
 // Ctor Parameters []

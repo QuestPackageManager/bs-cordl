@@ -30,33 +30,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::UserNotice);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(395))
 // CS Name: ::Org.BouncyCastle.Asn1.X509::UserNotice*
 class CORDL_TYPE UserNotice : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field noticeRef, offset 0x10, size 0x8
-  __declspec(property(get = __get_noticeRef, put = __set_noticeRef))::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef;
+  __declspec(property(get = __cordl_internal_get_noticeRef, put = __cordl_internal_set_noticeRef))::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef;
 
   /// @brief Field explicitText, offset 0x18, size 0x8
-  __declspec(property(get = __get_explicitText, put = __set_explicitText))::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText;
+  __declspec(property(get = __cordl_internal_get_explicitText, put = __cordl_internal_set_explicitText))::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText;
 
   __declspec(property(get = get_NoticeRef))::Org::BouncyCastle::Asn1::X509::NoticeReference* NoticeRef;
 
   __declspec(property(get = get_ExplicitText))::Org::BouncyCastle::Asn1::X509::DisplayText* ExplicitText;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::NoticeReference*& __get_noticeRef();
+  constexpr ::Org::BouncyCastle::Asn1::X509::NoticeReference*& __cordl_internal_get_noticeRef();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::NoticeReference*> const& __get_noticeRef() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::NoticeReference*> const& __cordl_internal_get_noticeRef() const;
 
-  constexpr void __set_noticeRef(::Org::BouncyCastle::Asn1::X509::NoticeReference* value);
+  constexpr void __cordl_internal_set_noticeRef(::Org::BouncyCastle::Asn1::X509::NoticeReference* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::DisplayText*& __get_explicitText();
+  constexpr ::Org::BouncyCastle::Asn1::X509::DisplayText*& __cordl_internal_get_explicitText();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::DisplayText*> const& __get_explicitText() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::DisplayText*> const& __cordl_internal_get_explicitText() const;
 
-  constexpr void __set_explicitText(::Org::BouncyCastle::Asn1::X509::DisplayText* value);
+  constexpr void __cordl_internal_set_explicitText(::Org::BouncyCastle::Asn1::X509::DisplayText* value);
 
   static inline ::Org::BouncyCastle::Asn1::X509::UserNotice* New_ctor(::Org::BouncyCastle::Asn1::X509::NoticeReference* noticeRef, ::Org::BouncyCastle::Asn1::X509::DisplayText* explicitText);
 

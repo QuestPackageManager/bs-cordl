@@ -23,34 +23,34 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelBuyView);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5813))
 // CS Name: ::StandardLevelBuyView*
 class CORDL_TYPE StandardLevelBuyView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _levelBar, offset 0x18, size 0x8
-  __declspec(property(get = __get__levelBar, put = __set__levelBar))::GlobalNamespace::LevelBar* _levelBar;
+  __declspec(property(get = __cordl_internal_get__levelBar, put = __cordl_internal_set__levelBar))::UnityW<::GlobalNamespace::LevelBar> _levelBar;
 
   /// @brief Field _buyButton, offset 0x20, size 0x8
-  __declspec(property(get = __get__buyButton, put = __set__buyButton))::UnityEngine::UI::Button* _buyButton;
+  __declspec(property(get = __cordl_internal_get__buyButton, put = __cordl_internal_set__buyButton))::UnityW<::UnityEngine::UI::Button> _buyButton;
 
-  __declspec(property(get = get_buyButton))::UnityEngine::UI::Button* buyButton;
+  __declspec(property(get = get_buyButton))::UnityW<::UnityEngine::UI::Button> buyButton;
 
-  constexpr ::GlobalNamespace::LevelBar*& __get__levelBar();
+  constexpr ::UnityW<::GlobalNamespace::LevelBar>& __cordl_internal_get__levelBar();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelBar*> const& __get__levelBar() const;
+  constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
 
-  constexpr void __set__levelBar(::GlobalNamespace::LevelBar* value);
+  constexpr void __cordl_internal_set__levelBar(::UnityW<::GlobalNamespace::LevelBar> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__buyButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__buyButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__buyButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__buyButton() const;
 
-  constexpr void __set__buyButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__buyButton(::UnityW<::UnityEngine::UI::Button> value);
 
   /// @brief Method get_buyButton, addr 0x22e9aa8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Button* get_buyButton();
+  inline ::UnityW<::UnityEngine::UI::Button> get_buyButton();
 
   /// @brief Method SetContent, addr 0x22e9ab0, size 0x1c, virtual false, abstract: false, final false
   inline void SetContent(::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel);
@@ -75,10 +75,10 @@ protected:
 
 public:
   /// @brief Field _levelBar, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::LevelBar* ____levelBar;
+  ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;
 
   /// @brief Field _buyButton, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____buyButton;
+  ::UnityW<::UnityEngine::UI::Button> ____buyButton;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

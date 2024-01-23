@@ -17,35 +17,35 @@ MARK_REF_PTR_T(::TMPro::TMP_Style);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12424))
 // CS Name: ::TMPro::TMP_Style*
 class CORDL_TYPE TMP_Style : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Name, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Name, put = __set_m_Name))::StringW m_Name;
+  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name))::StringW m_Name;
 
   /// @brief Field m_HashCode, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_HashCode, put = __set_m_HashCode)) int32_t m_HashCode;
+  __declspec(property(get = __cordl_internal_get_m_HashCode, put = __cordl_internal_set_m_HashCode)) int32_t m_HashCode;
 
   /// @brief Field m_OpeningDefinition, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_OpeningDefinition, put = __set_m_OpeningDefinition))::StringW m_OpeningDefinition;
+  __declspec(property(get = __cordl_internal_get_m_OpeningDefinition, put = __cordl_internal_set_m_OpeningDefinition))::StringW m_OpeningDefinition;
 
   /// @brief Field m_ClosingDefinition, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_ClosingDefinition, put = __set_m_ClosingDefinition))::StringW m_ClosingDefinition;
+  __declspec(property(get = __cordl_internal_get_m_ClosingDefinition, put = __cordl_internal_set_m_ClosingDefinition))::StringW m_ClosingDefinition;
 
   /// @brief Field m_OpeningTagArray, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_OpeningTagArray, put = __set_m_OpeningTagArray))::ArrayW<int32_t, ::Array<int32_t>*> m_OpeningTagArray;
+  __declspec(property(get = __cordl_internal_get_m_OpeningTagArray, put = __cordl_internal_set_m_OpeningTagArray))::ArrayW<int32_t, ::Array<int32_t>*> m_OpeningTagArray;
 
   /// @brief Field m_ClosingTagArray, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_ClosingTagArray, put = __set_m_ClosingTagArray))::ArrayW<int32_t, ::Array<int32_t>*> m_ClosingTagArray;
+  __declspec(property(get = __cordl_internal_get_m_ClosingTagArray, put = __cordl_internal_set_m_ClosingTagArray))::ArrayW<int32_t, ::Array<int32_t>*> m_ClosingTagArray;
 
   /// @brief Field m_OpeningTagUnicodeArray, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_OpeningTagUnicodeArray, put = __set_m_OpeningTagUnicodeArray))::ArrayW<uint32_t, ::Array<uint32_t>*> m_OpeningTagUnicodeArray;
+  __declspec(property(get = __cordl_internal_get_m_OpeningTagUnicodeArray, put = __cordl_internal_set_m_OpeningTagUnicodeArray))::ArrayW<uint32_t, ::Array<uint32_t>*> m_OpeningTagUnicodeArray;
 
   /// @brief Field m_ClosingTagUnicodeArray, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_ClosingTagUnicodeArray, put = __set_m_ClosingTagUnicodeArray))::ArrayW<uint32_t, ::Array<uint32_t>*> m_ClosingTagUnicodeArray;
+  __declspec(property(get = __cordl_internal_get_m_ClosingTagUnicodeArray, put = __cordl_internal_set_m_ClosingTagUnicodeArray))::ArrayW<uint32_t, ::Array<uint32_t>*> m_ClosingTagUnicodeArray;
 
   /// @brief Field k_NormalStyle, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_k_NormalStyle, put = setStaticF_k_NormalStyle))::TMPro::TMP_Style* k_NormalStyle;
@@ -62,53 +62,53 @@ public:
 
   __declspec(property(get = get_styleClosingTagArray))::ArrayW<int32_t, ::Array<int32_t>*> styleClosingTagArray;
 
-  constexpr ::StringW& __get_m_Name();
+  constexpr ::StringW& __cordl_internal_get_m_Name();
 
-  constexpr ::StringW const& __get_m_Name() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Name() const;
 
-  constexpr void __set_m_Name(::StringW value);
+  constexpr void __cordl_internal_set_m_Name(::StringW value);
 
-  constexpr int32_t& __get_m_HashCode();
+  constexpr int32_t& __cordl_internal_get_m_HashCode();
 
-  constexpr int32_t const& __get_m_HashCode() const;
+  constexpr int32_t const& __cordl_internal_get_m_HashCode() const;
 
-  constexpr void __set_m_HashCode(int32_t value);
+  constexpr void __cordl_internal_set_m_HashCode(int32_t value);
 
-  constexpr ::StringW& __get_m_OpeningDefinition();
+  constexpr ::StringW& __cordl_internal_get_m_OpeningDefinition();
 
-  constexpr ::StringW const& __get_m_OpeningDefinition() const;
+  constexpr ::StringW const& __cordl_internal_get_m_OpeningDefinition() const;
 
-  constexpr void __set_m_OpeningDefinition(::StringW value);
+  constexpr void __cordl_internal_set_m_OpeningDefinition(::StringW value);
 
-  constexpr ::StringW& __get_m_ClosingDefinition();
+  constexpr ::StringW& __cordl_internal_get_m_ClosingDefinition();
 
-  constexpr ::StringW const& __get_m_ClosingDefinition() const;
+  constexpr ::StringW const& __cordl_internal_get_m_ClosingDefinition() const;
 
-  constexpr void __set_m_ClosingDefinition(::StringW value);
+  constexpr void __cordl_internal_set_m_ClosingDefinition(::StringW value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_m_OpeningTagArray();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_OpeningTagArray();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_m_OpeningTagArray() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_OpeningTagArray() const;
 
-  constexpr void __set_m_OpeningTagArray(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_m_OpeningTagArray(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_m_ClosingTagArray();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_m_ClosingTagArray();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_m_ClosingTagArray() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_m_ClosingTagArray() const;
 
-  constexpr void __set_m_ClosingTagArray(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_m_ClosingTagArray(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_m_OpeningTagUnicodeArray();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_m_OpeningTagUnicodeArray();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_m_OpeningTagUnicodeArray() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_m_OpeningTagUnicodeArray() const;
 
-  constexpr void __set_m_OpeningTagUnicodeArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_m_OpeningTagUnicodeArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_m_ClosingTagUnicodeArray();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_m_ClosingTagUnicodeArray();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_m_ClosingTagUnicodeArray() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_m_ClosingTagUnicodeArray() const;
 
-  constexpr void __set_m_ClosingTagUnicodeArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_m_ClosingTagUnicodeArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
   static inline void setStaticF_k_NormalStyle(::TMPro::TMP_Style* value);
 

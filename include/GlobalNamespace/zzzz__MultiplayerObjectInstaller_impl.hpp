@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x144;
   constexpr static std::size_t addrs = 0x22529fc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerObjectInstaller*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerObjectInstaller*>::get(), 8));
@@ -26,46 +26,45 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2252b40;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerObjectInstaller*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::MultiplayerScoreRingItem*& GlobalNamespace::MultiplayerObjectInstaller::__get__inEnvironmentTextsPrefab() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem>& GlobalNamespace::MultiplayerObjectInstaller::__cordl_internal_get__inEnvironmentTextsPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inEnvironmentTextsPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerScoreRingItem*> const& GlobalNamespace::MultiplayerObjectInstaller::__get__inEnvironmentTextsPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> const& GlobalNamespace::MultiplayerObjectInstaller::__cordl_internal_get__inEnvironmentTextsPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____inEnvironmentTextsPrefab;
 }
-constexpr void GlobalNamespace::MultiplayerObjectInstaller::__set__inEnvironmentTextsPrefab(::GlobalNamespace::MultiplayerScoreRingItem* value) {
+constexpr void GlobalNamespace::MultiplayerObjectInstaller::__cordl_internal_set__inEnvironmentTextsPrefab(::UnityW<::GlobalNamespace::MultiplayerScoreRingItem> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____inEnvironmentTextsPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::FireworkItemController*& GlobalNamespace::MultiplayerObjectInstaller::__get__fireworkItemControllerPrefab() {
+constexpr ::UnityW<::GlobalNamespace::FireworkItemController>& GlobalNamespace::MultiplayerObjectInstaller::__cordl_internal_get__fireworkItemControllerPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fireworkItemControllerPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FireworkItemController*> const& GlobalNamespace::MultiplayerObjectInstaller::__get__fireworkItemControllerPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::FireworkItemController> const& GlobalNamespace::MultiplayerObjectInstaller::__cordl_internal_get__fireworkItemControllerPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____fireworkItemControllerPrefab;
 }
-constexpr void GlobalNamespace::MultiplayerObjectInstaller::__set__fireworkItemControllerPrefab(::GlobalNamespace::FireworkItemController* value) {
+constexpr void GlobalNamespace::MultiplayerObjectInstaller::__cordl_internal_set__fireworkItemControllerPrefab(::UnityW<::GlobalNamespace::FireworkItemController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fireworkItemControllerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*& GlobalNamespace::MultiplayerObjectInstaller::__get__multiplayerResultsPyramidViewAvatarPrefab() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar>& GlobalNamespace::MultiplayerObjectInstaller::__cordl_internal_get__multiplayerResultsPyramidViewAvatarPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerResultsPyramidViewAvatarPrefab;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar*> const&
-GlobalNamespace::MultiplayerObjectInstaller::__get__multiplayerResultsPyramidViewAvatarPrefab() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> const& GlobalNamespace::MultiplayerObjectInstaller::__cordl_internal_get__multiplayerResultsPyramidViewAvatarPrefab() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerResultsPyramidViewAvatarPrefab;
 }
-constexpr void GlobalNamespace::MultiplayerObjectInstaller::__set__multiplayerResultsPyramidViewAvatarPrefab(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar* value) {
+constexpr void GlobalNamespace::MultiplayerObjectInstaller::__cordl_internal_set__multiplayerResultsPyramidViewAvatarPrefab(::UnityW<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerResultsPyramidViewAvatarPrefab)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
@@ -76,11 +75,11 @@ inline void GlobalNamespace::MultiplayerObjectInstaller::InstallBindings() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::MultiplayerObjectInstaller* GlobalNamespace::MultiplayerObjectInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MultiplayerObjectInstaller*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerObjectInstaller*>());
 }
 inline void GlobalNamespace::MultiplayerObjectInstaller::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerObjectInstaller*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

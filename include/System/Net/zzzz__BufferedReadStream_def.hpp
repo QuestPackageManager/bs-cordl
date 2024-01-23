@@ -52,9 +52,9 @@ MARK_VAL_T(::System::Net::__BufferedReadStream___ProcessReadAsync_d__2);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98
-// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9151)) CS
-// Name: ::BufferedReadStream::<ProcessReadAsync>d__2
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3397)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3397), inst: 98 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 98 })] Self:
+// TypeDefinitionIndex(TypeDefinitionIndex(9151)) CS Name: ::BufferedReadStream::<ProcessReadAsync>d__2
 struct CORDL_TYPE __BufferedReadStream___ProcessReadAsync_d__2 {
 public:
   // Declarations
@@ -137,7 +137,7 @@ static_assert(offsetof(::System::Net::__BufferedReadStream___ProcessReadAsync_d_
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9229))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9229))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9152))
 // CS Name: ::System.Net::BufferedReadStream*
 class CORDL_TYPE BufferedReadStream : public ::System::Net::WebReadStream {
@@ -146,13 +146,13 @@ public:
   using _ProcessReadAsync_d__2 = ::System::Net::__BufferedReadStream___ProcessReadAsync_d__2;
 
   /// @brief Field readBuffer, offset 0x40, size 0x8
-  __declspec(property(get = __get_readBuffer, put = __set_readBuffer))::System::Net::BufferOffsetSize* readBuffer;
+  __declspec(property(get = __cordl_internal_get_readBuffer, put = __cordl_internal_set_readBuffer))::System::Net::BufferOffsetSize* readBuffer;
 
-  constexpr ::System::Net::BufferOffsetSize*& __get_readBuffer();
+  constexpr ::System::Net::BufferOffsetSize*& __cordl_internal_get_readBuffer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::BufferOffsetSize*> const& __get_readBuffer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::BufferOffsetSize*> const& __cordl_internal_get_readBuffer() const;
 
-  constexpr void __set_readBuffer(::System::Net::BufferOffsetSize* value);
+  constexpr void __cordl_internal_set_readBuffer(::System::Net::BufferOffsetSize* value);
 
   static inline ::System::Net::BufferedReadStream* New_ctor(::System::Net::WebOperation* operation, ::System::IO::Stream* innerStream, ::System::Net::BufferOffsetSize* readBuffer);
 

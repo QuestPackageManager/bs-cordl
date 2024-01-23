@@ -45,33 +45,33 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14543))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14543))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14536))
 // CS Name: ::LightmapLightWithIds::LightIntensitiesWithId*
 class CORDL_TYPE __LightmapLightWithIds__LightIntensitiesWithId : public ::GlobalNamespace::__LightWithIds__LightWithId {
 public:
   // Declarations
   /// @brief Field _intensity, offset 0x30, size 0x4
-  __declspec(property(get = __get__intensity, put = __set__intensity)) float_t _intensity;
+  __declspec(property(get = __cordl_internal_get__intensity, put = __cordl_internal_set__intensity)) float_t _intensity;
 
   /// @brief Field _probeHighlightsIntensityMultiplier, offset 0x34, size 0x4
-  __declspec(property(get = __get__probeHighlightsIntensityMultiplier, put = __set__probeHighlightsIntensityMultiplier)) float_t _probeHighlightsIntensityMultiplier;
+  __declspec(property(get = __cordl_internal_get__probeHighlightsIntensityMultiplier, put = __cordl_internal_set__probeHighlightsIntensityMultiplier)) float_t _probeHighlightsIntensityMultiplier;
 
   __declspec(property(get = get_intensity)) float_t intensity;
 
   __declspec(property(get = get_probeHighlightsIntensityMultiplier)) float_t probeHighlightsIntensityMultiplier;
 
-  constexpr float_t& __get__intensity();
+  constexpr float_t& __cordl_internal_get__intensity();
 
-  constexpr float_t const& __get__intensity() const;
+  constexpr float_t const& __cordl_internal_get__intensity() const;
 
-  constexpr void __set__intensity(float_t value);
+  constexpr void __cordl_internal_set__intensity(float_t value);
 
-  constexpr float_t& __get__probeHighlightsIntensityMultiplier();
+  constexpr float_t& __cordl_internal_get__probeHighlightsIntensityMultiplier();
 
-  constexpr float_t const& __get__probeHighlightsIntensityMultiplier() const;
+  constexpr float_t const& __cordl_internal_get__probeHighlightsIntensityMultiplier() const;
 
-  constexpr void __set__probeHighlightsIntensityMultiplier(float_t value);
+  constexpr void __cordl_internal_set__probeHighlightsIntensityMultiplier(float_t value);
 
   /// @brief Method get_intensity, addr 0x21100e8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_intensity();
@@ -118,52 +118,53 @@ static_assert(offsetof(::GlobalNamespace::__LightmapLightWithIds__LightIntensiti
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 108, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14522)), TypeDefinitionIndex(TypeDefinitionIndex(14544)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14532))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14537)) CS Name: ::LightmapLightWithIds*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(14522)), TypeDefinitionIndex(TypeDefinitionIndex(14532)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14544))] Self: TypeDefinitionIndex(TypeDefinitionIndex(14537)) CS Name: ::LightmapLightWithIds*
 class CORDL_TYPE LightmapLightWithIds : public ::GlobalNamespace::LightWithIds {
 public:
   // Declarations
   using LightIntensitiesWithId = ::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId;
 
   /// @brief Field _bakeId, offset 0x2c, size 0x4
-  __declspec(property(get = __get__bakeId, put = __set__bakeId))::GlobalNamespace::__LightConstants__BakeId _bakeId;
+  __declspec(property(get = __cordl_internal_get__bakeId, put = __cordl_internal_set__bakeId))::GlobalNamespace::__LightConstants__BakeId _bakeId;
 
   /// @brief Field _intensity, offset 0x30, size 0x4
-  __declspec(property(get = __get__intensity, put = __set__intensity)) float_t _intensity;
+  __declspec(property(get = __cordl_internal_get__intensity, put = __cordl_internal_set__intensity)) float_t _intensity;
 
   /// @brief Field _probeIntensity, offset 0x34, size 0x4
-  __declspec(property(get = __get__probeIntensity, put = __set__probeIntensity)) float_t _probeIntensity;
+  __declspec(property(get = __cordl_internal_get__probeIntensity, put = __cordl_internal_set__probeIntensity)) float_t _probeIntensity;
 
   /// @brief Field _lightIntensityData, offset 0x38, size 0x8
-  __declspec(property(get = __get__lightIntensityData, put = __set__lightIntensityData))::ArrayW<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*,
-                                                                                                 ::Array<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>*> _lightIntensityData;
+  __declspec(property(get = __cordl_internal_get__lightIntensityData,
+                      put = __cordl_internal_set__lightIntensityData))::ArrayW<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*,
+                                                                               ::Array<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>*> _lightIntensityData;
 
   /// @brief Field _mixType, offset 0x40, size 0x4
-  __declspec(property(get = __get__mixType, put = __set__mixType))::GlobalNamespace::ColorMixAndWeightingApproach _mixType;
+  __declspec(property(get = __cordl_internal_get__mixType, put = __cordl_internal_set__mixType))::GlobalNamespace::ColorMixAndWeightingApproach _mixType;
 
   /// @brief Field _normalizerWeight, offset 0x44, size 0x4
-  __declspec(property(get = __get__normalizerWeight, put = __set__normalizerWeight)) float_t _normalizerWeight;
+  __declspec(property(get = __cordl_internal_get__normalizerWeight, put = __cordl_internal_set__normalizerWeight)) float_t _normalizerWeight;
 
   /// @brief Field _bakedLightsNormalizer, offset 0x48, size 0x8
-  __declspec(property(get = __get__bakedLightsNormalizer, put = __set__bakedLightsNormalizer))::GlobalNamespace::BakedLightsNormalizer* _bakedLightsNormalizer;
+  __declspec(property(get = __cordl_internal_get__bakedLightsNormalizer, put = __cordl_internal_set__bakedLightsNormalizer))::UnityW<::GlobalNamespace::BakedLightsNormalizer> _bakedLightsNormalizer;
 
   /// @brief Field _lightmapLightIdColorPropertyId, offset 0x50, size 0x4
-  __declspec(property(get = __get__lightmapLightIdColorPropertyId, put = __set__lightmapLightIdColorPropertyId)) int32_t _lightmapLightIdColorPropertyId;
+  __declspec(property(get = __cordl_internal_get__lightmapLightIdColorPropertyId, put = __cordl_internal_set__lightmapLightIdColorPropertyId)) int32_t _lightmapLightIdColorPropertyId;
 
   /// @brief Field _lightProbeLightIdColorPropertyId, offset 0x54, size 0x4
-  __declspec(property(get = __get__lightProbeLightIdColorPropertyId, put = __set__lightProbeLightIdColorPropertyId)) int32_t _lightProbeLightIdColorPropertyId;
+  __declspec(property(get = __cordl_internal_get__lightProbeLightIdColorPropertyId, put = __cordl_internal_set__lightProbeLightIdColorPropertyId)) int32_t _lightProbeLightIdColorPropertyId;
 
   /// @brief Field _initializedPropertyIds, offset 0x58, size 0x1
-  __declspec(property(get = __get__initializedPropertyIds, put = __set__initializedPropertyIds)) bool _initializedPropertyIds;
+  __declspec(property(get = __cordl_internal_get__initializedPropertyIds, put = __cordl_internal_set__initializedPropertyIds)) bool _initializedPropertyIds;
 
   /// @brief Field _initializedNormalizer, offset 0x59, size 0x1
-  __declspec(property(get = __get__initializedNormalizer, put = __set__initializedNormalizer)) bool _initializedNormalizer;
+  __declspec(property(get = __cordl_internal_get__initializedNormalizer, put = __cordl_internal_set__initializedNormalizer)) bool _initializedNormalizer;
 
   /// @brief Field _isNormalizerInScene, offset 0x5a, size 0x1
-  __declspec(property(get = __get__isNormalizerInScene, put = __set__isNormalizerInScene)) bool _isNormalizerInScene;
+  __declspec(property(get = __cordl_internal_get__isNormalizerInScene, put = __cordl_internal_set__isNormalizerInScene)) bool _isNormalizerInScene;
 
   /// @brief Field _calculatedColorPreNormalization, offset 0x5c, size 0x10
-  __declspec(property(get = __get__calculatedColorPreNormalization, put = __set__calculatedColorPreNormalization))::UnityEngine::Color _calculatedColorPreNormalization;
+  __declspec(property(get = __cordl_internal_get__calculatedColorPreNormalization, put = __cordl_internal_set__calculatedColorPreNormalization))::UnityEngine::Color _calculatedColorPreNormalization;
 
   __declspec(property(get = get_mixType))::GlobalNamespace::ColorMixAndWeightingApproach mixType;
 
@@ -175,85 +176,86 @@ public:
 
   __declspec(property(get = get_bakeId))::GlobalNamespace::__LightConstants__BakeId bakeId;
 
-  constexpr ::GlobalNamespace::__LightConstants__BakeId& __get__bakeId();
+  constexpr ::GlobalNamespace::__LightConstants__BakeId& __cordl_internal_get__bakeId();
 
-  constexpr ::GlobalNamespace::__LightConstants__BakeId const& __get__bakeId() const;
+  constexpr ::GlobalNamespace::__LightConstants__BakeId const& __cordl_internal_get__bakeId() const;
 
-  constexpr void __set__bakeId(::GlobalNamespace::__LightConstants__BakeId value);
+  constexpr void __cordl_internal_set__bakeId(::GlobalNamespace::__LightConstants__BakeId value);
 
-  constexpr float_t& __get__intensity();
+  constexpr float_t& __cordl_internal_get__intensity();
 
-  constexpr float_t const& __get__intensity() const;
+  constexpr float_t const& __cordl_internal_get__intensity() const;
 
-  constexpr void __set__intensity(float_t value);
+  constexpr void __cordl_internal_set__intensity(float_t value);
 
-  constexpr float_t& __get__probeIntensity();
+  constexpr float_t& __cordl_internal_get__probeIntensity();
 
-  constexpr float_t const& __get__probeIntensity() const;
+  constexpr float_t const& __cordl_internal_get__probeIntensity() const;
 
-  constexpr void __set__probeIntensity(float_t value);
+  constexpr void __cordl_internal_set__probeIntensity(float_t value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>*>& __get__lightIntensityData();
+  constexpr ::ArrayW<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>*>&
+  __cordl_internal_get__lightIntensityData();
 
   constexpr ::ArrayW<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>*> const&
-  __get__lightIntensityData() const;
+  __cordl_internal_get__lightIntensityData() const;
 
-  constexpr void
-  __set__lightIntensityData(::ArrayW<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>*> value);
+  constexpr void __cordl_internal_set__lightIntensityData(
+      ::ArrayW<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*, ::Array<::GlobalNamespace::__LightmapLightWithIds__LightIntensitiesWithId*>*> value);
 
-  constexpr ::GlobalNamespace::ColorMixAndWeightingApproach& __get__mixType();
+  constexpr ::GlobalNamespace::ColorMixAndWeightingApproach& __cordl_internal_get__mixType();
 
-  constexpr ::GlobalNamespace::ColorMixAndWeightingApproach const& __get__mixType() const;
+  constexpr ::GlobalNamespace::ColorMixAndWeightingApproach const& __cordl_internal_get__mixType() const;
 
-  constexpr void __set__mixType(::GlobalNamespace::ColorMixAndWeightingApproach value);
+  constexpr void __cordl_internal_set__mixType(::GlobalNamespace::ColorMixAndWeightingApproach value);
 
-  constexpr float_t& __get__normalizerWeight();
+  constexpr float_t& __cordl_internal_get__normalizerWeight();
 
-  constexpr float_t const& __get__normalizerWeight() const;
+  constexpr float_t const& __cordl_internal_get__normalizerWeight() const;
 
-  constexpr void __set__normalizerWeight(float_t value);
+  constexpr void __cordl_internal_set__normalizerWeight(float_t value);
 
-  constexpr ::GlobalNamespace::BakedLightsNormalizer*& __get__bakedLightsNormalizer();
+  constexpr ::UnityW<::GlobalNamespace::BakedLightsNormalizer>& __cordl_internal_get__bakedLightsNormalizer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BakedLightsNormalizer*> const& __get__bakedLightsNormalizer() const;
+  constexpr ::UnityW<::GlobalNamespace::BakedLightsNormalizer> const& __cordl_internal_get__bakedLightsNormalizer() const;
 
-  constexpr void __set__bakedLightsNormalizer(::GlobalNamespace::BakedLightsNormalizer* value);
+  constexpr void __cordl_internal_set__bakedLightsNormalizer(::UnityW<::GlobalNamespace::BakedLightsNormalizer> value);
 
-  constexpr int32_t& __get__lightmapLightIdColorPropertyId();
+  constexpr int32_t& __cordl_internal_get__lightmapLightIdColorPropertyId();
 
-  constexpr int32_t const& __get__lightmapLightIdColorPropertyId() const;
+  constexpr int32_t const& __cordl_internal_get__lightmapLightIdColorPropertyId() const;
 
-  constexpr void __set__lightmapLightIdColorPropertyId(int32_t value);
+  constexpr void __cordl_internal_set__lightmapLightIdColorPropertyId(int32_t value);
 
-  constexpr int32_t& __get__lightProbeLightIdColorPropertyId();
+  constexpr int32_t& __cordl_internal_get__lightProbeLightIdColorPropertyId();
 
-  constexpr int32_t const& __get__lightProbeLightIdColorPropertyId() const;
+  constexpr int32_t const& __cordl_internal_get__lightProbeLightIdColorPropertyId() const;
 
-  constexpr void __set__lightProbeLightIdColorPropertyId(int32_t value);
+  constexpr void __cordl_internal_set__lightProbeLightIdColorPropertyId(int32_t value);
 
-  constexpr bool& __get__initializedPropertyIds();
+  constexpr bool& __cordl_internal_get__initializedPropertyIds();
 
-  constexpr bool const& __get__initializedPropertyIds() const;
+  constexpr bool const& __cordl_internal_get__initializedPropertyIds() const;
 
-  constexpr void __set__initializedPropertyIds(bool value);
+  constexpr void __cordl_internal_set__initializedPropertyIds(bool value);
 
-  constexpr bool& __get__initializedNormalizer();
+  constexpr bool& __cordl_internal_get__initializedNormalizer();
 
-  constexpr bool const& __get__initializedNormalizer() const;
+  constexpr bool const& __cordl_internal_get__initializedNormalizer() const;
 
-  constexpr void __set__initializedNormalizer(bool value);
+  constexpr void __cordl_internal_set__initializedNormalizer(bool value);
 
-  constexpr bool& __get__isNormalizerInScene();
+  constexpr bool& __cordl_internal_get__isNormalizerInScene();
 
-  constexpr bool const& __get__isNormalizerInScene() const;
+  constexpr bool const& __cordl_internal_get__isNormalizerInScene() const;
 
-  constexpr void __set__isNormalizerInScene(bool value);
+  constexpr void __cordl_internal_set__isNormalizerInScene(bool value);
 
-  constexpr ::UnityEngine::Color& __get__calculatedColorPreNormalization();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__calculatedColorPreNormalization();
 
-  constexpr ::UnityEngine::Color const& __get__calculatedColorPreNormalization() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__calculatedColorPreNormalization() const;
 
-  constexpr void __set__calculatedColorPreNormalization(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__calculatedColorPreNormalization(::UnityEngine::Color value);
 
   /// @brief Method get_mixType, addr 0x210fa98, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ColorMixAndWeightingApproach get_mixType();
@@ -332,7 +334,7 @@ public:
   float_t ____normalizerWeight;
 
   /// @brief Field _bakedLightsNormalizer, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::BakedLightsNormalizer* ____bakedLightsNormalizer;
+  ::UnityW<::GlobalNamespace::BakedLightsNormalizer> ____bakedLightsNormalizer;
 
   /// @brief Field _lightmapLightIdColorPropertyId, offset: 0x50, size: 0x4, def value: None
   int32_t ____lightmapLightIdColorPropertyId;

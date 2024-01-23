@@ -22,17 +22,17 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::SizedArray)
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3293))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::SizedArray*
 class CORDL_TYPE SizedArray : public ::System::Object {
 public:
   // Declarations
   /// @brief Field objects, offset 0x10, size 0x8
-  __declspec(property(get = __get_objects, put = __set_objects))::ArrayW<::System::Object*, ::Array<::System::Object*>*> objects;
+  __declspec(property(get = __cordl_internal_get_objects, put = __cordl_internal_set_objects))::ArrayW<::System::Object*, ::Array<::System::Object*>*> objects;
 
   /// @brief Field negObjects, offset 0x18, size 0x8
-  __declspec(property(get = __get_negObjects, put = __set_negObjects))::ArrayW<::System::Object*, ::Array<::System::Object*>*> negObjects;
+  __declspec(property(get = __cordl_internal_get_negObjects, put = __cordl_internal_set_negObjects))::ArrayW<::System::Object*, ::Array<::System::Object*>*> negObjects;
 
   __declspec(property(get = get_Item, put = set_Item))::System::Object* Item[];
 
@@ -42,17 +42,17 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get_objects();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_objects();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get_objects() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_objects() const;
 
-  constexpr void __set_objects(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set_objects(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get_negObjects();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_negObjects();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get_negObjects() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_negObjects() const;
 
-  constexpr void __set_negObjects(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set_negObjects(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SizedArray* New_ctor();
 

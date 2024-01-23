@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::TransitionRunEvent);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7188)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7188), inst: 5156 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7188)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7188), inst: 5156 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7189))
 // CS Name: ::UnityEngine.UIElements::TransitionRunEvent*
 class CORDL_TYPE TransitionRunEvent : public ::UnityEngine::UIElements::TransitionEventBase_1<::UnityEngine::UIElements::TransitionRunEvent*> {

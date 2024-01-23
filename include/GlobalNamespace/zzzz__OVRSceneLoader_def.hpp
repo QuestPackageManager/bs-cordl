@@ -68,7 +68,7 @@ MARK_VAL_T(::GlobalNamespace::__OVRSceneLoader__SceneInfo);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7957))
 // CS Name: ::OVRSceneLoader::SceneInfo
 struct CORDL_TYPE __OVRSceneLoader__SceneInfo {
@@ -108,20 +108,20 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader__SceneInfo, version) 
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7958))
 // CS Name: ::OVRSceneLoader::<DelayCanvasPosUpdate>d__24*
 class CORDL_TYPE __OVRSceneLoader___DelayCanvasPosUpdate_d__24 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::OVRSceneLoader* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::OVRSceneLoader> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -145,23 +145,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::OVRSceneLoader*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneLoader>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSceneLoader*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneLoader> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::OVRSceneLoader* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRSceneLoader> value);
 
   static inline ::GlobalNamespace::__OVRSceneLoader___DelayCanvasPosUpdate_d__24* New_ctor(int32_t __1__state);
 
@@ -204,7 +204,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSceneLoader* _____4__this;
+  ::UnityW<::GlobalNamespace::OVRSceneLoader> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -222,20 +222,20 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader___DelayCanvasPosUpdat
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7959))
 // CS Name: ::OVRSceneLoader::<onCheckSceneCoroutine>d__25*
 class CORDL_TYPE __OVRSceneLoader___onCheckSceneCoroutine_d__25 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::OVRSceneLoader* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::OVRSceneLoader> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -259,23 +259,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::OVRSceneLoader*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneLoader>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRSceneLoader*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRSceneLoader> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::OVRSceneLoader* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRSceneLoader> value);
 
   static inline ::GlobalNamespace::__OVRSceneLoader___onCheckSceneCoroutine_d__25* New_ctor(int32_t __1__state);
 
@@ -318,7 +318,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::OVRSceneLoader* _____4__this;
+  ::UnityW<::GlobalNamespace::OVRSceneLoader> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -336,7 +336,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneLoader___onCheckSceneCorouti
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7957))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7957)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7960))
 // CS Name: ::OVRSceneLoader*
 class CORDL_TYPE OVRSceneLoader : public ::UnityEngine::MonoBehaviour {
@@ -349,121 +349,122 @@ public:
   using SceneInfo = ::GlobalNamespace::__OVRSceneLoader__SceneInfo;
 
   /// @brief Field sceneCheckIntervalSeconds, offset 0x18, size 0x4
-  __declspec(property(get = __get_sceneCheckIntervalSeconds, put = __set_sceneCheckIntervalSeconds)) float_t sceneCheckIntervalSeconds;
+  __declspec(property(get = __cordl_internal_get_sceneCheckIntervalSeconds, put = __cordl_internal_set_sceneCheckIntervalSeconds)) float_t sceneCheckIntervalSeconds;
 
   /// @brief Field logCloseTime, offset 0x1c, size 0x4
-  __declspec(property(get = __get_logCloseTime, put = __set_logCloseTime)) float_t logCloseTime;
+  __declspec(property(get = __cordl_internal_get_logCloseTime, put = __cordl_internal_set_logCloseTime)) float_t logCloseTime;
 
   /// @brief Field mainCanvas, offset 0x20, size 0x8
-  __declspec(property(get = __get_mainCanvas, put = __set_mainCanvas))::UnityEngine::Canvas* mainCanvas;
+  __declspec(property(get = __cordl_internal_get_mainCanvas, put = __cordl_internal_set_mainCanvas))::UnityW<::UnityEngine::Canvas> mainCanvas;
 
   /// @brief Field logTextBox, offset 0x28, size 0x8
-  __declspec(property(get = __get_logTextBox, put = __set_logTextBox))::UnityEngine::UI::Text* logTextBox;
+  __declspec(property(get = __cordl_internal_get_logTextBox, put = __cordl_internal_set_logTextBox))::UnityW<::UnityEngine::UI::Text> logTextBox;
 
   /// @brief Field loadSceneOperation, offset 0x30, size 0x8
-  __declspec(property(get = __get_loadSceneOperation, put = __set_loadSceneOperation))::UnityEngine::AsyncOperation* loadSceneOperation;
+  __declspec(property(get = __cordl_internal_get_loadSceneOperation, put = __cordl_internal_set_loadSceneOperation))::UnityEngine::AsyncOperation* loadSceneOperation;
 
   /// @brief Field formattedLogText, offset 0x38, size 0x8
-  __declspec(property(get = __get_formattedLogText, put = __set_formattedLogText))::StringW formattedLogText;
+  __declspec(property(get = __cordl_internal_get_formattedLogText, put = __cordl_internal_set_formattedLogText))::StringW formattedLogText;
 
   /// @brief Field closeLogTimer, offset 0x40, size 0x4
-  __declspec(property(get = __get_closeLogTimer, put = __set_closeLogTimer)) float_t closeLogTimer;
+  __declspec(property(get = __cordl_internal_get_closeLogTimer, put = __cordl_internal_set_closeLogTimer)) float_t closeLogTimer;
 
   /// @brief Field closeLogDialogue, offset 0x44, size 0x1
-  __declspec(property(get = __get_closeLogDialogue, put = __set_closeLogDialogue)) bool closeLogDialogue;
+  __declspec(property(get = __cordl_internal_get_closeLogDialogue, put = __cordl_internal_set_closeLogDialogue)) bool closeLogDialogue;
 
   /// @brief Field canvasPosUpdated, offset 0x45, size 0x1
-  __declspec(property(get = __get_canvasPosUpdated, put = __set_canvasPosUpdated)) bool canvasPosUpdated;
+  __declspec(property(get = __cordl_internal_get_canvasPosUpdated, put = __cordl_internal_set_canvasPosUpdated)) bool canvasPosUpdated;
 
   /// @brief Field scenePath, offset 0x48, size 0x8
-  __declspec(property(get = __get_scenePath, put = __set_scenePath))::StringW scenePath;
+  __declspec(property(get = __cordl_internal_get_scenePath, put = __cordl_internal_set_scenePath))::StringW scenePath;
 
   /// @brief Field sceneLoadDataPath, offset 0x50, size 0x8
-  __declspec(property(get = __get_sceneLoadDataPath, put = __set_sceneLoadDataPath))::StringW sceneLoadDataPath;
+  __declspec(property(get = __cordl_internal_get_sceneLoadDataPath, put = __cordl_internal_set_sceneLoadDataPath))::StringW sceneLoadDataPath;
 
   /// @brief Field loadedAssetBundles, offset 0x58, size 0x8
-  __declspec(property(get = __get_loadedAssetBundles, put = __set_loadedAssetBundles))::System::Collections::Generic::List_1<::UnityEngine::AssetBundle*>* loadedAssetBundles;
+  __declspec(property(get = __cordl_internal_get_loadedAssetBundles,
+                      put = __cordl_internal_set_loadedAssetBundles))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AssetBundle>>* loadedAssetBundles;
 
   /// @brief Field currentSceneInfo, offset 0x60, size 0x10
-  __declspec(property(get = __get_currentSceneInfo, put = __set_currentSceneInfo))::GlobalNamespace::__OVRSceneLoader__SceneInfo currentSceneInfo;
+  __declspec(property(get = __cordl_internal_get_currentSceneInfo, put = __cordl_internal_set_currentSceneInfo))::GlobalNamespace::__OVRSceneLoader__SceneInfo currentSceneInfo;
 
-  constexpr float_t& __get_sceneCheckIntervalSeconds();
+  constexpr float_t& __cordl_internal_get_sceneCheckIntervalSeconds();
 
-  constexpr float_t const& __get_sceneCheckIntervalSeconds() const;
+  constexpr float_t const& __cordl_internal_get_sceneCheckIntervalSeconds() const;
 
-  constexpr void __set_sceneCheckIntervalSeconds(float_t value);
+  constexpr void __cordl_internal_set_sceneCheckIntervalSeconds(float_t value);
 
-  constexpr float_t& __get_logCloseTime();
+  constexpr float_t& __cordl_internal_get_logCloseTime();
 
-  constexpr float_t const& __get_logCloseTime() const;
+  constexpr float_t const& __cordl_internal_get_logCloseTime() const;
 
-  constexpr void __set_logCloseTime(float_t value);
+  constexpr void __cordl_internal_set_logCloseTime(float_t value);
 
-  constexpr ::UnityEngine::Canvas*& __get_mainCanvas();
+  constexpr ::UnityW<::UnityEngine::Canvas>& __cordl_internal_get_mainCanvas();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Canvas*> const& __get_mainCanvas() const;
+  constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get_mainCanvas() const;
 
-  constexpr void __set_mainCanvas(::UnityEngine::Canvas* value);
+  constexpr void __cordl_internal_set_mainCanvas(::UnityW<::UnityEngine::Canvas> value);
 
-  constexpr ::UnityEngine::UI::Text*& __get_logTextBox();
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_logTextBox();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& __get_logTextBox() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_logTextBox() const;
 
-  constexpr void __set_logTextBox(::UnityEngine::UI::Text* value);
+  constexpr void __cordl_internal_set_logTextBox(::UnityW<::UnityEngine::UI::Text> value);
 
-  constexpr ::UnityEngine::AsyncOperation*& __get_loadSceneOperation();
+  constexpr ::UnityEngine::AsyncOperation*& __cordl_internal_get_loadSceneOperation();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AsyncOperation*> const& __get_loadSceneOperation() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AsyncOperation*> const& __cordl_internal_get_loadSceneOperation() const;
 
-  constexpr void __set_loadSceneOperation(::UnityEngine::AsyncOperation* value);
+  constexpr void __cordl_internal_set_loadSceneOperation(::UnityEngine::AsyncOperation* value);
 
-  constexpr ::StringW& __get_formattedLogText();
+  constexpr ::StringW& __cordl_internal_get_formattedLogText();
 
-  constexpr ::StringW const& __get_formattedLogText() const;
+  constexpr ::StringW const& __cordl_internal_get_formattedLogText() const;
 
-  constexpr void __set_formattedLogText(::StringW value);
+  constexpr void __cordl_internal_set_formattedLogText(::StringW value);
 
-  constexpr float_t& __get_closeLogTimer();
+  constexpr float_t& __cordl_internal_get_closeLogTimer();
 
-  constexpr float_t const& __get_closeLogTimer() const;
+  constexpr float_t const& __cordl_internal_get_closeLogTimer() const;
 
-  constexpr void __set_closeLogTimer(float_t value);
+  constexpr void __cordl_internal_set_closeLogTimer(float_t value);
 
-  constexpr bool& __get_closeLogDialogue();
+  constexpr bool& __cordl_internal_get_closeLogDialogue();
 
-  constexpr bool const& __get_closeLogDialogue() const;
+  constexpr bool const& __cordl_internal_get_closeLogDialogue() const;
 
-  constexpr void __set_closeLogDialogue(bool value);
+  constexpr void __cordl_internal_set_closeLogDialogue(bool value);
 
-  constexpr bool& __get_canvasPosUpdated();
+  constexpr bool& __cordl_internal_get_canvasPosUpdated();
 
-  constexpr bool const& __get_canvasPosUpdated() const;
+  constexpr bool const& __cordl_internal_get_canvasPosUpdated() const;
 
-  constexpr void __set_canvasPosUpdated(bool value);
+  constexpr void __cordl_internal_set_canvasPosUpdated(bool value);
 
-  constexpr ::StringW& __get_scenePath();
+  constexpr ::StringW& __cordl_internal_get_scenePath();
 
-  constexpr ::StringW const& __get_scenePath() const;
+  constexpr ::StringW const& __cordl_internal_get_scenePath() const;
 
-  constexpr void __set_scenePath(::StringW value);
+  constexpr void __cordl_internal_set_scenePath(::StringW value);
 
-  constexpr ::StringW& __get_sceneLoadDataPath();
+  constexpr ::StringW& __cordl_internal_get_sceneLoadDataPath();
 
-  constexpr ::StringW const& __get_sceneLoadDataPath() const;
+  constexpr ::StringW const& __cordl_internal_get_sceneLoadDataPath() const;
 
-  constexpr void __set_sceneLoadDataPath(::StringW value);
+  constexpr void __cordl_internal_set_sceneLoadDataPath(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::AssetBundle*>*& __get_loadedAssetBundles();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AssetBundle>>*& __cordl_internal_get_loadedAssetBundles();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::AssetBundle*>*> const& __get_loadedAssetBundles() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AssetBundle>>*> const& __cordl_internal_get_loadedAssetBundles() const;
 
-  constexpr void __set_loadedAssetBundles(::System::Collections::Generic::List_1<::UnityEngine::AssetBundle*>* value);
+  constexpr void __cordl_internal_set_loadedAssetBundles(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AssetBundle>>* value);
 
-  constexpr ::GlobalNamespace::__OVRSceneLoader__SceneInfo& __get_currentSceneInfo();
+  constexpr ::GlobalNamespace::__OVRSceneLoader__SceneInfo& __cordl_internal_get_currentSceneInfo();
 
-  constexpr ::GlobalNamespace::__OVRSceneLoader__SceneInfo const& __get_currentSceneInfo() const;
+  constexpr ::GlobalNamespace::__OVRSceneLoader__SceneInfo const& __cordl_internal_get_currentSceneInfo() const;
 
-  constexpr void __set_currentSceneInfo(::GlobalNamespace::__OVRSceneLoader__SceneInfo value);
+  constexpr void __cordl_internal_set_currentSceneInfo(::GlobalNamespace::__OVRSceneLoader__SceneInfo value);
 
   /// @brief Method Awake, addr 0x2780398, size 0x6c, virtual false, abstract: false, final false
   inline void Awake();
@@ -521,10 +522,10 @@ public:
   float_t ___logCloseTime;
 
   /// @brief Field mainCanvas, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Canvas* ___mainCanvas;
+  ::UnityW<::UnityEngine::Canvas> ___mainCanvas;
 
   /// @brief Field logTextBox, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UI::Text* ___logTextBox;
+  ::UnityW<::UnityEngine::UI::Text> ___logTextBox;
 
   /// @brief Field loadSceneOperation, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::AsyncOperation* ___loadSceneOperation;
@@ -548,7 +549,7 @@ public:
   ::StringW ___sceneLoadDataPath;
 
   /// @brief Field loadedAssetBundles, offset: 0x58, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::AssetBundle*>* ___loadedAssetBundles;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::AssetBundle>>* ___loadedAssetBundles;
 
   /// @brief Field currentSceneInfo, offset: 0x60, size: 0x10, def value: None
   ::GlobalNamespace::__OVRSceneLoader__SceneInfo ___currentSceneInfo;

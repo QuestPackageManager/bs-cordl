@@ -29,23 +29,25 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::VisualTreeViewDataUpdater);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9966)), TypeDefinitionIndex(TypeDefinitionIndex(6754))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6754)), TypeDefinitionIndex(TypeDefinitionIndex(9966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6903))
 // CS Name: ::UnityEngine.UIElements::VisualTreeViewDataUpdater*
 class CORDL_TYPE VisualTreeViewDataUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
   // Declarations
   /// @brief Field m_UpdateList, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_UpdateList, put = __set_m_UpdateList))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_UpdateList;
+  __declspec(property(get = __cordl_internal_get_m_UpdateList,
+                      put = __cordl_internal_set_m_UpdateList))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_UpdateList;
 
   /// @brief Field m_ParentList, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_ParentList, put = __set_m_ParentList))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_ParentList;
+  __declspec(property(get = __cordl_internal_get_m_ParentList,
+                      put = __cordl_internal_set_m_ParentList))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_ParentList;
 
   /// @brief Field m_Version, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_Version, put = __set_m_Version)) uint32_t m_Version;
+  __declspec(property(get = __cordl_internal_get_m_Version, put = __cordl_internal_set_m_Version)) uint32_t m_Version;
 
   /// @brief Field m_LastVersion, offset 0x34, size 0x4
-  __declspec(property(get = __get_m_LastVersion, put = __set_m_LastVersion)) uint32_t m_LastVersion;
+  __declspec(property(get = __cordl_internal_get_m_LastVersion, put = __cordl_internal_set_m_LastVersion)) uint32_t m_LastVersion;
 
   /// @brief Field s_Description, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_Description, put = setStaticF_s_Description))::StringW s_Description;
@@ -55,29 +57,29 @@ public:
 
   __declspec(property(get = get_profilerMarker))::Unity::Profiling::ProfilerMarker profilerMarker;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __get_m_UpdateList();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_UpdateList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __get_m_UpdateList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_UpdateList() const;
 
-  constexpr void __set_m_UpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
+  constexpr void __cordl_internal_set_m_UpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __get_m_ParentList();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_ParentList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __get_m_ParentList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_ParentList() const;
 
-  constexpr void __set_m_ParentList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
+  constexpr void __cordl_internal_set_m_ParentList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  constexpr uint32_t& __get_m_Version();
+  constexpr uint32_t& __cordl_internal_get_m_Version();
 
-  constexpr uint32_t const& __get_m_Version() const;
+  constexpr uint32_t const& __cordl_internal_get_m_Version() const;
 
-  constexpr void __set_m_Version(uint32_t value);
+  constexpr void __cordl_internal_set_m_Version(uint32_t value);
 
-  constexpr uint32_t& __get_m_LastVersion();
+  constexpr uint32_t& __cordl_internal_get_m_LastVersion();
 
-  constexpr uint32_t const& __get_m_LastVersion() const;
+  constexpr uint32_t const& __cordl_internal_get_m_LastVersion() const;
 
-  constexpr void __set_m_LastVersion(uint32_t value);
+  constexpr void __cordl_internal_set_m_LastVersion(uint32_t value);
 
   static inline void setStaticF_s_Description(::StringW value);
 

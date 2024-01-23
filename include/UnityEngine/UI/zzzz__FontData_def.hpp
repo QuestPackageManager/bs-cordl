@@ -38,48 +38,48 @@ MARK_REF_PTR_T(::UnityEngine::UI::FontData);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15902)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15903)), TypeDefinitionIndex(TypeDefinitionIndex(15901))} Self: TypeDefinitionIndex(TypeDefinitionIndex(13040)) CS Name: ::UnityEngine.UI::FontData*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15896)), TypeDefinitionIndex(TypeDefinitionIndex(15901)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15902)), TypeDefinitionIndex(TypeDefinitionIndex(15903))] Self: TypeDefinitionIndex(TypeDefinitionIndex(13040)) CS Name: ::UnityEngine.UI::FontData*
 class CORDL_TYPE FontData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Font, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Font, put = __set_m_Font))::UnityEngine::Font* m_Font;
+  __declspec(property(get = __cordl_internal_get_m_Font, put = __cordl_internal_set_m_Font))::UnityW<::UnityEngine::Font> m_Font;
 
   /// @brief Field m_FontSize, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_FontSize, put = __set_m_FontSize)) int32_t m_FontSize;
+  __declspec(property(get = __cordl_internal_get_m_FontSize, put = __cordl_internal_set_m_FontSize)) int32_t m_FontSize;
 
   /// @brief Field m_FontStyle, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_FontStyle, put = __set_m_FontStyle))::UnityEngine::FontStyle m_FontStyle;
+  __declspec(property(get = __cordl_internal_get_m_FontStyle, put = __cordl_internal_set_m_FontStyle))::UnityEngine::FontStyle m_FontStyle;
 
   /// @brief Field m_BestFit, offset 0x20, size 0x1
-  __declspec(property(get = __get_m_BestFit, put = __set_m_BestFit)) bool m_BestFit;
+  __declspec(property(get = __cordl_internal_get_m_BestFit, put = __cordl_internal_set_m_BestFit)) bool m_BestFit;
 
   /// @brief Field m_MinSize, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_MinSize, put = __set_m_MinSize)) int32_t m_MinSize;
+  __declspec(property(get = __cordl_internal_get_m_MinSize, put = __cordl_internal_set_m_MinSize)) int32_t m_MinSize;
 
   /// @brief Field m_MaxSize, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_MaxSize, put = __set_m_MaxSize)) int32_t m_MaxSize;
+  __declspec(property(get = __cordl_internal_get_m_MaxSize, put = __cordl_internal_set_m_MaxSize)) int32_t m_MaxSize;
 
   /// @brief Field m_Alignment, offset 0x2c, size 0x4
-  __declspec(property(get = __get_m_Alignment, put = __set_m_Alignment))::UnityEngine::TextAnchor m_Alignment;
+  __declspec(property(get = __cordl_internal_get_m_Alignment, put = __cordl_internal_set_m_Alignment))::UnityEngine::TextAnchor m_Alignment;
 
   /// @brief Field m_AlignByGeometry, offset 0x30, size 0x1
-  __declspec(property(get = __get_m_AlignByGeometry, put = __set_m_AlignByGeometry)) bool m_AlignByGeometry;
+  __declspec(property(get = __cordl_internal_get_m_AlignByGeometry, put = __cordl_internal_set_m_AlignByGeometry)) bool m_AlignByGeometry;
 
   /// @brief Field m_RichText, offset 0x31, size 0x1
-  __declspec(property(get = __get_m_RichText, put = __set_m_RichText)) bool m_RichText;
+  __declspec(property(get = __cordl_internal_get_m_RichText, put = __cordl_internal_set_m_RichText)) bool m_RichText;
 
   /// @brief Field m_HorizontalOverflow, offset 0x34, size 0x4
-  __declspec(property(get = __get_m_HorizontalOverflow, put = __set_m_HorizontalOverflow))::UnityEngine::HorizontalWrapMode m_HorizontalOverflow;
+  __declspec(property(get = __cordl_internal_get_m_HorizontalOverflow, put = __cordl_internal_set_m_HorizontalOverflow))::UnityEngine::HorizontalWrapMode m_HorizontalOverflow;
 
   /// @brief Field m_VerticalOverflow, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_VerticalOverflow, put = __set_m_VerticalOverflow))::UnityEngine::VerticalWrapMode m_VerticalOverflow;
+  __declspec(property(get = __cordl_internal_get_m_VerticalOverflow, put = __cordl_internal_set_m_VerticalOverflow))::UnityEngine::VerticalWrapMode m_VerticalOverflow;
 
   /// @brief Field m_LineSpacing, offset 0x3c, size 0x4
-  __declspec(property(get = __get_m_LineSpacing, put = __set_m_LineSpacing)) float_t m_LineSpacing;
+  __declspec(property(get = __cordl_internal_get_m_LineSpacing, put = __cordl_internal_set_m_LineSpacing)) float_t m_LineSpacing;
 
-  __declspec(property(get = get_font, put = set_font))::UnityEngine::Font* font;
+  __declspec(property(get = get_font, put = set_font))::UnityW<::UnityEngine::Font> font;
 
   __declspec(property(get = get_fontSize, put = set_fontSize)) int32_t fontSize;
 
@@ -109,83 +109,83 @@ public:
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
-  constexpr ::UnityEngine::Font*& __get_m_Font();
+  constexpr ::UnityW<::UnityEngine::Font>& __cordl_internal_get_m_Font();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Font*> const& __get_m_Font() const;
+  constexpr ::UnityW<::UnityEngine::Font> const& __cordl_internal_get_m_Font() const;
 
-  constexpr void __set_m_Font(::UnityEngine::Font* value);
+  constexpr void __cordl_internal_set_m_Font(::UnityW<::UnityEngine::Font> value);
 
-  constexpr int32_t& __get_m_FontSize();
+  constexpr int32_t& __cordl_internal_get_m_FontSize();
 
-  constexpr int32_t const& __get_m_FontSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_FontSize() const;
 
-  constexpr void __set_m_FontSize(int32_t value);
+  constexpr void __cordl_internal_set_m_FontSize(int32_t value);
 
-  constexpr ::UnityEngine::FontStyle& __get_m_FontStyle();
+  constexpr ::UnityEngine::FontStyle& __cordl_internal_get_m_FontStyle();
 
-  constexpr ::UnityEngine::FontStyle const& __get_m_FontStyle() const;
+  constexpr ::UnityEngine::FontStyle const& __cordl_internal_get_m_FontStyle() const;
 
-  constexpr void __set_m_FontStyle(::UnityEngine::FontStyle value);
+  constexpr void __cordl_internal_set_m_FontStyle(::UnityEngine::FontStyle value);
 
-  constexpr bool& __get_m_BestFit();
+  constexpr bool& __cordl_internal_get_m_BestFit();
 
-  constexpr bool const& __get_m_BestFit() const;
+  constexpr bool const& __cordl_internal_get_m_BestFit() const;
 
-  constexpr void __set_m_BestFit(bool value);
+  constexpr void __cordl_internal_set_m_BestFit(bool value);
 
-  constexpr int32_t& __get_m_MinSize();
+  constexpr int32_t& __cordl_internal_get_m_MinSize();
 
-  constexpr int32_t const& __get_m_MinSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_MinSize() const;
 
-  constexpr void __set_m_MinSize(int32_t value);
+  constexpr void __cordl_internal_set_m_MinSize(int32_t value);
 
-  constexpr int32_t& __get_m_MaxSize();
+  constexpr int32_t& __cordl_internal_get_m_MaxSize();
 
-  constexpr int32_t const& __get_m_MaxSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_MaxSize() const;
 
-  constexpr void __set_m_MaxSize(int32_t value);
+  constexpr void __cordl_internal_set_m_MaxSize(int32_t value);
 
-  constexpr ::UnityEngine::TextAnchor& __get_m_Alignment();
+  constexpr ::UnityEngine::TextAnchor& __cordl_internal_get_m_Alignment();
 
-  constexpr ::UnityEngine::TextAnchor const& __get_m_Alignment() const;
+  constexpr ::UnityEngine::TextAnchor const& __cordl_internal_get_m_Alignment() const;
 
-  constexpr void __set_m_Alignment(::UnityEngine::TextAnchor value);
+  constexpr void __cordl_internal_set_m_Alignment(::UnityEngine::TextAnchor value);
 
-  constexpr bool& __get_m_AlignByGeometry();
+  constexpr bool& __cordl_internal_get_m_AlignByGeometry();
 
-  constexpr bool const& __get_m_AlignByGeometry() const;
+  constexpr bool const& __cordl_internal_get_m_AlignByGeometry() const;
 
-  constexpr void __set_m_AlignByGeometry(bool value);
+  constexpr void __cordl_internal_set_m_AlignByGeometry(bool value);
 
-  constexpr bool& __get_m_RichText();
+  constexpr bool& __cordl_internal_get_m_RichText();
 
-  constexpr bool const& __get_m_RichText() const;
+  constexpr bool const& __cordl_internal_get_m_RichText() const;
 
-  constexpr void __set_m_RichText(bool value);
+  constexpr void __cordl_internal_set_m_RichText(bool value);
 
-  constexpr ::UnityEngine::HorizontalWrapMode& __get_m_HorizontalOverflow();
+  constexpr ::UnityEngine::HorizontalWrapMode& __cordl_internal_get_m_HorizontalOverflow();
 
-  constexpr ::UnityEngine::HorizontalWrapMode const& __get_m_HorizontalOverflow() const;
+  constexpr ::UnityEngine::HorizontalWrapMode const& __cordl_internal_get_m_HorizontalOverflow() const;
 
-  constexpr void __set_m_HorizontalOverflow(::UnityEngine::HorizontalWrapMode value);
+  constexpr void __cordl_internal_set_m_HorizontalOverflow(::UnityEngine::HorizontalWrapMode value);
 
-  constexpr ::UnityEngine::VerticalWrapMode& __get_m_VerticalOverflow();
+  constexpr ::UnityEngine::VerticalWrapMode& __cordl_internal_get_m_VerticalOverflow();
 
-  constexpr ::UnityEngine::VerticalWrapMode const& __get_m_VerticalOverflow() const;
+  constexpr ::UnityEngine::VerticalWrapMode const& __cordl_internal_get_m_VerticalOverflow() const;
 
-  constexpr void __set_m_VerticalOverflow(::UnityEngine::VerticalWrapMode value);
+  constexpr void __cordl_internal_set_m_VerticalOverflow(::UnityEngine::VerticalWrapMode value);
 
-  constexpr float_t& __get_m_LineSpacing();
+  constexpr float_t& __cordl_internal_get_m_LineSpacing();
 
-  constexpr float_t const& __get_m_LineSpacing() const;
+  constexpr float_t const& __cordl_internal_get_m_LineSpacing() const;
 
-  constexpr void __set_m_LineSpacing(float_t value);
+  constexpr void __cordl_internal_set_m_LineSpacing(float_t value);
 
   /// @brief Method get_defaultFontData, addr 0x2d5b098, size 0x90, virtual false, abstract: false, final false
   static inline ::UnityEngine::UI::FontData* get_defaultFontData();
 
   /// @brief Method get_font, addr 0x2d5b130, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Font* get_font();
+  inline ::UnityW<::UnityEngine::Font> get_font();
 
   /// @brief Method set_font, addr 0x2d5b138, size 0x8, virtual false, abstract: false, final false
   inline void set_font(::UnityEngine::Font* value);
@@ -282,7 +282,7 @@ protected:
 
 public:
   /// @brief Field m_Font, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Font* ___m_Font;
+  ::UnityW<::UnityEngine::Font> ___m_Font;
 
   /// @brief Field m_FontSize, offset: 0x18, size: 0x4, def value: None
   int32_t ___m_FontSize;

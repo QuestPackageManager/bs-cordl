@@ -61,7 +61,7 @@ MARK_REF_PTR_T(::UnityEngine::__Application__LowMemoryCallback);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10268))
 // CS Name: ::Application::LowMemoryCallback*
 class CORDL_TYPE __Application__LowMemoryCallback : public ::System::MulticastDelegate {
@@ -99,7 +99,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__Application__LowM
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10269))
 // CS Name: ::Application::LogCallback*
 class CORDL_TYPE __Application__LogCallback : public ::System::MulticastDelegate {
@@ -137,7 +137,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__Application__LogC
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10270))
 // CS Name: ::UnityEngine::Application*
 class CORDL_TYPE Application : public ::System::Object {

@@ -23,14 +23,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::X509CollectionStore);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1848))
 // CS Name: ::Org.BouncyCastle.X509.Store::X509CollectionStore*
 class CORDL_TYPE X509CollectionStore : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _local, offset 0x10, size 0x8
-  __declspec(property(get = __get__local, put = __set__local))::System::Collections::ICollection* _local;
+  __declspec(property(get = __cordl_internal_get__local, put = __cordl_internal_set__local))::System::Collections::ICollection* _local;
 
   /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Store"
   constexpr operator ::Org::BouncyCastle::X509::Store::IX509Store*() noexcept;
@@ -38,11 +38,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Store"
   constexpr ::Org::BouncyCastle::X509::Store::IX509Store* i___Org__BouncyCastle__X509__Store__IX509Store() noexcept;
 
-  constexpr ::System::Collections::ICollection*& __get__local();
+  constexpr ::System::Collections::ICollection*& __cordl_internal_get__local();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& __get__local() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ICollection*> const& __cordl_internal_get__local() const;
 
-  constexpr void __set__local(::System::Collections::ICollection* value);
+  constexpr void __cordl_internal_set__local(::System::Collections::ICollection* value);
 
   static inline ::Org::BouncyCastle::X509::Store::X509CollectionStore* New_ctor(::System::Collections::ICollection* collection);
 

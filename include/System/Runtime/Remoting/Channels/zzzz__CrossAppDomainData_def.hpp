@@ -19,42 +19,42 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::CrossAppDomainData);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3115))
 // CS Name: ::System.Runtime.Remoting.Channels::CrossAppDomainData*
 class CORDL_TYPE CrossAppDomainData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _ContextID, offset 0x10, size 0x8
-  __declspec(property(get = __get__ContextID, put = __set__ContextID))::System::Object* _ContextID;
+  __declspec(property(get = __cordl_internal_get__ContextID, put = __cordl_internal_set__ContextID))::System::Object* _ContextID;
 
   /// @brief Field _DomainID, offset 0x18, size 0x4
-  __declspec(property(get = __get__DomainID, put = __set__DomainID)) int32_t _DomainID;
+  __declspec(property(get = __cordl_internal_get__DomainID, put = __cordl_internal_set__DomainID)) int32_t _DomainID;
 
   /// @brief Field _processGuid, offset 0x20, size 0x8
-  __declspec(property(get = __get__processGuid, put = __set__processGuid))::StringW _processGuid;
+  __declspec(property(get = __cordl_internal_get__processGuid, put = __cordl_internal_set__processGuid))::StringW _processGuid;
 
   __declspec(property(get = get_DomainID)) int32_t DomainID;
 
   __declspec(property(get = get_ProcessID))::StringW ProcessID;
 
-  constexpr ::System::Object*& __get__ContextID();
+  constexpr ::System::Object*& __cordl_internal_get__ContextID();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__ContextID() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__ContextID() const;
 
-  constexpr void __set__ContextID(::System::Object* value);
+  constexpr void __cordl_internal_set__ContextID(::System::Object* value);
 
-  constexpr int32_t& __get__DomainID();
+  constexpr int32_t& __cordl_internal_get__DomainID();
 
-  constexpr int32_t const& __get__DomainID() const;
+  constexpr int32_t const& __cordl_internal_get__DomainID() const;
 
-  constexpr void __set__DomainID(int32_t value);
+  constexpr void __cordl_internal_set__DomainID(int32_t value);
 
-  constexpr ::StringW& __get__processGuid();
+  constexpr ::StringW& __cordl_internal_get__processGuid();
 
-  constexpr ::StringW const& __get__processGuid() const;
+  constexpr ::StringW const& __cordl_internal_get__processGuid() const;
 
-  constexpr void __set__processGuid(::StringW value);
+  constexpr void __cordl_internal_set__processGuid(::StringW value);
 
   static inline ::System::Runtime::Remoting::Channels::CrossAppDomainData* New_ctor(int32_t domainId);
 

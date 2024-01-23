@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LightConstants);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14532))
 // CS Name: ::LightConstants::BakeId
 struct CORDL_TYPE __LightConstants__BakeId {
@@ -95,7 +95,7 @@ static_assert(offsetof(::GlobalNamespace::__LightConstants__BakeId, value__) == 
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14533))
 // CS Name: ::LightConstants*
 class CORDL_TYPE LightConstants : public ::System::Object {

@@ -74,32 +74,32 @@ MARK_VAL_T(::System::Runtime::CompilerServices::AsyncMethodBuilderCore);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3404))
 // CS Name: ::AsyncMethodBuilderCore::MoveNextRunner*
 class CORDL_TYPE __AsyncMethodBuilderCore__MoveNextRunner : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_context, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_context, put = __set_m_context))::System::Threading::ExecutionContext* m_context;
+  __declspec(property(get = __cordl_internal_get_m_context, put = __cordl_internal_set_m_context))::System::Threading::ExecutionContext* m_context;
 
   /// @brief Field m_stateMachine, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_stateMachine, put = __set_m_stateMachine))::System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine;
+  __declspec(property(get = __cordl_internal_get_m_stateMachine, put = __cordl_internal_set_m_stateMachine))::System::Runtime::CompilerServices::IAsyncStateMachine* m_stateMachine;
 
   /// @brief Field s_invokeMoveNext, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_invokeMoveNext, put = setStaticF_s_invokeMoveNext))::System::Threading::ContextCallback* s_invokeMoveNext;
 
-  constexpr ::System::Threading::ExecutionContext*& __get_m_context();
+  constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get_m_context();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __get_m_context() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __cordl_internal_get_m_context() const;
 
-  constexpr void __set_m_context(::System::Threading::ExecutionContext* value);
+  constexpr void __cordl_internal_set_m_context(::System::Threading::ExecutionContext* value);
 
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*& __get_m_stateMachine();
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*& __cordl_internal_get_m_stateMachine();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::CompilerServices::IAsyncStateMachine*> const& __get_m_stateMachine() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::CompilerServices::IAsyncStateMachine*> const& __cordl_internal_get_m_stateMachine() const;
 
-  constexpr void __set_m_stateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* value);
+  constexpr void __cordl_internal_set_m_stateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* value);
 
   static inline void setStaticF_s_invokeMoveNext(::System::Threading::ContextCallback* value);
 
@@ -151,38 +151,38 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__AsyncMethodBuilder
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3405))
 // CS Name: ::AsyncMethodBuilderCore::ContinuationWrapper*
 class CORDL_TYPE __AsyncMethodBuilderCore__ContinuationWrapper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_continuation, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_continuation, put = __set_m_continuation))::System::Action* m_continuation;
+  __declspec(property(get = __cordl_internal_get_m_continuation, put = __cordl_internal_set_m_continuation))::System::Action* m_continuation;
 
   /// @brief Field m_invokeAction, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_invokeAction, put = __set_m_invokeAction))::System::Action* m_invokeAction;
+  __declspec(property(get = __cordl_internal_get_m_invokeAction, put = __cordl_internal_set_m_invokeAction))::System::Action* m_invokeAction;
 
   /// @brief Field m_innerTask, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_innerTask, put = __set_m_innerTask))::System::Threading::Tasks::Task* m_innerTask;
+  __declspec(property(get = __cordl_internal_get_m_innerTask, put = __cordl_internal_set_m_innerTask))::System::Threading::Tasks::Task* m_innerTask;
 
-  constexpr ::System::Action*& __get_m_continuation();
+  constexpr ::System::Action*& __cordl_internal_get_m_continuation();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_m_continuation() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_m_continuation() const;
 
-  constexpr void __set_m_continuation(::System::Action* value);
+  constexpr void __cordl_internal_set_m_continuation(::System::Action* value);
 
-  constexpr ::System::Action*& __get_m_invokeAction();
+  constexpr ::System::Action*& __cordl_internal_get_m_invokeAction();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_m_invokeAction() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_m_invokeAction() const;
 
-  constexpr void __set_m_invokeAction(::System::Action* value);
+  constexpr void __cordl_internal_set_m_invokeAction(::System::Action* value);
 
-  constexpr ::System::Threading::Tasks::Task*& __get_m_innerTask();
+  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_m_innerTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __get_m_innerTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get_m_innerTask() const;
 
-  constexpr void __set_m_innerTask(::System::Threading::Tasks::Task* value);
+  constexpr void __cordl_internal_set_m_innerTask(::System::Threading::Tasks::Task* value);
 
   static inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore__ContinuationWrapper* New_ctor(::System::Action* continuation, ::System::Action* invokeAction,
                                                                                                              ::System::Threading::Tasks::Task* innerTask);
@@ -232,29 +232,29 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__AsyncMethodBuilder
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3406))
 // CS Name: ::AsyncMethodBuilderCore::<>c__DisplayClass5_0*
 class CORDL_TYPE __AsyncMethodBuilderCore____c__DisplayClass5_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field innerTask, offset 0x10, size 0x8
-  __declspec(property(get = __get_innerTask, put = __set_innerTask))::System::Threading::Tasks::Task* innerTask;
+  __declspec(property(get = __cordl_internal_get_innerTask, put = __cordl_internal_set_innerTask))::System::Threading::Tasks::Task* innerTask;
 
   /// @brief Field continuation, offset 0x18, size 0x8
-  __declspec(property(get = __get_continuation, put = __set_continuation))::System::Action* continuation;
+  __declspec(property(get = __cordl_internal_get_continuation, put = __cordl_internal_set_continuation))::System::Action* continuation;
 
-  constexpr ::System::Threading::Tasks::Task*& __get_innerTask();
+  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_innerTask();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __get_innerTask() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get_innerTask() const;
 
-  constexpr void __set_innerTask(::System::Threading::Tasks::Task* value);
+  constexpr void __cordl_internal_set_innerTask(::System::Threading::Tasks::Task* value);
 
-  constexpr ::System::Action*& __get_continuation();
+  constexpr ::System::Action*& __cordl_internal_get_continuation();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_continuation() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_continuation() const;
 
-  constexpr void __set_continuation(::System::Action* value);
+  constexpr void __cordl_internal_set_continuation(::System::Action* value);
 
   static inline ::System::Runtime::CompilerServices::__AsyncMethodBuilderCore____c__DisplayClass5_0* New_ctor();
 
@@ -298,7 +298,7 @@ static_assert(offsetof(::System::Runtime::CompilerServices::__AsyncMethodBuilder
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3407))
 // CS Name: ::AsyncMethodBuilderCore::<>c*
 class CORDL_TYPE __AsyncMethodBuilderCore____c : public ::System::Object {
@@ -360,7 +360,7 @@ static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerService
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3408))
 // CS Name: ::System.Runtime.CompilerServices::AsyncMethodBuilderCore
 struct CORDL_TYPE AsyncMethodBuilderCore {

@@ -39,20 +39,20 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::Bounds2D);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12105))
 // CS Name: ::UnityEngine.ProBuilder::Bounds2D*
 class CORDL_TYPE Bounds2D : public ::System::Object {
 public:
   // Declarations
   /// @brief Field center, offset 0x10, size 0x8
-  __declspec(property(get = __get_center, put = __set_center))::UnityEngine::Vector2 center;
+  __declspec(property(get = __cordl_internal_get_center, put = __cordl_internal_set_center))::UnityEngine::Vector2 center;
 
   /// @brief Field m_Size, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Size, put = __set_m_Size))::UnityEngine::Vector2 m_Size;
+  __declspec(property(get = __cordl_internal_get_m_Size, put = __cordl_internal_set_m_Size))::UnityEngine::Vector2 m_Size;
 
   /// @brief Field m_Extents, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Extents, put = __set_m_Extents))::UnityEngine::Vector2 m_Extents;
+  __declspec(property(get = __cordl_internal_get_m_Extents, put = __cordl_internal_set_m_Extents))::UnityEngine::Vector2 m_Extents;
 
   __declspec(property(get = get_size, put = set_size))::UnityEngine::Vector2 size;
 
@@ -60,23 +60,23 @@ public:
 
   __declspec(property(get = get_corners))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> corners;
 
-  constexpr ::UnityEngine::Vector2& __get_center();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_center();
 
-  constexpr ::UnityEngine::Vector2 const& __get_center() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_center() const;
 
-  constexpr void __set_center(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_center(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_Size();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_Size();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_Size() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_Size() const;
 
-  constexpr void __set_m_Size(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_Size(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Vector2& __get_m_Extents();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_m_Extents();
 
-  constexpr ::UnityEngine::Vector2 const& __get_m_Extents() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_m_Extents() const;
 
-  constexpr void __set_m_Extents(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_m_Extents(::UnityEngine::Vector2 value);
 
   /// @brief Method get_size, addr 0x2b38594, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_size();

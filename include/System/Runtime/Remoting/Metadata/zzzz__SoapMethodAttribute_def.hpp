@@ -18,69 +18,69 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Metadata::SoapMethodAttribute);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Metadata {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3140))
 // CS Name: ::System.Runtime.Remoting.Metadata::SoapMethodAttribute*
 class CORDL_TYPE SoapMethodAttribute : public ::System::Runtime::Remoting::Metadata::SoapAttribute {
 public:
   // Declarations
   /// @brief Field _responseElement, offset 0x28, size 0x8
-  __declspec(property(get = __get__responseElement, put = __set__responseElement))::StringW _responseElement;
+  __declspec(property(get = __cordl_internal_get__responseElement, put = __cordl_internal_set__responseElement))::StringW _responseElement;
 
   /// @brief Field _responseNamespace, offset 0x30, size 0x8
-  __declspec(property(get = __get__responseNamespace, put = __set__responseNamespace))::StringW _responseNamespace;
+  __declspec(property(get = __cordl_internal_get__responseNamespace, put = __cordl_internal_set__responseNamespace))::StringW _responseNamespace;
 
   /// @brief Field _returnElement, offset 0x38, size 0x8
-  __declspec(property(get = __get__returnElement, put = __set__returnElement))::StringW _returnElement;
+  __declspec(property(get = __cordl_internal_get__returnElement, put = __cordl_internal_set__returnElement))::StringW _returnElement;
 
   /// @brief Field _soapAction, offset 0x40, size 0x8
-  __declspec(property(get = __get__soapAction, put = __set__soapAction))::StringW _soapAction;
+  __declspec(property(get = __cordl_internal_get__soapAction, put = __cordl_internal_set__soapAction))::StringW _soapAction;
 
   /// @brief Field _useAttribute, offset 0x48, size 0x1
-  __declspec(property(get = __get__useAttribute, put = __set__useAttribute)) bool _useAttribute;
+  __declspec(property(get = __cordl_internal_get__useAttribute, put = __cordl_internal_set__useAttribute)) bool _useAttribute;
 
   /// @brief Field _namespace, offset 0x50, size 0x8
-  __declspec(property(get = __get__namespace, put = __set__namespace))::StringW _namespace;
+  __declspec(property(get = __cordl_internal_get__namespace, put = __cordl_internal_set__namespace))::StringW _namespace;
 
   __declspec(property(get = get_UseAttribute)) bool UseAttribute;
 
   __declspec(property(get = get_XmlNamespace))::StringW XmlNamespace;
 
-  constexpr ::StringW& __get__responseElement();
+  constexpr ::StringW& __cordl_internal_get__responseElement();
 
-  constexpr ::StringW const& __get__responseElement() const;
+  constexpr ::StringW const& __cordl_internal_get__responseElement() const;
 
-  constexpr void __set__responseElement(::StringW value);
+  constexpr void __cordl_internal_set__responseElement(::StringW value);
 
-  constexpr ::StringW& __get__responseNamespace();
+  constexpr ::StringW& __cordl_internal_get__responseNamespace();
 
-  constexpr ::StringW const& __get__responseNamespace() const;
+  constexpr ::StringW const& __cordl_internal_get__responseNamespace() const;
 
-  constexpr void __set__responseNamespace(::StringW value);
+  constexpr void __cordl_internal_set__responseNamespace(::StringW value);
 
-  constexpr ::StringW& __get__returnElement();
+  constexpr ::StringW& __cordl_internal_get__returnElement();
 
-  constexpr ::StringW const& __get__returnElement() const;
+  constexpr ::StringW const& __cordl_internal_get__returnElement() const;
 
-  constexpr void __set__returnElement(::StringW value);
+  constexpr void __cordl_internal_set__returnElement(::StringW value);
 
-  constexpr ::StringW& __get__soapAction();
+  constexpr ::StringW& __cordl_internal_get__soapAction();
 
-  constexpr ::StringW const& __get__soapAction() const;
+  constexpr ::StringW const& __cordl_internal_get__soapAction() const;
 
-  constexpr void __set__soapAction(::StringW value);
+  constexpr void __cordl_internal_set__soapAction(::StringW value);
 
-  constexpr bool& __get__useAttribute();
+  constexpr bool& __cordl_internal_get__useAttribute();
 
-  constexpr bool const& __get__useAttribute() const;
+  constexpr bool const& __cordl_internal_get__useAttribute() const;
 
-  constexpr void __set__useAttribute(bool value);
+  constexpr void __cordl_internal_set__useAttribute(bool value);
 
-  constexpr ::StringW& __get__namespace();
+  constexpr ::StringW& __cordl_internal_get__namespace();
 
-  constexpr ::StringW const& __get__namespace() const;
+  constexpr ::StringW const& __cordl_internal_get__namespace() const;
 
-  constexpr void __set__namespace(::StringW value);
+  constexpr void __cordl_internal_set__namespace(::StringW value);
 
   static inline ::System::Runtime::Remoting::Metadata::SoapMethodAttribute* New_ctor();
 

@@ -32,14 +32,14 @@ MARK_REF_PTR_T(::TMPro::TMP_ScrollbarEventHandler);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12412))
 // CS Name: ::TMPro::TMP_ScrollbarEventHandler*
 class CORDL_TYPE TMP_ScrollbarEventHandler : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field isSelected, offset 0x18, size 0x1
-  __declspec(property(get = __get_isSelected, put = __set_isSelected)) bool isSelected;
+  __declspec(property(get = __cordl_internal_get_isSelected, put = __cordl_internal_set_isSelected)) bool isSelected;
 
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerClickHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerClickHandler*() noexcept;
@@ -65,11 +65,11 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IDeselectHandler"
   constexpr ::UnityEngine::EventSystems::IDeselectHandler* i___UnityEngine__EventSystems__IDeselectHandler() noexcept;
 
-  constexpr bool& __get_isSelected();
+  constexpr bool& __cordl_internal_get_isSelected();
 
-  constexpr bool const& __get_isSelected() const;
+  constexpr bool const& __cordl_internal_get_isSelected() const;
 
-  constexpr void __set_isSelected(bool value);
+  constexpr void __cordl_internal_set_isSelected(bool value);
 
   /// @brief Method OnPointerClick, addr 0x2c3f998, size 0x68, virtual true, abstract: false, final true
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);

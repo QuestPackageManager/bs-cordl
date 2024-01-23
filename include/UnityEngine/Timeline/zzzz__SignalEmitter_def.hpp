@@ -29,26 +29,26 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::SignalEmitter);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13888))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13888))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13893))
 // CS Name: ::UnityEngine.Timeline::SignalEmitter*
 class CORDL_TYPE SignalEmitter : public ::UnityEngine::Timeline::Marker {
 public:
   // Declarations
   /// @brief Field m_Retroactive, offset 0x28, size 0x1
-  __declspec(property(get = __get_m_Retroactive, put = __set_m_Retroactive)) bool m_Retroactive;
+  __declspec(property(get = __cordl_internal_get_m_Retroactive, put = __cordl_internal_set_m_Retroactive)) bool m_Retroactive;
 
   /// @brief Field m_EmitOnce, offset 0x29, size 0x1
-  __declspec(property(get = __get_m_EmitOnce, put = __set_m_EmitOnce)) bool m_EmitOnce;
+  __declspec(property(get = __cordl_internal_get_m_EmitOnce, put = __cordl_internal_set_m_EmitOnce)) bool m_EmitOnce;
 
   /// @brief Field m_Asset, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Asset, put = __set_m_Asset))::UnityEngine::Timeline::SignalAsset* m_Asset;
+  __declspec(property(get = __cordl_internal_get_m_Asset, put = __cordl_internal_set_m_Asset))::UnityW<::UnityEngine::Timeline::SignalAsset> m_Asset;
 
   __declspec(property(get = get_retroactive, put = set_retroactive)) bool retroactive;
 
   __declspec(property(get = get_emitOnce, put = set_emitOnce)) bool emitOnce;
 
-  __declspec(property(get = get_asset, put = set_asset))::UnityEngine::Timeline::SignalAsset* asset;
+  __declspec(property(get = get_asset, put = set_asset))::UnityW<::UnityEngine::Timeline::SignalAsset> asset;
 
   __declspec(property(get = UnityEngine_Playables_INotification_get_id))::UnityEngine::PropertyName UnityEngine_Playables_INotification_id;
 
@@ -66,23 +66,23 @@ public:
   /// @brief Convert to "::UnityEngine::Timeline::INotificationOptionProvider"
   constexpr ::UnityEngine::Timeline::INotificationOptionProvider* i___UnityEngine__Timeline__INotificationOptionProvider() noexcept;
 
-  constexpr bool& __get_m_Retroactive();
+  constexpr bool& __cordl_internal_get_m_Retroactive();
 
-  constexpr bool const& __get_m_Retroactive() const;
+  constexpr bool const& __cordl_internal_get_m_Retroactive() const;
 
-  constexpr void __set_m_Retroactive(bool value);
+  constexpr void __cordl_internal_set_m_Retroactive(bool value);
 
-  constexpr bool& __get_m_EmitOnce();
+  constexpr bool& __cordl_internal_get_m_EmitOnce();
 
-  constexpr bool const& __get_m_EmitOnce() const;
+  constexpr bool const& __cordl_internal_get_m_EmitOnce() const;
 
-  constexpr void __set_m_EmitOnce(bool value);
+  constexpr void __cordl_internal_set_m_EmitOnce(bool value);
 
-  constexpr ::UnityEngine::Timeline::SignalAsset*& __get_m_Asset();
+  constexpr ::UnityW<::UnityEngine::Timeline::SignalAsset>& __cordl_internal_get_m_Asset();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::SignalAsset*> const& __get_m_Asset() const;
+  constexpr ::UnityW<::UnityEngine::Timeline::SignalAsset> const& __cordl_internal_get_m_Asset() const;
 
-  constexpr void __set_m_Asset(::UnityEngine::Timeline::SignalAsset* value);
+  constexpr void __cordl_internal_set_m_Asset(::UnityW<::UnityEngine::Timeline::SignalAsset> value);
 
   /// @brief Method get_retroactive, addr 0x2c68f90, size 0x8, virtual false, abstract: false, final false
   inline bool get_retroactive();
@@ -97,7 +97,7 @@ public:
   inline void set_emitOnce(bool value);
 
   /// @brief Method get_asset, addr 0x2c68fb8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Timeline::SignalAsset* get_asset();
+  inline ::UnityW<::UnityEngine::Timeline::SignalAsset> get_asset();
 
   /// @brief Method set_asset, addr 0x2c68fc0, size 0x8, virtual false, abstract: false, final false
   inline void set_asset(::UnityEngine::Timeline::SignalAsset* value);
@@ -134,7 +134,7 @@ public:
   bool ___m_EmitOnce;
 
   /// @brief Field m_Asset, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Timeline::SignalAsset* ___m_Asset;
+  ::UnityW<::UnityEngine::Timeline::SignalAsset> ___m_Asset;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

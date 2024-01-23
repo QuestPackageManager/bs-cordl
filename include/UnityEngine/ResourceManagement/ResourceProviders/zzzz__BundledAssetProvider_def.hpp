@@ -47,65 +47,65 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::__BundledAs
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14002))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13996))
 // CS Name: ::BundledAssetProvider::InternalOp*
 class CORDL_TYPE __BundledAssetProvider__InternalOp : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_AssetBundle, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_AssetBundle, put = __set_m_AssetBundle))::UnityEngine::AssetBundle* m_AssetBundle;
+  __declspec(property(get = __cordl_internal_get_m_AssetBundle, put = __cordl_internal_set_m_AssetBundle))::UnityW<::UnityEngine::AssetBundle> m_AssetBundle;
 
   /// @brief Field m_PreloadRequest, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_PreloadRequest, put = __set_m_PreloadRequest))::UnityEngine::AssetBundleRequest* m_PreloadRequest;
+  __declspec(property(get = __cordl_internal_get_m_PreloadRequest, put = __cordl_internal_set_m_PreloadRequest))::UnityEngine::AssetBundleRequest* m_PreloadRequest;
 
   /// @brief Field m_RequestOperation, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_RequestOperation, put = __set_m_RequestOperation))::UnityEngine::AssetBundleRequest* m_RequestOperation;
+  __declspec(property(get = __cordl_internal_get_m_RequestOperation, put = __cordl_internal_set_m_RequestOperation))::UnityEngine::AssetBundleRequest* m_RequestOperation;
 
   /// @brief Field m_Result, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Result, put = __set_m_Result))::System::Object* m_Result;
+  __declspec(property(get = __cordl_internal_get_m_Result, put = __cordl_internal_set_m_Result))::System::Object* m_Result;
 
   /// @brief Field m_ProvideHandle, offset 0x30, size 0x18
-  __declspec(property(get = __get_m_ProvideHandle, put = __set_m_ProvideHandle))::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle;
+  __declspec(property(get = __cordl_internal_get_m_ProvideHandle, put = __cordl_internal_set_m_ProvideHandle))::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle m_ProvideHandle;
 
   /// @brief Field subObjectName, offset 0x48, size 0x8
-  __declspec(property(get = __get_subObjectName, put = __set_subObjectName))::StringW subObjectName;
+  __declspec(property(get = __cordl_internal_get_subObjectName, put = __cordl_internal_set_subObjectName))::StringW subObjectName;
 
-  constexpr ::UnityEngine::AssetBundle*& __get_m_AssetBundle();
+  constexpr ::UnityW<::UnityEngine::AssetBundle>& __cordl_internal_get_m_AssetBundle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundle*> const& __get_m_AssetBundle() const;
+  constexpr ::UnityW<::UnityEngine::AssetBundle> const& __cordl_internal_get_m_AssetBundle() const;
 
-  constexpr void __set_m_AssetBundle(::UnityEngine::AssetBundle* value);
+  constexpr void __cordl_internal_set_m_AssetBundle(::UnityW<::UnityEngine::AssetBundle> value);
 
-  constexpr ::UnityEngine::AssetBundleRequest*& __get_m_PreloadRequest();
+  constexpr ::UnityEngine::AssetBundleRequest*& __cordl_internal_get_m_PreloadRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundleRequest*> const& __get_m_PreloadRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundleRequest*> const& __cordl_internal_get_m_PreloadRequest() const;
 
-  constexpr void __set_m_PreloadRequest(::UnityEngine::AssetBundleRequest* value);
+  constexpr void __cordl_internal_set_m_PreloadRequest(::UnityEngine::AssetBundleRequest* value);
 
-  constexpr ::UnityEngine::AssetBundleRequest*& __get_m_RequestOperation();
+  constexpr ::UnityEngine::AssetBundleRequest*& __cordl_internal_get_m_RequestOperation();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundleRequest*> const& __get_m_RequestOperation() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AssetBundleRequest*> const& __cordl_internal_get_m_RequestOperation() const;
 
-  constexpr void __set_m_RequestOperation(::UnityEngine::AssetBundleRequest* value);
+  constexpr void __cordl_internal_set_m_RequestOperation(::UnityEngine::AssetBundleRequest* value);
 
-  constexpr ::System::Object*& __get_m_Result();
+  constexpr ::System::Object*& __cordl_internal_get_m_Result();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_Result() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_Result() const;
 
-  constexpr void __set_m_Result(::System::Object* value);
+  constexpr void __cordl_internal_set_m_Result(::System::Object* value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& __get_m_ProvideHandle();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle& __cordl_internal_get_m_ProvideHandle();
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& __get_m_ProvideHandle() const;
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle const& __cordl_internal_get_m_ProvideHandle() const;
 
-  constexpr void __set_m_ProvideHandle(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
+  constexpr void __cordl_internal_set_m_ProvideHandle(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle value);
 
-  constexpr ::StringW& __get_subObjectName();
+  constexpr ::StringW& __cordl_internal_get_subObjectName();
 
-  constexpr ::StringW const& __get_subObjectName() const;
+  constexpr ::StringW const& __cordl_internal_get_subObjectName() const;
 
-  constexpr void __set_subObjectName(::StringW value);
+  constexpr void __cordl_internal_set_subObjectName(::StringW value);
 
   /// @brief Method LoadBundleFromDependecies, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T LoadBundleFromDependecies(::System::Collections::Generic::IList_1<::System::Object*>* results);
@@ -163,7 +163,7 @@ protected:
 
 public:
   /// @brief Field m_AssetBundle, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::AssetBundle* ___m_AssetBundle;
+  ::UnityW<::UnityEngine::AssetBundle> ___m_AssetBundle;
 
   /// @brief Field m_PreloadRequest, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::AssetBundleRequest* ___m_PreloadRequest;
@@ -202,7 +202,7 @@ static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceProviders::__B
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14013))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14013))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13997))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::BundledAssetProvider*
 class CORDL_TYPE BundledAssetProvider : public ::UnityEngine::ResourceManagement::ResourceProviders::ResourceProviderBase {

@@ -157,7 +157,7 @@ MARK_VAL_T(::UnityEngine::Timeline::__TrackAsset__TransientBuildData);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13857))
 // CS Name: ::TrackAsset::Versions
 struct CORDL_TYPE __TrackAsset__Versions {
@@ -215,7 +215,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__TrackAsset__Versions, value__)
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13858))
 // CS Name: ::TrackAsset::TrackAssetUpgrade*
 class CORDL_TYPE __TrackAsset__TrackAssetUpgrade : public ::System::Object {
@@ -245,7 +245,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__TrackAs
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13859))
 // CS Name: ::TrackAsset::TransientBuildData
 struct CORDL_TYPE __TrackAsset__TransientBuildData {
@@ -257,10 +257,10 @@ public:
   /// @brief Method Clear, addr 0x2c5f01c, size 0xe0, virtual false, abstract: false, final false
   inline void Clear();
 
-  // Ctor Parameters [CppParam { name: "trackList", ty: "::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset*>*", modifiers: "", def_value: None }, CppParam { name: "clipList",
-  // ty: "::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>*", modifiers: "", def_value: None }, CppParam { name: "markerList", ty:
+  // Ctor Parameters [CppParam { name: "trackList", ty: "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>*", modifiers: "", def_value: None }, CppParam { name:
+  // "clipList", ty: "::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>*", modifiers: "", def_value: None }, CppParam { name: "markerList", ty:
   // "::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>*", modifiers: "", def_value: None }]
-  constexpr __TrackAsset__TransientBuildData(::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset*>* trackList,
+  constexpr __TrackAsset__TransientBuildData(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* trackList,
                                              ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* clipList,
                                              ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* markerList) noexcept;
 
@@ -269,7 +269,7 @@ public:
   constexpr __TrackAsset__TransientBuildData();
 
   /// @brief Field trackList, offset: 0x0, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TrackAsset*>* trackList;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* trackList;
 
   /// @brief Field clipList, offset: 0x8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* clipList;
@@ -296,23 +296,23 @@ static_assert(offsetof(::UnityEngine::Timeline::__TrackAsset__TransientBuildData
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10431))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10431))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13860))
 // CS Name: ::TrackAsset::<get_outputs>d__65*
 class CORDL_TYPE __TrackAsset___get_outputs_d__65 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x20
-  __declspec(property(get = __get___2__current, put = __set___2__current))::UnityEngine::Playables::PlayableBinding __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityEngine::Playables::PlayableBinding __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x38, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x40, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::Timeline::TrackAsset* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::UnityEngine::Timeline::TrackAsset> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__get_Current))::UnityEngine::Playables::PlayableBinding
       System_Collections_Generic_IEnumerator_UnityEngine_Playables_PlayableBinding__Current;
@@ -351,29 +351,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::UnityEngine::Playables::PlayableBinding& __get___2__current();
+  constexpr ::UnityEngine::Playables::PlayableBinding& __cordl_internal_get___2__current();
 
-  constexpr ::UnityEngine::Playables::PlayableBinding const& __get___2__current() const;
+  constexpr ::UnityEngine::Playables::PlayableBinding const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::UnityEngine::Playables::PlayableBinding value);
+  constexpr void __cordl_internal_set___2__current(::UnityEngine::Playables::PlayableBinding value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::UnityEngine::Timeline::TrackAsset*& __get___4__this();
+  constexpr ::UnityW<::UnityEngine::Timeline::TrackAsset>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::TrackAsset*> const& __get___4__this() const;
+  constexpr ::UnityW<::UnityEngine::Timeline::TrackAsset> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::Timeline::TrackAsset* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::UnityEngine::Timeline::TrackAsset> value);
 
   static inline ::UnityEngine::Timeline::__TrackAsset___get_outputs_d__65* New_ctor(int32_t __1__state);
 
@@ -425,7 +425,7 @@ public:
   int32_t _____l__initialThreadId;
 
   /// @brief Field <>4__this, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Timeline::TrackAsset* _____4__this;
+  ::UnityW<::UnityEngine::Timeline::TrackAsset> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -445,7 +445,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__TrackAsset___get_outputs_d__65
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13861))
 // CS Name: ::TrackAsset::<>c*
 class CORDL_TYPE __TrackAsset____c : public ::System::Object {
@@ -497,8 +497,8 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__TrackAs
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13889)), TypeDefinitionIndex(TypeDefinitionIndex(13859)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst:
-// 105 }), TypeDefinitionIndex(TypeDefinitionIndex(10422)), TypeDefinitionIndex(TypeDefinitionIndex(13876)), TypeDefinitionIndex(TypeDefinitionIndex(2448))} Self:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(10422)), TypeDefinitionIndex(TypeDefinitionIndex(13859)),
+// TypeDefinitionIndex(TypeDefinitionIndex(13876)), TypeDefinitionIndex(TypeDefinitionIndex(13889)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 105 })] Self:
 // TypeDefinitionIndex(TypeDefinitionIndex(13862)) CS Name: ::UnityEngine.Timeline::TrackAsset*
 class CORDL_TYPE TrackAsset : public ::UnityEngine::Playables::PlayableAsset {
 public:
@@ -514,71 +514,74 @@ public:
   using Versions = ::UnityEngine::Timeline::__TrackAsset__Versions;
 
   /// @brief Field m_Version, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_Version, put = __set_m_Version)) int32_t m_Version;
+  __declspec(property(get = __cordl_internal_get_m_Version, put = __cordl_internal_set_m_Version)) int32_t m_Version;
 
   /// @brief Field m_AnimClip, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_AnimClip, put = __set_m_AnimClip))::UnityEngine::AnimationClip* m_AnimClip;
+  __declspec(property(get = __cordl_internal_get_m_AnimClip, put = __cordl_internal_set_m_AnimClip))::UnityW<::UnityEngine::AnimationClip> m_AnimClip;
 
   /// @brief Field m_Locked, offset 0x28, size 0x1
-  __declspec(property(get = __get_m_Locked, put = __set_m_Locked)) bool m_Locked;
+  __declspec(property(get = __cordl_internal_get_m_Locked, put = __cordl_internal_set_m_Locked)) bool m_Locked;
 
   /// @brief Field m_Muted, offset 0x29, size 0x1
-  __declspec(property(get = __get_m_Muted, put = __set_m_Muted)) bool m_Muted;
+  __declspec(property(get = __cordl_internal_get_m_Muted, put = __cordl_internal_set_m_Muted)) bool m_Muted;
 
   /// @brief Field m_CustomPlayableFullTypename, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_CustomPlayableFullTypename, put = __set_m_CustomPlayableFullTypename))::StringW m_CustomPlayableFullTypename;
+  __declspec(property(get = __cordl_internal_get_m_CustomPlayableFullTypename, put = __cordl_internal_set_m_CustomPlayableFullTypename))::StringW m_CustomPlayableFullTypename;
 
   /// @brief Field m_Curves, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_Curves, put = __set_m_Curves))::UnityEngine::AnimationClip* m_Curves;
+  __declspec(property(get = __cordl_internal_get_m_Curves, put = __cordl_internal_set_m_Curves))::UnityW<::UnityEngine::AnimationClip> m_Curves;
 
   /// @brief Field m_Parent, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_Parent, put = __set_m_Parent))::UnityEngine::Playables::PlayableAsset* m_Parent;
+  __declspec(property(get = __cordl_internal_get_m_Parent, put = __cordl_internal_set_m_Parent))::UnityW<::UnityEngine::Playables::PlayableAsset> m_Parent;
 
   /// @brief Field m_Children, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_Children, put = __set_m_Children))::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>* m_Children;
+  __declspec(property(get = __cordl_internal_get_m_Children, put = __cordl_internal_set_m_Children))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* m_Children;
 
   /// @brief Field m_ItemsHash, offset 0x50, size 0x4
-  __declspec(property(get = __get_m_ItemsHash, put = __set_m_ItemsHash)) int32_t m_ItemsHash;
+  __declspec(property(get = __cordl_internal_get_m_ItemsHash, put = __cordl_internal_set_m_ItemsHash)) int32_t m_ItemsHash;
 
   /// @brief Field m_ClipsCache, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_ClipsCache, put = __set_m_ClipsCache))::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*> m_ClipsCache;
+  __declspec(property(get = __cordl_internal_get_m_ClipsCache,
+                      put = __cordl_internal_set_m_ClipsCache))::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*> m_ClipsCache;
 
   /// @brief Field m_Start, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_Start, put = __set_m_Start))::UnityEngine::Timeline::DiscreteTime m_Start;
+  __declspec(property(get = __cordl_internal_get_m_Start, put = __cordl_internal_set_m_Start))::UnityEngine::Timeline::DiscreteTime m_Start;
 
   /// @brief Field m_End, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_End, put = __set_m_End))::UnityEngine::Timeline::DiscreteTime m_End;
+  __declspec(property(get = __cordl_internal_get_m_End, put = __cordl_internal_set_m_End))::UnityEngine::Timeline::DiscreteTime m_End;
 
   /// @brief Field m_CacheSorted, offset 0x70, size 0x1
-  __declspec(property(get = __get_m_CacheSorted, put = __set_m_CacheSorted)) bool m_CacheSorted;
+  __declspec(property(get = __cordl_internal_get_m_CacheSorted, put = __cordl_internal_set_m_CacheSorted)) bool m_CacheSorted;
 
   /// @brief Field m_SupportsNotifications, offset 0x71, size 0x2
-  __declspec(property(get = __get_m_SupportsNotifications, put = __set_m_SupportsNotifications))::System::Nullable_1<bool> m_SupportsNotifications;
+  __declspec(property(get = __cordl_internal_get_m_SupportsNotifications, put = __cordl_internal_set_m_SupportsNotifications))::System::Nullable_1<bool> m_SupportsNotifications;
 
   /// @brief Field m_ChildTrackCache, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_ChildTrackCache, put = __set_m_ChildTrackCache))::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* m_ChildTrackCache;
+  __declspec(property(get = __cordl_internal_get_m_ChildTrackCache,
+                      put = __cordl_internal_set_m_ChildTrackCache))::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* m_ChildTrackCache;
 
   /// @brief Field m_Clips, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_Clips, put = __set_m_Clips))::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* m_Clips;
+  __declspec(property(get = __cordl_internal_get_m_Clips, put = __cordl_internal_set_m_Clips))::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* m_Clips;
 
   /// @brief Field m_Markers, offset 0x88, size 0x18
-  __declspec(property(get = __get_m_Markers, put = __set_m_Markers))::UnityEngine::Timeline::MarkerList m_Markers;
+  __declspec(property(get = __cordl_internal_get_m_Markers, put = __cordl_internal_set_m_Markers))::UnityEngine::Timeline::MarkerList m_Markers;
 
   /// @brief Field s_BuildData, offset 0xffffffff, size 0x18
   static __declspec(property(get = getStaticF_s_BuildData, put = setStaticF_s_BuildData))::UnityEngine::Timeline::__TrackAsset__TransientBuildData s_BuildData;
 
   /// @brief Field OnClipPlayableCreate, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_OnClipPlayableCreate,
-               put = setStaticF_OnClipPlayableCreate))::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* OnClipPlayableCreate;
+  static __declspec(property(
+      get = getStaticF_OnClipPlayableCreate,
+      put = setStaticF_OnClipPlayableCreate))::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* OnClipPlayableCreate;
 
   /// @brief Field OnTrackAnimationPlayableCreate, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_OnTrackAnimationPlayableCreate,
-                             put = setStaticF_OnTrackAnimationPlayableCreate))::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*,
+                             put = setStaticF_OnTrackAnimationPlayableCreate))::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>,
                                                                                                  ::UnityEngine::Playables::Playable>* OnTrackAnimationPlayableCreate;
 
   /// @brief Field s_EmptyCache, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_EmptyCache, put = setStaticF_s_EmptyCache))::ArrayW<::UnityEngine::Timeline::TrackAsset*, ::Array<::UnityEngine::Timeline::TrackAsset*>*> s_EmptyCache;
+  static __declspec(property(get = getStaticF_s_EmptyCache,
+                             put = setStaticF_s_EmptyCache))::ArrayW<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::Array<::UnityW<::UnityEngine::Timeline::TrackAsset>>*> s_EmptyCache;
 
   /// @brief Field s_TrackBindingTypeAttributeCache, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_TrackBindingTypeAttributeCache, put = setStaticF_s_TrackBindingTypeAttributeCache))::System::Collections::Generic::Dictionary_2<
@@ -594,9 +597,9 @@ public:
 
   __declspec(property(get = get_mutedInHierarchy)) bool mutedInHierarchy;
 
-  __declspec(property(get = get_timelineAsset))::UnityEngine::Timeline::TimelineAsset* timelineAsset;
+  __declspec(property(get = get_timelineAsset))::UnityW<::UnityEngine::Timeline::TimelineAsset> timelineAsset;
 
-  __declspec(property(get = get_parent, put = set_parent))::UnityEngine::Playables::PlayableAsset* parent;
+  __declspec(property(get = get_parent, put = set_parent))::UnityW<::UnityEngine::Playables::PlayableAsset> parent;
 
   __declspec(property(get = get_clips))::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*> clips;
 
@@ -612,17 +615,17 @@ public:
 
   __declspec(property(get = get_customPlayableTypename, put = set_customPlayableTypename))::StringW customPlayableTypename;
 
-  __declspec(property(get = get_curves, put = set_curves))::UnityEngine::AnimationClip* curves;
+  __declspec(property(get = get_curves, put = set_curves))::UnityW<::UnityEngine::AnimationClip> curves;
 
   __declspec(property(get = UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName))::StringW UnityEngine_Timeline_ICurvesOwner_defaultCurvesName;
 
-  __declspec(property(get = UnityEngine_Timeline_ICurvesOwner_get_asset))::UnityEngine::Object* UnityEngine_Timeline_ICurvesOwner_asset;
+  __declspec(property(get = UnityEngine_Timeline_ICurvesOwner_get_asset))::UnityW<::UnityEngine::Object> UnityEngine_Timeline_ICurvesOwner_asset;
 
-  __declspec(property(get = UnityEngine_Timeline_ICurvesOwner_get_assetOwner))::UnityEngine::Object* UnityEngine_Timeline_ICurvesOwner_assetOwner;
+  __declspec(property(get = UnityEngine_Timeline_ICurvesOwner_get_assetOwner))::UnityW<::UnityEngine::Object> UnityEngine_Timeline_ICurvesOwner_assetOwner;
 
-  __declspec(property(get = UnityEngine_Timeline_ICurvesOwner_get_targetTrack))::UnityEngine::Timeline::TrackAsset* UnityEngine_Timeline_ICurvesOwner_targetTrack;
+  __declspec(property(get = UnityEngine_Timeline_ICurvesOwner_get_targetTrack))::UnityW<::UnityEngine::Timeline::TrackAsset> UnityEngine_Timeline_ICurvesOwner_targetTrack;
 
-  __declspec(property(get = get_subTracksObjects))::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>* subTracksObjects;
+  __declspec(property(get = get_subTracksObjects))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* subTracksObjects;
 
   __declspec(property(get = get_locked, put = set_locked)) bool locked;
 
@@ -648,123 +651,124 @@ public:
   /// @brief Convert to "::UnityEngine::Timeline::ICurvesOwner"
   constexpr ::UnityEngine::Timeline::ICurvesOwner* i___UnityEngine__Timeline__ICurvesOwner() noexcept;
 
-  constexpr int32_t& __get_m_Version();
+  constexpr int32_t& __cordl_internal_get_m_Version();
 
-  constexpr int32_t const& __get_m_Version() const;
+  constexpr int32_t const& __cordl_internal_get_m_Version() const;
 
-  constexpr void __set_m_Version(int32_t value);
+  constexpr void __cordl_internal_set_m_Version(int32_t value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get_m_AnimClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get_m_AnimClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get_m_AnimClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get_m_AnimClip() const;
 
-  constexpr void __set_m_AnimClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set_m_AnimClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr bool& __get_m_Locked();
+  constexpr bool& __cordl_internal_get_m_Locked();
 
-  constexpr bool const& __get_m_Locked() const;
+  constexpr bool const& __cordl_internal_get_m_Locked() const;
 
-  constexpr void __set_m_Locked(bool value);
+  constexpr void __cordl_internal_set_m_Locked(bool value);
 
-  constexpr bool& __get_m_Muted();
+  constexpr bool& __cordl_internal_get_m_Muted();
 
-  constexpr bool const& __get_m_Muted() const;
+  constexpr bool const& __cordl_internal_get_m_Muted() const;
 
-  constexpr void __set_m_Muted(bool value);
+  constexpr void __cordl_internal_set_m_Muted(bool value);
 
-  constexpr ::StringW& __get_m_CustomPlayableFullTypename();
+  constexpr ::StringW& __cordl_internal_get_m_CustomPlayableFullTypename();
 
-  constexpr ::StringW const& __get_m_CustomPlayableFullTypename() const;
+  constexpr ::StringW const& __cordl_internal_get_m_CustomPlayableFullTypename() const;
 
-  constexpr void __set_m_CustomPlayableFullTypename(::StringW value);
+  constexpr void __cordl_internal_set_m_CustomPlayableFullTypename(::StringW value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get_m_Curves();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get_m_Curves();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get_m_Curves() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get_m_Curves() const;
 
-  constexpr void __set_m_Curves(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set_m_Curves(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::UnityEngine::Playables::PlayableAsset*& __get_m_Parent();
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableAsset>& __cordl_internal_get_m_Parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Playables::PlayableAsset*> const& __get_m_Parent() const;
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableAsset> const& __cordl_internal_get_m_Parent() const;
 
-  constexpr void __set_m_Parent(::UnityEngine::Playables::PlayableAsset* value);
+  constexpr void __cordl_internal_set_m_Parent(::UnityW<::UnityEngine::Playables::PlayableAsset> value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>*& __get_m_Children();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>*& __cordl_internal_get_m_Children();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>*> const& __get_m_Children() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>*> const& __cordl_internal_get_m_Children() const;
 
-  constexpr void __set_m_Children(::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>* value);
+  constexpr void __cordl_internal_set_m_Children(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* value);
 
-  constexpr int32_t& __get_m_ItemsHash();
+  constexpr int32_t& __cordl_internal_get_m_ItemsHash();
 
-  constexpr int32_t const& __get_m_ItemsHash() const;
+  constexpr int32_t const& __cordl_internal_get_m_ItemsHash() const;
 
-  constexpr void __set_m_ItemsHash(int32_t value);
+  constexpr void __cordl_internal_set_m_ItemsHash(int32_t value);
 
-  constexpr ::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*>& __get_m_ClipsCache();
+  constexpr ::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*>& __cordl_internal_get_m_ClipsCache();
 
-  constexpr ::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*> const& __get_m_ClipsCache() const;
+  constexpr ::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*> const& __cordl_internal_get_m_ClipsCache() const;
 
-  constexpr void __set_m_ClipsCache(::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*> value);
+  constexpr void __cordl_internal_set_m_ClipsCache(::ArrayW<::UnityEngine::Timeline::TimelineClip*, ::Array<::UnityEngine::Timeline::TimelineClip*>*> value);
 
-  constexpr ::UnityEngine::Timeline::DiscreteTime& __get_m_Start();
+  constexpr ::UnityEngine::Timeline::DiscreteTime& __cordl_internal_get_m_Start();
 
-  constexpr ::UnityEngine::Timeline::DiscreteTime const& __get_m_Start() const;
+  constexpr ::UnityEngine::Timeline::DiscreteTime const& __cordl_internal_get_m_Start() const;
 
-  constexpr void __set_m_Start(::UnityEngine::Timeline::DiscreteTime value);
+  constexpr void __cordl_internal_set_m_Start(::UnityEngine::Timeline::DiscreteTime value);
 
-  constexpr ::UnityEngine::Timeline::DiscreteTime& __get_m_End();
+  constexpr ::UnityEngine::Timeline::DiscreteTime& __cordl_internal_get_m_End();
 
-  constexpr ::UnityEngine::Timeline::DiscreteTime const& __get_m_End() const;
+  constexpr ::UnityEngine::Timeline::DiscreteTime const& __cordl_internal_get_m_End() const;
 
-  constexpr void __set_m_End(::UnityEngine::Timeline::DiscreteTime value);
+  constexpr void __cordl_internal_set_m_End(::UnityEngine::Timeline::DiscreteTime value);
 
-  constexpr bool& __get_m_CacheSorted();
+  constexpr bool& __cordl_internal_get_m_CacheSorted();
 
-  constexpr bool const& __get_m_CacheSorted() const;
+  constexpr bool const& __cordl_internal_get_m_CacheSorted() const;
 
-  constexpr void __set_m_CacheSorted(bool value);
+  constexpr void __cordl_internal_set_m_CacheSorted(bool value);
 
-  constexpr ::System::Nullable_1<bool>& __get_m_SupportsNotifications();
+  constexpr ::System::Nullable_1<bool>& __cordl_internal_get_m_SupportsNotifications();
 
-  constexpr ::System::Nullable_1<bool> const& __get_m_SupportsNotifications() const;
+  constexpr ::System::Nullable_1<bool> const& __cordl_internal_get_m_SupportsNotifications() const;
 
-  constexpr void __set_m_SupportsNotifications(::System::Nullable_1<bool> value);
+  constexpr void __cordl_internal_set_m_SupportsNotifications(::System::Nullable_1<bool> value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>*& __get_m_ChildTrackCache();
+  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>*& __cordl_internal_get_m_ChildTrackCache();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>*> const& __get_m_ChildTrackCache() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>*> const& __cordl_internal_get_m_ChildTrackCache() const;
 
-  constexpr void __set_m_ChildTrackCache(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* value);
+  constexpr void __cordl_internal_set_m_ChildTrackCache(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>*& __get_m_Clips();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>*& __cordl_internal_get_m_Clips();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>*> const& __get_m_Clips() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>*> const& __cordl_internal_get_m_Clips() const;
 
-  constexpr void __set_m_Clips(::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* value);
+  constexpr void __cordl_internal_set_m_Clips(::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* value);
 
-  constexpr ::UnityEngine::Timeline::MarkerList& __get_m_Markers();
+  constexpr ::UnityEngine::Timeline::MarkerList& __cordl_internal_get_m_Markers();
 
-  constexpr ::UnityEngine::Timeline::MarkerList const& __get_m_Markers() const;
+  constexpr ::UnityEngine::Timeline::MarkerList const& __cordl_internal_get_m_Markers() const;
 
-  constexpr void __set_m_Markers(::UnityEngine::Timeline::MarkerList value);
+  constexpr void __cordl_internal_set_m_Markers(::UnityEngine::Timeline::MarkerList value);
 
   static inline void setStaticF_s_BuildData(::UnityEngine::Timeline::__TrackAsset__TransientBuildData value);
 
   static inline ::UnityEngine::Timeline::__TrackAsset__TransientBuildData getStaticF_s_BuildData();
 
-  static inline void setStaticF_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* value);
+  static inline void setStaticF_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
-  static inline ::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* getStaticF_OnClipPlayableCreate();
+  static inline ::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* getStaticF_OnClipPlayableCreate();
 
-  static inline void setStaticF_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* value);
+  static inline void
+  setStaticF_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
-  static inline ::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* getStaticF_OnTrackAnimationPlayableCreate();
+  static inline ::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* getStaticF_OnTrackAnimationPlayableCreate();
 
-  static inline void setStaticF_s_EmptyCache(::ArrayW<::UnityEngine::Timeline::TrackAsset*, ::Array<::UnityEngine::Timeline::TrackAsset*>*> value);
+  static inline void setStaticF_s_EmptyCache(::ArrayW<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::Array<::UnityW<::UnityEngine::Timeline::TrackAsset>>*> value);
 
-  static inline ::ArrayW<::UnityEngine::Timeline::TrackAsset*, ::Array<::UnityEngine::Timeline::TrackAsset*>*> getStaticF_s_EmptyCache();
+  static inline ::ArrayW<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::Array<::UnityW<::UnityEngine::Timeline::TrackAsset>>*> getStaticF_s_EmptyCache();
 
   static inline void setStaticF_s_TrackBindingTypeAttributeCache(::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::Timeline::TrackBindingTypeAttribute*>* value);
 
@@ -789,16 +793,18 @@ public:
   inline void UpgradeToLatestVersion();
 
   /// @brief Method add_OnClipPlayableCreate, addr 0x2c5b8ec, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* value);
+  static inline void add_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
   /// @brief Method remove_OnClipPlayableCreate, addr 0x2c5b9e0, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* value);
+  static inline void remove_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
   /// @brief Method add_OnTrackAnimationPlayableCreate, addr 0x2c5bad4, size 0xf4, virtual false, abstract: false, final false
-  static inline void add_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* value);
+  static inline void
+  add_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
   /// @brief Method remove_OnTrackAnimationPlayableCreate, addr 0x2c5bbc8, size 0xf4, virtual false, abstract: false, final false
-  static inline void remove_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::UnityEngine::Playables::Playable>* value);
+  static inline void
+  remove_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityW<::UnityEngine::Timeline::TrackAsset>, ::UnityW<::UnityEngine::GameObject>, ::UnityEngine::Playables::Playable>* value);
 
   /// @brief Method get_start, addr 0x2c5bcbc, size 0x60, virtual false, abstract: false, final false
   inline double_t get_start();
@@ -819,10 +825,10 @@ public:
   inline bool get_mutedInHierarchy();
 
   /// @brief Method get_timelineAsset, addr 0x2c597b0, size 0x16c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Timeline::TimelineAsset* get_timelineAsset();
+  inline ::UnityW<::UnityEngine::Timeline::TimelineAsset> get_timelineAsset();
 
   /// @brief Method get_parent, addr 0x2c5bea4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Playables::PlayableAsset* get_parent();
+  inline ::UnityW<::UnityEngine::Playables::PlayableAsset> get_parent();
 
   /// @brief Method set_parent, addr 0x2c5beac, size 0x8, virtual false, abstract: false, final false
   inline void set_parent(::UnityEngine::Playables::PlayableAsset* value);
@@ -849,7 +855,7 @@ public:
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* get_outputs();
 
   /// @brief Method GetChildTracks, addr 0x2c535a4, size 0x18, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* GetChildTracks();
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* GetChildTracks();
 
   /// @brief Method get_customPlayableTypename, addr 0x2c5c26c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_customPlayableTypename();
@@ -858,7 +864,7 @@ public:
   inline void set_customPlayableTypename(::StringW value);
 
   /// @brief Method get_curves, addr 0x2c5c27c, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::AnimationClip* get_curves();
+  inline ::UnityW<::UnityEngine::AnimationClip> get_curves();
 
   /// @brief Method set_curves, addr 0x2c5c284, size 0x8, virtual false, abstract: false, final false
   inline void set_curves(::UnityEngine::AnimationClip* value);
@@ -867,16 +873,16 @@ public:
   inline ::StringW UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName();
 
   /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_asset, addr 0x2c5c2cc, size 0x4, virtual true, abstract: false, final true
-  inline ::UnityEngine::Object* UnityEngine_Timeline_ICurvesOwner_get_asset();
+  inline ::UnityW<::UnityEngine::Object> UnityEngine_Timeline_ICurvesOwner_get_asset();
 
   /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_assetOwner, addr 0x2c5c2d0, size 0x4, virtual true, abstract: false, final true
-  inline ::UnityEngine::Object* UnityEngine_Timeline_ICurvesOwner_get_assetOwner();
+  inline ::UnityW<::UnityEngine::Object> UnityEngine_Timeline_ICurvesOwner_get_assetOwner();
 
   /// @brief Method UnityEngine.Timeline.ICurvesOwner.get_targetTrack, addr 0x2c5c2d4, size 0x4, virtual true, abstract: false, final true
-  inline ::UnityEngine::Timeline::TrackAsset* UnityEngine_Timeline_ICurvesOwner_get_targetTrack();
+  inline ::UnityW<::UnityEngine::Timeline::TrackAsset> UnityEngine_Timeline_ICurvesOwner_get_targetTrack();
 
   /// @brief Method get_subTracksObjects, addr 0x2c5c2d8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>* get_subTracksObjects();
+  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* get_subTracksObjects();
 
   /// @brief Method get_locked, addr 0x2c5c2e0, size 0x8, virtual false, abstract: false, final false
   inline bool get_locked();
@@ -945,7 +951,7 @@ public:
   inline ::UnityEngine::Timeline::TimelineClip* CreateClipFromAsset(::UnityEngine::ScriptableObject* playableAsset);
 
   /// @brief Method GetMarkersRaw, addr 0x2c5de5c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ScriptableObject*>* GetMarkersRaw();
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ScriptableObject>>* GetMarkersRaw();
 
   /// @brief Method ClearMarkers, addr 0x2c5de64, size 0x8, virtual false, abstract: false, final false
   inline void ClearMarkers();
@@ -977,7 +983,7 @@ public:
                                                          ::UnityEngine::Timeline::IntervalTree_1<::UnityEngine::Timeline::RuntimeElement*>* tree);
 
   /// @brief Method GatherCompilableTracks, addr 0x2c5f680, size 0x3d4, virtual false, abstract: false, final false
-  inline void GatherCompilableTracks(::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TrackAsset*>* tracks);
+  inline void GatherCompilableTracks(::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* tracks);
 
   /// @brief Method GatherNotifications, addr 0x2c5e6a8, size 0x380, virtual false, abstract: false, final false
   inline void GatherNotifications(::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* markers);
@@ -1026,7 +1032,7 @@ public:
   inline void GatherProperties(::UnityEngine::Playables::PlayableDirector* director, ::UnityEngine::Timeline::IPropertyCollector* driver);
 
   /// @brief Method GetGameObjectBinding, addr 0x2c4f060, size 0x178, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* GetGameObjectBinding(::UnityEngine::Playables::PlayableDirector* director);
+  inline ::UnityW<::UnityEngine::GameObject> GetGameObjectBinding(::UnityEngine::Playables::PlayableDirector* director);
 
   /// @brief Method ValidateClipType, addr 0x2c5d27c, size 0x280, virtual false, abstract: false, final false
   inline bool ValidateClipType(::System::Type* clipType);
@@ -1102,7 +1108,7 @@ public:
   int32_t ___m_Version;
 
   /// @brief Field m_AnimClip, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ___m_AnimClip;
+  ::UnityW<::UnityEngine::AnimationClip> ___m_AnimClip;
 
   /// @brief Field m_Locked, offset: 0x28, size: 0x1, def value: None
   bool ___m_Locked;
@@ -1114,13 +1120,13 @@ public:
   ::StringW ___m_CustomPlayableFullTypename;
 
   /// @brief Field m_Curves, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ___m_Curves;
+  ::UnityW<::UnityEngine::AnimationClip> ___m_Curves;
 
   /// @brief Field m_Parent, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::Playables::PlayableAsset* ___m_Parent;
+  ::UnityW<::UnityEngine::Playables::PlayableAsset> ___m_Parent;
 
   /// @brief Field m_Children, offset: 0x48, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>* ___m_Children;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* ___m_Children;
 
   /// @brief Field m_ItemsHash, offset: 0x50, size: 0x4, def value: None
   int32_t ___m_ItemsHash;
@@ -1141,7 +1147,7 @@ public:
   ::System::Nullable_1<bool> ___m_SupportsNotifications;
 
   /// @brief Field m_ChildTrackCache, offset: 0x78, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* ___m_ChildTrackCache;
+  ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::TrackAsset>>* ___m_ChildTrackCache;
 
   /// @brief Field m_Clips, offset: 0x80, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* ___m_Clips;

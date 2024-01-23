@@ -45,17 +45,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Endo::__EndoUtilities__MapPointCal
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Endo {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1518))
 // CS Name: ::EndoUtilities::MapPointCallback*
 class CORDL_TYPE __EndoUtilities__MapPointCallback : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_endomorphism, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_endomorphism, put = __set_m_endomorphism))::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* m_endomorphism;
+  __declspec(property(get = __cordl_internal_get_m_endomorphism, put = __cordl_internal_set_m_endomorphism))::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* m_endomorphism;
 
   /// @brief Field m_point, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_point, put = __set_m_point))::Org::BouncyCastle::Math::EC::ECPoint* m_point;
+  __declspec(property(get = __cordl_internal_get_m_point, put = __cordl_internal_set_m_point))::Org::BouncyCastle::Math::EC::ECPoint* m_point;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*() noexcept;
@@ -63,17 +63,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* i___Org__BouncyCastle__Math__EC__Multiplier__IPreCompCallback() noexcept;
 
-  constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& __get_m_endomorphism();
+  constexpr ::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*& __cordl_internal_get_m_endomorphism();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*> const& __get_m_endomorphism() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism*> const& __cordl_internal_get_m_endomorphism() const;
 
-  constexpr void __set_m_endomorphism(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
+  constexpr void __cordl_internal_set_m_endomorphism(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __get_m_point();
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_m_point();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __get_m_point() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __cordl_internal_get_m_point() const;
 
-  constexpr void __set_m_point(::Org::BouncyCastle::Math::EC::ECPoint* value);
+  constexpr void __cordl_internal_set_m_point(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
   static inline ::Org::BouncyCastle::Math::EC::Endo::__EndoUtilities__MapPointCallback* New_ctor(::Org::BouncyCastle::Math::EC::Endo::ECEndomorphism* endomorphism,
                                                                                                  ::Org::BouncyCastle::Math::EC::ECPoint* point);
@@ -121,7 +121,7 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::Endo::__EndoUtilities__Map
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Endo {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1519))
 // CS Name: ::Org.BouncyCastle.Math.EC.Endo::EndoUtilities*
 class CORDL_TYPE EndoUtilities : public ::System::Object {

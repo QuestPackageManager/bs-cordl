@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Xml::IncrementalReadDummyDecoder);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11432))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11432))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11433))
 // CS Name: ::System.Xml::IncrementalReadDummyDecoder*
 class CORDL_TYPE IncrementalReadDummyDecoder : public ::System::Xml::IncrementalReadDecoder {

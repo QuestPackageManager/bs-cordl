@@ -28,126 +28,128 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4742))
 // CS Name: ::DisappearingArrowControllerBase`1<T>*
 class CORDL_TYPE DisappearingArrowControllerBase_1 : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _transparentObjectMaterialPropertyBlocks, offset 0x18, size 0x8
-  __declspec(property(get = __get__transparentObjectMaterialPropertyBlocks,
-                      put = __set__transparentObjectMaterialPropertyBlocks))::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*,
-                                                                                     ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> _transparentObjectMaterialPropertyBlocks;
+  __declspec(property(get = __cordl_internal_get__transparentObjectMaterialPropertyBlocks, put = __cordl_internal_set__transparentObjectMaterialPropertyBlocks))::ArrayW<
+      ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> _transparentObjectMaterialPropertyBlocks;
 
   /// @brief Field _cubeMeshRenderer, offset 0x20, size 0x8
-  __declspec(property(get = __get__cubeMeshRenderer, put = __set__cubeMeshRenderer))::UnityEngine::MeshRenderer* _cubeMeshRenderer;
+  __declspec(property(get = __cordl_internal_get__cubeMeshRenderer, put = __cordl_internal_set__cubeMeshRenderer))::UnityW<::UnityEngine::MeshRenderer> _cubeMeshRenderer;
 
   /// @brief Field _arrowCutoutEffect, offset 0x28, size 0x8
-  __declspec(property(get = __get__arrowCutoutEffect, put = __set__arrowCutoutEffect))::GlobalNamespace::CutoutEffect* _arrowCutoutEffect;
+  __declspec(property(get = __cordl_internal_get__arrowCutoutEffect, put = __cordl_internal_set__arrowCutoutEffect))::UnityW<::GlobalNamespace::CutoutEffect> _arrowCutoutEffect;
 
   /// @brief Field _disappearingNormalStart, offset 0x30, size 0x4
-  __declspec(property(get = __get__disappearingNormalStart, put = __set__disappearingNormalStart)) float_t _disappearingNormalStart;
+  __declspec(property(get = __cordl_internal_get__disappearingNormalStart, put = __cordl_internal_set__disappearingNormalStart)) float_t _disappearingNormalStart;
 
   /// @brief Field _disappearingNormalEnd, offset 0x34, size 0x4
-  __declspec(property(get = __get__disappearingNormalEnd, put = __set__disappearingNormalEnd)) float_t _disappearingNormalEnd;
+  __declspec(property(get = __cordl_internal_get__disappearingNormalEnd, put = __cordl_internal_set__disappearingNormalEnd)) float_t _disappearingNormalEnd;
 
   /// @brief Field _disappearingGhostStart, offset 0x38, size 0x4
-  __declspec(property(get = __get__disappearingGhostStart, put = __set__disappearingGhostStart)) float_t _disappearingGhostStart;
+  __declspec(property(get = __cordl_internal_get__disappearingGhostStart, put = __cordl_internal_set__disappearingGhostStart)) float_t _disappearingGhostStart;
 
   /// @brief Field _disappearingGhostEnd, offset 0x3c, size 0x4
-  __declspec(property(get = __get__disappearingGhostEnd, put = __set__disappearingGhostEnd)) float_t _disappearingGhostEnd;
+  __declspec(property(get = __cordl_internal_get__disappearingGhostEnd, put = __cordl_internal_set__disappearingGhostEnd)) float_t _disappearingGhostEnd;
 
   /// @brief Field _prevArrowTransparency, offset 0x40, size 0x4
-  __declspec(property(get = __get__prevArrowTransparency, put = __set__prevArrowTransparency)) float_t _prevArrowTransparency;
+  __declspec(property(get = __cordl_internal_get__prevArrowTransparency, put = __cordl_internal_set__prevArrowTransparency)) float_t _prevArrowTransparency;
 
   /// @brief Field _minDistance, offset 0x44, size 0x4
-  __declspec(property(get = __get__minDistance, put = __set__minDistance)) float_t _minDistance;
+  __declspec(property(get = __cordl_internal_get__minDistance, put = __cordl_internal_set__minDistance)) float_t _minDistance;
 
   /// @brief Field _maxDistance, offset 0x48, size 0x4
-  __declspec(property(get = __get__maxDistance, put = __set__maxDistance)) float_t _maxDistance;
+  __declspec(property(get = __cordl_internal_get__maxDistance, put = __cordl_internal_set__maxDistance)) float_t _maxDistance;
 
   /// @brief Field _hideMesh, offset 0x4c, size 0x1
-  __declspec(property(get = __get__hideMesh, put = __set__hideMesh)) bool _hideMesh;
+  __declspec(property(get = __cordl_internal_get__hideMesh, put = __cordl_internal_set__hideMesh)) bool _hideMesh;
 
   /// @brief Field _fadeArrow, offset 0x4d, size 0x1
-  __declspec(property(get = __get__fadeArrow, put = __set__fadeArrow)) bool _fadeArrow;
+  __declspec(property(get = __cordl_internal_get__fadeArrow, put = __cordl_internal_set__fadeArrow)) bool _fadeArrow;
 
   /// @brief Field _colorId, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__colorId, put = setStaticF__colorId)) int32_t _colorId;
 
   __declspec(property(get = get_gameNoteController)) T gameNoteController;
 
-  constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*>& __get__transparentObjectMaterialPropertyBlocks();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*>&
+  __cordl_internal_get__transparentObjectMaterialPropertyBlocks();
 
-  constexpr ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> const& __get__transparentObjectMaterialPropertyBlocks() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> const&
+  __cordl_internal_get__transparentObjectMaterialPropertyBlocks() const;
 
-  constexpr void __set__transparentObjectMaterialPropertyBlocks(::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> value);
+  constexpr void __cordl_internal_set__transparentObjectMaterialPropertyBlocks(
+      ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> value);
 
-  constexpr ::UnityEngine::MeshRenderer*& __get__cubeMeshRenderer();
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__cubeMeshRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshRenderer*> const& __get__cubeMeshRenderer() const;
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__cubeMeshRenderer() const;
 
-  constexpr void __set__cubeMeshRenderer(::UnityEngine::MeshRenderer* value);
+  constexpr void __cordl_internal_set__cubeMeshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  constexpr ::GlobalNamespace::CutoutEffect*& __get__arrowCutoutEffect();
+  constexpr ::UnityW<::GlobalNamespace::CutoutEffect>& __cordl_internal_get__arrowCutoutEffect();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CutoutEffect*> const& __get__arrowCutoutEffect() const;
+  constexpr ::UnityW<::GlobalNamespace::CutoutEffect> const& __cordl_internal_get__arrowCutoutEffect() const;
 
-  constexpr void __set__arrowCutoutEffect(::GlobalNamespace::CutoutEffect* value);
+  constexpr void __cordl_internal_set__arrowCutoutEffect(::UnityW<::GlobalNamespace::CutoutEffect> value);
 
-  constexpr float_t& __get__disappearingNormalStart();
+  constexpr float_t& __cordl_internal_get__disappearingNormalStart();
 
-  constexpr float_t const& __get__disappearingNormalStart() const;
+  constexpr float_t const& __cordl_internal_get__disappearingNormalStart() const;
 
-  constexpr void __set__disappearingNormalStart(float_t value);
+  constexpr void __cordl_internal_set__disappearingNormalStart(float_t value);
 
-  constexpr float_t& __get__disappearingNormalEnd();
+  constexpr float_t& __cordl_internal_get__disappearingNormalEnd();
 
-  constexpr float_t const& __get__disappearingNormalEnd() const;
+  constexpr float_t const& __cordl_internal_get__disappearingNormalEnd() const;
 
-  constexpr void __set__disappearingNormalEnd(float_t value);
+  constexpr void __cordl_internal_set__disappearingNormalEnd(float_t value);
 
-  constexpr float_t& __get__disappearingGhostStart();
+  constexpr float_t& __cordl_internal_get__disappearingGhostStart();
 
-  constexpr float_t const& __get__disappearingGhostStart() const;
+  constexpr float_t const& __cordl_internal_get__disappearingGhostStart() const;
 
-  constexpr void __set__disappearingGhostStart(float_t value);
+  constexpr void __cordl_internal_set__disappearingGhostStart(float_t value);
 
-  constexpr float_t& __get__disappearingGhostEnd();
+  constexpr float_t& __cordl_internal_get__disappearingGhostEnd();
 
-  constexpr float_t const& __get__disappearingGhostEnd() const;
+  constexpr float_t const& __cordl_internal_get__disappearingGhostEnd() const;
 
-  constexpr void __set__disappearingGhostEnd(float_t value);
+  constexpr void __cordl_internal_set__disappearingGhostEnd(float_t value);
 
-  constexpr float_t& __get__prevArrowTransparency();
+  constexpr float_t& __cordl_internal_get__prevArrowTransparency();
 
-  constexpr float_t const& __get__prevArrowTransparency() const;
+  constexpr float_t const& __cordl_internal_get__prevArrowTransparency() const;
 
-  constexpr void __set__prevArrowTransparency(float_t value);
+  constexpr void __cordl_internal_set__prevArrowTransparency(float_t value);
 
-  constexpr float_t& __get__minDistance();
+  constexpr float_t& __cordl_internal_get__minDistance();
 
-  constexpr float_t const& __get__minDistance() const;
+  constexpr float_t const& __cordl_internal_get__minDistance() const;
 
-  constexpr void __set__minDistance(float_t value);
+  constexpr void __cordl_internal_set__minDistance(float_t value);
 
-  constexpr float_t& __get__maxDistance();
+  constexpr float_t& __cordl_internal_get__maxDistance();
 
-  constexpr float_t const& __get__maxDistance() const;
+  constexpr float_t const& __cordl_internal_get__maxDistance() const;
 
-  constexpr void __set__maxDistance(float_t value);
+  constexpr void __cordl_internal_set__maxDistance(float_t value);
 
-  constexpr bool& __get__hideMesh();
+  constexpr bool& __cordl_internal_get__hideMesh();
 
-  constexpr bool const& __get__hideMesh() const;
+  constexpr bool const& __cordl_internal_get__hideMesh() const;
 
-  constexpr void __set__hideMesh(bool value);
+  constexpr void __cordl_internal_set__hideMesh(bool value);
 
-  constexpr bool& __get__fadeArrow();
+  constexpr bool& __cordl_internal_get__fadeArrow();
 
-  constexpr bool const& __get__fadeArrow() const;
+  constexpr bool const& __cordl_internal_get__fadeArrow() const;
 
-  constexpr void __set__fadeArrow(bool value);
+  constexpr void __cordl_internal_set__fadeArrow(bool value);
 
   static inline void setStaticF__colorId(int32_t value);
 
@@ -194,13 +196,13 @@ protected:
 
 public:
   /// @brief Field _transparentObjectMaterialPropertyBlocks, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::MaterialPropertyBlockController*, ::Array<::GlobalNamespace::MaterialPropertyBlockController*>*> ____transparentObjectMaterialPropertyBlocks;
+  ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> ____transparentObjectMaterialPropertyBlocks;
 
   /// @brief Field _cubeMeshRenderer, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::MeshRenderer* ____cubeMeshRenderer;
+  ::UnityW<::UnityEngine::MeshRenderer> ____cubeMeshRenderer;
 
   /// @brief Field _arrowCutoutEffect, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::CutoutEffect* ____arrowCutoutEffect;
+  ::UnityW<::GlobalNamespace::CutoutEffect> ____arrowCutoutEffect;
 
   /// @brief Field _disappearingNormalStart, offset: 0x30, size: 0x4, def value: None
   float_t ____disappearingNormalStart;

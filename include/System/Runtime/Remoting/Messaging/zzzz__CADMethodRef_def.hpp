@@ -25,56 +25,56 @@ MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CADMethodRef);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3154))
 // CS Name: ::System.Runtime.Remoting.Messaging::CADMethodRef*
 class CORDL_TYPE CADMethodRef : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ctor, offset 0x10, size 0x1
-  __declspec(property(get = __get_ctor, put = __set_ctor)) bool ctor;
+  __declspec(property(get = __cordl_internal_get_ctor, put = __cordl_internal_set_ctor)) bool ctor;
 
   /// @brief Field typeName, offset 0x18, size 0x8
-  __declspec(property(get = __get_typeName, put = __set_typeName))::StringW typeName;
+  __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName))::StringW typeName;
 
   /// @brief Field methodName, offset 0x20, size 0x8
-  __declspec(property(get = __get_methodName, put = __set_methodName))::StringW methodName;
+  __declspec(property(get = __cordl_internal_get_methodName, put = __cordl_internal_set_methodName))::StringW methodName;
 
   /// @brief Field param_names, offset 0x28, size 0x8
-  __declspec(property(get = __get_param_names, put = __set_param_names))::ArrayW<::StringW, ::Array<::StringW>*> param_names;
+  __declspec(property(get = __cordl_internal_get_param_names, put = __cordl_internal_set_param_names))::ArrayW<::StringW, ::Array<::StringW>*> param_names;
 
   /// @brief Field generic_arg_names, offset 0x30, size 0x8
-  __declspec(property(get = __get_generic_arg_names, put = __set_generic_arg_names))::ArrayW<::StringW, ::Array<::StringW>*> generic_arg_names;
+  __declspec(property(get = __cordl_internal_get_generic_arg_names, put = __cordl_internal_set_generic_arg_names))::ArrayW<::StringW, ::Array<::StringW>*> generic_arg_names;
 
-  constexpr bool& __get_ctor();
+  constexpr bool& __cordl_internal_get_ctor();
 
-  constexpr bool const& __get_ctor() const;
+  constexpr bool const& __cordl_internal_get_ctor() const;
 
-  constexpr void __set_ctor(bool value);
+  constexpr void __cordl_internal_set_ctor(bool value);
 
-  constexpr ::StringW& __get_typeName();
+  constexpr ::StringW& __cordl_internal_get_typeName();
 
-  constexpr ::StringW const& __get_typeName() const;
+  constexpr ::StringW const& __cordl_internal_get_typeName() const;
 
-  constexpr void __set_typeName(::StringW value);
+  constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  constexpr ::StringW& __get_methodName();
+  constexpr ::StringW& __cordl_internal_get_methodName();
 
-  constexpr ::StringW const& __get_methodName() const;
+  constexpr ::StringW const& __cordl_internal_get_methodName() const;
 
-  constexpr void __set_methodName(::StringW value);
+  constexpr void __cordl_internal_set_methodName(::StringW value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_param_names();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_param_names();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_param_names() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_param_names() const;
 
-  constexpr void __set_param_names(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_param_names(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_generic_arg_names();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_generic_arg_names();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_generic_arg_names() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_generic_arg_names() const;
 
-  constexpr void __set_generic_arg_names(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_generic_arg_names(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
   /// @brief Method GetTypes, addr 0x24a7c28, size 0x14c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetTypes(::ArrayW<::StringW, ::Array<::StringW>*> typeArray);

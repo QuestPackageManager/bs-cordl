@@ -16,9 +16,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x10c;
   constexpr static std::size_t addrs = 0x22cd314;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(),
-                                                                               "get_gameServersFilter", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_gameServersFilter", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -30,10 +30,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4;
   constexpr static std::size_t addrs = 0x22cd420;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(), "SetupGameServersFilter", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameServersFilter*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(), "SetupGameServersFilter", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameServersFilter*>::get() })));
     return ___internal_method;
   }
 };
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x15c;
   constexpr static std::size_t addrs = 0x22cd548;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(),
@@ -61,7 +61,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x28;
   constexpr static std::size_t addrs = 0x22cd6a4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(),
@@ -77,10 +77,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x124;
   constexpr static std::size_t addrs = 0x22cd424;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(), "Refresh", std::vector<Il2CppClass*>{},
-                                    ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameServersFilter*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(), "Refresh", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameServersFilter*>::get() })));
     return ___internal_method;
   }
 };
@@ -92,9 +92,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x22cd6cc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -106,10 +106,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x22cd734;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(), "<DidActivate>b__16_0",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -121,10 +121,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x22cd754;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(), "<DidActivate>b__16_1",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -136,178 +136,178 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x20;
   constexpr static std::size_t addrs = 0x22cd774;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(), "<DidActivate>b__16_2",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::GameServersFilterViewController::__get__filterByDifficultyToggle() {
+constexpr ::UnityW<::UnityEngine::UI::Toggle>& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__filterByDifficultyToggle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterByDifficultyToggle;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::GameServersFilterViewController::__get__filterByDifficultyToggle() const {
+constexpr ::UnityW<::UnityEngine::UI::Toggle> const& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__filterByDifficultyToggle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterByDifficultyToggle;
 }
-constexpr void GlobalNamespace::GameServersFilterViewController::__set__filterByDifficultyToggle(::UnityEngine::UI::Toggle* value) {
+constexpr void GlobalNamespace::GameServersFilterViewController::__cordl_internal_set__filterByDifficultyToggle(::UnityW<::UnityEngine::UI::Toggle> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____filterByDifficultyToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Button*& GlobalNamespace::GameServersFilterViewController::__get__filterByDifficultyButton() {
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__filterByDifficultyButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterByDifficultyButton;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::GameServersFilterViewController::__get__filterByDifficultyButton() const {
+constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__filterByDifficultyButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterByDifficultyButton;
 }
-constexpr void GlobalNamespace::GameServersFilterViewController::__set__filterByDifficultyButton(::UnityEngine::UI::Button* value) {
+constexpr void GlobalNamespace::GameServersFilterViewController::__cordl_internal_set__filterByDifficultyButton(::UnityW<::UnityEngine::UI::Button> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____filterByDifficultyButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapDifficultyDropdown*& GlobalNamespace::GameServersFilterViewController::__get__beatmapDifficultyDropdown() {
+constexpr ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown>& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__beatmapDifficultyDropdown() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDifficultyDropdown;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDifficultyDropdown*> const& GlobalNamespace::GameServersFilterViewController::__get__beatmapDifficultyDropdown() const {
+constexpr ::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> const& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__beatmapDifficultyDropdown() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDifficultyDropdown;
 }
-constexpr void GlobalNamespace::GameServersFilterViewController::__set__beatmapDifficultyDropdown(::GlobalNamespace::BeatmapDifficultyDropdown* value) {
+constexpr void GlobalNamespace::GameServersFilterViewController::__cordl_internal_set__beatmapDifficultyDropdown(::UnityW<::GlobalNamespace::BeatmapDifficultyDropdown> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapDifficultyDropdown)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::GameServersFilterViewController::__get__filterByModifiersToggle() {
+constexpr ::UnityW<::UnityEngine::UI::Toggle>& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__filterByModifiersToggle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterByModifiersToggle;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::GameServersFilterViewController::__get__filterByModifiersToggle() const {
+constexpr ::UnityW<::UnityEngine::UI::Toggle> const& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__filterByModifiersToggle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterByModifiersToggle;
 }
-constexpr void GlobalNamespace::GameServersFilterViewController::__set__filterByModifiersToggle(::UnityEngine::UI::Toggle* value) {
+constexpr void GlobalNamespace::GameServersFilterViewController::__cordl_internal_set__filterByModifiersToggle(::UnityW<::UnityEngine::UI::Toggle> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____filterByModifiersToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Button*& GlobalNamespace::GameServersFilterViewController::__get__filterByModifiersButton() {
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__filterByModifiersButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterByModifiersButton;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::GameServersFilterViewController::__get__filterByModifiersButton() const {
+constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__filterByModifiersButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterByModifiersButton;
 }
-constexpr void GlobalNamespace::GameServersFilterViewController::__set__filterByModifiersButton(::UnityEngine::UI::Button* value) {
+constexpr void GlobalNamespace::GameServersFilterViewController::__cordl_internal_set__filterByModifiersButton(::UnityW<::UnityEngine::UI::Button> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____filterByModifiersButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::GameplayModifiersDropdown*& GlobalNamespace::GameServersFilterViewController::__get__gameplayModifiersDropdown() {
+constexpr ::UnityW<::GlobalNamespace::GameplayModifiersDropdown>& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__gameplayModifiersDropdown() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiersDropdown;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiersDropdown*> const& GlobalNamespace::GameServersFilterViewController::__get__gameplayModifiersDropdown() const {
+constexpr ::UnityW<::GlobalNamespace::GameplayModifiersDropdown> const& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__gameplayModifiersDropdown() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiersDropdown;
 }
-constexpr void GlobalNamespace::GameServersFilterViewController::__set__gameplayModifiersDropdown(::GlobalNamespace::GameplayModifiersDropdown* value) {
+constexpr void GlobalNamespace::GameServersFilterViewController::__cordl_internal_set__gameplayModifiersDropdown(::UnityW<::GlobalNamespace::GameplayModifiersDropdown> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifiersDropdown)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::GameServersFilterViewController::__get__filterBySongsToggle() {
+constexpr ::UnityW<::UnityEngine::UI::Toggle>& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__filterBySongsToggle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterBySongsToggle;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::GameServersFilterViewController::__get__filterBySongsToggle() const {
+constexpr ::UnityW<::UnityEngine::UI::Toggle> const& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__filterBySongsToggle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterBySongsToggle;
 }
-constexpr void GlobalNamespace::GameServersFilterViewController::__set__filterBySongsToggle(::UnityEngine::UI::Toggle* value) {
+constexpr void GlobalNamespace::GameServersFilterViewController::__cordl_internal_set__filterBySongsToggle(::UnityW<::UnityEngine::UI::Toggle> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____filterBySongsToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Button*& GlobalNamespace::GameServersFilterViewController::__get__filterBySongsButton() {
+constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__filterBySongsButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterBySongsButton;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& GlobalNamespace::GameServersFilterViewController::__get__filterBySongsButton() const {
+constexpr ::UnityW<::UnityEngine::UI::Button> const& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__filterBySongsButton() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____filterBySongsButton;
 }
-constexpr void GlobalNamespace::GameServersFilterViewController::__set__filterBySongsButton(::UnityEngine::UI::Button* value) {
+constexpr void GlobalNamespace::GameServersFilterViewController::__cordl_internal_set__filterBySongsButton(::UnityW<::UnityEngine::UI::Button> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____filterBySongsButton)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::SongPacksDropdown*& GlobalNamespace::GameServersFilterViewController::__get__songPacksDropdown() {
+constexpr ::UnityW<::GlobalNamespace::SongPacksDropdown>& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__songPacksDropdown() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPacksDropdown;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPacksDropdown*> const& GlobalNamespace::GameServersFilterViewController::__get__songPacksDropdown() const {
+constexpr ::UnityW<::GlobalNamespace::SongPacksDropdown> const& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__songPacksDropdown() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songPacksDropdown;
 }
-constexpr void GlobalNamespace::GameServersFilterViewController::__set__songPacksDropdown(::GlobalNamespace::SongPacksDropdown* value) {
+constexpr void GlobalNamespace::GameServersFilterViewController::__cordl_internal_set__songPacksDropdown(::UnityW<::GlobalNamespace::SongPacksDropdown> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songPacksDropdown)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::GameServersFilterViewController::__get__showFullToggle() {
+constexpr ::UnityW<::UnityEngine::UI::Toggle>& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__showFullToggle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showFullToggle;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::GameServersFilterViewController::__get__showFullToggle() const {
+constexpr ::UnityW<::UnityEngine::UI::Toggle> const& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__showFullToggle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showFullToggle;
 }
-constexpr void GlobalNamespace::GameServersFilterViewController::__set__showFullToggle(::UnityEngine::UI::Toggle* value) {
+constexpr void GlobalNamespace::GameServersFilterViewController::__cordl_internal_set__showFullToggle(::UnityW<::UnityEngine::UI::Toggle> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____showFullToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UI::Toggle*& GlobalNamespace::GameServersFilterViewController::__get__showPasswordProtectedToggle() {
+constexpr ::UnityW<::UnityEngine::UI::Toggle>& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__showPasswordProtectedToggle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showPasswordProtectedToggle;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& GlobalNamespace::GameServersFilterViewController::__get__showPasswordProtectedToggle() const {
+constexpr ::UnityW<::UnityEngine::UI::Toggle> const& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__showPasswordProtectedToggle() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showPasswordProtectedToggle;
 }
-constexpr void GlobalNamespace::GameServersFilterViewController::__set__showPasswordProtectedToggle(::UnityEngine::UI::Toggle* value) {
+constexpr void GlobalNamespace::GameServersFilterViewController::__cordl_internal_set__showPasswordProtectedToggle(::UnityW<::UnityEngine::UI::Toggle> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____showPasswordProtectedToggle)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::HMUI::ToggleBinder*& GlobalNamespace::GameServersFilterViewController::__get__toggleBinder() {
+constexpr ::HMUI::ToggleBinder*& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__toggleBinder() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
-constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& GlobalNamespace::GameServersFilterViewController::__get__toggleBinder() const {
+constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__toggleBinder() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____toggleBinder;
 }
-constexpr void GlobalNamespace::GameServersFilterViewController::__set__toggleBinder(::HMUI::ToggleBinder* value) {
+constexpr void GlobalNamespace::GameServersFilterViewController::__cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____toggleBinder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::GameServersFilterViewController::__get__showInternetGames() {
+constexpr bool& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__showInternetGames() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showInternetGames;
 }
-constexpr bool const& GlobalNamespace::GameServersFilterViewController::__get__showInternetGames() const {
+constexpr bool const& GlobalNamespace::GameServersFilterViewController::__cordl_internal_get__showInternetGames() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____showInternetGames;
 }
-constexpr void GlobalNamespace::GameServersFilterViewController::__set__showInternetGames(bool value) {
+constexpr void GlobalNamespace::GameServersFilterViewController::__cordl_internal_set__showInternetGames(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____showInternetGames = value;
 }
 inline ::GlobalNamespace::GameServersFilter* GlobalNamespace::GameServersFilterViewController::get_gameServersFilter() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(),
-                                                                             "get_gameServersFilter", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_gameServersFilter", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::GameServersFilter*, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::GameServersFilterViewController::SetupGameServersFilter(::GlobalNamespace::GameServersFilter* gameServersFilter) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(), "SetupGameServersFilter", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameServersFilter*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(), "SetupGameServersFilter", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameServersFilter*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, gameServersFilter);
 }
 inline void GlobalNamespace::GameServersFilterViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
@@ -321,35 +321,35 @@ inline void GlobalNamespace::GameServersFilterViewController::OnDestroy() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::GameServersFilterViewController::Refresh(::GlobalNamespace::GameServersFilter* currentFilter) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(), "Refresh", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameServersFilter*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(), "Refresh", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameServersFilter*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentFilter);
 }
 inline ::GlobalNamespace::GameServersFilterViewController* GlobalNamespace::GameServersFilterViewController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::GameServersFilterViewController*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameServersFilterViewController*>());
 }
 inline void GlobalNamespace::GameServersFilterViewController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::GameServersFilterViewController::_DidActivate_b__16_0(bool isOn) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(), "<DidActivate>b__16_0",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isOn);
 }
 inline void GlobalNamespace::GameServersFilterViewController::_DidActivate_b__16_1(bool isOn) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(), "<DidActivate>b__16_1",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isOn);
 }
 inline void GlobalNamespace::GameServersFilterViewController::_DidActivate_b__16_2(bool isOn) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(), "<DidActivate>b__16_2",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, isOn);
 }
 // Ctor Parameters []

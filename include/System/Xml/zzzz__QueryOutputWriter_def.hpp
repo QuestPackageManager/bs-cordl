@@ -38,123 +38,124 @@ MARK_REF_PTR_T(::System::Xml::QueryOutputWriter);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 100, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11455))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11455))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11436))
 // CS Name: ::System.Xml::QueryOutputWriter*
 class CORDL_TYPE QueryOutputWriter : public ::System::Xml::XmlRawWriter {
 public:
   // Declarations
   /// @brief Field wrapped, offset 0x20, size 0x8
-  __declspec(property(get = __get_wrapped, put = __set_wrapped))::System::Xml::XmlRawWriter* wrapped;
+  __declspec(property(get = __cordl_internal_get_wrapped, put = __cordl_internal_set_wrapped))::System::Xml::XmlRawWriter* wrapped;
 
   /// @brief Field inCDataSection, offset 0x28, size 0x1
-  __declspec(property(get = __get_inCDataSection, put = __set_inCDataSection)) bool inCDataSection;
+  __declspec(property(get = __cordl_internal_get_inCDataSection, put = __cordl_internal_set_inCDataSection)) bool inCDataSection;
 
   /// @brief Field lookupCDataElems, offset 0x30, size 0x8
-  __declspec(property(get = __get_lookupCDataElems, put = __set_lookupCDataElems))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, int32_t>* lookupCDataElems;
+  __declspec(property(get = __cordl_internal_get_lookupCDataElems,
+                      put = __cordl_internal_set_lookupCDataElems))::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, int32_t>* lookupCDataElems;
 
   /// @brief Field bitsCData, offset 0x38, size 0x8
-  __declspec(property(get = __get_bitsCData, put = __set_bitsCData))::System::Xml::BitStack* bitsCData;
+  __declspec(property(get = __cordl_internal_get_bitsCData, put = __cordl_internal_set_bitsCData))::System::Xml::BitStack* bitsCData;
 
   /// @brief Field qnameCData, offset 0x40, size 0x8
-  __declspec(property(get = __get_qnameCData, put = __set_qnameCData))::System::Xml::XmlQualifiedName* qnameCData;
+  __declspec(property(get = __cordl_internal_get_qnameCData, put = __cordl_internal_set_qnameCData))::System::Xml::XmlQualifiedName* qnameCData;
 
   /// @brief Field outputDocType, offset 0x48, size 0x1
-  __declspec(property(get = __get_outputDocType, put = __set_outputDocType)) bool outputDocType;
+  __declspec(property(get = __cordl_internal_get_outputDocType, put = __cordl_internal_set_outputDocType)) bool outputDocType;
 
   /// @brief Field checkWellFormedDoc, offset 0x49, size 0x1
-  __declspec(property(get = __get_checkWellFormedDoc, put = __set_checkWellFormedDoc)) bool checkWellFormedDoc;
+  __declspec(property(get = __cordl_internal_get_checkWellFormedDoc, put = __cordl_internal_set_checkWellFormedDoc)) bool checkWellFormedDoc;
 
   /// @brief Field hasDocElem, offset 0x4a, size 0x1
-  __declspec(property(get = __get_hasDocElem, put = __set_hasDocElem)) bool hasDocElem;
+  __declspec(property(get = __cordl_internal_get_hasDocElem, put = __cordl_internal_set_hasDocElem)) bool hasDocElem;
 
   /// @brief Field inAttr, offset 0x4b, size 0x1
-  __declspec(property(get = __get_inAttr, put = __set_inAttr)) bool inAttr;
+  __declspec(property(get = __cordl_internal_get_inAttr, put = __cordl_internal_set_inAttr)) bool inAttr;
 
   /// @brief Field systemId, offset 0x50, size 0x8
-  __declspec(property(get = __get_systemId, put = __set_systemId))::StringW systemId;
+  __declspec(property(get = __cordl_internal_get_systemId, put = __cordl_internal_set_systemId))::StringW systemId;
 
   /// @brief Field publicId, offset 0x58, size 0x8
-  __declspec(property(get = __get_publicId, put = __set_publicId))::StringW publicId;
+  __declspec(property(get = __cordl_internal_get_publicId, put = __cordl_internal_set_publicId))::StringW publicId;
 
   /// @brief Field depth, offset 0x60, size 0x4
-  __declspec(property(get = __get_depth, put = __set_depth)) int32_t depth;
+  __declspec(property(get = __cordl_internal_get_depth, put = __cordl_internal_set_depth)) int32_t depth;
 
   __declspec(property(put = set_NamespaceResolver))::System::Xml::IXmlNamespaceResolver* NamespaceResolver;
 
   __declspec(property(get = get_SupportsNamespaceDeclarationInChunks)) bool SupportsNamespaceDeclarationInChunks;
 
-  constexpr ::System::Xml::XmlRawWriter*& __get_wrapped();
+  constexpr ::System::Xml::XmlRawWriter*& __cordl_internal_get_wrapped();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlRawWriter*> const& __get_wrapped() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlRawWriter*> const& __cordl_internal_get_wrapped() const;
 
-  constexpr void __set_wrapped(::System::Xml::XmlRawWriter* value);
+  constexpr void __cordl_internal_set_wrapped(::System::Xml::XmlRawWriter* value);
 
-  constexpr bool& __get_inCDataSection();
+  constexpr bool& __cordl_internal_get_inCDataSection();
 
-  constexpr bool const& __get_inCDataSection() const;
+  constexpr bool const& __cordl_internal_get_inCDataSection() const;
 
-  constexpr void __set_inCDataSection(bool value);
+  constexpr void __cordl_internal_set_inCDataSection(bool value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, int32_t>*& __get_lookupCDataElems();
+  constexpr ::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, int32_t>*& __cordl_internal_get_lookupCDataElems();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, int32_t>*> const& __get_lookupCDataElems() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, int32_t>*> const& __cordl_internal_get_lookupCDataElems() const;
 
-  constexpr void __set_lookupCDataElems(::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, int32_t>* value);
+  constexpr void __cordl_internal_set_lookupCDataElems(::System::Collections::Generic::Dictionary_2<::System::Xml::XmlQualifiedName*, int32_t>* value);
 
-  constexpr ::System::Xml::BitStack*& __get_bitsCData();
+  constexpr ::System::Xml::BitStack*& __cordl_internal_get_bitsCData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::BitStack*> const& __get_bitsCData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::BitStack*> const& __cordl_internal_get_bitsCData() const;
 
-  constexpr void __set_bitsCData(::System::Xml::BitStack* value);
+  constexpr void __cordl_internal_set_bitsCData(::System::Xml::BitStack* value);
 
-  constexpr ::System::Xml::XmlQualifiedName*& __get_qnameCData();
+  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_qnameCData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __get_qnameCData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_qnameCData() const;
 
-  constexpr void __set_qnameCData(::System::Xml::XmlQualifiedName* value);
+  constexpr void __cordl_internal_set_qnameCData(::System::Xml::XmlQualifiedName* value);
 
-  constexpr bool& __get_outputDocType();
+  constexpr bool& __cordl_internal_get_outputDocType();
 
-  constexpr bool const& __get_outputDocType() const;
+  constexpr bool const& __cordl_internal_get_outputDocType() const;
 
-  constexpr void __set_outputDocType(bool value);
+  constexpr void __cordl_internal_set_outputDocType(bool value);
 
-  constexpr bool& __get_checkWellFormedDoc();
+  constexpr bool& __cordl_internal_get_checkWellFormedDoc();
 
-  constexpr bool const& __get_checkWellFormedDoc() const;
+  constexpr bool const& __cordl_internal_get_checkWellFormedDoc() const;
 
-  constexpr void __set_checkWellFormedDoc(bool value);
+  constexpr void __cordl_internal_set_checkWellFormedDoc(bool value);
 
-  constexpr bool& __get_hasDocElem();
+  constexpr bool& __cordl_internal_get_hasDocElem();
 
-  constexpr bool const& __get_hasDocElem() const;
+  constexpr bool const& __cordl_internal_get_hasDocElem() const;
 
-  constexpr void __set_hasDocElem(bool value);
+  constexpr void __cordl_internal_set_hasDocElem(bool value);
 
-  constexpr bool& __get_inAttr();
+  constexpr bool& __cordl_internal_get_inAttr();
 
-  constexpr bool const& __get_inAttr() const;
+  constexpr bool const& __cordl_internal_get_inAttr() const;
 
-  constexpr void __set_inAttr(bool value);
+  constexpr void __cordl_internal_set_inAttr(bool value);
 
-  constexpr ::StringW& __get_systemId();
+  constexpr ::StringW& __cordl_internal_get_systemId();
 
-  constexpr ::StringW const& __get_systemId() const;
+  constexpr ::StringW const& __cordl_internal_get_systemId() const;
 
-  constexpr void __set_systemId(::StringW value);
+  constexpr void __cordl_internal_set_systemId(::StringW value);
 
-  constexpr ::StringW& __get_publicId();
+  constexpr ::StringW& __cordl_internal_get_publicId();
 
-  constexpr ::StringW const& __get_publicId() const;
+  constexpr ::StringW const& __cordl_internal_get_publicId() const;
 
-  constexpr void __set_publicId(::StringW value);
+  constexpr void __cordl_internal_set_publicId(::StringW value);
 
-  constexpr int32_t& __get_depth();
+  constexpr int32_t& __cordl_internal_get_depth();
 
-  constexpr int32_t const& __get_depth() const;
+  constexpr int32_t const& __cordl_internal_get_depth() const;
 
-  constexpr void __set_depth(int32_t value);
+  constexpr void __cordl_internal_set_depth(int32_t value);
 
   static inline ::System::Xml::QueryOutputWriter* New_ctor(::System::Xml::XmlRawWriter* writer, ::System::Xml::XmlWriterSettings* settings);
 

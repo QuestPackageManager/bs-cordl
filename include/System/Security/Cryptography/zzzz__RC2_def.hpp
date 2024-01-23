@@ -19,14 +19,14 @@ MARK_REF_PTR_T(::System::Security::Cryptography::RC2);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2973))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2973))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2947))
 // CS Name: ::System.Security.Cryptography::RC2*
 class CORDL_TYPE RC2 : public ::System::Security::Cryptography::SymmetricAlgorithm {
 public:
   // Declarations
   /// @brief Field EffectiveKeySizeValue, offset 0x44, size 0x4
-  __declspec(property(get = __get_EffectiveKeySizeValue, put = __set_EffectiveKeySizeValue)) int32_t EffectiveKeySizeValue;
+  __declspec(property(get = __cordl_internal_get_EffectiveKeySizeValue, put = __cordl_internal_set_EffectiveKeySizeValue)) int32_t EffectiveKeySizeValue;
 
   /// @brief Field s_legalBlockSizes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_legalBlockSizes,
@@ -40,11 +40,11 @@ public:
 
   __declspec(property(get = get_KeySize, put = set_KeySize)) int32_t KeySize;
 
-  constexpr int32_t& __get_EffectiveKeySizeValue();
+  constexpr int32_t& __cordl_internal_get_EffectiveKeySizeValue();
 
-  constexpr int32_t const& __get_EffectiveKeySizeValue() const;
+  constexpr int32_t const& __cordl_internal_get_EffectiveKeySizeValue() const;
 
-  constexpr void __set_EffectiveKeySizeValue(int32_t value);
+  constexpr void __cordl_internal_set_EffectiveKeySizeValue(int32_t value);
 
   static inline void setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 

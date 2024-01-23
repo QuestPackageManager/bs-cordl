@@ -26,7 +26,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::PointerState);
 // SizeInfo { instance_size: 36, native_size: 36, calculated_instance_size: 36, calculated_native_size: 50, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6507))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::PointerState
 struct CORDL_TYPE PointerState {

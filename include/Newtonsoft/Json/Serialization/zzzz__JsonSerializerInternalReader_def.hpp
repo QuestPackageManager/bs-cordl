@@ -117,7 +117,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::__JsonSerializerInternalReader
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11951))
 // CS Name: ::JsonSerializerInternalReader::PropertyPresence
 struct CORDL_TYPE __JsonSerializerInternalReader__PropertyPresence {
@@ -171,65 +171,66 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::__JsonSerializerIntern
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(11951)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4769 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(11952)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(11951)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 4769 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(11952)) CS Name:
 // ::JsonSerializerInternalReader::CreatorPropertyContext*
 class CORDL_TYPE __JsonSerializerInternalReader__CreatorPropertyContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Name, offset 0x10, size 0x8
-  __declspec(property(get = __get_Name, put = __set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
 
   /// @brief Field Property, offset 0x18, size 0x8
-  __declspec(property(get = __get_Property, put = __set_Property))::Newtonsoft::Json::Serialization::JsonProperty* Property;
+  __declspec(property(get = __cordl_internal_get_Property, put = __cordl_internal_set_Property))::Newtonsoft::Json::Serialization::JsonProperty* Property;
 
   /// @brief Field ConstructorProperty, offset 0x20, size 0x8
-  __declspec(property(get = __get_ConstructorProperty, put = __set_ConstructorProperty))::Newtonsoft::Json::Serialization::JsonProperty* ConstructorProperty;
+  __declspec(property(get = __cordl_internal_get_ConstructorProperty, put = __cordl_internal_set_ConstructorProperty))::Newtonsoft::Json::Serialization::JsonProperty* ConstructorProperty;
 
   /// @brief Field Presence, offset 0x28, size 0x8
-  __declspec(property(get = __get_Presence, put = __set_Presence))::System::Nullable_1<::Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__PropertyPresence> Presence;
+  __declspec(property(get = __cordl_internal_get_Presence,
+                      put = __cordl_internal_set_Presence))::System::Nullable_1<::Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__PropertyPresence> Presence;
 
   /// @brief Field Value, offset 0x30, size 0x8
-  __declspec(property(get = __get_Value, put = __set_Value))::System::Object* Value;
+  __declspec(property(get = __cordl_internal_get_Value, put = __cordl_internal_set_Value))::System::Object* Value;
 
   /// @brief Field Used, offset 0x38, size 0x1
-  __declspec(property(get = __get_Used, put = __set_Used)) bool Used;
+  __declspec(property(get = __cordl_internal_get_Used, put = __cordl_internal_set_Used)) bool Used;
 
-  constexpr ::StringW& __get_Name();
+  constexpr ::StringW& __cordl_internal_get_Name();
 
-  constexpr ::StringW const& __get_Name() const;
+  constexpr ::StringW const& __cordl_internal_get_Name() const;
 
-  constexpr void __set_Name(::StringW value);
+  constexpr void __cordl_internal_set_Name(::StringW value);
 
-  constexpr ::Newtonsoft::Json::Serialization::JsonProperty*& __get_Property();
+  constexpr ::Newtonsoft::Json::Serialization::JsonProperty*& __cordl_internal_get_Property();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonProperty*> const& __get_Property() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonProperty*> const& __cordl_internal_get_Property() const;
 
-  constexpr void __set_Property(::Newtonsoft::Json::Serialization::JsonProperty* value);
+  constexpr void __cordl_internal_set_Property(::Newtonsoft::Json::Serialization::JsonProperty* value);
 
-  constexpr ::Newtonsoft::Json::Serialization::JsonProperty*& __get_ConstructorProperty();
+  constexpr ::Newtonsoft::Json::Serialization::JsonProperty*& __cordl_internal_get_ConstructorProperty();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonProperty*> const& __get_ConstructorProperty() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonProperty*> const& __cordl_internal_get_ConstructorProperty() const;
 
-  constexpr void __set_ConstructorProperty(::Newtonsoft::Json::Serialization::JsonProperty* value);
+  constexpr void __cordl_internal_set_ConstructorProperty(::Newtonsoft::Json::Serialization::JsonProperty* value);
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__PropertyPresence>& __get_Presence();
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__PropertyPresence>& __cordl_internal_get_Presence();
 
-  constexpr ::System::Nullable_1<::Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__PropertyPresence> const& __get_Presence() const;
+  constexpr ::System::Nullable_1<::Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__PropertyPresence> const& __cordl_internal_get_Presence() const;
 
-  constexpr void __set_Presence(::System::Nullable_1<::Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__PropertyPresence> value);
+  constexpr void __cordl_internal_set_Presence(::System::Nullable_1<::Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__PropertyPresence> value);
 
-  constexpr ::System::Object*& __get_Value();
+  constexpr ::System::Object*& __cordl_internal_get_Value();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_Value() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_Value() const;
 
-  constexpr void __set_Value(::System::Object* value);
+  constexpr void __cordl_internal_set_Value(::System::Object* value);
 
-  constexpr bool& __get_Used();
+  constexpr bool& __cordl_internal_get_Used();
 
-  constexpr bool const& __get_Used() const;
+  constexpr bool const& __cordl_internal_get_Used() const;
 
-  constexpr void __set_Used(bool value);
+  constexpr void __cordl_internal_set_Used(bool value);
 
   static inline ::Newtonsoft::Json::Serialization::__JsonSerializerInternalReader__CreatorPropertyContext* New_ctor();
 
@@ -290,20 +291,20 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::__JsonSerializerIntern
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11953))
 // CS Name: ::JsonSerializerInternalReader::<>c__DisplayClass36_0*
 class CORDL_TYPE __JsonSerializerInternalReader____c__DisplayClass36_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field property, offset 0x10, size 0x8
-  __declspec(property(get = __get_property, put = __set_property))::Newtonsoft::Json::Serialization::JsonProperty* property;
+  __declspec(property(get = __cordl_internal_get_property, put = __cordl_internal_set_property))::Newtonsoft::Json::Serialization::JsonProperty* property;
 
-  constexpr ::Newtonsoft::Json::Serialization::JsonProperty*& __get_property();
+  constexpr ::Newtonsoft::Json::Serialization::JsonProperty*& __cordl_internal_get_property();
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonProperty*> const& __get_property() const;
+  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Serialization::JsonProperty*> const& __cordl_internal_get_property() const;
 
-  constexpr void __set_property(::Newtonsoft::Json::Serialization::JsonProperty* value);
+  constexpr void __cordl_internal_set_property(::Newtonsoft::Json::Serialization::JsonProperty* value);
 
   static inline ::Newtonsoft::Json::Serialization::__JsonSerializerInternalReader____c__DisplayClass36_0* New_ctor();
 
@@ -342,7 +343,7 @@ static_assert(offsetof(::Newtonsoft::Json::Serialization::__JsonSerializerIntern
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11954))
 // CS Name: ::JsonSerializerInternalReader::<>c*
 class CORDL_TYPE __JsonSerializerInternalReader____c : public ::System::Object {
@@ -428,7 +429,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Serialization:
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11950))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11950))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11955))
 // CS Name: ::Newtonsoft.Json.Serialization::JsonSerializerInternalReader*
 class CORDL_TYPE JsonSerializerInternalReader : public ::Newtonsoft::Json::Serialization::JsonSerializerInternalBase {

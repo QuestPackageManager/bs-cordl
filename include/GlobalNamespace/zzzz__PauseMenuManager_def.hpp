@@ -61,65 +61,65 @@ MARK_REF_PTR_T(::GlobalNamespace::__PauseMenuManager__InitData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 50, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14717)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14717))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5066))
 // CS Name: ::PauseMenuManager::InitData*
 class CORDL_TYPE __PauseMenuManager__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field backButtonText, offset 0x10, size 0x8
-  __declspec(property(get = __get_backButtonText, put = __set_backButtonText))::StringW backButtonText;
+  __declspec(property(get = __cordl_internal_get_backButtonText, put = __cordl_internal_set_backButtonText))::StringW backButtonText;
 
   /// @brief Field previewBeatmapLevel, offset 0x18, size 0x8
-  __declspec(property(get = __get_previewBeatmapLevel, put = __set_previewBeatmapLevel))::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
+  __declspec(property(get = __cordl_internal_get_previewBeatmapLevel, put = __cordl_internal_set_previewBeatmapLevel))::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel;
 
   /// @brief Field beatmapDifficulty, offset 0x20, size 0x4
-  __declspec(property(get = __get_beatmapDifficulty, put = __set_beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
+  __declspec(property(get = __cordl_internal_get_beatmapDifficulty, put = __cordl_internal_set_beatmapDifficulty))::GlobalNamespace::BeatmapDifficulty beatmapDifficulty;
 
   /// @brief Field beatmapCharacteristic, offset 0x28, size 0x8
-  __declspec(property(get = __get_beatmapCharacteristic, put = __set_beatmapCharacteristic))::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic;
+  __declspec(property(get = __cordl_internal_get_beatmapCharacteristic, put = __cordl_internal_set_beatmapCharacteristic))::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> beatmapCharacteristic;
 
   /// @brief Field showRestartButton, offset 0x30, size 0x1
-  __declspec(property(get = __get_showRestartButton, put = __set_showRestartButton)) bool showRestartButton;
+  __declspec(property(get = __cordl_internal_get_showRestartButton, put = __cordl_internal_set_showRestartButton)) bool showRestartButton;
 
   /// @brief Field showLevelBar, offset 0x31, size 0x1
-  __declspec(property(get = __get_showLevelBar, put = __set_showLevelBar)) bool showLevelBar;
+  __declspec(property(get = __cordl_internal_get_showLevelBar, put = __cordl_internal_set_showLevelBar)) bool showLevelBar;
 
-  constexpr ::StringW& __get_backButtonText();
+  constexpr ::StringW& __cordl_internal_get_backButtonText();
 
-  constexpr ::StringW const& __get_backButtonText() const;
+  constexpr ::StringW const& __cordl_internal_get_backButtonText() const;
 
-  constexpr void __set_backButtonText(::StringW value);
+  constexpr void __cordl_internal_set_backButtonText(::StringW value);
 
-  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __get_previewBeatmapLevel();
+  constexpr ::GlobalNamespace::IPreviewBeatmapLevel*& __cordl_internal_get_previewBeatmapLevel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __get_previewBeatmapLevel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IPreviewBeatmapLevel*> const& __cordl_internal_get_previewBeatmapLevel() const;
 
-  constexpr void __set_previewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel* value);
+  constexpr void __cordl_internal_set_previewBeatmapLevel(::GlobalNamespace::IPreviewBeatmapLevel* value);
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty& __get_beatmapDifficulty();
+  constexpr ::GlobalNamespace::BeatmapDifficulty& __cordl_internal_get_beatmapDifficulty();
 
-  constexpr ::GlobalNamespace::BeatmapDifficulty const& __get_beatmapDifficulty() const;
+  constexpr ::GlobalNamespace::BeatmapDifficulty const& __cordl_internal_get_beatmapDifficulty() const;
 
-  constexpr void __set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
+  constexpr void __cordl_internal_set_beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value);
 
-  constexpr ::GlobalNamespace::BeatmapCharacteristicSO*& __get_beatmapCharacteristic();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& __cordl_internal_get_beatmapCharacteristic();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicSO*> const& __get_beatmapCharacteristic() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get_beatmapCharacteristic() const;
 
-  constexpr void __set_beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value);
+  constexpr void __cordl_internal_set_beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value);
 
-  constexpr bool& __get_showRestartButton();
+  constexpr bool& __cordl_internal_get_showRestartButton();
 
-  constexpr bool const& __get_showRestartButton() const;
+  constexpr bool const& __cordl_internal_get_showRestartButton() const;
 
-  constexpr void __set_showRestartButton(bool value);
+  constexpr void __cordl_internal_set_showRestartButton(bool value);
 
-  constexpr bool& __get_showLevelBar();
+  constexpr bool& __cordl_internal_get_showLevelBar();
 
-  constexpr bool const& __get_showLevelBar() const;
+  constexpr bool const& __cordl_internal_get_showLevelBar() const;
 
-  constexpr void __set_showLevelBar(bool value);
+  constexpr void __cordl_internal_set_showLevelBar(bool value);
 
   static inline ::GlobalNamespace::__PauseMenuManager__InitData* New_ctor(::StringW backButtonText, ::GlobalNamespace::IPreviewBeatmapLevel* previewBeatmapLevel,
                                                                           ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic,
@@ -153,7 +153,7 @@ public:
   ::GlobalNamespace::BeatmapDifficulty ___beatmapDifficulty;
 
   /// @brief Field beatmapCharacteristic, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCharacteristicSO* ___beatmapCharacteristic;
+  ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> ___beatmapCharacteristic;
 
   /// @brief Field showRestartButton, offset: 0x30, size: 0x1, def value: None
   bool ___showRestartButton;
@@ -183,7 +183,7 @@ static_assert(offsetof(::GlobalNamespace::__PauseMenuManager__InitData, ___showL
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5067))
 // CS Name: ::PauseMenuManager*
 class CORDL_TYPE PauseMenuManager : public ::UnityEngine::MonoBehaviour {
@@ -192,148 +192,150 @@ public:
   using InitData = ::GlobalNamespace::__PauseMenuManager__InitData;
 
   /// @brief Field _pauseAnimationController, offset 0x18, size 0x8
-  __declspec(property(get = __get__pauseAnimationController, put = __set__pauseAnimationController))::GlobalNamespace::PauseAnimationController* _pauseAnimationController;
+  __declspec(property(get = __cordl_internal_get__pauseAnimationController,
+                      put = __cordl_internal_set__pauseAnimationController))::UnityW<::GlobalNamespace::PauseAnimationController> _pauseAnimationController;
 
   /// @brief Field _levelBar, offset 0x20, size 0x8
-  __declspec(property(get = __get__levelBar, put = __set__levelBar))::GlobalNamespace::LevelBar* _levelBar;
+  __declspec(property(get = __cordl_internal_get__levelBar, put = __cordl_internal_set__levelBar))::UnityW<::GlobalNamespace::LevelBar> _levelBar;
 
   /// @brief Field _continueButton, offset 0x28, size 0x8
-  __declspec(property(get = __get__continueButton, put = __set__continueButton))::UnityEngine::UI::Button* _continueButton;
+  __declspec(property(get = __cordl_internal_get__continueButton, put = __cordl_internal_set__continueButton))::UnityW<::UnityEngine::UI::Button> _continueButton;
 
   /// @brief Field _restartButton, offset 0x30, size 0x8
-  __declspec(property(get = __get__restartButton, put = __set__restartButton))::UnityEngine::UI::Button* _restartButton;
+  __declspec(property(get = __cordl_internal_get__restartButton, put = __cordl_internal_set__restartButton))::UnityW<::UnityEngine::UI::Button> _restartButton;
 
   /// @brief Field _backButton, offset 0x38, size 0x8
-  __declspec(property(get = __get__backButton, put = __set__backButton))::UnityEngine::UI::Button* _backButton;
+  __declspec(property(get = __cordl_internal_get__backButton, put = __cordl_internal_set__backButton))::UnityW<::UnityEngine::UI::Button> _backButton;
 
   /// @brief Field _backButtonText, offset 0x40, size 0x8
-  __declspec(property(get = __get__backButtonText, put = __set__backButtonText))::TMPro::TextMeshProUGUI* _backButtonText;
+  __declspec(property(get = __cordl_internal_get__backButtonText, put = __cordl_internal_set__backButtonText))::UnityW<::TMPro::TextMeshProUGUI> _backButtonText;
 
   /// @brief Field _pauseContainerTransform, offset 0x48, size 0x8
-  __declspec(property(get = __get__pauseContainerTransform, put = __set__pauseContainerTransform))::UnityEngine::Transform* _pauseContainerTransform;
+  __declspec(property(get = __cordl_internal_get__pauseContainerTransform, put = __cordl_internal_set__pauseContainerTransform))::UnityW<::UnityEngine::Transform> _pauseContainerTransform;
 
   /// @brief Field _initData, offset 0x50, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__PauseMenuManager__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__PauseMenuManager__InitData* _initData;
 
   /// @brief Field _vrPlatformHelper, offset 0x58, size 0x8
-  __declspec(property(get = __get__vrPlatformHelper, put = __set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
   /// @brief Field _environmentSpawnRotation, offset 0x60, size 0x8
-  __declspec(property(get = __get__environmentSpawnRotation, put = __set__environmentSpawnRotation))::GlobalNamespace::EnvironmentSpawnRotation* _environmentSpawnRotation;
+  __declspec(property(get = __cordl_internal_get__environmentSpawnRotation,
+                      put = __cordl_internal_set__environmentSpawnRotation))::UnityW<::GlobalNamespace::EnvironmentSpawnRotation> _environmentSpawnRotation;
 
   /// @brief Field didPressContinueButtonEvent, offset 0x68, size 0x8
-  __declspec(property(get = __get_didPressContinueButtonEvent, put = __set_didPressContinueButtonEvent))::System::Action* didPressContinueButtonEvent;
+  __declspec(property(get = __cordl_internal_get_didPressContinueButtonEvent, put = __cordl_internal_set_didPressContinueButtonEvent))::System::Action* didPressContinueButtonEvent;
 
   /// @brief Field didPressMenuButtonEvent, offset 0x70, size 0x8
-  __declspec(property(get = __get_didPressMenuButtonEvent, put = __set_didPressMenuButtonEvent))::System::Action* didPressMenuButtonEvent;
+  __declspec(property(get = __cordl_internal_get_didPressMenuButtonEvent, put = __cordl_internal_set_didPressMenuButtonEvent))::System::Action* didPressMenuButtonEvent;
 
   /// @brief Field didPressRestartButtonEvent, offset 0x78, size 0x8
-  __declspec(property(get = __get_didPressRestartButtonEvent, put = __set_didPressRestartButtonEvent))::System::Action* didPressRestartButtonEvent;
+  __declspec(property(get = __cordl_internal_get_didPressRestartButtonEvent, put = __cordl_internal_set_didPressRestartButtonEvent))::System::Action* didPressRestartButtonEvent;
 
   /// @brief Field didFinishResumeAnimationEvent, offset 0x80, size 0x8
-  __declspec(property(get = __get_didFinishResumeAnimationEvent, put = __set_didFinishResumeAnimationEvent))::System::Action* didFinishResumeAnimationEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishResumeAnimationEvent, put = __cordl_internal_set_didFinishResumeAnimationEvent))::System::Action* didFinishResumeAnimationEvent;
 
   /// @brief Field _buttonBinder, offset 0x88, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
   /// @brief Field _disabledInteractionRemainingTime, offset 0x90, size 0x4
-  __declspec(property(get = __get__disabledInteractionRemainingTime, put = __set__disabledInteractionRemainingTime)) float_t _disabledInteractionRemainingTime;
+  __declspec(property(get = __cordl_internal_get__disabledInteractionRemainingTime, put = __cordl_internal_set__disabledInteractionRemainingTime)) float_t _disabledInteractionRemainingTime;
 
-  constexpr ::GlobalNamespace::PauseAnimationController*& __get__pauseAnimationController();
+  constexpr ::UnityW<::GlobalNamespace::PauseAnimationController>& __cordl_internal_get__pauseAnimationController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PauseAnimationController*> const& __get__pauseAnimationController() const;
+  constexpr ::UnityW<::GlobalNamespace::PauseAnimationController> const& __cordl_internal_get__pauseAnimationController() const;
 
-  constexpr void __set__pauseAnimationController(::GlobalNamespace::PauseAnimationController* value);
+  constexpr void __cordl_internal_set__pauseAnimationController(::UnityW<::GlobalNamespace::PauseAnimationController> value);
 
-  constexpr ::GlobalNamespace::LevelBar*& __get__levelBar();
+  constexpr ::UnityW<::GlobalNamespace::LevelBar>& __cordl_internal_get__levelBar();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelBar*> const& __get__levelBar() const;
+  constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
 
-  constexpr void __set__levelBar(::GlobalNamespace::LevelBar* value);
+  constexpr void __cordl_internal_set__levelBar(::UnityW<::GlobalNamespace::LevelBar> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__continueButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__continueButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
 
-  constexpr void __set__continueButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__restartButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__restartButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__restartButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__restartButton() const;
 
-  constexpr void __set__restartButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__restartButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__backButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__backButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__backButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__backButton() const;
 
-  constexpr void __set__backButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__backButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__backButtonText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__backButtonText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__backButtonText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__backButtonText() const;
 
-  constexpr void __set__backButtonText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__backButtonText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::Transform*& __get__pauseContainerTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__pauseContainerTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__pauseContainerTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__pauseContainerTransform() const;
 
-  constexpr void __set__pauseContainerTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__pauseContainerTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::GlobalNamespace::__PauseMenuManager__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__PauseMenuManager__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PauseMenuManager__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PauseMenuManager__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__PauseMenuManager__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__PauseMenuManager__InitData* value);
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper*& __get__vrPlatformHelper();
+  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __get__vrPlatformHelper() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
 
-  constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  constexpr ::GlobalNamespace::EnvironmentSpawnRotation*& __get__environmentSpawnRotation();
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentSpawnRotation>& __cordl_internal_get__environmentSpawnRotation();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::EnvironmentSpawnRotation*> const& __get__environmentSpawnRotation() const;
+  constexpr ::UnityW<::GlobalNamespace::EnvironmentSpawnRotation> const& __cordl_internal_get__environmentSpawnRotation() const;
 
-  constexpr void __set__environmentSpawnRotation(::GlobalNamespace::EnvironmentSpawnRotation* value);
+  constexpr void __cordl_internal_set__environmentSpawnRotation(::UnityW<::GlobalNamespace::EnvironmentSpawnRotation> value);
 
-  constexpr ::System::Action*& __get_didPressContinueButtonEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didPressContinueButtonEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didPressContinueButtonEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressContinueButtonEvent() const;
 
-  constexpr void __set_didPressContinueButtonEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didPressContinueButtonEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_didPressMenuButtonEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didPressMenuButtonEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didPressMenuButtonEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressMenuButtonEvent() const;
 
-  constexpr void __set_didPressMenuButtonEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didPressMenuButtonEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_didPressRestartButtonEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didPressRestartButtonEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didPressRestartButtonEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didPressRestartButtonEvent() const;
 
-  constexpr void __set_didPressRestartButtonEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didPressRestartButtonEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_didFinishResumeAnimationEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didFinishResumeAnimationEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didFinishResumeAnimationEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didFinishResumeAnimationEvent() const;
 
-  constexpr void __set_didFinishResumeAnimationEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didFinishResumeAnimationEvent(::System::Action* value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  constexpr float_t& __get__disabledInteractionRemainingTime();
+  constexpr float_t& __cordl_internal_get__disabledInteractionRemainingTime();
 
-  constexpr float_t const& __get__disabledInteractionRemainingTime() const;
+  constexpr float_t const& __cordl_internal_get__disabledInteractionRemainingTime() const;
 
-  constexpr void __set__disabledInteractionRemainingTime(float_t value);
+  constexpr void __cordl_internal_set__disabledInteractionRemainingTime(float_t value);
 
   /// @brief Method add_didPressContinueButtonEvent, addr 0x23c85d0, size 0x9c, virtual false, abstract: false, final false
   inline void add_didPressContinueButtonEvent(::System::Action* value);
@@ -409,25 +411,25 @@ protected:
 
 public:
   /// @brief Field _pauseAnimationController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::PauseAnimationController* ____pauseAnimationController;
+  ::UnityW<::GlobalNamespace::PauseAnimationController> ____pauseAnimationController;
 
   /// @brief Field _levelBar, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::LevelBar* ____levelBar;
+  ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;
 
   /// @brief Field _continueButton, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____continueButton;
+  ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
   /// @brief Field _restartButton, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____restartButton;
+  ::UnityW<::UnityEngine::UI::Button> ____restartButton;
 
   /// @brief Field _backButton, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____backButton;
+  ::UnityW<::UnityEngine::UI::Button> ____backButton;
 
   /// @brief Field _backButtonText, offset: 0x40, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____backButtonText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____backButtonText;
 
   /// @brief Field _pauseContainerTransform, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____pauseContainerTransform;
+  ::UnityW<::UnityEngine::Transform> ____pauseContainerTransform;
 
   /// @brief Field _initData, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::__PauseMenuManager__InitData* ____initData;
@@ -436,7 +438,7 @@ public:
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
   /// @brief Field _environmentSpawnRotation, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::EnvironmentSpawnRotation* ____environmentSpawnRotation;
+  ::UnityW<::GlobalNamespace::EnvironmentSpawnRotation> ____environmentSpawnRotation;
 
   /// @brief Field didPressContinueButtonEvent, offset: 0x68, size: 0x8, def value: None
   ::System::Action* ___didPressContinueButtonEvent;

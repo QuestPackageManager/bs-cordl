@@ -23,7 +23,7 @@ MARK_VAL_T(::UnityEngine::__ScriptingUtility__TestClass);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10229))
 // CS Name: ::ScriptingUtility::TestClass
 struct CORDL_TYPE __ScriptingUtility__TestClass {
@@ -54,7 +54,7 @@ static_assert(offsetof(::UnityEngine::__ScriptingUtility__TestClass, value) == 0
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10230))
 // CS Name: ::UnityEngine::ScriptingUtility*
 class CORDL_TYPE ScriptingUtility : public ::System::Object {

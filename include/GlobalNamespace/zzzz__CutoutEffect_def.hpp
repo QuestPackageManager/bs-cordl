@@ -26,26 +26,27 @@ MARK_REF_PTR_T(::GlobalNamespace::CutoutEffect);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4841))
 // CS Name: ::CutoutEffect*
 class CORDL_TYPE CutoutEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _materialPropertyBlockController, offset 0x18, size 0x8
-  __declspec(property(get = __get__materialPropertyBlockController, put = __set__materialPropertyBlockController))::GlobalNamespace::MaterialPropertyBlockController* _materialPropertyBlockController;
+  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
+                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
 
   /// @brief Field _useRandomCutoutOffset, offset 0x20, size 0x8
-  __declspec(property(get = __get__useRandomCutoutOffset, put = __set__useRandomCutoutOffset))::GlobalNamespace::BoolSO* _useRandomCutoutOffset;
+  __declspec(property(get = __cordl_internal_get__useRandomCutoutOffset, put = __cordl_internal_set__useRandomCutoutOffset))::UnityW<::GlobalNamespace::BoolSO> _useRandomCutoutOffset;
 
   /// @brief Field _cutoutOffset, offset 0x28, size 0xc
-  __declspec(property(get = __get__cutoutOffset, put = __set__cutoutOffset))::UnityEngine::Vector3 _cutoutOffset;
+  __declspec(property(get = __cordl_internal_get__cutoutOffset, put = __cordl_internal_set__cutoutOffset))::UnityEngine::Vector3 _cutoutOffset;
 
   /// @brief Field _randomNoiseTexOffset, offset 0x34, size 0xc
-  __declspec(property(get = __get__randomNoiseTexOffset, put = __set__randomNoiseTexOffset))::UnityEngine::Vector3 _randomNoiseTexOffset;
+  __declspec(property(get = __cordl_internal_get__randomNoiseTexOffset, put = __cordl_internal_set__randomNoiseTexOffset))::UnityEngine::Vector3 _randomNoiseTexOffset;
 
   /// @brief Field _cutout, offset 0x40, size 0x4
-  __declspec(property(get = __get__cutout, put = __set__cutout)) float_t _cutout;
+  __declspec(property(get = __cordl_internal_get__cutout, put = __cordl_internal_set__cutout)) float_t _cutout;
 
   /// @brief Field _cutoutPropertyID, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF__cutoutPropertyID, put = setStaticF__cutoutPropertyID)) int32_t _cutoutPropertyID;
@@ -55,35 +56,35 @@ public:
 
   __declspec(property(get = get_useRandomCutoutOffset)) bool useRandomCutoutOffset;
 
-  constexpr ::GlobalNamespace::MaterialPropertyBlockController*& __get__materialPropertyBlockController();
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MaterialPropertyBlockController*> const& __get__materialPropertyBlockController() const;
+  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
 
-  constexpr void __set__materialPropertyBlockController(::GlobalNamespace::MaterialPropertyBlockController* value);
+  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  constexpr ::GlobalNamespace::BoolSO*& __get__useRandomCutoutOffset();
+  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__useRandomCutoutOffset();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& __get__useRandomCutoutOffset() const;
+  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__useRandomCutoutOffset() const;
 
-  constexpr void __set__useRandomCutoutOffset(::GlobalNamespace::BoolSO* value);
+  constexpr void __cordl_internal_set__useRandomCutoutOffset(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  constexpr ::UnityEngine::Vector3& __get__cutoutOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__cutoutOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__cutoutOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__cutoutOffset() const;
 
-  constexpr void __set__cutoutOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__cutoutOffset(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get__randomNoiseTexOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__randomNoiseTexOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__randomNoiseTexOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__randomNoiseTexOffset() const;
 
-  constexpr void __set__randomNoiseTexOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__randomNoiseTexOffset(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get__cutout();
+  constexpr float_t& __cordl_internal_get__cutout();
 
-  constexpr float_t const& __get__cutout() const;
+  constexpr float_t const& __cordl_internal_get__cutout() const;
 
-  constexpr void __set__cutout(float_t value);
+  constexpr void __cordl_internal_set__cutout(float_t value);
 
   static inline void setStaticF__cutoutPropertyID(int32_t value);
 
@@ -125,10 +126,10 @@ protected:
 
 public:
   /// @brief Field _materialPropertyBlockController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MaterialPropertyBlockController* ____materialPropertyBlockController;
+  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
 
   /// @brief Field _useRandomCutoutOffset, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BoolSO* ____useRandomCutoutOffset;
+  ::UnityW<::GlobalNamespace::BoolSO> ____useRandomCutoutOffset;
 
   /// @brief Field _cutoutOffset, offset: 0x28, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____cutoutOffset;

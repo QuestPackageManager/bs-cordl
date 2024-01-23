@@ -25,47 +25,47 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::FABRIKChain);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12544))
 // CS Name: ::RootMotion.FinalIK::FABRIKChain*
 class CORDL_TYPE FABRIKChain : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ik, offset 0x10, size 0x8
-  __declspec(property(get = __get_ik, put = __set_ik))::RootMotion::FinalIK::FABRIK* ik;
+  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::FABRIK> ik;
 
   /// @brief Field pull, offset 0x18, size 0x4
-  __declspec(property(get = __get_pull, put = __set_pull)) float_t pull;
+  __declspec(property(get = __cordl_internal_get_pull, put = __cordl_internal_set_pull)) float_t pull;
 
   /// @brief Field pin, offset 0x1c, size 0x4
-  __declspec(property(get = __get_pin, put = __set_pin)) float_t pin;
+  __declspec(property(get = __cordl_internal_get_pin, put = __cordl_internal_set_pin)) float_t pin;
 
   /// @brief Field children, offset 0x20, size 0x8
-  __declspec(property(get = __get_children, put = __set_children))::ArrayW<int32_t, ::Array<int32_t>*> children;
+  __declspec(property(get = __cordl_internal_get_children, put = __cordl_internal_set_children))::ArrayW<int32_t, ::Array<int32_t>*> children;
 
-  constexpr ::RootMotion::FinalIK::FABRIK*& __get_ik();
+  constexpr ::UnityW<::RootMotion::FinalIK::FABRIK>& __cordl_internal_get_ik();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::FABRIK*> const& __get_ik() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::FABRIK> const& __cordl_internal_get_ik() const;
 
-  constexpr void __set_ik(::RootMotion::FinalIK::FABRIK* value);
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::FABRIK> value);
 
-  constexpr float_t& __get_pull();
+  constexpr float_t& __cordl_internal_get_pull();
 
-  constexpr float_t const& __get_pull() const;
+  constexpr float_t const& __cordl_internal_get_pull() const;
 
-  constexpr void __set_pull(float_t value);
+  constexpr void __cordl_internal_set_pull(float_t value);
 
-  constexpr float_t& __get_pin();
+  constexpr float_t& __cordl_internal_get_pin();
 
-  constexpr float_t const& __get_pin() const;
+  constexpr float_t const& __cordl_internal_get_pin() const;
 
-  constexpr void __set_pin(float_t value);
+  constexpr void __cordl_internal_set_pin(float_t value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get_children();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get_children();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get_children() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get_children() const;
 
-  constexpr void __set_children(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set_children(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   /// @brief Method IsValid, addr 0x1250d88, size 0xc4, virtual false, abstract: false, final false
   inline bool IsValid(ByRef<::StringW> message);
@@ -102,7 +102,7 @@ protected:
 
 public:
   /// @brief Field ik, offset: 0x10, size: 0x8, def value: None
-  ::RootMotion::FinalIK::FABRIK* ___ik;
+  ::UnityW<::RootMotion::FinalIK::FABRIK> ___ik;
 
   /// @brief Field pull, offset: 0x18, size: 0x4, def value: None
   float_t ___pull;

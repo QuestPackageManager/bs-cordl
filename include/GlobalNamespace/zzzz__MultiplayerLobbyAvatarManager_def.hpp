@@ -55,26 +55,26 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayer
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5222))
 // CS Name: ::MultiplayerLobbyAvatarManager::<RemovePlayerAndDestroy>d__13*
 class CORDL_TYPE __MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::MultiplayerLobbyAvatarManager* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarManager> __4__this;
 
   /// @brief Field userId, offset 0x28, size 0x8
-  __declspec(property(get = __get_userId, put = __set_userId))::StringW userId;
+  __declspec(property(get = __cordl_internal_get_userId, put = __cordl_internal_set_userId))::StringW userId;
 
   /// @brief Field multiplayerAvatar, offset 0x30, size 0x8
-  __declspec(property(get = __get_multiplayerAvatar, put = __set_multiplayerAvatar))::GlobalNamespace::MultiplayerLobbyAvatarController* multiplayerAvatar;
+  __declspec(property(get = __cordl_internal_get_multiplayerAvatar, put = __cordl_internal_set_multiplayerAvatar))::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> multiplayerAvatar;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -98,35 +98,35 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::MultiplayerLobbyAvatarManager*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarManager>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLobbyAvatarManager*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarManager> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::MultiplayerLobbyAvatarManager* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarManager> value);
 
-  constexpr ::StringW& __get_userId();
+  constexpr ::StringW& __cordl_internal_get_userId();
 
-  constexpr ::StringW const& __get_userId() const;
+  constexpr ::StringW const& __cordl_internal_get_userId() const;
 
-  constexpr void __set_userId(::StringW value);
+  constexpr void __cordl_internal_set_userId(::StringW value);
 
-  constexpr ::GlobalNamespace::MultiplayerLobbyAvatarController*& __get_multiplayerAvatar();
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>& __cordl_internal_get_multiplayerAvatar();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerLobbyAvatarController*> const& __get_multiplayerAvatar() const;
+  constexpr ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> const& __cordl_internal_get_multiplayerAvatar() const;
 
-  constexpr void __set_multiplayerAvatar(::GlobalNamespace::MultiplayerLobbyAvatarController* value);
+  constexpr void __cordl_internal_set_multiplayerAvatar(::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> value);
 
   static inline ::GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13* New_ctor(int32_t __1__state);
 
@@ -169,13 +169,13 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLobbyAvatarManager* _____4__this;
+  ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarManager> _____4__this;
 
   /// @brief Field userId, offset: 0x28, size: 0x8, def value: None
   ::StringW ___userId;
 
   /// @brief Field multiplayerAvatar, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::MultiplayerLobbyAvatarController* ___multiplayerAvatar;
+  ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> ___multiplayerAvatar;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -197,7 +197,7 @@ static_assert(offsetof(::GlobalNamespace::__MultiplayerLobbyAvatarManager___Remo
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5223))
 // CS Name: ::MultiplayerLobbyAvatarManager*
 class CORDL_TYPE MultiplayerLobbyAvatarManager : public ::UnityEngine::MonoBehaviour {
@@ -206,61 +206,65 @@ public:
   using _RemovePlayerAndDestroy_d__13 = ::GlobalNamespace::__MultiplayerLobbyAvatarManager___RemovePlayerAndDestroy_d__13;
 
   /// @brief Field _lobbyStateDataModel, offset 0x18, size 0x8
-  __declspec(property(get = __get__lobbyStateDataModel, put = __set__lobbyStateDataModel))::GlobalNamespace::ILobbyStateDataModel* _lobbyStateDataModel;
+  __declspec(property(get = __cordl_internal_get__lobbyStateDataModel, put = __cordl_internal_set__lobbyStateDataModel))::GlobalNamespace::ILobbyStateDataModel* _lobbyStateDataModel;
 
   /// @brief Field _avatarControllerFactory, offset 0x20, size 0x8
-  __declspec(property(get = __get__avatarControllerFactory, put = __set__avatarControllerFactory))::GlobalNamespace::__MultiplayerLobbyAvatarController__Factory* _avatarControllerFactory;
+  __declspec(property(get = __cordl_internal_get__avatarControllerFactory,
+                      put = __cordl_internal_set__avatarControllerFactory))::GlobalNamespace::__MultiplayerLobbyAvatarController__Factory* _avatarControllerFactory;
 
   /// @brief Field _innerCircleRadius, offset 0x28, size 0x4
-  __declspec(property(get = __get__innerCircleRadius, put = __set__innerCircleRadius)) float_t _innerCircleRadius;
+  __declspec(property(get = __cordl_internal_get__innerCircleRadius, put = __cordl_internal_set__innerCircleRadius)) float_t _innerCircleRadius;
 
   /// @brief Field _minOuterCircleRadius, offset 0x2c, size 0x4
-  __declspec(property(get = __get__minOuterCircleRadius, put = __set__minOuterCircleRadius)) float_t _minOuterCircleRadius;
+  __declspec(property(get = __cordl_internal_get__minOuterCircleRadius, put = __cordl_internal_set__minOuterCircleRadius)) float_t _minOuterCircleRadius;
 
   /// @brief Field _playerIdToAvatarMap, offset 0x30, size 0x8
-  __declspec(property(get = __get__playerIdToAvatarMap,
-                      put = __set__playerIdToAvatarMap))::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLobbyAvatarController*>* _playerIdToAvatarMap;
+  __declspec(property(
+      get = __cordl_internal_get__playerIdToAvatarMap,
+      put = __cordl_internal_set__playerIdToAvatarMap))::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>>* _playerIdToAvatarMap;
 
   /// @brief Field _inProgressDespawnAnimations, offset 0x38, size 0x8
-  __declspec(property(get = __get__inProgressDespawnAnimations,
-                      put = __set__inProgressDespawnAnimations))::System::Collections::Generic::HashSet_1<::GlobalNamespace::MultiplayerLobbyAvatarController*>* _inProgressDespawnAnimations;
+  __declspec(property(
+      get = __cordl_internal_get__inProgressDespawnAnimations,
+      put = __cordl_internal_set__inProgressDespawnAnimations))::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>>* _inProgressDespawnAnimations;
 
-  constexpr ::GlobalNamespace::ILobbyStateDataModel*& __get__lobbyStateDataModel();
+  constexpr ::GlobalNamespace::ILobbyStateDataModel*& __cordl_internal_get__lobbyStateDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& __get__lobbyStateDataModel() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILobbyStateDataModel*> const& __cordl_internal_get__lobbyStateDataModel() const;
 
-  constexpr void __set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value);
+  constexpr void __cordl_internal_set__lobbyStateDataModel(::GlobalNamespace::ILobbyStateDataModel* value);
 
-  constexpr ::GlobalNamespace::__MultiplayerLobbyAvatarController__Factory*& __get__avatarControllerFactory();
+  constexpr ::GlobalNamespace::__MultiplayerLobbyAvatarController__Factory*& __cordl_internal_get__avatarControllerFactory();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerLobbyAvatarController__Factory*> const& __get__avatarControllerFactory() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__MultiplayerLobbyAvatarController__Factory*> const& __cordl_internal_get__avatarControllerFactory() const;
 
-  constexpr void __set__avatarControllerFactory(::GlobalNamespace::__MultiplayerLobbyAvatarController__Factory* value);
+  constexpr void __cordl_internal_set__avatarControllerFactory(::GlobalNamespace::__MultiplayerLobbyAvatarController__Factory* value);
 
-  constexpr float_t& __get__innerCircleRadius();
+  constexpr float_t& __cordl_internal_get__innerCircleRadius();
 
-  constexpr float_t const& __get__innerCircleRadius() const;
+  constexpr float_t const& __cordl_internal_get__innerCircleRadius() const;
 
-  constexpr void __set__innerCircleRadius(float_t value);
+  constexpr void __cordl_internal_set__innerCircleRadius(float_t value);
 
-  constexpr float_t& __get__minOuterCircleRadius();
+  constexpr float_t& __cordl_internal_get__minOuterCircleRadius();
 
-  constexpr float_t const& __get__minOuterCircleRadius() const;
+  constexpr float_t const& __cordl_internal_get__minOuterCircleRadius() const;
 
-  constexpr void __set__minOuterCircleRadius(float_t value);
+  constexpr void __cordl_internal_set__minOuterCircleRadius(float_t value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLobbyAvatarController*>*& __get__playerIdToAvatarMap();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>>*& __cordl_internal_get__playerIdToAvatarMap();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLobbyAvatarController*>*> const&
-  __get__playerIdToAvatarMap() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>>*> const&
+  __cordl_internal_get__playerIdToAvatarMap() const;
 
-  constexpr void __set__playerIdToAvatarMap(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLobbyAvatarController*>* value);
+  constexpr void __cordl_internal_set__playerIdToAvatarMap(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MultiplayerLobbyAvatarController*>*& __get__inProgressDespawnAnimations();
+  constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>>*& __cordl_internal_get__inProgressDespawnAnimations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::GlobalNamespace::MultiplayerLobbyAvatarController*>*> const& __get__inProgressDespawnAnimations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>>*> const&
+  __cordl_internal_get__inProgressDespawnAnimations() const;
 
-  constexpr void __set__inProgressDespawnAnimations(::System::Collections::Generic::HashSet_1<::GlobalNamespace::MultiplayerLobbyAvatarController*>* value);
+  constexpr void __cordl_internal_set__inProgressDespawnAnimations(::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>>* value);
 
   /// @brief Method Init, addr 0x2250b70, size 0x8, virtual false, abstract: false, final false
   inline void Init(float_t innerCircleRadius, float_t minOuterCircleRadius);
@@ -318,10 +322,10 @@ public:
   float_t ____minOuterCircleRadius;
 
   /// @brief Field _playerIdToAvatarMap, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLobbyAvatarController*>* ____playerIdToAvatarMap;
+  ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>>* ____playerIdToAvatarMap;
 
   /// @brief Field _inProgressDespawnAnimations, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<::GlobalNamespace::MultiplayerLobbyAvatarController*>* ____inProgressDespawnAnimations;
+  ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController>>* ____inProgressDespawnAnimations;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

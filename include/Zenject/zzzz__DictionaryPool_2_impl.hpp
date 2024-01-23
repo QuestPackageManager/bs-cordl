@@ -12,28 +12,28 @@ template <typename TKey, typename TValue> inline ::Zenject::DictionaryPool_2<TKe
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DictionaryPool_2<TKey, TValue>*>::get>();
 }
 template <typename TKey, typename TValue> inline ::Zenject::DictionaryPool_2<TKey, TValue>* Zenject::DictionaryPool_2<TKey, TValue>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::Zenject::DictionaryPool_2<TKey, TValue>*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Zenject::DictionaryPool_2<TKey, TValue>*>());
 }
 template <typename TKey, typename TValue> inline void Zenject::DictionaryPool_2<TKey, TValue>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DictionaryPool_2<TKey, TValue>*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TKey, typename TValue> inline ::Zenject::DictionaryPool_2<TKey, TValue>* Zenject::DictionaryPool_2<TKey, TValue>::get_Instance() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DictionaryPool_2<TKey, TValue>*>::get(), "get_Instance",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Zenject::DictionaryPool_2<TKey, TValue>*, false>(nullptr, ___internal_method);
 }
 template <typename TKey, typename TValue> inline void Zenject::DictionaryPool_2<TKey, TValue>::OnSpawned(::System::Collections::Generic::Dictionary_2<TKey, TValue>* items) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DictionaryPool_2<TKey, TValue>*>::get(), "OnSpawned", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DictionaryPool_2<TKey, TValue>*>::get(), "OnSpawned", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, items);
 }
 template <typename TKey, typename TValue> inline void Zenject::DictionaryPool_2<TKey, TValue>::OnDespawned(::System::Collections::Generic::Dictionary_2<TKey, TValue>* items) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DictionaryPool_2<TKey, TValue>*>::get(), "OnDespawned", std::vector<Il2CppClass*>{},
-                                  ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>::get() })));
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DictionaryPool_2<TKey, TValue>*>::get(), "OnDespawned", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, items);
 }
 // Ctor Parameters []

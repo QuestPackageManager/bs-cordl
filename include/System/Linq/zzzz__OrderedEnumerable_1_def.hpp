@@ -56,28 +56,28 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14295), inst: 963 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(14295))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14290)) CS Name: ::OrderedEnumerable`1::<GetEnumerator>d__1<TElement>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(14295)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14295), inst:
+// 963 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14290)) CS Name: ::OrderedEnumerable`1::<GetEnumerator>d__1<TElement>*
 class CORDL_TYPE __OrderedEnumerable_1___GetEnumerator_d__1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current)) TElement __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TElement __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::System::Linq::OrderedEnumerable_1<TElement>* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Linq::OrderedEnumerable_1<TElement>* __4__this;
 
   /// @brief Field <buffer>5__2, offset 0x28, size 0x10
-  __declspec(property(get = __get__buffer_5__2, put = __set__buffer_5__2))::System::Linq::Buffer_1<TElement> _buffer_5__2;
+  __declspec(property(get = __cordl_internal_get__buffer_5__2, put = __cordl_internal_set__buffer_5__2))::System::Linq::Buffer_1<TElement> _buffer_5__2;
 
   /// @brief Field <map>5__3, offset 0x38, size 0x8
-  __declspec(property(get = __get__map_5__3, put = __set__map_5__3))::ArrayW<int32_t, ::Array<int32_t>*> _map_5__3;
+  __declspec(property(get = __cordl_internal_get__map_5__3, put = __cordl_internal_set__map_5__3))::ArrayW<int32_t, ::Array<int32_t>*> _map_5__3;
 
   /// @brief Field <i>5__4, offset 0x40, size 0x4
-  __declspec(property(get = __get__i_5__4, put = __set__i_5__4)) int32_t _i_5__4;
+  __declspec(property(get = __cordl_internal_get__i_5__4, put = __cordl_internal_set__i_5__4)) int32_t _i_5__4;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_TElement__get_Current)) TElement System_Collections_Generic_IEnumerator_TElement__Current;
 
@@ -101,41 +101,41 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr TElement& __get___2__current();
+  constexpr TElement& __cordl_internal_get___2__current();
 
-  constexpr TElement const& __get___2__current() const;
+  constexpr TElement const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(TElement value);
+  constexpr void __cordl_internal_set___2__current(TElement value);
 
-  constexpr ::System::Linq::OrderedEnumerable_1<TElement>*& __get___4__this();
+  constexpr ::System::Linq::OrderedEnumerable_1<TElement>*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::OrderedEnumerable_1<TElement>*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Linq::OrderedEnumerable_1<TElement>*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::System::Linq::OrderedEnumerable_1<TElement>* value);
+  constexpr void __cordl_internal_set___4__this(::System::Linq::OrderedEnumerable_1<TElement>* value);
 
-  constexpr ::System::Linq::Buffer_1<TElement>& __get__buffer_5__2();
+  constexpr ::System::Linq::Buffer_1<TElement>& __cordl_internal_get__buffer_5__2();
 
-  constexpr ::System::Linq::Buffer_1<TElement> const& __get__buffer_5__2() const;
+  constexpr ::System::Linq::Buffer_1<TElement> const& __cordl_internal_get__buffer_5__2() const;
 
-  constexpr void __set__buffer_5__2(::System::Linq::Buffer_1<TElement> value);
+  constexpr void __cordl_internal_set__buffer_5__2(::System::Linq::Buffer_1<TElement> value);
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__map_5__3();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__map_5__3();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__map_5__3() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__map_5__3() const;
 
-  constexpr void __set__map_5__3(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__map_5__3(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr int32_t& __get__i_5__4();
+  constexpr int32_t& __cordl_internal_get__i_5__4();
 
-  constexpr int32_t const& __get__i_5__4() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__4() const;
 
-  constexpr void __set__i_5__4(int32_t value);
+  constexpr void __cordl_internal_set__i_5__4(int32_t value);
 
   static inline ::System::Linq::__OrderedEnumerable_1___GetEnumerator_d__1<TElement>* New_ctor(int32_t __1__state);
 
@@ -199,7 +199,7 @@ namespace System::Linq {
 // cpp template
 template <typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14291))
 // CS Name: ::System.Linq::OrderedEnumerable`1<TElement>*
 class CORDL_TYPE OrderedEnumerable_1 : public ::System::Object {
@@ -208,7 +208,7 @@ public:
   using _GetEnumerator_d__1 = ::System::Linq::__OrderedEnumerable_1___GetEnumerator_d__1<TElement>;
 
   /// @brief Field source, offset 0x10, size 0x8
-  __declspec(property(get = __get_source, put = __set_source))::System::Collections::Generic::IEnumerable_1<TElement>* source;
+  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source))::System::Collections::Generic::IEnumerable_1<TElement>* source;
 
   /// @brief Convert operator to "::System::Linq::IOrderedEnumerable_1<TElement>"
   constexpr operator ::System::Linq::IOrderedEnumerable_1<TElement>*() noexcept;
@@ -228,11 +228,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<TElement>*& __get_source();
+  constexpr ::System::Collections::Generic::IEnumerable_1<TElement>*& __cordl_internal_get_source();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TElement>*> const& __get_source() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<TElement>*> const& __cordl_internal_get_source() const;
 
-  constexpr void __set_source(::System::Collections::Generic::IEnumerable_1<TElement>* value);
+  constexpr void __cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<TElement>* value);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<TElement>* GetEnumerator();

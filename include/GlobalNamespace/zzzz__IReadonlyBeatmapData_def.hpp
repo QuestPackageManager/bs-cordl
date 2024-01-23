@@ -44,7 +44,7 @@ MARK_REF_PTR_T(::GlobalNamespace::IReadonlyBeatmapData);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4260))
 // CS Name: ::IReadonlyBeatmapData*
 class CORDL_TYPE IReadonlyBeatmapData {

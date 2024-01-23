@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRSceneObjectTransformType);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7972))
 // CS Name: ::OVRSceneObjectTransformType::Transformation
 struct CORDL_TYPE __OVRSceneObjectTransformType__Transformation {
@@ -78,7 +78,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRSceneObjectTransformType__Transfo
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7972))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7972)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7973))
 // CS Name: ::OVRSceneObjectTransformType*
 class CORDL_TYPE OVRSceneObjectTransformType : public ::UnityEngine::MonoBehaviour {
@@ -87,13 +87,13 @@ public:
   using Transformation = ::GlobalNamespace::__OVRSceneObjectTransformType__Transformation;
 
   /// @brief Field TransformType, offset 0x18, size 0x4
-  __declspec(property(get = __get_TransformType, put = __set_TransformType))::GlobalNamespace::__OVRSceneObjectTransformType__Transformation TransformType;
+  __declspec(property(get = __cordl_internal_get_TransformType, put = __cordl_internal_set_TransformType))::GlobalNamespace::__OVRSceneObjectTransformType__Transformation TransformType;
 
-  constexpr ::GlobalNamespace::__OVRSceneObjectTransformType__Transformation& __get_TransformType();
+  constexpr ::GlobalNamespace::__OVRSceneObjectTransformType__Transformation& __cordl_internal_get_TransformType();
 
-  constexpr ::GlobalNamespace::__OVRSceneObjectTransformType__Transformation const& __get_TransformType() const;
+  constexpr ::GlobalNamespace::__OVRSceneObjectTransformType__Transformation const& __cordl_internal_get_TransformType() const;
 
-  constexpr void __set_TransformType(::GlobalNamespace::__OVRSceneObjectTransformType__Transformation value);
+  constexpr void __cordl_internal_set_TransformType(::GlobalNamespace::__OVRSceneObjectTransformType__Transformation value);
 
   static inline ::GlobalNamespace::OVRSceneObjectTransformType* New_ctor();
 

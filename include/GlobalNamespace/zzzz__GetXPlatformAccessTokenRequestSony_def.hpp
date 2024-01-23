@@ -19,29 +19,29 @@ MARK_REF_PTR_T(::GlobalNamespace::GetXPlatformAccessTokenRequestSony);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12924))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(12924))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15997))
 // CS Name: ::GetXPlatformAccessTokenRequestSony*
 class CORDL_TYPE GetXPlatformAccessTokenRequestSony : public ::System::Object {
 public:
   // Declarations
   /// @brief Field platformToken, offset 0x10, size 0x8
-  __declspec(property(get = __get_platformToken, put = __set_platformToken))::StringW platformToken;
+  __declspec(property(get = __cordl_internal_get_platformToken, put = __cordl_internal_set_platformToken))::StringW platformToken;
 
   /// @brief Field platformEnvironment, offset 0x18, size 0x1
-  __declspec(property(get = __get_platformEnvironment, put = __set_platformEnvironment))::GlobalNamespace::PlatformEnvironment platformEnvironment;
+  __declspec(property(get = __cordl_internal_get_platformEnvironment, put = __cordl_internal_set_platformEnvironment))::GlobalNamespace::PlatformEnvironment platformEnvironment;
 
-  constexpr ::StringW& __get_platformToken();
+  constexpr ::StringW& __cordl_internal_get_platformToken();
 
-  constexpr ::StringW const& __get_platformToken() const;
+  constexpr ::StringW const& __cordl_internal_get_platformToken() const;
 
-  constexpr void __set_platformToken(::StringW value);
+  constexpr void __cordl_internal_set_platformToken(::StringW value);
 
-  constexpr ::GlobalNamespace::PlatformEnvironment& __get_platformEnvironment();
+  constexpr ::GlobalNamespace::PlatformEnvironment& __cordl_internal_get_platformEnvironment();
 
-  constexpr ::GlobalNamespace::PlatformEnvironment const& __get_platformEnvironment() const;
+  constexpr ::GlobalNamespace::PlatformEnvironment const& __cordl_internal_get_platformEnvironment() const;
 
-  constexpr void __set_platformEnvironment(::GlobalNamespace::PlatformEnvironment value);
+  constexpr void __cordl_internal_set_platformEnvironment(::GlobalNamespace::PlatformEnvironment value);
 
   static inline ::GlobalNamespace::GetXPlatformAccessTokenRequestSony* New_ctor(::StringW platformToken, ::GlobalNamespace::PlatformEnvironment platformEnvironment);
 

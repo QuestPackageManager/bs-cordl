@@ -117,20 +117,20 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__InputEventTrace__DeviceInfo);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6536)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6536))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6538))
 // CS Name: ::InputEventTrace::Enumerator*
 class CORDL_TYPE __InputEventTrace__Enumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Trace, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Trace, put = __set_m_Trace))::UnityEngine::InputSystem::LowLevel::InputEventTrace* m_Trace;
+  __declspec(property(get = __cordl_internal_get_m_Trace, put = __cordl_internal_set_m_Trace))::UnityEngine::InputSystem::LowLevel::InputEventTrace* m_Trace;
 
   /// @brief Field m_ChangeCounter, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_ChangeCounter, put = __set_m_ChangeCounter)) int32_t m_ChangeCounter;
+  __declspec(property(get = __cordl_internal_get_m_ChangeCounter, put = __cordl_internal_set_m_ChangeCounter)) int32_t m_ChangeCounter;
 
   /// @brief Field m_Current, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Current, put = __set_m_Current))::UnityEngine::InputSystem::LowLevel::InputEventPtr m_Current;
+  __declspec(property(get = __cordl_internal_get_m_Current, put = __cordl_internal_set_m_Current))::UnityEngine::InputSystem::LowLevel::InputEventPtr m_Current;
 
   __declspec(property(get = get_Current))::UnityEngine::InputSystem::LowLevel::InputEventPtr Current;
 
@@ -155,23 +155,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventTrace*& __get_m_Trace();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventTrace*& __cordl_internal_get_m_Trace();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::LowLevel::InputEventTrace*> const& __get_m_Trace() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::LowLevel::InputEventTrace*> const& __cordl_internal_get_m_Trace() const;
 
-  constexpr void __set_m_Trace(::UnityEngine::InputSystem::LowLevel::InputEventTrace* value);
+  constexpr void __cordl_internal_set_m_Trace(::UnityEngine::InputSystem::LowLevel::InputEventTrace* value);
 
-  constexpr int32_t& __get_m_ChangeCounter();
+  constexpr int32_t& __cordl_internal_get_m_ChangeCounter();
 
-  constexpr int32_t const& __get_m_ChangeCounter() const;
+  constexpr int32_t const& __cordl_internal_get_m_ChangeCounter() const;
 
-  constexpr void __set_m_ChangeCounter(int32_t value);
+  constexpr void __cordl_internal_set_m_ChangeCounter(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr& __get_m_Current();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr& __cordl_internal_get_m_Current();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr const& __get_m_Current() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventPtr const& __cordl_internal_get_m_Current() const;
 
-  constexpr void __set_m_Current(::UnityEngine::InputSystem::LowLevel::InputEventPtr value);
+  constexpr void __cordl_internal_set_m_Current(::UnityEngine::InputSystem::LowLevel::InputEventPtr value);
 
   static inline ::UnityEngine::InputSystem::LowLevel::__InputEventTrace__Enumerator* New_ctor(::UnityEngine::InputSystem::LowLevel::InputEventTrace* trace);
 
@@ -232,7 +232,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputEventTrace__
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6539))
 // CS Name: ::InputEventTrace::FileFlags
 struct CORDL_TYPE __InputEventTrace__FileFlags {
@@ -278,7 +278,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputEventTrace__
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6540))
 // CS Name: ::InputEventTrace::ReplayController::<>c*
 class CORDL_TYPE __InputEventTrace__ReplayController____c : public ::System::Object {
@@ -330,20 +330,20 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__InputEventTra
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6541))
 // CS Name: ::InputEventTrace::ReplayController::<>c__DisplayClass43_0*
 class CORDL_TYPE __InputEventTrace__ReplayController____c__DisplayClass43_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field originalDeviceId, offset 0x10, size 0x4
-  __declspec(property(get = __get_originalDeviceId, put = __set_originalDeviceId)) int32_t originalDeviceId;
+  __declspec(property(get = __cordl_internal_get_originalDeviceId, put = __cordl_internal_set_originalDeviceId)) int32_t originalDeviceId;
 
-  constexpr int32_t& __get_originalDeviceId();
+  constexpr int32_t& __cordl_internal_get_originalDeviceId();
 
-  constexpr int32_t const& __get_originalDeviceId() const;
+  constexpr int32_t const& __cordl_internal_get_originalDeviceId() const;
 
-  constexpr void __set_originalDeviceId(int32_t value);
+  constexpr void __cordl_internal_set_originalDeviceId(int32_t value);
 
   static inline ::GlobalNamespace::__InputEventTrace__ReplayController____c__DisplayClass43_0* New_ctor();
 
@@ -382,10 +382,10 @@ static_assert(offsetof(::GlobalNamespace::__InputEventTrace__ReplayController___
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3841)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 533 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6239)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 2036 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3057 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(6542)) CS
-// Name: ::InputEventTrace::ReplayController*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3841)), TypeDefinitionIndex(TypeDefinitionIndex(6239)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6669)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3841), inst: 533 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6669), inst: 2036 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6669), inst: 3057 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6542)) CS Name:
+// ::InputEventTrace::ReplayController*
 class CORDL_TYPE __InputEventTrace__ReplayController : public ::System::Object {
 public:
   // Declarations
@@ -394,47 +394,50 @@ public:
   using __c = ::GlobalNamespace::__InputEventTrace__ReplayController____c;
 
   /// @brief Field <finished>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__finished_k__BackingField, put = __set__finished_k__BackingField)) bool _finished_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__finished_k__BackingField, put = __cordl_internal_set__finished_k__BackingField)) bool _finished_k__BackingField;
 
   /// @brief Field <paused>k__BackingField, offset 0x11, size 0x1
-  __declspec(property(get = __get__paused_k__BackingField, put = __set__paused_k__BackingField)) bool _paused_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__paused_k__BackingField, put = __cordl_internal_set__paused_k__BackingField)) bool _paused_k__BackingField;
 
   /// @brief Field <position>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __get__position_k__BackingField, put = __set__position_k__BackingField)) int32_t _position_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__position_k__BackingField, put = __cordl_internal_set__position_k__BackingField)) int32_t _position_k__BackingField;
 
   /// @brief Field m_EventTrace, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_EventTrace, put = __set_m_EventTrace))::UnityEngine::InputSystem::LowLevel::InputEventTrace* m_EventTrace;
+  __declspec(property(get = __cordl_internal_get_m_EventTrace, put = __cordl_internal_set_m_EventTrace))::UnityEngine::InputSystem::LowLevel::InputEventTrace* m_EventTrace;
 
   /// @brief Field m_Enumerator, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Enumerator, put = __set_m_Enumerator))::UnityEngine::InputSystem::LowLevel::__InputEventTrace__Enumerator* m_Enumerator;
+  __declspec(property(get = __cordl_internal_get_m_Enumerator, put = __cordl_internal_set_m_Enumerator))::UnityEngine::InputSystem::LowLevel::__InputEventTrace__Enumerator* m_Enumerator;
 
   /// @brief Field m_DeviceIDMappings, offset 0x28, size 0x18
-  __declspec(property(get = __get_m_DeviceIDMappings,
-                      put = __set_m_DeviceIDMappings))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t>> m_DeviceIDMappings;
+  __declspec(property(
+      get = __cordl_internal_get_m_DeviceIDMappings,
+      put = __cordl_internal_set_m_DeviceIDMappings))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t>> m_DeviceIDMappings;
 
   /// @brief Field m_CreateNewDevices, offset 0x40, size 0x1
-  __declspec(property(get = __get_m_CreateNewDevices, put = __set_m_CreateNewDevices)) bool m_CreateNewDevices;
+  __declspec(property(get = __cordl_internal_get_m_CreateNewDevices, put = __cordl_internal_set_m_CreateNewDevices)) bool m_CreateNewDevices;
 
   /// @brief Field m_CreatedDevices, offset 0x48, size 0x18
-  __declspec(property(get = __get_m_CreatedDevices, put = __set_m_CreatedDevices))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputDevice*> m_CreatedDevices;
+  __declspec(property(get = __cordl_internal_get_m_CreatedDevices,
+                      put = __cordl_internal_set_m_CreatedDevices))::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputDevice*> m_CreatedDevices;
 
   /// @brief Field m_OnFinished, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_OnFinished, put = __set_m_OnFinished))::System::Action* m_OnFinished;
+  __declspec(property(get = __cordl_internal_get_m_OnFinished, put = __cordl_internal_set_m_OnFinished))::System::Action* m_OnFinished;
 
   /// @brief Field m_OnEvent, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_OnEvent, put = __set_m_OnEvent))::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_OnEvent;
+  __declspec(property(get = __cordl_internal_get_m_OnEvent, put = __cordl_internal_set_m_OnEvent))::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_OnEvent;
 
   /// @brief Field m_StartTimeAsPerFirstEvent, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_StartTimeAsPerFirstEvent, put = __set_m_StartTimeAsPerFirstEvent)) double_t m_StartTimeAsPerFirstEvent;
+  __declspec(property(get = __cordl_internal_get_m_StartTimeAsPerFirstEvent, put = __cordl_internal_set_m_StartTimeAsPerFirstEvent)) double_t m_StartTimeAsPerFirstEvent;
 
   /// @brief Field m_StartTimeAsPerRuntime, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_StartTimeAsPerRuntime, put = __set_m_StartTimeAsPerRuntime)) double_t m_StartTimeAsPerRuntime;
+  __declspec(property(get = __cordl_internal_get_m_StartTimeAsPerRuntime, put = __cordl_internal_set_m_StartTimeAsPerRuntime)) double_t m_StartTimeAsPerRuntime;
 
   /// @brief Field m_AllEventsByTimeIndex, offset 0x80, size 0x4
-  __declspec(property(get = __get_m_AllEventsByTimeIndex, put = __set_m_AllEventsByTimeIndex)) int32_t m_AllEventsByTimeIndex;
+  __declspec(property(get = __cordl_internal_get_m_AllEventsByTimeIndex, put = __cordl_internal_set_m_AllEventsByTimeIndex)) int32_t m_AllEventsByTimeIndex;
 
   /// @brief Field m_AllEventsByTime, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_AllEventsByTime, put = __set_m_AllEventsByTime))::System::Collections::Generic::List_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_AllEventsByTime;
+  __declspec(property(get = __cordl_internal_get_m_AllEventsByTime,
+                      put = __cordl_internal_set_m_AllEventsByTime))::System::Collections::Generic::List_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* m_AllEventsByTime;
 
   __declspec(property(get = get_trace))::UnityEngine::InputSystem::LowLevel::InputEventTrace* trace;
 
@@ -452,89 +455,89 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr bool& __get__finished_k__BackingField();
+  constexpr bool& __cordl_internal_get__finished_k__BackingField();
 
-  constexpr bool const& __get__finished_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__finished_k__BackingField() const;
 
-  constexpr void __set__finished_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__finished_k__BackingField(bool value);
 
-  constexpr bool& __get__paused_k__BackingField();
+  constexpr bool& __cordl_internal_get__paused_k__BackingField();
 
-  constexpr bool const& __get__paused_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__paused_k__BackingField() const;
 
-  constexpr void __set__paused_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__paused_k__BackingField(bool value);
 
-  constexpr int32_t& __get__position_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__position_k__BackingField();
 
-  constexpr int32_t const& __get__position_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__position_k__BackingField() const;
 
-  constexpr void __set__position_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__position_k__BackingField(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventTrace*& __get_m_EventTrace();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEventTrace*& __cordl_internal_get_m_EventTrace();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::LowLevel::InputEventTrace*> const& __get_m_EventTrace() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::LowLevel::InputEventTrace*> const& __cordl_internal_get_m_EventTrace() const;
 
-  constexpr void __set_m_EventTrace(::UnityEngine::InputSystem::LowLevel::InputEventTrace* value);
+  constexpr void __cordl_internal_set_m_EventTrace(::UnityEngine::InputSystem::LowLevel::InputEventTrace* value);
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::__InputEventTrace__Enumerator*& __get_m_Enumerator();
+  constexpr ::UnityEngine::InputSystem::LowLevel::__InputEventTrace__Enumerator*& __cordl_internal_get_m_Enumerator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::LowLevel::__InputEventTrace__Enumerator*> const& __get_m_Enumerator() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::LowLevel::__InputEventTrace__Enumerator*> const& __cordl_internal_get_m_Enumerator() const;
 
-  constexpr void __set_m_Enumerator(::UnityEngine::InputSystem::LowLevel::__InputEventTrace__Enumerator* value);
+  constexpr void __cordl_internal_set_m_Enumerator(::UnityEngine::InputSystem::LowLevel::__InputEventTrace__Enumerator* value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t>>& __get_m_DeviceIDMappings();
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t>>& __cordl_internal_get_m_DeviceIDMappings();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t>> const& __get_m_DeviceIDMappings() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t>> const& __cordl_internal_get_m_DeviceIDMappings() const;
 
-  constexpr void __set_m_DeviceIDMappings(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t>> value);
+  constexpr void __cordl_internal_set_m_DeviceIDMappings(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::Collections::Generic::KeyValuePair_2<int32_t, int32_t>> value);
 
-  constexpr bool& __get_m_CreateNewDevices();
+  constexpr bool& __cordl_internal_get_m_CreateNewDevices();
 
-  constexpr bool const& __get_m_CreateNewDevices() const;
+  constexpr bool const& __cordl_internal_get_m_CreateNewDevices() const;
 
-  constexpr void __set_m_CreateNewDevices(bool value);
+  constexpr void __cordl_internal_set_m_CreateNewDevices(bool value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputDevice*>& __get_m_CreatedDevices();
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputDevice*>& __cordl_internal_get_m_CreatedDevices();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputDevice*> const& __get_m_CreatedDevices() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputDevice*> const& __cordl_internal_get_m_CreatedDevices() const;
 
-  constexpr void __set_m_CreatedDevices(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputDevice*> value);
+  constexpr void __cordl_internal_set_m_CreatedDevices(::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputDevice*> value);
 
-  constexpr ::System::Action*& __get_m_OnFinished();
+  constexpr ::System::Action*& __cordl_internal_get_m_OnFinished();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_m_OnFinished() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_m_OnFinished() const;
 
-  constexpr void __set_m_OnFinished(::System::Action* value);
+  constexpr void __cordl_internal_set_m_OnFinished(::System::Action* value);
 
-  constexpr ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*& __get_m_OnEvent();
+  constexpr ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*& __cordl_internal_get_m_OnEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> const& __get_m_OnEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> const& __cordl_internal_get_m_OnEvent() const;
 
-  constexpr void __set_m_OnEvent(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
+  constexpr void __cordl_internal_set_m_OnEvent(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  constexpr double_t& __get_m_StartTimeAsPerFirstEvent();
+  constexpr double_t& __cordl_internal_get_m_StartTimeAsPerFirstEvent();
 
-  constexpr double_t const& __get_m_StartTimeAsPerFirstEvent() const;
+  constexpr double_t const& __cordl_internal_get_m_StartTimeAsPerFirstEvent() const;
 
-  constexpr void __set_m_StartTimeAsPerFirstEvent(double_t value);
+  constexpr void __cordl_internal_set_m_StartTimeAsPerFirstEvent(double_t value);
 
-  constexpr double_t& __get_m_StartTimeAsPerRuntime();
+  constexpr double_t& __cordl_internal_get_m_StartTimeAsPerRuntime();
 
-  constexpr double_t const& __get_m_StartTimeAsPerRuntime() const;
+  constexpr double_t const& __cordl_internal_get_m_StartTimeAsPerRuntime() const;
 
-  constexpr void __set_m_StartTimeAsPerRuntime(double_t value);
+  constexpr void __cordl_internal_set_m_StartTimeAsPerRuntime(double_t value);
 
-  constexpr int32_t& __get_m_AllEventsByTimeIndex();
+  constexpr int32_t& __cordl_internal_get_m_AllEventsByTimeIndex();
 
-  constexpr int32_t const& __get_m_AllEventsByTimeIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_AllEventsByTimeIndex() const;
 
-  constexpr void __set_m_AllEventsByTimeIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_AllEventsByTimeIndex(int32_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*& __get_m_AllEventsByTime();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*& __cordl_internal_get_m_AllEventsByTime();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> const& __get_m_AllEventsByTime() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> const& __cordl_internal_get_m_AllEventsByTime() const;
 
-  constexpr void __set_m_AllEventsByTime(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
+  constexpr void __cordl_internal_set_m_AllEventsByTime(::System::Collections::Generic::List_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
   /// @brief Method get_trace, addr 0x2aeec08, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventTrace* get_trace();
@@ -708,7 +711,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputEventTrace__
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6667))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6667))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6543))
 // CS Name: ::InputEventTrace::DeviceInfo
 struct CORDL_TYPE __InputEventTrace__DeviceInfo {
@@ -794,9 +797,9 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__InputEventTrace__
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2323)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6660), inst: 986 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6660)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 330 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(6536))} Self: TypeDefinitionIndex(TypeDefinitionIndex(6544)) CS Name: ::UnityEngine.InputSystem.LowLevel::InputEventTrace*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2323)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6536)),
+// TypeDefinitionIndex(TypeDefinitionIndex(6660)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2323), inst: 330 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(6660), inst: 986 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(6544)) CS Name: ::UnityEngine.InputSystem.LowLevel::InputEventTrace*
 class CORDL_TYPE InputEventTrace : public ::System::Object {
 public:
   // Declarations
@@ -809,55 +812,58 @@ public:
   using Enumerator = ::UnityEngine::InputSystem::LowLevel::__InputEventTrace__Enumerator;
 
   /// @brief Field m_ChangeCounter, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_ChangeCounter, put = __set_m_ChangeCounter)) int32_t m_ChangeCounter;
+  __declspec(property(get = __cordl_internal_get_m_ChangeCounter, put = __cordl_internal_set_m_ChangeCounter)) int32_t m_ChangeCounter;
 
   /// @brief Field m_Enabled, offset 0x14, size 0x1
-  __declspec(property(get = __get_m_Enabled, put = __set_m_Enabled)) bool m_Enabled;
+  __declspec(property(get = __cordl_internal_get_m_Enabled, put = __cordl_internal_set_m_Enabled)) bool m_Enabled;
 
   /// @brief Field m_OnFilterEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_OnFilterEvent,
-                      put = __set_m_OnFilterEvent))::System::Func_3<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*, bool>* m_OnFilterEvent;
+  __declspec(
+      property(get = __cordl_internal_get_m_OnFilterEvent,
+               put = __cordl_internal_set_m_OnFilterEvent))::System::Func_3<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*, bool>* m_OnFilterEvent;
 
   /// @brief Field m_DeviceId, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_DeviceId, put = __set_m_DeviceId)) int32_t m_DeviceId;
+  __declspec(property(get = __cordl_internal_get_m_DeviceId, put = __cordl_internal_set_m_DeviceId)) int32_t m_DeviceId;
 
   /// @brief Field m_EventListeners, offset 0x28, size 0x50
-  __declspec(property(get = __get_m_EventListeners,
-                      put = __set_m_EventListeners))::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> m_EventListeners;
+  __declspec(property(
+      get = __cordl_internal_get_m_EventListeners,
+      put = __cordl_internal_set_m_EventListeners))::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> m_EventListeners;
 
   /// @brief Field m_EventBufferSize, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_EventBufferSize, put = __set_m_EventBufferSize)) int64_t m_EventBufferSize;
+  __declspec(property(get = __cordl_internal_get_m_EventBufferSize, put = __cordl_internal_set_m_EventBufferSize)) int64_t m_EventBufferSize;
 
   /// @brief Field m_MaxEventBufferSize, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_MaxEventBufferSize, put = __set_m_MaxEventBufferSize)) int64_t m_MaxEventBufferSize;
+  __declspec(property(get = __cordl_internal_get_m_MaxEventBufferSize, put = __cordl_internal_set_m_MaxEventBufferSize)) int64_t m_MaxEventBufferSize;
 
   /// @brief Field m_GrowIncrementSize, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_GrowIncrementSize, put = __set_m_GrowIncrementSize)) int64_t m_GrowIncrementSize;
+  __declspec(property(get = __cordl_internal_get_m_GrowIncrementSize, put = __cordl_internal_set_m_GrowIncrementSize)) int64_t m_GrowIncrementSize;
 
   /// @brief Field m_EventCount, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_EventCount, put = __set_m_EventCount)) int64_t m_EventCount;
+  __declspec(property(get = __cordl_internal_get_m_EventCount, put = __cordl_internal_set_m_EventCount)) int64_t m_EventCount;
 
   /// @brief Field m_EventSizeInBytes, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_EventSizeInBytes, put = __set_m_EventSizeInBytes)) int64_t m_EventSizeInBytes;
+  __declspec(property(get = __cordl_internal_get_m_EventSizeInBytes, put = __cordl_internal_set_m_EventSizeInBytes)) int64_t m_EventSizeInBytes;
 
   /// @brief Field m_EventBufferStorage, offset 0xa0, size 0x8
-  __declspec(property(get = __get_m_EventBufferStorage, put = __set_m_EventBufferStorage)) uint64_t m_EventBufferStorage;
+  __declspec(property(get = __cordl_internal_get_m_EventBufferStorage, put = __cordl_internal_set_m_EventBufferStorage)) uint64_t m_EventBufferStorage;
 
   /// @brief Field m_EventBufferHeadStorage, offset 0xa8, size 0x8
-  __declspec(property(get = __get_m_EventBufferHeadStorage, put = __set_m_EventBufferHeadStorage)) uint64_t m_EventBufferHeadStorage;
+  __declspec(property(get = __cordl_internal_get_m_EventBufferHeadStorage, put = __cordl_internal_set_m_EventBufferHeadStorage)) uint64_t m_EventBufferHeadStorage;
 
   /// @brief Field m_EventBufferTailStorage, offset 0xb0, size 0x8
-  __declspec(property(get = __get_m_EventBufferTailStorage, put = __set_m_EventBufferTailStorage)) uint64_t m_EventBufferTailStorage;
+  __declspec(property(get = __cordl_internal_get_m_EventBufferTailStorage, put = __cordl_internal_set_m_EventBufferTailStorage)) uint64_t m_EventBufferTailStorage;
 
   /// @brief Field m_HasWrapped, offset 0xb8, size 0x1
-  __declspec(property(get = __get_m_HasWrapped, put = __set_m_HasWrapped)) bool m_HasWrapped;
+  __declspec(property(get = __cordl_internal_get_m_HasWrapped, put = __cordl_internal_set_m_HasWrapped)) bool m_HasWrapped;
 
   /// @brief Field m_RecordFrameMarkers, offset 0xb9, size 0x1
-  __declspec(property(get = __get_m_RecordFrameMarkers, put = __set_m_RecordFrameMarkers)) bool m_RecordFrameMarkers;
+  __declspec(property(get = __cordl_internal_get_m_RecordFrameMarkers, put = __cordl_internal_set_m_RecordFrameMarkers)) bool m_RecordFrameMarkers;
 
   /// @brief Field m_DeviceInfos, offset 0xc0, size 0x8
-  __declspec(property(get = __get_m_DeviceInfos, put = __set_m_DeviceInfos))::ArrayW<::UnityEngine::InputSystem::LowLevel::__InputEventTrace__DeviceInfo,
-                                                                                     ::Array<::UnityEngine::InputSystem::LowLevel::__InputEventTrace__DeviceInfo>*> m_DeviceInfos;
+  __declspec(property(get = __cordl_internal_get_m_DeviceInfos,
+                      put = __cordl_internal_set_m_DeviceInfos))::ArrayW<::UnityEngine::InputSystem::LowLevel::__InputEventTrace__DeviceInfo,
+                                                                         ::Array<::UnityEngine::InputSystem::LowLevel::__InputEventTrace__DeviceInfo>*> m_DeviceInfos;
 
   /// @brief Field kFileVersion, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_kFileVersion, put = setStaticF_kFileVersion)) int32_t kFileVersion;
@@ -906,104 +912,105 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr int32_t& __get_m_ChangeCounter();
+  constexpr int32_t& __cordl_internal_get_m_ChangeCounter();
 
-  constexpr int32_t const& __get_m_ChangeCounter() const;
+  constexpr int32_t const& __cordl_internal_get_m_ChangeCounter() const;
 
-  constexpr void __set_m_ChangeCounter(int32_t value);
+  constexpr void __cordl_internal_set_m_ChangeCounter(int32_t value);
 
-  constexpr bool& __get_m_Enabled();
+  constexpr bool& __cordl_internal_get_m_Enabled();
 
-  constexpr bool const& __get_m_Enabled() const;
+  constexpr bool const& __cordl_internal_get_m_Enabled() const;
 
-  constexpr void __set_m_Enabled(bool value);
+  constexpr void __cordl_internal_set_m_Enabled(bool value);
 
-  constexpr ::System::Func_3<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*, bool>*& __get_m_OnFilterEvent();
+  constexpr ::System::Func_3<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*, bool>*& __cordl_internal_get_m_OnFilterEvent();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*, bool>*> const&
-  __get_m_OnFilterEvent() const;
+  __cordl_internal_get_m_OnFilterEvent() const;
 
-  constexpr void __set_m_OnFilterEvent(::System::Func_3<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*, bool>* value);
+  constexpr void __cordl_internal_set_m_OnFilterEvent(::System::Func_3<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*, bool>* value);
 
-  constexpr int32_t& __get_m_DeviceId();
+  constexpr int32_t& __cordl_internal_get_m_DeviceId();
 
-  constexpr int32_t const& __get_m_DeviceId() const;
+  constexpr int32_t const& __cordl_internal_get_m_DeviceId() const;
 
-  constexpr void __set_m_DeviceId(int32_t value);
+  constexpr void __cordl_internal_set_m_DeviceId(int32_t value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*>& __get_m_EventListeners();
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*>& __cordl_internal_get_m_EventListeners();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> const& __get_m_EventListeners() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> const& __cordl_internal_get_m_EventListeners() const;
 
-  constexpr void __set_m_EventListeners(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> value);
+  constexpr void __cordl_internal_set_m_EventListeners(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> value);
 
-  constexpr int64_t& __get_m_EventBufferSize();
+  constexpr int64_t& __cordl_internal_get_m_EventBufferSize();
 
-  constexpr int64_t const& __get_m_EventBufferSize() const;
+  constexpr int64_t const& __cordl_internal_get_m_EventBufferSize() const;
 
-  constexpr void __set_m_EventBufferSize(int64_t value);
+  constexpr void __cordl_internal_set_m_EventBufferSize(int64_t value);
 
-  constexpr int64_t& __get_m_MaxEventBufferSize();
+  constexpr int64_t& __cordl_internal_get_m_MaxEventBufferSize();
 
-  constexpr int64_t const& __get_m_MaxEventBufferSize() const;
+  constexpr int64_t const& __cordl_internal_get_m_MaxEventBufferSize() const;
 
-  constexpr void __set_m_MaxEventBufferSize(int64_t value);
+  constexpr void __cordl_internal_set_m_MaxEventBufferSize(int64_t value);
 
-  constexpr int64_t& __get_m_GrowIncrementSize();
+  constexpr int64_t& __cordl_internal_get_m_GrowIncrementSize();
 
-  constexpr int64_t const& __get_m_GrowIncrementSize() const;
+  constexpr int64_t const& __cordl_internal_get_m_GrowIncrementSize() const;
 
-  constexpr void __set_m_GrowIncrementSize(int64_t value);
+  constexpr void __cordl_internal_set_m_GrowIncrementSize(int64_t value);
 
-  constexpr int64_t& __get_m_EventCount();
+  constexpr int64_t& __cordl_internal_get_m_EventCount();
 
-  constexpr int64_t const& __get_m_EventCount() const;
+  constexpr int64_t const& __cordl_internal_get_m_EventCount() const;
 
-  constexpr void __set_m_EventCount(int64_t value);
+  constexpr void __cordl_internal_set_m_EventCount(int64_t value);
 
-  constexpr int64_t& __get_m_EventSizeInBytes();
+  constexpr int64_t& __cordl_internal_get_m_EventSizeInBytes();
 
-  constexpr int64_t const& __get_m_EventSizeInBytes() const;
+  constexpr int64_t const& __cordl_internal_get_m_EventSizeInBytes() const;
 
-  constexpr void __set_m_EventSizeInBytes(int64_t value);
+  constexpr void __cordl_internal_set_m_EventSizeInBytes(int64_t value);
 
-  constexpr uint64_t& __get_m_EventBufferStorage();
+  constexpr uint64_t& __cordl_internal_get_m_EventBufferStorage();
 
-  constexpr uint64_t const& __get_m_EventBufferStorage() const;
+  constexpr uint64_t const& __cordl_internal_get_m_EventBufferStorage() const;
 
-  constexpr void __set_m_EventBufferStorage(uint64_t value);
+  constexpr void __cordl_internal_set_m_EventBufferStorage(uint64_t value);
 
-  constexpr uint64_t& __get_m_EventBufferHeadStorage();
+  constexpr uint64_t& __cordl_internal_get_m_EventBufferHeadStorage();
 
-  constexpr uint64_t const& __get_m_EventBufferHeadStorage() const;
+  constexpr uint64_t const& __cordl_internal_get_m_EventBufferHeadStorage() const;
 
-  constexpr void __set_m_EventBufferHeadStorage(uint64_t value);
+  constexpr void __cordl_internal_set_m_EventBufferHeadStorage(uint64_t value);
 
-  constexpr uint64_t& __get_m_EventBufferTailStorage();
+  constexpr uint64_t& __cordl_internal_get_m_EventBufferTailStorage();
 
-  constexpr uint64_t const& __get_m_EventBufferTailStorage() const;
+  constexpr uint64_t const& __cordl_internal_get_m_EventBufferTailStorage() const;
 
-  constexpr void __set_m_EventBufferTailStorage(uint64_t value);
+  constexpr void __cordl_internal_set_m_EventBufferTailStorage(uint64_t value);
 
-  constexpr bool& __get_m_HasWrapped();
+  constexpr bool& __cordl_internal_get_m_HasWrapped();
 
-  constexpr bool const& __get_m_HasWrapped() const;
+  constexpr bool const& __cordl_internal_get_m_HasWrapped() const;
 
-  constexpr void __set_m_HasWrapped(bool value);
+  constexpr void __cordl_internal_set_m_HasWrapped(bool value);
 
-  constexpr bool& __get_m_RecordFrameMarkers();
+  constexpr bool& __cordl_internal_get_m_RecordFrameMarkers();
 
-  constexpr bool const& __get_m_RecordFrameMarkers() const;
+  constexpr bool const& __cordl_internal_get_m_RecordFrameMarkers() const;
 
-  constexpr void __set_m_RecordFrameMarkers(bool value);
+  constexpr void __cordl_internal_set_m_RecordFrameMarkers(bool value);
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::LowLevel::__InputEventTrace__DeviceInfo, ::Array<::UnityEngine::InputSystem::LowLevel::__InputEventTrace__DeviceInfo>*>& __get_m_DeviceInfos();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::LowLevel::__InputEventTrace__DeviceInfo, ::Array<::UnityEngine::InputSystem::LowLevel::__InputEventTrace__DeviceInfo>*>&
+  __cordl_internal_get_m_DeviceInfos();
 
   constexpr ::ArrayW<::UnityEngine::InputSystem::LowLevel::__InputEventTrace__DeviceInfo, ::Array<::UnityEngine::InputSystem::LowLevel::__InputEventTrace__DeviceInfo>*> const&
-  __get_m_DeviceInfos() const;
+  __cordl_internal_get_m_DeviceInfos() const;
 
-  constexpr void
-  __set_m_DeviceInfos(::ArrayW<::UnityEngine::InputSystem::LowLevel::__InputEventTrace__DeviceInfo, ::Array<::UnityEngine::InputSystem::LowLevel::__InputEventTrace__DeviceInfo>*> value);
+  constexpr void __cordl_internal_set_m_DeviceInfos(
+      ::ArrayW<::UnityEngine::InputSystem::LowLevel::__InputEventTrace__DeviceInfo, ::Array<::UnityEngine::InputSystem::LowLevel::__InputEventTrace__DeviceInfo>*> value);
 
   static inline void setStaticF_kFileVersion(int32_t value);
 

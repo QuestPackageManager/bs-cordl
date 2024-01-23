@@ -21,7 +21,7 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::NetworkInformationException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9492))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9492))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9251))
 // CS Name: ::System.Net.NetworkInformation::NetworkInformationException*
 class CORDL_TYPE NetworkInformationException : public ::System::ComponentModel::Win32Exception {

@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::System::Diagnostics::StackTrace);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3740))
 // CS Name: ::StackTrace::TraceFormat
 struct CORDL_TYPE __StackTrace__TraceFormat {
@@ -95,7 +95,7 @@ static_assert(offsetof(::System::Diagnostics::__StackTrace__TraceFormat, value__
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3741))
 // CS Name: ::System.Diagnostics::StackTrace*
 class CORDL_TYPE StackTrace : public ::System::Object {
@@ -104,13 +104,14 @@ public:
   using TraceFormat = ::System::Diagnostics::__StackTrace__TraceFormat;
 
   /// @brief Field frames, offset 0x10, size 0x8
-  __declspec(property(get = __get_frames, put = __set_frames))::ArrayW<::System::Diagnostics::StackFrame*, ::Array<::System::Diagnostics::StackFrame*>*> frames;
+  __declspec(property(get = __cordl_internal_get_frames, put = __cordl_internal_set_frames))::ArrayW<::System::Diagnostics::StackFrame*, ::Array<::System::Diagnostics::StackFrame*>*> frames;
 
   /// @brief Field captured_traces, offset 0x18, size 0x8
-  __declspec(property(get = __get_captured_traces, put = __set_captured_traces))::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*> captured_traces;
+  __declspec(property(get = __cordl_internal_get_captured_traces,
+                      put = __cordl_internal_set_captured_traces))::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*> captured_traces;
 
   /// @brief Field debug_info, offset 0x20, size 0x1
-  __declspec(property(get = __get_debug_info, put = __set_debug_info)) bool debug_info;
+  __declspec(property(get = __cordl_internal_get_debug_info, put = __cordl_internal_set_debug_info)) bool debug_info;
 
   /// @brief Field isAotidSet, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_isAotidSet, put = setStaticF_isAotidSet)) bool isAotidSet;
@@ -120,23 +121,23 @@ public:
 
   __declspec(property(get = get_FrameCount)) int32_t FrameCount;
 
-  constexpr ::ArrayW<::System::Diagnostics::StackFrame*, ::Array<::System::Diagnostics::StackFrame*>*>& __get_frames();
+  constexpr ::ArrayW<::System::Diagnostics::StackFrame*, ::Array<::System::Diagnostics::StackFrame*>*>& __cordl_internal_get_frames();
 
-  constexpr ::ArrayW<::System::Diagnostics::StackFrame*, ::Array<::System::Diagnostics::StackFrame*>*> const& __get_frames() const;
+  constexpr ::ArrayW<::System::Diagnostics::StackFrame*, ::Array<::System::Diagnostics::StackFrame*>*> const& __cordl_internal_get_frames() const;
 
-  constexpr void __set_frames(::ArrayW<::System::Diagnostics::StackFrame*, ::Array<::System::Diagnostics::StackFrame*>*> value);
+  constexpr void __cordl_internal_set_frames(::ArrayW<::System::Diagnostics::StackFrame*, ::Array<::System::Diagnostics::StackFrame*>*> value);
 
-  constexpr ::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*>& __get_captured_traces();
+  constexpr ::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*>& __cordl_internal_get_captured_traces();
 
-  constexpr ::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*> const& __get_captured_traces() const;
+  constexpr ::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*> const& __cordl_internal_get_captured_traces() const;
 
-  constexpr void __set_captured_traces(::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*> value);
+  constexpr void __cordl_internal_set_captured_traces(::ArrayW<::System::Diagnostics::StackTrace*, ::Array<::System::Diagnostics::StackTrace*>*> value);
 
-  constexpr bool& __get_debug_info();
+  constexpr bool& __cordl_internal_get_debug_info();
 
-  constexpr bool const& __get_debug_info() const;
+  constexpr bool const& __cordl_internal_get_debug_info() const;
 
-  constexpr void __set_debug_info(bool value);
+  constexpr void __cordl_internal_set_debug_info(bool value);
 
   static inline void setStaticF_isAotidSet(bool value);
 

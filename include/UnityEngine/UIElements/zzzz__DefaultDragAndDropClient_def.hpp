@@ -26,14 +26,14 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DefaultDragAndDropClient);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6964))
 // CS Name: ::UnityEngine.UIElements::DefaultDragAndDropClient*
 class CORDL_TYPE DefaultDragAndDropClient : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_StartDragArgs, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_StartDragArgs, put = __set_m_StartDragArgs))::UnityEngine::UIElements::StartDragArgs* m_StartDragArgs;
+  __declspec(property(get = __cordl_internal_get_m_StartDragArgs, put = __cordl_internal_set_m_StartDragArgs))::UnityEngine::UIElements::StartDragArgs* m_StartDragArgs;
 
   __declspec(property(get = get_userData))::System::Object* userData;
 
@@ -51,11 +51,11 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IDragAndDropData"
   constexpr ::UnityEngine::UIElements::IDragAndDropData* i___UnityEngine__UIElements__IDragAndDropData() noexcept;
 
-  constexpr ::UnityEngine::UIElements::StartDragArgs*& __get_m_StartDragArgs();
+  constexpr ::UnityEngine::UIElements::StartDragArgs*& __cordl_internal_get_m_StartDragArgs();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StartDragArgs*> const& __get_m_StartDragArgs() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::StartDragArgs*> const& __cordl_internal_get_m_StartDragArgs() const;
 
-  constexpr void __set_m_StartDragArgs(::UnityEngine::UIElements::StartDragArgs* value);
+  constexpr void __cordl_internal_set_m_StartDragArgs(::UnityEngine::UIElements::StartDragArgs* value);
 
   /// @brief Method get_userData, addr 0x2e0d2d8, size 0x18, virtual true, abstract: false, final true
   inline ::System::Object* get_userData();

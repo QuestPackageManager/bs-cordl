@@ -9,30 +9,33 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x2368278;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ProgressActivitySO*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<::GlobalNamespace::ProgressActivitySubtaskSO*, ::Array<::GlobalNamespace::ProgressActivitySubtaskSO*>*>& GlobalNamespace::ProgressActivitySO::__get_subtasks() {
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*>&
+GlobalNamespace::ProgressActivitySO::__cordl_internal_get_subtasks() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subtasks;
 }
-constexpr ::ArrayW<::GlobalNamespace::ProgressActivitySubtaskSO*, ::Array<::GlobalNamespace::ProgressActivitySubtaskSO*>*> const& GlobalNamespace::ProgressActivitySO::__get_subtasks() const {
+constexpr ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*> const&
+GlobalNamespace::ProgressActivitySO::__cordl_internal_get_subtasks() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subtasks;
 }
-constexpr void GlobalNamespace::ProgressActivitySO::__set_subtasks(::ArrayW<::GlobalNamespace::ProgressActivitySubtaskSO*, ::Array<::GlobalNamespace::ProgressActivitySubtaskSO*>*> value) {
+constexpr void GlobalNamespace::ProgressActivitySO::__cordl_internal_set_subtasks(
+    ::ArrayW<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>, ::Array<::UnityW<::GlobalNamespace::ProgressActivitySubtaskSO>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___subtasks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline ::GlobalNamespace::ProgressActivitySO* GlobalNamespace::ProgressActivitySO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::ProgressActivitySO*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ProgressActivitySO*>());
 }
 inline void GlobalNamespace::ProgressActivitySO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ProgressActivitySO*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

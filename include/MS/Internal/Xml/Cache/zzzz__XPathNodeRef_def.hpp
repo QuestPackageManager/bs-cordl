@@ -19,7 +19,7 @@ MARK_VAL_T(::MS::Internal::Xml::Cache::XPathNodeRef);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace MS::Internal::Xml::Cache {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11769))
 // CS Name: ::MS.Internal.Xml.Cache::XPathNodeRef
 struct CORDL_TYPE XPathNodeRef {

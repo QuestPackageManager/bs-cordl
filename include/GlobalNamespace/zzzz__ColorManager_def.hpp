@@ -29,22 +29,22 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorManager);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5826))
 // CS Name: ::ColorManager*
 class CORDL_TYPE ColorManager : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _colorScheme, offset 0x10, size 0x8
-  __declspec(property(get = __get__colorScheme, put = __set__colorScheme))::GlobalNamespace::ColorScheme* _colorScheme;
+  __declspec(property(get = __cordl_internal_get__colorScheme, put = __cordl_internal_set__colorScheme))::GlobalNamespace::ColorScheme* _colorScheme;
 
   __declspec(property(get = get_obstaclesColor))::UnityEngine::Color obstaclesColor;
 
-  constexpr ::GlobalNamespace::ColorScheme*& __get__colorScheme();
+  constexpr ::GlobalNamespace::ColorScheme*& __cordl_internal_get__colorScheme();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& __get__colorScheme() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& __cordl_internal_get__colorScheme() const;
 
-  constexpr void __set__colorScheme(::GlobalNamespace::ColorScheme* value);
+  constexpr void __cordl_internal_set__colorScheme(::GlobalNamespace::ColorScheme* value);
 
   /// @brief Method get_obstaclesColor, addr 0x22ec0cc, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_obstaclesColor();

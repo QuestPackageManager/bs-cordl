@@ -25,7 +25,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::InputDeviceCommand);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 1, natural_alignment: 4, packing: Some(1), specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6667))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6667))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6471))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::InputDeviceCommand
 #pragma pack(push, 0)
@@ -33,10 +33,10 @@ struct CORDL_TYPE InputDeviceCommand {
 public:
   // Declarations
   /// @brief Field type, offset 0x0, size 0x4
-  __declspec(property(get = __get_type, put = __set_type))::UnityEngine::InputSystem::Utilities::FourCC type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::UnityEngine::InputSystem::Utilities::FourCC type;
 
   /// @brief Field sizeInBytes, offset 0x4, size 0x4
-  __declspec(property(get = __get_sizeInBytes, put = __set_sizeInBytes)) int32_t sizeInBytes;
+  __declspec(property(get = __cordl_internal_get_sizeInBytes, put = __cordl_internal_set_sizeInBytes)) int32_t sizeInBytes;
 
   __declspec(property(get = get_payloadSizeInBytes)) int32_t payloadSizeInBytes;
 
@@ -50,17 +50,17 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo* i___UnityEngine__InputSystem__LowLevel__IInputDeviceCommandInfo();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::FourCC& __get_type();
+  constexpr ::UnityEngine::InputSystem::Utilities::FourCC& __cordl_internal_get_type();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::FourCC const& __get_type() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::FourCC const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::UnityEngine::InputSystem::Utilities::FourCC value);
+  constexpr void __cordl_internal_set_type(::UnityEngine::InputSystem::Utilities::FourCC value);
 
-  constexpr int32_t& __get_sizeInBytes();
+  constexpr int32_t& __cordl_internal_get_sizeInBytes();
 
-  constexpr int32_t const& __get_sizeInBytes() const;
+  constexpr int32_t const& __cordl_internal_get_sizeInBytes() const;
 
-  constexpr void __set_sizeInBytes(int32_t value);
+  constexpr void __cordl_internal_set_sizeInBytes(int32_t value);
 
   /// @brief Method get_payloadSizeInBytes, addr 0x2ae79fc, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_payloadSizeInBytes();

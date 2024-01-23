@@ -58,7 +58,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::__Grounding__Pelvis);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12526))
 // CS Name: ::Grounding::Quality
 struct CORDL_TYPE __Grounding__Quality {
@@ -112,73 +112,73 @@ static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Quality, value__) == 
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 276, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10252)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15487))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12527)) CS Name: ::Grounding::Leg*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10252)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15487))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12527)) CS Name: ::Grounding::Leg*
 class CORDL_TYPE __Grounding__Leg : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <isGrounded>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __get__isGrounded_k__BackingField, put = __set__isGrounded_k__BackingField)) bool _isGrounded_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isGrounded_k__BackingField, put = __cordl_internal_set__isGrounded_k__BackingField)) bool _isGrounded_k__BackingField;
 
   /// @brief Field <IKPosition>k__BackingField, offset 0x14, size 0xc
-  __declspec(property(get = __get__IKPosition_k__BackingField, put = __set__IKPosition_k__BackingField))::UnityEngine::Vector3 _IKPosition_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IKPosition_k__BackingField, put = __cordl_internal_set__IKPosition_k__BackingField))::UnityEngine::Vector3 _IKPosition_k__BackingField;
 
   /// @brief Field rotationOffset, offset 0x20, size 0x10
-  __declspec(property(get = __get_rotationOffset, put = __set_rotationOffset))::UnityEngine::Quaternion rotationOffset;
+  __declspec(property(get = __cordl_internal_get_rotationOffset, put = __cordl_internal_set_rotationOffset))::UnityEngine::Quaternion rotationOffset;
 
   /// @brief Field <initiated>k__BackingField, offset 0x30, size 0x1
-  __declspec(property(get = __get__initiated_k__BackingField, put = __set__initiated_k__BackingField)) bool _initiated_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__initiated_k__BackingField, put = __cordl_internal_set__initiated_k__BackingField)) bool _initiated_k__BackingField;
 
   /// @brief Field <heightFromGround>k__BackingField, offset 0x34, size 0x4
-  __declspec(property(get = __get__heightFromGround_k__BackingField, put = __set__heightFromGround_k__BackingField)) float_t _heightFromGround_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__heightFromGround_k__BackingField, put = __cordl_internal_set__heightFromGround_k__BackingField)) float_t _heightFromGround_k__BackingField;
 
   /// @brief Field <velocity>k__BackingField, offset 0x38, size 0xc
-  __declspec(property(get = __get__velocity_k__BackingField, put = __set__velocity_k__BackingField))::UnityEngine::Vector3 _velocity_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__velocity_k__BackingField, put = __cordl_internal_set__velocity_k__BackingField))::UnityEngine::Vector3 _velocity_k__BackingField;
 
   /// @brief Field <transform>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __get__transform_k__BackingField, put = __set__transform_k__BackingField))::UnityEngine::Transform* _transform_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__transform_k__BackingField, put = __cordl_internal_set__transform_k__BackingField))::UnityW<::UnityEngine::Transform> _transform_k__BackingField;
 
   /// @brief Field <IKOffset>k__BackingField, offset 0x50, size 0x4
-  __declspec(property(get = __get__IKOffset_k__BackingField, put = __set__IKOffset_k__BackingField)) float_t _IKOffset_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IKOffset_k__BackingField, put = __cordl_internal_set__IKOffset_k__BackingField)) float_t _IKOffset_k__BackingField;
 
   /// @brief Field invertFootCenter, offset 0x54, size 0x1
-  __declspec(property(get = __get_invertFootCenter, put = __set_invertFootCenter)) bool invertFootCenter;
+  __declspec(property(get = __cordl_internal_get_invertFootCenter, put = __cordl_internal_set_invertFootCenter)) bool invertFootCenter;
 
   /// @brief Field <heelHit>k__BackingField, offset 0x58, size 0x2c
-  __declspec(property(get = __get__heelHit_k__BackingField, put = __set__heelHit_k__BackingField))::UnityEngine::RaycastHit _heelHit_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__heelHit_k__BackingField, put = __cordl_internal_set__heelHit_k__BackingField))::UnityEngine::RaycastHit _heelHit_k__BackingField;
 
   /// @brief Field <capsuleHit>k__BackingField, offset 0x84, size 0x2c
-  __declspec(property(get = __get__capsuleHit_k__BackingField, put = __set__capsuleHit_k__BackingField))::UnityEngine::RaycastHit _capsuleHit_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__capsuleHit_k__BackingField, put = __cordl_internal_set__capsuleHit_k__BackingField))::UnityEngine::RaycastHit _capsuleHit_k__BackingField;
 
   /// @brief Field grounding, offset 0xb0, size 0x8
-  __declspec(property(get = __get_grounding, put = __set_grounding))::RootMotion::FinalIK::Grounding* grounding;
+  __declspec(property(get = __cordl_internal_get_grounding, put = __cordl_internal_set_grounding))::RootMotion::FinalIK::Grounding* grounding;
 
   /// @brief Field lastTime, offset 0xb8, size 0x4
-  __declspec(property(get = __get_lastTime, put = __set_lastTime)) float_t lastTime;
+  __declspec(property(get = __cordl_internal_get_lastTime, put = __cordl_internal_set_lastTime)) float_t lastTime;
 
   /// @brief Field deltaTime, offset 0xbc, size 0x4
-  __declspec(property(get = __get_deltaTime, put = __set_deltaTime)) float_t deltaTime;
+  __declspec(property(get = __cordl_internal_get_deltaTime, put = __cordl_internal_set_deltaTime)) float_t deltaTime;
 
   /// @brief Field lastPosition, offset 0xc0, size 0xc
-  __declspec(property(get = __get_lastPosition, put = __set_lastPosition))::UnityEngine::Vector3 lastPosition;
+  __declspec(property(get = __cordl_internal_get_lastPosition, put = __cordl_internal_set_lastPosition))::UnityEngine::Vector3 lastPosition;
 
   /// @brief Field toHitNormal, offset 0xcc, size 0x10
-  __declspec(property(get = __get_toHitNormal, put = __set_toHitNormal))::UnityEngine::Quaternion toHitNormal;
+  __declspec(property(get = __cordl_internal_get_toHitNormal, put = __cordl_internal_set_toHitNormal))::UnityEngine::Quaternion toHitNormal;
 
   /// @brief Field r, offset 0xdc, size 0x10
-  __declspec(property(get = __get_r, put = __set_r))::UnityEngine::Quaternion r;
+  __declspec(property(get = __cordl_internal_get_r, put = __cordl_internal_set_r))::UnityEngine::Quaternion r;
 
   /// @brief Field up, offset 0xec, size 0xc
-  __declspec(property(get = __get_up, put = __set_up))::UnityEngine::Vector3 up;
+  __declspec(property(get = __cordl_internal_get_up, put = __cordl_internal_set_up))::UnityEngine::Vector3 up;
 
   /// @brief Field doOverrideFootPosition, offset 0xf8, size 0x1
-  __declspec(property(get = __get_doOverrideFootPosition, put = __set_doOverrideFootPosition)) bool doOverrideFootPosition;
+  __declspec(property(get = __cordl_internal_get_doOverrideFootPosition, put = __cordl_internal_set_doOverrideFootPosition)) bool doOverrideFootPosition;
 
   /// @brief Field overrideFootPosition, offset 0xfc, size 0xc
-  __declspec(property(get = __get_overrideFootPosition, put = __set_overrideFootPosition))::UnityEngine::Vector3 overrideFootPosition;
+  __declspec(property(get = __cordl_internal_get_overrideFootPosition, put = __cordl_internal_set_overrideFootPosition))::UnityEngine::Vector3 overrideFootPosition;
 
   /// @brief Field transformPosition, offset 0x108, size 0xc
-  __declspec(property(get = __get_transformPosition, put = __set_transformPosition))::UnityEngine::Vector3 transformPosition;
+  __declspec(property(get = __cordl_internal_get_transformPosition, put = __cordl_internal_set_transformPosition))::UnityEngine::Vector3 transformPosition;
 
   __declspec(property(get = get_isGrounded, put = set_isGrounded)) bool isGrounded;
 
@@ -190,7 +190,7 @@ public:
 
   __declspec(property(get = get_velocity, put = set_velocity))::UnityEngine::Vector3 velocity;
 
-  __declspec(property(get = get_transform, put = set_transform))::UnityEngine::Transform* transform;
+  __declspec(property(get = get_transform, put = set_transform))::UnityW<::UnityEngine::Transform> transform;
 
   __declspec(property(get = get_IKOffset, put = set_IKOffset)) float_t IKOffset;
 
@@ -204,131 +204,131 @@ public:
 
   __declspec(property(get = get_rootYOffset)) float_t rootYOffset;
 
-  constexpr bool& __get__isGrounded_k__BackingField();
+  constexpr bool& __cordl_internal_get__isGrounded_k__BackingField();
 
-  constexpr bool const& __get__isGrounded_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isGrounded_k__BackingField() const;
 
-  constexpr void __set__isGrounded_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isGrounded_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get__IKPosition_k__BackingField();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__IKPosition_k__BackingField();
 
-  constexpr ::UnityEngine::Vector3 const& __get__IKPosition_k__BackingField() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__IKPosition_k__BackingField() const;
 
-  constexpr void __set__IKPosition_k__BackingField(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__IKPosition_k__BackingField(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_rotationOffset();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_rotationOffset();
 
-  constexpr ::UnityEngine::Quaternion const& __get_rotationOffset() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_rotationOffset() const;
 
-  constexpr void __set_rotationOffset(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_rotationOffset(::UnityEngine::Quaternion value);
 
-  constexpr bool& __get__initiated_k__BackingField();
+  constexpr bool& __cordl_internal_get__initiated_k__BackingField();
 
-  constexpr bool const& __get__initiated_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__initiated_k__BackingField() const;
 
-  constexpr void __set__initiated_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__initiated_k__BackingField(bool value);
 
-  constexpr float_t& __get__heightFromGround_k__BackingField();
+  constexpr float_t& __cordl_internal_get__heightFromGround_k__BackingField();
 
-  constexpr float_t const& __get__heightFromGround_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__heightFromGround_k__BackingField() const;
 
-  constexpr void __set__heightFromGround_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__heightFromGround_k__BackingField(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get__velocity_k__BackingField();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__velocity_k__BackingField();
 
-  constexpr ::UnityEngine::Vector3 const& __get__velocity_k__BackingField() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__velocity_k__BackingField() const;
 
-  constexpr void __set__velocity_k__BackingField(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__velocity_k__BackingField(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Transform*& __get__transform_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__transform_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__transform_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transform_k__BackingField() const;
 
-  constexpr void __set__transform_k__BackingField(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__transform_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get__IKOffset_k__BackingField();
+  constexpr float_t& __cordl_internal_get__IKOffset_k__BackingField();
 
-  constexpr float_t const& __get__IKOffset_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__IKOffset_k__BackingField() const;
 
-  constexpr void __set__IKOffset_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__IKOffset_k__BackingField(float_t value);
 
-  constexpr bool& __get_invertFootCenter();
+  constexpr bool& __cordl_internal_get_invertFootCenter();
 
-  constexpr bool const& __get_invertFootCenter() const;
+  constexpr bool const& __cordl_internal_get_invertFootCenter() const;
 
-  constexpr void __set_invertFootCenter(bool value);
+  constexpr void __cordl_internal_set_invertFootCenter(bool value);
 
-  constexpr ::UnityEngine::RaycastHit& __get__heelHit_k__BackingField();
+  constexpr ::UnityEngine::RaycastHit& __cordl_internal_get__heelHit_k__BackingField();
 
-  constexpr ::UnityEngine::RaycastHit const& __get__heelHit_k__BackingField() const;
+  constexpr ::UnityEngine::RaycastHit const& __cordl_internal_get__heelHit_k__BackingField() const;
 
-  constexpr void __set__heelHit_k__BackingField(::UnityEngine::RaycastHit value);
+  constexpr void __cordl_internal_set__heelHit_k__BackingField(::UnityEngine::RaycastHit value);
 
-  constexpr ::UnityEngine::RaycastHit& __get__capsuleHit_k__BackingField();
+  constexpr ::UnityEngine::RaycastHit& __cordl_internal_get__capsuleHit_k__BackingField();
 
-  constexpr ::UnityEngine::RaycastHit const& __get__capsuleHit_k__BackingField() const;
+  constexpr ::UnityEngine::RaycastHit const& __cordl_internal_get__capsuleHit_k__BackingField() const;
 
-  constexpr void __set__capsuleHit_k__BackingField(::UnityEngine::RaycastHit value);
+  constexpr void __cordl_internal_set__capsuleHit_k__BackingField(::UnityEngine::RaycastHit value);
 
-  constexpr ::RootMotion::FinalIK::Grounding*& __get_grounding();
+  constexpr ::RootMotion::FinalIK::Grounding*& __cordl_internal_get_grounding();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::Grounding*> const& __get_grounding() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::Grounding*> const& __cordl_internal_get_grounding() const;
 
-  constexpr void __set_grounding(::RootMotion::FinalIK::Grounding* value);
+  constexpr void __cordl_internal_set_grounding(::RootMotion::FinalIK::Grounding* value);
 
-  constexpr float_t& __get_lastTime();
+  constexpr float_t& __cordl_internal_get_lastTime();
 
-  constexpr float_t const& __get_lastTime() const;
+  constexpr float_t const& __cordl_internal_get_lastTime() const;
 
-  constexpr void __set_lastTime(float_t value);
+  constexpr void __cordl_internal_set_lastTime(float_t value);
 
-  constexpr float_t& __get_deltaTime();
+  constexpr float_t& __cordl_internal_get_deltaTime();
 
-  constexpr float_t const& __get_deltaTime() const;
+  constexpr float_t const& __cordl_internal_get_deltaTime() const;
 
-  constexpr void __set_deltaTime(float_t value);
+  constexpr void __cordl_internal_set_deltaTime(float_t value);
 
-  constexpr ::UnityEngine::Vector3& __get_lastPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_lastPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_lastPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastPosition() const;
 
-  constexpr void __set_lastPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_lastPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Quaternion& __get_toHitNormal();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_toHitNormal();
 
-  constexpr ::UnityEngine::Quaternion const& __get_toHitNormal() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_toHitNormal() const;
 
-  constexpr void __set_toHitNormal(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_toHitNormal(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Quaternion& __get_r();
+  constexpr ::UnityEngine::Quaternion& __cordl_internal_get_r();
 
-  constexpr ::UnityEngine::Quaternion const& __get_r() const;
+  constexpr ::UnityEngine::Quaternion const& __cordl_internal_get_r() const;
 
-  constexpr void __set_r(::UnityEngine::Quaternion value);
+  constexpr void __cordl_internal_set_r(::UnityEngine::Quaternion value);
 
-  constexpr ::UnityEngine::Vector3& __get_up();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_up();
 
-  constexpr ::UnityEngine::Vector3 const& __get_up() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_up() const;
 
-  constexpr void __set_up(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_up(::UnityEngine::Vector3 value);
 
-  constexpr bool& __get_doOverrideFootPosition();
+  constexpr bool& __cordl_internal_get_doOverrideFootPosition();
 
-  constexpr bool const& __get_doOverrideFootPosition() const;
+  constexpr bool const& __cordl_internal_get_doOverrideFootPosition() const;
 
-  constexpr void __set_doOverrideFootPosition(bool value);
+  constexpr void __cordl_internal_set_doOverrideFootPosition(bool value);
 
-  constexpr ::UnityEngine::Vector3& __get_overrideFootPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_overrideFootPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_overrideFootPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_overrideFootPosition() const;
 
-  constexpr void __set_overrideFootPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_overrideFootPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_transformPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_transformPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_transformPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_transformPosition() const;
 
-  constexpr void __set_transformPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_transformPosition(::UnityEngine::Vector3 value);
 
   /// @brief Method get_isGrounded, addr 0x124d1a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_isGrounded();
@@ -361,7 +361,7 @@ public:
   inline void set_velocity(::UnityEngine::Vector3 value);
 
   /// @brief Method get_transform, addr 0x124d208, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_transform();
+  inline ::UnityW<::UnityEngine::Transform> get_transform();
 
   /// @brief Method set_transform, addr 0x124d210, size 0x8, virtual false, abstract: false, final false
   inline void set_transform(::UnityEngine::Transform* value);
@@ -470,7 +470,7 @@ public:
   ::UnityEngine::Vector3 ____velocity_k__BackingField;
 
   /// @brief Field <transform>k__BackingField, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____transform_k__BackingField;
+  ::UnityW<::UnityEngine::Transform> ____transform_k__BackingField;
 
   /// @brief Field <IKOffset>k__BackingField, offset: 0x50, size: 0x4, def value: None
   float_t ____IKOffset_k__BackingField;
@@ -566,78 +566,78 @@ static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Leg, ___transformPosi
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12528))
 // CS Name: ::Grounding::Pelvis*
 class CORDL_TYPE __Grounding__Pelvis : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <IKOffset>k__BackingField, offset 0x10, size 0xc
-  __declspec(property(get = __get__IKOffset_k__BackingField, put = __set__IKOffset_k__BackingField))::UnityEngine::Vector3 _IKOffset_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__IKOffset_k__BackingField, put = __cordl_internal_set__IKOffset_k__BackingField))::UnityEngine::Vector3 _IKOffset_k__BackingField;
 
   /// @brief Field <heightOffset>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __get__heightOffset_k__BackingField, put = __set__heightOffset_k__BackingField)) float_t _heightOffset_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__heightOffset_k__BackingField, put = __cordl_internal_set__heightOffset_k__BackingField)) float_t _heightOffset_k__BackingField;
 
   /// @brief Field grounding, offset 0x20, size 0x8
-  __declspec(property(get = __get_grounding, put = __set_grounding))::RootMotion::FinalIK::Grounding* grounding;
+  __declspec(property(get = __cordl_internal_get_grounding, put = __cordl_internal_set_grounding))::RootMotion::FinalIK::Grounding* grounding;
 
   /// @brief Field lastRootPosition, offset 0x28, size 0xc
-  __declspec(property(get = __get_lastRootPosition, put = __set_lastRootPosition))::UnityEngine::Vector3 lastRootPosition;
+  __declspec(property(get = __cordl_internal_get_lastRootPosition, put = __cordl_internal_set_lastRootPosition))::UnityEngine::Vector3 lastRootPosition;
 
   /// @brief Field damperF, offset 0x34, size 0x4
-  __declspec(property(get = __get_damperF, put = __set_damperF)) float_t damperF;
+  __declspec(property(get = __cordl_internal_get_damperF, put = __cordl_internal_set_damperF)) float_t damperF;
 
   /// @brief Field initiated, offset 0x38, size 0x1
-  __declspec(property(get = __get_initiated, put = __set_initiated)) bool initiated;
+  __declspec(property(get = __cordl_internal_get_initiated, put = __cordl_internal_set_initiated)) bool initiated;
 
   /// @brief Field lastTime, offset 0x3c, size 0x4
-  __declspec(property(get = __get_lastTime, put = __set_lastTime)) float_t lastTime;
+  __declspec(property(get = __cordl_internal_get_lastTime, put = __cordl_internal_set_lastTime)) float_t lastTime;
 
   __declspec(property(get = get_IKOffset, put = set_IKOffset))::UnityEngine::Vector3 IKOffset;
 
   __declspec(property(get = get_heightOffset, put = set_heightOffset)) float_t heightOffset;
 
-  constexpr ::UnityEngine::Vector3& __get__IKOffset_k__BackingField();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__IKOffset_k__BackingField();
 
-  constexpr ::UnityEngine::Vector3 const& __get__IKOffset_k__BackingField() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__IKOffset_k__BackingField() const;
 
-  constexpr void __set__IKOffset_k__BackingField(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__IKOffset_k__BackingField(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get__heightOffset_k__BackingField();
+  constexpr float_t& __cordl_internal_get__heightOffset_k__BackingField();
 
-  constexpr float_t const& __get__heightOffset_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__heightOffset_k__BackingField() const;
 
-  constexpr void __set__heightOffset_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__heightOffset_k__BackingField(float_t value);
 
-  constexpr ::RootMotion::FinalIK::Grounding*& __get_grounding();
+  constexpr ::RootMotion::FinalIK::Grounding*& __cordl_internal_get_grounding();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::Grounding*> const& __get_grounding() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::Grounding*> const& __cordl_internal_get_grounding() const;
 
-  constexpr void __set_grounding(::RootMotion::FinalIK::Grounding* value);
+  constexpr void __cordl_internal_set_grounding(::RootMotion::FinalIK::Grounding* value);
 
-  constexpr ::UnityEngine::Vector3& __get_lastRootPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_lastRootPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_lastRootPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_lastRootPosition() const;
 
-  constexpr void __set_lastRootPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_lastRootPosition(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get_damperF();
+  constexpr float_t& __cordl_internal_get_damperF();
 
-  constexpr float_t const& __get_damperF() const;
+  constexpr float_t const& __cordl_internal_get_damperF() const;
 
-  constexpr void __set_damperF(float_t value);
+  constexpr void __cordl_internal_set_damperF(float_t value);
 
-  constexpr bool& __get_initiated();
+  constexpr bool& __cordl_internal_get_initiated();
 
-  constexpr bool const& __get_initiated() const;
+  constexpr bool const& __cordl_internal_get_initiated() const;
 
-  constexpr void __set_initiated(bool value);
+  constexpr void __cordl_internal_set_initiated(bool value);
 
-  constexpr float_t& __get_lastTime();
+  constexpr float_t& __cordl_internal_get_lastTime();
 
-  constexpr float_t const& __get_lastTime() const;
+  constexpr float_t const& __cordl_internal_get_lastTime() const;
 
-  constexpr void __set_lastTime(float_t value);
+  constexpr void __cordl_internal_set_lastTime(float_t value);
 
   /// @brief Method get_IKOffset, addr 0x124df0c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_IKOffset();
@@ -727,8 +727,8 @@ static_assert(offsetof(::RootMotion::FinalIK::__Grounding__Pelvis, ___lastTime) 
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 165, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(15487)),
-// TypeDefinitionIndex(TypeDefinitionIndex(12526))} Self: TypeDefinitionIndex(TypeDefinitionIndex(12529)) CS Name: ::RootMotion.FinalIK::Grounding*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(12526)),
+// TypeDefinitionIndex(TypeDefinitionIndex(15487))] Self: TypeDefinitionIndex(TypeDefinitionIndex(12529)) CS Name: ::RootMotion.FinalIK::Grounding*
 class CORDL_TYPE Grounding : public ::System::Object {
 public:
   // Declarations
@@ -739,77 +739,77 @@ public:
   using Quality = ::RootMotion::FinalIK::__Grounding__Quality;
 
   /// @brief Field layers, offset 0x10, size 0x4
-  __declspec(property(get = __get_layers, put = __set_layers))::UnityEngine::LayerMask layers;
+  __declspec(property(get = __cordl_internal_get_layers, put = __cordl_internal_set_layers))::UnityEngine::LayerMask layers;
 
   /// @brief Field maxStep, offset 0x14, size 0x4
-  __declspec(property(get = __get_maxStep, put = __set_maxStep)) float_t maxStep;
+  __declspec(property(get = __cordl_internal_get_maxStep, put = __cordl_internal_set_maxStep)) float_t maxStep;
 
   /// @brief Field heightOffset, offset 0x18, size 0x4
-  __declspec(property(get = __get_heightOffset, put = __set_heightOffset)) float_t heightOffset;
+  __declspec(property(get = __cordl_internal_get_heightOffset, put = __cordl_internal_set_heightOffset)) float_t heightOffset;
 
   /// @brief Field footSpeed, offset 0x1c, size 0x4
-  __declspec(property(get = __get_footSpeed, put = __set_footSpeed)) float_t footSpeed;
+  __declspec(property(get = __cordl_internal_get_footSpeed, put = __cordl_internal_set_footSpeed)) float_t footSpeed;
 
   /// @brief Field footRadius, offset 0x20, size 0x4
-  __declspec(property(get = __get_footRadius, put = __set_footRadius)) float_t footRadius;
+  __declspec(property(get = __cordl_internal_get_footRadius, put = __cordl_internal_set_footRadius)) float_t footRadius;
 
   /// @brief Field footCenterOffset, offset 0x24, size 0x4
-  __declspec(property(get = __get_footCenterOffset, put = __set_footCenterOffset)) float_t footCenterOffset;
+  __declspec(property(get = __cordl_internal_get_footCenterOffset, put = __cordl_internal_set_footCenterOffset)) float_t footCenterOffset;
 
   /// @brief Field prediction, offset 0x28, size 0x4
-  __declspec(property(get = __get_prediction, put = __set_prediction)) float_t prediction;
+  __declspec(property(get = __cordl_internal_get_prediction, put = __cordl_internal_set_prediction)) float_t prediction;
 
   /// @brief Field footRotationWeight, offset 0x2c, size 0x4
-  __declspec(property(get = __get_footRotationWeight, put = __set_footRotationWeight)) float_t footRotationWeight;
+  __declspec(property(get = __cordl_internal_get_footRotationWeight, put = __cordl_internal_set_footRotationWeight)) float_t footRotationWeight;
 
   /// @brief Field footRotationSpeed, offset 0x30, size 0x4
-  __declspec(property(get = __get_footRotationSpeed, put = __set_footRotationSpeed)) float_t footRotationSpeed;
+  __declspec(property(get = __cordl_internal_get_footRotationSpeed, put = __cordl_internal_set_footRotationSpeed)) float_t footRotationSpeed;
 
   /// @brief Field maxFootRotationAngle, offset 0x34, size 0x4
-  __declspec(property(get = __get_maxFootRotationAngle, put = __set_maxFootRotationAngle)) float_t maxFootRotationAngle;
+  __declspec(property(get = __cordl_internal_get_maxFootRotationAngle, put = __cordl_internal_set_maxFootRotationAngle)) float_t maxFootRotationAngle;
 
   /// @brief Field rotateSolver, offset 0x38, size 0x1
-  __declspec(property(get = __get_rotateSolver, put = __set_rotateSolver)) bool rotateSolver;
+  __declspec(property(get = __cordl_internal_get_rotateSolver, put = __cordl_internal_set_rotateSolver)) bool rotateSolver;
 
   /// @brief Field pelvisSpeed, offset 0x3c, size 0x4
-  __declspec(property(get = __get_pelvisSpeed, put = __set_pelvisSpeed)) float_t pelvisSpeed;
+  __declspec(property(get = __cordl_internal_get_pelvisSpeed, put = __cordl_internal_set_pelvisSpeed)) float_t pelvisSpeed;
 
   /// @brief Field pelvisDamper, offset 0x40, size 0x4
-  __declspec(property(get = __get_pelvisDamper, put = __set_pelvisDamper)) float_t pelvisDamper;
+  __declspec(property(get = __cordl_internal_get_pelvisDamper, put = __cordl_internal_set_pelvisDamper)) float_t pelvisDamper;
 
   /// @brief Field lowerPelvisWeight, offset 0x44, size 0x4
-  __declspec(property(get = __get_lowerPelvisWeight, put = __set_lowerPelvisWeight)) float_t lowerPelvisWeight;
+  __declspec(property(get = __cordl_internal_get_lowerPelvisWeight, put = __cordl_internal_set_lowerPelvisWeight)) float_t lowerPelvisWeight;
 
   /// @brief Field liftPelvisWeight, offset 0x48, size 0x4
-  __declspec(property(get = __get_liftPelvisWeight, put = __set_liftPelvisWeight)) float_t liftPelvisWeight;
+  __declspec(property(get = __cordl_internal_get_liftPelvisWeight, put = __cordl_internal_set_liftPelvisWeight)) float_t liftPelvisWeight;
 
   /// @brief Field rootSphereCastRadius, offset 0x4c, size 0x4
-  __declspec(property(get = __get_rootSphereCastRadius, put = __set_rootSphereCastRadius)) float_t rootSphereCastRadius;
+  __declspec(property(get = __cordl_internal_get_rootSphereCastRadius, put = __cordl_internal_set_rootSphereCastRadius)) float_t rootSphereCastRadius;
 
   /// @brief Field overstepFallsDown, offset 0x50, size 0x1
-  __declspec(property(get = __get_overstepFallsDown, put = __set_overstepFallsDown)) bool overstepFallsDown;
+  __declspec(property(get = __cordl_internal_get_overstepFallsDown, put = __cordl_internal_set_overstepFallsDown)) bool overstepFallsDown;
 
   /// @brief Field quality, offset 0x54, size 0x4
-  __declspec(property(get = __get_quality, put = __set_quality))::RootMotion::FinalIK::__Grounding__Quality quality;
+  __declspec(property(get = __cordl_internal_get_quality, put = __cordl_internal_set_quality))::RootMotion::FinalIK::__Grounding__Quality quality;
 
   /// @brief Field <legs>k__BackingField, offset 0x58, size 0x8
-  __declspec(property(get = __get__legs_k__BackingField,
-                      put = __set__legs_k__BackingField))::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*> _legs_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__legs_k__BackingField,
+                      put = __cordl_internal_set__legs_k__BackingField))::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*> _legs_k__BackingField;
 
   /// @brief Field <pelvis>k__BackingField, offset 0x60, size 0x8
-  __declspec(property(get = __get__pelvis_k__BackingField, put = __set__pelvis_k__BackingField))::RootMotion::FinalIK::__Grounding__Pelvis* _pelvis_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__pelvis_k__BackingField, put = __cordl_internal_set__pelvis_k__BackingField))::RootMotion::FinalIK::__Grounding__Pelvis* _pelvis_k__BackingField;
 
   /// @brief Field <isGrounded>k__BackingField, offset 0x68, size 0x1
-  __declspec(property(get = __get__isGrounded_k__BackingField, put = __set__isGrounded_k__BackingField)) bool _isGrounded_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__isGrounded_k__BackingField, put = __cordl_internal_set__isGrounded_k__BackingField)) bool _isGrounded_k__BackingField;
 
   /// @brief Field <root>k__BackingField, offset 0x70, size 0x8
-  __declspec(property(get = __get__root_k__BackingField, put = __set__root_k__BackingField))::UnityEngine::Transform* _root_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__root_k__BackingField, put = __cordl_internal_set__root_k__BackingField))::UnityW<::UnityEngine::Transform> _root_k__BackingField;
 
   /// @brief Field <rootHit>k__BackingField, offset 0x78, size 0x2c
-  __declspec(property(get = __get__rootHit_k__BackingField, put = __set__rootHit_k__BackingField))::UnityEngine::RaycastHit _rootHit_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__rootHit_k__BackingField, put = __cordl_internal_set__rootHit_k__BackingField))::UnityEngine::RaycastHit _rootHit_k__BackingField;
 
   /// @brief Field initiated, offset 0xa4, size 0x1
-  __declspec(property(get = __get_initiated, put = __set_initiated)) bool initiated;
+  __declspec(property(get = __cordl_internal_get_initiated, put = __cordl_internal_set_initiated)) bool initiated;
 
   __declspec(property(get = get_legs, put = set_legs))::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*> legs;
 
@@ -817,7 +817,7 @@ public:
 
   __declspec(property(get = get_isGrounded, put = set_isGrounded)) bool isGrounded;
 
-  __declspec(property(get = get_root, put = set_root))::UnityEngine::Transform* root;
+  __declspec(property(get = get_root, put = set_root))::UnityW<::UnityEngine::Transform> root;
 
   __declspec(property(get = get_rootHit, put = set_rootHit))::UnityEngine::RaycastHit rootHit;
 
@@ -827,149 +827,149 @@ public:
 
   __declspec(property(get = get_useRootRotation)) bool useRootRotation;
 
-  constexpr ::UnityEngine::LayerMask& __get_layers();
+  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_layers();
 
-  constexpr ::UnityEngine::LayerMask const& __get_layers() const;
+  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_layers() const;
 
-  constexpr void __set_layers(::UnityEngine::LayerMask value);
+  constexpr void __cordl_internal_set_layers(::UnityEngine::LayerMask value);
 
-  constexpr float_t& __get_maxStep();
+  constexpr float_t& __cordl_internal_get_maxStep();
 
-  constexpr float_t const& __get_maxStep() const;
+  constexpr float_t const& __cordl_internal_get_maxStep() const;
 
-  constexpr void __set_maxStep(float_t value);
+  constexpr void __cordl_internal_set_maxStep(float_t value);
 
-  constexpr float_t& __get_heightOffset();
+  constexpr float_t& __cordl_internal_get_heightOffset();
 
-  constexpr float_t const& __get_heightOffset() const;
+  constexpr float_t const& __cordl_internal_get_heightOffset() const;
 
-  constexpr void __set_heightOffset(float_t value);
+  constexpr void __cordl_internal_set_heightOffset(float_t value);
 
-  constexpr float_t& __get_footSpeed();
+  constexpr float_t& __cordl_internal_get_footSpeed();
 
-  constexpr float_t const& __get_footSpeed() const;
+  constexpr float_t const& __cordl_internal_get_footSpeed() const;
 
-  constexpr void __set_footSpeed(float_t value);
+  constexpr void __cordl_internal_set_footSpeed(float_t value);
 
-  constexpr float_t& __get_footRadius();
+  constexpr float_t& __cordl_internal_get_footRadius();
 
-  constexpr float_t const& __get_footRadius() const;
+  constexpr float_t const& __cordl_internal_get_footRadius() const;
 
-  constexpr void __set_footRadius(float_t value);
+  constexpr void __cordl_internal_set_footRadius(float_t value);
 
-  constexpr float_t& __get_footCenterOffset();
+  constexpr float_t& __cordl_internal_get_footCenterOffset();
 
-  constexpr float_t const& __get_footCenterOffset() const;
+  constexpr float_t const& __cordl_internal_get_footCenterOffset() const;
 
-  constexpr void __set_footCenterOffset(float_t value);
+  constexpr void __cordl_internal_set_footCenterOffset(float_t value);
 
-  constexpr float_t& __get_prediction();
+  constexpr float_t& __cordl_internal_get_prediction();
 
-  constexpr float_t const& __get_prediction() const;
+  constexpr float_t const& __cordl_internal_get_prediction() const;
 
-  constexpr void __set_prediction(float_t value);
+  constexpr void __cordl_internal_set_prediction(float_t value);
 
-  constexpr float_t& __get_footRotationWeight();
+  constexpr float_t& __cordl_internal_get_footRotationWeight();
 
-  constexpr float_t const& __get_footRotationWeight() const;
+  constexpr float_t const& __cordl_internal_get_footRotationWeight() const;
 
-  constexpr void __set_footRotationWeight(float_t value);
+  constexpr void __cordl_internal_set_footRotationWeight(float_t value);
 
-  constexpr float_t& __get_footRotationSpeed();
+  constexpr float_t& __cordl_internal_get_footRotationSpeed();
 
-  constexpr float_t const& __get_footRotationSpeed() const;
+  constexpr float_t const& __cordl_internal_get_footRotationSpeed() const;
 
-  constexpr void __set_footRotationSpeed(float_t value);
+  constexpr void __cordl_internal_set_footRotationSpeed(float_t value);
 
-  constexpr float_t& __get_maxFootRotationAngle();
+  constexpr float_t& __cordl_internal_get_maxFootRotationAngle();
 
-  constexpr float_t const& __get_maxFootRotationAngle() const;
+  constexpr float_t const& __cordl_internal_get_maxFootRotationAngle() const;
 
-  constexpr void __set_maxFootRotationAngle(float_t value);
+  constexpr void __cordl_internal_set_maxFootRotationAngle(float_t value);
 
-  constexpr bool& __get_rotateSolver();
+  constexpr bool& __cordl_internal_get_rotateSolver();
 
-  constexpr bool const& __get_rotateSolver() const;
+  constexpr bool const& __cordl_internal_get_rotateSolver() const;
 
-  constexpr void __set_rotateSolver(bool value);
+  constexpr void __cordl_internal_set_rotateSolver(bool value);
 
-  constexpr float_t& __get_pelvisSpeed();
+  constexpr float_t& __cordl_internal_get_pelvisSpeed();
 
-  constexpr float_t const& __get_pelvisSpeed() const;
+  constexpr float_t const& __cordl_internal_get_pelvisSpeed() const;
 
-  constexpr void __set_pelvisSpeed(float_t value);
+  constexpr void __cordl_internal_set_pelvisSpeed(float_t value);
 
-  constexpr float_t& __get_pelvisDamper();
+  constexpr float_t& __cordl_internal_get_pelvisDamper();
 
-  constexpr float_t const& __get_pelvisDamper() const;
+  constexpr float_t const& __cordl_internal_get_pelvisDamper() const;
 
-  constexpr void __set_pelvisDamper(float_t value);
+  constexpr void __cordl_internal_set_pelvisDamper(float_t value);
 
-  constexpr float_t& __get_lowerPelvisWeight();
+  constexpr float_t& __cordl_internal_get_lowerPelvisWeight();
 
-  constexpr float_t const& __get_lowerPelvisWeight() const;
+  constexpr float_t const& __cordl_internal_get_lowerPelvisWeight() const;
 
-  constexpr void __set_lowerPelvisWeight(float_t value);
+  constexpr void __cordl_internal_set_lowerPelvisWeight(float_t value);
 
-  constexpr float_t& __get_liftPelvisWeight();
+  constexpr float_t& __cordl_internal_get_liftPelvisWeight();
 
-  constexpr float_t const& __get_liftPelvisWeight() const;
+  constexpr float_t const& __cordl_internal_get_liftPelvisWeight() const;
 
-  constexpr void __set_liftPelvisWeight(float_t value);
+  constexpr void __cordl_internal_set_liftPelvisWeight(float_t value);
 
-  constexpr float_t& __get_rootSphereCastRadius();
+  constexpr float_t& __cordl_internal_get_rootSphereCastRadius();
 
-  constexpr float_t const& __get_rootSphereCastRadius() const;
+  constexpr float_t const& __cordl_internal_get_rootSphereCastRadius() const;
 
-  constexpr void __set_rootSphereCastRadius(float_t value);
+  constexpr void __cordl_internal_set_rootSphereCastRadius(float_t value);
 
-  constexpr bool& __get_overstepFallsDown();
+  constexpr bool& __cordl_internal_get_overstepFallsDown();
 
-  constexpr bool const& __get_overstepFallsDown() const;
+  constexpr bool const& __cordl_internal_get_overstepFallsDown() const;
 
-  constexpr void __set_overstepFallsDown(bool value);
+  constexpr void __cordl_internal_set_overstepFallsDown(bool value);
 
-  constexpr ::RootMotion::FinalIK::__Grounding__Quality& __get_quality();
+  constexpr ::RootMotion::FinalIK::__Grounding__Quality& __cordl_internal_get_quality();
 
-  constexpr ::RootMotion::FinalIK::__Grounding__Quality const& __get_quality() const;
+  constexpr ::RootMotion::FinalIK::__Grounding__Quality const& __cordl_internal_get_quality() const;
 
-  constexpr void __set_quality(::RootMotion::FinalIK::__Grounding__Quality value);
+  constexpr void __cordl_internal_set_quality(::RootMotion::FinalIK::__Grounding__Quality value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*>& __get__legs_k__BackingField();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*>& __cordl_internal_get__legs_k__BackingField();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*> const& __get__legs_k__BackingField() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*> const& __cordl_internal_get__legs_k__BackingField() const;
 
-  constexpr void __set__legs_k__BackingField(::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*> value);
+  constexpr void __cordl_internal_set__legs_k__BackingField(::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*> value);
 
-  constexpr ::RootMotion::FinalIK::__Grounding__Pelvis*& __get__pelvis_k__BackingField();
+  constexpr ::RootMotion::FinalIK::__Grounding__Pelvis*& __cordl_internal_get__pelvis_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__Grounding__Pelvis*> const& __get__pelvis_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__Grounding__Pelvis*> const& __cordl_internal_get__pelvis_k__BackingField() const;
 
-  constexpr void __set__pelvis_k__BackingField(::RootMotion::FinalIK::__Grounding__Pelvis* value);
+  constexpr void __cordl_internal_set__pelvis_k__BackingField(::RootMotion::FinalIK::__Grounding__Pelvis* value);
 
-  constexpr bool& __get__isGrounded_k__BackingField();
+  constexpr bool& __cordl_internal_get__isGrounded_k__BackingField();
 
-  constexpr bool const& __get__isGrounded_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__isGrounded_k__BackingField() const;
 
-  constexpr void __set__isGrounded_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__isGrounded_k__BackingField(bool value);
 
-  constexpr ::UnityEngine::Transform*& __get__root_k__BackingField();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__root_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__root_k__BackingField() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__root_k__BackingField() const;
 
-  constexpr void __set__root_k__BackingField(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__root_k__BackingField(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::RaycastHit& __get__rootHit_k__BackingField();
+  constexpr ::UnityEngine::RaycastHit& __cordl_internal_get__rootHit_k__BackingField();
 
-  constexpr ::UnityEngine::RaycastHit const& __get__rootHit_k__BackingField() const;
+  constexpr ::UnityEngine::RaycastHit const& __cordl_internal_get__rootHit_k__BackingField() const;
 
-  constexpr void __set__rootHit_k__BackingField(::UnityEngine::RaycastHit value);
+  constexpr void __cordl_internal_set__rootHit_k__BackingField(::UnityEngine::RaycastHit value);
 
-  constexpr bool& __get_initiated();
+  constexpr bool& __cordl_internal_get_initiated();
 
-  constexpr bool const& __get_initiated() const;
+  constexpr bool const& __cordl_internal_get_initiated() const;
 
-  constexpr void __set_initiated(bool value);
+  constexpr void __cordl_internal_set_initiated(bool value);
 
   /// @brief Method get_legs, addr 0x124bde0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::RootMotion::FinalIK::__Grounding__Leg*, ::Array<::RootMotion::FinalIK::__Grounding__Leg*>*> get_legs();
@@ -990,7 +990,7 @@ public:
   inline void set_isGrounded(bool value);
 
   /// @brief Method get_root, addr 0x124be14, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_root();
+  inline ::UnityW<::UnityEngine::Transform> get_root();
 
   /// @brief Method set_root, addr 0x124be1c, size 0x8, virtual false, abstract: false, final false
   inline void set_root(::UnityEngine::Transform* value);
@@ -1123,7 +1123,7 @@ public:
   bool ____isGrounded_k__BackingField;
 
   /// @brief Field <root>k__BackingField, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____root_k__BackingField;
+  ::UnityW<::UnityEngine::Transform> ____root_k__BackingField;
 
   /// @brief Field <rootHit>k__BackingField, offset: 0x78, size: 0x2c, def value: None
   ::UnityEngine::RaycastHit ____rootHit_k__BackingField;

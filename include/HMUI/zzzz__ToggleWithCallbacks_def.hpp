@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::HMUI::ToggleWithCallbacks);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13671))
 // CS Name: ::ToggleWithCallbacks::SelectionState
 struct CORDL_TYPE __ToggleWithCallbacks__SelectionState {
@@ -91,7 +91,7 @@ static_assert(offsetof(::HMUI::__ToggleWithCallbacks__SelectionState, value__) =
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 296, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13131))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13131))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13672))
 // CS Name: ::HMUI::ToggleWithCallbacks*
 class CORDL_TYPE ToggleWithCallbacks : public ::UnityEngine::UI::Toggle {
@@ -100,15 +100,16 @@ public:
   using SelectionState = ::HMUI::__ToggleWithCallbacks__SelectionState;
 
   /// @brief Field stateDidChangeEvent, offset 0x120, size 0x8
-  __declspec(property(get = __get_stateDidChangeEvent, put = __set_stateDidChangeEvent))::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* stateDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_stateDidChangeEvent,
+                      put = __cordl_internal_set_stateDidChangeEvent))::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* stateDidChangeEvent;
 
   __declspec(property(get = get_selectionState))::HMUI::__ToggleWithCallbacks__SelectionState selectionState;
 
-  constexpr ::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>*& __get_stateDidChangeEvent();
+  constexpr ::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>*& __cordl_internal_get_stateDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>*> const& __get_stateDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>*> const& __cordl_internal_get_stateDidChangeEvent() const;
 
-  constexpr void __set_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
+  constexpr void __cordl_internal_set_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);
 
   /// @brief Method add_stateDidChangeEvent, addr 0x2146be0, size 0xb4, virtual false, abstract: false, final false
   inline void add_stateDidChangeEvent(::System::Action_1<::HMUI::__ToggleWithCallbacks__SelectionState>* value);

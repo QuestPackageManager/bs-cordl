@@ -77,29 +77,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__CampaignFlowCoordinator____c__DisplayClass22
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5487))
 // CS Name: ::CampaignFlowCoordinator::<>c__DisplayClass20_0*
 class CORDL_TYPE __CampaignFlowCoordinator____c__DisplayClass20_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::CampaignFlowCoordinator* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::CampaignFlowCoordinator> __4__this;
 
   /// @brief Field viewController, offset 0x18, size 0x8
-  __declspec(property(get = __get_viewController, put = __set_viewController))::GlobalNamespace::MissionHelpViewController* viewController;
+  __declspec(property(get = __cordl_internal_get_viewController, put = __cordl_internal_set_viewController))::UnityW<::GlobalNamespace::MissionHelpViewController> viewController;
 
-  constexpr ::GlobalNamespace::CampaignFlowCoordinator*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::CampaignFlowCoordinator>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CampaignFlowCoordinator*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::CampaignFlowCoordinator> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::CampaignFlowCoordinator* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::CampaignFlowCoordinator> value);
 
-  constexpr ::GlobalNamespace::MissionHelpViewController*& __get_viewController();
+  constexpr ::UnityW<::GlobalNamespace::MissionHelpViewController>& __cordl_internal_get_viewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionHelpViewController*> const& __get_viewController() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionHelpViewController> const& __cordl_internal_get_viewController() const;
 
-  constexpr void __set_viewController(::GlobalNamespace::MissionHelpViewController* value);
+  constexpr void __cordl_internal_set_viewController(::UnityW<::GlobalNamespace::MissionHelpViewController> value);
 
   static inline ::GlobalNamespace::__CampaignFlowCoordinator____c__DisplayClass20_0* New_ctor();
 
@@ -124,10 +124,10 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::CampaignFlowCoordinator* _____4__this;
+  ::UnityW<::GlobalNamespace::CampaignFlowCoordinator> _____4__this;
 
   /// @brief Field viewController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MissionHelpViewController* ___viewController;
+  ::UnityW<::GlobalNamespace::MissionHelpViewController> ___viewController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -143,29 +143,29 @@ static_assert(offsetof(::GlobalNamespace::__CampaignFlowCoordinator____c__Displa
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5488))
 // CS Name: ::CampaignFlowCoordinator::<>c__DisplayClass22_0*
 class CORDL_TYPE __CampaignFlowCoordinator____c__DisplayClass22_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::CampaignFlowCoordinator* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::CampaignFlowCoordinator> __4__this;
 
   /// @brief Field viewController, offset 0x18, size 0x8
-  __declspec(property(get = __get_viewController, put = __set_viewController))::GlobalNamespace::MissionResultsViewController* viewController;
+  __declspec(property(get = __cordl_internal_get_viewController, put = __cordl_internal_set_viewController))::UnityW<::GlobalNamespace::MissionResultsViewController> viewController;
 
-  constexpr ::GlobalNamespace::CampaignFlowCoordinator*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::CampaignFlowCoordinator>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CampaignFlowCoordinator*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::CampaignFlowCoordinator> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::CampaignFlowCoordinator* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::CampaignFlowCoordinator> value);
 
-  constexpr ::GlobalNamespace::MissionResultsViewController*& __get_viewController();
+  constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController>& __cordl_internal_get_viewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionResultsViewController*> const& __get_viewController() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController> const& __cordl_internal_get_viewController() const;
 
-  constexpr void __set_viewController(::GlobalNamespace::MissionResultsViewController* value);
+  constexpr void __cordl_internal_set_viewController(::UnityW<::GlobalNamespace::MissionResultsViewController> value);
 
   static inline ::GlobalNamespace::__CampaignFlowCoordinator____c__DisplayClass22_0* New_ctor();
 
@@ -190,10 +190,10 @@ protected:
 
 public:
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::CampaignFlowCoordinator* _____4__this;
+  ::UnityW<::GlobalNamespace::CampaignFlowCoordinator> _____4__this;
 
   /// @brief Field viewController, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::MissionResultsViewController* ___viewController;
+  ::UnityW<::GlobalNamespace::MissionResultsViewController> ___viewController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -209,7 +209,7 @@ static_assert(offsetof(::GlobalNamespace::__CampaignFlowCoordinator____c__Displa
 // SizeInfo { instance_size: 280, native_size: -1, calculated_instance_size: 280, calculated_native_size: 273, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13582))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13582))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5489))
 // CS Name: ::CampaignFlowCoordinator*
 class CORDL_TYPE CampaignFlowCoordinator : public ::HMUI::FlowCoordinator {
@@ -220,137 +220,143 @@ public:
   using __c__DisplayClass20_0 = ::GlobalNamespace::__CampaignFlowCoordinator____c__DisplayClass20_0;
 
   /// @brief Field _defaultLightsPreset, offset 0xa8, size 0x8
-  __declspec(property(get = __get__defaultLightsPreset, put = __set__defaultLightsPreset))::GlobalNamespace::MenuLightsPresetSO* _defaultLightsPreset;
+  __declspec(property(get = __cordl_internal_get__defaultLightsPreset, put = __cordl_internal_set__defaultLightsPreset))::UnityW<::GlobalNamespace::MenuLightsPresetSO> _defaultLightsPreset;
 
   /// @brief Field _resultsClearedLightsPreset, offset 0xb0, size 0x8
-  __declspec(property(get = __get__resultsClearedLightsPreset, put = __set__resultsClearedLightsPreset))::GlobalNamespace::MenuLightsPresetSO* _resultsClearedLightsPreset;
+  __declspec(property(get = __cordl_internal_get__resultsClearedLightsPreset,
+                      put = __cordl_internal_set__resultsClearedLightsPreset))::UnityW<::GlobalNamespace::MenuLightsPresetSO> _resultsClearedLightsPreset;
 
   /// @brief Field _resultsFailedLightsPreset, offset 0xb8, size 0x8
-  __declspec(property(get = __get__resultsFailedLightsPreset, put = __set__resultsFailedLightsPreset))::GlobalNamespace::MenuLightsPresetSO* _resultsFailedLightsPreset;
+  __declspec(property(get = __cordl_internal_get__resultsFailedLightsPreset,
+                      put = __cordl_internal_set__resultsFailedLightsPreset))::UnityW<::GlobalNamespace::MenuLightsPresetSO> _resultsFailedLightsPreset;
 
   /// @brief Field _newObjectiveLightsPreset, offset 0xc0, size 0x8
-  __declspec(property(get = __get__newObjectiveLightsPreset, put = __set__newObjectiveLightsPreset))::GlobalNamespace::MenuLightsPresetSO* _newObjectiveLightsPreset;
+  __declspec(property(get = __cordl_internal_get__newObjectiveLightsPreset,
+                      put = __cordl_internal_set__newObjectiveLightsPreset))::UnityW<::GlobalNamespace::MenuLightsPresetSO> _newObjectiveLightsPreset;
 
   /// @brief Field _menuTransitionsHelper, offset 0xc8, size 0x8
-  __declspec(property(get = __get__menuTransitionsHelper, put = __set__menuTransitionsHelper))::GlobalNamespace::MenuTransitionsHelper* _menuTransitionsHelper;
+  __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper))::UnityW<::GlobalNamespace::MenuTransitionsHelper> _menuTransitionsHelper;
 
   /// @brief Field _menuLightsManager, offset 0xd0, size 0x8
-  __declspec(property(get = __get__menuLightsManager, put = __set__menuLightsManager))::GlobalNamespace::MenuLightsManager* _menuLightsManager;
+  __declspec(property(get = __cordl_internal_get__menuLightsManager, put = __cordl_internal_set__menuLightsManager))::UnityW<::GlobalNamespace::MenuLightsManager> _menuLightsManager;
 
   /// @brief Field _missionSelectionNavigationController, offset 0xd8, size 0x8
-  __declspec(property(get = __get__missionSelectionNavigationController,
-                      put = __set__missionSelectionNavigationController))::GlobalNamespace::MissionSelectionNavigationController* _missionSelectionNavigationController;
+  __declspec(property(get = __cordl_internal_get__missionSelectionNavigationController,
+                      put = __cordl_internal_set__missionSelectionNavigationController))::UnityW<::GlobalNamespace::MissionSelectionNavigationController> _missionSelectionNavigationController;
 
   /// @brief Field _missionResultsViewController, offset 0xe0, size 0x8
-  __declspec(property(get = __get__missionResultsViewController, put = __set__missionResultsViewController))::GlobalNamespace::MissionResultsViewController* _missionResultsViewController;
+  __declspec(property(get = __cordl_internal_get__missionResultsViewController,
+                      put = __cordl_internal_set__missionResultsViewController))::UnityW<::GlobalNamespace::MissionResultsViewController> _missionResultsViewController;
 
   /// @brief Field _gameplaySetupViewController, offset 0xe8, size 0x8
-  __declspec(property(get = __get__gameplaySetupViewController, put = __set__gameplaySetupViewController))::GlobalNamespace::GameplaySetupViewController* _gameplaySetupViewController;
+  __declspec(property(get = __cordl_internal_get__gameplaySetupViewController,
+                      put = __cordl_internal_set__gameplaySetupViewController))::UnityW<::GlobalNamespace::GameplaySetupViewController> _gameplaySetupViewController;
 
   /// @brief Field _missionHelpViewController, offset 0xf0, size 0x8
-  __declspec(property(get = __get__missionHelpViewController, put = __set__missionHelpViewController))::GlobalNamespace::MissionHelpViewController* _missionHelpViewController;
+  __declspec(property(get = __cordl_internal_get__missionHelpViewController,
+                      put = __cordl_internal_set__missionHelpViewController))::UnityW<::GlobalNamespace::MissionHelpViewController> _missionHelpViewController;
 
   /// @brief Field _playerDataModel, offset 0xf8, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field _campaignProgressModel, offset 0x100, size 0x8
-  __declspec(property(get = __get__campaignProgressModel, put = __set__campaignProgressModel))::GlobalNamespace::CampaignProgressModel* _campaignProgressModel;
+  __declspec(property(get = __cordl_internal_get__campaignProgressModel, put = __cordl_internal_set__campaignProgressModel))::UnityW<::GlobalNamespace::CampaignProgressModel> _campaignProgressModel;
 
   /// @brief Field didFinishEvent, offset 0x108, size 0x8
-  __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* didFinishEvent;
 
   /// @brief Field _showCredits, offset 0x110, size 0x1
-  __declspec(property(get = __get__showCredits, put = __set__showCredits)) bool _showCredits;
+  __declspec(property(get = __cordl_internal_get__showCredits, put = __cordl_internal_set__showCredits)) bool _showCredits;
 
-  constexpr ::GlobalNamespace::MenuLightsPresetSO*& __get__defaultLightsPreset();
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO>& __cordl_internal_get__defaultLightsPreset();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuLightsPresetSO*> const& __get__defaultLightsPreset() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO> const& __cordl_internal_get__defaultLightsPreset() const;
 
-  constexpr void __set__defaultLightsPreset(::GlobalNamespace::MenuLightsPresetSO* value);
+  constexpr void __cordl_internal_set__defaultLightsPreset(::UnityW<::GlobalNamespace::MenuLightsPresetSO> value);
 
-  constexpr ::GlobalNamespace::MenuLightsPresetSO*& __get__resultsClearedLightsPreset();
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO>& __cordl_internal_get__resultsClearedLightsPreset();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuLightsPresetSO*> const& __get__resultsClearedLightsPreset() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO> const& __cordl_internal_get__resultsClearedLightsPreset() const;
 
-  constexpr void __set__resultsClearedLightsPreset(::GlobalNamespace::MenuLightsPresetSO* value);
+  constexpr void __cordl_internal_set__resultsClearedLightsPreset(::UnityW<::GlobalNamespace::MenuLightsPresetSO> value);
 
-  constexpr ::GlobalNamespace::MenuLightsPresetSO*& __get__resultsFailedLightsPreset();
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO>& __cordl_internal_get__resultsFailedLightsPreset();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuLightsPresetSO*> const& __get__resultsFailedLightsPreset() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO> const& __cordl_internal_get__resultsFailedLightsPreset() const;
 
-  constexpr void __set__resultsFailedLightsPreset(::GlobalNamespace::MenuLightsPresetSO* value);
+  constexpr void __cordl_internal_set__resultsFailedLightsPreset(::UnityW<::GlobalNamespace::MenuLightsPresetSO> value);
 
-  constexpr ::GlobalNamespace::MenuLightsPresetSO*& __get__newObjectiveLightsPreset();
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO>& __cordl_internal_get__newObjectiveLightsPreset();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuLightsPresetSO*> const& __get__newObjectiveLightsPreset() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsPresetSO> const& __cordl_internal_get__newObjectiveLightsPreset() const;
 
-  constexpr void __set__newObjectiveLightsPreset(::GlobalNamespace::MenuLightsPresetSO* value);
+  constexpr void __cordl_internal_set__newObjectiveLightsPreset(::UnityW<::GlobalNamespace::MenuLightsPresetSO> value);
 
-  constexpr ::GlobalNamespace::MenuTransitionsHelper*& __get__menuTransitionsHelper();
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper>& __cordl_internal_get__menuTransitionsHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuTransitionsHelper*> const& __get__menuTransitionsHelper() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper> const& __cordl_internal_get__menuTransitionsHelper() const;
 
-  constexpr void __set__menuTransitionsHelper(::GlobalNamespace::MenuTransitionsHelper* value);
+  constexpr void __cordl_internal_set__menuTransitionsHelper(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value);
 
-  constexpr ::GlobalNamespace::MenuLightsManager*& __get__menuLightsManager();
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsManager>& __cordl_internal_get__menuLightsManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuLightsManager*> const& __get__menuLightsManager() const;
+  constexpr ::UnityW<::GlobalNamespace::MenuLightsManager> const& __cordl_internal_get__menuLightsManager() const;
 
-  constexpr void __set__menuLightsManager(::GlobalNamespace::MenuLightsManager* value);
+  constexpr void __cordl_internal_set__menuLightsManager(::UnityW<::GlobalNamespace::MenuLightsManager> value);
 
-  constexpr ::GlobalNamespace::MissionSelectionNavigationController*& __get__missionSelectionNavigationController();
+  constexpr ::UnityW<::GlobalNamespace::MissionSelectionNavigationController>& __cordl_internal_get__missionSelectionNavigationController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionSelectionNavigationController*> const& __get__missionSelectionNavigationController() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionSelectionNavigationController> const& __cordl_internal_get__missionSelectionNavigationController() const;
 
-  constexpr void __set__missionSelectionNavigationController(::GlobalNamespace::MissionSelectionNavigationController* value);
+  constexpr void __cordl_internal_set__missionSelectionNavigationController(::UnityW<::GlobalNamespace::MissionSelectionNavigationController> value);
 
-  constexpr ::GlobalNamespace::MissionResultsViewController*& __get__missionResultsViewController();
+  constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController>& __cordl_internal_get__missionResultsViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionResultsViewController*> const& __get__missionResultsViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionResultsViewController> const& __cordl_internal_get__missionResultsViewController() const;
 
-  constexpr void __set__missionResultsViewController(::GlobalNamespace::MissionResultsViewController* value);
+  constexpr void __cordl_internal_set__missionResultsViewController(::UnityW<::GlobalNamespace::MissionResultsViewController> value);
 
-  constexpr ::GlobalNamespace::GameplaySetupViewController*& __get__gameplaySetupViewController();
+  constexpr ::UnityW<::GlobalNamespace::GameplaySetupViewController>& __cordl_internal_get__gameplaySetupViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplaySetupViewController*> const& __get__gameplaySetupViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::GameplaySetupViewController> const& __cordl_internal_get__gameplaySetupViewController() const;
 
-  constexpr void __set__gameplaySetupViewController(::GlobalNamespace::GameplaySetupViewController* value);
+  constexpr void __cordl_internal_set__gameplaySetupViewController(::UnityW<::GlobalNamespace::GameplaySetupViewController> value);
 
-  constexpr ::GlobalNamespace::MissionHelpViewController*& __get__missionHelpViewController();
+  constexpr ::UnityW<::GlobalNamespace::MissionHelpViewController>& __cordl_internal_get__missionHelpViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionHelpViewController*> const& __get__missionHelpViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::MissionHelpViewController> const& __cordl_internal_get__missionHelpViewController() const;
 
-  constexpr void __set__missionHelpViewController(::GlobalNamespace::MissionHelpViewController* value);
+  constexpr void __cordl_internal_set__missionHelpViewController(::UnityW<::GlobalNamespace::MissionHelpViewController> value);
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr ::GlobalNamespace::CampaignProgressModel*& __get__campaignProgressModel();
+  constexpr ::UnityW<::GlobalNamespace::CampaignProgressModel>& __cordl_internal_get__campaignProgressModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::CampaignProgressModel*> const& __get__campaignProgressModel() const;
+  constexpr ::UnityW<::GlobalNamespace::CampaignProgressModel> const& __cordl_internal_get__campaignProgressModel() const;
 
-  constexpr void __set__campaignProgressModel(::GlobalNamespace::CampaignProgressModel* value);
+  constexpr void __cordl_internal_set__campaignProgressModel(::UnityW<::GlobalNamespace::CampaignProgressModel> value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>*& __get_didFinishEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>*> const& __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>*> const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* value);
 
-  constexpr bool& __get__showCredits();
+  constexpr bool& __cordl_internal_get__showCredits();
 
-  constexpr bool const& __get__showCredits() const;
+  constexpr bool const& __cordl_internal_get__showCredits() const;
 
-  constexpr void __set__showCredits(bool value);
+  constexpr void __cordl_internal_set__showCredits(bool value);
 
   /// @brief Method add_didFinishEvent, addr 0x2286e58, size 0xb4, virtual false, abstract: false, final false
-  inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>* value);
+  inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* value);
 
   /// @brief Method remove_didFinishEvent, addr 0x2286f0c, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>* value);
+  inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* value);
 
   /// @brief Method DidActivate, addr 0x2286fc0, size 0x254, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -416,43 +422,43 @@ protected:
 
 public:
   /// @brief Field _defaultLightsPreset, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::MenuLightsPresetSO* ____defaultLightsPreset;
+  ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____defaultLightsPreset;
 
   /// @brief Field _resultsClearedLightsPreset, offset: 0xb0, size: 0x8, def value: None
-  ::GlobalNamespace::MenuLightsPresetSO* ____resultsClearedLightsPreset;
+  ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____resultsClearedLightsPreset;
 
   /// @brief Field _resultsFailedLightsPreset, offset: 0xb8, size: 0x8, def value: None
-  ::GlobalNamespace::MenuLightsPresetSO* ____resultsFailedLightsPreset;
+  ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____resultsFailedLightsPreset;
 
   /// @brief Field _newObjectiveLightsPreset, offset: 0xc0, size: 0x8, def value: None
-  ::GlobalNamespace::MenuLightsPresetSO* ____newObjectiveLightsPreset;
+  ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____newObjectiveLightsPreset;
 
   /// @brief Field _menuTransitionsHelper, offset: 0xc8, size: 0x8, def value: None
-  ::GlobalNamespace::MenuTransitionsHelper* ____menuTransitionsHelper;
+  ::UnityW<::GlobalNamespace::MenuTransitionsHelper> ____menuTransitionsHelper;
 
   /// @brief Field _menuLightsManager, offset: 0xd0, size: 0x8, def value: None
-  ::GlobalNamespace::MenuLightsManager* ____menuLightsManager;
+  ::UnityW<::GlobalNamespace::MenuLightsManager> ____menuLightsManager;
 
   /// @brief Field _missionSelectionNavigationController, offset: 0xd8, size: 0x8, def value: None
-  ::GlobalNamespace::MissionSelectionNavigationController* ____missionSelectionNavigationController;
+  ::UnityW<::GlobalNamespace::MissionSelectionNavigationController> ____missionSelectionNavigationController;
 
   /// @brief Field _missionResultsViewController, offset: 0xe0, size: 0x8, def value: None
-  ::GlobalNamespace::MissionResultsViewController* ____missionResultsViewController;
+  ::UnityW<::GlobalNamespace::MissionResultsViewController> ____missionResultsViewController;
 
   /// @brief Field _gameplaySetupViewController, offset: 0xe8, size: 0x8, def value: None
-  ::GlobalNamespace::GameplaySetupViewController* ____gameplaySetupViewController;
+  ::UnityW<::GlobalNamespace::GameplaySetupViewController> ____gameplaySetupViewController;
 
   /// @brief Field _missionHelpViewController, offset: 0xf0, size: 0x8, def value: None
-  ::GlobalNamespace::MissionHelpViewController* ____missionHelpViewController;
+  ::UnityW<::GlobalNamespace::MissionHelpViewController> ____missionHelpViewController;
 
   /// @brief Field _playerDataModel, offset: 0xf8, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field _campaignProgressModel, offset: 0x100, size: 0x8, def value: None
-  ::GlobalNamespace::CampaignProgressModel* ____campaignProgressModel;
+  ::UnityW<::GlobalNamespace::CampaignProgressModel> ____campaignProgressModel;
 
   /// @brief Field didFinishEvent, offset: 0x108, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::CampaignFlowCoordinator*>* ___didFinishEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* ___didFinishEvent;
 
   /// @brief Field _showCredits, offset: 0x110, size: 0x1, def value: None
   bool ____showCredits;

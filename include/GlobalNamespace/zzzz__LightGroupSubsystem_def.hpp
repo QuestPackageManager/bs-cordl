@@ -18,30 +18,30 @@ MARK_REF_PTR_T(::GlobalNamespace::LightGroupSubsystem);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4935))
 // CS Name: ::LightGroupSubsystem*
 class CORDL_TYPE LightGroupSubsystem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _lightGroup, offset 0x18, size 0x8
-  __declspec(property(get = __get__lightGroup, put = __set__lightGroup))::GlobalNamespace::LightGroup* _lightGroup;
+  __declspec(property(get = __cordl_internal_get__lightGroup, put = __cordl_internal_set__lightGroup))::UnityW<::GlobalNamespace::LightGroup> _lightGroup;
 
   __declspec(property(get = get_groupId)) int32_t groupId;
 
-  __declspec(property(get = get_lightGroup))::GlobalNamespace::LightGroup* lightGroup;
+  __declspec(property(get = get_lightGroup))::UnityW<::GlobalNamespace::LightGroup> lightGroup;
 
-  constexpr ::GlobalNamespace::LightGroup*& __get__lightGroup();
+  constexpr ::UnityW<::GlobalNamespace::LightGroup>& __cordl_internal_get__lightGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightGroup*> const& __get__lightGroup() const;
+  constexpr ::UnityW<::GlobalNamespace::LightGroup> const& __cordl_internal_get__lightGroup() const;
 
-  constexpr void __set__lightGroup(::GlobalNamespace::LightGroup* value);
+  constexpr void __cordl_internal_set__lightGroup(::UnityW<::GlobalNamespace::LightGroup> value);
 
   /// @brief Method get_groupId, addr 0x23a5f78, size 0x1c, virtual false, abstract: false, final false
   inline int32_t get_groupId();
 
   /// @brief Method get_lightGroup, addr 0x23a99a8, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::LightGroup* get_lightGroup();
+  inline ::UnityW<::GlobalNamespace::LightGroup> get_lightGroup();
 
   /// @brief Method OnEnable, addr 0x23a99b0, size 0x60, virtual false, abstract: false, final false
   inline void OnEnable();
@@ -66,7 +66,7 @@ protected:
 
 public:
   /// @brief Field _lightGroup, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::LightGroup* ____lightGroup;
+  ::UnityW<::GlobalNamespace::LightGroup> ____lightGroup;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

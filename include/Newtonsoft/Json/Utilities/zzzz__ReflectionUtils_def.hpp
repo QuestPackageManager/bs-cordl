@@ -90,7 +90,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayCla
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11895))
 // CS Name: ::ReflectionUtils::<>c*
 class CORDL_TYPE __ReflectionUtils____c : public ::System::Object {
@@ -172,20 +172,20 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Utilities::__R
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11896))
 // CS Name: ::ReflectionUtils::<>c__DisplayClass42_0*
 class CORDL_TYPE __ReflectionUtils____c__DisplayClass42_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field subTypeProperty, offset 0x10, size 0x8
-  __declspec(property(get = __get_subTypeProperty, put = __set_subTypeProperty))::System::Reflection::PropertyInfo* subTypeProperty;
+  __declspec(property(get = __cordl_internal_get_subTypeProperty, put = __cordl_internal_set_subTypeProperty))::System::Reflection::PropertyInfo* subTypeProperty;
 
-  constexpr ::System::Reflection::PropertyInfo*& __get_subTypeProperty();
+  constexpr ::System::Reflection::PropertyInfo*& __cordl_internal_get_subTypeProperty();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const& __get_subTypeProperty() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::PropertyInfo*> const& __cordl_internal_get_subTypeProperty() const;
 
-  constexpr void __set_subTypeProperty(::System::Reflection::PropertyInfo* value);
+  constexpr void __cordl_internal_set_subTypeProperty(::System::Reflection::PropertyInfo* value);
 
   static inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass42_0* New_ctor();
 
@@ -230,29 +230,29 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__Di
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11897))
 // CS Name: ::ReflectionUtils::<>c__DisplayClass43_0*
 class CORDL_TYPE __ReflectionUtils____c__DisplayClass43_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field method, offset 0x10, size 0x8
-  __declspec(property(get = __get_method, put = __set_method))::StringW method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::StringW method;
 
   /// @brief Field methodDeclaringType, offset 0x18, size 0x8
-  __declspec(property(get = __get_methodDeclaringType, put = __set_methodDeclaringType))::System::Type* methodDeclaringType;
+  __declspec(property(get = __cordl_internal_get_methodDeclaringType, put = __cordl_internal_set_methodDeclaringType))::System::Type* methodDeclaringType;
 
-  constexpr ::StringW& __get_method();
+  constexpr ::StringW& __cordl_internal_get_method();
 
-  constexpr ::StringW const& __get_method() const;
+  constexpr ::StringW const& __cordl_internal_get_method() const;
 
-  constexpr void __set_method(::StringW value);
+  constexpr void __cordl_internal_set_method(::StringW value);
 
-  constexpr ::System::Type*& __get_methodDeclaringType();
+  constexpr ::System::Type*& __cordl_internal_get_methodDeclaringType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get_methodDeclaringType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_methodDeclaringType() const;
 
-  constexpr void __set_methodDeclaringType(::System::Type* value);
+  constexpr void __cordl_internal_set_methodDeclaringType(::System::Type* value);
 
   static inline ::Newtonsoft::Json::Utilities::__ReflectionUtils____c__DisplayClass43_0* New_ctor();
 
@@ -296,7 +296,7 @@ static_assert(offsetof(::Newtonsoft::Json::Utilities::__ReflectionUtils____c__Di
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11898))
 // CS Name: ::Newtonsoft.Json.Utilities::ReflectionUtils*
 class CORDL_TYPE ReflectionUtils : public ::System::Object {

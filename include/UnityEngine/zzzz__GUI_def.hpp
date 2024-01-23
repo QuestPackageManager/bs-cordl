@@ -55,7 +55,7 @@ MARK_REF_PTR_T(::UnityEngine::__GUI__WindowFunction);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14594))
 // CS Name: ::GUI::WindowFunction*
 class CORDL_TYPE __GUI__WindowFunction : public ::System::MulticastDelegate {
@@ -93,7 +93,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::__GUI__WindowFuncti
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(10165))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2368)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10165))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14595))
 // CS Name: ::UnityEngine::GUI*
 class CORDL_TYPE GUI : public ::System::Object {
@@ -132,7 +132,7 @@ public:
   static __declspec(property(get = getStaticF__nextScrollStepTime_k__BackingField, put = setStaticF__nextScrollStepTime_k__BackingField))::System::DateTime _nextScrollStepTime_k__BackingField;
 
   /// @brief Field s_Skin, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Skin, put = setStaticF_s_Skin))::UnityEngine::GUISkin* s_Skin;
+  static __declspec(property(get = getStaticF_s_Skin, put = setStaticF_s_Skin))::UnityW<::UnityEngine::GUISkin> s_Skin;
 
   /// @brief Field s_ToolTipRect, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_s_ToolTipRect, put = setStaticF_s_ToolTipRect))::UnityEngine::Rect s_ToolTipRect;
@@ -181,9 +181,9 @@ public:
 
   static inline ::System::DateTime getStaticF__nextScrollStepTime_k__BackingField();
 
-  static inline void setStaticF_s_Skin(::UnityEngine::GUISkin* value);
+  static inline void setStaticF_s_Skin(::UnityW<::UnityEngine::GUISkin> value);
 
-  static inline ::UnityEngine::GUISkin* getStaticF_s_Skin();
+  static inline ::UnityW<::UnityEngine::GUISkin> getStaticF_s_Skin();
 
   static inline void setStaticF_s_ToolTipRect(::UnityEngine::Rect value);
 
@@ -200,7 +200,7 @@ public:
   static inline void set_skin(::UnityEngine::GUISkin* value);
 
   /// @brief Method get_skin, addr 0x2cfc6d0, size 0x5c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::GUISkin* get_skin();
+  static inline ::UnityW<::UnityEngine::GUISkin> get_skin();
 
   /// @brief Method DoSetSkin, addr 0x2cfc62c, size 0xa4, virtual false, abstract: false, final false
   static inline void DoSetSkin(::UnityEngine::GUISkin* newSkin);

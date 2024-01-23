@@ -22,26 +22,26 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::DynamicAtlasSettings);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7016)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(7016))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7017))
 // CS Name: ::UnityEngine.UIElements::DynamicAtlasSettings*
 class CORDL_TYPE DynamicAtlasSettings : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_MinAtlasSize, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_MinAtlasSize, put = __set_m_MinAtlasSize)) int32_t m_MinAtlasSize;
+  __declspec(property(get = __cordl_internal_get_m_MinAtlasSize, put = __cordl_internal_set_m_MinAtlasSize)) int32_t m_MinAtlasSize;
 
   /// @brief Field m_MaxAtlasSize, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_MaxAtlasSize, put = __set_m_MaxAtlasSize)) int32_t m_MaxAtlasSize;
+  __declspec(property(get = __cordl_internal_get_m_MaxAtlasSize, put = __cordl_internal_set_m_MaxAtlasSize)) int32_t m_MaxAtlasSize;
 
   /// @brief Field m_MaxSubTextureSize, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_MaxSubTextureSize, put = __set_m_MaxSubTextureSize)) int32_t m_MaxSubTextureSize;
+  __declspec(property(get = __cordl_internal_get_m_MaxSubTextureSize, put = __cordl_internal_set_m_MaxSubTextureSize)) int32_t m_MaxSubTextureSize;
 
   /// @brief Field m_ActiveFilters, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_ActiveFilters, put = __set_m_ActiveFilters))::UnityEngine::UIElements::DynamicAtlasFiltersInternal m_ActiveFilters;
+  __declspec(property(get = __cordl_internal_get_m_ActiveFilters, put = __cordl_internal_set_m_ActiveFilters))::UnityEngine::UIElements::DynamicAtlasFiltersInternal m_ActiveFilters;
 
   /// @brief Field m_CustomFilter, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_CustomFilter, put = __set_m_CustomFilter))::UnityEngine::UIElements::DynamicAtlasCustomFilter* m_CustomFilter;
+  __declspec(property(get = __cordl_internal_get_m_CustomFilter, put = __cordl_internal_set_m_CustomFilter))::UnityEngine::UIElements::DynamicAtlasCustomFilter* m_CustomFilter;
 
   __declspec(property(get = get_minAtlasSize, put = set_minAtlasSize)) int32_t minAtlasSize;
 
@@ -53,35 +53,35 @@ public:
 
   __declspec(property(get = get_customFilter, put = set_customFilter))::UnityEngine::UIElements::DynamicAtlasCustomFilter* customFilter;
 
-  constexpr int32_t& __get_m_MinAtlasSize();
+  constexpr int32_t& __cordl_internal_get_m_MinAtlasSize();
 
-  constexpr int32_t const& __get_m_MinAtlasSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_MinAtlasSize() const;
 
-  constexpr void __set_m_MinAtlasSize(int32_t value);
+  constexpr void __cordl_internal_set_m_MinAtlasSize(int32_t value);
 
-  constexpr int32_t& __get_m_MaxAtlasSize();
+  constexpr int32_t& __cordl_internal_get_m_MaxAtlasSize();
 
-  constexpr int32_t const& __get_m_MaxAtlasSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_MaxAtlasSize() const;
 
-  constexpr void __set_m_MaxAtlasSize(int32_t value);
+  constexpr void __cordl_internal_set_m_MaxAtlasSize(int32_t value);
 
-  constexpr int32_t& __get_m_MaxSubTextureSize();
+  constexpr int32_t& __cordl_internal_get_m_MaxSubTextureSize();
 
-  constexpr int32_t const& __get_m_MaxSubTextureSize() const;
+  constexpr int32_t const& __cordl_internal_get_m_MaxSubTextureSize() const;
 
-  constexpr void __set_m_MaxSubTextureSize(int32_t value);
+  constexpr void __cordl_internal_set_m_MaxSubTextureSize(int32_t value);
 
-  constexpr ::UnityEngine::UIElements::DynamicAtlasFiltersInternal& __get_m_ActiveFilters();
+  constexpr ::UnityEngine::UIElements::DynamicAtlasFiltersInternal& __cordl_internal_get_m_ActiveFilters();
 
-  constexpr ::UnityEngine::UIElements::DynamicAtlasFiltersInternal const& __get_m_ActiveFilters() const;
+  constexpr ::UnityEngine::UIElements::DynamicAtlasFiltersInternal const& __cordl_internal_get_m_ActiveFilters() const;
 
-  constexpr void __set_m_ActiveFilters(::UnityEngine::UIElements::DynamicAtlasFiltersInternal value);
+  constexpr void __cordl_internal_set_m_ActiveFilters(::UnityEngine::UIElements::DynamicAtlasFiltersInternal value);
 
-  constexpr ::UnityEngine::UIElements::DynamicAtlasCustomFilter*& __get_m_CustomFilter();
+  constexpr ::UnityEngine::UIElements::DynamicAtlasCustomFilter*& __cordl_internal_get_m_CustomFilter();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DynamicAtlasCustomFilter*> const& __get_m_CustomFilter() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DynamicAtlasCustomFilter*> const& __cordl_internal_get_m_CustomFilter() const;
 
-  constexpr void __set_m_CustomFilter(::UnityEngine::UIElements::DynamicAtlasCustomFilter* value);
+  constexpr void __cordl_internal_set_m_CustomFilter(::UnityEngine::UIElements::DynamicAtlasCustomFilter* value);
 
   /// @brief Method get_minAtlasSize, addr 0x2e164e4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_minAtlasSize();

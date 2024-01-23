@@ -39,7 +39,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__TouchscreenState___touchData_
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6515))
 // CS Name: ::TouchscreenState::<primaryTouchData>e__FixedBuffer
 #pragma pack(push, 0)
@@ -75,7 +75,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__TouchscreenState_
 // SizeInfo { instance_size: 560, native_size: 560, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6516))
 // CS Name: ::TouchscreenState::<touchData>e__FixedBuffer
 #pragma pack(push, 0)
@@ -112,7 +112,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__TouchscreenState_
 // }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6516)), TypeDefinitionIndex(TypeDefinitionIndex(6515))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6515)), TypeDefinitionIndex(TypeDefinitionIndex(6516))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6517))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::TouchscreenState
 #pragma pack(push, 0)
@@ -124,10 +124,11 @@ public:
   using _primaryTouchData_e__FixedBuffer = ::UnityEngine::InputSystem::LowLevel::__TouchscreenState___primaryTouchData_e__FixedBuffer;
 
   /// @brief Field primaryTouchData, offset 0x0, size 0x38
-  __declspec(property(get = __get_primaryTouchData, put = __set_primaryTouchData))::UnityEngine::InputSystem::LowLevel::__TouchscreenState___primaryTouchData_e__FixedBuffer primaryTouchData;
+  __declspec(property(get = __cordl_internal_get_primaryTouchData,
+                      put = __cordl_internal_set_primaryTouchData))::UnityEngine::InputSystem::LowLevel::__TouchscreenState___primaryTouchData_e__FixedBuffer primaryTouchData;
 
   /// @brief Field touchData, offset 0x38, size 0x230
-  __declspec(property(get = __get_touchData, put = __set_touchData))::UnityEngine::InputSystem::LowLevel::__TouchscreenState___touchData_e__FixedBuffer touchData;
+  __declspec(property(get = __cordl_internal_get_touchData, put = __cordl_internal_set_touchData))::UnityEngine::InputSystem::LowLevel::__TouchscreenState___touchData_e__FixedBuffer touchData;
 
   __declspec(property(get = get_primaryTouch))::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TouchState> primaryTouch;
 
@@ -141,17 +142,17 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputStateTypeInfo();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::__TouchscreenState___primaryTouchData_e__FixedBuffer& __get_primaryTouchData();
+  constexpr ::UnityEngine::InputSystem::LowLevel::__TouchscreenState___primaryTouchData_e__FixedBuffer& __cordl_internal_get_primaryTouchData();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::__TouchscreenState___primaryTouchData_e__FixedBuffer const& __get_primaryTouchData() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::__TouchscreenState___primaryTouchData_e__FixedBuffer const& __cordl_internal_get_primaryTouchData() const;
 
-  constexpr void __set_primaryTouchData(::UnityEngine::InputSystem::LowLevel::__TouchscreenState___primaryTouchData_e__FixedBuffer value);
+  constexpr void __cordl_internal_set_primaryTouchData(::UnityEngine::InputSystem::LowLevel::__TouchscreenState___primaryTouchData_e__FixedBuffer value);
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::__TouchscreenState___touchData_e__FixedBuffer& __get_touchData();
+  constexpr ::UnityEngine::InputSystem::LowLevel::__TouchscreenState___touchData_e__FixedBuffer& __cordl_internal_get_touchData();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::__TouchscreenState___touchData_e__FixedBuffer const& __get_touchData() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::__TouchscreenState___touchData_e__FixedBuffer const& __cordl_internal_get_touchData() const;
 
-  constexpr void __set_touchData(::UnityEngine::InputSystem::LowLevel::__TouchscreenState___touchData_e__FixedBuffer value);
+  constexpr void __cordl_internal_set_touchData(::UnityEngine::InputSystem::LowLevel::__TouchscreenState___touchData_e__FixedBuffer value);
 
   /// @brief Method get_Format, addr 0x2ae9164, size 0x30, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();

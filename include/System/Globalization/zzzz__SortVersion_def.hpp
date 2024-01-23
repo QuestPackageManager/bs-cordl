@@ -16,29 +16,29 @@ MARK_REF_PTR_T(::System::Globalization::SortVersion);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3680))
 // CS Name: ::System.Globalization::SortVersion*
 class CORDL_TYPE SortVersion : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_NlsVersion, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_NlsVersion, put = __set_m_NlsVersion)) int32_t m_NlsVersion;
+  __declspec(property(get = __cordl_internal_get_m_NlsVersion, put = __cordl_internal_set_m_NlsVersion)) int32_t m_NlsVersion;
 
   /// @brief Field m_SortId, offset 0x14, size 0x10
-  __declspec(property(get = __get_m_SortId, put = __set_m_SortId))::System::Guid m_SortId;
+  __declspec(property(get = __cordl_internal_get_m_SortId, put = __cordl_internal_set_m_SortId))::System::Guid m_SortId;
 
-  constexpr int32_t& __get_m_NlsVersion();
+  constexpr int32_t& __cordl_internal_get_m_NlsVersion();
 
-  constexpr int32_t const& __get_m_NlsVersion() const;
+  constexpr int32_t const& __cordl_internal_get_m_NlsVersion() const;
 
-  constexpr void __set_m_NlsVersion(int32_t value);
+  constexpr void __cordl_internal_set_m_NlsVersion(int32_t value);
 
-  constexpr ::System::Guid& __get_m_SortId();
+  constexpr ::System::Guid& __cordl_internal_get_m_SortId();
 
-  constexpr ::System::Guid const& __get_m_SortId() const;
+  constexpr ::System::Guid const& __cordl_internal_get_m_SortId() const;
 
-  constexpr void __set_m_SortId(::System::Guid value);
+  constexpr void __cordl_internal_set_m_SortId(::System::Guid value);
 
   // Ctor Parameters [CppParam { name: "", ty: "SortVersion", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves

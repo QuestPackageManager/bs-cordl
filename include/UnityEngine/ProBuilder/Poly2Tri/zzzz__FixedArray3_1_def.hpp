@@ -44,7 +44,7 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15349))
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::FixedArray3`1<T>
 struct CORDL_TYPE FixedArray3_1 {
@@ -123,28 +123,28 @@ namespace UnityEngine::ProBuilder::Poly2Tri {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15349), inst: 1981 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(15349))} Self: TypeDefinitionIndex(TypeDefinitionIndex(15348)) CS Name: ::FixedArray3`1::<Enumerate>d__10<T>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15349)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(15349), inst:
+// 1981 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(15348)) CS Name: ::FixedArray3`1::<Enumerate>d__10<T>*
 class CORDL_TYPE __FixedArray3_1___Enumerate_d__10 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current)) T __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) T __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x28, size 0x18
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T> __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T> __4__this;
 
   /// @brief Field <>3__<>4__this, offset 0x40, size 0x18
-  __declspec(property(get = __get___3____4__this, put = __set___3____4__this))::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T> __3____4__this;
+  __declspec(property(get = __cordl_internal_get___3____4__this, put = __cordl_internal_set___3____4__this))::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T> __3____4__this;
 
   /// @brief Field <i>5__2, offset 0x58, size 0x4
-  __declspec(property(get = __get__i_5__2, put = __set__i_5__2)) int32_t _i_5__2;
+  __declspec(property(get = __cordl_internal_get__i_5__2, put = __cordl_internal_set__i_5__2)) int32_t _i_5__2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_T__get_Current)) T System_Collections_Generic_IEnumerator_T__Current;
 
@@ -180,41 +180,41 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr T& __get___2__current();
+  constexpr T& __cordl_internal_get___2__current();
 
-  constexpr T const& __get___2__current() const;
+  constexpr T const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(T value);
+  constexpr void __cordl_internal_set___2__current(T value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T>& __get___4__this();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T>& __cordl_internal_get___4__this();
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T> const& __get___4__this() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T> value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T> value);
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T>& __get___3____4__this();
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T>& __cordl_internal_get___3____4__this();
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T> const& __get___3____4__this() const;
+  constexpr ::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T> const& __cordl_internal_get___3____4__this() const;
 
-  constexpr void __set___3____4__this(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T> value);
+  constexpr void __cordl_internal_set___3____4__this(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1<T> value);
 
-  constexpr int32_t& __get__i_5__2();
+  constexpr int32_t& __cordl_internal_get__i_5__2();
 
-  constexpr int32_t const& __get__i_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__2() const;
 
-  constexpr void __set__i_5__2(int32_t value);
+  constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::__FixedArray3_1___Enumerate_d__10<T>* New_ctor(int32_t __1__state);
 

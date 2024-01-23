@@ -91,7 +91,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract, typename TFactory>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10910))
 // CS Name: ::FromBinderGeneric`1::<>c__1`1<TContract,TFactory>*
 class CORDL_TYPE __FromBinderGeneric_1____c__1_1 : public ::System::Object {
@@ -149,20 +149,20 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10911))
 // CS Name: ::FromBinderGeneric`1::<>c__DisplayClass3_0<TContract>*
 class CORDL_TYPE __FromBinderGeneric_1____c__DisplayClass3_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field method, offset 0x10, size 0x8
-  __declspec(property(get = __get_method, put = __set_method))::System::Func_1<TContract>* method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method))::System::Func_1<TContract>* method;
 
-  constexpr ::System::Func_1<TContract>*& __get_method();
+  constexpr ::System::Func_1<TContract>*& __cordl_internal_get_method();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<TContract>*> const& __get_method() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<TContract>*> const& __cordl_internal_get_method() const;
 
-  constexpr void __set_method(::System::Func_1<TContract>* value);
+  constexpr void __cordl_internal_set_method(::System::Func_1<TContract>* value);
 
   static inline ::Zenject::__FromBinderGeneric_1____c__DisplayClass3_0<TContract>* New_ctor();
 
@@ -205,20 +205,20 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10912))
 // CS Name: ::FromBinderGeneric`1::<>c__DisplayClass14_0<TContract>*
 class CORDL_TYPE __FromBinderGeneric_1____c__DisplayClass14_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field predicate, offset 0x10, size 0x8
-  __declspec(property(get = __get_predicate, put = __set_predicate))::System::Func_2<TContract, bool>* predicate;
+  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate))::System::Func_2<TContract, bool>* predicate;
 
-  constexpr ::System::Func_2<TContract, bool>*& __get_predicate();
+  constexpr ::System::Func_2<TContract, bool>*& __cordl_internal_get_predicate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TContract, bool>*> const& __get_predicate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TContract, bool>*> const& __cordl_internal_get_predicate() const;
 
-  constexpr void __set_predicate(::System::Func_2<TContract, bool>* value);
+  constexpr void __cordl_internal_set_predicate(::System::Func_2<TContract, bool>* value);
 
   static inline ::Zenject::__FromBinderGeneric_1____c__DisplayClass14_0<TContract>* New_ctor();
 
@@ -261,20 +261,20 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10913))
 // CS Name: ::FromBinderGeneric`1::<>c__DisplayClass15_0<TContract>*
 class CORDL_TYPE __FromBinderGeneric_1____c__DisplayClass15_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field predicate, offset 0x10, size 0x8
-  __declspec(property(get = __get_predicate, put = __set_predicate))::System::Func_2<TContract, bool>* predicate;
+  __declspec(property(get = __cordl_internal_get_predicate, put = __cordl_internal_set_predicate))::System::Func_2<TContract, bool>* predicate;
 
-  constexpr ::System::Func_2<TContract, bool>*& __get_predicate();
+  constexpr ::System::Func_2<TContract, bool>*& __cordl_internal_get_predicate();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TContract, bool>*> const& __get_predicate() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TContract, bool>*> const& __cordl_internal_get_predicate() const;
 
-  constexpr void __set_predicate(::System::Func_2<TContract, bool>* value);
+  constexpr void __cordl_internal_set_predicate(::System::Func_2<TContract, bool>* value);
 
   static inline ::Zenject::__FromBinderGeneric_1____c__DisplayClass15_0<TContract>* New_ctor();
 
@@ -317,7 +317,7 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10909))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10909))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10914))
 // CS Name: ::Zenject::FromBinderGeneric`1<TContract>*
 class CORDL_TYPE FromBinderGeneric_1 : public ::Zenject::FromBinder {

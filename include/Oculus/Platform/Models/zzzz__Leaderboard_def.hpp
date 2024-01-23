@@ -19,47 +19,47 @@ MARK_REF_PTR_T(::Oculus::Platform::Models::Leaderboard);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13447))
 // CS Name: ::Oculus.Platform.Models::Leaderboard*
 class CORDL_TYPE Leaderboard : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ApiName, offset 0x10, size 0x8
-  __declspec(property(get = __get_ApiName, put = __set_ApiName))::StringW ApiName;
+  __declspec(property(get = __cordl_internal_get_ApiName, put = __cordl_internal_set_ApiName))::StringW ApiName;
 
   /// @brief Field DestinationOptional, offset 0x18, size 0x8
-  __declspec(property(get = __get_DestinationOptional, put = __set_DestinationOptional))::Oculus::Platform::Models::Destination* DestinationOptional;
+  __declspec(property(get = __cordl_internal_get_DestinationOptional, put = __cordl_internal_set_DestinationOptional))::Oculus::Platform::Models::Destination* DestinationOptional;
 
   /// @brief Field Destination, offset 0x20, size 0x8
-  __declspec(property(get = __get_Destination, put = __set_Destination))::Oculus::Platform::Models::Destination* Destination;
+  __declspec(property(get = __cordl_internal_get_Destination, put = __cordl_internal_set_Destination))::Oculus::Platform::Models::Destination* Destination;
 
   /// @brief Field ID, offset 0x28, size 0x8
-  __declspec(property(get = __get__cordl_ID, put = __set__cordl_ID)) uint64_t _cordl_ID;
+  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) uint64_t _cordl_ID;
 
-  constexpr ::StringW& __get_ApiName();
+  constexpr ::StringW& __cordl_internal_get_ApiName();
 
-  constexpr ::StringW const& __get_ApiName() const;
+  constexpr ::StringW const& __cordl_internal_get_ApiName() const;
 
-  constexpr void __set_ApiName(::StringW value);
+  constexpr void __cordl_internal_set_ApiName(::StringW value);
 
-  constexpr ::Oculus::Platform::Models::Destination*& __get_DestinationOptional();
+  constexpr ::Oculus::Platform::Models::Destination*& __cordl_internal_get_DestinationOptional();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& __get_DestinationOptional() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& __cordl_internal_get_DestinationOptional() const;
 
-  constexpr void __set_DestinationOptional(::Oculus::Platform::Models::Destination* value);
+  constexpr void __cordl_internal_set_DestinationOptional(::Oculus::Platform::Models::Destination* value);
 
-  constexpr ::Oculus::Platform::Models::Destination*& __get_Destination();
+  constexpr ::Oculus::Platform::Models::Destination*& __cordl_internal_get_Destination();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& __get_Destination() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::Models::Destination*> const& __cordl_internal_get_Destination() const;
 
-  constexpr void __set_Destination(::Oculus::Platform::Models::Destination* value);
+  constexpr void __cordl_internal_set_Destination(::Oculus::Platform::Models::Destination* value);
 
-  constexpr uint64_t& __get__cordl_ID();
+  constexpr uint64_t& __cordl_internal_get__cordl_ID();
 
-  constexpr uint64_t const& __get__cordl_ID() const;
+  constexpr uint64_t const& __cordl_internal_get__cordl_ID() const;
 
-  constexpr void __set__cordl_ID(uint64_t value);
+  constexpr void __cordl_internal_set__cordl_ID(uint64_t value);
 
   static inline ::Oculus::Platform::Models::Leaderboard* New_ctor(void* o);
 

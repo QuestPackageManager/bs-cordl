@@ -15,33 +15,33 @@ MARK_REF_PTR_T(::UnityEngine::WaitForSecondsRealtime);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10242))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10242))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10235))
 // CS Name: ::UnityEngine::WaitForSecondsRealtime*
 class CORDL_TYPE WaitForSecondsRealtime : public ::UnityEngine::CustomYieldInstruction {
 public:
   // Declarations
   /// @brief Field <waitTime>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__waitTime_k__BackingField, put = __set__waitTime_k__BackingField)) float_t _waitTime_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__waitTime_k__BackingField, put = __cordl_internal_set__waitTime_k__BackingField)) float_t _waitTime_k__BackingField;
 
   /// @brief Field m_WaitUntilTime, offset 0x14, size 0x4
-  __declspec(property(get = __get_m_WaitUntilTime, put = __set_m_WaitUntilTime)) float_t m_WaitUntilTime;
+  __declspec(property(get = __cordl_internal_get_m_WaitUntilTime, put = __cordl_internal_set_m_WaitUntilTime)) float_t m_WaitUntilTime;
 
   __declspec(property(get = get_waitTime, put = set_waitTime)) float_t waitTime;
 
   __declspec(property(get = get_keepWaiting)) bool keepWaiting;
 
-  constexpr float_t& __get__waitTime_k__BackingField();
+  constexpr float_t& __cordl_internal_get__waitTime_k__BackingField();
 
-  constexpr float_t const& __get__waitTime_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__waitTime_k__BackingField() const;
 
-  constexpr void __set__waitTime_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__waitTime_k__BackingField(float_t value);
 
-  constexpr float_t& __get_m_WaitUntilTime();
+  constexpr float_t& __cordl_internal_get_m_WaitUntilTime();
 
-  constexpr float_t const& __get_m_WaitUntilTime() const;
+  constexpr float_t const& __cordl_internal_get_m_WaitUntilTime() const;
 
-  constexpr void __set_m_WaitUntilTime(float_t value);
+  constexpr void __cordl_internal_set_m_WaitUntilTime(float_t value);
 
   /// @brief Method get_waitTime, addr 0x2cd3780, size 0x8, virtual false, abstract: false, final false
   inline float_t get_waitTime();

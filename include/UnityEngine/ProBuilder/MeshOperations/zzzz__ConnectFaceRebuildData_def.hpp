@@ -21,29 +21,29 @@ MARK_REF_PTR_T(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::MeshOperations {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12250))
 // CS Name: ::UnityEngine.ProBuilder.MeshOperations::ConnectFaceRebuildData*
 class CORDL_TYPE ConnectFaceRebuildData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field faceRebuildData, offset 0x10, size 0x8
-  __declspec(property(get = __get_faceRebuildData, put = __set_faceRebuildData))::UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData;
+  __declspec(property(get = __cordl_internal_get_faceRebuildData, put = __cordl_internal_set_faceRebuildData))::UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData;
 
   /// @brief Field newVertexIndexes, offset 0x18, size 0x8
-  __declspec(property(get = __get_newVertexIndexes, put = __set_newVertexIndexes))::System::Collections::Generic::List_1<int32_t>* newVertexIndexes;
+  __declspec(property(get = __cordl_internal_get_newVertexIndexes, put = __cordl_internal_set_newVertexIndexes))::System::Collections::Generic::List_1<int32_t>* newVertexIndexes;
 
-  constexpr ::UnityEngine::ProBuilder::FaceRebuildData*& __get_faceRebuildData();
+  constexpr ::UnityEngine::ProBuilder::FaceRebuildData*& __cordl_internal_get_faceRebuildData();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::FaceRebuildData*> const& __get_faceRebuildData() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::FaceRebuildData*> const& __cordl_internal_get_faceRebuildData() const;
 
-  constexpr void __set_faceRebuildData(::UnityEngine::ProBuilder::FaceRebuildData* value);
+  constexpr void __cordl_internal_set_faceRebuildData(::UnityEngine::ProBuilder::FaceRebuildData* value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get_newVertexIndexes();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_newVertexIndexes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get_newVertexIndexes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_newVertexIndexes() const;
 
-  constexpr void __set_newVertexIndexes(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set_newVertexIndexes(::System::Collections::Generic::List_1<int32_t>* value);
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* New_ctor(::UnityEngine::ProBuilder::FaceRebuildData* faceRebuildData,
                                                                                             ::System::Collections::Generic::List_1<int32_t>* newVertexIndexes);

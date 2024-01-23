@@ -79,35 +79,35 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::__CmsSignedDataGenerator__SignerInf);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(650))
 // CS Name: ::CmsSignedDataGenerator::SignerInf*
 class CORDL_TYPE __CmsSignedDataGenerator__SignerInf : public ::System::Object {
 public:
   // Declarations
   /// @brief Field outer, offset 0x10, size 0x8
-  __declspec(property(get = __get_outer, put = __set_outer))::Org::BouncyCastle::Cms::CmsSignedGenerator* outer;
+  __declspec(property(get = __cordl_internal_get_outer, put = __cordl_internal_set_outer))::Org::BouncyCastle::Cms::CmsSignedGenerator* outer;
 
   /// @brief Field sigCalc, offset 0x18, size 0x8
-  __declspec(property(get = __get_sigCalc, put = __set_sigCalc))::Org::BouncyCastle::Crypto::ISignatureFactory* sigCalc;
+  __declspec(property(get = __cordl_internal_get_sigCalc, put = __cordl_internal_set_sigCalc))::Org::BouncyCastle::Crypto::ISignatureFactory* sigCalc;
 
   /// @brief Field signerIdentifier, offset 0x20, size 0x8
-  __declspec(property(get = __get_signerIdentifier, put = __set_signerIdentifier))::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* signerIdentifier;
+  __declspec(property(get = __cordl_internal_get_signerIdentifier, put = __cordl_internal_set_signerIdentifier))::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* signerIdentifier;
 
   /// @brief Field digestOID, offset 0x28, size 0x8
-  __declspec(property(get = __get_digestOID, put = __set_digestOID))::StringW digestOID;
+  __declspec(property(get = __cordl_internal_get_digestOID, put = __cordl_internal_set_digestOID))::StringW digestOID;
 
   /// @brief Field encOID, offset 0x30, size 0x8
-  __declspec(property(get = __get_encOID, put = __set_encOID))::StringW encOID;
+  __declspec(property(get = __cordl_internal_get_encOID, put = __cordl_internal_set_encOID))::StringW encOID;
 
   /// @brief Field sAttr, offset 0x38, size 0x8
-  __declspec(property(get = __get_sAttr, put = __set_sAttr))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* sAttr;
+  __declspec(property(get = __cordl_internal_get_sAttr, put = __cordl_internal_set_sAttr))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* sAttr;
 
   /// @brief Field unsAttr, offset 0x40, size 0x8
-  __declspec(property(get = __get_unsAttr, put = __set_unsAttr))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsAttr;
+  __declspec(property(get = __cordl_internal_get_unsAttr, put = __cordl_internal_set_unsAttr))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* unsAttr;
 
   /// @brief Field baseSignedTable, offset 0x48, size 0x8
-  __declspec(property(get = __get_baseSignedTable, put = __set_baseSignedTable))::Org::BouncyCastle::Asn1::Cms::AttributeTable* baseSignedTable;
+  __declspec(property(get = __cordl_internal_get_baseSignedTable, put = __cordl_internal_set_baseSignedTable))::Org::BouncyCastle::Asn1::Cms::AttributeTable* baseSignedTable;
 
   __declspec(property(get = get_DigestAlgorithmID))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* DigestAlgorithmID;
 
@@ -115,53 +115,53 @@ public:
 
   __declspec(property(get = get_UnsignedAttributes))::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* UnsignedAttributes;
 
-  constexpr ::Org::BouncyCastle::Cms::CmsSignedGenerator*& __get_outer();
+  constexpr ::Org::BouncyCastle::Cms::CmsSignedGenerator*& __cordl_internal_get_outer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsSignedGenerator*> const& __get_outer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsSignedGenerator*> const& __cordl_internal_get_outer() const;
 
-  constexpr void __set_outer(::Org::BouncyCastle::Cms::CmsSignedGenerator* value);
+  constexpr void __cordl_internal_set_outer(::Org::BouncyCastle::Cms::CmsSignedGenerator* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::ISignatureFactory*& __get_sigCalc();
+  constexpr ::Org::BouncyCastle::Crypto::ISignatureFactory*& __cordl_internal_get_sigCalc();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISignatureFactory*> const& __get_sigCalc() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::ISignatureFactory*> const& __cordl_internal_get_sigCalc() const;
 
-  constexpr void __set_sigCalc(::Org::BouncyCastle::Crypto::ISignatureFactory* value);
+  constexpr void __cordl_internal_set_sigCalc(::Org::BouncyCastle::Crypto::ISignatureFactory* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*& __get_signerIdentifier();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*& __cordl_internal_get_signerIdentifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*> const& __get_signerIdentifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*> const& __cordl_internal_get_signerIdentifier() const;
 
-  constexpr void __set_signerIdentifier(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* value);
+  constexpr void __cordl_internal_set_signerIdentifier(::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* value);
 
-  constexpr ::StringW& __get_digestOID();
+  constexpr ::StringW& __cordl_internal_get_digestOID();
 
-  constexpr ::StringW const& __get_digestOID() const;
+  constexpr ::StringW const& __cordl_internal_get_digestOID() const;
 
-  constexpr void __set_digestOID(::StringW value);
+  constexpr void __cordl_internal_set_digestOID(::StringW value);
 
-  constexpr ::StringW& __get_encOID();
+  constexpr ::StringW& __cordl_internal_get_encOID();
 
-  constexpr ::StringW const& __get_encOID() const;
+  constexpr ::StringW const& __cordl_internal_get_encOID() const;
 
-  constexpr void __set_encOID(::StringW value);
+  constexpr void __cordl_internal_set_encOID(::StringW value);
 
-  constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& __get_sAttr();
+  constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& __cordl_internal_get_sAttr();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& __get_sAttr() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& __cordl_internal_get_sAttr() const;
 
-  constexpr void __set_sAttr(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
+  constexpr void __cordl_internal_set_sAttr(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
 
-  constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& __get_unsAttr();
+  constexpr ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*& __cordl_internal_get_unsAttr();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& __get_unsAttr() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*> const& __cordl_internal_get_unsAttr() const;
 
-  constexpr void __set_unsAttr(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
+  constexpr void __cordl_internal_set_unsAttr(::Org::BouncyCastle::Cms::CmsAttributeTableGenerator* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& __get_baseSignedTable();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::AttributeTable*& __cordl_internal_get_baseSignedTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& __get_baseSignedTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::AttributeTable*> const& __cordl_internal_get_baseSignedTable() const;
 
-  constexpr void __set_baseSignedTable(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
+  constexpr void __cordl_internal_set_baseSignedTable(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
 
   static inline ::Org::BouncyCastle::Cms::__CmsSignedDataGenerator__SignerInf* New_ctor(::Org::BouncyCastle::Cms::CmsSignedGenerator* outer, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key,
                                                                                         ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier* signerIdentifier, ::StringW digestOID, ::StringW encOID,
@@ -260,7 +260,7 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::__CmsSignedDataGenerator__Signe
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(649))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(649))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(651))
 // CS Name: ::Org.BouncyCastle.Cms::CmsSignedDataGenerator*
 class CORDL_TYPE CmsSignedDataGenerator : public ::Org::BouncyCastle::Cms::CmsSignedGenerator {
@@ -269,16 +269,16 @@ public:
   using SignerInf = ::Org::BouncyCastle::Cms::__CmsSignedDataGenerator__SignerInf;
 
   /// @brief Field signerInfs, offset 0x40, size 0x8
-  __declspec(property(get = __get_signerInfs, put = __set_signerInfs))::System::Collections::IList* signerInfs;
+  __declspec(property(get = __cordl_internal_get_signerInfs, put = __cordl_internal_set_signerInfs))::System::Collections::IList* signerInfs;
 
   /// @brief Field Helper, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Helper, put = setStaticF_Helper))::Org::BouncyCastle::Cms::CmsSignedHelper* Helper;
 
-  constexpr ::System::Collections::IList*& __get_signerInfs();
+  constexpr ::System::Collections::IList*& __cordl_internal_get_signerInfs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __get_signerInfs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_signerInfs() const;
 
-  constexpr void __set_signerInfs(::System::Collections::IList* value);
+  constexpr void __cordl_internal_set_signerInfs(::System::Collections::IList* value);
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsSignedHelper* value);
 

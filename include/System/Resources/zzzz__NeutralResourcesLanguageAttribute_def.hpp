@@ -19,33 +19,34 @@ MARK_REF_PTR_T(::System::Resources::NeutralResourcesLanguageAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Resources {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3431))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(3431))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3427))
 // CS Name: ::System.Resources::NeutralResourcesLanguageAttribute*
 class CORDL_TYPE NeutralResourcesLanguageAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field <CultureName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__CultureName_k__BackingField, put = __set__CultureName_k__BackingField))::StringW _CultureName_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__CultureName_k__BackingField, put = __cordl_internal_set__CultureName_k__BackingField))::StringW _CultureName_k__BackingField;
 
   /// @brief Field <Location>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __get__Location_k__BackingField, put = __set__Location_k__BackingField))::System::Resources::UltimateResourceFallbackLocation _Location_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Location_k__BackingField,
+                      put = __cordl_internal_set__Location_k__BackingField))::System::Resources::UltimateResourceFallbackLocation _Location_k__BackingField;
 
   __declspec(property(get = get_CultureName))::StringW CultureName;
 
   __declspec(property(get = get_Location))::System::Resources::UltimateResourceFallbackLocation Location;
 
-  constexpr ::StringW& __get__CultureName_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__CultureName_k__BackingField();
 
-  constexpr ::StringW const& __get__CultureName_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__CultureName_k__BackingField() const;
 
-  constexpr void __set__CultureName_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__CultureName_k__BackingField(::StringW value);
 
-  constexpr ::System::Resources::UltimateResourceFallbackLocation& __get__Location_k__BackingField();
+  constexpr ::System::Resources::UltimateResourceFallbackLocation& __cordl_internal_get__Location_k__BackingField();
 
-  constexpr ::System::Resources::UltimateResourceFallbackLocation const& __get__Location_k__BackingField() const;
+  constexpr ::System::Resources::UltimateResourceFallbackLocation const& __cordl_internal_get__Location_k__BackingField() const;
 
-  constexpr void __set__Location_k__BackingField(::System::Resources::UltimateResourceFallbackLocation value);
+  constexpr void __cordl_internal_set__Location_k__BackingField(::System::Resources::UltimateResourceFallbackLocation value);
 
   static inline ::System::Resources::NeutralResourcesLanguageAttribute* New_ctor(::StringW cultureName);
 

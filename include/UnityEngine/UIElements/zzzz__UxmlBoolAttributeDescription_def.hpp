@@ -33,7 +33,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__UxmlBoolAttributeDescription____c);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6991))
 // CS Name: ::UxmlBoolAttributeDescription::<>c*
 class CORDL_TYPE __UxmlBoolAttributeDescription____c : public ::System::Object {
@@ -95,7 +95,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__UxmlB
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 105 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6982)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6982), inst: 105 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6992))
 // CS Name: ::UnityEngine.UIElements::UxmlBoolAttributeDescription*
 class CORDL_TYPE UxmlBoolAttributeDescription : public ::UnityEngine::UIElements::TypedUxmlAttributeDescription_1<bool> {

@@ -13,7 +13,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x68;
   constexpr static std::size_t addrs = 0x2207b80;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), 3));
@@ -28,10 +28,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc;
   constexpr static std::size_t addrs = 0x2207600;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "Init", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPacket*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPacket*>::get() })));
     return ___internal_method;
   }
 };
@@ -43,11 +43,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x220760c;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "TrySend", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPeer*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "TrySend", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPeer*>::get() })));
     return ___internal_method;
   }
 };
@@ -59,10 +59,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x3c;
   constexpr static std::size_t addrs = 0x2207158;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "Clear", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPeer*>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "Clear", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPeer*>::get() })));
     return ___internal_method;
   }
 };
@@ -72,22 +72,22 @@ inline ::StringW LiteNetLib::__ReliableChannel__PendingPacket::ToString() {
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline void LiteNetLib::__ReliableChannel__PendingPacket::Init(::LiteNetLib::NetPacket* packet) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "Init", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPacket*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPacket*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, packet);
 }
 inline void LiteNetLib::__ReliableChannel__PendingPacket::TrySend(int64_t currentTime, ::LiteNetLib::NetPeer* peer) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "TrySend", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(),
-                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPeer*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "TrySend", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPeer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentTime, peer);
 }
 inline bool LiteNetLib::__ReliableChannel__PendingPacket::Clear(::LiteNetLib::NetPeer* peer) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "Clear", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPeer*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::__ReliableChannel__PendingPacket>::get(), "Clear", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPeer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, peer);
 }
 // Ctor Parameters [CppParam { name: "_packet", ty: "::LiteNetLib::NetPacket*", modifiers: "", def_value: Some("nullptr") }, CppParam { name: "_timeStamp", ty: "int64_t", modifiers: "", def_value:
@@ -107,11 +107,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x188;
   constexpr static std::size_t addrs = 0x22036dc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPeer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPeer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get() })));
     return ___internal_method;
   }
 };
@@ -122,10 +122,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x350;
   constexpr static std::size_t addrs = 0x2206e08;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel*>::get(), "ProcessAck", std::vector<Il2CppClass*>{},
-                                                 ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPacket*>::get() })));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel*>::get(), "ProcessAck", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPacket*>::get() })));
     return ___internal_method;
   }
 };
@@ -136,7 +136,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x46c;
   constexpr static std::size_t addrs = 0x2207194;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel*>::get(), 4));
@@ -150,183 +150,185 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x4fc;
   constexpr static std::size_t addrs = 0x2207684;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel*>::get(), 5));
     return ___internal_method;
   }
 };
-constexpr ::LiteNetLib::NetPacket*& LiteNetLib::ReliableChannel::__get__outgoingAcks() {
+constexpr ::LiteNetLib::NetPacket*& LiteNetLib::ReliableChannel::__cordl_internal_get__outgoingAcks() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____outgoingAcks;
 }
-constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& LiteNetLib::ReliableChannel::__get__outgoingAcks() const {
+constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& LiteNetLib::ReliableChannel::__cordl_internal_get__outgoingAcks() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____outgoingAcks;
 }
-constexpr void LiteNetLib::ReliableChannel::__set__outgoingAcks(::LiteNetLib::NetPacket* value) {
+constexpr void LiteNetLib::ReliableChannel::__cordl_internal_set__outgoingAcks(::LiteNetLib::NetPacket* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____outgoingAcks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*>& LiteNetLib::ReliableChannel::__get__pendingPackets() {
+constexpr ::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*>& LiteNetLib::ReliableChannel::__cordl_internal_get__pendingPackets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingPackets;
 }
-constexpr ::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*> const& LiteNetLib::ReliableChannel::__get__pendingPackets() const {
+constexpr ::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*> const&
+LiteNetLib::ReliableChannel::__cordl_internal_get__pendingPackets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pendingPackets;
 }
-constexpr void LiteNetLib::ReliableChannel::__set__pendingPackets(::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*> value) {
+constexpr void
+LiteNetLib::ReliableChannel::__cordl_internal_set__pendingPackets(::ArrayW<::LiteNetLib::__ReliableChannel__PendingPacket, ::Array<::LiteNetLib::__ReliableChannel__PendingPacket>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pendingPackets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*>& LiteNetLib::ReliableChannel::__get__receivedPackets() {
+constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*>& LiteNetLib::ReliableChannel::__cordl_internal_get__receivedPackets() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedPackets;
 }
-constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> const& LiteNetLib::ReliableChannel::__get__receivedPackets() const {
+constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> const& LiteNetLib::ReliableChannel::__cordl_internal_get__receivedPackets() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____receivedPackets;
 }
-constexpr void LiteNetLib::ReliableChannel::__set__receivedPackets(::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> value) {
+constexpr void LiteNetLib::ReliableChannel::__cordl_internal_set__receivedPackets(::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____receivedPackets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<bool, ::Array<bool>*>& LiteNetLib::ReliableChannel::__get__earlyReceived() {
+constexpr ::ArrayW<bool, ::Array<bool>*>& LiteNetLib::ReliableChannel::__cordl_internal_get__earlyReceived() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____earlyReceived;
 }
-constexpr ::ArrayW<bool, ::Array<bool>*> const& LiteNetLib::ReliableChannel::__get__earlyReceived() const {
+constexpr ::ArrayW<bool, ::Array<bool>*> const& LiteNetLib::ReliableChannel::__cordl_internal_get__earlyReceived() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____earlyReceived;
 }
-constexpr void LiteNetLib::ReliableChannel::__set__earlyReceived(::ArrayW<bool, ::Array<bool>*> value) {
+constexpr void LiteNetLib::ReliableChannel::__cordl_internal_set__earlyReceived(::ArrayW<bool, ::Array<bool>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____earlyReceived)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& LiteNetLib::ReliableChannel::__get__localSeqence() {
+constexpr int32_t& LiteNetLib::ReliableChannel::__cordl_internal_get__localSeqence() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localSeqence;
 }
-constexpr int32_t const& LiteNetLib::ReliableChannel::__get__localSeqence() const {
+constexpr int32_t const& LiteNetLib::ReliableChannel::__cordl_internal_get__localSeqence() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localSeqence;
 }
-constexpr void LiteNetLib::ReliableChannel::__set__localSeqence(int32_t value) {
+constexpr void LiteNetLib::ReliableChannel::__cordl_internal_set__localSeqence(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localSeqence = value;
 }
-constexpr int32_t& LiteNetLib::ReliableChannel::__get__remoteSequence() {
+constexpr int32_t& LiteNetLib::ReliableChannel::__cordl_internal_get__remoteSequence() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remoteSequence;
 }
-constexpr int32_t const& LiteNetLib::ReliableChannel::__get__remoteSequence() const {
+constexpr int32_t const& LiteNetLib::ReliableChannel::__cordl_internal_get__remoteSequence() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remoteSequence;
 }
-constexpr void LiteNetLib::ReliableChannel::__set__remoteSequence(int32_t value) {
+constexpr void LiteNetLib::ReliableChannel::__cordl_internal_set__remoteSequence(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____remoteSequence = value;
 }
-constexpr int32_t& LiteNetLib::ReliableChannel::__get__localWindowStart() {
+constexpr int32_t& LiteNetLib::ReliableChannel::__cordl_internal_get__localWindowStart() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localWindowStart;
 }
-constexpr int32_t const& LiteNetLib::ReliableChannel::__get__localWindowStart() const {
+constexpr int32_t const& LiteNetLib::ReliableChannel::__cordl_internal_get__localWindowStart() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____localWindowStart;
 }
-constexpr void LiteNetLib::ReliableChannel::__set__localWindowStart(int32_t value) {
+constexpr void LiteNetLib::ReliableChannel::__cordl_internal_set__localWindowStart(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____localWindowStart = value;
 }
-constexpr int32_t& LiteNetLib::ReliableChannel::__get__remoteWindowStart() {
+constexpr int32_t& LiteNetLib::ReliableChannel::__cordl_internal_get__remoteWindowStart() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remoteWindowStart;
 }
-constexpr int32_t const& LiteNetLib::ReliableChannel::__get__remoteWindowStart() const {
+constexpr int32_t const& LiteNetLib::ReliableChannel::__cordl_internal_get__remoteWindowStart() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____remoteWindowStart;
 }
-constexpr void LiteNetLib::ReliableChannel::__set__remoteWindowStart(int32_t value) {
+constexpr void LiteNetLib::ReliableChannel::__cordl_internal_set__remoteWindowStart(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____remoteWindowStart = value;
 }
-constexpr bool& LiteNetLib::ReliableChannel::__get__mustSendAcks() {
+constexpr bool& LiteNetLib::ReliableChannel::__cordl_internal_get__mustSendAcks() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mustSendAcks;
 }
-constexpr bool const& LiteNetLib::ReliableChannel::__get__mustSendAcks() const {
+constexpr bool const& LiteNetLib::ReliableChannel::__cordl_internal_get__mustSendAcks() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mustSendAcks;
 }
-constexpr void LiteNetLib::ReliableChannel::__set__mustSendAcks(bool value) {
+constexpr void LiteNetLib::ReliableChannel::__cordl_internal_set__mustSendAcks(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____mustSendAcks = value;
 }
-constexpr ::LiteNetLib::DeliveryMethod& LiteNetLib::ReliableChannel::__get__deliveryMethod() {
+constexpr ::LiteNetLib::DeliveryMethod& LiteNetLib::ReliableChannel::__cordl_internal_get__deliveryMethod() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deliveryMethod;
 }
-constexpr ::LiteNetLib::DeliveryMethod const& LiteNetLib::ReliableChannel::__get__deliveryMethod() const {
+constexpr ::LiteNetLib::DeliveryMethod const& LiteNetLib::ReliableChannel::__cordl_internal_get__deliveryMethod() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____deliveryMethod;
 }
-constexpr void LiteNetLib::ReliableChannel::__set__deliveryMethod(::LiteNetLib::DeliveryMethod value) {
+constexpr void LiteNetLib::ReliableChannel::__cordl_internal_set__deliveryMethod(::LiteNetLib::DeliveryMethod value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____deliveryMethod = value;
 }
-constexpr bool& LiteNetLib::ReliableChannel::__get__ordered() {
+constexpr bool& LiteNetLib::ReliableChannel::__cordl_internal_get__ordered() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ordered;
 }
-constexpr bool const& LiteNetLib::ReliableChannel::__get__ordered() const {
+constexpr bool const& LiteNetLib::ReliableChannel::__cordl_internal_get__ordered() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____ordered;
 }
-constexpr void LiteNetLib::ReliableChannel::__set__ordered(bool value) {
+constexpr void LiteNetLib::ReliableChannel::__cordl_internal_set__ordered(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____ordered = value;
 }
-constexpr int32_t& LiteNetLib::ReliableChannel::__get__windowSize() {
+constexpr int32_t& LiteNetLib::ReliableChannel::__cordl_internal_get__windowSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____windowSize;
 }
-constexpr int32_t const& LiteNetLib::ReliableChannel::__get__windowSize() const {
+constexpr int32_t const& LiteNetLib::ReliableChannel::__cordl_internal_get__windowSize() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____windowSize;
 }
-constexpr void LiteNetLib::ReliableChannel::__set__windowSize(int32_t value) {
+constexpr void LiteNetLib::ReliableChannel::__cordl_internal_set__windowSize(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____windowSize = value;
 }
-constexpr uint8_t& LiteNetLib::ReliableChannel::__get__id() {
+constexpr uint8_t& LiteNetLib::ReliableChannel::__cordl_internal_get__id() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id;
 }
-constexpr uint8_t const& LiteNetLib::ReliableChannel::__get__id() const {
+constexpr uint8_t const& LiteNetLib::ReliableChannel::__cordl_internal_get__id() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id;
 }
-constexpr void LiteNetLib::ReliableChannel::__set__id(uint8_t value) {
+constexpr void LiteNetLib::ReliableChannel::__cordl_internal_set__id(uint8_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____id = value;
 }
 inline ::LiteNetLib::ReliableChannel* LiteNetLib::ReliableChannel::New_ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id) {
-  return THROW_UNLESS(::il2cpp_utils::New<::LiteNetLib::ReliableChannel*>(peer, ordered, id));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::LiteNetLib::ReliableChannel*>(peer, ordered, id));
 }
 inline void LiteNetLib::ReliableChannel::_ctor(::LiteNetLib::NetPeer* peer, bool ordered, uint8_t id) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel*>::get(), ".ctor", std::vector<Il2CppClass*>{},
-      ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPeer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPeer*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, peer, ordered, id);
 }
 inline void LiteNetLib::ReliableChannel::ProcessAck(::LiteNetLib::NetPacket* packet) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel*>::get(), "ProcessAck", std::vector<Il2CppClass*>{},
-                                               ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPacket*>::get() })));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::ReliableChannel*>::get(), "ProcessAck", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::LiteNetLib::NetPacket*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, packet);
 }
 inline void LiteNetLib::ReliableChannel::SendNextPackets() {

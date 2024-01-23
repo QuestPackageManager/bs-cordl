@@ -45,7 +45,7 @@ MARK_VAL_T(::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13683))
 // CS Name: ::TextSettings::FontReferenceMap
 struct CORDL_TYPE __TextSettings__FontReferenceMap {
@@ -54,19 +54,19 @@ public:
   /// @brief Method .ctor, addr 0x2d3fedc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Font* font, ::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
-  // Ctor Parameters [CppParam { name: "font", ty: "::UnityEngine::Font*", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty: "::UnityEngine::TextCore::Text::FontAsset*", modifiers:
-  // "", def_value: None }]
-  constexpr __TextSettings__FontReferenceMap(::UnityEngine::Font* font, ::UnityEngine::TextCore::Text::FontAsset* fontAsset) noexcept;
+  // Ctor Parameters [CppParam { name: "font", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty:
+  // "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None }]
+  constexpr __TextSettings__FontReferenceMap(::UnityW<::UnityEngine::Font> font, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __TextSettings__FontReferenceMap();
 
   /// @brief Field font, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::Font* font;
+  ::UnityW<::UnityEngine::Font> font;
 
   /// @brief Field fontAsset, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::TextCore::Text::FontAsset* fontAsset;
+  ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -85,7 +85,7 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::__TextSettings__FontRefere
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10210))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13684))
 // CS Name: ::UnityEngine.TextCore.Text::TextSettings*
 class CORDL_TYPE TextSettings : public ::UnityEngine::ScriptableObject {
@@ -94,68 +94,71 @@ public:
   using FontReferenceMap = ::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap;
 
   /// @brief Field m_Version, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Version, put = __set_m_Version))::StringW m_Version;
+  __declspec(property(get = __cordl_internal_get_m_Version, put = __cordl_internal_set_m_Version))::StringW m_Version;
 
   /// @brief Field m_DefaultFontAsset, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_DefaultFontAsset, put = __set_m_DefaultFontAsset))::UnityEngine::TextCore::Text::FontAsset* m_DefaultFontAsset;
+  __declspec(property(get = __cordl_internal_get_m_DefaultFontAsset, put = __cordl_internal_set_m_DefaultFontAsset))::UnityW<::UnityEngine::TextCore::Text::FontAsset> m_DefaultFontAsset;
 
   /// @brief Field m_DefaultFontAssetPath, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_DefaultFontAssetPath, put = __set_m_DefaultFontAssetPath))::StringW m_DefaultFontAssetPath;
+  __declspec(property(get = __cordl_internal_get_m_DefaultFontAssetPath, put = __cordl_internal_set_m_DefaultFontAssetPath))::StringW m_DefaultFontAssetPath;
 
   /// @brief Field m_FallbackFontAssets, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_FallbackFontAssets, put = __set_m_FallbackFontAssets))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* m_FallbackFontAssets;
+  __declspec(property(get = __cordl_internal_get_m_FallbackFontAssets,
+                      put = __cordl_internal_set_m_FallbackFontAssets))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* m_FallbackFontAssets;
 
   /// @brief Field m_MatchMaterialPreset, offset 0x38, size 0x1
-  __declspec(property(get = __get_m_MatchMaterialPreset, put = __set_m_MatchMaterialPreset)) bool m_MatchMaterialPreset;
+  __declspec(property(get = __cordl_internal_get_m_MatchMaterialPreset, put = __cordl_internal_set_m_MatchMaterialPreset)) bool m_MatchMaterialPreset;
 
   /// @brief Field m_MissingCharacterUnicode, offset 0x3c, size 0x4
-  __declspec(property(get = __get_m_MissingCharacterUnicode, put = __set_m_MissingCharacterUnicode)) int32_t m_MissingCharacterUnicode;
+  __declspec(property(get = __cordl_internal_get_m_MissingCharacterUnicode, put = __cordl_internal_set_m_MissingCharacterUnicode)) int32_t m_MissingCharacterUnicode;
 
   /// @brief Field m_ClearDynamicDataOnBuild, offset 0x40, size 0x1
-  __declspec(property(get = __get_m_ClearDynamicDataOnBuild, put = __set_m_ClearDynamicDataOnBuild)) bool m_ClearDynamicDataOnBuild;
+  __declspec(property(get = __cordl_internal_get_m_ClearDynamicDataOnBuild, put = __cordl_internal_set_m_ClearDynamicDataOnBuild)) bool m_ClearDynamicDataOnBuild;
 
   /// @brief Field m_DefaultSpriteAsset, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_DefaultSpriteAsset, put = __set_m_DefaultSpriteAsset))::UnityEngine::TextCore::Text::SpriteAsset* m_DefaultSpriteAsset;
+  __declspec(property(get = __cordl_internal_get_m_DefaultSpriteAsset, put = __cordl_internal_set_m_DefaultSpriteAsset))::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> m_DefaultSpriteAsset;
 
   /// @brief Field m_DefaultSpriteAssetPath, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_DefaultSpriteAssetPath, put = __set_m_DefaultSpriteAssetPath))::StringW m_DefaultSpriteAssetPath;
+  __declspec(property(get = __cordl_internal_get_m_DefaultSpriteAssetPath, put = __cordl_internal_set_m_DefaultSpriteAssetPath))::StringW m_DefaultSpriteAssetPath;
 
   /// @brief Field m_FallbackSpriteAssets, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_FallbackSpriteAssets,
-                      put = __set_m_FallbackSpriteAssets))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>* m_FallbackSpriteAssets;
+  __declspec(property(get = __cordl_internal_get_m_FallbackSpriteAssets,
+                      put = __cordl_internal_set_m_FallbackSpriteAssets))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* m_FallbackSpriteAssets;
 
   /// @brief Field m_MissingSpriteCharacterUnicode, offset 0x60, size 0x4
-  __declspec(property(get = __get_m_MissingSpriteCharacterUnicode, put = __set_m_MissingSpriteCharacterUnicode)) uint32_t m_MissingSpriteCharacterUnicode;
+  __declspec(property(get = __cordl_internal_get_m_MissingSpriteCharacterUnicode, put = __cordl_internal_set_m_MissingSpriteCharacterUnicode)) uint32_t m_MissingSpriteCharacterUnicode;
 
   /// @brief Field m_DefaultStyleSheet, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_DefaultStyleSheet, put = __set_m_DefaultStyleSheet))::UnityEngine::TextCore::Text::TextStyleSheet* m_DefaultStyleSheet;
+  __declspec(property(get = __cordl_internal_get_m_DefaultStyleSheet, put = __cordl_internal_set_m_DefaultStyleSheet))::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet> m_DefaultStyleSheet;
 
   /// @brief Field m_StyleSheetsResourcePath, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_StyleSheetsResourcePath, put = __set_m_StyleSheetsResourcePath))::StringW m_StyleSheetsResourcePath;
+  __declspec(property(get = __cordl_internal_get_m_StyleSheetsResourcePath, put = __cordl_internal_set_m_StyleSheetsResourcePath))::StringW m_StyleSheetsResourcePath;
 
   /// @brief Field m_DefaultColorGradientPresetsPath, offset 0x78, size 0x8
-  __declspec(property(get = __get_m_DefaultColorGradientPresetsPath, put = __set_m_DefaultColorGradientPresetsPath))::StringW m_DefaultColorGradientPresetsPath;
+  __declspec(property(get = __cordl_internal_get_m_DefaultColorGradientPresetsPath, put = __cordl_internal_set_m_DefaultColorGradientPresetsPath))::StringW m_DefaultColorGradientPresetsPath;
 
   /// @brief Field m_UnicodeLineBreakingRules, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_UnicodeLineBreakingRules, put = __set_m_UnicodeLineBreakingRules))::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* m_UnicodeLineBreakingRules;
+  __declspec(property(get = __cordl_internal_get_m_UnicodeLineBreakingRules,
+                      put = __cordl_internal_set_m_UnicodeLineBreakingRules))::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* m_UnicodeLineBreakingRules;
 
   /// @brief Field m_DisplayWarnings, offset 0x88, size 0x1
-  __declspec(property(get = __get_m_DisplayWarnings, put = __set_m_DisplayWarnings)) bool m_DisplayWarnings;
+  __declspec(property(get = __cordl_internal_get_m_DisplayWarnings, put = __cordl_internal_set_m_DisplayWarnings)) bool m_DisplayWarnings;
 
   /// @brief Field m_FontLookup, offset 0x90, size 0x8
-  __declspec(property(get = __get_m_FontLookup, put = __set_m_FontLookup))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::FontAsset*>* m_FontLookup;
+  __declspec(property(get = __cordl_internal_get_m_FontLookup,
+                      put = __cordl_internal_set_m_FontLookup))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* m_FontLookup;
 
   /// @brief Field m_FontReferences, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_FontReferences,
-                      put = __set_m_FontReferences))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap>* m_FontReferences;
+  __declspec(property(get = __cordl_internal_get_m_FontReferences,
+                      put = __cordl_internal_set_m_FontReferences))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap>* m_FontReferences;
 
   __declspec(property(get = get_version, put = set_version))::StringW version;
 
-  __declspec(property(get = get_defaultFontAsset, put = set_defaultFontAsset))::UnityEngine::TextCore::Text::FontAsset* defaultFontAsset;
+  __declspec(property(get = get_defaultFontAsset, put = set_defaultFontAsset))::UnityW<::UnityEngine::TextCore::Text::FontAsset> defaultFontAsset;
 
   __declspec(property(get = get_defaultFontAssetPath, put = set_defaultFontAssetPath))::StringW defaultFontAssetPath;
 
-  __declspec(property(get = get_fallbackFontAssets, put = set_fallbackFontAssets))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* fallbackFontAssets;
+  __declspec(property(get = get_fallbackFontAssets, put = set_fallbackFontAssets))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* fallbackFontAssets;
 
   __declspec(property(get = get_matchMaterialPreset, put = set_matchMaterialPreset)) bool matchMaterialPreset;
 
@@ -163,15 +166,16 @@ public:
 
   __declspec(property(get = get_clearDynamicDataOnBuild, put = set_clearDynamicDataOnBuild)) bool clearDynamicDataOnBuild;
 
-  __declspec(property(get = get_defaultSpriteAsset, put = set_defaultSpriteAsset))::UnityEngine::TextCore::Text::SpriteAsset* defaultSpriteAsset;
+  __declspec(property(get = get_defaultSpriteAsset, put = set_defaultSpriteAsset))::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> defaultSpriteAsset;
 
   __declspec(property(get = get_defaultSpriteAssetPath, put = set_defaultSpriteAssetPath))::StringW defaultSpriteAssetPath;
 
-  __declspec(property(get = get_fallbackSpriteAssets, put = set_fallbackSpriteAssets))::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>* fallbackSpriteAssets;
+  __declspec(property(get = get_fallbackSpriteAssets,
+                      put = set_fallbackSpriteAssets))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* fallbackSpriteAssets;
 
   __declspec(property(get = get_missingSpriteCharacterUnicode, put = set_missingSpriteCharacterUnicode)) uint32_t missingSpriteCharacterUnicode;
 
-  __declspec(property(get = get_defaultStyleSheet, put = set_defaultStyleSheet))::UnityEngine::TextCore::Text::TextStyleSheet* defaultStyleSheet;
+  __declspec(property(get = get_defaultStyleSheet, put = set_defaultStyleSheet))::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet> defaultStyleSheet;
 
   __declspec(property(get = get_styleSheetsResourcePath, put = set_styleSheetsResourcePath))::StringW styleSheetsResourcePath;
 
@@ -181,113 +185,116 @@ public:
 
   __declspec(property(get = get_displayWarnings, put = set_displayWarnings)) bool displayWarnings;
 
-  constexpr ::StringW& __get_m_Version();
+  constexpr ::StringW& __cordl_internal_get_m_Version();
 
-  constexpr ::StringW const& __get_m_Version() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Version() const;
 
-  constexpr void __set_m_Version(::StringW value);
+  constexpr void __cordl_internal_set_m_Version(::StringW value);
 
-  constexpr ::UnityEngine::TextCore::Text::FontAsset*& __get_m_DefaultFontAsset();
+  constexpr ::UnityW<::UnityEngine::TextCore::Text::FontAsset>& __cordl_internal_get_m_DefaultFontAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextCore::Text::FontAsset*> const& __get_m_DefaultFontAsset() const;
+  constexpr ::UnityW<::UnityEngine::TextCore::Text::FontAsset> const& __cordl_internal_get_m_DefaultFontAsset() const;
 
-  constexpr void __set_m_DefaultFontAsset(::UnityEngine::TextCore::Text::FontAsset* value);
+  constexpr void __cordl_internal_set_m_DefaultFontAsset(::UnityW<::UnityEngine::TextCore::Text::FontAsset> value);
 
-  constexpr ::StringW& __get_m_DefaultFontAssetPath();
+  constexpr ::StringW& __cordl_internal_get_m_DefaultFontAssetPath();
 
-  constexpr ::StringW const& __get_m_DefaultFontAssetPath() const;
+  constexpr ::StringW const& __cordl_internal_get_m_DefaultFontAssetPath() const;
 
-  constexpr void __set_m_DefaultFontAssetPath(::StringW value);
+  constexpr void __cordl_internal_set_m_DefaultFontAssetPath(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>*& __get_m_FallbackFontAssets();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*& __cordl_internal_get_m_FallbackFontAssets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>*> const& __get_m_FallbackFontAssets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*> const& __cordl_internal_get_m_FallbackFontAssets() const;
 
-  constexpr void __set_m_FallbackFontAssets(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* value);
+  constexpr void __cordl_internal_set_m_FallbackFontAssets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value);
 
-  constexpr bool& __get_m_MatchMaterialPreset();
+  constexpr bool& __cordl_internal_get_m_MatchMaterialPreset();
 
-  constexpr bool const& __get_m_MatchMaterialPreset() const;
+  constexpr bool const& __cordl_internal_get_m_MatchMaterialPreset() const;
 
-  constexpr void __set_m_MatchMaterialPreset(bool value);
+  constexpr void __cordl_internal_set_m_MatchMaterialPreset(bool value);
 
-  constexpr int32_t& __get_m_MissingCharacterUnicode();
+  constexpr int32_t& __cordl_internal_get_m_MissingCharacterUnicode();
 
-  constexpr int32_t const& __get_m_MissingCharacterUnicode() const;
+  constexpr int32_t const& __cordl_internal_get_m_MissingCharacterUnicode() const;
 
-  constexpr void __set_m_MissingCharacterUnicode(int32_t value);
+  constexpr void __cordl_internal_set_m_MissingCharacterUnicode(int32_t value);
 
-  constexpr bool& __get_m_ClearDynamicDataOnBuild();
+  constexpr bool& __cordl_internal_get_m_ClearDynamicDataOnBuild();
 
-  constexpr bool const& __get_m_ClearDynamicDataOnBuild() const;
+  constexpr bool const& __cordl_internal_get_m_ClearDynamicDataOnBuild() const;
 
-  constexpr void __set_m_ClearDynamicDataOnBuild(bool value);
+  constexpr void __cordl_internal_set_m_ClearDynamicDataOnBuild(bool value);
 
-  constexpr ::UnityEngine::TextCore::Text::SpriteAsset*& __get_m_DefaultSpriteAsset();
+  constexpr ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>& __cordl_internal_get_m_DefaultSpriteAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextCore::Text::SpriteAsset*> const& __get_m_DefaultSpriteAsset() const;
+  constexpr ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> const& __cordl_internal_get_m_DefaultSpriteAsset() const;
 
-  constexpr void __set_m_DefaultSpriteAsset(::UnityEngine::TextCore::Text::SpriteAsset* value);
+  constexpr void __cordl_internal_set_m_DefaultSpriteAsset(::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> value);
 
-  constexpr ::StringW& __get_m_DefaultSpriteAssetPath();
+  constexpr ::StringW& __cordl_internal_get_m_DefaultSpriteAssetPath();
 
-  constexpr ::StringW const& __get_m_DefaultSpriteAssetPath() const;
+  constexpr ::StringW const& __cordl_internal_get_m_DefaultSpriteAssetPath() const;
 
-  constexpr void __set_m_DefaultSpriteAssetPath(::StringW value);
+  constexpr void __cordl_internal_set_m_DefaultSpriteAssetPath(::StringW value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>*& __get_m_FallbackSpriteAssets();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*& __cordl_internal_get_m_FallbackSpriteAssets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>*> const& __get_m_FallbackSpriteAssets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*> const&
+  __cordl_internal_get_m_FallbackSpriteAssets() const;
 
-  constexpr void __set_m_FallbackSpriteAssets(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>* value);
+  constexpr void __cordl_internal_set_m_FallbackSpriteAssets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* value);
 
-  constexpr uint32_t& __get_m_MissingSpriteCharacterUnicode();
+  constexpr uint32_t& __cordl_internal_get_m_MissingSpriteCharacterUnicode();
 
-  constexpr uint32_t const& __get_m_MissingSpriteCharacterUnicode() const;
+  constexpr uint32_t const& __cordl_internal_get_m_MissingSpriteCharacterUnicode() const;
 
-  constexpr void __set_m_MissingSpriteCharacterUnicode(uint32_t value);
+  constexpr void __cordl_internal_set_m_MissingSpriteCharacterUnicode(uint32_t value);
 
-  constexpr ::UnityEngine::TextCore::Text::TextStyleSheet*& __get_m_DefaultStyleSheet();
+  constexpr ::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet>& __cordl_internal_get_m_DefaultStyleSheet();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextCore::Text::TextStyleSheet*> const& __get_m_DefaultStyleSheet() const;
+  constexpr ::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet> const& __cordl_internal_get_m_DefaultStyleSheet() const;
 
-  constexpr void __set_m_DefaultStyleSheet(::UnityEngine::TextCore::Text::TextStyleSheet* value);
+  constexpr void __cordl_internal_set_m_DefaultStyleSheet(::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet> value);
 
-  constexpr ::StringW& __get_m_StyleSheetsResourcePath();
+  constexpr ::StringW& __cordl_internal_get_m_StyleSheetsResourcePath();
 
-  constexpr ::StringW const& __get_m_StyleSheetsResourcePath() const;
+  constexpr ::StringW const& __cordl_internal_get_m_StyleSheetsResourcePath() const;
 
-  constexpr void __set_m_StyleSheetsResourcePath(::StringW value);
+  constexpr void __cordl_internal_set_m_StyleSheetsResourcePath(::StringW value);
 
-  constexpr ::StringW& __get_m_DefaultColorGradientPresetsPath();
+  constexpr ::StringW& __cordl_internal_get_m_DefaultColorGradientPresetsPath();
 
-  constexpr ::StringW const& __get_m_DefaultColorGradientPresetsPath() const;
+  constexpr ::StringW const& __cordl_internal_get_m_DefaultColorGradientPresetsPath() const;
 
-  constexpr void __set_m_DefaultColorGradientPresetsPath(::StringW value);
+  constexpr void __cordl_internal_set_m_DefaultColorGradientPresetsPath(::StringW value);
 
-  constexpr ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*& __get_m_UnicodeLineBreakingRules();
+  constexpr ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*& __cordl_internal_get_m_UnicodeLineBreakingRules();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*> const& __get_m_UnicodeLineBreakingRules() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*> const& __cordl_internal_get_m_UnicodeLineBreakingRules() const;
 
-  constexpr void __set_m_UnicodeLineBreakingRules(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* value);
+  constexpr void __cordl_internal_set_m_UnicodeLineBreakingRules(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* value);
 
-  constexpr bool& __get_m_DisplayWarnings();
+  constexpr bool& __cordl_internal_get_m_DisplayWarnings();
 
-  constexpr bool const& __get_m_DisplayWarnings() const;
+  constexpr bool const& __cordl_internal_get_m_DisplayWarnings() const;
 
-  constexpr void __set_m_DisplayWarnings(bool value);
+  constexpr void __cordl_internal_set_m_DisplayWarnings(bool value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::FontAsset*>*& __get_m_FontLookup();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*& __cordl_internal_get_m_FontLookup();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::FontAsset*>*> const& __get_m_FontLookup() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*> const&
+  __cordl_internal_get_m_FontLookup() const;
 
-  constexpr void __set_m_FontLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::FontAsset*>* value);
+  constexpr void __cordl_internal_set_m_FontLookup(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap>*& __get_m_FontReferences();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap>*& __cordl_internal_get_m_FontReferences();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap>*> const& __get_m_FontReferences() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap>*> const&
+  __cordl_internal_get_m_FontReferences() const;
 
-  constexpr void __set_m_FontReferences(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap>* value);
+  constexpr void __cordl_internal_set_m_FontReferences(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap>* value);
 
   /// @brief Method get_version, addr 0x2d3f860, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
@@ -296,7 +303,7 @@ public:
   inline void set_version(::StringW value);
 
   /// @brief Method get_defaultFontAsset, addr 0x2d3f870, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextCore::Text::FontAsset* get_defaultFontAsset();
+  inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> get_defaultFontAsset();
 
   /// @brief Method set_defaultFontAsset, addr 0x2d3f878, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultFontAsset(::UnityEngine::TextCore::Text::FontAsset* value);
@@ -308,10 +315,10 @@ public:
   inline void set_defaultFontAssetPath(::StringW value);
 
   /// @brief Method get_fallbackFontAssets, addr 0x2d3f890, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* get_fallbackFontAssets();
+  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* get_fallbackFontAssets();
 
   /// @brief Method set_fallbackFontAssets, addr 0x2d3f898, size 0x8, virtual false, abstract: false, final false
-  inline void set_fallbackFontAssets(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* value);
+  inline void set_fallbackFontAssets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value);
 
   /// @brief Method get_matchMaterialPreset, addr 0x2d3f8a0, size 0x8, virtual false, abstract: false, final false
   inline bool get_matchMaterialPreset();
@@ -332,7 +339,7 @@ public:
   inline void set_clearDynamicDataOnBuild(bool value);
 
   /// @brief Method get_defaultSpriteAsset, addr 0x2d3f8d8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextCore::Text::SpriteAsset* get_defaultSpriteAsset();
+  inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> get_defaultSpriteAsset();
 
   /// @brief Method set_defaultSpriteAsset, addr 0x2d3f8e0, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultSpriteAsset(::UnityEngine::TextCore::Text::SpriteAsset* value);
@@ -344,10 +351,10 @@ public:
   inline void set_defaultSpriteAssetPath(::StringW value);
 
   /// @brief Method get_fallbackSpriteAssets, addr 0x2d3f8f8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>* get_fallbackSpriteAssets();
+  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* get_fallbackSpriteAssets();
 
   /// @brief Method set_fallbackSpriteAssets, addr 0x2d3f900, size 0x8, virtual false, abstract: false, final false
-  inline void set_fallbackSpriteAssets(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>* value);
+  inline void set_fallbackSpriteAssets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* value);
 
   /// @brief Method get_missingSpriteCharacterUnicode, addr 0x2d3f908, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_missingSpriteCharacterUnicode();
@@ -356,7 +363,7 @@ public:
   inline void set_missingSpriteCharacterUnicode(uint32_t value);
 
   /// @brief Method get_defaultStyleSheet, addr 0x2d3f918, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextCore::Text::TextStyleSheet* get_defaultStyleSheet();
+  inline ::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet> get_defaultStyleSheet();
 
   /// @brief Method set_defaultStyleSheet, addr 0x2d3f920, size 0x8, virtual false, abstract: false, final false
   inline void set_defaultStyleSheet(::UnityEngine::TextCore::Text::TextStyleSheet* value);
@@ -389,7 +396,7 @@ public:
   inline void InitializeFontReferenceLookup();
 
   /// @brief Method GetCachedFontAssetInternal, addr 0x2d3fbd4, size 0x308, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextCore::Text::FontAsset* GetCachedFontAssetInternal(::UnityEngine::Font* font);
+  inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> GetCachedFontAssetInternal(::UnityEngine::Font* font);
 
   static inline ::UnityEngine::TextCore::Text::TextSettings* New_ctor();
 
@@ -414,13 +421,13 @@ public:
   ::StringW ___m_Version;
 
   /// @brief Field m_DefaultFontAsset, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::TextCore::Text::FontAsset* ___m_DefaultFontAsset;
+  ::UnityW<::UnityEngine::TextCore::Text::FontAsset> ___m_DefaultFontAsset;
 
   /// @brief Field m_DefaultFontAssetPath, offset: 0x28, size: 0x8, def value: None
   ::StringW ___m_DefaultFontAssetPath;
 
   /// @brief Field m_FallbackFontAssets, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::FontAsset*>* ___m_FallbackFontAssets;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* ___m_FallbackFontAssets;
 
   /// @brief Field m_MatchMaterialPreset, offset: 0x38, size: 0x1, def value: None
   bool ___m_MatchMaterialPreset;
@@ -432,19 +439,19 @@ public:
   bool ___m_ClearDynamicDataOnBuild;
 
   /// @brief Field m_DefaultSpriteAsset, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::TextCore::Text::SpriteAsset* ___m_DefaultSpriteAsset;
+  ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> ___m_DefaultSpriteAsset;
 
   /// @brief Field m_DefaultSpriteAssetPath, offset: 0x50, size: 0x8, def value: None
   ::StringW ___m_DefaultSpriteAssetPath;
 
   /// @brief Field m_FallbackSpriteAssets, offset: 0x58, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteAsset*>* ___m_FallbackSpriteAssets;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* ___m_FallbackSpriteAssets;
 
   /// @brief Field m_MissingSpriteCharacterUnicode, offset: 0x60, size: 0x4, def value: None
   uint32_t ___m_MissingSpriteCharacterUnicode;
 
   /// @brief Field m_DefaultStyleSheet, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::TextCore::Text::TextStyleSheet* ___m_DefaultStyleSheet;
+  ::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet> ___m_DefaultStyleSheet;
 
   /// @brief Field m_StyleSheetsResourcePath, offset: 0x70, size: 0x8, def value: None
   ::StringW ___m_StyleSheetsResourcePath;
@@ -459,7 +466,7 @@ public:
   bool ___m_DisplayWarnings;
 
   /// @brief Field m_FontLookup, offset: 0x90, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TextCore::Text::FontAsset*>* ___m_FontLookup;
+  ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* ___m_FontLookup;
 
   /// @brief Field m_FontReferences, offset: 0x98, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::__TextSettings__FontReferenceMap>* ___m_FontReferences;

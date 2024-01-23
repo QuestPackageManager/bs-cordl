@@ -20,7 +20,7 @@ MARK_VAL_T(::UnityEngineInternal::Input::NativeInputEvent);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(1) }
 namespace UnityEngineInternal::Input {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16108))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(16108))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16110))
 // CS Name: ::UnityEngineInternal.Input::NativeInputEvent
 #pragma pack(push, 1)
@@ -28,49 +28,49 @@ struct CORDL_TYPE NativeInputEvent {
 public:
   // Declarations
   /// @brief Field type, offset 0x0, size 0x4
-  __declspec(property(get = __get_type, put = __set_type))::UnityEngineInternal::Input::NativeInputEventType type;
+  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::UnityEngineInternal::Input::NativeInputEventType type;
 
   /// @brief Field sizeInBytes, offset 0x4, size 0x2
-  __declspec(property(get = __get_sizeInBytes, put = __set_sizeInBytes)) uint16_t sizeInBytes;
+  __declspec(property(get = __cordl_internal_get_sizeInBytes, put = __cordl_internal_set_sizeInBytes)) uint16_t sizeInBytes;
 
   /// @brief Field deviceId, offset 0x6, size 0x2
-  __declspec(property(get = __get_deviceId, put = __set_deviceId)) uint16_t deviceId;
+  __declspec(property(get = __cordl_internal_get_deviceId, put = __cordl_internal_set_deviceId)) uint16_t deviceId;
 
   /// @brief Field time, offset 0x8, size 0x8
-  __declspec(property(get = __get_time, put = __set_time)) double_t time;
+  __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) double_t time;
 
   /// @brief Field eventId, offset 0x10, size 0x4
-  __declspec(property(get = __get_eventId, put = __set_eventId)) int32_t eventId;
+  __declspec(property(get = __cordl_internal_get_eventId, put = __cordl_internal_set_eventId)) int32_t eventId;
 
-  constexpr ::UnityEngineInternal::Input::NativeInputEventType& __get_type();
+  constexpr ::UnityEngineInternal::Input::NativeInputEventType& __cordl_internal_get_type();
 
-  constexpr ::UnityEngineInternal::Input::NativeInputEventType const& __get_type() const;
+  constexpr ::UnityEngineInternal::Input::NativeInputEventType const& __cordl_internal_get_type() const;
 
-  constexpr void __set_type(::UnityEngineInternal::Input::NativeInputEventType value);
+  constexpr void __cordl_internal_set_type(::UnityEngineInternal::Input::NativeInputEventType value);
 
-  constexpr uint16_t& __get_sizeInBytes();
+  constexpr uint16_t& __cordl_internal_get_sizeInBytes();
 
-  constexpr uint16_t const& __get_sizeInBytes() const;
+  constexpr uint16_t const& __cordl_internal_get_sizeInBytes() const;
 
-  constexpr void __set_sizeInBytes(uint16_t value);
+  constexpr void __cordl_internal_set_sizeInBytes(uint16_t value);
 
-  constexpr uint16_t& __get_deviceId();
+  constexpr uint16_t& __cordl_internal_get_deviceId();
 
-  constexpr uint16_t const& __get_deviceId() const;
+  constexpr uint16_t const& __cordl_internal_get_deviceId() const;
 
-  constexpr void __set_deviceId(uint16_t value);
+  constexpr void __cordl_internal_set_deviceId(uint16_t value);
 
-  constexpr double_t& __get_time();
+  constexpr double_t& __cordl_internal_get_time();
 
-  constexpr double_t const& __get_time() const;
+  constexpr double_t const& __cordl_internal_get_time() const;
 
-  constexpr void __set_time(double_t value);
+  constexpr void __cordl_internal_set_time(double_t value);
 
-  constexpr int32_t& __get_eventId();
+  constexpr int32_t& __cordl_internal_get_eventId();
 
-  constexpr int32_t const& __get_eventId() const;
+  constexpr int32_t const& __cordl_internal_get_eventId() const;
 
-  constexpr void __set_eventId(int32_t value);
+  constexpr void __cordl_internal_set_eventId(int32_t value);
 
   // Ctor Parameters [CppParam { name: "type", ty: "::UnityEngineInternal::Input::NativeInputEventType", modifiers: "", def_value: None }, CppParam { name: "sizeInBytes", ty: "uint16_t", modifiers:
   // "", def_value: None }, CppParam { name: "deviceId", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "time", ty: "double_t", modifiers: "", def_value: None }, CppParam { name:

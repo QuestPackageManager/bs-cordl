@@ -43,20 +43,20 @@ namespace Zenject {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10923))
 // CS Name: ::InstantiateCallbackConditionCopyNonLazyBinder::<>c__DisplayClass2_0`1<T>*
 class CORDL_TYPE __InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field callback, offset 0x10, size 0x8
-  __declspec(property(get = __get_callback, put = __set_callback))::System::Action_2<::Zenject::InjectContext*, T>* callback;
+  __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback))::System::Action_2<::Zenject::InjectContext*, T>* callback;
 
-  constexpr ::System::Action_2<::Zenject::InjectContext*, T>*& __get_callback();
+  constexpr ::System::Action_2<::Zenject::InjectContext*, T>*& __cordl_internal_get_callback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::Zenject::InjectContext*, T>*> const& __get_callback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::Zenject::InjectContext*, T>*> const& __cordl_internal_get_callback() const;
 
-  constexpr void __set_callback(::System::Action_2<::Zenject::InjectContext*, T>* value);
+  constexpr void __cordl_internal_set_callback(::System::Action_2<::Zenject::InjectContext*, T>* value);
 
   static inline ::Zenject::__InstantiateCallbackConditionCopyNonLazyBinder____c__DisplayClass2_0_1<T>* New_ctor();
 
@@ -97,7 +97,7 @@ public:
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10681))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10681))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10924))
 // CS Name: ::Zenject::InstantiateCallbackConditionCopyNonLazyBinder*
 class CORDL_TYPE InstantiateCallbackConditionCopyNonLazyBinder : public ::Zenject::ConditionCopyNonLazyBinder {

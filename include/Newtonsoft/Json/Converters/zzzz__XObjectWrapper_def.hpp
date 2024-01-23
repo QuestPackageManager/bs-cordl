@@ -30,14 +30,14 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XObjectWrapper);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12065))
 // CS Name: ::Newtonsoft.Json.Converters::XObjectWrapper*
 class CORDL_TYPE XObjectWrapper : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _xmlObject, offset 0x10, size 0x8
-  __declspec(property(get = __get__xmlObject, put = __set__xmlObject))::System::Xml::Linq::XObject* _xmlObject;
+  __declspec(property(get = __cordl_internal_get__xmlObject, put = __cordl_internal_set__xmlObject))::System::Xml::Linq::XObject* _xmlObject;
 
   /// @brief Field EmptyChildNodes, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_EmptyChildNodes, put = setStaticF_EmptyChildNodes))::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* EmptyChildNodes;
@@ -64,11 +64,11 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  constexpr ::System::Xml::Linq::XObject*& __get__xmlObject();
+  constexpr ::System::Xml::Linq::XObject*& __cordl_internal_get__xmlObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XObject*> const& __get__xmlObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Linq::XObject*> const& __cordl_internal_get__xmlObject() const;
 
-  constexpr void __set__xmlObject(::System::Xml::Linq::XObject* value);
+  constexpr void __cordl_internal_set__xmlObject(::System::Xml::Linq::XObject* value);
 
   static inline void setStaticF_EmptyChildNodes(::System::Collections::Generic::List_1<::Newtonsoft::Json::Converters::IXmlNode*>* value);
 

@@ -35,23 +35,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::MetaData);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(80))
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::MetaData*
 class CORDL_TYPE MetaData : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field hashProtected, offset 0x10, size 0x8
-  __declspec(property(get = __get_hashProtected, put = __set_hashProtected))::Org::BouncyCastle::Asn1::DerBoolean* hashProtected;
+  __declspec(property(get = __cordl_internal_get_hashProtected, put = __cordl_internal_set_hashProtected))::Org::BouncyCastle::Asn1::DerBoolean* hashProtected;
 
   /// @brief Field fileName, offset 0x18, size 0x8
-  __declspec(property(get = __get_fileName, put = __set_fileName))::Org::BouncyCastle::Asn1::DerUtf8String* fileName;
+  __declspec(property(get = __cordl_internal_get_fileName, put = __cordl_internal_set_fileName))::Org::BouncyCastle::Asn1::DerUtf8String* fileName;
 
   /// @brief Field mediaType, offset 0x20, size 0x8
-  __declspec(property(get = __get_mediaType, put = __set_mediaType))::Org::BouncyCastle::Asn1::DerIA5String* mediaType;
+  __declspec(property(get = __cordl_internal_get_mediaType, put = __cordl_internal_set_mediaType))::Org::BouncyCastle::Asn1::DerIA5String* mediaType;
 
   /// @brief Field otherMetaData, offset 0x28, size 0x8
-  __declspec(property(get = __get_otherMetaData, put = __set_otherMetaData))::Org::BouncyCastle::Asn1::Cms::Attributes* otherMetaData;
+  __declspec(property(get = __cordl_internal_get_otherMetaData, put = __cordl_internal_set_otherMetaData))::Org::BouncyCastle::Asn1::Cms::Attributes* otherMetaData;
 
   __declspec(property(get = get_IsHashProtected)) bool IsHashProtected;
 
@@ -61,29 +61,29 @@ public:
 
   __declspec(property(get = get_OtherMetaData))::Org::BouncyCastle::Asn1::Cms::Attributes* OtherMetaData;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerBoolean*& __get_hashProtected();
+  constexpr ::Org::BouncyCastle::Asn1::DerBoolean*& __cordl_internal_get_hashProtected();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBoolean*> const& __get_hashProtected() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBoolean*> const& __cordl_internal_get_hashProtected() const;
 
-  constexpr void __set_hashProtected(::Org::BouncyCastle::Asn1::DerBoolean* value);
+  constexpr void __cordl_internal_set_hashProtected(::Org::BouncyCastle::Asn1::DerBoolean* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerUtf8String*& __get_fileName();
+  constexpr ::Org::BouncyCastle::Asn1::DerUtf8String*& __cordl_internal_get_fileName();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerUtf8String*> const& __get_fileName() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerUtf8String*> const& __cordl_internal_get_fileName() const;
 
-  constexpr void __set_fileName(::Org::BouncyCastle::Asn1::DerUtf8String* value);
+  constexpr void __cordl_internal_set_fileName(::Org::BouncyCastle::Asn1::DerUtf8String* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerIA5String*& __get_mediaType();
+  constexpr ::Org::BouncyCastle::Asn1::DerIA5String*& __cordl_internal_get_mediaType();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerIA5String*> const& __get_mediaType() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerIA5String*> const& __cordl_internal_get_mediaType() const;
 
-  constexpr void __set_mediaType(::Org::BouncyCastle::Asn1::DerIA5String* value);
+  constexpr void __cordl_internal_set_mediaType(::Org::BouncyCastle::Asn1::DerIA5String* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::Attributes*& __get_otherMetaData();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::Attributes*& __cordl_internal_get_otherMetaData();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::Attributes*> const& __get_otherMetaData() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::Attributes*> const& __cordl_internal_get_otherMetaData() const;
 
-  constexpr void __set_otherMetaData(::Org::BouncyCastle::Asn1::Cms::Attributes* value);
+  constexpr void __cordl_internal_set_otherMetaData(::Org::BouncyCastle::Asn1::Cms::Attributes* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::MetaData* New_ctor(::Org::BouncyCastle::Asn1::DerBoolean* hashProtected, ::Org::BouncyCastle::Asn1::DerUtf8String* fileName,
                                                                    ::Org::BouncyCastle::Asn1::DerIA5String* mediaType, ::Org::BouncyCastle::Asn1::Cms::Attributes* otherMetaData);

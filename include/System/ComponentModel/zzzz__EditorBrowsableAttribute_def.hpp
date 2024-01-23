@@ -22,20 +22,20 @@ MARK_REF_PTR_T(::System::ComponentModel::EditorBrowsableAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(9385))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547)), TypeDefinitionIndex(TypeDefinitionIndex(9385))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9384))
 // CS Name: ::System.ComponentModel::EditorBrowsableAttribute*
 class CORDL_TYPE EditorBrowsableAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field browsableState, offset 0x10, size 0x4
-  __declspec(property(get = __get_browsableState, put = __set_browsableState))::System::ComponentModel::EditorBrowsableState browsableState;
+  __declspec(property(get = __cordl_internal_get_browsableState, put = __cordl_internal_set_browsableState))::System::ComponentModel::EditorBrowsableState browsableState;
 
-  constexpr ::System::ComponentModel::EditorBrowsableState& __get_browsableState();
+  constexpr ::System::ComponentModel::EditorBrowsableState& __cordl_internal_get_browsableState();
 
-  constexpr ::System::ComponentModel::EditorBrowsableState const& __get_browsableState() const;
+  constexpr ::System::ComponentModel::EditorBrowsableState const& __cordl_internal_get_browsableState() const;
 
-  constexpr void __set_browsableState(::System::ComponentModel::EditorBrowsableState value);
+  constexpr void __cordl_internal_set_browsableState(::System::ComponentModel::EditorBrowsableState value);
 
   static inline ::System::ComponentModel::EditorBrowsableAttribute* New_ctor(::System::ComponentModel::EditorBrowsableState state);
 

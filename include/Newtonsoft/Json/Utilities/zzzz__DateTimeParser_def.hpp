@@ -21,7 +21,7 @@ MARK_VAL_T(::Newtonsoft::Json::Utilities::DateTimeParser);
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Utilities {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11845))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11845))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11846))
 // CS Name: ::Newtonsoft.Json.Utilities::DateTimeParser
 struct CORDL_TYPE DateTimeParser {

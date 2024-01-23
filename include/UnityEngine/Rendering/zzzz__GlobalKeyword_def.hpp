@@ -16,7 +16,7 @@ MARK_VAL_T(::UnityEngine::Rendering::GlobalKeyword);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Rendering {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10370))
 // CS Name: ::UnityEngine.Rendering::GlobalKeyword
 struct CORDL_TYPE GlobalKeyword {

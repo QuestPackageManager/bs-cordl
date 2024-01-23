@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::System::Runtime::InteropServices::GuidAttribute);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::InteropServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3323))
 // CS Name: ::System.Runtime.InteropServices::GuidAttribute*
 class CORDL_TYPE GuidAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field _val, offset 0x10, size 0x8
-  __declspec(property(get = __get__val, put = __set__val))::StringW _val;
+  __declspec(property(get = __cordl_internal_get__val, put = __cordl_internal_set__val))::StringW _val;
 
-  constexpr ::StringW& __get__val();
+  constexpr ::StringW& __cordl_internal_get__val();
 
-  constexpr ::StringW const& __get__val() const;
+  constexpr ::StringW const& __cordl_internal_get__val() const;
 
-  constexpr void __set__val(::StringW value);
+  constexpr void __cordl_internal_set__val(::StringW value);
 
   static inline ::System::Runtime::InteropServices::GuidAttribute* New_ctor(::StringW guid);
 

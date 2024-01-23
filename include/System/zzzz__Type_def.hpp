@@ -98,14 +98,14 @@ MARK_REF_PTR_T(::System::Type);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3459)), TypeDefinitionIndex(TypeDefinitionIndex(3474)), TypeDefinitionIndex(TypeDefinitionIndex(2618))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2618)), TypeDefinitionIndex(TypeDefinitionIndex(3459)), TypeDefinitionIndex(TypeDefinitionIndex(3474))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2494))
 // CS Name: ::System::Type*
 class CORDL_TYPE Type : public ::System::Reflection::MemberInfo {
 public:
   // Declarations
   /// @brief Field _impl, offset 0x10, size 0x8
-  __declspec(property(get = __get__impl, put = __set__impl))::System::RuntimeTypeHandle _impl;
+  __declspec(property(get = __cordl_internal_get__impl, put = __cordl_internal_set__impl))::System::RuntimeTypeHandle _impl;
 
   /// @brief Field s_defaultBinder, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_defaultBinder, put = setStaticF_s_defaultBinder))::System::Reflection::Binder* s_defaultBinder;
@@ -232,11 +232,11 @@ public:
 
   __declspec(property(get = get_NameOrDefault))::StringW NameOrDefault;
 
-  constexpr ::System::RuntimeTypeHandle& __get__impl();
+  constexpr ::System::RuntimeTypeHandle& __cordl_internal_get__impl();
 
-  constexpr ::System::RuntimeTypeHandle const& __get__impl() const;
+  constexpr ::System::RuntimeTypeHandle const& __cordl_internal_get__impl() const;
 
-  constexpr void __set__impl(::System::RuntimeTypeHandle value);
+  constexpr void __cordl_internal_set__impl(::System::RuntimeTypeHandle value);
 
   static inline void setStaticF_s_defaultBinder(::System::Reflection::Binder* value);
 

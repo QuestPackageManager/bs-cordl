@@ -35,24 +35,24 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::CertificateID);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1610))
 // CS Name: ::Org.BouncyCastle.Ocsp::CertificateID*
 class CORDL_TYPE CertificateID : public ::System::Object {
 public:
   // Declarations
   /// @brief Field id, offset 0x10, size 0x8
-  __declspec(property(get = __get_id, put = __set_id))::Org::BouncyCastle::Asn1::Ocsp::CertID* id;
+  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::Org::BouncyCastle::Asn1::Ocsp::CertID* id;
 
   __declspec(property(get = get_HashAlgOid))::StringW HashAlgOid;
 
   __declspec(property(get = get_SerialNumber))::Org::BouncyCastle::Math::BigInteger* SerialNumber;
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::CertID*& __get_id();
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::CertID*& __cordl_internal_get_id();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::CertID*> const& __get_id() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::CertID*> const& __cordl_internal_get_id() const;
 
-  constexpr void __set_id(::Org::BouncyCastle::Asn1::Ocsp::CertID* value);
+  constexpr void __cordl_internal_set_id(::Org::BouncyCastle::Asn1::Ocsp::CertID* value);
 
   static inline ::Org::BouncyCastle::Ocsp::CertificateID* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::CertID* id);
 

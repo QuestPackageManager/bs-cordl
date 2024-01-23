@@ -18,15 +18,15 @@ MARK_REF_PTR_T(::UnityEngine::MeshRenderer);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10064))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10064))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10067))
 // CS Name: ::UnityEngine::MeshRenderer*
 class CORDL_TYPE MeshRenderer : public ::UnityEngine::Renderer {
 public:
   // Declarations
-  __declspec(property(get = get_additionalVertexStreams, put = set_additionalVertexStreams))::UnityEngine::Mesh* additionalVertexStreams;
+  __declspec(property(get = get_additionalVertexStreams, put = set_additionalVertexStreams))::UnityW<::UnityEngine::Mesh> additionalVertexStreams;
 
-  __declspec(property(get = get_enlightenVertexStream, put = set_enlightenVertexStream))::UnityEngine::Mesh* enlightenVertexStream;
+  __declspec(property(get = get_enlightenVertexStream, put = set_enlightenVertexStream))::UnityW<::UnityEngine::Mesh> enlightenVertexStream;
 
   __declspec(property(get = get_subMeshStartIndex)) int32_t subMeshStartIndex;
 
@@ -34,13 +34,13 @@ public:
   inline void DontStripMeshRenderer();
 
   /// @brief Method get_additionalVertexStreams, addr 0x2ca4238, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Mesh* get_additionalVertexStreams();
+  inline ::UnityW<::UnityEngine::Mesh> get_additionalVertexStreams();
 
   /// @brief Method set_additionalVertexStreams, addr 0x2ca4274, size 0x44, virtual false, abstract: false, final false
   inline void set_additionalVertexStreams(::UnityEngine::Mesh* value);
 
   /// @brief Method get_enlightenVertexStream, addr 0x2ca42b8, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Mesh* get_enlightenVertexStream();
+  inline ::UnityW<::UnityEngine::Mesh> get_enlightenVertexStream();
 
   /// @brief Method set_enlightenVertexStream, addr 0x2ca42f4, size 0x44, virtual false, abstract: false, final false
   inline void set_enlightenVertexStream(::UnityEngine::Mesh* value);

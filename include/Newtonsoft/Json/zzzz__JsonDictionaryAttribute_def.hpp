@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonDictionaryAttribute);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11815))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11815))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11803))
 // CS Name: ::Newtonsoft.Json::JsonDictionaryAttribute*
 class CORDL_TYPE JsonDictionaryAttribute : public ::Newtonsoft::Json::JsonContainerAttribute {

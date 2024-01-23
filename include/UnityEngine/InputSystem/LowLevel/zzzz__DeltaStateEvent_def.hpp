@@ -47,7 +47,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 1, calculated_native_size: 17, minimum_alignment: 1, natural_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6520))
 // CS Name: ::DeltaStateEvent::<stateData>e__FixedBuffer
 #pragma pack(push, 0)
@@ -80,7 +80,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent__
 // SizeInfo { instance_size: 29, native_size: 29, calculated_instance_size: 29, calculated_native_size: 45, minimum_alignment: 1, natural_alignment: 8, packing: Some(1), specified_packing: Some(1) }
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6520)), TypeDefinitionIndex(TypeDefinitionIndex(6667)), TypeDefinitionIndex(TypeDefinitionIndex(6530))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6520)), TypeDefinitionIndex(TypeDefinitionIndex(6530)), TypeDefinitionIndex(TypeDefinitionIndex(6667))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6521))
 // CS Name: ::UnityEngine.InputSystem.LowLevel::DeltaStateEvent
 #pragma pack(push, 1)
@@ -90,16 +90,16 @@ public:
   using _stateData_e__FixedBuffer = ::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer;
 
   /// @brief Field baseEvent, offset 0x0, size 0x14
-  __declspec(property(get = __get_baseEvent, put = __set_baseEvent))::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent;
+  __declspec(property(get = __cordl_internal_get_baseEvent, put = __cordl_internal_set_baseEvent))::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent;
 
   /// @brief Field stateFormat, offset 0x14, size 0x4
-  __declspec(property(get = __get_stateFormat, put = __set_stateFormat))::UnityEngine::InputSystem::Utilities::FourCC stateFormat;
+  __declspec(property(get = __cordl_internal_get_stateFormat, put = __cordl_internal_set_stateFormat))::UnityEngine::InputSystem::Utilities::FourCC stateFormat;
 
   /// @brief Field stateOffset, offset 0x18, size 0x4
-  __declspec(property(get = __get_stateOffset, put = __set_stateOffset)) uint32_t stateOffset;
+  __declspec(property(get = __cordl_internal_get_stateOffset, put = __cordl_internal_set_stateOffset)) uint32_t stateOffset;
 
   /// @brief Field stateData, offset 0x1c, size 0x1
-  __declspec(property(get = __get_stateData, put = __set_stateData))::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer stateData;
+  __declspec(property(get = __cordl_internal_get_stateData, put = __cordl_internal_set_stateData))::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer stateData;
 
   __declspec(property(get = get_deltaStateSizeInBytes)) uint32_t deltaStateSizeInBytes;
 
@@ -113,29 +113,29 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo* i___UnityEngine__InputSystem__LowLevel__IInputEventTypeInfo();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __get_baseEvent();
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent& __cordl_internal_get_baseEvent();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __get_baseEvent() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
 
-  constexpr void __set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
+  constexpr void __cordl_internal_set_baseEvent(::UnityEngine::InputSystem::LowLevel::InputEvent value);
 
-  constexpr ::UnityEngine::InputSystem::Utilities::FourCC& __get_stateFormat();
+  constexpr ::UnityEngine::InputSystem::Utilities::FourCC& __cordl_internal_get_stateFormat();
 
-  constexpr ::UnityEngine::InputSystem::Utilities::FourCC const& __get_stateFormat() const;
+  constexpr ::UnityEngine::InputSystem::Utilities::FourCC const& __cordl_internal_get_stateFormat() const;
 
-  constexpr void __set_stateFormat(::UnityEngine::InputSystem::Utilities::FourCC value);
+  constexpr void __cordl_internal_set_stateFormat(::UnityEngine::InputSystem::Utilities::FourCC value);
 
-  constexpr uint32_t& __get_stateOffset();
+  constexpr uint32_t& __cordl_internal_get_stateOffset();
 
-  constexpr uint32_t const& __get_stateOffset() const;
+  constexpr uint32_t const& __cordl_internal_get_stateOffset() const;
 
-  constexpr void __set_stateOffset(uint32_t value);
+  constexpr void __cordl_internal_set_stateOffset(uint32_t value);
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer& __get_stateData();
+  constexpr ::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer& __cordl_internal_get_stateData();
 
-  constexpr ::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer const& __get_stateData() const;
+  constexpr ::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer const& __cordl_internal_get_stateData() const;
 
-  constexpr void __set_stateData(::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer value);
+  constexpr void __cordl_internal_set_stateData(::UnityEngine::InputSystem::LowLevel::__DeltaStateEvent___stateData_e__FixedBuffer value);
 
   /// @brief Method get_deltaStateSizeInBytes, addr 0x2ae9570, size 0xc, virtual false, abstract: false, final false
   inline uint32_t get_deltaStateSizeInBytes();

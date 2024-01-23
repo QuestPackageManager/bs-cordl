@@ -26,26 +26,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Encodings::ISO9796d1Encoding);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Encodings {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(819))
 // CS Name: ::Org.BouncyCastle.Crypto.Encodings::ISO9796d1Encoding*
 class CORDL_TYPE ISO9796d1Encoding : public ::System::Object {
 public:
   // Declarations
   /// @brief Field engine, offset 0x10, size 0x8
-  __declspec(property(get = __get_engine, put = __set_engine))::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine;
+  __declspec(property(get = __cordl_internal_get_engine, put = __cordl_internal_set_engine))::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine;
 
   /// @brief Field forEncryption, offset 0x18, size 0x1
-  __declspec(property(get = __get_forEncryption, put = __set_forEncryption)) bool forEncryption;
+  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
 
   /// @brief Field bitSize, offset 0x1c, size 0x4
-  __declspec(property(get = __get_bitSize, put = __set_bitSize)) int32_t bitSize;
+  __declspec(property(get = __cordl_internal_get_bitSize, put = __cordl_internal_set_bitSize)) int32_t bitSize;
 
   /// @brief Field padBits, offset 0x20, size 0x4
-  __declspec(property(get = __get_padBits, put = __set_padBits)) int32_t padBits;
+  __declspec(property(get = __cordl_internal_get_padBits, put = __cordl_internal_set_padBits)) int32_t padBits;
 
   /// @brief Field modulus, offset 0x28, size 0x8
-  __declspec(property(get = __get_modulus, put = __set_modulus))::Org::BouncyCastle::Math::BigInteger* modulus;
+  __declspec(property(get = __cordl_internal_get_modulus, put = __cordl_internal_set_modulus))::Org::BouncyCastle::Math::BigInteger* modulus;
 
   /// @brief Field Sixteen, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Sixteen, put = setStaticF_Sixteen))::Org::BouncyCastle::Math::BigInteger* Sixteen;
@@ -67,35 +67,35 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher"
   constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* i___Org__BouncyCastle__Crypto__IAsymmetricBlockCipher() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& __get_engine();
+  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*& __cordl_internal_get_engine();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*> const& __get_engine() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher*> const& __cordl_internal_get_engine() const;
 
-  constexpr void __set_engine(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
+  constexpr void __cordl_internal_set_engine(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
 
-  constexpr bool& __get_forEncryption();
+  constexpr bool& __cordl_internal_get_forEncryption();
 
-  constexpr bool const& __get_forEncryption() const;
+  constexpr bool const& __cordl_internal_get_forEncryption() const;
 
-  constexpr void __set_forEncryption(bool value);
+  constexpr void __cordl_internal_set_forEncryption(bool value);
 
-  constexpr int32_t& __get_bitSize();
+  constexpr int32_t& __cordl_internal_get_bitSize();
 
-  constexpr int32_t const& __get_bitSize() const;
+  constexpr int32_t const& __cordl_internal_get_bitSize() const;
 
-  constexpr void __set_bitSize(int32_t value);
+  constexpr void __cordl_internal_set_bitSize(int32_t value);
 
-  constexpr int32_t& __get_padBits();
+  constexpr int32_t& __cordl_internal_get_padBits();
 
-  constexpr int32_t const& __get_padBits() const;
+  constexpr int32_t const& __cordl_internal_get_padBits() const;
 
-  constexpr void __set_padBits(int32_t value);
+  constexpr void __cordl_internal_set_padBits(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_modulus();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_modulus();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_modulus() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_modulus() const;
 
-  constexpr void __set_modulus(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_modulus(::Org::BouncyCastle::Math::BigInteger* value);
 
   static inline void setStaticF_Sixteen(::Org::BouncyCastle::Math::BigInteger* value);
 

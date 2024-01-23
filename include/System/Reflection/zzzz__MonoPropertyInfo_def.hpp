@@ -25,7 +25,7 @@ MARK_VAL_T(::System::Reflection::MonoPropertyInfo);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3487))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3487))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3527))
 // CS Name: ::System.Reflection::MonoPropertyInfo
 struct CORDL_TYPE MonoPropertyInfo {

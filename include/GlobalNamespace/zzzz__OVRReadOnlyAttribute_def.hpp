@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRReadOnlyAttribute);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10170))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10170))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8159))
 // CS Name: ::OVRReadOnlyAttribute*
 class CORDL_TYPE OVRReadOnlyAttribute : public ::UnityEngine::PropertyAttribute {

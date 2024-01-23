@@ -20,29 +20,29 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsContentInfoParser);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(620))
 // CS Name: ::Org.BouncyCastle.Cms::CmsContentInfoParser*
 class CORDL_TYPE CmsContentInfoParser : public ::System::Object {
 public:
   // Declarations
   /// @brief Field contentInfo, offset 0x10, size 0x8
-  __declspec(property(get = __get_contentInfo, put = __set_contentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* contentInfo;
+  __declspec(property(get = __cordl_internal_get_contentInfo, put = __cordl_internal_set_contentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* contentInfo;
 
   /// @brief Field data, offset 0x18, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::System::IO::Stream* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::System::IO::Stream* data;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser*& __get_contentInfo();
+  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser*& __cordl_internal_get_contentInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfoParser*> const& __get_contentInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfoParser*> const& __cordl_internal_get_contentInfo() const;
 
-  constexpr void __set_contentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* value);
+  constexpr void __cordl_internal_set_contentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* value);
 
-  constexpr ::System::IO::Stream*& __get_data();
+  constexpr ::System::IO::Stream*& __cordl_internal_get_data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __get_data() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::System::IO::Stream* value);
+  constexpr void __cordl_internal_set_data(::System::IO::Stream* value);
 
   static inline ::Org::BouncyCastle::Cms::CmsContentInfoParser* New_ctor(::System::IO::Stream* data);
 

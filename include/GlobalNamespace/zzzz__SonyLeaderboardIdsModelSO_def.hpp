@@ -34,33 +34,33 @@ MARK_REF_PTR_T(::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4582))
 // CS Name: ::SonyLeaderboardIdsModelSO::LeaderboardIdData*
 class CORDL_TYPE __SonyLeaderboardIdsModelSO__LeaderboardIdData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _sonyLeaderboardId, offset 0x10, size 0x4
-  __declspec(property(get = __get__sonyLeaderboardId, put = __set__sonyLeaderboardId)) uint32_t _sonyLeaderboardId;
+  __declspec(property(get = __cordl_internal_get__sonyLeaderboardId, put = __cordl_internal_set__sonyLeaderboardId)) uint32_t _sonyLeaderboardId;
 
   /// @brief Field _leaderboardId, offset 0x18, size 0x8
-  __declspec(property(get = __get__leaderboardId, put = __set__leaderboardId))::StringW _leaderboardId;
+  __declspec(property(get = __cordl_internal_get__leaderboardId, put = __cordl_internal_set__leaderboardId))::StringW _leaderboardId;
 
   __declspec(property(get = get_SonyLeaderboardId)) uint32_t SonyLeaderboardId;
 
   __declspec(property(get = get_leaderboardId))::StringW leaderboardId;
 
-  constexpr uint32_t& __get__sonyLeaderboardId();
+  constexpr uint32_t& __cordl_internal_get__sonyLeaderboardId();
 
-  constexpr uint32_t const& __get__sonyLeaderboardId() const;
+  constexpr uint32_t const& __cordl_internal_get__sonyLeaderboardId() const;
 
-  constexpr void __set__sonyLeaderboardId(uint32_t value);
+  constexpr void __cordl_internal_set__sonyLeaderboardId(uint32_t value);
 
-  constexpr ::StringW& __get__leaderboardId();
+  constexpr ::StringW& __cordl_internal_get__leaderboardId();
 
-  constexpr ::StringW const& __get__leaderboardId() const;
+  constexpr ::StringW const& __cordl_internal_get__leaderboardId() const;
 
-  constexpr void __set__leaderboardId(::StringW value);
+  constexpr void __cordl_internal_set__leaderboardId(::StringW value);
 
   /// @brief Method get_SonyLeaderboardId, addr 0x236981c, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_SonyLeaderboardId();
@@ -107,7 +107,7 @@ static_assert(offsetof(::GlobalNamespace::__SonyLeaderboardIdsModelSO__Leaderboa
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4583))
 // CS Name: ::SonyLeaderboardIdsModelSO*
 class CORDL_TYPE SonyLeaderboardIdsModelSO : public ::GlobalNamespace::PersistentScriptableObject {
@@ -116,25 +116,27 @@ public:
   using LeaderboardIdData = ::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData;
 
   /// @brief Field _leaderboardIds, offset 0x18, size 0x8
-  __declspec(property(get = __get__leaderboardIds,
-                      put = __set__leaderboardIds))::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData*>* _leaderboardIds;
+  __declspec(property(get = __cordl_internal_get__leaderboardIds,
+                      put = __cordl_internal_set__leaderboardIds))::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData*>* _leaderboardIds;
 
   /// @brief Field _leaderboardIdToSonyId, offset 0x20, size 0x8
-  __declspec(property(get = __get__leaderboardIdToSonyId, put = __set__leaderboardIdToSonyId))::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>* _leaderboardIdToSonyId;
+  __declspec(property(get = __cordl_internal_get__leaderboardIdToSonyId,
+                      put = __cordl_internal_set__leaderboardIdToSonyId))::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>* _leaderboardIdToSonyId;
 
   __declspec(property(get = get_leaderboardIds))::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData*>* leaderboardIds;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData*>*& __get__leaderboardIds();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData*>*& __cordl_internal_get__leaderboardIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData*>*> const& __get__leaderboardIds() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData*>*> const&
+  __cordl_internal_get__leaderboardIds() const;
 
-  constexpr void __set__leaderboardIds(::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData*>* value);
+  constexpr void __cordl_internal_set__leaderboardIds(::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData*>* value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>*& __get__leaderboardIdToSonyId();
+  constexpr ::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>*& __cordl_internal_get__leaderboardIdToSonyId();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>*> const& __get__leaderboardIdToSonyId() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>*> const& __cordl_internal_get__leaderboardIdToSonyId() const;
 
-  constexpr void __set__leaderboardIdToSonyId(::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>* value);
+  constexpr void __cordl_internal_set__leaderboardIdToSonyId(::System::Collections::Generic::Dictionary_2<::StringW, uint32_t>* value);
 
   /// @brief Method get_leaderboardIds, addr 0x23695e8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::__SonyLeaderboardIdsModelSO__LeaderboardIdData*>* get_leaderboardIds();

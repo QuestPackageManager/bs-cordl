@@ -22,7 +22,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::PickerOptions);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12164))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12164))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12184))
 // CS Name: ::UnityEngine.ProBuilder::PickerOptions
 struct CORDL_TYPE PickerOptions {

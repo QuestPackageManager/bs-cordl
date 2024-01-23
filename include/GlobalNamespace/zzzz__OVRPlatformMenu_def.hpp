@@ -39,7 +39,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRPlatformMenu);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7682))
 // CS Name: ::OVRPlatformMenu::eHandler
 struct CORDL_TYPE __OVRPlatformMenu__eHandler {
@@ -89,7 +89,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlatformMenu__eHandler, value__) 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7683))
 // CS Name: ::OVRPlatformMenu::eBackButtonAction
 struct CORDL_TYPE __OVRPlatformMenu__eBackButtonAction {
@@ -139,7 +139,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRPlatformMenu__eBackButtonAction, 
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7682)), TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(7588))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7588)), TypeDefinitionIndex(TypeDefinitionIndex(7682)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7684))
 // CS Name: ::OVRPlatformMenu*
 class CORDL_TYPE OVRPlatformMenu : public ::UnityEngine::MonoBehaviour {
@@ -150,34 +150,34 @@ public:
   using eHandler = ::GlobalNamespace::__OVRPlatformMenu__eHandler;
 
   /// @brief Field inputCode, offset 0x18, size 0x4
-  __declspec(property(get = __get_inputCode, put = __set_inputCode))::GlobalNamespace::__OVRInput__RawButton inputCode;
+  __declspec(property(get = __cordl_internal_get_inputCode, put = __cordl_internal_set_inputCode))::GlobalNamespace::__OVRInput__RawButton inputCode;
 
   /// @brief Field shortPressHandler, offset 0x1c, size 0x4
-  __declspec(property(get = __get_shortPressHandler, put = __set_shortPressHandler))::GlobalNamespace::__OVRPlatformMenu__eHandler shortPressHandler;
+  __declspec(property(get = __cordl_internal_get_shortPressHandler, put = __cordl_internal_set_shortPressHandler))::GlobalNamespace::__OVRPlatformMenu__eHandler shortPressHandler;
 
   /// @brief Field OnShortPress, offset 0x20, size 0x8
-  __declspec(property(get = __get_OnShortPress, put = __set_OnShortPress))::System::Func_1<bool>* OnShortPress;
+  __declspec(property(get = __cordl_internal_get_OnShortPress, put = __cordl_internal_set_OnShortPress))::System::Func_1<bool>* OnShortPress;
 
   /// @brief Field sceneStack, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_sceneStack, put = setStaticF_sceneStack))::System::Collections::Generic::Stack_1<::StringW>* sceneStack;
 
-  constexpr ::GlobalNamespace::__OVRInput__RawButton& __get_inputCode();
+  constexpr ::GlobalNamespace::__OVRInput__RawButton& __cordl_internal_get_inputCode();
 
-  constexpr ::GlobalNamespace::__OVRInput__RawButton const& __get_inputCode() const;
+  constexpr ::GlobalNamespace::__OVRInput__RawButton const& __cordl_internal_get_inputCode() const;
 
-  constexpr void __set_inputCode(::GlobalNamespace::__OVRInput__RawButton value);
+  constexpr void __cordl_internal_set_inputCode(::GlobalNamespace::__OVRInput__RawButton value);
 
-  constexpr ::GlobalNamespace::__OVRPlatformMenu__eHandler& __get_shortPressHandler();
+  constexpr ::GlobalNamespace::__OVRPlatformMenu__eHandler& __cordl_internal_get_shortPressHandler();
 
-  constexpr ::GlobalNamespace::__OVRPlatformMenu__eHandler const& __get_shortPressHandler() const;
+  constexpr ::GlobalNamespace::__OVRPlatformMenu__eHandler const& __cordl_internal_get_shortPressHandler() const;
 
-  constexpr void __set_shortPressHandler(::GlobalNamespace::__OVRPlatformMenu__eHandler value);
+  constexpr void __cordl_internal_set_shortPressHandler(::GlobalNamespace::__OVRPlatformMenu__eHandler value);
 
-  constexpr ::System::Func_1<bool>*& __get_OnShortPress();
+  constexpr ::System::Func_1<bool>*& __cordl_internal_get_OnShortPress();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& __get_OnShortPress() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<bool>*> const& __cordl_internal_get_OnShortPress() const;
 
-  constexpr void __set_OnShortPress(::System::Func_1<bool>* value);
+  constexpr void __cordl_internal_set_OnShortPress(::System::Func_1<bool>* value);
 
   static inline void setStaticF_sceneStack(::System::Collections::Generic::Stack_1<::StringW>* value);
 

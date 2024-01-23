@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::GlobalNamespace::SliderMeshConstructorCrossedStrips);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4821))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4821))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4822))
 // CS Name: ::SliderMeshConstructorCrossedStrips*
 class CORDL_TYPE SliderMeshConstructorCrossedStrips : public ::GlobalNamespace::SliderMeshConstructor {
 public:
   // Declarations
   /// @brief Field _triangleMap, offset 0x48, size 0x8
-  __declspec(property(get = __get__triangleMap, put = __set__triangleMap))::ArrayW<int32_t, ::Array<int32_t>*> _triangleMap;
+  __declspec(property(get = __cordl_internal_get__triangleMap, put = __cordl_internal_set__triangleMap))::ArrayW<int32_t, ::Array<int32_t>*> _triangleMap;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __get__triangleMap();
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__triangleMap();
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __get__triangleMap() const;
+  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__triangleMap() const;
 
-  constexpr void __set__triangleMap(::ArrayW<int32_t, ::Array<int32_t>*> value);
+  constexpr void __cordl_internal_set__triangleMap(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
   /// @brief Method CreateSliderMeshInternal, addr 0x2394750, size 0x3bc, virtual true, abstract: false, final false
   inline void CreateSliderMeshInternal(::GlobalNamespace::VertexPath* path);

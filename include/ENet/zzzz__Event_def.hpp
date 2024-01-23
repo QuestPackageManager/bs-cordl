@@ -28,7 +28,7 @@ MARK_VAL_T(::ENet::Event);
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15219))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15219))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15230))
 // CS Name: ::ENet::Event
 struct CORDL_TYPE Event {

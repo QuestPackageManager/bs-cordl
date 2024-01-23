@@ -23,41 +23,41 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleVariableContext);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7266))
 // CS Name: ::UnityEngine.UIElements::StyleVariableContext*
 class CORDL_TYPE StyleVariableContext : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_VariableHash, offset 0x10, size 0x4
-  __declspec(property(get = __get_m_VariableHash, put = __set_m_VariableHash)) int32_t m_VariableHash;
+  __declspec(property(get = __cordl_internal_get_m_VariableHash, put = __cordl_internal_set_m_VariableHash)) int32_t m_VariableHash;
 
   /// @brief Field m_Variables, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Variables, put = __set_m_Variables))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>* m_Variables;
+  __declspec(property(get = __cordl_internal_get_m_Variables, put = __cordl_internal_set_m_Variables))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>* m_Variables;
 
   /// @brief Field m_SortedHash, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_SortedHash, put = __set_m_SortedHash))::System::Collections::Generic::List_1<int32_t>* m_SortedHash;
+  __declspec(property(get = __cordl_internal_get_m_SortedHash, put = __cordl_internal_set_m_SortedHash))::System::Collections::Generic::List_1<int32_t>* m_SortedHash;
 
   /// @brief Field none, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_none, put = setStaticF_none))::UnityEngine::UIElements::StyleVariableContext* none;
 
-  constexpr int32_t& __get_m_VariableHash();
+  constexpr int32_t& __cordl_internal_get_m_VariableHash();
 
-  constexpr int32_t const& __get_m_VariableHash() const;
+  constexpr int32_t const& __cordl_internal_get_m_VariableHash() const;
 
-  constexpr void __set_m_VariableHash(int32_t value);
+  constexpr void __cordl_internal_set_m_VariableHash(int32_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>*& __get_m_Variables();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>*& __cordl_internal_get_m_Variables();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>*> const& __get_m_Variables() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>*> const& __cordl_internal_get_m_Variables() const;
 
-  constexpr void __set_m_Variables(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>* value);
+  constexpr void __cordl_internal_set_m_Variables(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>* value);
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __get_m_SortedHash();
+  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_SortedHash();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __get_m_SortedHash() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_SortedHash() const;
 
-  constexpr void __set_m_SortedHash(::System::Collections::Generic::List_1<int32_t>* value);
+  constexpr void __cordl_internal_set_m_SortedHash(::System::Collections::Generic::List_1<int32_t>* value);
 
   static inline void setStaticF_none(::UnityEngine::UIElements::StyleVariableContext* value);
 

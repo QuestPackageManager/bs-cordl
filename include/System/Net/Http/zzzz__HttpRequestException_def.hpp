@@ -18,7 +18,7 @@ MARK_REF_PTR_T(::System::Net::Http::HttpRequestException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14653))
 // CS Name: ::System.Net.Http::HttpRequestException*
 class CORDL_TYPE HttpRequestException : public ::System::Exception {

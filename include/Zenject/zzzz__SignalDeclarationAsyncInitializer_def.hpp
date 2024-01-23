@@ -36,17 +36,17 @@ MARK_REF_PTR_T(::Zenject::SignalDeclarationAsyncInitializer);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10668))
 // CS Name: ::Zenject::SignalDeclarationAsyncInitializer*
 class CORDL_TYPE SignalDeclarationAsyncInitializer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _tickManager, offset 0x10, size 0x8
-  __declspec(property(get = __get__tickManager, put = __set__tickManager))::Zenject::LazyInject_1<::Zenject::TickableManager*>* _tickManager;
+  __declspec(property(get = __cordl_internal_get__tickManager, put = __cordl_internal_set__tickManager))::Zenject::LazyInject_1<::Zenject::TickableManager*>* _tickManager;
 
   /// @brief Field _declarations, offset 0x18, size 0x8
-  __declspec(property(get = __get__declarations, put = __set__declarations))::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* _declarations;
+  __declspec(property(get = __cordl_internal_get__declarations, put = __cordl_internal_set__declarations))::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* _declarations;
 
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
@@ -54,17 +54,17 @@ public:
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
-  constexpr ::Zenject::LazyInject_1<::Zenject::TickableManager*>*& __get__tickManager();
+  constexpr ::Zenject::LazyInject_1<::Zenject::TickableManager*>*& __cordl_internal_get__tickManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::LazyInject_1<::Zenject::TickableManager*>*> const& __get__tickManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::LazyInject_1<::Zenject::TickableManager*>*> const& __cordl_internal_get__tickManager() const;
 
-  constexpr void __set__tickManager(::Zenject::LazyInject_1<::Zenject::TickableManager*>* value);
+  constexpr void __cordl_internal_set__tickManager(::Zenject::LazyInject_1<::Zenject::TickableManager*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>*& __get__declarations();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>*& __cordl_internal_get__declarations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>*> const& __get__declarations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>*> const& __cordl_internal_get__declarations() const;
 
-  constexpr void __set__declarations(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* value);
+  constexpr void __cordl_internal_set__declarations(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* value);
 
   static inline ::Zenject::SignalDeclarationAsyncInitializer* New_ctor(::System::Collections::Generic::List_1<::Zenject::SignalDeclaration*>* declarations,
                                                                        ::Zenject::LazyInject_1<::Zenject::TickableManager*>* tickManager);

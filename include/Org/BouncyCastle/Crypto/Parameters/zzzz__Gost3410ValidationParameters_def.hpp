@@ -18,23 +18,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParame
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1056))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::Gost3410ValidationParameters*
 class CORDL_TYPE Gost3410ValidationParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field x0, offset 0x10, size 0x4
-  __declspec(property(get = __get_x0, put = __set_x0)) int32_t x0;
+  __declspec(property(get = __cordl_internal_get_x0, put = __cordl_internal_set_x0)) int32_t x0;
 
   /// @brief Field c, offset 0x14, size 0x4
-  __declspec(property(get = __get_c, put = __set_c)) int32_t c;
+  __declspec(property(get = __cordl_internal_get_c, put = __cordl_internal_set_c)) int32_t c;
 
   /// @brief Field x0L, offset 0x18, size 0x8
-  __declspec(property(get = __get_x0L, put = __set_x0L)) int64_t x0L;
+  __declspec(property(get = __cordl_internal_get_x0L, put = __cordl_internal_set_x0L)) int64_t x0L;
 
   /// @brief Field cL, offset 0x20, size 0x8
-  __declspec(property(get = __get_cL, put = __set_cL)) int64_t cL;
+  __declspec(property(get = __cordl_internal_get_cL, put = __cordl_internal_set_cL)) int64_t cL;
 
   __declspec(property(get = get_C)) int32_t C;
 
@@ -44,29 +44,29 @@ public:
 
   __declspec(property(get = get_X0L)) int64_t X0L;
 
-  constexpr int32_t& __get_x0();
+  constexpr int32_t& __cordl_internal_get_x0();
 
-  constexpr int32_t const& __get_x0() const;
+  constexpr int32_t const& __cordl_internal_get_x0() const;
 
-  constexpr void __set_x0(int32_t value);
+  constexpr void __cordl_internal_set_x0(int32_t value);
 
-  constexpr int32_t& __get_c();
+  constexpr int32_t& __cordl_internal_get_c();
 
-  constexpr int32_t const& __get_c() const;
+  constexpr int32_t const& __cordl_internal_get_c() const;
 
-  constexpr void __set_c(int32_t value);
+  constexpr void __cordl_internal_set_c(int32_t value);
 
-  constexpr int64_t& __get_x0L();
+  constexpr int64_t& __cordl_internal_get_x0L();
 
-  constexpr int64_t const& __get_x0L() const;
+  constexpr int64_t const& __cordl_internal_get_x0L() const;
 
-  constexpr void __set_x0L(int64_t value);
+  constexpr void __cordl_internal_set_x0L(int64_t value);
 
-  constexpr int64_t& __get_cL();
+  constexpr int64_t& __cordl_internal_get_cL();
 
-  constexpr int64_t const& __get_cL() const;
+  constexpr int64_t const& __cordl_internal_get_cL() const;
 
-  constexpr void __set_cL(int64_t value);
+  constexpr void __cordl_internal_set_cL(int64_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Gost3410ValidationParameters* New_ctor(int32_t x0, int32_t c);
 

@@ -35,7 +35,7 @@ MARK_VAL_T(::UnityEngine::UIElements::ManipulatorActivationFilter);
 // SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14602)), TypeDefinitionIndex(TypeDefinitionIndex(6773))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6773)), TypeDefinitionIndex(TypeDefinitionIndex(14602))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6783))
 // CS Name: ::UnityEngine.UIElements::ManipulatorActivationFilter
 struct CORDL_TYPE ManipulatorActivationFilter {

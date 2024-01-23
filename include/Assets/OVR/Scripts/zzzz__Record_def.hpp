@@ -16,38 +16,38 @@ MARK_REF_PTR_T(::Assets::OVR::Scripts::Record);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Assets::OVR::Scripts {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8734))
 // CS Name: ::Assets.OVR.Scripts::Record*
 class CORDL_TYPE Record : public ::System::Object {
 public:
   // Declarations
   /// @brief Field sortOrder, offset 0x10, size 0x4
-  __declspec(property(get = __get_sortOrder, put = __set_sortOrder)) int32_t sortOrder;
+  __declspec(property(get = __cordl_internal_get_sortOrder, put = __cordl_internal_set_sortOrder)) int32_t sortOrder;
 
   /// @brief Field category, offset 0x18, size 0x8
-  __declspec(property(get = __get_category, put = __set_category))::StringW category;
+  __declspec(property(get = __cordl_internal_get_category, put = __cordl_internal_set_category))::StringW category;
 
   /// @brief Field message, offset 0x20, size 0x8
-  __declspec(property(get = __get_message, put = __set_message))::StringW message;
+  __declspec(property(get = __cordl_internal_get_message, put = __cordl_internal_set_message))::StringW message;
 
-  constexpr int32_t& __get_sortOrder();
+  constexpr int32_t& __cordl_internal_get_sortOrder();
 
-  constexpr int32_t const& __get_sortOrder() const;
+  constexpr int32_t const& __cordl_internal_get_sortOrder() const;
 
-  constexpr void __set_sortOrder(int32_t value);
+  constexpr void __cordl_internal_set_sortOrder(int32_t value);
 
-  constexpr ::StringW& __get_category();
+  constexpr ::StringW& __cordl_internal_get_category();
 
-  constexpr ::StringW const& __get_category() const;
+  constexpr ::StringW const& __cordl_internal_get_category() const;
 
-  constexpr void __set_category(::StringW value);
+  constexpr void __cordl_internal_set_category(::StringW value);
 
-  constexpr ::StringW& __get_message();
+  constexpr ::StringW& __cordl_internal_get_message();
 
-  constexpr ::StringW const& __get_message() const;
+  constexpr ::StringW const& __cordl_internal_get_message() const;
 
-  constexpr void __set_message(::StringW value);
+  constexpr void __cordl_internal_set_message(::StringW value);
 
   static inline ::Assets::OVR::Scripts::Record* New_ctor(int32_t order, ::StringW cat, ::StringW msg);
 

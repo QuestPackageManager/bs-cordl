@@ -21,14 +21,14 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::Test_HAPI_NodeInfo);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 84, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9733)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9733))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9890))
 // CS Name: ::HoudiniEngineUnity::Test_HAPI_NodeInfo*
 class CORDL_TYPE Test_HAPI_NodeInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field self, offset 0x10, size 0x44
-  __declspec(property(get = __get_self, put = __set_self))::HoudiniEngineUnity::HAPI_NodeInfo self;
+  __declspec(property(get = __cordl_internal_get_self, put = __cordl_internal_set_self))::HoudiniEngineUnity::HAPI_NodeInfo self;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_NodeInfo*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_NodeInfo*>*() noexcept;
@@ -36,11 +36,11 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_NodeInfo*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::Test_HAPI_NodeInfo*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__Test_HAPI_NodeInfo__() noexcept;
 
-  constexpr ::HoudiniEngineUnity::HAPI_NodeInfo& __get_self();
+  constexpr ::HoudiniEngineUnity::HAPI_NodeInfo& __cordl_internal_get_self();
 
-  constexpr ::HoudiniEngineUnity::HAPI_NodeInfo const& __get_self() const;
+  constexpr ::HoudiniEngineUnity::HAPI_NodeInfo const& __cordl_internal_get_self() const;
 
-  constexpr void __set_self(::HoudiniEngineUnity::HAPI_NodeInfo value);
+  constexpr void __cordl_internal_set_self(::HoudiniEngineUnity::HAPI_NodeInfo value);
 
   static inline ::HoudiniEngineUnity::Test_HAPI_NodeInfo* New_ctor(::HoudiniEngineUnity::HAPI_NodeInfo self);
 

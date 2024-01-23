@@ -59,7 +59,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRControllerTest____c);
 // SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2611))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2611))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8081))
 // CS Name: ::OVRControllerTest::BoolMonitor::BoolGenerator*
 class CORDL_TYPE __OVRControllerTest__BoolMonitor__BoolGenerator : public ::System::MulticastDelegate {
@@ -103,7 +103,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRController
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8082))
 // CS Name: ::OVRControllerTest::BoolMonitor*
 class CORDL_TYPE __OVRControllerTest__BoolMonitor : public ::System::Object {
@@ -112,67 +112,67 @@ public:
   using BoolGenerator = ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator;
 
   /// @brief Field m_name, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_name, put = __set_m_name))::StringW m_name;
+  __declspec(property(get = __cordl_internal_get_m_name, put = __cordl_internal_set_m_name))::StringW m_name;
 
   /// @brief Field m_generator, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_generator, put = __set_m_generator))::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* m_generator;
+  __declspec(property(get = __cordl_internal_get_m_generator, put = __cordl_internal_set_m_generator))::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* m_generator;
 
   /// @brief Field m_prevValue, offset 0x20, size 0x1
-  __declspec(property(get = __get_m_prevValue, put = __set_m_prevValue)) bool m_prevValue;
+  __declspec(property(get = __cordl_internal_get_m_prevValue, put = __cordl_internal_set_m_prevValue)) bool m_prevValue;
 
   /// @brief Field m_currentValue, offset 0x21, size 0x1
-  __declspec(property(get = __get_m_currentValue, put = __set_m_currentValue)) bool m_currentValue;
+  __declspec(property(get = __cordl_internal_get_m_currentValue, put = __cordl_internal_set_m_currentValue)) bool m_currentValue;
 
   /// @brief Field m_currentValueRecentlyChanged, offset 0x22, size 0x1
-  __declspec(property(get = __get_m_currentValueRecentlyChanged, put = __set_m_currentValueRecentlyChanged)) bool m_currentValueRecentlyChanged;
+  __declspec(property(get = __cordl_internal_get_m_currentValueRecentlyChanged, put = __cordl_internal_set_m_currentValueRecentlyChanged)) bool m_currentValueRecentlyChanged;
 
   /// @brief Field m_displayTimeout, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_displayTimeout, put = __set_m_displayTimeout)) float_t m_displayTimeout;
+  __declspec(property(get = __cordl_internal_get_m_displayTimeout, put = __cordl_internal_set_m_displayTimeout)) float_t m_displayTimeout;
 
   /// @brief Field m_displayTimer, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_displayTimer, put = __set_m_displayTimer)) float_t m_displayTimer;
+  __declspec(property(get = __cordl_internal_get_m_displayTimer, put = __cordl_internal_set_m_displayTimer)) float_t m_displayTimer;
 
-  constexpr ::StringW& __get_m_name();
+  constexpr ::StringW& __cordl_internal_get_m_name();
 
-  constexpr ::StringW const& __get_m_name() const;
+  constexpr ::StringW const& __cordl_internal_get_m_name() const;
 
-  constexpr void __set_m_name(::StringW value);
+  constexpr void __cordl_internal_set_m_name(::StringW value);
 
-  constexpr ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator*& __get_m_generator();
+  constexpr ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator*& __cordl_internal_get_m_generator();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator*> const& __get_m_generator() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator*> const& __cordl_internal_get_m_generator() const;
 
-  constexpr void __set_m_generator(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
+  constexpr void __cordl_internal_set_m_generator(::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* value);
 
-  constexpr bool& __get_m_prevValue();
+  constexpr bool& __cordl_internal_get_m_prevValue();
 
-  constexpr bool const& __get_m_prevValue() const;
+  constexpr bool const& __cordl_internal_get_m_prevValue() const;
 
-  constexpr void __set_m_prevValue(bool value);
+  constexpr void __cordl_internal_set_m_prevValue(bool value);
 
-  constexpr bool& __get_m_currentValue();
+  constexpr bool& __cordl_internal_get_m_currentValue();
 
-  constexpr bool const& __get_m_currentValue() const;
+  constexpr bool const& __cordl_internal_get_m_currentValue() const;
 
-  constexpr void __set_m_currentValue(bool value);
+  constexpr void __cordl_internal_set_m_currentValue(bool value);
 
-  constexpr bool& __get_m_currentValueRecentlyChanged();
+  constexpr bool& __cordl_internal_get_m_currentValueRecentlyChanged();
 
-  constexpr bool const& __get_m_currentValueRecentlyChanged() const;
+  constexpr bool const& __cordl_internal_get_m_currentValueRecentlyChanged() const;
 
-  constexpr void __set_m_currentValueRecentlyChanged(bool value);
+  constexpr void __cordl_internal_set_m_currentValueRecentlyChanged(bool value);
 
-  constexpr float_t& __get_m_displayTimeout();
+  constexpr float_t& __cordl_internal_get_m_displayTimeout();
 
-  constexpr float_t const& __get_m_displayTimeout() const;
+  constexpr float_t const& __cordl_internal_get_m_displayTimeout() const;
 
-  constexpr void __set_m_displayTimeout(float_t value);
+  constexpr void __cordl_internal_set_m_displayTimeout(float_t value);
 
-  constexpr float_t& __get_m_displayTimer();
+  constexpr float_t& __cordl_internal_get_m_displayTimer();
 
-  constexpr float_t const& __get_m_displayTimer() const;
+  constexpr float_t const& __cordl_internal_get_m_displayTimer() const;
 
-  constexpr void __set_m_displayTimer(float_t value);
+  constexpr void __cordl_internal_set_m_displayTimer(float_t value);
 
   static inline ::GlobalNamespace::__OVRControllerTest__BoolMonitor* New_ctor(::StringW name, ::GlobalNamespace::__OVRControllerTest__BoolMonitor__BoolGenerator* generator, float_t displayTimeout);
 
@@ -244,7 +244,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRControllerTest__BoolMonitor, ___m
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8083))
 // CS Name: ::OVRControllerTest::<>c*
 class CORDL_TYPE __OVRControllerTest____c : public ::System::Object {
@@ -599,7 +599,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRController
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8084))
 // CS Name: ::OVRControllerTest*
 class CORDL_TYPE OVRControllerTest : public ::UnityEngine::MonoBehaviour {
@@ -610,13 +610,13 @@ public:
   using BoolMonitor = ::GlobalNamespace::__OVRControllerTest__BoolMonitor;
 
   /// @brief Field uiText, offset 0x18, size 0x8
-  __declspec(property(get = __get_uiText, put = __set_uiText))::UnityEngine::UI::Text* uiText;
+  __declspec(property(get = __cordl_internal_get_uiText, put = __cordl_internal_set_uiText))::UnityW<::UnityEngine::UI::Text> uiText;
 
   /// @brief Field monitors, offset 0x20, size 0x8
-  __declspec(property(get = __get_monitors, put = __set_monitors))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRControllerTest__BoolMonitor*>* monitors;
+  __declspec(property(get = __cordl_internal_get_monitors, put = __cordl_internal_set_monitors))::System::Collections::Generic::List_1<::GlobalNamespace::__OVRControllerTest__BoolMonitor*>* monitors;
 
   /// @brief Field data, offset 0x28, size 0x8
-  __declspec(property(get = __get_data, put = __set_data))::System::Text::StringBuilder* data;
+  __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data))::System::Text::StringBuilder* data;
 
   /// @brief Field prevConnected, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_prevConnected, put = setStaticF_prevConnected))::StringW prevConnected;
@@ -624,23 +624,23 @@ public:
   /// @brief Field controllers, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_controllers, put = setStaticF_controllers))::GlobalNamespace::__OVRControllerTest__BoolMonitor* controllers;
 
-  constexpr ::UnityEngine::UI::Text*& __get_uiText();
+  constexpr ::UnityW<::UnityEngine::UI::Text>& __cordl_internal_get_uiText();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Text*> const& __get_uiText() const;
+  constexpr ::UnityW<::UnityEngine::UI::Text> const& __cordl_internal_get_uiText() const;
 
-  constexpr void __set_uiText(::UnityEngine::UI::Text* value);
+  constexpr void __cordl_internal_set_uiText(::UnityW<::UnityEngine::UI::Text> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRControllerTest__BoolMonitor*>*& __get_monitors();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRControllerTest__BoolMonitor*>*& __cordl_internal_get_monitors();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRControllerTest__BoolMonitor*>*> const& __get_monitors() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__OVRControllerTest__BoolMonitor*>*> const& __cordl_internal_get_monitors() const;
 
-  constexpr void __set_monitors(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRControllerTest__BoolMonitor*>* value);
+  constexpr void __cordl_internal_set_monitors(::System::Collections::Generic::List_1<::GlobalNamespace::__OVRControllerTest__BoolMonitor*>* value);
 
-  constexpr ::System::Text::StringBuilder*& __get_data();
+  constexpr ::System::Text::StringBuilder*& __cordl_internal_get_data();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __get_data() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Text::StringBuilder*> const& __cordl_internal_get_data() const;
 
-  constexpr void __set_data(::System::Text::StringBuilder* value);
+  constexpr void __cordl_internal_set_data(::System::Text::StringBuilder* value);
 
   static inline void setStaticF_prevConnected(::StringW value);
 
@@ -676,7 +676,7 @@ protected:
 
 public:
   /// @brief Field uiText, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Text* ___uiText;
+  ::UnityW<::UnityEngine::UI::Text> ___uiText;
 
   /// @brief Field monitors, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::__OVRControllerTest__BoolMonitor*>* ___monitors;

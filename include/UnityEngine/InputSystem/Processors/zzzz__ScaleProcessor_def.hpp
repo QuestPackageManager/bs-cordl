@@ -19,20 +19,20 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::ScaleProcessor);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 391 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6236)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6236), inst: 391 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6590))
 // CS Name: ::UnityEngine.InputSystem.Processors::ScaleProcessor*
 class CORDL_TYPE ScaleProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<float_t> {
 public:
   // Declarations
   /// @brief Field factor, offset 0x10, size 0x4
-  __declspec(property(get = __get_factor, put = __set_factor)) float_t factor;
+  __declspec(property(get = __cordl_internal_get_factor, put = __cordl_internal_set_factor)) float_t factor;
 
-  constexpr float_t& __get_factor();
+  constexpr float_t& __cordl_internal_get_factor();
 
-  constexpr float_t const& __get_factor() const;
+  constexpr float_t const& __cordl_internal_get_factor() const;
 
-  constexpr void __set_factor(float_t value);
+  constexpr void __cordl_internal_set_factor(float_t value);
 
   /// @brief Method Process, addr 0x2af9b0c, size 0xc, virtual true, abstract: false, final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);

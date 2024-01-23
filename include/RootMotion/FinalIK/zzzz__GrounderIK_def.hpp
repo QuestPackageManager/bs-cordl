@@ -30,137 +30,137 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::GrounderIK);
 // SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12518)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12518))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12522))
 // CS Name: ::RootMotion.FinalIK::GrounderIK*
 class CORDL_TYPE GrounderIK : public ::RootMotion::FinalIK::Grounder {
 public:
   // Declarations
   /// @brief Field legs, offset 0x40, size 0x8
-  __declspec(property(get = __get_legs, put = __set_legs))::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> legs;
+  __declspec(property(get = __cordl_internal_get_legs, put = __cordl_internal_set_legs))::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*> legs;
 
   /// @brief Field pelvis, offset 0x48, size 0x8
-  __declspec(property(get = __get_pelvis, put = __set_pelvis))::UnityEngine::Transform* pelvis;
+  __declspec(property(get = __cordl_internal_get_pelvis, put = __cordl_internal_set_pelvis))::UnityW<::UnityEngine::Transform> pelvis;
 
   /// @brief Field characterRoot, offset 0x50, size 0x8
-  __declspec(property(get = __get_characterRoot, put = __set_characterRoot))::UnityEngine::Transform* characterRoot;
+  __declspec(property(get = __cordl_internal_get_characterRoot, put = __cordl_internal_set_characterRoot))::UnityW<::UnityEngine::Transform> characterRoot;
 
   /// @brief Field rootRotationWeight, offset 0x58, size 0x4
-  __declspec(property(get = __get_rootRotationWeight, put = __set_rootRotationWeight)) float_t rootRotationWeight;
+  __declspec(property(get = __cordl_internal_get_rootRotationWeight, put = __cordl_internal_set_rootRotationWeight)) float_t rootRotationWeight;
 
   /// @brief Field rootRotationSpeed, offset 0x5c, size 0x4
-  __declspec(property(get = __get_rootRotationSpeed, put = __set_rootRotationSpeed)) float_t rootRotationSpeed;
+  __declspec(property(get = __cordl_internal_get_rootRotationSpeed, put = __cordl_internal_set_rootRotationSpeed)) float_t rootRotationSpeed;
 
   /// @brief Field maxRootRotationAngle, offset 0x60, size 0x4
-  __declspec(property(get = __get_maxRootRotationAngle, put = __set_maxRootRotationAngle)) float_t maxRootRotationAngle;
+  __declspec(property(get = __cordl_internal_get_maxRootRotationAngle, put = __cordl_internal_set_maxRootRotationAngle)) float_t maxRootRotationAngle;
 
   /// @brief Field feet, offset 0x68, size 0x8
-  __declspec(property(get = __get_feet, put = __set_feet))::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> feet;
+  __declspec(property(get = __cordl_internal_get_feet, put = __cordl_internal_set_feet))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> feet;
 
   /// @brief Field footRotations, offset 0x70, size 0x8
-  __declspec(property(get = __get_footRotations, put = __set_footRotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> footRotations;
+  __declspec(property(get = __cordl_internal_get_footRotations, put = __cordl_internal_set_footRotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> footRotations;
 
   /// @brief Field animatedPelvisLocalPosition, offset 0x78, size 0xc
-  __declspec(property(get = __get_animatedPelvisLocalPosition, put = __set_animatedPelvisLocalPosition))::UnityEngine::Vector3 animatedPelvisLocalPosition;
+  __declspec(property(get = __cordl_internal_get_animatedPelvisLocalPosition, put = __cordl_internal_set_animatedPelvisLocalPosition))::UnityEngine::Vector3 animatedPelvisLocalPosition;
 
   /// @brief Field solvedPelvisLocalPosition, offset 0x84, size 0xc
-  __declspec(property(get = __get_solvedPelvisLocalPosition, put = __set_solvedPelvisLocalPosition))::UnityEngine::Vector3 solvedPelvisLocalPosition;
+  __declspec(property(get = __cordl_internal_get_solvedPelvisLocalPosition, put = __cordl_internal_set_solvedPelvisLocalPosition))::UnityEngine::Vector3 solvedPelvisLocalPosition;
 
   /// @brief Field solvedFeet, offset 0x90, size 0x4
-  __declspec(property(get = __get_solvedFeet, put = __set_solvedFeet)) int32_t solvedFeet;
+  __declspec(property(get = __cordl_internal_get_solvedFeet, put = __cordl_internal_set_solvedFeet)) int32_t solvedFeet;
 
   /// @brief Field solved, offset 0x94, size 0x1
-  __declspec(property(get = __get_solved, put = __set_solved)) bool solved;
+  __declspec(property(get = __cordl_internal_get_solved, put = __cordl_internal_set_solved)) bool solved;
 
   /// @brief Field lastWeight, offset 0x98, size 0x4
-  __declspec(property(get = __get_lastWeight, put = __set_lastWeight)) float_t lastWeight;
+  __declspec(property(get = __cordl_internal_get_lastWeight, put = __cordl_internal_set_lastWeight)) float_t lastWeight;
 
   /// @brief Field characterRootRigidbody, offset 0xa0, size 0x8
-  __declspec(property(get = __get_characterRootRigidbody, put = __set_characterRootRigidbody))::UnityEngine::Rigidbody* characterRootRigidbody;
+  __declspec(property(get = __cordl_internal_get_characterRootRigidbody, put = __cordl_internal_set_characterRootRigidbody))::UnityW<::UnityEngine::Rigidbody> characterRootRigidbody;
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*>& __get_legs();
+  constexpr ::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*>& __cordl_internal_get_legs();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> const& __get_legs() const;
+  constexpr ::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*> const& __cordl_internal_get_legs() const;
 
-  constexpr void __set_legs(::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> value);
+  constexpr void __cordl_internal_set_legs(::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*> value);
 
-  constexpr ::UnityEngine::Transform*& __get_pelvis();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_pelvis();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_pelvis() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_pelvis() const;
 
-  constexpr void __set_pelvis(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_pelvis(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_characterRoot();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_characterRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_characterRoot() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_characterRoot() const;
 
-  constexpr void __set_characterRoot(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_characterRoot(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr float_t& __get_rootRotationWeight();
+  constexpr float_t& __cordl_internal_get_rootRotationWeight();
 
-  constexpr float_t const& __get_rootRotationWeight() const;
+  constexpr float_t const& __cordl_internal_get_rootRotationWeight() const;
 
-  constexpr void __set_rootRotationWeight(float_t value);
+  constexpr void __cordl_internal_set_rootRotationWeight(float_t value);
 
-  constexpr float_t& __get_rootRotationSpeed();
+  constexpr float_t& __cordl_internal_get_rootRotationSpeed();
 
-  constexpr float_t const& __get_rootRotationSpeed() const;
+  constexpr float_t const& __cordl_internal_get_rootRotationSpeed() const;
 
-  constexpr void __set_rootRotationSpeed(float_t value);
+  constexpr void __cordl_internal_set_rootRotationSpeed(float_t value);
 
-  constexpr float_t& __get_maxRootRotationAngle();
+  constexpr float_t& __cordl_internal_get_maxRootRotationAngle();
 
-  constexpr float_t const& __get_maxRootRotationAngle() const;
+  constexpr float_t const& __cordl_internal_get_maxRootRotationAngle() const;
 
-  constexpr void __set_maxRootRotationAngle(float_t value);
+  constexpr void __cordl_internal_set_maxRootRotationAngle(float_t value);
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& __get_feet();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_feet();
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& __get_feet() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_feet() const;
 
-  constexpr void __set_feet(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
+  constexpr void __cordl_internal_set_feet(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __get_footRotations();
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __cordl_internal_get_footRotations();
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __get_footRotations() const;
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __cordl_internal_get_footRotations() const;
 
-  constexpr void __set_footRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
+  constexpr void __cordl_internal_set_footRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
 
-  constexpr ::UnityEngine::Vector3& __get_animatedPelvisLocalPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_animatedPelvisLocalPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_animatedPelvisLocalPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_animatedPelvisLocalPosition() const;
 
-  constexpr void __set_animatedPelvisLocalPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_animatedPelvisLocalPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_solvedPelvisLocalPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_solvedPelvisLocalPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_solvedPelvisLocalPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_solvedPelvisLocalPosition() const;
 
-  constexpr void __set_solvedPelvisLocalPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_solvedPelvisLocalPosition(::UnityEngine::Vector3 value);
 
-  constexpr int32_t& __get_solvedFeet();
+  constexpr int32_t& __cordl_internal_get_solvedFeet();
 
-  constexpr int32_t const& __get_solvedFeet() const;
+  constexpr int32_t const& __cordl_internal_get_solvedFeet() const;
 
-  constexpr void __set_solvedFeet(int32_t value);
+  constexpr void __cordl_internal_set_solvedFeet(int32_t value);
 
-  constexpr bool& __get_solved();
+  constexpr bool& __cordl_internal_get_solved();
 
-  constexpr bool const& __get_solved() const;
+  constexpr bool const& __cordl_internal_get_solved() const;
 
-  constexpr void __set_solved(bool value);
+  constexpr void __cordl_internal_set_solved(bool value);
 
-  constexpr float_t& __get_lastWeight();
+  constexpr float_t& __cordl_internal_get_lastWeight();
 
-  constexpr float_t const& __get_lastWeight() const;
+  constexpr float_t const& __cordl_internal_get_lastWeight() const;
 
-  constexpr void __set_lastWeight(float_t value);
+  constexpr void __cordl_internal_set_lastWeight(float_t value);
 
-  constexpr ::UnityEngine::Rigidbody*& __get_characterRootRigidbody();
+  constexpr ::UnityW<::UnityEngine::Rigidbody>& __cordl_internal_get_characterRootRigidbody();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Rigidbody*> const& __get_characterRootRigidbody() const;
+  constexpr ::UnityW<::UnityEngine::Rigidbody> const& __cordl_internal_get_characterRootRigidbody() const;
 
-  constexpr void __set_characterRootRigidbody(::UnityEngine::Rigidbody* value);
+  constexpr void __cordl_internal_set_characterRootRigidbody(::UnityW<::UnityEngine::Rigidbody> value);
 
   /// @brief Method OpenUserManual, addr 0x1247848, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();
@@ -215,13 +215,13 @@ protected:
 
 public:
   /// @brief Field legs, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::RootMotion::FinalIK::IK*, ::Array<::RootMotion::FinalIK::IK*>*> ___legs;
+  ::ArrayW<::UnityW<::RootMotion::FinalIK::IK>, ::Array<::UnityW<::RootMotion::FinalIK::IK>>*> ___legs;
 
   /// @brief Field pelvis, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___pelvis;
+  ::UnityW<::UnityEngine::Transform> ___pelvis;
 
   /// @brief Field characterRoot, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___characterRoot;
+  ::UnityW<::UnityEngine::Transform> ___characterRoot;
 
   /// @brief Field rootRotationWeight, offset: 0x58, size: 0x4, def value: None
   float_t ___rootRotationWeight;
@@ -233,7 +233,7 @@ public:
   float_t ___maxRootRotationAngle;
 
   /// @brief Field feet, offset: 0x68, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> ___feet;
+  ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ___feet;
 
   /// @brief Field footRotations, offset: 0x70, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> ___footRotations;
@@ -254,7 +254,7 @@ public:
   float_t ___lastWeight;
 
   /// @brief Field characterRootRigidbody, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::Rigidbody* ___characterRootRigidbody;
+  ::UnityW<::UnityEngine::Rigidbody> ___characterRootRigidbody;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

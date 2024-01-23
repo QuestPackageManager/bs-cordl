@@ -30,75 +30,76 @@ MARK_REF_PTR_T(::HMUI::DropdownWithTableView);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13624))
 // CS Name: ::HMUI::DropdownWithTableView*
 class CORDL_TYPE DropdownWithTableView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _button, offset 0x18, size 0x8
-  __declspec(property(get = __get__button, put = __set__button))::UnityEngine::UI::Button* _button;
+  __declspec(property(get = __cordl_internal_get__button, put = __cordl_internal_set__button))::UnityW<::UnityEngine::UI::Button> _button;
 
   /// @brief Field _tableView, offset 0x20, size 0x8
-  __declspec(property(get = __get__tableView, put = __set__tableView))::HMUI::TableView* _tableView;
+  __declspec(property(get = __cordl_internal_get__tableView, put = __cordl_internal_set__tableView))::UnityW<::HMUI::TableView> _tableView;
 
   /// @brief Field _modalView, offset 0x28, size 0x8
-  __declspec(property(get = __get__modalView, put = __set__modalView))::HMUI::ModalView* _modalView;
+  __declspec(property(get = __cordl_internal_get__modalView, put = __cordl_internal_set__modalView))::UnityW<::HMUI::ModalView> _modalView;
 
   /// @brief Field _numberOfVisibleCells, offset 0x30, size 0x4
-  __declspec(property(get = __get__numberOfVisibleCells, put = __set__numberOfVisibleCells)) int32_t _numberOfVisibleCells;
+  __declspec(property(get = __cordl_internal_get__numberOfVisibleCells, put = __cordl_internal_set__numberOfVisibleCells)) int32_t _numberOfVisibleCells;
 
   /// @brief Field didSelectCellWithIdxEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_didSelectCellWithIdxEvent, put = __set_didSelectCellWithIdxEvent))::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>* didSelectCellWithIdxEvent;
+  __declspec(property(get = __cordl_internal_get_didSelectCellWithIdxEvent,
+                      put = __cordl_internal_set_didSelectCellWithIdxEvent))::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* didSelectCellWithIdxEvent;
 
   /// @brief Field <selectedIndex>k__BackingField, offset 0x40, size 0x4
-  __declspec(property(get = __get__selectedIndex_k__BackingField, put = __set__selectedIndex_k__BackingField)) int32_t _selectedIndex_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__selectedIndex_k__BackingField, put = __cordl_internal_set__selectedIndex_k__BackingField)) int32_t _selectedIndex_k__BackingField;
 
   __declspec(property(get = get_tableViewDataSource))::HMUI::__TableView__IDataSource* tableViewDataSource;
 
   __declspec(property(get = get_selectedIndex, put = set_selectedIndex)) int32_t selectedIndex;
 
-  constexpr ::UnityEngine::UI::Button*& __get__button();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__button();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__button() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
 
-  constexpr void __set__button(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__button(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::HMUI::TableView*& __get__tableView();
+  constexpr ::UnityW<::HMUI::TableView>& __cordl_internal_get__tableView();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::TableView*> const& __get__tableView() const;
+  constexpr ::UnityW<::HMUI::TableView> const& __cordl_internal_get__tableView() const;
 
-  constexpr void __set__tableView(::HMUI::TableView* value);
+  constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
 
-  constexpr ::HMUI::ModalView*& __get__modalView();
+  constexpr ::UnityW<::HMUI::ModalView>& __cordl_internal_get__modalView();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ModalView*> const& __get__modalView() const;
+  constexpr ::UnityW<::HMUI::ModalView> const& __cordl_internal_get__modalView() const;
 
-  constexpr void __set__modalView(::HMUI::ModalView* value);
+  constexpr void __cordl_internal_set__modalView(::UnityW<::HMUI::ModalView> value);
 
-  constexpr int32_t& __get__numberOfVisibleCells();
+  constexpr int32_t& __cordl_internal_get__numberOfVisibleCells();
 
-  constexpr int32_t const& __get__numberOfVisibleCells() const;
+  constexpr int32_t const& __cordl_internal_get__numberOfVisibleCells() const;
 
-  constexpr void __set__numberOfVisibleCells(int32_t value);
+  constexpr void __cordl_internal_set__numberOfVisibleCells(int32_t value);
 
-  constexpr ::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>*& __get_didSelectCellWithIdxEvent();
+  constexpr ::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>*& __cordl_internal_get_didSelectCellWithIdxEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>*> const& __get_didSelectCellWithIdxEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>*> const& __cordl_internal_get_didSelectCellWithIdxEvent() const;
 
-  constexpr void __set_didSelectCellWithIdxEvent(::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>* value);
+  constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
 
-  constexpr int32_t& __get__selectedIndex_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__selectedIndex_k__BackingField();
 
-  constexpr int32_t const& __get__selectedIndex_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__selectedIndex_k__BackingField() const;
 
-  constexpr void __set__selectedIndex_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__selectedIndex_k__BackingField(int32_t value);
 
   /// @brief Method add_didSelectCellWithIdxEvent, addr 0x2130b30, size 0xb0, virtual false, abstract: false, final false
-  inline void add_didSelectCellWithIdxEvent(::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>* value);
+  inline void add_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
 
   /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x2130be0, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_didSelectCellWithIdxEvent(::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>* value);
+  inline void remove_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* value);
 
   /// @brief Method get_tableViewDataSource, addr 0x2130c90, size 0x1c, virtual false, abstract: false, final false
   inline ::HMUI::__TableView__IDataSource* get_tableViewDataSource();
@@ -165,19 +166,19 @@ protected:
 
 public:
   /// @brief Field _button, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____button;
+  ::UnityW<::UnityEngine::UI::Button> ____button;
 
   /// @brief Field _tableView, offset: 0x20, size: 0x8, def value: None
-  ::HMUI::TableView* ____tableView;
+  ::UnityW<::HMUI::TableView> ____tableView;
 
   /// @brief Field _modalView, offset: 0x28, size: 0x8, def value: None
-  ::HMUI::ModalView* ____modalView;
+  ::UnityW<::HMUI::ModalView> ____modalView;
 
   /// @brief Field _numberOfVisibleCells, offset: 0x30, size: 0x4, def value: None
   int32_t ____numberOfVisibleCells;
 
   /// @brief Field didSelectCellWithIdxEvent, offset: 0x38, size: 0x8, def value: None
-  ::System::Action_2<::HMUI::DropdownWithTableView*, int32_t>* ___didSelectCellWithIdxEvent;
+  ::System::Action_2<::UnityW<::HMUI::DropdownWithTableView>, int32_t>* ___didSelectCellWithIdxEvent;
 
   /// @brief Field <selectedIndex>k__BackingField, offset: 0x40, size: 0x4, def value: None
   int32_t ____selectedIndex_k__BackingField;

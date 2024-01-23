@@ -254,56 +254,57 @@ MARK_VAL_T(::System::Net::Sockets::__Socket__WSABUF);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9325))
 // CS Name: ::Socket::CachedEventArgs*
 class CORDL_TYPE __Socket__CachedEventArgs : public ::System::Object {
 public:
   // Declarations
   /// @brief Field TaskAccept, offset 0x10, size 0x8
-  __declspec(property(get = __get_TaskAccept, put = __set_TaskAccept))::System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<::System::Net::Sockets::Socket*>* TaskAccept;
+  __declspec(property(get = __cordl_internal_get_TaskAccept,
+                      put = __cordl_internal_set_TaskAccept))::System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<::System::Net::Sockets::Socket*>* TaskAccept;
 
   /// @brief Field TaskReceive, offset 0x18, size 0x8
-  __declspec(property(get = __get_TaskReceive, put = __set_TaskReceive))::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs* TaskReceive;
+  __declspec(property(get = __cordl_internal_get_TaskReceive, put = __cordl_internal_set_TaskReceive))::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs* TaskReceive;
 
   /// @brief Field TaskSend, offset 0x20, size 0x8
-  __declspec(property(get = __get_TaskSend, put = __set_TaskSend))::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs* TaskSend;
+  __declspec(property(get = __cordl_internal_get_TaskSend, put = __cordl_internal_set_TaskSend))::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs* TaskSend;
 
   /// @brief Field ValueTaskReceive, offset 0x28, size 0x8
-  __declspec(property(get = __get_ValueTaskReceive, put = __set_ValueTaskReceive))::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs* ValueTaskReceive;
+  __declspec(property(get = __cordl_internal_get_ValueTaskReceive, put = __cordl_internal_set_ValueTaskReceive))::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs* ValueTaskReceive;
 
   /// @brief Field ValueTaskSend, offset 0x30, size 0x8
-  __declspec(property(get = __get_ValueTaskSend, put = __set_ValueTaskSend))::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs* ValueTaskSend;
+  __declspec(property(get = __cordl_internal_get_ValueTaskSend, put = __cordl_internal_set_ValueTaskSend))::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs* ValueTaskSend;
 
-  constexpr ::System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<::System::Net::Sockets::Socket*>*& __get_TaskAccept();
+  constexpr ::System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<::System::Net::Sockets::Socket*>*& __cordl_internal_get_TaskAccept();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<::System::Net::Sockets::Socket*>*> const& __get_TaskAccept() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<::System::Net::Sockets::Socket*>*> const& __cordl_internal_get_TaskAccept() const;
 
-  constexpr void __set_TaskAccept(::System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<::System::Net::Sockets::Socket*>* value);
+  constexpr void __cordl_internal_set_TaskAccept(::System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<::System::Net::Sockets::Socket*>* value);
 
-  constexpr ::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs*& __get_TaskReceive();
+  constexpr ::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs*& __cordl_internal_get_TaskReceive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs*> const& __get_TaskReceive() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs*> const& __cordl_internal_get_TaskReceive() const;
 
-  constexpr void __set_TaskReceive(::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs* value);
+  constexpr void __cordl_internal_set_TaskReceive(::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs* value);
 
-  constexpr ::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs*& __get_TaskSend();
+  constexpr ::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs*& __cordl_internal_get_TaskSend();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs*> const& __get_TaskSend() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs*> const& __cordl_internal_get_TaskSend() const;
 
-  constexpr void __set_TaskSend(::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs* value);
+  constexpr void __cordl_internal_set_TaskSend(::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs* value);
 
-  constexpr ::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs*& __get_ValueTaskReceive();
+  constexpr ::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs*& __cordl_internal_get_ValueTaskReceive();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs*> const& __get_ValueTaskReceive() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs*> const& __cordl_internal_get_ValueTaskReceive() const;
 
-  constexpr void __set_ValueTaskReceive(::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs* value);
+  constexpr void __cordl_internal_set_ValueTaskReceive(::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs* value);
 
-  constexpr ::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs*& __get_ValueTaskSend();
+  constexpr ::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs*& __cordl_internal_get_ValueTaskSend();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs*> const& __get_ValueTaskSend() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs*> const& __cordl_internal_get_ValueTaskSend() const;
 
-  constexpr void __set_ValueTaskSend(::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs* value);
+  constexpr void __cordl_internal_set_ValueTaskSend(::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs* value);
 
   static inline ::System::Net::Sockets::__Socket__CachedEventArgs* New_ctor();
 
@@ -361,28 +362,28 @@ namespace System::Net::Sockets {
 // cpp template
 template <typename TResult>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9357)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 862
-// })} Self: TypeDefinitionIndex(TypeDefinitionIndex(9326)) CS Name: ::Socket::TaskSocketAsyncEventArgs`1<TResult>*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(9357)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 862
+// })] Self: TypeDefinitionIndex(TypeDefinitionIndex(9326)) CS Name: ::Socket::TaskSocketAsyncEventArgs`1<TResult>*
 class CORDL_TYPE __Socket__TaskSocketAsyncEventArgs_1 : public ::System::Net::Sockets::SocketAsyncEventArgs {
 public:
   // Declarations
   /// @brief Field _builder, offset 0xb8, size 0x18
-  __declspec(property(get = __get__builder, put = __set__builder))::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> _builder;
+  __declspec(property(get = __cordl_internal_get__builder, put = __cordl_internal_set__builder))::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> _builder;
 
   /// @brief Field _accessed, offset 0xd0, size 0x1
-  __declspec(property(get = __get__accessed, put = __set__accessed)) bool _accessed;
+  __declspec(property(get = __cordl_internal_get__accessed, put = __cordl_internal_set__accessed)) bool _accessed;
 
-  constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>& __get__builder();
+  constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>& __cordl_internal_get__builder();
 
-  constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> const& __get__builder() const;
+  constexpr ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> const& __cordl_internal_get__builder() const;
 
-  constexpr void __set__builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> value);
+  constexpr void __cordl_internal_set__builder(::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult> value);
 
-  constexpr bool& __get__accessed();
+  constexpr bool& __cordl_internal_get__accessed();
 
-  constexpr bool const& __get__accessed() const;
+  constexpr bool const& __cordl_internal_get__accessed() const;
 
-  constexpr void __set__accessed(bool value);
+  constexpr void __cordl_internal_set__accessed(bool value);
 
   static inline ::System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<TResult>* New_ctor();
 
@@ -420,20 +421,20 @@ public:
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 210, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9326), inst: 98 }), TypeDefinitionIndex(TypeDefinitionIndex(9326))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9326)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(9326), inst: 98 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9327))
 // CS Name: ::Socket::Int32TaskSocketAsyncEventArgs*
 class CORDL_TYPE __Socket__Int32TaskSocketAsyncEventArgs : public ::System::Net::Sockets::__Socket__TaskSocketAsyncEventArgs_1<int32_t> {
 public:
   // Declarations
   /// @brief Field _wrapExceptionsInIOExceptions, offset 0xd1, size 0x1
-  __declspec(property(get = __get__wrapExceptionsInIOExceptions, put = __set__wrapExceptionsInIOExceptions)) bool _wrapExceptionsInIOExceptions;
+  __declspec(property(get = __cordl_internal_get__wrapExceptionsInIOExceptions, put = __cordl_internal_set__wrapExceptionsInIOExceptions)) bool _wrapExceptionsInIOExceptions;
 
-  constexpr bool& __get__wrapExceptionsInIOExceptions();
+  constexpr bool& __cordl_internal_get__wrapExceptionsInIOExceptions();
 
-  constexpr bool const& __get__wrapExceptionsInIOExceptions() const;
+  constexpr bool const& __cordl_internal_get__wrapExceptionsInIOExceptions() const;
 
-  constexpr void __set__wrapExceptionsInIOExceptions(bool value);
+  constexpr void __cordl_internal_set__wrapExceptionsInIOExceptions(bool value);
 
   static inline ::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEventArgs* New_ctor();
 
@@ -469,7 +470,7 @@ static_assert(offsetof(::System::Net::Sockets::__Socket__Int32TaskSocketAsyncEve
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9328))
 // CS Name: ::Socket::AwaitableSocketAsyncEventArgs::<>c*
 class CORDL_TYPE __Socket__AwaitableSocketAsyncEventArgs____c : public ::System::Object {
@@ -537,7 +538,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__Socket__Await
 // SizeInfo { instance_size: 216, native_size: -1, calculated_instance_size: 216, calculated_native_size: 211, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9357))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9357))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9329))
 // CS Name: ::Socket::AwaitableSocketAsyncEventArgs*
 class CORDL_TYPE __Socket__AwaitableSocketAsyncEventArgs : public ::System::Net::Sockets::SocketAsyncEventArgs {
@@ -546,19 +547,20 @@ public:
   using __c = ::GlobalNamespace::__Socket__AwaitableSocketAsyncEventArgs____c;
 
   /// @brief Field _continuation, offset 0xb8, size 0x8
-  __declspec(property(get = __get__continuation, put = __set__continuation))::System::Action_1<::System::Object*>* _continuation;
+  __declspec(property(get = __cordl_internal_get__continuation, put = __cordl_internal_set__continuation))::System::Action_1<::System::Object*>* _continuation;
 
   /// @brief Field _executionContext, offset 0xc0, size 0x8
-  __declspec(property(get = __get__executionContext, put = __set__executionContext))::System::Threading::ExecutionContext* _executionContext;
+  __declspec(property(get = __cordl_internal_get__executionContext, put = __cordl_internal_set__executionContext))::System::Threading::ExecutionContext* _executionContext;
 
   /// @brief Field _scheduler, offset 0xc8, size 0x8
-  __declspec(property(get = __get__scheduler, put = __set__scheduler))::System::Object* _scheduler;
+  __declspec(property(get = __cordl_internal_get__scheduler, put = __cordl_internal_set__scheduler))::System::Object* _scheduler;
 
   /// @brief Field _token, offset 0xd0, size 0x2
-  __declspec(property(get = __get__token, put = __set__token)) int16_t _token;
+  __declspec(property(get = __cordl_internal_get__token, put = __cordl_internal_set__token)) int16_t _token;
 
   /// @brief Field <WrapExceptionsInIOExceptions>k__BackingField, offset 0xd2, size 0x1
-  __declspec(property(get = __get__WrapExceptionsInIOExceptions_k__BackingField, put = __set__WrapExceptionsInIOExceptions_k__BackingField)) bool _WrapExceptionsInIOExceptions_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__WrapExceptionsInIOExceptions_k__BackingField,
+                      put = __cordl_internal_set__WrapExceptionsInIOExceptions_k__BackingField)) bool _WrapExceptionsInIOExceptions_k__BackingField;
 
   /// @brief Field Reserved, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Reserved, put = setStaticF_Reserved))::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs* Reserved;
@@ -583,35 +585,35 @@ public:
   /// @brief Convert to "::System::Threading::Tasks::Sources::IValueTaskSource_1<int32_t>"
   constexpr ::System::Threading::Tasks::Sources::IValueTaskSource_1<int32_t>* i___System__Threading__Tasks__Sources__IValueTaskSource_1_int32_t_() noexcept;
 
-  constexpr ::System::Action_1<::System::Object*>*& __get__continuation();
+  constexpr ::System::Action_1<::System::Object*>*& __cordl_internal_get__continuation();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Object*>*> const& __get__continuation() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::System::Object*>*> const& __cordl_internal_get__continuation() const;
 
-  constexpr void __set__continuation(::System::Action_1<::System::Object*>* value);
+  constexpr void __cordl_internal_set__continuation(::System::Action_1<::System::Object*>* value);
 
-  constexpr ::System::Threading::ExecutionContext*& __get__executionContext();
+  constexpr ::System::Threading::ExecutionContext*& __cordl_internal_get__executionContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __get__executionContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ExecutionContext*> const& __cordl_internal_get__executionContext() const;
 
-  constexpr void __set__executionContext(::System::Threading::ExecutionContext* value);
+  constexpr void __cordl_internal_set__executionContext(::System::Threading::ExecutionContext* value);
 
-  constexpr ::System::Object*& __get__scheduler();
+  constexpr ::System::Object*& __cordl_internal_get__scheduler();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__scheduler() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__scheduler() const;
 
-  constexpr void __set__scheduler(::System::Object* value);
+  constexpr void __cordl_internal_set__scheduler(::System::Object* value);
 
-  constexpr int16_t& __get__token();
+  constexpr int16_t& __cordl_internal_get__token();
 
-  constexpr int16_t const& __get__token() const;
+  constexpr int16_t const& __cordl_internal_get__token() const;
 
-  constexpr void __set__token(int16_t value);
+  constexpr void __cordl_internal_set__token(int16_t value);
 
-  constexpr bool& __get__WrapExceptionsInIOExceptions_k__BackingField();
+  constexpr bool& __cordl_internal_get__WrapExceptionsInIOExceptions_k__BackingField();
 
-  constexpr bool const& __get__WrapExceptionsInIOExceptions_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__WrapExceptionsInIOExceptions_k__BackingField() const;
 
-  constexpr void __set__WrapExceptionsInIOExceptions_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__WrapExceptionsInIOExceptions_k__BackingField(bool value);
 
   static inline void setStaticF_Reserved(::System::Net::Sockets::__Socket__AwaitableSocketAsyncEventArgs* value);
 
@@ -727,7 +729,7 @@ static_assert(offsetof(::System::Net::Sockets::__Socket__AwaitableSocketAsyncEve
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9330))
 // CS Name: ::Socket::WSABUF
 struct CORDL_TYPE __Socket__WSABUF {
@@ -763,7 +765,7 @@ static_assert(offsetof(::System::Net::Sockets::__Socket__WSABUF, buf) == 0x8, "O
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9331))
 // CS Name: ::Socket::<>c*
 class CORDL_TYPE __Socket____c : public ::System::Object {
@@ -959,20 +961,20 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::__Socket__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9332))
 // CS Name: ::Socket::<>c__DisplayClass240_0*
 class CORDL_TYPE __Socket____c__DisplayClass240_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field sockares, offset 0x10, size 0x8
-  __declspec(property(get = __get_sockares, put = __set_sockares))::System::Net::Sockets::SocketAsyncResult* sockares;
+  __declspec(property(get = __cordl_internal_get_sockares, put = __cordl_internal_set_sockares))::System::Net::Sockets::SocketAsyncResult* sockares;
 
-  constexpr ::System::Net::Sockets::SocketAsyncResult*& __get_sockares();
+  constexpr ::System::Net::Sockets::SocketAsyncResult*& __cordl_internal_get_sockares();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::SocketAsyncResult*> const& __get_sockares() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::SocketAsyncResult*> const& __cordl_internal_get_sockares() const;
 
-  constexpr void __set_sockares(::System::Net::Sockets::SocketAsyncResult* value);
+  constexpr void __cordl_internal_set_sockares(::System::Net::Sockets::SocketAsyncResult* value);
 
   static inline ::System::Net::Sockets::__Socket____c__DisplayClass240_0* New_ctor();
 
@@ -1011,20 +1013,20 @@ static_assert(offsetof(::System::Net::Sockets::__Socket____c__DisplayClass240_0,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9333))
 // CS Name: ::Socket::<>c__DisplayClass298_0*
 class CORDL_TYPE __Socket____c__DisplayClass298_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field sent_so_far, offset 0x10, size 0x4
-  __declspec(property(get = __get_sent_so_far, put = __set_sent_so_far)) int32_t sent_so_far;
+  __declspec(property(get = __cordl_internal_get_sent_so_far, put = __cordl_internal_set_sent_so_far)) int32_t sent_so_far;
 
-  constexpr int32_t& __get_sent_so_far();
+  constexpr int32_t& __cordl_internal_get_sent_so_far();
 
-  constexpr int32_t const& __get_sent_so_far() const;
+  constexpr int32_t const& __cordl_internal_get_sent_so_far() const;
 
-  constexpr void __set_sent_so_far(int32_t value);
+  constexpr void __cordl_internal_set_sent_so_far(int32_t value);
 
   static inline ::System::Net::Sockets::__Socket____c__DisplayClass298_0* New_ctor();
 
@@ -1063,38 +1065,38 @@ static_assert(offsetof(::System::Net::Sockets::__Socket____c__DisplayClass298_0,
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9334))
 // CS Name: ::Socket::<>c__DisplayClass355_0*
 class CORDL_TYPE __Socket____c__DisplayClass355_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::System::Net::Sockets::Socket* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Net::Sockets::Socket* __4__this;
 
   /// @brief Field job, offset 0x18, size 0x8
-  __declspec(property(get = __get_job, put = __set_job))::System::IOSelectorJob* job;
+  __declspec(property(get = __cordl_internal_get_job, put = __cordl_internal_set_job))::System::IOSelectorJob* job;
 
   /// @brief Field handle, offset 0x20, size 0x8
-  __declspec(property(get = __get_handle, put = __set_handle)) void* handle;
+  __declspec(property(get = __cordl_internal_get_handle, put = __cordl_internal_set_handle)) void* handle;
 
-  constexpr ::System::Net::Sockets::Socket*& __get___4__this();
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::System::Net::Sockets::Socket* value);
+  constexpr void __cordl_internal_set___4__this(::System::Net::Sockets::Socket* value);
 
-  constexpr ::System::IOSelectorJob*& __get_job();
+  constexpr ::System::IOSelectorJob*& __cordl_internal_get_job();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IOSelectorJob*> const& __get_job() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::IOSelectorJob*> const& __cordl_internal_get_job() const;
 
-  constexpr void __set_job(::System::IOSelectorJob* value);
+  constexpr void __cordl_internal_set_job(::System::IOSelectorJob* value);
 
-  constexpr void*& __get_handle();
+  constexpr void*& __cordl_internal_get_handle();
 
-  constexpr void* const& __get_handle() const;
+  constexpr void* const& __cordl_internal_get_handle() const;
 
-  constexpr void __set_handle(void* value);
+  constexpr void __cordl_internal_set_handle(void* value);
 
   static inline ::System::Net::Sockets::__Socket____c__DisplayClass355_0* New_ctor();
 
@@ -1143,8 +1145,8 @@ static_assert(offsetof(::System::Net::Sockets::__Socket____c__DisplayClass355_0,
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9352)), TypeDefinitionIndex(TypeDefinitionIndex(9337)), TypeDefinitionIndex(TypeDefinitionIndex(9343)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(9335)) CS Name: ::System.Net.Sockets::Socket*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9337)), TypeDefinitionIndex(TypeDefinitionIndex(9343)),
+// TypeDefinitionIndex(TypeDefinitionIndex(9352))] Self: TypeDefinitionIndex(TypeDefinitionIndex(9335)) CS Name: ::System.Net.Sockets::Socket*
 class CORDL_TYPE Socket : public ::System::Object {
 public:
   // Declarations
@@ -1167,58 +1169,58 @@ public:
   using CachedEventArgs = ::System::Net::Sockets::__Socket__CachedEventArgs;
 
   /// @brief Field _cachedTaskEventArgs, offset 0x10, size 0x8
-  __declspec(property(get = __get__cachedTaskEventArgs, put = __set__cachedTaskEventArgs))::System::Net::Sockets::__Socket__CachedEventArgs* _cachedTaskEventArgs;
+  __declspec(property(get = __cordl_internal_get__cachedTaskEventArgs, put = __cordl_internal_set__cachedTaskEventArgs))::System::Net::Sockets::__Socket__CachedEventArgs* _cachedTaskEventArgs;
 
   /// @brief Field is_closed, offset 0x18, size 0x1
-  __declspec(property(get = __get_is_closed, put = __set_is_closed)) bool is_closed;
+  __declspec(property(get = __cordl_internal_get_is_closed, put = __cordl_internal_set_is_closed)) bool is_closed;
 
   /// @brief Field is_listening, offset 0x19, size 0x1
-  __declspec(property(get = __get_is_listening, put = __set_is_listening)) bool is_listening;
+  __declspec(property(get = __cordl_internal_get_is_listening, put = __cordl_internal_set_is_listening)) bool is_listening;
 
   /// @brief Field useOverlappedIO, offset 0x1a, size 0x1
-  __declspec(property(get = __get_useOverlappedIO, put = __set_useOverlappedIO)) bool useOverlappedIO;
+  __declspec(property(get = __cordl_internal_get_useOverlappedIO, put = __cordl_internal_set_useOverlappedIO)) bool useOverlappedIO;
 
   /// @brief Field linger_timeout, offset 0x1c, size 0x4
-  __declspec(property(get = __get_linger_timeout, put = __set_linger_timeout)) int32_t linger_timeout;
+  __declspec(property(get = __cordl_internal_get_linger_timeout, put = __cordl_internal_set_linger_timeout)) int32_t linger_timeout;
 
   /// @brief Field addressFamily, offset 0x20, size 0x4
-  __declspec(property(get = __get_addressFamily, put = __set_addressFamily))::System::Net::Sockets::AddressFamily addressFamily;
+  __declspec(property(get = __cordl_internal_get_addressFamily, put = __cordl_internal_set_addressFamily))::System::Net::Sockets::AddressFamily addressFamily;
 
   /// @brief Field socketType, offset 0x24, size 0x4
-  __declspec(property(get = __get_socketType, put = __set_socketType))::System::Net::Sockets::SocketType socketType;
+  __declspec(property(get = __cordl_internal_get_socketType, put = __cordl_internal_set_socketType))::System::Net::Sockets::SocketType socketType;
 
   /// @brief Field protocolType, offset 0x28, size 0x4
-  __declspec(property(get = __get_protocolType, put = __set_protocolType))::System::Net::Sockets::ProtocolType protocolType;
+  __declspec(property(get = __cordl_internal_get_protocolType, put = __cordl_internal_set_protocolType))::System::Net::Sockets::ProtocolType protocolType;
 
   /// @brief Field m_Handle, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_Handle, put = __set_m_Handle))::System::Net::Sockets::SafeSocketHandle* m_Handle;
+  __declspec(property(get = __cordl_internal_get_m_Handle, put = __cordl_internal_set_m_Handle))::System::Net::Sockets::SafeSocketHandle* m_Handle;
 
   /// @brief Field seed_endpoint, offset 0x38, size 0x8
-  __declspec(property(get = __get_seed_endpoint, put = __set_seed_endpoint))::System::Net::EndPoint* seed_endpoint;
+  __declspec(property(get = __cordl_internal_get_seed_endpoint, put = __cordl_internal_set_seed_endpoint))::System::Net::EndPoint* seed_endpoint;
 
   /// @brief Field ReadSem, offset 0x40, size 0x8
-  __declspec(property(get = __get_ReadSem, put = __set_ReadSem))::System::Threading::SemaphoreSlim* ReadSem;
+  __declspec(property(get = __cordl_internal_get_ReadSem, put = __cordl_internal_set_ReadSem))::System::Threading::SemaphoreSlim* ReadSem;
 
   /// @brief Field WriteSem, offset 0x48, size 0x8
-  __declspec(property(get = __get_WriteSem, put = __set_WriteSem))::System::Threading::SemaphoreSlim* WriteSem;
+  __declspec(property(get = __cordl_internal_get_WriteSem, put = __cordl_internal_set_WriteSem))::System::Threading::SemaphoreSlim* WriteSem;
 
   /// @brief Field is_blocking, offset 0x50, size 0x1
-  __declspec(property(get = __get_is_blocking, put = __set_is_blocking)) bool is_blocking;
+  __declspec(property(get = __cordl_internal_get_is_blocking, put = __cordl_internal_set_is_blocking)) bool is_blocking;
 
   /// @brief Field is_bound, offset 0x51, size 0x1
-  __declspec(property(get = __get_is_bound, put = __set_is_bound)) bool is_bound;
+  __declspec(property(get = __cordl_internal_get_is_bound, put = __cordl_internal_set_is_bound)) bool is_bound;
 
   /// @brief Field is_connected, offset 0x52, size 0x1
-  __declspec(property(get = __get_is_connected, put = __set_is_connected)) bool is_connected;
+  __declspec(property(get = __cordl_internal_get_is_connected, put = __cordl_internal_set_is_connected)) bool is_connected;
 
   /// @brief Field m_IntCleanedUp, offset 0x54, size 0x4
-  __declspec(property(get = __get_m_IntCleanedUp, put = __set_m_IntCleanedUp)) int32_t m_IntCleanedUp;
+  __declspec(property(get = __cordl_internal_get_m_IntCleanedUp, put = __cordl_internal_set_m_IntCleanedUp)) int32_t m_IntCleanedUp;
 
   /// @brief Field connect_in_progress, offset 0x58, size 0x1
-  __declspec(property(get = __get_connect_in_progress, put = __set_connect_in_progress)) bool connect_in_progress;
+  __declspec(property(get = __cordl_internal_get_connect_in_progress, put = __cordl_internal_set_connect_in_progress)) bool connect_in_progress;
 
   /// @brief Field ID, offset 0x5c, size 0x4
-  __declspec(property(get = __get__cordl_ID, put = __set__cordl_ID)) int32_t _cordl_ID;
+  __declspec(property(get = __cordl_internal_get__cordl_ID, put = __cordl_internal_set__cordl_ID)) int32_t _cordl_ID;
 
   /// @brief Field AcceptCompletedHandler, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_AcceptCompletedHandler,
@@ -1358,113 +1360,113 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Net::Sockets::__Socket__CachedEventArgs*& __get__cachedTaskEventArgs();
+  constexpr ::System::Net::Sockets::__Socket__CachedEventArgs*& __cordl_internal_get__cachedTaskEventArgs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__CachedEventArgs*> const& __get__cachedTaskEventArgs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::__Socket__CachedEventArgs*> const& __cordl_internal_get__cachedTaskEventArgs() const;
 
-  constexpr void __set__cachedTaskEventArgs(::System::Net::Sockets::__Socket__CachedEventArgs* value);
+  constexpr void __cordl_internal_set__cachedTaskEventArgs(::System::Net::Sockets::__Socket__CachedEventArgs* value);
 
-  constexpr bool& __get_is_closed();
+  constexpr bool& __cordl_internal_get_is_closed();
 
-  constexpr bool const& __get_is_closed() const;
+  constexpr bool const& __cordl_internal_get_is_closed() const;
 
-  constexpr void __set_is_closed(bool value);
+  constexpr void __cordl_internal_set_is_closed(bool value);
 
-  constexpr bool& __get_is_listening();
+  constexpr bool& __cordl_internal_get_is_listening();
 
-  constexpr bool const& __get_is_listening() const;
+  constexpr bool const& __cordl_internal_get_is_listening() const;
 
-  constexpr void __set_is_listening(bool value);
+  constexpr void __cordl_internal_set_is_listening(bool value);
 
-  constexpr bool& __get_useOverlappedIO();
+  constexpr bool& __cordl_internal_get_useOverlappedIO();
 
-  constexpr bool const& __get_useOverlappedIO() const;
+  constexpr bool const& __cordl_internal_get_useOverlappedIO() const;
 
-  constexpr void __set_useOverlappedIO(bool value);
+  constexpr void __cordl_internal_set_useOverlappedIO(bool value);
 
-  constexpr int32_t& __get_linger_timeout();
+  constexpr int32_t& __cordl_internal_get_linger_timeout();
 
-  constexpr int32_t const& __get_linger_timeout() const;
+  constexpr int32_t const& __cordl_internal_get_linger_timeout() const;
 
-  constexpr void __set_linger_timeout(int32_t value);
+  constexpr void __cordl_internal_set_linger_timeout(int32_t value);
 
-  constexpr ::System::Net::Sockets::AddressFamily& __get_addressFamily();
+  constexpr ::System::Net::Sockets::AddressFamily& __cordl_internal_get_addressFamily();
 
-  constexpr ::System::Net::Sockets::AddressFamily const& __get_addressFamily() const;
+  constexpr ::System::Net::Sockets::AddressFamily const& __cordl_internal_get_addressFamily() const;
 
-  constexpr void __set_addressFamily(::System::Net::Sockets::AddressFamily value);
+  constexpr void __cordl_internal_set_addressFamily(::System::Net::Sockets::AddressFamily value);
 
-  constexpr ::System::Net::Sockets::SocketType& __get_socketType();
+  constexpr ::System::Net::Sockets::SocketType& __cordl_internal_get_socketType();
 
-  constexpr ::System::Net::Sockets::SocketType const& __get_socketType() const;
+  constexpr ::System::Net::Sockets::SocketType const& __cordl_internal_get_socketType() const;
 
-  constexpr void __set_socketType(::System::Net::Sockets::SocketType value);
+  constexpr void __cordl_internal_set_socketType(::System::Net::Sockets::SocketType value);
 
-  constexpr ::System::Net::Sockets::ProtocolType& __get_protocolType();
+  constexpr ::System::Net::Sockets::ProtocolType& __cordl_internal_get_protocolType();
 
-  constexpr ::System::Net::Sockets::ProtocolType const& __get_protocolType() const;
+  constexpr ::System::Net::Sockets::ProtocolType const& __cordl_internal_get_protocolType() const;
 
-  constexpr void __set_protocolType(::System::Net::Sockets::ProtocolType value);
+  constexpr void __cordl_internal_set_protocolType(::System::Net::Sockets::ProtocolType value);
 
-  constexpr ::System::Net::Sockets::SafeSocketHandle*& __get_m_Handle();
+  constexpr ::System::Net::Sockets::SafeSocketHandle*& __cordl_internal_get_m_Handle();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::SafeSocketHandle*> const& __get_m_Handle() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::SafeSocketHandle*> const& __cordl_internal_get_m_Handle() const;
 
-  constexpr void __set_m_Handle(::System::Net::Sockets::SafeSocketHandle* value);
+  constexpr void __cordl_internal_set_m_Handle(::System::Net::Sockets::SafeSocketHandle* value);
 
-  constexpr ::System::Net::EndPoint*& __get_seed_endpoint();
+  constexpr ::System::Net::EndPoint*& __cordl_internal_get_seed_endpoint();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::EndPoint*> const& __get_seed_endpoint() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::EndPoint*> const& __cordl_internal_get_seed_endpoint() const;
 
-  constexpr void __set_seed_endpoint(::System::Net::EndPoint* value);
+  constexpr void __cordl_internal_set_seed_endpoint(::System::Net::EndPoint* value);
 
-  constexpr ::System::Threading::SemaphoreSlim*& __get_ReadSem();
+  constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get_ReadSem();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __get_ReadSem() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get_ReadSem() const;
 
-  constexpr void __set_ReadSem(::System::Threading::SemaphoreSlim* value);
+  constexpr void __cordl_internal_set_ReadSem(::System::Threading::SemaphoreSlim* value);
 
-  constexpr ::System::Threading::SemaphoreSlim*& __get_WriteSem();
+  constexpr ::System::Threading::SemaphoreSlim*& __cordl_internal_get_WriteSem();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __get_WriteSem() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::SemaphoreSlim*> const& __cordl_internal_get_WriteSem() const;
 
-  constexpr void __set_WriteSem(::System::Threading::SemaphoreSlim* value);
+  constexpr void __cordl_internal_set_WriteSem(::System::Threading::SemaphoreSlim* value);
 
-  constexpr bool& __get_is_blocking();
+  constexpr bool& __cordl_internal_get_is_blocking();
 
-  constexpr bool const& __get_is_blocking() const;
+  constexpr bool const& __cordl_internal_get_is_blocking() const;
 
-  constexpr void __set_is_blocking(bool value);
+  constexpr void __cordl_internal_set_is_blocking(bool value);
 
-  constexpr bool& __get_is_bound();
+  constexpr bool& __cordl_internal_get_is_bound();
 
-  constexpr bool const& __get_is_bound() const;
+  constexpr bool const& __cordl_internal_get_is_bound() const;
 
-  constexpr void __set_is_bound(bool value);
+  constexpr void __cordl_internal_set_is_bound(bool value);
 
-  constexpr bool& __get_is_connected();
+  constexpr bool& __cordl_internal_get_is_connected();
 
-  constexpr bool const& __get_is_connected() const;
+  constexpr bool const& __cordl_internal_get_is_connected() const;
 
-  constexpr void __set_is_connected(bool value);
+  constexpr void __cordl_internal_set_is_connected(bool value);
 
-  constexpr int32_t& __get_m_IntCleanedUp();
+  constexpr int32_t& __cordl_internal_get_m_IntCleanedUp();
 
-  constexpr int32_t const& __get_m_IntCleanedUp() const;
+  constexpr int32_t const& __cordl_internal_get_m_IntCleanedUp() const;
 
-  constexpr void __set_m_IntCleanedUp(int32_t value);
+  constexpr void __cordl_internal_set_m_IntCleanedUp(int32_t value);
 
-  constexpr bool& __get_connect_in_progress();
+  constexpr bool& __cordl_internal_get_connect_in_progress();
 
-  constexpr bool const& __get_connect_in_progress() const;
+  constexpr bool const& __cordl_internal_get_connect_in_progress() const;
 
-  constexpr void __set_connect_in_progress(bool value);
+  constexpr void __cordl_internal_set_connect_in_progress(bool value);
 
-  constexpr int32_t& __get__cordl_ID();
+  constexpr int32_t& __cordl_internal_get__cordl_ID();
 
-  constexpr int32_t const& __get__cordl_ID() const;
+  constexpr int32_t const& __cordl_internal_get__cordl_ID() const;
 
-  constexpr void __set__cordl_ID(int32_t value);
+  constexpr void __cordl_internal_set__cordl_ID(int32_t value);
 
   static inline void setStaticF_AcceptCompletedHandler(::System::EventHandler_1<::System::Net::Sockets::SocketAsyncEventArgs*>* value);
 

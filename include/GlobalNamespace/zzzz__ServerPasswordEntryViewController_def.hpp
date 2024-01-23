@@ -27,47 +27,47 @@ MARK_REF_PTR_T(::GlobalNamespace::ServerPasswordEntryViewController);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5723))
 // CS Name: ::ServerPasswordEntryViewController*
 class CORDL_TYPE ServerPasswordEntryViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _passwordInput, offset 0x70, size 0x8
-  __declspec(property(get = __get__passwordInput, put = __set__passwordInput))::HMUI::InputFieldView* _passwordInput;
+  __declspec(property(get = __cordl_internal_get__passwordInput, put = __cordl_internal_set__passwordInput))::UnityW<::HMUI::InputFieldView> _passwordInput;
 
   /// @brief Field _uiKeyboard, offset 0x78, size 0x8
-  __declspec(property(get = __get__uiKeyboard, put = __set__uiKeyboard))::HMUI::UIKeyboard* _uiKeyboard;
+  __declspec(property(get = __cordl_internal_get__uiKeyboard, put = __cordl_internal_set__uiKeyboard))::UnityW<::HMUI::UIKeyboard> _uiKeyboard;
 
   /// @brief Field didFinishEvent, offset 0x80, size 0x8
-  __declspec(property(get = __get_didFinishEvent, put = __set_didFinishEvent))::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* didFinishEvent;
+  __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent))::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* didFinishEvent;
 
   /// @brief Field _selectedNetworkPlayer, offset 0x88, size 0x8
-  __declspec(property(get = __get__selectedNetworkPlayer, put = __set__selectedNetworkPlayer))::GlobalNamespace::INetworkPlayer* _selectedNetworkPlayer;
+  __declspec(property(get = __cordl_internal_get__selectedNetworkPlayer, put = __cordl_internal_set__selectedNetworkPlayer))::GlobalNamespace::INetworkPlayer* _selectedNetworkPlayer;
 
-  constexpr ::HMUI::InputFieldView*& __get__passwordInput();
+  constexpr ::UnityW<::HMUI::InputFieldView>& __cordl_internal_get__passwordInput();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::InputFieldView*> const& __get__passwordInput() const;
+  constexpr ::UnityW<::HMUI::InputFieldView> const& __cordl_internal_get__passwordInput() const;
 
-  constexpr void __set__passwordInput(::HMUI::InputFieldView* value);
+  constexpr void __cordl_internal_set__passwordInput(::UnityW<::HMUI::InputFieldView> value);
 
-  constexpr ::HMUI::UIKeyboard*& __get__uiKeyboard();
+  constexpr ::UnityW<::HMUI::UIKeyboard>& __cordl_internal_get__uiKeyboard();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::UIKeyboard*> const& __get__uiKeyboard() const;
+  constexpr ::UnityW<::HMUI::UIKeyboard> const& __cordl_internal_get__uiKeyboard() const;
 
-  constexpr void __set__uiKeyboard(::HMUI::UIKeyboard* value);
+  constexpr void __cordl_internal_set__uiKeyboard(::UnityW<::HMUI::UIKeyboard> value);
 
-  constexpr ::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>*& __get_didFinishEvent();
+  constexpr ::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>*> const& __get_didFinishEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>*> const& __cordl_internal_get_didFinishEvent() const;
 
-  constexpr void __set_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
+  constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
 
-  constexpr ::GlobalNamespace::INetworkPlayer*& __get__selectedNetworkPlayer();
+  constexpr ::GlobalNamespace::INetworkPlayer*& __cordl_internal_get__selectedNetworkPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __get__selectedNetworkPlayer() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::INetworkPlayer*> const& __cordl_internal_get__selectedNetworkPlayer() const;
 
-  constexpr void __set__selectedNetworkPlayer(::GlobalNamespace::INetworkPlayer* value);
+  constexpr void __cordl_internal_set__selectedNetworkPlayer(::GlobalNamespace::INetworkPlayer* value);
 
   /// @brief Method add_didFinishEvent, addr 0x22d06ac, size 0xb0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* value);
@@ -110,10 +110,10 @@ protected:
 
 public:
   /// @brief Field _passwordInput, offset: 0x70, size: 0x8, def value: None
-  ::HMUI::InputFieldView* ____passwordInput;
+  ::UnityW<::HMUI::InputFieldView> ____passwordInput;
 
   /// @brief Field _uiKeyboard, offset: 0x78, size: 0x8, def value: None
-  ::HMUI::UIKeyboard* ____uiKeyboard;
+  ::UnityW<::HMUI::UIKeyboard> ____uiKeyboard;
 
   /// @brief Field didFinishEvent, offset: 0x80, size: 0x8, def value: None
   ::System::Action_2<::GlobalNamespace::INetworkPlayer*, ::StringW>* ___didFinishEvent;

@@ -71,7 +71,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9533))
 // CS Name: ::LinkedList`1::Enumerator<T>
 struct CORDL_TYPE __LinkedList_1__Enumerator {
@@ -176,7 +176,7 @@ namespace System::Collections::Generic {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9534))
 // CS Name: ::System.Collections.Generic::LinkedList`1<T>*
 class CORDL_TYPE LinkedList_1 : public ::System::Object {
@@ -185,19 +185,19 @@ public:
   using Enumerator = ::System::Collections::Generic::__LinkedList_1__Enumerator<T>;
 
   /// @brief Field head, offset 0x10, size 0x8
-  __declspec(property(get = __get_head, put = __set_head))::System::Collections::Generic::LinkedListNode_1<T>* head;
+  __declspec(property(get = __cordl_internal_get_head, put = __cordl_internal_set_head))::System::Collections::Generic::LinkedListNode_1<T>* head;
 
   /// @brief Field count, offset 0x18, size 0x4
-  __declspec(property(get = __get_count, put = __set_count)) int32_t count;
+  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
 
   /// @brief Field version, offset 0x1c, size 0x4
-  __declspec(property(get = __get_version, put = __set_version)) int32_t version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) int32_t version;
 
   /// @brief Field _syncRoot, offset 0x20, size 0x8
-  __declspec(property(get = __get__syncRoot, put = __set__syncRoot))::System::Object* _syncRoot;
+  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
 
   /// @brief Field _siInfo, offset 0x28, size 0x8
-  __declspec(property(get = __get__siInfo, put = __set__siInfo))::System::Runtime::Serialization::SerializationInfo* _siInfo;
+  __declspec(property(get = __cordl_internal_get__siInfo, put = __cordl_internal_set__siInfo))::System::Runtime::Serialization::SerializationInfo* _siInfo;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -253,35 +253,35 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
-  constexpr ::System::Collections::Generic::LinkedListNode_1<T>*& __get_head();
+  constexpr ::System::Collections::Generic::LinkedListNode_1<T>*& __cordl_internal_get_head();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<T>*> const& __get_head() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LinkedListNode_1<T>*> const& __cordl_internal_get_head() const;
 
-  constexpr void __set_head(::System::Collections::Generic::LinkedListNode_1<T>* value);
+  constexpr void __cordl_internal_set_head(::System::Collections::Generic::LinkedListNode_1<T>* value);
 
-  constexpr int32_t& __get_count();
+  constexpr int32_t& __cordl_internal_get_count();
 
-  constexpr int32_t const& __get_count() const;
+  constexpr int32_t const& __cordl_internal_get_count() const;
 
-  constexpr void __set_count(int32_t value);
+  constexpr void __cordl_internal_set_count(int32_t value);
 
-  constexpr int32_t& __get_version();
+  constexpr int32_t& __cordl_internal_get_version();
 
-  constexpr int32_t const& __get_version() const;
+  constexpr int32_t const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(int32_t value);
+  constexpr void __cordl_internal_set_version(int32_t value);
 
-  constexpr ::System::Object*& __get__syncRoot();
+  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__syncRoot() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
-  constexpr void __set__syncRoot(::System::Object* value);
+  constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
 
-  constexpr ::System::Runtime::Serialization::SerializationInfo*& __get__siInfo();
+  constexpr ::System::Runtime::Serialization::SerializationInfo*& __cordl_internal_get__siInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __get__siInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::SerializationInfo*> const& __cordl_internal_get__siInfo() const;
 
-  constexpr void __set__siInfo(::System::Runtime::Serialization::SerializationInfo* value);
+  constexpr void __cordl_internal_set__siInfo(::System::Runtime::Serialization::SerializationInfo* value);
 
   static inline ::System::Collections::Generic::LinkedList_1<T>* New_ctor();
 

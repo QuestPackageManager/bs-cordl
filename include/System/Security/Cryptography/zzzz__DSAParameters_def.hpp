@@ -16,7 +16,7 @@ MARK_VAL_T(::System::Security::Cryptography::DSAParameters);
 // SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2930))
 // CS Name: ::System.Security.Cryptography::DSAParameters
 struct CORDL_TYPE DSAParameters {

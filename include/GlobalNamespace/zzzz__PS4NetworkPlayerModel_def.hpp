@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::GlobalNamespace::PS4NetworkPlayerModel);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14973))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14973))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14974))
 // CS Name: ::PS4NetworkPlayerModel*
 class CORDL_TYPE PS4NetworkPlayerModel : public ::GlobalNamespace::PlatformNetworkPlayerModel {

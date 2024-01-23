@@ -16,7 +16,7 @@ MARK_REF_PTR_T(::System::Security::Cryptography::HMACMD5);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 97, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2934))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2934))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2935))
 // CS Name: ::System.Security.Cryptography::HMACMD5*
 class CORDL_TYPE HMACMD5 : public ::System::Security::Cryptography::HMAC {

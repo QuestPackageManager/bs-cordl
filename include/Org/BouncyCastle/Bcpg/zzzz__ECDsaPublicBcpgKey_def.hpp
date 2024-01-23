@@ -26,7 +26,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::ECDsaPublicBcpgKey);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(565))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(565))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(567))
 // CS Name: ::Org.BouncyCastle.Bcpg::ECDsaPublicBcpgKey*
 class CORDL_TYPE ECDsaPublicBcpgKey : public ::Org::BouncyCastle::Bcpg::ECPublicBcpgKey {

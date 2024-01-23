@@ -17,60 +17,60 @@ MARK_REF_PTR_T(::GlobalNamespace::RollingAverage);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12941))
 // CS Name: ::RollingAverage*
 class CORDL_TYPE RollingAverage : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _currentTotal, offset 0x10, size 0x8
-  __declspec(property(get = __get__currentTotal, put = __set__currentTotal)) int64_t _currentTotal;
+  __declspec(property(get = __cordl_internal_get__currentTotal, put = __cordl_internal_set__currentTotal)) int64_t _currentTotal;
 
   /// @brief Field _currentAverage, offset 0x18, size 0x4
-  __declspec(property(get = __get__currentAverage, put = __set__currentAverage)) float_t _currentAverage;
+  __declspec(property(get = __cordl_internal_get__currentAverage, put = __cordl_internal_set__currentAverage)) float_t _currentAverage;
 
   /// @brief Field _buffer, offset 0x20, size 0x8
-  __declspec(property(get = __get__buffer, put = __set__buffer))::ArrayW<int64_t, ::Array<int64_t>*> _buffer;
+  __declspec(property(get = __cordl_internal_get__buffer, put = __cordl_internal_set__buffer))::ArrayW<int64_t, ::Array<int64_t>*> _buffer;
 
   /// @brief Field _index, offset 0x28, size 0x4
-  __declspec(property(get = __get__index, put = __set__index)) int32_t _index;
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
   /// @brief Field _length, offset 0x2c, size 0x4
-  __declspec(property(get = __get__length, put = __set__length)) int32_t _length;
+  __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) int32_t _length;
 
   __declspec(property(get = get_currentAverage)) float_t currentAverage;
 
   __declspec(property(get = get_hasValue)) bool hasValue;
 
-  constexpr int64_t& __get__currentTotal();
+  constexpr int64_t& __cordl_internal_get__currentTotal();
 
-  constexpr int64_t const& __get__currentTotal() const;
+  constexpr int64_t const& __cordl_internal_get__currentTotal() const;
 
-  constexpr void __set__currentTotal(int64_t value);
+  constexpr void __cordl_internal_set__currentTotal(int64_t value);
 
-  constexpr float_t& __get__currentAverage();
+  constexpr float_t& __cordl_internal_get__currentAverage();
 
-  constexpr float_t const& __get__currentAverage() const;
+  constexpr float_t const& __cordl_internal_get__currentAverage() const;
 
-  constexpr void __set__currentAverage(float_t value);
+  constexpr void __cordl_internal_set__currentAverage(float_t value);
 
-  constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& __get__buffer();
+  constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& __cordl_internal_get__buffer();
 
-  constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __get__buffer() const;
+  constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __cordl_internal_get__buffer() const;
 
-  constexpr void __set__buffer(::ArrayW<int64_t, ::Array<int64_t>*> value);
+  constexpr void __cordl_internal_set__buffer(::ArrayW<int64_t, ::Array<int64_t>*> value);
 
-  constexpr int32_t& __get__index();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr int32_t const& __get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __set__index(int32_t value);
+  constexpr void __cordl_internal_set__index(int32_t value);
 
-  constexpr int32_t& __get__length();
+  constexpr int32_t& __cordl_internal_get__length();
 
-  constexpr int32_t const& __get__length() const;
+  constexpr int32_t const& __cordl_internal_get__length() const;
 
-  constexpr void __set__length(int32_t value);
+  constexpr void __cordl_internal_set__length(int32_t value);
 
   /// @brief Method get_currentAverage, addr 0xe54598, size 0x8, virtual false, abstract: false, final false
   inline float_t get_currentAverage();

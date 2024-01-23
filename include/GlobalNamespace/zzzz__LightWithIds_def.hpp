@@ -36,23 +36,23 @@ MARK_REF_PTR_T(::GlobalNamespace::__LightWithIds__LightWithId);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14543))
 // CS Name: ::LightWithIds::LightWithId*
 class CORDL_TYPE __LightWithIds__LightWithId : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _lightId, offset 0x10, size 0x4
-  __declspec(property(get = __get__lightId, put = __set__lightId)) int32_t _lightId;
+  __declspec(property(get = __cordl_internal_get__lightId, put = __cordl_internal_set__lightId)) int32_t _lightId;
 
   /// @brief Field _color, offset 0x14, size 0x10
-  __declspec(property(get = __get__color, put = __set__color))::UnityEngine::Color _color;
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
   /// @brief Field _isRegistered, offset 0x24, size 0x1
-  __declspec(property(get = __get__isRegistered, put = __set__isRegistered)) bool _isRegistered;
+  __declspec(property(get = __cordl_internal_get__isRegistered, put = __cordl_internal_set__isRegistered)) bool _isRegistered;
 
   /// @brief Field _parentLightWithIds, offset 0x28, size 0x8
-  __declspec(property(get = __get__parentLightWithIds, put = __set__parentLightWithIds))::GlobalNamespace::LightWithIds* _parentLightWithIds;
+  __declspec(property(get = __cordl_internal_get__parentLightWithIds, put = __cordl_internal_set__parentLightWithIds))::UnityW<::GlobalNamespace::LightWithIds> _parentLightWithIds;
 
   __declspec(property(get = get_lightId)) int32_t lightId;
 
@@ -66,29 +66,29 @@ public:
   /// @brief Convert to "::GlobalNamespace::ILightWithId"
   constexpr ::GlobalNamespace::ILightWithId* i___GlobalNamespace__ILightWithId() noexcept;
 
-  constexpr int32_t& __get__lightId();
+  constexpr int32_t& __cordl_internal_get__lightId();
 
-  constexpr int32_t const& __get__lightId() const;
+  constexpr int32_t const& __cordl_internal_get__lightId() const;
 
-  constexpr void __set__lightId(int32_t value);
+  constexpr void __cordl_internal_set__lightId(int32_t value);
 
-  constexpr ::UnityEngine::Color& __get__color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::UnityEngine::Color const& __get__color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr void __set__color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  constexpr bool& __get__isRegistered();
+  constexpr bool& __cordl_internal_get__isRegistered();
 
-  constexpr bool const& __get__isRegistered() const;
+  constexpr bool const& __cordl_internal_get__isRegistered() const;
 
-  constexpr void __set__isRegistered(bool value);
+  constexpr void __cordl_internal_set__isRegistered(bool value);
 
-  constexpr ::GlobalNamespace::LightWithIds*& __get__parentLightWithIds();
+  constexpr ::UnityW<::GlobalNamespace::LightWithIds>& __cordl_internal_get__parentLightWithIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightWithIds*> const& __get__parentLightWithIds() const;
+  constexpr ::UnityW<::GlobalNamespace::LightWithIds> const& __cordl_internal_get__parentLightWithIds() const;
 
-  constexpr void __set__parentLightWithIds(::GlobalNamespace::LightWithIds* value);
+  constexpr void __cordl_internal_set__parentLightWithIds(::UnityW<::GlobalNamespace::LightWithIds> value);
 
   /// @brief Method get_lightId, addr 0x21119a0, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_lightId();
@@ -145,7 +145,7 @@ public:
   bool ____isRegistered;
 
   /// @brief Field _parentLightWithIds, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::LightWithIds* ____parentLightWithIds;
+  ::UnityW<::GlobalNamespace::LightWithIds> ____parentLightWithIds;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -165,7 +165,7 @@ static_assert(offsetof(::GlobalNamespace::__LightWithIds__LightWithId, ____paren
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14544))
 // CS Name: ::LightWithIds*
 class CORDL_TYPE LightWithIds : public ::UnityEngine::MonoBehaviour {
@@ -174,42 +174,43 @@ public:
   using LightWithId = ::GlobalNamespace::__LightWithIds__LightWithId;
 
   /// @brief Field _lightManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__lightManager, put = __set__lightManager))::GlobalNamespace::LightWithIdManager* _lightManager;
+  __declspec(property(get = __cordl_internal_get__lightManager, put = __cordl_internal_set__lightManager))::UnityW<::GlobalNamespace::LightWithIdManager> _lightManager;
 
   /// @brief Field _lightWithIds, offset 0x20, size 0x8
-  __declspec(property(get = __get__lightWithIds, put = __set__lightWithIds))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* _lightWithIds;
+  __declspec(property(get = __cordl_internal_get__lightWithIds,
+                      put = __cordl_internal_set__lightWithIds))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* _lightWithIds;
 
   /// @brief Field _isRegistered, offset 0x28, size 0x1
-  __declspec(property(get = __get__isRegistered, put = __set__isRegistered)) bool _isRegistered;
+  __declspec(property(get = __cordl_internal_get__isRegistered, put = __cordl_internal_set__isRegistered)) bool _isRegistered;
 
   /// @brief Field _childrenColorWasSet, offset 0x29, size 0x1
-  __declspec(property(get = __get__childrenColorWasSet, put = __set__childrenColorWasSet)) bool _childrenColorWasSet;
+  __declspec(property(get = __cordl_internal_get__childrenColorWasSet, put = __cordl_internal_set__childrenColorWasSet)) bool _childrenColorWasSet;
 
   __declspec(property(get = get_lightWithIds))::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* lightWithIds;
 
-  constexpr ::GlobalNamespace::LightWithIdManager*& __get__lightManager();
+  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager>& __cordl_internal_get__lightManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LightWithIdManager*> const& __get__lightManager() const;
+  constexpr ::UnityW<::GlobalNamespace::LightWithIdManager> const& __cordl_internal_get__lightManager() const;
 
-  constexpr void __set__lightManager(::GlobalNamespace::LightWithIdManager* value);
+  constexpr void __cordl_internal_set__lightManager(::UnityW<::GlobalNamespace::LightWithIdManager> value);
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>*& __get__lightWithIds();
+  constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>*& __cordl_internal_get__lightWithIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>*> const& __get__lightWithIds() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>*> const& __cordl_internal_get__lightWithIds() const;
 
-  constexpr void __set__lightWithIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* value);
+  constexpr void __cordl_internal_set__lightWithIds(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* value);
 
-  constexpr bool& __get__isRegistered();
+  constexpr bool& __cordl_internal_get__isRegistered();
 
-  constexpr bool const& __get__isRegistered() const;
+  constexpr bool const& __cordl_internal_get__isRegistered() const;
 
-  constexpr void __set__isRegistered(bool value);
+  constexpr void __cordl_internal_set__isRegistered(bool value);
 
-  constexpr bool& __get__childrenColorWasSet();
+  constexpr bool& __cordl_internal_get__childrenColorWasSet();
 
-  constexpr bool const& __get__childrenColorWasSet() const;
+  constexpr bool const& __cordl_internal_get__childrenColorWasSet() const;
 
-  constexpr void __set__childrenColorWasSet(bool value);
+  constexpr void __cordl_internal_set__childrenColorWasSet(bool value);
 
   /// @brief Method get_lightWithIds, addr 0x21111dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* get_lightWithIds();
@@ -267,7 +268,7 @@ protected:
 
 public:
   /// @brief Field _lightManager, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::LightWithIdManager* ____lightManager;
+  ::UnityW<::GlobalNamespace::LightWithIdManager> ____lightManager;
 
   /// @brief Field _lightWithIds, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__LightWithIds__LightWithId*>* ____lightWithIds;

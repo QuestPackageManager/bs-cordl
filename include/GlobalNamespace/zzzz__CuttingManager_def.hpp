@@ -23,29 +23,29 @@ MARK_REF_PTR_T(::GlobalNamespace::CuttingManager);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5287))
 // CS Name: ::CuttingManager*
 class CORDL_TYPE CuttingManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _saberManager, offset 0x18, size 0x8
-  __declspec(property(get = __get__saberManager, put = __set__saberManager))::GlobalNamespace::SaberManager* _saberManager;
+  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager))::UnityW<::GlobalNamespace::SaberManager> _saberManager;
 
   /// @brief Field _noteCutter, offset 0x20, size 0x8
-  __declspec(property(get = __get__noteCutter, put = __set__noteCutter))::GlobalNamespace::NoteCutter* _noteCutter;
+  __declspec(property(get = __cordl_internal_get__noteCutter, put = __cordl_internal_set__noteCutter))::GlobalNamespace::NoteCutter* _noteCutter;
 
-  constexpr ::GlobalNamespace::SaberManager*& __get__saberManager();
+  constexpr ::UnityW<::GlobalNamespace::SaberManager>& __cordl_internal_get__saberManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberManager*> const& __get__saberManager() const;
+  constexpr ::UnityW<::GlobalNamespace::SaberManager> const& __cordl_internal_get__saberManager() const;
 
-  constexpr void __set__saberManager(::GlobalNamespace::SaberManager* value);
+  constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
 
-  constexpr ::GlobalNamespace::NoteCutter*& __get__noteCutter();
+  constexpr ::GlobalNamespace::NoteCutter*& __cordl_internal_get__noteCutter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteCutter*> const& __get__noteCutter() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::NoteCutter*> const& __cordl_internal_get__noteCutter() const;
 
-  constexpr void __set__noteCutter(::GlobalNamespace::NoteCutter* value);
+  constexpr void __cordl_internal_set__noteCutter(::GlobalNamespace::NoteCutter* value);
 
   /// @brief Method OnEnable, addr 0x22627a8, size 0x88, virtual false, abstract: false, final false
   inline void OnEnable();
@@ -76,7 +76,7 @@ protected:
 
 public:
   /// @brief Field _saberManager, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::SaberManager* ____saberManager;
+  ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
 
   /// @brief Field _noteCutter, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::NoteCutter* ____noteCutter;

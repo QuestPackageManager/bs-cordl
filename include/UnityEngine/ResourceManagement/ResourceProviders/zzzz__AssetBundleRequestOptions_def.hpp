@@ -29,47 +29,47 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::AssetBundle
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 75, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13989)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(13989))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13991))
 // CS Name: ::UnityEngine.ResourceManagement.ResourceProviders::AssetBundleRequestOptions*
 class CORDL_TYPE AssetBundleRequestOptions : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Hash, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Hash, put = __set_m_Hash))::StringW m_Hash;
+  __declspec(property(get = __cordl_internal_get_m_Hash, put = __cordl_internal_set_m_Hash))::StringW m_Hash;
 
   /// @brief Field m_Crc, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_Crc, put = __set_m_Crc)) uint32_t m_Crc;
+  __declspec(property(get = __cordl_internal_get_m_Crc, put = __cordl_internal_set_m_Crc)) uint32_t m_Crc;
 
   /// @brief Field m_Timeout, offset 0x1c, size 0x4
-  __declspec(property(get = __get_m_Timeout, put = __set_m_Timeout)) int32_t m_Timeout;
+  __declspec(property(get = __cordl_internal_get_m_Timeout, put = __cordl_internal_set_m_Timeout)) int32_t m_Timeout;
 
   /// @brief Field m_ChunkedTransfer, offset 0x20, size 0x1
-  __declspec(property(get = __get_m_ChunkedTransfer, put = __set_m_ChunkedTransfer)) bool m_ChunkedTransfer;
+  __declspec(property(get = __cordl_internal_get_m_ChunkedTransfer, put = __cordl_internal_set_m_ChunkedTransfer)) bool m_ChunkedTransfer;
 
   /// @brief Field m_RedirectLimit, offset 0x24, size 0x4
-  __declspec(property(get = __get_m_RedirectLimit, put = __set_m_RedirectLimit)) int32_t m_RedirectLimit;
+  __declspec(property(get = __cordl_internal_get_m_RedirectLimit, put = __cordl_internal_set_m_RedirectLimit)) int32_t m_RedirectLimit;
 
   /// @brief Field m_RetryCount, offset 0x28, size 0x4
-  __declspec(property(get = __get_m_RetryCount, put = __set_m_RetryCount)) int32_t m_RetryCount;
+  __declspec(property(get = __cordl_internal_get_m_RetryCount, put = __cordl_internal_set_m_RetryCount)) int32_t m_RetryCount;
 
   /// @brief Field m_BundleName, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_BundleName, put = __set_m_BundleName))::StringW m_BundleName;
+  __declspec(property(get = __cordl_internal_get_m_BundleName, put = __cordl_internal_set_m_BundleName))::StringW m_BundleName;
 
   /// @brief Field m_AssetLoadMode, offset 0x38, size 0x4
-  __declspec(property(get = __get_m_AssetLoadMode, put = __set_m_AssetLoadMode))::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode m_AssetLoadMode;
+  __declspec(property(get = __cordl_internal_get_m_AssetLoadMode, put = __cordl_internal_set_m_AssetLoadMode))::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode m_AssetLoadMode;
 
   /// @brief Field m_BundleSize, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_BundleSize, put = __set_m_BundleSize)) int64_t m_BundleSize;
+  __declspec(property(get = __cordl_internal_get_m_BundleSize, put = __cordl_internal_set_m_BundleSize)) int64_t m_BundleSize;
 
   /// @brief Field m_UseCrcForCachedBundles, offset 0x48, size 0x1
-  __declspec(property(get = __get_m_UseCrcForCachedBundles, put = __set_m_UseCrcForCachedBundles)) bool m_UseCrcForCachedBundles;
+  __declspec(property(get = __cordl_internal_get_m_UseCrcForCachedBundles, put = __cordl_internal_set_m_UseCrcForCachedBundles)) bool m_UseCrcForCachedBundles;
 
   /// @brief Field m_UseUWRForLocalBundles, offset 0x49, size 0x1
-  __declspec(property(get = __get_m_UseUWRForLocalBundles, put = __set_m_UseUWRForLocalBundles)) bool m_UseUWRForLocalBundles;
+  __declspec(property(get = __cordl_internal_get_m_UseUWRForLocalBundles, put = __cordl_internal_set_m_UseUWRForLocalBundles)) bool m_UseUWRForLocalBundles;
 
   /// @brief Field m_ClearOtherCachedVersionsWhenLoaded, offset 0x4a, size 0x1
-  __declspec(property(get = __get_m_ClearOtherCachedVersionsWhenLoaded, put = __set_m_ClearOtherCachedVersionsWhenLoaded)) bool m_ClearOtherCachedVersionsWhenLoaded;
+  __declspec(property(get = __cordl_internal_get_m_ClearOtherCachedVersionsWhenLoaded, put = __cordl_internal_set_m_ClearOtherCachedVersionsWhenLoaded)) bool m_ClearOtherCachedVersionsWhenLoaded;
 
   __declspec(property(get = get_Hash, put = set_Hash))::StringW Hash;
 
@@ -101,77 +101,77 @@ public:
   /// @brief Convert to "::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData"
   constexpr ::UnityEngine::ResourceManagement::ResourceLocations::ILocationSizeData* i___UnityEngine__ResourceManagement__ResourceLocations__ILocationSizeData() noexcept;
 
-  constexpr ::StringW& __get_m_Hash();
+  constexpr ::StringW& __cordl_internal_get_m_Hash();
 
-  constexpr ::StringW const& __get_m_Hash() const;
+  constexpr ::StringW const& __cordl_internal_get_m_Hash() const;
 
-  constexpr void __set_m_Hash(::StringW value);
+  constexpr void __cordl_internal_set_m_Hash(::StringW value);
 
-  constexpr uint32_t& __get_m_Crc();
+  constexpr uint32_t& __cordl_internal_get_m_Crc();
 
-  constexpr uint32_t const& __get_m_Crc() const;
+  constexpr uint32_t const& __cordl_internal_get_m_Crc() const;
 
-  constexpr void __set_m_Crc(uint32_t value);
+  constexpr void __cordl_internal_set_m_Crc(uint32_t value);
 
-  constexpr int32_t& __get_m_Timeout();
+  constexpr int32_t& __cordl_internal_get_m_Timeout();
 
-  constexpr int32_t const& __get_m_Timeout() const;
+  constexpr int32_t const& __cordl_internal_get_m_Timeout() const;
 
-  constexpr void __set_m_Timeout(int32_t value);
+  constexpr void __cordl_internal_set_m_Timeout(int32_t value);
 
-  constexpr bool& __get_m_ChunkedTransfer();
+  constexpr bool& __cordl_internal_get_m_ChunkedTransfer();
 
-  constexpr bool const& __get_m_ChunkedTransfer() const;
+  constexpr bool const& __cordl_internal_get_m_ChunkedTransfer() const;
 
-  constexpr void __set_m_ChunkedTransfer(bool value);
+  constexpr void __cordl_internal_set_m_ChunkedTransfer(bool value);
 
-  constexpr int32_t& __get_m_RedirectLimit();
+  constexpr int32_t& __cordl_internal_get_m_RedirectLimit();
 
-  constexpr int32_t const& __get_m_RedirectLimit() const;
+  constexpr int32_t const& __cordl_internal_get_m_RedirectLimit() const;
 
-  constexpr void __set_m_RedirectLimit(int32_t value);
+  constexpr void __cordl_internal_set_m_RedirectLimit(int32_t value);
 
-  constexpr int32_t& __get_m_RetryCount();
+  constexpr int32_t& __cordl_internal_get_m_RetryCount();
 
-  constexpr int32_t const& __get_m_RetryCount() const;
+  constexpr int32_t const& __cordl_internal_get_m_RetryCount() const;
 
-  constexpr void __set_m_RetryCount(int32_t value);
+  constexpr void __cordl_internal_set_m_RetryCount(int32_t value);
 
-  constexpr ::StringW& __get_m_BundleName();
+  constexpr ::StringW& __cordl_internal_get_m_BundleName();
 
-  constexpr ::StringW const& __get_m_BundleName() const;
+  constexpr ::StringW const& __cordl_internal_get_m_BundleName() const;
 
-  constexpr void __set_m_BundleName(::StringW value);
+  constexpr void __cordl_internal_set_m_BundleName(::StringW value);
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode& __get_m_AssetLoadMode();
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode& __cordl_internal_get_m_AssetLoadMode();
 
-  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode const& __get_m_AssetLoadMode() const;
+  constexpr ::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode const& __cordl_internal_get_m_AssetLoadMode() const;
 
-  constexpr void __set_m_AssetLoadMode(::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode value);
+  constexpr void __cordl_internal_set_m_AssetLoadMode(::UnityEngine::ResourceManagement::ResourceProviders::AssetLoadMode value);
 
-  constexpr int64_t& __get_m_BundleSize();
+  constexpr int64_t& __cordl_internal_get_m_BundleSize();
 
-  constexpr int64_t const& __get_m_BundleSize() const;
+  constexpr int64_t const& __cordl_internal_get_m_BundleSize() const;
 
-  constexpr void __set_m_BundleSize(int64_t value);
+  constexpr void __cordl_internal_set_m_BundleSize(int64_t value);
 
-  constexpr bool& __get_m_UseCrcForCachedBundles();
+  constexpr bool& __cordl_internal_get_m_UseCrcForCachedBundles();
 
-  constexpr bool const& __get_m_UseCrcForCachedBundles() const;
+  constexpr bool const& __cordl_internal_get_m_UseCrcForCachedBundles() const;
 
-  constexpr void __set_m_UseCrcForCachedBundles(bool value);
+  constexpr void __cordl_internal_set_m_UseCrcForCachedBundles(bool value);
 
-  constexpr bool& __get_m_UseUWRForLocalBundles();
+  constexpr bool& __cordl_internal_get_m_UseUWRForLocalBundles();
 
-  constexpr bool const& __get_m_UseUWRForLocalBundles() const;
+  constexpr bool const& __cordl_internal_get_m_UseUWRForLocalBundles() const;
 
-  constexpr void __set_m_UseUWRForLocalBundles(bool value);
+  constexpr void __cordl_internal_set_m_UseUWRForLocalBundles(bool value);
 
-  constexpr bool& __get_m_ClearOtherCachedVersionsWhenLoaded();
+  constexpr bool& __cordl_internal_get_m_ClearOtherCachedVersionsWhenLoaded();
 
-  constexpr bool const& __get_m_ClearOtherCachedVersionsWhenLoaded() const;
+  constexpr bool const& __cordl_internal_get_m_ClearOtherCachedVersionsWhenLoaded() const;
 
-  constexpr void __set_m_ClearOtherCachedVersionsWhenLoaded(bool value);
+  constexpr void __cordl_internal_set_m_ClearOtherCachedVersionsWhenLoaded(bool value);
 
   /// @brief Method get_Hash, addr 0x2bd3888, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Hash();

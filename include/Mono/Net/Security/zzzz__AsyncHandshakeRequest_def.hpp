@@ -20,7 +20,7 @@ MARK_REF_PTR_T(::Mono::Net::Security::AsyncHandshakeRequest);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Mono::Net::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8822))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8822))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8823))
 // CS Name: ::Mono.Net.Security::AsyncHandshakeRequest*
 class CORDL_TYPE AsyncHandshakeRequest : public ::Mono::Net::Security::AsyncProtocolRequest {

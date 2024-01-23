@@ -29,33 +29,34 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(137))
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::CommitmentTypeQualifier*
 class CORDL_TYPE CommitmentTypeQualifier : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field commitmentTypeIdentifier, offset 0x10, size 0x8
-  __declspec(property(get = __get_commitmentTypeIdentifier, put = __set_commitmentTypeIdentifier))::Org::BouncyCastle::Asn1::DerObjectIdentifier* commitmentTypeIdentifier;
+  __declspec(property(get = __cordl_internal_get_commitmentTypeIdentifier,
+                      put = __cordl_internal_set_commitmentTypeIdentifier))::Org::BouncyCastle::Asn1::DerObjectIdentifier* commitmentTypeIdentifier;
 
   /// @brief Field qualifier, offset 0x18, size 0x8
-  __declspec(property(get = __get_qualifier, put = __set_qualifier))::Org::BouncyCastle::Asn1::Asn1Object* qualifier;
+  __declspec(property(get = __cordl_internal_get_qualifier, put = __cordl_internal_set_qualifier))::Org::BouncyCastle::Asn1::Asn1Object* qualifier;
 
   __declspec(property(get = get_CommitmentTypeIdentifier))::Org::BouncyCastle::Asn1::DerObjectIdentifier* CommitmentTypeIdentifier;
 
   __declspec(property(get = get_Qualifier))::Org::BouncyCastle::Asn1::Asn1Object* Qualifier;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __get_commitmentTypeIdentifier();
+  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_commitmentTypeIdentifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __get_commitmentTypeIdentifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_commitmentTypeIdentifier() const;
 
-  constexpr void __set_commitmentTypeIdentifier(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+  constexpr void __cordl_internal_set_commitmentTypeIdentifier(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __get_qualifier();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __cordl_internal_get_qualifier();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __get_qualifier() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __cordl_internal_get_qualifier() const;
 
-  constexpr void __set_qualifier(::Org::BouncyCastle::Asn1::Asn1Object* value);
+  constexpr void __cordl_internal_set_qualifier(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
   static inline ::Org::BouncyCastle::Asn1::Esf::CommitmentTypeQualifier* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* commitmentTypeIdentifier);
 

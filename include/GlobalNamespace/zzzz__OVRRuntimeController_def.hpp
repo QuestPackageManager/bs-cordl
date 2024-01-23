@@ -52,20 +52,20 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8161))
 // CS Name: ::OVRRuntimeController::<UpdateControllerModel>d__16*
 class CORDL_TYPE __OVRRuntimeController___UpdateControllerModel_d__16 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::OVRRuntimeController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::OVRRuntimeController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -89,23 +89,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::OVRRuntimeController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::OVRRuntimeController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OVRRuntimeController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::OVRRuntimeController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::OVRRuntimeController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRRuntimeController> value);
 
   static inline ::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16* New_ctor(int32_t __1__state);
 
@@ -148,7 +148,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::OVRRuntimeController* _____4__this;
+  ::UnityW<::GlobalNamespace::OVRRuntimeController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -166,7 +166,7 @@ static_assert(offsetof(::GlobalNamespace::__OVRRuntimeController___UpdateControl
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7598)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8162))
 // CS Name: ::OVRRuntimeController*
 class CORDL_TYPE OVRRuntimeController : public ::UnityEngine::MonoBehaviour {
@@ -175,35 +175,36 @@ public:
   using _UpdateControllerModel_d__16 = ::GlobalNamespace::__OVRRuntimeController___UpdateControllerModel_d__16;
 
   /// @brief Field m_controller, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_controller, put = __set_m_controller))::GlobalNamespace::__OVRInput__Controller m_controller;
+  __declspec(property(get = __cordl_internal_get_m_controller, put = __cordl_internal_set_m_controller))::GlobalNamespace::__OVRInput__Controller m_controller;
 
   /// @brief Field m_controllerModelShader, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_controllerModelShader, put = __set_m_controllerModelShader))::UnityEngine::Shader* m_controllerModelShader;
+  __declspec(property(get = __cordl_internal_get_m_controllerModelShader, put = __cordl_internal_set_m_controllerModelShader))::UnityW<::UnityEngine::Shader> m_controllerModelShader;
 
   /// @brief Field m_supportAnimation, offset 0x28, size 0x1
-  __declspec(property(get = __get_m_supportAnimation, put = __set_m_supportAnimation)) bool m_supportAnimation;
+  __declspec(property(get = __cordl_internal_get_m_supportAnimation, put = __cordl_internal_set_m_supportAnimation)) bool m_supportAnimation;
 
   /// @brief Field m_controllerObject, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_controllerObject, put = __set_m_controllerObject))::UnityEngine::GameObject* m_controllerObject;
+  __declspec(property(get = __cordl_internal_get_m_controllerObject, put = __cordl_internal_set_m_controllerObject))::UnityW<::UnityEngine::GameObject> m_controllerObject;
 
   /// @brief Field m_controllerModelPath, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_controllerModelPath, put = __set_m_controllerModelPath))::StringW m_controllerModelPath;
+  __declspec(property(get = __cordl_internal_get_m_controllerModelPath, put = __cordl_internal_set_m_controllerModelPath))::StringW m_controllerModelPath;
 
   /// @brief Field m_modelSupported, offset 0x40, size 0x1
-  __declspec(property(get = __get_m_modelSupported, put = __set_m_modelSupported)) bool m_modelSupported;
+  __declspec(property(get = __cordl_internal_get_m_modelSupported, put = __cordl_internal_set_m_modelSupported)) bool m_modelSupported;
 
   /// @brief Field m_hasInputFocus, offset 0x41, size 0x1
-  __declspec(property(get = __get_m_hasInputFocus, put = __set_m_hasInputFocus)) bool m_hasInputFocus;
+  __declspec(property(get = __cordl_internal_get_m_hasInputFocus, put = __cordl_internal_set_m_hasInputFocus)) bool m_hasInputFocus;
 
   /// @brief Field m_hasInputFocusPrev, offset 0x42, size 0x1
-  __declspec(property(get = __get_m_hasInputFocusPrev, put = __set_m_hasInputFocusPrev)) bool m_hasInputFocusPrev;
+  __declspec(property(get = __cordl_internal_get_m_hasInputFocusPrev, put = __cordl_internal_set_m_hasInputFocusPrev)) bool m_hasInputFocusPrev;
 
   /// @brief Field m_controllerConnectedPrev, offset 0x43, size 0x1
-  __declspec(property(get = __get_m_controllerConnectedPrev, put = __set_m_controllerConnectedPrev)) bool m_controllerConnectedPrev;
+  __declspec(property(get = __cordl_internal_get_m_controllerConnectedPrev, put = __cordl_internal_set_m_controllerConnectedPrev)) bool m_controllerConnectedPrev;
 
   /// @brief Field m_animationNodes, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_animationNodes,
-                      put = __set_m_animationNodes))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* m_animationNodes;
+  __declspec(property(
+      get = __cordl_internal_get_m_animationNodes,
+      put = __cordl_internal_set_m_animationNodes))::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* m_animationNodes;
 
   /// @brief Field leftControllerModelPath, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_leftControllerModelPath, put = setStaticF_leftControllerModelPath))::StringW leftControllerModelPath;
@@ -211,66 +212,66 @@ public:
   /// @brief Field rightControllerModelPath, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_rightControllerModelPath, put = setStaticF_rightControllerModelPath))::StringW rightControllerModelPath;
 
-  constexpr ::GlobalNamespace::__OVRInput__Controller& __get_m_controller();
+  constexpr ::GlobalNamespace::__OVRInput__Controller& __cordl_internal_get_m_controller();
 
-  constexpr ::GlobalNamespace::__OVRInput__Controller const& __get_m_controller() const;
+  constexpr ::GlobalNamespace::__OVRInput__Controller const& __cordl_internal_get_m_controller() const;
 
-  constexpr void __set_m_controller(::GlobalNamespace::__OVRInput__Controller value);
+  constexpr void __cordl_internal_set_m_controller(::GlobalNamespace::__OVRInput__Controller value);
 
-  constexpr ::UnityEngine::Shader*& __get_m_controllerModelShader();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_m_controllerModelShader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get_m_controllerModelShader() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_m_controllerModelShader() const;
 
-  constexpr void __set_m_controllerModelShader(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set_m_controllerModelShader(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr bool& __get_m_supportAnimation();
+  constexpr bool& __cordl_internal_get_m_supportAnimation();
 
-  constexpr bool const& __get_m_supportAnimation() const;
+  constexpr bool const& __cordl_internal_get_m_supportAnimation() const;
 
-  constexpr void __set_m_supportAnimation(bool value);
+  constexpr void __cordl_internal_set_m_supportAnimation(bool value);
 
-  constexpr ::UnityEngine::GameObject*& __get_m_controllerObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get_m_controllerObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get_m_controllerObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_m_controllerObject() const;
 
-  constexpr void __set_m_controllerObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set_m_controllerObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::StringW& __get_m_controllerModelPath();
+  constexpr ::StringW& __cordl_internal_get_m_controllerModelPath();
 
-  constexpr ::StringW const& __get_m_controllerModelPath() const;
+  constexpr ::StringW const& __cordl_internal_get_m_controllerModelPath() const;
 
-  constexpr void __set_m_controllerModelPath(::StringW value);
+  constexpr void __cordl_internal_set_m_controllerModelPath(::StringW value);
 
-  constexpr bool& __get_m_modelSupported();
+  constexpr bool& __cordl_internal_get_m_modelSupported();
 
-  constexpr bool const& __get_m_modelSupported() const;
+  constexpr bool const& __cordl_internal_get_m_modelSupported() const;
 
-  constexpr void __set_m_modelSupported(bool value);
+  constexpr void __cordl_internal_set_m_modelSupported(bool value);
 
-  constexpr bool& __get_m_hasInputFocus();
+  constexpr bool& __cordl_internal_get_m_hasInputFocus();
 
-  constexpr bool const& __get_m_hasInputFocus() const;
+  constexpr bool const& __cordl_internal_get_m_hasInputFocus() const;
 
-  constexpr void __set_m_hasInputFocus(bool value);
+  constexpr void __cordl_internal_set_m_hasInputFocus(bool value);
 
-  constexpr bool& __get_m_hasInputFocusPrev();
+  constexpr bool& __cordl_internal_get_m_hasInputFocusPrev();
 
-  constexpr bool const& __get_m_hasInputFocusPrev() const;
+  constexpr bool const& __cordl_internal_get_m_hasInputFocusPrev() const;
 
-  constexpr void __set_m_hasInputFocusPrev(bool value);
+  constexpr void __cordl_internal_set_m_hasInputFocusPrev(bool value);
 
-  constexpr bool& __get_m_controllerConnectedPrev();
+  constexpr bool& __cordl_internal_get_m_controllerConnectedPrev();
 
-  constexpr bool const& __get_m_controllerConnectedPrev() const;
+  constexpr bool const& __cordl_internal_get_m_controllerConnectedPrev() const;
 
-  constexpr void __set_m_controllerConnectedPrev(bool value);
+  constexpr void __cordl_internal_set_m_controllerConnectedPrev(bool value);
 
-  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>*& __get_m_animationNodes();
+  constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>*& __cordl_internal_get_m_animationNodes();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>*> const&
-  __get_m_animationNodes() const;
+  __cordl_internal_get_m_animationNodes() const;
 
-  constexpr void __set_m_animationNodes(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* value);
+  constexpr void __cordl_internal_set_m_animationNodes(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::OVRGLTFInputNode, ::GlobalNamespace::OVRGLTFAnimatinonNode*>* value);
 
   static inline void setStaticF_leftControllerModelPath(::StringW value);
 
@@ -327,13 +328,13 @@ public:
   ::GlobalNamespace::__OVRInput__Controller ___m_controller;
 
   /// @brief Field m_controllerModelShader, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Shader* ___m_controllerModelShader;
+  ::UnityW<::UnityEngine::Shader> ___m_controllerModelShader;
 
   /// @brief Field m_supportAnimation, offset: 0x28, size: 0x1, def value: None
   bool ___m_supportAnimation;
 
   /// @brief Field m_controllerObject, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ___m_controllerObject;
+  ::UnityW<::UnityEngine::GameObject> ___m_controllerObject;
 
   /// @brief Field m_controllerModelPath, offset: 0x38, size: 0x8, def value: None
   ::StringW ___m_controllerModelPath;

@@ -37,23 +37,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Pkcs::Pbkdf2Params);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Pkcs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(242))
 // CS Name: ::Org.BouncyCastle.Asn1.Pkcs::Pbkdf2Params*
 class CORDL_TYPE Pbkdf2Params : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field octStr, offset 0x10, size 0x8
-  __declspec(property(get = __get_octStr, put = __set_octStr))::Org::BouncyCastle::Asn1::Asn1OctetString* octStr;
+  __declspec(property(get = __cordl_internal_get_octStr, put = __cordl_internal_set_octStr))::Org::BouncyCastle::Asn1::Asn1OctetString* octStr;
 
   /// @brief Field iterationCount, offset 0x18, size 0x8
-  __declspec(property(get = __get_iterationCount, put = __set_iterationCount))::Org::BouncyCastle::Asn1::DerInteger* iterationCount;
+  __declspec(property(get = __cordl_internal_get_iterationCount, put = __cordl_internal_set_iterationCount))::Org::BouncyCastle::Asn1::DerInteger* iterationCount;
 
   /// @brief Field keyLength, offset 0x20, size 0x8
-  __declspec(property(get = __get_keyLength, put = __set_keyLength))::Org::BouncyCastle::Asn1::DerInteger* keyLength;
+  __declspec(property(get = __cordl_internal_get_keyLength, put = __cordl_internal_set_keyLength))::Org::BouncyCastle::Asn1::DerInteger* keyLength;
 
   /// @brief Field prf, offset 0x28, size 0x8
-  __declspec(property(get = __get_prf, put = __set_prf))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf;
+  __declspec(property(get = __cordl_internal_get_prf, put = __cordl_internal_set_prf))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* prf;
 
   /// @brief Field algid_hmacWithSHA1, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_algid_hmacWithSHA1, put = setStaticF_algid_hmacWithSHA1))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algid_hmacWithSHA1;
@@ -66,29 +66,29 @@ public:
 
   __declspec(property(get = get_Prf))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Prf;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_octStr();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_octStr();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_octStr() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_octStr() const;
 
-  constexpr void __set_octStr(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_octStr(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_iterationCount();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_iterationCount();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_iterationCount() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_iterationCount() const;
 
-  constexpr void __set_iterationCount(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_iterationCount(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __get_keyLength();
+  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_keyLength();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __get_keyLength() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_keyLength() const;
 
-  constexpr void __set_keyLength(::Org::BouncyCastle::Asn1::DerInteger* value);
+  constexpr void __cordl_internal_set_keyLength(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_prf();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_prf();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_prf() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_prf() const;
 
-  constexpr void __set_prf(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_prf(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
   static inline void setStaticF_algid_hmacWithSHA1(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 

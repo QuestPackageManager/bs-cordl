@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::JsonLinqContract);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11943))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11943))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11914))
 // CS Name: ::Newtonsoft.Json.Serialization::JsonLinqContract*
 class CORDL_TYPE JsonLinqContract : public ::Newtonsoft::Json::Serialization::JsonContract {

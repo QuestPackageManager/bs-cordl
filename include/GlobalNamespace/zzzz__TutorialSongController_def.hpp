@@ -100,29 +100,29 @@ MARK_REF_PTR_T(::GlobalNamespace::__TutorialSongController__TutorialObstacleSpaw
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5344))
 // CS Name: ::TutorialSongController::InitData*
 class CORDL_TYPE __TutorialSongController__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field songBpm, offset 0x10, size 0x4
-  __declspec(property(get = __get_songBpm, put = __set_songBpm)) float_t songBpm;
+  __declspec(property(get = __cordl_internal_get_songBpm, put = __cordl_internal_set_songBpm)) float_t songBpm;
 
   /// @brief Field beatmapData, offset 0x18, size 0x8
-  __declspec(property(get = __get_beatmapData, put = __set_beatmapData))::GlobalNamespace::BeatmapData* beatmapData;
+  __declspec(property(get = __cordl_internal_get_beatmapData, put = __cordl_internal_set_beatmapData))::GlobalNamespace::BeatmapData* beatmapData;
 
-  constexpr float_t& __get_songBpm();
+  constexpr float_t& __cordl_internal_get_songBpm();
 
-  constexpr float_t const& __get_songBpm() const;
+  constexpr float_t const& __cordl_internal_get_songBpm() const;
 
-  constexpr void __set_songBpm(float_t value);
+  constexpr void __cordl_internal_set_songBpm(float_t value);
 
-  constexpr ::GlobalNamespace::BeatmapData*& __get_beatmapData();
+  constexpr ::GlobalNamespace::BeatmapData*& __cordl_internal_get_beatmapData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapData*> const& __get_beatmapData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapData*> const& __cordl_internal_get_beatmapData() const;
 
-  constexpr void __set_beatmapData(::GlobalNamespace::BeatmapData* value);
+  constexpr void __cordl_internal_set_beatmapData(::GlobalNamespace::BeatmapData* value);
 
   static inline ::GlobalNamespace::__TutorialSongController__InitData* New_ctor(float_t songBpm, ::GlobalNamespace::BeatmapData* beatmapData);
 
@@ -163,47 +163,47 @@ static_assert(offsetof(::GlobalNamespace::__TutorialSongController__InitData, __
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5345))
 // CS Name: ::TutorialSongController::TutorialObjectSpawnData*
 class CORDL_TYPE __TutorialSongController__TutorialObjectSpawnData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field signal, offset 0x10, size 0x8
-  __declspec(property(get = __get_signal, put = __set_signal))::GlobalNamespace::Signal* signal;
+  __declspec(property(get = __cordl_internal_get_signal, put = __cordl_internal_set_signal))::UnityW<::GlobalNamespace::Signal> signal;
 
   /// @brief Field beatOffset, offset 0x18, size 0x4
-  __declspec(property(get = __get_beatOffset, put = __set_beatOffset)) int32_t beatOffset;
+  __declspec(property(get = __cordl_internal_get_beatOffset, put = __cordl_internal_set_beatOffset)) int32_t beatOffset;
 
   /// @brief Field firstTimeBeatOffset, offset 0x1c, size 0x4
-  __declspec(property(get = __get_firstTimeBeatOffset, put = __set_firstTimeBeatOffset)) int32_t firstTimeBeatOffset;
+  __declspec(property(get = __cordl_internal_get_firstTimeBeatOffset, put = __cordl_internal_set_firstTimeBeatOffset)) int32_t firstTimeBeatOffset;
 
   /// @brief Field lineIndex, offset 0x20, size 0x4
-  __declspec(property(get = __get_lineIndex, put = __set_lineIndex)) int32_t lineIndex;
+  __declspec(property(get = __cordl_internal_get_lineIndex, put = __cordl_internal_set_lineIndex)) int32_t lineIndex;
 
-  constexpr ::GlobalNamespace::Signal*& __get_signal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get_signal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get_signal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get_signal() const;
 
-  constexpr void __set_signal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set_signal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr int32_t& __get_beatOffset();
+  constexpr int32_t& __cordl_internal_get_beatOffset();
 
-  constexpr int32_t const& __get_beatOffset() const;
+  constexpr int32_t const& __cordl_internal_get_beatOffset() const;
 
-  constexpr void __set_beatOffset(int32_t value);
+  constexpr void __cordl_internal_set_beatOffset(int32_t value);
 
-  constexpr int32_t& __get_firstTimeBeatOffset();
+  constexpr int32_t& __cordl_internal_get_firstTimeBeatOffset();
 
-  constexpr int32_t const& __get_firstTimeBeatOffset() const;
+  constexpr int32_t const& __cordl_internal_get_firstTimeBeatOffset() const;
 
-  constexpr void __set_firstTimeBeatOffset(int32_t value);
+  constexpr void __cordl_internal_set_firstTimeBeatOffset(int32_t value);
 
-  constexpr int32_t& __get_lineIndex();
+  constexpr int32_t& __cordl_internal_get_lineIndex();
 
-  constexpr int32_t const& __get_lineIndex() const;
+  constexpr int32_t const& __cordl_internal_get_lineIndex() const;
 
-  constexpr void __set_lineIndex(int32_t value);
+  constexpr void __cordl_internal_set_lineIndex(int32_t value);
 
   static inline ::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData* New_ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex);
 
@@ -225,7 +225,7 @@ protected:
 
 public:
   /// @brief Field signal, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ___signal;
+  ::UnityW<::GlobalNamespace::Signal> ___signal;
 
   /// @brief Field beatOffset, offset: 0x18, size: 0x4, def value: None
   int32_t ___beatOffset;
@@ -254,20 +254,20 @@ static_assert(offsetof(::GlobalNamespace::__TutorialSongController__TutorialObje
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5345)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5345)), TypeDefinitionIndex(TypeDefinitionIndex(14760))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5346))
 // CS Name: ::TutorialSongController::TutorialJumpingNoteSpawnData*
 class CORDL_TYPE __TutorialSongController__TutorialJumpingNoteSpawnData : public ::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData {
 public:
   // Declarations
   /// @brief Field noteLineLayer, offset 0x24, size 0x4
-  __declspec(property(get = __get_noteLineLayer, put = __set_noteLineLayer))::GlobalNamespace::NoteLineLayer noteLineLayer;
+  __declspec(property(get = __cordl_internal_get_noteLineLayer, put = __cordl_internal_set_noteLineLayer))::GlobalNamespace::NoteLineLayer noteLineLayer;
 
-  constexpr ::GlobalNamespace::NoteLineLayer& __get_noteLineLayer();
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get_noteLineLayer();
 
-  constexpr ::GlobalNamespace::NoteLineLayer const& __get_noteLineLayer() const;
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get_noteLineLayer() const;
 
-  constexpr void __set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
+  constexpr void __cordl_internal_set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
 
   static inline ::GlobalNamespace::__TutorialSongController__TutorialJumpingNoteSpawnData* New_ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset,
                                                                                                     int32_t lineIndex, ::GlobalNamespace::NoteLineLayer noteLineLayer);
@@ -304,29 +304,29 @@ static_assert(offsetof(::GlobalNamespace::__TutorialSongController__TutorialJump
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14755)), TypeDefinitionIndex(TypeDefinitionIndex(5346)), TypeDefinitionIndex(TypeDefinitionIndex(14752))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5346)), TypeDefinitionIndex(TypeDefinitionIndex(14752)), TypeDefinitionIndex(TypeDefinitionIndex(14755))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5347))
 // CS Name: ::TutorialSongController::TutorialBasicNoteSpawnData*
 class CORDL_TYPE __TutorialSongController__TutorialBasicNoteSpawnData : public ::GlobalNamespace::__TutorialSongController__TutorialJumpingNoteSpawnData {
 public:
   // Declarations
   /// @brief Field cutDirection, offset 0x28, size 0x4
-  __declspec(property(get = __get_cutDirection, put = __set_cutDirection))::GlobalNamespace::NoteCutDirection cutDirection;
+  __declspec(property(get = __cordl_internal_get_cutDirection, put = __cordl_internal_set_cutDirection))::GlobalNamespace::NoteCutDirection cutDirection;
 
   /// @brief Field colorType, offset 0x2c, size 0x4
-  __declspec(property(get = __get_colorType, put = __set_colorType))::GlobalNamespace::ColorType colorType;
+  __declspec(property(get = __cordl_internal_get_colorType, put = __cordl_internal_set_colorType))::GlobalNamespace::ColorType colorType;
 
-  constexpr ::GlobalNamespace::NoteCutDirection& __get_cutDirection();
+  constexpr ::GlobalNamespace::NoteCutDirection& __cordl_internal_get_cutDirection();
 
-  constexpr ::GlobalNamespace::NoteCutDirection const& __get_cutDirection() const;
+  constexpr ::GlobalNamespace::NoteCutDirection const& __cordl_internal_get_cutDirection() const;
 
-  constexpr void __set_cutDirection(::GlobalNamespace::NoteCutDirection value);
+  constexpr void __cordl_internal_set_cutDirection(::GlobalNamespace::NoteCutDirection value);
 
-  constexpr ::GlobalNamespace::ColorType& __get_colorType();
+  constexpr ::GlobalNamespace::ColorType& __cordl_internal_get_colorType();
 
-  constexpr ::GlobalNamespace::ColorType const& __get_colorType() const;
+  constexpr ::GlobalNamespace::ColorType const& __cordl_internal_get_colorType() const;
 
-  constexpr void __set_colorType(::GlobalNamespace::ColorType value);
+  constexpr void __cordl_internal_set_colorType(::GlobalNamespace::ColorType value);
 
   static inline ::GlobalNamespace::__TutorialSongController__TutorialBasicNoteSpawnData* New_ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex,
                                                                                                   ::GlobalNamespace::NoteLineLayer noteLineLayer, ::GlobalNamespace::NoteCutDirection cutDirection,
@@ -370,7 +370,7 @@ static_assert(offsetof(::GlobalNamespace::__TutorialSongController__TutorialBasi
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5346))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5346))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5348))
 // CS Name: ::TutorialSongController::TutorialBombNoteSpawnData*
 class CORDL_TYPE __TutorialSongController__TutorialBombNoteSpawnData : public ::GlobalNamespace::__TutorialSongController__TutorialJumpingNoteSpawnData {
@@ -406,38 +406,38 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TutorialSongC
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5345)), TypeDefinitionIndex(TypeDefinitionIndex(14760))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5345)), TypeDefinitionIndex(TypeDefinitionIndex(14760))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5349))
 // CS Name: ::TutorialSongController::TutorialObstacleSpawnData*
 class CORDL_TYPE __TutorialSongController__TutorialObstacleSpawnData : public ::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData {
 public:
   // Declarations
   /// @brief Field noteLineLayer, offset 0x24, size 0x4
-  __declspec(property(get = __get_noteLineLayer, put = __set_noteLineLayer))::GlobalNamespace::NoteLineLayer noteLineLayer;
+  __declspec(property(get = __cordl_internal_get_noteLineLayer, put = __cordl_internal_set_noteLineLayer))::GlobalNamespace::NoteLineLayer noteLineLayer;
 
   /// @brief Field width, offset 0x28, size 0x4
-  __declspec(property(get = __get_width, put = __set_width)) int32_t width;
+  __declspec(property(get = __cordl_internal_get_width, put = __cordl_internal_set_width)) int32_t width;
 
   /// @brief Field height, offset 0x2c, size 0x4
-  __declspec(property(get = __get_height, put = __set_height)) int32_t height;
+  __declspec(property(get = __cordl_internal_get_height, put = __cordl_internal_set_height)) int32_t height;
 
-  constexpr ::GlobalNamespace::NoteLineLayer& __get_noteLineLayer();
+  constexpr ::GlobalNamespace::NoteLineLayer& __cordl_internal_get_noteLineLayer();
 
-  constexpr ::GlobalNamespace::NoteLineLayer const& __get_noteLineLayer() const;
+  constexpr ::GlobalNamespace::NoteLineLayer const& __cordl_internal_get_noteLineLayer() const;
 
-  constexpr void __set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
+  constexpr void __cordl_internal_set_noteLineLayer(::GlobalNamespace::NoteLineLayer value);
 
-  constexpr int32_t& __get_width();
+  constexpr int32_t& __cordl_internal_get_width();
 
-  constexpr int32_t const& __get_width() const;
+  constexpr int32_t const& __cordl_internal_get_width() const;
 
-  constexpr void __set_width(int32_t value);
+  constexpr void __cordl_internal_set_width(int32_t value);
 
-  constexpr int32_t& __get_height();
+  constexpr int32_t& __cordl_internal_get_height();
 
-  constexpr int32_t const& __get_height() const;
+  constexpr int32_t const& __cordl_internal_get_height() const;
 
-  constexpr void __set_height(int32_t value);
+  constexpr void __cordl_internal_set_height(int32_t value);
 
   static inline ::GlobalNamespace::__TutorialSongController__TutorialObstacleSpawnData* New_ctor(::GlobalNamespace::Signal* signal, int32_t firstTimeBeatOffset, int32_t beatOffset, int32_t lineIndex,
                                                                                                  int32_t width, int32_t height, ::GlobalNamespace::NoteLineLayer noteLineLayer);
@@ -485,7 +485,7 @@ static_assert(offsetof(::GlobalNamespace::__TutorialSongController__TutorialObst
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5334))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5334))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5350))
 // CS Name: ::TutorialSongController*
 class CORDL_TYPE TutorialSongController : public ::GlobalNamespace::SongController {
@@ -504,215 +504,224 @@ public:
   using InitData = ::GlobalNamespace::__TutorialSongController__InitData;
 
   /// @brief Field _audioTimeSyncController, offset 0x20, size 0x8
-  __declspec(property(get = __get__audioTimeSyncController, put = __set__audioTimeSyncController))::GlobalNamespace::AudioTimeSyncController* _audioTimeSyncController;
+  __declspec(property(get = __cordl_internal_get__audioTimeSyncController,
+                      put = __cordl_internal_set__audioTimeSyncController))::UnityW<::GlobalNamespace::AudioTimeSyncController> _audioTimeSyncController;
 
   /// @brief Field _startWaitTimeInBeats, offset 0x28, size 0x4
-  __declspec(property(get = __get__startWaitTimeInBeats, put = __set__startWaitTimeInBeats)) int32_t _startWaitTimeInBeats;
+  __declspec(property(get = __cordl_internal_get__startWaitTimeInBeats, put = __cordl_internal_set__startWaitTimeInBeats)) int32_t _startWaitTimeInBeats;
 
   /// @brief Field _numberOfBeatsToSnap, offset 0x2c, size 0x4
-  __declspec(property(get = __get__numberOfBeatsToSnap, put = __set__numberOfBeatsToSnap)) int32_t _numberOfBeatsToSnap;
+  __declspec(property(get = __cordl_internal_get__numberOfBeatsToSnap, put = __cordl_internal_set__numberOfBeatsToSnap)) int32_t _numberOfBeatsToSnap;
 
   /// @brief Field _obstacleDurationInBeats, offset 0x30, size 0x4
-  __declspec(property(get = __get__obstacleDurationInBeats, put = __set__obstacleDurationInBeats)) int32_t _obstacleDurationInBeats;
+  __declspec(property(get = __cordl_internal_get__obstacleDurationInBeats, put = __cordl_internal_set__obstacleDurationInBeats)) int32_t _obstacleDurationInBeats;
 
   /// @brief Field _noteCuttingTutorialPartDidStartSignal, offset 0x38, size 0x8
-  __declspec(property(get = __get__noteCuttingTutorialPartDidStartSignal, put = __set__noteCuttingTutorialPartDidStartSignal))::GlobalNamespace::Signal* _noteCuttingTutorialPartDidStartSignal;
+  __declspec(property(get = __cordl_internal_get__noteCuttingTutorialPartDidStartSignal,
+                      put = __cordl_internal_set__noteCuttingTutorialPartDidStartSignal))::UnityW<::GlobalNamespace::Signal> _noteCuttingTutorialPartDidStartSignal;
 
   /// @brief Field _noteCuttingInAnyDirectionDidStartSignal, offset 0x40, size 0x8
-  __declspec(property(get = __get__noteCuttingInAnyDirectionDidStartSignal, put = __set__noteCuttingInAnyDirectionDidStartSignal))::GlobalNamespace::Signal* _noteCuttingInAnyDirectionDidStartSignal;
+  __declspec(property(get = __cordl_internal_get__noteCuttingInAnyDirectionDidStartSignal,
+                      put = __cordl_internal_set__noteCuttingInAnyDirectionDidStartSignal))::UnityW<::GlobalNamespace::Signal> _noteCuttingInAnyDirectionDidStartSignal;
 
   /// @brief Field _bombCuttingTutorialPartDidStartSignal, offset 0x48, size 0x8
-  __declspec(property(get = __get__bombCuttingTutorialPartDidStartSignal, put = __set__bombCuttingTutorialPartDidStartSignal))::GlobalNamespace::Signal* _bombCuttingTutorialPartDidStartSignal;
+  __declspec(property(get = __cordl_internal_get__bombCuttingTutorialPartDidStartSignal,
+                      put = __cordl_internal_set__bombCuttingTutorialPartDidStartSignal))::UnityW<::GlobalNamespace::Signal> _bombCuttingTutorialPartDidStartSignal;
 
   /// @brief Field _leftObstacleTutorialPartDidStartSignal, offset 0x50, size 0x8
-  __declspec(property(get = __get__leftObstacleTutorialPartDidStartSignal, put = __set__leftObstacleTutorialPartDidStartSignal))::GlobalNamespace::Signal* _leftObstacleTutorialPartDidStartSignal;
+  __declspec(property(get = __cordl_internal_get__leftObstacleTutorialPartDidStartSignal,
+                      put = __cordl_internal_set__leftObstacleTutorialPartDidStartSignal))::UnityW<::GlobalNamespace::Signal> _leftObstacleTutorialPartDidStartSignal;
 
   /// @brief Field _rightObstacleTutorialPartDidStartSignal, offset 0x58, size 0x8
-  __declspec(property(get = __get__rightObstacleTutorialPartDidStartSignal, put = __set__rightObstacleTutorialPartDidStartSignal))::GlobalNamespace::Signal* _rightObstacleTutorialPartDidStartSignal;
+  __declspec(property(get = __cordl_internal_get__rightObstacleTutorialPartDidStartSignal,
+                      put = __cordl_internal_set__rightObstacleTutorialPartDidStartSignal))::UnityW<::GlobalNamespace::Signal> _rightObstacleTutorialPartDidStartSignal;
 
   /// @brief Field _topObstacleTutorialPartDidStartSignal, offset 0x60, size 0x8
-  __declspec(property(get = __get__topObstacleTutorialPartDidStartSignal, put = __set__topObstacleTutorialPartDidStartSignal))::GlobalNamespace::Signal* _topObstacleTutorialPartDidStartSignal;
+  __declspec(property(get = __cordl_internal_get__topObstacleTutorialPartDidStartSignal,
+                      put = __cordl_internal_set__topObstacleTutorialPartDidStartSignal))::UnityW<::GlobalNamespace::Signal> _topObstacleTutorialPartDidStartSignal;
 
   /// @brief Field _noteWasCutOKSignal, offset 0x68, size 0x8
-  __declspec(property(get = __get__noteWasCutOKSignal, put = __set__noteWasCutOKSignal))::GlobalNamespace::Signal* _noteWasCutOKSignal;
+  __declspec(property(get = __cordl_internal_get__noteWasCutOKSignal, put = __cordl_internal_set__noteWasCutOKSignal))::UnityW<::GlobalNamespace::Signal> _noteWasCutOKSignal;
 
   /// @brief Field _noteWasCutTooSoonSignal, offset 0x70, size 0x8
-  __declspec(property(get = __get__noteWasCutTooSoonSignal, put = __set__noteWasCutTooSoonSignal))::GlobalNamespace::Signal* _noteWasCutTooSoonSignal;
+  __declspec(property(get = __cordl_internal_get__noteWasCutTooSoonSignal, put = __cordl_internal_set__noteWasCutTooSoonSignal))::UnityW<::GlobalNamespace::Signal> _noteWasCutTooSoonSignal;
 
   /// @brief Field _noteWasCutWithWrongColorSignal, offset 0x78, size 0x8
-  __declspec(property(get = __get__noteWasCutWithWrongColorSignal, put = __set__noteWasCutWithWrongColorSignal))::GlobalNamespace::Signal* _noteWasCutWithWrongColorSignal;
+  __declspec(property(get = __cordl_internal_get__noteWasCutWithWrongColorSignal,
+                      put = __cordl_internal_set__noteWasCutWithWrongColorSignal))::UnityW<::GlobalNamespace::Signal> _noteWasCutWithWrongColorSignal;
 
   /// @brief Field _noteWasCutFromDifferentDirectionSignal, offset 0x80, size 0x8
-  __declspec(property(get = __get__noteWasCutFromDifferentDirectionSignal, put = __set__noteWasCutFromDifferentDirectionSignal))::GlobalNamespace::Signal* _noteWasCutFromDifferentDirectionSignal;
+  __declspec(property(get = __cordl_internal_get__noteWasCutFromDifferentDirectionSignal,
+                      put = __cordl_internal_set__noteWasCutFromDifferentDirectionSignal))::UnityW<::GlobalNamespace::Signal> _noteWasCutFromDifferentDirectionSignal;
 
   /// @brief Field _noteWasCutWithSlowSpeedSignal, offset 0x88, size 0x8
-  __declspec(property(get = __get__noteWasCutWithSlowSpeedSignal, put = __set__noteWasCutWithSlowSpeedSignal))::GlobalNamespace::Signal* _noteWasCutWithSlowSpeedSignal;
+  __declspec(property(get = __cordl_internal_get__noteWasCutWithSlowSpeedSignal,
+                      put = __cordl_internal_set__noteWasCutWithSlowSpeedSignal))::UnityW<::GlobalNamespace::Signal> _noteWasCutWithSlowSpeedSignal;
 
   /// @brief Field _bombWasCutSignal, offset 0x90, size 0x8
-  __declspec(property(get = __get__bombWasCutSignal, put = __set__bombWasCutSignal))::GlobalNamespace::Signal* _bombWasCutSignal;
+  __declspec(property(get = __cordl_internal_get__bombWasCutSignal, put = __cordl_internal_set__bombWasCutSignal))::UnityW<::GlobalNamespace::Signal> _bombWasCutSignal;
 
   /// @brief Field _initData, offset 0x98, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__TutorialSongController__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__TutorialSongController__InitData* _initData;
 
   /// @brief Field _beatmapObjectManager, offset 0xa0, size 0x8
-  __declspec(property(get = __get__beatmapObjectManager, put = __set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
   /// @brief Field _tutorialBeatmapObjectIndex, offset 0xa8, size 0x4
-  __declspec(property(get = __get__tutorialBeatmapObjectIndex, put = __set__tutorialBeatmapObjectIndex)) int32_t _tutorialBeatmapObjectIndex;
+  __declspec(property(get = __cordl_internal_get__tutorialBeatmapObjectIndex, put = __cordl_internal_set__tutorialBeatmapObjectIndex)) int32_t _tutorialBeatmapObjectIndex;
 
   /// @brief Field _prevSpawnedBeatmapObjectIndex, offset 0xac, size 0x4
-  __declspec(property(get = __get__prevSpawnedBeatmapObjectIndex, put = __set__prevSpawnedBeatmapObjectIndex)) int32_t _prevSpawnedBeatmapObjectIndex;
+  __declspec(property(get = __cordl_internal_get__prevSpawnedBeatmapObjectIndex, put = __cordl_internal_set__prevSpawnedBeatmapObjectIndex)) int32_t _prevSpawnedBeatmapObjectIndex;
 
   /// @brief Field _songBpm, offset 0xb0, size 0x4
-  __declspec(property(get = __get__songBpm, put = __set__songBpm)) float_t _songBpm;
+  __declspec(property(get = __cordl_internal_get__songBpm, put = __cordl_internal_set__songBpm)) float_t _songBpm;
 
   /// @brief Field _beatmapData, offset 0xb8, size 0x8
-  __declspec(property(get = __get__beatmapData, put = __set__beatmapData))::GlobalNamespace::BeatmapData* _beatmapData;
+  __declspec(property(get = __cordl_internal_get__beatmapData, put = __cordl_internal_set__beatmapData))::GlobalNamespace::BeatmapData* _beatmapData;
 
   /// @brief Field _normalModeTutorialObjectsSpawnData, offset 0xc0, size 0x8
-  __declspec(property(get = __get__normalModeTutorialObjectsSpawnData,
-                      put = __set__normalModeTutorialObjectsSpawnData))::ArrayW<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*,
-                                                                                ::Array<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*>*> _normalModeTutorialObjectsSpawnData;
+  __declspec(property(get = __cordl_internal_get__normalModeTutorialObjectsSpawnData, put = __cordl_internal_set__normalModeTutorialObjectsSpawnData))::ArrayW<
+      ::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*, ::Array<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*>*> _normalModeTutorialObjectsSpawnData;
 
-  constexpr ::GlobalNamespace::AudioTimeSyncController*& __get__audioTimeSyncController();
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& __cordl_internal_get__audioTimeSyncController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::AudioTimeSyncController*> const& __get__audioTimeSyncController() const;
+  constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
 
-  constexpr void __set__audioTimeSyncController(::GlobalNamespace::AudioTimeSyncController* value);
+  constexpr void __cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value);
 
-  constexpr int32_t& __get__startWaitTimeInBeats();
+  constexpr int32_t& __cordl_internal_get__startWaitTimeInBeats();
 
-  constexpr int32_t const& __get__startWaitTimeInBeats() const;
+  constexpr int32_t const& __cordl_internal_get__startWaitTimeInBeats() const;
 
-  constexpr void __set__startWaitTimeInBeats(int32_t value);
+  constexpr void __cordl_internal_set__startWaitTimeInBeats(int32_t value);
 
-  constexpr int32_t& __get__numberOfBeatsToSnap();
+  constexpr int32_t& __cordl_internal_get__numberOfBeatsToSnap();
 
-  constexpr int32_t const& __get__numberOfBeatsToSnap() const;
+  constexpr int32_t const& __cordl_internal_get__numberOfBeatsToSnap() const;
 
-  constexpr void __set__numberOfBeatsToSnap(int32_t value);
+  constexpr void __cordl_internal_set__numberOfBeatsToSnap(int32_t value);
 
-  constexpr int32_t& __get__obstacleDurationInBeats();
+  constexpr int32_t& __cordl_internal_get__obstacleDurationInBeats();
 
-  constexpr int32_t const& __get__obstacleDurationInBeats() const;
+  constexpr int32_t const& __cordl_internal_get__obstacleDurationInBeats() const;
 
-  constexpr void __set__obstacleDurationInBeats(int32_t value);
+  constexpr void __cordl_internal_set__obstacleDurationInBeats(int32_t value);
 
-  constexpr ::GlobalNamespace::Signal*& __get__noteCuttingTutorialPartDidStartSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__noteCuttingTutorialPartDidStartSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__noteCuttingTutorialPartDidStartSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__noteCuttingTutorialPartDidStartSignal() const;
 
-  constexpr void __set__noteCuttingTutorialPartDidStartSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__noteCuttingTutorialPartDidStartSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr ::GlobalNamespace::Signal*& __get__noteCuttingInAnyDirectionDidStartSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__noteCuttingInAnyDirectionDidStartSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__noteCuttingInAnyDirectionDidStartSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__noteCuttingInAnyDirectionDidStartSignal() const;
 
-  constexpr void __set__noteCuttingInAnyDirectionDidStartSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__noteCuttingInAnyDirectionDidStartSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr ::GlobalNamespace::Signal*& __get__bombCuttingTutorialPartDidStartSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__bombCuttingTutorialPartDidStartSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__bombCuttingTutorialPartDidStartSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__bombCuttingTutorialPartDidStartSignal() const;
 
-  constexpr void __set__bombCuttingTutorialPartDidStartSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__bombCuttingTutorialPartDidStartSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr ::GlobalNamespace::Signal*& __get__leftObstacleTutorialPartDidStartSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__leftObstacleTutorialPartDidStartSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__leftObstacleTutorialPartDidStartSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__leftObstacleTutorialPartDidStartSignal() const;
 
-  constexpr void __set__leftObstacleTutorialPartDidStartSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__leftObstacleTutorialPartDidStartSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr ::GlobalNamespace::Signal*& __get__rightObstacleTutorialPartDidStartSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__rightObstacleTutorialPartDidStartSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__rightObstacleTutorialPartDidStartSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__rightObstacleTutorialPartDidStartSignal() const;
 
-  constexpr void __set__rightObstacleTutorialPartDidStartSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__rightObstacleTutorialPartDidStartSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr ::GlobalNamespace::Signal*& __get__topObstacleTutorialPartDidStartSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__topObstacleTutorialPartDidStartSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__topObstacleTutorialPartDidStartSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__topObstacleTutorialPartDidStartSignal() const;
 
-  constexpr void __set__topObstacleTutorialPartDidStartSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__topObstacleTutorialPartDidStartSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr ::GlobalNamespace::Signal*& __get__noteWasCutOKSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__noteWasCutOKSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__noteWasCutOKSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__noteWasCutOKSignal() const;
 
-  constexpr void __set__noteWasCutOKSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__noteWasCutOKSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr ::GlobalNamespace::Signal*& __get__noteWasCutTooSoonSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__noteWasCutTooSoonSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__noteWasCutTooSoonSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__noteWasCutTooSoonSignal() const;
 
-  constexpr void __set__noteWasCutTooSoonSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__noteWasCutTooSoonSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr ::GlobalNamespace::Signal*& __get__noteWasCutWithWrongColorSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__noteWasCutWithWrongColorSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__noteWasCutWithWrongColorSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__noteWasCutWithWrongColorSignal() const;
 
-  constexpr void __set__noteWasCutWithWrongColorSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__noteWasCutWithWrongColorSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr ::GlobalNamespace::Signal*& __get__noteWasCutFromDifferentDirectionSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__noteWasCutFromDifferentDirectionSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__noteWasCutFromDifferentDirectionSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__noteWasCutFromDifferentDirectionSignal() const;
 
-  constexpr void __set__noteWasCutFromDifferentDirectionSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__noteWasCutFromDifferentDirectionSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr ::GlobalNamespace::Signal*& __get__noteWasCutWithSlowSpeedSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__noteWasCutWithSlowSpeedSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__noteWasCutWithSlowSpeedSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__noteWasCutWithSlowSpeedSignal() const;
 
-  constexpr void __set__noteWasCutWithSlowSpeedSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__noteWasCutWithSlowSpeedSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr ::GlobalNamespace::Signal*& __get__bombWasCutSignal();
+  constexpr ::UnityW<::GlobalNamespace::Signal>& __cordl_internal_get__bombWasCutSignal();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::Signal*> const& __get__bombWasCutSignal() const;
+  constexpr ::UnityW<::GlobalNamespace::Signal> const& __cordl_internal_get__bombWasCutSignal() const;
 
-  constexpr void __set__bombWasCutSignal(::GlobalNamespace::Signal* value);
+  constexpr void __cordl_internal_set__bombWasCutSignal(::UnityW<::GlobalNamespace::Signal> value);
 
-  constexpr ::GlobalNamespace::__TutorialSongController__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__TutorialSongController__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__TutorialSongController__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__TutorialSongController__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__TutorialSongController__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__TutorialSongController__InitData* value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __get__beatmapObjectManager();
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __get__beatmapObjectManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  constexpr int32_t& __get__tutorialBeatmapObjectIndex();
+  constexpr int32_t& __cordl_internal_get__tutorialBeatmapObjectIndex();
 
-  constexpr int32_t const& __get__tutorialBeatmapObjectIndex() const;
+  constexpr int32_t const& __cordl_internal_get__tutorialBeatmapObjectIndex() const;
 
-  constexpr void __set__tutorialBeatmapObjectIndex(int32_t value);
+  constexpr void __cordl_internal_set__tutorialBeatmapObjectIndex(int32_t value);
 
-  constexpr int32_t& __get__prevSpawnedBeatmapObjectIndex();
+  constexpr int32_t& __cordl_internal_get__prevSpawnedBeatmapObjectIndex();
 
-  constexpr int32_t const& __get__prevSpawnedBeatmapObjectIndex() const;
+  constexpr int32_t const& __cordl_internal_get__prevSpawnedBeatmapObjectIndex() const;
 
-  constexpr void __set__prevSpawnedBeatmapObjectIndex(int32_t value);
+  constexpr void __cordl_internal_set__prevSpawnedBeatmapObjectIndex(int32_t value);
 
-  constexpr float_t& __get__songBpm();
+  constexpr float_t& __cordl_internal_get__songBpm();
 
-  constexpr float_t const& __get__songBpm() const;
+  constexpr float_t const& __cordl_internal_get__songBpm() const;
 
-  constexpr void __set__songBpm(float_t value);
+  constexpr void __cordl_internal_set__songBpm(float_t value);
 
-  constexpr ::GlobalNamespace::BeatmapData*& __get__beatmapData();
+  constexpr ::GlobalNamespace::BeatmapData*& __cordl_internal_get__beatmapData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapData*> const& __get__beatmapData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapData*> const& __cordl_internal_get__beatmapData() const;
 
-  constexpr void __set__beatmapData(::GlobalNamespace::BeatmapData* value);
+  constexpr void __cordl_internal_set__beatmapData(::GlobalNamespace::BeatmapData* value);
 
   constexpr ::ArrayW<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*, ::Array<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*>*>&
-  __get__normalModeTutorialObjectsSpawnData();
+  __cordl_internal_get__normalModeTutorialObjectsSpawnData();
 
   constexpr ::ArrayW<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*, ::Array<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*>*> const&
-  __get__normalModeTutorialObjectsSpawnData() const;
+  __cordl_internal_get__normalModeTutorialObjectsSpawnData() const;
 
-  constexpr void __set__normalModeTutorialObjectsSpawnData(
+  constexpr void __cordl_internal_set__normalModeTutorialObjectsSpawnData(
       ::ArrayW<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*, ::Array<::GlobalNamespace::__TutorialSongController__TutorialObjectSpawnData*>*> value);
 
   /// @brief Method Awake, addr 0x226aec0, size 0x50c, virtual false, abstract: false, final false
@@ -780,7 +789,7 @@ protected:
 
 public:
   /// @brief Field _audioTimeSyncController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::AudioTimeSyncController* ____audioTimeSyncController;
+  ::UnityW<::GlobalNamespace::AudioTimeSyncController> ____audioTimeSyncController;
 
   /// @brief Field _startWaitTimeInBeats, offset: 0x28, size: 0x4, def value: None
   int32_t ____startWaitTimeInBeats;
@@ -792,40 +801,40 @@ public:
   int32_t ____obstacleDurationInBeats;
 
   /// @brief Field _noteCuttingTutorialPartDidStartSignal, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____noteCuttingTutorialPartDidStartSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____noteCuttingTutorialPartDidStartSignal;
 
   /// @brief Field _noteCuttingInAnyDirectionDidStartSignal, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____noteCuttingInAnyDirectionDidStartSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____noteCuttingInAnyDirectionDidStartSignal;
 
   /// @brief Field _bombCuttingTutorialPartDidStartSignal, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____bombCuttingTutorialPartDidStartSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____bombCuttingTutorialPartDidStartSignal;
 
   /// @brief Field _leftObstacleTutorialPartDidStartSignal, offset: 0x50, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____leftObstacleTutorialPartDidStartSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____leftObstacleTutorialPartDidStartSignal;
 
   /// @brief Field _rightObstacleTutorialPartDidStartSignal, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____rightObstacleTutorialPartDidStartSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____rightObstacleTutorialPartDidStartSignal;
 
   /// @brief Field _topObstacleTutorialPartDidStartSignal, offset: 0x60, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____topObstacleTutorialPartDidStartSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____topObstacleTutorialPartDidStartSignal;
 
   /// @brief Field _noteWasCutOKSignal, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____noteWasCutOKSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____noteWasCutOKSignal;
 
   /// @brief Field _noteWasCutTooSoonSignal, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____noteWasCutTooSoonSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____noteWasCutTooSoonSignal;
 
   /// @brief Field _noteWasCutWithWrongColorSignal, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____noteWasCutWithWrongColorSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____noteWasCutWithWrongColorSignal;
 
   /// @brief Field _noteWasCutFromDifferentDirectionSignal, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____noteWasCutFromDifferentDirectionSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____noteWasCutFromDifferentDirectionSignal;
 
   /// @brief Field _noteWasCutWithSlowSpeedSignal, offset: 0x88, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____noteWasCutWithSlowSpeedSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____noteWasCutWithSlowSpeedSignal;
 
   /// @brief Field _bombWasCutSignal, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::Signal* ____bombWasCutSignal;
+  ::UnityW<::GlobalNamespace::Signal> ____bombWasCutSignal;
 
   /// @brief Field _initData, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::__TutorialSongController__InitData* ____initData;

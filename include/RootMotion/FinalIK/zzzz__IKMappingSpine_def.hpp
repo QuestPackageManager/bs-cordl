@@ -34,137 +34,139 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IKMappingSpine);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 113, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12554))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12554))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12558))
 // CS Name: ::RootMotion.FinalIK::IKMappingSpine*
 class CORDL_TYPE IKMappingSpine : public ::RootMotion::FinalIK::IKMapping {
 public:
   // Declarations
   /// @brief Field spineBones, offset 0x10, size 0x8
-  __declspec(property(get = __get_spineBones, put = __set_spineBones))::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> spineBones;
+  __declspec(property(get = __cordl_internal_get_spineBones,
+                      put = __cordl_internal_set_spineBones))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> spineBones;
 
   /// @brief Field leftUpperArmBone, offset 0x18, size 0x8
-  __declspec(property(get = __get_leftUpperArmBone, put = __set_leftUpperArmBone))::UnityEngine::Transform* leftUpperArmBone;
+  __declspec(property(get = __cordl_internal_get_leftUpperArmBone, put = __cordl_internal_set_leftUpperArmBone))::UnityW<::UnityEngine::Transform> leftUpperArmBone;
 
   /// @brief Field rightUpperArmBone, offset 0x20, size 0x8
-  __declspec(property(get = __get_rightUpperArmBone, put = __set_rightUpperArmBone))::UnityEngine::Transform* rightUpperArmBone;
+  __declspec(property(get = __cordl_internal_get_rightUpperArmBone, put = __cordl_internal_set_rightUpperArmBone))::UnityW<::UnityEngine::Transform> rightUpperArmBone;
 
   /// @brief Field leftThighBone, offset 0x28, size 0x8
-  __declspec(property(get = __get_leftThighBone, put = __set_leftThighBone))::UnityEngine::Transform* leftThighBone;
+  __declspec(property(get = __cordl_internal_get_leftThighBone, put = __cordl_internal_set_leftThighBone))::UnityW<::UnityEngine::Transform> leftThighBone;
 
   /// @brief Field rightThighBone, offset 0x30, size 0x8
-  __declspec(property(get = __get_rightThighBone, put = __set_rightThighBone))::UnityEngine::Transform* rightThighBone;
+  __declspec(property(get = __cordl_internal_get_rightThighBone, put = __cordl_internal_set_rightThighBone))::UnityW<::UnityEngine::Transform> rightThighBone;
 
   /// @brief Field iterations, offset 0x38, size 0x4
-  __declspec(property(get = __get_iterations, put = __set_iterations)) int32_t iterations;
+  __declspec(property(get = __cordl_internal_get_iterations, put = __cordl_internal_set_iterations)) int32_t iterations;
 
   /// @brief Field twistWeight, offset 0x3c, size 0x4
-  __declspec(property(get = __get_twistWeight, put = __set_twistWeight)) float_t twistWeight;
+  __declspec(property(get = __cordl_internal_get_twistWeight, put = __cordl_internal_set_twistWeight)) float_t twistWeight;
 
   /// @brief Field rootNodeIndex, offset 0x40, size 0x4
-  __declspec(property(get = __get_rootNodeIndex, put = __set_rootNodeIndex)) int32_t rootNodeIndex;
+  __declspec(property(get = __cordl_internal_get_rootNodeIndex, put = __cordl_internal_set_rootNodeIndex)) int32_t rootNodeIndex;
 
   /// @brief Field spine, offset 0x48, size 0x8
-  __declspec(property(get = __get_spine, put = __set_spine))::ArrayW<::RootMotion::FinalIK::__IKMapping__BoneMap*, ::Array<::RootMotion::FinalIK::__IKMapping__BoneMap*>*> spine;
+  __declspec(property(get = __cordl_internal_get_spine,
+                      put = __cordl_internal_set_spine))::ArrayW<::RootMotion::FinalIK::__IKMapping__BoneMap*, ::Array<::RootMotion::FinalIK::__IKMapping__BoneMap*>*> spine;
 
   /// @brief Field leftUpperArm, offset 0x50, size 0x8
-  __declspec(property(get = __get_leftUpperArm, put = __set_leftUpperArm))::RootMotion::FinalIK::__IKMapping__BoneMap* leftUpperArm;
+  __declspec(property(get = __cordl_internal_get_leftUpperArm, put = __cordl_internal_set_leftUpperArm))::RootMotion::FinalIK::__IKMapping__BoneMap* leftUpperArm;
 
   /// @brief Field rightUpperArm, offset 0x58, size 0x8
-  __declspec(property(get = __get_rightUpperArm, put = __set_rightUpperArm))::RootMotion::FinalIK::__IKMapping__BoneMap* rightUpperArm;
+  __declspec(property(get = __cordl_internal_get_rightUpperArm, put = __cordl_internal_set_rightUpperArm))::RootMotion::FinalIK::__IKMapping__BoneMap* rightUpperArm;
 
   /// @brief Field leftThigh, offset 0x60, size 0x8
-  __declspec(property(get = __get_leftThigh, put = __set_leftThigh))::RootMotion::FinalIK::__IKMapping__BoneMap* leftThigh;
+  __declspec(property(get = __cordl_internal_get_leftThigh, put = __cordl_internal_set_leftThigh))::RootMotion::FinalIK::__IKMapping__BoneMap* leftThigh;
 
   /// @brief Field rightThigh, offset 0x68, size 0x8
-  __declspec(property(get = __get_rightThigh, put = __set_rightThigh))::RootMotion::FinalIK::__IKMapping__BoneMap* rightThigh;
+  __declspec(property(get = __cordl_internal_get_rightThigh, put = __cordl_internal_set_rightThigh))::RootMotion::FinalIK::__IKMapping__BoneMap* rightThigh;
 
   /// @brief Field useFABRIK, offset 0x70, size 0x1
-  __declspec(property(get = __get_useFABRIK, put = __set_useFABRIK)) bool useFABRIK;
+  __declspec(property(get = __cordl_internal_get_useFABRIK, put = __cordl_internal_set_useFABRIK)) bool useFABRIK;
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& __get_spineBones();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_spineBones();
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& __get_spineBones() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_spineBones() const;
 
-  constexpr void __set_spineBones(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
+  constexpr void __cordl_internal_set_spineBones(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  constexpr ::UnityEngine::Transform*& __get_leftUpperArmBone();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_leftUpperArmBone();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_leftUpperArmBone() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_leftUpperArmBone() const;
 
-  constexpr void __set_leftUpperArmBone(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_leftUpperArmBone(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_rightUpperArmBone();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rightUpperArmBone();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_rightUpperArmBone() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rightUpperArmBone() const;
 
-  constexpr void __set_rightUpperArmBone(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_rightUpperArmBone(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_leftThighBone();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_leftThighBone();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_leftThighBone() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_leftThighBone() const;
 
-  constexpr void __set_leftThighBone(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_leftThighBone(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Transform*& __get_rightThighBone();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get_rightThighBone();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get_rightThighBone() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get_rightThighBone() const;
 
-  constexpr void __set_rightThighBone(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set_rightThighBone(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr int32_t& __get_iterations();
+  constexpr int32_t& __cordl_internal_get_iterations();
 
-  constexpr int32_t const& __get_iterations() const;
+  constexpr int32_t const& __cordl_internal_get_iterations() const;
 
-  constexpr void __set_iterations(int32_t value);
+  constexpr void __cordl_internal_set_iterations(int32_t value);
 
-  constexpr float_t& __get_twistWeight();
+  constexpr float_t& __cordl_internal_get_twistWeight();
 
-  constexpr float_t const& __get_twistWeight() const;
+  constexpr float_t const& __cordl_internal_get_twistWeight() const;
 
-  constexpr void __set_twistWeight(float_t value);
+  constexpr void __cordl_internal_set_twistWeight(float_t value);
 
-  constexpr int32_t& __get_rootNodeIndex();
+  constexpr int32_t& __cordl_internal_get_rootNodeIndex();
 
-  constexpr int32_t const& __get_rootNodeIndex() const;
+  constexpr int32_t const& __cordl_internal_get_rootNodeIndex() const;
 
-  constexpr void __set_rootNodeIndex(int32_t value);
+  constexpr void __cordl_internal_set_rootNodeIndex(int32_t value);
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKMapping__BoneMap*, ::Array<::RootMotion::FinalIK::__IKMapping__BoneMap*>*>& __get_spine();
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKMapping__BoneMap*, ::Array<::RootMotion::FinalIK::__IKMapping__BoneMap*>*>& __cordl_internal_get_spine();
 
-  constexpr ::ArrayW<::RootMotion::FinalIK::__IKMapping__BoneMap*, ::Array<::RootMotion::FinalIK::__IKMapping__BoneMap*>*> const& __get_spine() const;
+  constexpr ::ArrayW<::RootMotion::FinalIK::__IKMapping__BoneMap*, ::Array<::RootMotion::FinalIK::__IKMapping__BoneMap*>*> const& __cordl_internal_get_spine() const;
 
-  constexpr void __set_spine(::ArrayW<::RootMotion::FinalIK::__IKMapping__BoneMap*, ::Array<::RootMotion::FinalIK::__IKMapping__BoneMap*>*> value);
+  constexpr void __cordl_internal_set_spine(::ArrayW<::RootMotion::FinalIK::__IKMapping__BoneMap*, ::Array<::RootMotion::FinalIK::__IKMapping__BoneMap*>*> value);
 
-  constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& __get_leftUpperArm();
+  constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& __cordl_internal_get_leftUpperArm();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& __get_leftUpperArm() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& __cordl_internal_get_leftUpperArm() const;
 
-  constexpr void __set_leftUpperArm(::RootMotion::FinalIK::__IKMapping__BoneMap* value);
+  constexpr void __cordl_internal_set_leftUpperArm(::RootMotion::FinalIK::__IKMapping__BoneMap* value);
 
-  constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& __get_rightUpperArm();
+  constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& __cordl_internal_get_rightUpperArm();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& __get_rightUpperArm() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& __cordl_internal_get_rightUpperArm() const;
 
-  constexpr void __set_rightUpperArm(::RootMotion::FinalIK::__IKMapping__BoneMap* value);
+  constexpr void __cordl_internal_set_rightUpperArm(::RootMotion::FinalIK::__IKMapping__BoneMap* value);
 
-  constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& __get_leftThigh();
+  constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& __cordl_internal_get_leftThigh();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& __get_leftThigh() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& __cordl_internal_get_leftThigh() const;
 
-  constexpr void __set_leftThigh(::RootMotion::FinalIK::__IKMapping__BoneMap* value);
+  constexpr void __cordl_internal_set_leftThigh(::RootMotion::FinalIK::__IKMapping__BoneMap* value);
 
-  constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& __get_rightThigh();
+  constexpr ::RootMotion::FinalIK::__IKMapping__BoneMap*& __cordl_internal_get_rightThigh();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& __get_rightThigh() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::__IKMapping__BoneMap*> const& __cordl_internal_get_rightThigh() const;
 
-  constexpr void __set_rightThigh(::RootMotion::FinalIK::__IKMapping__BoneMap* value);
+  constexpr void __cordl_internal_set_rightThigh(::RootMotion::FinalIK::__IKMapping__BoneMap* value);
 
-  constexpr bool& __get_useFABRIK();
+  constexpr bool& __cordl_internal_get_useFABRIK();
 
-  constexpr bool const& __get_useFABRIK() const;
+  constexpr bool const& __cordl_internal_get_useFABRIK() const;
 
-  constexpr void __set_useFABRIK(bool value);
+  constexpr void __cordl_internal_set_useFABRIK(bool value);
 
   /// @brief Method IsValid, addr 0x125cf78, size 0x320, virtual true, abstract: false, final false
   inline bool IsValid(::RootMotion::FinalIK::IKSolver* solver, ByRef<::StringW> message);
@@ -227,19 +229,19 @@ protected:
 
 public:
   /// @brief Field spineBones, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> ___spineBones;
+  ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ___spineBones;
 
   /// @brief Field leftUpperArmBone, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___leftUpperArmBone;
+  ::UnityW<::UnityEngine::Transform> ___leftUpperArmBone;
 
   /// @brief Field rightUpperArmBone, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___rightUpperArmBone;
+  ::UnityW<::UnityEngine::Transform> ___rightUpperArmBone;
 
   /// @brief Field leftThighBone, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___leftThighBone;
+  ::UnityW<::UnityEngine::Transform> ___leftThighBone;
 
   /// @brief Field rightThighBone, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Transform* ___rightThighBone;
+  ::UnityW<::UnityEngine::Transform> ___rightThighBone;
 
   /// @brief Field iterations, offset: 0x38, size: 0x4, def value: None
   int32_t ___iterations;

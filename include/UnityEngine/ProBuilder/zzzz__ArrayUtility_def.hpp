@@ -58,7 +58,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::__ArrayUtility__SearchRange);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12094))
 // CS Name: ::ArrayUtility::SearchRange
 struct CORDL_TYPE __ArrayUtility__SearchRange {
@@ -108,29 +108,29 @@ namespace UnityEngine::ProBuilder {
 // cpp template
 template <typename TSource, typename TKey>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12095))
 // CS Name: ::ArrayUtility::<>c__DisplayClass21_0`2<TSource,TKey>*
 class CORDL_TYPE __ArrayUtility____c__DisplayClass21_0_2 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field knownKeys, offset 0x10, size 0x8
-  __declspec(property(get = __get_knownKeys, put = __set_knownKeys))::System::Collections::Generic::HashSet_1<TKey>* knownKeys;
+  __declspec(property(get = __cordl_internal_get_knownKeys, put = __cordl_internal_set_knownKeys))::System::Collections::Generic::HashSet_1<TKey>* knownKeys;
 
   /// @brief Field keySelector, offset 0x18, size 0x8
-  __declspec(property(get = __get_keySelector, put = __set_keySelector))::System::Func_2<TSource, TKey>* keySelector;
+  __declspec(property(get = __cordl_internal_get_keySelector, put = __cordl_internal_set_keySelector))::System::Func_2<TSource, TKey>* keySelector;
 
-  constexpr ::System::Collections::Generic::HashSet_1<TKey>*& __get_knownKeys();
+  constexpr ::System::Collections::Generic::HashSet_1<TKey>*& __cordl_internal_get_knownKeys();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<TKey>*> const& __get_knownKeys() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<TKey>*> const& __cordl_internal_get_knownKeys() const;
 
-  constexpr void __set_knownKeys(::System::Collections::Generic::HashSet_1<TKey>* value);
+  constexpr void __cordl_internal_set_knownKeys(::System::Collections::Generic::HashSet_1<TKey>* value);
 
-  constexpr ::System::Func_2<TSource, TKey>*& __get_keySelector();
+  constexpr ::System::Func_2<TSource, TKey>*& __cordl_internal_get_keySelector();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, TKey>*> const& __get_keySelector() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<TSource, TKey>*> const& __cordl_internal_get_keySelector() const;
 
-  constexpr void __set_keySelector(::System::Func_2<TSource, TKey>* value);
+  constexpr void __cordl_internal_set_keySelector(::System::Func_2<TSource, TKey>* value);
 
   static inline ::UnityEngine::ProBuilder::__ArrayUtility____c__DisplayClass21_0_2<TSource, TKey>* New_ctor();
 
@@ -170,7 +170,7 @@ namespace UnityEngine::ProBuilder {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12096))
 // CS Name: ::ArrayUtility::<>c__23`1<T>*
 class CORDL_TYPE __ArrayUtility____c__23_1 : public ::System::Object {
@@ -220,7 +220,7 @@ public:
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12097))
 // CS Name: ::UnityEngine.ProBuilder::ArrayUtility*
 class CORDL_TYPE ArrayUtility : public ::System::Object {

@@ -21,34 +21,34 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonConverterAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2547))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2547))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11817))
 // CS Name: ::Newtonsoft.Json::JsonConverterAttribute*
 class CORDL_TYPE JsonConverterAttribute : public ::System::Attribute {
 public:
   // Declarations
   /// @brief Field _converterType, offset 0x10, size 0x8
-  __declspec(property(get = __get__converterType, put = __set__converterType))::System::Type* _converterType;
+  __declspec(property(get = __cordl_internal_get__converterType, put = __cordl_internal_set__converterType))::System::Type* _converterType;
 
   /// @brief Field <ConverterParameters>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__ConverterParameters_k__BackingField,
-                      put = __set__ConverterParameters_k__BackingField))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _ConverterParameters_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ConverterParameters_k__BackingField,
+                      put = __cordl_internal_set__ConverterParameters_k__BackingField))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _ConverterParameters_k__BackingField;
 
   __declspec(property(get = get_ConverterType))::System::Type* ConverterType;
 
   __declspec(property(get = get_ConverterParameters, put = set_ConverterParameters))::ArrayW<::System::Object*, ::Array<::System::Object*>*> ConverterParameters;
 
-  constexpr ::System::Type*& __get__converterType();
+  constexpr ::System::Type*& __cordl_internal_get__converterType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__converterType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__converterType() const;
 
-  constexpr void __set__converterType(::System::Type* value);
+  constexpr void __cordl_internal_set__converterType(::System::Type* value);
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __get__ConverterParameters_k__BackingField();
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__ConverterParameters_k__BackingField();
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __get__ConverterParameters_k__BackingField() const;
+  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__ConverterParameters_k__BackingField() const;
 
-  constexpr void __set__ConverterParameters_k__BackingField(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+  constexpr void __cordl_internal_set__ConverterParameters_k__BackingField(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
   /// @brief Method get_ConverterType, addr 0x263f364, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ConverterType();

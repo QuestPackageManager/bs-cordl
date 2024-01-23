@@ -108,7 +108,7 @@ MARK_VAL_T(::UnityEngine::__ParticleSystem__SubEmittersModule);
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15882))
 // CS Name: ::ParticleSystem::MainModule
 struct CORDL_TYPE __ParticleSystem__MainModule {
@@ -199,15 +199,15 @@ public:
   /// @brief Method set_maxParticles_Injected, addr 0x2d1155c, size 0x44, virtual false, abstract: false, final false
   static inline void set_maxParticles_Injected(ByRef<::UnityEngine::__ParticleSystem__MainModule> _unity_self, int32_t value);
 
-  // Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityEngine::ParticleSystem*", modifiers: "", def_value: None }]
-  constexpr __ParticleSystem__MainModule(::UnityEngine::ParticleSystem* m_ParticleSystem) noexcept;
+  // Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: None }]
+  constexpr __ParticleSystem__MainModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ParticleSystem__MainModule();
 
   /// @brief Field m_ParticleSystem, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem* m_ParticleSystem;
+  ::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -224,7 +224,7 @@ static_assert(offsetof(::UnityEngine::__ParticleSystem__MainModule, m_ParticleSy
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15883))
 // CS Name: ::ParticleSystem::EmissionModule
 struct CORDL_TYPE __ParticleSystem__EmissionModule {
@@ -247,15 +247,15 @@ public:
   /// @brief Method set_enabled_Injected, addr 0x2d1165c, size 0x44, virtual false, abstract: false, final false
   static inline void set_enabled_Injected(ByRef<::UnityEngine::__ParticleSystem__EmissionModule> _unity_self, bool value);
 
-  // Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityEngine::ParticleSystem*", modifiers: "", def_value: None }]
-  constexpr __ParticleSystem__EmissionModule(::UnityEngine::ParticleSystem* m_ParticleSystem) noexcept;
+  // Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: None }]
+  constexpr __ParticleSystem__EmissionModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ParticleSystem__EmissionModule();
 
   /// @brief Field m_ParticleSystem, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem* m_ParticleSystem;
+  ::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -272,13 +272,13 @@ static_assert(offsetof(::UnityEngine::__ParticleSystem__EmissionModule, m_Partic
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15884))
 // CS Name: ::ParticleSystem::ShapeModule
 struct CORDL_TYPE __ParticleSystem__ShapeModule {
 public:
   // Declarations
-  __declspec(property(get = get_meshRenderer, put = set_meshRenderer))::UnityEngine::MeshRenderer* meshRenderer;
+  __declspec(property(get = get_meshRenderer, put = set_meshRenderer))::UnityW<::UnityEngine::MeshRenderer> meshRenderer;
 
   __declspec(property(put = set_rotation))::UnityEngine::Vector3 rotation;
 
@@ -286,7 +286,7 @@ public:
   inline void _ctor(::UnityEngine::ParticleSystem* particleSystem);
 
   /// @brief Method get_meshRenderer, addr 0x2d116a0, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::MeshRenderer* get_meshRenderer();
+  inline ::UnityW<::UnityEngine::MeshRenderer> get_meshRenderer();
 
   /// @brief Method set_meshRenderer, addr 0x2d11718, size 0x44, virtual false, abstract: false, final false
   inline void set_meshRenderer(::UnityEngine::MeshRenderer* value);
@@ -295,7 +295,7 @@ public:
   inline void set_rotation(::UnityEngine::Vector3 value);
 
   /// @brief Method get_meshRenderer_Injected, addr 0x2d116dc, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::MeshRenderer* get_meshRenderer_Injected(ByRef<::UnityEngine::__ParticleSystem__ShapeModule> _unity_self);
+  static inline ::UnityW<::UnityEngine::MeshRenderer> get_meshRenderer_Injected(ByRef<::UnityEngine::__ParticleSystem__ShapeModule> _unity_self);
 
   /// @brief Method set_meshRenderer_Injected, addr 0x2d1175c, size 0x44, virtual false, abstract: false, final false
   static inline void set_meshRenderer_Injected(ByRef<::UnityEngine::__ParticleSystem__ShapeModule> _unity_self, ::UnityEngine::MeshRenderer* value);
@@ -303,15 +303,15 @@ public:
   /// @brief Method set_rotation_Injected, addr 0x2d117f4, size 0x44, virtual false, abstract: false, final false
   static inline void set_rotation_Injected(ByRef<::UnityEngine::__ParticleSystem__ShapeModule> _unity_self, ByRef<::UnityEngine::Vector3> value);
 
-  // Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityEngine::ParticleSystem*", modifiers: "", def_value: None }]
-  constexpr __ParticleSystem__ShapeModule(::UnityEngine::ParticleSystem* m_ParticleSystem) noexcept;
+  // Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: None }]
+  constexpr __ParticleSystem__ShapeModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ParticleSystem__ShapeModule();
 
   /// @brief Field m_ParticleSystem, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem* m_ParticleSystem;
+  ::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -328,7 +328,7 @@ static_assert(offsetof(::UnityEngine::__ParticleSystem__ShapeModule, m_ParticleS
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15885))
 // CS Name: ::ParticleSystem::SubEmittersModule
 struct CORDL_TYPE __ParticleSystem__SubEmittersModule {
@@ -343,23 +343,23 @@ public:
   inline int32_t get_subEmittersCount();
 
   /// @brief Method GetSubEmitterSystem, addr 0x2d118b0, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::ParticleSystem* GetSubEmitterSystem(int32_t index);
+  inline ::UnityW<::UnityEngine::ParticleSystem> GetSubEmitterSystem(int32_t index);
 
   /// @brief Method get_subEmittersCount_Injected, addr 0x2d11874, size 0x3c, virtual false, abstract: false, final false
   static inline int32_t get_subEmittersCount_Injected(ByRef<::UnityEngine::__ParticleSystem__SubEmittersModule> _unity_self);
 
   /// @brief Method GetSubEmitterSystem_Injected, addr 0x2d118f4, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ParticleSystem* GetSubEmitterSystem_Injected(ByRef<::UnityEngine::__ParticleSystem__SubEmittersModule> _unity_self, int32_t index);
+  static inline ::UnityW<::UnityEngine::ParticleSystem> GetSubEmitterSystem_Injected(ByRef<::UnityEngine::__ParticleSystem__SubEmittersModule> _unity_self, int32_t index);
 
-  // Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityEngine::ParticleSystem*", modifiers: "", def_value: None }]
-  constexpr __ParticleSystem__SubEmittersModule(::UnityEngine::ParticleSystem* m_ParticleSystem) noexcept;
+  // Ctor Parameters [CppParam { name: "m_ParticleSystem", ty: "::UnityW<::UnityEngine::ParticleSystem>", modifiers: "", def_value: None }]
+  constexpr __ParticleSystem__SubEmittersModule(::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr __ParticleSystem__SubEmittersModule();
 
   /// @brief Field m_ParticleSystem, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::ParticleSystem* m_ParticleSystem;
+  ::UnityW<::UnityEngine::ParticleSystem> m_ParticleSystem;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -376,7 +376,7 @@ static_assert(offsetof(::UnityEngine::__ParticleSystem__SubEmittersModule, m_Par
 // SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15892))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15892))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15886))
 // CS Name: ::ParticleSystem::MinMaxCurve
 struct CORDL_TYPE __ParticleSystem__MinMaxCurve {
@@ -455,7 +455,7 @@ static_assert(offsetof(::UnityEngine::__ParticleSystem__MinMaxCurve, m_ConstantM
 // SizeInfo { instance_size: 56, native_size: 56, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15893)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(15893))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15887))
 // CS Name: ::ParticleSystem::MinMaxGradient
 struct CORDL_TYPE __ParticleSystem__MinMaxGradient {
@@ -520,7 +520,7 @@ static_assert(offsetof(::UnityEngine::__ParticleSystem__MinMaxGradient, m_ColorM
 // SizeInfo { instance_size: 132, native_size: 132, calculated_instance_size: 132, calculated_native_size: 148, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10250)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(10250))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15888))
 // CS Name: ::ParticleSystem::Particle
 struct CORDL_TYPE __ParticleSystem__Particle {
@@ -692,7 +692,7 @@ static_assert(offsetof(::UnityEngine::__ParticleSystem__Particle, m_Flags) == 0x
 // SizeInfo { instance_size: 144, native_size: 176, calculated_instance_size: 144, calculated_native_size: 159, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15888))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15888))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15889))
 // CS Name: ::ParticleSystem::EmitParams
 struct CORDL_TYPE __ParticleSystem__EmitParams {
@@ -805,7 +805,7 @@ static_assert(offsetof(::UnityEngine::__ParticleSystem__EmitParams, m_ApplyShape
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10238))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10238))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15890))
 // CS Name: ::UnityEngine::ParticleSystem*
 class CORDL_TYPE ParticleSystem : public ::UnityEngine::Component {

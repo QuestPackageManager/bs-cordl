@@ -40,53 +40,53 @@ MARK_REF_PTR_T(::GlobalNamespace::LightColorBeatmapEventDataBox);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4301))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4301))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4320))
 // CS Name: ::LightColorBeatmapEventDataBox*
 class CORDL_TYPE LightColorBeatmapEventDataBox : public ::GlobalNamespace::BeatmapEventDataBox {
 public:
   // Declarations
   /// @brief Field _lightColorBaseDataList, offset 0x38, size 0x8
-  __declspec(property(get = __get__lightColorBaseDataList,
-                      put = __set__lightColorBaseDataList))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* _lightColorBaseDataList;
+  __declspec(property(get = __cordl_internal_get__lightColorBaseDataList,
+                      put = __cordl_internal_set__lightColorBaseDataList))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* _lightColorBaseDataList;
 
   /// @brief Field _brightnessStep, offset 0x40, size 0x4
-  __declspec(property(get = __get__brightnessStep, put = __set__brightnessStep)) float_t _brightnessStep;
+  __declspec(property(get = __cordl_internal_get__brightnessStep, put = __cordl_internal_set__brightnessStep)) float_t _brightnessStep;
 
   /// @brief Field _beatStep, offset 0x44, size 0x4
-  __declspec(property(get = __get__beatStep, put = __set__beatStep)) float_t _beatStep;
+  __declspec(property(get = __cordl_internal_get__beatStep, put = __cordl_internal_set__beatStep)) float_t _beatStep;
 
   /// @brief Field _brightnessDistributionShouldAffectFirstBaseEvent, offset 0x48, size 0x1
-  __declspec(property(get = __get__brightnessDistributionShouldAffectFirstBaseEvent,
-                      put = __set__brightnessDistributionShouldAffectFirstBaseEvent)) bool _brightnessDistributionShouldAffectFirstBaseEvent;
+  __declspec(property(get = __cordl_internal_get__brightnessDistributionShouldAffectFirstBaseEvent,
+                      put = __cordl_internal_set__brightnessDistributionShouldAffectFirstBaseEvent)) bool _brightnessDistributionShouldAffectFirstBaseEvent;
 
   __declspec(property(get = get_subtypeIdentifier)) int32_t subtypeIdentifier;
 
   __declspec(property(get = get_beatStep)) float_t beatStep;
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*& __get__lightColorBaseDataList();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*& __cordl_internal_get__lightColorBaseDataList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*> const& __get__lightColorBaseDataList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*> const& __cordl_internal_get__lightColorBaseDataList() const;
 
-  constexpr void __set__lightColorBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* value);
+  constexpr void __cordl_internal_set__lightColorBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* value);
 
-  constexpr float_t& __get__brightnessStep();
+  constexpr float_t& __cordl_internal_get__brightnessStep();
 
-  constexpr float_t const& __get__brightnessStep() const;
+  constexpr float_t const& __cordl_internal_get__brightnessStep() const;
 
-  constexpr void __set__brightnessStep(float_t value);
+  constexpr void __cordl_internal_set__brightnessStep(float_t value);
 
-  constexpr float_t& __get__beatStep();
+  constexpr float_t& __cordl_internal_get__beatStep();
 
-  constexpr float_t const& __get__beatStep() const;
+  constexpr float_t const& __cordl_internal_get__beatStep() const;
 
-  constexpr void __set__beatStep(float_t value);
+  constexpr void __cordl_internal_set__beatStep(float_t value);
 
-  constexpr bool& __get__brightnessDistributionShouldAffectFirstBaseEvent();
+  constexpr bool& __cordl_internal_get__brightnessDistributionShouldAffectFirstBaseEvent();
 
-  constexpr bool const& __get__brightnessDistributionShouldAffectFirstBaseEvent() const;
+  constexpr bool const& __cordl_internal_get__brightnessDistributionShouldAffectFirstBaseEvent() const;
 
-  constexpr void __set__brightnessDistributionShouldAffectFirstBaseEvent(bool value);
+  constexpr void __cordl_internal_set__brightnessDistributionShouldAffectFirstBaseEvent(bool value);
 
   /// @brief Method get_subtypeIdentifier, addr 0x233b82c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_subtypeIdentifier();

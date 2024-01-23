@@ -90,7 +90,7 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9620))
 // CS Name: ::HEU_Curve::CurveEditState
 struct CORDL_TYPE __HEU_Curve__CurveEditState {
@@ -148,7 +148,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Curve__CurveEditState, value_
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9621))
 // CS Name: ::HEU_Curve::Interaction
 struct CORDL_TYPE __HEU_Curve__Interaction {
@@ -202,7 +202,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Curve__Interaction, value__) 
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9622))
 // CS Name: ::HEU_Curve::CurveDrawCollision
 struct CORDL_TYPE __HEU_Curve__CurveDrawCollision {
@@ -252,38 +252,38 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Curve__CurveDrawCollision, va
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9623))
 // CS Name: ::HEU_Curve::<>c__DisplayClass38_0*
 class CORDL_TYPE __HEU_Curve____c__DisplayClass38_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field positions, offset 0x10, size 0x8
-  __declspec(property(get = __get_positions, put = __set_positions))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* positions;
+  __declspec(property(get = __cordl_internal_get_positions, put = __cordl_internal_set_positions))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* positions;
 
   /// @brief Field rotations, offset 0x18, size 0x8
-  __declspec(property(get = __get_rotations, put = __set_rotations))::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* rotations;
+  __declspec(property(get = __cordl_internal_get_rotations, put = __cordl_internal_set_rotations))::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* rotations;
 
   /// @brief Field scales, offset 0x20, size 0x8
-  __declspec(property(get = __get_scales, put = __set_scales))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* scales;
+  __declspec(property(get = __cordl_internal_get_scales, put = __cordl_internal_set_scales))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* scales;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __get_positions();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_positions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __get_positions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_positions() const;
 
-  constexpr void __set_positions(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set_positions(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*& __get_rotations();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*& __cordl_internal_get_rotations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*> const& __get_rotations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*> const& __cordl_internal_get_rotations() const;
 
-  constexpr void __set_rotations(::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* value);
+  constexpr void __cordl_internal_set_rotations(::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __get_scales();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_scales();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __get_scales() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_scales() const;
 
-  constexpr void __set_scales(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set_scales(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
   static inline ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0* New_ctor();
 
@@ -338,29 +338,29 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass38_0,
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9624))
 // CS Name: ::HEU_Curve::<>c__DisplayClass40_0*
 class CORDL_TYPE __HEU_Curve____c__DisplayClass40_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field rotations, offset 0x10, size 0x8
-  __declspec(property(get = __get_rotations, put = __set_rotations))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* rotations;
+  __declspec(property(get = __cordl_internal_get_rotations, put = __cordl_internal_set_rotations))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* rotations;
 
   /// @brief Field scales, offset 0x18, size 0x8
-  __declspec(property(get = __get_scales, put = __set_scales))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* scales;
+  __declspec(property(get = __cordl_internal_get_scales, put = __cordl_internal_set_scales))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* scales;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __get_rotations();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_rotations();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __get_rotations() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_rotations() const;
 
-  constexpr void __set_rotations(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set_rotations(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __get_scales();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_scales();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __get_scales() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_scales() const;
 
-  constexpr void __set_scales(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set_scales(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
   static inline ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0* New_ctor();
 
@@ -404,20 +404,20 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass40_0,
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9625))
 // CS Name: ::HEU_Curve::<>c__DisplayClass48_0*
 class CORDL_TYPE __HEU_Curve____c__DisplayClass48_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field points, offset 0x10, size 0x8
-  __declspec(property(get = __get_points, put = __set_points))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* points;
+  __declspec(property(get = __cordl_internal_get_points, put = __cordl_internal_set_points))::System::Collections::Generic::List_1<::UnityEngine::Vector3>* points;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __get_points();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& __cordl_internal_get_points();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __get_points() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& __cordl_internal_get_points() const;
 
-  constexpr void __set_points(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
+  constexpr void __cordl_internal_set_points(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value);
 
   static inline ::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0* New_ctor();
 
@@ -456,7 +456,7 @@ static_assert(offsetof(::HoudiniEngineUnity::__HEU_Curve____c__DisplayClass48_0,
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9621)), TypeDefinitionIndex(TypeDefinitionIndex(10210)), TypeDefinitionIndex(TypeDefinitionIndex(9620))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9620)), TypeDefinitionIndex(TypeDefinitionIndex(9621)), TypeDefinitionIndex(TypeDefinitionIndex(10210))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9626))
 // CS Name: ::HoudiniEngineUnity::HEU_Curve*
 class CORDL_TYPE HEU_Curve : public ::UnityEngine::ScriptableObject {
@@ -475,37 +475,38 @@ public:
   using CurveEditState = ::HoudiniEngineUnity::__HEU_Curve__CurveEditState;
 
   /// @brief Field _geoID, offset 0x18, size 0x4
-  __declspec(property(get = __get__geoID, put = __set__geoID)) int32_t _geoID;
+  __declspec(property(get = __cordl_internal_get__geoID, put = __cordl_internal_set__geoID)) int32_t _geoID;
 
   /// @brief Field _curveNodeData, offset 0x20, size 0x8
-  __declspec(property(get = __get__curveNodeData, put = __set__curveNodeData))::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* _curveNodeData;
+  __declspec(property(get = __cordl_internal_get__curveNodeData,
+                      put = __cordl_internal_set__curveNodeData))::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* _curveNodeData;
 
   /// @brief Field _vertices, offset 0x28, size 0x8
-  __declspec(property(get = __get__vertices, put = __set__vertices))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _vertices;
+  __declspec(property(get = __cordl_internal_get__vertices, put = __cordl_internal_set__vertices))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _vertices;
 
   /// @brief Field _isEditable, offset 0x30, size 0x1
-  __declspec(property(get = __get__isEditable, put = __set__isEditable)) bool _isEditable;
+  __declspec(property(get = __cordl_internal_get__isEditable, put = __cordl_internal_set__isEditable)) bool _isEditable;
 
   /// @brief Field _parameters, offset 0x38, size 0x8
-  __declspec(property(get = __get__parameters, put = __set__parameters))::HoudiniEngineUnity::HEU_Parameters* _parameters;
+  __declspec(property(get = __cordl_internal_get__parameters, put = __cordl_internal_set__parameters))::UnityW<::HoudiniEngineUnity::HEU_Parameters> _parameters;
 
   /// @brief Field _bUploadParameterPreset, offset 0x40, size 0x1
-  __declspec(property(get = __get__bUploadParameterPreset, put = __set__bUploadParameterPreset)) bool _bUploadParameterPreset;
+  __declspec(property(get = __cordl_internal_get__bUploadParameterPreset, put = __cordl_internal_set__bUploadParameterPreset)) bool _bUploadParameterPreset;
 
   /// @brief Field _curveName, offset 0x48, size 0x8
-  __declspec(property(get = __get__curveName, put = __set__curveName))::StringW _curveName;
+  __declspec(property(get = __cordl_internal_get__curveName, put = __cordl_internal_set__curveName))::StringW _curveName;
 
   /// @brief Field _targetGameObject, offset 0x50, size 0x8
-  __declspec(property(get = __get__targetGameObject, put = __set__targetGameObject))::UnityEngine::GameObject* _targetGameObject;
+  __declspec(property(get = __cordl_internal_get__targetGameObject, put = __cordl_internal_set__targetGameObject))::UnityW<::UnityEngine::GameObject> _targetGameObject;
 
   /// @brief Field _isGeoCurve, offset 0x58, size 0x1
-  __declspec(property(get = __get__isGeoCurve, put = __set__isGeoCurve)) bool _isGeoCurve;
+  __declspec(property(get = __cordl_internal_get__isGeoCurve, put = __cordl_internal_set__isGeoCurve)) bool _isGeoCurve;
 
   /// @brief Field _editState, offset 0x5c, size 0x4
-  __declspec(property(get = __get__editState, put = __set__editState))::HoudiniEngineUnity::__HEU_Curve__CurveEditState _editState;
+  __declspec(property(get = __cordl_internal_get__editState, put = __cordl_internal_set__editState))::HoudiniEngineUnity::__HEU_Curve__CurveEditState _editState;
 
   /// @brief Field _parentAsset, offset 0x60, size 0x8
-  __declspec(property(get = __get__parentAsset, put = __set__parentAsset))::HoudiniEngineUnity::HEU_HoudiniAsset* _parentAsset;
+  __declspec(property(get = __cordl_internal_get__parentAsset, put = __cordl_internal_set__parentAsset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> _parentAsset;
 
   /// @brief Field PreferredNextInteractionMode, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_PreferredNextInteractionMode, put = setStaticF_PreferredNextInteractionMode))::HoudiniEngineUnity::__HEU_Curve__Interaction PreferredNextInteractionMode;
@@ -514,85 +515,85 @@ public:
 
   __declspec(property(get = get_CurveNodeData))::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* CurveNodeData;
 
-  __declspec(property(get = get_Parameters))::HoudiniEngineUnity::HEU_Parameters* Parameters;
+  __declspec(property(get = get_Parameters))::UnityW<::HoudiniEngineUnity::HEU_Parameters> Parameters;
 
   __declspec(property(get = get_CurveName))::StringW CurveName;
 
   __declspec(property(get = get_EditState))::HoudiniEngineUnity::__HEU_Curve__CurveEditState EditState;
 
-  __declspec(property(get = get_ParentAsset))::HoudiniEngineUnity::HEU_HoudiniAsset* ParentAsset;
+  __declspec(property(get = get_ParentAsset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ParentAsset;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>*() noexcept;
+  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>"
+  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*() noexcept;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::HEU_Curve*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__HEU_Curve__() noexcept;
+  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>"
+  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_Curve__() noexcept;
 
-  constexpr int32_t& __get__geoID();
+  constexpr int32_t& __cordl_internal_get__geoID();
 
-  constexpr int32_t const& __get__geoID() const;
+  constexpr int32_t const& __cordl_internal_get__geoID() const;
 
-  constexpr void __set__geoID(int32_t value);
+  constexpr void __cordl_internal_set__geoID(int32_t value);
 
-  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*& __get__curveNodeData();
+  constexpr ::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*& __cordl_internal_get__curveNodeData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*> const& __get__curveNodeData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>*> const& __cordl_internal_get__curveNodeData() const;
 
-  constexpr void __set__curveNodeData(::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* value);
+  constexpr void __cordl_internal_set__curveNodeData(::System::Collections::Generic::List_1<::HoudiniEngineUnity::CurveNodeData*>* value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __get__vertices();
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__vertices();
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __get__vertices() const;
+  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get__vertices() const;
 
-  constexpr void __set__vertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+  constexpr void __cordl_internal_set__vertices(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  constexpr bool& __get__isEditable();
+  constexpr bool& __cordl_internal_get__isEditable();
 
-  constexpr bool const& __get__isEditable() const;
+  constexpr bool const& __cordl_internal_get__isEditable() const;
 
-  constexpr void __set__isEditable(bool value);
+  constexpr void __cordl_internal_set__isEditable(bool value);
 
-  constexpr ::HoudiniEngineUnity::HEU_Parameters*& __get__parameters();
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_Parameters>& __cordl_internal_get__parameters();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_Parameters*> const& __get__parameters() const;
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_Parameters> const& __cordl_internal_get__parameters() const;
 
-  constexpr void __set__parameters(::HoudiniEngineUnity::HEU_Parameters* value);
+  constexpr void __cordl_internal_set__parameters(::UnityW<::HoudiniEngineUnity::HEU_Parameters> value);
 
-  constexpr bool& __get__bUploadParameterPreset();
+  constexpr bool& __cordl_internal_get__bUploadParameterPreset();
 
-  constexpr bool const& __get__bUploadParameterPreset() const;
+  constexpr bool const& __cordl_internal_get__bUploadParameterPreset() const;
 
-  constexpr void __set__bUploadParameterPreset(bool value);
+  constexpr void __cordl_internal_set__bUploadParameterPreset(bool value);
 
-  constexpr ::StringW& __get__curveName();
+  constexpr ::StringW& __cordl_internal_get__curveName();
 
-  constexpr ::StringW const& __get__curveName() const;
+  constexpr ::StringW const& __cordl_internal_get__curveName() const;
 
-  constexpr void __set__curveName(::StringW value);
+  constexpr void __cordl_internal_set__curveName(::StringW value);
 
-  constexpr ::UnityEngine::GameObject*& __get__targetGameObject();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__targetGameObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__targetGameObject() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__targetGameObject() const;
 
-  constexpr void __set__targetGameObject(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__targetGameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr bool& __get__isGeoCurve();
+  constexpr bool& __cordl_internal_get__isGeoCurve();
 
-  constexpr bool const& __get__isGeoCurve() const;
+  constexpr bool const& __cordl_internal_get__isGeoCurve() const;
 
-  constexpr void __set__isGeoCurve(bool value);
+  constexpr void __cordl_internal_set__isGeoCurve(bool value);
 
-  constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveEditState& __get__editState();
+  constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveEditState& __cordl_internal_get__editState();
 
-  constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveEditState const& __get__editState() const;
+  constexpr ::HoudiniEngineUnity::__HEU_Curve__CurveEditState const& __cordl_internal_get__editState() const;
 
-  constexpr void __set__editState(::HoudiniEngineUnity::__HEU_Curve__CurveEditState value);
+  constexpr void __cordl_internal_set__editState(::HoudiniEngineUnity::__HEU_Curve__CurveEditState value);
 
-  constexpr ::HoudiniEngineUnity::HEU_HoudiniAsset*& __get__parentAsset();
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>& __cordl_internal_get__parentAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_HoudiniAsset*> const& __get__parentAsset() const;
+  constexpr ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> const& __cordl_internal_get__parentAsset() const;
 
-  constexpr void __set__parentAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* value);
+  constexpr void __cordl_internal_set__parentAsset(::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> value);
 
   static inline void setStaticF_PreferredNextInteractionMode(::HoudiniEngineUnity::__HEU_Curve__Interaction value);
 
@@ -608,7 +609,7 @@ public:
   inline bool IsEditable();
 
   /// @brief Method get_Parameters, addr 0x2151194, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_Parameters* get_Parameters();
+  inline ::UnityW<::HoudiniEngineUnity::HEU_Parameters> get_Parameters();
 
   /// @brief Method SetUploadParameterPreset, addr 0x215119c, size 0xc, virtual false, abstract: false, final false
   inline void SetUploadParameterPreset(bool bValue);
@@ -623,10 +624,10 @@ public:
   inline ::HoudiniEngineUnity::__HEU_Curve__CurveEditState get_EditState();
 
   /// @brief Method get_ParentAsset, addr 0x21511c0, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_HoudiniAsset* get_ParentAsset();
+  inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> get_ParentAsset();
 
   /// @brief Method CreateSetupCurve, addr 0x21511c8, size 0x184, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::HEU_Curve* CreateSetupCurve(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool isEditable, ::StringW curveName, int32_t geoID, bool bGeoCurve);
+  static inline ::UnityW<::HoudiniEngineUnity::HEU_Curve> CreateSetupCurve(::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset, bool isEditable, ::StringW curveName, int32_t geoID, bool bGeoCurve);
 
   /// @brief Method DestroyAllData, addr 0x2151420, size 0x14c, virtual false, abstract: false, final false
   inline void DestroyAllData(bool bIsRebuild);
@@ -753,7 +754,7 @@ public:
   bool ____isEditable;
 
   /// @brief Field _parameters, offset: 0x38, size: 0x8, def value: None
-  ::HoudiniEngineUnity::HEU_Parameters* ____parameters;
+  ::UnityW<::HoudiniEngineUnity::HEU_Parameters> ____parameters;
 
   /// @brief Field _bUploadParameterPreset, offset: 0x40, size: 0x1, def value: None
   bool ____bUploadParameterPreset;
@@ -762,7 +763,7 @@ public:
   ::StringW ____curveName;
 
   /// @brief Field _targetGameObject, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____targetGameObject;
+  ::UnityW<::UnityEngine::GameObject> ____targetGameObject;
 
   /// @brief Field _isGeoCurve, offset: 0x58, size: 0x1, def value: None
   bool ____isGeoCurve;
@@ -771,7 +772,7 @@ public:
   ::HoudiniEngineUnity::__HEU_Curve__CurveEditState ____editState;
 
   /// @brief Field _parentAsset, offset: 0x60, size: 0x8, def value: None
-  ::HoudiniEngineUnity::HEU_HoudiniAsset* ____parentAsset;
+  ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ____parentAsset;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

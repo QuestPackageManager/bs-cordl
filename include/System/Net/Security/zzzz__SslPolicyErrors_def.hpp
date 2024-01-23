@@ -15,7 +15,7 @@ MARK_VAL_T(::System::Net::Security::SslPolicyErrors);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::Security {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9369))
 // CS Name: ::System.Net.Security::SslPolicyErrors
 struct CORDL_TYPE SslPolicyErrors {

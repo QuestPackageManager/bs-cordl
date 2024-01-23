@@ -60,7 +60,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6421))
 // CS Name: ::UnityEngine.InputSystem.EnhancedTouch::TouchHistory
 struct CORDL_TYPE TouchHistory {
@@ -166,17 +166,17 @@ static_assert(offsetof(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory, 
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6421))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(6421))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6420))
 // CS Name: ::TouchHistory::Enumerator*
 class CORDL_TYPE __TouchHistory__Enumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Owner, offset 0x10, size 0x20
-  __declspec(property(get = __get_m_Owner, put = __set_m_Owner))::UnityEngine::InputSystem::EnhancedTouch::TouchHistory m_Owner;
+  __declspec(property(get = __cordl_internal_get_m_Owner, put = __cordl_internal_set_m_Owner))::UnityEngine::InputSystem::EnhancedTouch::TouchHistory m_Owner;
 
   /// @brief Field m_Index, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_Index, put = __set_m_Index)) int32_t m_Index;
+  __declspec(property(get = __cordl_internal_get_m_Index, put = __cordl_internal_set_m_Index)) int32_t m_Index;
 
   __declspec(property(get = get_Current))::UnityEngine::InputSystem::EnhancedTouch::Touch Current;
 
@@ -201,17 +201,17 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory& __get_m_Owner();
+  constexpr ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory& __cordl_internal_get_m_Owner();
 
-  constexpr ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory const& __get_m_Owner() const;
+  constexpr ::UnityEngine::InputSystem::EnhancedTouch::TouchHistory const& __cordl_internal_get_m_Owner() const;
 
-  constexpr void __set_m_Owner(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory value);
+  constexpr void __cordl_internal_set_m_Owner(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory value);
 
-  constexpr int32_t& __get_m_Index();
+  constexpr int32_t& __cordl_internal_get_m_Index();
 
-  constexpr int32_t const& __get_m_Index() const;
+  constexpr int32_t const& __cordl_internal_get_m_Index() const;
 
-  constexpr void __set_m_Index(int32_t value);
+  constexpr void __cordl_internal_set_m_Index(int32_t value);
 
   static inline ::UnityEngine::InputSystem::EnhancedTouch::__TouchHistory__Enumerator* New_ctor(::UnityEngine::InputSystem::EnhancedTouch::TouchHistory owner);
 

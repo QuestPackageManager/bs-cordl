@@ -32,7 +32,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitS
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15409))
 // CS Name: ::AppInitScenesTransitionSetupDataSO::AppInitOverrideStartType
 struct CORDL_TYPE __AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType {
@@ -90,25 +90,25 @@ static_assert(offsetof(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15409)), TypeDefinitionIndex(TypeDefinitionIndex(15408))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15408)), TypeDefinitionIndex(TypeDefinitionIndex(15409))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15410))
 // CS Name: ::AppInitScenesTransitionSetupDataSO::AppInitSceneSetupData*
 class CORDL_TYPE __AppInitScenesTransitionSetupDataSO__AppInitSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
   /// @brief Field <appInitOverrideStartType>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __get__appInitOverrideStartType_k__BackingField,
-                      put = __set__appInitOverrideStartType_k__BackingField))::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType
+  __declspec(property(get = __cordl_internal_get__appInitOverrideStartType_k__BackingField,
+                      put = __cordl_internal_set__appInitOverrideStartType_k__BackingField))::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType
       _appInitOverrideStartType_k__BackingField;
 
   __declspec(property(get = get_appInitOverrideStartType,
                       put = set_appInitOverrideStartType))::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType appInitOverrideStartType;
 
-  constexpr ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType& __get__appInitOverrideStartType_k__BackingField();
+  constexpr ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType& __cordl_internal_get__appInitOverrideStartType_k__BackingField();
 
-  constexpr ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType const& __get__appInitOverrideStartType_k__BackingField() const;
+  constexpr ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType const& __cordl_internal_get__appInitOverrideStartType_k__BackingField() const;
 
-  constexpr void __set__appInitOverrideStartType_k__BackingField(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType value);
+  constexpr void __cordl_internal_set__appInitOverrideStartType_k__BackingField(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType value);
 
   /// @brief Method get_appInitOverrideStartType, addr 0xe23674, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__AppInitOverrideStartType get_appInitOverrideStartType();
@@ -151,7 +151,7 @@ static_assert(offsetof(::GlobalNamespace::__AppInitScenesTransitionSetupDataSO__
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15418))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15418))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15411))
 // CS Name: ::AppInitScenesTransitionSetupDataSO*
 class CORDL_TYPE AppInitScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {

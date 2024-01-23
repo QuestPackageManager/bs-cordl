@@ -30,17 +30,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Agreement::DHBasicAgreement);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Agreement {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(734))
 // CS Name: ::Org.BouncyCastle.Crypto.Agreement::DHBasicAgreement*
 class CORDL_TYPE DHBasicAgreement : public ::System::Object {
 public:
   // Declarations
   /// @brief Field key, offset 0x10, size 0x8
-  __declspec(property(get = __get_key, put = __set_key))::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* key;
+  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* key;
 
   /// @brief Field dhParams, offset 0x18, size 0x8
-  __declspec(property(get = __get_dhParams, put = __set_dhParams))::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams;
+  __declspec(property(get = __cordl_internal_get_dhParams, put = __cordl_internal_set_dhParams))::Org::BouncyCastle::Crypto::Parameters::DHParameters* dhParams;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBasicAgreement"
   constexpr operator ::Org::BouncyCastle::Crypto::IBasicAgreement*() noexcept;
@@ -48,17 +48,17 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBasicAgreement"
   constexpr ::Org::BouncyCastle::Crypto::IBasicAgreement* i___Org__BouncyCastle__Crypto__IBasicAgreement() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*& __get_key();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*& __cordl_internal_get_key();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*> const& __get_key() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters*> const& __cordl_internal_get_key() const;
 
-  constexpr void __set_key(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* value);
+  constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::DHPrivateKeyParameters* value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters*& __get_dhParams();
+  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHParameters*& __cordl_internal_get_dhParams();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHParameters*> const& __get_dhParams() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHParameters*> const& __cordl_internal_get_dhParams() const;
 
-  constexpr void __set_dhParams(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
+  constexpr void __cordl_internal_set_dhParams(::Org::BouncyCastle::Crypto::Parameters::DHParameters* value);
 
   /// @brief Method Init, addr 0x121994c, size 0x13c, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);

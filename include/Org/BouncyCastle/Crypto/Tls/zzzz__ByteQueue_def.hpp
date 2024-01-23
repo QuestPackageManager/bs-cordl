@@ -22,49 +22,49 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ByteQueue);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1183))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::ByteQueue*
 class CORDL_TYPE ByteQueue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field databuf, offset 0x10, size 0x8
-  __declspec(property(get = __get_databuf, put = __set_databuf))::ArrayW<uint8_t, ::Array<uint8_t>*> databuf;
+  __declspec(property(get = __cordl_internal_get_databuf, put = __cordl_internal_set_databuf))::ArrayW<uint8_t, ::Array<uint8_t>*> databuf;
 
   /// @brief Field skipped, offset 0x18, size 0x4
-  __declspec(property(get = __get_skipped, put = __set_skipped)) int32_t skipped;
+  __declspec(property(get = __cordl_internal_get_skipped, put = __cordl_internal_set_skipped)) int32_t skipped;
 
   /// @brief Field available, offset 0x1c, size 0x4
-  __declspec(property(get = __get_available, put = __set_available)) int32_t available;
+  __declspec(property(get = __cordl_internal_get_available, put = __cordl_internal_set_available)) int32_t available;
 
   /// @brief Field readOnlyBuf, offset 0x20, size 0x1
-  __declspec(property(get = __get_readOnlyBuf, put = __set_readOnlyBuf)) bool readOnlyBuf;
+  __declspec(property(get = __cordl_internal_get_readOnlyBuf, put = __cordl_internal_set_readOnlyBuf)) bool readOnlyBuf;
 
   __declspec(property(get = get_Available)) int32_t Available;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_databuf();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_databuf();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_databuf() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_databuf() const;
 
-  constexpr void __set_databuf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_databuf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_skipped();
+  constexpr int32_t& __cordl_internal_get_skipped();
 
-  constexpr int32_t const& __get_skipped() const;
+  constexpr int32_t const& __cordl_internal_get_skipped() const;
 
-  constexpr void __set_skipped(int32_t value);
+  constexpr void __cordl_internal_set_skipped(int32_t value);
 
-  constexpr int32_t& __get_available();
+  constexpr int32_t& __cordl_internal_get_available();
 
-  constexpr int32_t const& __get_available() const;
+  constexpr int32_t const& __cordl_internal_get_available() const;
 
-  constexpr void __set_available(int32_t value);
+  constexpr void __cordl_internal_set_available(int32_t value);
 
-  constexpr bool& __get_readOnlyBuf();
+  constexpr bool& __cordl_internal_get_readOnlyBuf();
 
-  constexpr bool const& __get_readOnlyBuf() const;
+  constexpr bool const& __cordl_internal_get_readOnlyBuf() const;
 
-  constexpr void __set_readOnlyBuf(bool value);
+  constexpr void __cordl_internal_set_readOnlyBuf(bool value);
 
   /// @brief Method NextTwoPow, addr 0xf5d360, size 0x1c, virtual false, abstract: false, final false
   static inline int32_t NextTwoPow(int32_t i);

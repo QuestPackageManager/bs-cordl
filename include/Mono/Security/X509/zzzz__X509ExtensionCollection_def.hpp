@@ -28,14 +28,14 @@ MARK_REF_PTR_T(::Mono::Security::X509::X509ExtensionCollection);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3773))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3773))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13757))
 // CS Name: ::Mono.Security.X509::X509ExtensionCollection*
 class CORDL_TYPE X509ExtensionCollection : public ::System::Collections::CollectionBase {
 public:
   // Declarations
   /// @brief Field readOnly, offset 0x18, size 0x1
-  __declspec(property(get = __get_readOnly, put = __set_readOnly)) bool readOnly;
+  __declspec(property(get = __cordl_internal_get_readOnly, put = __cordl_internal_set_readOnly)) bool readOnly;
 
   __declspec(property(get = get_Item))::Mono::Security::X509::X509Extension* Item[];
 
@@ -45,11 +45,11 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  constexpr bool& __get_readOnly();
+  constexpr bool& __cordl_internal_get_readOnly();
 
-  constexpr bool const& __get_readOnly() const;
+  constexpr bool const& __cordl_internal_get_readOnly() const;
 
-  constexpr void __set_readOnly(bool value);
+  constexpr void __cordl_internal_set_readOnly(bool value);
 
   static inline ::Mono::Security::X509::X509ExtensionCollection* New_ctor();
 

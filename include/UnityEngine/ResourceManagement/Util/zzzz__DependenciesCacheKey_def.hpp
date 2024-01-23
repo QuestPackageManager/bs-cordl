@@ -30,18 +30,18 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::DependenciesCacheKey);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13971))
 // CS Name: ::UnityEngine.ResourceManagement.Util::DependenciesCacheKey*
 class CORDL_TYPE DependenciesCacheKey : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Dependencies, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Dependencies,
-                      put = __set_m_Dependencies))::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* m_Dependencies;
+  __declspec(property(get = __cordl_internal_get_m_Dependencies,
+                      put = __cordl_internal_set_m_Dependencies))::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* m_Dependencies;
 
   /// @brief Field m_DependenciesHash, offset 0x18, size 0x4
-  __declspec(property(get = __get_m_DependenciesHash, put = __set_m_DependenciesHash)) int32_t m_DependenciesHash;
+  __declspec(property(get = __cordl_internal_get_m_DependenciesHash, put = __cordl_internal_set_m_DependenciesHash)) int32_t m_DependenciesHash;
 
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IOperationCacheKey"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*() noexcept;
@@ -55,17 +55,18 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>"
   constexpr ::System::IEquatable_1<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*>* i___System__IEquatable_1___UnityEngine__ResourceManagement__Util__IOperationCacheKey__() noexcept;
 
-  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& __get_m_Dependencies();
+  constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*& __cordl_internal_get_m_Dependencies();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const& __get_m_Dependencies() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> const&
+  __cordl_internal_get_m_Dependencies() const;
 
-  constexpr void __set_m_Dependencies(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
+  constexpr void __cordl_internal_set_m_Dependencies(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value);
 
-  constexpr int32_t& __get_m_DependenciesHash();
+  constexpr int32_t& __cordl_internal_get_m_DependenciesHash();
 
-  constexpr int32_t const& __get_m_DependenciesHash() const;
+  constexpr int32_t const& __cordl_internal_get_m_DependenciesHash() const;
 
-  constexpr void __set_m_DependenciesHash(int32_t value);
+  constexpr void __cordl_internal_set_m_DependenciesHash(int32_t value);
 
   static inline ::UnityEngine::ResourceManagement::Util::DependenciesCacheKey*
   New_ctor(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* dependencies, int32_t dependenciesHash);

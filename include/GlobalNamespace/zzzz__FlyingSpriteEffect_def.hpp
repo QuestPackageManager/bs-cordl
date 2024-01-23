@@ -45,7 +45,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__FlyingSpriteEffect__Pool);
 // SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(4852)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4852)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4856))
 // CS Name: ::FlyingSpriteEffect*
 class CORDL_TYPE FlyingSpriteEffect : public ::GlobalNamespace::FlyingObjectEffect {
@@ -54,31 +54,31 @@ public:
   using Pool = ::GlobalNamespace::__FlyingSpriteEffect__Pool;
 
   /// @brief Field _spriteRenderer, offset 0x80, size 0x8
-  __declspec(property(get = __get__spriteRenderer, put = __set__spriteRenderer))::UnityEngine::SpriteRenderer* _spriteRenderer;
+  __declspec(property(get = __cordl_internal_get__spriteRenderer, put = __cordl_internal_set__spriteRenderer))::UnityW<::UnityEngine::SpriteRenderer> _spriteRenderer;
 
   /// @brief Field _fadeAnimationCurve, offset 0x88, size 0x8
-  __declspec(property(get = __get__fadeAnimationCurve, put = __set__fadeAnimationCurve))::UnityEngine::AnimationCurve* _fadeAnimationCurve;
+  __declspec(property(get = __cordl_internal_get__fadeAnimationCurve, put = __cordl_internal_set__fadeAnimationCurve))::UnityEngine::AnimationCurve* _fadeAnimationCurve;
 
   /// @brief Field _color, offset 0x90, size 0x10
-  __declspec(property(get = __get__color, put = __set__color))::UnityEngine::Color _color;
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
-  constexpr ::UnityEngine::SpriteRenderer*& __get__spriteRenderer();
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer>& __cordl_internal_get__spriteRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::SpriteRenderer*> const& __get__spriteRenderer() const;
+  constexpr ::UnityW<::UnityEngine::SpriteRenderer> const& __cordl_internal_get__spriteRenderer() const;
 
-  constexpr void __set__spriteRenderer(::UnityEngine::SpriteRenderer* value);
+  constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  constexpr ::UnityEngine::AnimationCurve*& __get__fadeAnimationCurve();
+  constexpr ::UnityEngine::AnimationCurve*& __cordl_internal_get__fadeAnimationCurve();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __get__fadeAnimationCurve() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationCurve*> const& __cordl_internal_get__fadeAnimationCurve() const;
 
-  constexpr void __set__fadeAnimationCurve(::UnityEngine::AnimationCurve* value);
+  constexpr void __cordl_internal_set__fadeAnimationCurve(::UnityEngine::AnimationCurve* value);
 
-  constexpr ::UnityEngine::Color& __get__color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::UnityEngine::Color const& __get__color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr void __set__color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
   /// @brief Method InitAndPresent, addr 0x2398fd4, size 0xb8, virtual false, abstract: false, final false
   inline void InitAndPresent(float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Sprite* sprite, ::UnityEngine::Material* material,
@@ -107,7 +107,7 @@ protected:
 
 public:
   /// @brief Field _spriteRenderer, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::SpriteRenderer* ____spriteRenderer;
+  ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;
 
   /// @brief Field _fadeAnimationCurve, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____fadeAnimationCurve;
@@ -131,9 +131,9 @@ static_assert(offsetof(::GlobalNamespace::FlyingSpriteEffect, ____color) == 0x90
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(4856)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2812 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4855)) CS Name: ::FlyingSpriteEffect::Pool*
-class CORDL_TYPE __FlyingSpriteEffect__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::FlyingSpriteEffect*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4856)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2812 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4855)) CS Name: ::FlyingSpriteEffect::Pool*
+class CORDL_TYPE __FlyingSpriteEffect__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::FlyingSpriteEffect>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__FlyingSpriteEffect__Pool* New_ctor();

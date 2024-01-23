@@ -23,49 +23,49 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::WebRequestQueueOperation);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13959))
 // CS Name: ::UnityEngine.ResourceManagement::WebRequestQueueOperation*
 class CORDL_TYPE WebRequestQueueOperation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Completed, offset 0x10, size 0x1
-  __declspec(property(get = __get_m_Completed, put = __set_m_Completed)) bool m_Completed;
+  __declspec(property(get = __cordl_internal_get_m_Completed, put = __cordl_internal_set_m_Completed)) bool m_Completed;
 
   /// @brief Field Result, offset 0x18, size 0x8
-  __declspec(property(get = __get_Result, put = __set_Result))::UnityEngine::Networking::UnityWebRequestAsyncOperation* Result;
+  __declspec(property(get = __cordl_internal_get_Result, put = __cordl_internal_set_Result))::UnityEngine::Networking::UnityWebRequestAsyncOperation* Result;
 
   /// @brief Field OnComplete, offset 0x20, size 0x8
-  __declspec(property(get = __get_OnComplete, put = __set_OnComplete))::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* OnComplete;
+  __declspec(property(get = __cordl_internal_get_OnComplete, put = __cordl_internal_set_OnComplete))::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* OnComplete;
 
   /// @brief Field m_WebRequest, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_WebRequest, put = __set_m_WebRequest))::UnityEngine::Networking::UnityWebRequest* m_WebRequest;
+  __declspec(property(get = __cordl_internal_get_m_WebRequest, put = __cordl_internal_set_m_WebRequest))::UnityEngine::Networking::UnityWebRequest* m_WebRequest;
 
   __declspec(property(get = get_IsDone)) bool IsDone;
 
-  constexpr bool& __get_m_Completed();
+  constexpr bool& __cordl_internal_get_m_Completed();
 
-  constexpr bool const& __get_m_Completed() const;
+  constexpr bool const& __cordl_internal_get_m_Completed() const;
 
-  constexpr void __set_m_Completed(bool value);
+  constexpr void __cordl_internal_set_m_Completed(bool value);
 
-  constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& __get_Result();
+  constexpr ::UnityEngine::Networking::UnityWebRequestAsyncOperation*& __cordl_internal_get_Result();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequestAsyncOperation*> const& __get_Result() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequestAsyncOperation*> const& __cordl_internal_get_Result() const;
 
-  constexpr void __set_Result(::UnityEngine::Networking::UnityWebRequestAsyncOperation* value);
+  constexpr void __cordl_internal_set_Result(::UnityEngine::Networking::UnityWebRequestAsyncOperation* value);
 
-  constexpr ::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>*& __get_OnComplete();
+  constexpr ::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>*& __cordl_internal_get_OnComplete();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>*> const& __get_OnComplete() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>*> const& __cordl_internal_get_OnComplete() const;
 
-  constexpr void __set_OnComplete(::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* value);
+  constexpr void __cordl_internal_set_OnComplete(::System::Action_1<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>* value);
 
-  constexpr ::UnityEngine::Networking::UnityWebRequest*& __get_m_WebRequest();
+  constexpr ::UnityEngine::Networking::UnityWebRequest*& __cordl_internal_get_m_WebRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequest*> const& __get_m_WebRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UnityWebRequest*> const& __cordl_internal_get_m_WebRequest() const;
 
-  constexpr void __set_m_WebRequest(::UnityEngine::Networking::UnityWebRequest* value);
+  constexpr void __cordl_internal_set_m_WebRequest(::UnityEngine::Networking::UnityWebRequest* value);
 
   /// @brief Method get_IsDone, addr 0x2bcef30, size 0x20, virtual false, abstract: false, final false
   inline bool get_IsDone();

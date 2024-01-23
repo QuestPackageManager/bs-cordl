@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::TypeInforma
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3285))
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::TypeInformation*
 class CORDL_TYPE TypeInformation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field fullTypeName, offset 0x10, size 0x8
-  __declspec(property(get = __get_fullTypeName, put = __set_fullTypeName))::StringW fullTypeName;
+  __declspec(property(get = __cordl_internal_get_fullTypeName, put = __cordl_internal_set_fullTypeName))::StringW fullTypeName;
 
   /// @brief Field assemblyString, offset 0x18, size 0x8
-  __declspec(property(get = __get_assemblyString, put = __set_assemblyString))::StringW assemblyString;
+  __declspec(property(get = __cordl_internal_get_assemblyString, put = __cordl_internal_set_assemblyString))::StringW assemblyString;
 
   /// @brief Field hasTypeForwardedFrom, offset 0x20, size 0x1
-  __declspec(property(get = __get_hasTypeForwardedFrom, put = __set_hasTypeForwardedFrom)) bool hasTypeForwardedFrom;
+  __declspec(property(get = __cordl_internal_get_hasTypeForwardedFrom, put = __cordl_internal_set_hasTypeForwardedFrom)) bool hasTypeForwardedFrom;
 
   __declspec(property(get = get_FullTypeName))::StringW FullTypeName;
 
@@ -36,23 +36,23 @@ public:
 
   __declspec(property(get = get_HasTypeForwardedFrom)) bool HasTypeForwardedFrom;
 
-  constexpr ::StringW& __get_fullTypeName();
+  constexpr ::StringW& __cordl_internal_get_fullTypeName();
 
-  constexpr ::StringW const& __get_fullTypeName() const;
+  constexpr ::StringW const& __cordl_internal_get_fullTypeName() const;
 
-  constexpr void __set_fullTypeName(::StringW value);
+  constexpr void __cordl_internal_set_fullTypeName(::StringW value);
 
-  constexpr ::StringW& __get_assemblyString();
+  constexpr ::StringW& __cordl_internal_get_assemblyString();
 
-  constexpr ::StringW const& __get_assemblyString() const;
+  constexpr ::StringW const& __cordl_internal_get_assemblyString() const;
 
-  constexpr void __set_assemblyString(::StringW value);
+  constexpr void __cordl_internal_set_assemblyString(::StringW value);
 
-  constexpr bool& __get_hasTypeForwardedFrom();
+  constexpr bool& __cordl_internal_get_hasTypeForwardedFrom();
 
-  constexpr bool const& __get_hasTypeForwardedFrom() const;
+  constexpr bool const& __cordl_internal_get_hasTypeForwardedFrom() const;
 
-  constexpr void __set_hasTypeForwardedFrom(bool value);
+  constexpr void __cordl_internal_set_hasTypeForwardedFrom(bool value);
 
   /// @brief Method get_FullTypeName, addr 0x24cb3d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FullTypeName();

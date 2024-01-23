@@ -24,7 +24,7 @@ MARK_VAL_T(::System::Buffers::MemoryHandle);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Buffers {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3336))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3336))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3884))
 // CS Name: ::System.Buffers::MemoryHandle
 struct CORDL_TYPE MemoryHandle {

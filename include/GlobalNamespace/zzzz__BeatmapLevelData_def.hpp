@@ -26,20 +26,20 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelData);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4347))
 // CS Name: ::BeatmapLevelData*
 class CORDL_TYPE BeatmapLevelData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _audioClip, offset 0x10, size 0x8
-  __declspec(property(get = __get__audioClip, put = __set__audioClip))::UnityEngine::AudioClip* _audioClip;
+  __declspec(property(get = __cordl_internal_get__audioClip, put = __cordl_internal_set__audioClip))::UnityW<::UnityEngine::AudioClip> _audioClip;
 
   /// @brief Field _difficultyBeatmapSets, offset 0x18, size 0x8
-  __declspec(property(get = __get__difficultyBeatmapSets,
-                      put = __set__difficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* _difficultyBeatmapSets;
+  __declspec(property(get = __cordl_internal_get__difficultyBeatmapSets,
+                      put = __cordl_internal_set__difficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* _difficultyBeatmapSets;
 
-  __declspec(property(get = get_audioClip))::UnityEngine::AudioClip* audioClip;
+  __declspec(property(get = get_audioClip))::UnityW<::UnityEngine::AudioClip> audioClip;
 
   __declspec(property(get = get_difficultyBeatmapSets))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* difficultyBeatmapSets;
 
@@ -49,20 +49,20 @@ public:
   /// @brief Convert to "::GlobalNamespace::IBeatmapLevelData"
   constexpr ::GlobalNamespace::IBeatmapLevelData* i___GlobalNamespace__IBeatmapLevelData() noexcept;
 
-  constexpr ::UnityEngine::AudioClip*& __get__audioClip();
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__audioClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& __get__audioClip() const;
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__audioClip() const;
 
-  constexpr void __set__audioClip(::UnityEngine::AudioClip* value);
+  constexpr void __cordl_internal_set__audioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>*& __get__difficultyBeatmapSets();
+  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>*& __cordl_internal_get__difficultyBeatmapSets();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>*> const& __get__difficultyBeatmapSets() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>*> const& __cordl_internal_get__difficultyBeatmapSets() const;
 
-  constexpr void __set__difficultyBeatmapSets(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* value);
+  constexpr void __cordl_internal_set__difficultyBeatmapSets(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* value);
 
   /// @brief Method get_audioClip, addr 0x2342010, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::AudioClip* get_audioClip();
+  inline ::UnityW<::UnityEngine::AudioClip> get_audioClip();
 
   /// @brief Method get_difficultyBeatmapSets, addr 0x2342018, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* get_difficultyBeatmapSets();
@@ -88,7 +88,7 @@ protected:
 
 public:
   /// @brief Field _audioClip, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::AudioClip* ____audioClip;
+  ::UnityW<::UnityEngine::AudioClip> ____audioClip;
 
   /// @brief Field _difficultyBeatmapSets, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IDifficultyBeatmapSet*>* ____difficultyBeatmapSets;

@@ -35,7 +35,7 @@ MARK_VAL_T(::GlobalNamespace::OVRStorable);
 // SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7514))
 // CS Name: ::OVRStorable
 struct CORDL_TYPE OVRStorable {

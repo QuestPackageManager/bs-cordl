@@ -20,23 +20,23 @@ namespace IgnoranceThirdparty {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15211))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(15211))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15210))
 // CS Name: ::IgnoranceThirdparty::RingBuffer`1<T>*
 class CORDL_TYPE RingBuffer_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _entries, offset 0x10, size 0x8
-  __declspec(property(get = __get__entries, put = __set__entries))::ArrayW<T, ::Array<T>*> _entries;
+  __declspec(property(get = __cordl_internal_get__entries, put = __cordl_internal_set__entries))::ArrayW<T, ::Array<T>*> _entries;
 
   /// @brief Field _modMask, offset 0x18, size 0x4
-  __declspec(property(get = __get__modMask, put = __set__modMask)) int32_t _modMask;
+  __declspec(property(get = __cordl_internal_get__modMask, put = __cordl_internal_set__modMask)) int32_t _modMask;
 
   /// @brief Field _consumerCursor, offset 0x20, size 0x80
-  __declspec(property(get = __get__consumerCursor, put = __set__consumerCursor))::IgnoranceThirdparty::__Volatile__PaddedLong _consumerCursor;
+  __declspec(property(get = __cordl_internal_get__consumerCursor, put = __cordl_internal_set__consumerCursor))::IgnoranceThirdparty::__Volatile__PaddedLong _consumerCursor;
 
   /// @brief Field _producerCursor, offset 0xa0, size 0x80
-  __declspec(property(get = __get__producerCursor, put = __set__producerCursor))::IgnoranceThirdparty::__Volatile__PaddedLong _producerCursor;
+  __declspec(property(get = __cordl_internal_get__producerCursor, put = __cordl_internal_set__producerCursor))::IgnoranceThirdparty::__Volatile__PaddedLong _producerCursor;
 
   __declspec(property(get = get_Capacity)) int32_t Capacity;
 
@@ -44,29 +44,29 @@ public:
 
   __declspec(property(get = get_Count)) int32_t Count;
 
-  constexpr ::ArrayW<T, ::Array<T>*>& __get__entries();
+  constexpr ::ArrayW<T, ::Array<T>*>& __cordl_internal_get__entries();
 
-  constexpr ::ArrayW<T, ::Array<T>*> const& __get__entries() const;
+  constexpr ::ArrayW<T, ::Array<T>*> const& __cordl_internal_get__entries() const;
 
-  constexpr void __set__entries(::ArrayW<T, ::Array<T>*> value);
+  constexpr void __cordl_internal_set__entries(::ArrayW<T, ::Array<T>*> value);
 
-  constexpr int32_t& __get__modMask();
+  constexpr int32_t& __cordl_internal_get__modMask();
 
-  constexpr int32_t const& __get__modMask() const;
+  constexpr int32_t const& __cordl_internal_get__modMask() const;
 
-  constexpr void __set__modMask(int32_t value);
+  constexpr void __cordl_internal_set__modMask(int32_t value);
 
-  constexpr ::IgnoranceThirdparty::__Volatile__PaddedLong& __get__consumerCursor();
+  constexpr ::IgnoranceThirdparty::__Volatile__PaddedLong& __cordl_internal_get__consumerCursor();
 
-  constexpr ::IgnoranceThirdparty::__Volatile__PaddedLong const& __get__consumerCursor() const;
+  constexpr ::IgnoranceThirdparty::__Volatile__PaddedLong const& __cordl_internal_get__consumerCursor() const;
 
-  constexpr void __set__consumerCursor(::IgnoranceThirdparty::__Volatile__PaddedLong value);
+  constexpr void __cordl_internal_set__consumerCursor(::IgnoranceThirdparty::__Volatile__PaddedLong value);
 
-  constexpr ::IgnoranceThirdparty::__Volatile__PaddedLong& __get__producerCursor();
+  constexpr ::IgnoranceThirdparty::__Volatile__PaddedLong& __cordl_internal_get__producerCursor();
 
-  constexpr ::IgnoranceThirdparty::__Volatile__PaddedLong const& __get__producerCursor() const;
+  constexpr ::IgnoranceThirdparty::__Volatile__PaddedLong const& __cordl_internal_get__producerCursor() const;
 
-  constexpr void __set__producerCursor(::IgnoranceThirdparty::__Volatile__PaddedLong value);
+  constexpr void __cordl_internal_set__producerCursor(::IgnoranceThirdparty::__Volatile__PaddedLong value);
 
   static inline ::IgnoranceThirdparty::RingBuffer_1<T>* New_ctor(int32_t capacity);
 

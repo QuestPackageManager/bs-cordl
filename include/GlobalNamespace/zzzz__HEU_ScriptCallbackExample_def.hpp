@@ -15,20 +15,20 @@ MARK_REF_PTR_T(::GlobalNamespace::HEU_ScriptCallbackExample);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9589))
 // CS Name: ::HEU_ScriptCallbackExample*
 class CORDL_TYPE HEU_ScriptCallbackExample : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _msg, offset 0x18, size 0x8
-  __declspec(property(get = __get__msg, put = __set__msg))::StringW _msg;
+  __declspec(property(get = __cordl_internal_get__msg, put = __cordl_internal_set__msg))::StringW _msg;
 
-  constexpr ::StringW& __get__msg();
+  constexpr ::StringW& __cordl_internal_get__msg();
 
-  constexpr ::StringW const& __get__msg() const;
+  constexpr ::StringW const& __cordl_internal_get__msg() const;
 
-  constexpr void __set__msg(::StringW value);
+  constexpr void __cordl_internal_set__msg(::StringW value);
 
   /// @brief Method AssetCallbackWithMsg, addr 0x214cfc8, size 0x98, virtual false, abstract: false, final false
   inline void AssetCallbackWithMsg(::StringW msg);

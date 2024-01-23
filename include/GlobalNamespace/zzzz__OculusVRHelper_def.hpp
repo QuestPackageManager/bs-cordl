@@ -52,50 +52,51 @@ MARK_REF_PTR_T(::GlobalNamespace::OculusVRHelper);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10057)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14419))
 // CS Name: ::OculusVRHelper*
 class CORDL_TYPE OculusVRHelper : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _oculusTouchControllerOffsetPose, offset 0x18, size 0x1c
-  __declspec(property(get = __get__oculusTouchControllerOffsetPose, put = __set__oculusTouchControllerOffsetPose))::UnityEngine::Pose _oculusTouchControllerOffsetPose;
+  __declspec(property(get = __cordl_internal_get__oculusTouchControllerOffsetPose, put = __cordl_internal_set__oculusTouchControllerOffsetPose))::UnityEngine::Pose _oculusTouchControllerOffsetPose;
 
   /// @brief Field inputFocusWasCapturedEvent, offset 0x38, size 0x8
-  __declspec(property(get = __get_inputFocusWasCapturedEvent, put = __set_inputFocusWasCapturedEvent))::System::Action* inputFocusWasCapturedEvent;
+  __declspec(property(get = __cordl_internal_get_inputFocusWasCapturedEvent, put = __cordl_internal_set_inputFocusWasCapturedEvent))::System::Action* inputFocusWasCapturedEvent;
 
   /// @brief Field inputFocusWasReleasedEvent, offset 0x40, size 0x8
-  __declspec(property(get = __get_inputFocusWasReleasedEvent, put = __set_inputFocusWasReleasedEvent))::System::Action* inputFocusWasReleasedEvent;
+  __declspec(property(get = __cordl_internal_get_inputFocusWasReleasedEvent, put = __cordl_internal_set_inputFocusWasReleasedEvent))::System::Action* inputFocusWasReleasedEvent;
 
   /// @brief Field vrFocusWasCapturedEvent, offset 0x48, size 0x8
-  __declspec(property(get = __get_vrFocusWasCapturedEvent, put = __set_vrFocusWasCapturedEvent))::System::Action* vrFocusWasCapturedEvent;
+  __declspec(property(get = __cordl_internal_get_vrFocusWasCapturedEvent, put = __cordl_internal_set_vrFocusWasCapturedEvent))::System::Action* vrFocusWasCapturedEvent;
 
   /// @brief Field vrFocusWasReleasedEvent, offset 0x50, size 0x8
-  __declspec(property(get = __get_vrFocusWasReleasedEvent, put = __set_vrFocusWasReleasedEvent))::System::Action* vrFocusWasReleasedEvent;
+  __declspec(property(get = __cordl_internal_get_vrFocusWasReleasedEvent, put = __cordl_internal_set_vrFocusWasReleasedEvent))::System::Action* vrFocusWasReleasedEvent;
 
   /// @brief Field hmdUnmountedEvent, offset 0x58, size 0x8
-  __declspec(property(get = __get_hmdUnmountedEvent, put = __set_hmdUnmountedEvent))::System::Action* hmdUnmountedEvent;
+  __declspec(property(get = __cordl_internal_get_hmdUnmountedEvent, put = __cordl_internal_set_hmdUnmountedEvent))::System::Action* hmdUnmountedEvent;
 
   /// @brief Field hmdMountedEvent, offset 0x60, size 0x8
-  __declspec(property(get = __get_hmdMountedEvent, put = __set_hmdMountedEvent))::System::Action* hmdMountedEvent;
+  __declspec(property(get = __cordl_internal_get_hmdMountedEvent, put = __cordl_internal_set_hmdMountedEvent))::System::Action* hmdMountedEvent;
 
   /// @brief Field controllersDidChangeReferenceEvent, offset 0x68, size 0x8
-  __declspec(property(get = __get_controllersDidChangeReferenceEvent, put = __set_controllersDidChangeReferenceEvent))::System::Action* controllersDidChangeReferenceEvent;
+  __declspec(property(get = __cordl_internal_get_controllersDidChangeReferenceEvent,
+                      put = __cordl_internal_set_controllersDidChangeReferenceEvent))::System::Action* controllersDidChangeReferenceEvent;
 
   /// @brief Field controllersDidDisconnectEvent, offset 0x70, size 0x8
-  __declspec(property(get = __get_controllersDidDisconnectEvent, put = __set_controllersDidDisconnectEvent))::System::Action* controllersDidDisconnectEvent;
+  __declspec(property(get = __cordl_internal_get_controllersDidDisconnectEvent, put = __cordl_internal_set_controllersDidDisconnectEvent))::System::Action* controllersDidDisconnectEvent;
 
   /// @brief Field _hasInputFocus, offset 0x78, size 0x1
-  __declspec(property(get = __get__hasInputFocus, put = __set__hasInputFocus)) bool _hasInputFocus;
+  __declspec(property(get = __cordl_internal_get__hasInputFocus, put = __cordl_internal_set__hasInputFocus)) bool _hasInputFocus;
 
   /// @brief Field _hasVrFocus, offset 0x79, size 0x1
-  __declspec(property(get = __get__hasVrFocus, put = __set__hasVrFocus)) bool _hasVrFocus;
+  __declspec(property(get = __cordl_internal_get__hasVrFocus, put = __cordl_internal_set__hasVrFocus)) bool _hasVrFocus;
 
   /// @brief Field _userPresent, offset 0x7a, size 0x1
-  __declspec(property(get = __get__userPresent, put = __set__userPresent)) bool _userPresent;
+  __declspec(property(get = __cordl_internal_get__userPresent, put = __cordl_internal_set__userPresent)) bool _userPresent;
 
   /// @brief Field _disabledEventSystem, offset 0x80, size 0x8
-  __declspec(property(get = __get__disabledEventSystem, put = __set__disabledEventSystem))::UnityEngine::EventSystems::EventSystem* _disabledEventSystem;
+  __declspec(property(get = __cordl_internal_get__disabledEventSystem, put = __cordl_internal_set__disabledEventSystem))::UnityW<::UnityEngine::EventSystems::EventSystem> _disabledEventSystem;
 
   __declspec(property(get = get_hasInputFocus)) bool hasInputFocus;
 
@@ -121,83 +122,83 @@ public:
   /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
   constexpr ::GlobalNamespace::IVerboseLogger* i___GlobalNamespace__IVerboseLogger() noexcept;
 
-  constexpr ::UnityEngine::Pose& __get__oculusTouchControllerOffsetPose();
+  constexpr ::UnityEngine::Pose& __cordl_internal_get__oculusTouchControllerOffsetPose();
 
-  constexpr ::UnityEngine::Pose const& __get__oculusTouchControllerOffsetPose() const;
+  constexpr ::UnityEngine::Pose const& __cordl_internal_get__oculusTouchControllerOffsetPose() const;
 
-  constexpr void __set__oculusTouchControllerOffsetPose(::UnityEngine::Pose value);
+  constexpr void __cordl_internal_set__oculusTouchControllerOffsetPose(::UnityEngine::Pose value);
 
-  constexpr ::System::Action*& __get_inputFocusWasCapturedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_inputFocusWasCapturedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_inputFocusWasCapturedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_inputFocusWasCapturedEvent() const;
 
-  constexpr void __set_inputFocusWasCapturedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_inputFocusWasCapturedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_inputFocusWasReleasedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_inputFocusWasReleasedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_inputFocusWasReleasedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_inputFocusWasReleasedEvent() const;
 
-  constexpr void __set_inputFocusWasReleasedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_inputFocusWasReleasedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_vrFocusWasCapturedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_vrFocusWasCapturedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_vrFocusWasCapturedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_vrFocusWasCapturedEvent() const;
 
-  constexpr void __set_vrFocusWasCapturedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_vrFocusWasCapturedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_vrFocusWasReleasedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_vrFocusWasReleasedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_vrFocusWasReleasedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_vrFocusWasReleasedEvent() const;
 
-  constexpr void __set_vrFocusWasReleasedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_vrFocusWasReleasedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_hmdUnmountedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_hmdUnmountedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_hmdUnmountedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_hmdUnmountedEvent() const;
 
-  constexpr void __set_hmdUnmountedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_hmdUnmountedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_hmdMountedEvent();
+  constexpr ::System::Action*& __cordl_internal_get_hmdMountedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_hmdMountedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_hmdMountedEvent() const;
 
-  constexpr void __set_hmdMountedEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_hmdMountedEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_controllersDidChangeReferenceEvent();
+  constexpr ::System::Action*& __cordl_internal_get_controllersDidChangeReferenceEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_controllersDidChangeReferenceEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_controllersDidChangeReferenceEvent() const;
 
-  constexpr void __set_controllersDidChangeReferenceEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_controllersDidChangeReferenceEvent(::System::Action* value);
 
-  constexpr ::System::Action*& __get_controllersDidDisconnectEvent();
+  constexpr ::System::Action*& __cordl_internal_get_controllersDidDisconnectEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_controllersDidDisconnectEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_controllersDidDisconnectEvent() const;
 
-  constexpr void __set_controllersDidDisconnectEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_controllersDidDisconnectEvent(::System::Action* value);
 
-  constexpr bool& __get__hasInputFocus();
+  constexpr bool& __cordl_internal_get__hasInputFocus();
 
-  constexpr bool const& __get__hasInputFocus() const;
+  constexpr bool const& __cordl_internal_get__hasInputFocus() const;
 
-  constexpr void __set__hasInputFocus(bool value);
+  constexpr void __cordl_internal_set__hasInputFocus(bool value);
 
-  constexpr bool& __get__hasVrFocus();
+  constexpr bool& __cordl_internal_get__hasVrFocus();
 
-  constexpr bool const& __get__hasVrFocus() const;
+  constexpr bool const& __cordl_internal_get__hasVrFocus() const;
 
-  constexpr void __set__hasVrFocus(bool value);
+  constexpr void __cordl_internal_set__hasVrFocus(bool value);
 
-  constexpr bool& __get__userPresent();
+  constexpr bool& __cordl_internal_get__userPresent();
 
-  constexpr bool const& __get__userPresent() const;
+  constexpr bool const& __cordl_internal_get__userPresent() const;
 
-  constexpr void __set__userPresent(bool value);
+  constexpr void __cordl_internal_set__userPresent(bool value);
 
-  constexpr ::UnityEngine::EventSystems::EventSystem*& __get__disabledEventSystem();
+  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem>& __cordl_internal_get__disabledEventSystem();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::EventSystems::EventSystem*> const& __get__disabledEventSystem() const;
+  constexpr ::UnityW<::UnityEngine::EventSystems::EventSystem> const& __cordl_internal_get__disabledEventSystem() const;
 
-  constexpr void __set__disabledEventSystem(::UnityEngine::EventSystems::EventSystem* value);
+  constexpr void __cordl_internal_set__disabledEventSystem(::UnityW<::UnityEngine::EventSystems::EventSystem> value);
 
   /// @brief Method add_inputFocusWasCapturedEvent, addr 0x20f7bf4, size 0x9c, virtual true, abstract: false, final true
   inline void add_inputFocusWasCapturedEvent(::System::Action* value);
@@ -369,7 +370,7 @@ public:
   bool ____userPresent;
 
   /// @brief Field _disabledEventSystem, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::EventSystems::EventSystem* ____disabledEventSystem;
+  ::UnityW<::UnityEngine::EventSystems::EventSystem> ____disabledEventSystem;
 
   /// @brief Field kVerticalLeftHand offset 0xffffffff size 0x8
   static constexpr ::ConstString kVerticalLeftHand{ u"VerticalLeftHand" };

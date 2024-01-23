@@ -97,7 +97,7 @@ MARK_VAL_T(::GlobalNamespace::__PerformancePresetHelper___IsPerformancePresetAva
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4446))
 // CS Name: ::PerformancePresetHelper::<>c*
 class CORDL_TYPE __PerformancePresetHelper____c : public ::System::Object {
@@ -107,22 +107,22 @@ public:
   static __declspec(property(get = getStaticF___9, put = setStaticF___9))::GlobalNamespace::__PerformancePresetHelper____c* __9;
 
   /// @brief Field <>9__3_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::System::Action_1<::UnityEngine::TextAsset*>* __9__3_0;
+  static __declspec(property(get = getStaticF___9__3_0, put = setStaticF___9__3_0))::System::Action_1<::UnityW<::UnityEngine::TextAsset>>* __9__3_0;
 
   /// @brief Field <>9__5_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__5_0, put = setStaticF___9__5_0))::System::Action_1<::UnityEngine::TextAsset*>* __9__5_0;
+  static __declspec(property(get = getStaticF___9__5_0, put = setStaticF___9__5_0))::System::Action_1<::UnityW<::UnityEngine::TextAsset>>* __9__5_0;
 
   static inline void setStaticF___9(::GlobalNamespace::__PerformancePresetHelper____c* value);
 
   static inline ::GlobalNamespace::__PerformancePresetHelper____c* getStaticF___9();
 
-  static inline void setStaticF___9__3_0(::System::Action_1<::UnityEngine::TextAsset*>* value);
+  static inline void setStaticF___9__3_0(::System::Action_1<::UnityW<::UnityEngine::TextAsset>>* value);
 
-  static inline ::System::Action_1<::UnityEngine::TextAsset*>* getStaticF___9__3_0();
+  static inline ::System::Action_1<::UnityW<::UnityEngine::TextAsset>>* getStaticF___9__3_0();
 
-  static inline void setStaticF___9__5_0(::System::Action_1<::UnityEngine::TextAsset*>* value);
+  static inline void setStaticF___9__5_0(::System::Action_1<::UnityW<::UnityEngine::TextAsset>>* value);
 
-  static inline ::System::Action_1<::UnityEngine::TextAsset*>* getStaticF___9__5_0();
+  static inline ::System::Action_1<::UnityW<::UnityEngine::TextAsset>>* getStaticF___9__5_0();
 
   static inline ::GlobalNamespace::__PerformancePresetHelper____c* New_ctor();
 
@@ -159,11 +159,11 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PerformancePr
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 857 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4443)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 866 }), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3843), inst: 896 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi:
-// TypeDefinitionIndex(3835), inst: 401 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 857 }), TypeDefinitionIndex(TypeDefinitionIndex(3843)),
-// TypeDefinitionIndex(TypeDefinitionIndex(10208)), TypeDefinitionIndex(TypeDefinitionIndex(14033))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4447)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3835)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3843)), TypeDefinitionIndex(TypeDefinitionIndex(4443)), TypeDefinitionIndex(TypeDefinitionIndex(10208)), TypeDefinitionIndex(TypeDefinitionIndex(14033)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 857 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 866 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 401 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3843), inst: 896 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 857 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4447)) CS Name:
 // ::PerformancePresetHelper::<GetAllPresetsForPlatformAsync>d__3
 struct CORDL_TYPE __PerformancePresetHelper___GetAllPresetsForPlatformAsync_d__3 {
 public:
@@ -183,13 +183,14 @@ public:
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::GlobalNamespace::PerformancePreset*>*>", modifiers: "", def_value: None }, CppParam { name:
   // "_keys_5__2", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: None }, CppParam { name: "_handle_5__3", ty:
-  // "::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::TextAsset*>*>", modifiers: "", def_value: None }, CppParam {
-  // name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityEngine::TextAsset*>*>", modifiers: "", def_value: None }]
+  // "::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*>", modifiers: "", def_value: None },
+  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*>", modifiers: "", def_value: None
+  // }]
   constexpr __PerformancePresetHelper___GetAllPresetsForPlatformAsync_d__3(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Collections::Generic::List_1<::GlobalNamespace::PerformancePreset*>*> __t__builder,
       ::System::Collections::Generic::List_1<::StringW>* _keys_5__2,
-      ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::TextAsset*>*> _handle_5__3,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityEngine::TextAsset*>*> __u__1) noexcept;
+      ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*> _handle_5__3,
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -205,10 +206,10 @@ public:
   ::System::Collections::Generic::List_1<::StringW>* _keys_5__2;
 
   /// @brief Field <handle>5__3, offset: 0x28, size: 0x20, def value: None
-  ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::TextAsset*>*> _handle_5__3;
+  ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*> _handle_5__3;
 
   /// @brief Field <>u__1, offset: 0x48, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityEngine::TextAsset*>*> __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*> __u__1;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -233,10 +234,10 @@ static_assert(offsetof(::GlobalNamespace::__PerformancePresetHelper___GetAllPres
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14021)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 793 }),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }), TypeDefinitionIndex(TypeDefinitionIndex(3402))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4448)) CS
-// Name: ::PerformancePresetHelper::<IsPerformancePresetAvailableAsync>d__4
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3835)),
+// TypeDefinitionIndex(TypeDefinitionIndex(14021)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 793 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 105 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4448)) CS Name:
+// ::PerformancePresetHelper::<IsPerformancePresetAvailableAsync>d__4
 struct CORDL_TYPE __PerformancePresetHelper___IsPerformancePresetAvailableAsync_d__4 {
 public:
   // Declarations
@@ -297,10 +298,10 @@ static_assert(offsetof(::GlobalNamespace::__PerformancePresetHelper___IsPerforma
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10208)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 857 }), GenericInstantiation(GenericInstantiation {
-// tdi: TypeDefinitionIndex(3835), inst: 401 }), TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 896 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(4443)), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 857 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4449)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(3835)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4443)), TypeDefinitionIndex(TypeDefinitionIndex(10208)), TypeDefinitionIndex(TypeDefinitionIndex(14033)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 857 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 896 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3835), inst: 401 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(14033), inst: 857 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4449)) CS Name:
 // ::PerformancePresetHelper::<GetPerformancePresetAsync>d__5
 struct CORDL_TYPE __PerformancePresetHelper___GetPerformancePresetAsync_d__5 {
 public:
@@ -320,13 +321,14 @@ public:
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::PerformancePreset*>", modifiers: "", def_value: None }, CppParam { name: "presetKey", ty: "::StringW", modifiers:
   // "", def_value: None }, CppParam { name: "_keys_5__2", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: None }, CppParam { name: "_handle_5__3", ty:
-  // "::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::TextAsset*>*>", modifiers: "", def_value: None }, CppParam {
-  // name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityEngine::TextAsset*>*>", modifiers: "", def_value: None }]
+  // "::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*>", modifiers: "", def_value: None },
+  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*>", modifiers: "", def_value: None
+  // }]
   constexpr __PerformancePresetHelper___GetPerformancePresetAsync_d__5(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::PerformancePreset*> __t__builder, ::StringW presetKey,
       ::System::Collections::Generic::List_1<::StringW>* _keys_5__2,
-      ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::TextAsset*>*> _handle_5__3,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityEngine::TextAsset*>*> __u__1) noexcept;
+      ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*> _handle_5__3,
+      ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*> __u__1) noexcept;
 
   // Ctor Parameters []
   // @brief default ctor
@@ -345,10 +347,10 @@ public:
   ::System::Collections::Generic::List_1<::StringW>* _keys_5__2;
 
   /// @brief Field <handle>5__3, offset: 0x30, size: 0x20, def value: None
-  ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::TextAsset*>*> _handle_5__3;
+  ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*> _handle_5__3;
 
   /// @brief Field <>u__1, offset: 0x50, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityEngine::TextAsset*>*> __u__1;
+  ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::TextAsset>>*> __u__1;
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -375,11 +377,11 @@ static_assert(offsetof(::GlobalNamespace::__PerformancePresetHelper___GetPerform
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 793 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3835), inst: 3200 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(14021)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2507), inst: 5315 }), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 896 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4443)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3835)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 870 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4450)) CS Name: ::PerformancePresetHelper::<GetDefaultPerformancePresetAsync>d__6
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2507)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(3835)), TypeDefinitionIndex(TypeDefinitionIndex(4443)), TypeDefinitionIndex(TypeDefinitionIndex(14021)), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(2507), inst: 5315 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 793 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3394), inst: 896 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 870 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3835), inst: 3200 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4450)) CS Name: ::PerformancePresetHelper::<GetDefaultPerformancePresetAsync>d__6
 struct CORDL_TYPE __PerformancePresetHelper___GetDefaultPerformancePresetAsync_d__6 {
 public:
   // Declarations
@@ -454,7 +456,7 @@ static_assert(offsetof(::GlobalNamespace::__PerformancePresetHelper___GetDefault
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4451))
 // CS Name: ::PerformancePresetHelper*
 class CORDL_TYPE PerformancePresetHelper : public ::System::Object {

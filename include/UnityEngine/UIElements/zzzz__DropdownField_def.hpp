@@ -87,29 +87,29 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__DropdownField____c__DisplayClass38_0
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7129)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7129), inst: 397 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7129)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7129), inst: 397 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7054))
 // CS Name: ::DropdownField::UxmlTraits*
 class CORDL_TYPE __DropdownField__UxmlTraits : public ::UnityEngine::UIElements::__BaseField_1__UxmlTraits<::StringW> {
 public:
   // Declarations
   /// @brief Field m_Index, offset 0x80, size 0x8
-  __declspec(property(get = __get_m_Index, put = __set_m_Index))::UnityEngine::UIElements::UxmlIntAttributeDescription* m_Index;
+  __declspec(property(get = __cordl_internal_get_m_Index, put = __cordl_internal_set_m_Index))::UnityEngine::UIElements::UxmlIntAttributeDescription* m_Index;
 
   /// @brief Field m_Choices, offset 0x88, size 0x8
-  __declspec(property(get = __get_m_Choices, put = __set_m_Choices))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Choices;
+  __declspec(property(get = __cordl_internal_get_m_Choices, put = __cordl_internal_set_m_Choices))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Choices;
 
-  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __get_m_Index();
+  constexpr ::UnityEngine::UIElements::UxmlIntAttributeDescription*& __cordl_internal_get_m_Index();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const& __get_m_Index() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlIntAttributeDescription*> const& __cordl_internal_get_m_Index() const;
 
-  constexpr void __set_m_Index(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Index(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_Choices();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Choices();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_Choices() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Choices() const;
 
-  constexpr void __set_m_Choices(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Choices(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
   /// @brief Method Init, addr 0x2e288e4, size 0x17c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
@@ -153,7 +153,7 @@ static_assert(offsetof(::UnityEngine::UIElements::__DropdownField__UxmlTraits, _
 // SizeInfo { instance_size: 1088, native_size: -1, calculated_instance_size: 1088, calculated_native_size: 1084, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7130)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 397 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7130)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(7130), inst: 397 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7057))
 // CS Name: ::UnityEngine.UIElements::DropdownField*
 class CORDL_TYPE DropdownField : public ::UnityEngine::UIElements::BaseField_1<::StringW> {
@@ -168,25 +168,26 @@ public:
   using UxmlFactory = ::UnityEngine::UIElements::__DropdownField__UxmlFactory;
 
   /// @brief Field m_Choices, offset 0x408, size 0x8
-  __declspec(property(get = __get_m_Choices, put = __set_m_Choices))::System::Collections::Generic::List_1<::StringW>* m_Choices;
+  __declspec(property(get = __cordl_internal_get_m_Choices, put = __cordl_internal_set_m_Choices))::System::Collections::Generic::List_1<::StringW>* m_Choices;
 
   /// @brief Field m_TextElement, offset 0x410, size 0x8
-  __declspec(property(get = __get_m_TextElement, put = __set_m_TextElement))::UnityEngine::UIElements::TextElement* m_TextElement;
+  __declspec(property(get = __cordl_internal_get_m_TextElement, put = __cordl_internal_set_m_TextElement))::UnityEngine::UIElements::TextElement* m_TextElement;
 
   /// @brief Field m_ArrowElement, offset 0x418, size 0x8
-  __declspec(property(get = __get_m_ArrowElement, put = __set_m_ArrowElement))::UnityEngine::UIElements::VisualElement* m_ArrowElement;
+  __declspec(property(get = __cordl_internal_get_m_ArrowElement, put = __cordl_internal_set_m_ArrowElement))::UnityEngine::UIElements::VisualElement* m_ArrowElement;
 
   /// @brief Field m_FormatSelectedValueCallback, offset 0x420, size 0x8
-  __declspec(property(get = __get_m_FormatSelectedValueCallback, put = __set_m_FormatSelectedValueCallback))::System::Func_2<::StringW, ::StringW>* m_FormatSelectedValueCallback;
+  __declspec(property(get = __cordl_internal_get_m_FormatSelectedValueCallback,
+                      put = __cordl_internal_set_m_FormatSelectedValueCallback))::System::Func_2<::StringW, ::StringW>* m_FormatSelectedValueCallback;
 
   /// @brief Field m_FormatListItemCallback, offset 0x428, size 0x8
-  __declspec(property(get = __get_m_FormatListItemCallback, put = __set_m_FormatListItemCallback))::System::Func_2<::StringW, ::StringW>* m_FormatListItemCallback;
+  __declspec(property(get = __cordl_internal_get_m_FormatListItemCallback, put = __cordl_internal_set_m_FormatListItemCallback))::System::Func_2<::StringW, ::StringW>* m_FormatListItemCallback;
 
   /// @brief Field createMenuCallback, offset 0x430, size 0x8
-  __declspec(property(get = __get_createMenuCallback, put = __set_createMenuCallback))::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* createMenuCallback;
+  __declspec(property(get = __cordl_internal_get_createMenuCallback, put = __cordl_internal_set_createMenuCallback))::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* createMenuCallback;
 
   /// @brief Field m_Index, offset 0x438, size 0x4
-  __declspec(property(get = __get_m_Index, put = __set_m_Index)) int32_t m_Index;
+  __declspec(property(get = __cordl_internal_get_m_Index, put = __cordl_internal_set_m_Index)) int32_t m_Index;
 
   /// @brief Field ussClassNameBasePopupField, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_ussClassNameBasePopupField, put = setStaticF_ussClassNameBasePopupField))::StringW ussClassNameBasePopupField;
@@ -220,47 +221,47 @@ public:
 
   __declspec(property(get = get_value, put = set_value))::StringW value;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_m_Choices();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_m_Choices();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_m_Choices() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_m_Choices() const;
 
-  constexpr void __set_m_Choices(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_m_Choices(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::UnityEngine::UIElements::TextElement*& __get_m_TextElement();
+  constexpr ::UnityEngine::UIElements::TextElement*& __cordl_internal_get_m_TextElement();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextElement*> const& __get_m_TextElement() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::TextElement*> const& __cordl_internal_get_m_TextElement() const;
 
-  constexpr void __set_m_TextElement(::UnityEngine::UIElements::TextElement* value);
+  constexpr void __cordl_internal_set_m_TextElement(::UnityEngine::UIElements::TextElement* value);
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __get_m_ArrowElement();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_ArrowElement();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __get_m_ArrowElement() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_ArrowElement() const;
 
-  constexpr void __set_m_ArrowElement(::UnityEngine::UIElements::VisualElement* value);
+  constexpr void __cordl_internal_set_m_ArrowElement(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::System::Func_2<::StringW, ::StringW>*& __get_m_FormatSelectedValueCallback();
+  constexpr ::System::Func_2<::StringW, ::StringW>*& __cordl_internal_get_m_FormatSelectedValueCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::StringW, ::StringW>*> const& __get_m_FormatSelectedValueCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::StringW, ::StringW>*> const& __cordl_internal_get_m_FormatSelectedValueCallback() const;
 
-  constexpr void __set_m_FormatSelectedValueCallback(::System::Func_2<::StringW, ::StringW>* value);
+  constexpr void __cordl_internal_set_m_FormatSelectedValueCallback(::System::Func_2<::StringW, ::StringW>* value);
 
-  constexpr ::System::Func_2<::StringW, ::StringW>*& __get_m_FormatListItemCallback();
+  constexpr ::System::Func_2<::StringW, ::StringW>*& __cordl_internal_get_m_FormatListItemCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::StringW, ::StringW>*> const& __get_m_FormatListItemCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::StringW, ::StringW>*> const& __cordl_internal_get_m_FormatListItemCallback() const;
 
-  constexpr void __set_m_FormatListItemCallback(::System::Func_2<::StringW, ::StringW>* value);
+  constexpr void __cordl_internal_set_m_FormatListItemCallback(::System::Func_2<::StringW, ::StringW>* value);
 
-  constexpr ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>*& __get_createMenuCallback();
+  constexpr ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>*& __cordl_internal_get_createMenuCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>*> const& __get_createMenuCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>*> const& __cordl_internal_get_createMenuCallback() const;
 
-  constexpr void __set_createMenuCallback(::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* value);
+  constexpr void __cordl_internal_set_createMenuCallback(::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* value);
 
-  constexpr int32_t& __get_m_Index();
+  constexpr int32_t& __cordl_internal_get_m_Index();
 
-  constexpr int32_t const& __get_m_Index() const;
+  constexpr int32_t const& __cordl_internal_get_m_Index() const;
 
-  constexpr void __set_m_Index(int32_t value);
+  constexpr void __cordl_internal_set_m_Index(int32_t value);
 
   static inline void setStaticF_ussClassNameBasePopupField(::StringW value);
 
@@ -402,8 +403,8 @@ static_assert(offsetof(::UnityEngine::UIElements::DropdownField, ___m_Index) == 
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7054)), TypeDefinitionIndex(TypeDefinitionIndex(7057)),
-// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5259 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(7053)) CS Name: ::DropdownField::UxmlFactory*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6997)), TypeDefinitionIndex(TypeDefinitionIndex(7054)), TypeDefinitionIndex(TypeDefinitionIndex(7057)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(6997), inst: 5259 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(7053)) CS Name: ::DropdownField::UxmlFactory*
 class CORDL_TYPE __DropdownField__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::DropdownField*, ::UnityEngine::UIElements::__DropdownField__UxmlTraits*> {
 public:
   // Declarations
@@ -436,7 +437,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Dropd
 // SizeInfo { instance_size: 1144, native_size: -1, calculated_instance_size: 1144, calculated_native_size: 1140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6814))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6814))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7055))
 // CS Name: ::DropdownField::PopupTextElement*
 class CORDL_TYPE __DropdownField__PopupTextElement : public ::UnityEngine::UIElements::TextElement {
@@ -475,29 +476,29 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__Dropd
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7056))
 // CS Name: ::DropdownField::<>c__DisplayClass38_0*
 class CORDL_TYPE __DropdownField____c__DisplayClass38_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field item, offset 0x10, size 0x8
-  __declspec(property(get = __get_item, put = __set_item))::StringW item;
+  __declspec(property(get = __cordl_internal_get_item, put = __cordl_internal_set_item))::StringW item;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::UnityEngine::UIElements::DropdownField* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityEngine::UIElements::DropdownField* __4__this;
 
-  constexpr ::StringW& __get_item();
+  constexpr ::StringW& __cordl_internal_get_item();
 
-  constexpr ::StringW const& __get_item() const;
+  constexpr ::StringW const& __cordl_internal_get_item() const;
 
-  constexpr void __set_item(::StringW value);
+  constexpr void __cordl_internal_set_item(::StringW value);
 
-  constexpr ::UnityEngine::UIElements::DropdownField*& __get___4__this();
+  constexpr ::UnityEngine::UIElements::DropdownField*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DropdownField*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::DropdownField*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::UnityEngine::UIElements::DropdownField* value);
+  constexpr void __cordl_internal_set___4__this(::UnityEngine::UIElements::DropdownField* value);
 
   static inline ::UnityEngine::UIElements::__DropdownField____c__DisplayClass38_0* New_ctor();
 

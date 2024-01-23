@@ -15,7 +15,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Crmf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(123))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(123))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(124))
 // CS Name: ::Org.BouncyCastle.Asn1.Crmf::SubsequentMessage*
 class CORDL_TYPE SubsequentMessage : public ::Org::BouncyCastle::Asn1::DerInteger {

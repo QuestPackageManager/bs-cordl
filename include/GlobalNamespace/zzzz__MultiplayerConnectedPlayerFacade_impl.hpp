@@ -17,42 +17,42 @@
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerConnectedPlayerFacade.get_introAnimator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator> (
     ::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(&::GlobalNamespace::MultiplayerConnectedPlayerFacade::get_introAnimator)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23d4b40;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                               "get_introAnimator", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_introAnimator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerConnectedPlayerFacade.get_outroAnimator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GameObject* (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade::get_outroAnimator)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23d4b48;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                               "get_outroAnimator", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_outroAnimator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerConnectedPlayerFacade.get_scoreDiffText
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerScoreDiffText* (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade::get_scoreDiffText)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23d4b50;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                               "get_scoreDiffText", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_scoreDiffText", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -64,10 +64,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x18;
   constexpr static std::size_t addrs = 0x23d4b58;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(), "SetSongStartSyncTime",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(), "SetSongStartSyncTime",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
@@ -79,9 +79,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x23d4cc4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                               "PauseSpawning", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "PauseSpawning", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -93,9 +93,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xa4;
   constexpr static std::size_t addrs = 0x23d4d68;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                               "ResumeSpawning", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "ResumeSpawning", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -107,9 +107,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x34;
   constexpr static std::size_t addrs = 0x23d4e0c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                               "__ForceStopSong", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "__ForceStopSong", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -121,23 +121,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x90;
   constexpr static std::size_t addrs = 0x23d4e4c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                               "HideBigAvatar", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "HideBigAvatar", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerConnectedPlayerFacade.__GetPlayerAvatar
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::AvatarCore::Avatar* (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::BeatSaber::AvatarCore::Avatar> (::GlobalNamespace::MultiplayerConnectedPlayerFacade::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerFacade::__GetPlayerAvatar)> {
   constexpr static std::size_t size = 0x4c;
   constexpr static std::size_t addrs = 0x23d4edc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                               "__GetPlayerAvatar", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "__GetPlayerAvatar", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -149,174 +149,173 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x14;
   constexpr static std::size_t addrs = 0x23d4f28;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::GameObject*& GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__outroAnimator() {
+constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__outroAnimator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____outroAnimator;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__outroAnimator() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__outroAnimator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____outroAnimator;
 }
-constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__set__outroAnimator(::UnityEngine::GameObject* value) {
+constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_set__outroAnimator(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____outroAnimator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerBigAvatarAnimator*& GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__bigAvatarAnimator() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerBigAvatarAnimator>& GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__bigAvatarAnimator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bigAvatarAnimator;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerBigAvatarAnimator*> const& GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__bigAvatarAnimator() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerBigAvatarAnimator> const& GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__bigAvatarAnimator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bigAvatarAnimator;
 }
-constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__set__bigAvatarAnimator(::GlobalNamespace::MultiplayerBigAvatarAnimator* value) {
+constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_set__bigAvatarAnimator(::UnityW<::GlobalNamespace::MultiplayerBigAvatarAnimator> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bigAvatarAnimator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__bigAvatarDisappearDuration() {
+constexpr float_t& GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__bigAvatarDisappearDuration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bigAvatarDisappearDuration;
 }
-constexpr float_t const& GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__bigAvatarDisappearDuration() const {
+constexpr float_t const& GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__bigAvatarDisappearDuration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bigAvatarDisappearDuration;
 }
-constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__set__bigAvatarDisappearDuration(float_t value) {
+constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_set__bigAvatarDisappearDuration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bigAvatarDisappearDuration = value;
 }
-constexpr ::GlobalNamespace::EaseType& GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__bigAvatarDisappearEasing() {
+constexpr ::GlobalNamespace::EaseType& GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__bigAvatarDisappearEasing() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bigAvatarDisappearEasing;
 }
-constexpr ::GlobalNamespace::EaseType const& GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__bigAvatarDisappearEasing() const {
+constexpr ::GlobalNamespace::EaseType const& GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__bigAvatarDisappearEasing() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bigAvatarDisappearEasing;
 }
-constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__set__bigAvatarDisappearEasing(::GlobalNamespace::EaseType value) {
+constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_set__bigAvatarDisappearEasing(::GlobalNamespace::EaseType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____bigAvatarDisappearEasing = value;
 }
-constexpr ::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*& GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__songTimeSyncController() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController>& GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__songTimeSyncController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTimeSyncController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController*> const&
-GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__songTimeSyncController() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController> const& GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__songTimeSyncController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songTimeSyncController;
 }
-constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__set__songTimeSyncController(::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController* value) {
+constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_set__songTimeSyncController(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerSongTimeSyncController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songTimeSyncController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator*& GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__introAnimator() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator>& GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__introAnimator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____introAnimator;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator*> const& GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__introAnimator() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator> const& GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__introAnimator() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____introAnimator;
 }
-constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__set__introAnimator(::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* value) {
+constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_set__introAnimator(::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____introAnimator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapObjectManager*& GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__beatmapObjectManager() {
+constexpr ::GlobalNamespace::BeatmapObjectManager*& GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__beatmapObjectManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__beatmapObjectManager() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__beatmapObjectManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectManager;
 }
-constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value) {
+constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapObjectManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MultiplayerScoreDiffText*& GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__scoreDiffText() {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreDiffText>& GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__scoreDiffText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreDiffText;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MultiplayerScoreDiffText*> const& GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__scoreDiffText() const {
+constexpr ::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> const& GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__scoreDiffText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scoreDiffText;
 }
-constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__set__scoreDiffText(::GlobalNamespace::MultiplayerScoreDiffText* value) {
+constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_set__scoreDiffText(::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scoreDiffText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__beatmapObjectEventManager() {
+constexpr ::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*& GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__beatmapObjectEventManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectEventManager;
 }
 constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager*> const&
-GlobalNamespace::MultiplayerConnectedPlayerFacade::__get__beatmapObjectEventManager() const {
+GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_get__beatmapObjectEventManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapObjectEventManager;
 }
-constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__set__beatmapObjectEventManager(::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* value) {
+constexpr void GlobalNamespace::MultiplayerConnectedPlayerFacade::__cordl_internal_set__beatmapObjectEventManager(::GlobalNamespace::IConnectedPlayerBeatmapObjectEventManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapObjectEventManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator* GlobalNamespace::MultiplayerConnectedPlayerFacade::get_introAnimator() {
+inline ::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator> GlobalNamespace::MultiplayerConnectedPlayerFacade::get_introAnimator() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                             "get_introAnimator", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator*, false>(this, ___internal_method);
+                                                                             "get_introAnimator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator>, false>(this, ___internal_method);
 }
-inline ::UnityEngine::GameObject* GlobalNamespace::MultiplayerConnectedPlayerFacade::get_outroAnimator() {
+inline ::UnityW<::UnityEngine::GameObject> GlobalNamespace::MultiplayerConnectedPlayerFacade::get_outroAnimator() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                             "get_outroAnimator", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::GameObject*, false>(this, ___internal_method);
+                                                                             "get_outroAnimator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::MultiplayerScoreDiffText* GlobalNamespace::MultiplayerConnectedPlayerFacade::get_scoreDiffText() {
+inline ::UnityW<::GlobalNamespace::MultiplayerScoreDiffText> GlobalNamespace::MultiplayerConnectedPlayerFacade::get_scoreDiffText() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                             "get_scoreDiffText", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MultiplayerScoreDiffText*, false>(this, ___internal_method);
+                                                                             "get_scoreDiffText", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::MultiplayerScoreDiffText>, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MultiplayerConnectedPlayerFacade::SetSongStartSyncTime(int64_t songStartSyncTime) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(), "SetSongStartSyncTime",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, songStartSyncTime);
 }
 inline void GlobalNamespace::MultiplayerConnectedPlayerFacade::PauseSpawning() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                             "PauseSpawning", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "PauseSpawning", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MultiplayerConnectedPlayerFacade::ResumeSpawning() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                             "ResumeSpawning", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "ResumeSpawning", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MultiplayerConnectedPlayerFacade::__ForceStopSong() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                             "__ForceStopSong", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "__ForceStopSong", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MultiplayerConnectedPlayerFacade::HideBigAvatar() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                             "HideBigAvatar", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "HideBigAvatar", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::BeatSaber::AvatarCore::Avatar* GlobalNamespace::MultiplayerConnectedPlayerFacade::__GetPlayerAvatar() {
+inline ::UnityW<::BeatSaber::AvatarCore::Avatar> GlobalNamespace::MultiplayerConnectedPlayerFacade::__GetPlayerAvatar() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                             "__GetPlayerAvatar", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
-  return ::cordl_internals::RunMethodRethrow<::BeatSaber::AvatarCore::Avatar*, false>(this, ___internal_method);
+                                                                             "__GetPlayerAvatar", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::BeatSaber::AvatarCore::Avatar>, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::MultiplayerConnectedPlayerFacade* GlobalNamespace::MultiplayerConnectedPlayerFacade::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>());
 }
 inline void GlobalNamespace::MultiplayerConnectedPlayerFacade::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerConnectedPlayerFacade*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
@@ -329,20 +328,20 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x48;
   constexpr static std::size_t addrs = 0x23d4f3c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory*>::get(), ".ctor",
-                                                 std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
 inline ::GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory* GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory*>());
 }
 inline void GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MultiplayerConnectedPlayerFacade__Factory*>::get(), ".ctor",
-                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

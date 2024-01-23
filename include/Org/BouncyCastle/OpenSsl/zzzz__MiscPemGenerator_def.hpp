@@ -33,23 +33,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::OpenSsl::MiscPemGenerator);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::OpenSsl {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1682))
 // CS Name: ::Org.BouncyCastle.OpenSsl::MiscPemGenerator*
 class CORDL_TYPE MiscPemGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field obj, offset 0x10, size 0x8
-  __declspec(property(get = __get_obj, put = __set_obj))::System::Object* obj;
+  __declspec(property(get = __cordl_internal_get_obj, put = __cordl_internal_set_obj))::System::Object* obj;
 
   /// @brief Field algorithm, offset 0x18, size 0x8
-  __declspec(property(get = __get_algorithm, put = __set_algorithm))::StringW algorithm;
+  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::StringW algorithm;
 
   /// @brief Field password, offset 0x20, size 0x8
-  __declspec(property(get = __get_password, put = __set_password))::ArrayW<char16_t, ::Array<char16_t>*> password;
+  __declspec(property(get = __cordl_internal_get_password, put = __cordl_internal_set_password))::ArrayW<char16_t, ::Array<char16_t>*> password;
 
   /// @brief Field random, offset 0x28, size 0x8
-  __declspec(property(get = __get_random, put = __set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
   constexpr operator ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*() noexcept;
@@ -57,29 +57,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
   constexpr ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator* i___Org__BouncyCastle__Utilities__IO__Pem__PemObjectGenerator() noexcept;
 
-  constexpr ::System::Object*& __get_obj();
+  constexpr ::System::Object*& __cordl_internal_get_obj();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_obj() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_obj() const;
 
-  constexpr void __set_obj(::System::Object* value);
+  constexpr void __cordl_internal_set_obj(::System::Object* value);
 
-  constexpr ::StringW& __get_algorithm();
+  constexpr ::StringW& __cordl_internal_get_algorithm();
 
-  constexpr ::StringW const& __get_algorithm() const;
+  constexpr ::StringW const& __cordl_internal_get_algorithm() const;
 
-  constexpr void __set_algorithm(::StringW value);
+  constexpr void __cordl_internal_set_algorithm(::StringW value);
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __get_password();
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get_password();
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __get_password() const;
+  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get_password() const;
 
-  constexpr void __set_password(::ArrayW<char16_t, ::Array<char16_t>*> value);
+  constexpr void __cordl_internal_set_password(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __get_random();
+  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __get_random() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
-  constexpr void __set_random(::Org::BouncyCastle::Security::SecureRandom* value);
+  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
   static inline ::Org::BouncyCastle::OpenSsl::MiscPemGenerator* New_ctor(::System::Object* obj);
 

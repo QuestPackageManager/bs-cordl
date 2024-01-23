@@ -28,59 +28,59 @@ MARK_REF_PTR_T(::GlobalNamespace::CreditsContent);
 // SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5470))
 // CS Name: ::CreditsContent*
 class CORDL_TYPE CreditsContent : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _normalTextPrefab, offset 0x18, size 0x8
-  __declspec(property(get = __get__normalTextPrefab, put = __set__normalTextPrefab))::UnityEngine::GameObject* _normalTextPrefab;
+  __declspec(property(get = __cordl_internal_get__normalTextPrefab, put = __cordl_internal_set__normalTextPrefab))::UnityW<::UnityEngine::GameObject> _normalTextPrefab;
 
   /// @brief Field _normalLocalizedTextPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __get__normalLocalizedTextPrefab, put = __set__normalLocalizedTextPrefab))::UnityEngine::GameObject* _normalLocalizedTextPrefab;
+  __declspec(property(get = __cordl_internal_get__normalLocalizedTextPrefab, put = __cordl_internal_set__normalLocalizedTextPrefab))::UnityW<::UnityEngine::GameObject> _normalLocalizedTextPrefab;
 
   /// @brief Field _titleTextPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __get__titleTextPrefab, put = __set__titleTextPrefab))::UnityEngine::GameObject* _titleTextPrefab;
+  __declspec(property(get = __cordl_internal_get__titleTextPrefab, put = __cordl_internal_set__titleTextPrefab))::UnityW<::UnityEngine::GameObject> _titleTextPrefab;
 
   /// @brief Field _titleLocalizedTextPrefab, offset 0x30, size 0x8
-  __declspec(property(get = __get__titleLocalizedTextPrefab, put = __set__titleLocalizedTextPrefab))::UnityEngine::GameObject* _titleLocalizedTextPrefab;
+  __declspec(property(get = __cordl_internal_get__titleLocalizedTextPrefab, put = __cordl_internal_set__titleLocalizedTextPrefab))::UnityW<::UnityEngine::GameObject> _titleLocalizedTextPrefab;
 
   /// @brief Field _headerTextPrefab, offset 0x38, size 0x8
-  __declspec(property(get = __get__headerTextPrefab, put = __set__headerTextPrefab))::UnityEngine::GameObject* _headerTextPrefab;
+  __declspec(property(get = __cordl_internal_get__headerTextPrefab, put = __cordl_internal_set__headerTextPrefab))::UnityW<::UnityEngine::GameObject> _headerTextPrefab;
 
   /// @brief Field _headerLocalizedTextPrefab, offset 0x40, size 0x8
-  __declspec(property(get = __get__headerLocalizedTextPrefab, put = __set__headerLocalizedTextPrefab))::UnityEngine::GameObject* _headerLocalizedTextPrefab;
+  __declspec(property(get = __cordl_internal_get__headerLocalizedTextPrefab, put = __cordl_internal_set__headerLocalizedTextPrefab))::UnityW<::UnityEngine::GameObject> _headerLocalizedTextPrefab;
 
   /// @brief Field _columnCount, offset 0x48, size 0x4
-  __declspec(property(get = __get__columnCount, put = __set__columnCount)) int32_t _columnCount;
+  __declspec(property(get = __cordl_internal_get__columnCount, put = __cordl_internal_set__columnCount)) int32_t _columnCount;
 
   /// @brief Field _spaceHeight, offset 0x4c, size 0x4
-  __declspec(property(get = __get__spaceHeight, put = __set__spaceHeight)) float_t _spaceHeight;
+  __declspec(property(get = __cordl_internal_get__spaceHeight, put = __cordl_internal_set__spaceHeight)) float_t _spaceHeight;
 
   /// @brief Field _titleHeight, offset 0x50, size 0x4
-  __declspec(property(get = __get__titleHeight, put = __set__titleHeight)) float_t _titleHeight;
+  __declspec(property(get = __cordl_internal_get__titleHeight, put = __cordl_internal_set__titleHeight)) float_t _titleHeight;
 
   /// @brief Field _contentRoot, offset 0x58, size 0x8
-  __declspec(property(get = __get__contentRoot, put = __set__contentRoot))::UnityEngine::Transform* _contentRoot;
+  __declspec(property(get = __cordl_internal_get__contentRoot, put = __cordl_internal_set__contentRoot))::UnityW<::UnityEngine::Transform> _contentRoot;
 
   /// @brief Field _rootRectTransform, offset 0x60, size 0x8
-  __declspec(property(get = __get__rootRectTransform, put = __set__rootRectTransform))::UnityEngine::RectTransform* _rootRectTransform;
+  __declspec(property(get = __cordl_internal_get__rootRectTransform, put = __cordl_internal_set__rootRectTransform))::UnityW<::UnityEngine::RectTransform> _rootRectTransform;
 
   /// @brief Field _creditsContentTextAsset, offset 0x68, size 0x8
-  __declspec(property(get = __get__creditsContentTextAsset, put = __set__creditsContentTextAsset))::UnityEngine::TextAsset* _creditsContentTextAsset;
+  __declspec(property(get = __cordl_internal_get__creditsContentTextAsset, put = __cordl_internal_set__creditsContentTextAsset))::UnityW<::UnityEngine::TextAsset> _creditsContentTextAsset;
 
-  __declspec(property(get = get_normalTextPrefab))::UnityEngine::GameObject* normalTextPrefab;
+  __declspec(property(get = get_normalTextPrefab))::UnityW<::UnityEngine::GameObject> normalTextPrefab;
 
-  __declspec(property(get = get_normalLocalizedTextPrefab))::UnityEngine::GameObject* normalLocalizedTextPrefab;
+  __declspec(property(get = get_normalLocalizedTextPrefab))::UnityW<::UnityEngine::GameObject> normalLocalizedTextPrefab;
 
-  __declspec(property(get = get_titleTextPrefab))::UnityEngine::GameObject* titleTextPrefab;
+  __declspec(property(get = get_titleTextPrefab))::UnityW<::UnityEngine::GameObject> titleTextPrefab;
 
-  __declspec(property(get = get_titleLocalizedTextPrefab))::UnityEngine::GameObject* titleLocalizedTextPrefab;
+  __declspec(property(get = get_titleLocalizedTextPrefab))::UnityW<::UnityEngine::GameObject> titleLocalizedTextPrefab;
 
-  __declspec(property(get = get_headerTextPrefab))::UnityEngine::GameObject* headerTextPrefab;
+  __declspec(property(get = get_headerTextPrefab))::UnityW<::UnityEngine::GameObject> headerTextPrefab;
 
-  __declspec(property(get = get_headerLocalizedTextPrefab))::UnityEngine::GameObject* headerLocalizedTextPrefab;
+  __declspec(property(get = get_headerLocalizedTextPrefab))::UnityW<::UnityEngine::GameObject> headerLocalizedTextPrefab;
 
   __declspec(property(get = get_columnCount)) int32_t columnCount;
 
@@ -88,101 +88,101 @@ public:
 
   __declspec(property(get = get_titleHeight)) float_t titleHeight;
 
-  __declspec(property(get = get_contentRoot))::UnityEngine::Transform* contentRoot;
+  __declspec(property(get = get_contentRoot))::UnityW<::UnityEngine::Transform> contentRoot;
 
-  __declspec(property(get = get_rootRectTransform))::UnityEngine::RectTransform* rootRectTransform;
+  __declspec(property(get = get_rootRectTransform))::UnityW<::UnityEngine::RectTransform> rootRectTransform;
 
-  __declspec(property(get = get_creditsContentTextAsset))::UnityEngine::TextAsset* creditsContentTextAsset;
+  __declspec(property(get = get_creditsContentTextAsset))::UnityW<::UnityEngine::TextAsset> creditsContentTextAsset;
 
-  constexpr ::UnityEngine::GameObject*& __get__normalTextPrefab();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__normalTextPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__normalTextPrefab() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__normalTextPrefab() const;
 
-  constexpr void __set__normalTextPrefab(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__normalTextPrefab(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__normalLocalizedTextPrefab();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__normalLocalizedTextPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__normalLocalizedTextPrefab() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__normalLocalizedTextPrefab() const;
 
-  constexpr void __set__normalLocalizedTextPrefab(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__normalLocalizedTextPrefab(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__titleTextPrefab();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__titleTextPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__titleTextPrefab() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__titleTextPrefab() const;
 
-  constexpr void __set__titleTextPrefab(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__titleTextPrefab(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__titleLocalizedTextPrefab();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__titleLocalizedTextPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__titleLocalizedTextPrefab() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__titleLocalizedTextPrefab() const;
 
-  constexpr void __set__titleLocalizedTextPrefab(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__titleLocalizedTextPrefab(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__headerTextPrefab();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__headerTextPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__headerTextPrefab() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__headerTextPrefab() const;
 
-  constexpr void __set__headerTextPrefab(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__headerTextPrefab(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__headerLocalizedTextPrefab();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__headerLocalizedTextPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__headerLocalizedTextPrefab() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__headerLocalizedTextPrefab() const;
 
-  constexpr void __set__headerLocalizedTextPrefab(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__headerLocalizedTextPrefab(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr int32_t& __get__columnCount();
+  constexpr int32_t& __cordl_internal_get__columnCount();
 
-  constexpr int32_t const& __get__columnCount() const;
+  constexpr int32_t const& __cordl_internal_get__columnCount() const;
 
-  constexpr void __set__columnCount(int32_t value);
+  constexpr void __cordl_internal_set__columnCount(int32_t value);
 
-  constexpr float_t& __get__spaceHeight();
+  constexpr float_t& __cordl_internal_get__spaceHeight();
 
-  constexpr float_t const& __get__spaceHeight() const;
+  constexpr float_t const& __cordl_internal_get__spaceHeight() const;
 
-  constexpr void __set__spaceHeight(float_t value);
+  constexpr void __cordl_internal_set__spaceHeight(float_t value);
 
-  constexpr float_t& __get__titleHeight();
+  constexpr float_t& __cordl_internal_get__titleHeight();
 
-  constexpr float_t const& __get__titleHeight() const;
+  constexpr float_t const& __cordl_internal_get__titleHeight() const;
 
-  constexpr void __set__titleHeight(float_t value);
+  constexpr void __cordl_internal_set__titleHeight(float_t value);
 
-  constexpr ::UnityEngine::Transform*& __get__contentRoot();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__contentRoot();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__contentRoot() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__contentRoot() const;
 
-  constexpr void __set__contentRoot(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__contentRoot(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::RectTransform*& __get__rootRectTransform();
+  constexpr ::UnityW<::UnityEngine::RectTransform>& __cordl_internal_get__rootRectTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RectTransform*> const& __get__rootRectTransform() const;
+  constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rootRectTransform() const;
 
-  constexpr void __set__rootRectTransform(::UnityEngine::RectTransform* value);
+  constexpr void __cordl_internal_set__rootRectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  constexpr ::UnityEngine::TextAsset*& __get__creditsContentTextAsset();
+  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get__creditsContentTextAsset();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::TextAsset*> const& __get__creditsContentTextAsset() const;
+  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get__creditsContentTextAsset() const;
 
-  constexpr void __set__creditsContentTextAsset(::UnityEngine::TextAsset* value);
+  constexpr void __cordl_internal_set__creditsContentTextAsset(::UnityW<::UnityEngine::TextAsset> value);
 
   /// @brief Method get_normalTextPrefab, addr 0x228297c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_normalTextPrefab();
+  inline ::UnityW<::UnityEngine::GameObject> get_normalTextPrefab();
 
   /// @brief Method get_normalLocalizedTextPrefab, addr 0x2282984, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_normalLocalizedTextPrefab();
+  inline ::UnityW<::UnityEngine::GameObject> get_normalLocalizedTextPrefab();
 
   /// @brief Method get_titleTextPrefab, addr 0x228298c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_titleTextPrefab();
+  inline ::UnityW<::UnityEngine::GameObject> get_titleTextPrefab();
 
   /// @brief Method get_titleLocalizedTextPrefab, addr 0x2282994, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_titleLocalizedTextPrefab();
+  inline ::UnityW<::UnityEngine::GameObject> get_titleLocalizedTextPrefab();
 
   /// @brief Method get_headerTextPrefab, addr 0x228299c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_headerTextPrefab();
+  inline ::UnityW<::UnityEngine::GameObject> get_headerTextPrefab();
 
   /// @brief Method get_headerLocalizedTextPrefab, addr 0x22829a4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::GameObject* get_headerLocalizedTextPrefab();
+  inline ::UnityW<::UnityEngine::GameObject> get_headerLocalizedTextPrefab();
 
   /// @brief Method get_columnCount, addr 0x22829ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_columnCount();
@@ -194,13 +194,13 @@ public:
   inline float_t get_titleHeight();
 
   /// @brief Method get_contentRoot, addr 0x22829c4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Transform* get_contentRoot();
+  inline ::UnityW<::UnityEngine::Transform> get_contentRoot();
 
   /// @brief Method get_rootRectTransform, addr 0x22829cc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::RectTransform* get_rootRectTransform();
+  inline ::UnityW<::UnityEngine::RectTransform> get_rootRectTransform();
 
   /// @brief Method get_creditsContentTextAsset, addr 0x22829d4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextAsset* get_creditsContentTextAsset();
+  inline ::UnityW<::UnityEngine::TextAsset> get_creditsContentTextAsset();
 
   static inline ::GlobalNamespace::CreditsContent* New_ctor();
 
@@ -222,22 +222,22 @@ protected:
 
 public:
   /// @brief Field _normalTextPrefab, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____normalTextPrefab;
+  ::UnityW<::UnityEngine::GameObject> ____normalTextPrefab;
 
   /// @brief Field _normalLocalizedTextPrefab, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____normalLocalizedTextPrefab;
+  ::UnityW<::UnityEngine::GameObject> ____normalLocalizedTextPrefab;
 
   /// @brief Field _titleTextPrefab, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____titleTextPrefab;
+  ::UnityW<::UnityEngine::GameObject> ____titleTextPrefab;
 
   /// @brief Field _titleLocalizedTextPrefab, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____titleLocalizedTextPrefab;
+  ::UnityW<::UnityEngine::GameObject> ____titleLocalizedTextPrefab;
 
   /// @brief Field _headerTextPrefab, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____headerTextPrefab;
+  ::UnityW<::UnityEngine::GameObject> ____headerTextPrefab;
 
   /// @brief Field _headerLocalizedTextPrefab, offset: 0x40, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____headerLocalizedTextPrefab;
+  ::UnityW<::UnityEngine::GameObject> ____headerLocalizedTextPrefab;
 
   /// @brief Field _columnCount, offset: 0x48, size: 0x4, def value: None
   int32_t ____columnCount;
@@ -249,13 +249,13 @@ public:
   float_t ____titleHeight;
 
   /// @brief Field _contentRoot, offset: 0x58, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____contentRoot;
+  ::UnityW<::UnityEngine::Transform> ____contentRoot;
 
   /// @brief Field _rootRectTransform, offset: 0x60, size: 0x8, def value: None
-  ::UnityEngine::RectTransform* ____rootRectTransform;
+  ::UnityW<::UnityEngine::RectTransform> ____rootRectTransform;
 
   /// @brief Field _creditsContentTextAsset, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::TextAsset* ____creditsContentTextAsset;
+  ::UnityW<::UnityEngine::TextAsset> ____creditsContentTextAsset;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

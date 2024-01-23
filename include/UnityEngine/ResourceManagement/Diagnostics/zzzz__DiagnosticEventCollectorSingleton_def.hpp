@@ -47,7 +47,7 @@ MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Diagnostics::__DiagnosticEvent
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Diagnostics {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14025))
 // CS Name: ::DiagnosticEventCollectorSingleton::<>c*
 class CORDL_TYPE __DiagnosticEventCollectorSingleton____c : public ::System::Object {
@@ -109,73 +109,77 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement:
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ResourceManagement::Diagnostics {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst: 1061 }), TypeDefinitionIndex(TypeDefinitionIndex(2406)),
-// TypeDefinitionIndex(TypeDefinitionIndex(13966))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14026)) CS Name: ::UnityEngine.ResourceManagement.Diagnostics::DiagnosticEventCollectorSingleton*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2406)), TypeDefinitionIndex(TypeDefinitionIndex(13966)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(13966), inst:
+// 1061 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14026)) CS Name: ::UnityEngine.ResourceManagement.Diagnostics::DiagnosticEventCollectorSingleton*
 class CORDL_TYPE DiagnosticEventCollectorSingleton
-    : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton*> {
+    : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::UnityW<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEventCollectorSingleton>> {
 public:
   // Declarations
   using __c = ::UnityEngine::ResourceManagement::Diagnostics::__DiagnosticEventCollectorSingleton____c;
 
   /// @brief Field m_CreatedEvents, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_CreatedEvents,
-                      put = __set_m_CreatedEvents))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* m_CreatedEvents;
+  __declspec(
+      property(get = __cordl_internal_get_m_CreatedEvents,
+               put = __cordl_internal_set_m_CreatedEvents))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* m_CreatedEvents;
 
   /// @brief Field m_UnhandledEvents, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_UnhandledEvents,
-                      put = __set_m_UnhandledEvents))::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* m_UnhandledEvents;
+  __declspec(property(get = __cordl_internal_get_m_UnhandledEvents,
+                      put = __cordl_internal_set_m_UnhandledEvents))::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* m_UnhandledEvents;
 
   /// @brief Field s_EventHandlers, offset 0x28, size 0x8
-  __declspec(property(get = __get_s_EventHandlers, put = __set_s_EventHandlers))::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* s_EventHandlers;
+  __declspec(property(get = __cordl_internal_get_s_EventHandlers,
+                      put = __cordl_internal_set_s_EventHandlers))::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* s_EventHandlers;
 
   /// @brief Field m_lastTickSent, offset 0x30, size 0x4
-  __declspec(property(get = __get_m_lastTickSent, put = __set_m_lastTickSent)) float_t m_lastTickSent;
+  __declspec(property(get = __cordl_internal_get_m_lastTickSent, put = __cordl_internal_set_m_lastTickSent)) float_t m_lastTickSent;
 
   /// @brief Field m_lastFrame, offset 0x34, size 0x4
-  __declspec(property(get = __get_m_lastFrame, put = __set_m_lastFrame)) int32_t m_lastFrame;
+  __declspec(property(get = __cordl_internal_get_m_lastFrame, put = __cordl_internal_set_m_lastFrame)) int32_t m_lastFrame;
 
   /// @brief Field fpsAvg, offset 0x38, size 0x4
-  __declspec(property(get = __get_fpsAvg, put = __set_fpsAvg)) float_t fpsAvg;
+  __declspec(property(get = __cordl_internal_get_fpsAvg, put = __cordl_internal_set_fpsAvg)) float_t fpsAvg;
 
   /// @brief Field s_editorConnectionGuid, offset 0xffffffff, size 0x10
   static __declspec(property(get = getStaticF_s_editorConnectionGuid, put = setStaticF_s_editorConnectionGuid))::System::Guid s_editorConnectionGuid;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*& __get_m_CreatedEvents();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*& __cordl_internal_get_m_CreatedEvents();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*> const&
-  __get_m_CreatedEvents() const;
+  __cordl_internal_get_m_CreatedEvents() const;
 
-  constexpr void __set_m_CreatedEvents(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value);
+  constexpr void __cordl_internal_set_m_CreatedEvents(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*& __get_m_UnhandledEvents();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*& __cordl_internal_get_m_UnhandledEvents();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*> const& __get_m_UnhandledEvents() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*> const&
+  __cordl_internal_get_m_UnhandledEvents() const;
 
-  constexpr void __set_m_UnhandledEvents(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value);
+  constexpr void __cordl_internal_set_m_UnhandledEvents(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value);
 
-  constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*& __get_s_EventHandlers();
+  constexpr ::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*& __cordl_internal_get_s_EventHandlers();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*> const& __get_s_EventHandlers() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>*> const&
+  __cordl_internal_get_s_EventHandlers() const;
 
-  constexpr void __set_s_EventHandlers(::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value);
+  constexpr void __cordl_internal_set_s_EventHandlers(::GlobalNamespace::DelegateList_1<::UnityEngine::ResourceManagement::Diagnostics::DiagnosticEvent>* value);
 
-  constexpr float_t& __get_m_lastTickSent();
+  constexpr float_t& __cordl_internal_get_m_lastTickSent();
 
-  constexpr float_t const& __get_m_lastTickSent() const;
+  constexpr float_t const& __cordl_internal_get_m_lastTickSent() const;
 
-  constexpr void __set_m_lastTickSent(float_t value);
+  constexpr void __cordl_internal_set_m_lastTickSent(float_t value);
 
-  constexpr int32_t& __get_m_lastFrame();
+  constexpr int32_t& __cordl_internal_get_m_lastFrame();
 
-  constexpr int32_t const& __get_m_lastFrame() const;
+  constexpr int32_t const& __cordl_internal_get_m_lastFrame() const;
 
-  constexpr void __set_m_lastFrame(int32_t value);
+  constexpr void __cordl_internal_set_m_lastFrame(int32_t value);
 
-  constexpr float_t& __get_fpsAvg();
+  constexpr float_t& __cordl_internal_get_fpsAvg();
 
-  constexpr float_t const& __get_fpsAvg() const;
+  constexpr float_t const& __cordl_internal_get_fpsAvg() const;
 
-  constexpr void __set_fpsAvg(float_t value);
+  constexpr void __cordl_internal_set_fpsAvg(float_t value);
 
   static inline void setStaticF_s_editorConnectionGuid(::System::Guid value);
 

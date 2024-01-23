@@ -20,14 +20,14 @@ MARK_REF_PTR_T(::Oculus::Platform::Samples::EntitlementCheck::EntitlementCheck);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
 namespace Oculus::Platform::Samples::EntitlementCheck {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13493))
 // CS Name: ::Oculus.Platform.Samples.EntitlementCheck::EntitlementCheck*
 class CORDL_TYPE EntitlementCheck : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field exitAppOnFailure, offset 0x18, size 0x1
-  __declspec(property(get = __get_exitAppOnFailure, put = __set_exitAppOnFailure)) bool exitAppOnFailure;
+  __declspec(property(get = __cordl_internal_get_exitAppOnFailure, put = __cordl_internal_set_exitAppOnFailure)) bool exitAppOnFailure;
 
   /// @brief Field UserFailedEntitlementCheck, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_UserFailedEntitlementCheck, put = setStaticF_UserFailedEntitlementCheck))::System::Action* UserFailedEntitlementCheck;
@@ -35,11 +35,11 @@ public:
   /// @brief Field UserPassedEntitlementCheck, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_UserPassedEntitlementCheck, put = setStaticF_UserPassedEntitlementCheck))::System::Action* UserPassedEntitlementCheck;
 
-  constexpr bool& __get_exitAppOnFailure();
+  constexpr bool& __cordl_internal_get_exitAppOnFailure();
 
-  constexpr bool const& __get_exitAppOnFailure() const;
+  constexpr bool const& __cordl_internal_get_exitAppOnFailure() const;
 
-  constexpr void __set_exitAppOnFailure(bool value);
+  constexpr void __cordl_internal_set_exitAppOnFailure(bool value);
 
   static inline void setStaticF_UserFailedEntitlementCheck(::System::Action* value);
 

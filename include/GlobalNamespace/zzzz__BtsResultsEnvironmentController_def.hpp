@@ -81,67 +81,69 @@ MARK_REF_PTR_T(::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCha
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3975))
 // CS Name: ::BtsResultsEnvironmentController::BTSResultCharacterPlaceWithAnimation*
 class CORDL_TYPE __BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _name, offset 0x10, size 0x8
-  __declspec(property(get = __get__name, put = __set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
   /// @brief Field _placeTransform, offset 0x18, size 0x8
-  __declspec(property(get = __get__placeTransform, put = __set__placeTransform))::UnityEngine::Transform* _placeTransform;
+  __declspec(property(get = __cordl_internal_get__placeTransform, put = __cordl_internal_set__placeTransform))::UnityW<::UnityEngine::Transform> _placeTransform;
 
   /// @brief Field _animationController, offset 0x20, size 0x8
-  __declspec(property(get = __get__animationController, put = __set__animationController))::GlobalNamespace::BTSCharacterResultAnimationController* _animationController;
+  __declspec(property(get = __cordl_internal_get__animationController,
+                      put = __cordl_internal_set__animationController))::UnityW<::GlobalNamespace::BTSCharacterResultAnimationController> _animationController;
 
   /// @brief Field _animationClip, offset 0x28, size 0x8
-  __declspec(property(get = __get__animationClip, put = __set__animationClip))::UnityEngine::AnimationClip* _animationClip;
+  __declspec(property(get = __cordl_internal_get__animationClip, put = __cordl_internal_set__animationClip))::UnityW<::UnityEngine::AnimationClip> _animationClip;
 
   /// @brief Field _btsCharacter, offset 0x30, size 0x8
-  __declspec(property(get = __get__btsCharacter, put = __set__btsCharacter))::GlobalNamespace::BTSCharacter* _btsCharacter;
+  __declspec(property(get = __cordl_internal_get__btsCharacter, put = __cordl_internal_set__btsCharacter))::UnityW<::GlobalNamespace::BTSCharacter> _btsCharacter;
 
   /// @brief Field _btsCharacterAssetReference, offset 0x38, size 0x8
-  __declspec(property(get = __get__btsCharacterAssetReference, put = __set__btsCharacterAssetReference))::UnityEngine::AddressableAssets::AssetReference* _btsCharacterAssetReference;
+  __declspec(property(get = __cordl_internal_get__btsCharacterAssetReference,
+                      put = __cordl_internal_set__btsCharacterAssetReference))::UnityEngine::AddressableAssets::AssetReference* _btsCharacterAssetReference;
 
   __declspec(property(get = get_name))::StringW name;
 
-  constexpr ::StringW& __get__name();
+  constexpr ::StringW& __cordl_internal_get__name();
 
-  constexpr ::StringW const& __get__name() const;
+  constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr void __set__name(::StringW value);
+  constexpr void __cordl_internal_set__name(::StringW value);
 
-  constexpr ::UnityEngine::Transform*& __get__placeTransform();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__placeTransform();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__placeTransform() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__placeTransform() const;
 
-  constexpr void __set__placeTransform(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__placeTransform(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::GlobalNamespace::BTSCharacterResultAnimationController*& __get__animationController();
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterResultAnimationController>& __cordl_internal_get__animationController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSCharacterResultAnimationController*> const& __get__animationController() const;
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterResultAnimationController> const& __cordl_internal_get__animationController() const;
 
-  constexpr void __set__animationController(::GlobalNamespace::BTSCharacterResultAnimationController* value);
+  constexpr void __cordl_internal_set__animationController(::UnityW<::GlobalNamespace::BTSCharacterResultAnimationController> value);
 
-  constexpr ::UnityEngine::AnimationClip*& __get__animationClip();
+  constexpr ::UnityW<::UnityEngine::AnimationClip>& __cordl_internal_get__animationClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AnimationClip*> const& __get__animationClip() const;
+  constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__animationClip() const;
 
-  constexpr void __set__animationClip(::UnityEngine::AnimationClip* value);
+  constexpr void __cordl_internal_set__animationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  constexpr ::GlobalNamespace::BTSCharacter*& __get__btsCharacter();
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacter>& __cordl_internal_get__btsCharacter();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSCharacter*> const& __get__btsCharacter() const;
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacter> const& __cordl_internal_get__btsCharacter() const;
 
-  constexpr void __set__btsCharacter(::GlobalNamespace::BTSCharacter* value);
+  constexpr void __cordl_internal_set__btsCharacter(::UnityW<::GlobalNamespace::BTSCharacter> value);
 
-  constexpr ::UnityEngine::AddressableAssets::AssetReference*& __get__btsCharacterAssetReference();
+  constexpr ::UnityEngine::AddressableAssets::AssetReference*& __cordl_internal_get__btsCharacterAssetReference();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReference*> const& __get__btsCharacterAssetReference() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AddressableAssets::AssetReference*> const& __cordl_internal_get__btsCharacterAssetReference() const;
 
-  constexpr void __set__btsCharacterAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
+  constexpr void __cordl_internal_set__btsCharacterAssetReference(::UnityEngine::AddressableAssets::AssetReference* value);
 
   /// @brief Method get_name, addr 0x221d040, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
@@ -175,16 +177,16 @@ public:
   ::StringW ____name;
 
   /// @brief Field _placeTransform, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____placeTransform;
+  ::UnityW<::UnityEngine::Transform> ____placeTransform;
 
   /// @brief Field _animationController, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BTSCharacterResultAnimationController* ____animationController;
+  ::UnityW<::GlobalNamespace::BTSCharacterResultAnimationController> ____animationController;
 
   /// @brief Field _animationClip, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::AnimationClip* ____animationClip;
+  ::UnityW<::UnityEngine::AnimationClip> ____animationClip;
 
   /// @brief Field _btsCharacter, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::BTSCharacter* ____btsCharacter;
+  ::UnityW<::GlobalNamespace::BTSCharacter> ____btsCharacter;
 
   /// @brief Field _btsCharacterAssetReference, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReference* ____btsCharacterAssetReference;
@@ -211,20 +213,20 @@ static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController__BTS
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3976))
 // CS Name: ::BtsResultsEnvironmentController::<DestroyCharactersDelayed>d__11*
 class CORDL_TYPE __BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field <>4__this, offset 0x20, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::BtsResultsEnvironmentController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::BtsResultsEnvironmentController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -248,23 +250,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr ::GlobalNamespace::BtsResultsEnvironmentController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::BtsResultsEnvironmentController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BtsResultsEnvironmentController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::BtsResultsEnvironmentController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::BtsResultsEnvironmentController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::BtsResultsEnvironmentController> value);
 
   static inline ::GlobalNamespace::__BtsResultsEnvironmentController___DestroyCharactersDelayed_d__11* New_ctor(int32_t __1__state);
 
@@ -307,7 +309,7 @@ public:
   ::System::Object* _____2__current;
 
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BtsResultsEnvironmentController* _____4__this;
+  ::UnityW<::GlobalNamespace::BtsResultsEnvironmentController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -325,7 +327,7 @@ static_assert(offsetof(::GlobalNamespace::__BtsResultsEnvironmentController___De
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14724)), TypeDefinitionIndex(TypeDefinitionIndex(4687))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(4687)), TypeDefinitionIndex(TypeDefinitionIndex(14724))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3977))
 // CS Name: ::BtsResultsEnvironmentController*
 class CORDL_TYPE BtsResultsEnvironmentController : public ::GlobalNamespace::BaseResultsEnvironmentController {
@@ -336,59 +338,61 @@ public:
   using BTSResultCharacterPlaceWithAnimation = ::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation;
 
   /// @brief Field _btsCharacterAnimationWrapper, offset 0x18, size 0x8
-  __declspec(property(get = __get__btsCharacterAnimationWrapper, put = __set__btsCharacterAnimationWrapper))::UnityEngine::GameObject* _btsCharacterAnimationWrapper;
+  __declspec(property(get = __cordl_internal_get__btsCharacterAnimationWrapper,
+                      put = __cordl_internal_set__btsCharacterAnimationWrapper))::UnityW<::UnityEngine::GameObject> _btsCharacterAnimationWrapper;
 
   /// @brief Field _btsCharacterDataModel, offset 0x20, size 0x8
-  __declspec(property(get = __get__btsCharacterDataModel, put = __set__btsCharacterDataModel))::GlobalNamespace::BTSCharacterDataModel* _btsCharacterDataModel;
+  __declspec(property(get = __cordl_internal_get__btsCharacterDataModel, put = __cordl_internal_set__btsCharacterDataModel))::UnityW<::GlobalNamespace::BTSCharacterDataModel> _btsCharacterDataModel;
 
   /// @brief Field _btsCharactersResultsAppearPlayableDirector, offset 0x28, size 0x8
-  __declspec(property(get = __get__btsCharactersResultsAppearPlayableDirector,
-                      put = __set__btsCharactersResultsAppearPlayableDirector))::UnityEngine::Playables::PlayableDirector* _btsCharactersResultsAppearPlayableDirector;
+  __declspec(property(get = __cordl_internal_get__btsCharactersResultsAppearPlayableDirector,
+                      put = __cordl_internal_set__btsCharactersResultsAppearPlayableDirector))::UnityW<::UnityEngine::Playables::PlayableDirector> _btsCharactersResultsAppearPlayableDirector;
 
   /// @brief Field _resultPlacesWithAnimations, offset 0x30, size 0x8
-  __declspec(
-      property(get = __get__resultPlacesWithAnimations,
-               put = __set__resultPlacesWithAnimations))::ArrayW<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*,
-                                                                 ::Array<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>*> _resultPlacesWithAnimations;
+  __declspec(property(get = __cordl_internal_get__resultPlacesWithAnimations, put = __cordl_internal_set__resultPlacesWithAnimations))::ArrayW<
+      ::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*,
+      ::Array<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>*> _resultPlacesWithAnimations;
 
   /// @brief Field _handles, offset 0x38, size 0x8
-  __declspec(property(get = __get__handles, put = __set__handles))::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* _handles;
+  __declspec(property(get = __cordl_internal_get__handles,
+                      put = __cordl_internal_set__handles))::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* _handles;
 
-  constexpr ::UnityEngine::GameObject*& __get__btsCharacterAnimationWrapper();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__btsCharacterAnimationWrapper();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__btsCharacterAnimationWrapper() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__btsCharacterAnimationWrapper() const;
 
-  constexpr void __set__btsCharacterAnimationWrapper(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__btsCharacterAnimationWrapper(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::BTSCharacterDataModel*& __get__btsCharacterDataModel();
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterDataModel>& __cordl_internal_get__btsCharacterDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BTSCharacterDataModel*> const& __get__btsCharacterDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::BTSCharacterDataModel> const& __cordl_internal_get__btsCharacterDataModel() const;
 
-  constexpr void __set__btsCharacterDataModel(::GlobalNamespace::BTSCharacterDataModel* value);
+  constexpr void __cordl_internal_set__btsCharacterDataModel(::UnityW<::GlobalNamespace::BTSCharacterDataModel> value);
 
-  constexpr ::UnityEngine::Playables::PlayableDirector*& __get__btsCharactersResultsAppearPlayableDirector();
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector>& __cordl_internal_get__btsCharactersResultsAppearPlayableDirector();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Playables::PlayableDirector*> const& __get__btsCharactersResultsAppearPlayableDirector() const;
+  constexpr ::UnityW<::UnityEngine::Playables::PlayableDirector> const& __cordl_internal_get__btsCharactersResultsAppearPlayableDirector() const;
 
-  constexpr void __set__btsCharactersResultsAppearPlayableDirector(::UnityEngine::Playables::PlayableDirector* value);
+  constexpr void __cordl_internal_set__btsCharactersResultsAppearPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
   constexpr ::ArrayW<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*,
                      ::Array<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>*>&
-  __get__resultPlacesWithAnimations();
+  __cordl_internal_get__resultPlacesWithAnimations();
 
   constexpr ::ArrayW<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*,
                      ::Array<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>*> const&
-  __get__resultPlacesWithAnimations() const;
+  __cordl_internal_get__resultPlacesWithAnimations() const;
 
-  constexpr void __set__resultPlacesWithAnimations(::ArrayW<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*,
-                                                            ::Array<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>*>
-                                                       value);
+  constexpr void __cordl_internal_set__resultPlacesWithAnimations(::ArrayW<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*,
+                                                                           ::Array<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*>*>
+                                                                      value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __get__handles();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*& __cordl_internal_get__handles();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const& __get__handles() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
+  __cordl_internal_get__handles() const;
 
-  constexpr void __set__handles(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
+  constexpr void __cordl_internal_set__handles(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* value);
 
   /// @brief Method Setup, addr 0x221c34c, size 0x4e4, virtual true, abstract: false, final false
   inline void Setup(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
@@ -428,13 +432,13 @@ protected:
 
 public:
   /// @brief Field _btsCharacterAnimationWrapper, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____btsCharacterAnimationWrapper;
+  ::UnityW<::UnityEngine::GameObject> ____btsCharacterAnimationWrapper;
 
   /// @brief Field _btsCharacterDataModel, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BTSCharacterDataModel* ____btsCharacterDataModel;
+  ::UnityW<::GlobalNamespace::BTSCharacterDataModel> ____btsCharacterDataModel;
 
   /// @brief Field _btsCharactersResultsAppearPlayableDirector, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Playables::PlayableDirector* ____btsCharactersResultsAppearPlayableDirector;
+  ::UnityW<::UnityEngine::Playables::PlayableDirector> ____btsCharactersResultsAppearPlayableDirector;
 
   /// @brief Field _resultPlacesWithAnimations, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__BtsResultsEnvironmentController__BTSResultCharacterPlaceWithAnimation*,

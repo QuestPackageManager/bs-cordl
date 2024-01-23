@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6453))
 // CS Name: ::UnityEngine.InputSystem.Android.LowLevel::AndroidKeyCode
 struct CORDL_TYPE AndroidKeyCode {

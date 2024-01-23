@@ -73,38 +73,38 @@ MARK_REF_PTR_T(::System::Globalization::__DateTimeFormatInfo__TokenHashValue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2401))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2401)), TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3664))
 // CS Name: ::DateTimeFormatInfo::TokenHashValue*
 class CORDL_TYPE __DateTimeFormatInfo__TokenHashValue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tokenString, offset 0x10, size 0x8
-  __declspec(property(get = __get_tokenString, put = __set_tokenString))::StringW tokenString;
+  __declspec(property(get = __cordl_internal_get_tokenString, put = __cordl_internal_set_tokenString))::StringW tokenString;
 
   /// @brief Field tokenType, offset 0x18, size 0x4
-  __declspec(property(get = __get_tokenType, put = __set_tokenType))::System::TokenType tokenType;
+  __declspec(property(get = __cordl_internal_get_tokenType, put = __cordl_internal_set_tokenType))::System::TokenType tokenType;
 
   /// @brief Field tokenValue, offset 0x1c, size 0x4
-  __declspec(property(get = __get_tokenValue, put = __set_tokenValue)) int32_t tokenValue;
+  __declspec(property(get = __cordl_internal_get_tokenValue, put = __cordl_internal_set_tokenValue)) int32_t tokenValue;
 
-  constexpr ::StringW& __get_tokenString();
+  constexpr ::StringW& __cordl_internal_get_tokenString();
 
-  constexpr ::StringW const& __get_tokenString() const;
+  constexpr ::StringW const& __cordl_internal_get_tokenString() const;
 
-  constexpr void __set_tokenString(::StringW value);
+  constexpr void __cordl_internal_set_tokenString(::StringW value);
 
-  constexpr ::System::TokenType& __get_tokenType();
+  constexpr ::System::TokenType& __cordl_internal_get_tokenType();
 
-  constexpr ::System::TokenType const& __get_tokenType() const;
+  constexpr ::System::TokenType const& __cordl_internal_get_tokenType() const;
 
-  constexpr void __set_tokenType(::System::TokenType value);
+  constexpr void __cordl_internal_set_tokenType(::System::TokenType value);
 
-  constexpr int32_t& __get_tokenValue();
+  constexpr int32_t& __cordl_internal_get_tokenValue();
 
-  constexpr int32_t const& __get_tokenValue() const;
+  constexpr int32_t const& __cordl_internal_get_tokenValue() const;
 
-  constexpr void __set_tokenValue(int32_t value);
+  constexpr void __cordl_internal_set_tokenValue(int32_t value);
 
   static inline ::System::Globalization::__DateTimeFormatInfo__TokenHashValue* New_ctor(::StringW tokenString, ::System::TokenType tokenType, int32_t tokenValue);
 
@@ -150,7 +150,7 @@ static_assert(offsetof(::System::Globalization::__DateTimeFormatInfo__TokenHashV
 // SizeInfo { instance_size: 352, native_size: -1, calculated_instance_size: 352, calculated_native_size: 352, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3663)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3670))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(3663)), TypeDefinitionIndex(TypeDefinitionIndex(3670))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3665))
 // CS Name: ::System.Globalization::DateTimeFormatInfo*
 class CORDL_TYPE DateTimeFormatInfo : public ::System::Object {
@@ -159,138 +159,140 @@ public:
   using TokenHashValue = ::System::Globalization::__DateTimeFormatInfo__TokenHashValue;
 
   /// @brief Field _cultureData, offset 0x10, size 0x8
-  __declspec(property(get = __get__cultureData, put = __set__cultureData))::System::Globalization::CultureData* _cultureData;
+  __declspec(property(get = __cordl_internal_get__cultureData, put = __cordl_internal_set__cultureData))::System::Globalization::CultureData* _cultureData;
 
   /// @brief Field _name, offset 0x18, size 0x8
-  __declspec(property(get = __get__name, put = __set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
   /// @brief Field _langName, offset 0x20, size 0x8
-  __declspec(property(get = __get__langName, put = __set__langName))::StringW _langName;
+  __declspec(property(get = __cordl_internal_get__langName, put = __cordl_internal_set__langName))::StringW _langName;
 
   /// @brief Field _compareInfo, offset 0x28, size 0x8
-  __declspec(property(get = __get__compareInfo, put = __set__compareInfo))::System::Globalization::CompareInfo* _compareInfo;
+  __declspec(property(get = __cordl_internal_get__compareInfo, put = __cordl_internal_set__compareInfo))::System::Globalization::CompareInfo* _compareInfo;
 
   /// @brief Field _cultureInfo, offset 0x30, size 0x8
-  __declspec(property(get = __get__cultureInfo, put = __set__cultureInfo))::System::Globalization::CultureInfo* _cultureInfo;
+  __declspec(property(get = __cordl_internal_get__cultureInfo, put = __cordl_internal_set__cultureInfo))::System::Globalization::CultureInfo* _cultureInfo;
 
   /// @brief Field amDesignator, offset 0x38, size 0x8
-  __declspec(property(get = __get_amDesignator, put = __set_amDesignator))::StringW amDesignator;
+  __declspec(property(get = __cordl_internal_get_amDesignator, put = __cordl_internal_set_amDesignator))::StringW amDesignator;
 
   /// @brief Field pmDesignator, offset 0x40, size 0x8
-  __declspec(property(get = __get_pmDesignator, put = __set_pmDesignator))::StringW pmDesignator;
+  __declspec(property(get = __cordl_internal_get_pmDesignator, put = __cordl_internal_set_pmDesignator))::StringW pmDesignator;
 
   /// @brief Field dateSeparator, offset 0x48, size 0x8
-  __declspec(property(get = __get_dateSeparator, put = __set_dateSeparator))::StringW dateSeparator;
+  __declspec(property(get = __cordl_internal_get_dateSeparator, put = __cordl_internal_set_dateSeparator))::StringW dateSeparator;
 
   /// @brief Field generalShortTimePattern, offset 0x50, size 0x8
-  __declspec(property(get = __get_generalShortTimePattern, put = __set_generalShortTimePattern))::StringW generalShortTimePattern;
+  __declspec(property(get = __cordl_internal_get_generalShortTimePattern, put = __cordl_internal_set_generalShortTimePattern))::StringW generalShortTimePattern;
 
   /// @brief Field generalLongTimePattern, offset 0x58, size 0x8
-  __declspec(property(get = __get_generalLongTimePattern, put = __set_generalLongTimePattern))::StringW generalLongTimePattern;
+  __declspec(property(get = __cordl_internal_get_generalLongTimePattern, put = __cordl_internal_set_generalLongTimePattern))::StringW generalLongTimePattern;
 
   /// @brief Field timeSeparator, offset 0x60, size 0x8
-  __declspec(property(get = __get_timeSeparator, put = __set_timeSeparator))::StringW timeSeparator;
+  __declspec(property(get = __cordl_internal_get_timeSeparator, put = __cordl_internal_set_timeSeparator))::StringW timeSeparator;
 
   /// @brief Field monthDayPattern, offset 0x68, size 0x8
-  __declspec(property(get = __get_monthDayPattern, put = __set_monthDayPattern))::StringW monthDayPattern;
+  __declspec(property(get = __cordl_internal_get_monthDayPattern, put = __cordl_internal_set_monthDayPattern))::StringW monthDayPattern;
 
   /// @brief Field dateTimeOffsetPattern, offset 0x70, size 0x8
-  __declspec(property(get = __get_dateTimeOffsetPattern, put = __set_dateTimeOffsetPattern))::StringW dateTimeOffsetPattern;
+  __declspec(property(get = __cordl_internal_get_dateTimeOffsetPattern, put = __cordl_internal_set_dateTimeOffsetPattern))::StringW dateTimeOffsetPattern;
 
   /// @brief Field calendar, offset 0x78, size 0x8
-  __declspec(property(get = __get_calendar, put = __set_calendar))::System::Globalization::Calendar* calendar;
+  __declspec(property(get = __cordl_internal_get_calendar, put = __cordl_internal_set_calendar))::System::Globalization::Calendar* calendar;
 
   /// @brief Field firstDayOfWeek, offset 0x80, size 0x4
-  __declspec(property(get = __get_firstDayOfWeek, put = __set_firstDayOfWeek)) int32_t firstDayOfWeek;
+  __declspec(property(get = __cordl_internal_get_firstDayOfWeek, put = __cordl_internal_set_firstDayOfWeek)) int32_t firstDayOfWeek;
 
   /// @brief Field calendarWeekRule, offset 0x84, size 0x4
-  __declspec(property(get = __get_calendarWeekRule, put = __set_calendarWeekRule)) int32_t calendarWeekRule;
+  __declspec(property(get = __cordl_internal_get_calendarWeekRule, put = __cordl_internal_set_calendarWeekRule)) int32_t calendarWeekRule;
 
   /// @brief Field fullDateTimePattern, offset 0x88, size 0x8
-  __declspec(property(get = __get_fullDateTimePattern, put = __set_fullDateTimePattern))::StringW fullDateTimePattern;
+  __declspec(property(get = __cordl_internal_get_fullDateTimePattern, put = __cordl_internal_set_fullDateTimePattern))::StringW fullDateTimePattern;
 
   /// @brief Field abbreviatedDayNames, offset 0x90, size 0x8
-  __declspec(property(get = __get_abbreviatedDayNames, put = __set_abbreviatedDayNames))::ArrayW<::StringW, ::Array<::StringW>*> abbreviatedDayNames;
+  __declspec(property(get = __cordl_internal_get_abbreviatedDayNames, put = __cordl_internal_set_abbreviatedDayNames))::ArrayW<::StringW, ::Array<::StringW>*> abbreviatedDayNames;
 
   /// @brief Field m_superShortDayNames, offset 0x98, size 0x8
-  __declspec(property(get = __get_m_superShortDayNames, put = __set_m_superShortDayNames))::ArrayW<::StringW, ::Array<::StringW>*> m_superShortDayNames;
+  __declspec(property(get = __cordl_internal_get_m_superShortDayNames, put = __cordl_internal_set_m_superShortDayNames))::ArrayW<::StringW, ::Array<::StringW>*> m_superShortDayNames;
 
   /// @brief Field dayNames, offset 0xa0, size 0x8
-  __declspec(property(get = __get_dayNames, put = __set_dayNames))::ArrayW<::StringW, ::Array<::StringW>*> dayNames;
+  __declspec(property(get = __cordl_internal_get_dayNames, put = __cordl_internal_set_dayNames))::ArrayW<::StringW, ::Array<::StringW>*> dayNames;
 
   /// @brief Field abbreviatedMonthNames, offset 0xa8, size 0x8
-  __declspec(property(get = __get_abbreviatedMonthNames, put = __set_abbreviatedMonthNames))::ArrayW<::StringW, ::Array<::StringW>*> abbreviatedMonthNames;
+  __declspec(property(get = __cordl_internal_get_abbreviatedMonthNames, put = __cordl_internal_set_abbreviatedMonthNames))::ArrayW<::StringW, ::Array<::StringW>*> abbreviatedMonthNames;
 
   /// @brief Field monthNames, offset 0xb0, size 0x8
-  __declspec(property(get = __get_monthNames, put = __set_monthNames))::ArrayW<::StringW, ::Array<::StringW>*> monthNames;
+  __declspec(property(get = __cordl_internal_get_monthNames, put = __cordl_internal_set_monthNames))::ArrayW<::StringW, ::Array<::StringW>*> monthNames;
 
   /// @brief Field genitiveMonthNames, offset 0xb8, size 0x8
-  __declspec(property(get = __get_genitiveMonthNames, put = __set_genitiveMonthNames))::ArrayW<::StringW, ::Array<::StringW>*> genitiveMonthNames;
+  __declspec(property(get = __cordl_internal_get_genitiveMonthNames, put = __cordl_internal_set_genitiveMonthNames))::ArrayW<::StringW, ::Array<::StringW>*> genitiveMonthNames;
 
   /// @brief Field m_genitiveAbbreviatedMonthNames, offset 0xc0, size 0x8
-  __declspec(property(get = __get_m_genitiveAbbreviatedMonthNames, put = __set_m_genitiveAbbreviatedMonthNames))::ArrayW<::StringW, ::Array<::StringW>*> m_genitiveAbbreviatedMonthNames;
+  __declspec(property(get = __cordl_internal_get_m_genitiveAbbreviatedMonthNames,
+                      put = __cordl_internal_set_m_genitiveAbbreviatedMonthNames))::ArrayW<::StringW, ::Array<::StringW>*> m_genitiveAbbreviatedMonthNames;
 
   /// @brief Field leapYearMonthNames, offset 0xc8, size 0x8
-  __declspec(property(get = __get_leapYearMonthNames, put = __set_leapYearMonthNames))::ArrayW<::StringW, ::Array<::StringW>*> leapYearMonthNames;
+  __declspec(property(get = __cordl_internal_get_leapYearMonthNames, put = __cordl_internal_set_leapYearMonthNames))::ArrayW<::StringW, ::Array<::StringW>*> leapYearMonthNames;
 
   /// @brief Field longDatePattern, offset 0xd0, size 0x8
-  __declspec(property(get = __get_longDatePattern, put = __set_longDatePattern))::StringW longDatePattern;
+  __declspec(property(get = __cordl_internal_get_longDatePattern, put = __cordl_internal_set_longDatePattern))::StringW longDatePattern;
 
   /// @brief Field shortDatePattern, offset 0xd8, size 0x8
-  __declspec(property(get = __get_shortDatePattern, put = __set_shortDatePattern))::StringW shortDatePattern;
+  __declspec(property(get = __cordl_internal_get_shortDatePattern, put = __cordl_internal_set_shortDatePattern))::StringW shortDatePattern;
 
   /// @brief Field yearMonthPattern, offset 0xe0, size 0x8
-  __declspec(property(get = __get_yearMonthPattern, put = __set_yearMonthPattern))::StringW yearMonthPattern;
+  __declspec(property(get = __cordl_internal_get_yearMonthPattern, put = __cordl_internal_set_yearMonthPattern))::StringW yearMonthPattern;
 
   /// @brief Field longTimePattern, offset 0xe8, size 0x8
-  __declspec(property(get = __get_longTimePattern, put = __set_longTimePattern))::StringW longTimePattern;
+  __declspec(property(get = __cordl_internal_get_longTimePattern, put = __cordl_internal_set_longTimePattern))::StringW longTimePattern;
 
   /// @brief Field shortTimePattern, offset 0xf0, size 0x8
-  __declspec(property(get = __get_shortTimePattern, put = __set_shortTimePattern))::StringW shortTimePattern;
+  __declspec(property(get = __cordl_internal_get_shortTimePattern, put = __cordl_internal_set_shortTimePattern))::StringW shortTimePattern;
 
   /// @brief Field allYearMonthPatterns, offset 0xf8, size 0x8
-  __declspec(property(get = __get_allYearMonthPatterns, put = __set_allYearMonthPatterns))::ArrayW<::StringW, ::Array<::StringW>*> allYearMonthPatterns;
+  __declspec(property(get = __cordl_internal_get_allYearMonthPatterns, put = __cordl_internal_set_allYearMonthPatterns))::ArrayW<::StringW, ::Array<::StringW>*> allYearMonthPatterns;
 
   /// @brief Field allShortDatePatterns, offset 0x100, size 0x8
-  __declspec(property(get = __get_allShortDatePatterns, put = __set_allShortDatePatterns))::ArrayW<::StringW, ::Array<::StringW>*> allShortDatePatterns;
+  __declspec(property(get = __cordl_internal_get_allShortDatePatterns, put = __cordl_internal_set_allShortDatePatterns))::ArrayW<::StringW, ::Array<::StringW>*> allShortDatePatterns;
 
   /// @brief Field allLongDatePatterns, offset 0x108, size 0x8
-  __declspec(property(get = __get_allLongDatePatterns, put = __set_allLongDatePatterns))::ArrayW<::StringW, ::Array<::StringW>*> allLongDatePatterns;
+  __declspec(property(get = __cordl_internal_get_allLongDatePatterns, put = __cordl_internal_set_allLongDatePatterns))::ArrayW<::StringW, ::Array<::StringW>*> allLongDatePatterns;
 
   /// @brief Field allShortTimePatterns, offset 0x110, size 0x8
-  __declspec(property(get = __get_allShortTimePatterns, put = __set_allShortTimePatterns))::ArrayW<::StringW, ::Array<::StringW>*> allShortTimePatterns;
+  __declspec(property(get = __cordl_internal_get_allShortTimePatterns, put = __cordl_internal_set_allShortTimePatterns))::ArrayW<::StringW, ::Array<::StringW>*> allShortTimePatterns;
 
   /// @brief Field allLongTimePatterns, offset 0x118, size 0x8
-  __declspec(property(get = __get_allLongTimePatterns, put = __set_allLongTimePatterns))::ArrayW<::StringW, ::Array<::StringW>*> allLongTimePatterns;
+  __declspec(property(get = __cordl_internal_get_allLongTimePatterns, put = __cordl_internal_set_allLongTimePatterns))::ArrayW<::StringW, ::Array<::StringW>*> allLongTimePatterns;
 
   /// @brief Field m_eraNames, offset 0x120, size 0x8
-  __declspec(property(get = __get_m_eraNames, put = __set_m_eraNames))::ArrayW<::StringW, ::Array<::StringW>*> m_eraNames;
+  __declspec(property(get = __cordl_internal_get_m_eraNames, put = __cordl_internal_set_m_eraNames))::ArrayW<::StringW, ::Array<::StringW>*> m_eraNames;
 
   /// @brief Field m_abbrevEraNames, offset 0x128, size 0x8
-  __declspec(property(get = __get_m_abbrevEraNames, put = __set_m_abbrevEraNames))::ArrayW<::StringW, ::Array<::StringW>*> m_abbrevEraNames;
+  __declspec(property(get = __cordl_internal_get_m_abbrevEraNames, put = __cordl_internal_set_m_abbrevEraNames))::ArrayW<::StringW, ::Array<::StringW>*> m_abbrevEraNames;
 
   /// @brief Field m_abbrevEnglishEraNames, offset 0x130, size 0x8
-  __declspec(property(get = __get_m_abbrevEnglishEraNames, put = __set_m_abbrevEnglishEraNames))::ArrayW<::StringW, ::Array<::StringW>*> m_abbrevEnglishEraNames;
+  __declspec(property(get = __cordl_internal_get_m_abbrevEnglishEraNames, put = __cordl_internal_set_m_abbrevEnglishEraNames))::ArrayW<::StringW, ::Array<::StringW>*> m_abbrevEnglishEraNames;
 
   /// @brief Field optionalCalendars, offset 0x138, size 0x8
-  __declspec(property(get = __get_optionalCalendars, put = __set_optionalCalendars))::ArrayW<::System::Globalization::CalendarId, ::Array<::System::Globalization::CalendarId>*> optionalCalendars;
+  __declspec(property(get = __cordl_internal_get_optionalCalendars,
+                      put = __cordl_internal_set_optionalCalendars))::ArrayW<::System::Globalization::CalendarId, ::Array<::System::Globalization::CalendarId>*> optionalCalendars;
 
   /// @brief Field _isReadOnly, offset 0x140, size 0x1
-  __declspec(property(get = __get__isReadOnly, put = __set__isReadOnly)) bool _isReadOnly;
+  __declspec(property(get = __cordl_internal_get__isReadOnly, put = __cordl_internal_set__isReadOnly)) bool _isReadOnly;
 
   /// @brief Field formatFlags, offset 0x144, size 0x4
-  __declspec(property(get = __get_formatFlags, put = __set_formatFlags))::System::Globalization::DateTimeFormatFlags formatFlags;
+  __declspec(property(get = __cordl_internal_get_formatFlags, put = __cordl_internal_set_formatFlags))::System::Globalization::DateTimeFormatFlags formatFlags;
 
   /// @brief Field _fullTimeSpanPositivePattern, offset 0x148, size 0x8
-  __declspec(property(get = __get__fullTimeSpanPositivePattern, put = __set__fullTimeSpanPositivePattern))::StringW _fullTimeSpanPositivePattern;
+  __declspec(property(get = __cordl_internal_get__fullTimeSpanPositivePattern, put = __cordl_internal_set__fullTimeSpanPositivePattern))::StringW _fullTimeSpanPositivePattern;
 
   /// @brief Field _fullTimeSpanNegativePattern, offset 0x150, size 0x8
-  __declspec(property(get = __get__fullTimeSpanNegativePattern, put = __set__fullTimeSpanNegativePattern))::StringW _fullTimeSpanNegativePattern;
+  __declspec(property(get = __cordl_internal_get__fullTimeSpanNegativePattern, put = __cordl_internal_set__fullTimeSpanNegativePattern))::StringW _fullTimeSpanNegativePattern;
 
   /// @brief Field _dtfiTokenHash, offset 0x158, size 0x8
-  __declspec(property(
-      get = __get__dtfiTokenHash,
-      put = __set__dtfiTokenHash))::ArrayW<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*, ::Array<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*>*> _dtfiTokenHash;
+  __declspec(property(get = __cordl_internal_get__dtfiTokenHash,
+                      put = __cordl_internal_set__dtfiTokenHash))::ArrayW<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*,
+                                                                          ::Array<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*>*> _dtfiTokenHash;
 
   /// @brief Field s_invariantInfo, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_invariantInfo, put = setStaticF_s_invariantInfo))::System::Globalization::DateTimeFormatInfo* s_invariantInfo;
@@ -414,269 +416,271 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::System::Globalization::CultureData*& __get__cultureData();
+  constexpr ::System::Globalization::CultureData*& __cordl_internal_get__cultureData();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureData*> const& __get__cultureData() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureData*> const& __cordl_internal_get__cultureData() const;
 
-  constexpr void __set__cultureData(::System::Globalization::CultureData* value);
+  constexpr void __cordl_internal_set__cultureData(::System::Globalization::CultureData* value);
 
-  constexpr ::StringW& __get__name();
+  constexpr ::StringW& __cordl_internal_get__name();
 
-  constexpr ::StringW const& __get__name() const;
+  constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr void __set__name(::StringW value);
+  constexpr void __cordl_internal_set__name(::StringW value);
 
-  constexpr ::StringW& __get__langName();
+  constexpr ::StringW& __cordl_internal_get__langName();
 
-  constexpr ::StringW const& __get__langName() const;
+  constexpr ::StringW const& __cordl_internal_get__langName() const;
 
-  constexpr void __set__langName(::StringW value);
+  constexpr void __cordl_internal_set__langName(::StringW value);
 
-  constexpr ::System::Globalization::CompareInfo*& __get__compareInfo();
+  constexpr ::System::Globalization::CompareInfo*& __cordl_internal_get__compareInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& __get__compareInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& __cordl_internal_get__compareInfo() const;
 
-  constexpr void __set__compareInfo(::System::Globalization::CompareInfo* value);
+  constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo* value);
 
-  constexpr ::System::Globalization::CultureInfo*& __get__cultureInfo();
+  constexpr ::System::Globalization::CultureInfo*& __cordl_internal_get__cultureInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __get__cultureInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CultureInfo*> const& __cordl_internal_get__cultureInfo() const;
 
-  constexpr void __set__cultureInfo(::System::Globalization::CultureInfo* value);
+  constexpr void __cordl_internal_set__cultureInfo(::System::Globalization::CultureInfo* value);
 
-  constexpr ::StringW& __get_amDesignator();
+  constexpr ::StringW& __cordl_internal_get_amDesignator();
 
-  constexpr ::StringW const& __get_amDesignator() const;
+  constexpr ::StringW const& __cordl_internal_get_amDesignator() const;
 
-  constexpr void __set_amDesignator(::StringW value);
+  constexpr void __cordl_internal_set_amDesignator(::StringW value);
 
-  constexpr ::StringW& __get_pmDesignator();
+  constexpr ::StringW& __cordl_internal_get_pmDesignator();
 
-  constexpr ::StringW const& __get_pmDesignator() const;
+  constexpr ::StringW const& __cordl_internal_get_pmDesignator() const;
 
-  constexpr void __set_pmDesignator(::StringW value);
+  constexpr void __cordl_internal_set_pmDesignator(::StringW value);
 
-  constexpr ::StringW& __get_dateSeparator();
+  constexpr ::StringW& __cordl_internal_get_dateSeparator();
 
-  constexpr ::StringW const& __get_dateSeparator() const;
+  constexpr ::StringW const& __cordl_internal_get_dateSeparator() const;
 
-  constexpr void __set_dateSeparator(::StringW value);
+  constexpr void __cordl_internal_set_dateSeparator(::StringW value);
 
-  constexpr ::StringW& __get_generalShortTimePattern();
+  constexpr ::StringW& __cordl_internal_get_generalShortTimePattern();
 
-  constexpr ::StringW const& __get_generalShortTimePattern() const;
+  constexpr ::StringW const& __cordl_internal_get_generalShortTimePattern() const;
 
-  constexpr void __set_generalShortTimePattern(::StringW value);
+  constexpr void __cordl_internal_set_generalShortTimePattern(::StringW value);
 
-  constexpr ::StringW& __get_generalLongTimePattern();
+  constexpr ::StringW& __cordl_internal_get_generalLongTimePattern();
 
-  constexpr ::StringW const& __get_generalLongTimePattern() const;
+  constexpr ::StringW const& __cordl_internal_get_generalLongTimePattern() const;
 
-  constexpr void __set_generalLongTimePattern(::StringW value);
+  constexpr void __cordl_internal_set_generalLongTimePattern(::StringW value);
 
-  constexpr ::StringW& __get_timeSeparator();
+  constexpr ::StringW& __cordl_internal_get_timeSeparator();
 
-  constexpr ::StringW const& __get_timeSeparator() const;
+  constexpr ::StringW const& __cordl_internal_get_timeSeparator() const;
 
-  constexpr void __set_timeSeparator(::StringW value);
+  constexpr void __cordl_internal_set_timeSeparator(::StringW value);
 
-  constexpr ::StringW& __get_monthDayPattern();
+  constexpr ::StringW& __cordl_internal_get_monthDayPattern();
 
-  constexpr ::StringW const& __get_monthDayPattern() const;
+  constexpr ::StringW const& __cordl_internal_get_monthDayPattern() const;
 
-  constexpr void __set_monthDayPattern(::StringW value);
+  constexpr void __cordl_internal_set_monthDayPattern(::StringW value);
 
-  constexpr ::StringW& __get_dateTimeOffsetPattern();
+  constexpr ::StringW& __cordl_internal_get_dateTimeOffsetPattern();
 
-  constexpr ::StringW const& __get_dateTimeOffsetPattern() const;
+  constexpr ::StringW const& __cordl_internal_get_dateTimeOffsetPattern() const;
 
-  constexpr void __set_dateTimeOffsetPattern(::StringW value);
+  constexpr void __cordl_internal_set_dateTimeOffsetPattern(::StringW value);
 
-  constexpr ::System::Globalization::Calendar*& __get_calendar();
+  constexpr ::System::Globalization::Calendar*& __cordl_internal_get_calendar();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::Calendar*> const& __get_calendar() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::Calendar*> const& __cordl_internal_get_calendar() const;
 
-  constexpr void __set_calendar(::System::Globalization::Calendar* value);
+  constexpr void __cordl_internal_set_calendar(::System::Globalization::Calendar* value);
 
-  constexpr int32_t& __get_firstDayOfWeek();
+  constexpr int32_t& __cordl_internal_get_firstDayOfWeek();
 
-  constexpr int32_t const& __get_firstDayOfWeek() const;
+  constexpr int32_t const& __cordl_internal_get_firstDayOfWeek() const;
 
-  constexpr void __set_firstDayOfWeek(int32_t value);
+  constexpr void __cordl_internal_set_firstDayOfWeek(int32_t value);
 
-  constexpr int32_t& __get_calendarWeekRule();
+  constexpr int32_t& __cordl_internal_get_calendarWeekRule();
 
-  constexpr int32_t const& __get_calendarWeekRule() const;
+  constexpr int32_t const& __cordl_internal_get_calendarWeekRule() const;
 
-  constexpr void __set_calendarWeekRule(int32_t value);
+  constexpr void __cordl_internal_set_calendarWeekRule(int32_t value);
 
-  constexpr ::StringW& __get_fullDateTimePattern();
+  constexpr ::StringW& __cordl_internal_get_fullDateTimePattern();
 
-  constexpr ::StringW const& __get_fullDateTimePattern() const;
+  constexpr ::StringW const& __cordl_internal_get_fullDateTimePattern() const;
 
-  constexpr void __set_fullDateTimePattern(::StringW value);
+  constexpr void __cordl_internal_set_fullDateTimePattern(::StringW value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_abbreviatedDayNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_abbreviatedDayNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_abbreviatedDayNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_abbreviatedDayNames() const;
 
-  constexpr void __set_abbreviatedDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_abbreviatedDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_superShortDayNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_superShortDayNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_superShortDayNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_superShortDayNames() const;
 
-  constexpr void __set_m_superShortDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_superShortDayNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_dayNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_dayNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_dayNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_dayNames() const;
 
-  constexpr void __set_dayNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_dayNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_abbreviatedMonthNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_abbreviatedMonthNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_abbreviatedMonthNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_abbreviatedMonthNames() const;
 
-  constexpr void __set_abbreviatedMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_abbreviatedMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_monthNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_monthNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_monthNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_monthNames() const;
 
-  constexpr void __set_monthNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_monthNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_genitiveMonthNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_genitiveMonthNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_genitiveMonthNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_genitiveMonthNames() const;
 
-  constexpr void __set_genitiveMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_genitiveMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_genitiveAbbreviatedMonthNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_genitiveAbbreviatedMonthNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_genitiveAbbreviatedMonthNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_genitiveAbbreviatedMonthNames() const;
 
-  constexpr void __set_m_genitiveAbbreviatedMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_genitiveAbbreviatedMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_leapYearMonthNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_leapYearMonthNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_leapYearMonthNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_leapYearMonthNames() const;
 
-  constexpr void __set_leapYearMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_leapYearMonthNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::StringW& __get_longDatePattern();
+  constexpr ::StringW& __cordl_internal_get_longDatePattern();
 
-  constexpr ::StringW const& __get_longDatePattern() const;
+  constexpr ::StringW const& __cordl_internal_get_longDatePattern() const;
 
-  constexpr void __set_longDatePattern(::StringW value);
+  constexpr void __cordl_internal_set_longDatePattern(::StringW value);
 
-  constexpr ::StringW& __get_shortDatePattern();
+  constexpr ::StringW& __cordl_internal_get_shortDatePattern();
 
-  constexpr ::StringW const& __get_shortDatePattern() const;
+  constexpr ::StringW const& __cordl_internal_get_shortDatePattern() const;
 
-  constexpr void __set_shortDatePattern(::StringW value);
+  constexpr void __cordl_internal_set_shortDatePattern(::StringW value);
 
-  constexpr ::StringW& __get_yearMonthPattern();
+  constexpr ::StringW& __cordl_internal_get_yearMonthPattern();
 
-  constexpr ::StringW const& __get_yearMonthPattern() const;
+  constexpr ::StringW const& __cordl_internal_get_yearMonthPattern() const;
 
-  constexpr void __set_yearMonthPattern(::StringW value);
+  constexpr void __cordl_internal_set_yearMonthPattern(::StringW value);
 
-  constexpr ::StringW& __get_longTimePattern();
+  constexpr ::StringW& __cordl_internal_get_longTimePattern();
 
-  constexpr ::StringW const& __get_longTimePattern() const;
+  constexpr ::StringW const& __cordl_internal_get_longTimePattern() const;
 
-  constexpr void __set_longTimePattern(::StringW value);
+  constexpr void __cordl_internal_set_longTimePattern(::StringW value);
 
-  constexpr ::StringW& __get_shortTimePattern();
+  constexpr ::StringW& __cordl_internal_get_shortTimePattern();
 
-  constexpr ::StringW const& __get_shortTimePattern() const;
+  constexpr ::StringW const& __cordl_internal_get_shortTimePattern() const;
 
-  constexpr void __set_shortTimePattern(::StringW value);
+  constexpr void __cordl_internal_set_shortTimePattern(::StringW value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_allYearMonthPatterns();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_allYearMonthPatterns();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_allYearMonthPatterns() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_allYearMonthPatterns() const;
 
-  constexpr void __set_allYearMonthPatterns(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_allYearMonthPatterns(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_allShortDatePatterns();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_allShortDatePatterns();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_allShortDatePatterns() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_allShortDatePatterns() const;
 
-  constexpr void __set_allShortDatePatterns(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_allShortDatePatterns(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_allLongDatePatterns();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_allLongDatePatterns();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_allLongDatePatterns() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_allLongDatePatterns() const;
 
-  constexpr void __set_allLongDatePatterns(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_allLongDatePatterns(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_allShortTimePatterns();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_allShortTimePatterns();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_allShortTimePatterns() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_allShortTimePatterns() const;
 
-  constexpr void __set_allShortTimePatterns(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_allShortTimePatterns(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_allLongTimePatterns();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_allLongTimePatterns();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_allLongTimePatterns() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_allLongTimePatterns() const;
 
-  constexpr void __set_allLongTimePatterns(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_allLongTimePatterns(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_eraNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_eraNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_eraNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_eraNames() const;
 
-  constexpr void __set_m_eraNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_eraNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_abbrevEraNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_abbrevEraNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_abbrevEraNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_abbrevEraNames() const;
 
-  constexpr void __set_m_abbrevEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_abbrevEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get_m_abbrevEnglishEraNames();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_m_abbrevEnglishEraNames();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get_m_abbrevEnglishEraNames() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_abbrevEnglishEraNames() const;
 
-  constexpr void __set_m_abbrevEnglishEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set_m_abbrevEnglishEraNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::ArrayW<::System::Globalization::CalendarId, ::Array<::System::Globalization::CalendarId>*>& __get_optionalCalendars();
+  constexpr ::ArrayW<::System::Globalization::CalendarId, ::Array<::System::Globalization::CalendarId>*>& __cordl_internal_get_optionalCalendars();
 
-  constexpr ::ArrayW<::System::Globalization::CalendarId, ::Array<::System::Globalization::CalendarId>*> const& __get_optionalCalendars() const;
+  constexpr ::ArrayW<::System::Globalization::CalendarId, ::Array<::System::Globalization::CalendarId>*> const& __cordl_internal_get_optionalCalendars() const;
 
-  constexpr void __set_optionalCalendars(::ArrayW<::System::Globalization::CalendarId, ::Array<::System::Globalization::CalendarId>*> value);
+  constexpr void __cordl_internal_set_optionalCalendars(::ArrayW<::System::Globalization::CalendarId, ::Array<::System::Globalization::CalendarId>*> value);
 
-  constexpr bool& __get__isReadOnly();
+  constexpr bool& __cordl_internal_get__isReadOnly();
 
-  constexpr bool const& __get__isReadOnly() const;
+  constexpr bool const& __cordl_internal_get__isReadOnly() const;
 
-  constexpr void __set__isReadOnly(bool value);
+  constexpr void __cordl_internal_set__isReadOnly(bool value);
 
-  constexpr ::System::Globalization::DateTimeFormatFlags& __get_formatFlags();
+  constexpr ::System::Globalization::DateTimeFormatFlags& __cordl_internal_get_formatFlags();
 
-  constexpr ::System::Globalization::DateTimeFormatFlags const& __get_formatFlags() const;
+  constexpr ::System::Globalization::DateTimeFormatFlags const& __cordl_internal_get_formatFlags() const;
 
-  constexpr void __set_formatFlags(::System::Globalization::DateTimeFormatFlags value);
+  constexpr void __cordl_internal_set_formatFlags(::System::Globalization::DateTimeFormatFlags value);
 
-  constexpr ::StringW& __get__fullTimeSpanPositivePattern();
+  constexpr ::StringW& __cordl_internal_get__fullTimeSpanPositivePattern();
 
-  constexpr ::StringW const& __get__fullTimeSpanPositivePattern() const;
+  constexpr ::StringW const& __cordl_internal_get__fullTimeSpanPositivePattern() const;
 
-  constexpr void __set__fullTimeSpanPositivePattern(::StringW value);
+  constexpr void __cordl_internal_set__fullTimeSpanPositivePattern(::StringW value);
 
-  constexpr ::StringW& __get__fullTimeSpanNegativePattern();
+  constexpr ::StringW& __cordl_internal_get__fullTimeSpanNegativePattern();
 
-  constexpr ::StringW const& __get__fullTimeSpanNegativePattern() const;
+  constexpr ::StringW const& __cordl_internal_get__fullTimeSpanNegativePattern() const;
 
-  constexpr void __set__fullTimeSpanNegativePattern(::StringW value);
+  constexpr void __cordl_internal_set__fullTimeSpanNegativePattern(::StringW value);
 
-  constexpr ::ArrayW<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*, ::Array<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*>*>& __get__dtfiTokenHash();
+  constexpr ::ArrayW<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*, ::Array<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*>*>& __cordl_internal_get__dtfiTokenHash();
 
-  constexpr ::ArrayW<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*, ::Array<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*>*> const& __get__dtfiTokenHash() const;
+  constexpr ::ArrayW<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*, ::Array<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*>*> const&
+  __cordl_internal_get__dtfiTokenHash() const;
 
-  constexpr void __set__dtfiTokenHash(::ArrayW<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*, ::Array<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*>*> value);
+  constexpr void
+  __cordl_internal_set__dtfiTokenHash(::ArrayW<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*, ::Array<::System::Globalization::__DateTimeFormatInfo__TokenHashValue*>*> value);
 
   static inline void setStaticF_s_invariantInfo(::System::Globalization::DateTimeFormatInfo* value);
 

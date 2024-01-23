@@ -71,7 +71,7 @@ MARK_REF_PTR_T(::System::Threading::CancellationTokenSource);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2686))
 // CS Name: ::CancellationTokenSource::LinkedNCancellationTokenSource::<>c*
 class CORDL_TYPE __CancellationTokenSource__LinkedNCancellationTokenSource____c : public ::System::Object {
@@ -116,7 +116,7 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__CancellationT
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2688))
 // CS Name: ::System.Threading::CancellationTokenSource*
 class CORDL_TYPE CancellationTokenSource : public ::System::Object {
@@ -129,28 +129,27 @@ public:
   using Linked1CancellationTokenSource = ::System::Threading::__CancellationTokenSource__Linked1CancellationTokenSource;
 
   /// @brief Field _kernelEvent, offset 0x10, size 0x8
-  __declspec(property(get = __get__kernelEvent, put = __set__kernelEvent))::System::Threading::ManualResetEvent* _kernelEvent;
+  __declspec(property(get = __cordl_internal_get__kernelEvent, put = __cordl_internal_set__kernelEvent))::System::Threading::ManualResetEvent* _kernelEvent;
 
   /// @brief Field _registeredCallbacksLists, offset 0x18, size 0x8
-  __declspec(
-      property(get = __get__registeredCallbacksLists,
-               put = __set__registeredCallbacksLists))::ArrayW<::System::Threading::SparselyPopulatedArray_1<::System::Threading::CancellationCallbackInfo*>*,
-                                                               ::Array<::System::Threading::SparselyPopulatedArray_1<::System::Threading::CancellationCallbackInfo*>*>*> _registeredCallbacksLists;
+  __declspec(property(get = __cordl_internal_get__registeredCallbacksLists, put = __cordl_internal_set__registeredCallbacksLists))::ArrayW<
+      ::System::Threading::SparselyPopulatedArray_1<::System::Threading::CancellationCallbackInfo*>*,
+      ::Array<::System::Threading::SparselyPopulatedArray_1<::System::Threading::CancellationCallbackInfo*>*>*> _registeredCallbacksLists;
 
   /// @brief Field _state, offset 0x20, size 0x4
-  __declspec(property(get = __get__state, put = __set__state)) int32_t _state;
+  __declspec(property(get = __cordl_internal_get__state, put = __cordl_internal_set__state)) int32_t _state;
 
   /// @brief Field _threadIDExecutingCallbacks, offset 0x24, size 0x4
-  __declspec(property(get = __get__threadIDExecutingCallbacks, put = __set__threadIDExecutingCallbacks)) int32_t _threadIDExecutingCallbacks;
+  __declspec(property(get = __cordl_internal_get__threadIDExecutingCallbacks, put = __cordl_internal_set__threadIDExecutingCallbacks)) int32_t _threadIDExecutingCallbacks;
 
   /// @brief Field _disposed, offset 0x28, size 0x1
-  __declspec(property(get = __get__disposed, put = __set__disposed)) bool _disposed;
+  __declspec(property(get = __cordl_internal_get__disposed, put = __cordl_internal_set__disposed)) bool _disposed;
 
   /// @brief Field _executingCallback, offset 0x30, size 0x8
-  __declspec(property(get = __get__executingCallback, put = __set__executingCallback))::System::Threading::CancellationCallbackInfo* _executingCallback;
+  __declspec(property(get = __cordl_internal_get__executingCallback, put = __cordl_internal_set__executingCallback))::System::Threading::CancellationCallbackInfo* _executingCallback;
 
   /// @brief Field _timer, offset 0x38, size 0x8
-  __declspec(property(get = __get__timer, put = __set__timer))::System::Threading::Timer* _timer;
+  __declspec(property(get = __cordl_internal_get__timer, put = __cordl_internal_set__timer))::System::Threading::Timer* _timer;
 
   /// @brief Field s_canceledSource, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_canceledSource, put = setStaticF_s_canceledSource))::System::Threading::CancellationTokenSource* s_canceledSource;
@@ -182,53 +181,53 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Threading::ManualResetEvent*& __get__kernelEvent();
+  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get__kernelEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __get__kernelEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get__kernelEvent() const;
 
-  constexpr void __set__kernelEvent(::System::Threading::ManualResetEvent* value);
+  constexpr void __cordl_internal_set__kernelEvent(::System::Threading::ManualResetEvent* value);
 
   constexpr ::ArrayW<::System::Threading::SparselyPopulatedArray_1<::System::Threading::CancellationCallbackInfo*>*,
                      ::Array<::System::Threading::SparselyPopulatedArray_1<::System::Threading::CancellationCallbackInfo*>*>*>&
-  __get__registeredCallbacksLists();
+  __cordl_internal_get__registeredCallbacksLists();
 
   constexpr ::ArrayW<::System::Threading::SparselyPopulatedArray_1<::System::Threading::CancellationCallbackInfo*>*,
                      ::Array<::System::Threading::SparselyPopulatedArray_1<::System::Threading::CancellationCallbackInfo*>*>*> const&
-  __get__registeredCallbacksLists() const;
+  __cordl_internal_get__registeredCallbacksLists() const;
 
-  constexpr void __set__registeredCallbacksLists(::ArrayW<::System::Threading::SparselyPopulatedArray_1<::System::Threading::CancellationCallbackInfo*>*,
-                                                          ::Array<::System::Threading::SparselyPopulatedArray_1<::System::Threading::CancellationCallbackInfo*>*>*>
-                                                     value);
+  constexpr void __cordl_internal_set__registeredCallbacksLists(::ArrayW<::System::Threading::SparselyPopulatedArray_1<::System::Threading::CancellationCallbackInfo*>*,
+                                                                         ::Array<::System::Threading::SparselyPopulatedArray_1<::System::Threading::CancellationCallbackInfo*>*>*>
+                                                                    value);
 
-  constexpr int32_t& __get__state();
+  constexpr int32_t& __cordl_internal_get__state();
 
-  constexpr int32_t const& __get__state() const;
+  constexpr int32_t const& __cordl_internal_get__state() const;
 
-  constexpr void __set__state(int32_t value);
+  constexpr void __cordl_internal_set__state(int32_t value);
 
-  constexpr int32_t& __get__threadIDExecutingCallbacks();
+  constexpr int32_t& __cordl_internal_get__threadIDExecutingCallbacks();
 
-  constexpr int32_t const& __get__threadIDExecutingCallbacks() const;
+  constexpr int32_t const& __cordl_internal_get__threadIDExecutingCallbacks() const;
 
-  constexpr void __set__threadIDExecutingCallbacks(int32_t value);
+  constexpr void __cordl_internal_set__threadIDExecutingCallbacks(int32_t value);
 
-  constexpr bool& __get__disposed();
+  constexpr bool& __cordl_internal_get__disposed();
 
-  constexpr bool const& __get__disposed() const;
+  constexpr bool const& __cordl_internal_get__disposed() const;
 
-  constexpr void __set__disposed(bool value);
+  constexpr void __cordl_internal_set__disposed(bool value);
 
-  constexpr ::System::Threading::CancellationCallbackInfo*& __get__executingCallback();
+  constexpr ::System::Threading::CancellationCallbackInfo*& __cordl_internal_get__executingCallback();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationCallbackInfo*> const& __get__executingCallback() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationCallbackInfo*> const& __cordl_internal_get__executingCallback() const;
 
-  constexpr void __set__executingCallback(::System::Threading::CancellationCallbackInfo* value);
+  constexpr void __cordl_internal_set__executingCallback(::System::Threading::CancellationCallbackInfo* value);
 
-  constexpr ::System::Threading::Timer*& __get__timer();
+  constexpr ::System::Threading::Timer*& __cordl_internal_get__timer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Timer*> const& __get__timer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Timer*> const& __cordl_internal_get__timer() const;
 
-  constexpr void __set__timer(::System::Threading::Timer* value);
+  constexpr void __cordl_internal_set__timer(::System::Threading::Timer* value);
 
   static inline void setStaticF_s_canceledSource(::System::Threading::CancellationTokenSource* value);
 

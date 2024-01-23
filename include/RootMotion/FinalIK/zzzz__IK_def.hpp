@@ -17,7 +17,7 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::IK);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 51, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12499))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12499))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12536))
 // CS Name: ::RootMotion.FinalIK::IK*
 class CORDL_TYPE IK : public ::RootMotion::SolverManager {

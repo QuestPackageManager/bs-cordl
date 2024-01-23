@@ -19,23 +19,23 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::HkdfParameters);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1057))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::HkdfParameters*
 class CORDL_TYPE HkdfParameters : public ::System::Object {
 public:
   // Declarations
   /// @brief Field ikm, offset 0x10, size 0x8
-  __declspec(property(get = __get_ikm, put = __set_ikm))::ArrayW<uint8_t, ::Array<uint8_t>*> ikm;
+  __declspec(property(get = __cordl_internal_get_ikm, put = __cordl_internal_set_ikm))::ArrayW<uint8_t, ::Array<uint8_t>*> ikm;
 
   /// @brief Field skipExpand, offset 0x18, size 0x1
-  __declspec(property(get = __get_skipExpand, put = __set_skipExpand)) bool skipExpand;
+  __declspec(property(get = __cordl_internal_get_skipExpand, put = __cordl_internal_set_skipExpand)) bool skipExpand;
 
   /// @brief Field salt, offset 0x20, size 0x8
-  __declspec(property(get = __get_salt, put = __set_salt))::ArrayW<uint8_t, ::Array<uint8_t>*> salt;
+  __declspec(property(get = __cordl_internal_get_salt, put = __cordl_internal_set_salt))::ArrayW<uint8_t, ::Array<uint8_t>*> salt;
 
   /// @brief Field info, offset 0x28, size 0x8
-  __declspec(property(get = __get_info, put = __set_info))::ArrayW<uint8_t, ::Array<uint8_t>*> info;
+  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::ArrayW<uint8_t, ::Array<uint8_t>*> info;
 
   __declspec(property(get = get_SkipExtract)) bool SkipExtract;
 
@@ -45,29 +45,29 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr ::Org::BouncyCastle::Crypto::IDerivationParameters* i___Org__BouncyCastle__Crypto__IDerivationParameters() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_ikm();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_ikm();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_ikm() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_ikm() const;
 
-  constexpr void __set_ikm(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_ikm(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get_skipExpand();
+  constexpr bool& __cordl_internal_get_skipExpand();
 
-  constexpr bool const& __get_skipExpand() const;
+  constexpr bool const& __cordl_internal_get_skipExpand() const;
 
-  constexpr void __set_skipExpand(bool value);
+  constexpr void __cordl_internal_set_skipExpand(bool value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_salt();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_salt();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_salt() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_salt() const;
 
-  constexpr void __set_salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_info();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_info();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_info() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_info() const;
 
-  constexpr void __set_info(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_info(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::HkdfParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ikm, bool skip, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt,
                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> info);

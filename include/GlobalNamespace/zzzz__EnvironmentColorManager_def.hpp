@@ -26,29 +26,29 @@ MARK_REF_PTR_T(::GlobalNamespace::EnvironmentColorManager);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5833))
 // CS Name: ::EnvironmentColorManager*
 class CORDL_TYPE EnvironmentColorManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _defaultColorScheme, offset 0x18, size 0x8
-  __declspec(property(get = __get__defaultColorScheme, put = __set__defaultColorScheme))::GlobalNamespace::ColorSchemeSO* _defaultColorScheme;
+  __declspec(property(get = __cordl_internal_get__defaultColorScheme, put = __cordl_internal_set__defaultColorScheme))::UnityW<::GlobalNamespace::ColorSchemeSO> _defaultColorScheme;
 
   /// @brief Field _environmentColor0, offset 0x20, size 0x8
-  __declspec(property(get = __get__environmentColor0, put = __set__environmentColor0))::GlobalNamespace::SimpleColorSO* _environmentColor0;
+  __declspec(property(get = __cordl_internal_get__environmentColor0, put = __cordl_internal_set__environmentColor0))::UnityW<::GlobalNamespace::SimpleColorSO> _environmentColor0;
 
   /// @brief Field _environmentColor1, offset 0x28, size 0x8
-  __declspec(property(get = __get__environmentColor1, put = __set__environmentColor1))::GlobalNamespace::SimpleColorSO* _environmentColor1;
+  __declspec(property(get = __cordl_internal_get__environmentColor1, put = __cordl_internal_set__environmentColor1))::UnityW<::GlobalNamespace::SimpleColorSO> _environmentColor1;
 
   /// @brief Field _environmentColor0Boost, offset 0x30, size 0x8
-  __declspec(property(get = __get__environmentColor0Boost, put = __set__environmentColor0Boost))::GlobalNamespace::SimpleColorSO* _environmentColor0Boost;
+  __declspec(property(get = __cordl_internal_get__environmentColor0Boost, put = __cordl_internal_set__environmentColor0Boost))::UnityW<::GlobalNamespace::SimpleColorSO> _environmentColor0Boost;
 
   /// @brief Field _environmentColor1Boost, offset 0x38, size 0x8
-  __declspec(property(get = __get__environmentColor1Boost, put = __set__environmentColor1Boost))::GlobalNamespace::SimpleColorSO* _environmentColor1Boost;
+  __declspec(property(get = __cordl_internal_get__environmentColor1Boost, put = __cordl_internal_set__environmentColor1Boost))::UnityW<::GlobalNamespace::SimpleColorSO> _environmentColor1Boost;
 
   /// @brief Field _colorScheme, offset 0x40, size 0x8
-  __declspec(property(get = __get__colorScheme, put = __set__colorScheme))::GlobalNamespace::ColorScheme* _colorScheme;
+  __declspec(property(get = __cordl_internal_get__colorScheme, put = __cordl_internal_set__colorScheme))::GlobalNamespace::ColorScheme* _colorScheme;
 
   __declspec(property(get = get_environmentColor0))::UnityEngine::Color environmentColor0;
 
@@ -58,41 +58,41 @@ public:
 
   __declspec(property(get = get_environmentColor1Boost))::UnityEngine::Color environmentColor1Boost;
 
-  constexpr ::GlobalNamespace::ColorSchemeSO*& __get__defaultColorScheme();
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO>& __cordl_internal_get__defaultColorScheme();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeSO*> const& __get__defaultColorScheme() const;
+  constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO> const& __cordl_internal_get__defaultColorScheme() const;
 
-  constexpr void __set__defaultColorScheme(::GlobalNamespace::ColorSchemeSO* value);
+  constexpr void __cordl_internal_set__defaultColorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value);
 
-  constexpr ::GlobalNamespace::SimpleColorSO*& __get__environmentColor0();
+  constexpr ::UnityW<::GlobalNamespace::SimpleColorSO>& __cordl_internal_get__environmentColor0();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SimpleColorSO*> const& __get__environmentColor0() const;
+  constexpr ::UnityW<::GlobalNamespace::SimpleColorSO> const& __cordl_internal_get__environmentColor0() const;
 
-  constexpr void __set__environmentColor0(::GlobalNamespace::SimpleColorSO* value);
+  constexpr void __cordl_internal_set__environmentColor0(::UnityW<::GlobalNamespace::SimpleColorSO> value);
 
-  constexpr ::GlobalNamespace::SimpleColorSO*& __get__environmentColor1();
+  constexpr ::UnityW<::GlobalNamespace::SimpleColorSO>& __cordl_internal_get__environmentColor1();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SimpleColorSO*> const& __get__environmentColor1() const;
+  constexpr ::UnityW<::GlobalNamespace::SimpleColorSO> const& __cordl_internal_get__environmentColor1() const;
 
-  constexpr void __set__environmentColor1(::GlobalNamespace::SimpleColorSO* value);
+  constexpr void __cordl_internal_set__environmentColor1(::UnityW<::GlobalNamespace::SimpleColorSO> value);
 
-  constexpr ::GlobalNamespace::SimpleColorSO*& __get__environmentColor0Boost();
+  constexpr ::UnityW<::GlobalNamespace::SimpleColorSO>& __cordl_internal_get__environmentColor0Boost();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SimpleColorSO*> const& __get__environmentColor0Boost() const;
+  constexpr ::UnityW<::GlobalNamespace::SimpleColorSO> const& __cordl_internal_get__environmentColor0Boost() const;
 
-  constexpr void __set__environmentColor0Boost(::GlobalNamespace::SimpleColorSO* value);
+  constexpr void __cordl_internal_set__environmentColor0Boost(::UnityW<::GlobalNamespace::SimpleColorSO> value);
 
-  constexpr ::GlobalNamespace::SimpleColorSO*& __get__environmentColor1Boost();
+  constexpr ::UnityW<::GlobalNamespace::SimpleColorSO>& __cordl_internal_get__environmentColor1Boost();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SimpleColorSO*> const& __get__environmentColor1Boost() const;
+  constexpr ::UnityW<::GlobalNamespace::SimpleColorSO> const& __cordl_internal_get__environmentColor1Boost() const;
 
-  constexpr void __set__environmentColor1Boost(::GlobalNamespace::SimpleColorSO* value);
+  constexpr void __cordl_internal_set__environmentColor1Boost(::UnityW<::GlobalNamespace::SimpleColorSO> value);
 
-  constexpr ::GlobalNamespace::ColorScheme*& __get__colorScheme();
+  constexpr ::GlobalNamespace::ColorScheme*& __cordl_internal_get__colorScheme();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& __get__colorScheme() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorScheme*> const& __cordl_internal_get__colorScheme() const;
 
-  constexpr void __set__colorScheme(::GlobalNamespace::ColorScheme* value);
+  constexpr void __cordl_internal_set__colorScheme(::GlobalNamespace::ColorScheme* value);
 
   /// @brief Method get_environmentColor0, addr 0x22ebfe4, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_environmentColor0();
@@ -138,19 +138,19 @@ protected:
 
 public:
   /// @brief Field _defaultColorScheme, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::ColorSchemeSO* ____defaultColorScheme;
+  ::UnityW<::GlobalNamespace::ColorSchemeSO> ____defaultColorScheme;
 
   /// @brief Field _environmentColor0, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::SimpleColorSO* ____environmentColor0;
+  ::UnityW<::GlobalNamespace::SimpleColorSO> ____environmentColor0;
 
   /// @brief Field _environmentColor1, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::SimpleColorSO* ____environmentColor1;
+  ::UnityW<::GlobalNamespace::SimpleColorSO> ____environmentColor1;
 
   /// @brief Field _environmentColor0Boost, offset: 0x30, size: 0x8, def value: None
-  ::GlobalNamespace::SimpleColorSO* ____environmentColor0Boost;
+  ::UnityW<::GlobalNamespace::SimpleColorSO> ____environmentColor0Boost;
 
   /// @brief Field _environmentColor1Boost, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::SimpleColorSO* ____environmentColor1Boost;
+  ::UnityW<::GlobalNamespace::SimpleColorSO> ____environmentColor1Boost;
 
   /// @brief Field _colorScheme, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::ColorScheme* ____colorScheme;

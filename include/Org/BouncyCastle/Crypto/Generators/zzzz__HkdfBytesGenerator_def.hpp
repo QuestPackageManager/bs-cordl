@@ -31,26 +31,26 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(906))
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::HkdfBytesGenerator*
 class CORDL_TYPE HkdfBytesGenerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field hMacHash, offset 0x10, size 0x8
-  __declspec(property(get = __get_hMacHash, put = __set_hMacHash))::Org::BouncyCastle::Crypto::Macs::HMac* hMacHash;
+  __declspec(property(get = __cordl_internal_get_hMacHash, put = __cordl_internal_set_hMacHash))::Org::BouncyCastle::Crypto::Macs::HMac* hMacHash;
 
   /// @brief Field hashLen, offset 0x18, size 0x4
-  __declspec(property(get = __get_hashLen, put = __set_hashLen)) int32_t hashLen;
+  __declspec(property(get = __cordl_internal_get_hashLen, put = __cordl_internal_set_hashLen)) int32_t hashLen;
 
   /// @brief Field info, offset 0x20, size 0x8
-  __declspec(property(get = __get_info, put = __set_info))::ArrayW<uint8_t, ::Array<uint8_t>*> info;
+  __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info))::ArrayW<uint8_t, ::Array<uint8_t>*> info;
 
   /// @brief Field currentT, offset 0x28, size 0x8
-  __declspec(property(get = __get_currentT, put = __set_currentT))::ArrayW<uint8_t, ::Array<uint8_t>*> currentT;
+  __declspec(property(get = __cordl_internal_get_currentT, put = __cordl_internal_set_currentT))::ArrayW<uint8_t, ::Array<uint8_t>*> currentT;
 
   /// @brief Field generatedBytes, offset 0x30, size 0x4
-  __declspec(property(get = __get_generatedBytes, put = __set_generatedBytes)) int32_t generatedBytes;
+  __declspec(property(get = __cordl_internal_get_generatedBytes, put = __cordl_internal_set_generatedBytes)) int32_t generatedBytes;
 
   __declspec(property(get = get_Digest))::Org::BouncyCastle::Crypto::IDigest* Digest;
 
@@ -60,35 +60,35 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"
   constexpr ::Org::BouncyCastle::Crypto::IDerivationFunction* i___Org__BouncyCastle__Crypto__IDerivationFunction() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::Macs::HMac*& __get_hMacHash();
+  constexpr ::Org::BouncyCastle::Crypto::Macs::HMac*& __cordl_internal_get_hMacHash();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Macs::HMac*> const& __get_hMacHash() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Macs::HMac*> const& __cordl_internal_get_hMacHash() const;
 
-  constexpr void __set_hMacHash(::Org::BouncyCastle::Crypto::Macs::HMac* value);
+  constexpr void __cordl_internal_set_hMacHash(::Org::BouncyCastle::Crypto::Macs::HMac* value);
 
-  constexpr int32_t& __get_hashLen();
+  constexpr int32_t& __cordl_internal_get_hashLen();
 
-  constexpr int32_t const& __get_hashLen() const;
+  constexpr int32_t const& __cordl_internal_get_hashLen() const;
 
-  constexpr void __set_hashLen(int32_t value);
+  constexpr void __cordl_internal_set_hashLen(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_info();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_info();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_info() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_info() const;
 
-  constexpr void __set_info(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_info(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_currentT();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_currentT();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_currentT() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_currentT() const;
 
-  constexpr void __set_currentT(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_currentT(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_generatedBytes();
+  constexpr int32_t& __cordl_internal_get_generatedBytes();
 
-  constexpr int32_t const& __get_generatedBytes() const;
+  constexpr int32_t const& __cordl_internal_get_generatedBytes() const;
 
-  constexpr void __set_generatedBytes(int32_t value);
+  constexpr void __cordl_internal_set_generatedBytes(int32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::HkdfBytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* hash);
 

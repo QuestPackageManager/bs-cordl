@@ -33,29 +33,29 @@ MARK_REF_PTR_T(::Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate)
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13396))
 // CS Name: ::VoipAudioSourceHiLevel::FilterReadDelegate*
 class CORDL_TYPE __VoipAudioSourceHiLevel__FilterReadDelegate : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field parent, offset 0x18, size 0x8
-  __declspec(property(get = __get_parent, put = __set_parent))::Oculus::Platform::VoipAudioSourceHiLevel* parent;
+  __declspec(property(get = __cordl_internal_get_parent, put = __cordl_internal_set_parent))::UnityW<::Oculus::Platform::VoipAudioSourceHiLevel> parent;
 
   /// @brief Field scratchBuffer, offset 0x20, size 0x8
-  __declspec(property(get = __get_scratchBuffer, put = __set_scratchBuffer))::ArrayW<float_t, ::Array<float_t>*> scratchBuffer;
+  __declspec(property(get = __cordl_internal_get_scratchBuffer, put = __cordl_internal_set_scratchBuffer))::ArrayW<float_t, ::Array<float_t>*> scratchBuffer;
 
-  constexpr ::Oculus::Platform::VoipAudioSourceHiLevel*& __get_parent();
+  constexpr ::UnityW<::Oculus::Platform::VoipAudioSourceHiLevel>& __cordl_internal_get_parent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::VoipAudioSourceHiLevel*> const& __get_parent() const;
+  constexpr ::UnityW<::Oculus::Platform::VoipAudioSourceHiLevel> const& __cordl_internal_get_parent() const;
 
-  constexpr void __set_parent(::Oculus::Platform::VoipAudioSourceHiLevel* value);
+  constexpr void __cordl_internal_set_parent(::UnityW<::Oculus::Platform::VoipAudioSourceHiLevel> value);
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __get_scratchBuffer();
+  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get_scratchBuffer();
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __get_scratchBuffer() const;
+  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get_scratchBuffer() const;
 
-  constexpr void __set_scratchBuffer(::ArrayW<float_t, ::Array<float_t>*> value);
+  constexpr void __cordl_internal_set_scratchBuffer(::ArrayW<float_t, ::Array<float_t>*> value);
 
   /// @brief Method Awake, addr 0x2701b50, size 0xb4, virtual false, abstract: false, final false
   inline void Awake();
@@ -83,7 +83,7 @@ protected:
 
 public:
   /// @brief Field parent, offset: 0x18, size: 0x8, def value: None
-  ::Oculus::Platform::VoipAudioSourceHiLevel* ___parent;
+  ::UnityW<::Oculus::Platform::VoipAudioSourceHiLevel> ___parent;
 
   /// @brief Field scratchBuffer, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<float_t, ::Array<float_t>*> ___scratchBuffer;
@@ -102,7 +102,7 @@ static_assert(offsetof(::Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadD
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13397))
 // CS Name: ::Oculus.Platform::VoipAudioSourceHiLevel*
 class CORDL_TYPE VoipAudioSourceHiLevel : public ::UnityEngine::MonoBehaviour {
@@ -111,16 +111,16 @@ public:
   using FilterReadDelegate = ::Oculus::Platform::__VoipAudioSourceHiLevel__FilterReadDelegate;
 
   /// @brief Field initialPlaybackDelayMS, offset 0x18, size 0x4
-  __declspec(property(get = __get_initialPlaybackDelayMS, put = __set_initialPlaybackDelayMS)) int32_t initialPlaybackDelayMS;
+  __declspec(property(get = __cordl_internal_get_initialPlaybackDelayMS, put = __cordl_internal_set_initialPlaybackDelayMS)) int32_t initialPlaybackDelayMS;
 
   /// @brief Field audioSource, offset 0x20, size 0x8
-  __declspec(property(get = __get_audioSource, put = __set_audioSource))::UnityEngine::AudioSource* audioSource;
+  __declspec(property(get = __cordl_internal_get_audioSource, put = __cordl_internal_set_audioSource))::UnityW<::UnityEngine::AudioSource> audioSource;
 
   /// @brief Field peakAmplitude, offset 0x28, size 0x4
-  __declspec(property(get = __get_peakAmplitude, put = __set_peakAmplitude)) float_t peakAmplitude;
+  __declspec(property(get = __cordl_internal_get_peakAmplitude, put = __cordl_internal_set_peakAmplitude)) float_t peakAmplitude;
 
   /// @brief Field pcmSource, offset 0x30, size 0x8
-  __declspec(property(get = __get_pcmSource, put = __set_pcmSource))::Oculus::Platform::IVoipPCMSource* pcmSource;
+  __declspec(property(get = __cordl_internal_get_pcmSource, put = __cordl_internal_set_pcmSource))::Oculus::Platform::IVoipPCMSource* pcmSource;
 
   /// @brief Field audioSystemPlaybackFrequency, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_audioSystemPlaybackFrequency, put = setStaticF_audioSystemPlaybackFrequency)) int32_t audioSystemPlaybackFrequency;
@@ -130,29 +130,29 @@ public:
 
   __declspec(property(put = set_senderID)) uint64_t senderID;
 
-  constexpr int32_t& __get_initialPlaybackDelayMS();
+  constexpr int32_t& __cordl_internal_get_initialPlaybackDelayMS();
 
-  constexpr int32_t const& __get_initialPlaybackDelayMS() const;
+  constexpr int32_t const& __cordl_internal_get_initialPlaybackDelayMS() const;
 
-  constexpr void __set_initialPlaybackDelayMS(int32_t value);
+  constexpr void __cordl_internal_set_initialPlaybackDelayMS(int32_t value);
 
-  constexpr ::UnityEngine::AudioSource*& __get_audioSource();
+  constexpr ::UnityW<::UnityEngine::AudioSource>& __cordl_internal_get_audioSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioSource*> const& __get_audioSource() const;
+  constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get_audioSource() const;
 
-  constexpr void __set_audioSource(::UnityEngine::AudioSource* value);
+  constexpr void __cordl_internal_set_audioSource(::UnityW<::UnityEngine::AudioSource> value);
 
-  constexpr float_t& __get_peakAmplitude();
+  constexpr float_t& __cordl_internal_get_peakAmplitude();
 
-  constexpr float_t const& __get_peakAmplitude() const;
+  constexpr float_t const& __cordl_internal_get_peakAmplitude() const;
 
-  constexpr void __set_peakAmplitude(float_t value);
+  constexpr void __cordl_internal_set_peakAmplitude(float_t value);
 
-  constexpr ::Oculus::Platform::IVoipPCMSource*& __get_pcmSource();
+  constexpr ::Oculus::Platform::IVoipPCMSource*& __cordl_internal_get_pcmSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::IVoipPCMSource*> const& __get_pcmSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::Oculus::Platform::IVoipPCMSource*> const& __cordl_internal_get_pcmSource() const;
 
-  constexpr void __set_pcmSource(::Oculus::Platform::IVoipPCMSource* value);
+  constexpr void __cordl_internal_set_pcmSource(::Oculus::Platform::IVoipPCMSource* value);
 
   static inline void setStaticF_audioSystemPlaybackFrequency(int32_t value);
 
@@ -209,7 +209,7 @@ public:
   int32_t ___initialPlaybackDelayMS;
 
   /// @brief Field audioSource, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::AudioSource* ___audioSource;
+  ::UnityW<::UnityEngine::AudioSource> ___audioSource;
 
   /// @brief Field peakAmplitude, offset: 0x28, size: 0x4, def value: None
   float_t ___peakAmplitude;

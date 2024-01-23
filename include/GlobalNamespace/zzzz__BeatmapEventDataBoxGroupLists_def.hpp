@@ -33,50 +33,49 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventDataBoxGroupLists);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4307))
 // CS Name: ::BeatmapEventDataBoxGroupLists*
 class CORDL_TYPE BeatmapEventDataBoxGroupLists : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _beatmapEventDataBoxGroupListDict, offset 0x10, size 0x8
-  __declspec(property(
-      get = __get__beatmapEventDataBoxGroupListDict,
-      put = __set__beatmapEventDataBoxGroupListDict))::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::BeatmapEventDataBoxGroupList*>* _beatmapEventDataBoxGroupListDict;
+  __declspec(property(get = __cordl_internal_get__beatmapEventDataBoxGroupListDict, put = __cordl_internal_set__beatmapEventDataBoxGroupListDict))::System::Collections::Generic::Dictionary_2<
+      int32_t, ::GlobalNamespace::BeatmapEventDataBoxGroupList*>* _beatmapEventDataBoxGroupListDict;
 
   /// @brief Field _beatmapData, offset 0x18, size 0x8
-  __declspec(property(get = __get__beatmapData, put = __set__beatmapData))::GlobalNamespace::BeatmapData* _beatmapData;
+  __declspec(property(get = __cordl_internal_get__beatmapData, put = __cordl_internal_set__beatmapData))::GlobalNamespace::BeatmapData* _beatmapData;
 
   /// @brief Field _beatToTimeConvertor, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatToTimeConvertor, put = __set__beatToTimeConvertor))::GlobalNamespace::IBeatToTimeConvertor* _beatToTimeConvertor;
+  __declspec(property(get = __cordl_internal_get__beatToTimeConvertor, put = __cordl_internal_set__beatToTimeConvertor))::GlobalNamespace::IBeatToTimeConvertor* _beatToTimeConvertor;
 
   /// @brief Field _updateBeatmapDataOnInsert, offset 0x28, size 0x1
-  __declspec(property(get = __get__updateBeatmapDataOnInsert, put = __set__updateBeatmapDataOnInsert)) bool _updateBeatmapDataOnInsert;
+  __declspec(property(get = __cordl_internal_get__updateBeatmapDataOnInsert, put = __cordl_internal_set__updateBeatmapDataOnInsert)) bool _updateBeatmapDataOnInsert;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::BeatmapEventDataBoxGroupList*>*& __get__beatmapEventDataBoxGroupListDict();
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::BeatmapEventDataBoxGroupList*>*& __cordl_internal_get__beatmapEventDataBoxGroupListDict();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::BeatmapEventDataBoxGroupList*>*> const&
-  __get__beatmapEventDataBoxGroupListDict() const;
+  __cordl_internal_get__beatmapEventDataBoxGroupListDict() const;
 
-  constexpr void __set__beatmapEventDataBoxGroupListDict(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::BeatmapEventDataBoxGroupList*>* value);
+  constexpr void __cordl_internal_set__beatmapEventDataBoxGroupListDict(::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::BeatmapEventDataBoxGroupList*>* value);
 
-  constexpr ::GlobalNamespace::BeatmapData*& __get__beatmapData();
+  constexpr ::GlobalNamespace::BeatmapData*& __cordl_internal_get__beatmapData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapData*> const& __get__beatmapData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapData*> const& __cordl_internal_get__beatmapData() const;
 
-  constexpr void __set__beatmapData(::GlobalNamespace::BeatmapData* value);
+  constexpr void __cordl_internal_set__beatmapData(::GlobalNamespace::BeatmapData* value);
 
-  constexpr ::GlobalNamespace::IBeatToTimeConvertor*& __get__beatToTimeConvertor();
+  constexpr ::GlobalNamespace::IBeatToTimeConvertor*& __cordl_internal_get__beatToTimeConvertor();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatToTimeConvertor*> const& __get__beatToTimeConvertor() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatToTimeConvertor*> const& __cordl_internal_get__beatToTimeConvertor() const;
 
-  constexpr void __set__beatToTimeConvertor(::GlobalNamespace::IBeatToTimeConvertor* value);
+  constexpr void __cordl_internal_set__beatToTimeConvertor(::GlobalNamespace::IBeatToTimeConvertor* value);
 
-  constexpr bool& __get__updateBeatmapDataOnInsert();
+  constexpr bool& __cordl_internal_get__updateBeatmapDataOnInsert();
 
-  constexpr bool const& __get__updateBeatmapDataOnInsert() const;
+  constexpr bool const& __cordl_internal_get__updateBeatmapDataOnInsert() const;
 
-  constexpr void __set__updateBeatmapDataOnInsert(bool value);
+  constexpr void __cordl_internal_set__updateBeatmapDataOnInsert(bool value);
 
   static inline ::GlobalNamespace::BeatmapEventDataBoxGroupLists* New_ctor(::GlobalNamespace::BeatmapData* beatmapData, ::GlobalNamespace::IBeatToTimeConvertor* beatToTimeConvertor,
                                                                            bool updateBeatmapDataOnInsert);

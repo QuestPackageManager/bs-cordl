@@ -48,7 +48,7 @@ MARK_VAL_T(::System::Runtime::Remoting::Channels::__CrossAppDomainSink__ProcessM
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Channels {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3117))
 // CS Name: ::CrossAppDomainSink::ProcessMessageRes
 struct CORDL_TYPE __CrossAppDomainSink__ProcessMessageRes {
@@ -85,7 +85,7 @@ static_assert(offsetof(::System::Runtime::Remoting::Channels::__CrossAppDomainSi
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3118))
 // CS Name: ::System.Runtime.Remoting.Channels::CrossAppDomainSink*
 class CORDL_TYPE CrossAppDomainSink : public ::System::Object {
@@ -94,7 +94,7 @@ public:
   using ProcessMessageRes = ::System::Runtime::Remoting::Channels::__CrossAppDomainSink__ProcessMessageRes;
 
   /// @brief Field _domainID, offset 0x10, size 0x4
-  __declspec(property(get = __get__domainID, put = __set__domainID)) int32_t _domainID;
+  __declspec(property(get = __cordl_internal_get__domainID, put = __cordl_internal_set__domainID)) int32_t _domainID;
 
   /// @brief Field s_sinks, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_s_sinks, put = setStaticF_s_sinks))::System::Collections::Hashtable* s_sinks;
@@ -110,11 +110,11 @@ public:
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr ::System::Runtime::Remoting::Messaging::IMessageSink* i___System__Runtime__Remoting__Messaging__IMessageSink() noexcept;
 
-  constexpr int32_t& __get__domainID();
+  constexpr int32_t& __cordl_internal_get__domainID();
 
-  constexpr int32_t const& __get__domainID() const;
+  constexpr int32_t const& __cordl_internal_get__domainID() const;
 
-  constexpr void __set__domainID(int32_t value);
+  constexpr void __cordl_internal_set__domainID(int32_t value);
 
   static inline void setStaticF_s_sinks(::System::Collections::Hashtable* value);
 

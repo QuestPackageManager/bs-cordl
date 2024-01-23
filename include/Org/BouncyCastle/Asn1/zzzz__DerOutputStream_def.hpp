@@ -28,7 +28,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerOutputStream);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(452))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(452))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(457))
 // CS Name: ::Org.BouncyCastle.Asn1::DerOutputStream*
 class CORDL_TYPE DerOutputStream : public ::Org::BouncyCastle::Utilities::IO::FilterStream {

@@ -69,17 +69,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1663))
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpSecretKey*
 class CORDL_TYPE PgpSecretKey : public ::System::Object {
 public:
   // Declarations
   /// @brief Field secret, offset 0x10, size 0x8
-  __declspec(property(get = __get_secret, put = __set_secret))::Org::BouncyCastle::Bcpg::SecretKeyPacket* secret;
+  __declspec(property(get = __cordl_internal_get_secret, put = __cordl_internal_set_secret))::Org::BouncyCastle::Bcpg::SecretKeyPacket* secret;
 
   /// @brief Field pub, offset 0x18, size 0x8
-  __declspec(property(get = __get_pub, put = __set_pub))::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pub;
+  __declspec(property(get = __cordl_internal_get_pub, put = __cordl_internal_set_pub))::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pub;
 
   __declspec(property(get = get_IsSigningKey)) bool IsSigningKey;
 
@@ -101,17 +101,17 @@ public:
 
   __declspec(property(get = get_UserAttributes))::System::Collections::IEnumerable* UserAttributes;
 
-  constexpr ::Org::BouncyCastle::Bcpg::SecretKeyPacket*& __get_secret();
+  constexpr ::Org::BouncyCastle::Bcpg::SecretKeyPacket*& __cordl_internal_get_secret();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::SecretKeyPacket*> const& __get_secret() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::SecretKeyPacket*> const& __cordl_internal_get_secret() const;
 
-  constexpr void __set_secret(::Org::BouncyCastle::Bcpg::SecretKeyPacket* value);
+  constexpr void __cordl_internal_set_secret(::Org::BouncyCastle::Bcpg::SecretKeyPacket* value);
 
-  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*& __get_pub();
+  constexpr ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*& __cordl_internal_get_pub();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*> const& __get_pub() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey*> const& __cordl_internal_get_pub() const;
 
-  constexpr void __set_pub(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* value);
+  constexpr void __cordl_internal_set_pub(::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* value);
 
   static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSecretKey* New_ctor(::Org::BouncyCastle::Bcpg::SecretKeyPacket* secret, ::Org::BouncyCastle::Bcpg::OpenPgp::PgpPublicKey* pub);
 

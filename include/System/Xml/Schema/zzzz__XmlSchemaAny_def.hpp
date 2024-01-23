@@ -22,42 +22,42 @@ MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaAny);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11721)), TypeDefinitionIndex(TypeDefinitionIndex(11734))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11721)), TypeDefinitionIndex(TypeDefinitionIndex(11734))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11715))
 // CS Name: ::System.Xml.Schema::XmlSchemaAny*
 class CORDL_TYPE XmlSchemaAny : public ::System::Xml::Schema::XmlSchemaParticle {
 public:
   // Declarations
   /// @brief Field ns, offset 0x38, size 0x8
-  __declspec(property(get = __get_ns, put = __set_ns))::StringW ns;
+  __declspec(property(get = __cordl_internal_get_ns, put = __cordl_internal_set_ns))::StringW ns;
 
   /// @brief Field processContents, offset 0x40, size 0x4
-  __declspec(property(get = __get_processContents, put = __set_processContents))::System::Xml::Schema::XmlSchemaContentProcessing processContents;
+  __declspec(property(get = __cordl_internal_get_processContents, put = __cordl_internal_set_processContents))::System::Xml::Schema::XmlSchemaContentProcessing processContents;
 
   /// @brief Field namespaceList, offset 0x48, size 0x8
-  __declspec(property(get = __get_namespaceList, put = __set_namespaceList))::System::Xml::Schema::NamespaceList* namespaceList;
+  __declspec(property(get = __cordl_internal_get_namespaceList, put = __cordl_internal_set_namespaceList))::System::Xml::Schema::NamespaceList* namespaceList;
 
   __declspec(property(put = set_ProcessContents))::System::Xml::Schema::XmlSchemaContentProcessing ProcessContents;
 
   __declspec(property(get = get_NamespaceList))::System::Xml::Schema::NamespaceList* NamespaceList;
 
-  constexpr ::StringW& __get_ns();
+  constexpr ::StringW& __cordl_internal_get_ns();
 
-  constexpr ::StringW const& __get_ns() const;
+  constexpr ::StringW const& __cordl_internal_get_ns() const;
 
-  constexpr void __set_ns(::StringW value);
+  constexpr void __cordl_internal_set_ns(::StringW value);
 
-  constexpr ::System::Xml::Schema::XmlSchemaContentProcessing& __get_processContents();
+  constexpr ::System::Xml::Schema::XmlSchemaContentProcessing& __cordl_internal_get_processContents();
 
-  constexpr ::System::Xml::Schema::XmlSchemaContentProcessing const& __get_processContents() const;
+  constexpr ::System::Xml::Schema::XmlSchemaContentProcessing const& __cordl_internal_get_processContents() const;
 
-  constexpr void __set_processContents(::System::Xml::Schema::XmlSchemaContentProcessing value);
+  constexpr void __cordl_internal_set_processContents(::System::Xml::Schema::XmlSchemaContentProcessing value);
 
-  constexpr ::System::Xml::Schema::NamespaceList*& __get_namespaceList();
+  constexpr ::System::Xml::Schema::NamespaceList*& __cordl_internal_get_namespaceList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::NamespaceList*> const& __get_namespaceList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::NamespaceList*> const& __cordl_internal_get_namespaceList() const;
 
-  constexpr void __set_namespaceList(::System::Xml::Schema::NamespaceList* value);
+  constexpr void __cordl_internal_set_namespaceList(::System::Xml::Schema::NamespaceList* value);
 
   /// @brief Method set_ProcessContents, addr 0x28c70d4, size 0x8, virtual false, abstract: false, final false
   inline void set_ProcessContents(::System::Xml::Schema::XmlSchemaContentProcessing value);

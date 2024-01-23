@@ -15,7 +15,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15820))
 // CS Name: ::ILazyCopyHashSet`1<T>*
 class CORDL_TYPE ILazyCopyHashSet_1 {

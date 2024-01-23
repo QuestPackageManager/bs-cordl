@@ -38,7 +38,7 @@ MARK_VAL_T(::UnityEngine::InputSystem::Utilities::TypeTable);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6711))
 // CS Name: ::TypeTable::<>c*
 class CORDL_TYPE __TypeTable____c : public ::System::Object {
@@ -90,7 +90,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilit
 // SizeInfo { instance_size: 8, native_size: -1, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6712))
 // CS Name: ::UnityEngine.InputSystem.Utilities::TypeTable
 struct CORDL_TYPE TypeTable {

@@ -30,92 +30,92 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::GrounderBipedIK);
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12518))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(12518))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12519))
 // CS Name: ::RootMotion.FinalIK::GrounderBipedIK*
 class CORDL_TYPE GrounderBipedIK : public ::RootMotion::FinalIK::Grounder {
 public:
   // Declarations
   /// @brief Field ik, offset 0x40, size 0x8
-  __declspec(property(get = __get_ik, put = __set_ik))::RootMotion::FinalIK::BipedIK* ik;
+  __declspec(property(get = __cordl_internal_get_ik, put = __cordl_internal_set_ik))::UnityW<::RootMotion::FinalIK::BipedIK> ik;
 
   /// @brief Field spineBend, offset 0x48, size 0x4
-  __declspec(property(get = __get_spineBend, put = __set_spineBend)) float_t spineBend;
+  __declspec(property(get = __cordl_internal_get_spineBend, put = __cordl_internal_set_spineBend)) float_t spineBend;
 
   /// @brief Field spineSpeed, offset 0x4c, size 0x4
-  __declspec(property(get = __get_spineSpeed, put = __set_spineSpeed)) float_t spineSpeed;
+  __declspec(property(get = __cordl_internal_get_spineSpeed, put = __cordl_internal_set_spineSpeed)) float_t spineSpeed;
 
   /// @brief Field feet, offset 0x50, size 0x8
-  __declspec(property(get = __get_feet, put = __set_feet))::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> feet;
+  __declspec(property(get = __cordl_internal_get_feet, put = __cordl_internal_set_feet))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> feet;
 
   /// @brief Field footRotations, offset 0x58, size 0x8
-  __declspec(property(get = __get_footRotations, put = __set_footRotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> footRotations;
+  __declspec(property(get = __cordl_internal_get_footRotations, put = __cordl_internal_set_footRotations))::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> footRotations;
 
   /// @brief Field animatedPelvisLocalPosition, offset 0x60, size 0xc
-  __declspec(property(get = __get_animatedPelvisLocalPosition, put = __set_animatedPelvisLocalPosition))::UnityEngine::Vector3 animatedPelvisLocalPosition;
+  __declspec(property(get = __cordl_internal_get_animatedPelvisLocalPosition, put = __cordl_internal_set_animatedPelvisLocalPosition))::UnityEngine::Vector3 animatedPelvisLocalPosition;
 
   /// @brief Field solvedPelvisLocalPosition, offset 0x6c, size 0xc
-  __declspec(property(get = __get_solvedPelvisLocalPosition, put = __set_solvedPelvisLocalPosition))::UnityEngine::Vector3 solvedPelvisLocalPosition;
+  __declspec(property(get = __cordl_internal_get_solvedPelvisLocalPosition, put = __cordl_internal_set_solvedPelvisLocalPosition))::UnityEngine::Vector3 solvedPelvisLocalPosition;
 
   /// @brief Field spineOffset, offset 0x78, size 0xc
-  __declspec(property(get = __get_spineOffset, put = __set_spineOffset))::UnityEngine::Vector3 spineOffset;
+  __declspec(property(get = __cordl_internal_get_spineOffset, put = __cordl_internal_set_spineOffset))::UnityEngine::Vector3 spineOffset;
 
   /// @brief Field lastWeight, offset 0x84, size 0x4
-  __declspec(property(get = __get_lastWeight, put = __set_lastWeight)) float_t lastWeight;
+  __declspec(property(get = __cordl_internal_get_lastWeight, put = __cordl_internal_set_lastWeight)) float_t lastWeight;
 
-  constexpr ::RootMotion::FinalIK::BipedIK*& __get_ik();
+  constexpr ::UnityW<::RootMotion::FinalIK::BipedIK>& __cordl_internal_get_ik();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::BipedIK*> const& __get_ik() const;
+  constexpr ::UnityW<::RootMotion::FinalIK::BipedIK> const& __cordl_internal_get_ik() const;
 
-  constexpr void __set_ik(::RootMotion::FinalIK::BipedIK* value);
+  constexpr void __cordl_internal_set_ik(::UnityW<::RootMotion::FinalIK::BipedIK> value);
 
-  constexpr float_t& __get_spineBend();
+  constexpr float_t& __cordl_internal_get_spineBend();
 
-  constexpr float_t const& __get_spineBend() const;
+  constexpr float_t const& __cordl_internal_get_spineBend() const;
 
-  constexpr void __set_spineBend(float_t value);
+  constexpr void __cordl_internal_set_spineBend(float_t value);
 
-  constexpr float_t& __get_spineSpeed();
+  constexpr float_t& __cordl_internal_get_spineSpeed();
 
-  constexpr float_t const& __get_spineSpeed() const;
+  constexpr float_t const& __cordl_internal_get_spineSpeed() const;
 
-  constexpr void __set_spineSpeed(float_t value);
+  constexpr void __cordl_internal_set_spineSpeed(float_t value);
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*>& __get_feet();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_feet();
 
-  constexpr ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> const& __get_feet() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_feet() const;
 
-  constexpr void __set_feet(::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> value);
+  constexpr void __cordl_internal_set_feet(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __get_footRotations();
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*>& __cordl_internal_get_footRotations();
 
-  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __get_footRotations() const;
+  constexpr ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> const& __cordl_internal_get_footRotations() const;
 
-  constexpr void __set_footRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
+  constexpr void __cordl_internal_set_footRotations(::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> value);
 
-  constexpr ::UnityEngine::Vector3& __get_animatedPelvisLocalPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_animatedPelvisLocalPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_animatedPelvisLocalPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_animatedPelvisLocalPosition() const;
 
-  constexpr void __set_animatedPelvisLocalPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_animatedPelvisLocalPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_solvedPelvisLocalPosition();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_solvedPelvisLocalPosition();
 
-  constexpr ::UnityEngine::Vector3 const& __get_solvedPelvisLocalPosition() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_solvedPelvisLocalPosition() const;
 
-  constexpr void __set_solvedPelvisLocalPosition(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_solvedPelvisLocalPosition(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_spineOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_spineOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get_spineOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_spineOffset() const;
 
-  constexpr void __set_spineOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_spineOffset(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get_lastWeight();
+  constexpr float_t& __cordl_internal_get_lastWeight();
 
-  constexpr float_t const& __get_lastWeight() const;
+  constexpr float_t const& __cordl_internal_get_lastWeight() const;
 
-  constexpr void __set_lastWeight(float_t value);
+  constexpr void __cordl_internal_set_lastWeight(float_t value);
 
   /// @brief Method OpenUserManual, addr 0x12448b0, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();
@@ -170,7 +170,7 @@ protected:
 
 public:
   /// @brief Field ik, offset: 0x40, size: 0x8, def value: None
-  ::RootMotion::FinalIK::BipedIK* ___ik;
+  ::UnityW<::RootMotion::FinalIK::BipedIK> ___ik;
 
   /// @brief Field spineBend, offset: 0x48, size: 0x4, def value: None
   float_t ___spineBend;
@@ -179,7 +179,7 @@ public:
   float_t ___spineSpeed;
 
   /// @brief Field feet, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Transform*, ::Array<::UnityEngine::Transform*>*> ___feet;
+  ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ___feet;
 
   /// @brief Field footRotations, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> ___footRotations;

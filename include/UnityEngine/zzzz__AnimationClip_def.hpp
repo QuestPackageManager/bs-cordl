@@ -42,7 +42,7 @@ MARK_REF_PTR_T(::UnityEngine::AnimationClip);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14868))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14868))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14883))
 // CS Name: ::UnityEngine::AnimationClip*
 class CORDL_TYPE AnimationClip : public ::UnityEngine::Motion {

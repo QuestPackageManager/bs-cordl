@@ -14,129 +14,130 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x1f0;
   constexpr static std::size_t addrs = 0x21cffb8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_MeshData*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::List_1<int32_t>*& HoudiniEngineUnity::HEU_MeshData::__get__indices() {
+constexpr ::System::Collections::Generic::List_1<int32_t>*& HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__indices() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____indices;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& HoudiniEngineUnity::HEU_MeshData::__get__indices() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__indices() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____indices;
 }
-constexpr void HoudiniEngineUnity::HEU_MeshData::__set__indices(::System::Collections::Generic::List_1<int32_t>* value) {
+constexpr void HoudiniEngineUnity::HEU_MeshData::__cordl_internal_set__indices(::System::Collections::Generic::List_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____indices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& HoudiniEngineUnity::HEU_MeshData::__get__vertices() {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__vertices() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertices;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& HoudiniEngineUnity::HEU_MeshData::__get__vertices() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__vertices() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____vertices;
 }
-constexpr void HoudiniEngineUnity::HEU_MeshData::__set__vertices(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
+constexpr void HoudiniEngineUnity::HEU_MeshData::__cordl_internal_set__vertices(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____vertices)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color32>*& HoudiniEngineUnity::HEU_MeshData::__get__colors() {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color32>*& HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__colors() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colors;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Color32>*> const& HoudiniEngineUnity::HEU_MeshData::__get__colors() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Color32>*> const& HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__colors() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colors;
 }
-constexpr void HoudiniEngineUnity::HEU_MeshData::__set__colors(::System::Collections::Generic::List_1<::UnityEngine::Color32>* value) {
+constexpr void HoudiniEngineUnity::HEU_MeshData::__cordl_internal_set__colors(::System::Collections::Generic::List_1<::UnityEngine::Color32>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colors)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& HoudiniEngineUnity::HEU_MeshData::__get__normals() {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__normals() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normals;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& HoudiniEngineUnity::HEU_MeshData::__get__normals() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__normals() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normals;
 }
-constexpr void HoudiniEngineUnity::HEU_MeshData::__set__normals(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
+constexpr void HoudiniEngineUnity::HEU_MeshData::__cordl_internal_set__normals(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____normals)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& HoudiniEngineUnity::HEU_MeshData::__get__tangents() {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__tangents() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tangents;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& HoudiniEngineUnity::HEU_MeshData::__get__tangents() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*> const& HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__tangents() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____tangents;
 }
-constexpr void HoudiniEngineUnity::HEU_MeshData::__set__tangents(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value) {
+constexpr void HoudiniEngineUnity::HEU_MeshData::__cordl_internal_set__tangents(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____tangents)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*, ::Array<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>*>&
-HoudiniEngineUnity::HEU_MeshData::__get__uvs() {
+HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__uvs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uvs;
 }
 constexpr ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*, ::Array<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>*> const&
-HoudiniEngineUnity::HEU_MeshData::__get__uvs() const {
+HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__uvs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____uvs;
 }
-constexpr void HoudiniEngineUnity::HEU_MeshData::__set__uvs(
+constexpr void HoudiniEngineUnity::HEU_MeshData::__cordl_internal_set__uvs(
     ::ArrayW<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*, ::Array<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____uvs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& HoudiniEngineUnity::HEU_MeshData::__get__triangleNormals() {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__triangleNormals() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____triangleNormals;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& HoudiniEngineUnity::HEU_MeshData::__get__triangleNormals() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*> const& HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__triangleNormals() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____triangleNormals;
 }
-constexpr void HoudiniEngineUnity::HEU_MeshData::__set__triangleNormals(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
+constexpr void HoudiniEngineUnity::HEU_MeshData::__cordl_internal_set__triangleNormals(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____triangleNormals)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& HoudiniEngineUnity::HEU_MeshData::__get__pointIndexToMeshIndexMap() {
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__pointIndexToMeshIndexMap() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointIndexToMeshIndexMap;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const& HoudiniEngineUnity::HEU_MeshData::__get__pointIndexToMeshIndexMap() const {
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const&
+HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__pointIndexToMeshIndexMap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pointIndexToMeshIndexMap;
 }
-constexpr void HoudiniEngineUnity::HEU_MeshData::__set__pointIndexToMeshIndexMap(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value) {
+constexpr void HoudiniEngineUnity::HEU_MeshData::__cordl_internal_set__pointIndexToMeshIndexMap(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pointIndexToMeshIndexMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::MeshTopology& HoudiniEngineUnity::HEU_MeshData::__get__meshTopology() {
+constexpr ::UnityEngine::MeshTopology& HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__meshTopology() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshTopology;
 }
-constexpr ::UnityEngine::MeshTopology const& HoudiniEngineUnity::HEU_MeshData::__get__meshTopology() const {
+constexpr ::UnityEngine::MeshTopology const& HoudiniEngineUnity::HEU_MeshData::__cordl_internal_get__meshTopology() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshTopology;
 }
-constexpr void HoudiniEngineUnity::HEU_MeshData::__set__meshTopology(::UnityEngine::MeshTopology value) {
+constexpr void HoudiniEngineUnity::HEU_MeshData::__cordl_internal_set__meshTopology(::UnityEngine::MeshTopology value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____meshTopology = value;
 }
 inline ::HoudiniEngineUnity::HEU_MeshData* HoudiniEngineUnity::HEU_MeshData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::HoudiniEngineUnity::HEU_MeshData*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HoudiniEngineUnity::HEU_MeshData*>());
 }
 inline void HoudiniEngineUnity::HEU_MeshData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HoudiniEngineUnity::HEU_MeshData*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -27,14 +27,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1789))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1789))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1790))
 // CS Name: ::Org.BouncyCastle.Utilities.Collections::UnmodifiableSetProxy*
 class CORDL_TYPE UnmodifiableSetProxy : public ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet {
 public:
   // Declarations
   /// @brief Field s, offset 0x10, size 0x8
-  __declspec(property(get = __get_s, put = __set_s))::Org::BouncyCastle::Utilities::Collections::ISet* s;
+  __declspec(property(get = __cordl_internal_get_s, put = __cordl_internal_set_s))::Org::BouncyCastle::Utilities::Collections::ISet* s;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -46,11 +46,11 @@ public:
 
   __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __get_s();
+  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_s();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __get_s() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_s() const;
 
-  constexpr void __set_s(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+  constexpr void __cordl_internal_set_s(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
   static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSetProxy* New_ctor(::Org::BouncyCastle::Utilities::Collections::ISet* s);
 

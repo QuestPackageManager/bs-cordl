@@ -20,39 +20,39 @@ MARK_REF_PTR_T(::GlobalNamespace::HeadObstacleLowPassAudioEffect);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4901))
 // CS Name: ::HeadObstacleLowPassAudioEffect*
 class CORDL_TYPE HeadObstacleLowPassAudioEffect : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _playerHeadAndObstacleInteraction, offset 0x18, size 0x8
-  __declspec(property(get = __get__playerHeadAndObstacleInteraction,
-                      put = __set__playerHeadAndObstacleInteraction))::GlobalNamespace::PlayerHeadAndObstacleInteraction* _playerHeadAndObstacleInteraction;
+  __declspec(property(get = __cordl_internal_get__playerHeadAndObstacleInteraction,
+                      put = __cordl_internal_set__playerHeadAndObstacleInteraction))::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> _playerHeadAndObstacleInteraction;
 
   /// @brief Field _mainAudioEffects, offset 0x20, size 0x8
-  __declspec(property(get = __get__mainAudioEffects, put = __set__mainAudioEffects))::GlobalNamespace::MainAudioEffects* _mainAudioEffects;
+  __declspec(property(get = __cordl_internal_get__mainAudioEffects, put = __cordl_internal_set__mainAudioEffects))::UnityW<::GlobalNamespace::MainAudioEffects> _mainAudioEffects;
 
   /// @brief Field _headWasInObstacle, offset 0x28, size 0x1
-  __declspec(property(get = __get__headWasInObstacle, put = __set__headWasInObstacle)) bool _headWasInObstacle;
+  __declspec(property(get = __cordl_internal_get__headWasInObstacle, put = __cordl_internal_set__headWasInObstacle)) bool _headWasInObstacle;
 
-  constexpr ::GlobalNamespace::PlayerHeadAndObstacleInteraction*& __get__playerHeadAndObstacleInteraction();
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction>& __cordl_internal_get__playerHeadAndObstacleInteraction();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerHeadAndObstacleInteraction*> const& __get__playerHeadAndObstacleInteraction() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> const& __cordl_internal_get__playerHeadAndObstacleInteraction() const;
 
-  constexpr void __set__playerHeadAndObstacleInteraction(::GlobalNamespace::PlayerHeadAndObstacleInteraction* value);
+  constexpr void __cordl_internal_set__playerHeadAndObstacleInteraction(::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> value);
 
-  constexpr ::GlobalNamespace::MainAudioEffects*& __get__mainAudioEffects();
+  constexpr ::UnityW<::GlobalNamespace::MainAudioEffects>& __cordl_internal_get__mainAudioEffects();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainAudioEffects*> const& __get__mainAudioEffects() const;
+  constexpr ::UnityW<::GlobalNamespace::MainAudioEffects> const& __cordl_internal_get__mainAudioEffects() const;
 
-  constexpr void __set__mainAudioEffects(::GlobalNamespace::MainAudioEffects* value);
+  constexpr void __cordl_internal_set__mainAudioEffects(::UnityW<::GlobalNamespace::MainAudioEffects> value);
 
-  constexpr bool& __get__headWasInObstacle();
+  constexpr bool& __cordl_internal_get__headWasInObstacle();
 
-  constexpr bool const& __get__headWasInObstacle() const;
+  constexpr bool const& __cordl_internal_get__headWasInObstacle() const;
 
-  constexpr void __set__headWasInObstacle(bool value);
+  constexpr void __cordl_internal_set__headWasInObstacle(bool value);
 
   /// @brief Method Update, addr 0x23a5620, size 0x5c, virtual false, abstract: false, final false
   inline void Update();
@@ -77,10 +77,10 @@ protected:
 
 public:
   /// @brief Field _playerHeadAndObstacleInteraction, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerHeadAndObstacleInteraction* ____playerHeadAndObstacleInteraction;
+  ::UnityW<::GlobalNamespace::PlayerHeadAndObstacleInteraction> ____playerHeadAndObstacleInteraction;
 
   /// @brief Field _mainAudioEffects, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::MainAudioEffects* ____mainAudioEffects;
+  ::UnityW<::GlobalNamespace::MainAudioEffects> ____mainAudioEffects;
 
   /// @brief Field _headWasInObstacle, offset: 0x28, size: 0x1, def value: None
   bool ____headWasInObstacle;

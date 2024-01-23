@@ -57,17 +57,17 @@ MARK_REF_PTR_T(::System::ComponentModel::__PropertyDescriptorCollection__Propert
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9445))
 // CS Name: ::PropertyDescriptorCollection::PropertyDescriptorEnumerator*
 class CORDL_TYPE __PropertyDescriptorCollection__PropertyDescriptorEnumerator : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _owner, offset 0x10, size 0x8
-  __declspec(property(get = __get__owner, put = __set__owner))::System::ComponentModel::PropertyDescriptorCollection* _owner;
+  __declspec(property(get = __cordl_internal_get__owner, put = __cordl_internal_set__owner))::System::ComponentModel::PropertyDescriptorCollection* _owner;
 
   /// @brief Field _index, offset 0x18, size 0x4
-  __declspec(property(get = __get__index, put = __set__index)) int32_t _index;
+  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
   __declspec(property(get = get_Current))::System::Object* Current;
 
@@ -89,17 +89,17 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr ::System::ComponentModel::PropertyDescriptorCollection*& __get__owner();
+  constexpr ::System::ComponentModel::PropertyDescriptorCollection*& __cordl_internal_get__owner();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::PropertyDescriptorCollection*> const& __get__owner() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::PropertyDescriptorCollection*> const& __cordl_internal_get__owner() const;
 
-  constexpr void __set__owner(::System::ComponentModel::PropertyDescriptorCollection* value);
+  constexpr void __cordl_internal_set__owner(::System::ComponentModel::PropertyDescriptorCollection* value);
 
-  constexpr int32_t& __get__index();
+  constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr int32_t const& __get__index() const;
+  constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr void __set__index(int32_t value);
+  constexpr void __cordl_internal_set__index(int32_t value);
 
   static inline ::System::ComponentModel::__PropertyDescriptorCollection__PropertyDescriptorEnumerator* New_ctor(::System::ComponentModel::PropertyDescriptorCollection* owner);
 
@@ -158,7 +158,7 @@ static_assert(offsetof(::System::ComponentModel::__PropertyDescriptorCollection_
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9446))
 // CS Name: ::System.ComponentModel::PropertyDescriptorCollection*
 class CORDL_TYPE PropertyDescriptorCollection : public ::System::Object {
@@ -167,34 +167,35 @@ public:
   using PropertyDescriptorEnumerator = ::System::ComponentModel::__PropertyDescriptorCollection__PropertyDescriptorEnumerator;
 
   /// @brief Field _cachedFoundProperties, offset 0x10, size 0x8
-  __declspec(property(get = __get__cachedFoundProperties, put = __set__cachedFoundProperties))::System::Collections::IDictionary* _cachedFoundProperties;
+  __declspec(property(get = __cordl_internal_get__cachedFoundProperties, put = __cordl_internal_set__cachedFoundProperties))::System::Collections::IDictionary* _cachedFoundProperties;
 
   /// @brief Field _cachedIgnoreCase, offset 0x18, size 0x1
-  __declspec(property(get = __get__cachedIgnoreCase, put = __set__cachedIgnoreCase)) bool _cachedIgnoreCase;
+  __declspec(property(get = __cordl_internal_get__cachedIgnoreCase, put = __cordl_internal_set__cachedIgnoreCase)) bool _cachedIgnoreCase;
 
   /// @brief Field _properties, offset 0x20, size 0x8
-  __declspec(property(get = __get__properties, put = __set__properties))::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> _properties;
+  __declspec(property(get = __cordl_internal_get__properties,
+                      put = __cordl_internal_set__properties))::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> _properties;
 
   /// @brief Field _namedSort, offset 0x28, size 0x8
-  __declspec(property(get = __get__namedSort, put = __set__namedSort))::ArrayW<::StringW, ::Array<::StringW>*> _namedSort;
+  __declspec(property(get = __cordl_internal_get__namedSort, put = __cordl_internal_set__namedSort))::ArrayW<::StringW, ::Array<::StringW>*> _namedSort;
 
   /// @brief Field _comparer, offset 0x30, size 0x8
-  __declspec(property(get = __get__comparer, put = __set__comparer))::System::Collections::IComparer* _comparer;
+  __declspec(property(get = __cordl_internal_get__comparer, put = __cordl_internal_set__comparer))::System::Collections::IComparer* _comparer;
 
   /// @brief Field _propsOwned, offset 0x38, size 0x1
-  __declspec(property(get = __get__propsOwned, put = __set__propsOwned)) bool _propsOwned;
+  __declspec(property(get = __cordl_internal_get__propsOwned, put = __cordl_internal_set__propsOwned)) bool _propsOwned;
 
   /// @brief Field _needSort, offset 0x39, size 0x1
-  __declspec(property(get = __get__needSort, put = __set__needSort)) bool _needSort;
+  __declspec(property(get = __cordl_internal_get__needSort, put = __cordl_internal_set__needSort)) bool _needSort;
 
   /// @brief Field _readOnly, offset 0x3a, size 0x1
-  __declspec(property(get = __get__readOnly, put = __set__readOnly)) bool _readOnly;
+  __declspec(property(get = __cordl_internal_get__readOnly, put = __cordl_internal_set__readOnly)) bool _readOnly;
 
   /// @brief Field _internalSyncObject, offset 0x40, size 0x8
-  __declspec(property(get = __get__internalSyncObject, put = __set__internalSyncObject))::System::Object* _internalSyncObject;
+  __declspec(property(get = __cordl_internal_get__internalSyncObject, put = __cordl_internal_set__internalSyncObject))::System::Object* _internalSyncObject;
 
   /// @brief Field <Count>k__BackingField, offset 0x48, size 0x4
-  __declspec(property(get = __get__Count_k__BackingField, put = __set__Count_k__BackingField)) int32_t _Count_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Count_k__BackingField, put = __cordl_internal_set__Count_k__BackingField)) int32_t _Count_k__BackingField;
 
   /// @brief Field Empty, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty))::System::ComponentModel::PropertyDescriptorCollection* Empty;
@@ -251,65 +252,65 @@ public:
   /// @brief Convert to "::System::Collections::IDictionary"
   constexpr ::System::Collections::IDictionary* i___System__Collections__IDictionary() noexcept;
 
-  constexpr ::System::Collections::IDictionary*& __get__cachedFoundProperties();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get__cachedFoundProperties();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get__cachedFoundProperties() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get__cachedFoundProperties() const;
 
-  constexpr void __set__cachedFoundProperties(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set__cachedFoundProperties(::System::Collections::IDictionary* value);
 
-  constexpr bool& __get__cachedIgnoreCase();
+  constexpr bool& __cordl_internal_get__cachedIgnoreCase();
 
-  constexpr bool const& __get__cachedIgnoreCase() const;
+  constexpr bool const& __cordl_internal_get__cachedIgnoreCase() const;
 
-  constexpr void __set__cachedIgnoreCase(bool value);
+  constexpr void __cordl_internal_set__cachedIgnoreCase(bool value);
 
-  constexpr ::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*>& __get__properties();
+  constexpr ::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*>& __cordl_internal_get__properties();
 
-  constexpr ::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> const& __get__properties() const;
+  constexpr ::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> const& __cordl_internal_get__properties() const;
 
-  constexpr void __set__properties(::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> value);
+  constexpr void __cordl_internal_set__properties(::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> value);
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __get__namedSort();
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__namedSort();
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __get__namedSort() const;
+  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__namedSort() const;
 
-  constexpr void __set__namedSort(::ArrayW<::StringW, ::Array<::StringW>*> value);
+  constexpr void __cordl_internal_set__namedSort(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  constexpr ::System::Collections::IComparer*& __get__comparer();
+  constexpr ::System::Collections::IComparer*& __cordl_internal_get__comparer();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IComparer*> const& __get__comparer() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IComparer*> const& __cordl_internal_get__comparer() const;
 
-  constexpr void __set__comparer(::System::Collections::IComparer* value);
+  constexpr void __cordl_internal_set__comparer(::System::Collections::IComparer* value);
 
-  constexpr bool& __get__propsOwned();
+  constexpr bool& __cordl_internal_get__propsOwned();
 
-  constexpr bool const& __get__propsOwned() const;
+  constexpr bool const& __cordl_internal_get__propsOwned() const;
 
-  constexpr void __set__propsOwned(bool value);
+  constexpr void __cordl_internal_set__propsOwned(bool value);
 
-  constexpr bool& __get__needSort();
+  constexpr bool& __cordl_internal_get__needSort();
 
-  constexpr bool const& __get__needSort() const;
+  constexpr bool const& __cordl_internal_get__needSort() const;
 
-  constexpr void __set__needSort(bool value);
+  constexpr void __cordl_internal_set__needSort(bool value);
 
-  constexpr bool& __get__readOnly();
+  constexpr bool& __cordl_internal_get__readOnly();
 
-  constexpr bool const& __get__readOnly() const;
+  constexpr bool const& __cordl_internal_get__readOnly() const;
 
-  constexpr void __set__readOnly(bool value);
+  constexpr void __cordl_internal_set__readOnly(bool value);
 
-  constexpr ::System::Object*& __get__internalSyncObject();
+  constexpr ::System::Object*& __cordl_internal_get__internalSyncObject();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__internalSyncObject() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__internalSyncObject() const;
 
-  constexpr void __set__internalSyncObject(::System::Object* value);
+  constexpr void __cordl_internal_set__internalSyncObject(::System::Object* value);
 
-  constexpr int32_t& __get__Count_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__Count_k__BackingField();
 
-  constexpr int32_t const& __get__Count_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__Count_k__BackingField() const;
 
-  constexpr void __set__Count_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__Count_k__BackingField(int32_t value);
 
   static inline void setStaticF_Empty(::System::ComponentModel::PropertyDescriptorCollection* value);
 

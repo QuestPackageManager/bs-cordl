@@ -18,29 +18,29 @@ MARK_REF_PTR_T(::GlobalNamespace::ActivateOnPlatform);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14415)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(14415))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14330))
 // CS Name: ::ActivateOnPlatform*
 class CORDL_TYPE ActivateOnPlatform : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _vrPlatformSdk, offset 0x18, size 0x4
-  __declspec(property(get = __get__vrPlatformSdk, put = __set__vrPlatformSdk))::GlobalNamespace::VRPlatformSDK _vrPlatformSdk;
+  __declspec(property(get = __cordl_internal_get__vrPlatformSdk, put = __cordl_internal_set__vrPlatformSdk))::GlobalNamespace::VRPlatformSDK _vrPlatformSdk;
 
   /// @brief Field _vrPlatformHelper, offset 0x20, size 0x8
-  __declspec(property(get = __get__vrPlatformHelper, put = __set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  constexpr ::GlobalNamespace::VRPlatformSDK& __get__vrPlatformSdk();
+  constexpr ::GlobalNamespace::VRPlatformSDK& __cordl_internal_get__vrPlatformSdk();
 
-  constexpr ::GlobalNamespace::VRPlatformSDK const& __get__vrPlatformSdk() const;
+  constexpr ::GlobalNamespace::VRPlatformSDK const& __cordl_internal_get__vrPlatformSdk() const;
 
-  constexpr void __set__vrPlatformSdk(::GlobalNamespace::VRPlatformSDK value);
+  constexpr void __cordl_internal_set__vrPlatformSdk(::GlobalNamespace::VRPlatformSDK value);
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper*& __get__vrPlatformHelper();
+  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __get__vrPlatformHelper() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
 
-  constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
   /// @brief Method Awake, addr 0x20ee708, size 0xd0, virtual false, abstract: false, final false
   inline void Awake();

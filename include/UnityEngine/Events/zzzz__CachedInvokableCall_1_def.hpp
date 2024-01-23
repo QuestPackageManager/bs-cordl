@@ -26,20 +26,20 @@ namespace UnityEngine::Events {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10452)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10452), inst: 3926 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10452)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10452), inst: 3926 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10456))
 // CS Name: ::UnityEngine.Events::CachedInvokableCall`1<T>*
 class CORDL_TYPE CachedInvokableCall_1 : public ::UnityEngine::Events::InvokableCall_1<T> {
 public:
   // Declarations
   /// @brief Field m_Arg1, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Arg1, put = __set_m_Arg1)) T m_Arg1;
+  __declspec(property(get = __cordl_internal_get_m_Arg1, put = __cordl_internal_set_m_Arg1)) T m_Arg1;
 
-  constexpr T& __get_m_Arg1();
+  constexpr T& __cordl_internal_get_m_Arg1();
 
-  constexpr T const& __get_m_Arg1() const;
+  constexpr T const& __cordl_internal_get_m_Arg1() const;
 
-  constexpr void __set_m_Arg1(T value);
+  constexpr void __cordl_internal_set_m_Arg1(T value);
 
   static inline ::UnityEngine::Events::CachedInvokableCall_1<T>* New_ctor(::UnityEngine::Object* target, ::System::Reflection::MethodInfo* theFunction, T argument);
 

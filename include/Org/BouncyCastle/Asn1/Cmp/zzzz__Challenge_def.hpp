@@ -29,40 +29,40 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::Challenge);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(18))
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::Challenge*
 class CORDL_TYPE Challenge : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field owf, offset 0x10, size 0x8
-  __declspec(property(get = __get_owf, put = __set_owf))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf;
+  __declspec(property(get = __cordl_internal_get_owf, put = __cordl_internal_set_owf))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* owf;
 
   /// @brief Field witness, offset 0x18, size 0x8
-  __declspec(property(get = __get_witness, put = __set_witness))::Org::BouncyCastle::Asn1::Asn1OctetString* witness;
+  __declspec(property(get = __cordl_internal_get_witness, put = __cordl_internal_set_witness))::Org::BouncyCastle::Asn1::Asn1OctetString* witness;
 
   /// @brief Field challenge, offset 0x20, size 0x8
-  __declspec(property(get = __get_challenge, put = __set_challenge))::Org::BouncyCastle::Asn1::Asn1OctetString* challenge;
+  __declspec(property(get = __cordl_internal_get_challenge, put = __cordl_internal_set_challenge))::Org::BouncyCastle::Asn1::Asn1OctetString* challenge;
 
   __declspec(property(get = get_Owf))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* Owf;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __get_owf();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_owf();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __get_owf() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_owf() const;
 
-  constexpr void __set_owf(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+  constexpr void __cordl_internal_set_owf(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_witness();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_witness();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_witness() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_witness() const;
 
-  constexpr void __set_witness(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_witness(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __get_challenge();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_challenge();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __get_challenge() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_challenge() const;
 
-  constexpr void __set_challenge(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+  constexpr void __cordl_internal_set_challenge(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::Challenge* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 

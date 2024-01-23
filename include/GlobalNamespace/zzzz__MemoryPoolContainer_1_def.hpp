@@ -25,31 +25,31 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14373))
 // CS Name: ::MemoryPoolContainer`1<T>*
 class CORDL_TYPE MemoryPoolContainer_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _activeItems, offset 0x10, size 0x8
-  __declspec(property(get = __get__activeItems, put = __set__activeItems))::GlobalNamespace::LazyCopyHashSet_1<T>* _activeItems;
+  __declspec(property(get = __cordl_internal_get__activeItems, put = __cordl_internal_set__activeItems))::GlobalNamespace::LazyCopyHashSet_1<T>* _activeItems;
 
   /// @brief Field _memoryPool, offset 0x18, size 0x8
-  __declspec(property(get = __get__memoryPool, put = __set__memoryPool))::Zenject::IMemoryPool_1<T>* _memoryPool;
+  __declspec(property(get = __cordl_internal_get__memoryPool, put = __cordl_internal_set__memoryPool))::Zenject::IMemoryPool_1<T>* _memoryPool;
 
   __declspec(property(get = get_activeItems))::System::Collections::Generic::List_1<T>* activeItems;
 
-  constexpr ::GlobalNamespace::LazyCopyHashSet_1<T>*& __get__activeItems();
+  constexpr ::GlobalNamespace::LazyCopyHashSet_1<T>*& __cordl_internal_get__activeItems();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<T>*> const& __get__activeItems() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LazyCopyHashSet_1<T>*> const& __cordl_internal_get__activeItems() const;
 
-  constexpr void __set__activeItems(::GlobalNamespace::LazyCopyHashSet_1<T>* value);
+  constexpr void __cordl_internal_set__activeItems(::GlobalNamespace::LazyCopyHashSet_1<T>* value);
 
-  constexpr ::Zenject::IMemoryPool_1<T>*& __get__memoryPool();
+  constexpr ::Zenject::IMemoryPool_1<T>*& __cordl_internal_get__memoryPool();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IMemoryPool_1<T>*> const& __get__memoryPool() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::IMemoryPool_1<T>*> const& __cordl_internal_get__memoryPool() const;
 
-  constexpr void __set__memoryPool(::Zenject::IMemoryPool_1<T>* value);
+  constexpr void __cordl_internal_set__memoryPool(::Zenject::IMemoryPool_1<T>* value);
 
   /// @brief Method get_activeItems, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<T>* get_activeItems();

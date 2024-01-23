@@ -35,56 +35,57 @@ MARK_REF_PTR_T(::GlobalNamespace::BaseMultiplayerStartGameCountdownViewControlle
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5708))
 // CS Name: ::BaseMultiplayerStartGameCountdownViewController*
 class CORDL_TYPE BaseMultiplayerStartGameCountdownViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field _beatmapSelectionView, offset 0x70, size 0x8
-  __declspec(property(get = __get__beatmapSelectionView, put = __set__beatmapSelectionView))::GlobalNamespace::BeatmapSelectionView* _beatmapSelectionView;
+  __declspec(property(get = __cordl_internal_get__beatmapSelectionView, put = __cordl_internal_set__beatmapSelectionView))::UnityW<::GlobalNamespace::BeatmapSelectionView> _beatmapSelectionView;
 
   /// @brief Field _modifiersSelectionView, offset 0x78, size 0x8
-  __declspec(property(get = __get__modifiersSelectionView, put = __set__modifiersSelectionView))::GlobalNamespace::ModifiersSelectionView* _modifiersSelectionView;
+  __declspec(property(get = __cordl_internal_get__modifiersSelectionView,
+                      put = __cordl_internal_set__modifiersSelectionView))::UnityW<::GlobalNamespace::ModifiersSelectionView> _modifiersSelectionView;
 
   /// @brief Field _spectateToggle, offset 0x80, size 0x8
-  __declspec(property(get = __get__spectateToggle, put = __set__spectateToggle))::UnityEngine::UI::Toggle* _spectateToggle;
+  __declspec(property(get = __cordl_internal_get__spectateToggle, put = __cordl_internal_set__spectateToggle))::UnityW<::UnityEngine::UI::Toggle> _spectateToggle;
 
   /// @brief Field playerActiveStateChangedEvent, offset 0x88, size 0x8
-  __declspec(property(get = __get_playerActiveStateChangedEvent, put = __set_playerActiveStateChangedEvent))::System::Action_1<bool>* playerActiveStateChangedEvent;
+  __declspec(property(get = __cordl_internal_get_playerActiveStateChangedEvent, put = __cordl_internal_set_playerActiveStateChangedEvent))::System::Action_1<bool>* playerActiveStateChangedEvent;
 
   /// @brief Field _toggleBinder, offset 0x90, size 0x8
-  __declspec(property(get = __get__toggleBinder, put = __set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
+  __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder))::HMUI::ToggleBinder* _toggleBinder;
 
-  constexpr ::GlobalNamespace::BeatmapSelectionView*& __get__beatmapSelectionView();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapSelectionView>& __cordl_internal_get__beatmapSelectionView();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapSelectionView*> const& __get__beatmapSelectionView() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapSelectionView> const& __cordl_internal_get__beatmapSelectionView() const;
 
-  constexpr void __set__beatmapSelectionView(::GlobalNamespace::BeatmapSelectionView* value);
+  constexpr void __cordl_internal_set__beatmapSelectionView(::UnityW<::GlobalNamespace::BeatmapSelectionView> value);
 
-  constexpr ::GlobalNamespace::ModifiersSelectionView*& __get__modifiersSelectionView();
+  constexpr ::UnityW<::GlobalNamespace::ModifiersSelectionView>& __cordl_internal_get__modifiersSelectionView();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ModifiersSelectionView*> const& __get__modifiersSelectionView() const;
+  constexpr ::UnityW<::GlobalNamespace::ModifiersSelectionView> const& __cordl_internal_get__modifiersSelectionView() const;
 
-  constexpr void __set__modifiersSelectionView(::GlobalNamespace::ModifiersSelectionView* value);
+  constexpr void __cordl_internal_set__modifiersSelectionView(::UnityW<::GlobalNamespace::ModifiersSelectionView> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__spectateToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__spectateToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__spectateToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__spectateToggle() const;
 
-  constexpr void __set__spectateToggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__spectateToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr ::System::Action_1<bool>*& __get_playerActiveStateChangedEvent();
+  constexpr ::System::Action_1<bool>*& __cordl_internal_get_playerActiveStateChangedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __get_playerActiveStateChangedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<bool>*> const& __cordl_internal_get_playerActiveStateChangedEvent() const;
 
-  constexpr void __set_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
+  constexpr void __cordl_internal_set_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
 
-  constexpr ::HMUI::ToggleBinder*& __get__toggleBinder();
+  constexpr ::HMUI::ToggleBinder*& __cordl_internal_get__toggleBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __get__toggleBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ToggleBinder*> const& __cordl_internal_get__toggleBinder() const;
 
-  constexpr void __set__toggleBinder(::HMUI::ToggleBinder* value);
+  constexpr void __cordl_internal_set__toggleBinder(::HMUI::ToggleBinder* value);
 
   /// @brief Method add_playerActiveStateChangedEvent, addr 0x22cc348, size 0xb0, virtual false, abstract: false, final false
   inline void add_playerActiveStateChangedEvent(::System::Action_1<bool>* value);
@@ -130,13 +131,13 @@ protected:
 
 public:
   /// @brief Field _beatmapSelectionView, offset: 0x70, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapSelectionView* ____beatmapSelectionView;
+  ::UnityW<::GlobalNamespace::BeatmapSelectionView> ____beatmapSelectionView;
 
   /// @brief Field _modifiersSelectionView, offset: 0x78, size: 0x8, def value: None
-  ::GlobalNamespace::ModifiersSelectionView* ____modifiersSelectionView;
+  ::UnityW<::GlobalNamespace::ModifiersSelectionView> ____modifiersSelectionView;
 
   /// @brief Field _spectateToggle, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____spectateToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____spectateToggle;
 
   /// @brief Field playerActiveStateChangedEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action_1<bool>* ___playerActiveStateChangedEvent;

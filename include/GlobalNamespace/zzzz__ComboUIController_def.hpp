@@ -24,56 +24,56 @@ MARK_REF_PTR_T(::GlobalNamespace::ComboUIController);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 53, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5030))
 // CS Name: ::ComboUIController*
 class CORDL_TYPE ComboUIController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _comboText, offset 0x18, size 0x8
-  __declspec(property(get = __get__comboText, put = __set__comboText))::TMPro::TextMeshProUGUI* _comboText;
+  __declspec(property(get = __cordl_internal_get__comboText, put = __cordl_internal_set__comboText))::UnityW<::TMPro::TextMeshProUGUI> _comboText;
 
   /// @brief Field _animator, offset 0x20, size 0x8
-  __declspec(property(get = __get__animator, put = __set__animator))::UnityEngine::Animator* _animator;
+  __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator))::UnityW<::UnityEngine::Animator> _animator;
 
   /// @brief Field _comboController, offset 0x28, size 0x8
-  __declspec(property(get = __get__comboController, put = __set__comboController))::GlobalNamespace::IComboController* _comboController;
+  __declspec(property(get = __cordl_internal_get__comboController, put = __cordl_internal_set__comboController))::GlobalNamespace::IComboController* _comboController;
 
   /// @brief Field _comboLostId, offset 0x30, size 0x4
-  __declspec(property(get = __get__comboLostId, put = __set__comboLostId)) int32_t _comboLostId;
+  __declspec(property(get = __cordl_internal_get__comboLostId, put = __cordl_internal_set__comboLostId)) int32_t _comboLostId;
 
   /// @brief Field _fullComboLost, offset 0x34, size 0x1
-  __declspec(property(get = __get__fullComboLost, put = __set__fullComboLost)) bool _fullComboLost;
+  __declspec(property(get = __cordl_internal_get__fullComboLost, put = __cordl_internal_set__fullComboLost)) bool _fullComboLost;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__comboText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__comboText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__comboText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__comboText() const;
 
-  constexpr void __set__comboText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__comboText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::Animator*& __get__animator();
+  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> const& __get__animator() const;
+  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
 
-  constexpr void __set__animator(::UnityEngine::Animator* value);
+  constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
-  constexpr ::GlobalNamespace::IComboController*& __get__comboController();
+  constexpr ::GlobalNamespace::IComboController*& __cordl_internal_get__comboController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IComboController*> const& __get__comboController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IComboController*> const& __cordl_internal_get__comboController() const;
 
-  constexpr void __set__comboController(::GlobalNamespace::IComboController* value);
+  constexpr void __cordl_internal_set__comboController(::GlobalNamespace::IComboController* value);
 
-  constexpr int32_t& __get__comboLostId();
+  constexpr int32_t& __cordl_internal_get__comboLostId();
 
-  constexpr int32_t const& __get__comboLostId() const;
+  constexpr int32_t const& __cordl_internal_get__comboLostId() const;
 
-  constexpr void __set__comboLostId(int32_t value);
+  constexpr void __cordl_internal_set__comboLostId(int32_t value);
 
-  constexpr bool& __get__fullComboLost();
+  constexpr bool& __cordl_internal_get__fullComboLost();
 
-  constexpr bool const& __get__fullComboLost() const;
+  constexpr bool const& __cordl_internal_get__fullComboLost() const;
 
-  constexpr void __set__fullComboLost(bool value);
+  constexpr void __cordl_internal_set__fullComboLost(bool value);
 
   /// @brief Method Start, addr 0x23bf9f0, size 0x88, virtual false, abstract: false, final false
   inline void Start();
@@ -116,10 +116,10 @@ protected:
 
 public:
   /// @brief Field _comboText, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____comboText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____comboText;
 
   /// @brief Field _animator, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Animator* ____animator;
+  ::UnityW<::UnityEngine::Animator> ____animator;
 
   /// @brief Field _comboController, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IComboController* ____comboController;

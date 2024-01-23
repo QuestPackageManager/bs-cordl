@@ -26,20 +26,20 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15821))
 // CS Name: ::LazyCopyHashSet`1<T>*
 class CORDL_TYPE LazyCopyHashSet_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _itemsCopy, offset 0x10, size 0x8
-  __declspec(property(get = __get__itemsCopy, put = __set__itemsCopy))::System::Collections::Generic::List_1<T>* _itemsCopy;
+  __declspec(property(get = __cordl_internal_get__itemsCopy, put = __cordl_internal_set__itemsCopy))::System::Collections::Generic::List_1<T>* _itemsCopy;
 
   /// @brief Field _items, offset 0x18, size 0x8
-  __declspec(property(get = __get__items, put = __set__items))::System::Collections::Generic::HashSet_1<T>* _items;
+  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items))::System::Collections::Generic::HashSet_1<T>* _items;
 
   /// @brief Field _dirty, offset 0x20, size 0x1
-  __declspec(property(get = __get__dirty, put = __set__dirty)) bool _dirty;
+  __declspec(property(get = __cordl_internal_get__dirty, put = __cordl_internal_set__dirty)) bool _dirty;
 
   __declspec(property(get = get_items))::System::Collections::Generic::List_1<T>* items;
 
@@ -49,23 +49,23 @@ public:
   /// @brief Convert to "::GlobalNamespace::ILazyCopyHashSet_1<T>"
   constexpr ::GlobalNamespace::ILazyCopyHashSet_1<T>* i___GlobalNamespace__ILazyCopyHashSet_1_T_() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<T>*& __get__itemsCopy();
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get__itemsCopy();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __get__itemsCopy() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<T>*> const& __cordl_internal_get__itemsCopy() const;
 
-  constexpr void __set__itemsCopy(::System::Collections::Generic::List_1<T>* value);
+  constexpr void __cordl_internal_set__itemsCopy(::System::Collections::Generic::List_1<T>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<T>*& __get__items();
+  constexpr ::System::Collections::Generic::HashSet_1<T>*& __cordl_internal_get__items();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<T>*> const& __get__items() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<T>*> const& __cordl_internal_get__items() const;
 
-  constexpr void __set__items(::System::Collections::Generic::HashSet_1<T>* value);
+  constexpr void __cordl_internal_set__items(::System::Collections::Generic::HashSet_1<T>* value);
 
-  constexpr bool& __get__dirty();
+  constexpr bool& __cordl_internal_get__dirty();
 
-  constexpr bool const& __get__dirty() const;
+  constexpr bool const& __cordl_internal_get__dirty() const;
 
-  constexpr void __set__dirty(bool value);
+  constexpr void __cordl_internal_set__dirty(bool value);
 
   /// @brief Method get_items, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<T>* get_items();

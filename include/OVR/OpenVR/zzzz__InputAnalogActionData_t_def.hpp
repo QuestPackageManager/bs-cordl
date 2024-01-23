@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::InputAnalogActionData_t);
 // SizeInfo { instance_size: 48, native_size: 48, calculated_instance_size: 48, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8720))
 // CS Name: ::OVR.OpenVR::InputAnalogActionData_t
 struct CORDL_TYPE InputAnalogActionData_t {

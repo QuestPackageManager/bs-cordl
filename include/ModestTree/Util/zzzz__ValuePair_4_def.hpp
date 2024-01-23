@@ -20,47 +20,47 @@ namespace ModestTree::Util {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10628))
 // CS Name: ::ModestTree.Util::ValuePair`4<T1,T2,T3,T4>*
 class CORDL_TYPE ValuePair_4 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field First, offset 0x10, size 0x8
-  __declspec(property(get = __get_First, put = __set_First)) T1 First;
+  __declspec(property(get = __cordl_internal_get_First, put = __cordl_internal_set_First)) T1 First;
 
   /// @brief Field Second, offset 0x18, size 0x8
-  __declspec(property(get = __get_Second, put = __set_Second)) T2 Second;
+  __declspec(property(get = __cordl_internal_get_Second, put = __cordl_internal_set_Second)) T2 Second;
 
   /// @brief Field Third, offset 0x20, size 0x8
-  __declspec(property(get = __get_Third, put = __set_Third)) T3 Third;
+  __declspec(property(get = __cordl_internal_get_Third, put = __cordl_internal_set_Third)) T3 Third;
 
   /// @brief Field Fourth, offset 0x28, size 0x8
-  __declspec(property(get = __get_Fourth, put = __set_Fourth)) T4 Fourth;
+  __declspec(property(get = __cordl_internal_get_Fourth, put = __cordl_internal_set_Fourth)) T4 Fourth;
 
-  constexpr T1& __get_First();
+  constexpr T1& __cordl_internal_get_First();
 
-  constexpr T1 const& __get_First() const;
+  constexpr T1 const& __cordl_internal_get_First() const;
 
-  constexpr void __set_First(T1 value);
+  constexpr void __cordl_internal_set_First(T1 value);
 
-  constexpr T2& __get_Second();
+  constexpr T2& __cordl_internal_get_Second();
 
-  constexpr T2 const& __get_Second() const;
+  constexpr T2 const& __cordl_internal_get_Second() const;
 
-  constexpr void __set_Second(T2 value);
+  constexpr void __cordl_internal_set_Second(T2 value);
 
-  constexpr T3& __get_Third();
+  constexpr T3& __cordl_internal_get_Third();
 
-  constexpr T3 const& __get_Third() const;
+  constexpr T3 const& __cordl_internal_get_Third() const;
 
-  constexpr void __set_Third(T3 value);
+  constexpr void __cordl_internal_set_Third(T3 value);
 
-  constexpr T4& __get_Fourth();
+  constexpr T4& __cordl_internal_get_Fourth();
 
-  constexpr T4 const& __get_Fourth() const;
+  constexpr T4 const& __cordl_internal_get_Fourth() const;
 
-  constexpr void __set_Fourth(T4 value);
+  constexpr void __cordl_internal_set_Fourth(T4 value);
 
   static inline ::ModestTree::Util::ValuePair_4<T1, T2, T3, T4>* New_ctor();
 

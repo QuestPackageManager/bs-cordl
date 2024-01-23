@@ -67,7 +67,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5923))
 // CS Name: ::PlaybackRenderer::PlaybackScreenshot::Type
 struct CORDL_TYPE __PlaybackRenderer__PlaybackScreenshot__Type {
@@ -117,34 +117,34 @@ static_assert(offsetof(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10204)), TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(5923)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2613))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5924)) CS Name: ::PlaybackRenderer::PlaybackScreenshot*
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(5923)), TypeDefinitionIndex(TypeDefinitionIndex(10204)),
+// TypeDefinitionIndex(TypeDefinitionIndex(10251))] Self: TypeDefinitionIndex(TypeDefinitionIndex(5924)) CS Name: ::PlaybackRenderer::PlaybackScreenshot*
 class CORDL_TYPE __PlaybackRenderer__PlaybackScreenshot : public ::System::Object {
 public:
   // Declarations
   using Type = ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type;
 
   /// @brief Field _name, offset 0x10, size 0x8
-  __declspec(property(get = __get__name, put = __set__name))::StringW _name;
+  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
 
   /// @brief Field _layerMask, offset 0x18, size 0x4
-  __declspec(property(get = __get__layerMask, put = __set__layerMask))::UnityEngine::LayerMask _layerMask;
+  __declspec(property(get = __cordl_internal_get__layerMask, put = __cordl_internal_set__layerMask))::UnityEngine::LayerMask _layerMask;
 
   /// @brief Field _type, offset 0x1c, size 0x4
-  __declspec(property(get = __get__type, put = __set__type))::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type _type;
+  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type _type;
 
   /// @brief Field _texture, offset 0x20, size 0x8
-  __declspec(property(get = __get__texture, put = __set__texture))::UnityEngine::RenderTexture* _texture;
+  __declspec(property(get = __cordl_internal_get__texture, put = __cordl_internal_set__texture))::UnityW<::UnityEngine::RenderTexture> _texture;
 
   /// @brief Field _path, offset 0x28, size 0x8
-  __declspec(property(get = __get__path, put = __set__path))::StringW _path;
+  __declspec(property(get = __cordl_internal_get__path, put = __cordl_internal_set__path))::StringW _path;
 
   /// @brief Field _backgroundColor, offset 0x30, size 0x10
-  __declspec(property(get = __get__backgroundColor, put = __set__backgroundColor))::UnityEngine::Color _backgroundColor;
+  __declspec(property(get = __cordl_internal_get__backgroundColor, put = __cordl_internal_set__backgroundColor))::UnityEngine::Color _backgroundColor;
 
   __declspec(property(get = get_name))::StringW name;
 
-  __declspec(property(get = get_texture))::UnityEngine::RenderTexture* texture;
+  __declspec(property(get = get_texture))::UnityW<::UnityEngine::RenderTexture> texture;
 
   __declspec(property(get = get_layerMask))::UnityEngine::LayerMask layerMask;
 
@@ -154,47 +154,47 @@ public:
 
   __declspec(property(get = get_backgroundColor))::UnityEngine::Color backgroundColor;
 
-  constexpr ::StringW& __get__name();
+  constexpr ::StringW& __cordl_internal_get__name();
 
-  constexpr ::StringW const& __get__name() const;
+  constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr void __set__name(::StringW value);
+  constexpr void __cordl_internal_set__name(::StringW value);
 
-  constexpr ::UnityEngine::LayerMask& __get__layerMask();
+  constexpr ::UnityEngine::LayerMask& __cordl_internal_get__layerMask();
 
-  constexpr ::UnityEngine::LayerMask const& __get__layerMask() const;
+  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__layerMask() const;
 
-  constexpr void __set__layerMask(::UnityEngine::LayerMask value);
+  constexpr void __cordl_internal_set__layerMask(::UnityEngine::LayerMask value);
 
-  constexpr ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type& __get__type();
+  constexpr ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type& __cordl_internal_get__type();
 
-  constexpr ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type const& __get__type() const;
+  constexpr ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type const& __cordl_internal_get__type() const;
 
-  constexpr void __set__type(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type value);
+  constexpr void __cordl_internal_set__type(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type value);
 
-  constexpr ::UnityEngine::RenderTexture*& __get__texture();
+  constexpr ::UnityW<::UnityEngine::RenderTexture>& __cordl_internal_get__texture();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::RenderTexture*> const& __get__texture() const;
+  constexpr ::UnityW<::UnityEngine::RenderTexture> const& __cordl_internal_get__texture() const;
 
-  constexpr void __set__texture(::UnityEngine::RenderTexture* value);
+  constexpr void __cordl_internal_set__texture(::UnityW<::UnityEngine::RenderTexture> value);
 
-  constexpr ::StringW& __get__path();
+  constexpr ::StringW& __cordl_internal_get__path();
 
-  constexpr ::StringW const& __get__path() const;
+  constexpr ::StringW const& __cordl_internal_get__path() const;
 
-  constexpr void __set__path(::StringW value);
+  constexpr void __cordl_internal_set__path(::StringW value);
 
-  constexpr ::UnityEngine::Color& __get__backgroundColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__backgroundColor();
 
-  constexpr ::UnityEngine::Color const& __get__backgroundColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__backgroundColor() const;
 
-  constexpr void __set__backgroundColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__backgroundColor(::UnityEngine::Color value);
 
   /// @brief Method get_name, addr 0x23012b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
   /// @brief Method get_texture, addr 0x23012bc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::RenderTexture* get_texture();
+  inline ::UnityW<::UnityEngine::RenderTexture> get_texture();
 
   /// @brief Method get_layerMask, addr 0x23012c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_layerMask();
@@ -244,7 +244,7 @@ public:
   ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot__Type ____type;
 
   /// @brief Field _texture, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::RenderTexture* ____texture;
+  ::UnityW<::UnityEngine::RenderTexture> ____texture;
 
   /// @brief Field _path, offset: 0x28, size: 0x8, def value: None
   ::StringW ____path;
@@ -274,7 +274,7 @@ static_assert(offsetof(::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot
 // SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5925))
 // CS Name: ::PlaybackRenderer*
 class CORDL_TYPE PlaybackRenderer : public ::UnityEngine::MonoBehaviour {
@@ -283,88 +283,90 @@ public:
   using PlaybackScreenshot = ::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot;
 
   /// @brief Field texturesReadyEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_texturesReadyEvent, put = __set_texturesReadyEvent))::System::Action* texturesReadyEvent;
+  __declspec(property(get = __cordl_internal_get_texturesReadyEvent, put = __cordl_internal_set_texturesReadyEvent))::System::Action* texturesReadyEvent;
 
   /// @brief Field _clearBackgroundShader, offset 0x20, size 0x8
-  __declspec(property(get = __get__clearBackgroundShader, put = __set__clearBackgroundShader))::UnityEngine::Shader* _clearBackgroundShader;
+  __declspec(property(get = __cordl_internal_get__clearBackgroundShader, put = __cordl_internal_set__clearBackgroundShader))::UnityW<::UnityEngine::Shader> _clearBackgroundShader;
 
   /// @brief Field _isSetup, offset 0x28, size 0x1
-  __declspec(property(get = __get__isSetup, put = __set__isSetup)) bool _isSetup;
+  __declspec(property(get = __cordl_internal_get__isSetup, put = __cordl_internal_set__isSetup)) bool _isSetup;
 
   /// @brief Field _hmd, offset 0x30, size 0x8
-  __declspec(property(get = __get__hmd, put = __set__hmd))::UnityEngine::Transform* _hmd;
+  __declspec(property(get = __cordl_internal_get__hmd, put = __cordl_internal_set__hmd))::UnityW<::UnityEngine::Transform> _hmd;
 
   /// @brief Field _camera, offset 0x38, size 0x8
-  __declspec(property(get = __get__camera, put = __set__camera))::UnityEngine::Camera* _camera;
+  __declspec(property(get = __cordl_internal_get__camera, put = __cordl_internal_set__camera))::UnityW<::UnityEngine::Camera> _camera;
 
   /// @brief Field _cameraCalibration, offset 0x40, size 0x8
-  __declspec(property(get = __get__cameraCalibration, put = __set__cameraCalibration))::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* _cameraCalibration;
+  __declspec(property(get = __cordl_internal_get__cameraCalibration,
+                      put = __cordl_internal_set__cameraCalibration))::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* _cameraCalibration;
 
   /// @brief Field _clipQuad, offset 0x48, size 0x8
-  __declspec(property(get = __get__clipQuad, put = __set__clipQuad))::UnityEngine::GameObject* _clipQuad;
+  __declspec(property(get = __cordl_internal_get__clipQuad, put = __cordl_internal_set__clipQuad))::UnityW<::UnityEngine::GameObject> _clipQuad;
 
   /// @brief Field _clipMaterial, offset 0x50, size 0x8
-  __declspec(property(get = __get__clipMaterial, put = __set__clipMaterial))::UnityEngine::Material* _clipMaterial;
+  __declspec(property(get = __cordl_internal_get__clipMaterial, put = __cordl_internal_set__clipMaterial))::UnityW<::UnityEngine::Material> _clipMaterial;
 
   /// @brief Field _screenshots, offset 0x58, size 0x8
-  __declspec(property(get = __get__screenshots,
-                      put = __set__screenshots))::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> _screenshots;
+  __declspec(property(
+      get = __cordl_internal_get__screenshots,
+      put = __cordl_internal_set__screenshots))::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> _screenshots;
 
   __declspec(property(get = get_screenshots))::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> screenshots;
 
-  constexpr ::System::Action*& __get_texturesReadyEvent();
+  constexpr ::System::Action*& __cordl_internal_get_texturesReadyEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_texturesReadyEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_texturesReadyEvent() const;
 
-  constexpr void __set_texturesReadyEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_texturesReadyEvent(::System::Action* value);
 
-  constexpr ::UnityEngine::Shader*& __get__clearBackgroundShader();
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get__clearBackgroundShader();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Shader*> const& __get__clearBackgroundShader() const;
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get__clearBackgroundShader() const;
 
-  constexpr void __set__clearBackgroundShader(::UnityEngine::Shader* value);
+  constexpr void __cordl_internal_set__clearBackgroundShader(::UnityW<::UnityEngine::Shader> value);
 
-  constexpr bool& __get__isSetup();
+  constexpr bool& __cordl_internal_get__isSetup();
 
-  constexpr bool const& __get__isSetup() const;
+  constexpr bool const& __cordl_internal_get__isSetup() const;
 
-  constexpr void __set__isSetup(bool value);
+  constexpr void __cordl_internal_set__isSetup(bool value);
 
-  constexpr ::UnityEngine::Transform*& __get__hmd();
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__hmd();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Transform*> const& __get__hmd() const;
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__hmd() const;
 
-  constexpr void __set__hmd(::UnityEngine::Transform* value);
+  constexpr void __cordl_internal_set__hmd(::UnityW<::UnityEngine::Transform> value);
 
-  constexpr ::UnityEngine::Camera*& __get__camera();
+  constexpr ::UnityW<::UnityEngine::Camera>& __cordl_internal_get__camera();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Camera*> const& __get__camera() const;
+  constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
 
-  constexpr void __set__camera(::UnityEngine::Camera* value);
+  constexpr void __cordl_internal_set__camera(::UnityW<::UnityEngine::Camera> value);
 
-  constexpr ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*& __get__cameraCalibration();
+  constexpr ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*& __cordl_internal_get__cameraCalibration();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*> const& __get__cameraCalibration() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration*> const& __cordl_internal_get__cameraCalibration() const;
 
-  constexpr void __set__cameraCalibration(::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* value);
+  constexpr void __cordl_internal_set__cameraCalibration(::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* value);
 
-  constexpr ::UnityEngine::GameObject*& __get__clipQuad();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__clipQuad();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__clipQuad() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__clipQuad() const;
 
-  constexpr void __set__clipQuad(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__clipQuad(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::Material*& __get__clipMaterial();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__clipMaterial();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__clipMaterial() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__clipMaterial() const;
 
-  constexpr void __set__clipMaterial(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__clipMaterial(::UnityW<::UnityEngine::Material> value);
 
-  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>& __get__screenshots();
+  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*>& __cordl_internal_get__screenshots();
 
-  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> const& __get__screenshots() const;
+  constexpr ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> const& __cordl_internal_get__screenshots() const;
 
-  constexpr void __set__screenshots(::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> value);
+  constexpr void __cordl_internal_set__screenshots(::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> value);
 
   /// @brief Method add_texturesReadyEvent, addr 0x2300540, size 0x9c, virtual false, abstract: false, final false
   inline void add_texturesReadyEvent(::System::Action* value);
@@ -426,25 +428,25 @@ public:
   ::System::Action* ___texturesReadyEvent;
 
   /// @brief Field _clearBackgroundShader, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Shader* ____clearBackgroundShader;
+  ::UnityW<::UnityEngine::Shader> ____clearBackgroundShader;
 
   /// @brief Field _isSetup, offset: 0x28, size: 0x1, def value: None
   bool ____isSetup;
 
   /// @brief Field _hmd, offset: 0x30, size: 0x8, def value: None
-  ::UnityEngine::Transform* ____hmd;
+  ::UnityW<::UnityEngine::Transform> ____hmd;
 
   /// @brief Field _camera, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Camera* ____camera;
+  ::UnityW<::UnityEngine::Camera> ____camera;
 
   /// @brief Field _cameraCalibration, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::__PosesRecordingData__ExternalCameraCalibration* ____cameraCalibration;
 
   /// @brief Field _clipQuad, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____clipQuad;
+  ::UnityW<::UnityEngine::GameObject> ____clipQuad;
 
   /// @brief Field _clipMaterial, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Material* ____clipMaterial;
+  ::UnityW<::UnityEngine::Material> ____clipMaterial;
 
   /// @brief Field _screenshots, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*, ::Array<::GlobalNamespace::__PlaybackRenderer__PlaybackScreenshot*>*> ____screenshots;

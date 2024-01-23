@@ -38,7 +38,7 @@ MARK_REF_PTR_T(::System::Net::__PathList__PathListComparer);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9131))
 // CS Name: ::PathList::PathListComparer*
 class CORDL_TYPE __PathList__PathListComparer : public ::System::Object {
@@ -89,7 +89,7 @@ static_assert(::cordl_internals::size_check_v<::System::Net::__PathList__PathLis
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9132))
 // CS Name: ::System.Net::PathList*
 class CORDL_TYPE PathList : public ::System::Object {
@@ -98,7 +98,7 @@ public:
   using PathListComparer = ::System::Net::__PathList__PathListComparer;
 
   /// @brief Field m_list, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_list, put = __set_m_list))::System::Collections::SortedList* m_list;
+  __declspec(property(get = __cordl_internal_get_m_list, put = __cordl_internal_set_m_list))::System::Collections::SortedList* m_list;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -108,11 +108,11 @@ public:
 
   __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
 
-  constexpr ::System::Collections::SortedList*& __get_m_list();
+  constexpr ::System::Collections::SortedList*& __cordl_internal_get_m_list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& __get_m_list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::SortedList*> const& __cordl_internal_get_m_list() const;
 
-  constexpr void __set_m_list(::System::Collections::SortedList* value);
+  constexpr void __cordl_internal_set_m_list(::System::Collections::SortedList* value);
 
   static inline ::System::Net::PathList* New_ctor();
 

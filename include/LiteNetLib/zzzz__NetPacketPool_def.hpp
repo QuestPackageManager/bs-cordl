@@ -25,38 +25,38 @@ MARK_REF_PTR_T(::LiteNetLib::NetPacketPool);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14172))
 // CS Name: ::LiteNetLib::NetPacketPool*
 class CORDL_TYPE NetPacketPool : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _pool, offset 0x10, size 0x8
-  __declspec(property(get = __get__pool, put = __set__pool))::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> _pool;
+  __declspec(property(get = __cordl_internal_get__pool, put = __cordl_internal_set__pool))::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> _pool;
 
   /// @brief Field _lock, offset 0x18, size 0x8
-  __declspec(property(get = __get__lock, put = __set__lock))::System::Threading::ReaderWriterLockSlim* _lock;
+  __declspec(property(get = __cordl_internal_get__lock, put = __cordl_internal_set__lock))::System::Threading::ReaderWriterLockSlim* _lock;
 
   /// @brief Field _count, offset 0x20, size 0x4
-  __declspec(property(get = __get__count, put = __set__count)) int32_t _count;
+  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
 
-  constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*>& __get__pool();
+  constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*>& __cordl_internal_get__pool();
 
-  constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> const& __get__pool() const;
+  constexpr ::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> const& __cordl_internal_get__pool() const;
 
-  constexpr void __set__pool(::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> value);
+  constexpr void __cordl_internal_set__pool(::ArrayW<::LiteNetLib::NetPacket*, ::Array<::LiteNetLib::NetPacket*>*> value);
 
-  constexpr ::System::Threading::ReaderWriterLockSlim*& __get__lock();
+  constexpr ::System::Threading::ReaderWriterLockSlim*& __cordl_internal_get__lock();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ReaderWriterLockSlim*> const& __get__lock() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ReaderWriterLockSlim*> const& __cordl_internal_get__lock() const;
 
-  constexpr void __set__lock(::System::Threading::ReaderWriterLockSlim* value);
+  constexpr void __cordl_internal_set__lock(::System::Threading::ReaderWriterLockSlim* value);
 
-  constexpr int32_t& __get__count();
+  constexpr int32_t& __cordl_internal_get__count();
 
-  constexpr int32_t const& __get__count() const;
+  constexpr int32_t const& __cordl_internal_get__count() const;
 
-  constexpr void __set__count(int32_t value);
+  constexpr void __cordl_internal_set__count(int32_t value);
 
   /// @brief Method GetWithData, addr 0x220152c, size 0xd8, virtual false, abstract: false, final false
   inline ::LiteNetLib::NetPacket* GetWithData(::LiteNetLib::PacketProperty property, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t start, int32_t length);

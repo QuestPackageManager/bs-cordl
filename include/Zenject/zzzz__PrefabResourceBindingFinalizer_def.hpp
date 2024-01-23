@@ -78,38 +78,38 @@ MARK_REF_PTR_T(::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_1
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10960))
 // CS Name: ::PrefabResourceBindingFinalizer::<>c__DisplayClass5_0*
 class CORDL_TYPE __PrefabResourceBindingFinalizer____c__DisplayClass5_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::PrefabResourceBindingFinalizer* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::PrefabResourceBindingFinalizer* __4__this;
 
   /// @brief Field container, offset 0x18, size 0x8
-  __declspec(property(get = __get_container, put = __set_container))::Zenject::DiContainer* container;
+  __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container))::Zenject::DiContainer* container;
 
   /// @brief Field concreteTypes, offset 0x20, size 0x8
-  __declspec(property(get = __get_concreteTypes, put = __set_concreteTypes))::System::Collections::Generic::List_1<::System::Type*>* concreteTypes;
+  __declspec(property(get = __cordl_internal_get_concreteTypes, put = __cordl_internal_set_concreteTypes))::System::Collections::Generic::List_1<::System::Type*>* concreteTypes;
 
-  constexpr ::Zenject::PrefabResourceBindingFinalizer*& __get___4__this();
+  constexpr ::Zenject::PrefabResourceBindingFinalizer*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::PrefabResourceBindingFinalizer*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::PrefabResourceBindingFinalizer*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::PrefabResourceBindingFinalizer* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::PrefabResourceBindingFinalizer* value);
 
-  constexpr ::Zenject::DiContainer*& __get_container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get_container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get_container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get_container() const;
 
-  constexpr void __set_container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set_container(::Zenject::DiContainer* value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __get_concreteTypes();
+  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __cordl_internal_get_concreteTypes();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __get_concreteTypes() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __cordl_internal_get_concreteTypes() const;
 
-  constexpr void __set_concreteTypes(::System::Collections::Generic::List_1<::System::Type*>* value);
+  constexpr void __cordl_internal_set_concreteTypes(::System::Collections::Generic::List_1<::System::Type*>* value);
 
   static inline ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_0* New_ctor();
 
@@ -164,29 +164,29 @@ static_assert(offsetof(::Zenject::__PrefabResourceBindingFinalizer____c__Display
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10961))
 // CS Name: ::PrefabResourceBindingFinalizer::<>c__DisplayClass5_1*
 class CORDL_TYPE __PrefabResourceBindingFinalizer____c__DisplayClass5_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field prefabCreator, offset 0x10, size 0x8
-  __declspec(property(get = __get_prefabCreator, put = __set_prefabCreator))::Zenject::PrefabInstantiatorCached* prefabCreator;
+  __declspec(property(get = __cordl_internal_get_prefabCreator, put = __cordl_internal_set_prefabCreator))::Zenject::PrefabInstantiatorCached* prefabCreator;
 
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
-  __declspec(property(get = __get_CS$__8__locals1, put = __set_CS$__8__locals1))::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_0* CS$__8__locals1;
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1))::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_0* CS$__8__locals1;
 
-  constexpr ::Zenject::PrefabInstantiatorCached*& __get_prefabCreator();
+  constexpr ::Zenject::PrefabInstantiatorCached*& __cordl_internal_get_prefabCreator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::PrefabInstantiatorCached*> const& __get_prefabCreator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::PrefabInstantiatorCached*> const& __cordl_internal_get_prefabCreator() const;
 
-  constexpr void __set_prefabCreator(::Zenject::PrefabInstantiatorCached* value);
+  constexpr void __cordl_internal_set_prefabCreator(::Zenject::PrefabInstantiatorCached* value);
 
-  constexpr ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_0*& __get_CS$__8__locals1();
+  constexpr ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_0*& __cordl_internal_get_CS$__8__locals1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_0*> const& __get_CS$__8__locals1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_0*> const& __cordl_internal_get_CS$__8__locals1() const;
 
-  constexpr void __set_CS$__8__locals1(::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_0* value);
+  constexpr void __cordl_internal_set_CS$__8__locals1(::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_0* value);
 
   static inline ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_1* New_ctor();
 
@@ -236,29 +236,29 @@ static_assert(offsetof(::Zenject::__PrefabResourceBindingFinalizer____c__Display
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10962))
 // CS Name: ::PrefabResourceBindingFinalizer::<>c__DisplayClass6_0*
 class CORDL_TYPE __PrefabResourceBindingFinalizer____c__DisplayClass6_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::Zenject::PrefabResourceBindingFinalizer* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::Zenject::PrefabResourceBindingFinalizer* __4__this;
 
   /// @brief Field container, offset 0x18, size 0x8
-  __declspec(property(get = __get_container, put = __set_container))::Zenject::DiContainer* container;
+  __declspec(property(get = __cordl_internal_get_container, put = __cordl_internal_set_container))::Zenject::DiContainer* container;
 
-  constexpr ::Zenject::PrefabResourceBindingFinalizer*& __get___4__this();
+  constexpr ::Zenject::PrefabResourceBindingFinalizer*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::PrefabResourceBindingFinalizer*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::PrefabResourceBindingFinalizer*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::Zenject::PrefabResourceBindingFinalizer* value);
+  constexpr void __cordl_internal_set___4__this(::Zenject::PrefabResourceBindingFinalizer* value);
 
-  constexpr ::Zenject::DiContainer*& __get_container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get_container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get_container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get_container() const;
 
-  constexpr void __set_container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set_container(::Zenject::DiContainer* value);
 
   static inline ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_0* New_ctor();
 
@@ -308,29 +308,29 @@ static_assert(offsetof(::Zenject::__PrefabResourceBindingFinalizer____c__Display
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10963))
 // CS Name: ::PrefabResourceBindingFinalizer::<>c__DisplayClass6_1*
 class CORDL_TYPE __PrefabResourceBindingFinalizer____c__DisplayClass6_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field prefabCreator, offset 0x10, size 0x8
-  __declspec(property(get = __get_prefabCreator, put = __set_prefabCreator))::Zenject::PrefabInstantiatorCached* prefabCreator;
+  __declspec(property(get = __cordl_internal_get_prefabCreator, put = __cordl_internal_set_prefabCreator))::Zenject::PrefabInstantiatorCached* prefabCreator;
 
   /// @brief Field CS$<>8__locals1, offset 0x18, size 0x8
-  __declspec(property(get = __get_CS$__8__locals1, put = __set_CS$__8__locals1))::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_0* CS$__8__locals1;
+  __declspec(property(get = __cordl_internal_get_CS$__8__locals1, put = __cordl_internal_set_CS$__8__locals1))::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_0* CS$__8__locals1;
 
-  constexpr ::Zenject::PrefabInstantiatorCached*& __get_prefabCreator();
+  constexpr ::Zenject::PrefabInstantiatorCached*& __cordl_internal_get_prefabCreator();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::PrefabInstantiatorCached*> const& __get_prefabCreator() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::PrefabInstantiatorCached*> const& __cordl_internal_get_prefabCreator() const;
 
-  constexpr void __set_prefabCreator(::Zenject::PrefabInstantiatorCached* value);
+  constexpr void __cordl_internal_set_prefabCreator(::Zenject::PrefabInstantiatorCached* value);
 
-  constexpr ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_0*& __get_CS$__8__locals1();
+  constexpr ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_0*& __cordl_internal_get_CS$__8__locals1();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_0*> const& __get_CS$__8__locals1() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_0*> const& __cordl_internal_get_CS$__8__locals1() const;
 
-  constexpr void __set_CS$__8__locals1(::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_0* value);
+  constexpr void __cordl_internal_set_CS$__8__locals1(::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_0* value);
 
   static inline ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass6_1* New_ctor();
 
@@ -380,7 +380,7 @@ static_assert(offsetof(::Zenject::__PrefabResourceBindingFinalizer____c__Display
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10966))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10966))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10964))
 // CS Name: ::Zenject::PrefabResourceBindingFinalizer*
 class CORDL_TYPE PrefabResourceBindingFinalizer : public ::Zenject::ProviderBindingFinalizer {
@@ -395,31 +395,32 @@ public:
   using __c__DisplayClass5_0 = ::Zenject::__PrefabResourceBindingFinalizer____c__DisplayClass5_0;
 
   /// @brief Field _gameObjectBindInfo, offset 0x18, size 0x8
-  __declspec(property(get = __get__gameObjectBindInfo, put = __set__gameObjectBindInfo))::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
+  __declspec(property(get = __cordl_internal_get__gameObjectBindInfo, put = __cordl_internal_set__gameObjectBindInfo))::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
 
   /// @brief Field _resourcePath, offset 0x20, size 0x8
-  __declspec(property(get = __get__resourcePath, put = __set__resourcePath))::StringW _resourcePath;
+  __declspec(property(get = __cordl_internal_get__resourcePath, put = __cordl_internal_set__resourcePath))::StringW _resourcePath;
 
   /// @brief Field _providerFactory, offset 0x28, size 0x8
-  __declspec(property(get = __get__providerFactory, put = __set__providerFactory))::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* _providerFactory;
+  __declspec(property(get = __cordl_internal_get__providerFactory,
+                      put = __cordl_internal_set__providerFactory))::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* _providerFactory;
 
-  constexpr ::Zenject::GameObjectCreationParameters*& __get__gameObjectBindInfo();
+  constexpr ::Zenject::GameObjectCreationParameters*& __cordl_internal_get__gameObjectBindInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __get__gameObjectBindInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __cordl_internal_get__gameObjectBindInfo() const;
 
-  constexpr void __set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value);
+  constexpr void __cordl_internal_set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value);
 
-  constexpr ::StringW& __get__resourcePath();
+  constexpr ::StringW& __cordl_internal_get__resourcePath();
 
-  constexpr ::StringW const& __get__resourcePath() const;
+  constexpr ::StringW const& __cordl_internal_get__resourcePath() const;
 
-  constexpr void __set__resourcePath(::StringW value);
+  constexpr void __cordl_internal_set__resourcePath(::StringW value);
 
-  constexpr ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>*& __get__providerFactory();
+  constexpr ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>*& __cordl_internal_get__providerFactory();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>*> const& __get__providerFactory() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>*> const& __cordl_internal_get__providerFactory() const;
 
-  constexpr void __set__providerFactory(::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* value);
+  constexpr void __cordl_internal_set__providerFactory(::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* value);
 
   static inline ::Zenject::PrefabResourceBindingFinalizer* New_ctor(::Zenject::BindInfo* bindInfo, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo, ::StringW resourcePath,
                                                                     ::System::Func_3<::System::Type*, ::Zenject::IPrefabInstantiator*, ::Zenject::IProvider*>* providerFactory);

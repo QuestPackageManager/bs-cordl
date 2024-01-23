@@ -67,7 +67,7 @@ MARK_VAL_T(::UnityEngine::ProBuilder::__UvUnwrapping__UVTransform);
 // SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12212))
 // CS Name: ::UvUnwrapping::UVTransform
 struct CORDL_TYPE __UvUnwrapping__UVTransform {
@@ -112,7 +112,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::__UvUnwrapping__UVTransform, s
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12213))
 // CS Name: ::UvUnwrapping::<>c*
 class CORDL_TYPE __UvUnwrapping____c : public ::System::Object {
@@ -164,7 +164,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__UvUnw
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10243))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12214))
 // CS Name: ::UnityEngine.ProBuilder::UvUnwrapping*
 class CORDL_TYPE UvUnwrapping : public ::System::Object {

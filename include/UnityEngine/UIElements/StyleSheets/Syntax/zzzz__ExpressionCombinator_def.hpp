@@ -15,7 +15,7 @@ MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionCombinator)
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets::Syntax {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7495))
 // CS Name: ::UnityEngine.UIElements.StyleSheets.Syntax::ExpressionCombinator
 struct CORDL_TYPE ExpressionCombinator {

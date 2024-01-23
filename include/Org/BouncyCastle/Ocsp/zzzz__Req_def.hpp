@@ -23,22 +23,22 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Ocsp::Req);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Ocsp {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1606))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1606))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1621))
 // CS Name: ::Org.BouncyCastle.Ocsp::Req*
 class CORDL_TYPE Req : public ::Org::BouncyCastle::X509::X509ExtensionBase {
 public:
   // Declarations
   /// @brief Field req, offset 0x10, size 0x8
-  __declspec(property(get = __get_req, put = __set_req))::Org::BouncyCastle::Asn1::Ocsp::Request* req;
+  __declspec(property(get = __cordl_internal_get_req, put = __cordl_internal_set_req))::Org::BouncyCastle::Asn1::Ocsp::Request* req;
 
   __declspec(property(get = get_SingleRequestExtensions))::Org::BouncyCastle::Asn1::X509::X509Extensions* SingleRequestExtensions;
 
-  constexpr ::Org::BouncyCastle::Asn1::Ocsp::Request*& __get_req();
+  constexpr ::Org::BouncyCastle::Asn1::Ocsp::Request*& __cordl_internal_get_req();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::Request*> const& __get_req() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Ocsp::Request*> const& __cordl_internal_get_req() const;
 
-  constexpr void __set_req(::Org::BouncyCastle::Asn1::Ocsp::Request* value);
+  constexpr void __cordl_internal_set_req(::Org::BouncyCastle::Asn1::Ocsp::Request* value);
 
   static inline ::Org::BouncyCastle::Ocsp::Req* New_ctor(::Org::BouncyCastle::Asn1::Ocsp::Request* req);
 

@@ -77,9 +77,9 @@ MARK_VAL_T(::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(4030)) CS
-// Name: ::OculusInit::<InitializeInternalAsync>d__7
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 105
+// }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 105 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4030)) CS Name:
+// ::OculusInit::<InitializeInternalAsync>d__7
 struct CORDL_TYPE __OculusInit___InitializeInternalAsync_d__7 {
 public:
   // Declarations
@@ -138,20 +138,20 @@ static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeInternalAsync
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4031))
 // CS Name: ::OculusInit::<>c__DisplayClass8_0*
 class CORDL_TYPE __OculusInit____c__DisplayClass8_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tcs, offset 0x10, size 0x8
-  __declspec(property(get = __get_tcs, put = __set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs;
+  __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs;
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __get_tcs();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get_tcs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __get_tcs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __cordl_internal_get_tcs() const;
 
-  constexpr void __set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
   static inline ::GlobalNamespace::__OculusInit____c__DisplayClass8_0* New_ctor();
 
@@ -190,29 +190,29 @@ static_assert(offsetof(::GlobalNamespace::__OculusInit____c__DisplayClass8_0, __
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4032))
 // CS Name: ::OculusInit::<>c__DisplayClass9_0*
 class CORDL_TYPE __OculusInit____c__DisplayClass9_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tcs, offset 0x10, size 0x8
-  __declspec(property(get = __get_tcs, put = __set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs;
+  __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs;
 
   /// @brief Field <>4__this, offset 0x18, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::OculusInit* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::GlobalNamespace::OculusInit* __4__this;
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __get_tcs();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get_tcs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __get_tcs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __cordl_internal_get_tcs() const;
 
-  constexpr void __set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  constexpr ::GlobalNamespace::OculusInit*& __get___4__this();
+  constexpr ::GlobalNamespace::OculusInit*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusInit*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::OculusInit*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::OculusInit* value);
+  constexpr void __cordl_internal_set___4__this(::GlobalNamespace::OculusInit* value);
 
   static inline ::GlobalNamespace::__OculusInit____c__DisplayClass9_0* New_ctor();
 
@@ -256,20 +256,20 @@ static_assert(offsetof(::GlobalNamespace::__OculusInit____c__DisplayClass9_0, __
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4033))
 // CS Name: ::OculusInit::<>c__DisplayClass10_0*
 class CORDL_TYPE __OculusInit____c__DisplayClass10_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field tcs, offset 0x10, size 0x8
-  __declspec(property(get = __get_tcs, put = __set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs;
+  __declspec(property(get = __cordl_internal_get_tcs, put = __cordl_internal_set_tcs))::System::Threading::Tasks::TaskCompletionSource_1<bool>* tcs;
 
-  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __get_tcs();
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get_tcs();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __get_tcs() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskCompletionSource_1<bool>*> const& __cordl_internal_get_tcs() const;
 
-  constexpr void __set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
+  constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
   static inline ::GlobalNamespace::__OculusInit____c__DisplayClass10_0* New_ctor();
 
@@ -308,7 +308,7 @@ static_assert(offsetof(::GlobalNamespace::__OculusInit____c__DisplayClass10_0, _
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15978))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15978))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4034))
 // CS Name: ::OculusInit*
 class CORDL_TYPE OculusInit : public ::GlobalNamespace::BasePlatformInit {
@@ -323,25 +323,25 @@ public:
   using _InitializeInternalAsync_d__7 = ::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__7;
 
   /// @brief Field _playerDataModel, offset 0x20, size 0x8
-  __declspec(property(get = __get__playerDataModel, put = __set__playerDataModel))::GlobalNamespace::PlayerDataModel* _playerDataModel;
+  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
   /// @brief Field <userAgeCategoryReceivedOrTimedOut>k__BackingField, offset 0x28, size 0x1
-  __declspec(property(get = __get__userAgeCategoryReceivedOrTimedOut_k__BackingField,
-                      put = __set__userAgeCategoryReceivedOrTimedOut_k__BackingField)) bool _userAgeCategoryReceivedOrTimedOut_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__userAgeCategoryReceivedOrTimedOut_k__BackingField,
+                      put = __cordl_internal_set__userAgeCategoryReceivedOrTimedOut_k__BackingField)) bool _userAgeCategoryReceivedOrTimedOut_k__BackingField;
 
   __declspec(property(get = get_userAgeCategoryReceivedOrTimedOut, put = set_userAgeCategoryReceivedOrTimedOut)) bool userAgeCategoryReceivedOrTimedOut;
 
-  constexpr ::GlobalNamespace::PlayerDataModel*& __get__playerDataModel();
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerDataModel*> const& __get__playerDataModel() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr void __set__playerDataModel(::GlobalNamespace::PlayerDataModel* value);
+  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  constexpr bool& __get__userAgeCategoryReceivedOrTimedOut_k__BackingField();
+  constexpr bool& __cordl_internal_get__userAgeCategoryReceivedOrTimedOut_k__BackingField();
 
-  constexpr bool const& __get__userAgeCategoryReceivedOrTimedOut_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__userAgeCategoryReceivedOrTimedOut_k__BackingField() const;
 
-  constexpr void __set__userAgeCategoryReceivedOrTimedOut_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__userAgeCategoryReceivedOrTimedOut_k__BackingField(bool value);
 
   /// @brief Method get_userAgeCategoryReceivedOrTimedOut, addr 0x2228954, size 0x8, virtual false, abstract: false, final false
   inline bool get_userAgeCategoryReceivedOrTimedOut();
@@ -381,7 +381,7 @@ protected:
 
 public:
   /// @brief Field _playerDataModel, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerDataModel* ____playerDataModel;
+  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
   /// @brief Field <userAgeCategoryReceivedOrTimedOut>k__BackingField, offset: 0x28, size: 0x1, def value: None
   bool ____userAgeCategoryReceivedOrTimedOut_k__BackingField;

@@ -20,38 +20,38 @@ MARK_REF_PTR_T(::GlobalNamespace::ToggleableCanvasGroup);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13505))
 // CS Name: ::ToggleableCanvasGroup*
 class CORDL_TYPE ToggleableCanvasGroup : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _canvasGroup, offset 0x18, size 0x8
-  __declspec(property(get = __get__canvasGroup, put = __set__canvasGroup))::UnityEngine::CanvasGroup* _canvasGroup;
+  __declspec(property(get = __cordl_internal_get__canvasGroup, put = __cordl_internal_set__canvasGroup))::UnityW<::UnityEngine::CanvasGroup> _canvasGroup;
 
   /// @brief Field _toggle, offset 0x20, size 0x8
-  __declspec(property(get = __get__toggle, put = __set__toggle))::UnityEngine::UI::Toggle* _toggle;
+  __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle))::UnityW<::UnityEngine::UI::Toggle> _toggle;
 
   /// @brief Field _invertToggle, offset 0x28, size 0x1
-  __declspec(property(get = __get__invertToggle, put = __set__invertToggle)) bool _invertToggle;
+  __declspec(property(get = __cordl_internal_get__invertToggle, put = __cordl_internal_set__invertToggle)) bool _invertToggle;
 
-  constexpr ::UnityEngine::CanvasGroup*& __get__canvasGroup();
+  constexpr ::UnityW<::UnityEngine::CanvasGroup>& __cordl_internal_get__canvasGroup();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::CanvasGroup*> const& __get__canvasGroup() const;
+  constexpr ::UnityW<::UnityEngine::CanvasGroup> const& __cordl_internal_get__canvasGroup() const;
 
-  constexpr void __set__canvasGroup(::UnityEngine::CanvasGroup* value);
+  constexpr void __cordl_internal_set__canvasGroup(::UnityW<::UnityEngine::CanvasGroup> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__toggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__toggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__toggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__toggle() const;
 
-  constexpr void __set__toggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
-  constexpr bool& __get__invertToggle();
+  constexpr bool& __cordl_internal_get__invertToggle();
 
-  constexpr bool const& __get__invertToggle() const;
+  constexpr bool const& __cordl_internal_get__invertToggle() const;
 
-  constexpr void __set__invertToggle(bool value);
+  constexpr void __cordl_internal_set__invertToggle(bool value);
 
   /// @brief Method OnEnable, addr 0x2116b24, size 0xbc, virtual false, abstract: false, final false
   inline void OnEnable();
@@ -85,10 +85,10 @@ protected:
 
 public:
   /// @brief Field _canvasGroup, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::CanvasGroup* ____canvasGroup;
+  ::UnityW<::UnityEngine::CanvasGroup> ____canvasGroup;
 
   /// @brief Field _toggle, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____toggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____toggle;
 
   /// @brief Field _invertToggle, offset: 0x28, size: 0x1, def value: None
   bool ____invertToggle;

@@ -30,38 +30,38 @@ MARK_REF_PTR_T(::System::IO::FileStreamAsyncResult);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3628))
 // CS Name: ::System.IO::FileStreamAsyncResult*
 class CORDL_TYPE FileStreamAsyncResult : public ::System::Object {
 public:
   // Declarations
   /// @brief Field state, offset 0x10, size 0x8
-  __declspec(property(get = __get_state, put = __set_state))::System::Object* state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::Object* state;
 
   /// @brief Field completed, offset 0x18, size 0x1
-  __declspec(property(get = __get_completed, put = __set_completed)) bool completed;
+  __declspec(property(get = __cordl_internal_get_completed, put = __cordl_internal_set_completed)) bool completed;
 
   /// @brief Field wh, offset 0x20, size 0x8
-  __declspec(property(get = __get_wh, put = __set_wh))::System::Threading::ManualResetEvent* wh;
+  __declspec(property(get = __cordl_internal_get_wh, put = __cordl_internal_set_wh))::System::Threading::ManualResetEvent* wh;
 
   /// @brief Field cb, offset 0x28, size 0x8
-  __declspec(property(get = __get_cb, put = __set_cb))::System::AsyncCallback* cb;
+  __declspec(property(get = __cordl_internal_get_cb, put = __cordl_internal_set_cb))::System::AsyncCallback* cb;
 
   /// @brief Field completedSynch, offset 0x30, size 0x1
-  __declspec(property(get = __get_completedSynch, put = __set_completedSynch)) bool completedSynch;
+  __declspec(property(get = __cordl_internal_get_completedSynch, put = __cordl_internal_set_completedSynch)) bool completedSynch;
 
   /// @brief Field Count, offset 0x34, size 0x4
-  __declspec(property(get = __get_Count, put = __set_Count)) int32_t Count;
+  __declspec(property(get = __cordl_internal_get_Count, put = __cordl_internal_set_Count)) int32_t Count;
 
   /// @brief Field OriginalCount, offset 0x38, size 0x4
-  __declspec(property(get = __get_OriginalCount, put = __set_OriginalCount)) int32_t OriginalCount;
+  __declspec(property(get = __cordl_internal_get_OriginalCount, put = __cordl_internal_set_OriginalCount)) int32_t OriginalCount;
 
   /// @brief Field BytesRead, offset 0x3c, size 0x4
-  __declspec(property(get = __get_BytesRead, put = __set_BytesRead)) int32_t BytesRead;
+  __declspec(property(get = __cordl_internal_get_BytesRead, put = __cordl_internal_set_BytesRead)) int32_t BytesRead;
 
   /// @brief Field realcb, offset 0x40, size 0x8
-  __declspec(property(get = __get_realcb, put = __set_realcb))::System::AsyncCallback* realcb;
+  __declspec(property(get = __cordl_internal_get_realcb, put = __cordl_internal_set_realcb))::System::AsyncCallback* realcb;
 
   __declspec(property(get = get_AsyncState))::System::Object* AsyncState;
 
@@ -77,59 +77,59 @@ public:
   /// @brief Convert to "::System::IAsyncResult"
   constexpr ::System::IAsyncResult* i___System__IAsyncResult() noexcept;
 
-  constexpr ::System::Object*& __get_state();
+  constexpr ::System::Object*& __cordl_internal_get_state();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_state() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(::System::Object* value);
+  constexpr void __cordl_internal_set_state(::System::Object* value);
 
-  constexpr bool& __get_completed();
+  constexpr bool& __cordl_internal_get_completed();
 
-  constexpr bool const& __get_completed() const;
+  constexpr bool const& __cordl_internal_get_completed() const;
 
-  constexpr void __set_completed(bool value);
+  constexpr void __cordl_internal_set_completed(bool value);
 
-  constexpr ::System::Threading::ManualResetEvent*& __get_wh();
+  constexpr ::System::Threading::ManualResetEvent*& __cordl_internal_get_wh();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __get_wh() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::ManualResetEvent*> const& __cordl_internal_get_wh() const;
 
-  constexpr void __set_wh(::System::Threading::ManualResetEvent* value);
+  constexpr void __cordl_internal_set_wh(::System::Threading::ManualResetEvent* value);
 
-  constexpr ::System::AsyncCallback*& __get_cb();
+  constexpr ::System::AsyncCallback*& __cordl_internal_get_cb();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __get_cb() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __cordl_internal_get_cb() const;
 
-  constexpr void __set_cb(::System::AsyncCallback* value);
+  constexpr void __cordl_internal_set_cb(::System::AsyncCallback* value);
 
-  constexpr bool& __get_completedSynch();
+  constexpr bool& __cordl_internal_get_completedSynch();
 
-  constexpr bool const& __get_completedSynch() const;
+  constexpr bool const& __cordl_internal_get_completedSynch() const;
 
-  constexpr void __set_completedSynch(bool value);
+  constexpr void __cordl_internal_set_completedSynch(bool value);
 
-  constexpr int32_t& __get_Count();
+  constexpr int32_t& __cordl_internal_get_Count();
 
-  constexpr int32_t const& __get_Count() const;
+  constexpr int32_t const& __cordl_internal_get_Count() const;
 
-  constexpr void __set_Count(int32_t value);
+  constexpr void __cordl_internal_set_Count(int32_t value);
 
-  constexpr int32_t& __get_OriginalCount();
+  constexpr int32_t& __cordl_internal_get_OriginalCount();
 
-  constexpr int32_t const& __get_OriginalCount() const;
+  constexpr int32_t const& __cordl_internal_get_OriginalCount() const;
 
-  constexpr void __set_OriginalCount(int32_t value);
+  constexpr void __cordl_internal_set_OriginalCount(int32_t value);
 
-  constexpr int32_t& __get_BytesRead();
+  constexpr int32_t& __cordl_internal_get_BytesRead();
 
-  constexpr int32_t const& __get_BytesRead() const;
+  constexpr int32_t const& __cordl_internal_get_BytesRead() const;
 
-  constexpr void __set_BytesRead(int32_t value);
+  constexpr void __cordl_internal_set_BytesRead(int32_t value);
 
-  constexpr ::System::AsyncCallback*& __get_realcb();
+  constexpr ::System::AsyncCallback*& __cordl_internal_get_realcb();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __get_realcb() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::AsyncCallback*> const& __cordl_internal_get_realcb() const;
 
-  constexpr void __set_realcb(::System::AsyncCallback* value);
+  constexpr void __cordl_internal_set_realcb(::System::AsyncCallback* value);
 
   static inline ::System::IO::FileStreamAsyncResult* New_ctor(::System::AsyncCallback* cb, ::System::Object* state);
 

@@ -51,23 +51,23 @@ MARK_REF_PTR_T(::System::Security::PermissionSet);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2902)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2902))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2884))
 // CS Name: ::System.Security::PermissionSet*
 class CORDL_TYPE PermissionSet : public ::System::Object {
 public:
   // Declarations
   /// @brief Field state, offset 0x10, size 0x4
-  __declspec(property(get = __get_state, put = __set_state))::System::Security::Permissions::PermissionState state;
+  __declspec(property(get = __cordl_internal_get_state, put = __cordl_internal_set_state))::System::Security::Permissions::PermissionState state;
 
   /// @brief Field list, offset 0x18, size 0x8
-  __declspec(property(get = __get_list, put = __set_list))::System::Collections::ArrayList* list;
+  __declspec(property(get = __cordl_internal_get_list, put = __cordl_internal_set_list))::System::Collections::ArrayList* list;
 
   /// @brief Field _declsec, offset 0x20, size 0x1
-  __declspec(property(get = __get__declsec, put = __set__declsec)) bool _declsec;
+  __declspec(property(get = __cordl_internal_get__declsec, put = __cordl_internal_set__declsec)) bool _declsec;
 
   /// @brief Field _ignored, offset 0x28, size 0x8
-  __declspec(property(get = __get__ignored, put = __set__ignored))::ArrayW<bool, ::Array<bool>*> _ignored;
+  __declspec(property(get = __cordl_internal_get__ignored, put = __cordl_internal_set__ignored))::ArrayW<bool, ::Array<bool>*> _ignored;
 
   /// @brief Field psUnrestricted, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_psUnrestricted, put = setStaticF_psUnrestricted))::ArrayW<::System::Object*, ::Array<::System::Object*>*> psUnrestricted;
@@ -105,29 +105,29 @@ public:
   /// @brief Convert to "::System::Runtime::Serialization::IDeserializationCallback"
   constexpr ::System::Runtime::Serialization::IDeserializationCallback* i___System__Runtime__Serialization__IDeserializationCallback() noexcept;
 
-  constexpr ::System::Security::Permissions::PermissionState& __get_state();
+  constexpr ::System::Security::Permissions::PermissionState& __cordl_internal_get_state();
 
-  constexpr ::System::Security::Permissions::PermissionState const& __get_state() const;
+  constexpr ::System::Security::Permissions::PermissionState const& __cordl_internal_get_state() const;
 
-  constexpr void __set_state(::System::Security::Permissions::PermissionState value);
+  constexpr void __cordl_internal_set_state(::System::Security::Permissions::PermissionState value);
 
-  constexpr ::System::Collections::ArrayList*& __get_list();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_list();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get_list() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_list() const;
 
-  constexpr void __set_list(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set_list(::System::Collections::ArrayList* value);
 
-  constexpr bool& __get__declsec();
+  constexpr bool& __cordl_internal_get__declsec();
 
-  constexpr bool const& __get__declsec() const;
+  constexpr bool const& __cordl_internal_get__declsec() const;
 
-  constexpr void __set__declsec(bool value);
+  constexpr void __cordl_internal_set__declsec(bool value);
 
-  constexpr ::ArrayW<bool, ::Array<bool>*>& __get__ignored();
+  constexpr ::ArrayW<bool, ::Array<bool>*>& __cordl_internal_get__ignored();
 
-  constexpr ::ArrayW<bool, ::Array<bool>*> const& __get__ignored() const;
+  constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get__ignored() const;
 
-  constexpr void __set__ignored(::ArrayW<bool, ::Array<bool>*> value);
+  constexpr void __cordl_internal_set__ignored(::ArrayW<bool, ::Array<bool>*> value);
 
   static inline void setStaticF_psUnrestricted(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 

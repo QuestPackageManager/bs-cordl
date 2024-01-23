@@ -27,29 +27,29 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509EnhancedK
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8976)), TypeDefinitionIndex(TypeDefinitionIndex(9011))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8976)), TypeDefinitionIndex(TypeDefinitionIndex(9011))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9010))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509EnhancedKeyUsageExtension*
 class CORDL_TYPE X509EnhancedKeyUsageExtension : public ::System::Security::Cryptography::X509Certificates::X509Extension {
 public:
   // Declarations
   /// @brief Field _enhKeyUsage, offset 0x28, size 0x8
-  __declspec(property(get = __get__enhKeyUsage, put = __set__enhKeyUsage))::System::Security::Cryptography::OidCollection* _enhKeyUsage;
+  __declspec(property(get = __cordl_internal_get__enhKeyUsage, put = __cordl_internal_set__enhKeyUsage))::System::Security::Cryptography::OidCollection* _enhKeyUsage;
 
   /// @brief Field _status, offset 0x30, size 0x4
-  __declspec(property(get = __get__status, put = __set__status))::System::Security::Cryptography::AsnDecodeStatus _status;
+  __declspec(property(get = __cordl_internal_get__status, put = __cordl_internal_set__status))::System::Security::Cryptography::AsnDecodeStatus _status;
 
-  constexpr ::System::Security::Cryptography::OidCollection*& __get__enhKeyUsage();
+  constexpr ::System::Security::Cryptography::OidCollection*& __cordl_internal_get__enhKeyUsage();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::OidCollection*> const& __get__enhKeyUsage() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::OidCollection*> const& __cordl_internal_get__enhKeyUsage() const;
 
-  constexpr void __set__enhKeyUsage(::System::Security::Cryptography::OidCollection* value);
+  constexpr void __cordl_internal_set__enhKeyUsage(::System::Security::Cryptography::OidCollection* value);
 
-  constexpr ::System::Security::Cryptography::AsnDecodeStatus& __get__status();
+  constexpr ::System::Security::Cryptography::AsnDecodeStatus& __cordl_internal_get__status();
 
-  constexpr ::System::Security::Cryptography::AsnDecodeStatus const& __get__status() const;
+  constexpr ::System::Security::Cryptography::AsnDecodeStatus const& __cordl_internal_get__status() const;
 
-  constexpr void __set__status(::System::Security::Cryptography::AsnDecodeStatus value);
+  constexpr void __cordl_internal_set__status(::System::Security::Cryptography::AsnDecodeStatus value);
 
   static inline ::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension* New_ctor();
 

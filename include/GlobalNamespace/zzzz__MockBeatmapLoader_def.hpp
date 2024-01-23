@@ -105,8 +105,8 @@ MARK_VAL_T(::GlobalNamespace::__MockBeatmapLoader____c__DisplayClass2_0____GetBe
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 }), TypeDefinitionIndex(TypeDefinitionIndex(3401)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(4260))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5172)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3401)), TypeDefinitionIndex(TypeDefinitionIndex(4260)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 890 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5172)) CS Name:
 // ::MockBeatmapLoader::<>c__DisplayClass2_0::<<GetBeatmapData>b__3>d
 struct CORDL_TYPE __MockBeatmapLoader____c__DisplayClass2_0____GetBeatmapData_b__3_d {
 public:
@@ -167,7 +167,7 @@ static_assert(offsetof(::GlobalNamespace::__MockBeatmapLoader____c__DisplayClass
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5173))
 // CS Name: ::MockBeatmapLoader::<>c__DisplayClass2_0*
 class CORDL_TYPE __MockBeatmapLoader____c__DisplayClass2_0 : public ::System::Object {
@@ -176,31 +176,31 @@ public:
   using __GetBeatmapData_b__3_d = ::GlobalNamespace::__MockBeatmapLoader____c__DisplayClass2_0____GetBeatmapData_b__3_d;
 
   /// @brief Field beatmap, offset 0x10, size 0x8
-  __declspec(property(get = __get_beatmap, put = __set_beatmap))::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmap;
+  __declspec(property(get = __cordl_internal_get_beatmap, put = __cordl_internal_set_beatmap))::GlobalNamespace::BeatmapIdentifierNetSerializable* beatmap;
 
   /// @brief Field difficultyBeatmap, offset 0x18, size 0x8
-  __declspec(property(get = __get_difficultyBeatmap, put = __set_difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
+  __declspec(property(get = __cordl_internal_get_difficultyBeatmap, put = __cordl_internal_set_difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* difficultyBeatmap;
 
   /// @brief Field beatmapData, offset 0x20, size 0x8
-  __declspec(property(get = __get_beatmapData, put = __set_beatmapData))::GlobalNamespace::IReadonlyBeatmapData* beatmapData;
+  __declspec(property(get = __cordl_internal_get_beatmapData, put = __cordl_internal_set_beatmapData))::GlobalNamespace::IReadonlyBeatmapData* beatmapData;
 
-  constexpr ::GlobalNamespace::BeatmapIdentifierNetSerializable*& __get_beatmap();
+  constexpr ::GlobalNamespace::BeatmapIdentifierNetSerializable*& __cordl_internal_get_beatmap();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapIdentifierNetSerializable*> const& __get_beatmap() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapIdentifierNetSerializable*> const& __cordl_internal_get_beatmap() const;
 
-  constexpr void __set_beatmap(::GlobalNamespace::BeatmapIdentifierNetSerializable* value);
+  constexpr void __cordl_internal_set_beatmap(::GlobalNamespace::BeatmapIdentifierNetSerializable* value);
 
-  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __get_difficultyBeatmap();
+  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __cordl_internal_get_difficultyBeatmap();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __get_difficultyBeatmap() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __cordl_internal_get_difficultyBeatmap() const;
 
-  constexpr void __set_difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
+  constexpr void __cordl_internal_set_difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
 
-  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __get_beatmapData();
+  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get_beatmapData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __get_beatmapData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __cordl_internal_get_beatmapData() const;
 
-  constexpr void __set_beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
+  constexpr void __cordl_internal_set_beatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
 
   static inline ::GlobalNamespace::__MockBeatmapLoader____c__DisplayClass2_0* New_ctor();
 
@@ -255,7 +255,7 @@ static_assert(offsetof(::GlobalNamespace::__MockBeatmapLoader____c__DisplayClass
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5174))
 // CS Name: ::MockBeatmapLoader::<>c*
 class CORDL_TYPE __MockBeatmapLoader____c : public ::System::Object {
@@ -309,9 +309,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__MockBeatmapLo
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 906 }), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 892 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(4358)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(15509)), TypeDefinitionIndex(TypeDefinitionIndex(2677)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3394))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5175)) CS Name: ::MockBeatmapLoader::<GetBeatmapData>d__2
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(4358)), TypeDefinitionIndex(TypeDefinitionIndex(15509)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 906 }),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 892 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5175)) CS Name: ::MockBeatmapLoader::<GetBeatmapData>d__2
 struct CORDL_TYPE __MockBeatmapLoader___GetBeatmapData_d__2 {
 public:
   // Declarations
@@ -390,7 +390,7 @@ static_assert(offsetof(::GlobalNamespace::__MockBeatmapLoader___GetBeatmapData_d
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5176))
 // CS Name: ::MockBeatmapLoader*
 class CORDL_TYPE MockBeatmapLoader : public ::System::Object {
@@ -403,7 +403,7 @@ public:
   using __c__DisplayClass2_0 = ::GlobalNamespace::__MockBeatmapLoader____c__DisplayClass2_0;
 
   /// @brief Field _beatmapLevelsModel, offset 0x10, size 0x8
-  __declspec(property(get = __get__beatmapLevelsModel, put = __set__beatmapLevelsModel))::GlobalNamespace::BeatmapLevelsModel* _beatmapLevelsModel;
+  __declspec(property(get = __cordl_internal_get__beatmapLevelsModel, put = __cordl_internal_set__beatmapLevelsModel))::UnityW<::GlobalNamespace::BeatmapLevelsModel> _beatmapLevelsModel;
 
   /// @brief Convert operator to "::GlobalNamespace::IMockBeatmapDataProvider"
   constexpr operator ::GlobalNamespace::IMockBeatmapDataProvider*() noexcept;
@@ -417,11 +417,11 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::GlobalNamespace::BeatmapLevelsModel*& __get__beatmapLevelsModel();
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsModel>& __cordl_internal_get__beatmapLevelsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelsModel*> const& __get__beatmapLevelsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatmapLevelsModel> const& __cordl_internal_get__beatmapLevelsModel() const;
 
-  constexpr void __set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value);
+  constexpr void __cordl_internal_set__beatmapLevelsModel(::UnityW<::GlobalNamespace::BeatmapLevelsModel> value);
 
   static inline ::GlobalNamespace::MockBeatmapLoader* New_ctor(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel);
 
@@ -450,7 +450,7 @@ protected:
 
 public:
   /// @brief Field _beatmapLevelsModel, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;
+  ::UnityW<::GlobalNamespace::BeatmapLevelsModel> ____beatmapLevelsModel;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

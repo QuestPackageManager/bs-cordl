@@ -13,7 +13,7 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::Haptics::IHaptics);
 // SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Haptics {
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6462))
 // CS Name: ::UnityEngine.InputSystem.Haptics::IHaptics*
 class CORDL_TYPE IHaptics {

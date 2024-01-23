@@ -18,7 +18,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0xc4;
   constexpr static std::size_t addrs = 0x231b0f0;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelNoTransitionInstaller*>::get(),
@@ -34,118 +34,121 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x231b6e8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelNoTransitionInstaller*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::BeatmapLevelSO*& GlobalNamespace::MissionLevelNoTransitionInstaller::__get__beatmapLevel() {
+constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO>& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__beatmapLevel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevel;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapLevelSO*> const& GlobalNamespace::MissionLevelNoTransitionInstaller::__get__beatmapLevel() const {
+constexpr ::UnityW<::GlobalNamespace::BeatmapLevelSO> const& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__beatmapLevel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapLevel;
 }
-constexpr void GlobalNamespace::MissionLevelNoTransitionInstaller::__set__beatmapLevel(::GlobalNamespace::BeatmapLevelSO* value) {
+constexpr void GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_set__beatmapLevel(::UnityW<::GlobalNamespace::BeatmapLevelSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapCharacteristicSO*& GlobalNamespace::MissionLevelNoTransitionInstaller::__get__beatmapCharacteristic() {
+constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__beatmapCharacteristic() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristic;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCharacteristicSO*> const& GlobalNamespace::MissionLevelNoTransitionInstaller::__get__beatmapCharacteristic() const {
+constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__beatmapCharacteristic() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapCharacteristic;
 }
-constexpr void GlobalNamespace::MissionLevelNoTransitionInstaller::__set__beatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSO* value) {
+constexpr void GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_set__beatmapCharacteristic(::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCharacteristic)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapDifficulty& GlobalNamespace::MissionLevelNoTransitionInstaller::__get__beatmapDifficulty() {
+constexpr ::GlobalNamespace::BeatmapDifficulty& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__beatmapDifficulty() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDifficulty;
 }
-constexpr ::GlobalNamespace::BeatmapDifficulty const& GlobalNamespace::MissionLevelNoTransitionInstaller::__get__beatmapDifficulty() const {
+constexpr ::GlobalNamespace::BeatmapDifficulty const& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__beatmapDifficulty() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____beatmapDifficulty;
 }
-constexpr void GlobalNamespace::MissionLevelNoTransitionInstaller::__set__beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value) {
+constexpr void GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_set__beatmapDifficulty(::GlobalNamespace::BeatmapDifficulty value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____beatmapDifficulty = value;
 }
-constexpr ::GlobalNamespace::ColorSchemeSO*& GlobalNamespace::MissionLevelNoTransitionInstaller::__get__colorScheme() {
+constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO>& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__colorScheme() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorScheme;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorSchemeSO*> const& GlobalNamespace::MissionLevelNoTransitionInstaller::__get__colorScheme() const {
+constexpr ::UnityW<::GlobalNamespace::ColorSchemeSO> const& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__colorScheme() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____colorScheme;
 }
-constexpr void GlobalNamespace::MissionLevelNoTransitionInstaller::__set__colorScheme(::GlobalNamespace::ColorSchemeSO* value) {
+constexpr void GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_set__colorScheme(::UnityW<::GlobalNamespace::ColorSchemeSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____colorScheme)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>& GlobalNamespace::MissionLevelNoTransitionInstaller::__get__missionObjectives() {
+constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*>&
+GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__missionObjectives() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionObjectives;
 }
-constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> const& GlobalNamespace::MissionLevelNoTransitionInstaller::__get__missionObjectives() const {
+constexpr ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> const&
+GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__missionObjectives() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____missionObjectives;
 }
-constexpr void GlobalNamespace::MissionLevelNoTransitionInstaller::__set__missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value) {
+constexpr void
+GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_set__missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____missionObjectives)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::MissionLevelNoTransitionInstaller::__get__gameplayModifiers() {
+constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__gameplayModifiers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::MissionLevelNoTransitionInstaller::__get__gameplayModifiers() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__gameplayModifiers() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____gameplayModifiers;
 }
-constexpr void GlobalNamespace::MissionLevelNoTransitionInstaller::__set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value) {
+constexpr void GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifiers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::PlayerSpecificSettings*& GlobalNamespace::MissionLevelNoTransitionInstaller::__get__playerSpecificSettings() {
+constexpr ::GlobalNamespace::PlayerSpecificSettings*& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__playerSpecificSettings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSpecificSettings;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const& GlobalNamespace::MissionLevelNoTransitionInstaller::__get__playerSpecificSettings() const {
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerSpecificSettings*> const&
+GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__playerSpecificSettings() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerSpecificSettings;
 }
-constexpr void GlobalNamespace::MissionLevelNoTransitionInstaller::__set__playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value) {
+constexpr void GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_set__playerSpecificSettings(::GlobalNamespace::PlayerSpecificSettings* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerSpecificSettings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::MissionLevelNoTransitionInstaller::__get__backButtonText() {
+constexpr ::StringW& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__backButtonText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backButtonText;
 }
-constexpr ::StringW const& GlobalNamespace::MissionLevelNoTransitionInstaller::__get__backButtonText() const {
+constexpr ::StringW const& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__backButtonText() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____backButtonText;
 }
-constexpr void GlobalNamespace::MissionLevelNoTransitionInstaller::__set__backButtonText(::StringW value) {
+constexpr void GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_set__backButtonText(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____backButtonText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*& GlobalNamespace::MissionLevelNoTransitionInstaller::__get__scenesTransitionSetupData() {
+constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__scenesTransitionSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scenesTransitionSetupData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*> const&
-GlobalNamespace::MissionLevelNoTransitionInstaller::__get__scenesTransitionSetupData() const {
+constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_get__scenesTransitionSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____scenesTransitionSetupData;
 }
-constexpr void GlobalNamespace::MissionLevelNoTransitionInstaller::__set__scenesTransitionSetupData(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* value) {
+constexpr void GlobalNamespace::MissionLevelNoTransitionInstaller::__cordl_internal_set__scenesTransitionSetupData(::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scenesTransitionSetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -155,11 +158,11 @@ inline void GlobalNamespace::MissionLevelNoTransitionInstaller::InstallBindings(
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container);
 }
 inline ::GlobalNamespace::MissionLevelNoTransitionInstaller* GlobalNamespace::MissionLevelNoTransitionInstaller::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MissionLevelNoTransitionInstaller*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MissionLevelNoTransitionInstaller*>());
 }
 inline void GlobalNamespace::MissionLevelNoTransitionInstaller::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelNoTransitionInstaller*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

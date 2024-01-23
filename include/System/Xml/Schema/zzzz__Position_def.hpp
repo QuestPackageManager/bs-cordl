@@ -18,7 +18,7 @@ MARK_VAL_T(::System::Xml::Schema::Position);
 // SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11597))
 // CS Name: ::System.Xml.Schema::Position
 struct CORDL_TYPE Position {

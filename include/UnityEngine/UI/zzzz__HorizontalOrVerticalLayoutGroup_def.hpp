@@ -20,35 +20,35 @@ MARK_REF_PTR_T(::UnityEngine::UI::HorizontalOrVerticalLayoutGroup);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 99, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13091))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13091))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13083))
 // CS Name: ::UnityEngine.UI::HorizontalOrVerticalLayoutGroup*
 class CORDL_TYPE HorizontalOrVerticalLayoutGroup : public ::UnityEngine::UI::LayoutGroup {
 public:
   // Declarations
   /// @brief Field m_Spacing, offset 0x58, size 0x4
-  __declspec(property(get = __get_m_Spacing, put = __set_m_Spacing)) float_t m_Spacing;
+  __declspec(property(get = __cordl_internal_get_m_Spacing, put = __cordl_internal_set_m_Spacing)) float_t m_Spacing;
 
   /// @brief Field m_ChildForceExpandWidth, offset 0x5c, size 0x1
-  __declspec(property(get = __get_m_ChildForceExpandWidth, put = __set_m_ChildForceExpandWidth)) bool m_ChildForceExpandWidth;
+  __declspec(property(get = __cordl_internal_get_m_ChildForceExpandWidth, put = __cordl_internal_set_m_ChildForceExpandWidth)) bool m_ChildForceExpandWidth;
 
   /// @brief Field m_ChildForceExpandHeight, offset 0x5d, size 0x1
-  __declspec(property(get = __get_m_ChildForceExpandHeight, put = __set_m_ChildForceExpandHeight)) bool m_ChildForceExpandHeight;
+  __declspec(property(get = __cordl_internal_get_m_ChildForceExpandHeight, put = __cordl_internal_set_m_ChildForceExpandHeight)) bool m_ChildForceExpandHeight;
 
   /// @brief Field m_ChildControlWidth, offset 0x5e, size 0x1
-  __declspec(property(get = __get_m_ChildControlWidth, put = __set_m_ChildControlWidth)) bool m_ChildControlWidth;
+  __declspec(property(get = __cordl_internal_get_m_ChildControlWidth, put = __cordl_internal_set_m_ChildControlWidth)) bool m_ChildControlWidth;
 
   /// @brief Field m_ChildControlHeight, offset 0x5f, size 0x1
-  __declspec(property(get = __get_m_ChildControlHeight, put = __set_m_ChildControlHeight)) bool m_ChildControlHeight;
+  __declspec(property(get = __cordl_internal_get_m_ChildControlHeight, put = __cordl_internal_set_m_ChildControlHeight)) bool m_ChildControlHeight;
 
   /// @brief Field m_ChildScaleWidth, offset 0x60, size 0x1
-  __declspec(property(get = __get_m_ChildScaleWidth, put = __set_m_ChildScaleWidth)) bool m_ChildScaleWidth;
+  __declspec(property(get = __cordl_internal_get_m_ChildScaleWidth, put = __cordl_internal_set_m_ChildScaleWidth)) bool m_ChildScaleWidth;
 
   /// @brief Field m_ChildScaleHeight, offset 0x61, size 0x1
-  __declspec(property(get = __get_m_ChildScaleHeight, put = __set_m_ChildScaleHeight)) bool m_ChildScaleHeight;
+  __declspec(property(get = __cordl_internal_get_m_ChildScaleHeight, put = __cordl_internal_set_m_ChildScaleHeight)) bool m_ChildScaleHeight;
 
   /// @brief Field m_ReverseArrangement, offset 0x62, size 0x1
-  __declspec(property(get = __get_m_ReverseArrangement, put = __set_m_ReverseArrangement)) bool m_ReverseArrangement;
+  __declspec(property(get = __cordl_internal_get_m_ReverseArrangement, put = __cordl_internal_set_m_ReverseArrangement)) bool m_ReverseArrangement;
 
   __declspec(property(get = get_spacing, put = set_spacing)) float_t spacing;
 
@@ -66,53 +66,53 @@ public:
 
   __declspec(property(get = get_reverseArrangement, put = set_reverseArrangement)) bool reverseArrangement;
 
-  constexpr float_t& __get_m_Spacing();
+  constexpr float_t& __cordl_internal_get_m_Spacing();
 
-  constexpr float_t const& __get_m_Spacing() const;
+  constexpr float_t const& __cordl_internal_get_m_Spacing() const;
 
-  constexpr void __set_m_Spacing(float_t value);
+  constexpr void __cordl_internal_set_m_Spacing(float_t value);
 
-  constexpr bool& __get_m_ChildForceExpandWidth();
+  constexpr bool& __cordl_internal_get_m_ChildForceExpandWidth();
 
-  constexpr bool const& __get_m_ChildForceExpandWidth() const;
+  constexpr bool const& __cordl_internal_get_m_ChildForceExpandWidth() const;
 
-  constexpr void __set_m_ChildForceExpandWidth(bool value);
+  constexpr void __cordl_internal_set_m_ChildForceExpandWidth(bool value);
 
-  constexpr bool& __get_m_ChildForceExpandHeight();
+  constexpr bool& __cordl_internal_get_m_ChildForceExpandHeight();
 
-  constexpr bool const& __get_m_ChildForceExpandHeight() const;
+  constexpr bool const& __cordl_internal_get_m_ChildForceExpandHeight() const;
 
-  constexpr void __set_m_ChildForceExpandHeight(bool value);
+  constexpr void __cordl_internal_set_m_ChildForceExpandHeight(bool value);
 
-  constexpr bool& __get_m_ChildControlWidth();
+  constexpr bool& __cordl_internal_get_m_ChildControlWidth();
 
-  constexpr bool const& __get_m_ChildControlWidth() const;
+  constexpr bool const& __cordl_internal_get_m_ChildControlWidth() const;
 
-  constexpr void __set_m_ChildControlWidth(bool value);
+  constexpr void __cordl_internal_set_m_ChildControlWidth(bool value);
 
-  constexpr bool& __get_m_ChildControlHeight();
+  constexpr bool& __cordl_internal_get_m_ChildControlHeight();
 
-  constexpr bool const& __get_m_ChildControlHeight() const;
+  constexpr bool const& __cordl_internal_get_m_ChildControlHeight() const;
 
-  constexpr void __set_m_ChildControlHeight(bool value);
+  constexpr void __cordl_internal_set_m_ChildControlHeight(bool value);
 
-  constexpr bool& __get_m_ChildScaleWidth();
+  constexpr bool& __cordl_internal_get_m_ChildScaleWidth();
 
-  constexpr bool const& __get_m_ChildScaleWidth() const;
+  constexpr bool const& __cordl_internal_get_m_ChildScaleWidth() const;
 
-  constexpr void __set_m_ChildScaleWidth(bool value);
+  constexpr void __cordl_internal_set_m_ChildScaleWidth(bool value);
 
-  constexpr bool& __get_m_ChildScaleHeight();
+  constexpr bool& __cordl_internal_get_m_ChildScaleHeight();
 
-  constexpr bool const& __get_m_ChildScaleHeight() const;
+  constexpr bool const& __cordl_internal_get_m_ChildScaleHeight() const;
 
-  constexpr void __set_m_ChildScaleHeight(bool value);
+  constexpr void __cordl_internal_set_m_ChildScaleHeight(bool value);
 
-  constexpr bool& __get_m_ReverseArrangement();
+  constexpr bool& __cordl_internal_get_m_ReverseArrangement();
 
-  constexpr bool const& __get_m_ReverseArrangement() const;
+  constexpr bool const& __cordl_internal_get_m_ReverseArrangement() const;
 
-  constexpr void __set_m_ReverseArrangement(bool value);
+  constexpr void __cordl_internal_set_m_ReverseArrangement(bool value);
 
   /// @brief Method get_spacing, addr 0x2d7692c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spacing();

@@ -36,7 +36,7 @@ MARK_REF_PTR_T(::GlobalNamespace::VRRenderingParamsSetup);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6000))
 // CS Name: ::VRRenderingParamsSetup::SceneType
 struct CORDL_TYPE __VRRenderingParamsSetup__SceneType {
@@ -90,7 +90,7 @@ static_assert(offsetof(::GlobalNamespace::__VRRenderingParamsSetup__SceneType, v
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(6000))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6000)), TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6001))
 // CS Name: ::VRRenderingParamsSetup*
 class CORDL_TYPE VRRenderingParamsSetup : public ::UnityEngine::MonoBehaviour {
@@ -99,58 +99,60 @@ public:
   using SceneType = ::GlobalNamespace::__VRRenderingParamsSetup__SceneType;
 
   /// @brief Field _vrResolutionScale, offset 0x18, size 0x8
-  __declspec(property(get = __get__vrResolutionScale, put = __set__vrResolutionScale))::GlobalNamespace::FloatSO* _vrResolutionScale;
+  __declspec(property(get = __cordl_internal_get__vrResolutionScale, put = __cordl_internal_set__vrResolutionScale))::UnityW<::GlobalNamespace::FloatSO> _vrResolutionScale;
 
   /// @brief Field _menuVRResolutionScaleMultiplier, offset 0x20, size 0x8
-  __declspec(property(get = __get__menuVRResolutionScaleMultiplier, put = __set__menuVRResolutionScaleMultiplier))::GlobalNamespace::FloatSO* _menuVRResolutionScaleMultiplier;
+  __declspec(property(get = __cordl_internal_get__menuVRResolutionScaleMultiplier,
+                      put = __cordl_internal_set__menuVRResolutionScaleMultiplier))::UnityW<::GlobalNamespace::FloatSO> _menuVRResolutionScaleMultiplier;
 
   /// @brief Field _useFixedFoveatedRenderingDuringGameplay, offset 0x28, size 0x8
-  __declspec(property(get = __get__useFixedFoveatedRenderingDuringGameplay, put = __set__useFixedFoveatedRenderingDuringGameplay))::GlobalNamespace::BoolSO* _useFixedFoveatedRenderingDuringGameplay;
+  __declspec(property(get = __cordl_internal_get__useFixedFoveatedRenderingDuringGameplay,
+                      put = __cordl_internal_set__useFixedFoveatedRenderingDuringGameplay))::UnityW<::GlobalNamespace::BoolSO> _useFixedFoveatedRenderingDuringGameplay;
 
   /// @brief Field _sceneType, offset 0x30, size 0x4
-  __declspec(property(get = __get__sceneType, put = __set__sceneType))::GlobalNamespace::__VRRenderingParamsSetup__SceneType _sceneType;
+  __declspec(property(get = __cordl_internal_get__sceneType, put = __cordl_internal_set__sceneType))::GlobalNamespace::__VRRenderingParamsSetup__SceneType _sceneType;
 
   /// @brief Field _vrPlatformHelper, offset 0x38, size 0x8
-  __declspec(property(get = __get__vrPlatformHelper, put = __set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
   /// @brief Field _mainSettingsModel, offset 0x40, size 0x8
-  __declspec(property(get = __get__mainSettingsModel, put = __set__mainSettingsModel))::GlobalNamespace::MainSettingsModelSO* _mainSettingsModel;
+  __declspec(property(get = __cordl_internal_get__mainSettingsModel, put = __cordl_internal_set__mainSettingsModel))::UnityW<::GlobalNamespace::MainSettingsModelSO> _mainSettingsModel;
 
-  constexpr ::GlobalNamespace::FloatSO*& __get__vrResolutionScale();
+  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__vrResolutionScale();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& __get__vrResolutionScale() const;
+  constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__vrResolutionScale() const;
 
-  constexpr void __set__vrResolutionScale(::GlobalNamespace::FloatSO* value);
+  constexpr void __cordl_internal_set__vrResolutionScale(::UnityW<::GlobalNamespace::FloatSO> value);
 
-  constexpr ::GlobalNamespace::FloatSO*& __get__menuVRResolutionScaleMultiplier();
+  constexpr ::UnityW<::GlobalNamespace::FloatSO>& __cordl_internal_get__menuVRResolutionScaleMultiplier();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FloatSO*> const& __get__menuVRResolutionScaleMultiplier() const;
+  constexpr ::UnityW<::GlobalNamespace::FloatSO> const& __cordl_internal_get__menuVRResolutionScaleMultiplier() const;
 
-  constexpr void __set__menuVRResolutionScaleMultiplier(::GlobalNamespace::FloatSO* value);
+  constexpr void __cordl_internal_set__menuVRResolutionScaleMultiplier(::UnityW<::GlobalNamespace::FloatSO> value);
 
-  constexpr ::GlobalNamespace::BoolSO*& __get__useFixedFoveatedRenderingDuringGameplay();
+  constexpr ::UnityW<::GlobalNamespace::BoolSO>& __cordl_internal_get__useFixedFoveatedRenderingDuringGameplay();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& __get__useFixedFoveatedRenderingDuringGameplay() const;
+  constexpr ::UnityW<::GlobalNamespace::BoolSO> const& __cordl_internal_get__useFixedFoveatedRenderingDuringGameplay() const;
 
-  constexpr void __set__useFixedFoveatedRenderingDuringGameplay(::GlobalNamespace::BoolSO* value);
+  constexpr void __cordl_internal_set__useFixedFoveatedRenderingDuringGameplay(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  constexpr ::GlobalNamespace::__VRRenderingParamsSetup__SceneType& __get__sceneType();
+  constexpr ::GlobalNamespace::__VRRenderingParamsSetup__SceneType& __cordl_internal_get__sceneType();
 
-  constexpr ::GlobalNamespace::__VRRenderingParamsSetup__SceneType const& __get__sceneType() const;
+  constexpr ::GlobalNamespace::__VRRenderingParamsSetup__SceneType const& __cordl_internal_get__sceneType() const;
 
-  constexpr void __set__sceneType(::GlobalNamespace::__VRRenderingParamsSetup__SceneType value);
+  constexpr void __cordl_internal_set__sceneType(::GlobalNamespace::__VRRenderingParamsSetup__SceneType value);
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper*& __get__vrPlatformHelper();
+  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __get__vrPlatformHelper() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
 
-  constexpr void __set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  constexpr ::GlobalNamespace::MainSettingsModelSO*& __get__mainSettingsModel();
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO>& __cordl_internal_get__mainSettingsModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MainSettingsModelSO*> const& __get__mainSettingsModel() const;
+  constexpr ::UnityW<::GlobalNamespace::MainSettingsModelSO> const& __cordl_internal_get__mainSettingsModel() const;
 
-  constexpr void __set__mainSettingsModel(::GlobalNamespace::MainSettingsModelSO* value);
+  constexpr void __cordl_internal_set__mainSettingsModel(::UnityW<::GlobalNamespace::MainSettingsModelSO> value);
 
   /// @brief Method OnEnable, addr 0x2314d38, size 0xf0, virtual false, abstract: false, final false
   inline void OnEnable();
@@ -181,13 +183,13 @@ protected:
 
 public:
   /// @brief Field _vrResolutionScale, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::FloatSO* ____vrResolutionScale;
+  ::UnityW<::GlobalNamespace::FloatSO> ____vrResolutionScale;
 
   /// @brief Field _menuVRResolutionScaleMultiplier, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::FloatSO* ____menuVRResolutionScaleMultiplier;
+  ::UnityW<::GlobalNamespace::FloatSO> ____menuVRResolutionScaleMultiplier;
 
   /// @brief Field _useFixedFoveatedRenderingDuringGameplay, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::BoolSO* ____useFixedFoveatedRenderingDuringGameplay;
+  ::UnityW<::GlobalNamespace::BoolSO> ____useFixedFoveatedRenderingDuringGameplay;
 
   /// @brief Field _sceneType, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::__VRRenderingParamsSetup__SceneType ____sceneType;
@@ -196,7 +198,7 @@ public:
   ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
 
   /// @brief Field _mainSettingsModel, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::MainSettingsModelSO* ____mainSettingsModel;
+  ::UnityW<::GlobalNamespace::MainSettingsModelSO> ____mainSettingsModel;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

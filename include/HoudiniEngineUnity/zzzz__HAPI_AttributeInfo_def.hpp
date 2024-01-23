@@ -28,7 +28,7 @@ MARK_VAL_T(::HoudiniEngineUnity::HAPI_AttributeInfo);
 // SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9703)), TypeDefinitionIndex(TypeDefinitionIndex(9707)), TypeDefinitionIndex(TypeDefinitionIndex(9708))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9703)), TypeDefinitionIndex(TypeDefinitionIndex(9707)), TypeDefinitionIndex(TypeDefinitionIndex(9708))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9741))
 // CS Name: ::HoudiniEngineUnity::HAPI_AttributeInfo
 struct CORDL_TYPE HAPI_AttributeInfo {

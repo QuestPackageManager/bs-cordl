@@ -21,18 +21,18 @@ MARK_REF_PTR_T(::UnityEngine::Joint);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10238))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10238))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15496))
 // CS Name: ::UnityEngine::Joint*
 class CORDL_TYPE Joint : public ::UnityEngine::Component {
 public:
   // Declarations
-  __declspec(property(get = get_connectedBody))::UnityEngine::Rigidbody* connectedBody;
+  __declspec(property(get = get_connectedBody))::UnityW<::UnityEngine::Rigidbody> connectedBody;
 
   __declspec(property(put = set_connectedAnchor))::UnityEngine::Vector3 connectedAnchor;
 
   /// @brief Method get_connectedBody, addr 0x2d1738c, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Rigidbody* get_connectedBody();
+  inline ::UnityW<::UnityEngine::Rigidbody> get_connectedBody();
 
   /// @brief Method set_connectedAnchor, addr 0x2d173c8, size 0x54, virtual false, abstract: false, final false
   inline void set_connectedAnchor(::UnityEngine::Vector3 value);

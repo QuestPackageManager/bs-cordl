@@ -40,59 +40,62 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::CacheControlHeaderValue);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2711 }), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
-// TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2484))} Self: TypeDefinitionIndex(TypeDefinitionIndex(14659)) CS Name:
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2448)), TypeDefinitionIndex(TypeDefinitionIndex(2484)), TypeDefinitionIndex(TypeDefinitionIndex(2613)),
+// GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(2448), inst: 2711 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(14659)) CS Name:
 // ::System.Net.Http.Headers::CacheControlHeaderValue*
 class CORDL_TYPE CacheControlHeaderValue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field extensions, offset 0x10, size 0x8
-  __declspec(property(get = __get_extensions, put = __set_extensions))::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* extensions;
+  __declspec(property(get = __cordl_internal_get_extensions,
+                      put = __cordl_internal_set_extensions))::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* extensions;
 
   /// @brief Field no_cache_headers, offset 0x18, size 0x8
-  __declspec(property(get = __get_no_cache_headers, put = __set_no_cache_headers))::System::Collections::Generic::List_1<::StringW>* no_cache_headers;
+  __declspec(property(get = __cordl_internal_get_no_cache_headers, put = __cordl_internal_set_no_cache_headers))::System::Collections::Generic::List_1<::StringW>* no_cache_headers;
 
   /// @brief Field private_headers, offset 0x20, size 0x8
-  __declspec(property(get = __get_private_headers, put = __set_private_headers))::System::Collections::Generic::List_1<::StringW>* private_headers;
+  __declspec(property(get = __cordl_internal_get_private_headers, put = __cordl_internal_set_private_headers))::System::Collections::Generic::List_1<::StringW>* private_headers;
 
   /// @brief Field <MaxAge>k__BackingField, offset 0x28, size 0x10
-  __declspec(property(get = __get__MaxAge_k__BackingField, put = __set__MaxAge_k__BackingField))::System::Nullable_1<::System::TimeSpan> _MaxAge_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MaxAge_k__BackingField, put = __cordl_internal_set__MaxAge_k__BackingField))::System::Nullable_1<::System::TimeSpan> _MaxAge_k__BackingField;
 
   /// @brief Field <MaxStale>k__BackingField, offset 0x38, size 0x1
-  __declspec(property(get = __get__MaxStale_k__BackingField, put = __set__MaxStale_k__BackingField)) bool _MaxStale_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MaxStale_k__BackingField, put = __cordl_internal_set__MaxStale_k__BackingField)) bool _MaxStale_k__BackingField;
 
   /// @brief Field <MaxStaleLimit>k__BackingField, offset 0x40, size 0x10
-  __declspec(property(get = __get__MaxStaleLimit_k__BackingField, put = __set__MaxStaleLimit_k__BackingField))::System::Nullable_1<::System::TimeSpan> _MaxStaleLimit_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MaxStaleLimit_k__BackingField,
+                      put = __cordl_internal_set__MaxStaleLimit_k__BackingField))::System::Nullable_1<::System::TimeSpan> _MaxStaleLimit_k__BackingField;
 
   /// @brief Field <MinFresh>k__BackingField, offset 0x50, size 0x10
-  __declspec(property(get = __get__MinFresh_k__BackingField, put = __set__MinFresh_k__BackingField))::System::Nullable_1<::System::TimeSpan> _MinFresh_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MinFresh_k__BackingField, put = __cordl_internal_set__MinFresh_k__BackingField))::System::Nullable_1<::System::TimeSpan> _MinFresh_k__BackingField;
 
   /// @brief Field <MustRevalidate>k__BackingField, offset 0x60, size 0x1
-  __declspec(property(get = __get__MustRevalidate_k__BackingField, put = __set__MustRevalidate_k__BackingField)) bool _MustRevalidate_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MustRevalidate_k__BackingField, put = __cordl_internal_set__MustRevalidate_k__BackingField)) bool _MustRevalidate_k__BackingField;
 
   /// @brief Field <NoCache>k__BackingField, offset 0x61, size 0x1
-  __declspec(property(get = __get__NoCache_k__BackingField, put = __set__NoCache_k__BackingField)) bool _NoCache_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__NoCache_k__BackingField, put = __cordl_internal_set__NoCache_k__BackingField)) bool _NoCache_k__BackingField;
 
   /// @brief Field <NoStore>k__BackingField, offset 0x62, size 0x1
-  __declspec(property(get = __get__NoStore_k__BackingField, put = __set__NoStore_k__BackingField)) bool _NoStore_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__NoStore_k__BackingField, put = __cordl_internal_set__NoStore_k__BackingField)) bool _NoStore_k__BackingField;
 
   /// @brief Field <NoTransform>k__BackingField, offset 0x63, size 0x1
-  __declspec(property(get = __get__NoTransform_k__BackingField, put = __set__NoTransform_k__BackingField)) bool _NoTransform_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__NoTransform_k__BackingField, put = __cordl_internal_set__NoTransform_k__BackingField)) bool _NoTransform_k__BackingField;
 
   /// @brief Field <OnlyIfCached>k__BackingField, offset 0x64, size 0x1
-  __declspec(property(get = __get__OnlyIfCached_k__BackingField, put = __set__OnlyIfCached_k__BackingField)) bool _OnlyIfCached_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__OnlyIfCached_k__BackingField, put = __cordl_internal_set__OnlyIfCached_k__BackingField)) bool _OnlyIfCached_k__BackingField;
 
   /// @brief Field <Private>k__BackingField, offset 0x65, size 0x1
-  __declspec(property(get = __get__Private_k__BackingField, put = __set__Private_k__BackingField)) bool _Private_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Private_k__BackingField, put = __cordl_internal_set__Private_k__BackingField)) bool _Private_k__BackingField;
 
   /// @brief Field <ProxyRevalidate>k__BackingField, offset 0x66, size 0x1
-  __declspec(property(get = __get__ProxyRevalidate_k__BackingField, put = __set__ProxyRevalidate_k__BackingField)) bool _ProxyRevalidate_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ProxyRevalidate_k__BackingField, put = __cordl_internal_set__ProxyRevalidate_k__BackingField)) bool _ProxyRevalidate_k__BackingField;
 
   /// @brief Field <Public>k__BackingField, offset 0x67, size 0x1
-  __declspec(property(get = __get__Public_k__BackingField, put = __set__Public_k__BackingField)) bool _Public_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Public_k__BackingField, put = __cordl_internal_set__Public_k__BackingField)) bool _Public_k__BackingField;
 
   /// @brief Field <SharedMaxAge>k__BackingField, offset 0x68, size 0x10
-  __declspec(property(get = __get__SharedMaxAge_k__BackingField, put = __set__SharedMaxAge_k__BackingField))::System::Nullable_1<::System::TimeSpan> _SharedMaxAge_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__SharedMaxAge_k__BackingField,
+                      put = __cordl_internal_set__SharedMaxAge_k__BackingField))::System::Nullable_1<::System::TimeSpan> _SharedMaxAge_k__BackingField;
 
   __declspec(property(get = get_Extensions))::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* Extensions;
 
@@ -132,101 +135,101 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*& __get_extensions();
+  constexpr ::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*& __cordl_internal_get_extensions();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*> const& __get_extensions() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>*> const& __cordl_internal_get_extensions() const;
 
-  constexpr void __set_extensions(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* value);
+  constexpr void __cordl_internal_set_extensions(::System::Collections::Generic::List_1<::System::Net::Http::Headers::NameValueHeaderValue*>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_no_cache_headers();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_no_cache_headers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_no_cache_headers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_no_cache_headers() const;
 
-  constexpr void __set_no_cache_headers(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_no_cache_headers(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __get_private_headers();
+  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get_private_headers();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __get_private_headers() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get_private_headers() const;
 
-  constexpr void __set_private_headers(::System::Collections::Generic::List_1<::StringW>* value);
+  constexpr void __cordl_internal_set_private_headers(::System::Collections::Generic::List_1<::StringW>* value);
 
-  constexpr ::System::Nullable_1<::System::TimeSpan>& __get__MaxAge_k__BackingField();
+  constexpr ::System::Nullable_1<::System::TimeSpan>& __cordl_internal_get__MaxAge_k__BackingField();
 
-  constexpr ::System::Nullable_1<::System::TimeSpan> const& __get__MaxAge_k__BackingField() const;
+  constexpr ::System::Nullable_1<::System::TimeSpan> const& __cordl_internal_get__MaxAge_k__BackingField() const;
 
-  constexpr void __set__MaxAge_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
+  constexpr void __cordl_internal_set__MaxAge_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
 
-  constexpr bool& __get__MaxStale_k__BackingField();
+  constexpr bool& __cordl_internal_get__MaxStale_k__BackingField();
 
-  constexpr bool const& __get__MaxStale_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__MaxStale_k__BackingField() const;
 
-  constexpr void __set__MaxStale_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__MaxStale_k__BackingField(bool value);
 
-  constexpr ::System::Nullable_1<::System::TimeSpan>& __get__MaxStaleLimit_k__BackingField();
+  constexpr ::System::Nullable_1<::System::TimeSpan>& __cordl_internal_get__MaxStaleLimit_k__BackingField();
 
-  constexpr ::System::Nullable_1<::System::TimeSpan> const& __get__MaxStaleLimit_k__BackingField() const;
+  constexpr ::System::Nullable_1<::System::TimeSpan> const& __cordl_internal_get__MaxStaleLimit_k__BackingField() const;
 
-  constexpr void __set__MaxStaleLimit_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
+  constexpr void __cordl_internal_set__MaxStaleLimit_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
 
-  constexpr ::System::Nullable_1<::System::TimeSpan>& __get__MinFresh_k__BackingField();
+  constexpr ::System::Nullable_1<::System::TimeSpan>& __cordl_internal_get__MinFresh_k__BackingField();
 
-  constexpr ::System::Nullable_1<::System::TimeSpan> const& __get__MinFresh_k__BackingField() const;
+  constexpr ::System::Nullable_1<::System::TimeSpan> const& __cordl_internal_get__MinFresh_k__BackingField() const;
 
-  constexpr void __set__MinFresh_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
+  constexpr void __cordl_internal_set__MinFresh_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
 
-  constexpr bool& __get__MustRevalidate_k__BackingField();
+  constexpr bool& __cordl_internal_get__MustRevalidate_k__BackingField();
 
-  constexpr bool const& __get__MustRevalidate_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__MustRevalidate_k__BackingField() const;
 
-  constexpr void __set__MustRevalidate_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__MustRevalidate_k__BackingField(bool value);
 
-  constexpr bool& __get__NoCache_k__BackingField();
+  constexpr bool& __cordl_internal_get__NoCache_k__BackingField();
 
-  constexpr bool const& __get__NoCache_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__NoCache_k__BackingField() const;
 
-  constexpr void __set__NoCache_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__NoCache_k__BackingField(bool value);
 
-  constexpr bool& __get__NoStore_k__BackingField();
+  constexpr bool& __cordl_internal_get__NoStore_k__BackingField();
 
-  constexpr bool const& __get__NoStore_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__NoStore_k__BackingField() const;
 
-  constexpr void __set__NoStore_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__NoStore_k__BackingField(bool value);
 
-  constexpr bool& __get__NoTransform_k__BackingField();
+  constexpr bool& __cordl_internal_get__NoTransform_k__BackingField();
 
-  constexpr bool const& __get__NoTransform_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__NoTransform_k__BackingField() const;
 
-  constexpr void __set__NoTransform_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__NoTransform_k__BackingField(bool value);
 
-  constexpr bool& __get__OnlyIfCached_k__BackingField();
+  constexpr bool& __cordl_internal_get__OnlyIfCached_k__BackingField();
 
-  constexpr bool const& __get__OnlyIfCached_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__OnlyIfCached_k__BackingField() const;
 
-  constexpr void __set__OnlyIfCached_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__OnlyIfCached_k__BackingField(bool value);
 
-  constexpr bool& __get__Private_k__BackingField();
+  constexpr bool& __cordl_internal_get__Private_k__BackingField();
 
-  constexpr bool const& __get__Private_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__Private_k__BackingField() const;
 
-  constexpr void __set__Private_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__Private_k__BackingField(bool value);
 
-  constexpr bool& __get__ProxyRevalidate_k__BackingField();
+  constexpr bool& __cordl_internal_get__ProxyRevalidate_k__BackingField();
 
-  constexpr bool const& __get__ProxyRevalidate_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__ProxyRevalidate_k__BackingField() const;
 
-  constexpr void __set__ProxyRevalidate_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__ProxyRevalidate_k__BackingField(bool value);
 
-  constexpr bool& __get__Public_k__BackingField();
+  constexpr bool& __cordl_internal_get__Public_k__BackingField();
 
-  constexpr bool const& __get__Public_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__Public_k__BackingField() const;
 
-  constexpr void __set__Public_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__Public_k__BackingField(bool value);
 
-  constexpr ::System::Nullable_1<::System::TimeSpan>& __get__SharedMaxAge_k__BackingField();
+  constexpr ::System::Nullable_1<::System::TimeSpan>& __cordl_internal_get__SharedMaxAge_k__BackingField();
 
-  constexpr ::System::Nullable_1<::System::TimeSpan> const& __get__SharedMaxAge_k__BackingField() const;
+  constexpr ::System::Nullable_1<::System::TimeSpan> const& __cordl_internal_get__SharedMaxAge_k__BackingField() const;
 
-  constexpr void __set__SharedMaxAge_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
+  constexpr void __cordl_internal_set__SharedMaxAge_k__BackingField(::System::Nullable_1<::System::TimeSpan> value);
 
   /// @brief Method get_Extensions, addr 0x2835120, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* get_Extensions();

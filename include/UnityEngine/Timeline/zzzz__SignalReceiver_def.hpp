@@ -48,33 +48,33 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::__SignalReceiver__EventKeyValue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13894))
 // CS Name: ::SignalReceiver::EventKeyValue*
 class CORDL_TYPE __SignalReceiver__EventKeyValue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_Signals, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_Signals, put = __set_m_Signals))::System::Collections::Generic::List_1<::UnityEngine::Timeline::SignalAsset*>* m_Signals;
+  __declspec(property(get = __cordl_internal_get_m_Signals, put = __cordl_internal_set_m_Signals))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* m_Signals;
 
   /// @brief Field m_Events, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Events, put = __set_m_Events))::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>* m_Events;
+  __declspec(property(get = __cordl_internal_get_m_Events, put = __cordl_internal_set_m_Events))::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>* m_Events;
 
-  __declspec(property(get = get_signals))::System::Collections::Generic::List_1<::UnityEngine::Timeline::SignalAsset*>* signals;
+  __declspec(property(get = get_signals))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* signals;
 
   __declspec(property(get = get_events))::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>* events;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Timeline::SignalAsset*>*& __get_m_Signals();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>*& __cordl_internal_get_m_Signals();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Timeline::SignalAsset*>*> const& __get_m_Signals() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>*> const& __cordl_internal_get_m_Signals() const;
 
-  constexpr void __set_m_Signals(::System::Collections::Generic::List_1<::UnityEngine::Timeline::SignalAsset*>* value);
+  constexpr void __cordl_internal_set_m_Signals(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>*& __get_m_Events();
+  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>*& __cordl_internal_get_m_Events();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>*> const& __get_m_Events() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>*> const& __cordl_internal_get_m_Events() const;
 
-  constexpr void __set_m_Events(::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>* value);
+  constexpr void __cordl_internal_set_m_Events(::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>* value);
 
   /// @brief Method TryGetValue, addr 0x2c691c4, size 0xb0, virtual false, abstract: false, final false
   inline bool TryGetValue(::UnityEngine::Timeline::SignalAsset* key, ByRef<::UnityEngine::Events::UnityEvent*> value);
@@ -89,7 +89,7 @@ public:
   inline void Remove(::UnityEngine::Timeline::SignalAsset* key);
 
   /// @brief Method get_signals, addr 0x2c69e60, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::Timeline::SignalAsset*>* get_signals();
+  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* get_signals();
 
   /// @brief Method get_events, addr 0x2c69e68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>* get_events();
@@ -114,7 +114,7 @@ protected:
 
 public:
   /// @brief Field m_Signals, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Timeline::SignalAsset*>* ___m_Signals;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* ___m_Signals;
 
   /// @brief Field m_Events, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Events::UnityEvent*>* ___m_Events;
@@ -133,7 +133,7 @@ static_assert(offsetof(::UnityEngine::Timeline::__SignalReceiver__EventKeyValue,
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13895))
 // CS Name: ::UnityEngine.Timeline::SignalReceiver*
 class CORDL_TYPE SignalReceiver : public ::UnityEngine::MonoBehaviour {
@@ -142,7 +142,7 @@ public:
   using EventKeyValue = ::UnityEngine::Timeline::__SignalReceiver__EventKeyValue;
 
   /// @brief Field m_Events, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Events, put = __set_m_Events))::UnityEngine::Timeline::__SignalReceiver__EventKeyValue* m_Events;
+  __declspec(property(get = __cordl_internal_get_m_Events, put = __cordl_internal_set_m_Events))::UnityEngine::Timeline::__SignalReceiver__EventKeyValue* m_Events;
 
   /// @brief Convert operator to "::UnityEngine::Playables::INotificationReceiver"
   constexpr operator ::UnityEngine::Playables::INotificationReceiver*() noexcept;
@@ -150,11 +150,11 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::INotificationReceiver"
   constexpr ::UnityEngine::Playables::INotificationReceiver* i___UnityEngine__Playables__INotificationReceiver() noexcept;
 
-  constexpr ::UnityEngine::Timeline::__SignalReceiver__EventKeyValue*& __get_m_Events();
+  constexpr ::UnityEngine::Timeline::__SignalReceiver__EventKeyValue*& __cordl_internal_get_m_Events();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::__SignalReceiver__EventKeyValue*> const& __get_m_Events() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::__SignalReceiver__EventKeyValue*> const& __cordl_internal_get_m_Events() const;
 
-  constexpr void __set_m_Events(::UnityEngine::Timeline::__SignalReceiver__EventKeyValue* value);
+  constexpr void __cordl_internal_set_m_Events(::UnityEngine::Timeline::__SignalReceiver__EventKeyValue* value);
 
   /// @brief Method OnNotify, addr 0x2c690ac, size 0x118, virtual true, abstract: false, final true
   inline void OnNotify(::UnityEngine::Playables::Playable origin, ::UnityEngine::Playables::INotification* notification, ::System::Object* context);
@@ -169,7 +169,7 @@ public:
   inline void Remove(::UnityEngine::Timeline::SignalAsset* asset);
 
   /// @brief Method GetRegisteredSignals, addr 0x2c696c8, size 0x1c, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::SignalAsset*>* GetRegisteredSignals();
+  inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Timeline::SignalAsset>>* GetRegisteredSignals();
 
   /// @brief Method GetReaction, addr 0x2c696e4, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Events::UnityEvent* GetReaction(::UnityEngine::Timeline::SignalAsset* key);
@@ -190,7 +190,7 @@ public:
   inline ::UnityEngine::Events::UnityEvent* GetReactionAtIndex(int32_t idx);
 
   /// @brief Method GetSignalAssetAtIndex, addr 0x2c69c7c, size 0xbc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Timeline::SignalAsset* GetSignalAssetAtIndex(int32_t idx);
+  inline ::UnityW<::UnityEngine::Timeline::SignalAsset> GetSignalAssetAtIndex(int32_t idx);
 
   /// @brief Method OnEnable, addr 0x2c69d38, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();

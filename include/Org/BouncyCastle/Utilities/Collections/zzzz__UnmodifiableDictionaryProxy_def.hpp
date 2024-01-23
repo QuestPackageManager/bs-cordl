@@ -30,14 +30,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictiona
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1785))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1785))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1786))
 // CS Name: ::Org.BouncyCastle.Utilities.Collections::UnmodifiableDictionaryProxy*
 class CORDL_TYPE UnmodifiableDictionaryProxy : public ::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary {
 public:
   // Declarations
   /// @brief Field d, offset 0x10, size 0x8
-  __declspec(property(get = __get_d, put = __set_d))::System::Collections::IDictionary* d;
+  __declspec(property(get = __cordl_internal_get_d, put = __cordl_internal_set_d))::System::Collections::IDictionary* d;
 
   __declspec(property(get = get_Count)) int32_t Count;
 
@@ -51,11 +51,11 @@ public:
 
   __declspec(property(get = get_Values))::System::Collections::ICollection* Values;
 
-  constexpr ::System::Collections::IDictionary*& __get_d();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_d();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get_d() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_d() const;
 
-  constexpr void __set_d(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set_d(::System::Collections::IDictionary* value);
 
   static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionaryProxy* New_ctor(::System::Collections::IDictionary* d);
 

@@ -19,39 +19,40 @@ MARK_REF_PTR_T(::TrackDefinitions::LightGroupDuplicationGroup);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TrackDefinitions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16065))
 // CS Name: ::TrackDefinitions::LightGroupDuplicationGroup*
 class CORDL_TYPE LightGroupDuplicationGroup : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _duplicationGroupName, offset 0x18, size 0x8
-  __declspec(property(get = __get__duplicationGroupName, put = __set__duplicationGroupName))::StringW _duplicationGroupName;
+  __declspec(property(get = __cordl_internal_get__duplicationGroupName, put = __cordl_internal_set__duplicationGroupName))::StringW _duplicationGroupName;
 
   /// @brief Field _lightGroups, offset 0x20, size 0x8
-  __declspec(property(get = __get__lightGroups, put = __set__lightGroups))::ArrayW<::GlobalNamespace::LightGroupSO*, ::Array<::GlobalNamespace::LightGroupSO*>*> _lightGroups;
+  __declspec(property(get = __cordl_internal_get__lightGroups,
+                      put = __cordl_internal_set__lightGroups))::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> _lightGroups;
 
   __declspec(property(get = get_duplicationGroupName))::StringW duplicationGroupName;
 
-  __declspec(property(get = get_lightGroups))::ArrayW<::GlobalNamespace::LightGroupSO*, ::Array<::GlobalNamespace::LightGroupSO*>*> lightGroups;
+  __declspec(property(get = get_lightGroups))::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> lightGroups;
 
-  constexpr ::StringW& __get__duplicationGroupName();
+  constexpr ::StringW& __cordl_internal_get__duplicationGroupName();
 
-  constexpr ::StringW const& __get__duplicationGroupName() const;
+  constexpr ::StringW const& __cordl_internal_get__duplicationGroupName() const;
 
-  constexpr void __set__duplicationGroupName(::StringW value);
+  constexpr void __cordl_internal_set__duplicationGroupName(::StringW value);
 
-  constexpr ::ArrayW<::GlobalNamespace::LightGroupSO*, ::Array<::GlobalNamespace::LightGroupSO*>*>& __get__lightGroups();
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*>& __cordl_internal_get__lightGroups();
 
-  constexpr ::ArrayW<::GlobalNamespace::LightGroupSO*, ::Array<::GlobalNamespace::LightGroupSO*>*> const& __get__lightGroups() const;
+  constexpr ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> const& __cordl_internal_get__lightGroups() const;
 
-  constexpr void __set__lightGroups(::ArrayW<::GlobalNamespace::LightGroupSO*, ::Array<::GlobalNamespace::LightGroupSO*>*> value);
+  constexpr void __cordl_internal_set__lightGroups(::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> value);
 
   /// @brief Method get_duplicationGroupName, addr 0x2a0b058, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_duplicationGroupName();
 
   /// @brief Method get_lightGroups, addr 0x2a0b060, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::LightGroupSO*, ::Array<::GlobalNamespace::LightGroupSO*>*> get_lightGroups();
+  inline ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> get_lightGroups();
 
   static inline ::TrackDefinitions::LightGroupDuplicationGroup* New_ctor();
 
@@ -76,7 +77,7 @@ public:
   ::StringW ____duplicationGroupName;
 
   /// @brief Field _lightGroups, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::LightGroupSO*, ::Array<::GlobalNamespace::LightGroupSO*>*> ____lightGroups;
+  ::ArrayW<::UnityW<::GlobalNamespace::LightGroupSO>, ::Array<::UnityW<::GlobalNamespace::LightGroupSO>>*> ____lightGroups;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

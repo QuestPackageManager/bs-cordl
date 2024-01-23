@@ -42,20 +42,21 @@ MARK_REF_PTR_T(::Zenject::GetFromGameObjectGetterComponentProvider);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11188))
 // CS Name: ::Zenject::GetFromGameObjectGetterComponentProvider*
 class CORDL_TYPE GetFromGameObjectGetterComponentProvider : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _gameObjectGetter, offset 0x10, size 0x8
-  __declspec(property(get = __get__gameObjectGetter, put = __set__gameObjectGetter))::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* _gameObjectGetter;
+  __declspec(property(get = __cordl_internal_get__gameObjectGetter,
+                      put = __cordl_internal_set__gameObjectGetter))::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* _gameObjectGetter;
 
   /// @brief Field _componentType, offset 0x18, size 0x8
-  __declspec(property(get = __get__componentType, put = __set__componentType))::System::Type* _componentType;
+  __declspec(property(get = __cordl_internal_get__componentType, put = __cordl_internal_set__componentType))::System::Type* _componentType;
 
   /// @brief Field _matchSingle, offset 0x20, size 0x1
-  __declspec(property(get = __get__matchSingle, put = __set__matchSingle)) bool _matchSingle;
+  __declspec(property(get = __cordl_internal_get__matchSingle, put = __cordl_internal_set__matchSingle)) bool _matchSingle;
 
   __declspec(property(get = get_IsCached)) bool IsCached;
 
@@ -67,29 +68,29 @@ public:
   /// @brief Convert to "::Zenject::IProvider"
   constexpr ::Zenject::IProvider* i___Zenject__IProvider() noexcept;
 
-  constexpr ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>*& __get__gameObjectGetter();
+  constexpr ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get__gameObjectGetter();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>*> const& __get__gameObjectGetter() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__gameObjectGetter() const;
 
-  constexpr void __set__gameObjectGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* value);
+  constexpr void __cordl_internal_set__gameObjectGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* value);
 
-  constexpr ::System::Type*& __get__componentType();
+  constexpr ::System::Type*& __cordl_internal_get__componentType();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __get__componentType() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__componentType() const;
 
-  constexpr void __set__componentType(::System::Type* value);
+  constexpr void __cordl_internal_set__componentType(::System::Type* value);
 
-  constexpr bool& __get__matchSingle();
+  constexpr bool& __cordl_internal_get__matchSingle();
 
-  constexpr bool const& __get__matchSingle() const;
+  constexpr bool const& __cordl_internal_get__matchSingle() const;
 
-  constexpr void __set__matchSingle(bool value);
+  constexpr void __cordl_internal_set__matchSingle(bool value);
 
-  static inline ::Zenject::GetFromGameObjectGetterComponentProvider* New_ctor(::System::Type* componentType, ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* gameObjectGetter,
-                                                                              bool matchSingle);
+  static inline ::Zenject::GetFromGameObjectGetterComponentProvider* New_ctor(::System::Type* componentType,
+                                                                              ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter, bool matchSingle);
 
   /// @brief Method .ctor, addr 0x2f06e5c, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* componentType, ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* gameObjectGetter, bool matchSingle);
+  inline void _ctor(::System::Type* componentType, ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter, bool matchSingle);
 
   /// @brief Method get_IsCached, addr 0x2f06e98, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
@@ -119,7 +120,7 @@ protected:
 
 public:
   /// @brief Field _gameObjectGetter, offset: 0x10, size: 0x8, def value: None
-  ::System::Func_2<::Zenject::InjectContext*, ::UnityEngine::GameObject*>* ____gameObjectGetter;
+  ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* ____gameObjectGetter;
 
   /// @brief Field _componentType, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____componentType;

@@ -20,20 +20,20 @@ MARK_REF_PTR_T(::RootMotion::FinalIK::LookAtIK);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace RootMotion::FinalIK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12536))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(12536))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12540))
 // CS Name: ::RootMotion.FinalIK::LookAtIK*
 class CORDL_TYPE LookAtIK : public ::RootMotion::FinalIK::IK {
 public:
   // Declarations
   /// @brief Field solver, offset 0x38, size 0x8
-  __declspec(property(get = __get_solver, put = __set_solver))::RootMotion::FinalIK::IKSolverLookAt* solver;
+  __declspec(property(get = __cordl_internal_get_solver, put = __cordl_internal_set_solver))::RootMotion::FinalIK::IKSolverLookAt* solver;
 
-  constexpr ::RootMotion::FinalIK::IKSolverLookAt*& __get_solver();
+  constexpr ::RootMotion::FinalIK::IKSolverLookAt*& __cordl_internal_get_solver();
 
-  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverLookAt*> const& __get_solver() const;
+  constexpr ::cordl_internals::to_const_pointer<::RootMotion::FinalIK::IKSolverLookAt*> const& __cordl_internal_get_solver() const;
 
-  constexpr void __set_solver(::RootMotion::FinalIK::IKSolverLookAt* value);
+  constexpr void __cordl_internal_set_solver(::RootMotion::FinalIK::IKSolverLookAt* value);
 
   /// @brief Method OpenUserManual, addr 0x124f794, size 0x44, virtual true, abstract: false, final false
   inline void OpenUserManual();

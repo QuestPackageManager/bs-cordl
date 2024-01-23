@@ -30,7 +30,7 @@ MARK_REF_PTR_T(::Newtonsoft::Json::JsonSerializationException);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Newtonsoft::Json {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11804))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11804))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11835))
 // CS Name: ::Newtonsoft.Json::JsonSerializationException*
 class CORDL_TYPE JsonSerializationException : public ::Newtonsoft::Json::JsonException {

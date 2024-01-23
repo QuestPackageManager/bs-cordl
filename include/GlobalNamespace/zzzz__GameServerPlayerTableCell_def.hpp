@@ -107,20 +107,21 @@ MARK_VAL_T(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatmapUseButtonE
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5423))
 // CS Name: ::GameServerPlayerTableCell::<>c__DisplayClass29_0*
 class CORDL_TYPE __GameServerPlayerTableCell____c__DisplayClass29_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field modifiersList, offset 0x10, size 0x8
-  __declspec(property(get = __get_modifiersList, put = __set_modifiersList))::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* modifiersList;
+  __declspec(property(get = __cordl_internal_get_modifiersList,
+                      put = __cordl_internal_set_modifiersList))::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* modifiersList;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*& __get_modifiersList();
+  constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*& __cordl_internal_get_modifiersList();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>*> const& __get_modifiersList() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> const& __cordl_internal_get_modifiersList() const;
 
-  constexpr void __set_modifiersList(::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* value);
+  constexpr void __cordl_internal_set_modifiersList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value);
 
   static inline ::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0* New_ctor();
 
@@ -145,7 +146,7 @@ protected:
 
 public:
   /// @brief Field modifiersList, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::GameplayModifierParamsSO*>* ___modifiersList;
+  ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* ___modifiersList;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -159,9 +160,9 @@ static_assert(offsetof(::GlobalNamespace::__GameServerPlayerTableCell____c__Disp
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880
-// }), TypeDefinitionIndex(TypeDefinitionIndex(3400)), TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(5424)) CS Name:
-// ::GameServerPlayerTableCell::<SetBeatmapUseButtonEnabledAsync>d__35
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3400)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5424)) CS
+// Name: ::GameServerPlayerTableCell::<SetBeatmapUseButtonEnabledAsync>d__35
 struct CORDL_TYPE __GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35 {
 public:
   // Declarations
@@ -178,12 +179,12 @@ public:
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::GameServerPlayerTableCell*", modifiers: "",
-  // def_value: None }, CppParam { name: "getLevelEntitlementTask", ty: "::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*", modifiers: "", def_value: None }, CppParam { name:
-  // "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::GameServerPlayerTableCell>",
+  // modifiers: "", def_value: None }, CppParam { name: "getLevelEntitlementTask", ty: "::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*", modifiers: "", def_value: None },
+  // CppParam { name: "_cancellationToken_5__2", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus>", modifiers: "", def_value: None }]
   constexpr __GameServerPlayerTableCell___SetBeatmapUseButtonEnabledAsync_d__35(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                                                ::GlobalNamespace::GameServerPlayerTableCell* __4__this,
+                                                                                ::UnityW<::GlobalNamespace::GameServerPlayerTableCell> __4__this,
                                                                                 ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask,
                                                                                 ::System::Threading::CancellationToken _cancellationToken_5__2,
                                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
@@ -199,7 +200,7 @@ public:
   ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::GameServerPlayerTableCell* __4__this;
+  ::UnityW<::GlobalNamespace::GameServerPlayerTableCell> __4__this;
 
   /// @brief Field getLevelEntitlementTask, offset: 0x30, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask;
@@ -235,7 +236,7 @@ static_assert(offsetof(::GlobalNamespace::__GameServerPlayerTableCell___SetBeatm
 // SizeInfo { instance_size: 288, native_size: -1, calculated_instance_size: 288, calculated_native_size: 288, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13502))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13502))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5425))
 // CS Name: ::GameServerPlayerTableCell*
 class CORDL_TYPE GameServerPlayerTableCell : public ::GlobalNamespace::TableCellWithSeparator {
@@ -246,221 +247,223 @@ public:
   using __c__DisplayClass29_0 = ::GlobalNamespace::__GameServerPlayerTableCell____c__DisplayClass29_0;
 
   /// @brief Field _playerNameText, offset 0x60, size 0x8
-  __declspec(property(get = __get__playerNameText, put = __set__playerNameText))::HMUI::CurvedTextMeshPro* _playerNameText;
+  __declspec(property(get = __cordl_internal_get__playerNameText, put = __cordl_internal_set__playerNameText))::UnityW<::HMUI::CurvedTextMeshPro> _playerNameText;
 
   /// @brief Field _localPlayerBackgroundImage, offset 0x68, size 0x8
-  __declspec(property(get = __get__localPlayerBackgroundImage, put = __set__localPlayerBackgroundImage))::UnityEngine::UI::Image* _localPlayerBackgroundImage;
+  __declspec(property(get = __cordl_internal_get__localPlayerBackgroundImage, put = __cordl_internal_set__localPlayerBackgroundImage))::UnityW<::UnityEngine::UI::Image> _localPlayerBackgroundImage;
 
   /// @brief Field _suggestedLevelText, offset 0x70, size 0x8
-  __declspec(property(get = __get__suggestedLevelText, put = __set__suggestedLevelText))::HMUI::CurvedTextMeshPro* _suggestedLevelText;
+  __declspec(property(get = __cordl_internal_get__suggestedLevelText, put = __cordl_internal_set__suggestedLevelText))::UnityW<::HMUI::CurvedTextMeshPro> _suggestedLevelText;
 
   /// @brief Field _suggestedCharacteristicIcon, offset 0x78, size 0x8
-  __declspec(property(get = __get__suggestedCharacteristicIcon, put = __set__suggestedCharacteristicIcon))::HMUI::ImageView* _suggestedCharacteristicIcon;
+  __declspec(property(get = __cordl_internal_get__suggestedCharacteristicIcon, put = __cordl_internal_set__suggestedCharacteristicIcon))::UnityW<::HMUI::ImageView> _suggestedCharacteristicIcon;
 
   /// @brief Field _suggestedDifficultyText, offset 0x80, size 0x8
-  __declspec(property(get = __get__suggestedDifficultyText, put = __set__suggestedDifficultyText))::TMPro::TextMeshProUGUI* _suggestedDifficultyText;
+  __declspec(property(get = __cordl_internal_get__suggestedDifficultyText, put = __cordl_internal_set__suggestedDifficultyText))::UnityW<::TMPro::TextMeshProUGUI> _suggestedDifficultyText;
 
   /// @brief Field _emptySuggestedLevelText, offset 0x88, size 0x8
-  __declspec(property(get = __get__emptySuggestedLevelText, put = __set__emptySuggestedLevelText))::HMUI::CurvedTextMeshPro* _emptySuggestedLevelText;
+  __declspec(property(get = __cordl_internal_get__emptySuggestedLevelText, put = __cordl_internal_set__emptySuggestedLevelText))::UnityW<::HMUI::CurvedTextMeshPro> _emptySuggestedLevelText;
 
   /// @brief Field _suggestedModifiersList, offset 0x90, size 0x8
-  __declspec(property(get = __get__suggestedModifiersList, put = __set__suggestedModifiersList))::GlobalNamespace::GameplayModifierInfoListItemsList* _suggestedModifiersList;
+  __declspec(property(get = __cordl_internal_get__suggestedModifiersList,
+                      put = __cordl_internal_set__suggestedModifiersList))::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> _suggestedModifiersList;
 
   /// @brief Field _emptySuggestedModifiersText, offset 0x98, size 0x8
-  __declspec(property(get = __get__emptySuggestedModifiersText, put = __set__emptySuggestedModifiersText))::HMUI::CurvedTextMeshPro* _emptySuggestedModifiersText;
+  __declspec(property(get = __cordl_internal_get__emptySuggestedModifiersText,
+                      put = __cordl_internal_set__emptySuggestedModifiersText))::UnityW<::HMUI::CurvedTextMeshPro> _emptySuggestedModifiersText;
 
   /// @brief Field _mutePlayerButton, offset 0xa0, size 0x8
-  __declspec(property(get = __get__mutePlayerButton, put = __set__mutePlayerButton))::UnityEngine::UI::Button* _mutePlayerButton;
+  __declspec(property(get = __cordl_internal_get__mutePlayerButton, put = __cordl_internal_set__mutePlayerButton))::UnityW<::UnityEngine::UI::Button> _mutePlayerButton;
 
   /// @brief Field _kickPlayerButton, offset 0xa8, size 0x8
-  __declspec(property(get = __get__kickPlayerButton, put = __set__kickPlayerButton))::UnityEngine::UI::Button* _kickPlayerButton;
+  __declspec(property(get = __cordl_internal_get__kickPlayerButton, put = __cordl_internal_set__kickPlayerButton))::UnityW<::UnityEngine::UI::Button> _kickPlayerButton;
 
   /// @brief Field _useBeatmapButton, offset 0xb0, size 0x8
-  __declspec(property(get = __get__useBeatmapButton, put = __set__useBeatmapButton))::UnityEngine::UI::Button* _useBeatmapButton;
+  __declspec(property(get = __cordl_internal_get__useBeatmapButton, put = __cordl_internal_set__useBeatmapButton))::UnityW<::UnityEngine::UI::Button> _useBeatmapButton;
 
   /// @brief Field _useModifiersButton, offset 0xb8, size 0x8
-  __declspec(property(get = __get__useModifiersButton, put = __set__useModifiersButton))::UnityEngine::UI::Button* _useModifiersButton;
+  __declspec(property(get = __cordl_internal_get__useModifiersButton, put = __cordl_internal_set__useModifiersButton))::UnityW<::UnityEngine::UI::Button> _useModifiersButton;
 
   /// @brief Field _useBeatmapButtonHoverHint, offset 0xc0, size 0x8
-  __declspec(property(get = __get__useBeatmapButtonHoverHint, put = __set__useBeatmapButtonHoverHint))::HMUI::HoverHint* _useBeatmapButtonHoverHint;
+  __declspec(property(get = __cordl_internal_get__useBeatmapButtonHoverHint, put = __cordl_internal_set__useBeatmapButtonHoverHint))::UnityW<::HMUI::HoverHint> _useBeatmapButtonHoverHint;
 
   /// @brief Field _muteToggle, offset 0xc8, size 0x8
-  __declspec(property(get = __get__muteToggle, put = __set__muteToggle))::HMUI::ButtonSpriteSwapToggle* _muteToggle;
+  __declspec(property(get = __cordl_internal_get__muteToggle, put = __cordl_internal_set__muteToggle))::UnityW<::HMUI::ButtonSpriteSwapToggle> _muteToggle;
 
   /// @brief Field _statusImageView, offset 0xd0, size 0x8
-  __declspec(property(get = __get__statusImageView, put = __set__statusImageView))::HMUI::ImageView* _statusImageView;
+  __declspec(property(get = __cordl_internal_get__statusImageView, put = __cordl_internal_set__statusImageView))::UnityW<::HMUI::ImageView> _statusImageView;
 
   /// @brief Field _readyIcon, offset 0xd8, size 0x8
-  __declspec(property(get = __get__readyIcon, put = __set__readyIcon))::UnityEngine::Sprite* _readyIcon;
+  __declspec(property(get = __cordl_internal_get__readyIcon, put = __cordl_internal_set__readyIcon))::UnityW<::UnityEngine::Sprite> _readyIcon;
 
   /// @brief Field _spectatingIcon, offset 0xe0, size 0x8
-  __declspec(property(get = __get__spectatingIcon, put = __set__spectatingIcon))::UnityEngine::Sprite* _spectatingIcon;
+  __declspec(property(get = __cordl_internal_get__spectatingIcon, put = __cordl_internal_set__spectatingIcon))::UnityW<::UnityEngine::Sprite> _spectatingIcon;
 
   /// @brief Field _hostIcon, offset 0xe8, size 0x8
-  __declspec(property(get = __get__hostIcon, put = __set__hostIcon))::UnityEngine::Sprite* _hostIcon;
+  __declspec(property(get = __cordl_internal_get__hostIcon, put = __cordl_internal_set__hostIcon))::UnityW<::UnityEngine::Sprite> _hostIcon;
 
   /// @brief Field _gameplayModifiers, offset 0xf0, size 0x8
-  __declspec(property(get = __get__gameplayModifiers, put = __set__gameplayModifiers))::GlobalNamespace::GameplayModifiersModelSO* _gameplayModifiers;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers))::UnityW<::GlobalNamespace::GameplayModifiersModelSO> _gameplayModifiers;
 
   /// @brief Field kickPlayerEvent, offset 0xf8, size 0x8
-  __declspec(property(get = __get_kickPlayerEvent, put = __set_kickPlayerEvent))::System::Action_1<int32_t>* kickPlayerEvent;
+  __declspec(property(get = __cordl_internal_get_kickPlayerEvent, put = __cordl_internal_set_kickPlayerEvent))::System::Action_1<int32_t>* kickPlayerEvent;
 
   /// @brief Field useBeatmapEvent, offset 0x100, size 0x8
-  __declspec(property(get = __get_useBeatmapEvent, put = __set_useBeatmapEvent))::System::Action_1<int32_t>* useBeatmapEvent;
+  __declspec(property(get = __cordl_internal_get_useBeatmapEvent, put = __cordl_internal_set_useBeatmapEvent))::System::Action_1<int32_t>* useBeatmapEvent;
 
   /// @brief Field useModifiersEvent, offset 0x108, size 0x8
-  __declspec(property(get = __get_useModifiersEvent, put = __set_useModifiersEvent))::System::Action_1<int32_t>* useModifiersEvent;
+  __declspec(property(get = __cordl_internal_get_useModifiersEvent, put = __cordl_internal_set_useModifiersEvent))::System::Action_1<int32_t>* useModifiersEvent;
 
   /// @brief Field _buttonBinder, offset 0x110, size 0x8
-  __declspec(property(get = __get__buttonBinder, put = __set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
+  __declspec(property(get = __cordl_internal_get__buttonBinder, put = __cordl_internal_set__buttonBinder))::HMUI::ButtonBinder* _buttonBinder;
 
   /// @brief Field _getLevelEntitlementCancellationTokenSource, offset 0x118, size 0x8
-  __declspec(property(get = __get__getLevelEntitlementCancellationTokenSource,
-                      put = __set__getLevelEntitlementCancellationTokenSource))::System::Threading::CancellationTokenSource* _getLevelEntitlementCancellationTokenSource;
+  __declspec(property(get = __cordl_internal_get__getLevelEntitlementCancellationTokenSource,
+                      put = __cordl_internal_set__getLevelEntitlementCancellationTokenSource))::System::Threading::CancellationTokenSource* _getLevelEntitlementCancellationTokenSource;
 
-  constexpr ::HMUI::CurvedTextMeshPro*& __get__playerNameText();
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro>& __cordl_internal_get__playerNameText();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedTextMeshPro*> const& __get__playerNameText() const;
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& __cordl_internal_get__playerNameText() const;
 
-  constexpr void __set__playerNameText(::HMUI::CurvedTextMeshPro* value);
+  constexpr void __cordl_internal_set__playerNameText(::UnityW<::HMUI::CurvedTextMeshPro> value);
 
-  constexpr ::UnityEngine::UI::Image*& __get__localPlayerBackgroundImage();
+  constexpr ::UnityW<::UnityEngine::UI::Image>& __cordl_internal_get__localPlayerBackgroundImage();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Image*> const& __get__localPlayerBackgroundImage() const;
+  constexpr ::UnityW<::UnityEngine::UI::Image> const& __cordl_internal_get__localPlayerBackgroundImage() const;
 
-  constexpr void __set__localPlayerBackgroundImage(::UnityEngine::UI::Image* value);
+  constexpr void __cordl_internal_set__localPlayerBackgroundImage(::UnityW<::UnityEngine::UI::Image> value);
 
-  constexpr ::HMUI::CurvedTextMeshPro*& __get__suggestedLevelText();
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro>& __cordl_internal_get__suggestedLevelText();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedTextMeshPro*> const& __get__suggestedLevelText() const;
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& __cordl_internal_get__suggestedLevelText() const;
 
-  constexpr void __set__suggestedLevelText(::HMUI::CurvedTextMeshPro* value);
+  constexpr void __cordl_internal_set__suggestedLevelText(::UnityW<::HMUI::CurvedTextMeshPro> value);
 
-  constexpr ::HMUI::ImageView*& __get__suggestedCharacteristicIcon();
+  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__suggestedCharacteristicIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& __get__suggestedCharacteristicIcon() const;
+  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__suggestedCharacteristicIcon() const;
 
-  constexpr void __set__suggestedCharacteristicIcon(::HMUI::ImageView* value);
+  constexpr void __cordl_internal_set__suggestedCharacteristicIcon(::UnityW<::HMUI::ImageView> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__suggestedDifficultyText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__suggestedDifficultyText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__suggestedDifficultyText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__suggestedDifficultyText() const;
 
-  constexpr void __set__suggestedDifficultyText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__suggestedDifficultyText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::HMUI::CurvedTextMeshPro*& __get__emptySuggestedLevelText();
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro>& __cordl_internal_get__emptySuggestedLevelText();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedTextMeshPro*> const& __get__emptySuggestedLevelText() const;
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& __cordl_internal_get__emptySuggestedLevelText() const;
 
-  constexpr void __set__emptySuggestedLevelText(::HMUI::CurvedTextMeshPro* value);
+  constexpr void __cordl_internal_set__emptySuggestedLevelText(::UnityW<::HMUI::CurvedTextMeshPro> value);
 
-  constexpr ::GlobalNamespace::GameplayModifierInfoListItemsList*& __get__suggestedModifiersList();
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList>& __cordl_internal_get__suggestedModifiersList();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifierInfoListItemsList*> const& __get__suggestedModifiersList() const;
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> const& __cordl_internal_get__suggestedModifiersList() const;
 
-  constexpr void __set__suggestedModifiersList(::GlobalNamespace::GameplayModifierInfoListItemsList* value);
+  constexpr void __cordl_internal_set__suggestedModifiersList(::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> value);
 
-  constexpr ::HMUI::CurvedTextMeshPro*& __get__emptySuggestedModifiersText();
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro>& __cordl_internal_get__emptySuggestedModifiersText();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::CurvedTextMeshPro*> const& __get__emptySuggestedModifiersText() const;
+  constexpr ::UnityW<::HMUI::CurvedTextMeshPro> const& __cordl_internal_get__emptySuggestedModifiersText() const;
 
-  constexpr void __set__emptySuggestedModifiersText(::HMUI::CurvedTextMeshPro* value);
+  constexpr void __cordl_internal_set__emptySuggestedModifiersText(::UnityW<::HMUI::CurvedTextMeshPro> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__mutePlayerButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__mutePlayerButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__mutePlayerButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__mutePlayerButton() const;
 
-  constexpr void __set__mutePlayerButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__mutePlayerButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__kickPlayerButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__kickPlayerButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__kickPlayerButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__kickPlayerButton() const;
 
-  constexpr void __set__kickPlayerButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__kickPlayerButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__useBeatmapButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__useBeatmapButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__useBeatmapButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__useBeatmapButton() const;
 
-  constexpr void __set__useBeatmapButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__useBeatmapButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__useModifiersButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__useModifiersButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__useModifiersButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__useModifiersButton() const;
 
-  constexpr void __set__useModifiersButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__useModifiersButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::HMUI::HoverHint*& __get__useBeatmapButtonHoverHint();
+  constexpr ::UnityW<::HMUI::HoverHint>& __cordl_internal_get__useBeatmapButtonHoverHint();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::HoverHint*> const& __get__useBeatmapButtonHoverHint() const;
+  constexpr ::UnityW<::HMUI::HoverHint> const& __cordl_internal_get__useBeatmapButtonHoverHint() const;
 
-  constexpr void __set__useBeatmapButtonHoverHint(::HMUI::HoverHint* value);
+  constexpr void __cordl_internal_set__useBeatmapButtonHoverHint(::UnityW<::HMUI::HoverHint> value);
 
-  constexpr ::HMUI::ButtonSpriteSwapToggle*& __get__muteToggle();
+  constexpr ::UnityW<::HMUI::ButtonSpriteSwapToggle>& __cordl_internal_get__muteToggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonSpriteSwapToggle*> const& __get__muteToggle() const;
+  constexpr ::UnityW<::HMUI::ButtonSpriteSwapToggle> const& __cordl_internal_get__muteToggle() const;
 
-  constexpr void __set__muteToggle(::HMUI::ButtonSpriteSwapToggle* value);
+  constexpr void __cordl_internal_set__muteToggle(::UnityW<::HMUI::ButtonSpriteSwapToggle> value);
 
-  constexpr ::HMUI::ImageView*& __get__statusImageView();
+  constexpr ::UnityW<::HMUI::ImageView>& __cordl_internal_get__statusImageView();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ImageView*> const& __get__statusImageView() const;
+  constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__statusImageView() const;
 
-  constexpr void __set__statusImageView(::HMUI::ImageView* value);
+  constexpr void __cordl_internal_set__statusImageView(::UnityW<::HMUI::ImageView> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__readyIcon();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__readyIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__readyIcon() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__readyIcon() const;
 
-  constexpr void __set__readyIcon(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__readyIcon(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__spectatingIcon();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__spectatingIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__spectatingIcon() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__spectatingIcon() const;
 
-  constexpr void __set__spectatingIcon(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__spectatingIcon(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::UnityEngine::Sprite*& __get__hostIcon();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get__hostIcon();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get__hostIcon() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get__hostIcon() const;
 
-  constexpr void __set__hostIcon(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set__hostIcon(::UnityW<::UnityEngine::Sprite> value);
 
-  constexpr ::GlobalNamespace::GameplayModifiersModelSO*& __get__gameplayModifiers();
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& __cordl_internal_get__gameplayModifiers();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiersModelSO*> const& __get__gameplayModifiers() const;
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiers() const;
 
-  constexpr void __set__gameplayModifiers(::GlobalNamespace::GameplayModifiersModelSO* value);
+  constexpr void __cordl_internal_set__gameplayModifiers(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value);
 
-  constexpr ::System::Action_1<int32_t>*& __get_kickPlayerEvent();
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_kickPlayerEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __get_kickPlayerEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_kickPlayerEvent() const;
 
-  constexpr void __set_kickPlayerEvent(::System::Action_1<int32_t>* value);
+  constexpr void __cordl_internal_set_kickPlayerEvent(::System::Action_1<int32_t>* value);
 
-  constexpr ::System::Action_1<int32_t>*& __get_useBeatmapEvent();
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_useBeatmapEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __get_useBeatmapEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_useBeatmapEvent() const;
 
-  constexpr void __set_useBeatmapEvent(::System::Action_1<int32_t>* value);
+  constexpr void __cordl_internal_set_useBeatmapEvent(::System::Action_1<int32_t>* value);
 
-  constexpr ::System::Action_1<int32_t>*& __get_useModifiersEvent();
+  constexpr ::System::Action_1<int32_t>*& __cordl_internal_get_useModifiersEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __get_useModifiersEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<int32_t>*> const& __cordl_internal_get_useModifiersEvent() const;
 
-  constexpr void __set_useModifiersEvent(::System::Action_1<int32_t>* value);
+  constexpr void __cordl_internal_set_useModifiersEvent(::System::Action_1<int32_t>* value);
 
-  constexpr ::HMUI::ButtonBinder*& __get__buttonBinder();
+  constexpr ::HMUI::ButtonBinder*& __cordl_internal_get__buttonBinder();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __get__buttonBinder() const;
+  constexpr ::cordl_internals::to_const_pointer<::HMUI::ButtonBinder*> const& __cordl_internal_get__buttonBinder() const;
 
-  constexpr void __set__buttonBinder(::HMUI::ButtonBinder* value);
+  constexpr void __cordl_internal_set__buttonBinder(::HMUI::ButtonBinder* value);
 
-  constexpr ::System::Threading::CancellationTokenSource*& __get__getLevelEntitlementCancellationTokenSource();
+  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get__getLevelEntitlementCancellationTokenSource();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __get__getLevelEntitlementCancellationTokenSource() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get__getLevelEntitlementCancellationTokenSource() const;
 
-  constexpr void __set__getLevelEntitlementCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
+  constexpr void __cordl_internal_set__getLevelEntitlementCancellationTokenSource(::System::Threading::CancellationTokenSource* value);
 
   /// @brief Method add_kickPlayerEvent, addr 0x227930c, size 0xb0, virtual false, abstract: false, final false
   inline void add_kickPlayerEvent(::System::Action_1<int32_t>* value);
@@ -519,61 +522,61 @@ protected:
 
 public:
   /// @brief Field _playerNameText, offset: 0x60, size: 0x8, def value: None
-  ::HMUI::CurvedTextMeshPro* ____playerNameText;
+  ::UnityW<::HMUI::CurvedTextMeshPro> ____playerNameText;
 
   /// @brief Field _localPlayerBackgroundImage, offset: 0x68, size: 0x8, def value: None
-  ::UnityEngine::UI::Image* ____localPlayerBackgroundImage;
+  ::UnityW<::UnityEngine::UI::Image> ____localPlayerBackgroundImage;
 
   /// @brief Field _suggestedLevelText, offset: 0x70, size: 0x8, def value: None
-  ::HMUI::CurvedTextMeshPro* ____suggestedLevelText;
+  ::UnityW<::HMUI::CurvedTextMeshPro> ____suggestedLevelText;
 
   /// @brief Field _suggestedCharacteristicIcon, offset: 0x78, size: 0x8, def value: None
-  ::HMUI::ImageView* ____suggestedCharacteristicIcon;
+  ::UnityW<::HMUI::ImageView> ____suggestedCharacteristicIcon;
 
   /// @brief Field _suggestedDifficultyText, offset: 0x80, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____suggestedDifficultyText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____suggestedDifficultyText;
 
   /// @brief Field _emptySuggestedLevelText, offset: 0x88, size: 0x8, def value: None
-  ::HMUI::CurvedTextMeshPro* ____emptySuggestedLevelText;
+  ::UnityW<::HMUI::CurvedTextMeshPro> ____emptySuggestedLevelText;
 
   /// @brief Field _suggestedModifiersList, offset: 0x90, size: 0x8, def value: None
-  ::GlobalNamespace::GameplayModifierInfoListItemsList* ____suggestedModifiersList;
+  ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> ____suggestedModifiersList;
 
   /// @brief Field _emptySuggestedModifiersText, offset: 0x98, size: 0x8, def value: None
-  ::HMUI::CurvedTextMeshPro* ____emptySuggestedModifiersText;
+  ::UnityW<::HMUI::CurvedTextMeshPro> ____emptySuggestedModifiersText;
 
   /// @brief Field _mutePlayerButton, offset: 0xa0, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____mutePlayerButton;
+  ::UnityW<::UnityEngine::UI::Button> ____mutePlayerButton;
 
   /// @brief Field _kickPlayerButton, offset: 0xa8, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____kickPlayerButton;
+  ::UnityW<::UnityEngine::UI::Button> ____kickPlayerButton;
 
   /// @brief Field _useBeatmapButton, offset: 0xb0, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____useBeatmapButton;
+  ::UnityW<::UnityEngine::UI::Button> ____useBeatmapButton;
 
   /// @brief Field _useModifiersButton, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____useModifiersButton;
+  ::UnityW<::UnityEngine::UI::Button> ____useModifiersButton;
 
   /// @brief Field _useBeatmapButtonHoverHint, offset: 0xc0, size: 0x8, def value: None
-  ::HMUI::HoverHint* ____useBeatmapButtonHoverHint;
+  ::UnityW<::HMUI::HoverHint> ____useBeatmapButtonHoverHint;
 
   /// @brief Field _muteToggle, offset: 0xc8, size: 0x8, def value: None
-  ::HMUI::ButtonSpriteSwapToggle* ____muteToggle;
+  ::UnityW<::HMUI::ButtonSpriteSwapToggle> ____muteToggle;
 
   /// @brief Field _statusImageView, offset: 0xd0, size: 0x8, def value: None
-  ::HMUI::ImageView* ____statusImageView;
+  ::UnityW<::HMUI::ImageView> ____statusImageView;
 
   /// @brief Field _readyIcon, offset: 0xd8, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____readyIcon;
+  ::UnityW<::UnityEngine::Sprite> ____readyIcon;
 
   /// @brief Field _spectatingIcon, offset: 0xe0, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____spectatingIcon;
+  ::UnityW<::UnityEngine::Sprite> ____spectatingIcon;
 
   /// @brief Field _hostIcon, offset: 0xe8, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ____hostIcon;
+  ::UnityW<::UnityEngine::Sprite> ____hostIcon;
 
   /// @brief Field _gameplayModifiers, offset: 0xf0, size: 0x8, def value: None
-  ::GlobalNamespace::GameplayModifiersModelSO* ____gameplayModifiers;
+  ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiers;
 
   /// @brief Field kickPlayerEvent, offset: 0xf8, size: 0x8, def value: None
   ::System::Action_1<int32_t>* ___kickPlayerEvent;

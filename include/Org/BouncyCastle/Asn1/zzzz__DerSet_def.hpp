@@ -24,7 +24,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::DerSet);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(465))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(465))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(491))
 // CS Name: ::Org.BouncyCastle.Asn1::DerSet*
 class CORDL_TYPE DerSet : public ::Org::BouncyCastle::Asn1::Asn1Set {

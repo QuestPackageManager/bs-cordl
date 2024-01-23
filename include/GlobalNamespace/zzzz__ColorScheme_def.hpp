@@ -22,56 +22,56 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorScheme);
 // SizeInfo { instance_size: 200, native_size: -1, calculated_instance_size: 200, calculated_native_size: 200, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16204))
 // CS Name: ::ColorScheme*
 class CORDL_TYPE ColorScheme : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _colorSchemeId, offset 0x10, size 0x8
-  __declspec(property(get = __get__colorSchemeId, put = __set__colorSchemeId))::StringW _colorSchemeId;
+  __declspec(property(get = __cordl_internal_get__colorSchemeId, put = __cordl_internal_set__colorSchemeId))::StringW _colorSchemeId;
 
   /// @brief Field _colorSchemeNameLocalizationKey, offset 0x18, size 0x8
-  __declspec(property(get = __get__colorSchemeNameLocalizationKey, put = __set__colorSchemeNameLocalizationKey))::StringW _colorSchemeNameLocalizationKey;
+  __declspec(property(get = __cordl_internal_get__colorSchemeNameLocalizationKey, put = __cordl_internal_set__colorSchemeNameLocalizationKey))::StringW _colorSchemeNameLocalizationKey;
 
   /// @brief Field _useNonLocalizedName, offset 0x20, size 0x1
-  __declspec(property(get = __get__useNonLocalizedName, put = __set__useNonLocalizedName)) bool _useNonLocalizedName;
+  __declspec(property(get = __cordl_internal_get__useNonLocalizedName, put = __cordl_internal_set__useNonLocalizedName)) bool _useNonLocalizedName;
 
   /// @brief Field _nonLocalizedName, offset 0x28, size 0x8
-  __declspec(property(get = __get__nonLocalizedName, put = __set__nonLocalizedName))::StringW _nonLocalizedName;
+  __declspec(property(get = __cordl_internal_get__nonLocalizedName, put = __cordl_internal_set__nonLocalizedName))::StringW _nonLocalizedName;
 
   /// @brief Field _isEditable, offset 0x30, size 0x1
-  __declspec(property(get = __get__isEditable, put = __set__isEditable)) bool _isEditable;
+  __declspec(property(get = __cordl_internal_get__isEditable, put = __cordl_internal_set__isEditable)) bool _isEditable;
 
   /// @brief Field _saberAColor, offset 0x34, size 0x10
-  __declspec(property(get = __get__saberAColor, put = __set__saberAColor))::UnityEngine::Color _saberAColor;
+  __declspec(property(get = __cordl_internal_get__saberAColor, put = __cordl_internal_set__saberAColor))::UnityEngine::Color _saberAColor;
 
   /// @brief Field _saberBColor, offset 0x44, size 0x10
-  __declspec(property(get = __get__saberBColor, put = __set__saberBColor))::UnityEngine::Color _saberBColor;
+  __declspec(property(get = __cordl_internal_get__saberBColor, put = __cordl_internal_set__saberBColor))::UnityEngine::Color _saberBColor;
 
   /// @brief Field _obstaclesColor, offset 0x54, size 0x10
-  __declspec(property(get = __get__obstaclesColor, put = __set__obstaclesColor))::UnityEngine::Color _obstaclesColor;
+  __declspec(property(get = __cordl_internal_get__obstaclesColor, put = __cordl_internal_set__obstaclesColor))::UnityEngine::Color _obstaclesColor;
 
   /// @brief Field _environmentColor0, offset 0x64, size 0x10
-  __declspec(property(get = __get__environmentColor0, put = __set__environmentColor0))::UnityEngine::Color _environmentColor0;
+  __declspec(property(get = __cordl_internal_get__environmentColor0, put = __cordl_internal_set__environmentColor0))::UnityEngine::Color _environmentColor0;
 
   /// @brief Field _environmentColor1, offset 0x74, size 0x10
-  __declspec(property(get = __get__environmentColor1, put = __set__environmentColor1))::UnityEngine::Color _environmentColor1;
+  __declspec(property(get = __cordl_internal_get__environmentColor1, put = __cordl_internal_set__environmentColor1))::UnityEngine::Color _environmentColor1;
 
   /// @brief Field _environmentColorW, offset 0x84, size 0x10
-  __declspec(property(get = __get__environmentColorW, put = __set__environmentColorW))::UnityEngine::Color _environmentColorW;
+  __declspec(property(get = __cordl_internal_get__environmentColorW, put = __cordl_internal_set__environmentColorW))::UnityEngine::Color _environmentColorW;
 
   /// @brief Field _supportsEnvironmentColorBoost, offset 0x94, size 0x1
-  __declspec(property(get = __get__supportsEnvironmentColorBoost, put = __set__supportsEnvironmentColorBoost)) bool _supportsEnvironmentColorBoost;
+  __declspec(property(get = __cordl_internal_get__supportsEnvironmentColorBoost, put = __cordl_internal_set__supportsEnvironmentColorBoost)) bool _supportsEnvironmentColorBoost;
 
   /// @brief Field _environmentColor0Boost, offset 0x98, size 0x10
-  __declspec(property(get = __get__environmentColor0Boost, put = __set__environmentColor0Boost))::UnityEngine::Color _environmentColor0Boost;
+  __declspec(property(get = __cordl_internal_get__environmentColor0Boost, put = __cordl_internal_set__environmentColor0Boost))::UnityEngine::Color _environmentColor0Boost;
 
   /// @brief Field _environmentColor1Boost, offset 0xa8, size 0x10
-  __declspec(property(get = __get__environmentColor1Boost, put = __set__environmentColor1Boost))::UnityEngine::Color _environmentColor1Boost;
+  __declspec(property(get = __cordl_internal_get__environmentColor1Boost, put = __cordl_internal_set__environmentColor1Boost))::UnityEngine::Color _environmentColor1Boost;
 
   /// @brief Field _environmentColorWBoost, offset 0xb8, size 0x10
-  __declspec(property(get = __get__environmentColorWBoost, put = __set__environmentColorWBoost))::UnityEngine::Color _environmentColorWBoost;
+  __declspec(property(get = __cordl_internal_get__environmentColorWBoost, put = __cordl_internal_set__environmentColorWBoost))::UnityEngine::Color _environmentColorWBoost;
 
   __declspec(property(get = get_colorSchemeId))::StringW colorSchemeId;
 
@@ -103,95 +103,95 @@ public:
 
   __declspec(property(get = get_obstaclesColor))::UnityEngine::Color obstaclesColor;
 
-  constexpr ::StringW& __get__colorSchemeId();
+  constexpr ::StringW& __cordl_internal_get__colorSchemeId();
 
-  constexpr ::StringW const& __get__colorSchemeId() const;
+  constexpr ::StringW const& __cordl_internal_get__colorSchemeId() const;
 
-  constexpr void __set__colorSchemeId(::StringW value);
+  constexpr void __cordl_internal_set__colorSchemeId(::StringW value);
 
-  constexpr ::StringW& __get__colorSchemeNameLocalizationKey();
+  constexpr ::StringW& __cordl_internal_get__colorSchemeNameLocalizationKey();
 
-  constexpr ::StringW const& __get__colorSchemeNameLocalizationKey() const;
+  constexpr ::StringW const& __cordl_internal_get__colorSchemeNameLocalizationKey() const;
 
-  constexpr void __set__colorSchemeNameLocalizationKey(::StringW value);
+  constexpr void __cordl_internal_set__colorSchemeNameLocalizationKey(::StringW value);
 
-  constexpr bool& __get__useNonLocalizedName();
+  constexpr bool& __cordl_internal_get__useNonLocalizedName();
 
-  constexpr bool const& __get__useNonLocalizedName() const;
+  constexpr bool const& __cordl_internal_get__useNonLocalizedName() const;
 
-  constexpr void __set__useNonLocalizedName(bool value);
+  constexpr void __cordl_internal_set__useNonLocalizedName(bool value);
 
-  constexpr ::StringW& __get__nonLocalizedName();
+  constexpr ::StringW& __cordl_internal_get__nonLocalizedName();
 
-  constexpr ::StringW const& __get__nonLocalizedName() const;
+  constexpr ::StringW const& __cordl_internal_get__nonLocalizedName() const;
 
-  constexpr void __set__nonLocalizedName(::StringW value);
+  constexpr void __cordl_internal_set__nonLocalizedName(::StringW value);
 
-  constexpr bool& __get__isEditable();
+  constexpr bool& __cordl_internal_get__isEditable();
 
-  constexpr bool const& __get__isEditable() const;
+  constexpr bool const& __cordl_internal_get__isEditable() const;
 
-  constexpr void __set__isEditable(bool value);
+  constexpr void __cordl_internal_set__isEditable(bool value);
 
-  constexpr ::UnityEngine::Color& __get__saberAColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__saberAColor();
 
-  constexpr ::UnityEngine::Color const& __get__saberAColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__saberAColor() const;
 
-  constexpr void __set__saberAColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__saberAColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__saberBColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__saberBColor();
 
-  constexpr ::UnityEngine::Color const& __get__saberBColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__saberBColor() const;
 
-  constexpr void __set__saberBColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__saberBColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__obstaclesColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__obstaclesColor();
 
-  constexpr ::UnityEngine::Color const& __get__obstaclesColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__obstaclesColor() const;
 
-  constexpr void __set__obstaclesColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__obstaclesColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__environmentColor0();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__environmentColor0();
 
-  constexpr ::UnityEngine::Color const& __get__environmentColor0() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__environmentColor0() const;
 
-  constexpr void __set__environmentColor0(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__environmentColor0(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__environmentColor1();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__environmentColor1();
 
-  constexpr ::UnityEngine::Color const& __get__environmentColor1() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__environmentColor1() const;
 
-  constexpr void __set__environmentColor1(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__environmentColor1(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__environmentColorW();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__environmentColorW();
 
-  constexpr ::UnityEngine::Color const& __get__environmentColorW() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__environmentColorW() const;
 
-  constexpr void __set__environmentColorW(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__environmentColorW(::UnityEngine::Color value);
 
-  constexpr bool& __get__supportsEnvironmentColorBoost();
+  constexpr bool& __cordl_internal_get__supportsEnvironmentColorBoost();
 
-  constexpr bool const& __get__supportsEnvironmentColorBoost() const;
+  constexpr bool const& __cordl_internal_get__supportsEnvironmentColorBoost() const;
 
-  constexpr void __set__supportsEnvironmentColorBoost(bool value);
+  constexpr void __cordl_internal_set__supportsEnvironmentColorBoost(bool value);
 
-  constexpr ::UnityEngine::Color& __get__environmentColor0Boost();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__environmentColor0Boost();
 
-  constexpr ::UnityEngine::Color const& __get__environmentColor0Boost() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__environmentColor0Boost() const;
 
-  constexpr void __set__environmentColor0Boost(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__environmentColor0Boost(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__environmentColor1Boost();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__environmentColor1Boost();
 
-  constexpr ::UnityEngine::Color const& __get__environmentColor1Boost() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__environmentColor1Boost() const;
 
-  constexpr void __set__environmentColor1Boost(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__environmentColor1Boost(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__environmentColorWBoost();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__environmentColorWBoost();
 
-  constexpr ::UnityEngine::Color const& __get__environmentColorWBoost() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__environmentColorWBoost() const;
 
-  constexpr void __set__environmentColorWBoost(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__environmentColorWBoost(::UnityEngine::Color value);
 
   /// @brief Method get_colorSchemeId, addr 0x122d1a0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_colorSchemeId();

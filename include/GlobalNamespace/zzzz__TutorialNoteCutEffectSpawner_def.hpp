@@ -27,29 +27,29 @@ MARK_REF_PTR_T(::GlobalNamespace::TutorialNoteCutEffectSpawner);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5342))
 // CS Name: ::TutorialNoteCutEffectSpawner*
 class CORDL_TYPE TutorialNoteCutEffectSpawner : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _failFlyingTextSpawner, offset 0x18, size 0x8
-  __declspec(property(get = __get__failFlyingTextSpawner, put = __set__failFlyingTextSpawner))::GlobalNamespace::FlyingTextSpawner* _failFlyingTextSpawner;
+  __declspec(property(get = __cordl_internal_get__failFlyingTextSpawner, put = __cordl_internal_set__failFlyingTextSpawner))::UnityW<::GlobalNamespace::FlyingTextSpawner> _failFlyingTextSpawner;
 
   /// @brief Field _beatmapObjectManager, offset 0x20, size 0x8
-  __declspec(property(get = __get__beatmapObjectManager, put = __set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
-  constexpr ::GlobalNamespace::FlyingTextSpawner*& __get__failFlyingTextSpawner();
+  constexpr ::UnityW<::GlobalNamespace::FlyingTextSpawner>& __cordl_internal_get__failFlyingTextSpawner();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FlyingTextSpawner*> const& __get__failFlyingTextSpawner() const;
+  constexpr ::UnityW<::GlobalNamespace::FlyingTextSpawner> const& __cordl_internal_get__failFlyingTextSpawner() const;
 
-  constexpr void __set__failFlyingTextSpawner(::GlobalNamespace::FlyingTextSpawner* value);
+  constexpr void __cordl_internal_set__failFlyingTextSpawner(::UnityW<::GlobalNamespace::FlyingTextSpawner> value);
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __get__beatmapObjectManager();
+  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __get__beatmapObjectManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr void __set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
   /// @brief Method Start, addr 0x226a66c, size 0x8c, virtual false, abstract: false, final false
   inline void Start();
@@ -80,7 +80,7 @@ protected:
 
 public:
   /// @brief Field _failFlyingTextSpawner, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::FlyingTextSpawner* ____failFlyingTextSpawner;
+  ::UnityW<::GlobalNamespace::FlyingTextSpawner> ____failFlyingTextSpawner;
 
   /// @brief Field _beatmapObjectManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;

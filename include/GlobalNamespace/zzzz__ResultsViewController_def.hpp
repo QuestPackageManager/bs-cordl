@@ -78,23 +78,23 @@ MARK_REF_PTR_T(::GlobalNamespace::__ResultsViewController___StartFireworksAfterD
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5742))
 // CS Name: ::ResultsViewController::<StartFireworksAfterDelay>d__33*
 class CORDL_TYPE __ResultsViewController___StartFireworksAfterDelay_d__33 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Object* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Object* __2__current;
 
   /// @brief Field delay, offset 0x20, size 0x4
-  __declspec(property(get = __get_delay, put = __set_delay)) float_t delay;
+  __declspec(property(get = __cordl_internal_get_delay, put = __cordl_internal_set_delay)) float_t delay;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::GlobalNamespace::ResultsViewController* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::UnityW<::GlobalNamespace::ResultsViewController> __4__this;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current))::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
 
@@ -118,29 +118,29 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Object*& __get___2__current();
+  constexpr ::System::Object*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Object* value);
+  constexpr void __cordl_internal_set___2__current(::System::Object* value);
 
-  constexpr float_t& __get_delay();
+  constexpr float_t& __cordl_internal_get_delay();
 
-  constexpr float_t const& __get_delay() const;
+  constexpr float_t const& __cordl_internal_get_delay() const;
 
-  constexpr void __set_delay(float_t value);
+  constexpr void __cordl_internal_set_delay(float_t value);
 
-  constexpr ::GlobalNamespace::ResultsViewController*& __get___4__this();
+  constexpr ::UnityW<::GlobalNamespace::ResultsViewController>& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ResultsViewController*> const& __get___4__this() const;
+  constexpr ::UnityW<::GlobalNamespace::ResultsViewController> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::GlobalNamespace::ResultsViewController* value);
+  constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::ResultsViewController> value);
 
   static inline ::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33* New_ctor(int32_t __1__state);
 
@@ -186,7 +186,7 @@ public:
   float_t ___delay;
 
   /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::ResultsViewController* _____4__this;
+  ::UnityW<::GlobalNamespace::ResultsViewController> _____4__this;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -206,7 +206,7 @@ static_assert(offsetof(::GlobalNamespace::__ResultsViewController___StartFirewor
 // SizeInfo { instance_size: 296, native_size: -1, calculated_instance_size: 296, calculated_native_size: 290, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5743))
 // CS Name: ::ResultsViewController*
 class CORDL_TYPE ResultsViewController : public ::HMUI::ViewController {
@@ -215,234 +215,238 @@ public:
   using _StartFireworksAfterDelay_d__33 = ::GlobalNamespace::__ResultsViewController___StartFireworksAfterDelay_d__33;
 
   /// @brief Field _restartButton, offset 0x70, size 0x8
-  __declspec(property(get = __get__restartButton, put = __set__restartButton))::UnityEngine::UI::Button* _restartButton;
+  __declspec(property(get = __cordl_internal_get__restartButton, put = __cordl_internal_set__restartButton))::UnityW<::UnityEngine::UI::Button> _restartButton;
 
   /// @brief Field _continueButton, offset 0x78, size 0x8
-  __declspec(property(get = __get__continueButton, put = __set__continueButton))::UnityEngine::UI::Button* _continueButton;
+  __declspec(property(get = __cordl_internal_get__continueButton, put = __cordl_internal_set__continueButton))::UnityW<::UnityEngine::UI::Button> _continueButton;
 
   /// @brief Field _clearedPanel, offset 0x80, size 0x8
-  __declspec(property(get = __get__clearedPanel, put = __set__clearedPanel))::UnityEngine::GameObject* _clearedPanel;
+  __declspec(property(get = __cordl_internal_get__clearedPanel, put = __cordl_internal_set__clearedPanel))::UnityW<::UnityEngine::GameObject> _clearedPanel;
 
   /// @brief Field _scoreText, offset 0x88, size 0x8
-  __declspec(property(get = __get__scoreText, put = __set__scoreText))::TMPro::TextMeshProUGUI* _scoreText;
+  __declspec(property(get = __cordl_internal_get__scoreText, put = __cordl_internal_set__scoreText))::UnityW<::TMPro::TextMeshProUGUI> _scoreText;
 
   /// @brief Field _newHighScoreText, offset 0x90, size 0x8
-  __declspec(property(get = __get__newHighScoreText, put = __set__newHighScoreText))::UnityEngine::GameObject* _newHighScoreText;
+  __declspec(property(get = __cordl_internal_get__newHighScoreText, put = __cordl_internal_set__newHighScoreText))::UnityW<::UnityEngine::GameObject> _newHighScoreText;
 
   /// @brief Field _rankText, offset 0x98, size 0x8
-  __declspec(property(get = __get__rankText, put = __set__rankText))::TMPro::TextMeshProUGUI* _rankText;
+  __declspec(property(get = __cordl_internal_get__rankText, put = __cordl_internal_set__rankText))::UnityW<::TMPro::TextMeshProUGUI> _rankText;
 
   /// @brief Field _goodCutsPercentageText, offset 0xa0, size 0x8
-  __declspec(property(get = __get__goodCutsPercentageText, put = __set__goodCutsPercentageText))::TMPro::TextMeshProUGUI* _goodCutsPercentageText;
+  __declspec(property(get = __cordl_internal_get__goodCutsPercentageText, put = __cordl_internal_set__goodCutsPercentageText))::UnityW<::TMPro::TextMeshProUGUI> _goodCutsPercentageText;
 
   /// @brief Field _comboText, offset 0xa8, size 0x8
-  __declspec(property(get = __get__comboText, put = __set__comboText))::TMPro::TextMeshProUGUI* _comboText;
+  __declspec(property(get = __cordl_internal_get__comboText, put = __cordl_internal_set__comboText))::UnityW<::TMPro::TextMeshProUGUI> _comboText;
 
   /// @brief Field _clearedBannerGo, offset 0xb0, size 0x8
-  __declspec(property(get = __get__clearedBannerGo, put = __set__clearedBannerGo))::UnityEngine::GameObject* _clearedBannerGo;
+  __declspec(property(get = __cordl_internal_get__clearedBannerGo, put = __cordl_internal_set__clearedBannerGo))::UnityW<::UnityEngine::GameObject> _clearedBannerGo;
 
   /// @brief Field _failedBannerGo, offset 0xb8, size 0x8
-  __declspec(property(get = __get__failedBannerGo, put = __set__failedBannerGo))::UnityEngine::GameObject* _failedBannerGo;
+  __declspec(property(get = __cordl_internal_get__failedBannerGo, put = __cordl_internal_set__failedBannerGo))::UnityW<::UnityEngine::GameObject> _failedBannerGo;
 
   /// @brief Field _levelBar, offset 0xc0, size 0x8
-  __declspec(property(get = __get__levelBar, put = __set__levelBar))::GlobalNamespace::LevelBar* _levelBar;
+  __declspec(property(get = __cordl_internal_get__levelBar, put = __cordl_internal_set__levelBar))::UnityW<::GlobalNamespace::LevelBar> _levelBar;
 
   /// @brief Field _levelClearedAudioClip, offset 0xc8, size 0x8
-  __declspec(property(get = __get__levelClearedAudioClip, put = __set__levelClearedAudioClip))::UnityEngine::AudioClip* _levelClearedAudioClip;
+  __declspec(property(get = __cordl_internal_get__levelClearedAudioClip, put = __cordl_internal_set__levelClearedAudioClip))::UnityW<::UnityEngine::AudioClip> _levelClearedAudioClip;
 
   /// @brief Field _fireworksController, offset 0xd0, size 0x8
-  __declspec(property(get = __get__fireworksController, put = __set__fireworksController))::GlobalNamespace::FireworksController* _fireworksController;
+  __declspec(property(get = __cordl_internal_get__fireworksController, put = __cordl_internal_set__fireworksController))::UnityW<::GlobalNamespace::FireworksController> _fireworksController;
 
   /// @brief Field _songPreviewPlayer, offset 0xd8, size 0x8
-  __declspec(property(get = __get__songPreviewPlayer, put = __set__songPreviewPlayer))::GlobalNamespace::SongPreviewPlayer* _songPreviewPlayer;
+  __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer))::UnityW<::GlobalNamespace::SongPreviewPlayer> _songPreviewPlayer;
 
   /// @brief Field _resultsEnvironmentManager, offset 0xe0, size 0x8
-  __declspec(property(get = __get__resultsEnvironmentManager, put = __set__resultsEnvironmentManager))::GlobalNamespace::ResultsEnvironmentManager* _resultsEnvironmentManager;
+  __declspec(property(get = __cordl_internal_get__resultsEnvironmentManager,
+                      put = __cordl_internal_set__resultsEnvironmentManager))::UnityW<::GlobalNamespace::ResultsEnvironmentManager> _resultsEnvironmentManager;
 
   /// @brief Field _menuDestinationRequest, offset 0xe8, size 0x8
-  __declspec(property(get = __get__menuDestinationRequest, put = __set__menuDestinationRequest))::GlobalNamespace::MenuDestination* _menuDestinationRequest;
+  __declspec(property(get = __cordl_internal_get__menuDestinationRequest, put = __cordl_internal_set__menuDestinationRequest))::GlobalNamespace::MenuDestination* _menuDestinationRequest;
 
   /// @brief Field continueButtonPressedEvent, offset 0xf0, size 0x8
-  __declspec(property(get = __get_continueButtonPressedEvent, put = __set_continueButtonPressedEvent))::System::Action_1<::GlobalNamespace::ResultsViewController*>* continueButtonPressedEvent;
+  __declspec(property(get = __cordl_internal_get_continueButtonPressedEvent,
+                      put = __cordl_internal_set_continueButtonPressedEvent))::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* continueButtonPressedEvent;
 
   /// @brief Field restartButtonPressedEvent, offset 0xf8, size 0x8
-  __declspec(property(get = __get_restartButtonPressedEvent, put = __set_restartButtonPressedEvent))::System::Action_1<::GlobalNamespace::ResultsViewController*>* restartButtonPressedEvent;
+  __declspec(property(get = __cordl_internal_get_restartButtonPressedEvent,
+                      put = __cordl_internal_set_restartButtonPressedEvent))::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* restartButtonPressedEvent;
 
   /// @brief Field _levelCompletionResults, offset 0x100, size 0x8
-  __declspec(property(get = __get__levelCompletionResults, put = __set__levelCompletionResults))::GlobalNamespace::LevelCompletionResults* _levelCompletionResults;
+  __declspec(property(get = __cordl_internal_get__levelCompletionResults, put = __cordl_internal_set__levelCompletionResults))::GlobalNamespace::LevelCompletionResults* _levelCompletionResults;
 
   /// @brief Field _difficultyBeatmap, offset 0x108, size 0x8
-  __declspec(property(get = __get__difficultyBeatmap, put = __set__difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* _difficultyBeatmap;
+  __declspec(property(get = __cordl_internal_get__difficultyBeatmap, put = __cordl_internal_set__difficultyBeatmap))::GlobalNamespace::IDifficultyBeatmap* _difficultyBeatmap;
 
   /// @brief Field _transformedBeatmapData, offset 0x110, size 0x8
-  __declspec(property(get = __get__transformedBeatmapData, put = __set__transformedBeatmapData))::GlobalNamespace::IReadonlyBeatmapData* _transformedBeatmapData;
+  __declspec(property(get = __cordl_internal_get__transformedBeatmapData, put = __cordl_internal_set__transformedBeatmapData))::GlobalNamespace::IReadonlyBeatmapData* _transformedBeatmapData;
 
   /// @brief Field _startFireworksAfterDelayCoroutine, offset 0x118, size 0x8
-  __declspec(property(get = __get__startFireworksAfterDelayCoroutine, put = __set__startFireworksAfterDelayCoroutine))::UnityEngine::Coroutine* _startFireworksAfterDelayCoroutine;
+  __declspec(property(get = __cordl_internal_get__startFireworksAfterDelayCoroutine,
+                      put = __cordl_internal_set__startFireworksAfterDelayCoroutine))::UnityEngine::Coroutine* _startFireworksAfterDelayCoroutine;
 
   /// @brief Field _newHighScore, offset 0x120, size 0x1
-  __declspec(property(get = __get__newHighScore, put = __set__newHighScore)) bool _newHighScore;
+  __declspec(property(get = __cordl_internal_get__newHighScore, put = __cordl_internal_set__newHighScore)) bool _newHighScore;
 
   /// @brief Field _practice, offset 0x121, size 0x1
-  __declspec(property(get = __get__practice, put = __set__practice)) bool _practice;
+  __declspec(property(get = __cordl_internal_get__practice, put = __cordl_internal_set__practice)) bool _practice;
 
   __declspec(property(get = get_practice)) bool practice;
 
-  constexpr ::UnityEngine::UI::Button*& __get__restartButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__restartButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__restartButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__restartButton() const;
 
-  constexpr void __set__restartButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__restartButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::UI::Button*& __get__continueButton();
+  constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__continueButton();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Button*> const& __get__continueButton() const;
+  constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__continueButton() const;
 
-  constexpr void __set__continueButton(::UnityEngine::UI::Button* value);
+  constexpr void __cordl_internal_set__continueButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__clearedPanel();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__clearedPanel();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__clearedPanel() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__clearedPanel() const;
 
-  constexpr void __set__clearedPanel(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__clearedPanel(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__scoreText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__scoreText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__scoreText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__scoreText() const;
 
-  constexpr void __set__scoreText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__newHighScoreText();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__newHighScoreText();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__newHighScoreText() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__newHighScoreText() const;
 
-  constexpr void __set__newHighScoreText(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__newHighScoreText(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__rankText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__rankText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__rankText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__rankText() const;
 
-  constexpr void __set__rankText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__rankText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__goodCutsPercentageText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__goodCutsPercentageText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__goodCutsPercentageText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__goodCutsPercentageText() const;
 
-  constexpr void __set__goodCutsPercentageText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__goodCutsPercentageText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__comboText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__comboText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__comboText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__comboText() const;
 
-  constexpr void __set__comboText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__comboText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__clearedBannerGo();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__clearedBannerGo();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__clearedBannerGo() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__clearedBannerGo() const;
 
-  constexpr void __set__clearedBannerGo(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__clearedBannerGo(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::UnityEngine::GameObject*& __get__failedBannerGo();
+  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__failedBannerGo();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::GameObject*> const& __get__failedBannerGo() const;
+  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__failedBannerGo() const;
 
-  constexpr void __set__failedBannerGo(::UnityEngine::GameObject* value);
+  constexpr void __cordl_internal_set__failedBannerGo(::UnityW<::UnityEngine::GameObject> value);
 
-  constexpr ::GlobalNamespace::LevelBar*& __get__levelBar();
+  constexpr ::UnityW<::GlobalNamespace::LevelBar>& __cordl_internal_get__levelBar();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelBar*> const& __get__levelBar() const;
+  constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
 
-  constexpr void __set__levelBar(::GlobalNamespace::LevelBar* value);
+  constexpr void __cordl_internal_set__levelBar(::UnityW<::GlobalNamespace::LevelBar> value);
 
-  constexpr ::UnityEngine::AudioClip*& __get__levelClearedAudioClip();
+  constexpr ::UnityW<::UnityEngine::AudioClip>& __cordl_internal_get__levelClearedAudioClip();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::AudioClip*> const& __get__levelClearedAudioClip() const;
+  constexpr ::UnityW<::UnityEngine::AudioClip> const& __cordl_internal_get__levelClearedAudioClip() const;
 
-  constexpr void __set__levelClearedAudioClip(::UnityEngine::AudioClip* value);
+  constexpr void __cordl_internal_set__levelClearedAudioClip(::UnityW<::UnityEngine::AudioClip> value);
 
-  constexpr ::GlobalNamespace::FireworksController*& __get__fireworksController();
+  constexpr ::UnityW<::GlobalNamespace::FireworksController>& __cordl_internal_get__fireworksController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::FireworksController*> const& __get__fireworksController() const;
+  constexpr ::UnityW<::GlobalNamespace::FireworksController> const& __cordl_internal_get__fireworksController() const;
 
-  constexpr void __set__fireworksController(::GlobalNamespace::FireworksController* value);
+  constexpr void __cordl_internal_set__fireworksController(::UnityW<::GlobalNamespace::FireworksController> value);
 
-  constexpr ::GlobalNamespace::SongPreviewPlayer*& __get__songPreviewPlayer();
+  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer>& __cordl_internal_get__songPreviewPlayer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SongPreviewPlayer*> const& __get__songPreviewPlayer() const;
+  constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer> const& __cordl_internal_get__songPreviewPlayer() const;
 
-  constexpr void __set__songPreviewPlayer(::GlobalNamespace::SongPreviewPlayer* value);
+  constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::SongPreviewPlayer> value);
 
-  constexpr ::GlobalNamespace::ResultsEnvironmentManager*& __get__resultsEnvironmentManager();
+  constexpr ::UnityW<::GlobalNamespace::ResultsEnvironmentManager>& __cordl_internal_get__resultsEnvironmentManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ResultsEnvironmentManager*> const& __get__resultsEnvironmentManager() const;
+  constexpr ::UnityW<::GlobalNamespace::ResultsEnvironmentManager> const& __cordl_internal_get__resultsEnvironmentManager() const;
 
-  constexpr void __set__resultsEnvironmentManager(::GlobalNamespace::ResultsEnvironmentManager* value);
+  constexpr void __cordl_internal_set__resultsEnvironmentManager(::UnityW<::GlobalNamespace::ResultsEnvironmentManager> value);
 
-  constexpr ::GlobalNamespace::MenuDestination*& __get__menuDestinationRequest();
+  constexpr ::GlobalNamespace::MenuDestination*& __cordl_internal_get__menuDestinationRequest();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuDestination*> const& __get__menuDestinationRequest() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MenuDestination*> const& __cordl_internal_get__menuDestinationRequest() const;
 
-  constexpr void __set__menuDestinationRequest(::GlobalNamespace::MenuDestination* value);
+  constexpr void __cordl_internal_set__menuDestinationRequest(::GlobalNamespace::MenuDestination* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::ResultsViewController*>*& __get_continueButtonPressedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*& __cordl_internal_get_continueButtonPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ResultsViewController*>*> const& __get_continueButtonPressedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*> const& __cordl_internal_get_continueButtonPressedEvent() const;
 
-  constexpr void __set_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
+  constexpr void __cordl_internal_set_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
-  constexpr ::System::Action_1<::GlobalNamespace::ResultsViewController*>*& __get_restartButtonPressedEvent();
+  constexpr ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*& __cordl_internal_get_restartButtonPressedEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::GlobalNamespace::ResultsViewController*>*> const& __get_restartButtonPressedEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>*> const& __cordl_internal_get_restartButtonPressedEvent() const;
 
-  constexpr void __set_restartButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
+  constexpr void __cordl_internal_set_restartButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
-  constexpr ::GlobalNamespace::LevelCompletionResults*& __get__levelCompletionResults();
+  constexpr ::GlobalNamespace::LevelCompletionResults*& __cordl_internal_get__levelCompletionResults();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelCompletionResults*> const& __get__levelCompletionResults() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelCompletionResults*> const& __cordl_internal_get__levelCompletionResults() const;
 
-  constexpr void __set__levelCompletionResults(::GlobalNamespace::LevelCompletionResults* value);
+  constexpr void __cordl_internal_set__levelCompletionResults(::GlobalNamespace::LevelCompletionResults* value);
 
-  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __get__difficultyBeatmap();
+  constexpr ::GlobalNamespace::IDifficultyBeatmap*& __cordl_internal_get__difficultyBeatmap();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __get__difficultyBeatmap() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IDifficultyBeatmap*> const& __cordl_internal_get__difficultyBeatmap() const;
 
-  constexpr void __set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
+  constexpr void __cordl_internal_set__difficultyBeatmap(::GlobalNamespace::IDifficultyBeatmap* value);
 
-  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __get__transformedBeatmapData();
+  constexpr ::GlobalNamespace::IReadonlyBeatmapData*& __cordl_internal_get__transformedBeatmapData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __get__transformedBeatmapData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IReadonlyBeatmapData*> const& __cordl_internal_get__transformedBeatmapData() const;
 
-  constexpr void __set__transformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
+  constexpr void __cordl_internal_set__transformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* value);
 
-  constexpr ::UnityEngine::Coroutine*& __get__startFireworksAfterDelayCoroutine();
+  constexpr ::UnityEngine::Coroutine*& __cordl_internal_get__startFireworksAfterDelayCoroutine();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __get__startFireworksAfterDelayCoroutine() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Coroutine*> const& __cordl_internal_get__startFireworksAfterDelayCoroutine() const;
 
-  constexpr void __set__startFireworksAfterDelayCoroutine(::UnityEngine::Coroutine* value);
+  constexpr void __cordl_internal_set__startFireworksAfterDelayCoroutine(::UnityEngine::Coroutine* value);
 
-  constexpr bool& __get__newHighScore();
+  constexpr bool& __cordl_internal_get__newHighScore();
 
-  constexpr bool const& __get__newHighScore() const;
+  constexpr bool const& __cordl_internal_get__newHighScore() const;
 
-  constexpr void __set__newHighScore(bool value);
+  constexpr void __cordl_internal_set__newHighScore(bool value);
 
-  constexpr bool& __get__practice();
+  constexpr bool& __cordl_internal_get__practice();
 
-  constexpr bool const& __get__practice() const;
+  constexpr bool const& __cordl_internal_get__practice() const;
 
-  constexpr void __set__practice(bool value);
+  constexpr void __cordl_internal_set__practice(bool value);
 
   /// @brief Method add_continueButtonPressedEvent, addr 0x22d62b0, size 0xb0, virtual false, abstract: false, final false
-  inline void add_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
+  inline void add_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
   /// @brief Method remove_continueButtonPressedEvent, addr 0x22d6360, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_continueButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
+  inline void remove_continueButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
   /// @brief Method add_restartButtonPressedEvent, addr 0x22d6410, size 0xb0, virtual false, abstract: false, final false
-  inline void add_restartButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
+  inline void add_restartButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
   /// @brief Method remove_restartButtonPressedEvent, addr 0x22d64c0, size 0xb0, virtual false, abstract: false, final false
-  inline void remove_restartButtonPressedEvent(::System::Action_1<::GlobalNamespace::ResultsViewController*>* value);
+  inline void remove_restartButtonPressedEvent(::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* value);
 
   /// @brief Method get_practice, addr 0x22d6570, size 0x8, virtual false, abstract: false, final false
   inline bool get_practice();
@@ -498,58 +502,58 @@ protected:
 
 public:
   /// @brief Field _restartButton, offset: 0x70, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____restartButton;
+  ::UnityW<::UnityEngine::UI::Button> ____restartButton;
 
   /// @brief Field _continueButton, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UI::Button* ____continueButton;
+  ::UnityW<::UnityEngine::UI::Button> ____continueButton;
 
   /// @brief Field _clearedPanel, offset: 0x80, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____clearedPanel;
+  ::UnityW<::UnityEngine::GameObject> ____clearedPanel;
 
   /// @brief Field _scoreText, offset: 0x88, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____scoreText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____scoreText;
 
   /// @brief Field _newHighScoreText, offset: 0x90, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____newHighScoreText;
+  ::UnityW<::UnityEngine::GameObject> ____newHighScoreText;
 
   /// @brief Field _rankText, offset: 0x98, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____rankText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____rankText;
 
   /// @brief Field _goodCutsPercentageText, offset: 0xa0, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____goodCutsPercentageText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____goodCutsPercentageText;
 
   /// @brief Field _comboText, offset: 0xa8, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____comboText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____comboText;
 
   /// @brief Field _clearedBannerGo, offset: 0xb0, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____clearedBannerGo;
+  ::UnityW<::UnityEngine::GameObject> ____clearedBannerGo;
 
   /// @brief Field _failedBannerGo, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::GameObject* ____failedBannerGo;
+  ::UnityW<::UnityEngine::GameObject> ____failedBannerGo;
 
   /// @brief Field _levelBar, offset: 0xc0, size: 0x8, def value: None
-  ::GlobalNamespace::LevelBar* ____levelBar;
+  ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;
 
   /// @brief Field _levelClearedAudioClip, offset: 0xc8, size: 0x8, def value: None
-  ::UnityEngine::AudioClip* ____levelClearedAudioClip;
+  ::UnityW<::UnityEngine::AudioClip> ____levelClearedAudioClip;
 
   /// @brief Field _fireworksController, offset: 0xd0, size: 0x8, def value: None
-  ::GlobalNamespace::FireworksController* ____fireworksController;
+  ::UnityW<::GlobalNamespace::FireworksController> ____fireworksController;
 
   /// @brief Field _songPreviewPlayer, offset: 0xd8, size: 0x8, def value: None
-  ::GlobalNamespace::SongPreviewPlayer* ____songPreviewPlayer;
+  ::UnityW<::GlobalNamespace::SongPreviewPlayer> ____songPreviewPlayer;
 
   /// @brief Field _resultsEnvironmentManager, offset: 0xe0, size: 0x8, def value: None
-  ::GlobalNamespace::ResultsEnvironmentManager* ____resultsEnvironmentManager;
+  ::UnityW<::GlobalNamespace::ResultsEnvironmentManager> ____resultsEnvironmentManager;
 
   /// @brief Field _menuDestinationRequest, offset: 0xe8, size: 0x8, def value: None
   ::GlobalNamespace::MenuDestination* ____menuDestinationRequest;
 
   /// @brief Field continueButtonPressedEvent, offset: 0xf0, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ResultsViewController*>* ___continueButtonPressedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* ___continueButtonPressedEvent;
 
   /// @brief Field restartButtonPressedEvent, offset: 0xf8, size: 0x8, def value: None
-  ::System::Action_1<::GlobalNamespace::ResultsViewController*>* ___restartButtonPressedEvent;
+  ::System::Action_1<::UnityW<::GlobalNamespace::ResultsViewController>>* ___restartButtonPressedEvent;
 
   /// @brief Field _levelCompletionResults, offset: 0x100, size: 0x8, def value: None
   ::GlobalNamespace::LevelCompletionResults* ____levelCompletionResults;

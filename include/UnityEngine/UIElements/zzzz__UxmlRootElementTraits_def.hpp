@@ -17,29 +17,29 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlRootElementTraits);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6995))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6995))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6971))
 // CS Name: ::UnityEngine.UIElements::UxmlRootElementTraits*
 class CORDL_TYPE UxmlRootElementTraits : public ::UnityEngine::UIElements::UxmlTraits {
 public:
   // Declarations
   /// @brief Field m_Name, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_Name, put = __set_m_Name))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Name;
+  __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Name;
 
   /// @brief Field m_Class, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_Class, put = __set_m_Class))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Class;
+  __declspec(property(get = __cordl_internal_get_m_Class, put = __cordl_internal_set_m_Class))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Class;
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_Name();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Name();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_Name() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Name() const;
 
-  constexpr void __set_m_Name(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Name(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __get_m_Class();
+  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Class();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __get_m_Class() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Class() const;
 
-  constexpr void __set_m_Class(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+  constexpr void __cordl_internal_set_m_Class(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
   static inline ::UnityEngine::UIElements::UxmlRootElementTraits* New_ctor();
 

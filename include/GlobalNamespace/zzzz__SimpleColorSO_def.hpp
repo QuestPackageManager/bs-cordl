@@ -18,22 +18,22 @@ MARK_REF_PTR_T(::GlobalNamespace::SimpleColorSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16207)), TypeDefinitionIndex(TypeDefinitionIndex(10251))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(16207))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(16210))
 // CS Name: ::SimpleColorSO*
 class CORDL_TYPE SimpleColorSO : public ::GlobalNamespace::ColorSO {
 public:
   // Declarations
   /// @brief Field _color, offset 0x18, size 0x10
-  __declspec(property(get = __get__color, put = __set__color))::UnityEngine::Color _color;
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
   __declspec(property(get = get_color))::UnityEngine::Color color;
 
-  constexpr ::UnityEngine::Color& __get__color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::UnityEngine::Color const& __get__color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr void __set__color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
   /// @brief Method get_color, addr 0x122d9a0, size 0xc, virtual true, abstract: false, final false
   inline ::UnityEngine::Color get_color();

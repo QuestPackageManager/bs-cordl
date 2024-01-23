@@ -31,59 +31,62 @@ MARK_REF_PTR_T(::GlobalNamespace::LightWithIdManager);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14541))
 // CS Name: ::LightWithIdManager*
 class CORDL_TYPE LightWithIdManager : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field didChangeSomeColorsThisFrameEvent, offset 0x18, size 0x8
-  __declspec(property(get = __get_didChangeSomeColorsThisFrameEvent, put = __set_didChangeSomeColorsThisFrameEvent))::System::Action* didChangeSomeColorsThisFrameEvent;
+  __declspec(property(get = __cordl_internal_get_didChangeSomeColorsThisFrameEvent, put = __cordl_internal_set_didChangeSomeColorsThisFrameEvent))::System::Action* didChangeSomeColorsThisFrameEvent;
 
   /// @brief Field _lights, offset 0x20, size 0x8
-  __declspec(property(get = __get__lights, put = __set__lights))::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*,
-                                                                         ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*>*> _lights;
+  __declspec(property(get = __cordl_internal_get__lights, put = __cordl_internal_set__lights))::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*,
+                                                                                                       ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*>*> _lights;
 
   /// @brief Field _colors, offset 0x28, size 0x8
-  __declspec(property(get = __get__colors, put = __set__colors))::ArrayW<::System::Nullable_1<::UnityEngine::Color>, ::Array<::System::Nullable_1<::UnityEngine::Color>>*> _colors;
+  __declspec(property(get = __cordl_internal_get__colors,
+                      put = __cordl_internal_set__colors))::ArrayW<::System::Nullable_1<::UnityEngine::Color>, ::Array<::System::Nullable_1<::UnityEngine::Color>>*> _colors;
 
   /// @brief Field _lightsToUnregister, offset 0x30, size 0x8
-  __declspec(property(get = __get__lightsToUnregister, put = __set__lightsToUnregister))::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>* _lightsToUnregister;
+  __declspec(property(get = __cordl_internal_get__lightsToUnregister,
+                      put = __cordl_internal_set__lightsToUnregister))::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>* _lightsToUnregister;
 
   /// @brief Field _didChangeSomeColorsThisFrame, offset 0x38, size 0x1
-  __declspec(property(get = __get__didChangeSomeColorsThisFrame, put = __set__didChangeSomeColorsThisFrame)) bool _didChangeSomeColorsThisFrame;
+  __declspec(property(get = __cordl_internal_get__didChangeSomeColorsThisFrame, put = __cordl_internal_set__didChangeSomeColorsThisFrame)) bool _didChangeSomeColorsThisFrame;
 
-  constexpr ::System::Action*& __get_didChangeSomeColorsThisFrameEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didChangeSomeColorsThisFrameEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didChangeSomeColorsThisFrameEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didChangeSomeColorsThisFrameEvent() const;
 
-  constexpr void __set_didChangeSomeColorsThisFrameEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didChangeSomeColorsThisFrameEvent(::System::Action* value);
 
-  constexpr ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*, ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*>*>& __get__lights();
+  constexpr ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*, ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*>*>&
+  __cordl_internal_get__lights();
 
   constexpr ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*, ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*>*> const&
-  __get__lights() const;
+  __cordl_internal_get__lights() const;
 
-  constexpr void
-  __set__lights(::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*, ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*>*> value);
+  constexpr void __cordl_internal_set__lights(
+      ::ArrayW<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*, ::Array<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*>*> value);
 
-  constexpr ::ArrayW<::System::Nullable_1<::UnityEngine::Color>, ::Array<::System::Nullable_1<::UnityEngine::Color>>*>& __get__colors();
+  constexpr ::ArrayW<::System::Nullable_1<::UnityEngine::Color>, ::Array<::System::Nullable_1<::UnityEngine::Color>>*>& __cordl_internal_get__colors();
 
-  constexpr ::ArrayW<::System::Nullable_1<::UnityEngine::Color>, ::Array<::System::Nullable_1<::UnityEngine::Color>>*> const& __get__colors() const;
+  constexpr ::ArrayW<::System::Nullable_1<::UnityEngine::Color>, ::Array<::System::Nullable_1<::UnityEngine::Color>>*> const& __cordl_internal_get__colors() const;
 
-  constexpr void __set__colors(::ArrayW<::System::Nullable_1<::UnityEngine::Color>, ::Array<::System::Nullable_1<::UnityEngine::Color>>*> value);
+  constexpr void __cordl_internal_set__colors(::ArrayW<::System::Nullable_1<::UnityEngine::Color>, ::Array<::System::Nullable_1<::UnityEngine::Color>>*> value);
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*& __get__lightsToUnregister();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*& __cordl_internal_get__lightsToUnregister();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*> const& __get__lightsToUnregister() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>*> const& __cordl_internal_get__lightsToUnregister() const;
 
-  constexpr void __set__lightsToUnregister(::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>* value);
+  constexpr void __cordl_internal_set__lightsToUnregister(::System::Collections::Generic::List_1<::GlobalNamespace::ILightWithId*>* value);
 
-  constexpr bool& __get__didChangeSomeColorsThisFrame();
+  constexpr bool& __cordl_internal_get__didChangeSomeColorsThisFrame();
 
-  constexpr bool const& __get__didChangeSomeColorsThisFrame() const;
+  constexpr bool const& __cordl_internal_get__didChangeSomeColorsThisFrame() const;
 
-  constexpr void __set__didChangeSomeColorsThisFrame(bool value);
+  constexpr void __cordl_internal_set__didChangeSomeColorsThisFrame(bool value);
 
   /// @brief Method add_didChangeSomeColorsThisFrameEvent, addr 0x2110214, size 0x9c, virtual false, abstract: false, final false
   inline void add_didChangeSomeColorsThisFrameEvent(::System::Action* value);

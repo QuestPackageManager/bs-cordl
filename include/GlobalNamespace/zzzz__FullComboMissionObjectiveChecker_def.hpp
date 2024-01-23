@@ -17,20 +17,20 @@ MARK_REF_PTR_T(::GlobalNamespace::FullComboMissionObjectiveChecker);
 // SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5093))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5093))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5089))
 // CS Name: ::FullComboMissionObjectiveChecker*
 class CORDL_TYPE FullComboMissionObjectiveChecker : public ::GlobalNamespace::MissionObjectiveChecker {
 public:
   // Declarations
   /// @brief Field _comboController, offset 0x48, size 0x8
-  __declspec(property(get = __get__comboController, put = __set__comboController))::GlobalNamespace::ComboController* _comboController;
+  __declspec(property(get = __cordl_internal_get__comboController, put = __cordl_internal_set__comboController))::UnityW<::GlobalNamespace::ComboController> _comboController;
 
-  constexpr ::GlobalNamespace::ComboController*& __get__comboController();
+  constexpr ::UnityW<::GlobalNamespace::ComboController>& __cordl_internal_get__comboController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ComboController*> const& __get__comboController() const;
+  constexpr ::UnityW<::GlobalNamespace::ComboController> const& __cordl_internal_get__comboController() const;
 
-  constexpr void __set__comboController(::GlobalNamespace::ComboController* value);
+  constexpr void __cordl_internal_set__comboController(::UnityW<::GlobalNamespace::ComboController> value);
 
   /// @brief Method Init, addr 0x23cba24, size 0x104, virtual true, abstract: false, final false
   inline void Init();
@@ -61,7 +61,7 @@ protected:
 
 public:
   /// @brief Field _comboController, offset: 0x48, size: 0x8, def value: None
-  ::GlobalNamespace::ComboController* ____comboController;
+  ::UnityW<::GlobalNamespace::ComboController> ____comboController;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

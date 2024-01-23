@@ -43,7 +43,7 @@ MARK_VAL_T(::UnityEngine::Timeline::MarkerList);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13889))
 // CS Name: ::UnityEngine.Timeline::MarkerList
 struct CORDL_TYPE MarkerList {
@@ -92,7 +92,7 @@ public:
   inline ::UnityEngine::Timeline::IMarker* get_Item(int32_t idx);
 
   /// @brief Method GetRawMarkerList, addr 0x2c68b2c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>* GetRawMarkerList();
+  inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* GetRawMarkerList();
 
   /// @brief Method CreateMarker, addr 0x2c5cb90, size 0x300, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::IMarker* CreateMarker(::System::Type* type, double_t time, ::UnityEngine::Timeline::TrackAsset* owner);
@@ -109,10 +109,10 @@ public:
   /// @brief Method BuildCache, addr 0x2c687fc, size 0x2d8, virtual false, abstract: false, final false
   inline void BuildCache();
 
-  // Ctor Parameters [CppParam { name: "m_Objects", ty: "::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>*", modifiers: "", def_value: None }, CppParam { name: "m_Cache", ty:
-  // "::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>*", modifiers: "", def_value: None }, CppParam { name: "m_CacheDirty", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "m_HasNotifications", ty: "bool", modifiers: "", def_value: None }]
-  constexpr MarkerList(::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>* m_Objects, ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* m_Cache,
+  // Ctor Parameters [CppParam { name: "m_Objects", ty: "::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>*", modifiers: "", def_value: None }, CppParam { name:
+  // "m_Cache", ty: "::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>*", modifiers: "", def_value: None }, CppParam { name: "m_CacheDirty", ty: "bool", modifiers: "",
+  // def_value: None }, CppParam { name: "m_HasNotifications", ty: "bool", modifiers: "", def_value: None }]
+  constexpr MarkerList(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* m_Objects, ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* m_Cache,
                        bool m_CacheDirty, bool m_HasNotifications) noexcept;
 
   // Ctor Parameters []
@@ -120,7 +120,7 @@ public:
   constexpr MarkerList();
 
   /// @brief Field m_Objects, offset: 0x0, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>* m_Objects;
+  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* m_Objects;
 
   /// @brief Field m_Cache, offset: 0x8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* m_Cache;

@@ -23,38 +23,40 @@ MARK_REF_PTR_T(::GlobalNamespace::StandardLevelFinishedController);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5081))
 // CS Name: ::StandardLevelFinishedController*
 class CORDL_TYPE StandardLevelFinishedController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _standardLevelSceneSetupData, offset 0x18, size 0x8
-  __declspec(property(get = __get__standardLevelSceneSetupData, put = __set__standardLevelSceneSetupData))::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* _standardLevelSceneSetupData;
+  __declspec(property(get = __cordl_internal_get__standardLevelSceneSetupData,
+                      put = __cordl_internal_set__standardLevelSceneSetupData))::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> _standardLevelSceneSetupData;
 
   /// @brief Field _prepareLevelCompletionResults, offset 0x20, size 0x8
-  __declspec(property(get = __get__prepareLevelCompletionResults, put = __set__prepareLevelCompletionResults))::GlobalNamespace::PrepareLevelCompletionResults* _prepareLevelCompletionResults;
+  __declspec(property(get = __cordl_internal_get__prepareLevelCompletionResults,
+                      put = __cordl_internal_set__prepareLevelCompletionResults))::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> _prepareLevelCompletionResults;
 
   /// @brief Field _gameplayManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__gameplayManager, put = __set__gameplayManager))::GlobalNamespace::ILevelEndActions* _gameplayManager;
+  __declspec(property(get = __cordl_internal_get__gameplayManager, put = __cordl_internal_set__gameplayManager))::GlobalNamespace::ILevelEndActions* _gameplayManager;
 
-  constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*& __get__standardLevelSceneSetupData();
+  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>& __cordl_internal_get__standardLevelSceneSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*> const& __get__standardLevelSceneSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__standardLevelSceneSetupData() const;
 
-  constexpr void __set__standardLevelSceneSetupData(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set__standardLevelSceneSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  constexpr ::GlobalNamespace::PrepareLevelCompletionResults*& __get__prepareLevelCompletionResults();
+  constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>& __cordl_internal_get__prepareLevelCompletionResults();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PrepareLevelCompletionResults*> const& __get__prepareLevelCompletionResults() const;
+  constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> const& __cordl_internal_get__prepareLevelCompletionResults() const;
 
-  constexpr void __set__prepareLevelCompletionResults(::GlobalNamespace::PrepareLevelCompletionResults* value);
+  constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
 
-  constexpr ::GlobalNamespace::ILevelEndActions*& __get__gameplayManager();
+  constexpr ::GlobalNamespace::ILevelEndActions*& __cordl_internal_get__gameplayManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelEndActions*> const& __get__gameplayManager() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ILevelEndActions*> const& __cordl_internal_get__gameplayManager() const;
 
-  constexpr void __set__gameplayManager(::GlobalNamespace::ILevelEndActions* value);
+  constexpr void __cordl_internal_set__gameplayManager(::GlobalNamespace::ILevelEndActions* value);
 
   /// @brief Method Start, addr 0x23cad44, size 0xf0, virtual false, abstract: false, final false
   inline void Start();
@@ -88,10 +90,10 @@ protected:
 
 public:
   /// @brief Field _standardLevelSceneSetupData, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* ____standardLevelSceneSetupData;
+  ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ____standardLevelSceneSetupData;
 
   /// @brief Field _prepareLevelCompletionResults, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::PrepareLevelCompletionResults* ____prepareLevelCompletionResults;
+  ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;
 
   /// @brief Field _gameplayManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::ILevelEndActions* ____gameplayManager;

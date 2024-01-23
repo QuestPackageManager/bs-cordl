@@ -24,36 +24,37 @@ MARK_REF_PTR_T(::GlobalNamespace::ColorSchemeColorToggleController);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5409))
 // CS Name: ::ColorSchemeColorToggleController*
 class CORDL_TYPE ColorSchemeColorToggleController : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _colorGraphics, offset 0x18, size 0x8
-  __declspec(property(get = __get__colorGraphics, put = __set__colorGraphics))::ArrayW<::UnityEngine::UI::Graphic*, ::Array<::UnityEngine::UI::Graphic*>*> _colorGraphics;
+  __declspec(property(get = __cordl_internal_get__colorGraphics,
+                      put = __cordl_internal_set__colorGraphics))::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> _colorGraphics;
 
   /// @brief Field _toggle, offset 0x20, size 0x8
-  __declspec(property(get = __get__toggle, put = __set__toggle))::UnityEngine::UI::Toggle* _toggle;
+  __declspec(property(get = __cordl_internal_get__toggle, put = __cordl_internal_set__toggle))::UnityW<::UnityEngine::UI::Toggle> _toggle;
 
-  __declspec(property(get = get_toggle))::UnityEngine::UI::Toggle* toggle;
+  __declspec(property(get = get_toggle))::UnityW<::UnityEngine::UI::Toggle> toggle;
 
   __declspec(property(get = get_color, put = set_color))::UnityEngine::Color color;
 
-  constexpr ::ArrayW<::UnityEngine::UI::Graphic*, ::Array<::UnityEngine::UI::Graphic*>*>& __get__colorGraphics();
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*>& __cordl_internal_get__colorGraphics();
 
-  constexpr ::ArrayW<::UnityEngine::UI::Graphic*, ::Array<::UnityEngine::UI::Graphic*>*> const& __get__colorGraphics() const;
+  constexpr ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> const& __cordl_internal_get__colorGraphics() const;
 
-  constexpr void __set__colorGraphics(::ArrayW<::UnityEngine::UI::Graphic*, ::Array<::UnityEngine::UI::Graphic*>*> value);
+  constexpr void __cordl_internal_set__colorGraphics(::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> value);
 
-  constexpr ::UnityEngine::UI::Toggle*& __get__toggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__toggle();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UI::Toggle*> const& __get__toggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__toggle() const;
 
-  constexpr void __set__toggle(::UnityEngine::UI::Toggle* value);
+  constexpr void __cordl_internal_set__toggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
   /// @brief Method get_toggle, addr 0x2275418, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UI::Toggle* get_toggle();
+  inline ::UnityW<::UnityEngine::UI::Toggle> get_toggle();
 
   /// @brief Method get_color, addr 0x2274c8c, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
@@ -81,10 +82,10 @@ protected:
 
 public:
   /// @brief Field _colorGraphics, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::UI::Graphic*, ::Array<::UnityEngine::UI::Graphic*>*> ____colorGraphics;
+  ::ArrayW<::UnityW<::UnityEngine::UI::Graphic>, ::Array<::UnityW<::UnityEngine::UI::Graphic>>*> ____colorGraphics;
 
   /// @brief Field _toggle, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UI::Toggle* ____toggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____toggle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

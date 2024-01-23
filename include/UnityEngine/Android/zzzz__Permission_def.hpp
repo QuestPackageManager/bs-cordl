@@ -22,7 +22,7 @@ MARK_VAL_T(::UnityEngine::Android::Permission);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::Android {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14930))
 // CS Name: ::UnityEngine.Android::Permission
 #pragma pack(push, 0)

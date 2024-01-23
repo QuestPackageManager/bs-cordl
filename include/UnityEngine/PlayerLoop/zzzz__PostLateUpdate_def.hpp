@@ -336,7 +336,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__XRPreEndFrame);
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10561))
 // CS Name: ::PostLateUpdate::PlayerSendFrameStarted
 #pragma pack(push, 0)
@@ -364,7 +364,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10562))
 // CS Name: ::PostLateUpdate::UpdateRectTransform
 #pragma pack(push, 0)
@@ -392,7 +392,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10563))
 // CS Name: ::PostLateUpdate::UpdateCanvasRectTransform
 #pragma pack(push, 0)
@@ -420,7 +420,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10564))
 // CS Name: ::PostLateUpdate::PlayerUpdateCanvases
 #pragma pack(push, 0)
@@ -448,7 +448,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10565))
 // CS Name: ::PostLateUpdate::UpdateAudio
 #pragma pack(push, 0)
@@ -476,7 +476,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10566))
 // CS Name: ::PostLateUpdate::UpdateVideo
 #pragma pack(push, 0)
@@ -504,7 +504,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10567))
 // CS Name: ::PostLateUpdate::DirectorLateUpdate
 #pragma pack(push, 0)
@@ -532,7 +532,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10568))
 // CS Name: ::PostLateUpdate::ScriptRunDelayedDynamicFrameRate
 #pragma pack(push, 0)
@@ -560,7 +560,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10569))
 // CS Name: ::PostLateUpdate::VFXUpdate
 #pragma pack(push, 0)
@@ -588,7 +588,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10570))
 // CS Name: ::PostLateUpdate::ParticleSystemEndUpdateAll
 #pragma pack(push, 0)
@@ -616,7 +616,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10571))
 // CS Name: ::PostLateUpdate::EndGraphicsJobsAfterScriptLateUpdate
 #pragma pack(push, 0)
@@ -644,7 +644,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10572))
 // CS Name: ::PostLateUpdate::UpdateSubstance
 #pragma pack(push, 0)
@@ -672,7 +672,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10573))
 // CS Name: ::PostLateUpdate::UpdateCustomRenderTextures
 #pragma pack(push, 0)
@@ -700,7 +700,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10574))
 // CS Name: ::PostLateUpdate::XRPostLateUpdate
 #pragma pack(push, 0)
@@ -728,7 +728,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10575))
 // CS Name: ::PostLateUpdate::UpdateAllRenderers
 #pragma pack(push, 0)
@@ -756,7 +756,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10576))
 // CS Name: ::PostLateUpdate::UpdateLightProbeProxyVolumes
 #pragma pack(push, 0)
@@ -784,7 +784,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10577))
 // CS Name: ::PostLateUpdate::EnlightenRuntimeUpdate
 #pragma pack(push, 0)
@@ -812,7 +812,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10578))
 // CS Name: ::PostLateUpdate::UpdateAllSkinnedMeshes
 #pragma pack(push, 0)
@@ -840,7 +840,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10579))
 // CS Name: ::PostLateUpdate::ProcessWebSendMessages
 #pragma pack(push, 0)
@@ -868,7 +868,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10580))
 // CS Name: ::PostLateUpdate::SortingGroupsUpdate
 #pragma pack(push, 0)
@@ -896,7 +896,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10581))
 // CS Name: ::PostLateUpdate::UpdateVideoTextures
 #pragma pack(push, 0)
@@ -924,7 +924,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10582))
 // CS Name: ::PostLateUpdate::DirectorRenderImage
 #pragma pack(push, 0)
@@ -952,7 +952,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10583))
 // CS Name: ::PostLateUpdate::PlayerEmitCanvasGeometry
 #pragma pack(push, 0)
@@ -980,7 +980,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10584))
 // CS Name: ::PostLateUpdate::FinishFrameRendering
 #pragma pack(push, 0)
@@ -1008,7 +1008,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10585))
 // CS Name: ::PostLateUpdate::BatchModeUpdate
 #pragma pack(push, 0)
@@ -1036,7 +1036,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10586))
 // CS Name: ::PostLateUpdate::PlayerSendFrameComplete
 #pragma pack(push, 0)
@@ -1064,7 +1064,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10587))
 // CS Name: ::PostLateUpdate::UpdateCaptureScreenshot
 #pragma pack(push, 0)
@@ -1092,7 +1092,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10588))
 // CS Name: ::PostLateUpdate::PresentAfterDraw
 #pragma pack(push, 0)
@@ -1120,7 +1120,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10589))
 // CS Name: ::PostLateUpdate::ClearImmediateRenderers
 #pragma pack(push, 0)
@@ -1148,7 +1148,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10590))
 // CS Name: ::PostLateUpdate::XRPostPresent
 #pragma pack(push, 0)
@@ -1176,7 +1176,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10591))
 // CS Name: ::PostLateUpdate::UpdateResolution
 #pragma pack(push, 0)
@@ -1204,7 +1204,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10592))
 // CS Name: ::PostLateUpdate::InputEndFrame
 #pragma pack(push, 0)
@@ -1232,7 +1232,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10593))
 // CS Name: ::PostLateUpdate::GUIClearEvents
 #pragma pack(push, 0)
@@ -1260,7 +1260,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10594))
 // CS Name: ::PostLateUpdate::ShaderHandleErrors
 #pragma pack(push, 0)
@@ -1288,7 +1288,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10595))
 // CS Name: ::PostLateUpdate::ResetInputAxis
 #pragma pack(push, 0)
@@ -1316,7 +1316,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10596))
 // CS Name: ::PostLateUpdate::ThreadedLoadingDebug
 #pragma pack(push, 0)
@@ -1344,7 +1344,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10597))
 // CS Name: ::PostLateUpdate::ProfilerSynchronizeStats
 #pragma pack(push, 0)
@@ -1372,7 +1372,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10598))
 // CS Name: ::PostLateUpdate::MemoryFrameMaintenance
 #pragma pack(push, 0)
@@ -1400,7 +1400,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10599))
 // CS Name: ::PostLateUpdate::ExecuteGameCenterCallbacks
 #pragma pack(push, 0)
@@ -1428,7 +1428,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10600))
 // CS Name: ::PostLateUpdate::XRPreEndFrame
 #pragma pack(push, 0)
@@ -1456,7 +1456,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10601))
 // CS Name: ::PostLateUpdate::ProfilerEndFrame
 #pragma pack(push, 0)
@@ -1484,7 +1484,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10602))
 // CS Name: ::PostLateUpdate::GraphicsWarmupPreloadedShaders
 #pragma pack(push, 0)
@@ -1512,7 +1512,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10603))
 // CS Name: ::PostLateUpdate::PlayerSendFramePostPresent
 #pragma pack(push, 0)
@@ -1540,7 +1540,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10604))
 // CS Name: ::PostLateUpdate::PhysicsSkinnedClothBeginUpdate
 #pragma pack(push, 0)
@@ -1568,7 +1568,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10605))
 // CS Name: ::PostLateUpdate::PhysicsSkinnedClothFinishUpdate
 #pragma pack(push, 0)
@@ -1596,7 +1596,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10606))
 // CS Name: ::PostLateUpdate::TriggerEndOfFrameCallbacks
 #pragma pack(push, 0)
@@ -1624,7 +1624,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostL
 // SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10607))
 // CS Name: ::UnityEngine.PlayerLoop::PostLateUpdate
 #pragma pack(push, 0)

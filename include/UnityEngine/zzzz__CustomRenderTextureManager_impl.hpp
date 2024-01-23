@@ -11,10 +11,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x2cb69cc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CustomRenderTextureManager*>::get(), "InvokeOnTextureLoaded_Internal", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CustomRenderTexture*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CustomRenderTextureManager*>::get(), "InvokeOnTextureLoaded_Internal", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CustomRenderTexture*>::get() })));
     return ___internal_method;
   }
 };
@@ -26,41 +26,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x2cb6a38;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CustomRenderTextureManager*>::get(), "InvokeOnTextureUnloaded_Internal", std::vector<Il2CppClass*>{},
-        ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CustomRenderTexture*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CustomRenderTextureManager*>::get(), "InvokeOnTextureUnloaded_Internal", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CustomRenderTexture*>::get() })));
     return ___internal_method;
   }
 };
-inline void UnityEngine::CustomRenderTextureManager::setStaticF_textureLoaded(::System::Action_1<::UnityEngine::CustomRenderTexture*>* value) {
-  ::cordl_internals::setStaticField<::System::Action_1<::UnityEngine::CustomRenderTexture*>*, "textureLoaded",
+inline void UnityEngine::CustomRenderTextureManager::setStaticF_textureLoaded(::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>* value) {
+  ::cordl_internals::setStaticField<::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>*, "textureLoaded",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CustomRenderTextureManager*>::get>(
-      std::forward<::System::Action_1<::UnityEngine::CustomRenderTexture*>*>(value));
+      std::forward<::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>*>(value));
 }
-inline ::System::Action_1<::UnityEngine::CustomRenderTexture*>* UnityEngine::CustomRenderTextureManager::getStaticF_textureLoaded() {
-  return ::cordl_internals::getStaticField<::System::Action_1<::UnityEngine::CustomRenderTexture*>*, "textureLoaded",
+inline ::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>* UnityEngine::CustomRenderTextureManager::getStaticF_textureLoaded() {
+  return ::cordl_internals::getStaticField<::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>*, "textureLoaded",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CustomRenderTextureManager*>::get>();
 }
-inline void UnityEngine::CustomRenderTextureManager::setStaticF_textureUnloaded(::System::Action_1<::UnityEngine::CustomRenderTexture*>* value) {
-  ::cordl_internals::setStaticField<::System::Action_1<::UnityEngine::CustomRenderTexture*>*, "textureUnloaded",
+inline void UnityEngine::CustomRenderTextureManager::setStaticF_textureUnloaded(::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>* value) {
+  ::cordl_internals::setStaticField<::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>*, "textureUnloaded",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CustomRenderTextureManager*>::get>(
-      std::forward<::System::Action_1<::UnityEngine::CustomRenderTexture*>*>(value));
+      std::forward<::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>*>(value));
 }
-inline ::System::Action_1<::UnityEngine::CustomRenderTexture*>* UnityEngine::CustomRenderTextureManager::getStaticF_textureUnloaded() {
-  return ::cordl_internals::getStaticField<::System::Action_1<::UnityEngine::CustomRenderTexture*>*, "textureUnloaded",
+inline ::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>* UnityEngine::CustomRenderTextureManager::getStaticF_textureUnloaded() {
+  return ::cordl_internals::getStaticField<::System::Action_1<::UnityW<::UnityEngine::CustomRenderTexture>>*, "textureUnloaded",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CustomRenderTextureManager*>::get>();
 }
 inline void UnityEngine::CustomRenderTextureManager::InvokeOnTextureLoaded_Internal(::UnityEngine::CustomRenderTexture* source) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CustomRenderTextureManager*>::get(), "InvokeOnTextureLoaded_Internal",
-                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CustomRenderTexture*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CustomRenderTextureManager*>::get(), "InvokeOnTextureLoaded_Internal", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CustomRenderTexture*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, source);
 }
 inline void UnityEngine::CustomRenderTextureManager::InvokeOnTextureUnloaded_Internal(::UnityEngine::CustomRenderTexture* source) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CustomRenderTextureManager*>::get(), "InvokeOnTextureUnloaded_Internal",
-                                  std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CustomRenderTexture*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CustomRenderTextureManager*>::get(), "InvokeOnTextureUnloaded_Internal", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CustomRenderTexture*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, source);
 }
 // Ctor Parameters []

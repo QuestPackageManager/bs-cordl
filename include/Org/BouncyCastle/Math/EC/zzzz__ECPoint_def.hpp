@@ -48,20 +48,20 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::__ECPoint__ValidityCallback);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 26, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1371))
 // CS Name: ::ECPoint::ValidityCallback*
 class CORDL_TYPE __ECPoint__ValidityCallback : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_outer, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_outer, put = __set_m_outer))::Org::BouncyCastle::Math::EC::ECPoint* m_outer;
+  __declspec(property(get = __cordl_internal_get_m_outer, put = __cordl_internal_set_m_outer))::Org::BouncyCastle::Math::EC::ECPoint* m_outer;
 
   /// @brief Field m_decompressed, offset 0x18, size 0x1
-  __declspec(property(get = __get_m_decompressed, put = __set_m_decompressed)) bool m_decompressed;
+  __declspec(property(get = __cordl_internal_get_m_decompressed, put = __cordl_internal_set_m_decompressed)) bool m_decompressed;
 
   /// @brief Field m_checkOrder, offset 0x19, size 0x1
-  __declspec(property(get = __get_m_checkOrder, put = __set_m_checkOrder)) bool m_checkOrder;
+  __declspec(property(get = __cordl_internal_get_m_checkOrder, put = __cordl_internal_set_m_checkOrder)) bool m_checkOrder;
 
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*() noexcept;
@@ -69,23 +69,23 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback* i___Org__BouncyCastle__Math__EC__Multiplier__IPreCompCallback() noexcept;
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __get_m_outer();
+  constexpr ::Org::BouncyCastle::Math::EC::ECPoint*& __cordl_internal_get_m_outer();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __get_m_outer() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECPoint*> const& __cordl_internal_get_m_outer() const;
 
-  constexpr void __set_m_outer(::Org::BouncyCastle::Math::EC::ECPoint* value);
+  constexpr void __cordl_internal_set_m_outer(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  constexpr bool& __get_m_decompressed();
+  constexpr bool& __cordl_internal_get_m_decompressed();
 
-  constexpr bool const& __get_m_decompressed() const;
+  constexpr bool const& __cordl_internal_get_m_decompressed() const;
 
-  constexpr void __set_m_decompressed(bool value);
+  constexpr void __cordl_internal_set_m_decompressed(bool value);
 
-  constexpr bool& __get_m_checkOrder();
+  constexpr bool& __cordl_internal_get_m_checkOrder();
 
-  constexpr bool const& __get_m_checkOrder() const;
+  constexpr bool const& __cordl_internal_get_m_checkOrder() const;
 
-  constexpr void __set_m_checkOrder(bool value);
+  constexpr void __cordl_internal_set_m_checkOrder(bool value);
 
   static inline ::Org::BouncyCastle::Math::EC::__ECPoint__ValidityCallback* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* outer, bool decompressed, bool checkOrder);
 
@@ -134,7 +134,7 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::__ECPoint__ValidityCallbac
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1372))
 // CS Name: ::Org.BouncyCastle.Math.EC::ECPoint*
 class CORDL_TYPE ECPoint : public ::System::Object {
@@ -143,22 +143,23 @@ public:
   using ValidityCallback = ::Org::BouncyCastle::Math::EC::__ECPoint__ValidityCallback;
 
   /// @brief Field m_curve, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_curve, put = __set_m_curve))::Org::BouncyCastle::Math::EC::ECCurve* m_curve;
+  __declspec(property(get = __cordl_internal_get_m_curve, put = __cordl_internal_set_m_curve))::Org::BouncyCastle::Math::EC::ECCurve* m_curve;
 
   /// @brief Field m_x, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_x, put = __set_m_x))::Org::BouncyCastle::Math::EC::ECFieldElement* m_x;
+  __declspec(property(get = __cordl_internal_get_m_x, put = __cordl_internal_set_m_x))::Org::BouncyCastle::Math::EC::ECFieldElement* m_x;
 
   /// @brief Field m_y, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_y, put = __set_m_y))::Org::BouncyCastle::Math::EC::ECFieldElement* m_y;
+  __declspec(property(get = __cordl_internal_get_m_y, put = __cordl_internal_set_m_y))::Org::BouncyCastle::Math::EC::ECFieldElement* m_y;
 
   /// @brief Field m_zs, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_zs, put = __set_m_zs))::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> m_zs;
+  __declspec(property(get = __cordl_internal_get_m_zs,
+                      put = __cordl_internal_set_m_zs))::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> m_zs;
 
   /// @brief Field m_withCompression, offset 0x30, size 0x1
-  __declspec(property(get = __get_m_withCompression, put = __set_m_withCompression)) bool m_withCompression;
+  __declspec(property(get = __cordl_internal_get_m_withCompression, put = __cordl_internal_set_m_withCompression)) bool m_withCompression;
 
   /// @brief Field m_preCompTable, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_preCompTable, put = __set_m_preCompTable))::System::Collections::IDictionary* m_preCompTable;
+  __declspec(property(get = __cordl_internal_get_m_preCompTable, put = __cordl_internal_set_m_preCompTable))::System::Collections::IDictionary* m_preCompTable;
 
   /// @brief Field Random, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_Random, put = setStaticF_Random))::Org::BouncyCastle::Security::SecureRandom* Random;
@@ -191,41 +192,41 @@ public:
 
   __declspec(property(get = get_CompressionYTilde)) bool CompressionYTilde;
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __get_m_curve();
+  constexpr ::Org::BouncyCastle::Math::EC::ECCurve*& __cordl_internal_get_m_curve();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& __get_m_curve() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECCurve*> const& __cordl_internal_get_m_curve() const;
 
-  constexpr void __set_m_curve(::Org::BouncyCastle::Math::EC::ECCurve* value);
+  constexpr void __cordl_internal_set_m_curve(::Org::BouncyCastle::Math::EC::ECCurve* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement*& __get_m_x();
+  constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement*& __cordl_internal_get_m_x();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECFieldElement*> const& __get_m_x() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECFieldElement*> const& __cordl_internal_get_m_x() const;
 
-  constexpr void __set_m_x(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
+  constexpr void __cordl_internal_set_m_x(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
 
-  constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement*& __get_m_y();
+  constexpr ::Org::BouncyCastle::Math::EC::ECFieldElement*& __cordl_internal_get_m_y();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECFieldElement*> const& __get_m_y() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::EC::ECFieldElement*> const& __cordl_internal_get_m_y() const;
 
-  constexpr void __set_m_y(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
+  constexpr void __cordl_internal_set_m_y(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*>& __get_m_zs();
+  constexpr ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*>& __cordl_internal_get_m_zs();
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> const& __get_m_zs() const;
+  constexpr ::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> const& __cordl_internal_get_m_zs() const;
 
-  constexpr void __set_m_zs(::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> value);
+  constexpr void __cordl_internal_set_m_zs(::ArrayW<::Org::BouncyCastle::Math::EC::ECFieldElement*, ::Array<::Org::BouncyCastle::Math::EC::ECFieldElement*>*> value);
 
-  constexpr bool& __get_m_withCompression();
+  constexpr bool& __cordl_internal_get_m_withCompression();
 
-  constexpr bool const& __get_m_withCompression() const;
+  constexpr bool const& __cordl_internal_get_m_withCompression() const;
 
-  constexpr void __set_m_withCompression(bool value);
+  constexpr void __cordl_internal_set_m_withCompression(bool value);
 
-  constexpr ::System::Collections::IDictionary*& __get_m_preCompTable();
+  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_m_preCompTable();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __get_m_preCompTable() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_m_preCompTable() const;
 
-  constexpr void __set_m_preCompTable(::System::Collections::IDictionary* value);
+  constexpr void __cordl_internal_set_m_preCompTable(::System::Collections::IDictionary* value);
 
   static inline void setStaticF_Random(::Org::BouncyCastle::Security::SecureRandom* value);
 

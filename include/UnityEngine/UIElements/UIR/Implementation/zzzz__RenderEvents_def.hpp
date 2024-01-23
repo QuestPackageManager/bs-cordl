@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::Implementation::RenderEvents);
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR::Implementation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7446))
 // CS Name: ::UnityEngine.UIElements.UIR.Implementation::RenderEvents*
 class CORDL_TYPE RenderEvents : public ::System::Object {

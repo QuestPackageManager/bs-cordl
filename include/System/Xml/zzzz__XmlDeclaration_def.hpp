@@ -24,20 +24,20 @@ MARK_REF_PTR_T(::System::Xml::XmlDeclaration);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11513))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11513))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11504))
 // CS Name: ::System.Xml::XmlDeclaration*
 class CORDL_TYPE XmlDeclaration : public ::System::Xml::XmlLinkedNode {
 public:
   // Declarations
   /// @brief Field version, offset 0x20, size 0x8
-  __declspec(property(get = __get_version, put = __set_version))::StringW version;
+  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::StringW version;
 
   /// @brief Field encoding, offset 0x28, size 0x8
-  __declspec(property(get = __get_encoding, put = __set_encoding))::StringW encoding;
+  __declspec(property(get = __cordl_internal_get_encoding, put = __cordl_internal_set_encoding))::StringW encoding;
 
   /// @brief Field standalone, offset 0x30, size 0x8
-  __declspec(property(get = __get_standalone, put = __set_standalone))::StringW standalone;
+  __declspec(property(get = __cordl_internal_get_standalone, put = __cordl_internal_set_standalone))::StringW standalone;
 
   __declspec(property(get = get_Version, put = set_Version))::StringW Version;
 
@@ -55,23 +55,23 @@ public:
 
   __declspec(property(get = get_NodeType))::System::Xml::XmlNodeType NodeType;
 
-  constexpr ::StringW& __get_version();
+  constexpr ::StringW& __cordl_internal_get_version();
 
-  constexpr ::StringW const& __get_version() const;
+  constexpr ::StringW const& __cordl_internal_get_version() const;
 
-  constexpr void __set_version(::StringW value);
+  constexpr void __cordl_internal_set_version(::StringW value);
 
-  constexpr ::StringW& __get_encoding();
+  constexpr ::StringW& __cordl_internal_get_encoding();
 
-  constexpr ::StringW const& __get_encoding() const;
+  constexpr ::StringW const& __cordl_internal_get_encoding() const;
 
-  constexpr void __set_encoding(::StringW value);
+  constexpr void __cordl_internal_set_encoding(::StringW value);
 
-  constexpr ::StringW& __get_standalone();
+  constexpr ::StringW& __cordl_internal_get_standalone();
 
-  constexpr ::StringW const& __get_standalone() const;
+  constexpr ::StringW const& __cordl_internal_get_standalone() const;
 
-  constexpr void __set_standalone(::StringW value);
+  constexpr void __cordl_internal_set_standalone(::StringW value);
 
   static inline ::System::Xml::XmlDeclaration* New_ctor(::StringW version, ::StringW encoding, ::StringW standalone, ::System::Xml::XmlDocument* doc);
 

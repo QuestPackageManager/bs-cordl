@@ -36,17 +36,17 @@ MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Certifica
 // SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(8996)), TypeDefinitionIndex(TypeDefinitionIndex(8858))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(8858)), TypeDefinitionIndex(TypeDefinitionIndex(8996))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8998))
 // CS Name: ::System.Security.Cryptography.X509Certificates::X509Certificate2ImplUnix*
 class CORDL_TYPE X509Certificate2ImplUnix : public ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl {
 public:
   // Declarations
   /// @brief Field readCertData, offset 0x10, size 0x1
-  __declspec(property(get = __get_readCertData, put = __set_readCertData)) bool readCertData;
+  __declspec(property(get = __cordl_internal_get_readCertData, put = __cordl_internal_set_readCertData)) bool readCertData;
 
   /// @brief Field certData, offset 0x18, size 0x98
-  __declspec(property(get = __get_certData, put = __set_certData))::Internal::Cryptography::Pal::CertificateData certData;
+  __declspec(property(get = __cordl_internal_get_certData, put = __cordl_internal_set_certData))::Internal::Cryptography::Pal::CertificateData certData;
 
   __declspec(property(get = get_KeyAlgorithm))::StringW KeyAlgorithm;
 
@@ -78,17 +78,17 @@ public:
 
   __declspec(property(get = get_NotBefore))::System::DateTime NotBefore;
 
-  constexpr bool& __get_readCertData();
+  constexpr bool& __cordl_internal_get_readCertData();
 
-  constexpr bool const& __get_readCertData() const;
+  constexpr bool const& __cordl_internal_get_readCertData() const;
 
-  constexpr void __set_readCertData(bool value);
+  constexpr void __cordl_internal_set_readCertData(bool value);
 
-  constexpr ::Internal::Cryptography::Pal::CertificateData& __get_certData();
+  constexpr ::Internal::Cryptography::Pal::CertificateData& __cordl_internal_get_certData();
 
-  constexpr ::Internal::Cryptography::Pal::CertificateData const& __get_certData() const;
+  constexpr ::Internal::Cryptography::Pal::CertificateData const& __cordl_internal_get_certData() const;
 
-  constexpr void __set_certData(::Internal::Cryptography::Pal::CertificateData value);
+  constexpr void __cordl_internal_set_certData(::Internal::Cryptography::Pal::CertificateData value);
 
   /// @brief Method EnsureCertData, addr 0x297e858, size 0x80, virtual false, abstract: false, final false
   inline void EnsureCertData();

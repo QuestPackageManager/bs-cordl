@@ -139,7 +139,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::TeleTrust::__TeleTrusTNamedCurves__Bra
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(298))
 // CS Name: ::TeleTrusTNamedCurves::BrainpoolP160r1Holder*
 class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP160r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -184,7 +184,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTru
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(299))
 // CS Name: ::TeleTrusTNamedCurves::BrainpoolP160t1Holder*
 class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP160t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -229,7 +229,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTru
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(300))
 // CS Name: ::TeleTrusTNamedCurves::BrainpoolP192r1Holder*
 class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP192r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -274,7 +274,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTru
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(301))
 // CS Name: ::TeleTrusTNamedCurves::BrainpoolP192t1Holder*
 class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP192t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -319,7 +319,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTru
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(302))
 // CS Name: ::TeleTrusTNamedCurves::BrainpoolP224r1Holder*
 class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP224r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -364,7 +364,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTru
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(303))
 // CS Name: ::TeleTrusTNamedCurves::BrainpoolP224t1Holder*
 class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP224t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -409,7 +409,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTru
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(304))
 // CS Name: ::TeleTrusTNamedCurves::BrainpoolP256r1Holder*
 class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP256r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -454,7 +454,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTru
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(305))
 // CS Name: ::TeleTrusTNamedCurves::BrainpoolP256t1Holder*
 class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP256t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -499,7 +499,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTru
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(306))
 // CS Name: ::TeleTrusTNamedCurves::BrainpoolP320r1Holder*
 class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP320r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -544,7 +544,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTru
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(307))
 // CS Name: ::TeleTrusTNamedCurves::BrainpoolP320t1Holder*
 class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP320t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -589,7 +589,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTru
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(308))
 // CS Name: ::TeleTrusTNamedCurves::BrainpoolP384r1Holder*
 class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP384r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -634,7 +634,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTru
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(309))
 // CS Name: ::TeleTrusTNamedCurves::BrainpoolP384t1Holder*
 class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP384t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -679,7 +679,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTru
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(310))
 // CS Name: ::TeleTrusTNamedCurves::BrainpoolP512r1Holder*
 class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP512r1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -724,7 +724,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTru
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(3))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(3))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(311))
 // CS Name: ::TeleTrusTNamedCurves::BrainpoolP512t1Holder*
 class CORDL_TYPE __TeleTrusTNamedCurves__BrainpoolP512t1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
@@ -769,7 +769,7 @@ static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::TeleTru
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::TeleTrust {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(312))
 // CS Name: ::Org.BouncyCastle.Asn1.TeleTrust::TeleTrusTNamedCurves*
 class CORDL_TYPE TeleTrusTNamedCurves : public ::System::Object {

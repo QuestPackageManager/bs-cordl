@@ -26,77 +26,77 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Macs::Poly1305);
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Macs {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(945))
 // CS Name: ::Org.BouncyCastle.Crypto.Macs::Poly1305*
 class CORDL_TYPE Poly1305 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field cipher, offset 0x10, size 0x8
-  __declspec(property(get = __get_cipher, put = __set_cipher))::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
+  __declspec(property(get = __cordl_internal_get_cipher, put = __cordl_internal_set_cipher))::Org::BouncyCastle::Crypto::IBlockCipher* cipher;
 
   /// @brief Field singleByte, offset 0x18, size 0x8
-  __declspec(property(get = __get_singleByte, put = __set_singleByte))::ArrayW<uint8_t, ::Array<uint8_t>*> singleByte;
+  __declspec(property(get = __cordl_internal_get_singleByte, put = __cordl_internal_set_singleByte))::ArrayW<uint8_t, ::Array<uint8_t>*> singleByte;
 
   /// @brief Field r0, offset 0x20, size 0x4
-  __declspec(property(get = __get_r0, put = __set_r0)) uint32_t r0;
+  __declspec(property(get = __cordl_internal_get_r0, put = __cordl_internal_set_r0)) uint32_t r0;
 
   /// @brief Field r1, offset 0x24, size 0x4
-  __declspec(property(get = __get_r1, put = __set_r1)) uint32_t r1;
+  __declspec(property(get = __cordl_internal_get_r1, put = __cordl_internal_set_r1)) uint32_t r1;
 
   /// @brief Field r2, offset 0x28, size 0x4
-  __declspec(property(get = __get_r2, put = __set_r2)) uint32_t r2;
+  __declspec(property(get = __cordl_internal_get_r2, put = __cordl_internal_set_r2)) uint32_t r2;
 
   /// @brief Field r3, offset 0x2c, size 0x4
-  __declspec(property(get = __get_r3, put = __set_r3)) uint32_t r3;
+  __declspec(property(get = __cordl_internal_get_r3, put = __cordl_internal_set_r3)) uint32_t r3;
 
   /// @brief Field r4, offset 0x30, size 0x4
-  __declspec(property(get = __get_r4, put = __set_r4)) uint32_t r4;
+  __declspec(property(get = __cordl_internal_get_r4, put = __cordl_internal_set_r4)) uint32_t r4;
 
   /// @brief Field s1, offset 0x34, size 0x4
-  __declspec(property(get = __get_s1, put = __set_s1)) uint32_t s1;
+  __declspec(property(get = __cordl_internal_get_s1, put = __cordl_internal_set_s1)) uint32_t s1;
 
   /// @brief Field s2, offset 0x38, size 0x4
-  __declspec(property(get = __get_s2, put = __set_s2)) uint32_t s2;
+  __declspec(property(get = __cordl_internal_get_s2, put = __cordl_internal_set_s2)) uint32_t s2;
 
   /// @brief Field s3, offset 0x3c, size 0x4
-  __declspec(property(get = __get_s3, put = __set_s3)) uint32_t s3;
+  __declspec(property(get = __cordl_internal_get_s3, put = __cordl_internal_set_s3)) uint32_t s3;
 
   /// @brief Field s4, offset 0x40, size 0x4
-  __declspec(property(get = __get_s4, put = __set_s4)) uint32_t s4;
+  __declspec(property(get = __cordl_internal_get_s4, put = __cordl_internal_set_s4)) uint32_t s4;
 
   /// @brief Field k0, offset 0x44, size 0x4
-  __declspec(property(get = __get_k0, put = __set_k0)) uint32_t k0;
+  __declspec(property(get = __cordl_internal_get_k0, put = __cordl_internal_set_k0)) uint32_t k0;
 
   /// @brief Field k1, offset 0x48, size 0x4
-  __declspec(property(get = __get_k1, put = __set_k1)) uint32_t k1;
+  __declspec(property(get = __cordl_internal_get_k1, put = __cordl_internal_set_k1)) uint32_t k1;
 
   /// @brief Field k2, offset 0x4c, size 0x4
-  __declspec(property(get = __get_k2, put = __set_k2)) uint32_t k2;
+  __declspec(property(get = __cordl_internal_get_k2, put = __cordl_internal_set_k2)) uint32_t k2;
 
   /// @brief Field k3, offset 0x50, size 0x4
-  __declspec(property(get = __get_k3, put = __set_k3)) uint32_t k3;
+  __declspec(property(get = __cordl_internal_get_k3, put = __cordl_internal_set_k3)) uint32_t k3;
 
   /// @brief Field currentBlock, offset 0x58, size 0x8
-  __declspec(property(get = __get_currentBlock, put = __set_currentBlock))::ArrayW<uint8_t, ::Array<uint8_t>*> currentBlock;
+  __declspec(property(get = __cordl_internal_get_currentBlock, put = __cordl_internal_set_currentBlock))::ArrayW<uint8_t, ::Array<uint8_t>*> currentBlock;
 
   /// @brief Field currentBlockOffset, offset 0x60, size 0x4
-  __declspec(property(get = __get_currentBlockOffset, put = __set_currentBlockOffset)) int32_t currentBlockOffset;
+  __declspec(property(get = __cordl_internal_get_currentBlockOffset, put = __cordl_internal_set_currentBlockOffset)) int32_t currentBlockOffset;
 
   /// @brief Field h0, offset 0x64, size 0x4
-  __declspec(property(get = __get_h0, put = __set_h0)) uint32_t h0;
+  __declspec(property(get = __cordl_internal_get_h0, put = __cordl_internal_set_h0)) uint32_t h0;
 
   /// @brief Field h1, offset 0x68, size 0x4
-  __declspec(property(get = __get_h1, put = __set_h1)) uint32_t h1;
+  __declspec(property(get = __cordl_internal_get_h1, put = __cordl_internal_set_h1)) uint32_t h1;
 
   /// @brief Field h2, offset 0x6c, size 0x4
-  __declspec(property(get = __get_h2, put = __set_h2)) uint32_t h2;
+  __declspec(property(get = __cordl_internal_get_h2, put = __cordl_internal_set_h2)) uint32_t h2;
 
   /// @brief Field h3, offset 0x70, size 0x4
-  __declspec(property(get = __get_h3, put = __set_h3)) uint32_t h3;
+  __declspec(property(get = __cordl_internal_get_h3, put = __cordl_internal_set_h3)) uint32_t h3;
 
   /// @brief Field h4, offset 0x74, size 0x4
-  __declspec(property(get = __get_h4, put = __set_h4)) uint32_t h4;
+  __declspec(property(get = __cordl_internal_get_h4, put = __cordl_internal_set_h4)) uint32_t h4;
 
   __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
 
@@ -106,137 +106,137 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"
   constexpr ::Org::BouncyCastle::Crypto::IMac* i___Org__BouncyCastle__Crypto__IMac() noexcept;
 
-  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __get_cipher();
+  constexpr ::Org::BouncyCastle::Crypto::IBlockCipher*& __cordl_internal_get_cipher();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __get_cipher() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IBlockCipher*> const& __cordl_internal_get_cipher() const;
 
-  constexpr void __set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
+  constexpr void __cordl_internal_set_cipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_singleByte();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_singleByte();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_singleByte() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_singleByte() const;
 
-  constexpr void __set_singleByte(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_singleByte(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr uint32_t& __get_r0();
+  constexpr uint32_t& __cordl_internal_get_r0();
 
-  constexpr uint32_t const& __get_r0() const;
+  constexpr uint32_t const& __cordl_internal_get_r0() const;
 
-  constexpr void __set_r0(uint32_t value);
+  constexpr void __cordl_internal_set_r0(uint32_t value);
 
-  constexpr uint32_t& __get_r1();
+  constexpr uint32_t& __cordl_internal_get_r1();
 
-  constexpr uint32_t const& __get_r1() const;
+  constexpr uint32_t const& __cordl_internal_get_r1() const;
 
-  constexpr void __set_r1(uint32_t value);
+  constexpr void __cordl_internal_set_r1(uint32_t value);
 
-  constexpr uint32_t& __get_r2();
+  constexpr uint32_t& __cordl_internal_get_r2();
 
-  constexpr uint32_t const& __get_r2() const;
+  constexpr uint32_t const& __cordl_internal_get_r2() const;
 
-  constexpr void __set_r2(uint32_t value);
+  constexpr void __cordl_internal_set_r2(uint32_t value);
 
-  constexpr uint32_t& __get_r3();
+  constexpr uint32_t& __cordl_internal_get_r3();
 
-  constexpr uint32_t const& __get_r3() const;
+  constexpr uint32_t const& __cordl_internal_get_r3() const;
 
-  constexpr void __set_r3(uint32_t value);
+  constexpr void __cordl_internal_set_r3(uint32_t value);
 
-  constexpr uint32_t& __get_r4();
+  constexpr uint32_t& __cordl_internal_get_r4();
 
-  constexpr uint32_t const& __get_r4() const;
+  constexpr uint32_t const& __cordl_internal_get_r4() const;
 
-  constexpr void __set_r4(uint32_t value);
+  constexpr void __cordl_internal_set_r4(uint32_t value);
 
-  constexpr uint32_t& __get_s1();
+  constexpr uint32_t& __cordl_internal_get_s1();
 
-  constexpr uint32_t const& __get_s1() const;
+  constexpr uint32_t const& __cordl_internal_get_s1() const;
 
-  constexpr void __set_s1(uint32_t value);
+  constexpr void __cordl_internal_set_s1(uint32_t value);
 
-  constexpr uint32_t& __get_s2();
+  constexpr uint32_t& __cordl_internal_get_s2();
 
-  constexpr uint32_t const& __get_s2() const;
+  constexpr uint32_t const& __cordl_internal_get_s2() const;
 
-  constexpr void __set_s2(uint32_t value);
+  constexpr void __cordl_internal_set_s2(uint32_t value);
 
-  constexpr uint32_t& __get_s3();
+  constexpr uint32_t& __cordl_internal_get_s3();
 
-  constexpr uint32_t const& __get_s3() const;
+  constexpr uint32_t const& __cordl_internal_get_s3() const;
 
-  constexpr void __set_s3(uint32_t value);
+  constexpr void __cordl_internal_set_s3(uint32_t value);
 
-  constexpr uint32_t& __get_s4();
+  constexpr uint32_t& __cordl_internal_get_s4();
 
-  constexpr uint32_t const& __get_s4() const;
+  constexpr uint32_t const& __cordl_internal_get_s4() const;
 
-  constexpr void __set_s4(uint32_t value);
+  constexpr void __cordl_internal_set_s4(uint32_t value);
 
-  constexpr uint32_t& __get_k0();
+  constexpr uint32_t& __cordl_internal_get_k0();
 
-  constexpr uint32_t const& __get_k0() const;
+  constexpr uint32_t const& __cordl_internal_get_k0() const;
 
-  constexpr void __set_k0(uint32_t value);
+  constexpr void __cordl_internal_set_k0(uint32_t value);
 
-  constexpr uint32_t& __get_k1();
+  constexpr uint32_t& __cordl_internal_get_k1();
 
-  constexpr uint32_t const& __get_k1() const;
+  constexpr uint32_t const& __cordl_internal_get_k1() const;
 
-  constexpr void __set_k1(uint32_t value);
+  constexpr void __cordl_internal_set_k1(uint32_t value);
 
-  constexpr uint32_t& __get_k2();
+  constexpr uint32_t& __cordl_internal_get_k2();
 
-  constexpr uint32_t const& __get_k2() const;
+  constexpr uint32_t const& __cordl_internal_get_k2() const;
 
-  constexpr void __set_k2(uint32_t value);
+  constexpr void __cordl_internal_set_k2(uint32_t value);
 
-  constexpr uint32_t& __get_k3();
+  constexpr uint32_t& __cordl_internal_get_k3();
 
-  constexpr uint32_t const& __get_k3() const;
+  constexpr uint32_t const& __cordl_internal_get_k3() const;
 
-  constexpr void __set_k3(uint32_t value);
+  constexpr void __cordl_internal_set_k3(uint32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_currentBlock();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_currentBlock();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_currentBlock() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_currentBlock() const;
 
-  constexpr void __set_currentBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_currentBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr int32_t& __get_currentBlockOffset();
+  constexpr int32_t& __cordl_internal_get_currentBlockOffset();
 
-  constexpr int32_t const& __get_currentBlockOffset() const;
+  constexpr int32_t const& __cordl_internal_get_currentBlockOffset() const;
 
-  constexpr void __set_currentBlockOffset(int32_t value);
+  constexpr void __cordl_internal_set_currentBlockOffset(int32_t value);
 
-  constexpr uint32_t& __get_h0();
+  constexpr uint32_t& __cordl_internal_get_h0();
 
-  constexpr uint32_t const& __get_h0() const;
+  constexpr uint32_t const& __cordl_internal_get_h0() const;
 
-  constexpr void __set_h0(uint32_t value);
+  constexpr void __cordl_internal_set_h0(uint32_t value);
 
-  constexpr uint32_t& __get_h1();
+  constexpr uint32_t& __cordl_internal_get_h1();
 
-  constexpr uint32_t const& __get_h1() const;
+  constexpr uint32_t const& __cordl_internal_get_h1() const;
 
-  constexpr void __set_h1(uint32_t value);
+  constexpr void __cordl_internal_set_h1(uint32_t value);
 
-  constexpr uint32_t& __get_h2();
+  constexpr uint32_t& __cordl_internal_get_h2();
 
-  constexpr uint32_t const& __get_h2() const;
+  constexpr uint32_t const& __cordl_internal_get_h2() const;
 
-  constexpr void __set_h2(uint32_t value);
+  constexpr void __cordl_internal_set_h2(uint32_t value);
 
-  constexpr uint32_t& __get_h3();
+  constexpr uint32_t& __cordl_internal_get_h3();
 
-  constexpr uint32_t const& __get_h3() const;
+  constexpr uint32_t const& __cordl_internal_get_h3() const;
 
-  constexpr void __set_h3(uint32_t value);
+  constexpr void __cordl_internal_set_h3(uint32_t value);
 
-  constexpr uint32_t& __get_h4();
+  constexpr uint32_t& __cordl_internal_get_h4();
 
-  constexpr uint32_t const& __get_h4() const;
+  constexpr uint32_t const& __cordl_internal_get_h4() const;
 
-  constexpr void __set_h4(uint32_t value);
+  constexpr void __cordl_internal_set_h4(uint32_t value);
 
   static inline ::Org::BouncyCastle::Crypto::Macs::Poly1305* New_ctor();
 

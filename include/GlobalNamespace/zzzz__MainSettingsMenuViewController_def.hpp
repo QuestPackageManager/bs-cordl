@@ -28,62 +28,63 @@ MARK_REF_PTR_T(::GlobalNamespace::MainSettingsMenuViewController);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 148, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13605))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13605))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5693))
 // CS Name: ::MainSettingsMenuViewController*
 class CORDL_TYPE MainSettingsMenuViewController : public ::HMUI::ViewController {
 public:
   // Declarations
   /// @brief Field didSelectSettingsSubMenuEvent, offset 0x70, size 0x8
-  __declspec(property(get = __get_didSelectSettingsSubMenuEvent,
-                      put = __set_didSelectSettingsSubMenuEvent))::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* didSelectSettingsSubMenuEvent;
+  __declspec(property(get = __cordl_internal_get_didSelectSettingsSubMenuEvent,
+                      put = __cordl_internal_set_didSelectSettingsSubMenuEvent))::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* didSelectSettingsSubMenuEvent;
 
   /// @brief Field _settingsSubMenuInfos, offset 0x78, size 0x8
-  __declspec(property(get = __get__settingsSubMenuInfos,
-                      put = __set__settingsSubMenuInfos))::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*> _settingsSubMenuInfos;
+  __declspec(property(get = __cordl_internal_get__settingsSubMenuInfos,
+                      put = __cordl_internal_set__settingsSubMenuInfos))::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*> _settingsSubMenuInfos;
 
   /// @brief Field _settingsMenuSegmentedControl, offset 0x80, size 0x8
-  __declspec(property(get = __get__settingsMenuSegmentedControl, put = __set__settingsMenuSegmentedControl))::HMUI::TextSegmentedControl* _settingsMenuSegmentedControl;
+  __declspec(property(get = __cordl_internal_get__settingsMenuSegmentedControl,
+                      put = __cordl_internal_set__settingsMenuSegmentedControl))::UnityW<::HMUI::TextSegmentedControl> _settingsMenuSegmentedControl;
 
   /// @brief Field _selectedSubMenuInfo, offset 0x88, size 0x8
-  __declspec(property(get = __get__selectedSubMenuInfo, put = __set__selectedSubMenuInfo))::GlobalNamespace::SettingsSubMenuInfo* _selectedSubMenuInfo;
+  __declspec(property(get = __cordl_internal_get__selectedSubMenuInfo, put = __cordl_internal_set__selectedSubMenuInfo))::GlobalNamespace::SettingsSubMenuInfo* _selectedSubMenuInfo;
 
   /// @brief Field _selectedSubMenuInfoIdx, offset 0x90, size 0x4
-  __declspec(property(get = __get__selectedSubMenuInfoIdx, put = __set__selectedSubMenuInfoIdx)) int32_t _selectedSubMenuInfoIdx;
+  __declspec(property(get = __cordl_internal_get__selectedSubMenuInfoIdx, put = __cordl_internal_set__selectedSubMenuInfoIdx)) int32_t _selectedSubMenuInfoIdx;
 
   __declspec(property(get = get_numberOfSubMenus)) int32_t numberOfSubMenus;
 
   __declspec(property(get = get_selectedSubMenuInfo))::GlobalNamespace::SettingsSubMenuInfo* selectedSubMenuInfo;
 
-  constexpr ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>*& __get_didSelectSettingsSubMenuEvent();
+  constexpr ::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>*& __cordl_internal_get_didSelectSettingsSubMenuEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>*> const& __get_didSelectSettingsSubMenuEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>*> const& __cordl_internal_get_didSelectSettingsSubMenuEvent() const;
 
-  constexpr void __set_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value);
+  constexpr void __cordl_internal_set_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value);
 
-  constexpr ::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*>& __get__settingsSubMenuInfos();
+  constexpr ::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*>& __cordl_internal_get__settingsSubMenuInfos();
 
-  constexpr ::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*> const& __get__settingsSubMenuInfos() const;
+  constexpr ::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*> const& __cordl_internal_get__settingsSubMenuInfos() const;
 
-  constexpr void __set__settingsSubMenuInfos(::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*> value);
+  constexpr void __cordl_internal_set__settingsSubMenuInfos(::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*> value);
 
-  constexpr ::HMUI::TextSegmentedControl*& __get__settingsMenuSegmentedControl();
+  constexpr ::UnityW<::HMUI::TextSegmentedControl>& __cordl_internal_get__settingsMenuSegmentedControl();
 
-  constexpr ::cordl_internals::to_const_pointer<::HMUI::TextSegmentedControl*> const& __get__settingsMenuSegmentedControl() const;
+  constexpr ::UnityW<::HMUI::TextSegmentedControl> const& __cordl_internal_get__settingsMenuSegmentedControl() const;
 
-  constexpr void __set__settingsMenuSegmentedControl(::HMUI::TextSegmentedControl* value);
+  constexpr void __cordl_internal_set__settingsMenuSegmentedControl(::UnityW<::HMUI::TextSegmentedControl> value);
 
-  constexpr ::GlobalNamespace::SettingsSubMenuInfo*& __get__selectedSubMenuInfo();
+  constexpr ::GlobalNamespace::SettingsSubMenuInfo*& __cordl_internal_get__selectedSubMenuInfo();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsSubMenuInfo*> const& __get__selectedSubMenuInfo() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsSubMenuInfo*> const& __cordl_internal_get__selectedSubMenuInfo() const;
 
-  constexpr void __set__selectedSubMenuInfo(::GlobalNamespace::SettingsSubMenuInfo* value);
+  constexpr void __cordl_internal_set__selectedSubMenuInfo(::GlobalNamespace::SettingsSubMenuInfo* value);
 
-  constexpr int32_t& __get__selectedSubMenuInfoIdx();
+  constexpr int32_t& __cordl_internal_get__selectedSubMenuInfoIdx();
 
-  constexpr int32_t const& __get__selectedSubMenuInfoIdx() const;
+  constexpr int32_t const& __cordl_internal_get__selectedSubMenuInfoIdx() const;
 
-  constexpr void __set__selectedSubMenuInfoIdx(int32_t value);
+  constexpr void __cordl_internal_set__selectedSubMenuInfoIdx(int32_t value);
 
   /// @brief Method add_didSelectSettingsSubMenuEvent, addr 0x22c9514, size 0xb0, virtual false, abstract: false, final false
   inline void add_didSelectSettingsSubMenuEvent(::System::Action_2<::GlobalNamespace::SettingsSubMenuInfo*, int32_t>* value);
@@ -132,7 +133,7 @@ public:
   ::ArrayW<::GlobalNamespace::SettingsSubMenuInfo*, ::Array<::GlobalNamespace::SettingsSubMenuInfo*>*> ____settingsSubMenuInfos;
 
   /// @brief Field _settingsMenuSegmentedControl, offset: 0x80, size: 0x8, def value: None
-  ::HMUI::TextSegmentedControl* ____settingsMenuSegmentedControl;
+  ::UnityW<::HMUI::TextSegmentedControl> ____settingsMenuSegmentedControl;
 
   /// @brief Field _selectedSubMenuInfo, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::SettingsSubMenuInfo* ____selectedSubMenuInfo;

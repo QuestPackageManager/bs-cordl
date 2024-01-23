@@ -9,9 +9,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x227d284;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CanvasGroupTransitionSO*>::get(),
-                                                                               "get_normalAlpha", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_normalAlpha", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -23,9 +23,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x227d28c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CanvasGroupTransitionSO*>::get(),
-                                                                               "get_highlightedAlpha", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_highlightedAlpha", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -37,9 +37,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x227d294;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CanvasGroupTransitionSO*>::get(),
-                                                                               "get_pressedAlpha", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_pressedAlpha", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -51,9 +51,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x227d29c;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CanvasGroupTransitionSO*>::get(),
-                                                                               "get_disabledAlpha", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_disabledAlpha", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -65,9 +65,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x227d2a4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CanvasGroupTransitionSO*>::get(),
-                                                                               "get_selectedAlpha", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               "get_selectedAlpha", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -79,9 +79,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x227d2ac;
 
-  inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CanvasGroupTransitionSO*>::get(),
-                                                                               "get_selectedAndHighlightedAlpha", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CanvasGroupTransitionSO*>::get(), "get_selectedAndHighlightedAlpha",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -92,120 +93,120 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x227d2b4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CanvasGroupTransitionSO*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__get__normalAlpha() {
+constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_get__normalAlpha() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalAlpha;
 }
-constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__get__normalAlpha() const {
+constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_get__normalAlpha() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____normalAlpha;
 }
-constexpr void GlobalNamespace::CanvasGroupTransitionSO::__set__normalAlpha(float_t value) {
+constexpr void GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_set__normalAlpha(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____normalAlpha = value;
 }
-constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__get__highlightedAlpha() {
+constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_get__highlightedAlpha() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedAlpha;
 }
-constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__get__highlightedAlpha() const {
+constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_get__highlightedAlpha() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____highlightedAlpha;
 }
-constexpr void GlobalNamespace::CanvasGroupTransitionSO::__set__highlightedAlpha(float_t value) {
+constexpr void GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_set__highlightedAlpha(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____highlightedAlpha = value;
 }
-constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__get__pressedAlpha() {
+constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_get__pressedAlpha() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedAlpha;
 }
-constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__get__pressedAlpha() const {
+constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_get__pressedAlpha() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pressedAlpha;
 }
-constexpr void GlobalNamespace::CanvasGroupTransitionSO::__set__pressedAlpha(float_t value) {
+constexpr void GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_set__pressedAlpha(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____pressedAlpha = value;
 }
-constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__get__disabledAlpha() {
+constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_get__disabledAlpha() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledAlpha;
 }
-constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__get__disabledAlpha() const {
+constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_get__disabledAlpha() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____disabledAlpha;
 }
-constexpr void GlobalNamespace::CanvasGroupTransitionSO::__set__disabledAlpha(float_t value) {
+constexpr void GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_set__disabledAlpha(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____disabledAlpha = value;
 }
-constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__get__selectedAlpha() {
+constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_get__selectedAlpha() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAlpha;
 }
-constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__get__selectedAlpha() const {
+constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_get__selectedAlpha() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAlpha;
 }
-constexpr void GlobalNamespace::CanvasGroupTransitionSO::__set__selectedAlpha(float_t value) {
+constexpr void GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_set__selectedAlpha(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedAlpha = value;
 }
-constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__get__selectedAndHighlightedAlpha() {
+constexpr float_t& GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_get__selectedAndHighlightedAlpha() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedAlpha;
 }
-constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__get__selectedAndHighlightedAlpha() const {
+constexpr float_t const& GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_get__selectedAndHighlightedAlpha() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectedAndHighlightedAlpha;
 }
-constexpr void GlobalNamespace::CanvasGroupTransitionSO::__set__selectedAndHighlightedAlpha(float_t value) {
+constexpr void GlobalNamespace::CanvasGroupTransitionSO::__cordl_internal_set__selectedAndHighlightedAlpha(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedAndHighlightedAlpha = value;
 }
 inline float_t GlobalNamespace::CanvasGroupTransitionSO::get_normalAlpha() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CanvasGroupTransitionSO*>::get(),
-                                                                             "get_normalAlpha", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_normalAlpha", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline float_t GlobalNamespace::CanvasGroupTransitionSO::get_highlightedAlpha() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CanvasGroupTransitionSO*>::get(),
-                                                                             "get_highlightedAlpha", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_highlightedAlpha", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline float_t GlobalNamespace::CanvasGroupTransitionSO::get_pressedAlpha() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CanvasGroupTransitionSO*>::get(),
-                                                                             "get_pressedAlpha", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_pressedAlpha", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline float_t GlobalNamespace::CanvasGroupTransitionSO::get_disabledAlpha() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CanvasGroupTransitionSO*>::get(),
-                                                                             "get_disabledAlpha", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_disabledAlpha", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline float_t GlobalNamespace::CanvasGroupTransitionSO::get_selectedAlpha() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CanvasGroupTransitionSO*>::get(),
-                                                                             "get_selectedAlpha", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_selectedAlpha", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline float_t GlobalNamespace::CanvasGroupTransitionSO::get_selectedAndHighlightedAlpha() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CanvasGroupTransitionSO*>::get(),
-                                                                             "get_selectedAndHighlightedAlpha", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             "get_selectedAndHighlightedAlpha", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::CanvasGroupTransitionSO* GlobalNamespace::CanvasGroupTransitionSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::CanvasGroupTransitionSO*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::CanvasGroupTransitionSO*>());
 }
 inline void GlobalNamespace::CanvasGroupTransitionSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CanvasGroupTransitionSO*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

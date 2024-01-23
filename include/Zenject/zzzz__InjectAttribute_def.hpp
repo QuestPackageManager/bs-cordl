@@ -14,7 +14,7 @@ MARK_REF_PTR_T(::Zenject::InjectAttribute);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15708))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(15708))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15709))
 // CS Name: ::Zenject::InjectAttribute*
 class CORDL_TYPE InjectAttribute : public ::Zenject::InjectAttributeBase {

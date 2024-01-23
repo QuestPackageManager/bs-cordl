@@ -26,7 +26,7 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7511))
 // CS Name: ::IOVRAnchorComponent`1<T>*
 class CORDL_TYPE IOVRAnchorComponent_1 {

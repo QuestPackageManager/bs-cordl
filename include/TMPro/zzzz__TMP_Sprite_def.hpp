@@ -20,56 +20,56 @@ MARK_REF_PTR_T(::TMPro::TMP_Sprite);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(12449)), TypeDefinitionIndex(TypeDefinitionIndex(10243))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10243)), TypeDefinitionIndex(TypeDefinitionIndex(12449))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12417))
 // CS Name: ::TMPro::TMP_Sprite*
 class CORDL_TYPE TMP_Sprite : public ::TMPro::TMP_TextElement_Legacy {
 public:
   // Declarations
   /// @brief Field name, offset 0x38, size 0x8
-  __declspec(property(get = __get_name, put = __set_name))::StringW name;
+  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
 
   /// @brief Field hashCode, offset 0x40, size 0x4
-  __declspec(property(get = __get_hashCode, put = __set_hashCode)) int32_t hashCode;
+  __declspec(property(get = __cordl_internal_get_hashCode, put = __cordl_internal_set_hashCode)) int32_t hashCode;
 
   /// @brief Field unicode, offset 0x44, size 0x4
-  __declspec(property(get = __get_unicode, put = __set_unicode)) int32_t unicode;
+  __declspec(property(get = __cordl_internal_get_unicode, put = __cordl_internal_set_unicode)) int32_t unicode;
 
   /// @brief Field pivot, offset 0x48, size 0x8
-  __declspec(property(get = __get_pivot, put = __set_pivot))::UnityEngine::Vector2 pivot;
+  __declspec(property(get = __cordl_internal_get_pivot, put = __cordl_internal_set_pivot))::UnityEngine::Vector2 pivot;
 
   /// @brief Field sprite, offset 0x50, size 0x8
-  __declspec(property(get = __get_sprite, put = __set_sprite))::UnityEngine::Sprite* sprite;
+  __declspec(property(get = __cordl_internal_get_sprite, put = __cordl_internal_set_sprite))::UnityW<::UnityEngine::Sprite> sprite;
 
-  constexpr ::StringW& __get_name();
+  constexpr ::StringW& __cordl_internal_get_name();
 
-  constexpr ::StringW const& __get_name() const;
+  constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr void __set_name(::StringW value);
+  constexpr void __cordl_internal_set_name(::StringW value);
 
-  constexpr int32_t& __get_hashCode();
+  constexpr int32_t& __cordl_internal_get_hashCode();
 
-  constexpr int32_t const& __get_hashCode() const;
+  constexpr int32_t const& __cordl_internal_get_hashCode() const;
 
-  constexpr void __set_hashCode(int32_t value);
+  constexpr void __cordl_internal_set_hashCode(int32_t value);
 
-  constexpr int32_t& __get_unicode();
+  constexpr int32_t& __cordl_internal_get_unicode();
 
-  constexpr int32_t const& __get_unicode() const;
+  constexpr int32_t const& __cordl_internal_get_unicode() const;
 
-  constexpr void __set_unicode(int32_t value);
+  constexpr void __cordl_internal_set_unicode(int32_t value);
 
-  constexpr ::UnityEngine::Vector2& __get_pivot();
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get_pivot();
 
-  constexpr ::UnityEngine::Vector2 const& __get_pivot() const;
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get_pivot() const;
 
-  constexpr void __set_pivot(::UnityEngine::Vector2 value);
+  constexpr void __cordl_internal_set_pivot(::UnityEngine::Vector2 value);
 
-  constexpr ::UnityEngine::Sprite*& __get_sprite();
+  constexpr ::UnityW<::UnityEngine::Sprite>& __cordl_internal_get_sprite();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Sprite*> const& __get_sprite() const;
+  constexpr ::UnityW<::UnityEngine::Sprite> const& __cordl_internal_get_sprite() const;
 
-  constexpr void __set_sprite(::UnityEngine::Sprite* value);
+  constexpr void __cordl_internal_set_sprite(::UnityW<::UnityEngine::Sprite> value);
 
   static inline ::TMPro::TMP_Sprite* New_ctor();
 
@@ -103,7 +103,7 @@ public:
   ::UnityEngine::Vector2 ___pivot;
 
   /// @brief Field sprite, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::Sprite* ___sprite;
+  ::UnityW<::UnityEngine::Sprite> ___sprite;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

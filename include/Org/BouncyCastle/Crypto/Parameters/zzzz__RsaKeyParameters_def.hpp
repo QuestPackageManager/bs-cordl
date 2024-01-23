@@ -21,17 +21,17 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(1020))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(1020))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1080))
 // CS Name: ::Org.BouncyCastle.Crypto.Parameters::RsaKeyParameters*
 class CORDL_TYPE RsaKeyParameters : public ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter {
 public:
   // Declarations
   /// @brief Field modulus, offset 0x18, size 0x8
-  __declspec(property(get = __get_modulus, put = __set_modulus))::Org::BouncyCastle::Math::BigInteger* modulus;
+  __declspec(property(get = __cordl_internal_get_modulus, put = __cordl_internal_set_modulus))::Org::BouncyCastle::Math::BigInteger* modulus;
 
   /// @brief Field exponent, offset 0x20, size 0x8
-  __declspec(property(get = __get_exponent, put = __set_exponent))::Org::BouncyCastle::Math::BigInteger* exponent;
+  __declspec(property(get = __cordl_internal_get_exponent, put = __cordl_internal_set_exponent))::Org::BouncyCastle::Math::BigInteger* exponent;
 
   /// @brief Field SmallPrimesProduct, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_SmallPrimesProduct, put = setStaticF_SmallPrimesProduct))::Org::BouncyCastle::Math::BigInteger* SmallPrimesProduct;
@@ -40,17 +40,17 @@ public:
 
   __declspec(property(get = get_Exponent))::Org::BouncyCastle::Math::BigInteger* Exponent;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_modulus();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_modulus();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_modulus() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_modulus() const;
 
-  constexpr void __set_modulus(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_modulus(::Org::BouncyCastle::Math::BigInteger* value);
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __get_exponent();
+  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_exponent();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __get_exponent() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_exponent() const;
 
-  constexpr void __set_exponent(::Org::BouncyCastle::Math::BigInteger* value);
+  constexpr void __cordl_internal_set_exponent(::Org::BouncyCastle::Math::BigInteger* value);
 
   static inline void setStaticF_SmallPrimesProduct(::Org::BouncyCastle::Math::BigInteger* value);
 

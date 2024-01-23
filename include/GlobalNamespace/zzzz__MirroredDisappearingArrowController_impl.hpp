@@ -6,12 +6,12 @@
 //  Writing Method size for method: ::GlobalNamespace::MirroredDisappearingArrowController.get_gameNoteController
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MirroredGameNoteController* (::GlobalNamespace::MirroredDisappearingArrowController::*)()>(
-    &::GlobalNamespace::MirroredDisappearingArrowController::get_gameNoteController)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::MirroredGameNoteController> (
+    ::GlobalNamespace::MirroredDisappearingArrowController::*)()>(&::GlobalNamespace::MirroredDisappearingArrowController::get_gameNoteController)> {
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x23861c4;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredDisappearingArrowController*>::get(),
@@ -27,36 +27,36 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x6c;
   constexpr static std::size_t addrs = 0x23861cc;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredDisappearingArrowController*>::get(),
-                                                                               ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::MirroredGameNoteController*& GlobalNamespace::MirroredDisappearingArrowController::__get__mirroredGameNoteController() {
+constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController>& GlobalNamespace::MirroredDisappearingArrowController::__cordl_internal_get__mirroredGameNoteController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredGameNoteController;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::MirroredGameNoteController*> const& GlobalNamespace::MirroredDisappearingArrowController::__get__mirroredGameNoteController() const {
+constexpr ::UnityW<::GlobalNamespace::MirroredGameNoteController> const& GlobalNamespace::MirroredDisappearingArrowController::__cordl_internal_get__mirroredGameNoteController() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____mirroredGameNoteController;
 }
-constexpr void GlobalNamespace::MirroredDisappearingArrowController::__set__mirroredGameNoteController(::GlobalNamespace::MirroredGameNoteController* value) {
+constexpr void GlobalNamespace::MirroredDisappearingArrowController::__cordl_internal_set__mirroredGameNoteController(::UnityW<::GlobalNamespace::MirroredGameNoteController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirroredGameNoteController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::GlobalNamespace::MirroredGameNoteController* GlobalNamespace::MirroredDisappearingArrowController::get_gameNoteController() {
+inline ::UnityW<::GlobalNamespace::MirroredGameNoteController> GlobalNamespace::MirroredDisappearingArrowController::get_gameNoteController() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredDisappearingArrowController*>::get(), 4)));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MirroredGameNoteController*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::MirroredGameNoteController>, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::MirroredDisappearingArrowController* GlobalNamespace::MirroredDisappearingArrowController::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::MirroredDisappearingArrowController*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MirroredDisappearingArrowController*>());
 }
 inline void GlobalNamespace::MirroredDisappearingArrowController::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredDisappearingArrowController*>::get(),
-                                                                             ".ctor", std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

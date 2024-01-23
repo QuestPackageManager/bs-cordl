@@ -16,7 +16,7 @@ MARK_VAL_T(::OVR::OpenVR::COpenVRContext);
 // SizeInfo { instance_size: 128, native_size: 128, calculated_instance_size: 128, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2603))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2603))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(8727))
 // CS Name: ::OVR.OpenVR::COpenVRContext
 struct CORDL_TYPE COpenVRContext {

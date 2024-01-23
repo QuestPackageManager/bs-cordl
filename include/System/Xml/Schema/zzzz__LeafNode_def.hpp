@@ -28,24 +28,24 @@ MARK_REF_PTR_T(::System::Xml::Schema::LeafNode);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11599))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(11599))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11600))
 // CS Name: ::System.Xml.Schema::LeafNode*
 class CORDL_TYPE LeafNode : public ::System::Xml::Schema::SyntaxTreeNode {
 public:
   // Declarations
   /// @brief Field pos, offset 0x10, size 0x4
-  __declspec(property(get = __get_pos, put = __set_pos)) int32_t pos;
+  __declspec(property(get = __cordl_internal_get_pos, put = __cordl_internal_set_pos)) int32_t pos;
 
   __declspec(property(get = get_Pos, put = set_Pos)) int32_t Pos;
 
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  constexpr int32_t& __get_pos();
+  constexpr int32_t& __cordl_internal_get_pos();
 
-  constexpr int32_t const& __get_pos() const;
+  constexpr int32_t const& __cordl_internal_get_pos() const;
 
-  constexpr void __set_pos(int32_t value);
+  constexpr void __cordl_internal_set_pos(int32_t value);
 
   static inline ::System::Xml::Schema::LeafNode* New_ctor(int32_t pos);
 

@@ -75,22 +75,23 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T, typename TElement>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6923))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6923))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6927))
 // CS Name: ::UQueryState`1::ListQueryMatcher`1<T,TElement>*
 class CORDL_TYPE __UQueryState_1__ListQueryMatcher_1 : public ::UnityEngine::UIElements::__UQuery__UQueryMatcher {
 public:
   // Declarations
   /// @brief Field <matches>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__matches_k__BackingField, put = __set__matches_k__BackingField))::System::Collections::Generic::List_1<TElement>* _matches_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__matches_k__BackingField,
+                      put = __cordl_internal_set__matches_k__BackingField))::System::Collections::Generic::List_1<TElement>* _matches_k__BackingField;
 
   __declspec(property(get = get_matches, put = set_matches))::System::Collections::Generic::List_1<TElement>* matches;
 
-  constexpr ::System::Collections::Generic::List_1<TElement>*& __get__matches_k__BackingField();
+  constexpr ::System::Collections::Generic::List_1<TElement>*& __cordl_internal_get__matches_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<TElement>*> const& __get__matches_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<TElement>*> const& __cordl_internal_get__matches_k__BackingField() const;
 
-  constexpr void __set__matches_k__BackingField(::System::Collections::Generic::List_1<TElement>* value);
+  constexpr void __cordl_internal_set__matches_k__BackingField(::System::Collections::Generic::List_1<TElement>* value);
 
   /// @brief Method get_matches, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<TElement>* get_matches();
@@ -136,22 +137,22 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(6923))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(6923))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6928))
 // CS Name: ::UQueryState`1::ActionQueryMatcher<T>*
 class CORDL_TYPE __UQueryState_1__ActionQueryMatcher : public ::UnityEngine::UIElements::__UQuery__UQueryMatcher {
 public:
   // Declarations
   /// @brief Field <callBack>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__callBack_k__BackingField, put = __set__callBack_k__BackingField))::System::Action_1<T>* _callBack_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__callBack_k__BackingField, put = __cordl_internal_set__callBack_k__BackingField))::System::Action_1<T>* _callBack_k__BackingField;
 
   __declspec(property(get = get_callBack))::System::Action_1<T>* callBack;
 
-  constexpr ::System::Action_1<T>*& __get__callBack_k__BackingField();
+  constexpr ::System::Action_1<T>*& __cordl_internal_get__callBack_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __get__callBack_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<T>*> const& __cordl_internal_get__callBack_k__BackingField() const;
 
-  constexpr void __set__callBack_k__BackingField(::System::Action_1<T>* value);
+  constexpr void __cordl_internal_set__callBack_k__BackingField(::System::Action_1<T>* value);
 
   /// @brief Method get_callBack, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Action_1<T>* get_callBack();
@@ -191,7 +192,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6929))
 // CS Name: ::UQueryState`1::Enumerator<T>
 struct CORDL_TYPE __UQueryState_1__Enumerator {
@@ -264,7 +265,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6930))
 // CS Name: ::UnityEngine.UIElements::UQueryState`1<T>
 struct CORDL_TYPE UQueryState_1 {

@@ -22,86 +22,86 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Zlib::Inflate);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Zlib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1822))
 // CS Name: ::Org.BouncyCastle.Utilities.Zlib::Inflate*
 class CORDL_TYPE Inflate : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mode, offset 0x10, size 0x4
-  __declspec(property(get = __get_mode, put = __set_mode)) int32_t mode;
+  __declspec(property(get = __cordl_internal_get_mode, put = __cordl_internal_set_mode)) int32_t mode;
 
   /// @brief Field method, offset 0x14, size 0x4
-  __declspec(property(get = __get_method, put = __set_method)) int32_t method;
+  __declspec(property(get = __cordl_internal_get_method, put = __cordl_internal_set_method)) int32_t method;
 
   /// @brief Field was, offset 0x18, size 0x8
-  __declspec(property(get = __get_was, put = __set_was))::ArrayW<int64_t, ::Array<int64_t>*> was;
+  __declspec(property(get = __cordl_internal_get_was, put = __cordl_internal_set_was))::ArrayW<int64_t, ::Array<int64_t>*> was;
 
   /// @brief Field need, offset 0x20, size 0x8
-  __declspec(property(get = __get_need, put = __set_need)) int64_t need;
+  __declspec(property(get = __cordl_internal_get_need, put = __cordl_internal_set_need)) int64_t need;
 
   /// @brief Field marker, offset 0x28, size 0x4
-  __declspec(property(get = __get_marker, put = __set_marker)) int32_t marker;
+  __declspec(property(get = __cordl_internal_get_marker, put = __cordl_internal_set_marker)) int32_t marker;
 
   /// @brief Field nowrap, offset 0x2c, size 0x4
-  __declspec(property(get = __get_nowrap, put = __set_nowrap)) int32_t nowrap;
+  __declspec(property(get = __cordl_internal_get_nowrap, put = __cordl_internal_set_nowrap)) int32_t nowrap;
 
   /// @brief Field wbits, offset 0x30, size 0x4
-  __declspec(property(get = __get_wbits, put = __set_wbits)) int32_t wbits;
+  __declspec(property(get = __cordl_internal_get_wbits, put = __cordl_internal_set_wbits)) int32_t wbits;
 
   /// @brief Field blocks, offset 0x38, size 0x8
-  __declspec(property(get = __get_blocks, put = __set_blocks))::Org::BouncyCastle::Utilities::Zlib::InfBlocks* blocks;
+  __declspec(property(get = __cordl_internal_get_blocks, put = __cordl_internal_set_blocks))::Org::BouncyCastle::Utilities::Zlib::InfBlocks* blocks;
 
   /// @brief Field mark, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_mark, put = setStaticF_mark))::ArrayW<uint8_t, ::Array<uint8_t>*> mark;
 
-  constexpr int32_t& __get_mode();
+  constexpr int32_t& __cordl_internal_get_mode();
 
-  constexpr int32_t const& __get_mode() const;
+  constexpr int32_t const& __cordl_internal_get_mode() const;
 
-  constexpr void __set_mode(int32_t value);
+  constexpr void __cordl_internal_set_mode(int32_t value);
 
-  constexpr int32_t& __get_method();
+  constexpr int32_t& __cordl_internal_get_method();
 
-  constexpr int32_t const& __get_method() const;
+  constexpr int32_t const& __cordl_internal_get_method() const;
 
-  constexpr void __set_method(int32_t value);
+  constexpr void __cordl_internal_set_method(int32_t value);
 
-  constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& __get_was();
+  constexpr ::ArrayW<int64_t, ::Array<int64_t>*>& __cordl_internal_get_was();
 
-  constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __get_was() const;
+  constexpr ::ArrayW<int64_t, ::Array<int64_t>*> const& __cordl_internal_get_was() const;
 
-  constexpr void __set_was(::ArrayW<int64_t, ::Array<int64_t>*> value);
+  constexpr void __cordl_internal_set_was(::ArrayW<int64_t, ::Array<int64_t>*> value);
 
-  constexpr int64_t& __get_need();
+  constexpr int64_t& __cordl_internal_get_need();
 
-  constexpr int64_t const& __get_need() const;
+  constexpr int64_t const& __cordl_internal_get_need() const;
 
-  constexpr void __set_need(int64_t value);
+  constexpr void __cordl_internal_set_need(int64_t value);
 
-  constexpr int32_t& __get_marker();
+  constexpr int32_t& __cordl_internal_get_marker();
 
-  constexpr int32_t const& __get_marker() const;
+  constexpr int32_t const& __cordl_internal_get_marker() const;
 
-  constexpr void __set_marker(int32_t value);
+  constexpr void __cordl_internal_set_marker(int32_t value);
 
-  constexpr int32_t& __get_nowrap();
+  constexpr int32_t& __cordl_internal_get_nowrap();
 
-  constexpr int32_t const& __get_nowrap() const;
+  constexpr int32_t const& __cordl_internal_get_nowrap() const;
 
-  constexpr void __set_nowrap(int32_t value);
+  constexpr void __cordl_internal_set_nowrap(int32_t value);
 
-  constexpr int32_t& __get_wbits();
+  constexpr int32_t& __cordl_internal_get_wbits();
 
-  constexpr int32_t const& __get_wbits() const;
+  constexpr int32_t const& __cordl_internal_get_wbits() const;
 
-  constexpr void __set_wbits(int32_t value);
+  constexpr void __cordl_internal_set_wbits(int32_t value);
 
-  constexpr ::Org::BouncyCastle::Utilities::Zlib::InfBlocks*& __get_blocks();
+  constexpr ::Org::BouncyCastle::Utilities::Zlib::InfBlocks*& __cordl_internal_get_blocks();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*> const& __get_blocks() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Zlib::InfBlocks*> const& __cordl_internal_get_blocks() const;
 
-  constexpr void __set_blocks(::Org::BouncyCastle::Utilities::Zlib::InfBlocks* value);
+  constexpr void __cordl_internal_set_blocks(::Org::BouncyCastle::Utilities::Zlib::InfBlocks* value);
 
   static inline void setStaticF_mark(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 

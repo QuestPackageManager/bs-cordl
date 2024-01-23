@@ -64,23 +64,23 @@ MARK_REF_PTR_T(::Mono::Security::X509::__PKCS12__DeriveBytes);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13746))
 // CS Name: ::PKCS12::DeriveBytes*
 class CORDL_TYPE __PKCS12__DeriveBytes : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _hashName, offset 0x10, size 0x8
-  __declspec(property(get = __get__hashName, put = __set__hashName))::StringW _hashName;
+  __declspec(property(get = __cordl_internal_get__hashName, put = __cordl_internal_set__hashName))::StringW _hashName;
 
   /// @brief Field _iterations, offset 0x18, size 0x4
-  __declspec(property(get = __get__iterations, put = __set__iterations)) int32_t _iterations;
+  __declspec(property(get = __cordl_internal_get__iterations, put = __cordl_internal_set__iterations)) int32_t _iterations;
 
   /// @brief Field _password, offset 0x20, size 0x8
-  __declspec(property(get = __get__password, put = __set__password))::ArrayW<uint8_t, ::Array<uint8_t>*> _password;
+  __declspec(property(get = __cordl_internal_get__password, put = __cordl_internal_set__password))::ArrayW<uint8_t, ::Array<uint8_t>*> _password;
 
   /// @brief Field _salt, offset 0x28, size 0x8
-  __declspec(property(get = __get__salt, put = __set__salt))::ArrayW<uint8_t, ::Array<uint8_t>*> _salt;
+  __declspec(property(get = __cordl_internal_get__salt, put = __cordl_internal_set__salt))::ArrayW<uint8_t, ::Array<uint8_t>*> _salt;
 
   /// @brief Field keyDiversifier, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_keyDiversifier, put = setStaticF_keyDiversifier))::ArrayW<uint8_t, ::Array<uint8_t>*> keyDiversifier;
@@ -99,29 +99,29 @@ public:
 
   __declspec(property(put = set_Salt))::ArrayW<uint8_t, ::Array<uint8_t>*> Salt;
 
-  constexpr ::StringW& __get__hashName();
+  constexpr ::StringW& __cordl_internal_get__hashName();
 
-  constexpr ::StringW const& __get__hashName() const;
+  constexpr ::StringW const& __cordl_internal_get__hashName() const;
 
-  constexpr void __set__hashName(::StringW value);
+  constexpr void __cordl_internal_set__hashName(::StringW value);
 
-  constexpr int32_t& __get__iterations();
+  constexpr int32_t& __cordl_internal_get__iterations();
 
-  constexpr int32_t const& __get__iterations() const;
+  constexpr int32_t const& __cordl_internal_get__iterations() const;
 
-  constexpr void __set__iterations(int32_t value);
+  constexpr void __cordl_internal_set__iterations(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__password();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__password();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__password() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__password() const;
 
-  constexpr void __set__password(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__password(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__salt();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__salt();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__salt() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__salt() const;
 
-  constexpr void __set__salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   static inline void setStaticF_keyDiversifier(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
@@ -211,7 +211,7 @@ static_assert(offsetof(::Mono::Security::X509::__PKCS12__DeriveBytes, ____salt) 
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::X509 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13747))
 // CS Name: ::Mono.Security.X509::PKCS12*
 class CORDL_TYPE PKCS12 : public ::System::Object {
@@ -220,34 +220,34 @@ public:
   using DeriveBytes = ::Mono::Security::X509::__PKCS12__DeriveBytes;
 
   /// @brief Field _password, offset 0x10, size 0x8
-  __declspec(property(get = __get__password, put = __set__password))::ArrayW<uint8_t, ::Array<uint8_t>*> _password;
+  __declspec(property(get = __cordl_internal_get__password, put = __cordl_internal_set__password))::ArrayW<uint8_t, ::Array<uint8_t>*> _password;
 
   /// @brief Field _keyBags, offset 0x18, size 0x8
-  __declspec(property(get = __get__keyBags, put = __set__keyBags))::System::Collections::ArrayList* _keyBags;
+  __declspec(property(get = __cordl_internal_get__keyBags, put = __cordl_internal_set__keyBags))::System::Collections::ArrayList* _keyBags;
 
   /// @brief Field _secretBags, offset 0x20, size 0x8
-  __declspec(property(get = __get__secretBags, put = __set__secretBags))::System::Collections::ArrayList* _secretBags;
+  __declspec(property(get = __cordl_internal_get__secretBags, put = __cordl_internal_set__secretBags))::System::Collections::ArrayList* _secretBags;
 
   /// @brief Field _certs, offset 0x28, size 0x8
-  __declspec(property(get = __get__certs, put = __set__certs))::Mono::Security::X509::X509CertificateCollection* _certs;
+  __declspec(property(get = __cordl_internal_get__certs, put = __cordl_internal_set__certs))::Mono::Security::X509::X509CertificateCollection* _certs;
 
   /// @brief Field _keyBagsChanged, offset 0x30, size 0x1
-  __declspec(property(get = __get__keyBagsChanged, put = __set__keyBagsChanged)) bool _keyBagsChanged;
+  __declspec(property(get = __cordl_internal_get__keyBagsChanged, put = __cordl_internal_set__keyBagsChanged)) bool _keyBagsChanged;
 
   /// @brief Field _secretBagsChanged, offset 0x31, size 0x1
-  __declspec(property(get = __get__secretBagsChanged, put = __set__secretBagsChanged)) bool _secretBagsChanged;
+  __declspec(property(get = __cordl_internal_get__secretBagsChanged, put = __cordl_internal_set__secretBagsChanged)) bool _secretBagsChanged;
 
   /// @brief Field _certsChanged, offset 0x32, size 0x1
-  __declspec(property(get = __get__certsChanged, put = __set__certsChanged)) bool _certsChanged;
+  __declspec(property(get = __cordl_internal_get__certsChanged, put = __cordl_internal_set__certsChanged)) bool _certsChanged;
 
   /// @brief Field _iterations, offset 0x34, size 0x4
-  __declspec(property(get = __get__iterations, put = __set__iterations)) int32_t _iterations;
+  __declspec(property(get = __cordl_internal_get__iterations, put = __cordl_internal_set__iterations)) int32_t _iterations;
 
   /// @brief Field _safeBags, offset 0x38, size 0x8
-  __declspec(property(get = __get__safeBags, put = __set__safeBags))::System::Collections::ArrayList* _safeBags;
+  __declspec(property(get = __cordl_internal_get__safeBags, put = __cordl_internal_set__safeBags))::System::Collections::ArrayList* _safeBags;
 
   /// @brief Field _rng, offset 0x40, size 0x8
-  __declspec(property(get = __get__rng, put = __set__rng))::System::Security::Cryptography::RandomNumberGenerator* _rng;
+  __declspec(property(get = __cordl_internal_get__rng, put = __cordl_internal_set__rng))::System::Security::Cryptography::RandomNumberGenerator* _rng;
 
   /// @brief Field password_max_length, offset 0xffffffff, size 0x4
   static __declspec(property(get = getStaticF_password_max_length, put = setStaticF_password_max_length)) int32_t password_max_length;
@@ -268,65 +268,65 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get__password();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__password();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get__password() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__password() const;
 
-  constexpr void __set__password(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set__password(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Collections::ArrayList*& __get__keyBags();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__keyBags();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get__keyBags() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__keyBags() const;
 
-  constexpr void __set__keyBags(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set__keyBags(::System::Collections::ArrayList* value);
 
-  constexpr ::System::Collections::ArrayList*& __get__secretBags();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__secretBags();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get__secretBags() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__secretBags() const;
 
-  constexpr void __set__secretBags(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set__secretBags(::System::Collections::ArrayList* value);
 
-  constexpr ::Mono::Security::X509::X509CertificateCollection*& __get__certs();
+  constexpr ::Mono::Security::X509::X509CertificateCollection*& __cordl_internal_get__certs();
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& __get__certs() const;
+  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::X509::X509CertificateCollection*> const& __cordl_internal_get__certs() const;
 
-  constexpr void __set__certs(::Mono::Security::X509::X509CertificateCollection* value);
+  constexpr void __cordl_internal_set__certs(::Mono::Security::X509::X509CertificateCollection* value);
 
-  constexpr bool& __get__keyBagsChanged();
+  constexpr bool& __cordl_internal_get__keyBagsChanged();
 
-  constexpr bool const& __get__keyBagsChanged() const;
+  constexpr bool const& __cordl_internal_get__keyBagsChanged() const;
 
-  constexpr void __set__keyBagsChanged(bool value);
+  constexpr void __cordl_internal_set__keyBagsChanged(bool value);
 
-  constexpr bool& __get__secretBagsChanged();
+  constexpr bool& __cordl_internal_get__secretBagsChanged();
 
-  constexpr bool const& __get__secretBagsChanged() const;
+  constexpr bool const& __cordl_internal_get__secretBagsChanged() const;
 
-  constexpr void __set__secretBagsChanged(bool value);
+  constexpr void __cordl_internal_set__secretBagsChanged(bool value);
 
-  constexpr bool& __get__certsChanged();
+  constexpr bool& __cordl_internal_get__certsChanged();
 
-  constexpr bool const& __get__certsChanged() const;
+  constexpr bool const& __cordl_internal_get__certsChanged() const;
 
-  constexpr void __set__certsChanged(bool value);
+  constexpr void __cordl_internal_set__certsChanged(bool value);
 
-  constexpr int32_t& __get__iterations();
+  constexpr int32_t& __cordl_internal_get__iterations();
 
-  constexpr int32_t const& __get__iterations() const;
+  constexpr int32_t const& __cordl_internal_get__iterations() const;
 
-  constexpr void __set__iterations(int32_t value);
+  constexpr void __cordl_internal_set__iterations(int32_t value);
 
-  constexpr ::System::Collections::ArrayList*& __get__safeBags();
+  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__safeBags();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __get__safeBags() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__safeBags() const;
 
-  constexpr void __set__safeBags(::System::Collections::ArrayList* value);
+  constexpr void __cordl_internal_set__safeBags(::System::Collections::ArrayList* value);
 
-  constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __get__rng();
+  constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __cordl_internal_get__rng();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RandomNumberGenerator*> const& __get__rng() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::RandomNumberGenerator*> const& __cordl_internal_get__rng() const;
 
-  constexpr void __set__rng(::System::Security::Cryptography::RandomNumberGenerator* value);
+  constexpr void __cordl_internal_set__rng(::System::Security::Cryptography::RandomNumberGenerator* value);
 
   static inline void setStaticF_password_max_length(int32_t value);
 

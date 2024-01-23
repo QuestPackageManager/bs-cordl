@@ -63,7 +63,7 @@ MARK_REF_PTR_T(::Oculus::Platform::__PlatformInternal__Users);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13374))
 // CS Name: ::PlatformInternal::MessageTypeInternal
 struct CORDL_TYPE __PlatformInternal__MessageTypeInternal {
@@ -361,7 +361,7 @@ static_assert(offsetof(::Oculus::Platform::__PlatformInternal__MessageTypeIntern
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13375))
 // CS Name: ::PlatformInternal::HTTP*
 class CORDL_TYPE __PlatformInternal__HTTP : public ::System::Object {
@@ -394,7 +394,7 @@ static_assert(::cordl_internals::size_check_v<::Oculus::Platform::__PlatformInte
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13376))
 // CS Name: ::PlatformInternal::Users*
 class CORDL_TYPE __PlatformInternal__Users : public ::System::Object {
@@ -428,7 +428,7 @@ static_assert(::cordl_internals::size_check_v<::Oculus::Platform::__PlatformInte
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13377))
 // CS Name: ::Oculus.Platform::PlatformInternal*
 class CORDL_TYPE PlatformInternal : public ::System::Object {

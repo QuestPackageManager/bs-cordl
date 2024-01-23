@@ -32,14 +32,14 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::X962Parameters);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(441))
 // CS Name: ::Org.BouncyCastle.Asn1.X9::X962Parameters*
 class CORDL_TYPE X962Parameters : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field _params, offset 0x10, size 0x8
-  __declspec(property(get = __get__params, put = __set__params))::Org::BouncyCastle::Asn1::Asn1Object* _params;
+  __declspec(property(get = __cordl_internal_get__params, put = __cordl_internal_set__params))::Org::BouncyCastle::Asn1::Asn1Object* _params;
 
   __declspec(property(get = get_IsNamedCurve)) bool IsNamedCurve;
 
@@ -53,11 +53,11 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr ::Org::BouncyCastle::Asn1::IAsn1Choice* i___Org__BouncyCastle__Asn1__IAsn1Choice() noexcept;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __get__params();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __cordl_internal_get__params();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __get__params() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __cordl_internal_get__params() const;
 
-  constexpr void __set__params(::Org::BouncyCastle::Asn1::Asn1Object* value);
+  constexpr void __cordl_internal_set__params(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
   /// @brief Method GetInstance, addr 0x11afa34, size 0x2bc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X962Parameters* GetInstance(::System::Object* obj);

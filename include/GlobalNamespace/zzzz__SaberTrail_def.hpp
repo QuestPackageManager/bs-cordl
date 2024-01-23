@@ -32,164 +32,164 @@ MARK_REF_PTR_T(::GlobalNamespace::SaberTrail);
 // SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10251)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(10251))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4876))
 // CS Name: ::SaberTrail*
 class CORDL_TYPE SaberTrail : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _trailRendererPrefab, offset 0x18, size 0x8
-  __declspec(property(get = __get__trailRendererPrefab, put = __set__trailRendererPrefab))::GlobalNamespace::SaberTrailRenderer* _trailRendererPrefab;
+  __declspec(property(get = __cordl_internal_get__trailRendererPrefab, put = __cordl_internal_set__trailRendererPrefab))::UnityW<::GlobalNamespace::SaberTrailRenderer> _trailRendererPrefab;
 
   /// @brief Field _trailDuration, offset 0x20, size 0x4
-  __declspec(property(get = __get__trailDuration, put = __set__trailDuration)) float_t _trailDuration;
+  __declspec(property(get = __cordl_internal_get__trailDuration, put = __cordl_internal_set__trailDuration)) float_t _trailDuration;
 
   /// @brief Field _samplingFrequency, offset 0x24, size 0x4
-  __declspec(property(get = __get__samplingFrequency, put = __set__samplingFrequency)) int32_t _samplingFrequency;
+  __declspec(property(get = __cordl_internal_get__samplingFrequency, put = __cordl_internal_set__samplingFrequency)) int32_t _samplingFrequency;
 
   /// @brief Field _granularity, offset 0x28, size 0x4
-  __declspec(property(get = __get__granularity, put = __set__granularity)) int32_t _granularity;
+  __declspec(property(get = __cordl_internal_get__granularity, put = __cordl_internal_set__granularity)) int32_t _granularity;
 
   /// @brief Field _whiteSectionMaxDuration, offset 0x2c, size 0x4
-  __declspec(property(get = __get__whiteSectionMaxDuration, put = __set__whiteSectionMaxDuration)) float_t _whiteSectionMaxDuration;
+  __declspec(property(get = __cordl_internal_get__whiteSectionMaxDuration, put = __cordl_internal_set__whiteSectionMaxDuration)) float_t _whiteSectionMaxDuration;
 
   /// @brief Field _colorOverwrite, offset 0x30, size 0x1
-  __declspec(property(get = __get__colorOverwrite, put = __set__colorOverwrite)) bool _colorOverwrite;
+  __declspec(property(get = __cordl_internal_get__colorOverwrite, put = __cordl_internal_set__colorOverwrite)) bool _colorOverwrite;
 
   /// @brief Field _forcedColor, offset 0x34, size 0x10
-  __declspec(property(get = __get__forcedColor, put = __set__forcedColor))::UnityEngine::Color _forcedColor;
+  __declspec(property(get = __cordl_internal_get__forcedColor, put = __cordl_internal_set__forcedColor))::UnityEngine::Color _forcedColor;
 
   /// @brief Field _color, offset 0x44, size 0x10
-  __declspec(property(get = __get__color, put = __set__color))::UnityEngine::Color _color;
+  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
 
   /// @brief Field _movementData, offset 0x58, size 0x8
-  __declspec(property(get = __get__movementData, put = __set__movementData))::GlobalNamespace::IBladeMovementData* _movementData;
+  __declspec(property(get = __cordl_internal_get__movementData, put = __cordl_internal_set__movementData))::GlobalNamespace::IBladeMovementData* _movementData;
 
   /// @brief Field _lastTrailElementTime, offset 0x60, size 0x4
-  __declspec(property(get = __get__lastTrailElementTime, put = __set__lastTrailElementTime)) float_t _lastTrailElementTime;
+  __declspec(property(get = __cordl_internal_get__lastTrailElementTime, put = __cordl_internal_set__lastTrailElementTime)) float_t _lastTrailElementTime;
 
   /// @brief Field _trailRenderer, offset 0x68, size 0x8
-  __declspec(property(get = __get__trailRenderer, put = __set__trailRenderer))::GlobalNamespace::SaberTrailRenderer* _trailRenderer;
+  __declspec(property(get = __cordl_internal_get__trailRenderer, put = __cordl_internal_set__trailRenderer))::UnityW<::GlobalNamespace::SaberTrailRenderer> _trailRenderer;
 
   /// @brief Field _trailElementCollection, offset 0x70, size 0x8
-  __declspec(property(get = __get__trailElementCollection, put = __set__trailElementCollection))::GlobalNamespace::TrailElementCollection* _trailElementCollection;
+  __declspec(property(get = __cordl_internal_get__trailElementCollection, put = __cordl_internal_set__trailElementCollection))::GlobalNamespace::TrailElementCollection* _trailElementCollection;
 
   /// @brief Field _sampleStep, offset 0x78, size 0x4
-  __declspec(property(get = __get__sampleStep, put = __set__sampleStep)) float_t _sampleStep;
+  __declspec(property(get = __cordl_internal_get__sampleStep, put = __cordl_internal_set__sampleStep)) float_t _sampleStep;
 
   /// @brief Field _framesPassed, offset 0x7c, size 0x4
-  __declspec(property(get = __get__framesPassed, put = __set__framesPassed)) int32_t _framesPassed;
+  __declspec(property(get = __cordl_internal_get__framesPassed, put = __cordl_internal_set__framesPassed)) int32_t _framesPassed;
 
   /// @brief Field _lastZScale, offset 0x80, size 0x4
-  __declspec(property(get = __get__lastZScale, put = __set__lastZScale)) float_t _lastZScale;
+  __declspec(property(get = __cordl_internal_get__lastZScale, put = __cordl_internal_set__lastZScale)) float_t _lastZScale;
 
   /// @brief Field _framesToScaleCheck, offset 0x84, size 0x4
-  __declspec(property(get = __get__framesToScaleCheck, put = __set__framesToScaleCheck)) int32_t _framesToScaleCheck;
+  __declspec(property(get = __cordl_internal_get__framesToScaleCheck, put = __cordl_internal_set__framesToScaleCheck)) int32_t _framesToScaleCheck;
 
   /// @brief Field _inited, offset 0x88, size 0x1
-  __declspec(property(get = __get__inited, put = __set__inited)) bool _inited;
+  __declspec(property(get = __cordl_internal_get__inited, put = __cordl_internal_set__inited)) bool _inited;
 
-  constexpr ::GlobalNamespace::SaberTrailRenderer*& __get__trailRendererPrefab();
+  constexpr ::UnityW<::GlobalNamespace::SaberTrailRenderer>& __cordl_internal_get__trailRendererPrefab();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberTrailRenderer*> const& __get__trailRendererPrefab() const;
+  constexpr ::UnityW<::GlobalNamespace::SaberTrailRenderer> const& __cordl_internal_get__trailRendererPrefab() const;
 
-  constexpr void __set__trailRendererPrefab(::GlobalNamespace::SaberTrailRenderer* value);
+  constexpr void __cordl_internal_set__trailRendererPrefab(::UnityW<::GlobalNamespace::SaberTrailRenderer> value);
 
-  constexpr float_t& __get__trailDuration();
+  constexpr float_t& __cordl_internal_get__trailDuration();
 
-  constexpr float_t const& __get__trailDuration() const;
+  constexpr float_t const& __cordl_internal_get__trailDuration() const;
 
-  constexpr void __set__trailDuration(float_t value);
+  constexpr void __cordl_internal_set__trailDuration(float_t value);
 
-  constexpr int32_t& __get__samplingFrequency();
+  constexpr int32_t& __cordl_internal_get__samplingFrequency();
 
-  constexpr int32_t const& __get__samplingFrequency() const;
+  constexpr int32_t const& __cordl_internal_get__samplingFrequency() const;
 
-  constexpr void __set__samplingFrequency(int32_t value);
+  constexpr void __cordl_internal_set__samplingFrequency(int32_t value);
 
-  constexpr int32_t& __get__granularity();
+  constexpr int32_t& __cordl_internal_get__granularity();
 
-  constexpr int32_t const& __get__granularity() const;
+  constexpr int32_t const& __cordl_internal_get__granularity() const;
 
-  constexpr void __set__granularity(int32_t value);
+  constexpr void __cordl_internal_set__granularity(int32_t value);
 
-  constexpr float_t& __get__whiteSectionMaxDuration();
+  constexpr float_t& __cordl_internal_get__whiteSectionMaxDuration();
 
-  constexpr float_t const& __get__whiteSectionMaxDuration() const;
+  constexpr float_t const& __cordl_internal_get__whiteSectionMaxDuration() const;
 
-  constexpr void __set__whiteSectionMaxDuration(float_t value);
+  constexpr void __cordl_internal_set__whiteSectionMaxDuration(float_t value);
 
-  constexpr bool& __get__colorOverwrite();
+  constexpr bool& __cordl_internal_get__colorOverwrite();
 
-  constexpr bool const& __get__colorOverwrite() const;
+  constexpr bool const& __cordl_internal_get__colorOverwrite() const;
 
-  constexpr void __set__colorOverwrite(bool value);
+  constexpr void __cordl_internal_set__colorOverwrite(bool value);
 
-  constexpr ::UnityEngine::Color& __get__forcedColor();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__forcedColor();
 
-  constexpr ::UnityEngine::Color const& __get__forcedColor() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__forcedColor() const;
 
-  constexpr void __set__forcedColor(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__forcedColor(::UnityEngine::Color value);
 
-  constexpr ::UnityEngine::Color& __get__color();
+  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
 
-  constexpr ::UnityEngine::Color const& __get__color() const;
+  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr void __set__color(::UnityEngine::Color value);
+  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
 
-  constexpr ::GlobalNamespace::IBladeMovementData*& __get__movementData();
+  constexpr ::GlobalNamespace::IBladeMovementData*& __cordl_internal_get__movementData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBladeMovementData*> const& __get__movementData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBladeMovementData*> const& __cordl_internal_get__movementData() const;
 
-  constexpr void __set__movementData(::GlobalNamespace::IBladeMovementData* value);
+  constexpr void __cordl_internal_set__movementData(::GlobalNamespace::IBladeMovementData* value);
 
-  constexpr float_t& __get__lastTrailElementTime();
+  constexpr float_t& __cordl_internal_get__lastTrailElementTime();
 
-  constexpr float_t const& __get__lastTrailElementTime() const;
+  constexpr float_t const& __cordl_internal_get__lastTrailElementTime() const;
 
-  constexpr void __set__lastTrailElementTime(float_t value);
+  constexpr void __cordl_internal_set__lastTrailElementTime(float_t value);
 
-  constexpr ::GlobalNamespace::SaberTrailRenderer*& __get__trailRenderer();
+  constexpr ::UnityW<::GlobalNamespace::SaberTrailRenderer>& __cordl_internal_get__trailRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SaberTrailRenderer*> const& __get__trailRenderer() const;
+  constexpr ::UnityW<::GlobalNamespace::SaberTrailRenderer> const& __cordl_internal_get__trailRenderer() const;
 
-  constexpr void __set__trailRenderer(::GlobalNamespace::SaberTrailRenderer* value);
+  constexpr void __cordl_internal_set__trailRenderer(::UnityW<::GlobalNamespace::SaberTrailRenderer> value);
 
-  constexpr ::GlobalNamespace::TrailElementCollection*& __get__trailElementCollection();
+  constexpr ::GlobalNamespace::TrailElementCollection*& __cordl_internal_get__trailElementCollection();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TrailElementCollection*> const& __get__trailElementCollection() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::TrailElementCollection*> const& __cordl_internal_get__trailElementCollection() const;
 
-  constexpr void __set__trailElementCollection(::GlobalNamespace::TrailElementCollection* value);
+  constexpr void __cordl_internal_set__trailElementCollection(::GlobalNamespace::TrailElementCollection* value);
 
-  constexpr float_t& __get__sampleStep();
+  constexpr float_t& __cordl_internal_get__sampleStep();
 
-  constexpr float_t const& __get__sampleStep() const;
+  constexpr float_t const& __cordl_internal_get__sampleStep() const;
 
-  constexpr void __set__sampleStep(float_t value);
+  constexpr void __cordl_internal_set__sampleStep(float_t value);
 
-  constexpr int32_t& __get__framesPassed();
+  constexpr int32_t& __cordl_internal_get__framesPassed();
 
-  constexpr int32_t const& __get__framesPassed() const;
+  constexpr int32_t const& __cordl_internal_get__framesPassed() const;
 
-  constexpr void __set__framesPassed(int32_t value);
+  constexpr void __cordl_internal_set__framesPassed(int32_t value);
 
-  constexpr float_t& __get__lastZScale();
+  constexpr float_t& __cordl_internal_get__lastZScale();
 
-  constexpr float_t const& __get__lastZScale() const;
+  constexpr float_t const& __cordl_internal_get__lastZScale() const;
 
-  constexpr void __set__lastZScale(float_t value);
+  constexpr void __cordl_internal_set__lastZScale(float_t value);
 
-  constexpr int32_t& __get__framesToScaleCheck();
+  constexpr int32_t& __cordl_internal_get__framesToScaleCheck();
 
-  constexpr int32_t const& __get__framesToScaleCheck() const;
+  constexpr int32_t const& __cordl_internal_get__framesToScaleCheck() const;
 
-  constexpr void __set__framesToScaleCheck(int32_t value);
+  constexpr void __cordl_internal_set__framesToScaleCheck(int32_t value);
 
-  constexpr bool& __get__inited();
+  constexpr bool& __cordl_internal_get__inited();
 
-  constexpr bool const& __get__inited() const;
+  constexpr bool const& __cordl_internal_get__inited() const;
 
-  constexpr void __set__inited(bool value);
+  constexpr void __cordl_internal_set__inited(bool value);
 
   /// @brief Method Awake, addr 0x239e864, size 0x12c, virtual false, abstract: false, final false
   inline void Awake();
@@ -241,7 +241,7 @@ protected:
 
 public:
   /// @brief Field _trailRendererPrefab, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::SaberTrailRenderer* ____trailRendererPrefab;
+  ::UnityW<::GlobalNamespace::SaberTrailRenderer> ____trailRendererPrefab;
 
   /// @brief Field _trailDuration, offset: 0x20, size: 0x4, def value: None
   float_t ____trailDuration;
@@ -271,7 +271,7 @@ public:
   float_t ____lastTrailElementTime;
 
   /// @brief Field _trailRenderer, offset: 0x68, size: 0x8, def value: None
-  ::GlobalNamespace::SaberTrailRenderer* ____trailRenderer;
+  ::UnityW<::GlobalNamespace::SaberTrailRenderer> ____trailRenderer;
 
   /// @brief Field _trailElementCollection, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::TrailElementCollection* ____trailElementCollection;

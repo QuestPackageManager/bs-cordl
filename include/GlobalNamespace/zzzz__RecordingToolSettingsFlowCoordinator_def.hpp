@@ -37,20 +37,21 @@ MARK_REF_PTR_T(::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitDa
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5521))
 // CS Name: ::RecordingToolSettingsFlowCoordinator::InitData*
 class CORDL_TYPE __RecordingToolSettingsFlowCoordinator__InitData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field nextScenesTransitionSetupData, offset 0x10, size 0x8
-  __declspec(property(get = __get_nextScenesTransitionSetupData, put = __set_nextScenesTransitionSetupData))::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData;
+  __declspec(property(get = __cordl_internal_get_nextScenesTransitionSetupData,
+                      put = __cordl_internal_set_nextScenesTransitionSetupData))::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> nextScenesTransitionSetupData;
 
-  constexpr ::GlobalNamespace::ScenesTransitionSetupDataSO*& __get_nextScenesTransitionSetupData();
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& __cordl_internal_get_nextScenesTransitionSetupData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ScenesTransitionSetupDataSO*> const& __get_nextScenesTransitionSetupData() const;
+  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> const& __cordl_internal_get_nextScenesTransitionSetupData() const;
 
-  constexpr void __set_nextScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
+  constexpr void __cordl_internal_set_nextScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
 
   static inline ::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData* New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
 
@@ -72,7 +73,7 @@ protected:
 
 public:
   /// @brief Field nextScenesTransitionSetupData, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::ScenesTransitionSetupDataSO* ___nextScenesTransitionSetupData;
+  ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ___nextScenesTransitionSetupData;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -86,7 +87,7 @@ static_assert(offsetof(::GlobalNamespace::__RecordingToolSettingsFlowCoordinator
 // SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(13582))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(13582))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5522))
 // CS Name: ::RecordingToolSettingsFlowCoordinator*
 class CORDL_TYPE RecordingToolSettingsFlowCoordinator : public ::HMUI::FlowCoordinator {
@@ -95,52 +96,52 @@ public:
   using InitData = ::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData;
 
   /// @brief Field _recordingToolConfigViewController, offset 0xa8, size 0x8
-  __declspec(property(get = __get__recordingToolConfigViewController,
-                      put = __set__recordingToolConfigViewController))::GlobalNamespace::RecordingToolConfigViewController* _recordingToolConfigViewController;
+  __declspec(property(get = __cordl_internal_get__recordingToolConfigViewController,
+                      put = __cordl_internal_set__recordingToolConfigViewController))::UnityW<::GlobalNamespace::RecordingToolConfigViewController> _recordingToolConfigViewController;
 
   /// @brief Field _recordingToolSettingsViewController, offset 0xb0, size 0x8
-  __declspec(property(get = __get__recordingToolSettingsViewController,
-                      put = __set__recordingToolSettingsViewController))::GlobalNamespace::RecordingToolSettingsViewController* _recordingToolSettingsViewController;
+  __declspec(property(get = __cordl_internal_get__recordingToolSettingsViewController,
+                      put = __cordl_internal_set__recordingToolSettingsViewController))::UnityW<::GlobalNamespace::RecordingToolSettingsViewController> _recordingToolSettingsViewController;
 
   /// @brief Field _recordingToolLoggingViewController, offset 0xb8, size 0x8
-  __declspec(property(get = __get__recordingToolLoggingViewController,
-                      put = __set__recordingToolLoggingViewController))::GlobalNamespace::RecordingToolLoggingViewController* _recordingToolLoggingViewController;
+  __declspec(property(get = __cordl_internal_get__recordingToolLoggingViewController,
+                      put = __cordl_internal_set__recordingToolLoggingViewController))::UnityW<::GlobalNamespace::RecordingToolLoggingViewController> _recordingToolLoggingViewController;
 
   /// @brief Field _gameScenesManager, offset 0xc0, size 0x8
-  __declspec(property(get = __get__gameScenesManager, put = __set__gameScenesManager))::GlobalNamespace::GameScenesManager* _gameScenesManager;
+  __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager))::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
   /// @brief Field _initData, offset 0xc8, size 0x8
-  __declspec(property(get = __get__initData, put = __set__initData))::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData* _initData;
+  __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData))::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData* _initData;
 
-  constexpr ::GlobalNamespace::RecordingToolConfigViewController*& __get__recordingToolConfigViewController();
+  constexpr ::UnityW<::GlobalNamespace::RecordingToolConfigViewController>& __cordl_internal_get__recordingToolConfigViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolConfigViewController*> const& __get__recordingToolConfigViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::RecordingToolConfigViewController> const& __cordl_internal_get__recordingToolConfigViewController() const;
 
-  constexpr void __set__recordingToolConfigViewController(::GlobalNamespace::RecordingToolConfigViewController* value);
+  constexpr void __cordl_internal_set__recordingToolConfigViewController(::UnityW<::GlobalNamespace::RecordingToolConfigViewController> value);
 
-  constexpr ::GlobalNamespace::RecordingToolSettingsViewController*& __get__recordingToolSettingsViewController();
+  constexpr ::UnityW<::GlobalNamespace::RecordingToolSettingsViewController>& __cordl_internal_get__recordingToolSettingsViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolSettingsViewController*> const& __get__recordingToolSettingsViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::RecordingToolSettingsViewController> const& __cordl_internal_get__recordingToolSettingsViewController() const;
 
-  constexpr void __set__recordingToolSettingsViewController(::GlobalNamespace::RecordingToolSettingsViewController* value);
+  constexpr void __cordl_internal_set__recordingToolSettingsViewController(::UnityW<::GlobalNamespace::RecordingToolSettingsViewController> value);
 
-  constexpr ::GlobalNamespace::RecordingToolLoggingViewController*& __get__recordingToolLoggingViewController();
+  constexpr ::UnityW<::GlobalNamespace::RecordingToolLoggingViewController>& __cordl_internal_get__recordingToolLoggingViewController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RecordingToolLoggingViewController*> const& __get__recordingToolLoggingViewController() const;
+  constexpr ::UnityW<::GlobalNamespace::RecordingToolLoggingViewController> const& __cordl_internal_get__recordingToolLoggingViewController() const;
 
-  constexpr void __set__recordingToolLoggingViewController(::GlobalNamespace::RecordingToolLoggingViewController* value);
+  constexpr void __cordl_internal_set__recordingToolLoggingViewController(::UnityW<::GlobalNamespace::RecordingToolLoggingViewController> value);
 
-  constexpr ::GlobalNamespace::GameScenesManager*& __get__gameScenesManager();
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameScenesManager*> const& __get__gameScenesManager() const;
+  constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
-  constexpr void __set__gameScenesManager(::GlobalNamespace::GameScenesManager* value);
+  constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr ::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData*& __get__initData();
+  constexpr ::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData*& __cordl_internal_get__initData();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData*> const& __get__initData() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData*> const& __cordl_internal_get__initData() const;
 
-  constexpr void __set__initData(::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData* value);
+  constexpr void __cordl_internal_set__initData(::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData* value);
 
   /// @brief Method DidActivate, addr 0x229b4a0, size 0xf4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
@@ -177,16 +178,16 @@ protected:
 
 public:
   /// @brief Field _recordingToolConfigViewController, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::RecordingToolConfigViewController* ____recordingToolConfigViewController;
+  ::UnityW<::GlobalNamespace::RecordingToolConfigViewController> ____recordingToolConfigViewController;
 
   /// @brief Field _recordingToolSettingsViewController, offset: 0xb0, size: 0x8, def value: None
-  ::GlobalNamespace::RecordingToolSettingsViewController* ____recordingToolSettingsViewController;
+  ::UnityW<::GlobalNamespace::RecordingToolSettingsViewController> ____recordingToolSettingsViewController;
 
   /// @brief Field _recordingToolLoggingViewController, offset: 0xb8, size: 0x8, def value: None
-  ::GlobalNamespace::RecordingToolLoggingViewController* ____recordingToolLoggingViewController;
+  ::UnityW<::GlobalNamespace::RecordingToolLoggingViewController> ____recordingToolLoggingViewController;
 
   /// @brief Field _gameScenesManager, offset: 0xc0, size: 0x8, def value: None
-  ::GlobalNamespace::GameScenesManager* ____gameScenesManager;
+  ::UnityW<::GlobalNamespace::GameScenesManager> ____gameScenesManager;
 
   /// @brief Field _initData, offset: 0xc8, size: 0x8, def value: None
   ::GlobalNamespace::__RecordingToolSettingsFlowCoordinator__InitData* ____initData;

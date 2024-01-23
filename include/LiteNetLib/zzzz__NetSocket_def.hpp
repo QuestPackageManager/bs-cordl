@@ -41,32 +41,32 @@ MARK_REF_PTR_T(::LiteNetLib::NetSocket);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 61, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14180))
 // CS Name: ::LiteNetLib::NetSocket*
 class CORDL_TYPE NetSocket : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _udpSocketv4, offset 0x10, size 0x8
-  __declspec(property(get = __get__udpSocketv4, put = __set__udpSocketv4))::System::Net::Sockets::Socket* _udpSocketv4;
+  __declspec(property(get = __cordl_internal_get__udpSocketv4, put = __cordl_internal_set__udpSocketv4))::System::Net::Sockets::Socket* _udpSocketv4;
 
   /// @brief Field _udpSocketv6, offset 0x18, size 0x8
-  __declspec(property(get = __get__udpSocketv6, put = __set__udpSocketv6))::System::Net::Sockets::Socket* _udpSocketv6;
+  __declspec(property(get = __cordl_internal_get__udpSocketv6, put = __cordl_internal_set__udpSocketv6))::System::Net::Sockets::Socket* _udpSocketv6;
 
   /// @brief Field _threadv4, offset 0x20, size 0x8
-  __declspec(property(get = __get__threadv4, put = __set__threadv4))::System::Threading::Thread* _threadv4;
+  __declspec(property(get = __cordl_internal_get__threadv4, put = __cordl_internal_set__threadv4))::System::Threading::Thread* _threadv4;
 
   /// @brief Field _threadv6, offset 0x28, size 0x8
-  __declspec(property(get = __get__threadv6, put = __set__threadv6))::System::Threading::Thread* _threadv6;
+  __declspec(property(get = __cordl_internal_get__threadv6, put = __cordl_internal_set__threadv6))::System::Threading::Thread* _threadv6;
 
   /// @brief Field _listener, offset 0x30, size 0x8
-  __declspec(property(get = __get__listener, put = __set__listener))::LiteNetLib::INetSocketListener* _listener;
+  __declspec(property(get = __cordl_internal_get__listener, put = __cordl_internal_set__listener))::LiteNetLib::INetSocketListener* _listener;
 
   /// @brief Field <LocalPort>k__BackingField, offset 0x38, size 0x4
-  __declspec(property(get = __get__LocalPort_k__BackingField, put = __set__LocalPort_k__BackingField)) int32_t _LocalPort_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__LocalPort_k__BackingField, put = __cordl_internal_set__LocalPort_k__BackingField)) int32_t _LocalPort_k__BackingField;
 
   /// @brief Field IsRunning, offset 0x3c, size 0x1
-  __declspec(property(get = __get_IsRunning, put = __set_IsRunning)) bool IsRunning;
+  __declspec(property(get = __cordl_internal_get_IsRunning, put = __cordl_internal_set_IsRunning)) bool IsRunning;
 
   /// @brief Field MulticastAddressV6, offset 0xffffffff, size 0x8
   static __declspec(property(get = getStaticF_MulticastAddressV6, put = setStaticF_MulticastAddressV6))::System::Net::IPAddress* MulticastAddressV6;
@@ -78,47 +78,47 @@ public:
 
   __declspec(property(get = get_Ttl, put = set_Ttl)) int16_t Ttl;
 
-  constexpr ::System::Net::Sockets::Socket*& __get__udpSocketv4();
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get__udpSocketv4();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __get__udpSocketv4() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get__udpSocketv4() const;
 
-  constexpr void __set__udpSocketv4(::System::Net::Sockets::Socket* value);
+  constexpr void __cordl_internal_set__udpSocketv4(::System::Net::Sockets::Socket* value);
 
-  constexpr ::System::Net::Sockets::Socket*& __get__udpSocketv6();
+  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get__udpSocketv6();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __get__udpSocketv6() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get__udpSocketv6() const;
 
-  constexpr void __set__udpSocketv6(::System::Net::Sockets::Socket* value);
+  constexpr void __cordl_internal_set__udpSocketv6(::System::Net::Sockets::Socket* value);
 
-  constexpr ::System::Threading::Thread*& __get__threadv4();
+  constexpr ::System::Threading::Thread*& __cordl_internal_get__threadv4();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __get__threadv4() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get__threadv4() const;
 
-  constexpr void __set__threadv4(::System::Threading::Thread* value);
+  constexpr void __cordl_internal_set__threadv4(::System::Threading::Thread* value);
 
-  constexpr ::System::Threading::Thread*& __get__threadv6();
+  constexpr ::System::Threading::Thread*& __cordl_internal_get__threadv6();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __get__threadv6() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Thread*> const& __cordl_internal_get__threadv6() const;
 
-  constexpr void __set__threadv6(::System::Threading::Thread* value);
+  constexpr void __cordl_internal_set__threadv6(::System::Threading::Thread* value);
 
-  constexpr ::LiteNetLib::INetSocketListener*& __get__listener();
+  constexpr ::LiteNetLib::INetSocketListener*& __cordl_internal_get__listener();
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::INetSocketListener*> const& __get__listener() const;
+  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::INetSocketListener*> const& __cordl_internal_get__listener() const;
 
-  constexpr void __set__listener(::LiteNetLib::INetSocketListener* value);
+  constexpr void __cordl_internal_set__listener(::LiteNetLib::INetSocketListener* value);
 
-  constexpr int32_t& __get__LocalPort_k__BackingField();
+  constexpr int32_t& __cordl_internal_get__LocalPort_k__BackingField();
 
-  constexpr int32_t const& __get__LocalPort_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get__LocalPort_k__BackingField() const;
 
-  constexpr void __set__LocalPort_k__BackingField(int32_t value);
+  constexpr void __cordl_internal_set__LocalPort_k__BackingField(int32_t value);
 
-  constexpr bool& __get_IsRunning();
+  constexpr bool& __cordl_internal_get_IsRunning();
 
-  constexpr bool const& __get_IsRunning() const;
+  constexpr bool const& __cordl_internal_get_IsRunning() const;
 
-  constexpr void __set_IsRunning(bool value);
+  constexpr void __cordl_internal_set_IsRunning(bool value);
 
   static inline void setStaticF_MulticastAddressV6(::System::Net::IPAddress* value);
 

@@ -27,29 +27,29 @@ MARK_REF_PTR_T(::Zenject::ZenjectStateMachineBehaviourAutoInjecter);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(11364))
 // CS Name: ::Zenject::ZenjectStateMachineBehaviourAutoInjecter*
 class CORDL_TYPE ZenjectStateMachineBehaviourAutoInjecter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _container, offset 0x18, size 0x8
-  __declspec(property(get = __get__container, put = __set__container))::Zenject::DiContainer* _container;
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
 
   /// @brief Field _animator, offset 0x20, size 0x8
-  __declspec(property(get = __get__animator, put = __set__animator))::UnityEngine::Animator* _animator;
+  __declspec(property(get = __cordl_internal_get__animator, put = __cordl_internal_set__animator))::UnityW<::UnityEngine::Animator> _animator;
 
-  constexpr ::Zenject::DiContainer*& __get__container();
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __get__container() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr void __set__container(::Zenject::DiContainer* value);
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  constexpr ::UnityEngine::Animator*& __get__animator();
+  constexpr ::UnityW<::UnityEngine::Animator>& __cordl_internal_get__animator();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Animator*> const& __get__animator() const;
+  constexpr ::UnityW<::UnityEngine::Animator> const& __cordl_internal_get__animator() const;
 
-  constexpr void __set__animator(::UnityEngine::Animator* value);
+  constexpr void __cordl_internal_set__animator(::UnityW<::UnityEngine::Animator> value);
 
   /// @brief Method Construct, addr 0x2f20e30, size 0x64, virtual false, abstract: false, final false
   inline void Construct(::Zenject::DiContainer* container);
@@ -86,7 +86,7 @@ public:
   ::Zenject::DiContainer* ____container;
 
   /// @brief Field _animator, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Animator* ____animator;
+  ::UnityW<::UnityEngine::Animator> ____animator;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,29 +23,29 @@ MARK_REF_PTR_T(::GlobalNamespace::BeatmapSelectionView);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5772))
 // CS Name: ::BeatmapSelectionView*
 class CORDL_TYPE BeatmapSelectionView : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _levelBar, offset 0x18, size 0x8
-  __declspec(property(get = __get__levelBar, put = __set__levelBar))::GlobalNamespace::LevelBar* _levelBar;
+  __declspec(property(get = __cordl_internal_get__levelBar, put = __cordl_internal_set__levelBar))::UnityW<::GlobalNamespace::LevelBar> _levelBar;
 
   /// @brief Field _noLevelText, offset 0x20, size 0x8
-  __declspec(property(get = __get__noLevelText, put = __set__noLevelText))::TMPro::TextMeshProUGUI* _noLevelText;
+  __declspec(property(get = __cordl_internal_get__noLevelText, put = __cordl_internal_set__noLevelText))::UnityW<::TMPro::TextMeshProUGUI> _noLevelText;
 
-  constexpr ::GlobalNamespace::LevelBar*& __get__levelBar();
+  constexpr ::UnityW<::GlobalNamespace::LevelBar>& __cordl_internal_get__levelBar();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::LevelBar*> const& __get__levelBar() const;
+  constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
 
-  constexpr void __set__levelBar(::GlobalNamespace::LevelBar* value);
+  constexpr void __cordl_internal_set__levelBar(::UnityW<::GlobalNamespace::LevelBar> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__noLevelText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__noLevelText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__noLevelText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__noLevelText() const;
 
-  constexpr void __set__noLevelText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__noLevelText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
   /// @brief Method SetBeatmap, addr 0x22df98c, size 0xa0, virtual true, abstract: false, final false
   inline void SetBeatmap(::GlobalNamespace::PreviewDifficultyBeatmap* beatmapLevel);
@@ -70,10 +70,10 @@ protected:
 
 public:
   /// @brief Field _levelBar, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::LevelBar* ____levelBar;
+  ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;
 
   /// @brief Field _noLevelText, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____noLevelText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____noLevelText;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

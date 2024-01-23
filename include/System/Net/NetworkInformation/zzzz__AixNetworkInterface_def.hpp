@@ -22,31 +22,31 @@ MARK_REF_PTR_T(::System::Net::NetworkInformation::AixNetworkInterface);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9292))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(9292))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9261))
 // CS Name: ::System.Net.NetworkInformation::AixNetworkInterface*
 class CORDL_TYPE AixNetworkInterface : public ::System::Net::NetworkInformation::UnixNetworkInterface {
 public:
   // Declarations
   /// @brief Field _ifa_flags, offset 0x34, size 0x4
-  __declspec(property(get = __get__ifa_flags, put = __set__ifa_flags)) uint32_t _ifa_flags;
+  __declspec(property(get = __cordl_internal_get__ifa_flags, put = __cordl_internal_set__ifa_flags)) uint32_t _ifa_flags;
 
   /// @brief Field _ifru_mtu, offset 0x38, size 0x4
-  __declspec(property(get = __get__ifru_mtu, put = __set__ifru_mtu)) int32_t _ifru_mtu;
+  __declspec(property(get = __cordl_internal_get__ifru_mtu, put = __cordl_internal_set__ifru_mtu)) int32_t _ifru_mtu;
 
   __declspec(property(get = get_OperationalStatus))::System::Net::NetworkInformation::OperationalStatus OperationalStatus;
 
-  constexpr uint32_t& __get__ifa_flags();
+  constexpr uint32_t& __cordl_internal_get__ifa_flags();
 
-  constexpr uint32_t const& __get__ifa_flags() const;
+  constexpr uint32_t const& __cordl_internal_get__ifa_flags() const;
 
-  constexpr void __set__ifa_flags(uint32_t value);
+  constexpr void __cordl_internal_set__ifa_flags(uint32_t value);
 
-  constexpr int32_t& __get__ifru_mtu();
+  constexpr int32_t& __cordl_internal_get__ifru_mtu();
 
-  constexpr int32_t const& __get__ifru_mtu() const;
+  constexpr int32_t const& __cordl_internal_get__ifru_mtu() const;
 
-  constexpr void __set__ifru_mtu(int32_t value);
+  constexpr void __cordl_internal_set__ifru_mtu(int32_t value);
 
   static inline ::System::Net::NetworkInformation::AixNetworkInterface* New_ctor(::StringW name, uint32_t ifa_flags, int32_t ifru_mtu);
 

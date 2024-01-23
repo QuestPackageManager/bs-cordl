@@ -60,29 +60,29 @@ MARK_REF_PTR_T(::System::Security::Claims::__ClaimsIdentity___get_Claims_d__51);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Claims {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3009))
 // CS Name: ::ClaimsIdentity::<get_Claims>d__51*
 class CORDL_TYPE __ClaimsIdentity___get_Claims_d__51 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __get___1__state, put = __set___1__state)) int32_t __1__state;
+  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
 
   /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __get___2__current, put = __set___2__current))::System::Security::Claims::Claim* __2__current;
+  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::System::Security::Claims::Claim* __2__current;
 
   /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __get___l__initialThreadId, put = __set___l__initialThreadId)) int32_t __l__initialThreadId;
+  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
 
   /// @brief Field <>4__this, offset 0x28, size 0x8
-  __declspec(property(get = __get___4__this, put = __set___4__this))::System::Security::Claims::ClaimsIdentity* __4__this;
+  __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this))::System::Security::Claims::ClaimsIdentity* __4__this;
 
   /// @brief Field <i>5__2, offset 0x30, size 0x4
-  __declspec(property(get = __get__i_5__2, put = __set__i_5__2)) int32_t _i_5__2;
+  __declspec(property(get = __cordl_internal_get__i_5__2, put = __cordl_internal_set__i_5__2)) int32_t _i_5__2;
 
   /// @brief Field <>7__wrap2, offset 0x38, size 0x8
-  __declspec(property(get = __get___7__wrap2, put = __set___7__wrap2))::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>* __7__wrap2;
+  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2))::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>* __7__wrap2;
 
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Security_Claims_Claim__get_Current))::System::Security::Claims::
       Claim* System_Collections_Generic_IEnumerator_System_Security_Claims_Claim__Current;
@@ -119,41 +119,41 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  constexpr int32_t& __get___1__state();
+  constexpr int32_t& __cordl_internal_get___1__state();
 
-  constexpr int32_t const& __get___1__state() const;
+  constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr void __set___1__state(int32_t value);
+  constexpr void __cordl_internal_set___1__state(int32_t value);
 
-  constexpr ::System::Security::Claims::Claim*& __get___2__current();
+  constexpr ::System::Security::Claims::Claim*& __cordl_internal_get___2__current();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Claims::Claim*> const& __get___2__current() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Claims::Claim*> const& __cordl_internal_get___2__current() const;
 
-  constexpr void __set___2__current(::System::Security::Claims::Claim* value);
+  constexpr void __cordl_internal_set___2__current(::System::Security::Claims::Claim* value);
 
-  constexpr int32_t& __get___l__initialThreadId();
+  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
 
-  constexpr int32_t const& __get___l__initialThreadId() const;
+  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr void __set___l__initialThreadId(int32_t value);
+  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  constexpr ::System::Security::Claims::ClaimsIdentity*& __get___4__this();
+  constexpr ::System::Security::Claims::ClaimsIdentity*& __cordl_internal_get___4__this();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Claims::ClaimsIdentity*> const& __get___4__this() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Claims::ClaimsIdentity*> const& __cordl_internal_get___4__this() const;
 
-  constexpr void __set___4__this(::System::Security::Claims::ClaimsIdentity* value);
+  constexpr void __cordl_internal_set___4__this(::System::Security::Claims::ClaimsIdentity* value);
 
-  constexpr int32_t& __get__i_5__2();
+  constexpr int32_t& __cordl_internal_get__i_5__2();
 
-  constexpr int32_t const& __get__i_5__2() const;
+  constexpr int32_t const& __cordl_internal_get__i_5__2() const;
 
-  constexpr void __set__i_5__2(int32_t value);
+  constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>*& __get___7__wrap2();
+  constexpr ::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>*& __cordl_internal_get___7__wrap2();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>*> const& __get___7__wrap2() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>*> const& __cordl_internal_get___7__wrap2() const;
 
-  constexpr void __set___7__wrap2(::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>* value);
+  constexpr void __cordl_internal_set___7__wrap2(::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>* value);
 
   static inline ::System::Security::Claims::__ClaimsIdentity___get_Claims_d__51* New_ctor(int32_t __1__state);
 
@@ -238,7 +238,7 @@ static_assert(offsetof(::System::Security::Claims::__ClaimsIdentity___get_Claims
 // SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Claims {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3010))
 // CS Name: ::System.Security.Claims::ClaimsIdentity*
 class CORDL_TYPE ClaimsIdentity : public ::System::Object {
@@ -247,45 +247,45 @@ public:
   using _get_Claims_d__51 = ::System::Security::Claims::__ClaimsIdentity___get_Claims_d__51;
 
   /// @brief Field m_userSerializationData, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_userSerializationData, put = __set_m_userSerializationData))::ArrayW<uint8_t, ::Array<uint8_t>*> m_userSerializationData;
+  __declspec(property(get = __cordl_internal_get_m_userSerializationData, put = __cordl_internal_set_m_userSerializationData))::ArrayW<uint8_t, ::Array<uint8_t>*> m_userSerializationData;
 
   /// @brief Field m_instanceClaims, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_instanceClaims, put = __set_m_instanceClaims))::System::Collections::Generic::List_1<::System::Security::Claims::Claim*>* m_instanceClaims;
+  __declspec(property(get = __cordl_internal_get_m_instanceClaims,
+                      put = __cordl_internal_set_m_instanceClaims))::System::Collections::Generic::List_1<::System::Security::Claims::Claim*>* m_instanceClaims;
 
   /// @brief Field m_externalClaims, offset 0x20, size 0x8
-  __declspec(
-      property(get = __get_m_externalClaims,
-               put = __set_m_externalClaims))::System::Collections::ObjectModel::Collection_1<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>*>* m_externalClaims;
+  __declspec(property(get = __cordl_internal_get_m_externalClaims, put = __cordl_internal_set_m_externalClaims))::System::Collections::ObjectModel::Collection_1<
+      ::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>*>* m_externalClaims;
 
   /// @brief Field m_nameType, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_nameType, put = __set_m_nameType))::StringW m_nameType;
+  __declspec(property(get = __cordl_internal_get_m_nameType, put = __cordl_internal_set_m_nameType))::StringW m_nameType;
 
   /// @brief Field m_roleType, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_roleType, put = __set_m_roleType))::StringW m_roleType;
+  __declspec(property(get = __cordl_internal_get_m_roleType, put = __cordl_internal_set_m_roleType))::StringW m_roleType;
 
   /// @brief Field m_version, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_version, put = __set_m_version))::StringW m_version;
+  __declspec(property(get = __cordl_internal_get_m_version, put = __cordl_internal_set_m_version))::StringW m_version;
 
   /// @brief Field m_actor, offset 0x40, size 0x8
-  __declspec(property(get = __get_m_actor, put = __set_m_actor))::System::Security::Claims::ClaimsIdentity* m_actor;
+  __declspec(property(get = __cordl_internal_get_m_actor, put = __cordl_internal_set_m_actor))::System::Security::Claims::ClaimsIdentity* m_actor;
 
   /// @brief Field m_authenticationType, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_authenticationType, put = __set_m_authenticationType))::StringW m_authenticationType;
+  __declspec(property(get = __cordl_internal_get_m_authenticationType, put = __cordl_internal_set_m_authenticationType))::StringW m_authenticationType;
 
   /// @brief Field m_bootstrapContext, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_bootstrapContext, put = __set_m_bootstrapContext))::System::Object* m_bootstrapContext;
+  __declspec(property(get = __cordl_internal_get_m_bootstrapContext, put = __cordl_internal_set_m_bootstrapContext))::System::Object* m_bootstrapContext;
 
   /// @brief Field m_label, offset 0x58, size 0x8
-  __declspec(property(get = __get_m_label, put = __set_m_label))::StringW m_label;
+  __declspec(property(get = __cordl_internal_get_m_label, put = __cordl_internal_set_m_label))::StringW m_label;
 
   /// @brief Field m_serializedNameType, offset 0x60, size 0x8
-  __declspec(property(get = __get_m_serializedNameType, put = __set_m_serializedNameType))::StringW m_serializedNameType;
+  __declspec(property(get = __cordl_internal_get_m_serializedNameType, put = __cordl_internal_set_m_serializedNameType))::StringW m_serializedNameType;
 
   /// @brief Field m_serializedRoleType, offset 0x68, size 0x8
-  __declspec(property(get = __get_m_serializedRoleType, put = __set_m_serializedRoleType))::StringW m_serializedRoleType;
+  __declspec(property(get = __cordl_internal_get_m_serializedRoleType, put = __cordl_internal_set_m_serializedRoleType))::StringW m_serializedRoleType;
 
   /// @brief Field m_serializedClaims, offset 0x70, size 0x8
-  __declspec(property(get = __get_m_serializedClaims, put = __set_m_serializedClaims))::StringW m_serializedClaims;
+  __declspec(property(get = __cordl_internal_get_m_serializedClaims, put = __cordl_internal_set_m_serializedClaims))::StringW m_serializedClaims;
 
   __declspec(property(get = get_AuthenticationType))::StringW AuthenticationType;
 
@@ -303,84 +303,84 @@ public:
   /// @brief Convert to "::System::Security::Principal::IIdentity"
   constexpr ::System::Security::Principal::IIdentity* i___System__Security__Principal__IIdentity() noexcept;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_m_userSerializationData();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_userSerializationData();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_m_userSerializationData() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_userSerializationData() const;
 
-  constexpr void __set_m_userSerializationData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_m_userSerializationData(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Security::Claims::Claim*>*& __get_m_instanceClaims();
+  constexpr ::System::Collections::Generic::List_1<::System::Security::Claims::Claim*>*& __cordl_internal_get_m_instanceClaims();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Security::Claims::Claim*>*> const& __get_m_instanceClaims() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Security::Claims::Claim*>*> const& __cordl_internal_get_m_instanceClaims() const;
 
-  constexpr void __set_m_instanceClaims(::System::Collections::Generic::List_1<::System::Security::Claims::Claim*>* value);
+  constexpr void __cordl_internal_set_m_instanceClaims(::System::Collections::Generic::List_1<::System::Security::Claims::Claim*>* value);
 
-  constexpr ::System::Collections::ObjectModel::Collection_1<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>*>*& __get_m_externalClaims();
+  constexpr ::System::Collections::ObjectModel::Collection_1<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>*>*& __cordl_internal_get_m_externalClaims();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::ObjectModel::Collection_1<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>*>*> const&
-  __get_m_externalClaims() const;
+  __cordl_internal_get_m_externalClaims() const;
 
-  constexpr void __set_m_externalClaims(::System::Collections::ObjectModel::Collection_1<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>*>* value);
+  constexpr void __cordl_internal_set_m_externalClaims(::System::Collections::ObjectModel::Collection_1<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>*>* value);
 
-  constexpr ::StringW& __get_m_nameType();
+  constexpr ::StringW& __cordl_internal_get_m_nameType();
 
-  constexpr ::StringW const& __get_m_nameType() const;
+  constexpr ::StringW const& __cordl_internal_get_m_nameType() const;
 
-  constexpr void __set_m_nameType(::StringW value);
+  constexpr void __cordl_internal_set_m_nameType(::StringW value);
 
-  constexpr ::StringW& __get_m_roleType();
+  constexpr ::StringW& __cordl_internal_get_m_roleType();
 
-  constexpr ::StringW const& __get_m_roleType() const;
+  constexpr ::StringW const& __cordl_internal_get_m_roleType() const;
 
-  constexpr void __set_m_roleType(::StringW value);
+  constexpr void __cordl_internal_set_m_roleType(::StringW value);
 
-  constexpr ::StringW& __get_m_version();
+  constexpr ::StringW& __cordl_internal_get_m_version();
 
-  constexpr ::StringW const& __get_m_version() const;
+  constexpr ::StringW const& __cordl_internal_get_m_version() const;
 
-  constexpr void __set_m_version(::StringW value);
+  constexpr void __cordl_internal_set_m_version(::StringW value);
 
-  constexpr ::System::Security::Claims::ClaimsIdentity*& __get_m_actor();
+  constexpr ::System::Security::Claims::ClaimsIdentity*& __cordl_internal_get_m_actor();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Claims::ClaimsIdentity*> const& __get_m_actor() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Security::Claims::ClaimsIdentity*> const& __cordl_internal_get_m_actor() const;
 
-  constexpr void __set_m_actor(::System::Security::Claims::ClaimsIdentity* value);
+  constexpr void __cordl_internal_set_m_actor(::System::Security::Claims::ClaimsIdentity* value);
 
-  constexpr ::StringW& __get_m_authenticationType();
+  constexpr ::StringW& __cordl_internal_get_m_authenticationType();
 
-  constexpr ::StringW const& __get_m_authenticationType() const;
+  constexpr ::StringW const& __cordl_internal_get_m_authenticationType() const;
 
-  constexpr void __set_m_authenticationType(::StringW value);
+  constexpr void __cordl_internal_set_m_authenticationType(::StringW value);
 
-  constexpr ::System::Object*& __get_m_bootstrapContext();
+  constexpr ::System::Object*& __cordl_internal_get_m_bootstrapContext();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get_m_bootstrapContext() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_bootstrapContext() const;
 
-  constexpr void __set_m_bootstrapContext(::System::Object* value);
+  constexpr void __cordl_internal_set_m_bootstrapContext(::System::Object* value);
 
-  constexpr ::StringW& __get_m_label();
+  constexpr ::StringW& __cordl_internal_get_m_label();
 
-  constexpr ::StringW const& __get_m_label() const;
+  constexpr ::StringW const& __cordl_internal_get_m_label() const;
 
-  constexpr void __set_m_label(::StringW value);
+  constexpr void __cordl_internal_set_m_label(::StringW value);
 
-  constexpr ::StringW& __get_m_serializedNameType();
+  constexpr ::StringW& __cordl_internal_get_m_serializedNameType();
 
-  constexpr ::StringW const& __get_m_serializedNameType() const;
+  constexpr ::StringW const& __cordl_internal_get_m_serializedNameType() const;
 
-  constexpr void __set_m_serializedNameType(::StringW value);
+  constexpr void __cordl_internal_set_m_serializedNameType(::StringW value);
 
-  constexpr ::StringW& __get_m_serializedRoleType();
+  constexpr ::StringW& __cordl_internal_get_m_serializedRoleType();
 
-  constexpr ::StringW const& __get_m_serializedRoleType() const;
+  constexpr ::StringW const& __cordl_internal_get_m_serializedRoleType() const;
 
-  constexpr void __set_m_serializedRoleType(::StringW value);
+  constexpr void __cordl_internal_set_m_serializedRoleType(::StringW value);
 
-  constexpr ::StringW& __get_m_serializedClaims();
+  constexpr ::StringW& __cordl_internal_get_m_serializedClaims();
 
-  constexpr ::StringW const& __get_m_serializedClaims() const;
+  constexpr ::StringW const& __cordl_internal_get_m_serializedClaims() const;
 
-  constexpr void __set_m_serializedClaims(::StringW value);
+  constexpr void __cordl_internal_set_m_serializedClaims(::StringW value);
 
   static inline ::System::Security::Claims::ClaimsIdentity* New_ctor();
 

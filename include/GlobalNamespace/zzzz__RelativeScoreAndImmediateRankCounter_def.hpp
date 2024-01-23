@@ -32,69 +32,72 @@ MARK_REF_PTR_T(::GlobalNamespace::RelativeScoreAndImmediateRankCounter);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15034)), TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225)), TypeDefinitionIndex(TypeDefinitionIndex(15034))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5042))
 // CS Name: ::RelativeScoreAndImmediateRankCounter*
 class CORDL_TYPE RelativeScoreAndImmediateRankCounter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _gameplayModifiersModel, offset 0x18, size 0x8
-  __declspec(property(get = __get__gameplayModifiersModel, put = __set__gameplayModifiersModel))::GlobalNamespace::GameplayModifiersModelSO* _gameplayModifiersModel;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiersModel,
+                      put = __cordl_internal_set__gameplayModifiersModel))::UnityW<::GlobalNamespace::GameplayModifiersModelSO> _gameplayModifiersModel;
 
   /// @brief Field _scoreController, offset 0x20, size 0x8
-  __declspec(property(get = __get__scoreController, put = __set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
+  __declspec(property(get = __cordl_internal_get__scoreController, put = __cordl_internal_set__scoreController))::GlobalNamespace::IScoreController* _scoreController;
 
   /// @brief Field _gameplayModifiers, offset 0x28, size 0x8
-  __declspec(property(get = __get__gameplayModifiers, put = __set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
+  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers))::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
 
   /// @brief Field relativeScoreOrImmediateRankDidChangeEvent, offset 0x30, size 0x8
-  __declspec(property(get = __get_relativeScoreOrImmediateRankDidChangeEvent, put = __set_relativeScoreOrImmediateRankDidChangeEvent))::System::Action* relativeScoreOrImmediateRankDidChangeEvent;
+  __declspec(property(get = __cordl_internal_get_relativeScoreOrImmediateRankDidChangeEvent,
+                      put = __cordl_internal_set_relativeScoreOrImmediateRankDidChangeEvent))::System::Action* relativeScoreOrImmediateRankDidChangeEvent;
 
   /// @brief Field <relativeScore>k__BackingField, offset 0x38, size 0x4
-  __declspec(property(get = __get__relativeScore_k__BackingField, put = __set__relativeScore_k__BackingField)) float_t _relativeScore_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__relativeScore_k__BackingField, put = __cordl_internal_set__relativeScore_k__BackingField)) float_t _relativeScore_k__BackingField;
 
   /// @brief Field <immediateRank>k__BackingField, offset 0x3c, size 0x4
-  __declspec(property(get = __get__immediateRank_k__BackingField, put = __set__immediateRank_k__BackingField))::GlobalNamespace::__RankModel__Rank _immediateRank_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__immediateRank_k__BackingField,
+                      put = __cordl_internal_set__immediateRank_k__BackingField))::GlobalNamespace::__RankModel__Rank _immediateRank_k__BackingField;
 
   __declspec(property(get = get_relativeScore, put = set_relativeScore)) float_t relativeScore;
 
   __declspec(property(get = get_immediateRank, put = set_immediateRank))::GlobalNamespace::__RankModel__Rank immediateRank;
 
-  constexpr ::GlobalNamespace::GameplayModifiersModelSO*& __get__gameplayModifiersModel();
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& __cordl_internal_get__gameplayModifiersModel();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiersModelSO*> const& __get__gameplayModifiersModel() const;
+  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiersModel() const;
 
-  constexpr void __set__gameplayModifiersModel(::GlobalNamespace::GameplayModifiersModelSO* value);
+  constexpr void __cordl_internal_set__gameplayModifiersModel(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value);
 
-  constexpr ::GlobalNamespace::IScoreController*& __get__scoreController();
+  constexpr ::GlobalNamespace::IScoreController*& __cordl_internal_get__scoreController();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __get__scoreController() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IScoreController*> const& __cordl_internal_get__scoreController() const;
 
-  constexpr void __set__scoreController(::GlobalNamespace::IScoreController* value);
+  constexpr void __cordl_internal_set__scoreController(::GlobalNamespace::IScoreController* value);
 
-  constexpr ::GlobalNamespace::GameplayModifiers*& __get__gameplayModifiers();
+  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __get__gameplayModifiers() const;
+  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& __cordl_internal_get__gameplayModifiers() const;
 
-  constexpr void __set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
+  constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  constexpr ::System::Action*& __get_relativeScoreOrImmediateRankDidChangeEvent();
+  constexpr ::System::Action*& __cordl_internal_get_relativeScoreOrImmediateRankDidChangeEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_relativeScoreOrImmediateRankDidChangeEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_relativeScoreOrImmediateRankDidChangeEvent() const;
 
-  constexpr void __set_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
 
-  constexpr float_t& __get__relativeScore_k__BackingField();
+  constexpr float_t& __cordl_internal_get__relativeScore_k__BackingField();
 
-  constexpr float_t const& __get__relativeScore_k__BackingField() const;
+  constexpr float_t const& __cordl_internal_get__relativeScore_k__BackingField() const;
 
-  constexpr void __set__relativeScore_k__BackingField(float_t value);
+  constexpr void __cordl_internal_set__relativeScore_k__BackingField(float_t value);
 
-  constexpr ::GlobalNamespace::__RankModel__Rank& __get__immediateRank_k__BackingField();
+  constexpr ::GlobalNamespace::__RankModel__Rank& __cordl_internal_get__immediateRank_k__BackingField();
 
-  constexpr ::GlobalNamespace::__RankModel__Rank const& __get__immediateRank_k__BackingField() const;
+  constexpr ::GlobalNamespace::__RankModel__Rank const& __cordl_internal_get__immediateRank_k__BackingField() const;
 
-  constexpr void __set__immediateRank_k__BackingField(::GlobalNamespace::__RankModel__Rank value);
+  constexpr void __cordl_internal_set__immediateRank_k__BackingField(::GlobalNamespace::__RankModel__Rank value);
 
   /// @brief Method add_relativeScoreOrImmediateRankDidChangeEvent, addr 0x23c0f80, size 0x9c, virtual false, abstract: false, final false
   inline void add_relativeScoreOrImmediateRankDidChangeEvent(::System::Action* value);
@@ -146,7 +149,7 @@ protected:
 
 public:
   /// @brief Field _gameplayModifiersModel, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::GameplayModifiersModelSO* ____gameplayModifiersModel;
+  ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
 
   /// @brief Field _scoreController, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::IScoreController* ____scoreController;

@@ -35,54 +35,56 @@ MARK_REF_PTR_T(::System::Threading::Tasks::TaskExceptionHolder);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2808))
 // CS Name: ::System.Threading.Tasks::TaskExceptionHolder*
 class CORDL_TYPE TaskExceptionHolder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_task, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_task, put = __set_m_task))::System::Threading::Tasks::Task* m_task;
+  __declspec(property(get = __cordl_internal_get_m_task, put = __cordl_internal_set_m_task))::System::Threading::Tasks::Task* m_task;
 
   /// @brief Field m_faultExceptions, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_faultExceptions,
-                      put = __set_m_faultExceptions))::System::Collections::Generic::LowLevelListWithIList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* m_faultExceptions;
+  __declspec(
+      property(get = __cordl_internal_get_m_faultExceptions,
+               put = __cordl_internal_set_m_faultExceptions))::System::Collections::Generic::LowLevelListWithIList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* m_faultExceptions;
 
   /// @brief Field m_cancellationException, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_cancellationException, put = __set_m_cancellationException))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* m_cancellationException;
+  __declspec(property(get = __cordl_internal_get_m_cancellationException,
+                      put = __cordl_internal_set_m_cancellationException))::System::Runtime::ExceptionServices::ExceptionDispatchInfo* m_cancellationException;
 
   /// @brief Field m_isHandled, offset 0x28, size 0x1
-  __declspec(property(get = __get_m_isHandled, put = __set_m_isHandled)) bool m_isHandled;
+  __declspec(property(get = __cordl_internal_get_m_isHandled, put = __cordl_internal_set_m_isHandled)) bool m_isHandled;
 
   /// @brief Field s_failFastOnUnobservedException, offset 0xffffffff, size 0x1
   static __declspec(property(get = getStaticF_s_failFastOnUnobservedException, put = setStaticF_s_failFastOnUnobservedException)) bool s_failFastOnUnobservedException;
 
   __declspec(property(get = get_ContainsFaultList)) bool ContainsFaultList;
 
-  constexpr ::System::Threading::Tasks::Task*& __get_m_task();
+  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get_m_task();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __get_m_task() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get_m_task() const;
 
-  constexpr void __set_m_task(::System::Threading::Tasks::Task* value);
+  constexpr void __cordl_internal_set_m_task(::System::Threading::Tasks::Task* value);
 
-  constexpr ::System::Collections::Generic::LowLevelListWithIList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*& __get_m_faultExceptions();
+  constexpr ::System::Collections::Generic::LowLevelListWithIList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*& __cordl_internal_get_m_faultExceptions();
 
   constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::LowLevelListWithIList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>*> const&
-  __get_m_faultExceptions() const;
+  __cordl_internal_get_m_faultExceptions() const;
 
-  constexpr void __set_m_faultExceptions(::System::Collections::Generic::LowLevelListWithIList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* value);
+  constexpr void __cordl_internal_set_m_faultExceptions(::System::Collections::Generic::LowLevelListWithIList_1<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*>* value);
 
-  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __get_m_cancellationException();
+  constexpr ::System::Runtime::ExceptionServices::ExceptionDispatchInfo*& __cordl_internal_get_m_cancellationException();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __get_m_cancellationException() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::ExceptionServices::ExceptionDispatchInfo*> const& __cordl_internal_get_m_cancellationException() const;
 
-  constexpr void __set_m_cancellationException(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
+  constexpr void __cordl_internal_set_m_cancellationException(::System::Runtime::ExceptionServices::ExceptionDispatchInfo* value);
 
-  constexpr bool& __get_m_isHandled();
+  constexpr bool& __cordl_internal_get_m_isHandled();
 
-  constexpr bool const& __get_m_isHandled() const;
+  constexpr bool const& __cordl_internal_get_m_isHandled() const;
 
-  constexpr void __set_m_isHandled(bool value);
+  constexpr void __cordl_internal_set_m_isHandled(bool value);
 
   static inline void setStaticF_s_failFastOnUnobservedException(bool value);
 

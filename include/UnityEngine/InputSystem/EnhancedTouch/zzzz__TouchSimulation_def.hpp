@@ -50,44 +50,47 @@ MARK_REF_PTR_T(::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation);
 // SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::EnhancedTouch {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(6422))
 // CS Name: ::UnityEngine.InputSystem.EnhancedTouch::TouchSimulation*
 class CORDL_TYPE TouchSimulation : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field <simulatedTouchscreen>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__simulatedTouchscreen_k__BackingField,
-                      put = __set__simulatedTouchscreen_k__BackingField))::UnityEngine::InputSystem::Touchscreen* _simulatedTouchscreen_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__simulatedTouchscreen_k__BackingField,
+                      put = __cordl_internal_set__simulatedTouchscreen_k__BackingField))::UnityEngine::InputSystem::Touchscreen* _simulatedTouchscreen_k__BackingField;
 
   /// @brief Field m_NumPointers, offset 0x20, size 0x4
-  __declspec(property(get = __get_m_NumPointers, put = __set_m_NumPointers)) int32_t m_NumPointers;
+  __declspec(property(get = __cordl_internal_get_m_NumPointers, put = __cordl_internal_set_m_NumPointers)) int32_t m_NumPointers;
 
   /// @brief Field m_Pointers, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_Pointers, put = __set_m_Pointers))::ArrayW<::UnityEngine::InputSystem::Pointer*, ::Array<::UnityEngine::InputSystem::Pointer*>*> m_Pointers;
+  __declspec(property(get = __cordl_internal_get_m_Pointers,
+                      put = __cordl_internal_set_m_Pointers))::ArrayW<::UnityEngine::InputSystem::Pointer*, ::Array<::UnityEngine::InputSystem::Pointer*>*> m_Pointers;
 
   /// @brief Field m_CurrentPositions, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_CurrentPositions, put = __set_m_CurrentPositions))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> m_CurrentPositions;
+  __declspec(property(get = __cordl_internal_get_m_CurrentPositions,
+                      put = __cordl_internal_set_m_CurrentPositions))::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> m_CurrentPositions;
 
   /// @brief Field m_Touches, offset 0x38, size 0x8
-  __declspec(property(get = __get_m_Touches,
-                      put = __set_m_Touches))::ArrayW<::UnityEngine::InputSystem::Controls::ButtonControl*, ::Array<::UnityEngine::InputSystem::Controls::ButtonControl*>*> m_Touches;
+  __declspec(property(get = __cordl_internal_get_m_Touches,
+                      put = __cordl_internal_set_m_Touches))::ArrayW<::UnityEngine::InputSystem::Controls::ButtonControl*, ::Array<::UnityEngine::InputSystem::Controls::ButtonControl*>*> m_Touches;
 
   /// @brief Field m_LastTouchId, offset 0x40, size 0x4
-  __declspec(property(get = __get_m_LastTouchId, put = __set_m_LastTouchId)) int32_t m_LastTouchId;
+  __declspec(property(get = __cordl_internal_get_m_LastTouchId, put = __cordl_internal_set_m_LastTouchId)) int32_t m_LastTouchId;
 
   /// @brief Field m_PrimaryTouchIndex, offset 0x44, size 0x4
-  __declspec(property(get = __get_m_PrimaryTouchIndex, put = __set_m_PrimaryTouchIndex)) int32_t m_PrimaryTouchIndex;
+  __declspec(property(get = __cordl_internal_get_m_PrimaryTouchIndex, put = __cordl_internal_set_m_PrimaryTouchIndex)) int32_t m_PrimaryTouchIndex;
 
   /// @brief Field m_OnDeviceChange, offset 0x48, size 0x8
-  __declspec(property(get = __get_m_OnDeviceChange,
-                      put = __set_m_OnDeviceChange))::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>* m_OnDeviceChange;
+  __declspec(property(get = __cordl_internal_get_m_OnDeviceChange,
+                      put = __cordl_internal_set_m_OnDeviceChange))::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>* m_OnDeviceChange;
 
   /// @brief Field m_OnEvent, offset 0x50, size 0x8
-  __declspec(property(get = __get_m_OnEvent, put = __set_m_OnEvent))::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* m_OnEvent;
+  __declspec(property(get = __cordl_internal_get_m_OnEvent,
+                      put = __cordl_internal_set_m_OnEvent))::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* m_OnEvent;
 
   /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation* s_Instance;
+  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> s_Instance;
 
   __declspec(property(get = get_simulatedTouchscreen, put = set_simulatedTouchscreen))::UnityEngine::InputSystem::Touchscreen* simulatedTouchscreen;
 
@@ -97,63 +100,65 @@ public:
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor"
   constexpr ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor* i___UnityEngine__InputSystem__LowLevel__IInputStateChangeMonitor() noexcept;
 
-  constexpr ::UnityEngine::InputSystem::Touchscreen*& __get__simulatedTouchscreen_k__BackingField();
+  constexpr ::UnityEngine::InputSystem::Touchscreen*& __cordl_internal_get__simulatedTouchscreen_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Touchscreen*> const& __get__simulatedTouchscreen_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::InputSystem::Touchscreen*> const& __cordl_internal_get__simulatedTouchscreen_k__BackingField() const;
 
-  constexpr void __set__simulatedTouchscreen_k__BackingField(::UnityEngine::InputSystem::Touchscreen* value);
+  constexpr void __cordl_internal_set__simulatedTouchscreen_k__BackingField(::UnityEngine::InputSystem::Touchscreen* value);
 
-  constexpr int32_t& __get_m_NumPointers();
+  constexpr int32_t& __cordl_internal_get_m_NumPointers();
 
-  constexpr int32_t const& __get_m_NumPointers() const;
+  constexpr int32_t const& __cordl_internal_get_m_NumPointers() const;
 
-  constexpr void __set_m_NumPointers(int32_t value);
+  constexpr void __cordl_internal_set_m_NumPointers(int32_t value);
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::Pointer*, ::Array<::UnityEngine::InputSystem::Pointer*>*>& __get_m_Pointers();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::Pointer*, ::Array<::UnityEngine::InputSystem::Pointer*>*>& __cordl_internal_get_m_Pointers();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::Pointer*, ::Array<::UnityEngine::InputSystem::Pointer*>*> const& __get_m_Pointers() const;
+  constexpr ::ArrayW<::UnityEngine::InputSystem::Pointer*, ::Array<::UnityEngine::InputSystem::Pointer*>*> const& __cordl_internal_get_m_Pointers() const;
 
-  constexpr void __set_m_Pointers(::ArrayW<::UnityEngine::InputSystem::Pointer*, ::Array<::UnityEngine::InputSystem::Pointer*>*> value);
+  constexpr void __cordl_internal_set_m_Pointers(::ArrayW<::UnityEngine::InputSystem::Pointer*, ::Array<::UnityEngine::InputSystem::Pointer*>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __get_m_CurrentPositions();
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>& __cordl_internal_get_m_CurrentPositions();
 
-  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __get_m_CurrentPositions() const;
+  constexpr ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> const& __cordl_internal_get_m_CurrentPositions() const;
 
-  constexpr void __set_m_CurrentPositions(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
+  constexpr void __cordl_internal_set_m_CurrentPositions(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::Controls::ButtonControl*, ::Array<::UnityEngine::InputSystem::Controls::ButtonControl*>*>& __get_m_Touches();
+  constexpr ::ArrayW<::UnityEngine::InputSystem::Controls::ButtonControl*, ::Array<::UnityEngine::InputSystem::Controls::ButtonControl*>*>& __cordl_internal_get_m_Touches();
 
-  constexpr ::ArrayW<::UnityEngine::InputSystem::Controls::ButtonControl*, ::Array<::UnityEngine::InputSystem::Controls::ButtonControl*>*> const& __get_m_Touches() const;
+  constexpr ::ArrayW<::UnityEngine::InputSystem::Controls::ButtonControl*, ::Array<::UnityEngine::InputSystem::Controls::ButtonControl*>*> const& __cordl_internal_get_m_Touches() const;
 
-  constexpr void __set_m_Touches(::ArrayW<::UnityEngine::InputSystem::Controls::ButtonControl*, ::Array<::UnityEngine::InputSystem::Controls::ButtonControl*>*> value);
+  constexpr void __cordl_internal_set_m_Touches(::ArrayW<::UnityEngine::InputSystem::Controls::ButtonControl*, ::Array<::UnityEngine::InputSystem::Controls::ButtonControl*>*> value);
 
-  constexpr int32_t& __get_m_LastTouchId();
+  constexpr int32_t& __cordl_internal_get_m_LastTouchId();
 
-  constexpr int32_t const& __get_m_LastTouchId() const;
+  constexpr int32_t const& __cordl_internal_get_m_LastTouchId() const;
 
-  constexpr void __set_m_LastTouchId(int32_t value);
+  constexpr void __cordl_internal_set_m_LastTouchId(int32_t value);
 
-  constexpr int32_t& __get_m_PrimaryTouchIndex();
+  constexpr int32_t& __cordl_internal_get_m_PrimaryTouchIndex();
 
-  constexpr int32_t const& __get_m_PrimaryTouchIndex() const;
+  constexpr int32_t const& __cordl_internal_get_m_PrimaryTouchIndex() const;
 
-  constexpr void __set_m_PrimaryTouchIndex(int32_t value);
+  constexpr void __cordl_internal_set_m_PrimaryTouchIndex(int32_t value);
 
-  constexpr ::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*& __get_m_OnDeviceChange();
+  constexpr ::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*& __cordl_internal_get_m_OnDeviceChange();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*> const& __get_m_OnDeviceChange() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*> const&
+  __cordl_internal_get_m_OnDeviceChange() const;
 
-  constexpr void __set_m_OnDeviceChange(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>* value);
+  constexpr void __cordl_internal_set_m_OnDeviceChange(::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>* value);
 
-  constexpr ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*& __get_m_OnEvent();
+  constexpr ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*& __cordl_internal_get_m_OnEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*> const& __get_m_OnEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*> const&
+  __cordl_internal_get_m_OnEvent() const;
 
-  constexpr void __set_m_OnEvent(::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* value);
+  constexpr void __cordl_internal_set_m_OnEvent(::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* value);
 
-  static inline void setStaticF_s_Instance(::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation* value);
+  static inline void setStaticF_s_Instance(::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> value);
 
-  static inline ::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation* getStaticF_s_Instance();
+  static inline ::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> getStaticF_s_Instance();
 
   /// @brief Method get_simulatedTouchscreen, addr 0x2ae3bac, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Touchscreen* get_simulatedTouchscreen();
@@ -162,7 +167,7 @@ public:
   inline void set_simulatedTouchscreen(::UnityEngine::InputSystem::Touchscreen* value);
 
   /// @brief Method get_instance, addr 0x2ae3bbc, size 0x48, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation* get_instance();
+  static inline ::UnityW<::UnityEngine::InputSystem::EnhancedTouch::TouchSimulation> get_instance();
 
   /// @brief Method Enable, addr 0x2ae3c04, size 0x19c, virtual false, abstract: false, final false
   static inline void Enable();

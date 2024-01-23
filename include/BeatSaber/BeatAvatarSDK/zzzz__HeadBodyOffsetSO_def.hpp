@@ -19,33 +19,33 @@ MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::HeadBodyOffsetSO);
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(15857)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10249)), TypeDefinitionIndex(TypeDefinitionIndex(15857))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(15696))
 // CS Name: ::BeatSaber.BeatAvatarSDK::HeadBodyOffsetSO*
 class CORDL_TYPE HeadBodyOffsetSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
   /// @brief Field _headNeckOffset, offset 0x18, size 0xc
-  __declspec(property(get = __get__headNeckOffset, put = __set__headNeckOffset))::UnityEngine::Vector3 _headNeckOffset;
+  __declspec(property(get = __cordl_internal_get__headNeckOffset, put = __cordl_internal_set__headNeckOffset))::UnityEngine::Vector3 _headNeckOffset;
 
   /// @brief Field _verticalOffset, offset 0x24, size 0x4
-  __declspec(property(get = __get__verticalOffset, put = __set__verticalOffset)) float_t _verticalOffset;
+  __declspec(property(get = __cordl_internal_get__verticalOffset, put = __cordl_internal_set__verticalOffset)) float_t _verticalOffset;
 
   __declspec(property(get = get_headNeckOffset))::UnityEngine::Vector3 headNeckOffset;
 
   __declspec(property(get = get_verticalOffset)) float_t verticalOffset;
 
-  constexpr ::UnityEngine::Vector3& __get__headNeckOffset();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get__headNeckOffset();
 
-  constexpr ::UnityEngine::Vector3 const& __get__headNeckOffset() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__headNeckOffset() const;
 
-  constexpr void __set__headNeckOffset(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set__headNeckOffset(::UnityEngine::Vector3 value);
 
-  constexpr float_t& __get__verticalOffset();
+  constexpr float_t& __cordl_internal_get__verticalOffset();
 
-  constexpr float_t const& __get__verticalOffset() const;
+  constexpr float_t const& __cordl_internal_get__verticalOffset() const;
 
-  constexpr void __set__verticalOffset(float_t value);
+  constexpr void __cordl_internal_set__verticalOffset(float_t value);
 
   /// @brief Method get_headNeckOffset, addr 0xe1c0f8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_headNeckOffset();

@@ -17,22 +17,22 @@ MARK_REF_PTR_T(::System::Linq::Expressions::UnaryExpression);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(14300))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(14300))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14307))
 // CS Name: ::System.Linq.Expressions::UnaryExpression*
 class CORDL_TYPE UnaryExpression : public ::System::Linq::Expressions::Expression {
 public:
   // Declarations
   /// @brief Field <Operand>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Operand_k__BackingField, put = __set__Operand_k__BackingField))::System::Linq::Expressions::Expression* _Operand_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Operand_k__BackingField, put = __cordl_internal_set__Operand_k__BackingField))::System::Linq::Expressions::Expression* _Operand_k__BackingField;
 
   __declspec(property(get = get_Operand))::System::Linq::Expressions::Expression* Operand;
 
-  constexpr ::System::Linq::Expressions::Expression*& __get__Operand_k__BackingField();
+  constexpr ::System::Linq::Expressions::Expression*& __cordl_internal_get__Operand_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& __get__Operand_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Linq::Expressions::Expression*> const& __cordl_internal_get__Operand_k__BackingField() const;
 
-  constexpr void __set__Operand_k__BackingField(::System::Linq::Expressions::Expression* value);
+  constexpr void __cordl_internal_set__Operand_k__BackingField(::System::Linq::Expressions::Expression* value);
 
   /// @brief Method get_Operand, addr 0x2813e04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Operand();

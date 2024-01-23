@@ -29,7 +29,7 @@ MARK_REF_PTR_T(::GlobalNamespace::__MultiplayerConnectedPlayerBombNoteController
 // SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(5138))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5138))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5134))
 // CS Name: ::MultiplayerConnectedPlayerBombNoteController*
 class CORDL_TYPE MultiplayerConnectedPlayerBombNoteController : public ::GlobalNamespace::MultiplayerConnectedPlayerNoteController {
@@ -70,9 +70,9 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerConn
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(11050)), TypeDefinitionIndex(TypeDefinitionIndex(5134)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
-// 2819 })} Self: TypeDefinitionIndex(TypeDefinitionIndex(5133)) CS Name: ::MultiplayerConnectedPlayerBombNoteController::Pool*
-class CORDL_TYPE __MultiplayerConnectedPlayerBombNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController*> {
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(5134)), TypeDefinitionIndex(TypeDefinitionIndex(11050)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(11050), inst:
+// 2819 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(5133)) CS Name: ::MultiplayerConnectedPlayerBombNoteController::Pool*
+class CORDL_TYPE __MultiplayerConnectedPlayerBombNoteController__Pool : public ::Zenject::MonoMemoryPool_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerBombNoteController>> {
 public:
   // Declarations
   static inline ::GlobalNamespace::__MultiplayerConnectedPlayerBombNoteController__Pool* New_ctor();

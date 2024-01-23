@@ -17,200 +17,200 @@ MARK_REF_PTR_T(::TMPro::FaceInfo_Legacy);
 // SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(12357))
 // CS Name: ::TMPro::FaceInfo_Legacy*
 class CORDL_TYPE FaceInfo_Legacy : public ::System::Object {
 public:
   // Declarations
   /// @brief Field Name, offset 0x10, size 0x8
-  __declspec(property(get = __get_Name, put = __set_Name))::StringW Name;
+  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name))::StringW Name;
 
   /// @brief Field PointSize, offset 0x18, size 0x4
-  __declspec(property(get = __get_PointSize, put = __set_PointSize)) float_t PointSize;
+  __declspec(property(get = __cordl_internal_get_PointSize, put = __cordl_internal_set_PointSize)) float_t PointSize;
 
   /// @brief Field Scale, offset 0x1c, size 0x4
-  __declspec(property(get = __get_Scale, put = __set_Scale)) float_t Scale;
+  __declspec(property(get = __cordl_internal_get_Scale, put = __cordl_internal_set_Scale)) float_t Scale;
 
   /// @brief Field CharacterCount, offset 0x20, size 0x4
-  __declspec(property(get = __get_CharacterCount, put = __set_CharacterCount)) int32_t CharacterCount;
+  __declspec(property(get = __cordl_internal_get_CharacterCount, put = __cordl_internal_set_CharacterCount)) int32_t CharacterCount;
 
   /// @brief Field LineHeight, offset 0x24, size 0x4
-  __declspec(property(get = __get_LineHeight, put = __set_LineHeight)) float_t LineHeight;
+  __declspec(property(get = __cordl_internal_get_LineHeight, put = __cordl_internal_set_LineHeight)) float_t LineHeight;
 
   /// @brief Field Baseline, offset 0x28, size 0x4
-  __declspec(property(get = __get_Baseline, put = __set_Baseline)) float_t Baseline;
+  __declspec(property(get = __cordl_internal_get_Baseline, put = __cordl_internal_set_Baseline)) float_t Baseline;
 
   /// @brief Field Ascender, offset 0x2c, size 0x4
-  __declspec(property(get = __get_Ascender, put = __set_Ascender)) float_t Ascender;
+  __declspec(property(get = __cordl_internal_get_Ascender, put = __cordl_internal_set_Ascender)) float_t Ascender;
 
   /// @brief Field CapHeight, offset 0x30, size 0x4
-  __declspec(property(get = __get_CapHeight, put = __set_CapHeight)) float_t CapHeight;
+  __declspec(property(get = __cordl_internal_get_CapHeight, put = __cordl_internal_set_CapHeight)) float_t CapHeight;
 
   /// @brief Field Descender, offset 0x34, size 0x4
-  __declspec(property(get = __get_Descender, put = __set_Descender)) float_t Descender;
+  __declspec(property(get = __cordl_internal_get_Descender, put = __cordl_internal_set_Descender)) float_t Descender;
 
   /// @brief Field CenterLine, offset 0x38, size 0x4
-  __declspec(property(get = __get_CenterLine, put = __set_CenterLine)) float_t CenterLine;
+  __declspec(property(get = __cordl_internal_get_CenterLine, put = __cordl_internal_set_CenterLine)) float_t CenterLine;
 
   /// @brief Field SuperscriptOffset, offset 0x3c, size 0x4
-  __declspec(property(get = __get_SuperscriptOffset, put = __set_SuperscriptOffset)) float_t SuperscriptOffset;
+  __declspec(property(get = __cordl_internal_get_SuperscriptOffset, put = __cordl_internal_set_SuperscriptOffset)) float_t SuperscriptOffset;
 
   /// @brief Field SubscriptOffset, offset 0x40, size 0x4
-  __declspec(property(get = __get_SubscriptOffset, put = __set_SubscriptOffset)) float_t SubscriptOffset;
+  __declspec(property(get = __cordl_internal_get_SubscriptOffset, put = __cordl_internal_set_SubscriptOffset)) float_t SubscriptOffset;
 
   /// @brief Field SubSize, offset 0x44, size 0x4
-  __declspec(property(get = __get_SubSize, put = __set_SubSize)) float_t SubSize;
+  __declspec(property(get = __cordl_internal_get_SubSize, put = __cordl_internal_set_SubSize)) float_t SubSize;
 
   /// @brief Field Underline, offset 0x48, size 0x4
-  __declspec(property(get = __get_Underline, put = __set_Underline)) float_t Underline;
+  __declspec(property(get = __cordl_internal_get_Underline, put = __cordl_internal_set_Underline)) float_t Underline;
 
   /// @brief Field UnderlineThickness, offset 0x4c, size 0x4
-  __declspec(property(get = __get_UnderlineThickness, put = __set_UnderlineThickness)) float_t UnderlineThickness;
+  __declspec(property(get = __cordl_internal_get_UnderlineThickness, put = __cordl_internal_set_UnderlineThickness)) float_t UnderlineThickness;
 
   /// @brief Field strikethrough, offset 0x50, size 0x4
-  __declspec(property(get = __get_strikethrough, put = __set_strikethrough)) float_t strikethrough;
+  __declspec(property(get = __cordl_internal_get_strikethrough, put = __cordl_internal_set_strikethrough)) float_t strikethrough;
 
   /// @brief Field strikethroughThickness, offset 0x54, size 0x4
-  __declspec(property(get = __get_strikethroughThickness, put = __set_strikethroughThickness)) float_t strikethroughThickness;
+  __declspec(property(get = __cordl_internal_get_strikethroughThickness, put = __cordl_internal_set_strikethroughThickness)) float_t strikethroughThickness;
 
   /// @brief Field TabWidth, offset 0x58, size 0x4
-  __declspec(property(get = __get_TabWidth, put = __set_TabWidth)) float_t TabWidth;
+  __declspec(property(get = __cordl_internal_get_TabWidth, put = __cordl_internal_set_TabWidth)) float_t TabWidth;
 
   /// @brief Field Padding, offset 0x5c, size 0x4
-  __declspec(property(get = __get_Padding, put = __set_Padding)) float_t Padding;
+  __declspec(property(get = __cordl_internal_get_Padding, put = __cordl_internal_set_Padding)) float_t Padding;
 
   /// @brief Field AtlasWidth, offset 0x60, size 0x4
-  __declspec(property(get = __get_AtlasWidth, put = __set_AtlasWidth)) float_t AtlasWidth;
+  __declspec(property(get = __cordl_internal_get_AtlasWidth, put = __cordl_internal_set_AtlasWidth)) float_t AtlasWidth;
 
   /// @brief Field AtlasHeight, offset 0x64, size 0x4
-  __declspec(property(get = __get_AtlasHeight, put = __set_AtlasHeight)) float_t AtlasHeight;
+  __declspec(property(get = __cordl_internal_get_AtlasHeight, put = __cordl_internal_set_AtlasHeight)) float_t AtlasHeight;
 
-  constexpr ::StringW& __get_Name();
+  constexpr ::StringW& __cordl_internal_get_Name();
 
-  constexpr ::StringW const& __get_Name() const;
+  constexpr ::StringW const& __cordl_internal_get_Name() const;
 
-  constexpr void __set_Name(::StringW value);
+  constexpr void __cordl_internal_set_Name(::StringW value);
 
-  constexpr float_t& __get_PointSize();
+  constexpr float_t& __cordl_internal_get_PointSize();
 
-  constexpr float_t const& __get_PointSize() const;
+  constexpr float_t const& __cordl_internal_get_PointSize() const;
 
-  constexpr void __set_PointSize(float_t value);
+  constexpr void __cordl_internal_set_PointSize(float_t value);
 
-  constexpr float_t& __get_Scale();
+  constexpr float_t& __cordl_internal_get_Scale();
 
-  constexpr float_t const& __get_Scale() const;
+  constexpr float_t const& __cordl_internal_get_Scale() const;
 
-  constexpr void __set_Scale(float_t value);
+  constexpr void __cordl_internal_set_Scale(float_t value);
 
-  constexpr int32_t& __get_CharacterCount();
+  constexpr int32_t& __cordl_internal_get_CharacterCount();
 
-  constexpr int32_t const& __get_CharacterCount() const;
+  constexpr int32_t const& __cordl_internal_get_CharacterCount() const;
 
-  constexpr void __set_CharacterCount(int32_t value);
+  constexpr void __cordl_internal_set_CharacterCount(int32_t value);
 
-  constexpr float_t& __get_LineHeight();
+  constexpr float_t& __cordl_internal_get_LineHeight();
 
-  constexpr float_t const& __get_LineHeight() const;
+  constexpr float_t const& __cordl_internal_get_LineHeight() const;
 
-  constexpr void __set_LineHeight(float_t value);
+  constexpr void __cordl_internal_set_LineHeight(float_t value);
 
-  constexpr float_t& __get_Baseline();
+  constexpr float_t& __cordl_internal_get_Baseline();
 
-  constexpr float_t const& __get_Baseline() const;
+  constexpr float_t const& __cordl_internal_get_Baseline() const;
 
-  constexpr void __set_Baseline(float_t value);
+  constexpr void __cordl_internal_set_Baseline(float_t value);
 
-  constexpr float_t& __get_Ascender();
+  constexpr float_t& __cordl_internal_get_Ascender();
 
-  constexpr float_t const& __get_Ascender() const;
+  constexpr float_t const& __cordl_internal_get_Ascender() const;
 
-  constexpr void __set_Ascender(float_t value);
+  constexpr void __cordl_internal_set_Ascender(float_t value);
 
-  constexpr float_t& __get_CapHeight();
+  constexpr float_t& __cordl_internal_get_CapHeight();
 
-  constexpr float_t const& __get_CapHeight() const;
+  constexpr float_t const& __cordl_internal_get_CapHeight() const;
 
-  constexpr void __set_CapHeight(float_t value);
+  constexpr void __cordl_internal_set_CapHeight(float_t value);
 
-  constexpr float_t& __get_Descender();
+  constexpr float_t& __cordl_internal_get_Descender();
 
-  constexpr float_t const& __get_Descender() const;
+  constexpr float_t const& __cordl_internal_get_Descender() const;
 
-  constexpr void __set_Descender(float_t value);
+  constexpr void __cordl_internal_set_Descender(float_t value);
 
-  constexpr float_t& __get_CenterLine();
+  constexpr float_t& __cordl_internal_get_CenterLine();
 
-  constexpr float_t const& __get_CenterLine() const;
+  constexpr float_t const& __cordl_internal_get_CenterLine() const;
 
-  constexpr void __set_CenterLine(float_t value);
+  constexpr void __cordl_internal_set_CenterLine(float_t value);
 
-  constexpr float_t& __get_SuperscriptOffset();
+  constexpr float_t& __cordl_internal_get_SuperscriptOffset();
 
-  constexpr float_t const& __get_SuperscriptOffset() const;
+  constexpr float_t const& __cordl_internal_get_SuperscriptOffset() const;
 
-  constexpr void __set_SuperscriptOffset(float_t value);
+  constexpr void __cordl_internal_set_SuperscriptOffset(float_t value);
 
-  constexpr float_t& __get_SubscriptOffset();
+  constexpr float_t& __cordl_internal_get_SubscriptOffset();
 
-  constexpr float_t const& __get_SubscriptOffset() const;
+  constexpr float_t const& __cordl_internal_get_SubscriptOffset() const;
 
-  constexpr void __set_SubscriptOffset(float_t value);
+  constexpr void __cordl_internal_set_SubscriptOffset(float_t value);
 
-  constexpr float_t& __get_SubSize();
+  constexpr float_t& __cordl_internal_get_SubSize();
 
-  constexpr float_t const& __get_SubSize() const;
+  constexpr float_t const& __cordl_internal_get_SubSize() const;
 
-  constexpr void __set_SubSize(float_t value);
+  constexpr void __cordl_internal_set_SubSize(float_t value);
 
-  constexpr float_t& __get_Underline();
+  constexpr float_t& __cordl_internal_get_Underline();
 
-  constexpr float_t const& __get_Underline() const;
+  constexpr float_t const& __cordl_internal_get_Underline() const;
 
-  constexpr void __set_Underline(float_t value);
+  constexpr void __cordl_internal_set_Underline(float_t value);
 
-  constexpr float_t& __get_UnderlineThickness();
+  constexpr float_t& __cordl_internal_get_UnderlineThickness();
 
-  constexpr float_t const& __get_UnderlineThickness() const;
+  constexpr float_t const& __cordl_internal_get_UnderlineThickness() const;
 
-  constexpr void __set_UnderlineThickness(float_t value);
+  constexpr void __cordl_internal_set_UnderlineThickness(float_t value);
 
-  constexpr float_t& __get_strikethrough();
+  constexpr float_t& __cordl_internal_get_strikethrough();
 
-  constexpr float_t const& __get_strikethrough() const;
+  constexpr float_t const& __cordl_internal_get_strikethrough() const;
 
-  constexpr void __set_strikethrough(float_t value);
+  constexpr void __cordl_internal_set_strikethrough(float_t value);
 
-  constexpr float_t& __get_strikethroughThickness();
+  constexpr float_t& __cordl_internal_get_strikethroughThickness();
 
-  constexpr float_t const& __get_strikethroughThickness() const;
+  constexpr float_t const& __cordl_internal_get_strikethroughThickness() const;
 
-  constexpr void __set_strikethroughThickness(float_t value);
+  constexpr void __cordl_internal_set_strikethroughThickness(float_t value);
 
-  constexpr float_t& __get_TabWidth();
+  constexpr float_t& __cordl_internal_get_TabWidth();
 
-  constexpr float_t const& __get_TabWidth() const;
+  constexpr float_t const& __cordl_internal_get_TabWidth() const;
 
-  constexpr void __set_TabWidth(float_t value);
+  constexpr void __cordl_internal_set_TabWidth(float_t value);
 
-  constexpr float_t& __get_Padding();
+  constexpr float_t& __cordl_internal_get_Padding();
 
-  constexpr float_t const& __get_Padding() const;
+  constexpr float_t const& __cordl_internal_get_Padding() const;
 
-  constexpr void __set_Padding(float_t value);
+  constexpr void __cordl_internal_set_Padding(float_t value);
 
-  constexpr float_t& __get_AtlasWidth();
+  constexpr float_t& __cordl_internal_get_AtlasWidth();
 
-  constexpr float_t const& __get_AtlasWidth() const;
+  constexpr float_t const& __cordl_internal_get_AtlasWidth() const;
 
-  constexpr void __set_AtlasWidth(float_t value);
+  constexpr void __cordl_internal_set_AtlasWidth(float_t value);
 
-  constexpr float_t& __get_AtlasHeight();
+  constexpr float_t& __cordl_internal_get_AtlasHeight();
 
-  constexpr float_t const& __get_AtlasHeight() const;
+  constexpr float_t const& __cordl_internal_get_AtlasHeight() const;
 
-  constexpr void __set_AtlasHeight(float_t value);
+  constexpr void __cordl_internal_set_AtlasHeight(float_t value);
 
   static inline ::TMPro::FaceInfo_Legacy* New_ctor();
 

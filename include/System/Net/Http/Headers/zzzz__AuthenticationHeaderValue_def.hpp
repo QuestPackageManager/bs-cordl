@@ -32,17 +32,17 @@ MARK_REF_PTR_T(::System::Net::Http::Headers::AuthenticationHeaderValue);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http::Headers {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(14658))
 // CS Name: ::System.Net.Http.Headers::AuthenticationHeaderValue*
 class CORDL_TYPE AuthenticationHeaderValue : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <Parameter>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __get__Parameter_k__BackingField, put = __set__Parameter_k__BackingField))::StringW _Parameter_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Parameter_k__BackingField, put = __cordl_internal_set__Parameter_k__BackingField))::StringW _Parameter_k__BackingField;
 
   /// @brief Field <Scheme>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __get__Scheme_k__BackingField, put = __set__Scheme_k__BackingField))::StringW _Scheme_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__Scheme_k__BackingField, put = __cordl_internal_set__Scheme_k__BackingField))::StringW _Scheme_k__BackingField;
 
   __declspec(property(get = get_Parameter, put = set_Parameter))::StringW Parameter;
 
@@ -54,17 +54,17 @@ public:
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  constexpr ::StringW& __get__Parameter_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Parameter_k__BackingField();
 
-  constexpr ::StringW const& __get__Parameter_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Parameter_k__BackingField() const;
 
-  constexpr void __set__Parameter_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Parameter_k__BackingField(::StringW value);
 
-  constexpr ::StringW& __get__Scheme_k__BackingField();
+  constexpr ::StringW& __cordl_internal_get__Scheme_k__BackingField();
 
-  constexpr ::StringW const& __get__Scheme_k__BackingField() const;
+  constexpr ::StringW const& __cordl_internal_get__Scheme_k__BackingField() const;
 
-  constexpr void __set__Scheme_k__BackingField(::StringW value);
+  constexpr void __cordl_internal_set__Scheme_k__BackingField(::StringW value);
 
   static inline ::System::Net::Http::Headers::AuthenticationHeaderValue* New_ctor(::StringW scheme, ::StringW parameter);
 

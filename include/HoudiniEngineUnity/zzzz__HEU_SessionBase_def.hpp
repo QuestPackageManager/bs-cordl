@@ -134,29 +134,31 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_SessionBase);
 // SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(9689)), TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(9689))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9781))
 // CS Name: ::HoudiniEngineUnity::HEU_SessionBase*
 class CORDL_TYPE HEU_SessionBase : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _sessionData, offset 0x10, size 0x8
-  __declspec(property(get = __get__sessionData, put = __set__sessionData))::HoudiniEngineUnity::HEU_SessionData* _sessionData;
+  __declspec(property(get = __cordl_internal_get__sessionData, put = __cordl_internal_set__sessionData))::HoudiniEngineUnity::HEU_SessionData* _sessionData;
 
   /// @brief Field <UserNotifiedSessionInvalid>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __get__UserNotifiedSessionInvalid_k__BackingField, put = __set__UserNotifiedSessionInvalid_k__BackingField)) bool _UserNotifiedSessionInvalid_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__UserNotifiedSessionInvalid_k__BackingField,
+                      put = __cordl_internal_set__UserNotifiedSessionInvalid_k__BackingField)) bool _UserNotifiedSessionInvalid_k__BackingField;
 
   /// @brief Field _sessionErrorMsg, offset 0x20, size 0x8
-  __declspec(property(get = __get__sessionErrorMsg, put = __set__sessionErrorMsg))::StringW _sessionErrorMsg;
+  __declspec(property(get = __cordl_internal_get__sessionErrorMsg, put = __cordl_internal_set__sessionErrorMsg))::StringW _sessionErrorMsg;
 
   /// @brief Field <LogErrorOverride>k__BackingField, offset 0x28, size 0x1
-  __declspec(property(get = __get__LogErrorOverride_k__BackingField, put = __set__LogErrorOverride_k__BackingField)) bool _LogErrorOverride_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__LogErrorOverride_k__BackingField, put = __cordl_internal_set__LogErrorOverride_k__BackingField)) bool _LogErrorOverride_k__BackingField;
 
   /// @brief Field <ThrowErrorOverride>k__BackingField, offset 0x29, size 0x1
-  __declspec(property(get = __get__ThrowErrorOverride_k__BackingField, put = __set__ThrowErrorOverride_k__BackingField)) bool _ThrowErrorOverride_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__ThrowErrorOverride_k__BackingField, put = __cordl_internal_set__ThrowErrorOverride_k__BackingField)) bool _ThrowErrorOverride_k__BackingField;
 
   /// @brief Field <LastCallResultCode>k__BackingField, offset 0x2c, size 0x4
-  __declspec(property(get = __get__LastCallResultCode_k__BackingField, put = __set__LastCallResultCode_k__BackingField))::HoudiniEngineUnity::HAPI_Result _LastCallResultCode_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__LastCallResultCode_k__BackingField,
+                      put = __cordl_internal_set__LastCallResultCode_k__BackingField))::HoudiniEngineUnity::HAPI_Result _LastCallResultCode_k__BackingField;
 
   __declspec(property(get = get_UserNotifiedSessionInvalid, put = set_UserNotifiedSessionInvalid)) bool UserNotifiedSessionInvalid;
 
@@ -170,41 +172,41 @@ public:
 
   __declspec(property(get = get_LastCallResultCode, put = set_LastCallResultCode))::HoudiniEngineUnity::HAPI_Result LastCallResultCode;
 
-  constexpr ::HoudiniEngineUnity::HEU_SessionData*& __get__sessionData();
+  constexpr ::HoudiniEngineUnity::HEU_SessionData*& __cordl_internal_get__sessionData();
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_SessionData*> const& __get__sessionData() const;
+  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_SessionData*> const& __cordl_internal_get__sessionData() const;
 
-  constexpr void __set__sessionData(::HoudiniEngineUnity::HEU_SessionData* value);
+  constexpr void __cordl_internal_set__sessionData(::HoudiniEngineUnity::HEU_SessionData* value);
 
-  constexpr bool& __get__UserNotifiedSessionInvalid_k__BackingField();
+  constexpr bool& __cordl_internal_get__UserNotifiedSessionInvalid_k__BackingField();
 
-  constexpr bool const& __get__UserNotifiedSessionInvalid_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__UserNotifiedSessionInvalid_k__BackingField() const;
 
-  constexpr void __set__UserNotifiedSessionInvalid_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__UserNotifiedSessionInvalid_k__BackingField(bool value);
 
-  constexpr ::StringW& __get__sessionErrorMsg();
+  constexpr ::StringW& __cordl_internal_get__sessionErrorMsg();
 
-  constexpr ::StringW const& __get__sessionErrorMsg() const;
+  constexpr ::StringW const& __cordl_internal_get__sessionErrorMsg() const;
 
-  constexpr void __set__sessionErrorMsg(::StringW value);
+  constexpr void __cordl_internal_set__sessionErrorMsg(::StringW value);
 
-  constexpr bool& __get__LogErrorOverride_k__BackingField();
+  constexpr bool& __cordl_internal_get__LogErrorOverride_k__BackingField();
 
-  constexpr bool const& __get__LogErrorOverride_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__LogErrorOverride_k__BackingField() const;
 
-  constexpr void __set__LogErrorOverride_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__LogErrorOverride_k__BackingField(bool value);
 
-  constexpr bool& __get__ThrowErrorOverride_k__BackingField();
+  constexpr bool& __cordl_internal_get__ThrowErrorOverride_k__BackingField();
 
-  constexpr bool const& __get__ThrowErrorOverride_k__BackingField() const;
+  constexpr bool const& __cordl_internal_get__ThrowErrorOverride_k__BackingField() const;
 
-  constexpr void __set__ThrowErrorOverride_k__BackingField(bool value);
+  constexpr void __cordl_internal_set__ThrowErrorOverride_k__BackingField(bool value);
 
-  constexpr ::HoudiniEngineUnity::HAPI_Result& __get__LastCallResultCode_k__BackingField();
+  constexpr ::HoudiniEngineUnity::HAPI_Result& __cordl_internal_get__LastCallResultCode_k__BackingField();
 
-  constexpr ::HoudiniEngineUnity::HAPI_Result const& __get__LastCallResultCode_k__BackingField() const;
+  constexpr ::HoudiniEngineUnity::HAPI_Result const& __cordl_internal_get__LastCallResultCode_k__BackingField() const;
 
-  constexpr void __set__LastCallResultCode_k__BackingField(::HoudiniEngineUnity::HAPI_Result value);
+  constexpr void __cordl_internal_set__LastCallResultCode_k__BackingField(::HoudiniEngineUnity::HAPI_Result value);
 
   /// @brief Method get_UserNotifiedSessionInvalid, addr 0x21a1a10, size 0x8, virtual false, abstract: false, final false
   inline bool get_UserNotifiedSessionInvalid();
@@ -249,7 +251,7 @@ public:
   inline void set_LastCallResultCode(::HoudiniEngineUnity::HAPI_Result value);
 
   /// @brief Method GetRegisteredAssetFromID, addr 0x21a1ae4, size 0x8, virtual true, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_HoudiniAsset* GetRegisteredAssetFromID(int32_t id);
+  inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> GetRegisteredAssetFromID(int32_t id);
 
   /// @brief Method IsAssetRegistered, addr 0x21a1aec, size 0x8, virtual true, abstract: false, final false
   inline bool IsAssetRegistered(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);

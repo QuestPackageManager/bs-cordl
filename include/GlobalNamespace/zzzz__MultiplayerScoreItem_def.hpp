@@ -37,56 +37,56 @@ MARK_REF_PTR_T(::GlobalNamespace::MultiplayerScoreItem);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5247))
 // CS Name: ::MultiplayerScoreItem*
 class CORDL_TYPE MultiplayerScoreItem : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _scoreText, offset 0x18, size 0x8
-  __declspec(property(get = __get__scoreText, put = __set__scoreText))::TMPro::TextMeshProUGUI* _scoreText;
+  __declspec(property(get = __cordl_internal_get__scoreText, put = __cordl_internal_set__scoreText))::UnityW<::TMPro::TextMeshProUGUI> _scoreText;
 
   /// @brief Field _nameText, offset 0x20, size 0x8
-  __declspec(property(get = __get__nameText, put = __set__nameText))::TMPro::TextMeshProUGUI* _nameText;
+  __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText))::UnityW<::TMPro::TextMeshProUGUI> _nameText;
 
   /// @brief Field _tweeningManager, offset 0x28, size 0x8
-  __declspec(property(get = __get__tweeningManager, put = __set__tweeningManager))::Tweening::TimeTweeningManager* _tweeningManager;
+  __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager))::UnityW<::Tweening::TimeTweeningManager> _tweeningManager;
 
   /// @brief Field _nameColorTween, offset 0x30, size 0x8
-  __declspec(property(get = __get__nameColorTween, put = __set__nameColorTween))::Tweening::Tween_1<::UnityEngine::Color>* _nameColorTween;
+  __declspec(property(get = __cordl_internal_get__nameColorTween, put = __cordl_internal_set__nameColorTween))::Tweening::Tween_1<::UnityEngine::Color>* _nameColorTween;
 
   /// @brief Field _scoreColorTween, offset 0x38, size 0x8
-  __declspec(property(get = __get__scoreColorTween, put = __set__scoreColorTween))::Tweening::Tween_1<::UnityEngine::Color>* _scoreColorTween;
+  __declspec(property(get = __cordl_internal_get__scoreColorTween, put = __cordl_internal_set__scoreColorTween))::Tweening::Tween_1<::UnityEngine::Color>* _scoreColorTween;
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__scoreText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__scoreText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__scoreText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__scoreText() const;
 
-  constexpr void __set__scoreText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__scoreText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::TMPro::TextMeshProUGUI*& __get__nameText();
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__nameText();
 
-  constexpr ::cordl_internals::to_const_pointer<::TMPro::TextMeshProUGUI*> const& __get__nameText() const;
+  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__nameText() const;
 
-  constexpr void __set__nameText(::TMPro::TextMeshProUGUI* value);
+  constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  constexpr ::Tweening::TimeTweeningManager*& __get__tweeningManager();
+  constexpr ::UnityW<::Tweening::TimeTweeningManager>& __cordl_internal_get__tweeningManager();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::TimeTweeningManager*> const& __get__tweeningManager() const;
+  constexpr ::UnityW<::Tweening::TimeTweeningManager> const& __cordl_internal_get__tweeningManager() const;
 
-  constexpr void __set__tweeningManager(::Tweening::TimeTweeningManager* value);
+  constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  constexpr ::Tweening::Tween_1<::UnityEngine::Color>*& __get__nameColorTween();
+  constexpr ::Tweening::Tween_1<::UnityEngine::Color>*& __cordl_internal_get__nameColorTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Color>*> const& __get__nameColorTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Color>*> const& __cordl_internal_get__nameColorTween() const;
 
-  constexpr void __set__nameColorTween(::Tweening::Tween_1<::UnityEngine::Color>* value);
+  constexpr void __cordl_internal_set__nameColorTween(::Tweening::Tween_1<::UnityEngine::Color>* value);
 
-  constexpr ::Tweening::Tween_1<::UnityEngine::Color>*& __get__scoreColorTween();
+  constexpr ::Tweening::Tween_1<::UnityEngine::Color>*& __cordl_internal_get__scoreColorTween();
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Color>*> const& __get__scoreColorTween() const;
+  constexpr ::cordl_internals::to_const_pointer<::Tweening::Tween_1<::UnityEngine::Color>*> const& __cordl_internal_get__scoreColorTween() const;
 
-  constexpr void __set__scoreColorTween(::Tweening::Tween_1<::UnityEngine::Color>* value);
+  constexpr void __cordl_internal_set__scoreColorTween(::Tweening::Tween_1<::UnityEngine::Color>* value);
 
   /// @brief Method Awake, addr 0x2258b98, size 0x1b0, virtual false, abstract: false, final false
   inline void Awake();
@@ -132,13 +132,13 @@ protected:
 
 public:
   /// @brief Field _scoreText, offset: 0x18, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____scoreText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____scoreText;
 
   /// @brief Field _nameText, offset: 0x20, size: 0x8, def value: None
-  ::TMPro::TextMeshProUGUI* ____nameText;
+  ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;
 
   /// @brief Field _tweeningManager, offset: 0x28, size: 0x8, def value: None
-  ::Tweening::TimeTweeningManager* ____tweeningManager;
+  ::UnityW<::Tweening::TimeTweeningManager> ____tweeningManager;
 
   /// @brief Field _nameColorTween, offset: 0x30, size: 0x8, def value: None
   ::Tweening::Tween_1<::UnityEngine::Color>* ____nameColorTween;

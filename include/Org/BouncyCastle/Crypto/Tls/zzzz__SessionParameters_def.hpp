@@ -30,83 +30,83 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1272))
 // CS Name: ::SessionParameters::Builder*
 class CORDL_TYPE __SessionParameters__Builder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field mCipherSuite, offset 0x10, size 0x4
-  __declspec(property(get = __get_mCipherSuite, put = __set_mCipherSuite)) int32_t mCipherSuite;
+  __declspec(property(get = __cordl_internal_get_mCipherSuite, put = __cordl_internal_set_mCipherSuite)) int32_t mCipherSuite;
 
   /// @brief Field mCompressionAlgorithm, offset 0x14, size 0x2
-  __declspec(property(get = __get_mCompressionAlgorithm, put = __set_mCompressionAlgorithm)) int16_t mCompressionAlgorithm;
+  __declspec(property(get = __cordl_internal_get_mCompressionAlgorithm, put = __cordl_internal_set_mCompressionAlgorithm)) int16_t mCompressionAlgorithm;
 
   /// @brief Field mMasterSecret, offset 0x18, size 0x8
-  __declspec(property(get = __get_mMasterSecret, put = __set_mMasterSecret))::ArrayW<uint8_t, ::Array<uint8_t>*> mMasterSecret;
+  __declspec(property(get = __cordl_internal_get_mMasterSecret, put = __cordl_internal_set_mMasterSecret))::ArrayW<uint8_t, ::Array<uint8_t>*> mMasterSecret;
 
   /// @brief Field mPeerCertificate, offset 0x20, size 0x8
-  __declspec(property(get = __get_mPeerCertificate, put = __set_mPeerCertificate))::Org::BouncyCastle::Crypto::Tls::Certificate* mPeerCertificate;
+  __declspec(property(get = __cordl_internal_get_mPeerCertificate, put = __cordl_internal_set_mPeerCertificate))::Org::BouncyCastle::Crypto::Tls::Certificate* mPeerCertificate;
 
   /// @brief Field mPskIdentity, offset 0x28, size 0x8
-  __declspec(property(get = __get_mPskIdentity, put = __set_mPskIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> mPskIdentity;
+  __declspec(property(get = __cordl_internal_get_mPskIdentity, put = __cordl_internal_set_mPskIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> mPskIdentity;
 
   /// @brief Field mSrpIdentity, offset 0x30, size 0x8
-  __declspec(property(get = __get_mSrpIdentity, put = __set_mSrpIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> mSrpIdentity;
+  __declspec(property(get = __cordl_internal_get_mSrpIdentity, put = __cordl_internal_set_mSrpIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> mSrpIdentity;
 
   /// @brief Field mEncodedServerExtensions, offset 0x38, size 0x8
-  __declspec(property(get = __get_mEncodedServerExtensions, put = __set_mEncodedServerExtensions))::ArrayW<uint8_t, ::Array<uint8_t>*> mEncodedServerExtensions;
+  __declspec(property(get = __cordl_internal_get_mEncodedServerExtensions, put = __cordl_internal_set_mEncodedServerExtensions))::ArrayW<uint8_t, ::Array<uint8_t>*> mEncodedServerExtensions;
 
   /// @brief Field mExtendedMasterSecret, offset 0x40, size 0x1
-  __declspec(property(get = __get_mExtendedMasterSecret, put = __set_mExtendedMasterSecret)) bool mExtendedMasterSecret;
+  __declspec(property(get = __cordl_internal_get_mExtendedMasterSecret, put = __cordl_internal_set_mExtendedMasterSecret)) bool mExtendedMasterSecret;
 
-  constexpr int32_t& __get_mCipherSuite();
+  constexpr int32_t& __cordl_internal_get_mCipherSuite();
 
-  constexpr int32_t const& __get_mCipherSuite() const;
+  constexpr int32_t const& __cordl_internal_get_mCipherSuite() const;
 
-  constexpr void __set_mCipherSuite(int32_t value);
+  constexpr void __cordl_internal_set_mCipherSuite(int32_t value);
 
-  constexpr int16_t& __get_mCompressionAlgorithm();
+  constexpr int16_t& __cordl_internal_get_mCompressionAlgorithm();
 
-  constexpr int16_t const& __get_mCompressionAlgorithm() const;
+  constexpr int16_t const& __cordl_internal_get_mCompressionAlgorithm() const;
 
-  constexpr void __set_mCompressionAlgorithm(int16_t value);
+  constexpr void __cordl_internal_set_mCompressionAlgorithm(int16_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mMasterSecret();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mMasterSecret();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mMasterSecret() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mMasterSecret() const;
 
-  constexpr void __set_mMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate*& __get_mPeerCertificate();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate*& __cordl_internal_get_mPeerCertificate();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::Certificate*> const& __get_mPeerCertificate() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::Certificate*> const& __cordl_internal_get_mPeerCertificate() const;
 
-  constexpr void __set_mPeerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* value);
+  constexpr void __cordl_internal_set_mPeerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mPskIdentity();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPskIdentity();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mPskIdentity() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPskIdentity() const;
 
-  constexpr void __set_mPskIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mPskIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mSrpIdentity();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mSrpIdentity();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mSrpIdentity() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mSrpIdentity() const;
 
-  constexpr void __set_mSrpIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mSrpIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mEncodedServerExtensions();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mEncodedServerExtensions();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mEncodedServerExtensions() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mEncodedServerExtensions() const;
 
-  constexpr void __set_mEncodedServerExtensions(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mEncodedServerExtensions(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get_mExtendedMasterSecret();
+  constexpr bool& __cordl_internal_get_mExtendedMasterSecret();
 
-  constexpr bool const& __get_mExtendedMasterSecret() const;
+  constexpr bool const& __cordl_internal_get_mExtendedMasterSecret() const;
 
-  constexpr void __set_mExtendedMasterSecret(bool value);
+  constexpr void __cordl_internal_set_mExtendedMasterSecret(bool value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder* New_ctor();
 
@@ -207,7 +207,7 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Bu
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 65, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1273))
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::SessionParameters*
 class CORDL_TYPE SessionParameters : public ::System::Object {
@@ -216,28 +216,28 @@ public:
   using Builder = ::Org::BouncyCastle::Crypto::Tls::__SessionParameters__Builder;
 
   /// @brief Field mCipherSuite, offset 0x10, size 0x4
-  __declspec(property(get = __get_mCipherSuite, put = __set_mCipherSuite)) int32_t mCipherSuite;
+  __declspec(property(get = __cordl_internal_get_mCipherSuite, put = __cordl_internal_set_mCipherSuite)) int32_t mCipherSuite;
 
   /// @brief Field mCompressionAlgorithm, offset 0x14, size 0x1
-  __declspec(property(get = __get_mCompressionAlgorithm, put = __set_mCompressionAlgorithm)) uint8_t mCompressionAlgorithm;
+  __declspec(property(get = __cordl_internal_get_mCompressionAlgorithm, put = __cordl_internal_set_mCompressionAlgorithm)) uint8_t mCompressionAlgorithm;
 
   /// @brief Field mMasterSecret, offset 0x18, size 0x8
-  __declspec(property(get = __get_mMasterSecret, put = __set_mMasterSecret))::ArrayW<uint8_t, ::Array<uint8_t>*> mMasterSecret;
+  __declspec(property(get = __cordl_internal_get_mMasterSecret, put = __cordl_internal_set_mMasterSecret))::ArrayW<uint8_t, ::Array<uint8_t>*> mMasterSecret;
 
   /// @brief Field mPeerCertificate, offset 0x20, size 0x8
-  __declspec(property(get = __get_mPeerCertificate, put = __set_mPeerCertificate))::Org::BouncyCastle::Crypto::Tls::Certificate* mPeerCertificate;
+  __declspec(property(get = __cordl_internal_get_mPeerCertificate, put = __cordl_internal_set_mPeerCertificate))::Org::BouncyCastle::Crypto::Tls::Certificate* mPeerCertificate;
 
   /// @brief Field mPskIdentity, offset 0x28, size 0x8
-  __declspec(property(get = __get_mPskIdentity, put = __set_mPskIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> mPskIdentity;
+  __declspec(property(get = __cordl_internal_get_mPskIdentity, put = __cordl_internal_set_mPskIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> mPskIdentity;
 
   /// @brief Field mSrpIdentity, offset 0x30, size 0x8
-  __declspec(property(get = __get_mSrpIdentity, put = __set_mSrpIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> mSrpIdentity;
+  __declspec(property(get = __cordl_internal_get_mSrpIdentity, put = __cordl_internal_set_mSrpIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> mSrpIdentity;
 
   /// @brief Field mEncodedServerExtensions, offset 0x38, size 0x8
-  __declspec(property(get = __get_mEncodedServerExtensions, put = __set_mEncodedServerExtensions))::ArrayW<uint8_t, ::Array<uint8_t>*> mEncodedServerExtensions;
+  __declspec(property(get = __cordl_internal_get_mEncodedServerExtensions, put = __cordl_internal_set_mEncodedServerExtensions))::ArrayW<uint8_t, ::Array<uint8_t>*> mEncodedServerExtensions;
 
   /// @brief Field mExtendedMasterSecret, offset 0x40, size 0x1
-  __declspec(property(get = __get_mExtendedMasterSecret, put = __set_mExtendedMasterSecret)) bool mExtendedMasterSecret;
+  __declspec(property(get = __cordl_internal_get_mExtendedMasterSecret, put = __cordl_internal_set_mExtendedMasterSecret)) bool mExtendedMasterSecret;
 
   __declspec(property(get = get_CipherSuite)) int32_t CipherSuite;
 
@@ -253,53 +253,53 @@ public:
 
   __declspec(property(get = get_SrpIdentity))::ArrayW<uint8_t, ::Array<uint8_t>*> SrpIdentity;
 
-  constexpr int32_t& __get_mCipherSuite();
+  constexpr int32_t& __cordl_internal_get_mCipherSuite();
 
-  constexpr int32_t const& __get_mCipherSuite() const;
+  constexpr int32_t const& __cordl_internal_get_mCipherSuite() const;
 
-  constexpr void __set_mCipherSuite(int32_t value);
+  constexpr void __cordl_internal_set_mCipherSuite(int32_t value);
 
-  constexpr uint8_t& __get_mCompressionAlgorithm();
+  constexpr uint8_t& __cordl_internal_get_mCompressionAlgorithm();
 
-  constexpr uint8_t const& __get_mCompressionAlgorithm() const;
+  constexpr uint8_t const& __cordl_internal_get_mCompressionAlgorithm() const;
 
-  constexpr void __set_mCompressionAlgorithm(uint8_t value);
+  constexpr void __cordl_internal_set_mCompressionAlgorithm(uint8_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mMasterSecret();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mMasterSecret();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mMasterSecret() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mMasterSecret() const;
 
-  constexpr void __set_mMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate*& __get_mPeerCertificate();
+  constexpr ::Org::BouncyCastle::Crypto::Tls::Certificate*& __cordl_internal_get_mPeerCertificate();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::Certificate*> const& __get_mPeerCertificate() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::Certificate*> const& __cordl_internal_get_mPeerCertificate() const;
 
-  constexpr void __set_mPeerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* value);
+  constexpr void __cordl_internal_set_mPeerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mPskIdentity();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mPskIdentity();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mPskIdentity() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mPskIdentity() const;
 
-  constexpr void __set_mPskIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mPskIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mSrpIdentity();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mSrpIdentity();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mSrpIdentity() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mSrpIdentity() const;
 
-  constexpr void __set_mSrpIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mSrpIdentity(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_mEncodedServerExtensions();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mEncodedServerExtensions();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_mEncodedServerExtensions() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mEncodedServerExtensions() const;
 
-  constexpr void __set_mEncodedServerExtensions(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_mEncodedServerExtensions(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr bool& __get_mExtendedMasterSecret();
+  constexpr bool& __cordl_internal_get_mExtendedMasterSecret();
 
-  constexpr bool const& __get_mExtendedMasterSecret() const;
+  constexpr bool const& __cordl_internal_get_mExtendedMasterSecret() const;
 
-  constexpr void __set_mExtendedMasterSecret(bool value);
+  constexpr void __cordl_internal_set_mExtendedMasterSecret(bool value);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters* New_ctor(int32_t cipherSuite, uint8_t compressionAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> masterSecret,
                                                                               ::Org::BouncyCastle::Crypto::Tls::Certificate* peerCertificate, ::ArrayW<uint8_t, ::Array<uint8_t>*> pskIdentity,

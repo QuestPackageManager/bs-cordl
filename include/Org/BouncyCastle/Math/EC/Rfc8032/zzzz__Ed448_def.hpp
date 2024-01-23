@@ -50,7 +50,7 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointPrecomp);
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1561))
 // CS Name: ::Ed448::Algorithm
 struct CORDL_TYPE __Ed448__Algorithm {
@@ -100,38 +100,38 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__Algorith
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1562))
 // CS Name: ::Ed448::PointExt*
 class CORDL_TYPE __Ed448__PointExt : public ::System::Object {
 public:
   // Declarations
   /// @brief Field x, offset 0x10, size 0x8
-  __declspec(property(get = __get_x, put = __set_x))::ArrayW<uint32_t, ::Array<uint32_t>*> x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::ArrayW<uint32_t, ::Array<uint32_t>*> x;
 
   /// @brief Field y, offset 0x18, size 0x8
-  __declspec(property(get = __get_y, put = __set_y))::ArrayW<uint32_t, ::Array<uint32_t>*> y;
+  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y))::ArrayW<uint32_t, ::Array<uint32_t>*> y;
 
   /// @brief Field z, offset 0x20, size 0x8
-  __declspec(property(get = __get_z, put = __set_z))::ArrayW<uint32_t, ::Array<uint32_t>*> z;
+  __declspec(property(get = __cordl_internal_get_z, put = __cordl_internal_set_z))::ArrayW<uint32_t, ::Array<uint32_t>*> z;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_x();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_x();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_x() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_x(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_y();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_y();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_y() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_y() const;
 
-  constexpr void __set_y(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_y(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_z();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_z();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_z() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_z() const;
 
-  constexpr void __set_z(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_z(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
   static inline ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt* New_ctor();
 
@@ -177,29 +177,29 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointExt
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1563))
 // CS Name: ::Ed448::PointPrecomp*
 class CORDL_TYPE __Ed448__PointPrecomp : public ::System::Object {
 public:
   // Declarations
   /// @brief Field x, offset 0x10, size 0x8
-  __declspec(property(get = __get_x, put = __set_x))::ArrayW<uint32_t, ::Array<uint32_t>*> x;
+  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x))::ArrayW<uint32_t, ::Array<uint32_t>*> x;
 
   /// @brief Field y, offset 0x18, size 0x8
-  __declspec(property(get = __get_y, put = __set_y))::ArrayW<uint32_t, ::Array<uint32_t>*> y;
+  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y))::ArrayW<uint32_t, ::Array<uint32_t>*> y;
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_x();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_x();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_x() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_x() const;
 
-  constexpr void __set_x(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_x(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __get_y();
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& __cordl_internal_get_y();
 
-  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __get_y() const;
+  constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get_y() const;
 
-  constexpr void __set_y(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
+  constexpr void __cordl_internal_set_y(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
   static inline ::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointPrecomp* New_ctor();
 
@@ -240,7 +240,7 @@ static_assert(offsetof(::Org::BouncyCastle::Math::EC::Rfc8032::__Ed448__PointPre
 // SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Rfc8032 {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(1564))
 // CS Name: ::Org.BouncyCastle.Math.EC.Rfc8032::Ed448*
 class CORDL_TYPE Ed448 : public ::System::Object {

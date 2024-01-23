@@ -81,7 +81,7 @@ MARK_VAL_T(::GlobalNamespace::__AdditionalContentModel___GetPackEntitlementStatu
 // SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4097))
 // CS Name: ::AdditionalContentModel::UpdateEntitlementsResult
 struct CORDL_TYPE __AdditionalContentModel__UpdateEntitlementsResult {
@@ -131,9 +131,9 @@ static_assert(offsetof(::GlobalNamespace::__AdditionalContentModel__UpdateEntitl
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), TypeDefinitionIndex(TypeDefinitionIndex(3394)),
-// TypeDefinitionIndex(TypeDefinitionIndex(3402)), TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 }),
-// TypeDefinitionIndex(TypeDefinitionIndex(2677))} Self: TypeDefinitionIndex(TypeDefinitionIndex(4098)) CS Name: ::AdditionalContentModel::<GetLevelEntitlementStatusAsync>d__10
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 880 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4098)) CS Name: ::AdditionalContentModel::<GetLevelEntitlementStatusAsync>d__10
 struct CORDL_TYPE __AdditionalContentModel___GetLevelEntitlementStatusAsync_d__10 {
 public:
   // Declarations
@@ -206,9 +206,9 @@ static_assert(offsetof(::GlobalNamespace::__AdditionalContentModel___GetLevelEnt
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(16270)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880
-// }), TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3402)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3402), inst: 880 })} Self:
-// TypeDefinitionIndex(TypeDefinitionIndex(4099)) CS Name: ::AdditionalContentModel::<GetPackEntitlementStatusAsync>d__11
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2677)), TypeDefinitionIndex(TypeDefinitionIndex(3394)), TypeDefinitionIndex(TypeDefinitionIndex(3402)),
+// TypeDefinitionIndex(TypeDefinitionIndex(16270)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(3394), inst: 880 }), GenericInstantiation(GenericInstantiation { tdi:
+// TypeDefinitionIndex(3402), inst: 880 })] Self: TypeDefinitionIndex(TypeDefinitionIndex(4099)) CS Name: ::AdditionalContentModel::<GetPackEntitlementStatusAsync>d__11
 struct CORDL_TYPE __AdditionalContentModel___GetPackEntitlementStatusAsync_d__11 {
 public:
   // Declarations
@@ -281,7 +281,7 @@ static_assert(offsetof(::GlobalNamespace::__AdditionalContentModel___GetPackEnti
 // SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(4100))
 // CS Name: ::AdditionalContentModel*
 class CORDL_TYPE AdditionalContentModel : public ::System::Object {
@@ -294,13 +294,14 @@ public:
   using UpdateEntitlementsResult = ::GlobalNamespace::__AdditionalContentModel__UpdateEntitlementsResult;
 
   /// @brief Field didInvalidateDataEvent, offset 0x10, size 0x8
-  __declspec(property(get = __get_didInvalidateDataEvent, put = __set_didInvalidateDataEvent))::System::Action* didInvalidateDataEvent;
+  __declspec(property(get = __cordl_internal_get_didInvalidateDataEvent, put = __cordl_internal_set_didInvalidateDataEvent))::System::Action* didInvalidateDataEvent;
 
   /// @brief Field _alwaysOwnedBeatmapLevelIds, offset 0x18, size 0x8
-  __declspec(property(get = __get__alwaysOwnedBeatmapLevelIds, put = __set__alwaysOwnedBeatmapLevelIds))::System::Collections::Generic::HashSet_1<::StringW>* _alwaysOwnedBeatmapLevelIds;
+  __declspec(property(get = __cordl_internal_get__alwaysOwnedBeatmapLevelIds,
+                      put = __cordl_internal_set__alwaysOwnedBeatmapLevelIds))::System::Collections::Generic::HashSet_1<::StringW>* _alwaysOwnedBeatmapLevelIds;
 
   /// @brief Field _alwaysOwnedPacksIds, offset 0x20, size 0x8
-  __declspec(property(get = __get__alwaysOwnedPacksIds, put = __set__alwaysOwnedPacksIds))::System::Collections::Generic::HashSet_1<::StringW>* _alwaysOwnedPacksIds;
+  __declspec(property(get = __cordl_internal_get__alwaysOwnedPacksIds, put = __cordl_internal_set__alwaysOwnedPacksIds))::System::Collections::Generic::HashSet_1<::StringW>* _alwaysOwnedPacksIds;
 
   /// @brief Convert operator to "::GlobalNamespace::IAdditionalContentModel"
   constexpr operator ::GlobalNamespace::IAdditionalContentModel*() noexcept;
@@ -314,23 +315,23 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr ::System::Action*& __get_didInvalidateDataEvent();
+  constexpr ::System::Action*& __cordl_internal_get_didInvalidateDataEvent();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __get_didInvalidateDataEvent() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didInvalidateDataEvent() const;
 
-  constexpr void __set_didInvalidateDataEvent(::System::Action* value);
+  constexpr void __cordl_internal_set_didInvalidateDataEvent(::System::Action* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __get__alwaysOwnedBeatmapLevelIds();
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__alwaysOwnedBeatmapLevelIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __get__alwaysOwnedBeatmapLevelIds() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__alwaysOwnedBeatmapLevelIds() const;
 
-  constexpr void __set__alwaysOwnedBeatmapLevelIds(::System::Collections::Generic::HashSet_1<::StringW>* value);
+  constexpr void __cordl_internal_set__alwaysOwnedBeatmapLevelIds(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __get__alwaysOwnedPacksIds();
+  constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get__alwaysOwnedPacksIds();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __get__alwaysOwnedPacksIds() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::StringW>*> const& __cordl_internal_get__alwaysOwnedPacksIds() const;
 
-  constexpr void __set__alwaysOwnedPacksIds(::System::Collections::Generic::HashSet_1<::StringW>* value);
+  constexpr void __cordl_internal_set__alwaysOwnedPacksIds(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
   /// @brief Method add_didInvalidateDataEvent, addr 0x22334c4, size 0x9c, virtual true, abstract: false, final true
   inline void add_didInvalidateDataEvent(::System::Action* value);

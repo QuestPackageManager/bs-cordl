@@ -24,65 +24,65 @@ MARK_REF_PTR_T(::GlobalNamespace::MoveBackWall);
 // SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10225))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10225))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(5269))
 // CS Name: ::MoveBackWall*
 class CORDL_TYPE MoveBackWall : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   /// @brief Field _fadeInRegion, offset 0x18, size 0x4
-  __declspec(property(get = __get__fadeInRegion, put = __set__fadeInRegion)) float_t _fadeInRegion;
+  __declspec(property(get = __cordl_internal_get__fadeInRegion, put = __cordl_internal_set__fadeInRegion)) float_t _fadeInRegion;
 
   /// @brief Field _meshRenderer, offset 0x20, size 0x8
-  __declspec(property(get = __get__meshRenderer, put = __set__meshRenderer))::UnityEngine::MeshRenderer* _meshRenderer;
+  __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer))::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
 
   /// @brief Field _playerTransforms, offset 0x28, size 0x8
-  __declspec(property(get = __get__playerTransforms, put = __set__playerTransforms))::GlobalNamespace::PlayerTransforms* _playerTransforms;
+  __declspec(property(get = __cordl_internal_get__playerTransforms, put = __cordl_internal_set__playerTransforms))::UnityW<::GlobalNamespace::PlayerTransforms> _playerTransforms;
 
   /// @brief Field _thisZ, offset 0x30, size 0x4
-  __declspec(property(get = __get__thisZ, put = __set__thisZ)) float_t _thisZ;
+  __declspec(property(get = __cordl_internal_get__thisZ, put = __cordl_internal_set__thisZ)) float_t _thisZ;
 
   /// @brief Field _isVisible, offset 0x34, size 0x1
-  __declspec(property(get = __get__isVisible, put = __set__isVisible)) bool _isVisible;
+  __declspec(property(get = __cordl_internal_get__isVisible, put = __cordl_internal_set__isVisible)) bool _isVisible;
 
   /// @brief Field _material, offset 0x38, size 0x8
-  __declspec(property(get = __get__material, put = __set__material))::UnityEngine::Material* _material;
+  __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material))::UnityW<::UnityEngine::Material> _material;
 
-  constexpr float_t& __get__fadeInRegion();
+  constexpr float_t& __cordl_internal_get__fadeInRegion();
 
-  constexpr float_t const& __get__fadeInRegion() const;
+  constexpr float_t const& __cordl_internal_get__fadeInRegion() const;
 
-  constexpr void __set__fadeInRegion(float_t value);
+  constexpr void __cordl_internal_set__fadeInRegion(float_t value);
 
-  constexpr ::UnityEngine::MeshRenderer*& __get__meshRenderer();
+  constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__meshRenderer();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::MeshRenderer*> const& __get__meshRenderer() const;
+  constexpr ::UnityW<::UnityEngine::MeshRenderer> const& __cordl_internal_get__meshRenderer() const;
 
-  constexpr void __set__meshRenderer(::UnityEngine::MeshRenderer* value);
+  constexpr void __cordl_internal_set__meshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  constexpr ::GlobalNamespace::PlayerTransforms*& __get__playerTransforms();
+  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms>& __cordl_internal_get__playerTransforms();
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::PlayerTransforms*> const& __get__playerTransforms() const;
+  constexpr ::UnityW<::GlobalNamespace::PlayerTransforms> const& __cordl_internal_get__playerTransforms() const;
 
-  constexpr void __set__playerTransforms(::GlobalNamespace::PlayerTransforms* value);
+  constexpr void __cordl_internal_set__playerTransforms(::UnityW<::GlobalNamespace::PlayerTransforms> value);
 
-  constexpr float_t& __get__thisZ();
+  constexpr float_t& __cordl_internal_get__thisZ();
 
-  constexpr float_t const& __get__thisZ() const;
+  constexpr float_t const& __cordl_internal_get__thisZ() const;
 
-  constexpr void __set__thisZ(float_t value);
+  constexpr void __cordl_internal_set__thisZ(float_t value);
 
-  constexpr bool& __get__isVisible();
+  constexpr bool& __cordl_internal_get__isVisible();
 
-  constexpr bool const& __get__isVisible() const;
+  constexpr bool const& __cordl_internal_get__isVisible() const;
 
-  constexpr void __set__isVisible(bool value);
+  constexpr void __cordl_internal_set__isVisible(bool value);
 
-  constexpr ::UnityEngine::Material*& __get__material();
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__material();
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& __get__material() const;
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
 
-  constexpr void __set__material(::UnityEngine::Material* value);
+  constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
 
   /// @brief Method Start, addr 0x225fc68, size 0x54, virtual false, abstract: false, final false
   inline void Start();
@@ -113,10 +113,10 @@ public:
   float_t ____fadeInRegion;
 
   /// @brief Field _meshRenderer, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::MeshRenderer* ____meshRenderer;
+  ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
 
   /// @brief Field _playerTransforms, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::PlayerTransforms* ____playerTransforms;
+  ::UnityW<::GlobalNamespace::PlayerTransforms> ____playerTransforms;
 
   /// @brief Field _thisZ, offset: 0x30, size: 0x4, def value: None
   float_t ____thisZ;
@@ -125,7 +125,7 @@ public:
   bool ____isVisible;
 
   /// @brief Field _material, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::Material* ____material;
+  ::UnityW<::UnityEngine::Material> ____material;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

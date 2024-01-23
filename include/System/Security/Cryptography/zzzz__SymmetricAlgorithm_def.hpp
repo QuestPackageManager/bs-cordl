@@ -34,40 +34,41 @@ MARK_REF_PTR_T(::System::Security::Cryptography::SymmetricAlgorithm);
 // SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 68, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2922)), TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2921))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(2921)), TypeDefinitionIndex(TypeDefinitionIndex(2922))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(2973))
 // CS Name: ::System.Security.Cryptography::SymmetricAlgorithm*
 class CORDL_TYPE SymmetricAlgorithm : public ::System::Object {
 public:
   // Declarations
   /// @brief Field BlockSizeValue, offset 0x10, size 0x4
-  __declspec(property(get = __get_BlockSizeValue, put = __set_BlockSizeValue)) int32_t BlockSizeValue;
+  __declspec(property(get = __cordl_internal_get_BlockSizeValue, put = __cordl_internal_set_BlockSizeValue)) int32_t BlockSizeValue;
 
   /// @brief Field FeedbackSizeValue, offset 0x14, size 0x4
-  __declspec(property(get = __get_FeedbackSizeValue, put = __set_FeedbackSizeValue)) int32_t FeedbackSizeValue;
+  __declspec(property(get = __cordl_internal_get_FeedbackSizeValue, put = __cordl_internal_set_FeedbackSizeValue)) int32_t FeedbackSizeValue;
 
   /// @brief Field IVValue, offset 0x18, size 0x8
-  __declspec(property(get = __get_IVValue, put = __set_IVValue))::ArrayW<uint8_t, ::Array<uint8_t>*> IVValue;
+  __declspec(property(get = __cordl_internal_get_IVValue, put = __cordl_internal_set_IVValue))::ArrayW<uint8_t, ::Array<uint8_t>*> IVValue;
 
   /// @brief Field KeyValue, offset 0x20, size 0x8
-  __declspec(property(get = __get_KeyValue, put = __set_KeyValue))::ArrayW<uint8_t, ::Array<uint8_t>*> KeyValue;
+  __declspec(property(get = __cordl_internal_get_KeyValue, put = __cordl_internal_set_KeyValue))::ArrayW<uint8_t, ::Array<uint8_t>*> KeyValue;
 
   /// @brief Field LegalBlockSizesValue, offset 0x28, size 0x8
-  __declspec(property(get = __get_LegalBlockSizesValue,
-                      put = __set_LegalBlockSizesValue))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> LegalBlockSizesValue;
+  __declspec(
+      property(get = __cordl_internal_get_LegalBlockSizesValue,
+               put = __cordl_internal_set_LegalBlockSizesValue))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> LegalBlockSizesValue;
 
   /// @brief Field LegalKeySizesValue, offset 0x30, size 0x8
-  __declspec(property(get = __get_LegalKeySizesValue,
-                      put = __set_LegalKeySizesValue))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> LegalKeySizesValue;
+  __declspec(property(get = __cordl_internal_get_LegalKeySizesValue,
+                      put = __cordl_internal_set_LegalKeySizesValue))::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> LegalKeySizesValue;
 
   /// @brief Field KeySizeValue, offset 0x38, size 0x4
-  __declspec(property(get = __get_KeySizeValue, put = __set_KeySizeValue)) int32_t KeySizeValue;
+  __declspec(property(get = __cordl_internal_get_KeySizeValue, put = __cordl_internal_set_KeySizeValue)) int32_t KeySizeValue;
 
   /// @brief Field ModeValue, offset 0x3c, size 0x4
-  __declspec(property(get = __get_ModeValue, put = __set_ModeValue))::System::Security::Cryptography::CipherMode ModeValue;
+  __declspec(property(get = __cordl_internal_get_ModeValue, put = __cordl_internal_set_ModeValue))::System::Security::Cryptography::CipherMode ModeValue;
 
   /// @brief Field PaddingValue, offset 0x40, size 0x4
-  __declspec(property(get = __get_PaddingValue, put = __set_PaddingValue))::System::Security::Cryptography::PaddingMode PaddingValue;
+  __declspec(property(get = __cordl_internal_get_PaddingValue, put = __cordl_internal_set_PaddingValue))::System::Security::Cryptography::PaddingMode PaddingValue;
 
   __declspec(property(get = get_BlockSize, put = set_BlockSize)) int32_t BlockSize;
 
@@ -91,59 +92,59 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  constexpr int32_t& __get_BlockSizeValue();
+  constexpr int32_t& __cordl_internal_get_BlockSizeValue();
 
-  constexpr int32_t const& __get_BlockSizeValue() const;
+  constexpr int32_t const& __cordl_internal_get_BlockSizeValue() const;
 
-  constexpr void __set_BlockSizeValue(int32_t value);
+  constexpr void __cordl_internal_set_BlockSizeValue(int32_t value);
 
-  constexpr int32_t& __get_FeedbackSizeValue();
+  constexpr int32_t& __cordl_internal_get_FeedbackSizeValue();
 
-  constexpr int32_t const& __get_FeedbackSizeValue() const;
+  constexpr int32_t const& __cordl_internal_get_FeedbackSizeValue() const;
 
-  constexpr void __set_FeedbackSizeValue(int32_t value);
+  constexpr void __cordl_internal_set_FeedbackSizeValue(int32_t value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_IVValue();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_IVValue();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_IVValue() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_IVValue() const;
 
-  constexpr void __set_IVValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_IVValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __get_KeyValue();
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_KeyValue();
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __get_KeyValue() const;
+  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_KeyValue() const;
 
-  constexpr void __set_KeyValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+  constexpr void __cordl_internal_set_KeyValue(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>& __get_LegalBlockSizesValue();
+  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>& __cordl_internal_get_LegalBlockSizesValue();
 
-  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> const& __get_LegalBlockSizesValue() const;
+  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> const& __cordl_internal_get_LegalBlockSizesValue() const;
 
-  constexpr void __set_LegalBlockSizesValue(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
+  constexpr void __cordl_internal_set_LegalBlockSizesValue(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
-  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>& __get_LegalKeySizesValue();
+  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>& __cordl_internal_get_LegalKeySizesValue();
 
-  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> const& __get_LegalKeySizesValue() const;
+  constexpr ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> const& __cordl_internal_get_LegalKeySizesValue() const;
 
-  constexpr void __set_LegalKeySizesValue(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
+  constexpr void __cordl_internal_set_LegalKeySizesValue(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
-  constexpr int32_t& __get_KeySizeValue();
+  constexpr int32_t& __cordl_internal_get_KeySizeValue();
 
-  constexpr int32_t const& __get_KeySizeValue() const;
+  constexpr int32_t const& __cordl_internal_get_KeySizeValue() const;
 
-  constexpr void __set_KeySizeValue(int32_t value);
+  constexpr void __cordl_internal_set_KeySizeValue(int32_t value);
 
-  constexpr ::System::Security::Cryptography::CipherMode& __get_ModeValue();
+  constexpr ::System::Security::Cryptography::CipherMode& __cordl_internal_get_ModeValue();
 
-  constexpr ::System::Security::Cryptography::CipherMode const& __get_ModeValue() const;
+  constexpr ::System::Security::Cryptography::CipherMode const& __cordl_internal_get_ModeValue() const;
 
-  constexpr void __set_ModeValue(::System::Security::Cryptography::CipherMode value);
+  constexpr void __cordl_internal_set_ModeValue(::System::Security::Cryptography::CipherMode value);
 
-  constexpr ::System::Security::Cryptography::PaddingMode& __get_PaddingValue();
+  constexpr ::System::Security::Cryptography::PaddingMode& __cordl_internal_get_PaddingValue();
 
-  constexpr ::System::Security::Cryptography::PaddingMode const& __get_PaddingValue() const;
+  constexpr ::System::Security::Cryptography::PaddingMode const& __cordl_internal_get_PaddingValue() const;
 
-  constexpr void __set_PaddingValue(::System::Security::Cryptography::PaddingMode value);
+  constexpr void __cordl_internal_set_PaddingValue(::System::Security::Cryptography::PaddingMode value);
 
   static inline ::System::Security::Cryptography::SymmetricAlgorithm* New_ctor();
 

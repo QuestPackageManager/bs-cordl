@@ -31,22 +31,23 @@ namespace Zenject {
 // cpp template
 template <typename TContract>
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(10703)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10703), inst: 1771 })}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(10703)), GenericInstantiation(GenericInstantiation { tdi: TypeDefinitionIndex(10703), inst: 1771 })]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10866))
 // CS Name: ::Zenject::MemoryPoolExpandBinder`1<TContract>*
 class CORDL_TYPE MemoryPoolExpandBinder_1 : public ::Zenject::FactoryArgumentsToChoiceBinder_1<TContract> {
 public:
   // Declarations
   /// @brief Field <MemoryPoolBindInfo>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __get__MemoryPoolBindInfo_k__BackingField, put = __set__MemoryPoolBindInfo_k__BackingField))::Zenject::MemoryPoolBindInfo* _MemoryPoolBindInfo_k__BackingField;
+  __declspec(property(get = __cordl_internal_get__MemoryPoolBindInfo_k__BackingField,
+                      put = __cordl_internal_set__MemoryPoolBindInfo_k__BackingField))::Zenject::MemoryPoolBindInfo* _MemoryPoolBindInfo_k__BackingField;
 
   __declspec(property(get = get_MemoryPoolBindInfo, put = set_MemoryPoolBindInfo))::Zenject::MemoryPoolBindInfo* MemoryPoolBindInfo;
 
-  constexpr ::Zenject::MemoryPoolBindInfo*& __get__MemoryPoolBindInfo_k__BackingField();
+  constexpr ::Zenject::MemoryPoolBindInfo*& __cordl_internal_get__MemoryPoolBindInfo_k__BackingField();
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::MemoryPoolBindInfo*> const& __get__MemoryPoolBindInfo_k__BackingField() const;
+  constexpr ::cordl_internals::to_const_pointer<::Zenject::MemoryPoolBindInfo*> const& __cordl_internal_get__MemoryPoolBindInfo_k__BackingField() const;
 
-  constexpr void __set__MemoryPoolBindInfo_k__BackingField(::Zenject::MemoryPoolBindInfo* value);
+  constexpr void __cordl_internal_set__MemoryPoolBindInfo_k__BackingField(::Zenject::MemoryPoolBindInfo* value);
 
   static inline ::Zenject::MemoryPoolExpandBinder_1<TContract>* New_ctor(::Zenject::DiContainer* bindContainer, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo,
                                                                          ::Zenject::MemoryPoolBindInfo* poolBindInfo);

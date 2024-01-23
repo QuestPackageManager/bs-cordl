@@ -11,9 +11,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x78;
   constexpr static std::size_t addrs = 0x226c040;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConditionalMaterialSwitcher*>::get(), "Awake",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -24,71 +24,71 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   constexpr static std::size_t size = 0x8;
   constexpr static std::size_t addrs = 0x226c0b8;
 
-  inline static const ::MethodInfo* methodInfo() {
+  inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConditionalMaterialSwitcher*>::get(), ".ctor",
-                                                                               std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::Material*& GlobalNamespace::ConditionalMaterialSwitcher::__get__material0() {
+constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::ConditionalMaterialSwitcher::__cordl_internal_get__material0() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____material0;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::ConditionalMaterialSwitcher::__get__material0() const {
+constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::ConditionalMaterialSwitcher::__cordl_internal_get__material0() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____material0;
 }
-constexpr void GlobalNamespace::ConditionalMaterialSwitcher::__set__material0(::UnityEngine::Material* value) {
+constexpr void GlobalNamespace::ConditionalMaterialSwitcher::__cordl_internal_set__material0(::UnityW<::UnityEngine::Material> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____material0)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Material*& GlobalNamespace::ConditionalMaterialSwitcher::__get__material1() {
+constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::ConditionalMaterialSwitcher::__cordl_internal_get__material1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____material1;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Material*> const& GlobalNamespace::ConditionalMaterialSwitcher::__get__material1() const {
+constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::ConditionalMaterialSwitcher::__cordl_internal_get__material1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____material1;
 }
-constexpr void GlobalNamespace::ConditionalMaterialSwitcher::__set__material1(::UnityEngine::Material* value) {
+constexpr void GlobalNamespace::ConditionalMaterialSwitcher::__cordl_internal_set__material1(::UnityW<::UnityEngine::Material> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____material1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BoolSO*& GlobalNamespace::ConditionalMaterialSwitcher::__get__value() {
+constexpr ::UnityW<::GlobalNamespace::BoolSO>& GlobalNamespace::ConditionalMaterialSwitcher::__cordl_internal_get__value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BoolSO*> const& GlobalNamespace::ConditionalMaterialSwitcher::__get__value() const {
+constexpr ::UnityW<::GlobalNamespace::BoolSO> const& GlobalNamespace::ConditionalMaterialSwitcher::__cordl_internal_get__value() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value;
 }
-constexpr void GlobalNamespace::ConditionalMaterialSwitcher::__set__value(::GlobalNamespace::BoolSO* value) {
+constexpr void GlobalNamespace::ConditionalMaterialSwitcher::__cordl_internal_set__value(::UnityW<::GlobalNamespace::BoolSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____value)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Renderer*& GlobalNamespace::ConditionalMaterialSwitcher::__get__renderer() {
+constexpr ::UnityW<::UnityEngine::Renderer>& GlobalNamespace::ConditionalMaterialSwitcher::__cordl_internal_get__renderer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderer;
 }
-constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Renderer*> const& GlobalNamespace::ConditionalMaterialSwitcher::__get__renderer() const {
+constexpr ::UnityW<::UnityEngine::Renderer> const& GlobalNamespace::ConditionalMaterialSwitcher::__cordl_internal_get__renderer() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____renderer;
 }
-constexpr void GlobalNamespace::ConditionalMaterialSwitcher::__set__renderer(::UnityEngine::Renderer* value) {
+constexpr void GlobalNamespace::ConditionalMaterialSwitcher::__cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____renderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::ConditionalMaterialSwitcher::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConditionalMaterialSwitcher*>::get(), "Awake",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::ConditionalMaterialSwitcher* GlobalNamespace::ConditionalMaterialSwitcher::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::New<::GlobalNamespace::ConditionalMaterialSwitcher*>());
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ConditionalMaterialSwitcher*>());
 }
 inline void GlobalNamespace::ConditionalMaterialSwitcher::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ConditionalMaterialSwitcher*>::get(), ".ctor",
-                                                                             std::vector<Il2CppClass*>{}, ::std::vector<Il2CppType const*>{})));
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []

@@ -23,20 +23,20 @@ MARK_REF_PTR_T(::System::Runtime::CompilerServices::RuntimeWrappedException);
 // SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2561))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2561))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(3383))
 // CS Name: ::System.Runtime.CompilerServices::RuntimeWrappedException*
 class CORDL_TYPE RuntimeWrappedException : public ::System::Exception {
 public:
   // Declarations
   /// @brief Field _wrappedException, offset 0x90, size 0x8
-  __declspec(property(get = __get__wrappedException, put = __set__wrappedException))::System::Object* _wrappedException;
+  __declspec(property(get = __cordl_internal_get__wrappedException, put = __cordl_internal_set__wrappedException))::System::Object* _wrappedException;
 
-  constexpr ::System::Object*& __get__wrappedException();
+  constexpr ::System::Object*& __cordl_internal_get__wrappedException();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __get__wrappedException() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__wrappedException() const;
 
-  constexpr void __set__wrappedException(::System::Object* value);
+  constexpr void __cordl_internal_set__wrappedException(::System::Object* value);
 
   static inline ::System::Runtime::CompilerServices::RuntimeWrappedException* New_ctor(::System::Object* thrownObject);
 

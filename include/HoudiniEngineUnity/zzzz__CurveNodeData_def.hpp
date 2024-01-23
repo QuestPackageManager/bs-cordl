@@ -24,20 +24,20 @@ MARK_REF_PTR_T(::HoudiniEngineUnity::CurveNodeData);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613)), TypeDefinitionIndex(TypeDefinitionIndex(10249))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(9619))
 // CS Name: ::HoudiniEngineUnity::CurveNodeData*
 class CORDL_TYPE CurveNodeData : public ::System::Object {
 public:
   // Declarations
   /// @brief Field position, offset 0x10, size 0xc
-  __declspec(property(get = __get_position, put = __set_position))::UnityEngine::Vector3 position;
+  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position))::UnityEngine::Vector3 position;
 
   /// @brief Field rotation, offset 0x1c, size 0xc
-  __declspec(property(get = __get_rotation, put = __set_rotation))::UnityEngine::Vector3 rotation;
+  __declspec(property(get = __cordl_internal_get_rotation, put = __cordl_internal_set_rotation))::UnityEngine::Vector3 rotation;
 
   /// @brief Field scale, offset 0x28, size 0xc
-  __declspec(property(get = __get_scale, put = __set_scale))::UnityEngine::Vector3 scale;
+  __declspec(property(get = __cordl_internal_get_scale, put = __cordl_internal_set_scale))::UnityEngine::Vector3 scale;
 
   /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>"
   constexpr operator ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>*() noexcept;
@@ -45,23 +45,23 @@ public:
   /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>"
   constexpr ::HoudiniEngineUnity::IEquivable_1<::HoudiniEngineUnity::CurveNodeData*>* i___HoudiniEngineUnity__IEquivable_1___HoudiniEngineUnity__CurveNodeData__() noexcept;
 
-  constexpr ::UnityEngine::Vector3& __get_position();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_position();
 
-  constexpr ::UnityEngine::Vector3 const& __get_position() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_position() const;
 
-  constexpr void __set_position(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_position(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_rotation();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_rotation();
 
-  constexpr ::UnityEngine::Vector3 const& __get_rotation() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_rotation() const;
 
-  constexpr void __set_rotation(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_rotation(::UnityEngine::Vector3 value);
 
-  constexpr ::UnityEngine::Vector3& __get_scale();
+  constexpr ::UnityEngine::Vector3& __cordl_internal_get_scale();
 
-  constexpr ::UnityEngine::Vector3 const& __get_scale() const;
+  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get_scale() const;
 
-  constexpr void __set_scale(::UnityEngine::Vector3 value);
+  constexpr void __cordl_internal_set_scale(::UnityEngine::Vector3 value);
 
   static inline ::HoudiniEngineUnity::CurveNodeData* New_ctor();
 

@@ -23,20 +23,20 @@ MARK_REF_PTR_T(::Zenject::SignalCopyBinder);
 // SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(10655))
 // CS Name: ::Zenject::SignalCopyBinder*
 class CORDL_TYPE SignalCopyBinder : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _bindInfos, offset 0x10, size 0x8
-  __declspec(property(get = __get__bindInfos, put = __set__bindInfos))::System::Collections::Generic::List_1<::Zenject::BindInfo*>* _bindInfos;
+  __declspec(property(get = __cordl_internal_get__bindInfos, put = __cordl_internal_set__bindInfos))::System::Collections::Generic::List_1<::Zenject::BindInfo*>* _bindInfos;
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::BindInfo*>*& __get__bindInfos();
+  constexpr ::System::Collections::Generic::List_1<::Zenject::BindInfo*>*& __cordl_internal_get__bindInfos();
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::BindInfo*>*> const& __get__bindInfos() const;
+  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::BindInfo*>*> const& __cordl_internal_get__bindInfos() const;
 
-  constexpr void __set__bindInfos(::System::Collections::Generic::List_1<::Zenject::BindInfo*>* value);
+  constexpr void __cordl_internal_set__bindInfos(::System::Collections::Generic::List_1<::Zenject::BindInfo*>* value);
 
   static inline ::Zenject::SignalCopyBinder* New_ctor();
 

@@ -26,33 +26,33 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Esf::SignerAttribute);
 // SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Esf {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(7))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(7))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(157))
 // CS Name: ::Org.BouncyCastle.Asn1.Esf::SignerAttribute*
 class CORDL_TYPE SignerAttribute : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
   // Declarations
   /// @brief Field claimedAttributes, offset 0x10, size 0x8
-  __declspec(property(get = __get_claimedAttributes, put = __set_claimedAttributes))::Org::BouncyCastle::Asn1::Asn1Sequence* claimedAttributes;
+  __declspec(property(get = __cordl_internal_get_claimedAttributes, put = __cordl_internal_set_claimedAttributes))::Org::BouncyCastle::Asn1::Asn1Sequence* claimedAttributes;
 
   /// @brief Field certifiedAttributes, offset 0x18, size 0x8
-  __declspec(property(get = __get_certifiedAttributes, put = __set_certifiedAttributes))::Org::BouncyCastle::Asn1::X509::AttributeCertificate* certifiedAttributes;
+  __declspec(property(get = __cordl_internal_get_certifiedAttributes, put = __cordl_internal_set_certifiedAttributes))::Org::BouncyCastle::Asn1::X509::AttributeCertificate* certifiedAttributes;
 
   __declspec(property(get = get_ClaimedAttributes))::Org::BouncyCastle::Asn1::Asn1Sequence* ClaimedAttributes;
 
   __declspec(property(get = get_CertifiedAttributes))::Org::BouncyCastle::Asn1::X509::AttributeCertificate* CertifiedAttributes;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __get_claimedAttributes();
+  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_claimedAttributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __get_claimedAttributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_claimedAttributes() const;
 
-  constexpr void __set_claimedAttributes(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+  constexpr void __cordl_internal_set_claimedAttributes(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AttributeCertificate*& __get_certifiedAttributes();
+  constexpr ::Org::BouncyCastle::Asn1::X509::AttributeCertificate*& __cordl_internal_get_certifiedAttributes();
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AttributeCertificate*> const& __get_certifiedAttributes() const;
+  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AttributeCertificate*> const& __cordl_internal_get_certifiedAttributes() const;
 
-  constexpr void __set_certifiedAttributes(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* value);
+  constexpr void __cordl_internal_set_certifiedAttributes(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* value);
 
   /// @brief Method GetInstance, addr 0xe9872c, size 0x154, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Esf::SignerAttribute* GetInstance(::System::Object* obj);

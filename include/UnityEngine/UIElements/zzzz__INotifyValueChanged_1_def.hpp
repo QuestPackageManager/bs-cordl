@@ -15,7 +15,7 @@ namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
 // Is value type: false
-// Dependencies: {}
+// Dependencies: []
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(7127))
 // CS Name: ::UnityEngine.UIElements::INotifyValueChanged`1<T>*
 class CORDL_TYPE INotifyValueChanged_1 {

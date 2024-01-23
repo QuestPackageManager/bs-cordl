@@ -15,26 +15,26 @@ MARK_REF_PTR_T(::UnityEngine::UI::AnimationTriggers);
 // SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UI {
 // Is value type: false
-// Dependencies: {TypeDefinitionIndex(TypeDefinitionIndex(2613))}
+// Dependencies: [TypeDefinitionIndex(TypeDefinitionIndex(2613))]
 // Self: TypeDefinitionIndex(TypeDefinitionIndex(13016))
 // CS Name: ::UnityEngine.UI::AnimationTriggers*
 class CORDL_TYPE AnimationTriggers : public ::System::Object {
 public:
   // Declarations
   /// @brief Field m_NormalTrigger, offset 0x10, size 0x8
-  __declspec(property(get = __get_m_NormalTrigger, put = __set_m_NormalTrigger))::StringW m_NormalTrigger;
+  __declspec(property(get = __cordl_internal_get_m_NormalTrigger, put = __cordl_internal_set_m_NormalTrigger))::StringW m_NormalTrigger;
 
   /// @brief Field m_HighlightedTrigger, offset 0x18, size 0x8
-  __declspec(property(get = __get_m_HighlightedTrigger, put = __set_m_HighlightedTrigger))::StringW m_HighlightedTrigger;
+  __declspec(property(get = __cordl_internal_get_m_HighlightedTrigger, put = __cordl_internal_set_m_HighlightedTrigger))::StringW m_HighlightedTrigger;
 
   /// @brief Field m_PressedTrigger, offset 0x20, size 0x8
-  __declspec(property(get = __get_m_PressedTrigger, put = __set_m_PressedTrigger))::StringW m_PressedTrigger;
+  __declspec(property(get = __cordl_internal_get_m_PressedTrigger, put = __cordl_internal_set_m_PressedTrigger))::StringW m_PressedTrigger;
 
   /// @brief Field m_SelectedTrigger, offset 0x28, size 0x8
-  __declspec(property(get = __get_m_SelectedTrigger, put = __set_m_SelectedTrigger))::StringW m_SelectedTrigger;
+  __declspec(property(get = __cordl_internal_get_m_SelectedTrigger, put = __cordl_internal_set_m_SelectedTrigger))::StringW m_SelectedTrigger;
 
   /// @brief Field m_DisabledTrigger, offset 0x30, size 0x8
-  __declspec(property(get = __get_m_DisabledTrigger, put = __set_m_DisabledTrigger))::StringW m_DisabledTrigger;
+  __declspec(property(get = __cordl_internal_get_m_DisabledTrigger, put = __cordl_internal_set_m_DisabledTrigger))::StringW m_DisabledTrigger;
 
   __declspec(property(get = get_normalTrigger, put = set_normalTrigger))::StringW normalTrigger;
 
@@ -46,35 +46,35 @@ public:
 
   __declspec(property(get = get_disabledTrigger, put = set_disabledTrigger))::StringW disabledTrigger;
 
-  constexpr ::StringW& __get_m_NormalTrigger();
+  constexpr ::StringW& __cordl_internal_get_m_NormalTrigger();
 
-  constexpr ::StringW const& __get_m_NormalTrigger() const;
+  constexpr ::StringW const& __cordl_internal_get_m_NormalTrigger() const;
 
-  constexpr void __set_m_NormalTrigger(::StringW value);
+  constexpr void __cordl_internal_set_m_NormalTrigger(::StringW value);
 
-  constexpr ::StringW& __get_m_HighlightedTrigger();
+  constexpr ::StringW& __cordl_internal_get_m_HighlightedTrigger();
 
-  constexpr ::StringW const& __get_m_HighlightedTrigger() const;
+  constexpr ::StringW const& __cordl_internal_get_m_HighlightedTrigger() const;
 
-  constexpr void __set_m_HighlightedTrigger(::StringW value);
+  constexpr void __cordl_internal_set_m_HighlightedTrigger(::StringW value);
 
-  constexpr ::StringW& __get_m_PressedTrigger();
+  constexpr ::StringW& __cordl_internal_get_m_PressedTrigger();
 
-  constexpr ::StringW const& __get_m_PressedTrigger() const;
+  constexpr ::StringW const& __cordl_internal_get_m_PressedTrigger() const;
 
-  constexpr void __set_m_PressedTrigger(::StringW value);
+  constexpr void __cordl_internal_set_m_PressedTrigger(::StringW value);
 
-  constexpr ::StringW& __get_m_SelectedTrigger();
+  constexpr ::StringW& __cordl_internal_get_m_SelectedTrigger();
 
-  constexpr ::StringW const& __get_m_SelectedTrigger() const;
+  constexpr ::StringW const& __cordl_internal_get_m_SelectedTrigger() const;
 
-  constexpr void __set_m_SelectedTrigger(::StringW value);
+  constexpr void __cordl_internal_set_m_SelectedTrigger(::StringW value);
 
-  constexpr ::StringW& __get_m_DisabledTrigger();
+  constexpr ::StringW& __cordl_internal_get_m_DisabledTrigger();
 
-  constexpr ::StringW const& __get_m_DisabledTrigger() const;
+  constexpr ::StringW const& __cordl_internal_get_m_DisabledTrigger() const;
 
-  constexpr void __set_m_DisabledTrigger(::StringW value);
+  constexpr void __cordl_internal_set_m_DisabledTrigger(::StringW value);
 
   /// @brief Method get_normalTrigger, addr 0x2d50e38, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_normalTrigger();
